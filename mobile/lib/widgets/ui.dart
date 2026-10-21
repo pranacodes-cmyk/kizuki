@@ -267,6 +267,9 @@ class SectionTitle extends StatelessWidget {
 Future<R?> showMimiSheet<R>(BuildContext context, WidgetBuilder builder, {double maxHeightFactor = 0.86}) {
   return showModalBottomSheet<R>(
     context: context,
+    // Above the tab bar, like the web Sheet (z-50 over the z-40 TabBar) — otherwise the
+    // floating tab bar covers the bottom of every card and steals its taps.
+    useRootNavigator: true,
     isScrollControlled: true,
     useSafeArea: true,
     backgroundColor: T.surface,

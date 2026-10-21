@@ -19,7 +19,7 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 - [x] Beginner round 2: 65 comprehensible-input / folk-tale / kids' videos → 594 clips, N5 207, N4 225, N3 152, N2 10
 - [x] Word splitting: long vowels (ー) stay with their word; numbers + counters are one word with the right reading (いっぷん, じゅっぷん, さんぜんねん…)
 - [x] Pinned dictionary download (scripts/content/fetch_dict.sh) so the pipeline re-runs from scratch
-- [x] Automated timing audit (order, bounds, durations, speed)
+- [x] Automated timing audit (order, bounds, durations, speed); lines never overlap the next line
 - [ ] Listen-through spot-check of a sample of clips by a person
 
 ## Shared rules (logic.ts / logic.dart, mirrored tests)
@@ -35,6 +35,7 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 - [x] Welcome tour on the feed (7 steps) + replay in Settings
 - [x] Ask Kizuki chat (word card Explain tab + line menu), streamed AI answers, sign-in + daily-limit states
 - [x] Kizuki branding on splash + welcome ("気づき · the moment it clicks")
+- [x] Paywall perks mention the AI tutor (both clients)
 
 ## Flutter app (same screens)
 - [x] App shell, theme, fonts, assets, router
@@ -50,6 +51,8 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 ## Android delivery
 - [x] flutter analyze + flutter test clean (53 Flutter tests, 43 web tests)
 - [x] GitHub Actions: analyze → test → release APK → Android emulator end-to-end (release smoke + full flow with screenshots)
+- [x] Release APK on the emulator: opens to the welcome screen, saved-progress error gone (run 39691375925)
+- [x] Emulator watcher closes system pop-ups (launcher "isn't responding") that covered the app
 - [ ] Emulator end-to-end run green on GitHub with the fixes above
 - [ ] Final APK from the green GitHub run → Files
 - [ ] Test on a real Android phone

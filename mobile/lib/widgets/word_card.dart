@@ -63,6 +63,7 @@ const _tabs = ['Meaning', 'Explain', 'Examples', 'Notes'];
 class _WordCardState extends State<WordCard> {
   String tab = 'Meaning';
   late final TextEditingController _note;
+  late final AppState _app; // kept for dispose(), where the widget tree can no longer be read
   List<String>? _others;
 
   m.Word get w => widget.clip.lines[widget.line].words[widget.idx];
@@ -71,14 +72,14 @@ class _WordCardState extends State<WordCard> {
   @override
   void initState() {
     super.initState();
-    final app = context.read<AppState>();
+    final app = _app = context.read<AppState>();
     _note = TextEditingController(text: app.words[key]?.note ?? '');
     _others = clipsWithWord(widget.content.clips, key, widget.clip.id, app.profile.jlpt);
   }
 
   @override
   void dispose() {
-    final app = context.read<AppState>();
+    final app = _app;
     final live = app.words[key];
     if (live != null && live.status != 'removed' && live.note != _note.text) app.setWordNote(key, _note.text.length > 500 ? _note.text.substring(0, 500) : _note.text);
     _note.dispose();
@@ -156,7 +157,7 @@ class _WordCardState extends State<WordCard> {
                   child: Button3D(
                     height: 44,
                     onPressed: () => app.saveWord(_input()),
-                    child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [const Icon(LucideIcons.plus, size: 16), const SizedBox(width: 6), Text('Save word', style: txt(15, w: FontWeight.w800, c: T.primaryFg))]),
+                    child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [const Icon(LucideIcons.plus, size: 16), const SizedBox(width: 6), Flexible(child: Text('Save word', maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(15, w: FontWeight.w800, c: T.primaryFg)))]),
                   ),
                 ),
                 const SizedBox(width: 8),
