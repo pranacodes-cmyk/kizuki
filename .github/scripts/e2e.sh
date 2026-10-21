@@ -23,6 +23,9 @@ adb shell input keyevent 82 </dev/null || true
 adb shell settings put global window_animation_scale 0 </dev/null || true
 adb shell settings put global transition_animation_scale 0 </dev/null || true
 adb shell settings put global animator_duration_scale 0 </dev/null || true
+# No crash/ANR pop-ups from other apps (the launcher often ANRs on a cold CI emulator and its
+# dialog covered every screenshot). Our own crashes/ANRs are still caught from logcat below.
+adb shell settings put global hide_error_dialogs 1 </dev/null || true
 DEVICE="$(adb devices | awk 'NR==2 {print $1}')"
 echo "device: $DEVICE"
 adb shell getprop ro.build.version.release </dev/null | sed 's/^/android: /'
@@ -49,6 +52,9 @@ PY
 watch_dialogs() {
   while true; do
     focus=$(adb shell dumpsys window </dev/null 2>/dev/null | grep -m1 'mCurrentFocus' || true)
+    if adb shell dumpsys window windows </dev/null 2>/dev/null | grep -q 'Application Not Responding'; then
+      focus="$(adb shell dumpsys window windows </dev/null 2>/dev/null | grep -m1 'Application Not Responding') Not Responding"
+    fi
     case "$focus" in
       *GrantPermissionsActivity*)
         xy=$(tap_id permission_allow_button)
@@ -90,7 +96,7 @@ sleep 3
 shot "$OUT/release/after_get_started.png"
 if adb shell pidof "$PKG" </dev/null >/dev/null; then echo "running" > "$OUT/release/process.txt"; else echo "NOT RUNNING (crashed?)" > "$OUT/release/process.txt"; fi
 adb logcat -d -v time </dev/null > "$OUT/release/logcat.txt"
-grep -E "FATAL EXCEPTION|AndroidRuntime|E/flutter|KIZUKI_ERROR|Impeller|libc.*Fatal" "$OUT/release/logcat.txt" > "$OUT/release/errors.txt" || true
+grep -E "FATAL EXCEPTION|AndroidRuntime|E/flutter|KIZUKI_ERROR|Impeller|libc.*Fatal|ANR in $PKG" "$OUT/release/logcat.txt" > "$OUT/release/errors.txt" || true
 echo "release process: $(cat "$OUT/release/process.txt")"
 echo "release error lines: $(wc -l < "$OUT/release/errors.txt")"
 adb uninstall "$PKG" </dev/null >/dev/null 2>&1 || true
@@ -122,7 +128,7 @@ RC=${PIPESTATUS[0]}
 
 sleep 2
 adb logcat -d -v time </dev/null > "$OUT/flow/logcat.txt"
-grep -E "FATAL EXCEPTION|AndroidRuntime|E/flutter|KIZUKI_ERROR" "$OUT/flow/logcat.txt" > "$OUT/flow/errors.txt" || true
+grep -E "FATAL EXCEPTION|AndroidRuntime|E/flutter|KIZUKI_ERROR|ANR in $PKG" "$OUT/flow/logcat.txt" > "$OUT/flow/errors.txt" || true
 kill "$GRANT_PID" "$WATCH_PID" "$SHOT_PID" 2>/dev/null || true
 pkill -f "adb logcat" 2>/dev/null || true
 echo "flow test exit code: $RC"
