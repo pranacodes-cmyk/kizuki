@@ -93,11 +93,11 @@ class _AccountScreenState extends State<AccountScreen> {
     setState(() => error = _validate());
     if (error != null) return;
     setState(() => busy = true);
+    final name = context.read<AppState>().profile.name;
     if (!await _backend()) return;
     final auth = Supabase.instance.client.auth;
     try {
       if (mode == 'signup') {
-        final name = context.read<AppState>().profile.name;
         final res = await auth.signUp(email: _email.text.trim(), password: _password.text, emailRedirectTo: AppConfig.webOrigin, data: name.isEmpty ? null : {'name': name});
         if (res.session == null) {
           setState(() => sent = 'confirm');
