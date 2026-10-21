@@ -1,0 +1,154 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.4,
+   "end": 41.8,
+   "title": "Traveling to Slovenia",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "friends"
+   ],
+   "grammar": [
+    "〜に行く — to go to",
+    "〜ています — continuous state / residing",
+    "〜たかった — wanted to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.6,
+     "end": 20.2,
+     "ja": "皆さん、私は10月にスロベニアに旅行に行きました。",
+     "en": "Everyone, in October I went on a trip to Slovenia.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 21.3,
+     "end": 29.8,
+     "ja": "スロベニアに私の友達が住んでいます。",
+     "en": "My friend lives in Slovenia.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 30.8,
+     "end": 35.0,
+     "ja": "友達に会いたかったです。",
+     "en": "I wanted to see my friend.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 36.0,
+     "end": 41.5,
+     "ja": "だから、私はスロベニアに行きました。",
+     "en": "So, I went to Slovenia.",
+     "speaker": "Chieko"
+    }
+   ]
+  },
+  {
+   "start": 198.5,
+   "end": 223.5,
+   "title": "Eating Cake by the Lake",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜から — because / reason",
+    "〜て — connecting actions sequentially"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 198.8,
+     "end": 208.0,
+     "ja": "湖の近くでケーキを食べました。",
+     "en": "I ate cake near the lake.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 209.2,
+     "end": 219.8,
+     "ja": "ベンチがありましたから、ベンチに座ってケーキを食べました。",
+     "en": "There was a bench, so I sat on the bench and ate the cake.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 220.5,
+     "end": 223.0,
+     "ja": "美味しかったです。",
+     "en": "It was delicious.",
+     "speaker": "Chieko"
+    }
+   ]
+  },
+  {
+   "start": 374.5,
+   "end": 398.5,
+   "title": "Buying Milk from a Vending Machine",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜てくる — to come out / emerge"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 375.2,
+     "end": 379.2,
+     "ja": "お金を入れます。お金を入れます。",
+     "en": "I put money in. I put money in.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 379.8,
+     "end": 384.0,
+     "ja": "それからここにボトルをつけて、",
+     "en": "Then, I attach the bottle here,",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 385.0,
+     "end": 388.5,
+     "ja": "そしてボタンを押します。",
+     "en": "and then I press the button.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 389.5,
+     "end": 391.2,
+     "ja": "見てください。",
+     "en": "Please look.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 391.8,
+     "end": 393.8,
+     "ja": "これは牛乳です。",
+     "en": "This is milk.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 394.2,
+     "end": 397.5,
+     "ja": "牛乳が出てきました。",
+     "en": "The milk has come out.",
+     "speaker": "Chieko"
+    }
+   ]
+  }
+ ],
+ "videoId": "5WOH6-ibcMU",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,124 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 223.0,
+   "end": 255.2,
+   "title": "Meeting a Mysterious Old Man",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "〜へ行く — destination particle",
+    "〜てやろう — let me do ... (for you)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 223.4,
+     "end": 232.0,
+     "ja": "ある日、雷太郎は山の奥へ行きました。",
+     "en": "One day, Raitaro went deep into the mountains.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 235.5,
+     "end": 244.8,
+     "ja": "そこで、不思議なおじいさんに会いました。",
+     "en": "There, he met a mysterious old man.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 246.5,
+     "end": 254.6,
+     "ja": "「お前に、カエルの術を教えてやろう。」",
+     "en": "\"I shall teach you the art of the frog.\"",
+     "speaker": "Old man"
+    }
+   ]
+  },
+  {
+   "start": 324.0,
+   "end": 346.5,
+   "title": "A Giant Frog Appears",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "animals"
+   ],
+   "grammar": [
+    "すると — thereupon / then",
+    "なんて〜なんだ — what a ...!"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 324.5,
+     "end": 326.3,
+     "ja": "「それっ。」",
+     "en": "\"Take that!\"",
+     "speaker": "Raitaro"
+    },
+    {
+     "start": 327.4,
+     "end": 336.0,
+     "ja": "すると、大きなカエルが現れました。",
+     "en": "Then, a giant frog appeared.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 338.0,
+     "end": 345.5,
+     "ja": "「おお。なんて大きなカエルなんだ。」",
+     "en": "\"Whoa. What a huge frog!\"",
+     "speaker": "Raitaro"
+    }
+   ]
+  },
+  {
+   "start": 372.0,
+   "end": 402.5,
+   "title": "Orochimaru's Snake Jutsu",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "〜える / 〜られる — potential form",
+    "〜と — when / as soon as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 372.5,
+     "end": 381.0,
+     "ja": "大蛇丸は、大きな蛇を呼ぶ術を使えます。",
+     "en": "Orochimaru could use jutsu to summon giant snakes.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 384.4,
+     "end": 389.8,
+     "ja": "「お前たちには負けないぞ。」",
+     "en": "\"I won't lose to you!\"",
+     "speaker": "Orochimaru"
+    },
+    {
+     "start": 392.5,
+     "end": 402.0,
+     "ja": "大蛇丸が手を上げると、大きな蛇が現れました。",
+     "en": "When Orochimaru raised his hand, a giant snake appeared.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "xuc0YWZW8mU",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

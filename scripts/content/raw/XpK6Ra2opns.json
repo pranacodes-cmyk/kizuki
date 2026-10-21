@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.3,
+   "end": 16.8,
+   "title": "No Bread for Breakfast!",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜ちゃった — did completely / regrettably",
+    "〜ない — negative form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.5,
+     "end": 3.0,
+     "ja": "たなかさん、おはよう。",
+     "en": "Good morning, Tanaka-san.",
+     "speaker": "Egg"
+    },
+    {
+     "start": 3.3,
+     "end": 4.7,
+     "ja": "おはよう。",
+     "en": "Good morning.",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 5.0,
+     "end": 7.2,
+     "ja": "あれ？パンがない。",
+     "en": "Huh? There's no bread.",
+     "speaker": "Egg"
+    },
+    {
+     "start": 7.8,
+     "end": 12.0,
+     "ja": "ああ、さっき最後の一枚食べちゃった。",
+     "en": "Ah, I ate the last slice earlier.",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 12.6,
+     "end": 16.4,
+     "ja": "え〜？ぼくの朝ごはんないの？",
+     "en": "What? There's no breakfast for me?",
+     "speaker": "Egg"
+    }
+   ]
+  },
+  {
+   "start": 50.8,
+   "end": 64.8,
+   "title": "What Kind of Bread is Anpan?",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜って — speaking of / topic marker",
+    "〜てみる — to try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 51.2,
+     "end": 52.8,
+     "ja": "ん？あんぱん？",
+     "en": "Hmm? Anpan?",
+     "speaker": "Egg"
+    },
+    {
+     "start": 53.2,
+     "end": 57.4,
+     "ja": "すみません、あんぱんってどんなパンですか？",
+     "en": "Excuse me, what kind of bread is anpan?",
+     "speaker": "Egg"
+    },
+    {
+     "start": 57.8,
+     "end": 61.8,
+     "ja": "中にあんこが入っているパンですよ。",
+     "en": "It's bread with sweet bean paste inside.",
+     "speaker": "Baker"
+    },
+    {
+     "start": 62.1,
+     "end": 64.3,
+     "ja": "１個買ってみよう。",
+     "en": "I'll buy one and try it.",
+     "speaker": "Egg"
+    }
+   ]
+  },
+  {
+   "start": 65.0,
+   "end": 82.2,
+   "title": "Is There Melon in Melon Bread?",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜のかな — I wonder if",
+    "〜みたい — like / resembling"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 65.5,
+     "end": 67.4,
+     "ja": "ん？メロンパン？",
+     "en": "Hmm? Melonpan?",
+     "speaker": "Egg"
+    },
+    {
+     "start": 67.8,
+     "end": 71.4,
+     "ja": "パンの中にメロンが入ってるのかな？",
+     "en": "I wonder if there is melon inside the bread?",
+     "speaker": "Egg"
+    },
+    {
+     "start": 72.0,
+     "end": 73.5,
+     "ja": "ちがいますよ。",
+     "en": "No, that's not it.",
+     "speaker": "Baker"
+    },
+    {
+     "start": 73.7,
+     "end": 77.5,
+     "ja": "メロンみたいな形なので、メロンパンって言います。",
+     "en": "It's called melonpan because it's shaped like a melon.",
+     "speaker": "Baker"
+    },
+    {
+     "start": 78.2,
+     "end": 81.8,
+     "ja": "じゃあ、これも１個買ってみよう。",
+     "en": "Then I'll buy one of these too and try it.",
+     "speaker": "Egg"
+    }
+   ]
+  }
+ ],
+ "videoId": "XpK6Ra2opns",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.5,
+   "end": 32.5,
+   "title": "Spring Has Come to Japan",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜てくる — gradual change",
+    "〜と思う — thinking or opinion"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.8,
+     "end": 15.6,
+     "ja": "皆さん、もう春ですね。",
+     "en": "Everyone, it's already spring, isn't it?",
+     "speaker": "Mei"
+    },
+    {
+     "start": 16.2,
+     "end": 19.8,
+     "ja": "暖かくなってきましたか？",
+     "en": "Has it started to get warm where you are?",
+     "speaker": "Mei"
+    },
+    {
+     "start": 20.3,
+     "end": 25.8,
+     "ja": "春はどこでもいい季節だと思うんですが、",
+     "en": "I think spring is a nice season anywhere, but...",
+     "speaker": "Mei"
+    },
+    {
+     "start": 26.8,
+     "end": 32.2,
+     "ja": "日本も春はとってもいい季節です。",
+     "en": "spring in Japan is also a wonderful season.",
+     "speaker": "Mei"
+    }
+   ]
+  },
+  {
+   "start": 61.0,
+   "end": 82.5,
+   "title": "Viewing Cherry Blossoms at Night",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜に行く — purpose of going",
+    "〜といえば — speaking of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 61.2,
+     "end": 63.8,
+     "ja": "ではまず一つ目、",
+     "en": "Now, first of all,",
+     "speaker": "Mei"
+    },
+    {
+     "start": 64.2,
+     "end": 67.8,
+     "ja": "夜桜のライトアップを見に行く。",
+     "en": "going to see the night cherry blossom light-up.",
+     "speaker": "Mei"
+    },
+    {
+     "start": 68.2,
+     "end": 72.0,
+     "ja": "夜桜のライトアップを見に行く。",
+     "en": "Going to see the night cherry blossom light-up.",
+     "speaker": "Mei"
+    },
+    {
+     "start": 72.8,
+     "end": 76.4,
+     "ja": "日本の春といえば、",
+     "en": "Speaking of spring in Japan,",
+     "speaker": "Mei"
+    },
+    {
+     "start": 77.0,
+     "end": 78.8,
+     "ja": "桜？",
+     "en": "cherry blossoms?",
+     "speaker": "Mei"
+    },
+    {
+     "start": 79.0,
+     "end": 82.2,
+     "ja": "桜が本当に有名ですよね。",
+     "en": "Cherry blossoms are really famous, aren't they?",
+     "speaker": "Mei"
+    }
+   ]
+  },
+  {
+   "start": 263.5,
+   "end": 290.0,
+   "title": "Enjoying Seasonal Seafood in Spring",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜とか — listing examples",
+    "〜てみる — trying doing something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 263.8,
+     "end": 265.8,
+     "ja": "三つ目、",
+     "en": "Number three,",
+     "speaker": "Mei"
+    },
+    {
+     "start": 266.0,
+     "end": 268.4,
+     "ja": "春の海鮮を楽しむ。",
+     "en": "enjoying spring seafood.",
+     "speaker": "Mei"
+    },
+    {
+     "start": 268.8,
+     "end": 271.2,
+     "ja": "春の海鮮を楽しむ。",
+     "en": "Enjoying spring seafood.",
+     "speaker": "Mei"
+    },
+    {
+     "start": 271.6,
+     "end": 274.0,
+     "ja": "やっぱり日本って魚…",
+     "en": "As you'd expect, in Japan, fish...",
+     "speaker": "Mei"
+    },
+    {
+     "start": 274.2,
+     "end": 282.5,
+     "ja": "やっぱ寿司、刺身とかのお魚がとっても有名で人気だと思うんですけど、",
+     "en": "I think fish like sushi and sashimi is famous and popular, but...",
+     "speaker": "Mei"
+    },
+    {
+     "start": 283.0,
+     "end": 287.8,
+     "ja": "春にとても美味しい魚ももちろんあるので、",
+     "en": "there are of course fish that are delicious in spring, so",
+     "speaker": "Mei"
+    },
+    {
+     "start": 288.0,
+     "end": 289.8,
+     "ja": "ぜひ食べてみてください。",
+     "en": "please definitely try some.",
+     "speaker": "Mei"
+    }
+   ]
+  }
+ ],
+ "videoId": "ixxZchNc9Nk",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

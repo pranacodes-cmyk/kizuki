@@ -1,0 +1,206 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 39.1,
+   "end": 59.8,
+   "title": "How Earthworms Help Strawberries Grow",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "animals",
+    "food"
+   ],
+   "grammar": [
+    "〜ている — ongoing action",
+    "〜のおかげで — thanks to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 39.3,
+     "end": 44.7,
+     "ja": "そう、ミミズよ。ミミズはとっても働き者のお手伝いさんなの。",
+     "en": "That's right, earthworms! Earthworms are very hard-working little helpers.",
+     "speaker": "Miss Rabbit"
+    },
+    {
+     "start": 45.3,
+     "end": 47.7,
+     "ja": "本当？くねくねしてるだけだよ。",
+     "en": "Really? They're just wriggling around.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 48.3,
+     "end": 51.0,
+     "ja": "そう。くねくねして土の中にトンネルを作るの。",
+     "en": "Yes. By wriggling, they make tunnels through the soil.",
+     "speaker": "Miss Rabbit"
+    },
+    {
+     "start": 51.5,
+     "end": 55.7,
+     "ja": "おかげで空気や水がイチゴの根っこに届くのよ。",
+     "en": "Thanks to that, air and water can reach the strawberry roots.",
+     "speaker": "Miss Rabbit"
+    },
+    {
+     "start": 56.1,
+     "end": 57.6,
+     "ja": "へえー！",
+     "en": "Wow!",
+     "speaker": "Everyone"
+    },
+    {
+     "start": 57.7,
+     "end": 59.3,
+     "ja": "それは面白いね。",
+     "en": "That's fascinating.",
+     "speaker": "Daddy Pig"
+    }
+   ]
+  },
+  {
+   "start": 134.2,
+   "end": 155.0,
+   "title": "The Important Job of Bees",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "animals",
+    "nature"
+   ],
+   "grammar": [
+    "〜てくれる — to do for someone",
+    "〜ために — in order to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 134.4,
+     "end": 138.2,
+     "ja": "それじゃあ、蜂がどんなお手伝いをしてくれるのかわかる人はいる？",
+     "en": "Now then, does anyone know how bees help out?",
+     "speaker": "Miss Rabbit"
+    },
+    {
+     "start": 139.6,
+     "end": 143.1,
+     "ja": "分かった！蜂は蜂蜜を作ってくれる。",
+     "en": "I know! Bees make honey for us.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 143.8,
+     "end": 145.6,
+     "ja": "その通りよ、ペッパ。",
+     "en": "That's right, Peppa.",
+     "speaker": "Miss Rabbit"
+    },
+    {
+     "start": 146.3,
+     "end": 150.0,
+     "ja": "蜂蜜を作るために蜂が飛び回って、",
+     "en": "While flying around to make honey,",
+     "speaker": "Miss Rabbit"
+    },
+    {
+     "start": 150.1,
+     "end": 153.0,
+     "ja": "花粉を運んでくれるおかげでイチゴが育つのよ。",
+     "en": "they carry pollen, which helps the strawberries grow.",
+     "speaker": "Miss Rabbit"
+    },
+    {
+     "start": 153.3,
+     "end": 155.0,
+     "ja": "蜂って偉い！",
+     "en": "Bees are amazing!",
+     "speaker": "Peppa"
+    }
+   ]
+  },
+  {
+   "start": 540.3,
+   "end": 607.5,
+   "title": "A Ride on the Jet Ski",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "travel",
+    "family"
+   ],
+   "grammar": [
+    "〜前に — before doing",
+    "〜てしまう — expressing regret or completion",
+    "〜より〜のほうが — comparing two things"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 540.5,
+     "end": 544.7,
+     "ja": "どうも！日が沈む前にカヌーを返す約束ですよ。",
+     "en": "Hello! The agreement was to return the canoe before sunset.",
+     "speaker": "Miss Rabbit"
+    },
+    {
+     "start": 545.1,
+     "end": 547.5,
+     "ja": "ごめんなさい。オールを失くしちゃって。",
+     "en": "I'm sorry. We lost the oars.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 548.0,
+     "end": 550.3,
+     "ja": "大丈夫！別の楽しいことしましょう。",
+     "en": "No problem! Let's do something else fun.",
+     "speaker": "Miss Rabbit"
+    },
+    {
+     "start": 551.0,
+     "end": 553.2,
+     "ja": "ジェットスキーで送ってあげる。",
+     "en": "I'll tow you back with my jet ski.",
+     "speaker": "Miss Rabbit"
+    },
+    {
+     "start": 554.0,
+     "end": 556.5,
+     "ja": "これでよし。さあ、捕まって！",
+     "en": "All set. Hold on tight!",
+     "speaker": "Miss Rabbit"
+    },
+    {
+     "start": 557.7,
+     "end": 600.6,
+     "ja": "カヌーよりこっちの方が楽しいね！",
+     "en": "This is even more fun than canoeing!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 601.0,
+     "end": 604.1,
+     "ja": "今日は最高のお天気じゃなかったけど、",
+     "en": "The weather wasn't the best today, but...",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 604.8,
+     "end": 607.2,
+     "ja": "とっても楽しかったね！",
+     "en": "...it was so much fun!",
+     "speaker": "Peppa"
+    }
+   ]
+  }
+ ],
+ "videoId": "z8ONOZYe00c",
+ "pickTopics": [
+  "family",
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

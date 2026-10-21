@@ -1,0 +1,110 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 49.2,
+   "end": 74.0,
+   "title": "Once Upon a Time, Jack Lived with His Mom",
+   "level": "N5",
+   "topics": [
+    "family",
+    "culture"
+   ],
+   "grammar": [
+    "〜と — together with",
+    "〜ていました — past continuous"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 49.5,
+     "end": 60.5,
+     "ja": "昔々、ジャックがいました。",
+     "en": "Once upon a time, there was a boy named Jack.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 63.5,
+     "end": 73.5,
+     "ja": "お母さんと一緒に暮らしていました。",
+     "en": "He lived together with his mother.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 140.8,
+   "end": 168.0,
+   "title": "A Mysterious Man with Magic Beans",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜をあげる — to give",
+    "〜ていました — past state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 141.2,
+     "end": 152.0,
+     "ja": "男の人は、ふしぎな豆を持っていました。",
+     "en": "The man had mysterious beans.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 156.5,
+     "end": 167.3,
+     "ja": "「この豆をあげるよ。うしをくれる？」",
+     "en": "\"I will give you these beans. Will you give me the cow?\"",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 223.2,
+   "end": 253.0,
+   "title": "Mom Was Angry",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜だけ — only",
+    "〜へ — direction particle"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 223.6,
+     "end": 229.8,
+     "ja": "お母さんは、おこりました。",
+     "en": "His mother got angry.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 232.5,
+     "end": 239.8,
+     "ja": "「お金は？豆だけなの？」",
+     "en": "\"Where is the money? Just beans?\"",
+     "speaker": "Mother"
+    },
+    {
+     "start": 243.8,
+     "end": 252.4,
+     "ja": "お母さんは、豆を外へなげました。",
+     "en": "His mother threw the beans outside.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "GPQ1JeFx7jY",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

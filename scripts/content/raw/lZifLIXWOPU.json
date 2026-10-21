@@ -1,0 +1,185 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 18.0,
+   "end": 43.6,
+   "title": "Going for Ice Cream with Family",
+   "level": "N5",
+   "topics": [
+    "food",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜に行きませんか — inviting someone to do something",
+    "〜と思います — expressing thoughts or predictions",
+    "〜始める — to begin doing something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.0,
+     "end": 20.6,
+     "ja": "あのー、今日は暑いので、",
+     "en": "Um, since it's hot today,",
+     "speaker": "Ken"
+    },
+    {
+     "start": 20.7,
+     "end": 25.8,
+     "ja": "皆さん、一緒にアイスクリームを食べに行きませんか？",
+     "en": "everyone, wouldn't you like to go eat ice cream together?",
+     "speaker": "Ken"
+    },
+    {
+     "start": 26.2,
+     "end": 30.7,
+     "ja": "今日は僕の家族も一緒に行くと思います。",
+     "en": "I think my family will also be going along today.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 31.0,
+     "end": 36.6,
+     "ja": "僕のお母さんが「アイスクリーム食べたいね」って言い始めました。",
+     "en": "My mom started saying, \"I'd like to eat ice cream.\"",
+     "speaker": "Ken"
+    },
+    {
+     "start": 36.9,
+     "end": 40.5,
+     "ja": "だから、家族みんなで今から行きます。",
+     "en": "So our whole family is going right now.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 41.0,
+     "end": 43.6,
+     "ja": "皆さんも一緒に行きましょう！",
+     "en": "Let's all go together!",
+     "speaker": "Ken"
+    }
+   ]
+  },
+  {
+   "start": 330.5,
+   "end": 352.2,
+   "title": "What Does Biyori Mean?",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜という意味 — meaning that...",
+    "〜のに — for / in order to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 330.8,
+     "end": 334.6,
+     "ja": "今日はアイスクリーム日和ですよ。",
+     "en": "Today is the perfect day for ice cream.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 335.5,
+     "end": 342.5,
+     "ja": "その「日和」の意味はそれに一番いい日っていう意味です。",
+     "en": "The meaning of that \"biyori\" is that it's the ideal day for something.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 343.3,
+     "end": 345.5,
+     "ja": "アイスクリーム日和。",
+     "en": "An ice cream day.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 345.7,
+     "end": 351.8,
+     "ja": "今日はアイスクリームを食べるのに一番いいっていう日ですね。",
+     "en": "Today is the day that's best for eating ice cream.",
+     "speaker": "Ken"
+    }
+   ]
+  },
+  {
+   "start": 588.5,
+   "end": 610.5,
+   "title": "Talking to the Goats",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜の？ — casual question particle",
+    "〜ないよ — informing negative statement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 588.8,
+     "end": 591.5,
+     "ja": "ヤギさん、こんにちは！",
+     "en": "Hello, Mr. Goat!",
+     "speaker": "Ken"
+    },
+    {
+     "start": 594.3,
+     "end": 596.2,
+     "ja": "リンゴ好きなの？",
+     "en": "Do you like apples?",
+     "speaker": "Ken"
+    },
+    {
+     "start": 596.4,
+     "end": 598.6,
+     "ja": "好きな食べ物は何ですか？",
+     "en": "What is your favorite food?",
+     "speaker": "Ken"
+    },
+    {
+     "start": 599.0,
+     "end": 601.2,
+     "ja": "リンゴ？もうリンゴないよ！",
+     "en": "Apples? There are no more apples!",
+     "speaker": "Ken"
+    },
+    {
+     "start": 601.6,
+     "end": 603.5,
+     "ja": "お、びっくりした！",
+     "en": "Whoa, that surprised me!",
+     "speaker": "Ken"
+    },
+    {
+     "start": 604.8,
+     "end": 606.5,
+     "ja": "小さいね！",
+     "en": "It's so small!",
+     "speaker": "Ken"
+    },
+    {
+     "start": 606.6,
+     "end": 608.5,
+     "ja": "赤ちゃんですか？",
+     "en": "Is it a baby?",
+     "speaker": "Ken"
+    }
+   ]
+  }
+ ],
+ "videoId": "lZifLIXWOPU",
+ "pickTopics": [
+  "daily",
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

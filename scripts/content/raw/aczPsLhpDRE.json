@@ -1,0 +1,147 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 34.5,
+   "end": 52.5,
+   "title": "The Meaning of Itadakimasu",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "前に — before doing",
+    "〜てくれる — to do for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 34.7,
+     "end": 38.0,
+     "ja": "日本ではご飯を食べる前に、",
+     "en": "In Japan, before eating a meal,",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 38.0,
+     "end": 42.0,
+     "ja": "必ず「いただきます」と言います。",
+     "en": "we always say \"itadakimasu\".",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 42.8,
+     "end": 46.8,
+     "ja": "この言葉には食べ物を作ってくれた人や、",
+     "en": "This phrase expresses gratitude to the person who made the food,",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 46.9,
+     "end": 52.0,
+     "ja": "食材の命に感謝する意味があります。",
+     "en": "and to the lives of the ingredients.",
+     "speaker": "Yukino"
+    }
+   ]
+  },
+  {
+   "start": 106.8,
+   "end": 126.5,
+   "title": "Saying Gochisousama Deshita",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — when/after doing",
+    "〜てくれる — to do for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 107.1,
+     "end": 112.4,
+     "ja": "食べ終わったら、「ごちそうさまでした」と言います。",
+     "en": "When we finish eating, we say \"gochisousama deshita\".",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 113.0,
+     "end": 116.8,
+     "ja": "これは料理を作ってくれた人や、",
+     "en": "This is a phrase to convey thanks to the cook",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 116.8,
+     "end": 121.0,
+     "ja": "食材に「ありがとう」と伝える言葉です。",
+     "en": "and for the ingredients.",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 122.0,
+     "end": 126.2,
+     "ja": "レストランでも家でも、みんな言います。",
+     "en": "Everyone says it, both at restaurants and at home.",
+     "speaker": "Yukino"
+    }
+   ]
+  },
+  {
+   "start": 140.8,
+   "end": 200.2,
+   "title": "Taking Off Shoes in Japanese Homes",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜とき — when doing",
+    "〜ために — in order to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 141.0,
+     "end": 145.8,
+     "ja": "日本の家に入るときは、必ず靴を脱ぎます。",
+     "en": "When entering a Japanese house, we always take off our shoes.",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 146.8,
+     "end": 150.0,
+     "ja": "玄関という場所で靴を脱いで、",
+     "en": "We take off our shoes in an area called the genkan,",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 150.0,
+     "end": 154.4,
+     "ja": "スリッパや靴下で家に入ります。",
+     "en": "and enter the house in slippers or socks.",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 155.2,
+     "end": 159.8,
+     "ja": "これは家を綺麗に保つための習慣です。",
+     "en": "This is a custom to keep the house clean.",
+     "speaker": "Yukino"
+    }
+   ]
+  }
+ ],
+ "videoId": "aczPsLhpDRE",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

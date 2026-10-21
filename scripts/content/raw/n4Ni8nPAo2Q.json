@@ -1,0 +1,139 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 81.5,
+   "end": 107.2,
+   "title": "When Unexpected Expenses Happen",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜てしまう — accidental / regretful action",
+    "〜時 — when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 82.0,
+     "end": 91.5,
+     "ja": "はい、例えば怪我や病気をして、仕事ができなくなってしまった時、",
+     "en": "Yes, for example, when you get injured or sick and become unable to work,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 92.2,
+     "end": 99.5,
+     "ja": "えー、車が急に壊れてしまった時、",
+     "en": "uh, when your car suddenly breaks down,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 100.0,
+     "end": 106.8,
+     "ja": "お金が急に必要になる時もありますよね。",
+     "en": "there are times when you suddenly need money, right?",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 189.3,
+   "end": 210.8,
+   "title": "What Counts as Wasting Money?",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜にとって — for / to (someone)",
+    "〜たくない — do not want to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 189.5,
+     "end": 198.8,
+     "ja": "例えば、私にとって毎回高いレストランにお金を使いたくないんです。",
+     "en": "For instance, for me, I don't want to spend money on expensive restaurants every time.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 199.3,
+     "end": 204.3,
+     "ja": "これは、私にとっては浪費です。",
+     "en": "To me, this is a waste of money.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 205.0,
+     "end": 210.3,
+     "ja": "でも、他の人にとっては違いますよね。",
+     "en": "But for other people, it's different, isn't it?",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 278.8,
+   "end": 308.2,
+   "title": "Saving Money as a Student",
+   "level": "N4",
+   "topics": [
+    "school",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜て、〜て — connecting actions",
+    "〜ていく — to take and go"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 279.0,
+     "end": 284.8,
+     "ja": "だから、居酒屋やスーパーでアルバイトをして、",
+     "en": "So, I worked part-time at an izakaya and a supermarket,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 285.2,
+     "end": 290.8,
+     "ja": "本当に頑張って節約をしました。",
+     "en": "and really tried my best to save money.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 291.2,
+     "end": 296.0,
+     "ja": "スーパーで安い野菜やお肉を買って、",
+     "en": "I bought cheap vegetables and meat at the supermarket,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 296.5,
+     "end": 300.5,
+     "ja": "自分で毎日料理をして、",
+     "en": "cooked by myself every day,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 300.8,
+     "end": 307.7,
+     "ja": "大学にも自分で弁当を作って持っていっていました。",
+     "en": "and made bento lunches to take to university too.",
+     "speaker": "Shun"
+    }
+   ]
+  }
+ ],
+ "videoId": "n4Ni8nPAo2Q",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -71,13 +71,18 @@ void main() {
     await tapText('30-day streak', after: 300);
     await tapText('Commit to 30 days', after: 900);
     await waitFor(find.byType(TextField), what: 'name field');
-    await tester.enterText(find.byType(TextField), 'Mohit');
+    // On a real device the soft keyboard owns text input, so type through the field's controller.
+    final nameField = tester.widget<TextField>(find.byType(TextField));
+    nameField.controller!.text = 'Mohit';
+    nameField.onChanged?.call('Mohit');
     await wait(400);
+    FocusManager.instance.primaryFocus?.unfocus();
+    await wait(600);
     await shot('04_onboarding_name');
-    tester.testTextInput.hide();
     await tapText('Build my plan', after: 1000);
     await shot('05_building');
     expect(state().profile.reasons, ['work']);
+    expect(state().profile.name, 'Mohit');
     expect(state().profile.jlpt, 'N5');
 
     // ---- Plan → founder → paywall → account ----------------------------------------
@@ -115,6 +120,14 @@ void main() {
     await tapText('Save word', after: 1200);
     expect(state().words, isNotEmpty);
     await shot('14_word_saved');
+
+    // Ask Kizuki from the word card (signed out → it offers a free account first).
+    await tapText('Explain', after: 800);
+    await tapText('Still curious? Ask Kizuki', after: 1500);
+    await waitFor(find.byKey(const ValueKey('ask-signup')), what: 'ask kizuki sign-up prompt');
+    await shot('14b_ask_kizuki');
+    await tester.tapAt(const Offset(40, 60)); // dismiss the ask sheet
+    await wait(1200);
     await tester.tapAt(const Offset(40, 60)); // dismiss the sheet
     await wait(1200);
 

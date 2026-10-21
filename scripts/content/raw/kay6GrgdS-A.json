@@ -1,0 +1,190 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 46.4,
+   "end": 68.8,
+   "title": "A Big Problem Has Occurred",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜と申します — humble introduction",
+    "〜っぽい — -like / -ish"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 46.4,
+     "end": 50.8,
+     "ja": "やあ、私、山田と申します。",
+     "en": "Hello, my name is Yamada.",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 50.8,
+     "end": 55.8,
+     "ja": "うわあ、すごく山田さんっぽい顔！",
+     "en": "Whoa, you have such a Yamada-looking face!",
+     "speaker": "Maruo"
+    },
+    {
+     "start": 55.8,
+     "end": 58.5,
+     "ja": "あなた、誰ですか？",
+     "en": "Who are you?",
+     "speaker": "Maruo"
+    },
+    {
+     "start": 58.5,
+     "end": 63.2,
+     "ja": "丸男君、大問題が起きたんだよ。",
+     "en": "Maruo-kun, a big problem has occurred.",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 63.4,
+     "end": 65.4,
+     "ja": "大問題？",
+     "en": "A big problem?",
+     "speaker": "Maruo"
+    },
+    {
+     "start": 65.4,
+     "end": 68.5,
+     "ja": "そうよ。大変なのよ！",
+     "en": "That's right. It's terrible!",
+     "speaker": "Kawaguchi"
+    }
+   ]
+  },
+  {
+   "start": 147.5,
+   "end": 214.0,
+   "title": "Our Bird Escaped Because of Your Cat",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "comedy",
+    "food"
+   ],
+   "grammar": [
+    "〜予定 — plan to",
+    "のに — even though",
+    "関係ない — have nothing to do with"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 147.8,
+     "end": 151.3,
+     "ja": "丸男君の猫は本当に悪い。",
+     "en": "Maruo-kun, your cat is really bad.",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 151.3,
+     "end": 154.0,
+     "ja": "私たちの鳥が逃げた。",
+     "en": "Our bird escaped.",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 154.0,
+     "end": 159.8,
+     "ja": "そうよ。今晩、焼き鳥にして食べる予定だったのに！",
+     "en": "That's right. Even though we were planning to eat it as yakitori tonight!",
+     "speaker": "Kawaguchi"
+    },
+    {
+     "start": 159.8,
+     "end": 203.5,
+     "ja": "わしの焼き鳥…",
+     "en": "My yakitori...",
+     "speaker": "Ogawa"
+    },
+    {
+     "start": 203.5,
+     "end": 208.8,
+     "ja": "大、大、大、大、大問題じゃー！",
+     "en": "It's a huge, huge, huge, huge, huge problem!",
+     "speaker": "Ogawa"
+    },
+    {
+     "start": 208.8,
+     "end": 213.5,
+     "ja": "えー、僕、関係ないよー！",
+     "en": "Eh, that has nothing to do with me!",
+     "speaker": "Maruo"
+    }
+   ]
+  },
+  {
+   "start": 220.5,
+   "end": 247.3,
+   "title": "Searching for the Bad Cat",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ちゃう — to end up doing / casually do",
+    "〜てくれ — informal command / request",
+    "〜に行く — go to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 220.8,
+     "end": 224.0,
+     "ja": "焼き猫にして食べちゃう！",
+     "en": "We'll roast the cat and eat it up!",
+     "speaker": "Kawaguchi"
+    },
+    {
+     "start": 224.0,
+     "end": 228.5,
+     "ja": "焼き猫、ごちそうじゃー！",
+     "en": "Roast cat, what a feast!",
+     "speaker": "Ogawa"
+    },
+    {
+     "start": 228.9,
+     "end": 233.0,
+     "ja": "えーっ、僕の猫、焼いて食べる？",
+     "en": "What? You're going to roast and eat my cat?",
+     "speaker": "Maruo"
+    },
+    {
+     "start": 233.0,
+     "end": 235.7,
+     "ja": "ひどい！やめてくれー！",
+     "en": "That's terrible! Please stop!",
+     "speaker": "Maruo"
+    },
+    {
+     "start": 235.8,
+     "end": 240.8,
+     "ja": "よし、悪い猫を探しに、レッツゴー！",
+     "en": "Alright, let's go search for that bad cat!",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 241.4,
+     "end": 246.8,
+     "ja": "３人は猫を探しに外へ走っていきました。",
+     "en": "The three ran outside to look for the cat.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "kay6GrgdS-A",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

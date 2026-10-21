@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 185.8,
+   "end": 213.0,
+   "title": "Learning About Mooncakes",
+   "level": "N5",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜は〜です — A is B",
+    "〜で — in (a language)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 186.5,
+     "end": 191.5,
+     "ja": "これは月餅です。月餅。",
+     "en": "This is a mooncake. Mooncake.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 192.5,
+     "end": 198.7,
+     "ja": "月餅は英語でムーンケーキです。ムーンケーキです。",
+     "en": "In English, geppei is mooncake. Mooncake.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 199.6,
+     "end": 225.0,
+     "ja": "日本語で月餅です。月餅です。",
+     "en": "In Japanese, it's geppei. Geppei.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 206.5,
+     "end": 212.4,
+     "ja": "これはとっても美味しいです。とっても美味しいです。",
+     "en": "This is very delicious. Very delicious.",
+     "speaker": "Chieko"
+    }
+   ]
+  },
+  {
+   "start": 390.8,
+   "end": 414.5,
+   "title": "Cutting the Mooncake into Eight",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜を〜に切る — cut A into B",
+    "ひとつ、ふたつ... — native Japanese counters"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 391.3,
+     "end": 395.0,
+     "ja": "月餅を８つに切ります。",
+     "en": "I will cut the mooncake into eight pieces.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 395.3,
+     "end": 401.8,
+     "ja": "１つ、２つ、３つ、４つ、",
+     "en": "One, two, three, four,",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 402.2,
+     "end": 408.8,
+     "ja": "５つ、６つ、７つ、８つ。",
+     "en": "five, six, seven, eight.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 409.2,
+     "end": 414.0,
+     "ja": "８つに切ります。８つに切ります。",
+     "en": "Cut it into eight pieces. Cut it into eight pieces.",
+     "speaker": "Chieko"
+    }
+   ]
+  },
+  {
+   "start": 665.5,
+   "end": 698.8,
+   "title": "Drinking Tea with Chinese Mooncake",
+   "level": "N5",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜て、〜 — connecting actions with te-form",
+    "〜じゃないです — is not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 666.0,
+     "end": 668.5,
+     "ja": "月餅を食べて、",
+     "en": "I eat mooncake,",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 670.5,
+     "end": 673.5,
+     "ja": "お茶を飲みます。",
+     "en": "and drink tea.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 673.8,
+     "end": 678.4,
+     "ja": "これは日本のお茶です。これは日本のお茶です。",
+     "en": "This is Japanese tea. This is Japanese tea.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 679.2,
+     "end": 687.0,
+     "ja": "これは日本の月餅じゃないです。これは日本のじゃないです。",
+     "en": "This isn't a Japanese mooncake. This isn't Japanese.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 689.5,
+     "end": 698.2,
+     "ja": "この月餅は日本のじゃないです。これは中国の月餅です。日本じゃないです。中国です。",
+     "en": "This mooncake isn't Japanese. It's a Chinese mooncake. Not Japanese, Chinese.",
+     "speaker": "Chieko"
+    }
+   ]
+  }
+ ],
+ "videoId": "jIhKHVkwVN0",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

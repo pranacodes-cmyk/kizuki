@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 24.2,
+   "end": 42.8,
+   "title": "Taro Sets Out for Fishing",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜てきます — go and come back",
+    "〜てね — gentle request"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 24.6,
+     "end": 27.5,
+     "ja": "お父さん、お母さん、行ってきます。",
+     "en": "Father, Mother, I'm heading out.",
+     "speaker": "Taro"
+    },
+    {
+     "start": 28.0,
+     "end": 31.0,
+     "ja": "たくさん魚をとってきてね。",
+     "en": "Catch lots of fish, okay?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 31.5,
+     "end": 34.2,
+     "ja": "太郎、行ってらっしゃい。",
+     "en": "Taro, take care!",
+     "speaker": "Father"
+    },
+    {
+     "start": 35.0,
+     "end": 38.3,
+     "ja": "太郎は毎日、魚をとります。",
+     "en": "Every day, Taro catches fish.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 38.8,
+     "end": 42.3,
+     "ja": "今日も元気に海へ行きます。",
+     "en": "Today, too, he goes energetically to the sea.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 119.8,
+   "end": 148.8,
+   "title": "Invitation from the Turtle",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "culture"
+   ],
+   "grammar": [
+    "〜てくれる — to do something for someone",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 120.1,
+     "end": 123.3,
+     "ja": "太郎さん、こんにちは。",
+     "en": "Hello, Taro-san.",
+     "speaker": "Turtle"
+    },
+    {
+     "start": 123.6,
+     "end": 129.5,
+     "ja": "昨日はうちの子どもを助けてくれて、ありがとうございます。",
+     "en": "Thank you for saving my child yesterday.",
+     "speaker": "Turtle"
+    },
+    {
+     "start": 130.0,
+     "end": 134.8,
+     "ja": "え？子ども？もしかして、あの小さい亀？",
+     "en": "Eh? A child? Could it be that little turtle?",
+     "speaker": "Taro"
+    },
+    {
+     "start": 135.0,
+     "end": 139.8,
+     "ja": "そうです、そうです。本当にありがとうございます。",
+     "en": "That's right, that's right. Thank you so very much.",
+     "speaker": "Turtle"
+    },
+    {
+     "start": 140.2,
+     "end": 144.5,
+     "ja": "どうぞ、私の背中に乗ってください。",
+     "en": "Please get on my back.",
+     "speaker": "Turtle"
+    },
+    {
+     "start": 145.0,
+     "end": 148.3,
+     "ja": "竜宮城へご招待します。",
+     "en": "I will invite you to the Dragon Palace.",
+     "speaker": "Turtle"
+    }
+   ]
+  },
+  {
+   "start": 333.8,
+   "end": 357.0,
+   "title": "The Mysterious Box",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "anime"
+   ],
+   "grammar": [
+    "〜ないでください — please do not",
+    "〜ば — if conditional"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 334.3,
+     "end": 338.5,
+     "ja": "じゃあ、この玉手箱をどうぞ。",
+     "en": "Well then, please take this treasure box.",
+     "speaker": "Otohime"
+    },
+    {
+     "start": 338.8,
+     "end": 341.0,
+     "ja": "玉手箱？",
+     "en": "A treasure box?",
+     "speaker": "Taro"
+    },
+    {
+     "start": 341.2,
+     "end": 344.6,
+     "ja": "これはとても大切なものです。",
+     "en": "This is a very precious thing.",
+     "speaker": "Otohime"
+    },
+    {
+     "start": 345.0,
+     "end": 347.8,
+     "ja": "絶対開けないでください。",
+     "en": "Please never open it.",
+     "speaker": "Otohime"
+    },
+    {
+     "start": 348.0,
+     "end": 352.0,
+     "ja": "開けなければ、また会えますから。",
+     "en": "If you don't open it, we can meet again.",
+     "speaker": "Otohime"
+    },
+    {
+     "start": 353.4,
+     "end": 356.5,
+     "ja": "分かった。絶対開けないよ。",
+     "en": "I understand. I definitely won't open it.",
+     "speaker": "Taro"
+    }
+   ]
+  }
+ ],
+ "videoId": "-WPYeqidmSU",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

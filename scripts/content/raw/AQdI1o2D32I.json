@@ -1,0 +1,171 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 17.3,
+   "end": 35.5,
+   "title": "Wiping the Table with a Cloth",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜て — and / connecting actions",
+    "〜で — tool / means"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.5,
+     "end": 20.0,
+     "ja": "ふきんをたたんで、",
+     "en": "Folding the cloth,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 20.1,
+     "end": 22.8,
+     "ja": "手に持って、",
+     "en": "holding it in my hand,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 23.6,
+     "end": 28.0,
+     "ja": "テーブルをごしごしごしごし、",
+     "en": "scrub, scrub, scrub the table,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 28.1,
+     "end": 30.2,
+     "ja": "よくふきます。",
+     "en": "I wipe it thoroughly.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 30.7,
+     "end": 33.2,
+     "ja": "ふきんでテーブルを",
+     "en": "With the cloth, the table...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 33.3,
+     "end": 35.5,
+     "ja": "よくふきます。",
+     "en": "I wipe it thoroughly.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 65.0,
+   "end": 91.5,
+   "title": "Broom and Dustpan",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜と — and",
+    "〜で — tool / means"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 65.3,
+     "end": 68.6,
+     "ja": "ほうきとちりとりです。",
+     "en": "This is a broom and a dustpan.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 69.3,
+     "end": 75.3,
+     "ja": "ほうきとちりとりはセット、セットです。",
+     "en": "The broom and dustpan are a set.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 76.0,
+     "end": 80.5,
+     "ja": "ほうきではいて、",
+     "en": "Sweeping with the broom,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 81.5,
+     "end": 86.0,
+     "ja": "このちりとりで",
+     "en": "and into this dustpan,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 88.0,
+     "end": 91.0,
+     "ja": "取ります。",
+     "en": "I collect it.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 132.7,
+   "end": 153.3,
+   "title": "Whistling for the Cat",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜と — when / whenever",
+    "〜に来る — come in order to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 133.2,
+     "end": 137.0,
+     "ja": "口笛を吹くと、",
+     "en": "When I whistle,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 139.3,
+     "end": 142.0,
+     "ja": "猫が来ます。",
+     "en": "the cat comes.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 143.0,
+     "end": 144.5,
+     "ja": "猫が…",
+     "en": "The cat...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 145.0,
+     "end": 148.5,
+     "ja": "これは猫のおやつです。",
+     "en": "This is a cat treat.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 148.9,
+     "end": 153.2,
+     "ja": "猫がおやつを食べに来ます。",
+     "en": "The cat comes to eat the treat.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "AQdI1o2D32I",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,144 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 49.8,
+   "end": 64.9,
+   "title": "Using AI at Work",
+   "level": "N5",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ています — ongoing action / habit"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 50.8,
+     "end": 52.6,
+     "ja": "どうですか？",
+     "en": "How about you?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 53.0,
+     "end": 57.0,
+     "ja": "仕事でAIを使っていますか？",
+     "en": "Do you use AI at work?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 58.2,
+     "end": 60.5,
+     "ja": "ほとんどの人は、",
+     "en": "Most people,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 60.6,
+     "end": 64.6,
+     "ja": "AIを使って仕事をしていますよね？",
+     "en": "are working using AI, right?",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 137.4,
+   "end": 150.3,
+   "title": "Creating Content with AI Alone",
+   "level": "N4",
+   "topics": [
+    "work",
+    "fun"
+   ],
+   "grammar": [
+    "〜てしまう — expressing regret or completion",
+    "〜ことができる — can do / to be able to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 137.6,
+     "end": 139.7,
+     "ja": "今では、",
+     "en": "Nowadays,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 139.8,
+     "end": 143.0,
+     "ja": "一人でAIを使って、",
+     "en": "by yourself using AI,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 143.2,
+     "end": 147.2,
+     "ja": "ゲームやアプリ、動画を、",
+     "en": "games, apps, and videos,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 147.4,
+     "end": 149.9,
+     "ja": "作ることができてしまいます。",
+     "en": "you can completely end up creating them.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 216.5,
+   "end": 234.9,
+   "title": "Excited and Scared About the Future",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — if / when",
+    "〜と思う — to think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 216.7,
+     "end": 221.7,
+     "ja": "皆さんはAIがもっと成長したら、",
+     "en": "Do you think that if AI develops even further,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 222.1,
+     "end": 226.7,
+     "ja": "いい将来が待っていると思いますか？",
+     "en": "a good future is waiting for us?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 229.8,
+     "end": 232.4,
+     "ja": "私は半分楽しみで、",
+     "en": "I am half looking forward to it,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 232.7,
+     "end": 234.6,
+     "ja": "半分怖いです。",
+     "en": "and half scared.",
+     "speaker": "Shun"
+    }
+   ]
+  }
+ ],
+ "videoId": "W7OPNaqIFUY",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

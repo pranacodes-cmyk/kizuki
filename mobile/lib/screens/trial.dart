@@ -255,7 +255,7 @@ class _StepPlans extends StatelessWidget {
   final bool busy;
   final VoidCallback onStart, onSkip;
   const _StepPlans({required this.plan, required this.setPlan, required this.busy, required this.onStart, required this.onSkip});
-  static const perks = ['Unlimited clips, every level', 'Tap any word for an explanation in context', 'Smart reviews with the original audio', 'Hiragana & katakana trainer', 'Streaks, goals and progress stats'];
+  static const perks = ['Unlimited clips, every level', 'Tap any word for an explanation in context', 'Unlimited questions to Kizuki, your AI tutor', 'Smart reviews with the original audio', 'Hiragana & katakana trainer', 'Streaks, goals and progress stats'];
   @override
   Widget build(BuildContext context) => LayoutBuilder(
         builder: (context, c) => SingleChildScrollView(

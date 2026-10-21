@@ -1,0 +1,144 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 18.5,
+   "end": 33.7,
+   "title": "Hide and Seek in the Blocks",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜ちゃう — to end up doing",
+    "〜かな — I wonder"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.8,
+     "end": 21.3,
+     "ja": "また隠れちゃったね。",
+     "en": "He hid again, didn't he?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 22.4,
+     "end": 24.3,
+     "ja": "どこかな？",
+     "en": "Where could he be?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 24.6,
+     "end": 26.2,
+     "ja": "ここ！",
+     "en": "Here!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 26.8,
+     "end": 29.1,
+     "ja": "あ！見つけた！",
+     "en": "Ah! Found you!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 30.3,
+     "end": 33.2,
+     "ja": "見つかっちゃったー！",
+     "en": "You found me!",
+     "speaker": "Shimajiro"
+    }
+   ]
+  },
+  {
+   "start": 104.5,
+   "end": 121.0,
+   "title": "What Vehicle Is That?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜かな — I wonder",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 104.8,
+     "end": 107.4,
+     "ja": "何の乗り物かな？",
+     "en": "What kind of vehicle is it?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 109.2,
+     "end": 113.5,
+     "ja": "救急車！ピーポーピーポー。",
+     "en": "An ambulance! Wee-woo, wee-woo.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 114.2,
+     "end": 116.8,
+     "ja": "真似して言ってみよう！せーの！",
+     "en": "Let's copy and say it! Ready, go!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 117.2,
+     "end": 120.6,
+     "ja": "ピーポーピーポー。",
+     "en": "Wee-woo, wee-woo.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 222.0,
+   "end": 239.5,
+   "title": "Look at the Elephant!",
+   "level": "N5",
+   "topics": [
+    "animals"
+   ],
+   "grammar": [
+    "〜って — quotation particle",
+    "〜ね — seeking agreement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 222.3,
+     "end": 225.6,
+     "ja": "わぁ、ゾウだ！",
+     "en": "Wow, it's an elephant!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 229.6,
+     "end": 232.4,
+     "ja": "「パオーン」って鳴くんだね。",
+     "en": "It trumpets 'paoon', doesn't it?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 233.2,
+     "end": 239.5,
+     "ja": "長い鼻をぶらーん、ぶらーん。",
+     "en": "Swinging its long trunk back and forth.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "oG9CZu8YkW8",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

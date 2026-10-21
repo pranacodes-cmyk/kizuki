@@ -98,7 +98,7 @@ function Splash() {
         <Mascot pose="face" className="h-28 w-28" />
       </motion.div>
       <motion.p initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="mt-4 text-[2.25rem] font-black tracking-tight">
-        mimi
+        kizuki
       </motion.p>
     </motion.div>
   );

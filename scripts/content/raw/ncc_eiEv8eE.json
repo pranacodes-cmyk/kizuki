@@ -1,0 +1,173 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 345.3,
+   "end": 410.0,
+   "title": "Growing Up Without Smartphones",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜時 — when/at the time of",
+    "〜ていた — past continuous action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 345.3,
+     "end": 348.5,
+     "ja": "私が生まれた時は、",
+     "en": "When I was born,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 348.8,
+     "end": 353.5,
+     "ja": "ほとんどインターネットがありませんでした。",
+     "en": "the internet barely existed.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 355.7,
+     "end": 360.5,
+     "ja": "私が子供の時も、スマホがなくて、",
+     "en": "When I was a kid, there were no smartphones either,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 361.3,
+     "end": 364.8,
+     "ja": "いつも家の電話を使って",
+     "en": "and I always used the home phone",
+     "speaker": "Shun"
+    },
+    {
+     "start": 365.1,
+     "end": 369.5,
+     "ja": "友達に電話をしていました。",
+     "en": "to call my friends.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 430.8,
+   "end": 447.0,
+   "title": "Inviting Friends in the Past",
+   "level": "N5",
+   "topics": [
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜たい — wanting to do",
+    "〜ていく — to go and do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 430.8,
+     "end": 435.5,
+     "ja": "あと、友達と遊びたい時は、",
+     "en": "Also, when I wanted to hang out with friends,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 436.0,
+     "end": 439.8,
+     "ja": "友達の家に直接行って",
+     "en": "I went directly to their house",
+     "speaker": "Shun"
+    },
+    {
+     "start": 440.0,
+     "end": 442.5,
+     "ja": "誘っていました。",
+     "en": "and invited them.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 443.0,
+     "end": 446.5,
+     "ja": "今では考えられませんよね。",
+     "en": "That's unimaginable nowadays, isn't it?",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 539.5,
+   "end": 607.5,
+   "title": "Everything on One Smartphone",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜も〜も — both ... and ... / as well as",
+    "〜できる — potential form (can do)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 540.0,
+     "end": 543.8,
+     "ja": "全部スマホ一つで",
+     "en": "With just a single smartphone,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 544.2,
+     "end": 548.0,
+     "ja": "何でもできますよね。",
+     "en": "you can do anything, right?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 549.8,
+     "end": 553.0,
+     "ja": "電話も、インターネットも、",
+     "en": "Calls, the internet,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 553.3,
+     "end": 556.0,
+     "ja": "映画も、音楽も、",
+     "en": "movies, music,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 556.5,
+     "end": 558.5,
+     "ja": "買い物も、",
+     "en": "shopping,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 558.8,
+     "end": 562.0,
+     "ja": "ゲーム、ホテルの予約も、",
+     "en": "games, hotel bookings,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 562.4,
+     "end": 606.8,
+     "ja": "全部スマホ一つでできます。",
+     "en": "you can do it all with just a smartphone.",
+     "speaker": "Shun"
+    }
+   ]
+  }
+ ],
+ "videoId": "ncc_eiEv8eE",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

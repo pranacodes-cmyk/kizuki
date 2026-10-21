@@ -98,7 +98,7 @@ function Profile() {
           {!session && <Row icon="☁️" title="Save your progress" sub="Create a free account to sync devices" onClick={() => navigate({ to: "/account", search: { mode: "signup" } })} />}
           <Row icon="🔖" title="Saved clips" sub="Clips you bookmarked" onClick={() => navigate({ to: "/saved" })} />
           <Row icon="⏱️" title="Watch history" sub="Everything you've watched" onClick={() => navigate({ to: "/history" })} />
-          <Row icon="✉️" title="Contact the founder" sub="Feedback, ideas or just say hi" onClick={() => { window.location.href = "mailto:hello@mimi.app?subject=Kizuki%20feedback"; }} />
+          <Row icon="✉️" title="Contact the founder" sub="Feedback, ideas or just say hi" onClick={() => { window.location.href = "mailto:hello@kizuki.app?subject=Kizuki%20feedback"; }} />
         </div>
       </div>
     </Screen>

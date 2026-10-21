@@ -4,7 +4,7 @@ import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 
 import {
-  currentStreak, dayKey, dayMs, dueWordKeys, emptyDay, newCard, wordCounts, wordKeyOf, wordStatus,
+  asksToday, currentStreak, dayKey, dayMs, dueWordKeys, emptyDay, newCard, wordCounts, wordKeyOf, wordStatus,
   type Card, type DayActivity, type Stats, type WordLite,
 } from "./logic";
 
@@ -51,6 +51,7 @@ export type PersistedState = {
   reviewSessions: number;
   ratingAsked: boolean;
   planModalSeen: boolean;
+  asks: { day: string; n: number };
   updatedAt: number;
 };
 
@@ -81,6 +82,7 @@ export const initialState = (): PersistedState => ({
   reviewSessions: 0,
   ratingAsked: false,
   planModalSeen: false,
+  asks: { day: "", n: 0 },
   updatedAt: 0,
 });
 
@@ -106,6 +108,7 @@ type Actions = {
   markAchievementsSeen: (ids: string[]) => void;
   setRatingAsked: () => void;
   setPlanModalSeen: () => void;
+  recordAsk: () => void;
   replaceAll: (s: PersistedState) => void;
   reset: () => void;
 };
@@ -200,6 +203,7 @@ export const useApp = create<AppStore>()(
         markAchievementsSeen: (ids) => commit({ achievementsSeen: [...new Set([...get().achievementsSeen, ...ids])] }),
         setRatingAsked: () => commit({ ratingAsked: true }),
         setPlanModalSeen: () => commit({ planModalSeen: true }),
+        recordAsk: () => commit({ asks: { day: today(), n: asksTodayOf(get()) + 1 } }),
         replaceAll: (s) => set({ ...initialState(), ...s }),
         reset: () => set({ ...initialState(), feedSeed: Date.now().toString(36) }),
       };
@@ -217,7 +221,7 @@ export function pickPersisted(s: PersistedState): PersistedState {
     version: 1, onboarded: s.onboarded, profile: s.profile, premium: s.premium, words: s.words, kana: s.kana, seen: s.seen,
     history: s.history, savedClips: s.savedClips, activity: s.activity, totals: s.totals, settings: s.settings, tutorial: s.tutorial,
     achievementsSeen: s.achievementsSeen, feedSeed: s.feedSeed, reviewSessions: s.reviewSessions, ratingAsked: s.ratingAsked,
-    planModalSeen: s.planModalSeen, updatedAt: s.updatedAt,
+    planModalSeen: s.planModalSeen, asks: s.asks ?? { day: "", n: 0 }, updatedAt: s.updatedAt,
   };
 }
 
@@ -226,6 +230,7 @@ export const wordLites = (s: PersistedState): WordLite[] => Object.values(s.word
 export const countsOf = (s: PersistedState) => wordCounts(wordLites(s), Date.now());
 export const dueKeysOf = (s: PersistedState) => dueWordKeys(wordLites(s), Date.now());
 export const streakOf = (s: PersistedState) => currentStreak(s.activity, new Date());
+export const asksTodayOf = (s: PersistedState) => asksToday(s.asks?.day ?? "", s.asks?.n ?? 0, today());
 export const todayOf = (s: PersistedState): DayActivity => s.activity[today()] ?? emptyDay();
 export const statsOf = (s: PersistedState): Stats => {
   const c = countsOf(s);

@@ -3,12 +3,14 @@ import 'package:go_router/go_router.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:provider/provider.dart';
 
+import '../data/ask.dart';
 import '../data/content.dart';
 import '../data/models.dart' as m;
 import '../logic/logic.dart';
 import '../services/tts.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
+import 'ask_sheet.dart';
 import 'common.dart';
 import 'ui.dart';
 
@@ -84,6 +86,21 @@ class _WordCardState extends State<WordCard> {
   }
 
   WordInput _input() => wordInputOf(widget.clip, widget.line, widget.idx, widget.content, widget.notes);
+
+  /// What the tutor needs to know about this word and its line — mirrors askContext() in WordCard.tsx.
+  AskContext _askContext() {
+    final i = _input();
+    final l = widget.clip.lines[widget.line];
+    return AskContext(
+      clipId: widget.clip.id,
+      title: widget.clip.title,
+      level: widget.clip.level,
+      learnerLevel: context.read<AppState>().profile.jlpt,
+      ja: l.ja,
+      en: l.en,
+      word: AskWord(surface: w.s, head: i.word, reading: i.reading, gloss: i.gloss),
+    );
+  }
 
   Widget _tag(String s, {Color bg = T.surface2, Color fg = T.foreground}) => Container(
         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
@@ -282,6 +299,18 @@ class _WordCardState extends State<WordCard> {
               if (lineNote.tip.isNotEmpty) Padding(padding: const EdgeInsets.only(top: 6), child: Text('💡 ${lineNote.tip}', style: txt(14, w: FontWeight.w400))),
             ]),
           ),
+        const SizedBox(height: 14),
+        Button3D(
+          key: const ValueKey('ask-open'),
+          variant: BtnVariant.surface,
+          height: 48,
+          onPressed: () => showAskSheet(context, _askContext()),
+          child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+            const Icon(LucideIcons.messageCircleQuestion, size: 18, color: T.primary),
+            const SizedBox(width: 8),
+            Text('Still curious? Ask Kizuki', style: txt(15, w: FontWeight.w800)),
+          ]),
+        ),
       ]);
 
   Widget _examples(m.DictEntry? entry) {

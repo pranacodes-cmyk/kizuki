@@ -1,0 +1,135 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 50.0,
+   "end": 122.0,
+   "title": "A Mountain Near the Village",
+   "level": "N5",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜がありました — there was / existed",
+    "〜でも — even (at/during)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 50.4,
+     "end": 58.2,
+     "ja": "むかしむかし、ある村の近くに、",
+     "en": "Once upon a time, near a certain village,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 58.5,
+     "end": 105.5,
+     "ja": "山がありました。",
+     "en": "there was a mountain.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 108.5,
+     "end": 114.2,
+     "ja": "山には木が多く、",
+     "en": "There were many trees on the mountain,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 114.5,
+     "end": 121.0,
+     "ja": "昼でも暗い場所でした。",
+     "en": "and it was a dark place even in the daytime.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 168.5,
+   "end": 197.0,
+   "title": "Gonroku and Genshichi Step Up",
+   "level": "N5",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜と言いました — quoted speech",
+    "〜ていく — action directed away / continuation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 168.7,
+     "end": 177.5,
+     "ja": "そのとき、ごん六とげん七が言いました。",
+     "en": "At that time, Gonroku and Genshichi spoke up.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 180.0,
+     "end": 185.0,
+     "ja": "「わたしたちが行きます。」",
+     "en": "\"We will go.\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 188.5,
+     "end": 196.8,
+     "ja": "二人は山の中へ入っていきました。",
+     "en": "The two of them went into the mountains.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 394.5,
+   "end": 426.0,
+   "title": "A Great Dragon Appears",
+   "level": "N5",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜の中から — from inside of",
+    "〜ながら — while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 394.8,
+     "end": 399.8,
+     "ja": "すると、水の中から、",
+     "en": "Then, from out of the water,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 399.9,
+     "end": 405.0,
+     "ja": "大きな竜があらわれました。",
+     "en": "a large dragon appeared.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 411.5,
+     "end": 418.0,
+     "ja": "竜は長い体をうごかしながら、",
+     "en": "Moving its long body,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 418.2,
+     "end": 425.5,
+     "ja": "ゆっくり空へのぼっていきました。",
+     "en": "the dragon slowly rose into the sky.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "v3E_P1raVSQ",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

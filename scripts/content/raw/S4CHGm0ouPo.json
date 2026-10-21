@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 17.0,
+   "title": "Asking for Recommendations at a Cafe",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜そう — looks like",
+    "〜をお願いします — please give me ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 2.8,
+     "ja": "いらっしゃいませ。",
+     "en": "Welcome.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 2.9,
+     "end": 4.8,
+     "ja": "ご注文、お決まりですか？",
+     "en": "Have you decided on your order?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 5.1,
+     "end": 8.1,
+     "ja": "わぁ、全部おいしそうですね。",
+     "en": "Wow, everything looks delicious.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 8.3,
+     "end": 10.5,
+     "ja": "おすすめは何ですか？",
+     "en": "What do you recommend?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 10.8,
+     "end": 13.5,
+     "ja": "レモネードがおすすめです。",
+     "en": "I recommend the lemonade.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 13.9,
+     "end": 17.0,
+     "ja": "じゃあ、レモネードひとつお願いします。",
+     "en": "Then one lemonade, please.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 17.2,
+   "end": 38.5,
+   "title": "Ordering Takeout and Paying by Card",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜でございます — polite copula (to be)",
+    "〜でお願いします — ... please"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.5,
+     "end": 19.3,
+     "ja": "かしこまりました。",
+     "en": "Certainly.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 19.4,
+     "end": 21.0,
+     "ja": "お持ち帰りですか？",
+     "en": "Is it for takeout?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 21.3,
+     "end": 24.0,
+     "ja": "はい、持ち帰りでお願いします。",
+     "en": "Yes, for takeout, please.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 24.5,
+     "end": 26.2,
+     "ja": "あ、すみません。",
+     "en": "Ah, excuse me.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 26.4,
+     "end": 29.8,
+     "ja": "あと、チーズベーグルもひとつお願いします。",
+     "en": "Also, one cheese bagel, please.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 30.1,
+     "end": 32.0,
+     "ja": "かしこまりました。",
+     "en": "Certainly.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 32.1,
+     "end": 35.1,
+     "ja": "お会計、1200円でございます。",
+     "en": "Your total is 1,200 yen.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 35.5,
+     "end": 38.2,
+     "ja": "クレジットカードでお願いします。",
+     "en": "By credit card, please.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 341.0,
+   "end": 353.0,
+   "title": "How to Ask for a Recommendation",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜のことです — means / is about",
+    "〜ことができる — can do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 341.5,
+     "end": 345.5,
+     "ja": "おすすめは、レコメンデーションのことです。",
+     "en": "'Osusume' means recommendation.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 346.0,
+     "end": 349.5,
+     "ja": "「おすすめは何ですか？」というフレーズで、",
+     "en": "With the phrase 'What do you recommend?',",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 349.6,
+     "end": 352.5,
+     "ja": "おすすめを聞くことができます。",
+     "en": "you can ask for recommendations.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "S4CHGm0ouPo",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

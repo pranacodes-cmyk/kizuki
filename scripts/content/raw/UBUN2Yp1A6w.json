@@ -1,0 +1,213 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.0,
+   "end": 21.5,
+   "title": "I Bought Two Pairs of Earphones",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜を買いました — bought",
+    "まだ〜ていません — have not ... yet"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.3,
+     "end": 8.5,
+     "ja": "皆さん、私は",
+     "en": "Everyone, I...",
+     "speaker": "Seika"
+    },
+    {
+     "start": 8.8,
+     "end": 11.8,
+     "ja": "イヤホンを買いました。",
+     "en": "bought some earphones.",
+     "speaker": "Seika"
+    },
+    {
+     "start": 12.3,
+     "end": 16.0,
+     "ja": "イヤホンを、1つ、2つ、",
+     "en": "I bought one, two...",
+     "speaker": "Seika"
+    },
+    {
+     "start": 16.2,
+     "end": 18.4,
+     "ja": "2つ買いました。",
+     "en": "two pairs of earphones.",
+     "speaker": "Seika"
+    },
+    {
+     "start": 18.6,
+     "end": 21.3,
+     "ja": "はい、まだ開けていません。",
+     "en": "Yes, I haven't opened them yet.",
+     "speaker": "Seika"
+    }
+   ]
+  },
+  {
+   "start": 105.0,
+   "end": 130.5,
+   "title": "I Lost One Earbud",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜しか〜ない — only, nothing but",
+    "〜てしまう — to do unintentionally / regretfully"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 105.1,
+     "end": 107.1,
+     "ja": "蓋を開けますね。",
+     "en": "I'll open the lid.",
+     "speaker": "Seika"
+    },
+    {
+     "start": 107.6,
+     "end": 109.5,
+     "ja": "蓋を開けると、",
+     "en": "When I open the lid...",
+     "speaker": "Seika"
+    },
+    {
+     "start": 109.8,
+     "end": 111.5,
+     "ja": "見てください。",
+     "en": "Look at this.",
+     "speaker": "Seika"
+    },
+    {
+     "start": 111.9,
+     "end": 114.6,
+     "ja": "1つしか入っていないんです。",
+     "en": "There is only one inside.",
+     "speaker": "Seika"
+    },
+    {
+     "start": 115.5,
+     "end": 118.1,
+     "ja": "1つしか入っていないんですよ。",
+     "en": "There really is only one inside.",
+     "speaker": "Seika"
+    },
+    {
+     "start": 118.5,
+     "end": 121.1,
+     "ja": "これは左耳用です。",
+     "en": "This is for the left ear.",
+     "speaker": "Seika"
+    },
+    {
+     "start": 121.4,
+     "end": 124.0,
+     "ja": "左耳用のイヤホンですね。",
+     "en": "It's the left earphone, right?",
+     "speaker": "Seika"
+    },
+    {
+     "start": 124.8,
+     "end": 127.5,
+     "ja": "右耳用のイヤホンは、",
+     "en": "As for the right earphone,",
+     "speaker": "Seika"
+    },
+    {
+     "start": 127.7,
+     "end": 130.1,
+     "ja": "無くしてしまいました。",
+     "en": "I ended up losing it.",
+     "speaker": "Seika"
+    }
+   ]
+  },
+  {
+   "start": 422.0,
+   "end": 441.5,
+   "title": "How to Control the Volume",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜と — when / if",
+    "〜くなる — to become (adjective)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 422.0,
+     "end": 425.8,
+     "ja": "で、コントロールはここでできます。",
+     "en": "And you can control it here.",
+     "speaker": "Seika"
+    },
+    {
+     "start": 426.0,
+     "end": 428.1,
+     "ja": "プラスのボタンを押すと、",
+     "en": "When you press the plus button,",
+     "speaker": "Seika"
+    },
+    {
+     "start": 428.3,
+     "end": 430.5,
+     "ja": "音量が大きくなります。",
+     "en": "the volume goes up.",
+     "speaker": "Seika"
+    },
+    {
+     "start": 430.8,
+     "end": 432.8,
+     "ja": "音が大きくなりますね。",
+     "en": "The sound gets louder.",
+     "speaker": "Seika"
+    },
+    {
+     "start": 433.7,
+     "end": 435.3,
+     "ja": "で、逆に、",
+     "en": "And conversely,",
+     "speaker": "Seika"
+    },
+    {
+     "start": 435.4,
+     "end": 437.3,
+     "ja": "マイナスのボタンを押すと、",
+     "en": "when you press the minus button,",
+     "speaker": "Seika"
+    },
+    {
+     "start": 437.4,
+     "end": 439.9,
+     "ja": "音量が小さくなります。",
+     "en": "the volume goes down.",
+     "speaker": "Seika"
+    },
+    {
+     "start": 440.2,
+     "end": 441.3,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Seika"
+    }
+   ]
+  }
+ ],
+ "videoId": "UBUN2Yp1A6w",
+ "pickTopics": [
+  "daily",
+  "music"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

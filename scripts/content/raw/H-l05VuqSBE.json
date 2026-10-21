@@ -1,0 +1,217 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.8,
+   "end": 38.5,
+   "title": "Checking into the Hotel",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜をお願いします — please (polite request)",
+    "〜様 — honorific title for customers"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.0,
+     "end": 18.8,
+     "ja": "いらっしゃいませ。",
+     "en": "Welcome.",
+     "speaker": "Receptionist"
+    },
+    {
+     "start": 19.0,
+     "end": 21.2,
+     "ja": "チェックインお願いします。",
+     "en": "I'd like to check in, please.",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 22.0,
+     "end": 23.7,
+     "ja": "かしこまりました。",
+     "en": "Certainly.",
+     "speaker": "Receptionist"
+    },
+    {
+     "start": 23.9,
+     "end": 26.1,
+     "ja": "お名前をお願いします。",
+     "en": "May I have your name, please?",
+     "speaker": "Receptionist"
+    },
+    {
+     "start": 26.8,
+     "end": 28.0,
+     "ja": "たなかです。",
+     "en": "I'm Tanaka.",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 28.2,
+     "end": 30.2,
+     "ja": "たなか様ですね、",
+     "en": "Mr. Tanaka, right?",
+     "speaker": "Receptionist"
+    },
+    {
+     "start": 30.4,
+     "end": 32.4,
+     "ja": "少々お待ちください。",
+     "en": "Please wait a moment.",
+     "speaker": "Receptionist"
+    },
+    {
+     "start": 33.2,
+     "end": 36.5,
+     "ja": "本日から2泊のご利用ですね。",
+     "en": "You'll be staying for two nights starting today, correct?",
+     "speaker": "Receptionist"
+    },
+    {
+     "start": 37.0,
+     "end": 38.5,
+     "ja": "はい、そうです。",
+     "en": "Yes, that's right.",
+     "speaker": "Tanaka"
+    }
+   ]
+  },
+  {
+   "start": 44.2,
+   "end": 117.2,
+   "title": "There Is No Elevator?!",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "comedy"
+   ],
+   "grammar": [
+    "〜でございます — polite form of です",
+    "おっしゃる — honorific form of 言う (to say)",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.5,
+     "end": 49.8,
+     "ja": "お客様のお部屋は7階の702号室でございます。",
+     "en": "Your room is room 702 on the 7th floor.",
+     "speaker": "Receptionist"
+    },
+    {
+     "start": 50.1,
+     "end": 55.2,
+     "ja": "エレベーターはございませんので、階段をご利用ください。",
+     "en": "There is no elevator, so please use the stairs.",
+     "speaker": "Receptionist"
+    },
+    {
+     "start": 56.5,
+     "end": 60.6,
+     "ja": "えっ？今なんておっしゃいましたか？",
+     "en": "Huh? What did you just say?",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 61.3,
+     "end": 64.0,
+     "ja": "お客様のお部屋は7階の…",
+     "en": "Your room is on the 7th...",
+     "speaker": "Receptionist"
+    },
+    {
+     "start": 64.2,
+     "end": 66.0,
+     "ja": "いや、その後です。",
+     "en": "No, after that.",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 66.3,
+     "end": 71.4,
+     "ja": "エレベーターはございませんので、階段をご利用ください。",
+     "en": "There is no elevator, so please use the stairs.",
+     "speaker": "Receptionist"
+    },
+    {
+     "start": 72.0,
+     "end": 74.5,
+     "ja": "エレベーター、ないんですか？",
+     "en": "There's no elevator?",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 75.0,
+     "end": 76.8,
+     "ja": "はい、ございません。",
+     "en": "Yes, that's correct, there isn't.",
+     "speaker": "Receptionist"
+    }
+   ]
+  },
+  {
+   "start": 121.0,
+   "end": 142.5,
+   "title": "Breakfast Is Too Early",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "food",
+    "comedy"
+   ],
+   "grammar": [
+    "〜すぎる — too much / excessive",
+    "〜となっております — polite expression for schedule/rules"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 121.3,
+     "end": 124.7,
+     "ja": "他にご不明な点はございますか？",
+     "en": "Do you have any other questions?",
+     "speaker": "Receptionist"
+    },
+    {
+     "start": 125.5,
+     "end": 129.5,
+     "ja": "えっと、朝ごはんは何時からですか？",
+     "en": "Um, what time is breakfast?",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 130.0,
+     "end": 134.5,
+     "ja": "朝食は5時から6時半までとなっております。",
+     "en": "Breakfast is served from 5:00 to 6:30.",
+     "speaker": "Receptionist"
+    },
+    {
+     "start": 135.8,
+     "end": 137.8,
+     "ja": "…早すぎませんか？",
+     "en": "...Isn't that too early?",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 138.2,
+     "end": 142.2,
+     "ja": "シェフが早起きですので、申し訳ございません。",
+     "en": "Our chef is an early riser, so we apologize.",
+     "speaker": "Receptionist"
+    }
+   ]
+  }
+ ],
+ "videoId": "H-l05VuqSBE",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

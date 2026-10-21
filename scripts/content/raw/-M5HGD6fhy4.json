@@ -1,0 +1,154 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 231.5,
+   "end": 247.3,
+   "title": "What Are You Doing Right Now?",
+   "level": "N5",
+   "topics": [
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜てごめん — sorry for doing",
+    "〜たくて — wanting to do",
+    "〜てる — ongoing action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 232.0,
+     "end": 234.3,
+     "ja": "急に電話してごめんね。",
+     "en": "Sorry for calling out of the blue.",
+     "speaker": "A"
+    },
+    {
+     "start": 234.8,
+     "end": 237.4,
+     "ja": "なんとなく、声が聞きたくて。",
+     "en": "I just felt like hearing your voice.",
+     "speaker": "A"
+    },
+    {
+     "start": 238.2,
+     "end": 240.2,
+     "ja": "今、何してる？",
+     "en": "What are you doing right now?",
+     "speaker": "A"
+    },
+    {
+     "start": 241.2,
+     "end": 243.6,
+     "ja": "今？とくに何も。",
+     "en": "Right now? Nothing in particular.",
+     "speaker": "B"
+    },
+    {
+     "start": 244.2,
+     "end": 246.8,
+     "ja": "家でごろごろしてる。",
+     "en": "Just lazing around at home.",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 303.0,
+   "end": 316.8,
+   "title": "How Is the Weather Over There?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜だけど — but / though",
+    "〜そう — looks like / about to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 303.5,
+     "end": 306.8,
+     "ja": "今日こっちはすごくいい天気なんだけど、",
+     "en": "The weather is really nice over here today, but...",
+     "speaker": "A"
+    },
+    {
+     "start": 307.1,
+     "end": 309.6,
+     "ja": "そっちの天気はどう？",
+     "en": "How's the weather over there?",
+     "speaker": "A"
+    },
+    {
+     "start": 310.8,
+     "end": 313.2,
+     "ja": "こっちはくもりだよ。",
+     "en": "It's cloudy here.",
+     "speaker": "B"
+    },
+    {
+     "start": 313.8,
+     "end": 316.2,
+     "ja": "もうすぐ雨が降りそう。",
+     "en": "It looks like it's going to rain soon.",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 345.5,
+   "end": 400.6,
+   "title": "Do You Cook Often?",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜じゃないけど — it's not ..., but",
+    "この前 — the other day"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 346.0,
+     "end": 348.5,
+     "ja": "へえ。料理はよくするの？",
+     "en": "Oh. Do you cook often?",
+     "speaker": "A"
+    },
+    {
+     "start": 349.0,
+     "end": 352.0,
+     "ja": "最近、どんなもの作った？",
+     "en": "What kind of things have you made recently?",
+     "speaker": "A"
+    },
+    {
+     "start": 353.0,
+     "end": 356.3,
+     "ja": "毎日じゃないけど、ときどきするよ。",
+     "en": "Not every day, but I do sometimes.",
+     "speaker": "B"
+    },
+    {
+     "start": 357.0,
+     "end": 400.0,
+     "ja": "この前は、ラザニア作った。",
+     "en": "The other day, I made lasagna.",
+     "speaker": "B"
+    }
+   ]
+  }
+ ],
+ "videoId": "-M5HGD6fhy4",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

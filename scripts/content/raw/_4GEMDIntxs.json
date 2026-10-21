@@ -1,0 +1,173 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 360.8,
+   "end": 378.2,
+   "title": "Asking for the Train Station",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜はどこですか — where is [noun]?",
+    "あそこ — over there"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 361.3,
+     "end": 363.0,
+     "ja": "すみません！",
+     "en": "Excuse me!",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 364.2,
+     "end": 365.4,
+     "ja": "はい。",
+     "en": "Yes?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 367.1,
+     "end": 370.0,
+     "ja": "駅はどこですか？",
+     "en": "Where is the station?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 372.1,
+     "end": 374.3,
+     "ja": "あそこです。",
+     "en": "It's over there.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 376.1,
+     "end": 377.8,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 542.8,
+   "end": 565.8,
+   "title": "Asking for the Hotel",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜はどこですか — where is [noun]?",
+    "あそこ — over there"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 543.3,
+     "end": 545.5,
+     "ja": "すみません。",
+     "en": "Excuse me.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 547.2,
+     "end": 548.5,
+     "ja": "はい。",
+     "en": "Yes?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 550.3,
+     "end": 553.6,
+     "ja": "ホテルはどこですか？",
+     "en": "Where is the hotel?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 556.3,
+     "end": 559.4,
+     "ja": "あそこです。あそこです。",
+     "en": "It's over there. It's over there.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 563.7,
+     "end": 565.3,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 660.6,
+   "end": 686.0,
+   "title": "Asking for the Department Store",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜はどこですか — where is [noun]?",
+    "あそこ — over there"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 661.1,
+     "end": 663.2,
+     "ja": "すみません。",
+     "en": "Excuse me.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 665.1,
+     "end": 666.3,
+     "ja": "はい。",
+     "en": "Yes?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 668.5,
+     "end": 671.8,
+     "ja": "デパートはどこですか？",
+     "en": "Where is the department store?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 672.6,
+     "end": 675.1,
+     "ja": "デパートはどこですか？",
+     "en": "Where is the department store?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 677.8,
+     "end": 680.7,
+     "ja": "あそこです。あそこです。",
+     "en": "It's over there. It's over there.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 683.7,
+     "end": 685.5,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "_4GEMDIntxs",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

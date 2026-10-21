@@ -1,0 +1,190 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.5,
+   "end": 25.2,
+   "title": "Counting Books in Japanese",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜冊 — counter for books",
+    "〜があります — there is/are"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 7.0,
+     "end": 8.5,
+     "ja": "本です。",
+     "en": "It's a book.",
+     "speaker": "A"
+    },
+    {
+     "start": 8.8,
+     "end": 9.9,
+     "ja": "本。",
+     "en": "Book.",
+     "speaker": "A"
+    },
+    {
+     "start": 11.2,
+     "end": 14.3,
+     "ja": "本が1冊、",
+     "en": "One book,",
+     "speaker": "A"
+    },
+    {
+     "start": 16.7,
+     "end": 18.4,
+     "ja": "2冊、",
+     "en": "two books,",
+     "speaker": "A"
+    },
+    {
+     "start": 21.0,
+     "end": 24.8,
+     "ja": "3冊あります。",
+     "en": "there are three books.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 324.0,
+   "end": 352.5,
+   "title": "She Is Wearing a Black Hat",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜をかぶっている — wearing (a hat)",
+    "い形容詞＋名詞 — adjective modifying noun"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 324.3,
+     "end": 328.5,
+     "ja": "これは帽子です。",
+     "en": "This is a hat.",
+     "speaker": "A"
+    },
+    {
+     "start": 328.9,
+     "end": 330.4,
+     "ja": "帽子。",
+     "en": "Hat.",
+     "speaker": "A"
+    },
+    {
+     "start": 331.8,
+     "end": 335.5,
+     "ja": "黒い帽子です。",
+     "en": "It is a black hat.",
+     "speaker": "A"
+    },
+    {
+     "start": 337.0,
+     "end": 343.7,
+     "ja": "女の子は黒い帽子をかぶっています。",
+     "en": "The girl is wearing a black hat.",
+     "speaker": "A"
+    },
+    {
+     "start": 345.0,
+     "end": 351.8,
+     "ja": "女の子は黒い帽子をかぶっています。",
+     "en": "The girl is wearing a black hat.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 412.0,
+   "end": 435.5,
+   "title": "Counting Pages in a Picture Book",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "これは〜です — this is ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 412.7,
+     "end": 415.0,
+     "ja": "これはページです。",
+     "en": "This is a page.",
+     "speaker": "A"
+    },
+    {
+     "start": 415.5,
+     "end": 416.8,
+     "ja": "ページ。",
+     "en": "Page.",
+     "speaker": "A"
+    },
+    {
+     "start": 417.3,
+     "end": 419.4,
+     "ja": "1ページ、",
+     "en": "Page one,",
+     "speaker": "A"
+    },
+    {
+     "start": 420.1,
+     "end": 422.0,
+     "ja": "2ページ、",
+     "en": "page two,",
+     "speaker": "A"
+    },
+    {
+     "start": 423.0,
+     "end": 425.0,
+     "ja": "3ページ、",
+     "en": "page three,",
+     "speaker": "A"
+    },
+    {
+     "start": 426.0,
+     "end": 428.0,
+     "ja": "4ページ、",
+     "en": "page four,",
+     "speaker": "A"
+    },
+    {
+     "start": 429.0,
+     "end": 431.0,
+     "ja": "5ページ。",
+     "en": "page five.",
+     "speaker": "A"
+    },
+    {
+     "start": 431.7,
+     "end": 433.4,
+     "ja": "ページです。",
+     "en": "It's a page.",
+     "speaker": "A"
+    },
+    {
+     "start": 433.5,
+     "end": 434.8,
+     "ja": "ページ。",
+     "en": "Page.",
+     "speaker": "A"
+    }
+   ]
+  }
+ ],
+ "videoId": "Joe0XXO6pf4",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

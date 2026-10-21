@@ -1,0 +1,132 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 118.5,
+   "end": 138.5,
+   "title": "What Kind of Car Is It?",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜だろう — I wonder / guessing",
+    "この + noun — this (noun)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 119.0,
+     "end": 121.3,
+     "ja": "何だろう？",
+     "en": "I wonder what it is?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 126.0,
+     "end": 128.5,
+     "ja": "この車、何？",
+     "en": "What is this vehicle?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 135.5,
+     "end": 137.8,
+     "ja": "パトカー！",
+     "en": "A police car!",
+     "speaker": "Shimajiro"
+    }
+   ]
+  },
+  {
+   "start": 164.5,
+   "end": 182.5,
+   "title": "Playing with Building Blocks",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "できる — to be completed",
+    "い-adjective — expressing feeling / fun"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 164.8,
+     "end": 166.8,
+     "ja": "できたー！",
+     "en": "I made it!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 167.8,
+     "end": 169.8,
+     "ja": "よーし、次！",
+     "en": "Alright, next!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 178.5,
+     "end": 181.8,
+     "ja": "積み木楽しい！",
+     "en": "Blocks are so fun!",
+     "speaker": "Shimajiro"
+    }
+   ]
+  },
+  {
+   "start": 473.8,
+   "end": 491.2,
+   "title": "Guessing the Fire Truck",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "この + noun — this (noun)",
+    "〜た — past / completed action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 474.5,
+     "end": 477.2,
+     "ja": "この車、何？",
+     "en": "What is this vehicle?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 483.0,
+     "end": 484.7,
+     "ja": "速い！",
+     "en": "It's fast!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 486.3,
+     "end": 488.0,
+     "ja": "伸びた！",
+     "en": "It extended!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 488.6,
+     "end": 490.5,
+     "ja": "消防車！",
+     "en": "A fire truck!",
+     "speaker": "Shimajiro"
+    }
+   ]
+  }
+ ],
+ "videoId": "bDfx4YMtj-k",
+ "pickTopics": [
+  "family",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

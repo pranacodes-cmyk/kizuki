@@ -1,0 +1,164 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 3.8,
+   "end": 25.1,
+   "title": "Introducing Italian Rice Balls",
+   "level": "N5",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜は〜です — A is B",
+    "〜の〜 — possessive / noun modifier"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.2,
+     "end": 7.4,
+     "ja": "私は吉田です。",
+     "en": "I am Yoshida.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 8.5,
+     "end": 12.4,
+     "ja": "これはスップリです。",
+     "en": "This is supplì.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 12.8,
+     "end": 16.0,
+     "ja": "イタリアのおにぎりです。",
+     "en": "It's an Italian rice ball.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 16.5,
+     "end": 19.5,
+     "ja": "イタリアのおにぎりです。",
+     "en": "It's an Italian rice ball.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 20.6,
+     "end": 24.6,
+     "ja": "これが、おにぎり？",
+     "en": "This is a rice ball?",
+     "speaker": "Yoshida"
+    }
+   ]
+  },
+  {
+   "start": 25.4,
+   "end": 43.8,
+   "title": "Ingredients for Supplì",
+   "level": "N5",
+   "topics": [
+    "food"
+   ],
+   "grammar": [
+    "〜の〜 — noun modifier",
+    "もう〜ました — already did"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 25.8,
+     "end": 30.2,
+     "ja": "イタリアのおにぎりの材料です。",
+     "en": "These are the ingredients for the Italian rice balls.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 31.4,
+     "end": 34.3,
+     "ja": "これが米です。",
+     "en": "This is rice.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 35.8,
+     "end": 37.8,
+     "ja": "トマトピューレです。",
+     "en": "This is tomato purée.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 38.5,
+     "end": 40.2,
+     "ja": "玉ねぎです。",
+     "en": "This is onion.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 40.9,
+     "end": 42.8,
+     "ja": "もう切りました。",
+     "en": "I've already chopped it.",
+     "speaker": "Yoshida"
+    }
+   ]
+  },
+  {
+   "start": 527.5,
+   "end": 549.5,
+   "title": "Tasting the Finished Supplì",
+   "level": "N5",
+   "topics": [
+    "food"
+   ],
+   "grammar": [
+    "〜を〜ます — direct object marker",
+    "〜も — also"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 528.0,
+     "end": 529.3,
+     "ja": "うん。",
+     "en": "Mm.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 529.8,
+     "end": 533.5,
+     "ja": "おにぎりをちょっと食べます。",
+     "en": "I'll take a little bite of the rice ball.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 539.7,
+     "end": 541.2,
+     "ja": "美味しい！",
+     "en": "It's delicious!",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 541.5,
+     "end": 544.8,
+     "ja": "イタリアのおにぎりも美味しいです。",
+     "en": "Italian rice balls are also delicious.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 545.3,
+     "end": 548.8,
+     "ja": "イタリアのおにぎりも美味しいです。",
+     "en": "Italian rice balls are delicious too.",
+     "speaker": "Yoshida"
+    }
+   ]
+  }
+ ],
+ "videoId": "mAUDiGmS6MY",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

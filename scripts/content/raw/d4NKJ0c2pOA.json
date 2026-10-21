@@ -1,0 +1,112 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 204.5,
+   "end": 235.0,
+   "title": "Welcome Into the House",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜と — when / upon doing",
+    "〜てくる — action directed toward / come out",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 205.0,
+     "end": 211.0,
+     "ja": "男が家の前まで行くと、",
+     "en": "When the man went up to the front of the house,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 212.0,
+     "end": 222.5,
+     "ja": "きれいな女の人が出てきました。",
+     "en": "a beautiful woman came out.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 224.2,
+     "end": 234.2,
+     "ja": "「どうぞ、中へ入ってください。」",
+     "en": "\"Please, come inside.\"",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 236.5,
+   "end": 262.5,
+   "title": "Serving Tea and Food",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくれる — doing something for someone",
+    "〜ました — polite past tense"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 236.8,
+     "end": 249.5,
+     "ja": "女の人は、男に食べ物とお茶を出してくれました。",
+     "en": "The woman served food and tea to the man.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 253.0,
+     "end": 260.5,
+     "ja": "男は安心しました。",
+     "en": "The man felt relieved.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 357.0,
+   "end": 382.5,
+   "title": "Don't Look in the Back Room",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜てもいい — permission (may / it is okay to)",
+    "〜ないでください — please don't"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 357.5,
+     "end": 366.5,
+     "ja": "「家の中は見てもいいですよ。」",
+     "en": "\"You may look around inside the house.\"",
+     "speaker": "Woman"
+    },
+    {
+     "start": 368.5,
+     "end": 382.0,
+     "ja": "「でも、一番奥の部屋だけは、見ないでください。」",
+     "en": "\"However, please do not look into the room furthest in the back.\"",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "d4NKJ0c2pOA",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

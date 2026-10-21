@@ -20,3 +20,6 @@ export const trialTimeline = () => [
 
 /** Free learners can watch this many clips per day before the upgrade prompt. */
 export const FREE_DAILY_CLIPS = 10;
+
+/** Free learners can ask Kizuki this many questions per day. */
+export const FREE_DAILY_ASKS = 5;

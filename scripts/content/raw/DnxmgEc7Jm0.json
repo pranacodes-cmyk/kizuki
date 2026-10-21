@@ -1,0 +1,211 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 13.2,
+   "end": 45.3,
+   "title": "What's on the Handkerchief?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture",
+    "animals"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜は何ですか — what is ~?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.2,
+     "end": 15.0,
+     "ja": "これです。",
+     "en": "It's this.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 15.5,
+     "end": 17.0,
+     "ja": "これです。",
+     "en": "It's this.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 17.3,
+     "end": 19.8,
+     "ja": "これは何ですか？",
+     "en": "What is this?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 20.2,
+     "end": 25.0,
+     "ja": "これはハンカチです。",
+     "en": "This is a handkerchief.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 25.4,
+     "end": 27.4,
+     "ja": "ハンカチ。",
+     "en": "A handkerchief.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 28.0,
+     "end": 31.5,
+     "ja": "よく見てください。",
+     "en": "Please look closely.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 32.4,
+     "end": 37.0,
+     "ja": "はい、何かデザインがありますね。",
+     "en": "Yes, there's a design, isn't there?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 37.5,
+     "end": 40.5,
+     "ja": "何のデザインですか？",
+     "en": "What kind of design is it?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 41.0,
+     "end": 45.0,
+     "ja": "これはトンボです。",
+     "en": "This is a dragonfly.",
+     "speaker": "Chieko"
+    }
+   ]
+  },
+  {
+   "start": 104.5,
+   "end": 138.0,
+   "title": "A Handmade Sashiko Handkerchief",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくれる — to do something for someone",
+    "〜と言う — to be called"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 104.5,
+     "end": 109.5,
+     "ja": "このハンカチは私の友達、",
+     "en": "This handkerchief, my friend...",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 109.6,
+     "end": 114.8,
+     "ja": "友達のお母さんが作りました。",
+     "en": "My friend's mother made it.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 115.5,
+     "end": 119.8,
+     "ja": "私の友達のお母さんは、",
+     "en": "My friend's mother",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 120.5,
+     "end": 125.8,
+     "ja": "全部縫ってくれました。",
+     "en": "kindly sewed the whole thing for me.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 126.5,
+     "end": 132.0,
+     "ja": "このデザインを「刺し子」と言います。",
+     "en": "This design is called \"sashiko.\"",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 132.8,
+     "end": 135.0,
+     "ja": "刺し子です。",
+     "en": "It is sashiko.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 135.5,
+     "end": 138.0,
+     "ja": "これは刺し子のハンカチです。",
+     "en": "This is a sashiko handkerchief.",
+     "speaker": "Chieko"
+    }
+   ]
+  },
+  {
+   "start": 216.8,
+   "end": 240.0,
+   "title": "Colorful Hand-Stitched Threads",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜で — by means of",
+    "だから — therefore / so"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 217.0,
+     "end": 220.5,
+     "ja": "線は青い糸で、",
+     "en": "The lines are in blue thread,",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 221.0,
+     "end": 224.5,
+     "ja": "羽は黄色い糸で、",
+     "en": "the wings are in yellow thread,",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 225.4,
+     "end": 230.8,
+     "ja": "トンボの体は赤い糸で縫いました。",
+     "en": "and the dragonfly's body was sewn with red thread.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 231.3,
+     "end": 236.5,
+     "ja": "だから、とてもカラフルですね。",
+     "en": "So it's very colorful, isn't it?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 237.0,
+     "end": 239.5,
+     "ja": "カラフルです。",
+     "en": "It's colorful.",
+     "speaker": "Chieko"
+    }
+   ]
+  }
+ ],
+ "videoId": "DnxmgEc7Jm0",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

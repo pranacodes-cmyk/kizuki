@@ -1,0 +1,218 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 14.8,
+   "end": 33.6,
+   "title": "Spring Is a Season of Encounters and Goodbyes",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "なぜなら〜から — because...",
+    "〜こと — nominalizing verbs"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 15.0,
+     "end": 21.2,
+     "ja": "日本では、春の3月と4月はとっても特別な季節です。",
+     "en": "In Japan, March and April in spring are a very special season.",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 21.8,
+     "end": 24.1,
+     "ja": "なぜなら、春は出会い、",
+     "en": "This is because spring is a time of encounters,",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 24.2,
+     "end": 26.5,
+     "ja": "新しい人と出会うこと、",
+     "en": "meeting new people,",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 26.8,
+     "end": 28.5,
+     "ja": "と、お別れ、",
+     "en": "and goodbyes,",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 28.6,
+     "end": 30.9,
+     "ja": "人とさよならすること、",
+     "en": "saying farewell to people,",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 31.0,
+     "end": 33.3,
+     "ja": "その季節だからです。",
+     "en": "that kind of season.",
+     "speaker": "Sayuri"
+    }
+   ]
+  },
+  {
+   "start": 150.0,
+   "end": 213.5,
+   "title": "Enjoying Hanami in the Spring",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜たり〜たりする — doing things like... and...",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 150.3,
+     "end": 153.8,
+     "ja": "そして、日本では桜の季節に、",
+     "en": "And during the cherry blossom season in Japan,",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 154.0,
+     "end": 156.6,
+     "ja": "お花見をします。",
+     "en": "people do hanami (cherry blossom viewing).",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 156.9,
+     "end": 200.7,
+     "ja": "みんなで公園に行って、桜を見ながら",
+     "en": "Everyone goes to the park and, while looking at the cherry blossoms,",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 200.8,
+     "end": 202.5,
+     "ja": "ご飯を食べたりとか、",
+     "en": "we eat meals,",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 202.7,
+     "end": 204.9,
+     "ja": "あとは飲み物を飲んだりして、",
+     "en": "and also have drinks,",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 205.0,
+     "end": 207.0,
+     "ja": "ピクニックを楽しみます。",
+     "en": "enjoying a picnic.",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 207.2,
+     "end": 210.0,
+     "ja": "これはとっても楽しいイベントなので、",
+     "en": "This is a really fun event, so",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 210.2,
+     "end": 213.2,
+     "ja": "日本に春に来たら、ぜひやってみてください。",
+     "en": "if you visit Japan in spring, please definitely try it out.",
+     "speaker": "Sayuri"
+    }
+   ]
+  },
+  {
+   "start": 214.3,
+   "end": 239.8,
+   "title": "Special Japanese Spring Sweets",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜だけ — only",
+    "〜で作った — made with / made of",
+    "〜が入っている — contains / is inside"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 214.6,
+     "end": 216.5,
+     "ja": "日本の春には、",
+     "en": "In the Japanese spring,",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 216.6,
+     "end": 219.5,
+     "ja": "春だけの特別な食べ物があります。",
+     "en": "there are special foods only found in spring.",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 219.8,
+     "end": 223.0,
+     "ja": "例えば桜餅です。",
+     "en": "For example, sakuramochi.",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 223.3,
+     "end": 226.5,
+     "ja": "これは桜の葉とお米で作った、",
+     "en": "This is a sweet treat made with",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 226.7,
+     "end": 229.0,
+     "ja": "甘いお菓子です。",
+     "en": "cherry leaves and rice.",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 229.4,
+     "end": 232.7,
+     "ja": "また、いちご大福も人気です。",
+     "en": "Also, strawberry daifuku is popular too.",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 233.0,
+     "end": 236.7,
+     "ja": "これはお餅の中にいちごが入っていて、",
+     "en": "It has a strawberry inside the mochi,",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 237.0,
+     "end": 239.5,
+     "ja": "とっても美味しいです。",
+     "en": "and it's very delicious.",
+     "speaker": "Sayuri"
+    }
+   ]
+  }
+ ],
+ "videoId": "xNx-FZ4Sj78",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

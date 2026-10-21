@@ -1,0 +1,169 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.8,
+   "end": 47.8,
+   "title": "What Is Onigiri?",
+   "level": "N5",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜て — connecting actions",
+    "〜が入っている — is inside",
+    "〜など — and so on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 24.0,
+     "end": 27.5,
+     "ja": "まずはおにぎりです。",
+     "en": "First is onigiri.",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 28.0,
+     "end": 33.7,
+     "ja": "おにぎりはご飯を三角や丸の形に握って、",
+     "en": "Onigiri is made by shaping rice into triangles or rounds,",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 34.0,
+     "end": 37.3,
+     "ja": "海苔を巻いた食べ物です。",
+     "en": "and wrapping it in nori seaweed.",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 37.7,
+     "end": 42.0,
+     "ja": "中には色々な具が入っています。",
+     "en": "Inside, there are various fillings.",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 42.3,
+     "end": 47.5,
+     "ja": "例えば鮭、梅干し、ツナマヨなどです。",
+     "en": "For example, salmon, pickled plum, tuna mayo, and more.",
+     "speaker": "Yukino"
+    }
+   ]
+  },
+  {
+   "start": 71.5,
+   "end": 94.2,
+   "title": "All About Miso Soup",
+   "level": "N5",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜という — called / named",
+    "〜て — te-form for sequence and adjectives",
+    "〜など — such as / and so on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 71.6,
+     "end": 74.5,
+     "ja": "次はお味噌汁です。",
+     "en": "Next is miso soup.",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 75.0,
+     "end": 82.8,
+     "ja": "お味噌汁は味噌という調味料をお湯に溶かして作ります。",
+     "en": "Miso soup is made by dissolving a seasoning called miso in hot water.",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 83.3,
+     "end": 89.3,
+     "ja": "中には豆腐やわかめ、ネギなどが入っています。",
+     "en": "Inside, there are ingredients like tofu, wakame seaweed, and green onions.",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 90.0,
+     "end": 93.9,
+     "ja": "温かくて体がほっとします。",
+     "en": "It's warm and makes you feel relaxed.",
+     "speaker": "Yukino"
+    }
+   ]
+  },
+  {
+   "start": 118.0,
+   "end": 145.5,
+   "title": "Japanese Green Tea",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜れる／られる — passive voice",
+    "〜と言われている — it is said that...",
+    "〜も〜もある — both ... and ... exist"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 118.2,
+     "end": 120.7,
+     "ja": "最後はお茶です。",
+     "en": "Lastly, we have tea.",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 121.1,
+     "end": 125.8,
+     "ja": "日本では緑茶がとても有名です。",
+     "en": "In Japan, green tea is very famous.",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 127.3,
+     "end": 131.7,
+     "ja": "お茶は食事の時によく飲まれます。",
+     "en": "Tea is often drunk during meals.",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 132.3,
+     "end": 136.2,
+     "ja": "温かいお茶も冷たいお茶もあります。",
+     "en": "There is both hot tea and cold tea.",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 136.7,
+     "end": 141.7,
+     "ja": "緑茶はさっぱりしていて、健康にもいいと言われています。",
+     "en": "Green tea is refreshing, and it is said to be good for your health.",
+     "speaker": "Yukino"
+    },
+    {
+     "start": 142.0,
+     "end": 145.0,
+     "ja": "外国の方にも人気があります。",
+     "en": "It is also popular with people from overseas.",
+     "speaker": "Yukino"
+    }
+   ]
+  }
+ ],
+ "videoId": "ecG1j5zBcrY",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

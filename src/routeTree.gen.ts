@@ -30,6 +30,7 @@ import { Route as AppFeedRouteImport } from './routes/_app/feed'
 import { Route as AppProfileRouteImport } from './routes/_app/profile'
 import { Route as AppVocabRouteImport } from './routes/_app/vocab'
 import { Route as ClipClipIdRouteImport } from './routes/clip.$clipId'
+import { Route as ApiPublicAskRouteImport } from './routes/api/public/ask'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -135,6 +136,11 @@ const ClipClipIdRoute = ClipClipIdRouteImport.update({
   path: '/clip/$clipId',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiPublicAskRoute = ApiPublicAskRouteImport.update({
+  id: '/api/public/ask',
+  path: '/api/public/ask',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -157,6 +163,7 @@ export interface FileRoutesByFullPath {
   '/profile': typeof AppProfileRoute
   '/vocab': typeof AppVocabRoute
   '/clip/$clipId': typeof ClipClipIdRoute
+  '/api/public/ask': typeof ApiPublicAskRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -179,6 +186,7 @@ export interface FileRoutesByTo {
   '/profile': typeof AppProfileRoute
   '/vocab': typeof AppVocabRoute
   '/clip/$clipId': typeof ClipClipIdRoute
+  '/api/public/ask': typeof ApiPublicAskRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -203,6 +211,7 @@ export interface FileRoutesById {
   '/_app/profile': typeof AppProfileRoute
   '/_app/vocab': typeof AppVocabRoute
   '/clip/$clipId': typeof ClipClipIdRoute
+  '/api/public/ask': typeof ApiPublicAskRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -227,6 +236,7 @@ export interface FileRouteTypes {
     | '/profile'
     | '/vocab'
     | '/clip/$clipId'
+    | '/api/public/ask'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -249,6 +259,7 @@ export interface FileRouteTypes {
     | '/profile'
     | '/vocab'
     | '/clip/$clipId'
+    | '/api/public/ask'
   id:
     | '__root__'
     | '/'
@@ -272,6 +283,7 @@ export interface FileRouteTypes {
     | '/_app/profile'
     | '/_app/vocab'
     | '/clip/$clipId'
+    | '/api/public/ask'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -292,6 +304,7 @@ export interface RootRouteChildren {
   TermsRoute: typeof TermsRoute
   TrialRoute: typeof TrialRoute
   ClipClipIdRoute: typeof ClipClipIdRoute
+  ApiPublicAskRoute: typeof ApiPublicAskRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -443,6 +456,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ClipClipIdRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/public/ask': {
+      id: '/api/public/ask'
+      path: '/api/public/ask'
+      fullPath: '/api/public/ask'
+      preLoaderRoute: typeof ApiPublicAskRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -480,6 +500,7 @@ const rootRouteChildren: RootRouteChildren = {
   TermsRoute: TermsRoute,
   TrialRoute: TrialRoute,
   ClipClipIdRoute: ClipClipIdRoute,
+  ApiPublicAskRoute: ApiPublicAskRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

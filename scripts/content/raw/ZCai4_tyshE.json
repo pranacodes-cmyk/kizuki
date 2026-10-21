@@ -1,0 +1,193 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 59.8,
+   "end": 126.0,
+   "title": "Childhood Friends",
+   "level": "N5",
+   "topics": [
+    "friends"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜か — embedded question"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 59.8,
+     "end": 63.8,
+     "ja": "まずは、昔の友達です。",
+     "en": "First of all, old friends.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 64.2,
+     "end": 67.5,
+     "ja": "幼馴染ですね。",
+     "en": "Childhood friends, that is.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 68.5,
+     "end": 74.0,
+     "ja": "幼馴染は、まあ本当に地元の友達で、",
+     "en": "Childhood friends are friends from your hometown,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 74.2,
+     "end": 79.0,
+     "ja": "子供の時から仲がいい友達ですね。",
+     "en": "friends you've been close with since childhood.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 80.0,
+     "end": 83.0,
+     "ja": "どうやって友達になったか、",
+     "en": "How we became friends,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 83.2,
+     "end": 85.5,
+     "ja": "覚えていません。",
+     "en": "I don't remember.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 202.0,
+   "end": 226.5,
+   "title": "Making Friends as Adults",
+   "level": "N5",
+   "topics": [
+    "friends",
+    "school"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜のは — nominalizer"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 202.0,
+     "end": 207.5,
+     "ja": "あと、新しい友達ですね。",
+     "en": "And then, there are new friends.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 207.8,
+     "end": 209.8,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 210.0,
+     "end": 213.8,
+     "ja": "皆さんは大学を卒業してから、",
+     "en": "Since graduating from university,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 214.0,
+     "end": 217.5,
+     "ja": "友達を作っていますか？",
+     "en": "do you make new friends?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 219.0,
+     "end": 222.5,
+     "ja": "学生の時に友達を作るのは、",
+     "en": "Making friends when you're a student",
+     "speaker": "Shun"
+    },
+    {
+     "start": 222.8,
+     "end": 226.0,
+     "ja": "簡単ですよね。",
+     "en": "is easy, isn't it?",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 335.5,
+   "end": 365.8,
+   "title": "Friends Made in Hostels",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "friends"
+   ],
+   "grammar": [
+    "〜た時 — when doing",
+    "〜ている — ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 335.8,
+     "end": 337.8,
+     "ja": "あとは、",
+     "en": "And also,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 338.2,
+     "end": 343.0,
+     "ja": "あの、旅行に行った時のホステルで、",
+     "en": "at hostels when I went traveling,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 343.2,
+     "end": 347.0,
+     "ja": "たくさん友達を作りました。",
+     "en": "I made a lot of friends.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 349.0,
+     "end": 353.5,
+     "ja": "ホステルでほとんど友達を作りましたね。",
+     "en": "I made most of my friends at hostels.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 354.0,
+     "end": 355.5,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 356.0,
+     "end": 361.5,
+     "ja": "時々ホステルで会った人と一緒に旅行に行って、",
+     "en": "Sometimes I traveled with people I met at hostels,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 362.0,
+     "end": 365.3,
+     "ja": "今でも連絡を取っています。",
+     "en": "and we're still in touch even now.",
+     "speaker": "Shun"
+    }
+   ]
+  }
+ ],
+ "videoId": "ZCai4_tyshE",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,155 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 39.8,
+   "end": 51.9,
+   "title": "What to Do When Lost",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily",
+    "anime"
+   ],
+   "grammar": [
+    "〜たら — if / when",
+    "〜てもらう — receive an action / have someone do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 40.1,
+     "end": 42.9,
+     "ja": "迷子になったらどうするか覚えてる？",
+     "en": "Do you remember what to do if you get lost?",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 43.6,
+     "end": 46.5,
+     "ja": "慌てないでお店の人に助けてもらう。",
+     "en": "Don't panic, and ask the store staff for help.",
+     "speaker": "Peppa Pig"
+    },
+    {
+     "start": 46.7,
+     "end": 48.1,
+     "ja": "そう、そうしてね。",
+     "en": "That's right, do that okay.",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 48.3,
+     "end": 51.5,
+     "ja": "これでジョージも迷子になったらどうするかを覚えました。",
+     "en": "Now George has also learned what to do if he gets lost.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 121.8,
+   "end": 133.0,
+   "title": "Asking Miss Rabbit for Help",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜て — please / do (request)",
+    "〜てみて — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 122.0,
+     "end": 123.6,
+     "ja": "迷子！助けて！",
+     "en": "I'm lost! Help me!",
+     "speaker": "George Pig"
+    },
+    {
+     "start": 123.9,
+     "end": 126.6,
+     "ja": "大丈夫よ、私に任せて。一緒に来て！",
+     "en": "It's all right, leave it to me. Come with me!",
+     "speaker": "Miss Rabbit"
+    },
+    {
+     "start": 127.4,
+     "end": 129.8,
+     "ja": "ここからお店中が見えるの。",
+     "en": "From here, you can see all over the store.",
+     "speaker": "Miss Rabbit"
+    },
+    {
+     "start": 130.0,
+     "end": 132.8,
+     "ja": "ペッパたちがどこにいるかすーぐに見つかる！",
+     "en": "We'll find where Peppa and the others are in no time!",
+     "speaker": "Miss Rabbit"
+    }
+   ]
+  },
+  {
+   "start": 435.3,
+   "end": 446.5,
+   "title": "Safety First at the Recycling Center",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "anime",
+    "work"
+   ],
+   "grammar": [
+    "〜てはいけない — must not do",
+    "〜じゃない — isn't it / is not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 435.5,
+     "end": 439.1,
+     "ja": "悪いな、ジョージ。大きな機械のそばで遊んじゃいけないんだ。",
+     "en": "Sorry, George. You can't play near big machines.",
+     "speaker": "Mr. Bull"
+    },
+    {
+     "start": 439.5,
+     "end": 441.2,
+     "ja": "安全第一！",
+     "en": "Safety first!",
+     "speaker": "Mr. Bull"
+    },
+    {
+     "start": 441.5,
+     "end": 442.2,
+     "ja": "分かった！",
+     "en": "Got it!",
+     "speaker": "Peppa Pig"
+    },
+    {
+     "start": 442.5,
+     "end": 444.4,
+     "ja": "でもこれでおしまいじゃないぞ。",
+     "en": "But that's not the end of it.",
+     "speaker": "Mr. Bull"
+    },
+    {
+     "start": 444.6,
+     "end": 446.2,
+     "ja": "次はペッタンコちゃんだ！",
+     "en": "Next is Mr. Flattener!",
+     "speaker": "Mr. Bull"
+    }
+   ]
+  }
+ ],
+ "videoId": "M1iB3JE2Ejg",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

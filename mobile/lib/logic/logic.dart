@@ -782,3 +782,43 @@ List<String> customStudyKeys(List<WordLite> words, int now, {int limit = 20}) {
     ..sort((a, b) => a.card.due != b.card.due ? a.card.due.compareTo(b.card.due) : a.key.compareTo(b.key));
   return list.take(limit).map((w) => w.key).toList();
 }
+
+// ---------------------------------------------------------------------------
+// Ask Kizuki — AI follow-up questions about a line or word
+// ---------------------------------------------------------------------------
+
+/// Longest question a learner can type.
+const askMaxChars = 400;
+
+/// How many chat messages are sent to the tutor with each question.
+const askMaxMessages = 10;
+
+/// Questions asked today; the counter resets on a new day.
+int asksToday(String day, int n, String today) => day == today ? n : 0;
+
+/// Free learners get [freeLimit] questions a day; premium (incl. trial) is unlimited.
+bool canAsk(bool premiumActive, int asked, int freeLimit) => premiumActive || asked < freeLimit;
+
+/// Free questions left today, or null when unlimited.
+int? asksLeft(bool premiumActive, int asked, int freeLimit) => premiumActive ? null : math.max(0, freeLimit - asked);
+
+/// Typed question → what gets sent: whitespace collapsed, trimmed, capped at [askMaxChars].
+String cleanQuestion(String s) {
+  final t = s.replaceAll(RegExp(r'\s+'), ' ').trim();
+  return t.length > askMaxChars ? t.substring(0, askMaxChars).trim() : t;
+}
+
+class AskTurn {
+  final String role, text;
+  const AskTurn(this.role, this.text);
+}
+
+/// Chat history sent with a question: non-empty turns, the last [max], starting with a user turn.
+List<T> askHistory<T extends AskTurn>(List<T> msgs, [int max = askMaxMessages]) {
+  final kept = msgs.where((m) => m.text.trim().isNotEmpty).toList();
+  var out = kept.length > max ? kept.sublist(kept.length - max) : kept;
+  while (out.isNotEmpty && out.first.role != 'user') {
+    out = out.sublist(1);
+  }
+  return out;
+}

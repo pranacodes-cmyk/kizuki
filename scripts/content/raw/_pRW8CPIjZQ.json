@@ -1,0 +1,166 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 15.5,
+   "end": 35.0,
+   "title": "A Way to Cool Down?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜すぎる — too much / excessively",
+    "〜ば — conditional (if/when)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 15.8,
+     "end": 18.0,
+     "ja": "うぅ〜、暑い。",
+     "en": "Ugh, it's so hot.",
+     "speaker": "Egg"
+    },
+    {
+     "start": 18.1,
+     "end": 22.0,
+     "ja": "たなかさん、暑すぎて何もできないよ。",
+     "en": "Tanaka-san, it's so hot I can't do anything.",
+     "speaker": "Egg"
+    },
+    {
+     "start": 22.4,
+     "end": 25.0,
+     "ja": "うーん、ちょっと待ってね…。",
+     "en": "Hmm, wait a moment...",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 26.6,
+     "end": 28.5,
+     "ja": "じゃーん！風鈴。",
+     "en": "Ta-da! A wind chime.",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 28.7,
+     "end": 31.3,
+     "ja": "これを窓につければ、",
+     "en": "If you hang this on the window,",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 31.4,
+     "end": 34.8,
+     "ja": "きれいな音が出て涼しい気分になるよ。",
+     "en": "it makes a lovely sound and makes you feel cool.",
+     "speaker": "Tanaka"
+    }
+   ]
+  },
+  {
+   "start": 122.5,
+   "end": 146.5,
+   "title": "Visiting Fuji-san",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "friends",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てしまう — unintended action / regret",
+    "〜てもいい — asking for permission"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 122.8,
+     "end": 124.9,
+     "ja": "ふじさん、こんにちは。",
+     "en": "Hello, Fuji-san.",
+     "speaker": "Egg"
+    },
+    {
+     "start": 125.1,
+     "end": 129.5,
+     "ja": "あぁ、エッグさん。今日も暑いですね。",
+     "en": "Ah, Egg-san. It's hot today too, isn't it?",
+     "speaker": "Fuji"
+    },
+    {
+     "start": 129.8,
+     "end": 134.9,
+     "ja": "実はうちのエアコンが壊れてしまったんです。",
+     "en": "Actually, our air conditioner broke down.",
+     "speaker": "Egg"
+    },
+    {
+     "start": 135.0,
+     "end": 138.2,
+     "ja": "少しお邪魔してもいいですか？",
+     "en": "May I come hang out for a bit?",
+     "speaker": "Egg"
+    },
+    {
+     "start": 138.6,
+     "end": 143.9,
+     "ja": "あぁ、実はうちも今、エアコンが壊れているんですよ。",
+     "en": "Ah, actually ours is broken right now too.",
+     "speaker": "Fuji"
+    },
+    {
+     "start": 144.2,
+     "end": 146.2,
+     "ja": "えぇ〜っ？！",
+     "en": "What?!",
+     "speaker": "Egg"
+    }
+   ]
+  },
+  {
+   "start": 211.5,
+   "end": 227.5,
+   "title": "What is a Furin?",
+   "level": "N4",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜でできる — made of / made from",
+    "〜ことができる — can / be able to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 211.8,
+     "end": 215.8,
+     "ja": "風鈴は、ガラスでできた小さな飾りです。",
+     "en": "A wind chime is a small ornament made of glass.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 216.2,
+     "end": 219.8,
+     "ja": "窓や軒下に吊るして使います。",
+     "en": "You use it by hanging it from a window or under the eaves.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 220.3,
+     "end": 227.1,
+     "ja": "風が吹いたときにきれいな音が鳴って、涼しさを感じることができます。",
+     "en": "When the wind blows, it makes a pretty sound, and you can feel cool.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "_pRW8CPIjZQ",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

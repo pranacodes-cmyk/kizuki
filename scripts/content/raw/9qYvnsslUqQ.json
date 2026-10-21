@@ -1,0 +1,154 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 22.8,
+   "end": 37.0,
+   "title": "Deciding on a Gacha Machine",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜かな — wondering / self-deliberation",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.1,
+     "end": 25.8,
+     "ja": "どのガチャにしようかな〜。",
+     "en": "Which gacha should I go with?",
+     "speaker": "Giraffe"
+    },
+    {
+     "start": 26.4,
+     "end": 29.2,
+     "ja": "…あっ、これ、新しいガチャだ。",
+     "en": "...Oh, this is a new gacha.",
+     "speaker": "Giraffe"
+    },
+    {
+     "start": 29.8,
+     "end": 33.5,
+     "ja": "かたつむりさんの家族のキーホルダーか。",
+     "en": "Keychains of Snail-san's family, huh.",
+     "speaker": "Giraffe"
+    },
+    {
+     "start": 34.0,
+     "end": 36.7,
+     "ja": "よし、一回やってみよう。",
+     "en": "Alright, let's try it once.",
+     "speaker": "Giraffe"
+    }
+   ]
+  },
+  {
+   "start": 127.5,
+   "end": 145.0,
+   "title": "Trading Gacha Prizes",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "よかったら — if you'd like",
+    "〜ませんか — won't you / would you like to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 127.8,
+     "end": 133.7,
+     "ja": "あの…よかったら、そのお母さんと交換しませんか？",
+     "en": "Um... if you'd like, would you like to trade for that mother snail?",
+     "speaker": "Tofu"
+    },
+    {
+     "start": 134.1,
+     "end": 136.5,
+     "ja": "え…いいんですか？",
+     "en": "Huh... are you sure?",
+     "speaker": "Giraffe"
+    },
+    {
+     "start": 136.9,
+     "end": 140.5,
+     "ja": "私、それが欲しかったんです。",
+     "en": "That's the one I really wanted.",
+     "speaker": "Tofu"
+    },
+    {
+     "start": 140.8,
+     "end": 142.0,
+     "ja": "あ、じゃあ…。",
+     "en": "Oh, in that case...",
+     "speaker": "Giraffe"
+    },
+    {
+     "start": 142.3,
+     "end": 144.7,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Giraffe"
+    }
+   ]
+  },
+  {
+   "start": 145.0,
+   "end": 201.0,
+   "title": "Asking to Exchange Contact Info",
+   "level": "N5",
+   "topics": [
+    "romance",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "こちらこそ — likewise / it is I who should say so",
+    "〜てください — please do",
+    "〜ませんか — would you like to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 145.2,
+     "end": 147.6,
+     "ja": "こちらこそありがとうございます。",
+     "en": "Thank you as well.",
+     "speaker": "Tofu"
+    },
+    {
+     "start": 147.8,
+     "end": 150.5,
+     "ja": "それじゃあ、失礼します。",
+     "en": "Well then, excuse me.",
+     "speaker": "Tofu"
+    },
+    {
+     "start": 151.0,
+     "end": 153.9,
+     "ja": "あ、ちょっと待ってください！",
+     "en": "Ah, please wait a second!",
+     "speaker": "Giraffe"
+    },
+    {
+     "start": 154.9,
+     "end": 200.5,
+     "ja": "あの…よかったら、連絡先も交換しませんか？",
+     "en": "Um... if you'd like, would you like to exchange contact info too?",
+     "speaker": "Giraffe"
+    }
+   ]
+  }
+ ],
+ "videoId": "9qYvnsslUqQ",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

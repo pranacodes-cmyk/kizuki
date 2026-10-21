@@ -1,0 +1,208 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.8,
+   "end": 117.0,
+   "title": "Guessing the Red Object: Apple",
+   "level": "N4",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜られる — potential form",
+    "〜になる — to become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 45.3,
+     "end": 49.0,
+     "ja": "これは食べられます。",
+     "en": "You can eat this.",
+     "speaker": "Coco"
+    },
+    {
+     "start": 50.0,
+     "end": 53.0,
+     "ja": "はい、果物です。",
+     "en": "Yes, it is a fruit.",
+     "speaker": "Coco"
+    },
+    {
+     "start": 53.7,
+     "end": 55.7,
+     "ja": "そう、果物。",
+     "en": "That's right, a fruit.",
+     "speaker": "Coco"
+    },
+    {
+     "start": 56.2,
+     "end": 62.5,
+     "ja": "日本の歌謡曲のタイトルにもなっていますね。",
+     "en": "It's also in the title of a Japanese popular song.",
+     "speaker": "Coco"
+    },
+    {
+     "start": 63.0,
+     "end": 65.0,
+     "ja": "さあ、",
+     "en": "So...",
+     "speaker": "Coco"
+    },
+    {
+     "start": 66.0,
+     "end": 69.3,
+     "ja": "はい、これはリンゴです。",
+     "en": "Yes, this is an apple.",
+     "speaker": "Coco"
+    },
+    {
+     "start": 69.5,
+     "end": 71.8,
+     "ja": "リンゴ。",
+     "en": "Apple.",
+     "speaker": "Coco"
+    },
+    {
+     "start": 72.7,
+     "end": 74.3,
+     "ja": "リンゴ。",
+     "en": "Apple.",
+     "speaker": "Coco"
+    },
+    {
+     "start": 74.8,
+     "end": 76.8,
+     "ja": "リンゴです。",
+     "en": "It's an apple.",
+     "speaker": "Coco"
+    }
+   ]
+  },
+  {
+   "start": 127.2,
+   "end": 155.5,
+   "title": "Guessing the Red Object: Postbox",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜と — when / if",
+    "〜てくれる — to do something for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 127.5,
+     "end": 133.8,
+     "ja": "これは町のどこかに立っています。",
+     "en": "This is standing somewhere in town.",
+     "speaker": "Coco"
+    },
+    {
+     "start": 134.5,
+     "end": 143.0,
+     "ja": "何かを入れると、誰かがそれを届けてくれます。",
+     "en": "When you put something in it, someone will deliver it for you.",
+     "speaker": "Coco"
+    },
+    {
+     "start": 144.8,
+     "end": 148.3,
+     "ja": "はい、これはポストです。",
+     "en": "Yes, this is a postbox.",
+     "speaker": "Coco"
+    },
+    {
+     "start": 148.7,
+     "end": 150.2,
+     "ja": "ポスト。",
+     "en": "Postbox.",
+     "speaker": "Coco"
+    },
+    {
+     "start": 150.4,
+     "end": 152.0,
+     "ja": "ポスト。",
+     "en": "Postbox.",
+     "speaker": "Coco"
+    },
+    {
+     "start": 152.4,
+     "end": 155.2,
+     "ja": "これはポストです。",
+     "en": "This is a postbox.",
+     "speaker": "Coco"
+    }
+   ]
+  },
+  {
+   "start": 249.2,
+   "end": 314.8,
+   "title": "Guessing the Red Object: Randoseru",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜になると — when becoming...",
+    "〜てくる — to come to be / start to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 249.5,
+     "end": 256.5,
+     "ja": "小学生になると、背負って学校に行く子が多くなってきますね。",
+     "en": "When kids become elementary schoolers, many start carrying this to school.",
+     "speaker": "Coco"
+    },
+    {
+     "start": 257.0,
+     "end": 262.5,
+     "ja": "色んな色がありますが、特に女の子がよく使っています。",
+     "en": "There are many colors, but girls especially use this one often.",
+     "speaker": "Coco"
+    },
+    {
+     "start": 303.0,
+     "end": 306.8,
+     "ja": "はい、これは赤いランドセル。",
+     "en": "Yes, this is a red school backpack.",
+     "speaker": "Coco"
+    },
+    {
+     "start": 307.3,
+     "end": 309.8,
+     "ja": "赤いランドセル。",
+     "en": "A red school backpack.",
+     "speaker": "Coco"
+    },
+    {
+     "start": 310.0,
+     "end": 311.8,
+     "ja": "ランドセル。",
+     "en": "A randoseru backpack.",
+     "speaker": "Coco"
+    },
+    {
+     "start": 312.3,
+     "end": 314.3,
+     "ja": "ランドセルです。",
+     "en": "It's a randoseru.",
+     "speaker": "Coco"
+    }
+   ]
+  }
+ ],
+ "videoId": "zcZIkpMBs14",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

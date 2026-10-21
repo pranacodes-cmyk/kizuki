@@ -1,6 +1,7 @@
-# Mimi roadmap (Kiku-beating Japanese immersion app)
+# Kizuki roadmap (Kiku-beating Japanese immersion app)
 
 Flutter (`mobile/`) is the product; the web app is its phone-frame prototype.
+Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com/pranacodes-cmyk/kizuki
 
 ## Research
 - [x] Frame-by-frame teardown of the user's Kiku recording (docs/kiku-teardown.md)
@@ -8,33 +9,32 @@ Flutter (`mobile/`) is the product; the web app is its phone-frame prototype.
 - [x] Product spec + simplifications (docs/product-spec.md)
 
 ## Content pipeline
-- [x] 186 hand-picked YouTube videos by topic (162 embeddable used)
-- [x] AI clip finder + verbatim transcript with timings (414 clips)
+- [x] Hand-picked YouTube videos by topic (227 embeddable videos used)
+- [x] AI clip finder + verbatim transcript with timings
 - [x] Proofreading pass, tokens + furigana + romaji, JMdict senses, JLPT levels
-- [x] Per-word explain-in-context + per-line notes (precomputed, 414/414)
+- [x] Per-word explain-in-context + per-line notes (precomputed for every clip, re-made when a line's words change)
 - [x] Family-friendly dictionary filter (vulgar senses / crude examples dropped)
 - [x] Same JSON for web (public/data) + Flutter (mobile/assets/data)
-- [x] Beginner round: 32 kids'-show / easy-Japanese videos → N5 47 → 81, N4 126 → 173
-- [ ] Another beginner round to reach ~150 N5 clips
-- [ ] Tidy word splitting for long vowels (ー) and digits in transcripts
-- [x] Automated timing audit of the first 330 clips (order, bounds, durations, speed: clean; 6 fast-but-plausible lines)
+- [x] Beginner round 1: 32 kids'-show / easy-Japanese videos → N5 47 → 81
+- [x] Beginner round 2: 65 comprehensible-input / folk-tale / kids' videos → 594 clips, N5 207, N4 225, N3 152, N2 10
+- [x] Word splitting: long vowels (ー) stay with their word; numbers + counters are one word with the right reading (いっぷん, じゅっぷん, さんぜんねん…)
+- [x] Pinned dictionary download (scripts/content/fetch_dict.sh) so the pipeline re-runs from scratch
+- [x] Automated timing audit (order, bounds, durations, speed)
 - [ ] Listen-through spot-check of a sample of clips by a person
 
 ## Shared rules (logic.ts / logic.dart, mirrored tests)
 - [x] Plan, ranking, SRS, streaks, goals, achievements, search, kana, sync merge
 - [x] Free tier (10 clips/day), "hear it in other clips", kana queue, keep studying
-- [x] Mirror the new rules (canWatchClip, clipsWithWord, kanaQueue, kanaLearned, customStudyKeys) + tests in Dart
+- [x] Ask Kizuki rules: 5 free questions/day (premium unlimited), 400-char questions, last 10 messages sent
 
 ## Web prototype
 - [x] Welcome → onboarding (10 steps) → building → plan → founder → paywall (3 steps) → account
 - [x] Feed: YouTube player, karaoke transcript, word card (Meaning/Explain/Examples/Notes), daily goal, line menu, Aa sheet
-- [x] Explore: search word/text, level, topic, grammar
-- [x] Vocab: counts, review button, decks (words/hiragana/katakana), search, filters, word sheet with original audio
-- [x] Review (SRS, swipe, original clip line) + well done + plan modal + rate prompt
-- [x] Profile, settings, history, saved, achievements, terms, privacy
+- [x] Explore, Vocab, Review, Profile, Settings, History, Saved, Achievements, Terms, Privacy
 - [x] Email + Google + Lovable sign-in, password reset, cloud sync, delete account
-- [x] Welcome tour on the feed (7 steps: player, tap-a-word, underline legend, controls, swipe, Vocab) + replay in Settings
-- [ ] Ask Mimi chat (AI follow-up questions, online)
+- [x] Welcome tour on the feed (7 steps) + replay in Settings
+- [x] Ask Kizuki chat (word card Explain tab + line menu), streamed AI answers, sign-in + daily-limit states
+- [x] Kizuki branding on splash + welcome ("気づき · the moment it clicks")
 
 ## Flutter app (same screens)
 - [x] App shell, theme, fonts, assets, router
@@ -43,19 +43,21 @@ Flutter (`mobile/`) is the product; the web app is its phone-frame prototype.
 - [x] Welcome tour (same steps as web)
 - [x] Sync service, reminders (local notifications), TTS, rate prompt, CSV share
 - [x] App icon + splash
+- [x] Ask Kizuki chat (same sheet as web; talks to the published web app)
+- [x] Blank-screen fix: release builds no longer shrink plugin code (saved progress failed to load → blank app); startup shows UI first, backend connects in the background
 - [ ] Google / Lovable sign-in on Android (needs native OAuth redirect setup)
 
 ## Android delivery
-- [x] Flutter project + toolchain
-- [x] flutter analyze + flutter test clean (45 Flutter tests, 39 web tests)
-- [x] GitHub Actions APK workflow written (.github/workflows/android-apk.yml) — not yet run on GitHub
-- [x] Local release APK build → /mnt/documents/Mimi-1.0.1.apk (414 clips, debug-signed, sideload only)
-- [ ] Test on a real Android phone (no emulator available in the sandbox)
+- [x] flutter analyze + flutter test clean (53 Flutter tests, 43 web tests)
+- [x] GitHub Actions: analyze → test → release APK → Android emulator end-to-end (release smoke + full flow with screenshots)
+- [ ] Emulator end-to-end run green on GitHub with the fixes above
+- [ ] Final APK from the green GitHub run → Files
+- [ ] Test on a real Android phone
 
 ## Needs the user
+- Publish the web app — Ask Kizuki in the phone app and the email links (confirm / reset password) use the published address
 - Install the APK on a real phone and report anything broken
-- Change the email-link address (mobile/lib/services/config.dart) to the published web address after publishing
 - Real founder recording (recording guide in Files: founder-video-guide.md)
-- Final brand name, real prices / Play billing products, Play signing keystore
-- Real support email (profile "Contact the founder" uses a placeholder)
+- Real prices / Play billing products, Play signing keystore
+- Real support email (hello@kizuki.app is a placeholder)
 - Legal review of Terms / Privacy drafts

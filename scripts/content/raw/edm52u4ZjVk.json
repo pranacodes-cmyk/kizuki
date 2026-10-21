@@ -1,0 +1,208 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 74.3,
+   "end": 93.6,
+   "title": "What Do You Think About Japan?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜について — about / concerning",
+    "〜もありません — not even a single"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 74.6,
+     "end": 77.5,
+     "ja": "日本についてどう思いますか？",
+     "en": "What do you think about Japan?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 78.0,
+     "end": 82.3,
+     "ja": "日本は安全です。",
+     "en": "Japan is safe.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 83.2,
+     "end": 86.9,
+     "ja": "そして、あの、道がきれいです。",
+     "en": "And, well, the streets are clean.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 87.0,
+     "end": 89.0,
+     "ja": "ああ、ゴミがありませんよね。",
+     "en": "Ah, there is no trash, right?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 89.1,
+     "end": 91.0,
+     "ja": "ゴミが一つもありません。",
+     "en": "There isn't a single piece of trash.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 91.1,
+     "end": 93.4,
+     "ja": "全然ありませんね。",
+     "en": "There's none at all, right?",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 303.7,
+   "end": 327.4,
+   "title": "Strict Rules on Japanese Trains",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜てはいけない — must not do",
+    "〜たり〜たりする — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 304.0,
+     "end": 305.1,
+     "ja": "例えば？",
+     "en": "For example?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 305.2,
+     "end": 307.7,
+     "ja": "例えば電車の中では、",
+     "en": "For example, inside trains,",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 308.0,
+     "end": 313.9,
+     "ja": "話したり踊ったり叫んだりしてはいけません。",
+     "en": "you must not talk, dance, or shout.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 314.1,
+     "end": 319.8,
+     "ja": "そうですよね。日本の電車の中では、電話をしてはいけませんよね。",
+     "en": "That's true. Inside trains in Japan, you shouldn't talk on the phone, right?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 319.9,
+     "end": 321.8,
+     "ja": "してはいけません。",
+     "en": "You must not.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 322.0,
+     "end": 325.6,
+     "ja": "大きい声で話してはいけませんよね。",
+     "en": "You must not speak loudly, right?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 325.7,
+     "end": 327.2,
+     "ja": "話してはいけません。",
+     "en": "You must not.",
+     "speaker": "Okkei"
+    }
+   ]
+  },
+  {
+   "start": 492.4,
+   "end": 514.5,
+   "title": "Convenience Store Sandwiches",
+   "level": "N5",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜たことがある — have done before",
+    "〜くて — adjective connective form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 492.7,
+     "end": 496.2,
+     "ja": "僕、アメリカのセブンイレブンに行ったことがあります。",
+     "en": "I've been to a 7-Eleven in America.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 496.3,
+     "end": 497.2,
+     "ja": "はい、はい。",
+     "en": "Right, right.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 497.3,
+     "end": 500.6,
+     "ja": "サンドイッチ食べました。",
+     "en": "I ate a sandwich.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 500.7,
+     "end": 504.4,
+     "ja": "あまり美味しくない…美味しくなかった。",
+     "en": "It wasn't very tasty... wasn't good.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 504.7,
+     "end": 506.5,
+     "ja": "パサパサです。",
+     "en": "It was dry.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 506.6,
+     "end": 507.7,
+     "ja": "ああ、そっか。",
+     "en": "Ah, I see.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 508.0,
+     "end": 512.4,
+     "ja": "でも日本のサンドイッチは柔らかくて新鮮です。",
+     "en": "But Japanese sandwiches are soft and fresh.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 512.5,
+     "end": 514.2,
+     "ja": "ああ、そうですよね。",
+     "en": "Ah, that's true.",
+     "speaker": "Shun"
+    }
+   ]
+  }
+ ],
+ "videoId": "edm52u4ZjVk",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

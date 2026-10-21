@@ -1,0 +1,161 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 198.0,
+   "end": 212.0,
+   "title": "Drinking Wine",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜を飲みました — drank something",
+    "〜と言いました — said that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 198.3,
+     "end": 202.4,
+     "ja": "日本のワインを飲みました。",
+     "en": "I drank Japanese wine.",
+     "speaker": "Maria"
+    },
+    {
+     "start": 204.0,
+     "end": 206.4,
+     "ja": "マリアさんは、",
+     "en": "Maria said,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 206.4,
+     "end": 210.0,
+     "ja": "「日本のワインを飲みました」",
+     "en": "\"I drank Japanese wine,\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 210.0,
+     "end": 211.5,
+     "ja": "と言いました。",
+     "en": "she said.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 310.8,
+   "end": 337.8,
+   "title": "Asking Where She Drank Wine",
+   "level": "N5",
+   "topics": [
+    "food",
+    "friends"
+   ],
+   "grammar": [
+    "〜で — at (location of action)",
+    "〜じゃない — is not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 311.2,
+     "end": 315.6,
+     "ja": "どこで飲んだんですか？",
+     "en": "Where did you drink it?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 315.6,
+     "end": 321.4,
+     "ja": "どこで二本のワインを飲みましたか？",
+     "en": "Where did you drink two bottles of wine?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 322.2,
+     "end": 324.7,
+     "ja": "バーですか？",
+     "en": "At a bar?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 326.1,
+     "end": 330.1,
+     "ja": "バーでワインを飲みましたか？",
+     "en": "Did you drink wine at a bar?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 332.0,
+     "end": 334.6,
+     "ja": "マリアさんは言いました。",
+     "en": "Maria said,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 334.6,
+     "end": 337.4,
+     "ja": "「バーじゃないです」",
+     "en": "\"It wasn't a bar.\"",
+     "speaker": "Maria"
+    }
+   ]
+  },
+  {
+   "start": 640.4,
+   "end": 653.6,
+   "title": "The Meaning of Nihon",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜じゃない — is not",
+    "〜の〜 — possessive / noun modifier"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 640.7,
+     "end": 643.3,
+     "ja": "日本のワインです。",
+     "en": "It's Japanese wine.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 644.2,
+     "end": 646.6,
+     "ja": "日本のワインです。",
+     "en": "It's wine from Japan.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 648.2,
+     "end": 650.6,
+     "ja": "二本じゃないです。",
+     "en": "It wasn't two bottles.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 651.4,
+     "end": 653.1,
+     "ja": "日本です。",
+     "en": "It was Japan.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "85bkMU2vu2I",
+ "pickTopics": [
+  "daily",
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

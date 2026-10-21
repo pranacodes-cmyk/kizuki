@@ -1,0 +1,290 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 252.0,
+   "end": 282.5,
+   "title": "Japanese Morning Service Culture",
+   "level": "N5",
+   "topics": [
+    "food",
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜ば — conditional (if)",
+    "〜なくてもいい — don't have to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 252.3,
+     "end": 254.9,
+     "ja": "朝は、ん？朝の方が安い？",
+     "en": "In the morning, huh? It's cheaper in the morning?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 255.0,
+     "end": 256.3,
+     "ja": "そうなんですよ。",
+     "en": "That's right.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 256.4,
+     "end": 257.2,
+     "ja": "本当に？",
+     "en": "Really?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 257.3,
+     "end": 258.8,
+     "ja": "そうなんです。",
+     "en": "Really.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 259.0,
+     "end": 262.3,
+     "ja": "朝はコーヒーを一つ頼みますね。",
+     "en": "In the morning, you order a coffee, right?",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 263.0,
+     "end": 266.0,
+     "ja": "そうするとパンがもらえます。",
+     "en": "When you do, you get bread.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 266.8,
+     "end": 269.8,
+     "ja": "へえー！",
+     "en": "Wow!",
+     "speaker": "Shun"
+    },
+    {
+     "start": 270.5,
+     "end": 273.2,
+     "ja": "コーヒーのお金を払えば、",
+     "en": "If you pay for the coffee,",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 273.3,
+     "end": 276.5,
+     "ja": "パンのお金は払わなくても大丈夫です。",
+     "en": "you don't have to pay for the bread.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 276.8,
+     "end": 278.4,
+     "ja": "無料？無料ですか？",
+     "en": "Free? It's free?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 278.5,
+     "end": 279.3,
+     "ja": "無料です。",
+     "en": "It's free.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 279.4,
+     "end": 282.0,
+     "ja": "そっか、それはいいね。",
+     "en": "I see, that's great.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 363.5,
+   "end": 385.5,
+   "title": "Inviting a Friend to the Onsen",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜つもり — intention / plan",
+    "〜てあげる — to do something for someone",
+    "〜ませんか — invitation (won't you?)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 364.1,
+     "end": 365.6,
+     "ja": "温泉に行きます。",
+     "en": "I'm going to a hot spring.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 366.1,
+     "end": 368.1,
+     "ja": "えー、温泉に行くつもりですか？",
+     "en": "Oh, are you planning to go to a hot spring?",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 368.5,
+     "end": 370.2,
+     "ja": "うん、一緒に行きませんか？",
+     "en": "Yeah, want to come with me?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 370.4,
+     "end": 371.4,
+     "ja": "行きたい！",
+     "en": "I want to go!",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 371.5,
+     "end": 372.4,
+     "ja": "行きましょう。",
+     "en": "Let's go.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 372.5,
+     "end": 373.4,
+     "ja": "行きましょう。",
+     "en": "Let's go.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 373.5,
+     "end": 376.1,
+     "ja": "この近くにいい温泉があるんですよ。",
+     "en": "There's a nice hot spring near here.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 376.3,
+     "end": 377.6,
+     "ja": "え、本当ですか？",
+     "en": "Really?",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 378.0,
+     "end": 379.2,
+     "ja": "行きましょう。",
+     "en": "Let's go.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 379.3,
+     "end": 380.2,
+     "ja": "行きましょう。",
+     "en": "Let's go.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 380.3,
+     "end": 382.1,
+     "ja": "連れて行ってあげます。",
+     "en": "I'll take you there.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 382.3,
+     "end": 383.3,
+     "ja": "ありがとう。",
+     "en": "Thank you.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 383.5,
+     "end": 385.0,
+     "ja": "じゃあ行こうか。行きましょう。",
+     "en": "Well, shall we go? Let's go.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 483.5,
+   "end": 516.0,
+   "title": "Why N5 Grammar Is So Important",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜から — because / reason",
+    "〜になる — to become",
+    "〜じゃなくて — not A but B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 484.0,
+     "end": 488.0,
+     "ja": "で、いつも問題はN5の文法なんですよ。",
+     "en": "And the issue is always N5 grammar.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 489.0,
+     "end": 493.0,
+     "ja": "そう、N5の文法が完璧じゃないから、",
+     "en": "Right, because their N5 grammar isn't perfect,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 494.0,
+     "end": 498.5,
+     "ja": "N4とN3が上手にならない。",
+     "en": "they don't improve at N4 and N3.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 500.0,
+     "end": 503.7,
+     "ja": "そっかそっか、じゃあとっても大切ですね。",
+     "en": "I see, I see. Then it's really important.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 504.0,
+     "end": 507.4,
+     "ja": "N5を完璧にするのは本当に大切。",
+     "en": "Mastering N5 is truly essential.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 508.0,
+     "end": 510.5,
+     "ja": "使えるN5、そうですね。",
+     "en": "Usable N5, exactly.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 512.0,
+     "end": 515.5,
+     "ja": "分かるN5じゃなくて使えるN5。",
+     "en": "Not just N5 you understand, but N5 you can use.",
+     "speaker": "Shun"
+    }
+   ]
+  }
+ ],
+ "videoId": "94sLHSkckr0",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

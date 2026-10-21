@@ -1,0 +1,192 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 19.4,
+   "end": 38.9,
+   "title": "Picking Colors for the Race",
+   "level": "N5",
+   "topics": [
+    "friends",
+    "fun",
+    "animals"
+   ],
+   "grammar": [
+    "〜ましょう — let's ...",
+    "じゃない — is not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 19.4,
+     "end": 21.0,
+     "ja": "赤！",
+     "en": "Red!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 21.0,
+     "end": 22.3,
+     "ja": "ピンク！",
+     "en": "Pink!",
+     "speaker": "Mandy"
+    },
+    {
+     "start": 22.3,
+     "end": 24.0,
+     "ja": "黄色！",
+     "en": "Yellow!",
+     "speaker": "Emily"
+    },
+    {
+     "start": 24.3,
+     "end": 26.5,
+     "ja": "えーっと、青！",
+     "en": "Umm, blue!",
+     "speaker": "Pedro"
+    },
+    {
+     "start": 27.4,
+     "end": 33.7,
+     "ja": "ただの競争じゃないのよ。これは練習です。流れに乗って進むことを覚えましょう。",
+     "en": "It's not just a race. This is practice. Let's learn to go with the flow.",
+     "speaker": "Madame Gazelle"
+    },
+    {
+     "start": 34.2,
+     "end": 35.8,
+     "ja": "はーい！",
+     "en": "Okay!",
+     "speaker": "Children"
+    },
+    {
+     "start": 36.0,
+     "end": 38.8,
+     "ja": "よーい…じゃあ、スタート！",
+     "en": "Ready... then, start!",
+     "speaker": "Madame Gazelle"
+    }
+   ]
+  },
+  {
+   "start": 206.0,
+   "end": 224.0,
+   "title": "Going with the Flow",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜みたい — looks like / seems like",
+    "〜ていく — to continue doing / go on",
+    "〜通り — just as / according to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 206.0,
+     "end": 208.8,
+     "ja": "邪魔をしたみたいですみません、マダム・ガゼル。",
+     "en": "Sorry for getting in the way, Madame Gazelle.",
+     "speaker": "Mr. Bull"
+    },
+    {
+     "start": 209.0,
+     "end": 214.6,
+     "ja": "いいんですよ、ミスター・ブル。物事は思っていない方へ流れていくものです。",
+     "en": "That's quite alright, Mr. Bull. Things just tend to flow in unexpected ways.",
+     "speaker": "Madame Gazelle"
+    },
+    {
+     "start": 215.1,
+     "end": 218.8,
+     "ja": "そうだよ。それでね、そういうときは…",
+     "en": "That's right. And so, when that happens...",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 219.0,
+     "end": 221.0,
+     "ja": "流れに乗る！",
+     "en": "Go with the flow!",
+     "speaker": "Children"
+    },
+    {
+     "start": 221.8,
+     "end": 223.8,
+     "ja": "そう、その通りですよ。",
+     "en": "Yes, exactly right.",
+     "speaker": "Madame Gazelle"
+    }
+   ]
+  },
+  {
+   "start": 326.2,
+   "end": 351.8,
+   "title": "Halftime Interview",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "friends",
+    "work"
+   ],
+   "grammar": [
+    "〜つつ — while doing",
+    "〜つもり — plan/intend to",
+    "〜合う — do mutually / to each other"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 326.2,
+     "end": 331.5,
+     "ja": "ハーフタイムです。赤チームのキャプテン、ダディピッグにインタビューしましょう。",
+     "en": "It's halftime. Let's interview Daddy Pig, captain of the Red Team.",
+     "speaker": "Miss Rabbit"
+    },
+    {
+     "start": 331.7,
+     "end": 333.4,
+     "ja": "ダディー！",
+     "en": "Daddy!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 333.7,
+     "end": 337.4,
+     "ja": "1対1ですが、後半はどんな作戦でいきますか？",
+     "en": "It's 1-1, but what strategy will you use in the second half?",
+     "speaker": "Miss Rabbit"
+    },
+    {
+     "start": 337.8,
+     "end": 343.7,
+     "ja": "広めの攻撃フォーメーションを維持、サイドにプレッシャーをかけつつ、ゾーンで守るつもりです。",
+     "en": "We'll keep a wide attacking formation, pressing the flanks while defending zonally.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 343.9,
+     "end": 345.3,
+     "ja": "そう…",
+     "en": "I see...",
+     "speaker": "Miss Rabbit"
+    },
+    {
+     "start": 345.5,
+     "end": 351.5,
+     "ja": "ああ、それに、お互いに助け合うことが大事。チームワークで何でもできる。",
+     "en": "Ah, and also, helping each other is key. With teamwork, we can do anything.",
+     "speaker": "Daddy Pig"
+    }
+   ]
+  }
+ ],
+ "videoId": "c4Pz6mVMXFE",
+ "pickTopics": [
+  "family",
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

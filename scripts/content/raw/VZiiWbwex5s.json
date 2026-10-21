@@ -1,0 +1,206 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 36.5,
+   "end": 58.0,
+   "title": "Where Is the Electric Pot Kept?",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜にあります — existence of inanimate objects",
+    "〜に置く — to place/put in a location"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 36.7,
+     "end": 38.2,
+     "ja": "これは、",
+     "en": "This is...",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 38.2,
+     "end": 41.0,
+     "ja": "これは電気ポットです。",
+     "en": "This is an electric kettle.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 41.0,
+     "end": 43.0,
+     "ja": "電気ポット。",
+     "en": "An electric kettle.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 43.8,
+     "end": 48.0,
+     "ja": "電気ポットはどこにありますか？",
+     "en": "Where do you find an electric kettle?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 48.5,
+     "end": 52.3,
+     "ja": "電気ポットはキッチンにあります。",
+     "en": "Electric kettles are in the kitchen.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 52.5,
+     "end": 54.5,
+     "ja": "キッチンに置きます。",
+     "en": "You place it in the kitchen.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 54.5,
+     "end": 57.6,
+     "ja": "キッチンに置きますね。",
+     "en": "You put it in the kitchen, right?",
+     "speaker": "Chieko"
+    }
+   ]
+  },
+  {
+   "start": 162.0,
+   "end": 189.5,
+   "title": "Keeping the Water Warm",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "ずっと — continuously / all the time",
+    "〜くする — to make [adjective]"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 162.2,
+     "end": 168.8,
+     "ja": "この電気ポットはお湯がずっと温かいです。",
+     "en": "This electric kettle keeps the hot water warm continuously.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 168.8,
+     "end": 171.8,
+     "ja": "ずっと温かいです。",
+     "en": "It stays warm all the time.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 172.3,
+     "end": 177.8,
+     "ja": "この電気ポットはずっと温かい、保温します。",
+     "en": "This electric kettle keeps it warm continuously—it retains heat.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 177.8,
+     "end": 180.8,
+     "ja": "保温します。",
+     "en": "It keeps it hot.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 181.0,
+     "end": 184.0,
+     "ja": "お湯を保温します。",
+     "en": "It keeps the hot water warm.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 184.5,
+     "end": 189.3,
+     "ja": "お湯をずっと温かくします。",
+     "en": "It keeps the hot water hot all the time.",
+     "speaker": "Chieko"
+    }
+   ]
+  },
+  {
+   "start": 369.5,
+   "end": 395.0,
+   "title": "Dispensing Hot Water",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜と — when / whenever (conditional)",
+    "〜から — because / since",
+    "〜てくる — to start to / come to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 369.8,
+     "end": 372.0,
+     "ja": "ボタンを押します。",
+     "en": "I push the button.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 372.0,
+     "end": 375.8,
+     "ja": "ポットのボタンを押すとどうなりますか？",
+     "en": "What happens when you press the pot's button?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 376.0,
+     "end": 380.0,
+     "ja": "はい、今チャイルドロックを外しました。",
+     "en": "Okay, I've just unlocked the child lock.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 380.3,
+     "end": 384.0,
+     "ja": "チャイルドロックがありますから外しました。",
+     "en": "There is a child lock, so I unlocked it.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 384.5,
+     "end": 386.5,
+     "ja": "そしてボタンを押します。",
+     "en": "And then I press the button.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 386.5,
+     "end": 389.5,
+     "ja": "ボタンを押すとどうなりますか？",
+     "en": "What happens when I press the button?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 389.8,
+     "end": 393.2,
+     "ja": "はい、お湯が出てきましたね。",
+     "en": "Yes, hot water came out, didn't it?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 393.2,
+     "end": 394.8,
+     "ja": "お湯が出ました。",
+     "en": "Hot water came out.",
+     "speaker": "Chieko"
+    }
+   ]
+  }
+ ],
+ "videoId": "VZiiWbwex5s",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

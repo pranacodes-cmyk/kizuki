@@ -1,0 +1,190 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 105.7,
+   "end": 121.2,
+   "title": "Shiro Prays to Become Human",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "culture",
+    "anime"
+   ],
+   "grammar": [
+    "〜たい — want to do",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 106.0,
+     "end": 109.1,
+     "ja": "僕、今すぐ人間になりたいワン！",
+     "en": "I want to become a human right now, woof!",
+     "speaker": "Shiro"
+    },
+    {
+     "start": 113.8,
+     "end": 114.7,
+     "ja": "ワン！ワン！",
+     "en": "Woof! Woof!",
+     "speaker": "Shiro"
+    },
+    {
+     "start": 115.1,
+     "end": 117.1,
+     "ja": "神様、お願いします！",
+     "en": "God, please!",
+     "speaker": "Shiro"
+    },
+    {
+     "start": 117.5,
+     "end": 120.5,
+     "ja": "僕を人間にしてくださーい！",
+     "en": "Please make me a human!",
+     "speaker": "Shiro"
+    }
+   ]
+  },
+  {
+   "start": 206.5,
+   "end": 226.5,
+   "title": "Turned into a Human",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture",
+    "anime"
+   ],
+   "grammar": [
+    "〜てしまう — accidental action",
+    "〜なさい — imperative / command"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 206.8,
+     "end": 210.6,
+     "ja": "やったー！僕は人間だぞー！",
+     "en": "Hooray! I'm a human!",
+     "speaker": "Shiro"
+    },
+    {
+     "start": 211.2,
+     "end": 213.1,
+     "ja": "キャー！大変だ！",
+     "en": "Eek! Good grief!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 213.3,
+     "end": 215.7,
+     "ja": "ちょっと！あんた風邪ひくよ！",
+     "en": "Hey! You'll catch a cold!",
+     "speaker": "Man"
+    },
+    {
+     "start": 216.0,
+     "end": 218.0,
+     "ja": "早く何か着なさい！",
+     "en": "Hurry up and put something on!",
+     "speaker": "Man"
+    },
+    {
+     "start": 218.6,
+     "end": 220.3,
+     "ja": "ありがとうございます！",
+     "en": "Thank you very much!",
+     "speaker": "Shiro"
+    },
+    {
+     "start": 220.5,
+     "end": 224.5,
+     "ja": "着物、着物、嬉しいな！",
+     "en": "A kimono, a kimono, I'm so happy!",
+     "speaker": "Shiro"
+    }
+   ]
+  },
+  {
+   "start": 417.0,
+   "end": 435.0,
+   "title": "Answering Like a Dog",
+   "level": "N5",
+   "topics": [
+    "comedy",
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜はいくつ — how old / how many"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 417.3,
+     "end": 418.5,
+     "ja": "おい、えー白。",
+     "en": "Hey, um, Shiro.",
+     "speaker": "Master"
+    },
+    {
+     "start": 418.9,
+     "end": 420.8,
+     "ja": "年はいくつだ？",
+     "en": "How old are you?",
+     "speaker": "Master"
+    },
+    {
+     "start": 421.2,
+     "end": 422.3,
+     "ja": "家族は？",
+     "en": "And your family?",
+     "speaker": "Master"
+    },
+    {
+     "start": 422.9,
+     "end": 424.9,
+     "ja": "えーっと、２歳です！",
+     "en": "Umm, I'm two years old!",
+     "speaker": "Shiro"
+    },
+    {
+     "start": 425.4,
+     "end": 428.1,
+     "ja": "兄弟は、たぶん３匹！",
+     "en": "My siblings are, probably three puppies!",
+     "speaker": "Shiro"
+    },
+    {
+     "start": 429.0,
+     "end": 430.2,
+     "ja": "２歳？",
+     "en": "Two years old?",
+     "speaker": "Master"
+    },
+    {
+     "start": 430.5,
+     "end": 431.9,
+     "ja": "３匹？",
+     "en": "Three animals?",
+     "speaker": "Master"
+    },
+    {
+     "start": 432.4,
+     "end": 434.7,
+     "ja": "白は何にも知らないんだね。",
+     "en": "Shiro really doesn't know anything, does he?",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "oMwhY0XJgzY",
+ "pickTopics": [
+  "animals",
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,209 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 54.0,
+   "end": 126.5,
+   "title": "What Animal Is on the T-shirt?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "animals"
+   ],
+   "grammar": [
+    "がある — existence of inanimate things",
+    "の — noun modifier"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 54.5,
+     "end": 57.5,
+     "ja": "絵がありますね。",
+     "en": "There's a picture, right?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 58.2,
+     "end": 62.0,
+     "ja": "Tシャツにプリントがあります。",
+     "en": "There's a print on the T-shirt.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 62.5,
+     "end": 64.8,
+     "ja": "プリントがあります。",
+     "en": "There is a print.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 65.5,
+     "end": 67.8,
+     "ja": "何の絵ですか？",
+     "en": "What picture is it?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 68.2,
+     "end": 71.0,
+     "ja": "これは何の絵ですか？",
+     "en": "What picture is this?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 71.5,
+     "end": 75.8,
+     "ja": "この動物は何ですか？",
+     "en": "What is this animal?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 76.5,
+     "end": 81.8,
+     "ja": "この動物の名前は、名前は、",
+     "en": "This animal's name is... its name is...",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 82.2,
+     "end": 86.0,
+     "ja": "タヌキです。タヌキ。タヌキです。",
+     "en": "It's a tanuki. Tanuki. It's a tanuki.",
+     "speaker": "Chieko"
+    }
+   ]
+  },
+  {
+   "start": 214.0,
+   "end": 244.8,
+   "title": "Which Ghibli Movie Is This?",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "の — noun modifier",
+    "〜てます — state of knowing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 214.3,
+     "end": 218.0,
+     "ja": "この絵は、",
+     "en": "This picture is...",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 218.8,
+     "end": 223.2,
+     "ja": "ジブリの映画の絵です。",
+     "en": "a picture from a Ghibli movie.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 223.8,
+     "end": 226.0,
+     "ja": "何の映画ですか？",
+     "en": "Which movie is it?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 226.5,
+     "end": 230.0,
+     "ja": "映画の名前は何ですか？",
+     "en": "What is the movie's name?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 230.5,
+     "end": 233.2,
+     "ja": "知ってますか？知ってますか？",
+     "en": "Do you know? Do you know?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 233.7,
+     "end": 240.8,
+     "ja": "この映画の名前は、「平成狸合戦ぽんぽこ」です。",
+     "en": "The name of this movie is 'Pom Poko'.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 241.3,
+     "end": 244.2,
+     "ja": "「平成狸合戦ぽんぽこ」。",
+     "en": "'Pom Poko'.",
+     "speaker": "Chieko"
+    }
+   ]
+  },
+  {
+   "start": 553.5,
+   "end": 624.8,
+   "title": "Why I Bought It in Canada",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜ていません — state of not doing",
+    "〜ことができる — can do",
+    "だけ — only"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 554.0,
+     "end": 556.8,
+     "ja": "日本にありません。",
+     "en": "They don't have it in Japan.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 557.2,
+     "end": 604.0,
+     "ja": "これは日本、日本に売ってません。",
+     "en": "This is not sold in Japan.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 604.5,
+     "end": 608.5,
+     "ja": "日本で買うことができません。",
+     "en": "You cannot buy it in Japan.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 609.0,
+     "end": 612.5,
+     "ja": "カナダにあります。",
+     "en": "They have it in Canada.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 613.0,
+     "end": 620.5,
+     "ja": "他の国にもあります。でも、日本だけありません。",
+     "en": "Other countries have it too, but Japan alone doesn't.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 620.8,
+     "end": 624.2,
+     "ja": "だから、カナダで買いました。",
+     "en": "So, I bought it in Canada.",
+     "speaker": "Chieko"
+    }
+   ]
+  }
+ ],
+ "videoId": "kbQm9wH_sOE",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

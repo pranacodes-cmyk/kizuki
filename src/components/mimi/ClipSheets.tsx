@@ -1,10 +1,13 @@
-import { Copy, Repeat1, RotateCcw, Sparkles } from "lucide-react";
+import { Copy, MessageCircleQuestion, Repeat1, RotateCcw, Sparkles } from "lucide-react";
+import { useMemo, useState } from "react";
 
+import type { AskContext } from "@/lib/ask";
 import type { Clip, ClipNotes } from "@/lib/content";
 import { useApp } from "@/lib/store";
 import { toast } from "@/lib/ui-store";
 import { cn } from "@/lib/utils";
 
+import { AskSheet } from "./AskSheet";
 import { Sheet, Toggle } from "./ui";
 
 export const SPEEDS = [1, 0.75, 0.5] as const;
@@ -15,12 +18,16 @@ export function LineMenu({ open, onClose, clip, line, notes, onReplay, onLoop, l
 }) {
   const l = clip.lines[line];
   const n = notes?.l[String(line)];
+  const jlpt = useApp((s) => s.profile.jlpt);
+  const [asking, setAsking] = useState(false);
+  const askCtx = useMemo((): AskContext | null => (l ? { clipId: clip.id, title: clip.title, level: clip.level, learnerLevel: jlpt, line: { ja: l.ja, en: l.en }, word: null } : null), [clip, l, jlpt]);
   if (!l) return null;
   const copy = async () => {
     try { await navigator.clipboard.writeText(l.ja); toast({ icon: "📋", title: "Copied" }); } catch { toast({ tone: "error", title: "Couldn't copy" }); }
     onClose();
   };
   return (
+    <>
     <Sheet open={open} onClose={onClose} maxHeight="70%">
       <div className="overflow-y-auto px-5 pb-3 pt-3 no-scrollbar">
         <p className="font-jp text-[1.25rem] font-bold leading-snug">{l.ja}</p>
@@ -33,12 +40,15 @@ export function LineMenu({ open, onClose, clip, line, notes, onReplay, onLoop, l
           </div>
         )}
         <div className="mt-4 space-y-1">
+          <MenuRow icon={<MessageCircleQuestion className="h-5 w-5 text-primary" />} label="Ask Kizuki about this line" onClick={() => { setAsking(true); onClose(); }} />
           <MenuRow icon={<RotateCcw className="h-5 w-5" />} label="Replay this line" onClick={() => { onReplay(); onClose(); }} />
           <MenuRow icon={<Repeat1 className={cn("h-5 w-5", looping && "text-primary")} />} label={looping ? "Stop looping this line" : "Loop this line"} onClick={() => { onLoop(); onClose(); }} />
           <MenuRow icon={<Copy className="h-5 w-5" />} label="Copy Japanese" onClick={copy} />
         </div>
       </div>
     </Sheet>
+    {askCtx && <AskSheet open={asking} onClose={() => setAsking(false)} context={askCtx} />}
+    </>
   );
 }
 

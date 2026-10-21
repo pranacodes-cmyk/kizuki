@@ -3,9 +3,11 @@ import 'package:flutter/services.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:provider/provider.dart';
 
+import '../data/ask.dart';
 import '../data/models.dart' as m;
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
+import 'ask_sheet.dart';
 import 'toast.dart';
 import 'ui.dart';
 
@@ -39,6 +41,11 @@ Future<void> showLineMenu(BuildContext context, {required m.Clip clip, required 
             ]),
           ),
         const SizedBox(height: 16),
+        _MenuRow(key: const ValueKey('line-ask'), icon: LucideIcons.messageCircleQuestion, iconColor: T.primary, label: 'Ask Kizuki about this line', onTap: () {
+          final level = context.read<AppState>().profile.jlpt;
+          Navigator.pop(ctx);
+          showAskSheet(context, AskContext(clipId: clip.id, title: clip.title, level: clip.level, learnerLevel: level, ja: l.ja, en: l.en));
+        }),
         _MenuRow(icon: LucideIcons.rotateCcw, label: 'Replay this line', onTap: () {
           Navigator.pop(ctx);
           onReplay();
@@ -67,7 +74,7 @@ class _MenuRow extends StatelessWidget {
   final Color iconColor;
   final String label;
   final VoidCallback onTap;
-  const _MenuRow({required this.icon, required this.label, required this.onTap, this.iconColor = T.muted});
+  const _MenuRow({super.key, required this.icon, required this.label, required this.onTap, this.iconColor = T.muted});
   @override
   Widget build(BuildContext context) => Press(
         onTap: onTap,

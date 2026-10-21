@@ -246,6 +246,8 @@ class AppState extends ChangeNotifier {
   String feedSeed = DateTime.now().millisecondsSinceEpoch.toRadixString(36);
   int reviewSessions = 0;
   bool ratingAsked = false, planModalSeen = false;
+  String asksDay = '';
+  int asksN = 0;
   int updatedAt = 0;
 
   /// Called after every change (cloud sync hooks in here).
@@ -262,6 +264,7 @@ class AppState extends ChangeNotifier {
   WordCounts get counts => wordCounts(wordLites, now);
   List<String> get dueKeys => dueWordKeys(wordLites, now);
   Stats get stats => Stats(clips: totalClips, seconds: totalSeconds, words: counts.saved, known: counts.known, reviews: totalReviews, streak: streak);
+  int get asksTodayCount => asksToday(asksDay, asksN, today);
   bool isSaved(String key) => words[key] != null && words[key]!.status != 'removed';
 
   /// Underline status for a word in a transcript: new | learning | known | ignored.
@@ -302,6 +305,7 @@ class AppState extends ChangeNotifier {
         'reviewSessions': reviewSessions,
         'ratingAsked': ratingAsked,
         'planModalSeen': planModalSeen,
+        'asks': {'day': asksDay, 'n': asksN},
         'updatedAt': updatedAt,
       };
 
@@ -328,6 +332,9 @@ class AppState extends ChangeNotifier {
     reviewSessions = (j['reviewSessions'] as num? ?? 0).toInt();
     ratingAsked = j['ratingAsked'] as bool? ?? false;
     planModalSeen = j['planModalSeen'] as bool? ?? false;
+    final asks = (j['asks'] as Map? ?? {}).cast<String, dynamic>();
+    asksDay = asks['day'] as String? ?? '';
+    asksN = (asks['n'] as num? ?? 0).toInt();
     updatedAt = (j['updatedAt'] as num? ?? 0).toInt();
   }
 
@@ -521,6 +528,13 @@ class AppState extends ChangeNotifier {
 
   void setPlanModalSeen() {
     planModalSeen = true;
+    _commit();
+  }
+
+  /// One answered "Ask Kizuki" question (counts toward the free daily allowance).
+  void recordAsk() {
+    asksN = asksTodayCount + 1;
+    asksDay = today;
     _commit();
   }
 

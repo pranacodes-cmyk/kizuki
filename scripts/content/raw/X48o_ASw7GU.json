@@ -1,0 +1,190 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.4,
+   "end": 48.9,
+   "title": "Arriving at the Glasses Shop Bus Stop",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜前 — in front of",
+    "〜よう — volitional form (let's...)",
+    "〜ですね — confirming information"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.6,
+     "end": 28.2,
+     "ja": "次は、まんまるメガネ屋さん前、まんまるメガネ屋さん前です。",
+     "en": "Next stop is in front of the Round Glasses Shop, Round Glasses Shop.",
+     "speaker": "Kaisei"
+    },
+    {
+     "start": 29.2,
+     "end": 31.2,
+     "ja": "あっ、バス来た！",
+     "en": "Ah, the bus is here!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 35.6,
+     "end": 37.8,
+     "ja": "まんまるメガネ屋さん前です。",
+     "en": "Now arriving at the Round Glasses Shop.",
+     "speaker": "Kaisei"
+    },
+    {
+     "start": 38.0,
+     "end": 39.3,
+     "ja": "よし、乗ろう。",
+     "en": "Alright, let's get on.",
+     "speaker": "Father"
+    },
+    {
+     "start": 43.0,
+     "end": 45.0,
+     "ja": "まんまるメガネですね？",
+     "en": "Those are round glasses, right?",
+     "speaker": "Kaisei"
+    },
+    {
+     "start": 45.2,
+     "end": 46.5,
+     "ja": "うん、まんまる！",
+     "en": "Yup, totally round!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 46.7,
+     "end": 48.4,
+     "ja": "まんまるです。",
+     "en": "They are round.",
+     "speaker": "Father"
+    }
+   ]
+  },
+  {
+   "start": 71.4,
+   "end": 89.0,
+   "title": "Buying Lots of Triangle Cakes",
+   "level": "N5",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜たんです — explaining background information",
+    "〜ちゃう — expressing completed action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 71.6,
+     "end": 74.4,
+     "ja": "三角ケーキ屋さん前です。",
+     "en": "Now arriving at the Triangle Cake Shop.",
+     "speaker": "Kaisei"
+    },
+    {
+     "start": 74.8,
+     "end": 77.8,
+     "ja": "待って！乗ります！",
+     "en": "Wait! I'm getting on!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 79.0,
+     "end": 81.6,
+     "ja": "三角ケーキ買ったんですね？",
+     "en": "You bought triangle cakes, didn't you?",
+     "speaker": "Kaisei"
+    },
+    {
+     "start": 81.9,
+     "end": 86.5,
+     "ja": "そうなんです。三角ケーキ、いっぱい買っちゃいましたよ！",
+     "en": "That's right. I bought lots of triangle cakes!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 86.8,
+     "end": 88.4,
+     "ja": "そんなに！？",
+     "en": "That many!?",
+     "speaker": "Kaisei"
+    }
+   ]
+  },
+  {
+   "start": 195.4,
+   "end": 217.2,
+   "title": "Taking a Pizza Order by Phone",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜をお願いします — polite request",
+    "どっちにしますか — which one will you choose?",
+    "お〜します — humble polite form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 195.6,
+     "end": 198.4,
+     "ja": "はい、こちらチャレンジピザです。",
+     "en": "Hello, this is Challenge Pizza.",
+     "speaker": "Shinka"
+    },
+    {
+     "start": 198.8,
+     "end": 203.4,
+     "ja": "こんにちは。えっと、チーズたっぷりピザをお願いします。",
+     "en": "Hello. Um, I'd like an extra-cheesy pizza, please.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 203.8,
+     "end": 206.8,
+     "ja": "チーズたっぷりピザですね。",
+     "en": "An extra-cheesy pizza, right.",
+     "speaker": "Shinka"
+    },
+    {
+     "start": 207.1,
+     "end": 211.0,
+     "ja": "小さいピザと大きいピザ、どっちにしますか？",
+     "en": "Which would you like, a small pizza or a large pizza?",
+     "speaker": "Shinka"
+    },
+    {
+     "start": 211.3,
+     "end": 213.3,
+     "ja": "小さい方でお願いします。",
+     "en": "The small one, please.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 213.6,
+     "end": 216.8,
+     "ja": "かしこまりました！すぐに作ってお届けします。",
+     "en": "Certainly! I'll make it right away and deliver it.",
+     "speaker": "Shinka"
+    }
+   ]
+  }
+ ],
+ "videoId": "X48o_ASw7GU",
+ "pickTopics": [
+  "family",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,116 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 27.5,
+   "end": 43.5,
+   "title": "Have You Ever Crossed a Border Overland",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜たことがある — experience of doing",
+    "〜じゃなくて — not A but B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 28.0,
+     "end": 33.8,
+     "ja": "皆さん、国境を越えたことがありますか？",
+     "en": "Have you ever crossed a national border?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 35.0,
+     "end": 43.0,
+     "ja": "まあ、飛行機じゃなくて、陸路で国境を越えたことがありますか？",
+     "en": "Well, not by plane, but have you ever crossed a border overland?",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 133.0,
+   "end": 159.0,
+   "title": "First Overland Border Crossing",
+   "level": "N4",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "〜のは〜時でした — it was when... that...",
+    "〜て — connecting actions"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 133.5,
+     "end": 144.2,
+     "ja": "私は人生で初めて陸路で国境を越えたのは、19歳の時でした。",
+     "en": "The first time in my life I crossed a border overland was when I was 19.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 146.5,
+     "end": 151.2,
+     "ja": "一人でタイに飛行機で行って、",
+     "en": "I flew to Thailand by myself, and",
+     "speaker": "Shun"
+    },
+    {
+     "start": 151.8,
+     "end": 158.2,
+     "ja": "タイからカンボジアに陸路で国境を越えました。",
+     "en": "crossed the border overland from Thailand to Cambodia.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 357.5,
+   "end": 375.5,
+   "title": "How Things Change Across the Border",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜くなる — to become",
+    "〜も〜も — both A and B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 358.0,
+     "end": 365.8,
+     "ja": "前の国では普通のことが普通じゃなくなります。",
+     "en": "Things that were normal in the previous country are no longer normal.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 366.8,
+     "end": 369.5,
+     "ja": "人も違います。",
+     "en": "The people are different, too.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 370.2,
+     "end": 375.0,
+     "ja": "雰囲気も景色も違います。",
+     "en": "The atmosphere and scenery are also different.",
+     "speaker": "Shun"
+    }
+   ]
+  }
+ ],
+ "videoId": "HgatfkTSbjc",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

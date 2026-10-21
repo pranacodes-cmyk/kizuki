@@ -1,0 +1,139 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.3,
+   "end": 34.5,
+   "title": "Have You Ever Traveled to Japan Alone?",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜たことがある — have experienced doing",
+    "〜のに — for the purpose of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 12.5,
+     "end": 19.5,
+     "ja": "皆さんは一人で日本に行ったことがありますか？",
+     "en": "Have you ever been to Japan alone?",
+     "speaker": "Mei"
+    },
+    {
+     "start": 20.5,
+     "end": 24.5,
+     "ja": "または行く予定はありますか？",
+     "en": "Or do you have plans to go?",
+     "speaker": "Mei"
+    },
+    {
+     "start": 25.5,
+     "end": 34.0,
+     "ja": "日本は一人で行くのにいい場所、いい国だと思いますか？",
+     "en": "Do you think Japan is a good place, a good country to visit alone?",
+     "speaker": "Mei"
+    }
+   ]
+  },
+  {
+   "start": 151.8,
+   "end": 211.5,
+   "title": "Learning the Word Hitoritabi",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜と言う — to be called",
+    "〜とか言う — to say things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 152.0,
+     "end": 156.5,
+     "ja": "ちなみに一人で旅行に行くことを",
+     "en": "By the way, traveling alone...",
+     "speaker": "Mei"
+    },
+    {
+     "start": 156.8,
+     "end": 202.5,
+     "ja": "「一人旅」「一人旅」と言います。",
+     "en": "...is called \"hitoritabi\".",
+     "speaker": "Mei"
+    },
+    {
+     "start": 203.0,
+     "end": 206.8,
+     "ja": "「一人旅をする」とか言います。",
+     "en": "You say things like \"hitoritabi o suru\".",
+     "speaker": "Mei"
+    },
+    {
+     "start": 208.0,
+     "end": 211.0,
+     "ja": "日本に一人旅をする。",
+     "en": "For example, \"to travel alone to Japan\".",
+     "speaker": "Mei"
+    }
+   ]
+  },
+  {
+   "start": 728.5,
+   "end": 753.5,
+   "title": "What Does Oshikatsu Mean?",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜に行く — to go do something",
+    "〜たりする — doing things like..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 729.0,
+     "end": 737.8,
+     "ja": "なんか日本は、最近「推し活」って流行ってますよね。",
+     "en": "\"Oshikatsu\" has been popular in Japan lately, hasn't it?",
+     "speaker": "Mei"
+    },
+    {
+     "start": 738.2,
+     "end": 742.5,
+     "ja": "なんかあの好きな、えっと、何でもいいんですけど、",
+     "en": "Like, a favorite... well, anything is fine, but...",
+     "speaker": "Mei"
+    },
+    {
+     "start": 742.8,
+     "end": 751.0,
+     "ja": "好きな漫画のキャラクターとか、好きなアイドルとかに会いに行ったりすること、",
+     "en": "...it means going to see your favorite manga character, idol, or the like.",
+     "speaker": "Mei"
+    },
+    {
+     "start": 751.3,
+     "end": 753.0,
+     "ja": "あの、まぁ、何でもいいんですけど、",
+     "en": "Well, anything works, really.",
+     "speaker": "Mei"
+    }
+   ]
+  }
+ ],
+ "videoId": "5B8lEfArtik",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

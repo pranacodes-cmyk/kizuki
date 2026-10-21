@@ -1,0 +1,143 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 15.3,
+   "end": 44.5,
+   "title": "The Protagonist of Bakemonogatari",
+   "level": "N5",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜と言う — called / named",
+    "〜でした — was (past polite)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 15.6,
+     "end": 21.0,
+     "ja": "このアニメ、『化物語』というアニメの主人公、",
+     "en": "The protagonist of this anime called Bakemonogatari,",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 21.3,
+     "end": 23.3,
+     "ja": "プロタゴニストは、",
+     "en": "protagonist,",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 23.8,
+     "end": 27.5,
+     "ja": "ここの男の子です。",
+     "en": "is this boy right here.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 28.5,
+     "end": 35.1,
+     "ja": "で、この男の子は阿良々木くんと言います。",
+     "en": "And this boy is called Araragi-kun.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 36.3,
+     "end": 41.8,
+     "ja": "で、阿良々木くんは、最初は人間でした。",
+     "en": "At first, Araragi-kun was a human.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 42.1,
+     "end": 44.0,
+     "ja": "人間でした。でしょ？",
+     "en": "He was human, right?",
+     "speaker": "Presenter"
+    }
+   ]
+  },
+  {
+   "start": 188.7,
+   "end": 212.5,
+   "title": "Meeting Oshino",
+   "level": "N5",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜に会う — to meet",
+    "〜に詳しい — to be knowledgeable about"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 189.0,
+     "end": 200.7,
+     "ja": "阿良々木くんは、後でこの人、この男の人に出会いました。",
+     "en": "Araragi-kun later met this person, this man.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 201.7,
+     "end": 206.1,
+     "ja": "この男の人は忍野さんです。",
+     "en": "This man is Oshino-san.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 206.8,
+     "end": 212.0,
+     "ja": "で、忍野さんは怪異に詳しいです。",
+     "en": "And Oshino-san is well-versed in oddities.",
+     "speaker": "Presenter"
+    }
+   ]
+  },
+  {
+   "start": 222.0,
+   "end": 242.7,
+   "title": "What Are Kaii?",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "〜とか〜とか — listing examples",
+    "〜と言う — to be called"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 222.4,
+     "end": 228.3,
+     "ja": "怪異、例えば吸血鬼とか、幽霊とか、鬼とか。",
+     "en": "Oddities, for example, vampires, ghosts, oni, etc.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 229.0,
+     "end": 233.1,
+     "ja": "それ全部、怪異と言います。",
+     "en": "All of those are called 'kaii'.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 236.1,
+     "end": 242.2,
+     "ja": "ここの忍野さんは怪異に詳しいです。",
+     "en": "Oshino-san here is very knowledgeable about oddities.",
+     "speaker": "Presenter"
+    }
+   ]
+  }
+ ],
+ "videoId": "8bZIk8S2RhU",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

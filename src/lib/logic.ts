@@ -606,3 +606,38 @@ export function customStudyKeys(words: WordLite[], now: number, limit = 20) {
     .slice(0, limit)
     .map((w) => w.key);
 }
+
+// ---------------------------------------------------------------------------
+// Ask Kizuki — AI follow-up questions about a line or word
+// ---------------------------------------------------------------------------
+
+/** Longest question a learner can type. */
+export const ASK_MAX_CHARS = 400;
+
+/** How many chat messages are sent to the tutor with each question. */
+export const ASK_MAX_MESSAGES = 10;
+
+/** Questions asked today; the counter resets on a new day. */
+export const asksToday = (day: string, n: number, today: string) => (day === today ? n : 0);
+
+/** Free learners get `freeLimit` questions a day; premium (incl. trial) is unlimited. */
+export const canAsk = (premiumActive: boolean, asked: number, freeLimit: number) => premiumActive || asked < freeLimit;
+
+/** Free questions left today, or null when unlimited. */
+export const asksLeft = (premiumActive: boolean, asked: number, freeLimit: number): number | null => (premiumActive ? null : Math.max(0, freeLimit - asked));
+
+/** Typed question → what gets sent: whitespace collapsed, trimmed, capped at ASK_MAX_CHARS. */
+export function cleanQuestion(s: string) {
+  const t = s.replace(/\s+/g, " ").trim();
+  return t.length > ASK_MAX_CHARS ? t.slice(0, ASK_MAX_CHARS).trim() : t;
+}
+
+export type AskTurn = { role: "user" | "assistant"; text: string };
+
+/** Chat history sent with a question: non-empty turns, the last `max`, starting with a user turn. */
+export function askHistory<T extends AskTurn>(msgs: T[], max = ASK_MAX_MESSAGES): T[] {
+  const kept = msgs.filter((m) => m.text.trim() !== "");
+  let out = kept.length > max ? kept.slice(kept.length - max) : kept;
+  while (out.length && out[0]!.role !== "user") out = out.slice(1);
+  return out;
+}

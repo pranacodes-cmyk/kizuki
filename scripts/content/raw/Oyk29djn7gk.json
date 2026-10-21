@@ -1,0 +1,207 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 67.5,
+   "end": 88.0,
+   "title": "Is It a Guitar or a Ukulele?",
+   "level": "N5",
+   "topics": [
+    "music",
+    "fun"
+   ],
+   "grammar": [
+    "〜じゃない — negative of だ/です",
+    "〜より — comparison"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 67.8,
+     "end": 69.5,
+     "ja": "これは何ですか？",
+     "en": "What is this?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 70.5,
+     "end": 72.8,
+     "ja": "これはギターですか？",
+     "en": "Is this a guitar?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 73.6,
+     "end": 75.7,
+     "ja": "いいえ、ギターじゃないです。",
+     "en": "No, it is not a guitar.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 76.2,
+     "end": 79.8,
+     "ja": "ギターより小さいですね。",
+     "en": "It's smaller than a guitar, isn't it?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 80.3,
+     "end": 83.1,
+     "ja": "ギターより小さいです。",
+     "en": "It's smaller than a guitar.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 83.4,
+     "end": 85.9,
+     "ja": "これはウクレレです。",
+     "en": "This is a ukulele.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 86.1,
+     "end": 87.8,
+     "ja": "ウクレレです。",
+     "en": "It's a ukulele.",
+     "speaker": "Chieko"
+    }
+   ]
+  },
+  {
+   "start": 143.5,
+   "end": 166.5,
+   "title": "Mount Fuji on the Ukulele",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "music"
+   ],
+   "grammar": [
+    "〜がある — there is (inanimate)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 143.7,
+     "end": 145.6,
+     "ja": "大きな波です。",
+     "en": "It's a big wave.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 145.8,
+     "end": 147.9,
+     "ja": "大きな波です。",
+     "en": "It's a big wave.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 148.3,
+     "end": 153.2,
+     "ja": "そして、ここに何がありますか？",
+     "en": "And what is there here?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 153.8,
+     "end": 156.5,
+     "ja": "これは富士山です。",
+     "en": "This is Mount Fuji.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 156.7,
+     "end": 159.5,
+     "ja": "山ですね。山。",
+     "en": "It's a mountain, right? A mountain.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 160.0,
+     "end": 164.2,
+     "ja": "山の名前は富士山です。",
+     "en": "The name of the mountain is Mount Fuji.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 164.5,
+     "end": 166.0,
+     "ja": "富士山です。",
+     "en": "It's Mount Fuji.",
+     "speaker": "Chieko"
+    }
+   ]
+  },
+  {
+   "start": 248.3,
+   "end": 272.5,
+   "title": "Good or Bad at Ukulele?",
+   "level": "N5",
+   "topics": [
+    "music",
+    "daily"
+   ],
+   "grammar": [
+    "〜が上手/下手 — good/poor at",
+    "まだ〜ない — not yet"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 248.5,
+     "end": 252.3,
+     "ja": "でも、私は上手ですか？",
+     "en": "But am I good at it?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 252.8,
+     "end": 254.3,
+     "ja": "下手ですか？",
+     "en": "Am I bad at it?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 254.7,
+     "end": 258.2,
+     "ja": "私はウクレレが上手ですか？",
+     "en": "Am I good at the ukulele?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 258.8,
+     "end": 260.3,
+     "ja": "下手ですか？",
+     "en": "Am I bad at it?",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 261.2,
+     "end": 265.3,
+     "ja": "うーん、私はとても下手です。",
+     "en": "Hmm, I am very bad at it.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 266.0,
+     "end": 269.8,
+     "ja": "はい、まだ上手じゃないです。",
+     "en": "Yes, I'm not good at it yet.",
+     "speaker": "Chieko"
+    },
+    {
+     "start": 270.1,
+     "end": 272.1,
+     "ja": "上手じゃないです。",
+     "en": "I'm not good at it.",
+     "speaker": "Chieko"
+    }
+   ]
+  }
+ ],
+ "videoId": "Oyk29djn7gk",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

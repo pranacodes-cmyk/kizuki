@@ -1,0 +1,141 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 147.8,
+   "end": 213.5,
+   "title": "Meeting the Wolf in the Forest",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "animals",
+    "culture"
+   ],
+   "grammar": [
+    "〜に会う — meet someone",
+    "〜へ行く — go to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 148.3,
+     "end": 154.5,
+     "ja": "森で、おおかみに会いました。",
+     "en": "In the forest, she met a wolf.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 159.2,
+     "end": 202.8,
+     "ja": "「どこへ行くの？」",
+     "en": "\"Where are you going?\"",
+     "speaker": "おおかみ"
+    },
+    {
+     "start": 206.8,
+     "end": 211.5,
+     "ja": "「おばあさんの家です。」",
+     "en": "\"To grandmother's house.\"",
+     "speaker": "赤ずきん"
+    }
+   ]
+  },
+  {
+   "start": 439.5,
+   "end": 513.8,
+   "title": "Why Are Your Eyes So Big?",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "animals",
+    "culture"
+   ],
+   "grammar": [
+    "どうして — why",
+    "〜ため — in order to / for the purpose of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 440.0,
+     "end": 445.3,
+     "ja": "「どうして目が大きいの？」",
+     "en": "\"Why are your eyes so big?\"",
+     "speaker": "赤ずきん"
+    },
+    {
+     "start": 450.1,
+     "end": 453.9,
+     "ja": "「よく見るためだよ。」",
+     "en": "\"All the better to see you with.\"",
+     "speaker": "おおかみ"
+    },
+    {
+     "start": 498.5,
+     "end": 503.9,
+     "ja": "「どうして口が大きいの？」",
+     "en": "\"Why is your mouth so big?\"",
+     "speaker": "赤ずきん"
+    },
+    {
+     "start": 508.2,
+     "end": 513.0,
+     "ja": "「おまえを食べるためだよ！」",
+     "en": "\"All the better to eat you with!\"",
+     "speaker": "おおかみ"
+    }
+   ]
+  },
+  {
+   "start": 628.0,
+   "end": 658.5,
+   "title": "A Peaceful Ending",
+   "level": "N5",
+   "topics": [
+    "food",
+    "animals",
+    "culture"
+   ],
+   "grammar": [
+    "いっしょに — together",
+    "〜へ帰る — return to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 628.6,
+     "end": 631.7,
+     "ja": "「ごめんなさい。」",
+     "en": "\"I am sorry.\"",
+     "speaker": "おおかみ"
+    },
+    {
+     "start": 634.9,
+     "end": 640.8,
+     "ja": "おおかみは、森へ帰りました。",
+     "en": "The wolf returned to the forest.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 646.4,
+     "end": 655.2,
+     "ja": "二人は、いっしょにパンを食べました。",
+     "en": "The two of them ate bread together.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 657.0,
+     "end": 658.5,
+     "ja": "おしまい。",
+     "en": "The end.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "7lecxH9nyCU",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

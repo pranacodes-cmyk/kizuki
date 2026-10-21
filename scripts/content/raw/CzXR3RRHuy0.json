@@ -1,0 +1,198 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 36.3,
+   "end": 52.4,
+   "title": "My Dad Can Run 1,000 Kilometers",
+   "level": "N4",
+   "topics": [
+    "sports",
+    "family",
+    "friends"
+   ],
+   "grammar": [
+    "一番〜 — the most",
+    "〜だけじゃない — not only"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 36.6,
+     "end": 40.4,
+     "ja": "私のグランピーは世界で一番足が速いんだよ。",
+     "en": "My Grampy is the fastest runner in the world!",
+     "speaker": "Rebecca"
+    },
+    {
+     "start": 40.7,
+     "end": 42.4,
+     "ja": "いやあ、参ったな。",
+     "en": "Aw, you're flattering me.",
+     "speaker": "Grampy Rabbit"
+    },
+    {
+     "start": 42.6,
+     "end": 45.3,
+     "ja": "うちのダディは、１時間で1000キロ走れる。",
+     "en": "My Daddy can run 1,000 kilometers in an hour!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 45.5,
+     "end": 47.1,
+     "ja": "そりゃあすごい！",
+     "en": "Well, that's amazing!",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 47.3,
+     "end": 51.2,
+     "ja": "マラソンで大事なのは、誰が勝つとか、誰が速いとかだけじゃない。",
+     "en": "What matters in a marathon isn't just who wins or who's fastest.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 51.4,
+     "end": 52.3,
+     "ja": "用意！",
+     "en": "On your marks!",
+     "speaker": "Miss Rabbit"
+    }
+   ]
+  },
+  {
+   "start": 138.2,
+   "end": 154.5,
+   "title": "Having Fun Is What Matters Most",
+   "level": "N4",
+   "topics": [
+    "sports",
+    "friends",
+    "family"
+   ],
+   "grammar": [
+    "〜こと — nominalizing verbs",
+    "〜より — compared to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 138.5,
+     "end": 140.0,
+     "ja": "だから言っただろう？",
+     "en": "Didn't I tell you?",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 140.1,
+     "end": 142.0,
+     "ja": "大事なのは勝つことじゃない。",
+     "en": "Winning isn't what matters.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 142.2,
+     "end": 144.0,
+     "ja": "みんなの１番より、",
+     "en": "Rather than being the best among everyone,",
+     "speaker": "Grampy Rabbit"
+    },
+    {
+     "start": 144.1,
+     "end": 146.0,
+     "ja": "自分の１番を目指すんだ。",
+     "en": "you should aim for your own personal best.",
+     "speaker": "Grampy Rabbit"
+    },
+    {
+     "start": 146.3,
+     "end": 149.8,
+     "ja": "そして何より、楽しむことが一番大事。",
+     "en": "And above all, having fun is the most important thing.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 150.1,
+     "end": 151.6,
+     "ja": "勝とうとしたら、",
+     "en": "When I focused only on winning,",
+     "speaker": "Rebecca"
+    },
+    {
+     "start": 151.7,
+     "end": 154.0,
+     "ja": "全然楽しくなくなっちゃったもんね。",
+     "en": "it wasn't any fun at all anymore.",
+     "speaker": "Rebecca"
+    }
+   ]
+  },
+  {
+   "start": 354.0,
+   "end": 375.0,
+   "title": "Peppa Confesses the Truth",
+   "level": "N4",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜てしまう — do unintentionally",
+    "〜ようとする — try to do",
+    "〜てくれる — do something for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 354.3,
+     "end": 357.7,
+     "ja": "違うの。間違ってコースを消しちゃったの。",
+     "en": "No. I accidentally deleted the route.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 358.3,
+     "end": 360.6,
+     "ja": "直そうとしたんだよ。",
+     "en": "I tried to fix it.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 360.9,
+     "end": 363.5,
+     "ja": "でも、変になっちゃったの。",
+     "en": "But it ended up turning out strange.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 365.0,
+     "end": 369.5,
+     "ja": "正直に言ってくれて、すごく嬉しいよ、ペッパ。",
+     "en": "I'm really glad you told me the truth, Peppa.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 370.0,
+     "end": 372.3,
+     "ja": "ダディも正直に言うね。",
+     "en": "Daddy will tell the truth too.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 372.4,
+     "end": 374.6,
+     "ja": "最初から気が付いてたよ。",
+     "en": "I noticed right from the start.",
+     "speaker": "Daddy Pig"
+    }
+   ]
+  }
+ ],
+ "videoId": "CzXR3RRHuy0",
+ "pickTopics": [
+  "family",
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

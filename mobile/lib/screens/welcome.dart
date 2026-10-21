@@ -28,7 +28,12 @@ class WelcomeScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 8),
                 Text('kizuki', style: txt(44, w: FontWeight.w900, h: 1)),
-                const SizedBox(height: 20),
+                const SizedBox(height: 6),
+                Text.rich(
+                  TextSpan(children: [TextSpan(text: '気づき', style: jp(14, c: T.primary)), const TextSpan(text: '  ·  the moment it clicks')]),
+                  style: txt(14, w: FontWeight.w700, c: T.muted),
+                ),
+                const SizedBox(height: 14),
                 SizedBox(
                   width: 300,
                   child: Text.rich(

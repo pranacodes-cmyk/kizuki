@@ -1,0 +1,123 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 68.5,
+   "end": 99.8,
+   "title": "Mokuren the Kind Monk",
+   "level": "N5",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜という — called / named",
+    "〜でした — past polite of です"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 69.0,
+     "end": 73.0,
+     "ja": "むかしむかし、",
+     "en": "A long time ago,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 74.5,
+     "end": 79.5,
+     "ja": "お釈迦さまの弟子に、",
+     "en": "among the disciples of Buddha,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 80.5,
+     "end": 88.0,
+     "ja": "目連というお坊さんがいました。",
+     "en": "there was a monk named Mokuren.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 92.5,
+     "end": 99.2,
+     "ja": "目連は、とてもやさしい人でした。",
+     "en": "Mokuren was a very kind person.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 346.0,
+   "end": 372.0,
+   "title": "Buddha's Advice to Mokuren",
+   "level": "N5",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜なさい — imperative (gentle command)",
+    "〜ことができる — can do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 346.7,
+     "end": 358.0,
+     "ja": "「たくさんのお坊さんに、食べ物を用意しなさい。」",
+     "en": "\"Prepare food for many monks.\"",
+     "speaker": "Buddha"
+    },
+    {
+     "start": 360.5,
+     "end": 371.5,
+     "ja": "「その良い行いで、お母さんを助けることができるでしょう。」",
+     "en": "\"Through that good deed, you will surely be able to save your mother.\"",
+     "speaker": "Buddha"
+    }
+   ]
+  },
+  {
+   "start": 467.8,
+   "end": 499.0,
+   "title": "The Meaning Behind Obon",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "family"
+   ],
+   "grammar": [
+    "〜て — connecting actions",
+    "〜ています — ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 468.5,
+     "end": 473.0,
+     "ja": "食べ物をお供えして、",
+     "en": "They offered food,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 473.5,
+     "end": 481.0,
+     "ja": "ありがとうの気持ちを伝えました。",
+     "en": "and expressed their feelings of gratitude.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 486.0,
+     "end": 498.5,
+     "ja": "その気持ちは、今も日本のお盆に残っています。",
+     "en": "That feeling still remains in Japan's Obon today.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "nCZIVK_2xEk",
+ "pickTopics": [
+  "culture",
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

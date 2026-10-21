@@ -9,6 +9,7 @@
  *   public/data/explain/<id>.json AI "meaning in this sentence" notes per clip
  * and mirrors them into mobile/assets/data/ (Flutter). Never edit those outputs by hand.
  */
+import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import kuromoji from "kuromoji";
@@ -19,8 +20,8 @@ const HERE = import.meta.dir;
 const RAW = path.join(HERE, "raw");
 const EXPLAIN = path.join(HERE, "explain");
 const PROOF = path.join(HERE, "proof");
-const DICT_SRC = process.env.JMDICT ?? "/tmp/kiku/dict/jmdict-examples-eng-3.6.2.json";
-const JLPT_DIR = process.env.JLPT_DIR ?? "/tmp/kiku/dict";
+const DICT_SRC = process.env.JMDICT ?? path.join(HERE, ".dict/jmdict-examples-eng-3.6.2.json"); // scripts/content/fetch_dict.sh
+const JLPT_DIR = process.env.JLPT_DIR ?? path.join(HERE, ".dict");
 const OUT_DIRS = [path.join(ROOT, "public/data"), path.join(ROOT, "mobile/assets/data")];
 const BLOCKLIST = new Set(
   fs.existsSync(path.join(HERE, "blocklist.txt"))
@@ -79,20 +80,36 @@ function simplePos(t: kuromoji.IpadicFeatures): string {
 
 const isPunct = (t: kuromoji.IpadicFeatures) => t.pos === "記号" || !JP.test(t.surface_form) && !/[A-Za-z0-9０-９]/.test(t.surface_form);
 
-/** Merge kuromoji morphemes into learner-sized words (歩い+てる → 歩いてる, お+座り → お座り). */
+const LONG_VOWEL = /^[ーｰ]+$/;
+const DIGITS = /^[0-9０-９]+$/;
+const NUM_SEP = /^[.,．，]$/;
+const BIG_UNITS = ["万", "億", "兆"];
+const isNumberGroup = (parts: kuromoji.IpadicFeatures[]) =>
+  parts.some((p) => DIGITS.test(p.surface_form)) && parts.every((p) => DIGITS.test(p.surface_form) || NUM_SEP.test(p.surface_form) || BIG_UNITS.includes(p.surface_form));
+
+/**
+ * Merge kuromoji morphemes into learner-sized words (歩い+てる → 歩いてる, お+座り → お座り).
+ * Also: a stretched vowel joins its word (分かる+ー → 分かるー, く+ー+ん → くーん) and numbers stay
+ * whole (３+０+０+０+年 → ３０００年, 1000+万+円 → 1000万円, 1+.+5+倍 → 1.5倍).
+ */
 function group(tokens: kuromoji.IpadicFeatures[]) {
   const out: { parts: kuromoji.IpadicFeatures[]; head: kuromoji.IpadicFeatures }[] = [];
-  for (const t of tokens) {
+  tokens.forEach((t, i) => {
     const prev = out[out.length - 1];
     const prevLast = prev?.parts[prev.parts.length - 1];
     const prevIsPred = prev && (prev.head.pos === "動詞" || prev.head.pos === "形容詞");
+    const next = tokens[i + 1];
+    const s = t.surface_form;
     let merge = false;
-    if (prev && !isPunct(t)) {
+    if (prev && !prev.parts.every(isPunct) && LONG_VOWEL.test(s)) merge = true;
+    else if (prev && prevLast && LONG_VOWEL.test(prevLast.surface_form) && /^[ぁ-ん]$/.test(s) && (t.pos !== "助詞" || s === "ん")) merge = true;
+    else if (prev && isNumberGroup(prev.parts) && (DIGITS.test(s) || BIG_UNITS.includes(s) || (NUM_SEP.test(s) && !!next && DIGITS.test(next.surface_form)))) merge = true;
+    else if (prev && !isPunct(t)) {
       if (prevLast!.pos === "接頭詞" && (t.pos === "名詞" || t.pos === "動詞" || t.pos === "形容詞")) merge = true;
       else if (prevIsPred && (t.pos === "助動詞" || t.pos_detail_1 === "非自立" && (t.pos === "動詞" || t.pos === "形容詞") || t.pos_detail_1 === "接尾")) merge = true;
-      else if (prevIsPred && t.pos === "助詞" && t.pos_detail_1 === "接続助詞" && ["て", "で", "ちゃ", "じゃ", "ば"].includes(t.surface_form)) merge = true;
+      else if (prevIsPred && t.pos === "助詞" && t.pos_detail_1 === "接続助詞" && ["て", "で", "ちゃ", "じゃ", "ば"].includes(s)) merge = true;
       else if (prev.head.pos === "名詞" && prev.head.pos_detail_1 === "サ変接続" && t.pos === "動詞" && t.basic_form === "する") merge = true;
-      else if (prev.head.pos === "名詞" && t.pos === "名詞" && t.pos_detail_1 === "接尾" && !["さん", "ちゃん", "くん", "君", "たち", "達"].includes(t.surface_form)) merge = true;
+      else if (prev.head.pos === "名詞" && t.pos === "名詞" && t.pos_detail_1 === "接尾" && !["さん", "ちゃん", "くん", "君", "たち", "達"].includes(s)) merge = true;
     }
     if (merge) {
       prev!.parts.push(t);
@@ -101,16 +118,103 @@ function group(tokens: kuromoji.IpadicFeatures[]) {
       // サ変 noun + する behaves like a verb for further merging
       if (t.pos === "動詞" && t.basic_form === "する" && prev!.head.pos === "名詞") prev!.head = { ...prev!.head, pos: "動詞" } as kuromoji.IpadicFeatures;
     } else out.push({ parts: [t], head: t });
+  });
+  return out;
+}
+
+// ---------- number readings (３０００年 → さんぜんねん) ----------
+const ONES = ["", "いち", "に", "さん", "よん", "ご", "ろく", "なな", "はち", "きゅう"];
+function under10k(n: number): string {
+  const th = Math.floor(n / 1000), h = Math.floor(n / 100) % 10, te = Math.floor(n / 10) % 10, o = n % 10;
+  let s = "";
+  if (th) s += ({ 1: "せん", 3: "さんぜん", 8: "はっせん" } as Record<number, string>)[th] ?? ONES[th] + "せん";
+  if (h) s += ({ 1: "ひゃく", 3: "さんびゃく", 6: "ろっぴゃく", 8: "はっぴゃく" } as Record<number, string>)[h] ?? ONES[h] + "ひゃく";
+  if (te) s += (te === 1 ? "" : ONES[te]) + "じゅう";
+  if (o) s += ONES[o];
+  return s;
+}
+export function numberReading(n: number): string {
+  if (n === 0) return "ぜろ";
+  let s = "", rest = n;
+  for (const [unit, value] of [["ちょう", 1e12], ["おく", 1e8], ["まん", 1e4]] as const) {
+    const q = Math.floor(rest / value);
+    if (!q) continue;
+    let r = q === 1 ? "いち" : under10k(q);
+    if (q >= 1000 && q < 2000) r = "いっ" + r; // 1000万 → いっせんまん
+    if (unit === "ちょう") r = r.replace(/いち$/, "いっ").replace(/はち$/, "はっ").replace(/じゅう$/, "じゅっ");
+    s += r + unit;
+    rest -= q * value;
   }
+  return s + (rest ? under10k(rest) : "");
+}
+// Counter sound changes (１分 → いっぷん, ３本 → さんぼん, ２人 → ふたり, ４年 → よねん).
+const GEMINATE = new Set(["回", "個", "歳", "才", "冊", "軒", "箇所", "か所", "ヶ所", "カ所", "週間", "階", "曲", "件", "点", "頭", "足", "杯", "匹", "分", "本", "kg", "キロ", "センチ", "ページ", "カップ"]);
+const H_TO_P: Record<string, [string, string, string]> = { 分: ["ふん", "ぷん", "ぷん"], 本: ["ほん", "ぽん", "ぼん"], 杯: ["はい", "ぱい", "ばい"], 匹: ["ひき", "ぴき", "びき"] };
+const TSU = ["", "ひとつ", "ふたつ", "みっつ", "よっつ", "いつつ", "むっつ", "ななつ", "やっつ", "ここのつ", "とお"];
+const DAYS: Record<number, string> = { 2: "ふつか", 3: "みっか", 4: "よっか", 5: "いつか", 6: "むいか", 7: "なのか", 8: "ようか", 9: "ここのか", 10: "とおか", 14: "じゅうよっか", 20: "はつか", 24: "にじゅうよっか" };
+function withCounter(n: number, counter: string, counterReading: string): string | null {
+  if (!Number.isInteger(n) || n <= 0) return null;
+  if (counter === "つ" && n <= 10) return TSU[n];
+  if (counter === "人") return n === 1 ? "ひとり" : n === 2 ? "ふたり" : null;
+  if (counter === "日" && DAYS[n]) return DAYS[n];
+  if (counter === "月" && n <= 12 && [4, 7, 9].includes(n)) return { 4: "しがつ", 7: "しちがつ", 9: "くがつ" }[n]!;
+  if (counter === "時" && n % 10 && [4, 7, 9].includes(n % 10)) return numberReading(n - (n % 10)) + { 4: "よじ", 7: "しちじ", 9: "くじ" }[n % 10]!;
+  const last = n % 10;
+  const head = n - last > 0 ? numberReading(n - last) : "";
+  if (last === 4 && ["人", "年", "時間", "円"].includes(counter)) return head + "よ" + counterReading;
+  if (!GEMINATE.has(counter)) return null;
+  const hp = H_TO_P[counter];
+  if (last === 0) {
+    if (!head.endsWith("じゅう")) return null;
+    return head.slice(0, -"じゅう".length) + "じゅっ" + (hp ? hp[1] : counterReading);
+  }
+  const lastReading = numberReading(last);
+  if (hp) {
+    if (last === 3) return head + "さん" + hp[2];
+    if (last === 4 && counter === "分") return head + "よん" + hp[1];
+    if ([1, 6, 8].includes(last)) return head + { 1: "いっ", 6: "ろっ", 8: "はっ" }[last]! + hp[1];
+    return head + lastReading + hp[0];
+  }
+  if ([1, 6, 8].includes(last)) return head + { 1: "いっ", 6: "ろっ", 8: "はっ" }[last]! + counterReading;
+  if (last === 3 && ["軒", "階", "足"].includes(counter)) return head + "さん" + counterReading.replace(/^け/, "げ").replace(/^か/, "が").replace(/^そ/, "ぞ");
+  return null;
+}
+const halfDigits = (x: string) => x.replace(/[０-９]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0xfee0));
+/** Hiragana reading of a number group plus any counter/suffix after it. */
+function numberGroupReading(parts: kuromoji.IpadicFeatures[]): string {
+  let out = "", buf = "", total = 0, open = false;
+  const flush = () => {
+    if (!open) return;
+    const [int, dec] = halfDigits(buf).replace(/[,，]/g, "").replace(/[．]/g, ".").split(".");
+    const whole = total + (int ? Number(int) : 0);
+    out += numberReading(whole) + (dec ? "てん" + [...dec].map((d) => (d === "0" ? "ぜろ" : ONES[Number(d)])).join("") : "");
+    buf = ""; total = 0; open = false;
+  };
+  for (const p of parts) {
+    const s = p.surface_form;
+    const r = kata2hira(p.reading && p.reading !== "*" ? p.reading : s);
+    if (DIGITS.test(s) || NUM_SEP.test(s)) { buf += s; open = true; }
+    else if (open && BIG_UNITS.includes(s)) {
+      total += Number(halfDigits(buf).replace(/[,，]/g, "") || "1") * ({ 万: 1e4, 億: 1e8, 兆: 1e12 } as Record<string, number>)[s];
+      buf = "";
+    } else {
+      const n = total + Number(halfDigits(buf).replace(/[,，]/g, "") || "0");
+      const special = open && !buf.includes(".") && !buf.includes("．") ? withCounter(n, s, r) : null;
+      if (special) { out += special; buf = ""; total = 0; open = false; }
+      else { flush(); out += r; }
+    }
+  }
+  flush();
   return out;
 }
 
 /** Split a word into [text, ruby] segments so ruby sits only above kanji. */
 export function furigana(surface: string, reading: string): [string, string | null][] | undefined {
-  if (!KANJI.test(surface) || !reading) return undefined;
+  const needsRuby = (ch: string) => KANJI.test(ch) || /[0-9０-９]/.test(ch);
+  if (![...surface].some(needsRuby) || !reading) return undefined;
   const segs: { text: string; kanji: boolean }[] = [];
   for (const ch of surface) {
-    const k = KANJI.test(ch);
+    const k = needsRuby(ch);
     const last = segs[segs.length - 1];
     if (last && last.kanji === k) last.text += ch;
     else segs.push({ text: ch, kanji: k });
@@ -225,7 +329,7 @@ async function oembed(id: string) {
 }
 
 // ---------- build ----------
-const rawFiles = fs.readdirSync(RAW).filter((f) => f.endsWith(".json"));
+const rawFiles = fs.readdirSync(RAW).filter((f) => f.endsWith(".json")).sort(); // sorted: dictionary display forms must not depend on directory order
 const clips: any[] = [];
 const videos: Record<string, { title: string; channel: string; channelUrl: string }> = {};
 let dropped = 0;
@@ -237,6 +341,10 @@ for (const f of rawFiles) {
   const kept: any[] = [];
   for (const c of v.clips) {
     const lines = (c.lines ?? []).filter((l) => l.ja && JP.test(l.ja) && l.end > l.start).sort((a, b) => a.start - b.start);
+    // A line never runs into the next one (the AI timing sometimes overshoots an end time).
+    for (let i = 0; i + 1 < lines.length; i++) {
+      if (lines[i].end > lines[i + 1].start) lines[i] = { ...lines[i], end: Math.max(lines[i].start + 0.3, lines[i + 1].start - 0.05) };
+    }
     if (lines.length < 2 || (c.quality ?? 0) < 3) { dropped++; continue; }
     const start = Math.max(0, lines[0].start - 0.4);
     const end = lines[lines.length - 1].end + 0.6;
@@ -252,22 +360,26 @@ for (const f of rawFiles) {
     const outLines = lines.map((l) => {
       const toks = tokenizer.tokenize(l.ja.trim());
       const groups = group(toks);
-      const weights = groups.map((g) => (g.parts.every(isPunct) ? 0 : mora(g.parts.map((p) => p.reading ?? p.surface_form).join(""))));
+      const weights = groups.map((g) => (g.parts.every(isPunct) ? 0 : mora(g.parts.some((p) => DIGITS.test(p.surface_form)) ? numberGroupReading(g.parts) : g.parts.map((p) => p.reading ?? p.surface_form).join(""))));
       const total = weights.reduce((a, b) => a + b, 0) || 1;
       const span = (l.end - l.start) * 0.95;
       let t = l.start;
       const words: Word[] = groups.map((g, i) => {
         const surface = g.parts.map((p) => p.surface_form).join("");
         const punct = g.parts.every(isPunct);
-        const readingKata = g.parts.map((p) => (p.reading && p.reading !== "*" ? p.reading : p.surface_form)).join("");
+        const numeric = !punct && g.parts.some((p) => DIGITS.test(p.surface_form));
+        const readingKata = numeric ? numberGroupReading(g.parts) : g.parts.map((p) => (p.reading && p.reading !== "*" ? p.reading : p.surface_form)).join("");
         const reading = punct ? "" : kata2hira(readingKata);
         const head = g.head;
         const base = head.basic_form && head.basic_form !== "*" ? head.basic_form : head.surface_form;
         // try the whole merged surface (お得意様, 勉強する) before the head's dictionary form
         const prefix = g.parts[0].pos === "接頭詞" ? g.parts[0].surface_form : "";
-        const tries = [surface, prefix + base, base];
+        const stretched = g.parts.some((p) => LONG_VOWEL.test(p.surface_form)) && g.parts.length > 1;
+        const unstretched = surface.replace(/[ーｰ]/g, "");
+        const tries = [...(stretched && unstretched.length >= 2 ? [unstretched] : []), surface, prefix + base, base];
         let entry: JmWord | undefined; let usedBase = base;
-        if (!punct) for (const tryBase of tries) {
+        // numbers have no useful dictionary entry ("5" would look up 五); the Explain tab covers them
+        if (!punct && !numeric) for (const tryBase of tries) {
           const baseReading = kata2hira(tokenizer.tokenize(tryBase).map((x) => x.reading ?? x.surface_form).join(""));
           entry = lookup(tryBase, baseReading);
           if (entry) { usedBase = tryBase; break; }
@@ -278,7 +390,7 @@ for (const f of rawFiles) {
           s: surface,
           r: punct || kata2hira(surface) === reading ? "" : reading,
           ro: punct ? "" : wanakana.toRomaji(readingKata),
-          b: punct ? "" : usedBase,
+          b: punct ? "" : numeric ? surface : usedBase,
           p: punct ? "punct" : simplePos(head),
           d: entry?.id ?? null,
           ...(punct ? {} : { f: furigana(surface, reading) }),
@@ -299,6 +411,11 @@ for (const f of rawFiles) {
 }
 fs.writeFileSync(metaFile, JSON.stringify(meta, null, 1));
 
+/** Fingerprint of a clip's word split; explain notes record it (scripts/content/explain.py token_sig). */
+export const tokenSig = (c: { lines: { words: { s: string }[] }[] }) =>
+  crypto.createHash("sha1").update(c.lines.map((l) => l.words.map((w) => w.s).join("|")).join("\n")).digest("hex").slice(0, 12);
+const stale = new Set<string>();
+
 // stable, deterministic order: by id
 clips.sort((a, b) => (a.id < b.id ? -1 : 1));
 const content = { version: 1, generatedAt: new Date().toISOString().slice(0, 10), videos, clips };
@@ -310,9 +427,15 @@ for (const dir of OUT_DIRS) {
   fs.writeFileSync(path.join(dir, "dict.json"), JSON.stringify(dictOut));
   for (const c of clips) {
     const ef = path.join(EXPLAIN, `${c.id}.json`);
-    if (fs.existsSync(ef)) fs.copyFileSync(ef, path.join(dir, "explain", `${c.id}.json`));
+    const target = path.join(dir, "explain", `${c.id}.json`);
+    if (!fs.existsSync(ef)) { fs.rmSync(target, { force: true }); continue; }
+    // notes are keyed by "line.word" index — only ship them for the tokenisation they were written for
+    const sig = JSON.parse(fs.readFileSync(ef, "utf8")).sig;
+    if (sig && sig !== tokenSig(c)) { stale.add(c.id); fs.rmSync(target, { force: true }); continue; }
+    fs.copyFileSync(ef, target);
   }
 }
+if (stale.size) console.warn(`stale explain notes (re-run explain.py): ${stale.size}`);
 const perLevel = Object.fromEntries(LEVELS.map((l) => [l, clips.filter((c) => c.level === l).length]));
 const perTopic: Record<string, number> = {};
 for (const c of clips) for (const t of c.topics) perTopic[t] = (perTopic[t] ?? 0) + 1;

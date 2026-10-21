@@ -1,0 +1,172 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 49.8,
+   "end": 60.4,
+   "title": "Picking Up the Important Papers",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily",
+    "anime"
+   ],
+   "grammar": [
+    "〜が — subject marker",
+    "〜より — rather than / more than",
+    "〜てきて — go do and come back"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 50.1,
+     "end": 51.9,
+     "ja": "大事な原稿が！",
+     "en": "My important manuscript!",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 52.0,
+     "end": 53.6,
+     "ja": "お手伝いする！",
+     "en": "I'll help!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 54.0,
+     "end": 55.7,
+     "ja": "ごめんなさい。",
+     "en": "I'm sorry.",
+     "speaker": "George"
+    },
+    {
+     "start": 56.1,
+     "end": 57.6,
+     "ja": "大丈夫よ、ジョージ。",
+     "en": "It's alright, George.",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 57.7,
+     "end": 60.0,
+     "ja": "それより長靴履いてきて？",
+     "en": "More importantly, go put on your boots, okay?",
+     "speaker": "Mummy Pig"
+    }
+   ]
+  },
+  {
+   "start": 140.7,
+   "end": 155.0,
+   "title": "Looking for the Backpack",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily",
+    "anime"
+   ],
+   "grammar": [
+    "〜は — topic marker",
+    "〜じゃない — isn't it?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 141.0,
+     "end": 143.4,
+     "ja": "マミー、私のリュックは？",
+     "en": "Mummy, where is my backpack?",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 143.7,
+     "end": 146.4,
+     "ja": "あー、たぶん、二階じゃない？",
+     "en": "Oh, maybe it's upstairs?",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 148.9,
+     "end": 151.0,
+     "ja": "幸運のペン、忘れてるよ。",
+     "en": "You're forgetting your lucky pen.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 151.1,
+     "end": 153.2,
+     "ja": "いいの！インクが漏れるの！",
+     "en": "It's fine! The ink leaks!",
+     "speaker": "Mummy Pig"
+    }
+   ]
+  },
+  {
+   "start": 218.8,
+   "end": 235.1,
+   "title": "Daddy Pig Changes the Diaper",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily",
+    "anime"
+   ],
+   "grammar": [
+    "〜なら — if it's...",
+    "〜ておいて — leave it to / do beforehand",
+    "〜たわ — casual feminine past assertion"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 219.1,
+     "end": 220.4,
+     "ja": "大丈夫だよ。",
+     "en": "It's fine.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 220.5,
+     "end": 223.1,
+     "ja": "オムツ替えなら任せといて！",
+     "en": "Leave diaper changing to me!",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 226.7,
+     "end": 228.0,
+     "ja": "じゃじゃーん！",
+     "en": "Ta-da!",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 228.1,
+     "end": 229.4,
+     "ja": "すごい！",
+     "en": "Amazing!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 231.7,
+     "end": 233.1,
+     "ja": "行きましょ！",
+     "en": "Let's go!",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 233.2,
+     "end": 234.7,
+     "ja": "バスが来たわ！",
+     "en": "The bus has arrived!",
+     "speaker": "Mummy Pig"
+    }
+   ]
+  }
+ ],
+ "videoId": "x2ctx_slUR0",
+ "pickTopics": [
+  "family",
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -8,6 +8,7 @@
 #   6. build.ts       — copy notes into both clients
 set -euo pipefail
 cd "$(dirname "$0")/../.."
+bash scripts/content/fetch_dict.sh >/dev/null
 python3 scripts/content/find_clips.py --workers 10
 bun scripts/content/build.ts
 python3 scripts/content/proof.py --workers 8

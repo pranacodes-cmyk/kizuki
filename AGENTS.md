@@ -19,6 +19,8 @@
 - Learner state is one JSON document (`mimi-state-v1`) stored locally and, when signed in, in `public.learner_state` (owner-only RLS), merged with `mergeState`. Why: offline-first with simple multi-device sync.
 - Web app shell renders children only after hydration (AppFrame), so persisted state never causes SSR mismatches. Why: state lives in localStorage.
 - Purchases are simulated in both clients until Play billing is configured; paywall copy/prices live in `src/lib/paywall.ts` / `mobile/lib/data/paywall.dart`. Why: no billing account yet.
-- APKs are built by GitHub Actions only after `flutter analyze` and `flutter test` pass. Why: failure is not an option for the shipped build.
+- APKs are built by GitHub Actions only after `flutter analyze` and `flutter test` pass; a second job installs the release APK on an Android emulator and runs `mobile/integration_test/` via `.github/scripts/e2e.sh`, saving screenshots + logcat. Why: failure is not an option for the shipped build.
+- Android release builds keep R8 shrinking off (`mobile/android/app/build.gradle.kts`). Why: JNI-based plugins (shared_preferences) lose methods when shrunk and the app opens blank.
+- The AI tutor (Ask Kizuki) runs only in the web app's server route `src/routes/api/public/ask.ts`, which requires a signed-in user's access token; both clients post the same AI SDK UI-message body, and the Android app calls the published origin (`AppConfig.apiOrigin`). Why: the AI key stays server-side and there is one tutor prompt.
 - The web dev server ignores `mobile/**` (vite.config.ts). Why: Flutter build/test output otherwise reloads the preview mid-session.
 - Welcome-tour steps live in `src/lib/tour.ts` / `mobile/lib/data/tour.dart`; spotlight targets are `data-tour` attributes on web and `TourTargets` keys on Flutter, set only on the feed's active clip. Why: one tour definition per client, targets never point at off-screen clips.

@@ -6,6 +6,7 @@ import {
   heatLevel, heatmapWeeks, kanaDeck, levelToJlpt, mergeActivity, mergeByUpdatedAt, minuteMs, minutesLeft, newCard,
   newlyUnlocked, nextIntervalLabel, normalizeQuery, planItems, rankFeed, recommendedMinutes, toKatakana, wordStatus, wordsPerMonth,
   searchClips, clipWordKeys, wordKeyOf, dueWordKeys, wordCounts, mergeState, canWatchClip, clipsWithWord, kanaQueue, kanaLearned, customStudyKeys,
+  asksToday, canAsk, asksLeft, cleanQuestion, askHistory, type AskTurn,
   type RankClip,
 } from "./logic";
 
@@ -277,5 +278,32 @@ describe("cloud merge", () => {
     expect(m.kana["h:あ"].reps).toBe(4);
     expect(m.reviewSessions).toBe(2);
     expect(m.updatedAt).toBe(20);
+  });
+});
+
+describe("ask kizuki", () => {
+  it("counts questions per day", () => {
+    expect(asksToday("2026-10-21", 3, "2026-10-21")).toBe(3);
+    expect(asksToday("2026-10-20", 3, "2026-10-21")).toBe(0);
+  });
+  it("free learners get 5 questions a day, premium unlimited", () => {
+    expect(canAsk(false, 4, 5)).toBe(true);
+    expect(canAsk(false, 5, 5)).toBe(false);
+    expect(canAsk(true, 99, 5)).toBe(true);
+    expect(asksLeft(false, 3, 5)).toBe(2);
+    expect(asksLeft(false, 7, 5)).toBe(0);
+    expect(asksLeft(true, 7, 5)).toBe(null);
+  });
+  it("cleans typed questions and caps them at 400 characters", () => {
+    expect(cleanQuestion("  why   is\nit  ")).toBe("why is it");
+    expect(cleanQuestion("a".repeat(450)).length).toBe(400);
+    expect(cleanQuestion("   ")).toBe("");
+  });
+  it("sends the last 10 non-empty turns, starting with a question", () => {
+    const msgs: AskTurn[] = Array.from({ length: 12 }, (_, i) => ({ role: i % 2 === 0 ? "user" : "assistant", text: `m${i}` }));
+    expect(askHistory(msgs).map((m) => m.text)).toEqual(["m2", "m3", "m4", "m5", "m6", "m7", "m8", "m9", "m10", "m11"]);
+    const odd = askHistory<AskTurn>([{ role: "assistant", text: "hi" }, { role: "user", text: "q" }, { role: "assistant", text: "" }, { role: "user", text: "q2" }]);
+    expect(odd.map((m) => m.text)).toEqual(["q", "q2"]);
+    expect(askHistory(msgs, 3).map((m) => m.text)).toEqual(["m10", "m11"]);
   });
 });

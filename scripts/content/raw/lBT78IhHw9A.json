@@ -1,0 +1,165 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 19.3,
+   "end": 34.0,
+   "title": "An Angel Comes to Earth",
+   "level": "N5",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜から — from",
+    "〜に来る — come to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 19.7,
+     "end": 22.8,
+     "ja": "この女の子は天使です。",
+     "en": "This girl is an angel.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 23.5,
+     "end": 24.3,
+     "ja": "そうです。",
+     "en": "That's right.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 24.8,
+     "end": 26.2,
+     "ja": "つまり天国から",
+     "en": "In other words, from heaven",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 26.8,
+     "end": 30.1,
+     "ja": "地球に来ます。",
+     "en": "she comes to Earth.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 30.8,
+     "end": 33.5,
+     "ja": "まあ天使ですからですね。",
+     "en": "Well, because she is an angel.",
+     "speaker": "Presenter"
+    }
+   ]
+  },
+  {
+   "start": 53.0,
+   "end": 69.8,
+   "title": "Gaming All Day Long",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "daily"
+   ],
+   "grammar": [
+    "〜なのに — even though",
+    "〜ている — ongoing action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 53.3,
+     "end": 54.8,
+     "ja": "天使なのに",
+     "en": "Even though she's an angel,",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 55.4,
+     "end": 58.7,
+     "ja": "毎日毎日毎日毎日、",
+     "en": "every day, every day, every day, every day,",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 59.3,
+     "end": 61.8,
+     "ja": "ネトゲをしています。",
+     "en": "she plays online games.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 62.4,
+     "end": 64.9,
+     "ja": "あ、ネトゲはインターネット、",
+     "en": "Ah, net-ge means internet,",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 65.4,
+     "end": 66.3,
+     "ja": "ゲーム、",
+     "en": "game,",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 66.8,
+     "end": 69.3,
+     "ja": "ネトゲでしょ？",
+     "en": "netoge, right?",
+     "speaker": "Presenter"
+    }
+   ]
+  },
+  {
+   "start": 147.2,
+   "end": 164.7,
+   "title": "Three Friends from Two Worlds",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "friends"
+   ],
+   "grammar": [
+    "〜の中 — among",
+    "〜も — also"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 147.6,
+     "end": 151.7,
+     "ja": "その３人の友達の中の１人",
+     "en": "Among those three friends, one of them",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 152.8,
+     "end": 155.0,
+     "ja": "も天使です。",
+     "en": "is also an angel.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 156.4,
+     "end": 159.2,
+     "ja": "じゃ、その３人の友達はですね、",
+     "en": "Well, as for those three friends,",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 159.9,
+     "end": 164.2,
+     "ja": "１人、１人は天使、",
+     "en": "one... one is an angel,",
+     "speaker": "Presenter"
+    }
+   ]
+  }
+ ],
+ "videoId": "lBT78IhHw9A",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

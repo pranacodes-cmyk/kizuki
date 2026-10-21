@@ -40,7 +40,7 @@ def call(method, path, body=None, ok=(200, 201), tries=5):
             raw = e.read().decode(errors="replace")
             if e.code in ok:
                 return e.code, json.loads(raw) if raw else None
-            if e.code in (403, 429, 500, 502, 503) and attempt < tries - 1:
+            if e.code in (403, 429, 500, 502, 503, 504) and attempt < tries - 1:
                 time.sleep(2 ** attempt * 3)
                 continue
             return e.code, {"error": raw[:500]}
@@ -102,6 +102,29 @@ def main():
     missing = [e for e in entries if remote.get(e[0]) != e[3]]
     print(f"{len(entries)} files, {len(missing)} new or changed")
 
+    # Text files ride inside throwaway tree requests (one request creates ~150 blobs), which keeps
+    # big content updates under GitHub's limit on content-creating requests; binaries use the blob API.
+    seen, text, binary = set(), [], []
+    for e in missing:
+        if e[3] in seen:
+            continue
+        seen.add(e[3])
+        try:
+            e[2].decode("utf-8")
+            (text if len(e[2]) < 900_000 else binary).append(e)
+        except UnicodeDecodeError:
+            binary.append(e)
+    print(f"  {len(text)} text + {len(binary)} binary unique blobs to create")
+    for i in range(0, len(text), 150):
+        batch = text[i:i + 150]
+        status, res = call("POST", f"/repos/{repo}/git/trees", {
+            "tree": [{"path": f"f{j}", "mode": "100644", "type": "blob", "content": e[2].decode("utf-8")} for j, e in enumerate(batch)],
+        }, tries=6)
+        if status != 201:
+            raise RuntimeError(f"text batch failed: {status} {str(res)[:300]}")
+        print(f"  text blobs {min(i + 150, len(text))}/{len(text)}")
+    missing = binary
+
     def upload(e):
         path, _, content, sha = e
         status, res = call("POST", f"/repos/{repo}/git/blobs", {"content": base64.b64encode(content).decode(), "encoding": "base64"})
@@ -109,7 +132,7 @@ def main():
             raise RuntimeError(f"blob upload failed for {path}: {status} {res}")
         return path
 
-    with cf.ThreadPoolExecutor(max_workers=8) as pool:
+    with cf.ThreadPoolExecutor(max_workers=4) as pool:
         for i, _ in enumerate(pool.map(upload, missing), 1):
             if i % 200 == 0:
                 print(f"  uploaded {i}/{len(missing)}")

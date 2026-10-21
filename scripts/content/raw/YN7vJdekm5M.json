@@ -1,0 +1,124 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 232.4,
+   "end": 302.3,
+   "title": "King Enma Sends Them to Hell",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜を見て — seeing / looking at",
+    "〜へ行く — going towards a place"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 232.4,
+     "end": 242.5,
+     "ja": "えんまさまは、あの世の王さまです。",
+     "en": "King Enma is the king of the afterlife.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 243.3,
+     "end": 253.0,
+     "ja": "えんまさまは三人を見て言いました。",
+     "en": "King Enma looked at the three men and said:",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 253.8,
+     "end": 301.8,
+     "ja": "「お前たちは、地獄へ行け。」",
+     "en": "\"You guys, go to hell.\"",
+     "speaker": "King Enma"
+    }
+   ]
+  },
+  {
+   "start": 426.5,
+   "end": 456.5,
+   "title": "Enjoying the Boiling Cauldron",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜そうに — doing (in a manner that seems)",
+    "〜を洗う — to wash (object)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 426.5,
+     "end": 434.5,
+     "ja": "「これは、いいお風呂だ。」",
+     "en": "\"This is a nice bath.\"",
+     "speaker": "Acrobat"
+    },
+    {
+     "start": 435.5,
+     "end": 448.5,
+     "ja": "三人は気持ちよさそうに体を洗いました。",
+     "en": "The three washed themselves looking so comfortable.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 449.0,
+     "end": 456.5,
+     "ja": "鬼たちはびっくりです。",
+     "en": "The demons were astonished.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 728.5,
+   "end": 759.5,
+   "title": "The Dentist Checks the Demon's Cavity",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜の出番 — one's turn to act",
+    "〜と — when / upon doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 728.5,
+     "end": 738.0,
+     "ja": "今度は歯医者の出番です。",
+     "en": "Now it was the dentist's turn.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 738.5,
+     "end": 751.5,
+     "ja": "歯医者が鬼の虫歯をさわると、鬼は大声を出しました。",
+     "en": "When the dentist touched the demon's cavity, the demon let out a loud cry.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 752.3,
+     "end": 758.8,
+     "ja": "「いたたたた。」",
+     "en": "\"Ouch, ouch, ouch!\"",
+     "speaker": "Demon"
+    }
+   ]
+  }
+ ],
+ "videoId": "YN7vJdekm5M",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

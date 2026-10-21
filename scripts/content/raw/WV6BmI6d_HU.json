@@ -1,0 +1,215 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 46.7,
+   "end": 72.8,
+   "title": "What's Inside This Tool?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜があります — there is",
+    "〜と — when/if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 47.1,
+     "end": 52.8,
+     "ja": "ここにスイッチがありますね。",
+     "en": "There's a switch here, isn't there?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 53.0,
+     "end": 55.4,
+     "ja": "スイッチがあります。",
+     "en": "There's a switch.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 55.5,
+     "end": 58.7,
+     "ja": "スイッチを押すと…",
+     "en": "When you push the switch...",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 59.5,
+     "end": 62.0,
+     "ja": "何が出ますか？",
+     "en": "What comes out?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 62.9,
+     "end": 64.2,
+     "ja": "はい！",
+     "en": "Yes!",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 64.6,
+     "end": 67.8,
+     "ja": "これはハサミです。",
+     "en": "These are scissors.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 68.3,
+     "end": 70.3,
+     "ja": "ハサミです。",
+     "en": "They are scissors.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 71.0,
+     "end": 72.4,
+     "ja": "面白いです！",
+     "en": "How interesting!",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 174.5,
+   "end": 206.5,
+   "title": "Cutting String with Scissors",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜で — with / by means of",
+    "〜ました — past tense"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 175.2,
+     "end": 177.5,
+     "ja": "これは何ですか？",
+     "en": "What is this?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 178.1,
+     "end": 182.2,
+     "ja": "これは紐です。紐。",
+     "en": "This is string. String.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 183.4,
+     "end": 186.2,
+     "ja": "これは紐ですね。",
+     "en": "This is string, isn't it?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 186.4,
+     "end": 188.7,
+     "ja": "紐を切ります。",
+     "en": "I'll cut the string.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 189.1,
+     "end": 194.2,
+     "ja": "ハサミで紐を切ります。",
+     "en": "I'll cut the string with scissors.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 197.8,
+     "end": 199.7,
+     "ja": "はい、切りました。",
+     "en": "Yes, I cut it.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 199.9,
+     "end": 204.6,
+     "ja": "ハサミで紐を切りました。",
+     "en": "I cut the string with the scissors.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 204.9,
+     "end": 206.1,
+     "ja": "切りました。",
+     "en": "I cut it.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 292.0,
+   "end": 319.4,
+   "title": "Folding Origami",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "どう〜 — how to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 292.8,
+     "end": 294.9,
+     "ja": "これは何ですか？",
+     "en": "What is this?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 295.7,
+     "end": 298.5,
+     "ja": "これは折り紙です。",
+     "en": "This is origami paper.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 298.9,
+     "end": 302.5,
+     "ja": "ハサミで折り紙を切ります。",
+     "en": "I'll cut the origami paper with scissors.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 303.2,
+     "end": 307.2,
+     "ja": "どう切りますか？どう切りますか？",
+     "en": "How should I cut it? How should I cut it?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 308.5,
+     "end": 312.3,
+     "ja": "ちょっと待ってください。ちょっと待って。",
+     "en": "Please wait a moment. Wait a bit.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 312.5,
+     "end": 318.9,
+     "ja": "この折り紙を折ります。折ります。",
+     "en": "I will fold this origami paper. I will fold it.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "WV6BmI6d_HU",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

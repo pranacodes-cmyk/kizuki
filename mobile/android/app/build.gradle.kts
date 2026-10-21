@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "app.mimi.mimi"
+    namespace = "com.kizuki.app"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -34,6 +34,10 @@ android {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig = signingConfigs.getByName("debug")
+            // No R8 shrinking: plugins such as shared_preferences call Kotlin code through JNI,
+            // and R8 strips those methods — saved progress never loaded and the app opened blank.
+            isMinifyEnabled = false
+            isShrinkResources = false
         }
     }
 }

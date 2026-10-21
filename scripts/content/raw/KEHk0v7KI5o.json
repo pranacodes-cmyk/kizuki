@@ -1,0 +1,186 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 108.2,
+   "end": 130.4,
+   "title": "Priority Seats on Taiwanese Trains",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜たら — when/if",
+    "〜よね — seeking agreement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 108.4,
+     "end": 111.6,
+     "ja": "例えば、電車の中に",
+     "en": "For example, on the train,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 111.8,
+     "end": 115.6,
+     "ja": "優先席がありますよね。",
+     "en": "there are priority seats, right?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 117.2,
+     "end": 121.2,
+     "ja": "台湾では、優先席の近くに",
+     "en": "In Taiwan, near the priority seats,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 121.4,
+     "end": 125.3,
+     "ja": "お年寄りや小さい子供が来たら、",
+     "en": "if an elderly person or a small child comes,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 125.6,
+     "end": 129.9,
+     "ja": "絶対席を立ちますね。",
+     "en": "people will definitely give up their seat.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 206.0,
+   "end": 237.2,
+   "title": "Taiwanese People Love Breakfast",
+   "level": "N5",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜て食べる — buy and eat (sequential action)",
+    "〜ている — habitual/ongoing action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 206.2,
+     "end": 208.5,
+     "ja": "特に、台湾人は",
+     "en": "In particular, Taiwanese people",
+     "speaker": "Shun"
+    },
+    {
+     "start": 208.7,
+     "end": 212.6,
+     "ja": "朝ご飯が好きなんですよ。",
+     "en": "really love breakfast.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 213.7,
+     "end": 218.5,
+     "ja": "よく外で朝ご飯を買って食べます。",
+     "en": "They often buy breakfast outside and eat it.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 220.4,
+     "end": 224.2,
+     "ja": "私は、ダンピンという",
+     "en": "I love a Taiwanese breakfast",
+     "speaker": "Shun"
+    },
+    {
+     "start": 224.4,
+     "end": 228.0,
+     "ja": "台湾の朝ご飯が大好きです。",
+     "en": "called danbing.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 229.8,
+     "end": 232.5,
+     "ja": "台湾にいた時は、",
+     "en": "When I was in Taiwan,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 232.7,
+     "end": 236.8,
+     "ja": "毎日ダンピンを食べていましたね。",
+     "en": "I ate danbing every single day.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 239.0,
+   "end": 267.2,
+   "title": "What Danbing Is Like",
+   "level": "N5",
+   "topics": [
+    "food"
+   ],
+   "grammar": [
+    "〜みたいな — like / similar to",
+    "〜て入る — state of containing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 239.2,
+     "end": 242.8,
+     "ja": "えー、ダンピンは日本の",
+     "en": "Well, danbing is a pancake",
+     "speaker": "Shun"
+    },
+    {
+     "start": 243.0,
+     "end": 247.4,
+     "ja": "お好み焼きみたいなパンケーキです。",
+     "en": "like Japanese okonomiyaki.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 248.4,
+     "end": 251.6,
+     "ja": "でも、もっと薄いですね。",
+     "en": "However, it is much thinner.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 253.5,
+     "end": 257.0,
+     "ja": "中に卵が入っていて、",
+     "en": "There is an egg inside,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 257.8,
+     "end": 261.0,
+     "ja": "お好み焼きソースみたいな",
+     "en": "and you eat it with a slightly sweet sauce",
+     "speaker": "Shun"
+    },
+    {
+     "start": 261.5,
+     "end": 266.8,
+     "ja": "少し甘いソースをつけて食べます。",
+     "en": "resembling okonomiyaki sauce.",
+     "speaker": "Shun"
+    }
+   ]
+  }
+ ],
+ "videoId": "KEHk0v7KI5o",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

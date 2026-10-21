@@ -301,4 +301,32 @@ void main() {
       expect(m['updatedAt'], 20);
     });
   });
+
+  group('ask kizuki', () {
+    test('counts questions per day', () {
+      expect(asksToday('2026-10-21', 3, '2026-10-21'), 3);
+      expect(asksToday('2026-10-20', 3, '2026-10-21'), 0);
+    });
+    test('free learners get 5 questions a day, premium unlimited', () {
+      expect(canAsk(false, 4, 5), true);
+      expect(canAsk(false, 5, 5), false);
+      expect(canAsk(true, 99, 5), true);
+      expect(asksLeft(false, 3, 5), 2);
+      expect(asksLeft(false, 7, 5), 0);
+      expect(asksLeft(true, 7, 5), null);
+    });
+    test('cleans typed questions and caps them at 400 characters', () {
+      expect(cleanQuestion('  why   is\nit  '), 'why is it');
+      expect(cleanQuestion('a' * 450).length, 400);
+      expect(cleanQuestion('   '), '');
+    });
+    test('sends the last 10 non-empty turns, starting with a question', () {
+      final msgs = [for (var i = 0; i < 12; i++) AskTurn(i.isEven ? 'user' : 'assistant', 'm$i')];
+      final h = askHistory(msgs);
+      expect(h.map((m) => m.text).toList(), ['m2', 'm3', 'm4', 'm5', 'm6', 'm7', 'm8', 'm9', 'm10', 'm11']);
+      final odd = askHistory([const AskTurn('assistant', 'hi'), const AskTurn('user', 'q'), const AskTurn('assistant', ''), const AskTurn('user', 'q2')]);
+      expect(odd.map((m) => m.text).toList(), ['q', 'q2']);
+      expect(askHistory(msgs, 3).map((m) => m.text).toList(), ['m10', 'm11']);
+    });
+  });
 }

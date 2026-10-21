@@ -1,0 +1,193 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 134.8,
+   "end": 154.2,
+   "title": "Welcome to Nekoya Inn",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "culture",
+    "animals"
+   ],
+   "grammar": [
+    "〜へようこそ — welcome to ~",
+    "〜たい — wanting to do something",
+    "〜ています — progressive/state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 135.2,
+     "end": 137.9,
+     "ja": "猫屋旅館へようこそ。",
+     "en": "Welcome to the Nekoya Inn.",
+     "speaker": "Innkeeper"
+    },
+    {
+     "start": 138.5,
+     "end": 141.6,
+     "ja": "私はここの主人ですよ。",
+     "en": "I am the master of this inn.",
+     "speaker": "Innkeeper"
+    },
+    {
+     "start": 142.1,
+     "end": 144.1,
+     "ja": "こ、こんばんは。",
+     "en": "G-Good evening.",
+     "speaker": "Saburou"
+    },
+    {
+     "start": 144.5,
+     "end": 148.0,
+     "ja": "あの、今晩泊まりたいんですけど。",
+     "en": "Um, I would like to stay the night...",
+     "speaker": "Saburou"
+    },
+    {
+     "start": 148.7,
+     "end": 153.5,
+     "ja": "どうぞ。部屋は空いていますよ。",
+     "en": "Please, do. We have rooms available.",
+     "speaker": "Innkeeper"
+    }
+   ]
+  },
+  {
+   "start": 329.8,
+   "end": 352.0,
+   "title": "You Must Not Go in That Hot Spring!",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "fun",
+    "animals"
+   ],
+   "grammar": [
+    "〜てはいけません — must not do",
+    "〜てはだめ — cannot / must not do",
+    "〜です — polite copula"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 330.3,
+     "end": 333.6,
+     "ja": "あの、この温泉に入ってはいけません！",
+     "en": "Um, you must not get into this hot spring!",
+     "speaker": "Mike"
+    },
+    {
+     "start": 333.9,
+     "end": 336.5,
+     "ja": "ご飯も食べてはだめ！",
+     "en": "You can't eat the food either!",
+     "speaker": "Mike"
+    },
+    {
+     "start": 336.7,
+     "end": 338.4,
+     "ja": "え？どうして？",
+     "en": "Eh? Why?",
+     "speaker": "Saburou"
+    },
+    {
+     "start": 338.7,
+     "end": 341.7,
+     "ja": "だめだめ！絶対だめにゃ！",
+     "en": "No, no! Absolutely not, meow!",
+     "speaker": "Mike"
+    },
+    {
+     "start": 342.3,
+     "end": 344.2,
+     "ja": "だめ…にゃ？",
+     "en": "Not... meow?",
+     "speaker": "Saburou"
+    },
+    {
+     "start": 345.0,
+     "end": 348.5,
+     "ja": "三郎さん、分からにゃい？",
+     "en": "Saburo-san, don't you recognize me?",
+     "speaker": "Mike"
+    },
+    {
+     "start": 348.9,
+     "end": 351.4,
+     "ja": "私はミケですよ！",
+     "en": "I am Mike!",
+     "speaker": "Mike"
+    }
+   ]
+  },
+  {
+   "start": 536.5,
+   "end": 552.9,
+   "title": "Escape Before They Find You",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜前に — before doing",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 536.9,
+     "end": 540.3,
+     "ja": "ちょっとちょっと、時間がにゃいですよ！",
+     "en": "Wait, wait, there's no time!",
+     "speaker": "Mike"
+    },
+    {
+     "start": 540.5,
+     "end": 543.5,
+     "ja": "みんなに見つかる前に逃げてください！",
+     "en": "Please escape before everyone finds you!",
+     "speaker": "Mike"
+    },
+    {
+     "start": 543.6,
+     "end": 544.7,
+     "ja": "早く！",
+     "en": "Hurry!",
+     "speaker": "Mike"
+    },
+    {
+     "start": 545.4,
+     "end": 547.0,
+     "ja": "ありがとう、ミケ。",
+     "en": "Thank you, Mike.",
+     "speaker": "Saburou"
+    },
+    {
+     "start": 547.5,
+     "end": 549.1,
+     "ja": "元気でな！",
+     "en": "Take care!",
+     "speaker": "Saburou"
+    },
+    {
+     "start": 549.6,
+     "end": 552.4,
+     "ja": "三郎は旅館の外へ走りました。",
+     "en": "Saburo ran outside the inn.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "nC8H3Cj7TEc",
+ "pickTopics": [
+  "animals",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

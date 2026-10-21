@@ -1,0 +1,174 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 28.5,
+   "end": 47.2,
+   "title": "A Greedy Dog Wants the Meat",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "fun"
+   ],
+   "grammar": [
+    "〜に〜がいる — existence of living things",
+    "〜をよこせ — command form / give over"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 28.6,
+     "end": 32.4,
+     "ja": "あるところに欲張りな犬がいました。",
+     "en": "Once upon a time, there was a greedy dog.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 32.6,
+     "end": 34.5,
+     "ja": "「おい、その肉を寄越せ！」",
+     "en": "\"Hey, hand over that meat!\"",
+     "speaker": "Greedy Dog"
+    },
+    {
+     "start": 34.7,
+     "end": 37.7,
+     "ja": "「嫌だよー。これは僕の肉だ。」",
+     "en": "\"No way! This is my meat.\"",
+     "speaker": "Small Dog"
+    },
+    {
+     "start": 37.9,
+     "end": 40.4,
+     "ja": "「何よ、生意気な！」",
+     "en": "\"What? How cheeky!\"",
+     "speaker": "Greedy Dog"
+    },
+    {
+     "start": 40.5,
+     "end": 41.8,
+     "ja": "「僕のだ！」",
+     "en": "\"It's mine!\"",
+     "speaker": "Small Dog"
+    },
+    {
+     "start": 41.9,
+     "end": 43.7,
+     "ja": "「俺のだ！」",
+     "en": "\"It's mine!\"",
+     "speaker": "Greedy Dog"
+    },
+    {
+     "start": 43.9,
+     "end": 47.0,
+     "ja": "「ウー、ワン！キャーン！」",
+     "en": "\"Grr, woof! Yipe!\"",
+     "speaker": "Dogs"
+    }
+   ]
+  },
+  {
+   "start": 131.0,
+   "end": 159.8,
+   "title": "A Dog in the Water",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "culture"
+   ],
+   "grammar": [
+    "〜より大きい — comparative: bigger than",
+    "〜てしまう — expressing regret or completion",
+    "〜たいと思う — expressing desire/intention"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 131.2,
+     "end": 135.7,
+     "ja": "川の中には大きな犬がいます。",
+     "en": "In the river, there is a big dog.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 136.0,
+     "end": 142.5,
+     "ja": "そしてその犬は、もっともっと大きな肉をくわえています。",
+     "en": "And that dog is holding an even bigger piece of meat in its mouth.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 147.5,
+     "end": 152.0,
+     "ja": "「俺様の肉より大きい。うーん。」",
+     "en": "\"It's bigger than my meat... Hmm.\"",
+     "speaker": "Greedy Dog"
+    },
+    {
+     "start": 155.3,
+     "end": 159.5,
+     "ja": "犬はその肉も欲しいと思いました。",
+     "en": "The dog wanted that meat too.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 215.8,
+   "end": 231.5,
+   "title": "Greed Leads to Loss",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "culture"
+   ],
+   "grammar": [
+    "〜てしまう — unintended action / regret",
+    "〜はだめ — prohibition / not good"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 216.0,
+     "end": 220.0,
+     "ja": "「俺様の肉がー！」",
+     "en": "\"My meat—!\"",
+     "speaker": "Greedy Dog"
+    },
+    {
+     "start": 221.0,
+     "end": 222.4,
+     "ja": "あーあ。",
+     "en": "Oh dear.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 222.6,
+     "end": 225.7,
+     "ja": "肉が川に落ちてしまいました。",
+     "en": "The meat fell into the river.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 226.0,
+     "end": 229.0,
+     "ja": "欲張りはだめですよね。",
+     "en": "Being greedy is no good, right?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 229.2,
+     "end": 231.0,
+     "ja": "おしまい。",
+     "en": "The end.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "_0wEX1Ir3f0",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

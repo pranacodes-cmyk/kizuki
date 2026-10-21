@@ -1,7 +1,8 @@
 import { Link } from "@tanstack/react-router";
-import { Check, EyeOff, Plus, Trash2, Volume2 } from "lucide-react";
+import { Check, EyeOff, MessageCircleQuestion, Plus, Trash2, Volume2 } from "lucide-react";
 import { useMemo, useState } from "react";
 
+import type { AskContext } from "@/lib/ask";
 import type { Clip, ClipNotes, Content, DictEntry, Word } from "@/lib/content";
 import { glossOf, thumbOf } from "@/lib/content";
 import { clipsWithWord, formatInterval, wordKeyOf, wordStatus } from "@/lib/logic";
@@ -9,8 +10,9 @@ import { speak } from "@/lib/speech";
 import { useApp, type WordInput } from "@/lib/store";
 import { cn } from "@/lib/utils";
 
+import { AskSheet } from "./AskSheet";
 import { Mascot } from "./Mascot";
-import { Sheet } from "./ui";
+import { Button, Sheet } from "./ui";
 
 const TABS = ["Meaning", "Explain", "Examples", "Notes"] as const;
 type Tab = (typeof TABS)[number];
@@ -51,6 +53,14 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
   const note = w ? notes?.w[`${line}.${idx}`] : undefined;
   const lineNote = notes?.l[String(line)];
   const others = useMemo(() => (open && key ? clipsWithWord(content.clips, key, clip.id, jlpt) : []), [open, key, content.clips, clip.id, jlpt]);
+  const [asking, setAsking] = useState(false);
+  // What the tutor needs to know about this word and its line — mirrors _askContext() in word_card.dart.
+  const askCtx = useMemo((): AskContext | null => {
+    const l = clip.lines[line];
+    if (!l || !l.words[idx]) return null;
+    const i = wordInput(clip, line, idx, content, notes);
+    return { clipId: clip.id, title: clip.title, level: clip.level, learnerLevel: jlpt, line: { ja: l.ja, en: l.en }, word: { surface: i.surface, head: i.word, reading: i.reading, gloss: i.gloss } };
+  }, [clip, line, idx, content, notes, jlpt]);
 
   if (!w) return null;
   const head = entry?.w ?? (w.b || w.s);
@@ -60,6 +70,7 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
   const input = () => wordInput(clip, line, idx, content, notes);
 
   return (
+    <>
     <Sheet open={open} onClose={onClose} maxHeight="78%">
       <div className="flex min-h-0 flex-1 flex-col">
         <div className="flex items-start gap-3 px-5 pt-3">
@@ -159,6 +170,9 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
                   {lineNote.tip && <p className="mt-1.5 text-[0.875rem]">💡 {lineNote.tip}</p>}
                 </div>
               )}
+              <Button variant="surface" size="md" className="!mt-3.5 w-full" onClick={() => setAsking(true)}>
+                <MessageCircleQuestion className="h-[18px] w-[18px] text-primary" /> Still curious? Ask Kizuki
+              </Button>
             </div>
           )}
 
@@ -216,5 +230,7 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
         </div>
       </div>
     </Sheet>
+    {askCtx && <AskSheet open={open && asking} onClose={() => setAsking(false)} context={askCtx} />}
+    </>
   );
 }

@@ -1,0 +1,109 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.078,
+   "end": 25.5,
+   "title": "Promise to Meet Tomorrow",
+   "level": "N5",
+   "topics": [
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "〜ましょう — let's / shall we",
+    "また〜 — see you / again"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.085,
+     "end": 15.5,
+     "ja": "「明日も、ここで会いましょう。」",
+     "en": "\"Let's meet here again tomorrow.\"",
+     "speaker": "Samurai"
+    },
+    {
+     "start": 17.0,
+     "end": 24.5,
+     "ja": "「はい。また明日。」",
+     "en": "\"Yes. See you tomorrow.\"",
+     "speaker": "Oryu"
+    }
+   ]
+  },
+  {
+   "start": 372.0,
+   "end": 402.5,
+   "title": "The Tree Mysteriously Heals",
+   "level": "N5",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜たところ — the place where...",
+    "〜ていた — was doing / continuous state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 372.5,
+     "end": 379.5,
+     "ja": "ところが、次の朝。",
+     "en": "However, the next morning.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 381.0,
+     "end": 389.5,
+     "ja": "男たちはびっくりしました。",
+     "en": "The men were surprised.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 391.0,
+     "end": 402.0,
+     "ja": "昨日切ったところが、元に戻っていたのです。",
+     "en": "The cut they made yesterday had returned to how it was.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 641.2,
+   "end": 670.2,
+   "title": "The Samurai's True Identity",
+   "level": "N5",
+   "topics": [
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜ていた — was doing / continuous past",
+    "〜のです — explanatory emphasis"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 641.5,
+     "end": 655.0,
+     "ja": "毎日、柳の下で会っていたあの侍。",
+     "en": "That samurai she had been meeting every day under the willow tree.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 657.2,
+     "end": 669.5,
+     "ja": "あの侍は、この柳の精だったのです。",
+     "en": "That samurai was the spirit of this willow tree.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "kuZdOc1CgBs",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,231 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 17.8,
+   "end": 41.5,
+   "title": "Getting Ready to Go Outside",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜なきゃ — must do",
+    "〜て — connecting verbs (and / then)",
+    "〜に〜がある — there is (something)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.0,
+     "end": 20.0,
+     "ja": "早く行かなきゃ。",
+     "en": "I have to get going soon.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 20.3,
+     "end": 22.8,
+     "ja": "ジャケットを着て、",
+     "en": "I put on my jacket,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 23.0,
+     "end": 29.5,
+     "ja": "ジャケットのファスナーを閉めます。",
+     "en": "and zip up the jacket's zipper.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 30.5,
+     "end": 34.2,
+     "ja": "ポケットにはティッシュがあります。",
+     "en": "There are tissues in the pocket.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 34.8,
+     "end": 36.5,
+     "ja": "ティッシュです。",
+     "en": "They are tissues.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 36.8,
+     "end": 41.0,
+     "ja": "ティッシュを持って行きます。",
+     "en": "I'll take the tissues with me.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 160.8,
+   "end": 193.5,
+   "title": "Gloves From the Pocket",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜てくる — come out / appear",
+    "〜をする — wear (accessories)",
+    "〜も — also / too"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 161.0,
+     "end": 162.0,
+     "ja": "ん？",
+     "en": "Huh?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 162.5,
+     "end": 166.5,
+     "ja": "ポケットがなんか変です。",
+     "en": "Something feels strange in my pocket.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 167.8,
+     "end": 169.0,
+     "ja": "え？",
+     "en": "Wait?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 169.2,
+     "end": 173.0,
+     "ja": "手袋が出てきました。",
+     "en": "Gloves came out.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 173.4,
+     "end": 175.4,
+     "ja": "手袋です。",
+     "en": "They're gloves.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 175.8,
+     "end": 178.8,
+     "ja": "グレーの手袋です。",
+     "en": "They are gray gloves.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 179.6,
+     "end": 183.6,
+     "ja": "右手に手袋をします。",
+     "en": "I put a glove on my right hand.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 185.0,
+     "end": 187.8,
+     "ja": "左手にもします。",
+     "en": "I put one on my left hand too.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 190.8,
+     "end": 193.2,
+     "ja": "ああ、あったかい。",
+     "en": "Ah, so warm.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 200.0,
+   "end": 227.5,
+   "title": "Putting on a Beanie",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜がほしい — to want (something)",
+    "〜をかぶる — to wear (on the head)",
+    "〜から — from"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 200.3,
+     "end": 202.3,
+     "ja": "ああ、頭も寒い。",
+     "en": "Ah, my head is cold too.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 202.8,
+     "end": 205.2,
+     "ja": "帽子がほしいな。",
+     "en": "I wish I had a hat.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 205.7,
+     "end": 207.6,
+     "ja": "帽子がほしい。",
+     "en": "I want a hat.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 208.5,
+     "end": 209.8,
+     "ja": "帽子？",
+     "en": "A hat?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 210.8,
+     "end": 211.8,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 212.5,
+     "end": 216.8,
+     "ja": "ポケットから帽子が出てきました。",
+     "en": "A hat came out of my pocket.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 217.2,
+     "end": 219.0,
+     "ja": "帽子です。",
+     "en": "It's a hat.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 219.6,
+     "end": 224.0,
+     "ja": "帽子を頭にかぶります。",
+     "en": "I put the hat on my head.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 225.2,
+     "end": 227.0,
+     "ja": "あったかい。",
+     "en": "It's warm.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "bjxDeTsyb4s",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

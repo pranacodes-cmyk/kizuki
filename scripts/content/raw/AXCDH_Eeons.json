@@ -1,0 +1,187 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 20.9,
+   "title": "Guess the Anime: Spirit Girl",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "〜じゃなくて — not A, but B",
+    "〜んです — explanatory emphasis"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 2.8,
+     "ja": "皆さん、こんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Host"
+    },
+    {
+     "start": 3.2,
+     "end": 7.5,
+     "ja": "皆さんはこのアニメ知っていますか？",
+     "en": "Do you all know this anime?",
+     "speaker": "Host"
+    },
+    {
+     "start": 8.4,
+     "end": 14.3,
+     "ja": "じゃ、このアニメは女の子が精霊です。",
+     "en": "Well, in this anime, the girl is a spirit.",
+     "speaker": "Host"
+    },
+    {
+     "start": 15.3,
+     "end": 20.4,
+     "ja": "そうですよ。人間じゃなくて精霊なんです。",
+     "en": "That's right. She's not human, she's a spirit.",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 45.4,
+   "end": 115.5,
+   "title": "Coming to Our World Causes Explosions",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜と — when/if",
+    "〜とき — when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 45.6,
+     "end": 49.7,
+     "ja": "そうすると、ちょっとやばいです。",
+     "en": "When that happens, it's pretty dangerous.",
+     "speaker": "Host"
+    },
+    {
+     "start": 50.0,
+     "end": 54.3,
+     "ja": "だって精霊の女の子が",
+     "en": "Because when the spirit girl",
+     "speaker": "Host"
+    },
+    {
+     "start": 54.7,
+     "end": 62.1,
+     "ja": "異世界からここの世界に来るとき、",
+     "en": "comes from the other world to our world,",
+     "speaker": "Host"
+    },
+    {
+     "start": 63.3,
+     "end": 66.5,
+     "ja": "爆発します。",
+     "en": "it causes an explosion.",
+     "speaker": "Host"
+    },
+    {
+     "start": 67.0,
+     "end": 68.8,
+     "ja": "やばいですよね。",
+     "en": "That's crazy, right?",
+     "speaker": "Host"
+    },
+    {
+     "start": 69.1,
+     "end": 73.6,
+     "ja": "いや、ちょっとやばいじゃなくてやばいです。",
+     "en": "No, not just a bit crazy, it's really crazy.",
+     "speaker": "Host"
+    },
+    {
+     "start": 73.7,
+     "end": 75.2,
+     "ja": "やばいですね。",
+     "en": "Pretty wild, huh.",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 218.6,
+   "end": 249.2,
+   "title": "How to Seal a Spirit's Power",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "romance"
+   ],
+   "grammar": [
+    "〜させる — causative form",
+    "〜こと — nominalizing a verb"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 218.8,
+     "end": 223.5,
+     "ja": "じゃ、主人公、プロタゴニストくんは",
+     "en": "So, how can the main character, the protagonist,",
+     "speaker": "Host"
+    },
+    {
+     "start": 223.7,
+     "end": 228.8,
+     "ja": "どうやって精霊の力を封印できる？",
+     "en": "seal the spirit's power?",
+     "speaker": "Host"
+    },
+    {
+     "start": 229.4,
+     "end": 230.9,
+     "ja": "どうやって？",
+     "en": "How?",
+     "speaker": "Host"
+    },
+    {
+     "start": 231.8,
+     "end": 234.4,
+     "ja": "うん。それはね、",
+     "en": "Well, you see...",
+     "speaker": "Host"
+    },
+    {
+     "start": 234.9,
+     "end": 240.7,
+     "ja": "精霊の女の子をデレさせること。",
+     "en": "It's by making the spirit girl fall head over heels for him.",
+     "speaker": "Host"
+    },
+    {
+     "start": 241.2,
+     "end": 246.0,
+     "ja": "皆さんは「デレデレ」って大丈夫ですか？分かりますか？",
+     "en": "Are you familiar with the term 'dere dere'? Do you know it?",
+     "speaker": "Host"
+    },
+    {
+     "start": 246.2,
+     "end": 248.8,
+     "ja": "「デレデレ」。これです。",
+     "en": "'Dere dere.' It's this.",
+     "speaker": "Host"
+    }
+   ]
+  }
+ ],
+ "videoId": "AXCDH_Eeons",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

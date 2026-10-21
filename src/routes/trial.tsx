@@ -121,7 +121,7 @@ function StepRemind({ onNext }: { onNext: () => void }) {
 }
 
 function StepPlans({ plan, setPlan, busy, onStart, onSkip }: { plan: "yearly" | "monthly"; setPlan: (p: "yearly" | "monthly") => void; busy: boolean; onStart: () => void; onSkip: () => void }) {
-  const perks = ["Unlimited clips, every level", "Tap any word for an explanation in context", "Smart reviews with the original audio", "Hiragana & katakana trainer", "Streaks, goals and progress stats"];
+  const perks = ["Unlimited clips, every level", "Tap any word for an explanation in context", "Unlimited questions to Kizuki, your AI tutor", "Smart reviews with the original audio", "Hiragana & katakana trainer", "Streaks, goals and progress stats"];
   return (
     <div className="flex flex-1 flex-col px-6">
       <div className="flex items-center gap-3 pt-2">

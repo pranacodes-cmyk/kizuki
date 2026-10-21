@@ -37,7 +37,10 @@ function Welcome() {
         <motion.p initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="mt-2 text-[2.75rem] font-black leading-none tracking-tight">
           kizuki
         </motion.p>
-        <motion.h1 initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }} className="mt-5 max-w-[300px] text-[1.5rem] font-extrabold leading-tight">
+        <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }} className="mt-1.5 text-[0.875rem] font-bold text-muted-foreground">
+          <span className="font-jp text-primary">気づき</span>&nbsp;&nbsp;·&nbsp;&nbsp;the moment it clicks
+        </motion.p>
+        <motion.h1 initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }} className="mt-3.5 max-w-[300px] text-[1.5rem] font-extrabold leading-tight">
           Done with textbooks? <span className="text-primary">Start understanding real Japanese.</span>
         </motion.h1>
         <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.35 }} className="mt-3 max-w-[290px] text-[0.9375rem] text-muted-foreground">

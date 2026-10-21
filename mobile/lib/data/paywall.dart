@@ -25,3 +25,6 @@ const trialTimeline = [
 
 /// Free learners can watch this many clips per day before the upgrade prompt.
 const freeDailyClips = 10;
+
+/// Free learners can ask Kizuki this many questions per day.
+const freeDailyAsks = 5;

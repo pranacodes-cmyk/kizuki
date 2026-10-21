@@ -8,7 +8,7 @@ Re-run build.ts afterwards to copy the notes into both clients.
 
 Usage: python3 scripts/content/explain.py [--workers 6] [--limit N]
 """
-import argparse, concurrent.futures as cf, json, os, time, urllib.request, urllib.error
+import argparse, concurrent.futures as cf, hashlib, json, os, time, urllib.request, urllib.error
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, "explain")
@@ -46,6 +46,12 @@ For every line write:
 - literal: a word-by-word literal English rendering (max 20 words).
 - tip: one short sentence (max 22 words) with the single most useful thing to notice in the line.
 Be accurate. If a word is a name, say so."""
+
+
+def token_sig(clip):
+    """Same fingerprint as tokenSig() in build.ts: notes are only valid for this word split."""
+    joined = "\n".join("|".join(w["s"] for w in l["words"]) for l in clip["lines"])
+    return hashlib.sha1(joined.encode("utf-8")).hexdigest()[:12]
 
 
 def clip_prompt(clip):
@@ -87,8 +93,11 @@ def stream(body):
 
 def work(clip):
     out = os.path.join(OUT, f"{clip['id']}.json")
+    sig = token_sig(clip)
     if os.path.exists(out):
-        return clip["id"], "cached"
+        cached = json.load(open(out, encoding="utf-8"))
+        if cached.get("sig", sig) == sig:
+            return clip["id"], "cached"
     body = {
         "model": MODEL,
         "instructions": INSTRUCTIONS,
@@ -104,7 +113,7 @@ def work(clip):
             data = json.loads(stream(body))
             words = {w["id"]: {"m": w["meaning"].strip(), "n": w["note"].strip()} for w in data["words"]}
             lines = {str(l["line"]): {"lit": l["literal"].strip(), "tip": l["tip"].strip()} for l in data["lines"]}
-            json.dump({"w": words, "l": lines}, open(out, "w", encoding="utf-8"), ensure_ascii=False)
+            json.dump({"sig": sig, "w": words, "l": lines}, open(out, "w", encoding="utf-8"), ensure_ascii=False)
             want = sum(1 for l in clip["lines"] for w in l["words"] if w["p"] != "punct")
             return clip["id"], f"ok {len(words)}/{want}"
         except urllib.error.HTTPError as e:

@@ -1,0 +1,184 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 21.0,
+   "end": 51.0,
+   "title": "Describing My Wooden Chair",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜くないです — negative of i-adjective",
+    "の — noun modifier (material/possession)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 21.4,
+     "end": 25.8,
+     "ja": "これは私の椅子です。",
+     "en": "This is my chair.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 26.7,
+     "end": 30.3,
+     "ja": "これは木の椅子です。",
+     "en": "This is a wooden chair.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 31.0,
+     "end": 37.7,
+     "ja": "そして、この椅子は新しくないです。",
+     "en": "And this chair is not new.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 38.2,
+     "end": 42.5,
+     "ja": "この椅子は新しくないです。",
+     "en": "This chair is not new.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 42.9,
+     "end": 44.2,
+     "ja": "古いです。",
+     "en": "It is old.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 44.3,
+     "end": 46.0,
+     "ja": "古い椅子です。",
+     "en": "It is an old chair.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 46.3,
+     "end": 50.5,
+     "ja": "これは木の古い椅子です。",
+     "en": "This is an old wooden chair.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 123.0,
+   "end": 151.0,
+   "title": "Things I Did in This Chair",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜て — connecting actions (te-form)",
+    "〜ました — polite past tense"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 123.5,
+     "end": 128.0,
+     "ja": "この椅子に座って、",
+     "en": "Sitting in this chair,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 128.6,
+     "end": 133.2,
+     "ja": "フランス語を勉強しました。",
+     "en": "I studied French.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 139.1,
+     "end": 143.9,
+     "ja": "この椅子に座って本を読みました。",
+     "en": "Sitting in this chair, I read books.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 144.3,
+     "end": 150.4,
+     "ja": "この椅子に座ってご飯を食べました。",
+     "en": "Sitting in this chair, I ate meals.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 257.3,
+   "end": 326.5,
+   "title": "The Parts of a Chair",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜があります — existence of inanimate objects",
+    "〜本 — counter for long, thin objects"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 257.6,
+     "end": 302.1,
+     "ja": "座るところがあります。",
+     "en": "There is a place to sit.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 302.3,
+     "end": 307.1,
+     "ja": "それから、これは背もたれです。",
+     "en": "And then, this is the backrest.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 307.2,
+     "end": 309.5,
+     "ja": "背もたれがあります。",
+     "en": "It has a backrest.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 309.6,
+     "end": 312.8,
+     "ja": "それから、足。",
+     "en": "And then, the legs.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 313.0,
+     "end": 319.4,
+     "ja": "足が1本、2本、3本、",
+     "en": "One leg, two legs, three legs,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 319.7,
+     "end": 323.0,
+     "ja": "3本、そして4本。",
+     "en": "three legs, and four legs.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 323.1,
+     "end": 326.1,
+     "ja": "4本、足があります。",
+     "en": "It has four legs.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "HHWDJMr-IRs",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}
