@@ -1,0 +1,204 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.6,
+   "end": 19.8,
+   "title": "Visiting Kurumaya Ramen for the First Time",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜てまいる — humble form of 来る / arrive",
+    "〜たいと思います — I would like to..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 3.2,
+     "ja": "こんにちは、さゆりんごです。",
+     "en": "Hello, this is Sayuringo.",
+     "speaker": "Sayuringo"
+    },
+    {
+     "start": 3.7,
+     "end": 9.1,
+     "ja": "さあ、というわけで、今日はですね、こちら「くるまやラーメン」さんにやってまいりました！",
+     "en": "Alright, so today I've come here to Kurumaya Ramen!",
+     "speaker": "Sayuringo"
+    },
+    {
+     "start": 9.6,
+     "end": 11.2,
+     "ja": "おー、嬉しい！",
+     "en": "Ooh, I'm so happy!",
+     "speaker": "Sayuringo"
+    },
+    {
+     "start": 11.2,
+     "end": 16.9,
+     "ja": "というわけで私、来るの初めてで来たかったので、楽しみたいと思います！",
+     "en": "It's my first time here and I've really wanted to visit, so I'm going to enjoy it!",
+     "speaker": "Sayuringo"
+    },
+    {
+     "start": 17.0,
+     "end": 19.6,
+     "ja": "それでは、レッツもぐもぐ！",
+     "en": "And now, let's start munching!",
+     "speaker": "Sayuringo"
+    }
+   ]
+  },
+  {
+   "start": 236.7,
+   "end": 248.5,
+   "title": "Ordering at the Ramen Shop",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜に — addition / together with",
+    "お願いします — please (requesting)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 237.0,
+     "end": 240.4,
+     "ja": "えーっとですね、この味噌バターコーンラーメンに、",
+     "en": "Um, with this miso butter corn ramen,",
+     "speaker": "Sayuringo"
+    },
+    {
+     "start": 240.5,
+     "end": 241.3,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 241.4,
+     "end": 243.6,
+     "ja": "辛みねぎ50g追加で、",
+     "en": "add 50g of spicy green onions,",
+     "speaker": "Sayuringo"
+    },
+    {
+     "start": 243.7,
+     "end": 244.4,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 244.4,
+     "end": 245.3,
+     "ja": "餃子、",
+     "en": "gyoza,",
+     "speaker": "Sayuringo"
+    },
+    {
+     "start": 245.3,
+     "end": 246.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 246.0,
+     "end": 247.3,
+     "ja": "味噌味豚そぼろ丼。",
+     "en": "and the miso minced pork bowl.",
+     "speaker": "Sayuringo"
+    },
+    {
+     "start": 247.4,
+     "end": 248.3,
+     "ja": "お願いします。",
+     "en": "Please.",
+     "speaker": "Sayuringo"
+    }
+   ]
+  },
+  {
+   "start": 532.8,
+   "end": 550.0,
+   "title": "Trying Manager's Natto Miso Ramen",
+   "level": "N3",
+   "topics": [
+    "food",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜ていただく — receive the favor of doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 533.0,
+     "end": 535.1,
+     "ja": "納豆、ちょっと食べてみます？",
+     "en": "Do you want to try some of the natto?",
+     "speaker": "Manager"
+    },
+    {
+     "start": 535.4,
+     "end": 536.8,
+     "ja": "確かに。",
+     "en": "Good idea.",
+     "speaker": "Sayuringo"
+    },
+    {
+     "start": 537.1,
+     "end": 538.9,
+     "ja": "はい、ここでちょっと番外編。",
+     "en": "Okay, here's a quick side story.",
+     "speaker": "Sayuringo"
+    },
+    {
+     "start": 539.0,
+     "end": 543.0,
+     "ja": "こちらはマネージャーさんの納豆味噌ラーメンでございます。",
+     "en": "This is my manager's natto miso ramen.",
+     "speaker": "Sayuringo"
+    },
+    {
+     "start": 543.8,
+     "end": 545.1,
+     "ja": "すごいビジュ…",
+     "en": "What a visual...",
+     "speaker": "Sayuringo"
+    },
+    {
+     "start": 545.2,
+     "end": 547.0,
+     "ja": "納豆がどーんと乗っております。",
+     "en": "A huge heap of natto is piled right on top.",
+     "speaker": "Sayuringo"
+    },
+    {
+     "start": 547.1,
+     "end": 549.9,
+     "ja": "こちらを先に味見させていただきたいと思います。",
+     "en": "I'd like to have a quick taste of this first.",
+     "speaker": "Sayuringo"
+    }
+   ]
+  }
+ ],
+ "videoId": "Fvr4cZCkW6w",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

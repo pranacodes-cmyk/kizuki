@@ -1,0 +1,76 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.8,
+   "end": 27.5,
+   "title": "A World Full of Lies",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "work"
+   ],
+   "grammar": [
+    "〜だらけ — full of",
+    "〜させる — causative form"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 12.0,
+     "end": 13.6,
+     "ja": "この業界、嘘だらけなんじゃないの？",
+     "en": "Isn't this industry full of lies?",
+     "speaker": "Sena"
+    },
+    {
+     "start": 13.6,
+     "end": 14.8,
+     "ja": "嘘だらけ？",
+     "en": "Full of lies?",
+     "speaker": "Chitose"
+    },
+    {
+     "start": 15.0,
+     "end": 17.6,
+     "ja": "芸能界ってね、ほんのひと時 現実を忘れさせ、",
+     "en": "Show business, you see, lets people forget reality for just a moment,",
+     "speaker": "Boss"
+    },
+    {
+     "start": 17.6,
+     "end": 19.8,
+     "ja": "嘘の魔法でみんなを幸せにする。",
+     "en": "and makes everyone happy with the magic of lies.",
+     "speaker": "Boss"
+    },
+    {
+     "start": 20.0,
+     "end": 22.8,
+     "ja": "あなたが、あの、藤代瀬那？",
+     "en": "Are you... Fujishiro Sena?",
+     "speaker": "Chitose"
+    },
+    {
+     "start": 23.5,
+     "end": 24.8,
+     "ja": "会いたかったよ。",
+     "en": "I wanted to see you.",
+     "speaker": "Sena"
+    },
+    {
+     "start": 25.0,
+     "end": 27.3,
+     "ja": "何でも信じてくれる、ちーちゃん。",
+     "en": "Chi-chan, who believes everything I say.",
+     "speaker": "Sena"
+    }
+   ]
+  }
+ ],
+ "videoId": "SsMqg5FsSSc",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

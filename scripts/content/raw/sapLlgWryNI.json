@@ -1,0 +1,219 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.0,
+   "end": 24.8,
+   "title": "What Song Are You Listening to Now? Part 1",
+   "level": "N3",
+   "topics": [
+    "music",
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜てます — ongoing action (contracted 〜ています)",
+    "〜てもいい — asking permission",
+    "〜み — suffix turning adjective/noun into quality"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.0,
+     "end": 1.2,
+     "ja": "お姉さん！すみません！",
+     "en": "Excuse me, miss!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 1.2,
+     "end": 3.0,
+     "ja": "今何聴いてますか？",
+     "en": "What song are you listening to right now?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 3.0,
+     "end": 6.3,
+     "ja": "あ、今「曖昧me mine」って曲聴いてます。",
+     "en": "Oh, right now I'm listening to a song called Aimai me mine.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 6.3,
+     "end": 7.7,
+     "ja": "見せてもらってもいいですか？",
+     "en": "May I take a look?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 7.7,
+     "end": 9.0,
+     "ja": "これです。",
+     "en": "Here it is.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 10.0,
+     "end": 13.0,
+     "ja": "ありがとうございます。この曲の好きなポイントは何ですか？",
+     "en": "Thank you. What do you like about this song?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 13.0,
+     "end": 16.7,
+     "ja": "えっと、なんか最近私の中でRADWIMPSがきてて、",
+     "en": "Um, lately I've been really into RADWIMPS,",
+     "speaker": "Girl"
+    },
+    {
+     "start": 16.7,
+     "end": 19.8,
+     "ja": "タイトルの付け方とか、曲の冒頭の入り方とか、",
+     "en": "and the way it's titled and how the song kicks off,",
+     "speaker": "Girl"
+    },
+    {
+     "start": 19.8,
+     "end": 23.2,
+     "ja": "RADWIMPSみ感じるなみたいな感じで、今ハマってる曲です。",
+     "en": "gives off a RADWIMPS vibe, so I'm really hooked on it right now.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 23.2,
+     "end": 24.6,
+     "ja": "ありがとうございます！",
+     "en": "Thank you!",
+     "speaker": "Interviewer"
+    }
+   ]
+  },
+  {
+   "start": 27.0,
+   "end": 42.5,
+   "title": "What Song Are You Listening to Now? Part 2",
+   "level": "N4",
+   "topics": [
+    "music",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜という — called / named",
+    "〜てます — ongoing action (contracted 〜ています)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 27.0,
+     "end": 28.0,
+     "ja": "お姉さんすみません！",
+     "en": "Excuse me, miss!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 28.0,
+     "end": 29.8,
+     "ja": "今、何聴いてますか？",
+     "en": "What are you listening to right now?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 30.0,
+     "end": 34.2,
+     "ja": "えっと、the奥歯'sの「デスキス」っていうの聴いてます。",
+     "en": "Um, I'm listening to Desukisu by the Okuba's.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 34.5,
+     "end": 37.5,
+     "ja": "ありがとうございます！この曲の好きなところは何ですか？",
+     "en": "Thank you! What do you like about this song?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 37.7,
+     "end": 40.8,
+     "ja": "ボーカルの声が好きで、よく聴いてます。",
+     "en": "I love the vocalist's voice, so I listen to it a lot.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 41.0,
+     "end": 42.3,
+     "ja": "ありがとうございます！",
+     "en": "Thank you!",
+     "speaker": "Interviewer"
+    }
+   ]
+  },
+  {
+   "start": 43.8,
+   "end": 59.0,
+   "title": "What Song Are You Listening to Now? Part 3",
+   "level": "N4",
+   "topics": [
+    "music",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜てます — ongoing action (contracted 〜ています)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 43.8,
+     "end": 45.0,
+     "ja": "お姉さんすみません！",
+     "en": "Excuse me, miss!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 45.0,
+     "end": 46.4,
+     "ja": "今、何聴いてますか？",
+     "en": "What are you listening to right now?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 46.5,
+     "end": 47.9,
+     "ja": "あ、今ですか？",
+     "en": "Oh, right now?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 47.9,
+     "end": 50.5,
+     "ja": "ピストン少女の「ノンノンノン」聴いてます。",
+     "en": "I'm listening to Non Non Non by Piston Shoujo.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 50.7,
+     "end": 52.2,
+     "ja": "これです！",
+     "en": "This is it!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 54.0,
+     "end": 58.7,
+     "ja": "なんかアップテンポで、ボーカルの声がめっちゃ可愛いので好きです！",
+     "en": "It's upbeat, and the vocalist's voice is super cute, so I like it!",
+     "speaker": "Girl"
+    }
+   ]
+  }
+ ],
+ "videoId": "sapLlgWryNI",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

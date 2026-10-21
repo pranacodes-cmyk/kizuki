@@ -1,0 +1,177 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 9.3,
+   "end": 28.0,
+   "title": "A Vlog-Style Kyoto Trip",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜風に — in the style of",
+    "〜てみる — try doing",
+    "〜気分で — in the mood of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.3,
+     "end": 12.4,
+     "ja": "今日はどんな動画かと言いますと、",
+     "en": "If you're wondering what kind of video this is today,",
+     "speaker": "Minami"
+    },
+    {
+     "start": 12.5,
+     "end": 16.4,
+     "ja": "「旅サラダ」さんで京都のロケをさせていただいたときに、",
+     "en": "when I got to shoot a location shoot in Kyoto for Tabi Salad,",
+     "speaker": "Minami"
+    },
+    {
+     "start": 16.5,
+     "end": 20.4,
+     "ja": "ちょっとした裏側なんかでカメラを回したので、その様子を",
+     "en": "I turned on the camera behind the scenes, and I compiled it",
+     "speaker": "Minami"
+    },
+    {
+     "start": 20.5,
+     "end": 23.7,
+     "ja": "やってみたかったVlog風にまとめましたので、ぜひ",
+     "en": "into a vlog style, which I've wanted to try doing, so please,",
+     "speaker": "Minami"
+    },
+    {
+     "start": 23.8,
+     "end": 27.7,
+     "ja": "皆さん、一緒に京都を旅してる気分で楽しんでください！",
+     "en": "everyone, enjoy it as if you're traveling Kyoto together with me!",
+     "speaker": "Minami"
+    }
+   ]
+  },
+  {
+   "start": 441.0,
+   "end": 501.3,
+   "title": "Cotton Candy Warning on Rainy Days",
+   "level": "N3",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜たい — want to",
+    "〜てしまう — unintentionally do / regret",
+    "〜になる — become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 441.2,
+     "end": 444.2,
+     "ja": "皆さんに注意したいことがあります。",
+     "en": "There is a warning I want to give everyone.",
+     "speaker": "Minami"
+    },
+    {
+     "start": 444.4,
+     "end": 448.0,
+     "ja": "雨の日の綿あめは溶けます。",
+     "en": "Cotton candy on a rainy day melts.",
+     "speaker": "Minami"
+    },
+    {
+     "start": 448.7,
+     "end": 452.0,
+     "ja": "湿気でベロベロになりました、綿あめが。",
+     "en": "The cotton candy got completely mushy from the humidity.",
+     "speaker": "Minami"
+    },
+    {
+     "start": 452.1,
+     "end": 456.2,
+     "ja": "これね、口にも浴衣にもついて迷惑をかけてしまったんですけども、",
+     "en": "It got on my mouth and my yukata, causing trouble for people, but",
+     "speaker": "Minami"
+    },
+    {
+     "start": 456.3,
+     "end": 501.0,
+     "ja": "この浴衣がなんと汚れがすぐ弾く仕様になってたので助かりました。",
+     "en": "this yukata happened to be stain-repellent, which really saved me.",
+     "speaker": "Minami"
+    }
+   ]
+  },
+  {
+   "start": 376.5,
+   "end": 398.8,
+   "title": "Nervous About Kaiseki Etiquette",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜っていうこと — the fact that",
+    "〜すぎる — too much / excessively",
+    "〜たくない — do not want to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 376.7,
+     "end": 381.0,
+     "ja": "ね、何となく回すっていうことは知ってるんですけどね。",
+     "en": "I know you're supposed to turn the bowl somehow, though.",
+     "speaker": "Minami"
+    },
+    {
+     "start": 381.1,
+     "end": 385.5,
+     "ja": "それでこれ「どうしたらいいの大将？どうしたら？」ね、",
+     "en": "So I'm wondering, \"Chef, what should I do? What should I do?\"",
+     "speaker": "Minami"
+    },
+    {
+     "start": 385.6,
+     "end": 388.0,
+     "ja": "「あ、どうしたら？」っていうね。",
+     "en": "Like, \"Ah, what should I do?\"",
+     "speaker": "Minami"
+    },
+    {
+     "start": 388.1,
+     "end": 390.3,
+     "ja": "チラチラ見て探ってますね。",
+     "en": "I'm glancing over, feeling my way through it.",
+     "speaker": "Minami"
+    },
+    {
+     "start": 390.4,
+     "end": 395.0,
+     "ja": "結構私の性格的に怒られたくない、失敗したくないっていうのが強いので、",
+     "en": "My personality makes me strongly want to avoid being scolded or messing up,",
+     "speaker": "Minami"
+    },
+    {
+     "start": 395.1,
+     "end": 398.4,
+     "ja": "様子を伺いすぎてるっていう。",
+     "en": "so I ended up over-analyzing everything.",
+     "speaker": "Minami"
+    }
+   ]
+  }
+ ],
+ "videoId": "DzQ9Tu37yqg",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

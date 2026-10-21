@@ -1,0 +1,264 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 251.8,
+   "end": 284.8,
+   "title": "Have You Ever Been to Hokkaido?",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜たことがある — have the experience of",
+    "〜か〜 — or"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 252.5,
+     "end": 255.5,
+     "ja": "北海道に行ったことがありますか？",
+     "en": "Have you ever been to Hokkaido?",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 255.7,
+     "end": 257.0,
+     "ja": "あります。",
+     "en": "Yes, I have.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 257.2,
+     "end": 260.6,
+     "ja": "3回、行ったことがあります。",
+     "en": "I've been there three times.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 261.8,
+     "end": 264.5,
+     "ja": "Yukiさんは行ったことがありますか？",
+     "en": "Have you been there, Yuki?",
+     "speaker": "Ken"
+    },
+    {
+     "start": 265.1,
+     "end": 269.5,
+     "ja": "うん。私も2回か3回、行ったことがあります。",
+     "en": "Yeah. I've been there two or three times too.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 269.8,
+     "end": 270.9,
+     "ja": "いいですね。",
+     "en": "Nice.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 271.5,
+     "end": 274.3,
+     "ja": "北海道で何を食べましたか？",
+     "en": "What did you eat in Hokkaido?",
+     "speaker": "Ken"
+    },
+    {
+     "start": 274.9,
+     "end": 277.5,
+     "ja": "かにを食べました。美味しいですね。",
+     "en": "I ate crab. It was delicious.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 278.9,
+     "end": 280.5,
+     "ja": "美味しいですね。",
+     "en": "It sure is delicious.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 280.6,
+     "end": 284.0,
+     "ja": "北海道は美味しいものがたくさんありますね。",
+     "en": "Hokkaido has so much delicious food.",
+     "speaker": "Yuki"
+    }
+   ]
+  },
+  {
+   "start": 683.0,
+   "end": 711.5,
+   "title": "What's Your Favorite Japanese Food?",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜といえば — speaking of",
+    "もちろん — of course"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 683.6,
+     "end": 687.0,
+     "ja": "好きな日本の食べ物は何ですか？",
+     "en": "What is your favorite Japanese food?",
+     "speaker": "Ken"
+    },
+    {
+     "start": 687.5,
+     "end": 689.5,
+     "ja": "日本の食べ物？",
+     "en": "Japanese food?",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 691.5,
+     "end": 694.5,
+     "ja": "ええっとね、ラーメンです！",
+     "en": "Let's see... ramen!",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 695.0,
+     "end": 696.5,
+     "ja": "ラーメン、いいですね！",
+     "en": "Ramen, nice!",
+     "speaker": "Ken"
+    },
+    {
+     "start": 696.7,
+     "end": 698.5,
+     "ja": "ラーメン、大好きです！",
+     "en": "I love ramen!",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 700.0,
+     "end": 702.2,
+     "ja": "何ラーメンが好きですか？",
+     "en": "What kind of ramen do you like?",
+     "speaker": "Ken"
+    },
+    {
+     "start": 702.4,
+     "end": 705.0,
+     "ja": "それはもちろん、豚骨ラーメン！",
+     "en": "Tonkotsu ramen, of course!",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 705.2,
+     "end": 706.8,
+     "ja": "あ、そうですか！",
+     "en": "Oh, is that so!",
+     "speaker": "Ken"
+    },
+    {
+     "start": 707.3,
+     "end": 710.4,
+     "ja": "福岡といえば、豚骨ラーメンです。",
+     "en": "Speaking of Fukuoka, it's tonkotsu ramen.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 710.5,
+     "end": 711.5,
+     "ja": "いいですね。",
+     "en": "Sounds good.",
+     "speaker": "Ken"
+    }
+   ]
+  },
+  {
+   "start": 793.0,
+   "end": 823.0,
+   "title": "What Do You Do on Sunny Days?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜の時 — when / at the time of",
+    "〜たら — if / when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 793.5,
+     "end": 796.0,
+     "ja": "晴れの時、何をしますか？",
+     "en": "What do you do when it's sunny?",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 796.4,
+     "end": 797.9,
+     "ja": "散歩に行きます。",
+     "en": "I go for a walk.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 798.0,
+     "end": 799.8,
+     "ja": "うーん、いいですね！",
+     "en": "Mm, that's nice!",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 800.6,
+     "end": 802.5,
+     "ja": "僕はよく散歩をします。",
+     "en": "I often take walks.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 802.6,
+     "end": 804.0,
+     "ja": "Yukiさんはどうですか？",
+     "en": "How about you, Yuki?",
+     "speaker": "Ken"
+    },
+    {
+     "start": 807.0,
+     "end": 809.5,
+     "ja": "晴れの時、何をしますか？",
+     "en": "What do you do when it's sunny?",
+     "speaker": "Ken"
+    },
+    {
+     "start": 812.0,
+     "end": 815.2,
+     "ja": "休みの日、土曜日とか日曜日、",
+     "en": "On days off, like Saturdays or Sundays,",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 815.4,
+     "end": 820.5,
+     "ja": "晴れだったら、娘と公園に行きます。",
+     "en": "if it's sunny, I go to the park with my daughter.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 821.0,
+     "end": 822.7,
+     "ja": "あ〜、いいですね！",
+     "en": "Ah, that's great!",
+     "speaker": "Ken"
+    }
+   ]
+  }
+ ],
+ "videoId": "_aCjA73ZyF4",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

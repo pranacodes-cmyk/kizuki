@@ -1,0 +1,192 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 81.0,
+   "end": 103.5,
+   "title": "Look for Hints on Screen",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ておく — do in advance",
+    "〜ならず — failing to do",
+    "〜にされる — passive form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 81.2,
+     "end": 83.7,
+     "ja": "あんたちゃんと見ときなよ。",
+     "en": "You better keep your eyes peeled.",
+     "speaker": "Person on left"
+    },
+    {
+     "start": 84.0,
+     "end": 87.7,
+     "ja": "画面上には必ず攻略のヒントが隠されてる。",
+     "en": "There's always a strategy hint hidden on the screen.",
+     "speaker": "Person on left"
+    },
+    {
+     "start": 89.0,
+     "end": 92.7,
+     "ja": "だけどさ、ゾンビに噛まれたらまた最初からやり直しだよ？",
+     "en": "Yeah, but if a zombie bites me, I have to start over from the beginning!",
+     "speaker": "Player"
+    },
+    {
+     "start": 92.7,
+     "end": 95.0,
+     "ja": "そら慎重にもなるって。",
+     "en": "Of course I'm being careful.",
+     "speaker": "Player"
+    },
+    {
+     "start": 95.3,
+     "end": 99.5,
+     "ja": "大丈夫。さっきセーブポイントでセーブしといた。",
+     "en": "Don't worry. I saved earlier at the save point.",
+     "speaker": "Person on left"
+    },
+    {
+     "start": 100.8,
+     "end": 102.8,
+     "ja": "いつの間に！？",
+     "en": "When did you do that?!",
+     "speaker": "Player"
+    }
+   ]
+  },
+  {
+   "start": 321.8,
+   "end": 351.0,
+   "title": "That's Not a Zombie",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜前に — before doing",
+    "〜てある — state resulting from action",
+    "〜ではなくて — not A but B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 322.2,
+     "end": 326.5,
+     "ja": "この廃病院に入る前に、看板があったの、あんた覚えてる？",
+     "en": "Before entering this abandoned hospital, do you remember seeing a sign?",
+     "speaker": "Person on left"
+    },
+    {
+     "start": 327.0,
+     "end": 330.0,
+     "ja": "看板？あ、覚えてる。",
+     "en": "A sign? Ah, I remember.",
+     "speaker": "Player"
+    },
+    {
+     "start": 330.5,
+     "end": 332.5,
+     "ja": "その看板には何て書いてあった？",
+     "en": "What did that sign say?",
+     "speaker": "Person on left"
+    },
+    {
+     "start": 333.2,
+     "end": 337.8,
+     "ja": "えーっと、あ、耳鼻科のみ、まだ営業中。",
+     "en": "Umm, ah, 'Only ENT clinic still open.'",
+     "speaker": "Player"
+    },
+    {
+     "start": 340.5,
+     "end": 346.5,
+     "ja": "つまりあれは、ゾンビではなくて、中耳炎を患った患者さん。",
+     "en": "In other words, that's not a zombie, it's a patient suffering from an ear infection.",
+     "speaker": "Person on left"
+    },
+    {
+     "start": 347.3,
+     "end": 350.5,
+     "ja": "だから顔色悪いんだ！",
+     "en": "That's why their complexion looked so bad!",
+     "speaker": "Player"
+    }
+   ]
+  },
+  {
+   "start": 459.8,
+   "end": 482.5,
+   "title": "Singing Contest Results",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "そういえば — speaking of which",
+    "〜てやがる — express contempt/annoyance",
+    "〜ならず — failure to achieve"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 460.0,
+     "end": 461.5,
+     "ja": "あんたそういえばさ、",
+     "en": "Come to think of it,",
+     "speaker": "Player"
+    },
+    {
+     "start": 461.8,
+     "end": 463.8,
+     "ja": "のど自慢大会どうだった？",
+     "en": "how did the singing contest go?",
+     "speaker": "Player"
+    },
+    {
+     "start": 464.7,
+     "end": 467.0,
+     "ja": "惜しくも銀賞。",
+     "en": "Sadly, just silver prize.",
+     "speaker": "Person on left"
+    },
+    {
+     "start": 467.7,
+     "end": 470.4,
+     "ja": "ええ？３連覇ならず？",
+     "en": "What? No three-peat?",
+     "speaker": "Player"
+    },
+    {
+     "start": 471.5,
+     "end": 475.0,
+     "ja": "調布のビヨンセが出てきやがった。",
+     "en": "The 'Beyoncé of Chofu' showed up.",
+     "speaker": "Person on left"
+    },
+    {
+     "start": 476.2,
+     "end": 481.5,
+     "ja": "頑張れ、永福町のウーピー・ゴールドバーグ。",
+     "en": "Hang in there, Whoopi Goldberg of Eifukucho.",
+     "speaker": "Player"
+    }
+   ]
+  }
+ ],
+ "videoId": "tPCJShwugnY",
+ "pickTopics": [
+  "fun",
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

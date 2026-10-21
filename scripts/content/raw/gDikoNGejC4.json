@@ -1,0 +1,311 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 17.3,
+   "end": 49.0,
+   "title": "A Loud Greeting at Reception",
+   "level": "N4",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "んじゃない — isn't it / shouldn't you",
+    "〜ていただく — humbly receive an action",
+    "〜と申します — my name is (humble)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.3,
+     "end": 19.4,
+     "ja": "おはようございます。あの…",
+     "en": "Good morning. Um...",
+     "speaker": "Kamimura"
+    },
+    {
+     "start": 19.4,
+     "end": 20.9,
+     "ja": "おはよう！",
+     "en": "Good morning!",
+     "speaker": "Senior"
+    },
+    {
+     "start": 20.9,
+     "end": 23.0,
+     "ja": "声が小さいんじゃないのかい？",
+     "en": "Isn't your voice a bit too quiet?",
+     "speaker": "Senior"
+    },
+    {
+     "start": 23.0,
+     "end": 24.3,
+     "ja": "お、おはようございます！",
+     "en": "G-good morning!",
+     "speaker": "Kamimura"
+    },
+    {
+     "start": 24.3,
+     "end": 25.4,
+     "ja": "もっと！",
+     "en": "Louder!",
+     "speaker": "Senior"
+    },
+    {
+     "start": 25.4,
+     "end": 26.6,
+     "ja": "おはようございます！",
+     "en": "Good morning!",
+     "speaker": "Kamimura"
+    },
+    {
+     "start": 26.6,
+     "end": 27.6,
+     "ja": "もっと！",
+     "en": "Louder!",
+     "speaker": "Senior"
+    },
+    {
+     "start": 27.6,
+     "end": 28.8,
+     "ja": "おはようございます！",
+     "en": "Good morning!",
+     "speaker": "Kamimura"
+    },
+    {
+     "start": 28.8,
+     "end": 30.2,
+     "ja": "おはよう！",
+     "en": "Good morning!",
+     "speaker": "Senior"
+    },
+    {
+     "start": 30.2,
+     "end": 32.4,
+     "ja": "声大きい…！あの…",
+     "en": "His voice is so loud...! Um...",
+     "speaker": "Kamimura"
+    },
+    {
+     "start": 33.3,
+     "end": 36.5,
+     "ja": "あんたは誰だい？自己紹介くらいできんだろ？",
+     "en": "Who are you? You can at least introduce yourself, right?",
+     "speaker": "Senior"
+    },
+    {
+     "start": 37.8,
+     "end": 40.8,
+     "ja": "本日からこちらの会社の受付嬢…",
+     "en": "Starting today, as a receptionist at this company...",
+     "speaker": "Kamimura"
+    },
+    {
+     "start": 40.8,
+     "end": 42.1,
+     "ja": "声が小さい！",
+     "en": "Too quiet!",
+     "speaker": "Senior"
+    },
+    {
+     "start": 42.1,
+     "end": 48.8,
+     "ja": "本日からこちらの会社の受付嬢として働かせていただくことになりました、上村と申します！",
+     "en": "Starting today, I will be working as a receptionist at this company. My name is Kamimura!",
+     "speaker": "Kamimura"
+    }
+   ]
+  },
+  {
+   "start": 160.5,
+   "end": 192.5,
+   "title": "Lecturing the Company President",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜しな — do (casual imperative)",
+    "〜たって — even if",
+    "〜ずに — without doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 160.7,
+     "end": 162.2,
+     "ja": "しっかり挨拶しな。",
+     "en": "Greet people properly.",
+     "speaker": "Senior"
+    },
+    {
+     "start": 162.2,
+     "end": 164.7,
+     "ja": "みんな見てるよ。評判悪くなる前に、",
+     "en": "Everyone is watching. Before your reputation suffers,",
+     "speaker": "Senior"
+    },
+    {
+     "start": 164.7,
+     "end": 167.0,
+     "ja": "あたしに挨拶しな！",
+     "en": "say hello to me!",
+     "speaker": "Senior"
+    },
+    {
+     "start": 167.0,
+     "end": 169.5,
+     "ja": "社長になったってなぁ、人に挨拶、",
+     "en": "Even if you became the president, greet people,",
+     "speaker": "Senior"
+    },
+    {
+     "start": 169.7,
+     "end": 172.5,
+     "ja": "そして動物に挨拶！",
+     "en": "and greet animals!",
+     "speaker": "Senior"
+    },
+    {
+     "start": 174.5,
+     "end": 177.0,
+     "ja": "全ての物に挨拶！",
+     "en": "Greet everything!",
+     "speaker": "Senior"
+    },
+    {
+     "start": 178.0,
+     "end": 180.5,
+     "ja": "森羅万象！",
+     "en": "All creation!",
+     "speaker": "Senior"
+    },
+    {
+     "start": 181.5,
+     "end": 184.2,
+     "ja": "天上天下、唯我独尊！",
+     "en": "Above heaven and below heaven, I alone am honored!",
+     "speaker": "Senior"
+    },
+    {
+     "start": 184.2,
+     "end": 186.2,
+     "ja": "全ての物に感謝、",
+     "en": "Show gratitude to all things,",
+     "speaker": "Senior"
+    },
+    {
+     "start": 186.2,
+     "end": 188.0,
+     "ja": "挨拶を忘れずに！",
+     "en": "and don't forget to greet them!",
+     "speaker": "Senior"
+    },
+    {
+     "start": 188.8,
+     "end": 191.0,
+     "ja": "分かったら仕事しな！",
+     "en": "Once you understand that, get to work!",
+     "speaker": "Senior"
+    }
+   ]
+  },
+  {
+   "start": 381.0,
+   "end": 412.5,
+   "title": "The Company's Midfielder",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy",
+    "sports"
+   ],
+   "grammar": [
+    "〜ないと — must do (short for 〜ないといけない)",
+    "〜みたいなもん — something like / akin to",
+    "〜わけ — that is why / the meaning is"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 381.5,
+     "end": 386.4,
+     "ja": "あの、今の場合って、その、内線でこう呼んだりとかっていう…",
+     "en": "Um, in a case like that, couldn't you call them on the intercom...?",
+     "speaker": "Kamimura"
+    },
+    {
+     "start": 386.4,
+     "end": 388.0,
+     "ja": "ああ、そんなのめんどくせえでしょ！",
+     "en": "Ah, that's just a pain, right?!",
+     "speaker": "Senior"
+    },
+    {
+     "start": 388.0,
+     "end": 391.0,
+     "ja": "この取って、プルルって回すあの時間が。",
+     "en": "Picking it up, turning the dial, all that wasted time.",
+     "speaker": "Senior"
+    },
+    {
+     "start": 391.5,
+     "end": 395.4,
+     "ja": "短縮しないと。受付嬢は全て短縮！わかる？",
+     "en": "We must cut down time. Receptionists cut everything down! Get it?",
+     "speaker": "Senior"
+    },
+    {
+     "start": 395.7,
+     "end": 396.7,
+     "ja": "あ、はい！",
+     "en": "Ah, yes!",
+     "speaker": "Kamimura"
+    },
+    {
+     "start": 396.7,
+     "end": 398.8,
+     "ja": "ここで全部判断する。",
+     "en": "I make all the judgments right here.",
+     "speaker": "Senior"
+    },
+    {
+     "start": 398.8,
+     "end": 401.0,
+     "ja": "私が全てパスを出すわけ。",
+     "en": "Meaning, I pass to everyone.",
+     "speaker": "Senior"
+    },
+    {
+     "start": 401.0,
+     "end": 403.9,
+     "ja": "ミッドフィルダーみたいなもんよ、この会社の！",
+     "en": "I'm basically like the midfielder of this company!",
+     "speaker": "Senior"
+    },
+    {
+     "start": 404.0,
+     "end": 406.3,
+     "ja": "そういうポジションなんですね。",
+     "en": "Oh, so that's the kind of position it is.",
+     "speaker": "Kamimura"
+    },
+    {
+     "start": 406.3,
+     "end": 412.0,
+     "ja": "そうよ！私が、この会社の中村俊輔だ！",
+     "en": "That's right! I am the Shunsuke Nakamura of this company!",
+     "speaker": "Senior"
+    }
+   ]
+  }
+ ],
+ "videoId": "gDikoNGejC4",
+ "pickTopics": [
+  "fun",
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,208 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 803.0,
+   "end": 827.0,
+   "title": "Sculpture of Buddha's Birth",
+   "level": "N3",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜ていただく — receiving an action",
+    "〜ている — ongoing state"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 803.3,
+     "end": 806.5,
+     "ja": "この脇のところを見ていただくと、",
+     "en": "If you take a look at her side here,",
+     "speaker": "Guide"
+    },
+    {
+     "start": 806.8,
+     "end": 808.5,
+     "ja": "あ、なんかいますね。",
+     "en": "Oh, there's something there.",
+     "speaker": "Man"
+    },
+    {
+     "start": 808.8,
+     "end": 811.8,
+     "ja": "はい。合掌して、頭と手が、",
+     "en": "Yes. With hands pressed in prayer, the head and hands...",
+     "speaker": "Guide"
+    },
+    {
+     "start": 811.9,
+     "end": 813.2,
+     "ja": "あ、すごい。",
+     "en": "Oh, wow.",
+     "speaker": "Man"
+    },
+    {
+     "start": 813.3,
+     "end": 819.5,
+     "ja": "摩耶夫人の脇からお釈迦様が生まれている様子を表した、",
+     "en": "It depicts the Buddha being born from Lady Maya's side,",
+     "speaker": "Guide"
+    },
+    {
+     "start": 819.8,
+     "end": 821.5,
+     "ja": "へえー。",
+     "en": "Whoa.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 822.0,
+     "end": 824.0,
+     "ja": "すごいところから…",
+     "en": "From such an incredible spot...",
+     "speaker": "Man"
+    },
+    {
+     "start": 824.2,
+     "end": 826.5,
+     "ja": "生まれてきました、今まさに。",
+     "en": "He has just been born, right at this moment.",
+     "speaker": "Guide"
+    }
+   ]
+  },
+  {
+   "start": 915.0,
+   "end": 926.0,
+   "title": "Tree Stump Test Ride",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜たりして — doing things like",
+    "〜という — called / saying that"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 915.5,
+     "end": 917.7,
+     "ja": "切り株の試乗会っていうのを…",
+     "en": "A test ride event for tree stumps...",
+     "speaker": "Man 1"
+    },
+    {
+     "start": 917.8,
+     "end": 920.0,
+     "ja": "切り株の試乗会なんですね。",
+     "en": "A tree stump test ride, is it?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 920.1,
+     "end": 921.1,
+     "ja": "へえー。",
+     "en": "Huh.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 921.2,
+     "end": 923.0,
+     "ja": "子どもたちがいっぱい乗ったりしてて。",
+     "en": "Lots of kids have been riding on it.",
+     "speaker": "Man 1"
+    },
+    {
+     "start": 923.1,
+     "end": 924.5,
+     "ja": "ああ、いいですね。",
+     "en": "Oh, that's lovely.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 924.6,
+     "end": 925.8,
+     "ja": "へえー。",
+     "en": "Wow.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 1090.0,
+   "end": 1109.0,
+   "title": "Curious About the Shopping Bag",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜のかしら — I wonder if",
+    "〜ね — seeking agreement"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 1090.5,
+     "end": 1092.3,
+     "ja": "嬉しい、お買い物。",
+     "en": "So happy with the shopping.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 1092.5,
+     "end": 1094.8,
+     "ja": "あ、気になるのね、オイルが。",
+     "en": "Oh, you're curious about the oil, aren't you?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 1095.0,
+     "end": 1097.0,
+     "ja": "オイルが気になるのかしら。",
+     "en": "I wonder if she's interested in the oil.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 1097.2,
+     "end": 1098.5,
+     "ja": "ん？",
+     "en": "Hm?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 1099.3,
+     "end": 1101.0,
+     "ja": "まだ嬉しい。",
+     "en": "Still happy.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 1103.8,
+     "end": 1105.5,
+     "ja": "はい、ありがとう。",
+     "en": "Okay, thank you.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 1105.8,
+     "end": 1108.5,
+     "ja": "はい、ありがとう。",
+     "en": "Yes, thank you!",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "pyIX6v8r1os",
+ "pickTopics": [
+  "travel",
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

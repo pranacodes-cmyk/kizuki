@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.5,
+   "end": 40.0,
+   "title": "Polite Speech Quiz: Options",
+   "level": "N4",
+   "topics": [
+    "work",
+    "school"
+   ],
+   "grammar": [
+    "に対して — towards / regarding",
+    "〜になる — to become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 12.8,
+     "end": 18.2,
+     "ja": "目上の人に対して失礼になる言葉はどれでしょう？",
+     "en": "Which of these words would be rude to use with a superior?",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 18.8,
+     "end": 21.3,
+     "ja": "1、なるほど。",
+     "en": "1. 'Naruhodo.'",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 21.8,
+     "end": 24.5,
+     "ja": "2、なるほどですね。",
+     "en": "2. 'Naruhodo desu ne.'",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 25.0,
+     "end": 27.8,
+     "ja": "3、了解しました。",
+     "en": "3. 'Ryoukai shimashita.'",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 28.3,
+     "end": 31.5,
+     "ja": "4、はいはい。",
+     "en": "4. 'Hai hai.'",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 32.2,
+     "end": 35.6,
+     "ja": "5、参考になります。",
+     "en": "5. 'Sankou ni narimasu.'",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 36.0,
+     "end": 39.5,
+     "ja": "6、勉強になります。",
+     "en": "6. 'Benkyou ni narimasu.'",
+     "speaker": "Presenter"
+    }
+   ]
+  },
+  {
+   "start": 361.5,
+   "end": 389.0,
+   "title": "Why Benkyou ni Narimasu is Polite",
+   "level": "N3",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "に対して — toward / regarding",
+    "〜として — as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 361.8,
+     "end": 368.5,
+     "ja": "「勉強になります」は、相手から学ぶ姿勢を示す謙虚な表現です。",
+     "en": "'Benkyou ni narimasu' is a humble expression showing a willingness to learn from the other person.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 368.5,
+     "end": 373.2,
+     "ja": "目上の人に対して使っても失礼に当たりにくい表現です。",
+     "en": "It's an expression that is unlikely to be perceived as rude even when used with superiors.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 373.5,
+     "end": 376.5,
+     "ja": "結論で言うと、問題がありません。",
+     "en": "In conclusion, there is no problem with using it.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 376.8,
+     "end": 388.5,
+     "ja": "先ほど説明した「参考になります」の言い換えとして「勉強になります」と言うと、目上の人に対しても安心です。",
+     "en": "Using 'benkyou ni narimasu' as a rephrasing of 'sankou ni narimasu' is safe to say to superiors.",
+     "speaker": "Presenter"
+    }
+   ]
+  },
+  {
+   "start": 666.5,
+   "end": 687.0,
+   "title": "Written Business Japanese: Onsha vs Kisha",
+   "level": "N3",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜にする — to make into / change to",
+    "〜させていただく — politely do (humble causative)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 666.8,
+     "end": 676.5,
+     "ja": "書き言葉にする時には、「御社」ではなく「貴社」を使うと、より適切になります。",
+     "en": "When using written language, it is more appropriate to use 'kisha' instead of 'onsha'.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 678.0,
+     "end": 686.5,
+     "ja": "ここでの改善例は、「この度、貴社を担当させていただくことになりました」とします。",
+     "en": "An improved example here would be, 'I will now be in charge of your company.'",
+     "speaker": "Presenter"
+    }
+   ]
+  }
+ ],
+ "videoId": "PK6H3HcNJPc",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

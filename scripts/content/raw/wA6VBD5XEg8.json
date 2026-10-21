@@ -1,0 +1,292 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 224.2,
+   "end": 250.2,
+   "title": "Solo Trip from Fukuoka to Nagoya",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ようと思う — intention",
+    "〜たら — when / if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 224.2,
+     "end": 226.4,
+     "ja": "あれ？お兄さんの出身は名古屋ですか？",
+     "en": "Wait, are you originally from Nagoya?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 226.5,
+     "end": 228.3,
+     "ja": "出身は福岡からちょっと来てて…",
+     "en": "I'm from Fukuoka, just visiting...",
+     "speaker": "Man"
+    },
+    {
+     "start": 228.5,
+     "end": 231.3,
+     "ja": "えー！すごい。一人旅ですか？",
+     "en": "Whoa, amazing! Traveling alone?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 231.4,
+     "end": 232.4,
+     "ja": "一人旅ですね。",
+     "en": "Yes, traveling solo.",
+     "speaker": "Man"
+    },
+    {
+     "start": 232.5,
+     "end": 234.4,
+     "ja": "出身が福岡ですか？",
+     "en": "You're from Fukuoka?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 234.5,
+     "end": 235.3,
+     "ja": "福岡です。",
+     "en": "Yes, Fukuoka.",
+     "speaker": "Man"
+    },
+    {
+     "start": 235.4,
+     "end": 237.1,
+     "ja": "どうやって名古屋まで来ました？",
+     "en": "How did you get to Nagoya?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 237.2,
+     "end": 240.0,
+     "ja": "最初、新幹線で来ようと思ったんですけど、",
+     "en": "At first I thought about taking the bullet train,",
+     "speaker": "Man"
+    },
+    {
+     "start": 240.1,
+     "end": 243.0,
+     "ja": "値段比較したら飛行機の方がちょっと安かったんで、",
+     "en": "but when I compared prices, a flight was cheaper,",
+     "speaker": "Man"
+    },
+    {
+     "start": 243.1,
+     "end": 244.1,
+     "ja": "そうですよね。",
+     "en": "Right, that makes sense.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 244.2,
+     "end": 246.4,
+     "ja": "飛行機で中部国際空港まで来て、",
+     "en": "so I flew to Central Japan Airport,",
+     "speaker": "Man"
+    },
+    {
+     "start": 246.5,
+     "end": 248.8,
+     "ja": "そこから電車で、こうなったり…",
+     "en": "and took the train from there...",
+     "speaker": "Man"
+    },
+    {
+     "start": 248.9,
+     "end": 250.2,
+     "ja": "なるほど！そうなんですね。",
+     "en": "I see! That's how you did it.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 391.0,
+   "end": 407.3,
+   "title": "Having a Hamburger in Osu",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜て — connecting actions",
+    "どうでしたか — how was it?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 391.2,
+     "end": 392.4,
+     "ja": "お兄さんからお願いします。",
+     "en": "Let's start with you, sir.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 392.5,
+     "end": 395.7,
+     "ja": "えっと、ハンバーガーショップに行って、ハンバーガー食べました。",
+     "en": "Um, I went to a burger joint and ate a burger.",
+     "speaker": "Man"
+    },
+    {
+     "start": 395.8,
+     "end": 397.6,
+     "ja": "おお、いいですね！名古屋で？",
+     "en": "Oh, nice! In Nagoya?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 397.7,
+     "end": 398.7,
+     "ja": "大須で。",
+     "en": "In Osu.",
+     "speaker": "Man"
+    },
+    {
+     "start": 398.8,
+     "end": 401.5,
+     "ja": "大須で。おすすめのハンバーガー屋さん？",
+     "en": "In Osu. A recommended burger shop?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 401.6,
+     "end": 403.0,
+     "ja": "初めて来ました。",
+     "en": "It was my first time there.",
+     "speaker": "Man"
+    },
+    {
+     "start": 403.1,
+     "end": 404.6,
+     "ja": "初めて来ました？どうでしたか？",
+     "en": "Your first time? How was it?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 404.7,
+     "end": 406.1,
+     "ja": "とっても美味しかったです。",
+     "en": "It was very delicious.",
+     "speaker": "Man"
+    },
+    {
+     "start": 406.2,
+     "end": 407.3,
+     "ja": "ああ、いいですね！",
+     "en": "Ah, that's great!",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 499.7,
+   "end": 522.5,
+   "title": "Moving to Nagoya for Work",
+   "level": "N5",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくる — directional aspect (move here)",
+    "〜のために — for the purpose of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 499.7,
+     "end": 501.8,
+     "ja": "え、出身は名古屋ですか？",
+     "en": "Are you originally from Nagoya?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 501.9,
+     "end": 503.5,
+     "ja": "私は三重県です。",
+     "en": "I'm from Mie Prefecture.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 503.6,
+     "end": 506.5,
+     "ja": "三重県？あ、そうなんですね。三重県に住んでますか？",
+     "en": "Mie? Oh, really! Do you live in Mie?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 506.6,
+     "end": 510.5,
+     "ja": "三重じゃなくて、えっと、７月に名古屋に引っ越してきました。",
+     "en": "Not Mie, um, I moved to Nagoya in July.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 510.6,
+     "end": 512.7,
+     "ja": "あ、そうなんですね。学生ですか？",
+     "en": "Oh, I see. Are you a student?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 512.8,
+     "end": 514.9,
+     "ja": "あ、いや、全然社会人です。",
+     "en": "Oh, no, I'm a working adult.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 515.0,
+     "end": 517.5,
+     "ja": "仕事のために名古屋に引っ越してきた？",
+     "en": "You moved to Nagoya for work?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 517.6,
+     "end": 518.4,
+     "ja": "そうですね。",
+     "en": "That's right.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 518.5,
+     "end": 519.7,
+     "ja": "名古屋はどうですか？",
+     "en": "How do you like Nagoya?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 519.8,
+     "end": 521.3,
+     "ja": "楽しいです。",
+     "en": "It's fun.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 521.4,
+     "end": 522.5,
+     "ja": "楽しい！",
+     "en": "Fun!",
+     "speaker": "Shun"
+    }
+   ]
+  }
+ ],
+ "videoId": "wA6VBD5XEg8",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

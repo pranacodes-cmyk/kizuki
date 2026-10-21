@@ -1,0 +1,197 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 28.0,
+   "end": 59.2,
+   "title": "Where Are You From?",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜てみたい — want to try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 28.3,
+     "end": 33.2,
+     "ja": "宮崎さんの出身はどこですか？",
+     "en": "Where are you from, Mr. Miyazaki?",
+     "speaker": "Toriyama"
+    },
+    {
+     "start": 33.8,
+     "end": 37.8,
+     "ja": "僕の出身は東京です。",
+     "en": "I'm from Tokyo.",
+     "speaker": "Miyazaki"
+    },
+    {
+     "start": 38.8,
+     "end": 40.5,
+     "ja": "東京。",
+     "en": "Tokyo.",
+     "speaker": "Toriyama"
+    },
+    {
+     "start": 41.2,
+     "end": 49.3,
+     "ja": "僕は青森なので、今度行ってみたいです。",
+     "en": "I'm from Aomori, so I'd love to visit sometime.",
+     "speaker": "Toriyama"
+    },
+    {
+     "start": 50.3,
+     "end": 52.8,
+     "ja": "青森ですか。",
+     "en": "Aomori, huh?",
+     "speaker": "Miyazaki"
+    },
+    {
+     "start": 53.2,
+     "end": 58.8,
+     "ja": "東京はいい場所なので、ぜひ来てください。",
+     "en": "Tokyo is a great place, so please definitely come.",
+     "speaker": "Miyazaki"
+    }
+   ]
+  },
+  {
+   "start": 2207.8,
+   "end": 2232.0,
+   "title": "Do You Have Any Pets?",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜たことがない — have never done",
+    "〜ようにしている — make an effort to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2208.2,
+     "end": 2212.8,
+     "ja": "宮崎さんはペットとかいますか？",
+     "en": "Do you have any pets, Mr. Miyazaki?",
+     "speaker": "Toriyama"
+    },
+    {
+     "start": 2213.2,
+     "end": 2217.3,
+     "ja": "ペットは飼ったことがないですね。",
+     "en": "I've never had a pet.",
+     "speaker": "Miyazaki"
+    },
+    {
+     "start": 2217.6,
+     "end": 2219.4,
+     "ja": "そうですか。",
+     "en": "I see.",
+     "speaker": "Toriyama"
+    },
+    {
+     "start": 2220.5,
+     "end": 2226.4,
+     "ja": "私はペットの世話をするのが苦手なので、",
+     "en": "I'm not good at taking care of pets, so...",
+     "speaker": "Miyazaki"
+    },
+    {
+     "start": 2226.7,
+     "end": 2231.2,
+     "ja": "ペットは飼わないようにしています。",
+     "en": "...I try not to keep any pets.",
+     "speaker": "Miyazaki"
+    }
+   ]
+  },
+  {
+   "start": 2292.8,
+   "end": 2325.2,
+   "title": "Favorite Anime",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜そう — looks like / seems like",
+    "〜や〜とか — listing examples"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2293.2,
+     "end": 2297.0,
+     "ja": "好きなアニメはありますか？",
+     "en": "Do you have any favorite anime?",
+     "speaker": "Toriyama"
+    },
+    {
+     "start": 2297.8,
+     "end": 2301.8,
+     "ja": "アニメか。ありますよ。",
+     "en": "Anime? Yes, I do.",
+     "speaker": "Miyazaki"
+    },
+    {
+     "start": 2302.2,
+     "end": 2305.8,
+     "ja": "進撃の巨人や",
+     "en": "Attack on Titan,",
+     "speaker": "Miyazaki"
+    },
+    {
+     "start": 2306.4,
+     "end": 2311.0,
+     "ja": "デスノートやドラゴンボールとか。",
+     "en": "Death Note, Dragon Ball, and so on.",
+     "speaker": "Miyazaki"
+    },
+    {
+     "start": 2311.4,
+     "end": 2313.0,
+     "ja": "おー、好きですね。",
+     "en": "Oh, you like those!",
+     "speaker": "Toriyama"
+    },
+    {
+     "start": 2313.3,
+     "end": 2318.0,
+     "ja": "男の子が好きそうなアニメですね。",
+     "en": "Those are anime that boys tend to like.",
+     "speaker": "Toriyama"
+    },
+    {
+     "start": 2318.5,
+     "end": 2320.8,
+     "ja": "はい。鳥山さんは？",
+     "en": "Yes. What about you, Mr. Toriyama?",
+     "speaker": "Miyazaki"
+    },
+    {
+     "start": 2321.1,
+     "end": 2324.7,
+     "ja": "僕はワンピースがもっぱら好きです。",
+     "en": "I'm exclusively into One Piece.",
+     "speaker": "Toriyama"
+    }
+   ]
+  }
+ ],
+ "videoId": "gHezMlReAH8",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

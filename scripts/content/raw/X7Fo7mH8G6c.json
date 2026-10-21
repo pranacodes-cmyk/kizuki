@@ -1,0 +1,120 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.4,
+   "end": 52.8,
+   "title": "A BBQ Riddle and a Crazy Answer",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ために — in order to",
+    "〜ばいい — should / how to"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 23.6,
+     "end": 26.6,
+     "ja": "あつし君はバーベキューをするために、",
+     "en": "Atsushi prepared candles, newspapers,",
+     "speaker": "Kuzuha"
+    },
+    {
+     "start": 26.6,
+     "end": 29.0,
+     "ja": "ロウソク、新聞紙、木の枝を準備しました。",
+     "en": "and tree branches to have a barbecue.",
+     "speaker": "Kuzuha"
+    },
+    {
+     "start": 29.3,
+     "end": 31.6,
+     "ja": "しかしマッチはたった一本しかありません。",
+     "en": "However, he only has one single match.",
+     "speaker": "Kuzuha"
+    },
+    {
+     "start": 31.7,
+     "end": 33.6,
+     "ja": "あつし君は何から火をつければいいでしょう？",
+     "en": "What should Atsushi light on fire first?",
+     "speaker": "Kuzuha"
+    },
+    {
+     "start": 33.8,
+     "end": 34.7,
+     "ja": "服。",
+     "en": "Clothes.",
+     "speaker": "Fuwa Minato"
+    },
+    {
+     "start": 34.8,
+     "end": 36.3,
+     "ja": "やっぱあつし君か。",
+     "en": "Atsushi, right?",
+     "speaker": "Fuwa Minato"
+    },
+    {
+     "start": 37.8,
+     "end": 38.6,
+     "ja": "えっ？",
+     "en": "What?",
+     "speaker": "Kuzuha"
+    },
+    {
+     "start": 38.7,
+     "end": 39.5,
+     "ja": "なんて？",
+     "en": "What did you say?",
+     "speaker": "Kuzuha"
+    },
+    {
+     "start": 41.2,
+     "end": 43.1,
+     "ja": "あつしって名前が、",
+     "en": "Because his name Atsushi...",
+     "speaker": "Fuwa Minato"
+    },
+    {
+     "start": 43.2,
+     "end": 44.9,
+     "ja": "「熱い」ってことだから、",
+     "en": "sounds like 'hot',",
+     "speaker": "Fuwa Minato"
+    },
+    {
+     "start": 45.4,
+     "end": 46.4,
+     "ja": "自分が。",
+     "en": "he himself is hot.",
+     "speaker": "Fuwa Minato"
+    },
+    {
+     "start": 47.7,
+     "end": 48.9,
+     "ja": "服を要らないということ。",
+     "en": "So he doesn't need clothes.",
+     "speaker": "Fuwa Minato"
+    },
+    {
+     "start": 49.3,
+     "end": 52.3,
+     "ja": "で、服を脱いでそこに火をつけるということ。",
+     "en": "And so, he takes off his clothes and sets fire to them.",
+     "speaker": "Fuwa Minato"
+    }
+   ]
+  }
+ ],
+ "videoId": "X7Fo7mH8G6c",
+ "pickTopics": [
+  "fun",
+  "friends",
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

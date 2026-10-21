@@ -1,0 +1,229 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 47.8,
+   "end": 64.5,
+   "title": "Practicing for the Dodgeball Tournament",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "sports",
+    "friends"
+   ],
+   "grammar": [
+    "〜中 — in the middle of",
+    "〜ようと思う — thinking of doing",
+    "〜っか — shall we (casual suggestion)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 47.8,
+     "end": 49.6,
+     "ja": "僕たちも入れて！",
+     "en": "Let us play too!",
+     "speaker": "Torippii"
+    },
+    {
+     "start": 49.9,
+     "end": 52.1,
+     "ja": "ごめん、今練習中なの。",
+     "en": "Sorry, we're in the middle of practicing right now.",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 52.2,
+     "end": 55.1,
+     "ja": "来週ドッジボール大会があるんだ。",
+     "en": "There's a dodgeball tournament next week.",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 55.3,
+     "end": 57.6,
+     "ja": "それにみみりんたちも出ようと思って、",
+     "en": "And Mimirin and the rest of us wanted to enter,",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 57.7,
+     "end": 59.9,
+     "ja": "チームを作ったのよ。",
+     "en": "so we formed a team.",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 60.0,
+     "end": 61.3,
+     "ja": "そうなんだ。",
+     "en": "I see.",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 61.4,
+     "end": 63.2,
+     "ja": "別のとこ行こっか。",
+     "en": "Shall we go somewhere else?",
+     "speaker": "Torippii"
+    },
+    {
+     "start": 63.4,
+     "end": 64.4,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Shimajiro"
+    }
+   ]
+  },
+  {
+   "start": 810.5,
+   "end": 834.5,
+   "title": "Kirinta's Karate Practice",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "sports",
+    "friends"
+   ],
+   "grammar": [
+    "〜って言ってた — said that...",
+    "〜たら — when / if",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 810.8,
+     "end": 813.0,
+     "ja": "きりんた、何やってるの？",
+     "en": "Kirinta, what are you doing?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 813.2,
+     "end": 817.3,
+     "ja": "やあ、しまじろう。空手の練習なんだ。",
+     "en": "Hey, Shimajiro. I'm practicing karate.",
+     "speaker": "Kirinta"
+    },
+    {
+     "start": 817.5,
+     "end": 818.6,
+     "ja": "空手？",
+     "en": "Karate?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 818.8,
+     "end": 823.0,
+     "ja": "そっか！きりんた空手習ってるって言ってたもんね。",
+     "en": "Oh right! You said you were taking karate lessons.",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 823.2,
+     "end": 824.0,
+     "ja": "うん！",
+     "en": "Yeah!",
+     "speaker": "Kirinta"
+    },
+    {
+     "start": 824.1,
+     "end": 828.5,
+     "ja": "僕、強くなって、大人になったらとってもなりたいものがあるんだ。",
+     "en": "There's something I really want to be when I get stronger and grow up.",
+     "speaker": "Kirinta"
+    },
+    {
+     "start": 828.8,
+     "end": 830.7,
+     "ja": "なりたいものって？",
+     "en": "What do you want to be?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 830.9,
+     "end": 832.0,
+     "ja": "秘密！",
+     "en": "Secret!",
+     "speaker": "Kirinta"
+    },
+    {
+     "start": 832.2,
+     "end": 834.2,
+     "ja": "それより、しまじろうもやってみる？",
+     "en": "More importantly, do you want to try it too, Shimajiro?",
+     "speaker": "Kirinta"
+    }
+   ]
+  },
+  {
+   "start": 856.0,
+   "end": 911.2,
+   "title": "Safety Advice from Lion Police",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜とき(は) — when doing",
+    "〜たら — if / when",
+    "〜てから — after doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 856.5,
+     "end": 900.0,
+     "ja": "道路を渡るときは、急に飛び出したら危ない。",
+     "en": "When crossing the street, running out suddenly is dangerous.",
+     "speaker": "Lion Police"
+    },
+    {
+     "start": 900.2,
+     "end": 902.4,
+     "ja": "ちゃんと右見て、左見て、",
+     "en": "Look carefully to the right, then to the left,",
+     "speaker": "Lion Police"
+    },
+    {
+     "start": 902.5,
+     "end": 905.4,
+     "ja": "安全を確かめてから渡るんだよ。",
+     "en": "and cross only after confirming it's safe.",
+     "speaker": "Lion Police"
+    },
+    {
+     "start": 905.6,
+     "end": 907.4,
+     "ja": "はーい、ごめんなさい！",
+     "en": "Okay, I'm sorry!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 907.7,
+     "end": 910.0,
+     "ja": "分かってくれたら、それでいいんだ。",
+     "en": "As long as you understand, that's fine.",
+     "speaker": "Lion Police"
+    },
+    {
+     "start": 910.1,
+     "end": 911.0,
+     "ja": "じゃあ。",
+     "en": "Well then.",
+     "speaker": "Lion Police"
+    }
+   ]
+  }
+ ],
+ "videoId": "GfIEK8HkVrI",
+ "pickTopics": [
+  "sports",
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

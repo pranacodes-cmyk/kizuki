@@ -1,0 +1,314 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 8.5,
+   "end": 28.5,
+   "title": "Asking How Work is Going",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくる — change of state over time",
+    "〜ていただく — humbly receiving an action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 8.7,
+     "end": 10.0,
+     "ja": "どうや、最近？",
+     "en": "How have things been lately?",
+     "speaker": "Senior"
+    },
+    {
+     "start": 10.1,
+     "end": 11.2,
+     "ja": "慣れてきた？",
+     "en": "Getting used to it?",
+     "speaker": "Senior"
+    },
+    {
+     "start": 11.3,
+     "end": 12.3,
+     "ja": "はい！",
+     "en": "Yes!",
+     "speaker": "Junior"
+    },
+    {
+     "start": 12.4,
+     "end": 13.2,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Senior"
+    },
+    {
+     "start": 13.3,
+     "end": 15.2,
+     "ja": "なんか、まだ緊張します、でも。",
+     "en": "I mean, I still get nervous, though.",
+     "speaker": "Junior"
+    },
+    {
+     "start": 15.3,
+     "end": 17.0,
+     "ja": "正直、朝とか、なんか...",
+     "en": "Honestly, in the morning, and...",
+     "speaker": "Junior"
+    },
+    {
+     "start": 17.1,
+     "end": 18.9,
+     "ja": "ああー。いや、でも見てたら、",
+     "en": "Ah. Well, watching you, though,",
+     "speaker": "Senior"
+    },
+    {
+     "start": 19.0,
+     "end": 22.0,
+     "ja": "結構もう主体性を持って動けてるなーって思うよ。",
+     "en": "I feel like you're already taking initiative pretty well.",
+     "speaker": "Senior"
+    },
+    {
+     "start": 22.1,
+     "end": 23.7,
+     "ja": "んー、でもなんか、",
+     "en": "Hmm, but somehow,",
+     "speaker": "Junior"
+    },
+    {
+     "start": 23.8,
+     "end": 25.5,
+     "ja": "指示をいただいて、",
+     "en": "I just get instructions,",
+     "speaker": "Junior"
+    },
+    {
+     "start": 25.6,
+     "end": 28.0,
+     "ja": "なんかそれをやってるだけというか...",
+     "en": "and I feel like I'm just doing what I'm told...",
+     "speaker": "Junior"
+    }
+   ]
+  },
+  {
+   "start": 36.2,
+   "end": 59.8,
+   "title": "Reminiscing About Being a Rookie",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜というか — or rather",
+    "〜次第 — depending on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 36.5,
+     "end": 39.0,
+     "ja": "いやー、でもほんまに、なんやろ、この...",
+     "en": "Man, but really, how do I put it...",
+     "speaker": "Senior"
+    },
+    {
+     "start": 39.1,
+     "end": 41.3,
+     "ja": "自分が若い頃思い出すというか、",
+     "en": "It reminds me of when I was younger, or like,",
+     "speaker": "Senior"
+    },
+    {
+     "start": 41.4,
+     "end": 43.1,
+     "ja": "新入社員の頃思い出すわ。",
+     "en": "it reminds me of my rookie days.",
+     "speaker": "Senior"
+    },
+    {
+     "start": 43.2,
+     "end": 45.3,
+     "ja": "こんなに真面目じゃなかったもん、俺。",
+     "en": "I wasn't nearly this serious back then.",
+     "speaker": "Senior"
+    },
+    {
+     "start": 45.4,
+     "end": 46.4,
+     "ja": "あ、そうなんですか？",
+     "en": "Oh, really?",
+     "speaker": "Junior"
+    },
+    {
+     "start": 46.5,
+     "end": 48.2,
+     "ja": "たまに遅刻もしてたしな。",
+     "en": "I used to be late sometimes, too.",
+     "speaker": "Senior"
+    },
+    {
+     "start": 48.3,
+     "end": 49.8,
+     "ja": "あ、そうなんですか？",
+     "en": "Oh, really?",
+     "speaker": "Junior"
+    },
+    {
+     "start": 50.0,
+     "end": 50.8,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Senior"
+    },
+    {
+     "start": 50.9,
+     "end": 52.3,
+     "ja": "え、遅刻どれぐらい遅刻...",
+     "en": "Wait, how late were you...",
+     "speaker": "Junior"
+    },
+    {
+     "start": 52.4,
+     "end": 54.0,
+     "ja": "いやいや、ほんまたまにやけど。",
+     "en": "No, no, it was just once in a while.",
+     "speaker": "Senior"
+    },
+    {
+     "start": 54.1,
+     "end": 56.2,
+     "ja": "遅刻なんて、まあ今はどうかわからんけど、",
+     "en": "Being late—well, I don't know about now, but—",
+     "speaker": "Senior"
+    },
+    {
+     "start": 56.3,
+     "end": 57.9,
+     "ja": "結構言い訳次第やねん。",
+     "en": "it all comes down to your excuse.",
+     "speaker": "Senior"
+    },
+    {
+     "start": 58.0,
+     "end": 59.3,
+     "ja": "あ、そうなんですか？",
+     "en": "Oh, really?",
+     "speaker": "Junior"
+    }
+   ]
+  },
+  {
+   "start": 137.5,
+   "end": 162.0,
+   "title": "Confessing to Slacking Off",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜わけじゃない — it doesn't mean that",
+    "〜たりとか — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 137.8,
+     "end": 140.5,
+     "ja": "まあでもこの、例えば営業回りとかやったら、",
+     "en": "Well, but like, when you're out on sales rounds,",
+     "speaker": "Senior"
+    },
+    {
+     "start": 140.6,
+     "end": 141.3,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Junior"
+    },
+    {
+     "start": 141.4,
+     "end": 142.4,
+     "ja": "ここだけの話、",
+     "en": "just between you and me,",
+     "speaker": "Senior"
+    },
+    {
+     "start": 142.5,
+     "end": 143.2,
+     "ja": "あ、はいはい。",
+     "en": "Ah, yes, yes.",
+     "speaker": "Junior"
+    },
+    {
+     "start": 143.3,
+     "end": 145.0,
+     "ja": "ずっと働いてるわけじゃないやんか。",
+     "en": "you're not working the entire time, right?",
+     "speaker": "Senior"
+    },
+    {
+     "start": 145.1,
+     "end": 146.3,
+     "ja": "そらサボるよね。",
+     "en": "Naturally, you slack off.",
+     "speaker": "Senior"
+    },
+    {
+     "start": 150.9,
+     "end": 152.3,
+     "ja": "え、サボるんですか？",
+     "en": "Wait, you slack off?",
+     "speaker": "Junior"
+    },
+    {
+     "start": 152.4,
+     "end": 154.6,
+     "ja": "え、サボるって、何してサボるんですか？",
+     "en": "Wait, slacking off, what do you do to slack off?",
+     "speaker": "Junior"
+    },
+    {
+     "start": 154.7,
+     "end": 156.5,
+     "ja": "いやいや、だからまあ、",
+     "en": "No, no, like, you know,",
+     "speaker": "Senior"
+    },
+    {
+     "start": 156.6,
+     "end": 158.7,
+     "ja": "普通に、なんやろな、営業車、車止めて、",
+     "en": "normally, what would it be... park the company car,",
+     "speaker": "Senior"
+    },
+    {
+     "start": 158.8,
+     "end": 159.4,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Junior"
+    },
+    {
+     "start": 159.5,
+     "end": 160.8,
+     "ja": "うん、昼寝したりとか。",
+     "en": "yeah, take a nap or something.",
+     "speaker": "Senior"
+    }
+   ]
+  }
+ ],
+ "videoId": "Ue1fPyFBiC4",
+ "pickTopics": [
+  "fun",
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

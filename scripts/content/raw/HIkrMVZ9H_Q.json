@@ -1,0 +1,263 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 410.5,
+   "end": 436.0,
+   "title": "Waiting for Hana-chan",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "family",
+    "anime"
+   ],
+   "grammar": [
+    "〜ないと — if not / unless",
+    "〜てあげる — to do something for someone",
+    "〜ていい — permission to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 410.8,
+     "end": 413.0,
+     "ja": "はなちゃん、もう行こうよ。",
+     "en": "Hana-chan, let's go already.",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 413.2,
+     "end": 414.3,
+     "ja": "まーだ。",
+     "en": "Not yet.",
+     "speaker": "Hana-chan"
+    },
+    {
+     "start": 414.6,
+     "end": 417.3,
+     "ja": "次のバス停はすごく楽しいよ。",
+     "en": "The next bus stop is really fun!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 417.5,
+     "end": 418.8,
+     "ja": "まーだ。",
+     "en": "Not yet.",
+     "speaker": "Hana-chan"
+    },
+    {
+     "start": 419.0,
+     "end": 422.0,
+     "ja": "もう、早くしないと先に行っちゃうよ。",
+     "en": "Geez, if you don't hurry, I'll go ahead without you.",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 422.2,
+     "end": 423.5,
+     "ja": "だーめ。",
+     "en": "No!",
+     "speaker": "Hana-chan"
+    },
+    {
+     "start": 423.7,
+     "end": 425.8,
+     "ja": "待ってあげなよ、しまじろう。",
+     "en": "Wait for her, Shimajiro.",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 426.0,
+     "end": 428.9,
+     "ja": "はなちゃん、ゆっくり探していいからね。",
+     "en": "Hana-chan, take your time looking, okay?",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 429.3,
+     "end": 434.0,
+     "ja": "そうそう。はなちゃんバスははなちゃんが乗らないと発車しないから。",
+     "en": "Right, right. The Hana-chan bus doesn't leave unless Hana-chan gets on.",
+     "speaker": "Torippii"
+    },
+    {
+     "start": 434.2,
+     "end": 435.5,
+     "ja": "うん！",
+     "en": "Yeah!",
+     "speaker": "Hana-chan"
+    }
+   ]
+  },
+  {
+   "start": 818.0,
+   "end": 847.5,
+   "title": "Deciding on the Obstacle Race",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "school",
+    "friends"
+   ],
+   "grammar": [
+    "〜わけにはいかない — cannot help but / have to",
+    "〜たら — if / when",
+    "〜こと — nominalizer"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 818.0,
+     "end": 821.0,
+     "ja": "障害物競走って何するの？",
+     "en": "What do we do in the obstacle race?",
+     "speaker": "Monta"
+    },
+    {
+     "start": 821.2,
+     "end": 826.8,
+     "ja": "飴食い競争、平均台、パン食い競争、and 跳び箱ですね。",
+     "en": "Candy-eating, balance beam, bread-eating, and the vaulting horse.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 827.0,
+     "end": 828.8,
+     "ja": "跳び箱？",
+     "en": "The vaulting horse?",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 829.0,
+     "end": 831.0,
+     "ja": "よーし、僕も出るぞ！",
+     "en": "All right, I'm joining too!",
+     "speaker": "Zouta"
+    },
+    {
+     "start": 831.3,
+     "end": 832.8,
+     "ja": "じゃあ、僕も！",
+     "en": "Then me too!",
+     "speaker": "Monta"
+    },
+    {
+     "start": 833.0,
+     "end": 836.0,
+     "ja": "そうなると、私も出ないわけにはいかないね。",
+     "en": "In that case, I have to join as well.",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 836.2,
+     "end": 837.7,
+     "ja": "えー！？",
+     "en": "What?!",
+     "speaker": "Boys"
+    },
+    {
+     "start": 838.0,
+     "end": 841.0,
+     "ja": "にゃっきいが出たら僕達勝てないよ。",
+     "en": "If Nyakkii joins, we won't be able to win.",
+     "speaker": "Monta"
+    },
+    {
+     "start": 841.2,
+     "end": 843.3,
+     "ja": "スポーツは勝ち負けじゃないよ。",
+     "en": "Sports aren't just about winning or losing.",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 843.7,
+     "end": 847.2,
+     "ja": "Oh yeah! エンジョイすることが一番ですね！",
+     "en": "Oh yeah! Having fun is the most important thing!",
+     "speaker": "Teacher"
+    }
+   ]
+  },
+  {
+   "start": 933.5,
+   "end": 958.5,
+   "title": "You Are My Pride",
+   "level": "N4",
+   "topics": [
+    "family",
+    "sports",
+    "anime"
+   ],
+   "grammar": [
+    "〜てもらう — to have someone do something",
+    "〜のに — even though",
+    "〜てくれる — to do for me"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 933.8,
+     "end": 935.3,
+     "ja": "みみりん！",
+     "en": "Mimirin!",
+     "speaker": "Dad"
+    },
+    {
+     "start": 935.5,
+     "end": 940.4,
+     "ja": "パパ…あんなに特訓してもらったのに、ビリになっちゃって…",
+     "en": "Papa... even though you gave me special training, I ended up in last place...",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 940.8,
+     "end": 942.5,
+     "ja": "いいんだ、いいんだ！",
+     "en": "It's okay, it's okay!",
+     "speaker": "Dad"
+    },
+    {
+     "start": 942.8,
+     "end": 948.3,
+     "ja": "パパはね、みみりんが最後まで頑張ってくれたことが一番嬉しいんだよ！",
+     "en": "What makes Papa happiest is that you tried your best right to the end!",
+     "speaker": "Dad"
+    },
+    {
+     "start": 948.5,
+     "end": 950.0,
+     "ja": "パパ！",
+     "en": "Papa!",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 951.5,
+     "end": 953.6,
+     "ja": "みみりんはパパの誇りだ！",
+     "en": "Mimirin, you are Papa's pride!",
+     "speaker": "Dad"
+    },
+    {
+     "start": 954.0,
+     "end": 955.2,
+     "ja": "宝物だ！",
+     "en": "My treasure!",
+     "speaker": "Dad"
+    },
+    {
+     "start": 955.4,
+     "end": 958.0,
+     "ja": "命だー！",
+     "en": "My whole life!",
+     "speaker": "Dad"
+    }
+   ]
+  }
+ ],
+ "videoId": "HIkrMVZ9H_Q",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,286 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.3,
+   "end": 37.8,
+   "title": "A Polite Call Before the Interview",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜させていただく — humble causative polite request/action",
+    "〜前に — before doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 12.3,
+     "end": 13.6,
+     "ja": "あ、もしもし。",
+     "en": "Ah, hello?",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 13.7,
+     "end": 15.5,
+     "ja": "はい、もしもし山下商事ですけども。",
+     "en": "Yes, hello, Yamashita Trading speaking.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 15.6,
+     "end": 20.6,
+     "ja": "あ、あの失礼します。あの、今からあの面接を受けさせていただく者なんですけども。",
+     "en": "Excuse me. Um, I'm the person scheduled to have an interview shortly...",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 20.7,
+     "end": 22.2,
+     "ja": "あ、はい、どうされました？",
+     "en": "Ah, yes, what's the matter?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 22.3,
+     "end": 26.8,
+     "ja": "はい、あの今から伺わせていただく前に、ちょっと事前にご連絡させていただこうと思いまして。",
+     "en": "Yes, I thought I would contact you in advance before coming over.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 27.0,
+     "end": 29.6,
+     "ja": "あ、ご丁寧にわざわざありがとうございます。",
+     "en": "Ah, thank you so much for your courtesy.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 29.7,
+     "end": 32.0,
+     "ja": "いや、とんでもございません。面接よろしくお願いいたします。",
+     "en": "Not at all. I look forward to the interview.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 32.1,
+     "end": 36.5,
+     "ja": "えーでは予定通り、36階の会議室Bでよろしくお願いします。",
+     "en": "Well then, as scheduled, see you in Meeting Room B on the 36th floor.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 36.6,
+     "end": 37.8,
+     "ja": "はい、分かりました。ありがとうございます。",
+     "en": "Yes, understood. Thank you very much.",
+     "speaker": "Candidate"
+    }
+   ]
+  },
+  {
+   "start": 73.0,
+   "end": 99.5,
+   "title": "Please State Your Name",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てほしい — wanting someone to do something",
+    "〜ということで — meaning that / on the premise that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 73.0,
+     "end": 76.4,
+     "ja": "はい、えーと一応あの、最終面接ということでですね、",
+     "en": "Yes, well, this being the final interview,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 76.5,
+     "end": 81.0,
+     "ja": "あの今までグループ面接だったんですけども、これはもう1対1で、",
+     "en": "you've had group interviews until now, but this is one-on-one,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 81.5,
+     "end": 85.1,
+     "ja": "よりあなたを分かっていこうという試験でございますので。",
+     "en": "an exam to get to know you better.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 85.2,
+     "end": 87.2,
+     "ja": "全てを分かってほしいと思っています。",
+     "en": "I want you to know everything about me.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 87.3,
+     "end": 88.4,
+     "ja": "あ、ありがとうございます。",
+     "en": "Ah, thank you.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 88.5,
+     "end": 89.4,
+     "ja": "よろしくお願いします。",
+     "en": "Pleasure to meet you.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 89.5,
+     "end": 93.4,
+     "ja": "よろしくお願いします。えーでは、もう分かってはいるんですが、",
+     "en": "Likewise. Well then, although I already know,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 94.0,
+     "end": 96.0,
+     "ja": "お名前をお願いいたします。",
+     "en": "could you please state your name?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 96.1,
+     "end": 97.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 97.1,
+     "end": 99.3,
+     "ja": "お金玉でか男です。",
+     "en": "I am Okintama Deka-o.",
+     "speaker": "Candidate"
+    }
+   ]
+  },
+  {
+   "start": 338.0,
+   "end": 367.5,
+   "title": "A Second Chance Given",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜わけじゃないですか — isn't it the case that...",
+    "〜ということで — so it means that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 338.0,
+     "end": 341.5,
+     "ja": "あのね、一応あの最終面接まで来てるわけじゃないですか。",
+     "en": "Look, you've made it to the final interview after all, right?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 341.6,
+     "end": 342.5,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 342.6,
+     "end": 346.0,
+     "ja": "で、あのうちの上層部が選んだ人材なので、",
+     "en": "And since our upper management selected you,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 346.1,
+     "end": 351.0,
+     "ja": "あの絶対こう悪い人材ではない、むしろいい人材だと思うんですよ。",
+     "en": "you're definitely not bad talent, in fact, I think you're great.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 351.1,
+     "end": 352.5,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 352.6,
+     "end": 357.0,
+     "ja": "ね。だから、今のはとりあえず緊張してああなったということでですね。",
+     "en": "Right. So, what happened earlier was just because you got nervous.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 357.1,
+     "end": 358.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 358.1,
+     "end": 359.9,
+     "ja": "はい。じゃあ今のは全部忘れます。",
+     "en": "Alright, I'll forget everything from earlier.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 360.0,
+     "end": 361.0,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 361.1,
+     "end": 362.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 362.1,
+     "end": 363.3,
+     "ja": "本当ですか？",
+     "en": "Really?",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 363.4,
+     "end": 366.0,
+     "ja": "はい。なんでもう一回来てください。",
+     "en": "Yes. So please come back again.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 366.1,
+     "end": 367.4,
+     "ja": "ありがとうございます！",
+     "en": "Thank you very much!",
+     "speaker": "Candidate"
+    }
+   ]
+  }
+ ],
+ "videoId": "Vmgq8cnzBvQ",
+ "pickTopics": [
+  "fun",
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

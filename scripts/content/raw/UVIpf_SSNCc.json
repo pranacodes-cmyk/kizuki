@@ -1,0 +1,239 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 109.3,
+   "end": 124.6,
+   "title": "Business Card Etiquette Training",
+   "level": "N4",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てみて — try doing",
+    "〜で — indicates means/manner"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 109.8,
+     "end": 111.4,
+     "ja": "新人研修やるよー。",
+     "en": "Let's do some new hire training.",
+     "speaker": "Senior"
+    },
+    {
+     "start": 111.8,
+     "end": 113.1,
+     "ja": "はい、これ名刺。",
+     "en": "Here, this is your business card.",
+     "speaker": "Senior"
+    },
+    {
+     "start": 113.3,
+     "end": 115.1,
+     "ja": "名刺渡してみて？",
+     "en": "Try handing it to me.",
+     "speaker": "Senior"
+    },
+    {
+     "start": 115.4,
+     "end": 117.0,
+     "ja": "こんな感じですか？",
+     "en": "Like this?",
+     "speaker": "Licca"
+    },
+    {
+     "start": 117.0,
+     "end": 118.0,
+     "ja": "お願いしまっす。",
+     "en": "Here you go.",
+     "speaker": "Licca"
+    },
+    {
+     "start": 118.1,
+     "end": 119.5,
+     "ja": "こら！両手で！",
+     "en": "Hey! With both hands!",
+     "speaker": "Senior"
+    },
+    {
+     "start": 119.7,
+     "end": 120.9,
+     "ja": "あ、こうですか？",
+     "en": "Oh, like this?",
+     "speaker": "Licca"
+    },
+    {
+     "start": 120.9,
+     "end": 122.1,
+     "ja": "お願いします。",
+     "en": "Pleased to meet you.",
+     "speaker": "Licca"
+    },
+    {
+     "start": 122.2,
+     "end": 124.1,
+     "ja": "オッケー！合格！",
+     "en": "Okay! Pass!",
+     "speaker": "Senior"
+    }
+   ]
+  },
+  {
+   "start": 124.6,
+   "end": 142.2,
+   "title": "Practicing the Angles of Bowing",
+   "level": "N4",
+   "topics": [
+    "work",
+    "culture",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てみて — try doing",
+    "命令形 — imperative command"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 124.9,
+     "end": 126.6,
+     "ja": "次はお辞儀のマナーね。",
+     "en": "Next is bowing etiquette.",
+     "speaker": "Senior"
+    },
+    {
+     "start": 126.7,
+     "end": 127.8,
+     "ja": "お辞儀してみて。",
+     "en": "Try bowing.",
+     "speaker": "Senior"
+    },
+    {
+     "start": 127.8,
+     "end": 129.5,
+     "ja": "はい！おねしゃす…",
+     "en": "Yes! Thank you...",
+     "speaker": "Licca"
+    },
+    {
+     "start": 131.0,
+     "end": 133.0,
+     "ja": "こら！ちゃんと腰曲げる！",
+     "en": "Hey! Bend from the waist properly!",
+     "speaker": "Senior"
+    },
+    {
+     "start": 133.0,
+     "end": 133.8,
+     "ja": "はい！",
+     "en": "Yes!",
+     "speaker": "Licca"
+    },
+    {
+     "start": 134.1,
+     "end": 136.0,
+     "ja": "45度！それが最敬礼！",
+     "en": "45 degrees! That's the most respectful bow!",
+     "speaker": "Senior"
+    },
+    {
+     "start": 136.1,
+     "end": 138.0,
+     "ja": "15度！それが会釈！",
+     "en": "15 degrees! That's a casual nod!",
+     "speaker": "Senior"
+    },
+    {
+     "start": 138.5,
+     "end": 140.4,
+     "ja": "30度！それが敬礼！",
+     "en": "30 degrees! That's a polite bow!",
+     "speaker": "Senior"
+    },
+    {
+     "start": 140.7,
+     "end": 141.7,
+     "ja": "オッケー！合格！",
+     "en": "Okay! Pass!",
+     "speaker": "Senior"
+    }
+   ]
+  },
+  {
+   "start": 197.8,
+   "end": 213.3,
+   "title": "Unwanted Company at Lunch",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜そうだ — looks like",
+    "〜ようかな — thinking of doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 198.1,
+     "end": 199.3,
+     "ja": "現実クン。",
+     "en": "Genjitsu-kun.",
+     "speaker": "Boss"
+    },
+    {
+     "start": 200.0,
+     "end": 201.2,
+     "ja": "あ、お疲れ様です。",
+     "en": "Ah, hello.",
+     "speaker": "Licca"
+    },
+    {
+     "start": 201.3,
+     "end": 203.2,
+     "ja": "１人で寂しそうだね。",
+     "en": "You look lonely all by yourself.",
+     "speaker": "Boss"
+    },
+    {
+     "start": 203.3,
+     "end": 205.1,
+     "ja": "一緒に食べようかな。",
+     "en": "Maybe I'll eat with you.",
+     "speaker": "Boss"
+    },
+    {
+     "start": 205.4,
+     "end": 206.8,
+     "ja": "あ〜…",
+     "en": "Uh...",
+     "speaker": "Licca"
+    },
+    {
+     "start": 208.5,
+     "end": 209.7,
+     "ja": "ぜひ…",
+     "en": "Please do...",
+     "speaker": "Licca"
+    },
+    {
+     "start": 210.0,
+     "end": 212.8,
+     "ja": "くっ…１人になりたかったのに…",
+     "en": "Ugh... I just wanted to be alone...",
+     "speaker": "Licca"
+    }
+   ]
+  }
+ ],
+ "videoId": "UVIpf_SSNCc",
+ "pickTopics": [
+  "work",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

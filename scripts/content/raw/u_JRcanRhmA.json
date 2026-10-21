@@ -1,0 +1,203 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.0,
+   "end": 75.8,
+   "title": "Have You Been to Tokyo Skytree?",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜たことがある — have the experience of",
+    "〜べき — should / ought to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.2,
+     "end": 48.8,
+     "ja": "有名なのは、スカイツリーがあります。",
+     "en": "As for famous places, there is the Skytree.",
+     "speaker": "Miyazaki"
+    },
+    {
+     "start": 49.2,
+     "end": 53.0,
+     "ja": "スカイツリーが有名なんですね。",
+     "en": "The Skytree is famous, I see.",
+     "speaker": "Toriyama"
+    },
+    {
+     "start": 53.2,
+     "end": 57.8,
+     "ja": "スカイツリーは有名ですよ。知ってますか？",
+     "en": "The Skytree is famous! Do you know it?",
+     "speaker": "Miyazaki"
+    },
+    {
+     "start": 58.2,
+     "end": 61.6,
+     "ja": "スカイツリー、知ってますよ。",
+     "en": "Yes, I know the Skytree.",
+     "speaker": "Toriyama"
+    },
+    {
+     "start": 62.0,
+     "end": 65.8,
+     "ja": "スカイツリーに、行ったことはありますか？",
+     "en": "Have you ever been to the Skytree?",
+     "speaker": "Miyazaki"
+    },
+    {
+     "start": 66.5,
+     "end": 72.3,
+     "ja": "スカイツリーは、まだ行ったことがないんです。",
+     "en": "I haven't been to the Skytree yet.",
+     "speaker": "Toriyama"
+    },
+    {
+     "start": 72.8,
+     "end": 75.4,
+     "ja": "行くべきですよ。",
+     "en": "You definitely should go!",
+     "speaker": "Miyazaki"
+    }
+   ]
+  },
+  {
+   "start": 480.8,
+   "end": 506.5,
+   "title": "Takoyaki in Osaka vs Tokyo",
+   "level": "N5",
+   "topics": [
+    "food",
+    "culture",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ですか — question particle",
+    "どちら — which (of two)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 481.0,
+     "end": 485.5,
+     "ja": "大阪のたこやきは、ぐちゃぐちゃです。",
+     "en": "Osaka takoyaki is gooey and soft.",
+     "speaker": "Toriyama"
+    },
+    {
+     "start": 487.0,
+     "end": 488.8,
+     "ja": "ぐちゃぐちゃですか？",
+     "en": "Gooey?",
+     "speaker": "Miyazaki"
+    },
+    {
+     "start": 489.0,
+     "end": 490.8,
+     "ja": "ぐちゃぐちゃです。",
+     "en": "Gooey.",
+     "speaker": "Toriyama"
+    },
+    {
+     "start": 491.2,
+     "end": 495.5,
+     "ja": "東京のたこやきは、カリカリです。",
+     "en": "Tokyo takoyaki is crispy.",
+     "speaker": "Toriyama"
+    },
+    {
+     "start": 497.0,
+     "end": 499.8,
+     "ja": "どちらが好きですか？",
+     "en": "Which one do you prefer?",
+     "speaker": "Miyazaki"
+    },
+    {
+     "start": 501.0,
+     "end": 505.8,
+     "ja": "どちらもおいしいんですよね。",
+     "en": "Both are really delicious.",
+     "speaker": "Toriyama"
+    }
+   ]
+  },
+  {
+   "start": 1041.0,
+   "end": 1074.0,
+   "title": "My Best Friend Is a Shark",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜くて — adjective connective form",
+    "〜し、〜し — listing reasons"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1041.5,
+     "end": 1047.2,
+     "ja": "では、何の魚が一番仲いいですか？",
+     "en": "So, which fish are you closest friends with?",
+     "speaker": "Toriyama"
+    },
+    {
+     "start": 1048.0,
+     "end": 1053.2,
+     "ja": "僕と仲良しな魚、サメです。",
+     "en": "The fish that's my good friend is the shark.",
+     "speaker": "Miyazaki"
+    },
+    {
+     "start": 1054.8,
+     "end": 1056.5,
+     "ja": "サメですか。",
+     "en": "A shark?",
+     "speaker": "Toriyama"
+    },
+    {
+     "start": 1056.7,
+     "end": 1060.5,
+     "ja": "サメはかっこよくて速いんですよ。",
+     "en": "Sharks are cool and fast, you know.",
+     "speaker": "Miyazaki"
+    },
+    {
+     "start": 1061.0,
+     "end": 1065.0,
+     "ja": "確かにサメはかっこいいし、速いですね。",
+     "en": "True, sharks are cool and fast.",
+     "speaker": "Toriyama"
+    },
+    {
+     "start": 1065.3,
+     "end": 1071.2,
+     "ja": "泳ぐのが速いし、体も大きいので、かっこいい。",
+     "en": "They swim fast and are big, so they're cool.",
+     "speaker": "Miyazaki"
+    },
+    {
+     "start": 1071.5,
+     "end": 1073.5,
+     "ja": "かっこいい。",
+     "en": "Cool.",
+     "speaker": "Toriyama"
+    }
+   ]
+  }
+ ],
+ "videoId": "u_JRcanRhmA",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

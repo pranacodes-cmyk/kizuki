@@ -1,0 +1,219 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 110.8,
+   "end": 133.2,
+   "title": "A Thunderstorm Is Coming",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜なさい — soft command",
+    "〜前に — before doing",
+    "〜たって — even if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 111.1,
+     "end": 112.5,
+     "ja": "ペッパ！ジョージ！",
+     "en": "Peppa! George!",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 112.8,
+     "end": 115.5,
+     "ja": "急いで！お家に入りなさい！",
+     "en": "Hurry! Come inside the house!",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 116.8,
+     "end": 119.3,
+     "ja": "マミー、今の大きな音は何？",
+     "en": "Mummy, what was that big noise?",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 119.8,
+     "end": 121.2,
+     "ja": "雷の音よ。",
+     "en": "It's thunder.",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 121.4,
+     "end": 124.6,
+     "ja": "この音がしたら嵐が来て、たくさん雨が降るの。",
+     "en": "When you hear that, a storm comes and it rains a lot.",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 125.8,
+     "end": 128.5,
+     "ja": "早く、雨が降る前にお家に入って。",
+     "en": "Quick, get in the house before it rains.",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 128.8,
+     "end": 130.9,
+     "ja": "焦らなくたって大丈夫だよ。",
+     "en": "There's no need to panic.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 131.0,
+     "end": 132.8,
+     "ja": "雨雲はまだまだ遠い。",
+     "en": "The rain clouds are still far away.",
+     "speaker": "Daddy Pig"
+    }
+   ]
+  },
+  {
+   "start": 220.8,
+   "end": 243.0,
+   "title": "Teddy Is All Soaked",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜ちゃった — ended up doing (regret)",
+    "〜てあげる — to do for someone",
+    "〜じゃないのか — isn't it?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 223.3,
+     "end": 226.7,
+     "ja": "テディかわいそう。びしょびしょになっちゃった。",
+     "en": "Poor Teddy. He got soaking wet.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 227.3,
+     "end": 230.1,
+     "ja": "本当、かわいそうね。乾かしてあげましょう。",
+     "en": "Indeed, poor thing. Let's dry him off.",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 230.3,
+     "end": 232.0,
+     "ja": "テディかわいそう。",
+     "en": "Poor Teddy.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 234.3,
+     "end": 236.4,
+     "ja": "もう大丈夫。乾いたわよ。",
+     "en": "All better now. He's dry.",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 238.4,
+     "end": 240.8,
+     "ja": "ダディはかわいそうじゃないのか？",
+     "en": "Don't you feel sorry for Daddy?",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 241.1,
+     "end": 242.7,
+     "ja": "すっかりびしょ濡れだよ。",
+     "en": "I'm completely drenched.",
+     "speaker": "Daddy Pig"
+    }
+   ]
+  },
+  {
+   "start": 333.5,
+   "end": 355.0,
+   "title": "The Car Is Very Dirty",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family",
+    "fun"
+   ],
+   "grammar": [
+    "〜みたい — seems like",
+    "〜てごらん — try doing",
+    "〜のほうが — more than"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 334.0,
+     "end": 336.7,
+     "ja": "今日はみんなでドライブに出かけます。",
+     "en": "Today, everyone is going out for a drive.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 337.2,
+     "end": 339.5,
+     "ja": "みんな、準備はいいかな？",
+     "en": "Is everyone ready?",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 340.0,
+     "end": 341.3,
+     "ja": "いいよー！",
+     "en": "Ready!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 341.9,
+     "end": 344.4,
+     "ja": "ええ、ダディピッグ。準備オッケーよ。",
+     "en": "Yes, Daddy Pig. We're all ready.",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 344.6,
+     "end": 346.7,
+     "ja": "でも車は違うみたい。",
+     "en": "But the car doesn't seem to be.",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 347.1,
+     "end": 349.3,
+     "ja": "降りて見てごらんなさい。",
+     "en": "Get out and take a look.",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 350.0,
+     "end": 352.2,
+     "ja": "こんなの大したことないよ。",
+     "en": "This is nothing.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 352.4,
+     "end": 354.5,
+     "ja": "中の方がもっと汚い。",
+     "en": "The inside is much dirtier.",
+     "speaker": "Daddy Pig"
+    }
+   ]
+  }
+ ],
+ "videoId": "Qu222xyAf80",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

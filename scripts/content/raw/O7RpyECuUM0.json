@@ -1,0 +1,148 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 57.1,
+   "end": 70.8,
+   "title": "Secret Romance at School",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "school",
+    "friends"
+   ],
+   "grammar": [
+    "〜じゃなくて — not A, but B",
+    "〜ちゃう — to end up doing accidentally",
+    "〜に決まってる — bound to be / of course"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 57.6,
+     "end": 60.0,
+     "ja": "LINEじゃなくて直接言えよ。",
+     "en": "Tell me in person, not over LINE.",
+     "speaker": "Keita"
+    },
+    {
+     "start": 60.7,
+     "end": 62.4,
+     "ja": "だってバレんじゃん。",
+     "en": "Because we'd get found out.",
+     "speaker": "Riku"
+    },
+    {
+     "start": 64.3,
+     "end": 67.3,
+     "ja": "クラスにバレちゃダメですか？",
+     "en": "Is it so bad if the class finds out?",
+     "speaker": "Keita"
+    },
+    {
+     "start": 67.9,
+     "end": 70.3,
+     "ja": "ダメに決まってんだろー。",
+     "en": "Of course it's bad!",
+     "speaker": "Riku"
+    }
+   ]
+  },
+  {
+   "start": 443.3,
+   "end": 458.8,
+   "title": "Walking to School Together",
+   "level": "N4",
+   "topics": [
+    "school",
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "〜すぎる — too much / excessively",
+    "〜てくれない — won't do for me"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 443.8,
+     "end": 446.0,
+     "ja": "さっきからあくびし過ぎな！",
+     "en": "You've been yawning way too much!",
+     "speaker": "Keita"
+    },
+    {
+     "start": 446.5,
+     "end": 450.0,
+     "ja": "だって啓太が寝かせてくんないんだも〜ん。",
+     "en": "Well, it's because Keita wouldn't let me sleep!",
+     "speaker": "Riku"
+    },
+    {
+     "start": 454.6,
+     "end": 456.0,
+     "ja": "ドS〜。",
+     "en": "You sadist~",
+     "speaker": "Riku"
+    },
+    {
+     "start": 456.3,
+     "end": 458.3,
+     "ja": "うっせぇ。莉久、寝相悪すぎ！",
+     "en": "Shut up. You toss and turn way too much, Riku!",
+     "speaker": "Keita"
+    }
+   ]
+  },
+  {
+   "start": 1455.0,
+   "end": 1470.0,
+   "title": "I Can't Return Your Feelings",
+   "level": "N3",
+   "topics": [
+    "school",
+    "romance"
+   ],
+   "grammar": [
+    "〜に答える — to respond to / answer",
+    "〜放課後 — after school"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1455.4,
+     "end": 1456.5,
+     "ja": "ごめん。",
+     "en": "I'm sorry.",
+     "speaker": "Riku"
+    },
+    {
+     "start": 1456.9,
+     "end": 1459.1,
+     "ja": "俺、美玲の気持ちには答えられない。",
+     "en": "I can't return your feelings, Mirei.",
+     "speaker": "Riku"
+    },
+    {
+     "start": 1459.7,
+     "end": 1460.6,
+     "ja": "えっ？",
+     "en": "Huh?",
+     "speaker": "Mirei"
+    },
+    {
+     "start": 1461.2,
+     "end": 1462.1,
+     "ja": "はい。",
+     "en": "Here.",
+     "speaker": "Riku"
+    }
+   ]
+  }
+ ],
+ "videoId": "O7RpyECuUM0",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

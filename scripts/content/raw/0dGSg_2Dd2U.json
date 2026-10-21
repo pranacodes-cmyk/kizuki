@@ -1,0 +1,122 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.5,
+   "end": 33.5,
+   "title": "Three Recommended Places in Japan",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "じゃない — not",
+    "〜を紹介する — to introduce"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 12.8,
+     "end": 15.5,
+     "ja": "今日のレッスンでは",
+     "en": "In today's lesson,",
+     "speaker": "Mei"
+    },
+    {
+     "start": 16.0,
+     "end": 24.0,
+     "ja": "東京、大阪、京都じゃない日本の",
+     "en": "places in Japan that aren't Tokyo, Osaka, or Kyoto...",
+     "speaker": "Mei"
+    },
+    {
+     "start": 24.5,
+     "end": 33.0,
+     "ja": "おすすめの場所を３つ紹介します。",
+     "en": "I will introduce three recommended places.",
+     "speaker": "Mei"
+    }
+   ]
+  },
+  {
+   "start": 125.8,
+   "end": 142.8,
+   "title": "First Recommendation: Ehime Prefecture",
+   "level": "N5",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "〜たことがある — to have ever done"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 126.0,
+     "end": 132.8,
+     "ja": "じゃあ、まず私のとってもおすすめの場所、",
+     "en": "So first, my highly recommended place,",
+     "speaker": "Mei"
+    },
+    {
+     "start": 133.0,
+     "end": 139.2,
+     "ja": "一つ目は、愛媛県、愛媛県です。",
+     "en": "the first one is Ehime Prefecture, Ehime Prefecture.",
+     "speaker": "Mei"
+    },
+    {
+     "start": 139.6,
+     "end": 142.3,
+     "ja": "聞いたことはありますか？",
+     "en": "Have you ever heard of it?",
+     "speaker": "Mei"
+    }
+   ]
+  },
+  {
+   "start": 366.5,
+   "end": 387.8,
+   "title": "Japan's Oldest Hot Spring",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜と言われている — it is said that",
+    "〜と言う — to be called"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 366.8,
+     "end": 377.0,
+     "ja": "まず、愛媛には日本で一番古いと言われている温泉があります。",
+     "en": "First, Ehime has a hot spring said to be the oldest in Japan.",
+     "speaker": "Mei"
+    },
+    {
+     "start": 377.3,
+     "end": 382.3,
+     "ja": "３０００年前からあると言われています。",
+     "en": "It is said to have existed since 3,000 years ago.",
+     "speaker": "Mei"
+    },
+    {
+     "start": 382.8,
+     "end": 387.5,
+     "ja": "道後温泉と言います。",
+     "en": "It's called Dogo Onsen.",
+     "speaker": "Mei"
+    }
+   ]
+  }
+ ],
+ "videoId": "0dGSg_2Dd2U",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

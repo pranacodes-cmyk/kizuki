@@ -1,0 +1,236 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 34.2,
+   "end": 50.6,
+   "title": "What Kind of Anime Is This?",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "comedy",
+    "animals"
+   ],
+   "grammar": [
+    "〜たり〜たりする — doing things like A and B",
+    "〜じゃない — tag question / right?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 34.5,
+     "end": 36.5,
+     "ja": "おじいちゃんや仲間たちと",
+     "en": "With Grandpa and my friends,",
+     "speaker": "つしま"
+    },
+    {
+     "start": 36.6,
+     "end": 40.0,
+     "ja": "寝たり、起きたり、食べたりする毎日を描いた、",
+     "en": "it depicts daily life sleeping, waking up, and eating...",
+     "speaker": "つしま"
+    },
+    {
+     "start": 40.1,
+     "end": 41.8,
+     "ja": "アクションアニメだよ。",
+     "en": "It's an action anime.",
+     "speaker": "つしま"
+    },
+    {
+     "start": 42.3,
+     "end": 44.0,
+     "ja": "アクションじゃないよね。",
+     "en": "It's not an action anime, is it?",
+     "speaker": "おじいちゃん"
+    },
+    {
+     "start": 44.3,
+     "end": 46.0,
+     "ja": "じゃあ、サスペンスで。",
+     "en": "Then let's call it suspense.",
+     "speaker": "ちゃー"
+    },
+    {
+     "start": 46.1,
+     "end": 46.9,
+     "ja": "いやいや。",
+     "en": "No, no.",
+     "speaker": "おじいちゃん"
+    },
+    {
+     "start": 47.1,
+     "end": 48.3,
+     "ja": "ホラー？",
+     "en": "Horror?",
+     "speaker": "ズン姐さん"
+    },
+    {
+     "start": 48.5,
+     "end": 50.2,
+     "ja": "感動作だ。",
+     "en": "It's a heartwarming tearjerker.",
+     "speaker": "オサム"
+    }
+   ]
+  },
+  {
+   "start": 52.4,
+   "end": 117.8,
+   "title": "The Neighborhood Boss Cat",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ねえ — seeking agreement / exclamation",
+    "〜風に — in such a manner",
+    "〜こと多い — happens often"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 52.8,
+     "end": 55.2,
+     "ja": "わあ、でっかい猫！",
+     "en": "Whoa, look at that huge cat!",
+     "speaker": "女の子"
+    },
+    {
+     "start": 55.6,
+     "end": 57.0,
+     "ja": "でっかいねえ。",
+     "en": "He sure is big.",
+     "speaker": "父親"
+    },
+    {
+     "start": 57.1,
+     "end": 59.0,
+     "ja": "あれはボス猫だね。",
+     "en": "That must be the boss cat.",
+     "speaker": "父親"
+    },
+    {
+     "start": 59.2,
+     "end": 61.0,
+     "ja": "俺、人間から…",
+     "en": "From humans, I...",
+     "speaker": "つしま"
+    },
+    {
+     "start": 62.0,
+     "end": 63.5,
+     "ja": "あ、ちわ親方！",
+     "en": "Hey, 'sup, Boss!",
+     "speaker": "男の子"
+    },
+    {
+     "start": 63.7,
+     "end": 66.0,
+     "ja": "いつも恰幅がいいねえ！",
+     "en": "Looking mighty plump as always!",
+     "speaker": "男の子"
+    },
+    {
+     "start": 66.4,
+     "end": 68.5,
+     "ja": "結構、見た目で…",
+     "en": "Mainly based on my looks...",
+     "speaker": "つしま"
+    },
+    {
+     "start": 69.5,
+     "end": 70.8,
+     "ja": "あ、親分！",
+     "en": "Ah, Chief!",
+     "speaker": "女子高生A"
+    },
+    {
+     "start": 71.0,
+     "end": 73.6,
+     "ja": "本当だ、親分ー！",
+     "en": "It really is! Chief!",
+     "speaker": "女子高生B"
+    },
+    {
+     "start": 74.0,
+     "end": 77.4,
+     "ja": "こんな風に呼ばれること多いんだけど、",
+     "en": "I get called things like that a lot, but...",
+     "speaker": "つしま"
+    }
+   ]
+  },
+  {
+   "start": 118.5,
+   "end": 134.9,
+   "title": "A Softie on the Inside",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜たくなる — come to want to do",
+    "〜じゃん — isn't it / aren't you",
+    "〜しかいない — there is only / have only"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 119.0,
+     "end": 120.5,
+     "ja": "痛てて…",
+     "en": "Ow, ow, ow...",
+     "speaker": "おじいちゃん"
+    },
+    {
+     "start": 120.8,
+     "end": 124.0,
+     "ja": "実は全然そんな柄じゃないんだよね。",
+     "en": "Actually, I'm not that kind of character at all.",
+     "speaker": "つしま"
+    },
+    {
+     "start": 124.2,
+     "end": 125.4,
+     "ja": "抱っこ。",
+     "en": "Hold me.",
+     "speaker": "つしま"
+    },
+    {
+     "start": 125.8,
+     "end": 129.4,
+     "ja": "急にものすごく甘えたくなっちゃったの？",
+     "en": "Did you suddenly just want to be pampered like crazy?",
+     "speaker": "おじいちゃん"
+    },
+    {
+     "start": 129.6,
+     "end": 131.4,
+     "ja": "赤ちゃんじゃん。",
+     "en": "You're such a baby.",
+     "speaker": "おじいちゃん"
+    },
+    {
+     "start": 131.8,
+     "end": 134.4,
+     "ja": "手下、こいつぐらいしかいないし。",
+     "en": "Besides, this guy is pretty much my only minion.",
+     "speaker": "つしま"
+    }
+   ]
+  }
+ ],
+ "videoId": "-wT3gf3rHhM",
+ "pickTopics": [
+  "anime",
+  "animals",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

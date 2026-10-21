@@ -1,0 +1,136 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.3,
+   "end": 17.2,
+   "title": "Holo's Secret Tell",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "romance"
+   ],
+   "grammar": [
+    "〜としたら — if we assume that",
+    "〜たのが見えた — saw that ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 3.2,
+     "ja": "銀の純度は上がっていたのか？下がっていたのか？",
+     "en": "Did the silver purity go up, or did it go down?",
+     "speaker": "Lawrence"
+    },
+    {
+     "start": 3.5,
+     "end": 6.8,
+     "ja": "かまかけだとしたら、ぬしも上手くなったの。",
+     "en": "If that was a bluff, you've gotten quite skilled yourself.",
+     "speaker": "Holo"
+    },
+    {
+     "start": 7.1,
+     "end": 8.8,
+     "ja": "耳が動いたのが見えた。",
+     "en": "I saw your ears twitch.",
+     "speaker": "Lawrence"
+    },
+    {
+     "start": 8.9,
+     "end": 11.0,
+     "ja": "ふふ、油断ならぬな。",
+     "en": "Heh, I can't let my guard down around you.",
+     "speaker": "Holo"
+    },
+    {
+     "start": 11.2,
+     "end": 14.2,
+     "ja": "驚いたのは、お前がそれを言わなかったことだ。",
+     "en": "What surprised me was that you didn't mention it.",
+     "speaker": "Lawrence"
+    },
+    {
+     "start": 14.5,
+     "end": 17.0,
+     "ja": "それはまあ、お礼みたいなものじゃ。",
+     "en": "Well, think of that as a sort of thank-you.",
+     "speaker": "Holo"
+    }
+   ]
+  },
+  {
+   "start": 17.0,
+   "end": 35.3,
+   "title": "A Foolish Jealousy",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "romance",
+    "comedy"
+   ],
+   "grammar": [
+    "〜とった — ongoing state (contraction)",
+    "〜ばかり — nothing but / full of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.2,
+     "end": 18.2,
+     "ja": "お礼？",
+     "en": "A thank-you?",
+     "speaker": "Lawrence"
+    },
+    {
+     "start": 18.4,
+     "end": 20.7,
+     "ja": "ぬし、さっき妬いとったじゃろ？",
+     "en": "You were jealous earlier, weren't you?",
+     "speaker": "Holo"
+    },
+    {
+     "start": 21.0,
+     "end": 22.5,
+     "ja": "そのお礼じゃ。",
+     "en": "That's my thanks for it.",
+     "speaker": "Holo"
+    },
+    {
+     "start": 22.8,
+     "end": 24.7,
+     "ja": "気にすることはない。",
+     "en": "Don't pay it any mind.",
+     "speaker": "Holo"
+    },
+    {
+     "start": 24.9,
+     "end": 28.0,
+     "ja": "雄どもは皆、阿呆の妬きモチ焼きじゃからの。",
+     "en": "Males are all foolish, jealous creatures after all.",
+     "speaker": "Holo"
+    },
+    {
+     "start": 28.2,
+     "end": 32.7,
+     "ja": "そして、雌もそんなことが嬉しい阿呆じゃからの。",
+     "en": "And females are fools who are delighted by such things.",
+     "speaker": "Holo"
+    },
+    {
+     "start": 33.0,
+     "end": 34.9,
+     "ja": "どこ見ても阿呆ばかりじゃ。",
+     "en": "Everywhere you look, there's nothing but fools.",
+     "speaker": "Holo"
+    }
+   ]
+  }
+ ],
+ "videoId": "pzGb4lwDtBU",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

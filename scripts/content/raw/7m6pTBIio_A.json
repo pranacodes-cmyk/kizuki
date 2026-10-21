@@ -1,0 +1,272 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.2,
+   "end": 31.2,
+   "title": "Requesting Permission to Raid",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ないと — must do (short for 〜ないといけない)",
+    "〜場合じゃない — not the time to be doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.2,
+     "end": 12.7,
+     "ja": "失礼します。",
+     "en": "Excuse me.",
+     "speaker": "Detective"
+    },
+    {
+     "start": 13.1,
+     "end": 15.7,
+     "ja": "所轄が捜査本部に何の用？",
+     "en": "What business does a precinct officer have at headquarters?",
+     "speaker": "Chief"
+    },
+    {
+     "start": 16.1,
+     "end": 18.6,
+     "ja": "現場への突入許可をお願いします。",
+     "en": "Please grant permission to raid the scene.",
+     "speaker": "Detective"
+    },
+    {
+     "start": 18.9,
+     "end": 20.5,
+     "ja": "またそんな勝手なこと…",
+     "en": "Again with this reckless request...",
+     "speaker": "Chief"
+    },
+    {
+     "start": 20.6,
+     "end": 23.7,
+     "ja": "犯人は危険です！今すぐにでも突入しないと！",
+     "en": "The suspect is dangerous! We have to raid right now!",
+     "speaker": "Detective"
+    },
+    {
+     "start": 23.9,
+     "end": 26.8,
+     "ja": "もしここで突入して失敗したら責任問題よ。",
+     "en": "If we raid now and fail, it'll become a matter of liability.",
+     "speaker": "Chief"
+    },
+    {
+     "start": 26.9,
+     "end": 29.0,
+     "ja": "今そんなこと言ってる場合じゃないでしょう！",
+     "en": "This is no time to be saying things like that!",
+     "speaker": "Detective"
+    },
+    {
+     "start": 29.1,
+     "end": 31.0,
+     "ja": "警察の立場はどうなるの？",
+     "en": "What will happen to the police's reputation?",
+     "speaker": "Chief"
+    }
+   ]
+  },
+  {
+   "start": 51.3,
+   "end": 75.2,
+   "title": "Why Are You Yelling?",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜かどうか — whether or not",
+    "〜もん — because / giving an excuse"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 51.3,
+     "end": 53.6,
+     "ja": "何大きい声出してんの？",
+     "en": "Why are you yelling?",
+     "speaker": "Chief"
+    },
+    {
+     "start": 53.9,
+     "end": 56.2,
+     "ja": "ねぇ、何で大きい声出すの？",
+     "en": "Hey, why are you raising your voice?",
+     "speaker": "Chief"
+    },
+    {
+     "start": 56.4,
+     "end": 59.0,
+     "ja": "すっごい大きい声出したよね、今？",
+     "en": "You just shouted really loud, didn't you?",
+     "speaker": "Chief"
+    },
+    {
+     "start": 60.0,
+     "end": 62.3,
+     "ja": "現場への突入許可をお願いします…",
+     "en": "Please grant permission to raid the scene...",
+     "speaker": "Detective"
+    },
+    {
+     "start": 62.5,
+     "end": 64.5,
+     "ja": "大きい声出しただろ？",
+     "en": "You yelled, didn't you?",
+     "speaker": "Chief"
+    },
+    {
+     "start": 65.7,
+     "end": 67.4,
+     "ja": "現場は一刻を争うんです！",
+     "en": "Every second counts on the scene!",
+     "speaker": "Detective"
+    },
+    {
+     "start": 67.5,
+     "end": 69.1,
+     "ja": "一刻を争うじゃないよ。",
+     "en": "Forget 'every second counts.'",
+     "speaker": "Chief"
+    },
+    {
+     "start": 69.2,
+     "end": 71.0,
+     "ja": "大きい声出したかどうか聞いてんだ！",
+     "en": "I'm asking if you raised your voice!",
+     "speaker": "Chief"
+    },
+    {
+     "start": 71.1,
+     "end": 73.0,
+     "ja": "すっごい大きかったよ？",
+     "en": "It was super loud, you know?",
+     "speaker": "Chief"
+    },
+    {
+     "start": 73.2,
+     "end": 75.0,
+     "ja": "まだ耳キーンとしてるもん。",
+     "en": "My ears are still ringing, in fact.",
+     "speaker": "Chief"
+    }
+   ]
+  },
+  {
+   "start": 138.1,
+   "end": 155.3,
+   "title": "Louder Than Gunfire",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜より — more than",
+    "〜でしょう — right? / don't you agree?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 138.1,
+     "end": 139.8,
+     "ja": "はい、こちら捜査本部。",
+     "en": "Yes, this is headquarters.",
+     "speaker": "Chief"
+    },
+    {
+     "start": 140.0,
+     "end": 141.3,
+     "ja": "何ですって？現場で銃声？",
+     "en": "What did you say? Gunfire at the scene?",
+     "speaker": "Chief"
+    },
+    {
+     "start": 141.4,
+     "end": 142.3,
+     "ja": "銃声！？",
+     "en": "Gunfire!?",
+     "speaker": "Detective"
+    },
+    {
+     "start": 142.4,
+     "end": 143.8,
+     "ja": "分かった、すぐに指示を出す。",
+     "en": "Understood, I will issue orders right away.",
+     "speaker": "Chief"
+    },
+    {
+     "start": 144.0,
+     "end": 144.9,
+     "ja": "いい？よく聞いて。",
+     "en": "Got it? Listen carefully.",
+     "speaker": "Chief"
+    },
+    {
+     "start": 145.0,
+     "end": 145.5,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Detective"
+    },
+    {
+     "start": 145.6,
+     "end": 146.7,
+     "ja": "何で大きい声出すの？",
+     "en": "Why are you yelling?",
+     "speaker": "Chief"
+    },
+    {
+     "start": 146.8,
+     "end": 148.4,
+     "ja": "大きい声、もういいでしょう！",
+     "en": "Drop the yelling thing already!",
+     "speaker": "Detective"
+    },
+    {
+     "start": 148.5,
+     "end": 150.1,
+     "ja": "現場で銃声聞こえたんですよ！？",
+     "en": "They heard gunshots at the scene!",
+     "speaker": "Detective"
+    },
+    {
+     "start": 150.2,
+     "end": 151.7,
+     "ja": "銃声より大きかった！",
+     "en": "You were louder than the gunshots!",
+     "speaker": "Chief"
+    },
+    {
+     "start": 151.8,
+     "end": 153.0,
+     "ja": "そんなことねえよ！",
+     "en": "No way in hell!",
+     "speaker": "Detective"
+    },
+    {
+     "start": 153.1,
+     "end": 154.9,
+     "ja": "いいえ、大きかった！",
+     "en": "Yes, you were louder!",
+     "speaker": "Chief"
+    }
+   ]
+  }
+ ],
+ "videoId": "7m6pTBIio_A",
+ "pickTopics": [
+  "fun",
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

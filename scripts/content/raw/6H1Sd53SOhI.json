@@ -1,0 +1,114 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.8,
+   "end": 29.8,
+   "title": "Who Decides My Life?",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "school"
+   ],
+   "grammar": [
+    "〜ようとする — try to do",
+    "〜と思う — think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.0,
+     "end": 20.3,
+     "ja": "なんだってみんな俺の人生を決めようとしやがるんだ？",
+     "en": "Why does everyone keep trying to decide my life for me?",
+     "speaker": "Lupin"
+    },
+    {
+     "start": 20.4,
+     "end": 22.3,
+     "ja": "どうして俺を言いなりにできると思うんだよ！",
+     "en": "Why do you think I'll just do as I'm told?!",
+     "speaker": "Lupin"
+    },
+    {
+     "start": 26.0,
+     "end": 28.0,
+     "ja": "ボンボンの火遊びならお門違いだぜ。",
+     "en": "If this is a rich boy playing with fire, you've come to the wrong place.",
+     "speaker": "Jigen"
+    },
+    {
+     "start": 28.2,
+     "end": 29.5,
+     "ja": "こっちはビジネスなんだ。",
+     "en": "This is business for me.",
+     "speaker": "Jigen"
+    }
+   ]
+  },
+  {
+   "start": 33.1,
+   "end": 46.0,
+   "title": "The Way of a Thief",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "family"
+   ],
+   "grammar": [
+    "〜というのは — the thing called...",
+    "〜しかない — have no choice but to"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 33.3,
+     "end": 35.1,
+     "ja": "泥棒って生き方はな、",
+     "en": "Living as a thief...",
+     "speaker": "Man"
+    },
+    {
+     "start": 35.3,
+     "end": 37.0,
+     "ja": "たくさん失うってことでもある。",
+     "en": "means losing a whole lot, too.",
+     "speaker": "Man"
+    },
+    {
+     "start": 37.3,
+     "end": 39.0,
+     "ja": "親父も、失ったのか？",
+     "en": "Did you lose things too, Dad?",
+     "speaker": "Lupin"
+    },
+    {
+     "start": 39.4,
+     "end": 40.2,
+     "ja": "行け。",
+     "en": "Go.",
+     "speaker": "Man"
+    },
+    {
+     "start": 42.6,
+     "end": 44.5,
+     "ja": "やはり、わしの跡を継ぐのは",
+     "en": "It seems that following in my footsteps...",
+     "speaker": "Elder"
+    },
+    {
+     "start": 44.6,
+     "end": 45.9,
+     "ja": "あいつしかおらんようだ。",
+     "en": "...can only be him.",
+     "speaker": "Elder"
+    }
+   ]
+  }
+ ],
+ "videoId": "6H1Sd53SOhI",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

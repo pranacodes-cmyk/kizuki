@@ -1,0 +1,231 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.59,
+   "end": 2.14,
+   "title": "Pants on Backwards",
+   "level": "N4",
+   "topics": [
+    "family",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜たら — when/if",
+    "〜た瞬間 — the moment that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.598,
+     "end": 2.028,
+     "ja": "これ、前・後ろ逆やんな、ズボン。",
+     "en": "These pants are on backwards, aren't they?",
+     "speaker": "Dad"
+    },
+    {
+     "start": 2.03,
+     "end": 2.041,
+     "ja": "逆かも。",
+     "en": "They might be.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 2.042,
+     "end": 2.062,
+     "ja": "今日朝な、5時くらいに着替えさせたら、",
+     "en": "When I changed him this morning around 5 o'clock,",
+     "speaker": "Dad"
+    },
+    {
+     "start": 2.063,
+     "end": 2.074,
+     "ja": "逆やった〜。",
+     "en": "they ended up backwards.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 2.074,
+     "end": 2.081,
+     "ja": "逆やった？",
+     "en": "They were?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 2.082,
+     "end": 2.096,
+     "ja": "寝ぼけて。上げた瞬間、",
+     "en": "I was half asleep. The moment I pulled them up,",
+     "speaker": "Dad"
+    },
+    {
+     "start": 2.097,
+     "end": 2.118,
+     "ja": "「うわ、逆かも。まぁいいか。」",
+     "en": "I thought, \"Whoops, might be backwards. Oh well.\"",
+     "speaker": "Dad"
+    },
+    {
+     "start": 2.12,
+     "end": 2.138,
+     "ja": "まぁまぁ、いいでしょう。",
+     "en": "Well, it's fine.",
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
+   "start": 2.14,
+   "end": 2.345,
+   "title": "Happy to Go to Preschool",
+   "level": "N3",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくる — do and come back",
+    "〜ていた — past continuous",
+    "〜より — compared to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2.142,
+     "end": 2.168,
+     "ja": "今なこを送って帰ってきました。",
+     "en": "I just dropped Nako off and got back.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 2.17,
+     "end": 2.22,
+     "ja": "もうなこは、今週全部機嫌よくずっと行ってるな。",
+     "en": "Nako has been going happily all week.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 2.221,
+     "end": 2.237,
+     "ja": "怒ることもない、朝から。",
+     "en": "She hasn't thrown any tantrums from the morning.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 2.238,
+     "end": 2.248,
+     "ja": "回復したな。",
+     "en": "She's recovered.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 2.249,
+     "end": 2.263,
+     "ja": "インフルにかかってて、先週は。",
+     "en": "She had the flu last week.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 2.264,
+     "end": 2.288,
+     "ja": "今週はもう「行く？」って言うたら、「あぁ、行く！」",
+     "en": "This week when I ask, \"Wanna go?\", she's like, \"Yeah, let's go!\"",
+     "speaker": "Dad"
+    },
+    {
+     "start": 2.289,
+     "end": 2.301,
+     "ja": "楽しいんやろな。",
+     "en": "She must be having fun.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 2.302,
+     "end": 2.312,
+     "ja": "家におるより。",
+     "en": "More than being at home.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 2.313,
+     "end": 2.32,
+     "ja": "そやと思う。",
+     "en": "I think so.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 2.321,
+     "end": 2.342,
+     "ja": "今は保育園が楽しくて。",
+     "en": "Right now she loves preschool.",
+     "speaker": "Dad"
+    }
+   ]
+  },
+  {
+   "start": 6.37,
+   "end": 6.556,
+   "title": "Online Meeting for a Collab",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ておりまして — humble continuous form",
+    "〜させてもらう — to be permitted to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.373,
+     "end": 6.4,
+     "ja": "お昼ご飯食べて、帰ってきて、",
+     "en": "We ate lunch and came back home,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 6.402,
+     "end": 6.425,
+     "ja": "今からコラボのミーティングをします。",
+     "en": "and now I'm having a meeting for a collaboration.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 6.427,
+     "end": 6.456,
+     "ja": "もう来年の秋冬のコラボが決まっておりまして、",
+     "en": "Our collaboration for next fall and winter is already confirmed,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 6.458,
+     "end": 6.5,
+     "ja": "毎年ありがたいことにお洋服のコラボさせてもらうことが多くて、",
+     "en": "and thankfully I often get to do clothing collabs every year,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 6.501,
+     "end": 6.518,
+     "ja": "すでにワクワクしております。",
+     "en": "so I'm already super excited.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 6.52,
+     "end": 6.554,
+     "ja": "このモニターで資料を見て、こっちで会話します。",
+     "en": "I'll look at the documents on this monitor and chat on this side.",
+     "speaker": "Mom"
+    }
+   ]
+  }
+ ],
+ "videoId": "MpdEdskoFKI",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

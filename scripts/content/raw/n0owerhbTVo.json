@@ -1,0 +1,163 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 9.5,
+   "end": 21.8,
+   "title": "Trying on a Sweater",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てくる — change of state over time",
+    "〜て重宝する — to come in handy"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.5,
+     "end": 11.3,
+     "ja": "おー、ええやんけ。",
+     "en": "Oh, lookin' good.",
+     "speaker": "Brown Cat"
+    },
+    {
+     "start": 11.3,
+     "end": 14.8,
+     "ja": "これから寒うなるからな、セーターは重宝すんで。",
+     "en": "It's gonna get cold from now on, so a sweater'll come in handy.",
+     "speaker": "Brown Cat"
+    },
+    {
+     "start": 15.0,
+     "end": 17.2,
+     "ja": "とってもお似合いですよ！",
+     "en": "It looks very good on you!",
+     "speaker": "Shop Clerk"
+    },
+    {
+     "start": 17.3,
+     "end": 20.1,
+     "ja": "首のとこ締め付けられてキモいにゃ。",
+     "en": "It's tight around my neck and feels gross, nya.",
+     "speaker": "Yanineko"
+    },
+    {
+     "start": 20.2,
+     "end": 21.8,
+     "ja": "慣れや、慣れ。",
+     "en": "You'll get used to it!",
+     "speaker": "Brown Cat"
+    }
+   ]
+  },
+  {
+   "start": 44.2,
+   "end": 56.0,
+   "title": "Only Three Hundred Yen",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "comedy",
+    "friends"
+   ],
+   "grammar": [
+    "〜と思って — thinking that...",
+    "〜しかない — have no choice but / only have"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.2,
+     "end": 47.3,
+     "ja": "ご、ごめんなさい！ボロ布だと思って…",
+     "en": "I-I'm sorry! I thought it was a rag...",
+     "speaker": "Shop Clerk"
+    },
+    {
+     "start": 47.4,
+     "end": 50.0,
+     "ja": "ま、まあ似たようなもんやしな。",
+     "en": "W-Well, it's pretty much the same thing.",
+     "speaker": "Brown Cat"
+    },
+    {
+     "start": 50.1,
+     "end": 52.5,
+     "ja": "しゃあない。ヤニねこ、なんか服買うて帰ろ。",
+     "en": "Can't be helped. Yanineko, let's buy some clothes and go home.",
+     "speaker": "Brown Cat"
+    },
+    {
+     "start": 52.6,
+     "end": 54.4,
+     "ja": "300円しかないにゃ。",
+     "en": "I only have 300 yen, nya.",
+     "speaker": "Yanineko"
+    },
+    {
+     "start": 54.5,
+     "end": 55.9,
+     "ja": "何しに来たんじゃ！",
+     "en": "What did you even come here for?!",
+     "speaker": "Brown Cat"
+    }
+   ]
+  },
+  {
+   "start": 113.5,
+   "end": 125.7,
+   "title": "That's Not Being Clumsy!",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てしまう — expressing regret or completion",
+    "〜と認識する — to perceive as..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 113.5,
+     "end": 118.0,
+     "ja": "臭かったんで、ゴミ箱じゃなくてガソリンで完全に炭にしてしまいました…",
+     "en": "It smelled bad, so instead of the trash bin, I used gasoline to burn it completely to ash...",
+     "speaker": "Shop Clerk"
+    },
+    {
+     "start": 118.1,
+     "end": 120.0,
+     "ja": "イカレとんのか！？",
+     "en": "Are you out of your mind?!",
+     "speaker": "Brown Cat"
+    },
+    {
+     "start": 120.1,
+     "end": 122.0,
+     "ja": "私、すごーいドジで…",
+     "en": "I'm just super clumsy...",
+     "speaker": "Shop Clerk"
+    },
+    {
+     "start": 122.1,
+     "end": 125.6,
+     "ja": "お前、人の服にガソリンで火ぃつける行為をドジって認識しとんのか！？",
+     "en": "You consider lighting someone's clothes on fire with gasoline being \"clumsy\"?!",
+     "speaker": "Brown Cat"
+    }
+   ]
+  }
+ ],
+ "videoId": "n0owerhbTVo",
+ "pickTopics": [
+  "anime",
+  "fun",
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

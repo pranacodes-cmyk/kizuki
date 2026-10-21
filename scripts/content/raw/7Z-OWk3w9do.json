@@ -1,0 +1,155 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.3,
+   "end": 34.8,
+   "title": "Watching Hana-chan",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily",
+    "anime"
+   ],
+   "grammar": [
+    "〜てくる — go and do",
+    "〜てね — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.6,
+     "end": 26.5,
+     "ja": "しまじろう、ちょっと2階でアイロンかけてくるから",
+     "en": "Shimajiro, I'm going upstairs to iron for a bit,",
+     "speaker": "Mother"
+    },
+    {
+     "start": 26.5,
+     "end": 28.0,
+     "ja": "はなちゃん見ててね。",
+     "en": "so watch Hana-chan, okay?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 28.3,
+     "end": 29.8,
+     "ja": "うん、分かった！",
+     "en": "Yeah, got it!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 31.0,
+     "end": 34.6,
+     "ja": "出た！正義のヒーロー、しまじろう号で出発！",
+     "en": "Here he comes! The hero of justice sets off in the Shimajiro-go!",
+     "speaker": "Shimajiro"
+    }
+   ]
+  },
+  {
+   "start": 427.6,
+   "end": 444.6,
+   "title": "Wilted Flowers at the Florist",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "friends",
+    "anime"
+   ],
+   "grammar": [
+    "〜んだって — hearsay / I heard that",
+    "〜てない — not doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 427.7,
+     "end": 432.2,
+     "ja": "ねえ、みみりん。お花屋さんって、枯れた花はどうするの？",
+     "en": "Hey, Mimirin. What does a flower shop do with withered flowers?",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 433.0,
+     "end": 436.5,
+     "ja": "もったいないけど、捨てちゃうんだって。",
+     "en": "It's a waste, but I heard they just throw them away.",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 436.9,
+     "end": 439.4,
+     "ja": "ふーん、何だか可哀想。",
+     "en": "Hmm, that kind of seems sad.",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 441.2,
+     "end": 442.2,
+     "ja": "えっ、何？",
+     "en": "Huh? What?",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 442.4,
+     "end": 444.3,
+     "ja": "みみりん、何も言ってないわよ。",
+     "en": "Mimirin didn't say anything.",
+     "speaker": "Mimirin"
+    }
+   ]
+  },
+  {
+   "start": 1045.7,
+   "end": 1058.0,
+   "title": "The Cherry Blossom Front",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family",
+    "anime"
+   ],
+   "grammar": [
+    "〜ほど — the more... the more...",
+    "〜ば — conditional if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1045.7,
+     "end": 1047.8,
+     "ja": "桜前線って言ってね、",
+     "en": "It's called the cherry blossom front, you see.",
+     "speaker": "Father"
+    },
+    {
+     "start": 1047.8,
+     "end": 1051.1,
+     "ja": "桜は場所によって咲く時期が違うんだ。",
+     "en": "Cherry blossoms bloom at different times depending on the location.",
+     "speaker": "Father"
+    },
+    {
+     "start": 1051.4,
+     "end": 1054.4,
+     "ja": "北の寒いところほど遅く咲くんだよ。",
+     "en": "The colder and further north it is, the later they bloom.",
+     "speaker": "Father"
+    },
+    {
+     "start": 1054.9,
+     "end": 1057.6,
+     "ja": "だから、北の方へ行けばまだ咲いているかもしれない。",
+     "en": "So, if we go north, they might still be blooming.",
+     "speaker": "Father"
+    }
+   ]
+  }
+ ],
+ "videoId": "7Z-OWk3w9do",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

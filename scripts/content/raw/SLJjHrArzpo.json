@@ -1,0 +1,158 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.2,
+   "end": 24.5,
+   "title": "Is the Cute One the Real One?",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "という可能性 — possibility that...",
+    "〜てくる — do and come back",
+    "って事は — which means..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.5,
+     "end": 3.0,
+     "ja": "あっちが偽物という可能性はないか？",
+     "en": "Isn't there a chance that one over there is the fake?",
+     "speaker": "Galilea"
+    },
+    {
+     "start": 3.1,
+     "end": 4.6,
+     "ja": "何言ってるのよ、ガリレア！",
+     "en": "What are you saying, Galilea!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 4.6,
+     "end": 6.5,
+     "ja": "グリモの方がずっと……",
+     "en": "Grimo is way more...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 7.5,
+     "end": 9.0,
+     "ja": "おーい！",
+     "en": "Hey!",
+     "speaker": "Grimo"
+    },
+    {
+     "start": 9.5,
+     "end": 13.2,
+     "ja": "お前らの分パンケーキもらってきた！",
+     "en": "I got pancakes for you guys too!",
+     "speaker": "Grimo"
+    },
+    {
+     "start": 13.5,
+     "end": 15.3,
+     "ja": "寝たー",
+     "en": "He fell asleep...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 15.5,
+     "end": 17.0,
+     "ja": "寝たねー",
+     "en": "Sure did...",
+     "speaker": "Galilea"
+    },
+    {
+     "start": 17.3,
+     "end": 19.8,
+     "ja": "ずっと……ラブリーね。",
+     "en": "Way more... lovely.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 19.9,
+     "end": 21.8,
+     "ja": "だよな〜〜",
+     "en": "Totally~~",
+     "speaker": "Galilea"
+    },
+    {
+     "start": 21.9,
+     "end": 23.2,
+     "ja": "って事はまさか！？",
+     "en": "Wait, then does that mean...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 23.2,
+     "end": 24.5,
+     "ja": "アイツ本物？",
+     "en": "...that guy's the real one?!",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 66.8,
+   "end": 84.2,
+   "title": "Not Even a Majin",
+   "level": "N2",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜ですら — not even",
+    "〜とけ — do in advance (contraction of ておけ)",
+    "〜しろ — command form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 67.0,
+     "end": 68.5,
+     "ja": "なんだ……",
+     "en": "What the...",
+     "speaker": "Grimo"
+    },
+    {
+     "start": 68.6,
+     "end": 71.5,
+     "ja": "中身は魔人ですらねぇじゃねぇか。",
+     "en": "What's inside isn't even a Majin.",
+     "speaker": "Grimo"
+    },
+    {
+     "start": 72.0,
+     "end": 76.0,
+     "ja": "ほれ、お前らそいつ浄化しとけよ。",
+     "en": "Here, you guys go purify that thing.",
+     "speaker": "Grimo"
+    },
+    {
+     "start": 77.5,
+     "end": 82.3,
+     "ja": "それからガリレアは街中に空いた穴を塞ぐ事に専念しろ！",
+     "en": "And Galilea, focus on filling up the holes opened around town!",
+     "speaker": "Grimo"
+    },
+    {
+     "start": 82.5,
+     "end": 84.2,
+     "ja": "は、はい！",
+     "en": "Y-Yes!",
+     "speaker": "Galilea"
+    }
+   ]
+  }
+ ],
+ "videoId": "SLJjHrArzpo",
+ "pickTopics": [
+  "anime",
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

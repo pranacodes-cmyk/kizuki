@@ -1,0 +1,186 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 20.8,
+   "end": 32.8,
+   "title": "Do You Have a Pet?",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜ている — ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 21.0,
+     "end": 23.0,
+     "ja": "ペットを飼う。",
+     "en": "Having a pet.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 23.3,
+     "end": 26.0,
+     "ja": "皆さん、ペットを飼っていますか？",
+     "en": "Everyone, do you have a pet?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 26.5,
+     "end": 29.2,
+     "ja": "どんなペットを飼っていますか？",
+     "en": "What kind of pet do you have?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 29.5,
+     "end": 31.0,
+     "ja": "犬ですか？",
+     "en": "A dog?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 31.2,
+     "end": 32.6,
+     "ja": "猫ですか？",
+     "en": "A cat?",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 58.6,
+   "end": 127.2,
+   "title": "Small Animals as Pets",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜じゃなくて — not A, but...",
+    "〜かもしれない — might/maybe"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 59.0,
+     "end": 61.8,
+     "ja": "犬や猫じゃなくて、",
+     "en": "Instead of a dog or a cat,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 62.2,
+     "end": 67.5,
+     "ja": "他の小動物を飼っている人もいるかな？",
+     "en": "I wonder if some people keep other small animals?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 68.0,
+     "end": 70.5,
+     "ja": "例えば、うさぎ。",
+     "en": "For example, a rabbit.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 71.7,
+     "end": 73.5,
+     "ja": "ハムスター。",
+     "en": "A hamster.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 75.2,
+     "end": 77.6,
+     "ja": "鳥は好きですか？",
+     "en": "Do you like birds?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 78.3,
+     "end": 80.0,
+     "ja": "オウム。",
+     "en": "A parrot.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 80.5,
+     "end": 82.5,
+     "ja": "そして、亀。",
+     "en": "And a turtle.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 83.0,
+     "end": 86.8,
+     "ja": "亀を飼っている人もいるかもしれないね。",
+     "en": "There might also be people who keep turtles.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 146.8,
+   "end": 208.0,
+   "title": "Caring for a Dog",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — if/when conditional",
+    "〜てもらう — to have someone do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 147.0,
+     "end": 148.8,
+     "ja": "飼い主さん。",
+     "en": "Pet owners.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 149.0,
+     "end": 153.4,
+     "ja": "犬を飼っていたら、毎日散歩に行きます。",
+     "en": "If you have a dog, you go for a walk every day.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 153.8,
+     "end": 157.2,
+     "ja": "公園で犬の散歩をします。",
+     "en": "You walk the dog in the park.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 158.0,
+     "end": 163.5,
+     "ja": "ペットが病気になったら、動物病院に行きます。",
+     "en": "If your pet gets sick, you go to the veterinary clinic.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 164.0,
+     "end": 167.5,
+     "ja": "獣医さんに見てもらいます。",
+     "en": "You have the veterinarian examine them.",
+     "speaker": "Noriko"
+    }
+   ]
+  }
+ ],
+ "videoId": "yOBZP14wf7M",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

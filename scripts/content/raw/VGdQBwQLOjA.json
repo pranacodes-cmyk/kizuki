@@ -1,0 +1,244 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.2,
+   "end": 66.6,
+   "title": "A Day Trip to Okayama Just for Ramen",
+   "level": "N3",
+   "topics": [
+    "food",
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜というと — speaking of / if you ask why",
+    "〜にいく — go to do something",
+    "〜くらい — to the extent of / as much as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.2,
+     "end": 45.3,
+     "ja": "はい！本日！",
+     "en": "Alright! Today!",
+     "speaker": "Hikakin"
+    },
+    {
+     "start": 45.3,
+     "end": 47.7,
+     "ja": "なんでこんなに早起きかというと、",
+     "en": "If you wonder why we're up so early,",
+     "speaker": "Hikakin"
+    },
+    {
+     "start": 47.7,
+     "end": 49.4,
+     "ja": "そう！朝から呼ばれてね！",
+     "en": "Right! We were called out early in the morning!",
+     "speaker": "Seikin"
+    },
+    {
+     "start": 49.4,
+     "end": 53.0,
+     "ja": "今からね、ラーメン食べに岡山県に行くんですよ！",
+     "en": "Right now, we're heading to Okayama Prefecture to eat ramen!",
+     "speaker": "Hikakin"
+    },
+    {
+     "start": 54.0,
+     "end": 57.6,
+     "ja": "もはやね、ラーメン評論家並みに気合が入っております！",
+     "en": "We're as fired up as actual ramen critics at this point!",
+     "speaker": "Hikakin"
+    },
+    {
+     "start": 57.8,
+     "end": 60.1,
+     "ja": "そうですね！こんな早起きしてね、",
+     "en": "Totally! Waking up this early,",
+     "speaker": "Seikin"
+    },
+    {
+     "start": 60.1,
+     "end": 64.6,
+     "ja": "東京からわざわざラーメン食べに岡山まで日帰りで行くってラーメン評論家くらいでしょ！",
+     "en": "Going on a day trip all the way from Tokyo to Okayama just for ramen is something only critics would do!",
+     "speaker": "Hikakin"
+    },
+    {
+     "start": 64.7,
+     "end": 66.6,
+     "ja": "完全に交通費のほうが高いから！",
+     "en": "The travel costs way more than the ramen!",
+     "speaker": "Hikakin"
+    }
+   ]
+  },
+  {
+   "start": 446.8,
+   "end": 471.2,
+   "title": "Why Open the Shop in Okayama?",
+   "level": "N3",
+   "topics": [
+    "food",
+    "work",
+    "travel"
+   ],
+   "grammar": [
+    "〜てもらいたい — want someone to do",
+    "〜ていた — habitual action in the past",
+    "〜とおもって — thinking that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 446.8,
+     "end": 450.4,
+     "ja": "なぜ岡山に開かれたんですか？",
+     "en": "Why did you decide to open here in Okayama?",
+     "speaker": "Seikin"
+    },
+    {
+     "start": 450.4,
+     "end": 452.4,
+     "ja": "私の今自宅が岡山でして、",
+     "en": "My home is currently in Okayama,",
+     "speaker": "Owner"
+    },
+    {
+     "start": 452.4,
+     "end": 455.3,
+     "ja": "岡山のみんなに食べてもらいたいと思って。 ",
+     "en": "and I wanted everyone here in Okayama to taste it.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 455.4,
+     "end": 457.4,
+     "ja": "東京で、もう好きで？",
+     "en": "Did you already love it back when you were in Tokyo?",
+     "speaker": "Hikakin"
+    },
+    {
+     "start": 457.5,
+     "end": 464.0,
+     "ja": "そうですね。東京医科大学…飯田橋のあそこにいたので、",
+     "en": "Yes. I was near Tokyo Medical University in Iidabashi,",
+     "speaker": "Owner"
+    },
+    {
+     "start": 464.1,
+     "end": 466.4,
+     "ja": "ずっと通ってたので。",
+     "en": "so I was a regular customer there all the time.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 466.5,
+     "end": 469.4,
+     "ja": "へえー！あ、じゃあ大ファンで、その味を岡山に！",
+     "en": "Wow! So as a huge fan, you brought that flavor to Okayama!",
+     "speaker": "Hikakin"
+    },
+    {
+     "start": 469.5,
+     "end": 471.0,
+     "ja": "はい！",
+     "en": "Yes!",
+     "speaker": "Owner"
+    }
+   ]
+  },
+  {
+   "start": 967.0,
+   "end": 989.5,
+   "title": "Commuting an Hour Just to Eat Ramen",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜ていた — continuous or habitual past action",
+    "〜ていく — to go and do",
+    "〜だけのために — solely for the sake of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 967.0,
+     "end": 971.8,
+     "ja": "当時僕あれだよ！くるり通ってた時、結構1時間くらいかけて通ってたんだよ。",
+     "en": "Back then, when I frequented Kururi, I used to take about an hour to commute there.",
+     "speaker": "Seikin"
+    },
+    {
+     "start": 972.0,
+     "end": 973.2,
+     "ja": "家からってこと？",
+     "en": "You mean from home?",
+     "speaker": "Hikakin"
+    },
+    {
+     "start": 973.2,
+     "end": 974.5,
+     "ja": "家から！そうそう！",
+     "en": "From home! Exactly!",
+     "speaker": "Seikin"
+    },
+    {
+     "start": 974.6,
+     "end": 976.0,
+     "ja": "わざわざ食べに行ってた！",
+     "en": "I went out of my way to eat there!",
+     "speaker": "Seikin"
+    },
+    {
+     "start": 976.0,
+     "end": 976.9,
+     "ja": "そのためだけに！",
+     "en": "Just for that!",
+     "speaker": "Seikin"
+    },
+    {
+     "start": 977.0,
+     "end": 980.6,
+     "ja": "僕もスーパーで働いてて、その勤務が終わって、",
+     "en": "I was working at a supermarket too, and after my shift ended,",
+     "speaker": "Hikakin"
+    },
+    {
+     "start": 980.7,
+     "end": 983.8,
+     "ja": "急いで行くと、間に合ったんだよね！夜。",
+     "en": "if I rushed over, I could make it in time at night!",
+     "speaker": "Hikakin"
+    },
+    {
+     "start": 983.9,
+     "end": 985.4,
+     "ja": "うん！うん！そう！",
+     "en": "Yeah! Yeah, totally!",
+     "speaker": "Seikin"
+    },
+    {
+     "start": 985.5,
+     "end": 989.5,
+     "ja": "わざわざね、山手線、総武線を乗り換え行ってたんですよ。",
+     "en": "I went all the way, transferring between the Yamanote and Sobu lines.",
+     "speaker": "Hikakin"
+    }
+   ]
+  }
+ ],
+ "videoId": "VGdQBwQLOjA",
+ "pickTopics": [
+  "food",
+  "travel",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

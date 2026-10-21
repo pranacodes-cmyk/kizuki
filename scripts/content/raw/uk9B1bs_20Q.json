@@ -1,0 +1,139 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 63.0,
+   "end": 78.0,
+   "title": "Exploring the World of Chichibu Meisen",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜にかけて — from... to... (time span)",
+    "〜ていく / 〜てくる — ongoing change over time"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 63.1,
+     "end": 68.8,
+     "ja": "大正から昭和初期にかけて、全国的な人気を誇った秩父銘仙。",
+     "en": "Chichibu Meisen boasted nationwide popularity from the Taisho era to the early Showa period.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 69.5,
+     "end": 73.3,
+     "ja": "秩父の絹はどうやって生まれ、そして受け継がれているのか？",
+     "en": "How was Chichibu's silk born, and how has it been passed down?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 74.3,
+     "end": 77.5,
+     "ja": "秩父銘仙の今を探訪します。",
+     "en": "We explore the present day of Chichibu Meisen.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 1271.5,
+   "end": 1289.2,
+   "title": "A Total Career Shift into Textile Craft",
+   "level": "N3",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜ってお伺いしてる — hearing/being told that (polite indirect quote)",
+    "〜ば — conditional (if/when)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1271.8,
+     "end": 1276.0,
+     "ja": "地域おこし協力隊の前は、前職があったとお伺いしてるんですけど、",
+     "en": "I heard you had a previous job before joining the Local Vitalization Cooperator program...",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 1276.1,
+     "end": 1277.5,
+     "ja": "何をされてたんですか？",
+     "en": "What were you doing?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 1277.8,
+     "end": 1220.0,
+     "ja": "都内で会社員してました。",
+     "en": "I was an office worker in Tokyo.",
+     "speaker": "Sekikawa"
+    },
+    {
+     "start": 1280.1,
+     "end": 1282.5,
+     "ja": "ＳＥって言えば分かりますかね？",
+     "en": "Would you understand if I said systems engineer?",
+     "speaker": "Sekikawa"
+    },
+    {
+     "start": 1283.0,
+     "end": 1285.8,
+     "ja": "はい。じゃあ全然もう業種は違うわけですよね？",
+     "en": "Yes. So that's a completely different industry, right?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 1285.9,
+     "end": 1288.8,
+     "ja": "そうですね。全く違うジャンルから飛び込んでますね。",
+     "en": "Yes, I jumped in from a totally different field.",
+     "speaker": "Sekikawa"
+    }
+   ]
+  },
+  {
+   "start": 1640.0,
+   "end": 1656.5,
+   "title": "From Chichibu to Paris for Fashion",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "travel",
+    "work"
+   ],
+   "grammar": [
+    "〜と同時に — at the same time as...",
+    "〜たのち — after doing..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1640.2,
+     "end": 1647.7,
+     "ja": "井深麗奈さんは秩父に生まれ、高校卒業と同時に服飾の学校へ行くため東京へ。",
+     "en": "Reina Ibuka was born in Chichibu, and right after graduating high school went to Tokyo for fashion school.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1648.2,
+     "end": 1656.2,
+     "ja": "ランジェリー会社へ就職したのち、デザインの勉強がしたくて単身フランス・パリへ渡りました。",
+     "en": "After working at a lingerie company, she moved to Paris, France on her own to study design.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "uk9B1bs_20Q",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

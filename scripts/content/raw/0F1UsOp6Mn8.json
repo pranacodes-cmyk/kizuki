@@ -1,0 +1,223 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 126.8,
+   "end": 141.2,
+   "title": "Putting What on a Burn?",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "がする — to smell, sound, or taste like something",
+    "けど — but / although"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 126.8,
+     "end": 128.0,
+     "ja": "薬？",
+     "en": "Medicine?",
+     "speaker": "Margaret"
+    },
+    {
+     "start": 128.0,
+     "end": 130.8,
+     "ja": "何か変な匂いがしますけど。",
+     "en": "It smells kind of weird, though.",
+     "speaker": "Margaret"
+    },
+    {
+     "start": 131.0,
+     "end": 132.4,
+     "ja": "これ何ですか？",
+     "en": "What is this?",
+     "speaker": "Margaret"
+    },
+    {
+     "start": 132.5,
+     "end": 133.8,
+     "ja": "茶色い。",
+     "en": "It's brown.",
+     "speaker": "Margaret"
+    },
+    {
+     "start": 134.0,
+     "end": 135.7,
+     "ja": "味噌です。",
+     "en": "It's miso.",
+     "speaker": "Ishikawa"
+    },
+    {
+     "start": 135.9,
+     "end": 137.8,
+     "ja": "はい？味噌？",
+     "en": "Huh? Miso?",
+     "speaker": "Margaret"
+    },
+    {
+     "start": 138.0,
+     "end": 140.8,
+     "ja": "お味噌汁のあの味噌ですか？",
+     "en": "Like the miso in miso soup?",
+     "speaker": "Margaret"
+    }
+   ]
+  },
+  {
+   "start": 202.0,
+   "end": 226.0,
+   "title": "First Aid for a Burn",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜と — conditional when/if",
+    "〜ないと — must do",
+    "〜場合じゃない — this is no time to..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 202.3,
+     "end": 204.0,
+     "ja": "それは気のせいです。",
+     "en": "That's just your imagination.",
+     "speaker": "Margaret"
+    },
+    {
+     "start": 204.3,
+     "end": 210.5,
+     "ja": "油や味噌を塗ると熱が逃げなくなって、火傷がもっとひどくなるんですよ。",
+     "en": "Oil or miso traps heat and makes burns worse.",
+     "speaker": "Margaret"
+    },
+    {
+     "start": 211.0,
+     "end": 213.0,
+     "ja": "細菌が入るかもしれません。",
+     "en": "Bacteria could get inside.",
+     "speaker": "Margaret"
+    },
+    {
+     "start": 213.2,
+     "end": 215.5,
+     "ja": "今すぐ洗い流さないと。",
+     "en": "We have to wash it off right now.",
+     "speaker": "Margaret"
+    },
+    {
+     "start": 216.0,
+     "end": 218.2,
+     "ja": "え？悪化するんですか？",
+     "en": "What? It makes it worse?",
+     "speaker": "Ishikawa"
+    },
+    {
+     "start": 218.5,
+     "end": 221.0,
+     "ja": "コンビニに行ってる場合じゃありません。",
+     "en": "This is no time to go to the convenience store.",
+     "speaker": "Margaret"
+    },
+    {
+     "start": 221.3,
+     "end": 223.7,
+     "ja": "石川さんの部屋に戻りましょう。",
+     "en": "Let's go back to your room, Ishikawa.",
+     "speaker": "Margaret"
+    },
+    {
+     "start": 224.0,
+     "end": 225.8,
+     "ja": "すぐに処置します。",
+     "en": "I'll treat it immediately.",
+     "speaker": "Margaret"
+    }
+   ]
+  },
+  {
+   "start": 404.3,
+   "end": 425.8,
+   "title": "How the Accident Happened",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜たら — when/after doing",
+    "〜ちゃう — to do accidentally / completely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 404.5,
+     "end": 405.5,
+     "ja": "それで？",
+     "en": "And then?",
+     "speaker": "Margaret"
+    },
+    {
+     "start": 405.8,
+     "end": 408.5,
+     "ja": "慌ててカメラを取ろうとしたんです。",
+     "en": "I rushed to grab my camera.",
+     "speaker": "Ishikawa"
+    },
+    {
+     "start": 408.8,
+     "end": 411.4,
+     "ja": "ファインダーを覗きながら手を伸ばしたら、",
+     "en": "As I reached out while looking through the viewfinder,",
+     "speaker": "Ishikawa"
+    },
+    {
+     "start": 411.7,
+     "end": 415.6,
+     "ja": "そこにあったのはカメラじゃなくて熱々のフライパンでした。",
+     "en": "what was there wasn't the camera, but a scorching hot frying pan.",
+     "speaker": "Ishikawa"
+    },
+    {
+     "start": 416.0,
+     "end": 417.3,
+     "ja": "ごめんなさい。",
+     "en": "I'm sorry.",
+     "speaker": "Margaret"
+    },
+    {
+     "start": 417.4,
+     "end": 420.8,
+     "ja": "笑っちゃいけないけど、面白いですね。",
+     "en": "I shouldn't laugh, but that's funny.",
+     "speaker": "Margaret"
+    },
+    {
+     "start": 421.2,
+     "end": 423.0,
+     "ja": "笑わないでくださいよ。",
+     "en": "Please don't laugh.",
+     "speaker": "Ishikawa"
+    },
+    {
+     "start": 423.1,
+     "end": 425.5,
+     "ja": "自分でもバカだと思いますから。",
+     "en": "Even I think it was stupid.",
+     "speaker": "Ishikawa"
+    }
+   ]
+  }
+ ],
+ "videoId": "0F1UsOp6Mn8",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

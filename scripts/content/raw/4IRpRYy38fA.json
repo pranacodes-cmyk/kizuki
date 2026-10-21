@@ -1,0 +1,175 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 115.8,
+   "end": 129.2,
+   "title": "Contact the Karate Dojo",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てくれ — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 116.0,
+     "end": 117.4,
+     "ja": "後ろだけ！？",
+     "en": "Just the rear wheel!?",
+     "speaker": "Biker"
+    },
+    {
+     "start": 117.8,
+     "end": 118.8,
+     "ja": "すまぬ。",
+     "en": "Forgive me.",
+     "speaker": "Retsu"
+    },
+    {
+     "start": 118.9,
+     "end": 120.3,
+     "ja": "私の名は烈。",
+     "en": "My name is Retsu.",
+     "speaker": "Retsu"
+    },
+    {
+     "start": 120.5,
+     "end": 122.8,
+     "ja": "空手道神心会へ連絡をくれ！",
+     "en": "Contact the Shinshinkai Karate dojo!",
+     "speaker": "Retsu"
+    },
+    {
+     "start": 125.5,
+     "end": 127.3,
+     "ja": "か…空手？",
+     "en": "Ka... Karate?",
+     "speaker": "Biker"
+    },
+    {
+     "start": 127.8,
+     "end": 129.0,
+     "ja": "カンフー？",
+     "en": "Kung fu?",
+     "speaker": "Biker"
+    }
+   ]
+  },
+  {
+   "start": 132.2,
+   "end": 154.8,
+   "title": "Running Across the Water",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "sports"
+   ],
+   "grammar": [
+    "〜ば — if/when",
+    "〜にして — in terms of",
+    "〜なら — if it's"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 132.4,
+     "end": 134.8,
+     "ja": "ここを越えれば目的地。",
+     "en": "If I cross here, I'll reach my destination.",
+     "speaker": "Retsu"
+    },
+    {
+     "start": 135.4,
+     "end": 137.8,
+     "ja": "橋までは１キロメートル。",
+     "en": "It's one kilometer to the bridge.",
+     "speaker": "Retsu"
+    },
+    {
+     "start": 140.7,
+     "end": 142.3,
+     "ja": "やむを得ない。",
+     "en": "I have no choice.",
+     "speaker": "Retsu"
+    },
+    {
+     "start": 143.1,
+     "end": 144.7,
+     "ja": "距離10メートル。",
+     "en": "A distance of ten meters.",
+     "speaker": "Retsu"
+    },
+    {
+     "start": 145.1,
+     "end": 147.8,
+     "ja": "歩数にして700から800歩。",
+     "en": "In terms of steps, 700 to 800 steps.",
+     "speaker": "Retsu"
+    },
+    {
+     "start": 152.2,
+     "end": 154.6,
+     "ja": "問題ない。15メートルまでなら！",
+     "en": "No problem, as long as it's within 15 meters!",
+     "speaker": "Retsu"
+    }
+   ]
+  },
+  {
+   "start": 204.5,
+   "end": 234.8,
+   "title": "He's Crossing the River",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ても — even if",
+    "〜ておる — ongoing action (humble/archaic)",
+    "さすがに — as expected / after all"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 205.0,
+     "end": 207.5,
+     "ja": "渡ってるよ、川…",
+     "en": "He's crossing it... the river...",
+     "speaker": "Fisherman"
+    },
+    {
+     "start": 216.0,
+     "end": 219.4,
+     "ja": "２人だと、さすがに沈むな。",
+     "en": "With two people, we really do sink.",
+     "speaker": "Retsu"
+    },
+    {
+     "start": 221.0,
+     "end": 224.4,
+     "ja": "信じねえだろうなあ、人に言っても。",
+     "en": "Nobody will believe it, even if I tell them.",
+     "speaker": "Fisherman"
+    },
+    {
+     "start": 232.0,
+     "end": 234.2,
+     "ja": "すまぬ！お騒がせした！",
+     "en": "Forgive me! Sorry for the trouble!",
+     "speaker": "Retsu"
+    }
+   ]
+  }
+ ],
+ "videoId": "4IRpRYy38fA",
+ "pickTopics": [
+  "anime",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

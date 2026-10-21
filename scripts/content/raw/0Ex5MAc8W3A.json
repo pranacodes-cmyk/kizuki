@@ -1,0 +1,146 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 84.2,
+   "end": 104.7,
+   "title": "Making a Morning Vegetable Cream Stew",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていく — to proceed with an action",
+    "〜やすい — easy to do",
+    "〜たら — when / after doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 84.4,
+     "end": 88.8,
+     "ja": "まずはほうれん草をお湯の中に入れて、レンジで３分温めます。",
+     "en": "First, put the spinach in hot water and heat it in the microwave for three minutes.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 89.0,
+     "end": 91.4,
+     "ja": "その間に野菜を切っていきます。",
+     "en": "In the meantime, I'll cut up the vegetables.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 91.6,
+     "end": 95.4,
+     "ja": "お家にある野菜を食べやすい大きさにカットします。",
+     "en": "Cut whatever vegetables you have at home into bite-sized pieces.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 95.6,
+     "end": 100.4,
+     "ja": "焦げ目のできる器に入れて、少し塩コショウを振ったら、レンジで５分温めます。",
+     "en": "Put them in a browning dish, sprinkle a bit of salt and pepper, and microwave for five minutes.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 100.6,
+     "end": 104.2,
+     "ja": "温め終わったら、ほうれん草の水を切って、カットしていきます。",
+     "en": "Once heated, drain the water from the spinach and chop it up.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 327.2,
+   "end": 343.0,
+   "title": "Preparing Lunch Crepe Batter",
+   "level": "N4",
+   "topics": [
+    "food",
+    "family"
+   ],
+   "grammar": [
+    "〜と言うので — because (someone) says",
+    "〜たいと思う — to think of doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 327.4,
+     "end": 329.4,
+     "ja": "お昼の準備をしていきます。",
+     "en": "I'll start getting lunch ready.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 329.5,
+     "end": 336.5,
+     "ja": "お昼はクレープを作りたいというので、サラダクレープやデザートクレープを一緒に作っていきたいと思います。",
+     "en": "They said they want to make crepes for lunch, so we'll make salad crepes and dessert crepes together.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 336.8,
+     "end": 339.0,
+     "ja": "クレープの生地を作っていきます。",
+     "en": "Let's make the crepe batter.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 339.2,
+     "end": 342.8,
+     "ja": "牛乳とバターを入れて、レンジで１分温めます。",
+     "en": "Add milk and butter, then microwave for one minute.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 558.5,
+   "end": 574.5,
+   "title": "Cooking Meat Sauce for Lasagna",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜たら — after / when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 558.8,
+     "end": 562.3,
+     "ja": "先ほどの野菜に熱が通ったので、お肉を入れていきます。",
+     "en": "Now that the vegetables are cooked through, let's add the minced meat.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 562.5,
+     "end": 569.2,
+     "ja": "続いて、トマトジュース、トマトケチャップ、お好み焼きソース、バジルソースを入れて、混ぜ合わせていきます。",
+     "en": "Next, add tomato juice, ketchup, okonomiyaki sauce, and basil sauce, and mix well.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 569.4,
+     "end": 574.2,
+     "ja": "レンジで５分温めて、お好みで塩コショウをしたら、ソースの完成です。",
+     "en": "Microwave for five minutes, season with salt and pepper to taste, and the sauce is done.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "0Ex5MAc8W3A",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

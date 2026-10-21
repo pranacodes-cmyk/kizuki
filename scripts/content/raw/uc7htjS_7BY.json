@@ -1,0 +1,209 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 9.463,
+   "end": 10.059,
+   "title": "What Does a Vet Do?",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "school"
+   ],
+   "grammar": [
+    "〜てくれる — to do something for someone",
+    "〜てくる — to bring / come doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.466,
+     "end": 9.486,
+     "ja": "ドクターハムスターは獣医さんです。",
+     "en": "Doctor Hamster is a vet.",
+     "speaker": "Madame Gazelle"
+    },
+    {
+     "start": 9.488,
+     "end": 9.513,
+     "ja": "獣医ってどんなお仕事か知ってる？",
+     "en": "Do you know what kind of job a vet does?",
+     "speaker": "Madame Gazelle"
+    },
+    {
+     "start": 9.524,
+     "end": 9.549,
+     "ja": "病気のペットを治してくれるお医者さん！",
+     "en": "A doctor who cures sick pets!",
+     "speaker": "Suzy Sheep"
+    },
+    {
+     "start": 9.552,
+     "end": 9.596,
+     "ja": "その通り！今日は私のペットを連れてきました。",
+     "en": "That's right! Today I've brought my pets along.",
+     "speaker": "Doctor Hamster"
+    },
+    {
+     "start": 10.013,
+     "end": 10.035,
+     "ja": "この子はインコのビンキー。",
+     "en": "This is Binky the parrot.",
+     "speaker": "Doctor Hamster"
+    },
+    {
+     "start": 10.037,
+     "end": 10.054,
+     "ja": "こんにちは、ビンキー！",
+     "en": "Hello, Binky!",
+     "speaker": "Children"
+    }
+   ]
+  },
+  {
+   "start": 17.312,
+   "end": 17.482,
+   "title": "Freddy Offers to Help Find Everyone",
+   "level": "N5",
+   "topics": [
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜てあげる — to do something for someone",
+    "〜てもいい — permission (may / can)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.315,
+     "end": 17.33,
+     "ja": "こんにちは、フレディ。",
+     "en": "Hello, Freddy.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 17.332,
+     "end": 17.355,
+     "ja": "こんにちは、ペッパ。何やってるの？",
+     "en": "Hello, Peppa. What are you doing?",
+     "speaker": "Freddy Fox"
+    },
+    {
+     "start": 17.358,
+     "end": 17.377,
+     "ja": "かくれんぼしてるんだよ。",
+     "en": "I'm playing hide-and-seek.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 17.38,
+     "end": 17.404,
+     "ja": "だけど誰も見つからないの。",
+     "en": "But I can't find anyone.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 17.406,
+     "end": 17.429,
+     "ja": "僕が代わりに探してあげようか？",
+     "en": "Shall I look for them instead?",
+     "speaker": "Freddy Fox"
+    },
+    {
+     "start": 17.431,
+     "end": 17.459,
+     "ja": "やってもいいけど、絶対見つからないよ。",
+     "en": "You can try, but you'll never find them.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 17.461,
+     "end": 17.478,
+     "ja": "よーし、見てて。",
+     "en": "All right, watch this.",
+     "speaker": "Freddy Fox"
+    }
+   ]
+  },
+  {
+   "start": 19.13,
+   "end": 19.313,
+   "title": "Daddy Pig Explains How to Whistle",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜てごらん — try doing",
+    "〜だけ — just, only"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 19.133,
+     "end": 19.148,
+     "ja": "ダディ、何してるの？",
+     "en": "Daddy, what are you doing?",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 19.15,
+     "end": 19.173,
+     "ja": "新聞を読んでるんだよ。",
+     "en": "I'm reading the newspaper.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 19.18,
+     "end": 19.206,
+     "ja": "お口から変な音出してるでしょ？",
+     "en": "You're making a funny noise with your mouth, aren't you?",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 19.208,
+     "end": 19.224,
+     "ja": "これは口笛だよ。",
+     "en": "This is whistling.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 19.225,
+     "end": 19.234,
+     "ja": "へえー。",
+     "en": "Oh.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 19.236,
+     "end": 19.258,
+     "ja": "口笛は楽しいぞ。ペッパもやってごらん。",
+     "en": "Whistling is fun. You try it too, Peppa.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 19.26,
+     "end": 19.272,
+     "ja": "どうすればいいの？",
+     "en": "How do you do it?",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 19.274,
+     "end": 19.308,
+     "ja": "簡単だよ。唇を丸くして吹くだけ。",
+     "en": "It's simple. Just round your lips and blow.",
+     "speaker": "Daddy Pig"
+    }
+   ]
+  }
+ ],
+ "videoId": "uc7htjS_7BY",
+ "pickTopics": [
+  "family",
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

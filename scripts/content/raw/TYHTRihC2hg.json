@@ -1,0 +1,335 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 47.2,
+   "end": 64.5,
+   "title": "Looking to Buy a Bed, Not a Pet",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜に来る — purpose of coming",
+    "〜てない — state of not doing/having"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 47.4,
+     "end": 48.8,
+     "ja": "いや、あの、ベッド買いに来たの。",
+     "en": "No, look, I came to buy a bed.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 48.9,
+     "end": 51.3,
+     "ja": "あ、すいません。うち犬とか猫置いてないんですよね。",
+     "en": "Ah, sorry. We don't have dogs or cats here.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 51.3,
+     "end": 53.1,
+     "ja": "ペットじゃなくて。ベッド！",
+     "en": "Not a pet! A bed!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 53.3,
+     "end": 54.1,
+     "ja": "ベッド？",
+     "en": "A bed?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 54.1,
+     "end": 55.2,
+     "ja": "ベッドを買いに来てるわけ。",
+     "en": "I'm here to buy a bed.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 55.2,
+     "end": 56.6,
+     "ja": "冬眠の準備ですか？",
+     "en": "Preparing for hibernation?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 56.6,
+     "end": 58.3,
+     "ja": "ヒグマか、俺！ヒグマじゃねえから、別に。",
+     "en": "Am I a brown bear?! I'm not a bear!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 58.3,
+     "end": 60.1,
+     "ja": "すいません、うちヒグマ置いてないんですよね。",
+     "en": "Sorry, we don't carry brown bears.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 60.1,
+     "end": 64.0,
+     "ja": "ヒグマ買いに来てねえよ！何でこんな伝わんねえかな！",
+     "en": "I'm not here to buy a bear! Why isn't this getting through?!",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 185.5,
+   "end": 207.2,
+   "title": "A Pillow Stuffed with Udon",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "food"
+   ],
+   "grammar": [
+    "〜じゃん — isn't it / right?",
+    "〜に勝てる — potential form: able to defeat"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 185.8,
+     "end": 186.9,
+     "ja": "あ、これいいじゃん。",
+     "en": "Oh, this one is nice.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 187.0,
+     "end": 187.7,
+     "ja": "そうですね。",
+     "en": "It is, isn't it?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 187.7,
+     "end": 188.5,
+     "ja": "これ羽毛？",
+     "en": "Is this down feather?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 188.6,
+     "end": 189.5,
+     "ja": "うどんです。",
+     "en": "It's udon.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 189.5,
+     "end": 190.5,
+     "ja": "うどん！？",
+     "en": "Udon?!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 190.6,
+     "end": 194.9,
+     "ja": "蕎麦殻に勝てんのはもううどんだろうっていう意見が社内で出まして。",
+     "en": "The consensus at our company was that only udon could beat buckwheat chaff.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 195.1,
+     "end": 196.5,
+     "ja": "おたくの社内で？",
+     "en": "At your company?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 196.6,
+     "end": 197.2,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 197.3,
+     "end": 198.2,
+     "ja": "クソ社内だな！",
+     "en": "What a crap company!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 198.2,
+     "end": 199.0,
+     "ja": "ありがとうございます。",
+     "en": "Thank you.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 199.0,
+     "end": 200.8,
+     "ja": "褒めてねえよ、お前。うどん、生麺？",
+     "en": "I wasn't complimenting you. Is the udon fresh noodles?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 200.9,
+     "end": 201.8,
+     "ja": "讃岐の...",
+     "en": "Sanuki...",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 201.9,
+     "end": 202.8,
+     "ja": "讃岐の！？",
+     "en": "Sanuki?!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 203.2,
+     "end": 204.4,
+     "ja": "腐るでしょ、でも。",
+     "en": "Won't it rot, though?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 204.5,
+     "end": 206.0,
+     "ja": "ま、使い捨てになりますよね。",
+     "en": "Well, it'll be disposable.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 206.1,
+     "end": 207.1,
+     "ja": "使い捨てなんだ！",
+     "en": "So it's disposable!",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 466.0,
+   "end": 488.2,
+   "title": "Testing the Mattress Together",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜よりは — comparison: compared to",
+    "〜てまして — polite explanation of ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 466.5,
+     "end": 467.8,
+     "ja": "ああ、なるほどね。",
+     "en": "Ah, I see.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 467.9,
+     "end": 468.8,
+     "ja": "違くないですか？",
+     "en": "Doesn't it feel different?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 468.9,
+     "end": 471.0,
+     "ja": "ちょっと俺が寝てたやつよりは、ちょっといいね。",
+     "en": "Compared to the one I was sleeping on, it's pretty nice.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 471.0,
+     "end": 472.0,
+     "ja": "いいですよね。",
+     "en": "It is, right?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 472.6,
+     "end": 475.1,
+     "ja": "これ最高級の低反発素材使ってまして。",
+     "en": "This uses top-grade memory foam.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 475.2,
+     "end": 476.0,
+     "ja": "そうなの、これ？",
+     "en": "Really?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 476.1,
+     "end": 477.6,
+     "ja": "はい。通気性も抜群にいいんですよ。",
+     "en": "Yes. The breathability is exceptionally good too.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 477.6,
+     "end": 479.0,
+     "ja": "え、これ通気性もいいんだ。",
+     "en": "Oh, it breathes well too.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 479.1,
+     "end": 482.1,
+     "ja": "これ腰痛にも抜群にいいです。",
+     "en": "This is also remarkably good for lower back pain.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 482.1,
+     "end": 482.9,
+     "ja": "あ、これ効くの？",
+     "en": "Oh, it helps with that?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 483.0,
+     "end": 483.7,
+     "ja": "はい、治ります。",
+     "en": "Yes, it cures it.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 483.8,
+     "end": 485.7,
+     "ja": "えー、腰痛に効くマットレスはいいね。",
+     "en": "A mattress good for back pain is great.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 485.8,
+     "end": 487.1,
+     "ja": "お前は立て！",
+     "en": "You, stand up!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 487.2,
+     "end": 487.9,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Clerk"
+    }
+   ]
+  }
+ ],
+ "videoId": "TYHTRihC2hg",
+ "pickTopics": [
+  "fun",
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

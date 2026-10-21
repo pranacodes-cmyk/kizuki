@@ -1,0 +1,144 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Kizuki design tokens. Mirrored 1:1 in mobile/lib/theme/tokens.dart (hex in comments).
+ * Components use these tokens only — never ad-hoc colors.
+ */
+
+@theme inline {
+  --font-sans: "Nunito", "M PLUS Rounded 1c", system-ui, sans-serif;
+  --font-jp: "M PLUS Rounded 1c", "Nunito", sans-serif;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+  --radius-3xl: 28px;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-card: var(--surface);
+  --color-card-foreground: var(--foreground);
+  --color-popover: var(--surface-2);
+  --color-popover-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-deep: var(--primary-deep);
+  --color-primary-dim: var(--primary-dim);
+  --color-primary-dim-foreground: var(--primary-dim-fg);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--surface-2);
+  --color-secondary-foreground: var(--foreground);
+  --color-muted: var(--surface-2);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-faint: var(--faint);
+  --color-accent: var(--surface-3);
+  --color-accent-foreground: var(--foreground);
+  --color-success: var(--success);
+  --color-success-deep: var(--success-deep);
+  --color-success-soft: var(--success-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-destructive: var(--danger);
+  --color-destructive-foreground: var(--foreground);
+  --color-info: var(--info);
+  --color-gold: var(--gold);
+  --color-learning: var(--learning);
+  --color-known: var(--known);
+  --color-stage: var(--stage);
+  --color-border: var(--border);
+  --color-input: var(--border);
+  --color-ring: var(--primary);
+  --color-ring-offset-background: var(--background);
+}
+
+:root {
+  --radius: 16px;
+  --background: oklch(0.205 0.008 274.5); /* #16171B */
+  --surface: oklch(0.253 0.011 278.1); /* #212228 */
+  --surface-2: oklch(0.295 0.013 279.1); /* #2B2C33 */
+  --surface-3: oklch(0.335 0.014 280); /* #35363E */
+  --border: oklch(0.347 0.016 280.5); /* #383942 */
+  --foreground: oklch(0.962 0.007 80.7); /* #F5F2ED */
+  --muted-foreground: oklch(0.696 0.012 291.8); /* #9D9CA4 */
+  --faint: oklch(0.538 0.012 291.7); /* #6E6D75 */
+  --primary: oklch(0.75 0.167 50.5); /* #FF8A3D */
+  --primary-deep: oklch(0.606 0.152 48.3); /* #C8601C */
+  --primary-dim: oklch(0.339 0.044 51.7); /* #4A3122 */
+  --primary-dim-fg: oklch(0.615 0.069 56); /* #A57A5C */
+  --primary-foreground: oklch(0.199 0.024 56.9); /* #1E130B */
+  --success: oklch(0.765 0.166 152.4); /* #4CD07D */
+  --success-deep: oklch(0.608 0.141 152.3); /* #2B9A57 */
+  --success-soft: oklch(0.297 0.038 158.3); /* #1C3326 */
+  --danger: oklch(0.706 0.186 23.1); /* #FF6767 */
+  --danger-soft: oklch(0.281 0.039 12.1); /* #3A2124 */
+  --info: oklch(0.724 0.147 253); /* #5DA9FF */
+  --gold: oklch(0.854 0.157 84.1); /* #FFC53D */
+  --learning: oklch(0.787 0.142 54.6); /* #FF9F5A */
+  --known: oklch(0.765 0.166 152.4); /* #4CD07D */
+  --stage: oklch(0.169 0.006 271); /* #0E0F12 */
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+    -webkit-tap-highlight-color: transparent;
+  }
+  html,
+  body {
+    background-color: var(--color-stage);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  button {
+    cursor: pointer;
+  }
+}
+
+@layer components {
+  /* 3D press buttons: solid face + darker bottom lip that collapses on press. */
+  .btn-3d {
+    box-shadow: 0 4px 0 0 var(--primary-deep);
+    transition: transform 80ms ease, box-shadow 80ms ease, background-color 150ms ease;
+  }
+  .btn-3d:active:not(:disabled) {
+    transform: translateY(4px);
+    box-shadow: 0 0 0 0 var(--primary-deep);
+  }
+  .btn-3d:disabled {
+    box-shadow: 0 4px 0 0 oklch(0.28 0.03 52);
+  }
+  .btn-3d-surface {
+    box-shadow: 0 4px 0 0 var(--surface-3);
+    transition: transform 80ms ease, box-shadow 80ms ease;
+  }
+  .btn-3d-surface:active {
+    transform: translateY(4px);
+    box-shadow: 0 0 0 0 var(--surface-3);
+  }
+  .press {
+    transition: transform 120ms ease;
+  }
+  .press:active {
+    transform: scale(0.97);
+  }
+  .jp {
+    font-family: var(--font-jp);
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+}

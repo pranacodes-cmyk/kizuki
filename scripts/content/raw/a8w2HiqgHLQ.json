@@ -1,0 +1,191 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.6,
+   "end": 24.2,
+   "title": "Ink Pad vs Seal Stamp Battle",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "対する — facing / as opposed to",
+    "〜て握られている — passive ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.8,
+     "end": 7.0,
+     "ja": "さあ、ついに対峙したこの二人！",
+     "en": "Now, these two finally face off against each other!",
+     "speaker": "Announcer"
+    },
+    {
+     "start": 7.0,
+     "end": 9.5,
+     "ja": "青コーナー、優雅なる狙撃手・叶！",
+     "en": "In the blue corner, the graceful sniper, Kanae!",
+     "speaker": "Announcer"
+    },
+    {
+     "start": 7.8,
+     "end": 10.5,
+     "ja": "お、優雅なる狙撃手、叶。",
+     "en": "Oh, the graceful sniper, Kanae.",
+     "speaker": "Kuzuha"
+    },
+    {
+     "start": 10.0,
+     "end": 10.9,
+     "ja": "すごい。",
+     "en": "Amazing.",
+     "speaker": "Kanae"
+    },
+    {
+     "start": 10.9,
+     "end": 14.2,
+     "ja": "手に持つのは……なんと巨大な『朱肉』！",
+     "en": "Held in his hand is... a giant red ink pad!",
+     "speaker": "Announcer"
+    },
+    {
+     "start": 14.2,
+     "end": 17.3,
+     "ja": "対する赤コーナー、銀髪の吸血鬼・葛葉！",
+     "en": "Facing him in the red corner, the silver-haired vampire, Kuzuha!",
+     "speaker": "Announcer"
+    },
+    {
+     "start": 17.3,
+     "end": 22.5,
+     "ja": "その右手に握られているのは、鈍く輝く特大の『印鑑』だ！",
+     "en": "Clutched in his right hand is a dimly glowing, extra-large seal stamp!",
+     "speaker": "Announcer"
+    },
+    {
+     "start": 22.6,
+     "end": 24.0,
+     "ja": "何この対決。",
+     "en": "What kind of showdown is this?",
+     "speaker": "Kuzuha"
+    }
+   ]
+  },
+  {
+   "start": 24.5,
+   "end": 46.0,
+   "title": "You Can't Prove Anything Without Ink",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜のように — like / as if",
+    "〜だけじゃ — with just... (cannot do)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 24.8,
+     "end": 28.3,
+     "ja": "葛葉が不敵に笑い、印鑑を剣のように構えます。",
+     "en": "Kuzuha grins fearlessly and readies the seal stamp like a sword.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 28.5,
+     "end": 33.7,
+     "ja": "おいおい叶、そんな真っ赤な座布団で俺様に勝てると思ってんのか？",
+     "en": "Hey now, Kanae, you think you can beat me with that bright red cushion?",
+     "speaker": "Kuzuha"
+    },
+    {
+     "start": 34.0,
+     "end": 39.0,
+     "ja": "叶はいつもの柔らかな微笑みを崩さず、朱肉の表面を指先でなぞります。",
+     "en": "Kanae keeps his usual gentle smile and traces the surface of the ink pad with his fingertip.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 39.2,
+     "end": 43.0,
+     "ja": "ふふ、葛葉くん。印鑑だけじゃ、何も『証明』できないよ？",
+     "en": "Heh, Kuzuha-kun. With just a stamp, you can't 'certify' anything, can you?",
+     "speaker": "Kanae"
+    },
+    {
+     "start": 44.8,
+     "end": 45.9,
+     "ja": "うぜぇ…",
+     "en": "So annoying...",
+     "speaker": "Kuzuha"
+    }
+   ]
+  },
+  {
+   "start": 47.8,
+   "end": 56.5,
+   "title": "Annoyingly Clever",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜ないと — if not / without",
+    "〜ってこと？ — does that mean...?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 47.9,
+     "end": 50.0,
+     "ja": "朱肉がないと、",
+     "en": "Without the ink pad,",
+     "speaker": "Kuzuha"
+    },
+    {
+     "start": 50.0,
+     "end": 52.0,
+     "ja": "何も証明できないからってこと？",
+     "en": "you can't certify anything—is that what he means?",
+     "speaker": "Kuzuha"
+    },
+    {
+     "start": 52.1,
+     "end": 53.9,
+     "ja": "うざいんだけど上手くねえ？",
+     "en": "It's so annoying, but isn't it kind of clever?",
+     "speaker": "Kuzuha"
+    },
+    {
+     "start": 54.0,
+     "end": 54.9,
+     "ja": "なるほど。",
+     "en": "I see.",
+     "speaker": "Kanae"
+    },
+    {
+     "start": 55.0,
+     "end": 56.2,
+     "ja": "洒落てるわ。",
+     "en": "That's witty.",
+     "speaker": "Kanae"
+    }
+   ]
+  }
+ ],
+ "videoId": "a8w2HiqgHLQ",
+ "pickTopics": [
+  "fun",
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

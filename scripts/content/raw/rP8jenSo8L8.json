@@ -1,0 +1,204 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.74,
+   "end": 26.6,
+   "title": "Showing Off Drawings",
+   "level": "N5",
+   "topics": [
+    "friends",
+    "anime"
+   ],
+   "grammar": [
+    "〜も — also",
+    "〜でしょ — right? / isn't it?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.94,
+     "end": 13.06,
+     "ja": "私 も描けた。",
+     "en": "I finished drawing too.",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 13.24,
+     "end": 14.16,
+     "ja": "ほら！",
+     "en": "Look!",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 14.64,
+     "end": 16.78,
+     "ja": "それ、ポン太郎でしょ？",
+     "en": "That's Pontaro, right?",
+     "speaker": "Torippi"
+    },
+    {
+     "start": 16.78,
+     "end": 18.78,
+     "ja": "偉そうな感じがそっくり！",
+     "en": "His arrogant vibe looks just like him!",
+     "speaker": "Torippi"
+    },
+    {
+     "start": 19.08,
+     "end": 20.36,
+     "ja": "僕のも見て。",
+     "en": "Look at mine too.",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 21.0,
+     "end": 22.84,
+     "ja": "うわあ、飛行機！",
+     "en": "Wow, an airplane!",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 23.08,
+     "end": 24.62,
+     "ja": "かっこいいでしょ？",
+     "en": "Cool, isn't it?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 24.84,
+     "end": 26.46,
+     "ja": "とりっぴいもできてるよ。",
+     "en": "Torippi's is ready too.",
+     "speaker": "Torippi"
+    }
+   ]
+  },
+  {
+   "start": 707.02,
+   "end": 724.88,
+   "title": "Apology and Giving a Drawing",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "anime"
+   ],
+   "grammar": [
+    "〜ちゃう — do completely / inadvertently",
+    "〜てもいい — may / can",
+    "〜ようになる — become able to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 707.42,
+     "end": 709.0,
+     "ja": "とりっぴい、ごめんね。",
+     "en": "Torippi, I'm sorry.",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 709.34,
+     "end": 711.96,
+     "ja": "僕、さっきひどいこと言っちゃって。",
+     "en": "I said something awful earlier.",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 712.42,
+     "end": 714.48,
+     "ja": "あの絵、もらってもいいかな？",
+     "en": "Can I have that drawing?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 714.68,
+     "end": 715.76,
+     "ja": "いいとも！",
+     "en": "Sure thing!",
+     "speaker": "Torippi"
+    },
+    {
+     "start": 715.76,
+     "end": 717.38,
+     "ja": "あげる友！",
+     "en": "I'll give it to you!",
+     "speaker": "Torippi"
+    },
+    {
+     "start": 717.76,
+     "end": 718.74,
+     "ja": "はい。",
+     "en": "Here.",
+     "speaker": "Torippi"
+    },
+    {
+     "start": 718.74,
+     "end": 720.0,
+     "ja": "ありがとう！",
+     "en": "Thank you!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 720.52,
+     "end": 724.68,
+     "ja": "しまじろうも、やっと芸術が分かるようになったんだね。",
+     "en": "So you've finally come to understand art too, Shimajiro.",
+     "speaker": "Torippi"
+    }
+   ]
+  },
+  {
+   "start": 1540.32,
+   "end": 1558.08,
+   "title": "Communicating Without Words",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "culture",
+    "anime"
+   ],
+   "grammar": [
+    "〜なくても — even if not",
+    "〜たい — want to",
+    "〜もん — because (casual)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1540.52,
+     "end": 1545.2,
+     "ja": "言葉は分からなくても結構外国の人とお話しできるのね。",
+     "en": "Even without knowing the language, you can still talk with people from abroad quite well.",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 1545.54,
+     "end": 1549.46,
+     "ja": "これからも色んな国の人と友達になりたいね。",
+     "en": "I want to become friends with people from many countries from now on too.",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 1549.62,
+     "end": 1551.98,
+     "ja": "友達を作るの楽しいもんね。",
+     "en": "Making friends is fun after all, isn't it?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 1556.16,
+     "end": 1557.88,
+     "ja": "グレート！",
+     "en": "Great!",
+     "speaker": "All"
+    }
+   ]
+  }
+ ],
+ "videoId": "rP8jenSo8L8",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

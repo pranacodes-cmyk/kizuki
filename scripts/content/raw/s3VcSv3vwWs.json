@@ -1,0 +1,189 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 137.3,
+   "end": 160.8,
+   "title": "Riding Without Stabilisers",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜ても — even if",
+    "〜たことない — have never done"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 137.4,
+     "end": 140.5,
+     "ja": "ダディ、私も補助輪はいらないよ。",
+     "en": "Daddy, I don't need training wheels either.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 140.8,
+     "end": 142.7,
+     "ja": "なくてもちゃんと乗れるかい？",
+     "en": "Can you ride properly without them?",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 142.9,
+     "end": 143.9,
+     "ja": "乗れる！",
+     "en": "I can!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 144.0,
+     "end": 146.5,
+     "ja": "わかったよ。じゃあ早速外そう。",
+     "en": "Alright. Let's take them off right away.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 146.7,
+     "end": 150.8,
+     "ja": "ダディピッグはペッパの自転車から補助輪を外しました。",
+     "en": "Daddy Pig took the training wheels off Peppa's bicycle.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 151.0,
+     "end": 154.2,
+     "ja": "ペッパ、本当に補助輪がなくて大丈夫？",
+     "en": "Peppa, are you sure you're okay without training wheels?",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 154.3,
+     "end": 155.3,
+     "ja": "平気！",
+     "en": "I'm fine!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 155.4,
+     "end": 157.3,
+     "ja": "外して乗ったことないのに。",
+     "en": "Even though you've never ridden without them.",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 157.7,
+     "end": 160.3,
+     "ja": "平気だってば！きっと乗れるよ！",
+     "en": "I told you, I'm fine! I'm sure I can ride it!",
+     "speaker": "Peppa"
+    }
+   ]
+  },
+  {
+   "start": 375.2,
+   "end": 394.8,
+   "title": "Asking to Play Outside",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜てもいい — permission (may do)",
+    "〜たら — when / once",
+    "〜てて — keep doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 375.5,
+     "end": 377.7,
+     "ja": "マミー、お外に遊びに行ってもいい？",
+     "en": "Mummy, can we go outside to play?",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 377.9,
+     "end": 380.2,
+     "ja": "ジョージのしゃっくりが止まったらね。",
+     "en": "Once George's hiccups stop, okay?",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 380.5,
+     "end": 382.3,
+     "ja": "しゃっくりならもう止まったよ。",
+     "en": "His hiccups have already stopped.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 382.4,
+     "end": 384.0,
+     "ja": "そうでしょ、ジョージ？",
+     "en": "Right, George?",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 389.8,
+     "end": 394.3,
+     "ja": "まあいいわ。遊びに行ってもいいけど、ジョージをよく見ててね。",
+     "en": "Well alright. You can go play, but keep a close eye on George, okay?",
+     "speaker": "Mummy Pig"
+    }
+   ]
+  },
+  {
+   "start": 431.0,
+   "end": 451.0,
+   "title": "Peppa's Hiccup Cure",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜てあげる — do for someone",
+    "〜ながら — while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 431.3,
+     "end": 434.2,
+     "ja": "ジョージ、しゃっくり止めてあげようか？",
+     "en": "George, want me to cure your hiccups?",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 434.9,
+     "end": 436.8,
+     "ja": "私の真似してね。",
+     "en": "Copy what I do, okay?",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 440.5,
+     "end": 443.7,
+     "ja": "頭を撫でながら、お腹をさするの。",
+     "en": "Pat your head while rubbing your tummy.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 447.2,
+     "end": 450.3,
+     "ja": "オッケー！これでしゃっくりが止まるわ。",
+     "en": "Okay! Now your hiccups will stop.",
+     "speaker": "Peppa"
+    }
+   ]
+  }
+ ],
+ "videoId": "s3VcSv3vwWs",
+ "pickTopics": [
+  "family",
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

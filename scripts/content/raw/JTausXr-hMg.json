@@ -1,0 +1,224 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 2.4,
+   "end": 27.5,
+   "title": "What did you come to the festival for?",
+   "level": "N4",
+   "topics": [
+    "school",
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜ために — in order to",
+    "〜とか — listing examples"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2.8,
+     "end": 4.5,
+     "ja": "じゃあ、みんな大学の友達？",
+     "en": "So, are you all university friends?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 5.0,
+     "end": 9.8,
+     "ja": "高校生だったんですよ。大学に今から行く感じです。",
+     "en": "We were high school students. We're about to start university.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 10.0,
+     "end": 11.8,
+     "ja": "今、高校生ですか？",
+     "en": "Are you high school students right now?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 11.8,
+     "end": 13.8,
+     "ja": "一応そうです。",
+     "en": "Technically, yes.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 13.8,
+     "end": 19.6,
+     "ja": "ああ、そうなんだ。じゃあ、今日何しに来ました？",
+     "en": "Ah, I see. So, what did you come here to do today?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 19.8,
+     "end": 27.0,
+     "ja": "えっと、盆踊りとか、やっぱり金魚すくいとか、いろいろ日本的な文化をなんか最後に体験するために来ました。",
+     "en": "Well, we came to experience Japanese culture one last time, like Bon dancing and goldfish scooping.",
+     "speaker": "Girl"
+    }
+   ]
+  },
+  {
+   "start": 373.0,
+   "end": 404.2,
+   "title": "75 Countries Traveled at 80 Years Old",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜たことがある — have experienced doing",
+    "〜のほうが — comparison (is more ...)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 373.4,
+     "end": 376.2,
+     "ja": "もうね、７５の国行ってます。",
+     "en": "Well, I've been to 75 countries.",
+     "speaker": "Elderly Lady"
+    },
+    {
+     "start": 376.5,
+     "end": 378.5,
+     "ja": "え？７５？すごい！",
+     "en": "What? 75? Wow!",
+     "speaker": "Shun"
+    },
+    {
+     "start": 378.8,
+     "end": 381.8,
+     "ja": "海外旅行も７０回行ってます。",
+     "en": "I've also been on overseas trips 70 times.",
+     "speaker": "Elderly Lady"
+    },
+    {
+     "start": 382.0,
+     "end": 388.0,
+     "ja": "７５か国に行ったことがあるんです。",
+     "en": "She has been to 75 countries.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 388.2,
+     "end": 390.4,
+     "ja": "すごいですね！",
+     "en": "That's incredible!",
+     "speaker": "Shun"
+    },
+    {
+     "start": 390.5,
+     "end": 393.5,
+     "ja": "え、僕も実は今、６４か国行ったことあるんですけど…",
+     "en": "Actually, I've been to 64 countries so far, but...",
+     "speaker": "Shun"
+    },
+    {
+     "start": 393.5,
+     "end": 395.6,
+     "ja": "あ、そうですか。じゃあ、私の方が上ですね。",
+     "en": "Oh, really? Then I've got you beat.",
+     "speaker": "Elderly Lady"
+    },
+    {
+     "start": 395.6,
+     "end": 397.4,
+     "ja": "上ですよ！すごい！",
+     "en": "You sure do! That's amazing!",
+     "speaker": "Shun"
+    },
+    {
+     "start": 397.4,
+     "end": 403.8,
+     "ja": "僕よりその、もっと海外旅行に行ったことがある人に会ったことがなかったので、びっくりしてます。",
+     "en": "I'd never met anyone who has traveled abroad more than me, so I'm amazed.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 1292.8,
+   "end": 1318.8,
+   "title": "Favorite Festival Food Recommendations",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜の中で一番 — the most among",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1293.2,
+     "end": 1297.2,
+     "ja": "お祭りの食べ物の中で一番おすすめの食べ物、教えてください。",
+     "en": "Please tell me your number one food recommendation at festivals.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 1297.5,
+     "end": 1299.0,
+     "ja": "おすすめ、りんご飴？",
+     "en": "Recommendation? Candy apple?",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 1299.2,
+     "end": 1302.0,
+     "ja": "りんご飴が一番好き？そうなんだ。",
+     "en": "Candy apple is your favorite? I see.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 1302.2,
+     "end": 1306.0,
+     "ja": "おすすめは？なんか、一番好きな…",
+     "en": "What do you recommend? Like, your favorite...",
+     "speaker": "Shun"
+    },
+    {
+     "start": 1306.0,
+     "end": 1310.0,
+     "ja": "おすすめ？一番好きな屋台の食べ物。",
+     "en": "Recommendation? Favorite food stall item.",
+     "speaker": "Woman 2"
+    },
+    {
+     "start": 1310.2,
+     "end": 1312.2,
+     "ja": "トルネードポテト。",
+     "en": "Tornado potato.",
+     "speaker": "Woman 3"
+    },
+    {
+     "start": 1312.4,
+     "end": 1315.2,
+     "ja": "ああ、はいはいはい！ここにはない！",
+     "en": "Ah, yes, yes, yes! It's not here though!",
+     "speaker": "Shun"
+    },
+    {
+     "start": 1315.4,
+     "end": 1318.2,
+     "ja": "あの長い長い、くるくるのやつ。",
+     "en": "That super long, spiral one.",
+     "speaker": "Shun"
+    }
+   ]
+  }
+ ],
+ "videoId": "JTausXr-hMg",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

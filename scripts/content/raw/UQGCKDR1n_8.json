@@ -1,0 +1,216 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.244,
+   "end": 6.512,
+   "title": "Things to Do Before You Die",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜としたら — if we assume that",
+    "〜ばっかり — doing nothing but"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.248,
+     "end": 6.279,
+     "ja": "もし明日が人生最後の日だとしたら、",
+     "en": "If tomorrow were the last day of your life,",
+     "speaker": "Host"
+    },
+    {
+     "start": 6.28,
+     "end": 6.305,
+     "ja": "あなたは何がしたいですか？",
+     "en": "what would you want to do?",
+     "speaker": "Host"
+    },
+    {
+     "start": 6.31,
+     "end": 6.353,
+     "ja": "自分のしたいこと、意外と分かってないってことありません？",
+     "en": "Don't you find that you surprisingly don't know what you want to do?",
+     "speaker": "Host"
+    },
+    {
+     "start": 6.36,
+     "end": 6.388,
+     "ja": "で、結構諦めてることあるでしょう？",
+     "en": "And there are quite a few things you've given up on, right?",
+     "speaker": "Host"
+    },
+    {
+     "start": 6.391,
+     "end": 6.422,
+     "ja": "ありますわ。基本できへん理由ばっか考えてます。",
+     "en": "Definitely. I usually only think of reasons why I can't.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 6.425,
+     "end": 6.435,
+     "ja": "そうでしょう？",
+     "en": "Right?",
+     "speaker": "Host"
+    },
+    {
+     "start": 6.437,
+     "end": 6.474,
+     "ja": "そんなあなたに！今日のテーマはずばりこちら！",
+     "en": "For someone like you, today's topic is exactly this!",
+     "speaker": "Host"
+    },
+    {
+     "start": 6.478,
+     "end": 6.505,
+     "ja": "死ぬまでにしたいことリスト！",
+     "en": "A bucket list of things to do before you die!",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 17.51,
+   "end": 18.152,
+   "title": "Wrapping Up Work on Friday",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ておく — do in advance",
+    "〜な — casual imperative (do...)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.515,
+     "end": 17.545,
+     "ja": "なんかみんな、手伝えることとかある？",
+     "en": "Hey everyone, is there anything I can help with?",
+     "speaker": "Tojo"
+    },
+    {
+     "start": 17.552,
+     "end": 17.572,
+     "ja": "いいえ、大丈夫ですけど。",
+     "en": "No, we're all good.",
+     "speaker": "Keishi"
+    },
+    {
+     "start": 17.576,
+     "end": 18.018,
+     "ja": "実は来週のデータまだできてなくて…",
+     "en": "Actually, I haven't finished next week's data yet...",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 18.024,
+     "end": 18.049,
+     "ja": "ああ、分かった。じゃあメールで送って。",
+     "en": "Ah, got it. Email it to me, then.",
+     "speaker": "Tojo"
+    },
+    {
+     "start": 18.051,
+     "end": 18.068,
+     "ja": "土日に確認するから。",
+     "en": "I'll check it over the weekend.",
+     "speaker": "Tojo"
+    },
+    {
+     "start": 18.07,
+     "end": 18.085,
+     "ja": "休みにすみません。",
+     "en": "I'm sorry to make you work on your day off.",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 18.088,
+     "end": 18.145,
+     "ja": "いいよいいよ。みんなも金曜日だし早く帰りな。",
+     "en": "Don't worry about it. It's Friday, so everyone go home early.",
+     "speaker": "Tojo"
+    }
+   ]
+  },
+  {
+   "start": 20.035,
+   "end": 20.208,
+   "title": "An Unexpected Proposal",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "work"
+   ],
+   "grammar": [
+    "〜ませんか — won't you (invitation)",
+    "〜と同じ — the same as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 20.04,
+     "end": 20.051,
+     "ja": "東条さん。",
+     "en": "Tojo-san.",
+     "speaker": "Keishi"
+    },
+    {
+     "start": 20.052,
+     "end": 20.062,
+     "ja": "何？",
+     "en": "What?",
+     "speaker": "Tojo"
+    },
+    {
+     "start": 20.065,
+     "end": 20.076,
+     "ja": "このリスト、",
+     "en": "This list,",
+     "speaker": "Keishi"
+    },
+    {
+     "start": 20.08,
+     "end": 20.098,
+     "ja": "俺とやりません？",
+     "en": "won't you do it with me?",
+     "speaker": "Keishi"
+    },
+    {
+     "start": 20.105,
+     "end": 20.115,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Tojo"
+    },
+    {
+     "start": 20.132,
+     "end": 20.165,
+     "ja": "俺も同じなんですよね、東条さんと。",
+     "en": "I'm the same as you, Tojo-san.",
+     "speaker": "Keishi"
+    },
+    {
+     "start": 20.176,
+     "end": 20.202,
+     "ja": "ゲイなんです、俺も。",
+     "en": "I'm gay, too.",
+     "speaker": "Keishi"
+    }
+   ]
+  }
+ ],
+ "videoId": "UQGCKDR1n_8",
+ "pickTopics": [
+  "work",
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

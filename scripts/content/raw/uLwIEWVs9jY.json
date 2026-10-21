@@ -1,0 +1,183 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.8,
+   "end": 28.9,
+   "title": "A Great Plan to Betray",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "〜だけでは — with only...",
+    "〜よう (volitional) — let's..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 12.0,
+     "end": 13.8,
+     "ja": "私に良い作戦がある。",
+     "en": "I have a great plan.",
+     "speaker": "ぶりぶりざえもん"
+    },
+    {
+     "start": 13.9,
+     "end": 14.8,
+     "ja": "何？",
+     "en": "What is it?",
+     "speaker": "アクション仮面＆カンタムロボ"
+    },
+    {
+     "start": 15.1,
+     "end": 17.0,
+     "ja": "私一人だけではダメだ。",
+     "en": "I can't do it alone.",
+     "speaker": "ぶりぶりざえもん"
+    },
+    {
+     "start": 17.0,
+     "end": 18.8,
+     "ja": "3人そろって…",
+     "en": "All three of us together...",
+     "speaker": "ぶりぶりざえもん"
+    },
+    {
+     "start": 18.9,
+     "end": 19.9,
+     "ja": "ん？",
+     "en": "Hm?",
+     "speaker": "アクション仮面＆カンタムロボ"
+    },
+    {
+     "start": 20.0,
+     "end": 23.8,
+     "ja": "しんのすけを裏切り、相手側に寝返ろう。",
+     "en": "Let's betray Shinnosuke and switch to the enemy's side.",
+     "speaker": "ぶりぶりざえもん"
+    },
+    {
+     "start": 25.8,
+     "end": 26.8,
+     "ja": "痛い！",
+     "en": "Ouch!",
+     "speaker": "ぶりぶりざえもん"
+    },
+    {
+     "start": 26.8,
+     "end": 28.6,
+     "ja": "冗談！アメリカンジョーク！",
+     "en": "Just kidding! It's an American joke!",
+     "speaker": "ぶりぶりざえもん"
+    }
+   ]
+  },
+  {
+   "start": 37.4,
+   "end": 50.4,
+   "title": "Who Are You Calling a Coward?",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "〜と言われている — is said to be...",
+    "〜に向かって — towards / to",
+    "〜しかない — have no choice but to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.7,
+     "end": 39.8,
+     "ja": "臆病者だと？",
+     "en": "A coward, you say?",
+     "speaker": "ぶりぶりざえもん"
+    },
+    {
+     "start": 40.0,
+     "end": 44.7,
+     "ja": "素手で戦ったら世界最強と言われているこの私に向かって臆病者だと？",
+     "en": "Calling me a coward, when I'm said to be the world's strongest in bare-handed combat?",
+     "speaker": "ぶりぶりざえもん"
+    },
+    {
+     "start": 44.8,
+     "end": 46.3,
+     "ja": "ふざけるなタコ！",
+     "en": "Don't mess with me, you jerk!",
+     "speaker": "ぶりぶりざえもん"
+    },
+    {
+     "start": 46.3,
+     "end": 49.0,
+     "ja": "この状況だと対決するしかねえだろボケ！",
+     "en": "In this situation, I've got no choice but to fight, idiot!",
+     "speaker": "ぶりぶりざえもん"
+    },
+    {
+     "start": 49.0,
+     "end": 50.1,
+     "ja": "勝負！",
+     "en": "Bring it on!",
+     "speaker": "ぶりぶりざえもん"
+    }
+   ]
+  },
+  {
+   "start": 116.3,
+   "end": 127.0,
+   "title": "30th Anniversary Blu-ray Announcement",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜かける — take (time)",
+    "〜ていく — will continue to / go on doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 116.6,
+     "end": 120.0,
+     "ja": "映画30周年記念！歴代ブルーレイが発売だゾ！",
+     "en": "Celebrating 30 years of movies! The classic films are out on Blu-ray!",
+     "speaker": "しんのすけ"
+    },
+    {
+     "start": 120.1,
+     "end": 121.9,
+     "ja": "懐かしいですなぁ。",
+     "en": "How nostalgic.",
+     "speaker": "ぶりぶりざえもん"
+    },
+    {
+     "start": 122.0,
+     "end": 124.4,
+     "ja": "この頃のオラ、ちょっと幼くない？",
+     "en": "Don't I look a little childish back then?",
+     "speaker": "しんのすけ"
+    },
+    {
+     "start": 124.6,
+     "end": 126.7,
+     "ja": "1年かけて発売していくゾ！",
+     "en": "They'll be released over the course of a year!",
+     "speaker": "しんのすけ"
+    }
+   ]
+  }
+ ],
+ "videoId": "uLwIEWVs9jY",
+ "pickTopics": [
+  "anime",
+  "family",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

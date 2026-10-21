@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 158.3,
+   "end": 187.0,
+   "title": "Why Did You Choose Our Company?",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜なんか — things like",
+    "〜た次第です — that's why / how it came about"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 158.4,
+     "end": 167.3,
+     "ja": "ま、すごいざっくりとした質問なんですけど、うちの、この、会社を、この御社を選んだ理由っていうのは何かあるんですか？",
+     "en": "Well, it's a pretty broad question, but is there a reason you chose our company?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 167.5,
+     "end": 172.2,
+     "ja": "ええと、そうですね。あの、自分のスキルを最大限生かせる場所だと思ったからです。",
+     "en": "Well, let's see. Because I felt it was a place where I could maximize my skills.",
+     "speaker": "Goro"
+    },
+    {
+     "start": 172.4,
+     "end": 177.0,
+     "ja": "ま、プログラミングなんかをこの、まあ、勉強してまして、",
+     "en": "Well, I've been studying things like programming, and...",
+     "speaker": "Goro"
+    },
+    {
+     "start": 177.3,
+     "end": 186.6,
+     "ja": "まあ、その自分のスキルを一番生かせる場所と考えた場合、御社じゃないかなと考えた次第です。",
+     "en": "When I considered where I could make the best use of my skills, I felt your company was the place.",
+     "speaker": "Goro"
+    }
+   ]
+  },
+  {
+   "start": 189.5,
+   "end": 213.5,
+   "title": "What Did You Learn in College?",
+   "level": "N3",
+   "topics": [
+    "work",
+    "school"
+   ],
+   "grammar": [
+    "〜よりも — rather than / more than",
+    "〜たり〜たり — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 189.7,
+     "end": 196.8,
+     "ja": "えーと、ちなみに、大学生活４年間、自分が一番学んだことって何だと思いますか？",
+     "en": "By the way, what would you say is the main thing you learned during your four years of college?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 197.0,
+     "end": 205.2,
+     "ja": "やっぱり、学問的なことよりも、人付き合いだったり、人と人との向き合い方とか、",
+     "en": "More than academic things, interpersonal relationships, how to interact with people,",
+     "speaker": "Goro"
+    },
+    {
+     "start": 205.5,
+     "end": 213.2,
+     "ja": "ま、コミュニケーションだとか、そういう人間に必要な部分、それを大学で一番学んだかなと思っております。",
+     "en": "communication, and those essential human qualities—I think that's what I learned most in college.",
+     "speaker": "Goro"
+    }
+   ]
+  },
+  {
+   "start": 1690.8,
+   "end": 1719.0,
+   "title": "Third Time's the Charm",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜っていう — called / that says",
+    "〜てた — was doing (abbreviated 〜ていた)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1691.0,
+     "end": 1697.8,
+     "ja": "俺な、「二度あることは三度ある」っていう言葉嫌いやねん。",
+     "en": "You know, I hate the saying 'what happens twice will happen thrice.'",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 1698.0,
+     "end": 1699.5,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Goro"
+    },
+    {
+     "start": 1699.8,
+     "end": 1704.5,
+     "ja": "でもな、「三度目の正直」っていう言葉は大好きやねん。",
+     "en": "But I love the saying 'third time's the charm.'",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 1709.8,
+     "end": 1712.0,
+     "ja": "なんかストレス溜まってたんやな。",
+     "en": "You must have had a lot of stress built up, huh?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 1712.4,
+     "end": 1713.7,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Goro"
+    },
+    {
+     "start": 1715.0,
+     "end": 1718.8,
+     "ja": "わかった。今までの全部忘れるから。",
+     "en": "Alright. I'll forget everything that just happened.",
+     "speaker": "Interviewer"
+    }
+   ]
+  }
+ ],
+ "videoId": "G9JlVSA7Vtc",
+ "pickTopics": [
+  "fun",
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

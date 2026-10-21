@@ -1,0 +1,212 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 146.0,
+   "end": 159.0,
+   "title": "Do You Always Make Your Own Bento?",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜てる — ongoing/habitual action",
+    "〜とき — when / at the time of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 146.0,
+     "end": 147.5,
+     "ja": "いつも自分で作ってんの？",
+     "en": "Do you always make it yourself?",
+     "speaker": "Ayaka"
+    },
+    {
+     "start": 147.5,
+     "end": 150.8,
+     "ja": "いつもじゃないけど、時間あるときは作ってるかな。",
+     "en": "Not always, but I do when I have time.",
+     "speaker": "Hinano"
+    },
+    {
+     "start": 150.8,
+     "end": 152.4,
+     "ja": "すごい…！",
+     "en": "That's impressive...!",
+     "speaker": "Ayaka"
+    },
+    {
+     "start": 152.6,
+     "end": 154.4,
+     "ja": "得意料理は？",
+     "en": "What's your specialty?",
+     "speaker": "Ayaka"
+    },
+    {
+     "start": 154.5,
+     "end": 156.5,
+     "ja": "得意料理？ハンバーグ。",
+     "en": "My specialty? Salisbury steak.",
+     "speaker": "Hinano"
+    },
+    {
+     "start": 156.8,
+     "end": 158.8,
+     "ja": "でも最近全然作ってない。",
+     "en": "Though I haven't made it at all lately.",
+     "speaker": "Hinano"
+    }
+   ]
+  },
+  {
+   "start": 416.0,
+   "end": 435.5,
+   "title": "Enjoying Matcha Frappuccinos Together",
+   "level": "N4",
+   "topics": [
+    "food",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜ちゃう — to do something inadvertently",
+    "〜とき — when / at the time of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 416.0,
+     "end": 418.2,
+     "ja": "まさかのかぶっちゃいました（笑）。",
+     "en": "We totally got the same thing!",
+     "speaker": "Hinano"
+    },
+    {
+     "start": 418.5,
+     "end": 420.6,
+     "ja": "これは抹茶フラペチーノです。",
+     "en": "This is a matcha frappuccino.",
+     "speaker": "Hinano"
+    },
+    {
+     "start": 420.8,
+     "end": 423.0,
+     "ja": "私はチョコチップを追加しました！",
+     "en": "I added chocolate chips!",
+     "speaker": "Hinano"
+    },
+    {
+     "start": 423.1,
+     "end": 425.7,
+     "ja": "私はエクストラパウダーをカスタムしました！",
+     "en": "I customized it with extra matcha powder!",
+     "speaker": "Ayaka"
+    },
+    {
+     "start": 426.0,
+     "end": 427.5,
+     "ja": "いただきまーす！",
+     "en": "Cheers / Let's drink!",
+     "speaker": "Both"
+    },
+    {
+     "start": 429.8,
+     "end": 430.8,
+     "ja": "おいしっ！",
+     "en": "Delicious!",
+     "speaker": "Hinano"
+    },
+    {
+     "start": 431.0,
+     "end": 432.3,
+     "ja": "美味しい。",
+     "en": "So good.",
+     "speaker": "Ayaka"
+    },
+    {
+     "start": 432.5,
+     "end": 434.5,
+     "ja": "暑いときはめっちゃ美味しい。",
+     "en": "It's so good when it's hot out.",
+     "speaker": "Hinano"
+    },
+    {
+     "start": 434.6,
+     "end": 435.5,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Ayaka"
+    }
+   ]
+  },
+  {
+   "start": 453.0,
+   "end": 470.0,
+   "title": "Why Did You Want to Become a Nurse?",
+   "level": "N3",
+   "topics": [
+    "school",
+    "work",
+    "family"
+   ],
+   "grammar": [
+    "〜ようと思う — intend to do",
+    "〜として — as / in the role of",
+    "〜てから — after doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 453.2,
+     "end": 455.8,
+     "ja": "え、何で看護師・保健師になろうと思ったん？",
+     "en": "So, why did you decide to become a nurse or public health nurse?",
+     "speaker": "Hinano"
+    },
+    {
+     "start": 456.0,
+     "end": 458.5,
+     "ja": "私のお母さんが看護師してて、",
+     "en": "My mother works as a nurse,",
+     "speaker": "Ayaka"
+    },
+    {
+     "start": 458.8,
+     "end": 464.2,
+     "ja": "小さいときからお母さんが看護師として働いてるのを見てたから、",
+     "en": "and ever since I was little, I've watched her work as a nurse,",
+     "speaker": "Ayaka"
+    },
+    {
+     "start": 464.4,
+     "end": 467.4,
+     "ja": "それで私もなりたいなって思って、",
+     "en": "so I thought I'd like to become one too,",
+     "speaker": "Ayaka"
+    },
+    {
+     "start": 467.8,
+     "end": 469.0,
+     "ja": "目指した。",
+     "en": "and aimed for it.",
+     "speaker": "Ayaka"
+    },
+    {
+     "start": 469.1,
+     "end": 470.0,
+     "ja": "へー。",
+     "en": "I see.",
+     "speaker": "Hinano"
+    }
+   ]
+  }
+ ],
+ "videoId": "I2vTqOTPr1w",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

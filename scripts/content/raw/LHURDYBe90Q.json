@@ -1,0 +1,215 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 132.8,
+   "end": 155.8,
+   "title": "Inheriting the Family Dyeing Craft",
+   "level": "N3",
+   "topics": [
+    "work",
+    "family"
+   ],
+   "grammar": [
+    "〜たい — expressing desire",
+    "〜ていく／〜てくる — temporal aspect progression"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 133.2,
+     "end": 135.8,
+     "ja": "私はそうですね、大学卒業して、",
+     "en": "As for me, after graduating from university,",
+     "speaker": "Kumiko"
+    },
+    {
+     "start": 135.9,
+     "end": 138.8,
+     "ja": "この仕事をしたいっていうふうに父にお願いしてたんですけど、",
+     "en": "I asked my father that I wanted to do this work, but...",
+     "speaker": "Kumiko"
+    },
+    {
+     "start": 139.1,
+     "end": 143.8,
+     "ja": "そう簡単には、「うちで仕事するのはそんな甘い世界じゃないよ」っていう形で、",
+     "en": "It wasn't so easy; he said, \"Working here isn't such an easy world.\"",
+     "speaker": "Kumiko"
+    },
+    {
+     "start": 144.1,
+     "end": 146.0,
+     "ja": "一度社会勉強をして、",
+     "en": "So I went out into the world to get work experience first,",
+     "speaker": "Kumiko"
+    },
+    {
+     "start": 146.2,
+     "end": 151.7,
+     "ja": "でもやっぱりその気持ちが強くなったので、もう一度志願してやり始めたっていう形で。",
+     "en": "but that desire grew stronger, so I applied again and started working.",
+     "speaker": "Kumiko"
+    },
+    {
+     "start": 152.0,
+     "end": 154.5,
+     "ja": "今はもう１２年以上経ちますね。",
+     "en": "It's already been over 12 years now.",
+     "speaker": "Kumiko"
+    },
+    {
+     "start": 154.6,
+     "end": 155.4,
+     "ja": "おおー！",
+     "en": "Oh, wow!",
+     "speaker": "Takosuke"
+    }
+   ]
+  },
+  {
+   "start": 381.0,
+   "end": 399.8,
+   "title": "What is Resist Dyeing Paste?",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "work"
+   ],
+   "grammar": [
+    "〜た後に — after doing",
+    "〜というふうに — in such a way / called"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 381.3,
+     "end": 383.0,
+     "ja": "手前のが糊ですね。",
+     "en": "The one in front is the paste, right?",
+     "speaker": "Takosuke"
+    },
+    {
+     "start": 383.1,
+     "end": 385.5,
+     "ja": "はい、これが防染糊になります。",
+     "en": "Yes, this is resist paste.",
+     "speaker": "Kumiko"
+    },
+    {
+     "start": 385.8,
+     "end": 387.6,
+     "ja": "これね、色が入ってなくて、",
+     "en": "This doesn't have color in it, and...",
+     "speaker": "Kumiko"
+    },
+    {
+     "start": 389.8,
+     "end": 393.0,
+     "ja": "柄に乗ったところが、染めたあとに白く抜ける",
+     "en": "the parts where it covers the pattern stay white after dyeing,",
+     "speaker": "Kumiko"
+    },
+    {
+     "start": 393.2,
+     "end": 395.0,
+     "ja": "ものなので防染っていうふうに",
+     "en": "so because it prevents dyeing,",
+     "speaker": "Kumiko"
+    },
+    {
+     "start": 395.1,
+     "end": 396.9,
+     "ja": "名前がついてるんですけど、",
+     "en": "it was given that name,",
+     "speaker": "Kumiko"
+    },
+    {
+     "start": 397.0,
+     "end": 398.9,
+     "ja": "防染糊っていうふうに言います。",
+     "en": "and we call it 'bosen-nori' (resist paste).",
+     "speaker": "Kumiko"
+    },
+    {
+     "start": 399.0,
+     "end": 399.6,
+     "ja": "はい。",
+     "en": "I see.",
+     "speaker": "Takosuke"
+    }
+   ]
+  },
+  {
+   "start": 620.5,
+   "end": 637.8,
+   "title": "Mixing Colors for Dyeing",
+   "level": "N3",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜に合わせて — matching / in accordance with",
+    "〜と — whenever / if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 620.8,
+     "end": 623.8,
+     "ja": "ここでは染料の色を調合するので、",
+     "en": "Here, we mix the colors of the dye, so...",
+     "speaker": "Kumiko"
+    },
+    {
+     "start": 624.3,
+     "end": 627.4,
+     "ja": "「この色に合わせてください」っていうふうに来ると、",
+     "en": "When an order comes saying, \"Please match this color,\"",
+     "speaker": "Kumiko"
+    },
+    {
+     "start": 627.6,
+     "end": 629.5,
+     "ja": "こういうデータがあるんですけど、",
+     "en": "we have records like this;",
+     "speaker": "Kumiko"
+    },
+    {
+     "start": 629.8,
+     "end": 631.8,
+     "ja": "色の調合ノートなんですけど、",
+     "en": "this is a color recipe notebook.",
+     "speaker": "Kumiko"
+    },
+    {
+     "start": 632.0,
+     "end": 633.8,
+     "ja": "これをどういう割合にすると、",
+     "en": "Depending on what ratio we make this,",
+     "speaker": "Kumiko"
+    },
+    {
+     "start": 634.0,
+     "end": 635.7,
+     "ja": "この色になるみたいな感じで、",
+     "en": "it results in a specific color, like that,",
+     "speaker": "Kumiko"
+    },
+    {
+     "start": 635.9,
+     "end": 637.4,
+     "ja": "割合で出していきます。",
+     "en": "so we figure it out by proportion.",
+     "speaker": "Kumiko"
+    }
+   ]
+  }
+ ],
+ "videoId": "LHURDYBe90Q",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

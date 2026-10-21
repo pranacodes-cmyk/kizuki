@@ -1,0 +1,176 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 39.5,
+   "end": 65.5,
+   "title": "My Homemade Curry",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜が作った — relative clause with past tense verb",
+    "〜と — and (noun listing)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 39.8,
+     "end": 43.0,
+     "ja": "これは私のカレーです。",
+     "en": "This is my curry.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 43.3,
+     "end": 45.8,
+     "ja": "私が作りました。",
+     "en": "I made it.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 46.3,
+     "end": 49.8,
+     "ja": "私が作ったカレーです。",
+     "en": "It's curry that I made.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 50.3,
+     "end": 57.8,
+     "ja": "中に肉と、野菜はほうれん草と玉ねぎがあります。",
+     "en": "Inside, there is meat, and the vegetables are spinach and onions.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 58.5,
+     "end": 64.8,
+     "ja": "肉とほうれん草と玉ねぎのカレーです。",
+     "en": "It's meat, spinach, and onion curry.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 86.8,
+   "end": 112.5,
+   "title": "Eating All the Curry by Myself",
+   "level": "N5",
+   "topics": [
+    "food",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜が好きですが — I like ... but",
+    "〜なければいけません — must do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 87.0,
+     "end": 92.0,
+     "ja": "私の家族は私と猫と夫です。",
+     "en": "My family consists of me, my cat, and my husband.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 92.8,
+     "end": 96.5,
+     "ja": "私はカレーが好きですが、",
+     "en": "I like curry, but...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 96.8,
+     "end": 99.5,
+     "ja": "夫はカレーは食べません。",
+     "en": "My husband doesn't eat curry.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 99.8,
+     "end": 102.5,
+     "ja": "好きじゃありません。",
+     "en": "He doesn't like it.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 103.0,
+     "end": 107.3,
+     "ja": "それで、このカレー全部、",
+     "en": "So, all of this curry...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 107.7,
+     "end": 112.0,
+     "ja": "私が一人で食べなければいけません。",
+     "en": "I have to eat all by myself.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 241.5,
+   "end": 263.5,
+   "title": "Offering Curry Udon to the Cat",
+   "level": "N5",
+   "topics": [
+    "food",
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — when / after doing",
+    "〜ませんか — won't you? (invitation)",
+    "〜てしまう — expressing an unintentional action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 241.8,
+     "end": 246.8,
+     "ja": "「いただきます」と言ったら、猫が来ました。",
+     "en": "When I said 'itadakimasu,' the cat came over.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 247.2,
+     "end": 253.8,
+     "ja": "そしてテーブルの上のカレーうどんを見ています。",
+     "en": "And he's looking at the curry udon on the table.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 254.3,
+     "end": 257.8,
+     "ja": "猫ちゃん、一緒に食べませんか？",
+     "en": "Kitty, won't you eat with me?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 258.5,
+     "end": 259.8,
+     "ja": "食べない？",
+     "en": "You won't eat it?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 260.5,
+     "end": 263.0,
+     "ja": "ん？行ってしまいました。",
+     "en": "Hm? He walked away.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "h8aHI9R4p0I",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

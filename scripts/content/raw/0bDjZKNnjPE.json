@@ -1,0 +1,124 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 46.5,
+   "end": 56.3,
+   "title": "Used to the Heat in the Meeting Room",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜さ — -ness (noun form)",
+    "〜に慣れる — get used to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 46.8,
+     "end": 49.0,
+     "ja": "会議室が暑いでしょう。",
+     "en": "The meeting room must be hot, right?",
+     "speaker": "Taguchi-san"
+    },
+    {
+     "start": 49.1,
+     "end": 50.5,
+     "ja": "すみませんね。",
+     "en": "Sorry about that.",
+     "speaker": "Taguchi-san"
+    },
+    {
+     "start": 51.8,
+     "end": 55.7,
+     "ja": "まあ、会議室の暑さにはもう慣れましたから。",
+     "en": "Well, I've already gotten used to the heat in the meeting room.",
+     "speaker": "Colleague"
+    }
+   ]
+  },
+  {
+   "start": 121.5,
+   "end": 133.0,
+   "title": "Getting Used to the Huge Office",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜さ — -ness (noun form)",
+    "〜なくなる — to become no longer"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 122.0,
+     "end": 124.5,
+     "ja": "広いでしょう、この会社。",
+     "en": "It's big, isn't it, this company?",
+     "speaker": "Taguchi-san"
+    },
+    {
+     "start": 124.7,
+     "end": 126.7,
+     "ja": "分からなくなりません？",
+     "en": "Don't you get lost?",
+     "speaker": "Taguchi-san"
+    },
+    {
+     "start": 128.5,
+     "end": 132.5,
+     "ja": "まあ、この会社の広さにはもう慣れましたから。",
+     "en": "Well, I've already gotten used to how big this company is.",
+     "speaker": "Colleague"
+    }
+   ]
+  },
+  {
+   "start": 134.8,
+   "end": 145.8,
+   "title": "Getting Used to an Unfriendly App",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜にくい — difficult to do",
+    "〜さ — -ness (noun form)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 135.3,
+     "end": 137.7,
+     "ja": "このアプリ、ちょっと使いにくいでしょう？",
+     "en": "This app is a bit hard to use, right?",
+     "speaker": "Taguchi-san"
+    },
+    {
+     "start": 137.8,
+     "end": 139.1,
+     "ja": "すみませんね。",
+     "en": "Sorry about that.",
+     "speaker": "Taguchi-san"
+    },
+    {
+     "start": 141.2,
+     "end": 145.3,
+     "ja": "まあ、このアプリの使いにくさにはもう慣れましたから。",
+     "en": "Well, I've already gotten used to how hard this app is to use.",
+     "speaker": "Colleague"
+    }
+   ]
+  }
+ ],
+ "videoId": "0bDjZKNnjPE",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

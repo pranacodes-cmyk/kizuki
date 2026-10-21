@@ -1,0 +1,268 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 34.0,
+   "end": 61.8,
+   "title": "Complaining About Stream Layout",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜でも — even so",
+    "〜んじゃない — isn't it?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 34.3,
+     "end": 36.1,
+     "ja": "いや、そういう問題ではない。",
+     "en": "No, that's not the issue.",
+     "speaker": "Kaida"
+    },
+    {
+     "start": 36.2,
+     "end": 37.3,
+     "ja": "レイアウトです。",
+     "en": "It's the layout.",
+     "speaker": "Kaida"
+    },
+    {
+     "start": 37.4,
+     "end": 39.8,
+     "ja": "レイアウトが何が悪いん？これ。",
+     "en": "What's wrong with the layout here?",
+     "speaker": "Nagao"
+    },
+    {
+     "start": 40.4,
+     "end": 42.0,
+     "ja": "まず、じゃあいい？",
+     "en": "First of all, you ready?",
+     "speaker": "Kaida"
+    },
+    {
+     "start": 42.5,
+     "end": 44.5,
+     "ja": "これで良くなったんだよ、まず。",
+     "en": "First off, this is already after improving it.",
+     "speaker": "Kaida"
+    },
+    {
+     "start": 44.8,
+     "end": 46.2,
+     "ja": "これが。これで。",
+     "en": "This is. With this.",
+     "speaker": "Kaida"
+    },
+    {
+     "start": 46.4,
+     "end": 47.7,
+     "ja": "これで良くなったの？だいぶ。",
+     "en": "This is it improved? A lot?",
+     "speaker": "Nagao"
+    },
+    {
+     "start": 47.8,
+     "end": 51.5,
+     "ja": "これで良くなったの、これでも。",
+     "en": "It improved to this, even so.",
+     "speaker": "Kaida"
+    },
+    {
+     "start": 52.0,
+     "end": 56.0,
+     "ja": "まず、その我々2人の、",
+     "en": "First off, between the two of us,",
+     "speaker": "Kaida"
+    },
+    {
+     "start": 56.8,
+     "end": 58.5,
+     "ja": "サイズ感が違う。",
+     "en": "the scaling is completely off.",
+     "speaker": "Kaida"
+    },
+    {
+     "start": 58.7,
+     "end": 61.3,
+     "ja": "え、これだいぶじゃない？まだ違うの？",
+     "en": "Wait, isn't this close enough? Is it still off?",
+     "speaker": "Nagao"
+    }
+   ]
+  },
+  {
+   "start": 402.0,
+   "end": 432.5,
+   "title": "Opposing Views on Dating a Close Friend",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "〜ばいい — should / all one has to do",
+    "〜てから — after doing",
+    "〜かもしれない — might be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 402.5,
+     "end": 404.2,
+     "ja": "なんか若いときはさ、",
+     "en": "Like, when you're young,",
+     "speaker": "Nagao"
+    },
+    {
+     "start": 404.6,
+     "end": 407.7,
+     "ja": "もうなんでもいいから行っちゃえばいいんじゃない？って俺思っちゃう。",
+     "en": "I just think: whatever, just go for it!",
+     "speaker": "Nagao"
+    },
+    {
+     "start": 408.0,
+     "end": 409.2,
+     "ja": "え、逆だわ。",
+     "en": "Huh, I'm the opposite.",
+     "speaker": "Kaida"
+    },
+    {
+     "start": 409.5,
+     "end": 411.1,
+     "ja": "こういうことに関してこそ、",
+     "en": "Precisely with this kind of thing,",
+     "speaker": "Kaida"
+    },
+    {
+     "start": 411.2,
+     "end": 415.8,
+     "ja": "年食ってから冷静になって進むみたいなとこなんじゃないと思う。",
+     "en": "I feel you only move forward after getting older and staying calm.",
+     "speaker": "Kaida"
+    },
+    {
+     "start": 416.4,
+     "end": 419.0,
+     "ja": "こういう人だからこそ、",
+     "en": "Because they're this kind of person,",
+     "speaker": "Kaida"
+    },
+    {
+     "start": 419.8,
+     "end": 425.5,
+     "ja": "もしかしたらそういうずっと続いてく相手かもしれないって思ったりする。",
+     "en": "you might think they could be someone you stay with forever.",
+     "speaker": "Kaida"
+    },
+    {
+     "start": 426.0,
+     "end": 428.0,
+     "ja": "結構あれだね、あの…",
+     "en": "You're pretty, you know...",
+     "speaker": "Nagao"
+    },
+    {
+     "start": 428.5,
+     "end": 430.7,
+     "ja": "恋愛重いなお前。",
+     "en": "You're pretty intense when it comes to love.",
+     "speaker": "Nagao"
+    },
+    {
+     "start": 431.5,
+     "end": 432.2,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Kaida"
+    }
+   ]
+  },
+  {
+   "start": 324.0,
+   "end": 349.8,
+   "title": "Can Exes Go Back to Being Friends?",
+   "level": "N2",
+   "topics": [
+    "romance",
+    "friends",
+    "comedy"
+   ],
+   "grammar": [
+    "〜からといって — just because",
+    "〜ちゃう — to end up doing",
+    "〜からこそ — precisely because"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 324.3,
+     "end": 328.0,
+     "ja": "だからさ、別れたからといって、その関係を切るのはナンセンスでしょ。",
+     "en": "So, just because you break up, cutting off the relationship is nonsense, right?",
+     "speaker": "Nagao"
+    },
+    {
+     "start": 328.6,
+     "end": 330.0,
+     "ja": "そうなのかな？",
+     "en": "Is it really?",
+     "speaker": "Kaida"
+    },
+    {
+     "start": 330.3,
+     "end": 332.8,
+     "ja": "全然友達に戻れるだろ。",
+     "en": "You can totally go back to being friends.",
+     "speaker": "Nagao"
+    },
+    {
+     "start": 333.4,
+     "end": 335.8,
+     "ja": "いや、でもさ、どちらもフリーで、",
+     "en": "No, but if you're both single,",
+     "speaker": "Kaida"
+    },
+    {
+     "start": 336.5,
+     "end": 339.8,
+     "ja": "ちょっと寂しいから付き合っちゃおーって付き合って、",
+     "en": "and date just because you're lonely,",
+     "speaker": "Kaida"
+    },
+    {
+     "start": 340.2,
+     "end": 343.8,
+     "ja": "結局別れたって場合の気まずさ、えげつなくない？",
+     "en": "wouldn't the awkwardness after breaking up be insane?",
+     "speaker": "Kaida"
+    },
+    {
+     "start": 344.4,
+     "end": 347.6,
+     "ja": "いやいや、この薄さだからこそ友達に戻れるよ。",
+     "en": "No way, precisely because it was casual you can go back to being friends.",
+     "speaker": "Nagao"
+    },
+    {
+     "start": 348.0,
+     "end": 349.3,
+     "ja": "あ、そうなんだ。",
+     "en": "Oh, is that so?",
+     "speaker": "Kaida"
+    }
+   ]
+  }
+ ],
+ "videoId": "iu7n_71NOqg",
+ "pickTopics": [
+  "romance",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

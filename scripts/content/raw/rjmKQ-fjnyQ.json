@@ -1,0 +1,207 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 21.2,
+   "end": 46.5,
+   "title": "Talking About Dandelions and Flowers",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "AはBです — A is B",
+    "〜の〜 — noun modifier (colors/attributes)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 21.5,
+     "end": 24.0,
+     "ja": "これは何ですか？",
+     "en": "What is this?",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 25.0,
+     "end": 27.2,
+     "ja": "これは花です。",
+     "en": "This is a flower.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 27.5,
+     "end": 30.0,
+     "ja": "これは花です。",
+     "en": "This is a flower.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 31.0,
+     "end": 34.5,
+     "ja": "これは黄色の花です。",
+     "en": "This is a yellow flower.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 35.3,
+     "end": 38.6,
+     "ja": "これは黄色の花です。",
+     "en": "This is a yellow flower.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 39.8,
+     "end": 42.5,
+     "ja": "葉っぱは緑色です。",
+     "en": "The leaves are green.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 43.2,
+     "end": 46.3,
+     "ja": "葉っぱは緑色です。",
+     "en": "The leaves are green.",
+     "speaker": "Yuta"
+    }
+   ]
+  },
+  {
+   "start": 60.7,
+   "end": 87.2,
+   "title": "Describing Today's Nice Weather",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜があります — there is / exists",
+    "〜くて — -te form of i-adjective (connecting reasons/states)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 61.0,
+     "end": 63.9,
+     "ja": "今日は天気がいいです。",
+     "en": "The weather is nice today.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 64.0,
+     "end": 67.0,
+     "ja": "今日は天気がいいです。",
+     "en": "The weather is nice today.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 67.8,
+     "end": 70.5,
+     "ja": "雲があります。",
+     "en": "There are clouds.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 70.7,
+     "end": 73.6,
+     "ja": "白い雲があります。",
+     "en": "There are white clouds.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 74.0,
+     "end": 77.2,
+     "ja": "でも今日は晴れです。",
+     "en": "But today it is sunny.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 77.3,
+     "end": 79.6,
+     "ja": "今日は晴れです。",
+     "en": "Today it is sunny.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 80.0,
+     "end": 83.7,
+     "ja": "天気が良くて暖かいです。",
+     "en": "The weather is nice and it's warm.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 84.0,
+     "end": 87.0,
+     "ja": "今日は暖かいです。",
+     "en": "Today is warm.",
+     "speaker": "Yuta"
+    }
+   ]
+  },
+  {
+   "start": 164.5,
+   "end": 185.5,
+   "title": "Looking at Cherry Blossoms",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜に — time marker",
+    "AはBです — A is B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 165.0,
+     "end": 167.7,
+     "ja": "これは桜です。",
+     "en": "This is a cherry blossom.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 167.8,
+     "end": 170.6,
+     "ja": "これは桜です。",
+     "en": "This is a cherry blossom.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 171.0,
+     "end": 174.0,
+     "ja": "桜は春に咲きます。",
+     "en": "Cherry blossoms bloom in spring.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 174.2,
+     "end": 177.2,
+     "ja": "桜は春に咲きます。",
+     "en": "Cherry blossoms bloom in spring.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 178.0,
+     "end": 181.3,
+     "ja": "この桜は白色です。",
+     "en": "This cherry blossom is white.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 181.6,
+     "end": 184.9,
+     "ja": "この桜は白色です。",
+     "en": "This cherry blossom is white.",
+     "speaker": "Yuta"
+    }
+   ]
+  }
+ ],
+ "videoId": "rjmKQ-fjnyQ",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

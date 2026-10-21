@@ -1,0 +1,123 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.5,
+   "end": 19.0,
+   "title": "Why I Like Tofu-san",
+   "level": "N5",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜くて / 〜で — and (connecting adjectives)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.8,
+     "end": 10.8,
+     "ja": "僕は、豆腐さんが好きです。",
+     "en": "I like Tofu-san.",
+     "speaker": "Egg-san"
+    },
+    {
+     "start": 11.4,
+     "end": 15.3,
+     "ja": "豆腐さんは、明るくて、可愛くて、",
+     "en": "Tofu-san is cheerful, cute,",
+     "speaker": "Egg-san"
+    },
+    {
+     "start": 15.6,
+     "end": 18.5,
+     "ja": "真面目で、親切です。",
+     "en": "earnest, and kind.",
+     "speaker": "Egg-san"
+    }
+   ]
+  },
+  {
+   "start": 36.0,
+   "end": 56.5,
+   "title": "A Return Birthday Gift",
+   "level": "N5",
+   "topics": [
+    "friends",
+    "romance"
+   ],
+   "grammar": [
+    "〜をくれる — to give to me",
+    "〜たい — want to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 36.5,
+     "end": 42.5,
+     "ja": "豆腐さんは、僕の誕生日にボールペンをくれました。",
+     "en": "Tofu-san gave me a ballpoint pen for my birthday.",
+     "speaker": "Egg-san"
+    },
+    {
+     "start": 43.5,
+     "end": 47.3,
+     "ja": "そのボールペンは、僕の宝物です。",
+     "en": "That ballpoint pen is my treasure.",
+     "speaker": "Egg-san"
+    },
+    {
+     "start": 48.8,
+     "end": 56.0,
+     "ja": "だから、豆腐さんの誕生日には、素敵なプレゼントをあげたいです。",
+     "en": "So for Tofu-san's birthday, I want to give a wonderful gift.",
+     "speaker": "Egg-san"
+    }
+   ]
+  },
+  {
+   "start": 120.0,
+   "end": 135.5,
+   "title": "A Musical Birthday Gift",
+   "level": "N5",
+   "topics": [
+    "music",
+    "romance",
+    "fun"
+   ],
+   "grammar": [
+    "〜ようと思う — thinking of doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 120.3,
+     "end": 123.5,
+     "ja": "いいアイデアを思いつきました。",
+     "en": "I came up with a good idea.",
+     "speaker": "Egg-san"
+    },
+    {
+     "start": 124.3,
+     "end": 128.0,
+     "ja": "豆腐さんは、音楽が大好きです。",
+     "en": "Tofu-san loves music.",
+     "speaker": "Egg-san"
+    },
+    {
+     "start": 128.8,
+     "end": 135.0,
+     "ja": "だから、誕生日に歌をプレゼントしようと思います。",
+     "en": "So, I'm thinking of giving the gift of a song for their birthday.",
+     "speaker": "Egg-san"
+    }
+   ]
+  }
+ ],
+ "videoId": "taYen1p4G78",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,210 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 320.0,
+   "end": 343.8,
+   "title": "Introducing Favorite Snacks",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくる — to bring / come having done",
+    "〜たい — want to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 320.3,
+     "end": 324.5,
+     "ja": "はい、ということでね、ちょっと遊び疲れたので",
+     "en": "All right, so, we're a bit tired from playing,",
+     "speaker": "Tomomi"
+    },
+    {
+     "start": 324.7,
+     "end": 328.0,
+     "ja": "今ね、ベビちんがお菓子食べたいってことなので",
+     "en": "and since Babychin wants to eat some snacks right now,",
+     "speaker": "Tomomi"
+    },
+    {
+     "start": 328.0,
+     "end": 331.6,
+     "ja": "今日は私の推しお菓子を持ってきました〜！",
+     "en": "I brought my favorite recommended snacks today!",
+     "speaker": "Tomomi"
+    },
+    {
+     "start": 331.9,
+     "end": 333.6,
+     "ja": "何でしょうか？",
+     "en": "What could they be?",
+     "speaker": "Tomomi"
+    },
+    {
+     "start": 334.0,
+     "end": 338.9,
+     "ja": "じゃーん！「なげわ」と「ポテコ」！",
+     "en": "Ta-da! Nagewa and Poteko!",
+     "speaker": "Tomomi"
+    },
+    {
+     "start": 339.0,
+     "end": 341.2,
+     "ja": "知ってますか？なげわとポテコ。",
+     "en": "Do you know them? Nagewa and Poteko.",
+     "speaker": "Tomomi"
+    },
+    {
+     "start": 341.3,
+     "end": 343.3,
+     "ja": "最近食べてないです。",
+     "en": "I haven't eaten them recently.",
+     "speaker": "Miyu"
+    }
+   ]
+  },
+  {
+   "start": 1022.2,
+   "end": 1046.0,
+   "title": "Matching Pearl Denim Jeans",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜って言う — to say that",
+    "〜んだったら — if it is the case that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1022.5,
+     "end": 1025.2,
+     "ja": "言ってくださいよ、その真珠のズボンで揃えるって。",
+     "en": "You should've told me we were matching in pearl pants.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 1025.4,
+     "end": 1027.8,
+     "ja": "真珠じゃないから…",
+     "en": "They're not real pearls...",
+     "speaker": "Tomomi"
+    },
+    {
+     "start": 1028.0,
+     "end": 1030.5,
+     "ja": "真珠って言い方する人いなくない？",
+     "en": "Nobody calls them pearls like that, do they?",
+     "speaker": "Tomomi"
+    },
+    {
+     "start": 1030.8,
+     "end": 1033.4,
+     "ja": "真珠のズボンで来るんだったら言ってくださいよもう。",
+     "en": "If you were coming in pearl pants, just tell me already.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 1033.6,
+     "end": 1035.7,
+     "ja": "パールよ。パールでしょ。",
+     "en": "They're pearls. You call it pearl, right?",
+     "speaker": "Tomomi"
+    },
+    {
+     "start": 1035.8,
+     "end": 1037.6,
+     "ja": "パールのデニムっすね。",
+     "en": "Pearl denim, yeah.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 1039.0,
+     "end": 1041.5,
+     "ja": "ほら、リュウジも見せてあげて。",
+     "en": "Come on, Ryuji, show them yours too.",
+     "speaker": "Miyu"
+    },
+    {
+     "start": 1042.8,
+     "end": 1045.5,
+     "ja": "ちょっとさ、僕だけ仲間外れみたいにしてさ…",
+     "en": "Come on, making me look like the odd one out...",
+     "speaker": "Ryuji"
+    }
+   ]
+  },
+  {
+   "start": 1369.0,
+   "end": 1387.0,
+   "title": "Italian Dinner with a Night View",
+   "level": "N5",
+   "topics": [
+    "food",
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜が見える — can see / visible",
+    "〜て帰る — to do and go home"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1369.3,
+     "end": 1371.8,
+     "ja": "夜ご飯はイタリアンでーす。",
+     "en": "Dinner is Italian food!",
+     "speaker": "Tomomi"
+    },
+    {
+     "start": 1372.2,
+     "end": 1376.0,
+     "ja": "素敵な横浜の夜景が見えるレストランに来ました。",
+     "en": "We came to a restaurant with a lovely night view of Yokohama.",
+     "speaker": "Tomomi"
+    },
+    {
+     "start": 1376.1,
+     "end": 1377.6,
+     "ja": "いただきます。",
+     "en": "Let's eat.",
+     "speaker": "Tomomi"
+    },
+    {
+     "start": 1377.9,
+     "end": 1380.0,
+     "ja": "ん〜！",
+     "en": "Mmm~!",
+     "speaker": "Tomomi"
+    },
+    {
+     "start": 1380.2,
+     "end": 1383.8,
+     "ja": "では楽しく食べて帰りまーす♪",
+     "en": "All right, we'll enjoy our meal and head home!",
+     "speaker": "Tomomi"
+    },
+    {
+     "start": 1384.2,
+     "end": 1386.0,
+     "ja": "またねー！",
+     "en": "See you later!",
+     "speaker": "Tomomi"
+    }
+   ]
+  }
+ ],
+ "videoId": "gvCmcvlwKeQ",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

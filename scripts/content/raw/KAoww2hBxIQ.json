@@ -1,0 +1,64 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.1,
+   "end": 13.9,
+   "title": "Make Me a Bento to Call It Even",
+   "level": "N3",
+   "topics": [
+    "food",
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくれる — doing something for someone",
+    "〜ないといけない — must do"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 4.5,
+     "end": 6.8,
+     "ja": "明日から君は俺にお弁当を作ってくれ。",
+     "en": "Starting tomorrow, you make me a bento lunch.",
+     "speaker": "Male Lead"
+    },
+    {
+     "start": 6.9,
+     "end": 8.0,
+     "ja": "それでチャラだ。",
+     "en": "With that, we're even.",
+     "speaker": "Male Lead"
+    },
+    {
+     "start": 8.1,
+     "end": 9.3,
+     "ja": "なんで赤の他人のあなたに",
+     "en": "Why should I, for a complete stranger like you,",
+     "speaker": "Female Lead"
+    },
+    {
+     "start": 9.3,
+     "end": 11.2,
+     "ja": "お弁当を作ってあげなきゃいけないんですか？",
+     "en": "have to make you a bento?",
+     "speaker": "Female Lead"
+    },
+    {
+     "start": 11.2,
+     "end": 13.6,
+     "ja": "見ず知らずの二人がお弁当をきっかけに…",
+     "en": "Two strangers, sparked by a bento box...",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "KAoww2hBxIQ",
+ "pickTopics": [
+  "romance",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

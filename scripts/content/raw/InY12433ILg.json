@@ -1,0 +1,132 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 18.2,
+   "title": "A Battle for Valentine's Day Begins",
+   "level": "N3",
+   "topics": [
+    "school",
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "〜ことにする — decide to do",
+    "〜に向けて — heading towards / aiming for",
+    "〜られない — cannot do (potential negative)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 2.4,
+     "ja": "このチョコ、めっちゃ可愛くない？",
+     "en": "Isn't this chocolate super cute?",
+     "speaker": "Schoolgirl"
+    },
+    {
+     "start": 2.5,
+     "end": 6.5,
+     "ja": "バレンタインデーに監督に本命チョコレートを渡すことにした私。",
+     "en": "I decided to give true-love chocolates to the coach on Valentine's Day.",
+     "speaker": "Miho"
+    },
+    {
+     "start": 6.6,
+     "end": 9.6,
+     "ja": "けれど、強力なライバルは他にもいた。",
+     "en": "However, I had powerful rivals as well.",
+     "speaker": "Miho"
+    },
+    {
+     "start": 10.1,
+     "end": 12.9,
+     "ja": "てか、みんなは監督にあげないんですか？",
+     "en": "Wait, aren't you guys giving any to the coach?",
+     "speaker": "Haruyo"
+    },
+    {
+     "start": 13.1,
+     "end": 15.3,
+     "ja": "明日のバレンタインに向けて、",
+     "en": "With Valentine's Day coming tomorrow,",
+     "speaker": "Miho"
+    },
+    {
+     "start": 15.4,
+     "end": 18.0,
+     "ja": "絶対に負けられない戦いが、今始まる。",
+     "en": "an unlosable battle begins right now.",
+     "speaker": "Miho"
+    }
+   ]
+  },
+  {
+   "start": 21.5,
+   "end": 37.0,
+   "title": "The Valentine Game Commences",
+   "level": "N3",
+   "topics": [
+    "school",
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "〜じゃないですか — isn't it? (seeking agreement)",
+    "〜たい — want to do",
+    "〜のか — question particle (wondering/rhetorical)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 21.8,
+     "end": 24.4,
+     "ja": "大事なのは、私たちの友情じゃないですか？",
+     "en": "Isn't our friendship the most important thing?",
+     "speaker": "Mana"
+    },
+    {
+     "start": 24.6,
+     "end": 26.8,
+     "ja": "え、個包装？みんなにあげたいかな。",
+     "en": "Huh, individually wrapped? I'd like to give some to everyone.",
+     "speaker": "Sarina"
+    },
+    {
+     "start": 26.9,
+     "end": 28.9,
+     "ja": "私は普通にあげますけど。",
+     "en": "Well, I'm just going to give mine normally.",
+     "speaker": "Haruyo"
+    },
+    {
+     "start": 29.1,
+     "end": 30.9,
+     "ja": "監督ー！",
+     "en": "Coach!",
+     "speaker": "Miho"
+    },
+    {
+     "start": 31.2,
+     "end": 33.7,
+     "ja": "誰が監督のハートを射止めるのか？",
+     "en": "Who will win the coach's heart?",
+     "speaker": "Miho"
+    },
+    {
+     "start": 33.8,
+     "end": 36.8,
+     "ja": "さあ、バレンタイン・ゲームの始まりだ。",
+     "en": "Now, let the Valentine's Game begin.",
+     "speaker": "Miho"
+    }
+   ]
+  }
+ ],
+ "videoId": "InY12433ILg",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

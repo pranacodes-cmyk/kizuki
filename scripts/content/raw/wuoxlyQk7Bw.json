@@ -1,0 +1,246 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 8.3,
+   "end": 25.7,
+   "title": "A Beautiful National Park",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "travel"
+   ],
+   "grammar": [
+    "〜によって — by / through",
+    "〜ということだ — it means that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 8.304,
+     "end": 8.337,
+     "ja": "先生はこの島が本当に好きなのよね？",
+     "en": "Doctor, you really love this island, don't you?",
+     "speaker": "Pinoko"
+    },
+    {
+     "start": 8.35,
+     "end": 8.383,
+     "ja": "西表島は山と熱帯雨林の自然郷で、",
+     "en": "Iriomote Island is a natural paradise of mountains and rainforests,",
+     "speaker": "Black Jack"
+    },
+    {
+     "start": 8.385,
+     "end": 8.415,
+     "ja": "天然記念物に満ちた美しい島だ。",
+     "en": "a beautiful island filled with natural monuments.",
+     "speaker": "Black Jack"
+    },
+    {
+     "start": 8.425,
+     "end": 8.442,
+     "ja": "昭和４７年には、",
+     "en": "In 1972,",
+     "speaker": "Black Jack"
+    },
+    {
+     "start": 8.443,
+     "end": 8.476,
+     "ja": "島の大部分が国立公園に指定されている。",
+     "en": "most of the island was designated a national park.",
+     "speaker": "Black Jack"
+    },
+    {
+     "start": 8.48,
+     "end": 8.492,
+     "ja": "国立公園？",
+     "en": "A national park?",
+     "speaker": "Pinoko"
+    },
+    {
+     "start": 8.495,
+     "end": 8.533,
+     "ja": "国によってその自然が保護されているということだ。",
+     "en": "It means its nature is protected by the government.",
+     "speaker": "Black Jack"
+    },
+    {
+     "start": 8.537,
+     "end": 8.553,
+     "ja": "今のところはな。",
+     "en": "For now, that is.",
+     "speaker": "Black Jack"
+    }
+   ]
+  },
+  {
+   "start": 15.139,
+   "end": 15.365,
+   "title": "Ten Million Yen for Treatment",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "daily"
+   ],
+   "grammar": [
+    "〜なら — conditional (if / as for)",
+    "〜と言った — said that",
+    "〜ましょう — shall we / I will"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 15.143,
+     "end": 15.168,
+     "ja": "私の治療費は高いですぜ。",
+     "en": "My medical fees are quite high.",
+     "speaker": "Black Jack"
+    },
+    {
+     "start": 15.169,
+     "end": 15.18,
+     "ja": "いいんですかい？",
+     "en": "Are you sure about this?",
+     "speaker": "Black Jack"
+    },
+    {
+     "start": 15.181,
+     "end": 15.21,
+     "ja": "だから金ならいくらでも払うと言ったろうが！",
+     "en": "I told you, I'll pay whatever it costs!",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 15.218,
+     "end": 15.228,
+     "ja": "そうですか。",
+     "en": "Is that so?",
+     "speaker": "Black Jack"
+    },
+    {
+     "start": 15.235,
+     "end": 15.253,
+     "ja": "じゃあ代議士の先生、",
+     "en": "Well then, Mr. Politician,",
+     "speaker": "Black Jack"
+    },
+    {
+     "start": 15.254,
+     "end": 15.28,
+     "ja": "応急処置で１０００万円いただきましょう。",
+     "en": "I'll take 10 million yen for the emergency treatment.",
+     "speaker": "Black Jack"
+    },
+    {
+     "start": 15.286,
+     "end": 15.303,
+     "ja": "１０００万！？",
+     "en": "10 million?!",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 15.308,
+     "end": 15.334,
+     "ja": "そっちの赤ん坊も１０００万円だ。",
+     "en": "For that baby over there, it's 10 million yen too.",
+     "speaker": "Black Jack"
+    },
+    {
+     "start": 15.34,
+     "end": 15.36,
+     "ja": "そんな…そんな…",
+     "en": "That's... That can't be...",
+     "speaker": "Mother"
+    }
+   ]
+  },
+  {
+   "start": 20.249,
+   "end": 20.52,
+   "title": "Black Jack's Order of Triage",
+   "level": "N2",
+   "topics": [
+    "anime",
+    "work"
+   ],
+   "grammar": [
+    "〜のうち — out of / among",
+    "〜たら — when / after",
+    "〜順に — in order of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 20.252,
+     "end": 20.306,
+     "ja": "えー、あなたは１人の市民と、１人の幼児と、１匹の猫の３人…",
+     "en": "Well, among the three people: one citizen, one infant, and one cat...",
+     "speaker": "Prosecutor"
+    },
+    {
+     "start": 20.309,
+     "end": 20.337,
+     "ja": "いや、２人と１匹の重傷者のうち、",
+     "en": "er, rather, among the two people and one animal who were critically injured,",
+     "speaker": "Prosecutor"
+    },
+    {
+     "start": 20.339,
+     "end": 20.377,
+     "ja": "なぜ猫、幼児、市民の順で応急手当てしたのですか？",
+     "en": "why did you treat the cat, infant, and citizen in that order?",
+     "speaker": "Prosecutor"
+    },
+    {
+     "start": 20.382,
+     "end": 20.404,
+     "ja": "３つの怪我を調べたら、",
+     "en": "When I examined the three injuries,",
+     "speaker": "Black Jack"
+    },
+    {
+     "start": 20.405,
+     "end": 20.422,
+     "ja": "田中さんが一番軽く、",
+     "en": "Mr. Tanaka's was the mildest,",
+     "speaker": "Black Jack"
+    },
+    {
+     "start": 20.425,
+     "end": 20.45,
+     "ja": "イリオモテヤマネコが最も重態でした。",
+     "en": "and the Iriomote wildcat was in the most critical condition.",
+     "speaker": "Black Jack"
+    },
+    {
+     "start": 20.458,
+     "end": 20.478,
+     "ja": "だから症状の重い順に、",
+     "en": "Therefore, in order of severity,",
+     "speaker": "Black Jack"
+    },
+    {
+     "start": 20.479,
+     "end": 20.501,
+     "ja": "猫を最初に応急手当てした。",
+     "en": "I administered emergency treatment to the cat first.",
+     "speaker": "Black Jack"
+    },
+    {
+     "start": 20.502,
+     "end": 20.516,
+     "ja": "それだけのことです。",
+     "en": "It is as simple as that.",
+     "speaker": "Black Jack"
+    }
+   ]
+  }
+ ],
+ "videoId": "wuoxlyQk7Bw",
+ "pickTopics": [
+  "anime",
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

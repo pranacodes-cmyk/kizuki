@@ -1,0 +1,419 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.558,
+   "end": 1.139,
+   "title": "Introducing the Architect",
+   "level": "N4",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜と申します — humble introduction",
+    "〜するとき — when doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.558,
+     "end": 0.572,
+     "ja": "あ、どうも初めまして。",
+     "en": "Ah, nice to meet you.",
+     "speaker": "Architect"
+    },
+    {
+     "start": 0.572,
+     "end": 0.582,
+     "ja": "あ、どうもこんにちは。",
+     "en": "Ah, hello.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 0.582,
+     "end": 0.59,
+     "ja": "伊達さんですね。",
+     "en": "You're Mr. Date, right?",
+     "speaker": "Architect"
+    },
+    {
+     "start": 0.59,
+     "end": 1.002,
+     "ja": "あ、そうです。あの、建築士さんですね。",
+     "en": "Yes, that's right. You're the architect, correct?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 1.002,
+     "end": 1.013,
+     "ja": "そうです。初めまして。",
+     "en": "Yes. Nice to meet you.",
+     "speaker": "Architect"
+    },
+    {
+     "start": 1.013,
+     "end": 1.019,
+     "ja": "あ、聞いてます。どうもよろしく…",
+     "en": "Right, I've heard about you. Nice to...",
+     "speaker": "Customer"
+    },
+    {
+     "start": 1.019,
+     "end": 1.028,
+     "ja": "私あの、建築士の、",
+     "en": "I am the architect,",
+     "speaker": "Architect"
+    },
+    {
+     "start": 1.028,
+     "end": 1.032,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 1.032,
+     "end": 1.044,
+     "ja": "筑紫建と申します。",
+     "en": "My name is Ken Chikushi.",
+     "speaker": "Architect"
+    },
+    {
+     "start": 1.044,
+     "end": 1.051,
+     "ja": "あ、どうもよろしく…",
+     "en": "Ah, pleased to...",
+     "speaker": "Customer"
+    },
+    {
+     "start": 1.051,
+     "end": 1.061,
+     "ja": "よろしくお願いします。",
+     "en": "Nice to meet you.",
+     "speaker": "Architect"
+    },
+    {
+     "start": 1.061,
+     "end": 1.071,
+     "ja": "珍しいお名前ですね。",
+     "en": "That's an unusual name.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 1.071,
+     "end": 1.081,
+     "ja": "そうなんですよ。",
+     "en": "It really is.",
+     "speaker": "Architect"
+    },
+    {
+     "start": 1.081,
+     "end": 1.091,
+     "ja": "筑紫建さん。",
+     "en": "Ken Chikushi.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 1.091,
+     "end": 1.096,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Architect"
+    },
+    {
+     "start": 1.096,
+     "end": 1.117,
+     "ja": "だから、英語で自己紹介するときとか、",
+     "en": "So, when I introduce myself in English,",
+     "speaker": "Architect"
+    },
+    {
+     "start": 1.117,
+     "end": 1.123,
+     "ja": "はいはい。",
+     "en": "Uh-huh.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 1.123,
+     "end": 1.134,
+     "ja": "My name is...",
+     "en": "My name is...",
+     "speaker": "Architect"
+    }
+   ]
+  },
+  {
+   "start": 6.253,
+   "end": 6.515,
+   "title": "What Kind of House Do You Want?",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜たい — want to do",
+    "〜ないでほしい — want someone not to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.253,
+     "end": 6.275,
+     "ja": "じゃ、早速お家の話なんですけど、",
+     "en": "Well then, getting straight to talking about the house,",
+     "speaker": "Architect"
+    },
+    {
+     "start": 6.275,
+     "end": 6.28,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 6.28,
+     "end": 6.305,
+     "ja": "どんな家にしたいみたいなイメージってあったりしますか？",
+     "en": "do you have any idea of what kind of house you want?",
+     "speaker": "Architect"
+    },
+    {
+     "start": 6.305,
+     "end": 6.324,
+     "ja": "いや、これがね、まだほとんどなくて、",
+     "en": "Well, I barely have any idea yet,",
+     "speaker": "Customer"
+    },
+    {
+     "start": 6.324,
+     "end": 6.329,
+     "ja": "あ、そうですか。",
+     "en": "Oh, is that so?",
+     "speaker": "Architect"
+    },
+    {
+     "start": 6.329,
+     "end": 6.346,
+     "ja": "頭の中でまだざっくりなんですよね。",
+     "en": "It's still just very rough in my head.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 6.346,
+     "end": 6.369,
+     "ja": "あー、じゃあ特に無ければ、このアパートの感じになって…",
+     "en": "Ah, so if there's nothing specific, it'll end up like this apartment...",
+     "speaker": "Architect"
+    },
+    {
+     "start": 6.369,
+     "end": 6.382,
+     "ja": "いや、こういう風にはしないでほしいです。",
+     "en": "No, I don't want you to make it like this.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 6.382,
+     "end": 6.403,
+     "ja": "別に、物凄い今気に入ってるわけじゃないんでね。",
+     "en": "It's not like I particularly love this place.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 6.403,
+     "end": 6.408,
+     "ja": "あ、そうですか。",
+     "en": "Oh, really?",
+     "speaker": "Architect"
+    },
+    {
+     "start": 6.408,
+     "end": 6.425,
+     "ja": "これでいいんだったら、家作りませんから。",
+     "en": "If this was fine, I wouldn't be building a house.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 6.425,
+     "end": 6.43,
+     "ja": "あ、そうですか。",
+     "en": "I see.",
+     "speaker": "Architect"
+    },
+    {
+     "start": 6.43,
+     "end": 6.442,
+     "ja": "はい。もっと広くしたいです。",
+     "en": "Yeah. I want to make it much bigger.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 6.442,
+     "end": 6.466,
+     "ja": "こう、和風がいいとか、洋風がいいとか、",
+     "en": "Like, Japanese style, Western style,",
+     "speaker": "Architect"
+    },
+    {
+     "start": 6.466,
+     "end": 6.474,
+     "ja": "シーザーがいいとか。",
+     "en": "or Caesar style.",
+     "speaker": "Architect"
+    },
+    {
+     "start": 6.474,
+     "end": 6.51,
+     "ja": "いや、ドレッシング選んでんじゃないんですから。",
+     "en": "Hey, we're not picking salad dressing here!",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 7.102,
+   "end": 7.365,
+   "title": "An Underground House?",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てみる — try doing / experience",
+    "〜たことある — have experienced doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 7.102,
+     "end": 7.12,
+     "ja": "じゃ、まず何階建てがいいとかっていうのは…",
+     "en": "Well then, first, how many stories would you like...",
+     "speaker": "Architect"
+    },
+    {
+     "start": 7.12,
+     "end": 7.136,
+     "ja": "あ、いや、それは決まってます。2階建て。",
+     "en": "Ah, no, that's already decided. Two stories.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 7.136,
+     "end": 7.147,
+     "ja": "地下2階建てで…",
+     "en": "Two stories underground...",
+     "speaker": "Architect"
+    },
+    {
+     "start": 7.147,
+     "end": 7.158,
+     "ja": "地上だよ！",
+     "en": "Above ground!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 7.158,
+     "end": 7.164,
+     "ja": "地上…",
+     "en": "Above ground...",
+     "speaker": "Architect"
+    },
+    {
+     "start": 7.164,
+     "end": 7.194,
+     "ja": "見たことあります？見た目更地で地下2階建て。",
+     "en": "Have you ever seen that? Looks like an empty lot, but two stories underground.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 7.194,
+     "end": 7.21,
+     "ja": "いや、ここあんだよ、俺んち！",
+     "en": "Like: 'Hey, my house is right here!'",
+     "speaker": "Customer"
+    },
+    {
+     "start": 7.21,
+     "end": 7.244,
+     "ja": "俺んちここ…いや、あるんだって！",
+     "en": "'My house is here... no, seriously, it is!'",
+     "speaker": "Customer"
+    },
+    {
+     "start": 7.244,
+     "end": 7.258,
+     "ja": "そんな家あります？",
+     "en": "Does a house like that even exist?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 7.258,
+     "end": 7.278,
+     "ja": "見たことないですね。",
+     "en": "I've never seen one.",
+     "speaker": "Architect"
+    },
+    {
+     "start": 7.278,
+     "end": 7.298,
+     "ja": "間違ってなんか建つわ、お前！",
+     "en": "Someone would accidentally build on top of it, man!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 7.298,
+     "end": 7.309,
+     "ja": "地上…地上ですか。",
+     "en": "Above... above ground, then.",
+     "speaker": "Architect"
+    },
+    {
+     "start": 7.309,
+     "end": 7.32,
+     "ja": "地上ですよ！",
+     "en": "Above ground, obviously!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 7.32,
+     "end": 7.328,
+     "ja": "地上2階建てですね。",
+     "en": "Two stories above ground.",
+     "speaker": "Architect"
+    },
+    {
+     "start": 7.328,
+     "end": 7.348,
+     "ja": "当たり前でしょ！何すか、地下2階建てって。",
+     "en": "Of course! What's with 'two stories underground'?!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 7.348,
+     "end": 7.357,
+     "ja": "地上の2階建て。",
+     "en": "Two stories above ground.",
+     "speaker": "Architect"
+    },
+    {
+     "start": 7.357,
+     "end": 7.365,
+     "ja": "地上2階建て。",
+     "en": "Two stories above ground.",
+     "speaker": "Customer"
+    }
+   ]
+  }
+ ],
+ "videoId": "QbMBBtENwzQ",
+ "pickTopics": [
+  "fun",
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

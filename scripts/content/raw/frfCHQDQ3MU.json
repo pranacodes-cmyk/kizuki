@@ -1,0 +1,208 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 58.2,
+   "end": 118.6,
+   "title": "Introducing a Secret Weapon",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "friends",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ばかりに — simply because",
+    "〜ように — so that / in order to",
+    "〜だけ — just / only"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 58.4,
+     "end": 60.0,
+     "ja": "ごめん。",
+     "en": "Sorry.",
+     "speaker": "Yu"
+    },
+    {
+     "start": 60.1,
+     "end": 63.2,
+     "ja": "私が不甲斐ないばかりに…",
+     "en": "It's all because I was so useless...",
+     "speaker": "Yu"
+    },
+    {
+     "start": 63.4,
+     "end": 65.1,
+     "ja": "有のせいじゃないよ！",
+     "en": "It's not your fault, Yu!",
+     "speaker": "Chiharu"
+    },
+    {
+     "start": 65.2,
+     "end": 67.1,
+     "ja": "私も全然決まらなかったし。",
+     "en": "I couldn't pull off my moves either.",
+     "speaker": "Chiharu"
+    },
+    {
+     "start": 67.3,
+     "end": 71.1,
+     "ja": "そうです、私もここって時に引けませんでした。",
+     "en": "That's right, I couldn't draw the right cards when it counted.",
+     "speaker": "Shuko"
+    },
+    {
+     "start": 71.2,
+     "end": 74.3,
+     "ja": "みんなちょっと運が悪かっただけですよ。",
+     "en": "We all just had a bit of bad luck, that's all.",
+     "speaker": "Shuko"
+    },
+    {
+     "start": 74.5,
+     "end": 78.5,
+     "ja": "それでね！もっと引きが良くなるように秘密兵器を導入したの！",
+     "en": "So listen! I brought in a secret weapon to improve our draws!",
+     "speaker": "Chiharu"
+    }
+   ]
+  },
+  {
+   "start": 81.0,
+   "end": 99.5,
+   "title": "A Fortune Teller's Good Luck Charm",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy",
+    "friends"
+   ],
+   "grammar": [
+    "〜ば — conditional (if)",
+    "〜って — hearsay / quotation",
+    "〜くらいなら — rather than"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 81.3,
+     "end": 83.0,
+     "ja": "な、何これ？",
+     "en": "Wh-what is this?",
+     "speaker": "Chiharu"
+    },
+    {
+     "start": 83.3,
+     "end": 86.5,
+     "ja": "これを買えば運気が良くなるって占い師の先生が…",
+     "en": "The fortune teller said if I bought this, my luck would improve...",
+     "speaker": "Yu"
+    },
+    {
+     "start": 86.7,
+     "end": 88.6,
+     "ja": "ぜーったい詐欺でしょ！",
+     "en": "That is totally a scam!",
+     "speaker": "Chiharu"
+    },
+    {
+     "start": 88.7,
+     "end": 91.4,
+     "ja": "何心の隙間に付け込まれちゃってんの！",
+     "en": "Why did you let them take advantage of your vulnerability?!",
+     "speaker": "Chiharu"
+    },
+    {
+     "start": 91.6,
+     "end": 93.8,
+     "ja": "でも、これを買ってから勝率が…",
+     "en": "But since buying this, my win rate...",
+     "speaker": "Yu"
+    },
+    {
+     "start": 94.0,
+     "end": 97.4,
+     "ja": "こんなの買うくらいならカード買いましょうよ！",
+     "en": "If you're going to buy stuff like this, just buy cards instead!",
+     "speaker": "Shuko"
+    },
+    {
+     "start": 97.8,
+     "end": 99.2,
+     "ja": "それもそうだね。",
+     "en": "Good point.",
+     "speaker": "Yu"
+    }
+   ]
+  },
+  {
+   "start": 121.4,
+   "end": 141.8,
+   "title": "Special Training Time",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "friends",
+    "comedy"
+   ],
+   "grammar": [
+    "〜たい — want to",
+    "〜そうです — I heard that...",
+    "〜けど — but / although"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 121.6,
+     "end": 123.0,
+     "ja": "圭ちゃん！",
+     "en": "Kei-chan!",
+     "speaker": "Yu"
+    },
+    {
+     "start": 123.2,
+     "end": 128.0,
+     "ja": "梢さんが、次は有ちゃんたちとも全国決勝で戦いたいって言ってるそうです。",
+     "en": "Kozue says she wants to battle you guys in the national finals next time.",
+     "speaker": "Shuko"
+    },
+    {
+     "start": 128.5,
+     "end": 132.0,
+     "ja": "ふん。そうだね、圭ちゃん！",
+     "en": "Yeah. Definitely, Kei-chan!",
+     "speaker": "Yu"
+    },
+    {
+     "start": 134.1,
+     "end": 137.0,
+     "ja": "千春、周子ちゃん！特訓だよ、特訓！",
+     "en": "Chiharu, Shuko-chan! It's special training time!",
+     "speaker": "Yu"
+    },
+    {
+     "start": 137.3,
+     "end": 138.8,
+     "ja": "それはいいけど…",
+     "en": "That's fine and all, but...",
+     "speaker": "Chiharu"
+    },
+    {
+     "start": 139.0,
+     "end": 141.4,
+     "ja": "これ邪魔だから退けてよ。",
+     "en": "these are in the way, so move them.",
+     "speaker": "Chiharu"
+    }
+   ]
+  }
+ ],
+ "videoId": "frfCHQDQ3MU",
+ "pickTopics": [
+  "anime",
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

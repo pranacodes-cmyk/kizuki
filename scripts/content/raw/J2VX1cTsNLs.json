@@ -1,0 +1,111 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.8,
+   "end": 14.8,
+   "title": "Join Me Before Dark Reunion Gets You",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜た瞬間 — as soon as / the moment",
+    "〜前に — before doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.8,
+     "end": 3.8,
+     "ja": "おい、そこの貴様…",
+     "en": "Hey, you over there...",
+     "speaker": "Kaido"
+    },
+    {
+     "start": 4.0,
+     "end": 7.3,
+     "ja": "もしかして ダークリユニオンの一員か！？",
+     "en": "Could you be... a member of Dark Reunion?!",
+     "speaker": "Kaido"
+    },
+    {
+     "start": 7.8,
+     "end": 11.2,
+     "ja": "貴様を見た瞬間、俺の右腕が疼いたぜ…",
+     "en": "The moment I saw you, my right arm started aching...",
+     "speaker": "Kaido"
+    },
+    {
+     "start": 11.4,
+     "end": 14.7,
+     "ja": "ダークリユニオンに落ちる前に 俺の仲間になれ！",
+     "en": "Before you fall to Dark Reunion, join me!",
+     "speaker": "Kaido"
+    }
+   ]
+  },
+  {
+   "start": 28.6,
+   "end": 41.5,
+   "title": "This Is Just a Gag Anime",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy",
+    "school"
+   ],
+   "grammar": [
+    "〜てくれ — please do",
+    "〜はずだ — ought to / should be",
+    "〜はおいといて — setting aside..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 28.8,
+     "end": 32.4,
+     "ja": "俺と同じ、封印されしチカラを宿すものたちよ。",
+     "en": "To all those who harbor sealed powers just like me.",
+     "speaker": "Kaido"
+    },
+    {
+     "start": 32.7,
+     "end": 34.9,
+     "ja": "ぜひこのアニメをチェックしてくれ。",
+     "en": "Be sure to check out this anime.",
+     "speaker": "Kaido"
+    },
+    {
+     "start": 35.3,
+     "end": 36.9,
+     "ja": "力になれるはずだ。",
+     "en": "I'm sure it can help you.",
+     "speaker": "Kaido"
+    },
+    {
+     "start": 37.0,
+     "end": 39.0,
+     "ja": "中二病のコイツはおいといて…",
+     "en": "Setting aside this chuunibyou guy...",
+     "speaker": "Saiki"
+    },
+    {
+     "start": 39.0,
+     "end": 41.3,
+     "ja": "これはただの学園ギャグアニメだ。",
+     "en": "This is just a school comedy anime.",
+     "speaker": "Saiki"
+    }
+   ]
+  }
+ ],
+ "videoId": "J2VX1cTsNLs",
+ "pickTopics": [
+  "anime",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

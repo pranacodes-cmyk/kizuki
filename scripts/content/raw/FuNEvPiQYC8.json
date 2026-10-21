@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 33.7,
+   "end": 48.0,
+   "title": "Shimajiro Runs an Errand",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜ないと — must do",
+    "〜てしまう — accidental action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 34.0,
+     "end": 37.0,
+     "ja": "しまじろう、これから遊ばない？",
+     "en": "Shimajiro, do you want to play now?",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 37.3,
+     "end": 40.7,
+     "ja": "ごめん、僕郵便局に行かないといけないんだ。",
+     "en": "Sorry, I have to go to the post office.",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 41.2,
+     "end": 45.8,
+     "ja": "お母さんがお父さんのお弁当にお箸を入れ忘れちゃったみたいで。",
+     "en": "It looks like my mom forgot to pack chopsticks in my dad's lunch.",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 46.2,
+     "end": 47.7,
+     "ja": "そうなんだ。",
+     "en": "I see.",
+     "speaker": "Mimirin"
+    }
+   ]
+  },
+  {
+   "start": 57.0,
+   "end": 69.8,
+   "title": "Playing Doctor and Patient",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜て呼んで — please call me...",
+    "〜て — imperative/instruction"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 57.2,
+     "end": 60.1,
+     "ja": "ダメよ、お医者さんはみみりんよ。",
+     "en": "No way, Mimirin is the doctor.",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 60.4,
+     "end": 62.4,
+     "ja": "みみりん先生って呼んで。",
+     "en": "Call me Dr. Mimirin.",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 63.3,
+     "end": 66.0,
+     "ja": "じゃ、胸の音を聴きますね。",
+     "en": "Now, let me listen to your chest.",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 66.5,
+     "end": 68.3,
+     "ja": "大きく息を吸って。",
+     "en": "Take a deep breath in.",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 68.4,
+     "end": 69.6,
+     "ja": "吐いて。",
+     "en": "Breathe out.",
+     "speaker": "Mimirin"
+    }
+   ]
+  },
+  {
+   "start": 1026.0,
+   "end": 1040.5,
+   "title": "Going to the Dentist",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜ておく — do in advance",
+    "〜ないと — must do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1026.6,
+     "end": 1028.7,
+     "ja": "歯医者さんに行くの？",
+     "en": "Are we going to the dentist?",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 1028.9,
+     "end": 1032.5,
+     "ja": "そうね。カバヤマ先生に予約しておくわ。",
+     "en": "Yes. I'll make an appointment with Dr. Kabayama.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 1032.8,
+     "end": 1034.7,
+     "ja": "みみりん、行きたくない！",
+     "en": "Mimirin doesn't want to go!",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 1035.0,
+     "end": 1037.2,
+     "ja": "でも早く行かないと。",
+     "en": "But you need to go soon.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 1037.4,
+     "end": 1040.2,
+     "ja": "放っておくとどんどん悪くなるのよ。",
+     "en": "If you leave it alone, it'll just keep getting worse.",
+     "speaker": "Mother"
+    }
+   ]
+  }
+ ],
+ "videoId": "FuNEvPiQYC8",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

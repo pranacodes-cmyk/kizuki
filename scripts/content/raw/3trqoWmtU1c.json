@@ -1,0 +1,271 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 245.5,
+   "end": 266.0,
+   "title": "Checking the Temperature",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜にしよう — let's decide on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 245.8,
+     "end": 247.8,
+     "ja": "じゃあ、ここで気温測ってみよっか。",
+     "en": "Alright, let's try measuring the temperature here.",
+     "speaker": "Saaya"
+    },
+    {
+     "start": 248.0,
+     "end": 248.8,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Reika"
+    },
+    {
+     "start": 249.0,
+     "end": 251.2,
+     "ja": "気温どんな感じかな〜？",
+     "en": "I wonder what the temperature is like?",
+     "speaker": "Saaya"
+    },
+    {
+     "start": 251.5,
+     "end": 252.8,
+     "ja": "え、28？",
+     "en": "Wait, 28?",
+     "speaker": "Reika"
+    },
+    {
+     "start": 253.0,
+     "end": 254.0,
+     "ja": "27？",
+     "en": "27?",
+     "speaker": "Shino"
+    },
+    {
+     "start": 254.2,
+     "end": 256.5,
+     "ja": "あ、28度だ！意外と高め。",
+     "en": "Ah, it's 28 degrees! That's surprisingly high.",
+     "speaker": "Reika"
+    },
+    {
+     "start": 256.8,
+     "end": 258.4,
+     "ja": "あ、27になった。",
+     "en": "Ah, it turned to 27.",
+     "speaker": "Reika"
+    },
+    {
+     "start": 258.8,
+     "end": 261.8,
+     "ja": "じゃあ27度だったから、半袖がいいかな。",
+     "en": "Well, since it's 27 degrees, short sleeves might be good.",
+     "speaker": "Saaya"
+    },
+    {
+     "start": 262.0,
+     "end": 263.2,
+     "ja": "うん、半袖にしよう。",
+     "en": "Yeah, let's go with short sleeves.",
+     "speaker": "Reika"
+    },
+    {
+     "start": 263.4,
+     "end": 264.8,
+     "ja": "じゃあ着替えよう！",
+     "en": "Let's go change then!",
+     "speaker": "Shino"
+    },
+    {
+     "start": 265.0,
+     "end": 265.8,
+     "ja": "うん！",
+     "en": "Yeah!",
+     "speaker": "Reika"
+    }
+   ]
+  },
+  {
+   "start": 386.3,
+   "end": 403.5,
+   "title": "Something Is Making a Sound",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜よう — let's (volitional)",
+    "〜ちゃう — to end up doing (casual)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 386.5,
+     "end": 388.0,
+     "ja": "何作ろっか、さあやちゃん。",
+     "en": "What should we make, Saaya-chan?",
+     "speaker": "Reika"
+    },
+    {
+     "start": 388.1,
+     "end": 390.3,
+     "ja": "あ、どうしよっか。とりあえず冷蔵庫見よう。",
+     "en": "Ah, what to do. Let's check the fridge for now.",
+     "speaker": "Saaya"
+    },
+    {
+     "start": 390.4,
+     "end": 391.2,
+     "ja": "うん。",
+     "en": "Okay.",
+     "speaker": "Reika"
+    },
+    {
+     "start": 392.4,
+     "end": 393.2,
+     "ja": "あれ？",
+     "en": "Huh?",
+     "speaker": "Reika"
+    },
+    {
+     "start": 393.3,
+     "end": 394.7,
+     "ja": "なんか鳴ってる！",
+     "en": "Something's ringing!",
+     "speaker": "Reika"
+    },
+    {
+     "start": 394.8,
+     "end": 396.2,
+     "ja": "え、なんか鳴ってるね。",
+     "en": "Huh, yeah, something is ringing.",
+     "speaker": "Saaya"
+    },
+    {
+     "start": 397.0,
+     "end": 398.5,
+     "ja": "あ、ゆうきくんだ！",
+     "en": "Ah, it's Yuki-kun!",
+     "speaker": "Saaya"
+    },
+    {
+     "start": 398.6,
+     "end": 399.6,
+     "ja": "ゆうき！",
+     "en": "Yuki!",
+     "speaker": "Reika"
+    },
+    {
+     "start": 399.7,
+     "end": 401.5,
+     "ja": "柵出ちゃったの？",
+     "en": "Did you get out of the gate?",
+     "speaker": "Saaya"
+    },
+    {
+     "start": 401.6,
+     "end": 402.8,
+     "ja": "出ちゃったの？",
+     "en": "Did you get out?",
+     "speaker": "Reika"
+    }
+   ]
+  },
+  {
+   "start": 427.5,
+   "end": 449.5,
+   "title": "Filling the Pot with Water",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜間に — while / during",
+    "〜ておく — to do in advance"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 427.8,
+     "end": 431.0,
+     "ja": "よし、じゃあパスタ茹でるから、お水汲もう。",
+     "en": "Alright, we're boiling pasta, so let's draw some water.",
+     "speaker": "Saaya"
+    },
+    {
+     "start": 431.2,
+     "end": 434.2,
+     "ja": "じゃあ、水測ってる間に、他のことやってこよっか。",
+     "en": "Then while it's measuring the water, shall we do something else?",
+     "speaker": "Reika"
+    },
+    {
+     "start": 434.4,
+     "end": 436.8,
+     "ja": "うん。じゃあ、これをちょっと使います。",
+     "en": "Yeah. Well, let's use this real quick.",
+     "speaker": "Saaya"
+    },
+    {
+     "start": 437.0,
+     "end": 440.0,
+     "ja": "お水がここまで溜まると、教えてくれるよ。",
+     "en": "When the water reaches up to here, it lets us know.",
+     "speaker": "Saaya"
+    },
+    {
+     "start": 440.1,
+     "end": 441.0,
+     "ja": "すごーい！",
+     "en": "Awesome!",
+     "speaker": "Reika"
+    },
+    {
+     "start": 441.2,
+     "end": 443.0,
+     "ja": "じゃあ、ここに付けとこう。",
+     "en": "Alright, let's attach it here.",
+     "speaker": "Saaya"
+    },
+    {
+     "start": 443.1,
+     "end": 444.8,
+     "ja": "スイッチ、オン！",
+     "en": "Switch on!",
+     "speaker": "Reika"
+    },
+    {
+     "start": 445.8,
+     "end": 448.0,
+     "ja": "あ、溜まっていくね。",
+     "en": "Oh, it's filling up.",
+     "speaker": "Reika"
+    },
+    {
+     "start": 448.1,
+     "end": 449.2,
+     "ja": "すごーい！",
+     "en": "Amazing!",
+     "speaker": "Saaya"
+    }
+   ]
+  }
+ ],
+ "videoId": "3trqoWmtU1c",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,113 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.2,
+   "end": 10.3,
+   "title": "Taking on a Heavy Work Assignment",
+   "level": "N4",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜ちゃう — unintentional action or state",
+    "〜かな — wondering to oneself"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 3.4,
+     "ja": "重い仕事になっちゃうけど、お願いしようかな？",
+     "en": "It might be quite a heavy job, but maybe I'll ask you?",
+     "speaker": "Senior Colleague"
+    },
+    {
+     "start": 3.6,
+     "end": 5.0,
+     "ja": "はい！頑張ります！",
+     "en": "Yes! I'll do my best!",
+     "speaker": "Kotoko"
+    },
+    {
+     "start": 5.5,
+     "end": 8.3,
+     "ja": "新米社会人 飯沼琴子のいいことランウェイ。",
+     "en": "New Working Adult Kotoko Iinuma's Good Things Runway.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 8.4,
+     "end": 9.8,
+     "ja": "主演、畑芽育。",
+     "en": "Starring Mei Hata.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 10.8,
+   "end": 26.2,
+   "title": "Struggling as a New Office Worker",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ても — even if / even though",
+    "〜わけ — natural conclusion / the reason is"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.1,
+     "end": 12.3,
+     "ja": "わからん、わからん！",
+     "en": "I don't get it, I don't get it!",
+     "speaker": "Kotoko"
+    },
+    {
+     "start": 12.3,
+     "end": 15.0,
+     "ja": "9月になっても仕事がぜーんぜんわからん！",
+     "en": "Even though it's already September, I don't understand work at all!",
+     "speaker": "Kotoko"
+    },
+    {
+     "start": 16.0,
+     "end": 17.8,
+     "ja": "ちょっと雑すぎるかなあ。",
+     "en": "Maybe this is a bit too sloppy.",
+     "speaker": "Colleague"
+    },
+    {
+     "start": 18.4,
+     "end": 20.7,
+     "ja": "自分見せるって怖いわけですよ。",
+     "en": "Putting yourself out there is a scary thing, you know.",
+     "speaker": "Kotoko"
+    },
+    {
+     "start": 20.8,
+     "end": 23.2,
+     "ja": "悩める私を救ってくれるのは！？",
+     "en": "What will rescue me from my struggles!?",
+     "speaker": "Kotoko"
+    },
+    {
+     "start": 23.4,
+     "end": 25.8,
+     "ja": "お洋服でなら、すぐに明るくなれるじゃん。",
+     "en": "With clothes, you can instantly cheer up!",
+     "speaker": "Clerk"
+    }
+   ]
+  }
+ ],
+ "videoId": "iIgzZ3PBnKI",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

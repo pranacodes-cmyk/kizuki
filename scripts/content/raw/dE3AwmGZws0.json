@@ -1,0 +1,124 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.3,
+   "end": 15.3,
+   "title": "A Path Made for Me",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "school"
+   ],
+   "grammar": [
+    "〜て思う — thinking that",
+    "〜てくれる — to do for someone",
+    "〜として — as / in the capacity of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 4.6,
+     "ja": "私、自分は真面目で無口で面白くなくて、",
+     "en": "I was serious, quiet, and uninteresting,",
+     "speaker": "Mutsumi"
+    },
+    {
+     "start": 4.8,
+     "end": 7.6,
+     "ja": "ずっと自分がないって思ってたんです。",
+     "en": "and I always thought I had no identity of my own.",
+     "speaker": "Mutsumi"
+    },
+    {
+     "start": 8.0,
+     "end": 11.8,
+     "ja": "そんな私に、ヴィオラは道を作ってくれました。",
+     "en": "For someone like me, Viola paved a path.",
+     "speaker": "Mutsumi"
+    },
+    {
+     "start": 12.5,
+     "end": 14.9,
+     "ja": "優等生のクレマチスとして。",
+     "en": "As the honor student, Clematis.",
+     "speaker": "Mutsumi"
+    }
+   ]
+  },
+  {
+   "start": 15.5,
+   "end": 37.3,
+   "title": "Just as Viola Intended",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "friends"
+   ],
+   "grammar": [
+    "〜ようになる — to come to (do)",
+    "〜さえ — even",
+    "〜通り — just as / according to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 15.7,
+     "end": 17.3,
+     "ja": "ヴィオラを信じて、",
+     "en": "Believing in Viola,",
+     "speaker": "Mutsumi"
+    },
+    {
+     "start": 17.3,
+     "end": 19.8,
+     "ja": "ヴィオラの言葉に従うようになってからは、",
+     "en": "and following what she told me,",
+     "speaker": "Mutsumi"
+    },
+    {
+     "start": 20.1,
+     "end": 22.4,
+     "ja": "いつも目の前に正解が落ちていて、",
+     "en": "the right answers were always right before me,",
+     "speaker": "Mutsumi"
+    },
+    {
+     "start": 22.7,
+     "end": 24.2,
+     "ja": "楽だった。",
+     "en": "and it was easy.",
+     "speaker": "Mutsumi"
+    },
+    {
+     "start": 25.0,
+     "end": 29.3,
+     "ja": "それでも最初は、自分で掴み取った道だと思ってたんです。",
+     "en": "Even so, at first, I thought it was a path I had forged myself.",
+     "speaker": "Mutsumi"
+    },
+    {
+     "start": 29.6,
+     "end": 32.3,
+     "ja": "自分にはその道しかないんだとも。",
+     "en": "And that it was the only path for me.",
+     "speaker": "Mutsumi"
+    },
+    {
+     "start": 33.1,
+     "end": 37.0,
+     "ja": "でも、その考えさえもヴィオラの狙い通りでした。",
+     "en": "But even that thought was exactly what Viola had intended.",
+     "speaker": "Mutsumi"
+    }
+   ]
+  }
+ ],
+ "videoId": "dE3AwmGZws0",
+ "pickTopics": [
+  "anime",
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

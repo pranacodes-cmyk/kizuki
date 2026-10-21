@@ -1,0 +1,204 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 56.8,
+   "end": 113.5,
+   "title": "What Is Your Specialty Dish?",
+   "level": "N4",
+   "topics": [
+    "food",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜は何ですか — what is ~?",
+    "〜かも — might / maybe"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 56.8,
+     "end": 59.0,
+     "ja": "一番の得意料理は何ですか？",
+     "en": "What is your best dish?",
+     "speaker": "Gal Sone"
+    },
+    {
+     "start": 59.0,
+     "end": 60.6,
+     "ja": "え？得意料理？",
+     "en": "Huh? My best dish?",
+     "speaker": "Yuko"
+    },
+    {
+     "start": 60.6,
+     "end": 61.4,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Gal Sone"
+    },
+    {
+     "start": 61.4,
+     "end": 64.9,
+     "ja": "得意料理は…得意料理？",
+     "en": "My best dish is... specialty dish?",
+     "speaker": "Yuko"
+    },
+    {
+     "start": 64.9,
+     "end": 66.6,
+     "ja": "から揚げ！",
+     "en": "Fried chicken!",
+     "speaker": "Yuko"
+    },
+    {
+     "start": 66.7,
+     "end": 69.3,
+     "ja": "あー、あと餃子も美味しいよね。",
+     "en": "Ah, and your gyoza is delicious too.",
+     "speaker": "Gal Sone"
+    },
+    {
+     "start": 69.3,
+     "end": 72.3,
+     "ja": "餃子！から揚げでもやっぱよく作るかも。",
+     "en": "Gyoza! But I guess I do make fried chicken a lot.",
+     "speaker": "Yuko"
+    },
+    {
+     "start": 72.3,
+     "end": 73.5,
+     "ja": "曽根ちゃんは？",
+     "en": "What about you, Sone-chan?",
+     "speaker": "Yuko"
+    }
+   ]
+  },
+  {
+   "start": 91.0,
+   "end": 108.5,
+   "title": "Delicious Food at Yuko's House",
+   "level": "N4",
+   "topics": [
+    "food",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜じゃない — isn't it?",
+    "〜てほしい — want someone to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 91.0,
+     "end": 95.3,
+     "ja": "ゆうこりんちで食べるご飯がどれも美味しいじゃない？",
+     "en": "All the meals I eat at your place are delicious, aren't they?",
+     "speaker": "Gal Sone"
+    },
+    {
+     "start": 95.3,
+     "end": 96.4,
+     "ja": "チャーシューね。",
+     "en": "The braised pork.",
+     "speaker": "Yuko"
+    },
+    {
+     "start": 96.4,
+     "end": 98.2,
+     "ja": "チャーシューめっちゃ美味しかった！",
+     "en": "The braised pork was so good!",
+     "speaker": "Gal Sone"
+    },
+    {
+     "start": 98.2,
+     "end": 99.4,
+     "ja": "よかった！",
+     "en": "I'm glad!",
+     "speaker": "Yuko"
+    },
+    {
+     "start": 99.4,
+     "end": 103.0,
+     "ja": "あれもすごいウチでも真似して作ってるから。",
+     "en": "I've been copying that recipe and making it at home too.",
+     "speaker": "Gal Sone"
+    },
+    {
+     "start": 103.0,
+     "end": 104.2,
+     "ja": "嬉しい！",
+     "en": "I'm so happy!",
+     "speaker": "Yuko"
+    },
+    {
+     "start": 104.2,
+     "end": 108.5,
+     "ja": "ぜひああいうレシピとかも載せてほしいし、クッキーとかお菓子も得意だし。",
+     "en": "I definitely want you to post recipes like that, and you're good at making cookies and sweets too.",
+     "speaker": "Gal Sone"
+    }
+   ]
+  },
+  {
+   "start": 193.0,
+   "end": 211.0,
+   "title": "Showing a Bare Face on YouTube?",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜ないと — if not / unless",
+    "〜気にならない — don't feel like doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 193.0,
+     "end": 196.1,
+     "ja": "でも基本的にいつ行っても化粧してるもんね、ゆうこりん。",
+     "en": "Yukorin, you're basically wearing makeup whenever I visit.",
+     "speaker": "Gal Sone"
+    },
+    {
+     "start": 196.1,
+     "end": 198.5,
+     "ja": "なんか休みの日でもしてるイメージ。",
+     "en": "I feel like you wear it even on your days off.",
+     "speaker": "Gal Sone"
+    },
+    {
+     "start": 198.5,
+     "end": 202.4,
+     "ja": "うん、お化粧しないとなんか出かけようって気にならない。",
+     "en": "Yeah, if I don't put on makeup, I just don't feel like going out.",
+     "speaker": "Yuko"
+    },
+    {
+     "start": 202.7,
+     "end": 207.5,
+     "ja": "じゃあ、もしかしたらこのYouTubeで初めてすっぴんを？",
+     "en": "So, could it be that you'll show your bare face for the first time on YouTube?",
+     "speaker": "Gal Sone"
+    },
+    {
+     "start": 207.5,
+     "end": 210.8,
+     "ja": "いや、いやいやいや、すっぴんはやめとこうかな。",
+     "en": "No, no, no, no, maybe I'll pass on showing my bare face.",
+     "speaker": "Yuko"
+    }
+   ]
+  }
+ ],
+ "videoId": "lo4UGuaZHM0",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

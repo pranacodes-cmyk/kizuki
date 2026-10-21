@@ -1,0 +1,153 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 237.5,
+   "end": 303.5,
+   "title": "What Does Date and Time Mean?",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜って何ですか — what does ... mean?",
+    "〜でお願いします — please do with / at ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 238.2,
+     "end": 242.5,
+     "ja": "はい、予約ですね。ご希望の日時を教えてください。",
+     "en": "Yes, a reservation. Please tell me your preferred date and time.",
+     "speaker": "Izakaya Staff"
+    },
+    {
+     "start": 243.0,
+     "end": 247.4,
+     "ja": "すみません、日時って何ですか？",
+     "en": "Excuse me, what does 'nichiji' mean?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 248.8,
+     "end": 254.0,
+     "ja": "ああ、いつ来ますか？何時に来ますか？っていう意味です。",
+     "en": "Ah, it means 'when are you coming?' or 'what time are you coming?'.",
+     "speaker": "Izakaya Staff"
+    },
+    {
+     "start": 254.5,
+     "end": 303.0,
+     "ja": "あ、分かりました。来週の金曜日、夕方6時でお願いします。",
+     "en": "Oh, I understand. Next Friday at 6:00 p.m., please.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 303.8,
+   "end": 332.5,
+   "title": "How Many People in the Party?",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜名様 — counter for people (polite)",
+    "〜で行きます — going as a group of ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 304.2,
+     "end": 311.3,
+     "ja": "はい。来週の金曜日、18時からですね。何名様ですか？",
+     "en": "Okay. Next Friday from 6:00 p.m., right? How many people in your party?",
+     "speaker": "Izakaya Staff"
+    },
+    {
+     "start": 312.0,
+     "end": 317.6,
+     "ja": "すみません、何名様ってどういう意味ですか？",
+     "en": "Excuse me, what does 'nan-mei-sama' mean?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 318.5,
+     "end": 322.5,
+     "ja": "お店に来る人は何人ですか？",
+     "en": "How many people are coming to the restaurant?",
+     "speaker": "Izakaya Staff"
+    },
+    {
+     "start": 323.2,
+     "end": 327.8,
+     "ja": "ああ、6人です。6人で行きます。",
+     "en": "Ah, six people. Six of us are going.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 328.5,
+     "end": 332.5,
+     "ja": "はい、6人ですね。コースはどうしますか？",
+     "en": "Understood, six people. What would you like to do about a set course?",
+     "speaker": "Izakaya Staff"
+    }
+   ]
+  },
+  {
+   "start": 333.5,
+   "end": 359.0,
+   "title": "Late Arrival Cancellation Policy",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜と — if/when (conditional)",
+    "〜通りに — in accordance with / on time"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 334.0,
+     "end": 338.8,
+     "ja": "15分遅れると、キャンセルになります。",
+     "en": "If you are 15 minutes late, your reservation will be cancelled.",
+     "speaker": "Izakaya Staff"
+    },
+    {
+     "start": 339.2,
+     "end": 348.5,
+     "ja": "どういうことですか？15分遅れると、予約はなくなりますか？",
+     "en": "What do you mean? If we are 15 minutes late, is the reservation cancelled?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 349.0,
+     "end": 353.6,
+     "ja": "はい、そうです。時間通りに来てください。",
+     "en": "Yes, that's right. Please arrive on time.",
+     "speaker": "Izakaya Staff"
+    },
+    {
+     "start": 354.5,
+     "end": 358.8,
+     "ja": "あ、分かりました。よろしくお願いします。",
+     "en": "Oh, understood. Thank you very much.",
+     "speaker": "Customer"
+    }
+   ]
+  }
+ ],
+ "videoId": "8FhnCK0q-3k",
+ "pickTopics": [
+  "food",
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

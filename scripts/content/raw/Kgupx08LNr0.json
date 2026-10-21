@@ -1,0 +1,119 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 387.8,
+   "end": 412.3,
+   "title": "Admiring Large Kumihimo Decoration",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜と — when/if",
+    "〜が見える — can see"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 388.0,
+     "end": 393.2,
+     "ja": "奥にはすごく大きな組紐の飾りも。",
+     "en": "Further inside, there was also a huge kumihimo braid decoration.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 394.0,
+     "end": 400.0,
+     "ja": "迫力がすごかったです。よく見ると鶴と亀がいました。",
+     "en": "It was so impressive. Looking closely, there was a crane and a turtle.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 401.0,
+     "end": 406.8,
+     "ja": "すごい！亀めっちゃかわいい！",
+     "en": "Amazing! The turtle is so cute!",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 432.9,
+   "end": 447.8,
+   "title": "Looking at World Flag Braids",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜をイメージした — styled after / inspired by",
+    "〜と言う — to say"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 433.2,
+     "end": 438.4,
+     "ja": "各国のカラーをイメージした組紐なんかがありました。",
+     "en": "There were braids inspired by the colors of various countries.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 439.4,
+     "end": 445.6,
+     "ja": "日本は何と言っても紅白。綺麗。",
+     "en": "Japan's, without a doubt, is red and white. Beautiful.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 454.4,
+   "end": 473.0,
+   "title": "Visiting a Scenic Starbucks in Uji",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜近くの — near ...",
+    "〜が好き — like/prefer"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 454.6,
+     "end": 459.7,
+     "ja": "次は平等院鳳凰堂近くのスターバックスコーヒーに来ました。",
+     "en": "Next, I came to the Starbucks near Byodoin Phoenix Hall.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 460.5,
+     "end": 466.0,
+     "ja": "ここのスタバは特に映えるという噂を聞きつけました。",
+     "en": "I heard a rumor that this Starbucks is especially photogenic.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 466.8,
+     "end": 472.0,
+     "ja": "メッセージ付きのドリンクが到着。スタバではソイラテが好きです。",
+     "en": "My drink arrived with a message. At Starbucks, I like soy lattes.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "Kgupx08LNr0",
+ "pickTopics": [
+  "travel",
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

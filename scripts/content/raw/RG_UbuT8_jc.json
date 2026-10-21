@@ -1,0 +1,216 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.3,
+   "end": 37.8,
+   "title": "Old Man Heads to the Mountain",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜ことにした — decided to do",
+    "〜たら — when/if"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 12.3,
+     "end": 14.5,
+     "ja": "お話「おむすびころりん」。",
+     "en": "The story of \"The Rolling Rice Ball\".",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 14.9,
+     "end": 20.3,
+     "ja": "昔々、あるところに働き者で優しいおじいさんが住んでいました。",
+     "en": "Once upon a time, in a certain place, lived a hardworking and kind old man.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 21.0,
+     "end": 26.6,
+     "ja": "ある日、おじいさんは山に栗を拾いに出かけることにしました。",
+     "en": "One day, the old man decided to go to the mountain to gather chestnuts.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 27.2,
+     "end": 32.3,
+     "ja": "「今から行くと栗のある山に着く頃にゃあ、昼になる。」",
+     "en": "\"If I leave now, it will be noon by the time I reach the chestnut mountain.\"",
+     "speaker": "Old Man"
+    },
+    {
+     "start": 32.7,
+     "end": 37.3,
+     "ja": "「おむすびを作ってあるから、それを食べて、たんと栗を拾おう。」",
+     "en": "\"I've made rice balls, so I'll eat them and gather lots of chestnuts.\"",
+     "speaker": "Old Man"
+    }
+   ]
+  },
+  {
+   "start": 124.9,
+   "end": 147.9,
+   "title": "The Rice Ball Drops into a Hole",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てしまう — accidentally do",
+    "〜ようとする — try to do"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 125.4,
+     "end": 129.4,
+     "ja": "おじいさんは、おにぎりを地面に転がしてしまいました。",
+     "en": "The old man accidentally dropped the rice ball onto the ground, and it rolled away.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 130.0,
+     "end": 135.5,
+     "ja": "腰掛けたところが少し坂になっていて、おにぎりが転がりました。",
+     "en": "Where he sat was slightly sloped, and the rice ball began to roll.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 136.1,
+     "end": 142.2,
+     "ja": "ころころ、ころころと、おにぎりはちょうどあった穴の中に落ちてしまいました。",
+     "en": "Rolling and rolling, the rice ball fell right into a hole that was there.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 143.2,
+     "end": 147.4,
+     "ja": "「あれあれ、せっかくのおにぎりを穴に落としてしまった。」",
+     "en": "\"Oh dear, I dropped my precious rice ball into the hole.\"",
+     "speaker": "Old Man"
+    }
+   ]
+  },
+  {
+   "start": 444.6,
+   "end": 509.8,
+   "title": "The Greedy Man Demands the Treasure",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "animals"
+   ],
+   "grammar": [
+    "〜はずだ — should be",
+    "〜ないといけない — must do"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 445.1,
+     "end": 454.2,
+     "ja": "欲張りおじいさんが目を見開くと、そこにはたくさんのネズミ達がいて、欲張りおじいさんを不思議な顔で見ていました。",
+     "en": "When the greedy old man opened his eyes wide, there were many mice looking at him with puzzled faces.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 454.8,
+     "end": 457.8,
+     "ja": "「これわおじいさん、こんにちは。」",
+     "en": "\"Hello there, old man.\"",
+     "speaker": "Mouse"
+    },
+    {
+     "start": 458.0,
+     "end": 461.3,
+     "ja": "「挨拶はいいから、あれを出せ。」",
+     "en": "\"Never mind the greetings, hand that over.\"",
+     "speaker": "Greedy Old Man"
+    },
+    {
+     "start": 461.7,
+     "end": 463.3,
+     "ja": "「あれと申しますと？」",
+     "en": "\"What do you mean by 'that'?\"",
+     "speaker": "Mouse"
+    },
+    {
+     "start": 463.6,
+     "end": 466.8,
+     "ja": "「宝の詰まったつづらに決まっているだろう。」",
+     "en": "\"The wicker box filled with treasure, of course!\"",
+     "speaker": "Greedy Old Man"
+    },
+    {
+     "start": 467.3,
+     "end": 469.7,
+     "ja": "「もうつづらはありません。」",
+     "en": "\"We don't have any wicker boxes left.\"",
+     "speaker": "Mouse"
+    },
+    {
+     "start": 470.0,
+     "end": 474.9,
+     "ja": "「嘘を付くな。出さないとお前たちの大嫌いな猫を連れてくるぞ。」",
+     "en": "\"Don't lie. If you don't bring it out, I'll bring the cat you all hate so much!\"",
+     "speaker": "Greedy Old Man"
+    },
+    {
+     "start": 475.2,
+     "end": 481.5,
+     "ja": "「本当に宝はもうないのです。昨日のおじいさんにあげました。」",
+     "en": "\"There really is no treasure left. We gave it to yesterday's old man.\"",
+     "speaker": "Mouse"
+    },
+    {
+     "start": 482.0,
+     "end": 488.9,
+     "ja": "「まだそんなことを言っているのか。ほら、もうやってきた。ニャーゴ！」",
+     "en": "\"Are you still saying that? Look, it's already here. Meow!\"",
+     "speaker": "Greedy Old Man"
+    },
+    {
+     "start": 489.2,
+     "end": 494.3,
+     "ja": "「きゃー、猫がやってきた！みんな隠れろ、明かりを消せ！」",
+     "en": "\"Eek, the cat is here! Everyone hide, put out the lights!\"",
+     "speaker": "Mouse"
+    },
+    {
+     "start": 494.7,
+     "end": 501.9,
+     "ja": "猫が来てはさあ大変。ネズミ達は明かりを消して、猫が入ってこれないような細い穴にてんでに逃げ込みました。",
+     "en": "Now with the cat here, chaos ensued. The mice put out the lights and fled in all directions into narrow holes where a cat couldn't enter.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 502.4,
+     "end": 506.7,
+     "ja": "ひとり暗闇に取り残されたのは、欲張りおじいさん。",
+     "en": "The only one left behind in the dark was the greedy old man.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 507.0,
+     "end": 509.3,
+     "ja": "「おい、真っ暗で何も見えんぞ。」",
+     "en": "\"Hey, it's pitch black, I can't see a thing!\"",
+     "speaker": "Greedy Old Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "RG_UbuT8_jc",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

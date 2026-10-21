@@ -1,0 +1,247 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 76.0,
+   "end": 104.5,
+   "title": "What Does Teamwork Mean?",
+   "level": "N4",
+   "topics": [
+    "school",
+    "friends"
+   ],
+   "grammar": [
+    "〜っていう — called / that is to say",
+    "〜のこと — referring to the concept of",
+    "〜同士 — mutual / among each other"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 76.2,
+     "end": 80.4,
+     "ja": "みんなは、チームワークっていう言葉を知ってるかな？",
+     "en": "Does everyone know the word 'teamwork'?",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 80.8,
+     "end": 82.3,
+     "ja": "チームワーク？",
+     "en": "Teamwork?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 82.5,
+     "end": 86.5,
+     "ja": "なんだか、聞いたことあるようなないような…",
+     "en": "Kind of sounds like I've heard it, but maybe not...",
+     "speaker": "Torippii"
+    },
+    {
+     "start": 86.7,
+     "end": 87.7,
+     "ja": "はい！",
+     "en": "Yes!",
+     "speaker": "Monta"
+    },
+    {
+     "start": 87.9,
+     "end": 89.4,
+     "ja": "はい、モン太くん。",
+     "en": "Yes, Monta-kun.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 89.7,
+     "end": 92.4,
+     "ja": "えへん！それはですね…",
+     "en": "Ahem! Well, you see...",
+     "speaker": "Monta"
+    },
+    {
+     "start": 92.7,
+     "end": 96.5,
+     "ja": "チームとは、運動や遊びを一緒にやる仲間のことで、",
+     "en": "A team means friends who do sports or play together,",
+     "speaker": "Monta"
+    },
+    {
+     "start": 96.7,
+     "end": 101.5,
+     "ja": "チームワークとは、その仲間同士、みんなで力を合わせることです！",
+     "en": "and teamwork means all those friends joining their strength together!",
+     "speaker": "Monta"
+    },
+    {
+     "start": 102.0,
+     "end": 104.2,
+     "ja": "はい、よくできました！",
+     "en": "Yes, very well done!",
+     "speaker": "Teacher"
+    }
+   ]
+  },
+  {
+   "start": 485.5,
+   "end": 502.7,
+   "title": "Clean Your Room First!",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜なさい — soft command",
+    "〜んだ — explanatory tone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 485.8,
+     "end": 487.4,
+     "ja": "公園へ行ってきまーす！",
+     "en": "I'm heading out to the park!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 487.5,
+     "end": 489.2,
+     "ja": "待ちなさい、しまじろう！",
+     "en": "Wait, Shimajiro!",
+     "speaker": "Mother"
+    },
+    {
+     "start": 489.5,
+     "end": 490.8,
+     "ja": "なーに？",
+     "en": "What is it?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 491.0,
+     "end": 495.3,
+     "ja": "遊びに出かけるんなら、部屋を片付けてからにしなさい！",
+     "en": "If you're going out to play, do it after cleaning your room!",
+     "speaker": "Mother"
+    },
+    {
+     "start": 495.6,
+     "end": 499.3,
+     "ja": "ぞう太たちと試合があるんだ。後で片付けるよー！",
+     "en": "I have a match with Zouta and the others. I'll clean up later!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 499.4,
+     "end": 502.4,
+     "ja": "だめだめ！片付ける方が先よ！",
+     "en": "No, no! Cleaning up comes first!",
+     "speaker": "Mother"
+    }
+   ]
+  },
+  {
+   "start": 1057.0,
+   "end": 1087.0,
+   "title": "Guessing Each Other's Treasures",
+   "level": "N4",
+   "topics": [
+    "school",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜もん — explanatory particle expressing obvious reason",
+    "〜ておく — do in advance / keep in a state",
+    "〜からって — just because / cited reason"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1057.3,
+     "end": 1059.9,
+     "ja": "僕の宝物はどれだ？",
+     "en": "Which one is my treasure?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 1060.0,
+     "end": 1061.3,
+     "ja": "サッカーボール！",
+     "en": "The soccer ball!",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 1061.5,
+     "end": 1063.0,
+     "ja": "なんで、すぐにわかったの？",
+     "en": "How did you know right away?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 1063.2,
+     "end": 1066.5,
+     "ja": "だって、しまじろうはサッカーが大好きだもんねー。",
+     "en": "Because Shimajiro really loves soccer, after all.",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 1067.0,
+     "end": 1068.0,
+     "ja": "そうそう！",
+     "en": "Right, right!",
+     "speaker": "Torippii"
+    },
+    {
+     "start": 1068.1,
+     "end": 1069.6,
+     "ja": "そっか！",
+     "en": "I see!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 1070.0,
+     "end": 1074.8,
+     "ja": "みみりんの宝物は、お父さんとお母さんの絵よ！",
+     "en": "Mimirin's treasure is this drawing of Mom and Dad!",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 1075.2,
+     "end": 1077.1,
+     "ja": "あんまり上手じゃないけど、",
+     "en": "It's not very good, but...",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 1077.3,
+     "end": 1083.2,
+     "ja": "初めて描いた絵だからってお父さんとお母さんが大切にとっておいてくれたの！",
+     "en": "Mom and Dad kept it safely because it was the first picture I ever drew!",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 1083.5,
+     "end": 1085.5,
+     "ja": "それが嬉しくって！",
+     "en": "And that made me so happy!",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 1085.7,
+     "end": 1087.0,
+     "ja": "ほー！",
+     "en": "Oh-h!",
+     "speaker": "Shimajiro"
+    }
+   ]
+  }
+ ],
+ "videoId": "V-TXSHRgfjg",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

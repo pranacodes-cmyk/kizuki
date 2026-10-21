@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 13.5,
+   "end": 40.5,
+   "title": "Describing Sweet Foods in Japanese",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜が好き — to like",
+    "例えば — for example"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.8,
+     "end": 17.0,
+     "ja": "甘い、甘い。",
+     "en": "Sweet, sweet.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 17.2,
+     "end": 20.5,
+     "ja": "皆さんは甘いものが好きですか？",
+     "en": "Do you like sweet things?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 20.7,
+     "end": 22.3,
+     "ja": "甘いもの。",
+     "en": "Sweet things.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 22.4,
+     "end": 24.7,
+     "ja": "例えば、ドーナツ。",
+     "en": "For example, donuts.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 25.2,
+     "end": 28.1,
+     "ja": "ドーナツは甘いですね。",
+     "en": "Donuts are sweet, aren't they?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 28.5,
+     "end": 31.5,
+     "ja": "そして、もちろんチョコレート。",
+     "en": "And of course, chocolate.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 31.7,
+     "end": 36.8,
+     "ja": "ダークチョコレート、ミルクチョコレート、ホワイトチョコレート。",
+     "en": "Dark chocolate, milk chocolate, white chocolate.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 36.9,
+     "end": 40.0,
+     "ja": "私はチョコレートが大好きです。",
+     "en": "I love chocolate.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 110.5,
+   "end": 131.0,
+   "title": "Talking About Spicy Food in Japanese",
+   "level": "N5",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜ことができる — can do / able to do",
+    "あまり〜ない — not very / not much"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 110.8,
+     "end": 113.8,
+     "ja": "辛い、辛い。",
+     "en": "Spicy, spicy.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 114.1,
+     "end": 117.4,
+     "ja": "辛い料理を食べることができますか？",
+     "en": "Can you eat spicy food?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 117.7,
+     "end": 121.9,
+     "ja": "日本にはあまり辛い料理がありません。",
+     "en": "There isn't much spicy food in Japan.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 122.3,
+     "end": 125.7,
+     "ja": "唐辛子は辛いですね。",
+     "en": "Chili peppers are spicy, aren't they?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 126.2,
+     "end": 130.5,
+     "ja": "そして、日本のわさびも辛いです。",
+     "en": "And Japanese wasabi is spicy too.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 155.0,
+   "end": 175.0,
+   "title": "Sour Foods and Japanese Umeboshi",
+   "level": "N5",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜や〜など — such as ~ and ~",
+    "〜ですよ — asserting informative statement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 155.4,
+     "end": 158.3,
+     "ja": "酸っぱい、酸っぱい。",
+     "en": "Sour, sour.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 159.0,
+     "end": 164.8,
+     "ja": "レモンやオレンジなどの柑橘系は酸っぱいです。",
+     "en": "Citrus fruits like lemons and oranges are sour.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 165.2,
+     "end": 170.0,
+     "ja": "そして、日本の梅干しも酸っぱい食べ物です。",
+     "en": "Also, Japanese pickled plums are a sour food.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 170.5,
+     "end": 174.5,
+     "ja": "梅干しのおにぎりはとても美味しいですよ。",
+     "en": "Umeboshi rice balls are very delicious!",
+     "speaker": "Noriko"
+    }
+   ]
+  }
+ ],
+ "videoId": "iIF5yJ61ZPg",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

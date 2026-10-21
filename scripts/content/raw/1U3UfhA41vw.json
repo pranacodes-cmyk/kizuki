@@ -1,0 +1,161 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.0,
+   "end": 13.4,
+   "title": "Rules of the Dark Hot Pot",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "food",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てくださる — doing something for someone (polite)",
+    "〜として — as / in the capacity of",
+    "〜切る — to do completely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.0,
+     "end": 1.7,
+     "ja": "こちら、友人のフグ男くん。",
+     "en": "This is my friend, Fugu-o.",
+     "speaker": "Glasses Boy"
+    },
+    {
+     "start": 1.7,
+     "end": 4.5,
+     "ja": "フグ太です。今日はお誘いくださいましてありがとうございます。",
+     "en": "I'm Fuguta. Thank you very much for inviting me today.",
+     "speaker": "Fuguta"
+    },
+    {
+     "start": 4.5,
+     "end": 8.6,
+     "ja": "いえ、僕らも闇鍋って初めてで手探り状態ですがよろしくお願いします。",
+     "en": "No problem. It's our first mystery hot pot too, so we're just winging it, but nice to meet you.",
+     "speaker": "Blue Sweater Boy"
+    },
+    {
+     "start": 8.6,
+     "end": 11.7,
+     "ja": "一応、ルールとしては取った物は絶対に食べ切るってことだね。",
+     "en": "Basically, the rule is you must finish everything you scoop out.",
+     "speaker": "Glasses Boy"
+    },
+    {
+     "start": 11.7,
+     "end": 12.3,
+     "ja": "オッケー。",
+     "en": "Okay.",
+     "speaker": "Fuguta"
+    },
+    {
+     "start": 12.3,
+     "end": 13.4,
+     "ja": "じゃあ、電気消すよ！",
+     "en": "All right, turning off the lights!",
+     "speaker": "Glasses Boy"
+    }
+   ]
+  },
+  {
+   "start": 29.8,
+   "end": 47.5,
+   "title": "Where Did Fuguta Go?",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "friends",
+    "food"
+   ],
+   "grammar": [
+    "〜たんだろう — wondering what happened",
+    "〜て — indicating reason / state (痺れて)",
+    "動かない — negative form (not moving)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 29.8,
+     "end": 31.0,
+     "ja": "じゃあ、電気点けるよ。",
+     "en": "All right, turning the lights back on.",
+     "speaker": "Glasses Boy"
+    },
+    {
+     "start": 31.1,
+     "end": 33.2,
+     "ja": "ふう…食べた食べた。",
+     "en": "Phew... I ate so much.",
+     "speaker": "Blue Sweater Boy"
+    },
+    {
+     "start": 33.2,
+     "end": 34.8,
+     "ja": "あれ？フグ太さんは？",
+     "en": "Huh? Where is Fuguta-san?",
+     "speaker": "Blue Sweater Boy"
+    },
+    {
+     "start": 35.0,
+     "end": 36.8,
+     "ja": "あれ？フグ男くーん？トイレ〜？",
+     "en": "Huh? Fugu-o? In the bathroom?",
+     "speaker": "Glasses Boy"
+    },
+    {
+     "start": 36.8,
+     "end": 38.3,
+     "ja": "どこ行ったんだろう？うっ…",
+     "en": "Where could he have gone? Ugh...",
+     "speaker": "Blue Sweater Boy"
+    },
+    {
+     "start": 38.5,
+     "end": 39.8,
+     "ja": "どうしたの…？",
+     "en": "What's wrong...?",
+     "speaker": "Glasses Boy"
+    },
+    {
+     "start": 39.8,
+     "end": 41.5,
+     "ja": "なんか、体が痺れて…",
+     "en": "My body feels kind of numb...",
+     "speaker": "Blue Sweater Boy"
+    },
+    {
+     "start": 41.5,
+     "end": 42.7,
+     "ja": "え、大丈夫？",
+     "en": "Wait, are you okay?",
+     "speaker": "Glasses Boy"
+    },
+    {
+     "start": 42.7,
+     "end": 45.6,
+     "ja": "あれ…？僕も…体が動かない…",
+     "en": "Wait...? I can't move my body either...",
+     "speaker": "Glasses Boy"
+    },
+    {
+     "start": 45.7,
+     "end": 47.2,
+     "ja": "俺も…うぅ…",
+     "en": "Me neither... Ugh...",
+     "speaker": "Blue Sweater Boy"
+    }
+   ]
+  }
+ ],
+ "videoId": "1U3UfhA41vw",
+ "pickTopics": [
+  "fun",
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,146 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.8,
+   "end": 26.8,
+   "title": "Bored Shrine Maiden",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "anime"
+   ],
+   "grammar": [
+    "〜のに — even though",
+    "〜でも — even / or something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.0,
+     "end": 15.6,
+     "ja": "いつものメンツも遅いし、暇にゃ。",
+     "en": "The usual crew is late too, I'm so bored nya.",
+     "speaker": "Ichihime"
+    },
+    {
+     "start": 16.5,
+     "end": 19.3,
+     "ja": "こんなに可愛い巫女がいるのに、",
+     "en": "Even though they have such a cute shrine maiden,",
+     "speaker": "Ichihime"
+    },
+    {
+     "start": 19.3,
+     "end": 22.4,
+     "ja": "世間の目は節穴にも程があるにゃ。",
+     "en": "people's eyesight really has limits nya.",
+     "speaker": "Ichihime"
+    },
+    {
+     "start": 23.3,
+     "end": 26.8,
+     "ja": "納得いかないから可愛い猫動画でも見るにゃ。",
+     "en": "I'm not convinced, so I'll just watch cute cat videos nya.",
+     "speaker": "Ichihime"
+    }
+   ]
+  },
+  {
+   "start": 29.8,
+   "end": 42.1,
+   "title": "The Hype Around Video Streaming",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ば — conditional (if)",
+    "〜られる — potential form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 29.8,
+     "end": 33.3,
+     "ja": "今、動画配信が熱いんですよね！",
+     "en": "Right now, video streaming is super hot, you know!",
+     "speaker": "Furoyuki"
+    },
+    {
+     "start": 33.5,
+     "end": 36.3,
+     "ja": "PCやスマホがあれば誰でも始められるし、",
+     "en": "Anyone can start if they have a PC or a smartphone,",
+     "speaker": "Furoyuki"
+    },
+    {
+     "start": 36.3,
+     "end": 38.6,
+     "ja": "収益でお金も稼げるし、",
+     "en": "and you can earn money through revenue,",
+     "speaker": "Furoyuki"
+    },
+    {
+     "start": 38.7,
+     "end": 42.1,
+     "ja": "人気者になれる。やらない人は損ですよ！",
+     "en": "and become popular. Anyone who doesn't do it is missing out!",
+     "speaker": "Furoyuki"
+    }
+   ]
+  },
+  {
+   "start": 401.7,
+   "end": 420.3,
+   "title": "A Producer Arrives",
+   "level": "N2",
+   "topics": [
+    "anime",
+    "work"
+   ],
+   "grammar": [
+    "〜てご覧に入れる — show doing something",
+    "〜に関して — regarding"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 401.9,
+     "end": 403.4,
+     "ja": "話は聞かせてもらった。",
+     "en": "I've heard your story.",
+     "speaker": "Saito Osamu"
+    },
+    {
+     "start": 404.7,
+     "end": 408.8,
+     "ja": "今まで手掛けてきた会社経営やプロデュースは数知れず。",
+     "en": "The companies I've managed and produced are countless.",
+     "speaker": "Saito Osamu"
+    },
+    {
+     "start": 408.9,
+     "end": 413.5,
+     "ja": "こと社会の潮流やトレンドに関しては、一日の長があると自負している。",
+     "en": "When it comes to social trends and currents, I pride myself on having an edge.",
+     "speaker": "Saito Osamu"
+    },
+    {
+     "start": 414.2,
+     "end": 418.8,
+     "ja": "この私、斎藤治、巫女殿をトップ配信者にしてみせてごらんにいれよう。",
+     "en": "I, Saito Osamu, will show you that I can make Lady Shrine Maiden a top streamer.",
+     "speaker": "Saito Osamu"
+    }
+   ]
+  }
+ ],
+ "videoId": "E454yHYH_vw",
+ "pickTopics": [
+  "anime",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

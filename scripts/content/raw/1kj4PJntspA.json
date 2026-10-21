@@ -1,0 +1,227 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 50.2,
+   "end": 66.5,
+   "title": "Talking About a Famous Sister at Work",
+   "level": "N4",
+   "topics": [
+    "work",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜てた — was doing",
+    "〜よね — seeking agreement",
+    "〜ないです — polite negative"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 50.4,
+     "end": 52.2,
+     "ja": "昨日ももてぃテレビ出てたね。",
+     "en": "Momoty was on TV yesterday, wasn't she?",
+     "speaker": "Colleague A"
+    },
+    {
+     "start": 52.4,
+     "end": 53.2,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Colleague B"
+    },
+    {
+     "start": 53.4,
+     "end": 56.6,
+     "ja": "お姉ちゃんはって安達さんのことたくさん話してたよ。",
+     "en": "She talked a lot about you, Adachi-san, saying 'my big sister'.",
+     "speaker": "Colleague A"
+    },
+    {
+     "start": 57.0,
+     "end": 59.8,
+     "ja": "うん、本当すごいよね。",
+     "en": "Yeah, it's really amazing.",
+     "speaker": "Colleague B"
+    },
+    {
+     "start": 60.0,
+     "end": 61.8,
+     "ja": "私はすごくないです。",
+     "en": "I'm not the one who's amazing.",
+     "speaker": "Nagisa"
+    },
+    {
+     "start": 62.0,
+     "end": 63.1,
+     "ja": "すごいよ。",
+     "en": "You are!",
+     "speaker": "Colleague B"
+    },
+    {
+     "start": 63.3,
+     "end": 64.9,
+     "ja": "いいなあ、羨ましい。",
+     "en": "Must be nice, I'm jealous.",
+     "speaker": "Colleague A"
+    },
+    {
+     "start": 65.1,
+     "end": 66.3,
+     "ja": "ねえ、分かるー。",
+     "en": "Right? Totally.",
+     "speaker": "Colleague B"
+    }
+   ]
+  },
+  {
+   "start": 171.5,
+   "end": 185.5,
+   "title": "Standing Up for a Subordinate",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "お言葉ですが — with all due respect",
+    "〜目線で — from the perspective of",
+    "〜とは関係ない — have nothing to do with"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 172.0,
+     "end": 173.4,
+     "ja": "お言葉ですが、",
+     "en": "With all due respect,",
+     "speaker": "Inukai"
+    },
+    {
+     "start": 173.6,
+     "end": 176.2,
+     "ja": "安達は入社時から勉強熱心で、",
+     "en": "Adachi has been eager to learn since she joined,",
+     "speaker": "Inukai"
+    },
+    {
+     "start": 176.4,
+     "end": 179.7,
+     "ja": "ターゲット層と同じ目線で記事を書き結果を出しています。",
+     "en": "and produces results by writing from the target audience's perspective.",
+     "speaker": "Inukai"
+    },
+    {
+     "start": 179.9,
+     "end": 182.1,
+     "ja": "今回はそれを評価しての選出ですので、",
+     "en": "This selection is based on that recognition,",
+     "speaker": "Inukai"
+    },
+    {
+     "start": 182.3,
+     "end": 184.5,
+     "ja": "ご家族とは関係ありません。",
+     "en": "and has nothing to do with her family.",
+     "speaker": "Inukai"
+    }
+   ]
+  },
+  {
+   "start": 436.5,
+   "end": 469.0,
+   "title": "Are You Drunk, Inukai-san?",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくれて — doing a favor for me",
+    "ひょっとして〜 — by any chance",
+    "〜からな — asserting a reason"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 437.0,
+     "end": 438.9,
+     "ja": "真木と仲いいの？",
+     "en": "Are you close with Maki?",
+     "speaker": "Inukai"
+    },
+    {
+     "start": 439.6,
+     "end": 441.0,
+     "ja": "あ、真木さんですか？",
+     "en": "Oh, Maki-san?",
+     "speaker": "Nagisa"
+    },
+    {
+     "start": 441.2,
+     "end": 443.9,
+     "ja": "入社時から結構話しかけてくれて、",
+     "en": "He's talked to me a lot ever since I joined,",
+     "speaker": "Nagisa"
+    },
+    {
+     "start": 444.1,
+     "end": 445.8,
+     "ja": "いい人だなって。",
+     "en": "so I think he's a nice guy.",
+     "speaker": "Nagisa"
+    },
+    {
+     "start": 446.1,
+     "end": 447.8,
+     "ja": "いや、あいつは…",
+     "en": "Well, that guy...",
+     "speaker": "Inukai"
+    },
+    {
+     "start": 453.2,
+     "end": 455.3,
+     "ja": "ああ、やっぱやめる。",
+     "en": "Never mind, forget it.",
+     "speaker": "Inukai"
+    },
+    {
+     "start": 456.5,
+     "end": 459.1,
+     "ja": "犬飼さん、ひょっとして酔ってます？",
+     "en": "Inukai-san, are you drunk by any chance?",
+     "speaker": "Nagisa"
+    },
+    {
+     "start": 459.7,
+     "end": 460.9,
+     "ja": "酔ってない。",
+     "en": "I'm not drunk.",
+     "speaker": "Inukai"
+    },
+    {
+     "start": 465.6,
+     "end": 467.3,
+     "ja": "酔ってないからな。",
+     "en": "I'm really not drunk.",
+     "speaker": "Inukai"
+    },
+    {
+     "start": 468.0,
+     "end": 468.8,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Nagisa"
+    }
+   ]
+  }
+ ],
+ "videoId": "1kj4PJntspA",
+ "pickTopics": [
+  "romance",
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

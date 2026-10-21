@@ -1,0 +1,189 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 102.0,
+   "end": 124.5,
+   "title": "Visiting Grandma at the Care Home",
+   "level": "N3",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜そう — looks like",
+    "〜ばよかった — should have done",
+    "〜まで — even"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 102.3,
+     "end": 104.0,
+     "ja": "おばあちゃん。",
+     "en": "Grandma.",
+     "speaker": "Granddaughter"
+    },
+    {
+     "start": 104.1,
+     "end": 107.0,
+     "ja": "あら！来てくれたの？",
+     "en": "Oh! You came?",
+     "speaker": "Grandmother"
+    },
+    {
+     "start": 107.5,
+     "end": 109.8,
+     "ja": "思ったより元気そう。",
+     "en": "You look more energetic than I thought.",
+     "speaker": "Granddaughter"
+    },
+    {
+     "start": 110.0,
+     "end": 113.2,
+     "ja": "来るなら言ってくれればよかったのに。",
+     "en": "You should have told me if you were coming.",
+     "speaker": "Grandmother"
+    },
+    {
+     "start": 113.4,
+     "end": 114.5,
+     "ja": "ごめん。",
+     "en": "Sorry.",
+     "speaker": "Granddaughter"
+    },
+    {
+     "start": 114.8,
+     "end": 117.5,
+     "ja": "ここね、何でもあるのよ。",
+     "en": "They have everything here, you know.",
+     "speaker": "Grandmother"
+    },
+    {
+     "start": 117.6,
+     "end": 120.2,
+     "ja": "お風呂も自動で楽ちんだし、",
+     "en": "The bath is automatic and easy,",
+     "speaker": "Grandmother"
+    },
+    {
+     "start": 120.3,
+     "end": 122.5,
+     "ja": "可愛いロボットまでいるの。",
+     "en": "and there's even a cute robot.",
+     "speaker": "Grandmother"
+    },
+    {
+     "start": 122.8,
+     "end": 124.0,
+     "ja": "そっか。",
+     "en": "I see.",
+     "speaker": "Granddaughter"
+    }
+   ]
+  },
+  {
+   "start": 238.0,
+   "end": 262.3,
+   "title": "Uncertain About the Future",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜て言われる — being told to",
+    "〜のか — whether / indirect question",
+    "〜を目指す — to aim for"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 238.5,
+     "end": 241.5,
+     "ja": "お仕事探し、順調ですか？",
+     "en": "How's the job hunting going?",
+     "speaker": "Care Worker"
+    },
+    {
+     "start": 243.0,
+     "end": 247.3,
+     "ja": "うーん…なんか、書けって言われても、",
+     "en": "Well... even when told to write it down,",
+     "speaker": "Granddaughter"
+    },
+    {
+     "start": 247.5,
+     "end": 252.0,
+     "ja": "自分が何をしたいのかよく分からないんですよ。",
+     "en": "I don't really know what I want to do myself.",
+     "speaker": "Granddaughter"
+    },
+    {
+     "start": 253.2,
+     "end": 255.0,
+     "ja": "分かります。",
+     "en": "I understand.",
+     "speaker": "Care Worker"
+    },
+    {
+     "start": 255.2,
+     "end": 259.6,
+     "ja": "私も最初、全く違う仕事を目指してたんです。",
+     "en": "At first, I was aiming for a completely different job too.",
+     "speaker": "Care Worker"
+    },
+    {
+     "start": 260.0,
+     "end": 261.8,
+     "ja": "そうなんですか？",
+     "en": "Is that so?",
+     "speaker": "Granddaughter"
+    }
+   ]
+  },
+  {
+   "start": 573.0,
+   "end": 585.0,
+   "title": "Wanting to Learn More About Caregiving",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜てくれる — to do for someone",
+    "〜について — about / regarding",
+    "〜てほしい — to want someone to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 573.5,
+     "end": 575.8,
+     "ja": "また来てくれたんですね。",
+     "en": "You came to visit again!",
+     "speaker": "Care Worker"
+    },
+    {
+     "start": 576.5,
+     "end": 581.0,
+     "ja": "介護職の仕事について、もっと詳しく聞かせてほしくて。",
+     "en": "I wanted you to tell me more in detail about care work.",
+     "speaker": "Granddaughter"
+    },
+    {
+     "start": 582.0,
+     "end": 584.5,
+     "ja": "はい！",
+     "en": "Sure!",
+     "speaker": "Care Worker"
+    }
+   ]
+  }
+ ],
+ "videoId": "ScLeCl2lTKs",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

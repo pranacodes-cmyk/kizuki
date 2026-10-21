@@ -1,0 +1,243 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 27.0,
+   "end": 46.0,
+   "title": "Driving to Korankei for the Foliage",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜という — called / named",
+    "〜ね — seeking agreement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 27.0,
+     "end": 29.2,
+     "ja": "いやーきれいだね、今日はね。",
+     "en": "Man, it's so beautiful today, isn't it?",
+     "speaker": "A"
+    },
+    {
+     "start": 29.5,
+     "end": 32.0,
+     "ja": "綺麗な日ですねー。",
+     "en": "It really is a beautiful day.",
+     "speaker": "B"
+    },
+    {
+     "start": 32.2,
+     "end": 34.6,
+     "ja": "今日は、めちゃくちゃ綺麗。",
+     "en": "Today is incredibly beautiful.",
+     "speaker": "A"
+    },
+    {
+     "start": 34.8,
+     "end": 39.8,
+     "ja": "愛知県の香嵐渓というところに行きます。",
+     "en": "We're going to a place called Korankei in Aichi Prefecture.",
+     "speaker": "A"
+    },
+    {
+     "start": 40.0,
+     "end": 41.2,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "B"
+    },
+    {
+     "start": 41.4,
+     "end": 44.0,
+     "ja": "自然が綺麗なところです。",
+     "en": "It's a place with beautiful nature.",
+     "speaker": "A"
+    },
+    {
+     "start": 44.2,
+     "end": 45.8,
+     "ja": "うん、綺麗だね。",
+     "en": "Yeah, it's pretty.",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 700.0,
+   "end": 724.8,
+   "title": "Different at Home vs Outside",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜時 — when / at the time of",
+    "〜と — whenever / when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 700.2,
+     "end": 702.8,
+     "ja": "僕は家にいる時と",
+     "en": "When I'm at home versus...",
+     "speaker": "A"
+    },
+    {
+     "start": 703.0,
+     "end": 704.2,
+     "ja": "はいはい。",
+     "en": "Uh-huh.",
+     "speaker": "B"
+    },
+    {
+     "start": 704.4,
+     "end": 708.5,
+     "ja": "外にいる時、少し違います。",
+     "en": "...when I'm outside, I'm a bit different.",
+     "speaker": "A"
+    },
+    {
+     "start": 708.8,
+     "end": 711.0,
+     "ja": "おおー、そうですか。",
+     "en": "Oh, is that so?",
+     "speaker": "B"
+    },
+    {
+     "start": 711.2,
+     "end": 715.0,
+     "ja": "家にいるとほとんど話しません。",
+     "en": "When I'm at home, I barely talk.",
+     "speaker": "A"
+    },
+    {
+     "start": 716.4,
+     "end": 717.8,
+     "ja": "もっと静かです。",
+     "en": "I'm much quieter.",
+     "speaker": "A"
+    },
+    {
+     "start": 718.0,
+     "end": 719.4,
+     "ja": "もっと静か？",
+     "en": "Even quieter?",
+     "speaker": "B"
+    },
+    {
+     "start": 719.5,
+     "end": 720.2,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "A"
+    },
+    {
+     "start": 720.4,
+     "end": 721.8,
+     "ja": "へー、いつも静かだけど。",
+     "en": "Huh, but you're always quiet already.",
+     "speaker": "B"
+    },
+    {
+     "start": 722.0,
+     "end": 723.0,
+     "ja": "はい、もっと静か。",
+     "en": "Yes, even quieter.",
+     "speaker": "A"
+    },
+    {
+     "start": 723.2,
+     "end": 724.8,
+     "ja": "もっと静か？すごいな。",
+     "en": "Even quieter? Wow.",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 1115.5,
+   "end": 1140.0,
+   "title": "My Mom Loves Hiking Mountains",
+   "level": "N4",
+   "topics": [
+    "family",
+    "sports"
+   ],
+   "grammar": [
+    "〜ている — ongoing action",
+    "〜みたい — like / resembling"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1115.8,
+     "end": 1118.0,
+     "ja": "お母さんは山に登っていましたね。",
+     "en": "Your mother climbed mountains, right?",
+     "speaker": "A"
+    },
+    {
+     "start": 1118.2,
+     "end": 1119.6,
+     "ja": "すごいですよ。",
+     "en": "She's amazing.",
+     "speaker": "B"
+    },
+    {
+     "start": 1120.0,
+     "end": 1122.2,
+     "ja": "うん、今何歳？",
+     "en": "Yeah, how old is she now?",
+     "speaker": "B"
+    },
+    {
+     "start": 1122.4,
+     "end": 1125.5,
+     "ja": "忘れた、64歳とか？たぶん。",
+     "en": "I forgot, maybe around 64? Probably.",
+     "speaker": "B"
+    },
+    {
+     "start": 1126.0,
+     "end": 1128.5,
+     "ja": "64歳ぐらいなんですけど、",
+     "en": "She's about 64, but...",
+     "speaker": "B"
+    },
+    {
+     "start": 1129.0,
+     "end": 1133.2,
+     "ja": "なんかすごいあのー、ハイキングが好きで、",
+     "en": "...she really loves hiking, and...",
+     "speaker": "B"
+    },
+    {
+     "start": 1133.5,
+     "end": 1138.8,
+     "ja": "でも本当に富士山みたいな山を登るんですよ。",
+     "en": "...she actually climbs mountains like Mt. Fuji.",
+     "speaker": "B"
+    },
+    {
+     "start": 1139.0,
+     "end": 1140.0,
+     "ja": "うーん。",
+     "en": "Mm-hmm.",
+     "speaker": "A"
+    }
+   ]
+  }
+ ],
+ "videoId": "YOcEPbzi8Wo",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

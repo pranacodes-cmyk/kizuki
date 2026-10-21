@@ -1,0 +1,225 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 104.7,
+   "end": 121.8,
+   "title": "English Class Begins",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "school"
+   ],
+   "grammar": [
+    "〜なくていい — do not have to",
+    "〜てください — please do"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 104.8,
+     "end": 107.3,
+     "ja": "さあ、それではレッスンを始めますよ。",
+     "en": "Well then, let's begin the lesson.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 107.7,
+     "end": 109.2,
+     "ja": "Lesson 1. Say!",
+     "en": "Lesson 1. Say!",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 109.4,
+     "end": 110.7,
+     "ja": "Lesson 1.",
+     "en": "Lesson 1.",
+     "speaker": "Students"
+    },
+    {
+     "start": 110.8,
+     "end": 112.2,
+     "ja": "言わなくていいですよ。",
+     "en": "You don't need to say that.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 112.3,
+     "end": 114.0,
+     "ja": "Sayって言ったからだろ！",
+     "en": "It's because you said 'say'!",
+     "speaker": "Student"
+    },
+    {
+     "start": 114.1,
+     "end": 115.3,
+     "ja": "Sayって言ったから追っかけてんだろ！",
+     "en": "They repeated it because you told them to say it!",
+     "speaker": "Student"
+    },
+    {
+     "start": 115.4,
+     "end": 117.1,
+     "ja": "言わなくていいんだよ！",
+     "en": "You don't have to say it!",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 117.3,
+     "end": 121.5,
+     "ja": "私が指を差すとこを英語で答えてください。OK？",
+     "en": "Please answer in English for the parts I point to. OK?",
+     "speaker": "Teacher"
+    }
+   ]
+  },
+  {
+   "start": 161.5,
+   "end": 182.5,
+   "title": "How Do You Say Dog in English?",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "animals",
+    "school"
+   ],
+   "grammar": [
+    "〜って言った — said that",
+    "いい加減にしろ — cut it out"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 161.7,
+     "end": 163.0,
+     "ja": "はい、犬は？",
+     "en": "All right, what about dog?",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 163.1,
+     "end": 164.5,
+     "ja": "ワンワン。",
+     "en": "Woof woof.",
+     "speaker": "Students"
+    },
+    {
+     "start": 164.6,
+     "end": 166.0,
+     "ja": "やめとけよ。",
+     "en": "Cut it out.",
+     "speaker": "Student"
+    },
+    {
+     "start": 168.8,
+     "end": 170.1,
+     "ja": "バウワウ。",
+     "en": "Bow wow.",
+     "speaker": "Students"
+    },
+    {
+     "start": 170.2,
+     "end": 173.9,
+     "ja": "誰が鳴き方言えっつったんだよ、てめえら！いい加減にしろよ、この野郎！",
+     "en": "Who told you to make animal sounds, you punks! Knock it off!",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 174.2,
+     "end": 175.5,
+     "ja": "犬は？",
+     "en": "Dog is?",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 175.6,
+     "end": 176.8,
+     "ja": "Dog.",
+     "en": "Dog.",
+     "speaker": "Students"
+    },
+    {
+     "start": 176.9,
+     "end": 178.3,
+     "ja": "そう、ベリードッグ。",
+     "en": "Right, very dog.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 178.4,
+     "end": 182.0,
+     "ja": "ベリードッグ？「とても犬です」って言ってんだろ、それ。",
+     "en": "'Very dog'? That means 'it is very much a dog'.",
+     "speaker": "Student"
+    }
+   ]
+  },
+  {
+   "start": 212.2,
+   "end": 228.0,
+   "title": "Dogs Are Police, Cats Are Thieves",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "animals",
+    "school"
+   ],
+   "grammar": [
+    "〜けど — but / although",
+    "〜て逃げる — to do and run away"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 212.4,
+     "end": 216.5,
+     "ja": "あのー、犬は警察ですけど、猫は泥棒ですよ。",
+     "en": "Um, dogs are police, but cats are thieves.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 216.8,
+     "end": 218.4,
+     "ja": "犬はお巡りさん。",
+     "en": "Dogs are police officers.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 218.6,
+     "end": 221.8,
+     "ja": "猫は魚取って逃げるから泥棒。",
+     "en": "Cats steal fish and run away, so they're thieves.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 222.0,
+     "end": 223.6,
+     "ja": "はい、キャット。",
+     "en": "Okay, cat.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 223.8,
+     "end": 225.3,
+     "ja": "キャッチ。",
+     "en": "Catch.",
+     "speaker": "Students"
+    },
+    {
+     "start": 225.4,
+     "end": 227.4,
+     "ja": "警察の下り何だったんだよ。",
+     "en": "What was that whole police bit for?",
+     "speaker": "Student"
+    }
+   ]
+  }
+ ],
+ "videoId": "y_nL5JjMYyY",
+ "pickTopics": [
+  "fun",
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

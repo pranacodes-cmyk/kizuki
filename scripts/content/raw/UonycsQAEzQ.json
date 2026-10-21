@@ -1,0 +1,176 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 18.8,
+   "end": 34.5,
+   "title": "An Early Present for Komugi",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family",
+    "animals"
+   ],
+   "grammar": [
+    "〜といい — I hope that",
+    "〜くない — negative adjective"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 19.0,
+     "end": 21.0,
+     "ja": "こむぎの誕生日プレゼントです。",
+     "en": "This is a birthday present for Komugi.",
+     "speaker": "Owner (Dad)"
+    },
+    {
+     "start": 21.1,
+     "end": 22.3,
+     "ja": "早くない？",
+     "en": "Isn't it a bit early?",
+     "speaker": "Owner (Mom)"
+    },
+    {
+     "start": 22.4,
+     "end": 24.3,
+     "ja": "クリスマスプレゼントです。",
+     "en": "It's a Christmas present.",
+     "speaker": "Owner (Dad)"
+    },
+    {
+     "start": 24.9,
+     "end": 26.2,
+     "ja": "それでも早くない？",
+     "en": "Even so, isn't that too early?",
+     "speaker": "Owner (Mom)"
+    },
+    {
+     "start": 26.3,
+     "end": 27.5,
+     "ja": "弟です。",
+     "en": "He's his little brother.",
+     "speaker": "Owner (Dad)"
+    },
+    {
+     "start": 32.0,
+     "end": 34.0,
+     "ja": "喜んでくれるといいなぁ〜。",
+     "en": "I hope he likes it.",
+     "speaker": "Owner (Mom)"
+    }
+   ]
+  },
+  {
+   "start": 169.0,
+   "end": 183.0,
+   "title": "Don't Chew on Dad's Socks",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun",
+    "animals"
+   ],
+   "grammar": [
+    "〜ちゃった — ended up doing / completely"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 169.2,
+     "end": 172.0,
+     "ja": "いやいやいや、パパの靴下は…",
+     "en": "No, no, no, not Dad's sock...",
+     "speaker": "Owner (Dad)"
+    },
+    {
+     "start": 172.5,
+     "end": 175.5,
+     "ja": "いやいやいや〜、パパの靴下は！",
+     "en": "No, no, no, not Dad's sock!",
+     "speaker": "Toy"
+    },
+    {
+     "start": 179.5,
+     "end": 182.0,
+     "ja": "飽きちゃったの？早いね。",
+     "en": "Are you bored of it already? That was quick.",
+     "speaker": "Owner (Mom)"
+    }
+   ]
+  },
+  {
+   "start": 286.0,
+   "end": 308.5,
+   "title": "Get Down from the Table",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "animals",
+    "family"
+   ],
+   "grammar": [
+    "〜た覚えはない — have no memory of doing",
+    "〜な — casual imperative (〜なさい)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 286.5,
+     "end": 289.0,
+     "ja": "そんなこと教えた覚えはありませんよ、こむぎさん。",
+     "en": "I don't recall teaching you to do that, Komugi.",
+     "speaker": "Owner (Mom)"
+    },
+    {
+     "start": 289.1,
+     "end": 290.5,
+     "ja": "だめよ、こむぎ。",
+     "en": "No, Komugi.",
+     "speaker": "Owner (Dad)"
+    },
+    {
+     "start": 292.4,
+     "end": 294.5,
+     "ja": "こむぎ君、助けて！",
+     "en": "Komugi, save me!",
+     "speaker": "Owner (Dad)"
+    },
+    {
+     "start": 297.5,
+     "end": 300.0,
+     "ja": "こむぎ、ほら降りな。早く。",
+     "en": "Komugi, come on, get down. Hurry.",
+     "speaker": "Owner (Mom)"
+    },
+    {
+     "start": 300.8,
+     "end": 303.0,
+     "ja": "こむぎダメよ、ほら。",
+     "en": "Komugi, no, come on.",
+     "speaker": "Owner (Mom)"
+    },
+    {
+     "start": 303.8,
+     "end": 306.0,
+     "ja": "こむぎ、おいで。降りて。",
+     "en": "Komugi, come here. Get down.",
+     "speaker": "Owner (Mom)"
+    },
+    {
+     "start": 306.5,
+     "end": 308.0,
+     "ja": "こむぎ降りな。",
+     "en": "Komugi, get down.",
+     "speaker": "Owner (Mom)"
+    }
+   ]
+  }
+ ],
+ "videoId": "UonycsQAEzQ",
+ "pickTopics": [
+  "animals",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

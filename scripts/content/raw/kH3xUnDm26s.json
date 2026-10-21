@@ -1,0 +1,232 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 585.8,
+   "end": 614.5,
+   "title": "Talking About Hobbies",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜てほしい — wanting someone/thing to do/have",
+    "〜って — quoting someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 586.0,
+     "end": 589.0,
+     "ja": "ねぇ、みかげちゃんは何が好きなの？",
+     "en": "Hey, Mikage-chan, what do you like?",
+     "speaker": "Hinata"
+    },
+    {
+     "start": 590.0,
+     "end": 592.5,
+     "ja": "ダンゴムシとひなたちゃん。",
+     "en": "Pill bugs and Hinata-chan.",
+     "speaker": "Mikage"
+    },
+    {
+     "start": 592.6,
+     "end": 594.5,
+     "ja": "そうじゃなくて。",
+     "en": "Not that.",
+     "speaker": "Hinata"
+    },
+    {
+     "start": 601.3,
+     "end": 603.0,
+     "ja": "ひゃあ！",
+     "en": "Eek!",
+     "speaker": "Hinata"
+    },
+    {
+     "start": 603.1,
+     "end": 606.0,
+     "ja": "これがボールパイソンで、こっちがグリーンパイソン。",
+     "en": "This is a ball python, and this one is a green python.",
+     "speaker": "Mikage"
+    },
+    {
+     "start": 606.2,
+     "end": 610.0,
+     "ja": "本当は毒持ってる子とか欲しいんだけど、パパがまだ早いって。",
+     "en": "I actually want a venomous one, but Dad says it's too early.",
+     "speaker": "Mikage"
+    },
+    {
+     "start": 610.1,
+     "end": 612.5,
+     "ja": "待って！他の趣味は？",
+     "en": "Wait! What about other hobbies?",
+     "speaker": "Hinata"
+    },
+    {
+     "start": 612.6,
+     "end": 614.3,
+     "ja": "できたら私にもわかるのを…",
+     "en": "Preferably something I can understand too...",
+     "speaker": "Hinata"
+    }
+   ]
+  },
+  {
+   "start": 739.8,
+   "end": 772.0,
+   "title": "Ideal Best Friends",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "school",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ちゃダメ — must not do",
+    "〜のだから — because / after all"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 740.1,
+     "end": 742.5,
+     "ja": "私ってドジだよね。",
+     "en": "I'm such a klutz, aren't I?",
+     "speaker": "Hinata"
+    },
+    {
+     "start": 746.3,
+     "end": 748.0,
+     "ja": "昨日は病欠でしょ？",
+     "en": "You were out sick yesterday, right?",
+     "speaker": "Mikage"
+    },
+    {
+     "start": 748.5,
+     "end": 750.8,
+     "ja": "無理しちゃダメだよ。",
+     "en": "You shouldn't overdo it.",
+     "speaker": "Mikage"
+    },
+    {
+     "start": 753.2,
+     "end": 755.0,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Hinata"
+    },
+    {
+     "start": 755.6,
+     "end": 758.8,
+     "ja": "本当みかげちゃんは優しいよね。",
+     "en": "Mikage-chan, you really are so kind.",
+     "speaker": "Hinata"
+    },
+    {
+     "start": 759.5,
+     "end": 761.8,
+     "ja": "それに、とってもクール。",
+     "en": "And you're really cool, too.",
+     "speaker": "Hinata"
+    },
+    {
+     "start": 764.2,
+     "end": 766.0,
+     "ja": "当たり前でしょ？",
+     "en": "Of course I am!",
+     "speaker": "Mikage"
+    },
+    {
+     "start": 766.5,
+     "end": 769.3,
+     "ja": "私たちは親友なのだから！",
+     "en": "After all, we're best friends!",
+     "speaker": "Mikage"
+    },
+    {
+     "start": 770.0,
+     "end": 771.5,
+     "ja": "うん！",
+     "en": "Yeah!",
+     "speaker": "Hinata"
+    }
+   ]
+  },
+  {
+   "start": 914.5,
+   "end": 942.0,
+   "title": "Overly Formal Greeting",
+   "level": "N5",
+   "topics": [
+    "school",
+    "friends",
+    "comedy"
+   ],
+   "grammar": [
+    "〜じゃなかった — was not (past negative)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 915.0,
+     "end": 917.0,
+     "ja": "おはようございます。",
+     "en": "Good morning.",
+     "speaker": "Hinata"
+    },
+    {
+     "start": 917.5,
+     "end": 918.5,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Mikage"
+    },
+    {
+     "start": 918.8,
+     "end": 923.0,
+     "ja": "おはようございます！ございます！おはようございます！",
+     "en": "Good morning! Good morning! Good morning!",
+     "speaker": "Hinata"
+    },
+    {
+     "start": 926.5,
+     "end": 928.0,
+     "ja": "…ます…",
+     "en": "...morning...",
+     "speaker": "Hinata"
+    },
+    {
+     "start": 931.0,
+     "end": 933.0,
+     "ja": "何で…？",
+     "en": "Why...?",
+     "speaker": "Mikage"
+    },
+    {
+     "start": 933.5,
+     "end": 937.0,
+     "ja": "私たち、親友じゃなかったの？",
+     "en": "Weren't we best friends?",
+     "speaker": "Mikage"
+    },
+    {
+     "start": 937.5,
+     "end": 941.5,
+     "ja": "ねぇ、ひなたちゃん、何で？",
+     "en": "Hey, Hinata-chan, why?",
+     "speaker": "Mikage"
+    }
+   ]
+  }
+ ],
+ "videoId": "kH3xUnDm26s",
+ "pickTopics": [
+  "romance",
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

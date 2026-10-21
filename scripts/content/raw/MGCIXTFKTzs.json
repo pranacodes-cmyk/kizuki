@@ -1,0 +1,195 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.1,
+   "end": 71.8,
+   "title": "A Story No One Listens To",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "〜飽きる — get tired of doing",
+    "〜からしたら — from the perspective of",
+    "〜ていい — okay/permitted to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.3,
+     "end": 46.0,
+     "ja": "つまんないの。",
+     "en": "How boring.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 47.8,
+     "end": 51.0,
+     "ja": "その話なら、もう聞き飽きてるんだけど。",
+     "en": "I'm already sick of hearing that story.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 52.0,
+     "end": 53.3,
+     "ja": "はいはーい。",
+     "en": "Yeah, yeah.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 55.2,
+     "end": 57.4,
+     "ja": "素晴らしい物語でした。",
+     "en": "It was a wonderful story.",
+     "speaker": "Shorekeeper"
+    },
+    {
+     "start": 58.2,
+     "end": 59.5,
+     "ja": "ありがとう。",
+     "en": "Thank you.",
+     "speaker": "Old man"
+    },
+    {
+     "start": 60.2,
+     "end": 63.6,
+     "ja": "じゃが、今の人からしたらつまらないようでのお。",
+     "en": "Though to people nowadays, it seems rather dull.",
+     "speaker": "Old man"
+    },
+    {
+     "start": 64.8,
+     "end": 66.8,
+     "ja": "誰も耳を傾けはせん。",
+     "en": "Nobody lends an ear anymore.",
+     "speaker": "Old man"
+    },
+    {
+     "start": 68.2,
+     "end": 71.4,
+     "ja": "お嬢ちゃんは、こんなところにいていいのかい？",
+     "en": "Little lady, is it fine for you to be in a place like this?",
+     "speaker": "Old man"
+    }
+   ]
+  },
+  {
+   "start": 205.5,
+   "end": 234.0,
+   "title": "Severing the Thorns of Fear",
+   "level": "N2",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜てはいられない — cannot afford to keep doing",
+    "〜など — things like / such as",
+    "〜の彼方へ — beyond / to the other side of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 205.8,
+     "end": 207.5,
+     "ja": "恐れはあります。",
+     "en": "I do feel fear.",
+     "speaker": "Shorekeeper"
+    },
+    {
+     "start": 209.8,
+     "end": 212.3,
+     "ja": "それが何だと言うのです。",
+     "en": "So what if I do?",
+     "speaker": "Shorekeeper"
+    },
+    {
+     "start": 214.0,
+     "end": 216.5,
+     "ja": "立ち止まってはいられません。",
+     "en": "I cannot just stand still.",
+     "speaker": "Shorekeeper"
+    },
+    {
+     "start": 217.8,
+     "end": 221.5,
+     "ja": "恐怖を受け入れ、この茨を断ち切るのです。",
+     "en": "I will embrace the fear and sever these thorns.",
+     "speaker": "Shorekeeper"
+    },
+    {
+     "start": 224.2,
+     "end": 229.0,
+     "ja": "本物の騎士ではない私に、鎧など要りません。",
+     "en": "As someone who isn't a true knight, I have no need for armor.",
+     "speaker": "Shorekeeper"
+    },
+    {
+     "start": 230.8,
+     "end": 233.6,
+     "ja": "白馬は記憶の彼方へ。",
+     "en": "The white horse is beyond my memory.",
+     "speaker": "Shorekeeper"
+    }
+   ]
+  },
+  {
+   "start": 259.0,
+   "end": 281.2,
+   "title": "I Will Save This Moment",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜であれ — no matter if",
+    "〜うと — even if / no matter how",
+    "〜てみせる — determined to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 259.4,
+     "end": 261.3,
+     "ja": "過去がどうであれ……",
+     "en": "Whatever the past may have been...",
+     "speaker": "Shorekeeper"
+    },
+    {
+     "start": 265.0,
+     "end": 267.2,
+     "ja": "未来がどうなろうと……",
+     "en": "Whatever the future may bring...",
+     "speaker": "Shorekeeper"
+    },
+    {
+     "start": 270.9,
+     "end": 272.3,
+     "ja": "私は……",
+     "en": "I will...",
+     "speaker": "Shorekeeper"
+    },
+    {
+     "start": 275.1,
+     "end": 277.8,
+     "ja": "今、この瞬間を――",
+     "en": "this very moment—",
+     "speaker": "Shorekeeper"
+    },
+    {
+     "start": 278.7,
+     "end": 280.7,
+     "ja": "救ってみせる！",
+     "en": "I swear I'll save it!",
+     "speaker": "Shorekeeper"
+    }
+   ]
+  }
+ ],
+ "videoId": "MGCIXTFKTzs",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

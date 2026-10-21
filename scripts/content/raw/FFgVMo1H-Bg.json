@@ -1,0 +1,138 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 20.0,
+   "end": 37.9,
+   "title": "Thirty Years Later",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy",
+    "family"
+   ],
+   "grammar": [
+    "〜んじゃない — isn't it / wonder if",
+    "〜わけない — no way that / impossible"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 20.2,
+     "end": 22.9,
+     "ja": "ちょっとしんのすけかっこいいんじゃない？",
+     "en": "Hey, Shinnosuke, aren't you looking cool?",
+     "speaker": "Misae"
+    },
+    {
+     "start": 23.3,
+     "end": 25.8,
+     "ja": "椿ちゃん助けなくっちゃ！",
+     "en": "I gotta rescue Tsubaki-chan!",
+     "speaker": "Shin-chan"
+    },
+    {
+     "start": 26.5,
+     "end": 28.5,
+     "ja": "オラ、野原しんのすけ、５歳！",
+     "en": "I'm Shinnosuke Nohara, 5 years old!",
+     "speaker": "Shin-chan"
+    },
+    {
+     "start": 28.8,
+     "end": 29.5,
+     "ja": "コラ！",
+     "en": "Hey!",
+     "speaker": "Misae"
+    },
+    {
+     "start": 29.8,
+     "end": 31.8,
+     "ja": "もうあれから30年か。",
+     "en": "It's already been 30 years since then, huh?",
+     "speaker": "Misae"
+    },
+    {
+     "start": 32.2,
+     "end": 34.6,
+     "ja": "そろそろ家のローンも終わってる頃じゃない？",
+     "en": "Isn't the house mortgage about done by now?",
+     "speaker": "Shin-chan"
+    },
+    {
+     "start": 34.9,
+     "end": 36.3,
+     "ja": "そんなわけないでしょ！",
+     "en": "There's no way that's true!",
+     "speaker": "Misae"
+    },
+    {
+     "start": 36.3,
+     "end": 37.9,
+     "ja": "パパが落ち込むからやめてあげて！",
+     "en": "Dad will get depressed, so stop it!",
+     "speaker": "Misae"
+    }
+   ]
+  },
+  {
+   "start": 38.3,
+   "end": 50.8,
+   "title": "Buy Them All",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy",
+    "family"
+   ],
+   "grammar": [
+    "〜てくれる — doing something for someone",
+    "〜となると — when it comes to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 38.4,
+     "end": 40.0,
+     "ja": "オラ全部欲しいぞ！",
+     "en": "I want them all!",
+     "speaker": "Shin-chan"
+    },
+    {
+     "start": 40.1,
+     "end": 42.6,
+     "ja": "妖怪ケチケチおババも買ってくれるよね？ね？",
+     "en": "The stingy old witch monster will buy them for me, right? Right?",
+     "speaker": "Shin-chan"
+    },
+    {
+     "start": 42.8,
+     "end": 44.5,
+     "ja": "そうね…誰がケチケチおババよ！",
+     "en": "Sure... Who are you calling a stingy old witch?!",
+     "speaker": "Misae"
+    },
+    {
+     "start": 45.4,
+     "end": 47.4,
+     "ja": "絶対大人が勝つぞ！",
+     "en": "Adults will definitely win!",
+     "speaker": "Shin-chan"
+    },
+    {
+     "start": 48.0,
+     "end": 50.8,
+     "ja": "でもこれだけ一気に見られるとなると、ちょっと惹かれるわね。",
+     "en": "Though being able to watch all of these at once is a bit tempting.",
+     "speaker": "Misae"
+    }
+   ]
+  }
+ ],
+ "videoId": "FFgVMo1H-Bg",
+ "pickTopics": [
+  "anime",
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

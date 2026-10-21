@@ -1,0 +1,143 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.5,
+   "end": 22.0,
+   "title": "Brainstorming in a Remote Meeting",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜を考えると — considering...",
+    "〜たい — want to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.8,
+     "end": 10.6,
+     "ja": "ターゲット層を考えると、やはりSNSを使って若者にアプローチしたいですね。",
+     "en": "Considering our target demographic, I'd really like to approach young people using social media.",
+     "speaker": "Male Colleague"
+    },
+    {
+     "start": 11.2,
+     "end": 14.6,
+     "ja": "まあ確かにSNS運営は必須よね。",
+     "en": "Well, running social media is definitely essential.",
+     "speaker": "Boss"
+    },
+    {
+     "start": 16.0,
+     "end": 18.5,
+     "ja": "じゃあ、他に誰かいないかな？",
+     "en": "So, does anyone else have anything?",
+     "speaker": "Boss"
+    },
+    {
+     "start": 20.1,
+     "end": 21.8,
+     "ja": "一ノ瀬さんは？",
+     "en": "How about you, Ichinose?",
+     "speaker": "Boss"
+    }
+   ]
+  },
+  {
+   "start": 37.0,
+   "end": 56.5,
+   "title": "Feedback for the New Employee",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜とはいえ — even though / although",
+    "〜以上は — as long as / since",
+    "〜てちょうだい — please do (soft command)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.4,
+     "end": 39.8,
+     "ja": "す、すいません。違うんです。",
+     "en": "I-I'm sorry. That's not it.",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 40.4,
+     "end": 43.6,
+     "ja": "あの、何て言ったらいいか分からなくて…",
+     "en": "Um, I just didn't know what to say...",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 43.7,
+     "end": 49.5,
+     "ja": "新入社員とはいえ、会議に参加する以上は自分の意見しっかりともつようにしてちょうだい。",
+     "en": "Even as a new hire, as long as you attend meetings, please be sure to have your own opinion.",
+     "speaker": "Boss"
+    },
+    {
+     "start": 50.2,
+     "end": 54.2,
+     "ja": "じゃあ、今日の会議はここまでで。お疲れ様。",
+     "en": "All right, that wraps up today's meeting. Good job, everyone.",
+     "speaker": "Boss"
+    },
+    {
+     "start": 54.6,
+     "end": 56.5,
+     "ja": "お疲れ様でした。",
+     "en": "Thank you for your hard work.",
+     "speaker": "Sakura"
+    }
+   ]
+  },
+  {
+   "start": 133.8,
+   "end": 149.8,
+   "title": "Real Reason for Applying",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜から — because",
+    "〜たい — want to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 134.0,
+     "end": 140.5,
+     "ja": "志望動機は、御社に成長性や将来性を感じ…",
+     "en": "My reason for applying is feeling potential and a bright future in your company...",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 141.2,
+     "end": 144.6,
+     "ja": "いえ、私が働きたいからです。",
+     "en": "No, it's because I truly want to work here.",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 145.0,
+     "end": 149.3,
+     "ja": "自信が持てたって人を、一人でも多く増やしたいんです。",
+     "en": "I want to help even one more person feel confident in themselves.",
+     "speaker": "Sakura"
+    }
+   ]
+  }
+ ],
+ "videoId": "czytzp8Let0",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

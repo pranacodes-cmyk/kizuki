@@ -1,0 +1,218 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 38.2,
+   "end": 58.0,
+   "title": "What makes high schoolers happy?",
+   "level": "N4",
+   "topics": [
+    "school",
+    "sports",
+    "romance"
+   ],
+   "grammar": [
+    "〜た時 — when doing / did",
+    "〜とか — things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 38.2,
+     "end": 39.4,
+     "ja": "どう、どう？",
+     "en": "How about you?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 39.4,
+     "end": 41.8,
+     "ja": "え、部活で勝った時とか。",
+     "en": "Well, when winning at club activities.",
+     "speaker": "Girl 1"
+    },
+    {
+     "start": 41.8,
+     "end": 43.0,
+     "ja": "何部？",
+     "en": "What club?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 43.0,
+     "end": 44.6,
+     "ja": "ソフト部です。",
+     "en": "Softball club.",
+     "speaker": "Girl 1"
+    },
+    {
+     "start": 44.6,
+     "end": 46.7,
+     "ja": "ソフト部！勝った時。",
+     "en": "Softball club! When winning.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 46.7,
+     "end": 48.3,
+     "ja": "いかがですか？",
+     "en": "How about you?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 48.5,
+     "end": 52.2,
+     "ja": "なんかこう、好きな人と一緒に居れた時。",
+     "en": "Like, when I can be with someone I like.",
+     "speaker": "Girl 2"
+    },
+    {
+     "start": 53.6,
+     "end": 55.9,
+     "ja": "今彼氏いるの？",
+     "en": "Do you have a boyfriend now?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 55.9,
+     "end": 57.6,
+     "ja": "いないです。",
+     "en": "No, I don't.",
+     "speaker": "Girl 2"
+    }
+   ]
+  },
+  {
+   "start": 64.5,
+   "end": 79.5,
+   "title": "When do you feel happy normally?",
+   "level": "N4",
+   "topics": [
+    "food",
+    "work",
+    "travel"
+   ],
+   "grammar": [
+    "〜た時 — when doing / did",
+    "〜前 — before"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 64.5,
+     "end": 68.1,
+     "ja": "普段どんなときに幸せを感じますか？",
+     "en": "When do you normally feel happy?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 68.5,
+     "end": 71.8,
+     "ja": "美味しいもの食べた時。",
+     "en": "Whenever I eat delicious food.",
+     "speaker": "Man 1"
+    },
+    {
+     "start": 71.8,
+     "end": 73.8,
+     "ja": "分かります。いかがですか？",
+     "en": "I know. What about you?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 73.8,
+     "end": 75.2,
+     "ja": "定時前です。",
+     "en": "Getting off work earlier.",
+     "speaker": "Man 2"
+    },
+    {
+     "start": 75.2,
+     "end": 77.5,
+     "ja": "あ、定時前！いかがですか？",
+     "en": "Ah, getting off work earlier! How about you?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 77.5,
+     "end": 79.4,
+     "ja": "まあ旅行行った時とか。",
+     "en": "Well, whenever I go on a trip.",
+     "speaker": "Man 3"
+    }
+   ]
+  },
+  {
+   "start": 181.3,
+   "end": 199.2,
+   "title": "Being with my spouse",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜ば — conditional (if / when)",
+    "〜と — with"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 181.3,
+     "end": 183.3,
+     "ja": "お父さん今幸せですか？",
+     "en": "Sir, are you happy now?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 183.3,
+     "end": 185.1,
+     "ja": "幸せですよ、おかげさまで。",
+     "en": "I'm happy, thank you.",
+     "speaker": "Man"
+    },
+    {
+     "start": 185.1,
+     "end": 186.8,
+     "ja": "どうして幸せ感じますか？",
+     "en": "Why do you feel happy?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 186.8,
+     "end": 188.8,
+     "ja": "女房と一緒に居れば幸せですよ。",
+     "en": "I'm happy being together with my wife.",
+     "speaker": "Man"
+    },
+    {
+     "start": 188.8,
+     "end": 192.2,
+     "ja": "普段どんな時に幸せって感じますか？",
+     "en": "When do you feel happy usually?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 192.4,
+     "end": 196.2,
+     "ja": "え、普段ですか？主人がとなりに居る時。",
+     "en": "Usually? When my husband is by my side.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 196.2,
+     "end": 199.2,
+     "ja": "あー！ラブラブ。素敵ですね。",
+     "en": "Ah! Lovey-dovey. So nice.",
+     "speaker": "Interviewer"
+    }
+   ]
+  }
+ ],
+ "videoId": "D8A2q3awnsU",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

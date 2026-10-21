@@ -1,0 +1,197 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 194.5,
+   "end": 217.0,
+   "title": "Tomorrow Is a Special Day",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜んじゃない — isn't it? / wondering if",
+    "〜てる — ongoing state/action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 194.8,
+     "end": 198.0,
+     "ja": "お母さん！明日は何の日だ？",
+     "en": "Mom! What day is tomorrow?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 198.5,
+     "end": 201.7,
+     "ja": "あら、チャレンジ園がお休みの日ね。",
+     "en": "Oh, it's a day off from Challenge Kindergarten.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 202.0,
+     "end": 206.0,
+     "ja": "違うよ！ほら、僕がすっごく楽しみにしてる日！",
+     "en": "No! You know, the day I've been really looking forward to!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 206.2,
+     "end": 208.5,
+     "ja": "そう、何だったかしら。",
+     "en": "Right, I wonder what it was.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 208.8,
+     "end": 213.7,
+     "ja": "ええっ！？まさかお母さん、忘れてるんじゃないよね？明日は僕の…",
+     "en": "What?! Mom, you didn't forget, did you? Tomorrow is my...",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 213.9,
+     "end": 216.5,
+     "ja": "それより、もうすぐご飯だからテーブルの上を拭いて。",
+     "en": "More importantly, dinner is soon, so please wipe the table.",
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
+   "start": 400.0,
+   "end": 428.0,
+   "title": "The Surprise Party Plan",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜ようと思う — thinking of doing",
+    "〜てて — having been doing (〜ていて)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 400.0,
+     "end": 404.0,
+     "ja": "しまじろう、誕生日おめでとう！",
+     "en": "Shimajiro, happy birthday!",
+     "speaker": "Everyone"
+    },
+    {
+     "start": 404.1,
+     "end": 406.0,
+     "ja": "おめでとう、しまじろう！",
+     "en": "Congratulations, Shimajiro!",
+     "speaker": "Dad"
+    },
+    {
+     "start": 406.3,
+     "end": 410.5,
+     "ja": "とりっぴいたち、おばあちゃんたちまで…どういうこと？",
+     "en": "Torippii and the others, even Grandma and Grandpa... what's going on?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 410.8,
+     "end": 415.0,
+     "ja": "イエイ！びっくりパーティー大成功！",
+     "en": "Yay! The surprise party is a huge success!",
+     "speaker": "Kids"
+    },
+    {
+     "start": 415.3,
+     "end": 417.0,
+     "ja": "びっくりパーティー？",
+     "en": "A surprise party?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 417.4,
+     "end": 424.3,
+     "ja": "みみりんたち、しまじろうをびっくりさせようと思って、こっそり誕生日パーティーの準備をしてたの。",
+     "en": "We wanted to surprise you, so we secretly prepared a birthday party.",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 424.5,
+     "end": 427.5,
+     "ja": "ごめんね、しまじろう。今まで黙ってて。",
+     "en": "Sorry, Shimajiro, for keeping quiet until now.",
+     "speaker": "Torippii"
+    }
+   ]
+  },
+  {
+   "start": 873.5,
+   "end": 893.5,
+   "title": "Finding the Candy Culprit",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜たら — if / when",
+    "〜ちゃう — to do completely / accidentally"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 873.7,
+     "end": 875.5,
+     "ja": "どうしたのだ？しまじろう君。",
+     "en": "What's the matter, Shimajiro?",
+     "speaker": "Pontaro"
+    },
+    {
+     "start": 875.8,
+     "end": 879.5,
+     "ja": "みみりんのラムネを盗んだ犯人を見つけたんだよ！",
+     "en": "I found the culprit who stole Mimirin's ramune candy!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 879.8,
+     "end": 881.5,
+     "ja": "ええっ！？",
+     "en": "What?!",
+     "speaker": "Everyone"
+    },
+    {
+     "start": 881.8,
+     "end": 885.5,
+     "ja": "どこ？どこに犯人がいるの？早く教えて！",
+     "en": "Where? Where is the culprit? Hurry and tell us!",
+     "speaker": "Torippii"
+    },
+    {
+     "start": 885.8,
+     "end": 889.0,
+     "ja": "ああ、そんなことしたら犯人をつぶしちゃうよ！",
+     "en": "Ah, if you do that, you'll crush the culprit!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 889.5,
+     "end": 891.0,
+     "ja": "犯人はここだよ！",
+     "en": "The culprit is right here!",
+     "speaker": "Shimajiro"
+    }
+   ]
+  }
+ ],
+ "videoId": "V3QeYH5sD9E",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

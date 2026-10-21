@@ -1,0 +1,176 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 49.8,
+   "end": 68.6,
+   "title": "Lost Beyond the Odango Rock",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "fun",
+    "anime"
+   ],
+   "grammar": [
+    "〜てしまう — completed/regrettable action",
+    "いくら〜ても — no matter how much"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 50.8,
+     "end": 53.9,
+     "ja": "ええ！？お団子岩の向こうに行ったの？",
+     "en": "What?! You went beyond the Odango Rock?",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 54.3,
+     "end": 56.4,
+     "ja": "それで、それでどうしたの？",
+     "en": "And then, what happened then?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 56.7,
+     "end": 60.1,
+     "ja": "いくら探しても帰り道が分からなかったんだけど、",
+     "en": "No matter how much I searched, I couldn't find the way back,",
+     "speaker": "Torippi"
+    },
+    {
+     "start": 60.9,
+     "end": 65.5,
+     "ja": "気がついたら森の出口の一本松のとこ歩いてたんだ。",
+     "en": "but when I came to, I was walking by the single pine tree at the forest exit.",
+     "speaker": "Torippi"
+    },
+    {
+     "start": 66.0,
+     "end": 68.3,
+     "ja": "ね？不思議でしょ？",
+     "en": "See? Isn't that mysterious?",
+     "speaker": "Torippi"
+    }
+   ]
+  },
+  {
+   "start": 419.6,
+   "end": 431.5,
+   "title": "Leaving an Acorn Trail",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていく — to continue doing / go doing",
+    "〜はず — should be / ought to be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 419.9,
+     "end": 421.4,
+     "ja": "これ。",
+     "en": "These.",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 421.4,
+     "end": 422.5,
+     "ja": "どんぐり？",
+     "en": "Acorns?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 422.9,
+     "end": 425.4,
+     "ja": "これを目印に落としてきたから、",
+     "en": "I dropped these as markers as we went along,",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 425.8,
+     "end": 428.8,
+     "ja": "それをたどっていけば元の場所に戻れるはず。",
+     "en": "so if we follow them, we should be able to get back to where we started.",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 429.6,
+     "end": 431.5,
+     "ja": "そっか！さすがにゃっきい！",
+     "en": "I see! Way to go, Nyakkii!",
+     "speaker": "Shimajiro"
+    }
+   ]
+  },
+  {
+   "start": 951.8,
+   "end": 968.2,
+   "title": "What Do You Want to See at the Aquarium?",
+   "level": "N5",
+   "topics": [
+    "friends",
+    "animals",
+    "fun"
+   ],
+   "grammar": [
+    "〜たい — want to do",
+    "やっぱり — as expected / after all"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 952.1,
+     "end": 955.1,
+     "ja": "ねえねえ、水族館で何見たい？",
+     "en": "Hey, hey, what do you want to see at the aquarium?",
+     "speaker": "Torippi"
+    },
+    {
+     "start": 955.4,
+     "end": 957.2,
+     "ja": "やっぱりイルカだよね！",
+     "en": "Dolphins, of course!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 957.5,
+     "end": 959.8,
+     "ja": "熱帯魚も見たいな！",
+     "en": "I want to see tropical fish too!",
+     "speaker": "Torippi"
+    },
+    {
+     "start": 1000.2,
+     "end": 1002.8,
+     "ja": "私はクジラが見たいです！",
+     "en": "I would like to see a whale!",
+     "speaker": "Richard"
+    },
+    {
+     "start": 1003.3,
+     "end": 1005.0,
+     "ja": "ねえ、けんとわ？",
+     "en": "Hey, what about you, Kento?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 1005.1,
+     "end": 1007.6,
+     "ja": "僕はやっぱり河童かな！",
+     "en": "For me, definitely a kappa!",
+     "speaker": "Kento"
+    }
+   ]
+  }
+ ],
+ "videoId": "HqwcjB-NdUQ",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

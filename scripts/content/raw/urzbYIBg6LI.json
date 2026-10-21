@@ -1,0 +1,95 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 9.4,
+   "title": "Convenient Train Lines from Sangenjaya",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜たり〜たりする — doing things like A and B",
+    "〜から — starting point"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 3.9,
+     "ja": "小田急に接続できたり、あと京王線に接続できたりするんですよ。",
+     "en": "You can connect to the Odakyu Line, and also to the Keio Line.",
+     "speaker": "Man"
+    },
+    {
+     "start": 4.1,
+     "end": 9.2,
+     "ja": "だから結構便利で、新宿とかもここから行けたりします。",
+     "en": "So it's quite convenient, and you can even get to places like Shinjuku from here.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 16.0,
+   "end": 32.5,
+   "title": "Morning Routine and a Break in Meguro",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "friends"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜ことがある — have the experience of"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 16.1,
+     "end": 20.0,
+     "ja": "ここで1回パン買って、中で食べてから出社とかは、したことあります。",
+     "en": "I've bought bread here once and eaten it inside before heading to work.",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 20.2,
+     "end": 22.0,
+     "ja": "お疲れ様です。お疲れ様です。",
+     "en": "Cheers for your hard work! Cheers!",
+     "speaker": "Women"
+    },
+    {
+     "start": 26.6,
+     "end": 28.0,
+     "ja": "平和やな。美味しい！",
+     "en": "How peaceful. Delicious!",
+     "speaker": "Man in studio & Woman 1"
+    },
+    {
+     "start": 28.2,
+     "end": 30.6,
+     "ja": "なんか平和やな。冷たい、美味しい。",
+     "en": "It feels so peaceful. It's cold, delicious.",
+     "speaker": "Man in studio & Woman 2"
+    },
+    {
+     "start": 30.7,
+     "end": 32.4,
+     "ja": "なんか良いですね！",
+     "en": "That looks so nice!",
+     "speaker": "Staff"
+    }
+   ]
+  }
+ ],
+ "videoId": "urzbYIBg6LI",
+ "pickTopics": [
+  "work",
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

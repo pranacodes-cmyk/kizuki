@@ -1,0 +1,137 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 18.0,
+   "end": 36.3,
+   "title": "Autumn Colors and Autumn Leaves",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜といえば — speaking of",
+    "〜とも言う — also called"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.4,
+     "end": 22.0,
+     "ja": "秋といえば、紅葉ですね。",
+     "en": "Speaking of autumn, it's autumn leaves, isn't it?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 22.4,
+     "end": 29.2,
+     "ja": "秋の色といえば、赤、黄色、橙色。",
+     "en": "Speaking of autumn colors, it's red, yellow, and orange.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 29.5,
+     "end": 35.8,
+     "ja": "橙色は、みかん色、オレンジ色とも言います。",
+     "en": "Daidai-iro is also called mikan color or orange.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 55.3,
+   "end": 113.6,
+   "title": "Hiroshima's Momiji Manju",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "food"
+   ],
+   "grammar": [
+    "〜といえば — speaking of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 55.7,
+     "end": 59.8,
+     "ja": "紅葉といえば、もみじ。",
+     "en": "Speaking of autumn foliage, it's Japanese maples.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 60.4,
+     "end": 65.1,
+     "ja": "もみじといえば、もみじ饅頭。",
+     "en": "Speaking of maple leaves, it's momiji manju.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 65.5,
+     "end": 69.3,
+     "ja": "もみじ饅頭は、広島の名物です。",
+     "en": "Momiji manju is a specialty of Hiroshima.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 69.7,
+     "end": 113.1,
+     "ja": "とても美味しいお菓子です。",
+     "en": "It's a very delicious sweet.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 114.2,
+   "end": 133.3,
+   "title": "Autumn Flowers and Foods",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "food"
+   ],
+   "grammar": [
+    "〜といえば — speaking of",
+    "〜に合う — to go well with"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 114.6,
+     "end": 119.0,
+     "ja": "秋の花といえば、コスモス。",
+     "en": "Speaking of autumn flowers, it's cosmos.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 119.4,
+     "end": 125.2,
+     "ja": "秋の食べ物といえば、サンマの塩焼き。",
+     "en": "Speaking of autumn food, it's salt-grilled saury.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 125.4,
+     "end": 129.4,
+     "ja": "サンマの塩焼きも、とても美味しいです。",
+     "en": "Salt-grilled saury is also very delicious.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 129.8,
+     "end": 132.8,
+     "ja": "ビールによく合います。",
+     "en": "It goes great with beer.",
+     "speaker": "Noriko"
+    }
+   ]
+  }
+ ],
+ "videoId": "azRMokEhsOI",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

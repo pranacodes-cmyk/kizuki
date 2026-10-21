@@ -1,0 +1,118 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.0,
+   "end": 11.5,
+   "title": "Don't Blow Smoke in My Face",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "daily",
+    "romance"
+   ],
+   "grammar": [
+    "〜てくれる — doing something for me",
+    "〜てはだめ — must not do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.2,
+     "end": 2.0,
+     "ja": "髪も結んでないし",
+     "en": "Her hair's not tied up either...",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 2.3,
+     "end": 5.7,
+     "ja": "もしかして急いで来てくれたのかな～なんて",
+     "en": "Could it be she rushed over for me? Just thinking...",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 5.8,
+     "end": 6.8,
+     "ja": "どわっ！",
+     "en": "Whoa!",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 7.3,
+     "end": 8.8,
+     "ja": "ちょっと田山さん！",
+     "en": "Hey, Tayama-san!",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 8.9,
+     "end": 11.1,
+     "ja": "顔に吹きかけるのはダメでしょ！",
+     "en": "Blowing smoke in my face is uncalled for!",
+     "speaker": "Sasaki"
+    }
+   ]
+  },
+  {
+   "start": 15.8,
+   "end": 33.3,
+   "title": "I'm Not Telling You",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "romance"
+   ],
+   "grammar": [
+    "〜だけ — just / only",
+    "〜てあげる — do for someone",
+    "〜から — because / reason"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 16.2,
+     "end": 19.4,
+     "ja": "髪がこうなったのはだるかっただけ",
+     "en": "My hair is like this just because I was feeling lazy.",
+     "speaker": "Tayama"
+    },
+    {
+     "start": 20.4,
+     "end": 22.8,
+     "ja": "伝えてあげたのは…",
+     "en": "The reason I let you know is...",
+     "speaker": "Tayama"
+    },
+    {
+     "start": 24.8,
+     "end": 26.8,
+     "ja": "教えてあげない。",
+     "en": "I'm not telling.",
+     "speaker": "Tayama"
+    },
+    {
+     "start": 27.4,
+     "end": 30.4,
+     "ja": "今日、佐々木さん生意気だから。",
+     "en": "Because you're being cheeky today, Sasaki-san.",
+     "speaker": "Tayama"
+    },
+    {
+     "start": 31.8,
+     "end": 32.8,
+     "ja": "へ？",
+     "en": "Huh?",
+     "speaker": "Sasaki"
+    }
+   ]
+  }
+ ],
+ "videoId": "viWW5zp0YqA",
+ "pickTopics": [
+  "anime",
+  "work",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

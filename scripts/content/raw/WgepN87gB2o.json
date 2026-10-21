@@ -1,0 +1,166 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 105.5,
+   "end": 121.0,
+   "title": "Holding the Door Shut",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ちゃダメ — must not do",
+    "〜たら — if/when"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 106.0,
+     "end": 107.3,
+     "ja": "持って！",
+     "en": "Hold it!",
+     "speaker": "Child"
+    },
+    {
+     "start": 107.4,
+     "end": 108.8,
+     "ja": "やだ！だめ！",
+     "en": "No! Don't!",
+     "speaker": "Child"
+    },
+    {
+     "start": 108.9,
+     "end": 110.4,
+     "ja": "開けたらだよね。",
+     "en": "Right, if we open it...",
+     "speaker": "Child"
+    },
+    {
+     "start": 110.5,
+     "end": 112.4,
+     "ja": "開けちゃダメだよね。",
+     "en": "We can't open it, right?",
+     "speaker": "Child"
+    },
+    {
+     "start": 114.9,
+     "end": 116.0,
+     "ja": "開けてあげたら？",
+     "en": "Why don't you open it?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 116.1,
+     "end": 117.0,
+     "ja": "ダメ！",
+     "en": "No!",
+     "speaker": "Child"
+    },
+    {
+     "start": 117.1,
+     "end": 118.3,
+     "ja": "やーだ！",
+     "en": "No way!",
+     "speaker": "Child"
+    },
+    {
+     "start": 118.5,
+     "end": 120.2,
+     "ja": "絶対やだ、開けない！",
+     "en": "Definitely not, we won't open it!",
+     "speaker": "Child"
+    }
+   ]
+  },
+  {
+   "start": 155.8,
+   "end": 122.5,
+   "title": "Return My Eyeball!",
+   "level": "N4",
+   "topics": [
+    "family",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てくれ — please do",
+    "〜ないと困る — in trouble without"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 116.0,
+     "end": 117.2,
+     "ja": "目を返してくれよ。",
+     "en": "Give me back my eye.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 117.3,
+     "end": 118.7,
+     "ja": "あっ、向こうにある！ほら！",
+     "en": "Ah, it's over there! Look!",
+     "speaker": "Child"
+    },
+    {
+     "start": 118.8,
+     "end": 120.8,
+     "ja": "目がないと困るんだよ。",
+     "en": "I'm in trouble without my eyes.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 120.9,
+     "end": 122.8,
+     "ja": "目を返してくれよ。",
+     "en": "Give me back my eye.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 122.9,
+     "end": 125.0,
+     "ja": "目を返してくれよ〜！",
+     "en": "Give me back my eye!",
+     "speaker": "Dad"
+    },
+    {
+     "start": 125.1,
+     "end": 126.9,
+     "ja": "目を返せよ〜！",
+     "en": "Give it back!",
+     "speaker": "Dad"
+    },
+    {
+     "start": 127.1,
+     "end": 128.2,
+     "ja": "あれ？",
+     "en": "Huh?",
+     "speaker": "Dad"
+    },
+    {
+     "start": 128.3,
+     "end": 130.5,
+     "ja": "私は一体何をしてたんだ？",
+     "en": "What on earth was I doing?",
+     "speaker": "Dad"
+    },
+    {
+     "start": 131.2,
+     "end": 132.4,
+     "ja": "もっかいやる！",
+     "en": "Let's do it again!",
+     "speaker": "Child"
+    }
+   ]
+  }
+ ],
+ "videoId": "WgepN87gB2o",
+ "pickTopics": [
+  "family",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

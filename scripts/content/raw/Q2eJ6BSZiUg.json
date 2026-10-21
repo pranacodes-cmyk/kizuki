@@ -1,0 +1,204 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 54.1,
+   "end": 68.0,
+   "title": "Preparing for the Field Trip",
+   "level": "N5",
+   "topics": [
+    "school",
+    "daily",
+    "anime"
+   ],
+   "grammar": [
+    "〜だから — because",
+    "〜ないように — so as not to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 54.4,
+     "end": 57.3,
+     "ja": "明日は楽しい遠足だから、",
+     "en": "Tomorrow is a fun field trip, so...",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 57.3,
+     "end": 59.3,
+     "ja": "みんな、忘れ物をしないよう、",
+     "en": "...everyone, make sure not to forget anything,",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 59.3,
+     "end": 60.9,
+     "ja": "気を付けましょうね。",
+     "en": "...and be careful, okay?",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 61.2,
+     "end": 62.9,
+     "ja": "はーい！",
+     "en": "Okay!",
+     "speaker": "Students"
+    }
+   ]
+  },
+  {
+   "start": 711.5,
+   "end": 732.0,
+   "title": "Sharing the Rolled Sushi",
+   "level": "N4",
+   "topics": [
+    "food",
+    "friends",
+    "anime"
+   ],
+   "grammar": [
+    "〜ずつ — each / at a time",
+    "〜てあげる — doing for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 712.1,
+     "end": 713.8,
+     "ja": "みんな、一つずつ取って、",
+     "en": "Everyone, take one each,",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 714.0,
+     "end": 715.4,
+     "ja": "お礼よ。",
+     "en": "as my thanks.",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 715.5,
+     "end": 716.8,
+     "ja": "お礼なんて、",
+     "en": "You don't need to thank us...",
+     "speaker": "Shimajiro's friend"
+    },
+    {
+     "start": 716.9,
+     "end": 719.1,
+     "ja": "いいから。みみりんの気持ち。",
+     "en": "It's fine. It's a token of my gratitude.",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 719.5,
+     "end": 721.4,
+     "ja": "じゃ、遠慮なく。",
+     "en": "Well then, don't mind if I do.",
+     "speaker": "Torippi"
+    },
+    {
+     "start": 722.2,
+     "end": 724.3,
+     "ja": "いただきまーす！",
+     "en": "Thank you for the food!",
+     "speaker": "Shimajiro and friends"
+    },
+    {
+     "start": 726.8,
+     "end": 727.8,
+     "ja": "はい、どうぞ。",
+     "en": "Here, go ahead.",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 728.1,
+     "end": 729.0,
+     "ja": "う、うん。",
+     "en": "Uh, thanks.",
+     "speaker": "Elephant"
+    }
+   ]
+  },
+  {
+   "start": 834.0,
+   "end": 857.0,
+   "title": "Who Gets the Last Takoyaki?",
+   "level": "N4",
+   "topics": [
+    "food",
+    "friends",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ばいい — should / advice",
+    "〜ちゃう — finished / done completely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 834.5,
+     "end": 835.6,
+     "ja": "とりっぴい、",
+     "en": "Torippi,",
+     "speaker": "Gao-Gao"
+    },
+    {
+     "start": 835.6,
+     "end": 837.9,
+     "ja": "そこの電話で相談をどうぞ。",
+     "en": "please use that phone to consult.",
+     "speaker": "Gao-Gao"
+    },
+    {
+     "start": 839.2,
+     "end": 842.0,
+     "ja": "みんなでたこ焼きを食べてたんだけど、",
+     "en": "We were all eating takoyaki together,",
+     "speaker": "Torippi"
+    },
+    {
+     "start": 842.1,
+     "end": 844.7,
+     "ja": "最後に１個だけ残っちゃったんだ。",
+     "en": "but at the end, just one was left.",
+     "speaker": "Torippi"
+    },
+    {
+     "start": 844.8,
+     "end": 847.6,
+     "ja": "その１個、誰が食べればいいのかな？",
+     "en": "Who should eat that one piece?",
+     "speaker": "Torippi"
+    },
+    {
+     "start": 847.9,
+     "end": 849.2,
+     "ja": "うーん……よし。",
+     "en": "Hmm... alright.",
+     "speaker": "Gao-Gao"
+    },
+    {
+     "start": 853.3,
+     "end": 855.5,
+     "ja": "ね、これで解決だよ。",
+     "en": "See? That solves it.",
+     "speaker": "Gao-Gao"
+    },
+    {
+     "start": 855.7,
+     "end": 856.8,
+     "ja": "まあ、いっか。",
+     "en": "Well, I guess so.",
+     "speaker": "Torippi"
+    }
+   ]
+  }
+ ],
+ "videoId": "Q2eJ6BSZiUg",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

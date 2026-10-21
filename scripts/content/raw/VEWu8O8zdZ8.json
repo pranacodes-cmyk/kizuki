@@ -1,0 +1,175 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 421.0,
+   "end": 432.0,
+   "title": "Crossing Shibuya Scramble",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜ましょう — let's / shall we",
+    "〜ですね — confirming / seeking agreement"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 421.5,
+     "end": 423.5,
+     "ja": "スクランブルです！",
+     "en": "It's the scramble crossing!",
+     "speaker": "Mochi"
+    },
+    {
+     "start": 424.1,
+     "end": 425.5,
+     "ja": "おいで！",
+     "en": "Come on!",
+     "speaker": "Mochi"
+    },
+    {
+     "start": 426.0,
+     "end": 428.4,
+     "ja": "今日は人が少ないですね。",
+     "en": "There aren't many people today.",
+     "speaker": "Mochi"
+    },
+    {
+     "start": 428.8,
+     "end": 431.3,
+     "ja": "次は誰にインタビューしましょう？",
+     "en": "Who should we interview next?",
+     "speaker": "Mochi"
+    }
+   ]
+  },
+  {
+   "start": 603.0,
+   "end": 634.0,
+   "title": "You Can Speak Japanese?",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "school",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていた — past continuous action",
+    "〜くらい — approximately / about",
+    "〜れる/〜られる — potential form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 603.2,
+     "end": 605.4,
+     "ja": "え？！日本語話せるんですか？",
+     "en": "Wait, you can speak Japanese?",
+     "speaker": "Mochi"
+    },
+    {
+     "start": 605.6,
+     "end": 606.9,
+     "ja": "少しだけ。",
+     "en": "A little bit.",
+     "speaker": "Tim"
+    },
+    {
+     "start": 607.1,
+     "end": 608.7,
+     "ja": "めっちゃうまい！",
+     "en": "Very good!",
+     "speaker": "Mochi"
+    },
+    {
+     "start": 608.9,
+     "end": 611.2,
+     "ja": "どれくらい日本語勉強してたんですか？",
+     "en": "About how long have you studied Japanese?",
+     "speaker": "Mochi"
+    },
+    {
+     "start": 611.4,
+     "end": 621.8,
+     "ja": "まあ、まずは11歳の時、まあ、少し日本語を勉強していたけど、",
+     "en": "Well, first when I was 11 years old, I studied Japanese a bit, but",
+     "speaker": "Tim"
+    },
+    {
+     "start": 622.3,
+     "end": 631.2,
+     "ja": "まあ、大学の頃にも、もう３年くらい勉強していた。",
+     "en": "also when I was in university, I studied for about 3 years.",
+     "speaker": "Tim"
+    },
+    {
+     "start": 631.4,
+     "end": 633.4,
+     "ja": "多分５年くらい？",
+     "en": "Maybe around 5 years in total?",
+     "speaker": "Tim"
+    }
+   ]
+  },
+  {
+   "start": 716.0,
+   "end": 733.0,
+   "title": "Finding a Gachapon Shop",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜ました — polite past tense",
+    "〜もある — also exists"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 716.2,
+     "end": 718.5,
+     "ja": "新しい店を見つけました。",
+     "en": "I found a new shop.",
+     "speaker": "Mochi"
+    },
+    {
+     "start": 719.7,
+     "end": 722.2,
+     "ja": "ガチャポンの店です！",
+     "en": "It's a gachapon shop!",
+     "speaker": "Mochi"
+    },
+    {
+     "start": 724.4,
+     "end": 726.2,
+     "ja": "すごい、全部…",
+     "en": "Wow, all of this...",
+     "speaker": "Mochi"
+    },
+    {
+     "start": 726.4,
+     "end": 728.4,
+     "ja": "こっちも全部！",
+     "en": "This side too, all of it!",
+     "speaker": "Mochi"
+    },
+    {
+     "start": 730.8,
+     "end": 732.6,
+     "ja": "ハッピーターンある！",
+     "en": "They have Happy Turn!",
+     "speaker": "Mochi"
+    }
+   ]
+  }
+ ],
+ "videoId": "VEWu8O8zdZ8",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

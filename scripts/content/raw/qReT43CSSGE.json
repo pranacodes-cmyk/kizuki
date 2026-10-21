@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 47.0,
+   "end": 108.0,
+   "title": "How We Commute to University",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — when/after",
+    "〜たり〜たりする — doing things like A and B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 47.3,
+     "end": 50.8,
+     "ja": "寮から最寄り駅まで徒歩で行って、",
+     "en": "I walk from the dorm to the nearest station,",
+     "speaker": "A"
+    },
+    {
+     "start": 50.9,
+     "end": 54.6,
+     "ja": "電車を使って大学の最寄り駅まで着いたら、",
+     "en": "take the train to the university's nearest station,",
+     "speaker": "A"
+    },
+    {
+     "start": 54.8,
+     "end": 60.6,
+     "ja": "そこからはまた徒歩で、大学も山の上にあるので、また坂登りをしています。",
+     "en": "and then walk from there; since the university is on a hill, I climb up the slope again.",
+     "speaker": "A"
+    },
+    {
+     "start": 61.8,
+     "end": 67.7,
+     "ja": "私は電動自転車で上ったり下ったりを繰り返して大学に行きます。",
+     "en": "I go to university by electric bicycle, repeatedly going up and down the hills.",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 87.2,
+   "end": 108.5,
+   "title": "Favorite Dorm Meals",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ことがある — have occasion to",
+    "〜っていうか — or rather"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 87.5,
+     "end": 89.5,
+     "ja": "「カレー」です。",
+     "en": "Curry.",
+     "speaker": "A"
+    },
+    {
+     "start": 89.9,
+     "end": 93.0,
+     "ja": "朝ごはんに出てくる「アジの開き」です。",
+     "en": "The opened dried horse mackerel served at breakfast.",
+     "speaker": "B"
+    },
+    {
+     "start": 93.2,
+     "end": 97.4,
+     "ja": "焼き魚は自分で作ることがないので、それがすごく嬉しいです。",
+     "en": "I never make grilled fish myself, so I'm really glad to have that.",
+     "speaker": "B"
+    },
+    {
+     "start": 97.8,
+     "end": 101.2,
+     "ja": "一人暮らしっていうか上京してきて、",
+     "en": "Living on my own, or rather moving to Tokyo,",
+     "speaker": "A"
+    },
+    {
+     "start": 101.3,
+     "end": 108.3,
+     "ja": "誰かが作ったご飯の温かいものを食べられるっていうのが、すごい好きなところかなって思います。",
+     "en": "being able to eat warm meals prepared by someone else is something I really love.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 193.5,
+   "end": 212.0,
+   "title": "Big Bath vs. Shower",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜たい — want to",
+    "〜っていう — called / that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 194.0,
+     "end": 196.8,
+     "ja": "大浴場とシャワーがあるんですけど、",
+     "en": "There is a large communal bath and showers,",
+     "speaker": "B"
+    },
+    {
+     "start": 197.0,
+     "end": 205.5,
+     "ja": "何か疲れた時とか、授業で発表があって「今日は自分を労いたい」っていう時は、大浴場で広々と汗を流して、",
+     "en": "and when I'm tired or had a presentation in class and want to reward myself, I relax and sweat it out in the large bath.",
+     "speaker": "B"
+    },
+    {
+     "start": 206.0,
+     "end": 211.7,
+     "ja": "逆にバイト終わりとかで疲れて「早く寝たい」っていう時は、シャワーを使うっていう使い分けをしています。",
+     "en": "On the other hand, when I'm tired after a part-time job and just want to sleep quickly, I take a shower—so I switch between them.",
+     "speaker": "B"
+    }
+   ]
+  }
+ ],
+ "videoId": "qReT43CSSGE",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

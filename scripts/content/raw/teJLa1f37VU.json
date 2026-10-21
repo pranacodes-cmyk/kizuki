@@ -1,0 +1,149 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 8.8,
+   "end": 18.8,
+   "title": "Evacuation Order",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜中 — in the middle of",
+    "〜て — request / imperative form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.1,
+     "end": 12.7,
+     "ja": "目標はメインシャフトに侵入、降下中です。",
+     "en": "Target has entered the main shaft and is descending.",
+     "speaker": "Aoba"
+    },
+    {
+     "start": 13.0,
+     "end": 13.9,
+     "ja": "目的地は？",
+     "en": "Its destination?",
+     "speaker": "Misato"
+    },
+    {
+     "start": 14.0,
+     "end": 16.2,
+     "ja": "そのままセントラルドグマへ直進しています。",
+     "en": "It's heading straight for Central Dogma.",
+     "speaker": "Hyuga"
+    },
+    {
+     "start": 16.4,
+     "end": 18.7,
+     "ja": "ここに来るわ。総員退避、急いで！",
+     "en": "It's coming here. All personnel evacuate, hurry!",
+     "speaker": "Misato"
+    }
+   ]
+  },
+  {
+   "start": 132.0,
+   "end": 139.2,
+   "title": "Unit 01 Out of Power",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜も — also / even"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 132.3,
+     "end": 133.8,
+     "ja": "エネルギーが…消えた？",
+     "en": "The power... died?",
+     "speaker": "Shinji"
+    },
+    {
+     "start": 134.0,
+     "end": 137.4,
+     "ja": "初号機、活動限界です。予備も動きません！",
+     "en": "Unit 01 has reached its operating limit. Even the backup won't move!",
+     "speaker": "Maya"
+    },
+    {
+     "start": 137.8,
+     "end": 139.0,
+     "ja": "シンジ君…",
+     "en": "Shinji...",
+     "speaker": "Misato"
+    }
+   ]
+  },
+  {
+   "start": 221.4,
+   "end": 238.2,
+   "title": "Move, Eva!",
+   "level": "N4",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "動け — imperative form",
+    "〜なきゃ — if not / must",
+    "〜ちゃう — to end up doing completely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 221.6,
+     "end": 224.0,
+     "ja": "動け、動け、動け！",
+     "en": "Move, move, move!",
+     "speaker": "Shinji"
+    },
+    {
+     "start": 224.1,
+     "end": 227.4,
+     "ja": "動け、動け、動け、動け、動け、動け！",
+     "en": "Move, move, move, move, move, move!",
+     "speaker": "Shinji"
+    },
+    {
+     "start": 227.5,
+     "end": 230.3,
+     "ja": "動け、動け！動いてよ！",
+     "en": "Move, move! Please move!",
+     "speaker": "Shinji"
+    },
+    {
+     "start": 230.4,
+     "end": 234.0,
+     "ja": "今動かなきゃ、今やらなきゃ、みんな死んじゃうんだ！",
+     "en": "If it doesn't move now, if I don't do it now, everyone will die!",
+     "speaker": "Shinji"
+    },
+    {
+     "start": 234.2,
+     "end": 236.4,
+     "ja": "もうそんなの嫌なんだよ！",
+     "en": "I don't want that anymore!",
+     "speaker": "Shinji"
+    },
+    {
+     "start": 236.5,
+     "end": 238.1,
+     "ja": "だから、動いてよ！",
+     "en": "So please, move!",
+     "speaker": "Shinji"
+    }
+   ]
+  }
+ ],
+ "videoId": "teJLa1f37VU",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

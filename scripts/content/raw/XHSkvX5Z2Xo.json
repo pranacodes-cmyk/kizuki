@@ -1,0 +1,218 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.5,
+   "end": 26.8,
+   "title": "A Plea for Water in the Desert",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていない — haven't done",
+    "〜てくれ — please do (request)",
+    "〜よう — volitional form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.8,
+     "end": 7.0,
+     "ja": "ショートコント、砂漠。",
+     "en": "Short sketch: The Desert.",
+     "speaker": "Man"
+    },
+    {
+     "start": 7.4,
+     "end": 10.3,
+     "ja": "ああ、喉が渇いた。",
+     "en": "Ah, I'm so thirsty.",
+     "speaker": "Man"
+    },
+    {
+     "start": 10.7,
+     "end": 13.5,
+     "ja": "もう２日も水を飲んでいない。",
+     "en": "I haven't drunk any water for two days.",
+     "speaker": "Man"
+    },
+    {
+     "start": 13.8,
+     "end": 15.0,
+     "ja": "神様...",
+     "en": "God...",
+     "speaker": "Man"
+    },
+    {
+     "start": 15.1,
+     "end": 17.5,
+     "ja": "どうか俺に水を飲ましてくれ、お願いします！",
+     "en": "Please give me some water to drink, I beg you!",
+     "speaker": "Man"
+    },
+    {
+     "start": 20.3,
+     "end": 21.0,
+     "ja": "あっ！",
+     "en": "Ah!",
+     "speaker": "Man"
+    },
+    {
+     "start": 22.0,
+     "end": 23.7,
+     "ja": "私は神だ。",
+     "en": "I am God.",
+     "speaker": "God"
+    },
+    {
+     "start": 23.8,
+     "end": 24.5,
+     "ja": "えっ？",
+     "en": "Eh?",
+     "speaker": "Man"
+    },
+    {
+     "start": 24.6,
+     "end": 26.5,
+     "ja": "お前に水を与えよう。",
+     "en": "I shall give you water.",
+     "speaker": "God"
+    }
+   ]
+  },
+  {
+   "start": 62.8,
+   "end": 83.5,
+   "title": "The Fortune Teller's Warning",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜でしょう — polite conjecture",
+    "〜ば — conditional if",
+    "〜なさい — polite command"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 63.0,
+     "end": 65.5,
+     "ja": "ショートコント、占い師。",
+     "en": "Short sketch: The Fortune Teller.",
+     "speaker": "Man"
+    },
+    {
+     "start": 65.8,
+     "end": 69.2,
+     "ja": "あなたはこのままでは３年後には死ぬでしょう。",
+     "en": "At this rate, you will probably die in three years.",
+     "speaker": "Fortune Teller"
+    },
+    {
+     "start": 69.4,
+     "end": 73.2,
+     "ja": "もし死にたくなければ、このブレスレットを買いなさい。",
+     "en": "If you don't want to die, buy this bracelet.",
+     "speaker": "Fortune Teller"
+    },
+    {
+     "start": 73.5,
+     "end": 77.8,
+     "ja": "でないとあなたは確実に３年後に死んでしまいます。",
+     "en": "Otherwise, you will surely die in three years.",
+     "speaker": "Fortune Teller"
+    },
+    {
+     "start": 78.8,
+     "end": 80.2,
+     "ja": "何やお前！",
+     "en": "Who the heck are you?!",
+     "speaker": "Man"
+    },
+    {
+     "start": 80.5,
+     "end": 82.0,
+     "ja": "私は神だ。",
+     "en": "I am God.",
+     "speaker": "God"
+    },
+    {
+     "start": 82.2,
+     "end": 83.0,
+     "ja": "あ？",
+     "en": "Huh?",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 124.8,
+   "end": 149.8,
+   "title": "Are You Making Fun of Me?",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜続ける — to keep doing",
+    "〜ではない — negative assertion",
+    "〜のであれば — if it is the case that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 125.0,
+     "end": 132.8,
+     "ja": "お前は何度も何度も私のことを騙し続けているが、私のことを馬鹿にしているのか？",
+     "en": "You keep tricking me again and again; are you making fun of me?",
+     "speaker": "God A"
+    },
+    {
+     "start": 133.2,
+     "end": 135.0,
+     "ja": "そうではない。",
+     "en": "That is not so.",
+     "speaker": "God B"
+    },
+    {
+     "start": 135.5,
+     "end": 138.0,
+     "ja": "私のことを馬鹿にしているのだな？",
+     "en": "You are making fun of me, aren't you?",
+     "speaker": "God A"
+    },
+    {
+     "start": 138.5,
+     "end": 140.2,
+     "ja": "そうではない。",
+     "en": "That is not so.",
+     "speaker": "God B"
+    },
+    {
+     "start": 141.2,
+     "end": 144.2,
+     "ja": "もし気分を害したのであれば、",
+     "en": "If I have offended you,",
+     "speaker": "God B"
+    },
+    {
+     "start": 144.3,
+     "end": 149.3,
+     "ja": "その昔、我々が２人して倒したガルファンの真似をしてやろう。",
+     "en": "I shall do an impression of Galfan, whom the two of us defeated long ago.",
+     "speaker": "God B"
+    }
+   ]
+  }
+ ],
+ "videoId": "XHSkvX5Z2Xo",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

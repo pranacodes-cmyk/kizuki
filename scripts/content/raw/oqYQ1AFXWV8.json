@@ -1,0 +1,153 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 13.6,
+   "end": 28.5,
+   "title": "Summer Vacation Begins",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "anime"
+   ],
+   "grammar": [
+    "〜から — because",
+    "〜ちゃって — unintentionally did"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.9,
+     "end": 18.7,
+     "ja": "後でやるから、もう少し寝かせてよ。",
+     "en": "I'll do it later, so let me sleep a little longer.",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 19.3,
+     "end": 23.2,
+     "ja": "もう、夏休みだからって、すっかり怠けちゃって。",
+     "en": "Geez, just because it's summer vacation, you've gotten so lazy.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 24.3,
+     "end": 26.6,
+     "ja": "夏休み？",
+     "en": "Summer vacation?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 26.8,
+     "end": 28.3,
+     "ja": "そうだ、夏休みだ！",
+     "en": "That's right, it's summer vacation!",
+     "speaker": "Shimajiro"
+    }
+   ]
+  },
+  {
+   "start": 919.4,
+   "end": 935.5,
+   "title": "Expressing Gratitude",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜なくちゃ — must do",
+    "〜なら — if",
+    "〜って言う — to say that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 919.7,
+     "end": 922.2,
+     "ja": "へえ、おじいちゃんとおばあちゃんに？",
+     "en": "Huh, to your grandpa and grandma?",
+     "speaker": "Dog Boy"
+    },
+    {
+     "start": 922.7,
+     "end": 925.8,
+     "ja": "そうなんだ。どんなお礼がいいか考えなくっちゃ。",
+     "en": "Yeah. I have to think about what kind of thank-you would be good.",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 926.3,
+     "end": 930.3,
+     "ja": "ええ、簡単よ。みみりんなら「ありがとう」って言うわ。",
+     "en": "Eh, it's simple. If it were Mimirin, I'd say 'thank you.'",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 930.6,
+     "end": 931.7,
+     "ja": "ありがとう？",
+     "en": "Thank you?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 932.1,
+     "end": 935.4,
+     "ja": "うん、だってお礼って「ありがとう」って言うことでしょ？",
+     "en": "Yeah, because giving thanks means saying 'thank you,' right?",
+     "speaker": "Mimirin"
+    }
+   ]
+  },
+  {
+   "start": 2406.8,
+   "end": 2420.7,
+   "title": "A Secret About a Birthday",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "もうすぐ — soon",
+    "〜ね — seeking agreement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2407.1,
+     "end": 2410.2,
+     "ja": "ねえ、お母さん、もうすぐだよ。",
+     "en": "Hey, Mom, it's almost time.",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 2411.3,
+     "end": 2413.0,
+     "ja": "本当、もうすぐね。",
+     "en": "Really, almost time.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 2413.4,
+     "end": 2415.5,
+     "ja": "何？ もうすぐ？",
+     "en": "What? Almost time?",
+     "speaker": "Hana"
+    },
+    {
+     "start": 2417.0,
+     "end": 2420.2,
+     "ja": "あー、えっと、おやつの時間かな。",
+     "en": "Ah, um, snack time, I guess.",
+     "speaker": "Shimajiro"
+    }
+   ]
+  }
+ ],
+ "videoId": "oqYQ1AFXWV8",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

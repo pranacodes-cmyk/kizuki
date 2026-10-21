@@ -1,0 +1,185 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 369.5,
+   "end": 398.5,
+   "title": "Sea Turtles Belong in the Ocean",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜ような — like / such as",
+    "〜かもしれない — might / may",
+    "〜たら — if / when conditional"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 370.0,
+     "end": 374.0,
+     "ja": "ウミガメは家で飼えるような生き物じゃないんだよ、しまじろう。",
+     "en": "Sea turtles aren't creatures you can keep at home, Shimajiro.",
+     "speaker": "Father"
+    },
+    {
+     "start": 374.8,
+     "end": 378.2,
+     "ja": "だって、かん太だってカメを飼ってるよ！",
+     "en": "But Kanta is keeping a turtle too!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 378.5,
+     "end": 381.8,
+     "ja": "ペットのカメとウミガメは違うのよ。",
+     "en": "A pet turtle and a sea turtle are different.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 382.0,
+     "end": 388.5,
+     "ja": "でも、タータンを海に返したらいろんな大変な目にあって死んじゃうかもしれないよ！",
+     "en": "But if we return Tartan to the sea, he might face hard times and die!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 391.5,
+     "end": 397.3,
+     "ja": "うちに連れて帰ったりしたら、もっと早く死んでしまうかもしれないわよ。",
+     "en": "If we bring him home, he might die even sooner.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 397.8,
+     "end": 398.8,
+     "ja": "ええっ？",
+     "en": "What?",
+     "speaker": "Shimajiro"
+    }
+   ]
+  },
+  {
+   "start": 547.0,
+   "end": 566.5,
+   "title": "Cooling Down With a Good Scare",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "friends",
+    "comedy"
+   ],
+   "grammar": [
+    "〜んじゃないかな — wonder if / shouldn't it be",
+    "〜と — when / whenever (natural consequence)",
+    "〜ものだ — that's the way it is / naturally"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 547.2,
+     "end": 551.8,
+     "ja": "でもどうだい？少しは涼しくなったんじゃないかな？",
+     "en": "Well, how was it? Didn't you cool down a bit?",
+     "speaker": "Gao Gao"
+    },
+    {
+     "start": 552.3,
+     "end": 554.0,
+     "ja": "え？そういえば…",
+     "en": "Huh? Come to think of it...",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 554.2,
+     "end": 557.6,
+     "ja": "なんだかヒヤッとして暑いのを忘れちゃったかも。",
+     "en": "I got chilled and kind of forgot about the heat.",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 558.2,
+     "end": 563.5,
+     "ja": "そうだろう。怖い思いをすると、背中が寒く感じるものなんだ。",
+     "en": "Right? When you're scared, your back naturally feels cold.",
+     "speaker": "Gao Gao"
+    },
+    {
+     "start": 563.9,
+     "end": 566.3,
+     "ja": "これぞエアコン要らずの大発明！",
+     "en": "This is my great invention that needs no air conditioning!",
+     "speaker": "Gao Gao"
+    }
+   ]
+  },
+  {
+   "start": 912.5,
+   "end": 935.0,
+   "title": "Praising Kanta for His Bravery",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていたのに — even though / despite",
+    "〜ために — in order to",
+    "〜てくれた — did something for me"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 912.6,
+     "end": 916.8,
+     "ja": "ちょっとやりすぎだったかな？でも、かん太くんには驚いたよ。",
+     "en": "Maybe I went a bit too far? But Kanta really surprised me.",
+     "speaker": "Gao Gao"
+    },
+    {
+     "start": 917.1,
+     "end": 923.2,
+     "ja": "あれだけ怖がっていたのに、友達を助けるために怪物に１人で立ち向かうとは、",
+     "en": "Even though you were so scared, confronting a monster all alone to save a friend...",
+     "speaker": "Gao Gao"
+    },
+    {
+     "start": 923.4,
+     "end": 925.1,
+     "ja": "大した勇気だ！",
+     "en": "That takes immense courage!",
+     "speaker": "Gao Gao"
+    },
+    {
+     "start": 925.5,
+     "end": 927.2,
+     "ja": "そんなあ…",
+     "en": "Aw, shucks...",
+     "speaker": "Kanta"
+    },
+    {
+     "start": 927.7,
+     "end": 933.2,
+     "ja": "うん！僕、かん太が助けに来てくれたとき、すっごく嬉しかったよ！",
+     "en": "Yeah! I was so happy when you came to rescue me, Kanta!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 933.4,
+     "end": 934.5,
+     "ja": "ありがとう！",
+     "en": "Thank you!",
+     "speaker": "Shimajiro"
+    }
+   ]
+  }
+ ],
+ "videoId": "-G5XSrZi-fo",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,183 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 9.8,
+   "title": "Going Far Away Together",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "romance"
+   ],
+   "grammar": [
+    "〜そう — looks like / seems like",
+    "〜だよね — seeking confirmation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 4.1,
+     "ja": "ずっと二人で遠くに行くの。ずっと遠くに。",
+     "en": "Just the two of us going far away forever. Far, far away.",
+     "speaker": "Mai"
+    },
+    {
+     "start": 4.9,
+     "end": 7.0,
+     "ja": "すげえ楽しそう。",
+     "en": "That sounds like a lot of fun.",
+     "speaker": "Sakuta"
+    },
+    {
+     "start": 7.3,
+     "end": 9.4,
+     "ja": "でも、冗談だよね、麻衣さん。",
+     "en": "But you're joking, right, Mai-san?",
+     "speaker": "Sakuta"
+    }
+   ]
+  },
+  {
+   "start": 25.0,
+   "end": 45.6,
+   "title": "Please Stay With Me",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "romance"
+   ],
+   "grammar": [
+    "〜てよ — casual request / demand",
+    "〜まで — until",
+    "〜ところまで — as far as (one can)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 25.2,
+     "end": 27.0,
+     "ja": "私は咲太の何？",
+     "en": "What am I to you, Sakuta?",
+     "speaker": "Mai"
+    },
+    {
+     "start": 27.5,
+     "end": 28.9,
+     "ja": "恋人。",
+     "en": "My girlfriend.",
+     "speaker": "Sakuta"
+    },
+    {
+     "start": 29.3,
+     "end": 33.2,
+     "ja": "だから一緒に背負う。翔子ちゃんの命を。",
+     "en": "Then I'll bear it with you. Shoko-chan's life.",
+     "speaker": "Mai"
+    },
+    {
+     "start": 33.5,
+     "end": 36.3,
+     "ja": "だから、生きることを背負うから！",
+     "en": "So, I'll bear the burden of living, too!",
+     "speaker": "Mai"
+    },
+    {
+     "start": 36.5,
+     "end": 39.2,
+     "ja": "お願いだからずっとこのまま一緒にいて！",
+     "en": "Please, just stay together with me like this!",
+     "speaker": "Mai"
+    },
+    {
+     "start": 39.3,
+     "end": 42.1,
+     "ja": "クリスマスが終わるまで私のそばにいて！",
+     "en": "Stay by my side until Christmas is over!",
+     "speaker": "Mai"
+    },
+    {
+     "start": 42.2,
+     "end": 45.3,
+     "ja": "電車に乗って、行けるところまで行ってよ！",
+     "en": "Get on a train and let's go as far as we can!",
+     "speaker": "Mai"
+    }
+   ]
+  },
+  {
+   "start": 145.0,
+   "end": 203.5,
+   "title": "I Don't Want You to Hate Me",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "romance"
+   ],
+   "grammar": [
+    "〜たくない — don't want to",
+    "〜られる — passive voice",
+    "〜って誓う — swear that ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 145.4,
+     "end": 148.8,
+     "ja": "僕は、ずっと麻衣さんが好きだから。",
+     "en": "Because I'll always love you, Mai-san.",
+     "speaker": "Sakuta"
+    },
+    {
+     "start": 149.0,
+     "end": 150.5,
+     "ja": "嘘つき。",
+     "en": "Liar.",
+     "speaker": "Mai"
+    },
+    {
+     "start": 150.6,
+     "end": 152.3,
+     "ja": "ずっと好きだって誓います。",
+     "en": "I swear that I'll love you forever.",
+     "speaker": "Sakuta"
+    },
+    {
+     "start": 152.5,
+     "end": 154.5,
+     "ja": "咲太の嘘つき。",
+     "en": "You're a liar, Sakuta.",
+     "speaker": "Mai"
+    },
+    {
+     "start": 155.2,
+     "end": 158.0,
+     "ja": "でも、嘘つきは私だ。",
+     "en": "But I'm the liar.",
+     "speaker": "Mai"
+    },
+    {
+     "start": 158.2,
+     "end": 200.7,
+     "ja": "咲太に嫌われたくない。",
+     "en": "I don't want you to hate me, Sakuta.",
+     "speaker": "Mai"
+    },
+    {
+     "start": 200.9,
+     "end": 203.2,
+     "ja": "嫌われたくないよ。",
+     "en": "I don't want you to hate me...",
+     "speaker": "Mai"
+    }
+   ]
+  }
+ ],
+ "videoId": "XDpn_r3ZsBM",
+ "pickTopics": [
+  "anime",
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,244 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 9.5,
+   "end": 36.3,
+   "title": "Explaining It from the Beginning",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ていく — following along / progressive",
+    "〜ちゃう — accidental or regrettable action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.5,
+     "end": 12.0,
+     "ja": "ちょっとごめん。全然話についていけてないんだけど、",
+     "en": "Sorry for a second. I can't follow your story at all,",
+     "speaker": "Officer"
+    },
+    {
+     "start": 12.0,
+     "end": 15.2,
+     "ja": "これってこの３日間に起きた事件の内容のこと話してるんだよね？",
+     "en": "are you talking about the incident that happened over these last three days?",
+     "speaker": "Officer"
+    },
+    {
+     "start": 15.3,
+     "end": 17.5,
+     "ja": "そうだよ。さっきからずっとそのこと説明してるじゃん。",
+     "en": "Yeah. That's what I've been explaining this whole time.",
+     "speaker": "Chiharu"
+    },
+    {
+     "start": 17.5,
+     "end": 19.3,
+     "ja": "ごめん、分かった、ごめんごめん、そうだよね。",
+     "en": "Sorry, got it, my bad, that makes sense.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 18.5,
+     "end": 20.3,
+     "ja": "何の話してると思ってたの？",
+     "en": "What did you think I was talking about?",
+     "speaker": "Chiharu"
+    },
+    {
+     "start": 20.5,
+     "end": 25.1,
+     "ja": "改めて確認なんだけど、その話がマキナちゃんがこうなっちゃった理由に繋がるんだよね？",
+     "en": "Just to double-check, this leads into why Makina-chan ended up like this, right?",
+     "speaker": "Officer"
+    },
+    {
+     "start": 28.9,
+     "end": 30.0,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Chiharu"
+    },
+    {
+     "start": 33.3,
+     "end": 35.3,
+     "ja": "もう一回最初から説明してくれる？",
+     "en": "Could you explain it from the beginning one more time?",
+     "speaker": "Officer"
+    },
+    {
+     "start": 35.0,
+     "end": 36.1,
+     "ja": "えーー！",
+     "en": "What?!",
+     "speaker": "Chiharu"
+    }
+   ]
+  },
+  {
+   "start": 145.4,
+   "end": 171.2,
+   "title": "Community Service Sentence",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "〜て償う — make amends by doing",
+    "〜くらい — about / approximately"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 145.5,
+     "end": 150.3,
+     "ja": "要は刑務所パンパンだから代わりに社会奉仕活動して償えってことでしょ？",
+     "en": "Basically, the prison is packed, so we have to atone through community service instead, right?",
+     "speaker": "Makina"
+    },
+    {
+     "start": 150.5,
+     "end": 152.8,
+     "ja": "ああ、そういうことなんですけど…",
+     "en": "Ah, well, that is correct, but...",
+     "speaker": "Officer"
+    },
+    {
+     "start": 152.8,
+     "end": 155.2,
+     "ja": "最初からそう伝えろよ。どんだけ文字必要なんだよ。",
+     "en": "Just say that from the start. How many words do you need to explain it?",
+     "speaker": "Kanata"
+    },
+    {
+     "start": 155.3,
+     "end": 156.9,
+     "ja": "うるさいです。静かに。",
+     "en": "Quiet down. Be silent.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 157.0,
+     "end": 158.7,
+     "ja": "何か質問ありますか？",
+     "en": "Does anyone have any questions?",
+     "speaker": "Officer"
+    },
+    {
+     "start": 158.8,
+     "end": 159.5,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Chiharu"
+    },
+    {
+     "start": 159.5,
+     "end": 160.7,
+     "ja": "はい、九条さん。",
+     "en": "Yes, Ms. Kujo.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 160.7,
+     "end": 163.9,
+     "ja": "この奉仕活動ってどんくらいかかる感じですか？",
+     "en": "About how long does this community service usually take?",
+     "speaker": "Chiharu"
+    },
+    {
+     "start": 164.2,
+     "end": 166.7,
+     "ja": "そうですね、いつもは大体１週間くらいで…",
+     "en": "Well, usually it takes about a week to...",
+     "speaker": "Officer"
+    },
+    {
+     "start": 166.5,
+     "end": 167.8,
+     "ja": "はあ！？１週間！？",
+     "en": "What?! A week?!",
+     "speaker": "Kanata"
+    },
+    {
+     "start": 168.8,
+     "end": 170.9,
+     "ja": "黙れ！黙れ！",
+     "en": "Shut up! Quiet!",
+     "speaker": "Officer"
+    }
+   ]
+  },
+  {
+   "start": 185.0,
+   "end": 209.8,
+   "title": "Welcome to the Milky Subway",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "travel"
+   ],
+   "grammar": [
+    "〜と呼ばれる — to be called",
+    "〜てもらう — to have someone do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 185.1,
+     "end": 189.5,
+     "ja": "今目の前にあるのは惑星間走行列車、通称ミルキー・サブウェイ。",
+     "en": "What is before your eyes now is an interplanetary train, commonly known as the Milky Subway.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 189.6,
+     "end": 192.8,
+     "ja": "正式名称はAM24って呼ばれてます。",
+     "en": "Its official designation is AM24.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 193.0,
+     "end": 197.3,
+     "ja": "地球歴72年にタイタン工業が作って、それ以来中部鉄道が運用してます。",
+     "en": "Built by Titan Industries in Earth Year 72, it has been operated by Chubu Railway ever since.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 197.7,
+     "end": 201.8,
+     "ja": "ただご覧の通り、長いこと使われてる影響で非常に汚いです。",
+     "en": "However, as you can see, because it's been used for so long, it is extremely filthy.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 202.0,
+     "end": 205.4,
+     "ja": "なので本日皆さんには、この車両の清掃をやってもらいます。",
+     "en": "Therefore, today you will all be cleaning this train car.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 205.8,
+     "end": 209.5,
+     "ja": "ミルキー・サブウェイの掃除、これが皆さんの今回の社会奉仕活動です。",
+     "en": "Cleaning the Milky Subway—this is your community service for this assignment.",
+     "speaker": "Officer"
+    }
+   ]
+  }
+ ],
+ "videoId": "iHd7eWUXuLU",
+ "pickTopics": [
+  "anime",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

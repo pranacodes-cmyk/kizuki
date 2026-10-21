@@ -1,0 +1,227 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 112.0,
+   "end": 133.5,
+   "title": "Reporting an Issue to the Manager",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜なんですが — softening introduction",
+    "〜との — indirect quotation (that/saying that)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 112.2,
+     "end": 113.9,
+     "ja": "お疲れ様です。",
+     "en": "Thank you for your hard work.",
+     "speaker": "Student"
+    },
+    {
+     "start": 113.9,
+     "end": 116.0,
+     "ja": "部長、今ちょっとよろしいでしょうか？",
+     "en": "Manager, do you have a moment right now?",
+     "speaker": "Student"
+    },
+    {
+     "start": 116.2,
+     "end": 117.6,
+     "ja": "あ、はい、どうぞ。",
+     "en": "Ah, yes, go ahead.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 118.7,
+     "end": 121.3,
+     "ja": "あの、ご報告なんですが、",
+     "en": "Um, regarding a report,",
+     "speaker": "Student"
+    },
+    {
+     "start": 122.5,
+     "end": 125.7,
+     "ja": "実は、東京チョコレートから、",
+     "en": "actually, from Tokyo Chocolate,",
+     "speaker": "Student"
+    },
+    {
+     "start": 125.7,
+     "end": 131.5,
+     "ja": "納入したカカオの中に異物が入っているとのクレームがありまして、",
+     "en": "we received a complaint that there was foreign matter in the delivered cacao,",
+     "speaker": "Student"
+    },
+    {
+     "start": 131.7,
+     "end": 133.0,
+     "ja": "ええ。",
+     "en": "I see.",
+     "speaker": "Teacher"
+    }
+   ]
+  },
+  {
+   "start": 168.0,
+   "end": 197.0,
+   "title": "Asking for Approval in the Workplace",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜と思います — I think / intend to",
+    "〜ておく — do in advance"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 168.3,
+     "end": 170.0,
+     "ja": "ですので、",
+     "en": "Therefore,",
+     "speaker": "Student"
+    },
+    {
+     "start": 170.0,
+     "end": 174.6,
+     "ja": "ブラジルのメーカーに早速オーダーをしたいと思いますが、",
+     "en": "I would like to place an order with the Brazilian maker right away,",
+     "speaker": "Student"
+    },
+    {
+     "start": 174.6,
+     "end": 176.3,
+     "ja": "よろしいでしょうか？",
+     "en": "would that be alright?",
+     "speaker": "Student"
+    },
+    {
+     "start": 176.9,
+     "end": 180.6,
+     "ja": "そうですね。まあちょっと先方もご立腹ということなので、",
+     "en": "Well, since the client is also quite upset,",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 180.7,
+     "end": 184.2,
+     "ja": "すぐに発注してもらってもいいですか？",
+     "en": "could you place the order immediately?",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 184.9,
+     "end": 189.6,
+     "ja": "あ、はい。注文書はもう作っておきましたので。",
+     "en": "Ah, yes. I have already prepared the purchase order.",
+     "speaker": "Student"
+    },
+    {
+     "start": 190.3,
+     "end": 192.7,
+     "ja": "オッケーです。さすがベアタさんですね。",
+     "en": "Okay. As expected of you, Beata-san.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 193.0,
+     "end": 194.9,
+     "ja": "じゃあ、よろしくお願いします。",
+     "en": "Well then, please take care of it.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 195.5,
+     "end": 196.8,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Student"
+    }
+   ]
+  },
+  {
+   "start": 216.5,
+   "end": 250.5,
+   "title": "What Does Hame o Hazusu Mean?",
+   "level": "N2",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜方です — tend to be / usually",
+    "〜ちゃう — do completely / unintentionally"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 216.7,
+     "end": 223.0,
+     "ja": "ラスト。友達と騒いでいるときでも、あまり羽目を外さない方です。",
+     "en": "Last one. Even when partying with friends, I tend not to cut loose too much.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 224.2,
+     "end": 227.3,
+     "ja": "羽目を外さない？羽目と言う…",
+     "en": "'Hame o hazusanai'? What does 'hame' mean...",
+     "speaker": "Student"
+    },
+    {
+     "start": 227.4,
+     "end": 230.0,
+     "ja": "羽目を外すって聞いたことありますか？",
+     "en": "Have you heard the phrase 'hame o hazusu'?",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 230.1,
+     "end": 232.0,
+     "ja": "いいえ。",
+     "en": "No.",
+     "speaker": "Student"
+    },
+    {
+     "start": 233.0,
+     "end": 237.8,
+     "ja": "「今日は親がいないから思いっきり羽目を外しちゃおうか」とか、",
+     "en": "'Our parents aren't home today, so should we really cut loose?' or something like that,",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 238.2,
+     "end": 244.3,
+     "ja": "羽目を外すっていうのは、自分の枠を外しちゃうっていう。",
+     "en": "'Hame o hazusu' means letting go of your own inhibitions.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 245.1,
+     "end": 249.5,
+     "ja": "はい、はい、はい。自由に、自由にするということ？",
+     "en": "Ah yes, yes. Does it mean to be free, to act freely?",
+     "speaker": "Student"
+    },
+    {
+     "start": 249.6,
+     "end": 250.4,
+     "ja": "そう。",
+     "en": "Right.",
+     "speaker": "Teacher"
+    }
+   ]
+  }
+ ],
+ "videoId": "lP87ZgYXyeo",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

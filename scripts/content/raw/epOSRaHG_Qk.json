@@ -1,0 +1,200 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.7,
+   "end": 101.8,
+   "title": "Saying Goodnight",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily",
+    "anime"
+   ],
+   "grammar": [
+    "〜なさい — command/imperative",
+    "〜てね — gentle request"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 45.0,
+     "end": 47.0,
+     "ja": "おやすみ、ペッパにジョージ。",
+     "en": "Good night, Peppa and George.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 47.0,
+     "end": 49.3,
+     "ja": "おやすみなさい。よく寝てね。",
+     "en": "Good night. Sleep well.",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 49.3,
+     "end": 51.5,
+     "ja": "おやすみなさい、マミー。",
+     "en": "Good night, Mummy.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 51.5,
+     "end": 53.0,
+     "ja": "おやすみなさい、ダディ。",
+     "en": "Good night, Daddy.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 53.3,
+     "end": 56.0,
+     "ja": "なんて可愛らしいんでしょう。",
+     "en": "Aren't they so sweet?",
+     "speaker": "Grandma Pig"
+    },
+    {
+     "start": 56.0,
+     "end": 58.0,
+     "ja": "ええ、すぐに眠るのよ。",
+     "en": "Yes, they'll be asleep in no time.",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 58.0,
+     "end": 59.2,
+     "ja": "はい、マミー。",
+     "en": "Yes, Mummy.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 59.3,
+     "end": 61.3,
+     "ja": "本当にいい子たちだこと。",
+     "en": "What good little ones they are.",
+     "speaker": "Grandma Pig"
+    }
+   ]
+  },
+  {
+   "start": 299.8,
+   "end": 315.8,
+   "title": "Can We Watch TV?",
+   "level": "N4",
+   "topics": [
+    "family",
+    "daily",
+    "anime"
+   ],
+   "grammar": [
+    "〜なきゃいけない — must / have to",
+    "〜てもいい — asking for permission",
+    "〜かもしれない — might / may"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 300.2,
+     "end": 302.0,
+     "ja": "グランマピッグ。",
+     "en": "Grandma Pig.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 302.0,
+     "end": 305.4,
+     "ja": "ペッパ、ジョージ、もう寝てなきゃいけない時間でしょ？",
+     "en": "Peppa, George, aren't you supposed to be asleep by now?",
+     "speaker": "Grandma Pig"
+    },
+    {
+     "start": 305.4,
+     "end": 307.7,
+     "ja": "ジョージも私も眠くないの。",
+     "en": "Neither George nor I are sleepy.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 307.7,
+     "end": 310.0,
+     "ja": "一緒にテレビ見てもいい？",
+     "en": "Can we watch television too?",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 310.0,
+     "end": 314.0,
+     "ja": "そうね。少しテレビを見ていたら眠くなるかもしれないわね。",
+     "en": "Well, maybe watching a little television will make you sleepy.",
+     "speaker": "Grandma Pig"
+    },
+    {
+     "start": 314.0,
+     "end": 315.3,
+     "ja": "やったー！",
+     "en": "Yay!",
+     "speaker": "Peppa"
+    }
+   ]
+  },
+  {
+   "start": 329.7,
+   "end": 344.7,
+   "title": "Throw Me in the Air!",
+   "level": "N4",
+   "topics": [
+    "family",
+    "fun",
+    "anime"
+   ],
+   "grammar": [
+    "〜て — casual request",
+    "〜ずつ — each / at a time",
+    "〜たもんだ — exclamation of surprise"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 330.1,
+     "end": 332.3,
+     "ja": "グランパピッグ、ねえねえ、あれやって！",
+     "en": "Grandpa Pig, hey, do that game!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 332.3,
+     "end": 335.0,
+     "ja": "私を放り投げてキャッチするの。",
+     "en": "Throw me up and catch me.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 335.0,
+     "end": 338.0,
+     "ja": "ああ、いいぞ。だが１回ずつだけだぞ。",
+     "en": "Oh, all right. But only once each, okay?",
+     "speaker": "Grandpa Pig"
+    },
+    {
+     "start": 338.8,
+     "end": 340.5,
+     "ja": "そーれ！",
+     "en": "Up you go!",
+     "speaker": "Grandpa Pig"
+    },
+    {
+     "start": 341.0,
+     "end": 344.2,
+     "ja": "いやあ、随分と重くなったもんだ。",
+     "en": "My, you've gotten quite heavy.",
+     "speaker": "Grandpa Pig"
+    }
+   ]
+  }
+ ],
+ "videoId": "epOSRaHG_Qk",
+ "pickTopics": [
+  "anime",
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

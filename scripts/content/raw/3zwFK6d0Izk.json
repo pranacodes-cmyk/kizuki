@@ -1,0 +1,213 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 35.8,
+   "end": 63.8,
+   "title": "Daddy Pig's Glasses",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜と — conditional when/if",
+    "〜にとって — for / to",
+    "〜てしまう — unintended action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 36.0,
+     "end": 38.6,
+     "ja": "ダディピッグはメガネをかけています。",
+     "en": "Daddy Pig wears glasses.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 39.0,
+     "end": 43.5,
+     "ja": "目が良くないので、物がはっきり見えないのです。",
+     "en": "His eyesight isn't good, so he can't see things clearly.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 44.0,
+     "end": 48.7,
+     "ja": "メガネをかけると、どんな物でもはっきりと見えます。",
+     "en": "When he wears his glasses, he can see everything clearly.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 49.2,
+     "end": 52.3,
+     "ja": "でも、メガネを外すと…",
+     "en": "But when he takes them off...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 53.1,
+     "end": 55.4,
+     "ja": "ぼやけてしまいます。",
+     "en": "Everything gets blurry.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 55.7,
+     "end": 59.0,
+     "ja": "何もかもがぼんやりとしか見えません。",
+     "en": "He can only see things as a blur.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 59.5,
+     "end": 63.8,
+     "ja": "ダディピッグにとって、メガネはとても大切なものです。",
+     "en": "To Daddy Pig, his glasses are very important.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 149.0,
+   "end": 212.8,
+   "title": "Who Took Daddy's Glasses?",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜てあげる — to do for someone",
+    "〜ば — if conditional",
+    "〜なんか — such as / like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 149.4,
+     "end": 152.2,
+     "ja": "誰がダディのメガネを持って行ったんだ？",
+     "en": "Who took my glasses?",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 152.6,
+     "end": 155.3,
+     "ja": "最後に外したのはどこだったか覚えてる？",
+     "en": "Do you remember where you took them off last?",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 155.8,
+     "end": 158.7,
+     "ja": "外したメガネは必ずポケットにしまうんだよ。",
+     "en": "Whenever I take them off, I always put them in my pocket.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 158.9,
+     "end": 201.0,
+     "ja": "なのに入ってないんだ。",
+     "en": "Yet they aren't in there.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 201.3,
+     "end": 204.6,
+     "ja": "ダディ、私たちが探すの手伝うよ！",
+     "en": "Daddy, we'll help you look for them!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 205.1,
+     "end": 207.5,
+     "ja": "それがいいわ、ペッパ。",
+     "en": "Good idea, Peppa.",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 207.5,
+     "end": 209.5,
+     "ja": "メガネを見つけてあげれば、ダディのイライラも収まるし。",
+     "en": "If we find his glasses, Daddy won't be so grumpy anymore.",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 209.9,
+     "end": 212.3,
+     "ja": "イライラなんかしちゃいないぞ。",
+     "en": "I'm not grumpy at all.",
+     "speaker": "Daddy Pig"
+    }
+   ]
+  },
+  {
+   "start": 400.6,
+   "end": 424.0,
+   "title": "Found the Glasses!",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "comedy",
+    "family"
+   ],
+   "grammar": [
+    "〜の下 — under / beneath",
+    "〜たら — speaking of / exasperation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 401.0,
+     "end": 404.2,
+     "ja": "ここにあった！ダディのメガネ！",
+     "en": "They're here! Daddy's glasses!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 405.6,
+     "end": 409.2,
+     "ja": "ダディピッグ、あなたのお尻の下にあったのね。",
+     "en": "Daddy Pig, they were underneath your bottom.",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 410.0,
+     "end": 411.8,
+     "ja": "なんと！",
+     "en": "Good grief!",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 412.5,
+     "end": 414.3,
+     "ja": "ダディったら！",
+     "en": "Silly Daddy!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 416.8,
+     "end": 419.4,
+     "ja": "なんでこんな所に？",
+     "en": "How on earth did they get there?",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 420.6,
+     "end": 423.4,
+     "ja": "本当不思議よね。",
+     "en": "It's quite a mystery, isn't it?",
+     "speaker": "Mummy Pig"
+    }
+   ]
+  }
+ ],
+ "videoId": "3zwFK6d0Izk",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

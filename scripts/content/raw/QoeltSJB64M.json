@@ -1,0 +1,10 @@
+{
+ "speech": "none",
+ "clips": [],
+ "videoId": "QoeltSJB64M",
+ "pickTopics": [
+  "anime",
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

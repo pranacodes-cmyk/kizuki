@@ -1,0 +1,160 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 121.0,
+   "end": 142.5,
+   "title": "How Are You Doing in Japanese",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていた — past continuous",
+    "〜と同じ — the same as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 121.3,
+     "end": 125.5,
+     "ja": "「元気にしていたか？」とジャンボが質問しました。",
+     "en": "Jumbo asked, \"Have you been doing well?\"",
+     "speaker": "Miro"
+    },
+    {
+     "start": 126.0,
+     "end": 128.8,
+     "ja": "つまり「元気ですか？」と同じですよね。",
+     "en": "In other words, it's the same as \"How are you?\", right?",
+     "speaker": "Miro"
+    },
+    {
+     "start": 129.0,
+     "end": 131.8,
+     "ja": "「元気ですか？」「大丈夫ですか？」と同じです。",
+     "en": "It's the same as \"How are you?\" or \"Are you doing well?\"",
+     "speaker": "Miro"
+    },
+    {
+     "start": 132.0,
+     "end": 136.8,
+     "ja": "でも、よつばは答えませんでしたよね？答えませんでした。",
+     "en": "However, Yotsuba didn't answer, did she? She didn't answer.",
+     "speaker": "Miro"
+    },
+    {
+     "start": 137.5,
+     "end": 142.2,
+     "ja": "なんか「うあー、やめろー」だけを言いましたよね。",
+     "en": "She only said something like, \"Whoa, stop it!\", right?",
+     "speaker": "Miro"
+    }
+   ]
+  },
+  {
+   "start": 299.7,
+   "end": 329.0,
+   "title": "Explaining the Phrase While Not Seeing You",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "daily"
+   ],
+   "grammar": [
+    "〜うちに — while / before",
+    "〜になる — to become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 300.0,
+     "end": 305.2,
+     "ja": "「ジャンボ、しばらく見ないうちにまた大きくなった！」と言っています。",
+     "en": "She says, \"Jumbo, you got even bigger while I haven't seen you!\"",
+     "speaker": "Miro"
+    },
+    {
+     "start": 305.8,
+     "end": 313.6,
+     "ja": "そう、「しばらく見ないうちに」、つまりよつばとジャンボと、ちょっと久しぶりに会ってないですよね。",
+     "en": "Right, \"while not seeing you for a while\"—meaning Yotsuba and Jumbo haven't met in quite some time, right?",
+     "speaker": "Miro"
+    },
+    {
+     "start": 314.5,
+     "end": 317.3,
+     "ja": "ちょっと時間が長くなりましたね。",
+     "en": "A good amount of time has passed.",
+     "speaker": "Miro"
+    },
+    {
+     "start": 317.8,
+     "end": 325.5,
+     "ja": "そう、じゃあしばらく見ないとき、見ないとき、ジャンボがまた大きくなりましたね。",
+     "en": "So, when she hadn't seen him for a while, Jumbo got even bigger.",
+     "speaker": "Miro"
+    },
+    {
+     "start": 325.8,
+     "end": 328.8,
+     "ja": "じゃ、もっともっと大きくなりましたよね。",
+     "en": "So he got much, much bigger, right?",
+     "speaker": "Miro"
+    }
+   ]
+  },
+  {
+   "start": 1060.8,
+   "end": 1080.0,
+   "title": "Jumbo Randomly Changes the Subject",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "food"
+   ],
+   "grammar": [
+    "〜が好き — to like something",
+    "まるで〜 — just like / as if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1061.0,
+     "end": 1065.3,
+     "ja": "で、ジャンボが答えたのは「俺はプリンが好きなん だ」。",
+     "en": "And Jumbo answered, \"I like pudding.\"",
+     "speaker": "Miro"
+    },
+    {
+     "start": 1066.2,
+     "end": 1070.8,
+     "ja": "「俺はプリン、プリンですね、俺はプリンが好きなんだ」。",
+     "en": "\"I like pudding—pudding, right?—I like pudding.\"",
+     "speaker": "Miro"
+    },
+    {
+     "start": 1071.3,
+     "end": 1075.7,
+     "ja": "まるで他のトピックですよね。まるでトピックをチェンジしたんですよね。",
+     "en": "It's totally a different topic, right? It's like he just changed the subject.",
+     "speaker": "Miro"
+    },
+    {
+     "start": 1076.0,
+     "end": 1079.5,
+     "ja": "話が変わったんですね。",
+     "en": "The conversation completely changed, didn't it?",
+     "speaker": "Miro"
+    }
+   ]
+  }
+ ],
+ "videoId": "M0sLDRrG0mg",
+ "pickTopics": [
+  "family",
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

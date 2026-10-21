@@ -1,0 +1,260 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 109.8,
+   "end": 126.9,
+   "title": "Asking for Just Two Minutes",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜てしまう — expressing regret or unintentional result",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 110.1,
+     "end": 112.5,
+     "ja": "ウメさん、ウメさん、ウメさん。",
+     "en": "Ume-san, Ume-san, Ume-san.",
+     "speaker": "Momo"
+    },
+    {
+     "start": 112.7,
+     "end": 113.8,
+     "ja": "何？",
+     "en": "What is it?",
+     "speaker": "Ume"
+    },
+    {
+     "start": 113.9,
+     "end": 115.8,
+     "ja": "今、ちょっと時間あります？",
+     "en": "Do you have a moment right now?",
+     "speaker": "Momo"
+    },
+    {
+     "start": 116.0,
+     "end": 117.3,
+     "ja": "ランチ行こう。",
+     "en": "Let's go have lunch.",
+     "speaker": "Ume"
+    },
+    {
+     "start": 117.3,
+     "end": 119.5,
+     "ja": "社食の席、埋まっちゃうよ。",
+     "en": "The seats in the cafeteria will fill up.",
+     "speaker": "Ume"
+    },
+    {
+     "start": 119.5,
+     "end": 121.7,
+     "ja": "2分だけ！私に2分だけください！",
+     "en": "Just two minutes! Give me just two minutes!",
+     "speaker": "Momo"
+    },
+    {
+     "start": 121.8,
+     "end": 124.7,
+     "ja": "えー、サバの文化干し定食売り切れちゃう。",
+     "en": "Aw, the dried mackerel set meal will sell out.",
+     "speaker": "Ume"
+    },
+    {
+     "start": 124.7,
+     "end": 126.8,
+     "ja": "すぐそうやって社食の魚定食で",
+     "en": "You always try to balance your nutrition",
+     "speaker": "Momo"
+    },
+    {
+     "start": 126.8,
+     "end": 128.8,
+     "ja": "栄養の帳尻合わせようとするー。",
+     "en": "with the fish set meal at the cafeteria.",
+     "speaker": "Momo"
+    }
+   ]
+  },
+  {
+   "start": 141.5,
+   "end": 158.4,
+   "title": "Mounting Mountain at the Office",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — when/if",
+    "〜みたい — looks like / seems like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 141.8,
+     "end": 144.5,
+     "ja": "実はさっき、給湯室行ったら、",
+     "en": "Actually, when I went to the tea room earlier,",
+     "speaker": "Momo"
+    },
+    {
+     "start": 144.5,
+     "end": 146.5,
+     "ja": "OLたちが、連休誰とどこに行くかの",
+     "en": "the office ladies were fighting for superiority",
+     "speaker": "Momo"
+    },
+    {
+     "start": 146.5,
+     "end": 149.2,
+     "ja": "マウントの取り合いですごいことになってたんすよ。",
+     "en": "over who they're going where with on the holiday.",
+     "speaker": "Momo"
+    },
+    {
+     "start": 149.2,
+     "end": 150.3,
+     "ja": "あ、そうなの？",
+     "en": "Oh, really?",
+     "speaker": "Ume"
+    },
+    {
+     "start": 150.5,
+     "end": 152.9,
+     "ja": "マウントを取りたいOLたちの山で、",
+     "en": "With that pile of office ladies trying to one-up each other,",
+     "speaker": "Momo"
+    },
+    {
+     "start": 152.9,
+     "end": 156.0,
+     "ja": "なんと言うんですか、マウントとマウントの重なり合いで、",
+     "en": "how should I put it, with mounting piled on mounting,",
+     "speaker": "Momo"
+    },
+    {
+     "start": 156.0,
+     "end": 158.3,
+     "ja": "もう、あれマウンティングマウンテンみたいになってましたよ。",
+     "en": "it turned into something like a 'Mounting Mountain'!",
+     "speaker": "Momo"
+    }
+   ]
+  },
+  {
+   "start": 414.8,
+   "end": 437.3,
+   "title": "Lunch After Venting",
+   "level": "N3",
+   "topics": [
+    "food",
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜た後 — after doing...",
+    "〜ちゃう — end up doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 415.0,
+     "end": 416.0,
+     "ja": "ほらー、",
+     "en": "Look,",
+     "speaker": "Ume"
+    },
+    {
+     "start": 416.0,
+     "end": 418.8,
+     "ja": "社食のハンバーグ定食、味濃いのよ。",
+     "en": "the hamburger steak set here has such a strong flavor.",
+     "speaker": "Ume"
+    },
+    {
+     "start": 418.9,
+     "end": 420.7,
+     "ja": "それがいいんじゃないですか。",
+     "en": "Isn't that good, though?",
+     "speaker": "Momo"
+    },
+    {
+     "start": 420.7,
+     "end": 422.3,
+     "ja": "栄養偏っちゃう。",
+     "en": "My nutrition gets unbalanced.",
+     "speaker": "Ume"
+    },
+    {
+     "start": 422.5,
+     "end": 424.8,
+     "ja": "やっぱり帳尻合わせようとしてたんすね。",
+     "en": "So you really were trying to balance it out.",
+     "speaker": "Momo"
+    },
+    {
+     "start": 424.9,
+     "end": 426.6,
+     "ja": "うん、してた。",
+     "en": "Yeah, I was.",
+     "speaker": "Ume"
+    },
+    {
+     "start": 427.7,
+     "end": 428.8,
+     "ja": "でも、ウメさん、",
+     "en": "But Ume-san,",
+     "speaker": "Momo"
+    },
+    {
+     "start": 428.9,
+     "end": 431.1,
+     "ja": "これだけは間違いなく言えます。",
+     "en": "I can say this much for sure.",
+     "speaker": "Momo"
+    },
+    {
+     "start": 431.2,
+     "end": 432.2,
+     "ja": "何？",
+     "en": "What?",
+     "speaker": "Ume"
+    },
+    {
+     "start": 432.7,
+     "end": 434.7,
+     "ja": "いろいろと吐き出した後のランチは、",
+     "en": "Lunch after venting about everything...",
+     "speaker": "Momo"
+    },
+    {
+     "start": 434.8,
+     "end": 435.9,
+     "ja": "うまい！",
+     "en": "...is delicious!",
+     "speaker": "Momo"
+    },
+    {
+     "start": 436.0,
+     "end": 437.2,
+     "ja": "うまいね！",
+     "en": "It is, isn't it!",
+     "speaker": "Ume"
+    }
+   ]
+  }
+ ],
+ "videoId": "5tsheY65PJ4",
+ "pickTopics": [
+  "work",
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

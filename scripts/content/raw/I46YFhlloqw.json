@@ -1,0 +1,226 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 18.5,
+   "end": 44.8,
+   "title": "My Family Runs a Sushi Shop",
+   "level": "N4",
+   "topics": [
+    "food",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜通り — as / just as",
+    "〜たことがある — have experienced doing"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 18.8,
+     "end": 22.0,
+     "ja": "実家が寿司屋の大友です、お願いします！",
+     "en": "I'm Otomo, whose family runs a sushi shop. Nice to meet you!",
+     "speaker": "Otomo"
+    },
+    {
+     "start": 22.0,
+     "end": 25.0,
+     "ja": "今も言った通り僕実家が寿司屋なんですけど、",
+     "en": "As I just said, my parents run a sushi restaurant, but...",
+     "speaker": "Otomo"
+    },
+    {
+     "start": 25.0,
+     "end": 28.0,
+     "ja": "うちの看板メニューは、茶碗蒸しです。",
+     "en": "Our signature dish is savory egg custard.",
+     "speaker": "Otomo"
+    },
+    {
+     "start": 28.0,
+     "end": 31.8,
+     "ja": "一番手前だろお前！寿司より茶碗蒸しかよって！",
+     "en": "What's with that?! Egg custard over sushi?!",
+     "speaker": "Otomo"
+    },
+    {
+     "start": 32.5,
+     "end": 34.5,
+     "ja": "はい、実家が寿司屋あるある言います。",
+     "en": "Okay, here's a relatable sushi kid thing.",
+     "speaker": "Otomo"
+    },
+    {
+     "start": 34.8,
+     "end": 36.4,
+     "ja": "回転寿司に行ったことがない。",
+     "en": "Never having been to a conveyor belt sushi place.",
+     "speaker": "Otomo"
+    },
+    {
+     "start": 36.4,
+     "end": 39.0,
+     "ja": "これマジでみんな本当にそうなの！マジで行ったことないの！",
+     "en": "Seriously, everyone is like this! We've really never been!",
+     "speaker": "Otomo"
+    },
+    {
+     "start": 39.0,
+     "end": 41.5,
+     "ja": "うちさ、回らない寿司屋だから、行ったことない。",
+     "en": "Our place isn't conveyor belt sushi, so I've never gone.",
+     "speaker": "Otomo"
+    },
+    {
+     "start": 41.6,
+     "end": 44.5,
+     "ja": "ね、実際、実際ね、行ってみたい。行ってみたいですよ！",
+     "en": "Actually, honestly, I want to go. I really want to go!",
+     "speaker": "Otomo"
+    }
+   ]
+  },
+  {
+   "start": 52.2,
+   "end": 68.5,
+   "title": "Busted During Study Period",
+   "level": "N4",
+   "topics": [
+    "school",
+    "comedy"
+   ],
+   "grammar": [
+    "〜中 — in the middle of",
+    "〜のせいで — because of (fault)",
+    "命令形 — imperative command"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 52.5,
+     "end": 54.8,
+     "ja": "おい！今、自習中だろ、お前。",
+     "en": "Hey! You're supposed to be doing self-study right now.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 55.0,
+     "end": 58.5,
+     "ja": "うるせえんだよ。隣のクラス授業やってんだよ、うるせえな。",
+     "en": "You're too loud. The class next door is having a lesson!",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 59.5,
+     "end": 60.5,
+     "ja": "大友。",
+     "en": "Otomo.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 60.5,
+     "end": 61.2,
+     "ja": "はい。",
+     "en": "Yes, sir.",
+     "speaker": "Otomo"
+    },
+    {
+     "start": 61.2,
+     "end": 64.6,
+     "ja": "お前のせいでちゃんと自習やってる奴の迷惑してんだよ。",
+     "en": "Because of you, you're bothering the people studying properly.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 64.6,
+     "end": 66.0,
+     "ja": "すいませんでした。",
+     "en": "I'm sorry.",
+     "speaker": "Otomo"
+    },
+    {
+     "start": 66.8,
+     "end": 68.2,
+     "ja": "おい、職員室来い、お前。",
+     "en": "Hey, come to the staff room, you.",
+     "speaker": "Teacher"
+    }
+   ]
+  },
+  {
+   "start": 182.5,
+   "end": 205.0,
+   "title": "Career Aspirations and Comedy",
+   "level": "N3",
+   "topics": [
+    "school",
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜たらいいな — it would be nice if",
+    "〜わけじゃない — it doesn't mean that / not that"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 182.8,
+     "end": 185.4,
+     "ja": "プロの芸人さんになりたいとかならしょうがないよ。",
+     "en": "If you wanted to be a professional comedian, that'd be one thing.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 185.4,
+     "end": 187.0,
+     "ja": "いや別にそんなことないです。",
+     "en": "No, not particularly.",
+     "speaker": "Otomo"
+    },
+    {
+     "start": 187.0,
+     "end": 192.3,
+     "ja": "将来は、建築家か、美容師とか、あとエンジニアとかになれたらいいなと思ってるんですけど。",
+     "en": "For the future, I think it'd be nice to become an architect, a hairdresser, or maybe an engineer.",
+     "speaker": "Otomo"
+    },
+    {
+     "start": 192.5,
+     "end": 196.8,
+     "ja": "なんだよその三択はよ！ブレるよな、何それ！",
+     "en": "What kind of three choices are those?! That's so inconsistent!",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 196.8,
+     "end": 200.5,
+     "ja": "とにかくじゃあ別に芸人さんになりたいわけじゃないのね？",
+     "en": "Anyway, so you don't actually want to become a comedian, right?",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 200.5,
+     "end": 202.0,
+     "ja": "いやもう全然別に。",
+     "en": "No, not at all.",
+     "speaker": "Otomo"
+    },
+    {
+     "start": 202.0,
+     "end": 204.7,
+     "ja": "じゃあマジで意味ねえぞ、お前がやってること今！",
+     "en": "Then there's seriously no point to what you're doing right now!",
+     "speaker": "Teacher"
+    }
+   ]
+  }
+ ],
+ "videoId": "I46YFhlloqw",
+ "pickTopics": [
+  "fun",
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,205 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 51.2,
+   "end": 73.5,
+   "title": "The Anti-Summer Vacation Alliance",
+   "level": "N3",
+   "topics": [
+    "school",
+    "friends",
+    "romance"
+   ],
+   "grammar": [
+    "〜のに — even though / despite",
+    "〜じゃん — isn't it / you know"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 51.5,
+     "end": 54.0,
+     "ja": "誰もが夏休み楽しみにしてるのに、",
+     "en": "Even though everyone looks forward to summer vacation,",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 54.0,
+     "end": 56.5,
+     "ja": "私たち少数派だよね。",
+     "en": "we're definitely in the minority.",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 57.0,
+     "end": 59.8,
+     "ja": "夏休み反対同盟でも組みますか？",
+     "en": "Should we form an anti-summer vacation alliance or something?",
+     "speaker": "Miku"
+    },
+    {
+     "start": 60.0,
+     "end": 61.8,
+     "ja": "それいいね。",
+     "en": "That sounds good.",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 62.0,
+     "end": 64.5,
+     "ja": "京子さんは何で夏休み反対なんですか？",
+     "en": "Why are you against summer vacation, Kyoko?",
+     "speaker": "Miku"
+    },
+    {
+     "start": 64.8,
+     "end": 68.2,
+     "ja": "だって夏休みだと休みだから会えない人とかいるじゃん。",
+     "en": "Because during break, there are people you can't see, right?",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 68.5,
+     "end": 71.0,
+     "ja": "あ、分かります！そうなんですよね。",
+     "en": "Ah, I get it! Exactly.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 71.2,
+     "end": 73.2,
+     "ja": "え、美玖ちゃんもそういうあれ？",
+     "en": "Wait, you have someone like that too, Miku?",
+     "speaker": "Kyoko"
+    }
+   ]
+  },
+  {
+   "start": 113.5,
+   "end": 126.5,
+   "title": "Hard to See Each Other in Summer",
+   "level": "N2",
+   "topics": [
+    "school",
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "ただでさえ — even without that / already",
+    "ますます — more and more"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 113.8,
+     "end": 116.2,
+     "ja": "ただでさえクラスも違うし、",
+     "en": "We're in different classes as it is,",
+     "speaker": "Miku"
+    },
+    {
+     "start": 116.2,
+     "end": 119.0,
+     "ja": "夏休み入ったらますます話せなくなるなって。",
+     "en": "and once summer vacation starts, we'll talk even less.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 119.4,
+     "end": 120.8,
+     "ja": "だよね。",
+     "en": "Right?",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 120.8,
+     "end": 123.5,
+     "ja": "廊下とかで会えるのが貴重なんだけどね。",
+     "en": "Running into each other in the hallway is so precious.",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 124.0,
+     "end": 126.0,
+     "ja": "一緒です。",
+     "en": "Same here.",
+     "speaker": "Miku"
+    }
+   ]
+  },
+  {
+   "start": 138.0,
+   "end": 158.5,
+   "title": "A Chance to Get Closer",
+   "level": "N3",
+   "topics": [
+    "school",
+    "romance",
+    "fun"
+   ],
+   "grammar": [
+    "〜ば — if / when (conditional)",
+    "〜って — speaking of / topic marker"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 138.2,
+     "end": 140.0,
+     "ja": "でも、逆に考えれば、",
+     "en": "But if you think about it the other way,",
+     "speaker": "Miku"
+    },
+    {
+     "start": 140.0,
+     "end": 143.0,
+     "ja": "夏休みって仲良くなるチャンスでもありますよね。",
+     "en": "summer vacation is also a chance to get closer.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 143.5,
+     "end": 146.8,
+     "ja": "ほら、よくあるじゃないですか。夏休みデビューとか。",
+     "en": "You know how people talk about summer vacation makeovers and stuff?",
+     "speaker": "Miku"
+    },
+    {
+     "start": 147.0,
+     "end": 149.2,
+     "ja": "夏休みデビューは関係なくない？",
+     "en": "Doesn't a summer makeover have nothing to do with this?",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 149.5,
+     "end": 151.5,
+     "ja": "でも、何かが変わるっていうか、",
+     "en": "Still, like something might change...",
+     "speaker": "Miku"
+    },
+    {
+     "start": 151.5,
+     "end": 155.5,
+     "ja": "何かが起こる季節でもあると思うんですよ、夏は。",
+     "en": "I feel like summer is a season where things happen.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 155.8,
+     "end": 158.0,
+     "ja": "結局夏に期待してんじゃん。",
+     "en": "So you are looking forward to summer after all!",
+     "speaker": "Kyoko"
+    }
+   ]
+  }
+ ],
+ "videoId": "0_lD9KMfTd8",
+ "pickTopics": [
+  "romance",
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

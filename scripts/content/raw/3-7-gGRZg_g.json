@@ -1,0 +1,204 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.5,
+   "end": 22.8,
+   "title": "All-You-Can-Eat Ramen Buffet",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜にあります — to be located at",
+    "〜にお邪魔する — to visit (polite)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.7,
+     "end": 14.1,
+     "ja": "というわけで、今日は浅草にあります、",
+     "en": "And so, today we are in Asakusa,",
+     "speaker": "Haiji"
+    },
+    {
+     "start": 14.2,
+     "end": 16.1,
+     "ja": "なんとこちら、ラーメン…",
+     "en": "at none other than this ramen...",
+     "speaker": "Haiji"
+    },
+    {
+     "start": 16.2,
+     "end": 18.7,
+     "ja": "ペロン！食べ放題のお店！",
+     "en": "Ta-da! An all-you-can-eat restaurant!",
+     "speaker": "Haiji"
+    },
+    {
+     "start": 18.9,
+     "end": 22.4,
+     "ja": "ラーメンビュッフェ豚さんにお邪魔しております！",
+     "en": "We are visiting the Ramen Buffet Buta-san!",
+     "speaker": "Haiji"
+    }
+   ]
+  },
+  {
+   "start": 139.5,
+   "end": 153.0,
+   "title": "Tasting the Tonkotsu Broth",
+   "level": "N4",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜てみる — try doing something",
+    "〜め — on the ... side / somewhat"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 139.7,
+     "end": 141.8,
+     "ja": "スープから飲んでみましょう。",
+     "en": "Let's try tasting the soup first.",
+     "speaker": "Haiji"
+    },
+    {
+     "start": 142.0,
+     "end": 143.0,
+     "ja": "よいしょ。",
+     "en": "Here we go.",
+     "speaker": "Haiji"
+    },
+    {
+     "start": 143.2,
+     "end": 144.5,
+     "ja": "いただきます。",
+     "en": "Bon appetit.",
+     "speaker": "Haiji"
+    },
+    {
+     "start": 146.3,
+     "end": 147.9,
+     "ja": "あ、濃いめの豚骨スープ。",
+     "en": "Oh, it's quite a rich tonkotsu broth.",
+     "speaker": "Haiji"
+    },
+    {
+     "start": 148.0,
+     "end": 149.2,
+     "ja": "結構濃いっすね。",
+     "en": "It's pretty rich, isn't it?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 149.3,
+     "end": 149.9,
+     "ja": "ね。",
+     "en": "Yeah.",
+     "speaker": "Haiji"
+    },
+    {
+     "start": 150.0,
+     "end": 151.1,
+     "ja": "いいね、これ。",
+     "en": "This is good.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 151.2,
+     "end": 152.4,
+     "ja": "普通に美味しいですね。",
+     "en": "It's actually really tasty.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 152.5,
+     "end": 153.0,
+     "ja": "美味しいね。",
+     "en": "It is good.",
+     "speaker": "Haiji"
+    }
+   ]
+  },
+  {
+   "start": 328.0,
+   "end": 341.2,
+   "title": "Ramen as the Main and the Closer",
+   "level": "N3",
+   "topics": [
+    "food",
+    "comedy",
+    "friends"
+   ],
+   "grammar": [
+    "結構〜 — quite / considerably",
+    "〜をおかずに — having ... as a side dish",
+    "流石 — as expected / true to form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 328.5,
+     "end": 330.2,
+     "ja": "もう結構俺ら経ってる？",
+     "en": "Has a lot of time passed for us already?",
+     "speaker": "Haiji"
+    },
+    {
+     "start": 330.3,
+     "end": 331.8,
+     "ja": "30分くらい経ってる。",
+     "en": "About 30 minutes have passed.",
+     "speaker": "Friend 1"
+    },
+    {
+     "start": 331.9,
+     "end": 333.1,
+     "ja": "経ってるよね、絶対。",
+     "en": "It definitely has.",
+     "speaker": "Friend 2"
+    },
+    {
+     "start": 333.3,
+     "end": 335.6,
+     "ja": "シメのラーメン行きますか？シメのラーメン。",
+     "en": "Should we get the finale ramen? A closing ramen.",
+     "speaker": "Friend 1"
+    },
+    {
+     "start": 335.8,
+     "end": 338.3,
+     "ja": "ラーメンをおかずに食べて、シメにラーメン食べる？",
+     "en": "You ate ramen as a side dish and now you're ending on ramen?",
+     "speaker": "Haiji"
+    },
+    {
+     "start": 338.4,
+     "end": 339.8,
+     "ja": "シメにラーメン、戻れる。",
+     "en": "Finishing with ramen, back to the start.",
+     "speaker": "Friend 1"
+    },
+    {
+     "start": 339.9,
+     "end": 340.9,
+     "ja": "流石だね。",
+     "en": "Impressive as always.",
+     "speaker": "Haiji"
+    }
+   ]
+  }
+ ],
+ "videoId": "3-7-gGRZg_g",
+ "pickTopics": [
+  "food",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

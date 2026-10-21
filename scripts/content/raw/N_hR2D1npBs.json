@@ -1,0 +1,190 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.8,
+   "end": 26.2,
+   "title": "Invited to a Friend's Live Show",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "music",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てくれ — asking someone to do something",
+    "〜て言うて — quoting speech"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.8,
+     "end": 9.6,
+     "ja": "ま、僕さっき歌いましたけれども、ほんま歌ってめっちゃ好きなんですよ。",
+     "en": "Well, I just sang earlier, but I really love singing.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 9.9,
+     "end": 13.2,
+     "ja": "で、あの友達にも結構ミュージシャンの人いまして、",
+     "en": "And I have quite a few friends who are musicians,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 13.4,
+     "end": 16.8,
+     "ja": "で、こないだちょっと友達が「俺ライブ出るから見に来てくれ」と。",
+     "en": "and the other day, a friend was like, \"I'm performing in a live show, come watch.\"",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 16.9,
+     "end": 20.1,
+     "ja": "「色んな人出るライブの最後トリを飾る」と。",
+     "en": "\"I'm closing out a show with lots of performers.\"",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 20.2,
+     "end": 23.2,
+     "ja": "弾き語り、弾き語りをしてる男の子なんですけど、",
+     "en": "He's a guy who plays guitar and sings, but...",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 23.4,
+     "end": 26.0,
+     "ja": "「見に行くわ」言うて。武蔵境って所にあるライブハウス。",
+     "en": "I said, \"I'll go,\" to a live house in a place called Musashi-Sakai.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 49.8,
+   "end": 65.5,
+   "title": "The Second Act of the Night",
+   "level": "N3",
+   "topics": [
+    "music",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜っていう — called / named",
+    "〜みたいな — like / similar to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 49.8,
+     "end": 53.6,
+     "ja": "で、2番目に出てきたのがね、「メランコリック」っていう",
+     "en": "Then, the second act that came out was called Melancholic,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 53.8,
+     "end": 56.1,
+     "ja": "3人組の女の子。",
+     "en": "a trio of girls.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 56.2,
+     "end": 57.8,
+     "ja": "Perfumeみたいな。",
+     "en": "Kind of like Perfume.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 57.9,
+     "end": 61.0,
+     "ja": "電子音かかって、こうやって踊るみたいなね。",
+     "en": "Electronic music played, and they danced like this.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 61.1,
+     "end": 64.2,
+     "ja": "それもいいんですよ、ワーッて、「可愛らしい、可愛らしい」",
+     "en": "That was good too, everyone cheered, \"How cute, how cute!\"",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 64.3,
+     "end": 65.5,
+     "ja": "てなわけで。",
+     "en": "And so on.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 86.0,
+   "end": 108.0,
+   "title": "An Unusual Band Setup",
+   "level": "N3",
+   "topics": [
+    "music",
+    "comedy"
+   ],
+   "grammar": [
+    "〜わけですよ — that's why / naturally",
+    "〜持ってきた — brought over"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 86.0,
+     "end": 90.8,
+     "ja": "「メランコリック」が「どうもありがとうございました」って言ってから、まあ転換するわけですよ。",
+     "en": "After Melancholic said \"Thank you very much,\" they did the stage turnaround.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 91.0,
+     "end": 96.0,
+     "ja": "狭いね、舞台。あの、ドラムセット1個あるんですよ、もうね。",
+     "en": "It's a cramped stage. There was already one drum kit on it.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 96.2,
+     "end": 99.0,
+     "ja": "もう1個ドラムセット持ってきたんですよ。",
+     "en": "And they brought in another drum kit.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 99.2,
+     "end": 102.1,
+     "ja": "ドラムセッ…ツインドラムやったんですよ。",
+     "en": "A drum ki... they were doing twin drums.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 102.2,
+     "end": 104.8,
+     "ja": "で、3人、3人なんすけど、",
+     "en": "And there were three of them, a trio, but...",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 104.9,
+     "end": 107.8,
+     "ja": "ドラム2つとボーカルなんすよ。",
+     "en": "...it was two drummers and a vocalist.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "N_hR2D1npBs",
+ "pickTopics": [
+  "fun",
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

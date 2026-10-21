@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 52.5,
+   "end": 124.0,
+   "title": "The Gentle Rabbit and Friends",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "culture"
+   ],
+   "grammar": [
+    "〜の中に — inside of / in",
+    "〜と一緒に — together with"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 53.0,
+     "end": 58.5,
+     "ja": "昔々、山の中に、",
+     "en": "Long, long ago, in the mountains,",
+     "speaker": "Tomo"
+    },
+    {
+     "start": 58.8,
+     "end": 66.5,
+     "ja": "一羽のやさしいうさぎがいました。",
+     "en": "there lived a gentle rabbit.",
+     "speaker": "Tomo"
+    },
+    {
+     "start": 71.0,
+     "end": 78.0,
+     "ja": "うさぎは友達のさるやきつねと",
+     "en": "The rabbit lived together with",
+     "speaker": "Tomo"
+    },
+    {
+     "start": 78.4,
+     "end": 83.5,
+     "ja": "いっしょに暮らしていました。",
+     "en": "its friends, a monkey and a fox.",
+     "speaker": "Tomo"
+    }
+   ]
+  },
+  {
+   "start": 129.8,
+   "end": 154.5,
+   "title": "The Monkey and the Fox Find Food",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "food"
+   ],
+   "grammar": [
+    "〜に登る — to climb up",
+    "〜てくる — do and come back"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 130.2,
+     "end": 134.5,
+     "ja": "さるは木に登り、",
+     "en": "The monkey climbed a tree",
+     "speaker": "Tomo"
+    },
+    {
+     "start": 134.8,
+     "end": 139.5,
+     "ja": "木の実を取ってきました。",
+     "en": "and picked some nuts.",
+     "speaker": "Tomo"
+    },
+    {
+     "start": 143.3,
+     "end": 148.0,
+     "ja": "きつねは川に入り、",
+     "en": "The fox went into the river",
+     "speaker": "Tomo"
+    },
+    {
+     "start": 148.8,
+     "end": 153.8,
+     "ja": "魚を取ってきました。",
+     "en": "and caught some fish.",
+     "speaker": "Tomo"
+    }
+   ]
+  },
+  {
+   "start": 420.0,
+   "end": 445.5,
+   "title": "The Rabbit in the Moon",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜と — when / whenever",
+    "〜と言われている — it is said that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 420.5,
+     "end": 425.5,
+     "ja": "日本では、月を見上げると、",
+     "en": "In Japan, it is said that when you look up at the moon,",
+     "speaker": "Tomo"
+    },
+    {
+     "start": 426.0,
+     "end": 433.0,
+     "ja": "そこに一羽のうさぎが見えると言われています。",
+     "en": "you can see a rabbit there.",
+     "speaker": "Tomo"
+    },
+    {
+     "start": 434.0,
+     "end": 439.0,
+     "ja": "とくにお月見の夜には、",
+     "en": "Especially on moon-viewing nights,",
+     "speaker": "Tomo"
+    },
+    {
+     "start": 439.5,
+     "end": 444.8,
+     "ja": "その姿を楽しむ人もいます。",
+     "en": "some people enjoy viewing its shape.",
+     "speaker": "Tomo"
+    }
+   ]
+  }
+ ],
+ "videoId": "MZHL3cNst1w",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

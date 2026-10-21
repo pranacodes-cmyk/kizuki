@@ -1,0 +1,93 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.5,
+   "end": 17.5,
+   "title": "What He Wanted from Marriage",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜たことがある — to have ever done",
+    "〜とか — listing examples"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.7,
+     "end": 9.5,
+     "ja": "彼が結婚に何を求めてたのか、考えたことあります？",
+     "en": "Have you ever thought about what he was looking for in marriage?",
+     "speaker": "Glasses"
+    },
+    {
+     "start": 9.8,
+     "end": 10.9,
+     "ja": "どういう意味？",
+     "en": "What do you mean?",
+     "speaker": "Rival"
+    },
+    {
+     "start": 11.1,
+     "end": 13.5,
+     "ja": "彼に必要なのは東堂家の跡取り。",
+     "en": "What he needs is an heir to the Todo family.",
+     "speaker": "Glasses"
+    },
+    {
+     "start": 13.7,
+     "end": 17.4,
+     "ja": "愛とか恋とか性欲とか、そういうんじゃないんです。",
+     "en": "It's not about love, romance, or lust—nothing like that.",
+     "speaker": "Glasses"
+    }
+   ]
+  },
+  {
+   "start": 23.9,
+   "end": 32.5,
+   "title": "A Matter of Genetics",
+   "level": "N2",
+   "topics": [
+    "daily",
+    "romance"
+   ],
+   "grammar": [
+    "〜んですって — hearsay explanation",
+    "〜わけない — no way that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 24.1,
+     "end": 25.3,
+     "ja": "知ってますか？",
+     "en": "Did you know?",
+     "speaker": "Glasses"
+    },
+    {
+     "start": 25.4,
+     "end": 29.4,
+     "ja": "先天的な子供のIQの高さって、母親の遺伝子に由来するんですって。",
+     "en": "They say a child's innate IQ comes from the mother's genetics.",
+     "speaker": "Glasses"
+    },
+    {
+     "start": 29.6,
+     "end": 32.3,
+     "ja": "高卒を嫁にするわけないじゃないですか。",
+     "en": "There's no way he would take a high school graduate as his wife.",
+     "speaker": "Glasses"
+    }
+   ]
+  }
+ ],
+ "videoId": "tVfDLW9OQW4",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

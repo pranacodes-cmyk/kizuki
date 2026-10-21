@@ -1,0 +1,195 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 3.25,
+   "end": 35.5,
+   "title": "Fast Food and Mos Burger",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜っていう — called / named",
+    "あんまり〜ない — not really / not much"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.25,
+     "end": 9.38,
+     "ja": "例えば、ここにモスバーガーっていう日本のハンバーガー屋さんがあります。",
+     "en": "For example, here is a Japanese burger shop called Mos Burger.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 9.68,
+     "end": 13.6,
+     "ja": "僕はあんまりハンバーガーを食べません。",
+     "en": "I don't really eat hamburgers.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 13.9,
+     "end": 16.2,
+     "ja": "皆さんはどうですか？",
+     "en": "How about you all?",
+     "speaker": "Ken"
+    },
+    {
+     "start": 17.8,
+     "end": 22.0,
+     "ja": "僕はあんまりハンバーガーを食べないけど、",
+     "en": "I don't eat hamburgers that often, but...",
+     "speaker": "Ken"
+    },
+    {
+     "start": 22.1,
+     "end": 25.0,
+     "ja": "まあ、モスバーガーはたまに行きます。",
+     "en": "...well, I occasionally go to Mos Burger.",
+     "speaker": "Ken"
+    }
+   ]
+  },
+  {
+   "start": 632.5,
+   "end": 660.5,
+   "title": "Introducing the Family to Old Friends",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "family",
+    "friends"
+   ],
+   "grammar": [
+    "〜ている — progressive / state",
+    "〜に来る — to come in order to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 633.2,
+     "end": 640.5,
+     "ja": "今回は僕と僕の妻と赤ちゃんと、3人で来ました。",
+     "en": "This time, the three of us—me, my wife, and our baby—came together.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 644.0,
+     "end": 652.8,
+     "ja": "で、長野県に住んでいる友達とか、昔お世話になった人とかに挨拶に来ました。",
+     "en": "And we came to say hello to friends living in Nagano and people who took care of me back then.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 656.0,
+     "end": 659.8,
+     "ja": "「赤ちゃんが生まれました。よろしくお願いします！」",
+     "en": "\"Our baby was born. Nice to meet you!\"",
+     "speaker": "Ken"
+    }
+   ]
+  },
+  {
+   "start": 928.5,
+   "end": 951.5,
+   "title": "Ordering Bread at a Bakery",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜をください — please give me",
+    "〜てもいい / 使える — can use"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 928.8,
+     "end": 931.0,
+     "ja": "パン、おすすめはどれですか？",
+     "en": "Which bread do you recommend?",
+     "speaker": "Ken"
+    },
+    {
+     "start": 931.5,
+     "end": 933.3,
+     "ja": "おすすめはやっぱりカンパーニュ。",
+     "en": "My recommendation would definitely be the campagne.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 933.5,
+     "end": 934.6,
+     "ja": "これですか？",
+     "en": "This one?",
+     "speaker": "Ken"
+    },
+    {
+     "start": 934.7,
+     "end": 936.4,
+     "ja": "じゃあ、これを一つください。",
+     "en": "Then, one of this, please.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 937.0,
+     "end": 937.8,
+     "ja": "はい。",
+     "en": "Certainly.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 940.4,
+     "end": 942.3,
+     "ja": "クレジットカード、使えますか？",
+     "en": "Can I use a credit card?",
+     "speaker": "Ken"
+    },
+    {
+     "start": 942.5,
+     "end": 944.4,
+     "ja": "あ、もうすみません、現金なんです。",
+     "en": "Ah, I'm sorry, it's cash only.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 944.6,
+     "end": 945.8,
+     "ja": "あ、現金で、はい。",
+     "en": "Ah, in cash, okay.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 946.0,
+     "end": 947.3,
+     "ja": "袋は大丈夫ですか？",
+     "en": "Will you be okay without a bag?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 947.5,
+     "end": 948.8,
+     "ja": "あ、大丈夫です。",
+     "en": "Ah, that's fine.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 949.0,
+     "end": 950.8,
+     "ja": "すみません、お願いします。",
+     "en": "Excuse me, here you go.",
+     "speaker": "Ken"
+    }
+   ]
+  }
+ ],
+ "videoId": "yYXTI4Wu4Lk",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

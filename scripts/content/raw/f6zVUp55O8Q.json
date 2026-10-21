@@ -1,0 +1,191 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 14.3,
+   "end": 27.8,
+   "title": "Wearing Kimonos in Asakusa",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜ています — ongoing state",
+    "〜ようと思う — expressing intention",
+    "〜を通って — passing through"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 14.6,
+     "end": 16.7,
+     "ja": "こんにちは、のがです。",
+     "en": "Hello, I'm Noga.",
+     "speaker": "Noga"
+    },
+    {
+     "start": 16.8,
+     "end": 18.7,
+     "ja": "今日は着物を着ています。",
+     "en": "Today we're wearing kimonos.",
+     "speaker": "Noga"
+    },
+    {
+     "start": 19.8,
+     "end": 24.6,
+     "ja": "お友達と一緒に、えっと、浅草で仲見世通りを通って、",
+     "en": "Together with my friend, we'll walk down Nakamise Street in Asakusa,",
+     "speaker": "Noga"
+    },
+    {
+     "start": 24.7,
+     "end": 27.3,
+     "ja": "あとは人力車に乗ろうと思います。",
+     "en": "and after that, we plan to ride a rickshaw.",
+     "speaker": "Noga"
+    }
+   ]
+  },
+  {
+   "start": 145.0,
+   "end": 158.0,
+   "title": "Meeting the Rickshaw Driver",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜と申します — humble introduction",
+    "〜やすい — easy to do",
+    "〜ましょう — let's do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 145.2,
+     "end": 147.5,
+     "ja": "一応私、古田健人と申しますんで、",
+     "en": "Just so you know, my name is Kento Furuta,",
+     "speaker": "Driver"
+    },
+    {
+     "start": 147.6,
+     "end": 150.5,
+     "ja": "気軽にけんちゃんとか、呼びやすいように呼んでください。",
+     "en": "so please feel free to call me whatever's easy, like Ken-chan.",
+     "speaker": "Driver"
+    },
+    {
+     "start": 150.6,
+     "end": 152.5,
+     "ja": "安全運転で頑張りますんで、よろしくお願いします。",
+     "en": "I'll do my best to drive safely, nice to have you!",
+     "speaker": "Driver"
+    },
+    {
+     "start": 152.6,
+     "end": 154.2,
+     "ja": "飛ばさないでください。",
+     "en": "Please don't speed.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 154.3,
+     "end": 155.6,
+     "ja": "大丈夫ですよ。",
+     "en": "No worries!",
+     "speaker": "Driver"
+    },
+    {
+     "start": 155.7,
+     "end": 157.6,
+     "ja": "じゃ、青信号になるんで出発しましょう！",
+     "en": "Alright, the light is turning green so let's head out!",
+     "speaker": "Driver"
+    }
+   ]
+  },
+  {
+   "start": 202.8,
+   "end": 217.2,
+   "title": "The Real Name of Kaminarimon Gate",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜けど — although",
+    "〜なのに — even though"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 203.0,
+     "end": 207.2,
+     "ja": "一応あの、雷門って書いてますけど、本名風雷神門ですから。",
+     "en": "It says Kaminarimon, but its official name is actually Fūraijinmon.",
+     "speaker": "Driver"
+    },
+    {
+     "start": 207.2,
+     "end": 208.5,
+     "ja": "本名風雷神門？",
+     "en": "Its real name is Fūraijinmon?",
+     "speaker": "Noga"
+    },
+    {
+     "start": 208.5,
+     "end": 210.6,
+     "ja": "実はあの、右に風神さんがいるんですよ。",
+     "en": "Actually, the Wind God is on the right.",
+     "speaker": "Driver"
+    },
+    {
+     "start": 210.7,
+     "end": 211.7,
+     "ja": "へえー。",
+     "en": "Huh.",
+     "speaker": "Noga"
+    },
+    {
+     "start": 211.7,
+     "end": 212.7,
+     "ja": "左に雷神さんがいてね。",
+     "en": "And the Thunder God is on the left.",
+     "speaker": "Driver"
+    },
+    {
+     "start": 212.7,
+     "end": 213.6,
+     "ja": "風神雷神。",
+     "en": "Fujin and Raijin.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 213.6,
+     "end": 215.3,
+     "ja": "そう、なのに雷門って。",
+     "en": "Right, yet it's called Kaminarimon (Thunder Gate).",
+     "speaker": "Driver"
+    },
+    {
+     "start": 215.3,
+     "end": 216.9,
+     "ja": "ちょっとね、風神さんかわいそうな。",
+     "en": "You kind of feel bad for the Wind God.",
+     "speaker": "Driver"
+    }
+   ]
+  }
+ ],
+ "videoId": "f6zVUp55O8Q",
+ "pickTopics": [
+  "travel",
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

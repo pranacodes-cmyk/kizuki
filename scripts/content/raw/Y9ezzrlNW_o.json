@@ -1,0 +1,142 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 130.34,
+   "end": 141.68,
+   "title": "Daily Office Tasks",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜たり〜たり — listing actions",
+    "〜など — and so on / et cetera"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 130.84,
+     "end": 134.12,
+     "ja": "渡部さん、ちなみに普段ってどういう業務内容なんですか？",
+     "en": "Watanabe-san, by the way, what kind of work do you usually do?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 134.36,
+     "end": 136.08,
+     "ja": "普段は発注を打ったり、",
+     "en": "Usually, I place orders,",
+     "speaker": "Watanabe"
+    },
+    {
+     "start": 136.16,
+     "end": 137.34,
+     "ja": "見積もりを作ったり、",
+     "en": "make estimates,",
+     "speaker": "Watanabe"
+    },
+    {
+     "start": 137.6,
+     "end": 141.38,
+     "ja": "あとは電話対応などが多いです。",
+     "en": "and also handle phone calls and such quite a lot.",
+     "speaker": "Watanabe"
+    }
+   ]
+  },
+  {
+   "start": 526.96,
+   "end": 539.14,
+   "title": "First Client Visit of the Day",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜ちゃう — do completely / unintentionally (colloquial)",
+    "〜だけで — just by doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 527.26,
+     "end": 529.1,
+     "ja": "お疲れ様です。ここ、一軒目ですかね？",
+     "en": "Good job. Is this your first stop?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 529.34,
+     "end": 530.98,
+     "ja": "一軒目、はい、そうです。",
+     "en": "The first stop, yes, that's right.",
+     "speaker": "Watanabe"
+    },
+    {
+     "start": 531.06,
+     "end": 533.32,
+     "ja": "一軒目のところは社長も出ちゃってるので、",
+     "en": "At the first stop, the president is out,",
+     "speaker": "Watanabe"
+    },
+    {
+     "start": 533.68,
+     "end": 535.54,
+     "ja": "倉庫に納品だけしておしまいになります。",
+     "en": "so we'll just deliver to the warehouse and be done.",
+     "speaker": "Watanabe"
+    }
+   ]
+  },
+  {
+   "start": 741.56,
+   "end": 757.24,
+   "title": "Why Choose Sales?",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜たいと思う — want to think/do",
+    "〜という — called / the feeling of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 741.86,
+     "end": 744.38,
+     "ja": "営業をやりたいと思った理由とかって何かあるんですか？",
+     "en": "Is there a reason why you wanted to go into sales?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 744.46,
+     "end": 749.94,
+     "ja": "自分が成績とかで良い成績を出したいとか、",
+     "en": "I wanted to achieve good results with my performance and such,",
+     "speaker": "Watanabe"
+    },
+    {
+     "start": 750.3,
+     "end": 755.94,
+     "ja": "そういう競いたい気持ちがもともとあって、",
+     "en": "and I originally had that desire to compete,",
+     "speaker": "Watanabe"
+    },
+    {
+     "start": 756.26,
+     "end": 757.24,
+     "ja": "営業職っていうのは、",
+     "en": "so sales...",
+     "speaker": "Watanabe"
+    }
+   ]
+  }
+ ],
+ "videoId": "Y9ezzrlNW_o",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

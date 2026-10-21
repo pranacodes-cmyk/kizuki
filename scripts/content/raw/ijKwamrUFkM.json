@@ -1,0 +1,251 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 134.0,
+   "end": 204.2,
+   "title": "Running an Airbnb in Osaka",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "work"
+   ],
+   "grammar": [
+    "〜ようと思う — intend to do",
+    "〜ている — ongoing state/action",
+    "〜を生かして — making use of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 134.2,
+     "end": 135.7,
+     "ja": "どこに住んでますか？",
+     "en": "Where do you live?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 135.8,
+     "end": 137.4,
+     "ja": "えー、大阪に住んでいます。",
+     "en": "Um, I live in Osaka.",
+     "speaker": "Toma"
+    },
+    {
+     "start": 137.6,
+     "end": 140.8,
+     "ja": "大阪でどんな仕事をしていますか？",
+     "en": "What kind of work do you do in Osaka?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 140.9,
+     "end": 143.7,
+     "ja": "大阪でAirB&Bをしています。",
+     "en": "I run an Airbnb in Osaka.",
+     "speaker": "Toma"
+    },
+    {
+     "start": 143.8,
+     "end": 147.3,
+     "ja": "おお、すごい。どうしてAirB&Bを始めようと思いましたか？",
+     "en": "Oh, wow. Why did you decide to start an Airbnb?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 147.4,
+     "end": 153.3,
+     "ja": "えー、ニュージーランドとオーストラリアを６年間旅していました。",
+     "en": "Well, I was traveling around New Zealand and Australia for six years.",
+     "speaker": "Toma"
+    },
+    {
+     "start": 153.4,
+     "end": 157.2,
+     "ja": "その時に、AirB&Bにたくさん泊まりました。",
+     "en": "During that time, I stayed at a lot of Airbnbs.",
+     "speaker": "Toma"
+    },
+    {
+     "start": 157.3,
+     "end": 203.9,
+     "ja": "その経験を生かして日本に帰ってきた時に、AirB&Bをしたいなと思って始めました。",
+     "en": "Using that experience, when I came back to Japan, I wanted to run an Airbnb, so I started one.",
+     "speaker": "Toma"
+    }
+   ]
+  },
+  {
+   "start": 282.8,
+   "end": 303.2,
+   "title": "Running a Thrift Shop at 24",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜になる — to turn / become",
+    "〜から — starting from / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 282.9,
+     "end": 284.7,
+     "ja": "え、今仕事は何をしていますか？",
+     "en": "What kind of work do you do now?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 284.8,
+     "end": 287.0,
+     "ja": "仕事は古着屋をやってます。",
+     "en": "For work, I run a thrift shop.",
+     "speaker": "Shota"
+    },
+    {
+     "start": 287.1,
+     "end": 289.7,
+     "ja": "古着屋、いいですね。すごいね、今何歳ですか？",
+     "en": "A thrift shop, nice! That's awesome. How old are you now?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 289.8,
+     "end": 291.6,
+     "ja": "今２４になりました。",
+     "en": "I just turned 24.",
+     "speaker": "Shota"
+    },
+    {
+     "start": 291.7,
+     "end": 292.9,
+     "ja": "２４歳！",
+     "en": "24 years old!",
+     "speaker": "Shun"
+    },
+    {
+     "start": 293.0,
+     "end": 294.6,
+     "ja": "１８から始めました。",
+     "en": "I started when I was 18.",
+     "speaker": "Shota"
+    },
+    {
+     "start": 294.7,
+     "end": 299.0,
+     "ja": "すごいね、１８歳から一人でビジネスをしているみたいです。",
+     "en": "Incredible! It looks like he's been running a business on his own since he was 18.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 299.1,
+     "end": 302.8,
+     "ja": "すごい！どうして古着屋さんをしようと思いましたか？",
+     "en": "Amazing! Why did you decide to open a thrift shop?",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 769.5,
+   "end": 795.0,
+   "title": "Loving Life as a Hairdresser",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ている — ongoing action",
+    "〜と同じ — the same as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 769.7,
+     "end": 771.3,
+     "ja": "え、今仕事は何をしていますか？",
+     "en": "What kind of work do you do right now?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 771.4,
+     "end": 773.3,
+     "ja": "今は美容師をしています。",
+     "en": "Right now, I work as a hairdresser.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 773.4,
+     "end": 775.0,
+     "ja": "おお、美容師。今何歳ですか？",
+     "en": "Oh, a hairdresser. How old are you?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 775.1,
+     "end": 776.3,
+     "ja": "今、２４歳です。",
+     "en": "I'm 24 right now.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 776.4,
+     "end": 777.7,
+     "ja": "あ、２４歳。じゃあ、しょうたと同じ。",
+     "en": "Ah, 24. Then same as Shota.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 777.8,
+     "end": 778.5,
+     "ja": "一緒です。",
+     "en": "We're the same age.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 778.6,
+     "end": 780.6,
+     "ja": "どうですか？仕事は楽しいですか？",
+     "en": "How is it? Do you enjoy your work?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 780.7,
+     "end": 782.3,
+     "ja": "あ、めちゃくちゃ楽しいです。",
+     "en": "Ah, it's super fun.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 782.4,
+     "end": 785.1,
+     "ja": "めちゃくちゃ楽しい！そうなんだ。",
+     "en": "Super fun! Is that so!",
+     "speaker": "Shun"
+    },
+    {
+     "start": 785.2,
+     "end": 788.5,
+     "ja": "何をしている時が楽しい？どんな時が一番楽しいですか？",
+     "en": "What do you enjoy doing? When is it the most fun?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 788.6,
+     "end": 794.6,
+     "ja": "やっぱお客さんと接客をして髪切っている時が楽しいですね。",
+     "en": "Interacting with customers and cutting their hair is really the most enjoyable part.",
+     "speaker": "Guest"
+    }
+   ]
+  }
+ ],
+ "videoId": "ijKwamrUFkM",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

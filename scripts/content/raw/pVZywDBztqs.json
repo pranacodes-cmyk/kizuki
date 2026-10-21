@@ -1,0 +1,76 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.8,
+   "end": 31.0,
+   "title": "Whatever You Want to Do",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜たらいい — it's fine if / should",
+    "〜ないと — must / have to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.0,
+     "end": 17.8,
+     "ja": "もしもし。",
+     "en": "Hello?",
+     "speaker": "Rino"
+    },
+    {
+     "start": 17.9,
+     "end": 19.1,
+     "ja": "あーごめん！",
+     "en": "Ah, sorry!",
+     "speaker": "Fiancé"
+    },
+    {
+     "start": 19.1,
+     "end": 22.3,
+     "ja": "週末の予定なんだけど、お得意様とのゴルフ入っちゃって…",
+     "en": "About our weekend plans, golf with a client came up...",
+     "speaker": "Fiancé"
+    },
+    {
+     "start": 22.3,
+     "end": 25.0,
+     "ja": "ブライダルフェアは？色々決めないと…",
+     "en": "What about the bridal fair? We have to decide on things...",
+     "speaker": "Rino"
+    },
+    {
+     "start": 25.0,
+     "end": 27.9,
+     "ja": "莉乃の好きなようにしたらいいよ。主役は花嫁なんだから。",
+     "en": "Just do whatever you want, Rino. The bride's the star after all.",
+     "speaker": "Fiancé"
+    },
+    {
+     "start": 27.9,
+     "end": 28.8,
+     "ja": "でも一緒に…",
+     "en": "But together...",
+     "speaker": "Rino"
+    },
+    {
+     "start": 28.8,
+     "end": 30.5,
+     "ja": "悪い、また連絡するから。",
+     "en": "Sorry, I'll call you again later.",
+     "speaker": "Fiancé"
+    }
+   ]
+  }
+ ],
+ "videoId": "pVZywDBztqs",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

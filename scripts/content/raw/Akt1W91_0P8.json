@@ -1,0 +1,63 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 47.9,
+   "end": 60.5,
+   "title": "Where My Happiness Was Packed",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜との — with / involving",
+    "〜に詰まっている — packed into / filled with"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 48.2,
+     "end": 50.8,
+     "ja": "何気ない日常。",
+     "en": "Ordinary everyday life.",
+     "speaker": "Female Narrator"
+    },
+    {
+     "start": 51.3,
+     "end": 53.0,
+     "ja": "お客さまとの会話。",
+     "en": "Conversations with customers.",
+     "speaker": "Female Narrator"
+    },
+    {
+     "start": 53.5,
+     "end": 55.4,
+     "ja": "サロンのメンバーとの日々。",
+     "en": "Days spent with salon colleagues.",
+     "speaker": "Female Narrator"
+    },
+    {
+     "start": 56.1,
+     "end": 57.5,
+     "ja": "この全てに、",
+     "en": "In all of this,",
+     "speaker": "Female Narrator"
+    },
+    {
+     "start": 57.6,
+     "end": 60.1,
+     "ja": "私の幸せが詰まっていました。",
+     "en": "my happiness was packed.",
+     "speaker": "Female Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "Akt1W91_0P8",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

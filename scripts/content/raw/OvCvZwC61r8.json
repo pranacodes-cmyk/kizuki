@@ -1,0 +1,230 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.292,
+   "end": 1.535,
+   "title": "Tokushima, the City of Water",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜をはじめ — starting with / including",
+    "〜てくれる — doing a favor for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.295,
+     "end": 1.325,
+     "ja": "今日はね、川にもご案内するんですが",
+     "en": "Today, I will also take you to the river,",
+     "speaker": "Mayor"
+    },
+    {
+     "start": 1.326,
+     "end": 1.334,
+     "ja": "ほう",
+     "en": "Oh?",
+     "speaker": "Announcer"
+    },
+    {
+     "start": 1.335,
+     "end": 1.354,
+     "ja": "なぜかというと、徳島市は水都なんです",
+     "en": "because Tokushima City is a city of water.",
+     "speaker": "Mayor"
+    },
+    {
+     "start": 1.355,
+     "end": 1.365,
+     "ja": "あ、そうなんですね",
+     "en": "Ah, is that so?",
+     "speaker": "Announcer"
+    },
+    {
+     "start": 1.366,
+     "end": 1.395,
+     "ja": "水の都。徳島市内に134本の川が",
+     "en": "A water capital. Within Tokushima City, 134 rivers...",
+     "speaker": "Mayor"
+    },
+    {
+     "start": 1.396,
+     "end": 1.41,
+     "ja": "え、そんなにあるんですか？",
+     "en": "What, there are that many?",
+     "speaker": "Announcer"
+    },
+    {
+     "start": 1.411,
+     "end": 1.42,
+     "ja": "流れてるんですよ",
+     "en": "...are flowing.",
+     "speaker": "Mayor"
+    },
+    {
+     "start": 1.421,
+     "end": 1.459,
+     "ja": "四国三郎・吉野川をはじめ、色んな川が流れてるんですけどもね",
+     "en": "Starting with Yoshino River, known as Shikoku Saburo, many rivers flow here.",
+     "speaker": "Mayor"
+    },
+    {
+     "start": 1.46,
+     "end": 1.505,
+     "ja": "今日はその魅力をたっぷりとご紹介してくれるんでしょ？",
+     "en": "Today, you're going to showcase plenty of that charm, right?",
+     "speaker": "Mayor"
+    },
+    {
+     "start": 1.506,
+     "end": 1.53,
+     "ja": "お願いしますよ！",
+     "en": "You're the one who has to do it!",
+     "speaker": "Announcer"
+    }
+   ]
+  },
+  {
+   "start": 9.095,
+   "end": 9.346,
+   "title": "Origin of Mount Bizan's Name",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜のごと — like / in the manner of",
+    "〜みたいに — like / resembling"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.1,
+     "end": 9.135,
+     "ja": "眉山ってなんで眉山って言うんですか？",
+     "en": "Why is Mount Bizan called Bizan?",
+     "speaker": "Announcer"
+    },
+    {
+     "start": 9.136,
+     "end": 9.173,
+     "ja": "眉山ってね、眉毛の「眉」の山で「眉山」なんですよ",
+     "en": "Bizan comes from the kanji for eyebrow, making it 'Eyebrow Mountain'.",
+     "speaker": "Mayor"
+    },
+    {
+     "start": 9.174,
+     "end": 9.218,
+     "ja": "「眉のごと雲居に見ゆる阿波の山」",
+     "en": "'Like an eyebrow, the mountain of Awa appears amidst the clouds.'",
+     "speaker": "Mayor"
+    },
+    {
+     "start": 9.22,
+     "end": 9.239,
+     "ja": "これ万葉集なんです",
+     "en": "This is from the Manyoshu.",
+     "speaker": "Mayor"
+    },
+    {
+     "start": 9.24,
+     "end": 9.27,
+     "ja": "「眉のごと」眉、で「眉山」ということです",
+     "en": "'Like an eyebrow'—eyebrow—hence 'Bizan'.",
+     "speaker": "Mayor"
+    },
+    {
+     "start": 9.271,
+     "end": 9.294,
+     "ja": "意味は「眉のように」みたいな？",
+     "en": "So the meaning is 'like an eyebrow'?",
+     "speaker": "Announcer"
+    },
+    {
+     "start": 9.295,
+     "end": 9.34,
+     "ja": "眉のように。ちょうど眉みたいにスーッとなだらかな山なんですね",
+     "en": "Like an eyebrow. Just like an eyebrow, it's a smooth, gently sloping mountain.",
+     "speaker": "Mayor"
+    }
+   ]
+  },
+  {
+   "start": 23.205,
+   "end": 23.5,
+   "title": "400 Years of Taki no Yakimochi",
+   "level": "N3",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜として — in the role of / as",
+    "〜でございます — polite form of です"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.21,
+     "end": 23.25,
+     "ja": "これがね、和田の屋さんの滝の焼餅",
+     "en": "This is Wadanoya's Taki no Yakimochi.",
+     "speaker": "Mayor"
+    },
+    {
+     "start": 23.251,
+     "end": 23.27,
+     "ja": "滝の焼餅",
+     "en": "Taki no Yakimochi.",
+     "speaker": "Announcer"
+    },
+    {
+     "start": 23.271,
+     "end": 23.298,
+     "ja": "これがですね、美味しいんですよ",
+     "en": "This is really delicious.",
+     "speaker": "Mayor"
+    },
+    {
+     "start": 23.31,
+     "end": 23.365,
+     "ja": "これもう徳島の大昔からあるお菓子なんですけど、ちょっと紹介していただきましょうか",
+     "en": "This is a treat that has been around in Tokushima since ancient times, so shall we have it introduced?",
+     "speaker": "Mayor"
+    },
+    {
+     "start": 23.37,
+     "end": 23.4,
+     "ja": "そうですね、400年の歴史があります",
+     "en": "Indeed, it has a 400-year history.",
+     "speaker": "Shopkeeper"
+    },
+    {
+     "start": 23.401,
+     "end": 23.437,
+     "ja": "阿波藩主の御用菓子として知られてるんですけれども",
+     "en": "It is known as an official confection for the lord of the Awa domain,",
+     "speaker": "Shopkeeper"
+    },
+    {
+     "start": 23.438,
+     "end": 23.495,
+     "ja": "徳島城が築城の時にお祝いとして献上されたお菓子でございます",
+     "en": "and it was a confection presented in celebration when Tokushima Castle was built.",
+     "speaker": "Shopkeeper"
+    }
+   ]
+  }
+ ],
+ "videoId": "OvCvZwC61r8",
+ "pickTopics": [
+  "culture",
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

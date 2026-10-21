@@ -1,0 +1,226 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 74.0,
+   "end": 96.0,
+   "title": "Manager and Talent Dynamic",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜んじゃないかな — I wonder / think maybe",
+    "〜みたい — like / seems like",
+    "〜そう — looks like / appears"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 74.5,
+     "end": 78.8,
+     "ja": "俺もなんか、ちょっと色々プレッシャーかけちゃったんじゃないかなと思ってさ。",
+     "en": "I was thinking maybe I ended up putting too much pressure on them.",
+     "speaker": "Talent"
+    },
+    {
+     "start": 79.1,
+     "end": 81.0,
+     "ja": "ああ、本当ですか？",
+     "en": "Oh, really?",
+     "speaker": "Talent"
+    },
+    {
+     "start": 81.3,
+     "end": 83.3,
+     "ja": "ああ、ならよかったです。",
+     "en": "Ah, that's good then.",
+     "speaker": "Talent"
+    },
+    {
+     "start": 83.7,
+     "end": 85.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Talent"
+    },
+    {
+     "start": 86.2,
+     "end": 88.5,
+     "ja": "オッケーです、オッケーです。はい。",
+     "en": "All good, all good. Yes.",
+     "speaker": "Talent"
+    },
+    {
+     "start": 89.0,
+     "end": 90.6,
+     "ja": "わかりました。",
+     "en": "Understood.",
+     "speaker": "Talent"
+    },
+    {
+     "start": 91.2,
+     "end": 93.3,
+     "ja": "また何かあったら連絡します。",
+     "en": "I'll contact you again if anything comes up.",
+     "speaker": "Talent"
+    },
+    {
+     "start": 93.8,
+     "end": 95.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Talent"
+    }
+   ]
+  },
+  {
+   "start": 102.5,
+   "end": 118.5,
+   "title": "Meet the New Manager",
+   "level": "N4",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜になります — to become / will be",
+    "〜と申します — my name is (humble)",
+    "〜だけ — only"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 102.6,
+     "end": 105.5,
+     "ja": "本日から二階堂さんの担当マネージャーになります、",
+     "en": "Starting today, I will be Nikaido-san's manager.",
+     "speaker": "Manager"
+    },
+    {
+     "start": 105.7,
+     "end": 107.5,
+     "ja": "大杉と申します！",
+     "en": "My name is Osugi!",
+     "speaker": "Manager"
+    },
+    {
+     "start": 107.7,
+     "end": 109.5,
+     "ja": "よろしくお願いいたします！",
+     "en": "Pleased to work with you!",
+     "speaker": "Manager"
+    },
+    {
+     "start": 109.7,
+     "end": 113.1,
+     "ja": "おお！今まさに社長と電話してたよ。",
+     "en": "Oh! I was just on the phone with the president.",
+     "speaker": "Talent"
+    },
+    {
+     "start": 113.2,
+     "end": 114.7,
+     "ja": "本当ですか？",
+     "en": "Really?",
+     "speaker": "Manager"
+    },
+    {
+     "start": 114.8,
+     "end": 116.3,
+     "ja": "元気いいね。",
+     "en": "You're very energetic.",
+     "speaker": "Talent"
+    },
+    {
+     "start": 116.4,
+     "end": 118.5,
+     "ja": "元気だけが取り柄ですから！",
+     "en": "Energy is my only redeeming feature!",
+     "speaker": "Manager"
+    }
+   ]
+  },
+  {
+   "start": 413.0,
+   "end": 427.0,
+   "title": "A Year Later: Secret Gestures",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜でいい — fine with / okay with",
+    "〜てきます — go and do something",
+    "〜とき — when / at the time of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 413.3,
+     "end": 414.2,
+     "ja": "大杉、これ。",
+     "en": "Osugi, this.",
+     "speaker": "Talent"
+    },
+    {
+     "start": 414.5,
+     "end": 415.8,
+     "ja": "何買ってきましょう？",
+     "en": "What should I buy?",
+     "speaker": "Manager"
+    },
+    {
+     "start": 415.9,
+     "end": 416.7,
+     "ja": "これ。",
+     "en": "This.",
+     "speaker": "Talent"
+    },
+    {
+     "start": 416.8,
+     "end": 417.8,
+     "ja": "サンドイッチで。",
+     "en": "A sandwich.",
+     "speaker": "Manager"
+    },
+    {
+     "start": 417.9,
+     "end": 418.8,
+     "ja": "あとこれ。",
+     "en": "And this.",
+     "speaker": "Talent"
+    },
+    {
+     "start": 418.9,
+     "end": 421.3,
+     "ja": "ハムチーズ。セブン-イレブンで。了解です！",
+     "en": "Ham and cheese. From 7-Eleven. Understood!",
+     "speaker": "Manager"
+    },
+    {
+     "start": 421.5,
+     "end": 423.8,
+     "ja": "後ででいいですかね？後で買ってきますんで。",
+     "en": "Is it okay if I get it later? I'll buy it later.",
+     "speaker": "Manager"
+    },
+    {
+     "start": 423.9,
+     "end": 426.0,
+     "ja": "後で。うん、了解です。",
+     "en": "Later. Yeah, understood.",
+     "speaker": "Talent"
+    }
+   ]
+  }
+ ],
+ "videoId": "UumKThuiBtw",
+ "pickTopics": [
+  "fun",
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

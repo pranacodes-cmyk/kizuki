@@ -1,0 +1,229 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 27.2,
+   "end": 44.2,
+   "title": "Inviting the Dogs for a Walk",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜に行く — to go to do (purpose)",
+    "〜ね — seeking agreement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 27.5,
+     "end": 29.0,
+     "ja": "リキ？",
+     "en": "Riki?",
+     "speaker": "Man"
+    },
+    {
+     "start": 29.8,
+     "end": 32.0,
+     "ja": "山に散歩行く？",
+     "en": "Wanna go for a walk in the mountains?",
+     "speaker": "Man"
+    },
+    {
+     "start": 33.2,
+     "end": 34.5,
+     "ja": "ねえ？",
+     "en": "Huh?",
+     "speaker": "Man"
+    },
+    {
+     "start": 35.8,
+     "end": 38.0,
+     "ja": "山に散歩行く？",
+     "en": "Wanna go for a walk in the mountains?",
+     "speaker": "Man"
+    },
+    {
+     "start": 38.8,
+     "end": 40.2,
+     "ja": "行こ。",
+     "en": "Let's go.",
+     "speaker": "Man"
+    },
+    {
+     "start": 41.8,
+     "end": 43.7,
+     "ja": "あら嬉しいね、リコ。",
+     "en": "Aw, you're so happy, aren't you, Riko?",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 448.0,
+   "end": 508.5,
+   "title": "Checking on the Rescued Kitten",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜てあげる — doing something for someone",
+    "〜と思う — to think that"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 448.2,
+     "end": 450.4,
+     "ja": "なんかちょっと震えとる。濡れとる。",
+     "en": "It's shivering a bit. It's wet.",
+     "speaker": "Man"
+    },
+    {
+     "start": 450.4,
+     "end": 451.5,
+     "ja": "濡れとるね。",
+     "en": "It is wet.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 451.5,
+     "end": 453.0,
+     "ja": "うん。綺麗よ、まだね。",
+     "en": "Yeah. Still clean, though.",
+     "speaker": "Man"
+    },
+    {
+     "start": 453.0,
+     "end": 453.9,
+     "ja": "そうね。",
+     "en": "Yeah.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 454.0,
+     "end": 456.5,
+     "ja": "ただちょっと泥とか付いとったけどね。",
+     "en": "Though it had a bit of mud on it.",
+     "speaker": "Man"
+    },
+    {
+     "start": 456.5,
+     "end": 457.9,
+     "ja": "うん、うん、うん。",
+     "en": "Yeah, yeah, yeah.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 500.0,
+     "end": 502.0,
+     "ja": "濡れとる。ねえ。",
+     "en": "It's wet, isn't it?",
+     "speaker": "Man"
+    },
+    {
+     "start": 502.8,
+     "end": 505.8,
+     "ja": "リキとかのタオル持ってきてると思うからさ、後で...",
+     "en": "I think I brought a towel for Riki and the others, so later...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 505.9,
+     "end": 507.0,
+     "ja": "後でね。",
+     "en": "Later, right.",
+     "speaker": "Man"
+    },
+    {
+     "start": 507.1,
+     "end": 508.5,
+     "ja": "うん、後で拭いてあげよう。",
+     "en": "Yeah, let's dry it off later.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 508.5,
+   "end": 528.5,
+   "title": "Introducing the Kitten to the Dog",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "どうする — what should we do",
+    "こんな〜 — such / this kind of"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 508.5,
+     "end": 510.0,
+     "ja": "え、これちょっと待って、どうする？",
+     "en": "Wait a second, what do we do?",
+     "speaker": "Man"
+    },
+    {
+     "start": 510.0,
+     "end": 512.3,
+     "ja": "お前どうしたの？こんなところで。",
+     "en": "What happened to you, in a place like this?",
+     "speaker": "Man"
+    },
+    {
+     "start": 512.3,
+     "end": 513.3,
+     "ja": "震えとるやん。",
+     "en": "It's shivering.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 513.3,
+     "end": 515.5,
+     "ja": "やばいよ、寒いよ。",
+     "en": "This is bad, it's cold.",
+     "speaker": "Man"
+    },
+    {
+     "start": 518.5,
+     "end": 520.5,
+     "ja": "リキ...リキ何しよる？",
+     "en": "Riki... what is Riki doing?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 520.8,
+     "end": 522.5,
+     "ja": "リコ。リコ。",
+     "en": "Riko. Riko.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 523.0,
+     "end": 525.0,
+     "ja": "リコ、ほら。赤ちゃんよ、ほら。",
+     "en": "Riko, look. It's a baby, look.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 526.5,
+     "end": 528.2,
+     "ja": "リコ、見て。ほら。",
+     "en": "Riko, look. Look.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "sO18tn2v894",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

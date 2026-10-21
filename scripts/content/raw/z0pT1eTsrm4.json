@@ -1,0 +1,184 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 3.135,
+   "end": 33.9,
+   "title": "Asking to Leave Early",
+   "level": "N5",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜てもいいですか — may I / is it okay to",
+    "〜てはいけません — must not / may not",
+    "〜から — because / reason"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.138,
+     "end": 3.175,
+     "ja": "すみません、河合さん。",
+     "en": "Excuse me, Kawai-san.",
+     "speaker": "Shirai"
+    },
+    {
+     "start": 3.195,
+     "end": 3.225,
+     "ja": "ん？どうしたの。",
+     "en": "Hm? What's up?",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 3.235,
+     "end": 3.275,
+     "ja": "今日の午後、帰ってもいいですか？",
+     "en": "Can I go home this afternoon?",
+     "speaker": "Shirai"
+    },
+    {
+     "start": 3.28,
+     "end": 3.345,
+     "ja": "今日の午後？ダメです。帰ってはいけません。",
+     "en": "This afternoon? No, you can't. You must not go home.",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 3.352,
+     "end": 3.388,
+     "ja": "大切な会議があるんですから。",
+     "en": "Because we have an important meeting.",
+     "speaker": "Kawai"
+    }
+   ]
+  },
+  {
+   "start": 5.428,
+   "end": 6.105,
+   "title": "Honeymoon Plans in Thailand",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜たい — want to",
+    "〜て、〜て — listing actions in sequence",
+    "〜に行く — go to do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.432,
+     "end": 5.478,
+     "ja": "ゆきちゃんは？どこか行きたいところある？",
+     "en": "What about you, Yuki-chan? Is there somewhere you want to go?",
+     "speaker": "Akihiro"
+    },
+    {
+     "start": 5.488,
+     "end": 5.552,
+     "ja": "私は、ここ。タイ！",
+     "en": "For me, it's here. Thailand!",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 5.56,
+     "end": 5.605,
+     "ja": "タイ？！タイで何をするの？",
+     "en": "Thailand?! What do you want to do in Thailand?",
+     "speaker": "Akihiro"
+    },
+    {
+     "start": 6.012,
+     "end": 6.098,
+     "ja": "辛いタイ料理を食べて、海でダイビングして、あとニューハーフショーを見に行く！",
+     "en": "Eat spicy Thai food, dive in the ocean, and go see a cabaret show!",
+     "speaker": "Yuki"
+    }
+   ]
+  },
+  {
+   "start": 10.032,
+   "end": 10.315,
+   "title": "Questioned by Store Security",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ています — ongoing state / occupation",
+    "〜に住んでいます — living in a place",
+    "〜ですか — question particle"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.038,
+     "end": 10.055,
+     "ja": "お名前は？",
+     "en": "What's your name?",
+     "speaker": "Guard"
+    },
+    {
+     "start": 10.058,
+     "end": 10.085,
+     "ja": "小林さゆりです。",
+     "en": "Sayuri Kobayashi.",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 10.088,
+     "end": 10.112,
+     "ja": "どこに住んでいますか。",
+     "en": "Where do you live?",
+     "speaker": "Guard"
+    },
+    {
+     "start": 10.115,
+     "end": 10.15,
+     "ja": "仙台市に住んでいます。",
+     "en": "I live in Sendai City.",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 10.155,
+     "end": 10.175,
+     "ja": "お仕事は？",
+     "en": "What is your job?",
+     "speaker": "Guard"
+    },
+    {
+     "start": 10.185,
+     "end": 10.218,
+     "ja": "英語を教えています。",
+     "en": "I teach English.",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 10.225,
+     "end": 10.29,
+     "ja": "英語を教えている？学校の先生ですか？",
+     "en": "You teach English? Are you a teacher at school?",
+     "speaker": "Guard"
+    },
+    {
+     "start": 10.295,
+     "end": 10.31,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Sayuri"
+    }
+   ]
+  }
+ ],
+ "videoId": "z0pT1eTsrm4",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

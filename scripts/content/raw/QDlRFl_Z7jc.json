@@ -1,0 +1,77 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 193.3,
+   "end": 222.5,
+   "title": "Playing with the Cat and Dog",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜じゃない — is not",
+    "〜ね — seeking agreement / friendly confirmation",
+    "〜よう — volitional form (let's ...)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 193.6,
+     "end": 195.5,
+     "ja": "ほら一休、じゃらしちゃん。",
+     "en": "Look, Ikkyu, it's the teaser toy.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 196.8,
+     "end": 198.2,
+     "ja": "一休、ほら。",
+     "en": "Ikkyu, look.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 200.6,
+     "end": 203.2,
+     "ja": "角が気になってるね、一休。",
+     "en": "You're curious about the antler, huh, Ikkyu?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 213.8,
+     "end": 215.3,
+     "ja": "しーちゃん？",
+     "en": "Shi-chan?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 216.0,
+     "end": 217.5,
+     "ja": "一休じゃないよ。",
+     "en": "Not Ikkyu.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 218.0,
+     "end": 219.2,
+     "ja": "しーちゃん。",
+     "en": "Shi-chan.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 219.8,
+     "end": 222.0,
+     "ja": "しーちゃん、こっちで遊ぼうね。",
+     "en": "Shi-chan, let's play over here, okay?",
+     "speaker": "Owner"
+    }
+   ]
+  }
+ ],
+ "videoId": "QDlRFl_Z7jc",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

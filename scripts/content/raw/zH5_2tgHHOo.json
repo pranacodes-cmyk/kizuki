@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 194.0,
+   "end": 206.5,
+   "title": "Describing the Black Cat",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜ですね — seeking agreement / isn't it",
+    "〜い — i-adjective modifying noun"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 194.2,
+     "end": 198.0,
+     "ja": "この猫は黒猫ですね。",
+     "en": "This cat is a black cat, isn't it?",
+     "speaker": "Yoshito"
+    },
+    {
+     "start": 198.5,
+     "end": 200.5,
+     "ja": "黒猫です。",
+     "en": "It's a black cat.",
+     "speaker": "Yoshito"
+    },
+    {
+     "start": 200.7,
+     "end": 202.5,
+     "ja": "黒い猫です。",
+     "en": "It's a black cat.",
+     "speaker": "Yoshito"
+    },
+    {
+     "start": 202.8,
+     "end": 206.0,
+     "ja": "目は緑ですね。",
+     "en": "Its eyes are green, aren't they?",
+     "speaker": "Yoshito"
+    }
+   ]
+  },
+  {
+   "start": 339.2,
+   "end": 363.8,
+   "title": "Learning the Movement Controls",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜と — natural consequence / when, if",
+    "〜ね — confirmation particle"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 339.5,
+     "end": 344.0,
+     "ja": "Wを押すと前に進みます。",
+     "en": "If you press W, you move forward.",
+     "speaker": "Yoshito"
+    },
+    {
+     "start": 344.5,
+     "end": 349.0,
+     "ja": "Wを押します。前に進みますね。",
+     "en": "I'll press W. It moves forward, doesn't it?",
+     "speaker": "Yoshito"
+    },
+    {
+     "start": 350.5,
+     "end": 357.0,
+     "ja": "で、Aを押すと左に進みますね。",
+     "en": "And if you press A, it moves left.",
+     "speaker": "Yoshito"
+    },
+    {
+     "start": 358.5,
+     "end": 363.3,
+     "ja": "で、Dを押すと右に進みます。",
+     "en": "And if you press D, it moves right.",
+     "speaker": "Yoshito"
+    }
+   ]
+  },
+  {
+   "start": 638.5,
+   "end": 664.5,
+   "title": "Appliances in the Kitchen",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜には〜がある — existence of things at a location",
+    "〜も — also / too"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 638.8,
+     "end": 643.0,
+     "ja": "キッチンには色んな物がありますね。",
+     "en": "There are various things in the kitchen.",
+     "speaker": "Yoshito"
+    },
+    {
+     "start": 644.0,
+     "end": 648.0,
+     "ja": "右にはコンロがありますね。",
+     "en": "On the right, there is a stovetop.",
+     "speaker": "Yoshito"
+    },
+    {
+     "start": 649.0,
+     "end": 653.0,
+     "ja": "それから電子レンジもありますね。",
+     "en": "And there is also a microwave.",
+     "speaker": "Yoshito"
+    },
+    {
+     "start": 653.5,
+     "end": 655.5,
+     "ja": "電子レンジ。",
+     "en": "Microwave.",
+     "speaker": "Yoshito"
+    },
+    {
+     "start": 657.0,
+     "end": 660.5,
+     "ja": "それから炊飯器もありますね。",
+     "en": "And there is also a rice cooker.",
+     "speaker": "Yoshito"
+    },
+    {
+     "start": 661.0,
+     "end": 664.0,
+     "ja": "それからポットもあります。",
+     "en": "And there is also an electric kettle.",
+     "speaker": "Yoshito"
+    }
+   ]
+  }
+ ],
+ "videoId": "zH5_2tgHHOo",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

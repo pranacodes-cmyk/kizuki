@@ -1,0 +1,234 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 139.0,
+   "end": 161.0,
+   "title": "What Are You Watching With Your Friend?",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "fun",
+    "romance"
+   ],
+   "grammar": [
+    "〜てんの — contraction of 〜ているの (what are you doing)",
+    "〜ってなって — having come to pass that",
+    "〜先 — ahead / first"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 139.0,
+     "end": 140.5,
+     "ja": "何やってんの？",
+     "en": "What are you doing?",
+     "speaker": "Shin"
+    },
+    {
+     "start": 140.8,
+     "end": 146.5,
+     "ja": "え？ あの、友達とあのDVD見ようってなって、うん。",
+     "en": "Huh? Well, um, my friend and I decided to watch a DVD, yeah.",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 147.0,
+     "end": 149.0,
+     "ja": "え、友達はどこ？",
+     "en": "Wait, where is your friend?",
+     "speaker": "Shin"
+    },
+    {
+     "start": 149.2,
+     "end": 153.0,
+     "ja": "あ、あの、私の家に先に帰ってる。うん。",
+     "en": "Ah, um, she went ahead to my place. Yeah.",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 153.2,
+     "end": 155.0,
+     "ja": "あ、そうなんだ。",
+     "en": "Oh, is that so?",
+     "speaker": "Shin"
+    },
+    {
+     "start": 155.2,
+     "end": 156.5,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 156.7,
+     "end": 159.5,
+     "ja": "で、友達とAV見んの？",
+     "en": "So... you're watching adult videos with your friend?",
+     "speaker": "Shin"
+    },
+    {
+     "start": 159.8,
+     "end": 160.8,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Kyoko"
+    }
+   ]
+  },
+  {
+   "start": 226.0,
+   "end": 250.0,
+   "title": "I Just Wanted to Prepare",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "romance"
+   ],
+   "grammar": [
+    "〜たことない — have never experienced",
+    "せめて〜だけでも — at least only ~",
+    "〜（よ）うと思って — thinking of doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 226.0,
+     "end": 227.3,
+     "ja": "私、",
+     "en": "To me,",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 227.8,
+     "end": 230.8,
+     "ja": "しん君が初めての彼氏だから、",
+     "en": "Shin-kun is my first boyfriend, so...",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 231.2,
+     "end": 234.8,
+     "ja": "明日初めてしん君の家泊まりに行くってなって、",
+     "en": "When we arranged for me to stay at your place for the first time tomorrow,",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 235.2,
+     "end": 239.2,
+     "ja": "でも、夜のそういうのしたことないから不安で。",
+     "en": "I've never done that kind of nighttime stuff, so I was worried.",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 240.0,
+     "end": 244.5,
+     "ja": "だから、せめて予習だけでもしとこうと思って。",
+     "en": "So, I thought I should at least do some preparation.",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 246.0,
+     "end": 249.5,
+     "ja": "変な嘘ついてごめんね。",
+     "en": "I'm sorry for telling such weird lies.",
+     "speaker": "Kyoko"
+    }
+   ]
+  },
+  {
+   "start": 423.8,
+   "end": 448.8,
+   "title": "Calling Home to Cancel",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくんない — won't you do for me (casual)",
+    "〜って — indirect quotation / explaining reason",
+    "〜にゃ — colloquial contraction of には"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 424.0,
+     "end": 425.5,
+     "ja": "あ、お母さん？",
+     "en": "Ah, Mom?",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 426.0,
+     "end": 427.5,
+     "ja": "あれ？ 何で直人？",
+     "en": "Huh? Why Naoto?",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 427.8,
+     "end": 429.5,
+     "ja": "何で直人が出んの？",
+     "en": "Why are you picking up, Naoto?",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 429.8,
+     "end": 431.8,
+     "ja": "え？ お母さん風呂？",
+     "en": "Huh? Mom's in the bath?",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 432.0,
+     "end": 434.2,
+     "ja": "あ、じゃ直人、お母さんに言っといてくんない？",
+     "en": "Ah, well Naoto, could you tell Mom for me?",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 434.5,
+     "end": 436.5,
+     "ja": "ちょっと今日は帰れないって。",
+     "en": "That I can't come home today.",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 436.8,
+     "end": 438.0,
+     "ja": "何でって、",
+     "en": "Why, you ask?",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 438.2,
+     "end": 442.0,
+     "ja": "中学生のあんたにゃまだ分かんないこと。",
+     "en": "Something a middle schooler like you wouldn't understand yet.",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 442.5,
+     "end": 445.5,
+     "ja": "大人の女は大変なの。",
+     "en": "Being an adult woman is tough.",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 446.0,
+     "end": 448.5,
+     "ja": "あ、大人になる女は。",
+     "en": "Ah, a woman who is becoming an adult, that is.",
+     "speaker": "Kyoko"
+    }
+   ]
+  }
+ ],
+ "videoId": "Pd7hmtR5-qg",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

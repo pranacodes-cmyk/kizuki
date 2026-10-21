@@ -1,0 +1,85 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 33.6,
+   "end": 52.6,
+   "title": "Asking Nick's Wife About Him",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜ほうがいい — it's better to"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 33.9,
+     "end": 34.8,
+     "ja": "こんばんは。",
+     "en": "Good evening.",
+     "speaker": "Wife"
+    },
+    {
+     "start": 34.8,
+     "end": 37.1,
+     "ja": "ニックの好きな所教えてください！",
+     "en": "Please tell us what you like about Nick!",
+     "speaker": "Niki"
+    },
+    {
+     "start": 37.1,
+     "end": 38.6,
+     "ja": "大きなお腹です！",
+     "en": "His big belly!",
+     "speaker": "Wife"
+    },
+    {
+     "start": 44.3,
+     "end": 46.1,
+     "ja": "２Lのペットボトルサイズかな。",
+     "en": "Maybe the size of a 2-liter bottle.",
+     "speaker": "Wife"
+    },
+    {
+     "start": 46.1,
+     "end": 47.4,
+     "ja": "マジ？！",
+     "en": "Seriously?!",
+     "speaker": "Siro"
+    },
+    {
+     "start": 47.4,
+     "end": 49.9,
+     "ja": "この後ニックと喋るのちょっと緊張するんだけど、",
+     "en": "I'm a bit nervous to talk to Nick after this, but...",
+     "speaker": "Siro"
+    },
+    {
+     "start": 49.9,
+     "end": 51.3,
+     "ja": "異常！異常！！",
+     "en": "Abnormal! Abnormal!!",
+     "speaker": "Niki"
+    },
+    {
+     "start": 51.3,
+     "end": 52.4,
+     "ja": "敬語で喋ったほうが良いかもしらん、俺ら。",
+     "en": "Maybe we should speak to him with polite language.",
+     "speaker": "Siro"
+    }
+   ]
+  }
+ ],
+ "videoId": "GXuT_mCprxk",
+ "pickTopics": [
+  "friends",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

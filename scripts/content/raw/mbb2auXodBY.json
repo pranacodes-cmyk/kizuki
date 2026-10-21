@@ -1,0 +1,102 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 13.4,
+   "title": "Mary-san Style Phone Call from Mars",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "comedy",
+    "anime"
+   ],
+   "grammar": [
+    "〜にいる — to be in/at",
+    "〜の — casual sentence ending"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.7,
+     "end": 2.5,
+     "ja": "もしもし、私夏芽。",
+     "en": "Hello, it's me, Natsume.",
+     "speaker": "Natsume"
+    },
+    {
+     "start": 2.7,
+     "end": 5.3,
+     "ja": "今、火星にいるの。",
+     "en": "Right now, I'm on Mars.",
+     "speaker": "Natsume"
+    },
+    {
+     "start": 5.8,
+     "end": 8.0,
+     "ja": "もしもし、私夏芽。",
+     "en": "Hello, it's me, Natsume.",
+     "speaker": "Natsume"
+    },
+    {
+     "start": 8.1,
+     "end": 12.8,
+     "ja": "今、いま〜、日本にいるの。",
+     "en": "Right now, right now... I'm in Japan.",
+     "speaker": "Natsume"
+    }
+   ]
+  },
+  {
+   "start": 19.9,
+   "end": 43.6,
+   "title": "Getting Closer and Closer",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "comedy",
+    "anime"
+   ],
+   "grammar": [
+    "〜の前に — in front of",
+    "〜よ — particle giving new information"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 20.0,
+     "end": 25.0,
+     "ja": "もしもし、私夏芽。今、同じ市内にいるよぉ。",
+     "en": "Hello, it's me, Natsume. Right now, I'm in the same city as you.",
+     "speaker": "Natsume"
+    },
+    {
+     "start": 25.6,
+     "end": 32.2,
+     "ja": "もしもし、私夏芽。今、君の家の前にいるよぉ。",
+     "en": "Hello, it's me, Natsume. Right now, I'm in front of your house.",
+     "speaker": "Natsume"
+    },
+    {
+     "start": 32.5,
+     "end": 38.5,
+     "ja": "もしもし、私夏芽！今、君の目の前にいるよぉ。",
+     "en": "Hello, it's me, Natsume! Right now, I'm right in front of your eyes.",
+     "speaker": "Natsume"
+    },
+    {
+     "start": 40.0,
+     "end": 43.3,
+     "ja": "にへへ、ここだよぉ。",
+     "en": "Hehehe, I'm right here!",
+     "speaker": "Natsume"
+    }
+   ]
+  }
+ ],
+ "videoId": "mbb2auXodBY",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

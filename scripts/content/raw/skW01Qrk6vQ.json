@@ -1,0 +1,236 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 61.0,
+   "end": 84.8,
+   "title": "Choose Who You Ask Directions From",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜ぶり — after a duration of",
+    "〜みたい — seems like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 61.2,
+     "end": 64.8,
+     "ja": "普通あんまこういうタイプの人に話しかけねえんだよ！",
+     "en": "Normally people don't talk to someone like me!",
+     "speaker": "Older man"
+    },
+    {
+     "start": 65.0,
+     "end": 68.0,
+     "ja": "俺、２、３０年ぶりだぞ、人と話したの。",
+     "en": "It's been twenty or thirty years since I talked to a person!",
+     "speaker": "Older man"
+    },
+    {
+     "start": 68.5,
+     "end": 71.5,
+     "ja": "そうでしたか。それでは道を教えてください。",
+     "en": "Is that so? Well then, please tell me the way.",
+     "speaker": "Young man"
+    },
+    {
+     "start": 71.8,
+     "end": 74.0,
+     "ja": "あの、もっと人を選べよ！",
+     "en": "Listen, pick who you talk to more carefully!",
+     "speaker": "Older man"
+    },
+    {
+     "start": 74.1,
+     "end": 77.5,
+     "ja": "俺はまだわずかに自我が残ってたみたいだからいいけど、",
+     "en": "I still had a tiny bit of sense of self left, so it was fine, but...",
+     "speaker": "Older man"
+    },
+    {
+     "start": 77.6,
+     "end": 80.8,
+     "ja": "もう完全に自我がない奴とかいるからね！",
+     "en": "There are people out there who have completely lost their minds!",
+     "speaker": "Older man"
+    },
+    {
+     "start": 81.0,
+     "end": 84.4,
+     "ja": "次から気をつけます。それでは道を教えてください。",
+     "en": "I'll be careful next time. Well then, please tell me the way.",
+     "speaker": "Young man"
+    }
+   ]
+  },
+  {
+   "start": 90.0,
+   "end": 111.0,
+   "title": "Judge by Appearances",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜と思う — think that",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 90.2,
+     "end": 94.5,
+     "ja": "行きたい場所っていうのが、このジューシージャングルっていう新しくできたクラブなんですけど。",
+     "en": "The place I want to go to is this newly opened club called Juicy Jungle.",
+     "speaker": "Young man"
+    },
+    {
+     "start": 94.5,
+     "end": 96.4,
+     "ja": "もっと、もっと人を選べ！",
+     "en": "Pick who you ask more carefully!",
+     "speaker": "Older man"
+    },
+    {
+     "start": 96.5,
+     "end": 100.2,
+     "ja": "俺が新しくできたクラブ知ってると思うか？",
+     "en": "Do you think I'd know about some new club?!",
+     "speaker": "Older man"
+    },
+    {
+     "start": 100.5,
+     "end": 104.5,
+     "ja": "少しは見ためで人を判断しろ！",
+     "en": "Judge people by appearances at least a little!",
+     "speaker": "Older man"
+    },
+    {
+     "start": 105.2,
+     "end": 108.0,
+     "ja": "悲しいこと言わすんなよ！",
+     "en": "Don't make me say pathetic things!",
+     "speaker": "Older man"
+    },
+    {
+     "start": 108.3,
+     "end": 110.6,
+     "ja": "あ、じゃあちょっと他当たってみます。",
+     "en": "Ah, well then, I'll try asking someone else.",
+     "speaker": "Young man"
+    }
+   ]
+  },
+  {
+   "start": 221.2,
+   "end": 252.0,
+   "title": "A Heartwarming Moment",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜てくれる — do something for someone",
+    "〜って言った — said that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 221.5,
+     "end": 222.8,
+     "ja": "おじさん、",
+     "en": "Mister,",
+     "speaker": "Young man"
+    },
+    {
+     "start": 223.0,
+     "end": 225.5,
+     "ja": "今の、全部見てました。",
+     "en": "I saw everything just now.",
+     "speaker": "Young man"
+    },
+    {
+     "start": 226.5,
+     "end": 229.8,
+     "ja": "おじさん、僕のお金を取らないでくれて、",
+     "en": "Mister, thank you for not taking my money.",
+     "speaker": "Young man"
+    },
+    {
+     "start": 230.0,
+     "end": 231.8,
+     "ja": "ありがとう。",
+     "en": "Thank you.",
+     "speaker": "Young man"
+    },
+    {
+     "start": 232.2,
+     "end": 234.4,
+     "ja": "今、ありがとうって言ったか？",
+     "en": "Did you just say thank you?",
+     "speaker": "Older man"
+    },
+    {
+     "start": 234.6,
+     "end": 235.4,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Young man"
+    },
+    {
+     "start": 235.5,
+     "end": 237.6,
+     "ja": "こんな俺に感謝したのか？",
+     "en": "You're thanking someone like me?",
+     "speaker": "Older man"
+    },
+    {
+     "start": 237.7,
+     "end": 238.6,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Young man"
+    },
+    {
+     "start": 238.7,
+     "end": 242.0,
+     "ja": "おじさんありがとう。僕ね、おじさんのこと大好きだよ。",
+     "en": "Thank you, mister. You know, I really love you.",
+     "speaker": "Young man"
+    },
+    {
+     "start": 242.2,
+     "end": 244.5,
+     "ja": "うわっ！くっ！",
+     "en": "Whoa! Gah!",
+     "speaker": "Older man"
+    },
+    {
+     "start": 245.0,
+     "end": 247.8,
+     "ja": "ここに、なんかある…",
+     "en": "There's... something here...",
+     "speaker": "Older man"
+    },
+    {
+     "start": 248.2,
+     "end": 251.5,
+     "ja": "胸が、温かい…",
+     "en": "My chest feels... warm...",
+     "speaker": "Older man"
+    }
+   ]
+  }
+ ],
+ "videoId": "skW01Qrk6vQ",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

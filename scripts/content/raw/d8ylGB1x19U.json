@@ -1,0 +1,208 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 411.0,
+   "end": 430.5,
+   "title": "New Employee Self-Introduction",
+   "level": "N4",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜と申します — humble introduction",
+    "〜ことになりました / となりました — it has been decided that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 411.3,
+     "end": 412.3,
+     "ja": "はい！",
+     "en": "Yes!",
+     "speaker": "Nishikura"
+    },
+    {
+     "start": 412.3,
+     "end": 413.7,
+     "ja": "本日より！",
+     "en": "Starting today!",
+     "speaker": "Nishikura"
+    },
+    {
+     "start": 413.7,
+     "end": 416.8,
+     "ja": "こちらの支店に配属となりました、",
+     "en": "I have been assigned to this branch,",
+     "speaker": "Nishikura"
+    },
+    {
+     "start": 416.8,
+     "end": 418.4,
+     "ja": "西倉と申します。",
+     "en": "my name is Nishikura.",
+     "speaker": "Nishikura"
+    },
+    {
+     "start": 418.4,
+     "end": 420.5,
+     "ja": "よろしくお願いいたします。",
+     "en": "Pleased to meet you all.",
+     "speaker": "Nishikura"
+    },
+    {
+     "start": 421.0,
+     "end": 424.0,
+     "ja": "出身大学は壱松大学で、",
+     "en": "I graduated from Ichimatsu University,",
+     "speaker": "Nishikura"
+    },
+    {
+     "start": 424.0,
+     "end": 426.5,
+     "ja": "大学ではアメフトを４年間しておりました。",
+     "en": "and in college I played American football for four years.",
+     "speaker": "Nishikura"
+    },
+    {
+     "start": 426.8,
+     "end": 430.3,
+     "ja": "なので体力には自信がありますので、何でもやらせてください。",
+     "en": "So I'm confident in my stamina, please give me anything to do.",
+     "speaker": "Nishikura"
+    }
+   ]
+  },
+  {
+   "start": 446.5,
+   "end": 462.0,
+   "title": "Eager to Learn Without Breaks",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜でいい — it's fine with / no need to",
+    "〜ようになる — become able to",
+    "〜なしで — without"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 447.0,
+     "end": 450.0,
+     "ja": "そんな気張らんでええよ、体持たんくなるで。",
+     "en": "You don't need to tense up that much; your body won't hold out.",
+     "speaker": "Yoneda"
+    },
+    {
+     "start": 450.0,
+     "end": 453.2,
+     "ja": "いや、僕、まだ何も全然出来ないんで、",
+     "en": "No, I really can't do anything yet,",
+     "speaker": "Nishikura"
+    },
+    {
+     "start": 453.2,
+     "end": 455.8,
+     "ja": "すぐに全部出来るようになりたいんです。",
+     "en": "so I want to become able to do everything right away.",
+     "speaker": "Nishikura"
+    },
+    {
+     "start": 456.0,
+     "end": 458.2,
+     "ja": "なので休憩なしで頑張ります！",
+     "en": "That's why I'll do my best without taking breaks!",
+     "speaker": "Nishikura"
+    },
+    {
+     "start": 458.8,
+     "end": 461.5,
+     "ja": "そっか。めちゃくちゃ真面目やな。",
+     "en": "I see. You're really serious.",
+     "speaker": "Yoneda"
+    }
+   ]
+  },
+  {
+   "start": 1325.5,
+   "end": 1348.0,
+   "title": "Choosing a Mentor",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜はどうや — how about...?",
+    "〜とこか — let's (decide on)..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1325.8,
+     "end": 1329.5,
+     "ja": "そしたらな、直属の上司の、課長の荒井とかはどうや？",
+     "en": "In that case, how about your direct superior, Section Chief Arai?",
+     "speaker": "Manager"
+    },
+    {
+     "start": 1329.5,
+     "end": 1332.0,
+     "ja": "課長は気持ち悪いんで、嫌です。",
+     "en": "The Section Chief is creepy, so no thanks.",
+     "speaker": "Nishikura"
+    },
+    {
+     "start": 1332.0,
+     "end": 1333.0,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Arai"
+    },
+    {
+     "start": 1334.0,
+     "end": 1335.5,
+     "ja": "そうか。",
+     "en": "I see.",
+     "speaker": "Manager"
+    },
+    {
+     "start": 1335.8,
+     "end": 1338.0,
+     "ja": "まあ、確かにせやな！",
+     "en": "Well, fair enough!",
+     "speaker": "Manager"
+    },
+    {
+     "start": 1338.0,
+     "end": 1340.8,
+     "ja": "課長やめとこか。分かった分かった。",
+     "en": "Let's skip the Section Chief. Got it, got it.",
+     "speaker": "Manager"
+    },
+    {
+     "start": 1341.0,
+     "end": 1345.5,
+     "ja": "そしたらまあ、あの、米田とかにしよーか？",
+     "en": "Then, well, how about Yoneda or someone?",
+     "speaker": "Manager"
+    },
+    {
+     "start": 1346.0,
+     "end": 1347.5,
+     "ja": "そうですね。",
+     "en": "Sounds good.",
+     "speaker": "Nishikura"
+    }
+   ]
+  }
+ ],
+ "videoId": "d8ylGB1x19U",
+ "pickTopics": [
+  "work",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

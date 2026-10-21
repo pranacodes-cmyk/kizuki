@@ -1,0 +1,172 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 43.5,
+   "end": 65.5,
+   "title": "Why Do You Understand I Love You",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "romance"
+   ],
+   "grammar": [
+    "〜でしょうか — polite inquiry",
+    "なぜ〜のか — inquiring about reason"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 43.7,
+     "end": 47.0,
+     "ja": "「愛してる」で、よろしいでしょうか？",
+     "en": "Is \"I love you\" all right?",
+     "speaker": "Cattleya"
+    },
+    {
+     "start": 47.7,
+     "end": 49.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Client"
+    },
+    {
+     "start": 51.0,
+     "end": 53.5,
+     "ja": "愛してる。",
+     "en": "\"I love you.\"",
+     "speaker": "Violet"
+    },
+    {
+     "start": 56.0,
+     "end": 58.0,
+     "ja": "どうして分かるのですか？",
+     "en": "How do you understand it?",
+     "speaker": "Violet"
+    },
+    {
+     "start": 58.3,
+     "end": 59.5,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Cattleya"
+    },
+    {
+     "start": 59.7,
+     "end": 65.0,
+     "ja": "先ほどの方の「愛してる」が、なぜ分かるのですか？",
+     "en": "How do you know what the previous person meant by \"I love you\"?",
+     "speaker": "Violet"
+    }
+   ]
+  },
+  {
+   "start": 136.5,
+   "end": 157.3,
+   "title": "She Is Not a Weapon",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜はよせ — stop doing (colloquial imperative)",
+    "〜じゃない — is not (negation)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 136.8,
+     "end": 139.5,
+     "ja": "乱暴はよせ。こんな子供に。",
+     "en": "Don't be so rough on a child like this.",
+     "speaker": "Gilbert"
+    },
+    {
+     "start": 139.8,
+     "end": 143.5,
+     "ja": "ギル、そいつは子供じゃない。",
+     "en": "Gil, that thing isn't a child.",
+     "speaker": "Dietfried"
+    },
+    {
+     "start": 143.6,
+     "end": 145.5,
+     "ja": "そいつは武器だ。",
+     "en": "That thing is a weapon.",
+     "speaker": "Dietfried"
+    },
+    {
+     "start": 145.6,
+     "end": 147.0,
+     "ja": "武器？",
+     "en": "A weapon?",
+     "speaker": "Gilbert"
+    },
+    {
+     "start": 147.2,
+     "end": 150.8,
+     "ja": "ただの戦う道具だ。",
+     "en": "Just a tool for fighting.",
+     "speaker": "Dietfried"
+    },
+    {
+     "start": 151.8,
+     "end": 155.0,
+     "ja": "分かった。この子は引き取る。",
+     "en": "Understood. I will take this child in.",
+     "speaker": "Gilbert"
+    },
+    {
+     "start": 155.5,
+     "end": 156.8,
+     "ja": "そうか。",
+     "en": "I see.",
+     "speaker": "Dietfried"
+    }
+   ]
+  },
+  {
+   "start": 343.2,
+   "end": 354.0,
+   "title": "Your Name Is Violet",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜ば — conditional (if/when)",
+    "〜にふさわしい — worthy of / suitable for"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 343.5,
+     "end": 345.3,
+     "ja": "ヴァイオレット。",
+     "en": "Violet.",
+     "speaker": "Gilbert"
+    },
+    {
+     "start": 345.8,
+     "end": 347.5,
+     "ja": "ヴァイオレットだ。",
+     "en": "Your name is Violet.",
+     "speaker": "Gilbert"
+    },
+    {
+     "start": 347.8,
+     "end": 353.4,
+     "ja": "成長すれば、君はきっとその名前にふさわしい女性になる。",
+     "en": "As you grow up, you will surely become a woman worthy of that name.",
+     "speaker": "Gilbert"
+    }
+   ]
+  }
+ ],
+ "videoId": "gnERFXFt9Ms",
+ "pickTopics": [
+  "anime",
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

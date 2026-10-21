@@ -1,0 +1,248 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.2,
+   "end": 29.3,
+   "title": "Meeting a Ramen Connoisseur",
+   "level": "N3",
+   "topics": [
+    "food",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜一体 — on earth / what kind of",
+    "〜っちゃ〜 — if you call it ... it is ...",
+    "〜に負ける — giving in to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.5,
+     "end": 13.5,
+     "ja": "今回 初めてお会いするんですけど。",
+     "en": "It's actually my first time meeting you today.",
+     "speaker": "A"
+    },
+    {
+     "start": 13.5,
+     "end": 14.4,
+     "ja": "初めてですね。",
+     "en": "It is our first time.",
+     "speaker": "B"
+    },
+    {
+     "start": 14.4,
+     "end": 16.3,
+     "ja": "さぴおさんは一体 何者なんですか？",
+     "en": "Who on earth are you, Sapio-san?",
+     "speaker": "A"
+    },
+    {
+     "start": 16.3,
+     "end": 20.3,
+     "ja": "一応なんかラーメンデータベースっていうサイトでレビューをよく書いてる人間ですね。",
+     "en": "Well, I'm someone who frequently writes reviews on a site called Ramen Database.",
+     "speaker": "B"
+    },
+    {
+     "start": 20.5,
+     "end": 22.8,
+     "ja": "ただのラーメン好きっちゃラーメン好きですけど。",
+     "en": "Though if you just call me a ramen lover, I guess I'm just that.",
+     "speaker": "B"
+    },
+    {
+     "start": 23.0,
+     "end": 25.8,
+     "ja": "いやいや、年間800杯ってとんでもない数ですけど。",
+     "en": "No, no, 800 bowls a year is an insane number, though.",
+     "speaker": "A"
+    },
+    {
+     "start": 25.8,
+     "end": 28.0,
+     "ja": "いや、欲に負けてるだけです。",
+     "en": "No, I'm just giving in to my cravings.",
+     "speaker": "B"
+    },
+    {
+     "start": 28.0,
+     "end": 29.1,
+     "ja": "最高っすね。",
+     "en": "That's awesome.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 130.0,
+   "end": 144.2,
+   "title": "Asking for Menu Recommendations",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜としたら — if (assuming)",
+    "〜と聞いてます — I've heard that",
+    "〜ましょう — let's do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 130.2,
+     "end": 133.0,
+     "ja": "頼むとしたら、どれが良さそうですか？",
+     "en": "If we're ordering, which ones look good?",
+     "speaker": "A"
+    },
+    {
+     "start": 133.2,
+     "end": 136.2,
+     "ja": "まあ、椎茸そばか、ねぎそば。",
+     "en": "Well, either the shiitake soba or the scallion soba.",
+     "speaker": "B"
+    },
+    {
+     "start": 136.0,
+     "end": 136.8,
+     "ja": "ほうほう。",
+     "en": "I see, I see.",
+     "speaker": "A"
+    },
+    {
+     "start": 136.8,
+     "end": 138.8,
+     "ja": "で、やっぱサイドに高菜チャーハン。",
+     "en": "And on the side, takana fried rice.",
+     "speaker": "B"
+    },
+    {
+     "start": 138.5,
+     "end": 139.5,
+     "ja": "ほうほう。",
+     "en": "Ooh.",
+     "speaker": "A"
+    },
+    {
+     "start": 139.5,
+     "end": 141.8,
+     "ja": "が、オススメと聞いてます。僕も初めて来たんで。",
+     "en": "Is what I've heard is recommended. It's my first time here, too.",
+     "speaker": "B"
+    },
+    {
+     "start": 141.8,
+     "end": 143.6,
+     "ja": "なるほど。分かりました。じゃあ是非それ行きましょう。",
+     "en": "I see. Got it. Let's definitely go with that, then.",
+     "speaker": "A"
+    },
+    {
+     "start": 143.6,
+     "end": 144.2,
+     "ja": "はい、行きましょう。",
+     "en": "Yeah, let's do it.",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 333.2,
+   "end": 357.6,
+   "title": "How Many Bowls a Day?",
+   "level": "N3",
+   "topics": [
+    "food",
+    "comedy",
+    "friends"
+   ],
+   "grammar": [
+    "〜ってことは — which means...",
+    "〜なら — if it's...",
+    "〜てんだ — informal contraction of 〜ているんだ"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 333.5,
+     "end": 336.0,
+     "ja": "さぴおさん、あの、年間800杯ってことは、",
+     "en": "Sapio-san, so eating 800 bowls a year means...",
+     "speaker": "A"
+    },
+    {
+     "start": 335.2,
+     "end": 336.3,
+     "ja": "はいはいはいはい。",
+     "en": "Yeah, yeah.",
+     "speaker": "B"
+    },
+    {
+     "start": 336.3,
+     "end": 338.2,
+     "ja": "1日何杯ぐらい食べてるんですか？",
+     "en": "About how many bowls do you eat a day?",
+     "speaker": "A"
+    },
+    {
+     "start": 338.2,
+     "end": 340.5,
+     "ja": "回る時で、まあでも…",
+     "en": "When I go on a tour, well...",
+     "speaker": "B"
+    },
+    {
+     "start": 341.0,
+     "end": 344.8,
+     "ja": "まあ、ベースは5軒とかじゃないですか。昼だけなら5だし。",
+     "en": "The baseline is like five shops. If it's just lunch, it's five.",
+     "speaker": "B"
+    },
+    {
+     "start": 344.8,
+     "end": 346.4,
+     "ja": "昼だけなら5！",
+     "en": "Five just for lunch?!",
+     "speaker": "A"
+    },
+    {
+     "start": 346.4,
+     "end": 349.0,
+     "ja": "遠征だとやっぱ9、9まで行きたいっすね。",
+     "en": "On out-of-town trips, I want to hit up to nine.",
+     "speaker": "B"
+    },
+    {
+     "start": 349.2,
+     "end": 350.8,
+     "ja": "えぐいっすね！",
+     "en": "That's insane!",
+     "speaker": "A"
+    },
+    {
+     "start": 351.0,
+     "end": 355.2,
+     "ja": "いやいや、もうあれっすよ。欲に負けてるだけなんで。「食いたい」っていう欲に。",
+     "en": "No, no, it's just that. I'm just giving in to my desires—the desire to eat.",
+     "speaker": "B"
+    },
+    {
+     "start": 355.3,
+     "end": 357.5,
+     "ja": "欲に負けてるっていうか、タガが外れてんだよ！",
+     "en": "More like you've completely lost your restraint!",
+     "speaker": "A"
+    }
+   ]
+  }
+ ],
+ "videoId": "2jTUSTiPS_0",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

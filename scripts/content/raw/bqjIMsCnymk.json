@@ -1,0 +1,198 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 831.5,
+   "end": 849.8,
+   "title": "Keeping the Birthday a Secret",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "そう言えば — come to think of it",
+    "〜になる — to become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 831.8,
+     "end": 833.2,
+     "ja": "いらっしゃい。",
+     "en": "Welcome.",
+     "speaker": "Grandma"
+    },
+    {
+     "start": 833.5,
+     "end": 837.3,
+     "ja": "はなちゃん、そう言えばもうすぐよね。お誕生…",
+     "en": "Hana-chan, come to think of it, it's almost time, right? Your birthd...",
+     "speaker": "Grandma"
+    },
+    {
+     "start": 839.7,
+     "end": 842.4,
+     "ja": "おばあたん、もうすぐ何？",
+     "en": "Grandma, almost time for what?",
+     "speaker": "Hana"
+    },
+    {
+     "start": 843.0,
+     "end": 847.0,
+     "ja": "もうすぐ春になって花が咲くんだよね、おばあちゃん！",
+     "en": "It's almost spring and the flowers will bloom, right, Grandma!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 847.8,
+     "end": 849.5,
+     "ja": "え？え、ええ。",
+     "en": "Huh? Y-yes.",
+     "speaker": "Grandma"
+    }
+   ]
+  },
+  {
+   "start": 1211.5,
+   "end": 1235.8,
+   "title": "Baking with Dad",
+   "level": "N4",
+   "topics": [
+    "family",
+    "food",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ている — ongoing state / resultant state",
+    "〜か — embedded question"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1211.8,
+     "end": 1213.1,
+     "ja": "卵、よし！",
+     "en": "Eggs, check!",
+     "speaker": "Dad"
+    },
+    {
+     "start": 1213.3,
+     "end": 1214.6,
+     "ja": "卵、よし！",
+     "en": "Eggs, check!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 1214.8,
+     "end": 1215.9,
+     "ja": "砂糖！",
+     "en": "Sugar!",
+     "speaker": "Dad"
+    },
+    {
+     "start": 1216.1,
+     "end": 1217.2,
+     "ja": "砂糖！",
+     "en": "Sugar!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 1218.8,
+     "end": 1220.1,
+     "ja": "ハンドミキサー！",
+     "en": "Hand mixer!",
+     "speaker": "Dad"
+    },
+    {
+     "start": 1220.3,
+     "end": 1221.8,
+     "ja": "ハンドミキサー！",
+     "en": "Hand mixer!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 1224.0,
+     "end": 1227.2,
+     "ja": "あれ？動かないぞ。変だなあ。",
+     "en": "Huh? It's not working. That's weird.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 1227.8,
+     "end": 1230.8,
+     "ja": "お父さん、コンセント外れているよ。",
+     "en": "Dad, it's unplugged.",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 1231.2,
+     "end": 1235.4,
+     "ja": "ん？あ、ははは！しまじろうが気づくか試したんだよ。",
+     "en": "Hm? Ah, hahaha! I was just testing to see if you'd notice, Shimajiro.",
+     "speaker": "Dad"
+    }
+   ]
+  },
+  {
+   "start": 1434.5,
+   "end": 1456.5,
+   "title": "The Big Birthday Reveal",
+   "level": "N4",
+   "topics": [
+    "family",
+    "anime",
+    "friends"
+   ],
+   "grammar": [
+    "〜たら — when / after",
+    "〜ようと思う — thinking of doing",
+    "〜ていた — was doing (past continuous)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1434.9,
+     "end": 1438.9,
+     "ja": "はなちゃん！はなちゃんのお誕生日は今日だよ！",
+     "en": "Hana-chan! Your birthday is today!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 1439.5,
+     "end": 1441.8,
+     "ja": "お人形たん、もらえる？",
+     "en": "Can I get the doll?",
+     "speaker": "Hana"
+    },
+    {
+     "start": 1442.0,
+     "end": 1443.9,
+     "ja": "もちろんさ！",
+     "en": "Of course!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 1444.2,
+     "end": 1448.8,
+     "ja": "そうよ、はなちゃん。お家に帰ったらちゃんと分かるから。",
+     "en": "That's right, Hana-chan. You'll see once we get home.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 1449.2,
+     "end": 1456.2,
+     "ja": "ごめんね、はなちゃん。みんなではなちゃんをびっくりさせようと思って、ずっと黙っていたのよ。",
+     "en": "I'm sorry, Hana-chan. We kept quiet because we all wanted to surprise you.",
+     "speaker": "Mother"
+    }
+   ]
+  }
+ ],
+ "videoId": "bqjIMsCnymk",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

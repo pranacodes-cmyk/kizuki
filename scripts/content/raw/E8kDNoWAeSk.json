@@ -1,0 +1,64 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 2.8,
+   "end": 17.2,
+   "title": "The Most Effective Massage Treatment",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜てもらう — have someone do something",
+    "〜時に — when doing",
+    "〜っていう — called / that is"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2.8,
+     "end": 6.2,
+     "ja": "一番効果があった施術があったんですけど、",
+     "en": "There was a treatment that was the most effective,",
+     "speaker": "Girl"
+    },
+    {
+     "start": 6.2,
+     "end": 8.5,
+     "ja": "それがなんか、その後に来た、",
+     "en": "and that was, like, what came after that,",
+     "speaker": "Girl"
+    },
+    {
+     "start": 8.5,
+     "end": 10.7,
+     "ja": "自分でストレッチをする時に、",
+     "en": "when you do stretches yourself,",
+     "speaker": "Girl"
+    },
+    {
+     "start": 10.7,
+     "end": 13.7,
+     "ja": "マッサージ師さんに補助をしてもらうっていう施術で、",
+     "en": "having the massage therapist assist you with the treatment...",
+     "speaker": "Girl"
+    },
+    {
+     "start": 13.7,
+     "end": 17.2,
+     "ja": "せづ…施術、施術、施術、施術で！",
+     "en": "treat... treatment, treatment, treat... treatment!",
+     "speaker": "Girl"
+    }
+   ]
+  }
+ ],
+ "videoId": "E8kDNoWAeSk",
+ "pickTopics": [
+  "fun",
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,55 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 2.3,
+   "end": 16.0,
+   "title": "Placing Items on the Stand",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜の上に — on top of",
+    "〜を置きます — to place something",
+    "〜も — also"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2.5,
+     "end": 4.2,
+     "ja": "台の上に、",
+     "en": "On the stand,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 4.4,
+     "end": 6.7,
+     "ja": "台の上に、",
+     "en": "on the stand,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 9.3,
+     "end": 12.0,
+     "ja": "ディフューザーを置きます。",
+     "en": "I put the diffuser.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 12.3,
+     "end": 15.3,
+     "ja": "ドライヤーも置きます。",
+     "en": "I also put the hair dryer.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "2leqsN0McsE",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

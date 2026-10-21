@@ -1,0 +1,203 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 140.5,
+   "end": 147.0,
+   "title": "Ninja House Atmosphere",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜みたい — looks like / seems like",
+    "〜たら — when / if"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 140.8,
+     "end": 143.0,
+     "ja": "急に階段がいっぱいあってさ、",
+     "en": "Suddenly there are so many stairs,",
+     "speaker": "A"
+    },
+    {
+     "start": 143.0,
+     "end": 145.4,
+     "ja": "忍者屋敷みたいよ、ここ。",
+     "en": "this place is like a ninja house.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 156.4,
+   "end": 175.7,
+   "title": "Buying Lottery Tickets",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜はどれ — which one is...",
+    "〜から — starting from / since"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 156.9,
+     "end": 159.2,
+     "ja": "ジョンちゃん。",
+     "en": "John-chan.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 159.2,
+     "end": 162.0,
+     "ja": "東京オリンピックくじの、",
+     "en": "For the Tokyo Olympics lottery,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 162.0,
+     "end": 163.5,
+     "ja": "どれ？",
+     "en": "which one is it?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 163.5,
+     "end": 165.7,
+     "ja": "こちらですね。",
+     "en": "It's right here.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 165.7,
+     "end": 168.0,
+     "ja": "連番とバラになります。",
+     "en": "We have consecutive numbers and random ones.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 168.0,
+     "end": 170.0,
+     "ja": "いつ抽選？",
+     "en": "When is the drawing?",
+     "speaker": "Man"
+    },
+    {
+     "start": 170.0,
+     "end": 171.7,
+     "ja": "抽選は来月？",
+     "en": "Is the drawing next month?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 171.7,
+     "end": 173.8,
+     "ja": "９月１７日で、",
+     "en": "It's September 17th,",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 173.8,
+     "end": 175.3,
+     "ja": "２４日から払戻し。",
+     "en": "and payouts start from the 24th.",
+     "speaker": "Clerk"
+    }
+   ]
+  },
+  {
+   "start": 558.0,
+   "end": 579.5,
+   "title": "Talking About Swimming",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "travel",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ちゃう — end up doing",
+    "〜つもり — intention / plan to"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 558.4,
+     "end": 560.8,
+     "ja": "砂浜だけのつもりが、",
+     "en": "I only intended to stay on the beach,",
+     "speaker": "Man"
+    },
+    {
+     "start": 560.8,
+     "end": 562.9,
+     "ja": "入ってっちゃうんでしょ、服着て。",
+     "en": "but you ended up going in, clothes and all, right?",
+     "speaker": "Man"
+    },
+    {
+     "start": 562.9,
+     "end": 565.4,
+     "ja": "服着て、ざぶーんと。",
+     "en": "With clothes on, just splashing in.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 565.4,
+     "end": 568.0,
+     "ja": "「あんた何やってんの？」って言ったら、",
+     "en": "When I said, 'What are you doing?'",
+     "speaker": "Woman"
+    },
+    {
+     "start": 568.0,
+     "end": 571.2,
+     "ja": "「え？波にさらわれたかと思った」って、",
+     "en": "you thought, 'Huh, was she swept away by a wave?'",
+     "speaker": "Woman"
+    },
+    {
+     "start": 571.2,
+     "end": 573.0,
+     "ja": "普通に泳いでるのよ。",
+     "en": "and there she was just swimming normally.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 573.0,
+     "end": 575.8,
+     "ja": "「あとどうすんの？」「着替えあるから大丈夫」って。",
+     "en": "'What about after?' 'I have spare clothes, so it's fine.'",
+     "speaker": "Woman"
+    },
+    {
+     "start": 576.0,
+     "end": 577.8,
+     "ja": "今日ダメよ、着替え…",
+     "en": "You can't do that today, spare clothes...",
+     "speaker": "Man"
+    },
+    {
+     "start": 577.8,
+     "end": 579.3,
+     "ja": "ダメ、ダメ、ダメですし。",
+     "en": "No, no, absolutely not.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "lqLBnNSV1rk",
+ "pickTopics": [
+  "culture",
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

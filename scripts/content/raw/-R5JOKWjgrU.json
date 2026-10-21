@@ -1,0 +1,70 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.0,
+   "end": 12.04,
+   "title": "Hayato Kagami Plays a Funny Game",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜はいけない — must not / no good",
+    "〜た — past tense"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 0.0,
+     "end": 1.9,
+     "ja": "え、大変だ。",
+     "en": "Oh, that's terrible.",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 2.0,
+     "end": 3.86,
+     "ja": "え、いけない、いけない！",
+     "en": "Wait, no, no!",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 3.86,
+     "end": 5.4,
+     "ja": "それは行けない！それは…",
+     "en": "You can't do that! That's...",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 5.4,
+     "end": 6.8,
+     "ja": "それはマジでいけない！",
+     "en": "You seriously can't do that!",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 6.8,
+     "end": 8.0,
+     "ja": "本当に…本当に…よし！",
+     "en": "Really... really... alright!",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 10.7,
+     "end": 11.9,
+     "ja": "勝ったな。",
+     "en": "I won.",
+     "speaker": "Hayato"
+    }
+   ]
+  }
+ ],
+ "videoId": "-R5JOKWjgrU",
+ "pickTopics": [
+  "fun",
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,103 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 40.7,
+   "end": 52.8,
+   "title": "Rushing to Work in the Morning",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜そうだ — looks like / seems like",
+    "〜ないと — must do (short for ないといけない)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 40.7,
+     "end": 44.8,
+     "ja": "今日も会社に遅れそうだ。",
+     "en": "Looks like I'll be late for work again today.",
+     "speaker": "Shōta"
+    },
+    {
+     "start": 44.8,
+     "end": 52.1,
+     "ja": "急いで行かないと！",
+     "en": "I've got to hurry!",
+     "speaker": "Shōta"
+    }
+   ]
+  },
+  {
+   "start": 432.5,
+   "end": 445.6,
+   "title": "Encouragement on the Commute",
+   "level": "N4",
+   "topics": [
+    "work",
+    "friends"
+   ],
+   "grammar": [
+    "〜すぎる — to do too much",
+    "〜と — if / when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 432.7,
+     "end": 434.6,
+     "ja": "大変だな。",
+     "en": "That must be tough.",
+     "speaker": "Satō"
+    },
+    {
+     "start": 434.6,
+     "end": 445.2,
+     "ja": "でも頑張りすぎると体を壊すぞ。",
+     "en": "But if you push yourself too hard, you'll ruin your health.",
+     "speaker": "Satō"
+    }
+   ]
+  },
+  {
+   "start": 2849.6,
+   "end": 2862.0,
+   "title": "A Senior's True Joy",
+   "level": "N3",
+   "topics": [
+    "work",
+    "friends"
+   ],
+   "grammar": [
+    "〜こそ — precisely / indeed (emphasis)",
+    "〜のを見る — seeing / watching doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2849.9,
+     "end": 2854.7,
+     "ja": "こちらこそ。",
+     "en": "Likewise.",
+     "speaker": "Satō"
+    },
+    {
+     "start": 2854.7,
+     "end": 2861.5,
+     "ja": "後輩が頑張る姿を見るのは嬉しいんだよ。",
+     "en": "Seeing a junior work hard makes me happy.",
+     "speaker": "Satō"
+    }
+   ]
+  }
+ ],
+ "videoId": "EiXOTBgsKGc",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

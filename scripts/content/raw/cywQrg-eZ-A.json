@@ -1,0 +1,140 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 8.5,
+   "end": 21.5,
+   "title": "Shin Objects to the 15-Year Plan",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜じゃねえ — informal negative contraction",
+    "〜まま — as it is / remaining unchanged"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 8.7,
+     "end": 10.5,
+     "ja": "ちょっ… ちょっと待て 政！",
+     "en": "H-Hold on a second, Sei!",
+     "speaker": "Shin"
+    },
+    {
+     "start": 10.5,
+     "end": 13.0,
+     "ja": "こんなこと言うのは好きじゃねェが、",
+     "en": "I don't like saying this, but...",
+     "speaker": "Shin"
+    },
+    {
+     "start": 13.1,
+     "end": 15.0,
+     "ja": "いきなり そりゃ無茶だ！",
+     "en": "Out of nowhere, that's just reckless!",
+     "speaker": "Shin"
+    },
+    {
+     "start": 15.2,
+     "end": 18.2,
+     "ja": "そりゃ 前線にいる俺たちの方がお前たちより…",
+     "en": "Those of us on the front lines know better than you—",
+     "speaker": "Shin"
+    },
+    {
+     "start": 18.4,
+     "end": 21.2,
+     "ja": "今のままでは無理なのは分かっている。",
+     "en": "I know it's impossible the way things are now.",
+     "speaker": "Ei Sei"
+    }
+   ]
+  },
+  {
+   "start": 21.8,
+   "end": 42.5,
+   "title": "Ei Sei Reveals His Reform Strategy",
+   "level": "N2",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜のために — for the sake of / in order to",
+    "〜を問わず — regardless of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 22.3,
+     "end": 23.2,
+     "ja": "だから、",
+     "en": "That is why...",
+     "speaker": "Ei Sei"
+    },
+    {
+     "start": 23.3,
+     "end": 25.5,
+     "ja": "これから秦軍強化のために、",
+     "en": "To strengthen the Qin military from now on,",
+     "speaker": "Ei Sei"
+    },
+    {
+     "start": 25.6,
+     "end": 27.4,
+     "ja": "内政から変えていく。",
+     "en": "we will start by reforming internal politics.",
+     "speaker": "Ei Sei"
+    },
+    {
+     "start": 28.1,
+     "end": 30.3,
+     "ja": "人材登用法を見直し、",
+     "en": "We will revise our recruitment methods,",
+     "speaker": "Ei Sei"
+    },
+    {
+     "start": 30.5,
+     "end": 32.8,
+     "ja": "国内 国外、身分を問わず、",
+     "en": "regardless of borders or social status,",
+     "speaker": "Ei Sei"
+    },
+    {
+     "start": 33.1,
+     "end": 36.0,
+     "ja": "未だ野に埋もれた才能を拾い上げる。",
+     "en": "and uncover talent still buried in obscurity.",
+     "speaker": "Ei Sei"
+    },
+    {
+     "start": 36.4,
+     "end": 38.5,
+     "ja": "さらに国庫を大きく開き、",
+     "en": "Furthermore, we will open the state treasury wide",
+     "speaker": "Ei Sei"
+    },
+    {
+     "start": 38.6,
+     "end": 40.8,
+     "ja": "秦軍を倍の規模にする。",
+     "en": "and double the scale of Qin's army.",
+     "speaker": "Ei Sei"
+    },
+    {
+     "start": 41.1,
+     "end": 42.1,
+     "ja": "倍！？",
+     "en": "Double!?",
+     "speaker": "Shin"
+    }
+   ]
+  }
+ ],
+ "videoId": "cywQrg-eZ-A",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

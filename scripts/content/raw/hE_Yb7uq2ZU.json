@@ -1,0 +1,231 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 306.8,
+   "end": 331.5,
+   "title": "Talking About Future Dreams",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "〜たい — expressing desire",
+    "〜て — gentle command / request"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 307.0,
+     "end": 308.8,
+     "ja": "駿くんの夢って？",
+     "en": "What's your dream, Shun?",
+     "speaker": "Mikoto"
+    },
+    {
+     "start": 309.1,
+     "end": 314.0,
+     "ja": "親が料理人だったから、俺もいつか自分の店持ちたいんだ。",
+     "en": "My parents were chefs, so I want to open my own restaurant someday.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 314.3,
+     "end": 316.0,
+     "ja": "めっちゃいい！",
+     "en": "That's awesome!",
+     "speaker": "Mikoto"
+    },
+    {
+     "start": 316.2,
+     "end": 317.5,
+     "ja": "何料理？",
+     "en": "What kind of food?",
+     "speaker": "Mikoto"
+    },
+    {
+     "start": 317.7,
+     "end": 318.8,
+     "ja": "イタリアン。",
+     "en": "Italian.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 319.0,
+     "end": 321.4,
+     "ja": "だから留学もしたい。",
+     "en": "So I want to study abroad too.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 321.8,
+     "end": 324.0,
+     "ja": "めっちゃいい！",
+     "en": "That sounds great!",
+     "speaker": "Mikoto"
+    },
+    {
+     "start": 325.5,
+     "end": 328.5,
+     "ja": "絶対叶えて！応援する。",
+     "en": "Definitely make it happen! I'll cheer you on.",
+     "speaker": "Mikoto"
+    },
+    {
+     "start": 328.7,
+     "end": 331.2,
+     "ja": "ほんと？ありがとう。",
+     "en": "Really? Thank you.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 542.0,
+   "end": 569.5,
+   "title": "Asking for a Shoe Shine",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜てもいい — asking permission",
+    "〜しか...ない — only / nothing but",
+    "〜ちゃう — unintentional action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 542.3,
+     "end": 543.5,
+     "ja": "あの...",
+     "en": "Um...",
+     "speaker": "Customer"
+    },
+    {
+     "start": 543.9,
+     "end": 545.3,
+     "ja": "はい。",
+     "en": "Yes?",
+     "speaker": "Mikoto"
+    },
+    {
+     "start": 545.8,
+     "end": 548.2,
+     "ja": "靴磨き、やってるんですか？",
+     "en": "Are you offering shoe shine services?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 548.7,
+     "end": 552.6,
+     "ja": "はい。靴磨きやってます。ダメですか？",
+     "en": "Yes, I do shoe shining. Is that okay?",
+     "speaker": "Mikoto"
+    },
+    {
+     "start": 553.2,
+     "end": 556.8,
+     "ja": "あ、いや、そうじゃなくて、お願いしてもいいですか？",
+     "en": "Oh no, not at all, could I get one?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 557.0,
+     "end": 560.5,
+     "ja": "さっき人に踏まれて靴剥げちゃって。",
+     "en": "Someone stepped on my shoe earlier and scuffed it.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 561.2,
+     "end": 562.8,
+     "ja": "本当だ。",
+     "en": "It really is.",
+     "speaker": "Mikoto"
+    },
+    {
+     "start": 563.0,
+     "end": 569.2,
+     "ja": "明日友達の結婚式なんですけど、革靴これしか持ってなくて困ってて。",
+     "en": "My friend's wedding is tomorrow, and I only have these dress shoes, so I was in trouble.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 654.0,
+   "end": 686.5,
+   "title": "A Satisfied Customer",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜みたいに — like / resembling",
+    "〜らしい — apparently / I hear",
+    "〜ないうちに — before / while not yet"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 654.2,
+     "end": 656.2,
+     "ja": "いえいえ、僕も楽しかったです。",
+     "en": "Not at all, I enjoyed it too.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 656.5,
+     "end": 659.2,
+     "ja": "靴も新品みたいに綺麗だ。",
+     "en": "The shoes look clean as brand new.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 666.8,
+     "end": 670.0,
+     "ja": "ニューヨークの靴磨き屋さんは10ドルするらしいですよ。",
+     "en": "Apparently shoe shiners in New York charge ten dollars.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 670.4,
+     "end": 673.6,
+     "ja": "こんなに綺麗にしてもらって500円は安すぎます。",
+     "en": "500 yen is way too cheap for such a great job.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 675.0,
+     "end": 679.0,
+     "ja": "この辺は治安はいいけど、遅くならないうちに帰ってくださいね。",
+     "en": "This area is safe, but be sure to head home before it gets too late.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 680.0,
+     "end": 681.5,
+     "ja": "では。",
+     "en": "Well then.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 683.5,
+     "end": 686.2,
+     "ja": "ありがとうございました！",
+     "en": "Thank you so much!",
+     "speaker": "Mikoto"
+    }
+   ]
+  }
+ ],
+ "videoId": "hE_Yb7uq2ZU",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

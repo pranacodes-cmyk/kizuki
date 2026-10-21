@@ -1,0 +1,55 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.5,
+   "end": 53.5,
+   "title": "Master, Hurry and Heal Him!",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ましょう — expressing suggestion or wondering what to do",
+    "早く〜を — hurry and (do something)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.8,
+     "end": 46.0,
+     "ja": "あっ！",
+     "en": "Ah!",
+     "speaker": "Roxy"
+    },
+    {
+     "start": 46.3,
+     "end": 48.8,
+     "ja": "あああ！ど、どうしましょう！？",
+     "en": "Aaah! Wh-What should I do?!",
+     "speaker": "Roxy"
+    },
+    {
+     "start": 48.9,
+     "end": 51.1,
+     "ja": "し、師匠！早くヒーリングを！",
+     "en": "M-Master! Quickly, cast healing!",
+     "speaker": "Rudeus"
+    },
+    {
+     "start": 51.2,
+     "end": 53.2,
+     "ja": "そ、そうでした！",
+     "en": "R-Right, of course!",
+     "speaker": "Roxy"
+    }
+   ]
+  }
+ ],
+ "videoId": "43SnjhlNjVU",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

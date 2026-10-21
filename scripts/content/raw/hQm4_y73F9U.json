@@ -1,0 +1,270 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 62.2,
+   "end": 89.0,
+   "title": "This Is a Pachinko Parlor Interview",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "work",
+    "fun"
+   ],
+   "grammar": [
+    "〜というのは — definition",
+    "〜んです — explanatory tone",
+    "〜せる — causative form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 62.5,
+     "end": 66.8,
+     "ja": "あの、パチンコ屋の面接なんですけど...",
+     "en": "Um, this is a pachinko parlor job interview...",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 68.5,
+     "end": 70.3,
+     "ja": "な、何、何？",
+     "en": "Wh-what was that?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 70.5,
+     "end": 73.0,
+     "ja": "はい。シフトは週6で入れます。",
+     "en": "Yes! I can take shifts 6 days a week.",
+     "speaker": "Pechi"
+    },
+    {
+     "start": 73.3,
+     "end": 75.3,
+     "ja": "入らせない。入らせない。",
+     "en": "I'm not letting you on the schedule.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 75.8,
+     "end": 79.2,
+     "ja": "あの、え、何？今のペチペチ星とか。",
+     "en": "Um, what was that about Planet Pechi-Pechi?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 79.4,
+     "end": 81.3,
+     "ja": "はい。ペチペチ星というのは、",
+     "en": "Well, Planet Pechi-Pechi",
+     "speaker": "Pechi"
+    },
+    {
+     "start": 81.3,
+     "end": 83.6,
+     "ja": "ハムスターがたくさん住んでる星で、",
+     "en": "is a planet where lots of hamsters live,",
+     "speaker": "Pechi"
+    },
+    {
+     "start": 83.7,
+     "end": 86.6,
+     "ja": "ペチはその星の王子様なんです。",
+     "en": "and Pechi is the prince of that planet.",
+     "speaker": "Pechi"
+    },
+    {
+     "start": 86.9,
+     "end": 88.5,
+     "ja": "罰ゲーム？",
+     "en": "Is this a punishment game?",
+     "speaker": "Interviewer"
+    }
+   ]
+  },
+  {
+   "start": 207.3,
+   "end": 229.2,
+   "title": "Unmasking an Even Crazier Guy",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "work",
+    "fun"
+   ],
+   "grammar": [
+    "〜ように — in order to / so that",
+    "〜てくれる — to do for someone",
+    "〜てる — ongoing action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 207.8,
+     "end": 211.2,
+     "ja": "あの、俺、リアルにこのキャラで芸能界目指してて。",
+     "en": "Look, I'm genuinely trying to make it in showbiz with this character.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 211.3,
+     "end": 213.9,
+     "ja": "で、あの、テレビ出たときに心折れないように、",
+     "en": "And so my spirit won't break when I get on TV,",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 214.1,
+     "end": 216.5,
+     "ja": "このキャラでいろんなバイトの面接受けて、練習してるんです。",
+     "en": "I'm practicing by going to part-time job interviews in this character.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 216.7,
+     "end": 218.8,
+     "ja": "クソやばいやつやんけ、お前！",
+     "en": "You're an insane psycho, man!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 219.0,
+     "end": 222.8,
+     "ja": "やばいやつの皮剥いだら、もっとやばいやつ出てきたやんけ、お前！",
+     "en": "We peeled off a crazy guy's skin and an even crazier guy came out!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 223.0,
+     "end": 225.2,
+     "ja": "え、練習でこのキャラで色んなの受けてんの、お前？",
+     "en": "Wait, you've been doing interviews like this as practice?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 225.3,
+     "end": 227.0,
+     "ja": "今、「テレビ行ける」って言ってくれましたよね？",
+     "en": "Just now, you told me I could make it on TV, right?",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 227.1,
+     "end": 228.8,
+     "ja": "自信つきました。ありがとうございます。",
+     "en": "That gave me confidence. Thank you.",
+     "speaker": "Candidate"
+    }
+   ]
+  },
+  {
+   "start": 272.0,
+   "end": 296.5,
+   "title": "A Ridiculously Overqualified Candidate",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "work",
+    "fun"
+   ],
+   "grammar": [
+    "〜たことがある — past experience",
+    "〜てた — past continuous action",
+    "〜よ — imperative / emphasis"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 272.3,
+     "end": 274.2,
+     "ja": "何、家、社長みたいなこと？",
+     "en": "What, is your family the president of a company or something?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 274.4,
+     "end": 277.5,
+     "ja": "いや、今まで3回宝くじ当たったことあって。",
+     "en": "No, I've just won the lottery three times so far.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 278.2,
+     "end": 280.2,
+     "ja": "3回宝くじ当たってんの！？",
+     "en": "You've won the lottery three times?!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 280.4,
+     "end": 281.9,
+     "ja": "今まで1等、2等、1等。",
+     "en": "First prize, second prize, and first prize.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 282.1,
+     "end": 283.8,
+     "ja": "1等、2等、1等！？",
+     "en": "First, second, and first prize?!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 284.0,
+     "end": 286.2,
+     "ja": "え、もしかしてお前、じゃ今まで1回も働いたことないの？",
+     "en": "Wait, does that mean you've never worked a day in your life?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 286.3,
+     "end": 287.1,
+     "ja": "いやいやいや。",
+     "en": "No, no, no.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 287.2,
+     "end": 288.9,
+     "ja": "去年までFBIで働いてました。",
+     "en": "I worked for the FBI until last year.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 289.1,
+     "end": 290.6,
+     "ja": "すごいなお前！",
+     "en": "You're unbelievable!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 290.8,
+     "end": 293.2,
+     "ja": "宝くじ3回当たって、FBI去年までおったん？",
+     "en": "You won the lottery three times and were in the FBI until last year?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 293.3,
+     "end": 293.9,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 294.0,
+     "end": 295.9,
+     "ja": "そのキャラでテレビ行けよ！",
+     "en": "Go on TV with THAT persona!",
+     "speaker": "Interviewer"
+    }
+   ]
+  }
+ ],
+ "videoId": "hQm4_y73F9U",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

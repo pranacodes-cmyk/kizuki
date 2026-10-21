@@ -1,0 +1,123 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.4,
+   "end": 10.1,
+   "title": "Love and Money in Motion",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜続ける — to keep doing",
+    "〜ば — conditional if/when",
+    "〜に関して — regarding / concerning"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 2.5,
+     "ja": "15年片想いし続けて、乗り換えた！？",
+     "en": "You had an unrequited crush for 15 years, and switched!?",
+     "speaker": "Man"
+    },
+    {
+     "start": 2.8,
+     "end": 6.2,
+     "ja": "投じれば、動き出します。お金も、恋も。",
+     "en": "Once invested, things start moving. Both money and love.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 6.3,
+     "end": 8.2,
+     "ja": "私は、貢いでなんかいません！",
+     "en": "I'm definitely not lavishing money on him!",
+     "speaker": "Reiko"
+    },
+    {
+     "start": 8.3,
+     "end": 10.0,
+     "ja": "恋愛に関しては、かなりのポンコツ？",
+     "en": "When it comes to romance, a total disaster?",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 10.2,
+   "end": 24.1,
+   "title": "A New Romance or an Old Crush?",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜ないでください — please do not",
+    "〜って — speaking of / topic marker",
+    "〜んです — explanatory tone"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 10.4,
+     "end": 11.7,
+     "ja": "無理しないでくださいね。",
+     "en": "Please don't push yourself too hard.",
+     "speaker": "Man"
+    },
+    {
+     "start": 11.8,
+     "end": 13.5,
+     "ja": "ちょっと、心が休まりました。",
+     "en": "My mind feels a little more at ease.",
+     "speaker": "Reiko"
+    },
+    {
+     "start": 13.6,
+     "end": 15.6,
+     "ja": "バツイチで結婚願望のない彼を、",
+     "en": "He's divorced and had no desire to marry,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 15.6,
+     "end": 18.0,
+     "ja": "3年かかってやっとここまで漕ぎ着けたの。",
+     "en": "and it took me three years to finally get this far.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 18.0,
+     "end": 19.2,
+     "ja": "本当にあいつでいいの？",
+     "en": "Are you really okay with that guy?",
+     "speaker": "Man"
+    },
+    {
+     "start": 19.2,
+     "end": 20.5,
+     "ja": "放っといてください！",
+     "en": "Leave me alone!",
+     "speaker": "Reiko"
+    },
+    {
+     "start": 20.7,
+     "end": 23.8,
+     "ja": "早乙女さんって、玲子さんのことどう思ってるんですか？",
+     "en": "Saotome-san, what do you really think of Reiko-san?",
+     "speaker": "Young Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "C2wflxz4M-4",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

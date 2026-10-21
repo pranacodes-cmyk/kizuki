@@ -1,0 +1,141 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 36.8,
+   "end": 52.0,
+   "title": "Arriving at Kyoto Station in the Rain",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜に限って — on this day of all days",
+    "〜てくる — action directed toward speaker",
+    "〜んですけど — background explanation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.2,
+     "end": 39.5,
+     "ja": "はい。皆さん、こんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 39.6,
+     "end": 42.5,
+     "ja": "日本語教師のしゅんです。",
+     "en": "I'm Shun, a Japanese language teacher.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 42.8,
+     "end": 46.5,
+     "ja": "はい、今京都に来ました。京都駅です。",
+     "en": "Alright, I've just arrived in Kyoto. This is Kyoto Station.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 47.0,
+     "end": 51.7,
+     "ja": "ずっと晴れだったんですけど、今日に限って、雨ですね。",
+     "en": "It's been sunny all this time, but of all days, it's raining today.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 175.7,
+   "end": 192.5,
+   "title": "Autumn Colors at Eikando Temple",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜になる — to become",
+    "〜ので — because / since",
+    "〜という — called / named"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 176.0,
+     "end": 179.0,
+     "ja": "はい、着きました。うわ、きれいですね。",
+     "en": "Alright, we've arrived. Wow, it's beautiful.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 179.2,
+     "end": 182.5,
+     "ja": "今、紅葉の季節なので、",
+     "en": "Since it's the autumn foliage season now,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 182.6,
+     "end": 187.3,
+     "ja": "木の色がオレンジ色、赤色、黄色になっています。",
+     "en": "the trees are turning orange, red, and yellow.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 187.5,
+     "end": 192.0,
+     "ja": "きれいですね。ここは永観堂という場所ですね。",
+     "en": "It's beautiful. This place is called Eikando.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 614.2,
+   "end": 630.0,
+   "title": "Too Hungry to Sightsee",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜そう — looks like / seems",
+    "〜すぎる — too much / excessively"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 614.5,
+     "end": 618.5,
+     "ja": "わあ、大きい。すごい古そうなお寺ですね。",
+     "en": "Wow, it's huge. It looks like a really old temple.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 622.8,
+     "end": 626.3,
+     "ja": "はい、今南禅寺に来たんですけど、",
+     "en": "Okay, we just arrived at Nanzen-ji temple, but...",
+     "speaker": "Shun"
+    },
+    {
+     "start": 626.5,
+     "end": 629.8,
+     "ja": "ちょっとお腹が空きすぎたので、今から先にレストランに行きます。",
+     "en": "...I got way too hungry, so we're heading to a restaurant first.",
+     "speaker": "Shun"
+    }
+   ]
+  }
+ ],
+ "videoId": "nSUC8EMAvm4",
+ "pickTopics": [
+  "travel",
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,257 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.0,
+   "end": 18.2,
+   "title": "Introducing Kubinsesu in Asakusa",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "culture",
+    "friends"
+   ],
+   "grammar": [
+    "〜にちなんで — named after / associated with",
+    "〜ながら — while doing",
+    "〜ていきたい — want to go on doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.3,
+     "end": 2.0,
+     "ja": "こんにちは！",
+     "en": "Hello!",
+     "speaker": "All"
+    },
+    {
+     "start": 2.8,
+     "end": 5.5,
+     "ja": "私たち首ンセスです！",
+     "en": "We are Kubinsesu!",
+     "speaker": "All"
+    },
+    {
+     "start": 6.0,
+     "end": 9.5,
+     "ja": "今日は初めて首ンセスのメンバーでお出かけということで、",
+     "en": "Today is our first outing as the Kubinsesu members,",
+     "speaker": "Nao"
+    },
+    {
+     "start": 9.8,
+     "end": 13.5,
+     "ja": "首ンセスにちなんで首がキレイに見える着物を着ながら、",
+     "en": "so fitting for Kubinsesu, wearing kimonos that show off our necks,",
+     "speaker": "Nao"
+    },
+    {
+     "start": 13.6,
+     "end": 16.8,
+     "ja": "浅草を探索していきたいと思います！",
+     "en": "we'd like to explore Asakusa!",
+     "speaker": "Nao"
+    },
+    {
+     "start": 16.8,
+     "end": 18.2,
+     "ja": "やったー！楽しみ！",
+     "en": "Yay! Can't wait!",
+     "speaker": "All"
+    }
+   ]
+  },
+  {
+   "start": 78.8,
+   "end": 105.5,
+   "ja": null,
+   "en": null,
+   "speaker": null,
+   "title": "Showing Off Kimono Colors",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜かも — might be / perhaps",
+    "〜にした — decided on / chose"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 79.1,
+     "end": 82.3,
+     "ja": "私は今日ちょっとお緑…",
+     "en": "Today I went with green...",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 82.5,
+     "end": 83.8,
+     "ja": "あ、いいね！",
+     "en": "Oh, nice!",
+     "speaker": "Nao"
+    },
+    {
+     "start": 84.0,
+     "end": 85.8,
+     "ja": "めっちゃ意外かも！",
+     "en": "That's so unexpected!",
+     "speaker": "Mao"
+    },
+    {
+     "start": 86.0,
+     "end": 88.8,
+     "ja": "ここにピンクを入れたんですけど…",
+     "en": "I added pink here, though...",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 88.8,
+     "end": 90.0,
+     "ja": "お、いいじゃん！",
+     "en": "Oh, that's great!",
+     "speaker": "Nao"
+    },
+    {
+     "start": 90.0,
+     "end": 93.0,
+     "ja": "私のサイリウムカラーがピンクと黄緑で…",
+     "en": "because my penlight colors are pink and yellow-green...",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 93.2,
+     "end": 94.5,
+     "ja": "ちょうどいいじゃん！",
+     "en": "That's perfect!",
+     "speaker": "Nao"
+    },
+    {
+     "start": 94.5,
+     "end": 96.5,
+     "ja": "だからちょっと差し色しました。",
+     "en": "So I used it as an accent color.",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 96.5,
+     "end": 97.7,
+     "ja": "素敵！",
+     "en": "Lovely!",
+     "speaker": "Nao"
+    },
+    {
+     "start": 97.7,
+     "end": 98.7,
+     "ja": "なおちゃんは？",
+     "en": "What about you, Nao-chan?",
+     "speaker": "Mao"
+    },
+    {
+     "start": 98.7,
+     "end": 103.0,
+     "ja": "なおは黒にして、ちょっとピンクとか紫入れてみました。",
+     "en": "I chose black and added a bit of pink and purple.",
+     "speaker": "Nao"
+    },
+    {
+     "start": 103.2,
+     "end": 105.0,
+     "ja": "かわいい！",
+     "en": "Cute!",
+     "speaker": "All"
+    }
+   ]
+  },
+  {
+   "start": 145.8,
+   "end": 166.0,
+   "title": "Trying Vegan Soft Cream in Asakusa",
+   "level": "N4",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜てて (〜ていて) — being in a state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 146.1,
+     "end": 147.3,
+     "ja": "食べましょう！",
+     "en": "Let's eat!",
+     "speaker": "Nao"
+    },
+    {
+     "start": 147.5,
+     "end": 149.0,
+     "ja": "いただきまーす！",
+     "en": "Bon appetit!",
+     "speaker": "All"
+    },
+    {
+     "start": 149.5,
+     "end": 151.0,
+     "ja": "じゃあ、いただきます！",
+     "en": "Well then, let me try it!",
+     "speaker": "Nao"
+    },
+    {
+     "start": 154.0,
+     "end": 155.5,
+     "ja": "ん！美味しい！",
+     "en": "Mmm! Delicious!",
+     "speaker": "Nao"
+    },
+    {
+     "start": 155.5,
+     "end": 157.3,
+     "ja": "え、何味なの？それ。",
+     "en": "Wait, what flavor is that?",
+     "speaker": "Mao"
+    },
+    {
+     "start": 157.5,
+     "end": 160.0,
+     "ja": "なんかビーガンソフトクリームなんだけど…",
+     "en": "It's a vegan soft-serve, but...",
+     "speaker": "Nao"
+    },
+    {
+     "start": 160.0,
+     "end": 161.4,
+     "ja": "へえ、何それ？",
+     "en": "Huh, what's that?",
+     "speaker": "Mao"
+    },
+    {
+     "start": 161.5,
+     "end": 164.2,
+     "ja": "ちょっとあっさりしててヘルシーかも。",
+     "en": "It's light and seems pretty healthy.",
+     "speaker": "Nao"
+    },
+    {
+     "start": 164.2,
+     "end": 165.8,
+     "ja": "ビーガンて何？",
+     "en": "What's vegan?",
+     "speaker": "Mao"
+    }
+   ]
+  }
+ ],
+ "videoId": "tWXlB2Uyh2k",
+ "pickTopics": [
+  "culture",
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,106 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 28.6,
+   "end": 39.9,
+   "title": "Watering the Plants",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜てしまう — expressing regret or completion",
+    "〜てくる — change progressing over time"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 28.8,
+     "end": 30.6,
+     "ja": "やっぱめっちゃ枯れてきてしまった。",
+     "en": "As I thought, it's really starting to wither.",
+     "speaker": "Man"
+    },
+    {
+     "start": 30.7,
+     "end": 34.6,
+     "ja": "最近気温が30度が続いてて、その期間ちょうど水あげてなかったので、めっちゃ枯れちゃいましたね。",
+     "en": "Lately it's been around 30 degrees, and I hadn't watered it during that time, so it really withered up.",
+     "speaker": "Man"
+    },
+    {
+     "start": 34.7,
+     "end": 36.4,
+     "ja": "プチトマトは順調に育ってきたな。",
+     "en": "The cherry tomatoes have been growing nicely though.",
+     "speaker": "Man"
+    },
+    {
+     "start": 36.5,
+     "end": 38.3,
+     "ja": "花たちはめちゃくちゃ枯れてきちゃったかー。",
+     "en": "The flowers have totally withered up, huh...",
+     "speaker": "Man"
+    },
+    {
+     "start": 38.4,
+     "end": 39.9,
+     "ja": "みんなごめんな、しっかり水あげるねー。",
+     "en": "Sorry guys, I'll give you plenty of water.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 131.5,
+   "end": 140.0,
+   "title": "Dealing with Mosquitoes",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜れる (受身) — passive voice",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 131.8,
+     "end": 134.3,
+     "ja": "僕最近、蚊取線香毎日つけてるんですけど、",
+     "en": "Lately, I've been lighting mosquito coils every day, but...",
+     "speaker": "Man"
+    },
+    {
+     "start": 134.4,
+     "end": 136.6,
+     "ja": "昨日の夜だけで７箇所蚊に刺されてました。",
+     "en": "just last night I got bitten by mosquitoes in seven spots.",
+     "speaker": "Man"
+    },
+    {
+     "start": 136.7,
+     "end": 138.2,
+     "ja": "蚊取線香だけじゃダメだったので、",
+     "en": "Mosquito coils alone weren't enough, so...",
+     "speaker": "Man"
+    },
+    {
+     "start": 138.3,
+     "end": 139.9,
+     "ja": "誰か対処方法わかる人コメントで教えてください。",
+     "en": "if anyone knows a good solution, please let me know in the comments.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "0EV-zzXsKZo",
+ "pickTopics": [
+  "friends",
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

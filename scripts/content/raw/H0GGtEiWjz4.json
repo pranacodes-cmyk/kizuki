@@ -1,0 +1,238 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 14.2,
+   "end": 32.0,
+   "title": "You Don't Wear Basketball Shoes Outside",
+   "level": "N4",
+   "topics": [
+    "family",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ていく — to go doing / to go wearing",
+    "〜てへん — Kansai dialect for 〜ていない (negative state)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 14.2,
+     "end": 16.0,
+     "ja": "バッシュ履いてく？",
+     "en": "Should I wear my basketball shoes?",
+     "speaker": "Ryuyu"
+    },
+    {
+     "start": 17.4,
+     "end": 19.4,
+     "ja": "バッシュ履いて行かへん。",
+     "en": "You don't wear basketball shoes out.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 21.8,
+     "end": 23.9,
+     "ja": "パパがさっき履いてけつったやん。",
+     "en": "You just told me earlier to wear them.",
+     "speaker": "Ryuyu"
+    },
+    {
+     "start": 24.0,
+     "end": 25.0,
+     "ja": "言うてへんわ！",
+     "en": "I didn't say that!",
+     "speaker": "Dad"
+    },
+    {
+     "start": 25.1,
+     "end": 26.1,
+     "ja": "言ったで、さっき。",
+     "en": "You did say it earlier.",
+     "speaker": "Ryuyu"
+    },
+    {
+     "start": 26.2,
+     "end": 29.1,
+     "ja": "言うてへん、そんな。バッシュ履いてけって。",
+     "en": "I said no such thing as wearing basketball shoes.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 29.3,
+     "end": 30.9,
+     "ja": "ごめん、聞き違いか。",
+     "en": "Sorry, I must have misheard.",
+     "speaker": "Ryuyu"
+    },
+    {
+     "start": 31.0,
+     "end": 32.0,
+     "ja": "行こか。",
+     "en": "Shall we go?",
+     "speaker": "Dad"
+    }
+   ]
+  },
+  {
+   "start": 54.8,
+   "end": 109.5,
+   "title": "First Day at the Basketball Club",
+   "level": "N4",
+   "topics": [
+    "sports",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜しか〜ない — only / nothing but",
+    "〜と思う — to think that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 55.0,
+     "end": 56.2,
+     "ja": "お疲れ、りゅう。",
+     "en": "Good job today, Ryu.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 56.3,
+     "end": 57.0,
+     "ja": "はい。",
+     "en": "Thanks.",
+     "speaker": "Ryuyu"
+    },
+    {
+     "start": 57.1,
+     "end": 58.0,
+     "ja": "どうやった？",
+     "en": "How was it?",
+     "speaker": "Dad"
+    },
+    {
+     "start": 58.2,
+     "end": 58.9,
+     "ja": "はい。",
+     "en": "Good.",
+     "speaker": "Ryuyu"
+    },
+    {
+     "start": 59.0,
+     "end": 60.6,
+     "ja": "初めてのクラブ。",
+     "en": "Your first day at the club.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 61.0,
+     "end": 62.8,
+     "ja": "ゴール下しか守れない。",
+     "en": "I can only defend under the basket.",
+     "speaker": "Ryuyu"
+    },
+    {
+     "start": 64.0,
+     "end": 66.5,
+     "ja": "身長が高いからゴール下ずっといました。",
+     "en": "Because he's tall, he stayed under the basket the whole time.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 67.1,
+     "end": 69.3,
+     "ja": "いや、いいやん。でもセンスあると思うで。",
+     "en": "Well, that's fine. I think you've got talent.",
+     "speaker": "Dad"
+    }
+   ]
+  },
+  {
+   "start": 231.8,
+   "end": 244.0,
+   "title": "Leaving Money for the Convenience Store",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜ておく — to do something in advance",
+    "〜てくる — to go and come back"
+   ],
+   "lines": [
+    {
+     "start": 232.0,
+     "end": 233.8,
+     "ja": "お金置いといてよ。",
+     "en": "Leave some money for me.",
+     "speaker": "Son"
+    },
+    {
+     "start": 234.0,
+     "end": 234.9,
+     "ja": "なんぼ？",
+     "en": "How much?",
+     "speaker": "Dad"
+    },
+    {
+     "start": 235.0,
+     "end": 236.4,
+     "ja": "なんぼでもいい。",
+     "en": "Any amount is fine.",
+     "speaker": "Son"
+    },
+    {
+     "start": 236.8,
+     "end": 237.6,
+     "ja": "わかった。",
+     "en": "Got it.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 237.8,
+     "end": 239.5,
+     "ja": "１，０００円とかなしやで？",
+     "en": "Don't spend it all on just 1,000 yen stuff, okay?",
+     "speaker": "Dad"
+    },
+    {
+     "start": 239.8,
+     "end": 241.3,
+     "ja": "お釣り絶対返してな。",
+     "en": "Make sure to bring back the change.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 241.4,
+     "end": 242.0,
+     "ja": "うん。",
+     "en": "Okay.",
+     "speaker": "Son"
+    },
+    {
+     "start": 242.1,
+     "end": 243.4,
+     "ja": "じゃあ行ってくる。",
+     "en": "Well, I'm heading out.",
+     "speaker": "Son"
+    },
+    {
+     "start": 243.5,
+     "end": 244.0,
+     "ja": "はい。",
+     "en": "See you.",
+     "speaker": "Dad"
+    }
+   ],
+   "quality": 5
+  }
+ ],
+ "videoId": "H0GGtEiWjz4",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

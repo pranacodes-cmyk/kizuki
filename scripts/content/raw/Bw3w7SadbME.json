@@ -1,0 +1,64 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.0,
+   "end": 26.0,
+   "title": "Dressing Down After Golden Week",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜に行った — went to (do something)",
+    "〜た時 — when / at the time of",
+    "やっぱり — as expected / after all"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 16.1,
+     "end": 19.1,
+     "ja": "4月にさ、みんなでさ、ご飯食べに行った時の写真出てきた。",
+     "en": "I found a photo from when we all went out to eat in April.",
+     "speaker": "Girl on Left"
+    },
+    {
+     "start": 19.1,
+     "end": 20.1,
+     "ja": "懐かしいね！",
+     "en": "Brings back memories!",
+     "speaker": "Girl on Right"
+    },
+    {
+     "start": 20.1,
+     "end": 21.0,
+     "ja": "懐かしい。",
+     "en": "Totally.",
+     "speaker": "Girl on Left"
+    },
+    {
+     "start": 21.1,
+     "end": 23.8,
+     "ja": "え、なんか前と服の系統変わった？",
+     "en": "Wait, did your clothing style change since before?",
+     "speaker": "Girl on Right"
+    },
+    {
+     "start": 23.8,
+     "end": 25.8,
+     "ja": "やっぱダル着が楽だよ。",
+     "en": "Comfy loungewear is just the easiest, honestly.",
+     "speaker": "Girl on Right"
+    }
+   ]
+  }
+ ],
+ "videoId": "Bw3w7SadbME",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

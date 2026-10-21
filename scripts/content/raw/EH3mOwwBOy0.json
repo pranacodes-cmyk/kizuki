@@ -1,0 +1,193 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 30.2,
+   "end": 46.8,
+   "title": "Playing in the Paddling Pool",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family",
+    "fun"
+   ],
+   "grammar": [
+    "〜ちゃって — completely / unfortunately",
+    "〜ばいい — should / can just",
+    "〜ないと — must do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 30.5,
+     "end": 34.8,
+     "ja": "マミー、ダディ、水たまりが全部乾いちゃって飛び込めないの。",
+     "en": "Mummy, Daddy, all the puddles have dried up, so I can't jump in them.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 35.3,
+     "end": 40.0,
+     "ja": "大丈夫よ、ペッパ。今日は暑いから、代わりにビニールプールで遊べばいいわ。",
+     "en": "It's all right, Peppa. Since it's hot today, you can play in the paddling pool instead.",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 40.5,
+     "end": 43.0,
+     "ja": "やった！ビニールプール！",
+     "en": "Yay! The paddling pool!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 43.6,
+     "end": 46.4,
+     "ja": "それじゃまずは、水着に着替えないとね。",
+     "en": "Well then, first we need to change into swimsuits.",
+     "speaker": "Mummy Pig"
+    }
+   ]
+  },
+  {
+   "start": 296.8,
+   "end": 318.0,
+   "title": "Is George Too Little for Playgroup?",
+   "level": "N4",
+   "topics": [
+    "family",
+    "school"
+   ],
+   "grammar": [
+    "〜すぎる — too much",
+    "〜し — listing reasons",
+    "〜たい — want to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 297.2,
+     "end": 302.5,
+     "ja": "ダディ、私のプレイグループに、ジョージは小さすぎるんじゃない？",
+     "en": "Daddy, isn't George too small for my playgroup?",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 303.0,
+     "end": 308.7,
+     "ja": "大丈夫だよ、ペッパ。ペッパもついてるし、ダイナソーも一緒だからね。",
+     "en": "It'll be fine, Peppa. You'll be with him, and Dinosaur is coming too.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 309.2,
+     "end": 310.2,
+     "ja": "ガオ！",
+     "en": "Grrr!",
+     "speaker": "George"
+    },
+    {
+     "start": 310.3,
+     "end": 311.6,
+     "ja": "ダイナソー！",
+     "en": "Dinosaur!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 312.4,
+     "end": 317.5,
+     "ja": "私、大きい子たちと遊びたいの。ジョージやダイナソーじゃなくて。",
+     "en": "I want to play with the big kids, not George and Dinosaur.",
+     "speaker": "Peppa"
+    }
+   ]
+  },
+  {
+   "start": 2859.3,
+   "end": 2883.3,
+   "title": "Riding Without Stabilizers",
+   "level": "N4",
+   "topics": [
+    "family",
+    "sports",
+    "daily"
+   ],
+   "grammar": [
+    "〜ても — even if",
+    "〜たことない — have never done",
+    "〜てば — insistence marker"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2859.6,
+     "end": 2862.9,
+     "ja": "ダディ、私も補助輪はいらないよ。",
+     "en": "Daddy, I don't need stabilizers anymore either.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 2863.3,
+     "end": 2865.3,
+     "ja": "なくてもちゃんと乗れるかい？",
+     "en": "Can you ride properly without them?",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 2865.5,
+     "end": 2866.8,
+     "ja": "乗れる！",
+     "en": "I can!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 2867.0,
+     "end": 2869.0,
+     "ja": "分かったよ。じゃあ早速外そう。",
+     "en": "All right. Let's take them off right away.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 2869.8,
+     "end": 2873.7,
+     "ja": "ダディピッグはペッパの自転車から補助輪を外しました。",
+     "en": "Daddy Pig took the stabilizers off Peppa's bicycle.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 2874.0,
+     "end": 2877.0,
+     "ja": "ペッパ、本当に補助輪がなくて大丈夫？",
+     "en": "Peppa, are you really sure you're okay without stabilizers?",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 2877.2,
+     "end": 2878.2,
+     "ja": "平気！",
+     "en": "I'm fine!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 2878.4,
+     "end": 2880.0,
+     "ja": "外して乗ったことないのに。",
+     "en": "Even though you've never ridden without them before.",
+     "speaker": "Mummy Pig"
+    },
+    {
+     "start": 2880.2,
+     "end": 2882.9,
+     "ja": "平気だってば。きっと乗れるよ。",
+     "en": "I told you, I'm fine! I'm sure I can ride it.",
+     "speaker": "Peppa"
+    }
+   ]
+  }
+ ],
+ "videoId": "EH3mOwwBOy0",
+ "pickTopics": [
+  "anime",
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mirrors the background token in src/styles.css and T.background -->
+    <color name="ic_launcher_background">#16171B</color>
+    <color name="mimi_background">#16171B</color>
+</resources>

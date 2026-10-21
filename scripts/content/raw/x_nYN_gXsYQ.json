@@ -1,0 +1,305 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 24.8,
+   "end": 49.0,
+   "title": "Trip to Windy Castle",
+   "level": "N5",
+   "topics": [
+    "family",
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜に行く — go to do",
+    "〜そう — looks like / seems like",
+    "〜から — from / out of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 24.8,
+     "end": 28.9,
+     "ja": "ペッパ、ジョージ、今日はみんなで風のお城に行くぞ。",
+     "en": "Peppa, George, today we're all going to Windy Castle.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 29.1,
+     "end": 30.8,
+     "ja": "風のお城って何？",
+     "en": "What's Windy Castle?",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 31.0,
+     "end": 33.4,
+     "ja": "高い丘の上にあるお城だよ。",
+     "en": "It's a castle on top of a high hill.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 33.7,
+     "end": 35.8,
+     "ja": "ジョージはお城が大好き。",
+     "en": "George loves castles.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 36.1,
+     "end": 39.6,
+     "ja": "風のお城って、女の子には楽しくなさそう。",
+     "en": "Windy Castle doesn't sound very fun for girls.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 39.9,
+     "end": 42.0,
+     "ja": "いや、きっと気に入るよ。",
+     "en": "No, you'll definitely like it.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 42.2,
+     "end": 44.7,
+     "ja": "お城のてっぺんからは遠くまで見渡せる。",
+     "en": "From the top of the castle, you can see far away.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 44.9,
+     "end": 47.0,
+     "ja": "グランパたちのお家も見えるぞ。",
+     "en": "You can even see Grandpa's house.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 47.1,
+     "end": 48.8,
+     "ja": "うわあ！早く行こう！",
+     "en": "Wow! Let's hurry up and go!",
+     "speaker": "Peppa"
+    }
+   ]
+  },
+  {
+   "start": 75.3,
+   "end": 103.0,
+   "title": "Playing I Spy in the Car",
+   "level": "N5",
+   "topics": [
+    "family",
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜でもしよう — let's do something like",
+    "〜たい — want to do",
+    "〜て＋みる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 75.3,
+     "end": 77.0,
+     "ja": "ゲームでもしようか。",
+     "en": "Shall we play a game?",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 77.1,
+     "end": 78.5,
+     "ja": "うん、やりたい！",
+     "en": "Yeah, I want to!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 78.6,
+     "end": 80.3,
+     "ja": "じゃ、アイスパイゲームがいい！",
+     "en": "Then I want to play I Spy!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 80.4,
+     "end": 82.2,
+     "ja": "よし、ダディから行くね。",
+     "en": "All right, Daddy will go first.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 82.4,
+     "end": 85.0,
+     "ja": "ダディピッグが何かを見てヒントを出し、",
+     "en": "Daddy Pig spots something and gives a clue,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 85.1,
+     "end": 87.2,
+     "ja": "みんなはそれが何かを当てます。",
+     "en": "and everyone guesses what it is.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 87.4,
+     "end": 88.9,
+     "ja": "ダディが見っけ。",
+     "en": "I spy with my little eye...",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 89.0,
+     "end": 91.0,
+     "ja": "それは赤い色をしています。",
+     "en": "something that is red.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 91.2,
+     "end": 92.3,
+     "ja": "赤？",
+     "en": "Red?",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 92.4,
+     "end": 94.8,
+     "ja": "私の服！これ赤だよ。",
+     "en": "My dress! This is red.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 95.0,
+     "end": 97.6,
+     "ja": "違う。ペッパの服じゃないよ。",
+     "en": "No. It's not Peppa's dress.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 98.9,
+     "end": 100.4,
+     "ja": "車だ！",
+     "en": "The car!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 100.5,
+     "end": 103.0,
+     "ja": "大当たり！赤い車だ！",
+     "en": "Spot on! The red car!",
+     "speaker": "Daddy Pig"
+    }
+   ]
+  },
+  {
+   "start": 234.8,
+   "end": 265.8,
+   "title": "Looking Through the Telescope",
+   "level": "N4",
+   "topics": [
+    "family",
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜てあげる — do for someone",
+    "〜わけがない — there is no way that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 234.8,
+     "end": 237.8,
+     "ja": "よし、望遠鏡を覗いてみよう。",
+     "en": "All right, let's look through the telescope.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 239.0,
+     "end": 240.6,
+     "ja": "一番に見てもいい？",
+     "en": "Can I look first?",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 240.8,
+     "end": 243.8,
+     "ja": "いいけど、ジョージにも見せてあげるんだぞ。",
+     "en": "Sure, but make sure you let George have a turn too.",
+     "speaker": "Daddy Pig"
+    },
+    {
+     "start": 244.0,
+     "end": 245.4,
+     "ja": "わあ！",
+     "en": "Wow!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 245.8,
+     "end": 248.0,
+     "ja": "望遠鏡だと近くに見えます。",
+     "en": "Through the telescope, everything looks close.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 248.2,
+     "end": 250.7,
+     "ja": "グランマとグランパが見えるよ！",
+     "en": "I can see Grandma and Grandpa!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 250.9,
+     "end": 252.3,
+     "ja": "見て、ジョージ！",
+     "en": "Look, George!",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 254.3,
+     "end": 257.0,
+     "ja": "グランマ！グランパ！",
+     "en": "Grandma! Grandpa!",
+     "speaker": "George"
+    },
+    {
+     "start": 257.3,
+     "end": 260.0,
+     "ja": "ジョージがグランパたちに手を振っています。",
+     "en": "George is waving at Grandma and Grandpa.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 260.2,
+     "end": 261.8,
+     "ja": "ジョージったら。",
+     "en": "Silly George.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 261.9,
+     "end": 263.7,
+     "ja": "グランパたちは遠くにいるの。",
+     "en": "Grandpa and Grandma are far away.",
+     "speaker": "Peppa"
+    },
+    {
+     "start": 263.8,
+     "end": 265.5,
+     "ja": "見えるわけないよ。",
+     "en": "There's no way they can see you.",
+     "speaker": "Peppa"
+    }
+   ]
+  }
+ ],
+ "videoId": "x_nYN_gXsYQ",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

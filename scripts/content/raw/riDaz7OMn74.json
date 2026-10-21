@@ -1,0 +1,158 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 18.5,
+   "end": 37.5,
+   "title": "Deciding to Make Breakfast",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜たい — want to do",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.8,
+     "end": 24.2,
+     "ja": "今、私はお腹が空いています。",
+     "en": "Right now, I am hungry.",
+     "speaker": "Momo"
+    },
+    {
+     "start": 24.8,
+     "end": 28.5,
+     "ja": "何か食べたいです。",
+     "en": "I want to eat something.",
+     "speaker": "Momo"
+    },
+    {
+     "start": 30.1,
+     "end": 33.2,
+     "ja": "お腹が空いたので、",
+     "en": "Since I'm hungry,",
+     "speaker": "Momo"
+    },
+    {
+     "start": 33.6,
+     "end": 37.0,
+     "ja": "朝ご飯を作ります。",
+     "en": "I'm going to make breakfast.",
+     "speaker": "Momo"
+    }
+   ]
+  },
+  {
+   "start": 122.5,
+   "end": 145.5,
+   "title": "Ingredients for Tamago Kake Gohan",
+   "level": "N5",
+   "topics": [
+    "food"
+   ],
+   "grammar": [
+    "これ・それ・あれ — demonstratives",
+    "〜は〜です — A is B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 123.1,
+     "end": 127.7,
+     "ja": "これが卵かけご飯の材料です。",
+     "en": "These are the ingredients for tamago kake gohan.",
+     "speaker": "Momo"
+    },
+    {
+     "start": 128.5,
+     "end": 132.4,
+     "ja": "これはご飯です。",
+     "en": "This is rice.",
+     "speaker": "Momo"
+    },
+    {
+     "start": 133.5,
+     "end": 137.4,
+     "ja": "これは卵です。",
+     "en": "This is an egg.",
+     "speaker": "Momo"
+    },
+    {
+     "start": 138.2,
+     "end": 141.3,
+     "ja": "これは醤油です。",
+     "en": "This is soy sauce.",
+     "speaker": "Momo"
+    },
+    {
+     "start": 141.8,
+     "end": 145.0,
+     "ja": "これは鰹節です。",
+     "en": "These are bonito flakes.",
+     "speaker": "Momo"
+    }
+   ]
+  },
+  {
+   "start": 235.8,
+   "end": 302.0,
+   "title": "Eating Raw Eggs in Japan",
+   "level": "N5",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜ことができる — can do",
+    "〜られる — potential form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 236.2,
+     "end": 239.4,
+     "ja": "これは生卵です。",
+     "en": "This is a raw egg.",
+     "speaker": "Momo"
+    },
+    {
+     "start": 239.9,
+     "end": 243.7,
+     "ja": "生の卵です。",
+     "en": "It is an uncooked egg.",
+     "speaker": "Momo"
+    },
+    {
+     "start": 244.2,
+     "end": 252.2,
+     "ja": "日本では生の卵を食べることができます。",
+     "en": "In Japan, you can eat raw eggs.",
+     "speaker": "Momo"
+    },
+    {
+     "start": 253.0,
+     "end": 257.4,
+     "ja": "日本の卵は安全です。",
+     "en": "Eggs in Japan are safe.",
+     "speaker": "Momo"
+    },
+    {
+     "start": 257.8,
+     "end": 301.5,
+     "ja": "生で食べられます。",
+     "en": "You can eat them raw.",
+     "speaker": "Momo"
+    }
+   ]
+  }
+ ],
+ "videoId": "riDaz7OMn74",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

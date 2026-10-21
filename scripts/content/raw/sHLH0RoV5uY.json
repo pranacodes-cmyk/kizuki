@@ -1,0 +1,143 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 2.2,
+   "end": 21.5,
+   "title": "Visiting a Famous Ramen Shop in Kagoshima",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜たのは — what (someone) did was...",
+    "〜ていただく — humble/polite receiving action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2.2,
+     "end": 4.5,
+     "ja": "続いて向かったのは、",
+     "en": "The next destination was...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 4.5,
+     "end": 7.0,
+     "ja": "鹿児島県鹿児島市！",
+     "en": "Kagoshima City, Kagoshima Prefecture!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 8.0,
+     "end": 10.8,
+     "ja": "ここでぼたんちゃんが向かったのが、",
+     "en": "Where Botan-chan headed here was...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 10.8,
+     "end": 13.8,
+     "ja": "こむらさき 天文館店。",
+     "en": "Komurasaki Tenmonkan Branch.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 14.2,
+     "end": 17.5,
+     "ja": "こちらのお店でいただけるのが、",
+     "en": "What you can enjoy at this restaurant is...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 17.7,
+     "end": 21.0,
+     "ja": "鹿児島黒豚チャーシュー入りラーメン！",
+     "en": "Kagoshima Berkshire pork chashu ramen!",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 21.8,
+   "end": 39.5,
+   "title": "A Special Bowl of Kagoshima Ramen",
+   "level": "N3",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜をベースに — based on...",
+    "〜だけ — only / unique to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 22.0,
+     "end": 23.7,
+     "ja": "スープは豚骨をベースに、",
+     "en": "The soup is pork-bone based,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 23.7,
+     "end": 26.5,
+     "ja": "鶏ガラ、昆布、干し椎茸の出汁が加わった",
+     "en": "with chicken bones, kelp, and dried shiitake mushroom broth added,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 26.5,
+     "end": 28.0,
+     "ja": "あっさり豚骨。",
+     "en": "making it a light tonkotsu broth.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 28.1,
+     "end": 30.3,
+     "ja": "麺は中細の歯切れがいい、",
+     "en": "The noodles are medium-thin with a good bite,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 30.3,
+     "end": 32.8,
+     "ja": "柔らかストレート麺。",
+     "en": "soft, straight noodles.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 33.1,
+     "end": 35.5,
+     "ja": "たっぷり千切りキャベツ、椎茸、",
+     "en": "With plenty of shredded cabbage, shiitake,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 35.5,
+     "end": 37.5,
+     "ja": "チャーシューがゴロッと入った、",
+     "en": "and chunky chashu pork inside,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 37.5,
+     "end": 39.0,
+     "ja": "ここだけのラーメン。",
+     "en": "it's a ramen you can only get here.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "sHLH0RoV5uY",
+ "pickTopics": [
+  "food",
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,210 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 153.0,
+   "end": 218.0,
+   "title": "Making Demi-Glace Sauce",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜と — and (listing)",
+    "大さじ〜 — tablespoon count"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 153.3,
+     "end": 156.8,
+     "ja": "えっと、しめじと玉ねぎと",
+     "en": "Um, shimeji mushrooms, onions, and...",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 157.5,
+     "end": 160.0,
+     "ja": "ケチャップが大さじ３。",
+     "en": "Three tablespoons of ketchup.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 160.1,
+     "end": 162.4,
+     "ja": "１、２、３。",
+     "en": "One, two, three.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 162.8,
+     "end": 166.8,
+     "ja": "ソースも同じ、１、２、３。",
+     "en": "Same for the sauce: one, two, three.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 167.3,
+     "end": 170.5,
+     "ja": "で、醤油が大さじ１。",
+     "en": "And one tablespoon of soy sauce.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 171.0,
+     "end": 172.3,
+     "ja": "１。",
+     "en": "One.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 173.2,
+     "end": 175.2,
+     "ja": "水が大さじ２。",
+     "en": "Two tablespoons of water.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 175.4,
+     "end": 177.5,
+     "ja": "砂糖も大さじ１と...",
+     "en": "Sugar is also one tablespoon, and...",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 201.8,
+   "end": 220.0,
+   "title": "Eating with a Measuring Spoon",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜羽目になる — end up having to",
+    "〜やろな — Kansai equivalent of 〜だろうな"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 202.0,
+     "end": 203.5,
+     "ja": "いただきます。",
+     "en": "Let's eat.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 203.9,
+     "end": 207.5,
+     "ja": "ほんまにさ、なんかスプーンどこ行ったんやろな。",
+     "en": "Seriously though, I wonder where my spoons went.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 208.6,
+     "end": 211.5,
+     "ja": "まさか大さじスプーンで食べる羽目になるとは。",
+     "en": "To think I'd end up having to eat with a measuring spoon.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 216.5,
+     "end": 218.5,
+     "ja": "うん、うま。",
+     "en": "Mm, delicious.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 666.5,
+   "end": 698.2,
+   "title": "It's Only 2 PM!",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜やん — Kansai emphasis (isn't it)",
+    "〜すぎる — too much / excessively"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 667.0,
+     "end": 668.5,
+     "ja": "ま、今何時？",
+     "en": "Well, what time is it now?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 671.8,
+     "end": 675.0,
+     "ja": "まだ２時？まだ２時？まだ２時！？",
+     "en": "Still 2 o'clock? Still 2? Still only 2 o'clock!?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 675.2,
+     "end": 676.8,
+     "ja": "何でもできるやん、えぐ！",
+     "en": "I can do anything, that's insane!",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 677.0,
+     "end": 678.8,
+     "ja": "え、このまま動画編集して...",
+     "en": "Wait, edit the video just like this...",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 679.2,
+     "end": 683.5,
+     "ja": "違う違う、インスタライブして、このまま動画編集して...",
+     "en": "No, no, do an Insta Live, and then edit the video like this...",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 684.0,
+     "end": 687.0,
+     "ja": "やば！やば！最高！",
+     "en": "Crazy! Crazy! This is the best!",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 689.5,
+     "end": 692.1,
+     "ja": "何でもできるやん、私、今日！",
+     "en": "I can literally do anything today!",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 692.4,
+     "end": 694.9,
+     "ja": "１日長く感じる〜！",
+     "en": "The day feels so long!",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 695.3,
+     "end": 697.8,
+     "ja": "幸せすぎる〜！",
+     "en": "I'm way too happy!",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "yzWpenByiNQ",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

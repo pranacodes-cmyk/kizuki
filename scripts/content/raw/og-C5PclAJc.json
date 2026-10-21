@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 84.5,
+   "end": 106.8,
+   "title": "Public Safety in Japan",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜と — when/if",
+    "〜ですよね — isn't it?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 84.8,
+     "end": 89.5,
+     "ja": "まあ、まずは日本の治安ですね。",
+     "en": "Well, first of all, it's public safety in Japan.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 90.5,
+     "end": 96.0,
+     "ja": "日本は治安は本当にいいですよね。",
+     "en": "Japan's public safety is really good, isn't it?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 96.8,
+     "end": 101.0,
+     "ja": "治安が悪い国に行くと、",
+     "en": "When you go to a country with poor safety,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 101.5,
+     "end": 106.2,
+     "ja": "うーん、雰囲気でもう分かります。",
+     "en": "well, you can tell right away from the atmosphere.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 248.8,
+   "end": 268.0,
+   "title": "Convenience Stores Everywhere",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜てくれる — to do for someone",
+    "〜と思う — to think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 249.0,
+     "end": 256.0,
+     "ja": "あとはコンビニも日本のすごいところだと思います。",
+     "en": "Also, convenience stores are another amazing thing about Japan.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 256.8,
+     "end": 259.6,
+     "ja": "どこでもコンビニがあって、",
+     "en": "Having convenience stores everywhere,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 260.0,
+     "end": 263.0,
+     "ja": "何でも買えるのは、",
+     "en": "and being able to buy anything there,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 263.3,
+     "end": 267.5,
+     "ja": "生活をもっと楽にしてくれますね。",
+     "en": "makes life so much easier.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 482.8,
+   "end": 505.5,
+   "title": "Vending Machines in Japan",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜と言っていた — said that",
+    "買える — can buy (potential form)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 483.0,
+     "end": 485.5,
+     "ja": "私の妻は、",
+     "en": "My wife,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 486.0,
+     "end": 492.5,
+     "ja": "日本でどこでも自動販売機で飲み物が買えるのは、",
+     "en": "being able to buy drinks from vending machines everywhere in Japan,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 493.0,
+     "end": 496.5,
+     "ja": "便利だと言っていました。",
+     "en": "was saying that it's very convenient.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 497.0,
+     "end": 500.5,
+     "ja": "これは私は気づきませんでしたけど、",
+     "en": "I hadn't noticed this myself, but",
+     "speaker": "Shun"
+    },
+    {
+     "start": 501.0,
+     "end": 504.8,
+     "ja": "妻はそう言っていましたね。",
+     "en": "that's what my wife was saying.",
+     "speaker": "Shun"
+    }
+   ]
+  }
+ ],
+ "videoId": "og-C5PclAJc",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}
