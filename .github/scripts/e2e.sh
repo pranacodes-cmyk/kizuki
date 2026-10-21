@@ -30,26 +30,45 @@ adb shell getprop ro.build.version.release </dev/null | sed 's/^/android: /'
 shot() { adb exec-out screencap -p </dev/null > "$1" 2>/dev/null || true; }
 grant() { adb shell pm grant "$PKG" android.permission.POST_NOTIFICATIONS </dev/null >/dev/null 2>&1 || true; }
 
-# Tap "Allow" on a runtime-permission dialog if one ever shows (fallback for a race with grant).
-allow_dialogs() {
-  while true; do
-    if adb shell dumpsys window </dev/null 2>/dev/null | grep -q 'mCurrentFocus.*GrantPermissionsActivity'; then
-      adb shell uiautomator dump /sdcard/ui.xml </dev/null >/dev/null 2>&1
-      adb exec-out cat /sdcard/ui.xml </dev/null > /tmp/ui.xml 2>/dev/null
-      xy=$(python3 - <<'PY'
-import re
+# Background watcher for system dialogs that would cover the app on a slow CI emulator:
+#  - runtime-permission dialogs → "Allow" (fallback for a race with grant)
+#  - "<app> isn't responding" → close it when it is another app (the launcher often ANRs on
+#    first boot); when it is Kizuki itself, record it in $OUT/anr.txt and keep waiting.
+tap_id() { # $1 = resource-id suffix; prints "x y" of that view's centre, if present
+  adb shell uiautomator dump /sdcard/ui.xml </dev/null >/dev/null 2>&1
+  adb exec-out cat /sdcard/ui.xml </dev/null > /tmp/ui.xml 2>/dev/null
+  ID="$1" python3 - <<'PY'
+import os, re
 xml = open('/tmp/ui.xml', encoding='utf-8', errors='ignore').read()
-m = re.search(r'permission_allow_button"[^>]*?bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"', xml)
+m = re.search(re.escape(os.environ['ID']) + r'"[^>]*?bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"', xml)
 if m:
     a, b, c, d = map(int, m.groups())
     print((a + c) // 2, (b + d) // 2)
 PY
-)
-      if [ -n "$xy" ]; then echo "allowing permission dialog at $xy"; adb shell input tap $xy </dev/null; fi
-    fi
+}
+watch_dialogs() {
+  while true; do
+    focus=$(adb shell dumpsys window </dev/null 2>/dev/null | grep -m1 'mCurrentFocus' || true)
+    case "$focus" in
+      *GrantPermissionsActivity*)
+        xy=$(tap_id permission_allow_button)
+        if [ -n "$xy" ]; then echo "allowing permission dialog at $xy"; adb shell input tap $xy </dev/null; fi
+        ;;
+      *"Not Responding"*)
+        if printf '%s' "$focus" | grep -q "$PKG"; then
+          echo "$(date -u +%T) $focus" >> "$OUT/anr.txt"
+          xy=$(tap_id aerr_wait)
+        else
+          xy=$(tap_id aerr_close)
+        fi
+        if [ -n "$xy" ]; then echo "dismissing ANR dialog ($focus) at $xy"; adb shell input tap $xy </dev/null; fi
+        ;;
+    esac
     sleep 2
   done
 }
+watch_dialogs &
+WATCH_PID=$!
 
 # ---------------------------------------------------------------- 1. release smoke test
 echo "== release smoke test: $APK"
@@ -65,6 +84,7 @@ done
 # Tap "Get started" (bottom-centre button) and capture the first onboarding question.
 size=$(adb shell wm size </dev/null | awk -F'[ x]' '/Physical/ {print $3" "$4}')
 w=${size% *}; h=${size#* }
+sleep 4 # lets the watcher clear any system dialog first
 adb shell input tap $((w / 2)) $((h * 84 / 100)) </dev/null
 sleep 3
 shot "$OUT/release/after_get_started.png"
@@ -82,8 +102,6 @@ echo "== flow test (profile mode)"
     sleep 1
   done ) &
 GRANT_PID=$!
-allow_dialogs &
-ALLOW_PID=$!
 adb logcat -c </dev/null
 ( adb logcat -v raw -s flutter:I </dev/null | while IFS= read -r line; do
     case "$line" in
@@ -105,7 +123,7 @@ RC=${PIPESTATUS[0]}
 sleep 2
 adb logcat -d -v time </dev/null > "$OUT/flow/logcat.txt"
 grep -E "FATAL EXCEPTION|AndroidRuntime|E/flutter|KIZUKI_ERROR" "$OUT/flow/logcat.txt" > "$OUT/flow/errors.txt" || true
-kill "$GRANT_PID" "$ALLOW_PID" "$SHOT_PID" 2>/dev/null || true
+kill "$GRANT_PID" "$WATCH_PID" "$SHOT_PID" 2>/dev/null || true
 pkill -f "adb logcat" 2>/dev/null || true
 echo "flow test exit code: $RC"
 ls -1 "$OUT/flow" | sed 's/^/  /'

@@ -101,6 +101,7 @@ def main():
 
     missing = [e for e in entries if remote.get(e[0]) != e[3]]
     print(f"{len(entries)} files, {len(missing)} new or changed")
+    changed = bool(missing)
 
     # Text files ride inside throwaway tree requests (one request creates ~150 blobs), which keeps
     # big content updates under GitHub's limit on content-creating requests; binaries use the blob API.
@@ -137,7 +138,7 @@ def main():
             if i % 200 == 0:
                 print(f"  uploaded {i}/{len(missing)}")
 
-    if not missing and set(remote) == {e[0] for e in entries}:
+    if not changed and set(remote) == {e[0] for e in entries}:
         print(f"nothing to commit; main is {head}")
         print(head)
         return

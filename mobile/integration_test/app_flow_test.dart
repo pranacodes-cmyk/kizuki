@@ -115,10 +115,13 @@ void main() {
     }
     expect(word, isNotNull, reason: 'the first transcript line has a tappable word');
     await tester.tap(word!, warnIfMissed: false);
-    await waitFor(find.text('Save word'), what: 'word card');
+    await waitFor(find.text('Examples'), what: 'word card');
+    await wait(1200);
     await shot('13_word_card');
-    await tapText('Save word', after: 1200);
+    // Auto-save is on by default, so the tap usually saved the word already; otherwise save it.
+    if (find.text('Save word').evaluate().isNotEmpty) await tapText('Save word', after: 1200);
     expect(state().words, isNotEmpty);
+    expect(find.textContaining('Learning · review'), findsWidgets);
     await shot('14_word_saved');
 
     // Ask Kizuki from the word card (signed out → it offers a free account first).
