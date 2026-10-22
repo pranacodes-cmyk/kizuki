@@ -29,11 +29,23 @@ android {
         versionName = flutter.versionName
     }
 
+    // One fixed key (GitHub Actions secrets → env), so every new APK installs over the last one.
+    // Without it (local builds) the per-machine debug key is used and phones refuse the update.
+    val keystorePath = System.getenv("KIZUKI_KEYSTORE")
+    signingConfigs {
+        if (keystorePath != null && file(keystorePath).exists()) {
+            create("kizuki") {
+                storeFile = file(keystorePath)
+                storePassword = System.getenv("KIZUKI_KEYSTORE_PASSWORD")
+                keyAlias = System.getenv("KIZUKI_KEY_ALIAS")
+                keyPassword = System.getenv("KIZUKI_KEYSTORE_PASSWORD")
+            }
+        }
+    }
+
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.findByName("kizuki") ?: signingConfigs.getByName("debug")
             // No R8 shrinking: plugins such as shared_preferences call Kotlin code through JNI,
             // and R8 strips those methods — saved progress never loaded and the app opened blank.
             isMinifyEnabled = false

@@ -14,6 +14,8 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 - [x] Trial mockup: lower half shows the next transcript lines like the real feed (repeated sentences skipped)
 - [x] Word meanings: 119 katakana words had the wrong meaning (ホテル "to feel hot", クラス "to live", チョコ "sake cup"…) — fixed in the content build + data tests
 - [x] Split katakana words joined back up (ガン+ダム "cancer"+"dam" → ガンダム, イヤホン, サブウェイ, カンフー…): 42 words in 31 clips, AI word notes re-made for those 31 clips; tests guard it
+- [x] Android tour stuck on the Review step (the app didn't notice the pushed Review screen) — fixed + test
+- [x] Every APK now signed with one fixed key (GitHub secret), so new versions install over old ones; version 1.1.1
 - [ ] Emulator run on GitHub (now also: name screen with the real keyboard, presenter video, paywall demo, full 16-step tour, real finger swipes, no-wobble check), then new APK
 - [x] Sweep of the phone recording: podcast videos (a still Patreon banner instead of video) now rank far down the feed (22 clips; never in a new learner's first 150); clips no longer open on the tail of the previous sentence (2 clips trimmed, notes re-made)
 
