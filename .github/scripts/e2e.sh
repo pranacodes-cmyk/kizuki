@@ -91,9 +91,11 @@ done
 size=$(adb shell wm size </dev/null | awk -F'[ x]' '/Physical/ {print $3" "$4}')
 w=${size% *}; h=${size#* }
 sleep 4 # lets the watcher clear any system dialog first
-adb shell input tap $((w / 2)) $((h * 84 / 100)) </dev/null
+adb shell input tap $((w / 2)) $((h * 875 / 1000)) </dev/null
 sleep 3
 shot "$OUT/release/after_get_started.png"
+# The tap must have moved the release build from the welcome screen into onboarding.
+if cmp -s "$OUT/release/launch_25s.png" "$OUT/release/after_get_started.png"; then echo "unchanged" > "$OUT/release/navigation.txt"; else echo "moved on" > "$OUT/release/navigation.txt"; fi
 if adb shell pidof "$PKG" </dev/null >/dev/null; then echo "running" > "$OUT/release/process.txt"; else echo "NOT RUNNING (crashed?)" > "$OUT/release/process.txt"; fi
 adb logcat -d -v time </dev/null > "$OUT/release/logcat.txt"
 grep -E "FATAL EXCEPTION|AndroidRuntime|E/flutter|KIZUKI_ERROR|Impeller|libc.*Fatal|ANR in $PKG" "$OUT/release/logcat.txt" > "$OUT/release/errors.txt" || true

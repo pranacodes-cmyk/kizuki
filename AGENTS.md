@@ -24,3 +24,4 @@
 - The AI tutor (Ask Kizuki) runs only in the web app's server route `src/routes/api/public/ask.ts`, which requires a signed-in user's access token; both clients post the same AI SDK UI-message body, and the Android app calls the published origin (`AppConfig.apiOrigin`). Why: the AI key stays server-side and there is one tutor prompt.
 - The web dev server ignores `mobile/**` (vite.config.ts). Why: Flutter build/test output otherwise reloads the preview mid-session.
 - Welcome-tour steps live in `src/lib/tour.ts` / `mobile/lib/data/tour.dart`; spotlight targets are `data-tour` attributes on web and `TourTargets` keys on Flutter, set only on the feed's active clip. Why: one tour definition per client, targets never point at off-screen clips.
+- Flutter sheets (`showMimiSheet`) open on the root navigator, above the tab shell. Why: the web Sheet layers over the TabBar; inside the shell the floating tab bar covered cards and took their taps.
