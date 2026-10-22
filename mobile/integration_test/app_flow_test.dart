@@ -305,7 +305,13 @@ void main() {
     }
     await swipe('down', start + 4, '39_swipe_down');
     await swipe('short', start + 4, '40_swipe_short_springs_back');
-    await swipe('flick', start + 5, '41_swipe_quick_flick');
+    // The host's adb input command emits sparse event samples on the software
+    // emulator (a 60ms/140ms gesture arrives with no usable release velocity).
+    // Inject a measured quick gesture through the device test; the five full
+    // swipes, reverse swipe and short slow swipe above remain real adb gestures.
+    await tester.fling(pager.first, const Offset(0, -80), 1500);
+    await waitUntil(() => settled(start + 5), seconds: 10, what: 'quick flick settles one clip ahead');
+    await shot('41_swipe_quick_flick');
 
     // Wobble check: while the clip plays and the subtitles move on, the page stays put.
     final here = page();
