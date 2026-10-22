@@ -84,7 +84,7 @@ function Vocab() {
         </div>
         <div className="mt-4">
           {counts.due > 0 ? (
-            <Button onClick={() => navigate({ to: "/review", search: { deck: "words" } })}>{counts.due} card{counts.due === 1 ? "" : "s"} to review</Button>
+            <Button data-tour="reviewButton" onClick={() => navigate({ to: "/review", search: { deck: "words" } })}>{counts.due} card{counts.due === 1 ? "" : "s"} to review</Button>
           ) : (
             <div className="rounded-2xl bg-surface px-4 py-3.5 text-center">
               <p className="text-[1rem] font-extrabold">{counts.saved ? "Done reviewing for today 🎉" : "Tap words in clips to save them"}</p>

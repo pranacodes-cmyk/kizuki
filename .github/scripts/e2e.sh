@@ -111,12 +111,31 @@ echo "== flow test (profile mode)"
   done ) &
 GRANT_PID=$!
 adb logcat -c </dev/null
+size=$(adb shell wm size </dev/null | awk -F'[ x]' '/Physical/ {print $3" "$4}')
+W=${size% *}; H=${size#* }
+echo "screen: ${W}x${H}"
 ( adb logcat -v raw -s flutter:I </dev/null | while IFS= read -r line; do
     case "$line" in
       *E2E_SHOT*)
         name=$(printf '%s' "${line##*E2E_SHOT }" | tr -cd 'A-Za-z0-9_-')
         shot "$OUT/flow/$name.png"
         echo "captured $name"
+        ;;
+      *E2E_SWIPE*)
+        # A real finger on the subtitles (lower half), like a person: up/down = next/previous
+        # clip, short = a small slow drag that must spring back, flick = short but fast.
+        kind=$(printf '%s' "${line##*E2E_SWIPE }" | tr -cd 'a-z')
+        x=$((W / 2))
+        case "$kind" in
+          up)    adb shell input swipe $x $((H * 80 / 100)) $x $((H * 45 / 100)) 260 </dev/null ;;
+          down)  adb shell input swipe $x $((H * 50 / 100)) $x $((H * 85 / 100)) 260 </dev/null ;;
+          short) adb shell input swipe $x $((H * 72 / 100)) $x $((H * 66 / 100)) 700 </dev/null ;;
+          flick) adb shell input swipe $x $((H * 76 / 100)) $x $((H * 66 / 100)) 60 </dev/null ;;
+        esac
+        echo "swiped $kind"
+        ;;
+      *E2E_INFO*)
+        echo "${line##*E2E_INFO }" >> "$OUT/flow/info.txt"
         ;;
     esac
   done ) &

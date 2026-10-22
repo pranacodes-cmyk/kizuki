@@ -50,6 +50,7 @@ dependencies:
   lucide_icons_flutter: ^4.0.1
   intl: ^0.20.3
   url_launcher: ^6.3.3
+  video_player: ^2.10.0
 
 dev_dependencies:
   flutter_test:
@@ -77,6 +78,7 @@ flutter:
     - assets/data/
     - assets/data/explain/
     - assets/mascot/
+    - assets/video/
 
   fonts:
     - family: Nunito

@@ -4,6 +4,7 @@ import 'package:lucide_icons_flutter/lucide_icons.dart';
 import '../data/models.dart' as m;
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
+import 'tour.dart';
 import 'ui.dart';
 
 /// Index of the line being spoken (last line whose start ≤ t), -1 before the first line.
@@ -42,7 +43,10 @@ class Transcript extends StatelessWidget {
   final ValueChanged<int> onLine;
   final ValueChanged<int> onLineMenu;
   final List<GlobalKey> lineKeys;
-  const Transcript({super.key, required this.clip, required this.time, required this.settings, required this.statusOf, required this.selected, required this.onWord, required this.onLine, required this.onLineMenu, required this.lineKeys});
+
+  /// The word the welcome tour spotlights (line, index), if any.
+  final (int, int)? tourWord;
+  const Transcript({super.key, required this.clip, required this.time, required this.settings, required this.statusOf, required this.selected, required this.onWord, required this.onLine, required this.onLineMenu, required this.lineKeys, this.tourWord});
 
   @override
   Widget build(BuildContext context) {
@@ -76,8 +80,11 @@ class Transcript extends StatelessWidget {
                         crossAxisAlignment: WrapCrossAlignment.end,
                         children: [
                           for (final (wi, trail) in groupTokens(clip.lines[li].words))
-                            _Token(
+                            TourAnchor(
                               key: ValueKey('word-$li-$wi'),
+                              id: 'word',
+                              enabled: tourWord != null && tourWord!.$1 == li && tourWord!.$2 == wi,
+                              child: _Token(
                               w: clip.lines[li].words[wi],
                               trail: trail,
                               size: base,
@@ -87,6 +94,7 @@ class Transcript extends StatelessWidget {
                               furigana: settings.furigana,
                               romaji: settings.romaji,
                               onTap: clip.lines[li].words[wi].isPunct ? null : () => onWord(li, wi),
+                            ),
                             ),
                         ],
                       ),
@@ -119,7 +127,7 @@ class _Token extends StatelessWidget {
   final String status;
   final bool speaking, selected, furigana, romaji;
   final VoidCallback? onTap;
-  const _Token({super.key, required this.w, required this.trail, required this.size, required this.status, required this.speaking, required this.selected, required this.furigana, required this.romaji, this.onTap});
+  const _Token({required this.w, required this.trail, required this.size, required this.status, required this.speaking, required this.selected, required this.furigana, required this.romaji, this.onTap});
 
   @override
   Widget build(BuildContext context) {

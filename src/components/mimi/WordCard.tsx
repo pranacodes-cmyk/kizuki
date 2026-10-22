@@ -8,6 +8,7 @@ import { glossOf, thumbOf } from "@/lib/content";
 import { clipsWithWord, formatInterval, wordKeyOf, wordStatus } from "@/lib/logic";
 import { speak } from "@/lib/speech";
 import { useApp, type WordInput } from "@/lib/store";
+import { tourEmit } from "@/lib/tour-store";
 import { cn } from "@/lib/utils";
 
 import { AskSheet } from "./AskSheet";
@@ -72,7 +73,7 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
   return (
     <>
     <Sheet open={open} onClose={onClose} maxHeight="78%">
-      <div className="flex min-h-0 flex-1 flex-col">
+      <div data-tour="card" className="flex min-h-0 flex-1 flex-col">
         <div className="flex items-start gap-3 px-5 pt-3">
           <div className="min-w-0 flex-1">
             {reading && reading !== head && <p className="font-jp text-[0.9375rem] font-bold text-muted-foreground">{reading}</p>}
@@ -111,7 +112,7 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
 
         <div role="tablist" className="mt-4 flex gap-1 border-b border-border px-4">
           {TABS.map((t) => (
-            <button key={t} role="tab" aria-selected={tab === t} onClick={() => setTab(t)} className={cn("relative flex-1 pb-2.5 pt-1 text-[0.875rem] font-extrabold", tab === t ? "text-foreground" : "text-faint")}>
+            <button key={t} role="tab" aria-selected={tab === t} data-tour={t === "Explain" ? "cardExplain" : undefined} onClick={() => { setTab(t); if (t === "Explain") tourEmit("explain"); }} className={cn("relative flex-1 pb-2.5 pt-1 text-[0.875rem] font-extrabold", tab === t ? "text-foreground" : "text-faint")}>
               {t}
               {tab === t && <span className="absolute inset-x-3 bottom-0 h-[3px] rounded-full bg-primary" />}
             </button>

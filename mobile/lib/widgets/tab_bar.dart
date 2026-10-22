@@ -14,14 +14,11 @@ class TabShell extends StatelessWidget {
   const TabShell({super.key, required this.child});
   @override
   Widget build(BuildContext context) {
-    final path = GoRouterState.of(context).uri.path;
-    final tour = context.select<AppState, bool>((a) => a.onboarded && !a.tutorialFeed) && path == '/feed';
     return Scaffold(
       backgroundColor: T.background,
       body: Stack(children: [
         Positioned.fill(child: child),
         const Positioned(left: 0, right: 0, bottom: 0, child: MimiTabBar()),
-        if (tour) const Positioned.fill(child: WelcomeTour()),
       ]),
     );
   }
@@ -44,7 +41,6 @@ class MimiTabBar extends StatelessWidget {
         padding: const EdgeInsets.only(bottom: 10),
         child: Center(
           child: Container(
-            key: TourTargets.tabs,
             padding: const EdgeInsets.all(6),
             decoration: BoxDecoration(
               color: T.surface.withValues(alpha: 0.96),
@@ -54,13 +50,17 @@ class MimiTabBar extends StatelessWidget {
             ),
             child: Row(mainAxisSize: MainAxisSize.min, children: [
               for (final t in tabs)
-                _Tab(
-                  key: ValueKey('tab-${t.$3}'),
-                  label: t.$3,
-                  icon: t.$4,
-                  active: t.$2.any(path.startsWith),
-                  badge: t.$3 == 'Vocab' ? due : 0,
-                  onTap: () => context.go(t.$1),
+                TourAnchor(
+                  id: 'vocabTab',
+                  enabled: t.$3 == 'Vocab',
+                  child: _Tab(
+                    key: ValueKey('tab-${t.$3}'),
+                    label: t.$3,
+                    icon: t.$4,
+                    active: t.$2.any(path.startsWith),
+                    badge: t.$3 == 'Vocab' ? due : 0,
+                    onTap: () => context.go(t.$1),
+                  ),
                 ),
             ]),
           ),

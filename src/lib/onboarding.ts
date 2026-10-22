@@ -60,16 +60,30 @@ export const reviews = [
   { name: "Priya R.", stars: 5, text: "The explanations in context are gold. It feels like a tutor sitting next to me." },
 ];
 
-/** Founder note — the captions shown on the founder screen (and the script for the real video). */
+/** The welcome message before the trial: captions timed to public/video/kizuki-message.mp4
+ * (mobile/assets/video/message.mp4 in the app). A presenter from the Kizuki team, not a
+ * personal founder story — swap in the founder's own recording + captions when there is one. */
 export const founderLines = [
-  { t: 0, text: "こんにちは！ Hi, I'm the person who built Kizuki." },
-  { t: 4, text: "I started Japanese the usual way — textbooks and drill apps." },
-  { t: 9, text: "I could order a coffee… but I couldn't follow a single real conversation." },
-  { t: 15, text: "What finally worked was listening. A lot. Anime, vlogs, dramas, street interviews." },
-  { t: 22, text: "Pausing on every word I didn't know, looking it up, and hearing it again." },
-  { t: 28, text: "Kizuki does all of that for you, in short clips that actually feel fun." },
-  { t: 34, text: "Watch a clip, tap a word, review it later with the real audio. That's it." },
-  { t: 40, text: "If you have feedback or just want to say hi, message me anytime." },
-  { t: 45, text: "がんばろう！ Let's do this together." },
+  { t: 0.0, text: "こんにちは！" },
+  { t: 1.1, text: "Okay, real talk before you start." },
+  { t: 2.6, text: "Most people learn Japanese the usual way." },
+  { t: 4.65, text: "Textbooks, drill apps, flashcards." },
+  { t: 7.3, text: "And sure, you can order a coffee." },
+  { t: 9.38, text: "But a real conversation?" },
+  { t: 11.0, text: "You can't follow a thing." },
+  { t: 12.5, text: "What actually works is listening." },
+  { t: 14.63, text: "A lot. Anime, vlogs, street interviews," },
+  { t: 17.49, text: "and pausing on every word you don't get." },
+  { t: 19.8, text: "Kizuki does all of that for you," },
+  { t: 21.61, text: "in short clips that actually feel fun." },
+  { t: 24.2, text: "Watch a clip, tap a word," },
+  { t: 25.7, text: "review it later with the real audio." },
+  { t: 27.7, text: "If you've got feedback, or just wanna say hi," },
+  { t: 30.8, text: "message me anytime." },
+  { t: 32.41, text: "がんばろう！ Let's do this together." },
 ];
-export const FOUNDER_SECONDS = 50;
+/** Length of the message video (also the countdown when the video can't play). */
+export const FOUNDER_SECONDS = 36;
+export const FOUNDER_VIDEO_URL = "/video/kizuki-message.mp4";
+export const FOUNDER_VIDEO_WEBM_URL = "/video/kizuki-message.webm";
+export const FOUNDER_POSTER_URL = "/video/kizuki-message.jpg";

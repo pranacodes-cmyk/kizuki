@@ -84,16 +84,30 @@ class FounderLine {
   const FounderLine(this.t, this.text);
 }
 
-/// Founder note — captions on the founder screen (and the script for the real video).
+/// The welcome message before the trial: captions timed to assets/video/message.mp4
+/// (public/video/kizuki-message.mp4 on web). A presenter from the Kizuki team, not a
+/// personal founder story — swap in the founder's own recording + captions when there is one.
 const founderLines = [
-  FounderLine(0, "こんにちは！ Hi, I'm the person who built Kizuki."),
-  FounderLine(4, 'I started Japanese the usual way — textbooks and drill apps.'),
-  FounderLine(9, "I could order a coffee… but I couldn't follow a single real conversation."),
-  FounderLine(15, 'What finally worked was listening. A lot. Anime, vlogs, dramas, street interviews.'),
-  FounderLine(22, "Pausing on every word I didn't know, looking it up, and hearing it again."),
-  FounderLine(28, 'Kizuki does all of that for you, in short clips that actually feel fun.'),
-  FounderLine(34, "Watch a clip, tap a word, review it later with the real audio. That's it."),
-  FounderLine(40, 'If you have feedback or just want to say hi, message me anytime.'),
-  FounderLine(45, "がんばろう！ Let's do this together."),
+  FounderLine(0.0, "こんにちは！"),
+  FounderLine(1.1, "Okay, real talk before you start."),
+  FounderLine(2.6, "Most people learn Japanese the usual way."),
+  FounderLine(4.65, "Textbooks, drill apps, flashcards."),
+  FounderLine(7.3, "And sure, you can order a coffee."),
+  FounderLine(9.38, "But a real conversation?"),
+  FounderLine(11.0, "You can't follow a thing."),
+  FounderLine(12.5, "What actually works is listening."),
+  FounderLine(14.63, "A lot. Anime, vlogs, street interviews,"),
+  FounderLine(17.49, "and pausing on every word you don't get."),
+  FounderLine(19.8, "Kizuki does all of that for you,"),
+  FounderLine(21.61, "in short clips that actually feel fun."),
+  FounderLine(24.2, "Watch a clip, tap a word,"),
+  FounderLine(25.7, "review it later with the real audio."),
+  FounderLine(27.7, "If you've got feedback, or just wanna say hi,"),
+  FounderLine(30.8, "message me anytime."),
+  FounderLine(32.41, "がんばろう！ Let's do this together."),
 ];
-const founderSeconds = 50;
+
+/// Length of the message video (also the countdown when the video can't play).
+const founderSeconds = 36;
+const founderVideoAsset = 'assets/video/message.mp4';
+const founderPosterAsset = 'assets/video/message.jpg';

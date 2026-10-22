@@ -51,6 +51,7 @@ const LEVELS = ["N5", "N4", "N3", "N2", "N1"];
 const TOPICS = new Set(["travel", "anime", "work", "fun", "friends", "family", "romance", "culture", "food", "daily", "animals", "school", "comedy", "sports", "music"]);
 const JP = /[\u3040-\u30ff\u4e00-\u9faf\u3400-\u4dbf々〆ヵヶ]/;
 const KANJI = /[\u4e00-\u9faf\u3400-\u4dbf々〆ヵヶ]/;
+const KATA = /[\u30a1-\u30fa]/;
 const round = (n: number) => Math.round(n * 100) / 100;
 
 // ---------- tokeniser ----------
@@ -242,7 +243,9 @@ const jm: { words: JmWord[]; tags: Record<string, string> } = JSON.parse(fs.read
 console.timeEnd("dict");
 const byKanji = new Map<string, JmWord[]>();
 const byKana = new Map<string, JmWord[]>();
+const jmById = new Map<string, JmWord>();
 for (const w of jm.words) {
+  jmById.set(w.id, w);
   for (const k of w.kanji) (byKanji.get(k.text) ?? byKanji.set(k.text, []).get(k.text)!).push(w);
   for (const k of w.kana) (byKana.get(k.text) ?? byKana.set(k.text, []).get(k.text)!).push(w);
 }
@@ -256,19 +259,50 @@ for (const n of [5, 4, 3, 2, 1]) {
   }
 }
 
+const isCommon = (w: JmWord) => w.kanji.some((k) => k.common) || w.kana.some((k) => k.common);
+const wellKnown = (w: JmWord) => isCommon(w) || jlpt.has(w.id);
+const firstPos = (w: JmWord) => w.sense[0]?.partOfSpeech ?? [];
+const isAffix = (w: JmWord) => firstPos(w).length > 0 && firstPos(w).every((p) => /^(n-)?(pref|suf)$/.test(p));
+const isVerbish = (w: JmWord) => firstPos(w).some((p) => p.startsWith("v") || p.startsWith("aux"));
+
+/** Katakana words that mean something else in Japanese clips than their loanword entry (JMdict ids). */
+const KATA_OVERRIDE: Record<string, string> = {
+  オラ: "2080360", // Shin-chan's "I" (己/俺), not Spanish "hola"
+  ワン: "2844785", // a dog's "woof", not "one"
+};
+
 function lookup(base: string, readingHira: string): JmWord | undefined {
   const hasKanji = KANJI.test(base);
-  let cands = hasKanji ? byKanji.get(base) ?? [] : byKana.get(kata2hira(base)) ?? byKana.get(base) ?? [];
-  if (!cands.length && !hasKanji) cands = byKanji.get(base) ?? [];
+  const forced = KATA_OVERRIDE[base];
+  if (forced) {
+    const hit = jmById.get(forced);
+    if (hit) return hit;
+  }
+  let cands: JmWord[];
+  if (hasKanji) cands = byKanji.get(base) ?? [];
+  else if (KATA.test(base)) {
+    // Katakana: the spelling as written first — ホテル is "hotel", never 火照る (ほてる) "to feel hot".
+    // A lone katakana character or a rare prefix/suffix is almost always a sound or a fragment.
+    const plausible = (w: JmWord) => ([...base].length > 1 || wellKnown(w) || firstPos(w).includes("int")) && (!isAffix(w) || wellKnown(w));
+    // A rare kanji word that merely lists this katakana as a variant (ガオガオ → 高考) is not a match.
+    cands = (byKana.get(base) ?? []).filter((w) => plausible(w) && (w.kanji.length === 0 || w.kana[0]?.text === base || w.sense[0]?.misc.includes("uk") || wellKnown(w)));
+    // Katakana spelling of a native word (フグ → ふぐ, ダメ → だめ) — never a verb (クラス ≠ 暮らす).
+    if (!cands.length && kata2hira(base) !== base) cands = (byKana.get(kata2hira(base)) ?? []).filter((w) => plausible(w) && !isVerbish(w));
+    if (!cands.length) cands = byKanji.get(base) ?? [];
+  } else {
+    cands = byKana.get(base) ?? [];
+    if (!cands.length) cands = byKanji.get(base) ?? [];
+  }
   if (!cands.length) return undefined;
-  let best: JmWord | undefined; let bestScore = -1;
+  let best: JmWord | undefined; let bestScore = -Infinity;
   cands.forEach((w, i) => {
     let s = 0;
-    const kanaHit = w.kana.find((k) => k.text === readingHira || k.text === kata2hira(base));
+    const kanaHit = w.kana.find((k) => k.text === base || k.text === readingHira || k.text === kata2hira(base));
     if (kanaHit) s += 8;
-    if (w.kanji.some((k) => k.common) || w.kana.some((k) => k.common)) s += 10;
+    if (isCommon(w)) s += 10;
     if (jlpt.has(w.id)) s += 5;
     if (!hasKanji && (w.kanji.length === 0 || w.sense[0]?.misc.includes("uk"))) s += 6;
+    if (!hasKanji && KATA.test(base) && w.sense[0]?.misc.includes("abbr")) s -= 3; // オウム: the parrot, not the abbreviation
     s -= i * 0.01;
     if (s > bestScore) { bestScore = s; best = w; }
   });

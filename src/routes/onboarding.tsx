@@ -341,23 +341,35 @@ function Streak({ value, onChange, onNext }: { value: number; onChange: (v: numb
 }
 
 function Name({ value, onChange, onNext }: { value: string; onChange: (v: string) => void; onNext: () => void }) {
+  // With the keyboard up the fox steps aside, so the field and both buttons stay visible (onboarding.dart _Name).
+  const [typing, setTyping] = useState(false);
+  const go = () => {
+    (document.activeElement as HTMLElement | null)?.blur();
+    onNext();
+  };
+  // The buttons live outside the scrolling part, so they always sit right above the keyboard.
   return (
     <>
-      <div className="flex justify-center pt-4"><Mascot pose="wave" className="h-32 w-32" /></div>
+      <div className="min-h-0 flex-1 overflow-y-auto pb-4 no-scrollbar">
+      <div className={cn("flex justify-center overflow-hidden transition-all duration-200 ease-out", typing ? "max-h-1 pt-0 opacity-0" : "max-h-40 pt-4 opacity-100")}><Mascot pose="wave" className="h-32 w-32" /></div>
       <Title title="Last thing — what should Kizuki call you?" subtitle="So your plan feels like yours." />
       <div className="mt-6 px-6">
         <input
           value={value}
           onChange={(e) => onChange(e.target.value.slice(0, 30))}
-          onKeyDown={(e) => { if (e.key === "Enter" && value.trim()) onNext(); }}
+          onKeyDown={(e) => { if (e.key === "Enter" && value.trim()) go(); }}
+          onFocus={() => setTyping(true)}
+          onBlur={() => setTyping(false)}
           placeholder="Your first name"
           autoComplete="given-name"
+          enterKeyHint="done"
           className="h-14 w-full rounded-2xl border-2 border-border bg-surface px-4 text-[1.0625rem] font-bold outline-none placeholder:text-faint focus:border-primary"
         />
       </div>
+      </div>
       <Footer>
-        <Button onClick={onNext} disabled={!value.trim()}>Build my plan</Button>
-        <Button variant="ghost" size="md" className="w-full" onClick={onNext}>Skip</Button>
+        <Button onClick={go} disabled={!value.trim()}>Build my plan</Button>
+        <Button variant="ghost" size="md" className="w-full" onClick={go}>Skip</Button>
       </Footer>
     </>
   );

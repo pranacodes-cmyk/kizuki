@@ -4,12 +4,15 @@ import 'package:provider/provider.dart';
 
 import '../data/content.dart';
 import '../data/paywall.dart';
+import '../data/tour.dart' show TourEvent;
 import '../logic/logic.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import '../widgets/clip_view.dart';
 import '../widgets/common.dart';
 import '../widgets/feed_header.dart';
+import '../widgets/feed_pager.dart';
+import '../widgets/tour.dart';
 import '../widgets/ui.dart';
 import 'plan.dart' show feedOrder;
 
@@ -36,7 +39,6 @@ class _Feed extends StatefulWidget {
 }
 
 class _FeedState extends State<_Feed> {
-  final _pages = PageController();
   int active = 0;
   late final List<String> order;
   int? lockedFrom;
@@ -47,12 +49,6 @@ class _FeedState extends State<_Feed> {
     // Order fixed for this visit (re-ranked on the next one, so it never reshuffles under you).
     order = feedOrder(widget.content, context.read<AppState>());
     _checkLock();
-  }
-
-  @override
-  void dispose() {
-    _pages.dispose();
-    super.dispose();
   }
 
   /// Free-tier lock is decided when you arrive on a clip, so the clip you're watching never locks mid-way.
@@ -71,20 +67,23 @@ class _FeedState extends State<_Feed> {
     context.select<AppState, int>((a) => a.todayActivity.clips);
     if (premium && lockedFrom != null) lockedFrom = null;
     if (!premium) _checkLock();
-    return PageView.builder(
-      controller: _pages,
-      scrollDirection: Axis.vertical,
+    // One swipe = one clip; the active clip is set when the feed settles, so a drag that
+    // springs back never flips clips or starts the next one (widgets/feed_pager.dart).
+    return FeedPager(
       itemCount: order.length,
-      onPageChanged: (i) => setState(() {
-        active = i;
-        _checkLock();
-      }),
+      onSettled: (page) {
+        setState(() {
+          active = page;
+          _checkLock();
+        });
+        Tour.I.emit(TourEvent.swipe);
+      },
       itemBuilder: (context, i) {
         if ((i - active).abs() > 1) return const SizedBox.expand();
         if (lockedFrom != null && i >= lockedFrom!) return const _LimitCard();
         final clip = widget.content.byId[order[i]];
         if (clip == null) return const SizedBox.expand();
-        return ClipView(key: ValueKey(clip.id), clip: clip, content: widget.content, active: i == active, tourTargets: true);
+        return ClipView(key: ValueKey(clip.id), clip: clip, content: widget.content, active: i == active, tourTargets: true, inFeed: true);
       },
     );
   }

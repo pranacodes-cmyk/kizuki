@@ -9,6 +9,12 @@ import { feedOrder, useContent } from "@/lib/feed";
 import { canWatchClip } from "@/lib/logic";
 import { FREE_DAILY_CLIPS } from "@/lib/paywall";
 import { todayOf, useApp } from "@/lib/store";
+import { useFeedPager } from "@/lib/feed-pager";
+import { tourEmit } from "@/lib/tour-store";
+
+/** Wheel distance that counts as "next clip", and the quiet gap that ends one wheel gesture. */
+const WHEEL_STEP_PX = 40;
+const WHEEL_GESTURE_GAP_MS = 200;
 
 export const Route = createFileRoute("/_app/feed")({
   head: () => ({
@@ -40,28 +46,48 @@ function Feed() {
     if (premium) setLockedFrom(null);
   }, [premium, clipsToday, active, lockedFrom]);
 
+  // One swipe / wheel gesture / arrow key = one clip; the active clip is set once it settles.
+  const step = useFeedPager(scroller, order.length, setActive);
+
+  // Moving to another clip completes the tour's "swipe up" step.
+  const firstActive = useRef(true);
+  useEffect(() => {
+    if (firstActive.current) { firstActive.current = false; return; }
+    tourEmit("swipe");
+  }, [active]);
+
+  // Mouse wheel / trackpad on the desktop preview: one gesture = one clip.
+  const hasData = !!data;
+  const stepRef = useRef(step);
+  stepRef.current = step;
   useEffect(() => {
     const box = scroller.current;
-    if (!box || !order.length) return;
-    const io = new IntersectionObserver(
-      (entries) => {
-        for (const e of entries) if (e.isIntersecting) setActive(Number((e.target as HTMLElement).dataset["index"]));
-      },
-      { root: box, threshold: 0.6 },
-    );
-    box.querySelectorAll("[data-index]").forEach((el) => io.observe(el));
-    return () => io.disconnect();
-  }, [order.length]);
+    if (!box) return;
+    let acc = 0, locked = false, idle: ReturnType<typeof setTimeout> | undefined;
+    const onWheel = (e: WheelEvent) => {
+      if (e.ctrlKey || Math.abs(e.deltaY) < Math.abs(e.deltaX)) return; // pinch-zoom / sideways
+      e.preventDefault();
+      clearTimeout(idle);
+      idle = setTimeout(() => { acc = 0; locked = false; }, WHEEL_GESTURE_GAP_MS);
+      if (locked) return; // trackpad momentum of the gesture that already moved
+      acc += e.deltaMode === 1 ? e.deltaY * 40 : e.deltaY;
+      if (Math.abs(acc) < WHEEL_STEP_PX) return;
+      stepRef.current(acc > 0 ? 1 : -1);
+      acc = 0;
+      locked = true;
+    };
+    box.addEventListener("wheel", onWheel, { passive: false });
+    return () => { clearTimeout(idle); box.removeEventListener("wheel", onWheel); };
+  }, [hasData]);
 
   // Keyboard ↑/↓ on desktop preview.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
       if (e.key !== "ArrowDown" && e.key !== "ArrowUp") return;
-      const box = scroller.current;
-      if (!box) return;
+      if (!scroller.current) return;
       e.preventDefault();
-      box.scrollBy({ top: (e.key === "ArrowDown" ? 1 : -1) * box.clientHeight, behavior: "smooth" });
+      stepRef.current(e.key === "ArrowDown" ? 1 : -1);
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
@@ -73,11 +99,11 @@ function Feed() {
       {isLoading && <MascotLoader className="flex-1" label="Finding clips for you…" />}
       {error && <div className="flex flex-1 items-center"><ErrorState title="Couldn't load clips" body="Check your connection and try again." onRetry={() => void refetch()} /></div>}
       {data && (
-        <div ref={scroller} className="min-h-0 flex-1 snap-y snap-mandatory overflow-y-scroll overscroll-contain no-scrollbar">
+        <div ref={scroller} className="min-h-0 flex-1 overflow-y-scroll overscroll-contain no-scrollbar">
           {order.map((id, i) => (
-            <section key={id} data-index={i} className="relative h-full snap-start snap-always">
+            <section key={id} data-index={i} className="relative h-full">
               {Math.abs(i - active) <= 1 ? (
-                lockedFrom != null && i >= lockedFrom ? <LimitCard /> : data.byId[id] ? <ClipView clip={data.byId[id]} content={data} active={i === active} tourTargets /> : null
+                lockedFrom != null && i >= lockedFrom ? <LimitCard /> : data.byId[id] ? <ClipView clip={data.byId[id]} content={data} active={i === active} tourTargets inFeed /> : null
               ) : null}
             </section>
           ))}

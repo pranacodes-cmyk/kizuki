@@ -14,6 +14,7 @@ import 'state/app_state.dart';
 import 'theme/tokens.dart';
 import 'widgets/common.dart' show ScreenError;
 import 'widgets/toast.dart';
+import 'widgets/tour.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -74,9 +75,20 @@ class KizukiApp extends StatefulWidget {
 class _KizukiAppState extends State<KizukiApp> {
   late final router = buildRouter(widget.app);
 
+  /// Current route path for the welcome tour (it lives above the Navigator).
+  final _path = ValueNotifier<String>('/');
+
+  void _syncPath() {
+    try {
+      _path.value = router.routerDelegate.currentConfiguration.uri.path;
+    } catch (_) {}
+  }
+
   @override
   void initState() {
     super.initState();
+    router.routerDelegate.addListener(_syncPath);
+    _syncPath();
     widget.app.addListener(_celebrate);
     widget.app.addListener(_reminders);
     _reminders();
@@ -84,6 +96,8 @@ class _KizukiAppState extends State<KizukiApp> {
 
   @override
   void dispose() {
+    router.routerDelegate.removeListener(_syncPath);
+    _path.dispose();
     widget.app.removeListener(_celebrate);
     widget.app.removeListener(_reminders);
     super.dispose();
@@ -123,6 +137,8 @@ class _KizukiAppState extends State<KizukiApp> {
       routerConfig: router,
       builder: (context, child) => Stack(children: [
         child ?? const SizedBox(),
+        // Above every route and sheet, so it can follow the learner and spotlight cards.
+        Positioned.fill(child: TourHost(path: _path)),
         const Positioned.fill(child: ToastLayer()),
       ]),
     );

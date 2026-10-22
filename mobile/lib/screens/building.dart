@@ -69,22 +69,31 @@ class _BuildingScreenState extends State<BuildingScreen> with TickerProviderStat
           child: Column(children: [
             Expanded(
               child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                AnimatedBuilder(
-                  animation: _bounce,
-                  builder: (_, child) => Transform.translate(offset: Offset(0, -12 * Curves.easeInOut.transform(_bounce.value)), child: child),
-                  child: const Mascot(MascotPose.listen, size: 160),
+                // Progress ring with the fox bobbing inside.
+                SizedBox(
+                  width: 232,
+                  height: 232,
+                  child: Stack(alignment: Alignment.center, children: [
+                    Positioned.fill(
+                      child: TweenAnimationBuilder<double>(
+                        tween: Tween(end: pct / 100),
+                        duration: const Duration(milliseconds: 120),
+                        builder: (_, v, _) => CustomPaint(painter: ProgressRingPainter(v)),
+                      ),
+                    ),
+                    AnimatedBuilder(
+                      animation: _bounce,
+                      builder: (_, child) => Transform.translate(offset: Offset(0, -8 * Curves.easeInOut.transform(_bounce.value)), child: child),
+                      child: const Mascot(MascotPose.listen, size: 140),
+                    ),
+                  ]),
                 ),
-                const SizedBox(height: 16),
+                const SizedBox(height: 12),
+                Text('$pct%', style: txt(34, w: FontWeight.w900, c: T.primary, h: 1.1).copyWith(fontFeatures: const [FontFeature.tabularFigures()])),
+                const SizedBox(height: 8),
                 Text('Building your personal plan', textAlign: TextAlign.center, style: txt(26, w: FontWeight.w900, h: 1.2)),
                 const SizedBox(height: 8),
                 SizedBox(height: 24, child: Text(step, style: txt(15, c: T.muted))),
-                const SizedBox(height: 32),
-                Row(children: [Text('Progress', style: txt(14, w: FontWeight.w800, c: T.muted)), const Spacer(), Text('$pct%', style: txt(14, w: FontWeight.w800, c: T.primary))]),
-                const SizedBox(height: 8),
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(99),
-                  child: LinearProgressIndicator(value: pct / 100, minHeight: 16, backgroundColor: T.surface2, color: T.primary),
-                ),
               ]),
             ),
             SizedBox(
@@ -115,4 +124,29 @@ class _BuildingScreenState extends State<BuildingScreen> with TickerProviderStat
       ),
     );
   }
+}
+
+/// Round progress ring (building screen). Mirrors the SVG ring in src/routes/building.tsx.
+class ProgressRingPainter extends CustomPainter {
+  final double value;
+  ProgressRingPainter(this.value);
+  static const double stroke = 14;
+  @override
+  void paint(Canvas canvas, Size size) {
+    final rect = (Offset.zero & size).deflate(stroke / 2);
+    canvas.drawArc(rect, 0, math.pi * 2, false, Paint()
+      ..color = T.surface2
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = stroke);
+    final v = value.clamp(0.0, 1.0);
+    if (v <= 0) return;
+    canvas.drawArc(rect, -math.pi / 2, math.pi * 2 * v, false, Paint()
+      ..color = T.primary
+      ..style = PaintingStyle.stroke
+      ..strokeCap = StrokeCap.round
+      ..strokeWidth = stroke);
+  }
+
+  @override
+  bool shouldRepaint(ProgressRingPainter old) => old.value != value;
 }

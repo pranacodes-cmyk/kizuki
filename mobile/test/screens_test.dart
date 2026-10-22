@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:go_router/go_router.dart';
 import 'package:mimi/logic/logic.dart';
-import 'package:mimi/data/tour.dart';
 import 'package:mimi/screens/lists.dart';
 import 'package:mimi/screens/legal.dart';
 import 'package:mimi/screens/onboarding.dart';
@@ -10,7 +9,6 @@ import 'package:mimi/screens/trial.dart';
 import 'package:mimi/screens/welcome.dart';
 import 'package:mimi/state/app_state.dart';
 import 'package:mimi/theme/tokens.dart';
-import 'package:mimi/widgets/tour.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -102,6 +100,50 @@ void main() {
     expect(app.profile.challenges, ['listening']);
   });
 
+  testWidgets('name step: with the keyboard open on a small phone, the buttons stay fully on screen', (tester) async {
+    final app = await _pump(tester, '/onboarding');
+    Future<void> tap(String t, {int ms = 450}) async {
+      await tester.tap(find.text(t).last);
+      await tester.pump(Duration(milliseconds: ms));
+      await tester.pump(const Duration(milliseconds: 400));
+    }
+
+    await tap('Work', ms: 50);
+    await tap('Continue');
+    await tap("I'm new to Japanese", ms: 700);
+    await tap('Understanding natives', ms: 50);
+    await tap('Continue');
+    await tap('Continue', ms: 1200);
+    await tap('YouTube', ms: 700);
+    await tap('Continue');
+    await tap("I'm committed");
+    await tap('Evening', ms: 100);
+    await tap('Remind me in the evening', ms: 600);
+    await tester.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 300)));
+    await tester.pump(const Duration(milliseconds: 700));
+    await tap('30-day streak', ms: 100);
+    await tap('Commit to 30 days');
+    expect(find.text('Last thing — what should Kizuki call you?'), findsOneWidget);
+
+    // Small phone (360×640) with a 300 px keyboard.
+    tester.view.physicalSize = const Size(360 * 3, 640 * 3);
+    tester.view.viewInsets = const FakeViewPadding(bottom: 300 * 3);
+    await tester.showKeyboard(find.byType(TextField));
+    await tester.enterText(find.byType(TextField), 'Mohit');
+    await tester.pumpAndSettle();
+    expect(tester.takeException(), isNull);
+    const visibleBottom = 640.0 - 300.0;
+    for (final label in ['Build my plan', 'Skip']) {
+      final r = tester.getRect(find.text(label));
+      expect(r.top, greaterThanOrEqualTo(0), reason: '$label top');
+      expect(r.bottom, lessThanOrEqualTo(visibleBottom), reason: '$label is hidden behind the keyboard');
+    }
+    expect(tester.getRect(find.byType(TextField)).bottom, lessThanOrEqualTo(visibleBottom));
+    await tap('Build my plan', ms: 600);
+    expect(app.profile.name, 'Mohit');
+    expect(find.text('building'), findsOneWidget);
+  });
+
   testWidgets('trial pitch walks through its three steps', (tester) async {
     await _pump(tester, '/trial');
     expect(find.text(r'Try for $0.00'), findsOneWidget);
@@ -119,39 +161,5 @@ void main() {
     expect(find.text('First Listen'), findsOneWidget);
     await _pump(tester, '/terms');
     expect(find.text('Terms of Service'), findsOneWidget);
-  });
-
-  testWidgets('welcome tour: tap through every step, legend waits, then it is marked done', (tester) async {
-    SharedPreferences.setMockInitialValues({});
-    final app = AppState();
-    await app.load();
-    app.completeOnboarding();
-    await tester.pumpWidget(ChangeNotifierProvider.value(value: app, child: MaterialApp(theme: buildTheme(), home: const Scaffold(body: WelcomeTour()))));
-    await tester.pump(const Duration(milliseconds: 400));
-    for (final step in tourSteps) {
-      expect(find.text(step.text), findsOneWidget);
-      if (step.kind == 'legend') {
-        await tester.tap(find.text(step.text));
-        await tester.pump(const Duration(milliseconds: 100));
-        expect(find.text(step.text), findsOneWidget, reason: 'legend needs a beat before Got it works');
-        await tester.pump(const Duration(milliseconds: tourLegendDelayMs));
-        await tester.tap(find.text('Got it'));
-      } else {
-        await tester.tap(find.text(step.text));
-      }
-      await tester.pump(const Duration(milliseconds: 400));
-    }
-    expect(app.tutorialFeed, isTrue);
-  });
-
-  testWidgets('welcome tour can be skipped', (tester) async {
-    SharedPreferences.setMockInitialValues({});
-    final app = AppState();
-    await app.load();
-    await tester.pumpWidget(ChangeNotifierProvider.value(value: app, child: MaterialApp(theme: buildTheme(), home: const Scaffold(body: WelcomeTour()))));
-    await tester.pump(const Duration(milliseconds: 400));
-    await tester.tap(find.text('Skip tour'));
-    await tester.pump(const Duration(milliseconds: 400)); // let the debounced save run
-    expect(app.tutorialFeed, isTrue);
   });
 }

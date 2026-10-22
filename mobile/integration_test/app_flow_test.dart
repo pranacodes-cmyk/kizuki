@@ -2,16 +2,24 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:go_router/go_router.dart';
 import 'package:integration_test/integration_test.dart';
+import 'package:mimi/data/tour.dart';
 import 'package:mimi/main.dart' as kizuki;
 import 'package:mimi/state/app_state.dart';
+import 'package:mimi/widgets/feed_pager.dart';
+import 'package:mimi/widgets/tour.dart';
+import 'package:mimi/widgets/ui.dart';
 import 'package:provider/provider.dart';
+import 'package:video_player/video_player.dart';
 
 /// End-to-end on a real Android emulator (GitHub Actions → .github/scripts/e2e.sh):
-/// first launch → onboarding → plan → founder → paywall → account → feed with the real
-/// YouTube player → tap a word → save it → Vocab → Review → Explore → Profile → Settings.
+/// first launch → onboarding (name step with the real keyboard up) → plan → founder video →
+/// paywall with the feed demo → account → feed with the real YouTube player → tap a word →
+/// save it → Vocab → Review → Explore → Profile → Settings → replay the welcome tour and walk
+/// all of it (feed, word card, Explore, Vocab, first review) → real finger swipes on the feed.
 ///
 /// Each `E2E_SHOT <name>` log line makes the host script capture the real device screen
-/// (including the YouTube player, which Flutter's own screenshots can't see).
+/// (including the YouTube player, which Flutter's own screenshots can't see). Each
+/// `E2E_SWIPE <kind>` line makes it swipe the real screen with `adb shell input swipe`.
 void main() {
   final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
   binding.framePolicy = LiveTestWidgetsFlutterBindingFramePolicy.fullyLive;
@@ -44,6 +52,16 @@ void main() {
       await wait(after);
     }
 
+    Future<void> waitUntil(bool Function() ok, {int seconds = 20, required String what}) async {
+      final end = DateTime.now().add(Duration(seconds: seconds));
+      while (DateTime.now().isBefore(end)) {
+        await wait(200);
+        if (ok()) return;
+      }
+      await shot('timeout_${what.replaceAll(RegExp(r'[^a-z0-9]+'), '_')}');
+      fail('Timed out after ${seconds}s waiting for $what');
+    }
+
     BuildContext ctx() => tester.element(find.byType(Navigator).first);
     AppState state() => Provider.of<AppState>(ctx(), listen: false);
 
@@ -71,13 +89,30 @@ void main() {
     await tapText('30-day streak', after: 300);
     await tapText('Commit to 30 days', after: 900);
     await waitFor(find.byType(TextField), what: 'name field');
+    // Open the real soft keyboard: "Build my plan" must stay fully above it (it used to be cut off).
+    await tester.tap(find.byType(TextField), warnIfMissed: false);
+    await wait(2500);
     // On a real device the soft keyboard owns text input, so type through the field's controller.
     final nameField = tester.widget<TextField>(find.byType(TextField));
     nameField.controller!.text = 'Mohit';
     nameField.onChanged?.call('Mohit');
-    await wait(400);
-    FocusManager.instance.primaryFocus?.unfocus();
     await wait(600);
+    {
+      final view = tester.view;
+      final screenH = view.physicalSize.height / view.devicePixelRatio;
+      final keyboard = view.viewInsets.bottom / view.devicePixelRatio;
+      final build = tester.getRect(find.ancestor(of: find.text('Build my plan'), matching: find.byType(Button3D)).first);
+      final skip = tester.getRect(find.ancestor(of: find.text('Skip'), matching: find.byType(Button3D)).first);
+      debugPrint('E2E_INFO name step: screen=${screenH.toStringAsFixed(0)} keyboard=${keyboard.toStringAsFixed(0)} build=$build skip=$skip');
+      await shot('04a_onboarding_name_keyboard');
+      if (keyboard > 0) {
+        expect(build.bottom, lessThanOrEqualTo(screenH - keyboard + 1), reason: 'Build my plan is fully above the keyboard');
+        expect(skip.bottom, lessThanOrEqualTo(screenH - keyboard + 1), reason: 'Skip is fully above the keyboard');
+        expect(build.top, greaterThanOrEqualTo(0));
+      }
+    }
+    FocusManager.instance.primaryFocus?.unfocus();
+    await wait(900);
     await shot('04_onboarding_name');
     await tapText('Build my plan', after: 1000);
     await shot('05_building');
@@ -89,9 +124,18 @@ void main() {
     await waitFor(find.text('Continue'), seconds: 40, what: 'plan screen');
     await shot('06_plan');
     await tapText('Continue', after: 1500);
+    // The welcome message is the real presenter video (not the fox fallback).
+    await waitFor(find.byType(VideoPlayer), seconds: 15, what: 'presenter video');
     await shot('07_founder');
+    await wait(4000);
+    await shot('07b_founder_playing');
     await tapText('Continue', after: 1200);
     await shot('08_trial');
+    // The phone mockup plays the personal feed demo (it used to be empty).
+    await wait(3500);
+    await shot('08b_trial_demo');
+    await wait(3500);
+    await shot('08c_trial_demo');
     await tapText(r'Try for $0.00', after: 1800);
     await tapText('Continue for free', after: 1200);
     await shot('09_trial_plans');
@@ -157,6 +201,106 @@ void main() {
     GoRouter.of(ctx()).push('/settings');
     await wait(2000);
     await shot('20_settings');
+
+    // ---- Replay the welcome tour and walk all of it ----------------------------------
+    String step() => Tour.I.step?.id ?? 'none';
+    Finder anchor(String id) => find.byWidgetPredicate((w) => w is TourAnchor && w.id == id && w.enabled);
+    Future<void> atStep(String id, String name) async {
+      await waitUntil(() => step() == id, what: 'tour step $id (now ${step()})');
+      await wait(1400); // spotlight measured + bubble in
+      await shot(name);
+    }
+
+    Future<void> tapAnchor(String id) async {
+      await waitFor(anchor(id), what: 'tour target $id');
+      await tester.tap(anchor(id).last, warnIfMissed: false);
+      await wait(900);
+    }
+
+    // Real finger swipes (adb) must reach the app, like a person's.
+    binding.shouldPropagateDevicePointerEvents = true;
+    await tapText('Replay the welcome tour', after: 2500);
+    await atStep('hello', '21_tour_hello');
+    expect(find.textContaining('Hi Mohit!'), findsOneWidget);
+    await tapText('Next');
+    await atStep('clip', '22_tour_clip');
+    await tapText('Next');
+    await atStep('subs', '23_tour_subs');
+    await tapText('Next');
+    await atStep('tapWord', '24_tour_tap_word');
+    await tapAnchor('word');
+    await atStep('meaning', '25_tour_meaning');
+    await tapAnchor('cardExplain');
+    await atStep('explain', '26_tour_explain');
+    await tester.tapAt(const Offset(40, 60)); // tap above the card
+    await atStep('legend', '27_tour_legend');
+    await wait(tourLegendDelayMs);
+    await tapText('Got it');
+    await atStep('controls', '28_tour_controls');
+    await tapText('Next');
+    await atStep('swipe', '29_tour_swipe');
+    debugPrint('E2E_SWIPE up');
+    await atStep('explore', '30_tour_explore');
+    await tapAnchor('exploreTab');
+    await atStep('search', '31_tour_search');
+    await tapText('Next');
+    await atStep('vocabTab', '32_tour_vocab_tab');
+    await tapAnchor('vocabTab');
+    await atStep('review', '33_tour_review');
+    await tapAnchor('reviewButton');
+    await atStep('reveal', '34_tour_reveal');
+    await tapAnchor('reviewCard');
+    await atStep('grade', '35_tour_grade');
+    await tapText('Good');
+    await atStep('done', '36_tour_done');
+    await tapText("Let's go!", after: 1200);
+    expect(Tour.I.running, isFalse);
+    expect(state().tutorialFeed, isTrue);
+
+    // ---- Feed: real swipes, one clip each, and no wobble while the subtitles run -------
+    GoRouter.of(ctx()).go('/feed');
+    await wait(6000);
+    final pager = find.descendant(of: find.byType(FeedPager), matching: find.byType(PageView));
+    await waitFor(pager, what: 'feed pager');
+    PageController pages() => tester.widget<PageView>(pager.first).controller!;
+    int page() => pages().page!.round();
+    bool settled(int p) {
+      final pos = pages().position;
+      return !pos.isScrollingNotifier.value && (pos.pixels - p * pos.viewportDimension).abs() < 1;
+    }
+
+    Future<void> swipe(String kind, int expectPage, String name) async {
+      debugPrint('E2E_SWIPE $kind');
+      await wait(1500);
+      await waitUntil(() => settled(expectPage), seconds: 10, what: 'feed page $expectPage after a $kind swipe (now ${pages().page})');
+      await wait(1200);
+      await shot(name);
+    }
+
+    final start = page();
+    await shot('37_feed_before_swipes');
+    // Up on the subtitles, five times: five new clips, never two at once.
+    for (var i = 1; i <= 5; i++) {
+      await swipe('up', start + i, '38_swipe_up_$i');
+    }
+    await swipe('down', start + 4, '39_swipe_down');
+    await swipe('short', start + 4, '40_swipe_short_springs_back');
+    await swipe('flick', start + 5, '41_swipe_quick_flick');
+
+    // Wobble check: while the clip plays and the subtitles move on, the page stays put.
+    final here = page();
+    final h0 = pages().position.viewportDimension;
+    final player = anchor('player');
+    final top0 = player.evaluate().isEmpty ? null : tester.getRect(player.first).top;
+    var worst = 0.0;
+    for (var i = 0; i < 40; i++) {
+      await wait(250);
+      worst = [worst, (pages().position.pixels - here * h0).abs(), if (top0 != null && player.evaluate().isNotEmpty) (tester.getRect(player.first).top - top0).abs()].reduce((a, b) => a > b ? a : b);
+    }
+    debugPrint('E2E_INFO feed wobble over 10s: ${worst.toStringAsFixed(2)}px');
+    expect(worst, lessThan(1.0), reason: 'the feed must not move up and down while subtitles play');
+    await shot('42_feed_after_10s');
+    binding.shouldPropagateDevicePointerEvents = false;
     debugPrint('E2E_DONE');
-  }, timeout: const Timeout(Duration(minutes: 12)));
+  }, timeout: const Timeout(Duration(minutes: 20)));
 }

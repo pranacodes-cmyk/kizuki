@@ -16,6 +16,8 @@ type Props = {
   onWord: (line: number, idx: number) => void;
   onLine: (line: number) => void;
   onLineMenu: (line: number) => void;
+  /** The word the welcome tour spotlights, if any. */
+  tourWord?: { line: number; idx: number } | null;
 };
 
 /** Index of the line being spoken (last line whose start ≤ t), -1 before the first line. */
@@ -26,7 +28,7 @@ export function activeLineIndex(clip: Clip, t: number) {
 }
 
 /** Interactive transcript: furigana, romaji, translation, status underlines and karaoke highlight. */
-export const Transcript = memo(function Transcript({ clip, time, settings, statusOf, selected, onWord, onLine, onLineMenu }: Props) {
+export const Transcript = memo(function Transcript({ clip, time, settings, statusOf, selected, onWord, onLine, onLineMenu, tourWord }: Props) {
   const current = activeLineIndex(clip, time);
   const scale = settings.textSize;
   return (
@@ -55,6 +57,7 @@ export const Transcript = memo(function Transcript({ clip, time, settings, statu
                     furigana={settings.furigana}
                     romaji={settings.romaji}
                     onTap={w.p === "punct" ? undefined : () => onWord(li, wi)}
+                    tour={tourWord?.line === li && tourWord.idx === wi ? "word" : undefined}
                   />
                 );
               })}
@@ -85,7 +88,7 @@ export function groupTokens(words: Word[]) {
   return out;
 }
 
-function Token({ w, trail, status, speaking, selected, furigana, romaji, onTap }: { w: Word; trail: string; status: TokenStatus; speaking: boolean; selected: boolean; furigana: boolean; romaji: boolean; onTap?: (() => void) | undefined }) {
+function Token({ w, trail, status, speaking, selected, furigana, romaji, onTap, tour }: { w: Word; trail: string; status: TokenStatus; speaking: boolean; selected: boolean; furigana: boolean; romaji: boolean; onTap?: (() => void) | undefined; tour?: string | undefined }) {
   const underline = status === "new" ? "decoration-info" : status === "learning" ? "decoration-learning" : "decoration-transparent";
   const body = w.f && furigana
     ? w.f.map(([t, r], i) => (r ? <ruby key={i}>{t}<rt className="text-[0.5em] font-bold text-muted-foreground">{r}</rt></ruby> : <span key={i}>{t}</span>))
@@ -93,6 +96,7 @@ function Token({ w, trail, status, speaking, selected, furigana, romaji, onTap }
   if (!onTap) return <span className="leading-[1.9]">{w.s}{trail}</span>;
   const btn = (
     <button
+      data-tour={tour}
       onClick={(e) => { e.stopPropagation(); onTap(); }}
       className={cn(
         "flex flex-col items-center rounded-lg px-0.5 leading-tight transition-colors",

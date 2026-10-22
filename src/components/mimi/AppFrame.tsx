@@ -36,6 +36,8 @@ export function AppFrame({ children }: { children: ReactNode }) {
         <StatusBar />
         <div className="absolute inset-0">{hydrated ? children : null}</div>
         <div id="overlay-root" className="pointer-events-none absolute inset-0 z-[60]" />
+        {/* Welcome tour: above sheets so it can spotlight the word card, below toasts. */}
+        <div id="tour-root" className="pointer-events-none absolute inset-0 z-[65]" />
         <Toasts />
         <AnimatePresence>{!splashDone && <Splash key="splash" />}</AnimatePresence>
       </div>

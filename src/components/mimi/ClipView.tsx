@@ -3,8 +3,11 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import type { Clip, ClipNotes, Content, Word } from "@/lib/content";
 import { loadNotes } from "@/lib/content";
+import { feedMoving } from "@/lib/feed-motion";
 import { wordKeyOf } from "@/lib/logic";
 import { tokenStatus, useApp, type WordInput } from "@/lib/store";
+import { TOUR_STEPS } from "@/lib/tour";
+import { tourEmit, useTour } from "@/lib/tour-store";
 import { toast } from "@/lib/ui-store";
 import { cn } from "@/lib/utils";
 import { watchUrl } from "@/lib/youtube";
@@ -14,13 +17,18 @@ import { DisplaySheet, LineMenu, SPEEDS } from "./ClipSheets";
 import { Transcript, activeLineIndex, type TokenStatus } from "./Transcript";
 import { WordCard, wordInput } from "./WordCard";
 
+/** After the learner scrolls the transcript, auto-follow waits this long (clip_view.dart: transcriptFollowPauseMs). */
+export const FOLLOW_PAUSE_MS = 4000;
+
 const fmt = (s: number) => `${Math.floor(Math.max(0, s) / 60)}:${String(Math.floor(Math.max(0, s) % 60)).padStart(2, "0")}`;
 
 /** One clip: official YouTube player + controls + interactive transcript + word card. */
-export function ClipView({ clip, content, active, bottomInset = 96, tourTargets = false }: { clip: Clip; content: Content; active: boolean; bottomInset?: number; /** Only the feed's active clip carries the welcome-tour spotlight targets. */ tourTargets?: boolean }) {
+export function ClipView({ clip, content, active, bottomInset = 96, tourTargets = false, inFeed = false }: { clip: Clip; content: Content; active: boolean; bottomInset?: number; /** Only the feed's active clip carries the welcome-tour spotlight targets. */ tourTargets?: boolean; /** Feed: a vertical swipe ANYWHERE changes clips (TikTok rule), so the transcript never takes drags — it only follows the spoken line. The stand-alone clip page scrolls freely. */ inFeed?: boolean }) {
   const player = useRef<ClipPlayerHandle>(null);
   const scroller = useRef<HTMLDivElement>(null);
   const [time, setTime] = useState(clip.start);
+  // Feed: hold karaoke ticks while the feed is mid-swipe, so the snap never bounces back.
+  const onTime = useCallback((t: number) => { if (!inFeed || !feedMoving()) setTime(t); }, [inFeed]);
   const [playing, setPlaying] = useState(false);
   const [rate, setRate] = useState(1);
   const [loopLine, setLoopLine] = useState<number | null>(null);
@@ -75,16 +83,30 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
     };
   }, [playing, clip.start, clip.end, markWatched]);
 
-  // Keep the spoken line in view (scroll only this transcript, never the feed).
+  // Keep the spoken line in view (scroll only this transcript, never the feed) — but not
+  // while the learner is reading elsewhere in it.
   const current = activeLineIndex(clip, time);
+  const userScrollAt = useRef(0);
   useEffect(() => {
     const box = scroller.current;
     if (!box || current < 0) return;
+    if (Date.now() - userScrollAt.current < FOLLOW_PAUSE_MS) return;
     const el = box.querySelector<HTMLElement>(`[data-line="${current}"]`);
     if (!el) return;
     const top = el.offsetTop - box.clientHeight * 0.25;
     if (Math.abs(box.scrollTop - top) > 24) box.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
   }, [current]);
+
+  // A manual transcript scroll pauses auto-follow for a moment (clip page only).
+  const markUserScroll = () => { userScrollAt.current = Date.now(); };
+
+  // Welcome tour: hold the clip still while it asks you to tap a word in it.
+  const tourStepId = useTour((s) => (s.index == null ? null : s.index));
+  const tourOn = active && tourTargets;
+  useEffect(() => {
+    if (!tourOn || tourStepId == null) return;
+    if (TOUR_STEPS[tourStepId]?.id === "tapWord") player.current?.pause();
+  }, [tourOn, tourStepId]);
 
   const statusOf = useCallback((w: Word): TokenStatus => tokenStatus({ words } as never, wordKeyOf(w.d, w.b || w.s)), [words]);
 
@@ -92,6 +114,7 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
     setSel({ line: li, idx: wi });
     setCardOpen(true);
     player.current?.pause();
+    tourEmit("word");
     const s = useApp.getState();
     if (s.settings.autoSave) {
       const w = clip.lines[li]?.words[wi];
@@ -125,7 +148,23 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
   const ll = loopLine != null ? clip.lines[loopLine] : undefined;
   const loopRange = ll ? { start: ll.start - 0.1, end: ll.end + 0.15 } : null;
 
-  const tour = (id: string) => (active && tourTargets ? id : undefined);
+  const tour = (id: string) => (tourOn ? id : undefined);
+  // The word the welcome tour asks you to tap: the first new word from the current line on.
+  const tourWord = useMemo(() => {
+    if (!tourOn) return null;
+    let any: { line: number; idx: number } | null = null;
+    for (let li = Math.max(0, current); li < clip.lines.length; li++) {
+      const words = clip.lines[li]!.words;
+      for (let wi = 0; wi < words.length; wi++) {
+        const w = words[wi]!;
+        if (w.p === "punct") continue;
+        if (statusOf(w) === "new") return { line: li, idx: wi };
+        any ??= { line: li, idx: wi };
+      }
+      if (any) return any;
+    }
+    return any;
+  }, [tourOn, current, clip, statusOf]);
 
   return (
     <div className="flex h-full flex-col">
@@ -135,7 +174,7 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
         clip={clip}
         active={active}
         rate={rate}
-        onTime={setTime}
+        onTime={onTime}
         onPlayingChange={setPlaying}
         onLoop={markWatched}
         loopRange={loopRange}
@@ -156,7 +195,7 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
         <button aria-label="Display options" onClick={() => setDisplay(true)} className="press flex h-10 w-10 items-center justify-center rounded-full text-muted-foreground"><Type className="h-[18px] w-[18px]" /></button>
       </div>
 
-      <div ref={scroller} className="relative min-h-0 flex-1 overflow-y-auto no-scrollbar" style={{ paddingBottom: bottomInset }}>
+      <div ref={scroller} onWheel={inFeed ? undefined : markUserScroll} onTouchMove={inFeed ? undefined : markUserScroll} className={cn("relative min-h-0 flex-1 no-scrollbar", inFeed ? "overflow-hidden" : "overflow-y-auto overscroll-contain")} style={{ paddingBottom: bottomInset }}>
         <div className="flex items-center gap-2 px-4 pb-1 pt-1">
           <p className="min-w-0 flex-1 truncate text-[0.875rem] font-extrabold">{clip.title}</p>
           <span className="shrink-0 rounded-md bg-surface-2 px-1.5 py-0.5 text-[0.6875rem] font-black text-muted-foreground">{clip.level}</span>
@@ -167,7 +206,7 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
           </a>
         )}
         <div data-tour={tour("transcript")}>
-        <Transcript clip={clip} time={time} settings={settings} statusOf={statusOf} selected={cardOpen ? sel : null} onWord={onWord} onLine={seekLine} onLineMenu={(li) => { setMenuLine(li); setMenuOpen(true); }} />
+        <Transcript clip={clip} time={time} settings={settings} statusOf={statusOf} selected={cardOpen ? sel : null} onWord={onWord} onLine={seekLine} onLineMenu={(li) => { setMenuLine(li); setMenuOpen(true); }} tourWord={tourWord} />
         </div>
         {unknown.length > 0 && (
           <div className="px-4 pb-4">
@@ -181,7 +220,7 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
         )}
       </div>
 
-      {sel && <WordCard key={`${sel.line}.${sel.idx}`} open={cardOpen} onClose={() => setCardOpen(false)} clip={clip} line={sel.line} idx={sel.idx} content={content} notes={notes} />}
+      {sel && <WordCard key={`${sel.line}.${sel.idx}`} open={cardOpen} onClose={() => { setCardOpen(false); tourEmit("cardClosed"); }} clip={clip} line={sel.line} idx={sel.idx} content={content} notes={notes} />}
       {menuLine != null && (
         <LineMenu open={menuOpen} onClose={() => setMenuOpen(false)} clip={clip} line={menuLine} notes={notes} onReplay={() => seekLine(menuLine)} onLoop={() => setLoopLine(loopLine === menuLine ? null : menuLine)} looping={loopLine === menuLine} />
       )}

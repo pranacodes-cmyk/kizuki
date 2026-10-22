@@ -2,12 +2,14 @@ import 'dart:async';
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart' show RenderAbstractViewport;
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../data/content.dart';
 import '../data/models.dart' as m;
+import '../data/tour.dart' show TourEvent;
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import 'clip_player.dart';
@@ -23,6 +25,9 @@ String fmtTime(double s) {
   return '${v ~/ 60}:${(v % 60).toString().padLeft(2, '0')}';
 }
 
+/// After the learner scrolls the transcript, auto-follow waits this long (ClipView.tsx: FOLLOW_PAUSE_MS).
+const int transcriptFollowPauseMs = 4000;
+
 /// One clip: official YouTube player + controls + interactive transcript + word card.
 /// Mirrors ClipView.tsx.
 class ClipView extends StatefulWidget {
@@ -33,7 +38,12 @@ class ClipView extends StatefulWidget {
 
   /// Only the feed's active clip carries the welcome-tour spotlight targets.
   final bool tourTargets;
-  const ClipView({super.key, required this.clip, required this.content, required this.active, this.bottomInset = 96, this.tourTargets = false});
+
+  /// In the feed a vertical swipe ANYWHERE on the clip changes clips (TikTok rule), so the
+  /// transcript never takes drags there — it only follows the spoken line by itself.
+  /// On the stand-alone clip page the learner can scroll it freely.
+  final bool inFeed;
+  const ClipView({super.key, required this.clip, required this.content, required this.active, this.bottomInset = 96, this.tourTargets = false, this.inFeed = false});
   @override
   State<ClipView> createState() => _ClipViewState();
 }
@@ -50,6 +60,9 @@ class _ClipViewState extends State<ClipView> {
   (int, int)? sel;
   int _lastLine = -1;
 
+  // last manual transcript scroll (clip page only)
+  int _userScrollAt = 0;
+
   // watch time
   bool _marked = false;
   int _played = 0, _pending = 0;
@@ -59,6 +72,12 @@ class _ClipViewState extends State<ClipView> {
   void initState() {
     super.initState();
     if (widget.active) _activate();
+    Tour.I.addListener(_onTour);
+  }
+
+  /// Welcome tour: hold the clip still while it asks you to tap a word in it.
+  void _onTour() {
+    if (widget.active && widget.tourTargets && Tour.I.step?.id == 'tapWord') _player.currentState?.pause();
   }
 
   @override
@@ -83,6 +102,7 @@ class _ClipViewState extends State<ClipView> {
 
   @override
   void dispose() {
+    Tour.I.removeListener(_onTour);
     _tick?.cancel();
     _flushWatch(notify: false);
     _scroll.dispose();
@@ -132,9 +152,32 @@ class _ClipViewState extends State<ClipView> {
     final current = activeLineIndex(widget.clip, t);
     if (current != _lastLine && current >= 0) {
       _lastLine = current;
-      final ctx = _lineKeys[current].currentContext;
-      if (ctx != null) Scrollable.ensureVisible(ctx, alignment: 0.25, duration: const Duration(milliseconds: 350), curve: Curves.easeOut);
+      _followLine(current);
     }
+  }
+
+  /// Keep the spoken line in view by scrolling ONLY this transcript. (Scrollable.ensureVisible
+  /// also scrolled the feed's PageView, so the whole screen wobbled and swipes misfired.)
+  void _followLine(int i) {
+    if (i >= _lineKeys.length || !_scroll.hasClients) return;
+    if (DateTime.now().millisecondsSinceEpoch - _userScrollAt < transcriptFollowPauseMs) return;
+    final box = _lineKeys[i].currentContext?.findRenderObject();
+    if (box is! RenderBox || !box.attached) return;
+    final viewport = RenderAbstractViewport.maybeOf(box);
+    if (viewport == null) return;
+    final pos = _scroll.position;
+    final target = viewport.getOffsetToReveal(box, 0.25).offset.clamp(pos.minScrollExtent, pos.maxScrollExtent);
+    if ((pos.pixels - target).abs() < 24) return;
+    _scroll.animateTo(target, duration: const Duration(milliseconds: 350), curve: Curves.easeOut);
+  }
+
+  /// A manual transcript scroll pauses auto-follow for a moment (clip page only).
+  bool _onTranscriptScroll(ScrollNotification n) {
+    if (n.depth != 0) return false;
+    if ((n is ScrollStartNotification && n.dragDetails != null) || (n is ScrollUpdateNotification && n.dragDetails != null)) {
+      _userScrollAt = DateTime.now().millisecondsSinceEpoch;
+    }
+    return false;
   }
 
   String _statusOf(AppState app, m.Word w) => app.tokenStatus(keyOfWord(w));
@@ -150,12 +193,30 @@ class _ClipViewState extends State<ClipView> {
     }
     showWordCard(context, clip: widget.clip, line: li, idx: wi, content: widget.content, notes: notes).whenComplete(() {
       if (mounted) setState(() => sel = null);
+      Tour.I.emit(TourEvent.cardClosed);
     });
+    Tour.I.emit(TourEvent.word);
   }
 
   void _seekLine(int li) {
     if (li < 0 || li >= widget.clip.lines.length) return;
     _player.currentState?.seek(math.max(widget.clip.start, widget.clip.lines[li].start - 0.1));
+  }
+
+  /// The word the welcome tour asks you to tap: the first new word from the current line on.
+  (int, int)? _tourWord(AppState app, int from) {
+    final c = widget.clip;
+    (int, int)? any;
+    for (var li = math.max(0, from); li < c.lines.length; li++) {
+      for (var wi = 0; wi < c.lines[li].words.length; wi++) {
+        final w = c.lines[li].words[wi];
+        if (w.isPunct) continue;
+        if (_statusOf(app, w) == 'new') return (li, wi);
+        any ??= (li, wi);
+      }
+      if (any != null) return any;
+    }
+    return any;
   }
 
   List<WordInput> _unknown(AppState app) {
@@ -189,10 +250,12 @@ class _ClipViewState extends State<ClipView> {
     final unknown = _unknown(app);
 
     final tourOn = widget.active && widget.tourTargets;
+    final tourWord = tourOn ? _tourWord(app, current) : null;
     return Column(
       children: [
-        KeyedSubtree(
-          key: tourOn ? TourTargets.player : null,
+        TourAnchor(
+          id: 'player',
+          enabled: tourOn,
           child: ClipPlayer(key: _player, clip: clip, active: widget.active, rate: rate, onTime: _onTime, onPlayingChange: _onPlaying, onLoop: _markWatched, loopRange: loopRange),
         ),
         SizedBox(
@@ -207,8 +270,10 @@ class _ClipViewState extends State<ClipView> {
             ],
           ),
         ),
-        Padding(
-          key: tourOn ? TourTargets.controls : null,
+        TourAnchor(
+          id: 'controls',
+          enabled: tourOn,
+          child: Padding(
           padding: const EdgeInsets.fromLTRB(8, 6, 8, 0),
           child: Row(
             children: [
@@ -263,9 +328,14 @@ class _ClipViewState extends State<ClipView> {
             ],
           ),
         ),
+        ),
         Expanded(
+          child: NotificationListener<ScrollNotification>(
+          onNotification: _onTranscriptScroll,
           child: SingleChildScrollView(
             controller: _scroll,
+            // Feed: no drag recognizers here, so the feed's pager owns every vertical swipe.
+            physics: widget.inFeed ? const NeverScrollableScrollPhysics() : const ClampingScrollPhysics(),
             padding: EdgeInsets.only(bottom: widget.bottomInset),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -307,9 +377,12 @@ class _ClipViewState extends State<ClipView> {
                       ),
                     ),
                   ),
-                Transcript(
-                  key: tourOn ? TourTargets.transcript : null,
+                TourAnchor(
+                  id: 'transcript',
+                  enabled: tourOn,
+                  child: Transcript(
                   clip: clip,
+                  tourWord: tourWord,
                   time: time,
                   settings: app.settings,
                   statusOf: (w) => _statusOf(app, w),
@@ -326,6 +399,7 @@ class _ClipViewState extends State<ClipView> {
                     onLoop: () => setState(() => loopLine = loopLine == li ? null : li),
                     looping: loopLine == li,
                   ),
+                ),
                 ),
                 if (unknown.isNotEmpty)
                   Padding(
@@ -360,6 +434,7 @@ class _ClipViewState extends State<ClipView> {
                   ),
               ],
             ),
+          ),
           ),
         ),
       ],

@@ -24,6 +24,8 @@ export const Route = createFileRoute("/building")({
 });
 
 const DURATION = 6500;
+const RING_R = 109; // (232 - 14) / 2
+const RING_C = 2 * Math.PI * RING_R;
 
 function Building() {
   const navigate = useNavigate();
@@ -54,15 +56,21 @@ function Building() {
   return (
     <Screen scroll={false} className="px-6">
       <div className="flex flex-1 flex-col items-center justify-center text-center">
-        <motion.div animate={{ y: [0, -12, 0] }} transition={{ repeat: Infinity, duration: 1.4, ease: "easeInOut" }}>
-          <Mascot pose="listen" className="h-40 w-40" />
-        </motion.div>
-        <h1 className="mt-4 text-[1.625rem] font-black leading-tight">Building your personal plan</h1>
-        <p className="mt-2 h-6 text-[0.9375rem] font-bold text-muted-foreground">{step}</p>
-        <div className="mt-8 w-full">
-          <div className="flex justify-between text-[0.875rem] font-extrabold"><span className="text-muted-foreground">Progress</span><span className="tabular text-primary">{pct}%</span></div>
-          <div className="mt-2 h-4 w-full overflow-hidden rounded-full bg-surface-2"><div className="h-full rounded-full bg-primary transition-[width] duration-100" style={{ width: `${pct}%` }} /></div>
+        {/* Progress ring with the fox bobbing inside (building.dart ProgressRingPainter). */}
+        <div className="relative h-[232px] w-[232px]">
+          <svg viewBox="0 0 232 232" className="absolute inset-0 h-full w-full -rotate-90" aria-hidden>
+            <circle cx="116" cy="116" r={RING_R} fill="none" strokeWidth="14" className="stroke-surface-2" />
+            <circle cx="116" cy="116" r={RING_R} fill="none" strokeWidth="14" strokeLinecap="round" className="stroke-primary transition-[stroke-dashoffset] duration-100" strokeDasharray={RING_C} strokeDashoffset={RING_C * (1 - pct / 100)} style={{ opacity: pct > 0 ? 1 : 0 }} />
+          </svg>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <motion.div animate={{ y: [0, -8, 0] }} transition={{ repeat: Infinity, duration: 1.4, ease: "easeInOut" }}>
+              <Mascot pose="listen" className="h-[140px] w-[140px]" />
+            </motion.div>
+          </div>
         </div>
+        <p className="tabular mt-3 text-[2.125rem] font-black leading-none text-primary" role="progressbar" aria-valuenow={pct} aria-valuemin={0} aria-valuemax={100} aria-label="Plan progress">{pct}%</p>
+        <h1 className="mt-2 text-[1.625rem] font-black leading-tight">Building your personal plan</h1>
+        <p className="mt-2 h-6 text-[0.9375rem] font-bold text-muted-foreground">{step}</p>
       </div>
       <div className="relative mb-4 h-[132px]">
         <AnimatePresence mode="wait">

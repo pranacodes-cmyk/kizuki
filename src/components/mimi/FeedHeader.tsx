@@ -24,15 +24,15 @@ export function FeedHeader({ tab }: { tab: "foryou" | "explore" }) {
       </div>
       <div className="mt-2 flex justify-center gap-8">
         <HeaderTab to="/feed" active={tab === "foryou"}>For You</HeaderTab>
-        <HeaderTab to="/explore" active={tab === "explore"}>Explore</HeaderTab>
+        <HeaderTab to="/explore" active={tab === "explore"} tour={tab === "foryou" ? "exploreTab" : undefined}>Explore</HeaderTab>
       </div>
     </div>
   );
 }
 
-function HeaderTab({ to, active, children }: { to: "/feed" | "/explore"; active: boolean; children: React.ReactNode }) {
+function HeaderTab({ to, active, children, tour }: { to: "/feed" | "/explore"; active: boolean; children: React.ReactNode; tour?: string | undefined }) {
   return (
-    <Link to={to} className={cn("relative pb-2 text-[1rem] font-black", active ? "text-foreground" : "text-faint")}>
+    <Link to={to} data-tour={tour} className={cn("relative pb-2 text-[1rem] font-black", active ? "text-foreground" : "text-faint")}>
       {children}
       {active && <span className="absolute inset-x-1 bottom-0 h-[3px] rounded-full bg-primary" />}
     </Link>

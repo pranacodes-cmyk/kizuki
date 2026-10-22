@@ -14,6 +14,7 @@ import { customStudyKeys, kanaDeck, kanaQueue, newCard, nextIntervalLabel, Revie
 import { speak } from "@/lib/speech";
 import { dueKeysOf, useApp, wordLites } from "@/lib/store";
 import { toast } from "@/lib/ui-store";
+import { tourEmit } from "@/lib/tour-store";
 import { cn } from "@/lib/utils";
 
 const searchSchema = z.object({ deck: z.enum(["words", "hiragana", "katakana"]).catch("words"), mode: z.enum(["extra"]).optional() });
@@ -67,11 +68,14 @@ function Review() {
   const kana = deck !== "words" && id ? kanaCards.find((k) => k.id === id) : undefined;
   const card: Card | undefined = deck === "words" ? word?.card : id ? store.kana[id] ?? newCard(Date.now()) : undefined;
 
+  const reveal = () => { setRevealed(true); tourEmit("reveal"); };
+
   const answer = (g: Grade) => {
     if (!id || !card) return;
     const next = sess.answer(card, g, Date.now());
     if (deck === "words") store.answerWord(id, next);
     else store.answerKana(id, next);
+    tourEmit("graded");
     setRevealed(false);
     if (sess.done) {
       store.finishReviewSession();
@@ -124,19 +128,22 @@ function Review() {
       </div>
       <div className="relative min-h-0 flex-1 px-4 pb-2">
         <AnimatePresence mode="popLayout">
-          <SwipeCard key={`${id}-${sess.answered}`} revealed={revealed} onReveal={() => setRevealed(true)} onSwipe={(g) => answer(g)}>
+          <SwipeCard key={`${id}-${sess.answered}`} revealed={revealed} onReveal={reveal} onSwipe={(g) => answer(g)}>
             {!revealed ? (
               <div className="flex h-full flex-col items-center justify-center text-center">
-                {word && settings.flashFront === "en" ? (
-                  <p className="text-[1.75rem] font-black">{word.gloss}</p>
-                ) : (
-                  <>
-                    {word && settings.flashFurigana && word.reading !== word.word && <p className="font-jp text-[1.125rem] font-bold text-muted-foreground">{word.reading}</p>}
-                    <p className="font-jp text-[3.5rem] font-black leading-tight">{word?.word ?? kana?.kana}</p>
-                    {word && settings.flashRomaji && <p className="text-[1rem] font-bold text-muted-foreground">{word.romaji}</p>}
-                  </>
-                )}
-                <p className="mt-8 text-[0.9375rem] font-bold text-faint">{firstTime ? "Try to remember it, then tap to reveal" : "Tap to reveal"}</p>
+                {/* Tour spotlight sits on the word itself (not the tall card), so the tip never covers it. */}
+                <div data-tour="reviewCard" className="flex flex-col items-center px-4 py-2">
+                  {word && settings.flashFront === "en" ? (
+                    <p className="text-[1.75rem] font-black">{word.gloss}</p>
+                  ) : (
+                    <>
+                      {word && settings.flashFurigana && word.reading !== word.word && <p className="font-jp text-[1.125rem] font-bold text-muted-foreground">{word.reading}</p>}
+                      <p className="font-jp text-[3.5rem] font-black leading-tight">{word?.word ?? kana?.kana}</p>
+                      {word && settings.flashRomaji && <p className="text-[1rem] font-bold text-muted-foreground">{word.romaji}</p>}
+                    </>
+                  )}
+                </div>
+                <p className="mt-6 text-[0.9375rem] font-bold text-faint">{firstTime ? "Try to remember it, then tap to reveal" : "Tap to reveal"}</p>
               </div>
             ) : word ? (
               <div className="h-full overflow-y-auto pb-2 no-scrollbar">
@@ -177,7 +184,7 @@ function Review() {
         {revealed && card ? (
           <>
             {firstTime && <p className="mb-2 text-center text-[0.8125rem] font-bold text-faint">Got it right? Swipe right. Forgot? Swipe left.</p>}
-            <div className="grid grid-cols-2 gap-3">
+            <div data-tour="grade" className="grid grid-cols-2 gap-3">
               <button onClick={() => answer("again")} className="press flex h-16 flex-col items-center justify-center rounded-2xl bg-danger-soft text-danger">
                 <span className="text-[1.0625rem] font-black">Again</span><span className="text-[0.75rem] font-bold opacity-80">{nextIntervalLabel(card, "again", Date.now())}</span>
               </button>
@@ -187,7 +194,7 @@ function Review() {
             </div>
           </>
         ) : (
-          <Button onClick={() => setRevealed(true)}>Show answer</Button>
+          <Button onClick={reveal}>Show answer</Button>
         )}
       </div>
     </Screen>

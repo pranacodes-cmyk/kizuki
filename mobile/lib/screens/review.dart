@@ -5,6 +5,7 @@ import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:provider/provider.dart';
 
 import '../data/content.dart';
+import '../data/tour.dart' show TourEvent;
 import '../logic/logic.dart';
 import '../services/tts.dart';
 import '../state/app_state.dart';
@@ -13,6 +14,7 @@ import '../widgets/common.dart';
 import '../widgets/context_player.dart';
 import '../widgets/saved_word_sheet.dart';
 import '../widgets/toast.dart';
+import '../widgets/tour.dart';
 import '../widgets/ui.dart';
 
 /// Flashcard review (words with original clip audio, or kana decks) — mirrors src/routes/review.tsx.
@@ -67,6 +69,7 @@ class _ReviewScreenState extends State<ReviewScreen> {
     } else {
       app.answerKana(id, next);
     }
+    Tour.I.emit(TourEvent.graded);
     setState(() {
       revealed = false;
       if (sess.done) {
@@ -75,6 +78,11 @@ class _ReviewScreenState extends State<ReviewScreen> {
         finished = true;
       }
     });
+  }
+
+  void _reveal() {
+    setState(() => revealed = true);
+    Tour.I.emit(TourEvent.reveal);
   }
 
   Future<void> _exit() async {
@@ -150,15 +158,24 @@ class _ReviewScreenState extends State<ReviewScreen> {
     final progress = total == 0 ? 1.0 : (sess.answered / (total > sess.answered + sess.queue.length ? total : sess.answered + sess.queue.length)).clamp(0.0, 1.0);
     final now = DateTime.now().millisecondsSinceEpoch;
 
+    // Tour spotlight sits on the word itself (not the tall card), so the tip never covers it.
     Widget front() => Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-          if (word != null && settings.flashFront == 'en')
-            Text(word.gloss, textAlign: TextAlign.center, style: txt(28, w: FontWeight.w900))
-          else ...[
-            if (word != null && settings.flashFurigana && word.reading != word.word) Text(word.reading, style: jp(18, c: T.muted)),
-            Text(word?.word ?? kana?.kana ?? '', textAlign: TextAlign.center, style: jp(56, w: FontWeight.w900, h: 1.2)),
-            if (word != null && settings.flashRomaji) Text(word.romaji, style: txt(16, c: T.muted)),
-          ],
-          const SizedBox(height: 32),
+          TourAnchor(
+            id: 'reviewCard',
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+              child: Column(mainAxisSize: MainAxisSize.min, children: [
+                if (word != null && settings.flashFront == 'en')
+                  Text(word.gloss, textAlign: TextAlign.center, style: txt(28, w: FontWeight.w900))
+                else ...[
+                  if (word != null && settings.flashFurigana && word.reading != word.word) Text(word.reading, style: jp(18, c: T.muted)),
+                  Text(word?.word ?? kana?.kana ?? '', textAlign: TextAlign.center, style: jp(56, w: FontWeight.w900, h: 1.2)),
+                  if (word != null && settings.flashRomaji) Text(word.romaji, style: txt(16, c: T.muted)),
+                ],
+              ]),
+            ),
+          ),
+          const SizedBox(height: 24),
           Text(firstTime ? 'Try to remember it, then tap to reveal' : 'Tap to reveal', style: txt(15, w: FontWeight.w700, c: T.faint)),
         ]);
 
@@ -244,7 +261,7 @@ class _ReviewScreenState extends State<ReviewScreen> {
                 child: _SwipeCard(
                   key: ValueKey('$id-${sess.answered}'),
                   revealed: revealed,
-                  onReveal: () => setState(() => revealed = true),
+                  onReveal: _reveal,
                   onSwipe: _answer,
                   child: !revealed ? front() : (word != null ? backWord() : backKana()),
                 ),
@@ -256,13 +273,13 @@ class _ReviewScreenState extends State<ReviewScreen> {
             child: revealed && card != null
                 ? Column(mainAxisSize: MainAxisSize.min, children: [
                     if (firstTime) Padding(padding: const EdgeInsets.only(bottom: 8), child: Text('Got it right? Swipe right. Forgot? Swipe left.', style: txt(13, w: FontWeight.w700, c: T.faint))),
-                    Row(children: [
+                    TourAnchor(id: 'grade', child: Row(children: [
                       Expanded(child: _GradeBtn(label: 'Again', sub: nextIntervalLabel(card, 'again', now), bg: T.dangerSoft, fg: T.danger, onTap: () => _answer('again'))),
                       const SizedBox(width: 12),
                       Expanded(child: _GradeBtn(label: 'Good', sub: nextIntervalLabel(card, 'good', now), bg: T.successSoft, fg: T.success, onTap: () => _answer('good'))),
-                    ]),
+                    ])),
                   ])
-                : Button3D(label: 'Show answer', onPressed: () => setState(() => revealed = true)),
+                : Button3D(label: 'Show answer', onPressed: _reveal),
           ),
         ]),
       ),

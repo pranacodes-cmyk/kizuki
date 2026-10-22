@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { Bell, Check, Crown, Lock, Sparkles } from "lucide-react";
 import { useState } from "react";
 
+import { FeedPreview } from "@/components/mimi/FeedPreview";
 import { Mascot } from "@/components/mimi/Mascot";
 import { Button, ProgressHeader, Screen } from "@/components/mimi/ui";
 import { PLANS, priceLine, trialTimeline } from "@/lib/paywall";
@@ -61,16 +62,7 @@ function StepTry({ onNext }: { onNext: () => void }) {
       <h1 className="pt-4 text-center text-[1.625rem] font-black leading-tight">Try Kizuki <span className="text-primary">free</span> for 7 days</h1>
       <div className="relative mx-auto mt-6 w-[230px] flex-1">
         <div className="absolute inset-0 overflow-hidden rounded-[32px] border-[6px] border-surface-3 bg-stage">
-          <div className="h-[44%] bg-[linear-gradient(160deg,var(--primary-dim),var(--surface-2))]" />
-          <div className="space-y-2 p-3">
-            <p className="font-jp text-[1rem] font-bold leading-tight"><span className="rounded bg-primary/25 px-0.5 text-primary">今日</span>は<span className="underline decoration-learning decoration-2 underline-offset-4">楽しかった</span>ね！</p>
-            <p className="text-[0.75rem] text-muted-foreground">Today was fun, wasn't it!</p>
-            <div className="mt-3 rounded-2xl bg-surface p-3">
-              <p className="font-jp text-[1.25rem] font-black">今日 <span className="text-[0.75rem] font-bold text-muted-foreground">きょう</span></p>
-              <p className="text-[0.8125rem] font-bold">today</p>
-              <p className="mt-1 text-[0.6875rem] text-muted-foreground">Said at the end of a happy day out with friends.</p>
-            </div>
-          </div>
+          <FeedPreview />
         </div>
         <Mascot pose="cheer" className="absolute -bottom-3 -right-14 h-24 w-24" />
       </div>

@@ -3,6 +3,20 @@
 Flutter (`mobile/`) is the product; the web app is its phone-frame prototype.
 Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com/pranacodes-cmyk/kizuki
 
+## Real-phone feedback round 1 (user screen recording, 22 Oct)
+- [ ] Name field: button gets cut off when the keyboard is open (code done both clients; verify on emulator)
+- [x] "Designing your course" progress bar → ring (both clients)
+- [x] Feed jumps up/down as the transcript advances (transcript scrolls only itself now)
+- [x] Welcome tour: 16 interactive steps across Feed, word card, Explore, Vocab, Review (web walked end-to-end; tap hand sits below the word; review spotlight on the word)
+- [x] Swipe to next clip: one swipe anywhere = one clip (subtitles no longer eat swipes; web feed no longer bounces back while a clip plays); drag tests on both clients
+- [x] Founder step: presenter video with voice + synced captions (generated presenter — not a real person; swap for a real recording before launch)
+- [x] "$0 today" paywall step: phone mockup plays the learner's own first clips (thumbnail, karaoke, tap, card, swipe)
+- [ ] Trial mockup: fill the empty lower half with the next transcript lines, like the real feed
+- [x] Word meanings: 119 katakana words had the wrong meaning (ホテル "to feel hot", クラス "to live", チョコ "sake cup"…) — fixed in the content build + data tests
+- [ ] Split katakana compounds (イヤ+ホン, ブルー+レイ, サブ+ウェイ) → one word; needs AI word notes re-made for those clips
+- [ ] Emulator run on GitHub with the new tour + swipe + founder video, then new APK
+- [ ] Sweep for other bugs seen in the recording (first clip starts with a Patreon promo; some clips start mid-sentence)
+
 ## Research
 - [x] Frame-by-frame teardown of the user's Kiku recording (docs/kiku-teardown.md)
 - [x] Founder video transcript + timing

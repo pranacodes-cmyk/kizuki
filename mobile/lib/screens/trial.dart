@@ -9,6 +9,7 @@ import 'package:provider/provider.dart';
 import '../data/paywall.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
+import '../widgets/feed_preview.dart';
 import '../widgets/toast.dart';
 import '../widgets/ui.dart';
 
@@ -112,42 +113,7 @@ class _StepTry extends StatelessWidget {
                     child: Container(
                       decoration: BoxDecoration(color: T.stage, borderRadius: BorderRadius.circular(32), border: Border.all(color: T.surface3, width: 6)),
                       clipBehavior: Clip.antiAlias,
-                      child: LayoutBuilder(
-                        builder: (_, c) => Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                          Container(
-                            height: c.maxHeight * 0.44,
-                            decoration: const BoxDecoration(gradient: LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [T.primaryDim, T.surface2])),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.all(12),
-                            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                              Text.rich(
-                                TextSpan(children: [
-                                  TextSpan(text: '今日', style: jp(16, c: T.primary).copyWith(backgroundColor: T.primary.withValues(alpha: 0.25))),
-                                  const TextSpan(text: 'は'),
-                                  TextSpan(text: '楽しかった', style: jp(16).copyWith(decoration: TextDecoration.underline, decorationColor: T.learning, decorationThickness: 2)),
-                                  const TextSpan(text: 'ね！'),
-                                ]),
-                                style: jp(16, h: 1.3),
-                              ),
-                              const SizedBox(height: 6),
-                              Text("Today was fun, wasn't it!", style: txt(12, w: FontWeight.w400, c: T.muted)),
-                              const SizedBox(height: 12),
-                              Container(
-                                width: double.infinity,
-                                padding: const EdgeInsets.all(12),
-                                decoration: BoxDecoration(color: T.surface, borderRadius: BorderRadius.circular(16)),
-                                child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                                  Text.rich(TextSpan(children: [TextSpan(text: '今日 ', style: jp(20, w: FontWeight.w900)), TextSpan(text: 'きょう', style: jp(12, c: T.muted))])),
-                                  Text('today', style: txt(13, w: FontWeight.w700)),
-                                  const SizedBox(height: 4),
-                                  Text('Said at the end of a happy day out with friends.', style: txt(11, w: FontWeight.w400, c: T.muted)),
-                                ]),
-                              ),
-                            ]),
-                          ),
-                        ]),
-                      ),
+                      child: const FeedPreview(),
                     ),
                   ),
                   const Positioned(right: -56, bottom: -12, child: Mascot(MascotPose.cheer, size: 96)),

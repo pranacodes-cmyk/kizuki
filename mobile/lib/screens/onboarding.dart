@@ -567,21 +567,45 @@ class _NameState extends State<_Name> {
     super.dispose();
   }
 
+  // Close the keyboard first so the next screen doesn't open half-covered.
+  void _go() {
+    FocusManager.instance.primaryFocus?.unfocus();
+    widget.onNext();
+  }
+
   @override
-  Widget build(BuildContext context) => Column(children: [
-        const Padding(padding: EdgeInsets.only(top: 16), child: Mascot(MascotPose.wave, size: 128)),
-        const _Title('Last thing — what should Kizuki call you?', subtitle: 'So your plan feels like yours.'),
-        Padding(
-          padding: const EdgeInsets.fromLTRB(24, 24, 24, 0),
-          child: MimiField(controller: _c, hint: 'Your first name', maxLength: 30, onChanged: widget.onChange, onSubmitted: (_) => _c.text.trim().isNotEmpty ? widget.onNext() : null, autofill: const [AutofillHints.givenName]),
+  Widget build(BuildContext context) {
+    // With the keyboard up the fox steps aside, so the field and both buttons stay visible.
+    final keyboard = MediaQuery.viewInsetsOf(context).bottom > 0;
+    // The buttons live outside the scrolling part, so they always sit right above the keyboard.
+    return Column(children: [
+      Expanded(
+        child: SingleChildScrollView(
+          physics: const ClampingScrollPhysics(),
+          child: Column(children: [
+            AnimatedSize(
+              duration: const Duration(milliseconds: 220),
+              curve: Curves.easeOutCubic,
+              alignment: Alignment.topCenter,
+              child: keyboard
+                  ? const SizedBox(width: double.infinity, height: 4)
+                  : const Padding(padding: EdgeInsets.only(top: 16), child: Mascot(MascotPose.wave, size: 128)),
+            ),
+            const _Title('Last thing — what should Kizuki call you?', subtitle: 'So your plan feels like yours.'),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(24, 24, 24, 16),
+              child: MimiField(controller: _c, hint: 'Your first name', maxLength: 30, onChanged: widget.onChange, onSubmitted: (_) => _c.text.trim().isNotEmpty ? _go() : null, autofill: const [AutofillHints.givenName]),
+            ),
+          ]),
         ),
-        const Spacer(),
-        _footer([
-          ListenableBuilder(listenable: _c, builder: (_, _) => Button3D(label: 'Build my plan', onPressed: _c.text.trim().isEmpty ? null : widget.onNext)),
-          const SizedBox(height: 8),
-          Button3D(label: 'Skip', variant: BtnVariant.ghost, height: 48, onPressed: widget.onNext),
-        ]),
-      ]);
+      ),
+      _footer([
+        ListenableBuilder(listenable: _c, builder: (_, _) => Button3D(label: 'Build my plan', onPressed: _c.text.trim().isEmpty ? null : _go)),
+        const SizedBox(height: 8),
+        Button3D(label: 'Skip', variant: BtnVariant.ghost, height: 48, onPressed: _go),
+      ]),
+    ]);
+  }
 }
 
 /// Text input styled like the web inputs.

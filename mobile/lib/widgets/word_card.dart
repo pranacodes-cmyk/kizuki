@@ -6,12 +6,14 @@ import 'package:provider/provider.dart';
 import '../data/ask.dart';
 import '../data/content.dart';
 import '../data/models.dart' as m;
+import '../data/tour.dart' show TourEvent;
 import '../logic/logic.dart';
 import '../services/tts.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import 'ask_sheet.dart';
 import 'common.dart';
+import 'tour.dart';
 import 'ui.dart';
 
 const posNames = {
@@ -124,7 +126,9 @@ class _WordCardState extends State<WordCard> {
     final firstPos = entry != null && entry.m.isNotEmpty && entry.m.first.pos.isNotEmpty ? entry.m.first.pos.first : null;
     final now = DateTime.now().millisecondsSinceEpoch;
 
-    return Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
+    return TourAnchor(
+      id: 'card',
+      child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
       Padding(
         padding: const EdgeInsets.fromLTRB(20, 12, 20, 0),
         child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
@@ -194,12 +198,18 @@ class _WordCardState extends State<WordCard> {
         child: Row(children: [
           for (final t in _tabs)
             Expanded(
-              child: Semantics(
+              child: TourAnchor(
+                id: 'cardExplain',
+                enabled: t == 'Explain',
+                child: Semantics(
                 selected: tab == t,
                 button: true,
                 child: GestureDetector(
                   behavior: HitTestBehavior.opaque,
-                  onTap: () => setState(() => tab = t),
+                  onTap: () {
+                    setState(() => tab = t);
+                    if (t == 'Explain') Tour.I.emit(TourEvent.explain);
+                  },
                   child: Padding(
                     padding: const EdgeInsets.only(top: 4),
                     child: Column(children: [
@@ -209,6 +219,7 @@ class _WordCardState extends State<WordCard> {
                     ]),
                   ),
                 ),
+              ),
               ),
             ),
         ]),
@@ -227,7 +238,8 @@ class _WordCardState extends State<WordCard> {
           ),
         ),
       ),
-    ]);
+    ]),
+    );
   }
 
   Widget _meaning(m.DictEntry? entry, m.WordNote? note) => Column(crossAxisAlignment: CrossAxisAlignment.start, children: [

@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 import '../logic/logic.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
+import 'tour.dart';
 import 'ui.dart';
 
 /// Daily-goal bar + For You / Explore tabs (top of the Feed) — mirrors FeedHeader.tsx.
@@ -47,7 +48,8 @@ class FeedHeader extends StatelessWidget {
         Row(mainAxisAlignment: MainAxisAlignment.center, children: [
           _HeaderTab(label: 'For You', active: tab == 'foryou', onTap: () => context.go('/feed')),
           const SizedBox(width: 32),
-          _HeaderTab(label: 'Explore', active: tab == 'explore', onTap: () => context.go('/explore')),
+          // Tour target only on the feed's header (both headers exist during the fade between them).
+          TourAnchor(id: 'exploreTab', enabled: tab == 'foryou', child: _HeaderTab(label: 'Explore', active: tab == 'explore', onTap: () => context.go('/explore'))),
         ]),
       ]),
     );

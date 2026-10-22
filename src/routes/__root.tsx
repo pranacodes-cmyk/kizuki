@@ -12,6 +12,7 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { TourHost } from "@/components/mimi/WelcomeTour";
 import { AppFrame } from "@/components/mimi/AppFrame";
 import { Mascot } from "@/components/mimi/Mascot";
 import { AppEffects } from "@/components/mimi/AppEffects";
@@ -116,6 +117,7 @@ function RootComponent() {
         <AppEffects />
         {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
         <Outlet />
+        <TourHost />
       </AppFrame>
     </QueryClientProvider>
   );

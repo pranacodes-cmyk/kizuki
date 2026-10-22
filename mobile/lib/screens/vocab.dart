@@ -10,6 +10,7 @@ import '../services/tts.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import '../widgets/saved_word_sheet.dart';
+import '../widgets/tour.dart';
 import '../widgets/ui.dart';
 
 final _hira = kanaDeck('hiragana');
@@ -89,7 +90,7 @@ class _VocabScreenState extends State<VocabScreen> {
           ]),
           const SizedBox(height: 16),
           if (counts.due > 0)
-            Button3D(label: '${counts.due} card${counts.due == 1 ? '' : 's'} to review', onPressed: () => context.push('/review?deck=words'))
+            TourAnchor(id: 'reviewButton', child: Button3D(label: '${counts.due} card${counts.due == 1 ? '' : 's'} to review', onPressed: () => context.push('/review?deck=words')))
           else
             Surface(
               radius: 16,
