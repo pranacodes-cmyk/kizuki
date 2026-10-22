@@ -134,7 +134,9 @@ echo "screen: ${W}x${H}"
           up)    adb shell input swipe $x $((H * 80 / 100)) $x $((H * 45 / 100)) 260 </dev/null ;;
           down)  adb shell input swipe $x $((H * 50 / 100)) $x $((H * 85 / 100)) 260 </dev/null ;;
           short) adb shell input swipe $x $((H * 72 / 100)) $x $((H * 66 / 100)) 700 </dev/null ;;
-          flick) adb shell input swipe $x $((H * 76 / 100)) $x $((H * 66 / 100)) 60 </dev/null ;;
+          # 140ms supplies several velocity samples even on a busy software emulator;
+          # 14% remains below the 18% distance threshold, so this still tests a flick.
+          flick) adb shell input swipe $x $((H * 76 / 100)) $x $((H * 62 / 100)) 140 </dev/null ;;
         esac
         echo "swiped $kind"
         ;;
