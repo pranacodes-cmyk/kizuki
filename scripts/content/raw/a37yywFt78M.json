@@ -1,0 +1,149 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 3.6,
+   "end": 18.0,
+   "title": "A Painting Destined to Be Drawn",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "romance",
+    "school"
+   ],
+   "grammar": [
+    "〜てくれる — doing something for someone",
+    "〜たい — wanting to do something",
+    "〜って — quoting / hearsay"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.8,
+     "end": 6.0,
+     "ja": "春ばあばが言ってたんだ。",
+     "en": "Grandma Haru told me.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 6.1,
+     "end": 8.5,
+     "ja": "いつか必ず夏目誠と出会う。",
+     "en": "That one day, I would definitely meet Makoto Natsume.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 8.6,
+     "end": 11.2,
+     "ja": "そしてお前のために絵を描いてくれるよって。",
+     "en": "And that he'd paint a picture for me.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 11.3,
+     "end": 13.9,
+     "ja": "どういうこと？僕はこの絵を描いてない。",
+     "en": "What do you mean? I didn't paint this picture.",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 14.0,
+     "end": 16.3,
+     "ja": "葉山、この絵を調べたい。",
+     "en": "Hayama, I want to look into this picture.",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 16.4,
+     "end": 17.8,
+     "ja": "誠くん、一緒に…",
+     "en": "Makoto-kun, together...",
+     "speaker": "Girl"
+    }
+   ]
+  },
+  {
+   "start": 27.0,
+   "end": 36.8,
+   "title": "Unspoken Feelings",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "romance"
+   ],
+   "grammar": [
+    "〜でも — whether... or...",
+    "〜まま — leaving in an unchanged state",
+    "〜なくなる — to become unable to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 27.0,
+     "end": 28.6,
+     "ja": "君は、もしかして…",
+     "en": "Could you be...",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 28.8,
+     "end": 32.2,
+     "ja": "戦時中でも未来でも、",
+     "en": "Whether during wartime or in the future,",
+     "speaker": "Girl"
+    },
+    {
+     "start": 32.3,
+     "end": 36.3,
+     "ja": "好きな人に「好き」って言えないまま会えなくなるのは、哀しいな。",
+     "en": "it's sad to be parted from the one you love without ever telling them.",
+     "speaker": "Girl"
+    }
+   ]
+  },
+  {
+   "start": 38.0,
+   "end": 49.2,
+   "title": "A Bittersweet Love Story",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "romance"
+   ],
+   "grammar": [
+    "〜と共に — together with / alongside",
+    "〜を越えた — transcending",
+    "〜たかった — wanted to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 38.2,
+     "end": 40.8,
+     "ja": "花火の絵の謎と共に明かされる、",
+     "en": "Revealed alongside the mystery of the fireworks painting,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 41.0,
+     "end": 45.0,
+     "ja": "時を越えた儚くも切ないラブストーリー。",
+     "en": "a fleeting and poignant love story that transcends time.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 45.4,
+     "end": 49.0,
+     "ja": "君と、もっと一緒にいたかったな。",
+     "en": "I wanted to be with you... a little longer.",
+     "speaker": "Girl"
+    }
+   ]
+  }
+ ],
+ "videoId": "a37yywFt78M",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

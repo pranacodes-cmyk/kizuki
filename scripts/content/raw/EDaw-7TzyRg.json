@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.2,
+   "end": 9.8,
+   "title": "Party Leader Debate in the Diet",
+   "level": "N2",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜による — by / through",
+    "〜について — regarding / concerning"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 5.8,
+     "ja": "国会では高市総理大臣と野党6党首による党首討論が行われ、",
+     "en": "In the Diet, a party leaders' debate was held between Prime Minister Takaichi and six opposition heads,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 5.9,
+     "end": 9.3,
+     "ja": "消費減税などについて議論が交わされました。",
+     "en": "and discussions were held on issues such as consumption tax cuts.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 10.5,
+   "end": 26.2,
+   "title": "Debating Inflation and Economic Growth",
+   "level": "N1",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜んじゃないか — isn't it the case that...",
+    "〜に向けて — toward / aiming for"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.9,
+     "end": 13.0,
+     "ja": "骨太ショックってありました。",
+     "en": "There was the so-called 'Honebuto shock.'",
+     "speaker": "Tamaki"
+    },
+    {
+     "start": 13.3,
+     "end": 18.0,
+     "ja": "日銀あるいは政府がインフレを的確に抑える能力と意志がないんじゃないのかと。",
+     "en": "People wondered if the BOJ or the government lacked the ability and will to properly curb inflation.",
+     "speaker": "Tamaki"
+    },
+    {
+     "start": 18.4,
+     "end": 20.7,
+     "ja": "今こそ経済を強くすると。",
+     "en": "Strengthening the economy right now.",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 20.8,
+     "end": 25.8,
+     "ja": "いや、今成長に向けてエンジンを吹かす時でしょうということだと思うんです。",
+     "en": "Rather, I believe it means now is the time to rev up the engine for growth.",
+     "speaker": "Takaichi"
+    }
+   ]
+  },
+  {
+   "start": 26.3,
+   "end": 44.8,
+   "title": "A Golden Opportunity to Strengthen the Economy",
+   "level": "N2",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜に耐性のある — resilient to...",
+    "〜なかったら — if (one) does not..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 26.6,
+     "end": 28.8,
+     "ja": "今とにかく供給力を強くする。",
+     "en": "Right now, in any case, we strengthen our supply capacity.",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 28.9,
+     "end": 30.5,
+     "ja": "人材も強くする。",
+     "en": "We also strengthen our human resources.",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 30.6,
+     "end": 33.3,
+     "ja": "エネルギー、食料、安全保障ですね。",
+     "en": "Energy, food, and security.",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 33.4,
+     "end": 37.0,
+     "ja": "こういうリスクに耐性のある国づくりの、",
+     "en": "In building a country resilient to such risks,",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 37.1,
+     "end": 41.5,
+     "ja": "今、絶好のチャンスが来ていると思いますよ。",
+     "en": "I believe a golden opportunity has arrived.",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 41.6,
+     "end": 44.5,
+     "ja": "今やらなかったら経済強くならない。",
+     "en": "If we don't do it now, the economy won't grow stronger.",
+     "speaker": "Takaichi"
+    }
+   ]
+  }
+ ],
+ "videoId": "EDaw-7TzyRg",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

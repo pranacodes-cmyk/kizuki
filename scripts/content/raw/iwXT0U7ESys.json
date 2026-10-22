@@ -1,0 +1,170 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 36.5,
+   "end": 57.0,
+   "title": "Convenient Bicycle Parking in Japan",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜たら — when / if",
+    "〜てくれる — doing something for someone",
+    "〜けど — but / although"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 36.8,
+     "end": 39.5,
+     "ja": "これが駐輪場。",
+     "en": "This is a bicycle parking lot.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 39.8,
+     "end": 44.0,
+     "ja": "駅の近くにあるやつなんだけど、めっちゃ便利。",
+     "en": "It's near the station, and it's super convenient.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 44.5,
+     "end": 48.5,
+     "ja": "自転車を止めたら自動でロックされて、",
+     "en": "When you park your bike, it automatically locks,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 48.8,
+     "end": 51.5,
+     "ja": "お金を計算してくれる。",
+     "en": "and calculates the fee for you.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 51.8,
+     "end": 56.5,
+     "ja": "最初の1時間は無料なんだけど、",
+     "en": "The first hour is free, though.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 152.8,
+   "end": 170.0,
+   "title": "Bargains at a Flea Market",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜てある — state resulting from an action",
+    "〜ている — continuous state",
+    "〜ね — seeking agreement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 153.2,
+     "end": 156.3,
+     "ja": "珍しいものがたくさん置いてあるね。",
+     "en": "There are a lot of rare things laid out.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 156.5,
+     "end": 158.8,
+     "ja": "これは着物だね。",
+     "en": "These are kimonos.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 159.2,
+     "end": 162.5,
+     "ja": "古い着物が売っている。",
+     "en": "They are selling vintage kimonos.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 163.0,
+     "end": 166.0,
+     "ja": "大体1000円ぐらいだった。",
+     "en": "They were about 1,000 yen each.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 166.8,
+     "end": 169.2,
+     "ja": "すごい安いよね。",
+     "en": "That's really cheap, isn't it?",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 247.5,
+   "end": 266.0,
+   "title": "Using Polite Speech with Older Friends",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "friends"
+   ],
+   "grammar": [
+    "〜より — more than / comparison",
+    "〜ても — even if",
+    "〜ことが多い — often happens"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 248.0,
+     "end": 251.4,
+     "ja": "友達は僕より年下だから、",
+     "en": "My friend is younger than me,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 251.8,
+     "end": 254.3,
+     "ja": "僕に敬語を使う。",
+     "en": "so he speaks politely to me.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 255.3,
+     "end": 258.8,
+     "ja": "日本ではすごい仲良くなっても、",
+     "en": "In Japan, even if you become really close,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 259.0,
+     "end": 260.8,
+     "ja": "年下の人は",
+     "en": "younger people",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 261.0,
+     "end": 265.5,
+     "ja": "年上の人に敬語を使うことが多いよ。",
+     "en": "often use polite speech toward older people.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "iwXT0U7ESys",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

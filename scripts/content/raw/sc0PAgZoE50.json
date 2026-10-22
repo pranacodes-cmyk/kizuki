@@ -1,0 +1,245 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 509.3,
+   "end": 529.1,
+   "title": "Catching Up Over the Phone",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜てんの — asking about ongoing state/action",
+    "〜てる — ongoing action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 509.6,
+     "end": 510.9,
+     "ja": "もしもし。",
+     "en": "Hello.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 511.0,
+     "end": 512.4,
+     "ja": "もしもし？",
+     "en": "Hello?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 512.5,
+     "end": 513.7,
+     "ja": "どうした？",
+     "en": "What's up?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 513.8,
+     "end": 517.5,
+     "ja": "いやなんかさ、最近何やってるかなと思って。",
+     "en": "Well, I was just wondering what you've been up to lately.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 517.5,
+     "end": 518.7,
+     "ja": "２週間休みだし。",
+     "en": "Since we have a two-week break.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 518.8,
+     "end": 520.1,
+     "ja": "ああ、はいはいはい。",
+     "en": "Ah, yeah, yeah, yeah.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 520.2,
+     "end": 521.8,
+     "ja": "勉強とかしてるの？",
+     "en": "Have you been studying or something?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 521.9,
+     "end": 525.8,
+     "ja": "いや、家でこもってＶＲゴーグル被ってるだけだよ。",
+     "en": "Nah, I'm just holed up at home wearing VR goggles.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 525.9,
+     "end": 527.1,
+     "ja": "ＶＲやってんの？",
+     "en": "You're playing VR?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 527.2,
+     "end": 528.8,
+     "ja": "今やってる。",
+     "en": "I'm doing it right now.",
+     "speaker": "Friend"
+    }
+   ]
+  },
+  {
+   "start": 704.5,
+   "end": 724.0,
+   "title": "Studying Hours and Ara Ara",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "friends",
+    "anime"
+   ],
+   "grammar": [
+    "〜たら — if/when conditional",
+    "〜ばいい — should / it would be good to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 704.8,
+     "end": 707.9,
+     "ja": "その時って１日何時間ぐらい勉強するの？",
+     "en": "How many hours a day do you study then?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 707.9,
+     "end": 710.2,
+     "ja": "１日授業がなかったら。",
+     "en": "If you don't have classes that day?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 710.3,
+     "end": 712.5,
+     "ja": "７時間ぐらいかな。",
+     "en": "About seven hours, I guess.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 712.6,
+     "end": 713.8,
+     "ja": "７時間？",
+     "en": "Seven hours?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 713.9,
+     "end": 714.7,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 714.8,
+     "end": 716.4,
+     "ja": "あらあら。",
+     "en": "My, my.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 717.2,
+     "end": 719.8,
+     "ja": "無理だわ、もう昔みたいに１０時間とかは。",
+     "en": "No way I could do ten hours like I used to.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 720.5,
+     "end": 721.4,
+     "ja": "ああ、そうだよね。",
+     "en": "Ah, true.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 721.5,
+     "end": 724.0,
+     "ja": "まあ、７時間勉強できればいいよね、結構。",
+     "en": "Well, studying for seven hours is pretty good.",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 741.0,
+   "end": 757.2,
+   "title": "Becoming the God of the New World",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "fun",
+    "anime"
+   ],
+   "grammar": [
+    "〜なら — if it is the case that",
+    "〜て言われる — passive voice (being told)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 741.1,
+     "end": 742.6,
+     "ja": "いや俺はね、",
+     "en": "Well, as for me,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 742.8,
+     "end": 744.7,
+     "ja": "やっぱ勉強するなら、",
+     "en": "if I'm going to study,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 744.8,
+     "end": 746.5,
+     "ja": "テストで１番取って、",
+     "en": "I want to get first place on the test,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 746.6,
+     "end": 749.2,
+     "ja": "まあみんなからすごいって言われて、",
+     "en": "have everyone tell me I'm amazing,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 749.3,
+     "end": 751.2,
+     "ja": "最終的に、",
+     "en": "and in the end,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 752.4,
+     "end": 755.2,
+     "ja": "僕は新世界の神になる。",
+     "en": "I will become the God of this new world.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 755.3,
+     "end": 756.9,
+     "ja": "ああ、はい。",
+     "en": "Ah, okay.",
+     "speaker": "Friend"
+    }
+   ]
+  }
+ ],
+ "videoId": "sc0PAgZoE50",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

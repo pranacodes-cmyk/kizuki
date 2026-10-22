@@ -1,0 +1,201 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 13.5,
+   "end": 26.5,
+   "title": "Visiting Shimokitazawa",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜だから — because / so",
+    "〜に行く/来る — go/come to do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.8,
+     "end": 15.5,
+     "ja": "じゃあ、今どこ？",
+     "en": "So, where are we now?",
+     "speaker": "Joshua"
+    },
+    {
+     "start": 15.5,
+     "end": 17.0,
+     "ja": "ん？今どこ？",
+     "en": "Hm? Where are we?",
+     "speaker": "Host"
+    },
+    {
+     "start": 17.0,
+     "end": 20.2,
+     "ja": "今は下北沢。",
+     "en": "Right now, we're in Shimokitazawa.",
+     "speaker": "Host"
+    },
+    {
+     "start": 20.3,
+     "end": 23.0,
+     "ja": "下北沢はおしゃれな街だから、",
+     "en": "Shimokitazawa is a fashionable neighborhood, so...",
+     "speaker": "Host"
+    },
+    {
+     "start": 23.0,
+     "end": 26.0,
+     "ja": "インスピレーションをもらいに、今日は下北沢に来てる。",
+     "en": "...I came to Shimokitazawa today to get some inspiration.",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 139.5,
+   "end": 158.8,
+   "title": "Cleaning Up After Yourself",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜ないと — must do",
+    "〜んだから — because / given that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 139.7,
+     "end": 142.5,
+     "ja": "ちゃんとゴミを出したら、きれいに片付けないと。",
+     "en": "If we make trash, we've got to clean it up properly.",
+     "speaker": "Host"
+    },
+    {
+     "start": 142.6,
+     "end": 143.5,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Joshua"
+    },
+    {
+     "start": 143.5,
+     "end": 146.8,
+     "ja": "えっ、いつもの、オリンピックと…",
+     "en": "Like, as usual, with the Olympics...",
+     "speaker": "Joshua"
+    },
+    {
+     "start": 146.8,
+     "end": 148.5,
+     "ja": "日本ちょっと有名だね。",
+     "en": "Japan is kinda famous for that, right?",
+     "speaker": "Joshua"
+    },
+    {
+     "start": 148.5,
+     "end": 152.5,
+     "ja": "イベントの後で日本人は、えっと、スタジアムを片付ける。",
+     "en": "After an event, Japanese people clean up the stadium.",
+     "speaker": "Joshua"
+    },
+    {
+     "start": 152.7,
+     "end": 155.6,
+     "ja": "ま、もちろん。だって自分で汚くしたんだから、",
+     "en": "Well, of course. We're the ones who made it messy,",
+     "speaker": "Host"
+    },
+    {
+     "start": 155.6,
+     "end": 158.4,
+     "ja": "自分で片付けるの当たり前だよ。",
+     "en": "so cleaning up after ourselves is just common sense.",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 335.5,
+   "end": 352.5,
+   "title": "Amazing Next-Day Delivery",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てさ — you know (casual sentence ending)",
+    "〜たら — if / when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 335.8,
+     "end": 337.5,
+     "ja": "アマゾンってすごいね。",
+     "en": "Amazon is pretty incredible, isn't it?",
+     "speaker": "Host"
+    },
+    {
+     "start": 337.5,
+     "end": 338.8,
+     "ja": "すごいね。",
+     "en": "It really is.",
+     "speaker": "Joshua"
+    },
+    {
+     "start": 338.8,
+     "end": 342.3,
+     "ja": "昨日の夜頼んでさ、今日の朝来るってさ。",
+     "en": "Ordering last night and having it arrive this morning...",
+     "speaker": "Host"
+    },
+    {
+     "start": 342.3,
+     "end": 343.3,
+     "ja": "そう。",
+     "en": "Right.",
+     "speaker": "Joshua"
+    },
+    {
+     "start": 343.3,
+     "end": 344.8,
+     "ja": "しかもお正月に。",
+     "en": "And during New Year's holidays, no less.",
+     "speaker": "Host"
+    },
+    {
+     "start": 345.0,
+     "end": 349.0,
+     "ja": "アマゾンで働いている人がいたら、尊敬します。",
+     "en": "If anyone watching works at Amazon, I truly respect you.",
+     "speaker": "Host"
+    },
+    {
+     "start": 349.0,
+     "end": 350.5,
+     "ja": "うん、ありがとうございます。",
+     "en": "Yeah, thank you very much.",
+     "speaker": "Joshua"
+    },
+    {
+     "start": 350.5,
+     "end": 352.2,
+     "ja": "いや、違うでしょ！",
+     "en": "Wait, that's not you!",
+     "speaker": "Host"
+    }
+   ]
+  }
+ ],
+ "videoId": "0i-4gSHL4bM",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

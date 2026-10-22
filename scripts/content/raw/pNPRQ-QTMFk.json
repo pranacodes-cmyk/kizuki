@@ -1,0 +1,184 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 24.8,
+   "end": 41.5,
+   "title": "Morning Routine and Breakfast Bread",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜があるので — because / since",
+    "〜ている — ongoing action",
+    "〜てくる — go and do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 25.0,
+     "end": 28.0,
+     "ja": "今、6時51分です。",
+     "en": "It's 6:51 right now.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 29.5,
+     "end": 32.5,
+     "ja": "あの〜今日は8時からレッスンがあるので、",
+     "en": "Um, I have a lesson starting at 8:00 today,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 33.2,
+     "end": 36.0,
+     "ja": "今、朝ご飯を食べているんですけど、",
+     "en": "so I'm eating breakfast right now,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 36.5,
+     "end": 41.2,
+     "ja": "昨日横浜に行って、パンを買ってきました。",
+     "en": "and yesterday I went to Yokohama and bought some bread.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 737.5,
+   "end": 746.8,
+   "title": "Ordering Bukkake Udon",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜を頼む — to order something",
+    "何の〜 — what kind of ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 738.0,
+     "end": 739.8,
+     "ja": "何を頼みましたか？",
+     "en": "What did you order?",
+     "speaker": "Sister"
+    },
+    {
+     "start": 740.0,
+     "end": 741.5,
+     "ja": "うどんを頼みました。",
+     "en": "I ordered udon.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 741.5,
+     "end": 742.3,
+     "ja": "何のうどん？",
+     "en": "What kind of udon?",
+     "speaker": "Sister"
+    },
+    {
+     "start": 742.4,
+     "end": 743.7,
+     "ja": "ぶっかけうどんです。",
+     "en": "Bukkake udon.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 743.8,
+     "end": 745.5,
+     "ja": "なんかすごい器おっきいんだけど。",
+     "en": "The bowl is surprisingly huge, though.",
+     "speaker": "Sister"
+    },
+    {
+     "start": 745.6,
+     "end": 746.7,
+     "ja": "ねえ。",
+     "en": "Isn't it?",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 842.5,
+   "end": 900.8,
+   "title": "Unwanted Gacha Prize",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜そうだ — I heard that / apparently",
+    "〜の中で一番〜 — the most ... out of ...",
+    "〜からね — giving a known reason/explanation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 843.0,
+     "end": 845.0,
+     "ja": "あ、そうそうそう、質問がありまして…",
+     "en": "Oh, right, right, I have a question...",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 846.8,
+     "end": 848.0,
+     "ja": "これは何？",
+     "en": "What is this?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 848.3,
+     "end": 850.4,
+     "ja": "これはパンの種です。",
+     "en": "These are bread yeast dough balls.",
+     "speaker": "Sister"
+    },
+    {
+     "start": 851.0,
+     "end": 853.0,
+     "ja": "種は2個セットだそうですね。",
+     "en": "Apparently the dough balls come in a pair.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 853.3,
+     "end": 856.8,
+     "ja": "そうです、私は種が一番嫌だったんですよね、ラインナップの中で。",
+     "en": "Right. Out of the lineup, that was the one I wanted least.",
+     "speaker": "Sister"
+    },
+    {
+     "start": 857.0,
+     "end": 858.7,
+     "ja": "そういうのが大体出るからね。",
+     "en": "That's usually the one you end up getting.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 858.8,
+     "end": 900.6,
+     "ja": "で、1回回したら種が出ました。",
+     "en": "And when I turned it once, I got the dough balls.",
+     "speaker": "Sister"
+    }
+   ]
+  }
+ ],
+ "videoId": "pNPRQ-QTMFk",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

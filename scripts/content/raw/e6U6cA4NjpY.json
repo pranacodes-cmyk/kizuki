@@ -1,0 +1,187 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 81.5,
+   "end": 96.5,
+   "title": "Ordering at the Cafe",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜で — specifying an option / choice",
+    "〜と — and (listing items)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 81.8,
+     "end": 84.7,
+     "ja": "あ、すいません。えっと、いちごワッフル…",
+     "en": "Excuse me. Um, the strawberry waffle...",
+     "speaker": "Customer"
+    },
+    {
+     "start": 84.7,
+     "end": 86.4,
+     "ja": "のセットで、",
+     "en": "...as a set,",
+     "speaker": "Customer"
+    },
+    {
+     "start": 86.5,
+     "end": 92.4,
+     "ja": "アイスコーヒーと、単品で、ロイヤルミルクティーのアイスで。",
+     "en": "with an iced coffee, and iced royal milk tea on its own.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 93.0,
+     "end": 94.8,
+     "ja": "ワッフルは1枚で？",
+     "en": "Just one waffle?",
+     "speaker": "Waitress"
+    },
+    {
+     "start": 95.0,
+     "end": 96.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 209.8,
+   "end": 221.5,
+   "title": "Practicing the Word for Bouquet",
+   "level": "N5",
+   "topics": [
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "これ — this"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 210.4,
+     "end": 212.4,
+     "ja": "1本。これが1本。",
+     "en": "One stem. This is one stem.",
+     "speaker": "A"
+    },
+    {
+     "start": 212.6,
+     "end": 214.0,
+     "ja": "はなばた？",
+     "en": "Hanabata?",
+     "speaker": "B"
+    },
+    {
+     "start": 214.2,
+     "end": 215.5,
+     "ja": "花束。",
+     "en": "Hanataba (bouquet).",
+     "speaker": "A"
+    },
+    {
+     "start": 215.8,
+     "end": 216.8,
+     "ja": "花束？",
+     "en": "Hanataba?",
+     "speaker": "B"
+    },
+    {
+     "start": 217.0,
+     "end": 218.2,
+     "ja": "花束。束。",
+     "en": "Hanataba. Taba (bundle).",
+     "speaker": "A"
+    },
+    {
+     "start": 218.5,
+     "end": 220.0,
+     "ja": "花束。",
+     "en": "Hanataba.",
+     "speaker": "B"
+    },
+    {
+     "start": 220.4,
+     "end": 221.1,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 293.5,
+   "end": 311.0,
+   "title": "Japanese Counters for Animals",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜とか — things like ~",
+    "〜よなぁ — right? (expressing feeling)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 294.0,
+     "end": 298.3,
+     "ja": "鳥は、1羽、2羽、3羽…",
+     "en": "For birds, it's 1-wa, 2-wa, 3-wa...",
+     "speaker": "A"
+    },
+    {
+     "start": 298.8,
+     "end": 300.0,
+     "ja": "えっと、うん？",
+     "en": "Um, and then?",
+     "speaker": "A"
+    },
+    {
+     "start": 300.1,
+     "end": 303.5,
+     "ja": "象とかは、elephantは、頭。",
+     "en": "For things like elephants, it's 'tō'.",
+     "speaker": "A"
+    },
+    {
+     "start": 303.9,
+     "end": 305.5,
+     "ja": "1頭、2頭。",
+     "en": "1-tō, 2-tō.",
+     "speaker": "A"
+    },
+    {
+     "start": 305.7,
+     "end": 307.8,
+     "ja": "ほんとに！なんで？",
+     "en": "Seriously! Why?",
+     "speaker": "B"
+    },
+    {
+     "start": 308.2,
+     "end": 310.5,
+     "ja": "ややこしいよなぁ、本当に。",
+     "en": "It's so confusing, really.",
+     "speaker": "A"
+    }
+   ]
+  }
+ ],
+ "videoId": "e6U6cA4NjpY",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

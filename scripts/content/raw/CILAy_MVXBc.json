@@ -1,0 +1,210 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 54.8,
+   "end": 110.5,
+   "title": "What Does Goppa Mean?",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "music"
+   ],
+   "grammar": [
+    "〜と思う — to think that",
+    "〜以外 — other than / except"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 54.8,
+     "end": 57.2,
+     "ja": "ゴッパーって何、５８以外何だと思うの？",
+     "en": "What did you think \"Goppa\" meant if not 58?",
+     "speaker": "Komiyama"
+    },
+    {
+     "start": 57.2,
+     "end": 59.3,
+     "ja": "いや、G、G-O-P-P-Aみたいな。",
+     "en": "Well, like G-O-P-P-A or something.",
+     "speaker": "Watanabe"
+    },
+    {
+     "start": 59.3,
+     "end": 61.3,
+     "ja": "ゴッパー？河童みたいな？",
+     "en": "Goppa? Like kappa?",
+     "speaker": "Komiyama"
+    },
+    {
+     "start": 61.3,
+     "end": 63.6,
+     "ja": "そうそうそう。河童みたいな。",
+     "en": "Right, right. Like kappa.",
+     "speaker": "Watanabe"
+    },
+    {
+     "start": 63.6,
+     "end": 66.7,
+     "ja": "いや、ゴッパーっていう名前だと思う？ブランドみたいな。",
+     "en": "No, you thought it was a name? Like a brand name?",
+     "speaker": "Komiyama"
+    },
+    {
+     "start": 66.7,
+     "end": 68.8,
+     "ja": "なんか通称「ゴッパー」って言うよね。",
+     "en": "People commonly call it \"Goppa\", you know.",
+     "speaker": "Watanabe"
+    },
+    {
+     "start": 68.8,
+     "end": 110.4,
+     "ja": "ああ、なるほどね。",
+     "en": "Ah, I see.",
+     "speaker": "Komiyama"
+    }
+   ]
+  },
+  {
+   "start": 127.5,
+   "end": 144.0,
+   "title": "Bring Out the SM58",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "music",
+    "work"
+   ],
+   "grammar": [
+    "〜と — when / whenever",
+    "〜ば — if / conditional",
+    "〜かもしれない — might / perhaps"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 127.5,
+     "end": 131.2,
+     "ja": "何回か録って、調子が出ないとゴッパーっていうね。",
+     "en": "After recording a few times, if things weren't going well, out came the Goppa.",
+     "speaker": "Watanabe"
+    },
+    {
+     "start": 131.2,
+     "end": 133.0,
+     "ja": "ゴッパーにしてくれないの？",
+     "en": "They wouldn't give you the Goppa first?",
+     "speaker": "Komiyama"
+    },
+    {
+     "start": 133.0,
+     "end": 136.8,
+     "ja": "最初からやってくれれば、もうちょいテイクも早かったかもしれない。",
+     "en": "If they did that from the start, maybe takes would've been faster.",
+     "speaker": "Watanabe"
+    },
+    {
+     "start": 136.8,
+     "end": 139.8,
+     "ja": "これからはもうゴッパーにしましょう、全部。渡辺君の。",
+     "en": "Let's just use the Goppa for everything from now on. For your vocals.",
+     "speaker": "Komiyama"
+    },
+    {
+     "start": 139.8,
+     "end": 142.0,
+     "ja": "今、ちなみに僕はゴッパー使ってます。",
+     "en": "By the way, I'm currently using the Goppa.",
+     "speaker": "Watanabe"
+    },
+    {
+     "start": 142.0,
+     "end": 143.7,
+     "ja": "ゴッパーですよ、レコーディング。",
+     "en": "It's Goppa, yeah. For recording.",
+     "speaker": "Komiyama"
+    }
+   ]
+  },
+  {
+   "start": 521.0,
+   "end": 542.0,
+   "title": "Elvis Mic and Standard Mics",
+   "level": "N3",
+   "topics": [
+    "music",
+    "comedy"
+   ],
+   "grammar": [
+    "〜しか…ない — only / nothing but",
+    "〜っていう — called / namely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 521.0,
+     "end": 523.0,
+     "ja": "何しろその、マイクっていうのは、",
+     "en": "At any rate, when it came to mics,",
+     "speaker": "Watanabe"
+    },
+    {
+     "start": 523.0,
+     "end": 527.3,
+     "ja": "エルビス・マイクとそうでないマイクっていうぐらいしか認識してなかったんです。",
+     "en": "I only recognized Elvis mics and non-Elvis mics.",
+     "speaker": "Watanabe"
+    },
+    {
+     "start": 527.3,
+     "end": 529.0,
+     "ja": "エルビス・マイク、Shureですよ。",
+     "en": "The Elvis mic is a Shure, you know.",
+     "speaker": "Komiyama"
+    },
+    {
+     "start": 529.0,
+     "end": 531.2,
+     "ja": "あ、そう。あ、こういうの？",
+     "en": "Oh, really? Oh, like this?",
+     "speaker": "Watanabe"
+    },
+    {
+     "start": 531.2,
+     "end": 535.5,
+     "ja": "あれと、こういう普通の形っていうのしかないぐらいに…",
+     "en": "I thought there was only that and this standard shape...",
+     "speaker": "Watanabe"
+    },
+    {
+     "start": 535.5,
+     "end": 537.5,
+     "ja": "写真で見てね。",
+     "en": "From seeing pictures, right?",
+     "speaker": "Komiyama"
+    },
+    {
+     "start": 537.5,
+     "end": 540.0,
+     "ja": "写真で見てね。これかゴッパー…",
+     "en": "From pictures, yeah. Either this or Goppa...",
+     "speaker": "Watanabe"
+    },
+    {
+     "start": 540.0,
+     "end": 541.8,
+     "ja": "ゴッパーだったんだね。",
+     "en": "It was the Goppa, indeed.",
+     "speaker": "Watanabe"
+    }
+   ]
+  }
+ ],
+ "videoId": "CILAy_MVXBc",
+ "pickTopics": [
+  "music"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

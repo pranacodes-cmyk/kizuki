@@ -1,0 +1,194 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.0,
+   "end": 23.8,
+   "title": "Is Japanese Difficult?",
+   "level": "N5",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜と思います — I think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.2,
+     "end": 9.0,
+     "ja": "皆さん、こんにちは。日本語教師のしゅんです。",
+     "en": "Hello everyone. I'm Shun, a Japanese teacher.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 9.8,
+     "end": 14.2,
+     "ja": "皆さん、日本語難しいですか？",
+     "en": "Everyone, is Japanese difficult?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 14.8,
+     "end": 17.0,
+     "ja": "難しいですよね。",
+     "en": "It's difficult, isn't it?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 17.3,
+     "end": 23.5,
+     "ja": "うん、日本語は本当に難しい言語だと思います。",
+     "en": "Yeah, I think Japanese is really a difficult language.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 222.5,
+   "end": 255.5,
+   "title": "Taking a Break When Studying Gets Tough",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜てもいい — it is okay to / may",
+    "〜たり〜たりする — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 223.0,
+     "end": 230.0,
+     "ja": "大変な時は、あの、少し休んでもいいと思いますよ。",
+     "en": "When it's tough, I think it's okay to take a little break.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 230.1,
+     "end": 232.7,
+     "ja": "休んでもいいと思います。",
+     "en": "I think it's fine to rest.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 233.0,
+     "end": 239.0,
+     "ja": "でも、１日本当に少し、５分でもいいです。１０分でもいいです。",
+     "en": "But even just a little bit a day, five minutes or ten minutes is fine.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 239.2,
+     "end": 244.8,
+     "ja": "だから、まあ、ポッドキャストをちょっとだけ聞いてみたり、",
+     "en": "So, like, listening to a podcast just a little bit,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 245.5,
+     "end": 250.0,
+     "ja": "まあね、Duolingoを少ししてみたり、",
+     "en": "or doing a little bit of Duolingo,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 250.8,
+     "end": 255.2,
+     "ja": "するだけでもいいと思いますよ。",
+     "en": "even just doing that is good, I think.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 833.0,
+   "end": 859.5,
+   "title": "Have You Been to Spain?",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜たことがある — have experienced",
+    "〜て（接続） — and (connecting clauses)",
+    "〜から — because"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 833.4,
+     "end": 835.7,
+     "ja": "スペインに行ったことがありますか？",
+     "en": "Have you ever been to Spain?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 836.0,
+     "end": 838.7,
+     "ja": "スペインに一度行ったことがあります。",
+     "en": "I have been to Spain once.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 839.2,
+     "end": 841.3,
+     "ja": "あー、また行きたいですか？",
+     "en": "Oh, do you want to go again?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 841.5,
+     "end": 843.0,
+     "ja": "また行きたいです。",
+     "en": "I want to go again.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 843.2,
+     "end": 844.6,
+     "ja": "どうしてですか？",
+     "en": "Why is that?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 845.0,
+     "end": 847.4,
+     "ja": "スペインは天気が良くて、",
+     "en": "Because Spain has good weather,",
+     "speaker": "Guest"
+    },
+    {
+     "start": 847.7,
+     "end": 851.8,
+     "ja": "人が明るくてご飯が美味しいからです。",
+     "en": "the people are cheerful, and the food is delicious.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 852.3,
+     "end": 856.8,
+     "ja": "確かにスペインは天気がいいですよね。",
+     "en": "Indeed, Spain has nice weather.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 857.0,
+     "end": 859.2,
+     "ja": "人も優しいし最高ですね。",
+     "en": "The people are friendly too, so it's the best.",
+     "speaker": "Shun"
+    }
+   ]
+  }
+ ],
+ "videoId": "KY2cAscCPIc",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

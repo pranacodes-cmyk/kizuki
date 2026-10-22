@@ -1,0 +1,169 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 169.0,
+   "end": 196.2,
+   "title": "Distances Between Paris Metro Stations",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜よりも — more than ~",
+    "〜こともある — there are times when ~",
+    "〜かも — might be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 169.0,
+     "end": 174.8,
+     "ja": "で、それからあとですね、私たちがイメージする地下鉄よりも随分小さいんです、規模が。",
+     "en": "And after that, the scale is much smaller than the subways we usually imagine.",
+     "speaker": "Anne"
+    },
+    {
+     "start": 175.0,
+     "end": 178.2,
+     "ja": "１駅ごとが数百メートルなんですね。",
+     "en": "Each station is just a few hundred meters apart.",
+     "speaker": "Anne"
+    },
+    {
+     "start": 178.5,
+     "end": 184.2,
+     "ja": "直線の駅だったりすると、隣の駅が目で見ることができるんですね。",
+     "en": "If it's on a straight line, you can actually see the next station with your own eyes.",
+     "speaker": "Anne"
+    },
+    {
+     "start": 185.3,
+     "end": 190.5,
+     "ja": "なので、ま、４、５駅ぐらいだったら１kmくらいってこともあるので、",
+     "en": "So, four or five stations might be around just one kilometer,",
+     "speaker": "Anne"
+    },
+    {
+     "start": 190.8,
+     "end": 196.0,
+     "ja": "数駅だったら、もしかしたら歩いても良いかもねっていうこともあるかと思います。",
+     "en": "and for a couple of stations, walking might even be a good option.",
+     "speaker": "Anne"
+    }
+   ]
+  },
+  {
+   "start": 209.5,
+   "end": 227.0,
+   "title": "Opening Metro Doors Manually",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ないと — unless / have to",
+    "〜たら — when / if",
+    "わけではない — not necessarily"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 209.7,
+     "end": 213.0,
+     "ja": "勝手に開かない電車もあります。",
+     "en": "There are also trains whose doors don't open automatically.",
+     "speaker": "Anne"
+    },
+    {
+     "start": 213.2,
+     "end": 217.8,
+     "ja": "こうやってガッチャンって、レバーを開けないと、",
+     "en": "If you don't yank the lever up like this,",
+     "speaker": "Anne"
+    },
+    {
+     "start": 217.8,
+     "end": 220.8,
+     "ja": "そもそも扉が開かないってこともあるので、",
+     "en": "the door won't open in the first place.",
+     "speaker": "Anne"
+    },
+    {
+     "start": 221.0,
+     "end": 224.2,
+     "ja": "ま、周りの人見てたらね、分かるとは思うので、",
+     "en": "Well, if you watch the people around you, you'll figure it out,",
+     "speaker": "Anne"
+    },
+    {
+     "start": 224.4,
+     "end": 226.8,
+     "ja": "必ずスーって開くわけではないので。",
+     "en": "so keep in mind they don't always slide open smoothly.",
+     "speaker": "Anne"
+    }
+   ]
+  },
+  {
+   "start": 417.0,
+   "end": 438.0,
+   "title": "How to Catch a Bus in Paris",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ても — even if",
+    "〜たりする — doing things like",
+    "〜と思う — to think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 417.2,
+     "end": 421.3,
+     "ja": "あとバスもね、停留所で待ってても、手挙げないと止まってくれない。",
+     "en": "Also with buses, even if you wait at the stop, they won't pull over unless you raise your hand.",
+     "speaker": "Anne"
+    },
+    {
+     "start": 421.7,
+     "end": 424.5,
+     "ja": "１個の停留所に色んなバスが来たりするので、",
+     "en": "Since several different buses use the same stop,",
+     "speaker": "Anne"
+    },
+    {
+     "start": 424.7,
+     "end": 428.5,
+     "ja": "「私今から乗りまーす」っていうアピールを運転手さんにしてください。",
+     "en": "make sure to signal to the driver, 'I'm getting on!'",
+     "speaker": "Anne"
+    },
+    {
+     "start": 429.0,
+     "end": 433.3,
+     "ja": "それでもね、無視されることもあるんだけど、急いでたりするとね。",
+     "en": "Even then, they might ignore you if they're running behind schedule.",
+     "speaker": "Anne"
+    },
+    {
+     "start": 433.8,
+     "end": 437.5,
+     "ja": "とりあえずバス来たら、私乗りますアピールも必要だと思います。",
+     "en": "Anyway, when the bus comes, I think it's necessary to show that you want to ride.",
+     "speaker": "Anne"
+    }
+   ]
+  }
+ ],
+ "videoId": "-rRTYYm_Vrs",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

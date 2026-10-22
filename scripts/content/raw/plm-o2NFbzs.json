@@ -1,0 +1,237 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 141.2,
+   "end": 164.0,
+   "title": "Rules for the Food Review Challenge",
+   "level": "N3",
+   "topics": [
+    "food",
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜以外に — other than / besides",
+    "〜ずつ — each / at a time"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 141.4,
+     "end": 144.1,
+     "ja": "だから、まず大元、「美味しい」は禁止ワード。",
+     "en": "So to start with, the baseline forbidden word is 'delicious'.",
+     "speaker": "Toshichan"
+    },
+    {
+     "start": 144.1,
+     "end": 145.4,
+     "ja": "ああ、そもそもね。",
+     "en": "Ah, of course.",
+     "speaker": "Habasou"
+    },
+    {
+     "start": 145.4,
+     "end": 147.4,
+     "ja": "今日８ラー買ってきたんよ。",
+     "en": "Today I bought Hachira ramen.",
+     "speaker": "Toshichan"
+    },
+    {
+     "start": 147.4,
+     "end": 148.2,
+     "ja": "おう。",
+     "en": "Yeah.",
+     "speaker": "Habasou"
+    },
+    {
+     "start": 148.2,
+     "end": 150.2,
+     "ja": "８ラーって、あの８番らーめんですね。",
+     "en": "By Hachira, I mean Hachiban Ramen.",
+     "speaker": "Toshichan"
+    },
+    {
+     "start": 150.3,
+     "end": 152.0,
+     "ja": "北陸…北陸系やね。",
+     "en": "Hokuriku... it's a Hokuriku staple.",
+     "speaker": "Habasou"
+    },
+    {
+     "start": 152.0,
+     "end": 155.3,
+     "ja": "北陸系やな。商品４品買ってきたんすよ。",
+     "en": "Yeah, Hokuriku style. I bought four items.",
+     "speaker": "Toshichan"
+    },
+    {
+     "start": 155.3,
+     "end": 156.0,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Habasou"
+    },
+    {
+     "start": 156.0,
+     "end": 162.0,
+     "ja": "２品ずつ食べて、禁止ワードは各々が「美味しい」以外に２つ。",
+     "en": "We'll eat two items each, and have two forbidden words each besides 'delicious'.",
+     "speaker": "Toshichan"
+    },
+    {
+     "start": 162.0,
+     "end": 163.7,
+     "ja": "こっちで決めるんね。",
+     "en": "We pick them for each other, right?",
+     "speaker": "Habasou"
+    }
+   ]
+  },
+  {
+   "start": 265.5,
+   "end": 281.0,
+   "title": "Describing the Thick Noodles",
+   "level": "N4",
+   "topics": [
+    "food",
+    "comedy"
+   ],
+   "grammar": [
+    "〜というのは — speaking of / as for",
+    "〜ことができる・〜る — potential form (楽しめる)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 265.8,
+     "end": 267.0,
+     "ja": "いただきます！",
+     "en": "Let's eat!",
+     "speaker": "Habasou"
+    },
+    {
+     "start": 267.3,
+     "end": 269.3,
+     "ja": "まずね、８番って言うのはね、",
+     "en": "First of all, speaking of Hachiban,",
+     "speaker": "Habasou"
+    },
+    {
+     "start": 269.3,
+     "end": 271.7,
+     "ja": "麺がね、太麺なんですよ。",
+     "en": "the noodles are thick noodles.",
+     "speaker": "Habasou"
+    },
+    {
+     "start": 271.8,
+     "end": 273.8,
+     "ja": "こう太麺でしっかりと…",
+     "en": "With these thick noodles, firmly...",
+     "speaker": "Habasou"
+    },
+    {
+     "start": 274.0,
+     "end": 276.3,
+     "ja": "麺の味も楽しめる、",
+     "en": "you can also enjoy the flavor of the noodles—",
+     "speaker": "Habasou"
+    },
+    {
+     "start": 276.4,
+     "end": 277.8,
+     "ja": "そういったラーメンです。",
+     "en": "that's the kind of ramen this is.",
+     "speaker": "Habasou"
+    },
+    {
+     "start": 277.9,
+     "end": 278.6,
+     "ja": "おー。",
+     "en": "Ooh.",
+     "speaker": "Toshichan"
+    },
+    {
+     "start": 278.6,
+     "end": 280.5,
+     "ja": "では、いただきます。",
+     "en": "Well then, time to dig in.",
+     "speaker": "Habasou"
+    }
+   ]
+  },
+  {
+   "start": 431.0,
+   "end": 447.5,
+   "title": "Grading the Gyoza 100 Points",
+   "level": "N4",
+   "topics": [
+    "food",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てみる (見てください) — try doing / please look",
+    "〜をしている — having a shape/feature"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 431.3,
+     "end": 433.8,
+     "ja": "見てください、まずこの餃子。",
+     "en": "First, take a look at this gyoza.",
+     "speaker": "Habasou"
+    },
+    {
+     "start": 434.0,
+     "end": 435.5,
+     "ja": "綺麗な形してますね。",
+     "en": "It has a beautiful shape.",
+     "speaker": "Habasou"
+    },
+    {
+     "start": 435.5,
+     "end": 438.0,
+     "ja": "これ、ザ・餃子って形ですね。",
+     "en": "This is truly the quintessential gyoza shape.",
+     "speaker": "Habasou"
+    },
+    {
+     "start": 438.0,
+     "end": 440.0,
+     "ja": "で、しっかり焼き色もついて、",
+     "en": "And it has a nice browning on it,",
+     "speaker": "Habasou"
+    },
+    {
+     "start": 440.1,
+     "end": 442.5,
+     "ja": "素晴らしい餃子、100点です！",
+     "en": "a wonderful gyoza—100 points!",
+     "speaker": "Habasou"
+    },
+    {
+     "start": 443.0,
+     "end": 444.3,
+     "ja": "教師か！",
+     "en": "Are you a schoolteacher?!",
+     "speaker": "Toshichan"
+    },
+    {
+     "start": 444.4,
+     "end": 447.5,
+     "ja": "もう見た目は100点。次味ですね。",
+     "en": "The appearance is a solid 100. Next is the taste.",
+     "speaker": "Habasou"
+    }
+   ]
+  }
+ ],
+ "videoId": "plm-o2NFbzs",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

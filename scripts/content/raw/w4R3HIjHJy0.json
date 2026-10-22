@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.5,
+   "end": 31.4,
+   "title": "No One Can Change Their Fate",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "〜ている — ongoing state",
+    "〜られる — potential form",
+    "〜か〜か — whether... or..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 16.8,
+     "end": 21.0,
+     "ja": "西の国で何か不気味なことが起こっているのだよ。",
+     "en": "Something ominous is happening in the western lands.",
+     "speaker": "Elder"
+    },
+    {
+     "start": 24.0,
+     "end": 26.6,
+     "ja": "誰にも運命は変えられない。",
+     "en": "No one can change their destiny.",
+     "speaker": "Elder"
+    },
+    {
+     "start": 27.2,
+     "end": 31.1,
+     "ja": "だが、ただ待つか自ら赴くかは決められる。",
+     "en": "Yet, you can decide whether to merely wait or go yourself.",
+     "speaker": "Elder"
+    }
+   ]
+  },
+  {
+   "start": 44.0,
+   "end": 59.0,
+   "title": "Silence, Boy!",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜ずに済む — manage without doing",
+    "〜て — command / request",
+    "〜る気だ — intention / mind to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.1,
+     "end": 46.5,
+     "ja": "森と人が争わずに済む道はないのか？",
+     "en": "Is there no way for the forest and humans to avoid conflict?",
+     "speaker": "Ashitaka"
+    },
+    {
+     "start": 47.2,
+     "end": 49.2,
+     "ja": "本当にもう止められないのか？",
+     "en": "Can it really not be stopped anymore?",
+     "speaker": "Ashitaka"
+    },
+    {
+     "start": 49.7,
+     "end": 51.2,
+     "ja": "サンをどうする気だ？",
+     "en": "What do you plan to do with San?",
+     "speaker": "Ashitaka"
+    },
+    {
+     "start": 52.0,
+     "end": 54.5,
+     "ja": "あの子を解き放て！あの子は人間だぞ！",
+     "en": "Set that girl free! She's human!",
+     "speaker": "Ashitaka"
+    },
+    {
+     "start": 54.8,
+     "end": 56.2,
+     "ja": "黙れ小僧！",
+     "en": "Silence, boy!",
+     "speaker": "Moro"
+    },
+    {
+     "start": 56.4,
+     "end": 58.8,
+     "ja": "お前にあの娘の不幸が癒せるのか？",
+     "en": "Can you heal that girl's sorrow?",
+     "speaker": "Moro"
+    }
+   ]
+  },
+  {
+   "start": 79.1,
+   "end": 30.0,
+   "title": "We Can Live Together",
+   "level": "N4",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜ぬ — negative (archaic / literary)",
+    "〜ことができる — can do / able to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 79.4,
+     "end": 80.8,
+     "ja": "アシタカ。",
+     "en": "Ashitaka.",
+     "speaker": "Moro"
+    },
+    {
+     "start": 81.0,
+     "end": 83.2,
+     "ja": "お前にサンが救えるか？",
+     "en": "Can you save San?",
+     "speaker": "Moro"
+    },
+    {
+     "start": 85.6,
+     "end": 86.6,
+     "ja": "分からぬ。",
+     "en": "I do not know.",
+     "speaker": "Ashitaka"
+    },
+    {
+     "start": 87.0,
+     "end": 89.6,
+     "ja": "だが、共に生きることはできる！",
+     "en": "Yet, we can live together!",
+     "speaker": "Ashitaka"
+    }
+   ]
+  }
+ ],
+ "videoId": "w4R3HIjHJy0",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

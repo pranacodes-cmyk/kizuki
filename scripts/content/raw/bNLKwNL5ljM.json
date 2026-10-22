@@ -1,0 +1,259 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 46.3,
+   "end": 73.2,
+   "title": "Explaining Street Blackjack Rules",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜てくる — action directed toward speaker / change over time",
+    "〜を目指して — aiming for"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 46.3,
+     "end": 48.5,
+     "ja": "街中に出て、チーム戦です、今回。",
+     "en": "We're going out on the street, and this time it's a team battle.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 48.8,
+     "end": 52.0,
+     "ja": "チームで分かれて、ある人に質問します。",
+     "en": "We split into teams and ask someone a question.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 52.2,
+     "end": 54.0,
+     "ja": "街中の人に？",
+     "en": "To people on the street?",
+     "speaker": "Doba"
+    },
+    {
+     "start": 54.0,
+     "end": 57.2,
+     "ja": "それはね、数字で返ってくる質問なんです。",
+     "en": "The question has to be one answered with a number.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 57.5,
+     "end": 60.8,
+     "ja": "例えばね、「今までスキーに行った回数は？」",
+     "en": "For example, 'How many times have you been skiing?'",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 60.8,
+     "end": 62.0,
+     "ja": "ぺろさん何回ですか？",
+     "en": "Pero, how many times for you?",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 62.0,
+     "end": 63.5,
+     "ja": "2回ぐらい。",
+     "en": "About twice.",
+     "speaker": "Pero"
+    },
+    {
+     "start": 63.5,
+     "end": 66.5,
+     "ja": "2回。これがそのチームのポイントになる。",
+     "en": "Two times. That becomes that team's points.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 66.8,
+     "end": 72.0,
+     "ja": "それを積み重ねていって21を目指して、先に21になった方が勝ちと。",
+     "en": "You stack them up aiming for 21, and the first to reach 21 wins.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 72.1,
+     "end": 73.2,
+     "ja": "なるほど。",
+     "en": "I see.",
+     "speaker": "Doba"
+    }
+   ]
+  },
+  {
+   "start": 267.5,
+   "end": 291.5,
+   "title": "Why Are You Off Your Game Today?",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜すぎる — doing too much / excessively",
+    "〜てくる — completion of action directed toward here"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 267.5,
+     "end": 270.0,
+     "ja": "なんで頭回ってないん？お前、今日。",
+     "en": "Why is your head not working today, man?",
+     "speaker": "Doba"
+    },
+    {
+     "start": 270.0,
+     "end": 271.2,
+     "ja": "確かに。",
+     "en": "Seriously.",
+     "speaker": "Tetchan"
+    },
+    {
+     "start": 271.2,
+     "end": 273.5,
+     "ja": "え、今日寝過ぎた。",
+     "en": "Uh, I overslept today.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 273.5,
+     "end": 275.4,
+     "ja": "いや、ガキみたいな理由！",
+     "en": "That's an excuse a little kid would make!",
+     "speaker": "Doba"
+    },
+    {
+     "start": 275.5,
+     "end": 277.4,
+     "ja": "今日16時集合やん。",
+     "en": "Call time was 4:00 PM today!",
+     "speaker": "Doba"
+    },
+    {
+     "start": 277.4,
+     "end": 278.6,
+     "ja": "珍しいね。",
+     "en": "That is rare.",
+     "speaker": "Tetchan"
+    },
+    {
+     "start": 278.6,
+     "end": 281.0,
+     "ja": "16時集合なかなかない。レイクレ朝早いの。",
+     "en": "A 4 PM meet-up rarely happens. Lazy Lie is usually early mornings.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 281.0,
+     "end": 283.0,
+     "ja": "けど遅刻してきた。",
+     "en": "And yet he still showed up late.",
+     "speaker": "Doba"
+    },
+    {
+     "start": 283.2,
+     "end": 285.5,
+     "ja": "何があったん？",
+     "en": "What even happened?",
+     "speaker": "Tetchan"
+    },
+    {
+     "start": 285.5,
+     "end": 287.3,
+     "ja": "4時で遅刻？",
+     "en": "Late for a 4 PM call?",
+     "speaker": "Doba"
+    },
+    {
+     "start": 287.3,
+     "end": 289.5,
+     "ja": "今年初めて遅刻した。",
+     "en": "It's my first time being late this year.",
+     "speaker": "Takashi"
+    }
+   ]
+  },
+  {
+   "start": 814.0,
+   "end": 842.5,
+   "title": "Betting on the Cuban Sandwich",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "food",
+    "friends"
+   ],
+   "grammar": [
+    "〜と思う — I think that...",
+    "〜もん — because / explanation (casual)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 814.0,
+     "end": 819.5,
+     "ja": "キューバサンドかチーズケーキ、出た量。",
+     "en": "The number of Cuban sandwiches or cheesecakes served.",
+     "speaker": "Tomoyan"
+    },
+    {
+     "start": 820.0,
+     "end": 824.2,
+     "ja": "俺は今日は10以下やと思うで。だって平日やもん。",
+     "en": "I think it's 10 or under today. Because it's a weekday.",
+     "speaker": "Tomoyan"
+    },
+    {
+     "start": 824.8,
+     "end": 826.8,
+     "ja": "キューバサンド賭けに出る？",
+     "en": "Take a gamble on the Cuban sandwich?",
+     "speaker": "Pero"
+    },
+    {
+     "start": 826.8,
+     "end": 830.0,
+     "ja": "ええんちゃう？いいじゃん。まだ21まで余裕あるから。",
+     "en": "Why not? Sounds good. We still have plenty of room until 21.",
+     "speaker": "Tomoyan"
+    },
+    {
+     "start": 830.0,
+     "end": 832.2,
+     "ja": "キューバサンドの数にしようか。",
+     "en": "Let's go with the number of Cuban sandwiches.",
+     "speaker": "Tomoyan"
+    },
+    {
+     "start": 832.2,
+     "end": 834.0,
+     "ja": "オッケーです。行きますか。",
+     "en": "Okay. Shall we head in?",
+     "speaker": "Pero"
+    },
+    {
+     "start": 836.8,
+     "end": 842.0,
+     "ja": "今日のキューバサンドの個数は何個ですか？",
+     "en": "How many Cuban sandwiches have you sold today?",
+     "speaker": "Pero"
+    }
+   ]
+  }
+ ],
+ "videoId": "bNLKwNL5ljM",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

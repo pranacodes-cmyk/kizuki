@@ -1,0 +1,193 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.8,
+   "end": 25.2,
+   "title": "Deciding to Go to the Zoo",
+   "level": "N4",
+   "topics": [
+    "family",
+    "daily",
+    "animals"
+   ],
+   "grammar": [
+    "〜ながら — doing while",
+    "〜たい — wanting to do something",
+    "〜（よ）う — let's / volitional"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.8,
+     "end": 10.4,
+     "ja": "日曜日の朝、空は青く晴れていました。",
+     "en": "On Sunday morning, the sky was clear and blue.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 10.5,
+     "end": 12.6,
+     "ja": "「今日はどこへ行こうか？」",
+     "en": "\"Where should we go today?\"",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 12.7,
+     "end": 16.0,
+     "ja": "裕太が朝ご飯を食べながら聞きました。",
+     "en": "Yuta asked while eating breakfast.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 16.1,
+     "end": 18.4,
+     "ja": "「動物園に行きたい！」",
+     "en": "\"I want to go to the zoo!\"",
+     "speaker": "Mika"
+    },
+    {
+     "start": 18.5,
+     "end": 20.8,
+     "ja": "妹の美香が元気よく答えました。",
+     "en": "His younger sister Mika answered energetically.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 20.9,
+     "end": 24.8,
+     "ja": "「いいね。じゃあ、市川市動植物園に行こう」",
+     "en": "\"Sounds good. Then let's go to the Ichikawa City Zoo and Botanical Garden.\"",
+     "speaker": "Dad"
+    }
+   ]
+  },
+  {
+   "start": 429.0,
+   "end": 447.8,
+   "title": "What Does the Particle 'Ne' Mean?",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture",
+    "family"
+   ],
+   "grammar": [
+    "〜って — speaking of / quotation",
+    "〜んじゃない — isn't it / suggestion",
+    "〜とき — when / at the time of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 429.1,
+     "end": 431.1,
+     "ja": "「ねえ、お兄ちゃん」",
+     "en": "\"Hey, big brother.\"",
+     "speaker": "Mika"
+    },
+    {
+     "start": 431.2,
+     "end": 432.3,
+     "ja": "「何？」",
+     "en": "\"What?\"",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 432.4,
+     "end": 435.8,
+     "ja": "「『みんなでいると楽しい』って、日本語ではどう言うの？」",
+     "en": "\"How do you say 'It's fun when we're all together' in Japanese?\"",
+     "speaker": "Mika"
+    },
+    {
+     "start": 435.9,
+     "end": 439.8,
+     "ja": "「そのまま『みんなでいると楽しいね』でいいんじゃない？」",
+     "en": "\"Wouldn't just saying 'It's fun when we're all together, right?' be fine?\"",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 440.0,
+     "end": 441.5,
+     "ja": "「『ね』って何？」",
+     "en": "\"What does 'ne' mean?\"",
+     "speaker": "Mika"
+    },
+    {
+     "start": 441.6,
+     "end": 443.6,
+     "ja": "裕太は少し考えました。",
+     "en": "Yuta thought for a moment.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 443.7,
+     "end": 447.5,
+     "ja": "「『ね』は、相手と気持ちを共有するときによく使う言葉だよ」",
+     "en": "\"'Ne' is a word often used when sharing feelings with someone.\"",
+     "speaker": "Yuta"
+    }
+   ]
+  },
+  {
+   "start": 466.5,
+   "end": 484.0,
+   "title": "Time Alone vs Time with Friends",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "family",
+    "friends"
+   ],
+   "grammar": [
+    "〜と思う — to think that",
+    "〜かもしれない — might / could be",
+    "〜と — conditional when/if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 466.6,
+     "end": 469.9,
+     "ja": "「そうだね。でも、一人の時間も大切だよね」",
+     "en": "\"That's true. But alone time is important too, isn't it?\"",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 470.1,
+     "end": 472.8,
+     "ja": "「うん、それも大切だと思う」",
+     "en": "\"Yeah, I think that's important too.\"",
+     "speaker": "Mika"
+    },
+    {
+     "start": 473.0,
+     "end": 477.4,
+     "ja": "「じゃあ、パンチ君も一人になりたい時があるのかな？」",
+     "en": "\"Then, I wonder if Punch-kun also has times he wants to be alone?\"",
+     "speaker": "Mika"
+    },
+    {
+     "start": 477.6,
+     "end": 482.4,
+     "ja": "「あるかもしれないね。でも、仲間がいると安心するんだね」",
+     "en": "\"Maybe he does. But having friends around makes him feel secure.\"",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 482.5,
+     "end": 483.5,
+     "ja": "「そうだね」",
+     "en": "\"That's right.\"",
+     "speaker": "Mika"
+    }
+   ]
+  }
+ ],
+ "videoId": "msgGuZ4_fS4",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

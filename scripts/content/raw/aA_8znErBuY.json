@@ -1,0 +1,257 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 46.2,
+   "end": 109.5,
+   "title": "Walking to the National Art Center",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ようと思う — intending to",
+    "〜たら — when / if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 46.2,
+     "end": 49.2,
+     "ja": "で、国立新美術館に行こうと思って",
+     "en": "So, I decided to head to The National Art Center,",
+     "speaker": "Haru"
+    },
+    {
+     "start": 49.2,
+     "end": 51.5,
+     "ja": "歩きます。",
+     "en": "and started walking.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 52.5,
+     "end": 55.7,
+     "ja": "めっちゃいい天気で、晴れてて、",
+     "en": "The weather was great and sunny,",
+     "speaker": "Haru"
+    },
+    {
+     "start": 55.7,
+     "end": 58.7,
+     "ja": "暑かったけど、いい気分でした。",
+     "en": "and though it was hot, it felt good.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 58.7,
+     "end": 61.0,
+     "ja": "でも、こっからまだ歩くんかって、",
+     "en": "Still, thinking I had to walk further,",
+     "speaker": "Haru"
+    },
+    {
+     "start": 61.0,
+     "end": 62.5,
+     "ja": "ちょっとしんどかったです。",
+     "en": "it felt a little exhausting.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 62.5,
+     "end": 64.2,
+     "ja": "で、登ったら、",
+     "en": "And when I walked up,",
+     "speaker": "Haru"
+    },
+    {
+     "start": 64.2,
+     "end": 66.4,
+     "ja": "美術館が出てきます。",
+     "en": "the art museum came into view.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 66.4,
+     "end": 67.7,
+     "ja": "めっちゃ大きくて、",
+     "en": "It was so big,",
+     "speaker": "Haru"
+    },
+    {
+     "start": 67.7,
+     "end": 109.5,
+     "ja": "初めての美術館で感動しました。",
+     "en": "and being my first time at an art museum, I was really moved.",
+     "speaker": "Haru"
+    }
+   ]
+  },
+  {
+   "start": 149.5,
+   "end": 214.8,
+   "title": "Buying Macarons at The Sugar Forest",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜ていたので — because was doing",
+    "〜のみ — only"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 149.5,
+     "end": 153.6,
+     "ja": "で、前日に私はマカロン予約していたので買えたけど、",
+     "en": "I was able to buy them because I reserved the day before, but",
+     "speaker": "Haru"
+    },
+    {
+     "start": 153.6,
+     "end": 157.2,
+     "ja": "もうこの時間帯、夕方はもう全部売り切れてて、",
+     "en": "by this evening time, they were completely sold out,",
+     "speaker": "Haru"
+    },
+    {
+     "start": 157.2,
+     "end": 201.0,
+     "ja": "もう取り置きのみの取り扱いになってました。",
+     "en": "and available only for reserved pickups.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 201.0,
+     "end": 202.7,
+     "ja": "可愛い！",
+     "en": "So cute!",
+     "speaker": "Haru"
+    },
+    {
+     "start": 202.7,
+     "end": 206.3,
+     "ja": "これが全部取り置きの人たちのマカロンです。",
+     "en": "These are all the macarons reserved for people.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 206.3,
+     "end": 209.6,
+     "ja": "で、4個入りと8個入りを取り置きでは選べて、",
+     "en": "You could choose a box of 4 or 8 for reservations,",
+     "speaker": "Haru"
+    },
+    {
+     "start": 209.6,
+     "end": 211.7,
+     "ja": "私は8個入りにしました。",
+     "en": "and I went with the 8-piece box.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 211.7,
+     "end": 214.8,
+     "ja": "1個400円なので合計3,800円でした。",
+     "en": "They were 400 yen each, so the total was 3,800 yen.",
+     "speaker": "Haru"
+    }
+   ]
+  },
+  {
+   "start": 250.0,
+   "end": 316.8,
+   "title": "Tasting the Giant Macarons",
+   "level": "N4",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜ので — because / so",
+    "〜ごたえ — satisfaction / heft"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 250.0,
+     "end": 253.1,
+     "ja": "ミルクティーがめっちゃ美味しかったです。",
+     "en": "The milk tea was delicious.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 253.1,
+     "end": 255.0,
+     "ja": "甘かった。",
+     "en": "It was sweet.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 255.0,
+     "end": 257.3,
+     "ja": "マカロンもめっちゃ甘かった。",
+     "en": "The macarons were super sweet too.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 257.3,
+     "end": 301.4,
+     "ja": "この間のクリームは全部多分バタークリームで、",
+     "en": "The cream in between is probably all buttercream,",
+     "speaker": "Haru"
+    },
+    {
+     "start": 301.4,
+     "end": 304.6,
+     "ja": "マカロンの生地もクリームも両方甘かったので、",
+     "en": "and since both the shell and the cream were sweet,",
+     "speaker": "Haru"
+    },
+    {
+     "start": 304.6,
+     "end": 307.7,
+     "ja": "結構甘々なマカロンです。",
+     "en": "they're quite intensely sweet macarons.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 307.7,
+     "end": 310.9,
+     "ja": "1つが大きいのですごい食べごたえもあって、",
+     "en": "Each one is big so they're really satisfying,",
+     "speaker": "Haru"
+    },
+    {
+     "start": 310.9,
+     "end": 312.7,
+     "ja": "可愛くて、",
+     "en": "and cute,",
+     "speaker": "Haru"
+    },
+    {
+     "start": 312.7,
+     "end": 314.0,
+     "ja": "もう最高でした。",
+     "en": "just the best.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 314.0,
+     "end": 316.8,
+     "ja": "念願やったからほんまに嬉しかったです。",
+     "en": "I'd been longing for this, so I was truly happy.",
+     "speaker": "Haru"
+    }
+   ]
+  }
+ ],
+ "videoId": "aA_8znErBuY",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

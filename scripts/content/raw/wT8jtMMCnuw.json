@@ -1,0 +1,195 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 7.5,
+   "end": 22.0,
+   "title": "Looking for a Restaurant",
+   "level": "N5",
+   "topics": [
+    "friends",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜かった / 〜だった — past tense",
+    "〜ていますか — question about current state"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 7.8,
+     "end": 10.2,
+     "ja": "ジェムさん、仕事はたいへんだった？",
+     "en": "Jem, was work tough?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 10.2,
+     "end": 12.3,
+     "ja": "あ〜、とてもたいへんだったね。",
+     "en": "Ah, it was very tough.",
+     "speaker": "Gem"
+    },
+    {
+     "start": 12.3,
+     "end": 15.6,
+     "ja": "はい、つかれた。おなかもすきました。",
+     "en": "Yeah, I'm tired. I'm hungry too.",
+     "speaker": "Gem"
+    },
+    {
+     "start": 15.8,
+     "end": 17.8,
+     "ja": "私も、おなかがすきました。",
+     "en": "I'm hungry too.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 18.0,
+     "end": 21.8,
+     "ja": "じゃあ、このちかくにいいレストランは知っていますか？",
+     "en": "Then, do you know a good restaurant near here?",
+     "speaker": "Gem"
+    }
+   ]
+  },
+  {
+   "start": 49.3,
+   "end": 64.5,
+   "title": "Entering the Restaurant",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜名様 — counting people (polite)",
+    "〜てください — please do"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 49.5,
+     "end": 51.0,
+     "ja": "いらっしゃいませ。",
+     "en": "Welcome.",
+     "speaker": "Waiter"
+    },
+    {
+     "start": 51.0,
+     "end": 52.6,
+     "ja": "こんにちは。",
+     "en": "Hello.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 52.7,
+     "end": 53.9,
+     "ja": "何名様ですか？",
+     "en": "How many people?",
+     "speaker": "Waiter"
+    },
+    {
+     "start": 53.9,
+     "end": 55.2,
+     "ja": "２人です。",
+     "en": "Two people.",
+     "speaker": "Gem"
+    },
+    {
+     "start": 55.3,
+     "end": 57.7,
+     "ja": "はい、こちらへどうぞ。すわってください。",
+     "en": "Right this way, please. Please take a seat.",
+     "speaker": "Waiter"
+    },
+    {
+     "start": 60.5,
+     "end": 62.8,
+     "ja": "はい、こちらメニューです。",
+     "en": "Here is the menu.",
+     "speaker": "Waiter"
+    },
+    {
+     "start": 62.9,
+     "end": 64.4,
+     "ja": "じゃあ、おねがいします。",
+     "en": "Thank you very much.",
+     "speaker": "Gem"
+    }
+   ]
+  },
+  {
+   "start": 128.0,
+   "end": 145.0,
+   "title": "Asking About Sweet Foods",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜がありますか — is there / do you have?",
+    "〜とか — and ... etc."
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 128.2,
+     "end": 129.8,
+     "ja": "はい。しつもんがあります。",
+     "en": "Yes. I have a question.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 130.6,
+     "end": 133.0,
+     "ja": "甘い食べ物がありますか？",
+     "en": "Do you have any sweet foods?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 133.3,
+     "end": 136.9,
+     "ja": "はい、あります。ケーキとか、プリン。",
+     "en": "Yes, we do. Like cakes and puddings.",
+     "speaker": "Waiter"
+    },
+    {
+     "start": 137.3,
+     "end": 138.4,
+     "ja": "プリン。",
+     "en": "Pudding.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 138.8,
+     "end": 141.5,
+     "ja": "ジュース。はい。",
+     "en": "Juice. Yes.",
+     "speaker": "Waiter"
+    },
+    {
+     "start": 142.0,
+     "end": 143.2,
+     "ja": "はい、ありがとう。",
+     "en": "Okay, thank you.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 143.5,
+     "end": 144.8,
+     "ja": "じゃあ、何にする？",
+     "en": "So, what will you have?",
+     "speaker": "Gem"
+    }
+   ]
+  }
+ ],
+ "videoId": "wT8jtMMCnuw",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

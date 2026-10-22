@@ -1,0 +1,194 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 2.051,
+   "end": 25.5,
+   "title": "Two Main Types of Laughter",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "culture"
+   ],
+   "grammar": [
+    "〜ていうのは — defining a term",
+    "〜なら — conditional 'if'"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2.051,
+     "end": 5.2,
+     "ja": "笑いには大きく２通りあるんですよ。",
+     "en": "There are broadly two types of humor.",
+     "speaker": "Mitsuyoshi"
+    },
+    {
+     "start": 5.5,
+     "end": 7.5,
+     "ja": "さあこちら、ポン！",
+     "en": "Here they are, boom!",
+     "speaker": "Mitsuyoshi"
+    },
+    {
+     "start": 7.8,
+     "end": 11.0,
+     "ja": "初めて見た体で「おおー」なり言うてくださいね。",
+     "en": "Pretend you're seeing it for the first time and say 'ooh'.",
+     "speaker": "Mitsuyoshi"
+    },
+    {
+     "start": 12.5,
+     "end": 16.4,
+     "ja": "あの「共感と意外性」、もう見てるもんね。",
+     "en": "'Empathy and unpredictability'—though you've already seen it, right?",
+     "speaker": "Mitsuyoshi"
+    },
+    {
+     "start": 16.8,
+     "end": 19.5,
+     "ja": "あの共感っていうのは、あるあるネタ。",
+     "en": "Now, empathy means relatable humor.",
+     "speaker": "Mitsuyoshi"
+    },
+    {
+     "start": 19.7,
+     "end": 22.3,
+     "ja": "まあ日本の方なら分かると思うんすけど、あるあるネタ。",
+     "en": "I think Japanese people will know, relatable observational jokes.",
+     "speaker": "Mitsuyoshi"
+    }
+   ]
+  },
+  {
+   "start": 717.3,
+   "end": 735.0,
+   "title": "Turning Insecurities into Humor",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "friends"
+   ],
+   "grammar": [
+    "〜すぎる — too much / overdoing",
+    "〜だけマシ — at least it's better that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 717.3,
+     "end": 721.8,
+     "ja": "その会議中に女の子が、前髪切りすぎて「失敗したー」言うたんです。",
+     "en": "During that meeting, a girl said, 'I cut my bangs too short and messed up!'",
+     "speaker": "Mitsuyoshi"
+    },
+    {
+     "start": 722.0,
+     "end": 725.3,
+     "ja": "その江藤くんは、ハゲてますよ、その江藤くんは",
+     "en": "Now Eto-kun—he is bald, remember—Eto-kun said,",
+     "speaker": "Mitsuyoshi"
+    },
+    {
+     "start": 725.5,
+     "end": 727.4,
+     "ja": "「それがどないしてん」と。",
+     "en": "'So what of it?'",
+     "speaker": "Mitsuyoshi"
+    },
+    {
+     "start": 727.6,
+     "end": 730.3,
+     "ja": "「俺、15年前髪見てない」と。",
+     "en": "'I haven't seen bangs for 15 years.'",
+     "speaker": "Mitsuyoshi"
+    },
+    {
+     "start": 731.0,
+     "end": 734.5,
+     "ja": "「触れるだけマシやないか」って言うたんですよ。",
+     "en": "'At least you have something you can touch,' he said.",
+     "speaker": "Mitsuyoshi"
+    }
+   ]
+  },
+  {
+   "start": 1022.5,
+   "end": 1041.5,
+   "title": "All Hardships Are Setups for Laughter",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜において — in / regarding",
+    "〜に向き合う — to face / confront"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1022.5,
+     "end": 1024.4,
+     "ja": "人生においては笑いのフリ、",
+     "en": "In life, they're setups for laughter;",
+     "speaker": "Mitsuyoshi"
+    },
+    {
+     "start": 1024.5,
+     "end": 1027.0,
+     "ja": "全部嫌なこと笑いのフリ！",
+     "en": "all unpleasant things are setups for laughs!",
+     "speaker": "Mitsuyoshi"
+    },
+    {
+     "start": 1027.1,
+     "end": 1030.4,
+     "ja": "そう考えると、笑いで全部回収できるんですよ。",
+     "en": "If you think of it that way, you can redeem everything with laughter.",
+     "speaker": "Mitsuyoshi"
+    },
+    {
+     "start": 1030.8,
+     "end": 1032.8,
+     "ja": "全部回収できるんです。",
+     "en": "You can pay it all off.",
+     "speaker": "Mitsuyoshi"
+    },
+    {
+     "start": 1033.2,
+     "end": 1034.8,
+     "ja": "皆さんも一緒です。",
+     "en": "It's the same for all of you.",
+     "speaker": "Mitsuyoshi"
+    },
+    {
+     "start": 1035.3,
+     "end": 1037.9,
+     "ja": "だから今日からコンプレックスに向き合って、",
+     "en": "So starting today, face your insecurities",
+     "speaker": "Mitsuyoshi"
+    },
+    {
+     "start": 1038.1,
+     "end": 1040.2,
+     "ja": "素晴らしい人生に変えてください。",
+     "en": "and turn them into a wonderful life.",
+     "speaker": "Mitsuyoshi"
+    },
+    {
+     "start": 1040.4,
+     "end": 1041.4,
+     "ja": "ありがとうございました。",
+     "en": "Thank you very much.",
+     "speaker": "Mitsuyoshi"
+    }
+   ]
+  }
+ ],
+ "videoId": "6yRBSjcWUME",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

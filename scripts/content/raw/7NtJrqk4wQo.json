@@ -1,0 +1,194 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 206.5,
+   "end": 226.5,
+   "title": "Never Had the Flu in 23 Years",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜たことがある — have experienced",
+    "〜しか — only (with negative)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 206.5,
+     "end": 210.0,
+     "ja": "それでは早速、あなたのプチ自慢を教えてください！",
+     "en": "Without further ado, please tell us your humble brag!",
+     "speaker": "Minami"
+    },
+    {
+     "start": 210.1,
+     "end": 213.0,
+     "ja": "インフルエンザにかかったことがありません！",
+     "en": "I've never caught influenza!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 213.2,
+     "end": 216.5,
+     "ja": "すごい！え、ワクチンとかは打ってますか？",
+     "en": "Amazing! Do you get the vaccines and all?",
+     "speaker": "Minami"
+    },
+    {
+     "start": 216.7,
+     "end": 219.1,
+     "ja": "うーん、３回ぐらいしか…はい。",
+     "en": "Um, only about three times. Yeah.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 219.2,
+     "end": 221.2,
+     "ja": "え、すごっ。今おいくつですか？",
+     "en": "Whoa, that's incredible! How old are you now?",
+     "speaker": "Minami"
+    },
+    {
+     "start": 221.3,
+     "end": 222.8,
+     "ja": "今、２３歳です。",
+     "en": "I'm 23 right now.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 223.0,
+     "end": 226.0,
+     "ja": "２３年間インフルにかかったことがない！？",
+     "en": "You haven't gotten the flu in 23 years!?",
+     "speaker": "Minami"
+    }
+   ]
+  },
+  {
+   "start": 245.2,
+   "end": 259.0,
+   "title": "Bleaching Hair Six Times",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜ちゃう — end up doing",
+    "〜もんね — you know / because"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 245.2,
+     "end": 247.4,
+     "ja": "あなたのプチ自慢を教えてください！",
+     "en": "Please tell us your humble brag!",
+     "speaker": "Minami"
+    },
+    {
+     "start": 247.6,
+     "end": 250.0,
+     "ja": "髪の毛を６回ブリーチしました。",
+     "en": "I bleached my hair six times.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 250.2,
+     "end": 252.7,
+     "ja": "すごい！めちゃめちゃピンクですもんね。",
+     "en": "Amazing! It really is super pink.",
+     "speaker": "Minami"
+    },
+    {
+     "start": 252.9,
+     "end": 257.0,
+     "ja": "これピンクシャンプーでピンクになっちゃって、本当は茶色だったんですよ。",
+     "en": "This turned pink from pink shampoo; it was actually brown originally.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 257.2,
+     "end": 258.6,
+     "ja": "え、そうなんだ！",
+     "en": "Oh, really!",
+     "speaker": "Minami"
+    }
+   ]
+  },
+  {
+   "start": 308.8,
+   "end": 332.2,
+   "title": "Knowing Kabukicho Better Than Police",
+   "level": "N3",
+   "topics": [
+    "work",
+    "fun"
+   ],
+   "grammar": [
+    "〜より(も) — more than",
+    "〜どのくらい — about how long / much"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 308.8,
+     "end": 310.6,
+     "ja": "プチ自慢教えてください！",
+     "en": "Please tell me your humble brag!",
+     "speaker": "Minami"
+    },
+    {
+     "start": 310.8,
+     "end": 317.0,
+     "ja": "歌舞伎町のおまわりさんよりも、多分、お店の場所とか詳しい。",
+     "en": "I probably know shop locations better than the Kabukicho police.",
+     "speaker": "Man"
+    },
+    {
+     "start": 317.2,
+     "end": 322.0,
+     "ja": "確かに！え、ここ歌舞伎町で働いてどのくらいなんですか？",
+     "en": "True! How long have you been working here in Kabukicho?",
+     "speaker": "Minami"
+    },
+    {
+     "start": 322.3,
+     "end": 325.0,
+     "ja": "１０…１０年ちょっと。",
+     "en": "Ten... a little over ten years.",
+     "speaker": "Man"
+    },
+    {
+     "start": 325.2,
+     "end": 327.8,
+     "ja": "長い！おいくつですか、今？",
+     "en": "That's long! How old are you now?",
+     "speaker": "Minami"
+    },
+    {
+     "start": 328.0,
+     "end": 330.0,
+     "ja": "歳は内緒です。",
+     "en": "My age is a secret.",
+     "speaker": "Man"
+    },
+    {
+     "start": 330.2,
+     "end": 332.2,
+     "ja": "内緒です。永遠の２０歳かな、じゃあ。",
+     "en": "A secret. Forever 20, perhaps?",
+     "speaker": "Minami"
+    }
+   ]
+  }
+ ],
+ "videoId": "7NtJrqk4wQo",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

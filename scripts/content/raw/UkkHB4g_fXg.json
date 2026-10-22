@@ -1,0 +1,212 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 21.0,
+   "title": "Introducing the Feature and Special Guest",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜ていく — ongoing change/progression",
+    "〜でいらっしゃる — honorific to be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 3.0,
+     "ja": "ここからは特集です。今日のテーマはこちらです。",
+     "en": "Now for our special feature. Today's theme is this.",
+     "speaker": "Host"
+    },
+    {
+     "start": 3.2,
+     "end": 7.8,
+     "ja": "中間決算進捗率で探る上方修正期待銘柄です。",
+     "en": "Stocks expected to revise upward, explored via mid-term progress rates.",
+     "speaker": "Host"
+    },
+    {
+     "start": 8.5,
+     "end": 10.3,
+     "ja": "ではゲストをご紹介します。",
+     "en": "Now, let me introduce our guest.",
+     "speaker": "Host"
+    },
+    {
+     "start": 10.5,
+     "end": 15.6,
+     "ja": "三菱UFJ eスマート証券チーフストラテジストの河合達憲さんです。",
+     "en": "Tatsunori Kawai, Chief Strategist at Mitsubishi UFJ e-Smart Securities.",
+     "speaker": "Host"
+    },
+    {
+     "start": 15.8,
+     "end": 19.3,
+     "ja": "日本の株式ストラテジストの草分け的存在でいらっしゃいます。",
+     "en": "He is a pioneering figure among Japanese stock strategists.",
+     "speaker": "Host"
+    },
+    {
+     "start": 19.4,
+     "end": 20.2,
+     "ja": "よろしくお願いいたします。",
+     "en": "Thank you for joining us.",
+     "speaker": "Host"
+    },
+    {
+     "start": 20.3,
+     "end": 21.0,
+     "ja": "よろしくお願いします。",
+     "en": "Thank you.",
+     "speaker": "Kawai"
+    }
+   ]
+  },
+  {
+   "start": 153.2,
+   "end": 216.0,
+   "title": "Key Sectors to Watch in Earnings",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜に尽きる — boils down to",
+    "〜ということになる — it means that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 153.2,
+     "end": 156.0,
+     "ja": "はい、改めてその注目業種、お願いいたします。",
+     "en": "Alright, could you tell us once more which industries to focus on?",
+     "speaker": "Host"
+    },
+    {
+     "start": 156.5,
+     "end": 160.0,
+     "ja": "業種はやっぱりもう、半導体、あと電子部品、",
+     "en": "As for industries, it really comes down to semiconductors and electronic components,",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 160.1,
+     "end": 161.8,
+     "ja": "ここに尽きますし、",
+     "en": "and also,",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 162.1,
+     "end": 165.2,
+     "ja": "あとは、年初からずっと、",
+     "en": "from the beginning of the year,",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 165.3,
+     "end": 170.6,
+     "ja": "セクターとしては高パフォーマンスをナンバーワンずっと維持してる非鉄金属ですね。",
+     "en": "non-ferrous metals, which have maintained the number one top performance among sectors.",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 170.8,
+     "end": 173.7,
+     "ja": "非鉄金属の中身は電線株ということになりますけれども、",
+     "en": "Non-ferrous metals in this context mainly refers to cable stocks,",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 173.8,
+     "end": 175.4,
+     "ja": "その2つがポイントになります。",
+     "en": "and those two will be the key points.",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 175.5,
+     "end": 176.0,
+     "ja": "うん。",
+     "en": "I see.",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 224.2,
+   "end": 250.2,
+   "title": "How Progress Rates Work",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜に対して — towards / against",
+    "〜ていく — continuing on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 224.3,
+     "end": 226.0,
+     "ja": "何の進捗率でしょう？",
+     "en": "What kind of progress rate is this?",
+     "speaker": "Host"
+    },
+    {
+     "start": 226.3,
+     "end": 230.0,
+     "ja": "この進捗率にやっぱり注目していくと、",
+     "en": "If we look closely at this progress rate,",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 230.1,
+     "end": 233.4,
+     "ja": "この4〜6月の3か月間で、",
+     "en": "it shows, during the three-month period from April to June,",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 233.6,
+     "end": 236.4,
+     "ja": "年間の通期利益に対して、",
+     "en": "relative to the full-year projected profit,",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 236.6,
+     "end": 240.4,
+     "ja": "何パーセントぐらいできましたかっていうのが進捗率なんですけれども、",
+     "en": "what percentage was achieved. That is the progress rate.",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 240.8,
+     "end": 245.9,
+     "ja": "単純に、四半期ですから25、25積み上げていく感じなんで、",
+     "en": "Simply put, since these are quarters, you build up 25% by 25%,",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 246.3,
+     "end": 250.1,
+     "ja": "第1四半期は25、中間期は50%ということになります。",
+     "en": "so the first quarter is 25%, and the interim period would be 50%.",
+     "speaker": "Kawai"
+    }
+   ]
+  }
+ ],
+ "videoId": "UkkHB4g_fXg",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

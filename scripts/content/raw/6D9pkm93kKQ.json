@@ -1,0 +1,93 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 91.8,
+   "end": 99.0,
+   "title": "Serving Sea Grapes at the Izakaya",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "お〜ください — respectful request"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 92.2,
+     "end": 93.7,
+     "ja": "こちら海ぶどうですね。",
+     "en": "Here are the sea grapes.",
+     "speaker": "Waiter"
+    },
+    {
+     "start": 93.9,
+     "end": 96.6,
+     "ja": "ポン酢がありますので、ポン酢をつけてお召し上がりください。",
+     "en": "Here is ponzu sauce, so please enjoy it with ponzu.",
+     "speaker": "Waiter"
+    },
+    {
+     "start": 96.4,
+     "end": 97.0,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Kaito"
+    },
+    {
+     "start": 97.1,
+     "end": 98.3,
+     "ja": "海ぶどう。",
+     "en": "Sea grapes.",
+     "speaker": "Kaito"
+    }
+   ]
+  },
+  {
+   "start": 274.6,
+   "end": 283.4,
+   "title": "Asking Siri Where Spam Came From",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜から — from",
+    "お〜 — honorific prefix"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 275.3,
+     "end": 277.5,
+     "ja": "Siri、スパムはどこから来ましたか？",
+     "en": "Siri, where did Spam come from?",
+     "speaker": "Zakk"
+    },
+    {
+     "start": 277.8,
+     "end": 280.0,
+     "ja": "お探しの場所は見つかりませんでした。",
+     "en": "The location you were looking for could not be found.",
+     "speaker": "Siri"
+    },
+    {
+     "start": 280.4,
+     "end": 283.0,
+     "ja": "見つかりませんでした。もうワンタイム？Siri嫌い。",
+     "en": "Could not be found. One more time? I hate Siri.",
+     "speaker": "Zakk"
+    }
+   ]
+  }
+ ],
+ "videoId": "6D9pkm93kKQ",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

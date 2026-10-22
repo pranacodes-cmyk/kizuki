@@ -1,0 +1,166 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.4,
+   "end": 35.5,
+   "title": "Autumn Festival of Karatsu",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜ていく — action continuing away",
+    "〜を動かすのは〜だ — cleft sentence emphasis"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.6,
+     "end": 13.0,
+     "ja": "家々の間を、",
+     "en": "Between the houses,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 13.4,
+     "end": 17.3,
+     "ja": "人波の上を渡っていく曳山。",
+     "en": "the festival floats pass over a sea of people.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 17.8,
+     "end": 22.0,
+     "ja": "唐津の秋を彩る祭り、唐津くんち。",
+     "en": "Coloring autumn in Karatsu, this is Karatsu Kunchi.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 23.8,
+     "end": 29.8,
+     "ja": "巨大な山を動かすのはお囃子、そしてこの掛け声です。",
+     "en": "What moves these giant floats is the festival music and these spirited shouts.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 31.1,
+     "end": 35.2,
+     "ja": "唐津の町に、今年もエンヤが響きます。",
+     "en": "Through the streets of Karatsu, the shout of 'Enya' echoes once again this year.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 135.8,
+   "end": 165.5,
+   "title": "The Origin of Karatsu Kunchi",
+   "level": "N2",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜ということですので — conveying reason based on hearsay",
+    "お〜になる / お〜いたす — respectful and humble forms"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 136.0,
+     "end": 145.0,
+     "ja": "口伝ではですね、江戸時代の寛文年間ぐらいからということですので、",
+     "en": "According to oral tradition, this festival dates back to the Kanbun era of the Edo period,",
+     "speaker": "Priest"
+    },
+    {
+     "start": 145.1,
+     "end": 150.0,
+     "ja": "350年から400年ぐらい続くお祭りになります。",
+     "en": "making it a festival that has continued for about 350 to 400 years.",
+     "speaker": "Priest"
+    },
+    {
+     "start": 150.2,
+     "end": 157.5,
+     "ja": "唐津神社のお祀りされております神様が海の神様でございますし、",
+     "en": "The deity enshrined at Karatsu Shrine is a god of the sea,",
+     "speaker": "Priest"
+    },
+    {
+     "start": 157.6,
+     "end": 164.8,
+     "ja": "その神様をお旅所の西の浜の方にお連れいたしまして、そこでお祭りをする。",
+     "en": "and once a year, we escort the deity to the ritual site at Nishinohama to hold the festival.",
+     "speaker": "Priest"
+    }
+   ]
+  },
+  {
+   "start": 685.5,
+   "end": 706.0,
+   "title": "Coming Home for Karatsu Kunchi",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "family",
+    "travel"
+   ],
+   "grammar": [
+    "〜だけは — at least / only during",
+    "〜けん — because (Kyushu dialect)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 685.7,
+     "end": 688.8,
+     "ja": "今はですね、唐津ば離れて東京に住んでるんですよ。",
+     "en": "Right now, I've left Karatsu and live in Tokyo.",
+     "speaker": "Father"
+    },
+    {
+     "start": 689.0,
+     "end": 693.5,
+     "ja": "唐津でやっぱ育ったけんですね、祭りの時だけは「くんち」に帰ってきてます。",
+     "en": "Since I grew up here in Karatsu after all, I always return for Kunchi during the festival.",
+     "speaker": "Father"
+    },
+    {
+     "start": 693.6,
+     "end": 696.8,
+     "ja": "子供たちもみんな唐津くんちが大好きなんで、はい。",
+     "en": "The kids love Karatsu Kunchi too, yes.",
+     "speaker": "Father"
+    },
+    {
+     "start": 697.0,
+     "end": 699.0,
+     "ja": "一年で一番楽しみです。",
+     "en": "It's the most exciting time of the whole year.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 699.1,
+     "end": 701.5,
+     "ja": "活気がある。太鼓の音もいい。",
+     "en": "It's so lively. The sound of the drums is great, too.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 702.0,
+     "end": 705.5,
+     "ja": "太鼓の音がドーンって刺さるけんね。カーブの音もいいよね。",
+     "en": "The drums hit you with a boom! The sound on the curves is great too, right?",
+     "speaker": "Boy"
+    }
+   ]
+  }
+ ],
+ "videoId": "06w2cffsvqY",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

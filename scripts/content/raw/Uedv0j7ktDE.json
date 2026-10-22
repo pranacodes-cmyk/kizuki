@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 14.0,
+   "end": 32.8,
+   "title": "A Relaxing Saturday Lunch",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜てみる — trying doing something",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 14.3,
+     "end": 16.0,
+     "ja": "皆さんこんにちは。",
+     "en": "Hello everyone.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 16.2,
+     "end": 20.2,
+     "ja": "今回はある土曜日の様子を撮影してみました。",
+     "en": "This time, I filmed what one of our Saturdays looks like.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 20.8,
+     "end": 24.3,
+     "ja": "午前中、たつやは仕事をしていたんですが、",
+     "en": "In the morning, Tatsuya was working, but...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 24.7,
+     "end": 28.9,
+     "ja": "午後からは予定がないので、２人でのんびり過ごします。",
+     "en": "we have no plans in the afternoon, so we'll spend it relaxing together.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 29.4,
+     "end": 32.5,
+     "ja": "お昼ご飯は質素に卵かけご飯です。",
+     "en": "Lunch is simple raw-egg-on-rice.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 121.4,
+   "end": 134.0,
+   "title": "Post-Meal Exercise Routine",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "sports"
+   ],
+   "grammar": [
+    "〜ようにしている — making a conscious effort to do",
+    "〜そうだ — it is said that / I heard that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 121.8,
+     "end": 124.1,
+     "ja": "最近は昼食後と夕食後に、",
+     "en": "Lately, after lunch and dinner,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 124.4,
+     "end": 128.4,
+     "ja": "７〜８分の軽い運動をするようにしています。",
+     "en": "we try to do 7 to 8 minutes of light exercise.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 128.8,
+     "end": 131.3,
+     "ja": "血糖値の上昇をなだらかにし、",
+     "en": "It softens the spike in blood sugar,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 131.6,
+     "end": 133.6,
+     "ja": "脂肪が溜まりにくくなるそうです。",
+     "en": "and supposedly makes it harder for fat to accumulate.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 230.2,
+   "end": 243.8,
+   "title": "Caught in an Evening Shower",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜ようと思う — intending to do",
+    "〜てしまう — expressing regret or unintended outcome"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 230.6,
+     "end": 234.2,
+     "ja": "夜ご飯はラーメンにしようと思って出てきたのですが、",
+     "en": "We went out thinking we'd get ramen for dinner, but...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 234.7,
+     "end": 237.6,
+     "ja": "お目当てのラーメン屋は閉まっているし、",
+     "en": "the ramen shop we wanted to visit was closed, and...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 237.9,
+     "end": 240.6,
+     "ja": "夕立にあってしまい帰れなくなったので、",
+     "en": "we got caught in a sudden evening shower and couldn't go home, so...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 240.9,
+     "end": 243.5,
+     "ja": "菓子パンを買って小腹を満たしました。",
+     "en": "we bought sweet bread to satisfy our hunger.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "Uedv0j7ktDE",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

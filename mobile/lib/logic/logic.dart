@@ -357,6 +357,106 @@ String wordStatus({required String status, required Card card}) {
   return 'learning';
 }
 
+// ---------------------------------------------------------------------------
+// Word levels (Kiku-style familiarity badge): 1 New → 2 Recognized → 3 Familiar →
+// 4 Almost known → 5 Known; 0 = ignored. They rise by themselves as reviews space out,
+// and the learner can pick one, which reschedules the card to match.
+// ---------------------------------------------------------------------------
+
+/// A review interval of this many days or more counts as "Almost known" (level 4).
+const almostKnownDays = 7;
+
+class WordLevelInfo {
+  final int level;
+  final String label, hint;
+  const WordLevelInfo(this.level, this.label, this.hint);
+}
+
+/// Menu order: learning levels, Known, then Ignored (mirrors WORD_LEVELS in logic.ts).
+const wordLevels = [
+  WordLevelInfo(1, 'New', 'Just saved. Reviews start now'),
+  WordLevelInfo(2, 'Recognized', 'Starting to stick'),
+  WordLevelInfo(3, 'Familiar', 'You remember it for days'),
+  WordLevelInfo(4, 'Almost known', 'You remember it for a week or more'),
+  WordLevelInfo(5, 'Known', 'No more reviews, no underline'),
+  WordLevelInfo(0, 'Ignored', 'Never underlined or reviewed'),
+];
+
+WordLevelInfo wordLevelInfo(int level) => wordLevels.firstWhere((l) => l.level == level, orElse: () => wordLevels.first);
+
+/// The level a saved word is at now.
+int wordLevel({required String status, required Card card}) {
+  if (status == 'ignored' || status == 'removed') return 0;
+  if (wordStatus(status: status, card: card) == 'known') return 5;
+  if (card.state == 'new') return 1;
+  if (card.state != 'review') return 2;
+  return card.interval >= almostKnownDays ? 4 : 3;
+}
+
+/// Reschedule a card for a learning level the learner picked: 1 = review now,
+/// 2 = in 10 minutes, 3 = in 3 days, 4 = in 10 days. Ease, reps and lapses are kept.
+Card cardAtLevel(Card c, int level, int now) {
+  switch (level) {
+    case 1:
+      return c.copyWith(state: 'new', step: 0, interval: 0, due: now);
+    case 2:
+      return c.copyWith(state: 'learning', step: 1, interval: 0, due: now + 10 * minuteMs);
+    case 3:
+      return c.copyWith(state: 'review', step: 0, interval: 3, due: now + 3 * dayMs);
+    default:
+      return c.copyWith(state: 'review', step: 0, interval: 10, due: now + 10 * dayMs);
+  }
+}
+
+/// Parts of speech worth teaching first: the welcome tour asks you to tap one of these.
+const tourWordPos = ['noun', 'verb', 'adj', 'i-adj', 'na-adj', 'adverb'];
+
+/// The word the welcome tour asks you to tap, from line [from] on: the first new content word
+/// with a dictionary entry (never a filler like ん or a particle), else the first new word,
+/// else any word. Looks at one line at a time so the target stays near what's playing.
+(int, int)? pickTourWord(List<List<({String p, String? d})>> lines, int from, bool Function(int line, int idx) isNew) {
+  for (var li = from < 0 ? 0 : from; li < lines.length; li++) {
+    (int, int)? firstNew;
+    (int, int)? any;
+    final words = lines[li];
+    for (var wi = 0; wi < words.length; wi++) {
+      final w = words[wi];
+      if (w.p == 'punct') continue;
+      any ??= (li, wi);
+      if (!isNew(li, wi)) continue;
+      if (w.d != null && tourWordPos.contains(w.p)) return (li, wi);
+      firstNew ??= (li, wi);
+    }
+    if (firstNew != null) return firstNew;
+    if (any != null) return any;
+  }
+  return null;
+}
+
+/// True when an in-clip meaning only repeats the dictionary's first sense ("every day" vs
+/// "every day; daily"), so a card shows the meaning once. Empty meanings count as repeats.
+bool repeatsSense(String gloss, String? sense) {
+  String norm(String x) => x
+      .toLowerCase()
+      .replaceAll(RegExp(r'\([^)]*\)'), ' ')
+      .replaceAll(RegExp(r"[^a-z0-9' ]+"), ' ')
+      .replaceAll(RegExp(r'\s+'), ' ')
+      .trim();
+  final g = norm(gloss);
+  if (g.isEmpty) return true;
+  if (sense == null) return false;
+  return norm(sense) == g || sense.split(RegExp(r'[;,]')).any((p) => norm(p) == g);
+}
+
+/// Status + card after the learner picks a level. Picking the level a learning word is
+/// already at keeps its schedule.
+({String status, Card card}) withWordLevel(String status, Card card, int level, int now) {
+  if (level <= 0) return (status: 'ignored', card: card);
+  if (level >= 5) return (status: 'known', card: card);
+  if (status == 'learning' && wordLevel(status: status, card: card) == level) return (status: 'learning', card: card);
+  return (status: 'learning', card: cardAtLevel(card, level, now));
+}
+
 /// In-session queue: a card leaves only once it graduates or passes review.
 class ReviewSession {
   final List<String> queue;
@@ -704,7 +804,8 @@ int _n(dynamic v) => (v as num? ?? 0).toInt();
 
 /// Merge two saved learner states. Per-word newest wins, activity/seen/totals keep the
 /// max, history/achievements union; profile, settings and other single values come
-/// from whichever state changed last.
+/// from whichever state changed last. Premium never syncs: each device keeps its own,
+/// verified by its store (a cloud copy could relock a payer or revive an expired plan).
 Map<String, dynamic> mergeState(Map<String, dynamic> local, Map<String, dynamic> remote) {
   final newer = _n(remote['updatedAt']) > _n(local['updatedAt']) ? remote : local;
   Map<String, dynamic> m(dynamic v) => (v as Map? ?? {}).cast<String, dynamic>();
@@ -733,6 +834,7 @@ Map<String, dynamic> mergeState(Map<String, dynamic> local, Map<String, dynamic>
   return {
     ...newer,
     'onboarded': (local['onboarded'] == true) || (remote['onboarded'] == true),
+    'premium': local['premium'],
     'words': words,
     'kana': kana,
     'seen': seen,

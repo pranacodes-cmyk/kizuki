@@ -1,0 +1,132 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.5,
+   "end": 38.3,
+   "title": "Giyu's Letter to Urokodaki",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜という — that kind of / called",
+    "〜てくる — action oriented towards speaker",
+    "〜ている — ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.8,
+     "end": 17.0,
+     "ja": "鬼殺の剣士になりたいという少年を、そちらに向かわせました。",
+     "en": "I have sent a boy who wants to become a Demon Slayer your way.",
+     "speaker": "Giyu"
+    },
+    {
+     "start": 17.8,
+     "end": 22.3,
+     "ja": "丸腰で私に挑んでくる度胸があります。",
+     "en": "He has the guts to challenge me unarmed.",
+     "speaker": "Giyu"
+    },
+    {
+     "start": 23.0,
+     "end": 30.6,
+     "ja": "身内が鬼により殺され、生き残った妹は鬼に変貌していますが、人間を襲わないと判断いたしました。",
+     "en": "His family was killed by demons, and his surviving sister was turned into one, but I determined she won't harm humans.",
+     "speaker": "Giyu"
+    },
+    {
+     "start": 32.5,
+     "end": 38.0,
+     "ja": "この二人には、何か他とは違うものを感じます。",
+     "en": "I sense something different about these two.",
+     "speaker": "Giyu"
+    }
+   ]
+  },
+  {
+   "start": 116.0,
+   "end": 132.4,
+   "title": "Tanjiro's Determination",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "friends"
+   ],
+   "grammar": [
+    "〜たい — want to",
+    "〜ために — in order to",
+    "〜てくる — have done up until now"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 116.3,
+     "end": 120.5,
+     "ja": "鬼になった妹の禰豆子を、人間に戻したい。",
+     "en": "I want to turn my sister Nezuko, who became a demon, back into a human.",
+     "speaker": "Tanjiro"
+    },
+    {
+     "start": 121.0,
+     "end": 126.4,
+     "ja": "俺はそのために鬼殺隊に入り、鬼との戦いに命を懸けてきた。",
+     "en": "For that purpose, I joined the Demon Slayer Corps and have risked my life fighting demons.",
+     "speaker": "Tanjiro"
+    },
+    {
+     "start": 127.2,
+     "end": 132.1,
+     "ja": "もちろん、今日までやってこれたのは、俺だけの力じゃない。",
+     "en": "Of course, making it to this day wasn't through my strength alone.",
+     "speaker": "Tanjiro"
+    }
+   ]
+  },
+  {
+   "start": 353.4,
+   "end": 406.4,
+   "title": "The One Demon",
+   "level": "N4",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜命令形 — imperative command",
+    "〜られる — potential form",
+    "〜のみ — only"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 353.7,
+     "end": 356.6,
+     "ja": "炭治郎、よく聞け。",
+     "en": "Tanjiro, listen carefully.",
+     "speaker": "Urokodaki"
+    },
+    {
+     "start": 356.8,
+     "end": 401.3,
+     "ja": "人間を鬼に変えられる血を持つ鬼は、",
+     "en": "The demon who possesses the blood capable of turning humans into demons...",
+     "speaker": "Urokodaki"
+    },
+    {
+     "start": 401.5,
+     "end": 406.2,
+     "ja": "この世にただ、一体のみ。",
+     "en": "...there is only one in this world.",
+     "speaker": "Urokodaki"
+    }
+   ]
+  }
+ ],
+ "videoId": "6JnxnSq7sqU",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

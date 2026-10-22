@@ -1,0 +1,192 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.0,
+   "end": 17.4,
+   "title": "Starting an Online Meeting",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜ております — humble ongoing state",
+    "〜でしょうか — polite inquiry"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.0,
+     "end": 6.5,
+     "ja": "山崎さん、お世話になっております。あの、私の音声は届いておりますでしょうか？",
+     "en": "Mr. Yamazaki, thank you for your continued support. Can you hear my audio alright?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 6.5,
+     "end": 8.5,
+     "ja": "あ、はい、お世話になっております。",
+     "en": "Ah, yes, thank you as always.",
+     "speaker": "Yamazaki"
+    },
+    {
+     "start": 8.5,
+     "end": 10.8,
+     "ja": "あかねさんの音声、届いております。",
+     "en": "I can hear your audio clearly, Akane-san.",
+     "speaker": "Yamazaki"
+    },
+    {
+     "start": 10.8,
+     "end": 12.7,
+     "ja": "はい、今画面がつきましたね。",
+     "en": "Great, the video feed just came on.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 12.7,
+     "end": 14.8,
+     "ja": "本日はよろしくお願いいたします。",
+     "en": "Thank you for your time today.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 14.8,
+     "end": 17.4,
+     "ja": "こちらこそよろしくお願いいたします。",
+     "en": "Likewise, thank you very much.",
+     "speaker": "Yamazaki"
+    }
+   ]
+  },
+  {
+   "start": 44.2,
+   "end": 50.0,
+   "title": "Adjusting a Meeting Schedule",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜てしまう — unintentional action",
+    "〜たら — conditional if/when",
+    "〜させていただく — humble permission"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.2,
+     "end": 49.8,
+     "ja": "午後はですね、すでにちょっと先約が入ってしまっているので、",
+     "en": "As for the afternoon, I already have prior plans, so...",
+     "speaker": "Yamazaki"
+    },
+    {
+     "start": 49.8,
+     "end": 54.0,
+     "ja": "この日の午後は難しそうですね。",
+     "en": "...the afternoon of that day looks like it might be difficult.",
+     "speaker": "Yamazaki"
+    },
+    {
+     "start": 54.0,
+     "end": 56.0,
+     "ja": "そうでしたか。",
+     "en": "I see.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 56.0,
+     "end": 59.5,
+     "ja": "午前中でしたら、１０時はいかがでしょうか？",
+     "en": "If it's in the morning, how about 10:00?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 59.8,
+     "end": 64.0,
+     "ja": "はい、午前の１０時でしたら空いておりますね。",
+     "en": "Yes, I am free at 10:00 in the morning.",
+     "speaker": "Yamazaki"
+    },
+    {
+     "start": 64.2,
+     "end": 67.5,
+     "ja": "わかりました。じゃあ、その日にさせていただいてもよろしいですか？",
+     "en": "Understood. Then, would it be alright to set it for that time?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 67.5,
+     "end": 69.2,
+     "ja": "かしこまりました。",
+     "en": "Certainly.",
+     "speaker": "Yamazaki"
+    }
+   ]
+  },
+  {
+   "start": 702.3,
+   "end": 716.0,
+   "title": "Wrapping Up a Business Call",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜でよろしいでしょうか — polite confirmation",
+    "お〜いただく — respectful receiving of an action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 702.3,
+     "end": 704.8,
+     "ja": "はい、以上でよろしいでしょうか？",
+     "en": "Right, does that cover everything?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 704.8,
+     "end": 706.6,
+     "ja": "はい、大丈夫です。",
+     "en": "Yes, that's fine.",
+     "speaker": "Yamazaki"
+    },
+    {
+     "start": 706.6,
+     "end": 711.2,
+     "ja": "はい、ありがとうございます。お忙しい中お時間をいただきまして、ありがとうございました。",
+     "en": "Thank you very much. Thank you for taking time out of your busy schedule today.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 711.2,
+     "end": 712.6,
+     "ja": "ありがとうございました。",
+     "en": "Thank you very much.",
+     "speaker": "Yamazaki"
+    },
+    {
+     "start": 712.6,
+     "end": 714.2,
+     "ja": "はい、では失礼いたします。",
+     "en": "Yes, goodbye then.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 714.2,
+     "end": 716.0,
+     "ja": "はい、失礼いたします。",
+     "en": "Yes, goodbye.",
+     "speaker": "Yamazaki"
+    }
+   ]
+  }
+ ],
+ "videoId": "ntPCYQYNs7Q",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

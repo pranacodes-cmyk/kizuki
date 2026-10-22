@@ -1,0 +1,190 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.8,
+   "end": 18.6,
+   "title": "Falling Asleep with Makeup On",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ながら — doing while",
+    "〜じゃないですか — isn't it?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.8,
+     "end": 4.5,
+     "ja": "おはようございます、ひまひまです。",
+     "en": "Good morning, this is Himahima.",
+     "speaker": "Himahima"
+    },
+    {
+     "start": 5.3,
+     "end": 7.0,
+     "ja": "見ての通り…",
+     "en": "As you can see...",
+     "speaker": "Himahima"
+    },
+    {
+     "start": 7.0,
+     "end": 10.5,
+     "ja": "寝落ちしましたー！メイクしながら。",
+     "en": "I fell asleep! While still wearing makeup.",
+     "speaker": "Himahima"
+    },
+    {
+     "start": 10.5,
+     "end": 12.7,
+     "ja": "最悪じゃないですか？",
+     "en": "Isn't that the worst?",
+     "speaker": "Himahima"
+    },
+    {
+     "start": 12.8,
+     "end": 15.4,
+     "ja": "そんなことね、あんまりないのよ。",
+     "en": "Things like that don't happen often.",
+     "speaker": "Himahima"
+    },
+    {
+     "start": 15.6,
+     "end": 18.5,
+     "ja": "ま、たまに全然あるんだけどね、嘘。",
+     "en": "Well, actually it happens sometimes. Just kidding.",
+     "speaker": "Himahima"
+    }
+   ]
+  },
+  {
+   "start": 347.0,
+   "end": 367.5,
+   "title": "Reflecting on My High School Class",
+   "level": "N3",
+   "topics": [
+    "school",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜に恵まれる — to be blessed with",
+    "だからこそ — for that very reason"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 347.0,
+     "end": 349.2,
+     "ja": "でもクラスには恵まれましてね。",
+     "en": "But I was really blessed with my class.",
+     "speaker": "Himahima"
+    },
+    {
+     "start": 349.3,
+     "end": 352.5,
+     "ja": "クラスはみんな仲良くて、可愛いし。",
+     "en": "Everyone in class gets along, and they're cute.",
+     "speaker": "Himahima"
+    },
+    {
+     "start": 353.0,
+     "end": 355.2,
+     "ja": "親戚のおばちゃんみたいな。",
+     "en": "Like a relative's auntie.",
+     "speaker": "Himahima"
+    },
+    {
+     "start": 355.4,
+     "end": 358.2,
+     "ja": "本当にみんな優しくて、とにかく。",
+     "en": "Everyone is really kind, above all.",
+     "speaker": "Himahima"
+    },
+    {
+     "start": 358.4,
+     "end": 360.6,
+     "ja": "すごくいいクラスですね。",
+     "en": "It's a really great class.",
+     "speaker": "Himahima"
+    },
+    {
+     "start": 360.8,
+     "end": 362.8,
+     "ja": "先生も優しくて。",
+     "en": "The teachers are kind too.",
+     "speaker": "Himahima"
+    },
+    {
+     "start": 363.0,
+     "end": 367.2,
+     "ja": "だからこそ、まあ離れちゃうのも寂しいんですけど。",
+     "en": "Which is why having to leave them is sad.",
+     "speaker": "Himahima"
+    }
+   ]
+  },
+  {
+   "start": 740.5,
+   "end": 756.0,
+   "title": "Pajamas or Uniform First?",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜ずに — without doing",
+    "〜のまま — remaining as is",
+    "〜派 — group/preference"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 740.8,
+     "end": 744.0,
+     "ja": "みんなは制服着るのが先？それとも準備するのが先？",
+     "en": "Do you change into your uniform first? Or do you get ready first?",
+     "speaker": "Himahima"
+    },
+    {
+     "start": 744.5,
+     "end": 748.8,
+     "ja": "制服着ずに、まずパジャマのままで準備しますか？",
+     "en": "Do you get ready while still in pajamas without putting on your uniform?",
+     "speaker": "Himahima"
+    },
+    {
+     "start": 749.0,
+     "end": 751.0,
+     "ja": "私は…パジャマ派。",
+     "en": "I'm... team pajamas.",
+     "speaker": "Himahima"
+    },
+    {
+     "start": 751.5,
+     "end": 753.8,
+     "ja": "制服にさ、日焼け止めとか付いちゃうから。",
+     "en": "Because sunscreen might get on the uniform.",
+     "speaker": "Himahima"
+    },
+    {
+     "start": 754.0,
+     "end": 755.8,
+     "ja": "紺ブレザーだからですね。",
+     "en": "Since it's a navy blazer.",
+     "speaker": "Himahima"
+    }
+   ]
+  }
+ ],
+ "videoId": "m4Dt_mIck5w",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

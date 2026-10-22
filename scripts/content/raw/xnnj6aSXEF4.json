@@ -1,0 +1,9 @@
+{
+ "speech": "none",
+ "clips": [],
+ "videoId": "xnnj6aSXEF4",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

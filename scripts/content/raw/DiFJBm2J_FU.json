@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 15.0,
+   "end": 27.5,
+   "title": "Asking About Medicine",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜んですか — asking for confirmation or explanation"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 15.0,
+     "end": 16.5,
+     "ja": "すいません。",
+     "en": "Excuse me.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 16.5,
+     "end": 18.8,
+     "ja": "あの、この日本語分かりません。",
+     "en": "Um, I don't understand this Japanese.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 18.8,
+     "end": 20.8,
+     "ja": "お願いします、この薬。",
+     "en": "Could you help me with this medicine?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 20.8,
+     "end": 22.8,
+     "ja": "はい、ちょっとお貸しください。",
+     "en": "Sure, let me take a look at it.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 23.0,
+     "end": 25.8,
+     "ja": "ああ、風邪を引かれたんですか？",
+     "en": "Ah, did you catch a cold?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 26.0,
+     "end": 27.2,
+     "ja": "はい！",
+     "en": "Yes!",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 73.8,
+   "end": 87.8,
+   "title": "Understanding the Instructions",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜回 — counter for times / occurrences"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 74.0,
+     "end": 76.2,
+     "ja": "1日3回です。",
+     "en": "Three times a day.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 76.8,
+     "end": 78.2,
+     "ja": "ああ！",
+     "en": "Ah!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 78.4,
+     "end": 84.0,
+     "ja": "朝、昼、晩、ご飯を食べ、薬を飲む？",
+     "en": "Morning, noon, night: eat food, then take the medicine?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 84.1,
+     "end": 85.8,
+     "ja": "Yes, that's right!",
+     "en": "Yes, that's right!",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 85.8,
+     "end": 87.5,
+     "ja": "分かりました！",
+     "en": "I understand!",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 88.8,
+   "end": 100.5,
+   "title": "Just Speak Japanese!",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくれれば — if someone would do for me",
+    "〜のに — even though / expressing regret",
+    "〜と — conditional (if / when)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 88.8,
+     "end": 94.8,
+     "ja": "最初から日本語で話してくれれば分かったのに！",
+     "en": "If you had just spoken in Japanese from the start, I would have understood!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 95.0,
+     "end": 98.6,
+     "ja": "英語が混じると余計に分かんないわ。",
+     "en": "Mixing in English just makes it even harder to understand.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 98.8,
+     "end": 100.2,
+     "ja": "ねえ？",
+     "en": "Right?",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "DiFJBm2J_FU",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

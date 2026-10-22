@@ -1,0 +1,9 @@
+{
+ "speech": "none",
+ "clips": [],
+ "videoId": "z9GCvwhwIA8",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

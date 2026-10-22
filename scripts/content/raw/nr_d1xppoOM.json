@@ -1,0 +1,183 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.228,
+   "end": 1.515,
+   "title": "Checking the Train Route on the Map",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜たい — want to",
+    "〜ので — because / since",
+    "〜という — called / named"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.23,
+     "end": 1.27,
+     "ja": "はい、今実際にいるのがこの黄色の所、「ナナ」駅ですね。",
+     "en": "Yes, where we actually are right now is this yellow part, Nana Station.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.272,
+     "end": 1.288,
+     "ja": "「ナナ」駅にいて、",
+     "en": "We're at Nana Station,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.292,
+     "end": 1.352,
+     "ja": "向かいたい所がこちらの「サパンタクシン」、こちらになります。",
+     "en": "and the place we want to head to is this one, 'Saphan Taksin'.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.356,
+     "end": 1.408,
+     "ja": "なんで路線が変わるので、一度この「ナナ」駅からここまで行って、",
+     "en": "So because the line changes, we go from Nana Station to here first,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.412,
+     "end": 1.452,
+     "ja": "この「サイアム」駅で路線変更して、",
+     "en": "transfer lines at this Siam Station,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.464,
+     "end": 1.512,
+     "ja": "ここから下の駅の「サパンタクシン」という所まで乗ります。",
+     "en": "and ride from here down to the station called Saphan Taksin.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 3.078,
+   "end": 3.318,
+   "title": "Banknotes Accepted by the Ticket Machine",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜以外 — other than / except",
+    "可能形 — potential form (入れられない)",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.08,
+     "end": 3.135,
+     "ja": "そうするとここに、まあ値段ですね。４４バーツ。",
+     "en": "Then here is, well, the price: 44 baht.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 3.138,
+     "end": 3.175,
+     "ja": "で、何人分かっていうのと、合計金額が表示される。",
+     "en": "And the number of people and total amount are displayed.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 3.18,
+     "end": 3.23,
+     "ja": "で、この下にあるのが、この現金が入れられますよっていうものです。",
+     "en": "And what's below this shows what kinds of cash can be inserted.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 3.233,
+     "end": 3.285,
+     "ja": "なんで変な話、お札だと１００バーツ、５０バーツ、２０バーツ以外は入れられないです。",
+     "en": "So oddly enough, for bills, you can only insert 100, 50, or 20 baht.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 3.298,
+     "end": 3.315,
+     "ja": "そこは気をつけてください。",
+     "en": "Please be careful about that.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 7.582,
+   "end": 8.218,
+   "title": "Why the BTS Beats Bangkok Traffic",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜ずに済む — avoid having to",
+    "〜ても — even if / even though",
+    "あまりに(も) — too / excessively"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 7.585,
+     "end": 8.035,
+     "ja": "タイはBTSが地上じゃなくて上空を走ってるので、",
+     "en": "In Thailand, the BTS runs above ground rather than at street level, so",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 8.04,
+     "end": 8.085,
+     "ja": "その分、車の交通がいちいち止まらずに済むので、",
+     "en": "traffic doesn't constantly have to stop for it,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 8.088,
+     "end": 8.11,
+     "ja": "だいぶそこはいいかなと思うんですけど、",
+     "en": "so I think that's quite nice, but",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 8.112,
+     "end": 8.16,
+     "ja": "そういう対策をしてても、車の交通量があまりにも多いから、",
+     "en": "even with measures like that, the traffic volume is so heavy that",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 8.163,
+     "end": 8.195,
+     "ja": "結構夕方あたりは車が乗れない。",
+     "en": "around the evening you really can't get anywhere by car.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 8.198,
+     "end": 8.215,
+     "ja": "渋滞するから。",
+     "en": "Because of traffic jams.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "nr_d1xppoOM",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

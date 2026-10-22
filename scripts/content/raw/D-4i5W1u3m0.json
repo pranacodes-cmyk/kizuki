@@ -1,0 +1,137 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 141.9,
+   "end": 156.4,
+   "title": "The First Habit: Making the Bed",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜によって — by means of / depending on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 142.2,
+     "end": 145.4,
+     "ja": "第1の習慣が主体的であるです。",
+     "en": "The first habit is being proactive.",
+     "speaker": "Host"
+    },
+    {
+     "start": 145.7,
+     "end": 148.0,
+     "ja": "具体的にはベッドメイキングとアファメーションを行います。",
+     "en": "Specifically, this involves making the bed and doing affirmations.",
+     "speaker": "Host"
+    },
+    {
+     "start": 148.3,
+     "end": 151.7,
+     "ja": "まずはカーテンを開けてベッドメイキングから始めます。",
+     "en": "First, I open the curtains and start by making the bed.",
+     "speaker": "Host"
+    },
+    {
+     "start": 151.9,
+     "end": 155.9,
+     "ja": "まあせいぜい15秒ぐらいしかかからないんですけど。",
+     "en": "Well, it only takes about 15 seconds at most, though.",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 319.5,
+   "end": 331.6,
+   "title": "Benefits of Drinking Plain Hot Water",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜ことによって — by doing",
+    "〜ながら — while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 319.8,
+     "end": 322.2,
+     "ja": "まず温かい白湯を準備しましょう。",
+     "en": "First, let's prepare some warm plain hot water.",
+     "speaker": "Host"
+    },
+    {
+     "start": 322.5,
+     "end": 326.1,
+     "ja": "内臓がゆっくりと目覚め、消化機能が活性化されます。",
+     "en": "Internal organs gently wake up, and digestive function is activated.",
+     "speaker": "Host"
+    },
+    {
+     "start": 326.4,
+     "end": 331.1,
+     "ja": "白湯を飲むことでダイエットにも役立つ基礎代謝の向上、",
+     "en": "Drinking hot water helps with dieting by boosting basal metabolism,",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 827.7,
+   "end": 841.4,
+   "title": "No Excuses for Morning Study",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜から — because",
+    "〜ましょう — let's"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 828.0,
+     "end": 830.8,
+     "ja": "朝時間がないから自己研鑽できない？",
+     "en": "\"You don't have time in the morning, so you can't improve yourself?\"",
+     "speaker": "Host"
+    },
+    {
+     "start": 830.9,
+     "end": 833.0,
+     "ja": "いやいやいやいや、それは言い訳です。",
+     "en": "No, no, no, that's just an excuse.",
+     "speaker": "Host"
+    },
+    {
+     "start": 833.3,
+     "end": 836.4,
+     "ja": "なので、皆さん、しっかり朝の時間を作りましょう。",
+     "en": "So everyone, let's make sure to create that morning time.",
+     "speaker": "Host"
+    },
+    {
+     "start": 836.7,
+     "end": 840.9,
+     "ja": "お子さんがいて結構忙しい方もいると思うんですけど。",
+     "en": "I think there are people who are quite busy with kids, though.",
+     "speaker": "Host"
+    }
+   ]
+  }
+ ],
+ "videoId": "D-4i5W1u3m0",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

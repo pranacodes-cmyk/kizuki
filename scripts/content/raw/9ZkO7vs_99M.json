@@ -1,0 +1,222 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.5,
+   "end": 22.5,
+   "title": "Asking How to Buy a Train Ticket",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜たい — want to do",
+    "どうやって〜 — how to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.8,
+     "end": 11.5,
+     "ja": "はい！そうです！",
+     "en": "Yes! That's me!",
+     "speaker": "Man"
+    },
+    {
+     "start": 11.5,
+     "end": 13.8,
+     "ja": "今僕、お茶ノ水に行きたいんですけど、",
+     "en": "Right now I want to go to Ochanomizu,",
+     "speaker": "Man"
+    },
+    {
+     "start": 13.8,
+     "end": 15.5,
+     "ja": "どうやって切符買うんですか？",
+     "en": "how do I buy a ticket?",
+     "speaker": "Man"
+    },
+    {
+     "start": 15.6,
+     "end": 17.0,
+     "ja": "中央線ですね。",
+     "en": "It's the Chuo Line.",
+     "speaker": "Passerby"
+    },
+    {
+     "start": 17.0,
+     "end": 18.5,
+     "ja": "中央線！？むずいっすね。",
+     "en": "The Chuo Line!? That sounds hard.",
+     "speaker": "Man"
+    },
+    {
+     "start": 18.8,
+     "end": 20.2,
+     "ja": "いや、大丈夫です。",
+     "en": "No, you'll be fine.",
+     "speaker": "Passerby"
+    },
+    {
+     "start": 20.2,
+     "end": 21.0,
+     "ja": "本当に？",
+     "en": "Really?",
+     "speaker": "Man"
+    },
+    {
+     "start": 21.0,
+     "end": 22.3,
+     "ja": "え、どうやって買うんですか？これ。",
+     "en": "Um, how do I buy it here?",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 153.5,
+   "end": 163.5,
+   "title": "Asking the Station Staff for Help",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜って — topic marker (casual)",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 153.8,
+     "end": 156.0,
+     "ja": "お茶ノ水ってどうやって行くんですか？",
+     "en": "How do I get to Ochanomizu?",
+     "speaker": "Man"
+    },
+    {
+     "start": 156.0,
+     "end": 157.4,
+     "ja": "左側の8番線。",
+     "en": "Platform 8 on the left.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 157.4,
+     "end": 159.8,
+     "ja": "8番線。分かりました。何分ぐらいで着くんですか？",
+     "en": "Platform 8. Got it. How many minutes does it take?",
+     "speaker": "Man"
+    },
+    {
+     "start": 160.0,
+     "end": 161.7,
+     "ja": "2駅なので、7〜8分。",
+     "en": "It's two stops, so 7 to 8 minutes.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 161.7,
+     "end": 163.2,
+     "ja": "分かりました。",
+     "en": "Understood.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 221.8,
+   "end": 239.0,
+   "title": "Fare Adjustment at the Gate",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜てない — ongoing state (not yet)",
+    "〜からだと — if from"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 221.9,
+     "end": 223.5,
+     "ja": "すみません、なんか出れないです。",
+     "en": "Excuse me, I can't seem to get out.",
+     "speaker": "Man"
+    },
+    {
+     "start": 223.5,
+     "end": 225.5,
+     "ja": "あ、これ料金足りてないです。",
+     "en": "Ah, the fare isn't enough on this.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 225.5,
+     "end": 226.5,
+     "ja": "あ、そうですか。",
+     "en": "Oh, is that so?",
+     "speaker": "Man"
+    },
+    {
+     "start": 228.4,
+     "end": 230.8,
+     "ja": "渋谷からだと170円なんで、あと30円。",
+     "en": "From Shibuya it's 170 yen, so 30 yen more.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 230.8,
+     "end": 231.8,
+     "ja": "30円？",
+     "en": "30 yen?",
+     "speaker": "Man"
+    },
+    {
+     "start": 231.8,
+     "end": 232.5,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 232.5,
+     "end": 234.2,
+     "ja": "すみません、無知で。",
+     "en": "Sorry, I'm clueless about this.",
+     "speaker": "Man"
+    },
+    {
+     "start": 234.3,
+     "end": 235.8,
+     "ja": "30円…あった、ちょうど。",
+     "en": "30 yen... I have the exact amount.",
+     "speaker": "Man"
+    },
+    {
+     "start": 236.4,
+     "end": 237.6,
+     "ja": "じゃ、このままどうぞ。",
+     "en": "All right, go right ahead.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 237.6,
+     "end": 239.0,
+     "ja": "出ていいんですか？ありがとうございます！",
+     "en": "I can just go through? Thank you!",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "9ZkO7vs_99M",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

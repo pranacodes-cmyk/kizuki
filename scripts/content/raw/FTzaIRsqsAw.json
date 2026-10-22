@@ -1,0 +1,202 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.3,
+   "end": 13.8,
+   "title": "Day Before the Math Exam",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜ようと思う — expressing intention",
+    "〜なくちゃいけない — must / have to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.4,
+     "end": 1.8,
+     "ja": "どうも、パーカーです。",
+     "en": "Hello, I'm Parker.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 1.8,
+     "end": 3.9,
+     "ja": "今ちょっと大事な資料なくしてるんですけれども",
+     "en": "Right now I've lost some important materials, but...",
+     "speaker": "Parker"
+    },
+    {
+     "start": 4.0,
+     "end": 6.4,
+     "ja": "今日はテスト前日の過ごし方をお送りしようと思います。",
+     "en": "Today I'd like to share how I spend the day before an exam.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 6.5,
+     "end": 8.2,
+     "ja": "明日 数学のテストがあるから",
+     "en": "I have a math test tomorrow,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 8.2,
+     "end": 10.8,
+     "ja": "それの勉強をしようかなというふうに思ってるんですけど",
+     "en": "so I'm thinking of studying for it,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 10.9,
+     "end": 13.7,
+     "ja": "それで今から学校行く前に 一応 洗濯とかしなくちゃいけないから",
+     "en": "and before going to school now, I have to do some laundry and stuff.",
+     "speaker": "Parker"
+    }
+   ]
+  },
+  {
+   "start": 133.8,
+   "end": 149.2,
+   "title": "Looking for Books at the Library",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくる — arrive / come to",
+    "〜だけじゃ〜ない — not possible with just...",
+    "〜ようと思う — expressing intention"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 134.0,
+     "end": 136.0,
+     "ja": "まずね、図書館にやってきました。",
+     "en": "First off, I've arrived at the library.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 136.1,
+     "end": 138.2,
+     "ja": "僕 一応 授業のね、ちゃんと板書はしてるんですけれども",
+     "en": "I do take proper notes on the board in class, but...",
+     "speaker": "Parker"
+    },
+    {
+     "start": 138.3,
+     "end": 141.2,
+     "ja": "むずすぎてね、やっぱ板書だけじゃどうにもならないということで",
+     "en": "it's so hard that just notes won't cut it, so...",
+     "speaker": "Parker"
+    },
+    {
+     "start": 141.3,
+     "end": 144.0,
+     "ja": "参考書籍をね、探しに図書館へやってきました。",
+     "en": "I came to the library to look for reference books.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 144.1,
+     "end": 146.5,
+     "ja": "もうここにね、有名なね ちょっと本があるんで",
+     "en": "There's a famous book here, so...",
+     "speaker": "Parker"
+    },
+    {
+     "start": 146.5,
+     "end": 149.0,
+     "ja": "まあそれをね、使って勉強しようかなというふうに思ってるんですけれども",
+     "en": "I'm thinking of studying using that, though.",
+     "speaker": "Parker"
+    }
+   ]
+  },
+  {
+   "start": 320.5,
+   "end": 336.6,
+   "title": "Making Pork Kimchi Yakisoba",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜つったら — speaking of / when it comes to",
+    "〜てみる — try doing something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 320.6,
+     "end": 321.8,
+     "ja": "で、まあご飯つったらね",
+     "en": "And well, speaking of dinner,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 321.8,
+     "end": 324.0,
+     "ja": "僕 さっきのね、豚キムチがまだ残ってるんですよ。",
+     "en": "I still have the pork kimchi from earlier.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 324.1,
+     "end": 326.5,
+     "ja": "ただね、これもう１回 豚キムチそのまま食べるっていうのは",
+     "en": "However, eating that same pork kimchi again as is...",
+     "speaker": "Parker"
+    },
+    {
+     "start": 326.6,
+     "end": 327.8,
+     "ja": "ちょっとね、僕もさすがに",
+     "en": "Even for me, honestly,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 327.8,
+     "end": 329.8,
+     "ja": "３回連続同じご飯を食べるっていうのは",
+     "en": "eating the exact same meal three times in a row...",
+     "speaker": "Parker"
+    },
+    {
+     "start": 329.8,
+     "end": 331.1,
+     "ja": "ちょっと味が、あれですから。",
+     "en": "The taste gets a bit tired.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 331.2,
+     "end": 333.0,
+     "ja": "今回 こういうふうに焼きそばでね",
+     "en": "This time, using these noodles,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 333.0,
+     "end": 336.4,
+     "ja": "豚キムチ焼きそば、なんかそういうのを作ってみようというふうに思います。",
+     "en": "I think I'll try making pork kimchi yakisoba or something like that.",
+     "speaker": "Parker"
+    }
+   ]
+  }
+ ],
+ "videoId": "FTzaIRsqsAw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

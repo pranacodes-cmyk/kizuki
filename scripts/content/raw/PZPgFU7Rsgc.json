@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 167.2,
+   "end": 177.3,
+   "title": "Pitcher Azuma on the Upcoming Series",
+   "level": "N3",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜ように — in order to / so that",
+    "〜たいと思う — think of wanting to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 167.3,
+     "end": 170.3,
+     "ja": "DeNAベイスターズの東克樹です。",
+     "en": "I'm Katsuki Azuma of the DeNA BayStars.",
+     "speaker": "東 克樹"
+    },
+    {
+     "start": 170.5,
+     "end": 174.0,
+     "ja": "２４年の様な集中した短期決戦の戦いができるよう",
+     "en": "So that we can wage a focused short-series battle like in '24,",
+     "speaker": "東 克樹"
+    },
+    {
+     "start": 174.0,
+     "end": 175.5,
+     "ja": "頑張りたいと思います。",
+     "en": "I want to do my best.",
+     "speaker": "東 克樹"
+    },
+    {
+     "start": 175.6,
+     "end": 177.0,
+     "ja": "よろしくお願いします。",
+     "en": "Thank you very much.",
+     "speaker": "東 克樹"
+    }
+   ]
+  },
+  {
+   "start": 187.5,
+   "end": 202.0,
+   "title": "Giants Infielder Yoshikawa's Determination",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "work"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜ていく — to go on doing",
+    "〜たいと思う — to want to / plan to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 187.7,
+     "end": 190.5,
+     "ja": "読売ジャイアンツの吉川です。",
+     "en": "I'm Yoshikawa from the Yomiuri Giants.",
+     "speaker": "吉川 尚輝"
+    },
+    {
+     "start": 190.8,
+     "end": 193.8,
+     "ja": "そうですね、短期決戦になる…なるので、",
+     "en": "Well, since it will be a short series,",
+     "speaker": "吉川 尚輝"
+    },
+    {
+     "start": 194.0,
+     "end": 197.3,
+     "ja": "本当泥臭く、目の前の試合を、",
+     "en": "I want to play truly tenaciously,",
+     "speaker": "吉川 尚輝"
+    },
+    {
+     "start": 197.4,
+     "end": 200.2,
+     "ja": "必死になって戦っていきたいと思ってます。",
+     "en": "and fight desperately in each game before us.",
+     "speaker": "吉川 尚輝"
+    },
+    {
+     "start": 200.3,
+     "end": 201.7,
+     "ja": "よろしくお願いいたします。",
+     "en": "Thank you very much.",
+     "speaker": "吉川 尚輝"
+    }
+   ]
+  },
+  {
+   "start": 531.8,
+   "end": 543.5,
+   "title": "Aiming for an Upset Victory",
+   "level": "N2",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜だけ — only / just",
+    "〜ように — so that / in order to",
+    "〜となって — acting as / united as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 532.0,
+     "end": 535.0,
+     "ja": "下克上、それをやるだけです。",
+     "en": "An upset victory—that's all we have to do.",
+     "speaker": "東 克樹"
+    },
+    {
+     "start": 535.3,
+     "end": 538.7,
+     "ja": "本当に東京ドーム、阪神甲子園球場、",
+     "en": "Truly, whether at Tokyo Dome or Hanshin Koshien Stadium,",
+     "speaker": "東 克樹"
+    },
+    {
+     "start": 538.8,
+     "end": 540.8,
+     "ja": "球場の雰囲気に呑まれないように、",
+     "en": "so as not to be overwhelmed by the stadium's atmosphere,",
+     "speaker": "東 克樹"
+    },
+    {
+     "start": 541.0,
+     "end": 543.3,
+     "ja": "チーム一丸となって戦っていきたいと思います。",
+     "en": "I want us to fight united as one team.",
+     "speaker": "東 克樹"
+    }
+   ]
+  }
+ ],
+ "videoId": "PZPgFU7Rsgc",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

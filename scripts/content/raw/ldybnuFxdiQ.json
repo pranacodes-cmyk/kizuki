@@ -1,0 +1,201 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.3,
+   "end": 36.0,
+   "title": "Dreaming of Making New Toys",
+   "level": "N4",
+   "topics": [
+    "work",
+    "fun"
+   ],
+   "grammar": [
+    "〜たい — wanting to do",
+    "〜ていた — past continuous / habitual state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 16.5,
+     "end": 18.0,
+     "ja": "こんにちは。",
+     "en": "Hello.",
+     "speaker": "Shimpei"
+    },
+    {
+     "start": 18.0,
+     "end": 20.6,
+     "ja": "私はおもちゃの開発者です。",
+     "en": "I'm a toy developer.",
+     "speaker": "Shimpei"
+    },
+    {
+     "start": 20.9,
+     "end": 24.8,
+     "ja": "見たこともない新しいおもちゃを作りたいという夢を持って、",
+     "en": "With a dream of making new toys no one had ever seen,",
+     "speaker": "Shimpei"
+    },
+    {
+     "start": 24.9,
+     "end": 27.7,
+     "ja": "９年前におもちゃ会社に入りました。",
+     "en": "I joined a toy company nine years ago.",
+     "speaker": "Shimpei"
+    },
+    {
+     "start": 28.0,
+     "end": 29.6,
+     "ja": "入社した頃は、",
+     "en": "When I first joined,",
+     "speaker": "Shimpei"
+    },
+    {
+     "start": 29.8,
+     "end": 33.4,
+     "ja": "新しいアイデアを毎日たくさん考えて、",
+     "en": "I thought of many new ideas every day",
+     "speaker": "Shimpei"
+    },
+    {
+     "start": 33.5,
+     "end": 35.8,
+     "ja": "上司に提案していました。",
+     "en": "and proposed them to my boss.",
+     "speaker": "Shimpei"
+    }
+   ]
+  },
+  {
+   "start": 94.5,
+   "end": 113.5,
+   "title": "What Is Shiritori?",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜とは — defining something",
+    "〜ていく — action continuing forward"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 94.7,
+     "end": 96.8,
+     "ja": "「しりとり」とは、",
+     "en": "Shiritori is",
+     "speaker": "Shimpei"
+    },
+    {
+     "start": 97.0,
+     "end": 100.4,
+     "ja": "「りんご」「ゴリラ」「ラッパ」というように、",
+     "en": "a game where, like 'apple', 'gorilla', 'trumpet',",
+     "speaker": "Shimpei"
+    },
+    {
+     "start": 100.5,
+     "end": 102.5,
+     "ja": "最後の文字を頭につけた言葉を",
+     "en": "you take the last letter to start the next word,",
+     "speaker": "Shimpei"
+    },
+    {
+     "start": 102.6,
+     "end": 104.0,
+     "ja": "順に言っていくゲームです。",
+     "en": "taking turns saying words one after another.",
+     "speaker": "Shimpei"
+    },
+    {
+     "start": 104.1,
+     "end": 106.0,
+     "ja": "日本語も英語も大体一緒ですね。",
+     "en": "It's basically the same in Japanese and English.",
+     "speaker": "Shimpei"
+    },
+    {
+     "start": 106.3,
+     "end": 108.5,
+     "ja": "このしりとりを自由にやっていきます。",
+     "en": "I play this shiritori freely.",
+     "speaker": "Shimpei"
+    },
+    {
+     "start": 108.6,
+     "end": 113.0,
+     "ja": "「ねこ」「コーラ」「ライブ」「ブラシ」、何とか何とか…",
+     "en": "'Cat', 'cola', 'live concert', 'brush', and so on...",
+     "speaker": "Shimpei"
+    }
+   ]
+  },
+  {
+   "start": 144.0,
+   "end": 164.0,
+   "title": "Turning a Toothbrush into a Guitar",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜ないか — wondering if one can",
+    "〜ながら — doing while"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 144.2,
+     "end": 146.2,
+     "ja": "例えば「ブラシ」。",
+     "en": "For example, 'brush'.",
+     "speaker": "Shimpei"
+    },
+    {
+     "start": 146.3,
+     "end": 149.0,
+     "ja": "歯ブラシをおもちゃにできないか。",
+     "en": "Can we turn a toothbrush into a toy?",
+     "speaker": "Shimpei"
+    },
+    {
+     "start": 149.3,
+     "end": 152.4,
+     "ja": "例えば歯ブラシとギターを合体させて、",
+     "en": "What if we combined a toothbrush and a guitar,",
+     "speaker": "Shimpei"
+    },
+    {
+     "start": 152.6,
+     "end": 156.8,
+     "ja": "ジャジャジャッと磨きながら演奏ができるおもちゃ。",
+     "en": "a toy where you can strum and play music while brushing?",
+     "speaker": "Shimpei"
+    },
+    {
+     "start": 159.0,
+     "end": 161.2,
+     "ja": "歯磨きが嫌な子供が、",
+     "en": "Might kids who hate brushing",
+     "speaker": "Shimpei"
+    },
+    {
+     "start": 161.3,
+     "end": 163.8,
+     "ja": "歯磨き好きにならないかなと。",
+     "en": "start to love it instead?",
+     "speaker": "Shimpei"
+    }
+   ]
+  }
+ ],
+ "videoId": "ldybnuFxdiQ",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

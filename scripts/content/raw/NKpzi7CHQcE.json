@@ -1,0 +1,87 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.8,
+   "end": 12.0,
+   "title": "Interviewing Foreigners in Harajuku",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜てみる — to try doing",
+    "〜ましょう — let's"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.1,
+     "end": 9.3,
+     "ja": "それでは今から、外国人の方たちにインタビューをしてみます。",
+     "en": "Well then, I'm going to interview some foreigners now.",
+     "speaker": "Nadeshiko"
+    },
+    {
+     "start": 9.6,
+     "end": 11.0,
+     "ja": "行きましょう！",
+     "en": "Let's go!",
+     "speaker": "Nadeshiko"
+    }
+   ]
+  },
+  {
+   "start": 242.0,
+   "end": 254.0,
+   "title": "Wrapping Up the Harajuku Interviews",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "いかが — polite form of how",
+    "〜ていく — to continue doing",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 242.5,
+     "end": 245.6,
+     "ja": "皆さん、いかがでしたか？今日の原宿は。",
+     "en": "Everyone, how was Harajuku today?",
+     "speaker": "Nadeshiko"
+    },
+    {
+     "start": 246.0,
+     "end": 248.8,
+     "ja": "楽しいインタビューをこれからも続けていきます。",
+     "en": "I'll keep doing these fun interviews.",
+     "speaker": "Nadeshiko"
+    },
+    {
+     "start": 248.9,
+     "end": 251.2,
+     "ja": "今日のところはこれで終わりますが、",
+     "en": "That's all for today, but...",
+     "speaker": "Nadeshiko"
+    },
+    {
+     "start": 251.4,
+     "end": 253.8,
+     "ja": "また見てくださいね！See you!",
+     "en": "Please watch again! See you!",
+     "speaker": "Nadeshiko"
+    }
+   ]
+  }
+ ],
+ "videoId": "NKpzi7CHQcE",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

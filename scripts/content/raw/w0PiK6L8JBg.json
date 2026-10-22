@@ -1,0 +1,9 @@
+{
+ "speech": "none",
+ "clips": [],
+ "videoId": "w0PiK6L8JBg",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

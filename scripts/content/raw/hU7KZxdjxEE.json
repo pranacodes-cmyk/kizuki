@@ -1,0 +1,188 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 125.68,
+   "end": 143.5,
+   "title": "Connecting to Seoul via Video Call",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "music",
+    "friends"
+   ],
+   "grammar": [
+    "〜ですね — seeking agreement/confirmation",
+    "〜になりました — became/has become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 125.9,
+     "end": 127.88,
+     "ja": "YUKIKAさ〜ん！",
+     "en": "YUKIKA-san!",
+     "speaker": "Host"
+    },
+    {
+     "start": 128.52,
+     "end": 131.24,
+     "ja": "ああ、よろしくお願いします！YUKIKAです。",
+     "en": "Ah, nice to meet you! I'm YUKIKA.",
+     "speaker": "YUKIKA"
+    },
+    {
+     "start": 131.32,
+     "end": 132.88,
+     "ja": "アニョハセヨ〜！",
+     "en": "Annyeonghaseyo!",
+     "speaker": "Host"
+    },
+    {
+     "start": 133.02,
+     "end": 134.88,
+     "ja": "韓国ですよね、本当に？",
+     "en": "You really are in Korea, right?",
+     "speaker": "Host"
+    },
+    {
+     "start": 135.22,
+     "end": 136.92,
+     "ja": "ここ、韓国です！",
+     "en": "I'm in Korea!",
+     "speaker": "YUKIKA"
+    },
+    {
+     "start": 137.08,
+     "end": 138.8,
+     "ja": "ソウルです！",
+     "en": "In Seoul!",
+     "speaker": "YUKIKA"
+    },
+    {
+     "start": 139.02,
+     "end": 141.2,
+     "ja": "いい時代になりましたね！",
+     "en": "What a great era we live in now!",
+     "speaker": "Host"
+    },
+    {
+     "start": 141.36,
+     "end": 143.26,
+     "ja": "本当です。不思議ですね。",
+     "en": "Truly. It's so amazing.",
+     "speaker": "YUKIKA"
+    }
+   ]
+  },
+  {
+   "start": 1133.6,
+   "end": 1157.6,
+   "title": "Listening to Insomnia Before Sleep",
+   "level": "N3",
+   "topics": [
+    "music",
+    "daily"
+   ],
+   "grammar": [
+    "〜たらいいな — I hope/it would be nice if",
+    "〜てほしい — want someone to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1134.34,
+     "end": 1137.6,
+     "ja": "聞いてほしいところってどんなところですか？",
+     "en": "What would you like listeners to pay attention to?",
+     "speaker": "Host"
+    },
+    {
+     "start": 1138.48,
+     "end": 1142.92,
+     "ja": "「Insomnia」っていう曲自体があんまり刺激のない曲なんです。",
+     "en": "The song 'Insomnia' itself isn't very intense.",
+     "speaker": "YUKIKA"
+    },
+    {
+     "start": 1143.52,
+     "end": 1147.16,
+     "ja": "不眠症っていう意味じゃないですか、「Insomnia」っていうのが。",
+     "en": "Because 'Insomnia' means not being able to sleep, right?",
+     "speaker": "YUKIKA"
+    },
+    {
+     "start": 1147.38,
+     "end": 1152.02,
+     "ja": "なので、眠れない夜に聞いてくださったらいいなって思います。",
+     "en": "So, I hope people listen to it on sleepless nights.",
+     "speaker": "YUKIKA"
+    },
+    {
+     "start": 1153.28,
+     "end": 1157.48,
+     "ja": "BGMみたいな感じで自分の生活に添えてほしいです。",
+     "en": "I'd like it to accompany people's lives like background music.",
+     "speaker": "YUKIKA"
+    }
+   ]
+  },
+  {
+   "start": 1315.6,
+   "end": 1326.6,
+   "title": "Advice for Going to Korea",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "music"
+   ],
+   "grammar": [
+    "〜ずに — without doing",
+    "〜ていただければ — if you could please"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1315.86,
+     "end": 1318.06,
+     "ja": "夢を忘れずに",
+     "en": "Without forgetting your dreams,",
+     "speaker": "YUKIKA"
+    },
+    {
+     "start": 1318.16,
+     "end": 1320.12,
+     "ja": "純粋な心で",
+     "en": "with a pure heart,",
+     "speaker": "YUKIKA"
+    },
+    {
+     "start": 1320.22,
+     "end": 1322.9,
+     "ja": "人間力を身につけ",
+     "en": "and building character,",
+     "speaker": "YUKIKA"
+    },
+    {
+     "start": 1322.9,
+     "end": 1324.54,
+     "ja": "お越しになっていただければと思います。",
+     "en": "if you could come over like that, that would be wonderful.",
+     "speaker": "YUKIKA"
+    },
+    {
+     "start": 1324.7,
+     "end": 1326.46,
+     "ja": "私がそんなアドバイスできることなんてありません。",
+     "en": "Though I'm not really in a position to give advice.",
+     "speaker": "YUKIKA"
+    }
+   ]
+  }
+ ],
+ "videoId": "hU7KZxdjxEE",
+ "pickTopics": [
+  "music"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

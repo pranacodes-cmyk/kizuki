@@ -1,0 +1,217 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 81.3,
+   "end": 106.5,
+   "title": "Realizing I Forgot My Wallet",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜人なの — explaining one's nature/habit",
+    "もしくは — or",
+    "〜から — because / so"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 81.3,
+     "end": 84.4,
+     "ja": "まずね、一番やばいのが、財布を忘れました。",
+     "en": "First of all, the worst thing is: I forgot my wallet.",
+     "speaker": "Ryota"
+    },
+    {
+     "start": 84.7,
+     "end": 87.3,
+     "ja": "え、どうしよう？財布忘れた。",
+     "en": "Wait, what should I do? I forgot my wallet.",
+     "speaker": "Ryota"
+    },
+    {
+     "start": 87.5,
+     "end": 91.7,
+     "ja": "普段さ、あれなのよ。普段ね、あの、現金全く使わない人なのね。",
+     "en": "Usually, you know... Normally, I'm someone who never uses cash.",
+     "speaker": "Ryota"
+    },
+    {
+     "start": 92.0,
+     "end": 95.0,
+     "ja": "現金全く使わない人で、いつもここに、",
+     "en": "I never use cash, and I always...",
+     "speaker": "Ryota"
+    },
+    {
+     "start": 95.1,
+     "end": 100.0,
+     "ja": "デビットと、あと免許証だけ入れて会計するか、",
+     "en": "just keep my debit card and driver's license here to pay, or...",
+     "speaker": "Ryota"
+    },
+    {
+     "start": 100.1,
+     "end": 103.5,
+     "ja": "もしくはPayPayとかで払うから、",
+     "en": "otherwise I pay with PayPay and stuff like that, so...",
+     "speaker": "Ryota"
+    },
+    {
+     "start": 103.6,
+     "end": 106.2,
+     "ja": "マジ財布持ち歩かないの、普段。",
+     "en": "I really don't carry a wallet around normally.",
+     "speaker": "Ryota"
+    }
+   ]
+  },
+  {
+   "start": 610.5,
+   "end": 622.3,
+   "title": "Seating Request at a Sushi Restaurant",
+   "level": "N5",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜名様 — counter for people (polite)",
+    "どちらがよろしいでしょうか — which would you prefer?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 610.7,
+     "end": 613.5,
+     "ja": "いらっしゃいませ。何名様ですか？",
+     "en": "Welcome. How many people?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 613.6,
+     "end": 614.7,
+     "ja": "1名です。",
+     "en": "Just one.",
+     "speaker": "Ryota"
+    },
+    {
+     "start": 614.8,
+     "end": 616.8,
+     "ja": "カウンター席とテーブル席、どちらがよろしいでしょうか？",
+     "en": "Counter seats or table seats, which would you prefer?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 616.9,
+     "end": 618.0,
+     "ja": "えー、カウンターで。",
+     "en": "Um, the counter, please.",
+     "speaker": "Ryota"
+    },
+    {
+     "start": 618.1,
+     "end": 619.4,
+     "ja": "カウンターで。少々お待ちください。",
+     "en": "Counter it is. Please wait just a moment.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 619.6,
+     "end": 622.0,
+     "ja": "ご案内いたします。こちらへどうぞ。",
+     "en": "I'll show you to your seat. Right this way.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 682.2,
+   "end": 703.5,
+   "title": "Choosing an Otoshi Appetizer",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜でございます — polite form of です",
+    "〜けど — but / although",
+    "一旦〜 — for now / for the time being"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 682.2,
+     "end": 684.4,
+     "ja": "こちらお通しでございます。",
+     "en": "Here are the table appetizers.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 684.5,
+     "end": 685.5,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Ryota"
+    },
+    {
+     "start": 685.6,
+     "end": 687.5,
+     "ja": "お好きなの1つ...",
+     "en": "Please choose one you like...",
+     "speaker": "Staff"
+    },
+    {
+     "start": 687.8,
+     "end": 690.0,
+     "ja": "何が人気ですか？",
+     "en": "Which one is popular?",
+     "speaker": "Ryota"
+    },
+    {
+     "start": 690.5,
+     "end": 696.5,
+     "ja": "全部人気なんですけど、まあ、うずらの燻製か、いぶりがっこか、",
+     "en": "They're all popular, but maybe the smoked quail eggs, or the iburigakko...",
+     "speaker": "Staff"
+    },
+    {
+     "start": 696.6,
+     "end": 697.4,
+     "ja": "ああー。",
+     "en": "Ah, okay.",
+     "speaker": "Ryota"
+    },
+    {
+     "start": 697.5,
+     "end": 699.0,
+     "ja": "あと燻製ものが...",
+     "en": "and the smoked items...",
+     "speaker": "Staff"
+    },
+    {
+     "start": 699.1,
+     "end": 701.0,
+     "ja": "じゃあ一旦、うずらいただきます。",
+     "en": "Then for now, I'll take the quail eggs.",
+     "speaker": "Ryota"
+    },
+    {
+     "start": 701.1,
+     "end": 703.0,
+     "ja": "はい、ありがとうございます。",
+     "en": "Sure, thank you very much.",
+     "speaker": "Staff"
+    }
+   ]
+  }
+ ],
+ "videoId": "ylE1THH0gA0",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,162 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 30.8,
+   "end": 55.0,
+   "title": "Having No Sense of Direction",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜てほしい — want someone to do",
+    "〜ても — even if",
+    "〜ちゃう — to do completely / accidentally"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 30.8,
+     "end": 36.0,
+     "ja": "これは私が新宿駅で迷った時の話です。",
+     "en": "This is a story about when I got lost in Shinjuku Station.",
+     "speaker": "Misa"
+    },
+    {
+     "start": 36.5,
+     "end": 44.5,
+     "ja": "まず最初に知っておいてほしいことは、私は方向音痴です。",
+     "en": "First of all, what I want you to know is that I have no sense of direction.",
+     "speaker": "Misa"
+    },
+    {
+     "start": 45.0,
+     "end": 47.7,
+     "ja": "地図があっても、迷います。",
+     "en": "Even when I have a map, I get lost.",
+     "speaker": "Misa"
+    },
+    {
+     "start": 48.0,
+     "end": 54.5,
+     "ja": "だから、Google マップを使っても、変なところに行っちゃったりします。",
+     "en": "So even when I use Google Maps, I end up going to strange places.",
+     "speaker": "Misa"
+    }
+   ]
+  },
+  {
+   "start": 101.0,
+   "end": 128.0,
+   "title": "Shinjuku Station Is a Maze",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜にとって — for / to",
+    "〜ても — even if / no matter how many times",
+    "〜みたい — like / resembling"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 101.2,
+     "end": 106.0,
+     "ja": "東京の新宿駅は本当に広くて、",
+     "en": "Shinjuku Station in Tokyo is really big,",
+     "speaker": "Misa"
+    },
+    {
+     "start": 106.5,
+     "end": 112.0,
+     "ja": "多分方向音痴じゃない人でも、迷っちゃう。",
+     "en": "probably even people who aren't bad with directions get lost.",
+     "speaker": "Misa"
+    },
+    {
+     "start": 112.5,
+     "end": 118.0,
+     "ja": "私にとって新宿駅は何回行っても、迷路みたい。",
+     "en": "To me, Shinjuku Station feels like a maze no matter how many times I go.",
+     "speaker": "Misa"
+    },
+    {
+     "start": 119.0,
+     "end": 124.0,
+     "ja": "東京では、東京駅が多分一番広いかな。",
+     "en": "In Tokyo, Tokyo Station is probably the biggest.",
+     "speaker": "Misa"
+    },
+    {
+     "start": 124.5,
+     "end": 127.5,
+     "ja": "で、東京駅も本当、迷路みたいだし、",
+     "en": "And Tokyo Station is really like a maze too,",
+     "speaker": "Misa"
+    }
+   ]
+  },
+  {
+   "start": 168.5,
+   "end": 190.5,
+   "title": "Asking Station Staff for Directions",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜たらいい — should / would be good to",
+    "〜のが一番いい — it is best to",
+    "〜かもしれない — might / perhaps"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 168.8,
+     "end": 170.8,
+     "ja": "駅で道に迷ったり、",
+     "en": "When you get lost at the station,",
+     "speaker": "Misa"
+    },
+    {
+     "start": 171.0,
+     "end": 174.8,
+     "ja": "どのプラットホームに行ったらいいか分からないときは、",
+     "en": "or don't know which platform to go to,",
+     "speaker": "Misa"
+    },
+    {
+     "start": 175.2,
+     "end": 179.0,
+     "ja": "駅員さんに聞くのが一番いいです。",
+     "en": "it's best to ask a station attendant.",
+     "speaker": "Misa"
+    },
+    {
+     "start": 179.8,
+     "end": 184.8,
+     "ja": "一般人、その、知らない人とかに聞いてもいいですけど、",
+     "en": "It's okay to ask regular people, like strangers, but...",
+     "speaker": "Misa"
+    },
+    {
+     "start": 185.5,
+     "end": 190.0,
+     "ja": "その人が急いでたら、答えてくれないかもしれないです。",
+     "en": "if that person is in a hurry, they might not answer.",
+     "speaker": "Misa"
+    }
+   ]
+  }
+ ],
+ "videoId": "CmMBEDsucBo",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

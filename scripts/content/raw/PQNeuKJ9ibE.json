@@ -1,0 +1,158 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.3,
+   "end": 14.8,
+   "title": "Trying New Convenience Store Products",
+   "level": "N4",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていく — to do and go on",
+    "〜たい — want to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.3,
+     "end": 2.8,
+     "ja": "皆さん、こんにちは！",
+     "en": "Hello, everyone!",
+     "speaker": "Kafu"
+    },
+    {
+     "start": 3.0,
+     "end": 5.5,
+     "ja": "ノーマルKAFUです。",
+     "en": "I'm Normal Kafu.",
+     "speaker": "Kafu"
+    },
+    {
+     "start": 5.8,
+     "end": 11.5,
+     "ja": "今日はファミマの新商品、こちらを食べていきたいと思います！",
+     "en": "Today, I'd like to try these new products from FamilyMart!",
+     "speaker": "Kafu"
+    },
+    {
+     "start": 12.0,
+     "end": 14.8,
+     "ja": "それでは、ゴー！",
+     "en": "Here we go!",
+     "speaker": "Kafu"
+    }
+   ]
+  },
+  {
+   "start": 207.2,
+   "end": 224.2,
+   "title": "Coffee French Bread Review",
+   "level": "N3",
+   "topics": [
+    "food"
+   ],
+   "grammar": [
+    "〜てしまう — unintended action",
+    "〜ので — because",
+    "〜かな — I wonder if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 207.2,
+     "end": 209.8,
+     "ja": "次はちょっとパン部門もあるんですけど、",
+     "en": "Next, we also have something from the bakery section,",
+     "speaker": "Kafu"
+    },
+    {
+     "start": 210.0,
+     "end": 212.0,
+     "ja": "これも新発売で、",
+     "en": "and this is also a new release:",
+     "speaker": "Kafu"
+    },
+    {
+     "start": 212.2,
+     "end": 215.4,
+     "ja": "コーヒーのフランスパンです。",
+     "en": "Coffee French bread.",
+     "speaker": "Kafu"
+    },
+    {
+     "start": 215.7,
+     "end": 220.4,
+     "ja": "以前にあんバターだったかな、それも美味しかったイメージがあったので、",
+     "en": "I remember the red bean butter one from before being delicious, so...",
+     "speaker": "Kafu"
+    },
+    {
+     "start": 220.5,
+     "end": 224.0,
+     "ja": "今日もやっぱり外せなくて買ってきてしまいました。",
+     "en": "I couldn't resist and ended up buying this one today too.",
+     "speaker": "Kafu"
+    }
+   ]
+  },
+  {
+   "start": 384.2,
+   "end": 398.0,
+   "title": "Sweet Potato Paris-Brest",
+   "level": "N4",
+   "topics": [
+    "food"
+   ],
+   "grammar": [
+    "〜んですよね — seeking agreement / explaining",
+    "何だか — somehow / somewhat"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 384.2,
+     "end": 386.2,
+     "ja": "はい、次はこちらです。",
+     "en": "Alright, next up is this.",
+     "speaker": "Kafu"
+    },
+    {
+     "start": 386.5,
+     "end": 388.2,
+     "ja": "すごいボリューミーなんですよね。",
+     "en": "It looks really hearty, doesn't it?",
+     "speaker": "Kafu"
+    },
+    {
+     "start": 388.4,
+     "end": 391.7,
+     "ja": "ほおばるお芋のパリブレスト。",
+     "en": "Mouthful Sweet Potato Paris-Brest.",
+     "speaker": "Kafu"
+    },
+    {
+     "start": 392.0,
+     "end": 394.8,
+     "ja": "これ何だか豪華な感じですね。",
+     "en": "This looks kind of fancy.",
+     "speaker": "Kafu"
+    },
+    {
+     "start": 395.0,
+     "end": 397.8,
+     "ja": "こんな感じです！",
+     "en": "Here's what it looks like!",
+     "speaker": "Kafu"
+    }
+   ]
+  }
+ ],
+ "videoId": "PQNeuKJ9ibE",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,121 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 18.2,
+   "end": 35.6,
+   "title": "The Hardest Job in the World",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜に比べて — compared to",
+    "〜と思う — I think that"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 18.5,
+     "end": 21.6,
+     "ja": "世の中いろんな仕事がある中ね、",
+     "en": "With all the different jobs in the world,",
+     "speaker": "Niimi"
+    },
+    {
+     "start": 21.7,
+     "end": 24.3,
+     "ja": "一番大変な仕事って僕これやっていうのがあって、",
+     "en": "I feel like there's one that is definitely the hardest,",
+     "speaker": "Niimi"
+    },
+    {
+     "start": 24.5,
+     "end": 26.6,
+     "ja": "それは爆弾処理班やと思うんですよ。",
+     "en": "and that's the bomb disposal squad.",
+     "speaker": "Niimi"
+    },
+    {
+     "start": 26.7,
+     "end": 27.6,
+     "ja": "爆弾処理班？",
+     "en": "Bomb squad?",
+     "speaker": "Ishii"
+    },
+    {
+     "start": 27.7,
+     "end": 30.7,
+     "ja": "文字通り命がけの仕事じゃないですか、本当にね。",
+     "en": "I mean, it's literally a life-and-death job, isn't it?",
+     "speaker": "Niimi"
+    },
+    {
+     "start": 31.0,
+     "end": 35.4,
+     "ja": "それに比べると芸人とかもね、大変やなとか簡単に言ってあかんなと思うんですよね。",
+     "en": "Compared to that, we comedians shouldn't easily complain that our job is tough.",
+     "speaker": "Niimi"
+    }
+   ]
+  },
+  {
+   "start": 46.8,
+   "end": 57.5,
+   "title": "The Operator's Responsibility",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜の方 — alternative choice",
+    "〜ちゃうか — isn't it? (Kansai dialect)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 47.1,
+     "end": 50.8,
+     "ja": "爆弾処理班のオペレーターとかの方がもっと難しいんちゃうかな。",
+     "en": "I think being the bomb squad's operator might be even harder.",
+     "speaker": "Ishii"
+    },
+    {
+     "start": 50.9,
+     "end": 51.7,
+     "ja": "オペレーター？",
+     "en": "The operator?",
+     "speaker": "Niimi"
+    },
+    {
+     "start": 51.8,
+     "end": 54.4,
+     "ja": "「赤切れ」「青切れ」とか指示を出す人、無線で。",
+     "en": "The person giving orders over the radio, like 'cut the red wire' or 'cut the blue wire.'",
+     "speaker": "Ishii"
+    },
+    {
+     "start": 54.4,
+     "end": 55.0,
+     "ja": "本部から？",
+     "en": "From headquarters?",
+     "speaker": "Niimi"
+    },
+    {
+     "start": 55.1,
+     "end": 57.3,
+     "ja": "そっちの方が大変なんちゃうかなと思うんですよ。",
+     "en": "I feel like that job would actually be tougher.",
+     "speaker": "Ishii"
+    }
+   ]
+  }
+ ],
+ "videoId": "W7TujuXZw00",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

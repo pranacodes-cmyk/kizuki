@@ -1,0 +1,187 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.0,
+   "end": 35.5,
+   "title": "Opening the Questioning Session",
+   "level": "N3",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜について — regarding / about",
+    "〜ていただく — to receive the favor of doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.2,
+     "end": 15.2,
+     "ja": "立憲民主党代表の水岡俊一でございます。",
+     "en": "I am Shunichi Mizuoka, representing the Constitutional Democratic Party.",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 15.3,
+     "end": 17.8,
+     "ja": "総理、どうかよろしくお願いいたします。",
+     "en": "Prime Minister, thank you for your time today.",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 18.0,
+     "end": 23.8,
+     "ja": "私からは皇室典範改正についてお伺いをいたしますが、",
+     "en": "I would like to ask about revising the Imperial Household Law,",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 24.0,
+     "end": 28.0,
+     "ja": "法案の中身を詳しくということではなくて、",
+     "en": "though not necessarily about the fine details of the bill;",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 28.2,
+     "end": 35.0,
+     "ja": "ぜひ総理のお考えの元となるところを分かりやすくお話しいただくと助かります。",
+     "en": "rather, it would be helpful if you could explain in plain terms the core foundation of your thinking.",
+     "speaker": "Mizuoka"
+    }
+   ]
+  },
+  {
+   "start": 402.0,
+   "end": 428.3,
+   "title": "Two Proposals on Imperial Succession",
+   "level": "N1",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜において — in / at / regarding",
+    "〜のもとで — under (the condition / assumption)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 402.3,
+     "end": 408.0,
+     "ja": "あの、令和3年の政府の有識者会議の報告において、",
+     "en": "Well, in the 2021 report from the government's expert panel,",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 408.2,
+     "end": 412.3,
+     "ja": "これはもう皇位継承の問題と切り離して、",
+     "en": "separate from the issue of imperial succession,",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 412.5,
+     "end": 418.6,
+     "ja": "皇族数の確保を図ることが喫緊の課題であるという認識のもとで出てきた2案が、",
+     "en": "based on the recognition that securing members of the imperial family is an urgent issue, two proposals emerged:",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 418.8,
+     "end": 421.4,
+     "ja": "女性皇族の身分保持制度であり、",
+     "en": "one is a system allowing female royals to retain their status,",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 421.5,
+     "end": 425.6,
+     "ja": "もう一つは皇族の養子制度案でございました。",
+     "en": "and the other was a proposal for an adoption system within the imperial family.",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 425.8,
+     "end": 427.8,
+     "ja": "その2案が示されました。",
+     "en": "Those two proposals were presented.",
+     "speaker": "Takaichi"
+    }
+   ]
+  },
+  {
+   "start": 595.3,
+   "end": 626.8,
+   "title": "Constitutional Debate on the Imperial Line",
+   "level": "N1",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜に限る — to limit to",
+    "〜かどうか — whether or not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 595.6,
+     "end": 602.8,
+     "ja": "総理、日本国憲法は女性天皇も女系天皇も禁止していません。",
+     "en": "Prime Minister, the Constitution of Japan prohibits neither female emperors nor matrilineal emperors.",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 603.0,
+     "end": 608.2,
+     "ja": "皇位継承を男系男子に限っているのは憲法ではなくて、",
+     "en": "What restricts succession to patrilineal males is not the Constitution,",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 608.4,
+     "end": 611.2,
+     "ja": "皇室典範第1条であります。",
+     "en": "but Article 1 of the Imperial Household Law.",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 611.5,
+     "end": 616.5,
+     "ja": "したがって、女性天皇、女系天皇を認めるかどうかは、",
+     "en": "Therefore, whether to permit female or matrilineal emperors",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 616.7,
+     "end": 620.2,
+     "ja": "憲法上初めから排除された問題ではなく、",
+     "en": "is not an issue ruled out by the Constitution from the beginning,",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 620.3,
+     "end": 624.5,
+     "ja": "国会が法律として判断できる問題であると私は考えますが、",
+     "en": "but rather an issue the Diet can decide through legislation, I believe.",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 624.7,
+     "end": 626.2,
+     "ja": "総理はいかがですか。",
+     "en": "What is your view, Prime Minister?",
+     "speaker": "Mizuoka"
+    }
+   ]
+  }
+ ],
+ "videoId": "KN7DyM20yo4",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

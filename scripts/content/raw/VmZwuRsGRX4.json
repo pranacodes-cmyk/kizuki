@@ -1,0 +1,247 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 367.6,
+   "end": 393.5,
+   "title": "Did You Find My Pencil Case?",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜たっけ — asking for confirmation",
+    "〜だけ — only / just"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 368.1,
+     "end": 372.5,
+     "ja": "あとさ そういえばさ この前筆箱 学校に忘れたじゃん？",
+     "en": "Also, by the way, remember how I left my pencil case at school the other day?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 372.6,
+     "end": 373.4,
+     "ja": "はい。",
+     "en": "Yeah.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 373.5,
+     "end": 375.2,
+     "ja": "あれ見つかった？",
+     "en": "Was it found?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 375.3,
+     "end": 376.5,
+     "ja": "見つかったよ。",
+     "en": "Yeah, it was found.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 379.0,
+     "end": 381.7,
+     "ja": "そっかそっか まあそれだけなんだけど。",
+     "en": "I see, I see. Well, that was all, but...",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 401.7,
+   "end": 427.0,
+   "ja": null,
+   "en": null,
+   "title": "Asking What He Is Eating",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜てんの — what are you doing?",
+    "〜てみて — try doing"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 402.0,
+     "end": 403.9,
+     "ja": "今何食べてんの？",
+     "en": "What are you eating right now?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 405.0,
+     "end": 406.8,
+     "ja": "ピスタチオ食べてる。",
+     "en": "I'm eating pistachios.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 407.2,
+     "end": 407.7,
+     "ja": "ん？",
+     "en": "Hm?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 408.3,
+     "end": 410.2,
+     "ja": "ピスタチオ食べてるよ。",
+     "en": "I'm eating pistachios.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 411.0,
+     "end": 412.3,
+     "ja": "もう一回言って？",
+     "en": "Say that again?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 412.8,
+     "end": 414.2,
+     "ja": "ピスタチオ。",
+     "en": "Pistachios.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 414.4,
+     "end": 415.7,
+     "ja": "ピスタチオ何？",
+     "en": "Pistachios what?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 416.0,
+     "end": 417.0,
+     "ja": "食べてる。",
+     "en": "Eating.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 417.3,
+     "end": 418.0,
+     "ja": "は？",
+     "en": "What?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 418.3,
+     "end": 420.9,
+     "ja": "あ ピスタチオ食べてるか。",
+     "en": "Ah, you're eating pistachios, I see.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 421.3,
+     "end": 424.0,
+     "ja": "ピスタチオを楽しんで。",
+     "en": "Enjoy your pistachios.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 424.3,
+     "end": 425.2,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 425.5,
+     "end": 426.5,
+     "ja": "じゃあね。",
+     "en": "See ya.",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 480.0,
+   "end": 503.2,
+   "title": "Talking About My New Pajamas",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜てて — state of being (and)",
+    "〜てみて — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 480.3,
+     "end": 483.7,
+     "ja": "みんな気づいたかわかんないけど 実はこれね パジャマなの。",
+     "en": "I don't know if anyone noticed, but this is actually pajamas.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 484.0,
+     "end": 486.2,
+     "ja": "新しく買ったパジャマ。",
+     "en": "Pajamas I newly bought.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 486.7,
+     "end": 489.1,
+     "ja": "なんかちょっと可愛くない？ これ。",
+     "en": "Aren't they kind of cute?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 489.5,
+     "end": 490.1,
+     "ja": "ほいっ。",
+     "en": "Yup.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 490.4,
+     "end": 494.6,
+     "ja": "触るとちょっとモコモコしてて あったかくて すごい気持ちいいの。",
+     "en": "When you touch it, it's a bit fluffy, warm, and feels really nice.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 495.1,
+     "end": 496.2,
+     "ja": "おすすめだよ。",
+     "en": "I recommend it.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 496.6,
+     "end": 499.7,
+     "ja": "これね 確かGUで買ったと思うから",
+     "en": "I think I bought this at GU, so...",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 499.8,
+     "end": 503.0,
+     "ja": "あったかいし 結構おすすめだよ。",
+     "en": "It's warm and I totally recommend it.",
+     "speaker": "Hitoki"
+    }
+   ]
+  }
+ ],
+ "videoId": "VmZwuRsGRX4",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,223 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 2.03,
+   "end": 2.175,
+   "title": "Naming Facial Features with Toddler",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "これ何 — what is this",
+    "〜てね — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2.034,
+     "end": 2.052,
+     "ja": "じゃ行くよ。これ何？",
+     "en": "Alright, here we go. What's this?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 2.055,
+     "end": 2.065,
+     "ja": "口。",
+     "en": "Mouth.",
+     "speaker": "Son"
+    },
+    {
+     "start": 2.066,
+     "end": 2.076,
+     "ja": "じゃあこれは？",
+     "en": "Then what's this?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 2.078,
+     "end": 2.084,
+     "ja": "鼻。",
+     "en": "Nose.",
+     "speaker": "Son"
+    },
+    {
+     "start": 2.085,
+     "end": 2.102,
+     "ja": "お鼻。じゃあこれは？",
+     "en": "Nose. Then what's this?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 2.105,
+     "end": 2.112,
+     "ja": "耳。",
+     "en": "Ear.",
+     "speaker": "Son"
+    },
+    {
+     "start": 2.113,
+     "end": 2.122,
+     "ja": "耳。",
+     "en": "Ear.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 2.124,
+     "end": 2.135,
+     "ja": "もう食べんの？",
+     "en": "Are you eating more?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 2.143,
+     "end": 2.164,
+     "ja": "えー、お昼食べてね、絶対。",
+     "en": "Aw, make sure you eat lunch later, definitely.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 2.168,
+     "end": 2.175,
+     "ja": "食べんわ。",
+     "en": "He won't eat.",
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
+   "start": 5.12,
+   "end": 5.255,
+   "title": "Quick Natto Fried Rice for Lunch",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ができる — to be ready / completed",
+    "〜たかった — wanted to do",
+    "〜だけ — only / just"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.124,
+     "end": 5.155,
+     "ja": "はい、簡単納豆チャーハンができました。",
+     "en": "Alright, the quick natto fried rice is ready.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 5.162,
+     "end": 5.195,
+     "ja": "本当はあの、ネギを入れたかったんだけど、",
+     "en": "I actually wanted to put green onions in, but...",
+     "speaker": "Mom"
+    },
+    {
+     "start": 5.198,
+     "end": 5.216,
+     "ja": "ま、なかったんで、",
+     "en": "well, we didn't have any, so...",
+     "speaker": "Mom"
+    },
+    {
+     "start": 5.218,
+     "end": 5.239,
+     "ja": "卵と納豆だけです。",
+     "en": "it's just egg and natto.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 5.242,
+     "end": 5.255,
+     "ja": "いただきます。",
+     "en": "Let's eat.",
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
+   "start": 11.285,
+   "end": 11.45,
+   "title": "Introducing the Dinner Menu",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "名詞＋と — listing nouns with 'and'"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.287,
+     "end": 11.306,
+     "ja": "はい、ご飯完成しました。",
+     "en": "Alright, dinner is ready.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 11.308,
+     "end": 11.339,
+     "ja": "今日は夏野菜の焼き浸しと、",
+     "en": "Today we have grilled summer vegetables in broth,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 11.342,
+     "end": 11.365,
+     "ja": "豆腐、枝豆、味噌汁と、",
+     "en": "tofu, edamame, miso soup,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 11.368,
+     "end": 11.393,
+     "ja": "あと照り焼きチキンです。",
+     "en": "and teriyaki chicken.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 11.398,
+     "end": 11.408,
+     "ja": "イェーイ！",
+     "en": "Yay!",
+     "speaker": "Dad"
+    },
+    {
+     "start": 11.412,
+     "end": 11.423,
+     "ja": "いただきます。",
+     "en": "Let's eat.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 11.432,
+     "end": 11.446,
+     "ja": "いただきまーす。",
+     "en": "Let's eat!",
+     "speaker": "Mom"
+    },
+    {
+     "start": 11.438,
+     "end": 11.45,
+     "ja": "いただきまーす。",
+     "en": "Let's eat!",
+     "speaker": "Dad"
+    }
+   ]
+  }
+ ],
+ "videoId": "mupWMpEUHzA",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

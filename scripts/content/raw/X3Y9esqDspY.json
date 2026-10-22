@@ -1,0 +1,198 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.6,
+   "end": 25.0,
+   "title": "A Dangerous Kind of Magic",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜かねない — might / risk of doing",
+    "〜というのは — speaking of / as for",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.9,
+     "end": 13.0,
+     "ja": "この魔法は危険ですね。",
+     "en": "This magic is dangerous.",
+     "speaker": "Heiter"
+    },
+    {
+     "start": 13.4,
+     "end": 15.6,
+     "ja": "人間関係を壊しかねない。",
+     "en": "It could destroy human relationships.",
+     "speaker": "Heiter"
+    },
+    {
+     "start": 15.7,
+     "end": 17.0,
+     "ja": "そうなの？",
+     "en": "Is that so?",
+     "speaker": "Frieren"
+    },
+    {
+     "start": 17.2,
+     "end": 18.7,
+     "ja": "人間というのは、",
+     "en": "When it comes to humans,",
+     "speaker": "Heiter"
+    },
+    {
+     "start": 18.7,
+     "end": 22.0,
+     "ja": "正直じゃないほうがうまく付き合える時もあるんですよ。",
+     "en": "sometimes not being honest is the key to getting along well.",
+     "speaker": "Heiter"
+    },
+    {
+     "start": 22.5,
+     "end": 24.8,
+     "ja": "試しにヒンメルに使ってみていい？",
+     "en": "Can I try it on Himmel just to see?",
+     "speaker": "Frieren"
+    }
+   ]
+  },
+  {
+   "start": 28.0,
+   "end": 49.0,
+   "title": "Himmel's Inner Thoughts",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "なんて〜 — what a / such",
+    "〜すぎる — too / overly",
+    "〜から逃れられない — cannot escape from"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 28.4,
+     "end": 31.8,
+     "ja": "ああ、僕はなんてイケメンなんだ。",
+     "en": "Ah, how handsome am I?",
+     "speaker": "Himmel"
+    },
+    {
+     "start": 32.0,
+     "end": 35.1,
+     "ja": "笑った顔なんて、最高にイケメンだ。",
+     "en": "My smiling face is handsome at its finest.",
+     "speaker": "Himmel"
+    },
+    {
+     "start": 35.4,
+     "end": 39.0,
+     "ja": "でも怒った顔もまた、違った雰囲気のイケメンに…",
+     "en": "Yet my angry face is handsome in a whole different vibe...",
+     "speaker": "Himmel"
+    },
+    {
+     "start": 39.5,
+     "end": 42.6,
+     "ja": "でも悲しい時の顔もイケメンすぎる。",
+     "en": "And even my sad face is just too handsome.",
+     "speaker": "Himmel"
+    },
+    {
+     "start": 42.9,
+     "end": 45.4,
+     "ja": "ああ、どうしたって僕は、",
+     "en": "Ah, no matter what I do,",
+     "speaker": "Himmel"
+    },
+    {
+     "start": 45.4,
+     "end": 48.7,
+     "ja": "イケメンであることから逃れられないのか…",
+     "en": "can I never escape being so handsome?",
+     "speaker": "Himmel"
+    }
+   ]
+  },
+  {
+   "start": 49.0,
+   "end": 61.0,
+   "title": "An Unbearable Confession",
+   "level": "N2",
+   "topics": [
+    "anime",
+    "comedy",
+    "friends"
+   ],
+   "grammar": [
+    "〜たものじゃない — cannot stand / unbearable",
+    "〜気がする — to have a feeling that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 49.4,
+     "end": 51.0,
+     "ja": "普段黙ってる時も、",
+     "en": "Even when he's usually quiet,",
+     "speaker": "Frieren"
+    },
+    {
+     "start": 51.0,
+     "end": 53.0,
+     "ja": "ああいうことを考えてるんだ。",
+     "en": "that's what he's thinking about.",
+     "speaker": "Frieren"
+    },
+    {
+     "start": 53.3,
+     "end": 54.0,
+     "ja": "ね。",
+     "en": "See?",
+     "speaker": "Heiter"
+    },
+    {
+     "start": 54.1,
+     "end": 55.4,
+     "ja": "聞かされるほうは、",
+     "en": "The one forced to listen to it",
+     "speaker": "Heiter"
+    },
+    {
+     "start": 55.4,
+     "end": 57.2,
+     "ja": "たまったものじゃないでしょう？",
+     "en": "can hardly bear it, right?",
+     "speaker": "Heiter"
+    },
+    {
+     "start": 57.6,
+     "end": 59.0,
+     "ja": "ヒンメルの場合は、",
+     "en": "In Himmel's case,",
+     "speaker": "Eisen"
+    },
+    {
+     "start": 59.0,
+     "end": 60.8,
+     "ja": "意味が違う気がするけどな。",
+     "en": "I feel like it's a bit of a different story, though.",
+     "speaker": "Eisen"
+    }
+   ]
+  }
+ ],
+ "videoId": "X3Y9esqDspY",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

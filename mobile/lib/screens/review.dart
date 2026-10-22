@@ -1,3 +1,5 @@
+import 'dart:math' as math;
+
 import 'package:flutter/material.dart' hide Card;
 import 'package:go_router/go_router.dart';
 import 'package:in_app_review/in_app_review.dart';
@@ -5,6 +7,7 @@ import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:provider/provider.dart';
 
 import '../data/content.dart';
+import '../data/models.dart' as m;
 import '../data/tour.dart' show TourEvent;
 import '../logic/logic.dart';
 import '../services/tts.dart';
@@ -16,6 +19,7 @@ import '../widgets/saved_word_sheet.dart';
 import '../widgets/toast.dart';
 import '../widgets/tour.dart';
 import '../widgets/ui.dart';
+import '../widgets/word_card.dart' show posNames;
 
 /// Flashcard review (words with original clip audio, or kana decks) — mirrors src/routes/review.tsx.
 class ReviewScreen extends StatefulWidget {
@@ -158,12 +162,10 @@ class _ReviewScreenState extends State<ReviewScreen> {
     final progress = total == 0 ? 1.0 : (sess.answered / (total > sess.answered + sess.queue.length ? total : sess.answered + sess.queue.length)).clamp(0.0, 1.0);
     final now = DateTime.now().millisecondsSinceEpoch;
 
-    // Tour spotlight sits on the word itself (not the tall card), so the tip never covers it.
-    Widget front() => Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-          TourAnchor(
-            id: 'reviewCard',
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+    // Kiku-style flashcard: the whole card is the one thing to tap (no separate "Show answer").
+    Widget front() => Stack(children: [
+          Positioned.fill(
+            child: Center(
               child: Column(mainAxisSize: MainAxisSize.min, children: [
                 if (word != null && settings.flashFront == 'en')
                   Text(word.gloss, textAlign: TextAlign.center, style: txt(28, w: FontWeight.w900))
@@ -175,15 +177,32 @@ class _ReviewScreenState extends State<ReviewScreen> {
               ]),
             ),
           ),
-          const SizedBox(height: 24),
-          Text(firstTime ? 'Try to remember it, then tap to reveal' : 'Tap to reveal', style: txt(15, w: FontWeight.w700, c: T.faint)),
+          Positioned(
+            left: 0,
+            right: 0,
+            bottom: 4,
+            child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+              const Icon(LucideIcons.pointer, size: 16, color: T.faint),
+              const SizedBox(width: 6),
+              Flexible(child: Text(firstTime ? 'Remember it? Tap to reveal' : 'Tap to reveal', textAlign: TextAlign.center, maxLines: 2, style: txt(15, w: FontWeight.w700, c: T.faint))),
+            ]),
+          ),
         ]);
+
+    Widget chip(String s, {Color bg = T.surface2, Color fg = T.muted}) => Container(
+          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+          decoration: BoxDecoration(color: bg, borderRadius: BorderRadius.circular(6)),
+          child: Text(s, style: txt(12, w: FontWeight.w800, c: fg)),
+        );
 
     Widget backWord() {
       final w = word!;
       final c = content;
       final clip = c?.byId[w.clipId];
       final entry = w.dictId != null ? c?.dict[w.dictId] : null;
+      final senses = entry == null ? const <m.Sense>[] : entry.m.take(3).toList();
+      final pos = senses.isNotEmpty && senses.first.pos.isNotEmpty ? senses.first.pos.first : (posNames[w.pos] ?? (w.pos == 'other' ? null : w.pos));
+      final showClipMeaning = senses.isEmpty ? w.gloss.isNotEmpty : !repeatsSense(w.gloss, senses.first.g);
       return SingleChildScrollView(
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
@@ -191,7 +210,12 @@ class _ReviewScreenState extends State<ReviewScreen> {
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 if (w.reading != w.word) Text(w.reading, style: jp(16, c: T.muted)),
                 Text(w.word, style: jp(40, w: FontWeight.w900, h: 1.2)),
-                Text(w.romaji, style: txt(15, c: T.muted)),
+                const SizedBox(height: 4),
+                Wrap(spacing: 6, runSpacing: 4, crossAxisAlignment: WrapCrossAlignment.center, children: [
+                  Text(w.romaji, style: txt(15, c: T.muted)),
+                  if (pos != null) chip(pos, fg: T.foreground),
+                  if (w.jlpt != null) chip('N${w.jlpt}', bg: T.successSoft, fg: T.success),
+                ]),
               ]),
             ),
             Padding(
@@ -199,24 +223,58 @@ class _ReviewScreenState extends State<ReviewScreen> {
               child: Semantics(button: true, label: 'Play pronunciation', child: Press(onTap: () => Tts.speak(w.reading.isNotEmpty ? w.reading : w.word), child: Container(width: 44, height: 44, decoration: const BoxDecoration(color: T.surface2, shape: BoxShape.circle), child: const Icon(LucideIcons.volume2, size: 20)))),
             ),
           ]),
-          const SizedBox(height: 12),
-          Text(w.gloss, style: txt(20, w: FontWeight.w800)),
-          if (entry != null)
+          const SizedBox(height: 16),
+          caps('Definition'),
+          const SizedBox(height: 8),
+          if (showClipMeaning)
+            Container(
+              width: double.infinity,
+              margin: const EdgeInsets.only(bottom: 8),
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+              decoration: BoxDecoration(color: T.primary.withValues(alpha: 0.1), borderRadius: BorderRadius.circular(12)),
+              child: Text.rich(TextSpan(children: [TextSpan(text: 'In this clip: ', style: txt(14, w: FontWeight.w800, c: T.primary)), TextSpan(text: w.gloss, style: txt(16, w: FontWeight.w800))])),
+            ),
+          for (var i = 0; i < senses.length; i++)
             Padding(
-              padding: const EdgeInsets.only(top: 6),
-              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                for (var i = 0; i < entry.m.length && i < 3; i++)
-                  Padding(padding: const EdgeInsets.only(bottom: 4), child: Text.rich(TextSpan(children: [TextSpan(text: '${i + 1}. ', style: txt(14, w: FontWeight.w800)), TextSpan(text: entry.m[i].g)]), style: txt(14, w: FontWeight.w400, c: T.muted))),
+              padding: const EdgeInsets.only(bottom: 8),
+              child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Container(width: 22, height: 22, alignment: Alignment.center, decoration: const BoxDecoration(color: T.surface2, shape: BoxShape.circle), child: Text('${i + 1}', style: txt(12, w: FontWeight.w900))),
+                const SizedBox(width: 10),
+                Expanded(child: Text(senses[i].g, style: txt(i == 0 ? 17 : 15, w: i == 0 ? FontWeight.w800 : FontWeight.w400, c: i == 0 ? T.foreground : T.muted, h: 1.35))),
               ]),
             ),
           if (clip != null) ...[
-            const SizedBox(height: 16),
-            caps('Hear it in the original clip'),
+            const SizedBox(height: 12),
+            caps('Context'),
             const SizedBox(height: 8),
-            ContextPlayer(key: ValueKey('ctx-$id-${sess.answered}'), clip: clip, line: w.line, autoplay: true),
-            const SizedBox(height: 8),
-            HighlightedLine(clip: clip, line: w.line, idx: w.idx),
-            if (w.line < clip.lines.length) Text(clip.lines[w.line].en, style: txt(14, w: FontWeight.w400, c: T.muted)),
+            Container(
+              clipBehavior: Clip.antiAlias,
+              decoration: BoxDecoration(color: T.surface2, borderRadius: BorderRadius.circular(18)),
+              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                ContextPlayer(key: ValueKey('ctx-$id-${sess.answered}'), clip: clip, line: w.line, autoplay: true),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(12, 10, 12, 4),
+                  child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                    HighlightedLine(clip: clip, line: w.line, idx: w.idx),
+                    if (w.line < clip.lines.length) Padding(padding: const EdgeInsets.only(top: 2), child: Text(clip.lines[w.line].en, style: txt(14, w: FontWeight.w400, c: T.muted))),
+                  ]),
+                ),
+                Semantics(
+                  button: true,
+                  label: 'Open the clip',
+                  child: Press(
+                    onTap: () => context.push('/clip/${clip.id}'),
+                    child: Padding(
+                      padding: const EdgeInsets.fromLTRB(12, 6, 8, 10),
+                      child: Row(children: [
+                        Expanded(child: Text('Open the clip', style: txt(14, w: FontWeight.w800, c: T.muted))),
+                        const Icon(LucideIcons.chevronRight, size: 18, color: T.muted),
+                      ]),
+                    ),
+                  ),
+                ),
+              ]),
+            ),
           ],
         ]),
       );
@@ -254,32 +312,42 @@ class _ReviewScreenState extends State<ReviewScreen> {
           ),
           Expanded(
             child: Padding(
-              padding: const EdgeInsets.fromLTRB(32, 0, 32, 8),
+              padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
               child: AnimatedSwitcher(
                 duration: const Duration(milliseconds: 220),
                 transitionBuilder: (c, a) => FadeTransition(opacity: a, child: ScaleTransition(scale: Tween(begin: 0.94, end: 1.0).animate(a), child: c)),
-                child: _SwipeCard(
+                child: TourAnchor(
                   key: ValueKey('$id-${sess.answered}'),
-                  revealed: revealed,
-                  onReveal: _reveal,
-                  onSwipe: _answer,
-                  child: !revealed ? front() : (word != null ? backWord() : backKana()),
+                  id: 'reviewCard',
+                  enabled: !revealed,
+                  child: _SwipeCard(
+                    revealed: revealed,
+                    onReveal: _reveal,
+                    onSwipe: _answer,
+                    child: !revealed ? front() : (word != null ? backWord() : backKana()),
+                  ),
                 ),
               ),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
+          // Grade buttons slide in once the answer shows — before that the card is the only target.
+          AnimatedSize(
+            duration: const Duration(milliseconds: 220),
+            curve: Curves.easeOutCubic,
+            alignment: Alignment.topCenter,
             child: revealed && card != null
-                ? Column(mainAxisSize: MainAxisSize.min, children: [
-                    if (firstTime) Padding(padding: const EdgeInsets.only(bottom: 8), child: Text('Got it right? Swipe right. Forgot? Swipe left.', style: txt(13, w: FontWeight.w700, c: T.faint))),
-                    TourAnchor(id: 'grade', child: Row(children: [
-                      Expanded(child: _GradeBtn(label: 'Again', sub: nextIntervalLabel(card, 'again', now), bg: T.dangerSoft, fg: T.danger, onTap: () => _answer('again'))),
-                      const SizedBox(width: 12),
-                      Expanded(child: _GradeBtn(label: 'Good', sub: nextIntervalLabel(card, 'good', now), bg: T.successSoft, fg: T.success, onTap: () => _answer('good'))),
-                    ])),
-                  ])
-                : Button3D(label: 'Show answer', onPressed: _reveal),
+                ? Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 0, 16, 8),
+                    child: Column(mainAxisSize: MainAxisSize.min, children: [
+                      if (firstTime) Padding(padding: const EdgeInsets.only(bottom: 8), child: Text('Knew it? Swipe right. Forgot? Swipe left.', style: txt(13, w: FontWeight.w700, c: T.faint))),
+                      TourAnchor(id: 'grade', child: Row(children: [
+                        Expanded(child: _GradeBtn(label: 'Again', sub: nextIntervalLabel(card, 'again', now), bg: T.dangerSoft, fg: T.danger, onTap: () => _answer('again'))),
+                        const SizedBox(width: 12),
+                        Expanded(child: _GradeBtn(label: 'Good', sub: nextIntervalLabel(card, 'good', now), bg: T.successSoft, fg: T.success, onTap: () => _answer('good'))),
+                      ])),
+                    ]),
+                  )
+                : const SizedBox(width: double.infinity),
           ),
         ]),
       ),
@@ -293,26 +361,30 @@ class _GradeBtn extends StatelessWidget {
   final VoidCallback onTap;
   const _GradeBtn({required this.label, required this.sub, required this.bg, required this.fg, required this.onTap});
   @override
-  Widget build(BuildContext context) => Press(
-        onTap: onTap,
-        child: Container(
-          height: 64,
-          decoration: BoxDecoration(color: bg, borderRadius: BorderRadius.circular(16)),
-          child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-            Text(label, style: txt(17, w: FontWeight.w900, c: fg)),
-            Text(sub, style: txt(12, w: FontWeight.w700, c: fg.withValues(alpha: 0.8))),
-          ]),
+  Widget build(BuildContext context) => Semantics(
+        button: true,
+        label: '$label, next in $sub',
+        child: Press(
+          onTap: onTap,
+          child: Container(
+            height: 64,
+            decoration: BoxDecoration(color: bg, borderRadius: BorderRadius.circular(16)),
+            child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+              Text(label, style: txt(17, w: FontWeight.w900, c: fg)),
+              Text(sub, style: txt(12, w: FontWeight.w700, c: fg.withValues(alpha: 0.8))),
+            ]),
+          ),
         ),
       );
 }
 
-/// Tap to reveal; once revealed, swipe right = Good, left = Again.
+/// The flashcard: tap anywhere to flip it; once revealed, swipe right = Good, left = Again.
 class _SwipeCard extends StatefulWidget {
   final Widget child;
   final bool revealed;
   final VoidCallback onReveal;
   final ValueChanged<String> onSwipe;
-  const _SwipeCard({super.key, required this.child, required this.revealed, required this.onReveal, required this.onSwipe});
+  const _SwipeCard({required this.child, required this.revealed, required this.onReveal, required this.onSwipe});
   @override
   State<_SwipeCard> createState() => _SwipeCardState();
 }
@@ -340,36 +412,66 @@ class _SwipeCardState extends State<_SwipeCard> with SingleTickerProviderStateMi
     final again = ((-dx - 20) / 100).clamp(0.0, 1.0);
     Widget stamp(String s, Color c) => Container(
           padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
-          decoration: BoxDecoration(borderRadius: BorderRadius.circular(8), border: Border.all(color: c, width: 2)),
+          decoration: BoxDecoration(color: T.surface, borderRadius: BorderRadius.circular(8), border: Border.all(color: c, width: 2)),
           child: Text(s, style: txt(14, w: FontWeight.w900, c: c)),
         );
-    return GestureDetector(
-      onTap: widget.revealed ? null : widget.onReveal,
-      onHorizontalDragUpdate: widget.revealed ? (d) => setState(() => dx += d.delta.dx * 0.9) : null,
-      onHorizontalDragEnd: widget.revealed
-          ? (_) {
-              if (dx > 110) {
-                widget.onSwipe('good');
-              } else if (dx < -110) {
-                widget.onSwipe('again');
-              } else {
-                _from = dx;
-                _back.forward(from: 0);
+    final face = Container(
+      key: ValueKey(widget.revealed),
+      width: double.infinity,
+      height: double.infinity,
+      padding: const EdgeInsets.all(20),
+      decoration: BoxDecoration(color: T.surface, borderRadius: BorderRadius.circular(28), boxShadow: const [BoxShadow(color: Color(0x99000000), blurRadius: 50, offset: Offset(0, 20), spreadRadius: -20)]),
+      child: widget.child,
+    );
+    return Semantics(
+      button: !widget.revealed,
+      label: widget.revealed ? null : 'Reveal the answer',
+      child: GestureDetector(
+        behavior: HitTestBehavior.opaque,
+        onTap: widget.revealed ? null : widget.onReveal,
+        onHorizontalDragUpdate: widget.revealed ? (d) => setState(() => dx += d.delta.dx * 0.9) : null,
+        onHorizontalDragEnd: widget.revealed
+            ? (_) {
+                if (dx > 110) {
+                  widget.onSwipe('good');
+                } else if (dx < -110) {
+                  widget.onSwipe('again');
+                } else {
+                  _from = dx;
+                  _back.forward(from: 0);
+                }
               }
-            }
-          : null,
-      child: Transform.translate(
-        offset: Offset(dx, 0),
-        child: Transform.rotate(
-          angle: (dx / 200).clamp(-1.0, 1.0) * 0.17,
-          child: Container(
-            width: double.infinity,
-            padding: const EdgeInsets.all(20),
-            decoration: BoxDecoration(color: T.surface, borderRadius: BorderRadius.circular(28), boxShadow: const [BoxShadow(color: Color(0x99000000), blurRadius: 50, offset: Offset(0, 20), spreadRadius: -20)]),
+            : null,
+        child: Transform.translate(
+          offset: Offset(dx, 0),
+          child: Transform.rotate(
+            angle: (dx / 200).clamp(-1.0, 1.0) * 0.17,
             child: Stack(children: [
-              Positioned.fill(child: widget.child),
-              Positioned(right: 0, top: 0, child: IgnorePointer(child: Opacity(opacity: good, child: stamp('GOOD', T.success)))),
-              Positioned(left: 0, top: 0, child: IgnorePointer(child: Opacity(opacity: again, child: stamp('AGAIN', T.danger)))),
+              // Flip: the front turns away, then the answer turns in.
+              AnimatedSwitcher(
+                duration: const Duration(milliseconds: 360),
+                switchInCurve: const Interval(0.5, 1, curve: Curves.easeOut),
+                switchOutCurve: const Interval(0.5, 1, curve: Curves.easeIn),
+                layoutBuilder: (current, previous) => Stack(children: [...previous, ?current]),
+                // One continuous turn: the old face rotates 0 → 90°, the new one −90° → 0.
+                transitionBuilder: (c, a) {
+                  final incoming = c.key == ValueKey(widget.revealed);
+                  return AnimatedBuilder(
+                    animation: a,
+                    child: c,
+                    builder: (_, child) => Transform(
+                      alignment: Alignment.center,
+                      transform: Matrix4.identity()
+                        ..setEntry(3, 2, 0.0012)
+                        ..rotateY((1 - a.value) * math.pi / 2 * (incoming ? -1 : 1)),
+                      child: child,
+                    ),
+                  );
+                },
+                child: face,
+              ),
+              Positioned(right: 16, top: 16, child: IgnorePointer(child: Opacity(opacity: good, child: stamp('GOOD', T.success)))),
+              Positioned(left: 16, top: 16, child: IgnorePointer(child: Opacity(opacity: again, child: stamp('AGAIN', T.danger)))),
             ]),
           ),
         ),

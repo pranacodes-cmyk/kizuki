@@ -1,0 +1,174 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.5,
+   "end": 28.5,
+   "title": "Example of Afterthought Conditions",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜たら — if/when conditional",
+    "〜って言う — to say that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 16.6,
+     "end": 20.0,
+     "ja": "例えば、「現在の首相は誰？」っていう問題があったら、",
+     "en": "For example, if the question is 'Who is the current prime minister?'",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 20.1,
+     "end": 21.0,
+     "ja": "何て答えます？",
+     "en": "how would you answer?",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 21.1,
+     "end": 22.3,
+     "ja": "岸田文雄。",
+     "en": "Fumio Kishida.",
+     "speaker": "Ko-Chan"
+    },
+    {
+     "start": 23.4,
+     "end": 25.5,
+     "ja": "今、一応早押し…",
+     "en": "Right now, it's technically a buzzer quiz...",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 26.5,
+     "end": 28.2,
+     "ja": "岸田文雄さんって言うけど、",
+     "en": "You'd say Fumio Kishida, but...",
+     "speaker": "Fukura P"
+    }
+   ]
+  },
+  {
+   "start": 57.0,
+   "end": 71.5,
+   "title": "Rules for Point Scoring",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜のが一番〜 — doing ... is the most ...",
+    "〜以降 — from ... onwards",
+    "〜場合 — in the case of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 57.3,
+     "end": 60.1,
+     "ja": "最初に押す人が一番難しいので、",
+     "en": "Since it's hardest for the first person who buzzes in,",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 60.3,
+     "end": 62.4,
+     "ja": "最初に押した人はプラス2ポイント。",
+     "en": "the first person to buzz gets plus 2 points.",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 63.4,
+     "end": 67.5,
+     "ja": "それ以降の2人目とか3人目に押す場合がプラス1ポイント、",
+     "en": "If you buzz in second or third after that, it's plus 1 point,",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 67.8,
+     "end": 69.8,
+     "ja": "って感じにしたいと思います。",
+     "en": "is how I'd like to do it.",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 70.1,
+     "end": 71.2,
+     "ja": "誤答すると…",
+     "en": "If you answer incorrectly...",
+     "speaker": "Fukura P"
+    }
+   ]
+  },
+  {
+   "start": 725.2,
+   "end": 745.0,
+   "title": "What If You Are Crabs?",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜たとき — when / at the time of",
+    "〜はいくら／いくつ — how much / how many"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 725.3,
+     "end": 728.0,
+     "ja": "皆さん3人でじゃんけんをした時、",
+     "en": "When the three of you play rock-paper-scissors,",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 728.1,
+     "end": 730.4,
+     "ja": "あいこになる確率はいくつ？",
+     "en": "what is the probability of a tie?",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 732.5,
+     "end": 735.0,
+     "ja": "ただし、皆さんはカニです。",
+     "en": "However, you are all crabs.",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 738.9,
+     "end": 740.1,
+     "ja": "確率だよね？",
+     "en": "It's probability, right?",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 740.2,
+     "end": 741.5,
+     "ja": "100パーセント！",
+     "en": "100 percent!",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 741.8,
+     "end": 742.6,
+     "ja": "正解！",
+     "en": "Correct!",
+     "speaker": "Fukura P"
+    }
+   ]
+  }
+ ],
+ "videoId": "R4ItsOBPuJc",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

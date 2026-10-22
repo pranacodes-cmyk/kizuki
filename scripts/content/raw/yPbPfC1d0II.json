@@ -1,0 +1,214 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 17.6,
+   "end": 32.3,
+   "title": "Meeting a Neighbor on the Street",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜たいと思う — thinking of wanting to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.9,
+     "end": 19.4,
+     "ja": "こんにちは。",
+     "en": "Hello.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 19.4,
+     "end": 23.2,
+     "ja": "よくお見かけするので、声を掛けたいなと思ってたんです。",
+     "en": "I see you around often, so I've been wanting to say hello.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 23.2,
+     "end": 26.1,
+     "ja": "初めまして。高橋です。",
+     "en": "Nice to meet you. I'm Takahashi.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 26.5,
+     "end": 28.0,
+     "ja": "えっと…",
+     "en": "And you are...?",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 28.8,
+     "end": 30.4,
+     "ja": "エドです。",
+     "en": "I'm Edo.",
+     "speaker": "Edo"
+    },
+    {
+     "start": 30.4,
+     "end": 32.0,
+     "ja": "木村エドです。",
+     "en": "Kimura Edo.",
+     "speaker": "Edo"
+    }
+   ]
+  },
+  {
+   "start": 44.2,
+   "end": 107.8,
+   "title": "Speaking in Easy Japanese",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜はどこですか — asking where something/someone is from",
+    "これから — from now on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.3,
+     "end": 46.0,
+     "ja": "ああ、すみません。",
+     "en": "Ah, I'm sorry.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 46.2,
+     "end": 48.3,
+     "ja": "ゆっくり話します。",
+     "en": "I will speak slowly.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 49.0,
+     "end": 52.0,
+     "ja": "エドさん、高橋です。",
+     "en": "Edo-san, I am Takahashi.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 52.1,
+     "end": 53.3,
+     "ja": "高橋さん。",
+     "en": "Takahashi-san.",
+     "speaker": "Edo"
+    },
+    {
+     "start": 53.6,
+     "end": 55.7,
+     "ja": "はい。高橋です。",
+     "en": "Yes. Takahashi.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 56.2,
+     "end": 58.5,
+     "ja": "お国はどこですか？",
+     "en": "Where are you from?",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 59.1,
+     "end": 60.3,
+     "ja": "タイです。",
+     "en": "Thailand.",
+     "speaker": "Edo"
+    },
+    {
+     "start": 60.8,
+     "end": 62.1,
+     "ja": "そうですか。",
+     "en": "I see.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 62.2,
+     "end": 64.7,
+     "ja": "これからよろしくお願いします。",
+     "en": "Nice to meet you from now on.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 65.1,
+     "end": 67.5,
+     "ja": "よろしくお願いします。",
+     "en": "Nice to meet you too.",
+     "speaker": "Edo"
+    }
+   ]
+  },
+  {
+   "start": 92.4,
+   "end": 112.0,
+   "title": "Neighbor Greetings in China",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜ている — progressive or state",
+    "〜とか — listing examples (and/or)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 92.7,
+     "end": 97.4,
+     "ja": "中国では、近くに住んでいる人と挨拶をしますか？",
+     "en": "In China, do people greet those living nearby?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 97.7,
+     "end": 101.8,
+     "ja": "はい。近所の人と挨拶をします。",
+     "en": "Yes. We greet our neighbors.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 102.2,
+     "end": 103.9,
+     "ja": "何と言いますか？",
+     "en": "What do you say?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 104.2,
+     "end": 106.1,
+     "ja": "「こんにちは」とか、",
+     "en": "Things like 'Hello', or",
+     "speaker": "Woman"
+    },
+    {
+     "start": 106.2,
+     "end": 107.8,
+     "ja": "「ご飯を食べましたか？」",
+     "en": "'Have you eaten?'",
+     "speaker": "Woman"
+    },
+    {
+     "start": 108.0,
+     "end": 111.6,
+     "ja": "「今日は忙しいですか？」と挨拶をします。",
+     "en": "or 'Are you busy today?'.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "yPbPfC1d0II",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

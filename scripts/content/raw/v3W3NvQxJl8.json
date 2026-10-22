@@ -1,0 +1,109 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 436.5,
+   "end": 449.8,
+   "title": "Meeting a Favorite Actor in Tokyo",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜てくる — go and do something",
+    "〜わ — sentence-ending particle"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 437.2,
+     "end": 440.8,
+     "ja": "昨日、東京に行って、",
+     "en": "Yesterday, I went to Tokyo,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 441.1,
+     "end": 444.6,
+     "ja": "好きな俳優に会ってきて、",
+     "en": "and got to meet my favorite actor,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 445.0,
+     "end": 446.5,
+     "ja": "そう、んー、",
+     "en": "so, yeah, um...",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 446.8,
+     "end": 449.3,
+     "ja": "楽しかったわ、そう。",
+     "en": "it was really fun, yeah.",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 503.5,
+   "end": 513.8,
+   "title": "Going to a Concert in Tokyo",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "music",
+    "travel"
+   ],
+   "grammar": [
+    "〜たい — want to do",
+    "〜んだ — explanatory emphasis"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 504.0,
+     "end": 505.6,
+     "ja": "東京に行って、",
+     "en": "I went to Tokyo,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 505.7,
+     "end": 507.2,
+     "ja": "ライブに行って、",
+     "en": "went to a concert,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 507.3,
+     "end": 509.3,
+     "ja": "めっちゃ楽しかったんだよねー。",
+     "en": "and it was so much fun.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 509.5,
+     "end": 511.4,
+     "ja": "ねー、また行きたいなー。",
+     "en": "Right? I really want to go again.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 511.5,
+     "end": 513.2,
+     "ja": "ねー、うん。",
+     "en": "Yeah, totally.",
+     "speaker": "Yuka"
+    }
+   ]
+  }
+ ],
+ "videoId": "v3W3NvQxJl8",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,191 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 106.5,
+   "end": 131.5,
+   "title": "Chatting in Easy Japanese",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜は好きですか — do you like ~?",
+    "〜に行かれた — honorific form of 行った",
+    "〜方は — way of doing ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 106.8,
+     "end": 109.4,
+     "ja": "日本の食べ物は好きですか？",
+     "en": "Do you like Japanese food?",
+     "speaker": "Kanbayashi"
+    },
+    {
+     "start": 109.4,
+     "end": 110.6,
+     "ja": "好きです。",
+     "en": "Yes, I do.",
+     "speaker": "Visitor"
+    },
+    {
+     "start": 110.6,
+     "end": 112.2,
+     "ja": "何が好きですか？",
+     "en": "What do you like?",
+     "speaker": "Kanbayashi"
+    },
+    {
+     "start": 112.2,
+     "end": 113.6,
+     "ja": "たまごやき。",
+     "en": "Rolled omelet.",
+     "speaker": "Visitor"
+    },
+    {
+     "start": 113.6,
+     "end": 117.6,
+     "ja": "たまごやき。よく家族で家で食べます。",
+     "en": "Rolled omelet. You often eat it at home with your family.",
+     "speaker": "Kanbayashi"
+    },
+    {
+     "start": 117.6,
+     "end": 120.2,
+     "ja": "日本の何が好きですか？",
+     "en": "What do you like about Japan?",
+     "speaker": "Kanbayashi"
+    },
+    {
+     "start": 120.2,
+     "end": 122.2,
+     "ja": "景色。",
+     "en": "The scenery.",
+     "speaker": "Visitor"
+    },
+    {
+     "start": 122.2,
+     "end": 124.6,
+     "ja": "函館に行かれたんですか？",
+     "en": "Did you go to Hakodate?",
+     "speaker": "Kanbayashi"
+    },
+    {
+     "start": 124.6,
+     "end": 127.0,
+     "ja": "読み方は忘れた。",
+     "en": "I forgot how to read it.",
+     "speaker": "Visitor"
+    },
+    {
+     "start": 127.0,
+     "end": 129.6,
+     "ja": "夜の景色が好きですか？",
+     "en": "Do you like the night scenery?",
+     "speaker": "Kanbayashi"
+    },
+    {
+     "start": 129.6,
+     "end": 131.1,
+     "ja": "好きです。",
+     "en": "Yes, I like it.",
+     "speaker": "Visitor"
+    }
+   ]
+  },
+  {
+   "start": 350.5,
+   "end": 372.7,
+   "title": "Why Avoid Loanwords?",
+   "level": "N3",
+   "topics": [
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜のに — even though / despite",
+    "〜ちゃダメ — must not do",
+    "〜てこそ — only because / only when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 350.8,
+     "end": 356.8,
+     "ja": "どうして外来語は海外から来た言葉なのに、使っちゃダメなんですか？",
+     "en": "Why shouldn't we use loanwords even though they come from overseas?",
+     "speaker": "Student"
+    },
+    {
+     "start": 356.8,
+     "end": 358.7,
+     "ja": "いい質問ですよね！",
+     "en": "That's a good question!",
+     "speaker": "Kanbayashi"
+    },
+    {
+     "start": 358.7,
+     "end": 363.3,
+     "ja": "海外から来た人って外来語やからって思いますよね。",
+     "en": "You'd think loanwords would work since they came from abroad, right?",
+     "speaker": "Kanbayashi"
+    },
+    {
+     "start": 363.3,
+     "end": 369.2,
+     "ja": "常識として「みんな外国人は英語は喋れる」って思っているところがあったんですね、僕は。",
+     "en": "Common sense made me assume that all foreigners can speak English.",
+     "speaker": "Kanbayashi"
+    },
+    {
+     "start": 369.2,
+     "end": 372.2,
+     "ja": "でも喋れない人もいっぱいいます。",
+     "en": "But there are also many people who can't speak it.",
+     "speaker": "Kanbayashi"
+    }
+   ]
+  },
+  {
+   "start": 400.5,
+   "end": 412.2,
+   "title": "Understanding Other People's Feelings",
+   "level": "N3",
+   "topics": [
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜になると — when one becomes",
+    "〜てこそ — only because / only when",
+    "〜と思う — I think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 400.8,
+     "end": 406.0,
+     "ja": "外国の方の気持ちになると、日本語ってやっぱり難しいなって思うし、",
+     "en": "When I put myself in foreigners' shoes, I realize how difficult Japanese really is,",
+     "speaker": "Student"
+    },
+    {
+     "start": 406.5,
+     "end": 411.6,
+     "ja": "人を思う気持ちがあってこそできることだなと思いました。",
+     "en": "and I felt this is something that can only be done with empathy for others.",
+     "speaker": "Student"
+    }
+   ]
+  }
+ ],
+ "videoId": "XZQHpZuZH_c",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,205 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.2,
+   "end": 33.2,
+   "title": "Did You Know Hand Shape Changes Voice?",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜と申します — humble introduction",
+    "ご存知 — honorific knowing",
+    "〜ていただく — receiving a favor"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 16.4,
+     "end": 17.8,
+     "ja": "皆様こんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Hayashi"
+    },
+    {
+     "start": 18.3,
+     "end": 20.0,
+     "ja": "林茂光と申します。",
+     "en": "My name is Shigemitsu Hayashi.",
+     "speaker": "Hayashi"
+    },
+    {
+     "start": 20.1,
+     "end": 21.6,
+     "ja": "よろしくお願いいたします。",
+     "en": "Pleased to meet you.",
+     "speaker": "Hayashi"
+    },
+    {
+     "start": 22.0,
+     "end": 27.2,
+     "ja": "皆様は手の形で声が変わることをご存知でしょうか？",
+     "en": "Did everyone know that the shape of your hands changes your voice?",
+     "speaker": "Hayashi"
+    },
+    {
+     "start": 28.0,
+     "end": 29.3,
+     "ja": "よかったです。",
+     "en": "That's a relief.",
+     "speaker": "Hayashi"
+    },
+    {
+     "start": 29.5,
+     "end": 32.7,
+     "ja": "知ってると言われるともうやることが何もありません。",
+     "en": "If you said you already knew, I'd have nothing left to do.",
+     "speaker": "Hayashi"
+    }
+   ]
+  },
+  {
+   "start": 108.5,
+   "end": 126.5,
+   "title": "Bend Your Pinky and Ring Finger",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "sports"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜て結構です — it is fine to",
+    "〜てる — ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 109.0,
+     "end": 112.7,
+     "ja": "次に、小指と薬指を折り曲げてください。",
+     "en": "Next, please bend your pinky and ring finger.",
+     "speaker": "Hayashi"
+    },
+    {
+     "start": 113.3,
+     "end": 115.8,
+     "ja": "小指と薬指を折り曲げてください。",
+     "en": "Please bend your pinky and ring finger.",
+     "speaker": "Hayashi"
+    },
+    {
+     "start": 116.0,
+     "end": 118.7,
+     "ja": "たまに親指と人差し指を折り曲げてらっしゃる方がいます。",
+     "en": "Sometimes people bend their thumb and index finger.",
+     "speaker": "Hayashi"
+    },
+    {
+     "start": 118.9,
+     "end": 121.0,
+     "ja": "目で確認していただいて結構です。",
+     "en": "It is completely fine to check with your eyes.",
+     "speaker": "Hayashi"
+    },
+    {
+     "start": 121.3,
+     "end": 123.4,
+     "ja": "小指と薬指を折り曲げてください。",
+     "en": "Please bend your pinky and ring finger.",
+     "speaker": "Hayashi"
+    },
+    {
+     "start": 123.7,
+     "end": 126.0,
+     "ja": "深呼吸をします。はい、どうぞ。",
+     "en": "Now take a deep breath. Go ahead.",
+     "speaker": "Hayashi"
+    }
+   ]
+  },
+  {
+   "start": 748.5,
+   "end": 806.5,
+   "title": "What's Your Favorite Food?",
+   "level": "N4",
+   "topics": [
+    "food",
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜は使わない — not using ...",
+    "〜てください — please do",
+    "これで〜 — with this, ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 749.0,
+     "end": 751.2,
+     "ja": "渡史さん、好きな食べ物は何ですか？",
+     "en": "Watashi-san, what is your favorite food?",
+     "speaker": "Hayashi"
+    },
+    {
+     "start": 751.4,
+     "end": 752.5,
+     "ja": "すき焼きです。",
+     "en": "Sukiyaki.",
+     "speaker": "Watashi"
+    },
+    {
+     "start": 752.7,
+     "end": 754.3,
+     "ja": "すき焼き、はい。",
+     "en": "Sukiyaki, okay.",
+     "speaker": "Hayashi"
+    },
+    {
+     "start": 755.2,
+     "end": 757.6,
+     "ja": "ちなみに、じゃあすき焼きに卵は使わない？",
+     "en": "By the way, then you don't use raw egg with sukiyaki?",
+     "speaker": "Hayashi"
+    },
+    {
+     "start": 757.7,
+     "end": 758.7,
+     "ja": "使わないです。",
+     "en": "I don't use it.",
+     "speaker": "Watashi"
+    },
+    {
+     "start": 758.8,
+     "end": 801.0,
+     "ja": "使わない、あ、はい、分かりました。",
+     "en": "You don't, ah, okay, understood.",
+     "speaker": "Hayashi"
+    },
+    {
+     "start": 801.2,
+     "end": 803.9,
+     "ja": "え、すき焼きを思い浮かべてください。",
+     "en": "Now, picture sukiyaki in your mind.",
+     "speaker": "Hayashi"
+    },
+    {
+     "start": 804.2,
+     "end": 806.2,
+     "ja": "これで体は安定します。",
+     "en": "With this, the body stabilizes.",
+     "speaker": "Hayashi"
+    }
+   ]
+  }
+ ],
+ "videoId": "7WAHPmY-B70",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

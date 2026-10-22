@@ -1,0 +1,135 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.7,
+   "end": 29.0,
+   "title": "Razor Case from Seria",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜て使える — can be used"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.0,
+     "end": 13.8,
+     "ja": "1つ目は、カミソリケース。",
+     "en": "The first item is a razor case.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 14.3,
+     "end": 17.8,
+     "ja": "安全に、安心して使えるカミソリケース。",
+     "en": "A razor case that can be used safely and securely.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 18.9,
+     "end": 22.0,
+     "ja": "押しながら開きます。",
+     "en": "You open it while pressing.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 25.7,
+     "end": 28.5,
+     "ja": "突起に持ち手をホールドさせます。",
+     "en": "Hold the handle in place with the protrusion.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 162.2,
+   "end": 183.2,
+   "title": "Emergency Compressed Toilet Paper",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜に役立つ — useful for",
+    "〜ていることで — by being / because it is"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 162.5,
+     "end": 166.4,
+     "ja": "災害時に役立つ、圧縮トイレットペーパー。",
+     "en": "Compressed toilet paper, useful in disaster situations.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 167.3,
+     "end": 171.6,
+     "ja": "幅112ミリのペーパーが60メートル。",
+     "en": "Paper measuring 112 millimeters wide and 60 meters long.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 172.7,
+     "end": 175.3,
+     "ja": "圧縮されていることでコンパクト。",
+     "en": "It is compact because it has been compressed.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 176.0,
+     "end": 182.7,
+     "ja": "袋に入っていることで、防カビ・防虫・水害・湿気に強い。",
+     "en": "Being in a bag makes it resistant to mold, bugs, flood damage, and moisture.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 508.8,
+   "end": 522.0,
+   "title": "Stylish Compact Mirror Review",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜感 — feeling/look of",
+    "〜ことが良い — it is good that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 508.8,
+     "end": 513.0,
+     "ja": "何より、この表面の凹凸感がおしゃれで、",
+     "en": "Above all, the textured look of this surface is stylish,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 513.4,
+     "end": 516.5,
+     "ja": "光沢もあり、とても上品。",
+     "en": "and with its glossy sheen, it's very elegant.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 517.0,
+     "end": 521.5,
+     "ja": "そして拡大鏡に歪みがないことが良いですね。",
+     "en": "And it's great that there is no distortion in the magnifying mirror.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "KzZV3QmY1v0",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,70 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 1248.2,
+   "end": 1308.8,
+   "title": "Tips for Learning Real English",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜たい — wanting to do something",
+    "〜のが一番 — ...is the best",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1248.5,
+     "end": 1252.0,
+     "ja": "実践的な英会話を短期間で効率よく身につけたい方は、",
+     "en": "If you want to acquire practical English conversation skills quickly and efficiently,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1252.0,
+     "end": 1256.0,
+     "ja": "色んなアメリカ人の生の英会話を学ぶのが一番です。",
+     "en": "learning from natural conversations of various Americans is the best way.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1256.0,
+     "end": 1259.2,
+     "ja": "英会話教材「This is 英会話」では、",
+     "en": "In the English learning material 'This is Eikaiwa',",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1259.2,
+     "end": 1303.2,
+     "ja": "アメリカ人約150人の生の英会話を紹介しています。",
+     "en": "we introduce real conversations with about 150 Americans.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1303.2,
+     "end": 1306.3,
+     "ja": "概要欄に紹介していますので、ぜひ見てください。",
+     "en": "It's introduced in the description, so please check it out.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1306.3,
+     "end": 1308.5,
+     "ja": "それでは、次回をお楽しみに！",
+     "en": "See you next time!",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "1zTteRFw1ik",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

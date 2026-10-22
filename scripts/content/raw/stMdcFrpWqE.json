@@ -1,0 +1,187 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 3.8,
+   "end": 16.5,
+   "title": "No Need to Save Anymore",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜たところで — even if / no matter how",
+    "〜なんて — such a thing as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.2,
+     "end": 5.8,
+     "ja": "手取り22万円。",
+     "en": "Take-home pay: 220,000 yen.",
+     "speaker": "Female"
+    },
+    {
+     "start": 6.0,
+     "end": 7.7,
+     "ja": "どれだけ節約してお金を貯めたところで、",
+     "en": "No matter how much I saved and pinched pennies,",
+     "speaker": "Female"
+    },
+    {
+     "start": 7.8,
+     "end": 9.5,
+     "ja": "将来への不安は消えなかった。",
+     "en": "my anxiety about the future never went away.",
+     "speaker": "Female"
+    },
+    {
+     "start": 10.5,
+     "end": 12.6,
+     "ja": "1年が目安ってとこかな。",
+     "en": "One year is about what you can expect.",
+     "speaker": "Doctor"
+    },
+    {
+     "start": 13.2,
+     "end": 14.2,
+     "ja": "死ぬのなら、",
+     "en": "If I'm going to die,",
+     "speaker": "Female"
+    },
+    {
+     "start": 14.3,
+     "end": 16.2,
+     "ja": "もう節約なんて必要ない。",
+     "en": "there's no need to save anymore.",
+     "speaker": "Female"
+    }
+   ]
+  },
+  {
+   "start": 17.5,
+   "end": 28.7,
+   "title": "Can You Lend Me Some Money?",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくれない — asking a favor (casual)",
+    "〜んだけど — explanatory premise"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.8,
+     "end": 20.1,
+     "ja": "いきなりで悪いんだけど、金持ってない？",
+     "en": "Sorry to ask out of nowhere, but do you have any cash?",
+     "speaker": "Sena"
+    },
+    {
+     "start": 20.6,
+     "end": 22.3,
+     "ja": "貸してくんないかなあ？",
+     "en": "Could you lend me some?",
+     "speaker": "Sena"
+    },
+    {
+     "start": 22.7,
+     "end": 25.1,
+     "ja": "72万3800円なんだけど。",
+     "en": "It's 723,800 yen.",
+     "speaker": "Sena"
+    },
+    {
+     "start": 25.4,
+     "end": 26.7,
+     "ja": "分かりました。",
+     "en": "All right.",
+     "speaker": "Female"
+    },
+    {
+     "start": 27.2,
+     "end": 28.2,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Sena"
+    }
+   ]
+  },
+  {
+   "start": 38.0,
+   "end": 48.8,
+   "title": "Repaying Like a Host",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜らしく — typically / like a true...",
+    "〜ってことで — on the terms that / let's say that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 38.2,
+     "end": 40.4,
+     "ja": "返済期限、令和13年になってるけど。",
+     "en": "The repayment deadline says Reiwa 13, but...",
+     "speaker": "Female"
+    },
+    {
+     "start": 40.6,
+     "end": 41.4,
+     "ja": "死んでる。",
+     "en": "I'll be dead.",
+     "speaker": "Female"
+    },
+    {
+     "start": 41.5,
+     "end": 43.3,
+     "ja": "ホストなら、ホストらしく返済して。",
+     "en": "If you're a host, pay me back like a host.",
+     "speaker": "Female"
+    },
+    {
+     "start": 43.4,
+     "end": 44.4,
+     "ja": "どうやって？",
+     "en": "How?",
+     "speaker": "Sena"
+    },
+    {
+     "start": 44.5,
+     "end": 45.5,
+     "ja": "楽しませて。",
+     "en": "Entertain me.",
+     "speaker": "Female"
+    },
+    {
+     "start": 45.6,
+     "end": 47.3,
+     "ja": "1時間1万円ってことで。",
+     "en": "At a rate of 10,000 yen per hour.",
+     "speaker": "Female"
+    },
+    {
+     "start": 47.5,
+     "end": 48.5,
+     "ja": "了解。",
+     "en": "Got it.",
+     "speaker": "Sena"
+    }
+   ]
+  }
+ ],
+ "videoId": "stMdcFrpWqE",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

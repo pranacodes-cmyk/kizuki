@@ -1,0 +1,100 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 17.2,
+   "end": 29.8,
+   "title": "Asking About Days of the Week",
+   "level": "N5",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "何曜日 — what day of the week",
+    "は — topic marker"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.6,
+     "end": 20.4,
+     "ja": "中村さん、今日は何曜日ですか？",
+     "en": "Mr. Nakamura, what day of the week is it today?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 20.7,
+     "end": 22.4,
+     "ja": "今日は木曜日です。",
+     "en": "Today is Thursday.",
+     "speaker": "Nakamura"
+    },
+    {
+     "start": 25.8,
+     "end": 27.5,
+     "ja": "会議は何曜日ですか？",
+     "en": "What day of the week is the meeting?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 27.9,
+     "end": 29.5,
+     "ja": "会議は火曜日です。",
+     "en": "The meeting is on Tuesday.",
+     "speaker": "Nakamura"
+    }
+   ]
+  },
+  {
+   "start": 52.2,
+   "end": 64.8,
+   "title": "Days of the Week Examples",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "何曜日 — what day of the week",
+    "〜です — polite copula"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 52.6,
+     "end": 54.6,
+     "ja": "今日は何曜日ですか。",
+     "en": "What day of the week is it today?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 55.3,
+     "end": 56.9,
+     "ja": "月曜日です。",
+     "en": "It's Monday.",
+     "speaker": "Man"
+    },
+    {
+     "start": 59.7,
+     "end": 61.8,
+     "ja": "テストは何曜日ですか。",
+     "en": "What day of the week is the test?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 62.5,
+     "end": 64.3,
+     "ja": "金曜日です。",
+     "en": "It's Friday.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "2YZH-_QhyvU",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

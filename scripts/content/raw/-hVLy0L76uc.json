@@ -1,0 +1,144 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 0.6,
+   "end": 13.6,
+   "title": "Heading to a Ramen Shop on the Holiday",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜たいと思う — thinking of doing",
+    "〜ている — ongoing action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 3.4,
+     "ja": "みなさん、こんにちは。Jちゃんです。",
+     "en": "Hello everyone. I'm J-chan.",
+     "speaker": "J-chan"
+    },
+    {
+     "start": 3.6,
+     "end": 5.7,
+     "ja": "今日は三連休の初日。",
+     "en": "Today is the first day of the three-day weekend.",
+     "speaker": "J-chan"
+    },
+    {
+     "start": 6.0,
+     "end": 8.8,
+     "ja": "で、久しぶりに美味しいもの食べ、食べに行きたいと思って、",
+     "en": "And since I wanted to go eat something delicious after a while,",
+     "speaker": "J-chan"
+    },
+    {
+     "start": 8.8,
+     "end": 11.7,
+     "ja": "今、ラーメン屋さんに向かってるんですけれども、",
+     "en": "we're on our way to a ramen shop right now.",
+     "speaker": "J-chan"
+    },
+    {
+     "start": 11.8,
+     "end": 12.9,
+     "ja": "ジンさん、こんにちは。",
+     "en": "Jin-san, hello.",
+     "speaker": "J-chan"
+    },
+    {
+     "start": 12.9,
+     "end": 13.5,
+     "ja": "こんにちは。",
+     "en": "Hello.",
+     "speaker": "Jin"
+    }
+   ]
+  },
+  {
+   "start": 595.5,
+   "end": 615.0,
+   "title": "Thank You for Watching and Don't Forget",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ばと思う — I hope / wish that",
+    "〜た後に — after doing",
+    "〜ば — if / when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 595.7,
+     "end": 597.4,
+     "ja": "はい、ありがとうございます。",
+     "en": "All right, thank you very much.",
+     "speaker": "Jin"
+    },
+    {
+     "start": 597.4,
+     "end": 600.0,
+     "ja": "こちらの動画も見ていただければと思います。",
+     "en": "I hope you check out these videos as well.",
+     "speaker": "Jin"
+    },
+    {
+     "start": 600.0,
+     "end": 603.2,
+     "ja": "そして、チャンネル登録もお願いします！",
+     "en": "And please subscribe to our channel!",
+     "speaker": "Jin"
+    },
+    {
+     "start": 603.2,
+     "end": 605.2,
+     "ja": "チャンネル登録をした後にですね、",
+     "en": "After subscribing,",
+     "speaker": "Jin"
+    },
+    {
+     "start": 605.2,
+     "end": 607.4,
+     "ja": "アラームの設定をしておけば、",
+     "en": "if you turn on the notifications,",
+     "speaker": "Jin"
+    },
+    {
+     "start": 607.4,
+     "end": 611.3,
+     "ja": "私がアップする動画をあの携帯で見ることができますので、",
+     "en": "you'll be able to see the videos I upload on your phone,",
+     "speaker": "Jin"
+    },
+    {
+     "start": 611.3,
+     "end": 612.5,
+     "ja": "よろしくお願いします。",
+     "en": "so please do!",
+     "speaker": "Jin"
+    },
+    {
+     "start": 612.7,
+     "end": 614.6,
+     "ja": "ご視聴ありがとうございました。",
+     "en": "Thank you for watching.",
+     "speaker": "Jin"
+    }
+   ]
+  }
+ ],
+ "videoId": "-hVLy0L76uc",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

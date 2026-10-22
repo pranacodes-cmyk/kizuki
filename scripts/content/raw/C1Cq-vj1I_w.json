@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 40.0,
+   "end": 59.2,
+   "title": "Eating Produce From Fukushima",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — if / when",
+    "〜通り — just like / as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 40.3,
+     "end": 45.9,
+     "ja": "もし例えば原産地とかが福島だったとしたら買いますか？",
+     "en": "If for example the origin was Fukushima, would you buy it?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 46.1,
+     "end": 50.4,
+     "ja": "普通に今まで通り、日本の国内で作られてる物だったら、",
+     "en": "Just like before, as long as it's produced within Japan,",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 50.6,
+     "end": 52.8,
+     "ja": "安心して食べてます。",
+     "en": "I feel safe eating it.",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 53.0,
+     "end": 56.0,
+     "ja": "私も買います。国産っていうあれで別に、",
+     "en": "I'd buy it too. As long as it's domestic produce,",
+     "speaker": "Woman 2"
+    },
+    {
+     "start": 56.2,
+     "end": 59.0,
+     "ja": "なんか、うん、そんな意識しないと思います。",
+     "en": "I don't think I'd really care that much.",
+     "speaker": "Woman 2"
+    }
+   ]
+  },
+  {
+   "start": 220.2,
+   "end": 237.4,
+   "title": "Where Do You Get Your Information?",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜自体 — itself",
+    "〜って言ってる — quoting / saying that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 220.5,
+     "end": 225.8,
+     "ja": "福島のもの自体が安全っていうのは、どっから情報を得てるんですか？",
+     "en": "Regarding food from Fukushima being safe, where are you getting that info from?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 226.1,
+     "end": 229.4,
+     "ja": "私は福島に住んでる友達が何人かいるんですけど、",
+     "en": "I have a few friends who live in Fukushima,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 229.6,
+     "end": 232.6,
+     "ja": "でもそんなに気にする事はないよって言ってて、",
+     "en": "and they tell me there's really nothing to worry about.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 233.0,
+     "end": 237.2,
+     "ja": "メディアでも最近はもう「安心です」っていうのを結構言ってるんで。",
+     "en": "Even the media has been frequently reporting lately that it's safe.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 530.8,
+   "end": 550.0,
+   "title": "Ever Considered Leaving Japan?",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜としたら — assuming that / if",
+    "〜と比べて — compared to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 531.0,
+     "end": 534.2,
+     "ja": "将来日本を離れるっていうそういうオプションがあったとしたら、",
+     "en": "If you had the option to leave Japan in the future,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 534.4,
+     "end": 539.5,
+     "ja": "原発とかの影響で「日本離れたい」って考えたことってありますか？",
+     "en": "have you ever thought about leaving Japan due to the nuclear issue?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 539.8,
+     "end": 541.2,
+     "ja": "ないです、ないです。",
+     "en": "No, never.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 541.4,
+     "end": 546.4,
+     "ja": "日本は結構安全だと思います、普通に他の国と比べて。",
+     "en": "I think Japan is quite safe compared to other countries.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 546.8,
+     "end": 549.8,
+     "ja": "ないですね。私はもう日本が大好きですから。はい。",
+     "en": "Never. Because I love Japan. Yes.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "C1Cq-vj1I_w",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

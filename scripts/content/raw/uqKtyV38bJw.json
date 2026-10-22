@@ -1,0 +1,77 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 28.7,
+   "end": 45.8,
+   "title": "When Does the Man Paint?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜から〜まで — from ~ to ~",
+    "〜ています — ongoing/habitual action",
+    "〜ですから — because ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 29.2,
+     "end": 31.5,
+     "ja": "毎日絵を描きますか？",
+     "en": "Do you paint every day?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 32.1,
+     "end": 33.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Man"
+    },
+    {
+     "start": 33.1,
+     "end": 36.6,
+     "ja": "毎日9時から7時までずっと描いています。",
+     "en": "Every day from 9 to 7, I'm painting the whole time.",
+     "speaker": "Man"
+    },
+    {
+     "start": 37.3,
+     "end": 39.4,
+     "ja": "9時から7時までですか？",
+     "en": "From 9 to 7?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 39.5,
+     "end": 41.7,
+     "ja": "それは10時間ですね。",
+     "en": "That's 10 hours.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 42.1,
+     "end": 43.4,
+     "ja": "そうですね。",
+     "en": "That's right.",
+     "speaker": "Man"
+    },
+    {
+     "start": 43.5,
+     "end": 45.3,
+     "ja": "仕事ですから。",
+     "en": "Because it's my job.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "uqKtyV38bJw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

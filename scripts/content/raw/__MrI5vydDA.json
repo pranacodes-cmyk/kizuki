@@ -1,0 +1,222 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 232.4,
+   "end": 254.0,
+   "title": "Asking to Try on Clothes",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜てもいいですか — asking for permission",
+    "〜てくれる — doing something for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 232.6,
+     "end": 235.8,
+     "ja": "近くに男の店の人がいました。",
+     "en": "There was a male store clerk nearby.",
+     "speaker": "Kenta"
+    },
+    {
+     "start": 236.0,
+     "end": 240.0,
+     "ja": "「すみません！試着してもいいですか。」",
+     "en": "\"Excuse me! May I try this on?\"",
+     "speaker": "Kenta"
+    },
+    {
+     "start": 240.5,
+     "end": 243.0,
+     "ja": "ちゃんと声をかけましたね！",
+     "en": "You called out to him properly!",
+     "speaker": "Yui"
+    },
+    {
+     "start": 243.2,
+     "end": 246.5,
+     "ja": "店の人は笑顔で答えました。",
+     "en": "The clerk answered with a smile.",
+     "speaker": "Kenta"
+    },
+    {
+     "start": 246.7,
+     "end": 250.5,
+     "ja": "「どうぞ、あちらへ」と手を出しました。",
+     "en": "He gestured with his hand, \"Please, right this way.\"",
+     "speaker": "Kenta"
+    },
+    {
+     "start": 250.8,
+     "end": 253.6,
+     "ja": "優しく教えてくれましたね。",
+     "en": "He showed you the way so kindly.",
+     "speaker": "Yui"
+    }
+   ]
+  },
+  {
+   "start": 313.5,
+   "end": 343.5,
+   "title": "Asking for a Larger Size",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜はありますか — asking if something is available",
+    "〜になる — to become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 313.5,
+     "end": 316.8,
+     "ja": "カーテンを開けて、人を呼びました。",
+     "en": "I opened the curtain and called the staff.",
+     "speaker": "Kenta"
+    },
+    {
+     "start": 317.0,
+     "end": 320.5,
+     "ja": "「すみません！大きいサイズはありますか。」",
+     "en": "\"Excuse me! Do you have a larger size?\"",
+     "speaker": "Kenta"
+    },
+    {
+     "start": 320.8,
+     "end": 323.2,
+     "ja": "上手に聞けましたね！",
+     "en": "You asked very well!",
+     "speaker": "Yui"
+    },
+    {
+     "start": 323.5,
+     "end": 326.5,
+     "ja": "店の人はシャツを持ってきました。",
+     "en": "The clerk brought the shirt right over.",
+     "speaker": "Kenta"
+    },
+    {
+     "start": 326.8,
+     "end": 329.5,
+     "ja": "すぐに来てくれましたね。",
+     "en": "He came over right away.",
+     "speaker": "Yui"
+    },
+    {
+     "start": 329.8,
+     "end": 333.5,
+     "ja": "新しいシャツを着て、前を見ました。",
+     "en": "I put on the new shirt and looked forward.",
+     "speaker": "Kenta"
+    },
+    {
+     "start": 333.8,
+     "end": 336.5,
+     "ja": "今度はどうでしたか？",
+     "en": "How was it this time?",
+     "speaker": "Yui"
+    },
+    {
+     "start": 336.8,
+     "end": 340.2,
+     "ja": "肩も腕も楽になりました。",
+     "en": "My shoulders and arms became comfortable.",
+     "speaker": "Kenta"
+    },
+    {
+     "start": 340.5,
+     "end": 343.2,
+     "ja": "それはよかったですね！",
+     "en": "That is wonderful!",
+     "speaker": "Yui"
+    }
+   ]
+  },
+  {
+   "start": 524.0,
+   "end": 550.5,
+   "title": "Asking for a Different Color",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜と言う — quoting speech",
+    "〜が見つかる — to be found"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 524.4,
+     "end": 527.7,
+     "ja": "カーテンのそばで、人に聞きました。",
+     "en": "Near the curtain, I asked the staff.",
+     "speaker": "Yui"
+    },
+    {
+     "start": 528.0,
+     "end": 530.8,
+     "ja": "「違う色はありますか。」",
+     "en": "\"Do you have a different color?\"",
+     "speaker": "Yui"
+    },
+    {
+     "start": 531.0,
+     "end": 533.7,
+     "ja": "店の人は何と言いましたか？",
+     "en": "What did the clerk say?",
+     "speaker": "Kenta"
+    },
+    {
+     "start": 534.0,
+     "end": 537.2,
+     "ja": "店の人はコートを出してくれました。",
+     "en": "The clerk brought out a coat.",
+     "speaker": "Yui"
+    },
+    {
+     "start": 537.5,
+     "end": 540.4,
+     "ja": "落ち着いた色ですね！",
+     "en": "A calm color!",
+     "speaker": "Kenta"
+    },
+    {
+     "start": 540.7,
+     "end": 544.0,
+     "ja": "ベージュを着て、鏡を見ました。",
+     "en": "I tried on the beige and looked in the mirror.",
+     "speaker": "Yui"
+    },
+    {
+     "start": 544.2,
+     "end": 547.5,
+     "ja": "「ちょうどいいです！」そう言いましたよ。",
+     "en": "I said, \"It fits just right!\"",
+     "speaker": "Yui"
+    },
+    {
+     "start": 547.8,
+     "end": 550.5,
+     "ja": "いい服が見つかりましたね！",
+     "en": "You found clothes you really liked!",
+     "speaker": "Kenta"
+    }
+   ]
+  }
+ ],
+ "videoId": "__MrI5vydDA",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

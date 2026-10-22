@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.6,
+   "end": 9.5,
+   "title": "Welcome and Board Game Unboxing Intro",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜ていただく — receiving an action",
+    "〜たいと思います — expressing intention"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 2.5,
+     "ja": "はい、The Game Gallery チャンネル、Haru99 です。",
+     "en": "Hello, this is Haru99 from The Game Gallery channel.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 2.5,
+     "end": 5.8,
+     "ja": "今日ご紹介するアイテムはこちら、えー『アーティファクト・インク』ですね。",
+     "en": "The item I'm introducing today is this, \"Artifacts, Inc.\"",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 5.8,
+     "end": 9.3,
+     "ja": "今日はですね、こちらの中の開封レビューをお届けしたいと思います。",
+     "en": "Today, I'd like to bring you an unboxing review of what's inside.",
+     "speaker": "Haru99"
+    }
+   ]
+  },
+  {
+   "start": 197.3,
+   "end": 211.5,
+   "title": "Summary of Game Components",
+   "level": "N4",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜的に — in terms of / -wise",
+    "〜が入っている — containing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 197.3,
+     "end": 200.3,
+     "ja": "なのでコンポーネント的には、このドルが入っているシートが１個と、",
+     "en": "So component-wise, there is one sheet containing these dollars,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 200.3,
+     "end": 202.5,
+     "ja": "多分VPが入る評価シート１個、",
+     "en": "one score sheet that probably tracks VP,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 202.5,
+     "end": 204.3,
+     "ja": "プレイヤーのキューブが48個、",
+     "en": "48 player cubes,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 204.3,
+     "end": 205.7,
+     "ja": "ダイスが７個、",
+     "en": "7 dice,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 205.7,
+     "end": 208.0,
+     "ja": "カードが全部で72枚。",
+     "en": "and 72 cards in total.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 208.0,
+     "end": 211.2,
+     "ja": "ただこれ、表裏がありますね。両面ありますね、っていうのがありましたね。",
+     "en": "Although, these have both sides. They're double-sided, so there's that.",
+     "speaker": "Haru99"
+    }
+   ]
+  },
+  {
+   "start": 532.5,
+   "end": 550.2,
+   "title": "Closing Remarks and Channel Subscription",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "お〜いただく — humble polite request/reception",
+    "〜に関する — regarding / related to",
+    "〜ようになっている — is arranged/designed to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 532.5,
+     "end": 535.2,
+     "ja": "はい、今回の動画、お楽しみいただけましたでしょうか？",
+     "en": "Well, did you enjoy this video?",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 535.2,
+     "end": 538.6,
+     "ja": "The Game Gallery チャンネルですね、様々なボードゲームに関する話題をお届けしております。",
+     "en": "On The Game Gallery channel, we bring you various topics about board games.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 538.6,
+     "end": 544.5,
+     "ja": "YouTubeの方はですね、チャンネル登録の方をしていただけますと、私が動画の方を登録しました時に、それがですね、素早くお伝えできるようになっておりますので、",
+     "en": "If you subscribe to the YouTube channel, you will be notified promptly whenever I upload a new video,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 544.5,
+     "end": 547.3,
+     "ja": "ぜひチャンネル登録の方、お願いいたします。",
+     "en": "so please be sure to subscribe to the channel.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 547.3,
+     "end": 550.0,
+     "ja": "The Game Gallery チャンネルの Haru99 でした。",
+     "en": "This was Haru99 from The Game Gallery channel.",
+     "speaker": "Haru99"
+    }
+   ]
+  }
+ ],
+ "videoId": "9Y0eK1HGI6Y",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

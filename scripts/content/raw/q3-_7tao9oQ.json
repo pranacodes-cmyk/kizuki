@@ -1,0 +1,187 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 49.6,
+   "end": 67.5,
+   "title": "The Joy of Speaking Japanese on Trips",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜ば — conditional (if)",
+    "〜ないで — without doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 49.8,
+     "end": 53.0,
+     "ja": "今は、翻訳アプリなどを使えば、",
+     "en": "Nowadays, if you use translation apps and such,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 53.0,
+     "end": 57.6,
+     "ja": "一言も日本語を話さないで旅行することも可能だと思います。",
+     "en": "I think it's possible to travel without speaking a single word of Japanese.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 58.5,
+     "end": 62.5,
+     "ja": "でも、もし日本語を使って店員さんと話ができたら、",
+     "en": "But if you can speak with store staff in Japanese,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 62.7,
+     "end": 66.9,
+     "ja": "旅行がもっと楽しくなるし、いい思い出になりますよね。",
+     "en": "your trip will be much more fun and become a great memory, right?",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 724.0,
+   "end": 745.0,
+   "title": "Responding at a Convenience Store Register",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てほしい — want someone to do",
+    "〜ば — if/conditional"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 724.3,
+     "end": 726.5,
+     "ja": "例えば、コンビニのレジで",
+     "en": "For example, at a convenience store checkout,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 726.9,
+     "end": 730.5,
+     "ja": "「こちら、温めますか」と聞かれて、",
+     "en": "when asked, \"Would you like this heated up?\",",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 731.0,
+     "end": 736.0,
+     "ja": "温めてほしい場合は、「はい、お願いします」と言います。",
+     "en": "if you want it heated up, you say, \"Yes, please.\"",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 736.5,
+     "end": 740.4,
+     "ja": "もし、ここで必要がない場合は、「いいえ」とか",
+     "en": "If you don't need it heated up, you can say \"No\" or",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 740.8,
+     "end": 744.4,
+     "ja": "「いいえ、結構です」と言います。",
+     "en": "\"No, that's fine.\"",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 776.5,
+   "end": 802.2,
+   "title": "Paying by Credit Card at the Counter",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜で — means/method marker",
+    "お〜します — humble action"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 777.0,
+     "end": 781.0,
+     "ja": "では、こちら２点で6655円頂戴いたします。",
+     "en": "Alright, for these two items that comes to 6,655 yen.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 781.3,
+     "end": 784.2,
+     "ja": "あ、っと、クレジットで。お願いします。",
+     "en": "Ah, um, by credit card. Please.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 785.4,
+     "end": 787.4,
+     "ja": "少々お待ちください。",
+     "en": "Please wait a moment.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 789.5,
+     "end": 790.8,
+     "ja": "一括ですか？",
+     "en": "In a single payment?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 790.9,
+     "end": 792.7,
+     "ja": "あ、はい、一括で。",
+     "en": "Ah, yes, in a single payment.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 794.0,
+     "end": 795.5,
+     "ja": "こちらレシート、お渡しします。",
+     "en": "Here is your receipt.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 795.5,
+     "end": 797.3,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 798.5,
+     "end": 800.1,
+     "ja": "すみません、お待たせしました。",
+     "en": "Sorry to keep you waiting.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 800.1,
+     "end": 801.8,
+     "ja": "はーい、ありがとうございます。",
+     "en": "Okay, thank you very much.",
+     "speaker": "Yuka"
+    }
+   ]
+  }
+ ],
+ "videoId": "q3-_7tao9oQ",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

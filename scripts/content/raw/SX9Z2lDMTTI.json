@@ -1,0 +1,195 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 206.3,
+   "end": 231.2,
+   "title": "Ordering Beer First at an Izakaya",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — when / if",
+    "〜ながら — while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 206.5,
+     "end": 208.8,
+     "ja": "僕は、ほとんど決まってますね。",
+     "en": "For me, it's pretty much decided.",
+     "speaker": "Haruki"
+    },
+    {
+     "start": 208.8,
+     "end": 212.4,
+     "ja": "席に着いたら、まず「とりあえず、ビールで」と言います。",
+     "en": "When I sit down, I first say, \"I'll start with a beer.\"",
+     "speaker": "Haruki"
+    },
+    {
+     "start": 212.7,
+     "end": 215.7,
+     "ja": "あー！それ、よく聞きます！「とりあえずビール」！",
+     "en": "Ah! I hear that a lot! \"Toriaezu biiru\"!",
+     "speaker": "Yui"
+    },
+    {
+     "start": 216.0,
+     "end": 220.2,
+     "ja": "日本のドラマとかでも、会社の飲み会でみんな言ってるイメージです。",
+     "en": "Even in Japanese dramas, I have this image of everyone saying it at company drinking parties.",
+     "speaker": "Yui"
+    },
+    {
+     "start": 220.4,
+     "end": 221.7,
+     "ja": "そうそう。",
+     "en": "Exactly.",
+     "speaker": "Haruki"
+    },
+    {
+     "start": 221.7,
+     "end": 224.2,
+     "ja": "これはとても便利な言葉で、",
+     "en": "This is a very convenient phrase,",
+     "speaker": "Haruki"
+    },
+    {
+     "start": 224.2,
+     "end": 230.9,
+     "ja": "「まず最初はビールをお願いします。他の料理は、メニューを見ながらゆっくり考えます」という意味が含まれているんだ。",
+     "en": "and it implies, \"Please bring me a beer first. As for the other dishes, I will take my time looking at the menu and decide.\"",
+     "speaker": "Haruki"
+    }
+   ]
+  },
+  {
+   "start": 260.5,
+   "end": 279.8,
+   "title": "What Is an Otoushi?",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜かもしれない — might / perhaps",
+    "〜みたいな — like / similar to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 260.8,
+     "end": 263.3,
+     "ja": "ああ、それは「お通し」だね。",
+     "en": "Ah, that's \"otoushi\".",
+     "speaker": "Haruki"
+    },
+    {
+     "start": 263.6,
+     "end": 265.0,
+     "ja": "そう、「お通し」！",
+     "en": "Right, \"otoushi\"!",
+     "speaker": "Yui"
+    },
+    {
+     "start": 265.0,
+     "end": 268.6,
+     "ja": "最初、お店の人が間違えたのかなって思いました。",
+     "en": "At first, I thought the restaurant staff had made a mistake.",
+     "speaker": "Yui"
+    },
+    {
+     "start": 269.0,
+     "end": 271.7,
+     "ja": "初めてだと、そう思うかもしれないね。",
+     "en": "If it's your first time, you might think that.",
+     "speaker": "Haruki"
+    },
+    {
+     "start": 271.9,
+     "end": 275.5,
+     "ja": "「お通し」は、一種の席料みたいなもので、",
+     "en": "\"Otoushi\" is kind of like a seating charge,",
+     "speaker": "Haruki"
+    },
+    {
+     "start": 275.5,
+     "end": 279.5,
+     "ja": "最初の飲み物と一緒に出てくる小さな料理のことなんだ。",
+     "en": "and it refers to the small dish that comes out with your first drink.",
+     "speaker": "Haruki"
+    }
+   ]
+  },
+  {
+   "start": 507.0,
+   "end": 525.8,
+   "title": "The Culture of Shime at an Izakaya",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜のことだ — refers to / means",
+    "〜によって — depending on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 507.4,
+     "end": 510.3,
+     "ja": "それを、日本では「締め」って言うんだよ。",
+     "en": "In Japan, we call that \"shime.\"",
+     "speaker": "Haruki"
+    },
+    {
+     "start": 510.6,
+     "end": 513.1,
+     "ja": "「締め」？終わりの「締める」ですか？",
+     "en": "\"Shime\"? Like \"shimeru\" to finish at the end?",
+     "speaker": "Yui"
+    },
+    {
+     "start": 513.5,
+     "end": 517.4,
+     "ja": "そう。飲み会の最後に食べる炭水化物のことだね。",
+     "en": "Yes. It refers to the carbohydrates you eat at the end of a drinking party.",
+     "speaker": "Haruki"
+    },
+    {
+     "start": 517.7,
+     "end": 520.6,
+     "ja": "「これで食事を締める」という意味。",
+     "en": "It means \"wrapping up the meal with this.\"",
+     "speaker": "Haruki"
+    },
+    {
+     "start": 520.8,
+     "end": 523.5,
+     "ja": "ラーメンとか、焼きおにぎりとか、お蕎麦とか、",
+     "en": "Ramen, grilled onigiri, or soba...",
+     "speaker": "Haruki"
+    },
+    {
+     "start": 523.5,
+     "end": 525.5,
+     "ja": "人によって色々な「締め」がある。",
+     "en": "People have all kinds of different \"shime.\"",
+     "speaker": "Haruki"
+    }
+   ]
+  }
+ ],
+ "videoId": "SX9Z2lDMTTI",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,62 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.2,
+   "end": 16.8,
+   "title": "The Doctor's Account",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "〜てもいい — may / can",
+    "〜はずだ — should / bound to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.8,
+     "end": 3.8,
+     "ja": "ゴジラ襲撃の日、",
+     "en": "On the day of Godzilla's attack,",
+     "speaker": "Doctor"
+    },
+    {
+     "start": 4.3,
+     "end": 7.7,
+     "ja": "数百人の患者がこの病院を埋め尽くしていた。",
+     "en": "hundreds of patients filled this hospital to capacity.",
+     "speaker": "Doctor"
+    },
+    {
+     "start": 9.8,
+     "end": 11.6,
+     "ja": "断言してもいい。",
+     "en": "I can say with certainty.",
+     "speaker": "Doctor"
+    },
+    {
+     "start": 12.0,
+     "end": 13.8,
+     "ja": "その患者は本来なら、",
+     "en": "Normally, those patients...",
+     "speaker": "Doctor"
+    },
+    {
+     "start": 14.5,
+     "end": 16.6,
+     "ja": "絶対亡くなっていたはずだ。",
+     "en": "...should definitely have died.",
+     "speaker": "Doctor"
+    }
+   ]
+  }
+ ],
+ "videoId": "We3rt2uQpoY",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

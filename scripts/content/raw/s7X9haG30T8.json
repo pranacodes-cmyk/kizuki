@@ -1,0 +1,168 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 13.5,
+   "end": 29.8,
+   "title": "Heading to Work at Japanese School",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "work",
+    "school"
+   ],
+   "grammar": [
+    "〜ている — ongoing action / habit",
+    "〜ので — because / so"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.7,
+     "end": 15.8,
+     "ja": "皆さんこんにちは、ゆかです。",
+     "en": "Hello everyone, I'm Yuka.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 16.0,
+     "end": 19.4,
+     "ja": "４月のポッドキャストでも話したんですけど、",
+     "en": "As I mentioned in April's podcast,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 19.4,
+     "end": 24.4,
+     "ja": "私は４月から日本語学校で週に２回授業をしています。",
+     "en": "since April I've been teaching at a Japanese language school twice a week.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 24.4,
+     "end": 26.5,
+     "ja": "この日は出勤日なので、",
+     "en": "Today is a work day, so",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 26.5,
+     "end": 29.5,
+     "ja": "電車に乗って学校に向かっています。",
+     "en": "I'm taking the train and heading to school.",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 36.0,
+   "end": 51.0,
+   "title": "Arriving at School and Teaching Level",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜に着く — arrive at",
+    "〜ている — ongoing action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 36.2,
+     "end": 38.8,
+     "ja": "学校の最寄り駅に着きました。",
+     "en": "I arrived at the school's nearest station.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 40.3,
+     "end": 42.5,
+     "ja": "この日のお昼ご飯です。",
+     "en": "This is today's lunch.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 44.2,
+     "end": 47.3,
+     "ja": "今教えているレベルは、Ｎ４の後半です。",
+     "en": "The level I'm teaching right now is the latter half of N4.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 47.3,
+     "end": 50.8,
+     "ja": "「みんなの日本語」の２を使っています。",
+     "en": "We're using 'Minna no Nihongo 2'.",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 102.0,
+   "end": 117.8,
+   "title": "Exploring the Shopping Street After Work",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜がある — existence of inanimate object",
+    "〜の前 — in front of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 102.3,
+     "end": 104.8,
+     "ja": "仕事が終わりました。",
+     "en": "Work is finished!",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 105.1,
+     "end": 108.8,
+     "ja": "学校の近くには、商店街がたくさんあります。",
+     "en": "Near the school, there are many shopping streets.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 109.1,
+     "end": 111.1,
+     "ja": "ここが商店街です。",
+     "en": "This is the shopping street.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 111.1,
+     "end": 113.9,
+     "ja": "色々なお店がたくさんある場所です。",
+     "en": "It's a place with many different shops.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 114.3,
+     "end": 115.9,
+     "ja": "ここは駅の前です。",
+     "en": "Here is in front of the station.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 115.9,
+     "end": 117.5,
+     "ja": "たくさんのビルがあります。",
+     "en": "There are lots of buildings.",
+     "speaker": "Yuka"
+    }
+   ]
+  }
+ ],
+ "videoId": "s7X9haG30T8",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

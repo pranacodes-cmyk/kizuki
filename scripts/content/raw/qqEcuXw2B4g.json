@@ -1,0 +1,211 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 66.0,
+   "end": 81.0,
+   "title": "It's Like a Chain Letter",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜みたいな — like / similar to",
+    "〜ないと — must / unless you do",
+    "〜ちゃう — end up doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 66.3,
+     "end": 67.5,
+     "ja": "分かった。",
+     "en": "I get it.",
+     "speaker": "Man"
+    },
+    {
+     "start": 67.6,
+     "end": 69.1,
+     "ja": "チェーンメールみたいな。",
+     "en": "It's like a chain letter.",
+     "speaker": "Man"
+    },
+    {
+     "start": 69.3,
+     "end": 71.6,
+     "ja": "チェーンメールって例えばどんなふうに使われてるんですか？",
+     "en": "How is a chain letter used, for example?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 71.8,
+     "end": 74.5,
+     "ja": "ええ、なんか「これを転送しないと」みたいな。",
+     "en": "Like, 'If you don't forward this, something will happen...'",
+     "speaker": "Man"
+    },
+    {
+     "start": 74.8,
+     "end": 76.1,
+     "ja": "不幸になるとか？",
+     "en": "Like having bad luck?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 76.1,
+     "end": 76.6,
+     "ja": "とか。",
+     "en": "Right.",
+     "speaker": "Man"
+    },
+    {
+     "start": 76.6,
+     "end": 77.6,
+     "ja": "会いに来ちゃうとか？",
+     "en": "Or something coming to visit?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 77.6,
+     "end": 78.2,
+     "ja": "来ちゃうとか。",
+     "en": "Yeah, coming to visit.",
+     "speaker": "Man"
+    },
+    {
+     "start": 78.3,
+     "end": 79.4,
+     "ja": "ありましたね、そういうの。",
+     "en": "There used to be things like that.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 79.5,
+     "end": 80.9,
+     "ja": "なんか昔流行ったかなーって。",
+     "en": "I remember it was popular back then.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 113.8,
+   "end": 124.0,
+   "title": "Would You Play This Game?",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜てみたい — want to try doing",
+    "〜たくない — do not want to",
+    "〜による — depends on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 114.0,
+     "end": 116.8,
+     "ja": "あなたはこれを試してみたいと思いますか？",
+     "en": "Would you want to try playing this?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 116.9,
+     "end": 118.3,
+     "ja": "え、思わない。",
+     "en": "No, I wouldn't.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 118.4,
+     "end": 120.6,
+     "ja": "死にたくはないですね。",
+     "en": "I don't want to die.",
+     "speaker": "Man"
+    },
+    {
+     "start": 120.9,
+     "end": 123.7,
+     "ja": "ま、内容によるかもしれないですね。できる範囲。",
+     "en": "Well, it might depend on the tasks. Within reason.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 502.5,
+   "end": 517.5,
+   "title": "The Importance of Living On",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜続ける — continue doing",
+    "〜っていうのも — the reason being",
+    "〜その分 — all the more / to that extent"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 502.7,
+     "end": 504.0,
+     "ja": "今ハッピーですか？",
+     "en": "Are you happy now?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 504.1,
+     "end": 505.2,
+     "ja": "ハッピーです。",
+     "en": "I am happy.",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 505.5,
+     "end": 506.5,
+     "ja": "どうですか？",
+     "en": "How about you?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 506.6,
+     "end": 509.5,
+     "ja": "まずは、生き続けることが大事だと思います。",
+     "en": "First of all, I think it's important to keep on living.",
+     "speaker": "Woman 2"
+    },
+    {
+     "start": 509.6,
+     "end": 510.8,
+     "ja": "っていうのも、",
+     "en": "That's because,",
+     "speaker": "Woman 2"
+    },
+    {
+     "start": 511.0,
+     "end": 513.3,
+     "ja": "この先辛いこと苦しいこともあるんですが、",
+     "en": "even though painful and difficult things will happen in the future,",
+     "speaker": "Woman 2"
+    },
+    {
+     "start": 513.4,
+     "end": 517.2,
+     "ja": "その分楽しいことや嬉しいこともたくさん出てくるので。",
+     "en": "just as many fun and joyful things will come along too.",
+     "speaker": "Woman 2"
+    }
+   ]
+  }
+ ],
+ "videoId": "qqEcuXw2B4g",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

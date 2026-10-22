@@ -1,0 +1,85 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 206.0,
+   "end": 235.0,
+   "title": "Diet and Legal Panel Discuss Prostitution Laws",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "work"
+   ],
+   "grammar": [
+    "〜べき — should / ought to",
+    "〜てくる — action continuing up to the present"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 206.3,
+     "end": 208.8,
+     "ja": "この問題は国会でも取り上げられ、",
+     "en": "This issue was also addressed in the Diet,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 209.0,
+     "end": 214.8,
+     "ja": "去年、岸田総理は規制のあり方の検討を進めるよう法務大臣に指示。",
+     "en": "and last year, Prime Minister Kishida instructed the Minister of Justice to look into regulations.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 216.2,
+     "end": 222.5,
+     "ja": "法務省で検討会が設置され、有識者らによる議論が進められてきました。",
+     "en": "A panel was set up at the Ministry of Justice, and discussions among experts have been held.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 225.8,
+     "end": 234.8,
+     "ja": "そしてきょう午後、検討会は買う側の声かけなどにも罰則を設けるべきとの意見を取りまとめたのです。",
+     "en": "And this afternoon, the panel concluded that penalties should also be imposed on solicitations by buyers.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 278.0,
+   "end": 287.5,
+   "title": "Ministry Considers Legal Revisions",
+   "level": "N1",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜をもとに — based on",
+    "〜ものとみられる — is expected to / seen as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 278.2,
+     "end": 282.2,
+     "ja": "法務省は、取りまとめられた報告書をもとに、",
+     "en": "Based on the compiled report, the Ministry of Justice",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 282.4,
+     "end": 287.0,
+     "ja": "売春防止法の改正に向けた検討を進めるものとみられます。",
+     "en": "is expected to proceed with deliberations toward revising the Anti-Prostitution Act.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "mmW-NN4SVlY",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

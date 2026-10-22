@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.6,
+   "end": 7.5,
+   "title": "I Ran Away from Japan",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜てきた — action continuing up to now",
+    "〜んだ — explanatory nuance"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 1.9,
+     "ja": "本当は俺、",
+     "en": "To tell the truth,",
+     "speaker": "Man A"
+    },
+    {
+     "start": 2.0,
+     "end": 3.0,
+     "ja": "逃げてきた。",
+     "en": "I ran away.",
+     "speaker": "Man A"
+    },
+    {
+     "start": 3.1,
+     "end": 4.1,
+     "ja": "日本から。",
+     "en": "From Japan.",
+     "speaker": "Man A"
+    },
+    {
+     "start": 4.6,
+     "end": 5.8,
+     "ja": "好きなんだよね、",
+     "en": "I really like you,",
+     "speaker": "Man B"
+    },
+    {
+     "start": 5.9,
+     "end": 7.1,
+     "ja": "お前が。",
+     "en": "you know.",
+     "speaker": "Man B"
+    }
+   ]
+  },
+  {
+   "start": 19.8,
+   "end": 29.2,
+   "title": "He Is Everything to Me",
+   "level": "N4",
+   "topics": [
+    "family",
+    "friends"
+   ],
+   "grammar": [
+    "〜てくれてありがとう — thanking for a favor",
+    "別に — not particularly / it's nothing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 20.0,
+     "end": 22.1,
+     "ja": "助けてくれて、ありがとうございました。",
+     "en": "Thank you very much for saving me.",
+     "speaker": "Man A"
+    },
+    {
+     "start": 22.2,
+     "end": 23.3,
+     "ja": "別に。",
+     "en": "It was nothing.",
+     "speaker": "Man B"
+    },
+    {
+     "start": 23.5,
+     "end": 25.1,
+     "ja": "うち、親いません。",
+     "en": "We don't have parents.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 25.2,
+     "end": 27.2,
+     "ja": "お兄ちゃんがお父さんでお母さん。",
+     "en": "My brother is my father and mother.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 27.3,
+     "end": 28.9,
+     "ja": "私の家族の全部です。",
+     "en": "He is my entire family.",
+     "speaker": "Girl"
+    }
+   ]
+  },
+  {
+   "start": 49.0,
+   "end": 57.7,
+   "title": "Let's Live Together in Japan",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "〜って — casual topic marker / definition",
+    "〜よう — volitional form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 49.3,
+     "end": 50.8,
+     "ja": "寂しいって、",
+     "en": "Feeling lonely means...",
+     "speaker": "Man A"
+    },
+    {
+     "start": 50.9,
+     "end": 53.4,
+     "ja": "大切な人がいるってことだよ。",
+     "en": "...that you have someone precious to you.",
+     "speaker": "Man A"
+    },
+    {
+     "start": 54.7,
+     "end": 56.1,
+     "ja": "一緒に暮らそう。",
+     "en": "Let's live together.",
+     "speaker": "Man A"
+    },
+    {
+     "start": 56.4,
+     "end": 57.5,
+     "ja": "日本で。",
+     "en": "In Japan.",
+     "speaker": "Man A"
+    }
+   ]
+  }
+ ],
+ "videoId": "2ADAp1mA3vo",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

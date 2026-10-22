@@ -1,0 +1,237 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 41.2,
+   "end": 106.5,
+   "title": "The Art Museum Mirror",
+   "level": "N5",
+   "topics": [
+    "comedy",
+    "culture"
+   ],
+   "grammar": [
+    "〜ですね — seeking confirmation",
+    "〜ています — ongoing state/action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 41.2,
+     "end": 43.0,
+     "ja": "ああ、そうですか。",
+     "en": "Oh, is that so?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 43.0,
+     "end": 46.0,
+     "ja": "じゃ、この絵はモネですか？",
+     "en": "Then is this painting by Monet?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 46.0,
+     "end": 50.0,
+     "ja": "いいえ、その絵がダ・ヴィンチです。",
+     "en": "No, that one is Da Vinci.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 51.0,
+     "end": 53.0,
+     "ja": "ああ、そうなの。",
+     "en": "Oh, really?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 53.0,
+     "end": 55.3,
+     "ja": "あ、この絵は知っています。",
+     "en": "Ah, I know this picture.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 55.3,
+     "end": 57.3,
+     "ja": "有名な絵よねえ。",
+     "en": "It's a famous painting, isn't it?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 57.3,
+     "end": 60.0,
+     "ja": "顔がぐっちゃぐちゃで、",
+     "en": "The face is all messed up,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 60.8,
+     "end": 63.5,
+     "ja": "この絵はピカソですね？",
+     "en": "so this painting is a Picasso, right?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 63.9,
+     "end": 66.0,
+     "ja": "いいえ、鏡です。",
+     "en": "No, that's a mirror.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 136.5,
+   "end": 202.5,
+   "title": "Brothers Arguing",
+   "level": "N5",
+   "topics": [
+    "comedy",
+    "family"
+   ],
+   "grammar": [
+    "〜みたいな — looks like / similar to",
+    "〜なさい — command / instruction",
+    "〜から — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 136.8,
+     "end": 139.8,
+     "ja": "お前のお母さん、もっとブス！",
+     "en": "Your mom is even uglier!",
+     "speaker": "Boy"
+    },
+    {
+     "start": 140.4,
+     "end": 144.2,
+     "ja": "お前のお母さん、猿みたいな顔！",
+     "en": "Your mom has a face like a monkey!",
+     "speaker": "Boy"
+    },
+    {
+     "start": 144.7,
+     "end": 149.0,
+     "ja": "お前のお母さん、鼻毛が出てるー！",
+     "en": "Your mom has nose hair sticking out!",
+     "speaker": "Boy"
+    },
+    {
+     "start": 149.5,
+     "end": 152.3,
+     "ja": "すると、女の人が言いました。",
+     "en": "Then, a woman said:",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 152.5,
+     "end": 154.6,
+     "ja": "「ちょっと、やめなさい。",
+     "en": "\"Hey, stop it.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 154.8,
+     "end": 158.5,
+     "ja": "二人とも仲良くしなさい。",
+     "en": "Both of you get along.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 159.4,
+     "end": 202.0,
+     "ja": "兄弟なんだから。」",
+     "en": "You're brothers, after all.\"",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 252.5,
+   "end": 320.3,
+   "title": "Cutting the Pizza",
+   "level": "N5",
+   "topics": [
+    "comedy",
+    "food"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜られない — potential negative (cannot do)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 252.8,
+     "end": 254.6,
+     "ja": "ピザのお店の人が、",
+     "en": "The pizza shop clerk",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 254.7,
+     "end": 258.2,
+     "ja": "ちょっと馬鹿なお客さんに言いました。",
+     "en": "said to a rather silly customer:",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 258.4,
+     "end": 302.0,
+     "ja": "「お客様、ピザは",
+     "en": "\"Sir, would you like your pizza",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 302.5,
+     "end": 305.1,
+     "ja": "６個に切りますか？",
+     "en": "cut into six slices,",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 305.4,
+     "end": 308.5,
+     "ja": "それとも12個に切りますか？」",
+     "en": "or into twelve slices?\"",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 308.8,
+     "end": 311.0,
+     "ja": "「ピザは６個に切りますか？",
+     "en": "\"Cut into six slices,",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 311.2,
+     "end": 314.0,
+     "ja": "それとも12個に切りますか？」",
+     "en": "or into twelve slices?\"",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 314.4,
+     "end": 317.3,
+     "ja": "「あの、６個にしてください。",
+     "en": "\"Um, please make it six.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 317.5,
+     "end": 319.8,
+     "ja": "12個も食べられないので。」",
+     "en": "Because I can't eat twelve.\"",
+     "speaker": "Customer"
+    }
+   ]
+  }
+ ],
+ "videoId": "ZlfuBGTK2Xk",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 13.2,
+   "end": 34.5,
+   "title": "Opening a Package from Home",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜てくれる — doing something for someone's benefit",
+    "〜てみる — trying to do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.3,
+     "end": 16.4,
+     "ja": "今、午後１１時２２分です。",
+     "en": "Now it's 11:22 PM.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 16.8,
+     "end": 22.3,
+     "ja": "１０時に仕事を終えて、帰ってきて、速攻でシャワーを浴びて、今です。",
+     "en": "I finished work at 10, came home, quickly took a shower, and here I am now.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 23.0,
+     "end": 27.8,
+     "ja": "日本からお母さんが荷物を送ってくれたので、それをちょっと開けてみようと思います。",
+     "en": "My mom sent me a package from Japan, so I'm going to open it.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 28.4,
+     "end": 34.3,
+     "ja": "ちなみにコロナの影響で、「配送に時間がかかる」って言われてたんですけど、１週間くらいで届きました。",
+     "en": "By the way, due to COVID, they told me delivery would take time, but it arrived in about a week.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 127.5,
+   "end": 155.0,
+   "title": "Buying Pajamas from Japan",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜てもらう — receiving a favor",
+    "〜てに入る — to obtain / get hold of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 127.8,
+     "end": 131.2,
+     "ja": "わたしがシンガポールにきた時、秋でした。",
+     "en": "When I came to Singapore, it was autumn.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 131.4,
+     "end": 136.6,
+     "ja": "１１月にきたので、日本で夏物のパジャマはぜんぜん買えませんでした。",
+     "en": "Since I came in November, I couldn't buy any summer pajamas in Japan.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 137.3,
+     "end": 145.5,
+     "ja": "シンガポールにもユニクロはあるんですけどＧＵはなくて、なんか可愛くてお手頃なパジャマが全然手に入らなかったので、",
+     "en": "There is Uniqlo in Singapore, but no GU, and I couldn't get any cute and affordable pajamas at all, so...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 146.5,
+     "end": 152.0,
+     "ja": "「日本のＧＵで新しいパジャマを売り出した！」という情報を見たので、ネットで買って実家に届けました。",
+     "en": "I saw that GU in Japan released new pajamas, so I bought them online and had them delivered to my family's house.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 152.2,
+     "end": 154.5,
+     "ja": "で、それを送ってもらいました〜",
+     "en": "And then I had them forward them to me!",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 449.8,
+   "end": 471.5,
+   "title": "Reflections as a Japanese Teacher",
+   "level": "N3",
+   "topics": [
+    "work",
+    "school"
+   ],
+   "grammar": [
+    "〜てくる — gradual change over time",
+    "〜と思うと — as soon as / just when one thinks that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 450.1,
+     "end": 455.2,
+     "ja": "日本語教師になって９ヶ月。やっと自分のスタイルがわかってきました。",
+     "en": "It's been nine months since I became a Japanese teacher. I've finally started understanding my own style.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 456.5,
+     "end": 462.5,
+     "ja": "ちょっと何かを掴めた！と思うと、また新たな課題が出てきて、",
+     "en": "Whenever I think I've got the hang of something, a new challenge appears...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 463.7,
+     "end": 471.2,
+     "ja": "「まだまだだな〜」と思いながら頑張って、ちょっとずつ成長する、みたいな感じです。",
+     "en": "...and it feels like I'm gradually growing while trying my best and thinking, 'I still have a long way to go.'",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "sr7zaUwiFuw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,237 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 151.5,
+   "end": 171.3,
+   "title": "What Fuku Wanted to Eat",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜たい — wanting to do something",
+    "〜て言われる — passive reporting"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 151.7,
+     "end": 153.2,
+     "ja": "びっくりしたのがさ、",
+     "en": "What surprised me was...",
+     "speaker": "Dad"
+    },
+    {
+     "start": 153.4,
+     "end": 155.3,
+     "ja": "福ちゃんが欲しいもの？",
+     "en": "...the thing Fuku wanted?",
+     "speaker": "Dad"
+    },
+    {
+     "start": 155.4,
+     "end": 155.8,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 156.0,
+     "end": 158.7,
+     "ja": "してほしいことあれば教えてっていうことの中に、",
+     "en": "When asked if there was anything she wanted us to do,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 158.9,
+     "end": 162.2,
+     "ja": "福ちゃんが、細くて長くて硬いもの、",
+     "en": "Fuku said something thin, long, and hard...",
+     "speaker": "Mom"
+    },
+    {
+     "start": 162.4,
+     "end": 164.5,
+     "ja": "それが食べたいって言ってると。",
+     "en": "...that she wanted to eat that.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 164.8,
+     "end": 166.7,
+     "ja": "「何かありますか？」って言われて、",
+     "en": "When they asked, \"Does anything come to mind?\",",
+     "speaker": "Mom"
+    },
+    {
+     "start": 166.9,
+     "end": 168.3,
+     "ja": "もうそれで一瞬でピンときて。",
+     "en": "it immediately clicked.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 168.4,
+     "end": 169.4,
+     "ja": "ピンときたもんな。",
+     "en": "It totally did.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 169.5,
+     "end": 170.8,
+     "ja": "あ、そう。馬のアキレス！ね！",
+     "en": "Ah, right. Horse achilles tendon! Right?",
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
+   "start": 207.5,
+   "end": 221.5,
+   "title": "Where Fuku Wants to Go",
+   "level": "N3",
+   "topics": [
+    "animals",
+    "travel"
+   ],
+   "grammar": [
+    "〜ば〜ほど — the more... the more...",
+    "〜たい — wanting to do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 207.7,
+     "end": 209.8,
+     "ja": "行きたいところっていうところでは、",
+     "en": "As for places she wants to go,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 209.9,
+     "end": 211.3,
+     "ja": "お出かけが好きだから、",
+     "en": "since she loves going out,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 211.4,
+     "end": 212.0,
+     "ja": "ねえ。",
+     "en": "Yeah.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 212.2,
+     "end": 215.3,
+     "ja": "なんかいっぱい新しいところに行きたいって言ってたね。",
+     "en": "she said she wants to go to lots of new places.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 215.4,
+     "end": 217.7,
+     "ja": "遠ければ遠いほどいいって言ってたな。",
+     "en": "She said the further, the better.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 218.0,
+     "end": 220.8,
+     "ja": "うん。ほんとお出かけ大好きだから。",
+     "en": "Yeah. She really loves going on outings.",
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
+   "start": 278.0,
+   "end": 301.0,
+   "title": "Do You Love Mom or Dad More?",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "family",
+    "comedy"
+   ],
+   "grammar": [
+    "〜と — when / conditional",
+    "〜し — listing reasons"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 278.4,
+     "end": 279.9,
+     "ja": "パパとママどっちが好きか。",
+     "en": "Which one she likes more, Dad or Mom.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 280.1,
+     "end": 282.1,
+     "ja": "パパとママどっちが好き？って聞いたら、",
+     "en": "When asked whether she likes Dad or Mom more,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 282.3,
+     "end": 284.2,
+     "ja": "福ちゃんは「言えません」って。",
+     "en": "Fuku said, \"I can't say.\"",
+     "speaker": "Mom"
+    },
+    {
+     "start": 284.4,
+     "end": 286.9,
+     "ja": "ママの方が好きって言うとパパが可哀想だし、",
+     "en": "Because if she says Mom, she feels bad for Dad,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 287.1,
+     "end": 289.7,
+     "ja": "パパの方が好きって言うとママが可哀想だから、",
+     "en": "and if she says Dad, she feels bad for Mom,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 289.8,
+     "end": 291.5,
+     "ja": "「どっちも好き」って。",
+     "en": "so she said, \"I love both.\"",
+     "speaker": "Mom"
+    },
+    {
+     "start": 291.7,
+     "end": 295.6,
+     "ja": "そういうね、ことを言って、なんか福ちゃんらしいなっていうか、",
+     "en": "Hearing her say that, it felt so typical of Fuku...",
+     "speaker": "Mom"
+    },
+    {
+     "start": 295.7,
+     "end": 296.3,
+     "ja": "ねえ。",
+     "en": "Yeah.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 296.5,
+     "end": 300.2,
+     "ja": "なんか優しいなって。ねえ、福ちゃん優しいねって思ったし。",
+     "en": "...like she's so thoughtful. I thought, 'Fuku, you're so sweet.'",
+     "speaker": "Mom"
+    }
+   ]
+  }
+ ],
+ "videoId": "Ei0IHuq0hXI",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

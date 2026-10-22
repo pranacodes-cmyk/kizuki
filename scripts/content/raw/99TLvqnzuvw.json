@@ -1,0 +1,187 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 219.0,
+   "end": 247.0,
+   "title": "Buying Souvenirs at a Shop",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜個 / 〜つ — counter suffixes",
+    "〜をください — please give me"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 219.3,
+     "end": 223.0,
+     "ja": "おいしそうですね。いくらですか？",
+     "en": "That looks delicious. How much is it?",
+     "speaker": "Traveler"
+    },
+    {
+     "start": 224.7,
+     "end": 227.3,
+     "ja": "1箱、1000円です。",
+     "en": "One box is 1,000 yen.",
+     "speaker": "Shopkeeper"
+    },
+    {
+     "start": 229.0,
+     "end": 232.5,
+     "ja": "箱の中に、何個入っていますか？",
+     "en": "How many pieces are in the box?",
+     "speaker": "Traveler"
+    },
+    {
+     "start": 234.0,
+     "end": 236.5,
+     "ja": "12個入っていますよ。",
+     "en": "There are 12 pieces inside.",
+     "speaker": "Shopkeeper"
+    },
+    {
+     "start": 238.5,
+     "end": 241.5,
+     "ja": "じゃあ、これを3つください。",
+     "en": "Then, three of these, please.",
+     "speaker": "Traveler"
+    },
+    {
+     "start": 243.5,
+     "end": 246.5,
+     "ja": "3つですね。ありがとうございます。",
+     "en": "Three, right. Thank you very much.",
+     "speaker": "Shopkeeper"
+    }
+   ]
+  },
+  {
+   "start": 282.3,
+   "end": 308.7,
+   "title": "Asking Someone to Take a Photo",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜てもらえませんか — could you please",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 282.8,
+     "end": 286.5,
+     "ja": "ここで写真を撮ってもらえませんか？",
+     "en": "Could you take a photo of me here?",
+     "speaker": "Traveler"
+    },
+    {
+     "start": 287.8,
+     "end": 290.5,
+     "ja": "いいですよ。スマホですか？",
+     "en": "Sure. Is it a smartphone?",
+     "speaker": "Passerby"
+    },
+    {
+     "start": 291.8,
+     "end": 296.0,
+     "ja": "はい。この白いボタンを押してください。",
+     "en": "Yes. Please press this white button.",
+     "speaker": "Traveler"
+    },
+    {
+     "start": 297.6,
+     "end": 300.6,
+     "ja": "分かりました。じゃあ、撮りますよ。",
+     "en": "Understood. Okay, I'm taking it.",
+     "speaker": "Passerby"
+    },
+    {
+     "start": 302.5,
+     "end": 304.5,
+     "ja": "はい、チーズ。",
+     "en": "Say cheese.",
+     "speaker": "Passerby"
+    },
+    {
+     "start": 305.5,
+     "end": 308.0,
+     "ja": "どうですか？大丈夫ですか？",
+     "en": "How is it? Is it okay?",
+     "speaker": "Passerby"
+    }
+   ]
+  },
+  {
+   "start": 344.2,
+   "end": 373.2,
+   "title": "Taking a Taxi to the Hotel",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜まで — up to / until",
+    "〜くらい — about / approximately"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 344.7,
+     "end": 347.5,
+     "ja": "どうぞ。どちらまで行きますか？",
+     "en": "Please, get in. Where to?",
+     "speaker": "Driver"
+    },
+    {
+     "start": 349.0,
+     "end": 352.5,
+     "ja": "東京ホテルまでお願いします。",
+     "en": "To the Tokyo Hotel, please.",
+     "speaker": "Passenger"
+    },
+    {
+     "start": 354.0,
+     "end": 357.8,
+     "ja": "東京ホテルですね。かしこまりました。",
+     "en": "Tokyo Hotel, right. Certainly.",
+     "speaker": "Driver"
+    },
+    {
+     "start": 359.5,
+     "end": 362.5,
+     "ja": "どのくらい時間がかかりますか？",
+     "en": "About how long will it take?",
+     "speaker": "Passenger"
+    },
+    {
+     "start": 364.5,
+     "end": 368.5,
+     "ja": "そうですね。今は道が空いていますから、",
+     "en": "Let's see. The roads are clear now,",
+     "speaker": "Driver"
+    },
+    {
+     "start": 370.5,
+     "end": 372.5,
+     "ja": "20分くらいです。",
+     "en": "so about 20 minutes.",
+     "speaker": "Driver"
+    }
+   ]
+  }
+ ],
+ "videoId": "99TLvqnzuvw",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

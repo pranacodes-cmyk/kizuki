@@ -1,0 +1,160 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.6,
+   "end": 15.3,
+   "title": "A Miraculous Destiny",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜ような — like / as if",
+    "〜ようとする — try to / struggle to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.7,
+     "end": 3.5,
+     "ja": "あの時、俺たちが手にしたのは、",
+     "en": "Back then, what we held in our hands",
+     "speaker": "Kai"
+    },
+    {
+     "start": 3.6,
+     "end": 6.8,
+     "ja": "奇跡のような運命だった。",
+     "en": "was a destiny like a miracle.",
+     "speaker": "Kai"
+    },
+    {
+     "start": 7.8,
+     "end": 10.9,
+     "ja": "俺は漫画で、暁海は刺繍で、",
+     "en": "Me through manga, Akimi through embroidery,",
+     "speaker": "Kai"
+    },
+    {
+     "start": 11.1,
+     "end": 13.2,
+     "ja": "ここではないどこかへ行こうと、",
+     "en": "trying to get somewhere other than here,",
+     "speaker": "Kai"
+    },
+    {
+     "start": 13.3,
+     "end": 15.2,
+     "ja": "必死にもがいていた。",
+     "en": "we were desperately struggling.",
+     "speaker": "Kai"
+    }
+   ]
+  },
+  {
+   "start": 23.2,
+   "end": 35.8,
+   "title": "Chasing Dreams and Leaving the Island",
+   "level": "N3",
+   "topics": [
+    "work",
+    "friends"
+   ],
+   "grammar": [
+    "〜なら — if / when it comes to",
+    "〜たい — want to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.6,
+     "end": 24.9,
+     "ja": "東京に行く。",
+     "en": "I'm going to Tokyo.",
+     "speaker": "Kai"
+    },
+    {
+     "start": 25.1,
+     "end": 26.7,
+     "ja": "漫画で売れる。",
+     "en": "I'll make it big with manga.",
+     "speaker": "Kai"
+    },
+    {
+     "start": 27.2,
+     "end": 30.0,
+     "ja": "島を出るなら、自分の力で出たいかな。",
+     "en": "If I leave the island, I want to do it on my own strength.",
+     "speaker": "Akimi"
+    },
+    {
+     "start": 30.8,
+     "end": 33.2,
+     "ja": "櫂は好き勝手やって贅沢だよな。",
+     "en": "Kai just does whatever he wants. What a luxury.",
+     "speaker": "Friend 1"
+    },
+    {
+     "start": 33.4,
+     "end": 35.5,
+     "ja": "そのうち痛い目見るよ。",
+     "en": "He'll learn the hard way sooner or later.",
+     "speaker": "Friend 2"
+    }
+   ]
+  },
+  {
+   "start": 55.3,
+   "end": 106.7,
+   "title": "Nobody Knows What Is Right",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜なんて — things like / such as",
+    "〜てしまいなさい — do completely / throw away (imperative)",
+    "〜たい — want to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 55.5,
+     "end": 58.0,
+     "ja": "正しさなんて誰にも分からない。",
+     "en": "Nobody knows what is truly right.",
+     "speaker": "Man"
+    },
+    {
+     "start": 58.2,
+     "end": 60.2,
+     "ja": "だから君ももう、捨ててしまいなさい。",
+     "en": "So you should just cast it aside, too.",
+     "speaker": "Man"
+    },
+    {
+     "start": 60.8,
+     "end": 63.1,
+     "ja": "どこまで続くか分からない。",
+     "en": "I don't know how long it will last.",
+     "speaker": "Kai"
+    },
+    {
+     "start": 63.3,
+     "end": 66.5,
+     "ja": "けれど、続くところまで共に歩きたい。",
+     "en": "But as far as it goes, I want to walk together.",
+     "speaker": "Kai"
+    }
+   ]
+  }
+ ],
+ "videoId": "PoMq1TVEj-k",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

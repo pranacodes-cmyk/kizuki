@@ -1,0 +1,280 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 8.5,
+   "end": 38.5,
+   "title": "Interviewing Taiwanese People About Japan",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜てみる — to try doing",
+    "〜同士 — between / mutual"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 8.8,
+     "end": 12.5,
+     "ja": "多分ちょうど2年前くらい、ちょっと似てる動画撮りましたね。",
+     "en": "Maybe around two years ago, we filmed a similar video.",
+     "speaker": "A"
+    },
+    {
+     "start": 12.7,
+     "end": 14.0,
+     "ja": "日本への偏見ですね。",
+     "en": "Prejudices about Japan, right?",
+     "speaker": "B"
+    },
+    {
+     "start": 14.2,
+     "end": 18.0,
+     "ja": "その時は私とズズの台湾人同士の意見を語ったんですけども、",
+     "en": "Back then we shared opinions between us Taiwanese, but...",
+     "speaker": "A"
+    },
+    {
+     "start": 18.1,
+     "end": 20.4,
+     "ja": "今回は街頭調査したい！",
+     "en": "This time we want to interview people on the street!",
+     "speaker": "B"
+    },
+    {
+     "start": 20.6,
+     "end": 23.7,
+     "ja": "だって私達の意見は台湾人の意見じゃないよね。",
+     "en": "Because our opinions aren't representative of Taiwanese people, right?",
+     "speaker": "B"
+    },
+    {
+     "start": 23.9,
+     "end": 24.7,
+     "ja": "せやね。",
+     "en": "Yeah, true.",
+     "speaker": "A"
+    },
+    {
+     "start": 24.8,
+     "end": 27.2,
+     "ja": "やっぱりもっと違う意見をもらいたいもんね。",
+     "en": "We definitely want to get different opinions, after all.",
+     "speaker": "A"
+    },
+    {
+     "start": 27.4,
+     "end": 31.0,
+     "ja": "果たして普通の台湾人なら日本の事どう思ってますか？",
+     "en": "How do ordinary Taiwanese people actually feel about Japan?",
+     "speaker": "B"
+    },
+    {
+     "start": 31.1,
+     "end": 32.6,
+     "ja": "ちょっと気になるよね。",
+     "en": "You get kind of curious, right?",
+     "speaker": "A"
+    },
+    {
+     "start": 32.7,
+     "end": 38.2,
+     "ja": "はい、という訳で今日の企画は台湾人に聞く日本への偏見について聞いてみよう！",
+     "en": "So for today's video, let's ask Taiwanese people about their misconceptions of Japan!",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 359.0,
+   "end": 381.0,
+   "title": "Do Ninjas and Yakuza Still Exist?",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜に残る — to leave a mark / impression",
+    "〜かもしれない — might / could be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 359.1,
+     "end": 360.6,
+     "ja": "はい、中間発表ー！",
+     "en": "Okay, time for a midterm check-in!",
+     "speaker": "B"
+    },
+    {
+     "start": 360.8,
+     "end": 364.0,
+     "ja": "すごいね、皆日本への憧れ、すごいですね。",
+     "en": "It's amazing how much everyone admires Japan.",
+     "speaker": "B"
+    },
+    {
+     "start": 364.2,
+     "end": 366.8,
+     "ja": "自分が一番印象に残ったのは、ヤクザ？",
+     "en": "What left the biggest impression on me was... the yakuza?",
+     "speaker": "A"
+    },
+    {
+     "start": 366.9,
+     "end": 368.9,
+     "ja": "びっくりした。多すぎません？",
+     "en": "I was shocked. Weren't there way too many people saying that?",
+     "speaker": "B"
+    },
+    {
+     "start": 369.1,
+     "end": 370.4,
+     "ja": "びっくりしたのは、忍者。",
+     "en": "What surprised me was ninjas.",
+     "speaker": "B"
+    },
+    {
+     "start": 370.5,
+     "end": 371.4,
+     "ja": "忍者可愛いよね。",
+     "en": "Ninjas are cute, right?",
+     "speaker": "A"
+    },
+    {
+     "start": 371.5,
+     "end": 374.6,
+     "ja": "今でも忍者がいるって信じてる。",
+     "en": "They still believe ninjas exist today.",
+     "speaker": "B"
+    },
+    {
+     "start": 374.7,
+     "end": 375.8,
+     "ja": "え、いるんですか？",
+     "en": "Wait, do they exist?",
+     "speaker": "A"
+    },
+    {
+     "start": 375.9,
+     "end": 377.1,
+     "ja": "いるんですか？",
+     "en": "Do they exist?!",
+     "speaker": "B"
+    },
+    {
+     "start": 377.2,
+     "end": 379.3,
+     "ja": "もしかしたらまだいるかもしれない。",
+     "en": "Maybe they're still around.",
+     "speaker": "B"
+    },
+    {
+     "start": 379.4,
+     "end": 380.9,
+     "ja": "じゃあ引き続き調査してみよう！",
+     "en": "Well, let's continue the investigation!",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 682.2,
+   "end": 704.2,
+   "title": "Expectations Versus Reality in Japan",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "travel",
+    "friends"
+   ],
+   "grammar": [
+    "〜たことがある — past experience",
+    "〜て — because / so (reason)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 682.4,
+     "end": 684.0,
+     "ja": "じゃあ今日一番印象…",
+     "en": "So what left the biggest impression today...",
+     "speaker": "A"
+    },
+    {
+     "start": 684.1,
+     "end": 687.4,
+     "ja": "あれ、自分と全然違う印象やなって思ったのはあります？",
+     "en": "Did you hear anything where you thought, \"Wait, that's totally different from my impression\"?",
+     "speaker": "A"
+    },
+    {
+     "start": 687.6,
+     "end": 688.8,
+     "ja": "ヤクザかな？",
+     "en": "Probably the yakuza?",
+     "speaker": "B"
+    },
+    {
+     "start": 688.9,
+     "end": 689.8,
+     "ja": "確かに面白い。",
+     "en": "That's definitely funny.",
+     "speaker": "A"
+    },
+    {
+     "start": 690.0,
+     "end": 692.7,
+     "ja": "私、日本ってさ、何回も行った事あるんですけど、",
+     "en": "You know, I've been to Japan many times,",
+     "speaker": "B"
+    },
+    {
+     "start": 692.8,
+     "end": 695.3,
+     "ja": "ヤクザとか不良とか見た事ないですよ。",
+     "en": "but I've never seen yakuza or delinquents.",
+     "speaker": "B"
+    },
+    {
+     "start": 695.4,
+     "end": 696.5,
+     "ja": "でも面白かったですね。",
+     "en": "Still, it was really interesting.",
+     "speaker": "A"
+    },
+    {
+     "start": 696.6,
+     "end": 699.3,
+     "ja": "なんか自分と違う意見の色んな人に聞けて、",
+     "en": "Getting to hear different opinions from all kinds of people,",
+     "speaker": "A"
+    },
+    {
+     "start": 699.4,
+     "end": 701.3,
+     "ja": "こういう印象もあるんだっていう、",
+     "en": "learning that these impressions exist,",
+     "speaker": "A"
+    },
+    {
+     "start": 701.4,
+     "end": 703.6,
+     "ja": "なんか勉強になりましたから。",
+     "en": "was really informative.",
+     "speaker": "A"
+    }
+   ]
+  }
+ ],
+ "videoId": "1zA0f8AcsMI",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

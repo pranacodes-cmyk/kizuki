@@ -1,0 +1,165 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 33.0,
+   "end": 47.5,
+   "title": "A Simple and Quick Breakfast",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜ばいい — all one needs is",
+    "〜たら — conditional when/if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 33.4,
+     "end": 36.0,
+     "ja": "食べるメニューは本当に",
+     "en": "For what we eat, as long as",
+     "speaker": "Maki"
+    },
+    {
+     "start": 36.1,
+     "end": 41.2,
+     "ja": "ビタミンとタンパク質とエネルギーが取れればいいと思っていて、",
+     "en": "we get vitamins, protein, and energy, I think that's fine,",
+     "speaker": "Maki"
+    },
+    {
+     "start": 41.8,
+     "end": 44.7,
+     "ja": "基本的には洗うだけのものとか、",
+     "en": "so it's basically things you just rinse,",
+     "speaker": "Maki"
+    },
+    {
+     "start": 44.8,
+     "end": 47.0,
+     "ja": "茹でたらすぐ食べられるもの",
+     "en": "or things you can eat right after boiling.",
+     "speaker": "Maki"
+    }
+   ]
+  },
+  {
+   "start": 252.0,
+   "end": 266.5,
+   "title": "Using the Roomba as a Morning Cue",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜と — when / as soon as",
+    "〜てもらう — have someone do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 252.3,
+     "end": 253.9,
+     "ja": "毎朝ルンバを、",
+     "en": "Every morning, I set the Roomba to run",
+     "speaker": "Maki"
+    },
+    {
+     "start": 254.0,
+     "end": 258.4,
+     "ja": "子供が出る10分前ぐらいに設定していて、",
+     "en": "about 10 minutes before the kids leave,",
+     "speaker": "Maki"
+    },
+    {
+     "start": 259.0,
+     "end": 260.5,
+     "ja": "ルンバが動き出すと、",
+     "en": "so when the Roomba starts moving,",
+     "speaker": "Maki"
+    },
+    {
+     "start": 260.6,
+     "end": 263.7,
+     "ja": "「あ、もう学校行く時間なんだ」っていうことを",
+     "en": "it helps the kids understand that",
+     "speaker": "Maki"
+    },
+    {
+     "start": 263.8,
+     "end": 266.0,
+     "ja": "子供が分かってもらえるので、",
+     "en": "it's time to head to school.",
+     "speaker": "Maki"
+    }
+   ]
+  },
+  {
+   "start": 299.0,
+   "end": 321.0,
+   "title": "Keeping Wardrobe Choices Simple",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ていく — will proceed with",
+    "〜ずに — without doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 299.2,
+     "end": 302.8,
+     "ja": "モヤモヤしてる時間は人よりないですね。",
+     "en": "I spend less time hesitating than most people.",
+     "speaker": "Maki"
+    },
+    {
+     "start": 303.0,
+     "end": 305.4,
+     "ja": "迷ったりとか、何着ていこうとか。",
+     "en": "Like wondering or agonizing over what to wear.",
+     "speaker": "Maki"
+    },
+    {
+     "start": 305.6,
+     "end": 310.0,
+     "ja": "基本的にはそのシーズンで「これかこれ」ぐらいなものしかないので、",
+     "en": "Basically, I only have like this or that for each season,",
+     "speaker": "Maki"
+    },
+    {
+     "start": 311.8,
+     "end": 314.6,
+     "ja": "この組み合わせで行く、みたいな。",
+     "en": "so it's just like, \"I'll go with this combination.\"",
+     "speaker": "Maki"
+    },
+    {
+     "start": 315.0,
+     "end": 317.5,
+     "ja": "選択肢がものすごく少なくしてるので、",
+     "en": "Since I keep my options very minimal,",
+     "speaker": "Maki"
+    },
+    {
+     "start": 317.8,
+     "end": 320.7,
+     "ja": "もう迷わずにパパッと着れるっていう。",
+     "en": "I can get dressed quickly without hesitating at all.",
+     "speaker": "Maki"
+    }
+   ]
+  }
+ ],
+ "videoId": "9qbrrrjdNac",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

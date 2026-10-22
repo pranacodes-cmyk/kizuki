@@ -1,0 +1,203 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 105.5,
+   "end": 116.2,
+   "title": "Have You Ever Cheated?",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "fun"
+   ],
+   "grammar": [
+    "〜たことがある — have experienced doing",
+    "〜やん — isn't it / didn't you (dialect)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 105.7,
+     "end": 108.5,
+     "ja": "まあズバリ聞きますけど、浮気をしたことはありますか？",
+     "en": "Let me ask frankly, have you ever cheated?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 108.6,
+     "end": 109.5,
+     "ja": "ないです。",
+     "en": "No.",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 109.6,
+     "end": 111.2,
+     "ja": "あるやん！あるやん！",
+     "en": "Yes you have! Yes you have!",
+     "speaker": "Woman 2"
+    },
+    {
+     "start": 111.3,
+     "end": 113.4,
+     "ja": "つい最近やん！",
+     "en": "It just happened recently!",
+     "speaker": "Woman 2"
+    },
+    {
+     "start": 113.7,
+     "end": 115.3,
+     "ja": "あります、あります。",
+     "en": "Yes, I have.",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 115.4,
+     "end": 116.1,
+     "ja": "あります。",
+     "en": "I have too.",
+     "speaker": "Woman 2"
+    }
+   ]
+  },
+  {
+   "start": 333.2,
+   "end": 347.3,
+   "title": "What If Your Partner Cheated?",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜としたら — if / supposing that",
+    "〜される — passive form",
+    "〜としても — even as / in the role of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 333.5,
+     "end": 335.3,
+     "ja": "もし自分の彼女とか、",
+     "en": "If your girlfriend, or,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 335.4,
+     "end": 337.4,
+     "ja": "まあ奥さんがもし浮気をしたとしたら、",
+     "en": "say, your wife cheated on you,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 337.5,
+     "end": 338.9,
+     "ja": "個人的にはどうしますか？",
+     "en": "what would you personally do?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 339.0,
+     "end": 340.8,
+     "ja": "あ、もうすぐ別れますね。",
+     "en": "I'd break up with her right away.",
+     "speaker": "Man"
+    },
+    {
+     "start": 341.0,
+     "end": 342.8,
+     "ja": "１度でも浮気されると、",
+     "en": "Once I'm cheated on even once,",
+     "speaker": "Man"
+    },
+    {
+     "start": 342.9,
+     "end": 345.3,
+     "ja": "もうそれをなんか彼女とか",
+     "en": "I don't think I could see her as",
+     "speaker": "Man"
+    },
+    {
+     "start": 345.4,
+     "end": 347.0,
+     "ja": "奥さんとしても見れないと思います。",
+     "en": "a girlfriend or a wife anymore.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 419.5,
+   "end": 435.0,
+   "title": "Would You Forgive Cheating?",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜やったら — if it is (colloquial)",
+    "〜たくない — do not want to",
+    "〜し — listing reasons"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 419.8,
+     "end": 421.8,
+     "ja": "許す、許す。許す。",
+     "en": "I'd forgive him, forgive him. Forgive.",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 421.9,
+     "end": 424.1,
+     "ja": "特に恋人とかやったら許す、全然。",
+     "en": "Especially if he's a boyfriend, I'd totally forgive him.",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 424.2,
+     "end": 426.1,
+     "ja": "しゃあないやろ、そういう時もあるやろ。",
+     "en": "It can't be helped, things happen, right?",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 426.2,
+     "end": 428.1,
+     "ja": "え、恋人やったら別れるけど、",
+     "en": "Well, if it were a boyfriend I'd break up, but",
+     "speaker": "Woman 2"
+    },
+    {
+     "start": 428.2,
+     "end": 430.0,
+     "ja": "結婚は我慢なんで、",
+     "en": "marriage takes endurance, so",
+     "speaker": "Woman 2"
+    },
+    {
+     "start": 430.1,
+     "end": 432.6,
+     "ja": "バツイチとかにはなりたくないし、",
+     "en": "and I wouldn't want to become a divorcee,",
+     "speaker": "Woman 2"
+    },
+    {
+     "start": 432.7,
+     "end": 434.9,
+     "ja": "基本的には許します。",
+     "en": "so basically I'd forgive him.",
+     "speaker": "Woman 2"
+    }
+   ]
+  }
+ ],
+ "videoId": "ENscSDOsodE",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

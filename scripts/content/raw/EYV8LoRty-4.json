@@ -1,0 +1,144 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.194,
+   "end": 5.31,
+   "title": "Snack Gift from the Neighbor",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜てたら — when/while doing",
+    "〜てくれる — to do for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.194,
+     "end": 5.23,
+     "ja": "さっき帰ってたら、隣のおばあちゃんがこのみかんと",
+     "en": "When I was coming home earlier, the grandma next door gave me these tangerines and...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 5.233,
+     "end": 5.276,
+     "ja": "このおやつをくれました。「おかえりー」って言ってくれました。",
+     "en": "...this snack. She said, \"Welcome home.\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 5.28,
+     "end": 5.308,
+     "ja": "今年初みかん。おばあちゃんありがとう！",
+     "en": "My first tangerines of the year. Thank you, Grandma!",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 11.473,
+   "end": 11.555,
+   "title": "Dinner with Mom",
+   "level": "N5",
+   "topics": [
+    "food",
+    "family"
+   ],
+   "grammar": [
+    "〜ね — seeking agreement",
+    "〜にかけて — putting onto / over"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.475,
+     "end": 11.488,
+     "ja": "美味しいね。",
+     "en": "It's tasty, isn't it?",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 11.489,
+     "end": 11.499,
+     "ja": "どう？",
+     "en": "How is it?",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 11.5,
+     "end": 11.515,
+     "ja": "ピリ辛だね。",
+     "en": "It's slightly spicy.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 11.516,
+     "end": 11.524,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 11.525,
+     "end": 11.548,
+     "ja": "ご飯にかけて食べる。",
+     "en": "I'll pour it over rice and eat it.",
+     "speaker": "Mother"
+    }
+   ]
+  },
+  {
+   "start": 14.023,
+   "end": 14.148,
+   "title": "Hair Care Routine",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜やつ — thing / one",
+    "〜たら — when / after"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 14.025,
+     "end": 14.055,
+     "ja": "えっと、髪全体を梳かすやつで、",
+     "en": "Um, with this one to comb all through my hair,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 14.058,
+     "end": 14.088,
+     "ja": "これで前髪をちょっとボリュームを出して、",
+     "en": "and with this, giving my bangs a bit of volume,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 14.092,
+     "end": 14.118,
+     "ja": "ある程度髪が乾いたら、この細かい櫛で",
+     "en": "once my hair dries to some degree, with this fine comb,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 14.119,
+     "end": 14.143,
+     "ja": "全体をブラッシングします。",
+     "en": "I brush all of it.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "EYV8LoRty-4",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

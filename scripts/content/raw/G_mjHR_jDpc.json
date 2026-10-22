@@ -1,0 +1,115 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.8,
+   "end": 12.5,
+   "title": "Nagaoka Fireworks Festival",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜に位置する — located in",
+    "〜以上 — more than"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.8,
+     "end": 3.9,
+     "ja": "毎年８月、",
+     "en": "Every August,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 4.2,
+     "end": 7.8,
+     "ja": "新潟県のほぼ中央に位置する長岡市に、",
+     "en": "in Nagaoka City, located nearly in the center of Niigata Prefecture,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 8.3,
+     "end": 11.8,
+     "ja": "100万人以上が集まります。",
+     "en": "more than one million people gather.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 22.5,
+   "end": 35.0,
+   "title": "One of Japan's Top Fireworks",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜と言われる — is said to be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 22.7,
+     "end": 26.5,
+     "ja": "打ち上がる花火は、２日間でおよそ２万発。",
+     "en": "The fireworks launched number around 20,000 over the two days.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 30.8,
+     "end": 34.5,
+     "ja": "日本有数の花火大会と言われます。",
+     "en": "It is said to be one of Japan's leading fireworks festivals.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 113.4,
+   "end": 130.0,
+   "title": "Fireworks of Remembrance",
+   "level": "N3",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜た後 — after doing",
+    "〜への — to/towards"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 113.6,
+     "end": 117.5,
+     "ja": "前夜祭が終わった後の午後10時30分、",
+     "en": "At 10:30 PM, after the eve festival ends,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 118.0,
+     "end": 123.5,
+     "ja": "長岡の空に白一色の花火が開きます。",
+     "en": "a single white firework blooms in the Nagaoka sky.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 125.5,
+     "end": 129.5,
+     "ja": "戦争で亡くなった方々への慰霊の花火です。",
+     "en": "It is a memorial firework for those who lost their lives in the war.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "G_mjHR_jDpc",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

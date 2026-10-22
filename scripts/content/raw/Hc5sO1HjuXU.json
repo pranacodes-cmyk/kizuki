@@ -1,0 +1,157 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 76.5,
+   "end": 95.3,
+   "title": "Beginning the Interview",
+   "level": "N4",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "お〜になる — respectful honorific"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 76.8,
+     "end": 80.5,
+     "ja": "本日はどうぞよろしくお願いいたします。",
+     "en": "Thank you very much for having me today.",
+     "speaker": "Philipp"
+    },
+    {
+     "start": 81.8,
+     "end": 84.0,
+     "ja": "どうぞお掛けになってください。",
+     "en": "Please, have a seat.",
+     "speaker": "Masa"
+    },
+    {
+     "start": 84.3,
+     "end": 86.3,
+     "ja": "はい、失礼します。",
+     "en": "Yes, excuse me.",
+     "speaker": "Philipp"
+    },
+    {
+     "start": 91.8,
+     "end": 94.9,
+     "ja": "それではまず、自己紹介をしてください。",
+     "en": "Now then, please start with a self-introduction.",
+     "speaker": "Masa"
+    }
+   ]
+  },
+  {
+   "start": 135.5,
+   "end": 161.8,
+   "title": "Explaining the Reason for Applying",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜ております — humble progressive / state",
+    "〜のように — like / such as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 136.0,
+     "end": 139.5,
+     "ja": "弊社への志望動機を教えてください。",
+     "en": "Please tell us your motivation for applying to our company.",
+     "speaker": "Masa"
+    },
+    {
+     "start": 140.3,
+     "end": 143.5,
+     "ja": "はい。今までの実務経験を活かし、",
+     "en": "Yes. Utilizing my practical experience so far,",
+     "speaker": "Philipp"
+    },
+    {
+     "start": 143.5,
+     "end": 148.5,
+     "ja": "さらにそのスキルを高め、より高度なシステムを開発したいと思っております。",
+     "en": "I would like to further enhance my skills and develop more advanced systems.",
+     "speaker": "Philipp"
+    },
+    {
+     "start": 149.0,
+     "end": 155.5,
+     "ja": "御社のようにコンピュータービジョンやAI技術を活用した商品を提供する企業で、",
+     "en": "At a company like yours that provides products utilizing computer vision and AI,",
+     "speaker": "Philipp"
+    },
+    {
+     "start": 156.0,
+     "end": 161.5,
+     "ja": "新たな技術を学び、新しい挑戦をしたいので、御社に応募いたしました。",
+     "en": "I want to learn new technologies and take on new challenges, so I applied to your company.",
+     "speaker": "Philipp"
+    }
+   ]
+  },
+  {
+   "start": 370.5,
+   "end": 391.5,
+   "title": "Tips for Speaking in an Interview",
+   "level": "N3",
+   "topics": [
+    "work",
+    "school"
+   ],
+   "grammar": [
+    "〜ましょう — let's do",
+    "〜ことができる — can / be able to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 371.0,
+     "end": 374.6,
+     "ja": "話す時は、相手の目を見ましょう。",
+     "en": "When speaking, look into the other person's eyes.",
+     "speaker": "Otsuka"
+    },
+    {
+     "start": 375.0,
+     "end": 377.3,
+     "ja": "話を聞くときは、うなずいたり、",
+     "en": "When listening, if you nod",
+     "speaker": "Otsuka"
+    },
+    {
+     "start": 377.4,
+     "end": 380.5,
+     "ja": "「はい」「ええ」と相づちを打つと、",
+     "en": "and make affirmative responses like 'hai' or 'ee',",
+     "speaker": "Otsuka"
+    },
+    {
+     "start": 380.8,
+     "end": 385.8,
+     "ja": "「話を聞いていますよ」と相手に伝えることができます。",
+     "en": "you can show the other person that you are listening.",
+     "speaker": "Otsuka"
+    },
+    {
+     "start": 386.3,
+     "end": 391.0,
+     "ja": "また、大事なことはメモ帳にメモをするのも大切です。",
+     "en": "Also, it is important to take notes of important points in a notepad.",
+     "speaker": "Otsuka"
+    }
+   ]
+  }
+ ],
+ "videoId": "Hc5sO1HjuXU",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

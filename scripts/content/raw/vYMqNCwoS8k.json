@@ -1,0 +1,158 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.0,
+   "end": 28.2,
+   "title": "What Is Tanabata?",
+   "level": "N4",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜について — about / regarding",
+    "〜れる／〜られる — passive voice"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.3,
+     "end": 13.5,
+     "ja": "今日のテーマは日本の夏の行事「七夕」についてお話ししようと思います。",
+     "en": "Today's theme is the Japanese summer event 'Tanabata', which I'd like to talk about.",
+     "speaker": "Yori"
+    },
+    {
+     "start": 14.8,
+     "end": 18.8,
+     "ja": "七夕は日本の伝統的な行事で、",
+     "en": "Tanabata is a traditional Japanese event,",
+     "speaker": "Yori"
+    },
+    {
+     "start": 18.9,
+     "end": 27.6,
+     "ja": "毎年7月7日か8月7日に行われるお祭りです。",
+     "en": "and it's a festival held every year on July 7th or August 7th.",
+     "speaker": "Yori"
+    }
+   ]
+  },
+  {
+   "start": 105.5,
+   "end": 133.2,
+   "title": "The Legend of Orihime and Hikoboshi",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "romance"
+   ],
+   "grammar": [
+    "〜てしまう — expressing regret or completion",
+    "〜そうだ — hearsay (I heard that...)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 105.8,
+     "end": 115.8,
+     "ja": "神様はそんな2人を見て、天の川という川の両側に2人を離してしまったんです。",
+     "en": "Seeing the two like that, God separated them on opposite sides of a river called the Milky Way.",
+     "speaker": "Yori"
+    },
+    {
+     "start": 116.3,
+     "end": 119.3,
+     "ja": "でも、それだとかわいそうですよね。",
+     "en": "But that seemed too pitiful, right?",
+     "speaker": "Yori"
+    },
+    {
+     "start": 119.8,
+     "end": 126.3,
+     "ja": "1年に1度だけ7月7日に会うことを許してくれて、",
+     "en": "So they were allowed to meet just once a year on July 7th,",
+     "speaker": "Yori"
+    },
+    {
+     "start": 126.8,
+     "end": 132.6,
+     "ja": "それが七夕の行事の始まりだそうです。",
+     "en": "and that is said to be the origin of Tanabata.",
+     "speaker": "Yori"
+    }
+   ]
+  },
+  {
+   "start": 201.8,
+   "end": 223.8,
+   "title": "Writing Wishes on Strips of Paper",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜ように — expressing a hope or wish",
+    "〜ていい — permission (it's okay to...)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 202.2,
+     "end": 205.7,
+     "ja": "お願い事はもう色々何でもよくて、",
+     "en": "As for your wish, anything is fine,",
+     "speaker": "Yori"
+    },
+    {
+     "start": 206.0,
+     "end": 208.0,
+     "ja": "彼氏が欲しい、",
+     "en": "like 'I want a boyfriend',",
+     "speaker": "Yori"
+    },
+    {
+     "start": 208.1,
+     "end": 210.4,
+     "ja": "彼女が欲しいとか、",
+     "en": "'I want a girlfriend',",
+     "speaker": "Yori"
+    },
+    {
+     "start": 210.8,
+     "end": 213.3,
+     "ja": "仕事がうまくいきますように、",
+     "en": "'May my work go well',",
+     "speaker": "Yori"
+    },
+    {
+     "start": 213.8,
+     "end": 216.5,
+     "ja": "お金持ちになれますようにとか、",
+     "en": "'May I become rich',",
+     "speaker": "Yori"
+    },
+    {
+     "start": 216.7,
+     "end": 218.1,
+     "ja": "もう何でも書いていいんです。",
+     "en": "really, you can write anything.",
+     "speaker": "Yori"
+    },
+    {
+     "start": 218.3,
+     "end": 223.1,
+     "ja": "こういうのを書いて紐をつけて飾ります。",
+     "en": "You write this, attach a string, and hang it up.",
+     "speaker": "Yori"
+    }
+   ]
+  }
+ ],
+ "videoId": "vYMqNCwoS8k",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

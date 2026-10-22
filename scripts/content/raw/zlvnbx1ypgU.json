@@ -1,0 +1,258 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 149.7,
+   "end": 215.5,
+   "title": "Leaving the Toy Basket Behind",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜ておく — doing in advance / leaving as is",
+    "〜ない — negative imperative"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 150.0,
+     "end": 151.5,
+     "ja": "持っていかないよ。",
+     "en": "You're not taking that with you.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 152.5,
+     "end": 154.6,
+     "ja": "持っていかない、置いといて。",
+     "en": "Don't take it, leave it there.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 156.8,
+     "end": 158.9,
+     "ja": "ぶーぶ持っていかない。",
+     "en": "Don't take the toy car.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 204.9,
+     "end": 206.1,
+     "ja": "いいよ、その辺で。",
+     "en": "That's fine, right around there.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 206.2,
+     "end": 207.1,
+     "ja": "「どん」って。",
+     "en": "Set it down, 'thump'.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 207.5,
+     "end": 208.5,
+     "ja": "どん。",
+     "en": "Thump.",
+     "speaker": "Toddler"
+    },
+    {
+     "start": 208.6,
+     "end": 210.0,
+     "ja": "うん、置いといて。",
+     "en": "Yeah, leave it there.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 213.2,
+     "end": 215.2,
+     "ja": "うん。行こ、行こ。",
+     "en": "Yeah. Let's go, let's go.",
+     "speaker": "Mother"
+    }
+   ]
+  },
+  {
+   "start": 360.0,
+   "end": 381.8,
+   "title": "Negotiating Game Time",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜ていた — past continuous / state",
+    "〜も — even / as many as"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 360.0,
+     "end": 362.0,
+     "ja": "頼んでたオイシックスが届いた。",
+     "en": "The Oisix delivery I ordered arrived.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 362.4,
+     "end": 365.5,
+     "ja": "なんか色んな人がタイアップしてて気になったんだよね、これ。",
+     "en": "A lot of people were doing tie-ins with it, so I got curious about this.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 365.6,
+     "end": 366.9,
+     "ja": "さいしょはグー！",
+     "en": "First comes rock!",
+     "speaker": "Boy"
+    },
+    {
+     "start": 367.2,
+     "end": 368.8,
+     "ja": "なんのじゃんけんだ？",
+     "en": "What are we playing rock-paper-scissors for?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 369.1,
+     "end": 370.5,
+     "ja": "じゃんけん、3回ね。",
+     "en": "Rock-paper-scissors, best of three, okay?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 370.8,
+     "end": 374.2,
+     "ja": "3回もしない、1回。忙しいんです、今。",
+     "en": "I'm not doing three times, just once. I'm busy right now.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 377.4,
+     "end": 378.2,
+     "ja": "何？",
+     "en": "For what?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 378.4,
+     "end": 379.4,
+     "ja": "ゲーム。",
+     "en": "Videogames.",
+     "speaker": "Boy"
+    }
+   ]
+  },
+  {
+   "start": 382.0,
+   "end": 405.3,
+   "title": "What I Want to Do When I Grow Up",
+   "level": "N4",
+   "topics": [
+    "family",
+    "food"
+   ],
+   "grammar": [
+    "〜たら — when / if",
+    "〜たい — want to do",
+    "〜たことがある — past experience"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 382.4,
+     "end": 383.2,
+     "ja": "お母さん？",
+     "en": "Mom?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 383.3,
+     "end": 383.8,
+     "ja": "ん？",
+     "en": "Hm?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 384.0,
+     "end": 386.2,
+     "ja": "お母さん、今から料理をするの？",
+     "en": "Mom, are you going to cook now?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 386.6,
+     "end": 388.6,
+     "ja": "うーん、どうしようかなぁ。",
+     "en": "Hmm, what should I do...",
+     "speaker": "Mother"
+    },
+    {
+     "start": 389.7,
+     "end": 392.3,
+     "ja": "お母さん、僕大人になったら、",
+     "en": "Mom, when I grow up...",
+     "speaker": "Boy"
+    },
+    {
+     "start": 392.5,
+     "end": 393.0,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 393.3,
+     "end": 395.4,
+     "ja": "まず一番にやりたいこと、",
+     "en": "The very first thing I want to do...",
+     "speaker": "Boy"
+    },
+    {
+     "start": 395.5,
+     "end": 396.0,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 396.3,
+     "end": 399.1,
+     "ja": "えーっと、僕が自分で作った、",
+     "en": "Um, made by myself...",
+     "speaker": "Boy"
+    },
+    {
+     "start": 399.3,
+     "end": 399.8,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 400.1,
+     "end": 403.5,
+     "ja": "みんなが作ったことない料理を作ってみたい。",
+     "en": "I want to try cooking a dish nobody has ever made before.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 403.7,
+     "end": 405.2,
+     "ja": "おお…いいね！",
+     "en": "Ooh... that sounds great!",
+     "speaker": "Mother"
+    }
+   ]
+  }
+ ],
+ "videoId": "zlvnbx1ypgU",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

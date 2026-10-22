@@ -1,0 +1,165 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 66.3,
+   "end": 80.5,
+   "title": "Striving to Astound Even More",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていただく — receiving an action politely",
+    "〜ように — in order that / so that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 66.5,
+     "end": 70.5,
+     "ja": "僕がフィギュアを解説してて 初めて「たまげた」っていう言葉が出てきました。",
+     "en": "In all my years commentating figure skating, this was the first time the word 'astounded' came up.",
+     "speaker": "Shuzo Matsuoka"
+    },
+    {
+     "start": 70.6,
+     "end": 73.4,
+     "ja": "どうですか、「たまげた」っていう自分の評価は？",
+     "en": "How do you feel about receiving a rating like 'astounding'?",
+     "speaker": "Shuzo Matsuoka"
+    },
+    {
+     "start": 73.5,
+     "end": 76.4,
+     "ja": "いや、もうそう言っていただけるのはすごく嬉しいですし、",
+     "en": "Well, hearing that makes me really happy, and...",
+     "speaker": "Kao Miura"
+    },
+    {
+     "start": 76.5,
+     "end": 77.2,
+     "ja": "ええ。",
+     "en": "Right.",
+     "speaker": "Shuzo Matsuoka"
+    },
+    {
+     "start": 77.3,
+     "end": 80.3,
+     "ja": "もっと「たまげた」って言ってもらえるように頑張りたいなって思ってます。",
+     "en": "I want to do my best so people will say they're even more astounded.",
+     "speaker": "Kao Miura"
+    }
+   ]
+  },
+  {
+   "start": 86.8,
+   "end": 105.3,
+   "title": "Shoma Uno on Self-Satisfaction",
+   "level": "N2",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜に関して — regarding / concerning",
+    "〜てくる — continuing up to the present"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 87.0,
+     "end": 90.7,
+     "ja": "相当珍しい表現ですね。この「自己満足」ですか？",
+     "en": "That's quite an unusual phrase. 'Self-satisfaction'?",
+     "speaker": "Shuzo Matsuoka"
+    },
+    {
+     "start": 90.8,
+     "end": 94.0,
+     "ja": "その、自分の演技っていうものに関しては、",
+     "en": "Well, when it comes to my own performances,",
+     "speaker": "Shoma Uno"
+    },
+    {
+     "start": 94.2,
+     "end": 97.4,
+     "ja": "なかなか満足できるものというか、",
+     "en": "they haven't really been something I can feel satisfied with, or rather...",
+     "speaker": "Shoma Uno"
+    },
+    {
+     "start": 97.7,
+     "end": 102.4,
+     "ja": "もう一度見たいと思えるような演技をしてこれてないっていうのが",
+     "en": "I feel I haven't been delivering the kind of performance that makes people want to watch it again.",
+     "speaker": "Shoma Uno"
+    },
+    {
+     "start": 102.5,
+     "end": 105.0,
+     "ja": "僕の感想なので、",
+     "en": "That's how I feel about it, so...",
+     "speaker": "Shoma Uno"
+    }
+   ]
+  },
+  {
+   "start": 214.8,
+   "end": 231.0,
+   "title": "Kid Reporter's Honest Impression",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てどう — how after doing",
+    "〜だなぁ — emotional reflection"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 215.0,
+     "end": 217.2,
+     "ja": "お話聞いてどう思いました？",
+     "en": "What did you think hearing her answer?",
+     "speaker": "Shuzo Matsuoka"
+    },
+    {
+     "start": 219.5,
+     "end": 222.0,
+     "ja": "すごい…",
+     "en": "She's so...",
+     "speaker": "Kid Reporter"
+    },
+    {
+     "start": 226.0,
+     "end": 227.5,
+     "ja": "大人だなぁ。",
+     "en": "So mature.",
+     "speaker": "Kid Reporter"
+    },
+    {
+     "start": 227.6,
+     "end": 228.8,
+     "ja": "大人だ！",
+     "en": "Mature indeed!",
+     "speaker": "Shuzo Matsuoka"
+    },
+    {
+     "start": 228.9,
+     "end": 230.5,
+     "ja": "だよね！",
+     "en": "Totally!",
+     "speaker": "Shuzo Matsuoka"
+    }
+   ]
+  }
+ ],
+ "videoId": "iseWrSVbUUM",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

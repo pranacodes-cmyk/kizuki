@@ -1,0 +1,192 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 72.8,
+   "end": 86.8,
+   "title": "Chatting About Halloween Costumes",
+   "level": "N4",
+   "topics": [
+    "family",
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜たがる — showing signs of wanting to",
+    "〜もん — explaining reasons casually",
+    "〜させる — causative form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 73.1,
+     "end": 74.5,
+     "ja": "去年もやったもんね！",
+     "en": "We did it last year too!",
+     "speaker": "Obata"
+    },
+    {
+     "start": 74.8,
+     "end": 75.7,
+     "ja": "やった。",
+     "en": "We did.",
+     "speaker": "Yamazaki"
+    },
+    {
+     "start": 75.7,
+     "end": 79.1,
+     "ja": "でも去年は仮装させるの楽だったのよ。",
+     "en": "But last year, dressing him up in a costume was easy.",
+     "speaker": "Yamazaki"
+    },
+    {
+     "start": 79.4,
+     "end": 80.0,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Obata"
+    },
+    {
+     "start": 80.0,
+     "end": 84.1,
+     "ja": "やっぱ今年はみんなミニオンになったんだけど、",
+     "en": "This year, everyone dressed up as Minions, but...",
+     "speaker": "Yamazaki"
+    },
+    {
+     "start": 84.2,
+     "end": 86.5,
+     "ja": "着てくれない。着てくれない。",
+     "en": "He wouldn't wear it. Wouldn't wear it.",
+     "speaker": "Yamazaki"
+    }
+   ]
+  },
+  {
+   "start": 369.4,
+   "end": 381.7,
+   "title": "Feeding the Animals",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "family",
+    "fun"
+   ],
+   "grammar": [
+    "〜てみる — try doing something",
+    "〜てあげる — doing something for someone/an animal",
+    "〜そうだ — seeming/looking like"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 369.7,
+     "end": 371.3,
+     "ja": "この子にあげよう。",
+     "en": "Let's give it to this one.",
+     "speaker": "Child"
+    },
+    {
+     "start": 373.1,
+     "end": 374.8,
+     "ja": "この子にあげよう！",
+     "en": "Let's give it to this one!",
+     "speaker": "Obata"
+    },
+    {
+     "start": 375.3,
+     "end": 376.0,
+     "ja": "よし。",
+     "en": "Alright.",
+     "speaker": "Obata"
+    },
+    {
+     "start": 379.8,
+     "end": 381.2,
+     "ja": "うわっ！",
+     "en": "Whoa!",
+     "speaker": "Child"
+    }
+   ]
+  },
+  {
+   "start": 861.0,
+   "end": 880.8,
+   "title": "Showing Off a Tasty Snack",
+   "level": "N5",
+   "topics": [
+    "food",
+    "family",
+    "fun"
+   ],
+   "grammar": [
+    "〜てあげる — do for someone",
+    "〜た — past tense"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 861.3,
+     "end": 864.2,
+     "ja": "パン美味しいですか？",
+     "en": "Is the bread yummy?",
+     "speaker": "Yamazaki"
+    },
+    {
+     "start": 864.2,
+     "end": 865.0,
+     "ja": "おいし。",
+     "en": "Yummy.",
+     "speaker": "Child"
+    },
+    {
+     "start": 865.3,
+     "end": 866.6,
+     "ja": "美味しい？",
+     "en": "Is it yummy?",
+     "speaker": "Obata"
+    },
+    {
+     "start": 866.6,
+     "end": 868.0,
+     "ja": "パン美味しい？",
+     "en": "Is the bread yummy?",
+     "speaker": "Yamazaki"
+    },
+    {
+     "start": 868.6,
+     "end": 870.0,
+     "ja": "美味しい？",
+     "en": "Yummy?",
+     "speaker": "Yamazaki"
+    },
+    {
+     "start": 870.4,
+     "end": 872.2,
+     "ja": "見せてあげたの？",
+     "en": "Did you show it to us?",
+     "speaker": "Yamazaki"
+    },
+    {
+     "start": 872.8,
+     "end": 874.1,
+     "ja": "あはははは！",
+     "en": "Hahahaha!",
+     "speaker": "Obata"
+    },
+    {
+     "start": 874.1,
+     "end": 875.4,
+     "ja": "はい、ということで。",
+     "en": "Alright, so with that...",
+     "speaker": "Obata"
+    }
+   ]
+  }
+ ],
+ "videoId": "B_A4eVrPz9s",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

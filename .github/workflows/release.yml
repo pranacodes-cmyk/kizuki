@@ -1,0 +1,167 @@
+name: Store release
+
+# Builds the Kizuki store binaries and ships them:
+#   Android → signed App Bundle → Google Play internal track (draft release)
+#   iOS     → signed IPA (App Store distribution) → App Store Connect / TestFlight
+# Both only run after `flutter analyze` and `flutter test` pass. The build number is
+# 100 + the run number, so every release is higher than the last on both stores.
+on:
+  workflow_dispatch:
+    inputs:
+      android:
+        description: "Upload Android to Google Play internal (draft)"
+        type: boolean
+        default: true
+      ios:
+        description: "Upload iOS to TestFlight"
+        type: boolean
+        default: true
+
+concurrency:
+  group: store-release
+  cancel-in-progress: false
+
+env:
+  FLUTTER_VERSION: "3.47.7"
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: mobile
+    outputs:
+      build: ${{ steps.v.outputs.build }}
+      name: ${{ steps.v.outputs.name }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          cache: true
+      - run: flutter pub get
+      - run: flutter analyze
+      - run: flutter test
+      - id: v
+        run: |
+          echo "build=$((100 + GITHUB_RUN_NUMBER))" >> "$GITHUB_OUTPUT"
+          echo "name=$(grep '^version:' pubspec.yaml | awk '{print $2}' | cut -d+ -f1)" >> "$GITHUB_OUTPUT"
+
+  android:
+    needs: checks
+    if: ${{ inputs.android }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: mobile
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+          cache: gradle
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          cache: true
+      - run: flutter pub get
+      - name: Signing key
+        env:
+          KEYSTORE_B64: ${{ secrets.ANDROID_KEYSTORE_B64 }}
+        run: |
+          test -n "$KEYSTORE_B64" || { echo "::error::ANDROID_KEYSTORE_B64 missing"; exit 1; }
+          echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/kizuki.jks"
+          echo "KIZUKI_KEYSTORE=$RUNNER_TEMP/kizuki.jks" >> "$GITHUB_ENV"
+      - name: Build App Bundle
+        env:
+          KIZUKI_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KIZUKI_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+        run: flutter build appbundle --release --build-name=${{ needs.checks.outputs.name }} --build-number=${{ needs.checks.outputs.build }}
+      - name: Check signature (fixed Kizuki upload key)
+        run: |
+          keytool -printcert -jarfile build/app/outputs/bundle/release/app-release.aab | tee /tmp/cert.txt
+          grep -qi "99:8E:87:34:CB:80:5D:F5:41:86:8C:E3:91:17:FB:9E:6A:97:EB:9C:01:57:72:DC:59:D8:45:91:FB:7E:FF:90" /tmp/cert.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kizuki-android-aab
+          path: mobile/build/app/outputs/bundle/release/app-release.aab
+          retention-days: 30
+      - name: Upload to Google Play (internal, draft)
+        env:
+          GOOGLE_PLAY_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON }}
+        run: |
+          pip install --quiet pyjwt cryptography requests
+          cd ../scripts/stores
+          python3 play_upload.py ../../mobile/build/app/outputs/bundle/release/app-release.aab internal draft "${{ needs.checks.outputs.name }} (${{ needs.checks.outputs.build }})"
+
+  ios:
+    needs: checks
+    if: ${{ inputs.ios }}
+    runs-on: macos-15
+    timeout-minutes: 75
+    defaults:
+      run:
+        working-directory: mobile
+    steps:
+      - uses: actions/checkout@v4
+      - name: Newest Xcode
+        run: |
+          XC=$(ls -d /Applications/Xcode_*.app | grep -v -i beta | sort -V | tail -1)
+          sudo xcode-select -s "$XC"
+          xcodebuild -version
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          cache: true
+      - run: flutter pub get
+      - name: Signing certificate + App Store profile
+        env:
+          P12_B64: ${{ secrets.IOS_DIST_P12_B64 }}
+          P12_PASSWORD: ${{ secrets.IOS_DIST_P12_PASSWORD }}
+          PROFILE_B64: ${{ secrets.IOS_PROFILE_B64 }}
+        run: |
+          KC="$RUNNER_TEMP/kizuki.keychain-db"; KCP=$(uuidgen)
+          echo "$P12_B64" | base64 -D > "$RUNNER_TEMP/dist.p12"
+          security create-keychain -p "$KCP" "$KC"
+          security set-keychain-settings -lut 21600 "$KC"
+          security unlock-keychain -p "$KCP" "$KC"
+          security import "$RUNNER_TEMP/dist.p12" -P "$P12_PASSWORD" -A -t cert -f pkcs12 -k "$KC"
+          security set-key-partition-list -S apple-tool:,apple: -k "$KCP" "$KC" >/dev/null
+          security list-keychains -d user -s "$KC" $(security list-keychains -d user | tr -d '"')
+          security find-identity -v -p codesigning "$KC"
+          echo "$PROFILE_B64" | base64 -D > "$RUNNER_TEMP/kizuki.mobileprovision"
+          UUID=$(/usr/libexec/PlistBuddy -c "Print UUID" /dev/stdin <<< "$(security cms -D -i "$RUNNER_TEMP/kizuki.mobileprovision")")
+          for d in "$HOME/Library/MobileDevice/Provisioning Profiles" "$HOME/Library/Developer/Xcode/UserData/Provisioning Profiles"; do
+            mkdir -p "$d"; cp "$RUNNER_TEMP/kizuki.mobileprovision" "$d/$UUID.mobileprovision"
+          done
+          echo "profile $UUID installed"
+      - name: Build IPA
+        run: flutter build ipa --release --build-name=${{ needs.checks.outputs.name }} --build-number=${{ needs.checks.outputs.build }} --export-options-plist=ios/ExportOptions.plist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kizuki-ios-ipa
+          path: mobile/build/ios/ipa/*.ipa
+          retention-days: 30
+      - name: Upload to App Store Connect (TestFlight)
+        env:
+          APPLE_KEY_ID: ${{ secrets.APPLE_KEY_ID }}
+          APPLE_ISSUER_ID: ${{ secrets.APPLE_ISSUER_ID }}
+          APPLE_P8_PRIVATE_KEY: ${{ secrets.APPLE_P8_PRIVATE_KEY }}
+        run: |
+          mkdir -p "$HOME/.appstoreconnect/private_keys"
+          KEYFILE="$HOME/.appstoreconnect/private_keys/AuthKey_${APPLE_KEY_ID}.p8"
+          python3 - "$KEYFILE" <<'PY'
+          import os, sys
+          k = os.environ["APPLE_P8_PRIVATE_KEY"].strip().replace("\\n", "\n")
+          if "BEGIN PRIVATE KEY" not in k:
+              k = "-----BEGIN PRIVATE KEY-----\n" + k + "\n-----END PRIVATE KEY-----"
+          open(sys.argv[1], "w").write(k + "\n")
+          PY
+          IPA=$(ls build/ios/ipa/*.ipa | head -1)
+          xcrun altool --upload-app --type ios --file "$IPA" --apiKey "$APPLE_KEY_ID" --apiIssuer "$APPLE_ISSUER_ID" --output-format normal

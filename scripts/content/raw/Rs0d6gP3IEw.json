@@ -1,0 +1,189 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.0,
+   "end": 22.5,
+   "title": "A Day in the Life of a Freelancer",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ている — ongoing action/state",
+    "〜ようと思う — expressing intention",
+    "〜ていただけると嬉しい — polite request"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.0,
+     "end": 1.8,
+     "ja": "皆さん、おはようございます。",
+     "en": "Good morning, everyone.",
+     "speaker": "Kana"
+    },
+    {
+     "start": 1.8,
+     "end": 4.5,
+     "ja": "フリーランスの発信をしているかなです。",
+     "en": "I'm Kana, sharing content about freelance life.",
+     "speaker": "Kana"
+    },
+    {
+     "start": 4.5,
+     "end": 9.1,
+     "ja": "最近「フリーランスで1日どんな仕事をしているの？」とか",
+     "en": "Lately, people have been asking me things like \"What kind of work do you do all day as a freelancer?\"...",
+     "speaker": "Kana"
+    },
+    {
+     "start": 9.1,
+     "end": 12.8,
+     "ja": "「どんなスケジュールで過ごしてるの？」って聞かれるので、",
+     "en": "...and \"What does your daily schedule look like?\", so...",
+     "speaker": "Kana"
+    },
+    {
+     "start": 12.8,
+     "end": 17.5,
+     "ja": "今日はお仕事を頑張る1日の様子をVlogにしていこうと思います。",
+     "en": "...I'd like to make a vlog showing a day where I work hard.",
+     "speaker": "Kana"
+    },
+    {
+     "start": 17.5,
+     "end": 20.8,
+     "ja": "ぜひ最後まで見ていただけると嬉しいです。",
+     "en": "I'd be really happy if you watch until the end.",
+     "speaker": "Kana"
+    },
+    {
+     "start": 20.8,
+     "end": 22.3,
+     "ja": "それでは動画スタート！",
+     "en": "Now, let's start the video!",
+     "speaker": "Kana"
+    }
+   ]
+  },
+  {
+   "start": 406.5,
+   "end": 421.8,
+   "title": "Today's Busy Schedule",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — after doing / conditional",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 406.8,
+     "end": 409.3,
+     "ja": "今日のスケジュールはこんな感じ。",
+     "en": "Here's what today's schedule looks like.",
+     "speaker": "Kana"
+    },
+    {
+     "start": 409.3,
+     "end": 412.0,
+     "ja": "朝、お仕事を一旦終わらせたら",
+     "en": "Once I finish morning work for now...",
+     "speaker": "Kana"
+    },
+    {
+     "start": 412.0,
+     "end": 416.0,
+     "ja": "元同僚とランチの約束があるのでランチをしに行き、",
+     "en": "...I have lunch plans with a former colleague, so I'll go have lunch...",
+     "speaker": "Kana"
+    },
+    {
+     "start": 416.0,
+     "end": 419.4,
+     "ja": "その後はミーティングと作業、作業、作業…",
+     "en": "...and after that, meetings and work, work, work...",
+     "speaker": "Kana"
+    },
+    {
+     "start": 419.4,
+     "end": 421.4,
+     "ja": "お仕事をずーっとする1日です。",
+     "en": "...a whole day spent continuously working.",
+     "speaker": "Kana"
+    }
+   ]
+  },
+  {
+   "start": 1054.0,
+   "end": 1072.2,
+   "title": "Clocking Out After a 15-Hour Day",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜たら — if / supposing",
+    "〜ていました — past continuous"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1054.2,
+     "end": 1056.6,
+     "ja": "今は夜の22時半ですね。",
+     "en": "It's now 10:30 at night.",
+     "speaker": "Kana"
+    },
+    {
+     "start": 1057.0,
+     "end": 1061.2,
+     "ja": "朝5時に起きて、6時ぐらいから稼働したので、",
+     "en": "I woke up at 5 a.m. and started working around 6, so...",
+     "speaker": "Kana"
+    },
+    {
+     "start": 1061.6,
+     "end": 1065.3,
+     "ja": "13、14、15、16、17、18…",
+     "en": "13, 14, 15, 16, 17, 18...",
+     "speaker": "Kana"
+    },
+    {
+     "start": 1065.8,
+     "end": 1067.0,
+     "ja": "いや、食事抜いたら",
+     "en": "No, excluding meals...",
+     "speaker": "Kana"
+    },
+    {
+     "start": 1067.0,
+     "end": 1070.0,
+     "ja": "15時間ぐらいお仕事、今日は1日してました。",
+     "en": "...I worked for about 15 hours today.",
+     "speaker": "Kana"
+    },
+    {
+     "start": 1070.3,
+     "end": 1071.7,
+     "ja": "やってました〜。",
+     "en": "I was at it all day!",
+     "speaker": "Kana"
+    }
+   ]
+  }
+ ],
+ "videoId": "Rs0d6gP3IEw",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

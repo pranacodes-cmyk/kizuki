@@ -1,0 +1,118 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 212.8,
+   "end": 222.5,
+   "title": "An Invitation to a Special Island",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "travel"
+   ],
+   "grammar": [
+    "〜を手にする — to get hold of / obtain",
+    "ご〜 — honorific prefix"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 213.2,
+     "end": 215.8,
+     "ja": "このチラシを手にしたあなた。",
+     "en": "You, who have received this flyer.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 219.4,
+     "end": 221.8,
+     "ja": "特別な島へご招待！",
+     "en": "You are invited to a special island!",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 229.4,
+   "end": 242.8,
+   "title": "Welcome to the Island",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜すぎる — too much / excessively",
+    "〜ちゃう — to end up doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 229.6,
+     "end": 233.0,
+     "ja": "すごいすごい、歓迎ムードだね！",
+     "en": "Wow, they're really in a welcoming mood!",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 234.3,
+     "end": 237.6,
+     "ja": "ついつい、楽しくなりすぎちゃうんですね。",
+     "en": "You end up having too much fun before you know it.",
+     "speaker": "Rakko"
+    },
+    {
+     "start": 238.8,
+     "end": 242.3,
+     "ja": "さらにうまいものが追加されたぁ！",
+     "en": "Even more delicious treats have been added!",
+     "speaker": "Momonga"
+    }
+   ]
+  },
+  {
+   "start": 244.6,
+   "end": 256.0,
+   "title": "A Suspicious Mystery on the Island",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "travel"
+   ],
+   "grammar": [
+    "気配がする — to sense a sign of",
+    "次々 — one after another"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 244.9,
+     "end": 247.0,
+     "ja": "怪しい気配がする。",
+     "en": "I sense something suspicious.",
+     "speaker": "Rakko"
+    },
+    {
+     "start": 247.3,
+     "end": 251.6,
+     "ja": "島の住民が次々さらわれて、行方不明になってる？",
+     "en": "The islanders are being abducted one after another and going missing?",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 251.9,
+     "end": 255.4,
+     "ja": "このメンバーで、あれを討伐するのか。",
+     "en": "Are we going to subjugate that thing with this group?",
+     "speaker": "Rakko"
+    }
+   ]
+  }
+ ],
+ "videoId": "TVmIlWo5WWM",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

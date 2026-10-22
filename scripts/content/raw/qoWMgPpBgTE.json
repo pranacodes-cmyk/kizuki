@@ -1,0 +1,40 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 948.6,
+   "end": 957.0,
+   "title": "Shuttle Bus Announcement to the Airport",
+   "level": "N4",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "〜ほど — about / approximately",
+    "ご〜いたします — humble polite action"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 949.0,
+     "end": 952.4,
+     "ja": "空港には、およそ10分ほどで到着いたします。",
+     "en": "We will arrive at the airport in about 10 minutes.",
+     "speaker": "Announcement"
+    },
+    {
+     "start": 952.9,
+     "end": 956.5,
+     "ja": "それでは、安全運転で空港までご案内いたします。",
+     "en": "We will now take you safely to the airport.",
+     "speaker": "Announcement"
+    }
+   ]
+  }
+ ],
+ "videoId": "qoWMgPpBgTE",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

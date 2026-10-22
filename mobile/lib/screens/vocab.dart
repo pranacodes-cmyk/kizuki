@@ -12,6 +12,7 @@ import '../theme/tokens.dart';
 import '../widgets/saved_word_sheet.dart';
 import '../widgets/tour.dart';
 import '../widgets/ui.dart';
+import '../widgets/word_level.dart';
 
 final _hira = kanaDeck('hiragana');
 final _kata = kanaDeck('katakana');
@@ -182,8 +183,7 @@ class _WordRow extends StatelessWidget {
   const _WordRow({required this.w, required this.onOpen});
   @override
   Widget build(BuildContext context) {
-    final st = w.status == 'ignored' ? 'ignored' : wordStatus(status: w.status, card: w.card);
-    final dot = st == 'known' ? T.success : (st == 'ignored' ? T.surface3 : T.learning);
+    final level = wordLevel(status: w.status, card: w.card);
     return Padding(
       padding: const EdgeInsets.fromLTRB(12, 10, 4, 10),
       child: Row(children: [
@@ -192,7 +192,7 @@ class _WordRow extends StatelessWidget {
             behavior: HitTestBehavior.opaque,
             onTap: onOpen,
             child: Row(children: [
-              Semantics(label: st, child: Container(width: 12, height: 12, decoration: BoxDecoration(color: dot, shape: BoxShape.circle))),
+              LevelBadge(level: level, size: 24),
               const SizedBox(width: 12),
               Expanded(
                 child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [

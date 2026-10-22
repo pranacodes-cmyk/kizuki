@@ -1,0 +1,181 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 74.5,
+   "end": 88.9,
+   "title": "Nervous on the Radio",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — if/when conditional",
+    "〜な — self-directed emotional particle"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 74.8,
+     "end": 76.8,
+     "ja": "よろしくお願いします。",
+     "en": "Nice to have you here.",
+     "speaker": "Host"
+    },
+    {
+     "start": 77.0,
+     "end": 78.4,
+     "ja": "よろしくお願いします。",
+     "en": "Thank you for having me.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 78.5,
+     "end": 80.5,
+     "ja": "なんか、すごい緊張するな。",
+     "en": "Man, I'm feeling really nervous.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 82.5,
+     "end": 85.0,
+     "ja": "ラジオ、ラジオ出演は初めてですか？",
+     "en": "Is this your first time appearing on the radio?",
+     "speaker": "Host"
+    },
+    {
+     "start": 85.2,
+     "end": 87.0,
+     "ja": "いや、初めてですよ、もう。",
+     "en": "Yeah, it really is my first time.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 87.1,
+     "end": 88.9,
+     "ja": "初めてだったら、ちょっと緊張しますよね。",
+     "en": "If it's your first time, you're bound to feel a bit nervous.",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 215.2,
+   "end": 244.6,
+   "title": "What Is Ambient Music?",
+   "level": "N3",
+   "topics": [
+    "music",
+    "culture"
+   ],
+   "grammar": [
+    "〜というのは — speaking of / defining X",
+    "〜によって — depending on",
+    "〜のかな — wondering if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 215.2,
+     "end": 220.8,
+     "ja": "その環境音楽とかアンビエントっていうのは、簡単に言うとどういった音楽なんでしょうか？",
+     "en": "Simply put, what kind of music is environmental or ambient music?",
+     "speaker": "Host"
+    },
+    {
+     "start": 221.5,
+     "end": 225.5,
+     "ja": "なんかいろんな人によって定義付け全然違うんだけど、",
+     "en": "Well, definitions vary quite a bit from person to person, but...",
+     "speaker": "Guest"
+    },
+    {
+     "start": 225.6,
+     "end": 226.5,
+     "ja": "はい。",
+     "en": "Right.",
+     "speaker": "Host"
+    },
+    {
+     "start": 227.8,
+     "end": 233.0,
+     "ja": "よくこう鑑賞目的で聴く、コンサートホールで聴くようなものとは違って、",
+     "en": "Unlike music you listen to for appreciation in a concert hall,",
+     "speaker": "Guest"
+    },
+    {
+     "start": 233.2,
+     "end": 239.8,
+     "ja": "こう、まあ無意識的にっていうのかな、その場の環境で流れているものっていうのが前提としてあって。",
+     "en": "it's based on the premise of playing in the background of a space, almost subconsciously.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 240.6,
+     "end": 244.6,
+     "ja": "だからまあ意識的に聴かないっていうのが1個のキーワードなのかなっていう気がするね。",
+     "en": "So I feel like not listening consciously is one of the key concepts.",
+     "speaker": "Guest"
+    }
+   ]
+  },
+  {
+   "start": 267.5,
+   "end": 288.0,
+   "title": "Pioneers of Ambient Music",
+   "level": "N3",
+   "topics": [
+    "music",
+    "friends"
+   ],
+   "grammar": [
+    "〜てくれた — did something for me",
+    "〜かな — I wonder / I guess"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 267.6,
+     "end": 271.8,
+     "ja": "その環境音楽、アンビエントとかだと、どういった人がいるんですか？",
+     "en": "Who are some representative artists when it comes to environmental or ambient music?",
+     "speaker": "Host"
+    },
+    {
+     "start": 272.2,
+     "end": 277.5,
+     "ja": "やっぱりそのアンビエントを最初に提唱したブライアン・イーノっていう人が、",
+     "en": "Well, Brian Eno, the person who first proposed ambient music,",
+     "speaker": "Guest"
+    },
+    {
+     "start": 277.6,
+     "end": 281.3,
+     "ja": "やっぱ一番こう目立つというか、有名かなっていう感じかな。",
+     "en": "is probably the most prominent and famous, I'd say.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 281.4,
+     "end": 284.1,
+     "ja": "ブライアン・イーノね。あのー...",
+     "en": "Brian Eno, right. Um...",
+     "speaker": "Host"
+    },
+    {
+     "start": 284.2,
+     "end": 287.8,
+     "ja": "孝から教えてもらったの。",
+     "en": "You're the one who introduced me to him, Takashi.",
+     "speaker": "Host"
+    }
+   ]
+  }
+ ],
+ "videoId": "qQPVHX0Ae4c",
+ "pickTopics": [
+  "music"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

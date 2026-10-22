@@ -1,0 +1,151 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.2,
+   "end": 16.0,
+   "title": "Sun Yi-lei Introduces Himself",
+   "level": "N5",
+   "topics": [
+    "sports",
+    "friends"
+   ],
+   "grammar": [
+    "〜は〜です — to be (copula)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.3,
+     "end": 6.4,
+     "ja": "皆さん、こんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Sun"
+    },
+    {
+     "start": 6.7,
+     "end": 13.5,
+     "ja": "えー、私は日本ハムファイターズ、背番号96番、スン・イーレイです。",
+     "en": "Um, I am Sun Yi-lei, number 96 for the Nippon-Ham Fighters.",
+     "speaker": "Sun"
+    },
+    {
+     "start": 13.6,
+     "end": 15.8,
+     "ja": "これからはよろしくお願いします。",
+     "en": "I look forward to working hard with the team from now on.",
+     "speaker": "Sun"
+    }
+   ]
+  },
+  {
+   "start": 410.8,
+   "end": 431.0,
+   "title": "Manager Shinjo's Plan for the Pitcher",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "work"
+   ],
+   "grammar": [
+    "〜ておく — doing in advance / preparatory action",
+    "〜てもらえたら — if someone could do for me"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 411.0,
+     "end": 413.0,
+     "ja": "まずは、",
+     "en": "First of all,",
+     "speaker": "Shinjo"
+    },
+    {
+     "start": 413.2,
+     "end": 415.8,
+     "ja": "今、先発がものすごく多いんで、",
+     "en": "we have a whole lot of starters right now,",
+     "speaker": "Shinjo"
+    },
+    {
+     "start": 416.2,
+     "end": 419.4,
+     "ja": "イーレイには中継ぎの経験をさせといて、",
+     "en": "so I want to give Yi-lei experience in relief first,",
+     "speaker": "Shinjo"
+    },
+    {
+     "start": 419.6,
+     "end": 424.0,
+     "ja": "ゆくゆくは、あの、先発に戻ってもらい、",
+     "en": "and eventually have him move back to the rotation,",
+     "speaker": "Shinjo"
+    },
+    {
+     "start": 424.4,
+     "end": 428.0,
+     "ja": "9回、トップの先発投手に",
+     "en": "and become a top starting pitcher",
+     "speaker": "Shinjo"
+    },
+    {
+     "start": 428.1,
+     "end": 430.8,
+     "ja": "なってもらえたら嬉しいですね。はい。",
+     "en": "who can go nine innings. That would be great. Yes.",
+     "speaker": "Shinjo"
+    }
+   ]
+  },
+  {
+   "start": 522.5,
+   "end": 540.0,
+   "title": "Competing for the Most Wins",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "work"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜と思う — I think that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 523.0,
+     "end": 526.5,
+     "ja": "まぁ、グーリンと競争しながら、",
+     "en": "Well, while competing with Gu Lin,",
+     "speaker": "Shinjo"
+    },
+    {
+     "start": 526.8,
+     "end": 531.2,
+     "ja": "最低でも15は勝てるピッチャーにはなると思うんで、",
+     "en": "I think he'll become a pitcher who can win at least 15 games,",
+     "speaker": "Shinjo"
+    },
+    {
+     "start": 531.8,
+     "end": 536.0,
+     "ja": "グーリンと最多勝争いをしてもらえたら",
+     "en": "so if he and Gu Lin could battle for the most wins title,",
+     "speaker": "Shinjo"
+    },
+    {
+     "start": 536.8,
+     "end": 539.5,
+     "ja": "嬉しいっすね。はい。",
+     "en": "I'd be really happy. Yeah.",
+     "speaker": "Shinjo"
+    }
+   ]
+  }
+ ],
+ "videoId": "q7lOcfkl-YY",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

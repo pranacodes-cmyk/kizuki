@@ -1,0 +1,155 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 26.0,
+   "end": 39.8,
+   "title": "Are You the Transfer Student?",
+   "level": "N4",
+   "topics": [
+    "school",
+    "friends",
+    "anime"
+   ],
+   "grammar": [
+    "〜たら — if/when",
+    "〜てね — gentle request"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 26.3,
+     "end": 29.0,
+     "ja": "わあ！あなた転校生？",
+     "en": "Whoa! Are you the transfer student?",
+     "speaker": "Xiaolan"
+    },
+    {
+     "start": 29.4,
+     "end": 32.7,
+     "ja": "分からないことがあったら、なんでも聞いてね！",
+     "en": "If there's anything you don't know, just ask me!",
+     "speaker": "Xiaolan"
+    },
+    {
+     "start": 33.2,
+     "end": 35.1,
+     "ja": "あっ、ねえねえ、もう見た？",
+     "en": "Oh, hey, hey, have you seen him yet?",
+     "speaker": "Xiaolan"
+    },
+    {
+     "start": 35.3,
+     "end": 37.3,
+     "ja": "この学園の生徒会長ってね、",
+     "en": "The student council president here...",
+     "speaker": "Xiaolan"
+    },
+    {
+     "start": 37.4,
+     "end": 39.5,
+     "ja": "すっごくかっこいいんだよ！",
+     "en": "...is super handsome!",
+     "speaker": "Xiaolan"
+    }
+   ]
+  },
+  {
+   "start": 41.8,
+   "end": 56.5,
+   "title": "Let's Hang Out Together!",
+   "level": "N4",
+   "topics": [
+    "school",
+    "friends",
+    "anime"
+   ],
+   "grammar": [
+    "〜に行こう — let's go do",
+    "〜んだって — hearsay/I heard",
+    "〜ながら — while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 42.2,
+     "end": 44.8,
+     "ja": "猫猫って変わってるよねー。",
+     "en": "Maomao, you're pretty eccentric, aren't you?",
+     "speaker": "Zicui"
+    },
+    {
+     "start": 45.3,
+     "end": 48.3,
+     "ja": "あ、今度小蘭と３人で遊びに行こうよ！",
+     "en": "Hey, let's hang out with Xiaolan, the three of us sometime!",
+     "speaker": "Zicui"
+    },
+    {
+     "start": 48.7,
+     "end": 50.8,
+     "ja": "植物園なんかどうかな？",
+     "en": "How about somewhere like the botanical garden?",
+     "speaker": "Zicui"
+    },
+    {
+     "start": 51.1,
+     "end": 52.7,
+     "ja": "虫もいるんだって！",
+     "en": "I heard there are bugs too!",
+     "speaker": "Zicui"
+    },
+    {
+     "start": 53.0,
+     "end": 56.2,
+     "ja": "虫を見ながらみんなで美味しいスイーツ食べようよ！",
+     "en": "Let's all eat delicious sweets while watching bugs!",
+     "speaker": "Zicui"
+    }
+   ]
+  },
+  {
+   "start": 128.0,
+   "end": 139.9,
+   "title": "You'll Work for the Student Council",
+   "level": "N3",
+   "topics": [
+    "school",
+    "anime"
+   ],
+   "grammar": [
+    "〜らしい — seems like / apparently",
+    "〜てもらう — have someone do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 128.2,
+     "end": 130.8,
+     "ja": "ほう、君が噂の転校生か。",
+     "en": "Oho, so you're the rumored transfer student.",
+     "speaker": "Jinshi"
+    },
+    {
+     "start": 131.2,
+     "end": 135.1,
+     "ja": "色々と事件を解決しているらしいじゃないか。",
+     "en": "Apparently, you've been solving all kinds of incidents, haven't you?",
+     "speaker": "Jinshi"
+    },
+    {
+     "start": 136.4,
+     "end": 139.7,
+     "ja": "生徒会に入って、この学園のために働いてもらうぞ。",
+     "en": "You'll join the student council and work for this school.",
+     "speaker": "Jinshi"
+    }
+   ]
+  }
+ ],
+ "videoId": "0TCUTA3AjyA",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

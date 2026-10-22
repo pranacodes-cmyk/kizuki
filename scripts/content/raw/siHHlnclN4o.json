@@ -1,0 +1,117 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 35.0,
+   "end": 53.6,
+   "title": "Tram Routes in Matsuyama",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ように — in such a way as to",
+    "〜んだよ — explanatory sentence ending"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 35.5,
+     "end": 40.0,
+     "ja": "伊予鉄道では松山城をぐるりと囲むように",
+     "en": "In Iyotetsu, encircling Matsuyama Castle,",
+     "speaker": "Dog"
+    },
+    {
+     "start": 40.8,
+     "end": 45.4,
+     "ja": "市内電車の路線が五つあるんだよ。",
+     "en": "there are five city tram lines.",
+     "speaker": "Dog"
+    },
+    {
+     "start": 46.5,
+     "end": 53.1,
+     "ja": "ほとんどの路線が10分から15分の間隔で運行しています。",
+     "en": "Most lines run at intervals of 10 to 15 minutes.",
+     "speaker": "Dog"
+    }
+   ]
+  },
+  {
+   "start": 105.0,
+   "end": 119.5,
+   "title": "How to Get Off the Tram",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — when / if",
+    "〜てから — after doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 105.4,
+     "end": 111.9,
+     "ja": "目的の停留場が近づいたら、降車ボタンを押してお知らせしてね。",
+     "en": "When approaching your stop, press the stop button to notify the driver.",
+     "speaker": "Dog"
+    },
+    {
+     "start": 113.1,
+     "end": 118.9,
+     "ja": "電車がしっかり止まってから席を立って移動してください。",
+     "en": "Please stand up and move only after the train has completely stopped.",
+     "speaker": "Dog"
+    }
+   ]
+  },
+  {
+   "start": 127.8,
+   "end": 142.2,
+   "title": "Fares and Change on the Tram",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜場合は — in case of / if",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 128.0,
+     "end": 130.8,
+     "ja": "運賃は全区間均一です。",
+     "en": "Fares are flat across all sections.",
+     "speaker": "Iyoko"
+    },
+    {
+     "start": 131.7,
+     "end": 137.6,
+     "ja": "両替が必要な場合は前後の運賃箱横に両替機があるのでご利用ください。",
+     "en": "If you need change, please use the change machines next to the fare boxes at the front and back.",
+     "speaker": "Iyoko"
+    },
+    {
+     "start": 138.8,
+     "end": 141.7,
+     "ja": "ちょうどの金額を運賃箱に入れます。",
+     "en": "Put the exact amount into the fare box.",
+     "speaker": "Iyoko"
+    }
+   ]
+  }
+ ],
+ "videoId": "siHHlnclN4o",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

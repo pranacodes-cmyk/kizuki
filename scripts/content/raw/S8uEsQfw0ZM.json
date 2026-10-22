@@ -1,0 +1,171 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 38.0,
+   "end": 59.5,
+   "title": "What Time Is It Over There?",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜というのは — meaning that / as for...",
+    "それとも — or (connecting questions)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 38.2,
+     "end": 45.8,
+     "ja": "今、東京は、ね、今、日本は、昼の11時半です。ね。",
+     "en": "Right now in Tokyo, in Japan, it's 11:30 in the morning. Right.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 46.0,
+     "end": 48.0,
+     "ja": "11時半。",
+     "en": "11:30.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 48.0,
+     "end": 51.5,
+     "ja": "11時半というのは、11時30分ですね。",
+     "en": "11:30 means 11 hours and 30 minutes, right?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 51.5,
+     "end": 53.3,
+     "ja": "11時30分のことです。",
+     "en": "It means 11:30.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 53.3,
+     "end": 55.2,
+     "ja": "皆さんは今、何時ですか？",
+     "en": "What time is it for all of you right now?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 55.2,
+     "end": 59.0,
+     "ja": "朝ですか？昼ですか？それとも夜ですか？ね？",
+     "en": "Is it morning? Daytime? Or is it night? Right?",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 107.5,
+   "end": 125.0,
+   "title": "Do You Like Studying Japanese?",
+   "level": "N5",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜じゃない — is not (negation)",
+    "〜ということ — that means..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 108.0,
+     "end": 111.3,
+     "ja": "日本語の勉強は皆さん、好きですか？",
+     "en": "Everyone, do you like studying Japanese?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 111.3,
+     "end": 113.8,
+     "ja": "ね、日本語の勉強好きですか？",
+     "en": "Do you like studying Japanese?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 114.0,
+     "end": 117.0,
+     "ja": "それとも、好きじゃないですか？",
+     "en": "Or do you not like it?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 117.3,
+     "end": 119.5,
+     "ja": "好きじゃないですか？",
+     "en": "You don't like it?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 119.8,
+     "end": 121.8,
+     "ja": "ね、嫌いっていうことですね。",
+     "en": "That means you dislike it, right?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 121.8,
+     "end": 124.5,
+     "ja": "好きじゃない。ね、好きじゃない。ね。",
+     "en": "Not liking it. Yeah, not liking it.",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 137.5,
+   "end": 152.0,
+   "title": "Is Katakana Difficult?",
+   "level": "N5",
+   "topics": [
+    "school"
+   ],
+   "grammar": [
+    "〜にくい — hard to do",
+    "〜も — also / as well"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 137.8,
+     "end": 140.5,
+     "ja": "カタカナは好きですか？ね。",
+     "en": "Do you like katakana?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 140.5,
+     "end": 143.5,
+     "ja": "カタカナ、それとも嫌いですか？",
+     "en": "Katakana, or do you dislike it?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 143.5,
+     "end": 147.8,
+     "ja": "ね、カタカナもちょっと、難しいですね。",
+     "en": "Yeah, katakana is also a bit difficult, isn't it?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 147.8,
+     "end": 151.5,
+     "ja": "分かりにくいですね。ね、すごく分かりにくい。ね。",
+     "en": "It's hard to understand. Very hard to grasp, right?",
+     "speaker": "Teppei"
+    }
+   ]
+  }
+ ],
+ "videoId": "S8uEsQfw0ZM",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

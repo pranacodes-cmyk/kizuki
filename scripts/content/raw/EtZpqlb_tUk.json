@@ -1,0 +1,189 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 130.5,
+   "end": 144.0,
+   "title": "Deciding What to Eat for Lunch",
+   "level": "N4",
+   "topics": [
+    "food",
+    "friends",
+    "school"
+   ],
+   "grammar": [
+    "〜かな — wondering / self-questioning",
+    "〜やろ — right? / isn't it (Kansai-ben)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 130.6,
+     "end": 132.0,
+     "ja": "うどんにしよっかな。",
+     "en": "Maybe I'll get udon.",
+     "speaker": "Friend A"
+    },
+    {
+     "start": 132.3,
+     "end": 134.2,
+     "ja": "うどんか、ラーメン。",
+     "en": "Udon or ramen...",
+     "speaker": "Friend A"
+    },
+    {
+     "start": 134.5,
+     "end": 136.8,
+     "ja": "悩むね、迷うにー。",
+     "en": "Tough choice, so indecisive!",
+     "speaker": "Friend A"
+    },
+    {
+     "start": 137.0,
+     "end": 138.5,
+     "ja": "カレーライス、チーズカレー。",
+     "en": "Curry rice, cheese curry...",
+     "speaker": "Friend A"
+    },
+    {
+     "start": 138.6,
+     "end": 140.2,
+     "ja": "え、無理無理嫌や、嫌い。",
+     "en": "No way, no way, I hate it.",
+     "speaker": "Friend B"
+    },
+    {
+     "start": 140.4,
+     "end": 142.1,
+     "ja": "まぁカレーあんま好きじゃない。",
+     "en": "Well, I don't really like curry.",
+     "speaker": "Friend B"
+    },
+    {
+     "start": 142.3,
+     "end": 143.6,
+     "ja": "うどんやろ。",
+     "en": "Udon it is, then.",
+     "speaker": "Friend A"
+    }
+   ]
+  },
+  {
+   "start": 291.2,
+   "end": 303.5,
+   "title": "Finding a Rare Primer",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜てんの — casual explanation / contraction",
+    "〜てた — past continuous (contraction of ていた)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 291.3,
+     "end": 292.2,
+     "ja": "やばくない？",
+     "en": "Isn't this amazing?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 292.4,
+     "end": 295.3,
+     "ja": "これ売ってんのすっごい珍しいって知ってた？",
+     "en": "Did you know it's super rare to find this in stores?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 295.6,
+     "end": 296.8,
+     "ja": "知らなーい。",
+     "en": "No idea.",
+     "speaker": "Tsuki"
+    },
+    {
+     "start": 297.0,
+     "end": 297.9,
+     "ja": "知らない。",
+     "en": "I don't know it.",
+     "speaker": "Tsuki"
+    },
+    {
+     "start": 298.2,
+     "end": 300.0,
+     "ja": "知らないの？やばいよ。",
+     "en": "You don't know? Seriously?!",
+     "speaker": "Friend"
+    },
+    {
+     "start": 301.3,
+     "end": 303.0,
+     "ja": "でも嬉しいことは伝わるよ。",
+     "en": "Well, I can tell how happy you are, though.",
+     "speaker": "Tsuki"
+    }
+   ]
+  },
+  {
+   "start": 637.0,
+   "end": 652.5,
+   "title": "Wrapping Up the Study Session",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜てくれる — doing something for me",
+    "〜と思う — thinking of doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 637.3,
+     "end": 641.5,
+     "ja": "最後まで動画を見てくれてありがとうございました。",
+     "en": "Thank you so much for watching the video until the end.",
+     "speaker": "Tsuki"
+    },
+    {
+     "start": 643.0,
+     "end": 646.0,
+     "ja": "もうすぐ11時になるので、",
+     "en": "It's almost 11:00 PM, so",
+     "speaker": "Tsuki"
+    },
+    {
+     "start": 646.2,
+     "end": 648.5,
+     "ja": "そろそろ帰りたいと思います。",
+     "en": "I think I'll be heading home soon.",
+     "speaker": "Tsuki"
+    },
+    {
+     "start": 649.3,
+     "end": 650.5,
+     "ja": "それでは皆さん、",
+     "en": "Well then everyone,",
+     "speaker": "Tsuki"
+    },
+    {
+     "start": 651.1,
+     "end": 652.2,
+     "ja": "ばいばーい。",
+     "en": "Bye-bye!",
+     "speaker": "Tsuki"
+    }
+   ]
+  }
+ ],
+ "videoId": "EtZpqlb_tUk",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

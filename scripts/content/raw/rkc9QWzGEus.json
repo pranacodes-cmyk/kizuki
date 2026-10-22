@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 112.0,
+   "end": 135.8,
+   "title": "The Moon Is Beautiful",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "romance"
+   ],
+   "grammar": [
+    "〜として — as / in the role of",
+    "〜てしまう — ends up doing / unintended result"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 112.2,
+     "end": 116.3,
+     "ja": "例えば、都市伝説として有名な「月が綺麗ですね」というフレーズがあります。",
+     "en": "For example, there's a phrase famous as an urban legend: \"The moon is beautiful, isn't it?\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 116.6,
+     "end": 119.8,
+     "ja": "夏目漱石が英語教師をしていたとき、",
+     "en": "When Soseki Natsume was working as an English teacher,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 119.9,
+     "end": 122.8,
+     "ja": "生徒が「I love you」を「我、君を愛す」と訳したところ、",
+     "en": "a student translated \"I love you\" as \"I love thee,\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 123.0,
+     "end": 128.5,
+     "ja": "「日本人はそんなことを言わない。月が綺麗ですね、とでも訳しておきなさい」と言ったとされています。",
+     "en": "and he reportedly told them, \"Japanese people don't say that. You should translate it as 'The moon is beautiful, isn't it?'\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 128.7,
+     "end": 135.4,
+     "ja": "この場合、「月が綺麗ですね」には「月が綺麗だ」という意味と、「あなたを愛している」という二つの意味が生まれてしまうことになります。",
+     "en": "In this case, \"The moon is beautiful, isn't it?\" ends up taking on two meanings: that the moon is beautiful, and \"I love you.\"",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 135.8,
+   "end": 157.0,
+   "title": "The Two Meanings of Kekkou Desu",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜に当たる — to correspond to / to equate to",
+    "〜ば — conditional (if / when)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 136.0,
+     "end": 140.5,
+     "ja": "同様に、例えば「結構です」という言葉には肯定と否定の２つの意味があります。",
+     "en": "Similarly, the phrase \"kekkou desu\" has two meanings: affirmation and negation.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 140.9,
+     "end": 143.6,
+     "ja": "「お値段はこのぐらいになりますけど、いかがでしょうか？」「そのお値段で結構です」",
+     "en": "\"The price will be around this much; how does that sound?\" \"That price is fine.\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 143.9,
+     "end": 145.6,
+     "ja": "これは肯定ですね。",
+     "en": "This is an affirmation.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 145.9,
+     "end": 148.9,
+     "ja": "一方、「ハンバーガーと一緒にポテトはいかがですか？」「結構です」",
+     "en": "On the other hand: \"Would you like fries with your burger?\" \"No, thank you.\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 149.2,
+     "end": 150.9,
+     "ja": "これは否定に当たるでしょう。",
+     "en": "This counts as a negation.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 151.1,
+     "end": 156.5,
+     "ja": "このように、文章や会話の流れの中で「結構です」を確認できれば、前後関係からその意味を推察できます。",
+     "en": "In this way, if you can confirm \"kekkou desu\" within the flow of a text or conversation, you can infer its meaning from the context.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 180.0,
+   "end": 200.5,
+   "title": "Wittgenstein's Language-Games",
+   "level": "N1",
+   "topics": [
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜て初めて — only after / only when",
+    "〜とする — to regard as / to assume"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 180.2,
+     "end": 186.9,
+     "ja": "ウィトゲンシュタインは、日常の様々な関係性の中で言語の意味が複数に分裂することを「言語ゲーム」と表現しました。",
+     "en": "Wittgenstein described how the meaning of language splinters into multiples within various everyday relationships as \"language-games.\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 187.3,
+     "end": 195.6,
+     "ja": "そして、言語は完全に独立して存在することはできず、あらゆる言語は言語ゲームの中で使用されることで初めて意味を持つとしたのです。",
+     "en": "Furthermore, he posited that language cannot exist completely independently, and all language only acquires meaning when used within a language-game.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 195.8,
+     "end": 200.2,
+     "ja": "日常言語を理解するためには、言語ゲームのルールを把握することが必要です。",
+     "en": "In order to understand everyday language, it is necessary to grasp the rules of the language-game.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "rkc9QWzGEus",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,162 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 18.0,
+   "title": "Unboxing the New PS5 Slim",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜てみる — to try doing",
+    "〜について — about / regarding",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 5.0,
+     "ja": "今回は新型PS5 Slimの開封レビューをお届けします。",
+     "en": "Today, we bring you an unboxing review of the new PS5 Slim.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 5.5,
+     "end": 12.7,
+     "ja": "2023年11月に新型PS5 Slimが発売されたので、早速私も購入して使ってみました。",
+     "en": "The new PS5 Slim was released in November 2023, so I quickly bought one and tried it out.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 13.3,
+     "end": 17.8,
+     "ja": "そんなわけで今回は、新型PS5 Slim開封レビューについて見ていきましょう。",
+     "en": "So with that said, let's take a look at the unboxing review of the new PS5 Slim.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 142.4,
+   "end": 205.0,
+   "title": "Design and Specs of the PS5 Slim",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていく — will go on to do",
+    "〜だけでも — just by doing",
+    "〜くらいに — to the extent that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 142.5,
+     "end": 145.3,
+     "ja": "次は、デザインと仕様をチェックしていきます。",
+     "en": "Next, let's check the design and specifications.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 145.7,
+     "end": 152.2,
+     "ja": "新型PS5 Slimデジタル・エディションの大きさは、358ミリかける80ミリかける216ミリ、",
+     "en": "The size of the new PS5 Slim Digital Edition is 358mm by 80mm by 216mm,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 152.4,
+     "end": 155.7,
+     "ja": "重さは約2.6kgとなっています。",
+     "en": "and the weight is about 2.6 kilograms.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 156.2,
+     "end": 200.0,
+     "ja": "デザインはパッと見ただけでも、旧型よりコンパクトになっていることが分かります。",
+     "en": "Just by glancing at the design, you can tell it has become more compact than the old model.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 200.5,
+     "end": 204.7,
+     "ja": "重さも片手で持ち上げられるくらいに軽くなっていることも感じました。",
+     "en": "I also felt that the weight has become light enough to lift with one hand.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 839.0,
+   "end": 905.5,
+   "title": "Final Thoughts on the New PS5 Slim",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ように感じられる — feel as though",
+    "〜てみる — to try doing",
+    "〜かもしれない — might / maybe"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 839.0,
+     "end": 843.6,
+     "ja": "今回は新型PS5 Slim開封レビューについてご紹介しました。",
+     "en": "Today, we presented an unboxing review of the new PS5 Slim.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 844.2,
+     "end": 848.0,
+     "ja": "このように新型PS5 Slimは旧型よりもコンパクトで軽量になり、",
+     "en": "In this way, the new PS5 Slim has become more compact and lighter than the old model,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 848.3,
+     "end": 853.3,
+     "ja": "発熱や排熱も抑えられているように感じられたので、満足しています。",
+     "en": "and since heat generation and exhaust also felt suppressed, I am satisfied.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 853.8,
+     "end": 857.2,
+     "ja": "しかしながら、値段が高くなっているのが欠点なので、",
+     "en": "However, the higher price is a drawback,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 857.5,
+     "end": 901.0,
+     "ja": "価格を抑えたい方は、あえて旧型を狙ってみるのもアリかもしれません。",
+     "en": "so for those who want to save money, going for the older model might also be an option.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 901.4,
+     "end": 905.4,
+     "ja": "皆さんも、あなたに合ったPS5を選んでゲームプレイを楽しみましょう。",
+     "en": "Choose the PS5 that suits you best and enjoy gaming, everyone!",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "g6iL4Pcv9Dg",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

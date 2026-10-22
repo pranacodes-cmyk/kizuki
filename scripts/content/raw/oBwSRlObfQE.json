@@ -1,0 +1,167 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 14.0,
+   "end": 43.0,
+   "title": "Why Anime Is Hard for Japanese Learners",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "daily"
+   ],
+   "grammar": [
+    "〜たことがある — past experience",
+    "〜すぎる — too / excessively"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 14.0,
+     "end": 21.0,
+     "ja": "日本語を勉強していて、こんなこと思ったことはありませんか？",
+     "en": "While studying Japanese, have you ever thought something like this?",
+     "speaker": "Maria"
+    },
+    {
+     "start": 21.3,
+     "end": 29.0,
+     "ja": "もっと日本語を聞きたいけど、アニメやドラマは早すぎる。",
+     "en": "I want to listen to more Japanese, but anime and dramas are too fast.",
+     "speaker": "Maria"
+    },
+    {
+     "start": 29.3,
+     "end": 33.5,
+     "ja": "「え？今なんて言ったの？」",
+     "en": "\"Huh? What did they just say?\"",
+     "speaker": "Maria"
+    },
+    {
+     "start": 34.0,
+     "end": 38.2,
+     "ja": "「うーん、ちょっと待って、もう一回。」",
+     "en": "\"Hmm, wait a second, one more time.\"",
+     "speaker": "Maria"
+    },
+    {
+     "start": 38.5,
+     "end": 43.0,
+     "ja": "でも、もちろんアニメは止まってくれません。",
+     "en": "But of course, anime won't pause for you.",
+     "speaker": "Maria"
+    }
+   ]
+  },
+  {
+   "start": 143.0,
+   "end": 208.8,
+   "title": "How Anime Characters Talk",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "〜みたいに — like / similar to",
+    "あまり〜ない — not very / rarely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 143.0,
+     "end": 147.0,
+     "ja": "例えば、侍みたいに話すキャラクター、",
+     "en": "For example, characters who talk like samurai,",
+     "speaker": "Maria"
+    },
+    {
+     "start": 147.3,
+     "end": 153.6,
+     "ja": "すごく元気で、めちゃくちゃ早く話すキャラクター、",
+     "en": "characters who are super energetic and talk crazy fast,",
+     "speaker": "Maria"
+    },
+    {
+     "start": 154.1,
+     "end": 200.8,
+     "ja": "あるいは「ふふふ」みたいに、ちょっと怪しい話し方のキャラクター。",
+     "en": "or characters with slightly suspicious ways of speaking, like \"hehehe.\"",
+     "speaker": "Maria"
+    },
+    {
+     "start": 201.2,
+     "end": 208.6,
+     "ja": "現実の会話では、そこまでドラマチックな話し方はあまりしません。",
+     "en": "In real-life conversations, people don't really speak that dramatically.",
+     "speaker": "Maria"
+    }
+   ]
+  },
+  {
+   "start": 201.0,
+   "end": 234.5,
+   "title": "You Don't Need to Understand Everything",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜ても — even if",
+    "〜する必要はない — no need to",
+    "〜ていく — gradual change over time"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 201.0,
+     "end": 209.8,
+     "ja": "もしこのポッドキャストを聞いていて、「全部理解できない」と思っても、",
+     "en": "Even if you listen to this podcast and think, \"I can't understand everything,\"",
+     "speaker": "Maria"
+    },
+    {
+     "start": 210.2,
+     "end": 212.8,
+     "ja": "全然大丈夫です。",
+     "en": "it's totally fine.",
+     "speaker": "Maria"
+    },
+    {
+     "start": 213.2,
+     "end": 219.5,
+     "ja": "言語を勉強するとき、全部理解する必要はありません。",
+     "en": "When studying a language, you don't need to understand everything.",
+     "speaker": "Maria"
+    },
+    {
+     "start": 220.3,
+     "end": 225.3,
+     "ja": "大切なのは、日本語の音を聞くこと、",
+     "en": "What is important is listening to the sounds of Japanese,",
+     "speaker": "Maria"
+    },
+    {
+     "start": 225.6,
+     "end": 229.0,
+     "ja": "日本語のリズムに慣れること、",
+     "en": "getting used to the rhythm of Japanese,",
+     "speaker": "Maria"
+    },
+    {
+     "start": 229.4,
+     "end": 234.2,
+     "ja": "そして、日本語に少しずつ慣れていくこと。",
+     "en": "and gradually getting used to Japanese step by step.",
+     "speaker": "Maria"
+    }
+   ]
+  }
+ ],
+ "videoId": "oBwSRlObfQE",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

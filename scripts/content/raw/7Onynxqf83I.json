@@ -1,0 +1,201 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.5,
+   "end": 26.0,
+   "title": "Asking for Bus Directions",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜に行く — destination marker に",
+    "〜たい — expressing desire"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.8,
+     "end": 9.2,
+     "ja": "このバスは駅に行きますか？",
+     "en": "Does this bus go to the station?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 9.8,
+     "end": 12.4,
+     "ja": "はい、行きますよ。",
+     "en": "Yes, it does.",
+     "speaker": "Driver"
+    },
+    {
+     "start": 13.1,
+     "end": 15.0,
+     "ja": "よかった。",
+     "en": "That's good.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 15.6,
+     "end": 18.0,
+     "ja": "駅まで行きたいです。",
+     "en": "I want to go to the station.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 18.8,
+     "end": 22.3,
+     "ja": "では、このバスで大丈夫です。",
+     "en": "Then, this bus is fine.",
+     "speaker": "Driver"
+    },
+    {
+     "start": 22.9,
+     "end": 25.5,
+     "ja": "ありがとうございます。",
+     "en": "Thank you.",
+     "speaker": "Boy"
+    }
+   ]
+  },
+  {
+   "start": 175.5,
+   "end": 199.0,
+   "title": "Asking About Melon Bread",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜にする — deciding on an option",
+    "〜がある — existence of inanimate things"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 175.7,
+     "end": 177.2,
+     "ja": "すみません。",
+     "en": "Excuse me.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 177.6,
+     "end": 179.0,
+     "ja": "はい？",
+     "en": "Yes?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 179.5,
+     "end": 183.5,
+     "ja": "これは何ですか？",
+     "en": "What is this?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 184.2,
+     "end": 187.3,
+     "ja": "メロンパンです。",
+     "en": "It's melon bread.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 188.0,
+     "end": 190.5,
+     "ja": "メロンパン？",
+     "en": "Melon bread?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 191.1,
+     "end": 194.5,
+     "ja": "はい。人気がありますよ。",
+     "en": "Yes. It's very popular.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 195.2,
+     "end": 198.5,
+     "ja": "じゃあ、これにします。",
+     "en": "Then I'll get this one.",
+     "speaker": "Boy"
+    }
+   ]
+  },
+  {
+   "start": 300.5,
+   "end": 330.5,
+   "title": "Ordering Recommendations at a Cafe",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜をお願いします — polite request",
+    "〜はいかがですか — offering or recommending"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 300.8,
+     "end": 303.7,
+     "ja": "おすすめは何ですか？",
+     "en": "What do you recommend?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 304.3,
+     "end": 307.3,
+     "ja": "コーヒーがおすすめです。",
+     "en": "I recommend the coffee.",
+     "speaker": "Waiter"
+    },
+    {
+     "start": 308.0,
+     "end": 311.5,
+     "ja": "じゃあ、コーヒーをお願いします。",
+     "en": "Then, I'll have a coffee, please.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 313.7,
+     "end": 316.5,
+     "ja": "デザートはいかがですか？",
+     "en": "Would you like a dessert?",
+     "speaker": "Waiter"
+    },
+    {
+     "start": 317.3,
+     "end": 320.5,
+     "ja": "はい。何がありますか？",
+     "en": "Yes. What do you have?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 322.0,
+     "end": 325.2,
+     "ja": "ケーキとプリンがあります。",
+     "en": "We have cake and pudding.",
+     "speaker": "Waiter"
+    },
+    {
+     "start": 326.1,
+     "end": 329.5,
+     "ja": "プリンをお願いします。",
+     "en": "I'll have the pudding, please.",
+     "speaker": "Customer"
+    }
+   ]
+  }
+ ],
+ "videoId": "7Onynxqf83I",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

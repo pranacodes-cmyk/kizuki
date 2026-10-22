@@ -1,0 +1,210 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 19.5,
+   "title": "Explaining the New Buzz Cut",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていただく — humble permission",
+    "〜ので — because, since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 2.1,
+     "ja": "どうも、佐野勇斗です。",
+     "en": "Hello, I'm Hayato Sano.",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 2.3,
+     "end": 8.5,
+     "ja": "皆さんお気づきの通り、私、髪の毛を丸刈りにさせていただきました。",
+     "en": "As you may have noticed, I got a buzz cut.",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 9.1,
+     "end": 15.5,
+     "ja": "朝の連続テレビ小説『おむすび』で高校野球球児を演じるので、",
+     "en": "Since I'll be playing a high school baseball player in the morning drama series 'Omusubi,'",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 15.8,
+     "end": 19.2,
+     "ja": "頭を丸刈りにしました。",
+     "en": "I shaved my head.",
+     "speaker": "Hayato"
+    }
+   ]
+  },
+  {
+   "start": 123.8,
+   "end": 144.0,
+   "title": "Surprising the Group Members",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "friends",
+    "comedy"
+   ],
+   "grammar": [
+    "どうする — what to do",
+    "〜を込めて — with (feelings of)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 123.8,
+     "end": 125.8,
+     "ja": "ういー、こんにちは。",
+     "en": "Hey, hello.",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 125.8,
+     "end": 128.5,
+     "ja": "ええええっ！？",
+     "en": "Whaaaat?!",
+     "speaker": "Members"
+    },
+    {
+     "start": 128.5,
+     "end": 130.0,
+     "ja": "えっ、どうすんの？",
+     "en": "Wait, what are you gonna do?",
+     "speaker": "Member"
+    },
+    {
+     "start": 130.0,
+     "end": 132.4,
+     "ja": "丸めてきました、謝罪の気持ちを込めて。",
+     "en": "I shaved it off, as a sign of apology.",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 132.4,
+     "end": 134.5,
+     "ja": "いやいやいやいや。",
+     "en": "No, no, no, no...",
+     "speaker": "Member"
+    },
+    {
+     "start": 135.5,
+     "end": 137.0,
+     "ja": "ライブどうすんの？",
+     "en": "What about the concert?",
+     "speaker": "Member"
+    },
+    {
+     "start": 137.0,
+     "end": 138.2,
+     "ja": "これで出ます。",
+     "en": "I'll go on like this.",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 138.2,
+     "end": 140.0,
+     "ja": "えっ！？",
+     "en": "What?!",
+     "speaker": "Member"
+    },
+    {
+     "start": 140.0,
+     "end": 141.5,
+     "ja": "あの王子衣装？",
+     "en": "In that prince costume?",
+     "speaker": "Member"
+    },
+    {
+     "start": 141.5,
+     "end": 142.5,
+     "ja": "すみません…",
+     "en": "Sorry...",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 142.5,
+     "end": 143.7,
+     "ja": "本当に？",
+     "en": "Really?",
+     "speaker": "Member"
+    }
+   ]
+  },
+  {
+   "start": 235.5,
+   "end": 248.0,
+   "title": "Will He Wear a Wig on Stage?",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "friends",
+    "work"
+   ],
+   "grammar": [
+    "〜っす — informal polite form",
+    "〜くね？ — casual negative tag question"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 235.8,
+     "end": 239.0,
+     "ja": "正直、坊主じゃないっす、ライブは。",
+     "en": "Honestly, I won't be bald for the concert.",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 239.0,
+     "end": 240.5,
+     "ja": "カツラ被ります。",
+     "en": "I'm going to wear a wig.",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 240.5,
+     "end": 241.8,
+     "ja": "ああ、そうなんだ。",
+     "en": "Ah, is that so?",
+     "speaker": "Member"
+    },
+    {
+     "start": 242.0,
+     "end": 244.2,
+     "ja": "別に似合うよ、やっぱり。",
+     "en": "Actually it looks good on you after all.",
+     "speaker": "Member"
+    },
+    {
+     "start": 244.2,
+     "end": 246.0,
+     "ja": "なんか頭ちっちゃくね？",
+     "en": "Doesn't your head look tiny?",
+     "speaker": "Member"
+    },
+    {
+     "start": 246.0,
+     "end": 247.8,
+     "ja": "でもさ、なんかすごいね。",
+     "en": "Still though, it's pretty impressive.",
+     "speaker": "Member"
+    }
+   ]
+  }
+ ],
+ "videoId": "u7lSa0LeEwU",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,249 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.8,
+   "end": 35.2,
+   "title": "Interviewing Shibuya on Love Life",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜ということで — as such / because of that",
+    "〜といえば — speaking of...",
+    "〜んじゃないですか — isn't it the case that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.8,
+     "end": 14.3,
+     "ja": "今日はね、あのまあソロも頑張っていこうということで。",
+     "en": "Today, well, I decided to do my best on my solo channel.",
+     "speaker": "Shintaro"
+    },
+    {
+     "start": 14.4,
+     "end": 16.2,
+     "ja": "あと女性視聴者多いでしょ、僕の。",
+     "en": "And I have a lot of female viewers, right?",
+     "speaker": "Shintaro"
+    },
+    {
+     "start": 16.3,
+     "end": 18.5,
+     "ja": "見てる人80%、70%女性なんですよ。",
+     "en": "Around 70 to 80% of the people watching are women.",
+     "speaker": "Shintaro"
+    },
+    {
+     "start": 18.6,
+     "end": 22.3,
+     "ja": "男性に刺さる動画というより、女性が気になることを聞こうということで。",
+     "en": "So rather than appealing to men, we'll ask about things women care about.",
+     "speaker": "Shintaro"
+    },
+    {
+     "start": 22.7,
+     "end": 24.7,
+     "ja": "ま、女性といえば恋愛好きじゃないですか。",
+     "en": "Well, speaking of women, they love romance, right?",
+     "speaker": "Shintaro"
+    },
+    {
+     "start": 24.9,
+     "end": 27.4,
+     "ja": "ということで、皆の恋愛事情を聞きに行こうと。",
+     "en": "So, we're going to go ask about everyone's love lives.",
+     "speaker": "Shintaro"
+    },
+    {
+     "start": 27.6,
+     "end": 29.8,
+     "ja": "最近僕も独り身になりましたから。",
+     "en": "I recently became single myself, after all.",
+     "speaker": "Shintaro"
+    },
+    {
+     "start": 30.0,
+     "end": 32.1,
+     "ja": "いろんな意味で独り身。",
+     "en": "Single in many senses.",
+     "speaker": "Shintaro"
+    },
+    {
+     "start": 32.3,
+     "end": 33.1,
+     "ja": "離婚ちゃうねん！",
+     "en": "Not a divorce!",
+     "speaker": "Shintaro"
+    },
+    {
+     "start": 33.2,
+     "end": 34.1,
+     "ja": "どこですか？ここは。",
+     "en": "Where are we?",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 34.2,
+     "end": 35.2,
+     "ja": "渋谷です！",
+     "en": "We're in Shibuya!",
+     "speaker": "Shintaro"
+    }
+   ]
+  },
+  {
+   "start": 504.0,
+   "end": 519.8,
+   "title": "Cosplaying Frieza to Pick Up Trash",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "culture",
+    "anime"
+   ],
+   "grammar": [
+    "〜ようにしている — making an effort to",
+    "〜ないと — unless...",
+    "〜たらなと思う — hoping that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 504.0,
+     "end": 506.2,
+     "ja": "えらいですね。なんでこういう活動してるんですか？",
+     "en": "That's admirable. Why are you doing this kind of activity?",
+     "speaker": "Shintaro"
+    },
+    {
+     "start": 506.4,
+     "end": 508.4,
+     "ja": "普段、千葉の柏でやってるんですけど、",
+     "en": "I usually do this in Kashiwa, Chiba, but...",
+     "speaker": "Frieza"
+    },
+    {
+     "start": 508.5,
+     "end": 510.4,
+     "ja": "月に一回だけ渋谷に来るようにしてます。",
+     "en": "I make a point to come to Shibuya once a month.",
+     "speaker": "Frieza"
+    },
+    {
+     "start": 510.5,
+     "end": 512.2,
+     "ja": "へえー、どういった理由で？",
+     "en": "I see. For what reason?",
+     "speaker": "Shintaro"
+    },
+    {
+     "start": 512.3,
+     "end": 513.5,
+     "ja": "知名度アップ。",
+     "en": "To raise my profile.",
+     "speaker": "Frieza"
+    },
+    {
+     "start": 513.6,
+     "end": 516.2,
+     "ja": "俺の知名度が上がらないと、ゴミ拾いやる人がいないわけですよ。",
+     "en": "Because unless my name gets out there, nobody will pick up trash.",
+     "speaker": "Frieza"
+    },
+    {
+     "start": 516.4,
+     "end": 519.4,
+     "ja": "ゴミ拾いを少しでもやってくれる人が増えたらなと思ってやってます。",
+     "en": "I'm doing this hoping that even a few more people start picking up litter.",
+     "speaker": "Frieza"
+    }
+   ]
+  },
+  {
+   "start": 467.0,
+   "end": 482.5,
+   "title": "Heartbreak on Graduation Day",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "school",
+    "comedy"
+   ],
+   "grammar": [
+    "〜おる — to exist / have (dialect)",
+    "〜に振られる — to be dumped by",
+    "〜場合ちゃう — not the time to be doing..."
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 467.0,
+     "end": 468.8,
+     "ja": "じゃあ今、この中に彼氏おる人！",
+     "en": "So, is there anyone here right now who has a boyfriend?",
+     "speaker": "Shintaro"
+    },
+    {
+     "start": 469.0,
+     "end": 470.5,
+     "ja": "え、まじでいないです。",
+     "en": "Uh, seriously, none of us do.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 470.8,
+     "end": 472.6,
+     "ja": "お前ら何しに宮下パークおんねん！",
+     "en": "Then what are you guys even doing in Miyashita Park?!",
+     "speaker": "Shintaro"
+    },
+    {
+     "start": 472.8,
+     "end": 474.3,
+     "ja": "アサイー食ってる場合ちゃうぞ、これ！",
+     "en": "This is no time to be eating acai bowls!",
+     "speaker": "Shintaro"
+    },
+    {
+     "start": 474.5,
+     "end": 476.5,
+     "ja": "今までじゃあ、嫌やったエピソードあった？恋愛の。",
+     "en": "Have you ever had a bad romantic experience so far?",
+     "speaker": "Shintaro"
+    },
+    {
+     "start": 476.7,
+     "end": 478.5,
+     "ja": "卒業式の日に振られました。",
+     "en": "I got dumped on graduation day.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 478.7,
+     "end": 480.6,
+     "ja": "小学生の頃なんですけど。",
+     "en": "Back when I was in elementary school, though.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 480.8,
+     "end": 482.3,
+     "ja": "え、どういうこと？小学生の時付き合ってたん？",
+     "en": "Wait, what? You were dating in elementary school?",
+     "speaker": "Shintaro"
+    }
+   ]
+  }
+ ],
+ "videoId": "pKFRW3_tpFY",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

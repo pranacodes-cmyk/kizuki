@@ -1,0 +1,161 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.1,
+   "end": 30.5,
+   "title": "Starting a Family Day Off Vlog",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family",
+    "travel"
+   ],
+   "grammar": [
+    "〜たい — want to do",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 16.3,
+     "end": 18.7,
+     "ja": "おはようございます。akoです。",
+     "en": "Good morning. I'm ako.",
+     "speaker": "Ako"
+    },
+    {
+     "start": 19.3,
+     "end": 20.9,
+     "ja": "どうも、おさむです。",
+     "en": "Hello, I'm Osamu.",
+     "speaker": "Osamu"
+    },
+    {
+     "start": 21.3,
+     "end": 25.4,
+     "ja": "ということで、今日はおさむさんが久々にお休みなので、",
+     "en": "So today, since Osamu has a day off for the first time in a while,",
+     "speaker": "Ako"
+    },
+    {
+     "start": 25.5,
+     "end": 30.0,
+     "ja": "お休みの日のVlog的なのを撮りたいなと思います。",
+     "en": "I'd like to film something like a day-off vlog.",
+     "speaker": "Ako"
+    }
+   ]
+  },
+  {
+   "start": 307.7,
+   "end": 328.6,
+   "title": "Catching Insects on the Grass",
+   "level": "N5",
+   "topics": [
+    "family",
+    "animals"
+   ],
+   "grammar": [
+    "〜じゃない — isn't / not",
+    "〜ていい — okay to do"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 308.1,
+     "end": 309.8,
+     "ja": "コオロギ好き？",
+     "en": "Do you like crickets?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 310.6,
+     "end": 312.8,
+     "ja": "好きじゃない。",
+     "en": "I don't like them.",
+     "speaker": "Ako"
+    },
+    {
+     "start": 314.9,
+     "end": 317.0,
+     "ja": "掴み方がもうちょっと…",
+     "en": "The way you hold it is a bit...",
+     "speaker": "Ako"
+    },
+    {
+     "start": 319.1,
+     "end": 322.0,
+     "ja": "大丈夫、大丈夫、こっちには渡さなくて。",
+     "en": "It's fine, it's fine! You don't have to hand it to me.",
+     "speaker": "Ako"
+    },
+    {
+     "start": 322.6,
+     "end": 324.7,
+     "ja": "いいの？逃がしちゃっていいの？",
+     "en": "Is it okay? Is it okay to let it go?",
+     "speaker": "Ako"
+    },
+    {
+     "start": 326.6,
+     "end": 328.4,
+     "ja": "自分で捕まえたの？すごいね！",
+     "en": "Did you catch it yourself? That's amazing!",
+     "speaker": "Ako"
+    }
+   ]
+  },
+  {
+   "start": 813.0,
+   "end": 833.4,
+   "title": "Heading to Lunch",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel",
+    "family"
+   ],
+   "grammar": [
+    "〜たいと思います — would like to",
+    "〜てくる — become / begin to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 813.4,
+     "end": 817.1,
+     "ja": "さて、スポーツ公園で２時間くらい遊んだかな？",
+     "en": "Well, we played at the sports park for about two hours, right?",
+     "speaker": "Ako"
+    },
+    {
+     "start": 817.5,
+     "end": 821.1,
+     "ja": "２時間くらい遊んでご飯を食べに行きます。",
+     "en": "After playing for about two hours, we're going to get some food.",
+     "speaker": "Ako"
+    },
+    {
+     "start": 823.1,
+     "end": 829.8,
+     "ja": "ちょっと人数多いのと、車を停められるところっていうので、村内はかなり限られてくるので、",
+     "en": "Since there are quite a few of us and we need a place to park, options in the village are pretty limited, so...",
+     "speaker": "Ako"
+    },
+    {
+     "start": 829.9,
+     "end": 833.0,
+     "ja": "スパリーナに行きたいと思います。",
+     "en": "We're going to head to Spaena.",
+     "speaker": "Ako"
+    }
+   ]
+  }
+ ],
+ "videoId": "yTxYMIreQeE",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

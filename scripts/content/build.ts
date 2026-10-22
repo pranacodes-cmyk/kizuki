@@ -454,7 +454,7 @@ for (const f of rawFiles) {
     const level = LEVELS.includes(c.level) ? c.level : "N4";
     const topics = [...new Set([...(c.topics ?? []), ...v.pickTopics].filter((t) => TOPICS.has(t)))].slice(0, 4);
     const clip = {
-      id, videoId: v.videoId, start: round(clipStart), end: round(end), title: c.title.slice(0, 48), level, topics,
+      id, videoId: v.videoId, start: round(clipStart), end: round(end), title: String(c.title ?? outLines[0]?.en ?? "Clip").slice(0, 48), level, topics,
       grammar: (c.grammar ?? []).slice(0, 3), quality: c.quality, lines: outLines,
       ...(STILL_VIDEO.test(m.title) ? { still: true } : {}),
     };
@@ -471,12 +471,21 @@ const stale = new Set<string>();
 
 // stable, deterministic order: by id
 clips.sort((a, b) => (a.id < b.id ? -1 : 1));
+const CLIPS_PER_PART = 300;
 const content = { version: 1, generatedAt: new Date().toISOString().slice(0, 10), videos, clips };
 
 for (const dir of OUT_DIRS) {
   if (dir.includes("mobile") && !fs.existsSync(path.join(ROOT, "mobile"))) continue;
   fs.mkdirSync(path.join(dir, "explain"), { recursive: true });
-  fs.writeFileSync(path.join(dir, "content.json"), JSON.stringify(content));
+  // Sharded so no file passes the 10 MB repo limit: content.json lists its clip parts.
+  for (const f of fs.readdirSync(dir)) if (/^content-\d+\.json$/.test(f)) fs.rmSync(path.join(dir, f));
+  const parts: string[] = [];
+  for (let i = 0; i * CLIPS_PER_PART < clips.length; i++) {
+    const name = `content-${i}.json`;
+    parts.push(name);
+    fs.writeFileSync(path.join(dir, name), JSON.stringify({ clips: clips.slice(i * CLIPS_PER_PART, (i + 1) * CLIPS_PER_PART) }));
+  }
+  fs.writeFileSync(path.join(dir, "content.json"), JSON.stringify({ version: content.version, generatedAt: content.generatedAt, videos, parts }));
   fs.writeFileSync(path.join(dir, "dict.json"), JSON.stringify(dictOut));
   for (const c of clips) {
     const ef = path.join(EXPLAIN, `${c.id}.json`);

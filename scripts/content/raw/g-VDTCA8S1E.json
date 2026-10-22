@@ -1,0 +1,186 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 120.0,
+   "end": 142.2,
+   "title": "Asking a Colleague for a Favor",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくれない — asking a favor (casual)",
+    "〜てから — after doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 120.2,
+     "end": 122.0,
+     "ja": "山田さん、ちょっといい？",
+     "en": "Yamada-san, do you have a second?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 122.2,
+     "end": 123.7,
+     "ja": "うん、どうした？",
+     "en": "Yeah, what's up?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 123.8,
+     "end": 126.1,
+     "ja": "悪いんだけど、ちょっと頼みたいことがあって、",
+     "en": "Sorry to bother you, but there's something I'd like to ask.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 126.2,
+     "end": 128.8,
+     "ja": "この資料チェックしてくれない？",
+     "en": "Could you check over these documents for me?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 128.9,
+     "end": 133.2,
+     "ja": "明日部長に提出するんだけど、その前にアドバイスが欲しくて。",
+     "en": "I have to submit them to the director tomorrow, but I'd like some advice first.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 133.4,
+     "end": 138.8,
+     "ja": "ああ、いいよ。ちょっとお客さんに電話一本かけてからでいい？",
+     "en": "Sure! Is it okay after I make a quick phone call to a client?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 138.9,
+     "end": 141.8,
+     "ja": "うん、全然！手が空いてからで大丈夫だよ。ありがとう。",
+     "en": "Yeah, totally! Whenever you're free is fine. Thanks.",
+     "speaker": "Boy"
+    }
+   ]
+  },
+  {
+   "start": 272.2,
+   "end": 301.2,
+   "title": "Asking a Boss to Review Documents",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜ていただけないでしょうか — polite request",
+    "〜たらと思いまして — expressing a tentative hope"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 272.4,
+     "end": 274.9,
+     "ja": "林部長、今よろしいでしょうか。",
+     "en": "Director Hayashi, do you have a moment?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 275.0,
+     "end": 276.5,
+     "ja": "うん、どうした？",
+     "en": "Yeah, what is it?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 276.7,
+     "end": 279.4,
+     "ja": "お忙しいところ申し訳ありません。",
+     "en": "I'm sorry to bother you when you're busy.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 279.5,
+     "end": 282.9,
+     "ja": "この資料をご確認いただけないでしょうか。",
+     "en": "Could you please take a look at these documents?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 283.1,
+     "end": 289.6,
+     "ja": "明日お客様に提出する予定なんですが、事前にお目通しいただけたらと思いまして。",
+     "en": "I'm planning to submit them to a client tomorrow, so I was hoping you could look them over beforehand.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 290.3,
+     "end": 294.6,
+     "ja": "ああ、いいよ！もうすぐ社内会議が始まるから、そのあとでね。",
+     "en": "Sure! An internal meeting is starting soon, so after that, okay?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 294.8,
+     "end": 300.8,
+     "ja": "ありがとうございます。お手すきの際で問題ありませんので、よろしくお願いします。",
+     "en": "Thank you very much. Whenever you have time is completely fine, thank you.",
+     "speaker": "Boy"
+    }
+   ]
+  },
+  {
+   "start": 498.4,
+   "end": 517.8,
+   "title": "Scheduling a Meeting with a Client",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "お手数ですが — cushion word for requests",
+    "〜ていただけませんか — polite request",
+    "〜差し上げる — humble action for others"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 498.6,
+     "end": 500.4,
+     "ja": "はい、かしこまりました。",
+     "en": "Yes, understood.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 500.6,
+     "end": 506.3,
+     "ja": "お手数ですが、他に可能な日程があれば教えていただけませんか？",
+     "en": "Sorry for the inconvenience, but could you tell me if there are other available dates?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 506.7,
+     "end": 511.4,
+     "ja": "そうですね、水曜日の１時以降でしたら空いております。",
+     "en": "Let's see, I'm available after 1 PM on Wednesday.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 511.6,
+     "end": 517.4,
+     "ja": "わかりました。上司に確認して、改めてご連絡差し上げます。",
+     "en": "Understood. I will check with my supervisor and get back to you.",
+     "speaker": "Boy"
+    }
+   ]
+  }
+ ],
+ "videoId": "g-VDTCA8S1E",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

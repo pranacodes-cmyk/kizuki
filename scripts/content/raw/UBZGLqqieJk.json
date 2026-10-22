@@ -1,0 +1,160 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 54.0,
+   "end": 116.5,
+   "title": "Asking About the Difference in Warmth",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜が — but / connecting clauses",
+    "〜であれば — conditional if",
+    "〜方で十分 — the one is enough"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 54.2,
+     "end": 58.5,
+     "ja": "二種類ありますが、違いは何ですか？",
+     "en": "There are two types, but what is the difference?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 60.0,
+     "end": 63.0,
+     "ja": "暖かさが違います。",
+     "en": "The warmth is different.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 64.5,
+     "end": 69.5,
+     "ja": "今日くらいの寒さであれば薄い方で十分です。",
+     "en": "For today's level of cold, the thinner one is enough.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 71.2,
+     "end": 76.0,
+     "ja": "わかりました。これのLサイズはありますか？",
+     "en": "Understood. Do you have this in size L?",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 124.0,
+   "end": 152.0,
+   "title": "Asking About a Train Delay",
+   "level": "N4",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "〜みたい — seems like / looks like",
+    "〜たいんですが — expressing a desire / context setting",
+    "〜てしまう — expressing regret or unintended result"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 124.3,
+     "end": 126.0,
+     "ja": "すみません、",
+     "en": "Excuse me,",
+     "speaker": "Passenger"
+    },
+    {
+     "start": 126.8,
+     "end": 132.5,
+     "ja": "電車が止まっているみたいですが、どうしましたか？",
+     "en": "it seems the trains have stopped, what happened?",
+     "speaker": "Passenger"
+    },
+    {
+     "start": 134.0,
+     "end": 139.5,
+     "ja": "今、事故ですべての電車が止まっています。",
+     "en": "Right now, all trains are stopped due to an accident.",
+     "speaker": "Station staff"
+    },
+    {
+     "start": 141.0,
+     "end": 146.5,
+     "ja": "ええっ！成田空港に行きたいんですが、",
+     "en": "What! I want to go to Narita Airport,",
+     "speaker": "Passenger"
+    },
+    {
+     "start": 147.2,
+     "end": 151.5,
+     "ja": "飛行機の時間に遅れてしまいます。",
+     "en": "but I'll be late for my flight.",
+     "speaker": "Passenger"
+    }
+   ]
+  },
+  {
+   "start": 240.0,
+   "end": 272.0,
+   "title": "Paying the Mandatory Drink Fee",
+   "level": "N4",
+   "topics": [
+    "music",
+    "fun"
+   ],
+   "grammar": [
+    "〜になる — to cost / become",
+    "〜てもらう — to have someone do something",
+    "〜で払える — can pay with"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 240.2,
+     "end": 244.0,
+     "ja": "ドリンク代が600円になります。",
+     "en": "The drink fee will be 600 yen.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 245.5,
+     "end": 252.0,
+     "ja": "ドリンク代ですか？まだ注文していませんが……。",
+     "en": "A drink fee? I haven't ordered yet, though...",
+     "speaker": "Customer"
+    },
+    {
+     "start": 254.0,
+     "end": 260.0,
+     "ja": "ここでは、入る時にお客様全員に",
+     "en": "Here, when entering, we ask all customers",
+     "speaker": "Staff"
+    },
+    {
+     "start": 260.5,
+     "end": 265.0,
+     "ja": "ドリンクを1杯頼んでもらっています。",
+     "en": "to order one drink.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 267.0,
+     "end": 271.5,
+     "ja": "なるほど。現金で払えますか？",
+     "en": "I see. Can I pay with cash?",
+     "speaker": "Customer"
+    }
+   ]
+  }
+ ],
+ "videoId": "UBZGLqqieJk",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

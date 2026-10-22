@@ -1,0 +1,227 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 48.8,
+   "end": 75.0,
+   "title": "Walking to School After Train Delay",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜てくる — to come doing something",
+    "どのくらい — how long / how much"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 49.2,
+     "end": 51.0,
+     "ja": "疲れました。",
+     "en": "I'm exhausted.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 51.3,
+     "end": 53.0,
+     "ja": "どうしたんですか？",
+     "en": "What happened?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 53.4,
+     "end": 55.8,
+     "ja": "電車が遅れていました。",
+     "en": "The train was delayed.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 56.2,
+     "end": 59.5,
+     "ja": "だから学校まで歩いて来ました。",
+     "en": "So I walked all the way to school.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 60.0,
+     "end": 61.6,
+     "ja": "そうですか。",
+     "en": "I see.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 61.8,
+     "end": 64.8,
+     "ja": "家からどのくらいかかりますか？",
+     "en": "How long does it take from your house?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 65.3,
+     "end": 67.8,
+     "ja": "歩いて30分です。",
+     "en": "It takes 30 minutes on foot.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 68.5,
+     "end": 71.8,
+     "ja": "今日は家を何時に出ましたか？",
+     "en": "What time did you leave home today?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 72.3,
+     "end": 74.2,
+     "ja": "8時です。",
+     "en": "At eight o'clock.",
+     "speaker": "Boy"
+    }
+   ]
+  },
+  {
+   "start": 112.0,
+   "end": 137.5,
+   "title": "Tomorrow's School Tests",
+   "level": "N5",
+   "topics": [
+    "school"
+   ],
+   "grammar": [
+    "〜じゃありません — is not",
+    "〜ないでください — please do not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 112.5,
+     "end": 116.0,
+     "ja": "皆さん、明日はテストがありますね。",
+     "en": "Everyone, we have tests tomorrow, right?",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 116.4,
+     "end": 119.8,
+     "ja": "はい、算数と英語ですね。",
+     "en": "Yes, math and English, right?",
+     "speaker": "Student"
+    },
+    {
+     "start": 120.2,
+     "end": 122.3,
+     "ja": "算数は合っています。",
+     "en": "Math is correct.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 122.8,
+     "end": 126.5,
+     "ja": "でも、もう1つは英語じゃありません。",
+     "en": "However, the other one is not English.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 127.0,
+     "end": 129.5,
+     "ja": "漢字テストですか？",
+     "en": "Is it a kanji test?",
+     "speaker": "Student"
+    },
+    {
+     "start": 130.0,
+     "end": 131.8,
+     "ja": "はい、そうです。",
+     "en": "Yes, that's right.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 132.2,
+     "end": 137.0,
+     "ja": "皆さん、明日はテストに遅れないでください。",
+     "en": "Everyone, please don't be late for the test tomorrow.",
+     "speaker": "Teacher"
+    }
+   ]
+  },
+  {
+   "start": 266.0,
+   "end": 297.5,
+   "title": "Finding the Clothing Floor",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜が欲しい — to want something",
+    "〜にあります — to be located in"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 266.5,
+     "end": 270.8,
+     "ja": "すみません。洋服売り場はどこですか？",
+     "en": "Excuse me. Where is the clothing department?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 271.4,
+     "end": 275.0,
+     "ja": "2階と3階と5階にあります。",
+     "en": "It's on the second, third, and fifth floors.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 275.4,
+     "end": 279.7,
+     "ja": "子供の洋服が欲しいです。どこにありますか？",
+     "en": "I want children's clothing. Where is it?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 280.4,
+     "end": 284.2,
+     "ja": "はい、それは2階と3階にあります。",
+     "en": "Yes, that is on the second and third floors.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 284.5,
+     "end": 287.8,
+     "ja": "女の子のですか？男の子のですか？",
+     "en": "Is it for a girl? Or for a boy?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 288.1,
+     "end": 290.0,
+     "ja": "女の子のです。",
+     "en": "It's for a girl.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 290.4,
+     "end": 292.8,
+     "ja": "それは2階にあります。",
+     "en": "That is on the second floor.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 293.3,
+     "end": 297.0,
+     "ja": "ありがとうございます。そこに行きます。",
+     "en": "Thank you very much. I'll go there.",
+     "speaker": "Customer"
+    }
+   ]
+  }
+ ],
+ "videoId": "gPB_Q19IGN0",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,204 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 40.0,
+   "end": 59.8,
+   "title": "Welcome to Japan and Sushi Introduction",
+   "level": "N5",
+   "topics": [
+    "food",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "これ・それ・あれ — demonstratives",
+    "〜へようこそ — welcome to ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 40.3,
+     "end": 43.4,
+     "ja": "みどりさん、日本へようこそ。",
+     "en": "Midori, welcome to Japan.",
+     "speaker": "Bear"
+    },
+    {
+     "start": 44.0,
+     "end": 45.0,
+     "ja": "乾杯！",
+     "en": "Cheers!",
+     "speaker": "Bear"
+    },
+    {
+     "start": 45.1,
+     "end": 46.0,
+     "ja": "乾杯！",
+     "en": "Cheers!",
+     "speaker": "Midori"
+    },
+    {
+     "start": 46.1,
+     "end": 47.4,
+     "ja": "乾杯！",
+     "en": "Cheers!",
+     "speaker": "Friends"
+    },
+    {
+     "start": 49.2,
+     "end": 52.8,
+     "ja": "みどりさん、これはマグロです。",
+     "en": "Midori, this is tuna.",
+     "speaker": "Bear"
+    },
+    {
+     "start": 53.5,
+     "end": 56.0,
+     "ja": "それはサーモンです。",
+     "en": "That is salmon.",
+     "speaker": "Bear"
+    },
+    {
+     "start": 56.7,
+     "end": 59.4,
+     "ja": "あれはイクラです。",
+     "en": "That over there is salmon roe.",
+     "speaker": "Bear"
+    }
+   ]
+  },
+  {
+   "start": 100.0,
+   "end": 126.5,
+   "title": "Takoyaki Isn't Sushi",
+   "level": "N5",
+   "topics": [
+    "food",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜じゃありません — negative of です",
+    "〜が好き — to like something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 100.4,
+     "end": 102.5,
+     "ja": "あ、それは何ですか？",
+     "en": "Oh, what is that?",
+     "speaker": "Midori"
+    },
+    {
+     "start": 103.0,
+     "end": 104.2,
+     "ja": "これですか？",
+     "en": "This one?",
+     "speaker": "Bear"
+    },
+    {
+     "start": 105.1,
+     "end": 107.4,
+     "ja": "これはたこ焼きです。",
+     "en": "This is takoyaki.",
+     "speaker": "Bear"
+    },
+    {
+     "start": 108.3,
+     "end": 111.8,
+     "ja": "たこ焼きは寿司じゃありませんよ。",
+     "en": "Takoyaki isn't sushi, you know.",
+     "speaker": "Bear"
+    },
+    {
+     "start": 113.0,
+     "end": 115.5,
+     "ja": "はい、いただきます。",
+     "en": "Okay, thank you for the meal.",
+     "speaker": "Midori"
+    },
+    {
+     "start": 118.0,
+     "end": 120.7,
+     "ja": "わー、とても美味しいです。",
+     "en": "Wow, this is very delicious.",
+     "speaker": "Midori"
+    },
+    {
+     "start": 122.0,
+     "end": 125.5,
+     "ja": "あー、みどりさんはタコが好きですか？",
+     "en": "Ah, Midori, do you like octopus?",
+     "speaker": "Bear"
+    },
+    {
+     "start": 125.8,
+     "end": 126.3,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Midori"
+    }
+   ]
+  },
+  {
+   "start": 143.7,
+   "end": 200.0,
+   "title": "Takoyaki Is the Most Delicious",
+   "level": "N5",
+   "topics": [
+    "food",
+    "comedy",
+    "culture"
+   ],
+   "grammar": [
+    "どうですか — how is it?",
+    "一番〜 — the most ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 144.1,
+     "end": 145.6,
+     "ja": "どうですか？",
+     "en": "How is it?",
+     "speaker": "Bear"
+    },
+    {
+     "start": 146.5,
+     "end": 150.5,
+     "ja": "日本人は寿司が好きです。ハハハ。",
+     "en": "Japanese people like sushi! Hahaha.",
+     "speaker": "Bear"
+    },
+    {
+     "start": 151.2,
+     "end": 153.4,
+     "ja": "全部美味しいです。",
+     "en": "They are all delicious.",
+     "speaker": "Midori"
+    },
+    {
+     "start": 154.0,
+     "end": 157.4,
+     "ja": "でも、たこ焼きが一番美味しいです。",
+     "en": "But takoyaki is the most delicious.",
+     "speaker": "Midori"
+    },
+    {
+     "start": 157.9,
+     "end": 159.5,
+     "ja": "そうですか。",
+     "en": "I see...",
+     "speaker": "Bear"
+    }
+   ]
+  }
+ ],
+ "videoId": "P_1yJRt6dQ4",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

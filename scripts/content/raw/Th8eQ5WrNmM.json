@@ -1,0 +1,99 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 135.8,
+   "end": 164.8,
+   "title": "Asking About Each Other's Family",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜ています — ongoing action",
+    "〜も〜も — both ... and ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 136.0,
+     "end": 141.0,
+     "ja": "田中さん、お久しぶりですね。お元気ですか？",
+     "en": "It's been a while, Mr. Tanaka. How are you?",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 142.2,
+     "end": 144.8,
+     "ja": "はい、おかげさまで。",
+     "en": "I'm fine, thanks to you.",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 145.3,
+     "end": 149.6,
+     "ja": "奥さんとお子さんは、お元気ですか？",
+     "en": "How are your wife and children?",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 150.5,
+     "end": 154.2,
+     "ja": "はい、妻も子供も元気です。",
+     "en": "Yes, my wife and children are doing well.",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 155.4,
+     "end": 159.2,
+     "ja": "山田さん、今日はご主人は？",
+     "en": "Ms. Yamada, how is your husband doing today?",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 160.4,
+     "end": 164.5,
+     "ja": "夫は、風邪で家で休んでいます。",
+     "en": "My husband is resting at home because of a cold.",
+     "speaker": "Yamada"
+    }
+   ]
+  },
+  {
+   "start": 326.5,
+   "end": 334.5,
+   "title": "Thank You for Watching",
+   "level": "N5",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜ていただく — humble receiving of an action",
+    "〜ましょう — let's do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 326.8,
+     "end": 330.2,
+     "ja": "見ていただき、ありがとうございました。",
+     "en": "Thank you for watching.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 330.9,
+     "end": 333.8,
+     "ja": "また、次の動画で会いましょう！",
+     "en": "See you in the next video!",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "Th8eQ5WrNmM",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

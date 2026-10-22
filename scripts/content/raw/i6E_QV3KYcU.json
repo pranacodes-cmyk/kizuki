@@ -1,0 +1,150 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 85.3,
+   "end": 97.3,
+   "title": "Keeping the Table Clear of Clutter",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜のが気になる — to be bothered by",
+    "〜ておく — to do something in advance"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 85.3,
+     "end": 89.4,
+     "ja": "こういうリモコンとかが出てるのが気になるので、",
+     "en": "Because seeing things like remote controls out bothers me,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 89.7,
+     "end": 94.6,
+     "ja": "こういったバッグに入れて、",
+     "en": "I put them in a bag like this,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 94.9,
+     "end": 97.0,
+     "ja": "机の上をすっきりさせてます。",
+     "en": "and keep the tabletop neat and tidy.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 161.0,
+   "end": 185.5,
+   "title": "Switching to Online Grocery Shopping",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜ちゃう — to end up doing (casual)",
+    "〜ようになる — to come to do / reach a point where"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 161.0,
+     "end": 163.8,
+     "ja": "家事はなるべく分担したいと思ってるんですけど、",
+     "en": "I want to share the housework as much as possible, but",
+     "speaker": "Woman"
+    },
+    {
+     "start": 163.8,
+     "end": 166.5,
+     "ja": "どうしても私の方が多くなってしまって、",
+     "en": "inevitably my share ends up being bigger,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 166.6,
+     "end": 172.2,
+     "ja": "スーパーに行くとすごく自分だけが家事をやってるっていう気分になっちゃって、",
+     "en": "and going to the supermarket made me feel like I was the only one doing chores,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 172.9,
+     "end": 179.7,
+     "ja": "特にあの重いものを手で持って帰っているときに感じちゃうので、",
+     "en": "especially when carrying heavy groceries home by hand.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 180.0,
+     "end": 185.3,
+     "ja": "いや、それだったらなるべく自分の負担を減らそうと思ってネットで買うようになったんです。",
+     "en": "So I decided to lighten my load and switched to ordering online.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 341.0,
+   "end": 359.8,
+   "title": "Magnetic Kitchen Storage Hack",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — when / after doing",
+    "〜なら — if it's / as for"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 341.2,
+     "end": 343.0,
+     "ja": "置く場所がないので、",
+     "en": "Since there wasn't enough space to set things down,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 343.4,
+     "end": 347.3,
+     "ja": "「あ、ここだったら置けるな」と思って、",
+     "en": "I thought, \"Oh, I could put things here,\"",
+     "speaker": "Woman"
+    },
+    {
+     "start": 347.7,
+     "end": 353.0,
+     "ja": "それで全部マグネットタイプで置けるものを探したら、",
+     "en": "and when I searched for items that could attach with magnets,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 353.3,
+     "end": 357.6,
+     "ja": "ちょうどこのティッシュとラップと包丁ならいけると思って、",
+     "en": "I realized tissues, plastic wrap, and knives would work nicely,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 357.8,
+     "end": 359.8,
+     "ja": "ここに収納してます。",
+     "en": "so I store them here.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "i6E_QV3KYcU",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

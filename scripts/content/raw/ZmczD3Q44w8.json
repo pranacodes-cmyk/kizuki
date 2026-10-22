@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 27.2,
+   "end": 48.2,
+   "title": "Taking the Train to Salzburg",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜から〜まで — from... to...",
+    "〜たり〜たりする — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 27.5,
+     "end": 32.5,
+     "ja": "わたしは日本語の先生ののぞみです。",
+     "en": "I'm Nozomi, a Japanese teacher.",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 33.5,
+     "end": 36.4,
+     "ja": "ウィーンからザルツブルクまで、",
+     "en": "From Vienna to Salzburg,",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 36.6,
+     "end": 40.5,
+     "ja": "電車で２時間半くらいかかります。",
+     "en": "it takes about two and a half hours by train.",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 41.5,
+     "end": 43.8,
+     "ja": "電車の中では、",
+     "en": "On the train,",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 44.0,
+     "end": 47.9,
+     "ja": "本を読んだり、けしきを見たりしました。",
+     "en": "I read a book and looked at the scenery.",
+     "speaker": "Nozomi"
+    }
+   ]
+  },
+  {
+   "start": 128.8,
+   "end": 156.2,
+   "title": "Walking up to the Mountain Restaurant",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜が — but / although",
+    "〜て — connecting actions"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 129.0,
+     "end": 131.7,
+     "ja": "おなかがすきました。",
+     "en": "I got hungry.",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 132.8,
+     "end": 136.6,
+     "ja": "山の上のレストランに行きます。",
+     "en": "I'll go to a restaurant on the mountain.",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 138.0,
+     "end": 144.0,
+     "ja": "ちょっとたいへんですが、山の上にのぼります。",
+     "en": "It's a little tough, but I'll walk up the mountain.",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 146.4,
+     "end": 151.0,
+     "ja": "１０分くらいあるいて、レストランにつきました。",
+     "en": "After walking for about 10 minutes, I arrived at the restaurant.",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 152.6,
+     "end": 155.8,
+     "ja": "とてもきれいなけしきです。",
+     "en": "The view is very beautiful.",
+     "speaker": "Nozomi"
+    }
+   ]
+  },
+  {
+   "start": 257.5,
+   "end": 287.2,
+   "title": "Eating a Famous Hot Dog in Salzburg",
+   "level": "N5",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜という — called / named",
+    "〜て — reason / sequence"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 257.8,
+     "end": 264.0,
+     "ja": "インターネットでしらべて、ゆうめいなみせに行きました。",
+     "en": "I searched on the internet and went to a famous stand.",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 267.8,
+     "end": 273.2,
+     "ja": "日本語のメニューがあって、びっくりしました。",
+     "en": "There was a Japanese menu, and I was surprised.",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 275.5,
+     "end": 279.8,
+     "ja": "「ボスナ」というホットドッグをたのみました。",
+     "en": "I ordered a hot dog called Bosna.",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 281.5,
+     "end": 287.0,
+     "ja": "サクサクのパンとソーセージがおいしかったです。",
+     "en": "The crispy bread and sausage were delicious.",
+     "speaker": "Nozomi"
+    }
+   ]
+  }
+ ],
+ "videoId": "ZmczD3Q44w8",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -13,6 +13,15 @@ import argparse, concurrent.futures as cf, hashlib, json, os, time, urllib.reque
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, "explain")
 CONTENT = os.path.join(ROOT, "..", "..", "public", "data", "content.json")
+
+
+def load_clips():
+    """content.json lists its clip shards in "parts" (10 MB repo file limit)."""
+    meta = json.load(open(CONTENT, encoding="utf-8"))
+    if "clips" in meta:
+        return meta["clips"]
+    d = os.path.dirname(CONTENT)
+    return [c for p in meta["parts"] for c in json.load(open(os.path.join(d, p), encoding="utf-8"))["clips"]]
 MODEL = "openai/gpt-6-astra"
 URL = "https://ai.gateway.lovable.dev/v1/responses"
 
@@ -133,7 +142,7 @@ def main():
     ap.add_argument("--only")
     a = ap.parse_args()
     os.makedirs(OUT, exist_ok=True)
-    clips = json.load(open(CONTENT, encoding="utf-8"))["clips"]
+    clips = load_clips()
     if a.only:
         clips = [c for c in clips if c["id"] in a.only.split(",")]
     if a.limit:

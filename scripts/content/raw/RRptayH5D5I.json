@@ -1,0 +1,93 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 133.5,
+   "end": 142.6,
+   "title": "Aspiring to Be Like a Geiko",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "work"
+   ],
+   "grammar": [
+    "〜ていうより — rather than",
+    "〜みたいになりたい — wanting to become like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 133.8,
+     "end": 137.1,
+     "ja": "今は結婚してお母さんになってっていうよりも、",
+     "en": "Rather than getting married and becoming a mother now,",
+     "speaker": "Geiko"
+    },
+    {
+     "start": 137.3,
+     "end": 140.4,
+     "ja": "あのお姉さんみたいになりたいなっていう方が、",
+     "en": "the desire to become like that senior sister",
+     "speaker": "Geiko"
+    },
+    {
+     "start": 140.7,
+     "end": 142.2,
+     "ja": "強い。",
+     "en": "is much stronger.",
+     "speaker": "Geiko"
+    }
+   ]
+  },
+  {
+   "start": 143.3,
+   "end": 154.8,
+   "title": "Living True to Myself in Gion",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜たことない — have never done",
+    "〜らしく — true to / like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 143.6,
+     "end": 146.4,
+     "ja": "もう祇園町から出たことない。",
+     "en": "I've never once left the Gion district.",
+     "speaker": "Okami"
+    },
+    {
+     "start": 146.9,
+     "end": 148.8,
+     "ja": "小さい時からずっと居てて、",
+     "en": "I've been here ever since I was small,",
+     "speaker": "Okami"
+    },
+    {
+     "start": 149.2,
+     "end": 151.2,
+     "ja": "やっぱりここに居てる方が、",
+     "en": "and after all, being right here,",
+     "speaker": "Okami"
+    },
+    {
+     "start": 151.4,
+     "end": 154.4,
+     "ja": "私は私らしく生きられるし。",
+     "en": "I can live as my true self.",
+     "speaker": "Okami"
+    }
+   ]
+  }
+ ],
+ "videoId": "RRptayH5D5I",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,201 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.0,
+   "end": 39.0,
+   "title": "The Tsugaru Tamenobu Origin Theory",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜とされる — it is said that",
+    "〜たところ — when/upon doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 16.5,
+     "end": 20.8,
+     "ja": "津軽藩初代藩主、津軽為信が",
+     "en": "The first lord of the Tsugaru Domain, Tsugaru Tamenobu,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 21.0,
+     "end": 26.2,
+     "ja": "京都でお国自慢の一つとして大きな灯籠を作らせ、",
+     "en": "had large lanterns made in Kyoto to boast of his home province,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 26.3,
+     "end": 29.5,
+     "ja": "賑やかに京の都を練り歩いたところ、",
+     "en": "and paraded boisterously through the capital,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 29.6,
+     "end": 33.6,
+     "ja": "「津軽の大灯籠」などと大評判になり、",
+     "en": "which gained great acclaim as the \"Great Lanterns of Tsugaru,\" and",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 33.7,
+     "end": 37.1,
+     "ja": "これが津軽でも行われるようになったとされる、",
+     "en": "leading to it allegedly being held in Tsugaru as well:",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 37.2,
+     "end": 38.8,
+     "ja": "「津軽為信説」。",
+     "en": "the \"Tsugaru Tamenobu theory.\"",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 40.6,
+   "end": 64.6,
+   "title": "The Folkloric Origin Theory",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜られる — passive voice",
+    "〜とされる — it is considered that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 41.0,
+     "end": 44.5,
+     "ja": "過酷な農作業を強いられる夏場、",
+     "en": "In the summer, when people were forced to do harsh farm work,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 44.7,
+     "end": 46.8,
+     "ja": "睡魔を追い払うため、",
+     "en": "to drive away sleepiness,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 47.0,
+     "end": 52.8,
+     "ja": "灯籠を川や海に流すという七夕行事「眠り流し」が、",
+     "en": "the Tanabata ritual of \"Nemuri-nagashi,\" floating lanterns down rivers and seas,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 53.0,
+     "end": 56.6,
+     "ja": "時を経てねぶた祭りの起源になったのではという、",
+     "en": "is believed by some to have evolved over time into the origin of the festival:",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 56.7,
+     "end": 58.7,
+     "ja": "「民俗学説」。",
+     "en": "the \"folkloric theory.\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 59.3,
+     "end": 61.7,
+     "ja": "最近はこの民俗学説が",
+     "en": "Recently, this folkloric theory",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 61.8,
+     "end": 64.2,
+     "ja": "最も有力だとされています。",
+     "en": "is considered the most convincing.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 105.5,
+   "end": 131.0,
+   "title": "The People's Prayers and Passion",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜に違いない — must be / undoubtedly",
+    "〜と言える — it can be said that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 106.0,
+     "end": 110.8,
+     "ja": "このように、ねぶた祭りの由来には諸説ありますが、",
+     "en": "Thus, although there are various theories about the origins of the Nebuta Festival,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 110.9,
+     "end": 112.5,
+     "ja": "いずれにせよ、",
+     "en": "in any case,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 112.6,
+     "end": 116.3,
+     "ja": "五穀豊穣や無病息災などを願う、",
+     "en": "wishing for bountiful harvests and good health,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 116.4,
+     "end": 120.2,
+     "ja": "人々の祈りから生まれたものに違いありません。",
+     "en": "it was undoubtedly born from the prayers of the people.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 120.4,
+     "end": 124.5,
+     "ja": "そこにねぶたを愛する人々の情熱が加わり、",
+     "en": "With the added passion of the people who love Nebuta,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 124.6,
+     "end": 127.8,
+     "ja": "現在のような盛大なねぶた祭りに発展、",
+     "en": "it progressed and evolved into the grand festival",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 127.9,
+     "end": 130.6,
+     "ja": "進歩を遂げたのだと言えるでしょう。",
+     "en": "that we see today.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "VhNqf5TmYBk",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

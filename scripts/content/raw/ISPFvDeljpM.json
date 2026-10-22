@@ -1,0 +1,231 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.3,
+   "end": 21.8,
+   "title": "Solving Problems on the Streets of Shibuya",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜ていく — ongoing change/progression",
+    "〜と思う — to think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.3,
+     "end": 10.5,
+     "ja": "今日はね、街中の皆さんのお悩みをね、１つずつ解決していくというところで、",
+     "en": "Today, we're going to solve people's problems on the street one by one, and...",
+     "speaker": "Shin"
+    },
+    {
+     "start": 10.6,
+     "end": 11.8,
+     "ja": "解決します！",
+     "en": "We will solve them!",
+     "speaker": "Kyon"
+    },
+    {
+     "start": 11.9,
+     "end": 13.4,
+     "ja": "今日は渋谷にやって参りました！",
+     "en": "Today we've come to Shibuya!",
+     "speaker": "Shin"
+    },
+    {
+     "start": 13.5,
+     "end": 15.3,
+     "ja": "よっ！",
+     "en": "Yay!",
+     "speaker": "Kyon"
+    },
+    {
+     "start": 15.4,
+     "end": 16.5,
+     "ja": "ホームタウン。",
+     "en": "Hometown.",
+     "speaker": "Kyon"
+    },
+    {
+     "start": 16.7,
+     "end": 21.5,
+     "ja": "まあいろんなお悩み出てくると思いますが、全部解決します！",
+     "en": "Well, I'm sure all kinds of worries will come up, but we'll solve them all!",
+     "speaker": "Kyon"
+    }
+   ]
+  },
+  {
+   "start": 307.7,
+   "end": 326.0,
+   "title": "Can We Get into the Starbucks?",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜じゃないですか — isn't it / as you know",
+    "〜ておく/配ってて — ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 307.7,
+     "end": 310.5,
+     "ja": "中目黒は、なんかスタバのカフェあるじゃないですか？",
+     "en": "Nakameguro has that Starbucks cafe, right?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 310.8,
+     "end": 312.4,
+     "ja": "あー、はいはいはい。",
+     "en": "Ah, yeah yeah yeah.",
+     "speaker": "Shin"
+    },
+    {
+     "start": 312.5,
+     "end": 313.8,
+     "ja": "リザーブの。",
+     "en": "The Reserve one.",
+     "speaker": "Kyon"
+    },
+    {
+     "start": 313.9,
+     "end": 315.5,
+     "ja": "めちゃめちゃオシャレです。",
+     "en": "It's super stylish.",
+     "speaker": "Shin"
+    },
+    {
+     "start": 316.8,
+     "end": 318.8,
+     "ja": "整理券配ってて…",
+     "en": "They hand out numbered tickets...",
+     "speaker": "Shin"
+    },
+    {
+     "start": 319.4,
+     "end": 321.0,
+     "ja": "マジで２時間待ちとか。",
+     "en": "Seriously, like a two-hour wait.",
+     "speaker": "Kyon"
+    },
+    {
+     "start": 321.1,
+     "end": 322.0,
+     "ja": "今日入れます？",
+     "en": "Can we get in today?",
+     "speaker": "Man"
+    },
+    {
+     "start": 322.1,
+     "end": 323.4,
+     "ja": "今日入れませんｗ",
+     "en": "You can't get in today lol.",
+     "speaker": "Kyon"
+    },
+    {
+     "start": 323.7,
+     "end": 325.5,
+     "ja": "今日は土曜日で入れませんｗ",
+     "en": "It's Saturday, so you won't get in lol.",
+     "speaker": "Kyon"
+    }
+   ]
+  },
+  {
+   "start": 355.3,
+   "end": 372.5,
+   "title": "Where Do You Work Part-Time?",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ている — ongoing state",
+    "〜た方がいい — had better / should",
+    "〜て言われて — passive speech reporting"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 355.3,
+     "end": 357.0,
+     "ja": "バイトしてる？何してる？",
+     "en": "Do you work part-time? Where at?",
+     "speaker": "Shin"
+    },
+    {
+     "start": 357.1,
+     "end": 358.3,
+     "ja": "飲食店です。",
+     "en": "In food service.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 358.4,
+     "end": 359.2,
+     "ja": "マック？",
+     "en": "McDonald's?",
+     "speaker": "Shin"
+    },
+    {
+     "start": 359.3,
+     "end": 400.6,
+     "ja": "あー、近いです！",
+     "en": "Ah, close!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 401.8,
+     "end": 402.9,
+     "ja": "モス？",
+     "en": "Mos?",
+     "speaker": "Shin"
+    },
+    {
+     "start": 403.0,
+     "end": 404.9,
+     "ja": "あー、モスバーガー。",
+     "en": "Ah, Mos Burger.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 405.0,
+     "end": 406.9,
+     "ja": "モス！マック惜しかった。",
+     "en": "Mos! McDonald's was close.",
+     "speaker": "Shin"
+    },
+    {
+     "start": 407.0,
+     "end": 408.8,
+     "ja": "マックも迷いました最初。",
+     "en": "I was considering McDonald's at first too.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 408.9,
+     "end": 412.3,
+     "ja": "友達にマックで働いてる子がいて、やめた方がいいって言われてｗ",
+     "en": "I had a friend working at Mac, and she told me I shouldn't lol.",
+     "speaker": "Girl"
+    }
+   ]
+  }
+ ],
+ "videoId": "ISPFvDeljpM",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

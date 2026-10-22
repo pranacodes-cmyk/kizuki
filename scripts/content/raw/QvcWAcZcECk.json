@@ -1,0 +1,114 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 12.5,
+   "title": "Do You Want What You Desire?",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜が欲しい — wanting something",
+    "〜てやる — doing something for someone"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 2.5,
+     "ja": "望みのものが欲しいか？",
+     "en": "Do you want what you desire?",
+     "speaker": "Host"
+    },
+    {
+     "start": 4.3,
+     "end": 5.6,
+     "ja": "その願い、",
+     "en": "That wish,",
+     "speaker": "Host"
+    },
+    {
+     "start": 5.7,
+     "end": 8.4,
+     "ja": "国民クイズが叶えてやろう！",
+     "en": "the National Quiz shall grant it!",
+     "speaker": "Host"
+    },
+    {
+     "start": 9.7,
+     "end": 12.2,
+     "ja": "国民クイズ！",
+     "en": "National Quiz!",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 57.8,
+   "end": 112.2,
+   "title": "This Month's Pension Lottery",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜なんか — things like / such as",
+    "〜な — do not (prohibition)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 58.1,
+     "end": 59.8,
+     "ja": "一旦CMです。",
+     "en": "We'll be right back after a commercial break.",
+     "speaker": "Host"
+    },
+    {
+     "start": 60.0,
+     "end": 61.6,
+     "ja": "国民の皆様！",
+     "en": "Citizens of Japan!",
+     "speaker": "Announcer"
+    },
+    {
+     "start": 61.7,
+     "end": 63.8,
+     "ja": "今月の年金受給者は、",
+     "en": "This month's pension recipients are...",
+     "speaker": "Announcer"
+    },
+    {
+     "start": 63.9,
+     "end": 66.7,
+     "ja": "手帳番号の末尾2の方です。",
+     "en": "...those whose pension book number ends in 2.",
+     "speaker": "Announcer"
+    },
+    {
+     "start": 67.0,
+     "end": 68.8,
+     "ja": "今月も外れたよ！",
+     "en": "I missed out again this month!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 69.3,
+     "end": 71.8,
+     "ja": "年金なんかあてにするな。",
+     "en": "Don't count on pensions anyway.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "QvcWAcZcECk",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

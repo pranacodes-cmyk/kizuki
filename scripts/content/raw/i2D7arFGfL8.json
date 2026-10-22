@@ -1,0 +1,221 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 20.5,
+   "end": 36.0,
+   "title": "Realizing the Test Material at the Last Minute",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てた — casual past continuous / completed action",
+    "〜直前 — right before",
+    "〜パターン — pattern / tendency"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 20.5,
+     "end": 22.4,
+     "ja": "皆さんね、テスト直前になって、",
+     "en": "You know, right before a test,",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 22.5,
+     "end": 25.5,
+     "ja": "「やべっ！テスト範囲間違えてた！」",
+     "en": "\"Shoot! I studied the wrong test material!\"",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 25.6,
+     "end": 27.0,
+     "ja": "みたいなことありますよね？",
+     "en": "Doesn't that kind of thing happen?",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 27.1,
+     "end": 28.1,
+     "ja": "ありません！",
+     "en": "Nope, never!",
+     "speaker": "Sugai"
+    },
+    {
+     "start": 28.2,
+     "end": 30.8,
+     "ja": "むしろ直前に初めて確認するパターンあります。",
+     "en": "Actually, there's the pattern of only checking it for the first time right before.",
+     "speaker": "Higashi"
+    },
+    {
+     "start": 31.0,
+     "end": 33.0,
+     "ja": "「あっ、今回ここか〜」",
+     "en": "\"Oh, so it's this part this time~\"",
+     "speaker": "Higashi"
+    },
+    {
+     "start": 33.1,
+     "end": 34.2,
+     "ja": "やばくない？",
+     "en": "Isn't that crazy?",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 34.4,
+     "end": 35.8,
+     "ja": "俺それはないわ！",
+     "en": "I'd definitely never do that!",
+     "speaker": "Yamamoto"
+    }
+   ]
+  },
+  {
+   "start": 36.0,
+   "end": 51.9,
+   "title": "A Bird Memorization Challenge",
+   "level": "N4",
+   "topics": [
+    "school",
+    "animals",
+    "comedy"
+   ],
+   "grammar": [
+    "〜たい — want to",
+    "〜だけに — precisely because of a pun / connection",
+    "〜ということ — so that means / the fact is"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 36.0,
+     "end": 39.1,
+     "ja": "ということで本日は、100個の暗記リストを用意いたしました。",
+     "en": "So today, we've prepared a list of 100 items to memorize.",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 39.2,
+     "end": 40.7,
+     "ja": "おー、100個。100個かー。",
+     "en": "Oh, 100 items. 100 items, huh?",
+     "speaker": "Izawa & Sugai"
+    },
+    {
+     "start": 41.0,
+     "end": 43.0,
+     "ja": "テーマは「鳥」です。",
+     "en": "The theme is \"birds.\"",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 43.2,
+     "end": 45.2,
+     "ja": "うわー、あんまやったことないなー。",
+     "en": "Whoa, I haven't really studied that much.",
+     "speaker": "Sugai"
+    },
+    {
+     "start": 45.3,
+     "end": 47.3,
+     "ja": "点を取りたいよね！",
+     "en": "You want to score some points, right?",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 47.4,
+     "end": 48.8,
+     "ja": "鳥だけに？",
+     "en": "Because it's a \"bird\" pun?",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 48.9,
+     "end": 50.0,
+     "ja": "そういうことです！",
+     "en": "Exactly!",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 50.1,
+     "end": 51.7,
+     "ja": "そういうことなのか？",
+     "en": "Is that really it?",
+     "speaker": "Sugai"
+    }
+   ]
+  },
+  {
+   "start": 1201.8,
+   "end": 1217.0,
+   "title": "Connecting a Bird to Personal History",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy",
+    "sports"
+   ],
+   "grammar": [
+    "〜んで — because / explanation",
+    "〜てる — ongoing state / result",
+    "〜けど — but / although"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1201.8,
+     "end": 1204.8,
+     "ja": "これは、もう絶対友達なんで！",
+     "en": "This one is definitely my friend!",
+     "speaker": "Sugai"
+    },
+    {
+     "start": 1205.1,
+     "end": 1207.0,
+     "ja": "コイツは俺と一緒！",
+     "en": "This guy is just like me!",
+     "speaker": "Sugai"
+    },
+    {
+     "start": 1207.1,
+     "end": 1211.0,
+     "ja": "高校時代野球部で、硬球が歯に当たって折れてるからコイツは。",
+     "en": "Back in high school baseball, a hard ball hit my tooth and broke it, just like this guy (a false tooth).",
+     "speaker": "Sugai"
+    },
+    {
+     "start": 1211.1,
+     "end": 1212.7,
+     "ja": "いやー、やられた！",
+     "en": "Ah, he got me!",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 1212.8,
+     "end": 1215.0,
+     "ja": "サシバの情報ゼロだったけどね。",
+     "en": "Though the question gave zero information about the actual grey-faced buzzard.",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 1215.1,
+     "end": 1216.8,
+     "ja": "意味がわからない押し。",
+     "en": "A buzz-in that makes no sense.",
+     "speaker": "Higashi"
+    }
+   ]
+  }
+ ],
+ "videoId": "i2D7arFGfL8",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

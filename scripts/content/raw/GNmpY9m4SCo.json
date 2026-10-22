@@ -1,0 +1,94 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.6,
+   "end": 56.2,
+   "title": "Where Did the Cheerful Kiki Go?",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "daily"
+   ],
+   "grammar": [
+    "〜ちゃった — ended up doing / unintentionally",
+    "〜みたい — seems like / looks like"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 44.9,
+     "end": 47.4,
+     "ja": "ジジ、私ってどっかおかしい？",
+     "en": "Jiji, is there something wrong with me?",
+     "speaker": "Kiki"
+    },
+    {
+     "start": 52.5,
+     "end": 55.8,
+     "ja": "素直で明るいキキはどこかへ行っちゃったみたい。",
+     "en": "It feels like the honest, cheerful Kiki went away somewhere.",
+     "speaker": "Kiki"
+    }
+   ]
+  },
+  {
+   "start": 113.5,
+   "end": 124.8,
+   "title": "I Had Down Times, But I am Doing Fine",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜たりする — doing things like",
+    "〜けれど — but / although"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 113.7,
+     "end": 115.5,
+     "ja": "お父さん、お母さん、",
+     "en": "Dad, Mom,",
+     "speaker": "Kiki"
+    },
+    {
+     "start": 115.5,
+     "end": 117.2,
+     "ja": "お元気ですか？",
+     "en": "how are you doing?",
+     "speaker": "Kiki"
+    },
+    {
+     "start": 117.3,
+     "end": 119.1,
+     "ja": "落ち込んだりもしたけれど、",
+     "en": "I had my down times, but",
+     "speaker": "Kiki"
+    },
+    {
+     "start": 119.1,
+     "end": 120.6,
+     "ja": "私は元気です。",
+     "en": "I'm doing well.",
+     "speaker": "Kiki"
+    },
+    {
+     "start": 122.9,
+     "end": 124.3,
+     "ja": "かっこいいー！",
+     "en": "So cool!",
+     "speaker": "Tombo"
+    }
+   ]
+  }
+ ],
+ "videoId": "GNmpY9m4SCo",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

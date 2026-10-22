@@ -1,0 +1,183 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 37.4,
+   "end": 56.8,
+   "title": "Hachioji Festival Floats",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜に合わせ — in time with / to match",
+    "〜とともに — along with / together with",
+    "〜できる — can do (potential form)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.5,
+     "end": 40.0,
+     "ja": "威勢のいい掛け声に合わせ、",
+     "en": "To the sound of spirited shouts,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 40.3,
+     "end": 46.2,
+     "ja": "お囃子の音とともに巡行する巨大な山車。",
+     "en": "giant festival floats parade along with the festival music.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 46.9,
+     "end": 49.6,
+     "ja": "毎年８０万人以上が訪れ、",
+     "en": "Visited by over 800,000 people every year,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 49.9,
+     "end": 53.3,
+     "ja": "八王子の伝統文化を堪能できる",
+     "en": "this is a festival where you can enjoy",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 53.5,
+     "end": 56.2,
+     "ja": "こちらのお祭り。",
+     "en": "Hachioji's traditional culture.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 218.5,
+   "end": 249.8,
+   "title": "Bon Odori and Food Stalls in Tsukiji",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜といえば — speaking of",
+    "〜のも — the fact that / reason that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 218.8,
+     "end": 222.0,
+     "ja": "日本の夏といえば、",
+     "en": "Speaking of Japanese summer,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 222.2,
+     "end": 225.5,
+     "ja": "盆踊りですよね。",
+     "en": "it has to be Bon Odori dancing, right?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 226.5,
+     "end": 233.0,
+     "ja": "東京・築地で開催、都内最大級の盆踊り。",
+     "en": "Held in Tsukiji, Tokyo, this is one of the largest Bon dances in the city.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 234.5,
+     "end": 236.5,
+     "ja": "肉まんに、",
+     "en": "Steamed meat buns,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 237.0,
+     "end": 240.6,
+     "ja": "熱々の黒豚シューマイ。",
+     "en": "piping hot Berkshire pork shumai,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 241.0,
+     "end": 244.8,
+     "ja": "ホルモンたっぷりのもつ煮込みなど。",
+     "en": "and offal stew packed with beef and pork tripe.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 245.0,
+     "end": 249.2,
+     "ja": "築地の名店が集まっているのも人気の理由の１つです。",
+     "en": "Featuring famous Tsukiji eateries is one reason for its popularity.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 733.8,
+   "end": 802.5,
+   "title": "Traditional Games at Summer Festivals",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜だけでなく — not only",
+    "〜といった — such as / like",
+    "〜できる — can do (potential form)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 734.0,
+     "end": 737.3,
+     "ja": "屋台グルメだけではありません。",
+     "en": "It's not just about the food stalls.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 742.5,
+     "end": 745.9,
+     "ja": "輪投げやスマートボールといった",
+     "en": "Classic festival games like ring toss",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 746.1,
+     "end": 749.3,
+     "ja": "お祭りの定番ゲームも盛りだくさん。",
+     "en": "and smart ball are also plentiful.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 756.0,
+     "end": 759.0,
+     "ja": "水ヨーヨー釣りに初挑戦の女の子、",
+     "en": "A young girl trying water yo-yo fishing for the first time",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 759.2,
+     "end": 802.0,
+     "ja": "見事ゲットできました。",
+     "en": "successfully hooked one!",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "vUiFLhJlZyM",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

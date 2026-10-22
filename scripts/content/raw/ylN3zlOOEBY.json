@@ -1,0 +1,215 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 19.5,
+   "end": 44.8,
+   "title": "Repairing the Computer Screen",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ようになる — to come to be",
+    "〜そうだ — looks like / seems like",
+    "〜なくなる — to no longer do / become unable to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 19.8,
+     "end": 24.2,
+     "ja": "僕のパソコンのMacBookのディスプレイが",
+     "en": "The display of my computer, my MacBook,",
+     "speaker": "Host"
+    },
+    {
+     "start": 24.4,
+     "end": 26.5,
+     "ja": "ちょっと壊れて、",
+     "en": "broke a little bit,",
+     "speaker": "Host"
+    },
+    {
+     "start": 26.6,
+     "end": 29.5,
+     "ja": "チカチカ光るようになって、",
+     "en": "and started flickering,",
+     "speaker": "Host"
+    },
+    {
+     "start": 29.8,
+     "end": 32.3,
+     "ja": "ちょっと問題があるんですけど、",
+     "en": "so there's a bit of an issue, but",
+     "speaker": "Host"
+    },
+    {
+     "start": 32.4,
+     "end": 37.6,
+     "ja": "思ったよりも早く修理が始められそうです。",
+     "en": "it seems repairs can start sooner than I thought.",
+     "speaker": "Host"
+    },
+    {
+     "start": 38.2,
+     "end": 42.1,
+     "ja": "なので、これからちょっとやっぱり",
+     "en": "So, from now on, as expected,",
+     "speaker": "Host"
+    },
+    {
+     "start": 42.2,
+     "end": 44.5,
+     "ja": "アップロードできなくなります。",
+     "en": "I won't be able to upload for a little while.",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 50.8,
+   "end": 79.8,
+   "title": "Listen to Past Episodes",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ば — conditional (if)",
+    "〜てください — please do",
+    "〜ために — for the sake of / in order to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 51.0,
+     "end": 54.8,
+     "ja": "今までね、たくさんエピソードがあるんで、",
+     "en": "There are many episodes up until now, so",
+     "speaker": "Host"
+    },
+    {
+     "start": 55.3,
+     "end": 57.8,
+     "ja": "もし聞いてないエピソードがあれば、",
+     "en": "if there are any episodes you haven't heard,",
+     "speaker": "Host"
+    },
+    {
+     "start": 57.9,
+     "end": 60.0,
+     "ja": "それを聞いてください。",
+     "en": "please listen to those.",
+     "speaker": "Host"
+    },
+    {
+     "start": 61.0,
+     "end": 65.5,
+     "ja": "全部聞いてる人は、2回とかね、3回とか、",
+     "en": "For those who've heard them all, two or three times,",
+     "speaker": "Host"
+    },
+    {
+     "start": 65.8,
+     "end": 68.8,
+     "ja": "繰り返し繰り返し聞くことも、",
+     "en": "listening over and over again",
+     "speaker": "Host"
+    },
+    {
+     "start": 69.0,
+     "end": 71.8,
+     "ja": "皆さんの勉強のためにいいと思うので、",
+     "en": "is good for your studies, I think, so",
+     "speaker": "Host"
+    },
+    {
+     "start": 72.0,
+     "end": 75.8,
+     "ja": "僕がアップロードできない1週間の間、",
+     "en": "during the week I can't upload,",
+     "speaker": "Host"
+    },
+    {
+     "start": 76.0,
+     "end": 79.5,
+     "ja": "ぜひぜひ今までのエピソードを聞いてください。",
+     "en": "by all means, please listen to past episodes.",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 139.5,
+   "end": 159.5,
+   "title": "Small Problems Happen",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜し、〜し — listing reasons or states",
+    "〜ということ — it means that / the fact that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 140.0,
+     "end": 141.5,
+     "ja": "ま、仕方ないね。",
+     "en": "Well, it can't be helped.",
+     "speaker": "Host"
+    },
+    {
+     "start": 141.8,
+     "end": 144.0,
+     "ja": "こういうことはたまにあります。",
+     "en": "These things happen sometimes.",
+     "speaker": "Host"
+    },
+    {
+     "start": 144.1,
+     "end": 146.5,
+     "ja": "いいこともあるし、悪いこともあるし、",
+     "en": "There are good things, there are bad things,",
+     "speaker": "Host"
+    },
+    {
+     "start": 146.6,
+     "end": 149.3,
+     "ja": "ちょっとした問題ね、小さい問題、",
+     "en": "minor problems, small problems,",
+     "speaker": "Host"
+    },
+    {
+     "start": 149.4,
+     "end": 151.3,
+     "ja": "いつも有りますね。",
+     "en": "they are always there.",
+     "speaker": "Host"
+    },
+    {
+     "start": 151.5,
+     "end": 154.5,
+     "ja": "でも、まあ、本当に良かった。",
+     "en": "But, well, it's really good.",
+     "speaker": "Host"
+    },
+    {
+     "start": 155.0,
+     "end": 159.0,
+     "ja": "すぐに修理が始まるということで。",
+     "en": "Because the repair will start right away.",
+     "speaker": "Host"
+    }
+   ]
+  }
+ ],
+ "videoId": "ylN3zlOOEBY",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,190 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 227.3,
+   "end": 244.5,
+   "title": "When Keigo Suddenly Becomes Casual",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜そう — looks like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 227.4,
+     "end": 231.2,
+     "ja": "あ、プレゼントありがとうございます。",
+     "en": "Oh, thank you for the present.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 231.2,
+     "end": 233.3,
+     "ja": "これ開けてみてもいいですか？",
+     "en": "Can I try opening this?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 233.4,
+     "end": 234.3,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 234.5,
+     "end": 236.8,
+     "ja": "うわー、すごい美味しそうです。",
+     "en": "Wow, it looks so delicious.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 236.9,
+     "end": 238.1,
+     "ja": "今暇？",
+     "en": "Are you free right now?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 238.2,
+     "end": 239.3,
+     "ja": "一緒に食べる？",
+     "en": "Wanna eat together?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 239.4,
+     "end": 240.9,
+     "ja": "え、急に誰？え、誰？",
+     "en": "Wait, who are you all of a sudden? Who?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 241.0,
+     "end": 244.2,
+     "ja": "いきなり心の距離ぐって近づけてきたよ。",
+     "en": "He suddenly closed the emotional distance way too fast.",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 257.0,
+   "end": 277.0,
+   "title": "Mixing Keigo and Casual Speech",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜ませんか — won't you (invitation)",
+    "〜ましょう — let's"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 257.2,
+     "end": 260.5,
+     "ja": "誰かが「このバッグ買ったんですよ」って言ったときに、",
+     "en": "When someone says, \"I bought this bag,\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 260.6,
+     "end": 265.4,
+     "ja": "「え、すごい可愛い」っていうふうに、その人の物に対してタメ口を使ったり、",
+     "en": "you might use casual speech toward their thing like \"Wow, so cute!\",",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 265.5,
+     "end": 269.0,
+     "ja": "「この後食べに行きませんか？」って言われたときに、",
+     "en": "or when asked, \"Won't you go eat after this?\",",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 269.1,
+     "end": 272.4,
+     "ja": "「はい」じゃなくて「うん、大丈夫。行きましょう」っていうふうに、",
+     "en": "instead of \"yes\", saying \"Yeah, that's fine. Let's go\",",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 272.5,
+     "end": 276.7,
+     "ja": "「うん、大丈夫」はタメ口で、「行きましょう」は敬語。",
+     "en": "\"Yeah, that's fine\" is casual, and \"let's go\" is polite.",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 382.5,
+   "end": 401.5,
+   "title": "When a Friend Speaks Way Too Politely",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜お入りください — please enter (honorific)",
+    "〜ていただく / ございます — polite copula"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 382.5,
+     "end": 386.5,
+     "ja": "学校の友達の家に行ったときに、なんか急にお店みたいに、",
+     "en": "If you went to a school friend's house and suddenly, like a store,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 386.6,
+     "end": 389.5,
+     "ja": "「あ、どうも。どうぞ中へお入りください」って言われたら、",
+     "en": "they said, \"Ah, welcome. Please step inside,\" then,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 389.6,
+     "end": 393.1,
+     "ja": "「え、何何？急にどうしたの？え、何？ショッピングモール？」",
+     "en": "\"Wait, what? What happened all of a sudden? What is this, a mall?\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 393.2,
+     "end": 396.5,
+     "ja": "「右手にはトイレが、左手には階段がございます」",
+     "en": "\"To your right is the restroom, to your left are the stairs.\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 396.6,
+     "end": 401.0,
+     "ja": "「今日ちょっと用事があったんだった。また来るね、バイバイ」って帰りますよね。",
+     "en": "You'd be like, \"I just remembered I have errands today. See you, bye!\" and leave, right?",
+     "speaker": "Hitoki"
+    }
+   ]
+  }
+ ],
+ "videoId": "S1Xjc3z_k2s",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

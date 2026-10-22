@@ -1,0 +1,160 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.0,
+   "end": 11.6,
+   "title": "Counting from 1 to 10 in Japanese",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.0,
+     "end": 1.2,
+     "ja": "いち",
+     "en": "One",
+     "speaker": "Ken"
+    },
+    {
+     "start": 1.3,
+     "end": 2.3,
+     "ja": "に",
+     "en": "Two",
+     "speaker": "Ken"
+    },
+    {
+     "start": 2.4,
+     "end": 3.4,
+     "ja": "さん",
+     "en": "Three",
+     "speaker": "Ken"
+    },
+    {
+     "start": 3.5,
+     "end": 4.5,
+     "ja": "し",
+     "en": "Four",
+     "speaker": "Ken"
+    },
+    {
+     "start": 4.6,
+     "end": 5.7,
+     "ja": "ご",
+     "en": "Five",
+     "speaker": "Ken"
+    },
+    {
+     "start": 5.8,
+     "end": 7.1,
+     "ja": "ろく",
+     "en": "Six",
+     "speaker": "Ken"
+    },
+    {
+     "start": 7.2,
+     "end": 8.3,
+     "ja": "しち",
+     "en": "Seven",
+     "speaker": "Ken"
+    },
+    {
+     "start": 8.4,
+     "end": 9.5,
+     "ja": "はち",
+     "en": "Eight",
+     "speaker": "Ken"
+    },
+    {
+     "start": 9.6,
+     "end": 10.5,
+     "ja": "きゅう",
+     "en": "Nine",
+     "speaker": "Ken"
+    },
+    {
+     "start": 10.6,
+     "end": 11.6,
+     "ja": "じゅう",
+     "en": "Ten",
+     "speaker": "Ken"
+    }
+   ]
+  },
+  {
+   "start": 133.3,
+   "end": 140.5,
+   "title": "Traditional Japanese Counting",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 133.4,
+     "end": 136.8,
+     "ja": "ひとつ、ふたつ、みっつ、よっつ、いつつ、",
+     "en": "One, two, three, four, five,",
+     "speaker": "Ken"
+    },
+    {
+     "start": 136.8,
+     "end": 140.4,
+     "ja": "むっつ、ななつ、やっつ、ここのつ、とお。",
+     "en": "six, seven, eight, nine, ten.",
+     "speaker": "Ken"
+    }
+   ]
+  },
+  {
+   "start": 446.1,
+   "end": 455.2,
+   "title": "Tanaka's Astounding Income",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "work"
+   ],
+   "grammar": [
+    "〜って — topic marker (colloquial)",
+    "〜ぐらい — about / approximately"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 446.3,
+     "end": 450.2,
+     "ja": "ねえ、田中さんの収入ってどのぐらいなんですか？",
+     "en": "Hey Tanaka, how much is your income?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 450.4,
+     "end": 452.4,
+     "ja": "いやいや、大したことないですよ。",
+     "en": "No, no, it's really not that much.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 452.6,
+     "end": 454.8,
+     "ja": "２００那由他ぐらいです。",
+     "en": "Just around two hundred nayuta.",
+     "speaker": "Ken"
+    }
+   ]
+  }
+ ],
+ "videoId": "hqPEDfjlfSs",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

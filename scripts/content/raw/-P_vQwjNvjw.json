@@ -1,0 +1,203 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 35.5,
+   "end": 49.5,
+   "title": "Welcome to Show Business",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "work"
+   ],
+   "grammar": [
+    "〜ちゃう — unintentional action",
+    "〜ことになる — it turns out that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 35.8,
+     "end": 38.8,
+     "ja": "1人目は、リーダー吉田仁人です。",
+     "en": "The first one is our leader, Jinto Yoshida.",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 41.2,
+     "end": 44.2,
+     "ja": "メンバーを少し早く起こすことになっちゃうんで、",
+     "en": "I'm going to end up waking the members up a bit early,",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 44.3,
+     "end": 45.6,
+     "ja": "ごめんなさい。",
+     "en": "so I'm sorry.",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 45.7,
+     "end": 46.9,
+     "ja": "ごめんな、メンバー。",
+     "en": "Sorry guys.",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 47.0,
+     "end": 49.0,
+     "ja": "これが芸能界や。",
+     "en": "This is show business.",
+     "speaker": "Hayato"
+    }
+   ]
+  },
+  {
+   "start": 180.8,
+   "end": 197.3,
+   "title": "Waking Up the Leader",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜し — listing reasons",
+    "〜に参る — humble verb for coming/going"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 181.0,
+     "end": 182.0,
+     "ja": "今、何時？",
+     "en": "What time is it now?",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 182.1,
+     "end": 184.2,
+     "ja": "今、5時50分ですね。",
+     "en": "Right now, it's 5:50.",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 184.3,
+     "end": 185.5,
+     "ja": "あー…",
+     "en": "Ah...",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 185.7,
+     "end": 188.0,
+     "ja": "もうすぐメイクの時間なんで、",
+     "en": "It's almost time for hair and makeup,",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 188.1,
+     "end": 190.0,
+     "ja": "昨日も遅かったことですし、",
+     "en": "and since yesterday was late too,",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 190.1,
+     "end": 192.8,
+     "ja": "起きれないかなと思って私が起こしに参りました。",
+     "en": "I thought you might not wake up, so I came to wake you.",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 192.9,
+     "end": 195.0,
+     "ja": "いやー、正直マジで、",
+     "en": "Man, honestly, seriously,",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 195.2,
+     "end": 197.0,
+     "ja": "ありがとう。",
+     "en": "thank you.",
+     "speaker": "Jinto"
+    }
+   ]
+  },
+  {
+   "start": 776.0,
+   "end": 790.5,
+   "title": "Did I Oversleep?",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜かも — might be",
+    "〜ちゃう — to do by mistake"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 776.3,
+     "end": 778.2,
+     "ja": "え…俺やった？",
+     "en": "Wait... did I mess up?",
+     "speaker": "Daichi"
+    },
+    {
+     "start": 778.8,
+     "end": 780.3,
+     "ja": "マジでやった？",
+     "en": "Did I seriously blow it?",
+     "speaker": "Daichi"
+    },
+    {
+     "start": 780.5,
+     "end": 783.4,
+     "ja": "え、やべ、目覚ましミスったかも。",
+     "en": "Wait, oh no, I might've missed my alarm.",
+     "speaker": "Daichi"
+    },
+    {
+     "start": 783.5,
+     "end": 785.0,
+     "ja": "あ、ごめん、マジごめん。",
+     "en": "Ah, sorry, I'm really sorry.",
+     "speaker": "Daichi"
+    },
+    {
+     "start": 785.1,
+     "end": 787.5,
+     "ja": "大ちゃん、本当にごめんなさい。まだ全然時間大丈夫です。",
+     "en": "Dai-chan, I'm really sorry! There's still plenty of time.",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 787.6,
+     "end": 789.3,
+     "ja": "寝起きドッキリです！",
+     "en": "It's a wake-up prank!",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 789.4,
+     "end": 790.3,
+     "ja": "お前…",
+     "en": "You...",
+     "speaker": "Daichi"
+    }
+   ]
+  }
+ ],
+ "videoId": "-P_vQwjNvjw",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

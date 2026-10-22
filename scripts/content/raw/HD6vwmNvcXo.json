@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.2,
+   "end": 13.5,
+   "title": "Talking About the Transfer Student",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "school",
+    "friends"
+   ],
+   "grammar": [
+    "〜みたい — seems like / looks like",
+    "〜っていう — hearsay / supposedly"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.5,
+     "end": 7.8,
+     "ja": "ずいぶん呑気にしてるみたいね、鹿目まどかさん。",
+     "en": "You seem pretty carefree, Madoka Kaname.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 8.3,
+     "end": 10.2,
+     "ja": "あの転校生か？",
+     "en": "That transfer student?",
+     "speaker": "Kyoko"
+    },
+    {
+     "start": 10.4,
+     "end": 13.3,
+     "ja": "確か元々は、さやかの幼馴染だったっていう…",
+     "en": "Supposedly she was originally Sayaka's childhood friend...",
+     "speaker": "Kyoko"
+    }
+   ]
+  },
+  {
+   "start": 22.8,
+   "end": 32.4,
+   "title": "Homura Declares Her Stand",
+   "level": "N2",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜ないで — please do not",
+    "〜など — things like / such as",
+    "〜あり得ない — impossible / cannot happen"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.2,
+     "end": 24.5,
+     "ja": "勘違いしないで。",
+     "en": "Don't get the wrong idea.",
+     "speaker": "Homura"
+    },
+    {
+     "start": 24.7,
+     "end": 27.0,
+     "ja": "私はあくまであなた達の味方。",
+     "en": "I am, above all, on your side.",
+     "speaker": "Homura"
+    },
+    {
+     "start": 27.2,
+     "end": 28.5,
+     "ja": "暁美ほむら…",
+     "en": "Homura Akemi...",
+     "speaker": "Girl"
+    },
+    {
+     "start": 28.6,
+     "end": 32.2,
+     "ja": "この世界で私を脅かすものなど、あり得ない。",
+     "en": "Nothing in this world could ever threaten me.",
+     "speaker": "Homura"
+    }
+   ]
+  },
+  {
+   "start": 33.0,
+   "end": 46.8,
+   "title": "The Origin of All Witches",
+   "level": "N1",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜という — called / known as",
+    "〜を絶する — beyond / defying (imagination)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 33.3,
+     "end": 36.0,
+     "ja": "すべての魔女たちの始まりの場所。",
+     "en": "The birthplace of all witches.",
+     "speaker": "Kyubey"
+    },
+    {
+     "start": 36.1,
+     "end": 39.0,
+     "ja": "それがここ、『名塚底骨』という空間の役割だ。",
+     "en": "That is the role of this space called 'Nazuka Sokotsune.'",
+     "speaker": "Kyubey"
+    },
+    {
+     "start": 39.8,
+     "end": 42.1,
+     "ja": "複数の魔女の融合体。",
+     "en": "A conglomeration of multiple witches.",
+     "speaker": "Homura"
+    },
+    {
+     "start": 42.4,
+     "end": 44.8,
+     "ja": "想像を絶する呪いの集積。",
+     "en": "An accumulation of curses beyond imagination.",
+     "speaker": "Homura"
+    },
+    {
+     "start": 45.0,
+     "end": 46.5,
+     "ja": "人呼んで、『ワルプルギスの夜』。",
+     "en": "Known to some as 'Walpurgisnacht.'",
+     "speaker": "Homura"
+    }
+   ]
+  }
+ ],
+ "videoId": "HD6vwmNvcXo",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

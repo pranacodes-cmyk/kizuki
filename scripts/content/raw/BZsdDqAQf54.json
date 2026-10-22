@@ -1,0 +1,253 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 46.5,
+   "end": 71.5,
+   "title": "What Are Deepfakes?",
+   "level": "N2",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜とは — definition",
+    "〜ような — like / such as",
+    "〜視する — to view as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 46.8,
+     "end": 48.0,
+     "ja": "ディープフェイクとは、",
+     "en": "Deepfakes are",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 48.0,
+     "end": 50.4,
+     "ja": "ＡＩの学習技術を利用し、",
+     "en": "videos that use AI learning technology",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 50.4,
+     "end": 53.9,
+     "ja": "人物の顔や声などを本物そっくりに改変・",
+     "en": "to alter or synthesize people's faces and voices",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 53.9,
+     "end": 56.0,
+     "ja": "合成する動画のこと。",
+     "en": "to look and sound just like the real thing.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 56.2,
+     "end": 58.5,
+     "ja": "去年の韓国大統領選、",
+     "en": "In last year's South Korean presidential election,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 58.5,
+     "end": 61.3,
+     "ja": "一昨年のアメリカ大統領選でも、",
+     "en": "and the US presidential election the year before,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 61.3,
+     "end": 64.2,
+     "ja": "大きな話題となったこの技術。",
+     "en": "this technology became a major talking point.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 64.2,
+     "end": 66.8,
+     "ja": "候補者を貶めるようなフェイク動画が",
+     "en": "Fake videos intended to smear candidates",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 66.8,
+     "end": 68.8,
+     "ja": "ネット上で拡散され、",
+     "en": "spread across the internet,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 68.8,
+     "end": 71.1,
+     "ja": "世論への影響を不安視する声も。",
+     "en": "sparking concerns about their impact on public opinion.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 71.7,
+   "end": 98.2,
+   "title": "A Fake Video Causes Panic in Japan",
+   "level": "N2",
+   "topics": [
+    "animals",
+    "culture"
+   ],
+   "grammar": [
+    "〜を招く — cause / bring about",
+    "〜てしまう — end up doing (unintentionally)",
+    "〜を受けて — in response to / following"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 71.9,
+     "end": 75.8,
+     "ja": "さらに、日本でも大きな混乱を招きました。",
+     "en": "Furthermore, it has caused major confusion in Japan as well.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 76.1,
+     "end": 78.0,
+     "ja": "今年の夏に話題となった、",
+     "en": "A viral topic this past summer was a fake video",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 78.0,
+     "end": 82.5,
+     "ja": "不法投棄されたパンをクマが食べるというフェイク動画。",
+     "en": "of a bear eating illegally dumped sliced bread.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 82.7,
+     "end": 85.8,
+     "ja": "本物だと信じ込んでしまう人も現れ、",
+     "en": "Some people ended up truly believing it was real,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 85.8,
+     "end": 89.5,
+     "ja": "「鳥取県は危ない場所だ！」と大混乱。",
+     "en": "causing panic with claims like 'Tottori Prefecture is dangerous!'",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 89.6,
+     "end": 92.4,
+     "ja": "こうした事態を受け、鳥取県知事は、",
+     "en": "In response to this situation, the governor of Tottori Prefecture",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 92.4,
+     "end": 96.4,
+     "ja": "「誤った見方が出るのは経済的な被害へつながる」と、",
+     "en": "sounded a strong warning, stating that false perceptions",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 96.4,
+     "end": 97.9,
+     "ja": "強く警鐘を鳴らしました。",
+     "en": "would lead to economic damage.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 138.5,
+   "end": 164.0,
+   "title": "Why Video Fakes Spread So Quickly",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜じゃないですか — isn't it? / as you know",
+    "〜たら — if / when",
+    "〜のではないか — wouldn't you say / perhaps"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 138.8,
+     "end": 141.6,
+     "ja": "字のニュース、ネットニュース、",
+     "en": "Text-based news, internet articles...",
+     "speaker": "Kawahara"
+    },
+    {
+     "start": 141.8,
+     "end": 144.4,
+     "ja": "あれでも皆さん騙されるじゃないですか。",
+     "en": "People get tricked even by those, right?",
+     "speaker": "Kawahara"
+    },
+    {
+     "start": 144.4,
+     "end": 145.6,
+     "ja": "そうですね。",
+     "en": "That's true.",
+     "speaker": "Kawakita"
+    },
+    {
+     "start": 145.8,
+     "end": 149.8,
+     "ja": "それがですね、こう映像が出てきたらさらに、",
+     "en": "And on top of that, if video footage appears,",
+     "speaker": "Kawahara"
+    },
+    {
+     "start": 149.8,
+     "end": 152.0,
+     "ja": "あの、本当だっていうので、",
+     "en": "because people assume it's real,",
+     "speaker": "Kawahara"
+    },
+    {
+     "start": 152.0,
+     "end": 154.8,
+     "ja": "すぐ広まると、ＳＮＳで。",
+     "en": "it spreads immediately on social media.",
+     "speaker": "Kawahara"
+    },
+    {
+     "start": 155.0,
+     "end": 157.0,
+     "ja": "とてもこれは、",
+     "en": "I think this is really",
+     "speaker": "Kawahara"
+    },
+    {
+     "start": 157.0,
+     "end": 162.2,
+     "ja": "ちょっと大変なことではないかなと思うんですけども。",
+     "en": "quite a serious problem, wouldn't you say?",
+     "speaker": "Kawahara"
+    },
+    {
+     "start": 162.8,
+     "end": 163.7,
+     "ja": "川北さん。",
+     "en": "Kawakita-san.",
+     "speaker": "Kawahara"
+    }
+   ]
+  }
+ ],
+ "videoId": "BZsdDqAQf54",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

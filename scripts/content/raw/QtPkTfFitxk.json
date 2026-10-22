@@ -1,0 +1,165 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.8,
+   "end": 25.0,
+   "title": "What If You Were an AI?",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜としたら — if we assume that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.0,
+     "end": 16.5,
+     "ja": "あなたはAIで作られた存在だとしたら、どう思いますか？",
+     "en": "If you were an entity created by AI, what would you think?",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 16.9,
+     "end": 18.2,
+     "ja": "え？え？",
+     "en": "Huh? What?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 18.2,
+     "end": 19.9,
+     "ja": "え、私が？",
+     "en": "Wait, me?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 20.0,
+     "end": 21.3,
+     "ja": "AI？",
+     "en": "An AI?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 21.4,
+     "end": 24.5,
+     "ja": "そんな、そんなの怖いです。",
+     "en": "That's... something like that is scary.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 27.5,
+   "end": 40.5,
+   "title": "What If I am an AI?",
+   "level": "N3",
+   "topics": [
+    "school",
+    "friends"
+   ],
+   "grammar": [
+    "〜ってこと — meaning that...",
+    "〜だなんて — to think that / such a thing as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 27.6,
+     "end": 29.5,
+     "ja": "え？今の質問…",
+     "en": "Wait, that question just now...",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 30.3,
+     "end": 32.5,
+     "ja": "私がAIってことですか？",
+     "en": "Does that mean that I'm an AI?",
+     "speaker": "Girl B"
+    },
+    {
+     "start": 32.6,
+     "end": 34.0,
+     "ja": "そんな…",
+     "en": "No way...",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 34.0,
+     "end": 37.0,
+     "ja": "人間だと思ってた自分が作られたものだなんて、",
+     "en": "To think that I, whom I thought was human, was actually created...",
+     "speaker": "Girl B"
+    },
+    {
+     "start": 37.0,
+     "end": 39.5,
+     "ja": "ちょっと怖いです。",
+     "en": "That's kind of scary.",
+     "speaker": "Girl B"
+    }
+   ]
+  },
+  {
+   "start": 55.5,
+   "end": 68.0,
+   "title": "An Entity Reveals Its True Nature",
+   "level": "N2",
+   "topics": [
+    "fun",
+    "work"
+   ],
+   "grammar": [
+    "〜のに — even though / despite",
+    "〜より先に — before / ahead of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 55.8,
+     "end": 57.5,
+     "ja": "ふー、よく分かりましたね。",
+     "en": "Phew, you caught on well.",
+     "speaker": "Man"
+    },
+    {
+     "start": 57.6,
+     "end": 59.5,
+     "ja": "じゃあ、ちゃんと答えますよ。",
+     "en": "Well then, I'll answer properly.",
+     "speaker": "Man"
+    },
+    {
+     "start": 59.8,
+     "end": 62.5,
+     "ja": "生まれた時から人間だと思ってたのに、",
+     "en": "Even though you thought you were human since birth,",
+     "speaker": "Man"
+    },
+    {
+     "start": 62.5,
+     "end": 65.5,
+     "ja": "実は作られた存在だったって知ったら、どう感じると思います？",
+     "en": "how do you think you'd feel if you found out you were actually a created entity?",
+     "speaker": "Man"
+    },
+    {
+     "start": 65.7,
+     "end": 67.8,
+     "ja": "驚くより先に、妙に納得するんです。",
+     "en": "Before being surprised, you weirdly just accept it.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "QtPkTfFitxk",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,178 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.7,
+   "end": 17.8,
+   "title": "A Looming Locust Plague",
+   "level": "N2",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜とは — expressing surprise",
+    "〜と — natural consequence / if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.8,
+     "end": 5.5,
+     "ja": "まさか、あの壬氏殿が皇弟だったとは…",
+     "en": "To think that Master Jinshi was the Emperor's younger brother...",
+     "speaker": "Official"
+    },
+    {
+     "start": 8.8,
+     "end": 10.5,
+     "ja": "蝗害…ですか？",
+     "en": "A locust plague...?",
+     "speaker": "Jinshi"
+    },
+    {
+     "start": 10.9,
+     "end": 14.1,
+     "ja": "今、蝗害が起きると、間違いなく",
+     "en": "If a locust plague breaks out now, without a doubt,",
+     "speaker": "Official"
+    },
+    {
+     "start": 14.3,
+     "end": 17.6,
+     "ja": "民の矛先は帝に向けられるだろう。",
+     "en": "the people's fury will be directed at the Emperor.",
+     "speaker": "Official"
+    }
+   ]
+  },
+  {
+   "start": 18.7,
+   "end": 38.0,
+   "title": "A Message From Maomao",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜ば — conditional if",
+    "〜しかない — have no choice but to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.8,
+     "end": 20.3,
+     "ja": "あの娘からです。",
+     "en": "It's from that girl.",
+     "speaker": "Gaoshun"
+    },
+    {
+     "start": 20.3,
+     "end": 21.8,
+     "ja": "猫猫から？",
+     "en": "From Maomao?",
+     "speaker": "Jinshi"
+    },
+    {
+     "start": 22.0,
+     "end": 24.3,
+     "ja": "これに見覚えはありませんか？",
+     "en": "Does this look familiar to you?",
+     "speaker": "Maomao"
+    },
+    {
+     "start": 24.4,
+     "end": 25.6,
+     "ja": "まさか…",
+     "en": "It can't be...",
+     "speaker": "Jinshi"
+    },
+    {
+     "start": 26.3,
+     "end": 29.8,
+     "ja": "もし戦が始まれば、西は要となる。",
+     "en": "If war were to break out, the west would be the linchpin.",
+     "speaker": "Emperor"
+    },
+    {
+     "start": 30.6,
+     "end": 34.8,
+     "ja": "今後、これが争いの種にならぬことを願うしかない。",
+     "en": "I can only pray this won't become the seed of conflict.",
+     "speaker": "Jinshi"
+    },
+    {
+     "start": 35.0,
+     "end": 36.9,
+     "ja": "壬氏様、そろそろ…",
+     "en": "Master Jinshi, it's about time...",
+     "speaker": "Gaoshun"
+    },
+    {
+     "start": 37.0,
+     "end": 38.0,
+     "ja": "ああ。",
+     "en": "Right.",
+     "speaker": "Jinshi"
+    }
+   ]
+  },
+  {
+   "start": 72.0,
+   "end": 90.6,
+   "title": "Not in a Position to Cling",
+   "level": "N2",
+   "topics": [
+    "anime",
+    "romance"
+   ],
+   "grammar": [
+    "〜ねばならない — must / have to",
+    "〜たらどう — how about / why don't you"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 72.3,
+     "end": 77.3,
+     "ja": "一つのものに執着する。壬氏様はそれが許される立場にありませんから。",
+     "en": "Clinging to one single thing. Master Jinshi, you are not in a position to be allowed that.",
+     "speaker": "Gaoshun"
+    },
+    {
+     "start": 77.8,
+     "end": 81.7,
+     "ja": "今後は、あの娘との接し方を変えねばなりません。",
+     "en": "From now on, you must change how you treat that girl.",
+     "speaker": "Gaoshun"
+    },
+    {
+     "start": 81.9,
+     "end": 83.3,
+     "ja": "分かっている。",
+     "en": "I know.",
+     "speaker": "Jinshi"
+    },
+    {
+     "start": 84.0,
+     "end": 86.6,
+     "ja": "そろそろ観念したらどうなの？",
+     "en": "Why don't you just give in already?",
+     "speaker": "Pairin"
+    },
+    {
+     "start": 86.9,
+     "end": 90.3,
+     "ja": "もう少しだけ…もう少しだけだ。",
+     "en": "Just a little longer... Just a little longer.",
+     "speaker": "Jinshi"
+    }
+   ]
+  }
+ ],
+ "videoId": "YvNvvUeCztE",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

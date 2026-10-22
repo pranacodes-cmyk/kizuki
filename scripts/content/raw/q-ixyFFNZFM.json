@@ -1,0 +1,157 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.6,
+   "end": 17.5,
+   "title": "Urgent Video on a PHP Security Vulnerability",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜ということで — introducing the context or topic",
+    "〜ております — humble ongoing action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 5.2,
+     "ja": "ハローYouTube！ということで、今日はですね、緊急で動画を回しております。",
+     "en": "Hello YouTube! So today, I'm recording an urgent video.",
+     "speaker": "Horie"
+    },
+    {
+     "start": 5.5,
+     "end": 9.5,
+     "ja": "今日ですね、PHPというですね、",
+     "en": "Today, there's this language called PHP,",
+     "speaker": "Horie"
+    },
+    {
+     "start": 9.5,
+     "end": 14.0,
+     "ja": "サーバーサイド、ウェブサイトを、ま、簡単に構築できる",
+     "en": "which allows you to easily build server-side websites,",
+     "speaker": "Horie"
+    },
+    {
+     "start": 14.0,
+     "end": 17.5,
+     "ja": "そのための言語ですね、PHPっていうのがあるんですけれども、",
+     "en": "a language for that purpose, and...",
+     "speaker": "Horie"
+    }
+   ]
+  },
+  {
+   "start": 32.5,
+   "end": 50.8,
+   "ja": "中にもですね、このレンタルサーバーね、素のレンタルサーバーを使って、そこにPHPインストールして、サーバー構築をしてるような、組織の方々に、これはぜひ聞いてほしい、緊急の問題なんですけれども、",
+   "title": "An Urgent Message for Server Administrators",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜てほしい — wanting someone to do something",
+    "〜ような — like / such as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 32.5,
+     "end": 35.5,
+     "ja": "中でもですね、このレンタルサーバーね、",
+     "en": "Among those, using shared hosting servers,",
+     "speaker": "Horie"
+    },
+    {
+     "start": 35.5,
+     "end": 39.5,
+     "ja": "素のレンタルサーバーを使って、そこにPHPインストールして、",
+     "en": "using plain shared hosting and installing PHP on it,",
+     "speaker": "Horie"
+    },
+    {
+     "start": 39.5,
+     "end": 41.5,
+     "ja": "サーバー構築をしてるような、",
+     "en": "to set up their servers,",
+     "speaker": "Horie"
+    },
+    {
+     "start": 41.5,
+     "end": 46.5,
+     "ja": "まあ、あの、組織の方々に、これはぜひ聞いてほしい、",
+     "en": "I really want people from those organizations to hear this,",
+     "speaker": "Horie"
+    },
+    {
+     "start": 46.5,
+     "end": 50.8,
+     "ja": "まあ、緊急の問題なんですけれども、",
+     "en": "as it is an urgent issue.",
+     "speaker": "Horie"
+    }
+   ]
+  },
+  {
+   "start": 244.5,
+   "end": 426.0,
+   "title": "Release of the Emergency Patch",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜予定 — planning to do",
+    "〜かね — wondering / isn't it"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 404.2,
+     "end": 407.0,
+     "ja": "PHPのセキュリティチームはですね、",
+     "en": "The PHP security team,",
+     "speaker": "Horie"
+    },
+    {
+     "start": 407.0,
+     "end": 410.0,
+     "ja": "日本時間の今日23時に、",
+     "en": "at 11:00 PM Japan time today,",
+     "speaker": "Horie"
+    },
+    {
+     "start": 410.0,
+     "end": 414.2,
+     "ja": "協定世界標準時UTCの14時ですかね、",
+     "en": "which would be 14:00 UTC,",
+     "speaker": "Horie"
+    },
+    {
+     "start": 414.5,
+     "end": 420.5,
+     "ja": "に、パッチというですね、セキュリティホール、バグをですね、フィックスした、直した、",
+     "en": "a patch that fixes the security hole or bug,",
+     "speaker": "Horie"
+    },
+    {
+     "start": 420.5,
+     "end": 425.8,
+     "ja": "パッチというプログラムをですね、リリースする予定なので、",
+     "en": "they are planning to release that program called a patch, so...",
+     "speaker": "Horie"
+    }
+   ]
+  }
+ ],
+ "videoId": "q-ixyFFNZFM",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

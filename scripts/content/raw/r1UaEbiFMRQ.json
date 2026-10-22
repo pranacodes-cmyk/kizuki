@@ -1,0 +1,166 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 29.8,
+   "end": 58.5,
+   "title": "Shifting to a Morning Routine",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ようにしている — making an effort to / habit",
+    "〜ていた — past continuous action / state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 29.8,
+     "end": 34.0,
+     "ja": "最近は朝5時に起床して1日をスタートしてます。",
+     "en": "Lately, I've been waking up at 5 a.m. to start my day.",
+     "speaker": "Kana"
+    },
+    {
+     "start": 34.3,
+     "end": 36.5,
+     "ja": "私は元々夜型で、",
+     "en": "I used to be a night owl,",
+     "speaker": "Kana"
+    },
+    {
+     "start": 36.5,
+     "end": 40.5,
+     "ja": "深夜24時にゾーンに入って朝まで仕事や勉強をして、",
+     "en": "getting into the zone at midnight, working or studying until morning,",
+     "speaker": "Kana"
+    },
+    {
+     "start": 40.8,
+     "end": 44.5,
+     "ja": "昼15時に起きるという生活をしてたんですけど、",
+     "en": "and waking up at 3 in the afternoon.",
+     "speaker": "Kana"
+    },
+    {
+     "start": 45.0,
+     "end": 49.0,
+     "ja": "30代に入って健康やメンタルの変化が変わってきて、",
+     "en": "Entering my 30s, my health and mental state changed,",
+     "speaker": "Kana"
+    },
+    {
+     "start": 49.2,
+     "end": 54.5,
+     "ja": "夜24時に寝ると決めて1日のスケジュールを立てるようにしてます。",
+     "en": "so now I decide to sleep by midnight and plan my daily schedule around that.",
+     "speaker": "Kana"
+    },
+    {
+     "start": 55.0,
+     "end": 58.5,
+     "ja": "朝は5時〜8時に起きることが多いです。",
+     "en": "I usually wake up between 5 and 8 in the morning.",
+     "speaker": "Kana"
+    }
+   ]
+  },
+  {
+   "start": 255.8,
+   "end": 278.5,
+   "title": "The Three-Color Note-Taking Rule",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜ずに — without doing",
+    "〜すぎる — to overdo / do excessively",
+    "〜ように — so that / in order to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 255.8,
+     "end": 260.5,
+     "ja": "ノートはあまりカラフルにせず、3色までと決めてノートにまとめています。",
+     "en": "I don't make my notes too colorful; I limit myself to three colors when taking notes.",
+     "speaker": "Kana"
+    },
+    {
+     "start": 260.7,
+     "end": 265.5,
+     "ja": "ペンを使いすぎると、色分けした意味や目的が分かりづらくなるのと、",
+     "en": "If you use too many pens, the purpose behind color-coding gets confusing,",
+     "speaker": "Kana"
+    },
+    {
+     "start": 265.8,
+     "end": 271.5,
+     "ja": "ペンのカラー意図や目的が多くなると、そこに意識が向いてしまって勉強内容が入ってこないので、",
+     "en": "and when you focus too much on pen colors, the actual material doesn't sink in,",
+     "speaker": "Kana"
+    },
+    {
+     "start": 272.0,
+     "end": 278.5,
+     "ja": "シンプルにしながら、後で振り返った時に見やすくなるようにということを意識して書いてます。",
+     "en": "so I try to keep it simple while making sure it's easy to review later on.",
+     "speaker": "Kana"
+    }
+   ]
+  },
+  {
+   "start": 406.0,
+   "end": 424.5,
+   "title": "Studying with the Pomodoro Technique",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜という — called / known as",
+    "〜ながら — while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 406.0,
+     "end": 410.8,
+     "ja": "勉強中はポモドーロテクニックという手法を意識して使っていて、",
+     "en": "While studying, I consciously use a method called the Pomodoro Technique.",
+     "speaker": "Kana"
+    },
+    {
+     "start": 411.2,
+     "end": 416.2,
+     "ja": "作業時間を25分、休憩時間を5分に区切って、",
+     "en": "You divide work into 25 minutes of focus and 5 minutes of rest,",
+     "speaker": "Kana"
+    },
+    {
+     "start": 416.5,
+     "end": 421.0,
+     "ja": "集中力を維持しながら効率的に作業を進める時間管理法なんですけど、",
+     "en": "which is a time management technique that keeps you focused and productive,",
+     "speaker": "Kana"
+    },
+    {
+     "start": 421.2,
+     "end": 424.5,
+     "ja": "めっちゃ効果あるからおすすめです。",
+     "en": "and it's really effective, so I highly recommend it.",
+     "speaker": "Kana"
+    }
+   ]
+  }
+ ],
+ "videoId": "r1UaEbiFMRQ",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

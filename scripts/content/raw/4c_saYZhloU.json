@@ -1,0 +1,138 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 20.0,
+   "title": "The Sun and the Moon",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜と — and",
+    "〜を記録した — recorded (past tense)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.3,
+     "end": 3.2,
+     "ja": "天に輝く太陽と、",
+     "en": "The sun shining in the heavens,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 3.4,
+     "end": 5.7,
+     "ja": "その太陽を見守る月。",
+     "en": "and the moon watching over that sun.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 6.5,
+     "end": 10.5,
+     "ja": "韓国で最高視聴率46.1％を記録した、",
+     "en": "Recording a peak viewership of 46.1% in South Korea,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 10.9,
+     "end": 13.2,
+     "ja": "若き王と美しき巫女の、",
+     "en": "between a young king and a beautiful shaman,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 13.4,
+     "end": 16.4,
+     "ja": "悲しく切ないファンタジー・ラブロマンス。",
+     "en": "a poignant fantasy romance.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 17.3,
+     "end": 19.8,
+     "ja": "『太陽を抱く月』。",
+     "en": "Moon Embracing the Sun.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 20.5,
+   "end": 31.8,
+   "title": "Fated to Be Together",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜に導かれ — led by (passive)",
+    "〜はずだった — was supposed to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 20.8,
+     "end": 23.6,
+     "ja": "舞台は朝鮮王朝の架空の時代。",
+     "en": "Set in a fictional era of the Joseon Dynasty.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 25.8,
+     "end": 27.3,
+     "ja": "運命に導かれ、",
+     "en": "Guided by fate,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 27.3,
+     "end": 31.5,
+     "ja": "結ばれるはずだった王子イ・フォンとヨヌ。",
+     "en": "Prince Lee Hwon and Yeon-woo were meant to be united.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 153.6,
+   "end": 200.9,
+   "title": "A Miracle Awaiting",
+   "level": "N2",
+   "topics": [
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜たとき — when / after doing",
+    "〜ている — progressive/state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 154.0,
+     "end": 157.4,
+     "ja": "過酷で壮絶な試練を乗り越えた時、",
+     "en": "When they overcome harsh and grueling trials,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 157.7,
+     "end": 200.5,
+     "ja": "その先に奇跡は待っているのか。",
+     "en": "will a miracle be waiting beyond?",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "4c_saYZhloU",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

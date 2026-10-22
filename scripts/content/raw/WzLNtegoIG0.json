@@ -1,0 +1,171 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 106.0,
+   "end": 125.2,
+   "title": "Why Can't You Play?",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜て — request form (short for てください)",
+    "〜てて — staying in a state (short for ていて)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 106.2,
+     "end": 107.5,
+     "ja": "どうして？",
+     "en": "Why?",
+     "speaker": "Button"
+    },
+    {
+     "start": 111.4,
+     "end": 113.0,
+     "ja": "ちょっと待って。",
+     "en": "Wait a moment.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 113.0,
+     "end": 114.8,
+     "ja": "今、ママお仕事。",
+     "en": "Mom is working right now.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 115.0,
+     "end": 116.3,
+     "ja": "終わり。",
+     "en": "Almost done.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 117.0,
+     "end": 119.2,
+     "ja": "ママね、学校の書類を……",
+     "en": "Mom's doing school documents...",
+     "speaker": "Owner"
+    },
+    {
+     "start": 119.4,
+     "end": 120.6,
+     "ja": "どうして？",
+     "en": "Why?",
+     "speaker": "Button"
+    },
+    {
+     "start": 120.8,
+     "end": 121.5,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 121.6,
+     "end": 124.7,
+     "ja": "ちょっと待っててね。",
+     "en": "Wait just a bit, okay?",
+     "speaker": "Owner"
+    }
+   ]
+  },
+  {
+   "start": 134.0,
+   "end": 151.8,
+   "title": "Mom Finished Work, Let's Play!",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ぼう — volitional / let's do",
+    "〜がいい — prefer / like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 134.2,
+     "end": 135.5,
+     "ja": "オッケー。",
+     "en": "Okay.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 136.0,
+     "end": 137.0,
+     "ja": "オッケー。",
+     "en": "Okay.",
+     "speaker": "Button"
+    },
+    {
+     "start": 137.1,
+     "end": 138.0,
+     "ja": "ママ。",
+     "en": "Mom.",
+     "speaker": "Button"
+    },
+    {
+     "start": 138.1,
+     "end": 139.3,
+     "ja": "お仕事。",
+     "en": "Work.",
+     "speaker": "Button"
+    },
+    {
+     "start": 139.4,
+     "end": 140.5,
+     "ja": "終わり。",
+     "en": "Finished.",
+     "speaker": "Button"
+    },
+    {
+     "start": 140.7,
+     "end": 142.0,
+     "ja": "遊ぼ？",
+     "en": "Wanna play?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 142.2,
+     "end": 143.5,
+     "ja": "遊ぼ。",
+     "en": "Let's play.",
+     "speaker": "Button"
+    },
+    {
+     "start": 145.7,
+     "end": 147.2,
+     "ja": "うん、遊ぼ。",
+     "en": "Yeah, let's play.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 147.3,
+     "end": 149.2,
+     "ja": "何して遊ぶ、モネちゃん？",
+     "en": "What do you want to play, Monet?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 149.8,
+     "end": 151.3,
+     "ja": "モネ、何がいい？",
+     "en": "Monet, what would you like?",
+     "speaker": "Owner"
+    }
+   ]
+  }
+ ],
+ "videoId": "WzLNtegoIG0",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

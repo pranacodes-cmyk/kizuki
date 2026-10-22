@@ -1,0 +1,122 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 2.8,
+   "end": 11.2,
+   "title": "The Cyborg Look-Alike",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "fun"
+   ],
+   "grammar": [
+    "〜と同じ — the same as",
+    "〜のは〜だ — what ... is ... (cleft sentence)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.0,
+     "end": 8.7,
+     "ja": "目の前に突然現れたのは、僕が一目惚れした女性と同じ姿の、",
+     "en": "Suddenly appearing before my eyes was someone who looked just like the woman I fell for at first sight:",
+     "speaker": "Jiro"
+    },
+    {
+     "start": 9.5,
+     "end": 10.8,
+     "ja": "サイボーグ。",
+     "en": "A cyborg.",
+     "speaker": "Jiro"
+    }
+   ]
+  },
+  {
+   "start": 54.8,
+   "end": 104.0,
+   "title": "Starting to Fall in Love",
+   "level": "N3",
+   "topics": [
+    "romance"
+   ],
+   "grammar": [
+    "〜と思う — to think that",
+    "〜始める — to begin doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 55.2,
+     "end": 59.5,
+     "ja": "心が通い合っていると思うのは、僕の錯覚なんだろうか。",
+     "en": "Was thinking that our hearts were connected just my imagination?",
+     "speaker": "Jiro"
+    },
+    {
+     "start": 59.9,
+     "end": 103.6,
+     "ja": "僕は間違いなく、彼女のことを好きになり始めていた。",
+     "en": "Without a doubt, I was beginning to fall in love with her.",
+     "speaker": "Jiro"
+    }
+   ]
+  },
+  {
+   "start": 125.8,
+   "end": 137.0,
+   "title": "Love or Programming?",
+   "level": "N3",
+   "topics": [
+    "romance"
+   ],
+   "grammar": [
+    "〜なのか — whether it is ...",
+    "その〜 — that ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 126.1,
+     "end": 127.4,
+     "ja": "その涙は、",
+     "en": "Are those tears,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 127.9,
+     "end": 129.4,
+     "ja": "その微笑みは、",
+     "en": "is that smile,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 129.9,
+     "end": 131.4,
+     "ja": "その勇気は、",
+     "en": "is that courage,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 132.3,
+     "end": 133.8,
+     "ja": "愛なのか、",
+     "en": "love,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 134.8,
+     "end": 136.6,
+     "ja": "プログラムなのか。",
+     "en": "or programming?",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "XC8DYvBjnTc",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

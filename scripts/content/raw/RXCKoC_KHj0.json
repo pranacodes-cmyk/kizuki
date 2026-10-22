@@ -1,0 +1,90 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 36.8,
+   "end": 68.3,
+   "title": "Choosing a Present for Min",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜なら — if it's the case that",
+    "〜てた — was doing (casual 〜ていた)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.1,
+     "end": 40.0,
+     "ja": "この花束はどうかな？",
+     "en": "How about this bouquet?",
+     "speaker": "Man"
+    },
+    {
+     "start": 40.4,
+     "end": 42.6,
+     "ja": "うん、いいと思う。",
+     "en": "Yeah, I think that's nice.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 43.1,
+     "end": 47.1,
+     "ja": "でも、何か形に残るものもあげたいよね。",
+     "en": "But I'd also like to give something that lasts as a keepsake.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 47.6,
+     "end": 50.8,
+     "ja": "それなら、このバッグはどう？",
+     "en": "In that case, how about this bag?",
+     "speaker": "Man"
+    },
+    {
+     "start": 51.1,
+     "end": 53.3,
+     "ja": "私はいいと思うけど、",
+     "en": "I think it's good, but",
+     "speaker": "Woman"
+    },
+    {
+     "start": 53.3,
+     "end": 56.6,
+     "ja": "人によって好みが分かれるかもね。",
+     "en": "tastes might differ from person to person.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 57.1,
+     "end": 60.0,
+     "ja": "そう言えば、この前ミンさんが",
+     "en": "Come to think of it, the other day Min said",
+     "speaker": "Woman"
+    },
+    {
+     "start": 60.1,
+     "end": 64.0,
+     "ja": "「日本料理の本が欲しい」って言ってたな。",
+     "en": "that she wanted a Japanese cookbook.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 64.3,
+     "end": 67.8,
+     "ja": "じゃあ、花束とそれにしよう。",
+     "en": "Well then, let's go with the bouquet and that.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "RXCKoC_KHj0",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

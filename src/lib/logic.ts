@@ -254,6 +254,96 @@ export function wordStatus({ status, card }: { status: string; card: Card }): Wo
   return "learning";
 }
 
+// ---------------------------------------------------------------------------
+// Word levels (Kiku-style familiarity badge): 1 New → 2 Recognized → 3 Familiar →
+// 4 Almost known → 5 Known; 0 = ignored. They rise by themselves as reviews space out,
+// and the learner can pick one, which reschedules the card to match.
+// ---------------------------------------------------------------------------
+
+/** A review interval of this many days or more counts as "Almost known" (level 4). */
+export const almostKnownDays = 7;
+
+export type WordLevel = 0 | 1 | 2 | 3 | 4 | 5;
+export type WordLevelInfo = { level: WordLevel; label: string; hint: string };
+
+/** Menu order: learning levels, Known, then Ignored (mirrors wordLevels in logic.dart). */
+export const WORD_LEVELS: WordLevelInfo[] = [
+  { level: 1, label: "New", hint: "Just saved. Reviews start now" },
+  { level: 2, label: "Recognized", hint: "Starting to stick" },
+  { level: 3, label: "Familiar", hint: "You remember it for days" },
+  { level: 4, label: "Almost known", hint: "You remember it for a week or more" },
+  { level: 5, label: "Known", hint: "No more reviews, no underline" },
+  { level: 0, label: "Ignored", hint: "Never underlined or reviewed" },
+];
+
+export const wordLevelInfo = (level: number): WordLevelInfo => WORD_LEVELS.find((l) => l.level === level) ?? WORD_LEVELS[0]!;
+
+/** The level a saved word is at now. */
+export function wordLevel({ status, card }: { status: string; card: Card }): WordLevel {
+  if (status === "ignored" || status === "removed") return 0;
+  if (wordStatus({ status, card }) === "known") return 5;
+  if (card.state === "new") return 1;
+  if (card.state !== "review") return 2;
+  return card.interval >= almostKnownDays ? 4 : 3;
+}
+
+/** Reschedule a card for a learning level the learner picked: 1 = review now,
+ * 2 = in 10 minutes, 3 = in 3 days, 4 = in 10 days. Ease, reps and lapses are kept. */
+export function cardAtLevel(c: Card, level: number, now: number): Card {
+  switch (level) {
+    case 1: return { ...c, state: "new", step: 0, interval: 0, due: now };
+    case 2: return { ...c, state: "learning", step: 1, interval: 0, due: now + 10 * minuteMs };
+    case 3: return { ...c, state: "review", step: 0, interval: 3, due: now + 3 * dayMs };
+    default: return { ...c, state: "review", step: 0, interval: 10, due: now + 10 * dayMs };
+  }
+}
+
+/** Parts of speech worth teaching first: the welcome tour asks you to tap one of these. */
+export const TOUR_WORD_POS = ["noun", "verb", "adj", "i-adj", "na-adj", "adverb"];
+
+/**
+ * The word the welcome tour asks you to tap, from line `from` on: the first new content word
+ * with a dictionary entry (never a filler like ん or a particle), else the first new word,
+ * else any word. Looks at one line at a time so the target stays near what's playing.
+ */
+export function pickTourWord(lines: { words: { p: string; d: string | null }[] }[], from: number, isNew: (line: number, idx: number) => boolean): { line: number; idx: number } | null {
+  for (let li = Math.max(0, from); li < lines.length; li++) {
+    let firstNew: { line: number; idx: number } | null = null;
+    let any: { line: number; idx: number } | null = null;
+    const words = lines[li]!.words;
+    for (let wi = 0; wi < words.length; wi++) {
+      const w = words[wi]!;
+      if (w.p === "punct") continue;
+      any ??= { line: li, idx: wi };
+      if (!isNew(li, wi)) continue;
+      if (w.d && TOUR_WORD_POS.includes(w.p)) return { line: li, idx: wi };
+      firstNew ??= { line: li, idx: wi };
+    }
+    if (firstNew) return firstNew;
+    if (any) return any;
+  }
+  return null;
+}
+
+/** True when an in-clip meaning only repeats the dictionary's first sense ("every day" vs
+ * "every day; daily"), so a card shows the meaning once. Empty meanings count as repeats. */
+export function repeatsSense(gloss: string, sense: string | null | undefined) {
+  const norm = (x: string) => x.toLowerCase().replace(/\([^)]*\)/g, " ").replace(/[^a-z0-9' ]+/g, " ").replace(/\s+/g, " ").trim();
+  const g = norm(gloss);
+  if (!g) return true;
+  if (!sense) return false;
+  return norm(sense) === g || sense.split(/[;,]/).some((p) => norm(p) === g);
+}
+
+/** Status + card after the learner picks a level. Picking the level a learning word is
+ * already at keeps its schedule. */
+export function withWordLevel(w: { status: string; card: Card }, level: number, now: number): { status: "learning" | "known" | "ignored"; card: Card } {
+  if (level <= 0) return { status: "ignored", card: w.card };
+  if (level >= 5) return { status: "known", card: w.card };
+  if (w.status === "learning" && wordLevel(w) === level) return { status: "learning", card: w.card };
+  return { status: "learning", card: cardAtLevel(w.card, level, now) };
+}
+
 /** In-session queue: a card leaves only once it graduates or passes review. */
 export class ReviewSession {
   queue: string[];
@@ -558,6 +648,8 @@ export function mergeState(local: Json, remote: Json): Json {
   return {
     ...newer,
     onboarded: !!(local.onboarded || remote.onboarded),
+    // Premium never syncs: each device keeps its own, verified by its store.
+    premium: local.premium,
     words: mergeByUpdatedAt(local.words ?? {}, remote.words ?? {}),
     kana,
     seen,

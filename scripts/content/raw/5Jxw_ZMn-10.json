@@ -1,0 +1,161 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 12.0,
+   "title": "What Everyone Says About Love",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "anime"
+   ],
+   "grammar": [
+    "〜になる — to become",
+    "〜と誰もが言う — everyone says that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.0,
+     "end": 6.8,
+     "ja": "人を好きになり、告白し、結ばれる。",
+     "en": "To fall in love, confess, and be united.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 7.0,
+     "end": 11.8,
+     "ja": "それはとても素晴らしいことだと誰もが言う。",
+     "en": "Everyone says that is a truly wonderful thing.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 13.5,
+   "end": 33.6,
+   "title": "Love Is War",
+   "level": "N2",
+   "topics": [
+    "anime",
+    "romance"
+   ],
+   "grammar": [
+    "〜側 — the side of / party",
+    "〜てはならない — must not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.5,
+     "end": 15.6,
+     "ja": "だが、それは間違いである。",
+     "en": "However, that is a mistake.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 15.8,
+     "end": 19.3,
+     "ja": "恋人たちの間にも明確な力関係が存在する。",
+     "en": "Even between lovers, a clear power dynamic exists.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 19.4,
+     "end": 21.6,
+     "ja": "搾取する側とされる側、",
+     "en": "The exploiter and the exploited,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 21.8,
+     "end": 23.8,
+     "ja": "尽くされる側と尽くす側、",
+     "en": "the pampered and the devoted,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 23.9,
+     "end": 25.8,
+     "ja": "勝者と敗者。",
+     "en": "the winner and the loser.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 26.3,
+     "end": 30.7,
+     "ja": "もし貴殿が気高く生きようというのなら、決して敗者になってはならない！",
+     "en": "If you intend to live with dignity, you must never become the loser!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 30.8,
+     "end": 33.6,
+     "ja": "恋愛は、戦！",
+     "en": "Love is war!",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 37.0,
+   "end": 57.0,
+   "title": "Student Council Introductions",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "school",
+    "comedy"
+   ],
+   "grammar": [
+    "〜と思う — to think that",
+    "〜ように — like / as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.2,
+     "end": 41.5,
+     "ja": "あら会長、今私の事を誘いましたか？",
+     "en": "Oh, President, did you just ask me out?",
+     "speaker": "Kaguya"
+    },
+    {
+     "start": 42.1,
+     "end": 46.6,
+     "ja": "くだらん色恋話に花を咲かせおって、愚かな連中だ。",
+     "en": "Gabbing about trivial romances... What foolish people.",
+     "speaker": "Shirogane"
+    },
+    {
+     "start": 47.1,
+     "end": 49.8,
+     "ja": "お二人はご興味おありですか？",
+     "en": "Are you two interested?",
+     "speaker": "Chika"
+    },
+    {
+     "start": 50.2,
+     "end": 53.3,
+     "ja": "僕、四宮先輩に殺されると思うんです。",
+     "en": "I think Shinomiya-senpai is going to kill me.",
+     "speaker": "Ishigami"
+    },
+    {
+     "start": 53.8,
+     "end": 56.6,
+     "ja": "今のように告白されるのを待ちますか？",
+     "en": "Will you just wait to be confessed to like this?",
+     "speaker": "Hayasaka"
+    }
+   ]
+  }
+ ],
+ "videoId": "5Jxw_ZMn-10",
+ "pickTopics": [
+  "anime",
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

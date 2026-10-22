@@ -1,0 +1,131 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 15.6,
+   "end": 25.0,
+   "title": "Introducing Myself and My Music",
+   "level": "N4",
+   "topics": [
+    "music",
+    "work"
+   ],
+   "grammar": [
+    "〜ている — ongoing action",
+    "自分で — by oneself"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 15.8,
+     "end": 18.2,
+     "ja": "SAYUKIです。えっと、アーティストです。",
+     "en": "My name is SAYUKI. I'm a musical artist.",
+     "speaker": "SAYUKI"
+    },
+    {
+     "start": 18.5,
+     "end": 21.8,
+     "ja": "自分で、えっと、作詞作曲プロデュースして、",
+     "en": "I write my own lyrics, compose, produce,",
+     "speaker": "SAYUKI"
+    },
+    {
+     "start": 21.9,
+     "end": 24.7,
+     "ja": "曲を自分のレーベルからリリースしています。",
+     "en": "and release songs under my own label.",
+     "speaker": "SAYUKI"
+    }
+   ]
+  },
+  {
+   "start": 25.7,
+   "end": 40.2,
+   "title": "Deciding to Create My Own Label",
+   "level": "N3",
+   "topics": [
+    "music",
+    "work"
+   ],
+   "grammar": [
+    "〜たいと思う — thinking of wanting to do",
+    "〜ようになる — reach the point where / come to",
+    "〜ことにする — decide to do"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 26.0,
+     "end": 28.5,
+     "ja": "以前、メジャーレーベルにいたんですけど、",
+     "en": "I used to belong to a major label,",
+     "speaker": "SAYUKI"
+    },
+    {
+     "start": 28.6,
+     "end": 31.0,
+     "ja": "そこでリリースしていた時に、",
+     "en": "and while releasing music there,",
+     "speaker": "SAYUKI"
+    },
+    {
+     "start": 31.1,
+     "end": 36.0,
+     "ja": "もっと自由に自分の好きな曲をリリースしたいなと思うようになって、",
+     "en": "I started feeling I wanted more freedom to release the songs I wanted to make.",
+     "speaker": "SAYUKI"
+    },
+    {
+     "start": 36.3,
+     "end": 39.8,
+     "ja": "で、それで自分のレーベルを立ち上げることにしました。",
+     "en": "So I decided to start my own record label.",
+     "speaker": "SAYUKI"
+    }
+   ]
+  },
+  {
+   "start": 40.8,
+   "end": 52.6,
+   "title": "Why I Love Making Music",
+   "level": "N3",
+   "topics": [
+    "music"
+   ],
+   "grammar": [
+    "〜てもらいたい — want someone to do",
+    "〜ばいい — it would be good if / hope that"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 41.1,
+     "end": 43.6,
+     "ja": "本当に音楽が単純に好きで、",
+     "en": "I simply love music,",
+     "speaker": "SAYUKI"
+    },
+    {
+     "start": 43.7,
+     "end": 47.9,
+     "ja": "色んな音楽をみんなに知ってもらいたいなと思って作っているので、",
+     "en": "and make it hoping to introduce people to various kinds of music,",
+     "speaker": "SAYUKI"
+    },
+    {
+     "start": 48.0,
+     "end": 52.3,
+     "ja": "本当に単純に楽しんでくれる人がいっぱい居ればいいなと思ってやっています。",
+     "en": "so I do this just hoping many people will genuinely enjoy it.",
+     "speaker": "SAYUKI"
+    }
+   ]
+  }
+ ],
+ "videoId": "Njvf6YAcr9I",
+ "pickTopics": [
+  "music"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -180,7 +180,9 @@ void main() {
     // Auto-save is on by default, so the tap usually saved the word already; otherwise save it.
     if (find.text('Save word').evaluate().isNotEmpty) await tapText('Save word', after: 1200);
     expect(state().words, isNotEmpty);
-    expect(find.textContaining('Learning · review'), findsWidgets);
+    // The saved word shows its level button (Kiku-style badge), starting at 1 · New.
+    expect(find.byKey(const ValueKey('level-pill')), findsOneWidget);
+    expect(find.text('New'), findsWidgets);
     await shot('14_word_saved');
 
     // Ask Kizuki from the word card (signed out → it offers a free account first).
@@ -199,10 +201,14 @@ void main() {
     await shot('15_vocab');
     await tapText('to review', contains: true, after: 1800);
     await shot('16_review');
-    final reveal = find.textContaining('Show');
+    // The whole card is the reveal target (no separate "Show answer" button).
+    final reveal = find.textContaining('Tap to reveal');
     if (reveal.evaluate().isNotEmpty) {
       await tester.tap(reveal.first, warnIfMissed: false);
       await wait(1200);
+      await waitFor(find.text('DEFINITION'), what: 'flashcard answer');
+      expect(find.text('Again'), findsOneWidget);
+      expect(find.text('Good'), findsOneWidget);
       await shot('17_review_answer');
     }
 

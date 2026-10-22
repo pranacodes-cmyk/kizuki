@@ -1,0 +1,191 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 183.0,
+   "end": 206.5,
+   "title": "Seeing Yoshimoto Shinkigeki Live",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy",
+    "culture"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜し — listing reasons",
+    "〜てうれしい — happy that"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 183.3,
+     "end": 185.1,
+     "ja": "今、見終わりました。",
+     "en": "I just finished watching it.",
+     "speaker": "A"
+    },
+    {
+     "start": 185.1,
+     "end": 187.5,
+     "ja": "めちゃくちゃ面白かったー。",
+     "en": "It was so funny!",
+     "speaker": "A"
+    },
+    {
+     "start": 187.5,
+     "end": 190.5,
+     "ja": "初めて見たけど、すごい！",
+     "en": "It was my first time watching, and it was amazing!",
+     "speaker": "A"
+    },
+    {
+     "start": 190.8,
+     "end": 196.8,
+     "ja": "やっぱりこう、プロの技？芸？すごい面白かったです。",
+     "en": "Professional skill and artistry are truly so entertaining.",
+     "speaker": "A"
+    },
+    {
+     "start": 196.8,
+     "end": 199.4,
+     "ja": "新喜劇もすごい面白かったし、",
+     "en": "The Shinkigeki comedy was really fun too,",
+     "speaker": "A"
+    },
+    {
+     "start": 199.4,
+     "end": 201.8,
+     "ja": "もう初めて生で見れて、",
+     "en": "and getting to see it live for the first time,",
+     "speaker": "A"
+    },
+    {
+     "start": 201.8,
+     "end": 204.7,
+     "ja": "めちゃくちゃうれしかったです。",
+     "en": "I was so happy.",
+     "speaker": "A"
+    },
+    {
+     "start": 204.7,
+     "end": 206.2,
+     "ja": "夢が叶いました。",
+     "en": "A dream came true.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 316.8,
+   "end": 332.5,
+   "title": "Great Hotel Value in Shinsaibashi",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜かもしれない — might be",
+    "〜し — listing reasons",
+    "〜にする — to decide on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 316.8,
+     "end": 320.6,
+     "ja": "すごいの、このホテル、コスパがいいかもしれない、結構。",
+     "en": "It's amazing. This hotel might be a really great value.",
+     "speaker": "A"
+    },
+    {
+     "start": 320.6,
+     "end": 322.7,
+     "ja": "立地もいいし、",
+     "en": "The location is good,",
+     "speaker": "A"
+    },
+    {
+     "start": 322.7,
+     "end": 325.8,
+     "ja": "で、お値段はそんなに高くないですよ。",
+     "en": "and the price isn't that high.",
+     "speaker": "A"
+    },
+    {
+     "start": 325.8,
+     "end": 329.0,
+     "ja": "ちょっとランクが上の部屋にしたけど、",
+     "en": "I chose a slightly higher-grade room,",
+     "speaker": "A"
+    },
+    {
+     "start": 329.0,
+     "end": 330.8,
+     "ja": "お値段も高くない。",
+     "en": "but the price still isn't high.",
+     "speaker": "A"
+    },
+    {
+     "start": 330.8,
+     "end": 332.3,
+     "ja": "コスパがいいかも。",
+     "en": "It might be great value for money.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 400.5,
+   "end": 422.2,
+   "title": "Outfit for the Shinkansen Trip",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜ために — in order to",
+    "〜とおもう — to think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 400.8,
+     "end": 405.3,
+     "ja": "はい、では、えっと、旅ファッションのご紹介をしたいと思います。",
+     "en": "All right, now I'd like to introduce my travel outfit.",
+     "speaker": "A"
+    },
+    {
+     "start": 405.6,
+     "end": 412.7,
+     "ja": "えっーと、今回はね、新幹線の中が寒いので、カーディガンを持ってきました。",
+     "en": "This time, it gets cold on the Shinkansen, so I brought a cardigan.",
+     "speaker": "A"
+    },
+    {
+     "start": 413.0,
+     "end": 416.5,
+     "ja": "でも外は暑いからね、この気温差、温度差を、",
+     "en": "But it's hot outside, so to handle this temperature difference,",
+     "speaker": "A"
+    },
+    {
+     "start": 416.5,
+     "end": 421.8,
+     "ja": "調整するためにストールとかカーディガンとか必須ですよね。",
+     "en": "things like stoles and cardigans are essential, right?",
+     "speaker": "A"
+    }
+   ]
+  }
+ ],
+ "videoId": "l2in0QcKILA",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

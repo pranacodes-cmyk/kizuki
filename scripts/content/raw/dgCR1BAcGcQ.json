@@ -1,0 +1,166 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 21.2,
+   "title": "Introducing the Widow's Walk Expansion",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜ております — humble/polite ongoing state",
+    "〜ておりまして — polite connective form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 3.3,
+     "ja": "はい、こんにちは。The Game GalleryのHaru99です。",
+     "en": "Hello. I'm Haru99 from The Game Gallery.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 3.3,
+     "end": 6.0,
+     "ja": "今日ね、ご紹介したいアイテムはこちら。",
+     "en": "The item I'd like to introduce today is this one.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 6.0,
+     "end": 9.1,
+     "ja": "以前にですね、すでにご紹介しております、",
+     "en": "I've already introduced it previously:",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 9.1,
+     "end": 11.8,
+     "ja": "『裏切り者の住む丘の上の館』ですね。",
+     "en": "The House on the Hill Where Traitors Dwell.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 11.8,
+     "end": 14.3,
+     "ja": "『Betrayal at House on the Hill』ですけども、",
+     "en": "That is, Betrayal at House on the Hill.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 14.3,
+     "end": 17.3,
+     "ja": "こちらのですね、拡張セットが出ておりまして、",
+     "en": "An expansion set has been released for it,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 17.3,
+     "end": 21.2,
+     "ja": "それがこちらですね、『Betrayal at House on the Hill』の『Widow's Walk』ですね。",
+     "en": "and that's this one: Betrayal at House on the Hill: Widow's Walk.",
+     "speaker": "Haru99"
+    }
+   ]
+  },
+  {
+   "start": 44.0,
+   "end": 59.5,
+   "title": "What's in the Expansion?",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜単体では — on its own",
+    "〜っていうと — as for speaking of..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.0,
+     "end": 48.8,
+     "ja": "はい、こちらですね。『Betrayal at House on the Hill』のですね、拡張セット『Widow's Walk』ですね。",
+     "en": "All right, here it is: the Betrayal at House on the Hill expansion, Widow's Walk.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 48.8,
+     "end": 54.6,
+     "ja": "ま、こちらもですね、完全に拡張セットになっていまして、これ単体ではプレイすることができません。",
+     "en": "Well, this is purely an expansion set, so you cannot play it on its own.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 54.6,
+     "end": 59.5,
+     "ja": "で、何が入ってるかっていうと、基本は単純にシナリオの増加なんですね。",
+     "en": "And as for what's inside, basically it simply adds more scenarios.",
+     "speaker": "Haru99"
+    }
+   ]
+  },
+  {
+   "start": 1214.0,
+   "end": 1232.0,
+   "title": "Wrapping Up the Overview",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜わけです — explanation/conclusion",
+    "〜させていただく — humble polite action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1214.0,
+     "end": 1215.5,
+     "ja": "はい、というわけでですね、",
+     "en": "So, that's the summary.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 1215.5,
+     "end": 1218.0,
+     "ja": "『裏切り者の住む丘の上の館』の拡張セット、",
+     "en": "For the Betrayal at House on the Hill expansion,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 1218.0,
+     "end": 1222.4,
+     "ja": "『Betrayal at House on the Hill』の『Widow's Walk』のご紹介をさせていただきました。",
+     "en": "I've introduced Betrayal at House on the Hill: Widow's Walk.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 1222.4,
+     "end": 1226.5,
+     "ja": "まあこれね、もう本当にこの中シナリオ集だけなので、あんまりそのものの中身を喋ることできませんし、",
+     "en": "Now, since this is really just a collection of scenarios, I can't talk too much about the specific contents,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 1226.5,
+     "end": 1232.0,
+     "ja": "私もまだ翻訳中なので、詳しいことはお伝えできませんが、",
+     "en": "and since I'm still translating it, I can't give you all the details, but...",
+     "speaker": "Haru99"
+    }
+   ]
+  }
+ ],
+ "videoId": "dgCR1BAcGcQ",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

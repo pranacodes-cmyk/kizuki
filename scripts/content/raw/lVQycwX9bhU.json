@@ -1,0 +1,146 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.3,
+   "end": 40.5,
+   "title": "Looking for Sunscreen at a Drugstore",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜にありますか — is it located at ~?",
+    "どれが一番〜ですか — which is the most ~?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.6,
+     "end": 26.2,
+     "ja": "日焼け止めですね。",
+     "en": "Sunscreen, right.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 26.8,
+     "end": 29.8,
+     "ja": "あちらです。ご案内します。",
+     "en": "It is over there. I will show you the way.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 31.3,
+     "end": 35.8,
+     "ja": "ありがとうございます。たくさんありますね。",
+     "en": "Thank you. There are so many.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 37.0,
+     "end": 40.0,
+     "ja": "どれが一番人気ですか？",
+     "en": "Which one is the most popular?",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 242.8,
+   "end": 260.0,
+   "title": "Lost at Tokyo Station",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜に行きたいです — want to go to ~",
+    "〜たいです — want to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 243.3,
+     "end": 248.5,
+     "ja": "大丈夫ですか？どこに行きたいですか？",
+     "en": "Are you okay? Where do you want to go?",
+     "speaker": "Station Staff"
+    },
+    {
+     "start": 250.2,
+     "end": 254.5,
+     "ja": "新大阪行きの新幹線に乗りたいです。",
+     "en": "I want to take the Shinkansen bound for Shin-Osaka.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 255.8,
+     "end": 259.0,
+     "ja": "でも、乗り場がわかりません。",
+     "en": "But I don't know where the gates are.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 523.0,
+   "end": 548.8,
+   "title": "Eating Dango at the Bench",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜てもいいですか — may I ~?",
+    "〜ことができます — be able to do ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 523.2,
+     "end": 526.4,
+     "ja": "あの、ここで食べてもいいですか？",
+     "en": "Um, can I eat here?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 528.0,
+     "end": 530.8,
+     "ja": "はい、大丈夫ですよ。",
+     "en": "Yes, it's fine.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 531.8,
+     "end": 535.8,
+     "ja": "あちらに赤いベンチがあります。",
+     "en": "There is a red bench over there.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 537.0,
+     "end": 541.0,
+     "ja": "あそこで座って食べることができますよ。",
+     "en": "You can sit and eat there.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 542.4,
+     "end": 547.8,
+     "ja": "わかりました。じゃあ、ベンチに座って食べます。",
+     "en": "Understood. Then, I will sit and eat at the bench.",
+     "speaker": "Customer"
+    }
+   ]
+  }
+ ],
+ "videoId": "lVQycwX9bhU",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

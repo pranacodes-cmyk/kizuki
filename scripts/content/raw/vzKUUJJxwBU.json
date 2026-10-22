@@ -1,0 +1,146 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.5,
+   "end": 19.5,
+   "title": "Floating Kitchen Tray from Daiso",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜ようにできる — enable to / make it so that",
+    "〜などに — such as / etc."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.7,
+     "end": 8.5,
+     "ja": "ダイソーのキッチントレーです。",
+     "en": "This is Daiso's kitchen tray.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 8.5,
+     "end": 13.8,
+     "ja": "キッチンの壁などに調味料などを置くスペースを作れるアイテム。",
+     "en": "It's an item that creates a space on kitchen walls to place seasonings and more.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 13.8,
+     "end": 19.3,
+     "ja": "よく使う調味料などをまとめて、調理中もサッと取り出せるようにできます。",
+     "en": "It keeps frequently used seasonings together, allowing you to grab them quickly while cooking.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 149.0,
+   "end": 210.5,
+   "title": "Versatile Shape-Memory Cord Band",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜たり〜たりする — doing things like A and B",
+    "〜ほか — besides / in addition to",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 149.2,
+     "end": 154.0,
+     "ja": "ダイソーのくっつけられる形状記憶コードバンドです。",
+     "en": "This is Daiso's attachable shape-memory cord band.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 154.2,
+     "end": 157.3,
+     "ja": "吸盤付きで、バンドの中には芯が入っていて、",
+     "en": "With a suction cup, it has a core inside the band,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 157.3,
+     "end": 162.0,
+     "ja": "曲げたりねじったりした形をそのままキープできます。",
+     "en": "and can keep whatever shape you bend or twist it into.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 162.0,
+     "end": 167.0,
+     "ja": "充電ケーブルやイヤホンのコードをまとめるのに使えるほか、",
+     "en": "Besides being used to bundle charging cables and earphone cords,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 167.0,
+     "end": 170.2,
+     "ja": "いろんな用途で使えるのでやってみました。",
+     "en": "it can be used for various purposes, so I tried it out.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 441.5,
+   "end": 507.5,
+   "title": "Non-Slip Silicone Stickers for Hangers",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜だけで — just by doing",
+    "〜にくい — hard to do",
+    "〜必要がない — no need to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 441.8,
+     "end": 446.8,
+     "ja": "こちらもダイソーから出た新商品、ハンガー用のすべり止めシールです。",
+     "en": "This is also a new product from Daiso: non-slip stickers for hangers.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 446.8,
+     "end": 453.0,
+     "ja": "ハンガーにかけていた服が、いつの間にか滑り落ちてくる、ということがあると思います。",
+     "en": "You've probably experienced clothes hung on hangers slipping off before you know it.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 453.0,
+     "end": 500.0,
+     "ja": "こちらはそんな滑りやすいハンガーに貼るだけで、衣類を滑り落ちにくくできるシール。",
+     "en": "Just by sticking this onto slippery hangers, it keeps clothes from slipping off.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 500.0,
+     "end": 507.2,
+     "ja": "ハンガー自体を買い替える必要がないので、今使っているハンガーにつけられるのがいいところ。",
+     "en": "Since there's no need to replace the hangers themselves, the great part is being able to attach it to ones you already use.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "vzKUUJJxwBU",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

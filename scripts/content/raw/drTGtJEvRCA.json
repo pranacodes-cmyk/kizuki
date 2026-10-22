@@ -1,0 +1,222 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 48.8,
+   "end": 74.2,
+   "title": "How Are You Feeling?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ですか — question marker",
+    "〜ですよ — emphatic assertion"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 49.2,
+     "end": 51.8,
+     "ja": "皆さん、元気ですか？",
+     "en": "Everyone, how are you doing?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 52.0,
+     "end": 54.0,
+     "ja": "僕は元気ですよ。",
+     "en": "I'm doing well!",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 54.1,
+     "end": 55.7,
+     "ja": "元気ですか？",
+     "en": "Are you doing well?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 56.0,
+     "end": 57.6,
+     "ja": "元気ですよ。",
+     "en": "I'm doing well!",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 57.8,
+     "end": 59.8,
+     "ja": "僕は元気です。",
+     "en": "I am fine.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 60.0,
+     "end": 62.5,
+     "ja": "僕は元気いっぱい、ね？",
+     "en": "I'm full of energy, right?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 62.6,
+     "end": 66.0,
+     "ja": "元気いっぱい、元気がたくさん、ね、元気がある。",
+     "en": "Full of energy, lots of energy, having energy.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 66.3,
+     "end": 69.3,
+     "ja": "いいですね。元気は大事ですよ。",
+     "en": "That's good. Being energetic is important.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 69.5,
+     "end": 71.4,
+     "ja": "皆さん、元気ですか？",
+     "en": "Everyone, how are you?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 71.6,
+     "end": 73.6,
+     "ja": "ね、僕は元気ですよ。",
+     "en": "Yeah, I'm doing well!",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 116.0,
+   "end": 134.8,
+   "title": "What Is Your Name?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜は何ですか — what is...?",
+    "〜の〜 — possessive particle"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 116.3,
+     "end": 118.5,
+     "ja": "皆さんの名前は何ですか？",
+     "en": "What is everyone's name?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 118.7,
+     "end": 120.9,
+     "ja": "名前。名前は何ですか？",
+     "en": "Name. What is your name?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 121.1,
+     "end": 124.0,
+     "ja": "僕の名前はてっぺいです。ね？",
+     "en": "My name is Teppei. Right?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 124.1,
+     "end": 126.5,
+     "ja": "僕の名前はてっぺいです。",
+     "en": "My name is Teppei.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 126.8,
+     "end": 129.4,
+     "ja": "皆さんの名前は何ですか？",
+     "en": "What is everyone's name?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 129.8,
+     "end": 134.2,
+     "ja": "あなたの名前は、ね、あなたの名前は何ですか？",
+     "en": "Your name... yeah, what is your name?",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 208.5,
+   "end": 236.2,
+   "title": "What Is Your Nationality?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜に住む — to live in...",
+    "それとも〜 — or / or else"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 208.8,
+     "end": 215.0,
+     "ja": "僕は日本人です。ね？日本に住む日本人です。ね？僕は日本人です。",
+     "en": "I'm Japanese. Right? A Japanese person living in Japan. I'm Japanese.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 215.2,
+     "end": 217.3,
+     "ja": "皆さんは何人ですか？",
+     "en": "What nationality are you all?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 217.5,
+     "end": 220.2,
+     "ja": "アメリカ人ですか？アメリカ人？",
+     "en": "Are you American? American?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 220.4,
+     "end": 224.0,
+     "ja": "それともイギリス人ですか？イギリス人？",
+     "en": "Or are you British? British?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 224.2,
+     "end": 227.5,
+     "ja": "ね、ロンドンとか。イギリス人、ね？",
+     "en": "Like London. British, right?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 227.7,
+     "end": 231.0,
+     "ja": "スコットランドの人もイギリス人ですね。",
+     "en": "People from Scotland are British too.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 231.2,
+     "end": 235.8,
+     "ja": "まあ、スコットランド人でも大丈夫ですけど、イギリス人でも大丈夫。",
+     "en": "Well, Scottish is fine, but British is also fine.",
+     "speaker": "Teppei"
+    }
+   ]
+  }
+ ],
+ "videoId": "drTGtJEvRCA",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

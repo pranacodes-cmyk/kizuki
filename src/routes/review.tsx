@@ -1,6 +1,6 @@
-import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { AnimatePresence, motion, useMotionValue, useTransform } from "motion/react";
-import { Check, Star, Volume2, X } from "lucide-react";
+import { Check, ChevronRight, Pointer, Star, Volume2, X } from "lucide-react";
 import { useMemo, useRef, useState } from "react";
 import { z } from "zod";
 
@@ -8,11 +8,13 @@ import { Confetti } from "@/components/mimi/Confetti";
 import { ContextPlayer } from "@/components/mimi/ContextPlayer";
 import { Mascot } from "@/components/mimi/Mascot";
 import { HighlightedLine } from "@/components/mimi/SavedWordSheet";
+import { POS_NAMES } from "@/components/mimi/WordCard";
 import { Button, Modal, Screen } from "@/components/mimi/ui";
+import type { Content } from "@/lib/content";
 import { useContent } from "@/lib/feed";
-import { customStudyKeys, kanaDeck, kanaQueue, newCard, nextIntervalLabel, ReviewSession, type Card, type Grade } from "@/lib/logic";
+import { customStudyKeys, kanaDeck, kanaQueue, newCard, nextIntervalLabel, repeatsSense, ReviewSession, type Card, type Grade } from "@/lib/logic";
 import { speak } from "@/lib/speech";
-import { dueKeysOf, useApp, wordLites } from "@/lib/store";
+import { dueKeysOf, useApp, wordLites, type SavedWord } from "@/lib/store";
 import { toast } from "@/lib/ui-store";
 import { tourEmit } from "@/lib/tour-store";
 import { cn } from "@/lib/utils";
@@ -126,50 +128,27 @@ function Review() {
         <div className="h-3 flex-1 overflow-hidden rounded-full bg-surface-2"><motion.div className="h-full rounded-full bg-success" animate={{ width: `${Math.max(4, progress * 100)}%` }} /></div>
         <span className="w-10 text-right text-[0.8125rem] font-black text-muted-foreground tabular">{sess.queue.length}</span>
       </div>
-      <div className="relative min-h-0 flex-1 px-4 pb-2">
+      <div className="relative min-h-0 flex-1 px-4 pb-2 pt-1">
         <AnimatePresence mode="popLayout">
+          {/* Kiku-style flashcard: the whole card is the one thing to tap (no separate "Show answer"). */}
           <SwipeCard key={`${id}-${sess.answered}`} revealed={revealed} onReveal={reveal} onSwipe={(g) => answer(g)}>
             {!revealed ? (
-              <div className="flex h-full flex-col items-center justify-center text-center">
-                {/* Tour spotlight sits on the word itself (not the tall card), so the tip never covers it. */}
-                <div data-tour="reviewCard" className="flex flex-col items-center px-4 py-2">
-                  {word && settings.flashFront === "en" ? (
-                    <p className="text-[1.75rem] font-black">{word.gloss}</p>
-                  ) : (
-                    <>
-                      {word && settings.flashFurigana && word.reading !== word.word && <p className="font-jp text-[1.125rem] font-bold text-muted-foreground">{word.reading}</p>}
-                      <p className="font-jp text-[3.5rem] font-black leading-tight">{word?.word ?? kana?.kana}</p>
-                      {word && settings.flashRomaji && <p className="text-[1rem] font-bold text-muted-foreground">{word.romaji}</p>}
-                    </>
-                  )}
-                </div>
-                <p className="mt-6 text-[0.9375rem] font-bold text-faint">{firstTime ? "Try to remember it, then tap to reveal" : "Tap to reveal"}</p>
+              <div className="relative flex h-full flex-col items-center justify-center text-center">
+                {word && settings.flashFront === "en" ? (
+                  <p className="text-[1.75rem] font-black">{word.gloss}</p>
+                ) : (
+                  <>
+                    {word && settings.flashFurigana && word.reading !== word.word && <p className="font-jp text-[1.125rem] font-bold text-muted-foreground">{word.reading}</p>}
+                    <p className="font-jp text-[3.5rem] font-black leading-tight">{word?.word ?? kana?.kana}</p>
+                    {word && settings.flashRomaji && <p className="text-[1rem] font-bold text-muted-foreground">{word.romaji}</p>}
+                  </>
+                )}
+                <p className="absolute inset-x-0 bottom-1 flex items-center justify-center gap-1.5 text-[0.9375rem] font-bold text-faint">
+                  <Pointer className="h-4 w-4 shrink-0" />{firstTime ? "Remember it? Tap to reveal" : "Tap to reveal"}
+                </p>
               </div>
             ) : word ? (
-              <div className="h-full overflow-y-auto pb-2 no-scrollbar">
-                <div className="flex items-start gap-3">
-                  <div className="min-w-0 flex-1">
-                    {word.reading !== word.word && <p className="font-jp text-[1rem] font-bold text-muted-foreground">{word.reading}</p>}
-                    <p className="font-jp text-[2.5rem] font-black leading-tight">{word.word}</p>
-                    <p className="text-[0.9375rem] font-bold text-muted-foreground">{word.romaji}</p>
-                  </div>
-                  <button aria-label="Play pronunciation" onClick={(e) => { e.stopPropagation(); speak(word.reading || word.word); }} className="press mt-2 flex h-11 w-11 items-center justify-center rounded-full bg-surface-2"><Volume2 className="h-5 w-5" /></button>
-                </div>
-                <p className="mt-3 text-[1.25rem] font-extrabold">{word.gloss}</p>
-                {word.dictId && data?.dict[word.dictId] && (
-                  <ol className="mt-1.5 space-y-1">
-                    {data.dict[word.dictId]!.m.slice(0, 3).map((m, i) => <li key={i} className="text-[0.875rem] text-muted-foreground"><b className="text-foreground">{i + 1}.</b> {m.g}</li>)}
-                  </ol>
-                )}
-                {data?.byId[word.clipId] && (
-                  <div className="mt-4" onClick={(e) => e.stopPropagation()}>
-                    <p className="mb-2 text-[0.6875rem] font-black uppercase tracking-[0.12em] text-muted-foreground">Hear it in the original clip</p>
-                    <ContextPlayer clip={data.byId[word.clipId]!} line={word.line} autoplay />
-                    <HighlightedLine clip={data.byId[word.clipId]!} line={word.line} idx={word.idx} className="mt-2 text-[1.0625rem]" />
-                    <p className="text-[0.875rem] text-muted-foreground">{data.byId[word.clipId]!.lines[word.line]?.en}</p>
-                  </div>
-                )}
-              </div>
+              <WordBack word={word} content={data} playerKey={`ctx-${id}-${sess.answered}`} />
             ) : (
               <div className="flex h-full flex-col items-center justify-center text-center">
                 <p className="font-jp text-[4rem] font-black leading-none">{kana?.kana}</p>
@@ -180,27 +159,84 @@ function Review() {
           </SwipeCard>
         </AnimatePresence>
       </div>
-      <div className="shrink-0 px-4 pb-1 pt-1">
-        {revealed && card ? (
-          <>
-            {firstTime && <p className="mb-2 text-center text-[0.8125rem] font-bold text-faint">Got it right? Swipe right. Forgot? Swipe left.</p>}
-            <div data-tour="grade" className="grid grid-cols-2 gap-3">
-              <button onClick={() => answer("again")} className="press flex h-16 flex-col items-center justify-center rounded-2xl bg-danger-soft text-danger">
-                <span className="text-[1.0625rem] font-black">Again</span><span className="text-[0.75rem] font-bold opacity-80">{nextIntervalLabel(card, "again", Date.now())}</span>
-              </button>
-              <button onClick={() => answer("good")} className="press flex h-16 flex-col items-center justify-center rounded-2xl bg-success-soft text-success">
-                <span className="text-[1.0625rem] font-black">Good</span><span className="text-[0.75rem] font-bold opacity-80">{nextIntervalLabel(card, "good", Date.now())}</span>
-              </button>
+      {/* Grade buttons slide in once the answer shows — before that the card is the only target. */}
+      <AnimatePresence initial={false}>
+        {revealed && card && (
+          <motion.div key="grade" initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} transition={{ duration: 0.22, ease: "easeOut" }} className="shrink-0 overflow-hidden">
+            <div className="px-4 pb-2">
+              {firstTime && <p className="mb-2 text-center text-[0.8125rem] font-bold text-faint">Knew it? Swipe right. Forgot? Swipe left.</p>}
+              <div data-tour="grade" className="grid grid-cols-2 gap-3">
+                <button aria-label={`Again, next in ${nextIntervalLabel(card, "again", Date.now())}`} onClick={() => answer("again")} className="press flex h-16 flex-col items-center justify-center rounded-2xl bg-danger-soft text-danger">
+                  <span className="text-[1.0625rem] font-black">Again</span><span className="text-[0.75rem] font-bold opacity-80">{nextIntervalLabel(card, "again", Date.now())}</span>
+                </button>
+                <button aria-label={`Good, next in ${nextIntervalLabel(card, "good", Date.now())}`} onClick={() => answer("good")} className="press flex h-16 flex-col items-center justify-center rounded-2xl bg-success-soft text-success">
+                  <span className="text-[1.0625rem] font-black">Good</span><span className="text-[0.75rem] font-bold opacity-80">{nextIntervalLabel(card, "good", Date.now())}</span>
+                </button>
+              </div>
             </div>
-          </>
-        ) : (
-          <Button onClick={reveal}>Show answer</Button>
+          </motion.div>
         )}
-      </div>
+      </AnimatePresence>
     </Screen>
   );
 }
 
+/** Answer side of a word card: word + reading/romaji/POS, numbered definition (the clip meaning
+ * only when it adds something), then the original clip with the sentence highlighted. */
+function WordBack({ word, content, playerKey }: { word: SavedWord; content: Content | undefined; playerKey: string }) {
+  const clip = content?.byId[word.clipId];
+  const entry = word.dictId ? content?.dict[word.dictId] : undefined;
+  const senses = entry ? entry.m.slice(0, 3) : [];
+  const pos = senses[0]?.pos[0] ?? (word.pos === "other" ? undefined : POS_NAMES[word.pos] ?? word.pos);
+  const showClipMeaning = senses.length === 0 ? !!word.gloss : !repeatsSense(word.gloss, senses[0]!.g);
+  return (
+    <div className="h-full overflow-y-auto no-scrollbar">
+      <div className="flex items-start gap-3">
+        <div className="min-w-0 flex-1">
+          {word.reading !== word.word && <p className="font-jp text-[1rem] font-bold text-muted-foreground">{word.reading}</p>}
+          <p className="font-jp text-[2.5rem] font-black leading-tight">{word.word}</p>
+          <div className="mt-1 flex flex-wrap items-center gap-1.5">
+            <span className="text-[0.9375rem] font-bold text-muted-foreground">{word.romaji}</span>
+            {pos && <span className="rounded-md bg-surface-2 px-2 py-0.5 text-[0.75rem] font-extrabold">{pos}</span>}
+            {word.jlpt ? <span className="rounded-md bg-success-soft px-2 py-0.5 text-[0.75rem] font-extrabold text-success">N{word.jlpt}</span> : null}
+          </div>
+        </div>
+        <button aria-label="Play pronunciation" onClick={(e) => { e.stopPropagation(); speak(word.reading || word.word); }} className="press mt-2 flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-surface-2"><Volume2 className="h-5 w-5" /></button>
+      </div>
+
+      <p className="mt-4 text-[0.6875rem] font-black uppercase tracking-[0.12em] text-muted-foreground">Definition</p>
+      <div className="mt-2">
+        {showClipMeaning && (
+          <p className="mb-2 rounded-xl bg-primary/10 px-3 py-2 text-[1rem] font-extrabold"><span className="text-[0.875rem] text-primary">In this clip: </span>{word.gloss}</p>
+        )}
+        {senses.map((m, i) => (
+          <div key={i} className="mb-2 flex items-start gap-2.5">
+            <span className="flex h-[22px] w-[22px] shrink-0 items-center justify-center rounded-full bg-surface-2 text-[0.75rem] font-black">{i + 1}</span>
+            <p className={cn("leading-snug", i === 0 ? "text-[1.0625rem] font-extrabold" : "text-[0.9375rem] text-muted-foreground")}>{m.g}</p>
+          </div>
+        ))}
+      </div>
+
+      {clip && (
+        <>
+          <p className="mt-3 text-[0.6875rem] font-black uppercase tracking-[0.12em] text-muted-foreground">Context</p>
+          <div className="mt-2 overflow-hidden rounded-[18px] bg-surface-2" onClick={(e) => e.stopPropagation()}>
+            <ContextPlayer key={playerKey} clip={clip} line={word.line} autoplay />
+            <div className="px-3 pb-1 pt-2.5">
+              <HighlightedLine clip={clip} line={word.line} idx={word.idx} className="text-[1.0625rem]" />
+              <p className="mt-0.5 text-[0.875rem] text-muted-foreground">{clip.lines[word.line]?.en}</p>
+            </div>
+            <Link to="/clip/$clipId" params={{ clipId: clip.id }} className="press flex items-center px-3 pb-2.5 pt-1.5 text-[0.875rem] font-extrabold text-muted-foreground">
+              <span className="flex-1">Open the clip</span><ChevronRight className="h-[18px] w-[18px]" />
+            </Link>
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
+/** The flashcard: tap anywhere to flip it; once revealed, swipe right = Good, left = Again. */
 function SwipeCard({ children, revealed, onReveal, onSwipe }: { children: React.ReactNode; revealed: boolean; onReveal: () => void; onSwipe: (g: Grade) => void }) {
   const x = useMotionValue(0);
   const rotate = useTransform(x, [-200, 200], [-10, 10]);
@@ -208,7 +244,10 @@ function SwipeCard({ children, revealed, onReveal, onSwipe }: { children: React.
   const again = useTransform(x, [-120, -20], [1, 0]);
   return (
     <motion.div
-      className="absolute inset-x-4 inset-y-0 cursor-pointer rounded-[28px] bg-surface p-5 shadow-[0_20px_50px_-20px_oklch(0_0_0/0.6)]"
+      data-tour={revealed ? undefined : "reviewCard"}
+      role={revealed ? undefined : "button"}
+      aria-label={revealed ? undefined : "Reveal the answer"}
+      className={cn("absolute inset-x-4 inset-y-0 [perspective:1200px]", !revealed && "cursor-pointer")}
       style={{ x, rotate }}
       initial={{ opacity: 0, scale: 0.94, y: 16 }}
       animate={{ opacity: 1, scale: 1, y: 0 }}
@@ -222,9 +261,20 @@ function SwipeCard({ children, revealed, onReveal, onSwipe }: { children: React.
       }}
       onClick={() => !revealed && onReveal()}
     >
-      <motion.span style={{ opacity: good }} className="pointer-events-none absolute right-5 top-5 rounded-lg border-2 border-success px-2 py-0.5 text-[0.875rem] font-black text-success">GOOD</motion.span>
-      <motion.span style={{ opacity: again }} className="pointer-events-none absolute left-5 top-5 rounded-lg border-2 border-danger px-2 py-0.5 text-[0.875rem] font-black text-danger">AGAIN</motion.span>
-      {children}
+      {/* Flip: the front turns away, then the answer turns in. */}
+      <AnimatePresence mode="wait" initial={false}>
+        <motion.div
+          key={revealed ? "back" : "front"}
+          className="absolute inset-0 rounded-[28px] bg-surface p-5 shadow-[0_20px_50px_-20px_oklch(0_0_0/0.6)]"
+          initial={{ rotateY: -90 }}
+          animate={{ rotateY: 0, transition: { duration: 0.18, ease: "easeOut" } }}
+          exit={{ rotateY: 90, transition: { duration: 0.18, ease: "easeIn" } }}
+        >
+          {children}
+        </motion.div>
+      </AnimatePresence>
+      <motion.span style={{ opacity: good }} className="pointer-events-none absolute right-4 top-4 rounded-lg border-2 border-success bg-surface px-2 py-0.5 text-[0.875rem] font-black text-success">GOOD</motion.span>
+      <motion.span style={{ opacity: again }} className="pointer-events-none absolute left-4 top-4 rounded-lg border-2 border-danger bg-surface px-2 py-0.5 text-[0.875rem] font-black text-danger">AGAIN</motion.span>
     </motion.div>
   );
 }

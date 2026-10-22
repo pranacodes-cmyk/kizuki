@@ -1,0 +1,197 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 26.8,
+   "title": "Netrunner Unboxing Intro",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜といえば — speaking of...",
+    "まったく〜ない — not at all",
+    "〜について — regarding / about"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.5,
+     "end": 3.2,
+     "ja": "はい、The Game Gallery チャンネルのHaru99です。",
+     "en": "Hi, I'm Haru99 from The Game Gallery Channel.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 3.3,
+     "end": 6.3,
+     "ja": "今日ね、ご紹介するのは、もうここに出てますけども、",
+     "en": "What I'll be introducing today, as you can already see here,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 6.3,
+     "end": 8.5,
+     "ja": "「ネットランナー」の日本語版ですね。",
+     "en": "is the Japanese edition of Netrunner.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 8.5,
+     "end": 11.7,
+     "ja": "ネットランナーといえば、しばらく前にこの体験版ですね、",
+     "en": "Speaking of Netrunner, a little while ago, this demo version...",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 11.7,
+     "end": 15.8,
+     "ja": "体験版デッキの中身を一度ご紹介いたしましたけども、",
+     "en": "I once introduced the contents of the demo deck, but...",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 15.8,
+     "end": 20.5,
+     "ja": "こちらの製品版についてはまだね、まったくレビューしていませんでしたので、",
+     "en": "since I hadn't reviewed this commercial version at all yet,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 20.5,
+     "end": 26.5,
+     "ja": "今回まず、このネットランナー日本語版の開封レビューですね。",
+     "en": "this time, first up is an unboxing review of this Japanese edition of Netrunner.",
+     "speaker": "Haru99"
+    }
+   ]
+  },
+  {
+   "start": 60.5,
+   "end": 86.8,
+   "title": "Netrunner Rulebook Overview",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜たところ — right after doing",
+    "〜のような — like / similar to",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 60.5,
+     "end": 64.2,
+     "ja": "今ね、ちょうどシュリンクの方を取り除いたところですけども、",
+     "en": "I've just removed the shrink wrap, and...",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 64.2,
+     "end": 66.5,
+     "ja": "まずルールブックですね。",
+     "en": "first up is the rulebook.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 66.5,
+     "end": 70.5,
+     "ja": "これがですね、2人用の対戦型カードゲームなんですけども、",
+     "en": "This is a two-player competitive card game, and...",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 70.5,
+     "end": 75.5,
+     "ja": "元々は、前の体験デッキの時にもご紹介しましたけども、",
+     "en": "originally, as I mentioned during the previous demo deck review,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 75.5,
+     "end": 79.4,
+     "ja": "「マジック:ザ・ギャザリング」と同じようなですね、",
+     "en": "much like Magic: The Gathering,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 79.4,
+     "end": 83.5,
+     "ja": "対戦型のトレーディングカードゲームの流れを汲むやつなので、",
+     "en": "it follows the lineage of competitive trading card games, so...",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 83.5,
+     "end": 86.5,
+     "ja": "かなりルールのほうはボリュームがあります。",
+     "en": "the rules are quite substantial in volume.",
+     "speaker": "Haru99"
+    }
+   ]
+  },
+  {
+   "start": 613.5,
+   "end": 632.0,
+   "title": "Channel Outro and Subscribe Request",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "お〜いただく — humbly receive / be able to",
+    "〜ていただく — to have someone do something",
+    "〜ように — so that / in order to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 613.5,
+     "end": 616.5,
+     "ja": "はい、今回の動画、お楽しみいただけましたでしょうか？",
+     "en": "Well, did you enjoy this video?",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 616.5,
+     "end": 620.0,
+     "ja": "The Game Gallery チャンネルはですね、さまざまなボードゲームに関する話題をお届けしております。",
+     "en": "The Game Gallery Channel brings you various topics related to board games.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 620.0,
+     "end": 623.5,
+     "ja": "YouTubeの方はですね、チャンネル登録の方をしていただきますと、",
+     "en": "On YouTube, if you subscribe to the channel,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 623.5,
+     "end": 628.5,
+     "ja": "私が動画の方を登録しました時に、それがですね、素早くお伝えできるようになっておりますので、",
+     "en": "whenever I upload a new video, it will notify you quickly, so...",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 628.5,
+     "end": 631.5,
+     "ja": "ぜひチャンネル登録の方、お願いいたします。",
+     "en": "please do subscribe to the channel!",
+     "speaker": "Haru99"
+    }
+   ]
+  }
+ ],
+ "videoId": "BngeimyJ_7Y",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

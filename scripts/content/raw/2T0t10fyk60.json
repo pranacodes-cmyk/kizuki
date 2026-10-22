@@ -1,0 +1,160 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 20.8,
+   "title": "Studying Japanese with Dramas and Anime",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜ようだ — seems like / appears to be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 2.3,
+     "ja": "日本語カフェへようこそ。",
+     "en": "Welcome to Haru's Japanese Cafe.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 2.4,
+     "end": 6.6,
+     "ja": "台湾で日本語を教えている日本人のHaruです。",
+     "en": "I'm Haru, a Japanese person teaching Japanese in Taiwan.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 6.8,
+     "end": 10.5,
+     "ja": "皆さん、楽しく日本語の勉強をしていますか？",
+     "en": "Is everyone enjoying studying Japanese?",
+     "speaker": "Haru"
+    },
+    {
+     "start": 11.2,
+     "end": 15.8,
+     "ja": "自分が大好きなドラマやアニメを見ながら、",
+     "en": "While watching dramas or anime they love,",
+     "speaker": "Haru"
+    },
+    {
+     "start": 16.0,
+     "end": 20.5,
+     "ja": "毎日楽しく日本語を勉強している人も多いようですね。",
+     "en": "there seem to be many people who enjoy studying Japanese every day.",
+     "speaker": "Haru"
+    }
+   ]
+  },
+  {
+   "start": 150.5,
+   "end": 173.8,
+   "title": "An App for All Japanese Levels",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜から〜まで — from ... to ...",
+    "〜ても — even if / no matter"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 150.8,
+     "end": 156.6,
+     "ja": "まず一番初めは、「Todaii Easy Japanese News」です。",
+     "en": "First up is 'Todaii Easy Japanese News'.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 156.8,
+     "end": 160.8,
+     "ja": "このアプリは素晴らしい機能が本当にたくさんあって、",
+     "en": "This app really has so many wonderful features,",
+     "speaker": "Haru"
+    },
+    {
+     "start": 161.0,
+     "end": 166.5,
+     "ja": "初級レベル、つまりN5レベルの方から、",
+     "en": "from beginner levels, meaning N5,",
+     "speaker": "Haru"
+    },
+    {
+     "start": 166.6,
+     "end": 168.5,
+     "ja": "上級者、つまりN1レベルの方まで、",
+     "en": "to advanced learners, meaning N1 level,",
+     "speaker": "Haru"
+    },
+    {
+     "start": 168.7,
+     "end": 173.5,
+     "ja": "どんな方が使ってもすごく役立つアプリだと思います。",
+     "en": "I think it's a very useful app no matter who uses it.",
+     "speaker": "Haru"
+    }
+   ]
+  },
+  {
+   "start": 895.0,
+   "end": 914.0,
+   "title": "Hoping News Helps Your Japanese",
+   "level": "N3",
+   "topics": [
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜を通して — through / via",
+    "〜ば — if (conditional)",
+    "〜ておく — to do in advance"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 895.2,
+     "end": 897.0,
+     "ja": "はい、どうでしたか？",
+     "en": "Well, how was that?",
+     "speaker": "Haru"
+    },
+    {
+     "start": 897.2,
+     "end": 902.2,
+     "ja": "皆さんが日本のニュースを通して日本について知ったり、",
+     "en": "If this helps you learn about Japan through Japanese news,",
+     "speaker": "Haru"
+    },
+    {
+     "start": 902.4,
+     "end": 907.0,
+     "ja": "日本語を勉強したりする助けになれば、本当に嬉しいです。",
+     "en": "or assists you in studying Japanese, I'd be really happy.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 907.2,
+     "end": 913.6,
+     "ja": "色々な動画を見逃したくない方は、ぜひチャンネル登録しておくといいと思います。",
+     "en": "If you don't want to miss future videos, subscribing to the channel would be a great idea.",
+     "speaker": "Haru"
+    }
+   ]
+  }
+ ],
+ "videoId": "2T0t10fyk60",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

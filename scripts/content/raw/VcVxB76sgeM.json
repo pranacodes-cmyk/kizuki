@@ -1,0 +1,208 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 193.8,
+   "end": 211.2,
+   "title": "Three Essential Japanese Travel Phrases",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜ば — conditional (if)",
+    "〜さえ〜ば — if only"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 193.8,
+     "end": 197.0,
+     "ja": "正直ね、究極的に日本の旅って",
+     "en": "Honestly, ultimately, when traveling in Japan,",
+     "speaker": "Fujisawa"
+    },
+    {
+     "start": 197.0,
+     "end": 201.2,
+     "ja": "サボればいくらでも日本語喋れる…サボれるんですよね。",
+     "en": "if you want to slack off, you can cut so many corners.",
+     "speaker": "Fujisawa"
+    },
+    {
+     "start": 201.2,
+     "end": 202.6,
+     "ja": "「ありがとうございます」",
+     "en": "\"Arigatou gozaimasu,\"",
+     "speaker": "Fujisawa"
+    },
+    {
+     "start": 202.6,
+     "end": 203.9,
+     "ja": "「お願いします」",
+     "en": "\"Onegaishimasu,\"",
+     "speaker": "Fujisawa"
+    },
+    {
+     "start": 203.9,
+     "end": 205.1,
+     "ja": "「大丈夫です」",
+     "en": "\"Daijoubu desu.\"",
+     "speaker": "Fujisawa"
+    },
+    {
+     "start": 205.1,
+     "end": 207.2,
+     "ja": "この3つさえ教えてしまえばね、",
+     "en": "If you just teach these three,",
+     "speaker": "Fujisawa"
+    },
+    {
+     "start": 207.2,
+     "end": 210.8,
+     "ja": "日本旅行でできちゃうところがあるんで。",
+     "en": "it's actually enough to get by on a trip to Japan.",
+     "speaker": "Fujisawa"
+    }
+   ]
+  },
+  {
+   "start": 308.5,
+   "end": 327.5,
+   "title": "Roleplaying Restaurant Conversations",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜という — called / meaning",
+    "〜てあげる — doing something for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 308.8,
+     "end": 310.2,
+     "ja": "「何名様ですか？」と。",
+     "en": "\"How many people?\" for example.",
+     "speaker": "Fujisawa"
+    },
+    {
+     "start": 310.2,
+     "end": 314.1,
+     "ja": "「何名様ですか？」っていうのはHow many peopleという意味ですよと言って、",
+     "en": "You explain that \"Nanmei-sama desu ka\" means \"how many people\",",
+     "speaker": "Fujisawa"
+    },
+    {
+     "start": 314.1,
+     "end": 315.6,
+     "ja": "「2人です」",
+     "en": "and teach them \"Futari desu,\"",
+     "speaker": "Fujisawa"
+    },
+    {
+     "start": 315.6,
+     "end": 318.0,
+     "ja": "「3人です」という言葉を教えてあげる。",
+     "en": "or \"Sannin desu\".",
+     "speaker": "Fujisawa"
+    },
+    {
+     "start": 318.0,
+     "end": 319.7,
+     "ja": "「こちらへどうぞ」とかね。",
+     "en": "Or \"Kochira e douzo.\"",
+     "speaker": "Fujisawa"
+    },
+    {
+     "start": 319.7,
+     "end": 322.0,
+     "ja": "こういう言葉はもう全然分からないので。",
+     "en": "They won't understand these phrases at all otherwise.",
+     "speaker": "Fujisawa"
+    },
+    {
+     "start": 322.0,
+     "end": 324.6,
+     "ja": "「いらっしゃいませ」も分からないわけですね。",
+     "en": "They wouldn't even know \"Irasshaimase.\"",
+     "speaker": "Fujisawa"
+    },
+    {
+     "start": 324.6,
+     "end": 327.2,
+     "ja": "「こちらへどうぞ」と言ってこう、",
+     "en": "And after being told \"This way, please\",",
+     "speaker": "Fujisawa"
+    }
+   ]
+  },
+  {
+   "start": 365.2,
+   "end": 383.6,
+   "title": "Convenience Store Phrases Tourists Hear",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ことになる — end up doing",
+    "〜からしたら — from the perspective of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 365.4,
+     "end": 367.6,
+     "ja": "「袋ありますか？」みたいな感じで、",
+     "en": "Saying things like \"Do you have a bag?\",",
+     "speaker": "Fujisawa"
+    },
+    {
+     "start": 367.6,
+     "end": 370.7,
+     "ja": "「袋要りますか？」ですね。「袋要りますか？」みたいな感じで、",
+     "en": "or rather, \"Do you need a bag?\" like that.",
+     "speaker": "Fujisawa"
+    },
+    {
+     "start": 370.7,
+     "end": 372.9,
+     "ja": "絶対聞き取れないんですけど、",
+     "en": "They definitely won't catch it,",
+     "speaker": "Fujisawa"
+    },
+    {
+     "start": 372.9,
+     "end": 376.1,
+     "ja": "彼らが日本に来たときコンビニで聞くことになる言葉ですね。",
+     "en": "but it's what they'll hear at convenience stores when they come to Japan.",
+     "speaker": "Fujisawa"
+    },
+    {
+     "start": 376.1,
+     "end": 380.0,
+     "ja": "「袋要りますか？」「カードありますか？」とか、「ポイントカードありますか？」みたいな。",
+     "en": "\"Need a bag?\", \"Do you have a card?\", or \"Do you have a point card?\"",
+     "speaker": "Fujisawa"
+    },
+    {
+     "start": 380.0,
+     "end": 383.2,
+     "ja": "日本人なら当然ですけど、外国人からしたら全然分からない言葉ですね。",
+     "en": "It's obvious for Japanese people, but foreigners won't understand it at all.",
+     "speaker": "Fujisawa"
+    }
+   ]
+  }
+ ],
+ "videoId": "VcVxB76sgeM",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

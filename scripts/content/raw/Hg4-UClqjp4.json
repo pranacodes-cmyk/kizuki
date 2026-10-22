@@ -1,0 +1,166 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.2,
+   "end": 20.8,
+   "title": "Let's Make Gyudon",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜を使って — using...",
+    "〜ましょう — let's..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.2,
+     "end": 7.2,
+     "ja": "皆さん、こんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 7.7,
+     "end": 10.0,
+     "ja": "ひらがなネットのあきこです。",
+     "en": "I'm Akiko from Hiragana Net.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 10.7,
+     "end": 14.5,
+     "ja": "今回は、牛肉と玉ねぎを使って、",
+     "en": "This time, using beef and onions,",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 14.6,
+     "end": 17.0,
+     "ja": "牛丼を作ります。",
+     "en": "we will make gyudon (beef bowl).",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 17.8,
+     "end": 20.5,
+     "ja": "では、一緒に作りましょう！",
+     "en": "Now, let's make it together!",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 60.2,
+   "end": 84.8,
+   "title": "Simmering the Onions",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜て — connecting actions",
+    "〜にする — set to / make into"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 60.2,
+     "end": 63.5,
+     "ja": "鍋に水を入れます。",
+     "en": "Put water in the pot.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 68.5,
+     "end": 70.5,
+     "ja": "玉ねぎ、",
+     "en": "The onions,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 73.8,
+     "end": 76.0,
+     "ja": "塩を入れて、",
+     "en": "add salt,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 76.5,
+     "end": 78.8,
+     "ja": "強火にします。",
+     "en": "and turn the heat to high.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 80.2,
+     "end": 84.3,
+     "ja": "蓋をして、5分煮ます。",
+     "en": "Cover with a lid and simmer for 5 minutes.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 179.5,
+   "end": 196.8,
+   "title": "Serving Ideas and Farewell",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜ても — even if / also"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 179.5,
+     "end": 181.8,
+     "ja": "いかがでしたか？",
+     "en": "How did you find it?",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 182.1,
+     "end": 185.5,
+     "ja": "色々なトッピングを楽しんでください。",
+     "en": "Please enjoy various toppings.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 186.3,
+     "end": 190.8,
+     "ja": "牛丼の具をうどんに入れても美味しいです。",
+     "en": "It's also delicious if you put the beef topping on udon.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 191.3,
+     "end": 193.8,
+     "ja": "では、また会いましょう。",
+     "en": "Well then, see you again.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 194.1,
+     "end": 196.5,
+     "ja": "さようなら。",
+     "en": "Goodbye.",
+     "speaker": "Akiko"
+    }
+   ]
+  }
+ ],
+ "videoId": "Hg4-UClqjp4",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

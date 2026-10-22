@@ -1,0 +1,187 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 7.5,
+   "end": 22.5,
+   "title": "Where to Go on a First Date",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜ないですか — isn't it / don't you think?",
+    "〜てくる — do and come back / go do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 7.8,
+     "end": 9.8,
+     "ja": "初デートってすごく大事だけど、",
+     "en": "First dates are super important,",
+     "speaker": "Emiri"
+    },
+    {
+     "start": 9.8,
+     "end": 12.0,
+     "ja": "どこに行けばいいか分かんなくないですか？",
+     "en": "but don't you often wonder where you should go?",
+     "speaker": "Emiri"
+    },
+    {
+     "start": 12.3,
+     "end": 15.2,
+     "ja": "今日はインスタの女性約3000人の方に、",
+     "en": "Today, I asked about 3,000 women on Instagram",
+     "speaker": "Emiri"
+    },
+    {
+     "start": 15.2,
+     "end": 17.7,
+     "ja": "初デートどこで何したいか聞いてきました。",
+     "en": "where they want to go and what they want to do on a first date.",
+     "speaker": "Emiri"
+    },
+    {
+     "start": 18.1,
+     "end": 20.8,
+     "ja": "逆に、あんまりおすすめじゃないっていう場所もあるので、",
+     "en": "On the flip side, there are also places that aren't really recommended,",
+     "speaker": "Emiri"
+    },
+    {
+     "start": 20.8,
+     "end": 22.5,
+     "ja": "ぜひ参考にしてください。ではどうぞ。",
+     "en": "so please use this as a reference. Here we go!",
+     "speaker": "Emiri"
+    }
+   ]
+  },
+  {
+   "start": 706.5,
+   "end": 720.5,
+   "title": "Night Drive Date",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "fun"
+   ],
+   "grammar": [
+    "〜ず — without doing",
+    "〜し — listing reasons"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 706.6,
+     "end": 708.5,
+     "ja": "まず1つ目、夜のドライブです。",
+     "en": "First up is a nighttime drive.",
+     "speaker": "Emiri"
+    },
+    {
+     "start": 708.5,
+     "end": 711.0,
+     "ja": "こちら、「夜のドライブデート。",
+     "en": "Here's one: 'A nighttime drive date.",
+     "speaker": "Emiri"
+    },
+    {
+     "start": 711.0,
+     "end": 713.2,
+     "ja": "横並びだから意外と緊張せず、",
+     "en": "Sitting side by side, you surprisingly don't get nervous,",
+     "speaker": "Emiri"
+    },
+    {
+     "start": 713.2,
+     "end": 715.5,
+     "ja": "お互いの事話せるし何よりエモい。",
+     "en": "you can talk about each other, and above all, it's so romantic.",
+     "speaker": "Emiri"
+    },
+    {
+     "start": 715.5,
+     "end": 716.8,
+     "ja": "24歳です。」",
+     "en": "From a 24-year-old.'",
+     "speaker": "Emiri"
+    },
+    {
+     "start": 716.8,
+     "end": 720.5,
+     "ja": "確かに夜のドライブデートってすっごいロマンチックですよね。",
+     "en": "A nighttime drive date really is super romantic, isn't it?",
+     "speaker": "Emiri"
+    }
+   ]
+  },
+  {
+   "start": 927.5,
+   "end": 941.8,
+   "title": "Movie Theater Date",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "fun"
+   ],
+   "grammar": [
+    "〜やすい — easy to do",
+    "〜なくてもいい — don't have to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 927.8,
+     "end": 930.5,
+     "ja": "そして、次人気だったのは映画館でした。",
+     "en": "Next up among popular choices was the movie theater.",
+     "speaker": "Emiri"
+    },
+    {
+     "start": 930.5,
+     "end": 932.4,
+     "ja": "これも人気でした。",
+     "en": "This was popular too.",
+     "speaker": "Emiri"
+    },
+    {
+     "start": 932.6,
+     "end": 935.5,
+     "ja": "まずこちらの方の意見。「映画館！17歳！",
+     "en": "First, an opinion from this person: 'Movie theater! 17 years old!",
+     "speaker": "Emiri"
+    },
+    {
+     "start": 935.5,
+     "end": 938.2,
+     "ja": "理由は初デートは緊張しやすいけど、",
+     "en": "The reason is that first dates make you nervous easily,",
+     "speaker": "Emiri"
+    },
+    {
+     "start": 938.2,
+     "end": 940.8,
+     "ja": "映画だと観るだけで喋らなくてもいいから！」",
+     "en": "but with movies, you just watch and don't even have to talk!'",
+     "speaker": "Emiri"
+    },
+    {
+     "start": 940.8,
+     "end": 941.8,
+     "ja": "初々しい！",
+     "en": "How innocent!",
+     "speaker": "Emiri"
+    }
+   ]
+  }
+ ],
+ "videoId": "36-2-5A6bs0",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

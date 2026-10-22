@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 25.5,
+   "title": "The End of Yggdrasil",
+   "level": "N2",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜かの如く — as if",
+    "〜において — in / within",
+    "〜ようとする — be about to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.0,
+     "end": 2.5,
+     "ja": "ＤＭＭＯーＲＰＧ。",
+     "en": "DMMO-RPG.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 3.2,
+     "end": 8.5,
+     "ja": "仮想世界で現実にいるかの如く遊べる体験型ゲームのことである。",
+     "en": "It refers to experiential games where one can play in a virtual world as if it were reality.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 9.3,
+     "end": 10.8,
+     "ja": "ユグドラシル。",
+     "en": "Yggdrasil.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 11.8,
+     "end": 19.2,
+     "ja": "西暦2126年に発売されたそのタイトルは、日本国内において爆発的な人気を博した。",
+     "en": "Released in the year 2126, that title achieved explosive popularity within Japan.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 20.5,
+     "end": 25.4,
+     "ja": "それから12年、ユグドラシルは最後の時を迎えようとしていた。",
+     "en": "Twelve years since then, Yggdrasil was about to welcome its final moments.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 240.6,
+   "end": 254.0,
+   "title": "I Must Become Stronger",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜かどうか — whether or not",
+    "〜次第 — depending on",
+    "〜なければならない — must"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 240.8,
+     "end": 242.8,
+     "ja": "なあ、俺たちは強いのか？",
+     "en": "Hey, are we strong?",
+     "speaker": "Brain"
+    },
+    {
+     "start": 243.2,
+     "end": 245.9,
+     "ja": "そこから何かを掴み取るかどうかはお前次第だ。",
+     "en": "Whether you take something away from that is up to you.",
+     "speaker": "Gazef"
+    },
+    {
+     "start": 246.0,
+     "end": 248.8,
+     "ja": "俺は強くならなければならないのです。",
+     "en": "I must become stronger.",
+     "speaker": "Climb"
+    },
+    {
+     "start": 248.9,
+     "end": 251.0,
+     "ja": "ラナー様をお守りするために。",
+     "en": "In order to protect Lady Renner.",
+     "speaker": "Climb"
+    },
+    {
+     "start": 251.3,
+     "end": 253.6,
+     "ja": "問題ない。一撃だ。",
+     "en": "No problem. Just one blow.",
+     "speaker": "Sebas"
+    }
+   ]
+  },
+  {
+   "start": 335.1,
+   "end": 351.2,
+   "title": "A Battle for Humanity's Survival",
+   "level": "N2",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜のための — for / in order to",
+    "〜という — called / that is",
+    "〜をかけた — putting ... on the line"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 335.3,
+     "end": 343.5,
+     "ja": "我々の目的は、帝国、王国、法国、対アインズ・ウール・ゴウンのための大連合の設立だ。",
+     "en": "Our objective is the establishment of a grand alliance between the Empire, Kingdom, and Theocracy against Ainz Ooal Gown.",
+     "speaker": "Man"
+    },
+    {
+     "start": 343.8,
+     "end": 346.6,
+     "ja": "これは国家間の争いではない。",
+     "en": "This is not a dispute between nations.",
+     "speaker": "Man"
+    },
+    {
+     "start": 346.7,
+     "end": 351.1,
+     "ja": "人という種族の存続をかけた、未来を守る戦いだ。",
+     "en": "It is a battle to protect the future, with the survival of humanity on the line.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "w6MkigX6ABs",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

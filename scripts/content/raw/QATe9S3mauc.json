@@ -1,0 +1,267 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 237.0,
+   "end": 266.5,
+   "title": "Winter or Summer Clothing?",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "friends",
+    "comedy"
+   ],
+   "grammar": [
+    "〜より〜が好き — preferring X over Y",
+    "〜たくない — do not want to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 237.2,
+     "end": 239.0,
+     "ja": "SEITAさんに質問です。",
+     "en": "I have a question for Seita.",
+     "speaker": "Tomoya"
+    },
+    {
+     "start": 239.0,
+     "end": 239.8,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Seita"
+    },
+    {
+     "start": 239.9,
+     "end": 241.8,
+     "ja": "夏が好きですか？冬が好きですか？",
+     "en": "Do you like summer? Or do you like winter?",
+     "speaker": "Tomoya"
+    },
+    {
+     "start": 241.9,
+     "end": 242.8,
+     "ja": "冬が好きです。",
+     "en": "I like winter.",
+     "speaker": "Seita"
+    },
+    {
+     "start": 242.9,
+     "end": 244.2,
+     "ja": "冬が好きですか？じゃあこっちだと思います！",
+     "en": "You like winter? Then you should be on this side!",
+     "speaker": "Tomoya"
+    },
+    {
+     "start": 244.3,
+     "end": 246.3,
+     "ja": "そんなSEITAさんの大事な大好きな冬を、",
+     "en": "That winter you cherish and love so much,",
+     "speaker": "Tomoya"
+    },
+    {
+     "start": 246.4,
+     "end": 249.2,
+     "ja": "そうやって夏服着て最悪の思い出にしたくないです、僕は！",
+     "en": "I don't want you to ruin it by wearing summer clothes and making it a horrible memory!",
+     "speaker": "Tomoya"
+    },
+    {
+     "start": 252.6,
+     "end": 254.0,
+     "ja": "そしてSEITAさん！",
+     "en": "And Seita!",
+     "speaker": "Haru"
+    },
+    {
+     "start": 254.1,
+     "end": 256.8,
+     "ja": "この前僕は聞きました。1年前のことです。",
+     "en": "I heard you say this before. It was a year ago.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 257.0,
+     "end": 258.8,
+     "ja": "2人で一緒に歩いてた時、",
+     "en": "When the two of us were walking together,",
+     "speaker": "Haru"
+    },
+    {
+     "start": 259.0,
+     "end": 260.8,
+     "ja": "SEITAさんはこう言いました。",
+     "en": "Seita said this:",
+     "speaker": "Haru"
+    },
+    {
+     "start": 261.0,
+     "end": 263.7,
+     "ja": "「僕は夏より冬が好きだ。理由は――",
+     "en": "'I like winter better than summer. The reason is—",
+     "speaker": "Haru"
+    },
+    {
+     "start": 263.8,
+     "end": 266.3,
+     "ja": "冬服が好きだから」",
+     "en": "because I love winter clothes.'",
+     "speaker": "Haru"
+    }
+   ]
+  },
+  {
+   "start": 385.0,
+   "end": 411.5,
+   "title": "I Thought I Would Be the Youngest",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜じゃん — isn't it / you know",
+    "〜んじゃないか — might be / isn't it the case that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 385.2,
+     "end": 388.9,
+     "ja": "そういえばYUは最年長じゃん。末っ子になりたいと思ったりするの？",
+     "en": "Speaking of which, Yu, you're the oldest. Do you ever think about wanting to be the youngest?",
+     "speaker": "Seita"
+    },
+    {
+     "start": 389.0,
+     "end": 393.0,
+     "ja": "ねえ、もう思ってましたよ。だってチームになる前から僕は末っ子だと思ってました。",
+     "en": "Well, I already did! In fact, before joining the team, I thought I'd be the youngest.",
+     "speaker": "Yu"
+    },
+    {
+     "start": 394.0,
+     "end": 400.4,
+     "ja": "なんだったら僕あの、昔デビューする前に、「いや僕は末っ子がいいな」と思って、虹プロ受けてる時も「あ、僕末っ子かな」と思ってました。",
+     "en": "Actually, before debuting, I thought, 'Man, I'd like to be the youngest,' and even during Nizi Project I thought, 'Oh, maybe I'm the youngest.'",
+     "speaker": "Yu"
+    },
+    {
+     "start": 402.5,
+     "end": 406.0,
+     "ja": "で、みんなの年齢を聞いた時に、「あれヤバい、結構上だな」みたいな。",
+     "en": "Then when I heard everyone's ages, I was like, 'Wait, shoot, I'm pretty old.'",
+     "speaker": "Yu"
+    },
+    {
+     "start": 407.0,
+     "end": 408.8,
+     "ja": "危機を感じました！",
+     "en": "I sensed a crisis!",
+     "speaker": "Yu"
+    },
+    {
+     "start": 408.9,
+     "end": 411.3,
+     "ja": "これ、もしかして長男になるんじゃないか？しっかりなっちゃいました。",
+     "en": "Like, 'Wait, could I end up being the oldest brother?' And sure enough, I did.",
+     "speaker": "Yu"
+    }
+   ]
+  },
+  {
+   "start": 604.2,
+   "end": 626.8,
+   "title": "An Objection to Trauma",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜じゃなくて — not X, but Y",
+    "〜ようじゃないか — let's / why don't we"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 604.5,
+     "end": 605.5,
+     "ja": "SEITAさん！",
+     "en": "Seita!",
+     "speaker": "Haru"
+    },
+    {
+     "start": 605.6,
+     "end": 606.2,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Seita"
+    },
+    {
+     "start": 606.3,
+     "end": 609.3,
+     "ja": "僕がこの一言であなたを理解させます。",
+     "en": "With this one sentence, I'll make you understand.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 609.4,
+     "end": 610.5,
+     "ja": "理解する？",
+     "en": "Make me understand?",
+     "speaker": "Seita"
+    },
+    {
+     "start": 610.6,
+     "end": 611.8,
+     "ja": "はい、理解させます。",
+     "en": "Yes, I will.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 611.9,
+     "end": 616.0,
+     "ja": "末っ子として生きて嫌なトラウマを作るんじゃなくて、",
+     "en": "Instead of living as the youngest and creating unpleasant trauma,",
+     "speaker": "Haru"
+    },
+    {
+     "start": 616.1,
+     "end": 620.5,
+     "ja": "リーダーとしていい経験を作って、これからの明るいドラマを作っていこうじゃないか！",
+     "en": "let's build great experience as a leader and create a bright story ahead!",
+     "speaker": "Haru"
+    },
+    {
+     "start": 620.8,
+     "end": 622.5,
+     "ja": "異議あり！！",
+     "en": "Objection!!",
+     "speaker": "Yu"
+    },
+    {
+     "start": 622.6,
+     "end": 624.5,
+     "ja": "何で末っ子がトラウマなんだよ！",
+     "en": "Why would being the youngest be traumatic?!",
+     "speaker": "Yu"
+    },
+    {
+     "start": 624.6,
+     "end": 626.5,
+     "ja": "違います！",
+     "en": "That's not what I meant!",
+     "speaker": "Haru"
+    }
+   ]
+  }
+ ],
+ "videoId": "QATe9S3mauc",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

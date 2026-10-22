@@ -1,0 +1,138 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 18.7,
+   "end": 32.5,
+   "title": "One Thing on a Desert Island",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜としたら — if assuming that",
+    "〜たい — want to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.8,
+     "end": 23.5,
+     "ja": "ちょ、あのさ、無人島に、なんか1個だけ持っていけるとしたら、お前何持っていく？",
+     "en": "Hey, if you could only bring one thing to a deserted island, what would you bring?",
+     "speaker": "Grey Suit"
+    },
+    {
+     "start": 23.8,
+     "end": 25.2,
+     "ja": "ああ、よくある質問だね、これ。",
+     "en": "Ah, that's a classic question.",
+     "speaker": "Yellow Suit"
+    },
+    {
+     "start": 25.4,
+     "end": 28.1,
+     "ja": "ああ、まあでも命守りたいですからね、俺は。",
+     "en": "Well, I want to protect my life after all.",
+     "speaker": "Yellow Suit"
+    },
+    {
+     "start": 28.3,
+     "end": 30.2,
+     "ja": "やっぱりトランプかなあ。",
+     "en": "I'd have to say playing cards.",
+     "speaker": "Yellow Suit"
+    },
+    {
+     "start": 30.3,
+     "end": 32.3,
+     "ja": "もうそこ娯楽じゃねえかよ。",
+     "en": "That's just pure entertainment!",
+     "speaker": "Grey Suit"
+    }
+   ]
+  },
+  {
+   "start": 46.0,
+   "end": 54.8,
+   "title": "Convenience Stores on a Desert Island",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜たら — if / hypothetical condition",
+    "〜てある — state resulting from action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 46.2,
+     "end": 48.8,
+     "ja": "俺だったらライターとか便利なん持っていくけどな。",
+     "en": "If it were me, I'd bring something useful like a lighter.",
+     "speaker": "Grey Suit"
+    },
+    {
+     "start": 49.0,
+     "end": 52.0,
+     "ja": "ああ、ライターほら、コンビニに売ってあるから大丈夫やな、お前。",
+     "en": "Ah, they sell lighters at convenience stores, so no problem.",
+     "speaker": "Yellow Suit"
+    },
+    {
+     "start": 52.1,
+     "end": 54.5,
+     "ja": "お前、コンビニは無人島にねえだろう、お前！",
+     "en": "Hey, there aren't any convenience stores on a deserted island!",
+     "speaker": "Grey Suit"
+    }
+   ]
+  },
+  {
+   "start": 114.7,
+   "end": 123.5,
+   "title": "Bringing a Fishing Rod",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜たらいい — it would be good if / should",
+    "〜てあげる — do a favor for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 115.0,
+     "end": 117.8,
+     "ja": "俺、釣りとか趣味だから、俺だったら釣竿とか持っていくけどな。",
+     "en": "Fishing is my hobby, so if it were me, I'd bring a fishing rod.",
+     "speaker": "Grey Suit"
+    },
+    {
+     "start": 118.0,
+     "end": 120.9,
+     "ja": "ああ、じゃあお前釣りしたらいいじゃん。俺、網持っていくからそれ釣ってあげる、俺が。",
+     "en": "Oh, then you can just fish. I'll bring a net and scoop them up for you.",
+     "speaker": "Yellow Suit"
+    },
+    {
+     "start": 121.0,
+     "end": 123.2,
+     "ja": "お前いたら無人島じゃねえじゃねえかよ！",
+     "en": "If you're there, it's not a deserted island anymore!",
+     "speaker": "Grey Suit"
+    }
+   ]
+  }
+ ],
+ "videoId": "N18wDHFrSRM",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,209 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 106.8,
+   "end": 125.1,
+   "title": "Ordering Lunch at Saizeriya",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜てまいりました — humble form of to come",
+    "〜たのは — what [someone] did was"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 107.0,
+     "end": 109.2,
+     "ja": "はい、ということで2日目の",
+     "en": "Alright, so it's lunch time",
+     "speaker": "Yuto"
+    },
+    {
+     "start": 109.2,
+     "end": 110.1,
+     "ja": "お昼ですね。",
+     "en": "on the second day.",
+     "speaker": "Yuto"
+    },
+    {
+     "start": 110.1,
+     "end": 112.5,
+     "ja": "えー、大阪の誇る名店、",
+     "en": "Uh, Osaka's renowned pride,",
+     "speaker": "Yuto"
+    },
+    {
+     "start": 112.5,
+     "end": 114.7,
+     "ja": "サイゼリヤさんにやってまいりました。",
+     "en": "we've arrived at Saizeriya.",
+     "speaker": "Yuto"
+    },
+    {
+     "start": 114.7,
+     "end": 116.5,
+     "ja": "昼から飲んでおります。",
+     "en": "I'm drinking in the middle of the day.",
+     "speaker": "Yuto"
+    },
+    {
+     "start": 116.6,
+     "end": 118.8,
+     "ja": "最初に頼んだのはコーンスープと",
+     "en": "What I ordered first was corn soup,",
+     "speaker": "Yuto"
+    },
+    {
+     "start": 118.8,
+     "end": 120.9,
+     "ja": "えー、小エビのカクテル、そして",
+     "en": "uh, baby shrimp salad cocktail, and",
+     "speaker": "Yuto"
+    },
+    {
+     "start": 121.0,
+     "end": 123.6,
+     "ja": "えー、チーズドリア、これおいしいですね。",
+     "en": "uh, cheese doria, which is delicious.",
+     "speaker": "Yuto"
+    },
+    {
+     "start": 123.6,
+     "end": 124.9,
+     "ja": "そして4本足です。",
+     "en": "And chicken wings (four legs).",
+     "speaker": "Yuto"
+    }
+   ]
+  },
+  {
+   "start": 231.2,
+   "end": 244.5,
+   "title": "Strolling Around Shinsekai Challenge",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜しかない — have no choice but to",
+    "〜まで — until"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 231.5,
+     "end": 232.8,
+     "ja": "やばい。",
+     "en": "Oh man.",
+     "speaker": "Yuto"
+    },
+    {
+     "start": 232.8,
+     "end": 235.3,
+     "ja": "クソ暑いけどやるしかない。",
+     "en": "It's ridiculously hot, but I have no choice.",
+     "speaker": "Yuto"
+    },
+    {
+     "start": 235.3,
+     "end": 236.9,
+     "ja": "急遽始まりました。",
+     "en": "This started out of the blue.",
+     "speaker": "Yuto"
+    },
+    {
+     "start": 237.0,
+     "end": 238.6,
+     "ja": "新世界を練り歩いて、",
+     "en": "I'll wander around Shinsekai,",
+     "speaker": "Yuto"
+    },
+    {
+     "start": 238.6,
+     "end": 241.6,
+     "ja": "えちゃんねるのゆーとですかって言われるまで",
+     "en": "and until someone asks 'Are you Yuto from E-channel?'",
+     "speaker": "Yuto"
+    },
+    {
+     "start": 241.6,
+     "end": 244.2,
+     "ja": "終われない練り歩き！",
+     "en": "a walk that won't end!",
+     "speaker": "Yuto"
+    }
+   ]
+  },
+  {
+   "start": 649.8,
+   "end": 662.8,
+   "title": "Moving to the Shuriken Stage",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "travel"
+   ],
+   "grammar": [
+    "〜たら — if / when",
+    "〜でいい — is fine / enough with"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 650.0,
+     "end": 652.5,
+     "ja": "お兄さん、1枚あったら大丈夫です。",
+     "en": "Sir, just one ticket is enough.",
+     "speaker": "Shop Staff"
+    },
+    {
+     "start": 652.5,
+     "end": 654.5,
+     "ja": "あ、そうなんすか？1枚でいいすか？",
+     "en": "Oh, really? Just one is fine?",
+     "speaker": "Yuto"
+    },
+    {
+     "start": 654.5,
+     "end": 655.4,
+     "ja": "すいません。",
+     "en": "Excuse me.",
+     "speaker": "Yuto"
+    },
+    {
+     "start": 655.4,
+     "end": 657.4,
+     "ja": "2階でできる手裏剣のチケットです。",
+     "en": "It's a ticket for shuriken throwing on the second floor.",
+     "speaker": "Shop Staff"
+    },
+    {
+     "start": 657.4,
+     "end": 659.0,
+     "ja": "2階ででき…？",
+     "en": "On the second floor...?",
+     "speaker": "Yuto"
+    },
+    {
+     "start": 659.0,
+     "end": 661.8,
+     "ja": "俺第2ステージ進んだんだ、今。",
+     "en": "I've advanced to stage 2 just now.",
+     "speaker": "Yuto"
+    }
+   ]
+  }
+ ],
+ "videoId": "f0ePFP2b5GY",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

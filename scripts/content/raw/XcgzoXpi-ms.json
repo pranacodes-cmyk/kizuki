@@ -1,0 +1,151 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 246.5,
+   "end": 279.8,
+   "title": "Why Vending Machines Are Decreasing",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜と — when / if",
+    "〜ています — ongoing state/action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 247.0,
+     "end": 256.0,
+     "ja": "コンビニやスーパー、ドラッグストアで買うと安いです。",
+     "en": "It's cheap if you buy from convenience stores, supermarkets, or drugstores.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 258.0,
+     "end": 270.0,
+     "ja": "コンビニやスーパー、またはドラッグストアで飲み物を買うと安いです。",
+     "en": "It's cheap to buy drinks at convenience stores, supermarkets, or drugstores.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 271.5,
+     "end": 279.5,
+     "ja": "なので、自動販売機を使う人が減っています。",
+     "en": "Because of that, the number of people using vending machines is decreasing.",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 386.0,
+   "end": 411.5,
+   "title": "Mysterious Pipe Emerging from the Ground",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜た人 — person who did (relative clause)",
+    "〜ことができる / できない — can / cannot do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 386.0,
+     "end": 389.0,
+     "ja": "とても驚きました。",
+     "en": "I was very surprised.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 389.3,
+     "end": 393.2,
+     "ja": "怪我をした人はいませんでした。",
+     "en": "There was no one who got injured.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 393.8,
+     "end": 398.0,
+     "ja": "怪我をした人はいない。",
+     "en": "No one was hurt.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 398.5,
+     "end": 401.5,
+     "ja": "ですが、この道、",
+     "en": "However, this road...",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 402.0,
+     "end": 405.5,
+     "ja": "道を通れません。",
+     "en": "You cannot pass through the street.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 406.0,
+     "end": 411.0,
+     "ja": "通ることができないです。",
+     "en": "It's impossible to pass through.",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 527.0,
+   "end": 550.0,
+   "title": "Train Stopped for 9 Hours in Tokyo",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜も — as much as / as long as",
+    "〜そうです — I heard that / apparently"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 527.2,
+     "end": 534.0,
+     "ja": "電車の中にいた人は、線路を歩いていきました。",
+     "en": "The people inside the train walked along the tracks.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 535.0,
+     "end": 539.5,
+     "ja": "線路を歩きました。",
+     "en": "They walked on the tracks.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 540.0,
+     "end": 545.0,
+     "ja": "9時間も止まったそうです。",
+     "en": "Apparently, it was stopped for as long as nine hours.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 545.5,
+     "end": 549.5,
+     "ja": "9時間も動かなかったそうです。",
+     "en": "Apparently, it didn't move for as long as nine hours.",
+     "speaker": "Akiko"
+    }
+   ]
+  }
+ ],
+ "videoId": "XcgzoXpi-ms",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

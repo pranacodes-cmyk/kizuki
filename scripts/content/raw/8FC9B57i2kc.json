@@ -1,0 +1,113 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 58.0,
+   "end": 124.2,
+   "title": "Morning Hair Routine",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — when/after",
+    "〜ておく — doing in advance"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 58.5,
+     "end": 64.5,
+     "ja": "朝起きたらまず、髪の毛をとかして濡らしておきます。",
+     "en": "When I wake up in the morning, I first comb my hair and dampen it.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 65.5,
+     "end": 72.0,
+     "ja": "あとはヘアオイルをなじませておいて、",
+     "en": "Then I apply hair oil and let it blend in,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 73.2,
+     "end": 76.5,
+     "ja": "全体的にオイルが行き渡ったら、",
+     "en": "and once the oil is distributed all over,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 78.5,
+     "end": 83.5,
+     "ja": "ちょっとねじって、クリップで留めておきます。",
+     "en": "I twist it a bit and clip it up.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 453.8,
+   "end": 512.6,
+   "title": "Why Cold-Pressed Juice?",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ちゃう — to do completely",
+    "〜ていうのもある — it's also partly because"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 454.2,
+     "end": 455.9,
+     "ja": "スムージーとの違いは、",
+     "en": "The difference from smoothies is,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 456.0,
+     "end": 458.8,
+     "ja": "あの、液体と固体を完全に分けちゃうので、",
+     "en": "um, it completely separates the liquid and solids,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 459.0,
+     "end": 501.8,
+     "ja": "カスと液体に完全に分けて、",
+     "en": "it separates fully into pulp and liquid,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 502.0,
+     "end": 506.0,
+     "ja": "液体だけを飲むんですよ、コールドプレスジュースって。",
+     "en": "and you only drink the liquid—that's cold-pressed juice.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 506.8,
+     "end": 509.2,
+     "ja": "だから、あの、消化吸収が良くて、",
+     "en": "So it's easy to digest and absorb,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 509.3,
+     "end": 512.2,
+     "ja": "体質にも合ってたっていうのもあるんですけど。",
+     "en": "and it's also partly because it suited my constitution.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "8FC9B57i2kc",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

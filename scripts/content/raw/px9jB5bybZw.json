@@ -1,0 +1,208 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 55.3,
+   "end": 10.0,
+   "title": "Matcha and Red Bean Ice Cream",
+   "level": "N3",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜とき — when / at the time of",
+    "〜ちゃう — isn't it / aren't you (Kansai-ben)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 55.5,
+     "end": 57.6,
+     "ja": "あとじゃあ私はこれにします。",
+     "en": "Next, I'll go with this one.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 57.8,
+     "end": 60.0,
+     "ja": "俺あんまり抹茶好きちゃうやん？",
+     "en": "You know I'm not really into matcha, right?",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 60.2,
+     "end": 63.6,
+     "ja": "でも唯一抹茶買うときは小豆がついてるときだけやねん。",
+     "en": "The only time I buy matcha is when it has red beans.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 63.8,
+     "end": 65.9,
+     "ja": "抹茶と小豆の組み合わせは好きやねん。",
+     "en": "I love the combination of matcha and red beans.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 66.1,
+     "end": 68.0,
+     "ja": "前もこれ食べへんかったっけ？",
+     "en": "Didn't we eat this before?",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 68.1,
+     "end": 69.6,
+     "ja": "もう分からへんわ。",
+     "en": "I can't even tell anymore.",
+     "speaker": "Hamaie"
+    }
+   ]
+  },
+  {
+   "start": 219.2,
+   "end": 241.0,
+   "title": "Pineapple Flavored Popsicle",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜ばっかり — only / nothing but"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 219.5,
+     "end": 221.1,
+     "ja": "これ。パイン。",
+     "en": "This one. Pineapple.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 221.3,
+     "end": 223.7,
+     "ja": "出してなかったん？ガリガリ君パイン。",
+     "en": "Hadn't they released pineapple Gari-Gari-kun before?",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 223.9,
+     "end": 227.8,
+     "ja": "ゴールデンパイン。「大人な」って書いてるからちょっとそこが違うのかな。",
+     "en": "Golden pineapple. It says \"Adult's,\" so maybe that's the difference.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 228.0,
+     "end": 230.5,
+     "ja": "ガリガリ君も久しぶりに食べてみよっか。",
+     "en": "Let's try Gari-Gari-kun for the first time in a while.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 230.7,
+     "end": 233.3,
+     "ja": "全然食べてないわ、ガリガリ君最近。",
+     "en": "I haven't eaten Gari-Gari-kun at all lately.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 233.5,
+     "end": 237.2,
+     "ja": "ソーダ味？一番プレーンなのって。あればっかり食ってるから。",
+     "en": "Soda flavor? The most basic one. That's all I usually eat.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 237.4,
+     "end": 240.6,
+     "ja": "まぁあれは食うな。あれは食うわ。",
+     "en": "Well, that one I definitely eat. That one's a staple.",
+     "speaker": "Yamauchi"
+    }
+   ]
+  },
+  {
+   "start": 616.8,
+   "end": 636.5,
+   "title": "Trying Castella Ice Cream",
+   "level": "N4",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜そう — looks like / seems like",
+    "〜ってこと — means that / you mean that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 617.0,
+     "end": 618.9,
+     "ja": "ちょっとじゃあ俺カステラアイスいくわ。",
+     "en": "Alright, I'll go for the Castella Ice.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 619.1,
+     "end": 621.0,
+     "ja": "あっ、めっちゃカステラやで。",
+     "en": "Oh, this is totally castella sponge cake.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 621.2,
+     "end": 624.0,
+     "ja": "カステラや。入れ物めっちゃカステラや。",
+     "en": "It's castella! Even the container looks just like castella.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 624.2,
+     "end": 626.1,
+     "ja": "カステラや。見た目もカステラ。",
+     "en": "It really is castella. Even the appearance is castella.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 626.2,
+     "end": 628.0,
+     "ja": "美味しそう。いただきます。",
+     "en": "Looks delicious. Let's eat!",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 628.5,
+     "end": 630.1,
+     "ja": "カステラやな。",
+     "en": "That really is castella.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 630.8,
+     "end": 632.4,
+     "ja": "めっちゃ美味い。",
+     "en": "It's so good.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 634.5,
+     "end": 636.2,
+     "ja": "中がアイスってこと？",
+     "en": "You mean there's ice cream inside?",
+     "speaker": "Hamaie"
+    }
+   ]
+  }
+ ],
+ "videoId": "px9jB5bybZw",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -24,6 +24,8 @@ export type Content = {
   dict: Record<string, DictEntry>;
 };
 
+const fetchJson = (u: string) => fetch(u).then((r) => { if (!r.ok) throw new Error(`content ${r.status}`); return r.json(); });
+
 let contentPromise: Promise<Content> | null = null;
 let loaded: Content | null = null;
 const notesCache = new Map<string, Promise<ClipNotes>>();
@@ -31,7 +33,11 @@ const notesCache = new Map<string, Promise<ClipNotes>>();
 export function loadContent(): Promise<Content> {
   if (!contentPromise) {
     contentPromise = Promise.all([
-      fetch("/data/content.json").then((r) => { if (!r.ok) throw new Error(`content ${r.status}`); return r.json(); }),
+      fetchJson("/data/content.json").then(async (m) => ({
+        videos: m.videos,
+        // Clips are sharded (see scripts/content/build.ts); load every part in parallel.
+        clips: (await Promise.all((m.parts as string[]).map((p) => fetchJson(`/data/${p}`)))).flatMap((x) => x.clips),
+      })),
       fetch("/data/dict.json").then((r) => { if (!r.ok) throw new Error(`dict ${r.status}`); return r.json(); }),
     ]).then(([c, d]) => {
       loaded = { videos: c.videos, clips: c.clips, byId: Object.fromEntries(c.clips.map((x: Clip) => [x.id, x])), dict: d };

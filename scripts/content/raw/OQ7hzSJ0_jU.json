@@ -1,0 +1,201 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.0,
+   "end": 13.5,
+   "title": "Introducing the POCO X8 Pro Max",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜から — from",
+    "〜てくる — emergence/arrival"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.0,
+     "end": 1.8,
+     "ja": "はい、どうもこんにちは、すずです。",
+     "en": "Hello everyone, this is Suzu.",
+     "speaker": "Suzu"
+    },
+    {
+     "start": 1.8,
+     "end": 3.5,
+     "ja": "ということで今回はですね、こちらでございます。",
+     "en": "And today, we have this right here.",
+     "speaker": "Suzu"
+    },
+    {
+     "start": 3.5,
+     "end": 6.3,
+     "ja": "Xiaomiのね、高コスパサブブランドのPOCOからですね、",
+     "en": "From Xiaomi's high cost-performance sub-brand, POCO,",
+     "speaker": "Suzu"
+    },
+    {
+     "start": 6.3,
+     "end": 8.5,
+     "ja": "新しく登場しました、",
+     "en": "it's newly arrived:",
+     "speaker": "Suzu"
+    },
+    {
+     "start": 8.5,
+     "end": 10.8,
+     "ja": "最新の高コスパハイエンドスマホ、",
+     "en": "the latest high-value, high-end smartphone—",
+     "speaker": "Suzu"
+    },
+    {
+     "start": 10.8,
+     "end": 13.5,
+     "ja": "POCO X8 Pro Max、キター！",
+     "en": "the POCO X8 Pro Max is here!",
+     "speaker": "Suzu"
+    }
+   ]
+  },
+  {
+   "start": 147.5,
+   "end": 206.0,
+   "title": "Specs of the POCO X8 Pro Max",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "work"
+   ],
+   "grammar": [
+    "〜ていく — to do and move forward",
+    "〜ということで — meaning that / as for"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 148.0,
+     "end": 150.0,
+     "ja": "早速ね、開けていきましょう。",
+     "en": "Let's go ahead and open it right away.",
+     "speaker": "Suzu"
+    },
+    {
+     "start": 150.0,
+     "end": 152.2,
+     "ja": "はい、こちらね、X8 Pro Maxですね。",
+     "en": "Yes, here it is, the X8 Pro Max.",
+     "speaker": "Suzu"
+    },
+    {
+     "start": 152.2,
+     "end": 154.0,
+     "ja": "Dimensity 9500sを搭載。",
+     "en": "Equipped with the Dimensity 9500s.",
+     "speaker": "Suzu"
+    },
+    {
+     "start": 154.0,
+     "end": 156.5,
+     "ja": "バッテリーは8500mAhということで、",
+     "en": "With an 8500mAh battery,",
+     "speaker": "Suzu"
+    },
+    {
+     "start": 156.5,
+     "end": 159.8,
+     "ja": "日本市場ではですね、最大級のバッテリーですね。",
+     "en": "it has one of the largest batteries on the Japanese market.",
+     "speaker": "Suzu"
+    },
+    {
+     "start": 159.8,
+     "end": 162.5,
+     "ja": "で、あと100Wの急速充電と、",
+     "en": "And then there's 100W fast charging,",
+     "speaker": "Suzu"
+    },
+    {
+     "start": 162.5,
+     "end": 164.0,
+     "ja": "6.83インチの大画面、",
+     "en": "a large 6.83-inch screen,",
+     "speaker": "Suzu"
+    },
+    {
+     "start": 164.0,
+     "end": 166.0,
+     "ja": "で、50メガピクセルのカメラということで。",
+     "en": "and a 50-megapixel camera.",
+     "speaker": "Suzu"
+    }
+   ]
+  },
+  {
+   "start": 704.5,
+   "end": 723.5,
+   "title": "Ultrasonic Fingerprint Sensor",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜にあたる — to correspond to",
+    "〜わけですよ — that's why / you see"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 704.8,
+     "end": 707.3,
+     "ja": "来ますよ、指紋認証こちらです。",
+     "en": "Here it comes, here is the fingerprint authentication.",
+     "speaker": "Suzu"
+    },
+    {
+     "start": 707.3,
+     "end": 710.3,
+     "ja": "今回なんと、超音波式の画面内指紋認証ということでですね、",
+     "en": "This time, amazingly, it has an ultrasonic in-display fingerprint sensor,",
+     "speaker": "Suzu"
+    },
+    {
+     "start": 710.3,
+     "end": 713.3,
+     "ja": "はい、ここがでかいわけですよ。",
+     "en": "yes, and that is a really big deal.",
+     "speaker": "Suzu"
+    },
+    {
+     "start": 713.3,
+     "end": 716.5,
+     "ja": "前作にあたるPOCO F7はですね、",
+     "en": "The previous model, the POCO F7,",
+     "speaker": "Suzu"
+    },
+    {
+     "start": 716.5,
+     "end": 719.5,
+     "ja": "光学式の画面内指紋認証だったわけですけど、",
+     "en": "had an optical in-display fingerprint sensor, but",
+     "speaker": "Suzu"
+    },
+    {
+     "start": 719.5,
+     "end": 723.0,
+     "ja": "今回超音波式ということでね。",
+     "en": "this time it's ultrasonic.",
+     "speaker": "Suzu"
+    }
+   ]
+  }
+ ],
+ "videoId": "OQ7hzSJ0_jU",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

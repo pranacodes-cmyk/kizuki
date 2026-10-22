@@ -1,0 +1,241 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.7,
+   "end": 21.0,
+   "title": "A Special Discount Coupon",
+   "level": "N4",
+   "topics": [
+    "family",
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜でもらう — receive from",
+    "〜わね — feminine confirmation particle"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2.0,
+     "end": 3.4,
+     "ja": "ただいま。",
+     "en": "I'm home.",
+     "speaker": "Father"
+    },
+    {
+     "start": 3.7,
+     "end": 5.4,
+     "ja": "今日は遅かったわね。",
+     "en": "You're late today.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 5.6,
+     "end": 7.4,
+     "ja": "ああ、ちょっとな。",
+     "en": "Yeah, a bit.",
+     "speaker": "Father"
+    },
+    {
+     "start": 7.5,
+     "end": 8.8,
+     "ja": "おい、これ。",
+     "en": "Hey, take this.",
+     "speaker": "Father"
+    },
+    {
+     "start": 8.9,
+     "end": 10.0,
+     "ja": "ん？何？",
+     "en": "Hm? What is it?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 10.5,
+     "end": 13.4,
+     "ja": "やる。取引先でもらった。",
+     "en": "You can have it. Got it from a business client.",
+     "speaker": "Father"
+    },
+    {
+     "start": 13.7,
+     "end": 14.7,
+     "ja": "ん？",
+     "en": "Hm?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 15.5,
+     "end": 18.5,
+     "ja": "懐石料理、光石亭？",
+     "en": "Kaiseki cuisine, Kosekitei?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 18.8,
+     "end": 20.7,
+     "ja": "えっ？懐石料理！？",
+     "en": "Wait, kaiseki cuisine!?",
+     "speaker": "Mother"
+    }
+   ]
+  },
+  {
+   "start": 30.1,
+   "end": 48.8,
+   "title": "You Cannot Come With Me",
+   "level": "N3",
+   "topics": [
+    "family",
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜たことない — have never done",
+    "〜って言っても — even though / even if you say",
+    "〜すぎる — too / excessively"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 30.4,
+     "end": 31.9,
+     "ja": "えー、すごい！",
+     "en": "Whoa, awesome!",
+     "speaker": "Mikan"
+    },
+    {
+     "start": 32.0,
+     "end": 34.8,
+     "ja": "懐石料理だって！あたし食べたことないなぁ。",
+     "en": "Kaiseki cuisine! I've never had that before.",
+     "speaker": "Mikan"
+    },
+    {
+     "start": 35.0,
+     "end": 36.7,
+     "ja": "お母さんもよ。",
+     "en": "Neither have I.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 37.0,
+     "end": 38.6,
+     "ja": "んじゃ、いつ行く？",
+     "en": "So, when are we going?",
+     "speaker": "Mikan"
+    },
+    {
+     "start": 38.7,
+     "end": 40.0,
+     "ja": "あんたはダメ。",
+     "en": "You're not coming.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 40.1,
+     "end": 41.5,
+     "ja": "えー！？なんでよ！",
+     "en": "What!? Why not!",
+     "speaker": "Mikan"
+    },
+    {
+     "start": 41.8,
+     "end": 44.7,
+     "ja": "割引って言っても元は高そうだからねぇ。",
+     "en": "Even with a discount, the original price must be steep.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 45.0,
+     "end": 48.4,
+     "ja": "ランチに懐石なんて、ちょっと贅沢すぎるのよね。",
+     "en": "Having kaiseki for lunch is a bit too extravagant.",
+     "speaker": "Mother"
+    }
+   ]
+  },
+  {
+   "start": 320.5,
+   "end": 339.2,
+   "title": "Japanese Table Manners",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "food",
+    "family"
+   ],
+   "grammar": [
+    "〜ようにして — doing in the manner of",
+    "〜ちゃう — to accidentally do",
+    "〜かも — might / perhaps"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 320.9,
+     "end": 323.2,
+     "ja": "お刺身や天ぷらをいただく時、",
+     "en": "When having sashimi or tempura,",
+     "speaker": "Yuzuhiko"
+    },
+    {
+     "start": 323.4,
+     "end": 326.9,
+     "ja": "左手をお皿のようにして受けるのは無作法です。",
+     "en": "cupping your left hand like a plate underneath is bad manners.",
+     "speaker": "Yuzuhiko"
+    },
+    {
+     "start": 327.5,
+     "end": 329.0,
+     "ja": "こういうやつね。",
+     "en": "Like this, right?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 329.2,
+     "end": 331.3,
+     "ja": "これ、お母さん知らなかった。",
+     "en": "Mom didn't know that.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 331.4,
+     "end": 332.9,
+     "ja": "丁寧な感じするし。",
+     "en": "It feels polite, after all.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 333.2,
+     "end": 335.5,
+     "ja": "あー、それ俺もやっちゃうかも。",
+     "en": "Ah, I might do that too.",
+     "speaker": "Yuzuhiko"
+    },
+    {
+     "start": 335.6,
+     "end": 336.8,
+     "ja": "でしょう？",
+     "en": "Right?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 336.9,
+     "end": 338.9,
+     "ja": "しかし、まあ、面倒くさいもんだね。",
+     "en": "Still, it really is a hassle, huh.",
+     "speaker": "Yuzuhiko"
+    }
+   ]
+  }
+ ],
+ "videoId": "u5RS51jv27o",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

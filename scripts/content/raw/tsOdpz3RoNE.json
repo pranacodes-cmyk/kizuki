@@ -1,0 +1,115 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 544.8,
+   "end": 611.8,
+   "title": "Talking About Animals in Japanese",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜が好き — to like something",
+    "〜がいる — existence of animate objects",
+    "〜ている — ongoing action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 545.8,
+     "end": 548.3,
+     "ja": "犬が好きです。",
+     "en": "I like dogs.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 548.8,
+     "end": 551.5,
+     "ja": "犬が好きです。",
+     "en": "I like dogs.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 554.8,
+     "end": 557.5,
+     "ja": "猫がいます。",
+     "en": "There is a cat.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 558.3,
+     "end": 561.0,
+     "ja": "猫がいます。",
+     "en": "There is a cat.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 604.0,
+     "end": 607.0,
+     "ja": "鳥が飛んでいます。",
+     "en": "A bird is flying.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 607.8,
+     "end": 610.8,
+     "ja": "鳥が飛んでいます。",
+     "en": "A bird is flying.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 613.2,
+   "end": 632.0,
+   "title": "Cute Rabbits and Seeing Elephants",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜は〜です — A is B",
+    "〜を見た — saw (past tense)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 614.0,
+     "end": 616.8,
+     "ja": "うさぎはかわいいです。",
+     "en": "Rabbits are cute.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 617.8,
+     "end": 620.8,
+     "ja": "うさぎはかわいいです。",
+     "en": "Rabbits are cute.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 624.0,
+     "end": 626.8,
+     "ja": "象を見ました。",
+     "en": "I saw an elephant.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 627.8,
+     "end": 630.8,
+     "ja": "象を見ました。",
+     "en": "I saw an elephant.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "tsOdpz3RoNE",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

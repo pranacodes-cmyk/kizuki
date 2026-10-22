@@ -1,0 +1,215 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 172.2,
+   "end": 190.5,
+   "title": "Hydration Treat for Pike",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜もんね — seeking agreement with conviction",
+    "〜ちゃう — accidental or unintentional action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 172.4,
+     "end": 176.5,
+     "ja": "これは水分補給のマグロ味です。",
+     "en": "This is the hydration tuna flavor.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 177.0,
+     "end": 180.2,
+     "ja": "マグロが一番好きだもんね。",
+     "en": "Tuna is your favorite after all, isn't it?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 180.5,
+     "end": 182.2,
+     "ja": "ちょ、お鼻についてるよ。",
+     "en": "Wait, it's on your nose.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 182.3,
+     "end": 184.2,
+     "ja": "鼻についちゃってるよ。",
+     "en": "It got on your nose!",
+     "speaker": "Owner"
+    },
+    {
+     "start": 184.5,
+     "end": 186.2,
+     "ja": "お鼻についちゃってる。",
+     "en": "It ended up on your nose.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 187.5,
+     "end": 189.8,
+     "ja": "美味しいねー。",
+     "en": "It's delicious, isn't it?",
+     "speaker": "Owner"
+    }
+   ]
+  },
+  {
+   "start": 197.0,
+   "end": 213.8,
+   "title": "Offering a Snack to Pu-chan",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜の？ — casual question particle",
+    "〜でしょ — right? / isn't it?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 197.2,
+     "end": 200.0,
+     "ja": "かわいい、こんなとこにいたのプーちゃん。",
+     "en": "So cute, you were in a spot like this, Pu-chan?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 200.5,
+     "end": 202.2,
+     "ja": "プーちゃん、ちゅ〜るだよ。",
+     "en": "Pu-chan, it's Churu!",
+     "speaker": "Owner"
+    },
+    {
+     "start": 202.4,
+     "end": 204.6,
+     "ja": "プーちゃん、お休みしてたんでしょ？",
+     "en": "Pu-chan, you were resting, weren't you?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 204.7,
+     "end": 206.5,
+     "ja": "プーちゃん、ちゅ〜るだよ。",
+     "en": "Pu-chan, it's Churu!",
+     "speaker": "Owner"
+    },
+    {
+     "start": 207.0,
+     "end": 208.5,
+     "ja": "いらないの？",
+     "en": "You don't want it?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 208.7,
+     "end": 210.0,
+     "ja": "今いらない？",
+     "en": "You don't want it right now?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 210.2,
+     "end": 211.2,
+     "ja": "いる？",
+     "en": "Do you want it?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 211.5,
+     "end": 213.2,
+     "ja": "大好物でしょ？",
+     "en": "It's your favorite, isn't it?",
+     "speaker": "Owner"
+    }
+   ]
+  },
+  {
+   "start": 503.0,
+   "end": 523.0,
+   "title": "Feeding Churu to Both Cats",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜て言ってる — saying that...",
+    "〜ないで — please do not..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 503.2,
+     "end": 505.5,
+     "ja": "あ、「くれくれくれ」って言ってる。",
+     "en": "Ah, she's saying 'gimme, gimme, gimme.'",
+     "speaker": "Owner"
+    },
+    {
+     "start": 505.8,
+     "end": 507.0,
+     "ja": "くれくれ。",
+     "en": "Gimme, gimme.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 507.2,
+     "end": 509.8,
+     "ja": "すごい、食欲もすごいです。",
+     "en": "Wow, her appetite is amazing too.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 510.5,
+     "end": 513.5,
+     "ja": "あんたさっき食べたでしょ。",
+     "en": "You already ate a moment ago, didn't you?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 514.0,
+     "end": 516.2,
+     "ja": "美味しいねー。",
+     "en": "It's delicious, right?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 516.5,
+     "end": 518.2,
+     "ja": "くれくれしないで。",
+     "en": "Don't be so demanding.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 518.5,
+     "end": 520.2,
+     "ja": "はいはいはい。",
+     "en": "Alright, alright.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 520.5,
+     "end": 522.5,
+     "ja": "もうないよー。",
+     "en": "There's no more left!",
+     "speaker": "Owner"
+    }
+   ]
+  }
+ ],
+ "videoId": "xWd33E2f7to",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

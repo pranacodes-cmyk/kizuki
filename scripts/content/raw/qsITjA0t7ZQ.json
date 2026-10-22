@@ -1,0 +1,183 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 22.6,
+   "end": 36.8,
+   "title": "HEAT Rounds and Conflict Zone Schools",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ば〜だけ — the more... the more...",
+    "〜ても — even if / no matter",
+    "〜とく — to do in advance"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 22.8,
+     "end": 25.1,
+     "ja": "近ければ近いだけダメージ入ると普通思うでしょ！",
+     "en": "You'd normally think that the closer you are, the more damage it does!",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 25.2,
+     "end": 27.5,
+     "ja": "HEAT弾はどの距離から当てても威力は一緒だ。",
+     "en": "HEAT rounds have the same power no matter what distance you hit from.",
+     "speaker": "Marisa"
+    },
+    {
+     "start": 27.6,
+     "end": 29.6,
+     "ja": "これぐらい小学生でも知ってるぞ。",
+     "en": "Even elementary schoolers know this much.",
+     "speaker": "Marisa"
+    },
+    {
+     "start": 29.7,
+     "end": 33.0,
+     "ja": "紛争地帯の学校の話はやめてください、ここ日本なんで。",
+     "en": "Stop talking about schools in conflict zones, this is Japan.",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 33.1,
+     "end": 34.8,
+     "ja": "それで今回は何をやるんだ？",
+     "en": "So what are we doing this time?",
+     "speaker": "Marisa"
+    },
+    {
+     "start": 34.9,
+     "end": 36.6,
+     "ja": "ああそうだった、軽く紹介しとかないと。",
+     "en": "Oh right, I need to do a quick introduction.",
+     "speaker": "Reimu"
+    }
+   ]
+  },
+  {
+   "start": 67.5,
+   "end": 80.5,
+   "title": "Stop Camping and Push Forward",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ては — if / when (leads to negative result)",
+    "〜んだもん — because (explaining/excusing)",
+    "〜ないで — without doing / instead of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 67.7,
+     "end": 69.8,
+     "ja": "ん？それで今のところ何キルしてるんだ？",
+     "en": "Hmm? So how many kills do you have so far?",
+     "speaker": "Marisa"
+    },
+    {
+     "start": 69.9,
+     "end": 71.0,
+     "ja": "え、ゼロだけど。",
+     "en": "Uh, zero.",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 71.1,
+     "end": 73.3,
+     "ja": "こんなクソみたいな芋プレーしてて、はーゼロすか。",
+     "en": "You did all this crappy camping and got, whew, zero?",
+     "speaker": "Marisa"
+    },
+    {
+     "start": 73.4,
+     "end": 76.1,
+     "ja": "いやだって援護するのが仕事だし敵ちっさくて見えないんだもん。",
+     "en": "Well, providing cover is my job, and the enemies are so tiny I can't see them!",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 76.2,
+     "end": 78.1,
+     "ja": "なら芋ってないでとっとと味方と攻めろよ！",
+     "en": "Then stop camping and hurry up and push with our allies!",
+     "speaker": "Marisa"
+    },
+    {
+     "start": 78.2,
+     "end": 80.3,
+     "ja": "ぐすん、魔理沙に怒られたので味方と進行中。",
+     "en": "Sob, Marisa yelled at me, so I'm moving up with my allies.",
+     "speaker": "Reimu"
+    }
+   ]
+  },
+  {
+   "start": 276.5,
+   "end": 287.4,
+   "title": "Learning to Fly a Helicopter",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てからは — ever since doing",
+    "〜た方がいい — had better / should",
+    "〜てやる — do for oneself / will definitely do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 276.6,
+     "end": 278.2,
+     "ja": "てか私もヘリ乗りたいいい！",
+     "en": "By the way, I want to fly a helicopter too!",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 278.3,
+     "end": 280.0,
+     "ja": "それで、操縦できるのかよ。",
+     "en": "And can you actually fly one?",
+     "speaker": "Marisa"
+    },
+    {
+     "start": 280.1,
+     "end": 283.1,
+     "ja": "一回真っ逆さまに落ちて味方に迷惑かけてからは飛んでないわ。",
+     "en": "I haven't flown since I crashed headfirst once and caused trouble for my team.",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 283.2,
+     "end": 284.9,
+     "ja": "あ、なら一生乗らない方がいいな。",
+     "en": "Ah, then you shouldn't ever fly one again.",
+     "speaker": "Marisa"
+    },
+    {
+     "start": 285.0,
+     "end": 287.2,
+     "ja": "いや練習して絶対ヘリパイ動画出してやるからね。",
+     "en": "No, I'm gonna practice and definitely put out a heli pilot video!",
+     "speaker": "Reimu"
+    }
+   ]
+  }
+ ],
+ "videoId": "qsITjA0t7ZQ",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

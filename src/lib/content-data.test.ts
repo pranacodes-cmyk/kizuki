@@ -10,7 +10,8 @@ type Dict = Record<string, { w: string; r: string; m: { pos: string[]; g: string
 
 const root = path.resolve(__dirname, "../..");
 const read = (p: string) => fs.readFileSync(path.join(root, p), "utf8");
-const content = JSON.parse(read("public/data/content.json")) as Data;
+const meta = JSON.parse(read("public/data/content.json")) as { parts: string[] };
+const content = { clips: meta.parts.flatMap((p) => (JSON.parse(read(`public/data/${p}`)) as Data).clips) } as Data;
 const dict = JSON.parse(read("public/data/dict.json")) as Dict;
 const words = content.clips.flatMap((c) => c.lines.flatMap((l) => l.words));
 const glossOf = (surface: string) => {
@@ -58,6 +59,6 @@ describe("clip word meanings", () => {
   });
 
   it("the Android app ships exactly the same data", () => {
-    for (const f of ["content.json", "dict.json"]) expect(read(`mobile/assets/data/${f}`)).toBe(read(`public/data/${f}`));
+    for (const f of ["content.json", "dict.json", ...meta.parts]) expect(read(`mobile/assets/data/${f}`)).toBe(read(`public/data/${f}`));
   });
 });

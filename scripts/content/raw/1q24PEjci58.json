@@ -1,0 +1,164 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 8.8,
+   "end": 25.7,
+   "title": "Huge Haul from the 100-Yen Shops",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜と思う — think that",
+    "〜ていく — will go on to do",
+    "〜たいと思う — would like to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 8.8,
+     "end": 10.8,
+     "ja": "こんにちは、のあです！",
+     "en": "Hello, I'm Noa!",
+     "speaker": "Noa"
+    },
+    {
+     "start": 11.0,
+     "end": 15.5,
+     "ja": "今回はダイソーとStandard ProductsとTHREEPPYっていうお店で、",
+     "en": "This time, at Daiso, Standard Products, and a shop called Threeppy,",
+     "speaker": "Noa"
+    },
+    {
+     "start": 15.9,
+     "end": 19.8,
+     "ja": "大量に爆買いをしてきて、もうここに見えてると思うんですけど、",
+     "en": "I went on a huge shopping spree, and I think you can already see it here, but",
+     "speaker": "Noa"
+    },
+    {
+     "start": 20.1,
+     "end": 25.6,
+     "ja": "せっかくなので、ちょっと1つ1つ商品を紹介していきたいと思います！",
+     "en": "since I bought them, I'd like to show you each of the items!",
+     "speaker": "Noa"
+    }
+   ]
+  },
+  {
+   "start": 446.2,
+   "end": 458.0,
+   "title": "Too Many Snacks for One Person",
+   "level": "N3",
+   "topics": [
+    "food",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜ばっかり — nothing but / only",
+    "〜ちゃう — ended up doing",
+    "〜きれない — impossible to finish",
+    "〜てもらう — have someone do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 446.2,
+     "end": 449.4,
+     "ja": "でも私のものばっかりなんですけど、",
+     "en": "Even though it's almost all for me,",
+     "speaker": "Noa"
+    },
+    {
+     "start": 449.6,
+     "end": 452.4,
+     "ja": "気づいたらこんなにお菓子をたくさん買っちゃっていて、",
+     "en": "before I knew it, I had bought so many snacks,",
+     "speaker": "Noa"
+    },
+    {
+     "start": 452.6,
+     "end": 454.9,
+     "ja": "さすがに私だけじゃ食べきれないので、",
+     "en": "and honestly I can't eat all this by myself, so",
+     "speaker": "Noa"
+    },
+    {
+     "start": 455.1,
+     "end": 458.0,
+     "ja": "弟とか家族みんなに食べてもらおうと思います。",
+     "en": "I think I'll have my younger brother and the rest of the family eat them.",
+     "speaker": "Noa"
+    }
+   ]
+  },
+  {
+   "start": 514.8,
+   "end": 533.6,
+   "title": "Wrapping Up the Video",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜になる — become / turn out",
+    "〜たら嬉しい — would be glad if",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 514.8,
+     "end": 517.6,
+     "ja": "ということで、今回の動画はこれで終わりになります！",
+     "en": "And with that, this brings us to the end of this video!",
+     "speaker": "Noa"
+    },
+    {
+     "start": 517.8,
+     "end": 521.9,
+     "ja": "この動画がいいなと思ったら、グッドボタンとチャンネル登録よろしくお願いします！",
+     "en": "If you enjoyed this video, please give it a thumbs-up and subscribe to the channel!",
+     "speaker": "Noa"
+    },
+    {
+     "start": 522.1,
+     "end": 526.4,
+     "ja": "概要欄の方には、TikTok、Instagram、お菓子のInstagramなど、",
+     "en": "In the description box, my TikTok, Instagram, sweets Instagram, etc.",
+     "speaker": "Noa"
+    },
+    {
+     "start": 526.6,
+     "end": 528.3,
+     "ja": "私の情報がたくさん載っているので、",
+     "en": "have a lot of info about me,",
+     "speaker": "Noa"
+    },
+    {
+     "start": 528.4,
+     "end": 530.9,
+     "ja": "ぜひチェックしてみてもらえたら嬉しいです！",
+     "en": "so I'd be happy if you'd go check them out!",
+     "speaker": "Noa"
+    },
+    {
+     "start": 531.0,
+     "end": 533.6,
+     "ja": "それではまた次の動画まで、バイバーイ！",
+     "en": "Until the next video, bye-bye!",
+     "speaker": "Noa"
+    }
+   ]
+  }
+ ],
+ "videoId": "1q24PEjci58",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

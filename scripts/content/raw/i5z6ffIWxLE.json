@@ -1,0 +1,176 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 605.8,
+   "end": 631.5,
+   "title": "Shelved for a Whole Year",
+   "level": "N3",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜わけがない — no way / impossible",
+    "〜てくれる — do for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 606.0,
+     "end": 611.3,
+     "ja": "それから1年間、全くのお蔵入り、",
+     "en": "For one year after that, it was completely shelved.",
+     "speaker": "Jin Tatsumura"
+    },
+    {
+     "start": 611.5,
+     "end": 613.2,
+     "ja": "お蔵入りっていうのは、",
+     "en": "Being shelved means",
+     "speaker": "Jin Tatsumura"
+    },
+    {
+     "start": 613.3,
+     "end": 616.0,
+     "ja": "上映するチャンスがないということです。",
+     "en": "having no opportunity to be screened.",
+     "speaker": "Jin Tatsumura"
+    },
+    {
+     "start": 616.3,
+     "end": 618.0,
+     "ja": "でお蔵入り状態だった。",
+     "en": "So it was completely locked away.",
+     "speaker": "Jin Tatsumura"
+    },
+    {
+     "start": 618.1,
+     "end": 620.5,
+     "ja": "色んな試写会をやってもどこもやってくれなかった。",
+     "en": "Even after many preview screenings, nowhere would take it.",
+     "speaker": "Jin Tatsumura"
+    },
+    {
+     "start": 620.8,
+     "end": 626.0,
+     "ja": "その理由は、こういう映画にお客さんが来るわけがないという。",
+     "en": "The reason was, 'There is no way audiences will come to this kind of movie.'",
+     "speaker": "Jin Tatsumura"
+    },
+    {
+     "start": 626.3,
+     "end": 629.5,
+     "ja": "だから、やっても映画館が損するだけだ、映画チェーンはやらない。",
+     "en": "'So screening it would only lose money; movie chains won't show it.'",
+     "speaker": "Jin Tatsumura"
+    },
+    {
+     "start": 629.8,
+     "end": 631.2,
+     "ja": "それが1年間続いたんです。",
+     "en": "That went on for a whole year.",
+     "speaker": "Jin Tatsumura"
+    }
+   ]
+  },
+  {
+   "start": 644.0,
+   "end": 700.0,
+   "title": "A Ridiculous Condition to Screen the Film",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜てくれ — quoted request",
+    "〜たら — if/when conditional",
+    "〜てあげる — do a favor for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 644.2,
+     "end": 648.8,
+     "ja": "まあ、とても嬉しかったんですが、その条件がなんと、",
+     "en": "Well, I was very glad, but shockingly, the condition was...",
+     "speaker": "Jin Tatsumura"
+    },
+    {
+     "start": 649.0,
+     "end": 654.0,
+     "ja": "私が3000枚の切符を先に買い取ってくれと。",
+     "en": "...that I buy 3,000 tickets up front.",
+     "speaker": "Jin Tatsumura"
+    },
+    {
+     "start": 655.2,
+     "end": 659.8,
+     "ja": "で、先に買い取ったら2週間空けてあげるというね、そういう条件でした。",
+     "en": "And if I bought them in advance, they'd give me two weeks of screen time.",
+     "speaker": "Jin Tatsumura"
+    }
+   ]
+  },
+  {
+   "start": 1136.2,
+   "end": 1153.0,
+   "title": "There Are No Actresses, but an Elephant",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜って聞かれる — being asked (passive quotation)",
+    "〜ても — even if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1136.4,
+     "end": 1139.2,
+     "ja": "「どんな女優さん出てるの？」って聞かれる。",
+     "en": "People ask, 'What actresses are in it?'",
+     "speaker": "Jin Tatsumura"
+    },
+    {
+     "start": 1139.5,
+     "end": 1143.5,
+     "ja": "いや、女優さんは出てないけど象が出てる、とかね。",
+     "en": "'Well, there are no actresses, but an elephant is in it,' and so on.",
+     "speaker": "Jin Tatsumura"
+    },
+    {
+     "start": 1144.8,
+     "end": 1146.8,
+     "ja": "トマトが出てる、とか。",
+     "en": "Or, 'A tomato is in it.'",
+     "speaker": "Jin Tatsumura"
+    },
+    {
+     "start": 1147.2,
+     "end": 1149.2,
+     "ja": "で、結局のところ何が起こるか、",
+     "en": "So in the end, what happens?",
+     "speaker": "Jin Tatsumura"
+    },
+    {
+     "start": 1149.5,
+     "end": 1152.8,
+     "ja": "どんな映画か、話聞いても分からない。",
+     "en": "Even if you hear about it, you still have no idea what kind of movie it is.",
+     "speaker": "Jin Tatsumura"
+    }
+   ]
+  }
+ ],
+ "videoId": "i5z6ffIWxLE",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

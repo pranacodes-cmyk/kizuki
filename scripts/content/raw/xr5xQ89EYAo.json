@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.0,
+   "end": 22.5,
+   "title": "After-School Vlog Introduction",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜たいと思う — express desire/intention",
+    "そろそろ — about time"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 12.8,
+     "end": 15.0,
+     "ja": "皆さんこんにちは、つきです。",
+     "en": "Hello everyone, I'm Tsuki.",
+     "speaker": "Tsuki"
+    },
+    {
+     "start": 15.7,
+     "end": 18.9,
+     "ja": "今回は放課後を撮っていきたいと思います。",
+     "en": "This time, I'd like to film my after-school routine.",
+     "speaker": "Tsuki"
+    },
+    {
+     "start": 19.8,
+     "end": 21.8,
+     "ja": "そろそろブレザーの季節。",
+     "en": "It's almost blazer season.",
+     "speaker": "Tsuki"
+    }
+   ]
+  },
+  {
+   "start": 188.7,
+   "end": 214.5,
+   "title": "Chatting in the Taxi",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜たい — want to",
+    "〜から — because / since"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 203.2,
+     "end": 204.6,
+     "ja": "これ切り取る？",
+     "en": "Should we crop this?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 205.5,
+     "end": 206.9,
+     "ja": "ワンチャン？",
+     "en": "Maybe?",
+     "speaker": "Tsuki"
+    },
+    {
+     "start": 209.1,
+     "end": 210.4,
+     "ja": "でもね、",
+     "en": "But you know,",
+     "speaker": "Friend"
+    },
+    {
+     "start": 210.4,
+     "end": 211.7,
+     "ja": "顔が綺麗だからね、",
+     "en": "since your face looks pretty,",
+     "speaker": "Friend"
+    },
+    {
+     "start": 211.7,
+     "end": 213.9,
+     "ja": "顔も映したいものだよね。",
+     "en": "we'd want to show your face too, right?",
+     "speaker": "Friend"
+    }
+   ]
+  },
+  {
+   "start": 894.7,
+   "end": 911.9,
+   "title": "Heading Home at 10 PM",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜ないといけない — have to / must",
+    "〜たらいいなと思う — hope/wish that"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 895.0,
+     "end": 897.4,
+     "ja": "今は10時です。",
+     "en": "It's 10 o'clock now.",
+     "speaker": "Tsuki"
+    },
+    {
+     "start": 898.7,
+     "end": 901.8,
+     "ja": "まだ18歳になってないので、",
+     "en": "Since I'm not 18 yet,",
+     "speaker": "Tsuki"
+    },
+    {
+     "start": 902.9,
+     "end": 905.8,
+     "ja": "10時に帰らないといけないので、",
+     "en": "I have to head home by 10 o'clock.",
+     "speaker": "Tsuki"
+    },
+    {
+     "start": 906.5,
+     "end": 908.7,
+     "ja": "残りは、おうちに帰ってから、",
+     "en": "As for the rest, once I get back home,",
+     "speaker": "Tsuki"
+    },
+    {
+     "start": 908.7,
+     "end": 911.3,
+     "ja": "勉強できたらいいなと思ってます。",
+     "en": "I hope I can study a bit more.",
+     "speaker": "Tsuki"
+    }
+   ]
+  }
+ ],
+ "videoId": "xr5xQ89EYAo",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

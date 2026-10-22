@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.7,
+   "end": 9.5,
+   "title": "Reviewing 7-Eleven Convenience Foods",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていきたい — wanting to do going forward",
+    "〜ながら — while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 2.0,
+     "ja": "どうも、にくまんです。",
+     "en": "Hello, this is Nikuman.",
+     "speaker": "Nikuman"
+    },
+    {
+     "start": 2.2,
+     "end": 5.1,
+     "ja": "今回はセブン-イレブンで買ってきた商品を",
+     "en": "This time, I'd like to introduce products",
+     "speaker": "Nikuman"
+    },
+    {
+     "start": 5.1,
+     "end": 7.1,
+     "ja": "紹介していきたいと思います。",
+     "en": "that I bought at 7-Eleven.",
+     "speaker": "Nikuman"
+    },
+    {
+     "start": 7.1,
+     "end": 9.2,
+     "ja": "食べながら紹介したいと思います。",
+     "en": "I'd like to introduce them while eating.",
+     "speaker": "Nikuman"
+    }
+   ]
+  },
+  {
+   "start": 62.0,
+   "end": 77.3,
+   "title": "Fluffy Bacon Mayo Bread",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜そう — looks like / seems like",
+    "〜けど — but / although"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 62.0,
+     "end": 66.8,
+     "ja": "なんか見た感じから、すごくふわふわしてそうなパンで美味しそうです。",
+     "en": "From the looks of it, it looks super fluffy and delicious.",
+     "speaker": "Nikuman"
+    },
+    {
+     "start": 67.0,
+     "end": 69.6,
+     "ja": "普段、ハム、ベーコン、マヨとか",
+     "en": "I don't usually eat bread with things like ham,",
+     "speaker": "Nikuman"
+    },
+    {
+     "start": 69.7,
+     "end": 72.0,
+     "ja": "入ってるパン食べないんですけど、",
+     "en": "bacon, or mayo in it,",
+     "speaker": "Nikuman"
+    },
+    {
+     "start": 72.1,
+     "end": 74.9,
+     "ja": "すごく美味しそうだなと感じました。",
+     "en": "but I felt like this looked really good.",
+     "speaker": "Nikuman"
+    },
+    {
+     "start": 75.0,
+     "end": 77.1,
+     "ja": "見た目がすごい良いですね。",
+     "en": "It looks really nice.",
+     "speaker": "Nikuman"
+    }
+   ]
+  },
+  {
+   "start": 627.0,
+   "end": 641.2,
+   "title": "Tasting Egg and Chicken Rice Porridge",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜のかな — wondering if",
+    "〜やすい — easy to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 627.1,
+     "end": 629.0,
+     "ja": "うん、美味しい！",
+     "en": "Mmm, delicious!",
+     "speaker": "Nikuman"
+    },
+    {
+     "start": 629.4,
+     "end": 632.4,
+     "ja": "出汁がしっかり利いてますね。",
+     "en": "The broth flavor really comes through.",
+     "speaker": "Nikuman"
+    },
+    {
+     "start": 632.8,
+     "end": 635.3,
+     "ja": "鶏肉の出汁なのかな？",
+     "en": "Is it chicken broth, I wonder?",
+     "speaker": "Nikuman"
+    },
+    {
+     "start": 635.6,
+     "end": 639.2,
+     "ja": "すごいしっかり、この卵粥に味がついてるので、",
+     "en": "Since this egg porridge is seasoned so well,",
+     "speaker": "Nikuman"
+    },
+    {
+     "start": 639.3,
+     "end": 640.7,
+     "ja": "食べやすい。",
+     "en": "it's very easy to eat.",
+     "speaker": "Nikuman"
+    }
+   ]
+  }
+ ],
+ "videoId": "Z1QgdWwJVkg",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

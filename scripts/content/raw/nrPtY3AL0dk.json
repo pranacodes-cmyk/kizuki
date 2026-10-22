@@ -1,0 +1,207 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.275,
+   "end": 1.455,
+   "title": "Why Aren't You Eating?",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜んです — explanation or reason",
+    "調子が悪い — in bad condition"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.278,
+     "end": 1.305,
+     "ja": "どうして食べないんですか？",
+     "en": "Why aren't you eating?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.31,
+     "end": 1.325,
+     "ja": "1番。",
+     "en": "Number 1.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.332,
+     "end": 1.352,
+     "ja": "朝食べました。",
+     "en": "I ate this morning.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.358,
+     "end": 1.37,
+     "ja": "2番。",
+     "en": "Number 2.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.373,
+     "end": 1.398,
+     "ja": "昨日食べたんです。",
+     "en": "I ate yesterday.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.404,
+     "end": 1.413,
+     "ja": "3番。",
+     "en": "Number 3.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.415,
+     "end": 1.448,
+     "ja": "お腹の調子が悪いんです。",
+     "en": "My stomach is feeling upset.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 3.57,
+   "end": 4.2,
+   "title": "Which Dish is Ready Faster?",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "AとBとどちらが〜 — which between A and B",
+    "〜のほうが — comparison (is more ...)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.576,
+     "end": 4.045,
+     "ja": "うどんと焼き肉定食とどちらが早くできますか？",
+     "en": "Between the udon and the yakiniku set, which will be ready faster?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 4.055,
+     "end": 4.068,
+     "ja": "1番。",
+     "en": "Number 1.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 4.07,
+     "end": 4.095,
+     "ja": "うどんのほうが早いです。",
+     "en": "The udon is faster.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 4.1,
+     "end": 4.114,
+     "ja": "2番。",
+     "en": "Number 2.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 4.117,
+     "end": 4.14,
+     "ja": "うどんのほうが遅いです。",
+     "en": "The udon is slower.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 4.146,
+     "end": 4.158,
+     "ja": "3番。",
+     "en": "Number 3.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 4.16,
+     "end": 4.19,
+     "ja": "うどんのほうがおいしいです。",
+     "en": "The udon is more delicious.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 4.315,
+   "end": 4.55,
+   "title": "You Look Sleepy",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜そう — looks like / seems like",
+    "〜しか＋否定 — only / nothing but"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.324,
+     "end": 4.355,
+     "ja": "なんだか眠そうですね。",
+     "en": "You look somewhat sleepy.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 4.36,
+     "end": 4.372,
+     "ja": "1番。",
+     "en": "Number 1.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 4.374,
+     "end": 4.418,
+     "ja": "ええ、4時間しか寝たので眠いです。",
+     "en": "Yeah, because I only slept four hours, I'm sleepy.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 4.425,
+     "end": 4.438,
+     "ja": "2番。",
+     "en": "Number 2.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 4.442,
+     "end": 4.484,
+     "ja": "ええ、4時間しか寝ませんでしたから眠いです。",
+     "en": "Yeah, because I only slept four hours, I'm sleepy.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 4.49,
+     "end": 4.502,
+     "ja": "3番。",
+     "en": "Number 3.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 4.505,
+     "end": 4.545,
+     "ja": "ええ、4時間しか寝ないので眠いです。",
+     "en": "Yeah, because I only sleep four hours, I'm sleepy.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "nrPtY3AL0dk",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

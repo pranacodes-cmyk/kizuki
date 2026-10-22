@@ -1,0 +1,179 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 34.5,
+   "end": 52.0,
+   "title": "Chaos in the Classroom",
+   "level": "N3",
+   "topics": [
+    "school",
+    "comedy",
+    "friends"
+   ],
+   "grammar": [
+    "〜てんじゃん — isn't it / you're doing (colloquial)",
+    "〜てくる — go and do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 34.8,
+     "end": 36.0,
+     "ja": "くっさ！",
+     "en": "It stinks!",
+     "speaker": "Kishi"
+    },
+    {
+     "start": 36.3,
+     "end": 39.7,
+     "ja": "お前、うんこ漏らしてんじゃん、お前！マジか、お前！",
+     "en": "Dude, you pooped your pants! Are you serious?!",
+     "speaker": "Kishi"
+    },
+    {
+     "start": 39.9,
+     "end": 41.8,
+     "ja": "おい、大丈夫か、和田？おい！",
+     "en": "Hey, are you okay, Wada? Hey!",
+     "speaker": "Aoyama"
+    },
+    {
+     "start": 42.0,
+     "end": 43.0,
+     "ja": "やばっ！",
+     "en": "Oh crap!",
+     "speaker": "Wada"
+    },
+    {
+     "start": 43.3,
+     "end": 45.0,
+     "ja": "あ、ちょ、トイレ行ってくるわ。",
+     "en": "Ah, I'm gonna run to the bathroom.",
+     "speaker": "Wada"
+    },
+    {
+     "start": 45.2,
+     "end": 48.6,
+     "ja": "やめろよ、お前！おい、和田、大丈夫か？",
+     "en": "Cut it out, man! Hey, Wada, are you okay?",
+     "speaker": "Aoyama"
+    },
+    {
+     "start": 48.8,
+     "end": 51.5,
+     "ja": "やめろよ、ほんまにそういうこと言うの！かわいそうだろ！",
+     "en": "Stop saying things like that, seriously! Poor guy!",
+     "speaker": "Aoyama"
+    }
+   ]
+  },
+  {
+   "start": 107.2,
+   "end": 129.5,
+   "title": "Teasing a Classmate",
+   "level": "N3",
+   "topics": [
+    "school",
+    "comedy",
+    "friends"
+   ],
+   "grammar": [
+    "〜わけねえ — no way that (colloquial わけがない)",
+    "〜じゃん — isn't it / didn't he"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 107.5,
+     "end": 109.3,
+     "ja": "昨日、和田ヤバかったな。",
+     "en": "Wada was crazy yesterday, huh?",
+     "speaker": "Kishi"
+    },
+    {
+     "start": 109.6,
+     "end": 111.8,
+     "ja": "やめろよ、お前そういうこと言うの。",
+     "en": "Stop saying stuff like that, man.",
+     "speaker": "Aoyama"
+    },
+    {
+     "start": 112.0,
+     "end": 113.9,
+     "ja": "高校生にもなって、うんこ漏らす？",
+     "en": "Who poops their pants when they're in high school?",
+     "speaker": "Kishi"
+    },
+    {
+     "start": 114.1,
+     "end": 116.3,
+     "ja": "だからやめろって！もう仕方ねえだろ、お前そんなの。",
+     "en": "I told you to stop! He couldn't help it, man.",
+     "speaker": "Aoyama"
+    },
+    {
+     "start": 116.5,
+     "end": 117.7,
+     "ja": "今日、和田来てねえじゃん。",
+     "en": "Wada hasn't even shown up today.",
+     "speaker": "Kishi"
+    },
+    {
+     "start": 117.9,
+     "end": 119.8,
+     "ja": "そりゃそうだろ、あんなことあったら来れるわけねえだろ。",
+     "en": "Well obviously, there's no way he could come after that.",
+     "speaker": "Aoyama"
+    },
+    {
+     "start": 120.0,
+     "end": 122.0,
+     "ja": "うんこ漏らした次の日って、どんな顔で来んのかな。",
+     "en": "I wonder what kind of face someone makes coming to school the next day.",
+     "speaker": "Kishi"
+    },
+    {
+     "start": 122.1,
+     "end": 123.8,
+     "ja": "やめろ、お前そういうこと言うの！",
+     "en": "Stop saying things like that!",
+     "speaker": "Aoyama"
+    },
+    {
+     "start": 124.0,
+     "end": 125.3,
+     "ja": "来たらめちゃくちゃいじろうな。",
+     "en": "When he gets here, let's tease him like crazy.",
+     "speaker": "Kishi"
+    },
+    {
+     "start": 125.5,
+     "end": 126.5,
+     "ja": "絶対やめろ！",
+     "en": "Definitely don't do that!",
+     "speaker": "Aoyama"
+    },
+    {
+     "start": 126.7,
+     "end": 127.4,
+     "ja": "いや、いじろう！",
+     "en": "No, let's tease him!",
+     "speaker": "Kishi"
+    },
+    {
+     "start": 127.5,
+     "end": 129.3,
+     "ja": "やめろ、お前そういうとこ良くないぞ、マジで。",
+     "en": "Stop it, you're not cool for doing that, seriously.",
+     "speaker": "Aoyama"
+    }
+   ]
+  }
+ ],
+ "videoId": "6i-tuT31HTM",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

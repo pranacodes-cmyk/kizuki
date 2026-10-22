@@ -1,0 +1,168 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.2,
+   "end": 24.5,
+   "title": "Atmosphere Changes in Interleague Play",
+   "level": "N3",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜と…になる — when/if",
+    "〜たり〜たり — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.8,
+     "end": 17.0,
+     "ja": "そうですね、交流戦になると球場がやっぱり変わるんで、",
+     "en": "Well, when interleague play starts, the stadiums change,",
+     "speaker": "Kimura"
+    },
+    {
+     "start": 17.3,
+     "end": 20.4,
+     "ja": "普段の感覚とはまた違うっていうか、",
+     "en": "so it feels different from usual, or rather,",
+     "speaker": "Kimura"
+    },
+    {
+     "start": 20.6,
+     "end": 23.9,
+     "ja": "チームの雰囲気も変わりますし、そういったところが違うかなと思いますね。",
+     "en": "the team atmosphere changes too, so I think that's what's different.",
+     "speaker": "Kimura"
+    }
+   ]
+  },
+  {
+   "start": 200.2,
+   "end": 222.5,
+   "title": "Breaking Team Boundaries",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜を機に — taking this opportunity to",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 200.6,
+     "end": 204.0,
+     "ja": "二人でお食事とか行かれたことはないんですか？",
+     "en": "Haven't you two ever gone out to eat together?",
+     "speaker": "Host"
+    },
+    {
+     "start": 204.3,
+     "end": 207.2,
+     "ja": "やっぱ同期入団ですから、同期ですからね。",
+     "en": "After all, you joined in the same draft year.",
+     "speaker": "Sugiya"
+    },
+    {
+     "start": 207.3,
+     "end": 209.0,
+     "ja": "チームは違えど。",
+     "en": "Even though you're on different teams.",
+     "speaker": "Host"
+    },
+    {
+     "start": 209.2,
+     "end": 213.0,
+     "ja": "全然、あの、今日話すのも初めてですね。",
+     "en": "Not at all. In fact, today is the first time we've spoken.",
+     "speaker": "Kimura"
+    },
+    {
+     "start": 213.4,
+     "end": 217.4,
+     "ja": "なるほどね。じゃあ今この場で話して、これを機にコミュニケーションをとってね。",
+     "en": "I see. Well, now that you're talking here, take this chance to connect!",
+     "speaker": "Sugiya"
+    },
+    {
+     "start": 217.7,
+     "end": 220.0,
+     "ja": "そうですね、自分から誘いたいと思います。",
+     "en": "Yeah, I'd like to invite him myself.",
+     "speaker": "Kimura"
+    },
+    {
+     "start": 220.1,
+     "end": 222.3,
+     "ja": "お、うわ、嬉しいね！チームの垣根を越えてね。",
+     "en": "Oh wow, that's great! Crossing team boundaries.",
+     "speaker": "Sugiya"
+    }
+   ]
+  },
+  {
+   "start": 442.0,
+   "end": 461.5,
+   "title": "A Cheeky Junior from High School",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "school",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜たら — when / if",
+    "〜って言われる — to be told that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 442.3,
+     "end": 444.0,
+     "ja": "これは？",
+     "en": "What about this one?",
+     "speaker": "Host"
+    },
+    {
+     "start": 444.2,
+     "end": 449.1,
+     "ja": "そうですね、あの、高校の後輩で、すごい生意気なので。",
+     "en": "Well, he's my junior from high school, and he's really cheeky.",
+     "speaker": "Matsuo"
+    },
+    {
+     "start": 449.8,
+     "end": 455.7,
+     "ja": "たまに連絡来るんですけど、「対戦したらお手柔らかにね」みたいに言ったら、",
+     "en": "He contacts me sometimes, and when I told him to go easy on me if we face off...",
+     "speaker": "Matsuo"
+    },
+    {
+     "start": 456.0,
+     "end": 459.0,
+     "ja": "「いや、どうせ打てないでしょ」みたいに言われたんで。",
+     "en": "...he said, \"Well, you won't be able to hit off me anyway.\"",
+     "speaker": "Matsuo"
+    },
+    {
+     "start": 459.2,
+     "end": 461.2,
+     "ja": "そんな関係性なんですか？",
+     "en": "Is that the kind of relationship you have?",
+     "speaker": "Sugiya"
+    }
+   ]
+  }
+ ],
+ "videoId": "VydZ32MBU1M",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

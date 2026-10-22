@@ -1,0 +1,139 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 38.7,
+   "end": 53.8,
+   "title": "Debating Tax Reductions in the Diet",
+   "level": "N2",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜について — regarding / about",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 38.9,
+     "end": 42.5,
+     "ja": "ま、レジの問題もあるので、1％までまず下げますと。",
+     "en": "Well, partly due to the cash register issue, we would first lower it to 1%.",
+     "speaker": "玉木代表"
+    },
+    {
+     "start": 42.8,
+     "end": 45.4,
+     "ja": "で、残りの1％分は給付でありますと。",
+     "en": "And the remaining 1% portion would be handled via benefits.",
+     "speaker": "玉木代表"
+    },
+    {
+     "start": 45.8,
+     "end": 50.8,
+     "ja": "これについては残念ながらですね、国民会議で全く各党の合意が得られていません。",
+     "en": "Regarding this, unfortunately, no agreement among the parties has been reached at the National Council at all.",
+     "speaker": "玉木代表"
+    },
+    {
+     "start": 51.0,
+     "end": 53.5,
+     "ja": "総理のお考えをお聞かせください。",
+     "en": "Please share your thoughts on this, Prime Minister.",
+     "speaker": "玉木代表"
+    }
+   ]
+  },
+  {
+   "start": 144.0,
+   "end": 156.6,
+   "title": "A Request for Live Debate",
+   "level": "N2",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜ていただきたい — wish for someone to do",
+    "ご〜 — honorific prefix"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 144.3,
+     "end": 148.8,
+     "ja": "あの、ちょっと読み物を読まれていることが残念です。",
+     "en": "Well, it is somewhat disappointing that you are reading from prepared text.",
+     "speaker": "小川代表"
+    },
+    {
+     "start": 149.4,
+     "end": 152.7,
+     "ja": "できるだけご自身の言葉で咀嚼をして、",
+     "en": "Digest it in your own words as much as possible,",
+     "speaker": "小川代表"
+    },
+    {
+     "start": 152.9,
+     "end": 156.3,
+     "ja": "ぜひライブ感のあるやりとりにご協力いただきたい。",
+     "en": "and please cooperate in having an unscripted, dynamic exchange.",
+     "speaker": "小川代表"
+    }
+   ]
+  },
+  {
+   "start": 225.3,
+   "end": 241.2,
+   "title": "A Polite Retort with Keigo",
+   "level": "N2",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜ておられる — honorific progressive",
+    "〜として — in the capacity of",
+    "でございます — polite form of です"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 225.6,
+     "end": 228.5,
+     "ja": "ま、ご自身もメモを見ておられましたので、",
+     "en": "Well, you yourself were looking at notes as well,",
+     "speaker": "高市首相"
+    },
+    {
+     "start": 228.7,
+     "end": 233.1,
+     "ja": "私も内閣総理大臣としての答弁でございますから、",
+     "en": "and since this is an official response as Prime Minister,",
+     "speaker": "高市首相"
+    },
+    {
+     "start": 233.4,
+     "end": 237.3,
+     "ja": "ここはできるだけ正確にと、いうことで、",
+     "en": "I prepared notes in order to be as accurate as possible.",
+     "speaker": "高市首相"
+    },
+    {
+     "start": 237.4,
+     "end": 240.9,
+     "ja": "あの、メモを用意してまいりました。ご通告ありがとうございます。",
+     "en": "Thank you for giving prior notice of your question.",
+     "speaker": "高市首相"
+    }
+   ]
+  }
+ ],
+ "videoId": "dnsoi3BDAz0",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

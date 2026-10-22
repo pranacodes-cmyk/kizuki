@@ -1,0 +1,259 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 113.6,
+   "end": 128.5,
+   "title": "Invited to a Group Date War",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "〜かい — questioning/rhetorical particle",
+    "〜てんねん — Kansai dialect for 〜ているんだ"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 113.9,
+     "end": 115.3,
+     "ja": "川瀬、戦争行かない？",
+     "en": "Kawase, wanna go to war?",
+     "speaker": "Hara"
+    },
+    {
+     "start": 115.5,
+     "end": 117.0,
+     "ja": "どうなってんねん、お前！",
+     "en": "What is wrong with you?!",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 117.2,
+     "end": 119.1,
+     "ja": "どういうプライベートお送りしてんの？",
+     "en": "What kind of private life are you leading?",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 119.3,
+     "end": 121.5,
+     "ja": "あ、ごめん、間違えた。合コンのことなんだけどさ。",
+     "en": "Ah, sorry, my bad. I meant a group blind date.",
+     "speaker": "Hara"
+    },
+    {
+     "start": 121.7,
+     "end": 123.0,
+     "ja": "怖すぎるやろ！",
+     "en": "That's way too scary!",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 123.2,
+     "end": 125.0,
+     "ja": "合コン戦争って呼んどんかい、お前！",
+     "en": "You call group dates \"wars\"?!",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 125.1,
+     "end": 127.4,
+     "ja": "2:2でやるんだけど、男1人足りないから入ってよ。",
+     "en": "It's a two-on-two, but we're short one guy, so join in.",
+     "speaker": "Hara"
+    },
+    {
+     "start": 127.5,
+     "end": 128.4,
+     "ja": "中止でええやろ！",
+     "en": "Just cancel it!",
+     "speaker": "Kawase"
+    }
+   ]
+  },
+  {
+   "start": 145.0,
+   "end": 206.0,
+   "title": "Group Date Self-Introductions",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "fun",
+    "romance"
+   ],
+   "grammar": [
+    "〜てます — doing (polite progressive/state)",
+    "〜すぎ — too much / excessively"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 145.2,
+     "end": 146.5,
+     "ja": "乾杯！",
+     "en": "Cheers!",
+     "speaker": "Both"
+    },
+    {
+     "start": 146.7,
+     "end": 147.8,
+     "ja": "自己紹介します！",
+     "en": "I'll introduce myself!",
+     "speaker": "Hara"
+    },
+    {
+     "start": 148.0,
+     "end": 150.5,
+     "ja": "あゆみです！25歳で、ショップ店員やってまーす！",
+     "en": "I'm Ayumi! 25 years old, working as a shop clerk!",
+     "speaker": "Hara"
+    },
+    {
+     "start": 150.8,
+     "end": 152.5,
+     "ja": "あゆみちゃん！",
+     "en": "Ayumi-chan!",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 153.3,
+     "end": 156.8,
+     "ja": "自分はアキラです。27歳です。自衛隊してます。",
+     "en": "I'm Akira. 27 years old. I'm in the Self-Defense Forces.",
+     "speaker": "Hara"
+    },
+    {
+     "start": 157.1,
+     "end": 158.8,
+     "ja": "アキラくん！",
+     "en": "Akira-kun!",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 159.7,
+     "end": 201.8,
+     "ja": "エミです。イタコしてまーす！",
+     "en": "I'm Emi. I'm a spirit medium!",
+     "speaker": "Hara"
+    },
+    {
+     "start": 202.2,
+     "end": 203.8,
+     "ja": "多分お前やろ！",
+     "en": "That's probably just you!",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 204.0,
+     "end": 205.6,
+     "ja": "イタコはボケすぎやで！",
+     "en": "A spirit medium is too absurd a joke!",
+     "speaker": "Kawase"
+    }
+   ]
+  },
+  {
+   "start": 223.5,
+   "end": 246.8,
+   "title": "Favorite Comedian",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜ながら — although / while doing",
+    "〜より — more than"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 223.8,
+     "end": 225.5,
+     "ja": "あ、僕ですか？川瀬って言いまして、",
+     "en": "Oh, me? My name is Kawase,",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 225.7,
+     "end": 228.0,
+     "ja": "恥ずかしながら40で芸人をやっております。",
+     "en": "and to my shame, I'm working as a comedian at 40.",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 228.8,
+     "end": 230.3,
+     "ja": "え、芸人やってんだ？",
+     "en": "Huh, you're a comedian?",
+     "speaker": "Hara"
+    },
+    {
+     "start": 230.5,
+     "end": 232.4,
+     "ja": "私、お笑いめっちゃ好きなんだけど！",
+     "en": "I love comedy so much!",
+     "speaker": "Hara"
+    },
+    {
+     "start": 232.7,
+     "end": 234.5,
+     "ja": "お、ラッキー。好きな芸人誰っすか？",
+     "en": "Oh, lucky! Who's your favorite comedian?",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 234.7,
+     "end": 235.8,
+     "ja": "チャップリン。",
+     "en": "Chaplin.",
+     "speaker": "Hara"
+    },
+    {
+     "start": 236.0,
+     "end": 237.2,
+     "ja": "本格派きた！",
+     "en": "She went classic!",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 237.3,
+     "end": 239.0,
+     "ja": "思ってるより本格派やったな。",
+     "en": "Way more of a purist than I thought.",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 239.6,
+     "end": 242.5,
+     "ja": "僕はガヤ芸人の松木安太郎が好きです。",
+     "en": "I like the banter comedian Yasutaro Matsuki.",
+     "speaker": "Hara"
+    },
+    {
+     "start": 242.9,
+     "end": 244.2,
+     "ja": "解説や、あいつ！",
+     "en": "He's a commentator!",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 244.4,
+     "end": 246.2,
+     "ja": "ガヤ芸人ぐらい喋るけどな！",
+     "en": "Though he does talk as much as a heckler comedian!",
+     "speaker": "Kawase"
+    }
+   ]
+  }
+ ],
+ "videoId": "lmacX7864TQ",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

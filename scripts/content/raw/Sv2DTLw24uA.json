@@ -1,0 +1,170 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 2.49,
+   "end": 15.2,
+   "title": "Strict Professor's Smartphone Warning",
+   "level": "N3",
+   "topics": [
+    "school",
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — if/when",
+    "〜ていただく — to receive an action (polite)",
+    "〜というような — something like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2.493,
+     "end": 5.4,
+     "ja": "「私の授業中にスマホを触る人がいたら、",
+     "en": "\"If anyone touches their smartphone during my class,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 5.4,
+     "end": 7.3,
+     "ja": "それは病気なので、",
+     "en": "that is an illness,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 7.3,
+     "end": 12.0,
+     "ja": "大学のインターネット依存の処置を受けてください」っていうような、",
+     "en": "so please go receive treatment for internet addiction at the university,\" or so,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 12.0,
+     "end": 14.8,
+     "ja": "そんななんかやばいこと言われたんですけれども。",
+     "en": "he said something crazy like that.",
+     "speaker": "Parker"
+    }
+   ]
+  },
+  {
+   "start": 3.18,
+   "end": 20.8,
+   "title": "Today's University Cafeteria Lunch",
+   "level": "N3",
+   "topics": [
+    "food",
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜っていう — called / which is",
+    "〜ていただく — to eat (humble)",
+    "〜くらい — to the extent that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.183,
+     "end": 4.5,
+     "ja": "で、本日のメニューはですね、",
+     "en": "So, today's menu is,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 4.5,
+     "end": 7.2,
+     "ja": "これ唐揚げ南蛮丼っていうやつなんですけど、",
+     "en": "this thing called Karaage Nanban Rice Bowl,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 7.3,
+     "end": 9.6,
+     "ja": "昔一回僕のチャンネルで出てきたんですが、",
+     "en": "it appeared once before on my channel, but",
+     "speaker": "Parker"
+    },
+    {
+     "start": 9.7,
+     "end": 13.0,
+     "ja": "唐揚げにね、こうマヨネーズとか南蛮漬けのタレをね、",
+     "en": "on the fried chicken, you put mayonnaise and nanban sauce,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 13.0,
+     "end": 15.8,
+     "ja": "これでもかってくらいかけていただくっていう、",
+     "en": "smothering it as much as humanly possible before eating,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 15.9,
+     "end": 18.5,
+     "ja": "ちょっとジャンクフード感満載の料理なんですけど、",
+     "en": "a dish totally packed with junk food vibes, but",
+     "speaker": "Parker"
+    },
+    {
+     "start": 18.6,
+     "end": 20.4,
+     "ja": "これめちゃくちゃ美味しいんですよ。",
+     "en": "it is insanely delicious.",
+     "speaker": "Parker"
+    }
+   ]
+  },
+  {
+   "start": 4.348,
+   "end": 4.45,
+   "title": "Cooking Pork Kimchi in Three Seconds",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜と — when/if (conditional)",
+    "〜だけで — just by doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.349,
+     "end": 4.384,
+     "ja": "今からね、豚キムチの作り方を３秒で説明しますと、",
+     "en": "If I explain how to make pork kimchi in three seconds,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 4.385,
+     "end": 4.412,
+     "ja": "ごま油をひいたフライパンにですね、",
+     "en": "in a frying pan coated with sesame oil,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 4.413,
+     "end": 4.432,
+     "ja": "豚肉とキムチをね、こう一緒に炒める、",
+     "en": "you just stir-fry pork and kimchi together like this,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 4.433,
+     "end": 4.446,
+     "ja": "それだけでね、出来上がります。",
+     "en": "and just with that, it's done.",
+     "speaker": "Parker"
+    }
+   ]
+  }
+ ],
+ "videoId": "Sv2DTLw24uA",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,209 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 18.5,
+   "end": 32.5,
+   "title": "Departing for a Trip to Okinawa",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "family"
+   ],
+   "grammar": [
+    "〜ぶり — after a duration of not doing",
+    "〜から — because / since"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 18.6,
+     "end": 20.0,
+     "ja": "こんにちはー。",
+     "en": "Hello everyone.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 20.1,
+     "end": 24.8,
+     "ja": "今日は今から沖縄に3泊4日で旅行に行きます。",
+     "en": "We are heading out on a 4-day, 3-night trip to Okinawa now.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 25.3,
+     "end": 26.5,
+     "ja": "今回も妹と……",
+     "en": "This time, once again with my sister...",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 26.6,
+     "end": 27.6,
+     "ja": "行ってきます！",
+     "en": "Here we go!",
+     "speaker": "Sister"
+    },
+    {
+     "start": 27.9,
+     "end": 30.1,
+     "ja": "沖縄は高校の修学旅行ぶりで、",
+     "en": "It's my first time visiting Okinawa since my high school trip,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 30.2,
+     "end": 32.3,
+     "ja": "しっかり観光するのは初めてだからワクワク。",
+     "en": "so I'm really excited since it's my first proper sightseeing trip.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 218.8,
+   "end": 234.8,
+   "title": "Trying Blue Seal Ice Cream",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜にした — decided on",
+    "〜ことがある — have the experience of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 219.2,
+     "end": 221.0,
+     "ja": "ブルーウェーブにしました。",
+     "en": "I got the Blue Wave flavor.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 221.2,
+     "end": 224.2,
+     "ja": "これ修学旅行のとき食べてめっちゃ美味しかった記憶がある。",
+     "en": "I remember eating this on my school trip and it being so good.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 227.1,
+     "end": 228.1,
+     "ja": "うーん！",
+     "en": "Mmm!",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 228.2,
+     "end": 229.8,
+     "ja": "なんかラムネが入ってるの。",
+     "en": "It has ramune candies inside.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 229.9,
+     "end": 230.9,
+     "ja": "うま！",
+     "en": "Delicious!",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 231.5,
+     "end": 232.5,
+     "ja": "え、何味？",
+     "en": "What flavor did you get?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 232.6,
+     "end": 234.5,
+     "ja": "イチゴとチョコとバニラ。",
+     "en": "Strawberry, chocolate, and vanilla.",
+     "speaker": "Sister"
+    }
+   ]
+  },
+  {
+   "start": 737.0,
+   "end": 803.8,
+   "title": "Excited for Hotel Breakfast",
+   "level": "N3",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜放題 — all-you-can-...",
+    "〜までに — by (deadline)",
+    "〜らしい — seems like / apparently"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 737.2,
+     "end": 739.4,
+     "ja": "今から朝ご飯を食べに行きます。",
+     "en": "Now we're heading down to eat breakfast.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 739.7,
+     "end": 744.5,
+     "ja": "ここの朝ご飯は7時から14時まで食べ放題、何回でも食べに行けるので、",
+     "en": "Breakfast here is all-you-can-eat from 7 to 2 PM, and you can go as many times as you like,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 745.2,
+     "end": 749.0,
+     "ja": "1回とりあえず行って、チェックアウトまでにお腹空いたらもう1回食べるかもって感じです。",
+     "en": "so we'll go once for now, and if we get hungry before checkout, we might eat again.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 749.6,
+     "end": 752.6,
+     "ja": "めっちゃ美味しそうだな。メニューがあってこんな感じで、",
+     "en": "It looks so delicious. Here is the menu,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 752.8,
+     "end": 755.0,
+     "ja": "ソーキそばとかエッグベネディクト、",
+     "en": "with soki soba, eggs benedict,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 755.3,
+     "end": 758.2,
+     "ja": "アヒポキボウル、アグー豚のトマトチリソースオムレツとか、",
+     "en": "ahi poke bowl, Agu pork tomato chili omelette,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 758.3,
+     "end": 800.6,
+     "ja": "色々美味しそうなのがあるので、",
+     "en": "so there are lots of tasty-looking options.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 800.7,
+     "end": 803.5,
+     "ja": "こっからメインを選んで、サイドはセミビュッフェって感じらしい。",
+     "en": "You choose a main dish from here, and apparently the sides are semi-buffet style.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "_DXYLqfU4wE",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

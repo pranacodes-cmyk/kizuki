@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 96.5,
+   "end": 123.2,
+   "title": "Robot Waiters in Tokyo",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜そうだ — hearsay / reported speech",
+    "〜たり〜たりする — listing actions"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 96.8,
+     "end": 104.5,
+     "ja": "東京日本橋にロボットの店員が働く喫茶店がオープンしたそうですよ。",
+     "en": "I heard a cafe where robot clerks work has opened in Nihonbashi, Tokyo.",
+     "speaker": "News Inu"
+    },
+    {
+     "start": 104.7,
+     "end": 110.8,
+     "ja": "ロボットが働くんですか。どんな仕事をするんだろう。",
+     "en": "Robots are working? I wonder what kind of work they do.",
+     "speaker": "News Inu"
+    },
+    {
+     "start": 111.1,
+     "end": 116.8,
+     "ja": "飲み物を運んだり、お客さんとおしゃべりしたりする。",
+     "en": "They do things like carry drinks and chat with customers.",
+     "speaker": "News Inu"
+    },
+    {
+     "start": 117.1,
+     "end": 122.8,
+     "ja": "へえー、そんな複雑なことできるんですか。",
+     "en": "Wow, can they really do such complex things?",
+     "speaker": "News Inu"
+    }
+   ]
+  },
+  {
+   "start": 434.8,
+   "end": 454.2,
+   "title": "Single-Use Plastic Items",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜と言う — to be called",
+    "〜のに使う — used for doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 435.0,
+     "end": 437.3,
+     "ja": "１つ１つ確認しましょう。",
+     "en": "Let's check them one by one.",
+     "speaker": "News Inu"
+    },
+    {
+     "start": 437.7,
+     "end": 440.2,
+     "ja": "これはストローですね。",
+     "en": "This is a straw, right?",
+     "speaker": "News Inu"
+    },
+    {
+     "start": 440.8,
+     "end": 445.2,
+     "ja": "はい、これは何でしょう。これはマドラーと言います。",
+     "en": "Now, what is this? This is called a muddler.",
+     "speaker": "News Inu"
+    },
+    {
+     "start": 445.6,
+     "end": 447.8,
+     "ja": "何に使いますか？",
+     "en": "What do you use it for?",
+     "speaker": "News Inu"
+    },
+    {
+     "start": 448.2,
+     "end": 453.8,
+     "ja": "はい、そうです。飲み物をかき混ぜるのに使います。",
+     "en": "Yes, that's right. It is used to stir drinks.",
+     "speaker": "News Inu"
+    }
+   ]
+  },
+  {
+   "start": 483.5,
+   "end": 503.6,
+   "title": "What Do You Want Most?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜と — conditional if/when",
+    "〜けど — but / although"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 483.8,
+     "end": 488.3,
+     "ja": "皆さん、一番欲しいものは何ですか？",
+     "en": "Everyone, what is the thing you want the most?",
+     "speaker": "News Inu"
+    },
+    {
+     "start": 488.6,
+     "end": 491.0,
+     "ja": "色々ありますよね。",
+     "en": "There are lots of things, right?",
+     "speaker": "News Inu"
+    },
+    {
+     "start": 491.3,
+     "end": 494.8,
+     "ja": "え？もちろんお金？",
+     "en": "Huh? Money, of course?",
+     "speaker": "News Inu"
+    },
+    {
+     "start": 495.0,
+     "end": 500.0,
+     "ja": "うーん、確かにお金があると色々なものが買えますけど、",
+     "en": "Well, certainly if you have money you can buy lots of things, but...",
+     "speaker": "News Inu"
+    },
+    {
+     "start": 500.2,
+     "end": 503.2,
+     "ja": "なんか夢がないですね。",
+     "en": "That somehow lacks any romanticism, doesn't it?",
+     "speaker": "News Inu"
+    }
+   ]
+  }
+ ],
+ "videoId": "iWg70cSpX9I",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

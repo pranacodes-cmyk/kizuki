@@ -1,0 +1,190 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 19.3,
+   "end": 36.3,
+   "title": "Welcome to Kamakura",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜があります — there is / there are",
+    "〜ましょう — let's do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 19.6,
+     "end": 23.2,
+     "ja": "ここは日本の古い町です。",
+     "en": "It's an old town in Japan.",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 23.5,
+     "end": 26.5,
+     "ja": "お寺がたくさんあります。",
+     "en": "There are many temples.",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 26.7,
+     "end": 29.5,
+     "ja": "海と山もあります。",
+     "en": "It also has the sea and mountains.",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 29.8,
+     "end": 33.2,
+     "ja": "とてもいいところです。",
+     "en": "It's a really nice place.",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 33.5,
+     "end": 36.0,
+     "ja": "それでは行きましょう！",
+     "en": "Well then, let's go!",
+     "speaker": "Nozomi"
+    }
+   ]
+  },
+  {
+   "start": 323.2,
+   "end": 349.0,
+   "title": "Washing Money at Zeniarai Benzaiten",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜ています — ongoing action",
+    "〜と — conditional when/if",
+    "〜そうです — hearsay (I heard that)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 323.5,
+     "end": 327.5,
+     "ja": "ここはお金の神様の神社です。",
+     "en": "This is a shrine for the god of money.",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 330.0,
+     "end": 335.0,
+     "ja": "洞窟の中に湧き水があります。",
+     "en": "There is spring water flowing inside the cave.",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 336.0,
+     "end": 341.5,
+     "ja": "たくさんの人がお金を洗っています。",
+     "en": "Many people are washing their money.",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 342.5,
+     "end": 348.5,
+     "ja": "ここでお金を洗うと、お金が増えるそうです。",
+     "en": "They say that if you wash your money here, it will multiply.",
+     "speaker": "Nozomi"
+    }
+   ]
+  },
+  {
+   "start": 424.5,
+   "end": 441.5,
+   "title": "Buying Curry Bread in Kamakura",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜お願いします — please give me",
+    "お〜ですか — polite honorific inquiry",
+    "〜ないですね — confirming negative"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 424.8,
+     "end": 427.5,
+     "ja": "こんにちは！カレーパン一つお願いします。",
+     "en": "Hello! One curry bread, please.",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 427.8,
+     "end": 429.5,
+     "ja": "直後のお召し上がりですか？",
+     "en": "Will you be eating it right away?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 429.6,
+     "end": 430.5,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 430.6,
+     "end": 431.8,
+     "ja": "450円です。",
+     "en": "That'll be 450 yen.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 431.9,
+     "end": 433.5,
+     "ja": "カード使えないですね？",
+     "en": "You don't take cards, right?",
+     "speaker": "Nozomi"
+    },
+    {
+     "start": 433.6,
+     "end": 435.5,
+     "ja": "すいません、現金で、すいません。",
+     "en": "Sorry, cash only.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 436.0,
+     "end": 437.7,
+     "ja": "1000円お預かりいたします。",
+     "en": "Out of 1,000 yen.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 437.8,
+     "end": 439.4,
+     "ja": "550円のお返しです。",
+     "en": "Here's your change, 550 yen.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 439.5,
+     "end": 441.0,
+     "ja": "ありがとうございます。",
+     "en": "Thank you.",
+     "speaker": "Nozomi"
+    }
+   ]
+  }
+ ],
+ "videoId": "CkLPjCrUDMw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

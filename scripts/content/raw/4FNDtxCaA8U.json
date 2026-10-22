@@ -1,0 +1,92 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 9.5,
+   "end": 17.8,
+   "title": "Creating Something Overwhelming",
+   "level": "N3",
+   "topics": [
+    "music",
+    "work"
+   ],
+   "grammar": [
+    "〜てやる — doing with determination",
+    "〜じゃない — seeking agreement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.6,
+     "end": 11.8,
+     "ja": "どんよりした曲は嫌だな。",
+     "en": "I don't want a gloomy song.",
+     "speaker": "Hachidai"
+    },
+    {
+     "start": 11.8,
+     "end": 13.4,
+     "ja": "僕はもう歩き出してるよ。",
+     "en": "I've already started walking.",
+     "speaker": "Hachidai"
+    },
+    {
+     "start": 13.4,
+     "end": 16.0,
+     "ja": "誰も文句言わせない圧倒的なものを作ってやる。",
+     "en": "I'll create something overwhelming that leaves no room for complaints.",
+     "speaker": "Rokusuke"
+    },
+    {
+     "start": 16.0,
+     "end": 17.5,
+     "ja": "いいじゃない！",
+     "en": "Sounds great!",
+     "speaker": "Hachidai"
+    }
+   ]
+  },
+  {
+   "start": 17.8,
+   "end": 25.0,
+   "title": "Why Pick Me?",
+   "level": "N3",
+   "topics": [
+    "music",
+    "work"
+   ],
+   "grammar": [
+    "〜んですか — seeking explanation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.2,
+     "end": 20.3,
+     "ja": "どうして僕なんですか？",
+     "en": "Why me?",
+     "speaker": "Kyu"
+    },
+    {
+     "start": 20.3,
+     "end": 22.0,
+     "ja": "歌に血が通ってたよ。",
+     "en": "There was real life in your singing.",
+     "speaker": "Hachidai"
+    },
+    {
+     "start": 22.0,
+     "end": 24.0,
+     "ja": "自分でもそう思いました。",
+     "en": "I thought so too.",
+     "speaker": "Kyu"
+    }
+   ]
+  }
+ ],
+ "videoId": "4FNDtxCaA8U",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

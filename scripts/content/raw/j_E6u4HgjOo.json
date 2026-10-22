@@ -1,0 +1,130 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 34.5,
+   "end": 61.5,
+   "title": "Introducing the Tori no Ichi Festival",
+   "level": "N5",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜という — called / named",
+    "受身形 (〜れる) — passive form",
+    "〜がいっぱい — full of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 35.0,
+     "end": 43.0,
+     "ja": "今日は、「酉の市」という日本の行事を紹介します。",
+     "en": "Today, I will introduce a Japanese event called \"Tori no Ichi\".",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 44.0,
+     "end": 52.5,
+     "ja": "「酉の市」は毎年11月に行われます。",
+     "en": "\"Tori no Ichi\" is held every year in November.",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 53.0,
+     "end": 61.0,
+     "ja": "にぎやかで、元気がいっぱいのお祭りです。",
+     "en": "It is a lively festival full of energy.",
+     "speaker": "Sakura"
+    }
+   ]
+  },
+  {
+   "start": 146.5,
+   "end": 180.8,
+   "title": "Festival Stalls and Night Atmosphere",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "food"
+   ],
+   "grammar": [
+    "〜になると — when it becomes",
+    "〜がする — to smell / sense"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 147.0,
+     "end": 156.5,
+     "ja": "夜になると、神社の周りにたくさんの屋台が並びます。",
+     "en": "When night falls, many food stalls line up around the shrine.",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 157.2,
+     "end": 164.5,
+     "ja": "りんご飴、たこ焼き、焼きそば。",
+     "en": "Candy apples, takoyaki, and yakisoba.",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 165.3,
+     "end": 173.5,
+     "ja": "甘い匂いがして、どこも人でいっぱいです。",
+     "en": "There is a sweet aroma, and everywhere is packed with people.",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 174.5,
+     "end": 180.3,
+     "ja": "とても賑やかで、楽しい雰囲気です。",
+     "en": "It is very lively with a fun atmosphere.",
+     "speaker": "Sakura"
+    }
+   ]
+  },
+  {
+   "start": 190.5,
+   "end": 219.0,
+   "title": "What Is a Kumade Rake?",
+   "level": "N4",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜って — casual topic marker",
+    "〜ための — for the purpose of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 191.0,
+     "end": 196.0,
+     "ja": "皆さん、熊手って知っていますか？",
+     "en": "Everyone, do you know what a kumade is?",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 196.5,
+     "end": 203.5,
+     "ja": "もともとは、落ち葉を集めるための道具です。",
+     "en": "Originally, it is a tool for raking up fallen leaves.",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 204.0,
+     "end": 218.5,
+     "ja": "けれど、「酉の市」では金色や赤い飾りをつけた、とてもきれいな熊手を売っています。",
+     "en": "However, at \"Tori no Ichi\", they sell very beautiful kumade decorated with gold and red ornaments.",
+     "speaker": "Sakura"
+    }
+   ]
+  }
+ ],
+ "videoId": "j_E6u4HgjOo",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

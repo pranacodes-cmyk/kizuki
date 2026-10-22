@@ -1,0 +1,162 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.9,
+   "end": 71.3,
+   "title": "Waking Up and Having Breakfast",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜に起きました — woke up at [time]",
+    "〜を食べました — ate [food]",
+    "〜も — also / too"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 45.2,
+     "end": 49.8,
+     "ja": "この日は9時半に起きました。",
+     "en": "On this day, I woke up at 9:30.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 50.5,
+     "end": 57.2,
+     "ja": "朝ごはんにパンとヨーグルトを食べました。",
+     "en": "For breakfast, I ate bread and yogurt.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 58.0,
+     "end": 63.5,
+     "ja": "朝ごはんはパンとヨーグルトでした。",
+     "en": "Breakfast was bread and yogurt.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 64.2,
+     "end": 67.5,
+     "ja": "コーヒーも飲みました。",
+     "en": "I also drank coffee.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 68.0,
+     "end": 70.8,
+     "ja": "コーヒーも飲みました。",
+     "en": "I also drank coffee.",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 162.7,
+   "end": 194.5,
+   "ja": null,
+   "title": "Making and Eating a Toasty",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜て — connecting verbs (te-form)",
+    "〜の上に — on top of ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 163.0,
+     "end": 172.0,
+     "ja": "パンにチーズを挟んで焼いて食べました。",
+     "en": "I put cheese between bread, toasted it, and ate it.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 172.5,
+     "end": 175.8,
+     "ja": "トスティーを食べました。",
+     "en": "I ate a toasty.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 176.2,
+     "end": 182.5,
+     "ja": "パンの上にチーズをのせて、",
+     "en": "Put cheese on the bread,",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 182.7,
+     "end": 187.2,
+     "ja": "その上にパンをのせる。",
+     "en": "and put bread on top of that.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 187.8,
+     "end": 194.0,
+     "ja": "そして焼く。焼いて食べました。",
+     "en": "And toast it. I toasted and ate it.",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 369.5,
+   "end": 393.0,
+   "title": "I Love the Piano",
+   "level": "N5",
+   "topics": [
+    "music",
+    "daily"
+   ],
+   "grammar": [
+    "〜が大好き — love doing / love something",
+    "〜ている — state / continuous action",
+    "〜のも — also doing ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 370.0,
+     "end": 373.2,
+     "ja": "私はピアノが大好きです。",
+     "en": "I love the piano.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 373.8,
+     "end": 378.5,
+     "ja": "私は10年以上ピアノを弾いています。",
+     "en": "I have been playing the piano for over 10 years.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 380.0,
+     "end": 385.0,
+     "ja": "10年以上ピアノを弾いています。",
+     "en": "I have been playing the piano for over 10 years.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 385.6,
+     "end": 392.5,
+     "ja": "なのでピアノを聴く、聴くのも大好きです。",
+     "en": "So listening to the piano, I love listening to it too.",
+     "speaker": "Akiko"
+    }
+   ]
+  }
+ ],
+ "videoId": "z7mBxU12PKg",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

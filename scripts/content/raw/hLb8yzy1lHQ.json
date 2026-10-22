@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 8.7,
+   "end": 21.3,
+   "title": "Life in the Paleolithic Era",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜たり〜たりする — doing things like",
+    "〜という — called / known as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.0,
+     "end": 13.6,
+     "ja": "ずーっと昔、日本列島にいた人達は、",
+     "en": "A long time ago, the people living in the Japanese archipelago",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 13.6,
+     "end": 15.6,
+     "ja": "ゾウさん追っかけて食べたりしてました。",
+     "en": "used to chase elephants and eat them.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 15.6,
+     "end": 17.5,
+     "ja": "旧石器時代と言います。",
+     "en": "This is called the Paleolithic era.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 17.5,
+     "end": 19.8,
+     "ja": "石の器具を使っていたので「石器」時代です。",
+     "en": "Because they used stone tools, it is the 'stone age.'",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 19.8,
+     "end": 21.0,
+     "ja": "まだ日本という国も、日本人という意識もありません。",
+     "en": "There was no nation called Japan or concept of being Japanese yet.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 282.5,
+   "end": 296.8,
+   "title": "The Beginning of the Kamakura Period",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜くらい — approximately",
+    "〜てから — after doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 282.8,
+     "end": 286.5,
+     "ja": "今から830年くらい前、いい国作ろう鎌倉幕府。",
+     "en": "About 830 years ago, 'Let's build a good nation: Kamakura Shogunate.'",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 286.5,
+     "end": 288.6,
+     "ja": "鎌倉時代は150年くらい続きます。",
+     "en": "The Kamakura period lasted for about 150 years.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 288.6,
+     "end": 292.3,
+     "ja": "源氏のトップ「源頼朝」が鎌倉に本拠地を構えます。",
+     "en": "Minamoto no Yoritomo, the head of the Minamoto clan, set up headquarters in Kamakura.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 292.3,
+     "end": 296.5,
+     "ja": "今まで天皇が権力者でしたが、これからは武士が権力を持ちます。",
+     "en": "Until then, the emperor held power, but from here on, the samurai hold power.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 699.5,
+   "end": 714.5,
+   "title": "Rapid Westernization in the Meiji Era",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜ていく — to gradually become",
+    "〜すぎる — too much / excessively"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 699.8,
+     "end": 703.8,
+     "ja": "明治時代は西洋のものをどんどん取り入れ、",
+     "en": "The Meiji era was a time of adopting Western things rapidly,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 703.8,
+     "end": 706.5,
+     "ja": "西洋に追いつけ！という時代です。",
+     "en": "under the slogan: 'Catch up to the West!'",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 706.5,
+     "end": 710.0,
+     "ja": "鉄道が走ったり、ちょんまげや刀持つのが禁止になったり、",
+     "en": "Railroads ran, topknots and swords were banned,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 710.0,
+     "end": 714.2,
+     "ja": "劇的に西洋風に変わっていきました。",
+     "en": "and society transformed dramatically in Western style.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "hLb8yzy1lHQ",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

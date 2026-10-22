@@ -10,6 +10,7 @@ import 'package:url_launcher/url_launcher.dart';
 import '../data/content.dart';
 import '../data/models.dart' as m;
 import '../data/tour.dart' show TourEvent;
+import '../logic/logic.dart' show pickTourWord;
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import 'clip_player.dart';
@@ -203,20 +204,14 @@ class _ClipViewState extends State<ClipView> {
     _player.currentState?.seek(math.max(widget.clip.start, widget.clip.lines[li].start - 0.1));
   }
 
-  /// The word the welcome tour asks you to tap: the first new word from the current line on.
+  /// The word the welcome tour asks you to tap: a new content word from the current line on.
   (int, int)? _tourWord(AppState app, int from) {
     final c = widget.clip;
-    (int, int)? any;
-    for (var li = math.max(0, from); li < c.lines.length; li++) {
-      for (var wi = 0; wi < c.lines[li].words.length; wi++) {
-        final w = c.lines[li].words[wi];
-        if (w.isPunct) continue;
-        if (_statusOf(app, w) == 'new') return (li, wi);
-        any ??= (li, wi);
-      }
-      if (any != null) return any;
-    }
-    return any;
+    return pickTourWord(
+      [for (final l in c.lines) [for (final w in l.words) (p: w.p, d: w.d)]],
+      from,
+      (li, wi) => _statusOf(app, c.lines[li].words[wi]) == 'new',
+    );
   }
 
   List<WordInput> _unknown(AppState app) {
@@ -320,10 +315,14 @@ class _ClipViewState extends State<ClipView> {
                   if (!savedClip) toast('Clip saved', description: 'Find it in Profile → Saved', icon: '🔖');
                 },
               ),
-              _IconBtn(
-                icon: LucideIcons.type,
+              // "Aa", like the Display sheet's name (the welcome tour points at it by that name).
+              Semantics(
+                button: true,
                 label: 'Display options',
-                onTap: () => showDisplaySheet(context, rate: () => rate, onRate: (r) => setState(() => rate = r)),
+                child: Press(
+                  onTap: () => showDisplaySheet(context, rate: () => rate, onRate: (r) => setState(() => rate = r)),
+                  child: SizedBox(width: 40, height: 40, child: Center(child: Text('Aa', style: txt(15, w: FontWeight.w900, c: T.muted)))),
+                ),
               ),
             ],
           ),
@@ -386,6 +385,7 @@ class _ClipViewState extends State<ClipView> {
                   time: time,
                   settings: app.settings,
                   statusOf: (w) => _statusOf(app, w),
+                  levelOf: (w) => app.tokenLevel(keyOfWord(w)),
                   selected: sel,
                   onWord: _onWord,
                   onLine: _seekLine,

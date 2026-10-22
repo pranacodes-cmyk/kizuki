@@ -1,0 +1,174 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 121.7,
+   "end": 152.9,
+   "title": "When Good Weather Brings Joy",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜時 — when/at the time",
+    "〜が好き — like something",
+    "〜と — whenever/conditional"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 122.2,
+     "end": 128.5,
+     "ja": "2つ目の嬉しい時は、天気がいい時です。",
+     "en": "The second time is when the weather is good.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 129.5,
+     "end": 136.6,
+     "ja": "天気がいい時、天気が晴れの時に、",
+     "en": "When the weather is good, when it's sunny,",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 134.0,
+     "end": 136.6,
+     "ja": "嬉しい気持ちになります。",
+     "en": "I feel happy.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 137.4,
+     "end": 142.6,
+     "ja": "僕は晴れが好きです。晴れが好き。",
+     "en": "I like sunny weather. I like sunshine.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 143.2,
+     "end": 149.2,
+     "ja": "だから、朝起きて、カーテンを開けて、",
+     "en": "So when I wake up in the morning and open the curtains,",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 149.3,
+     "end": 152.4,
+     "ja": "晴れだととっても嬉しいです。",
+     "en": "if it's sunny, I'm very happy.",
+     "speaker": "Yuta"
+    }
+   ]
+  },
+  {
+   "start": 301.7,
+   "end": 322.6,
+   "title": "What Happens When We Feel Sad",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜時 — when/at the time",
+    "〜から — from",
+    "〜も — also/as well"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 302.0,
+     "end": 305.2,
+     "ja": "悲しい時、人は泣きます。",
+     "en": "When people are sad, they cry.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 305.4,
+     "end": 309.4,
+     "ja": "人は、うー、泣きます。",
+     "en": "People go 'boo-hoo' and cry.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 310.2,
+     "end": 313.2,
+     "ja": "目から涙が出ます。",
+     "en": "Tears come out of their eyes.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 313.8,
+     "end": 317.0,
+     "ja": "目から涙が出ます。",
+     "en": "Tears come out of their eyes.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 317.5,
+     "end": 322.1,
+     "ja": "あと、鼻水、鼻水も出ます。",
+     "en": "Also, runny nose... a runny nose also comes out.",
+     "speaker": "Yuta"
+    }
+   ]
+  },
+  {
+   "start": 409.8,
+   "end": 431.1,
+   "title": "Looking Forward to the Weekend",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜は — topic marker",
+    "〜にする — to do something",
+    "〜よう — let's / volitional"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 410.5,
+     "end": 415.0,
+     "ja": "土曜日と日曜日は休みです。",
+     "en": "Saturday and Sunday are days off.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 415.5,
+     "end": 420.0,
+     "ja": "土曜日と日曜日は休みの日常です。",
+     "en": "Saturday and Sunday are holidays.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 420.6,
+     "end": 423.8,
+     "ja": "だから、金曜日の夕方は、",
+     "en": "So, on Friday evenings,",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 424.2,
+     "end": 427.6,
+     "ja": "「土曜日と日曜日何しようかな」",
+     "en": "'I wonder what I should do on Saturday and Sunday,'",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 427.7,
+     "end": 430.6,
+     "ja": "っていう風に楽しみな気持ちになります。",
+     "en": "is how I feel excited.",
+     "speaker": "Yuta"
+    }
+   ]
+  }
+ ],
+ "videoId": "nmmj3N3RnqY",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

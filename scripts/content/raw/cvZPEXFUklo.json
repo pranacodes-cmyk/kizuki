@@ -1,0 +1,138 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 29.5,
+   "end": 42.3,
+   "title": "Meaning of Viking in Japan",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜ば — conditional (if)",
+    "〜られる — potential form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 29.6,
+     "end": 31.7,
+     "ja": "でも、意味が全然違いますよ！",
+     "en": "However, the meaning is completely different!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 32.0,
+     "end": 35.5,
+     "ja": "日本で「バイキング」は「食べ放題」ということです。",
+     "en": "In Japan, \"viking\" means an \"all-you-can-eat buffet.\"",
+     "speaker": "Woman"
+    },
+    {
+     "start": 35.8,
+     "end": 38.3,
+     "ja": "「食べ放題」は一度お金を払えば、",
+     "en": "\"Tabehoudai\" means once you pay,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 38.5,
+     "end": 40.0,
+     "ja": "何でも、いくつでも、",
+     "en": "you can eat anything, as much as you like.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 40.0,
+     "end": 42.0,
+     "ja": "食べられることです。",
+     "en": "",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 204.6,
+   "end": 216.5,
+   "title": "The Word Apo in Japanese",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜を短くした — shortened form of",
+    "〜と同じ — same as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 204.7,
+     "end": 207.7,
+     "ja": "でも、日本で「アポ」の意味が違いますよ！",
+     "en": "However, the meaning of \"apo\" is different in Japan!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 208.0,
+     "end": 212.0,
+     "ja": "「アポ」は「アポイントメント」を短くした言葉です。",
+     "en": "\"Apo\" is a shortened version of the word \"appointment.\"",
+     "speaker": "Woman"
+    },
+    {
+     "start": 212.2,
+     "end": 216.2,
+     "ja": "「アポを取る」は「予約をする」の意味と同じです。",
+     "en": "\"Apo o toru\" has the same meaning as \"to make a reservation.\"",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 339.2,
+   "end": 356.2,
+   "title": "The Origin of the Word Pan",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜を指す — to refer to",
+    "〜から来る — to originate from"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 339.3,
+     "end": 343.3,
+     "ja": "「パン」は英語で「Bread」と言います。",
+     "en": "\"Pan\" is called \"bread\" in English.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 344.2,
+     "end": 349.5,
+     "ja": "英語でパンは、フライパンなど料理に使う道具を指します。",
+     "en": "In English, \"pan\" refers to a cooking tool like a frying pan.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 350.0,
+     "end": 355.8,
+     "ja": "「パン」という言葉の語源はポルトガル語からきました。",
+     "en": "The origin of the word \"pan\" came from Portuguese.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "cvZPEXFUklo",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

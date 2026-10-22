@@ -1,0 +1,232 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.0,
+   "end": 14.8,
+   "title": "Toast Before Eating Sushi",
+   "level": "N5",
+   "topics": [
+    "food",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜に来る — purpose of coming",
+    "〜そう — looks like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.2,
+     "end": 1.3,
+     "ja": "お疲れ様です！",
+     "en": "Cheers everyone!",
+     "speaker": "Miku"
+    },
+    {
+     "start": 1.3,
+     "end": 3.9,
+     "ja": "お疲れ様です！乾杯！",
+     "en": "Good work! Cheers!",
+     "speaker": "Shun"
+    },
+    {
+     "start": 5.1,
+     "end": 8.2,
+     "ja": "さゆりさんと瞬さんとお寿司を食べに来ました！",
+     "en": "I came to eat sushi with Sayuri and Shun!",
+     "speaker": "Miku"
+    },
+    {
+     "start": 8.2,
+     "end": 10.1,
+     "ja": "イエーーイ！",
+     "en": "Yay!",
+     "speaker": "All"
+    },
+    {
+     "start": 10.5,
+     "end": 12.7,
+     "ja": "お寿司の前の前菜です！",
+     "en": "These are the appetizers before the sushi!",
+     "speaker": "Miku"
+    },
+    {
+     "start": 12.9,
+     "end": 14.5,
+     "ja": "めっちゃ美味しそう！",
+     "en": "It looks so delicious!",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 518.2,
+   "end": 543.5,
+   "title": "Why Authentic Sushi Is Different",
+   "level": "N3",
+   "topics": [
+    "food",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜と違う — different from",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 518.2,
+     "end": 521.0,
+     "ja": "質が違いますね、質が。",
+     "en": "The quality is on a different level.",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 521.8,
+     "end": 523.2,
+     "ja": "うん、別格。",
+     "en": "Yeah, it's in a league of its own.",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 523.3,
+     "end": 527.0,
+     "ja": "え、なんでスシローと違うの？何が違うの？",
+     "en": "Wait, why is it different from Sushiro? What's different?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 527.3,
+     "end": 530.8,
+     "ja": "まず仕入れてるところが全然違うでしょう。",
+     "en": "First of all, where they source it from is completely different.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 531.0,
+     "end": 532.8,
+     "ja": "ああー、うまい。",
+     "en": "Ah, it's so good.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 532.9,
+     "end": 535.7,
+     "ja": "あの、厚みが違うね、スシローとは。",
+     "en": "Well, the thickness is different compared to Sushiro.",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 536.0,
+     "end": 537.3,
+     "ja": "めっちゃ違う。",
+     "en": "Totally different.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 537.4,
+     "end": 538.7,
+     "ja": "なんか甘くない？",
+     "en": "Isn't it kind of sweet?",
+     "speaker": "Miku"
+    },
+    {
+     "start": 538.8,
+     "end": 540.1,
+     "ja": "甘い！",
+     "en": "It is sweet!",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 593.6,
+   "end": 618.8,
+   "title": "I Want to Do Nothing at All",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜てみたい — want to try doing",
+    "〜ところだった — almost did"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 593.8,
+     "end": 595.7,
+     "ja": "なんかやってみたいことある？これから。",
+     "en": "Is there anything you want to try doing going forward?",
+     "speaker": "Miku"
+    },
+    {
+     "start": 596.2,
+     "end": 599.3,
+     "ja": "別に日本語教師じゃなくてもいいよ。何かやりたいことある？",
+     "en": "It doesn't have to be teaching Japanese. Is there anything you want to do?",
+     "speaker": "Miku"
+    },
+    {
+     "start": 600.0,
+     "end": 601.5,
+     "ja": "逆に何もやりたくない。",
+     "en": "On the contrary, I don't want to do anything.",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 601.6,
+     "end": 603.1,
+     "ja": "ええー！そうなの？",
+     "en": "Really?! Is that so?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 603.2,
+     "end": 605.0,
+     "ja": "なんか最近忙しくて。",
+     "en": "I've been so busy lately.",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 605.1,
+     "end": 606.6,
+     "ja": "ああ、忙しいのは分かるけど。",
+     "en": "Ah, I get being busy, but...",
+     "speaker": "Shun"
+    },
+    {
+     "start": 606.7,
+     "end": 610.8,
+     "ja": "昨日、適当に入った喫茶店にあった本なんだけど、",
+     "en": "Yesterday, in a café I randomly walked into, there was a book...",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 613.4,
+     "end": 616.8,
+     "ja": "「あやうく一生懸命生きるところだった」みたいな。",
+     "en": "Something like 'I almost lived life trying too hard.'",
+     "speaker": "Sayuri"
+    },
+    {
+     "start": 617.3,
+     "end": 618.8,
+     "ja": "へえー！",
+     "en": "Oh wow!",
+     "speaker": "Shun"
+    }
+   ]
+  }
+ ],
+ "videoId": "JFjoG2tOUcg",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

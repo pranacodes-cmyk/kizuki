@@ -1,0 +1,258 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 25.3,
+   "end": 37.0,
+   "title": "Middle-Aged Kindergartner",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜みたいに — like / as if",
+    "〜と思われる — thought of as / considered"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 25.5,
+     "end": 27.0,
+     "ja": "えー、もういくつやったっけ、お前？",
+     "en": "Hey, how old were you again?",
+     "speaker": "Akisada"
+    },
+    {
+     "start": 27.1,
+     "end": 28.5,
+     "ja": "私もう35歳...",
+     "en": "I'm already 35...",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 28.6,
+     "end": 29.6,
+     "ja": "35歳！",
+     "en": "35!",
+     "speaker": "Akisada"
+    },
+    {
+     "start": 29.7,
+     "end": 30.5,
+     "ja": "35歳、はい。",
+     "en": "35, yes.",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 30.6,
+     "end": 31.9,
+     "ja": "もう中年さんやん。",
+     "en": "Then you're a mid-classer already.",
+     "speaker": "Akisada"
+    },
+    {
+     "start": 32.0,
+     "end": 33.8,
+     "ja": "その「年中さん」みたいに言うなや。",
+     "en": "Don't say it like middle preschool class!",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 33.9,
+     "end": 35.8,
+     "ja": "「おじさん園児」やと思われるから。",
+     "en": "People will think you're a middle-aged kindergartner.",
+     "speaker": "Akisada"
+    },
+    {
+     "start": 35.9,
+     "end": 36.9,
+     "ja": "思わんやろ。",
+     "en": "No one thinks that.",
+     "speaker": "Sasuke"
+    }
+   ]
+  },
+  {
+   "start": 117.0,
+   "end": 134.8,
+   "title": "Rivalry with a Beetle",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "food"
+   ],
+   "grammar": [
+    "〜のに — even though / despite",
+    "〜やんか — Kansai tag question (isn't it?)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 117.3,
+     "end": 118.6,
+     "ja": "カブトムシってさ、",
+     "en": "Rhinoceros beetles, you know,",
+     "speaker": "Akisada"
+    },
+    {
+     "start": 118.7,
+     "end": 120.0,
+     "ja": "もうスイカ好きやんか。",
+     "en": "they love watermelon, right?",
+     "speaker": "Akisada"
+    },
+    {
+     "start": 120.1,
+     "end": 122.7,
+     "ja": "まあまあ、なんか食べてるイメージあるなあ。",
+     "en": "Well, yeah, I do have the image of them eating it.",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 122.8,
+     "end": 124.5,
+     "ja": "俺もスイカ好きでさ。",
+     "en": "And I love watermelon too.",
+     "speaker": "Akisada"
+    },
+    {
+     "start": 124.6,
+     "end": 125.5,
+     "ja": "あ、そうなん？",
+     "en": "Oh, really?",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 125.6,
+     "end": 128.4,
+     "ja": "俺だけのスイカやのに、好きってありえへんくない？",
+     "en": "Watermelon is supposed to be mine alone, so isn't it unacceptable that it likes it too?",
+     "speaker": "Akisada"
+    },
+    {
+     "start": 128.5,
+     "end": 130.3,
+     "ja": "あ、同担拒否なん？",
+     "en": "Ah, you don't tolerate sharing the same favorite?",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 130.4,
+     "end": 131.1,
+     "ja": "そうそうそう。",
+     "en": "Exactly.",
+     "speaker": "Akisada"
+    },
+    {
+     "start": 131.2,
+     "end": 133.0,
+     "ja": "え、同担拒否で嫌いなん？",
+     "en": "Wait, you hate it just because you share a bias?",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 133.1,
+     "end": 134.5,
+     "ja": "当たり前や、そんなもん。",
+     "en": "Of course! Obviously.",
+     "speaker": "Akisada"
+    }
+   ]
+  },
+  {
+   "start": 341.5,
+   "end": 359.5,
+   "title": "The Slope of Adulthood",
+   "level": "N2",
+   "topics": [
+    "comedy",
+    "culture"
+   ],
+   "grammar": [
+    "〜を経て — through / via",
+    "〜ようとする — attempt to do",
+    "今となっては — now, in retrospect"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 341.8,
+     "end": 343.2,
+     "ja": "みんな色んな経験を経てな、",
+     "en": "Everyone goes through various experiences,",
+     "speaker": "Akisada"
+    },
+    {
+     "start": 343.3,
+     "end": 345.5,
+     "ja": "やっぱ大人のスロープを登っていくわけやからな。",
+     "en": "and climbs up the ramp of adulthood, right?",
+     "speaker": "Akisada"
+    },
+    {
+     "start": 345.6,
+     "end": 347.3,
+     "ja": "なんでバリアフリーやねん！",
+     "en": "Why is it wheelchair-accessible?!",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 347.4,
+     "end": 348.8,
+     "ja": "大人の階段やろ。",
+     "en": "It's supposed to be the stairway to adulthood!",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 348.9,
+     "end": 351.0,
+     "ja": "あれ階段か？登りやすそうやなと思って。",
+     "en": "Is it stairs? I thought a ramp would be easier to climb.",
+     "speaker": "Akisada"
+    },
+    {
+     "start": 351.1,
+     "end": 352.5,
+     "ja": "スロープ形式にすると、うん。",
+     "en": "If we make it a ramp style, yeah.",
+     "speaker": "Akisada"
+    },
+    {
+     "start": 352.6,
+     "end": 354.6,
+     "ja": "ほんでいいこと言おうとして今失敗してたな、完全にな。",
+     "en": "And you just completely botched trying to say something profound.",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 354.7,
+     "end": 355.9,
+     "ja": "完全にミスっとったから。",
+     "en": "You totally messed that up.",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 356.0,
+     "end": 357.6,
+     "ja": "今となっては笑い話やけど。",
+     "en": "Though looking back on it now, it's a funny story.",
+     "speaker": "Akisada"
+    },
+    {
+     "start": 357.7,
+     "end": 359.1,
+     "ja": "早すぎるやろ！",
+     "en": "Way too soon for 'looking back'!",
+     "speaker": "Sasuke"
+    }
+   ]
+  }
+ ],
+ "videoId": "DTOk9FLks7Q",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

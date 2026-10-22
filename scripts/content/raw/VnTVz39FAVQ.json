@@ -1,0 +1,201 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 41.3,
+   "end": 60.2,
+   "title": "How to Buy a Train Ticket",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 41.5,
+     "end": 45.5,
+     "ja": "券売機の上の路線図で行きたい駅を見てください。",
+     "en": "Please check your destination station on the route map above the ticket machine.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 45.8,
+     "end": 48.8,
+     "ja": "その駅の下の数字を見てください。",
+     "en": "Look at the number below that station.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 49.0,
+     "end": 51.5,
+     "ja": "この数字が値段になるので、",
+     "en": "This number will be the fare, so",
+     "speaker": "Akane"
+    },
+    {
+     "start": 51.5,
+     "end": 54.6,
+     "ja": "この数字と同じ値段を選びます。",
+     "en": "select the same price as this number.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 55.2,
+     "end": 57.2,
+     "ja": "お金を投入します。",
+     "en": "Insert the money.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 57.5,
+     "end": 59.8,
+     "ja": "投入は「入れる」の意味です。",
+     "en": "'Tōnyū' means 'to put in'.",
+     "speaker": "Akane"
+    }
+   ]
+  },
+  {
+   "start": 138.5,
+   "end": 155.8,
+   "title": "Vocabulary on the Train",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜と言います — is called",
+    "お〜ください — respectful request"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 139.0,
+     "end": 142.5,
+     "ja": "この黒いのは吊り革と言います。",
+     "en": "This black handle is called a 'tsurikawa' (hanging strap).",
+     "speaker": "Akane"
+    },
+    {
+     "start": 142.6,
+     "end": 144.0,
+     "ja": "吊り革。",
+     "en": "Tsurikawa.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 144.3,
+     "end": 148.4,
+     "ja": "そしてこちらの棒は手すりと言います。",
+     "en": "And this bar is called a 'tesuri' (handrail).",
+     "speaker": "Akane"
+    },
+    {
+     "start": 148.8,
+     "end": 150.0,
+     "ja": "よくアナウンスで、",
+     "en": "You often hear in train announcements,",
+     "speaker": "Akane"
+    },
+    {
+     "start": 150.0,
+     "end": 155.5,
+     "ja": "「吊り革や手すりにおつかまりください」と聞きます。",
+     "en": "'Please hold on to the straps or handrails.'",
+     "speaker": "Akane"
+    }
+   ]
+  },
+  {
+   "start": 821.0,
+   "end": 840.8,
+   "title": "Ordering a Pudding Set at a Cafe",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜でお願いします — please give me ~",
+    "どちらになさいますか — which would you like (polite)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 821.2,
+     "end": 822.8,
+     "ja": "はい、お願いします。",
+     "en": "Yes, I'm ready to order.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 823.2,
+     "end": 825.8,
+     "ja": "プリンのドリンクセットで、",
+     "en": "With the pudding drink set,",
+     "speaker": "Akane"
+    },
+    {
+     "start": 826.5,
+     "end": 828.8,
+     "ja": "カフェオレでお願いします。",
+     "en": "I'd like a café au lait, please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 829.0,
+     "end": 831.5,
+     "ja": "カフェオレ、ホットとアイスどちらになさいますか？",
+     "en": "For the café au lait, would you like hot or iced?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 831.8,
+     "end": 833.6,
+     "ja": "ホットでお願いします。",
+     "en": "Hot, please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 834.0,
+     "end": 837.0,
+     "ja": "プリンとホットオレのセットがおひとつでおまちがいないですか？",
+     "en": "Just to confirm, that's one pudding and hot café au lait set?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 837.1,
+     "end": 837.7,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 838.0,
+     "end": 840.2,
+     "ja": "950円先払いになります。",
+     "en": "That will be 950 yen paid upfront.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 840.2,
+     "end": 840.7,
+     "ja": "はい。",
+     "en": "Sure.",
+     "speaker": "Akane"
+    }
+   ]
+  }
+ ],
+ "videoId": "VnTVz39FAVQ",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

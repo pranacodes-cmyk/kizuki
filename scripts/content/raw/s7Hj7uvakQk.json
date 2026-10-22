@@ -1,0 +1,218 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 512.3,
+   "end": 533.5,
+   "title": "Lunchtime with Baby",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜てーす — casual form of 〜です",
+    "〜した？ — casual past question"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 512.3,
+     "end": 514.0,
+     "ja": "お昼でーす。",
+     "en": "It's lunch time.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 514.2,
+     "end": 516.0,
+     "ja": "いただきます。",
+     "en": "Let's eat.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 516.5,
+     "end": 518.5,
+     "ja": "いただきますした？",
+     "en": "Did you say thanks for the meal?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 520.0,
+     "end": 525.0,
+     "ja": "卵焼き、豆腐ハンバーグと、納豆ご飯。",
+     "en": "Rolled omelet, tofu hamburger steak, and natto rice.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 526.0,
+     "end": 528.0,
+     "ja": "私も納豆ご飯。",
+     "en": "I'm having natto rice too.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 528.3,
+     "end": 530.8,
+     "ja": "これがめちゃくちゃ美味しいんだよね。",
+     "en": "This is insanely delicious, isn't it?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 531.0,
+     "end": 533.3,
+     "ja": "結局こういうのが一番…",
+     "en": "In the end, this kind of meal is the best...",
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
+   "start": 606.8,
+   "end": 634.5,
+   "title": "Chatting Over Avocado Toast",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "family"
+   ],
+   "grammar": [
+    "〜に行く — go to do",
+    "〜ていい — permission",
+    "〜って言った — quoted speech"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 606.8,
+     "end": 610.5,
+     "ja": "えー、今日は、この後遊びに行くんだよね。",
+     "en": "Today, we're going out to play after this, right?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 611.0,
+     "end": 614.0,
+     "ja": "プレ…キッズパーク？何て言うんだろう、ああいう所。",
+     "en": "Play... kids park? What do you call those places?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 614.4,
+     "end": 615.5,
+     "ja": "キッズパーク？",
+     "en": "Kids park?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 616.0,
+     "end": 622.0,
+     "ja": "室内遊び場に、祭りの、お友達も一緒に行きます。",
+     "en": "We're going to an indoor playground with Matsuri's friend too.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 624.0,
+     "end": 625.0,
+     "ja": "美味かった。",
+     "en": "That was good.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 625.2,
+     "end": 626.5,
+     "ja": "美味しい？ごちそうさま。",
+     "en": "Good? Thanks for finishing it.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 627.0,
+     "end": 628.5,
+     "ja": "あ、それ食べていいよ。",
+     "en": "Oh, you can eat that.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 629.5,
+     "end": 631.5,
+     "ja": "パン！パンって言った。",
+     "en": "Bread! She said 'bread.'",
+     "speaker": "Mom"
+    },
+    {
+     "start": 632.0,
+     "end": 634.0,
+     "ja": "くれって聞こえた？",
+     "en": "Did that sound like 'give me' to you?",
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
+   "start": 806.3,
+   "end": 821.5,
+   "title": "Wrapping Up the Vlog",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜てくる — do and come back",
+    "〜ましょう — let's"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 806.5,
+     "end": 808.8,
+     "ja": "撮影が終わって帰ってきました。",
+     "en": "The photo shoot is over and we're back home.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 809.0,
+     "end": 810.3,
+     "ja": "ただいま。",
+     "en": "We're home.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 811.0,
+     "end": 814.0,
+     "ja": "これにて今回のVlogは終わりです。",
+     "en": "With that, this vlog comes to an end.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 814.3,
+     "end": 816.8,
+     "ja": "では、また次の動画でお会いしましょう。",
+     "en": "See you in the next video.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 817.0,
+     "end": 818.5,
+     "ja": "ありがとうございました。",
+     "en": "Thank you very much.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 818.8,
+     "end": 821.2,
+     "ja": "マツ、バイバイして。バイバイ。",
+     "en": "Matsu, wave bye-bye. Bye-bye.",
+     "speaker": "Mom"
+    }
+   ]
+  }
+ ],
+ "videoId": "s7Hj7uvakQk",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,154 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 163.0,
+   "end": 178.0,
+   "title": "Importance of Cultural Exchange",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜てはいけない — must not / should not",
+    "〜と思う — think that"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 163.2,
+     "end": 166.8,
+     "ja": "ファッションとか、まあフードもそうだし、",
+     "en": "Like fashion, and food as well,",
+     "speaker": "Young man"
+    },
+    {
+     "start": 166.9,
+     "end": 172.0,
+     "ja": "ま、例えば新大久保とかだったり、やっぱり韓国との交流ってやっぱり多いから、",
+     "en": "like going to Shin-Okubo and all, there is a lot of exchange with Korea after all,",
+     "speaker": "Young man"
+    },
+    {
+     "start": 172.2,
+     "end": 177.6,
+     "ja": "やっぱ日本と韓国の、その交流はやっぱり途切れさせてはいけないものだと思うし、",
+     "en": "so I think that exchange between Japan and Korea isn't something we should let break off.",
+     "speaker": "Young man"
+    }
+   ]
+  },
+  {
+   "start": 501.5,
+   "end": 519.0,
+   "title": "Impression of Korean Visitors",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜てくれる — to do something for someone",
+    "〜んだな — expressing realization"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 501.8,
+     "end": 505.7,
+     "ja": "韓国人の人はやはり子供の好きな人が多いので、",
+     "en": "Many Koreans seem to really like children,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 505.8,
+     "end": 510.7,
+     "ja": "あの、子供に、あの、エレベーターとか押して待っててくれたり、",
+     "en": "so they'd hold the elevator for us when I was with my child,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 510.8,
+     "end": 514.2,
+     "ja": "結構、声かけてくれたりするので、",
+     "en": "and often chat with us,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 514.3,
+     "end": 518.6,
+     "ja": "すごい、あの、優しい人が多いんだなという印象でした。",
+     "en": "so I got the impression that there are so many kind people.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 520.0,
+   "end": 538.5,
+   "title": "Korean Friends and Coworkers",
+   "level": "N3",
+   "topics": [
+    "work",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜し〜し — listing reasons",
+    "〜に対して — towards / regarding",
+    "〜しかない — have only / nothing but"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 520.2,
+     "end": 523.0,
+     "ja": "バイトに一人いるんですよ、韓国人の。",
+     "en": "There's a Korean person at my part-time job.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 523.1,
+     "end": 525.3,
+     "ja": "全然なんか優しいし、",
+     "en": "She's really kind,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 525.4,
+     "end": 528.0,
+     "ja": "あの、日本のこともよく思ってくれてるし。",
+     "en": "and she thinks well of Japan, too.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 528.2,
+     "end": 530.8,
+     "ja": "あ、俺も友達にいるんすけど、一人。",
+     "en": "Oh, I have a friend from Korea, too.",
+     "speaker": "Man"
+    },
+    {
+     "start": 530.9,
+     "end": 533.3,
+     "ja": "めっちゃ面白くて、いいやつで。",
+     "en": "He's super funny and a really good guy.",
+     "speaker": "Man"
+    },
+    {
+     "start": 534.6,
+     "end": 538.0,
+     "ja": "だから全然、韓国人に対してはいいイメージしかないっすね。",
+     "en": "So I honestly only have good impressions of Korean people.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "d89JU5Efi6Y",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

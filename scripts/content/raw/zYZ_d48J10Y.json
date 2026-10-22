@@ -1,0 +1,173 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 131.8,
+   "end": 139.8,
+   "title": "Buying a Train Ticket at the Machine",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜に合った — matching / suitable for",
+    "〜て、〜 — verb te-form sequence"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 132.0,
+     "end": 135.0,
+     "ja": "まず、券売機にお金を入れます。",
+     "en": "First, insert the money into the ticket vending machine.",
+     "speaker": "Yoriyori Kizami"
+    },
+    {
+     "start": 135.4,
+     "end": 140.5,
+     "ja": "続いて、利用する人の、年齢と人数に合ったボタンを選択します。",
+     "en": "Next, select the button matching the age and number of passengers.",
+     "speaker": "Yoriyori Kizami"
+    },
+    {
+     "start": 141.0,
+     "end": 145.5,
+     "ja": "中学生以上の私が一人なので、おとな１枚ですね。",
+     "en": "Since it's just me and I'm junior high school age or older, one adult ticket.",
+     "speaker": "Yoriyori Kizami"
+    },
+    {
+     "start": 146.0,
+     "end": 150.8,
+     "ja": "路線図を見上げて…厚狭駅は、680円。",
+     "en": "Looking up at the route map... Asa Station is 680 yen.",
+     "speaker": "Yoriyori Kizami"
+    },
+    {
+     "start": 151.2,
+     "end": 156.0,
+     "ja": "680円のボタンを押して、発券を待ちます。",
+     "en": "I press the 680 yen button and wait for the ticket to be issued.",
+     "speaker": "Yoriyori Kizami"
+    },
+    {
+     "start": 156.5,
+     "end": 159.8,
+     "ja": "発券されました。きっぷとおつりを取ります。",
+     "en": "It's issued. I take the ticket and the change.",
+     "speaker": "Yoriyori Kizami"
+    }
+   ]
+  },
+  {
+   "start": 166.8,
+   "end": 180.2,
+   "title": "Passing Through the Ticket Gate",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜ている — resultant state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 167.0,
+     "end": 169.8,
+     "ja": "きっぷうりばのすぐ隣にある改札口。",
+     "en": "The ticket gate right next to the ticket area.",
+     "speaker": "Yoriyori Kizami"
+    },
+    {
+     "start": 170.0,
+     "end": 174.2,
+     "ja": "自動改札機が設置されているので、そこを通ります。",
+     "en": "Automatic gates are installed, so I'll go through there.",
+     "speaker": "Yoriyori Kizami"
+    },
+    {
+     "start": 174.6,
+     "end": 176.8,
+     "ja": "投入して、取り出す。",
+     "en": "Insert it, then take it back out.",
+     "speaker": "Yoriyori Kizami"
+    },
+    {
+     "start": 177.2,
+     "end": 179.8,
+     "ja": "きっぷに穴があきました。",
+     "en": "A hole was punched in the ticket.",
+     "speaker": "Yoriyori Kizami"
+    }
+   ]
+  },
+  {
+   "start": 480.8,
+   "end": 509.0,
+   "title": "Exiting at a Non-Ticket Gate",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜のために — for the purpose of",
+    "〜のようだ — it seems like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 481.0,
+     "end": 484.5,
+     "ja": "自動改札機があるので、きっぷを…",
+     "en": "There is an automatic gate, so the ticket...",
+     "speaker": "Yoriyori Kizami"
+    },
+    {
+     "start": 485.5,
+     "end": 487.8,
+     "ja": "…投入口がないですね。",
+     "en": "...There's no slot to insert it.",
+     "speaker": "Yoriyori Kizami"
+    },
+    {
+     "start": 488.8,
+     "end": 494.3,
+     "ja": "こちらの自動改札機は、ICカード対応のために設置されている様子。",
+     "en": "It seems this automatic gate was only installed for IC cards.",
+     "speaker": "Yoriyori Kizami"
+    },
+    {
+     "start": 494.7,
+     "end": 498.5,
+     "ja": "きっぷは係員に渡す仕組みのようです。",
+     "en": "It looks like tickets are handed over to the staff.",
+     "speaker": "Yoriyori Kizami"
+    },
+    {
+     "start": 504.0,
+     "end": 506.0,
+     "ja": "改札外に出ました。",
+     "en": "I've exited past the ticket gate.",
+     "speaker": "Yoriyori Kizami"
+    },
+    {
+     "start": 506.3,
+     "end": 508.8,
+     "ja": "後は、駅の外に出るだけです。",
+     "en": "All that's left is to walk out of the station.",
+     "speaker": "Yoriyori Kizami"
+    }
+   ]
+  }
+ ],
+ "videoId": "zYZ_d48J10Y",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,190 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 2.5,
+   "end": 22.0,
+   "title": "I Want to Be Like Him",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "dreams"
+   ],
+   "grammar": [
+    "〜たら — if/when conditional",
+    "〜たい — wanting to do something",
+    "〜ちゃう — doing completely/casually"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2.8,
+     "end": 4.5,
+     "ja": "超かっこいいな！",
+     "en": "He's so cool!",
+     "speaker": "Izuku"
+    },
+    {
+     "start": 4.5,
+     "end": 5.8,
+     "ja": "もう大丈夫！",
+     "en": "Fear not!",
+     "speaker": "All Might"
+    },
+    {
+     "start": 5.8,
+     "end": 8.4,
+     "ja": "僕も個性出たら、こんな風になりたいな！",
+     "en": "When my Quirk manifests, I want to be just like him!",
+     "speaker": "Izuku"
+    },
+    {
+     "start": 8.4,
+     "end": 9.4,
+     "ja": "何故って？",
+     "en": "Why?",
+     "speaker": "All Might"
+    },
+    {
+     "start": 9.5,
+     "end": 11.6,
+     "ja": "私が来た！",
+     "en": "Because I am here!",
+     "speaker": "All Might"
+    },
+    {
+     "start": 12.0,
+     "end": 15.8,
+     "ja": "どんな困ってる人でも笑顔で助けちゃうんだよ。",
+     "en": "He saves anyone in trouble with a smile on his face.",
+     "speaker": "Izuku"
+    },
+    {
+     "start": 15.9,
+     "end": 18.5,
+     "ja": "超かっこいいヒーローさ。",
+     "en": "He's a super cool hero.",
+     "speaker": "Izuku"
+    },
+    {
+     "start": 18.6,
+     "end": 21.8,
+     "ja": "僕も…なれるかな…",
+     "en": "I wonder if I... can become one too...",
+     "speaker": "Izuku"
+    }
+   ]
+  },
+  {
+   "start": 37.0,
+   "end": 58.0,
+   "title": "You Can Become a Hero",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "dreams",
+    "school"
+   ],
+   "grammar": [
+    "〜ても — even if",
+    "〜みたいに — like / similar to",
+    "〜てほしい — wanting someone to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.2,
+     "end": 39.8,
+     "ja": "個性がなくても、ヒーローはできますか？",
+     "en": "Even without a Quirk, can I become a hero?",
+     "speaker": "Izuku"
+    },
+    {
+     "start": 40.0,
+     "end": 41.8,
+     "ja": "ごめんね、出久。",
+     "en": "I'm sorry, Izuku.",
+     "speaker": "Inko"
+    },
+    {
+     "start": 42.1,
+     "end": 44.8,
+     "ja": "それでも、僕は…",
+     "en": "Even so, I...",
+     "speaker": "Izuku"
+    },
+    {
+     "start": 45.0,
+     "end": 49.3,
+     "ja": "個性のない人間でも、あなたみたいになれますか？",
+     "en": "Even without a Quirk, can a person become like you?",
+     "speaker": "Izuku"
+    },
+    {
+     "start": 49.8,
+     "end": 54.6,
+     "ja": "あの時、僕が言ってほしかったのは…言ってほしかった言葉は…",
+     "en": "Back then, what I wanted to hear... the words I wanted told to me...",
+     "speaker": "Izuku"
+    },
+    {
+     "start": 55.0,
+     "end": 57.8,
+     "ja": "君は、ヒーローになれる。",
+     "en": "You can become a hero.",
+     "speaker": "All Might"
+    }
+   ]
+  },
+  {
+   "start": 206.0,
+   "end": 217.5,
+   "title": "The Story of How We Became Heroes",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "dreams"
+   ],
+   "grammar": [
+    "〜まで — until",
+    "〜の物語 — the story of ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 206.3,
+     "end": 207.3,
+     "ja": "これは、",
+     "en": "This is...",
+     "speaker": "Izuku"
+    },
+    {
+     "start": 207.4,
+     "end": 211.5,
+     "ja": "僕が最高のヒーローになるまでの物語。",
+     "en": "the story of how I became the greatest hero.",
+     "speaker": "Izuku"
+    },
+    {
+     "start": 211.8,
+     "end": 213.5,
+     "ja": "そして、",
+     "en": "And...",
+     "speaker": "Izuku"
+    },
+    {
+     "start": 213.6,
+     "end": 217.3,
+     "ja": "みんなが最高のヒーローになるまでの物語だ。",
+     "en": "the story of how everyone became the greatest heroes.",
+     "speaker": "Izuku"
+    }
+   ]
+  }
+ ],
+ "videoId": "rfIP83TCJTg",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

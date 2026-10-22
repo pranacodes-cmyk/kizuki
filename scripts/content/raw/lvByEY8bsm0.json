@@ -1,0 +1,172 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.8,
+   "end": 25.5,
+   "title": "Rainy Day in Belfast",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜ている — ongoing state / action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 7.1,
+     "end": 9.0,
+     "ja": "皆さん、こんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 9.2,
+     "end": 12.0,
+     "ja": "日本語の先生、のりこです。",
+     "en": "I'm Noriko, your Japanese teacher.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 13.1,
+     "end": 18.0,
+     "ja": "今日、北アイルランドのベルファストは、一日中雨でした。",
+     "en": "Today, it was raining all day in Belfast, Northern Ireland.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 19.0,
+     "end": 22.0,
+     "ja": "本当に大雨の一日だったので、",
+     "en": "Because it was a day of really heavy rain,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 22.2,
+     "end": 25.0,
+     "ja": "なんだかちょっと落ち込んでいます。",
+     "en": "I'm feeling somewhat down.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 140.0,
+   "end": 166.5,
+   "title": "Trying Out New Things",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜について — about / regarding",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 140.5,
+     "end": 144.5,
+     "ja": "今日のトピックは、新しいこと。",
+     "en": "Today's topic is \"new things\".",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 145.0,
+     "end": 148.5,
+     "ja": "何か新しいことを始めていますか？",
+     "en": "Have you started anything new?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 148.8,
+     "end": 153.2,
+     "ja": "新しいことにチャレンジ、挑戦していますか？",
+     "en": "Are you challenging yourself with something new?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 153.5,
+     "end": 156.5,
+     "ja": "ということについて話します。",
+     "en": "I'm going to talk about that.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 157.5,
+     "end": 161.0,
+     "ja": "私は今年、2020年、",
+     "en": "This year, in 2020,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 161.5,
+     "end": 166.0,
+     "ja": "たくさんの新しいことを始めてみました。",
+     "en": "I tried starting lots of new things.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 319.2,
+   "end": 339.8,
+   "title": "Taking on New Challenges",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜ようと思う — think of doing / intend to do",
+    "なかなか〜ない — not easily / hardly"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 319.6,
+     "end": 323.5,
+     "ja": "皆さんは、今年、または最近、",
+     "en": "Have you, this year or recently,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 324.0,
+     "end": 327.5,
+     "ja": "何か新しいことをやってみようと思って、",
+     "en": "thought about trying something new,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 328.0,
+     "end": 331.0,
+     "ja": "それをやってみましたか？",
+     "en": "and actually tried it?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 331.8,
+     "end": 334.8,
+     "ja": "私たち人間は、",
+     "en": "We humans,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 335.0,
+     "end": 339.3,
+     "ja": "なかなか新しいことにチャレンジできないと思うんです。",
+     "en": "I think we find it quite hard to try new things.",
+     "speaker": "Noriko"
+    }
+   ]
+  }
+ ],
+ "videoId": "lvByEY8bsm0",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

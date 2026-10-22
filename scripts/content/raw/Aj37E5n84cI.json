@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 81.8,
+   "end": 147.5,
+   "title": "Finding What Brings Joy in Australia",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ことになる — it was decided that",
+    "〜と思う — to think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 81.8,
+     "end": 85.5,
+     "ja": "そうなりますよね。",
+     "en": "That's how it turns out, right.",
+     "speaker": "Mayumi"
+    },
+    {
+     "start": 85.5,
+     "end": 89.8,
+     "ja": "うん。結果、結果そうなったという感じですけど、",
+     "en": "Yeah. It feels like that's just how it ended up resulting, but...",
+     "speaker": "Mayumi"
+    },
+    {
+     "start": 90.0,
+     "end": 95.4,
+     "ja": "そうですね。オーストラリアに行くことになって、",
+     "en": "Right. It was decided that I would go to Australia,",
+     "speaker": "Mayumi"
+    },
+    {
+     "start": 95.5,
+     "end": 104.8,
+     "ja": "で、えっと自分が心から楽しいと思うことが分かったんですよね、そのときに。",
+     "en": "and, well, that was when I realized what sincerely made me happy.",
+     "speaker": "Mayumi"
+    },
+    {
+     "start": 105.0,
+     "end": 107.5,
+     "ja": "たまたま分かったんですよね。",
+     "en": "I just happened to find out by chance.",
+     "speaker": "Mayumi"
+    }
+   ]
+  },
+  {
+   "start": 112.0,
+   "end": 136.8,
+   "title": "A Sense of Freedom I Had Never Felt",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜てるときに — while doing",
+    "〜たことのない — have never experienced"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 112.0,
+     "end": 118.2,
+     "ja": "ま、行ってるときに、「あー、すごい楽しい」と思って、",
+     "en": "Well, while I was there, I thought, 'Ah, this is so fun,'",
+     "speaker": "Mayumi"
+    },
+    {
+     "start": 118.3,
+     "end": 124.9,
+     "ja": "何この…今まで味わったことのない楽しさと、なんか解放感と、",
+     "en": "and this joy I had never experienced before, along with a sense of freedom,",
+     "speaker": "Mayumi"
+    },
+    {
+     "start": 125.0,
+     "end": 132.6,
+     "ja": "あの「えっ？私、今までの状態に戻りたくないんだけど、どうすればいいの？」っていう感じが",
+     "en": "and this feeling of 'Wait, I don't want to go back to how things were, what should I do?'",
+     "speaker": "Mayumi"
+    },
+    {
+     "start": 132.7,
+     "end": 136.8,
+     "ja": "ふわっとこう湧いてきたっていう、",
+     "en": "gently welled up inside me...",
+     "speaker": "Mayumi"
+    }
+   ]
+  },
+  {
+   "start": 146.5,
+   "end": 168.0,
+   "title": "Saving Up Money for Mexico",
+   "level": "N3",
+   "topics": [
+    "work",
+    "travel"
+   ],
+   "grammar": [
+    "〜ずに — without doing",
+    "〜ていた — was doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 146.5,
+     "end": 150.4,
+     "ja": "で、私も結構その、あの日本に帰ってきて、",
+     "en": "And after I returned to Japan,",
+     "speaker": "Miku"
+    },
+    {
+     "start": 150.5,
+     "end": 155.2,
+     "ja": "で、そこから就職活動せずに、",
+     "en": "without doing any job hunting,",
+     "speaker": "Miku"
+    },
+    {
+     "start": 155.3,
+     "end": 162.3,
+     "ja": "箱根の旅館で、まあバイトみたいな感じのことをしてたんですけど、",
+     "en": "I worked part-time at an inn in Hakone, and...",
+     "speaker": "Miku"
+    },
+    {
+     "start": 162.4,
+     "end": 167.8,
+     "ja": "で、お金を貯めて、そのお金でメキシコに行ったんですね。",
+     "en": "I saved up money, and used that money to go to Mexico.",
+     "speaker": "Miku"
+    }
+   ]
+  }
+ ],
+ "videoId": "Aj37E5n84cI",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

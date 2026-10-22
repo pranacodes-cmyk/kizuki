@@ -1,0 +1,201 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 19.5,
+   "end": 52.8,
+   "title": "Talking About Cherry Blossoms",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜に咲く — bloom in/at",
+    "〜の〜 — noun modifier particle の"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 19.8,
+     "end": 21.6,
+     "ja": "これは桜です。",
+     "en": "This is a cherry blossom.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 23.9,
+     "end": 25.7,
+     "ja": "これは桜です。",
+     "en": "This is a cherry blossom.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 28.0,
+     "end": 30.6,
+     "ja": "これは公園に咲く桜です。",
+     "en": "This is a cherry blossom blooming in a park.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 33.3,
+     "end": 35.9,
+     "ja": "これは公園に咲く桜です。",
+     "en": "This is a cherry blossom blooming in a park.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 40.0,
+     "end": 43.1,
+     "ja": "これは公園に咲く桜の花です。",
+     "en": "These are cherry blossoms blooming in a park.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 46.5,
+     "end": 49.5,
+     "ja": "これは公園に咲く桜の花です。",
+     "en": "These are cherry blossoms blooming in a park.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 125.4,
+   "end": 154.0,
+   "title": "Looking at the Leaves",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜があります — there is/are (inanimate)",
+    "〜の〜 — noun modifier particle の"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 125.7,
+     "end": 127.3,
+     "ja": "葉っぱがあります。",
+     "en": "There are leaves.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 129.5,
+     "end": 131.2,
+     "ja": "葉っぱがあります。",
+     "en": "There are leaves.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 133.7,
+     "end": 136.0,
+     "ja": "緑の葉っぱがあります。",
+     "en": "There are green leaves.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 138.4,
+     "end": 140.6,
+     "ja": "緑の葉っぱがあります。",
+     "en": "There are green leaves.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 144.1,
+     "end": 147.2,
+     "ja": "所々に緑の葉っぱがあります。",
+     "en": "Here and there, there are green leaves.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 150.1,
+     "end": 153.2,
+     "ja": "所々に緑の葉っぱがあります。",
+     "en": "Here and there, there are green leaves.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 304.8,
+   "end": 340.5,
+   "title": "Cherry Blossoms and New Beginnings",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜と — when/if",
+    "〜たりする — doing things like",
+    "〜と感じる — feel that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 305.1,
+     "end": 309.2,
+     "ja": "日本では春が卒業と入学のシーズンです。",
+     "en": "In Japan, spring is the season for graduation and school entrance.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 309.8,
+     "end": 313.2,
+     "ja": "多くの学校で桜が植えられていて、",
+     "en": "Cherry trees are planted at many schools,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 314.1,
+     "end": 318.9,
+     "ja": "入学式の時、桜の前で写真を撮ったりします。",
+     "en": "and during entrance ceremonies, people take photos in front of the cherry blossoms.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 320.1,
+     "end": 323.5,
+     "ja": "社会人として初めて働く人も、",
+     "en": "People who are starting to work as working adults for the first time,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 323.9,
+     "end": 326.8,
+     "ja": "多くの場合は4月から仕事が始まります。",
+     "en": "in most cases, start work in April.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 327.3,
+     "end": 330.1,
+     "ja": "そのため春が来て桜を見ると、",
+     "en": "Because of that, when spring comes and people see cherry blossoms,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 330.9,
+     "end": 334.8,
+     "ja": "期待や不安など色々な思いも合わせて、",
+     "en": "along with various feelings such as hope and anxiety,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 335.2,
+     "end": 339.7,
+     "ja": "「新しい季節が始まった」と強く感じるのだと思います。",
+     "en": "I think they strongly feel that a new season has begun.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "wxA0pmLbx84",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

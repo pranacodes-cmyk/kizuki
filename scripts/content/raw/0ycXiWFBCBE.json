@@ -1,0 +1,131 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 128.5,
+   "end": 150.0,
+   "title": "The Historic Dome of Tokyo Station",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜たもの — nominalised past action / thing that was done",
+    "〜とは — defining a term"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 128.8,
+     "end": 131.8,
+     "ja": "とてもきれいなドームが見えます。",
+     "en": "You can see a very beautiful dome.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 132.3,
+     "end": 142.0,
+     "ja": "これは1914年に初めてこの駅舎を建設した時のデザインを復元したものです。",
+     "en": "This is a restoration of the original design from when the station building was first constructed in 1914.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 142.5,
+     "end": 149.6,
+     "ja": "復元とは昔の姿と同じように、新しく作り直すことです。",
+     "en": "Restoration means recreating something anew just as it looked in the past.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 709.6,
+   "end": 727.0,
+   "title": "Special Miso Ramen Toppings",
+   "level": "N4",
+   "topics": [
+    "food"
+   ],
+   "grammar": [
+    "〜ています — ongoing state / progressive",
+    "〜にする — to decide on / choose"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 709.8,
+     "end": 714.5,
+     "ja": "特製味噌ラーメン、1180円です。",
+     "en": "This is the special miso ramen, costing 1,180 yen.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 715.0,
+     "end": 722.5,
+     "ja": "チャーシュー、ネギ、もやし、卵、メンマが乗っています。",
+     "en": "It is topped with chashu pork, green onions, bean sprouts, an egg, and seasoned bamboo shoots.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 722.8,
+     "end": 726.5,
+     "ja": "もやしは大盛りにしました。",
+     "en": "I asked for an extra-large portion of bean sprouts.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 838.5,
+   "end": 864.5,
+   "title": "What Is Anmitsu?",
+   "level": "N3",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜とは — defining a term",
+    "〜という — called / named",
+    "〜のような — like / similar to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 838.8,
+     "end": 843.5,
+     "ja": "あんみつとは、このようなスイーツです。",
+     "en": "Anmitsu is this kind of sweet dessert.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 844.0,
+     "end": 849.5,
+     "ja": "あんこや寒天など、色々なものが入っています。",
+     "en": "It contains various things like red bean paste and agar jelly.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 850.0,
+     "end": 857.5,
+     "ja": "あんこは、小豆という豆に砂糖を入れて甘く煮たペーストです。",
+     "en": "Anko is a paste made by adding sugar to beans called azuki and simmering them sweet.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 858.0,
+     "end": 864.2,
+     "ja": "寒天は海藻から作るゼリーのようなものです。",
+     "en": "Kanten is a jelly-like food made from seaweed.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "0ycXiWFBCBE",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

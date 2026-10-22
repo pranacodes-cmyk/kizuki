@@ -1,0 +1,140 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 24.5,
+   "end": 44.8,
+   "title": "Taking Off Shoes at the Entrance",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜て — sequential action",
+    "〜ので — because / reason"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 25.0,
+     "end": 30.5,
+     "ja": "この日は仕事を終えて、夜の７時に家に着きました。",
+     "en": "On this day, after finishing work, I arrived home at 7 p.m.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 31.8,
+     "end": 35.0,
+     "ja": "まずは靴を脱ぎます。",
+     "en": "First, I take off my shoes.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 36.0,
+     "end": 44.2,
+     "ja": "日本では家の中で靴を履かないので、必ず玄関で靴を脱いで家に入ります。",
+     "en": "In Japan, people don't wear shoes inside the house, so we always take off our shoes at the entrance before entering.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 142.3,
+   "end": 207.0,
+   "title": "Reheating Curry for Dinner",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ことが多い — often / frequently",
+    "〜てくる — start to / begin to",
+    "〜そう — looks like / seems"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 142.5,
+     "end": 148.5,
+     "ja": "冷蔵庫からカレーが入ったお鍋を取り出して火をつけます。",
+     "en": "I take the pot with curry out of the fridge and turn on the stove.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 150.8,
+     "end": 156.5,
+     "ja": "平日の夜ご飯は簡単に済ませることが多いです。",
+     "en": "On weekday evenings, I often keep dinner simple.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 158.8,
+     "end": 202.5,
+     "ja": "しばらくすると、いい匂いがしてきました。",
+     "en": "After a little while, a nice smell started to come out.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 203.8,
+     "end": 206.5,
+     "ja": "そろそろ良さそうですね。",
+     "en": "It looks about ready now.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 309.5,
+   "end": 334.8,
+   "title": "The Culture of Soaking in the Bathtub",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜とは — defining / means",
+    "〜と — when / natural result",
+    "〜ている — habitual action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 309.5,
+     "end": 315.5,
+     "ja": "次にスポンジを使ってゴシゴシ洗っていきます。",
+     "en": "Next, I scrub it thoroughly using a sponge.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 316.0,
+     "end": 319.8,
+     "ja": "日本では湯船につかる文化があります。",
+     "en": "In Japan, there is a culture of soaking in the bathtub.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 320.0,
+     "end": 325.2,
+     "ja": "「湯船につかる」とは浴槽に入ることを意味します。",
+     "en": "\"Soaking in the yubune\" means getting into the bathtub.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 326.0,
+     "end": 334.2,
+     "ja": "湯船に入ると体が温まり、疲れが取れるので、私は毎日湯船につかっています。",
+     "en": "When you soak in the tub, your body warms up and tiredness goes away, so I soak in the tub every day.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "6KMmF3QTy2Q",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

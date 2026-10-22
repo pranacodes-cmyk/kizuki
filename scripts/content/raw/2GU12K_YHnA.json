@@ -1,0 +1,209 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 43.6,
+   "end": 105.1,
+   "title": "Only One Item on the Menu",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "だけ — only / just",
+    "〜年間 — for ... years"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 43.9,
+     "end": 47.3,
+     "ja": "あの、メニューはありますか？",
+     "en": "Um, do you have a menu?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 48.5,
+     "end": 51.2,
+     "ja": "メニューは一つだけですよ。",
+     "en": "There's only one thing on the menu.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 51.3,
+     "end": 53.3,
+     "ja": "醤油ラーメンです。",
+     "en": "Soy sauce ramen.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 54.0,
+     "end": 56.0,
+     "ja": "一つだけ？",
+     "en": "Only one?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 56.9,
+     "end": 60.8,
+     "ja": "はい。３５年間、この味だけです。",
+     "en": "Yes. Thirty-five years, just this one flavor.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 61.5,
+     "end": 64.9,
+     "ja": "３５年！すごいですね。",
+     "en": "Thirty-five years! That's incredible.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 238.6,
+   "end": 264.4,
+   "title": "It's on the House",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜から — because",
+    "〜ないでください — please don't"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 239.0,
+     "end": 241.2,
+     "ja": "高橋さん、すみません。",
+     "en": "Takahashi-san, excuse me.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 241.4,
+     "end": 244.5,
+     "ja": "このラーメン、おいくらですか？",
+     "en": "How much is this ramen?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 245.5,
+     "end": 247.7,
+     "ja": "８５０円です。",
+     "en": "It's 850 yen.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 248.5,
+     "end": 251.0,
+     "ja": "餃子のお金は？",
+     "en": "And for the gyoza?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 251.6,
+     "end": 254.5,
+     "ja": "いりません。サービスですから。",
+     "en": "No need. They're on the house.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 255.1,
+     "end": 258.5,
+     "ja": "でも、悪いです。払います。",
+     "en": "But I feel bad. Let me pay.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 259.8,
+     "end": 262.0,
+     "ja": "払わないでください。",
+     "en": "Please don't.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 262.1,
+     "end": 264.2,
+     "ja": "あ、これもどうぞ。",
+     "en": "Oh, here, have this too.",
+     "speaker": "Owner"
+    }
+   ]
+  },
+  {
+   "start": 735.2,
+   "end": 767.5,
+   "title": "That's My Rule",
+   "level": "N4",
+   "topics": [
+    "food",
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜に — recipient/target",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 735.6,
+     "end": 739.5,
+     "ja": "美味しい料理にはお金を払います。",
+     "en": "I pay for delicious food.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 740.0,
+     "end": 742.5,
+     "ja": "それが私のルールです。",
+     "en": "That's my rule.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 743.5,
+     "end": 748.5,
+     "ja": "じゃあ、お会計は２８００円です。",
+     "en": "Well then, the total is 2,800 yen.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 749.0,
+     "end": 753.3,
+     "ja": "払います。でも、領収書をください。",
+     "en": "I'll pay. But please give me a receipt.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 753.7,
+     "end": 757.0,
+     "ja": "「取材費」と書いてください。",
+     "en": "Please write \"research expenses\" on it.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 757.8,
+     "end": 763.5,
+     "ja": "取材費！じゃあ、次のレビューは？",
+     "en": "Research expenses! So, what about the next review?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 764.2,
+     "end": 767.3,
+     "ja": "来週書きます。正直に。",
+     "en": "I'll write it next week. Honestly.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "2GU12K_YHnA",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

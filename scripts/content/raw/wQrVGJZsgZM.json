@@ -1,0 +1,83 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 227.5,
+   "end": 254.5,
+   "title": "Talking About Getting in Shape",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜なあかん — must / have to (Kansai)",
+    "〜やん — tag question (Kansai)"
+   ],
+   "quality": 3,
+   "lines": [
+    {
+     "start": 228.0,
+     "end": 230.8,
+     "ja": "なんかずっと家におるけんあれやなぁ。",
+     "en": "Being stuck at home all the time is no good.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 230.9,
+     "end": 233.5,
+     "ja": "ランニングとかせなあかんなぁ。",
+     "en": "I gotta go running or something.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 234.0,
+     "end": 236.2,
+     "ja": "運動せんと。",
+     "en": "Need to exercise.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 237.8,
+     "end": 239.5,
+     "ja": "まじで…。",
+     "en": "Seriously...",
+     "speaker": "Husband"
+    },
+    {
+     "start": 242.5,
+     "end": 244.6,
+     "ja": "運動不足すぎるわ。",
+     "en": "I'm way too out of shape.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 244.8,
+     "end": 246.8,
+     "ja": "ずっと家におるし。",
+     "en": "Since I'm always at home.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 248.5,
+     "end": 249.8,
+     "ja": "聞いてる？",
+     "en": "Are you listening?",
+     "speaker": "Husband"
+    },
+    {
+     "start": 252.0,
+     "end": 254.2,
+     "ja": "全然聞いてないやん。",
+     "en": "You're not listening at all.",
+     "speaker": "Husband"
+    }
+   ]
+  }
+ ],
+ "videoId": "wQrVGJZsgZM",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

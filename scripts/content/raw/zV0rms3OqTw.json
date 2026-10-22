@@ -1,0 +1,9 @@
+{
+ "speech": "some",
+ "clips": [],
+ "videoId": "zV0rms3OqTw",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

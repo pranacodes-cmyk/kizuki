@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 16.8,
+   "title": "Welcome to the 10-Times Quiz",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜ずに — without doing",
+    "〜以上 — or more / above"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 2.5,
+     "ja": "クイズの達人にようこそ！",
+     "en": "Welcome to Quiz Master!",
+     "speaker": "Host"
+    },
+    {
+     "start": 2.8,
+     "end": 5.5,
+     "ja": "今日のテーマは、10回クイズ！",
+     "en": "Today's theme is: the 10-Times Quiz!",
+     "speaker": "Host"
+    },
+    {
+     "start": 5.8,
+     "end": 8.5,
+     "ja": "キミは最後までダマされずにいられるかな？",
+     "en": "Can you make it to the end without getting tricked?",
+     "speaker": "Host"
+    },
+    {
+     "start": 8.7,
+     "end": 10.8,
+     "ja": "問題はぜんぶで18問！",
+     "en": "There are 18 questions in all!",
+     "speaker": "Host"
+    },
+    {
+     "start": 11.0,
+     "end": 12.7,
+     "ja": "12問以上正解で...",
+     "en": "If you get 12 or more right...",
+     "speaker": "Host"
+    },
+    {
+     "start": 13.3,
+     "end": 14.8,
+     "ja": "キミは10回マスターだ！",
+     "en": "...you're a 10-Times Master!",
+     "speaker": "Host"
+    },
+    {
+     "start": 15.0,
+     "end": 16.7,
+     "ja": "さあ、始めるよ！",
+     "en": "Alright, let's begin!",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 18.0,
+   "end": 44.0,
+   "title": "10-Times Quiz: Crossing the Sea",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜時に — when / at the time of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.3,
+     "end": 19.8,
+     "ja": "第１問！",
+     "en": "Question one!",
+     "speaker": "Host"
+    },
+    {
+     "start": 20.1,
+     "end": 22.8,
+     "ja": "「ハチ」と10回言ってください。",
+     "en": "Please say \"hachi\" 10 times.",
+     "speaker": "Host"
+    },
+    {
+     "start": 29.0,
+     "end": 32.0,
+     "ja": "では、海を渡る時に使われるのは？",
+     "en": "Now, what is used to cross the sea?",
+     "speaker": "Host"
+    },
+    {
+     "start": 38.2,
+     "end": 40.0,
+     "ja": "答えは船！",
+     "en": "The answer is a ship!",
+     "speaker": "Host"
+    },
+    {
+     "start": 40.5,
+     "end": 43.7,
+     "ja": "「橋」と答えたキミは引っかかった〜！",
+     "en": "If you answered \"hashi (bridge),\" you got tricked!",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 507.0,
+   "end": 533.0,
+   "title": "10-Times Quiz: Slowing Down a Car",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ための — for the purpose of / in order to",
+    "〜と答えた — answered that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 507.2,
+     "end": 508.8,
+     "ja": "第11問！",
+     "en": "Question 11!",
+     "speaker": "Host"
+    },
+    {
+     "start": 509.1,
+     "end": 511.8,
+     "ja": "「アクセス」と10回言ってください。",
+     "en": "Please say \"access\" 10 times.",
+     "speaker": "Host"
+    },
+    {
+     "start": 518.0,
+     "end": 521.0,
+     "ja": "では、車のスピードを下げるためのペダルは？",
+     "en": "Now, what pedal is used to slow down a car?",
+     "speaker": "Host"
+    },
+    {
+     "start": 527.2,
+     "end": 529.0,
+     "ja": "答えはブレーキ！",
+     "en": "The answer is the brake!",
+     "speaker": "Host"
+    },
+    {
+     "start": 529.5,
+     "end": 532.7,
+     "ja": "「アクセル」と答えたキミは引っかかった〜！",
+     "en": "If you answered \"accelerator,\" you got tricked!",
+     "speaker": "Host"
+    }
+   ]
+  }
+ ],
+ "videoId": "h0qleaAppxk",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

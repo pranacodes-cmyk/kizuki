@@ -1,0 +1,161 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 41.2,
+   "end": 59.2,
+   "title": "Is That an Apple or a Tomato?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family",
+    "food"
+   ],
+   "grammar": [
+    "〜だよ — informal explanatory assertion",
+    "ね — agreement particle"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 41.7,
+     "end": 43.0,
+     "ja": "りんご！",
+     "en": "Apple!",
+     "speaker": "Ren"
+    },
+    {
+     "start": 43.0,
+     "end": 44.3,
+     "ja": "りんごね！",
+     "en": "An apple!",
+     "speaker": "Hana"
+    },
+    {
+     "start": 44.5,
+     "end": 46.8,
+     "ja": "えっ？りんご？",
+     "en": "Huh? Apple?",
+     "speaker": "Hana"
+    },
+    {
+     "start": 51.0,
+     "end": 53.5,
+     "ja": "それはトマトだよ。",
+     "en": "That's a tomato.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 55.0,
+     "end": 57.0,
+     "ja": "トマト？",
+     "en": "Tomato?",
+     "speaker": "Ren"
+    },
+    {
+     "start": 57.2,
+     "end": 58.6,
+     "ja": "そう！",
+     "en": "That's right!",
+     "speaker": "Mother"
+    }
+   ]
+  },
+  {
+   "start": 241.2,
+   "end": 258.5,
+   "title": "Where Is the School Bag?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜がない — does not exist / be missing",
+    "〜う／よう — volitional form (let's do)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 241.7,
+     "end": 243.5,
+     "ja": "かばんがない！",
+     "en": "My bag isn't here!",
+     "speaker": "Haruto"
+    },
+    {
+     "start": 245.8,
+     "end": 247.3,
+     "ja": "ないよ！",
+     "en": "It's not there!",
+     "speaker": "Ren"
+    },
+    {
+     "start": 251.5,
+     "end": 253.8,
+     "ja": "どこにあるの？",
+     "en": "Where is it?",
+     "speaker": "Haruto"
+    },
+    {
+     "start": 255.5,
+     "end": 257.6,
+     "ja": "いっしょに探そう。",
+     "en": "Let's look for it together.",
+     "speaker": "Mother"
+    }
+   ]
+  },
+  {
+   "start": 341.0,
+   "end": 358.5,
+   "title": "See You Later, Haruto!",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family",
+    "culture"
+   ],
+   "grammar": [
+    "いってらっしゃい — greeting to someone leaving home",
+    "〜てね — gentle request / reminder"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 341.8,
+     "end": 344.2,
+     "ja": "いってらっしゃい！",
+     "en": "Have a good day!",
+     "speaker": "Mother"
+    },
+    {
+     "start": 346.0,
+     "end": 348.0,
+     "ja": "いってきます！",
+     "en": "I'm heading out!",
+     "speaker": "Haruto"
+    },
+    {
+     "start": 352.5,
+     "end": 354.5,
+     "ja": "バイバイ！",
+     "en": "Bye-bye!",
+     "speaker": "Ren"
+    },
+    {
+     "start": 355.8,
+     "end": 357.8,
+     "ja": "気をつけてね！",
+     "en": "Be careful!",
+     "speaker": "Mother"
+    }
+   ]
+  }
+ ],
+ "videoId": "1t12BjgS9D8",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

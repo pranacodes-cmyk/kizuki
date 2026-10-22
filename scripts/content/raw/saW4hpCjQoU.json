@@ -1,0 +1,156 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 131.0,
+   "end": 146.7,
+   "title": "Arriving in Omotesando",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜たいと思う — to think of wanting to do",
+    "〜てます — ongoing state / progressive",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 131.2,
+     "end": 133.2,
+     "ja": "はい、急に喋ります。",
+     "en": "Alright, suddenly speaking.",
+     "speaker": "Vlogger"
+    },
+    {
+     "start": 133.3,
+     "end": 135.7,
+     "ja": "今、表参道に来てます。",
+     "en": "I'm in Omotesando right now.",
+     "speaker": "Vlogger"
+    },
+    {
+     "start": 136.0,
+     "end": 139.8,
+     "ja": "ちょっとこれからメガネを買いたいかなと思います。",
+     "en": "I think I'd like to buy glasses after this.",
+     "speaker": "Vlogger"
+    },
+    {
+     "start": 140.0,
+     "end": 142.4,
+     "ja": "あと、まだ何も食べてないので、",
+     "en": "Also, I haven't eaten anything yet,",
+     "speaker": "Vlogger"
+    },
+    {
+     "start": 142.5,
+     "end": 146.2,
+     "ja": "ちょっと早めのお昼ご飯も食べたいと思います。",
+     "en": "so I think I'd like to eat an early lunch too.",
+     "speaker": "Vlogger"
+    }
+   ]
+  },
+  {
+   "start": 424.2,
+   "end": 441.8,
+   "title": "Looking for a Shirt in Aoyama",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜たことがある — to have the experience of",
+    "〜ちゃう — to do completely / accidentally",
+    "〜に行こう — volitional of going to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 424.5,
+     "end": 426.8,
+     "ja": "無事にメガネも買えたので、",
+     "en": "I was able to safely buy glasses,",
+     "speaker": "Vlogger"
+    },
+    {
+     "start": 427.0,
+     "end": 430.5,
+     "ja": "次はシャツを買いに行こうかなと思います。",
+     "en": "so next I think I'll go buy a shirt.",
+     "speaker": "Vlogger"
+    },
+    {
+     "start": 431.8,
+     "end": 434.3,
+     "ja": "すごい奥の方に来ちゃったので、",
+     "en": "I came really far back into the neighborhood,",
+     "speaker": "Vlogger"
+    },
+    {
+     "start": 434.5,
+     "end": 437.4,
+     "ja": "こんなところ歩いたことないですね。",
+     "en": "so I've never walked in a place like this before.",
+     "speaker": "Vlogger"
+    },
+    {
+     "start": 438.0,
+     "end": 441.4,
+     "ja": "閑静な住宅街が広がってます。",
+     "en": "A quiet residential area spreads out before me.",
+     "speaker": "Vlogger"
+    }
+   ]
+  },
+  {
+   "start": 512.4,
+   "end": 522.5,
+   "title": "Bought Clothes and Searching for a Pouch",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜たい — wanting to do",
+    "〜に行こう — volitional of going to do",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 512.8,
+     "end": 516.4,
+     "ja": "すごい可愛いシャツとカーディガンを買いました。",
+     "en": "I bought a really cute shirt and cardigan.",
+     "speaker": "Vlogger"
+    },
+    {
+     "start": 517.0,
+     "end": 519.2,
+     "ja": "ちょっとポーチが欲しいので、",
+     "en": "I want a pouch,",
+     "speaker": "Vlogger"
+    },
+    {
+     "start": 519.4,
+     "end": 522.1,
+     "ja": "ポーチを見に行こうと思います。",
+     "en": "so I think I'll go take a look at pouches.",
+     "speaker": "Vlogger"
+    }
+   ]
+  }
+ ],
+ "videoId": "saW4hpCjQoU",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

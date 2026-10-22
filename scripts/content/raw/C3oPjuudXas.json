@@ -1,0 +1,139 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 276.8,
+   "end": 305.5,
+   "title": "Christmas Chicken Tradition in Japan",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜たりする — doing things like",
+    "〜と思う — I think that",
+    "〜ている — ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 277.0,
+     "end": 282.5,
+     "ja": "クリスマスには、チキンを食べる人が多いと思います。",
+     "en": "I think many people eat chicken for Christmas.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 283.2,
+     "end": 290.0,
+     "ja": "昔は、私も丸ごとのチキンを焼いたりしていました。",
+     "en": "In the past, I used to roast whole chickens as well.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 291.0,
+     "end": 296.5,
+     "ja": "あと、ケンタッキーフライドチキンを食べる人も多いです。",
+     "en": "Also, many people eat Kentucky Fried Chicken.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 297.2,
+     "end": 305.0,
+     "ja": "２４日にケンタッキーの前を通ると、すごい行列ができています。",
+     "en": "When you pass by KFC on the 24th, there's a huge line.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 446.0,
+   "end": 467.5,
+   "title": "Yamanashi's Famous Giant Wine Bottles",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜しか〜ない — only, nothing but",
+    "いちばん — most, -est"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 446.3,
+     "end": 451.5,
+     "ja": "山梨では、一升瓶ワインが売っています。",
+     "en": "In Yamanashi, they sell one-sho bottle wine.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 452.3,
+     "end": 457.8,
+     "ja": "一升瓶は日本酒のいちばん大きいサイズで、",
+     "en": "A sho bottle is the largest size for sake,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 458.2,
+     "end": 463.0,
+     "ja": "ふつうは日本酒にしか使いません。",
+     "en": "and usually it's only used for sake.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 463.8,
+     "end": 467.0,
+     "ja": "なので、とても珍しいです。",
+     "en": "So it is very unusual.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 806.8,
+   "end": 826.8,
+   "title": "The Meaning of Koromo in Cooking",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜と言う — to be called",
+    "〜など — such as, things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 807.1,
+     "end": 810.5,
+     "ja": "次は衣をつけます。",
+     "en": "Next, I'll coat it in batter.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 812.0,
+     "end": 821.0,
+     "ja": "フライドチキンや天ぷらなどの、周りの部分を「衣」と言います。",
+     "en": "The outer coating of things like fried chicken or tempura is called 'koromo'.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 821.8,
+     "end": 826.2,
+     "ja": "昔の言葉で「服」の意味です。",
+     "en": "In old Japanese, it meant 'clothing'.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "C3oPjuudXas",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

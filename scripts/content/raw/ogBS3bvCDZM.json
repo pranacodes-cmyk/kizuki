@@ -1,0 +1,165 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 7.4,
+   "end": 17.5,
+   "title": "Top 20 Current Affairs Questions",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜ことができる — to be able to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 7.4,
+     "end": 10.0,
+     "ja": "2026年1月から3月版、",
+     "en": "January to March 2026 edition,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 10.0,
+     "end": 12.7,
+     "ja": "最新時事問題20選！",
+     "en": "Top 20 latest current affairs questions!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 13.0,
+     "end": 15.8,
+     "ja": "この動画は、聞き流して覚えることもできます。",
+     "en": "You can also memorize these just by listening to this video.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 15.9,
+     "end": 17.2,
+     "ja": "それでは参ります。",
+     "en": "Now then, let us begin.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 46.0,
+   "end": 58.5,
+   "title": "House of Representatives Election Deadline",
+   "level": "N3",
+   "topics": [
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜なければならない — must / have to",
+    "〜以内 — within"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 46.0,
+     "end": 48.8,
+     "ja": "衆議院が解散されたときは、",
+     "en": "When the House of Representatives is dissolved,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 48.8,
+     "end": 50.8,
+     "ja": "解散の日から何日以内に",
+     "en": "within how many days from dissolution",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 50.8,
+     "end": 53.7,
+     "ja": "衆議院選挙を行わなければならないか。",
+     "en": "must an election for the House of Representatives be held?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 55.7,
+     "end": 56.5,
+     "ja": "答え、",
+     "en": "The answer:",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 56.5,
+     "end": 58.0,
+     "ja": "40日以内。",
+     "en": "Within 40 days.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 414.0,
+   "end": 432.5,
+   "title": "New Traffic Violation Tickets for Cyclists",
+   "level": "N2",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜に対して — towards / regarding",
+    "〜ことになる — to be decided that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 414.2,
+     "end": 416.0,
+     "ja": "2026年4月から、",
+     "en": "Starting in April 2026,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 416.0,
+     "end": 420.0,
+     "ja": "16歳以上の自転車利用者の交通違反に対して、",
+     "en": "for traffic violations by bicycle riders aged 16 and over,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 420.0,
+     "end": 422.5,
+     "ja": "反則金の納付を通告する制度が",
+     "en": "a system issuing notices for penal fine payments",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 422.5,
+     "end": 424.4,
+     "ja": "適用されることになった。",
+     "en": "will be put into effect.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 424.5,
+     "end": 427.5,
+     "ja": "この際に用いられる切符の名称は何か。",
+     "en": "What is the name of the ticket used in this case?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 429.8,
+     "end": 432.0,
+     "ja": "答え、青切符。",
+     "en": "Answer: Blue ticket.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "ogBS3bvCDZM",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

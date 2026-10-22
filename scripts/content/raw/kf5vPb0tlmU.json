@@ -1,0 +1,230 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 70.8,
+   "end": 85.5,
+   "title": "Dinner Times and Weight Loss",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜てない — have not done",
+    "〜すぎる — to do too much / excessively"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 70.8,
+     "end": 73.0,
+     "ja": "夜7時頃にごはん食べ終わって昨日、",
+     "en": "Yesterday I finished dinner around 7 PM,",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 73.0,
+     "end": 76.0,
+     "ja": "そっから何にも食べてないねん、珍しく飲まずに。",
+     "en": "and didn't eat anything after that, unusually without drinking.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 76.0,
+     "end": 78.5,
+     "ja": "朝、体重1.2キロ減ってたわ。",
+     "en": "In the morning, my weight was down 1.2 kilos.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 78.5,
+     "end": 79.5,
+     "ja": "えー？",
+     "en": "Really?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 79.5,
+     "end": 81.3,
+     "ja": "食いすぎてんねやな。",
+     "en": "I guess I usually just overeat.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 81.3,
+     "end": 83.8,
+     "ja": "みんな通常20時くらいに飯食い終わってる？",
+     "en": "Does everyone usually finish eating around 8 PM?",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 83.8,
+     "end": 85.5,
+     "ja": "さすがにそんなことないよな？",
+     "en": "Surely that's not common, right?",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 85.5,
+     "end": 88.5,
+     "ja": "いや、この仕事してる人は遅い人多いよね。",
+     "en": "No, people who do this job often eat late.",
+     "speaker": "Yamauchi"
+    }
+   ]
+  },
+  {
+   "start": 318.3,
+   "end": 336.0,
+   "title": "Sweet Potato Sweets",
+   "level": "N3",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜みたい — like / resembling",
+    "〜しか〜ない — only / nothing but"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 318.3,
+     "end": 319.8,
+     "ja": "うっま。",
+     "en": "So good.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 319.8,
+     "end": 321.8,
+     "ja": "めっちゃさつまいもやん。",
+     "en": "It totally tastes like sweet potato.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 321.8,
+     "end": 323.0,
+     "ja": "芋クリーム。",
+     "en": "Sweet potato cream.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 323.0,
+     "end": 327.0,
+     "ja": "でも裏ごし芋みたいな食感も残ってる。",
+     "en": "It still has the texture of mashed sweet potato too.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 327.0,
+     "end": 328.4,
+     "ja": "芋きてるからな。",
+     "en": "Sweet potato is trending, after all.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 328.4,
+     "end": 331.9,
+     "ja": "あの、芋しか食べてないアンバサダーの人いたな。",
+     "en": "There was that sweet potato ambassador who only eats sweet potatoes.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 331.9,
+     "end": 333.4,
+     "ja": "あの芋のイベントでしょ？",
+     "en": "At that sweet potato event, right?",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 333.4,
+     "end": 336.0,
+     "ja": "芋のイベントで一緒になった。",
+     "en": "We were together at that sweet potato event.",
+     "speaker": "Yamauchi"
+    }
+   ]
+  },
+  {
+   "start": 850.8,
+   "end": 874.0,
+   "title": "Tasting Croissant Taiyaki",
+   "level": "N3",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜までに — by the time / before",
+    "〜し、〜し — listing reasons / qualities"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 850.8,
+     "end": 853.6,
+     "ja": "これは生地が、生地がもう美味い。",
+     "en": "The dough on this... the dough is already delicious.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 853.6,
+     "end": 855.8,
+     "ja": "クロワッサン生地部分が。",
+     "en": "The croissant pastry part.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 855.8,
+     "end": 859.8,
+     "ja": "小豆に辿り着く前にもう美味い。",
+     "en": "It's delicious even before you reach the red bean paste.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 859.8,
+     "end": 863.8,
+     "ja": "小豆辿り着きました。美味い。",
+     "en": "I reached the red bean paste. It's delicious.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 863.8,
+     "end": 867.0,
+     "ja": "より美味い。これは美味いわ。これ買うね、確定で。",
+     "en": "Even more delicious. This is great. I'd definitely buy this.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 867.0,
+     "end": 868.7,
+     "ja": "めっちゃ甘いとかでもないんか？",
+     "en": "Is it not overly sweet or anything?",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 868.7,
+     "end": 870.8,
+     "ja": "じゃない。生地が美味いし、",
+     "en": "It's not. The dough is tasty,",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 870.8,
+     "end": 874.0,
+     "ja": "ぺたっとしててボリューム感もちょうどいい。",
+     "en": "and it's flat so the portion size is just right.",
+     "speaker": "Yamauchi"
+    }
+   ]
+  }
+ ],
+ "videoId": "kf5vPb0tlmU",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

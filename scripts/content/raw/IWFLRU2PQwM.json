@@ -1,0 +1,174 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.6,
+   "end": 16.2,
+   "title": "Mishima on the Purpose of a Desk",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜ために — in order to / for the purpose of",
+    "〜てしまう — doing completely / decisively"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 3.3,
+     "ja": "例えば、この机というものは、",
+     "en": "For example, this desk here,",
+     "speaker": "Mishima"
+    },
+    {
+     "start": 3.4,
+     "end": 5.8,
+     "ja": "これはつまらん、なんか汚いデスクだが、",
+     "en": "this is a trivial, rather dirty desk, but",
+     "speaker": "Mishima"
+    },
+    {
+     "start": 5.9,
+     "end": 11.2,
+     "ja": "これは東大の中で一定の先生が一定の講義をやるためにここに置いてあるんです。",
+     "en": "it was placed here for a certain professor at Todai to give a certain lecture.",
+     "speaker": "Mishima"
+    },
+    {
+     "start": 11.3,
+     "end": 14.4,
+     "ja": "ところが諸君は、これの用途を変更することができる。",
+     "en": "However, you all have the power to alter its purpose.",
+     "speaker": "Mishima"
+    },
+    {
+     "start": 14.5,
+     "end": 16.2,
+     "ja": "バリケードにしてしまう。",
+     "en": "You turn it into a barricade.",
+     "speaker": "Mishima"
+    }
+   ]
+  },
+  {
+   "start": 129.4,
+   "end": 145.8,
+   "title": "I Haven't Lost Yet",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜ないと — unless / if not",
+    "〜てしまう — unintended outcome",
+    "〜ぞ — emphatic particle"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 129.6,
+     "end": 133.5,
+     "ja": "その場合、文字と机が同じ重さを持って",
+     "en": "In that case, unless words and the desk have equal weight",
+     "speaker": "Akutagawa"
+    },
+    {
+     "start": 133.6,
+     "end": 135.3,
+     "ja": "作品を作らないと、",
+     "en": "when you create a work,",
+     "speaker": "Akutagawa"
+    },
+    {
+     "start": 135.4,
+     "end": 137.3,
+     "ja": "一向に「レシ」になったり「ロマン」になったりして…",
+     "en": "it just ends up as mere narrative or romance...",
+     "speaker": "Akutagawa"
+    },
+    {
+     "start": 137.3,
+     "end": 138.2,
+     "ja": "そういうこと、そういうこと。うん。",
+     "en": "Exactly, exactly. Yeah.",
+     "speaker": "Mishima"
+    },
+    {
+     "start": 138.3,
+     "end": 140.4,
+     "ja": "「三島さんは敗退してしまった」となるわけですよ。",
+     "en": "And that would mean, \"Mr. Mishima has been defeated.\"",
+     "speaker": "Akutagawa"
+    },
+    {
+     "start": 140.5,
+     "end": 143.0,
+     "ja": "ああ、まだ敗退してないぞ。",
+     "en": "Ah, I haven't been defeated yet!",
+     "speaker": "Mishima"
+    },
+    {
+     "start": 143.2,
+     "end": 145.3,
+     "ja": "ま、僕にはそう思えますけれどね。",
+     "en": "Well, that's how it seems to me, at least.",
+     "speaker": "Akutagawa"
+    }
+   ]
+  },
+  {
+   "start": 146.0,
+   "end": 205.5,
+   "title": "Action Versus Perception",
+   "level": "N1",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜にこだわる — to be particular about",
+    "〜にとって — for / to (someone)",
+    "〜じゃないか — didn't they / aren't they?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 146.0,
+     "end": 152.2,
+     "ja": "三島はですね、「認識か行動か」っていう対立、二元対立に非常にこだわったんですね。",
+     "en": "Mishima was deeply fixated on the binary opposition between perception and action.",
+     "speaker": "Hirano"
+    },
+    {
+     "start": 152.5,
+     "end": 157.0,
+     "ja": "第二次大戦末期に青年時代を過ごした彼にとっては、",
+     "en": "For him, having lived through his youth at the end of World War II,",
+     "speaker": "Hirano"
+    },
+    {
+     "start": 157.2,
+     "end": 200.3,
+     "ja": "「認識が先だ」って言ってる人達は、",
+     "en": "those people who claimed that 'perception comes first'",
+     "speaker": "Hirano"
+    },
+    {
+     "start": 200.4,
+     "end": 205.3,
+     "ja": "結局うだうだ言って生き残ったじゃないかっていう感覚があるんですよね。",
+     "en": "simply made endless excuses and survived, in his eyes.",
+     "speaker": "Hirano"
+    }
+   ]
+  }
+ ],
+ "videoId": "IWFLRU2PQwM",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

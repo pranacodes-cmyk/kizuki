@@ -1,0 +1,188 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 58.0,
+   "end": 74.0,
+   "title": "Merits of Going to a Club",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜たら — if/when",
+    "〜てもらう — receive a favor"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 58.2,
+     "end": 59.8,
+     "ja": "クラブの印象どうですか？",
+     "en": "What's your impression of clubs?",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 60.0,
+     "end": 62.4,
+     "ja": "いいですね！いいところっすよ。",
+     "en": "They're great! It's a nice place.",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 62.9,
+     "end": 67.9,
+     "ja": "具体的に何がいいか、メリットを教えてください。",
+     "en": "Specifically, what's good about them? Please tell us the merits.",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 68.6,
+     "end": 73.5,
+     "ja": "ちょっとスタッフと仲良くなったら、飲み物は出してもらったり。",
+     "en": "If you get a bit friendly with the staff, they might buy you drinks.",
+     "speaker": "Interviewee"
+    }
+   ]
+  },
+  {
+   "start": 510.6,
+   "end": 526.4,
+   "title": "Asking Girls About Nightclubs",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "friends"
+   ],
+   "grammar": [
+    "〜てほしい — wanting someone/something to do",
+    "〜たい — wanting to do"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 510.8,
+     "end": 512.4,
+     "ja": "クラブについてどう思われます？",
+     "en": "What do you think about clubs?",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 512.7,
+     "end": 514.8,
+     "ja": "早く再開してほしい！",
+     "en": "I want them to reopen soon!",
+     "speaker": "Girl 1"
+    },
+    {
+     "start": 516.4,
+     "end": 518.3,
+     "ja": "早く再開してほしい？",
+     "en": "You want them to reopen soon?",
+     "speaker": "Dan"
+    },
+    {
+     "start": 518.8,
+     "end": 521.1,
+     "ja": "どういうとこがいいんですか？クラブの。",
+     "en": "What do you like about them? Nightclubs.",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 521.5,
+     "end": 524.4,
+     "ja": "パーッと飲もうって時に飲める！",
+     "en": "You can drink when you want to party hard!",
+     "speaker": "Girl 2"
+    },
+    {
+     "start": 524.6,
+     "end": 526.3,
+     "ja": "あー、はっちゃけられるっていう。",
+     "en": "Ah, being able to go wild.",
+     "speaker": "Satoshi"
+    }
+   ]
+  },
+  {
+   "start": 921.2,
+   "end": 949.7,
+   "title": "Merits of Going to Clubs",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜たことがある — have experienced doing",
+    "〜た方がいい — had better / it is better to"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 921.5,
+     "end": 925.3,
+     "ja": "クラブ行ったことありますよね、もちろん？",
+     "en": "You've been to clubs, of course?",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 926.3,
+     "end": 928.3,
+     "ja": "そのときのメリットは？",
+     "en": "What are the merits from that?",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 935.9,
+     "end": 937.5,
+     "ja": "例えば知り合いが増えたりとか？",
+     "en": "For example, meeting more people?",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 937.6,
+     "end": 939.0,
+     "ja": "それもありますよね。",
+     "en": "That happens too, right?",
+     "speaker": "Dan"
+    },
+    {
+     "start": 939.5,
+     "end": 941.3,
+     "ja": "友達が増える。",
+     "en": "You make more friends.",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 941.4,
+     "end": 943.0,
+     "ja": "増えた方が楽しいもんね。",
+     "en": "It's more fun when you have more friends.",
+     "speaker": "Dan"
+    },
+    {
+     "start": 943.2,
+     "end": 946.7,
+     "ja": "いろんな人脈が増えるっていう。",
+     "en": "Like expanding various personal connections.",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 946.9,
+     "end": 949.5,
+     "ja": "仕事とかもね、広がっちゃうしね。",
+     "en": "And it can even expand your work opportunities.",
+     "speaker": "Dan"
+    }
+   ]
+  }
+ ],
+ "videoId": "4lJAgbTKxj8",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

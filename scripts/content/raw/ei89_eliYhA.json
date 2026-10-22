@@ -1,0 +1,175 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.6,
+   "end": 22.5,
+   "title": "Full of Confidence for the Debate",
+   "level": "N3",
+   "topics": [
+    "school",
+    "fun"
+   ],
+   "grammar": [
+    "〜べき — should / ought to",
+    "〜かどうか — whether or not",
+    "〜で行く — proceed with / go with"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 3.2,
+     "ja": "このテーマは結構やってるんですか、熊見くん？",
+     "en": "Have you done this theme a lot, Kumami-kun?",
+     "speaker": "Host"
+    },
+    {
+     "start": 3.2,
+     "end": 7.5,
+     "ja": "そうですね。ディベート甲子園の中で僕が２年前に参加したときのテーマが、",
+     "en": "Well, the topic when I participated in the Debate Koshien two years ago",
+     "speaker": "Kumami"
+    },
+    {
+     "start": 7.5,
+     "end": 10.5,
+     "ja": "ちょうど安楽死を認めるべきかどうかという話だったので。",
+     "en": "happened to be about whether euthanasia should be permitted.",
+     "speaker": "Kumami"
+    },
+    {
+     "start": 10.5,
+     "end": 12.1,
+     "ja": "そのときは勝ちましたか？",
+     "en": "Did you win back then?",
+     "speaker": "Host"
+    },
+    {
+     "start": 12.1,
+     "end": 15.5,
+     "ja": "そのときは、一応全国では準優勝という結果ではあったんですけど。",
+     "en": "Back then, the result was runner-up nationwide, but...",
+     "speaker": "Kumami"
+    },
+    {
+     "start": 16.8,
+     "end": 18.5,
+     "ja": "じゃあ自信ありですね！",
+     "en": "So you must be confident!",
+     "speaker": "Host"
+    },
+    {
+     "start": 18.5,
+     "end": 21.0,
+     "ja": "もうあの、自信たっぷりで行きたいと思います。",
+     "en": "Yes, I'd like to go in full of confidence.",
+     "speaker": "Kumami"
+    },
+    {
+     "start": 21.0,
+     "end": 22.5,
+     "ja": "そうだよね！",
+     "en": "Right on!",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 25.5,
+   "end": 37.0,
+   "title": "A Unique Okinawan Surname",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜分の〜 — fraction / proportion",
+    "〜ってことだ — it means that / turns out that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 25.5,
+     "end": 29.5,
+     "ja": "眞喜屋くん、これは沖縄ではポピュラーな、苗字なんですか？眞喜屋。",
+     "en": "Makiya-kun, is Makiya a popular surname in Okinawa?",
+     "speaker": "Host"
+    },
+    {
+     "start": 29.5,
+     "end": 33.2,
+     "ja": "いや、全国にいる眞喜屋の３分の１は親戚です。",
+     "en": "Actually, a third of all Makiyas across the country are my relatives.",
+     "speaker": "Makiya"
+    },
+    {
+     "start": 33.2,
+     "end": 34.2,
+     "ja": "おー！",
+     "en": "Oh, wow!",
+     "speaker": "Host"
+    },
+    {
+     "start": 34.2,
+     "end": 37.0,
+     "ja": "じゃあもう沖縄である苗字ってことだね、眞喜屋ね。",
+     "en": "So it really is an Okinawan surname then, Makiya.",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 1146.0,
+   "end": 1201.5,
+   "title": "My Usual Debate Strategy",
+   "level": "N2",
+   "topics": [
+    "school",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ていうか — or rather / I mean",
+    "〜た上で — after doing / upon doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1146.0,
+     "end": 1509.0,
+     "ja": "なんていうか普段のディベート甲子園という大会では、私はもう徹底的に、たくさんのエビデンスを使って、",
+     "en": "Well, in the usual Debate Koshien tournament, I thoroughly use a lot of evidence",
+     "speaker": "Makiya"
+    },
+    {
+     "start": 1151.6,
+     "end": 1154.0,
+     "ja": "相手をもう滅多刺しっていうか...",
+     "en": "to basically tear the opponent to shreds, so to speak...",
+     "speaker": "Makiya"
+    },
+    {
+     "start": 1156.5,
+     "end": 1159.0,
+     "ja": "普段は資料をいっぱい集めてね、",
+     "en": "Usually you gather tons of materials,",
+     "speaker": "Host"
+    },
+    {
+     "start": 1159.0,
+     "end": 1201.2,
+     "ja": "エビデンスをいっぱい集めた上で、滅多刺しにしてる！",
+     "en": "and after collecting lots of evidence, you tear them to shreds!",
+     "speaker": "Host"
+    }
+   ]
+  }
+ ],
+ "videoId": "ei89_eliYhA",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

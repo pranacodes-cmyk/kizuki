@@ -1,0 +1,1 @@
+{"fixes": [{"line": 2, "ja": "レシートご入用ですか？", "en": "Would you like a receipt?", "why": "Misrecognized ご入用 as ご利用."}]}

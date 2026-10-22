@@ -1,0 +1,239 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 106.0,
+   "end": 117.2,
+   "title": "First Time Driving Her Sister",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "family",
+    "fun"
+   ],
+   "grammar": [
+    "〜たほうがいい — had better / should",
+    "〜れる — potential form"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 106.0,
+     "end": 107.0,
+     "ja": "お願いしまーす。",
+     "en": "Here we go!",
+     "speaker": "Mil"
+    },
+    {
+     "start": 107.0,
+     "end": 108.3,
+     "ja": "はい、右、左。",
+     "en": "Alright, right, left.",
+     "speaker": "Noe"
+    },
+    {
+     "start": 108.3,
+     "end": 109.5,
+     "ja": "右、確認。",
+     "en": "Checking right.",
+     "speaker": "Mil"
+    },
+    {
+     "start": 109.5,
+     "end": 111.4,
+     "ja": "サイドブレーキ踏んだほうがいいんじゃない？あ、そうそうそう。",
+     "en": "Shouldn't you press the parking brake? Oh, right, right.",
+     "speaker": "Noe"
+    },
+    {
+     "start": 111.5,
+     "end": 113.7,
+     "ja": "急にさ、ブレーキやめれる？",
+     "en": "Can you stop braking so suddenly?",
+     "speaker": "Noe"
+    },
+    {
+     "start": 114.0,
+     "end": 117.0,
+     "ja": "今すごい首がさ、何かやばいことになってたんだけど。",
+     "en": "My neck just totally whipped around back there.",
+     "speaker": "Noe"
+    }
+   ]
+  },
+  {
+   "start": 744.0,
+   "end": 763.0,
+   "title": "Finding Nostalgic Souvenirs",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "family",
+    "culture"
+   ],
+   "grammar": [
+    "〜てなかった？ — wasn't it ...?",
+    "〜てもらう — receive the favor of"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 744.0,
+     "end": 745.4,
+     "ja": "この色可愛いよ。",
+     "en": "This color is cute.",
+     "speaker": "Noe"
+    },
+    {
+     "start": 745.4,
+     "end": 746.1,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Mil"
+    },
+    {
+     "start": 746.1,
+     "end": 748.0,
+     "ja": "ね、待って、ノエ。このお札型ついてなかった？",
+     "en": "Wait, Noe. Didn't you used to have this bill-shaped one?",
+     "speaker": "Mil"
+    },
+    {
+     "start": 748.0,
+     "end": 748.7,
+     "ja": "これ？",
+     "en": "This one?",
+     "speaker": "Noe"
+    },
+    {
+     "start": 748.7,
+     "end": 750.3,
+     "ja": "ね、めっちゃこれ。",
+     "en": "Right, totally that one.",
+     "speaker": "Mil"
+    },
+    {
+     "start": 750.3,
+     "end": 754.0,
+     "ja": "え、超可愛いんだけど。ノエ、これのイメージ、ランドセルとかについてた。",
+     "en": "It's so cute. I picture you having this on your school backpack.",
+     "speaker": "Mil"
+    },
+    {
+     "start": 754.0,
+     "end": 755.5,
+     "ja": "そう、ついてた。",
+     "en": "Yeah, it was.",
+     "speaker": "Noe"
+    },
+    {
+     "start": 755.5,
+     "end": 757.5,
+     "ja": "で、今これ家にある、ミル。",
+     "en": "And Mil has this one at home right now.",
+     "speaker": "Mil"
+    },
+    {
+     "start": 757.5,
+     "end": 760.3,
+     "ja": "それ懐かしい！めっちゃ大事にしてるよね。",
+     "en": "That brings back memories! You've taken really good care of it.",
+     "speaker": "Noe"
+    },
+    {
+     "start": 760.3,
+     "end": 763.0,
+     "ja": "そう、小2のときに買ってもらったのめっちゃ覚えてる。",
+     "en": "Yeah, I vividly remember getting it bought for me in second grade.",
+     "speaker": "Mil"
+    }
+   ]
+  },
+  {
+   "start": 804.0,
+   "end": 819.0,
+   "title": "Curly Fries Look Like Childhood Toys",
+   "level": "N4",
+   "topics": [
+    "food",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜たくない — do not want to",
+    "〜たら — conditional if/when"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 804.0,
+     "end": 806.4,
+     "ja": "ミル、そういうおもちゃ持ってたよね、昔。",
+     "en": "Mil, you used to have a toy like that, right?",
+     "speaker": "Noe"
+    },
+    {
+     "start": 806.4,
+     "end": 807.7,
+     "ja": "え、階段落ちるやつ？",
+     "en": "Wait, the one that walks down stairs?",
+     "speaker": "Mil"
+    },
+    {
+     "start": 807.7,
+     "end": 808.8,
+     "ja": "虹色のやつでしょ？",
+     "en": "The rainbow-colored one, right?",
+     "speaker": "Noe"
+    },
+    {
+     "start": 808.8,
+     "end": 809.5,
+     "ja": "そう。",
+     "en": "Yeah.",
+     "speaker": "Mil"
+    },
+    {
+     "start": 809.6,
+     "end": 811.7,
+     "ja": "これ綺麗だから食べたくない。",
+     "en": "This is so neat I almost don't want to eat it.",
+     "speaker": "Mil"
+    },
+    {
+     "start": 811.7,
+     "end": 813.8,
+     "ja": "鉛筆とかに巻いたらめっちゃ...",
+     "en": "If you wrapped it around a pencil, it'd look just like...",
+     "speaker": "Mil"
+    },
+    {
+     "start": 813.8,
+     "end": 815.9,
+     "ja": "え、なかった？こういうやつ。",
+     "en": "Wait, didn't those exist? Things like this.",
+     "speaker": "Noe"
+    },
+    {
+     "start": 815.9,
+     "end": 817.7,
+     "ja": "あった、何かあの、伸ばすやつね。",
+     "en": "Yeah, those things you stretch out.",
+     "speaker": "Mil"
+    },
+    {
+     "start": 817.7,
+     "end": 819.0,
+     "ja": "そうそう、短い鉛筆の。",
+     "en": "Right, for short pencils.",
+     "speaker": "Noe"
+    }
+   ]
+  }
+ ],
+ "videoId": "QLYwZSYs3Jg",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,244 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 30.8,
+   "end": 51.5,
+   "title": "Living with Roommates",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜て言えよ — telling someone to call/say it like it is",
+    "〜てた — was doing (casual abbreviation)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 31.2,
+     "end": 33.4,
+     "ja": "ルームメイトがうるさいんだよ。",
+     "en": "My roommates are noisy.",
+     "speaker": "Hara"
+    },
+    {
+     "start": 33.6,
+     "end": 34.9,
+     "ja": "ルームメイト？",
+     "en": "Roommates?",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 35.4,
+     "end": 37.5,
+     "ja": "え、ルームシェアしてたんけ？",
+     "en": "Wait, were you room sharing?",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 37.6,
+     "end": 39.0,
+     "ja": "高校生の男の子。",
+     "en": "A high school boy.",
+     "speaker": "Hara"
+    },
+    {
+     "start": 39.1,
+     "end": 41.0,
+     "ja": "お、ワクワクするやんけ、お前。",
+     "en": "Oh, sounds exciting, doesn't it?",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 41.4,
+     "end": 42.8,
+     "ja": "え、それだけ？",
+     "en": "Wait, that's it?",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 43.1,
+     "end": 46.3,
+     "ja": "あとね、50代の夫婦と80歳の老婆。",
+     "en": "And a couple in their fifties, and an 80-year-old elderly woman.",
+     "speaker": "Hara"
+    },
+    {
+     "start": 46.4,
+     "end": 48.0,
+     "ja": "実家て言えよ！",
+     "en": "Just call it your parents' house!",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 48.4,
+     "end": 51.2,
+     "ja": "ルームシェアって言わんからあんまり実家のこと。",
+     "en": "Nobody calls living with their parents room sharing!",
+     "speaker": "Kawase"
+    }
+   ]
+  },
+  {
+   "start": 216.5,
+   "end": 233.0,
+   "title": "Detailed Apartment Specs",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜て歩いて — walking from somewhere",
+    "〜んのか — casual question marker expressing disbelief"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 216.8,
+     "end": 218.5,
+     "ja": "あ、ここめっちゃいいじゃん！",
+     "en": "Ah, this place looks super nice!",
+     "speaker": "Hara"
+    },
+    {
+     "start": 218.7,
+     "end": 220.1,
+     "ja": "お、めっちゃいい？どんな物件よ。",
+     "en": "Oh, super nice? What kind of property is it?",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 220.2,
+     "end": 222.7,
+     "ja": "駅から歩いて5分43秒23。",
+     "en": "5 minutes, 43 seconds, and 23 hundredths walk from the station.",
+     "speaker": "Hara"
+    },
+    {
+     "start": 222.9,
+     "end": 224.0,
+     "ja": "うん、参考記録？",
+     "en": "Uh, is that an unofficial record?",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 224.1,
+     "end": 225.7,
+     "ja": "そんな細かく出すの、数字？",
+     "en": "Why are you giving such detailed numbers?",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 225.8,
+     "end": 227.1,
+     "ja": "あと家賃がね、",
+     "en": "And the rent is...",
+     "speaker": "Hara"
+    },
+    {
+     "start": 227.3,
+     "end": 229.6,
+     "ja": "5万94円9銭。",
+     "en": "50,094 yen and 9 sen.",
+     "speaker": "Hara"
+    },
+    {
+     "start": 229.7,
+     "end": 231.0,
+     "ja": "ほぼ為替相場やん！",
+     "en": "That's basically an exchange rate!",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 231.1,
+     "end": 232.6,
+     "ja": "変動すんのか、この家賃は！",
+     "en": "Does this rent fluctuate?!",
+     "speaker": "Kawase"
+    }
+   ]
+  },
+  {
+   "start": 344.0,
+   "end": 408.8,
+   "title": "Awkward Silence on the Train",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜らしい — apparently / it seems that",
+    "〜すぎる — too much / overly"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 344.2,
+     "end": 347.3,
+     "ja": "あれ？川瀬、出身奈良県だよね？",
+     "en": "Wait, Kawase, you're from Nara Prefecture, right?",
+     "speaker": "Hara"
+    },
+    {
+     "start": 347.5,
+     "end": 348.8,
+     "ja": "うん、そうやけど。",
+     "en": "Yeah, that's right.",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 349.0,
+     "end": 351.8,
+     "ja": "なんか不動産屋さんもそこら辺らしいよ。",
+     "en": "Apparently the real estate agent is from around there too.",
+     "speaker": "Hara"
+    },
+    {
+     "start": 352.2,
+     "end": 354.6,
+     "ja": "マジすか？奈良のどこすか？",
+     "en": "Really? Where in Nara?",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 355.2,
+     "end": 357.0,
+     "ja": "兵庫県だって。",
+     "en": "Hyogo Prefecture, he said.",
+     "speaker": "Hara"
+    },
+    {
+     "start": 357.8,
+     "end": 359.8,
+     "ja": "全然ちゃうやん！",
+     "en": "That's completely different!",
+     "speaker": "Kawase"
+    },
+    {
+     "start": 405.1,
+     "end": 406.7,
+     "ja": "マジカルバナナしますか？",
+     "en": "Shall we play Magical Banana?",
+     "speaker": "Hara"
+    },
+    {
+     "start": 406.9,
+     "end": 408.4,
+     "ja": "気まずすぎるやろ！",
+     "en": "It's way too awkward for that!",
+     "speaker": "Kawase"
+    }
+   ]
+  }
+ ],
+ "videoId": "bjWnWc6r0zA",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

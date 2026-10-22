@@ -1,0 +1,215 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 39.8,
+   "end": 56.8,
+   "title": "Eating Seaweed Around the World",
+   "level": "N3",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜てくる — start to / appear",
+    "〜に見える — look like / appear to be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 40.0,
+     "end": 43.3,
+     "ja": "料理に海藻が出てきても、私たちは驚きはしないわよね。",
+     "en": "Even if seaweed shows up in our food, we're not surprised, right?",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 43.3,
+     "end": 47.5,
+     "ja": "そうね。ワカメやひじき、海苔や海藻サラダ、あたしは大好きよ。",
+     "en": "True. Wakame, hijiki, nori, seaweed salad... I love them all.",
+     "speaker": "Marisa"
+    },
+    {
+     "start": 47.8,
+     "end": 52.2,
+     "ja": "海外の人は海苔やワカメなど海藻類を見たとき、「この黒い紙は何だ！？」",
+     "en": "When people from abroad see seaweed like nori or wakame, they think, \"What is this black paper?!\"",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 52.2,
+     "end": 55.0,
+     "ja": "「このビニールのようなものは何だ！？」となるそうよ。",
+     "en": "\"What is this plastic-looking stuff?!\" apparently.",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 55.2,
+     "end": 56.6,
+     "ja": "食べ物には見えないのね。",
+     "en": "It just doesn't look like food to them, huh.",
+     "speaker": "Marisa"
+    }
+   ]
+  },
+  {
+   "start": 131.5,
+   "end": 149.2,
+   "title": "Slurping Noodles in Japan",
+   "level": "N3",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜とされる — be considered to be",
+    "〜たり〜たり — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 131.7,
+     "end": 133.5,
+     "ja": "これは結構有名よね。",
+     "en": "This one is pretty famous, right?",
+     "speaker": "Marisa"
+    },
+    {
+     "start": 133.7,
+     "end": 136.7,
+     "ja": "「麺を食べる際に音を立ててすする」ことが許されるのは、",
+     "en": "Being allowed to make noise and slurp when eating noodles",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 136.7,
+     "end": 139.1,
+     "ja": "日本特有の文化であるとされているわよ。",
+     "en": "is said to be a culture unique to Japan.",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 139.2,
+     "end": 142.3,
+     "ja": "ずるずるとすすって食べると、なんかおいしく感じるわよね。",
+     "en": "When you slurp them down, they just taste somehow better, don't they?",
+     "speaker": "Marisa"
+    },
+    {
+     "start": 142.5,
+     "end": 143.4,
+     "ja": "そうね。",
+     "en": "Yeah.",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 143.4,
+     "end": 145.3,
+     "ja": "でも、音を立てて食べる行為は、",
+     "en": "However, the act of making noise while eating",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 145.3,
+     "end": 147.3,
+     "ja": "「テーブルマナー違反」と言われる国もあり、",
+     "en": "is considered a breach of table manners in some countries,",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 147.4,
+     "end": 149.0,
+     "ja": "「汚い食べ方」とされるそうよ。",
+     "en": "and is regarded as a dirty way to eat.",
+     "speaker": "Reimu"
+    }
+   ]
+  },
+  {
+   "start": 308.8,
+   "end": 331.2,
+   "title": "The Japanese Custom of Bowing",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜たら — if / when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 309.0,
+     "end": 310.8,
+     "ja": "これは、よく耳にするわよね。",
+     "en": "You hear about this one often, right?",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 310.8,
+     "end": 311.6,
+     "ja": "そうね。",
+     "en": "Yeah.",
+     "speaker": "Marisa"
+    },
+    {
+     "start": 311.7,
+     "end": 315.6,
+     "ja": "よく考えてみると日本がお辞儀をする場面って、意外と多いのよね。",
+     "en": "If you think about it, there are surprisingly many situations where Japanese people bow.",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 315.8,
+     "end": 317.8,
+     "ja": "挨拶は基本的にお辞儀をするし、",
+     "en": "Greetings basically involve bowing,",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 317.8,
+     "end": 319.7,
+     "ja": "会釈だったり敬礼だったりと、",
+     "en": "and whether it's a slight nod or a formal bow,",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 319.8,
+     "end": 322.3,
+     "ja": "礼儀やねぎらいといった側面が多いわよね。",
+     "en": "there are many aspects like politeness and showing appreciation.",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 322.4,
+     "end": 326.8,
+     "ja": "海外の挨拶とかは握手やハグだったり、チークキスや合掌が有名よね。",
+     "en": "Abroad, greetings like handshakes, hugs, cheek kisses, or pressed palms are well-known.",
+     "speaker": "Marisa"
+    },
+    {
+     "start": 327.1,
+     "end": 330.1,
+     "ja": "日本でいきなりハグとかしだしたら、下手したら事件ものよね。",
+     "en": "If you suddenly started hugging people in Japan, it might cause a huge scene.",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 330.3,
+     "end": 331.0,
+     "ja": "そうね。",
+     "en": "True.",
+     "speaker": "Marisa"
+    }
+   ]
+  }
+ ],
+ "videoId": "oPDwVxDaHTs",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

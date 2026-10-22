@@ -1,0 +1,195 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 19.3,
+   "end": 37.8,
+   "title": "Pardon My Notes, I Get Nervous",
+   "level": "N3",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜ていただく — humble request",
+    "〜なもんですから — because (giving an excuse)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 19.3,
+     "end": 22.8,
+     "ja": "ま、法案の中身を詳しく問うということではなくて、",
+     "en": "Well, rather than questioning the details of the bill,",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 23.0,
+     "end": 29.3,
+     "ja": "ぜひ総理のお考えの元となるところを、分かりやすくお話しいただくと助かります。",
+     "en": "I would appreciate it if you could clearly explain the basis of your thinking.",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 29.7,
+     "end": 35.5,
+     "ja": "私はあがり症なもんですから、メモを読ませていただきますけど、お許しくださいね。はい。",
+     "en": "I tend to get nervous, so I will read from my notes, please excuse me. Yes.",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 36.0,
+     "end": 37.6,
+     "ja": "それでは本論に入ります。",
+     "en": "Now then, I will proceed to the main discussion.",
+     "speaker": "Mizuoka"
+    }
+   ]
+  },
+  {
+   "start": 634.5,
+   "end": 701.5,
+   "title": "Slip of the Tongue in Parliament",
+   "level": "N2",
+   "topics": [
+    "work",
+    "comedy",
+    "culture"
+   ],
+   "grammar": [
+    "〜のもとで — on the basis of / under",
+    "〜てくる — emergence of action over time"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 634.8,
+     "end": 636.5,
+     "ja": "高市総理。",
+     "en": "Prime Minister Takaichi.",
+     "speaker": "Chairman"
+    },
+    {
+     "start": 636.8,
+     "end": 638.2,
+     "ja": "総理じゃない…はい。",
+     "en": "I'm not the Prime Minister... yes.",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 638.5,
+     "end": 642.5,
+     "ja": "あの、令和3年の政府の有識者会議の報告において、",
+     "en": "In the Reiwa 3 government expert panel report,",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 642.8,
+     "end": 646.5,
+     "ja": "これはもう皇位継承の問題と切り離して、",
+     "en": "setting aside the issue of imperial succession,",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 646.9,
+     "end": 652.5,
+     "ja": "皇族数の確保を図ることが喫緊の課題であるという認識のもとで出てきた、",
+     "en": "based on the view that securing royal family members is an urgent priority,",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 653.0,
+     "end": 656.5,
+     "ja": "2案が女性皇族の身分保持制度であり、",
+     "en": "one proposal was letting female royals retain their status,",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 656.9,
+     "end": 700.8,
+     "ja": "もう1つは皇族の養子制度案でございました。",
+     "en": "and the other was an adoption system for the imperial family.",
+     "speaker": "Takaichi"
+    }
+   ]
+  },
+  {
+   "start": 950.5,
+   "end": 1021.0,
+   "title": "Succession and the Constitution",
+   "level": "N1",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜に限る — to limit to",
+    "〜かどうか — whether or not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 950.8,
+     "end": 953.6,
+     "ja": "総理、日本国憲法は、",
+     "en": "Prime Minister, the Constitution of Japan",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 953.9,
+     "end": 957.8,
+     "ja": "女性天皇も、女系天皇も禁止していません。",
+     "en": "prohibits neither female nor matrilineal reigning emperors.",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 958.2,
+     "end": 1002.0,
+     "ja": "皇位継承を男系男子に限っているのは、",
+     "en": "Limiting imperial succession strictly to male-line males",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 1002.3,
+     "end": 1005.8,
+     "ja": "憲法ではなくて、皇室典範第1条であります。",
+     "en": "is not in the Constitution, but Article 1 of the Imperial Household Law.",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 1006.1,
+     "end": 1010.8,
+     "ja": "したがって、女性天皇、女系天皇を認めるかどうかは、",
+     "en": "Therefore, whether to allow female or matrilineal emperors",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 1011.1,
+     "end": 1014.2,
+     "ja": "憲法上初めから排除された問題ではなく、",
+     "en": "is not an issue ruled out by the Constitution from the start,",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 1014.5,
+     "end": 1017.6,
+     "ja": "国会が法律として判断できる問題であると、",
+     "en": "but a matter that the Diet can decide through legislation,",
+     "speaker": "Mizuoka"
+    },
+    {
+     "start": 1017.9,
+     "end": 1020.7,
+     "ja": "私は考えますが、総理はいかがですかね。",
+     "en": "so I believe, but what do you think, Prime Minister?",
+     "speaker": "Mizuoka"
+    }
+   ]
+  }
+ ],
+ "videoId": "Rs-o0IXoNZI",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

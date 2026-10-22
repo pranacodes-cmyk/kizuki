@@ -1,0 +1,229 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 154.5,
+   "end": 171.3,
+   "title": "Checking into the Hotel Room",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜じゃん — isn't it",
+    "〜っけ — recalling information"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 154.8,
+     "end": 156.5,
+     "ja": "あっ、広ーい！",
+     "en": "Oh, it's so spacious!",
+     "speaker": "A"
+    },
+    {
+     "start": 156.8,
+     "end": 157.8,
+     "ja": "いい感じじゃん。",
+     "en": "It looks really nice.",
+     "speaker": "A"
+    },
+    {
+     "start": 158.0,
+     "end": 159.8,
+     "ja": "めっちゃ綺麗じゃん、すごいね。",
+     "en": "It's so clean, amazing!",
+     "speaker": "B"
+    },
+    {
+     "start": 160.0,
+     "end": 162.5,
+     "ja": "ここ本当にそのお値段？",
+     "en": "Is this place really that price?",
+     "speaker": "A"
+    },
+    {
+     "start": 162.8,
+     "end": 164.8,
+     "ja": "だって4泊で3万いくらだったよ。",
+     "en": "Yeah, it was thirty-something thousand for four nights.",
+     "speaker": "B"
+    },
+    {
+     "start": 165.0,
+     "end": 165.9,
+     "ja": "あっ、うそ？",
+     "en": "Oh, really?",
+     "speaker": "A"
+    },
+    {
+     "start": 166.0,
+     "end": 168.0,
+     "ja": "あれ？いくらだったっけ？4万だっけ？",
+     "en": "Wait, how much was it again? Forty thousand?",
+     "speaker": "B"
+    },
+    {
+     "start": 168.2,
+     "end": 170.0,
+     "ja": "それさ、1人のお値段じゃないよね？",
+     "en": "Wait, that's not the price per person, right?",
+     "speaker": "A"
+    },
+    {
+     "start": 170.1,
+     "end": 171.2,
+     "ja": "違う違う違う。",
+     "en": "No, no, no.",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 371.2,
+   "end": 389.8,
+   "title": "Why We Chose Ramen Over Okonomiyaki",
+   "level": "N3",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜のに — even though",
+    "〜てたら — if doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 371.4,
+     "end": 373.2,
+     "ja": "はい！一蘭着きました。",
+     "en": "Okay, we arrived at Ichiran.",
+     "speaker": "B"
+    },
+    {
+     "start": 373.2,
+     "end": 375.4,
+     "ja": "大阪来たのに一蘭っていう。",
+     "en": "Going to Ichiran even though we came to Osaka.",
+     "speaker": "B"
+    },
+    {
+     "start": 375.7,
+     "end": 378.5,
+     "ja": "そう、大阪来たけど一蘭食べるの。",
+     "en": "Yeah, we're in Osaka but having Ichiran.",
+     "speaker": "A"
+    },
+    {
+     "start": 378.8,
+     "end": 381.8,
+     "ja": "お好み焼き行く？って言ってたんだけど、",
+     "en": "We were talking about getting okonomiyaki, but...",
+     "speaker": "A"
+    },
+    {
+     "start": 382.0,
+     "end": 383.7,
+     "ja": "でも匂いつくじゃん。",
+     "en": "the smell would stick to our clothes, you know?",
+     "speaker": "A"
+    },
+    {
+     "start": 384.0,
+     "end": 385.8,
+     "ja": "ほら、ダウンはさ、すぐ洗えないからさ、",
+     "en": "See, down jackets can't be washed easily,",
+     "speaker": "A"
+    },
+    {
+     "start": 386.0,
+     "end": 389.5,
+     "ja": "明日臭いままインタビューしてたら不快な思いをさせてしまうかなみたいな。",
+     "en": "and interviewing people tomorrow smelling like that might make them uncomfortable.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 909.0,
+   "end": 928.0,
+   "title": "Eating Crab Shabu-Shabu",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜たほうがいい — should do",
+    "〜そうだ — looks like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 909.3,
+     "end": 910.5,
+     "ja": "じゃあ行くよ。",
+     "en": "All right, here goes.",
+     "speaker": "A"
+    },
+    {
+     "start": 910.6,
+     "end": 913.2,
+     "ja": "なんかさ、野菜から茹でたほうがいいって言われたけど、",
+     "en": "They said it's better to boil the vegetables first, but...",
+     "speaker": "A"
+    },
+    {
+     "start": 913.4,
+     "end": 914.5,
+     "ja": "うん！無視！",
+     "en": "Yup! Ignoring that!",
+     "speaker": "A"
+    },
+    {
+     "start": 914.6,
+     "end": 916.0,
+     "ja": "もちろんね、我慢できません。",
+     "en": "Of course, we can't wait.",
+     "speaker": "A"
+    },
+    {
+     "start": 916.1,
+     "end": 917.5,
+     "ja": "カニからだよね。",
+     "en": "It has to be the crab first.",
+     "speaker": "A"
+    },
+    {
+     "start": 920.8,
+     "end": 922.0,
+     "ja": "ああ、うまそう。",
+     "en": "Ah, looks delicious.",
+     "speaker": "B"
+    },
+    {
+     "start": 922.1,
+     "end": 923.6,
+     "ja": "ね、美味しそうだよね。",
+     "en": "Right? Looks delicious.",
+     "speaker": "A"
+    },
+    {
+     "start": 925.3,
+     "end": 927.5,
+     "ja": "めっちゃ美味しい！",
+     "en": "It's super delicious!",
+     "speaker": "A"
+    }
+   ]
+  }
+ ],
+ "videoId": "TwH92sqX6-M",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

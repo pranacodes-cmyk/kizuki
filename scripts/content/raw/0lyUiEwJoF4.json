@@ -1,0 +1,176 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 9.8,
+   "end": 28.0,
+   "title": "A Small Shopping Trip Turns Huge",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ちゃう — accidental or completed action",
+    "〜ていく — to go on doing",
+    "〜と思う — to think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.0,
+     "end": 13.2,
+     "ja": "久しぶりに何か現実的な量の買い物をしたなと思って。",
+     "en": "I thought I finally bought a realistic amount of stuff for once.",
+     "speaker": "Nanako"
+    },
+    {
+     "start": 13.4,
+     "end": 18.0,
+     "ja": "ま、でも全然しれっと寄っただけなんだけど、２千円分とか買っちゃって、",
+     "en": "I mean, I just dropped by casually, but ended up buying around 2,000 yen worth,",
+     "speaker": "Nanako"
+    },
+    {
+     "start": 18.1,
+     "end": 22.5,
+     "ja": "さすがにこういうのあんまり撮ってなかったから、紹介していきます！",
+     "en": "and since I hadn't filmed this kind of haul lately, I'm going to show it all!",
+     "speaker": "Nanako"
+    },
+    {
+     "start": 23.0,
+     "end": 24.4,
+     "ja": "そんなわけなかった。",
+     "en": "Just kidding, that wasn't it at all.",
+     "speaker": "Nanako"
+    },
+    {
+     "start": 24.5,
+     "end": 27.5,
+     "ja": "この量を紹介していきたいと思います！",
+     "en": "I'd like to show you this massive haul!",
+     "speaker": "Nanako"
+    }
+   ]
+  },
+  {
+   "start": 317.8,
+   "end": 331.0,
+   "title": "The Cutest To-Do Notepad",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ちゃう — completely or accidentally do",
+    "〜ている — ongoing or habitual action",
+    "〜という — called / saying that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 318.0,
+     "end": 319.8,
+     "ja": "ね、見て！これヤバい。",
+     "en": "Hey, look! This is insane.",
+     "speaker": "Nanako"
+    },
+    {
+     "start": 320.0,
+     "end": 322.0,
+     "ja": "私、メモ帳をいっぱい持ち歩いてて、",
+     "en": "I carry around lots of notepads,",
+     "speaker": "Nanako"
+    },
+    {
+     "start": 322.1,
+     "end": 324.4,
+     "ja": "すぐ忘れちゃうから書いてるんですけど、",
+     "en": "and since I forget things easily, I write them down.",
+     "speaker": "Nanako"
+    },
+    {
+     "start": 324.5,
+     "end": 326.5,
+     "ja": "このめっちゃ好きなの、チェゴシム。",
+     "en": "I really love this character, Choigosim.",
+     "speaker": "Nanako"
+    },
+    {
+     "start": 326.6,
+     "end": 330.5,
+     "ja": "チェゴシムの「今日することめっちゃ多い」っていうノート。",
+     "en": "A Choigosim notebook that says \"So much to do today\".",
+     "speaker": "Nanako"
+    }
+   ]
+  },
+  {
+   "start": 421.2,
+   "end": 437.8,
+   "title": "Testing a Multifunctional Makeup Tool",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜じゃん — isn't it? (casual confirmation)",
+    "〜そう — looks like / seems like",
+    "〜で — by means of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 421.5,
+     "end": 424.6,
+     "ja": "まず、これで綺麗なアイライン。うわ、いい角度じゃん。",
+     "en": "First, a clean eyeliner wing with this. Whoa, that's a great angle.",
+     "speaker": "Nanako"
+    },
+    {
+     "start": 424.8,
+     "end": 427.6,
+     "ja": "で、これで涙袋ライン入ると… え？",
+     "en": "And when you draw the under-eye line with this... Huh?",
+     "speaker": "Nanako"
+    },
+    {
+     "start": 427.8,
+     "end": 429.6,
+     "ja": "あ、ちょっと丸いけど、良くない？",
+     "en": "Ah, it's a bit rounded, but isn't it nice?",
+     "speaker": "Nanako"
+    },
+    {
+     "start": 429.7,
+     "end": 432.2,
+     "ja": "で、これでマスカラガード。うわ、めっちゃいいじゃん。",
+     "en": "And with this, a mascara guard. Wow, that's super good.",
+     "speaker": "Nanako"
+    },
+    {
+     "start": 432.3,
+     "end": 434.2,
+     "ja": "で、これで左右対称のチーク。",
+     "en": "And with this, symmetrical blush.",
+     "speaker": "Nanako"
+    },
+    {
+     "start": 434.3,
+     "end": 437.3,
+     "ja": "チークは私はめちゃくちゃ塗るので足りなさそうだけど。",
+     "en": "I apply a ton of blush though, so it might not be big enough.",
+     "speaker": "Nanako"
+    }
+   ]
+  }
+ ],
+ "videoId": "0lyUiEwJoF4",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

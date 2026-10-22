@@ -1,0 +1,283 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 108.8,
+   "end": 143.0,
+   "title": "When in Doubt, Just Go",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜たら — conditional when/if",
+    "〜てくれる — doing a favor for someone",
+    "〜たい — wanting to do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 109.1,
+     "end": 111.8,
+     "ja": "青年、一言だけいいかな？",
+     "en": "Young man, can I say just one thing?",
+     "speaker": "Master"
+    },
+    {
+     "start": 112.7,
+     "end": 113.6,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 114.3,
+     "end": 116.0,
+     "ja": "迷ったらGO。",
+     "en": "When in doubt, go.",
+     "speaker": "Master"
+    },
+    {
+     "start": 117.3,
+     "end": 118.9,
+     "ja": "迷ったらGO？",
+     "en": "When in doubt, go?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 119.4,
+     "end": 121.0,
+     "ja": "迷ったらGO。",
+     "en": "When in doubt, go.",
+     "speaker": "Master"
+    },
+    {
+     "start": 123.0,
+     "end": 126.5,
+     "ja": "いいかい？人生っていうのは一度きりなんだよ。",
+     "en": "Listen. You only live once.",
+     "speaker": "Master"
+    },
+    {
+     "start": 127.0,
+     "end": 129.3,
+     "ja": "一度きりの人生、後悔したくないだろ？",
+     "en": "In a one-time life, you don't want any regrets, right?",
+     "speaker": "Master"
+    },
+    {
+     "start": 130.3,
+     "end": 132.8,
+     "ja": "だから、迷ったらGO。",
+     "en": "So, when in doubt, go.",
+     "speaker": "Master"
+    },
+    {
+     "start": 133.3,
+     "end": 134.2,
+     "ja": "いいかい？",
+     "en": "Got it?",
+     "speaker": "Master"
+    },
+    {
+     "start": 134.4,
+     "end": 139.7,
+     "ja": "いつだって困ったら誰かが助けてくれるから、迷ったらGO。",
+     "en": "Whenever you're in trouble, someone will help you, so when in doubt, go.",
+     "speaker": "Master"
+    },
+    {
+     "start": 141.1,
+     "end": 142.5,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 153.5,
+   "end": 224.6,
+   "title": "The Master's Surprising Background",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy",
+    "work"
+   ],
+   "grammar": [
+    "〜られる — passive / respectful form",
+    "〜てもらう — receiving a favor",
+    "〜たことがない — have never done"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 153.8,
+     "end": 156.5,
+     "ja": "え、マスター、じゃあそれまではずっと何やられてたんですか？",
+     "en": "Wait, Master, what were you doing all this time before that?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 156.9,
+     "end": 157.8,
+     "ja": "ニート。",
+     "en": "A NEET.",
+     "speaker": "Master"
+    },
+    {
+     "start": 158.3,
+     "end": 159.0,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 159.8,
+     "end": 160.6,
+     "ja": "ニート。",
+     "en": "A NEET.",
+     "speaker": "Master"
+    },
+    {
+     "start": 161.2,
+     "end": 162.3,
+     "ja": "ニート？",
+     "en": "A NEET?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 162.8,
+     "end": 169.8,
+     "ja": "うん。僕さ、親が死ぬほど金持ちで、60歳になるまでずっと実家暮らしで、一度も働いたことがなかったんだ。",
+     "en": "Yeah. My parents are filthy rich, so until I turned 60, I lived at home and never worked once.",
+     "speaker": "Master"
+    },
+    {
+     "start": 170.2,
+     "end": 170.9,
+     "ja": "え？",
+     "en": "What?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 171.2,
+     "end": 178.8,
+     "ja": "で、まあ、この歳になってちょっと働いてみたいなと思って、両親にこのカフェ買ってもらって、先月オープンさせたんだよ。",
+     "en": "Then at this age I thought I'd like to try working, so I had my parents buy me this cafe and opened it last month.",
+     "speaker": "Master"
+    },
+    {
+     "start": 179.8,
+     "end": 181.2,
+     "ja": "なんもすごくない。",
+     "en": "Nothing amazing about it.",
+     "speaker": "Master"
+    },
+    {
+     "start": 181.4,
+     "end": 184.1,
+     "ja": "おい、ほんまになんもすごくなかったんかい！",
+     "en": "Hey, you really weren't amazing at all!",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 223.8,
+   "end": 252.5,
+   "title": "Cool, Yet Lame",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy",
+    "travel"
+   ],
+   "grammar": [
+    "〜て回る — go around doing",
+    "〜だけ — only/just",
+    "〜て旅する — travel while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 224.2,
+     "end": 225.3,
+     "ja": "え？何してたんですか、じゃあ？",
+     "en": "Huh? Then what were you doing?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 225.7,
+     "end": 233.2,
+     "ja": "うん。20代の頃はね、世界中の国を回ってね、そう、発展途上国の子供たちにサッカー教えて回ってたんだよ。",
+     "en": "Well, in my 20s, I traveled around the world teaching soccer to kids in developing countries.",
+     "speaker": "Master"
+    },
+    {
+     "start": 233.5,
+     "end": 234.8,
+     "ja": "かっけえなあ！",
+     "en": "That's so cool!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 235.3,
+     "end": 236.9,
+     "ja": "サッカーボールと、親の金だけ持って。",
+     "en": "Carrying just a soccer ball and my parents' money.",
+     "speaker": "Master"
+    },
+    {
+     "start": 237.2,
+     "end": 238.6,
+     "ja": "ださいなあ！",
+     "en": "That's so lame!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 239.9,
+     "end": 243.5,
+     "ja": "30代の頃は、世界中をバイクで旅して回ってた。",
+     "en": "In my 30s, I traveled around the world on a motorcycle.",
+     "speaker": "Master"
+    },
+    {
+     "start": 243.7,
+     "end": 244.9,
+     "ja": "かっけえなあ！",
+     "en": "That's so cool!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 245.1,
+     "end": 247.1,
+     "ja": "財布と親の金だけ持って。",
+     "en": "Carrying just my wallet and my parents' money.",
+     "speaker": "Master"
+    },
+    {
+     "start": 247.3,
+     "end": 248.5,
+     "ja": "ださいなあ！",
+     "en": "That's so lame!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 248.8,
+     "end": 251.9,
+     "ja": "財布と親の金、もう一緒でええからな、次から！",
+     "en": "The wallet and your parents' money are basically the same thing from now on!",
+     "speaker": "Customer"
+    }
+   ]
+  }
+ ],
+ "videoId": "FoAqJFAsiUY",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

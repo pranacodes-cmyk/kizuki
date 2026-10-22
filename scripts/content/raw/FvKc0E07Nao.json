@@ -1,0 +1,100 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.2,
+   "end": 19.8,
+   "title": "Announcing the Olympic Judo Team",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "culture"
+   ],
+   "grammar": [
+    "〜から — starting from",
+    "お〜いたします — humble polite request"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.4,
+     "end": 3.4,
+     "ja": "女子代表選手の発表から行います。",
+     "en": "We will begin with the announcement of the female representatives.",
+     "speaker": "Announcer"
+    },
+    {
+     "start": 3.8,
+     "end": 7.1,
+     "ja": "吉村強化委員長、代表選手の発表をお願いいたします。",
+     "en": "Director Yoshimura, please announce the representative athletes.",
+     "speaker": "Announcer"
+    },
+    {
+     "start": 7.4,
+     "end": 8.2,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Yoshimura"
+    },
+    {
+     "start": 8.7,
+     "end": 13.5,
+     "ja": "えー、48キロ級、福見友子。",
+     "en": "Um, 48-kilogram class: Tomoko Fukumi.",
+     "speaker": "Yoshimura"
+    },
+    {
+     "start": 14.1,
+     "end": 19.3,
+     "ja": "女子48kg級代表選手は、福見友子。",
+     "en": "The representative for the women's 48kg class is Tomoko Fukumi.",
+     "speaker": "Announcer"
+    }
+   ]
+  },
+  {
+   "start": 128.0,
+   "end": 145.8,
+   "title": "Announcing the 66kg Representative",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "fun"
+   ],
+   "grammar": [
+    "続きまして — next / moving on",
+    "お〜いたします — humble polite request"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 128.1,
+     "end": 132.8,
+     "ja": "続きまして、男子66キログラム級の発表をお願いいたします。",
+     "en": "Next, please announce the men's 66-kilogram category.",
+     "speaker": "Announcer"
+    },
+    {
+     "start": 137.2,
+     "end": 142.2,
+     "ja": "66キログラム級、海老沼匡。",
+     "en": "66-kilogram class: Masashi Ebinuma.",
+     "speaker": "Yoshimura"
+    },
+    {
+     "start": 143.2,
+     "end": 145.3,
+     "ja": "海老沼匡。",
+     "en": "Masashi Ebinuma.",
+     "speaker": "Announcer"
+    }
+   ]
+  }
+ ],
+ "videoId": "FvKc0E07Nao",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

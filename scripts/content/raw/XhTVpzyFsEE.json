@@ -1,0 +1,201 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 313.2,
+   "end": 340.5,
+   "title": "Freshly Fried Locusts",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜たて — freshly done",
+    "〜てみよう — let's try to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 313.5,
+     "end": 315.8,
+     "ja": "さあ、揚げたてのイナゴだよ！",
+     "en": "Come on, freshly fried locusts!",
+     "speaker": "Feng Ming"
+    },
+    {
+     "start": 316.2,
+     "end": 318.0,
+     "ja": "見てらっしゃい、寄ってらっしゃい！",
+     "en": "Come take a look, come on over!",
+     "speaker": "Feng Ming"
+    },
+    {
+     "start": 318.1,
+     "end": 320.1,
+     "ja": "揚げたてのイナゴ、いかが！",
+     "en": "How about some freshly fried locusts?",
+     "speaker": "Feng Ming"
+    },
+    {
+     "start": 320.3,
+     "end": 322.8,
+     "ja": "これ、虫じゃないか？食べられるのか？",
+     "en": "Aren't these bugs? Can you eat them?",
+     "speaker": "Townsman"
+    },
+    {
+     "start": 323.0,
+     "end": 325.8,
+     "ja": "香ばしくてサクサクだ。実に美味いんだ。",
+     "en": "They're savory and crispy. Truly delicious.",
+     "speaker": "Feng Ming"
+    },
+    {
+     "start": 327.0,
+     "end": 328.5,
+     "ja": "食べてみよう。",
+     "en": "Let me try one.",
+     "speaker": "Townsman"
+    },
+    {
+     "start": 337.5,
+     "end": 339.8,
+     "ja": "なんと、こんなに美味いとは！",
+     "en": "Wow, to think it's this delicious!",
+     "speaker": "Townsman"
+    }
+   ]
+  },
+  {
+   "start": 524.3,
+   "end": 547.8,
+   "title": "Cooking Just for You",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "food"
+   ],
+   "grammar": [
+    "〜ために — in order to",
+    "〜うちに — while still"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 524.7,
+     "end": 527.5,
+     "ja": "私を呼んだのは、手料理を振る舞うためですね。",
+     "en": "You called me here to treat me to your home cooking, didn't you?",
+     "speaker": "Xue Qingli"
+    },
+    {
+     "start": 527.7,
+     "end": 530.8,
+     "ja": "仕方ない、俺は今や有名人だからな。",
+     "en": "Can't help it, I'm a celebrity now.",
+     "speaker": "Feng Lang"
+    },
+    {
+     "start": 531.0,
+     "end": 535.3,
+     "ja": "外で料理したら、奪い合いになって、二人きりでいられなくなる。",
+     "en": "If I cook outside, people fight over it, and we can't be alone together.",
+     "speaker": "Feng Lang"
+    },
+    {
+     "start": 536.0,
+     "end": 538.9,
+     "ja": "今日だけですか？これからはどうするの？",
+     "en": "Is it just for today? What will you do from now on?",
+     "speaker": "Xue Qingli"
+    },
+    {
+     "start": 539.1,
+     "end": 543.0,
+     "ja": "これから、食べたくなったら毎日でも作ってやるよ。",
+     "en": "From now on, whenever you crave it, I'll make it for you every day.",
+     "speaker": "Feng Lang"
+    },
+    {
+     "start": 543.8,
+     "end": 544.7,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Xue Qingli"
+    },
+    {
+     "start": 545.2,
+     "end": 547.3,
+     "ja": "温かいうちに食べてくれ。",
+     "en": "Eat it while it's still warm.",
+     "speaker": "Feng Lang"
+    }
+   ]
+  },
+  {
+   "start": 948.5,
+   "end": 1007.5,
+   "title": "Parting with a Smile",
+   "level": "N3",
+   "topics": [
+    "romance"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜な — don't (prohibitive)",
+    "〜よう — let's (volitional)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 948.7,
+     "end": 950.6,
+     "ja": "「それから」は もういいです。",
+     "en": "Enough of your \"and also\".",
+     "speaker": "Xue Qingli"
+    },
+    {
+     "start": 950.8,
+     "end": 952.8,
+     "ja": "早く戻ってください。",
+     "en": "Please come back soon.",
+     "speaker": "Xue Qingli"
+    },
+    {
+     "start": 953.0,
+     "end": 955.5,
+     "ja": "私たちは必ずまた会えます。",
+     "en": "We will definitely meet again.",
+     "speaker": "Xue Qingli"
+    },
+    {
+     "start": 957.1,
+     "end": 958.4,
+     "ja": "泣くなよ。",
+     "en": "Don't cry.",
+     "speaker": "Feng Lang"
+    },
+    {
+     "start": 959.3,
+     "end": 1001.6,
+     "ja": "笑顔で別れよう。",
+     "en": "Let's part with a smile.",
+     "speaker": "Xue Qingli"
+    },
+    {
+     "start": 1005.8,
+     "end": 1006.8,
+     "ja": "はい。",
+     "en": "Alright.",
+     "speaker": "Feng Lang"
+    }
+   ]
+  }
+ ],
+ "videoId": "XhTVpzyFsEE",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

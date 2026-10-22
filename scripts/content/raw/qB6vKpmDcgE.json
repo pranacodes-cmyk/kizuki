@@ -1,0 +1,280 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.2,
+   "end": 20.8,
+   "title": "Day Two of the Tokyo Birthday Trip",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "romance"
+   ],
+   "grammar": [
+    "〜てます — ongoing state/action (contraction)",
+    "〜の — possessive / noun modifier"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.5,
+     "end": 1.7,
+     "ja": "はい、おはようございます。",
+     "en": "All right, good morning.",
+     "speaker": "Takumi"
+    },
+    {
+     "start": 1.7,
+     "end": 2.9,
+     "ja": "おはようございます。",
+     "en": "Good morning.",
+     "speaker": "Yui"
+    },
+    {
+     "start": 3.0,
+     "end": 4.1,
+     "ja": "たくみです。",
+     "en": "I'm Takumi.",
+     "speaker": "Takumi"
+    },
+    {
+     "start": 4.1,
+     "end": 5.2,
+     "ja": "ゆいです。",
+     "en": "I'm Yui.",
+     "speaker": "Yui"
+    },
+    {
+     "start": 5.4,
+     "end": 8.7,
+     "ja": "今日は2日目の東京…東京旅行？",
+     "en": "Today is the second day of our Tokyo... Tokyo trip?",
+     "speaker": "Takumi"
+    },
+    {
+     "start": 9.2,
+     "end": 11.9,
+     "ja": "ゆいの誕生日の東京旅行です！",
+     "en": "It's the Tokyo trip for Yui's birthday!",
+     "speaker": "Yui"
+    },
+    {
+     "start": 12.3,
+     "end": 14.8,
+     "ja": "で、今日今、東京駅来てまーす。",
+     "en": "And right now, we've come to Tokyo Station.",
+     "speaker": "Takumi"
+    },
+    {
+     "start": 16.0,
+     "end": 18.0,
+     "ja": "昨日はディズニーランド行って。",
+     "en": "Yesterday we went to Disneyland.",
+     "speaker": "Takumi"
+    },
+    {
+     "start": 18.2,
+     "end": 20.4,
+     "ja": "ちょっと余韻が抜けへんけど。",
+     "en": "The excitement still hasn't faded though.",
+     "speaker": "Takumi"
+    }
+   ]
+  },
+  {
+   "start": 175.8,
+   "end": 202.8,
+   "title": "Waiting for Lunch at the Cafe",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜たい — wanting to do something",
+    "〜やっけ — asking for confirmation (Kansai dialect)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 176.0,
+     "end": 177.3,
+     "ja": "楽しみ〜。",
+     "en": "I'm so excited.",
+     "speaker": "Yui"
+    },
+    {
+     "start": 177.3,
+     "end": 178.1,
+     "ja": "な。",
+     "en": "Yeah.",
+     "speaker": "Takumi"
+    },
+    {
+     "start": 178.3,
+     "end": 180.0,
+     "ja": "何頼んだんやっけ、あれ。",
+     "en": "What did we order again?",
+     "speaker": "Takumi"
+    },
+    {
+     "start": 180.1,
+     "end": 181.1,
+     "ja": "何頼んだん？",
+     "en": "What did you order?",
+     "speaker": "Takumi"
+    },
+    {
+     "start": 181.3,
+     "end": 183.0,
+     "ja": "餃子セット。",
+     "en": "The gyoza set.",
+     "speaker": "Yui"
+    },
+    {
+     "start": 183.5,
+     "end": 185.0,
+     "ja": "に、ガパオライス。",
+     "en": "And the gapao rice.",
+     "speaker": "Takumi"
+    },
+    {
+     "start": 186.4,
+     "end": 187.9,
+     "ja": "お腹すいてる？",
+     "en": "Are you hungry?",
+     "speaker": "Takumi"
+    },
+    {
+     "start": 188.0,
+     "end": 190.1,
+     "ja": "めっちゃすいた〜。",
+     "en": "Super hungry!",
+     "speaker": "Yui"
+    },
+    {
+     "start": 192.1,
+     "end": 194.0,
+     "ja": "お買い物したいな、なんか。",
+     "en": "I feel like doing some shopping.",
+     "speaker": "Yui"
+    },
+    {
+     "start": 194.1,
+     "end": 195.9,
+     "ja": "渋谷の、せっかくやし。",
+     "en": "Since we're here, in Shibuya.",
+     "speaker": "Takumi"
+    },
+    {
+     "start": 196.0,
+     "end": 197.8,
+     "ja": "うん、なんかいっぱい回ろう。",
+     "en": "Yeah, let's explore lots of places.",
+     "speaker": "Yui"
+    },
+    {
+     "start": 197.9,
+     "end": 199.3,
+     "ja": "どこ行くかやんな。",
+     "en": "The question is where to go.",
+     "speaker": "Takumi"
+    },
+    {
+     "start": 199.5,
+     "end": 202.1,
+     "ja": "定番の渋谷。",
+     "en": "The classic Shibuya.",
+     "speaker": "Yui"
+    }
+   ]
+  },
+  {
+   "start": 293.2,
+   "end": 313.5,
+   "title": "Guessing the Temperature Outside",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜知らんけど — I don't know for sure though (Kansai phrasing)",
+    "〜もん — explanatory/emphatic particle"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 293.7,
+     "end": 294.6,
+     "ja": "さぶっ。",
+     "en": "Freezing!",
+     "speaker": "Takumi"
+    },
+    {
+     "start": 295.2,
+     "end": 297.2,
+     "ja": "現在8度です！",
+     "en": "It is currently 8 degrees!",
+     "speaker": "Takumi"
+    },
+    {
+     "start": 297.8,
+     "end": 299.7,
+     "ja": "ほんまに？8度？",
+     "en": "Really? 8 degrees?",
+     "speaker": "Yui"
+    },
+    {
+     "start": 300.0,
+     "end": 301.0,
+     "ja": "知らんけど。",
+     "en": "I don't actually know though.",
+     "speaker": "Takumi"
+    },
+    {
+     "start": 301.2,
+     "end": 302.8,
+     "ja": "適当やん！すごっ！",
+     "en": "You made that up! Wow!",
+     "speaker": "Yui"
+    },
+    {
+     "start": 303.0,
+     "end": 305.4,
+     "ja": "「8度です」って言い切ったで。",
+     "en": "You said 'It's 8 degrees' with such confidence.",
+     "speaker": "Yui"
+    },
+    {
+     "start": 306.8,
+     "end": 308.5,
+     "ja": "あんまおらんで〜。",
+     "en": "There aren't many people like this.",
+     "speaker": "Takumi"
+    },
+    {
+     "start": 308.7,
+     "end": 311.1,
+     "ja": "おらんで〜、こんな言い切る嘘。",
+     "en": "Not many who tell a lie with that much certainty.",
+     "speaker": "Takumi"
+    },
+    {
+     "start": 311.3,
+     "end": 313.0,
+     "ja": "一周回って信じるもん。",
+     "en": "It's so convincing that you actually believe it.",
+     "speaker": "Yui"
+    }
+   ]
+  }
+ ],
+ "videoId": "qB6vKpmDcgE",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

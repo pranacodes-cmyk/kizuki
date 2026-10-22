@@ -1,0 +1,263 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.6,
+   "end": 14.8,
+   "title": "Just the Two of Us Today",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 3.4,
+     "ja": "タイぷちの時間だよー。",
+     "en": "It's time for Thai Puchi!",
+     "speaker": "Pink"
+    },
+    {
+     "start": 4.2,
+     "end": 5.1,
+     "ja": "あれ？",
+     "en": "Huh?",
+     "speaker": "Pink"
+    },
+    {
+     "start": 5.5,
+     "end": 7.7,
+     "ja": "今日もジャイディーいないんだ。",
+     "en": "Jaidee isn't here today either.",
+     "speaker": "Pink"
+    },
+    {
+     "start": 8.8,
+     "end": 9.5,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Grey"
+    },
+    {
+     "start": 9.6,
+     "end": 10.4,
+     "ja": "今日も",
+     "en": "Today, too...",
+     "speaker": "Grey"
+    },
+    {
+     "start": 11.1,
+     "end": 14.3,
+     "ja": "ジャイディーはいないので、2人ですね。",
+     "en": "Jaidee isn't here, so it's just the two of us.",
+     "speaker": "Grey"
+    }
+   ]
+  },
+  {
+   "start": 323.0,
+   "end": 342.5,
+   "title": "Tobii Is Actually Cute",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "music"
+   ],
+   "grammar": [
+    "〜かもしれない — might / maybe",
+    "〜てくれる — doing something for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 323.0,
+     "end": 325.4,
+     "ja": "わー、かっこいい、トビーさん。",
+     "en": "Wow, Tobii is so cool.",
+     "speaker": "Pink"
+    },
+    {
+     "start": 325.5,
+     "end": 326.2,
+     "ja": "ねえ。",
+     "en": "Right?",
+     "speaker": "Grey"
+    },
+    {
+     "start": 326.3,
+     "end": 327.0,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Pink"
+    },
+    {
+     "start": 327.4,
+     "end": 329.0,
+     "ja": "でも見た目ちょっとね、",
+     "en": "Though by his looks,",
+     "speaker": "Jaidee"
+    },
+    {
+     "start": 329.1,
+     "end": 332.0,
+     "ja": "怖いと思ってる人いるかもしれないけど、",
+     "en": "some people might think he's intimidating,",
+     "speaker": "Jaidee"
+    },
+    {
+     "start": 332.4,
+     "end": 334.6,
+     "ja": "喋ったらね、かわいいの、トビー君は。",
+     "en": "but when he talks, Tobii is really cute.",
+     "speaker": "Jaidee"
+    },
+    {
+     "start": 335.0,
+     "end": 337.0,
+     "ja": "そうですね、ジャイディーのお腹ツンツンしてくれてましたもんね。",
+     "en": "Right, he was poking your tummy, Jaidee.",
+     "speaker": "Grey"
+    },
+    {
+     "start": 337.0,
+     "end": 337.8,
+     "ja": "確かに。",
+     "en": "That's true.",
+     "speaker": "Pink"
+    },
+    {
+     "start": 337.8,
+     "end": 339.8,
+     "ja": "そう、お腹マッチングしてるんで。",
+     "en": "Yeah, because our tummies match.",
+     "speaker": "Jaidee"
+    }
+   ]
+  },
+  {
+   "start": 507.0,
+   "end": 532.0,
+   "title": "Pronouncing Thai Words",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "comedy"
+   ],
+   "grammar": [
+    "〜みたい — looks like / sounds like",
+    "〜ないと — must / have to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 507.3,
+     "end": 508.4,
+     "ja": "かわいい。",
+     "en": "Cute.",
+     "speaker": "Pink"
+    },
+    {
+     "start": 508.8,
+     "end": 511.2,
+     "ja": "ただ、巻き舌ですね。ポイントね。",
+     "en": "Though rolling your tongue is the key point.",
+     "speaker": "Grey"
+    },
+    {
+     "start": 511.6,
+     "end": 512.7,
+     "ja": "大事、大事。",
+     "en": "Very important.",
+     "speaker": "Jaidee"
+    },
+    {
+     "start": 513.2,
+     "end": 514.0,
+     "ja": "ラーッ！",
+     "en": "Raht!",
+     "speaker": "Grey"
+    },
+    {
+     "start": 514.0,
+     "end": 514.8,
+     "ja": "ラーッ。",
+     "en": "Raht.",
+     "speaker": "Pink"
+    },
+    {
+     "start": 514.9,
+     "end": 515.8,
+     "ja": "ラーッ。",
+     "en": "Raht.",
+     "speaker": "Jaidee"
+    },
+    {
+     "start": 516.0,
+     "end": 517.0,
+     "ja": "ラーッ！",
+     "en": "Raht!",
+     "speaker": "Grey"
+    },
+    {
+     "start": 517.8,
+     "end": 519.3,
+     "ja": "ケンカみたい。",
+     "en": "It sounds like fighting.",
+     "speaker": "Pink"
+    },
+    {
+     "start": 520.8,
+     "end": 522.0,
+     "ja": "コラー！",
+     "en": "Hey!",
+     "speaker": "Grey"
+    },
+    {
+     "start": 522.0,
+     "end": 523.0,
+     "ja": "コラッ！",
+     "en": "Hey!",
+     "speaker": "Pink"
+    },
+    {
+     "start": 523.0,
+     "end": 524.0,
+     "ja": "コラー！",
+     "en": "Hey!",
+     "speaker": "Grey"
+    },
+    {
+     "start": 524.8,
+     "end": 527.0,
+     "ja": "日本で言う時はちょっと注意かもしれないですね。",
+     "en": "You might need to be careful saying it in Japan.",
+     "speaker": "Grey"
+    },
+    {
+     "start": 527.4,
+     "end": 529.8,
+     "ja": "あんまりこう、言い方に気をつけないと。",
+     "en": "If you aren't careful about how you say it...",
+     "speaker": "Jaidee"
+    },
+    {
+     "start": 530.3,
+     "end": 531.8,
+     "ja": "褒めてるつもりでもね。",
+     "en": "Even if you meant it as a compliment.",
+     "speaker": "Grey"
+    }
+   ]
+  }
+ ],
+ "videoId": "1sOfS1jjogQ",
+ "pickTopics": [
+  "music"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

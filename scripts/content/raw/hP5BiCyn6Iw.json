@@ -1,0 +1,166 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 184.0,
+   "end": 203.5,
+   "title": "A Great Era for Language Learning",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "おかげで — thanks to",
+    "〜のに — in order to / for"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 184.3,
+     "end": 188.4,
+     "ja": "リンディーさんもエピソードの中で話していたんですけれども、",
+     "en": "Lindie also talked about this in her episode, but...",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 188.5,
+     "end": 191.7,
+     "ja": "今はインターネットとスマホのおかげで、",
+     "en": "nowadays thanks to the internet and smartphones,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 191.8,
+     "end": 197.3,
+     "ja": "本当にいろいろなメソッドとかマテリアルがあふれているんですね。",
+     "en": "there is truly an abundance of various methods and materials.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 197.4,
+     "end": 199.3,
+     "ja": "言葉を勉強するのに、",
+     "en": "For studying languages,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 199.4,
+     "end": 203.0,
+     "ja": "こんなに簡単でいい時代はありません。",
+     "en": "there has never been such an easy and great era.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 277.0,
+   "end": 296.5,
+   "title": "The Best Method Is Different for Everyone",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜にとって — for / to (someone)",
+    "〜かもしれない — might / may"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 277.2,
+     "end": 280.6,
+     "ja": "でも、それってちょっと違うと思います。",
+     "en": "However, I think that is a bit off.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 280.7,
+     "end": 285.5,
+     "ja": "人それぞれ、自分に合った勉強方法って違うんですよ。",
+     "en": "The study method suited to each person is different for everyone.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 285.6,
+     "end": 289.6,
+     "ja": "だから、その人が「これがベストだ」って言っても、",
+     "en": "So even if that person says, \"This is the best,\"",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 289.7,
+     "end": 292.8,
+     "ja": "その人にとってベストだったかもしれないけど、",
+     "en": "it may have been the best for them,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 292.9,
+     "end": 296.0,
+     "ja": "あなたにとってはベストじゃないかもしれないんです。",
+     "en": "but it might not be the best for you.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 329.0,
+   "end": 342.5,
+   "title": "Why Anki Did Not Work for Me",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "例えば — for example",
+    "〜と思います — I think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 329.4,
+     "end": 331.0,
+     "ja": "例えば、Anki。",
+     "en": "For example, Anki.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 331.1,
+     "end": 333.4,
+     "ja": "たくさんの人が使っていますね。",
+     "en": "Many people use it, right?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 333.5,
+     "end": 336.1,
+     "ja": "Ankiは優れたシステムで、",
+     "en": "Anki is an excellent system,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 336.2,
+     "end": 338.9,
+     "ja": "いい勉強方法だと思います。",
+     "en": "and I think it's a good study method.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 339.0,
+     "end": 342.0,
+     "ja": "でも、私には合いませんでした。",
+     "en": "However, it didn't suit me.",
+     "speaker": "Noriko"
+    }
+   ]
+  }
+ ],
+ "videoId": "hP5BiCyn6Iw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

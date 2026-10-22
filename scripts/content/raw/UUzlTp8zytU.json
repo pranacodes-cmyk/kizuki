@@ -1,0 +1,229 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 36.3,
+   "end": 64.7,
+   "title": "What Food Do You Dislike?",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜があります — there is...",
+    "あまり〜ない — not very..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 36.5,
+     "end": 37.8,
+     "ja": "１つ目、",
+     "en": "Number one,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 38.0,
+     "end": 41.0,
+     "ja": "嫌いな食べ物は何ですか。",
+     "en": "What food do you dislike?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 41.4,
+     "end": 44.4,
+     "ja": "嫌いな食べ物がありますか。",
+     "en": "Is there any food you dislike?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 45.0,
+     "end": 49.0,
+     "ja": "私は１つ、嫌いな食べ物があります。",
+     "en": "There is one food that I dislike.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 49.3,
+     "end": 52.6,
+     "ja": "それは、ライスプディングです。",
+     "en": "That is rice pudding.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 53.1,
+     "end": 58.0,
+     "ja": "ライスプディング、お米とミルクと砂糖のデザートですね。",
+     "en": "Rice pudding—it's a dessert made with rice, milk, and sugar.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 58.8,
+     "end": 62.0,
+     "ja": "甘いです。私は苦手です。",
+     "en": "It's sweet. I'm not a fan.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 62.2,
+     "end": 64.5,
+     "ja": "あまり好きじゃありません。",
+     "en": "I don't really like it.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 144.5,
+   "end": 212.5,
+   "title": "How Long Have You Studied Japanese?",
+   "level": "N5",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜ています — ongoing action / state",
+    "もう — already"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 145.0,
+     "end": 146.0,
+     "ja": "次。",
+     "en": "Next.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 146.1,
+     "end": 149.2,
+     "ja": "いつから日本語を勉強していますか。",
+     "en": "How long have you been studying Japanese?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 149.7,
+     "end": 153.2,
+     "ja": "いつから日本語を勉強していますか。",
+     "en": "How long have you been studying Japanese?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 153.6,
+     "end": 156.8,
+     "ja": "もう長く勉強していますか。",
+     "en": "Have you been studying for a long time already?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 157.0,
+     "end": 201.5,
+     "ja": "それとも、最近勉強を始めましたか。",
+     "en": "Or did you just start studying recently?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 202.1,
+     "end": 205.3,
+     "ja": "えー、私は韓国語の勉強をしています。",
+     "en": "Um, I am studying Korean.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 205.6,
+     "end": 208.5,
+     "ja": "もう１年以上になりました。",
+     "en": "It has already been over a year.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 208.8,
+     "end": 211.7,
+     "ja": "１年と５か月ぐらいですね。はい。",
+     "en": "About one year and five months. Yes.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 234.5,
+   "end": 306.8,
+   "title": "The Signature Dish of Your Country",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "food"
+   ],
+   "grammar": [
+    "〜かもしれません — might / may",
+    "〜でしょうか — polite wondering"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 234.8,
+     "end": 236.4,
+     "ja": "最後の質問です。",
+     "en": "Here is the final question.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 236.8,
+     "end": 241.6,
+     "ja": "あなたの国の代表的な料理は何ですか。",
+     "en": "What is the signature dish of your country?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 242.0,
+     "end": 246.6,
+     "ja": "あなたの国の代表的な料理は何ですか。",
+     "en": "What is the signature dish of your country?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 247.2,
+     "end": 249.7,
+     "ja": "私は日本人です。",
+     "en": "I am Japanese.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 250.3,
+     "end": 254.4,
+     "ja": "日本の代表的な料理は何でしょうか。",
+     "en": "What would Japan's signature dish be?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 254.7,
+     "end": 259.4,
+     "ja": "たくさんの人が「お寿司」と答えるかもしれませんが、",
+     "en": "Many people might answer sushi, but...",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 259.9,
+     "end": 302.2,
+     "ja": "うーん、私は違います。",
+     "en": "Hmm, I think differently.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 302.6,
+     "end": 306.4,
+     "ja": "私の考えは、味噌汁です。",
+     "en": "In my opinion, it is miso soup.",
+     "speaker": "Noriko"
+    }
+   ]
+  }
+ ],
+ "videoId": "UUzlTp8zytU",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

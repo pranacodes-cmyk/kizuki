@@ -1,0 +1,160 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 164.5,
+   "end": 186.2,
+   "title": "Tasting the Ramen Soup",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ております — humble ongoing action",
+    "〜けど — but / although",
+    "〜のあと — after"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 164.5,
+     "end": 169.5,
+     "ja": "スープをね、何度も飲んで確かめております。",
+     "en": "I'm tasting the soup over and over to check it.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 170.0,
+     "end": 172.5,
+     "ja": "色が豚骨です。",
+     "en": "The color is tonkotsu.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 172.8,
+     "end": 176.2,
+     "ja": "そう、豚骨なんやけど、薄味なんです。",
+     "en": "Yeah, it's tonkotsu, but it has a mild flavor.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 176.5,
+     "end": 180.0,
+     "ja": "で、鶏の出汁、でさらに",
+     "en": "And chicken broth, and further...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 180.2,
+     "end": 186.2,
+     "ja": "豚骨、鶏のあとに、濃いめの塩が利いております。",
+     "en": "After the tonkotsu and chicken, you get a strong punch of salt.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 215.2,
+   "end": 238.2,
+   "title": "The Seasoned Boiled Egg",
+   "level": "N3",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜てしまう — unintentional result",
+    "〜と — conditional when / if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 215.2,
+     "end": 217.5,
+     "ja": "で、煮卵。",
+     "en": "And, the seasoned egg.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 218.0,
+     "end": 224.0,
+     "ja": "煮卵がまたね、もう塩が利いていい味してます。",
+     "en": "The egg also has a nice, salty, great flavor.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 224.3,
+     "end": 228.5,
+     "ja": "で、この煮卵のあとは追いスープが必要です。",
+     "en": "And after this egg, you need a follow-up sip of soup.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 229.0,
+     "end": 232.8,
+     "ja": "もう口ん中がね、ちょっとパサついてしまうんで、",
+     "en": "Because your mouth gets a little dry,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 233.0,
+     "end": 238.2,
+     "ja": "そこにこのスープを口の中に入れると、もうもの凄くマッチングしていいです。",
+     "en": "putting this soup in your mouth then matches amazingly well.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 262.6,
+   "end": 276.4,
+   "title": "A Famous Ramen Shop in Himeji",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜の際 — on the occasion of",
+    "〜でした — past polite copula"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 262.6,
+     "end": 267.2,
+     "ja": "姫路の飲み屋街にある人気のラーメン店です。",
+     "en": "It's a popular ramen shop located in Himeji's nightlife district.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 267.5,
+     "end": 270.5,
+     "ja": "お越しの際はね、ぜひこちらに。",
+     "en": "When you visit, definitely check it out.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 271.0,
+     "end": 274.0,
+     "ja": "以上、高田屋ラーメンでした。",
+     "en": "That was Takadaya Ramen.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 274.3,
+     "end": 276.4,
+     "ja": "ごちそうさまです。",
+     "en": "Thank you for the meal.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "2FxwGoDl1MQ",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

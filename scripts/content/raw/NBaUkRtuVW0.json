@@ -1,0 +1,265 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.9,
+   "end": 22.8,
+   "title": "Trying Out a New Casino Game",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ものだ — expresses a general realization",
+    "〜てみる — to try doing something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2.2,
+     "end": 7.0,
+     "ja": "いやあ、初めてラスベガス来たけど、意外と勝てるもんだなあ。",
+     "en": "Man, it's my first time in Las Vegas, but surprisingly you can actually win.",
+     "speaker": "Tourist"
+    },
+    {
+     "start": 9.3,
+     "end": 11.7,
+     "ja": "お？キャニオン？",
+     "en": "Oh? Canyon?",
+     "speaker": "Tourist"
+    },
+    {
+     "start": 11.8,
+     "end": 14.5,
+     "ja": "なんだこのゲーム？知らねえなあ。",
+     "en": "What is this game? Never heard of it.",
+     "speaker": "Tourist"
+    },
+    {
+     "start": 14.9,
+     "end": 16.6,
+     "ja": "Hey, play?",
+     "en": "Hey, play?",
+     "speaker": "Dealer"
+    },
+    {
+     "start": 17.4,
+     "end": 20.5,
+     "ja": "まぁポーカーでちょっと勝ったし、やってみっか。",
+     "en": "Well, I won a bit at poker, might as well give it a shot.",
+     "speaker": "Tourist"
+    },
+    {
+     "start": 20.7,
+     "end": 22.3,
+     "ja": "オーケー。プレイ。",
+     "en": "Okay. Play.",
+     "speaker": "Tourist"
+    }
+   ]
+  },
+  {
+   "start": 148.6,
+   "end": 208.2,
+   "title": "The Dealer's Nuance",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜ということ — that means / it comes down to",
+    "だから〜んだ — that's why... (explanatory)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 149.0,
+     "end": 150.3,
+     "ja": "Excuse me.",
+     "en": "Excuse me.",
+     "speaker": "Tourist"
+    },
+    {
+     "start": 150.4,
+     "end": 151.3,
+     "ja": "Yes.",
+     "en": "Yes.",
+     "speaker": "Dealer"
+    },
+    {
+     "start": 151.4,
+     "end": 153.9,
+     "ja": "This game rule, please.",
+     "en": "This game rule, please.",
+     "speaker": "Tourist"
+    },
+    {
+     "start": 154.1,
+     "end": 155.2,
+     "ja": "Oh, okay.",
+     "en": "Oh, okay.",
+     "speaker": "Dealer"
+    },
+    {
+     "start": 155.3,
+     "end": 158.2,
+     "ja": "This game, my nuance.",
+     "en": "This game, my nuance.",
+     "speaker": "Dealer"
+    },
+    {
+     "start": 158.3,
+     "end": 159.8,
+     "ja": "ニュアンス！？",
+     "en": "Nuance?!",
+     "speaker": "Tourist"
+    },
+    {
+     "start": 159.9,
+     "end": 160.8,
+     "ja": "Yes.",
+     "en": "Yes.",
+     "speaker": "Dealer"
+    },
+    {
+     "start": 160.9,
+     "end": 163.0,
+     "ja": "え、こいつのさじ加減ってこと？",
+     "en": "Wait, so it's entirely up to his discretion?",
+     "speaker": "Tourist"
+    },
+    {
+     "start": 163.1,
+     "end": 164.6,
+     "ja": "My nuance.",
+     "en": "My nuance.",
+     "speaker": "Dealer"
+    },
+    {
+     "start": 164.7,
+     "end": 165.6,
+     "ja": "怖っ！",
+     "en": "Terrifying!",
+     "speaker": "Tourist"
+    },
+    {
+     "start": 165.7,
+     "end": 167.8,
+     "ja": "だから誰もやってないんだ！",
+     "en": "That's why nobody is playing this!",
+     "speaker": "Tourist"
+    }
+   ]
+  },
+  {
+   "start": 253.4,
+   "end": 321.2,
+   "title": "Mistaken Identity",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜じゃねえ — casual contraction of ではない",
+    "〜に見える — to look like / appear as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 253.7,
+     "end": 255.2,
+     "ja": "なんか助け求めてる！",
+     "en": "He's calling for help!",
+     "speaker": "Tourist"
+    },
+    {
+     "start": 255.4,
+     "end": 258.0,
+     "ja": "Japanese pro canyon player.",
+     "en": "Japanese pro canyon player.",
+     "speaker": "Dealer"
+    },
+    {
+     "start": 258.1,
+     "end": 260.0,
+     "ja": "違う違う違う！",
+     "en": "No, no, no!",
+     "speaker": "Tourist"
+    },
+    {
+     "start": 260.1,
+     "end": 264.0,
+     "ja": "プロじゃねえよ！ただの観光客！",
+     "en": "I'm not a pro! Just a tourist!",
+     "speaker": "Tourist"
+    },
+    {
+     "start": 264.2,
+     "end": 265.7,
+     "ja": "Blue shirt.",
+     "en": "Blue shirt.",
+     "speaker": "Dealer"
+    },
+    {
+     "start": 265.8,
+     "end": 266.6,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Tourist"
+    },
+    {
+     "start": 266.7,
+     "end": 268.6,
+     "ja": "Junior high school student.",
+     "en": "Junior high school student.",
+     "speaker": "Dealer"
+    },
+    {
+     "start": 268.8,
+     "end": 271.0,
+     "ja": "いや中学生じゃねえから！",
+     "en": "Hey, I'm not a middle schooler!",
+     "speaker": "Tourist"
+    },
+    {
+     "start": 271.1,
+     "end": 274.0,
+     "ja": "え、どんだけ幼く見えてんの？！",
+     "en": "Wait, how young do I look to you?!",
+     "speaker": "Tourist"
+    },
+    {
+     "start": 274.2,
+     "end": 276.0,
+     "ja": "Boyish girl.",
+     "en": "Boyish girl.",
+     "speaker": "Dealer"
+    },
+    {
+     "start": 276.1,
+     "end": 278.0,
+     "ja": "いや男！男！",
+     "en": "No, a guy! A guy!",
+     "speaker": "Tourist"
+    },
+    {
+     "start": 278.1,
+     "end": 280.8,
+     "ja": "え、女子中学生に見えてる？！",
+     "en": "Wait, I look like a middle school girl to you?!",
+     "speaker": "Tourist"
+    }
+   ]
+  }
+ ],
+ "videoId": "NBaUkRtuVW0",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

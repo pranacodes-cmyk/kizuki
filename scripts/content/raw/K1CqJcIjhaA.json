@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 30.8,
+   "end": 54.8,
+   "title": "Recycling and Repurposing Landfills",
+   "level": "N1",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜へ — direction or destination",
+    "〜も少なくない — not a few / quite a few"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 31.0,
+     "end": 36.0,
+     "ja": "ペットボトルは衣料用のフリースや新ボトルへリサイクルされ、",
+     "en": "Plastic bottles are recycled into fleece clothing or new bottles,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 36.1,
+     "end": 40.5,
+     "ja": "古紙は新聞やトイレットペーパーへ再生されています。",
+     "en": "and waste paper is remanufactured into newspapers and toilet paper.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 40.8,
+     "end": 46.0,
+     "ja": "一方、再資源化できなかったごみは埋立地へ運搬され、",
+     "en": "On the other hand, waste that cannot be recycled is taken to landfills,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 46.1,
+     "end": 50.0,
+     "ja": "土と芝で覆われた後、公園や運動場、",
+     "en": "and after being covered with soil and turf,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 50.1,
+     "end": 54.5,
+     "ja": "ショッピングセンターへ転用される例も少なくありません。",
+     "en": "there are many cases where they are repurposed into parks, athletic grounds, or shopping malls.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 106.5,
+   "end": 127.4,
+   "title": "School Cleaning and Civic Duty",
+   "level": "N1",
+   "topics": [
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜に取り組む — to engage in",
+    "〜を通して — through / by means of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 106.8,
+     "end": 110.5,
+     "ja": "学校でも児童生徒が掃除当番に取り組み、",
+     "en": "In schools as well, students take on cleaning duties,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 110.6,
+     "end": 117.3,
+     "ja": "教室、廊下、トイレを自ら磨くことで公徳心を涵養しています。",
+     "en": "cultivating a sense of public duty by cleaning their classrooms, hallways, and restrooms themselves.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 117.6,
+     "end": 121.0,
+     "ja": "つまり、このような活動を通して、",
+     "en": "In other words, through these activities,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 121.1,
+     "end": 127.0,
+     "ja": "小さな頃からみんなのために行動できる心を少しずつ育てているのです。",
+     "en": "they gradually nurture from an early age the spirit to act for the good of everyone.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 127.5,
+   "end": 152.0,
+   "title": "Towards a Circular Society",
+   "level": "N1",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜により — due to / based on",
+    "〜てくる — gradual change over time"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 127.8,
+     "end": 131.0,
+     "ja": "さらに、家電リサイクル法により、",
+     "en": "Furthermore, under the Home Appliance Recycling Act,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 131.1,
+     "end": 136.5,
+     "ja": "テレビや冷蔵庫の排出時にはリサイクル料金を負担するため、",
+     "en": "people have to pay recycling fees when disposing of TVs or refrigerators,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 136.6,
+     "end": 140.6,
+     "ja": "修理して長く使う家庭が少しずつ増加してきました。",
+     "en": "so households repairing and using them longer have gradually increased.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 141.0,
+     "end": 146.8,
+     "ja": "食品残渣も飼料、堆肥、バイオガス発電へ再資源化され、",
+     "en": "Food residue is also repurposed into feed, compost, and biogas power generation,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 146.9,
+     "end": 151.6,
+     "ja": "官民一体となった循環型社会づくりが加速しています。",
+     "en": "accelerating the joint public-private effort to build a recycling-oriented society.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "K1CqJcIjhaA",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

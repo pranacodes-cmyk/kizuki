@@ -148,9 +148,14 @@ def main():
     local = {e[0] for e in entries}
     changes = [{"path": p, "mode": m, "type": "blob", "sha": s} for p, m, _, s in entries if remote.get(p) != s]
     changes += [{"path": p, "mode": "100644", "type": "blob", "sha": None} for p in remote if p not in local]
-    status, new_tree = call("POST", f"/repos/{repo}/git/trees", {"base_tree": commit["tree"]["sha"], "tree": changes})
-    if status != 201:
-        sys.exit(f"tree failed: {status} {new_tree}")
+    # Large change sets are applied in chunks, each on top of the previous tree.
+    base = commit["tree"]["sha"]
+    for i in range(0, len(changes), 400):
+        status, new_tree = call("POST", f"/repos/{repo}/git/trees", {"base_tree": base, "tree": changes[i:i + 400]}, tries=6)
+        if status != 201:
+            sys.exit(f"tree failed: {status} {new_tree}")
+        base = new_tree["sha"]
+        print(f"  tree {min(i + 400, len(changes))}/{len(changes)}")
     status, new_commit = call("POST", f"/repos/{repo}/git/commits", {"message": message, "tree": new_tree["sha"], "parents": [head]})
     if status != 201:
         sys.exit(f"commit failed: {status} {new_commit}")

@@ -1,0 +1,175 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 134.0,
+   "end": 154.4,
+   "title": "Choosing a Race for Beginners",
+   "level": "N3",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜てもらえる — to receive the favor of",
+    "〜に関して — regarding / concerning",
+    "〜ながら — while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 134.3,
+     "end": 136.4,
+     "ja": "色々な種族がいるけれど、何にするの？",
+     "en": "There are various races, so which one will you pick?",
+     "speaker": "Sasara"
+    },
+    {
+     "start": 136.6,
+     "end": 139.4,
+     "ja": "初めてなら能力的に特に苦手なことがなく、",
+     "en": "For a first playthrough, someone with no particular weaknesses,",
+     "speaker": "Tsuzumi"
+    },
+    {
+     "start": 139.5,
+     "end": 143.7,
+     "ja": "とある国で大切にしてもらえるグリーンランダーの男性がいいかしら。",
+     "en": "and a Greenlander male who is treated well in a certain nation, would be best.",
+     "speaker": "Tsuzumi"
+    },
+    {
+     "start": 143.8,
+     "end": 146.5,
+     "ja": "他の種族も個性的で操作していて楽しいけれど、",
+     "en": "Other races have distinct traits and are fun to control,",
+     "speaker": "Sasara"
+    },
+    {
+     "start": 146.6,
+     "end": 150.3,
+     "ja": "人間以外の種族に関しては配慮しないといけないことが多くなるよね。",
+     "en": "but with non-human races there are more things you have to worry about.",
+     "speaker": "Sasara"
+    },
+    {
+     "start": 150.5,
+     "end": 154.0,
+     "ja": "そうね、Kenshiを楽しみながら少しずつ覚えていけばいいかしら。",
+     "en": "Right. You can just learn bit by bit while enjoying Kenshi.",
+     "speaker": "Tsuzumi"
+    }
+   ]
+  },
+  {
+   "start": 252.5,
+   "end": 268.0,
+   "title": "Cost-Effective Food in Kenshi",
+   "level": "N4",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜たらいい — what should one do",
+    "〜うちに — while / as long as",
+    "〜あたり — per unit"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 252.7,
+     "end": 255.5,
+     "ja": "色々な食べ物があるよ、何を買ったらいいの？",
+     "en": "There are so many foods, what should I buy?",
+     "speaker": "Sasara"
+    },
+    {
+     "start": 255.8,
+     "end": 259.4,
+     "ja": "そうね、お金がないうちはこのドライミートがいいかしら。",
+     "en": "Well, while you don't have money, this dried meat is probably best.",
+     "speaker": "Tsuzumi"
+    },
+    {
+     "start": 259.5,
+     "end": 261.8,
+     "ja": "このnuというのが栄養価になるのだけれど…",
+     "en": "This 'nu' value represents nutritional value, but...",
+     "speaker": "Tsuzumi"
+    },
+    {
+     "start": 262.0,
+     "end": 264.7,
+     "ja": "ドライミートは安いけれど栄養価いまいちだよ？",
+     "en": "Dried meat is cheap, but isn't its nutrition kind of low?",
+     "speaker": "Sasara"
+    },
+    {
+     "start": 264.8,
+     "end": 267.7,
+     "ja": "でも、単価あたりの栄養価はいいからコスパはいいわね。",
+     "en": "True, but nutrition per cat is great, so it's good value.",
+     "speaker": "Tsuzumi"
+    }
+   ]
+  },
+  {
+   "start": 645.0,
+   "end": 662.2,
+   "title": "Strength Training Efficiency",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "sports"
+   ],
+   "grammar": [
+    "〜ておく — to do in advance",
+    "〜ば〜ほど — the more... the more...",
+    "〜わけではない — it doesn't mean that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 645.3,
+     "end": 647.7,
+     "ja": "筋トレの効率を上げるには…そうね、",
+     "en": "To increase workout efficiency... well,",
+     "speaker": "Tsuzumi"
+    },
+    {
+     "start": 647.8,
+     "end": 650.0,
+     "ja": "筋トレ中に筋力が上がるのを加味すると、",
+     "en": "factoring in that your strength increases during training,",
+     "speaker": "Tsuzumi"
+    },
+    {
+     "start": 650.1,
+     "end": 654.0,
+     "ja": "動きにくさが70％くらいになるよう重量負荷をかけておくといいわ。",
+     "en": "it's best to encumber yourself so your encumbrance reaches about 70%.",
+     "speaker": "Tsuzumi"
+    },
+    {
+     "start": 654.3,
+     "end": 657.4,
+     "ja": "それでも筋力XPは50％が最大なんだね。",
+     "en": "Even so, strength XP caps at 50%, right?",
+     "speaker": "Sasara"
+    },
+    {
+     "start": 657.7,
+     "end": 661.8,
+     "ja": "そうね、重量負荷を上げれば上げるほど効率が上がるわけではないわ。",
+     "en": "Right, it's not like efficiency keeps increasing the heavier you make it.",
+     "speaker": "Tsuzumi"
+    }
+   ]
+  }
+ ],
+ "videoId": "CHAyanyBbmo",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

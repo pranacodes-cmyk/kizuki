@@ -1,0 +1,124 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.0,
+   "end": 38.6,
+   "title": "Morning Routine and Sunlight",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜て — sequence of actions",
+    "〜が見える — to be visible"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.3,
+     "end": 26.8,
+     "ja": "この日は朝６時に起きました。",
+     "en": "On this day, I woke up at 6:00 in the morning.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 28.8,
+     "end": 33.5,
+     "ja": "カーテンをあけて、日光をあびます。",
+     "en": "I open the curtains and soak in the sunlight.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 34.0,
+     "end": 38.2,
+     "ja": "空は晴れていて、窓からきれいな青空が見えました。",
+     "en": "The sky was clear, and I could see a beautiful blue sky from the window.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 176.5,
+   "end": 199.5,
+   "title": "The Four Seasons of Japan",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜と言う — called / said to be",
+    "〜または〜 — or"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 177.0,
+     "end": 187.5,
+     "ja": "日本には春、夏、秋、冬の４つの季節があります。",
+     "en": "Japan has four seasons: spring, summer, autumn, and winter.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 189.5,
+     "end": 199.0,
+     "ja": "この４つの季節のことを四季または春夏秋冬といいます。",
+     "en": "These four seasons are called 'shiki' or 'shunkashūtō'.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 274.5,
+   "end": 299.5,
+   "title": "Making Miso Soup for Breakfast",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ために — in order to",
+    "その間に — in the meantime",
+    "〜を使って — using"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 275.0,
+     "end": 279.0,
+     "ja": "まずは、おみそしるを作ります。",
+     "en": "First, I'll make miso soup.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 280.0,
+     "end": 284.8,
+     "ja": "だしをとるために、鍋にお水を入れて、",
+     "en": "To make the dashi stock, I put water into a pot,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 285.0,
+     "end": 289.0,
+     "ja": "昆布を入れてしばらくおいておきます。",
+     "en": "put in kombu seaweed, and leave it for a while.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 291.8,
+     "end": 299.0,
+     "ja": "そのあいだに、包丁を使って玉ねぎを切ります。",
+     "en": "In the meantime, I cut an onion using a kitchen knife.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "PweksFQGzmI",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

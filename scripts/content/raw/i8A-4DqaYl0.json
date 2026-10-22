@@ -1,0 +1,204 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 136.8,
+   "end": 156.2,
+   "title": "Rules Must Be Followed in Japan",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜ちゃう／〜っちゃ — emphasis / nuance of 'speaking of'",
+    "〜た上で — after doing",
+    "〜んやから — because (dialect)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 137.0,
+     "end": 141.6,
+     "ja": "別にこっち側としては受け入れ体制はしっかりやってるっちゃやってるわけじゃないですか。",
+     "en": "On our side, as a country, we have proper acceptance systems in place, don't we?",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 141.8,
+     "end": 144.6,
+     "ja": "仕事与えて、住むとこ住ましてあげて、",
+     "en": "Giving them jobs, giving them places to live,",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 144.6,
+     "end": 147.2,
+     "ja": "生活保護も支給してあげて。",
+     "en": "and providing welfare benefits.",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 147.2,
+     "end": 151.4,
+     "ja": "だったらお前らもここは日本なんやから、守るとこは守れよと思うっす。",
+     "en": "So since this is Japan, I feel like you should follow the rules you need to follow.",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 151.7,
+     "end": 155.8,
+     "ja": "アメリカでも中国でもスウェーデンでもないし、ここは日本やから。",
+     "en": "It's not America, China, or Sweden—this is Japan.",
+     "speaker": "Interviewee"
+    }
+   ]
+  },
+  {
+   "start": 230.8,
+   "end": 248.8,
+   "title": "Transparency in Tax Spending",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜ばいい — should / it would be good if",
+    "〜と思う — to think that"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 231.1,
+     "end": 236.7,
+     "ja": "多分みんなが思ってんのって、その俺らが払ってる税金をそういうのに使うなで、",
+     "en": "I think what everyone is feeling is, 'Don't use our tax money on that kind of thing,'",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 236.7,
+     "end": 237.9,
+     "ja": "多分なってると思うんすよ。",
+     "en": "and that's what's happening.",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 237.9,
+     "end": 240.7,
+     "ja": "だから根本、税金の使われてる不透明さっていうか、",
+     "en": "So basically, the lack of transparency in how taxes are used...",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 240.7,
+     "end": 243.8,
+     "ja": "そこをもっとクリーンにしてから言えばいいんじゃないのと思うんすけど。",
+     "en": "I think they should clean that up first before speaking on it.",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 244.2,
+     "end": 248.3,
+     "ja": "一概にそこだけクローズアップしても、話進まへんと思うんで。",
+     "en": "Focusing solely on that won't move the conversation forward anyway.",
+     "speaker": "Interviewee"
+    }
+   ]
+  },
+  {
+   "start": 264.4,
+   "end": 288.0,
+   "title": "Politicians Sleeping in Parliament",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜たり〜たり — doing things like",
+    "〜て・で — reason / cause",
+    "〜て言われて — being told to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 264.6,
+     "end": 266.1,
+     "ja": "政治家に言いたいこと？",
+     "en": "What do I want to say to politicians?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 266.2,
+     "end": 270.1,
+     "ja": "政治家さんが議会中に居眠りしてたりとか、",
+     "en": "Politicians dozing off during parliamentary sessions,",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 270.1,
+     "end": 272.3,
+     "ja": "さっき言ってた税金の不透明さだったり、",
+     "en": "or that lack of tax transparency I mentioned earlier,",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 272.3,
+     "end": 274.0,
+     "ja": "いろんなところあるじゃないですか。",
+     "en": "there are all sorts of issues, right?",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 274.0,
+     "end": 276.4,
+     "ja": "ええ年したおっさんおばはんが、",
+     "en": "Grown-ass middle-aged men and women,",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 276.4,
+     "end": 278.2,
+     "ja": "人の話聞くときに寝てるって、",
+     "en": "sleeping when they're supposed to be listening to people—",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 278.2,
+     "end": 280.3,
+     "ja": "どないなんとは思うっすよね。",
+     "en": "what's up with that, honestly?",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 280.4,
+     "end": 283.0,
+     "ja": "僕の妹の中学校３年生でも、",
+     "en": "Even my sister in third year of middle school,",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 283.0,
+     "end": 284.6,
+     "ja": "「授業中寝るな」って言われて、",
+     "en": "when told not to sleep during class,",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 284.6,
+     "end": 287.5,
+     "ja": "寝えへんと授業受けるって誰でもできるんで。",
+     "en": "anyone can stay awake and listen to the lesson.",
+     "speaker": "Interviewee"
+    }
+   ]
+  }
+ ],
+ "videoId": "i8A-4DqaYl0",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

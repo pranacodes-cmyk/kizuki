@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 184.8,
+   "end": 204.5,
+   "title": "Searching for the Yakiniku Spot",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜てくる — come to / emerge",
+    "〜てある — state resulting from action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 184.9,
+     "end": 187.8,
+     "ja": "味が良くて早い、そしてお得。",
+     "en": "Tasty, quick, and great value.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 187.9,
+     "end": 190.7,
+     "ja": "その焼肉店とは？",
+     "en": "What is this yakiniku restaurant?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 191.2,
+     "end": 194.2,
+     "ja": "あ、焼肉ライクが出てきました。",
+     "en": "Ah, Yakiniku Like came up.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 199.0,
+     "end": 204.0,
+     "ja": "確かに、あの３つの言葉が書いてありました。",
+     "en": "Indeed, those three words were written there.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 366.0,
+   "end": 380.5,
+   "title": "Secret Behind the Unique Burger Bun",
+   "level": "N3",
+   "topics": [
+    "food",
+    "work"
+   ],
+   "grammar": [
+    "〜ちゃう — end up doing",
+    "〜んで — because / explanation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 366.4,
+     "end": 369.1,
+     "ja": "うちのバンズ、あの白いふわふわのバンズなんで、",
+     "en": "Our buns are white and fluffy, so...",
+     "speaker": "Manager"
+    },
+    {
+     "start": 369.2,
+     "end": 371.9,
+     "ja": "吸っちゃうとどんどん沈んでいっちゃうんですよ。",
+     "en": "Once they soak up juices, they sink right down.",
+     "speaker": "Manager"
+    },
+    {
+     "start": 372.0,
+     "end": 374.5,
+     "ja": "だから半分で切ると、下がぺちゃんこになっちゃうんで、",
+     "en": "So if we cut them in half, the bottom gets crushed,",
+     "speaker": "Manager"
+    },
+    {
+     "start": 374.5,
+     "end": 377.1,
+     "ja": "半分より上の位置で切るような。",
+     "en": "so we cut them above the midpoint.",
+     "speaker": "Manager"
+    },
+    {
+     "start": 377.1,
+     "end": 379.8,
+     "ja": "基本的にはうちしかないと思います。",
+     "en": "I think we are basically the only place that does this.",
+     "speaker": "Manager"
+    }
+   ]
+  },
+  {
+   "start": 521.0,
+   "end": 537.0,
+   "title": "Manuka Honey Daifuku Sweet",
+   "level": "N3",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜で買える — potential form",
+    "〜んだそう — hearsay / heard that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 521.2,
+     "end": 526.3,
+     "ja": "こちらのお店で買えるのは、マヌカハニーをブレンドした特製のクリームとあんこを、",
+     "en": "What you can buy at this shop is special cream blended with manuka honey and red bean paste,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 526.5,
+     "end": 530.0,
+     "ja": "お餅で包んだ大福。",
+     "en": "wrapped in mochi as a daifuku.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 531.5,
+     "end": 536.5,
+     "ja": "アメリカから来た男性は、日本のアニメで大福を知ったんだそう。",
+     "en": "The man from America reportedly learned about daifuku through Japanese anime.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "Jrto3YGJZVI",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

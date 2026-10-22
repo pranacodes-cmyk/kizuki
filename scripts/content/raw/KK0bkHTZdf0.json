@@ -1,0 +1,138 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.2,
+   "end": 14.7,
+   "title": "Making Karaage with Less Oil",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜でできる — can be made with",
+    "〜ましょう — let's do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.5,
+     "end": 6.0,
+     "ja": "こんにちは。",
+     "en": "Hello.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 6.2,
+     "end": 9.5,
+     "ja": "今回は、少ない油で簡単にできる",
+     "en": "This time, we're making fried chicken",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 9.5,
+     "end": 12.3,
+     "ja": "鶏の唐揚げです。",
+     "en": "that can be easily made with just a little oil.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 12.7,
+     "end": 14.5,
+     "ja": "では、一緒に作りましょう。",
+     "en": "Now, let's make it together.",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 28.5,
+   "end": 42.4,
+   "title": "Seasoning the Chicken",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜を入れる — to put in",
+    "〜てもいい — even if / also good to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 28.8,
+     "end": 33.2,
+     "ja": "醤油大さじ２を入れます。",
+     "en": "Add two tablespoons of soy sauce.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 33.7,
+     "end": 35.8,
+     "ja": "混ぜます。",
+     "en": "Mix it well.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 37.0,
+     "end": 39.8,
+     "ja": "生姜、にんにくをすりおろして",
+     "en": "It's also delicious if you grate some ginger and garlic",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 39.8,
+     "end": 42.0,
+     "ja": "入れても美味しいです。",
+     "en": "and add that too.",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 150.5,
+   "end": 201.0,
+   "title": "Finished Karaage",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜におすすめ — recommended for",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 150.8,
+     "end": 152.4,
+     "ja": "出来上がりです。",
+     "en": "It's all done.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 154.5,
+     "end": 158.1,
+     "ja": "ご飯のおかずや、お弁当におすすめです。",
+     "en": "It's great as a side dish for rice or for bento lunch boxes.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 158.4,
+     "end": 200.6,
+     "ja": "ぜひ作ってみてください。",
+     "en": "Please be sure to try making it.",
+     "speaker": "Akiko"
+    }
+   ]
+  }
+ ],
+ "videoId": "KK0bkHTZdf0",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

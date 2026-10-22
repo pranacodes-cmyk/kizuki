@@ -1,0 +1,128 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 12.8,
+   "title": "The Beginning of the Nara Period",
+   "level": "N3",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜によって — by means of / due to",
+    "〜始める — to begin doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 5.4,
+     "ja": "奈良時代は、藤原京から平城京への遷都によって始まりました。",
+     "en": "The Nara period began with the relocation of the capital from Fujiwara-kyo to Heijo-kyo.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 5.6,
+     "end": 8.2,
+     "ja": "平城京は現在の奈良市にあたり、",
+     "en": "Heijo-kyo corresponds to present-day Nara City,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 8.4,
+     "end": 12.6,
+     "ja": "日本はここで本格的な律令国家への道を歩み始めたのです。",
+     "en": "and it was here that Japan began embarking on a path toward a full-fledged Ritsuryo state.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 248.5,
+   "end": 304.0,
+   "title": "Emperor Shomu Turns to Buddhism",
+   "level": "N3",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜なければ — must / have to",
+    "〜よう — expressing intention / volition"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 248.5,
+     "end": 254.4,
+     "ja": "このような状況の中、聖武天皇は「社会不安が広がっている、何とかしなければ」と考えます。",
+     "en": "In this situation, Emperor Shomu thought, 'Social unrest is spreading, we must do something.'",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 254.6,
+     "end": 257.1,
+     "ja": "そしてたどり着いたのが、仏教でした。",
+     "en": "And what he arrived at was Buddhism.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 257.3,
+     "end": 260.0,
+     "ja": "「仏教の力で国家を安定させよう」。",
+     "en": "'Let us stabilize the state through the power of Buddhism.'",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 260.1,
+     "end": 263.8,
+     "ja": "そのような発想のもと、巨大な仏像の建設を決定したのです。",
+     "en": "With that idea in mind, he decided to construct a giant Buddha statue.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 425.5,
+   "end": 436.8,
+   "title": "Birth of the Heian Period",
+   "level": "N3",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜をもって — at / with (formal marker)",
+    "〜ことになる — to come to pass / to be decided"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 425.7,
+     "end": 429.6,
+     "ja": "こうして誕生したのが平安京、現在の京都にあたる場所です。",
+     "en": "Thus, Heian-kyo was born, a location corresponding to present-day Kyoto.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 429.8,
+     "end": 432.8,
+     "ja": "この遷都をもって、奈良時代は幕を下ろし、",
+     "en": "With this capital relocation, the curtain fell on the Nara period,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 433.0,
+     "end": 436.5,
+     "ja": "新たな時代である平安時代が始まることになりました。",
+     "en": "and the new era known as the Heian period began.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "a-EqZb_Mpvk",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

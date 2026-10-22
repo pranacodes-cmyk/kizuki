@@ -1,0 +1,195 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 19.5,
+   "end": 48.8,
+   "title": "Textbook Japanese Sentences",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜ています — ongoing state/action",
+    "〜でした — past polite copula"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 20.0,
+     "end": 23.5,
+     "ja": "私は、学生です。",
+     "en": "I am a student.",
+     "speaker": "Ayu"
+    },
+    {
+     "start": 24.0,
+     "end": 28.5,
+     "ja": "今日は、雨が降っています。",
+     "en": "It is raining today.",
+     "speaker": "Ayu"
+    },
+    {
+     "start": 29.0,
+     "end": 33.0,
+     "ja": "昨日は、晴れでした。",
+     "en": "Yesterday was sunny.",
+     "speaker": "Ayu"
+    },
+    {
+     "start": 33.6,
+     "end": 44.5,
+     "ja": "昨日、私は水族館に行って、たくさん魚を見ました。",
+     "en": "Yesterday, I went to the aquarium and saw a lot of fish.",
+     "speaker": "Ayu"
+    },
+    {
+     "start": 45.0,
+     "end": 48.2,
+     "ja": "とても綺麗でした。",
+     "en": "It was very beautiful.",
+     "speaker": "Ayu"
+    }
+   ]
+  },
+  {
+   "start": 98.7,
+   "end": 130.6,
+   "title": "How Friends Actually Talk in Japanese",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜じゃん — isn't it? (seeking agreement)",
+    "〜た方がいい — you should / had better"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 99.0,
+     "end": 104.5,
+     "ja": "昨日さー、水族館に行ったんだけどね、",
+     "en": "So yesterday, I went to the aquarium, you know?",
+     "speaker": "Ayu"
+    },
+    {
+     "start": 105.0,
+     "end": 108.3,
+     "ja": "すっごい綺麗だったよー！",
+     "en": "It was so beautiful!",
+     "speaker": "Ayu"
+    },
+    {
+     "start": 108.8,
+     "end": 115.5,
+     "ja": "なんか…あそこの水族館ってさー、結構有名じゃん？",
+     "en": "Like... that aquarium is pretty famous, right?",
+     "speaker": "Ayu"
+    },
+    {
+     "start": 115.8,
+     "end": 122.5,
+     "ja": "でもね、みんな高いって言うけどさ、んーなんか、行ってよかったと思うんだよねー。",
+     "en": "Everyone says it's expensive, but, well, I'm really glad I went.",
+     "speaker": "Ayu"
+    },
+    {
+     "start": 123.0,
+     "end": 126.3,
+     "ja": "ほんと綺麗だったのー。",
+     "en": "It was truly beautiful.",
+     "speaker": "Ayu"
+    },
+    {
+     "start": 126.8,
+     "end": 130.3,
+     "ja": "だからさ、行った方がいいよー！ぜったい！！",
+     "en": "So you should definitely go! Absolutely!",
+     "speaker": "Ayu"
+    }
+   ]
+  },
+  {
+   "start": 264.1,
+   "end": 287.0,
+   "title": "Using the Filler 'Ne' in Japanese",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜てもらう — receive an action as a favor",
+    "〜んだ — explanatory nuance"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 264.4,
+     "end": 266.8,
+     "ja": "私ね、",
+     "en": "You know, I...",
+     "speaker": "Ayu"
+    },
+    {
+     "start": 267.0,
+     "end": 269.4,
+     "ja": "昨日ね、",
+     "en": "yesterday, you know,",
+     "speaker": "Ayu"
+    },
+    {
+     "start": 269.7,
+     "end": 272.9,
+     "ja": "お母さんとね、",
+     "en": "with my mom,",
+     "speaker": "Ayu"
+    },
+    {
+     "start": 273.2,
+     "end": 275.5,
+     "ja": "買い物にね、",
+     "en": "went shopping,",
+     "speaker": "Ayu"
+    },
+    {
+     "start": 275.8,
+     "end": 277.8,
+     "ja": "行ったよ。",
+     "en": "you know.",
+     "speaker": "Ayu"
+    },
+    {
+     "start": 278.4,
+     "end": 280.8,
+     "ja": "それでね、",
+     "en": "And then,",
+     "speaker": "Ayu"
+    },
+    {
+     "start": 281.0,
+     "end": 283.4,
+     "ja": "お菓子をね、",
+     "en": "snacks,",
+     "speaker": "Ayu"
+    },
+    {
+     "start": 283.7,
+     "end": 286.5,
+     "ja": "買ってもらったんだよ。",
+     "en": "she bought me snacks!",
+     "speaker": "Ayu"
+    }
+   ]
+  }
+ ],
+ "videoId": "EOm4WL7MngI",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

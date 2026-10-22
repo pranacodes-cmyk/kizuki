@@ -1,0 +1,130 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 8.8,
+   "end": 26.2,
+   "title": "Black Diamonds of the Past",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていた — past continuous/state",
+    "〜と呼ばれる — to be called"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.0,
+     "end": 12.7,
+     "ja": "昔この地域は石炭で栄えていたんだよ。",
+     "en": "In the past, this region flourished from coal.",
+     "speaker": "Farmer"
+    },
+    {
+     "start": 12.9,
+     "end": 15.3,
+     "ja": "石炭は黒いダイヤと呼ばれていたんだよ！",
+     "en": "Coal was called 'black diamonds'!",
+     "speaker": "Farmer"
+    },
+    {
+     "start": 21.8,
+     "end": 25.8,
+     "ja": "石炭運搬、そして地域住民の足として活躍。",
+     "en": "It served to transport coal, and as vital transit for local residents.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 29.5,
+   "end": 51.5,
+   "title": "Times Change to Red Diamonds",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜になる — to become",
+    "〜なら — if it's the case that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 29.8,
+     "end": 31.7,
+     "ja": "時代は変わり。",
+     "en": "Times changed.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 32.4,
+     "end": 35.3,
+     "ja": "今この地域はリンゴの生産地になったのさ！",
+     "en": "Now this region has become an apple-producing area!",
+     "speaker": "Farmer"
+    },
+    {
+     "start": 35.4,
+     "end": 37.4,
+     "ja": "赤いダイヤだよ！！",
+     "en": "They are red diamonds!!",
+     "speaker": "Farmer"
+    },
+    {
+     "start": 47.4,
+     "end": 50.7,
+     "ja": "お前なら、どっちの時代に幸せを感じる？",
+     "en": "Which era would make you feel happier?",
+     "speaker": "Farmer"
+    }
+   ]
+  },
+  {
+   "start": 102.0,
+   "end": 115.0,
+   "title": "Caught Red-Handed",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "animals"
+   ],
+   "grammar": [
+    "〜な — do not (prohibition)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 102.5,
+     "end": 105.1,
+     "ja": "犯人は？…お前か！！",
+     "en": "The culprit is...? You?!",
+     "speaker": "Farmer"
+    },
+    {
+     "start": 107.9,
+     "end": 109.9,
+     "ja": "やっぱり黒だ！",
+     "en": "He really is guilty!",
+     "speaker": "Farmer"
+    },
+    {
+     "start": 112.0,
+     "end": 114.4,
+     "ja": "畑荒らすな！！",
+     "en": "Don't ruin the fields!!",
+     "speaker": "Farmer"
+    }
+   ]
+  }
+ ],
+ "videoId": "JQ8Yg1ax3u8",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

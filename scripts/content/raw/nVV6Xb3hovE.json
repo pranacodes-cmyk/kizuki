@@ -1,0 +1,117 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.5,
+   "end": 22.8,
+   "title": "Haul Introduction from Seria",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていく — to do going forward",
+    "〜ましょう — let's do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.8,
+     "end": 16.0,
+     "ja": "今回はですね、セリアで購入した商品の紹介をしていきたいと思います。",
+     "en": "Today, I'd like to introduce the items I bought at Seria.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 16.0,
+     "end": 20.3,
+     "ja": "で、約30点あって、シールや紙ものが多めになっています。",
+     "en": "There are about 30 items, with a lot of stickers and paper goods.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 20.3,
+     "end": 22.5,
+     "ja": "それでは早速始めていきましょう。",
+     "en": "So, let's get started right away.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 172.2,
+   "end": 184.2,
+   "title": "Cute Bunny Sticky Notes",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜てある — resulting state",
+    "〜となっている — in the state of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 172.5,
+     "end": 180.3,
+     "ja": "でね、絵柄はアイスとうさぎちゃんが3羽描いてあって、すごいね、ドリーミーで可愛い色味となっています。",
+     "en": "The pattern has ice cream and three bunnies drawn on it, with really dreamy and cute colors.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 180.5,
+     "end": 183.8,
+     "ja": "で、上の方にのりが付いてるタイプです。",
+     "en": "And it's the type that has glue along the top.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 254.3,
+   "end": 271.3,
+   "title": "Wrapping Up the Haul",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜になります — polite copula",
+    "〜たのが — nominalization of past event"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 254.5,
+     "end": 258.6,
+     "ja": "はい、セリアの購入品紹介は以上になります。",
+     "en": "Alright, that concludes my Seria haul introduction.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 258.9,
+     "end": 265.0,
+     "ja": "今回もたくさん紹介しましたが、皆様の中で気になった商品はありましたでしょうか？",
+     "en": "I shared a lot today, but was there any item that caught your eye?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 265.5,
+     "end": 270.9,
+     "ja": "個人的にはですね、シールの「おすそ分け台紙」を発見できたのがものすごく嬉しかったです。",
+     "en": "Personally, I was super happy to find the sticker-sharing backing sheets.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "nVV6Xb3hovE",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

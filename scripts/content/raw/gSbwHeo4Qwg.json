@@ -1,0 +1,238 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 57.5,
+   "end": 76.8,
+   "title": "Asking About the Bread",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていく — to do and go",
+    "〜とか — things like ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 57.8,
+     "end": 59.5,
+     "ja": "これ、なんて言うんですか？",
+     "en": "What is this called?",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 59.8,
+     "end": 61.2,
+     "ja": "えっと、「カンパーニュ」です。",
+     "en": "Um, it's 'campagne'.",
+     "speaker": "Shopkeeper"
+    },
+    {
+     "start": 61.4,
+     "end": 63.3,
+     "ja": "カンパーニュ？へ〜！",
+     "en": "Campagne? I see!",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 63.6,
+     "end": 67.8,
+     "ja": "えっと、お水と小麦粉で作るものなので、",
+     "en": "Well, it's made with just water and flour,",
+     "speaker": "Shopkeeper"
+    },
+    {
+     "start": 68.4,
+     "end": 70.4,
+     "ja": "これも、一応ビーガンの人とか、",
+     "en": "so vegans,",
+     "speaker": "Shopkeeper"
+    },
+    {
+     "start": 70.6,
+     "end": 74.3,
+     "ja": "こういうの気にする方はこのカンパーニュのほう買って行ったりしますね。",
+     "en": "and people mindful of that sort of thing tend to buy this.",
+     "speaker": "Shopkeeper"
+    },
+    {
+     "start": 74.5,
+     "end": 76.5,
+     "ja": "あ〜！そっか！バターとか使っていないんですね。",
+     "en": "Ah! I see! You didn't use butter or anything.",
+     "speaker": "Naoko"
+    }
+   ]
+  },
+  {
+   "start": 180.0,
+   "end": 207.5,
+   "title": "Ordering at the Cafe",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜でお願いします — ~ please",
+    "〜たっけ — was it ... again?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 180.3,
+     "end": 181.8,
+     "ja": "すみません、お願いします。",
+     "en": "Excuse me, I'd like to order.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 182.2,
+     "end": 185.7,
+     "ja": "カフェラテのレギュラーサイズひとつと、",
+     "en": "One regular size cafe latte, and...",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 186.4,
+     "end": 187.9,
+     "ja": "アイスとホット、どちらがよろしいですか？",
+     "en": "Would you like that iced or hot?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 188.4,
+     "end": 190.5,
+     "ja": "アイスでおねがいします。",
+     "en": "Iced, please.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 191.0,
+     "end": 193.3,
+     "ja": "あと、スコーンの、",
+     "en": "Also, for the scones...",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 193.7,
+     "end": 197.3,
+     "ja": "「人気NO.2」って書いてあるのはプレーンでしたっけ？",
+     "en": "was the plain one listed as number two most popular?",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 197.6,
+     "end": 198.5,
+     "ja": "プレーンです。",
+     "en": "Yes, plain.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 198.8,
+     "end": 200.7,
+     "ja": "じゃあ、プレーンひとつ、おねがいします。",
+     "en": "Then I'll have one plain scone, please.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 201.2,
+     "end": 202.4,
+     "ja": "以上でよろしいですか？",
+     "en": "Will that be all?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 202.6,
+     "end": 204.0,
+     "ja": "はい。以上です。",
+     "en": "Yes, that's all.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 204.3,
+     "end": 206.2,
+     "ja": "お会計が650円になりますね。",
+     "en": "Your total comes to 650 yen.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 206.4,
+     "end": 207.2,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Naoko"
+    }
+   ]
+  },
+  {
+   "start": 290.0,
+   "end": 308.8,
+   "title": "Beware of Habu Snakes",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜てある — is in a state of having been done",
+    "〜らしい — it seems / I heard that",
+    "〜たことがある — to have experienced"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 290.5,
+     "end": 294.0,
+     "ja": "見てください！「ハブ注意」って書いてあります。",
+     "en": "Look! It says 'Caution: Habu'.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 295.2,
+     "end": 298.5,
+     "ja": "ハブはこれです。このへび？",
+     "en": "A habu is this. This snake?",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 299.7,
+     "end": 300.9,
+     "ja": "へぇー。",
+     "en": "Huh.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 301.2,
+     "end": 303.4,
+     "ja": "なんか、ハブは毒をもっているから、",
+     "en": "Apparently habu have venom,",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 303.7,
+     "end": 305.8,
+     "ja": "結構あぶないらしいです。",
+     "en": "so they're pretty dangerous.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 306.4,
+     "end": 308.5,
+     "ja": "私はまだ見たことがありません。",
+     "en": "I haven't seen one yet.",
+     "speaker": "Naoko"
+    }
+   ]
+  }
+ ],
+ "videoId": "gSbwHeo4Qwg",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

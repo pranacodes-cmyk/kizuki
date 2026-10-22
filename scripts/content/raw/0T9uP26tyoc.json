@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 26.8,
+   "end": 50.0,
+   "title": "Fresh Tamagoyaki at Tsukiji Yamacho",
+   "level": "N3",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜ことができる — can do / able to",
+    "〜てしまう — end up doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 27.0,
+     "end": 32.5,
+     "ja": "こちらは、甘くて美味しい玉子焼きをいただけるお店、山長です。",
+     "en": "This is Yamacho, a shop where you can enjoy delicious, sweet tamagoyaki.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 33.2,
+     "end": 38.0,
+     "ja": "いつも行列ですが、回転が早いので、スムーズに買うことができます。",
+     "en": "There's always a line, but turnover is fast, so you can buy it smoothly.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 39.8,
+     "end": 42.8,
+     "ja": "お店で焼きたてを提供していて、",
+     "en": "They serve it freshly made at the shop,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 43.1,
+     "end": 46.4,
+     "ja": "築地を訪れたら必ず食べてしまうほど、",
+     "en": "and it's so delicious I can't resist eating it",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 46.5,
+     "end": 49.5,
+     "ja": "美味しくて大好きな玉子焼きです。",
+     "en": "every time I visit Tsukiji; I just love it.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 123.0,
+   "end": 148.2,
+   "title": "Grilled Tuna Skewer at Tonboya",
+   "level": "N3",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜てほしい — want someone to do",
+    "〜ことがある — sometimes occurs"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 123.4,
+     "end": 127.3,
+     "ja": "いつも行列ができていて、すぐ完売してしまうこともあるので、",
+     "en": "There's always a line and it sometimes sells out quickly,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 127.4,
+     "end": 130.8,
+     "ja": "早い時間帯に行くことをおすすめします。",
+     "en": "so I recommend going early.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 131.2,
+     "end": 133.5,
+     "ja": "こちらが、まぐろステーキです。",
+     "en": "Here is the tuna steak skewer.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 134.0,
+     "end": 136.8,
+     "ja": "レモンと黒胡椒をかけていただきます。",
+     "en": "You eat it topped with lemon and black pepper.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 137.4,
+     "end": 142.3,
+     "ja": "外はこんがり焼かれていますが、中は少しレアになっていて、",
+     "en": "The outside is nicely browned, but the inside is slightly rare,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 142.7,
+     "end": 144.6,
+     "ja": "とってもジューシーで絶品なので、",
+     "en": "making it super juicy and exquisite,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 144.8,
+     "end": 147.7,
+     "ja": "食べたことない方はぜひ食べてみてほしいです。",
+     "en": "so if you've never tried it, you definitely should.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 222.0,
+   "end": 244.2,
+   "title": "Thick Tuna Rolls at Kurogin",
+   "level": "N3",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜ていただく — to have someone do",
+    "〜てたまらない — can't resist / irresistibly"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 222.3,
+     "end": 224.8,
+     "ja": "こちらが、マグロールです。",
+     "en": "This is the tuna roll.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 225.8,
+     "end": 229.8,
+     "ja": "ここのマグロは新鮮で、とっても肉厚です。",
+     "en": "The tuna here is fresh and very thickly cut.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 230.3,
+     "end": 235.3,
+     "ja": "臭みなどは一切なく、マグロ本来の味を味わっていただきたいので、",
+     "en": "It has no fishy smell at all, and to appreciate the pure tuna flavor,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 235.6,
+     "end": 238.8,
+     "ja": "お醤油は少しだけかけるのがおすすめです。",
+     "en": "I recommend adding just a tiny bit of soy sauce.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 240.0,
+     "end": 243.8,
+     "ja": "本当、美味しくてたまらないので、ぜひ食べてみてください。",
+     "en": "It's truly irresistibly delicious, so please give it a try.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "0T9uP26tyoc",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

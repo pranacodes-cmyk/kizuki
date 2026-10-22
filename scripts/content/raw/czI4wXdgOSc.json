@@ -1,0 +1,153 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 123.9,
+   "end": 152.5,
+   "title": "Sleeper Train to Laos",
+   "level": "N5",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "〜には — in/on",
+    "〜て — chronological connection",
+    "〜に着く — arrive at"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 124.2,
+     "end": 127.0,
+     "ja": "見てください。",
+     "en": "Please take a look.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 127.0,
+     "end": 131.5,
+     "ja": "この電車にはベッドがあります。",
+     "en": "This train has beds.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 132.0,
+     "end": 139.0,
+     "ja": "この電車は夜の9時にバンコクを出て、",
+     "en": "This train leaves Bangkok at 9 PM,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 139.5,
+     "end": 145.8,
+     "ja": "朝の9時にラオスに着きます。",
+     "en": "and arrives in Laos at 9 AM.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 146.5,
+     "end": 152.0,
+     "ja": "私は電車の中で寝ました。",
+     "en": "I slept inside the train.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 363.0,
+   "end": 392.5,
+   "title": "A Dog or a Cow?",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "travel",
+    "comedy"
+   ],
+   "grammar": [
+    "〜と思う — to think that",
+    "なぜなら〜から — because"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 363.2,
+     "end": 366.0,
+     "ja": "これを見てください。",
+     "en": "Look at this.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 366.2,
+     "end": 369.2,
+     "ja": "これは何ですか？",
+     "en": "What is this?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 369.8,
+     "end": 373.2,
+     "ja": "これは牛です。",
+     "en": "This is a cow.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 373.8,
+     "end": 383.0,
+     "ja": "私は最初、これは大きい犬だと思いました。",
+     "en": "At first, I thought this was a big dog.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 383.6,
+     "end": 392.0,
+     "ja": "なぜならラオスには犬がたくさんいるからです。",
+     "en": "That's because there are lots of dogs in Laos.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 426.0,
+   "end": 455.3,
+   "title": "Trying Lao Rice Noodles",
+   "level": "N5",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜という — called / named",
+    "〜で作られている — made of/from"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 426.3,
+     "end": 436.5,
+     "ja": "次の日はラオス料理のクワイティアオを食べました。",
+     "en": "The next day, I ate Lao kuay teow.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 436.9,
+     "end": 444.0,
+     "ja": "これはラオスのクワイティアオという料理です。",
+     "en": "This is a Lao dish called kuay teow.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 444.4,
+     "end": 454.8,
+     "ja": "クワイティアオの麺は米で作られています。",
+     "en": "Kuay teow noodles are made from rice.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "czI4wXdgOSc",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

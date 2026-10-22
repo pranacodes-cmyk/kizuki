@@ -1,0 +1,107 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.2,
+   "end": 15.8,
+   "title": "A Girl Who Exists Only in Memory",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜はずだ — should be / supposed to be",
+    "〜ちゃう — unintentionally / completely do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.5,
+     "end": 9.8,
+     "ja": "記憶の中にしか存在しないはずの彼女が、突然、目の前に現れた。",
+     "en": "She, who was only supposed to exist in my memories, suddenly appeared before me.",
+     "speaker": "Chihiro"
+    },
+    {
+     "start": 9.9,
+     "end": 11.0,
+     "ja": "君は誰だ？",
+     "en": "Who are you?",
+     "speaker": "Chihiro"
+    },
+    {
+     "start": 11.2,
+     "end": 13.5,
+     "ja": "幼馴染のこと、忘れちゃった？",
+     "en": "Did you forget about your childhood friend?",
+     "speaker": "Toka"
+    },
+    {
+     "start": 13.8,
+     "end": 15.5,
+     "ja": "君は偽の記憶の中の人だ。",
+     "en": "You're a person from a fake memory.",
+     "speaker": "Chihiro"
+    }
+   ]
+  },
+  {
+   "start": 18.0,
+   "end": 29.8,
+   "title": "The Words I Wanted to Hear",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "〜てみる — try doing something",
+    "〜な — do not (prohibition)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 18.3,
+     "end": 20.5,
+     "ja": "でも、思い出があふれて止まらへんのやろ？",
+     "en": "Still, memories keep flooding back and won't stop, right?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 20.7,
+     "end": 21.8,
+     "ja": "ちーくん！",
+     "en": "Chi-kun!",
+     "speaker": "Toka"
+    },
+    {
+     "start": 22.0,
+     "end": 24.0,
+     "ja": "そんなら、その子に騙されてみれば？",
+     "en": "Then why don't you just let yourself be tricked by her?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 24.5,
+     "end": 26.8,
+     "ja": "泣くなって。そばにいるから。",
+     "en": "Don't cry. I'm right here beside you.",
+     "speaker": "Chihiro"
+    },
+    {
+     "start": 27.0,
+     "end": 29.5,
+     "ja": "私が欲しい言葉、分かっちゃうんだね。",
+     "en": "You know exactly the words I want to hear, don't you?",
+     "speaker": "Toka"
+    }
+   ]
+  }
+ ],
+ "videoId": "l6AIPOMpjdc",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

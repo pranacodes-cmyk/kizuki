@@ -1,0 +1,9 @@
+{
+ "speech": "some",
+ "clips": [],
+ "videoId": "Q68cc5No4Z4",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

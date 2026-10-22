@@ -1,0 +1,142 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 7.2,
+   "end": 23.8,
+   "title": "Neymar and Ronaldo Visit Japan",
+   "level": "N3",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜を擁する — featuring / boasting",
+    "〜している — resultant state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 7.5,
+     "end": 13.1,
+     "ja": "ブラジルの至宝、ネイマールを擁するパリ・サンジェルマンが来日。",
+     "en": "Paris Saint-Germain, featuring Brazil's national treasure Neymar, has arrived in Japan.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 13.3,
+     "end": 16.3,
+     "ja": "そのネイマールと対戦するのが、",
+     "en": "And facing that very Neymar is...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 16.5,
+     "end": 23.5,
+     "ja": "世界最優秀選手、バロンドールを5度受賞しているクリスティアーノ・ロナウド。",
+     "en": "Cristiano Ronaldo, five-time Ballon d'Or winner as the world's best player.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 54.5,
+   "end": 115.0,
+   "title": "Ronaldo's Stats at Al-Nassr",
+   "level": "N3",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜ているのは — cleft sentence (the one that...)",
+    "〜後 — after"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 55.3,
+     "end": 59.2,
+     "ja": "現在所属しているのはサウジアラビアのアル・ナスル。",
+     "en": "He currently plays for Saudi Arabia's Al-Nassr.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 101.0,
+     "end": 104.8,
+     "ja": "年俸はなんと、およそ298億円。",
+     "en": "His annual salary is an astounding approximately 29.8 billion yen.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 106.0,
+     "end": 109.9,
+     "ja": "加入後は出場16試合で14ゴール。",
+     "en": "Since joining, he has scored 14 goals in 16 appearances.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 110.5,
+     "end": 114.5,
+     "ja": "圧倒的な得点力は健在。",
+     "en": "His overwhelming scoring ability is alive and well.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 143.5,
+   "end": 208.8,
+   "title": "Ronaldo's Most Developed Muscle",
+   "level": "N2",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜たら — condition / if",
+    "〜こと — nominalizer (doing...)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 143.8,
+     "end": 147.8,
+     "ja": "体の中で最も自信がある筋肉はどこですか？",
+     "en": "Which muscle in your body are you most confident in?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 148.4,
+     "end": 153.3,
+     "ja": "自分の体で一番発達しているのはマインドの部分だと思う。",
+     "en": "I think the most developed part of my body is the mind.",
+     "speaker": "Ronaldo"
+    },
+    {
+     "start": 153.9,
+     "end": 158.6,
+     "ja": "心と体がバラバラだったら全力で鍛えることはできない。",
+     "en": "If your mind and body are disconnected, you can't train with full effort.",
+     "speaker": "Ronaldo"
+    },
+    {
+     "start": 158.8,
+     "end": 204.3,
+     "ja": "最も大事なのはバランスの取れたマインドを整えること。",
+     "en": "The most important thing is cultivating a balanced mindset.",
+     "speaker": "Ronaldo"
+    },
+    {
+     "start": 204.5,
+     "end": 208.4,
+     "ja": "それが全てに応用が利く筋トレになるんだ。",
+     "en": "That becomes the strength training that applies to everything.",
+     "speaker": "Ronaldo"
+    }
+   ]
+  }
+ ],
+ "videoId": "Vt22vVDz1kw",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -12,6 +12,8 @@ type Props = {
   time: number;
   settings: Settings;
   statusOf: (w: Word) => TokenStatus;
+  /** Level of a saved word (1–4 while learning): its underline fades from orange to brown. */
+  levelOf?: (w: Word) => number | null;
   selected: { line: number; idx: number } | null;
   onWord: (line: number, idx: number) => void;
   onLine: (line: number) => void;
@@ -28,7 +30,7 @@ export function activeLineIndex(clip: Clip, t: number) {
 }
 
 /** Interactive transcript: furigana, romaji, translation, status underlines and karaoke highlight. */
-export const Transcript = memo(function Transcript({ clip, time, settings, statusOf, selected, onWord, onLine, onLineMenu, tourWord }: Props) {
+export const Transcript = memo(function Transcript({ clip, time, settings, statusOf, levelOf, selected, onWord, onLine, onLineMenu, tourWord }: Props) {
   const current = activeLineIndex(clip, time);
   const scale = settings.textSize;
   return (
@@ -52,6 +54,7 @@ export const Transcript = memo(function Transcript({ clip, time, settings, statu
                     w={w}
                     trail={trail}
                     status={w.p === "punct" ? "known" : statusOf(w)}
+                    level={w.p === "punct" ? null : levelOf?.(w) ?? null}
                     speaking={settings.highlight && active && time >= w.t0 && time < w.t1 && w.p !== "punct"}
                     selected={selected?.line === li && selected.idx === wi}
                     furigana={settings.furigana}
@@ -88,8 +91,10 @@ export function groupTokens(words: Word[]) {
   return out;
 }
 
-function Token({ w, trail, status, speaking, selected, furigana, romaji, onTap, tour }: { w: Word; trail: string; status: TokenStatus; speaking: boolean; selected: boolean; furigana: boolean; romaji: boolean; onTap?: (() => void) | undefined; tour?: string | undefined }) {
-  const underline = status === "new" ? "decoration-info" : status === "learning" ? "decoration-learning" : "decoration-transparent";
+const LEVEL_UNDERLINE = ["decoration-learning", "decoration-learning", "decoration-level-2", "decoration-level-3", "decoration-level-4"];
+
+function Token({ w, trail, status, level, speaking, selected, furigana, romaji, onTap, tour }: { w: Word; trail: string; status: TokenStatus; level: number | null; speaking: boolean; selected: boolean; furigana: boolean; romaji: boolean; onTap?: (() => void) | undefined; tour?: string | undefined }) {
+  const underline = status === "new" ? "decoration-info" : status === "learning" ? LEVEL_UNDERLINE[Math.min(4, Math.max(1, level ?? 1))] : "decoration-transparent";
   const body = w.f && furigana
     ? w.f.map(([t, r], i) => (r ? <ruby key={i}>{t}<rt className="text-[0.5em] font-bold text-muted-foreground">{r}</rt></ruby> : <span key={i}>{t}</span>))
     : w.s;

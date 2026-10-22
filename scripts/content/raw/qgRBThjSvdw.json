@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 105.7,
+   "end": 127.8,
+   "title": "Drawing Questions from the Bag",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜てみる — trying something out",
+    "〜たい — wanting to do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 106.1,
+     "end": 109.8,
+     "ja": "この中に、ちょっと、",
+     "en": "Inside here, well...",
+     "speaker": "Miku"
+    },
+    {
+     "start": 109.8,
+     "end": 113.6,
+     "ja": "さっき思いついて、箱とか何も用意してないんですけど、",
+     "en": "I just came up with the idea and haven't prepared a box or anything, but...",
+     "speaker": "Miku"
+    },
+    {
+     "start": 113.6,
+     "end": 118.0,
+     "ja": "袋の中にちょっと二人で考えた質問を入れたので、",
+     "en": "inside the bag, we put some questions the two of us came up with,",
+     "speaker": "Miku"
+    },
+    {
+     "start": 120.3,
+     "end": 124.9,
+     "ja": "この中からランダムに引いて話したいと思います。",
+     "en": "so we'd like to draw them randomly from here and talk.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 125.1,
+     "end": 127.3,
+     "ja": "はい、楽しみ。",
+     "en": "Okay, looking forward to it.",
+     "speaker": "Sayaka"
+    }
+   ]
+  },
+  {
+   "start": 252.8,
+   "end": 272.5,
+   "title": "Friendships Where Time Doesn't Matter",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜なくても — even if not",
+    "〜ように — as if / in such a way"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 253.3,
+     "end": 257.0,
+     "ja": "例えば私が友情で大切だと思うのは、",
+     "en": "For example, what I think is important in friendship is,",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 257.3,
+     "end": 260.6,
+     "ja": "別に数ヶ月連絡しなくても、",
+     "en": "even if we don't contact each other for a few months,",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 260.9,
+     "end": 267.1,
+     "ja": "「今日暇？」とか「最近何してるの？会おうよ」って言って、",
+     "en": "casually saying, \"Are you free today?\" or \"What've you been up to? Let's meet up,\"",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 268.0,
+     "end": 272.0,
+     "ja": "時間が経ってないように感じられる友情が、私は居心地がいい。",
+     "en": "a friendship where it feels like no time has passed makes me feel comfortable.",
+     "speaker": "Sayaka"
+    }
+   ]
+  },
+  {
+   "start": 605.9,
+   "end": 622.7,
+   "title": "Planning Months in Advance",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜の苦手 — not good at doing",
+    "〜じゃん — isn't it? (confirmation)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 606.3,
+     "end": 610.7,
+     "ja": "一ヶ月後とか二ヶ月後の予定押さえるの苦手。",
+     "en": "I'm not good at booking schedules one or two months ahead.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 610.9,
+     "end": 615.1,
+     "ja": "わかる。その時にならないとわからないし。",
+     "en": "I get it. You don't know until that time comes.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 617.2,
+     "end": 620.0,
+     "ja": "たしかに。そのときの気分もあるじゃん。",
+     "en": "Exactly. There's also how you feel at the time.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 620.6,
+     "end": 622.2,
+     "ja": "そう、そう、そう。",
+     "en": "Yeah, right, right.",
+     "speaker": "Sayaka"
+    }
+   ]
+  }
+ ],
+ "videoId": "qgRBThjSvdw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

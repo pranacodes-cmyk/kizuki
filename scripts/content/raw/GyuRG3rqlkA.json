@@ -1,0 +1,189 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.5,
+   "end": 27.0,
+   "title": "Does My Life Have Meaning?",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "comedy",
+    "anime"
+   ],
+   "grammar": [
+    "〜てしまう — unintentional action",
+    "〜ば — conditional if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.8,
+     "end": 10.5,
+     "ja": "いきなりだが、「自分て生きている意味あるのかな？」と考えたことはないか？",
+     "en": "Out of the blue, but have you ever wondered if there's any meaning to you being alive?",
+     "speaker": "Rin"
+    },
+    {
+     "start": 10.8,
+     "end": 14.9,
+     "ja": "ありますね。深夜になるとつい考えちゃうんですよね。",
+     "en": "I have. When it gets late at night, I always end up thinking about that.",
+     "speaker": "Guy"
+    },
+    {
+     "start": 15.3,
+     "end": 21.3,
+     "ja": "なんというか、筋トレしてもモテないし、仕事してもお金ないし、友達は少ないし。",
+     "en": "Like, even if I work out I'm not popular, even if I work I have no money, and I have few friends.",
+     "speaker": "Guy"
+    },
+    {
+     "start": 21.8,
+     "end": 26.5,
+     "ja": "ああ…もっと頭が良くてイケメンで才能に溢れていればな…",
+     "en": "Sigh... If only I were smarter, good-looking, and full of talent...",
+     "speaker": "Guy"
+    }
+   ]
+  },
+  {
+   "start": 254.0,
+   "end": 312.8,
+   "title": "What Is Nihilism?",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "school"
+   ],
+   "grammar": [
+    "〜とは — definition marker",
+    "〜だろ — right? / isn't it?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 254.2,
+     "end": 256.2,
+     "ja": "次は「ニヒリズム」だな。",
+     "en": "Next up is 'nihilism.'",
+     "speaker": "Rin"
+    },
+    {
+     "start": 256.5,
+     "end": 259.8,
+     "ja": "ニヒ？なんですか、それは？芸人ですか？",
+     "en": "Nihi? What's that? A comedian?",
+     "speaker": "Guy"
+    },
+    {
+     "start": 260.0,
+     "end": 261.8,
+     "ja": "いや、それバカリズムだろ。",
+     "en": "No, that's Bakarhythm.",
+     "speaker": "Rin"
+    },
+    {
+     "start": 261.9,
+     "end": 266.0,
+     "ja": "ニヒリズムとは、「この世の全ての物事に意味はない」と考えることだ。",
+     "en": "Nihilism means thinking that nothing in this world has any meaning.",
+     "speaker": "Rin"
+    },
+    {
+     "start": 266.2,
+     "end": 268.0,
+     "ja": "全てに意味はない？",
+     "en": "Nothing has meaning?",
+     "speaker": "Guy"
+    },
+    {
+     "start": 268.1,
+     "end": 271.8,
+     "ja": "ああ。何でそう感じるのか、わかりやすい例を出そう。",
+     "en": "Yeah. Let me give an easy-to-understand example of why people feel that way.",
+     "speaker": "Rin"
+    },
+    {
+     "start": 271.9,
+     "end": 272.7,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Guy"
+    }
+   ]
+  },
+  {
+   "start": 547.0,
+   "end": 605.0,
+   "title": "Become the Overman",
+   "level": "N2",
+   "topics": [
+    "anime",
+    "comedy",
+    "school"
+   ],
+   "grammar": [
+    "〜てはダメだ — must not do",
+    "動詞辞書形＋な — negative imperative (don't)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 547.3,
+     "end": 551.1,
+     "ja": "ニーチェはこの末人にだけは絶対になってはダメだと言っているんだ。",
+     "en": "Nietzsche says whatever you do, you must never become the Last Man.",
+     "speaker": "Rin"
+    },
+    {
+     "start": 551.4,
+     "end": 554.5,
+     "ja": "ええーっ！？ちょっと待ってくださいよ！",
+     "en": "Whaaat?! Wait a minute!",
+     "speaker": "Guy"
+    },
+    {
+     "start": 554.6,
+     "end": 558.9,
+     "ja": "努力してもダメ、才能もスキルもない、そんな人でも怠けるなと！？",
+     "en": "Even if effort is useless, with no talent and no skills, someone like that still shouldn't slack off?!",
+     "speaker": "Guy"
+    },
+    {
+     "start": 559.0,
+     "end": 600.0,
+     "ja": "ああ、そうだ。",
+     "en": "Yes, exactly.",
+     "speaker": "Rin"
+    },
+    {
+     "start": 600.2,
+     "end": 602.0,
+     "ja": "では何になれというんですか？",
+     "en": "Then what are you telling me to become?",
+     "speaker": "Guy"
+    },
+    {
+     "start": 602.2,
+     "end": 603.4,
+     "ja": "超人だ。",
+     "en": "The Overman.",
+     "speaker": "Rin"
+    },
+    {
+     "start": 603.6,
+     "end": 604.6,
+     "ja": "超人？",
+     "en": "The Overman?",
+     "speaker": "Guy"
+    }
+   ]
+  }
+ ],
+ "videoId": "GyuRG3rqlkA",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

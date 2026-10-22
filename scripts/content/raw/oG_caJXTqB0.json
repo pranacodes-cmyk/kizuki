@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 309.2,
+   "end": 318.8,
+   "title": "Flexible Working Hours",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜てる — ongoing state/action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 309.5,
+     "end": 311.2,
+     "ja": "もう出勤時間とかは？",
+     "en": "What about your arrival time?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 311.4,
+     "end": 313.2,
+     "ja": "いや、特にないです。",
+     "en": "No, there isn't any in particular.",
+     "speaker": "Employee"
+    },
+    {
+     "start": 313.4,
+     "end": 316.3,
+     "ja": "子どもを保育園送ってから、",
+     "en": "After taking my child to nursery school,",
+     "speaker": "Employee"
+    },
+    {
+     "start": 316.3,
+     "end": 318.5,
+     "ja": "家のことちょっとやってから出勤してる感じです。",
+     "en": "and doing a bit of housework, I just come in to work.",
+     "speaker": "Employee"
+    }
+   ]
+  },
+  {
+   "start": 354.2,
+   "end": 365.2,
+   "title": "The 78-Year-Old New Recruit",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "おいくつ — how old (polite)",
+    "〜目 — ordinal counter (-th)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 354.5,
+     "end": 356.3,
+     "ja": "今おいくつでいらっしゃいますか？",
+     "en": "How old are you right now?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 356.5,
+     "end": 358.2,
+     "ja": "78歳です。",
+     "en": "I'm 78 years old.",
+     "speaker": "Fujii"
+    },
+    {
+     "start": 358.9,
+     "end": 360.3,
+     "ja": "入社2年目？",
+     "en": "In your second year at the company?",
+     "speaker": "Sakaguchi"
+    },
+    {
+     "start": 360.4,
+     "end": 361.8,
+     "ja": "2年目です。",
+     "en": "Yes, second year.",
+     "speaker": "Fujii"
+    },
+    {
+     "start": 362.1,
+     "end": 364.7,
+     "ja": "まだバリバリの新入社員やん！",
+     "en": "You're still an energetic new employee!",
+     "speaker": "Sakaguchi"
+    }
+   ]
+  },
+  {
+   "start": 521.8,
+   "end": 534.8,
+   "title": "What Kind of Person Is Your Dad?",
+   "level": "N4",
+   "topics": [
+    "family",
+    "comedy"
+   ],
+   "grammar": [
+    "どんな〜 — what kind of",
+    "〜より — compared to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 522.2,
+     "end": 524.2,
+     "ja": "お父さん、どんな人ですか？",
+     "en": "What kind of person is your dad?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 524.7,
+     "end": 525.8,
+     "ja": "彼氏。",
+     "en": "Her boyfriend.",
+     "speaker": "Sakaguchi"
+    },
+    {
+     "start": 526.0,
+     "end": 526.8,
+     "ja": "いや…",
+     "en": "No...",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 526.9,
+     "end": 529.0,
+     "ja": "尊敬してます。",
+     "en": "I respect him.",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 531.5,
+     "end": 534.2,
+     "ja": "彼氏よりはイケメンやな？",
+     "en": "I'm better looking than your boyfriend, right?",
+     "speaker": "Sakaguchi"
+    }
+   ]
+  }
+ ],
+ "videoId": "oG_caJXTqB0",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

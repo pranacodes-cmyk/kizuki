@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.26,
+   "end": 43.8,
+   "title": "What Is the Bandwagon Effect",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜というのは — speaking of / the definition of",
+    "〜られる — passive voice"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.26,
+     "end": 29.8,
+     "ja": "で、バンドワゴン効果っていうのは、",
+     "en": "So, the bandwagon effect is",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 29.8,
+     "end": 34.0,
+     "ja": "多くの人、たくさんの人が支持しているもの、",
+     "en": "when something is supported by many people,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 34.0,
+     "end": 37.3,
+     "ja": "好きなもの、使っているもの、買っているものに、",
+     "en": "or something people like, use, or buy,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 37.3,
+     "end": 40.8,
+     "ja": "さらに多くの人が引き寄せられる",
+     "en": "and even more people are drawn to it—",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 40.8,
+     "end": 43.6,
+     "ja": "心理のことです。",
+     "en": "it refers to that psychological phenomenon.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 6.43,
+   "end": 75.5,
+   "title": "Form Your Own Opinion First",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜ちゃう — end up doing",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.43,
+     "end": 47.3,
+     "ja": "1つ目、自分の意見を最初に持つということ。",
+     "en": "Number one: form your own opinion first.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 47.3,
+     "end": 52.5,
+     "ja": "何かを選ぶとき、他の人の意見とかランキングを見ちゃう、",
+     "en": "When choosing something, we tend to look at other people's opinions or rankings—",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 52.5,
+     "end": 56.2,
+     "ja": "人気ランキングとか、今売れているランキングとか、",
+     "en": "like popularity rankings or best-seller rankings,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 56.2,
+     "end": 58.2,
+     "ja": "他の人のレビュー見ちゃいますよ。",
+     "en": "and we check other people's reviews.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 58.2,
+     "end": 61.0,
+     "ja": "見ちゃうけれども、その前に、",
+     "en": "We do look, but before doing that,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 61.0,
+     "end": 74.9,
+     "ja": "まずは自分はどう思うか考えてみるんです。",
+     "en": "first try thinking about what you yourself think.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 17.48,
+   "end": 18.58,
+   "title": "Fix Your Routine Instead",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜ようになる — come to be able to",
+    "〜かもしれない — might / maybe"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.48,
+     "end": 52.2,
+     "ja": "話せるようにならない、全然話せるようにならない・・・",
+     "en": "I'm not getting able to speak, not at all...",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 52.2,
+     "end": 55.2,
+     "ja": "すぐに新しいオンラインコースが必要ですか？",
+     "en": "Do you really need a new online course right away?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 55.2,
+     "end": 57.6,
+     "ja": "違うかもしれないよ。",
+     "en": "Maybe that's not it.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 57.6,
+     "end": 60.6,
+     "ja": "毎日自分の声をスマホに録音する時間を",
+     "en": "Just making time every day to record your voice",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 60.6,
+     "end": 62.4,
+     "ja": "作るだけでも、",
+     "en": "on your smartphone,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 62.4,
+     "end": 65.3,
+     "ja": "新しい変化が生まれるかもしれません。",
+     "en": "might create a new breakthrough.",
+     "speaker": "Noriko"
+    }
+   ]
+  }
+ ],
+ "videoId": "BfHesSx8zmM",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

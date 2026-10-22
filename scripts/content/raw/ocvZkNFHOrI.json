@@ -1,0 +1,113 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.0,
+   "end": 13.1,
+   "title": "Introducing Tzolk'in Japanese Edition",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜たいと思う — expressing desire/intention",
+    "〜ので — giving a reason (because)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.0,
+     "end": 2.8,
+     "ja": "はい、The Game Galleryチャンネルの春99です。",
+     "en": "Hi, this is Haru99 from The Game Gallery channel.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 2.8,
+     "end": 4.6,
+     "ja": "今日ご紹介するアイテムはこちら。",
+     "en": "Today's item to introduce is this one.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 4.6,
+     "end": 7.8,
+     "ja": "えー、ツォルキンですね。まあ、もう定番のゲームですけども、",
+     "en": "Uh, Tzolk'in. It's already a classic game, but...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 7.8,
+     "end": 10.4,
+     "ja": "まあツォルキンのですね、日本語版が出ましたので、",
+     "en": "well, the Japanese edition of Tzolk'in came out, so...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 10.4,
+     "end": 13.1,
+     "ja": "そちらの開封レビューをお届けしたいと思います。",
+     "en": "I'd like to bring you an unboxing review of it.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 95.3,
+   "end": 116.8,
+   "title": "Checking the Game Components",
+   "level": "N3",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜を通して — throughout / through",
+    "〜をはじめ — starting with / including"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 95.3,
+     "end": 97.3,
+     "ja": "まあ、コンポーネント全体を通して見ましたけど、",
+     "en": "Well, looking through all the components,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 97.3,
+     "end": 101.2,
+     "ja": "やっぱコンポーネントの中には特に日本語化している要素はありませんね。",
+     "en": "as expected, none of the components have really been localized into Japanese.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 101.2,
+     "end": 105.8,
+     "ja": "唯一日本語の要素があるのは、このマニュアルですね。",
+     "en": "The only element in Japanese is this manual.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 105.8,
+     "end": 110.8,
+     "ja": "マニュアルは全16ページで、各種の記念碑とか初期タイルの効果はじめ、",
+     "en": "The manual is 16 pages in total, and starting with the effects of monuments and starting tiles,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 110.8,
+     "end": 116.8,
+     "ja": "マニュアル一式は全て完全に日本語化されてるという形ですね。",
+     "en": "the entire set of rules is completely translated into Japanese.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "ocvZkNFHOrI",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

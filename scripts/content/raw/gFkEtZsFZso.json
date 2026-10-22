@@ -1,0 +1,130 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 7.2,
+   "end": 32.8,
+   "title": "A Divine Mission for the Chojin",
+   "level": "N1",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "何ゆえ — why / for what reason",
+    "〜ため — in order to / for the sake of",
+    "〜しもの — that which was (classical past/perfective)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 7.2,
+     "end": 10.5,
+     "ja": "全宇宙の超人たちよ。",
+     "en": "Chojin of the entire universe.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 10.8,
+     "end": 16.5,
+     "ja": "お前たちは何ゆえ、比類なき力と戦闘能力を身につけ、",
+     "en": "Do you know why you were endowed with peerless strength and combat abilities,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 16.7,
+     "end": 20.8,
+     "ja": "この世に生を受けたか分かっているか。",
+     "en": "and given life in this world?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 21.2,
+     "end": 25.5,
+     "ja": "それは、その力を宇宙の平和のため、",
+     "en": "It is because that power, for the sake of universal peace,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 25.7,
+     "end": 32.5,
+     "ja": "人間たちをあらゆる外敵や災いから守るため、神から与えられしものだ。",
+     "en": "and to protect humankind from all external foes and disasters, was bestowed upon you by God.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 200.0,
+   "end": 221.0,
+   "title": "Terryman Saves the Day",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "daily",
+    "animals"
+   ],
+   "grammar": [
+    "〜なきゃ — must do (colloquial contraction of なければ)",
+    "〜たら — if / when (conditional)",
+    "さすが — as expected of / truly"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 200.0,
+     "end": 204.3,
+     "ja": "ボーイ、犬にはちゃんと首輪とリードをつけてなきゃな。",
+     "en": "Boy, you've got to make sure your dog has a collar and leash on.",
+     "speaker": "Terryman"
+    },
+    {
+     "start": 204.6,
+     "end": 208.0,
+     "ja": "今度こんなことしたら、お尻ペンペンだぞ。",
+     "en": "If you do this again, you're getting a spanking!",
+     "speaker": "Terryman"
+    },
+    {
+     "start": 208.3,
+     "end": 211.2,
+     "ja": "ご…ごめんよ、テリーマン！",
+     "en": "I-I'm sorry, Terryman!",
+     "speaker": "Boy"
+    },
+    {
+     "start": 212.0,
+     "end": 214.0,
+     "ja": "よし、いい子だ。",
+     "en": "There's a good boy.",
+     "speaker": "Terryman"
+    },
+    {
+     "start": 214.3,
+     "end": 216.2,
+     "ja": "さすが超人だ！",
+     "en": "As expected of a Chojin!",
+     "speaker": "Man 1"
+    },
+    {
+     "start": 216.3,
+     "end": 219.3,
+     "ja": "すげえ！傷一つねえんだからな！",
+     "en": "Amazing! He doesn't even have a single scratch!",
+     "speaker": "Man 2"
+    },
+    {
+     "start": 219.4,
+     "end": 220.8,
+     "ja": "素敵！",
+     "en": "So wonderful!",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "gFkEtZsFZso",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

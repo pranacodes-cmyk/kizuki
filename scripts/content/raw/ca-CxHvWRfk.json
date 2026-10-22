@@ -1,0 +1,218 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 2.295,
+   "end": 2.415,
+   "title": "Breakfast Is Served",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜そう — looks like",
+    "〜ね — seeking agreement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2.3,
+     "end": 2.33,
+     "ja": "うわー、待ってましたー！",
+     "en": "Whoa, I've been waiting for this!",
+     "speaker": "Husband"
+    },
+    {
+     "start": 2.335,
+     "end": 2.347,
+     "ja": "キャベツ？",
+     "en": "Cabbage?",
+     "speaker": "Husband"
+    },
+    {
+     "start": 2.348,
+     "end": 2.355,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Wife"
+    },
+    {
+     "start": 2.356,
+     "end": 2.371,
+     "ja": "ああ、美味しそう。",
+     "en": "Ah, looks delicious.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 2.372,
+     "end": 2.39,
+     "ja": "ああ好き、好き好き、うん。",
+     "en": "Ah, I love it, love it, yeah.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 2.391,
+     "end": 2.409,
+     "ja": "美味しいね、これね。",
+     "en": "This is delicious, isn't it?",
+     "speaker": "Husband"
+    }
+   ]
+  },
+  {
+   "start": 10.37,
+   "end": 10.515,
+   "title": "Welcome Home Greeting",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "お〜 — polite prefix",
+    "〜とった — dialect for 〜ていた (was doing)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.376,
+     "end": 10.392,
+     "ja": "おかえり〜。",
+     "en": "Welcome home~",
+     "speaker": "Wife"
+    },
+    {
+     "start": 10.392,
+     "end": 10.404,
+     "ja": "みーちゃん！",
+     "en": "Mi-chan!",
+     "speaker": "Husband"
+    },
+    {
+     "start": 10.405,
+     "end": 10.418,
+     "ja": "ただいま。",
+     "en": "I'm home.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 10.419,
+     "end": 10.436,
+     "ja": "かわいいなー。",
+     "en": "So cute!",
+     "speaker": "Husband"
+    },
+    {
+     "start": 10.442,
+     "end": 10.458,
+     "ja": "この手。",
+     "en": "Look at these paws.",
+     "speaker": "Wife"
+    },
+    {
+     "start": 10.46,
+     "end": 10.476,
+     "ja": "いい子にしとったね。",
+     "en": "You were a good girl, weren't you?",
+     "speaker": "Husband"
+    },
+    {
+     "start": 10.477,
+     "end": 10.495,
+     "ja": "ありがとうね、お出迎えね。",
+     "en": "Thank you for welcoming me.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 10.496,
+     "end": 10.508,
+     "ja": "よしよし。",
+     "en": "Good girl.",
+     "speaker": "Husband"
+    }
+   ]
+  },
+  {
+   "start": 12.265,
+   "end": 12.43,
+   "title": "Admiring an Elaborate Dinner",
+   "level": "N4",
+   "topics": [
+    "food",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜そう — looks like",
+    "手が込む — to be elaborate / intricate"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 12.27,
+     "end": 12.293,
+     "ja": "美味しそう〜！",
+     "en": "Looks delicious~!",
+     "speaker": "Husband"
+    },
+    {
+     "start": 12.306,
+     "end": 12.32,
+     "ja": "すごーい！",
+     "en": "Amazing!",
+     "speaker": "Husband"
+    },
+    {
+     "start": 12.321,
+     "end": 12.332,
+     "ja": "美味しそう？",
+     "en": "Does it look good?",
+     "speaker": "Wife"
+    },
+    {
+     "start": 12.333,
+     "end": 12.34,
+     "ja": "うん！",
+     "en": "Yeah!",
+     "speaker": "Husband"
+    },
+    {
+     "start": 12.342,
+     "end": 12.365,
+     "ja": "わ、スープですか、これ！",
+     "en": "Whoa, is this soup?!",
+     "speaker": "Husband"
+    },
+    {
+     "start": 12.366,
+     "end": 12.385,
+     "ja": "手が込んでるねー。",
+     "en": "It's so elaborate!",
+     "speaker": "Husband"
+    },
+    {
+     "start": 12.386,
+     "end": 12.396,
+     "ja": "そうですか？",
+     "en": "Do you think so?",
+     "speaker": "Wife"
+    },
+    {
+     "start": 12.398,
+     "end": 12.425,
+     "ja": "うん。わ、すごーい！",
+     "en": "Yeah. Wow, incredible!",
+     "speaker": "Husband"
+    }
+   ]
+  }
+ ],
+ "videoId": "ca-CxHvWRfk",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

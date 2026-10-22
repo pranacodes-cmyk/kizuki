@@ -1,0 +1,194 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.585,
+   "end": 1322.5,
+   "title": "A Winter Tradition: Seri Curry Soba",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていただく — receiving an action (humble)",
+    "〜というか — or rather / should I say"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 12.592,
+     "end": 1302.8,
+     "ja": "本日も最後までありがとうございました。",
+     "en": "Thank you very much for watching until the end today as well.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1303.0,
+     "end": 1306.8,
+     "ja": "ほぼ毎年恒例のセリカレー蕎麦をいただいて、",
+     "en": "Having my almost annual tradition of seri curry soba,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1306.9,
+     "end": 1310.5,
+     "ja": "今年の秋冬もついに始まった感があります。",
+     "en": "it really feels like autumn and winter have finally begun this year.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1310.7,
+     "end": 1313.5,
+     "ja": "ニットデビューもしましたしね。",
+     "en": "And I even wore a knit sweater for the first time.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1313.7,
+     "end": 1317.3,
+     "ja": "セリカレー蕎麦は、とにかく独特のとろみと、",
+     "en": "Seri curry soba has such a uniquely thick broth,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1317.4,
+     "end": 1322.0,
+     "ja": "セリが後を引くというか、忘れられない美味しさです。",
+     "en": "and the water dropwort leaves a lasting impression—it's an unforgettable deliciousness.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 1322.5,
+   "end": 1349.0,
+   "title": "Honest Review of the Price",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ずに — without doing",
+    "〜てもいい — okay to / even if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1322.5,
+     "end": 1327.5,
+     "ja": "ちなみに、お値段が記載されていたのは、セリカレー蕎麦の1,550円だけで、",
+     "en": "By the way, the only price listed was 1,550 yen for the seri curry soba,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1327.6,
+     "end": 1330.1,
+     "ja": "他はすべて不明。",
+     "en": "and all the rest were unlisted.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1330.3,
+     "end": 1335.0,
+     "ja": "分からずに頼むのは、ちょっと勇気が要りますよね。",
+     "en": "Ordering without knowing the price takes a bit of courage, right?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1335.4,
+     "end": 1339.1,
+     "ja": "お酒なしでこのお値段はお安くはないですが、",
+     "en": "Without alcohol, this price isn't cheap,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1339.4,
+     "end": 1342.5,
+     "ja": "今はどこに行ってもお高いので、",
+     "en": "but wherever you go these days it's expensive,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1342.7,
+     "end": 1346.3,
+     "ja": "そんなに恐れなくてもいいかなと思います。",
+     "en": "so I think you don't need to worry too much.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1346.6,
+     "end": 1348.5,
+     "ja": "以上、正直レビューでした。",
+     "en": "That's all for the honest review.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 1349.0,
+   "end": 1410.8,
+   "title": "Channel Update and Goodbye",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていただけると — would be happy if you could",
+    "〜ため — because / due to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1349.2,
+     "end": 1353.7,
+     "ja": "このチャンネルは毎週土曜日18時更新を目指してます。",
+     "en": "This channel aims to update every Saturday at 6 PM.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1354.0,
+     "end": 1358.0,
+     "ja": "気ままなチャンネルなので、予定がよく変わるため、",
+     "en": "Since it's a casual channel, the schedule changes often, so...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1358.1,
+     "end": 1402.5,
+     "ja": "チャンネル登録とベル通知設定をしていただけると嬉しいです。",
+     "en": "I'd appreciate it if you subscribe and turn on bell notifications.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1403.0,
+     "end": 1406.0,
+     "ja": "いいね、コメントもよろしくお願いいたします。",
+     "en": "Likes and comments are also greatly appreciated.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1406.3,
+     "end": 1408.5,
+     "ja": "ではでは、また次のご飯で。",
+     "en": "Well then, see you at the next meal.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1409.0,
+     "end": 1410.5,
+     "ja": "ばーい！",
+     "en": "Bye!",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "loh81H-dtnE",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

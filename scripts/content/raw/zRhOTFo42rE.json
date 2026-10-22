@@ -1,0 +1,176 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.6,
+   "end": 20.5,
+   "title": "Unboxing the New iPhone",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていただく — receiving an action kindly",
+    "〜ていく — to start doing / go on doing",
+    "〜かなと思う — I think I will..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 3.2,
+     "ja": "どうも皆さんこんにちは、みやじーです。",
+     "en": "Hello everyone, I'm Miyajii.",
+     "speaker": "Miyajii"
+    },
+    {
+     "start": 3.3,
+     "end": 5.7,
+     "ja": "いつも動画を見ていただき、ありがとうございます。",
+     "en": "Thank you so much as always for watching my videos.",
+     "speaker": "Miyajii"
+    },
+    {
+     "start": 5.8,
+     "end": 7.0,
+     "ja": "今回はこちら。",
+     "en": "Today we have this.",
+     "speaker": "Miyajii"
+    },
+    {
+     "start": 7.4,
+     "end": 10.0,
+     "ja": "先日発売したiPhone 17、",
+     "en": "The iPhone 17 that was recently released—",
+     "speaker": "Miyajii"
+    },
+    {
+     "start": 10.05,
+     "end": 13.5,
+     "ja": "こちらが届きましたので早速開封レビューしていきたいと思います。",
+     "en": "it arrived, so I'd like to do an unboxing review right away.",
+     "speaker": "Miyajii"
+    },
+    {
+     "start": 13.9,
+     "end": 16.8,
+     "ja": "そして今僕はこちらのiPhone 16を使っています。",
+     "en": "And right now, I'm using this iPhone 16.",
+     "speaker": "Miyajii"
+    },
+    {
+     "start": 17.0,
+     "end": 20.5,
+     "ja": "今回16から17へ乗り換えた理由なんかもお話ししていこうかなと思います。",
+     "en": "I'd also like to share my reasons for switching from the 16 to the 17.",
+     "speaker": "Miyajii"
+    }
+   ]
+  },
+  {
+   "start": 418.0,
+   "end": 435.8,
+   "title": "3-in-1 Phone Case Stand Feature",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜ことで — by doing / through",
+    "〜ことができる — to be able to do",
+    "〜たり〜たりする — doing things like A and B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 418.4,
+     "end": 420.7,
+     "ja": "で、まず1つ目の機能がスタンドの機能ですね。",
+     "en": "First, the first feature is the stand function.",
+     "speaker": "Miyajii"
+    },
+    {
+     "start": 421.0,
+     "end": 424.4,
+     "ja": "こんな感じで引き出して使うことで、iPhoneを立てて使うことができますし、",
+     "en": "By pulling it out like this, you can prop your iPhone up, and—",
+     "speaker": "Miyajii"
+    },
+    {
+     "start": 424.8,
+     "end": 427.4,
+     "ja": "あとこれ回転させることもできるので、",
+     "en": "it also rotates, so—",
+     "speaker": "Miyajii"
+    },
+    {
+     "start": 427.6,
+     "end": 431.2,
+     "ja": "横でこんな感じで置いてですね、YouTubeなんか見たりするということもできます。",
+     "en": "you can place it horizontally like this to watch things like YouTube.",
+     "speaker": "Miyajii"
+    },
+    {
+     "start": 431.4,
+     "end": 435.4,
+     "ja": "あと角度調整もこんな感じで自由自在なので、本当に便利なんですよね。",
+     "en": "Plus, the angle adjustment is completely flexible like this, which makes it really convenient.",
+     "speaker": "Miyajii"
+    }
+   ]
+  },
+  {
+   "start": 1122.0,
+   "end": 1137.0,
+   "title": "Trying the Camera Control Button",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜ことで — by doing / through",
+    "〜てから — after doing",
+    "なかなか〜 — quite / rather"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1122.2,
+     "end": 1125.5,
+     "ja": "まずカメラコントロール。こっち側のね、電源ボタンの横にこのボタンがありまして、",
+     "en": "First, Camera Control. Over on this side, next to the power button, there's this button,",
+     "speaker": "Miyajii"
+    },
+    {
+     "start": 1125.8,
+     "end": 1130.3,
+     "ja": "これ押すことでなんと、はい、カメラ一発で起動することができるんですよね。",
+     "en": "and by pressing it, amazingly, you can launch the camera in one press.",
+     "speaker": "Miyajii"
+    },
+    {
+     "start": 1130.8,
+     "end": 1135.0,
+     "ja": "で、さらにカメラ開いてから押すと、これシャッター切るということもできます。",
+     "en": "And after opening the camera, pressing it again also allows you to snap the shutter.",
+     "speaker": "Miyajii"
+    },
+    {
+     "start": 1135.3,
+     "end": 1136.8,
+     "ja": "これね、なかなか便利なんですよね。",
+     "en": "This is really quite handy.",
+     "speaker": "Miyajii"
+    }
+   ]
+  }
+ ],
+ "videoId": "zRhOTFo42rE",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,100 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 14.3,
+   "end": 21.8,
+   "title": "Asking a Colleague's Age",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "何歳ですか — how old are you?",
+    "〜歳 — years of age"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 14.6,
+     "end": 16.8,
+     "ja": "中村さん何歳ですか？",
+     "en": "Nakamura-san, how old are you?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 17.1,
+     "end": 18.5,
+     "ja": "38歳です。",
+     "en": "I'm 38 years old.",
+     "speaker": "Man"
+    },
+    {
+     "start": 18.7,
+     "end": 20.2,
+     "ja": "娘さんは何歳ですか？",
+     "en": "How old is your daughter?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 20.3,
+     "end": 21.4,
+     "ja": "4歳です。",
+     "en": "She's 4 years old.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 43.5,
+   "end": 57.2,
+   "title": "Asking and Telling Age",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "何歳ですか — how old are you?",
+    "はたち — twenty years old"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.0,
+     "end": 46.5,
+     "ja": "凛さん、何歳ですか？",
+     "en": "Rin, how old are you?",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 47.2,
+     "end": 48.9,
+     "ja": "はたちです。",
+     "en": "I'm twenty years old.",
+     "speaker": "Woman 2"
+    },
+    {
+     "start": 51.5,
+     "end": 54.3,
+     "ja": "松尾さん、何歳ですか？",
+     "en": "Matsuo-san, how old are you?",
+     "speaker": "Man 1"
+    },
+    {
+     "start": 54.9,
+     "end": 56.8,
+     "ja": "28歳です。",
+     "en": "I'm 28 years old.",
+     "speaker": "Man 2"
+    }
+   ]
+  }
+ ],
+ "videoId": "phkeLM0KTB8",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

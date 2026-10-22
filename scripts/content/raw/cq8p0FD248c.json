@@ -1,0 +1,106 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 2.8,
+   "end": 22.4,
+   "title": "Duty of the Popin Clan",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜って — topic marker / casual quotation",
+    "〜てある / 〜ておく / 〜ちまう — finish completely / unintentionally"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2.8,
+     "end": 6.9,
+     "ja": "ポッピン族ってさ、どうしてこんなに一生懸命なの？",
+     "en": "Hey, why do the Popin work so hard?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 7.1,
+     "end": 11.5,
+     "ja": "どうしてって、時を前に進めるのが俺たちの役目だ！",
+     "en": "Why? Because moving time forward is our duty!",
+     "speaker": "Popin"
+    },
+    {
+     "start": 11.7,
+     "end": 14.6,
+     "ja": "正直、サボりたいとか思わないの？",
+     "en": "Honestly, don't you ever feel like slacking off?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 15.0,
+     "end": 18.2,
+     "ja": "俺たちは自然の法則の中で生かされているんだ。",
+     "en": "We are given life within the laws of nature.",
+     "speaker": "Popin"
+    },
+    {
+     "start": 18.3,
+     "end": 22.4,
+     "ja": "それぞれが自分勝手なことをしたら、調和が乱れちまうんだよ。",
+     "en": "If everyone did whatever they wanted, harmony would be disrupted.",
+     "speaker": "Popin"
+    }
+   ]
+  },
+  {
+   "start": 45.9,
+   "end": 55.7,
+   "title": "The World Is Simple",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜から — because / since",
+    "〜なんて — things like / something like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 46.0,
+     "end": 48.0,
+     "ja": "苦しんで悩んで、",
+     "en": "You struggled and worried,",
+     "speaker": "Popin"
+    },
+    {
+     "start": 48.0,
+     "end": 50.1,
+     "ja": "がむしゃらに前に進んだから今がある！",
+     "en": "and pushed forward blindly, and that's why you're here today!",
+     "speaker": "Popin"
+    },
+    {
+     "start": 50.6,
+     "end": 53.1,
+     "ja": "不可能なことなんてないんだぜ！",
+     "en": "There is no such thing as impossible!",
+     "speaker": "Popin"
+    },
+    {
+     "start": 53.3,
+     "end": 55.7,
+     "ja": "世界はシンプルなんだから。",
+     "en": "Because the world is simple.",
+     "speaker": "Popin"
+    }
+   ]
+  }
+ ],
+ "videoId": "cq8p0FD248c",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,94 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 31.8,
+   "end": 40.0,
+   "title": "I'll Go to the Audition Instead",
+   "level": "N4",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ですから — because / given that",
+    "〜おうか — shall I / offering to do something",
+    "代わりに — instead of / in place of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 32.0,
+     "end": 34.8,
+     "ja": "お願いしますよ、大事なオーディションなんですから。",
+     "en": "Come on, please, it's an important audition.",
+     "speaker": "Young Man"
+    },
+    {
+     "start": 35.0,
+     "end": 36.4,
+     "ja": "私が行こうか。",
+     "en": "Shall I go?",
+     "speaker": "Gen"
+    },
+    {
+     "start": 36.4,
+     "end": 37.2,
+     "ja": "は？",
+     "en": "Huh?",
+     "speaker": "Young Man"
+    },
+    {
+     "start": 37.3,
+     "end": 40.0,
+     "ja": "そのオーディション、代わりに行こうか。",
+     "en": "Shall I go to that audition instead?",
+     "speaker": "Gen"
+    }
+   ]
+  },
+  {
+   "start": 125.5,
+   "end": 133.4,
+   "title": "A Great Actor Nobody Knows",
+   "level": "N3",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜なんて — things like / such as",
+    "〜てる — resultant state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 125.7,
+     "end": 129.0,
+     "ja": "いないでしょ、芝居ができて誰も知らない俳優なんて。",
+     "en": "There's no such thing as an actor who can act and nobody knows.",
+     "speaker": "Man"
+    },
+    {
+     "start": 129.2,
+     "end": 130.3,
+     "ja": "いる。",
+     "en": "There is.",
+     "speaker": "Gen"
+    },
+    {
+     "start": 130.7,
+     "end": 133.4,
+     "ja": "日本人の99%が忘れてる。",
+     "en": "Ninety-nine percent of Japanese people have forgotten him.",
+     "speaker": "Gen"
+    }
+   ]
+  }
+ ],
+ "videoId": "T88h_GBWXUc",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,191 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 45.8,
+   "end": 57.8,
+   "title": "Buying Matching Headbands at USJ",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜たかった — wanted to do",
+    "〜の中に — inside of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 45.9,
+     "end": 47.7,
+     "ja": "見て！買えたー！",
+     "en": "Look! We bought them!",
+     "speaker": "Seika & Urara"
+    },
+    {
+     "start": 48.0,
+     "end": 51.5,
+     "ja": "キティちゃんのショップの中にありましたー。",
+     "en": "They were inside the Hello Kitty shop.",
+     "speaker": "Seika"
+    },
+    {
+     "start": 51.7,
+     "end": 54.3,
+     "ja": "ウチらね、これを付けたかったんですよ。",
+     "en": "This is what we wanted to wear!",
+     "speaker": "Seika"
+    },
+    {
+     "start": 54.6,
+     "end": 55.7,
+     "ja": "ね、可愛い！",
+     "en": "Yeah, so cute!",
+     "speaker": "Urara"
+    },
+    {
+     "start": 55.9,
+     "end": 57.5,
+     "ja": "いい、いい、いい！",
+     "en": "Love it, love it, love it!",
+     "speaker": "Urara"
+    }
+   ]
+  },
+  {
+   "start": 94.5,
+   "end": 111.5,
+   "title": "Raving About the Harry Potter Ride",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜けど — but, although",
+    "〜感じがする — it feels like",
+    "やっぱり — after all / as expected"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 94.8,
+     "end": 96.4,
+     "ja": "ハリー・ポッターまじ最高だった！",
+     "en": "Harry Potter was seriously the best!",
+     "speaker": "Seika"
+    },
+    {
+     "start": 96.5,
+     "end": 99.9,
+     "ja": "最高だったけどさ、あのハリー・ポッターの中めっちゃ暗くて、今すごい明るい…",
+     "en": "It was the best, but inside the ride it was so dark, and now it's super bright...",
+     "speaker": "Urara"
+    },
+    {
+     "start": 100.0,
+     "end": 101.4,
+     "ja": "ね、眩しいね。",
+     "en": "Yeah, it's blinding.",
+     "speaker": "Seika"
+    },
+    {
+     "start": 101.6,
+     "end": 104.2,
+     "ja": "いや、でもやっぱいいわ！感動する。",
+     "en": "Man, but it really is great! So moving.",
+     "speaker": "Seika"
+    },
+    {
+     "start": 104.5,
+     "end": 106.8,
+     "ja": "一緒に戦ってる感じするもんね。",
+     "en": "It really feels like you're fighting alongside them.",
+     "speaker": "Seika"
+    },
+    {
+     "start": 107.0,
+     "end": 108.4,
+     "ja": "面白かった。ハリー「ナイス！」と思って。",
+     "en": "It was so fun. I was like, 'Nice, Harry!'",
+     "speaker": "Urara"
+    },
+    {
+     "start": 108.6,
+     "end": 111.0,
+     "ja": "ね、ハリーかっこよかったわ、やっぱり。",
+     "en": "Yeah, Harry was really cool after all.",
+     "speaker": "Seika"
+    }
+   ]
+  },
+  {
+   "start": 461.0,
+   "end": 474.0,
+   "title": "Welcome Drinks at the Kyoto Hotel",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜うちに — while / before something changes",
+    "〜ましょう — let's do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 461.2,
+     "end": 465.2,
+     "ja": "ウェルカムドリンク、私は柚子蜂蜜ソーダと、",
+     "en": "For welcome drinks, I have yuzu honey soda, and",
+     "speaker": "Seika"
+    },
+    {
+     "start": 465.3,
+     "end": 466.8,
+     "ja": "うららはカフェラテです。",
+     "en": "Urara has a caffe latte.",
+     "speaker": "Seika"
+    },
+    {
+     "start": 467.0,
+     "end": 467.8,
+     "ja": "可愛い。",
+     "en": "Cute.",
+     "speaker": "Urara"
+    },
+    {
+     "start": 468.0,
+     "end": 470.0,
+     "ja": "これを飲みながらメイクして、",
+     "en": "Let's do our makeup while sipping these,",
+     "speaker": "Seika"
+    },
+    {
+     "start": 470.1,
+     "end": 472.2,
+     "ja": "部屋が綺麗なうちに写真撮って、",
+     "en": "take photos while the room is still neat,",
+     "speaker": "Seika"
+    },
+    {
+     "start": 472.3,
+     "end": 473.6,
+     "ja": "お出かけしましょう。",
+     "en": "and head out.",
+     "speaker": "Seika"
+    }
+   ]
+  }
+ ],
+ "videoId": "05q5XwT4pgA",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

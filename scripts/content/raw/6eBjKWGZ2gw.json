@@ -1,0 +1,131 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 281.8,
+   "end": 315.6,
+   "title": "Where Did You Buy That?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜たの？ — informal question about the past",
+    "〜でしょ — seeking agreement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 282.4,
+     "end": 284.9,
+     "ja": "どこで買ったの？",
+     "en": "Where did you buy that?",
+     "speaker": "Cat"
+    },
+    {
+     "start": 294.5,
+     "end": 296.6,
+     "ja": "渋谷。",
+     "en": "Shibuya.",
+     "speaker": "Rabbit"
+    },
+    {
+     "start": 301.4,
+     "end": 304.1,
+     "ja": "可愛いでしょ？",
+     "en": "Cute, isn't it?",
+     "speaker": "Rabbit"
+    },
+    {
+     "start": 312.6,
+     "end": 315.0,
+     "ja": "可愛い！",
+     "en": "So cute!",
+     "speaker": "Cat"
+    }
+   ]
+  },
+  {
+   "start": 374.8,
+   "end": 403.8,
+   "title": "Can I Buy the Same One?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜てもいい — asking for permission",
+    "〜て — informal request"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 375.4,
+     "end": 379.2,
+     "ja": "同じの買ってもいい？",
+     "en": "Can I buy the same one?",
+     "speaker": "Cat"
+    },
+    {
+     "start": 389.7,
+     "end": 392.1,
+     "ja": "もちろん。",
+     "en": "Of course.",
+     "speaker": "Rabbit"
+    },
+    {
+     "start": 399.8,
+     "end": 403.2,
+     "ja": "お店の場所、教えて。",
+     "en": "Tell me where the shop is.",
+     "speaker": "Cat"
+    }
+   ]
+  },
+  {
+   "start": 427.8,
+   "end": 458.0,
+   "title": "Let's Go Buy It Together!",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜に行こう — let's go to (do something)",
+    "〜よ — friendly invitation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 428.4,
+     "end": 432.2,
+     "ja": "一緒に買いに行こうよ。",
+     "en": "Let's go buy it together.",
+     "speaker": "Rabbit"
+    },
+    {
+     "start": 444.5,
+     "end": 447.2,
+     "ja": "ありがとう。",
+     "en": "Thank you.",
+     "speaker": "Cat"
+    },
+    {
+     "start": 455.0,
+     "end": 457.5,
+     "ja": "行こう行こう。",
+     "en": "Let's go, let's go!",
+     "speaker": "Cat"
+    }
+   ]
+  }
+ ],
+ "videoId": "6eBjKWGZ2gw",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

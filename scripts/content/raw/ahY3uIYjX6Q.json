@@ -1,0 +1,138 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 38.5,
+   "end": 56.5,
+   "title": "Ordering a Hot Cafe Latte",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜でお召し上がりですか — polite dining-in phrasing",
+    "〜で — indicating choice",
+    "お決まりですか — have you decided"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 38.8,
+     "end": 42.4,
+     "ja": "店内でお召し上がりですか？お持ち帰りですか？",
+     "en": "Will you be having that here, or for takeout?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 42.5,
+     "end": 44.0,
+     "ja": "持ち帰りで。",
+     "en": "To go, please.",
+     "speaker": "Anna"
+    },
+    {
+     "start": 44.0,
+     "end": 45.6,
+     "ja": "はい、かしこまりました。",
+     "en": "Certainly.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 45.7,
+     "end": 47.8,
+     "ja": "ご注文はお決まりですか？",
+     "en": "Have you decided on your order?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 48.0,
+     "end": 53.0,
+     "ja": "はい。ホットのカフェラテを一つ、Sサイズで。",
+     "en": "Yes. One hot cafe latte, small size, please.",
+     "speaker": "Anna"
+    },
+    {
+     "start": 53.1,
+     "end": 56.2,
+     "ja": "かしこまりました。350円です。",
+     "en": "Certainly. That will be 350 yen.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 112.3,
+   "end": 132.7,
+   "title": "Ordering an Iced Coffee",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜をお願いします — please give me ~",
+    "〜で — indicating choice"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 112.7,
+     "end": 117.3,
+     "ja": "店内でお召し上がりですか？お持ち帰りですか？",
+     "en": "Will you be having that here, or for takeout?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 117.5,
+     "end": 118.9,
+     "ja": "店内で。",
+     "en": "For here, please.",
+     "speaker": "Kevin"
+    },
+    {
+     "start": 119.0,
+     "end": 120.5,
+     "ja": "かしこまりました。",
+     "en": "Certainly.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 121.0,
+     "end": 124.7,
+     "ja": "アイスコーヒーを一つ、お願いします。",
+     "en": "One iced coffee, please.",
+     "speaker": "Kevin"
+    },
+    {
+     "start": 124.9,
+     "end": 127.1,
+     "ja": "サイズはお決まりですか？",
+     "en": "Have you decided on the size?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 127.3,
+     "end": 128.9,
+     "ja": "Mサイズで。",
+     "en": "Medium size, please.",
+     "speaker": "Kevin"
+    },
+    {
+     "start": 129.0,
+     "end": 132.4,
+     "ja": "かしこまりました。350円です。",
+     "en": "Certainly. That will be 350 yen.",
+     "speaker": "Staff"
+    }
+   ]
+  }
+ ],
+ "videoId": "ahY3uIYjX6Q",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

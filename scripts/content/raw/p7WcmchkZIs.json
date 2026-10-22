@@ -1,0 +1,169 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 166.5,
+   "end": 190.0,
+   "title": "Learning How to Cook as a Child",
+   "level": "N4",
+   "topics": [
+    "food",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜てもらう — receiving a favor",
+    "〜から始まる — to start from"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 166.8,
+     "end": 168.3,
+     "ja": "そうだね、うん。",
+     "en": "Yeah, right.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 168.9,
+     "end": 173.6,
+     "ja": "小学校のときから、結構いろいろ作ってるかも。",
+     "en": "I've been cooking quite a few things since elementary school, I think.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 174.6,
+     "end": 179.2,
+     "ja": "うーん、そうなんだ。お母さんに教えてもらって？",
+     "en": "Hmm, I see. By getting your mom to teach you?",
+     "speaker": "Miku"
+    },
+    {
+     "start": 179.8,
+     "end": 184.6,
+     "ja": "そう、「お母さん何作ってるの？私もやりたい」って言って、",
+     "en": "Yeah, I said, \"Mom, what are you making? I want to do it too!\"",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 185.1,
+     "end": 189.5,
+     "ja": "確か一番最初は玉子焼きから始まったの。",
+     "en": "I think it first started with rolled omelette.",
+     "speaker": "Sayaka"
+    }
+   ]
+  },
+  {
+   "start": 316.8,
+   "end": 331.5,
+   "title": "Understanding the Post-Work Beer Joy",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜じゃん — isn't it? (seeking agreement)",
+    "〜てくる — to come to be / gradual change"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 317.3,
+     "end": 324.0,
+     "ja": "サラリーマンがよく言うじゃん。仕事終わりに居酒屋に行って飲む生ビールが最高って。",
+     "en": "You know how office workers often say the draft beer at an izakaya after work is the best?",
+     "speaker": "Miku"
+    },
+    {
+     "start": 324.2,
+     "end": 325.8,
+     "ja": "ああー。",
+     "en": "Ah.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 326.0,
+     "end": 328.0,
+     "ja": "その気持ちちょっと分かってきた。",
+     "en": "I've started to understand that feeling a bit.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 329.0,
+     "end": 331.0,
+     "ja": "へえー。",
+     "en": "Oh, really?",
+     "speaker": "Sayaka"
+    }
+   ]
+  },
+  {
+   "start": 737.0,
+   "end": 760.0,
+   "title": "The Best Feeling After a Hot Bath",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜だけじゃなくて — not only... but also",
+    "〜た後(に) — after doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 737.5,
+     "end": 741.2,
+     "ja": "お風呂に入って、あのシャワーだけじゃなくて、",
+     "en": "Taking a bath—not just a shower—",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 741.4,
+     "end": 744.5,
+     "ja": "ちゃんと湯船に入ってゆっくりして、",
+     "en": "relaxing in the bathtub properly,",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 745.4,
+     "end": 748.5,
+     "ja": "髪もちゃんと乾かしたあとに、",
+     "en": "and after drying my hair properly,",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 749.4,
+     "end": 753.2,
+     "ja": "そのまま布団に「はぁ〜」ってなったときが、",
+     "en": "that moment when I collapse onto my futon like \"phew,\"",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 753.7,
+     "end": 756.5,
+     "ja": "一番「はぁ〜幸せ〜」ってなる。",
+     "en": "that's when I feel the most, \"Ah, this is bliss.\"",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 757.7,
+     "end": 759.5,
+     "ja": "分かる〜！",
+     "en": "I totally get that!",
+     "speaker": "Miku"
+    }
+   ]
+  }
+ ],
+ "videoId": "p7WcmchkZIs",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

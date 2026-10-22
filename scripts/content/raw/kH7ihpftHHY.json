@@ -1,0 +1,237 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 37.0,
+   "end": 56.0,
+   "title": "Guessing the Kanji for Karen",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜ても — even if / also",
+    "〜ということ — that means"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.3,
+     "end": 40.8,
+     "ja": "んー、なんじゃそれ。え、何これ、かりん？",
+     "en": "Wait, what is this? Karin?",
+     "speaker": "Man"
+    },
+    {
+     "start": 40.9,
+     "end": 43.7,
+     "ja": "「火」はまあ「か」とも読めるんで、",
+     "en": "The character for \"fire\" can also be read as \"ka\",",
+     "speaker": "Man"
+    },
+    {
+     "start": 43.8,
+     "end": 46.8,
+     "ja": "「憐」は、なんとなく。なんとなく。",
+     "en": "and \"rin\" is... just a hunch. Just a hunch.",
+     "speaker": "Man"
+    },
+    {
+     "start": 47.0,
+     "end": 49.7,
+     "ja": "フルネームだとこう書くんですけど。",
+     "en": "This is how the full name is written.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 50.0,
+     "end": 52.3,
+     "ja": "阿良々木火憐…",
+     "en": "Araragi Karen...",
+     "speaker": "Man"
+    },
+    {
+     "start": 52.5,
+     "end": 55.6,
+     "ja": "あ、っていうことは、化け物…物語シリーズ！",
+     "en": "Ah, that means it's Bake... Monogatari series!",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 130.5,
+   "end": 143.5,
+   "title": "Reading the Name Nino",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "friends"
+   ],
+   "grammar": [
+    "〜でしょ — right?",
+    "〜じゃない — isn't it / not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 131.0,
+     "end": 133.2,
+     "ja": "これ、これは知ってるよ。「二乃」ですね。",
+     "en": "I know this one. It's Nino.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 133.3,
+     "end": 134.6,
+     "ja": "五等分でしょ？",
+     "en": "From The Quintessential Quintuplets, right?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 134.7,
+     "end": 135.5,
+     "ja": "知ってた？",
+     "en": "You knew it?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 135.6,
+     "end": 136.8,
+     "ja": "知ってるよ。",
+     "en": "Yeah, I know it.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 136.9,
+     "end": 138.8,
+     "ja": "知らん知らん知らん。",
+     "en": "I don't know it, I don't know it.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 139.1,
+     "end": 141.0,
+     "ja": "でも、なんとなくは読める。",
+     "en": "Even so, you can kind of read it.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 141.1,
+     "end": 142.4,
+     "ja": "そんな難しい漢字じゃない。",
+     "en": "They're not that difficult kanji.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 142.5,
+     "end": 143.5,
+     "ja": "確かにそうだね。",
+     "en": "That's certainly true.",
+     "speaker": "Boy"
+    }
+   ]
+  },
+  {
+   "start": 344.5,
+   "end": 365.5,
+   "title": "Reading Kurisu from Steins;Gate",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜という — called / named",
+    "〜たことがある — have experienced",
+    "〜ようと思う — try to / think to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 345.0,
+     "end": 347.0,
+     "ja": "ああ、これクリスですね。",
+     "en": "Oh, this is Kurisu.",
+     "speaker": "Man 1"
+    },
+    {
+     "start": 347.1,
+     "end": 348.0,
+     "ja": "クリス。",
+     "en": "Kurisu.",
+     "speaker": "Man 2"
+    },
+    {
+     "start": 348.1,
+     "end": 351.0,
+     "ja": "「紅」っていう文字に、まあ「莉」。",
+     "en": "The kanji for \"kurenai\", followed by \"ri\".",
+     "speaker": "Man 1"
+    },
+    {
+     "start": 351.1,
+     "end": 354.3,
+     "ja": "スムーズに読もうと思ったらクリスかな。",
+     "en": "If you try reading it smoothly, it would be Kurisu.",
+     "speaker": "Man 1"
+    },
+    {
+     "start": 354.5,
+     "end": 355.5,
+     "ja": "正解です！",
+     "en": "That's correct!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 355.6,
+     "end": 356.5,
+     "ja": "おおー！",
+     "en": "Oh!",
+     "speaker": "Man 1"
+    },
+    {
+     "start": 356.6,
+     "end": 357.7,
+     "ja": "ちなみにこれ、何のアニメ？",
+     "en": "By the way, what anime is this from?",
+     "speaker": "Man 2"
+    },
+    {
+     "start": 357.8,
+     "end": 360.0,
+     "ja": "これは『シュタインズ・ゲート』という…",
+     "en": "This is from \"Steins;Gate\"...",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 360.1,
+     "end": 362.2,
+     "ja": "『シュタインズ・ゲート』！聞いたことあるっすね。",
+     "en": "Steins;Gate! I've heard of that.",
+     "speaker": "Man 1"
+    },
+    {
+     "start": 362.4,
+     "end": 364.0,
+     "ja": "知らないけど読めた？",
+     "en": "You didn't know it, but you could read it?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 364.1,
+     "end": 365.4,
+     "ja": "当てずっぽうに近いですけど。",
+     "en": "It was close to just a guess, though.",
+     "speaker": "Man 1"
+    }
+   ]
+  }
+ ],
+ "videoId": "kH7ihpftHHY",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

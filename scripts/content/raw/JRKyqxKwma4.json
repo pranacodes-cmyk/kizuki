@@ -1,0 +1,166 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 21.8,
+   "end": 29.8,
+   "title": "What is Wrong with Being a Prince?",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "school"
+   ],
+   "grammar": [
+    "〜じゃん — isn't it / why not",
+    "〜てもらう — to have someone do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 22.0,
+     "end": 23.2,
+     "ja": "いいじゃん、王子でも。",
+     "en": "What's wrong with being a prince?",
+     "speaker": "Kohaku"
+    },
+    {
+     "start": 23.2,
+     "end": 23.9,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Yoi"
+    },
+    {
+     "start": 24.0,
+     "end": 25.4,
+     "ja": "めっちゃときめいたし。",
+     "en": "My heart fluttered like crazy.",
+     "speaker": "Kohaku"
+    },
+    {
+     "start": 25.4,
+     "end": 27.0,
+     "ja": "からかうのやめてもらっていいですか？",
+     "en": "Could you please stop teasing me?",
+     "speaker": "Yoi"
+    },
+    {
+     "start": 27.0,
+     "end": 28.0,
+     "ja": "反応に困るんで。",
+     "en": "I don't know how to react.",
+     "speaker": "Yoi"
+    },
+    {
+     "start": 28.0,
+     "end": 29.0,
+     "ja": "かわいい。",
+     "en": "Cute.",
+     "speaker": "Kohaku"
+    },
+    {
+     "start": 29.0,
+     "end": 29.6,
+     "ja": "は？",
+     "en": "What?",
+     "speaker": "Yoi"
+    }
+   ]
+  },
+  {
+   "start": 43.8,
+   "end": 50.5,
+   "title": "Shall We Try Going Out?",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜かどうか — whether or not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.0,
+     "end": 45.3,
+     "ja": "付き合ってみる？",
+     "en": "Wanna try going out?",
+     "speaker": "Kohaku"
+    },
+    {
+     "start": 45.5,
+     "end": 47.8,
+     "ja": "そしたら運命かどうか分かるかもよ？",
+     "en": "Then maybe we'll know if it's fate or not.",
+     "speaker": "Kohaku"
+    },
+    {
+     "start": 47.9,
+     "end": 49.0,
+     "ja": "なんて。",
+     "en": "Just kidding.",
+     "speaker": "Kohaku"
+    },
+    {
+     "start": 49.2,
+     "end": 50.3,
+     "ja": "いいですよ。",
+     "en": "Sure, let's do it.",
+     "speaker": "Yoi"
+    }
+   ]
+  },
+  {
+   "start": 104.7,
+   "end": 113.0,
+   "title": "You Make a Face You Never Make Around Me",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "〜ような — like / similar to",
+    "〜がる — show signs of / act like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 105.0,
+     "end": 107.5,
+     "ja": "あいつといる時の宵ちゃん、俺の前じゃしないような顔してるから。",
+     "en": "When you're with him, you make faces you never make around me.",
+     "speaker": "Kohaku"
+    },
+    {
+     "start": 108.0,
+     "end": 109.8,
+     "ja": "ちゃんと「好き」って言われてないですから！",
+     "en": "You haven't even properly told me you like me!",
+     "speaker": "Yoi"
+    },
+    {
+     "start": 110.0,
+     "end": 111.8,
+     "ja": "本当は迷惑がってるの気づかなくて、",
+     "en": "I didn't realize it was actually bothering you...",
+     "speaker": "Kohaku"
+    },
+    {
+     "start": 111.9,
+     "end": 112.8,
+     "ja": "ごめんね。",
+     "en": "I'm sorry.",
+     "speaker": "Kohaku"
+    }
+   ]
+  }
+ ],
+ "videoId": "JRKyqxKwma4",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

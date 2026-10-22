@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 15.3,
+   "title": "Introducing This Weeks Convenience Sweets",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていく — to go on doing",
+    "〜てくる — to do and come"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.0,
+     "end": 4.8,
+     "ja": "皆さんこんにちは、ジーナです！",
+     "en": "Hello everyone, I'm Gina!",
+     "speaker": "Gina"
+    },
+    {
+     "start": 5.3,
+     "end": 9.3,
+     "ja": "今日は火曜日、コンビニ新商品発売日となっております。",
+     "en": "Today is Tuesday, the release day for new convenience store items.",
+     "speaker": "Gina"
+    },
+    {
+     "start": 9.5,
+     "end": 13.0,
+     "ja": "今週もパンとスイーツからチェックしていきましょう！",
+     "en": "Let's check out bread and sweets this week too!",
+     "speaker": "Gina"
+    },
+    {
+     "start": 13.2,
+     "end": 15.0,
+     "ja": "買ってきた商品はこちら！",
+     "en": "Here are the products I bought!",
+     "speaker": "Gina"
+    }
+   ]
+  },
+  {
+   "start": 41.8,
+   "end": 56.5,
+   "title": "Ready to Taste This Weeks Lineup",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ましょう — let's",
+    "というわけで — as such / so"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 42.0,
+     "end": 45.0,
+     "ja": "はい、では早速食べていきましょう！",
+     "en": "Alright, let's start eating right away!",
+     "speaker": "Gina"
+    },
+    {
+     "start": 45.3,
+     "end": 49.2,
+     "ja": "はい、というわけで火曜日ですね、今週もコンビニスイーツやっていきましょう。",
+     "en": "So, it's Tuesday, let's do convenience store sweets again this week.",
+     "speaker": "Gina"
+    },
+    {
+     "start": 49.4,
+     "end": 52.2,
+     "ja": "今週はね、もう大変ですよ、盛りだくさん。",
+     "en": "This week is quite something, there's so much!",
+     "speaker": "Gina"
+    },
+    {
+     "start": 52.5,
+     "end": 56.2,
+     "ja": "はい、まずはローソンですが、ゴディバとのコラボスイーツ、全部で３つ出てます。",
+     "en": "First is Lawson, they have released three collaboration sweets with Godiva in total.",
+     "speaker": "Gina"
+    }
+   ]
+  },
+  {
+   "start": 1167.5,
+   "end": 1182.0,
+   "title": "Wrapping Up and Saying Goodbye",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜たら — if / when",
+    "〜ていただく — to receive a favor / action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1167.8,
+     "end": 1170.4,
+     "ja": "この動画良かったなと思ったらグッドボタン、",
+     "en": "If you thought this video was good, hit the like button,",
+     "speaker": "Gina"
+    },
+    {
+     "start": 1170.5,
+     "end": 1175.0,
+     "ja": "そしてチャンネル登録がまだの方はぜひぜひチャンネル登録よろしくお願いいたします。",
+     "en": "and if you haven't subscribed yet, please definitely subscribe!",
+     "speaker": "Gina"
+    },
+    {
+     "start": 1175.2,
+     "end": 1178.0,
+     "ja": "はい、では今日もご視聴いただきましてありがとうございました。",
+     "en": "Alright, thank you very much for watching today as well.",
+     "speaker": "Gina"
+    },
+    {
+     "start": 1178.2,
+     "end": 1181.5,
+     "ja": "また次回もお待ちしています。ジーナでした！",
+     "en": "I'll be waiting for you next time too. It was Gina!",
+     "speaker": "Gina"
+    }
+   ]
+  }
+ ],
+ "videoId": "hQSrFEImMCk",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

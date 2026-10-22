@@ -1,0 +1,158 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 39.3,
+   "end": 57.2,
+   "title": "When Doctors Issue Prescriptions",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜とき — when",
+    "〜場合 — in the case of / if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 39.3,
+     "end": 44.5,
+     "ja": "電子処方箋のトラブルのニュースです。",
+     "en": "This is news about troubles with electronic prescriptions.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 45.0,
+     "end": 49.5,
+     "ja": "病気やけがで病院に行ったとき、",
+     "en": "When you go to the hospital due to illness or injury,",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 50.0,
+     "end": 53.6,
+     "ja": "薬が必要な場合は、",
+     "en": "if you need medication,",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 54.0,
+     "end": 56.8,
+     "ja": "医者が「処方箋」を出します。",
+     "en": "the doctor will issue a prescription.",
+     "speaker": "Teacher"
+    }
+   ]
+  },
+  {
+   "start": 427.2,
+   "end": 449.8,
+   "title": "What Is the Myna Health Card?",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜と言われる — to be called",
+    "〜ようになる — to become able to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 427.4,
+     "end": 429.5,
+     "ja": "マイナ保険証は、",
+     "en": "The Myna Health Insurance Card",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 429.8,
+     "end": 435.0,
+     "ja": "日本の新しい保険証です。",
+     "en": "is Japan's new health insurance card.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 435.5,
+     "end": 438.3,
+     "ja": "マイナンバーカードと言われる",
+     "en": "By registering it to the Japanese ID card",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 438.5,
+     "end": 441.8,
+     "ja": "日本の身分証明書に、",
+     "en": "known as the My Number Card,",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 442.0,
+     "end": 444.6,
+     "ja": "登録することで、",
+     "en": "through this registration,",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 445.0,
+     "end": 449.3,
+     "ja": "保険証として使えるようになります。",
+     "en": "it can be used as a health insurance card.",
+     "speaker": "Teacher"
+    }
+   ]
+  },
+  {
+   "start": 451.0,
+   "end": 468.0,
+   "title": "Hopes for the New System",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜そう — looks like / seems like",
+    "〜といい — I hope / it would be good if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 451.2,
+     "end": 456.5,
+     "ja": "新しいシステムなので、心配しています。",
+     "en": "Since it's a new system, people are worried.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 457.0,
+     "end": 459.0,
+     "ja": "使えるようになれば、",
+     "en": "Once it becomes usable,",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 459.2,
+     "end": 462.8,
+     "ja": "便利そうなシステムなので、",
+     "en": "it seems like a convenient system, so",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 463.2,
+     "end": 467.5,
+     "ja": "早く使えるようになるといいですね。",
+     "en": "it would be great if it can be used soon.",
+     "speaker": "Teacher"
+    }
+   ]
+  }
+ ],
+ "videoId": "-e_uejZwX7U",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

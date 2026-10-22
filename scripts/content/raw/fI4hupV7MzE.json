@@ -1,0 +1,200 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.8,
+   "end": 29.5,
+   "title": "Opening the Unopened Board Game",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜ば — conditional if",
+    "〜だろう — conjectural auxiliary",
+    "〜たいと思います — expressing intention"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.1,
+     "end": 15.5,
+     "ja": "今年の年始のご挨拶のときにですね、",
+     "en": "During this year's New Year's greeting,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 15.7,
+     "end": 17.0,
+     "ja": "これも出てきたんですよね。",
+     "en": "this showed up as well.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 17.2,
+     "end": 18.7,
+     "ja": "「まだ袋すら開けてねえ」ということで、",
+     "en": "Realizing, 'I haven't even opened the shrink wrap yet,'",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 18.9,
+     "end": 20.3,
+     "ja": "まあ、開封をすればね、",
+     "en": "well, if I unbox it,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 20.4,
+     "end": 22.3,
+     "ja": "その後、ゲームをプレイするだろうという、",
+     "en": "I'll probably end up playing the game after that,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 22.4,
+     "end": 24.1,
+     "ja": "自分のちょっと戒めも含めて、",
+     "en": "so as a sort of self-admonition,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 24.3,
+     "end": 27.2,
+     "ja": "今日は、こちらの『新・電力会社 デラックス 完全日本語版』ですね、",
+     "en": "today, for this Power Grid Deluxe Japanese Edition,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 27.3,
+     "end": 29.3,
+     "ja": "開封レビューの方をお届けしたいと思います。",
+     "en": "I'd like to bring you an unboxing review.",
+     "speaker": "Haru99"
+    }
+   ]
+  },
+  {
+   "start": 141.8,
+   "end": 156.4,
+   "title": "Checking the Rulebook",
+   "level": "N3",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜わけではない — it doesn't mean that",
+    "〜かもしれない — might/maybe"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 142.1,
+     "end": 144.9,
+     "ja": "まあ、12ページぐらいの、大した分量があるわけでは",
+     "en": "Well, it's about 12 pages, so it doesn't have an enormous volume,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 145.0,
+     "end": 146.1,
+     "ja": "ありませんね。",
+     "en": "does it?",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 146.2,
+     "end": 147.1,
+     "ja": "割とさっくり。",
+     "en": "It's relatively straightforward.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 147.2,
+     "end": 150.3,
+     "ja": "まあ、『電力会社』そのものは、そんなに複雑なゲームではありませんから、",
+     "en": "Power Grid itself isn't that complicated of a game,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 150.5,
+     "end": 152.4,
+     "ja": "まあ、割と見やすい感じですね。",
+     "en": "so it seems pretty easy to read.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 152.6,
+     "end": 154.3,
+     "ja": "まあ、でも文字はちょっとあるかな。",
+     "en": "Well, there might be quite a bit of text though.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 154.4,
+     "end": 156.0,
+     "ja": "文字はちょっとね、びっしりあるかもしれませんね。",
+     "en": "The text might be packed in a bit densely.",
+     "speaker": "Haru99"
+    }
+   ]
+  },
+  {
+   "start": 432.9,
+   "end": 446.5,
+   "title": "Inspecting the Power Plant Cards",
+   "level": "N3",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜ている — ongoing state",
+    "〜気がする — to feel that / to get the sense that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 433.2,
+     "end": 436.4,
+     "ja": "まあ、あと入ってんのは、おなじみのね、発電カードですね。",
+     "en": "And the other thing included are the familiar power plant cards.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 436.7,
+     "end": 440.4,
+     "ja": "これも若干、私が知ってるものよりは絵柄は",
+     "en": "I get the feeling that the artwork on these too",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 440.5,
+     "end": 442.2,
+     "ja": "綺麗になってるような気がしますけども、",
+     "en": "has become a bit nicer than what I'm used to,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 442.3,
+     "end": 444.6,
+     "ja": "まあ、バランスまではね、ちょっと全くまだ分かりませんけども、",
+     "en": "though of course I don't know anything about the balance yet,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 444.8,
+     "end": 446.3,
+     "ja": "綺麗になってる気がしますね。",
+     "en": "it feels like it's gotten prettier.",
+     "speaker": "Haru99"
+    }
+   ]
+  }
+ ],
+ "videoId": "fI4hupV7MzE",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

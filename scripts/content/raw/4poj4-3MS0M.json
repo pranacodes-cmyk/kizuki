@@ -1,0 +1,182 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 107.5,
+   "end": 137.0,
+   "title": "Moving to Vancouver for a New Challenge",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "work",
+    "travel"
+   ],
+   "grammar": [
+    "〜ている — ongoing state",
+    "〜て — connecting actions"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 107.7,
+     "end": 110.9,
+     "ja": "きき、最近いろいろ変わったよね？",
+     "en": "Kiki, a lot has changed for you recently, right?",
+     "speaker": "Miku"
+    },
+    {
+     "start": 111.3,
+     "end": 114.5,
+     "ja": "今、どこに住んでるんですか？",
+     "en": "Where are you living now?",
+     "speaker": "Miku"
+    },
+    {
+     "start": 115.3,
+     "end": 119.4,
+     "ja": "今はカナダのバンクーバーに住んでいます。",
+     "en": "Right now, I'm living in Vancouver, Canada.",
+     "speaker": "Kiki"
+    },
+    {
+     "start": 120.0,
+     "end": 124.4,
+     "ja": "ねえ！すごい、新しい挑戦だね。",
+     "en": "Right! Wow, that's a new challenge.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 125.0,
+     "end": 128.0,
+     "ja": "そう。去年の年末に、",
+     "en": "Yeah. At the end of last year,",
+     "speaker": "Kiki"
+    },
+    {
+     "start": 128.3,
+     "end": 132.4,
+     "ja": "東京で働いていた会社を辞めて、",
+     "en": "I quit the company I was working at in Tokyo,",
+     "speaker": "Kiki"
+    },
+    {
+     "start": 133.0,
+     "end": 136.5,
+     "ja": "３ヶ月前にバンクーバーに来ましたって感じ。",
+     "en": "and moved to Vancouver three months ago.",
+     "speaker": "Kiki"
+    }
+   ]
+  },
+  {
+   "start": 197.5,
+   "end": 219.8,
+   "title": "Trees in Canada Are Massive",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily",
+    "nature"
+   ],
+   "grammar": [
+    "〜から — because / reason",
+    "〜じゃん — isn't it? / right?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 197.8,
+     "end": 204.6,
+     "ja": "たぶん根っこがたくさん広がるから、木が日本で見ないサイズ。",
+     "en": "Probably because the roots spread out so much, the trees are a size you never see in Japan.",
+     "speaker": "Kiki"
+    },
+    {
+     "start": 205.4,
+     "end": 207.1,
+     "ja": "結構高いんだ？",
+     "en": "Are they pretty tall?",
+     "speaker": "Miku"
+    },
+    {
+     "start": 207.4,
+     "end": 209.1,
+     "ja": "めっちゃ高い！",
+     "en": "Super tall!",
+     "speaker": "Kiki"
+    },
+    {
+     "start": 210.8,
+     "end": 215.4,
+     "ja": "やっぱり映画でよく見る大きい木があるじゃん。",
+     "en": "Like those big trees you often see in movies, right?",
+     "speaker": "Kiki"
+    },
+    {
+     "start": 215.9,
+     "end": 219.3,
+     "ja": "大きい高い木、あれがたくさんあるって感じで。",
+     "en": "Big, tall trees—there are so many of those.",
+     "speaker": "Kiki"
+    }
+   ]
+  },
+  {
+   "start": 450.0,
+   "end": 480.0,
+   "title": "The Meaning of Cherry Blossoms",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "friends"
+   ],
+   "grammar": [
+    "〜にとって — for / to (someone)",
+    "〜ような — like / as if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 452.8,
+     "end": 459.7,
+     "ja": "日本人にとって桜って、結構特別なものじゃない？",
+     "en": "Aren't cherry blossoms pretty special to Japanese people?",
+     "speaker": "Miku"
+    },
+    {
+     "start": 460.0,
+     "end": 460.8,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Kiki"
+    },
+    {
+     "start": 462.6,
+     "end": 469.7,
+     "ja": "なんか桜って何かの始まりとか何かの挑戦みたいなことを、",
+     "en": "Like, cherry blossoms symbolize something beginning,",
+     "speaker": "Kiki"
+    },
+    {
+     "start": 469.9,
+     "end": 473.8,
+     "ja": "象徴するようなイメージが今でもあって、",
+     "en": "or a new challenge, and I still have that image today.",
+     "speaker": "Kiki"
+    },
+    {
+     "start": 475.6,
+     "end": 479.5,
+     "ja": "やっぱり桜を見ると、なんだろう、",
+     "en": "When I see cherry blossoms, how should I put it...",
+     "speaker": "Kiki"
+    }
+   ]
+  }
+ ],
+ "videoId": "4poj4-3MS0M",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -9,10 +9,10 @@
 set -euo pipefail
 cd "$(dirname "$0")/../.."
 bash scripts/content/fetch_dict.sh >/dev/null
-python3 scripts/content/find_clips.py --workers 10
+python3 scripts/content/find_clips.py --workers 32
 bun scripts/content/build.ts
-python3 scripts/content/proof.py --workers 8
+python3 scripts/content/proof.py --workers 32
 bun scripts/content/build.ts
-python3 scripts/content/explain.py --workers 8
+python3 scripts/content/explain.py --workers 32
 bun scripts/content/build.ts
 echo PIPELINE_DONE

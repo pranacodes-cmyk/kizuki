@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.2,
+   "end": 28.8,
+   "title": "Starting Today's Vlog",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜ていく — to continue doing / go on to do",
+    "〜ながら — while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.2,
+     "end": 13.0,
+     "ja": "皆さんこんにちは、まことです。",
+     "en": "Hello everyone, I'm Makoto.",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 13.0,
+     "end": 15.6,
+     "ja": "今日もVlogを撮っていきたいと思います。",
+     "en": "I'd like to film another vlog today.",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 15.7,
+     "end": 20.0,
+     "ja": "今日私が今着ているこちらのトップスはプチバトーなんですけど、",
+     "en": "This top I'm wearing today is from Petit Bateau,",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 20.5,
+     "end": 24.8,
+     "ja": "プチバトーのアイテムをVlogの中で紹介しながら、",
+     "en": "and while introducing Petit Bateau items in the vlog,",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 25.0,
+     "end": 28.5,
+     "ja": "はい、今日は過ごしていきたいと思います。",
+     "en": "I'd like to spend my day today.",
+     "speaker": "Makoto"
+    }
+   ]
+  },
+  {
+   "start": 270.3,
+   "end": 281.5,
+   "title": "Matching Outfits at Dinner",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜た瞬間 — the moment that...",
+    "〜やん — isn't it / right (Kansai dialect)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 270.3,
+     "end": 272.0,
+     "ja": "どう？お揃いの服。",
+     "en": "How do you like our matching clothes?",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 272.2,
+     "end": 273.5,
+     "ja": "かわいい。",
+     "en": "Cute.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 273.7,
+     "end": 275.4,
+     "ja": "帰ってきた瞬間も思った。",
+     "en": "I thought so the moment I got home.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 275.5,
+     "end": 277.0,
+     "ja": "「お揃いやん」って。",
+     "en": "Like, \"Oh, they're matching!\"",
+     "speaker": "Dad"
+    },
+    {
+     "start": 277.2,
+     "end": 278.4,
+     "ja": "可愛かったぞ。",
+     "en": "You looked really cute.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 278.5,
+     "end": 279.8,
+     "ja": "欲しい？パパも。",
+     "en": "Do you want one too, Daddy?",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 279.9,
+     "end": 281.3,
+     "ja": "パパも欲しい。",
+     "en": "Daddy wants one too.",
+     "speaker": "Dad"
+    }
+   ]
+  },
+  {
+   "start": 553.2,
+   "end": 566.5,
+   "title": "Quick Dinner Prep",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "family"
+   ],
+   "grammar": [
+    "〜をパパッとする — to do quickly / whip up"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 553.2,
+     "end": 555.0,
+     "ja": "はい、帰宅しました。",
+     "en": "Alright, I'm back home.",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 555.1,
+     "end": 557.5,
+     "ja": "ご飯の準備をパパッとします。",
+     "en": "I'm going to quickly get dinner ready.",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 557.8,
+     "end": 560.4,
+     "ja": "今日はもう、納豆パスタ！",
+     "en": "Today it's natto pasta!",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 560.5,
+     "end": 563.0,
+     "ja": "イエーイ！マイフェイバリット！",
+     "en": "Yay! My favorite!",
+     "speaker": "Dad"
+    },
+    {
+     "start": 564.5,
+     "end": 566.0,
+     "ja": "イエーイ！",
+     "en": "Yay!",
+     "speaker": "Dad"
+    }
+   ]
+  }
+ ],
+ "videoId": "_88VKNJQbJM",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

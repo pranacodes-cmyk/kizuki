@@ -1,0 +1,230 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 86.5,
+   "end": 106.0,
+   "title": "Morning Coffee with Keisuke Honda",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "sports",
+    "fun"
+   ],
+   "grammar": [
+    "〜たりする — doing things like",
+    "〜みたい — like; as if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 87.0,
+     "end": 91.0,
+     "ja": "圭佑なんかもうモーニングとかで会ったりするわけ、たまに。",
+     "en": "With Keisuke, we sometimes meet up over breakfast.",
+     "speaker": "長友"
+    },
+    {
+     "start": 91.3,
+     "end": 93.0,
+     "ja": "朝会って、時間お互いないから。",
+     "en": "Meeting in the morning, because neither of us has time.",
+     "speaker": "長友"
+    },
+    {
+     "start": 93.0,
+     "end": 97.0,
+     "ja": "朝の8時からちょっとモーニングの1時間だけちょっと会おうみたいな。",
+     "en": "Like, 'Let's meet for just an hour of breakfast from 8 AM.'",
+     "speaker": "長友"
+    },
+    {
+     "start": 97.0,
+     "end": 100.5,
+     "ja": "朝から「世界をどう変えていくんだ」みたいな。",
+     "en": "First thing in the morning, like, 'How are we gonna change the world?'",
+     "speaker": "長友"
+    },
+    {
+     "start": 102.5,
+     "end": 105.0,
+     "ja": "もう目ギラギラさせてさ、2人とも。",
+     "en": "Both of us with our eyes glowing fiercely.",
+     "speaker": "長友"
+    },
+    {
+     "start": 105.0,
+     "end": 106.0,
+     "ja": "面白いっすね。",
+     "en": "That's hilarious.",
+     "speaker": "内田"
+    }
+   ]
+  },
+  {
+   "start": 170.0,
+   "end": 202.0,
+   "title": "Staying Sharp as a Veteran Player",
+   "level": "N2",
+   "topics": [
+    "sports",
+    "work"
+   ],
+   "grammar": [
+    "〜てなんぼ — is worth nothing without",
+    "〜なきゃいけない — must do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 170.0,
+     "end": 173.0,
+     "ja": "だからさ、俺もう尖りたいなと思ってて。",
+     "en": "So, I feel like I just want to stay sharp and edgy.",
+     "speaker": "長友"
+    },
+    {
+     "start": 173.0,
+     "end": 173.8,
+     "ja": "はい。",
+     "en": "Right.",
+     "speaker": "内田"
+    },
+    {
+     "start": 173.8,
+     "end": 176.5,
+     "ja": "なんかベテランになるとさ、チームのことがどうとかさ、",
+     "en": "When you become a veteran, people talk about thinking about the team and all,",
+     "speaker": "長友"
+    },
+    {
+     "start": 176.5,
+     "end": 180.8,
+     "ja": "丸くなってチーム全体のことを考えないといけない風潮があるじゃん。",
+     "en": "there's this trend where you're supposed to mellow out and prioritize the whole team.",
+     "speaker": "長友"
+    },
+    {
+     "start": 180.8,
+     "end": 181.8,
+     "ja": "はい。",
+     "en": "Yeah.",
+     "speaker": "内田"
+    },
+    {
+     "start": 181.8,
+     "end": 184.5,
+     "ja": "俺、なんか思ってきて「何言ってんだ」と。",
+     "en": "I started thinking, 'What are they even saying?'",
+     "speaker": "長友"
+    },
+    {
+     "start": 184.8,
+     "end": 188.5,
+     "ja": "尖ってなんぼ、ベテランだから尖る。",
+     "en": "It's all about having an edge—you stay sharp precisely because you're a veteran.",
+     "speaker": "長友"
+    },
+    {
+     "start": 188.8,
+     "end": 192.5,
+     "ja": "尖り続けた先にそれを後輩たちが見て、",
+     "en": "And when you keep that edge, the younger guys see it,",
+     "speaker": "長友"
+    },
+    {
+     "start": 192.8,
+     "end": 195.5,
+     "ja": "「あの人すごいな」「ここまでストイックにやるんだ」",
+     "en": "'That guy is amazing,' 'He stays that stoic,'",
+     "speaker": "長友"
+    },
+    {
+     "start": 195.6,
+     "end": 201.8,
+     "ja": "「強い気持ち情熱を持ってやれるんだ」後輩たちの心に響くと思って。",
+     "en": "'He plays with such passion and drive'—I think that truly resonates with the younger players.",
+     "speaker": "長友"
+    }
+   ]
+  },
+  {
+   "start": 276.5,
+   "end": 308.5,
+   "title": "Already Visualizing the 5th World Cup",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "work"
+   ],
+   "grammar": [
+    "〜まくる — doing vigorously / intensely",
+    "〜じゃないか — isn't it? (rhetorical)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 276.5,
+     "end": 278.0,
+     "ja": "どう思ってるんですか？",
+     "en": "How do you feel about it?",
+     "speaker": "内田"
+    },
+    {
+     "start": 278.5,
+     "end": 283.5,
+     "ja": "いや正直ね、何の焦りも心配もしてないんだよ。",
+     "en": "Honestly, I don't feel any impatience or worry at all.",
+     "speaker": "長友"
+    },
+    {
+     "start": 283.7,
+     "end": 284.8,
+     "ja": "ええー？",
+     "en": "Really?",
+     "speaker": "内田"
+    },
+    {
+     "start": 287.0,
+     "end": 292.5,
+     "ja": "周りの人のほうが心配した声とか、メディアで「長友どうなの？」とか。",
+     "en": "People around me sound more worried, and media ask, 'How about Nagatomo?'",
+     "speaker": "長友"
+    },
+    {
+     "start": 292.5,
+     "end": 295.5,
+     "ja": "悔しいとか、焦りとか。",
+     "en": "Like frustration or anxiety.",
+     "speaker": "内田"
+    },
+    {
+     "start": 298.5,
+     "end": 303.5,
+     "ja": "なんかわからないけど、自分の中でもう5回目のW杯行ってる。",
+     "en": "I don't know why, but in my mind, I'm already at my 5th World Cup.",
+     "speaker": "長友"
+    },
+    {
+     "start": 304.0,
+     "end": 306.0,
+     "ja": "もう行ってる！？次のW杯行った？",
+     "en": "You're already there?! You already went to the next World Cup?",
+     "speaker": "内田"
+    },
+    {
+     "start": 306.0,
+     "end": 308.2,
+     "ja": "行って活躍しまくってる。",
+     "en": "I'm there and completely dominating the pitch.",
+     "speaker": "長友"
+    }
+   ]
+  }
+ ],
+ "videoId": "iWxxEkn0OY4",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

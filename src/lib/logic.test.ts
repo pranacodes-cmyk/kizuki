@@ -7,6 +7,7 @@ import {
   newlyUnlocked, nextIntervalLabel, normalizeQuery, planItems, rankFeed, recommendedMinutes, toKatakana, wordStatus, wordsPerMonth,
   searchClips, clipWordKeys, wordKeyOf, dueWordKeys, wordCounts, mergeState, canWatchClip, clipsWithWord, kanaQueue, kanaLearned, customStudyKeys,
   asksToday, canAsk, asksLeft, cleanQuestion, askHistory, type AskTurn,
+  wordLevel, cardAtLevel, withWordLevel, WORD_LEVELS, repeatsSense, pickTourWord,
   type RankClip,
 } from "./logic";
 
@@ -118,6 +119,66 @@ describe("spaced repetition", () => {
     expect(wordStatus({ status: "learning", card: c })).toBe("known");
     expect(wordStatus({ status: "learning", card: { ...c, interval: 20 } })).toBe("learning");
     expect(wordStatus({ status: "ignored", card: c })).toBe("ignored");
+  });
+  it("word levels rise with reviews: 1 New, 2 Recognized, 3 Familiar, 4 Almost known, 5 Known", () => {
+    let c = newCard(NOW);
+    expect(wordLevel({ status: "learning", card: c })).toBe(1);
+    c = answerCard(c, "good", NOW); // learning, back in 10 minutes
+    expect(wordLevel({ status: "learning", card: c })).toBe(2);
+    c = answerCard(c, "good", NOW); // review, 1 day
+    expect(wordLevel({ status: "learning", card: c })).toBe(3);
+    expect(wordLevel({ status: "learning", card: { ...c, interval: 6 } })).toBe(3);
+    expect(wordLevel({ status: "learning", card: { ...c, interval: 7 } })).toBe(4);
+    expect(wordLevel({ status: "learning", card: { ...c, interval: 20 } })).toBe(4);
+    expect(wordLevel({ status: "learning", card: { ...c, interval: 21 } })).toBe(5);
+    expect(wordLevel({ status: "learning", card: answerCard(c, "again", NOW) })).toBe(2);
+    expect(wordLevel({ status: "known", card: newCard(NOW) })).toBe(5);
+    expect(wordLevel({ status: "ignored", card: c })).toBe(0);
+    expect(WORD_LEVELS.map((l) => `${l.level} ${l.label}`)).toEqual(["1 New", "2 Recognized", "3 Familiar", "4 Almost known", "5 Known", "0 Ignored"]);
+  });
+  it("picking a level reschedules the card to match", () => {
+    const base = { ...newCard(NOW - dayMs), ease: 2.1, reps: 4, lapses: 1 };
+    expect(cardAtLevel(base, 1, NOW)).toMatchObject({ state: "new", interval: 0, due: NOW, ease: 2.1, reps: 4, lapses: 1 });
+    expect(cardAtLevel(base, 2, NOW)).toMatchObject({ state: "learning", step: 1, due: NOW + 10 * minuteMs });
+    expect(cardAtLevel(base, 3, NOW)).toMatchObject({ state: "review", interval: 3, due: NOW + 3 * dayMs });
+    expect(cardAtLevel(base, 4, NOW)).toMatchObject({ state: "review", interval: 10, due: NOW + 10 * dayMs });
+    for (const l of [1, 2, 3, 4]) expect(wordLevel({ status: "learning", card: cardAtLevel(base, l, NOW) })).toBe(l);
+    expect(withWordLevel({ status: "learning", card: base }, 5, NOW)).toEqual({ status: "known", card: base });
+    expect(withWordLevel({ status: "learning", card: base }, 0, NOW)).toEqual({ status: "ignored", card: base });
+    // Known (auto, 21+ days) → back to New: due now again.
+    const known = { ...base, state: "review" as const, interval: 30, due: NOW + 30 * dayMs };
+    expect(withWordLevel({ status: "learning", card: known }, 1, NOW)).toEqual({ status: "learning", card: { ...known, state: "new", step: 0, interval: 0, due: NOW } });
+    // Same level keeps the schedule.
+    const fam = cardAtLevel(base, 3, NOW - dayMs);
+    expect(withWordLevel({ status: "learning", card: fam }, 3, NOW).card).toBe(fam);
+    expect(withWordLevel({ status: "ignored", card: fam }, 3, NOW).card.due).toBe(NOW + 3 * dayMs);
+  });
+  it("a card shows the meaning once when the clip meaning repeats the dictionary", () => {
+    expect(repeatsSense("every day", "every day; daily")).toBe(true);
+    expect(repeatsSense("Every day.", "every day; daily")).toBe(true);
+    expect(repeatsSense("daily", "every day, daily")).toBe(true);
+    expect(repeatsSense("to eat", "to eat (food)")).toBe(true);
+    expect(repeatsSense("", "anything")).toBe(true);
+    expect(repeatsSense("ate", "to eat")).toBe(false);
+    expect(repeatsSense("the samurai", null)).toBe(false);
+  });
+  it("the tour asks you to tap a new content word, never a filler like ん", () => {
+    const w = (p: string, d: string | null = "1") => ({ p, d });
+    const lines = [
+      { words: [w("interjection"), w("punct", null), w("noun"), w("particle")] },
+      { words: [w("particle"), w("verb")] },
+    ];
+    const allNew = () => true;
+    expect(pickTourWord(lines, 0, allNew)).toEqual({ line: 0, idx: 2 });
+    // The noun is already known: the first new word of the line instead (still this line).
+    expect(pickTourWord(lines, 0, (li, wi) => !(li === 0 && wi === 2))).toEqual({ line: 0, idx: 0 });
+    // A noun without a dictionary entry doesn't count as a content word.
+    expect(pickTourWord([{ words: [w("particle"), w("noun", null)] }], 0, allNew)).toEqual({ line: 0, idx: 0 });
+    // Starts at the playing line.
+    expect(pickTourWord(lines, 1, allNew)).toEqual({ line: 1, idx: 1 });
+    // Nothing new: any word on the line, so the step still has a target.
+    expect(pickTourWord(lines, 1, () => false)).toEqual({ line: 1, idx: 0 });
+    expect(pickTourWord([], 0, allNew)).toBeNull();
   });
   it("session keeps a card until it graduates", () => {
     const s = new ReviewSession(["x", "y"]);
@@ -287,6 +348,12 @@ describe("cloud merge", () => {
     expect(m.kana["h:あ"].reps).toBe(4);
     expect(m.reviewSessions).toBe(2);
     expect(m.updatedAt).toBe(20);
+  });
+  it("premium stays the device's own, even when the cloud copy is newer", () => {
+    const m = mergeState({ ...local, premium: { active: false } }, { ...remote, premium: { active: true, plan: "yearly" } });
+    expect(m.premium).toEqual({ active: false });
+    const m2 = mergeState({ ...local, premium: { active: true, plan: "monthly" } }, { ...remote, premium: { active: false } });
+    expect(m2.premium).toEqual({ active: true, plan: "monthly" });
   });
 });
 

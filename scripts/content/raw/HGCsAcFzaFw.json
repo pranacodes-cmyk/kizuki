@@ -1,0 +1,61 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 50.8,
+   "end": 66.8,
+   "title": "Sukuna's Two Conditions",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜たら — if/when",
+    "〜こと — rule/nominalizer"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 51.1,
+     "end": 53.0,
+     "ja": "条件は二つ。",
+     "en": "There are two conditions.",
+     "speaker": "Sukuna"
+    },
+    {
+     "start": 54.2,
+     "end": 56.6,
+     "ja": "俺が「契闊」と唱えたら、",
+     "en": "When I chant 'Enchain',",
+     "speaker": "Sukuna"
+    },
+    {
+     "start": 56.8,
+     "end": 59.8,
+     "ja": "１分間体を明け渡すこと。",
+     "en": "you will hand over your body for one minute.",
+     "speaker": "Sukuna"
+    },
+    {
+     "start": 61.1,
+     "end": 62.4,
+     "ja": "そして、",
+     "en": "And,",
+     "speaker": "Sukuna"
+    },
+    {
+     "start": 63.3,
+     "end": 66.3,
+     "ja": "この約束を忘れること。",
+     "en": "you will forget this promise.",
+     "speaker": "Sukuna"
+    }
+   ]
+  }
+ ],
+ "videoId": "HGCsAcFzaFw",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

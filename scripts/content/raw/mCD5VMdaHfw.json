@@ -1,0 +1,135 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 27.8,
+   "end": 56.3,
+   "title": "Getting a Table at a Restaurant",
+   "level": "N5",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜ない — negative verb form",
+    "〜でいい — acceptable / okay with"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 28.2,
+     "end": 31.8,
+     "ja": "いらっしゃいませ。二人ですか？",
+     "en": "Welcome. Table for two?",
+     "speaker": "Server"
+    },
+    {
+     "start": 32.0,
+     "end": 33.2,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Tom"
+    },
+    {
+     "start": 34.0,
+     "end": 36.7,
+     "ja": "たばこは吸いますか？",
+     "en": "Do you smoke?",
+     "speaker": "Server"
+    },
+    {
+     "start": 37.0,
+     "end": 39.5,
+     "ja": "いいえ、吸いません。",
+     "en": "No, I don't.",
+     "speaker": "Tom"
+    },
+    {
+     "start": 40.0,
+     "end": 44.2,
+     "ja": "たばこを吸わない席は、今は、ありません。",
+     "en": "There are no non-smoking seats right now.",
+     "speaker": "Server"
+    },
+    {
+     "start": 44.3,
+     "end": 50.1,
+     "ja": "たばこを吸う席はあります。たばこを吸う席でいいですか？",
+     "en": "There are smoking seats available. Would a smoking seat be alright?",
+     "speaker": "Server"
+    },
+    {
+     "start": 50.4,
+     "end": 52.2,
+     "ja": "はい、いいです。",
+     "en": "Yes, that's fine.",
+     "speaker": "Tom"
+    },
+    {
+     "start": 52.8,
+     "end": 56.0,
+     "ja": "わかりました。席に案内します。",
+     "en": "Understood. I'll show you to your seat.",
+     "speaker": "Server"
+    }
+   ]
+  },
+  {
+   "start": 222.8,
+   "end": 247.5,
+   "title": "Useful Words: Manseki and Aiseki",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜という意味 — meaning that...",
+    "〜でもよろしいですか — is ... alright?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 223.2,
+     "end": 228.8,
+     "ja": "それ以外、「満席」や「相席」という言葉もよく使われます。",
+     "en": "Other than that, words like \"manseki\" and \"aiseki\" are often used.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 229.0,
+     "end": 233.2,
+     "ja": "「満席」とは、席は今はないという意味です。",
+     "en": "\"Manseki\" means that there are currently no available seats.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 233.4,
+     "end": 238.0,
+     "ja": "「相席」とは、知らない人と一緒に座るという意味です。",
+     "en": "\"Aiseki\" means sharing a table with strangers.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 238.5,
+     "end": 243.8,
+     "ja": "例：「申し訳ございません。ただいま満席です。」",
+     "en": "Example: \"I'm very sorry. We are currently fully seated.\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 244.2,
+     "end": 247.0,
+     "ja": "「相席でもよろしいですか？」",
+     "en": "\"Would you mind sharing a table?\"",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "mCD5VMdaHfw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

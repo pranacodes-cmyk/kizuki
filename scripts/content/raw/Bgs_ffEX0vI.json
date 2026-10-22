@@ -1,0 +1,211 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 7.1,
+   "end": 23.8,
+   "title": "Welcome to Osaka Vlog",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "fun",
+    "family"
+   ],
+   "grammar": [
+    "〜ております — humble ongoing action",
+    "〜んですけれど — explanatory background"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 7.4,
+     "end": 9.1,
+     "ja": "皆さんこんにちは。スズカです。",
+     "en": "Hello everyone! I'm Suzuka.",
+     "speaker": "Suzuka"
+    },
+    {
+     "start": 9.3,
+     "end": 11.6,
+     "ja": "今私は大阪、梅田に来ております。",
+     "en": "Right now, I'm here in Umeda, Osaka.",
+     "speaker": "Suzuka"
+    },
+    {
+     "start": 12.0,
+     "end": 15.5,
+     "ja": "カメラマン、妹のさつきと2人で大阪ぶらり旅するんですけど、",
+     "en": "I'm going on a casual stroll around Osaka with my sister Satsuki, who's the camerawoman,",
+     "speaker": "Suzuka"
+    },
+    {
+     "start": 15.8,
+     "end": 20.1,
+     "ja": "今はですね、大阪梅田にあるグランフロント大阪の、",
+     "en": "and right now, we are at Grand Front Osaka in Umeda,",
+     "speaker": "Suzuka"
+    },
+    {
+     "start": 20.2,
+     "end": 23.5,
+     "ja": "コンベンションセンターにいるんですけれども、",
+     "en": "specifically at the convention center.",
+     "speaker": "Suzuka"
+    }
+   ]
+  },
+  {
+   "start": 841.2,
+   "end": 855.1,
+   "title": "Picking Out Hawaiian Stickers",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくれへん — won't you do for me (Kansai)",
+    "〜たい — expressing desire",
+    "〜っぽい — -ish / like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 841.5,
+     "end": 843.9,
+     "ja": "スパムのステッカー、ちょっと買ってくれへん？",
+     "en": "Could you buy me this Spam sticker?",
+     "speaker": "Satsuki"
+    },
+    {
+     "start": 844.0,
+     "end": 845.2,
+     "ja": "うちそれ欲しいし。",
+     "en": "Because I really want it.",
+     "speaker": "Satsuki"
+    },
+    {
+     "start": 845.3,
+     "end": 846.6,
+     "ja": "これ？水筒に貼りたいし。",
+     "en": "This one? I want to stick it on my water bottle.",
+     "speaker": "Satsuki"
+    },
+    {
+     "start": 846.8,
+     "end": 847.5,
+     "ja": "じゃあこれな？",
+     "en": "Okay, this one then?",
+     "speaker": "Suzuka"
+    },
+    {
+     "start": 847.6,
+     "end": 848.5,
+     "ja": "はい、ありがとうございます。",
+     "en": "Yes, thank you!",
+     "speaker": "Satsuki"
+    },
+    {
+     "start": 848.6,
+     "end": 851.4,
+     "ja": "なんかその、ハワイのトイレの、あの、分かる？",
+     "en": "Like that sign on Hawaiian restrooms, you know?",
+     "speaker": "Suzuka"
+    },
+    {
+     "start": 851.5,
+     "end": 854.6,
+     "ja": "っぽい感じの。違うと思うけど。",
+     "en": "It looks kind of like that. Though I might be wrong.",
+     "speaker": "Suzuka"
+    }
+   ]
+  },
+  {
+   "start": 1015.8,
+   "end": 1030.5,
+   "title": "Ordering at the Burger Joint",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜をお選びいただけます — honorific potential",
+    "〜で — specifying a choice"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1016.1,
+     "end": 1017.3,
+     "ja": "グァバジュース。",
+     "en": "Guava juice.",
+     "speaker": "Suzuka"
+    },
+    {
+     "start": 1017.4,
+     "end": 1018.5,
+     "ja": "グァバジュース。",
+     "en": "Guava juice.",
+     "speaker": "Waiter"
+    },
+    {
+     "start": 1018.6,
+     "end": 1019.4,
+     "ja": "はい。以上で。",
+     "en": "Yes, that's all.",
+     "speaker": "Suzuka"
+    },
+    {
+     "start": 1019.8,
+     "end": 1023.0,
+     "ja": "あ、一応、ポテトかサラダをお選びいただけますが。",
+     "en": "Oh, you can also choose between fries or a salad.",
+     "speaker": "Waiter"
+    },
+    {
+     "start": 1023.1,
+     "end": 1024.3,
+     "ja": "ポテト？",
+     "en": "Fries?",
+     "speaker": "Suzuka"
+    },
+    {
+     "start": 1024.4,
+     "end": 1025.5,
+     "ja": "どっちともポテトで。",
+     "en": "Fries for both of us.",
+     "speaker": "Suzuka"
+    },
+    {
+     "start": 1025.6,
+     "end": 1026.7,
+     "ja": "ポテトで。はい。",
+     "en": "Fries. Understood.",
+     "speaker": "Waiter"
+    },
+    {
+     "start": 1028.0,
+     "end": 1029.3,
+     "ja": "以上となります。",
+     "en": "That will be all.",
+     "speaker": "Waiter"
+    },
+    {
+     "start": 1029.4,
+     "end": 1030.1,
+     "ja": "はい。",
+     "en": "Thank you.",
+     "speaker": "Suzuka"
+    }
+   ]
+  }
+ ],
+ "videoId": "Bgs_ffEX0vI",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

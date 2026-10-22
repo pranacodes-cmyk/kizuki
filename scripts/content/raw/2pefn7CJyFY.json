@@ -1,0 +1,194 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 101.5,
+   "end": 131.2,
+   "title": "Inspired by Michael Jackson",
+   "level": "N3",
+   "topics": [
+    "music",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくれた — did something for me",
+    "〜んじゃないかな — I wonder if / might be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 101.7,
+     "end": 104.2,
+     "ja": "僕が幼稚園に通っていた時に、",
+     "en": "Back when I was in kindergarten,",
+     "speaker": "NI-KI"
+    },
+    {
+     "start": 104.3,
+     "end": 108.8,
+     "ja": "父が車の中でマイケル・ジャクソンのミュージックビデオを流してくれたんですけど、",
+     "en": "my dad played a Michael Jackson music video for me in the car,",
+     "speaker": "NI-KI"
+    },
+    {
+     "start": 110.8,
+     "end": 117.6,
+     "ja": "そこでアーティストになりたいと思って、ダンスというかアーティストになりたいっていう風に思って、",
+     "en": "and that's when I thought I wanted to become an artist, or rather a dancer and artist,",
+     "speaker": "NI-KI"
+    },
+    {
+     "start": 118.2,
+     "end": 121.8,
+     "ja": "3歳から踊るってなかなかないじゃないですか。",
+     "en": "and dancing from age three isn't very common, right?",
+     "speaker": "NI-KI"
+    },
+    {
+     "start": 122.1,
+     "end": 126.5,
+     "ja": "好奇心をマイケル・ジャクソンから受け取ったんじゃないかなと。",
+     "en": "So I feel like I received that curiosity from Michael Jackson.",
+     "speaker": "NI-KI"
+    },
+    {
+     "start": 126.7,
+     "end": 128.5,
+     "ja": "ほう、キング・オブ・ポップから。",
+     "en": "Oh, from the King of Pop.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 128.6,
+     "end": 130.0,
+     "ja": "そうですね。",
+     "en": "Yes, exactly.",
+     "speaker": "NI-KI"
+    },
+    {
+     "start": 130.1,
+     "end": 131.0,
+     "ja": "学んで。",
+     "en": "Learning from him.",
+     "speaker": "Interviewer"
+    }
+   ]
+  },
+  {
+   "start": 310.5,
+   "end": 329.8,
+   "title": "Nostalgic Memories of Okayama",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜たら — when / if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 310.7,
+     "end": 314.3,
+     "ja": "本当に今思い出してよかったなと思うのは、",
+     "en": "What I'm really glad to look back on now is",
+     "speaker": "NI-KI"
+    },
+    {
+     "start": 314.5,
+     "end": 320.1,
+     "ja": "学校に登校する時に自転車乗りながら田んぼを眺めてたあの景色が、",
+     "en": "the scenery of looking at the rice fields while riding my bike to school,",
+     "speaker": "NI-KI"
+    },
+    {
+     "start": 320.5,
+     "end": 324.3,
+     "ja": "本当に今になったらすっごい懐かしいですし、",
+     "en": "now it feels so nostalgic to me,",
+     "speaker": "NI-KI"
+    },
+    {
+     "start": 324.7,
+     "end": 329.6,
+     "ja": "また岡山に戻って自然を感じたいなとすごく思いますね。",
+     "en": "and I really want to go back to Okayama and feel that nature again.",
+     "speaker": "NI-KI"
+    }
+   ]
+  },
+  {
+   "start": 423.2,
+   "end": 455.0,
+   "title": "Message to Those Chasing Their Dreams",
+   "level": "N3",
+   "topics": [
+    "work",
+    "friends"
+   ],
+   "grammar": [
+    "〜てほしい — want someone to do",
+    "〜ことになる — result in / end up"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 423.5,
+     "end": 425.9,
+     "ja": "やっぱり僕もそうだったんですけど、",
+     "en": "Just as it was for me as well,",
+     "speaker": "NI-KI"
+    },
+    {
+     "start": 426.2,
+     "end": 433.2,
+     "ja": "環境を変えるっていうことが本当に自分自身の一番の武器っていうか、",
+     "en": "changing your environment is really your greatest weapon,",
+     "speaker": "NI-KI"
+    },
+    {
+     "start": 434.2,
+     "end": 437.5,
+     "ja": "本当に自信を持てることになると思うので、",
+     "en": "and I think it leads to gaining real self-confidence,",
+     "speaker": "NI-KI"
+    },
+    {
+     "start": 437.9,
+     "end": 443.2,
+     "ja": "今から挑戦される方だったりとか夢を持ってる方がいたら本当に、",
+     "en": "so to anyone who is about to take on a challenge or has a dream,",
+     "speaker": "NI-KI"
+    },
+    {
+     "start": 443.6,
+     "end": 449.5,
+     "ja": "いろんなことに挑戦して当たって砕けろマインドで頑張ってほしいですね。",
+     "en": "I hope you take on various challenges with a 'give it your all and see what happens' mindset.",
+     "speaker": "NI-KI"
+    },
+    {
+     "start": 450.4,
+     "end": 452.8,
+     "ja": "夢は絶対に叶うので、",
+     "en": "Dreams definitely come true,",
+     "speaker": "NI-KI"
+    },
+    {
+     "start": 453.2,
+     "end": 454.5,
+     "ja": "ファイティン！",
+     "en": "so fighting!",
+     "speaker": "NI-KI"
+    }
+   ]
+  }
+ ],
+ "videoId": "2pefn7CJyFY",
+ "pickTopics": [
+  "music"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

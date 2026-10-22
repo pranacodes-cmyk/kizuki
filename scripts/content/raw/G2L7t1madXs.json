@@ -1,0 +1,149 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.5,
+   "end": 25.5,
+   "title": "Ordering All-You-Can-Eat Yakiniku",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜をお願いします — please give me / I'd like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.0,
+     "end": 11.8,
+     "ja": "いらっしゃいませ。ご注文はお決まりですか？",
+     "en": "Welcome. Have you decided on your order?",
+     "speaker": "Waitstaff"
+    },
+    {
+     "start": 12.8,
+     "end": 18.6,
+     "ja": "はい。この「食べ放題コース」をお願いします。",
+     "en": "Yes. This \"All-you-can-eat course\", please.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 19.8,
+     "end": 25.0,
+     "ja": "食べ放題コースですね。ありがとうございます。",
+     "en": "The all-you-can-eat course. Thank you.",
+     "speaker": "Waitstaff"
+    }
+   ]
+  },
+  {
+   "start": 335.7,
+   "end": 405.6,
+   "title": "Asking for Shoe Sizes",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜はありますか — is there / do you have",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 336.0,
+     "end": 340.4,
+     "ja": "このスニーカー、とてもいいですね。",
+     "en": "These sneakers are very nice.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 341.8,
+     "end": 346.0,
+     "ja": "これの２７センチはありますか？",
+     "en": "Do you have this in 27 centimeters?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 347.6,
+     "end": 352.2,
+     "ja": "はい、確認します。少々お待ちください。",
+     "en": "Yes, I will check. Please wait a moment.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 354.8,
+     "end": 401.0,
+     "ja": "お待たせしました。こちらが２７センチです。",
+     "en": "Thank you for waiting. Here is the 27cm.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 402.4,
+     "end": 405.0,
+     "ja": "履いてみますか？",
+     "en": "Would you like to try them on?",
+     "speaker": "Clerk"
+    }
+   ]
+  },
+  {
+   "start": 441.5,
+   "end": 472.5,
+   "title": "Buying an Umbrella at a Convenience Store",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "いくらですか — how much is it",
+    "〜たい — want to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 442.0,
+     "end": 447.4,
+     "ja": "すみません、この透明な傘はいくらですか？",
+     "en": "Excuse me, how much is this transparent umbrella?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 449.0,
+     "end": 454.4,
+     "ja": "そのビニール傘は、６００円になります。",
+     "en": "That vinyl umbrella is 600 yen.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 455.7,
+     "end": 460.2,
+     "ja": "６００円ですね。じゃあ、これを買います。",
+     "en": "600 yen, right. Then, I will buy this.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 461.8,
+     "end": 466.4,
+     "ja": "かしこまりました。今、すぐ使いますか？",
+     "en": "Certainly. Will you use it right now?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 467.8,
+     "end": 471.6,
+     "ja": "はい、すぐ使いたいです。",
+     "en": "Yes, I want to use it right away.",
+     "speaker": "Customer"
+    }
+   ]
+  }
+ ],
+ "videoId": "G2L7t1madXs",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

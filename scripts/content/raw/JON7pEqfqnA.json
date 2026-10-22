@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.6,
+   "end": 10.5,
+   "title": "Opening a Board Game Unboxing Review",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 2.8,
+     "ja": "はい、The Game GalleryチャンネルのHaru99です。",
+     "en": "Hi, this is Haru99 from The Game Gallery Channel.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 2.8,
+     "end": 7.0,
+     "ja": "今日はですね、『ノイシュヴァンシュタイン城』のですね、日本語版がですね、アークライトさんから出ましたので、",
+     "en": "Today, the Japanese edition of Castles of Mad King Ludwig was released by Arclight, so...",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 7.0,
+     "end": 10.3,
+     "ja": "今日はこれのですね、早速ですね、開封レビューのほうをお届けしてみたいと思います。",
+     "en": "I'd like to bring you an unboxing review of it right away.",
+     "speaker": "Haru99"
+    }
+   ]
+  },
+  {
+   "start": 146.5,
+   "end": 203.2,
+   "title": "Looking Inside the Box",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜と言う — to say that",
+    "〜ぐらい — approximately / about"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 146.8,
+     "end": 148.0,
+     "ja": "あれ？",
+     "en": "Huh?",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 148.0,
+     "end": 153.3,
+     "ja": "なんか中は…中すごい、「あれ？」って言いましたけど、スカスカですね。",
+     "en": "The inside is... I said 'Huh?', but it's really practically empty.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 153.3,
+     "end": 157.2,
+     "ja": "えーっと、まあ最近よく流行りのビニールパックですね。",
+     "en": "Well, we have those plastic baggies that are popular recently.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 157.2,
+     "end": 200.3,
+     "ja": "まあ、のけたやつが入るビニールパックは結構入ってますね。",
+     "en": "There are quite a few plastic baggies included to store punched-out pieces.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 200.3,
+     "end": 202.8,
+     "ja": "10パックぐらい入ってる感じですね。",
+     "en": "It looks like there are about ten packs.",
+     "speaker": "Haru99"
+    }
+   ]
+  },
+  {
+   "start": 744.8,
+   "end": 755.0,
+   "title": "Wrapping Up the Video",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜というわけ — that is why / so",
+    "〜でした — was / were"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 744.8,
+     "end": 748.3,
+     "ja": "はい、というわけでですね、『ノイシュヴァンシュタイン城』ですね、",
+     "en": "Alright, so that was Castles of Mad King Ludwig,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 748.3,
+     "end": 751.6,
+     "ja": "まあ旧輸入名はですね、『狂王ルートヴィヒの城』ですね、",
+     "en": "previously known by its imported title 'Castles of Mad King Ludwig',",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 751.6,
+     "end": 753.2,
+     "ja": "まあこちらのですね、日本語版をお届けしました。",
+     "en": "and I brought you the Japanese edition.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 753.2,
+     "end": 754.8,
+     "ja": "The Game GalleryチャンネルのHaru99でした。",
+     "en": "This was Haru99 from The Game Gallery Channel.",
+     "speaker": "Haru99"
+    }
+   ]
+  }
+ ],
+ "videoId": "JON7pEqfqnA",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

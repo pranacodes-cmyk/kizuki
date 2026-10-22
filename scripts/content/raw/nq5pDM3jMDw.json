@@ -1,0 +1,172 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.4,
+   "end": 17.0,
+   "title": "Snapping the Losing Streak",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "daily"
+   ],
+   "grammar": [
+    "〜について — regarding / about",
+    "〜たい — want to"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 6.7,
+     "end": 8.7,
+     "ja": "毎回、連敗ストッパーになってますけど、",
+     "en": "You've been snapping the losing streak every time,",
+     "speaker": "Ippei Mizuhara"
+    },
+    {
+     "start": 8.7,
+     "end": 10.6,
+     "ja": "それについてはどう思ってますか？",
+     "en": "what are your thoughts on that?",
+     "speaker": "Ippei Mizuhara"
+    },
+    {
+     "start": 10.9,
+     "end": 13.0,
+     "ja": "えー、苦しい試合多いですけど、",
+     "en": "Well, there have been a lot of tough games,",
+     "speaker": "Shohei Ohtani"
+    },
+    {
+     "start": 13.0,
+     "end": 14.6,
+     "ja": "なんとか粘って今日も勝てたので、",
+     "en": "but we somehow hung in there and won today too,",
+     "speaker": "Shohei Ohtani"
+    },
+    {
+     "start": 14.6,
+     "end": 16.7,
+     "ja": "また明日切り替えて頑張りたいなと思います。",
+     "en": "so I want to reset and do my best again tomorrow.",
+     "speaker": "Shohei Ohtani"
+    }
+   ]
+  },
+  {
+   "start": 29.8,
+   "end": 42.1,
+   "title": "Providing Your Own Run Support",
+   "level": "N2",
+   "topics": [
+    "sports",
+    "daily"
+   ],
+   "grammar": [
+    "〜にも関わらず — despite / regardless of",
+    "〜たい — want to"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 30.1,
+     "end": 31.9,
+     "ja": "2点三塁打打ちましたけど、",
+     "en": "You hit a two-run triple,",
+     "speaker": "Ippei Mizuhara"
+    },
+    {
+     "start": 31.9,
+     "end": 33.7,
+     "ja": "自分の試合で打点上げるのは",
+     "en": "how does it feel to drive in runs",
+     "speaker": "Ippei Mizuhara"
+    },
+    {
+     "start": 33.7,
+     "end": 35.5,
+     "ja": "どういう気持ちですか？",
+     "en": "in a game you start pitching?",
+     "speaker": "Ippei Mizuhara"
+    },
+    {
+     "start": 36.2,
+     "end": 37.9,
+     "ja": "自分が投げてるのに関わらず、",
+     "en": "Regardless of whether I'm pitching or not,",
+     "speaker": "Shohei Ohtani"
+    },
+    {
+     "start": 37.9,
+     "end": 40.0,
+     "ja": "常に得点圏は返したいなと思ってるので、",
+     "en": "I always want to drive in runners in scoring position,",
+     "speaker": "Shohei Ohtani"
+    },
+    {
+     "start": 40.0,
+     "end": 41.7,
+     "ja": "いい打撃ができて良かったなと思ってます。",
+     "en": "so I'm glad I had a good at-bat.",
+     "speaker": "Shohei Ohtani"
+    }
+   ]
+  },
+  {
+   "start": 101.8,
+   "end": 118.0,
+   "title": "Secret Behind the Strikeouts",
+   "level": "N2",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜ように — in order to / so that",
+    "〜てくる — indicates an incoming change/flow"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 102.1,
+     "end": 105.0,
+     "ja": "4試合連続2桁奪三振、ピッチャーとしてやってますけど、",
+     "en": "You've had double-digit strikeouts in four straight games as a pitcher,",
+     "speaker": "Ippei Mizuhara"
+    },
+    {
+     "start": 105.5,
+     "end": 107.8,
+     "ja": "その好調の秘訣は何でしょう？",
+     "en": "what is the secret behind that great form?",
+     "speaker": "Ippei Mizuhara"
+    },
+    {
+     "start": 109.1,
+     "end": 112.2,
+     "ja": "積極的に攻められてるのがいいところかなと思うので、",
+     "en": "I think being able to attack aggressively is a strong point,",
+     "speaker": "Shohei Ohtani"
+    },
+    {
+     "start": 112.4,
+     "end": 116.1,
+     "ja": "奪三振は流れを持ってくるのにすごくいいアウトだなと思うので、",
+     "en": "and strikeouts are really great outs for shifting momentum,",
+     "speaker": "Shohei Ohtani"
+    },
+    {
+     "start": 116.1,
+     "end": 117.7,
+     "ja": "続けられるように頑張りたいなと思います。",
+     "en": "so I hope to keep that going.",
+     "speaker": "Shohei Ohtani"
+    }
+   ]
+  }
+ ],
+ "videoId": "nq5pDM3jMDw",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

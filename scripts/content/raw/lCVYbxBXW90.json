@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.0,
+   "end": 13.5,
+   "title": "Visiting Bic Camera in Kyoto",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜てくる — to come to do",
+    "〜ている — ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.3,
+     "end": 3.4,
+     "ja": "はい、こんにちは。松尾です。",
+     "en": "Hi, hello. This is Matsuo.",
+     "speaker": "Matsuo"
+    },
+    {
+     "start": 3.8,
+     "end": 7.0,
+     "ja": "えー今日はですね、5月の8日なんですけれども、",
+     "en": "Uh, today is May 8th, but",
+     "speaker": "Matsuo"
+    },
+    {
+     "start": 7.3,
+     "end": 13.0,
+     "ja": "ま、度々ね訪れている京都駅前のビックカメラに、えーやってきました。",
+     "en": "well, I've come to Bic Camera in front of Kyoto Station, which I visit often.",
+     "speaker": "Matsuo"
+    }
+   ]
+  },
+  {
+   "start": 235.5,
+   "end": 257.2,
+   "title": "Peeling the Protective Film",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていきたい — want to go on doing",
+    "〜てある / 〜ている — state / condition"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 235.7,
+     "end": 239.5,
+     "ja": "では、え、本体の方ね、え、ちょっとチェックしていきたいと思います。",
+     "en": "Now, let's take a look at the phone itself.",
+     "speaker": "Matsuo"
+    },
+    {
+     "start": 239.8,
+     "end": 243.5,
+     "ja": "まずね、表面のこのペリペリをめくりますが、",
+     "en": "First, let's peel off this plastic film on the front,",
+     "speaker": "Matsuo"
+    },
+    {
+     "start": 243.8,
+     "end": 248.5,
+     "ja": "もう背面出てきてますけども、このミストグラデーションっていうね、",
+     "en": "The back is already showing, and this 'Mist Gradient'...",
+     "speaker": "Matsuo"
+    },
+    {
+     "start": 248.8,
+     "end": 253.5,
+     "ja": "なんともこう鮮やかな、え、美しいね、グラデーションが、",
+     "en": "This remarkably vivid and beautiful gradient...",
+     "speaker": "Matsuo"
+    },
+    {
+     "start": 253.7,
+     "end": 257.0,
+     "ja": "ま、端末のカラーリングに採用されてると。",
+     "en": "is featured in the device's color scheme.",
+     "speaker": "Matsuo"
+    }
+   ]
+  },
+  {
+   "start": 498.8,
+   "end": 515.5,
+   "title": "Testing Face Unlock Speed",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていく — to go on doing",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 499.0,
+     "end": 506.2,
+     "ja": "ではね、初期設定でね、ちょっと登録しました顔認証、指紋認証ね、え、精度をね、ちょっとチェックしていきたいと思います。",
+     "en": "Now, I'd like to test the accuracy of the face unlock and fingerprint unlock registered during initial setup.",
+     "speaker": "Matsuo"
+    },
+    {
+     "start": 506.5,
+     "end": 511.3,
+     "ja": "電源ボタンを押すとね、割と早めにこの「上にスワイプしてください」っていうマークが出てきますので、",
+     "en": "When you press the power button, the 'swipe up' prompt appears quite quickly, so",
+     "speaker": "Matsuo"
+    },
+    {
+     "start": 511.5,
+     "end": 514.8,
+     "ja": "認証速度ね、結構速いですね。",
+     "en": "the recognition speed is pretty fast.",
+     "speaker": "Matsuo"
+    },
+    {
+     "start": 515.0,
+     "end": 515.5,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Matsuo"
+    }
+   ]
+  }
+ ],
+ "videoId": "lCVYbxBXW90",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

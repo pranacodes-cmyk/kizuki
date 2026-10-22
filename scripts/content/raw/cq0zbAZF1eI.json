@@ -1,0 +1,139 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 31.2,
+   "end": 57.2,
+   "title": "Breaking Open the Cheese Steamed Bun",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てみる — to try doing",
+    "〜ている — ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 31.6,
+     "end": 37.0,
+     "ja": "中華まんの色はチーズをイメージしているのか、黄色。",
+     "en": "The color of the steamed bun is yellow, maybe mimicking cheese.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 38.8,
+     "end": 42.3,
+     "ja": "早速半分に割ってみます。",
+     "en": "Let's split it in half right away.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 44.6,
+     "end": 48.2,
+     "ja": "ビヨ〜ンと伸びるチーズ。",
+     "en": "The cheese stretches right out.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 49.8,
+     "end": 56.5,
+     "ja": "国産黒豚100%の肉ダネも詰まっています。",
+     "en": "It's also stuffed with meat filling made from 100% domestic Berkshire pork.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 120.5,
+   "end": 142.5,
+   "title": "Reviewing the Pork and Cheese Flavor",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ている — ongoing state",
+    "〜くて — connecting i-adjectives"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 120.8,
+     "end": 126.0,
+     "ja": "正直、チーズと黒豚が合っていない印象。",
+     "en": "To be honest, the cheese and Berkshire pork don't feel like a great match.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 127.8,
+     "end": 135.0,
+     "ja": "黒豚はゴロッと肉々しくて、脂身も感じてジューシー。",
+     "en": "The Berkshire pork has chunky, meaty bites and fatty juiciness.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 136.5,
+     "end": 142.0,
+     "ja": "胡椒が利いていて、少しスパイシーな味わいです。",
+     "en": "The pepper comes through, giving it a slightly spicy taste.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 208.5,
+   "end": 232.8,
+   "title": "Final Verdict on the Cheese Pork Bun",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜と — conditional (when/if)",
+    "〜てみる — to try doing",
+    "召し上がる — honorific for eat"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 209.2,
+     "end": 214.0,
+     "ja": "チーズも肉ダネも単体だと美味しいのですが、",
+     "en": "Both the cheese and the meat filling are tasty on their own, but...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 215.0,
+     "end": 220.0,
+     "ja": "一緒に食べると何となく合わない感じがします。",
+     "en": "When eaten together, it somehow feels like they don't quite go.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 222.0,
+     "end": 226.5,
+     "ja": "黒豚まん自体は美味しいので、",
+     "en": "The Berkshire pork bun itself is delicious, so...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 227.5,
+     "end": 232.3,
+     "ja": "気になった方はぜひ召し上がってみてください♪",
+     "en": "If you're curious, definitely give it a try!",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "cq0zbAZF1eI",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

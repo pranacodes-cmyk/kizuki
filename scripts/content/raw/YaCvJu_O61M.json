@@ -1,0 +1,144 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 120.5,
+   "end": 137.3,
+   "title": "Business Japanese: Waiting and Following Up",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "お〜ください — please do (honorific)",
+    "ご〜いたす — humble action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 121.1,
+     "end": 123.5,
+     "ja": "ちょっと待ってください。",
+     "en": "Please wait a moment.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 125.0,
+     "end": 127.5,
+     "ja": "少々お待ちください。",
+     "en": "Please wait a moment.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 129.8,
+     "end": 132.0,
+     "ja": "あとで連絡します。",
+     "en": "I'll contact you later.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 133.8,
+     "end": 136.7,
+     "ja": "後ほどご連絡いたします。",
+     "en": "I will contact you shortly.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 212.5,
+   "end": 229.9,
+   "title": "Business Japanese: Company Name & Self-Intro",
+   "level": "N4",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "でございます — polite copula (keigo)",
+    "〜と申します — humble self-introduction"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 213.6,
+     "end": 216.0,
+     "ja": "kt株式会社です。",
+     "en": "This is KT Corporation.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 217.7,
+     "end": 220.6,
+     "ja": "kt株式会社でございます。",
+     "en": "This is KT Corporation.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 222.5,
+     "end": 225.2,
+     "ja": "わたし、鈴木と言います。",
+     "en": "I'm Suzuki.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 226.5,
+     "end": 229.4,
+     "ja": "わたくし、鈴木と申します。",
+     "en": "My name is Suzuki.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 328.5,
+   "end": 349.0,
+   "title": "Business Japanese: Thanks and Leaving First",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "お〜いただく — humbly receiving an action",
+    "お先に〜 — leaving ahead of others"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 329.5,
+     "end": 332.3,
+     "ja": "送ってくれて、ありがとう。",
+     "en": "Thanks for seeing me off.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 334.5,
+     "end": 338.0,
+     "ja": "お送りいただき、ありがとうございました。",
+     "en": "Thank you very much for seeing me off.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 340.8,
+     "end": 343.6,
+     "ja": "じゃあ、先に帰ります。",
+     "en": "Well, I'm heading home first.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 345.3,
+     "end": 348.5,
+     "ja": "では、お先に失礼いたします。",
+     "en": "Well then, please excuse me for leaving first.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "YaCvJu_O61M",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

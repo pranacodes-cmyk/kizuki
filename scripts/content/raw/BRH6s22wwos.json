@@ -1,0 +1,195 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 13.5,
+   "title": "Visiting Ueno Zoo",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "animals"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜ましょう — let's ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 3.0,
+     "ja": "皆さん、こんにちは。ピピです。",
+     "en": "Hello everyone. I'm Pipi.",
+     "speaker": "Pipi"
+    },
+    {
+     "start": 3.1,
+     "end": 5.4,
+     "ja": "今日は上野動物園に来ました。",
+     "en": "Today I came to Ueno Zoo.",
+     "speaker": "Pipi"
+    },
+    {
+     "start": 5.7,
+     "end": 7.5,
+     "ja": "今日は都民の日なので、",
+     "en": "Today is Tokyo Citizens' Day, so...",
+     "speaker": "Pipi"
+    },
+    {
+     "start": 7.7,
+     "end": 10.7,
+     "ja": "ちょっと混んでます。無料なんですね。",
+     "en": "It's a bit crowded. Admission is free!",
+     "speaker": "Pipi"
+    },
+    {
+     "start": 11.7,
+     "end": 13.1,
+     "ja": "行きましょう。",
+     "en": "Let's go.",
+     "speaker": "Pipi"
+    }
+   ]
+  },
+  {
+   "start": 257.0,
+   "end": 271.3,
+   "title": "Seeing Giraffes Up Close",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "fun"
+   ],
+   "grammar": [
+    "〜かもしれない — might / perhaps",
+    "〜れる (ら抜き言葉) — potential form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 257.1,
+     "end": 258.7,
+     "ja": "キリンさんたちです。",
+     "en": "Here are the giraffes.",
+     "speaker": "Pipi"
+    },
+    {
+     "start": 258.8,
+     "end": 261.3,
+     "ja": "私、こんなにキリンさんたち近くで見たの、",
+     "en": "Seeing giraffes up close like this,",
+     "speaker": "Pipi"
+    },
+    {
+     "start": 261.3,
+     "end": 263.0,
+     "ja": "初めてかもしれないです。",
+     "en": "might be a first for me.",
+     "speaker": "Pipi"
+    },
+    {
+     "start": 263.2,
+     "end": 265.4,
+     "ja": "閉園時間間近だったので、",
+     "en": "Because it was close to closing time,",
+     "speaker": "Pipi"
+    },
+    {
+     "start": 265.5,
+     "end": 267.4,
+     "ja": "もうお部屋のほうにいたので、",
+     "en": "they were already inside their enclosures, so...",
+     "speaker": "Pipi"
+    },
+    {
+     "start": 267.4,
+     "end": 269.0,
+     "ja": "近くで見れました。",
+     "en": "I was able to see them up close.",
+     "speaker": "Pipi"
+    },
+    {
+     "start": 269.4,
+     "end": 270.8,
+     "ja": "かわいいですね。",
+     "en": "They're cute, aren't they?",
+     "speaker": "Pipi"
+    }
+   ]
+  },
+  {
+   "start": 553.2,
+   "end": 569.5,
+   "title": "Cute Qoo Bottle Cap",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜くない？ — isn't it? (negative question)",
+    "〜てみて — try doing ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 553.5,
+     "end": 555.0,
+     "ja": "めちゃ可愛くない？",
+     "en": "Isn't this super cute?",
+     "speaker": "Pipi"
+    },
+    {
+     "start": 555.5,
+     "end": 557.5,
+     "ja": "ペットボトルのキャップに",
+     "en": "On the plastic bottle cap,",
+     "speaker": "Pipi"
+    },
+    {
+     "start": 557.7,
+     "end": 560.8,
+     "ja": "クーが描かれてます。可愛い。",
+     "en": "Qoo is drawn on it. Cute!",
+     "speaker": "Pipi"
+    },
+    {
+     "start": 561.5,
+     "end": 562.7,
+     "ja": "これね。",
+     "en": "See this?",
+     "speaker": "Pipi"
+    },
+    {
+     "start": 563.0,
+     "end": 564.7,
+     "ja": "これ美味しいですよ。",
+     "en": "This is delicious.",
+     "speaker": "Pipi"
+    },
+    {
+     "start": 564.8,
+     "end": 567.0,
+     "ja": "普通のりんごジュースだけど、私好きです。",
+     "en": "It's just regular apple juice, but I love it.",
+     "speaker": "Pipi"
+    },
+    {
+     "start": 567.2,
+     "end": 568.8,
+     "ja": "ぜひ買ってみてね。",
+     "en": "Definitely give it a try!",
+     "speaker": "Pipi"
+    }
+   ]
+  }
+ ],
+ "videoId": "BRH6s22wwos",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,153 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 28.5,
+   "end": 44.0,
+   "title": "The Origin of Gion Matsuri",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜ほど — about / approximately",
+    "〜始める — to begin to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 28.8,
+     "end": 33.3,
+     "ja": "祇園祭は、今から1150年ほど前、",
+     "en": "The Gion Festival began about 1,150 years ago,",
+     "speaker": "若村亮"
+    },
+    {
+     "start": 33.4,
+     "end": 38.0,
+     "ja": "平安の初めに全国的に病がはやり、",
+     "en": "in the early Heian period when plagues spread across the country,",
+     "speaker": "若村亮"
+    },
+    {
+     "start": 38.1,
+     "end": 43.6,
+     "ja": "その病退散を願って行われ始めた伝統の祭りです。",
+     "en": "as a traditional festival held to pray for warding off disease.",
+     "speaker": "若村亮"
+    }
+   ]
+  },
+  {
+   "start": 114.5,
+   "end": 137.2,
+   "title": "Evolution of the Floats",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜ようになる — to reach the point where",
+    "〜と称される — to be referred to as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 114.7,
+     "end": 116.8,
+     "ja": "室町の頃から、",
+     "en": "From around the Muromachi period,",
+     "speaker": "若村亮"
+    },
+    {
+     "start": 116.9,
+     "end": 122.2,
+     "ja": "大きな山や鉾が登場するようになって、更に",
+     "en": "large yama and hoko floats began to appear, and further,",
+     "speaker": "若村亮"
+    },
+    {
+     "start": 122.3,
+     "end": 127.3,
+     "ja": "その飾りは絢爛豪華に輝くようになりまして、",
+     "en": "their decorations became gorgeously brilliant,",
+     "speaker": "若村亮"
+    },
+    {
+     "start": 127.4,
+     "end": 134.0,
+     "ja": "現在のような動く美術館と称される山や鉾が巡行する",
+     "en": "and it developed into a grand festival where floats, called 'moving art museums,' parade,",
+     "speaker": "若村亮"
+    },
+    {
+     "start": 134.1,
+     "end": 136.9,
+     "ja": "大きな祭りへと発展していきました。",
+     "en": "just as they do today.",
+     "speaker": "若村亮"
+    }
+   ]
+  },
+  {
+   "start": 306.6,
+   "end": 328.6,
+   "title": "Purifying the Streets for the Deities",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜にかけて — spanning across / over",
+    "お〜になる — honorific verb form",
+    "〜ということ — it means that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 306.9,
+     "end": 310.8,
+     "ja": "7月17日の山鉾巡行は町を清め、",
+     "en": "The float procession on July 17th purifies the town,",
+     "speaker": "若村亮"
+    },
+    {
+     "start": 310.9,
+     "end": 316.6,
+     "ja": "その後に、夕方から夜にかけて八坂神社から神輿が出て、",
+     "en": "and afterward, from evening into the night, portable shrines depart Yasaka Shrine,",
+     "speaker": "若村亮"
+    },
+    {
+     "start": 316.7,
+     "end": 320.5,
+     "ja": "神様が京都の町にお出ましになります。",
+     "en": "and the deities venture out into the city of Kyoto.",
+     "speaker": "若村亮"
+    },
+    {
+     "start": 320.6,
+     "end": 324.4,
+     "ja": "そのために山鉾巡行によって京の町を清め、",
+     "en": "For that purpose, the city is purified by the float procession,",
+     "speaker": "若村亮"
+    },
+    {
+     "start": 324.5,
+     "end": 328.0,
+     "ja": "神様をお迎えしているということなんです。",
+     "en": "meaning they are welcoming the deities.",
+     "speaker": "若村亮"
+    }
+   ]
+  }
+ ],
+ "videoId": "6RwHAacUrZ8",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,207 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 194.5,
+   "end": 213.5,
+   "title": "Why Didn't You Come to the Party?",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜なかった — past negative",
+    "〜んです — explanatory tone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 195.3,
+     "end": 199.1,
+     "ja": "どうしてパーティーに来なかったんですか？",
+     "en": "Why didn't you come to the party?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 199.3,
+     "end": 200.7,
+     "ja": "1番。",
+     "en": "Number 1.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 201.0,
+     "end": 203.4,
+     "ja": "バスに遅れたんです。",
+     "en": "I missed the bus.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 204.0,
+     "end": 205.3,
+     "ja": "2番。",
+     "en": "Number 2.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 205.5,
+     "end": 208.0,
+     "ja": "昨日だったんです。",
+     "en": "It was yesterday.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 208.3,
+     "end": 209.7,
+     "ja": "3番。",
+     "en": "Number 3.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 210.0,
+     "end": 213.0,
+     "ja": "頭が痛かったんです。",
+     "en": "I had a headache.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 309.5,
+   "end": 332.0,
+   "title": "Where Should I Put the Trash?",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜と〜 — and (exhaustive list)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 310.4,
+     "end": 313.8,
+     "ja": "ごみはどこに出しますか？",
+     "en": "Where should I put out the garbage?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 315.0,
+     "end": 316.5,
+     "ja": "1番。",
+     "en": "Number 1.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 316.8,
+     "end": 321.6,
+     "ja": "月曜日と水曜日が燃えるごみです。",
+     "en": "Mondays and Wednesdays are burnable garbage.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 322.2,
+     "end": 323.7,
+     "ja": "2番。",
+     "en": "Number 2.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 323.9,
+     "end": 327.9,
+     "ja": "駐車場の横のごみ置き場です。",
+     "en": "It's the trash collection area next to the parking lot.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 328.2,
+     "end": 329.4,
+     "ja": "3番。",
+     "en": "Number 3.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 329.7,
+     "end": 331.7,
+     "ja": "木曜日の朝出してください。",
+     "en": "Please put it out on Thursday morning.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 598.5,
+   "end": 623.5,
+   "title": "Found a Kitten in the Rain",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜たらいいですか — what should I do",
+    "〜ましょう — let's"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 599.0,
+     "end": 604.1,
+     "ja": "猫を拾ったんですが、どうしたらいいですか？",
+     "en": "I found a cat, what should I do?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 605.5,
+     "end": 607.0,
+     "ja": "1番。",
+     "en": "Number 1.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 607.2,
+     "end": 611.1,
+     "ja": "私も探しているんです。",
+     "en": "I'm looking for one too.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 612.4,
+     "end": 613.7,
+     "ja": "2番。",
+     "en": "Number 2.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 614.0,
+     "end": 617.4,
+     "ja": "今、時間がありません。",
+     "en": "I don't have time right now.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 618.3,
+     "end": 619.7,
+     "ja": "3番。",
+     "en": "Number 3.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 620.0,
+     "end": 623.0,
+     "ja": "警察に持っていきましょう。",
+     "en": "Let's take it to the police.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "SRctsHb9nX8",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

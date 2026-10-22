@@ -1,0 +1,173 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.3,
+   "end": 24.2,
+   "title": "Defining the Sengoku Period",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜について — about / concerning",
+    "〜として — as / in the role of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.4,
+     "end": 3.0,
+     "ja": "はいどうも、皆さんこんにちは。",
+     "en": "Hi everyone, hello.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 3.1,
+     "end": 5.7,
+     "ja": "今回は、戦国時代についてお話ししていきます。",
+     "en": "Today, I will be talking about the Sengoku period.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 6.0,
+     "end": 10.7,
+     "ja": "戦国時代は何年から何年までと、しっかり決まっていませんが、",
+     "en": "There is no definitive start and end year set for the Sengoku period,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 11.0,
+     "end": 16.8,
+     "ja": "とりあえずこの動画では、1467年の応仁の乱から、",
+     "en": "but for now in this video, from the Onin War in 1467,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 16.8,
+     "end": 20.7,
+     "ja": "1573年に織田信長が足利義昭を追放するまでの、",
+     "en": "to Oda Nobunaga exiling Ashikaga Yoshiaki in 1573,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 20.7,
+     "end": 24.0,
+     "ja": "約100年間を戦国時代として取り扱います。",
+     "en": "we will treat this span of roughly 100 years as the Sengoku period.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 391.0,
+   "end": 411.5,
+   "title": "The Kososun Tripartite Alliance",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜ことで — by means of / through",
+    "〜ていく — to go on doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 391.2,
+     "end": 395.0,
+     "ja": "その後、武田、北条、今川の３つの氏族は、",
+     "en": "After that, the three clans of Takeda, Hojo, and Imagawa",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 395.0,
+     "end": 400.0,
+     "ja": "それぞれの家にそれぞれの娘を嫁がせることで、同盟を結びます。",
+     "en": "formed an alliance by marrying their daughters into each other's families.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 400.0,
+     "end": 403.0,
+     "ja": "これが、甲相駿三国同盟です。",
+     "en": "This was the Kososun Tripartite Alliance.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 403.3,
+     "end": 405.5,
+     "ja": "こうして背中を預け合う形で、",
+     "en": "In this way, watching each other's backs,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 405.5,
+     "end": 411.0,
+     "ja": "北条氏は東へ、武田氏は北へ、今川氏は西へと勢力を伸ばしていきます。",
+     "en": "the Hojo expanded east, the Takeda north, and the Imagawa west.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 483.0,
+   "end": 499.5,
+   "title": "The Battle of Okehazama",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜てしまう — expressing an unexpected outcome",
+    "〜のが〜だ — cleft sentence focusing on subject"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 483.2,
+     "end": 487.5,
+     "ja": "西へ勢力を伸ばした今川氏は、尾張を制圧していきます。",
+     "en": "The Imagawa clan, expanding westwards, proceeded to conquer Owari.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 487.7,
+     "end": 490.1,
+     "ja": "今川氏に圧迫された織田氏ですが、",
+     "en": "The Oda clan was pressured by the Imagawa clan,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 490.1,
+     "end": 493.0,
+     "ja": "なんと今川義元を討ち取ってしまいました。",
+     "en": "but amazingly, they ended up slaying Imagawa Yoshimoto.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 493.2,
+     "end": 495.5,
+     "ja": "これが、桶狭間の戦いです。",
+     "en": "This was the Battle of Okehazama.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 495.7,
+     "end": 499.0,
+     "ja": "この桶狭間の戦いで名前を上げたのが、織田信長でした。",
+     "en": "The one who made a name for himself in this battle was Oda Nobunaga.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "g9QZcJGK5Ek",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

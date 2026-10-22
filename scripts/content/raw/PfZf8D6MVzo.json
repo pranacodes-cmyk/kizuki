@@ -1,0 +1,187 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 18.9,
+   "end": 38.8,
+   "title": "Self Introduction at the Interview",
+   "level": "N5",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜から来ました — came from",
+    "〜ています — current state/living",
+    "〜ことです — hobby/nominalizing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 19.3,
+     "end": 22.8,
+     "ja": "初めまして。私の名前はギータです。",
+     "en": "Nice to meet you. My name is Gita.",
+     "speaker": "Gita"
+    },
+    {
+     "start": 23.0,
+     "end": 25.5,
+     "ja": "一年前にネパールから来ました。",
+     "en": "I came from Nepal one year ago.",
+     "speaker": "Gita"
+    },
+    {
+     "start": 26.0,
+     "end": 29.5,
+     "ja": "今、大阪の淀川区に住んでいます。",
+     "en": "I currently live in Yodogawa Ward, Osaka.",
+     "speaker": "Gita"
+    },
+    {
+     "start": 30.1,
+     "end": 32.5,
+     "ja": "今年２６歳です。",
+     "en": "I am 26 years old this year.",
+     "speaker": "Gita"
+    },
+    {
+     "start": 33.1,
+     "end": 35.7,
+     "ja": "趣味は美味しい料理を作ることです。",
+     "en": "My hobby is cooking delicious food.",
+     "speaker": "Gita"
+    },
+    {
+     "start": 36.1,
+     "end": 38.3,
+     "ja": "以上です。よろしくお願いいたします。",
+     "en": "That's all. Pleased to meet you.",
+     "speaker": "Gita"
+    }
+   ]
+  },
+  {
+   "start": 56.6,
+   "end": 72.3,
+   "title": "Explaining the Convenience Store Job",
+   "level": "N4",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜たり〜たりする — doing things like... and...",
+    "〜てみます — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 56.9,
+     "end": 59.1,
+     "ja": "それでは、ローソンでの仕事は知っていますか？",
+     "en": "Well then, do you know what the job at Lawson entails?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 59.4,
+     "end": 60.9,
+     "ja": "少しだけ知っています。",
+     "en": "I know a little bit.",
+     "speaker": "Gita"
+    },
+    {
+     "start": 61.3,
+     "end": 63.3,
+     "ja": "でも、まだ全部わかりません。",
+     "en": "But I don't understand everything yet.",
+     "speaker": "Gita"
+    },
+    {
+     "start": 63.6,
+     "end": 66.2,
+     "ja": "大丈夫です。簡単に説明しますね。",
+     "en": "That's okay. I'll explain it simply.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 66.5,
+     "end": 71.9,
+     "ja": "レジでお客様を対応したり、商品を棚に並べたりします。",
+     "en": "You'll help customers at the register, arrange products on shelves, and so on.",
+     "speaker": "Interviewer"
+    }
+   ]
+  },
+  {
+   "start": 126.0,
+   "end": 149.2,
+   "title": "Asking About Working Shifts and Hourly Wage",
+   "level": "N4",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜から〜まで — from ... to ...",
+    "〜ていただけませんか — polite request",
+    "〜について — regarding / about"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 126.4,
+     "end": 129.5,
+     "ja": "では、シフトの時間はどのくらい働けますか？",
+     "en": "Then, how long can you work during a shift?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 129.8,
+     "end": 133.5,
+     "ja": "平日は朝９時から午後６時まで働けます。",
+     "en": "On weekdays, I can work from 9 AM to 6 PM.",
+     "speaker": "Gita"
+    },
+    {
+     "start": 133.8,
+     "end": 136.2,
+     "ja": "週末はもっと長く働けます。",
+     "en": "On weekends, I can work even longer.",
+     "speaker": "Gita"
+    },
+    {
+     "start": 136.6,
+     "end": 139.7,
+     "ja": "わかりました。最後に何か質問はありますか？",
+     "en": "Understood. Finally, do you have any questions?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 140.0,
+     "end": 143.0,
+     "ja": "すみません、時給について教えていただけませんか？",
+     "en": "Excuse me, could you tell me about the hourly wage?",
+     "speaker": "Gita"
+    },
+    {
+     "start": 143.4,
+     "end": 145.8,
+     "ja": "時給は１１５５円です。",
+     "en": "The hourly wage is 1,155 yen.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 146.0,
+     "end": 148.8,
+     "ja": "電車代はすべて別途支給します。",
+     "en": "Train fare is paid separately in full.",
+     "speaker": "Interviewer"
+    }
+   ]
+  }
+ ],
+ "videoId": "PfZf8D6MVzo",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

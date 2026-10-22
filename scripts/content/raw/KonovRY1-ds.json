@@ -1,0 +1,166 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 19.0,
+   "end": 44.8,
+   "title": "The Invitation to Keishunkai",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "family"
+   ],
+   "grammar": [
+    "ということは — that means that",
+    "つもりだ — intention"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 19.2,
+     "end": 22.5,
+     "ja": "招待状が届いたということは、",
+     "en": "The fact that this invitation has arrived...",
+     "speaker": "Miyuki"
+    },
+    {
+     "start": 22.7,
+     "end": 28.0,
+     "ja": "おば様はついに、次期当主を指名するつもりなのだ。",
+     "en": "means that Auntie finally intends to designate the next head of the family.",
+     "speaker": "Miyuki"
+    },
+    {
+     "start": 29.6,
+     "end": 32.4,
+     "ja": "当主候補は、私、",
+     "en": "The candidates for family head are me,",
+     "speaker": "Miyuki"
+    },
+    {
+     "start": 33.2,
+     "end": 35.3,
+     "ja": "柴田勝成さん、",
+     "en": "Katsushige Shibata-san,",
+     "speaker": "Miyuki"
+    },
+    {
+     "start": 35.7,
+     "end": 37.4,
+     "ja": "津久葉夕歌さん、",
+     "en": "Yuuka Tsukuba-san,",
+     "speaker": "Miyuki"
+    },
+    {
+     "start": 37.7,
+     "end": 39.5,
+     "ja": "文弥君。",
+     "en": "and Fumiya-kun.",
+     "speaker": "Miyuki"
+    },
+    {
+     "start": 40.8,
+     "end": 44.5,
+     "ja": "そして、指名されるのは恐らく私。",
+     "en": "And the one who will be chosen is probably me.",
+     "speaker": "Miyuki"
+    }
+   ]
+  },
+  {
+   "start": 48.7,
+   "end": 104.0,
+   "title": "The Duty of the Family Head",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "family",
+    "romance"
+   ],
+   "grammar": [
+    "〜ば — conditional (if / when)",
+    "〜ことになる — to end up / be decided that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 49.0,
+     "end": 52.4,
+     "ja": "当主になれば結婚することを求められる。",
+     "en": "Becoming the family head means being required to marry.",
+     "speaker": "Miyuki"
+    },
+    {
+     "start": 52.7,
+     "end": 55.2,
+     "ja": "独身でいることは許されない。",
+     "en": "Remaining unmarried will not be permitted.",
+     "speaker": "Miyuki"
+    },
+    {
+     "start": 55.7,
+     "end": 60.2,
+     "ja": "だから私は、お兄様でない誰かと結婚して、",
+     "en": "So I would have to marry someone other than Onii-sama,",
+     "speaker": "Miyuki"
+    },
+    {
+     "start": 60.5,
+     "end": 63.5,
+     "ja": "その人の子供を産むことになる。",
+     "en": "and give birth to that person's children.",
+     "speaker": "Miyuki"
+    }
+   ]
+  },
+  {
+   "start": 104.2,
+   "end": 118.6,
+   "title": "Inner Conflict",
+   "level": "N4",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "仕方がない — cannot be helped",
+    "〜ことができる — can do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 104.4,
+     "end": 107.4,
+     "ja": "そうよ。これは仕方のないこと。",
+     "en": "That's right. This can't be helped.",
+     "speaker": "Miyuki"
+    },
+    {
+     "start": 107.7,
+     "end": 110.5,
+     "ja": "私にはどうすることもできない。",
+     "en": "There is nothing I can do about it.",
+     "speaker": "Miyuki"
+    },
+    {
+     "start": 113.8,
+     "end": 116.1,
+     "ja": "本当に仕方のないこと？",
+     "en": "Can it really not be helped?",
+     "speaker": "Miyuki"
+    },
+    {
+     "start": 116.2,
+     "end": 118.4,
+     "ja": "本当にそれで納得できるの？",
+     "en": "Can you truly accept that?",
+     "speaker": "Miyuki"
+    }
+   ]
+  }
+ ],
+ "videoId": "KonovRY1-ds",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

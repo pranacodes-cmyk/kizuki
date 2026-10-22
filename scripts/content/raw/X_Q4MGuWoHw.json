@@ -1,0 +1,177 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 164.7,
+   "end": 189.8,
+   "title": "What is Lookism?",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜というのは — definition / meaning of",
+    "〜たり〜たりする — doing things like A and B",
+    "〜だけじゃなくて — not only ~ but also"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 164.8,
+     "end": 167.0,
+     "ja": "ルッキズムっていうのは、",
+     "en": "Lookism is,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 167.0,
+     "end": 173.8,
+     "ja": "人を外見、見た目によって評価したり差別したりすることですよね。",
+     "en": "judging or discriminating against people based on their appearance, right?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 176.5,
+     "end": 181.8,
+     "ja": "今でもこれは日本だけじゃなくてイギリスでもどの世界でも、",
+     "en": "Even today, not just in Japan, but in the UK, everywhere in the world,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 182.0,
+     "end": 189.5,
+     "ja": "どの国でもどの家庭でも、このルッキズム本当にまだまだあると思います。",
+     "en": "in any country or any family, I think this lookism is still very much present.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 374.0,
+   "end": 395.2,
+   "title": "Deciding to Stop Wearing Makeup",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜ている — habitual state / ongoing action",
+    "〜し〜し — listing reasons or situations",
+    "〜けど — but / although"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 374.2,
+     "end": 378.8,
+     "ja": "私の見た目で今大きな変化の一つは、",
+     "en": "One big change in my appearance recently is,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 378.9,
+     "end": 381.8,
+     "ja": "メイクアップ、お化粧をやめたことですね。",
+     "en": "that I stopped wearing makeup.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 382.0,
+     "end": 384.8,
+     "ja": "この２年間ぐらい普段の生活で",
+     "en": "For about the past two years in my daily life,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 384.8,
+     "end": 387.8,
+     "ja": "ほとんどお化粧をしていません。",
+     "en": "I hardly wear any makeup at all.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 388.2,
+     "end": 390.4,
+     "ja": "日焼け止めはするんだけど、",
+     "en": "I put on sunscreen, but",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 390.4,
+     "end": 392.5,
+     "ja": "ファンデーションを使っていないし、",
+     "en": "I don't use foundation,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 392.6,
+     "end": 394.8,
+     "ja": "眉毛も描かない、もちろんね。",
+     "en": "and of course, I don't draw my eyebrows either.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 856.2,
+   "end": 876.0,
+   "title": "Commenting on Appearances",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture",
+    "friends"
+   ],
+   "grammar": [
+    "〜とか — listing examples like 'such as'",
+    "〜に見える — look / appear ~",
+    "〜かもしれない — might / could be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 856.5,
+     "end": 860.5,
+     "ja": "「あれ、太った？」とか、「あれ、最近、痩せた？」とか。",
+     "en": "Like 'Oh, did you gain weight?' or 'Did you lose weight recently?'",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 860.6,
+     "end": 863.0,
+     "ja": "「最近、きれいになったね」とか。",
+     "en": "Or 'You've gotten prettier lately.'",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 863.2,
+     "end": 867.5,
+     "ja": "「白髪が増えたね。え？疲れて見えるね、なに？」とか。",
+     "en": "'You've got more gray hair. Huh? You look tired, what happened?'",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 868.0,
+     "end": 871.2,
+     "ja": "逆にあと、「若く見えるね」とかね。",
+     "en": "Or conversely, 'You look young!'",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 871.4,
+     "end": 875.5,
+     "ja": "ま、若く見えるねって、もちろん褒め言葉かもしれない。",
+     "en": "Well, 'you look young' might be a compliment, of course.",
+     "speaker": "Noriko"
+    }
+   ]
+  }
+ ],
+ "videoId": "X_Q4MGuWoHw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

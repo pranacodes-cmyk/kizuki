@@ -1,0 +1,173 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 13.8,
+   "end": 35.5,
+   "title": "Failing Kanji Tests",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜が苦手 — poor at ~",
+    "〜中 — out of ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.8,
+     "end": 18.7,
+     "ja": "僕たちは小学校、中学校、高校では",
+     "en": "Back in elementary school, middle school, and high school,",
+     "speaker": "A"
+    },
+    {
+     "start": 18.8,
+     "end": 21.0,
+     "ja": "漢字テストがあるんですけど、",
+     "en": "we had kanji tests, but...",
+     "speaker": "A"
+    },
+    {
+     "start": 21.1,
+     "end": 24.3,
+     "ja": "いや、僕は漢字テストすごい苦手で、",
+     "en": "man, I was really terrible at kanji tests.",
+     "speaker": "A"
+    },
+    {
+     "start": 24.4,
+     "end": 27.0,
+     "ja": "なんか10点とか、20点、",
+     "en": "Like 10 points or 20 points,",
+     "speaker": "A"
+    },
+    {
+     "start": 27.1,
+     "end": 31.8,
+     "ja": "100点中、そう10点、20点を取っていました。",
+     "en": "out of 100, yeah, I was getting 10 or 20 points.",
+     "speaker": "A"
+    },
+    {
+     "start": 32.5,
+     "end": 35.5,
+     "ja": "ま、普通の人より覚えるのが苦手でした。",
+     "en": "Well, I was worse at memorizing than the average person.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 121.2,
+   "end": 140.5,
+   "title": "How to Memorize Vocabulary",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜時に — when doing ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 121.3,
+     "end": 123.5,
+     "ja": "でも、それだけではダメです。",
+     "en": "But that alone isn't enough.",
+     "speaker": "A"
+    },
+    {
+     "start": 123.6,
+     "end": 126.6,
+     "ja": "ちゃんと単語を見て、書いて、",
+     "en": "Look at the word properly, write it down,",
+     "speaker": "A"
+    },
+    {
+     "start": 126.7,
+     "end": 130.3,
+     "ja": "そしてその書いた単語を読んでください。",
+     "en": "and then read aloud the word you wrote.",
+     "speaker": "A"
+    },
+    {
+     "start": 130.4,
+     "end": 135.8,
+     "ja": "なぜかと言うと、読んだ時に自分の口が動きますよね。",
+     "en": "Because when you read it, your mouth moves, right?",
+     "speaker": "A"
+    },
+    {
+     "start": 135.9,
+     "end": 140.4,
+     "ja": "で、その読んだ単語も自分で聞こえますよね。",
+     "en": "And you can also hear the word you read yourself, right?",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 315.5,
+   "end": 331.5,
+   "title": "Practicing with Yourself",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜かもしれない — might / may",
+    "〜自身 — oneself"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 315.5,
+     "end": 317.8,
+     "ja": "でも、少し考えてください。",
+     "en": "But think about it for a second.",
+     "speaker": "A"
+    },
+    {
+     "start": 317.9,
+     "end": 321.4,
+     "ja": "あなたの一番近くにいる人は誰ですか？",
+     "en": "Who is the person closest to you?",
+     "speaker": "A"
+    },
+    {
+     "start": 321.5,
+     "end": 323.0,
+     "ja": "そう、あなたです。",
+     "en": "That's right, you.",
+     "speaker": "A"
+    },
+    {
+     "start": 323.1,
+     "end": 326.5,
+     "ja": "まぁ、少し変と思うかもしれませんが、",
+     "en": "Well, you might think it's a bit strange, but",
+     "speaker": "A"
+    },
+    {
+     "start": 326.6,
+     "end": 331.5,
+     "ja": "昔、僕は僕自身とこう英語で会話をしていました。",
+     "en": "in the past, I used to have English conversations with myself like this.",
+     "speaker": "A"
+    }
+   ]
+  }
+ ],
+ "videoId": "ZmoBCus_IhQ",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

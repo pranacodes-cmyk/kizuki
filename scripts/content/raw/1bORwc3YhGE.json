@@ -1,0 +1,217 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 322.5,
+   "end": 339.5,
+   "title": "This Restaurant Is Great",
+   "level": "N5",
+   "topics": [
+    "food",
+    "family",
+    "comedy"
+   ],
+   "grammar": [
+    "〜すぎる — too much / overly",
+    "〜ね — seeking agreement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 323.0,
+     "end": 325.0,
+     "ja": "美味しすぎて笑う。美味しい！",
+     "en": "It's so delicious it makes me laugh. Delicious!",
+     "speaker": "Mom"
+    },
+    {
+     "start": 325.2,
+     "end": 326.5,
+     "ja": "ん？なにが？",
+     "en": "Hm? What is?",
+     "speaker": "Dad"
+    },
+    {
+     "start": 326.7,
+     "end": 327.7,
+     "ja": "お肉。",
+     "en": "The meat.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 328.0,
+     "end": 329.5,
+     "ja": "いただきまーす。",
+     "en": "Here we go!",
+     "speaker": "Son"
+    },
+    {
+     "start": 332.0,
+     "end": 334.0,
+     "ja": "んー、すごい柔らかい。",
+     "en": "Mmm, it's so tender.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 334.2,
+     "end": 336.5,
+     "ja": "このお店、すごーい美味しいね！",
+     "en": "This restaurant is super tasty!",
+     "speaker": "Son"
+    },
+    {
+     "start": 336.6,
+     "end": 339.0,
+     "ja": "美味しいね！このお店？",
+     "en": "It is! Did you say 'this restaurant'?",
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
+   "start": 400.8,
+   "end": 412.5,
+   "title": "What Flavor Is It?",
+   "level": "N4",
+   "topics": [
+    "food",
+    "family"
+   ],
+   "grammar": [
+    "〜けど — but / although",
+    "〜ば／〜りゃいい — it's fine as long as..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 401.0,
+     "end": 402.3,
+     "ja": "何の味？",
+     "en": "What flavor is it?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 403.0,
+     "end": 405.5,
+     "ja": "わかんないけど、おいひー！",
+     "en": "I don't know, but it's yummy!",
+     "speaker": "Son"
+    },
+    {
+     "start": 406.0,
+     "end": 407.5,
+     "ja": "よかったね。",
+     "en": "That's good.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 407.5,
+     "end": 410.5,
+     "ja": "わかんないけど、美味しけりゃいいよね！",
+     "en": "You don't know, but as long as it's good, who cares!",
+     "speaker": "Mom"
+    },
+    {
+     "start": 410.7,
+     "end": 412.0,
+     "ja": "うん！",
+     "en": "Yeah!",
+     "speaker": "Son"
+    }
+   ]
+  },
+  {
+   "start": 425.3,
+   "end": 448.3,
+   "title": "Prepping Bell Peppers",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "family"
+   ],
+   "grammar": [
+    "〜たことない — have never done",
+    "〜でしょ — right? / isn't it?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 425.5,
+     "end": 428.5,
+     "ja": "え、そんなとこ取るの？",
+     "en": "Wait, you cut that part off?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 429.0,
+     "end": 431.0,
+     "ja": "取ったことないよ。",
+     "en": "I've never done that.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 432.0,
+     "end": 435.5,
+     "ja": "普通取るの？それ。取らないでしょ？",
+     "en": "Do people usually remove that? Surely not, right?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 435.8,
+     "end": 436.8,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Dad"
+    },
+    {
+     "start": 437.0,
+     "end": 438.0,
+     "ja": "俺は、取るの？",
+     "en": "Do you always remove it?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 438.0,
+     "end": 439.3,
+     "ja": "取ってた。",
+     "en": "I always have.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 439.8,
+     "end": 442.5,
+     "ja": "へー、いつも？何の料理でも？",
+     "en": "Huh, always? For any dish?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 442.7,
+     "end": 444.0,
+     "ja": "うん、大体取ってた。",
+     "en": "Yeah, usually.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 444.2,
+     "end": 446.5,
+     "ja": "へえ〜！はじめて知った！",
+     "en": "Wow! I never knew that!",
+     "speaker": "Mom"
+    },
+    {
+     "start": 446.7,
+     "end": 448.0,
+     "ja": "いや、ザッとよ。",
+     "en": "Well, just roughly.",
+     "speaker": "Dad"
+    }
+   ]
+  }
+ ],
+ "videoId": "1bORwc3YhGE",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

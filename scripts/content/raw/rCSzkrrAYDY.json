@@ -1,0 +1,100 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 362.8,
+   "end": 375.2,
+   "title": "Trying Giant Octopus Crackers",
+   "level": "N5",
+   "topics": [
+    "food",
+    "travel",
+    "friends"
+   ],
+   "grammar": [
+    "〜ね — seeking agreement",
+    "めっちゃ — super / very (colloquial)"
+   ],
+   "quality": 3,
+   "lines": [
+    {
+     "start": 363.0,
+     "end": 364.5,
+     "ja": "いただきます！",
+     "en": "Let's eat!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 366.2,
+     "end": 368.0,
+     "ja": "おいしい！",
+     "en": "It's so good!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 370.5,
+     "end": 372.0,
+     "ja": "え、いいね。",
+     "en": "Oh, this is great.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 372.1,
+     "end": 374.0,
+     "ja": "やばい、めっちゃ美味いこれ。",
+     "en": "Wow, this is crazy delicious.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 374.1,
+     "end": 375.0,
+     "ja": "感動！",
+     "en": "I'm so impressed!",
+     "speaker": "Girl"
+    }
+   ]
+  },
+  {
+   "start": 419.5,
+   "end": 428.5,
+   "title": "Tasting a Homemade Cookie",
+   "level": "N5",
+   "topics": [
+    "food",
+    "friends"
+   ],
+   "grammar": [
+    "〜た — past tense"
+   ],
+   "quality": 3,
+   "lines": [
+    {
+     "start": 420.5,
+     "end": 422.5,
+     "ja": "いただきます。",
+     "en": "Thanks for the food.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 423.6,
+     "end": 425.5,
+     "ja": "おいしい！",
+     "en": "It's delicious!",
+     "speaker": "Friend"
+    },
+    {
+     "start": 426.2,
+     "end": 428.0,
+     "ja": "パリ見えた。",
+     "en": "I caught a glimpse of Paris.",
+     "speaker": "Friend"
+    }
+   ]
+  }
+ ],
+ "videoId": "rCSzkrrAYDY",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

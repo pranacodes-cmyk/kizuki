@@ -1,0 +1,175 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 25.0,
+   "end": 47.5,
+   "title": "Are You Sleeping Well?",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜に比べて — compared to",
+    "〜てくる — gradual change",
+    "〜ている — continuous state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 25.0,
+     "end": 27.5,
+     "ja": "今日は睡眠のお話。",
+     "en": "Today, let's talk about sleep.",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 27.7,
+     "end": 30.8,
+     "ja": "少しずつ涼しくなってきたので、",
+     "en": "It's gradually getting cooler,",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 31.0,
+     "end": 38.8,
+     "ja": "夏に比べて眠っているのが気持ちいい季節になってきたなと思います。",
+     "en": "and I think we're entering a season when sleeping feels nicer than in summer.",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 39.0,
+     "end": 42.5,
+     "ja": "皆さん、ちゃんと眠れてますか？",
+     "en": "Are you all sleeping well?",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 43.0,
+     "end": 47.5,
+     "ja": "私はちゃんと眠れていません。",
+     "en": "I'm not sleeping well myself.",
+     "speaker": "Cherry"
+    }
+   ]
+  },
+  {
+   "start": 53.0,
+   "end": 125.5,
+   "title": "Sleep Schedule as an Office Worker",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜に合わせて — in accordance with",
+    "〜かける — taking time/effort",
+    "〜しかない — have no choice but to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 53.0,
+     "end": 103.5,
+     "ja": "会社勤めをしていた時は、仕事のスケジュールに合わせて毎日自分の生活を回していたから、",
+     "en": "When I worked for a company, my daily life revolved around my work schedule.",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 104.0,
+     "end": 110.0,
+     "ja": "そして往復約4時間かけてオフィスに行って、",
+     "en": "And I had a roughly four-hour round-trip commute to the office,",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 110.8,
+     "end": 116.0,
+     "ja": "ものすごくハードな仕事をして帰ってきて、",
+     "en": "came home after working incredibly hard,",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 116.8,
+     "end": 120.5,
+     "ja": "で、また翌朝4時半に起きてっていう生活だったから、",
+     "en": "then got up again at four thirty the next morning.",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 121.0,
+     "end": 125.5,
+     "ja": "寝るタイミングとかも、ほらね、決めるしかないじゃない？",
+     "en": "So, you know, I had no choice but to set a bedtime.",
+     "speaker": "Cherry"
+    }
+   ]
+  },
+  {
+   "start": 243.0,
+   "end": 271.8,
+   "title": "Falling Asleep Then vs. Now",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — when / if",
+    "〜まま — remaining in a state",
+    "〜と思う — I think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 243.0,
+     "end": 247.5,
+     "ja": "以前はね、11時になったらもうあくびが止まらなくて、",
+     "en": "I used to start yawning nonstop at eleven,",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 248.0,
+     "end": 251.2,
+     "ja": "本当に早くベッドに入りたいみたいな感じで、",
+     "en": "and just couldn't wait to get into bed.",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 251.5,
+     "end": 257.0,
+     "ja": "ベッドに入ったらもう1分ぐらいで、コテッて寝てたんだけど、",
+     "en": "Once I was in bed, I'd be asleep in about a minute.",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 258.0,
+     "end": 261.5,
+     "ja": "もうすっごい眠くて疲れてるんだけど、",
+     "en": "Now, even though I'm so sleepy and tired,",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 262.0,
+     "end": 267.5,
+     "ja": "クリエイティブな、こう、仕事をずっとやってて、自分のアイデアで自分でビジネスをやってるから、",
+     "en": "I'm doing creative work all the time, and running my own business with my own ideas,",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 267.8,
+     "end": 271.8,
+     "ja": "多分脳が覚醒したままなんだと思う。",
+     "en": "so I think my brain probably stays wide awake.",
+     "speaker": "Cherry"
+    }
+   ]
+  }
+ ],
+ "videoId": "SXfENvYriwM",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

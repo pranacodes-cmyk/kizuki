@@ -1,0 +1,175 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.0,
+   "end": 48.8,
+   "title": "Living in Osaka and Nagoya",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜にいる — to be at/in",
+    "〜ていた — past progressive/state",
+    "〜が好き — to like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.0,
+     "end": 27.5,
+     "ja": "はい、今、私は名古屋にいます。",
+     "en": "Yes, right now I'm in Nagoya.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 28.5,
+     "end": 32.8,
+     "ja": "去年、大阪にいました。",
+     "en": "Last year, I was in Osaka.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 33.0,
+     "end": 36.5,
+     "ja": "大阪に住んでいました。",
+     "en": "I lived in Osaka.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 37.0,
+     "end": 43.5,
+     "ja": "大阪はとてもきれいな街でした。",
+     "en": "Osaka was a very pretty city.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 44.0,
+     "end": 48.5,
+     "ja": "私は大阪が大好きです。",
+     "en": "I love Osaka.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 623.5,
+   "end": 653.0,
+   "title": "Moving from Osaka to Nagoya",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜から〜に — from ... to ...",
+    "〜にある — to be located in",
+    "〜ている — ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 623.8,
+     "end": 629.8,
+     "ja": "でも、去年、大阪から名古屋に来ました。",
+     "en": "But last year, I came from Osaka to Nagoya.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 630.2,
+     "end": 633.0,
+     "ja": "引っ越しました。",
+     "en": "I moved.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 633.0,
+     "end": 638.2,
+     "ja": "大阪から名古屋に引っ越しました。",
+     "en": "I moved from Osaka to Nagoya.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 639.0,
+     "end": 644.2,
+     "ja": "そう、名古屋に私のアパートがあります。",
+     "en": "Right, my apartment is in Nagoya.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 644.3,
+     "end": 647.5,
+     "ja": "今、私は名古屋に住んでいます。",
+     "en": "Now, I live in Nagoya.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 647.8,
+     "end": 652.5,
+     "ja": "名古屋でアパートを借りています。",
+     "en": "I'm renting an apartment in Nagoya.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 1221.5,
+   "end": 1246.5,
+   "title": "Morning Routine",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜て — connecting successive actions",
+    "〜に — time marker",
+    "〜を — direct object marker"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1222.0,
+     "end": 1226.2,
+     "ja": "朝はたいてい7時に起きて、",
+     "en": "In the morning, I usually wake up at seven,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 1226.5,
+     "end": 1229.2,
+     "ja": "顔を洗って、",
+     "en": "wash my face,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 1229.8,
+     "end": 1237.5,
+     "ja": "コーヒー、コーヒーを飲んで、仕事をします。",
+     "en": "drink coffee, and work.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 1237.8,
+     "end": 1241.2,
+     "ja": "ちょっと仕事をして、",
+     "en": "After working for a bit,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 1241.5,
+     "end": 1246.0,
+     "ja": "朝ごはんを作って食べます。",
+     "en": "I make and eat breakfast.",
+     "speaker": "Shun"
+    }
+   ]
+  }
+ ],
+ "videoId": "K32EfuTvPoM",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

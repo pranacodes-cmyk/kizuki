@@ -1,0 +1,138 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.5,
+   "end": 31.8,
+   "title": "A Special Autographed Baseball",
+   "level": "N4",
+   "topics": [
+    "sports",
+    "daily"
+   ],
+   "grammar": [
+    "〜ちゃった — unintentional or completed action (casual)",
+    "んだよな — explanatory tone with contemplation"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 16.8,
+     "end": 18.0,
+     "ja": "ジャジャン。",
+     "en": "Ta-da!",
+     "speaker": "Dad"
+    },
+    {
+     "start": 21.0,
+     "end": 26.2,
+     "ja": "ファイターズの中島卓也のサインボールです。",
+     "en": "This is a signed ball by Takuya Nakashima from the Fighters.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 28.5,
+     "end": 31.3,
+     "ja": "今年、引退しちゃったんだよな。",
+     "en": "He retired this year, didn't he?",
+     "speaker": "Dad"
+    }
+   ]
+  },
+  {
+   "start": 389.0,
+   "end": 405.8,
+   "title": "Dinner Table Banter",
+   "level": "N5",
+   "topics": [
+    "family",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ばいい — expresses advice or condition",
+    "〜なら — conditional (if it's)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 389.8,
+     "end": 393.2,
+     "ja": "これいらないの？",
+     "en": "You don't need this?",
+     "speaker": "Son"
+    },
+    {
+     "start": 393.5,
+     "end": 396.0,
+     "ja": "これバカ舌。",
+     "en": "It has no taste.",
+     "speaker": "Son"
+    },
+    {
+     "start": 397.6,
+     "end": 401.5,
+     "ja": "ポン酢つければいいじゃん、ポン酢で食べろよ。",
+     "en": "Just dip it in ponzu sauce. Eat it with ponzu.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 401.7,
+     "end": 402.7,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Daughter"
+    }
+   ]
+  },
+  {
+   "start": 634.0,
+   "end": 643.5,
+   "title": "Tomorrow is Report Card Day",
+   "level": "N4",
+   "topics": [
+    "school",
+    "family"
+   ],
+   "grammar": [
+    "あっ — interjection of sudden realization"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 634.0,
+     "end": 635.8,
+     "ja": "前期終業式。",
+     "en": "The end of first term ceremony.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 635.8,
+     "end": 637.6,
+     "ja": "あっ、あひー！",
+     "en": "Ah, oh no!",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 637.6,
+     "end": 639.2,
+     "ja": "明日通知表…",
+     "en": "Tomorrow is report card day...",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 641.4,
+     "end": 643.0,
+     "ja": "通知表もらった。",
+     "en": "I got my report card.",
+     "speaker": "Son"
+    }
+   ]
+  }
+ ],
+ "videoId": "FGlQae6I0fk",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

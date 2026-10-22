@@ -1,0 +1,224 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.348,
+   "end": 1.555,
+   "title": "Fishing in Rivers and the Sea",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family",
+    "fun"
+   ],
+   "grammar": [
+    "〜たことがある — have experienced doing",
+    "〜と一緒に — together with"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.35,
+     "end": 1.382,
+     "ja": "僕が生まれた町では、",
+     "en": "In the town where I was born,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.382,
+     "end": 1.403,
+     "ja": "あの、川があるんですね。",
+     "en": "there is a river.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.403,
+     "end": 1.413,
+     "ja": "川。",
+     "en": "A river.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.413,
+     "end": 1.44,
+     "ja": "で、川で魚釣りをしたことも",
+     "en": "And I have gone fishing in the river",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.44,
+     "end": 1.46,
+     "ja": "たくさんあります。",
+     "en": "many times.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.46,
+     "end": 1.49,
+     "ja": "そして、海は少し遠いけど、",
+     "en": "And though the sea was a bit far,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.49,
+     "end": 1.51,
+     "ja": "まあ、お父さんと一緒に、",
+     "en": "well, together with my dad,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.51,
+     "end": 1.525,
+     "ja": "車に乗って",
+     "en": "we went by car",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.525,
+     "end": 1.55,
+     "ja": "海で釣りをしたこともあります。",
+     "en": "and fished at the sea too.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 1.56,
+   "end": 1.795,
+   "title": "Preferring the River Over the Sea",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "AよりBのほうが〜 — prefer B over A",
+    "〜し — listing reasons"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.562,
+     "end": 2.0,
+     "ja": "えー、僕は川のほうが好きかな。",
+     "en": "Hmm, I think I like rivers better.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 2.0,
+     "end": 2.048,
+     "ja": "海の釣りより川の釣りのほうが好きでしたね。",
+     "en": "I liked river fishing more than sea fishing.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 2.05,
+     "end": 2.085,
+     "ja": "川のほうが、なんか、",
+     "en": "With the river, somehow,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 2.085,
+     "end": 2.135,
+     "ja": "あの、自然がもっと、なんか僕は好きだった。",
+     "en": "um, I liked that there was more nature.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 2.135,
+     "end": 2.168,
+     "ja": "えー、なんか川の音ね、",
+     "en": "And, like, the sound of the river,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 2.168,
+     "end": 2.19,
+     "ja": "川の音が好きだし、",
+     "en": "I liked the river's sound, and...",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 6.17,
+   "end": 6.395,
+   "title": "Buying Fish at the Supermarket",
+   "level": "N5",
+   "topics": [
+    "comedy",
+    "food",
+    "family"
+   ],
+   "grammar": [
+    "〜から — because / since",
+    "〜前（まえ）に — before doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.173,
+     "end": 6.194,
+     "ja": "で、魚が釣れない。",
+     "en": "And we can't catch any fish.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 6.194,
+     "end": 6.235,
+     "ja": "で、釣れないから、まあ、あの、帰る。",
+     "en": "And since we can't catch any, well, we go home.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 6.235,
+     "end": 6.265,
+     "ja": "で、帰る前にスーパーに行って、",
+     "en": "And before going home, we stop by the supermarket,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 6.265,
+     "end": 6.296,
+     "ja": "あの、魚を買って帰ります。",
+     "en": "um, buy fish, and head home.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 6.296,
+     "end": 6.332,
+     "ja": "で、まあ、魚を食べます。",
+     "en": "And then, well, we eat fish.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 6.332,
+     "end": 6.345,
+     "ja": "スーパーの。",
+     "en": "From the supermarket.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 6.345,
+     "end": 6.365,
+     "ja": "スーパーの魚を食べる。",
+     "en": "We eat supermarket fish.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 6.365,
+     "end": 6.39,
+     "ja": "まあ、これがね、いつものパターンですね。",
+     "en": "Well, this was our usual routine.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "xDk84byHxZE",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

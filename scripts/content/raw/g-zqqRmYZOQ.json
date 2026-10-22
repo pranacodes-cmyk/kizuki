@@ -1,0 +1,223 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.1,
+   "end": 44.5,
+   "title": "Invitation to Play Sandlot Baseball",
+   "level": "N4",
+   "topics": [
+    "sports",
+    "friends",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てくれないか — won't you do for me?",
+    "〜たい — wanting to do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.5,
+     "end": 26.6,
+     "ja": "いや あの今度ね、草野球の試合があるんですけども、",
+     "en": "Well, we have a sandlot baseball game coming up,",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 26.9,
+     "end": 31.0,
+     "ja": "ちょっと人数が足りないから、ちょっと町田、来てくれないかなと思って。",
+     "en": "and we're short on players, so I was wondering if you could come, Machida.",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 31.4,
+     "end": 33.7,
+     "ja": "あ、俺が？ え、いいの？",
+     "en": "Oh, me? Really, is it okay?",
+     "speaker": "Machida"
+    },
+    {
+     "start": 33.7,
+     "end": 34.6,
+     "ja": "あ、いいよ、もちろん。",
+     "en": "Oh sure, of course.",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 34.7,
+     "end": 37.3,
+     "ja": "俺久しぶりになんか野球やりたいなと思ってたのよ。",
+     "en": "I was actually wanting to play baseball after so long.",
+     "speaker": "Machida"
+    },
+    {
+     "start": 37.3,
+     "end": 39.7,
+     "ja": "ああ、じゃあ良かった。めっちゃありがたいわ。え、ポジションとかどこなの？",
+     "en": "Ah, that's great then. I'm really grateful. So, what position?",
+     "speaker": "Machida"
+    },
+    {
+     "start": 39.8,
+     "end": 40.8,
+     "ja": "ポジション？",
+     "en": "Position?",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 40.8,
+     "end": 43.6,
+     "ja": "いや、さすがにその俺、ピッチャーとか無理よ。",
+     "en": "I mean, obviously I can't pitch or anything.",
+     "speaker": "Machida"
+    }
+   ]
+  },
+  {
+   "start": 91.5,
+   "end": 121.2,
+   "title": "A Bizarre Role on the Field",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てほしい — wanting someone else to do something",
+    "〜ために — in order to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 92.0,
+     "end": 94.6,
+     "ja": "町田にやってほしいポジションは、",
+     "en": "The position I want you to play...",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 95.1,
+     "end": 98.9,
+     "ja": "あのベンチの横でこうやって座って待機してて、",
+     "en": "is waiting and sitting like this next to the bench,",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 99.4,
+     "end": 102.5,
+     "ja": "で、バッターが打って、一塁に行ったらさ、",
+     "en": "and when the batter hits and runs to first base,",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 102.7,
+     "end": 106.6,
+     "ja": "あのエルボーガードっていうね、怪我しないためにつけてるやつ、",
+     "en": "you know the elbow guard they wear to avoid injury?",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 106.7,
+     "end": 108.0,
+     "ja": "なんかイチローとかつけてるやつ。",
+     "en": "Like the one Ichiro wears.",
+     "speaker": "Machida"
+    },
+    {
+     "start": 108.1,
+     "end": 109.9,
+     "ja": "イチローとかがね、してるイメージあるじゃないですか。",
+     "en": "Right, like the image of Ichiro wearing it.",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 111.4,
+     "end": 112.7,
+     "ja": "え、ありますよね？",
+     "en": "Right, you know that, right?",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 113.3,
+     "end": 114.7,
+     "ja": "いや、あるじゃん、うん。",
+     "en": "Yeah, sure, I know it.",
+     "speaker": "Machida"
+    },
+    {
+     "start": 119.9,
+     "end": 121.1,
+     "ja": "そのエルボーガードを外して、",
+     "en": "They take off that elbow guard...",
+     "speaker": "Sasaki"
+    }
+   ]
+  },
+  {
+   "start": 121.1,
+   "end": 139.7,
+   "title": "The Elbow Guardian",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てくる — to do and come back",
+    "〜てほしい — wanting someone else to do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 121.8,
+     "end": 124.9,
+     "ja": "それをあの、一塁に町田がこう取りに行って、",
+     "en": "and Machida runs over to first base to collect it,",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 125.1,
+     "end": 127.9,
+     "ja": "で、もらって戻ってくるっていうポジションなんだけど。",
+     "en": "takes it, and comes back. That's the position.",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 128.2,
+     "end": 130.8,
+     "ja": "補欠じゃん。補欠だろ、それ。",
+     "en": "That's a benchwarmer! That's just a sub, right?",
+     "speaker": "Machida"
+    },
+    {
+     "start": 131.5,
+     "end": 134.4,
+     "ja": "だから町田にはそのエルボーガーディアンをやってほしいの。",
+     "en": "So I want you to be the Elbow Guardian.",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 134.4,
+     "end": 136.9,
+     "ja": "エルボーガーディアンってなんだよ、お前！",
+     "en": "What the heck is an Elbow Guardian?!",
+     "speaker": "Machida"
+    },
+    {
+     "start": 136.9,
+     "end": 139.7,
+     "ja": "カッコよく言ってるけど補欠だろ、やってること！",
+     "en": "You make it sound cool, but it's just being a sub!",
+     "speaker": "Machida"
+    }
+   ]
+  }
+ ],
+ "videoId": "g-zqqRmYZOQ",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

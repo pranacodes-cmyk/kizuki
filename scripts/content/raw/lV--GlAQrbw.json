@@ -1,0 +1,137 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.6,
+   "end": 13.2,
+   "title": "Espinoza Introduces Himself",
+   "level": "N5",
+   "topics": [
+    "sports",
+    "daily"
+   ],
+   "grammar": [
+    "〜です — to be (polite)",
+    "〜が好き — to like something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 4.6,
+     "ja": "あの、オリックス・バファローズの野球選手です。",
+     "en": "Um, I'm a baseball player for the Orix Buffaloes.",
+     "speaker": "Espinoza"
+    },
+    {
+     "start": 5.1,
+     "end": 8.5,
+     "ja": "エスピノーザです。よろしくお願いします。",
+     "en": "I'm Espinoza. Nice to meet you.",
+     "speaker": "Espinoza"
+    },
+    {
+     "start": 9.0,
+     "end": 13.0,
+     "ja": "好きな日本語は、「感謝」です。",
+     "en": "My favorite Japanese word is \"gratitude.\"",
+     "speaker": "Espinoza"
+    }
+   ]
+  },
+  {
+   "start": 46.2,
+   "end": 11.8,
+   "title": "Speaking Kansai Dialect to the Fans",
+   "level": "N4",
+   "topics": [
+    "sports",
+    "fun"
+   ],
+   "grammar": [
+    "〜で — because of / by means of",
+    "〜てや — please do (Kansai imperative)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 46.3,
+     "end": 50.3,
+     "ja": "今日もみんなの応援で勝てたで！",
+     "en": "We won again today thanks to everyone's cheering!",
+     "speaker": "Espinoza"
+    },
+    {
+     "start": 51.6,
+     "end": 54.1,
+     "ja": "ほんまにおおきに！",
+     "en": "Thank you so much!",
+     "speaker": "Espinoza"
+    },
+    {
+     "start": 58.1,
+     "end": 62.0,
+     "ja": "みんなのことがめっちゃ好きやで！",
+     "en": "I love you guys so much!",
+     "speaker": "Espinoza"
+    },
+    {
+     "start": 66.2,
+     "end": 69.1,
+     "ja": "ほな、気をつけて帰ってや！",
+     "en": "Alright, get home safely!",
+     "speaker": "Espinoza"
+    },
+    {
+     "start": 69.5,
+     "end": 71.5,
+     "ja": "お疲れ様でした！",
+     "en": "Thanks for coming today!",
+     "speaker": "Espinoza"
+    }
+   ]
+  },
+  {
+   "start": 286.5,
+   "end": 313.0,
+   "title": "Celebrating a Career-High Tenth Win",
+   "level": "N3",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜ことができる — can do / to be able to",
+    "〜のおかげで — thanks to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 286.7,
+     "end": 293.8,
+     "ja": "あの、今日キャリアハイの10勝目を挙げることができました。",
+     "en": "Um, today I was able to record my career-high tenth win.",
+     "speaker": "Espinoza"
+    },
+    {
+     "start": 298.2,
+     "end": 304.6,
+     "ja": "チームのみんなとオリックスファンの温かい応援のおかげです。",
+     "en": "It's thanks to my teammates and the warm support of Orix fans.",
+     "speaker": "Espinoza"
+    },
+    {
+     "start": 308.6,
+     "end": 312.7,
+     "ja": "ほんまにおおきに、ありがとうございました。",
+     "en": "Truly, thank you very much.",
+     "speaker": "Espinoza"
+    }
+   ]
+  }
+ ],
+ "videoId": "lV--GlAQrbw",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

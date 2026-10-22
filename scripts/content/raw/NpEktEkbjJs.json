@@ -1,0 +1,224 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 17.5,
+   "end": 38.2,
+   "title": "Dressed for a Mystery Trip",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくれる — doing something for someone",
+    "〜かもしれない — might / perhaps"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.8,
+     "end": 21.8,
+     "ja": "この撮影してる日がお誕生日、8月16日なんですけど、",
+     "en": "The day we're filming this is my birthday, August 16th,",
+     "speaker": "Akarin"
+    },
+    {
+     "start": 22.0,
+     "end": 25.8,
+     "ja": "なんと！パイセンが旅行に連れてってくれるみたいで〜す！",
+     "en": "and guess what! It looks like Paisen is taking me on a trip!",
+     "speaker": "Akarin"
+    },
+    {
+     "start": 26.0,
+     "end": 27.0,
+     "ja": "やったー！",
+     "en": "Yay!",
+     "speaker": "Akarin"
+    },
+    {
+     "start": 27.2,
+     "end": 29.3,
+     "ja": "私ね、今どこに行くか知らないんですよ。",
+     "en": "Right now, I have no idea where we're going.",
+     "speaker": "Akarin"
+    },
+    {
+     "start": 29.5,
+     "end": 33.4,
+     "ja": "もう浮かれてるから、どこに行くか分からんけど、リゾートみたいな服着てきたった！",
+     "en": "I'm so excited that even though I don't know where we're going, I wore resort-style clothes!",
+     "speaker": "Akarin"
+    },
+    {
+     "start": 33.8,
+     "end": 34.9,
+     "ja": "これで来たもんな。",
+     "en": "You really did come in that.",
+     "speaker": "Paisen"
+    },
+    {
+     "start": 35.2,
+     "end": 37.8,
+     "ja": "その服装はちょっと間違ってるかもしれん。",
+     "en": "That outfit might be a bit off.",
+     "speaker": "Paisen"
+    }
+   ]
+  },
+  {
+   "start": 132.8,
+   "end": 149.4,
+   "title": "Guessing the Destination",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜たことがある — past experience",
+    "〜まで — up to / as far as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 133.2,
+     "end": 144.2,
+     "ja": "何県？",
+     "en": "Which prefecture?",
+     "speaker": "Akarin"
+    },
+    {
+     "start": 134.6,
+     "end": 136.8,
+     "ja": "遊びに行ったことない県。",
+     "en": "A prefecture we've never visited for fun.",
+     "speaker": "Paisen"
+    },
+    {
+     "start": 137.0,
+     "end": 138.8,
+     "ja": "わかった！滋賀県！",
+     "en": "I got it! Shiga Prefecture!",
+     "speaker": "Akarin"
+    },
+    {
+     "start": 138.9,
+     "end": 139.8,
+     "ja": "正解。",
+     "en": "Correct.",
+     "speaker": "Paisen"
+    },
+    {
+     "start": 139.9,
+     "end": 140.8,
+     "ja": "おー！",
+     "en": "Ooh!",
+     "speaker": "Akarin"
+    },
+    {
+     "start": 140.9,
+     "end": 142.5,
+     "ja": "唯一ないよな、関西で。",
+     "en": "It's the only one in Kansai, right?",
+     "speaker": "Paisen"
+    },
+    {
+     "start": 142.6,
+     "end": 144.2,
+     "ja": "ないわ。和歌山も行ったもんな。",
+     "en": "Yeah. We've been to Wakayama, after all.",
+     "speaker": "Akarin"
+    },
+    {
+     "start": 144.6,
+     "end": 145.9,
+     "ja": "奈良も行ったな。",
+     "en": "We've been to Nara too.",
+     "speaker": "Akarin"
+    },
+    {
+     "start": 146.2,
+     "end": 148.9,
+     "ja": "三重まで行ったもんな。滋賀行ったことないわ。",
+     "en": "We even went as far as Mie. I've never been to Shiga.",
+     "speaker": "Akarin"
+    }
+   ]
+  },
+  {
+   "start": 839.0,
+   "end": 857.0,
+   "title": "Surprise Birthday Present",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜に行く — go in order to",
+    "〜といて — informal negative request (Kansai)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 839.4,
+     "end": 842.9,
+     "ja": "今ね、忘れもんしたって車に荷物取りに行ったら、",
+     "en": "Just now, when he went to the car saying he forgot something,",
+     "speaker": "Akarin"
+    },
+    {
+     "start": 843.0,
+     "end": 845.3,
+     "ja": "お誕生日プレゼントもらいました！",
+     "en": "I got a birthday present!",
+     "speaker": "Akarin"
+    },
+    {
+     "start": 845.5,
+     "end": 846.7,
+     "ja": "期待はせんといてな？",
+     "en": "Don't get your hopes up, okay?",
+     "speaker": "Paisen"
+    },
+    {
+     "start": 846.8,
+     "end": 847.8,
+     "ja": "なんでなんで？",
+     "en": "Why, why?",
+     "speaker": "Akarin"
+    },
+    {
+     "start": 849.3,
+     "end": 851.8,
+     "ja": "え？ え！ あ！ え、嬉しい！",
+     "en": "Eh? Wow! Ah! Oh, I'm so happy!",
+     "speaker": "Akarin"
+    },
+    {
+     "start": 852.0,
+     "end": 853.9,
+     "ja": "やったー！ いいやん！",
+     "en": "Yay! This is great!",
+     "speaker": "Akarin"
+    },
+    {
+     "start": 854.1,
+     "end": 856.6,
+     "ja": "嬉しい！ これかな？とも思っててん。",
+     "en": "I'm so happy! I was actually wondering if it might be this.",
+     "speaker": "Akarin"
+    }
+   ]
+  }
+ ],
+ "videoId": "NpEktEkbjJs",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

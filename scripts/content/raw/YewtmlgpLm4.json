@@ -1,0 +1,163 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 8.5,
+   "end": 24.1,
+   "title": "Thoughts on End-of-Life Planning",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "family"
+   ],
+   "grammar": [
+    "〜たことがない — have never done",
+    "〜てあげる — do something for someone"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 8.7,
+     "end": 10.6,
+     "ja": "終活のことはまだ考えたことないですか？",
+     "en": "Have you never thought about end-of-life planning before?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 10.7,
+     "end": 12.3,
+     "ja": "まぁ考えたことないですね。",
+     "en": "Well, I haven't really thought about it.",
+     "speaker": "Man"
+    },
+    {
+     "start": 12.3,
+     "end": 13.3,
+     "ja": "年寄りのイメージ？",
+     "en": "Do you see it as an elderly person thing?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 13.3,
+     "end": 14.3,
+     "ja": "そうですね。",
+     "en": "Yeah, pretty much.",
+     "speaker": "Man"
+    },
+    {
+     "start": 14.4,
+     "end": 16.2,
+     "ja": "おじいちゃん、おばあちゃんはご健在ですか？",
+     "en": "Are your grandparents still alive and well?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 16.2,
+     "end": 17.5,
+     "ja": "あ、健在、健在です。",
+     "en": "Ah, yes, they're alive and doing well.",
+     "speaker": "Man"
+    },
+    {
+     "start": 17.5,
+     "end": 22.4,
+     "ja": "そういうことを考えるのも終活なんですけど、まだ全然実感ない？",
+     "en": "Thinking about that is part of it too, but it doesn't feel real at all yet?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 22.5,
+     "end": 24.0,
+     "ja": "そうですね。まだ何にも。",
+     "en": "Yeah. Not at all yet.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 40.0,
+   "end": 58.7,
+   "title": "Where He Heard the Word Shukatsu",
+   "level": "N3",
+   "topics": [
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜について — regarding / about",
+    "〜ば — if condition"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 40.0,
+     "end": 41.7,
+     "ja": "でも終活っていう言葉はご存知？",
+     "en": "But you do know the word 'shukatsu'?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 41.8,
+     "end": 44.2,
+     "ja": "大学の学科が政治学科で、",
+     "en": "My department at university is political science,",
+     "speaker": "Man"
+    },
+    {
+     "start": 44.3,
+     "end": 47.3,
+     "ja": "人の生とか死とかについては触れたりするので、",
+     "en": "and we touch on topics like human life and death,",
+     "speaker": "Man"
+    },
+    {
+     "start": 47.3,
+     "end": 48.9,
+     "ja": "そこでちょっと触れました。",
+     "en": "so I came across it a bit there.",
+     "speaker": "Man"
+    },
+    {
+     "start": 49.0,
+     "end": 53.6,
+     "ja": "終活という言葉をポピュラーにしていければ、そういう活動してまして、",
+     "en": "We're doing activities hoping to make the term more popular,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 53.7,
+     "end": 55.7,
+     "ja": "そういうYouTubeの番組をやっています。",
+     "en": "and running a YouTube show about it.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 54.5,
+     "end": 56.0,
+     "ja": "あ、YouTubeなんですね。",
+     "en": "Oh, it's on YouTube.",
+     "speaker": "Man"
+    },
+    {
+     "start": 56.0,
+     "end": 57.2,
+     "ja": "ありがとうございました。",
+     "en": "Thank you very much.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 57.2,
+     "end": 58.5,
+     "ja": "あ、いえ、ありがとうございます。",
+     "en": "Oh, not at all, thank you.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "YewtmlgpLm4",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

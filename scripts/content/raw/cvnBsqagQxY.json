@@ -1,0 +1,55 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 39.3,
+   "end": 48.8,
+   "title": "No Need to Even Think About It",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜なら — if",
+    "〜までもない — no need to",
+    "かしら — I wonder (feminine)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 39.7,
+     "end": 42.1,
+     "ja": "今なら引き返せるけど、",
+     "en": "We could still turn back now, though.",
+     "speaker": "Alice"
+    },
+    {
+     "start": 42.2,
+     "end": 43.8,
+     "ja": "大丈夫かしら？",
+     "en": "Will you be alright?",
+     "speaker": "Alice"
+    },
+    {
+     "start": 44.8,
+     "end": 46.5,
+     "ja": "考えるまでもない。",
+     "en": "There's no need to even think about it.",
+     "speaker": "Aoko"
+    },
+    {
+     "start": 46.9,
+     "end": 48.4,
+     "ja": "行くわよ！",
+     "en": "Let's go!",
+     "speaker": "Aoko"
+    }
+   ]
+  }
+ ],
+ "videoId": "cvnBsqagQxY",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

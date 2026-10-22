@@ -1,0 +1,187 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 105.7,
+   "end": 121.2,
+   "title": "First Hypnosis Test",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜と — when/if (conditional)",
+    "〜なくなる — become unable to"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 106.3,
+     "end": 109.9,
+     "ja": "ではですね、今から３つ数えると、その手が開かなくなります。",
+     "en": "Well then, when I count to three from now, that hand won't open anymore.",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 109.9,
+     "end": 111.4,
+     "ja": "それではいきましょう。３",
+     "en": "Let's begin. Three,",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 111.4,
+     "end": 113.4,
+     "ja": "２、１、はい！",
+     "en": "two, one, now!",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 114.3,
+     "end": 116.7,
+     "ja": "石のように固くなって開かない！",
+     "en": "It's hard as a stone and won't open!",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 116.7,
+     "end": 117.8,
+     "ja": "さあ、開きますか？",
+     "en": "Now, does it open?",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 117.8,
+     "end": 120.7,
+     "ja": "開きません！ありがとうございます！",
+     "en": "It doesn't open! Thank you very much!",
+     "speaker": "Akagi"
+    }
+   ]
+  },
+  {
+   "start": 133.0,
+   "end": 147.2,
+   "title": "Stuck to the Cheek",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜と — when/if",
+    "〜たらいい — it would be good if"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 133.4,
+     "end": 136.0,
+     "ja": "今から３つ数えると、その手が離れなくなります。",
+     "en": "When I count to three from now, that hand won't detach.",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 136.3,
+     "end": 139.1,
+     "ja": "それではいきましょう。３、２、１、はい！",
+     "en": "Let's go. Three, two, one, now!",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 139.4,
+     "end": 140.7,
+     "ja": "さあ、離れますか？",
+     "en": "Now, does it come off?",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 141.0,
+     "end": 144.1,
+     "ja": "離れたらいいんやけど…！",
+     "en": "I wish it would come off, but...!",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 144.1,
+     "end": 147.1,
+     "ja": "さあ、これで２つ目の催眠にかかりました！",
+     "en": "And now, he has fallen under the second hypnosis!",
+     "speaker": "Kimura Band"
+    }
+   ]
+  },
+  {
+   "start": 224.2,
+   "end": 245.8,
+   "title": "Two Eyes Becoming One",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていく — gradual change",
+    "〜になる — to become"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 224.9,
+     "end": 227.4,
+     "ja": "左右の目がぐーっと近づいて、",
+     "en": "Your left and right eyes draw closer together,",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 227.4,
+     "end": 230.1,
+     "ja": "大きなひとつの目になる。これでいきましょう。",
+     "en": "and become one big eye. Let's go with this.",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 230.7,
+     "end": 234.9,
+     "ja": "それではいきます。３、２、１、はい！",
+     "en": "Here we go. Three, two, one, now!",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 237.4,
+     "end": 240.2,
+     "ja": "どうですか？ひとつになりましたか？",
+     "en": "How is it? Did they become one?",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 240.2,
+     "end": 242.0,
+     "ja": "ひとつになりました。",
+     "en": "They became one.",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 242.4,
+     "end": 243.6,
+     "ja": "ごきげんよう。",
+     "en": "Good day.",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 243.6,
+     "end": 245.4,
+     "ja": "「ごきげんよう」って何ですか？",
+     "en": "What is with that \"Good day\"?",
+     "speaker": "Akagi"
+    }
+   ]
+  }
+ ],
+ "videoId": "Y0455Ak1HGQ",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

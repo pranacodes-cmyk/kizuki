@@ -1,0 +1,173 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.2,
+   "end": 27.5,
+   "title": "Visiting the Mall and Having a Snack",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ので — because/since",
+    "〜前に — before doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.3,
+     "end": 14.6,
+     "ja": "で、この日はショッピングモールに行きました。",
+     "en": "And on this day, I went to a shopping mall.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 15.0,
+     "end": 18.6,
+     "ja": "用事があったのでショッピングモールに行って、",
+     "en": "I had some errands, so I went to the mall,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 18.7,
+     "end": 24.0,
+     "ja": "買い物する前にこのホットドッグと抹茶ティラミスを食べて、",
+     "en": "and before shopping, I ate this hot dog and matcha tiramisu,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 24.2,
+     "end": 27.0,
+     "ja": "カフェラテを飲みました。",
+     "en": "and drank a caffe latte.",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 125.8,
+   "end": 145.5,
+   "title": "Talking About Noel's Eye",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜たりする — doing things like",
+    "〜そう — looks like / seems like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 126.0,
+     "end": 130.6,
+     "ja": "実は、ノエルは左目がまったく見えないんですよ。",
+     "en": "Actually, Noel can't see out of his left eye at all.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 130.9,
+     "end": 133.0,
+     "ja": "生まれつき見えなくて、",
+     "en": "He was born unable to see,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 133.2,
+     "end": 137.0,
+     "ja": "だからちょっと反応が遅かったりするんですけど、",
+     "en": "so his reactions can be a little slow,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 137.3,
+     "end": 141.6,
+     "ja": "でも普通に歩けるし、生活には問題ないですね。",
+     "en": "but he can walk normally and has no problem in daily life.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 142.0,
+     "end": 145.0,
+     "ja": "楽しそうに遊んでいます。",
+     "en": "He looks like he's having fun playing.",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 354.3,
+   "end": 380.5,
+   "title": "Buying Three Switch Games",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜から — ever since / from",
+    "〜ていた — past continuous / habitual"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 354.5,
+     "end": 357.9,
+     "ja": "そして、新しいゲームを3つ買いました。",
+     "en": "And I bought three new games.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 358.1,
+     "end": 361.3,
+     "ja": "ポケモンのバイオレットと、",
+     "en": "Pokémon Violet,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 361.5,
+     "end": 364.5,
+     "ja": "スプラトゥーン3と、",
+     "en": "Splatoon 3,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 365.2,
+     "end": 368.9,
+     "ja": "スーパーマリオ オデッセイです。",
+     "en": "and Super Mario Odyssey.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 369.3,
+     "end": 373.8,
+     "ja": "ポケモンは私、子供の時からずっとゲームもやってたんですけど、",
+     "en": "I've played Pokémon games ever since I was a child, but...",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 374.0,
+     "end": 377.3,
+     "ja": "最近のポケモンは変わりましたね。",
+     "en": "recent Pokémon games have really changed.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 377.5,
+     "end": 380.0,
+     "ja": "ポケモンが全然違いました。",
+     "en": "The Pokémon were completely different.",
+     "speaker": "Yuka"
+    }
+   ]
+  }
+ ],
+ "videoId": "VVuEKeOHr14",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

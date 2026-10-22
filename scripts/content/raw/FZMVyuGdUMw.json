@@ -1,0 +1,131 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 8.8,
+   "end": 25.8,
+   "title": "Voice Actress Introduces Her Role",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "work"
+   ],
+   "grammar": [
+    "〜させていただく — humble causative",
+    "〜と思う — to think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 8.8,
+     "end": 12.8,
+     "ja": "「？？？」役を演じさせていただきました、「つぐは」です！",
+     "en": "I played the role of '???', I'm Tsuguha!",
+     "speaker": "Tsuguha"
+    },
+    {
+     "start": 13.0,
+     "end": 20.6,
+     "ja": "「？？？」さんはですね、私自身初挑戦の、物静かで、すっごいミステリアスな雰囲気のキャラクターで、",
+     "en": "'???' is a character with a quiet and really mysterious aura, which was a new challenge for me,",
+     "speaker": "Tsuguha"
+    },
+    {
+     "start": 20.8,
+     "end": 25.6,
+     "ja": "役をいただいた時、ちょっと難しいかもな〜って思ってたんですが、",
+     "en": "and when I got the role, I thought it might be a bit difficult...",
+     "speaker": "Tsuguha"
+    }
+   ]
+  },
+  {
+   "start": 25.8,
+   "end": 43.5,
+   "title": "Recording Was a Great Experience",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "work"
+   ],
+   "grammar": [
+    "〜ていく — gradual progression over time",
+    "〜ながら — doing something while doing another"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 25.9,
+     "end": 29.8,
+     "ja": "収録していくうちにですね、そう、めちゃくちゃ楽しくて、",
+     "en": "As the recording went on, yes, it became so much fun,",
+     "speaker": "Tsuguha"
+    },
+    {
+     "start": 30.0,
+     "end": 35.7,
+     "ja": "初めて出す声域だったので、すごい役をいただけて本当によかったし、",
+     "en": "and since it was in a vocal range I'd never used before, I was really glad to get this role,",
+     "speaker": "Tsuguha"
+    },
+    {
+     "start": 35.9,
+     "end": 43.2,
+     "ja": "めちゃくちゃありがたいし、演じることができて、本当にいい経験になったな〜って思いながら演じておりました！",
+     "en": "I'm extremely grateful, and I performed thinking what a wonderful experience it was to play it!",
+     "speaker": "Tsuguha"
+    }
+   ]
+  },
+  {
+   "start": 72.0,
+   "end": 89.2,
+   "title": "Please Enjoy What Happens Next!",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていく — future change / continuing into future",
+    "〜てくださると — conditional polite request"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 72.1,
+     "end": 76.0,
+     "ja": "『スクールロマンス』、まだまだこれからも続いていきますので、",
+     "en": "'School Romance' will still continue on from here,",
+     "speaker": "Tsuguha"
+    },
+    {
+     "start": 76.2,
+     "end": 83.5,
+     "ja": "一体どうなっていくのか、展開にドキドキ、ワクワクしながら、一緒に楽しんでくださると嬉しいなぁ〜と思います！",
+     "en": "so I hope you'll enjoy watching with excitement to see how the story unfolds!",
+     "speaker": "Tsuguha"
+    },
+    {
+     "start": 83.8,
+     "end": 86.6,
+     "ja": "それでは以上、「？？？」役、つぐはでした！",
+     "en": "That's all from me, Tsuguha as '???'!",
+     "speaker": "Tsuguha"
+    },
+    {
+     "start": 86.8,
+     "end": 88.8,
+     "ja": "ありがとうございました！",
+     "en": "Thank you very much!",
+     "speaker": "Tsuguha"
+    }
+   ]
+  }
+ ],
+ "videoId": "FZMVyuGdUMw",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

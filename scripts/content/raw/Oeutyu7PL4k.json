@@ -1,0 +1,238 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 103.0,
+   "end": 122.5,
+   "title": "Plus Ten Points from Imagination",
+   "level": "N3",
+   "topics": [
+    "food",
+    "comedy"
+   ],
+   "grammar": [
+    "〜通り — just as, in accordance with",
+    "〜より — compared to",
+    "〜め — somewhat, -ish"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 103.1,
+     "end": 104.2,
+     "ja": "想像通り？",
+     "en": "Just as you expected?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 104.3,
+     "end": 105.4,
+     "ja": "想像通り。",
+     "en": "Just as expected.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 105.5,
+     "end": 106.3,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 106.4,
+     "end": 110.0,
+     "ja": "あ、でも思ったより",
+     "en": "Ah, but more than I expected,",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 110.1,
+     "end": 112.4,
+     "ja": "中のミルクのクリームが甘めになっていて",
+     "en": "the milk cream inside is pretty sweet,",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 112.5,
+     "end": 114.0,
+     "ja": "俺はプラス10点。",
+     "en": "so that's plus 10 points for me.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 114.1,
+     "end": 115.7,
+     "ja": "何から？",
+     "en": "From what?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 115.8,
+     "end": 119.2,
+     "ja": "想像からプラス10点。",
+     "en": "Plus 10 points from my imagination.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 119.8,
+     "end": 121.8,
+     "ja": "おいしいです。",
+     "en": "It's delicious.",
+     "speaker": "Hamaie"
+    }
+   ]
+  },
+  {
+   "start": 438.0,
+   "end": 457.0,
+   "title": "Earl Grey Croissant Scent Check",
+   "level": "N3",
+   "topics": [
+    "food",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てる — ongoing state",
+    "一切〜ない — not at all"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 438.1,
+     "end": 440.1,
+     "ja": "うまい。アールグレイ香ってる？",
+     "en": "Tasty. Does it smell like Earl Grey?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 440.2,
+     "end": 441.8,
+     "ja": "めちゃくちゃ香ってる。",
+     "en": "It smells intensely of it.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 442.0,
+     "end": 445.5,
+     "ja": "めっちゃうまい。これだいぶうまいな。",
+     "en": "It's so good. This is seriously tasty.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 445.8,
+     "end": 447.4,
+     "ja": "ちょっと匂いだけ。",
+     "en": "Let me just smell it.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 447.6,
+     "end": 449.3,
+     "ja": "かじったとこ臭っ！",
+     "en": "The spot you bit stinks!",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 449.4,
+     "end": 451.4,
+     "ja": "かじったとこそんな臭くないやろ！",
+     "en": "The bite mark wouldn't smell that bad!",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 451.6,
+     "end": 453.4,
+     "ja": "すごいやん残り香が。",
+     "en": "The lingering scent is incredible.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 453.5,
+     "end": 456.0,
+     "ja": "アールグレイなんか一切匂いせえへん。",
+     "en": "I can't smell any Earl Grey at all.",
+     "speaker": "Yamauchi"
+    }
+   ]
+  },
+  {
+   "start": 495.0,
+   "end": 517.5,
+   "title": "Tasting Convenience Store Sweets",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜のみ — only, solely",
+    "〜通り — just as",
+    "〜と思う — I think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 495.5,
+     "end": 497.3,
+     "ja": "バタースコッチうまいです。",
+     "en": "The butterscotch is delicious.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 497.5,
+     "end": 500.0,
+     "ja": "もう本当バターのみで勝負してる感じ。",
+     "en": "It really feels like it relies solely on butter.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 501.0,
+     "end": 503.0,
+     "ja": "で、パンはすごいもちもちです。",
+     "en": "And the bread is really chewy.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 505.5,
+     "end": 507.6,
+     "ja": "もっち歩きチョコめっちゃいい。",
+     "en": "The Chewy Walking Choco is great.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 507.8,
+     "end": 510.2,
+     "ja": "想像してる通りやとは思うけど、",
+     "en": "I think it's just as expected, but",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 510.3,
+     "end": 513.0,
+     "ja": "もちもちパンにチョコチップもちょこちょこ入ってる。",
+     "en": "the chewy bread is dotted with chocolate chips.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 513.1,
+     "end": 514.5,
+     "ja": "イメージ通りのね。",
+     "en": "Just like how it looks, huh.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 514.6,
+     "end": 516.9,
+     "ja": "チョコの香りもめっちゃいいと思う。",
+     "en": "I think the chocolate aroma is really nice too.",
+     "speaker": "Yamauchi"
+    }
+   ]
+  }
+ ],
+ "videoId": "Oeutyu7PL4k",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

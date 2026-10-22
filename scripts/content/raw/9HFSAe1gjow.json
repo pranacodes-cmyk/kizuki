@@ -1,0 +1,174 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 24.0,
+   "end": 33.2,
+   "title": "Which Guys Are the Most Handsome?",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜て、〜 — connective te-form",
+    "〜と思う — I think that ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 24.3,
+     "end": 26.0,
+     "ja": "日本人。",
+     "en": "Japanese guys.",
+     "speaker": "Woman A"
+    },
+    {
+     "start": 26.2,
+     "end": 28.0,
+     "ja": "スペイン人、スペイン人。",
+     "en": "Spanish guys, Spanish guys.",
+     "speaker": "Woman B"
+    },
+    {
+     "start": 28.0,
+     "end": 30.2,
+     "ja": "ヨーロッパ人、やっぱかっこいいと思う。",
+     "en": "I think European guys are handsome after all.",
+     "speaker": "Woman B"
+    },
+    {
+     "start": 30.2,
+     "end": 33.1,
+     "ja": "背が高くて、なんか目の色がきれい。",
+     "en": "They are tall, and their eye colors are pretty.",
+     "speaker": "Woman B"
+    }
+   ]
+  },
+  {
+   "start": 149.0,
+   "end": 210.5,
+   "title": "Why I Prefer Dating Latin Men",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "culture",
+    "family"
+   ],
+   "grammar": [
+    "〜なら — conditional if / in the case of",
+    "〜たり〜たりする — doing things like ~ and ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 149.3,
+     "end": 151.3,
+     "ja": "むしろ外国人がいい。",
+     "en": "Rather, I prefer foreign men.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 151.4,
+     "end": 154.2,
+     "ja": "スペイン人か南米の人。",
+     "en": "Spanish men or South Americans.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 154.3,
+     "end": 157.2,
+     "ja": "スペイン語喋れる人なら誰でもいい。",
+     "en": "Anyone who speaks Spanish is fine.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 157.3,
+     "end": 200.0,
+     "ja": "なんかスペイン、ラテン系の文化が自分に合ってる。",
+     "en": "I feel like Spanish, Latin culture fits me.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 200.0,
+     "end": 203.5,
+     "ja": "なんか休みの日は家族で集まって、みんなでご飯とか、",
+     "en": "Like gathering with family on days off and having dinner together,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 203.5,
+     "end": 205.8,
+     "ja": "音楽流して踊ったりとか、",
+     "en": "playing music and dancing,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 205.8,
+     "end": 209.9,
+     "ja": "仕事もするけど、なんか好きな人との時間を取るとこみたいな。",
+     "en": "and working hard, but making time for the people they love.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 511.0,
+   "end": 529.8,
+   "title": "What's Great About Being Straightforward",
+   "level": "N2",
+   "topics": [
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜そう — looks like / seems like",
+    "〜てくれる — to do something for someone's sake"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 511.0,
+     "end": 513.6,
+     "ja": "ストレート。",
+     "en": "They can be straightforward.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 513.6,
+     "end": 518.4,
+     "ja": "なんかこう、ごにょごにょ裏でこうコソコソしたりとか、",
+     "en": "Rather than mumbling or sneaking behind your back,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 518.4,
+     "end": 522.5,
+     "ja": "なんか「こう言ったらこうだから、こう言っとこう」とかじゃなくて、",
+     "en": "or calculating like, 'If I say this, she'll think that, so I'll say this,'",
+     "speaker": "Woman"
+    },
+    {
+     "start": 522.5,
+     "end": 526.5,
+     "ja": "思ったことを素直に言ってくれそうなところは、",
+     "en": "the way they speak their mind honestly",
+     "speaker": "Woman"
+    },
+    {
+     "start": 526.5,
+     "end": 529.5,
+     "ja": "すごく素敵だなと思います。",
+     "en": "is something I think is really wonderful.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "9HFSAe1gjow",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

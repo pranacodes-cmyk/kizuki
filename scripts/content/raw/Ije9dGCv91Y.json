@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 42.5,
+   "end": 114.5,
+   "title": "Referring to Father in Japanese",
+   "level": "N5",
+   "topics": [
+    "family",
+    "culture"
+   ],
+   "grammar": [
+    "〜について — about / regarding",
+    "〜と言う — to say / to be called"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 42.5,
+     "end": 48.5,
+     "ja": "自分のfatherについて話すときは、",
+     "en": "When talking about your own father,",
+     "speaker": "Mei"
+    },
+    {
+     "start": 48.8,
+     "end": 57.2,
+     "ja": "「父」、「父」と言いますよね。",
+     "en": "you say \"chichi\", right?",
+     "speaker": "Mei"
+    },
+    {
+     "start": 58.0,
+     "end": 106.8,
+     "ja": "でも他の人のfatherについて話すときは、",
+     "en": "But when talking about someone else's father,",
+     "speaker": "Mei"
+    },
+    {
+     "start": 107.0,
+     "end": 114.5,
+     "ja": "「お父さん」、「お父さん」と言いますよね。",
+     "en": "you say \"otousan\", right?",
+     "speaker": "Mei"
+    }
+   ]
+  },
+  {
+   "start": 231.0,
+   "end": 302.2,
+   "title": "Talking About My Immediate Family",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜と一緒に — together with",
+    "〜ている — ongoing state / action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 231.0,
+     "end": 241.5,
+     "ja": "私の家族はね、まず夫と娘がいます。",
+     "en": "As for my family, first I have a husband and a daughter.",
+     "speaker": "Mei"
+    },
+    {
+     "start": 242.0,
+     "end": 249.2,
+     "ja": "私は夫と娘と一緒に住んでいます。",
+     "en": "I live together with my husband and daughter.",
+     "speaker": "Mei"
+    },
+    {
+     "start": 249.8,
+     "end": 256.5,
+     "ja": "娘は今、3歳です。3歳です。",
+     "en": "My daughter is three years old now. She is three.",
+     "speaker": "Mei"
+    },
+    {
+     "start": 257.0,
+     "end": 302.0,
+     "ja": "とっても元気でおしゃべりです。",
+     "en": "She is very energetic and talkative.",
+     "speaker": "Mei"
+    }
+   ]
+  },
+  {
+   "start": 431.5,
+   "end": 504.0,
+   "title": "My Parents' Work",
+   "level": "N4",
+   "topics": [
+    "family",
+    "work"
+   ],
+   "grammar": [
+    "〜ている — continuous state",
+    "〜そう — looks like / seems like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 431.5,
+     "end": 437.0,
+     "ja": "それで、私の父と母はまだ働いています。",
+     "en": "And so, my father and mother are still working.",
+     "speaker": "Mei"
+    },
+    {
+     "start": 437.5,
+     "end": 449.5,
+     "ja": "父は15年ぐらい前に自分で小さい会社を作りました。",
+     "en": "About 15 years ago, my father started a small company on his own.",
+     "speaker": "Mei"
+    },
+    {
+     "start": 450.0,
+     "end": 454.0,
+     "ja": "とても小さい会社です。",
+     "en": "It is a very small company.",
+     "speaker": "Mei"
+    },
+    {
+     "start": 454.5,
+     "end": 459.5,
+     "ja": "母も父といっしょに働いています。",
+     "en": "My mother also works together with my father.",
+     "speaker": "Mei"
+    },
+    {
+     "start": 500.0,
+     "end": 503.8,
+     "ja": "二人ともとても忙しそうです。",
+     "en": "Both of them seem very busy.",
+     "speaker": "Mei"
+    }
+   ]
+  }
+ ],
+ "videoId": "Ije9dGCv91Y",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

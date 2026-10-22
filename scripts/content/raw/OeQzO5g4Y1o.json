@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 41.5,
+   "end": 62.0,
+   "title": "What Is Your Daily Routine?",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ですか — question marker",
+    "だけ — only / just"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 42.0,
+     "end": 46.0,
+     "ja": "皆さんは毎日忙しいですか？",
+     "en": "Are you busy every day?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 46.0,
+     "end": 48.0,
+     "ja": "暇ですか？",
+     "en": "Are you free?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 48.5,
+     "end": 54.0,
+     "ja": "皆さんは毎日大抵何をしますか？",
+     "en": "What do you usually do every day?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 55.0,
+     "end": 58.0,
+     "ja": "毎朝、ご飯を食べますか？",
+     "en": "Do you eat breakfast every morning?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 58.3,
+     "end": 61.2,
+     "ja": "コーヒーだけですか？",
+     "en": "Or just coffee?",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 142.5,
+   "end": 161.0,
+   "title": "Shun's Morning Breakfast Routine",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜て — connecting actions",
+    "〜を教える — to teach"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 143.0,
+     "end": 148.5,
+     "ja": "朝はいつも簡単な食べ物を食べます。",
+     "en": "In the morning, I always eat simple food.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 150.5,
+     "end": 155.5,
+     "ja": "最近はプロテインシェイクとバナナを食べます。",
+     "en": "Recently, I have a protein shake and a banana.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 156.0,
+     "end": 160.5,
+     "ja": "その後、コーヒーを飲んでクラスを教えます。",
+     "en": "After that, I drink coffee and teach class.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 219.0,
+   "end": 245.0,
+   "title": "What Shun Does in His Free Time",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "fun",
+    "romance"
+   ],
+   "grammar": [
+    "〜たり〜たりする — doing things like",
+    "〜ている — ongoing action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 219.5,
+     "end": 222.8,
+     "ja": "たくさん時間がある時は、",
+     "en": "When I have a lot of free time,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 223.0,
+     "end": 226.7,
+     "ja": "彼女と町に買い物に行ったり、",
+     "en": "I go shopping in town with my girlfriend,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 227.0,
+     "end": 229.5,
+     "ja": "ビーチに行ったりします。",
+     "en": "or go to the beach.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 231.5,
+     "end": 236.5,
+     "ja": "雨の時はネットフリックスを見たりします。",
+     "en": "When it rains, I watch Netflix and things like that.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 237.5,
+     "end": 242.0,
+     "ja": "最近はいつも『フレンズ』を見ています。",
+     "en": "Recently, I'm always watching Friends.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 242.5,
+     "end": 244.5,
+     "ja": "面白いですよね。",
+     "en": "It's interesting, isn't it?",
+     "speaker": "Shun"
+    }
+   ]
+  }
+ ],
+ "videoId": "OeQzO5g4Y1o",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

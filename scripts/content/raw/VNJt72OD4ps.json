@@ -1,0 +1,136 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 10.2,
+   "title": "Self Introduction",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜は〜です — A is B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.1,
+     "end": 3.5,
+     "ja": "皆さん、こんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Kaneko"
+    },
+    {
+     "start": 3.8,
+     "end": 6.4,
+     "ja": "わたしは金子です。",
+     "en": "I am Kaneko.",
+     "speaker": "Kaneko"
+    },
+    {
+     "start": 6.7,
+     "end": 9.8,
+     "ja": "わたしは２６歳です。",
+     "en": "I am 26 years old.",
+     "speaker": "Kaneko"
+    }
+   ]
+  },
+  {
+   "start": 115.8,
+   "end": 130.0,
+   "title": "Studying Foreign Languages",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜が話せます — can speak (potential)",
+    "〜ています — ongoing action / state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 116.2,
+     "end": 119.6,
+     "ja": "わたしは英語が話せます。",
+     "en": "I can speak English.",
+     "speaker": "Kaneko"
+    },
+    {
+     "start": 120.0,
+     "end": 125.7,
+     "ja": "今は、韓国語と中国語を勉強しています。",
+     "en": "Currently, I am studying Korean and Chinese.",
+     "speaker": "Kaneko"
+    },
+    {
+     "start": 126.0,
+     "end": 129.4,
+     "ja": "中国語はとても難しいです。",
+     "en": "Chinese is very difficult.",
+     "speaker": "Kaneko"
+    }
+   ]
+  },
+  {
+   "start": 373.5,
+   "end": 394.4,
+   "title": "Cherry Blossom Season",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜が一番〜 — the most...",
+    "〜て、〜 — connecting actions with te-form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 374.0,
+     "end": 377.6,
+     "ja": "わたしは冬が一番嫌いです。",
+     "en": "I dislike winter the most.",
+     "speaker": "Kaneko"
+    },
+    {
+     "start": 378.0,
+     "end": 381.6,
+     "ja": "春は桜の季節です。",
+     "en": "Spring is the cherry blossom season.",
+     "speaker": "Kaneko"
+    },
+    {
+     "start": 382.0,
+     "end": 385.0,
+     "ja": "桜はとてもきれいです。",
+     "en": "Cherry blossoms are very beautiful.",
+     "speaker": "Kaneko"
+    },
+    {
+     "start": 386.6,
+     "end": 389.5,
+     "ja": "天気も涼しいです。",
+     "en": "The weather is cool too.",
+     "speaker": "Kaneko"
+    },
+    {
+     "start": 389.9,
+     "end": 393.9,
+     "ja": "みんな公園へ行って、桜を見ます。",
+     "en": "Everyone goes to the park and views cherry blossoms.",
+     "speaker": "Kaneko"
+    }
+   ]
+  }
+ ],
+ "videoId": "VNJt72OD4ps",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

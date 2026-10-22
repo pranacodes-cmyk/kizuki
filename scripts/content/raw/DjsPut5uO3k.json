@@ -1,0 +1,115 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 46.2,
+   "end": 60.1,
+   "title": "Welcome to the Valley of Time",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜てほしい — wanting someone to do",
+    "〜てくる — motion towards the speaker"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 46.5,
+     "end": 48.3,
+     "ja": "ここは「時の谷」。",
+     "en": "This is the Valley of Time.",
+     "speaker": "Pokkon"
+    },
+    {
+     "start": 48.3,
+     "end": 50.5,
+     "ja": "お前は時空をスライドしてやってきた。",
+     "en": "You slid through space and time to get here.",
+     "speaker": "Pokkon"
+    },
+    {
+     "start": 50.8,
+     "end": 55.0,
+     "ja": "すべての欠片を集めて、君たちに世界を救ってほしい。",
+     "en": "Gather all the fragments, and we need you to save the world.",
+     "speaker": "Elder"
+    },
+    {
+     "start": 55.3,
+     "end": 56.4,
+     "ja": "どうやって？",
+     "en": "How?",
+     "speaker": "Isumi"
+    },
+    {
+     "start": 56.6,
+     "end": 58.2,
+     "ja": "ダンスじゃ。",
+     "en": "With dance.",
+     "speaker": "Elder"
+    },
+    {
+     "start": 58.4,
+     "end": 59.8,
+     "ja": "ダンス！？",
+     "en": "Dance?!",
+     "speaker": "Girls"
+    }
+   ]
+  },
+  {
+   "start": 114.9,
+   "end": 129.2,
+   "title": "Only You Can Change Yourself",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "friends"
+   ],
+   "grammar": [
+    "〜ても — even if / no matter how much",
+    "〜ないで — without doing / instead of doing",
+    "〜られる — potential form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 115.1,
+     "end": 118.0,
+     "ja": "走っても走っても、前に進めないの。",
+     "en": "No matter how much I run, I can't move forward.",
+     "speaker": "Aoi"
+    },
+    {
+     "start": 118.2,
+     "end": 122.1,
+     "ja": "元の世界に戻っても、前に進める自信なんてない。",
+     "en": "Even if I go back to the original world, I have no confidence I can move forward.",
+     "speaker": "Aoi"
+    },
+    {
+     "start": 122.5,
+     "end": 126.0,
+     "ja": "あなたが走らないで、誰が走るの？",
+     "en": "If you don't run, who will?",
+     "speaker": "Asahi"
+    },
+    {
+     "start": 126.1,
+     "end": 128.9,
+     "ja": "自分を変えられるのは自分だけだぞ。",
+     "en": "You're the only one who can change yourself.",
+     "speaker": "Companion"
+    }
+   ]
+  }
+ ],
+ "videoId": "DjsPut5uO3k",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

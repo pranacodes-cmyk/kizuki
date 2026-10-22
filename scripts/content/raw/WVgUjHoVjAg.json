@@ -1,0 +1,167 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 21.2,
+   "end": 38.5,
+   "title": "Tasting New Lawson Sweets",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていく — ongoing/future action",
+    "〜てない — haven't done"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 21.4,
+     "end": 23.2,
+     "ja": "はい、皆さんこんにちは〜。",
+     "en": "Hello everyone!",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 23.4,
+     "end": 27.7,
+     "ja": "今日は、こちらのローソンスイーツを食べていきたいと思います！",
+     "en": "Today, I'd like to try out these Lawson sweets!",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 28.4,
+     "end": 32.4,
+     "ja": "割と最近に出た、8月のローソンの新商品を食べていきます。",
+     "en": "I'm going to try the relatively new Lawson products that came out in August.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 32.5,
+     "end": 36.5,
+     "ja": "でももうね、朝から何も食べてなくてね、めちゃめちゃめちゃめちゃ腹減ってるので、",
+     "en": "I haven't eaten anything since this morning, so I'm super hungry...",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 36.6,
+     "end": 38.3,
+     "ja": "早速食べていきまーSHOW！",
+     "en": "So let's dig right in!",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 67.5,
+   "end": 86.0,
+   "title": "Trying the Cheemfull Waffle",
+   "level": "N3",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜らしい — apparently / it seems",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 67.6,
+     "end": 71.0,
+     "ja": "ではまず最初、このね、クリーム系の「チームワッフル」ちゃん。",
+     "en": "First up is this creamy \"Cheemfull Waffle.\"",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 71.1,
+     "end": 75.5,
+     "ja": "ワッフルの中にレアチーズがボーンと入ってるやつらしいですけれども。",
+     "en": "Apparently, it has rare cheesecake filling packed right into the waffle.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 75.6,
+     "end": 78.5,
+     "ja": "うわー、すごいなこれ。クリームたっぷり。",
+     "en": "Whoa, this is amazing! Plenty of cream.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 78.6,
+     "end": 83.5,
+     "ja": "見て、この真ん中が多分チーズいっぱい。ぼよーんって入ってる。",
+     "en": "Look, the center is probably loaded with cheese. It's plump and bouncy.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 83.6,
+     "end": 85.8,
+     "ja": "では早速、いただきまうす。",
+     "en": "Well then, let's dig in!",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 627.2,
+   "end": 647.5,
+   "title": "Announcing the Top 3 Lawson Sweets",
+   "level": "N3",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜すぎる — too much / overly",
+    "〜たいと思う — think of wanting to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 627.4,
+     "end": 631.5,
+     "ja": "はい、今日はね、ローソンの新商品たちを7種類食べてみました。",
+     "en": "All right, today I tried seven kinds of new products from Lawson.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 631.7,
+     "end": 636.0,
+     "ja": "どれもこれも甘くて美味しい。美味しすぎてびっくりどうしよう。",
+     "en": "Every single one was sweet and delicious. Almost shockingly good!",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 636.2,
+     "end": 640.5,
+     "ja": "という感じでね、幸エネルギーをね、たっぷり吸収できました。",
+     "en": "And so, I was able to absorb plenty of happy energy.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 640.8,
+     "end": 644.2,
+     "ja": "じゃあせっかくなんでね、7種類食べた中からベスト3を発表したいと思います。",
+     "en": "So since I'm here, I'd like to announce my top three out of the seven.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 644.3,
+     "end": 647.2,
+     "ja": "もうね、パパパパッとね、発表していきたいと思います。",
+     "en": "I'll go ahead and announce them real quick.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "WVgUjHoVjAg",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

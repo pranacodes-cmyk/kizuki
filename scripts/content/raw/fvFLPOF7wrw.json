@@ -1,0 +1,92 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 57.8,
+   "end": 70.0,
+   "title": "Listening and Learning While Doing Chores",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜たりしている — doing things like",
+    "〜ないと — must / unless"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 58.0,
+     "end": 60.5,
+     "ja": "今YouTubeとかも自分で始めたりしてるので",
+     "en": "I've started doing YouTube and stuff myself now,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 60.7,
+     "end": 64.0,
+     "ja": "その情報を入れていかないとどんどん出ていくばかりで",
+     "en": "so unless I keep taking in information, it just keeps going out.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 64.5,
+     "end": 66.8,
+     "ja": "ながらでインプットして",
+     "en": "So while doing other things I take in information",
+     "speaker": "Woman"
+    },
+    {
+     "start": 66.8,
+     "end": 69.5,
+     "ja": "何かこう自分なりの気づきを見つけて、みたいな。",
+     "en": "and kind of find my own insights that way.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 539.8,
+   "end": 548.0,
+   "title": "Organizing Dishes in the Kitchen",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜用 — for the use of",
+    "一番〜 — most / -est"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 540.0,
+     "end": 543.5,
+     "ja": "手前は割と来客用みたいな感じで",
+     "en": "The front is sort of for guests, and",
+     "speaker": "Woman"
+    },
+    {
+     "start": 543.5,
+     "end": 546.0,
+     "ja": "まあこの辺が一番よく使いますかね。",
+     "en": "well, this area is what gets used the most.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 546.0,
+     "end": 547.8,
+     "ja": "あとまあ、子供のやつもよく使いますね。",
+     "en": "Also, the kids' dishes get used a lot too.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "fvFLPOF7wrw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

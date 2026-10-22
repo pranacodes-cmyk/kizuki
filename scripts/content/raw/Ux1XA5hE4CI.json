@@ -1,0 +1,174 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 29.5,
+   "end": 43.0,
+   "title": "Asking for Directions Story Intro",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜ていたところ — just as doing",
+    "〜に〜られる — passive voice"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 29.8,
+     "end": 32.2,
+     "ja": "皆さんこんばんは、ゆめです。",
+     "en": "Good evening, everyone, this is Yume.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 32.4,
+     "end": 35.5,
+     "ja": "今日のテーマは「道案内」でした。",
+     "en": "Today's theme was giving directions.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 35.8,
+     "end": 39.5,
+     "ja": "たかしさんが外を歩いていたところ、",
+     "en": "While Takashi was walking outside,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 39.8,
+     "end": 42.6,
+     "ja": "イエンさんに道を聞かれました。",
+     "en": "he was asked for directions by Yen.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 42.8,
+   "end": 108.8,
+   "title": "Asking Where the Supermarket Is",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜はどこですか — where is ~?",
+    "〜てください — please do",
+    "〜のとなりに — next to ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 43.1,
+     "end": 46.8,
+     "ja": "すみません、この近くのスーパーはどこですか？",
+     "en": "Excuse me, where is the supermarket near here?",
+     "speaker": "Yen"
+    },
+    {
+     "start": 47.0,
+     "end": 49.0,
+     "ja": "この近くのスーパーですね？",
+     "en": "The supermarket near here, right?",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 49.3,
+     "end": 50.8,
+     "ja": "そうです。",
+     "en": "Yes, that's right.",
+     "speaker": "Yen"
+    },
+    {
+     "start": 51.0,
+     "end": 54.0,
+     "ja": "この道をまっすぐ行ってください。",
+     "en": "Please go straight down this road.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 54.3,
+     "end": 58.8,
+     "ja": "そして、二つ目の信号を左に曲がってください。",
+     "en": "Then, please turn left at the second traffic light.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 59.0,
+     "end": 60.1,
+     "ja": "はい。",
+     "en": "Understood.",
+     "speaker": "Yen"
+    },
+    {
+     "start": 60.3,
+     "end": 63.3,
+     "ja": "それから、まっすぐ行ってください。",
+     "en": "After that, please go straight.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 63.5,
+     "end": 66.0,
+     "ja": "駐車場のとなりにあります。",
+     "en": "It is next to the parking lot.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 66.3,
+     "end": 68.5,
+     "ja": "わかりました。ありがとうございます。",
+     "en": "I understand. Thank you very much.",
+     "speaker": "Yen"
+    }
+   ]
+  },
+  {
+   "start": 109.3,
+   "end": 124.0,
+   "title": "Learning Directions in Japanese",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜ことがある — have the experience of",
+    "〜ましょう — let's do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 109.6,
+     "end": 113.8,
+     "ja": "皆さん、日本語で道を尋ねることがありますか？",
+     "en": "Everyone, do you ever ask for directions in Japanese?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 114.2,
+     "end": 120.2,
+     "ja": "「道を聞く」時に使う日本語表現を一緒に勉強しましょう。",
+     "en": "Let's study Japanese phrases used when asking for directions together.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 120.5,
+     "end": 123.6,
+     "ja": "そして、相手の返事も一緒に見ましょう。",
+     "en": "And let's also look at the other person's response.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "Ux1XA5hE4CI",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

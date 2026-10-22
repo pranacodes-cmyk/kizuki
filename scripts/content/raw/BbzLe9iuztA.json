@@ -1,0 +1,131 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 103.3,
+   "end": 113.6,
+   "title": "Running in Marathon Season",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "daily"
+   ],
+   "grammar": [
+    "〜くらい — about / around",
+    "〜ので — because"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 103.6,
+     "end": 107.0,
+     "ja": "10月ぐらいから3月ぐらいまでって、",
+     "en": "Around October through March",
+     "speaker": "Woman"
+    },
+    {
+     "start": 107.0,
+     "end": 108.6,
+     "ja": "マラソンのシーズンなので、",
+     "en": "is the marathon season,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 108.6,
+     "end": 113.1,
+     "ja": "その中で、1回か2回はフルの大会に出るっていう感じですね。",
+     "en": "so during that time, I participate in a full marathon once or twice.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 151.3,
+   "end": 164.2,
+   "title": "Getting Dressed Even on Days Off",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜ので — because",
+    "〜てから — after doing"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 151.6,
+     "end": 154.5,
+     "ja": "お休みの日もパジャマで仕事はしないので、",
+     "en": "Even on my days off, I don't work in pajamas,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 154.5,
+     "end": 156.4,
+     "ja": "まあ、とりあえず朝起きたら、",
+     "en": "so once I wake up in the morning,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 156.4,
+     "end": 160.0,
+     "ja": "やっぱり着替えて、あの、メイクとかはして、",
+     "en": "I always get dressed and put on some makeup,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 160.0,
+     "end": 163.7,
+     "ja": "それから、家事だったり仕事だったりはするので。",
+     "en": "and then I move on to housework or work.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 438.3,
+   "end": 449.6,
+   "title": "Carrying Handmade Bookmarks",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜ている時 — when doing",
+    "〜ことがある — there are times when"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 438.6,
+     "end": 441.8,
+     "ja": "あとは、あの、前に自分で作ったしおり。",
+     "en": "And also, these bookmarks I made myself before.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 441.8,
+     "end": 447.3,
+     "ja": "結構、本を読んでる時に、あの、しおりが入ってないことってあるので、",
+     "en": "Quite often when reading a book, there isn't a bookmark included,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 447.3,
+     "end": 449.1,
+     "ja": "常に何枚か入れています。",
+     "en": "so I always keep a few of them tucked inside.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "BbzLe9iuztA",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

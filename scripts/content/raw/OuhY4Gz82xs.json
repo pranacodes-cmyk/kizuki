@@ -1,0 +1,171 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 141.5,
+   "end": 168.5,
+   "title": "Paying Bills at a Convenience Store",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜だけ — only / just",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 142.3,
+     "end": 146.5,
+     "ja": "クレジットカードは使えますか？",
+     "en": "Can I use a credit card?",
+     "speaker": "客"
+    },
+    {
+     "start": 148.0,
+     "end": 150.0,
+     "ja": "すみません。",
+     "en": "I'm sorry.",
+     "speaker": "店員"
+    },
+    {
+     "start": 150.5,
+     "end": 153.2,
+     "ja": "電気代などの支払いは、",
+     "en": "Payment for things like electricity bills is",
+     "speaker": "店員"
+    },
+    {
+     "start": 153.4,
+     "end": 156.5,
+     "ja": "現金のみになります。",
+     "en": "cash only.",
+     "speaker": "店員"
+    },
+    {
+     "start": 157.3,
+     "end": 162.5,
+     "ja": "え、現金だけですか？ちょっと待ってください。",
+     "en": "Oh, cash only? Please wait a moment.",
+     "speaker": "客"
+    },
+    {
+     "start": 164.2,
+     "end": 168.0,
+     "ja": "……あ、財布に現金がありました。",
+     "en": "...Ah, I had cash in my wallet.",
+     "speaker": "客"
+    }
+   ]
+  },
+  {
+   "start": 204.0,
+   "end": 227.5,
+   "title": "Asking to Warm Baby Food at a Cafe",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜てもらえますか — could you please do for me?",
+    "〜でしょうか — polite form of ですか"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 204.7,
+     "end": 208.5,
+     "ja": "すみません、お願いがあります。",
+     "en": "Excuse me, I have a request.",
+     "speaker": "客"
+    },
+    {
+     "start": 210.0,
+     "end": 213.2,
+     "ja": "はい、何でしょうか？",
+     "en": "Yes, what is it?",
+     "speaker": "店員"
+    },
+    {
+     "start": 214.2,
+     "end": 217.2,
+     "ja": "この離乳食を、",
+     "en": "This baby food...",
+     "speaker": "客"
+    },
+    {
+     "start": 218.8,
+     "end": 223.0,
+     "ja": "電子レンジで温めてもらえますか？",
+     "en": "...could you warm it up in the microwave?",
+     "speaker": "客"
+    },
+    {
+     "start": 224.2,
+     "end": 227.0,
+     "ja": "はい、かしこまりました。",
+     "en": "Yes, certainly.",
+     "speaker": "店員"
+    }
+   ]
+  },
+  {
+   "start": 442.5,
+   "end": 468.5,
+   "title": "Buying a Shinkansen Ticket",
+   "level": "N5",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "〜まで — up to / until",
+    "〜をお願いします — please give me"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 443.0,
+     "end": 448.0,
+     "ja": "京都までの新幹線の切符をお願いします。",
+     "en": "A Shinkansen ticket to Kyoto, please.",
+     "speaker": "客"
+    },
+    {
+     "start": 449.0,
+     "end": 453.0,
+     "ja": "はい、京都までですね。",
+     "en": "Yes, to Kyoto.",
+     "speaker": "駅員"
+    },
+    {
+     "start": 454.0,
+     "end": 457.3,
+     "ja": "片道ですか？往復ですか？",
+     "en": "Is it one-way or round-trip?",
+     "speaker": "駅員"
+    },
+    {
+     "start": 458.5,
+     "end": 462.2,
+     "ja": "片道でお願いします。",
+     "en": "One-way, please.",
+     "speaker": "客"
+    },
+    {
+     "start": 463.2,
+     "end": 468.0,
+     "ja": "わかりました。切符は１枚ですね。",
+     "en": "Understood. One ticket, correct?",
+     "speaker": "駅員"
+    }
+   ]
+  }
+ ],
+ "videoId": "OuhY4Gz82xs",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

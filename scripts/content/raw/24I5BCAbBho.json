@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.5,
+   "end": 28.0,
+   "title": "A Talking Parakeet Introduces Itself",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "fun"
+   ],
+   "grammar": [
+    "〜も — as much as / as many as",
+    "〜ができる — can do / be able to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.0,
+     "end": 13.8,
+     "ja": "お名前は？お名前は？",
+     "en": "What's your name? What's your name?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 15.0,
+     "end": 18.0,
+     "ja": "石川ピーちゃん！",
+     "en": "Ishikawa Pi-chan!",
+     "speaker": "Parakeet"
+    },
+    {
+     "start": 18.8,
+     "end": 22.8,
+     "ja": "自己紹介も決まった、オキナインコのピーちゃん。",
+     "en": "A monk parakeet named Pi-chan, nailing the self-introduction.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 23.6,
+     "end": 27.8,
+     "ja": "なんと50もの言葉を使い会話ができるんです。",
+     "en": "Remarkably, he can hold conversations using as many as 50 words.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 36.0,
+   "end": 57.0,
+   "title": "Saying Goodbye as Mom Leaves the House",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくる — go and come back",
+    "〜ようだ — seems like / looks like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 36.3,
+     "end": 38.6,
+     "ja": "ピーちゃん、お出かけしてくるね。",
+     "en": "Pi-chan, I'm heading out.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 38.8,
+     "end": 42.6,
+     "ja": "バイバイ。バイバイ。",
+     "en": "Bye-bye. Bye-bye.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 43.5,
+     "end": 46.8,
+     "ja": "さあ、お母さんがお出かけするようです。",
+     "en": "Now, it seems Mom is heading out.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 48.4,
+     "end": 50.1,
+     "ja": "こんな時は？",
+     "en": "At a time like this...?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 51.3,
+     "end": 54.0,
+     "ja": "いってらっしゃ～い！",
+     "en": "Have a safe trip!",
+     "speaker": "Parakeet"
+    },
+    {
+     "start": 54.2,
+     "end": 56.5,
+     "ja": "いってらっしゃ～い！",
+     "en": "Have a safe trip!",
+     "speaker": "Parakeet"
+    }
+   ]
+  },
+  {
+   "start": 223.0,
+   "end": 245.5,
+   "title": "Pi-chan Asks for More Apple",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜になると — when / once becomes",
+    "〜てくれる — to do for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 223.5,
+     "end": 225.5,
+     "ja": "終わりね。食べない？いらない？",
+     "en": "All done? Not eating? Don't want it?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 225.8,
+     "end": 227.0,
+     "ja": "もっと！",
+     "en": "More!",
+     "speaker": "Parakeet"
+    },
+    {
+     "start": 227.1,
+     "end": 228.6,
+     "ja": "もっと？はい。",
+     "en": "More? Here you go.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 235.3,
+     "end": 237.0,
+     "ja": "そしてさらに...",
+     "en": "And then...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 237.3,
+     "end": 239.0,
+     "ja": "はい終わり！",
+     "en": "All done!",
+     "speaker": "Parakeet"
+    },
+    {
+     "start": 239.3,
+     "end": 240.8,
+     "ja": "はい終わり。",
+     "en": "Yes, all done.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 241.2,
+     "end": 245.2,
+     "ja": "お腹がいっぱいになると、ちゃんと教えてくれるピーちゃんでした。",
+     "en": "Once full, Pi-chan makes sure to let her know.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "24I5BCAbBho",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

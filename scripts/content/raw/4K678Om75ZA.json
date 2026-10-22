@@ -1,0 +1,219 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 109.8,
+   "end": 128.8,
+   "title": "Victory Conditions in Among Us",
+   "level": "N3",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜毎に — every / each",
+    "〜か、〜 — either... or..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 110.1,
+     "end": 113.3,
+     "ja": "ゲーム毎にランダムで、",
+     "en": "Every game, players are randomly assigned",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 113.3,
+     "end": 116.1,
+     "ja": "村人陣営と人狼陣営に振り分けられます。",
+     "en": "to either the Crewmate side or the Impostor side.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 116.5,
+     "end": 119.5,
+     "ja": "村人陣営は、人狼陣営を全員処刑するか、",
+     "en": "The Crewmate side can win either by executing all Impostors",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 119.8,
+     "end": 123.1,
+     "ja": "タスクと呼ばれるミニゲームを完遂すれば勝利です。",
+     "en": "or by completing the mini-games known as tasks.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 123.4,
+     "end": 125.7,
+     "ja": "人狼陣営は、村人陣営の大半を抹殺するか、",
+     "en": "The Impostor side aims for victory by either killing most Crewmates",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 126.0,
+     "end": 128.5,
+     "ja": "妨害工作での勝利を目指します。",
+     "en": "or winning through sabotage.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 208.8,
+   "end": 230.9,
+   "title": "What Crewmates Can Do",
+   "level": "N3",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜によって — depending on / by means of",
+    "〜ことで — by doing / because"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 209.1,
+     "end": 211.7,
+     "ja": "村人が出来ることは大きく３つです。",
+     "en": "There are broadly three things Crewmates can do:",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 211.7,
+     "end": 213.6,
+     "ja": "タスクの処理、",
+     "en": "handling tasks,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 213.6,
+     "end": 214.8,
+     "ja": "仲間の監視、",
+     "en": "monitoring teammates,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 214.8,
+     "end": 217.2,
+     "ja": "緊急会議の招集からの多数決での処刑。",
+     "en": "and calling emergency meetings to execute by majority vote.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 217.5,
+     "end": 221.7,
+     "ja": "村人側の大きなミッションとしてタスクと呼ばれるミニゲームの処理があります。",
+     "en": "A major mission for Crewmates is completing mini-games known as tasks.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 222.0,
+     "end": 226.3,
+     "ja": "村人には初期設定で一人４種類ずつのタスクが割り振られていて、",
+     "en": "By default, each Crewmate is assigned four types of tasks,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 226.4,
+     "end": 228.6,
+     "ja": "村人全員がすべてのタスクを完了することで、",
+     "en": "and by all Crewmates finishing all tasks,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 228.6,
+     "end": 230.7,
+     "ja": "村人側は勝利することができます。",
+     "en": "the Crewmate side can claim victory.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 417.8,
+   "end": 434.7,
+   "title": "What Impostors Can Do",
+   "level": "N3",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜によって — by means of",
+    "〜になるまで — until it becomes"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 418.1,
+     "end": 420.7,
+     "ja": "人狼が出来ることは大きく４つです。",
+     "en": "There are broadly four things an Impostor can do:",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 420.7,
+     "end": 421.7,
+     "ja": "殺人、",
+     "en": "killing,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 421.7,
+     "end": 422.9,
+     "ja": "ダクト移動、",
+     "en": "venting,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 422.9,
+     "end": 424.1,
+     "ja": "妨害工作、",
+     "en": "sabotage,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 424.1,
+     "end": 425.2,
+     "ja": "村人のふり。",
+     "en": "and pretending to be a Crewmate.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 425.5,
+     "end": 428.2,
+     "ja": "殺人によって村人をサクッと始末することができます。",
+     "en": "With kills, you can quickly eliminate Crewmates.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 428.6,
+     "end": 430.7,
+     "ja": "村人を順番に始末していって、",
+     "en": "If you take out Crewmates one by one",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 430.7,
+     "end": 432.8,
+     "ja": "人狼と同じ人数になるまで減らせれば、",
+     "en": "until their numbers match the Impostors,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 432.8,
+     "end": 434.4,
+     "ja": "人狼の勝利です。",
+     "en": "it's an Impostor victory.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "4K678Om75ZA",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

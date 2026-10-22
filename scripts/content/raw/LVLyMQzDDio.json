@@ -1,0 +1,215 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 53.6,
+   "end": 109.4,
+   "title": "What Do You Want?",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜にしよう — let's decide on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 54.2,
+     "end": 55.6,
+     "ja": "欲しい。",
+     "en": "Want.",
+     "speaker": "Button"
+    },
+    {
+     "start": 56.1,
+     "end": 57.9,
+     "ja": "何欲しい？",
+     "en": "What do you want?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 58.7,
+     "end": 61.1,
+     "ja": "てんちゃん、何欲しいの？",
+     "en": "Ten-chan, what do you want?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 63.8,
+     "end": 65.2,
+     "ja": "ごはん。",
+     "en": "Food.",
+     "speaker": "Button"
+    },
+    {
+     "start": 65.4,
+     "end": 67.2,
+     "ja": "ごはんかー。",
+     "en": "Food, huh?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 67.3,
+     "end": 69.2,
+     "ja": "いいよ、ごはんにしよう。",
+     "en": "Alright, let's have food.",
+     "speaker": "Owner"
+    }
+   ]
+  },
+  {
+   "start": 115.0,
+   "end": 133.5,
+   "title": "Asking for Pears",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜て待って — please wait",
+    "〜てるから — because ... is doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 115.5,
+     "end": 116.8,
+     "ja": "梨。",
+     "en": "Pear.",
+     "speaker": "Button"
+    },
+    {
+     "start": 117.1,
+     "end": 119.5,
+     "ja": "梨ね、もうちょっと待って。",
+     "en": "Pear, right? Wait a little bit.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 119.7,
+     "end": 120.9,
+     "ja": "後で。",
+     "en": "Later.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 123.0,
+     "end": 124.7,
+     "ja": "梨。",
+     "en": "Pear.",
+     "speaker": "Button"
+    },
+    {
+     "start": 125.1,
+     "end": 126.1,
+     "ja": "後で。",
+     "en": "Later.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 126.6,
+     "end": 128.0,
+     "ja": "欲しい。",
+     "en": "Want.",
+     "speaker": "Button"
+    },
+    {
+     "start": 128.2,
+     "end": 129.9,
+     "ja": "梨欲しいね。",
+     "en": "You want pear, huh?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 130.3,
+     "end": 133.3,
+     "ja": "うん、今ね、用意してるから、後で。",
+     "en": "Yeah, I'm preparing it right now, so later.",
+     "speaker": "Owner"
+    }
+   ]
+  },
+  {
+   "start": 141.5,
+   "end": 206.2,
+   "title": "Dinner Is Over, How About the Dog Run?",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜から — because",
+    "〜ない — negative verb form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 142.3,
+     "end": 143.6,
+     "ja": "ごはん。",
+     "en": "Food.",
+     "speaker": "Button"
+    },
+    {
+     "start": 143.9,
+     "end": 145.8,
+     "ja": "ごはんおしまい。",
+     "en": "Food is finished.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 148.0,
+     "end": 149.3,
+     "ja": "ごはん。",
+     "en": "Food.",
+     "speaker": "Button"
+    },
+    {
+     "start": 149.6,
+     "end": 151.7,
+     "ja": "おしまい、明日ね。",
+     "en": "It's all done, tomorrow okay?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 158.3,
+     "end": 159.6,
+     "ja": "ドッグラン。",
+     "en": "Dog park.",
+     "speaker": "Button"
+    },
+    {
+     "start": 159.8,
+     "end": 161.4,
+     "ja": "ドッグラン？",
+     "en": "Dog park?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 161.5,
+     "end": 164.8,
+     "ja": "ドッグランは明日も雨だから行けないの。",
+     "en": "We can't go to the dog park because it's raining tomorrow too.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 164.9,
+     "end": 166.0,
+     "ja": "ごめんね。",
+     "en": "Sorry.",
+     "speaker": "Owner"
+    }
+   ]
+  }
+ ],
+ "videoId": "LVLyMQzDDio",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

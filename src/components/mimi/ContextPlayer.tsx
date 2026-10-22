@@ -32,7 +32,15 @@ export function ContextPlayer({ clip, line, autoplay, replayKey = 0 }: { clip: C
         playerVars: { start: Math.floor(from), autoplay: 0, controls: 0, playsinline: 1, rel: 0, modestbranding: 1, iv_load_policy: 3, cc_load_policy: 0, disablekb: 1, fs: 0, origin: window.location.origin },
         events: {
           onReady: () => !cancelled && setReady(true),
-          onStateChange: (e) => setPlaying(e.data === YT_STATE.PLAYING),
+          onStateChange: (e) => {
+            setPlaying(e.data === YT_STATE.PLAYING);
+            // Hide YouTube's own captions (cc_load_policy is ignored when the viewer has CC on) —
+            // the card already shows the sentence and its translation.
+            if (e.data === YT_STATE.PLAYING || e.data === YT_STATE.BUFFERING) {
+              const t = e.target as unknown as { unloadModule?: (m: string) => void; setOption?: (m: string, k: string, v: unknown) => void };
+              try { t.unloadModule?.("captions"); t.unloadModule?.("cc"); t.setOption?.("captions", "track", {}); } catch { /* no captions */ }
+            }
+          },
           onError: () => setFailed(true),
         },
       });

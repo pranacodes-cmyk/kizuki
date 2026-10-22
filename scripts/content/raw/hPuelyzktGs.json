@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.2,
+   "end": 29.8,
+   "title": "Morning Desk and Breakfast",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜ぐらい — approximately / about",
+    "〜があります — there is / exists"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.5,
+     "end": 13.2,
+     "ja": "おはようございます。",
+     "en": "Good morning.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 13.4,
+     "end": 17.1,
+     "ja": "これは朝の9時ぐらいですね、レッスンの前です。",
+     "en": "This is around 9 o'clock in the morning, before the lesson.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 17.3,
+     "end": 20.8,
+     "ja": "朝ご飯はみかんとお茶です。",
+     "en": "Breakfast is a mikan and tea.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 23.0,
+     "end": 26.8,
+     "ja": "私のデスクには私の好きなものがいっぱいあります。",
+     "en": "There are lots of things I like on my desk.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 27.2,
+     "end": 29.4,
+     "ja": "デスクトップはシナモンです。",
+     "en": "My desktop wallpaper is Cinnamoroll.",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 53.4,
+   "end": 109.5,
+   "title": "What Is a Japanese Mikan?",
+   "level": "N5",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜よりも — more than",
+    "〜やすい — easy to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 53.8,
+     "end": 56.1,
+     "ja": "皆さん、みかんが分かりますか？",
+     "en": "Do you all know what mikan is?",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 56.5,
+     "end": 58.5,
+     "ja": "これはオレンジではありません。",
+     "en": "This isn't an orange.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 58.8,
+     "end": 63.8,
+     "ja": "オレンジよりも小さくて、種がなくてとても食べやすいです。",
+     "en": "It's smaller than an orange, has no seeds, and is very easy to eat.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 64.2,
+     "end": 68.9,
+     "ja": "日本ではみかんが一番有名な所は愛媛県です。",
+     "en": "In Japan, the most famous place for mikan is Ehime Prefecture.",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 133.3,
+   "end": 150.3,
+   "title": "First Japanese Lesson of the Day",
+   "level": "N4",
+   "topics": [
+    "work",
+    "school"
+   ],
+   "grammar": [
+    "〜たい — want to",
+    "〜そうだ (伝聞) — I heard that / they say that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 133.6,
+     "end": 135.8,
+     "ja": "レッスンが始まりました。",
+     "en": "The lesson has started.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 136.0,
+     "end": 141.9,
+     "ja": "この日の1番最初のレッスンは、中国の生徒で会話のレッスンです。",
+     "en": "The very first lesson of this day is a conversation lesson with a student from China.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 142.2,
+     "end": 146.0,
+     "ja": "この生徒は大学で日本語を専攻していて、",
+     "en": "This student is majoring in Japanese at university,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 146.3,
+     "end": 149.8,
+     "ja": "将来は日本語の先生になりたいそうです。",
+     "en": "and apparently wants to become a Japanese teacher in the future.",
+     "speaker": "Yuka"
+    }
+   ]
+  }
+ ],
+ "videoId": "hPuelyzktGs",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

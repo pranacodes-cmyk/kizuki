@@ -1,0 +1,168 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 3.2,
+   "end": 13.0,
+   "title": "What Is Expected of an Idol",
+   "level": "N3",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜が求められる — passive form",
+    "〜はずだ — should be / bound to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.4,
+     "end": 5.4,
+     "ja": "アイドルには清廉性が求められる、",
+     "en": "Purity is expected of an idol.",
+     "speaker": "Lawyer"
+    },
+    {
+     "start": 5.5,
+     "end": 7.8,
+     "ja": "そういう仕事だと分かっていたはずですよね？",
+     "en": "You must have known that's what the job is, right?",
+     "speaker": "Lawyer"
+    },
+    {
+     "start": 7.9,
+     "end": 8.7,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Female Defendant"
+    },
+    {
+     "start": 9.8,
+     "end": 12.8,
+     "ja": "子供の頃から、アイドルに憧れていました。",
+     "en": "Ever since I was a child, I dreamed of being an idol.",
+     "speaker": "Female Defendant"
+    }
+   ]
+  },
+  {
+   "start": 15.0,
+   "end": 25.5,
+   "title": "Idol Rules and Contract",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜禁止 — prohibited / forbidden",
+    "できるだけ — as much as possible",
+    "〜てきた — have done up to now"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 15.0,
+     "end": 16.1,
+     "ja": "夜更かし禁止、",
+     "en": "No staying up late.",
+     "speaker": "Manager"
+    },
+    {
+     "start": 16.1,
+     "end": 18.0,
+     "ja": "外での飲み会とアルコールも禁止、",
+     "en": "No drinking parties outside and no alcohol.",
+     "speaker": "Manager"
+    },
+    {
+     "start": 18.0,
+     "end": 19.4,
+     "ja": "ＳＮＳは２４時まで、",
+     "en": "Social media only until midnight.",
+     "speaker": "Manager"
+    },
+    {
+     "start": 19.4,
+     "end": 20.7,
+     "ja": "配信はできるだけする。",
+     "en": "Livestream as much as you can.",
+     "speaker": "Manager"
+    },
+    {
+     "start": 20.8,
+     "end": 21.4,
+     "ja": "はい。",
+     "en": "Understood.",
+     "speaker": "Idol"
+    },
+    {
+     "start": 21.5,
+     "end": 23.2,
+     "ja": "オーディションの時言ってたよね。",
+     "en": "You told us during your audition, right?",
+     "speaker": "Producer"
+    },
+    {
+     "start": 23.2,
+     "end": 25.5,
+     "ja": "子供の頃から、アイドルに憧れてきたって。",
+     "en": "That you'd dreamed of being an idol since you were a kid.",
+     "speaker": "Producer"
+    }
+   ]
+  },
+  {
+   "start": 113.8,
+   "end": 123.2,
+   "title": "What Are You Fighting Against?",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "〜ばいい — should just / can just",
+    "〜てんの — contraction of 〜ているの",
+    "〜のが嫌 — dislike doing something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 113.8,
+     "end": 115.9,
+     "ja": "賠償金、どうやって払うんだよ！",
+     "en": "The damages! How are you going to pay them?!",
+     "speaker": "Man"
+    },
+    {
+     "start": 116.0,
+     "end": 117.3,
+     "ja": "いつか返せばいいじゃん！",
+     "en": "I can just pay it back someday!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 117.5,
+     "end": 119.8,
+     "ja": "お前はさ、何と戦ってんの？",
+     "en": "What on earth are you fighting against?",
+     "speaker": "Man"
+    },
+    {
+     "start": 120.1,
+     "end": 123.0,
+     "ja": "もう、自分の気持ちに嘘をつくのが嫌だったからです。",
+     "en": "Because I was sick of lying to my own feelings.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "tG8xrxEgub8",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

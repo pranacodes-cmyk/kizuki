@@ -1,0 +1,251 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 57.3,
+   "end": 125.5,
+   "title": "Going for a Morning Walk",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "animals"
+   ],
+   "grammar": [
+    "〜か — shall we / suggestion",
+    "どこ — where (question word)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 57.3,
+     "end": 59.2,
+     "ja": "プレも行く？",
+     "en": "Do you want to go too, Pret?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 60.8,
+     "end": 62.1,
+     "ja": "行こっか。",
+     "en": "Shall we go?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 63.9,
+     "end": 65.8,
+     "ja": "ね、一緒に行く？",
+     "en": "Hey, do you want to go together?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 66.7,
+     "end": 68.5,
+     "ja": "どこ行く？",
+     "en": "Where should we go?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 71.0,
+     "end": 73.2,
+     "ja": "お散歩行くの？",
+     "en": "Are we going for a walk?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 76.8,
+     "end": 78.5,
+     "ja": "ハーネスは？",
+     "en": "Where's your harness?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 79.8,
+     "end": 81.1,
+     "ja": "ハーネスどこ？",
+     "en": "Where is the harness?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 81.7,
+     "end": 83.0,
+     "ja": "ハーネスどこ？",
+     "en": "Where is the harness?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 84.0,
+     "end": 85.3,
+     "ja": "行こっか。",
+     "en": "Let's go.",
+     "speaker": "Owner"
+    }
+   ]
+  },
+  {
+   "start": 221.5,
+   "end": 242.5,
+   "title": "Reward Apple After Washing Paws",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜よう — let's (volitional form)",
+    "〜もん — explanatory particle (because)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 221.7,
+     "end": 223.0,
+     "ja": "頑張ったね。",
+     "en": "Good job.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 223.2,
+     "end": 224.2,
+     "ja": "りんご？",
+     "en": "Apple?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 224.3,
+     "end": 225.8,
+     "ja": "うん、りんご食べる？",
+     "en": "Yeah, do you want to eat apple?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 225.9,
+     "end": 227.8,
+     "ja": "よし、じゃあ、りんご食べよう。",
+     "en": "Alright, then let's eat apple.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 228.3,
+     "end": 230.4,
+     "ja": "よし、じゃあ、りんご食べよう。",
+     "en": "Alright, then let's eat apple.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 231.5,
+     "end": 234.8,
+     "ja": "うーん、嬉しい、嬉しい。",
+     "en": "Mmm, so happy, so happy.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 235.3,
+     "end": 236.8,
+     "ja": "りんご食べる？",
+     "en": "Do you want some apple?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 236.9,
+     "end": 237.6,
+     "ja": "ね？",
+     "en": "Right?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 237.7,
+     "end": 239.5,
+     "ja": "ここにあるもんね。",
+     "en": "It's always right here, isn't it?",
+     "speaker": "Owner"
+    }
+   ]
+  },
+  {
+   "start": 326.8,
+   "end": 358.5,
+   "title": "The Vacuum Cleaner Isn't Scary",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "animals"
+   ],
+   "grammar": [
+    "〜から — because / reason",
+    "おいで — come here (imperative)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 327.0,
+     "end": 329.0,
+     "ja": "怖くないからおいで！",
+     "en": "It's not scary, come here!",
+     "speaker": "Owner"
+    },
+    {
+     "start": 330.8,
+     "end": 332.0,
+     "ja": "大丈夫。",
+     "en": "It's okay.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 333.2,
+     "end": 335.3,
+     "ja": "怖くないからおいで。",
+     "en": "It's not scary, so come here.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 337.0,
+     "end": 338.2,
+     "ja": "大丈夫。",
+     "en": "It's okay.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 340.8,
+     "end": 342.0,
+     "ja": "おいで。",
+     "en": "Come here.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 343.0,
+     "end": 344.3,
+     "ja": "怖くない。",
+     "en": "It's not scary.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 344.8,
+     "end": 346.8,
+     "ja": "掃除機怖くない。",
+     "en": "The vacuum cleaner isn't scary.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 349.0,
+     "end": 351.8,
+     "ja": "ほら、大丈夫、大丈夫、おいで。",
+     "en": "Look, it's okay, it's okay, come here.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 355.2,
+     "end": 357.5,
+     "ja": "大丈夫、大丈夫。",
+     "en": "It's okay, it's okay.",
+     "speaker": "Owner"
+    }
+   ]
+  }
+ ],
+ "videoId": "AjUpwbig3GM",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

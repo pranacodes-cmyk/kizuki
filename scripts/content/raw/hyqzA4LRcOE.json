@@ -1,0 +1,264 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 62.0,
+   "end": 81.8,
+   "title": "Meet the Innkeeper",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "comedy"
+   ],
+   "grammar": [
+    "〜と申します — humble introduction",
+    "お〜になる — respectful honorific prefix"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 62.0,
+     "end": 63.5,
+     "ja": "何？あんた女将？",
+     "en": "What? You're the landlady?",
+     "speaker": "Guest"
+    },
+    {
+     "start": 63.5,
+     "end": 67.0,
+     "ja": "申し遅れました。私、女将の大神と申します。",
+     "en": "Forgive my late introduction. I am the landlady, Ookami.",
+     "speaker": "Okami"
+    },
+    {
+     "start": 67.0,
+     "end": 69.0,
+     "ja": "え？何？狼？",
+     "en": "Huh? What? Wolf?",
+     "speaker": "Guest"
+    },
+    {
+     "start": 69.0,
+     "end": 72.0,
+     "ja": "女将の大神女将と申します。",
+     "en": "I am Ookami Okami, the landlady.",
+     "speaker": "Okami"
+    },
+    {
+     "start": 72.0,
+     "end": 73.0,
+     "ja": "名前？",
+     "en": "Your name?",
+     "speaker": "Guest"
+    },
+    {
+     "start": 73.0,
+     "end": 74.5,
+     "ja": "はい、よろしくお願いいたします。",
+     "en": "Yes, pleased to meet you.",
+     "speaker": "Okami"
+    },
+    {
+     "start": 74.5,
+     "end": 76.0,
+     "ja": "大神女将さんなの？",
+     "en": "So you're Okami Ookami?",
+     "speaker": "Guest"
+    },
+    {
+     "start": 76.0,
+     "end": 77.0,
+     "ja": "そうなんです。",
+     "en": "That's right.",
+     "speaker": "Okami"
+    },
+    {
+     "start": 77.0,
+     "end": 79.5,
+     "ja": "すげえな。よく大神に女将って付けたな。",
+     "en": "Incredible. Who names their kid Okami with the family name Ookami?",
+     "speaker": "Guest"
+    },
+    {
+     "start": 79.5,
+     "end": 81.8,
+     "ja": "そうですねえ。あ、お掛けになってください。",
+     "en": "Indeed. Oh, please have a seat.",
+     "speaker": "Okami"
+    }
+   ]
+  },
+  {
+   "start": 103.0,
+   "end": 126.0,
+   "title": "A View of the Opposite Room",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "comedy"
+   ],
+   "grammar": [
+    "〜しか〜ない — only, nothing but",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 103.0,
+     "end": 105.0,
+     "ja": "あ、どうですか？お部屋の方は？",
+     "en": "Oh, how do you like the room?",
+     "speaker": "Okami"
+    },
+    {
+     "start": 105.0,
+     "end": 106.8,
+     "ja": "いや、こんなもんじゃない？普通だな。",
+     "en": "Well, it's pretty standard, isn't it? Just ordinary.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 106.8,
+     "end": 109.0,
+     "ja": "あ、そうですか。ありがとうございます。",
+     "en": "Oh, really? Thank you very much.",
+     "speaker": "Okami"
+    },
+    {
+     "start": 109.0,
+     "end": 111.5,
+     "ja": "褒めてねえよ、全然。こんなもんじゃねえ？どこ行っても。",
+     "en": "I wasn't complimenting you at all. It's like this everywhere you go.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 111.5,
+     "end": 114.5,
+     "ja": "あ、そうですか。窓からの景色もすごくいいんですよ。",
+     "en": "Is that so? The view from the window is wonderful too.",
+     "speaker": "Okami"
+    },
+    {
+     "start": 114.5,
+     "end": 116.5,
+     "ja": "あ、そうなの？俺、ちょっと見てみよう。",
+     "en": "Oh, really? Let me take a look.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 117.0,
+     "end": 119.0,
+     "ja": "向かいの部屋が一望できるんです。",
+     "en": "You get a panoramic view of the room across the way.",
+     "speaker": "Okami"
+    },
+    {
+     "start": 119.0,
+     "end": 122.0,
+     "ja": "向かいの部屋しか見えねえじゃねえか。向かいの部屋しか見えないよ。",
+     "en": "All I can see is the room across the hall! That's literally all that's visible.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 122.0,
+     "end": 123.5,
+     "ja": "そうなんです。",
+     "en": "That's correct.",
+     "speaker": "Okami"
+    },
+    {
+     "start": 123.5,
+     "end": 124.5,
+     "ja": "山とか見えないの？",
+     "en": "Can't you see any mountains?",
+     "speaker": "Guest"
+    },
+    {
+     "start": 124.5,
+     "end": 126.0,
+     "ja": "山、反対側になっちゃうんですね。",
+     "en": "The mountains happen to be on the opposite side.",
+     "speaker": "Okami"
+    }
+   ]
+  },
+  {
+   "start": 318.5,
+   "end": 331.5,
+   "title": "The Oversized Room Key",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "comedy"
+   ],
+   "grammar": [
+    "〜すぎる — too much / excessively",
+    "〜ないように — so as not to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 318.5,
+     "end": 320.5,
+     "ja": "でかいな、おい！",
+     "en": "Hey, that's huge!",
+     "speaker": "Guest"
+    },
+    {
+     "start": 320.5,
+     "end": 321.5,
+     "ja": "こちらになります。",
+     "en": "Here it is.",
+     "speaker": "Okami"
+    },
+    {
+     "start": 321.5,
+     "end": 323.0,
+     "ja": "でかすぎるよ、どう考えても。",
+     "en": "No matter how you look at it, that's way too big.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 323.0,
+     "end": 324.0,
+     "ja": "無くさないように。",
+     "en": "So you don't lose it.",
+     "speaker": "Okami"
+    },
+    {
+     "start": 324.0,
+     "end": 326.5,
+     "ja": "恥ずかしいわ、こんなの持ち歩くの、お前！",
+     "en": "It's embarrassing to carry this around, man!",
+     "speaker": "Guest"
+    },
+    {
+     "start": 326.5,
+     "end": 328.5,
+     "ja": "日本シリーズでMVP獲ったみたいになってるけど。",
+     "en": "It looks like I just won the Japan Series MVP!",
+     "speaker": "Guest"
+    },
+    {
+     "start": 328.5,
+     "end": 329.8,
+     "ja": "おめでとうございます。",
+     "en": "Congratulations.",
+     "speaker": "Okami"
+    },
+    {
+     "start": 329.8,
+     "end": 331.5,
+     "ja": "おめでとうございますじゃねえよ！獲ってねえんだよ、俺。",
+     "en": "Don't congratulate me! I didn't win anything!",
+     "speaker": "Guest"
+    }
+   ]
+  }
+ ],
+ "videoId": "hyqzA4LRcOE",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,176 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 85.3,
+   "end": 147.2,
+   "title": "He Doesn't Even Need an Interpreter",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜てる — ongoing action",
+    "〜と思う — expressing thoughts/opinions"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 85.5,
+     "end": 88.9,
+     "ja": "イーレイは、日本語も普通に喋れます。",
+     "en": "Yi-Lei can speak Japanese normally too.",
+     "speaker": "Yazawa"
+    },
+    {
+     "start": 89.9,
+     "end": 93.3,
+     "ja": "だから、通訳いらないっすね。本当に。",
+     "en": "So he doesn't need an interpreter. Seriously.",
+     "speaker": "Yazawa"
+    },
+    {
+     "start": 94.0,
+     "end": 96.6,
+     "ja": "多分、寮で勉強してるんですよ。",
+     "en": "He's probably studying at the dormitory.",
+     "speaker": "Yazawa"
+    },
+    {
+     "start": 97.0,
+     "end": 101.4,
+     "ja": "日本語の先生みたいな方と。頭いいっす、めちゃめちゃ。",
+     "en": "With someone like a Japanese teacher. He's super smart.",
+     "speaker": "Yazawa"
+    },
+    {
+     "start": 102.8,
+     "end": 106.8,
+     "ja": "すごい色んな言葉覚えてるし、賢いなと思います。",
+     "en": "He learns so many words, so I think he's really clever.",
+     "speaker": "Yazawa"
+    }
+   ]
+  },
+  {
+   "start": 145.4,
+   "end": 164.0,
+   "title": "Studying Hard to Communicate",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "friends",
+    "work"
+   ],
+   "grammar": [
+    "〜たり〜たりする — doing things like",
+    "〜なしで — without",
+    "〜ぐらい — to the extent that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 145.6,
+     "end": 147.9,
+     "ja": "イーレイでも勉強熱心で、",
+     "en": "Yi-Lei is really eager to learn,",
+     "speaker": "Hosokawa"
+    },
+    {
+     "start": 148.0,
+     "end": 150.9,
+     "ja": "毎週多分日本語の授業を受けたりとかして、",
+     "en": "taking Japanese classes every week and all,",
+     "speaker": "Hosokawa"
+    },
+    {
+     "start": 151.0,
+     "end": 153.6,
+     "ja": "必死にみんなと通訳を介さずに、",
+     "en": "and trying desperately without an interpreter",
+     "speaker": "Hosokawa"
+    },
+    {
+     "start": 154.0,
+     "end": 157.0,
+     "ja": "コミュニケーションをめっちゃ取ってくれるんで、",
+     "en": "to communicate with everyone a lot,",
+     "speaker": "Hosokawa"
+    },
+    {
+     "start": 157.3,
+     "end": 159.0,
+     "ja": "結構可愛いし、",
+     "en": "which is really cute,",
+     "speaker": "Hosokawa"
+    },
+    {
+     "start": 159.1,
+     "end": 163.6,
+     "ja": "もう今通訳なしでも全然喋れるぐらい日本語うまいんで、",
+     "en": "and his Japanese is already good enough that he speaks totally fine without an interpreter.",
+     "speaker": "Hosokawa"
+    }
+   ]
+  },
+  {
+   "start": 208.5,
+   "end": 227.0,
+   "title": "Welcomed to the Major League Roster",
+   "level": "N5",
+   "topics": [
+    "sports",
+    "work"
+   ],
+   "grammar": [
+    "〜から — starting from",
+    "〜よろしくお願いします — please treat me well"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 208.8,
+     "end": 213.5,
+     "ja": "本日より孫易磊投手、支配下登録されました。よろしくお願いします！",
+     "en": "As of today, pitcher Sun Yi-Lei has been added to the main roster. Let's give him a warm welcome!",
+     "speaker": "Staff"
+    },
+    {
+     "start": 217.5,
+     "end": 219.2,
+     "ja": "皆さん、こんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Sun"
+    },
+    {
+     "start": 219.3,
+     "end": 220.4,
+     "ja": "こんにちは！",
+     "en": "Hello!",
+     "speaker": "Team"
+    },
+    {
+     "start": 220.6,
+     "end": 222.5,
+     "ja": "今日から合流します。",
+     "en": "I'm joining the team today.",
+     "speaker": "Sun"
+    },
+    {
+     "start": 223.5,
+     "end": 225.8,
+     "ja": "これからよろしくお願いします！",
+     "en": "I look forward to working with you all!",
+     "speaker": "Sun"
+    }
+   ]
+  }
+ ],
+ "videoId": "3eijAAkcSvk",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

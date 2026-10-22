@@ -1,0 +1,202 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 50.8,
+   "end": 108.5,
+   "title": "Forgetting the SD Card at Home",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜んです — explanatory tone",
+    "〜ので — expressing reason or cause"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 51.0,
+     "end": 52.5,
+     "ja": "聞いてください。",
+     "en": "Listen to this.",
+     "speaker": "Riko"
+    },
+    {
+     "start": 52.8,
+     "end": 55.4,
+     "ja": "SDカードを忘れたんです。",
+     "en": "I forgot my SD card.",
+     "speaker": "Riko"
+    },
+    {
+     "start": 55.7,
+     "end": 57.5,
+     "ja": "で、今急いでビックカメラが",
+     "en": "So I hurried because there was a Bic Camera",
+     "speaker": "Riko"
+    },
+    {
+     "start": 57.6,
+     "end": 60.5,
+     "ja": "空港にあったので買いに行って、",
+     "en": "at the airport, went to buy one,",
+     "speaker": "Riko"
+    },
+    {
+     "start": 60.7,
+     "end": 62.1,
+     "ja": "お友達と合流して、",
+     "en": "met up with my friend,",
+     "speaker": "Riko"
+    },
+    {
+     "start": 62.2,
+     "end": 64.3,
+     "ja": "やっと遊びに行きます。",
+     "en": "and now we're finally heading out to have fun.",
+     "speaker": "Riko"
+    },
+    {
+     "start": 64.6,
+     "end": 66.5,
+     "ja": "まじ最悪…",
+     "en": "Seriously the worst...",
+     "speaker": "Riko"
+    },
+    {
+     "start": 66.7,
+     "end": 68.0,
+     "ja": "お待たせ！",
+     "en": "Sorry to keep you waiting!",
+     "speaker": "Riko"
+    }
+   ]
+  },
+  {
+   "start": 769.8,
+   "end": 781.3,
+   "title": "Getting Ready on the Wedding Morning",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜ので — expressing reason or cause",
+    "〜ていく — doing something and going"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 770.2,
+     "end": 772.5,
+     "ja": "おはようございます、皆さん。",
+     "en": "Good morning, everyone.",
+     "speaker": "Riko"
+    },
+    {
+     "start": 772.7,
+     "end": 774.0,
+     "ja": "声がガラガラ。",
+     "en": "My voice is so raspy.",
+     "speaker": "Riko"
+    },
+    {
+     "start": 774.2,
+     "end": 776.3,
+     "ja": "今日は結婚式参列なので、",
+     "en": "Today I'm attending a wedding,",
+     "speaker": "Riko"
+    },
+    {
+     "start": 776.4,
+     "end": 778.7,
+     "ja": "メイクをして行ってきまーす。",
+     "en": "so I'll do my makeup and head out.",
+     "speaker": "Riko"
+    },
+    {
+     "start": 778.8,
+     "end": 780.8,
+     "ja": "眠たい。",
+     "en": "I'm so sleepy.",
+     "speaker": "Riko"
+    }
+   ]
+  },
+  {
+   "start": 992.0,
+   "end": 1006.2,
+   "title": "Ordering Steak at the Airport",
+   "level": "N3",
+   "topics": [
+    "food",
+    "fun",
+    "travel"
+   ],
+   "grammar": [
+    "〜ようとする — attempting or trying to do",
+    "〜のに — although; despite"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 992.2,
+     "end": 993.8,
+     "ja": "やばーい。",
+     "en": "Oh no...",
+     "speaker": "Riko"
+    },
+    {
+     "start": 993.9,
+     "end": 994.7,
+     "ja": "何？",
+     "en": "What?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 994.8,
+     "end": 997.1,
+     "ja": "ステーキ食べようとしてる、",
+     "en": "I'm about to eat steak,",
+     "speaker": "Riko"
+    },
+    {
+     "start": 997.2,
+     "end": 999.1,
+     "ja": "お腹いっぱいなのに。",
+     "en": "even though I'm already full.",
+     "speaker": "Riko"
+    },
+    {
+     "start": 999.5,
+     "end": 1001.3,
+     "ja": "これがいい、これ。",
+     "en": "This looks good, this one.",
+     "speaker": "Riko"
+    },
+    {
+     "start": 1001.8,
+     "end": 1003.8,
+     "ja": "何歳までって書いてる？",
+     "en": "Up to what age does it say?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 1004.2,
+     "end": 1005.8,
+     "ja": "10歳、10歳、10歳。",
+     "en": "10 years old, 10 years old, 10 years old.",
+     "speaker": "Riko"
+    }
+   ]
+  }
+ ],
+ "videoId": "6eGfMCZDluE",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

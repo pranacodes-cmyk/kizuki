@@ -1,0 +1,138 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 49.0,
+   "end": 103.0,
+   "title": "What Is Dondoyaki?",
+   "level": "N4",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜は〜です — A is B",
+    "〜頃 — around (time)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 49.2,
+     "end": 53.3,
+     "ja": "さて、今日のテーマはどんど焼きです。",
+     "en": "Now, today's theme is Dondoyaki.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 53.7,
+     "end": 58.0,
+     "ja": "どんど焼きは、お正月の終わりの行事です。",
+     "en": "Dondoyaki is an event marking the end of the New Year period.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 58.4,
+     "end": 102.5,
+     "ja": "日本では1月15日頃行います。",
+     "en": "In Japan, it is held around January 15th.",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 150.7,
+   "end": 207.4,
+   "title": "Eating Dumplings at Dondoyaki",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜と、〜 — when / if...",
+    "〜と言われている — it is said that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 151.0,
+     "end": 154.5,
+     "ja": "どんど焼きの日には、お団子を食べます。",
+     "en": "On the day of Dondoyaki, we eat dango rice dumplings.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 155.0,
+     "end": 201.0,
+     "ja": "家で作ったお団子を木の枝につけて、火で少し焼きます。",
+     "en": "We put homemade dumplings on tree branches and roast them a little over the fire.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 201.5,
+     "end": 207.0,
+     "ja": "それを食べると、1年間元気で過ごせると言われています。",
+     "en": "It is said that if you eat them, you will stay healthy for a whole year.",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 208.5,
+   "end": 230.0,
+   "title": "Colorful Dumplings from Grandma and Mom",
+   "level": "N4",
+   "topics": [
+    "food",
+    "family",
+    "culture"
+   ],
+   "grammar": [
+    "〜てくれる — do something for someone",
+    "〜にする — to make into / turn into"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 208.8,
+     "end": 215.8,
+     "ja": "私の家では、おばあちゃんとお母さんが色々な色のお団子を作ってくれました。",
+     "en": "At my house, my grandma and mother made us dumplings of various colors.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 216.5,
+     "end": 218.0,
+     "ja": "白いお団子、",
+     "en": "White dumplings,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 218.4,
+     "end": 221.7,
+     "ja": "さつまいもで黄色にしたお団子、",
+     "en": "dumplings colored yellow with sweet potato,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 222.0,
+     "end": 225.2,
+     "ja": "ほうれん草で緑にしたお団子。",
+     "en": "and dumplings colored green with spinach.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 225.7,
+     "end": 229.5,
+     "ja": "とても綺麗で、どんど焼きの日の楽しみでした。",
+     "en": "They were so pretty, and it was something I looked forward to on Dondoyaki.",
+     "speaker": "Yuka"
+    }
+   ]
+  }
+ ],
+ "videoId": "Lhv4887I4Aw",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

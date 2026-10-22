@@ -1,0 +1,223 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 17.3,
+   "end": 31.5,
+   "title": "Getting Recognized in Public",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ようになる — come to (do)",
+    "〜みたい — seems like / looks like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.3,
+     "end": 21.0,
+     "ja": "結構さ、YouTubeって見てくれてる人多いみたいで、",
+     "en": "Quite a lot of people seem to watch my YouTube,",
+     "speaker": "Jun"
+    },
+    {
+     "start": 21.4,
+     "end": 24.3,
+     "ja": "なんかさ、めっちゃ気づかれるようになったのよ。",
+     "en": "and I've started getting recognized so much.",
+     "speaker": "Jun"
+    },
+    {
+     "start": 24.3,
+     "end": 25.3,
+     "ja": "え？街で？",
+     "en": "What? Out on the street?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 25.3,
+     "end": 26.2,
+     "ja": "街で。",
+     "en": "On the street.",
+     "speaker": "Jun"
+    },
+    {
+     "start": 26.2,
+     "end": 27.2,
+     "ja": "ええ？",
+     "en": "Really?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 27.4,
+     "end": 31.0,
+     "ja": "本当に。私そろそろサングラス買おうかな？",
+     "en": "Really! Maybe I should finally buy some sunglasses?",
+     "speaker": "Jun"
+    }
+   ]
+  },
+  {
+   "start": 139.5,
+   "end": 159.5,
+   "title": "Talking About Her Youngest Son",
+   "level": "N4",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜になる — to become",
+    "〜んです — explanatory tone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 139.5,
+     "end": 142.1,
+     "ja": "三男君は何歳になったんですか？",
+     "en": "How old is your third son now?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 142.1,
+     "end": 144.3,
+     "ja": "今ね、まだ２歳ですね。",
+     "en": "Right now, he's still two.",
+     "speaker": "Jun"
+    },
+    {
+     "start": 144.3,
+     "end": 146.5,
+     "ja": "一応来月末ですね。",
+     "en": "Well, at the end of next month,",
+     "speaker": "Jun"
+    },
+    {
+     "start": 146.6,
+     "end": 148.6,
+     "ja": "１０月で３歳。",
+     "en": "he turns three in October.",
+     "speaker": "Jun"
+    },
+    {
+     "start": 148.6,
+     "end": 149.6,
+     "ja": "で、３歳。",
+     "en": "So three then.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 149.6,
+     "end": 150.3,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Jun"
+    },
+    {
+     "start": 150.3,
+     "end": 152.0,
+     "ja": "なんですけど、",
+     "en": "And the thing is,",
+     "speaker": "Jun"
+    },
+    {
+     "start": 152.0,
+     "end": 157.0,
+     "ja": "うち、あの、認可外保育に行ってるんですよ。",
+     "en": "he's going to an unlicensed daycare.",
+     "speaker": "Jun"
+    },
+    {
+     "start": 157.0,
+     "end": 158.4,
+     "ja": "今？",
+     "en": "Right now?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 158.4,
+     "end": 159.4,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Jun"
+    }
+   ]
+  },
+  {
+   "start": 611.8,
+   "end": 627.5,
+   "title": "Good Morning Instead of an Apology",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜と思うと — just when / as soon as",
+    "〜みたいな — like / such as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 611.8,
+     "end": 615.0,
+     "ja": "ほんで、ようやく開いたなと思うと、門が。",
+     "en": "And then, just when the gate finally opened...",
+     "speaker": "Jun"
+    },
+    {
+     "start": 615.0,
+     "end": 615.8,
+     "ja": "ほう。",
+     "en": "Uh-huh.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 615.8,
+     "end": 618.4,
+     "ja": "園長先生が「GOOD MORNING」って言うんですよ。",
+     "en": "The principal just goes, \"GOOD MORNING!\"",
+     "speaker": "Jun"
+    },
+    {
+     "start": 618.4,
+     "end": 620.9,
+     "ja": "「GOOD MORNING」の前に言う事ない？",
+     "en": "Isn't there something to say before \"GOOD MORNING\"?",
+     "speaker": "Jun"
+    },
+    {
+     "start": 620.9,
+     "end": 622.5,
+     "ja": "うん、一言ね。うん、うん。",
+     "en": "Yeah, like an excuse or something.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 622.5,
+     "end": 624.4,
+     "ja": "「いや、結構遅れてるよ」みたいな。",
+     "en": "Like, \"Hey, you're pretty late opening up!\"",
+     "speaker": "Jun"
+    },
+    {
+     "start": 624.4,
+     "end": 627.2,
+     "ja": "まあ、そういう感覚もないんですかね。",
+     "en": "Well, maybe they just don't have that sense.",
+     "speaker": "Staff"
+    }
+   ]
+  }
+ ],
+ "videoId": "nub-f2FDrwg",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

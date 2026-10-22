@@ -1,0 +1,103 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.1,
+   "end": 14.6,
+   "title": "What Downtime Really Means",
+   "level": "N2",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜ための — in order to",
+    "〜ば — conditional if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.4,
+     "end": 6.8,
+     "ja": "ダウンタイムは、サナギが殻を破って蝶に生まれ変わるための、大事な時間。",
+     "en": "Downtime is the precious time for a chrysalis to break out of its cocoon and transform into a butterfly.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 7.8,
+     "end": 14.0,
+     "ja": "それを乗り切れば、別人へ生まれ変わる。",
+     "en": "If you push through it, you will be reborn as someone completely new.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 18.0,
+   "end": 24.5,
+   "title": "Operated Everywhere",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜てる — ongoing state / progressive",
+    "〜ほうが — comparison (it is more...)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 18.2,
+     "end": 21.0,
+     "ja": "目、鼻、顎、全部メス入ってる。",
+     "en": "Eyes, nose, jaw—they've all had surgery.",
+     "speaker": "Surgeon"
+    },
+    {
+     "start": 21.3,
+     "end": 24.4,
+     "ja": "天然な場所探す方が難しいんだけど。",
+     "en": "It's harder to find parts that are actually natural.",
+     "speaker": "Surgeon"
+    }
+   ]
+  },
+  {
+   "start": 107.0,
+   "end": 115.5,
+   "title": "Nobody in This World Is Healthy",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜でもない — not even / not at all",
+    "〜なんて — emphasizing disdain or disbelief"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 107.3,
+     "end": 111.0,
+     "ja": "私は医者です。病気でもない人にメスはいれられない。",
+     "en": "I am a doctor. I cannot perform surgery on someone who isn't sick.",
+     "speaker": "Doctor"
+    },
+    {
+     "start": 111.3,
+     "end": 114.9,
+     "ja": "この世界に病気じゃない人なんていないから。",
+     "en": "Because in this world, there is no such person who isn't sick.",
+     "speaker": "Clinic Director"
+    }
+   ]
+  }
+ ],
+ "videoId": "4Mopkx0DAZg",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

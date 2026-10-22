@@ -1,0 +1,153 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 14.0,
+   "title": "Who Is This Fortune Teller?",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "一番〜 — the most"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 1.0,
+     "end": 3.8,
+     "ja": "日本で一番有名な占い師。",
+     "en": "The most famous fortune teller in Japan.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 4.8,
+     "end": 6.5,
+     "ja": "現代の予言者。",
+     "en": "A modern prophet.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 7.7,
+     "end": 8.7,
+     "ja": "女帝。",
+     "en": "Empress.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 8.7,
+     "end": 9.7,
+     "ja": "妖怪。",
+     "en": "Monster.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 9.7,
+     "end": 11.8,
+     "ja": "インチキ占い師。",
+     "en": "Fake fortune teller.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 12.0,
+     "end": 13.6,
+     "ja": "詐欺師。",
+     "en": "Swindler.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 14.6,
+   "end": 31.5,
+   "title": "A God or a Fraud?",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜にとって — for / from the perspective of",
+    "〜ちゃう — to end up doing (contraction of てしまう)",
+    "〜に決まっている — bound to be / definitely is"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 14.8,
+     "end": 16.7,
+     "ja": "天才的なエンターテイナーですよ。",
+     "en": "She's a brilliant entertainer.",
+     "speaker": "Man 1"
+    },
+    {
+     "start": 16.8,
+     "end": 19.0,
+     "ja": "ああいうのが日本人に受けちゃうんだよな。",
+     "en": "That kind of thing just resonates with Japanese people, doesn't it?",
+     "speaker": "Man 2"
+    },
+    {
+     "start": 19.2,
+     "end": 21.8,
+     "ja": "全て先生の占いのおかげです。",
+     "en": "It's all thanks to her fortune-telling.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 22.0,
+     "end": 25.8,
+     "ja": "私にとって細木先生は神様みたいな人です。",
+     "en": "To me, Master Hosoki is like a god.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 26.8,
+     "end": 31.2,
+     "ja": "そんなの、全部嘘に決まってるじゃん。",
+     "en": "Things like that are obviously all lies.",
+     "speaker": "Man 3"
+    }
+   ]
+  },
+  {
+   "start": 58.5,
+   "end": 108.8,
+   "title": "You Will Fall into Hell",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜に落ちる — to fall into",
+    "〜てあげる — to do something for someone",
+    "〜せる — causative form (let/make someone do)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 58.8,
+     "end": 103.2,
+     "ja": "あんた、地獄に堕ちるわよ。",
+     "en": "You'll fall into hell.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 104.6,
+     "end": 108.3,
+     "ja": "本当の話、聞かせてあげましょうか。",
+     "en": "Shall I tell you the real story?",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "DyiPEHiMMfY",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

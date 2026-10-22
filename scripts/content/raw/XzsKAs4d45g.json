@@ -1,0 +1,253 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 30.3,
+   "end": 56.8,
+   "title": "Excuse Me, Are You a Martian?",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "〜に興味がある — to be interested in",
+    "〜が好き — to like something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 30.7,
+     "end": 32.8,
+     "ja": "あのー、すみません…",
+     "en": "Err... excuse me...",
+     "speaker": "Yellow Dog"
+    },
+    {
+     "start": 33.0,
+     "end": 36.5,
+     "ja": "失礼ですが、火星人ですか？",
+     "en": "Excuse me, but are you a Martian?",
+     "speaker": "Yellow Dog"
+    },
+    {
+     "start": 36.8,
+     "end": 37.8,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Alien"
+    },
+    {
+     "start": 38.0,
+     "end": 39.8,
+     "ja": "えー、すごい！",
+     "en": "Wow, amazing!",
+     "speaker": "Yellow Dog"
+    },
+    {
+     "start": 40.0,
+     "end": 43.0,
+     "ja": "私は宇宙に興味があります。",
+     "en": "I'm interested in outer space.",
+     "speaker": "Yellow Dog"
+    },
+    {
+     "start": 43.3,
+     "end": 45.0,
+     "ja": "日本人ですか？",
+     "en": "Are you Japanese?",
+     "speaker": "Alien"
+    },
+    {
+     "start": 45.2,
+     "end": 47.5,
+     "ja": "あっ、はい、そうです。",
+     "en": "Ah, yes, that's right.",
+     "speaker": "Yellow Dog"
+    },
+    {
+     "start": 48.3,
+     "end": 50.5,
+     "ja": "え、本当ですか？",
+     "en": "Eh, really?",
+     "speaker": "Alien"
+    },
+    {
+     "start": 50.8,
+     "end": 54.0,
+     "ja": "日本のアニメと漫画が大好きです！",
+     "en": "I love Japanese anime and manga!",
+     "speaker": "Alien"
+    },
+    {
+     "start": 54.3,
+     "end": 56.5,
+     "ja": "えー、嬉しいです！",
+     "en": "Oh, I'm glad to hear that!",
+     "speaker": "Yellow Dog"
+    }
+   ]
+  },
+  {
+   "start": 56.8,
+   "end": 120.8,
+   "title": "What Brings You to Japan?",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜のために — for the purpose of",
+    "〜んですか — asking for explanation/clarification"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 57.2,
+     "end": 60.1,
+     "ja": "あの…どうして日本に来たんですか？",
+     "en": "Um... what brought you to Japan?",
+     "speaker": "Yellow Dog"
+    },
+    {
+     "start": 60.4,
+     "end": 63.0,
+     "ja": "留学のために来ました。",
+     "en": "I came to study abroad.",
+     "speaker": "Alien"
+    },
+    {
+     "start": 63.3,
+     "end": 65.5,
+     "ja": "えー、すごいですね！",
+     "en": "Wow, that's wonderful!",
+     "speaker": "Yellow Dog"
+    },
+    {
+     "start": 66.5,
+     "end": 69.8,
+     "ja": "あっ、これ、ほんの気持ちです。",
+     "en": "Ah, here's a small token of my appreciation.",
+     "speaker": "Alien"
+    },
+    {
+     "start": 70.0,
+     "end": 71.1,
+     "ja": "どうぞ。",
+     "en": "Here you go.",
+     "speaker": "Alien"
+    },
+    {
+     "start": 71.5,
+     "end": 73.5,
+     "ja": "え、これは何ですか？",
+     "en": "Eh, what is this?",
+     "speaker": "Yellow Dog"
+    },
+    {
+     "start": 74.0,
+     "end": 76.5,
+     "ja": "火星のお菓子です。",
+     "en": "They are sweets from Mars.",
+     "speaker": "Alien"
+    },
+    {
+     "start": 77.0,
+     "end": 78.5,
+     "ja": "え、いいんですか？",
+     "en": "Oh, are you sure?",
+     "speaker": "Yellow Dog"
+    },
+    {
+     "start": 78.8,
+     "end": 80.5,
+     "ja": "ありがとうございます！",
+     "en": "Thank you so much!",
+     "speaker": "Yellow Dog"
+    }
+   ]
+  },
+  {
+   "start": 81.0,
+   "end": 104.0,
+   "title": "Homestay at My House?!",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜が楽しみ — looking forward to",
+    "こちらこそ — likewise / the pleasure is mine"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 81.3,
+     "end": 84.0,
+     "ja": "これからお世話になります。",
+     "en": "Thank you for looking after me from now on.",
+     "speaker": "Alien"
+    },
+    {
+     "start": 84.3,
+     "end": 85.8,
+     "ja": "はい？",
+     "en": "Pardon?",
+     "speaker": "Yellow Dog"
+    },
+    {
+     "start": 86.2,
+     "end": 88.8,
+     "ja": "ホームステイが楽しみです。",
+     "en": "I'm looking forward to the homestay.",
+     "speaker": "Alien"
+    },
+    {
+     "start": 89.5,
+     "end": 91.0,
+     "ja": "ホームステイ？",
+     "en": "Homestay?",
+     "speaker": "Yellow Dog"
+    },
+    {
+     "start": 91.2,
+     "end": 93.3,
+     "ja": "うちですか？！",
+     "en": "At my house?!",
+     "speaker": "Yellow Dog"
+    },
+    {
+     "start": 94.0,
+     "end": 96.5,
+     "ja": "はい、よろしくお願いします。",
+     "en": "Yes, I look forward to staying with you.",
+     "speaker": "Alien"
+    },
+    {
+     "start": 98.2,
+     "end": 101.5,
+     "ja": "こちらこそよろしくお願いします！",
+     "en": "Likewise, I'm glad to have you!",
+     "speaker": "Yellow Dog"
+    },
+    {
+     "start": 102.0,
+     "end": 103.5,
+     "ja": "イエーイ！",
+     "en": "Yay!",
+     "speaker": "Alien & Yellow Dog"
+    }
+   ]
+  }
+ ],
+ "videoId": "XzsKAs4d45g",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

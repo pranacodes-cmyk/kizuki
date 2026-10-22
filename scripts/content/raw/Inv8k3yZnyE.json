@@ -1,0 +1,136 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.6,
+   "end": 22.8,
+   "title": "How to Board a Tram with an IC Card",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていく — will go on to do",
+    "〜と思う — thinking of doing"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 2.5,
+     "ja": "どうもお疲れ様です。",
+     "en": "Hello everyone.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 2.5,
+     "end": 4.1,
+     "ja": "隼さんです。",
+     "en": "It's Hayabusa-san.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 4.1,
+     "end": 7.5,
+     "ja": "今日は交通系ICカードを使っての",
+     "en": "Today, using a transit IC card,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 7.5,
+     "end": 11.8,
+     "ja": "路面電車の乗り方を説明していきたいと思います。",
+     "en": "I'd like to explain how to ride the streetcar.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 12.3,
+     "end": 17.5,
+     "ja": "で、乗る時はタッチも不要。",
+     "en": "And when you board, no tapping is needed.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 17.8,
+     "end": 22.4,
+     "ja": "そのまま席に着いて目的地まで移動します。",
+     "en": "Just take a seat and ride to your destination.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 117.5,
+   "end": 135.8,
+   "title": "How to Get Off the Tram",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜なんですが — as for / softening topic",
+    "〜ているので — because state is ongoing",
+    "〜通り — just like / as"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 117.8,
+     "end": 119.7,
+     "ja": "降り方なんですが、",
+     "en": "As for getting off,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 119.8,
+     "end": 123.6,
+     "ja": "乗務員さんがカードリーダーを持っているので、",
+     "en": "the crew member holds a card reader,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 123.7,
+     "end": 126.5,
+     "ja": "そこにタッチして降りる方式。",
+     "en": "so you tap it there to exit.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 126.7,
+     "end": 128.6,
+     "ja": "ま、ここに書いてある通り。",
+     "en": "Well, just as it says right here.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 128.7,
+     "end": 130.8,
+     "ja": "で、タッチして降ります。",
+     "en": "So you tap and get off.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 131.3,
+     "end": 133.0,
+     "ja": "いかがだったでしょうか？",
+     "en": "How was that?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 133.2,
+     "end": 135.5,
+     "ja": "ご視聴ありがとうございました。",
+     "en": "Thank you for watching.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "Inv8k3yZnyE",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

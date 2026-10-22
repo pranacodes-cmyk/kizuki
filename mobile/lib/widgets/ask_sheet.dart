@@ -98,6 +98,7 @@ class _AskSheetState extends State<AskSheet> {
     } on AskFailure catch (e) {
       if (mounted && _req == req) setState(() => _error = e.message);
     } finally {
+      req.close();
       if (mounted && _req == req) {
         setState(() {
           _req = null;

@@ -1,0 +1,196 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 33.2,
+   "end": 57.1,
+   "title": "How to Ride Trains and Buses",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜と違って — unlike / different from",
+    "〜がち — tend to do",
+    "〜ないでください — please do not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 33.3,
+     "end": 35.3,
+     "ja": "じゃ、まず最初に乗り方です。",
+     "en": "So, first of all, here is how to ride.",
+     "speaker": "A"
+    },
+    {
+     "start": 35.4,
+     "end": 38.6,
+     "ja": "乗り方はバスと電車でちょっと方法が違くて、",
+     "en": "The method is a bit different between buses and trains,",
+     "speaker": "A"
+    },
+    {
+     "start": 38.8,
+     "end": 41.5,
+     "ja": "電車は改札入る時にタップ、",
+     "en": "for the train, you tap when entering the gate,",
+     "speaker": "A"
+    },
+    {
+     "start": 41.6,
+     "end": 44.5,
+     "ja": "で改札出る時もタップ、これだけです。",
+     "en": "and tap when exiting the gate. That's all.",
+     "speaker": "A"
+    },
+    {
+     "start": 44.7,
+     "end": 46.5,
+     "ja": "うん、まあ日本と一緒だね。",
+     "en": "Yeah, that's just like Japan.",
+     "speaker": "B"
+    },
+    {
+     "start": 46.6,
+     "end": 48.6,
+     "ja": "で、バスの乗り方なんですけど、",
+     "en": "And as for how to ride the bus,",
+     "speaker": "A"
+    },
+    {
+     "start": 48.8,
+     "end": 52.3,
+     "ja": "電車と違って乗車するときのみタップします。",
+     "en": "unlike the train, you only tap when boarding.",
+     "speaker": "A"
+    },
+    {
+     "start": 52.5,
+     "end": 54.4,
+     "ja": "これ間違いがちだよね。",
+     "en": "People often make a mistake with this.",
+     "speaker": "B"
+    },
+    {
+     "start": 54.5,
+     "end": 57.0,
+     "ja": "はい、降りる時はタップしないでください。",
+     "en": "Yes, please don't tap when getting off.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 147.1,
+   "end": 206.5,
+   "title": "Types of Compass Cards",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜っていう — called / which is said to be",
+    "〜になる — to become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 147.3,
+     "end": 150.0,
+     "ja": "で、えっとカードの種類なんですけど、",
+     "en": "Now, about the types of cards,",
+     "speaker": "A"
+    },
+    {
+     "start": 150.1,
+     "end": 155.7,
+     "ja": "大人、あとコンセッション、デイパスっていう３つの種類が基本的にあって、",
+     "en": "basically there are three types: Adult, Concession, and DayPass.",
+     "speaker": "A"
+    },
+    {
+     "start": 156.0,
+     "end": 158.0,
+     "ja": "大人用は青色のカード、",
+     "en": "The Adult one is a blue card,",
+     "speaker": "A"
+    },
+    {
+     "start": 158.2,
+     "end": 202.1,
+     "ja": "で、コンセッションって言って、13〜18歳の学生と、",
+     "en": "and the one called Concession is for students aged 13 to 18,",
+     "speaker": "A"
+    },
+    {
+     "start": 202.2,
+     "end": 206.2,
+     "ja": "65歳以上の高齢の方はカードがオレンジになります。",
+     "en": "and seniors aged 65 and over—their card is orange.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 652.0,
+   "end": 713.2,
+   "title": "90-Minute Free Transfers",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜に関して — regarding / concerning",
+    "〜てから — after doing",
+    "〜で済む — to suffice with / get by with"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 652.2,
+     "end": 655.3,
+     "ja": "時間制限と乗り継ぎに関してなんですけども、",
+     "en": "Regarding time limits and transfers,",
+     "speaker": "A"
+    },
+    {
+     "start": 655.5,
+     "end": 703.0,
+     "ja": "コンパスカードを最初にタップしてから90分間は同一ゾーン内で乗り放題なんですよ。",
+     "en": "for 90 minutes after first tapping your Compass Card, you can ride unlimitedly within the same zone.",
+     "speaker": "A"
+    },
+    {
+     "start": 703.2,
+     "end": 704.5,
+     "ja": "ありがたい！そう！",
+     "en": "That's so great! Exactly!",
+     "speaker": "B"
+    },
+    {
+     "start": 704.7,
+     "end": 708.2,
+     "ja": "日本だとね、タップごとに毎回チャージされるけど、",
+     "en": "In Japan, you get charged every time you tap, but...",
+     "speaker": "B"
+    },
+    {
+     "start": 708.3,
+     "end": 712.7,
+     "ja": "こっちだと１回タップしてそっから90分だったら１回の料金で済むので、",
+     "en": "here, if it's within 90 minutes from the first tap, one fare is enough.",
+     "speaker": "B"
+    }
+   ]
+  }
+ ],
+ "videoId": "Kp5U0bcS6JE",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

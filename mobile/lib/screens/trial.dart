@@ -1,20 +1,24 @@
 import 'dart:async';
 import 'dart:math' as math;
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:provider/provider.dart';
 
 import '../data/paywall.dart';
+import '../services/attribution.dart';
+import '../services/billing.dart';
+import '../services/notification_service.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import '../widgets/feed_preview.dart';
 import '../widgets/toast.dart';
 import '../widgets/ui.dart';
 
-/// 3-step free-trial pitch — mirrors src/routes/trial.tsx. Purchases are simulated until
-/// Play Billing products exist.
+/// 3-step free-trial pitch — mirrors src/routes/trial.tsx. Purchases go through RevenueCat
+/// (services/billing.dart); test builds simulate the store.
 class TrialScreen extends StatefulWidget {
   const TrialScreen({super.key});
   @override
@@ -28,12 +32,53 @@ class _TrialScreenState extends State<TrialScreen> {
 
   Future<void> _start() async {
     setState(() => busy = true);
-    await Future<void>.delayed(const Duration(milliseconds: 900)); // store sheet stand-in
+    final price = Billing.priceOf(plan);
+    Attribution.checkoutStarted(plan: plan, price: price?.$1, currency: price?.$2);
+    StoreResult r;
+    try {
+      r = await Billing.buy(plan);
+    } catch (e) {
+      debugPrint('KIZUKI_ERROR purchase: $e');
+      if (mounted) setState(() => busy = false);
+      toast('Purchase didn\'t go through', description: 'Nothing was charged. Please try again.', tone: ToastTone.error);
+      return;
+    }
     if (!mounted) return;
+    if (r == StoreResult.cancelled) return setState(() => busy = false); // closed the store sheet
+    if (r == StoreResult.none) {
+      setState(() => busy = false);
+      toast('Purchase is pending', description: 'The store is still confirming it. Premium unlocks as soon as it does.');
+      return;
+    }
     final app = context.read<AppState>();
-    app.startTrial(plan);
+    if (r == StoreResult.unavailable) {
+      if (!Billing.simulate && !kDebugMode) {
+        setState(() => busy = false);
+        toast('Store not available', description: 'Check your connection and store account, then try again.', tone: ToastTone.error);
+        return;
+      }
+      await Future<void>.delayed(const Duration(milliseconds: 900)); // test builds: store stand-in
+      if (!mounted) return;
+      app.startTrial(plan);
+    }
     setState(() => busy = false);
-    toast('Your free week has started', description: 'Everything in Kizuki is unlocked.', icon: '🎉');
+    final trial = app.premium.trialEndsAt != null;
+    toast(trial ? 'Your free week has started' : 'Welcome to Premium', description: 'Everything in Kizuki is unlocked.', icon: '🎉');
+    if (trial) unawaited(NotificationService.requestPermission());
+    context.go(app.onboarded ? '/feed' : '/account');
+  }
+
+  Future<void> _restore() async {
+    setState(() => busy = true);
+    final r = await Billing.restore();
+    if (!mounted) return;
+    setState(() => busy = false);
+    if (r == StoreResult.unavailable) {
+      return toast('Couldn\'t reach the store', description: 'Check your connection and try again.', tone: ToastTone.error);
+    }
+    if (r != StoreResult.done) return toast('No subscription found', description: 'Use the same store account you bought with.');
+    final app = context.read<AppState>();
+    toast('Purchase restored', icon: '🎉');
     context.go(app.onboarded ? '/feed' : '/account');
   }
 
@@ -58,8 +103,11 @@ class _TrialScreenState extends State<TrialScreen> {
   Widget build(BuildContext context) {
     final Widget body = switch (step) {
       0 => _StepTry(onNext: () => setState(() => step = 1)),
-      1 => _StepRemind(onNext: () => setState(() => step = 2)),
-      _ => _StepPlans(plan: plan, setPlan: (p) => setState(() => plan = p), busy: busy, onStart: _start, onSkip: _skip),
+      1 => _StepRemind(onNext: () {
+            Attribution.paywallViewed();
+            setState(() => step = 2);
+          }),
+      _ => _StepPlans(plan: plan, setPlan: (p) => setState(() => plan = p), busy: busy, onStart: _start, onSkip: _skip, onRestore: _restore),
     };
     return PopScope(
       canPop: step == 0,
@@ -217,8 +265,8 @@ class _StepPlans extends StatelessWidget {
   final String plan;
   final ValueChanged<String> setPlan;
   final bool busy;
-  final VoidCallback onStart, onSkip;
-  const _StepPlans({required this.plan, required this.setPlan, required this.busy, required this.onStart, required this.onSkip});
+  final VoidCallback onStart, onSkip, onRestore;
+  const _StepPlans({required this.plan, required this.setPlan, required this.busy, required this.onStart, required this.onSkip, required this.onRestore});
   static const perks = ['Unlimited clips, every level', 'Tap any word for an explanation in context', 'Unlimited questions to Kizuki, your AI tutor', 'Smart reviews with the original audio', 'Hiragana & katakana trainer', 'Streaks, goals and progress stats'];
   @override
   Widget build(BuildContext context) => LayoutBuilder(
@@ -250,12 +298,15 @@ class _StepPlans extends StatelessWidget {
                   Padding(padding: const EdgeInsets.only(top: 12), child: _PlanCard(p: plans[id]!, active: plan == id, onTap: () => setPlan(id))),
                 const Spacer(),
                 const SizedBox(height: 20),
-                _noPayment('7 days free · Cancel anytime'),
+                _noPayment(plan == 'yearly' && Billing.trialEligible ? '7 days free · Cancel anytime' : 'No commitment · Cancel anytime'),
                 const SizedBox(height: 8),
-                Button3D(label: busy ? 'Starting…' : 'Start my free week', onPressed: busy ? null : onStart),
+                Button3D(label: busy ? 'Starting…' : (plan == 'yearly' && Billing.trialEligible ? 'Start my free week' : 'Start learning today'), onPressed: busy ? null : onStart),
                 const SizedBox(height: 8),
-                Center(child: Text('${priceLine(plans[plan]!)}. Purchases are simulated in this preview.', textAlign: TextAlign.center, style: txt(12, w: FontWeight.w400, c: T.faint))),
-                Center(child: TextButton(onPressed: onSkip, child: Text('Not now', style: txt(13, w: FontWeight.w700, c: T.muted)))),
+                Center(child: Text('${priceLine(plans[plan]!, trial: Billing.trialEligible)}. Renews automatically, cancel anytime in your store settings.', textAlign: TextAlign.center, style: txt(12, w: FontWeight.w400, c: T.faint))),
+                Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                  TextButton(onPressed: busy ? null : onRestore, child: Text('Restore purchase', style: txt(13, w: FontWeight.w700, c: T.muted))),
+                  TextButton(onPressed: onSkip, child: Text('Not now', style: txt(13, w: FontWeight.w700, c: T.muted))),
+                ]),
               ]),
             ),
           ),

@@ -70,6 +70,18 @@ void main() {
     expect(id(), 'done');
   });
 
+  test('tips never cover what they explain', () {
+    TourStep s(String id) => tourSteps[tourIndexOf(id)];
+    // Word card: both tips sit above the sheet (never over the word), and the explanation is lit whole.
+    expect(s('meaning').place, 'top');
+    expect([s('explain').target, s('explain').place, s('explain').fullHole], ['card', 'top', true]);
+    // Flashcard: the whole card is the target, the tip rests on its empty lower part, the hand below the word.
+    expect([s('reveal').target, s('reveal').place, s('reveal').fullHole], ['reviewCard', 'bottom', true]);
+    expect(s('reveal').handY! > 0.5, isTrue);
+    expect(tourControls.map((c) => c.$1).toList(), ['replay', 'loop', 'speed', 'save', 'display']);
+    expect(tourLegend.map((l) => l.$1).toList(), ['new', 'learning', 'known', 'speaking']);
+  });
+
   test('finishing calls onFinish once and stops the tour', () {
     var calls = 0;
     Tour.I.onFinish = () => calls++;
@@ -164,6 +176,13 @@ void main() {
     await tester.tap(find.text('Got it'));
     await tester.pump(const Duration(milliseconds: 400));
     expect(id(), 'controls');
+    // The controls tip names every player button, drawn like the buttons themselves.
+    await tester.pump(const Duration(milliseconds: tourTargetWaitMs + 400));
+    for (final (_, label) in tourControls) {
+      expect(find.text(label), findsOneWidget);
+    }
+    expect(find.text('Aa'), findsOneWidget);
+    expect(find.text('Tap anywhere'), findsNothing);
     expect(app.tutorialFeed, isFalse);
   });
 

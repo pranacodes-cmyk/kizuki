@@ -1,0 +1,53 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 132.3,
+   "end": 149.3,
+   "title": "A Biased Sense of Justice Is Dangerous",
+   "level": "N2",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜ということ — the meaning/fact that..."
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 132.5,
+     "end": 136.2,
+     "ja": "偏った正義は危険だ。",
+     "en": "A biased sense of justice is dangerous.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 137.0,
+     "end": 140.2,
+     "ja": "ウルトラマン信仰を殺すこと、",
+     "en": "Killing the faith in Ultraman...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 141.0,
+     "end": 144.3,
+     "ja": "それは厄災となったウルトラマン、",
+     "en": "...means the Ultraman that became a disaster...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 144.8,
+     "end": 148.8,
+     "ja": "つまり君を抹殺するということだ。",
+     "en": "...in other words, erasing you.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "HQ2646zBvaU",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

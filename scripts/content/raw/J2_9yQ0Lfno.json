@@ -1,0 +1,184 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 17.6,
+   "end": 35.2,
+   "title": "Overview of the Kamakura Period",
+   "level": "N3",
+   "topics": [
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜た方がいい — better to",
+    "〜による — by / through",
+    "〜ことで — because of / due to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.8,
+     "end": 21.0,
+     "ja": "まず、鎌倉時代は2つに分けた方が覚えやすいです。",
+     "en": "First, the Kamakura period is easier to remember if divided into two parts.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 21.2,
+     "end": 23.3,
+     "ja": "前半は、源氏による政治、",
+     "en": "The first half is government by the Minamoto clan,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 23.5,
+     "end": 26.5,
+     "ja": "後半は、北条氏による執権政治です。",
+     "en": "and the second half is regency government by the Hojo clan.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 26.6,
+     "end": 30.8,
+     "ja": "この源氏による政治が途絶えたことで起こった戦いが承久の乱なので、",
+     "en": "The battle that occurred because Minamoto rule came to an end was the Jokyu War,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 30.9,
+     "end": 34.9,
+     "ja": "前半と後半が切り替わる時期に承久の乱が入ります。",
+     "en": "so the Jokyu War falls right at the transition between the two halves.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 48.8,
+   "end": 65.6,
+   "title": "A Simple Pattern for Remembering History",
+   "level": "N3",
+   "topics": [
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜てみれば — if one looks at it like...",
+    "〜だけ — only / just",
+    "〜ていきましょう — let's go on doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 48.8,
+     "end": 51.5,
+     "ja": "こうやってみれば鎌倉時代の流れは、",
+     "en": "Looking at it this way, the flow of the Kamakura period is:",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 51.5,
+     "end": 53.0,
+     "ja": "源氏による政治、",
+     "en": "rule by the Minamoto,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 53.0,
+     "end": 54.2,
+     "ja": "承久の乱、",
+     "en": "the Jokyu War,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 54.2,
+     "end": 56.0,
+     "ja": "北条氏による政治、",
+     "en": "rule by the Hojo,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 56.0,
+     "end": 57.2,
+     "ja": "蒙古襲来、",
+     "en": "the Mongol invasions,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 57.2,
+     "end": 60.0,
+     "ja": "というように、政治、戦い、政治、戦い、",
+     "en": "in other words: politics, war, politics, war.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 60.0,
+     "end": 63.3,
+     "ja": "この順で並んでいるだけなので、結構覚えやすいです。",
+     "en": "They just alternate in that order, so it's quite easy to remember.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 63.3,
+     "end": 65.3,
+     "ja": "それでは早速細かい出来事について見ていきましょう。",
+     "en": "Now, let's dive right into the detailed events.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 745.2,
+   "end": 758.3,
+   "title": "Thank You for Watching and Channel Intro",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくれてありがとう — thank you for doing",
+    "〜を使って — using...",
+    "ぜひ〜てください — please be sure to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 745.2,
+     "end": 747.5,
+     "ja": "最後まで見てくれてありがとうございます。",
+     "en": "Thank you for watching until the end.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 747.6,
+     "end": 750.3,
+     "ja": "このチャンネルでは、日本史に出てくる場所を実際に歩いて、",
+     "en": "On this channel, we actually walk around places that appear in Japanese history,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 750.4,
+     "end": 754.2,
+     "ja": "学んだ情報を撮ってきた映像や写真を使って紹介しています。",
+     "en": "and introduce what we've learned using videos and photos we took.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 754.3,
+     "end": 757.8,
+     "ja": "興味のある方は、ぜひチャンネル登録をお願いします。",
+     "en": "If you are interested, please be sure to subscribe to the channel.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "J2_9yQ0Lfno",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

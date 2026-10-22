@@ -1,0 +1,153 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.8,
+   "end": 29.5,
+   "title": "Introducing Chiba Prefecture",
+   "level": "N5",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "〜にある — located in",
+    "〜で有名 — famous for",
+    "〜ながら — while / although"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.1,
+     "end": 7.4,
+     "ja": "みなさん、こんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 7.5,
+     "end": 10.5,
+     "ja": "今日は日本の千葉を紹介します。",
+     "en": "Today, I will introduce Chiba in Japan.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 11.7,
+     "end": 15.3,
+     "ja": "千葉は東京の東にある県で、",
+     "en": "Chiba is a prefecture located east of Tokyo,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 15.5,
+     "end": 21.8,
+     "ja": "海や自然が多く、空港やテーマパークがあることで有名です。",
+     "en": "famous for having lots of ocean and nature, as well as an airport and theme parks.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 22.0,
+     "end": 28.9,
+     "ja": "都会の近くにありながら、静かでゆったりとした場所も多いです。",
+     "en": "While being close to the city, it also has many quiet and relaxing places.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 123.1,
+   "end": 147.8,
+   "title": "Famous Theme Parks in Chiba",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "一番〜 — the most...",
+    "〜と楽しめる — can enjoy with...",
+    "〜から来る — come from..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 123.4,
+     "end": 127.7,
+     "ja": "千葉には有名な観光地がたくさんあります。",
+     "en": "Chiba has many famous sightseeing spots.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 127.9,
+     "end": 134.6,
+     "ja": "一番人気なのは「東京ディズニーランド」と「ディズニーシー」です。",
+     "en": "The most popular ones are Tokyo Disneyland and DisneySea.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 136.1,
+     "end": 139.3,
+     "ja": "どちらも千葉県の浦安にあり、",
+     "en": "Both are located in Urayasu, Chiba Prefecture,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 139.4,
+     "end": 143.7,
+     "ja": "家族や友達と楽しめるテーマパークです。",
+     "en": "and are theme parks you can enjoy with family and friends.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 143.9,
+     "end": 147.3,
+     "ja": "世界中から観光客が来ます。",
+     "en": "Tourists come from all over the world.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 246.8,
+   "end": 304.0,
+   "title": "Chiba Seafood and Peanuts",
+   "level": "N5",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜ため — because / due to",
+    "特に〜 — especially / in particular"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 247.2,
+     "end": 252.7,
+     "ja": "千葉は海が近いため、魚や貝がとてもおいしいです。",
+     "en": "Because Chiba is close to the sea, fish and shellfish are very delicious.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 252.9,
+     "end": 256.5,
+     "ja": "特にアジやハマグリが有名です。",
+     "en": "In particular, horse mackerel and clams are famous.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 256.7,
+     "end": 303.3,
+     "ja": "また、落花生の生産でも有名で、千葉の特産品です。",
+     "en": "It is also famous for peanut production, which is a local specialty of Chiba.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "jEDrnSQgXHQ",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

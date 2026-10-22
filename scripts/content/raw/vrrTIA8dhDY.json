@@ -1,0 +1,167 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 134.2,
+   "end": 164.7,
+   "title": "Lemons Are Sour",
+   "level": "N5",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜を食べる — to eat",
+    "〜は〜です — A is B (adjective predicate)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 134.2,
+     "end": 135.2,
+     "ja": "レモン。",
+     "en": "Lemon.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 135.5,
+     "end": 142.5,
+     "ja": "私は、レモンを食べます。",
+     "en": "I eat lemons.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 143.2,
+     "end": 149.5,
+     "ja": "私は、レモンを食べます。",
+     "en": "I eat lemons.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 150.1,
+     "end": 156.2,
+     "ja": "レモンは、酸っぱいです。",
+     "en": "Lemons are sour.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 157.3,
+     "end": 164.5,
+     "ja": "酸っぱい。レモンは、酸っぱいです。",
+     "en": "Sour. Lemons are sour.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 223.3,
+   "end": 255.0,
+   "title": "I Do Not Eat Cats",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "comedy",
+    "food"
+   ],
+   "grammar": [
+    "〜ません — polite negative verb",
+    "〜は〜です — A is B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 223.7,
+     "end": 225.0,
+     "ja": "猫。",
+     "en": "Cat.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 226.0,
+     "end": 233.6,
+     "ja": "私は、猫を食べません。",
+     "en": "I do not eat cats.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 235.2,
+     "end": 242.8,
+     "ja": "私は、猫を食べません。",
+     "en": "I do not eat cats.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 244.0,
+     "end": 249.5,
+     "ja": "猫は、まずいです。",
+     "en": "Cats taste bad.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 250.0,
+     "end": 254.8,
+     "ja": "猫は、まずいです。",
+     "en": "Cats taste bad.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 329.8,
+   "end": 360.0,
+   "title": "I Do Not Drink Gasoline",
+   "level": "N5",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜を飲む — to drink",
+    "〜ません — polite negative verb"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 330.2,
+     "end": 331.5,
+     "ja": "ガソリン。",
+     "en": "Gasoline.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 332.0,
+     "end": 339.5,
+     "ja": "私は、ガソリンを飲みません。",
+     "en": "I do not drink gasoline.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 340.5,
+     "end": 347.3,
+     "ja": "私は、ガソリンを飲みません。",
+     "en": "I do not drink gasoline.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 348.0,
+     "end": 354.5,
+     "ja": "ガソリンは、まずいです。",
+     "en": "Gasoline tastes bad.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 355.3,
+     "end": 359.8,
+     "ja": "ガソリンは、まずいです。",
+     "en": "Gasoline tastes bad.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "vrrTIA8dhDY",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

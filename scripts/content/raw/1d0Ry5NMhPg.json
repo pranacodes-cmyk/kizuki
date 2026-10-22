@@ -1,0 +1,270 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 73.0,
+   "end": 89.8,
+   "title": "Promoting the Channel in Harajuku",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜といえば — speaking of",
+    "〜ば — if (conditional)",
+    "〜と思う — I think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 73.3,
+     "end": 75.2,
+     "ja": "あの、原宿に来ましたけど。",
+     "en": "So, we came to Harajuku.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 75.3,
+     "end": 76.0,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Egashira"
+    },
+    {
+     "start": 76.0,
+     "end": 79.8,
+     "ja": "原宿といえば若者文化の発信地だよ。",
+     "en": "Harajuku is the hub for youth culture.",
+     "speaker": "Egashira"
+    },
+    {
+     "start": 79.9,
+     "end": 81.0,
+     "ja": "そうですね。",
+     "en": "That's true.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 81.0,
+     "end": 84.4,
+     "ja": "そこでエガちゃんねるの宣伝をすれば、",
+     "en": "If we promote Ega Channel here,",
+     "speaker": "Egashira"
+    },
+    {
+     "start": 84.5,
+     "end": 88.4,
+     "ja": "チャンネル登録者数がすごい増えると思うんだよ。",
+     "en": "I think the subscriber count will increase a lot.",
+     "speaker": "Egashira"
+    },
+    {
+     "start": 88.5,
+     "end": 89.6,
+     "ja": "そうですね。",
+     "en": "Right.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 321.5,
+   "end": 342.3,
+   "title": "Meeting a Hardcore Fan in Harajuku",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜っけ — asking for confirmation",
+    "〜なんで — because / as (explanatory)",
+    "〜てる — ongoing state / occupation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 321.8,
+     "end": 323.0,
+     "ja": "お兄さん、ありがとう。",
+     "en": "Hey buddy, thank you.",
+     "speaker": "Egashira"
+    },
+    {
+     "start": 323.1,
+     "end": 326.3,
+     "ja": "今度YouTubeでエガちゃんねるって始めたんだよ。",
+     "en": "I recently started this thing called Ega Channel on YouTube.",
+     "speaker": "Egashira"
+    },
+    {
+     "start": 326.3,
+     "end": 328.1,
+     "ja": "あれ、やってなかったでしたっけ？",
+     "en": "Wait, weren't you already doing that?",
+     "speaker": "Man"
+    },
+    {
+     "start": 328.1,
+     "end": 330.3,
+     "ja": "いや、今始め、この間始めた。",
+     "en": "No, I just star... started it the other day.",
+     "speaker": "Egashira"
+    },
+    {
+     "start": 330.4,
+     "end": 332.4,
+     "ja": "「ピーピーピーするぞ！」",
+     "en": "\"I'm gonna beep-beep-beep you!\"",
+     "speaker": "Man"
+    },
+    {
+     "start": 332.4,
+     "end": 334.5,
+     "ja": "うわあ、詳しい！",
+     "en": "Whoa, you really know your stuff!",
+     "speaker": "Egashira"
+    },
+    {
+     "start": 334.5,
+     "end": 336.0,
+     "ja": "めっちゃ好きなんで。",
+     "en": "Yeah, cause I love your work.",
+     "speaker": "Man"
+    },
+    {
+     "start": 336.0,
+     "end": 337.3,
+     "ja": "ああそう？ありがとう。",
+     "en": "Really? Thank you.",
+     "speaker": "Egashira"
+    },
+    {
+     "start": 337.3,
+     "end": 338.2,
+     "ja": "美容師やってる…",
+     "en": "I work as a hairdresser...",
+     "speaker": "Man"
+    },
+    {
+     "start": 338.2,
+     "end": 339.6,
+     "ja": "あ、漁師やってんだ。",
+     "en": "Oh, you're a fisherman?",
+     "speaker": "Egashira"
+    },
+    {
+     "start": 339.6,
+     "end": 340.7,
+     "ja": "美容師です。",
+     "en": "A hairdresser.",
+     "speaker": "Man"
+    },
+    {
+     "start": 340.7,
+     "end": 342.0,
+     "ja": "美容師か！",
+     "en": "A hairdresser, right!",
+     "speaker": "Egashira"
+    }
+   ]
+  },
+  {
+   "start": 731.0,
+   "end": 756.0,
+   "title": "Encouraging a High School Exam Taker",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "school",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てよかった — glad that...",
+    "〜てた — was doing / had been doing",
+    "〜っていう — called / saying that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 731.2,
+     "end": 733.0,
+     "ja": "お尻習字見ました！",
+     "en": "I watched the butt calligraphy video!",
+     "speaker": "Student"
+    },
+    {
+     "start": 733.2,
+     "end": 734.5,
+     "ja": "おおー！どうだった？",
+     "en": "Ooh! How was it?",
+     "speaker": "Egashira"
+    },
+    {
+     "start": 734.7,
+     "end": 736.0,
+     "ja": "いやもう最高でした！",
+     "en": "Man, it was the best!",
+     "speaker": "Student"
+    },
+    {
+     "start": 736.1,
+     "end": 737.8,
+     "ja": "ありがとう！",
+     "en": "Thank you!",
+     "speaker": "Egashira"
+    },
+    {
+     "start": 738.0,
+     "end": 742.5,
+     "ja": "YouTube界の不適切っていうのを乗り越えてたなって。",
+     "en": "It felt like you overcame the notion of YouTube being 'inappropriate.'",
+     "speaker": "Student"
+    },
+    {
+     "start": 743.0,
+     "end": 745.0,
+     "ja": "すげえ詳しい！何歳ですか？",
+     "en": "You know so much! How old are you?",
+     "speaker": "Egashira"
+    },
+    {
+     "start": 745.8,
+     "end": 747.5,
+     "ja": "18です。",
+     "en": "I'm 18.",
+     "speaker": "Student"
+    },
+    {
+     "start": 747.6,
+     "end": 750.2,
+     "ja": "18？今日受験で来てて？",
+     "en": "18? You came here today for an exam?",
+     "speaker": "Egashira"
+    },
+    {
+     "start": 750.3,
+     "end": 754.0,
+     "ja": "明日から受験なんですけど、いや会えて良かったです。",
+     "en": "My exams start tomorrow, but man, I'm so glad I met you.",
+     "speaker": "Student"
+    },
+    {
+     "start": 754.1,
+     "end": 755.5,
+     "ja": "めっちゃ尊敬してます。",
+     "en": "I really respect you.",
+     "speaker": "Student"
+    }
+   ]
+  }
+ ],
+ "videoId": "1d0Ry5NMhPg",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,222 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 26.6,
+   "end": 41.6,
+   "title": "Welcome to the Market Forecast",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていただく — humbly receiving an action",
+    "〜のか — embedded question"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 26.8,
+     "end": 28.1,
+     "ja": "皆さん、こんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Micchan"
+    },
+    {
+     "start": 28.3,
+     "end": 31.0,
+     "ja": "FFG YouTubeチャンネルへようこそ。",
+     "en": "Welcome to the FFG YouTube channel.",
+     "speaker": "Micchan"
+    },
+    {
+     "start": 31.4,
+     "end": 34.6,
+     "ja": "今日は日経平均株価はもうピークアウトをしたのか、",
+     "en": "Today, whether the Nikkei Stock Average has already peaked out,",
+     "speaker": "Micchan"
+    },
+    {
+     "start": 35.0,
+     "end": 37.1,
+     "ja": "それともまだまだ上がるのか、",
+     "en": "or if it's still going to rise,",
+     "speaker": "Micchan"
+    },
+    {
+     "start": 37.4,
+     "end": 39.5,
+     "ja": "佐々木さんに教えていただきます。",
+     "en": "Mr. Sasaki will explain it to us.",
+     "speaker": "Micchan"
+    },
+    {
+     "start": 39.6,
+     "end": 40.5,
+     "ja": "よろしくお願いします。",
+     "en": "Nice to have you here.",
+     "speaker": "Micchan"
+    },
+    {
+     "start": 40.5,
+     "end": 41.5,
+     "ja": "よろしくお願いします。",
+     "en": "It's a pleasure.",
+     "speaker": "Sasaki"
+    }
+   ]
+  },
+  {
+   "start": 121.7,
+   "end": 137.9,
+   "title": "What Determines Stock Prices?",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜ていく — gradual change into the future",
+    "〜ということになる — it means that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 121.9,
+     "end": 123.6,
+     "ja": "そもそもですね、株価って",
+     "en": "To begin with, regarding what stock prices",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 123.7,
+     "end": 125.1,
+     "ja": "何でこう決まっているかっていうと、",
+     "en": "are determined by,",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 125.2,
+     "end": 127.3,
+     "ja": "「企業の利益」掛ける「倍率」なんですね。",
+     "en": "it is 'corporate earnings' multiplied by 'multiple'.",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 127.9,
+     "end": 129.4,
+     "ja": "ちょっと言い方を変えると、",
+     "en": "To put it a little differently,",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 129.7,
+     "end": 131.8,
+     "ja": "「企業の利益」掛ける「期待値」なんですよ。",
+     "en": "it's 'corporate earnings' multiplied by 'expectations'.",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 132.3,
+     "end": 134.4,
+     "ja": "ですので、基本的に企業の利益が",
+     "en": "Therefore, basically, if corporate earnings",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 134.4,
+     "end": 136.3,
+     "ja": "インフレや円安で膨らんでいけば、",
+     "en": "expand due to inflation and a weak yen,",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 136.4,
+     "end": 137.9,
+     "ja": "株価は上がるということになるんですね。",
+     "en": "stock prices will go up.",
+     "speaker": "Sasaki"
+    }
+   ]
+  },
+  {
+   "start": 400.9,
+   "end": 422.8,
+   "title": "Investing with a Long-Term Perspective",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていく — action continuing into the future",
+    "〜ように — as (e.g. as I always say)",
+    "〜ば — conditional (if/when)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 401.1,
+     "end": 403.5,
+     "ja": "まあ、あの、いつも言っているように、投資っていうのは",
+     "en": "Well, as I always say, investing is something that",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 403.6,
+     "end": 405.3,
+     "ja": "少しずつ、しかも長期目線でやる、",
+     "en": "you do little by little, and with a long-term perspective,",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 405.5,
+     "end": 407.7,
+     "ja": "長期時間かけてやっていく、",
+     "en": "taking time over the long run,",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 407.7,
+     "end": 410.7,
+     "ja": "農作物とかを育てるようなイメージという風にも言ってると思うんですが、",
+     "en": "like growing crops, as I often describe it,",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 411.7,
+     "end": 414.7,
+     "ja": "まあ、まだまだ目先の動きにそんなにとらわれずに、",
+     "en": "well, without being so caught up in near-term fluctuations,",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 415.0,
+     "end": 417.6,
+     "ja": "じっくりと待っていくということをすれば、",
+     "en": "if you wait patiently,",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 417.8,
+     "end": 420.2,
+     "ja": "自然と株価は上がっていくだろうという風に考えてます。",
+     "en": "I think stock prices will naturally rise.",
+     "speaker": "Sasaki"
+    },
+    {
+     "start": 420.9,
+     "end": 422.3,
+     "ja": "分かりました。ありがとうございます。",
+     "en": "I understand. Thank you very much.",
+     "speaker": "Micchan"
+    }
+   ]
+  }
+ ],
+ "videoId": "jjpidSFztgU",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

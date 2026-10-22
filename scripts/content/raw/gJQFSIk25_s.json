@@ -1,0 +1,94 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 3.8,
+   "end": 16.5,
+   "title": "A Girl from False Memories",
+   "level": "N3",
+   "topics": [
+    "romance"
+   ],
+   "grammar": [
+    "〜しか…ない — only",
+    "〜はず — expected / supposed to be",
+    "〜ちゃった — unintentionally did"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.9,
+     "end": 9.5,
+     "ja": "記憶の中にしか存在しないはずの彼女が、突然、目の前に現れた。",
+     "en": "A girl who was only supposed to exist in my memories suddenly appeared before my eyes.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 9.6,
+     "end": 10.8,
+     "ja": "君は誰だ？",
+     "en": "Who are you?",
+     "speaker": "Chihiro"
+    },
+    {
+     "start": 11.0,
+     "end": 13.4,
+     "ja": "幼馴染のこと、忘れちゃった？",
+     "en": "Did you forget about your childhood friend?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 13.6,
+     "end": 16.0,
+     "ja": "君は偽の記憶の中の人だ。",
+     "en": "You're someone from a fake memory.",
+     "speaker": "Chihiro"
+    }
+   ]
+  },
+  {
+   "start": 21.5,
+   "end": 30.5,
+   "title": "I'll Be by Your Side",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜な — prohibitive (don't)",
+    "〜ちゃう — completely / naturally happens"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 21.8,
+     "end": 24.0,
+     "ja": "そんなら、その子に騙されてみれば？",
+     "en": "Then why don't you let yourself be tricked by her?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 24.4,
+     "end": 26.5,
+     "ja": "泣くなって。そばにいるから。",
+     "en": "Don't cry. I'm right here with you.",
+     "speaker": "Chihiro"
+    },
+    {
+     "start": 26.9,
+     "end": 30.0,
+     "ja": "私がほしい言葉、分かっちゃうんだね。",
+     "en": "You always know the exact words I need to hear, don't you?",
+     "speaker": "Girl"
+    }
+   ]
+  }
+ ],
+ "videoId": "gJQFSIk25_s",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

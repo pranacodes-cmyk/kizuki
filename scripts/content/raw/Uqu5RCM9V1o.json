@@ -1,0 +1,142 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 18.9,
+   "end": 33.2,
+   "title": "Deciding to Buy the Japanese Edition",
+   "level": "N3",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜ようと思う — thinking of doing",
+    "〜てみる — to try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.9,
+     "end": 22.8,
+     "ja": "はい、この『ウィッチャー』ですね。私、英語版出た時から結構気になっていて、",
+     "en": "All right, this is The Witcher. I've been quite curious about it since the English version came out,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 22.8,
+     "end": 26.6,
+     "ja": "ファンタジーフライトさんの方から輸入してプレイしようかなと思ったんですけども、",
+     "en": "and was thinking about importing it from Fantasy Flight to play,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 26.6,
+     "end": 29.8,
+     "ja": "日本語版が出たってことでしたらね、",
+     "en": "but since a Japanese edition was released,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 29.8,
+     "end": 33.2,
+     "ja": "日本語版でぜひプレイしたいと思いましたので、早速入手してみました。",
+     "en": "I definitely wanted to play it in Japanese, so I went ahead and bought it.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 436.2,
+   "end": 455.5,
+   "title": "Good Luck and Bad Luck Cards",
+   "level": "N3",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜みたい — seems like / looks like",
+    "〜から分かる — to be able to tell from"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 436.2,
+     "end": 441.5,
+     "ja": "あとは、いわゆるイベントカードですね。これ、イベントカードがね、なかなか露骨で面白いかなと思ったんですけど、",
+     "en": "Next are the event cards. I thought these event cards were pretty blatant and amusing,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 441.5,
+     "end": 445.5,
+     "ja": "こっち、グッドラックの、ラックのいい方ですね。こっちバッドラックのカードなんですよね。",
+     "en": "this one is good luck, the lucky side. And this one is bad luck.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 445.5,
+     "end": 450.8,
+     "ja": "見た目から分かるんですけど、嫌なのを引く時は明らかにデザインから嫌なイベントカードを引いて、",
+     "en": "You can tell just from looking: when you draw a bad one, the design clearly looks unpleasant,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 450.8,
+     "end": 455.5,
+     "ja": "いい時は明らかにいいイベントカードを引くっていうことがはっきり分かってるみたいですけど、",
+     "en": "and when it's good, it's very clear that it's a good event card.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 407.3,
+   "end": 427.0,
+   "title": "Explaining the Investigation Cards",
+   "level": "N3",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜によって — depending on",
+    "〜たら — if / when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 407.3,
+     "end": 412.5,
+     "ja": "調査カードっていうのは同じように3色あるんで、戦闘系とか外交系とか魔法系っていう様々な調査カードがあるので、",
+     "en": "The investigation cards similarly come in three colors, with various types like combat, diplomacy, and magic,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 412.5,
+     "end": 416.5,
+     "ja": "これをどっか行って何とかしたらこのカードを引きましょうと。",
+     "en": "so when you go somewhere and accomplish something, you draw this card.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 416.5,
+     "end": 422.5,
+     "ja": "1枚調査カード引けると、どこどこへ行ったら何とかもらえますよとかですね、様々なイベントが書かれているので、",
+     "en": "When you draw one investigation card, various events are written on it, like getting something if you visit a certain place,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 422.5,
+     "end": 427.0,
+     "ja": "こうしたイベントをこなしていく過程で、最後の任務を達成していくというようになりますね。",
+     "en": "and through completing these events, you end up fulfilling your final quest.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "Uqu5RCM9V1o",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

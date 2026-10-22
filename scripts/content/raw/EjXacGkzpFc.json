@@ -1,0 +1,125 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 10.5,
+   "title": "Furusato Matsuri Returns to Tokyo Dome",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ぶり — for the first time in (time period)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 3.2,
+     "ja": "日本全国の伝統的な祭りや",
+     "en": "Featuring traditional festivals from across Japan",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 3.2,
+     "end": 7.1,
+     "ja": "各地のご当地グルメが集結する「ふるさと祭り東京」が、",
+     "en": "and local cuisine, Furusato Matsuri Tokyo",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 7.1,
+     "end": 10.4,
+     "ja": "3年ぶりに今日から東京ドームで始まりました。",
+     "en": "has opened today at Tokyo Dome for the first time in three years.",
+     "speaker": "Anchor"
+    }
+   ]
+  },
+  {
+   "start": 33.7,
+   "end": 42.3,
+   "title": "Discovering New Regions in One Place",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てしまう — expressing regret or completion",
+    "〜じゃないですか — isn't it? / you know?"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 33.7,
+     "end": 36.4,
+     "ja": "こういうご時世になってしまったので、",
+     "en": "Given the current times,",
+     "speaker": "Visitor"
+    },
+    {
+     "start": 36.4,
+     "end": 38.8,
+     "ja": "行きたくても行けない場所がいっぱいあるじゃないですか。",
+     "en": "there are lots of places you want to go but can't, right?",
+     "speaker": "Visitor"
+    },
+    {
+     "start": 38.8,
+     "end": 42.1,
+     "ja": "一堂に会して、あの、知らないものもいっぱい知れるし、",
+     "en": "With everything gathered together, you can learn about so many new things, too.",
+     "speaker": "Visitor"
+    }
+   ]
+  },
+  {
+   "start": 42.8,
+   "end": 53.5,
+   "title": "Local Delicacies from Across Japan",
+   "level": "N3",
+   "topics": [
+    "food",
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜ことができる — can do / to be able to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 42.8,
+     "end": 46.1,
+     "ja": "およそ350のブースが集まる会場では、",
+     "en": "At the venue with around 350 booths,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 46.1,
+     "end": 49.5,
+     "ja": "海鮮やブランド牛など各地の名物料理や",
+     "en": "you can enjoy regional specialties like seafood and branded beef,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 49.5,
+     "end": 53.2,
+     "ja": "地酒などを味わうことができます。",
+     "en": "as well as local sake.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "EjXacGkzpFc",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

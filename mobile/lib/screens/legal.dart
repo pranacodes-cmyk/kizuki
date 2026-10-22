@@ -16,6 +16,7 @@ const _terms = [
 const _privacy = [
   ('What we store', 'Your learning plan answers, saved words, review progress, streak and settings are stored on your device. If you create an account, a copy is stored in our cloud so you can use Kizuki on more than one device.'),
   ('Account data', 'We store your email address and, if you sign in with Google, your name. We never sell your data.'),
+  ('Ads measurement & purchases', "Purchases are processed by Apple App Store / Google Play and managed by RevenueCat. The mobile app uses the Meta (Facebook) SDK to measure app installs, onboarding and subscription events (trial start, purchase, renewal) so we can see which Facebook/Instagram ads work; RevenueCat shares subscription events with Meta. This may include your device's advertising ID. On iPhone we only use it if you allow tracking; on Android you can reset or delete your advertising ID in Settings → Privacy → Ads. To withdraw, email us and we will stop sharing."),
   ('YouTube', "Clips play through YouTube's embedded player (privacy-enhanced mode where available). YouTube may collect data under Google's Privacy Policy when videos play."),
   ('Notifications', "Daily reminders are scheduled on your device. You can turn them off in Settings or your phone's settings."),
   ('Deleting your data', 'Settings → Delete account permanently removes your account and cloud progress. Uninstalling the app removes the copy on your device.'),

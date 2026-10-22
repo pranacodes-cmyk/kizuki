@@ -1,0 +1,248 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 34.5,
+   "end": 59.8,
+   "title": "Choosing Your Ramen Soup and Toppings",
+   "level": "N3",
+   "topics": [
+    "food"
+   ],
+   "grammar": [
+    "〜がございます — polite form of ある",
+    "〜ていただく — to have someone do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 34.6,
+     "end": 37.0,
+     "ja": "この表参道じゃんがら２階にはですね、",
+     "en": "Here on the second floor of Omotesando Jangara,",
+     "speaker": "Staff"
+    },
+    {
+     "start": 37.0,
+     "end": 38.6,
+     "ja": "７種類のスープがございまして。",
+     "en": "we offer seven types of soup.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 38.6,
+     "end": 39.8,
+     "ja": "７種類、はい。",
+     "en": "Seven types, okay.",
+     "speaker": "Steve"
+    },
+    {
+     "start": 40.0,
+     "end": 44.8,
+     "ja": "じゃんがらというのは、豚骨でも東京風であっさりマイルドなスープで。",
+     "en": "Jangara is a pork bone broth, but Tokyo-style: light and mild.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 45.2,
+     "end": 49.3,
+     "ja": "７種類のスープがございますので、まずお好みでどれかスープを選んでいただいて。",
+     "en": "Since there are seven varieties, first you choose your preferred soup.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 49.6,
+     "end": 51.4,
+     "ja": "まずスープを選ぶことですね。",
+     "en": "First choose the soup, right.",
+     "speaker": "Steve"
+    },
+    {
+     "start": 51.5,
+     "end": 55.4,
+     "ja": "そうです。味玉、それから明太子、それから角肉。",
+     "en": "That's right. Seasoned egg, then cod roe, and braised pork.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 55.6,
+     "end": 57.5,
+     "ja": "この全部入ったのが「全部入り」。",
+     "en": "The bowl with all of them is 'Zenbu-iri' (The Works).",
+     "speaker": "Staff"
+    },
+    {
+     "start": 57.5,
+     "end": 59.5,
+     "ja": "ま、当店ナンバーワンのメニューになります。",
+     "en": "It's our number one menu item.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 123.8,
+   "end": 134.8,
+   "title": "Freshly Cooked Gyoza Arrives",
+   "level": "N4",
+   "topics": [
+    "food"
+   ],
+   "grammar": [
+    "〜そうだ — looks like / seems like",
+    "〜けど — although / but"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 124.0,
+     "end": 126.1,
+     "ja": "はい、餃子ちゃんできました！",
+     "en": "Here are your gyoza!",
+     "speaker": "Staff"
+    },
+    {
+     "start": 126.3,
+     "end": 127.3,
+     "ja": "おー！",
+     "en": "Ooh!",
+     "speaker": "Steve"
+    },
+    {
+     "start": 127.5,
+     "end": 129.0,
+     "ja": "美味しそうだね！",
+     "en": "Those look delicious!",
+     "speaker": "Steve"
+    },
+    {
+     "start": 129.3,
+     "end": 131.6,
+     "ja": "一口餃子で小ぶりなんですけど、",
+     "en": "They are bite-sized and small,",
+     "speaker": "Staff"
+    },
+    {
+     "start": 131.6,
+     "end": 134.1,
+     "ja": "パリッとした感じで中がジューシーですから。",
+     "en": "but they're crispy on the outside and juicy inside.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 501.8,
+   "end": 532.5,
+   "title": "Pioneering Tonkotsu Ramen in Tokyo",
+   "level": "N3",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜てみる / 〜ようと思う — intend to do",
+    "〜前 — before / ago"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 502.1,
+     "end": 505.5,
+     "ja": "３０年前に東京にとんこつラーメンがなかったんですよ。",
+     "en": "Thirty years ago, there was no tonkotsu ramen in Tokyo.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 506.0,
+     "end": 507.0,
+     "ja": "なるほどね。",
+     "en": "I see.",
+     "speaker": "Steve"
+    },
+    {
+     "start": 507.4,
+     "end": 510.3,
+     "ja": "で、私たちは九州出身のメンバーが多くてですね、",
+     "en": "And many of our staff members were from Kyushu,",
+     "speaker": "Staff"
+    },
+    {
+     "start": 510.5,
+     "end": 513.3,
+     "ja": "東京に美味しいラーメンを作ろうと思い立って、",
+     "en": "so we decided to make delicious ramen in Tokyo,",
+     "speaker": "Staff"
+    },
+    {
+     "start": 513.5,
+     "end": 516.0,
+     "ja": "みんなでその、とんこつラーメンを出したんですけど。",
+     "en": "and together we started serving tonkotsu ramen.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 516.0,
+     "end": 516.6,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Steve"
+    },
+    {
+     "start": 516.8,
+     "end": 522.6,
+     "ja": "ま、その東京でとんこつラーメンを広めた先駆者というのが九州じゃんがらなんですね。",
+     "en": "So Kyushu Jangara was the pioneer that popularized tonkotsu ramen in Tokyo.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 522.8,
+     "end": 523.5,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Steve"
+    },
+    {
+     "start": 523.8,
+     "end": 525.2,
+     "ja": "秋葉原が本店になります。",
+     "en": "Our original main branch is in Akihabara.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 525.4,
+     "end": 526.6,
+     "ja": "秋葉原が本店、はい。",
+     "en": "Akihabara is the main branch, right.",
+     "speaker": "Steve"
+    },
+    {
+     "start": 526.8,
+     "end": 529.6,
+     "ja": "そこが３０周年、で、この原宿は２８年目です。",
+     "en": "That one is 30 years old, and here in Harajuku it's our 28th year.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 529.8,
+     "end": 531.6,
+     "ja": "もう２８年目なんですか原宿では？",
+     "en": "Already 28 years here in Harajuku?",
+     "speaker": "Steve"
+    },
+    {
+     "start": 531.8,
+     "end": 532.4,
+     "ja": "原宿では、はい。",
+     "en": "In Harajuku, yes.",
+     "speaker": "Staff"
+    }
+   ]
+  }
+ ],
+ "videoId": "x7NYZmXpBdg",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

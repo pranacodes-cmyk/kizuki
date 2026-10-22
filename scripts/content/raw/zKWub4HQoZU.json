@@ -1,0 +1,316 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 36.5,
+   "end": 57.5,
+   "title": "What Would Be Your Last Meal?",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜たら — if/when",
+    "〜っていうのは — meaning of / what is meant by"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 36.7,
+     "end": 37.7,
+     "ja": "稲田さんはね、",
+     "en": "Inada-san,",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 37.7,
+     "end": 38.2,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Inada"
+    },
+    {
+     "start": 38.2,
+     "end": 40.0,
+     "ja": "もし明日死ぬってなったら、",
+     "en": "if you were to die tomorrow,",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 40.0,
+     "end": 40.5,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Inada"
+    },
+    {
+     "start": 40.5,
+     "end": 42.3,
+     "ja": "最後に何食べたいかなと思いましてね。",
+     "en": "I was wondering what you'd want to eat last.",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 42.3,
+     "end": 43.7,
+     "ja": "あ、最後の晩餐ってことですか？",
+     "en": "Ah, like a last supper?",
+     "speaker": "Inada"
+    },
+    {
+     "start": 43.7,
+     "end": 44.8,
+     "ja": "あ、そうそう。",
+     "en": "Ah, exactly.",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 44.8,
+     "end": 46.3,
+     "ja": "今までね、聞いたことなかった。",
+     "en": "I've never asked you before.",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 46.3,
+     "end": 47.3,
+     "ja": "ああ、まあ確かにね。",
+     "en": "Ah, well, that's true.",
+     "speaker": "Inada"
+    },
+    {
+     "start": 47.3,
+     "end": 49.0,
+     "ja": "ちなみに私もう決まってるんですよ。",
+     "en": "By the way, I've already decided mine.",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 49.0,
+     "end": 50.1,
+     "ja": "あ、決まってんねや。",
+     "en": "Oh, you already decided?",
+     "speaker": "Inada"
+    },
+    {
+     "start": 50.1,
+     "end": 51.3,
+     "ja": "私はね、生モノ。",
+     "en": "For me, it's raw food.",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 51.3,
+     "end": 52.2,
+     "ja": "生モノ？",
+     "en": "Raw food?",
+     "speaker": "Inada"
+    },
+    {
+     "start": 52.2,
+     "end": 53.0,
+     "ja": "うん、そう。",
+     "en": "Yeah, right.",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 53.0,
+     "end": 54.6,
+     "ja": "生モノっていうのはユッケとかね、",
+     "en": "By raw food, I mean yukhoe,",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 54.6,
+     "end": 57.2,
+     "ja": "鳥刺しとか生牡蠣とかの類いの生モノです。",
+     "en": "chicken sashimi, raw oysters, that sort of raw food.",
+     "speaker": "Kumamoto"
+    }
+   ]
+  },
+  {
+   "start": 115.5,
+   "end": 130.8,
+   "title": "Home Cooking for the Last Meal",
+   "level": "N3",
+   "topics": [
+    "food",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜ておく — do something in advance",
+    "〜ねん — Kansai dialect emphasis"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 115.6,
+     "end": 117.6,
+     "ja": "ちなみに稲田さん、最後の晩餐何食べたい？",
+     "en": "By the way, Inada-san, what do you want for your last meal?",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 117.6,
+     "end": 119.4,
+     "ja": "最後やっぱ肉じゃがかなぁ。",
+     "en": "At the very end, probably nikujaga.",
+     "speaker": "Inada"
+    },
+    {
+     "start": 119.4,
+     "end": 120.5,
+     "ja": "肉じゃが！？",
+     "en": "Nikujaga!?",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 120.5,
+     "end": 122.3,
+     "ja": "確かにお母さん作ったやつとか食べときたいよな。",
+     "en": "True, you'd want to eat the kind your mom made.",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 122.3,
+     "end": 123.5,
+     "ja": "自分が作ったやつ。",
+     "en": "The kind I make myself.",
+     "speaker": "Inada"
+    },
+    {
+     "start": 123.5,
+     "end": 125.0,
+     "ja": "自分が作ったやつ。",
+     "en": "The kind I made myself.",
+     "speaker": "Inada"
+    },
+    {
+     "start": 125.5,
+     "end": 126.7,
+     "ja": "珍しくないか？",
+     "en": "Isn't that unusual?",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 126.7,
+     "end": 127.8,
+     "ja": "珍しい？",
+     "en": "Unusual?",
+     "speaker": "Inada"
+    },
+    {
+     "start": 127.8,
+     "end": 130.3,
+     "ja": "いや誰が死ぬギリギリに自炊すんねん！",
+     "en": "Who the heck cooks for themselves right before dying!",
+     "speaker": "Kumamoto"
+    }
+   ]
+  },
+  {
+   "start": 309.5,
+   "end": 331.5,
+   "title": "Narrowing Down the McDonald's Menu",
+   "level": "N3",
+   "topics": [
+    "food",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜すぎる — too / excessively",
+    "〜なあかん — must (Kansai dialect)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 309.6,
+     "end": 311.4,
+     "ja": "稲田さん例えばマクドナルド大好きやん。",
+     "en": "Inada-san, for example, you love McDonald's, right?",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 311.4,
+     "end": 312.3,
+     "ja": "ま、好きやけど。",
+     "en": "Well, yeah, but...",
+     "speaker": "Inada"
+    },
+    {
+     "start": 312.3,
+     "end": 313.5,
+     "ja": "マクドナルド大好きやろ。",
+     "en": "You love McDonald's.",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 313.5,
+     "end": 317.8,
+     "ja": "「最後の晩餐、マクドナルドかなぁ」って言うでしょ？",
+     "en": "So you'd say, \"Maybe McDonald's for my last meal,\" right?",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 317.8,
+     "end": 318.8,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Inada"
+    },
+    {
+     "start": 318.8,
+     "end": 320.0,
+     "ja": "いやちょっと待って！",
+     "en": "Wait a minute!",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 320.0,
+     "end": 323.3,
+     "ja": "マクドナルド広すぎるから絞ってよ！",
+     "en": "McDonald's is way too broad, narrow it down!",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 323.3,
+     "end": 325.0,
+     "ja": "えー、もうやったら…",
+     "en": "Uh, then...",
+     "speaker": "Inada"
+    },
+    {
+     "start": 325.0,
+     "end": 327.2,
+     "ja": "マックグリドルかなぁ。",
+     "en": "McGriddles, maybe.",
+     "speaker": "Inada"
+    },
+    {
+     "start": 327.2,
+     "end": 330.4,
+     "ja": "えー！？てことは朝死ななあかんやん！",
+     "en": "What!? That means you'd have to die in the morning!",
+     "speaker": "Kumamoto"
+    },
+    {
+     "start": 330.4,
+     "end": 331.2,
+     "ja": "何がやりたいん？",
+     "en": "What are you trying to do?",
+     "speaker": "Inada"
+    }
+   ]
+  }
+ ],
+ "videoId": "zKWub4HQoZU",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

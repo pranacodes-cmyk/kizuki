@@ -1,0 +1,94 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 251.8,
+   "end": 309.4,
+   "title": "Starting a Summer Vlog",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "fun",
+    "animals"
+   ],
+   "grammar": [
+    "〜たいと思う — expressing desire/intention",
+    "〜ている — ongoing action/state"
+   ],
+   "quality": 3,
+   "lines": [
+    {
+     "start": 252.1,
+     "end": 254.0,
+     "ja": "皆様こんにちは。",
+     "en": "Hello everyone.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 254.0,
+     "end": 257.0,
+     "ja": "今日はVlogビデオを作りたいと思います。",
+     "en": "Today I want to make a vlog video.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 257.0,
+     "end": 300.5,
+     "ja": "夏のVlogだよ。",
+     "en": "It's a summer vlog.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 301.6,
+     "end": 308.8,
+     "ja": "今私たちは、新しい子犬を待っていますよ。",
+     "en": "Right now, we are waiting for a new puppy.",
+     "speaker": "Girl"
+    }
+   ]
+  },
+  {
+   "start": 345.0,
+   "end": 407.5,
+   "title": "Introducing the New Puppy",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "animals"
+   ],
+   "grammar": [
+    "〜について — regarding / about",
+    "〜て — informal request / imperative"
+   ],
+   "quality": 3,
+   "lines": [
+    {
+     "start": 345.3,
+     "end": 351.5,
+     "ja": "このビデオでは、初めて新しい子犬を紹介する。",
+     "en": "In this video, I will introduce our new puppy for the first time.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 353.5,
+     "end": 403.0,
+     "ja": "その後、家で子犬の最初の週についてのビデオが毎日ある。",
+     "en": "After that, there will be daily videos about the puppy's first week at home.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 404.2,
+     "end": 407.0,
+     "ja": "楽しみにして！",
+     "en": "Look forward to it!",
+     "speaker": "Girl"
+    }
+   ]
+  }
+ ],
+ "videoId": "d8OvIJG_QyY",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,155 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 141.0,
+   "end": 162.5,
+   "title": "How to Use Ticket Machines in Japan",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ために — in order to",
+    "〜たばかり — just did",
+    "〜ことができる — can do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 141.3,
+     "end": 143.7,
+     "ja": "日本で電車に乗るためには、",
+     "en": "In order to ride a train in Japan,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 143.7,
+     "end": 145.3,
+     "ja": "切符を購入するか、",
+     "en": "you either buy a ticket,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 145.3,
+     "end": 148.1,
+     "ja": "ＩＣカードを利用するかのどちらかになります。",
+     "en": "or use an IC card.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 148.4,
+     "end": 151.5,
+     "ja": "このような券売機で手続きをすることができます。",
+     "en": "You can carry out the procedures at ticket machines like this.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 151.9,
+     "end": 154.9,
+     "ja": "日本に来たばかりで、日本語が分からなくても大丈夫です。",
+     "en": "Even if you just arrived in Japan and don't understand Japanese, it's okay.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 155.3,
+     "end": 162.0,
+     "ja": "日本の駅の券売機は、ほとんど全てこんな風に言語を切り替えることができます。",
+     "en": "Almost all ticket machines at Japanese stations let you switch languages like this.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 452.3,
+   "end": 479.8,
+   "title": "Passing Through the Ticket Gate",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜てください — please do",
+    "〜ておく — do in advance"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 452.6,
+     "end": 456.8,
+     "ja": "それではまず、切符を使って改札を通ってみましょう。",
+     "en": "Now, first let's try going through the ticket gate using a ticket.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 457.3,
+     "end": 462.8,
+     "ja": "最近ではＩＣカード専用の改札もあるので注意してください。",
+     "en": "These days there are also IC-card-only gates, so please be careful.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 469.0,
+     "end": 471.5,
+     "ja": "吸い込まれます。",
+     "en": "It gets pulled in.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 473.0,
+     "end": 479.5,
+     "ja": "そして必ず反対側から抜き取って、大事に保管しておいてください。",
+     "en": "And make sure to take it out from the other side and keep it in a safe place.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 523.0,
+   "end": 542.0,
+   "title": "Checking the Platform Departure Board",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ことが多い — often",
+    "〜を見て — looking at",
+    "〜てある — state resulting from an action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 523.4,
+     "end": 529.0,
+     "ja": "日本の駅のホームには、このように電光掲示された発車票が用意されていることが多いです。",
+     "en": "On train platforms in Japan, electronic departure boards like this are often provided.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 529.5,
+     "end": 535.5,
+     "ja": "これを見て、方面や電車の種別、行き先、発車時刻などを確認します。",
+     "en": "Looking at this, you check the direction, train type, destination, departure time, and so on.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 535.9,
+     "end": 541.8,
+     "ja": "私がこれから乗るのは、２番目に表示されている品川方面、成田空港行きです。",
+     "en": "The train I am about to take is the second one shown, bound for Narita Airport via Shinagawa.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "0Oc28nDgZMA",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

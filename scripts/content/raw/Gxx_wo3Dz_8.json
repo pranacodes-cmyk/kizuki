@@ -1,0 +1,175 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 21.0,
+   "end": 41.2,
+   "title": "Turnabout at the Press Conference",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜番 — one's turn",
+    "〜を根拠に — based on / on the grounds of",
+    "〜わけだ — it follows that / naturally"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 21.2,
+     "end": 24.1,
+     "ja": "日経さん、今度はそちらが説明する番です。",
+     "en": "Nikkei, now it is your turn to explain.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 24.2,
+     "end": 28.6,
+     "ja": "片山財務大臣が、記者会見で日本経済新聞の記事を否定しました。",
+     "en": "Finance Minister Katayama denied the Nikkei article at a press conference.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 28.9,
+     "end": 33.7,
+     "ja": "そして、記事を書いた記者に、何を根拠に書いたのかを、その場で問い返します。",
+     "en": "And on the spot, she questioned the reporter who wrote it on what basis it was written.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 34.0,
+     "end": 36.6,
+     "ja": "普段は、政治家に説明を求める記者が、",
+     "en": "Reporters usually demand explanations from politicians,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 36.8,
+     "end": 41.0,
+     "ja": "今回は、自分の記事について説明を求められる側になったわけです。",
+     "en": "but this time, they ended up on the side being asked to explain their own article.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 61.0,
+   "end": 80.2,
+   "title": "Questionable Reporting on Morning TV",
+   "level": "N2",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜をめぐる — regarding / concerning",
+    "〜として — as / in the capacity of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 61.2,
+     "end": 63.5,
+     "ja": "ここで、先月の報道も見てみましょう。",
+     "en": "Here, let's take a look at the reports from last month as well.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 63.7,
+     "end": 69.6,
+     "ja": "9月18日、日本テレビの朝の番組「ZIP!」で、内閣改造をめぐる解説がありました。",
+     "en": "On September 18th, on Nippon TV's morning program \"ZIP!\", there was commentary regarding the cabinet reshuffle.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 69.8,
+     "end": 76.8,
+     "ja": "記者が伝えたのは、小泉防衛大臣が、役職を希望するアンケートに、留任したいと熱心に書いた、という話です。",
+     "en": "What the reporter shared was that Defense Minister Koizumi eagerly wrote on a post-preference survey that he wished to stay on.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 77.0,
+     "end": 80.0,
+     "ja": "番組は、総理周辺からの話として伝えていました。",
+     "en": "The program reported this as information coming from sources close to the Prime Minister.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 151.2,
+   "end": 174.0,
+   "title": "Demanding Accountability from Media",
+   "level": "N2",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜て当然だ — natural that / goes without saying",
+    "〜はずだ — should be / bound to be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 151.5,
+     "end": 154.9,
+     "ja": "今回、片山さんが記事の根拠を問い返したことで、",
+     "en": "This time, because Katayama questioned the article's basis,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 155.1,
+     "end": 157.7,
+     "ja": "記者が、説明を求められる側に回りました。",
+     "en": "the reporter ended up in the position of being asked to explain.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 158.0,
+     "end": 160.6,
+     "ja": "政治家には、具体的な根拠を求める。",
+     "en": "They demand concrete evidence from politicians.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 160.8,
+     "end": 164.2,
+     "ja": "なら、新聞社の説明にも、同じ厳しさがあって当然です。",
+     "en": "If so, it is only natural that the newspaper's explanation is held to the same standard.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 164.4,
+     "end": 168.0,
+     "ja": "もし政治家が、「関係者に確認しています」とだけ答えたら、",
+     "en": "If a politician were to answer simply, \"I am confirming with relevant parties,\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 168.2,
+     "end": 170.2,
+     "ja": "それで質問を終えるのでしょうか。",
+     "en": "would they just end their questioning there?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 170.4,
+     "end": 173.6,
+     "ja": "何を、どう確かめたのか。そこまで聞くはずですよね。",
+     "en": "What did you verify, and how? They would surely ask that much, wouldn't they?",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "Gxx_wo3Dz_8",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

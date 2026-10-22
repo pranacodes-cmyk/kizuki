@@ -1,0 +1,173 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 15.0,
+   "end": 26.6,
+   "title": "Asking People in Shibuya About Love",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "〜てみたい — wanting to try doing something",
+    "〜について — about / regarding"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 15.2,
+     "end": 16.3,
+     "ja": "ゆみこです！",
+     "en": "I'm Yumiko!",
+     "speaker": "Yumiko"
+    },
+    {
+     "start": 16.3,
+     "end": 17.6,
+     "ja": "まさしです！",
+     "en": "I'm Masashi!",
+     "speaker": "Masashi"
+    },
+    {
+     "start": 17.6,
+     "end": 19.8,
+     "ja": "今日は渋谷のみんなに",
+     "en": "Today we're gonna ask everyone in Shibuya",
+     "speaker": "Yumiko"
+    },
+    {
+     "start": 19.8,
+     "end": 21.6,
+     "ja": "愛について",
+     "en": "about love!",
+     "speaker": "Yumiko"
+    },
+    {
+     "start": 21.6,
+     "end": 22.8,
+     "ja": "聞いてみたいと思いま〜す！",
+     "en": "We'd like to hear what they say!",
+     "speaker": "Yumiko"
+    },
+    {
+     "start": 22.8,
+     "end": 24.3,
+     "ja": "愛って何だろう？",
+     "en": "What is love?",
+     "speaker": "Masashi"
+    },
+    {
+     "start": 24.3,
+     "end": 26.3,
+     "ja": "お楽しみに〜！",
+     "en": "Stay tuned!",
+     "speaker": "Yumiko"
+    }
+   ]
+  },
+  {
+   "start": 43.6,
+   "end": 52.8,
+   "title": "Giving True Love Chocolates",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜に — recipient marker"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.2,
+     "end": 46.9,
+     "ja": "ちなみに今年本命チョコあげますか？",
+     "en": "By the way, will you be giving chocolates to someone you truly like this year?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 47.0,
+     "end": 47.9,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 48.0,
+     "end": 49.3,
+     "ja": "あげます。",
+     "en": "I will.",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 49.6,
+     "end": 52.0,
+     "ja": "本命のチョコはあげます。",
+     "en": "I'll give chocolates to someone I truly like.",
+     "speaker": "Woman 2"
+    }
+   ]
+  },
+  {
+   "start": 204.6,
+   "end": 217.2,
+   "title": "Differences Between Suki and Aishiteru",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜のほうが — comparison (this one is more)",
+    "〜だけ — only / just"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 204.9,
+     "end": 207.8,
+     "ja": "「好きだよ」っていうのと",
+     "en": "Between saying \"I like you\"",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 207.8,
+     "end": 209.7,
+     "ja": "「愛してるよ」って伝えるの",
+     "en": "and saying \"I love you,\"",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 209.7,
+     "end": 211.5,
+     "ja": "何か違いってある？",
+     "en": "is there any difference?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 211.5,
+     "end": 214.3,
+     "ja": "「好きだよ」のほうが軽いイメージはある。",
+     "en": "\"I like you\" feels a bit lighter.",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 214.3,
+     "end": 217.0,
+     "ja": "「愛してる」はやっぱり彼氏だけかなって。",
+     "en": "\"I love you\" is definitely only for a boyfriend, maybe?",
+     "speaker": "Woman 2"
+    }
+   ]
+  }
+ ],
+ "videoId": "qPxbcJM93H4",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

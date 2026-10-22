@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.5,
+   "end": 21.5,
+   "title": "Welcome to the Cooking Class",
+   "level": "N5",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜ている — ongoing action / habit",
+    "〜ましょう — let's do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.8,
+     "end": 7.5,
+     "ja": "皆さん、こんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 8.5,
+     "end": 13.5,
+     "ja": "ひらがなネットで和食料理を教えているあきこです。",
+     "en": "I'm Akiko, teaching Japanese cooking at Hiragana Net.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 14.3,
+     "end": 18.0,
+     "ja": "今回は、鶏の照り焼きを作ります。",
+     "en": "This time, we will make chicken teriyaki.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 18.8,
+     "end": 21.2,
+     "ja": "では、一緒に作りましょう。",
+     "en": "Now, let's make it together.",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 239.8,
+   "end": 306.0,
+   "title": "Simmering and Glazing the Chicken",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — when / once",
+    "〜やすい — prone to / easy to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 240.2,
+     "end": 243.8,
+     "ja": "調味料を煮詰めます。",
+     "en": "Boil down the seasonings.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 252.5,
+     "end": 256.3,
+     "ja": "スプーンでタレをかけます。",
+     "en": "Spoon the sauce over the chicken.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 257.0,
+     "end": 302.4,
+     "ja": "タレの色が濃い茶色になったら出来上がりです。",
+     "en": "Once the sauce turns dark brown, it is done.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 302.9,
+     "end": 305.8,
+     "ja": "焦げやすいので気を付けましょう。",
+     "en": "It burns easily, so let's be careful.",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 322.0,
+   "end": 334.0,
+   "title": "Great for Bento Lunches",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜にも — also for",
+    "〜ましょう — let's do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 322.2,
+     "end": 324.5,
+     "ja": "いかがでしたか？",
+     "en": "How was it?",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 325.0,
+     "end": 328.5,
+     "ja": "お弁当のおかずにもおすすめです。",
+     "en": "It's also recommended as a side dish for bento boxes.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 329.0,
+     "end": 331.2,
+     "ja": "では、また会いましょう。",
+     "en": "Well then, see you again.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 331.5,
+     "end": 333.5,
+     "ja": "さようならー。",
+     "en": "Goodbye!",
+     "speaker": "Akiko"
+    }
+   ]
+  }
+ ],
+ "videoId": "mof4TUv4O8o",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

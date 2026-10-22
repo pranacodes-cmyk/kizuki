@@ -1,0 +1,175 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 27.2,
+   "end": 46.0,
+   "title": "Hay Bale Rolling Contest in Hokkaido",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "sports"
+   ],
+   "grammar": [
+    "〜のような — like / similar to",
+    "〜にする — make into / turn into"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 27.5,
+     "end": 30.2,
+     "ja": "北海道大空町で、",
+     "en": "In Ozora Town, Hokkaido,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 30.5,
+     "end": 35.1,
+     "ja": "牧草の大きい塊を転がす大会がありました。",
+     "en": "a contest was held where participants rolled huge bales of pasture grass.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 35.7,
+     "end": 39.8,
+     "ja": "牧草は、牧場の牛が食べる草です。",
+     "en": "Pasture grass is the grass eaten by cows on farms.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 40.4,
+     "end": 42.1,
+     "ja": "牧草をまとめて、",
+     "en": "They gathered the grass,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 42.1,
+     "end": 45.6,
+     "ja": "大きいタイヤのような形にしました。",
+     "en": "and shaped it like large tires.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 46.2,
+   "end": 67.8,
+   "title": "Rolling 500 kg Hay Bales",
+   "level": "N5",
+   "topics": [
+    "sports",
+    "fun"
+   ],
+   "grammar": [
+    "〜で — state / group size marker",
+    "〜になる — to become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 46.5,
+     "end": 49.0,
+     "ja": "4人で1つのチームになって、",
+     "en": "Working together in teams of four,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 49.0,
+     "end": 52.6,
+     "ja": "重い牧草を一緒に転がします。",
+     "en": "they roll the heavy grass bales together.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 53.0,
+     "end": 57.8,
+     "ja": "コースの中を、行って戻る速さを競争します。",
+     "en": "They compete to see how fast they can go back and forth along the course.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 58.4,
+     "end": 63.3,
+     "ja": "男の人のチームは牧草の重さが500kg、",
+     "en": "For men's teams, the bale weighs 500 kg,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 63.3,
+     "end": 67.4,
+     "ja": "女の人のチームは300kgあります。",
+     "en": "and for women's teams, it weighs 300 kg.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 68.0,
+   "end": 85.3,
+   "title": "Overcoming Obstacles to Win the Prize",
+   "level": "N4",
+   "topics": [
+    "sports",
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜ても — even if",
+    "〜ことができる — can / be able to",
+    "〜と話す — quote speech"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 68.3,
+     "end": 71.0,
+     "ja": "コースには高い場所もあります。",
+     "en": "There are also elevated spots on the course.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 71.1,
+     "end": 73.6,
+     "ja": "力を合わせて押しても、",
+     "en": "Even pushing together with all their strength,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 73.6,
+     "end": 77.0,
+     "ja": "越えることができないチームもありました。",
+     "en": "some teams were unable to get over them.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 77.3,
+     "end": 80.0,
+     "ja": "優勝したチームの男性は、",
+     "en": "A man from the winning team said,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 80.2,
+     "end": 81.7,
+     "ja": "「もらった賞金で、",
+     "en": "\"With the prize money we won,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 81.7,
+     "end": 84.8,
+     "ja": "みんなで旅行に行きます」と話していました。",
+     "en": "we're all going to go on a trip.\"",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "RJr3zajl544",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,128 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.0,
+   "end": 31.8,
+   "title": "Does Pumpkin Go With Rice?",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "food"
+   ],
+   "grammar": [
+    "〜んじゃないですか — isn't it the case that?",
+    "〜た方が — had better / preference"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 16.2,
+     "end": 20.5,
+     "ja": "いや、まずそもそも日本人の右向け右精神で、合わないって勝手に決めつけてるじゃないですか。",
+     "en": "Well, first of all, with the Japanese sheep mentality, isn't everyone arbitrarily deciding it doesn't match?",
+     "speaker": "Man in suit"
+    },
+    {
+     "start": 20.8,
+     "end": 24.4,
+     "ja": "それはもう勉強不足で、しょっぱい方が米に合うってデータが出てるんです。",
+     "en": "That's just a lack of research; the data shows salty food goes better with rice.",
+     "speaker": "Man with glasses"
+    },
+    {
+     "start": 24.5,
+     "end": 25.8,
+     "ja": "それ、エビデンスあるんですか？",
+     "en": "Do you have evidence for that?",
+     "speaker": "Man in suit"
+    },
+    {
+     "start": 26.0,
+     "end": 27.4,
+     "ja": "もう一回言えってことですか？",
+     "en": "Are you asking me to say it again?",
+     "speaker": "Man with glasses"
+    },
+    {
+     "start": 27.6,
+     "end": 31.6,
+     "ja": "おい！黙って食えよ、うめぇから！",
+     "en": "Hey! Just shut up and eat it, it's delicious!",
+     "speaker": "Older man"
+    }
+   ]
+  },
+  {
+   "start": 32.5,
+   "end": 45.8,
+   "title": "Bringing Up Halloween in a Rice Debate",
+   "level": "N2",
+   "topics": [
+    "comedy",
+    "culture"
+   ],
+   "grammar": [
+    "〜わけじゃない — it doesn't mean that",
+    "〜た時点で — at the point when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 32.8,
+     "end": 36.6,
+     "ja": "頭ごなしに、あの、断定するのは良くなくて。ヨーロッパとかではハロウィンでね…",
+     "en": "It's not good to reject it outright without listening. In Europe and elsewhere, for Halloween...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 36.7,
+     "end": 38.2,
+     "ja": "いやいや、今、米の話してるんで。",
+     "en": "No, no, we're talking about rice right now.",
+     "speaker": "Man in suit"
+    },
+    {
+     "start": 38.3,
+     "end": 40.0,
+     "ja": "いやいや、ハロウィンの話がしたいわけじゃなくて…",
+     "en": "No, no, it's not that I want to talk about Halloween...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 40.1,
+     "end": 42.2,
+     "ja": "欧米の文化を持ち出した時点で終わりじゃないですか。",
+     "en": "The moment you bring up Western culture, it's over, isn't it?",
+     "speaker": "Man in suit"
+    },
+    {
+     "start": 42.3,
+     "end": 43.3,
+     "ja": "は？何なの？",
+     "en": "Huh? What is your problem?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 43.4,
+     "end": 44.9,
+     "ja": "こういうディベート番組、出たことない？",
+     "en": "Have you never been on a debate show like this before?",
+     "speaker": "Man in suit"
+    },
+    {
+     "start": 45.0,
+     "end": 45.8,
+     "ja": "ストップ！",
+     "en": "Stop!",
+     "speaker": "Moderator"
+    }
+   ]
+  }
+ ],
+ "videoId": "_xolDF4eO9g",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

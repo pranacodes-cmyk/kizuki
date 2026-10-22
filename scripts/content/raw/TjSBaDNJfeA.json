@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 25.5,
+   "end": 43.8,
+   "title": "Asking Strangers About Same-Sex Marriage",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "romance"
+   ],
+   "grammar": [
+    "〜について — regarding / about",
+    "〜ていいですか — may I / is it okay to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 25.8,
+     "end": 31.7,
+     "ja": "男同士、女同士の結婚について賛成か反対かを聞いてまして、どうですかね？",
+     "en": "We're asking people if they agree with or disagree with same-sex marriage. What do you think?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 32.0,
+     "end": 34.9,
+     "ja": "賛成です、全然。全然賛成です。",
+     "en": "I totally agree. Totally agree.",
+     "speaker": "Interviewees"
+    },
+    {
+     "start": 35.1,
+     "end": 37.7,
+     "ja": "じゃあ、それぞれ理由をお聞きしていいですか？",
+     "en": "Then, could you tell me your reasons?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 38.0,
+     "end": 43.5,
+     "ja": "やっぱり愛に男女関係ないかなって思うんで。",
+     "en": "Well, I think gender doesn't really matter when it comes to love.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 142.8,
+   "end": 153.0,
+   "title": "For Their Happiness",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜ため — for the sake of",
+    "〜と思う — to think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 143.0,
+     "end": 144.2,
+     "ja": "賛成です。",
+     "en": "I agree.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 144.3,
+     "end": 147.3,
+     "ja": "人それぞれだなと思うので、",
+     "en": "I think everyone is different,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 147.4,
+     "end": 150.1,
+     "ja": "その人たちの幸せのためだと思うので、",
+     "en": "and since I think it's for their happiness,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 150.2,
+     "end": 152.7,
+     "ja": "いいかなと思います。",
+     "en": "I think it's a good thing.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 350.8,
+   "end": 400.5,
+   "title": "As Long as They Love Each Other",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "friends"
+   ],
+   "grammar": [
+    "〜なら — if / in the case of",
+    "〜わけじゃない — it doesn't mean that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 351.0,
+     "end": 352.4,
+     "ja": "いいと思います。",
+     "en": "I think it's fine.",
+     "speaker": "Woman A"
+    },
+    {
+     "start": 352.5,
+     "end": 354.1,
+     "ja": "別にいいと思います。",
+     "en": "I think it's fine too.",
+     "speaker": "Woman B"
+    },
+    {
+     "start": 354.2,
+     "end": 356.8,
+     "ja": "好き同士なら別にいいと思います。",
+     "en": "If they love each other, I think it's totally fine.",
+     "speaker": "Woman B"
+    },
+    {
+     "start": 356.9,
+     "end": 359.1,
+     "ja": "周りに迷惑かけるわけじゃないですしね。",
+     "en": "It's not like they're causing problems for others.",
+     "speaker": "Woman A"
+    },
+    {
+     "start": 359.2,
+     "end": 400.3,
+     "ja": "そうそうそう。",
+     "en": "Yeah, exactly.",
+     "speaker": "Woman B"
+    }
+   ]
+  }
+ ],
+ "videoId": "TjSBaDNJfeA",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

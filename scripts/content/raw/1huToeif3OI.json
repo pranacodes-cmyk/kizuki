@@ -1,0 +1,138 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 57.8,
+   "end": 70.8,
+   "title": "Visualizing Rakugo for the Audience",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜て見せる — do something to show",
+    "〜わけだ — natural reason / as you'd expect"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 58.0,
+     "end": 60.5,
+     "ja": "さらには自作のフリップ。",
+     "en": "Furthermore, she uses her own handmade sketch cards.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 60.7,
+     "end": 63.6,
+     "ja": "江戸庶民の暮らしを描いています。",
+     "en": "They depict the lives of Edo commoners.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 63.9,
+     "end": 67.5,
+     "ja": "「長屋って何ですか？ 長いものですか」とか言われるわけですよ。",
+     "en": "People would ask me things like, \"What's a nagaya? Is it something long?\"",
+     "speaker": "Ameka"
+    },
+    {
+     "start": 67.8,
+     "end": 70.5,
+     "ja": "ですからもう絵にして見せちゃおうと。",
+     "en": "So I decided I'd just draw it out and show them.",
+     "speaker": "Ameka"
+    }
+   ]
+  },
+  {
+   "start": 128.5,
+   "end": 145.8,
+   "title": "Pursuing Her Dream Against the Odds",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "family"
+   ],
+   "grammar": [
+    "〜きれない — cannot completely do",
+    "門をたたく — knock on someone's door (seek apprenticeship)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 128.8,
+     "end": 133.4,
+     "ja": "周りの反対もあり、一度は他の道に進みますが、",
+     "en": "Facing opposition from those around her, she initially pursued another path,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 133.6,
+     "end": 137.8,
+     "ja": "諦めきれず、２７歳の時、門をたたきます。",
+     "en": "but unable to give up, she knocked on the master's door at age 27.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 139.8,
+     "end": 145.2,
+     "ja": "その時、３歳の息子がいるシングルマザーでした。",
+     "en": "At that time, she was a single mother with a 3-year-old son.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 193.5,
+   "end": 210.5,
+   "title": "A Mother and Son's Bond",
+   "level": "N3",
+   "topics": [
+    "family",
+    "culture"
+   ],
+   "grammar": [
+    "〜にとって — for / to (from the viewpoint of)",
+    "〜だけ — only"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 193.8,
+     "end": 197.5,
+     "ja": "寂しさはめちゃくちゃあった...あったけれども、",
+     "en": "It was terribly lonely... it was lonely, but,",
+     "speaker": "Son"
+    },
+    {
+     "start": 197.8,
+     "end": 202.5,
+     "ja": "小学生くらいの自分にとっては子守歌でしたね。",
+     "en": "to me as an elementary schooler, it was like a lullaby.",
+     "speaker": "Son"
+    },
+    {
+     "start": 203.2,
+     "end": 206.0,
+     "ja": "「やるな」っていう人が９９パーセント。",
+     "en": "Ninety-nine percent of people told me not to do it.",
+     "speaker": "Ameka"
+    },
+    {
+     "start": 206.3,
+     "end": 210.0,
+     "ja": "「やっていい」っていうのは、うちの尊だけでしたね。",
+     "en": "The only one who told me it was okay was my Takashi.",
+     "speaker": "Ameka"
+    }
+   ]
+  }
+ ],
+ "videoId": "1huToeif3OI",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

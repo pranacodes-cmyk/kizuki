@@ -1,0 +1,170 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 47.9,
+   "end": 64.9,
+   "title": "How the Speaking Test Works",
+   "level": "N3",
+   "topics": [
+    "school"
+   ],
+   "grammar": [
+    "〜ずつ — each / at a time",
+    "〜てから — after doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 48.2,
+     "end": 49.0,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Female Student"
+    },
+    {
+     "start": 49.0,
+     "end": 52.8,
+     "ja": "先生、会話のテストはどうやってやりますか？",
+     "en": "Teacher, how will the speaking test be conducted?",
+     "speaker": "Female Student"
+    },
+    {
+     "start": 53.0,
+     "end": 55.4,
+     "ja": "会話のテストは２人ずつ、",
+     "en": "For the speaking test, two at a time,",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 55.4,
+     "end": 59.5,
+     "ja": "隣の部屋に行って児島先生と話します。",
+     "en": "you'll go to the next room and speak with Kojima-sensei.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 60.1,
+     "end": 63.8,
+     "ja": "簡単な質問だから大丈夫。",
+     "en": "They're simple questions, so don't worry.",
+     "speaker": "Teacher"
+    }
+   ]
+  },
+  {
+   "start": 108.9,
+   "end": 129.8,
+   "title": "Grammar and Listening Test Schedule",
+   "level": "N3",
+   "topics": [
+    "school"
+   ],
+   "grammar": [
+    "〜から〜まで — from ... to ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 109.1,
+     "end": 113.1,
+     "ja": "そして次、水曜日は聴解のテスト。",
+     "en": "And next, Wednesday is the listening test.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 113.3,
+     "end": 116.3,
+     "ja": "木曜日は文法のテストがあります。",
+     "en": "On Thursday, there's a grammar test.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 117.2,
+     "end": 120.3,
+     "ja": "文法は教科書の６課までですか？",
+     "en": "Does the grammar test cover up to Lesson 6 in the textbook?",
+     "speaker": "Female Student"
+    },
+    {
+     "start": 121.2,
+     "end": 124.9,
+     "ja": "いや、今回は１課から４課まで。",
+     "en": "No, this time it's from Lesson 1 to Lesson 4.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 125.3,
+     "end": 129.6,
+     "ja": "来月５課から８課までのテストがあります。",
+     "en": "Next month, there will be a test covering Lessons 5 to 8.",
+     "speaker": "Teacher"
+    }
+   ]
+  },
+  {
+   "start": 130.0,
+   "end": 150.3,
+   "title": "Don't Be Late for the Test",
+   "level": "N3",
+   "topics": [
+    "school",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ないで — without doing / do not",
+    "〜てくる — come doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 130.4,
+     "end": 134.4,
+     "ja": "金曜日に全部のテストの結果を返します。",
+     "en": "On Friday, I'll return the results of all the tests.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 134.7,
+     "end": 137.4,
+     "ja": "来週はたくさんテストがあるんだから、",
+     "en": "Since there are a lot of tests next week,",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 137.7,
+     "end": 140.7,
+     "ja": "絶対に遅刻しないで来てください。",
+     "en": "make sure you definitely don't arrive late.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 141.5,
+     "end": 143.5,
+     "ja": "はい、遅刻しません！",
+     "en": "Okay, I won't be late!",
+     "speaker": "Female Student"
+    },
+    {
+     "start": 143.7,
+     "end": 146.4,
+     "ja": "早く来て勉強します。",
+     "en": "I'll come early and study.",
+     "speaker": "Female Student"
+    },
+    {
+     "start": 146.7,
+     "end": 149.9,
+     "ja": "はいはい、そう言って５分前に来るんだろ？",
+     "en": "Yeah, yeah, you say that and then show up five minutes before, right?",
+     "speaker": "Teacher"
+    }
+   ]
+  }
+ ],
+ "videoId": "swiWxbpifcM",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,141 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 48.3,
+   "end": 60.8,
+   "title": "Morning Coffee Routine",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜と思う — think that",
+    "〜ので — because / since",
+    "〜ておく / 〜ている — ongoing state / habitual action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 48.5,
+     "end": 52.8,
+     "ja": "目が覚めるって、自分で思ってるからだと思うんですけど、",
+     "en": "I think it might just be my mindset that it wakes me up,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 53.0,
+     "end": 54.8,
+     "ja": "低血圧なので、",
+     "en": "but since I have low blood pressure,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 54.8,
+     "end": 60.6,
+     "ja": "とりあえずコーヒーを入れて飲むっていうのが、自分のなかのリズムみたいになってる。",
+     "en": "brewing and drinking coffee first thing has become a natural rhythm for me.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 81.0,
+   "end": 95.8,
+   "title": "Preference for Crisp Linen",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜てる — contraction of 〜ている",
+    "〜派 — belonging to a faction/group",
+    "〜のが好き — like doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 81.0,
+     "end": 83.5,
+     "ja": "毛羽が出るんですね、リネンって。",
+     "en": "Linen produces a lot of fluff, you know.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 83.7,
+     "end": 88.9,
+     "ja": "「毛羽がすごいんですけど」っていうお問い合わせに、柔軟剤をおすすめしてるんですけど、",
+     "en": "When customers ask about all the fluff, we recommend fabric softener, but...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 89.5,
+     "end": 93.4,
+     "ja": "私は基本的にリネンはバリッと派なんですよ。",
+     "en": "Personally, I'm more of a crisp linen person.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 93.6,
+     "end": 95.5,
+     "ja": "バリッとするのが好き。",
+     "en": "I like it to be crisp and stiff.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 274.0,
+   "end": 285.5,
+   "title": "Making Hot Sandwiches",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ば — conditional (if)",
+    "〜たら — if / when",
+    "〜によって — depending on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 274.1,
+     "end": 276.4,
+     "ja": "ホットサンドが好きなんですよ。",
+     "en": "I really like toasted sandwiches.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 276.5,
+     "end": 278.9,
+     "ja": "なんか挟めば何でもいいと思ってて。",
+     "en": "I feel like anything works as long as you put it inside.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 279.0,
+     "end": 281.4,
+     "ja": "前の日の残り物があったらそれ挟んだり、",
+     "en": "If there are leftovers from the day before, I'll sandwich those,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 281.5,
+     "end": 285.0,
+     "ja": "本当にその日によっていろいろなんですけど、ボリュームもあるし。",
+     "en": "so it really varies from day to day, plus it's very filling.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "a81HCyx-udk",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

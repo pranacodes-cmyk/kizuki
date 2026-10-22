@@ -1,0 +1,122 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 46.2,
+   "end": 59.9,
+   "title": "Save the World with Dance",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜てほしい — want someone to do",
+    "〜じゃ — assertion / copula (dialect/elderly)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 46.4,
+     "end": 48.0,
+     "ja": "ここは「時の谷」。",
+     "en": "This is the Valley of Time.",
+     "speaker": "Pokkon"
+    },
+    {
+     "start": 48.1,
+     "end": 50.8,
+     "ja": "お前は時空をスライドしてやってきた。",
+     "en": "You slid through spacetime to get here.",
+     "speaker": "Pokkon"
+    },
+    {
+     "start": 51.1,
+     "end": 53.0,
+     "ja": "「時の欠片」を集めて、",
+     "en": "Gather the fragments of time,",
+     "speaker": "Elder"
+    },
+    {
+     "start": 53.1,
+     "end": 55.4,
+     "ja": "君たちに世界を救ってほしい。",
+     "en": "and we want you to save the world.",
+     "speaker": "Elder"
+    },
+    {
+     "start": 55.6,
+     "end": 56.4,
+     "ja": "どうやって？",
+     "en": "How?",
+     "speaker": "Isumi"
+    },
+    {
+     "start": 56.5,
+     "end": 57.7,
+     "ja": "ダンスじゃ！",
+     "en": "With dance!",
+     "speaker": "Elder"
+    },
+    {
+     "start": 58.7,
+     "end": 59.8,
+     "ja": "ダンス！？",
+     "en": "Dance!?",
+     "speaker": "Girls"
+    }
+   ]
+  },
+  {
+   "start": 103.5,
+   "end": 112.5,
+   "title": "Do You Want to Redo the Race?",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "sports",
+    "school"
+   ],
+   "grammar": [
+    "〜たら — if/when",
+    "〜たくない — don't you want to"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 104.1,
+     "end": 106.1,
+     "ja": "足が万全やったら、",
+     "en": "If my foot had been fine,",
+     "speaker": "Isumi"
+    },
+    {
+     "start": 106.1,
+     "end": 108.1,
+     "ja": "絶対に私勝っちょった！",
+     "en": "I definitely would have won!",
+     "speaker": "Isumi"
+    },
+    {
+     "start": 108.3,
+     "end": 109.1,
+     "ja": "これ…",
+     "en": "This is...",
+     "speaker": "Isumi"
+    },
+    {
+     "start": 109.9,
+     "end": 112.4,
+     "ja": "このレース、やり直したくない？",
+     "en": "Don't you want to redo this race?",
+     "speaker": "Aoi"
+    }
+   ]
+  }
+ ],
+ "videoId": "gO_9_apq9TQ",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

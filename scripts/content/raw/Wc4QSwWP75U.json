@@ -1,0 +1,56 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 26.5,
+   "end": 48.0,
+   "title": "A Dance Honed Through Diligent Training",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "〜方 — way of doing",
+    "〜にしか〜ない — only / nothing but",
+    "まるで〜ようだ — just like / as if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 26.8,
+     "end": 28.5,
+     "ja": "どういうことですの？",
+     "en": "What is the meaning of this?",
+     "speaker": "Lishu"
+    },
+    {
+     "start": 29.8,
+     "end": 34.0,
+     "ja": "腰の落とし方、手首のかしげ方…",
+     "en": "The way she lowers her hips, the tilting of her wrists...",
+     "speaker": "Lishu"
+    },
+    {
+     "start": 35.8,
+     "end": 40.5,
+     "ja": "あれは、鍛錬をした者にしかできない舞。",
+     "en": "That is a dance only someone with rigorous training could perform.",
+     "speaker": "Lishu"
+    },
+    {
+     "start": 41.5,
+     "end": 47.8,
+     "ja": "こんな努力に裏打ちされた優雅さは、まるで梨花様のようだ。",
+     "en": "Such elegance backed by effort is almost like Lady Lifa's.",
+     "speaker": "Lishu"
+    }
+   ]
+  }
+ ],
+ "videoId": "Wc4QSwWP75U",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

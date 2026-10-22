@@ -11,6 +11,7 @@ import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import 'context_player.dart';
 import 'ui.dart';
+import 'word_level.dart';
 
 /// The source sentence with the saved word highlighted — mirrors HighlightedLine.
 class HighlightedLine extends StatelessWidget {
@@ -61,13 +62,10 @@ class _SavedWordSheetState extends State<SavedWordSheet> {
     final content = widget.content;
     final entry = w.dictId != null ? content?.dict[w.dictId] : null;
     final clip = content?.byId[w.clipId];
-    final status = w.status == 'ignored' ? 'ignored' : wordStatus(status: w.status, card: w.card);
+    final level = wordLevel(status: w.status, card: w.card);
     final now = DateTime.now().millisecondsSinceEpoch;
-    final (bg, fg, label) = switch (status) {
-      'known' => (T.successSoft, T.success, '✓ Known'),
-      'ignored' => (T.surface2, T.muted, 'Ignored — never reviewed'),
-      _ => (T.primary.withValues(alpha: 0.15), T.primary, 'Learning · next review ${w.card.due <= now ? 'now' : 'in ${formatInterval(w.card.due - now)}'}'),
-    };
+    final review = level >= 1 && level <= 4 ? (w.card.due <= now ? 'Review now' : 'Next review in ${formatInterval(w.card.due - now)}') : null;
+    void close() => Navigator.of(context).pop();
 
     return SingleChildScrollView(
       padding: const EdgeInsets.fromLTRB(20, 12, 20, 16),
@@ -97,16 +95,31 @@ class _SavedWordSheetState extends State<SavedWordSheet> {
               child: Press(onTap: () => Tts.speak(w.reading.isNotEmpty ? w.reading : w.word), child: Container(width: 44, height: 44, decoration: const BoxDecoration(color: T.surface2, shape: BoxShape.circle), child: const Icon(LucideIcons.volume2, size: 20))),
             ),
           ),
+          const SizedBox(width: 8),
+          Padding(
+            padding: const EdgeInsets.only(top: 8),
+            child: Semantics(
+              button: true,
+              label: 'Remove from Vocab',
+              child: Press(
+                onTap: () {
+                  app.removeWord(w.key);
+                  close();
+                },
+                child: Container(width: 44, height: 44, decoration: const BoxDecoration(color: T.surface2, shape: BoxShape.circle), child: const Icon(LucideIcons.trash2, size: 18, color: T.danger)),
+              ),
+            ),
+          ),
         ]),
-        Container(
-          width: double.infinity,
-          margin: const EdgeInsets.only(top: 12),
-          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-          decoration: BoxDecoration(color: bg, borderRadius: BorderRadius.circular(12)),
-          child: Text(label, style: txt(14, w: FontWeight.w800, c: fg)),
-        ),
+        const SizedBox(height: 12),
+        Row(children: [
+          Flexible(child: LevelPill(wordKey: w.key, word: w.word, onRemoved: close)),
+          const SizedBox(width: 10),
+          if (review != null) Expanded(child: Text(review, maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(13, w: FontWeight.w700, c: T.muted))),
+        ]),
         const SizedBox(height: 16),
-        if (w.gloss.isNotEmpty) Text(w.gloss, style: txt(18, w: FontWeight.w800)),
+        // The clip meaning, unless the dictionary's first sense already says the same thing.
+        if (w.gloss.isNotEmpty && (entry == null || entry.m.isEmpty || !repeatsSense(w.gloss, entry.m.first.g))) Text(w.gloss, style: txt(18, w: FontWeight.w800)),
         if (entry != null)
           Padding(
             padding: const EdgeInsets.only(top: 8),
@@ -164,44 +177,7 @@ class _SavedWordSheetState extends State<SavedWordSheet> {
             focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(16), borderSide: const BorderSide(color: T.primary, width: 2)),
           ),
         ),
-        const SizedBox(height: 12),
-        Row(children: [
-          Expanded(
-            child: status == 'known' || status == 'ignored'
-                ? _Action(icon: LucideIcons.rotateCcw, label: 'Learn again', onTap: () => app.setWordStatus(w.key, 'learning'))
-                : _Action(icon: LucideIcons.check, iconColor: T.success, label: 'I know it', onTap: () => app.setWordStatus(w.key, 'known')),
-          ),
-          const SizedBox(width: 8),
-          Expanded(child: _Action(icon: LucideIcons.eyeOff, label: 'Ignore', onTap: status == 'ignored' ? null : () => app.setWordStatus(w.key, 'ignored'))),
-          const SizedBox(width: 8),
-          Expanded(
-            child: _Action(icon: LucideIcons.trash2, iconColor: T.danger, label: 'Remove', onTap: () {
-              app.removeWord(w.key);
-              Navigator.of(context).pop();
-            }),
-          ),
-        ]),
       ]),
     );
   }
-}
-
-class _Action extends StatelessWidget {
-  final IconData icon;
-  final Color iconColor;
-  final String label;
-  final VoidCallback? onTap;
-  const _Action({required this.icon, required this.label, required this.onTap, this.iconColor = T.foreground});
-  @override
-  Widget build(BuildContext context) => Opacity(
-        opacity: onTap == null ? 0.4 : 1,
-        child: Press(
-          onTap: onTap,
-          child: Container(
-            height: 48,
-            decoration: BoxDecoration(color: T.surface2, borderRadius: BorderRadius.circular(12)),
-            child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [Icon(icon, size: 16, color: iconColor), const SizedBox(width: 6), Text(label, style: txt(13, w: FontWeight.w800))]),
-          ),
-        ),
-      );
 }

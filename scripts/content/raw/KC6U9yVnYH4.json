@@ -1,0 +1,274 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 17.5,
+   "end": 35.5,
+   "title": "Rounding Off Age",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜たら — conditional if/when",
+    "〜すぎる — too much / excessive"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.6,
+     "end": 19.9,
+     "ja": "まあでも言うても私35とかになるし、うん。",
+     "en": "Well, even so, I'm turning 35 and all, yeah.",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 20.1,
+     "end": 24.3,
+     "ja": "35ってね、まああの四捨五入したらね、あの0歳なんで。",
+     "en": "35, you know, well, if you round it off, it's 0 years old.",
+     "speaker": "Akitada"
+    },
+    {
+     "start": 24.4,
+     "end": 25.9,
+     "ja": "なんで十の位いくねん！",
+     "en": "Why are you rounding the tens digit?!",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 26.1,
+     "end": 26.5,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Akitada"
+    },
+    {
+     "start": 26.6,
+     "end": 28.0,
+     "ja": "切り捨てすぎやろ、それは。",
+     "en": "You're rounding down way too much!",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 28.1,
+     "end": 29.3,
+     "ja": "みんな同い年というか。",
+     "en": "Everyone's the same age, basically.",
+     "speaker": "Akitada"
+    },
+    {
+     "start": 29.4,
+     "end": 31.6,
+     "ja": "そんなことない。40歳やから。",
+     "en": "No they're not! It's 40 years old.",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 31.7,
+     "end": 34.8,
+     "ja": "四捨五入したら40歳になるからな。現実を受け入れろ、それは。",
+     "en": "If you round off it becomes 40! Accept reality!",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 35.1,
+     "end": 35.5,
+     "ja": "あ、そう。",
+     "en": "Oh, really.",
+     "speaker": "Akitada"
+    }
+   ]
+  },
+  {
+   "start": 41.0,
+   "end": 105.5,
+   "title": "Enjoying the Seasons",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜たり〜たり — doing things like",
+    "〜に比べて — compared to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 41.2,
+     "end": 45.2,
+     "ja": "小っちゃい頃ってさ、春夏秋冬のイベントをこうちゃんと楽しんでたなって思わへん？今に比べたら。",
+     "en": "Don't you think when we were kids, we really enjoyed the events of all four seasons? Compared to now.",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 45.3,
+     "end": 47.2,
+     "ja": "確かにね。言われてみたらさ、",
+     "en": "True. Now that you mention it,",
+     "speaker": "Akitada"
+    },
+    {
+     "start": 47.3,
+     "end": 49.6,
+     "ja": "みんなでさ、こう桜見に行ったりとかさ、",
+     "en": "everyone would go cherry blossom viewing,",
+     "speaker": "Akitada"
+    },
+    {
+     "start": 49.7,
+     "end": 52.9,
+     "ja": "海泳ぎに行ったりとか、花火見に行ったり、",
+     "en": "go swimming in the sea, go see fireworks,",
+     "speaker": "Akitada"
+    },
+    {
+     "start": 53.0,
+     "end": 55.6,
+     "ja": "スイカ食べたり、こう春夏秋冬楽しんでたよな。",
+     "en": "eat watermelon... we really enjoyed all four seasons, right?",
+     "speaker": "Akitada"
+    },
+    {
+     "start": 55.7,
+     "end": 58.2,
+     "ja": "春夏夏夏やんけ、おい！",
+     "en": "That's spring, summer, summer, summer, hey!",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 58.3,
+     "end": 59.7,
+     "ja": "なんてなんて？",
+     "en": "What, what?",
+     "speaker": "Akitada"
+    },
+    {
+     "start": 59.8,
+     "end": 61.2,
+     "ja": "夏まみれやったぞ、今。",
+     "en": "That was covered in summer just now!",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 61.3,
+     "end": 61.7,
+     "ja": "ん？",
+     "en": "Hm?",
+     "speaker": "Akitada"
+    },
+    {
+     "start": 61.8,
+     "end": 63.4,
+     "ja": "秋冬なかったからな。",
+     "en": "There was no autumn or winter in that!",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 63.5,
+     "end": 65.4,
+     "ja": "夏一番楽しかったから。",
+     "en": "Because summer was the most fun.",
+     "speaker": "Akitada"
+    }
+   ]
+  },
+  {
+   "start": 102.5,
+   "end": 124.5,
+   "title": "The Never-Ending Shiritori Game",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜ちゃう — isn't it (Kansai dialect)",
+    "使わせてもらう — let me use / take the liberty of using"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 102.8,
+     "end": 106.0,
+     "ja": "そいつとさ、俺あの小２の時から始めたしりとり、まだ終わってないねん。",
+     "en": "With that guy, a game of shiritori we started in 2nd grade still hasn't ended.",
+     "speaker": "Akitada"
+    },
+    {
+     "start": 106.0,
+     "end": 107.5,
+     "ja": "長すぎるやろ！",
+     "en": "That's way too long!",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 108.3,
+     "end": 111.8,
+     "ja": "え、もし広辞苑が引退したら、次あんたらどっちかちゃう、それ。",
+     "en": "If the Kojien dictionary retires, one of you two will be next!",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 111.9,
+     "end": 113.0,
+     "ja": "あ、ありがとう、ありがとう。",
+     "en": "Ah, thank you, thank you.",
+     "speaker": "Akitada"
+    },
+    {
+     "start": 113.1,
+     "end": 114.2,
+     "ja": "何がやねん。",
+     "en": "For what?!",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 114.4,
+     "end": 118.2,
+     "ja": "え、りんご、ゴリラ、ラッパって始まって、これが20年以上続いてんの？",
+     "en": "Wait, it started with ringo, gorilla, rappa, and that's been going on for over 20 years?",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 118.3,
+     "end": 119.3,
+     "ja": "りんご、ゴリラ、ラッパ？",
+     "en": "Ringo, gorilla, rappa?",
+     "speaker": "Akitada"
+    },
+    {
+     "start": 119.4,
+     "end": 119.8,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Sasuke"
+    },
+    {
+     "start": 120.1,
+     "end": 121.7,
+     "ja": "あ、それ今度使わせてもらおう。",
+     "en": "Oh, let me borrow that next time.",
+     "speaker": "Akitada"
+    },
+    {
+     "start": 121.8,
+     "end": 124.2,
+     "ja": "え、ここ通らず来れたん？",
+     "en": "Wait, you made it this far without passing through that?",
+     "speaker": "Sasuke"
+    }
+   ]
+  }
+ ],
+ "videoId": "KC6U9yVnYH4",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,167 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 26.6,
+   "end": 46.8,
+   "title": "A Gentle Sunday Morning",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜ている — ongoing action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 26.9,
+     "end": 30.5,
+     "ja": "私は朝7時に起きました。",
+     "en": "I woke up at 7 o'clock in the morning.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 30.7,
+     "end": 32.5,
+     "ja": "平日より少し遅く起きて、",
+     "en": "Waking up a little later than on weekdays,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 32.7,
+     "end": 34.9,
+     "ja": "顔を洗って、コーヒーを淹れました。",
+     "en": "I washed my face and made coffee.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 35.5,
+     "end": 39.5,
+     "ja": "キッチンへ行くと、お母さんが朝ご飯を作っています。",
+     "en": "When I went to the kitchen, my mother was making breakfast.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 40.0,
+     "end": 43.5,
+     "ja": "「おはよう」と言うと、お母さんも「おはよう。",
+     "en": "When I said, \"Good morning,\" my mother said, \"Good morning.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 43.6,
+     "end": 46.5,
+     "ja": "今日はいい天気ね」とにっこりします。",
+     "en": "Nice weather today, isn't it?\" and smiled.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 53.0,
+   "end": 70.0,
+   "title": "Plans for the Day",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜たい — want to do",
+    "〜ましょう — let's"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 53.3,
+     "end": 56.4,
+     "ja": "「今日はどこへ行きたい？」と聞きます。",
+     "en": "asked, \"Where do you want to go today?\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 57.0,
+     "end": 59.4,
+     "ja": "「私は町へ買い物に行きたいです。",
+     "en": "\"I want to go to town for shopping.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 60.0,
+     "end": 63.4,
+     "ja": "それから、映画も見たいです」と言います。",
+     "en": "And I also want to see a movie,\" I said.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 64.0,
+     "end": 68.9,
+     "ja": "お母さんは「いいね。じゃあ、みんなで行きましょう」と答えました。",
+     "en": "Mom replied, \"Sounds good. Let's all go together then.\"",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 222.9,
+   "end": 242.0,
+   "title": "Lunch at the Restaurant",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜ました — past polite form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 223.2,
+     "end": 225.2,
+     "ja": "私はトマトパスタ、",
+     "en": "I ordered tomato pasta,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 225.4,
+     "end": 227.6,
+     "ja": "お母さんはサラダとスープ、",
+     "en": "Mom had salad and soup,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 228.0,
+     "end": 230.7,
+     "ja": "お父さんはハンバーグを注文しました。",
+     "en": "and Dad ordered a hamburger steak.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 231.2,
+     "end": 235.6,
+     "ja": "料理はとても美味しくて、家族は笑顔になりました。",
+     "en": "The food was delicious, and the family was all smiles.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 236.2,
+     "end": 241.6,
+     "ja": "「美味しいね」「本当に美味しいね」と話しながら、ゆっくり食べました。",
+     "en": "We ate leisurely, saying, \"It's delicious,\" \"It really is.\"",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "sBVojoUqPfE",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

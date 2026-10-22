@@ -1,0 +1,247 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 144.9,
+   "end": 158.4,
+   "title": "Street Interview Hesitation",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜割には — despite / although",
+    "〜てくる — start to / come to"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 145.2,
+     "end": 146.4,
+     "ja": "インタビューされますか？",
+     "en": "Would you like to be interviewed?",
+     "speaker": "Host 1"
+    },
+    {
+     "start": 146.6,
+     "end": 147.8,
+     "ja": "えっ、いや、怖い。",
+     "en": "Huh, no, it's scary.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 148.0,
+     "end": 149.0,
+     "ja": "怖い？",
+     "en": "Scary?",
+     "speaker": "Host 1"
+    },
+    {
+     "start": 149.1,
+     "end": 151.1,
+     "ja": "でも近づいてきたよ。",
+     "en": "Yet you walked over to us.",
+     "speaker": "Host 2"
+    },
+    {
+     "start": 151.2,
+     "end": 153.2,
+     "ja": "「怖い」って言う割には近づいてきてた。",
+     "en": "For someone saying it's scary, you kept getting closer.",
+     "speaker": "Host 1"
+    },
+    {
+     "start": 153.7,
+     "end": 155.1,
+     "ja": "怖いけど、",
+     "en": "It's scary, but...",
+     "speaker": "Host 2"
+    },
+    {
+     "start": 155.2,
+     "end": 156.4,
+     "ja": "怖いけどやっちゃうよ。",
+     "en": "It's scary, but you're doing it anyway.",
+     "speaker": "Host 1"
+    },
+    {
+     "start": 156.5,
+     "end": 157.9,
+     "ja": "その行動が一番怖い！",
+     "en": "That behavior is the scariest of all!",
+     "speaker": "Host 2"
+    }
+   ]
+  },
+  {
+   "start": 331.4,
+   "end": 353.1,
+   "title": "Sudden Minimalist Ex-Boyfriend",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "急に — suddenly",
+    "〜始める — start doing",
+    "〜だけ — only / just"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 331.9,
+     "end": 334.3,
+     "ja": "急にミニマリストになりました。",
+     "en": "He suddenly became a minimalist.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 334.4,
+     "end": 336.2,
+     "ja": "急に片付け始めた？",
+     "en": "He suddenly started clearing things out?",
+     "speaker": "Host 2"
+    },
+    {
+     "start": 337.8,
+     "end": 339.1,
+     "ja": "家が布団だけになった。",
+     "en": "His apartment ended up with only a futon.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 339.2,
+     "end": 340.2,
+     "ja": "理由聞いた？",
+     "en": "Did you ask the reason?",
+     "speaker": "Host 2"
+    },
+    {
+     "start": 341.0,
+     "end": 342.3,
+     "ja": "差し押さえ？",
+     "en": "Foreclosure?",
+     "speaker": "Host 1"
+    },
+    {
+     "start": 344.2,
+     "end": 346.0,
+     "ja": "ミニマリスト目指して布団だけにしたの？",
+     "en": "He aimed to be a minimalist and ended up with just a futon?",
+     "speaker": "Host 1"
+    },
+    {
+     "start": 346.9,
+     "end": 348.6,
+     "ja": "下手くそだね、ミニマリストが。",
+     "en": "He's really bad at being a minimalist.",
+     "speaker": "Host 2"
+    },
+    {
+     "start": 349.5,
+     "end": 351.4,
+     "ja": "もっといい感じにできなかった？",
+     "en": "Couldn't he have done it a bit better?",
+     "speaker": "Host 1"
+    }
+   ]
+  },
+  {
+   "start": 1211.3,
+   "end": 1228.6,
+   "title": "Visiting Kabukicho for Dinner",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜てました — was doing",
+    "なんのために — for what purpose"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 1211.5,
+     "end": 1212.9,
+     "ja": "担当さんいますか？",
+     "en": "Do you have a regular host?",
+     "speaker": "Host 2"
+    },
+    {
+     "start": 1213.2,
+     "end": 1213.9,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Girl 1"
+    },
+    {
+     "start": 1214.1,
+     "end": 1215.1,
+     "ja": "いる？二人とも？",
+     "en": "You have one? Both of you?",
+     "speaker": "Host 1"
+    },
+    {
+     "start": 1215.3,
+     "end": 1216.5,
+     "ja": "私はいません。",
+     "en": "I don't.",
+     "speaker": "Girl 2"
+    },
+    {
+     "start": 1216.7,
+     "end": 1217.7,
+     "ja": "いないの？",
+     "en": "You don't?",
+     "speaker": "Host 2"
+    },
+    {
+     "start": 1218.1,
+     "end": 1220.0,
+     "ja": "なんで歌舞伎町にいるんすか？",
+     "en": "Why are you in Kabukicho, then?",
+     "speaker": "Host 1"
+    },
+    {
+     "start": 1221.1,
+     "end": 1222.4,
+     "ja": "なんのために来てる？",
+     "en": "What did you come here for?",
+     "speaker": "Host 1"
+    },
+    {
+     "start": 1222.5,
+     "end": 1224.2,
+     "ja": "ご飯食べてました。",
+     "en": "We were eating dinner.",
+     "speaker": "Girl 2"
+    },
+    {
+     "start": 1224.4,
+     "end": 1225.4,
+     "ja": "歌舞伎町に？",
+     "en": "In Kabukicho?",
+     "speaker": "Host 1"
+    },
+    {
+     "start": 1225.5,
+     "end": 1228.4,
+     "ja": "担当いる人にご飯を奢ってもらって？",
+     "en": "Getting treated to food by someone with a host?",
+     "speaker": "Host 2"
+    }
+   ]
+  }
+ ],
+ "videoId": "_3OTg1yVyus",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

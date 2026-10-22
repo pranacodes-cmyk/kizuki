@@ -1,0 +1,202 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 133.5,
+   "end": 147.2,
+   "title": "Meeting the Vocal Instructor",
+   "level": "N4",
+   "topics": [
+    "music",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていただく — receive favor (humble)",
+    "〜ていく — action progressing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 133.9,
+     "end": 135.2,
+     "ja": "木村さんで？",
+     "en": "Are you Mr. Kimura?",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 135.5,
+     "end": 137.1,
+     "ja": "はい、よろしくお願いいたします。",
+     "en": "Yes, nice to meet you.",
+     "speaker": "Yuuri"
+    },
+    {
+     "start": 137.2,
+     "end": 137.9,
+     "ja": "お願いします。",
+     "en": "Please treat me well.",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 138.0,
+     "end": 142.0,
+     "ja": "今日あの体験レッスンを受けていただくということで、",
+     "en": "Thank you very much for coming to take a trial lesson today.",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 142.1,
+     "end": 143.5,
+     "ja": "どうもありがとうございます。",
+     "en": "Thank you so much.",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 143.6,
+     "end": 144.4,
+     "ja": "お願いします。",
+     "en": "Thank you.",
+     "speaker": "Yuuri"
+    },
+    {
+     "start": 144.5,
+     "end": 147.0,
+     "ja": "何か体験レッスンを受けるきっかけがあれば教えてください。",
+     "en": "If there's any reason that made you want to take a trial lesson, please tell me.",
+     "speaker": "Instructor"
+    }
+   ]
+  },
+  {
+   "start": 243.6,
+   "end": 257.0,
+   "title": "Stretching Before Singing",
+   "level": "N4",
+   "topics": [
+    "music",
+    "daily"
+   ],
+   "grammar": [
+    "〜たりする — doing things like",
+    "〜づらい — difficult to do",
+    "〜ながら — while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 243.9,
+     "end": 246.5,
+     "ja": "お声出す前に、ちょっと体が凝り固まってたりすると",
+     "en": "Before making sound, if your body is stiff,",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 246.6,
+     "end": 248.8,
+     "ja": "ちょっとお声出しづらいので、",
+     "en": "it's a bit hard to project your voice,",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 248.9,
+     "end": 250.7,
+     "ja": "軽くストレッチをしていきましょう。",
+     "en": "so let's do some light stretching.",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 250.8,
+     "end": 252.8,
+     "ja": "足を開いていただいて、",
+     "en": "Please open your feet,",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 253.2,
+     "end": 255.4,
+     "ja": "上にグッと伸びていきます。",
+     "en": "and stretch straight upward.",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 256.0,
+     "end": 257.0,
+     "ja": "息吐きながら、",
+     "en": "While exhaling,",
+     "speaker": "Instructor"
+    }
+   ]
+  },
+  {
+   "start": 401.8,
+   "end": 420.0,
+   "title": "Resonance and Humming Practice",
+   "level": "N3",
+   "topics": [
+    "music",
+    "school"
+   ],
+   "grammar": [
+    "〜たい — want to",
+    "〜てくる — become / develop over time"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 402.1,
+     "end": 403.4,
+     "ja": "じゃあもう一つ、",
+     "en": "Now for one more thing,",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 404.0,
+     "end": 408.0,
+     "ja": "ボイストレーニングのところでお声を響かせる練習を",
+     "en": "as part of vocal training, I'd like to practice resonating your voice.",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 408.1,
+     "end": 410.2,
+     "ja": "してみたいと思います。",
+     "en": "Let's give it a try.",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 410.3,
+     "end": 411.0,
+     "ja": "お願いします。",
+     "en": "Please go ahead.",
+     "speaker": "Yuuri"
+    },
+    {
+     "start": 411.5,
+     "end": 414.0,
+     "ja": "長い息で出したい時や響かせたい時なんかは、",
+     "en": "When you want to sing with long breath or make it resonate,",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 414.8,
+     "end": 417.8,
+     "ja": "共鳴・ハミングのトレーニングが有効になってきます。",
+     "en": "resonance and humming training becomes very effective.",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 418.9,
+     "end": 419.5,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Yuuri"
+    }
+   ]
+  }
+ ],
+ "videoId": "GEau2ZJLobQ",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

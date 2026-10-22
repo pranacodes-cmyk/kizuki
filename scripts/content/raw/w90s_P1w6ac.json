@@ -1,0 +1,201 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 38.8,
+   "end": 66.8,
+   "title": "Searching for a Shinkansen Route",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜のは — nominalization",
+    "〜そう — looks like / seems like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 39.1,
+     "end": 44.2,
+     "ja": "今回乗車するのは、山陽新幹線、小倉・博多間。",
+     "en": "This time, I'll be riding the Sanyo Shinkansen between Kokura and Hakata.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 44.8,
+     "end": 47.3,
+     "ja": "まずは、乗る列車を調べます。",
+     "en": "First, I'll look up which train to take.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 47.8,
+     "end": 51.2,
+     "ja": "今回は、乗換案内を使います。",
+     "en": "This time, I'll use a transit search app.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 51.7,
+     "end": 55.0,
+     "ja": "条件を指定して、検索…",
+     "en": "Set the search conditions and hit search...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 55.8,
+     "end": 57.2,
+     "ja": "…なるほど。",
+     "en": "...I see.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 57.5,
+     "end": 61.9,
+     "ja": "みずほ号で15分、この経路で良さそうです。",
+     "en": "Fifteen minutes on the Mizuho; this route looks good.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 62.2,
+     "end": 66.5,
+     "ja": "乗車券の他に、新幹線特急券が必要ですね。",
+     "en": "Besides the regular ticket, a Shinkansen limited express ticket is needed.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 96.8,
+   "end": 124.0,
+   "title": "Using the Ticket Machine",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ように — in a manner of / like",
+    "〜とのこと — it is said that / according to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 97.0,
+     "end": 100.8,
+     "ja": "みどりの券売機は、対話するように扱います。",
+     "en": "You interact with the ticket machine as if having a dialogue.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 101.2,
+     "end": 106.8,
+     "ja": "「きっぷの種類をお選びください」とのことなので、新幹線指定席のボタンを押します。",
+     "en": "It asks to select the ticket type, so I'll press the Shinkansen Reserved Seat button.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 107.2,
+     "end": 109.9,
+     "ja": "同じ要領で、小倉からですね。",
+     "en": "Following the same procedure, departure is from Kokura.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 110.5,
+     "end": 113.6,
+     "ja": "新幹線を降りる駅は博多。",
+     "en": "The arrival station is Hakata.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 114.1,
+     "end": 117.8,
+     "ja": "乗車日は本日、13日。",
+     "en": "The travel date is today, the 13th.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 118.2,
+     "end": 119.8,
+     "ja": "10時以降。",
+     "en": "From 10:00 onwards.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 120.6,
+     "end": 123.6,
+     "ja": "人数は、おとな一人。",
+     "en": "The number of passengers is one adult.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 312.3,
+   "end": 340.5,
+   "title": "Boarding the Train and Finding a Seat",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜に違いない — must be / no doubt",
+    "〜なさそう — does not seem like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 312.6,
+     "end": 314.5,
+     "ja": "列車が来ました。",
+     "en": "The train has arrived.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 315.1,
+     "end": 317.5,
+     "ja": "列車名と号数は…",
+     "en": "Checking the train name and car number...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 317.8,
+     "end": 322.2,
+     "ja": "みずほ605号、この列車で間違いないですね。",
+     "en": "Mizuho 605, this is definitely the right train.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 322.6,
+     "end": 327.9,
+     "ja": "降車…を待つ必要はなさそうなので、乗車します。",
+     "en": "Looks like no one is getting off, so I'll board the train.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 332.5,
+     "end": 335.8,
+     "ja": "10番D席はどこでしょうか…",
+     "en": "Where is seat 10D...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 337.8,
+     "end": 340.0,
+     "ja": "あ、ありました。",
+     "en": "Ah, here it is.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "w90s_P1w6ac",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,164 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.0,
+   "end": 12.7,
+   "title": "Market Wrap Intro",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜ていく — to continue doing",
+    "〜と一緒に — together with"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.0,
+     "end": 4.5,
+     "ja": "では、ここからはNQNの尾崎さんと一緒に、",
+     "en": "Now, from here on, together with Ms. Ozaki from NQN,",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 4.5,
+     "end": 7.3,
+     "ja": "今日の相場で注目した銘柄や、",
+     "en": "we'll look at the stocks that drew attention in today's market",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 7.3,
+     "end": 9.7,
+     "ja": "明日の相場のヒントを探っていきます。",
+     "en": "and search for clues about tomorrow's market.",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 9.7,
+     "end": 11.4,
+     "ja": "尾崎さん、よろしくお願いします。",
+     "en": "Ms. Ozaki, thank you for joining us.",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 11.4,
+     "end": 12.7,
+     "ja": "よろしくお願いします。",
+     "en": "Thank you, glad to be here.",
+     "speaker": "Ozaki"
+    }
+   ]
+  },
+  {
+   "start": 574.0,
+   "end": 587.0,
+   "title": "Server Outage Affects Pokemon Sleep",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜られない — potential negative (cannot do)",
+    "〜てて — casual ongoing state (te-form)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 574.3,
+     "end": 578.8,
+     "ja": "私が毎日遊んでる『Pokémon Sleep』も、",
+     "en": "Even Pokémon Sleep, which I play every day,",
+     "speaker": "Ozaki"
+    },
+    {
+     "start": 578.8,
+     "end": 581.3,
+     "ja": "朝からずーっとメンテナンス中で、",
+     "en": "has been under maintenance all morning,",
+     "speaker": "Ozaki"
+    },
+    {
+     "start": 581.3,
+     "end": 584.2,
+     "ja": "カビゴンにご飯あげられない状況になってて、",
+     "en": "so I'm in a spot where I can't feed Snorlax,",
+     "speaker": "Ozaki"
+    },
+    {
+     "start": 584.2,
+     "end": 585.5,
+     "ja": "大丈夫かしら。",
+     "en": "I wonder if it's okay.",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 584.7,
+     "end": 586.3,
+     "ja": "ちょっと困ってるんですけど。",
+     "en": "and it's a bit troublesome.",
+     "speaker": "Ozaki"
+    }
+   ]
+  },
+  {
+   "start": 663.4,
+   "end": 680.5,
+   "title": "Tokyo Stock Market Closing Bell",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜をお伝えする — humble form of to convey",
+    "〜が見られる — passive/potential to be seen"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 663.4,
+     "end": 665.5,
+     "ja": "さて、時刻は3時30分。",
+     "en": "Now, the time is 3:30.",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 665.5,
+     "end": 668.6,
+     "ja": "東京市場、今日の取引が終了です。",
+     "en": "In the Tokyo market, today's trading has ended.",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 668.9,
+     "end": 672.7,
+     "ja": "今日の日経平均株価は下げ幅を拡大して、",
+     "en": "Today, the Nikkei Stock Average widened its losses,",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 672.7,
+     "end": 677.4,
+     "ja": "一時は6万3000円を下回る場面も見られていました。",
+     "en": "and at one point even dipped below 63,000 yen.",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 677.6,
+     "end": 680.2,
+     "ja": "では、今日の終値をお伝えしていきます。",
+     "en": "Now, let's look at today's closing prices.",
+     "speaker": "Anchor"
+    }
+   ]
+  }
+ ],
+ "videoId": "oM7N-Zkk2WU",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

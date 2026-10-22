@@ -1,0 +1,160 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 42.4,
+   "end": 61.8,
+   "title": "Buying a Train Ticket",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくる — come out / emerge",
+    "〜ないで — please do not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 42.6,
+     "end": 44.7,
+     "ja": "次はお金を入れるよ。",
+     "en": "Next, we'll put in the money.",
+     "speaker": "Speaker 1"
+    },
+    {
+     "start": 47.7,
+     "end": 49.3,
+     "ja": "あっ、お金入れたね。",
+     "en": "Oh, you put the money in.",
+     "speaker": "Speaker 2"
+    },
+    {
+     "start": 49.8,
+     "end": 52.4,
+     "ja": "切符はどこから出てくるの？",
+     "en": "Where does the ticket come out from?",
+     "speaker": "Speaker 2"
+    },
+    {
+     "start": 56.7,
+     "end": 58.6,
+     "ja": "あっ、出てきたよ。",
+     "en": "Oh, it came out.",
+     "speaker": "Speaker 1"
+    },
+    {
+     "start": 58.8,
+     "end": 61.2,
+     "ja": "おつり忘れないでね！",
+     "en": "Don't forget your change!",
+     "speaker": "Speaker 1"
+    }
+   ]
+  },
+  {
+   "start": 141.2,
+   "end": 155.0,
+   "title": "Waiting on the Platform Safely",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜に着く — arrive at",
+    "〜なら — if / as for"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 141.6,
+     "end": 143.5,
+     "ja": "はぁ〜、ホームに着いた。",
+     "en": "Phew, we arrived at the platform.",
+     "speaker": "Speaker 2"
+    },
+    {
+     "start": 143.8,
+     "end": 146.4,
+     "ja": "その場所、だめ！危ないよ！",
+     "en": "Not there! It's dangerous!",
+     "speaker": "Speaker 1"
+    },
+    {
+     "start": 147.2,
+     "end": 149.2,
+     "ja": "え〜、ここならいいの？",
+     "en": "Huh, is it okay here?",
+     "speaker": "Speaker 2"
+    },
+    {
+     "start": 149.6,
+     "end": 151.2,
+     "ja": "ここもだめ！",
+     "en": "Not here either!",
+     "speaker": "Speaker 1"
+    },
+    {
+     "start": 151.8,
+     "end": 154.5,
+     "ja": "黄色い線の内側だよ。",
+     "en": "Stay inside the yellow line.",
+     "speaker": "Speaker 1"
+    }
+   ]
+  },
+  {
+   "start": 313.2,
+   "end": 323.5,
+   "title": "Train Etiquette: Bag Placement",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜と — when / whenever",
+    "〜れない — cannot (potential negative)",
+    "〜よう — let's (volitional)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 313.6,
+     "end": 315.4,
+     "ja": "あっ、バッグが…",
+     "en": "Oh, the bag is...",
+     "speaker": "Speaker 2"
+    },
+    {
+     "start": 315.6,
+     "end": 318.1,
+     "ja": "ここに置くと、他の人が座れないよ。",
+     "en": "If you put it here, other people can't sit.",
+     "speaker": "Speaker 1"
+    },
+    {
+     "start": 318.4,
+     "end": 319.8,
+     "ja": "そっか〜。",
+     "en": "I see.",
+     "speaker": "Speaker 2"
+    },
+    {
+     "start": 320.2,
+     "end": 323.0,
+     "ja": "バッグは膝の上に置こうね。",
+     "en": "Let's put our bags on our lap.",
+     "speaker": "Speaker 1"
+    }
+   ]
+  }
+ ],
+ "videoId": "boJH3H7o25Q",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

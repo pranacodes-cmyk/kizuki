@@ -1,0 +1,282 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 30.5,
+   "end": 46.4,
+   "title": "Meeting Rinrin in Harajuku",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture",
+    "friends"
+   ],
+   "grammar": [
+    "〜とか — such as / things like",
+    "〜的 — -like / in the style of",
+    "もしよかったら — if you don't mind"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 30.8,
+     "end": 34.6,
+     "ja": "お名前とかから聞いても大丈夫ですか？",
+     "en": "May I start by asking for your names?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 32.5,
+     "end": 35.1,
+     "ja": "お名前とかご年齢とかもしよかったら。",
+     "en": "Your names and ages, if you don't mind.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 35.1,
+     "end": 36.3,
+     "ja": "ニックネーム的な。",
+     "en": "Like nicknames.",
+     "speaker": "Girl with Spiky Hair"
+    },
+    {
+     "start": 36.6,
+     "end": 37.9,
+     "ja": "えっと、りんりんです。",
+     "en": "Um, I'm Rinrin.",
+     "speaker": "Rinrin"
+    },
+    {
+     "start": 38.0,
+     "end": 39.3,
+     "ja": "りんりん？りんりんさん？",
+     "en": "Rinrin? Rinrin-san?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 39.4,
+     "end": 40.1,
+     "ja": "りんりん？",
+     "en": "Rinrin?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 40.2,
+     "end": 41.5,
+     "ja": "あの倫理道徳の「倫理」です。",
+     "en": "Like \"ethics\" in ethics and morals.",
+     "speaker": "Rinrin"
+    },
+    {
+     "start": 41.6,
+     "end": 42.6,
+     "ja": "あ、倫理ちゃん！",
+     "en": "Oh, Rinri-chan!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 42.7,
+     "end": 43.1,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Rinrin"
+    },
+    {
+     "start": 43.4,
+     "end": 44.3,
+     "ja": "18です。",
+     "en": "I'm 18.",
+     "speaker": "Rinrin"
+    },
+    {
+     "start": 44.4,
+     "end": 45.9,
+     "ja": "18歳！？へえ、若！",
+     "en": "18?! Wow, so young!",
+     "speaker": "Interviewer"
+    }
+   ]
+  },
+  {
+   "start": 47.0,
+   "end": 66.8,
+   "title": "Introducing the Chef",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "comedy",
+    "culture"
+   ],
+   "grammar": [
+    "〜って名前 — named ~",
+    "〜ってこと — meaning that ~",
+    "〜よね — right?"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 47.3,
+     "end": 49.3,
+     "ja": "自分は料理長でーす。",
+     "en": "I'm Ryoricho (Head Chef).",
+     "speaker": "Ryoricho"
+    },
+    {
+     "start": 49.3,
+     "end": 50.1,
+     "ja": "料理長？",
+     "en": "Head Chef?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 50.2,
+     "end": 51.3,
+     "ja": "はい、料理長です。",
+     "en": "Yes, Head Chef.",
+     "speaker": "Ryoricho"
+    },
+    {
+     "start": 51.7,
+     "end": 53.4,
+     "ja": "一応「料理長」って名前…",
+     "en": "Officially my name is \"Head Chef\"...",
+     "speaker": "Ryoricho"
+    },
+    {
+     "start": 55.0,
+     "end": 56.1,
+     "ja": "あ、芸名？",
+     "en": "Ah, a stage name?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 56.2,
+     "end": 57.5,
+     "ja": "いや、芸名とかじゃない。",
+     "en": "No, it's not a stage name.",
+     "speaker": "Ryoricho"
+    },
+    {
+     "start": 57.6,
+     "end": 59.2,
+     "ja": "じゃ、料理がうまいってこと？",
+     "en": "So it means you're good at cooking?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 60.0,
+     "end": 62.0,
+     "ja": "料理うまいよね？",
+     "en": "You're good at cooking, right?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 61.2,
+     "end": 62.5,
+     "ja": "めちゃくちゃうまいです。",
+     "en": "I'm super good.",
+     "speaker": "Ryoricho"
+    },
+    {
+     "start": 62.3,
+     "end": 63.6,
+     "ja": "めちゃうまいもんね。",
+     "en": "He really is super good.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 64.0,
+     "end": 65.2,
+     "ja": "え、お幾つなんですか？",
+     "en": "Um, how old are you?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 65.3,
+     "end": 66.7,
+     "ja": "えっと、今一応二十歳です。",
+     "en": "Um, right now I'm 20.",
+     "speaker": "Ryoricho"
+    }
+   ]
+  },
+  {
+   "start": 798.8,
+   "end": 817.5,
+   "title": "Street Interview in Omotesando",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜歳 — ~ years old",
+    "〜から — from / after"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 799.3,
+     "end": 801.3,
+     "ja": "りこです。22歳です。",
+     "en": "I'm Riko. I'm 22 years old.",
+     "speaker": "Riko"
+    },
+    {
+     "start": 801.4,
+     "end": 803.4,
+     "ja": "ありがとうございます。りこちゃん。",
+     "en": "Thank you, Riko-chan.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 803.9,
+     "end": 805.4,
+     "ja": "しおんです。21歳です。",
+     "en": "I'm Shion. I'm 21 years old.",
+     "speaker": "Shion"
+    },
+    {
+     "start": 805.5,
+     "end": 806.9,
+     "ja": "しおんさん。へえー。",
+     "en": "Shion-san. I see.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 807.0,
+     "end": 809.5,
+     "ja": "なんか今日めっちゃおしゃれな格好してるんですけど、",
+     "en": "You're dressed super stylishly today,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 809.5,
+     "end": 813.0,
+     "ja": "なんかどっかの帰り？今から行く感じですか？",
+     "en": "are you coming back from somewhere? Or on your way now?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 814.9,
+     "end": 816.9,
+     "ja": "ふらっと原宿に。",
+     "en": "Just casually dropped by Harajuku.",
+     "speaker": "Riko"
+    },
+    {
+     "start": 817.0,
+     "end": 817.5,
+     "ja": "あ、そうなんですね。",
+     "en": "Oh, is that so?",
+     "speaker": "Interviewer"
+    }
+   ]
+  }
+ ],
+ "videoId": "7ZxQsDOsUBU",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

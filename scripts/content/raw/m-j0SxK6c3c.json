@@ -1,0 +1,109 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.8,
+   "end": 25.5,
+   "title": "I Don't Want to Lose Anything",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "work"
+   ],
+   "grammar": [
+    "〜というよりは — rather than",
+    "〜な — don't (negative imperative)",
+    "〜たい — want to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 12.0,
+     "end": 14.1,
+     "ja": "役作りというよりは、",
+     "en": "Rather than building a character,",
+     "speaker": "Deguchi"
+    },
+    {
+     "start": 14.2,
+     "end": 18.0,
+     "ja": "「私がなりたかった私」っていう言葉だけを頭に入れてやってました。",
+     "en": "I just kept the words \"the me I wanted to become\" in mind as I acted.",
+     "speaker": "Deguchi"
+    },
+    {
+     "start": 19.4,
+     "end": 22.0,
+     "ja": "灯花、泣くなって。そばにいるから。",
+     "en": "Tohka, don't cry. I'm right here with you.",
+     "speaker": "Chihiro"
+    },
+    {
+     "start": 22.7,
+     "end": 25.2,
+     "ja": "全部、失くしたくないな。",
+     "en": "I don't want to lose any of it.",
+     "speaker": "Tohka"
+    }
+   ]
+  },
+  {
+   "start": 43.8,
+   "end": 57.0,
+   "title": "A Love Story of Memories",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜をめぐる — revolving around / concerning",
+    "〜てください — please do",
+    "ご覧ください — please look/watch (honorific)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.0,
+     "end": 47.0,
+     "ja": "忘れられない恋を知るすべての人に贈る、",
+     "en": "Dedicated to everyone who knows an unforgettable love,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 47.2,
+     "end": 49.9,
+     "ja": "記憶をめぐる新たな純愛ラブストーリー。",
+     "en": "a new pure love story revolving around memories.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 50.0,
+     "end": 51.3,
+     "ja": "「君の話」。",
+     "en": "\"Your Story.\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 51.7,
+     "end": 54.5,
+     "ja": "千尋と灯花を温かく見守ってください。",
+     "en": "Please watch over Chihiro and Tohka warmly.",
+     "speaker": "Deguchi"
+    },
+    {
+     "start": 54.7,
+     "end": 56.8,
+     "ja": "ぜひとも映画館でご覧ください。",
+     "en": "Please be sure to see it in theaters.",
+     "speaker": "Kitamura"
+    }
+   ]
+  }
+ ],
+ "videoId": "m-j0SxK6c3c",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

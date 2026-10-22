@@ -1,0 +1,223 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.06,
+   "end": 25.8,
+   "title": "Impressions of French People",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜的 — -like / -ive (na-adjective suffix)",
+    "〜が[い形容詞] — having a trait (e.g. 鼻が高い)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 6.6,
+     "end": 8.0,
+     "ja": "フランス人。",
+     "en": "French people.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 8.8,
+     "end": 10.5,
+     "ja": "積極的。",
+     "en": "Proactive.",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 11.0,
+     "end": 12.8,
+     "ja": "恋に積極的？",
+     "en": "Proactive in romance?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 13.0,
+     "end": 14.3,
+     "ja": "あ、そう、そうですね。",
+     "en": "Ah, yes, exactly.",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 14.8,
+     "end": 16.2,
+     "ja": "目が青い。",
+     "en": "Blue eyes.",
+     "speaker": "Woman 2"
+    },
+    {
+     "start": 16.3,
+     "end": 17.3,
+     "ja": "ああ。",
+     "en": "Ah.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 18.0,
+     "end": 21.5,
+     "ja": "ええ、どういう印象？フランス人？",
+     "en": "Hmm, what kind of impression? French people?",
+     "speaker": "Woman 3"
+    },
+    {
+     "start": 21.8,
+     "end": 23.2,
+     "ja": "え、鼻が高い。",
+     "en": "Uh, tall noses.",
+     "speaker": "Man"
+    },
+    {
+     "start": 24.0,
+     "end": 25.3,
+     "ja": "大抵ね。",
+     "en": "Usually, yeah.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 407.8,
+   "end": 436.0,
+   "title": "French Romance and Affection",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜てた — colloquial past continuous",
+    "〜んだろう — wondering / conjecturing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 408.2,
+     "end": 411.5,
+     "ja": "あの、友達がフランス人と付き合ってたんですけど、",
+     "en": "Well, my friend was dating a French guy,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 411.8,
+     "end": 416.8,
+     "ja": "なんか毎日「僕の宝物」みたいな、「トレジャー」みたいな感じで、",
+     "en": "and she said every day he'd call her 'my treasure' or something,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 417.0,
+     "end": 419.2,
+     "ja": "呼ばれるって言ってたので、",
+     "en": "so based on that,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 419.5,
+     "end": 423.0,
+     "ja": "すっごいロマンチストなんだろうなーっていうようなイメージですね。",
+     "en": "I get the impression they must be huge romantics.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 423.3,
+     "end": 426.0,
+     "ja": "それはいいって意味ですか？それとも悪い意味？",
+     "en": "Do you mean that in a good way, or a bad way?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 426.2,
+     "end": 427.8,
+     "ja": "いや、いいです、いいです！",
+     "en": "No, in a good way, a good way!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 428.0,
+     "end": 431.2,
+     "ja": "なんか日本人って愛情表現が苦手なんで、",
+     "en": "Japanese people aren't very good at expressing affection,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 431.5,
+     "end": 435.5,
+     "ja": "そういうガンガン愛情表現してくれる人とか最高だなっていう風に思います。",
+     "en": "so I think someone who expresses affection so openly is wonderful.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 466.0,
+   "end": 487.5,
+   "title": "Impressions of French Women",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜っぽい — -ish / having the tendency of",
+    "〜んでしょ — right? / isn't it? (seeking confirmation)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 466.5,
+     "end": 469.0,
+     "ja": "じゃ、フランスの女性の印象はどんな感じですか？",
+     "en": "So, what is your impression of French women?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 469.2,
+     "end": 471.5,
+     "ja": "フランスの女性は、ええと…",
+     "en": "French women, um...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 472.5,
+     "end": 476.0,
+     "ja": "男性がそういう感じっていうイメージなので、",
+     "en": "Since the men have that kind of image,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 476.2,
+     "end": 478.2,
+     "ja": "逆に結構、あの、",
+     "en": "I imagine the women might conversely be like,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 478.5,
+     "end": 482.0,
+     "ja": "「あんた私のこと好きなんでしょ」みたいな感じの、",
+     "en": "'You're in love with me, aren't you?'",
+     "speaker": "Woman"
+    },
+    {
+     "start": 482.2,
+     "end": 485.8,
+     "ja": "結構ツンデレっぽいのかなっていう印象です。",
+     "en": "and kind of have a 'tsundere' vibe.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "4auggVQ7H8s",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

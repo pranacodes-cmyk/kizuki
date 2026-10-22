@@ -1,0 +1,163 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 53.9,
+   "end": 74.8,
+   "title": "Setting Morning Alarms",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜なので — because / since",
+    "〜の前に — before doing something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 54.3,
+     "end": 56.6,
+     "ja": "僕は朝が苦手なので、",
+     "en": "Since I'm bad at mornings,",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 58.8,
+     "end": 60.5,
+     "ja": "寝る前に、夜に、",
+     "en": "before going to bed, at night,",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 61.4,
+     "end": 65.5,
+     "ja": "目覚ましをたくさん設定します。",
+     "en": "I set a lot of alarms.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 66.5,
+     "end": 70.0,
+     "ja": "目覚ましをたくさん設定します。",
+     "en": "I set a lot of alarms.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 70.3,
+     "end": 74.8,
+     "ja": "スマートフォンの目覚ましが鳴ったら、",
+     "en": "When my smartphone alarm goes off,",
+     "speaker": "Yuta"
+    }
+   ]
+  },
+  {
+   "start": 137.3,
+   "end": 159.9,
+   "title": "Opening the Curtains in the Morning",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜時(に) — when / at the time of",
+    "〜と言われている — it is said that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 137.6,
+     "end": 140.7,
+     "ja": "夜はカーテンを閉めます。",
+     "en": "At night, I close the curtains.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 140.9,
+     "end": 143.9,
+     "ja": "夜はカーテンを閉めます。",
+     "en": "At night, I close the curtains.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 144.5,
+     "end": 148.0,
+     "ja": "だから、朝起きた時に、",
+     "en": "So, when I wake up in the morning,",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 148.8,
+     "end": 150.9,
+     "ja": "カーテンを開けます。",
+     "en": "I open the curtains.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 151.7,
+     "end": 154.2,
+     "ja": "太陽の光は、",
+     "en": "Sunlight,",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 154.4,
+     "end": 159.9,
+     "ja": "脳を起こすのにとてもいいと言われています。",
+     "en": "is said to be very good for waking up the brain.",
+     "speaker": "Yuta"
+    }
+   ]
+  },
+  {
+   "start": 219.8,
+   "end": 242.0,
+   "title": "Three Meals a Day",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜に...回 — frequency per time period"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 220.2,
+     "end": 225.4,
+     "ja": "僕は1日に3回ご飯を食べます。",
+     "en": "I eat meals three times a day.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 226.4,
+     "end": 231.5,
+     "ja": "1日に1、2、3、3回ご飯を食べます。",
+     "en": "In a day, one, two, three, I eat three times.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 232.0,
+     "end": 237.0,
+     "ja": "朝ご飯、昼ご飯、夜ご飯を食べます。",
+     "en": "I eat breakfast, lunch, and dinner.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 237.4,
+     "end": 241.6,
+     "ja": "朝ご飯、昼ご飯、夜ご飯を食べます。",
+     "en": "I eat breakfast, lunch, and dinner.",
+     "speaker": "Yuta"
+    }
+   ]
+  }
+ ],
+ "videoId": "Jh2C7JlWGKU",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

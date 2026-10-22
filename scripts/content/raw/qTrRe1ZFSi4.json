@@ -1,0 +1,132 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 67.5,
+   "end": 80.8,
+   "title": "Taking the Train from the Airport",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜しか〜ない — only / nothing but",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 67.8,
+     "end": 71.1,
+     "ja": "空港からシティまでは電車で1時間、",
+     "en": "From the airport to the city takes about an hour by train,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 71.3,
+     "end": 74.6,
+     "ja": "タクシーで30分の距離になります。",
+     "en": "and about 30 minutes by taxi.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 75.3,
+     "end": 78.0,
+     "ja": "電車は各駅停車しかありませんので、",
+     "en": "Since the trains only stop at every station,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 78.1,
+     "end": 80.3,
+     "ja": "少し時間がかかります。",
+     "en": "it takes a bit of time.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 105.5,
+   "end": 113.3,
+   "title": "Convenient Trains for Tourists",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜やすい — easy to do",
+    "〜と思う — I think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 105.8,
+     "end": 108.8,
+     "ja": "電車は路線図も分かりやすく、",
+     "en": "The train route map is easy to understand,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 108.9,
+     "end": 110.8,
+     "ja": "頻繁に走っていますので、",
+     "en": "and they run frequently,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 111.0,
+     "end": 113.0,
+     "ja": "初めてでも使いやすいと思います。",
+     "en": "so I think it's easy to use even for first-timers.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 128.5,
+   "end": 136.2,
+   "title": "How to Catch a Bus in Singapore",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜と違い — unlike...",
+    "〜てしまう — end up doing",
+    "〜ましょう — let's / shall"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 128.8,
+     "end": 130.8,
+     "ja": "日本と違い、",
+     "en": "Unlike in Japan,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 130.9,
+     "end": 133.9,
+     "ja": "乗り降りする人がいないとバスは通過してしまいますので、",
+     "en": "if no one is getting on or off, the bus will just pass by,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 134.1,
+     "end": 135.8,
+     "ja": "必ず手を挙げましょう。",
+     "en": "so make sure to raise your hand.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "qTrRe1ZFSi4",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,166 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.6,
+   "end": 31.2,
+   "title": "Preparing to Build a Paradise",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜始める — to begin to do",
+    "〜にする — to make into"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.8,
+     "end": 11.3,
+     "ja": "工房も拡大し、糸を使った防衛や外交も進み始めました。",
+     "en": "The workshop has expanded, and defense and diplomacy using silk have begun to progress.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 11.8,
+     "end": 15.4,
+     "ja": "難民もどんどん募集し、人口も増えています。",
+     "en": "We are steadily recruiting refugees, and the population is also increasing.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 16.8,
+     "end": 20.8,
+     "ja": "我々の目標は、ここを「みんなの楽園」にすること。",
+     "en": "Our goal is to make this place everyone's paradise.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 21.8,
+     "end": 26.4,
+     "ja": "今回はその生産力を使って、建国の準備を進めます。",
+     "en": "This time, we will use that production capacity to advance preparations for founding our nation.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 27.5,
+     "end": 31.0,
+     "ja": "まずは、里のシンボルを建築しましょう。",
+     "en": "First, let's construct the symbol of the village.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 58.0,
+   "end": 11.0,
+   "title": "The Golden Balloon in the Sky",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "〜にも — even for / also to",
+    "〜になる — to become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 58.3,
+     "end": 62.5,
+     "ja": "飛べない私たちにも、見上げる空がある。",
+     "en": "Even for us who cannot fly, there is a sky to look up to.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 62.9,
+     "end": 65.7,
+     "ja": "高く浮かぶ金色の気球が、",
+     "en": "The golden balloon floating high up,",
+     "speaker": "Girl"
+    },
+    {
+     "start": 66.0,
+     "end": 70.0,
+     "ja": "遠くを歩く仲間の道しるべになった。",
+     "en": "became a signpost for our companions walking far away.",
+     "speaker": "Girl"
+    }
+   ]
+  },
+  {
+   "start": 135.5,
+   "end": 161.2,
+   "title": "Declaration of Nationhood",
+   "level": "N2",
+   "topics": [
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜にわたって — throughout / over a period of",
+    "〜なければならない — must / have to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 135.8,
+     "end": 140.5,
+     "ja": "「ここに建国を宣言する。カイコの民よ、集え！」",
+     "en": "\"Here we declare the founding of our nation. People of the Silkworm, gather!\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 140.8,
+     "end": 143.7,
+     "ja": "気球にそれを宣言する文書を載せ、",
+     "en": "Loading the documents declaring this onto the balloons,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 143.8,
+     "end": 146.5,
+     "ja": "10日の間にわたって発送し続ける。",
+     "en": "we will continue to send them out over a period of 10 days.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 147.0,
+     "end": 149.8,
+     "ja": "それを望む者も、望まぬ者も、",
+     "en": "Those who desire it, as well as those who don't,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 149.9,
+     "end": 153.3,
+     "ja": "こぞってこの里に押し寄せてくるでしょう。",
+     "en": "will surely flock to this village in droves.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 153.8,
+     "end": 157.4,
+     "ja": "里を守るためにも、気球を送り続ける為にも、",
+     "en": "Both to protect the village and to keep sending the balloons,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 157.5,
+     "end": 160.8,
+     "ja": "産業を発展させなければなりません。",
+     "en": "we must develop our industry.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "IMF_MpwNPTg",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

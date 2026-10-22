@@ -1,0 +1,139 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 22.8,
+   "end": 37.8,
+   "title": "Mother and Father in Japanese",
+   "level": "N5",
+   "topics": [
+    "family"
+   ],
+   "grammar": [
+    "〜さん — honorific suffix"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.2,
+     "end": 24.5,
+     "ja": "お母さん。",
+     "en": "Mother.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 25.2,
+     "end": 26.6,
+     "ja": "お母さん。",
+     "en": "Mother.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 33.5,
+     "end": 35.0,
+     "ja": "お父さん。",
+     "en": "Father.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 35.6,
+     "end": 37.2,
+     "ja": "お父さん。",
+     "en": "Father.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 44.2,
+   "end": 58.6,
+   "title": "Brothers in Japanese",
+   "level": "N5",
+   "topics": [
+    "family"
+   ],
+   "grammar": [
+    "〜さん — honorific suffix"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.6,
+     "end": 46.2,
+     "ja": "弟さん。",
+     "en": "Younger brother.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 46.6,
+     "end": 48.2,
+     "ja": "弟さん。",
+     "en": "Younger brother.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 54.6,
+     "end": 56.0,
+     "ja": "お兄さん。",
+     "en": "Older brother.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 56.5,
+     "end": 58.0,
+     "ja": "お兄さん。",
+     "en": "Older brother.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 105.0,
+   "end": 120.7,
+   "title": "Sisters in Japanese",
+   "level": "N5",
+   "topics": [
+    "family"
+   ],
+   "grammar": [
+    "〜さん — honorific suffix"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 105.4,
+     "end": 107.1,
+     "ja": "妹さん。",
+     "en": "Younger sister.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 107.6,
+     "end": 109.3,
+     "ja": "妹さん。",
+     "en": "Younger sister.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 116.5,
+     "end": 118.0,
+     "ja": "お姉さん。",
+     "en": "Older sister.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 118.5,
+     "end": 120.1,
+     "ja": "お姉さん。",
+     "en": "Older sister.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "FIY0QQZo0qg",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

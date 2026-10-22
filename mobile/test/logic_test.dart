@@ -117,6 +117,77 @@ void main() {
       expect(wordStatus(status: 'learning', card: c.copyWith(interval: 20)), 'learning');
       expect(wordStatus(status: 'ignored', card: c), 'ignored');
     });
+    test('word levels rise with reviews: 1 New, 2 Recognized, 3 Familiar, 4 Almost known, 5 Known', () {
+      var c = newCard(now);
+      expect(wordLevel(status: 'learning', card: c), 1);
+      c = answerCard(c, 'good', now); // learning, back in 10 minutes
+      expect(wordLevel(status: 'learning', card: c), 2);
+      c = answerCard(c, 'good', now); // review, 1 day
+      expect(wordLevel(status: 'learning', card: c), 3);
+      expect(wordLevel(status: 'learning', card: c.copyWith(interval: 6)), 3);
+      expect(wordLevel(status: 'learning', card: c.copyWith(interval: 7)), 4);
+      expect(wordLevel(status: 'learning', card: c.copyWith(interval: 20)), 4);
+      expect(wordLevel(status: 'learning', card: c.copyWith(interval: 21)), 5);
+      expect(wordLevel(status: 'learning', card: answerCard(c, 'again', now)), 2);
+      expect(wordLevel(status: 'known', card: newCard(now)), 5);
+      expect(wordLevel(status: 'ignored', card: c), 0);
+      expect(wordLevels.map((l) => '${l.level} ${l.label}').toList(), ['1 New', '2 Recognized', '3 Familiar', '4 Almost known', '5 Known', '0 Ignored']);
+    });
+    test('picking a level reschedules the card to match', () {
+      final base = newCard(now - dayMs).copyWith(ease: 2.1, reps: 4, lapses: 1);
+      final l1 = cardAtLevel(base, 1, now);
+      expect([l1.state, l1.interval, l1.due, l1.ease, l1.reps, l1.lapses], ['new', 0, now, 2.1, 4, 1]);
+      final l2 = cardAtLevel(base, 2, now);
+      expect([l2.state, l2.step, l2.due], ['learning', 1, now + 10 * minuteMs]);
+      final l3 = cardAtLevel(base, 3, now);
+      expect([l3.state, l3.interval, l3.due], ['review', 3, now + 3 * dayMs]);
+      final l4 = cardAtLevel(base, 4, now);
+      expect([l4.state, l4.interval, l4.due], ['review', 10, now + 10 * dayMs]);
+      for (final l in [1, 2, 3, 4]) {
+        expect(wordLevel(status: 'learning', card: cardAtLevel(base, l, now)), l);
+      }
+      final k = withWordLevel('learning', base, 5, now);
+      expect(k.status, 'known');
+      expect(identical(k.card, base), true);
+      final ig = withWordLevel('learning', base, 0, now);
+      expect(ig.status, 'ignored');
+      expect(identical(ig.card, base), true);
+      // Known (auto, 21+ days) → back to New: due now again.
+      final known = base.copyWith(state: 'review', interval: 30, due: now + 30 * dayMs);
+      final back = withWordLevel('learning', known, 1, now);
+      expect([back.status, back.card.state, back.card.step, back.card.interval, back.card.due, back.card.ease], ['learning', 'new', 0, 0, now, 2.1]);
+      // Same level keeps the schedule.
+      final fam = cardAtLevel(base, 3, now - dayMs);
+      expect(identical(withWordLevel('learning', fam, 3, now).card, fam), true);
+      expect(withWordLevel('ignored', fam, 3, now).card.due, now + 3 * dayMs);
+    });
+    test('a card shows the meaning once when the clip meaning repeats the dictionary', () {
+      expect(repeatsSense('every day', 'every day; daily'), true);
+      expect(repeatsSense('Every day.', 'every day; daily'), true);
+      expect(repeatsSense('daily', 'every day, daily'), true);
+      expect(repeatsSense('to eat', 'to eat (food)'), true);
+      expect(repeatsSense('', 'anything'), true);
+      expect(repeatsSense('ate', 'to eat'), false);
+      expect(repeatsSense('the samurai', null), false);
+    });
+    test('the tour asks you to tap a new content word, never a filler like ん', () {
+      ({String p, String? d}) w(String p, [String? d = '1']) => (p: p, d: d);
+      final lines = [
+        [w('interjection'), w('punct', null), w('noun'), w('particle')],
+        [w('particle'), w('verb')],
+      ];
+      bool allNew(int li, int wi) => true;
+      expect(pickTourWord(lines, 0, allNew), (0, 2));
+      // The noun is already known: the first new word of the line instead (still this line).
+      expect(pickTourWord(lines, 0, (li, wi) => !(li == 0 && wi == 2)), (0, 0));
+      // A noun without a dictionary entry doesn't count as a content word.
+      expect(pickTourWord([[w('particle'), w('noun', null)]], 0, allNew), (0, 0));
+      // Starts at the playing line.
+      expect(pickTourWord(lines, 1, allNew), (1, 1));
+      // Nothing new: any word on the line, so the step still has a target.
+      expect(pickTourWord(lines, 1, (li, wi) => false), (1, 0));
+      expect(pickTourWord(const [], 0, allNew), isNull);
+    });
     test('session keeps a card until it graduates', () {
       final s = ReviewSession(['x', 'y']);
       var x = newCard(now);
@@ -310,6 +381,12 @@ void main() {
       expect(m['kana']['h:あ']['reps'], 4);
       expect(m['reviewSessions'], 2);
       expect(m['updatedAt'], 20);
+    });
+    test('premium stays the device\'s own, even when the cloud copy is newer', () {
+      final m = mergeState({...local, 'premium': {'active': false}}, {...remote, 'premium': {'active': true, 'plan': 'yearly'}});
+      expect(m['premium'], {'active': false});
+      final m2 = mergeState({...local, 'premium': {'active': true, 'plan': 'monthly'}}, {...remote, 'premium': {'active': false}});
+      expect(m2['premium'], {'active': true, 'plan': 'monthly'});
     });
   });
 

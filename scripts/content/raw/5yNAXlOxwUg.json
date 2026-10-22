@@ -1,0 +1,168 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 125.6,
+   "end": 150.3,
+   "title": "Fresh Snacks at Calbee+",
+   "level": "N3",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜たの — the one that...",
+    "〜たばかり — freshly done",
+    "〜以上 — more than"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 125.9,
+     "end": 130.4,
+     "ja": "注文したのは、BIGポテりこ、こだわりポテトサラダ味と、",
+     "en": "What we ordered was the BIG Poteriko, special potato salad flavor,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 130.4,
+     "end": 134.7,
+     "ja": "揚げたてポテトチップス、日本橋かつおだしと塩味。",
+     "en": "and freshly fried potato chips, Nihonbashi bonito stock and salt flavor.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 135.0,
+     "end": 138.0,
+     "ja": "どちらも東京駅限定メニューです。",
+     "en": "Both are Tokyo Station exclusive items.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 140.0,
+     "end": 144.1,
+     "ja": "いつものポテりこが大きくなったBIGポテりこ。",
+     "en": "The BIG Poteriko is an enlarged version of the usual Poteriko.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 144.3,
+     "end": 146.9,
+     "ja": "ポテりこのサクッホクッとした食感や、",
+     "en": "With Poteriko's crisp yet fluffy texture,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 146.9,
+     "end": 150.0,
+     "ja": "ジャガイモの味わいがいつも以上に楽しめます。",
+     "en": "you can enjoy the potato flavor even more than usual.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 292.0,
+   "end": 315.8,
+   "title": "Freshly Baked Morinaga Cookies",
+   "level": "N3",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜たとき — when doing...",
+    "〜ような — like / as if",
+    "〜ても — even if / no matter"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 292.8,
+     "end": 298.2,
+     "ja": "注文したのは、焼きたてムーンライトと出来立てチョコチップクッキーの焼きたてセット。",
+     "en": "What we ordered was the freshly baked set of fresh Moonlight and freshly made chocolate chip cookies.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 299.1,
+     "end": 305.8,
+     "ja": "どちらもほんのり温かく、オーブンで焼いた時の香りと焼きたての味わいを楽しめます。",
+     "en": "Both are pleasantly warm, letting you enjoy the oven-baked aroma and fresh flavor.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 307.0,
+     "end": 309.8,
+     "ja": "ムーンライトはサクッと軽い食感。",
+     "en": "The Moonlight cookie has a crisp, light texture.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 310.2,
+     "end": 315.6,
+     "ja": "チョコチップクッキーはこんなにもチョコチップがたっぷりで、しっとりとした食感でおいしかったです。",
+     "en": "The chocolate chip cookie was packed with this many chips and was delicious with a moist texture.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 812.2,
+   "end": 839.2,
+   "title": "Tokyo Station Brick Bread",
+   "level": "N3",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜をモチーフにした — inspired by",
+    "〜を使用している — using ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 814.7,
+     "end": 820.5,
+     "ja": "東京チーズレンガパンは、マスカルポーネチーズクリームと白あんを混ぜたクリームチーズ、",
+     "en": "The Tokyo Cheese Brick Bread features mascarpone cheese cream, cream cheese mixed with white bean paste,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 820.8,
+     "end": 823.7,
+     "ja": "粒あんの豪華３層仕立て。",
+     "en": "and sweet red bean paste in a luxurious three-layer structure.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 824.2,
+     "end": 828.6,
+     "ja": "パン生地には北海道産の小麦粉「ゆめちから」を使用しています。",
+     "en": "The dough uses 'Yumechikara' wheat flour from Hokkaido.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 829.8,
+     "end": 834.7,
+     "ja": "東京レンガパンは小豆入りの生地の中に、こしあんと白あん入りの",
+     "en": "The Tokyo Brick Bread has a dough with whole azuki beans, filled with smooth red bean paste and",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 834.7,
+     "end": 838.7,
+     "ja": "オリジナルホイップクリームの２層構造。",
+     "en": "a two-layer structure with original whipped cream containing white bean paste.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "5yNAXlOxwUg",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

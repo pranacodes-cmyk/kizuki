@@ -1,0 +1,158 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.0,
+   "end": 22.8,
+   "title": "Introduction to Ozoni",
+   "level": "N5",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜ましょう — let's"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.2,
+     "end": 8.4,
+     "ja": "皆さん、こんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 8.6,
+     "end": 10.8,
+     "ja": "ひらがなネットのあきこです。",
+     "en": "I'm Akiko from Hiragana Net.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 11.8,
+     "end": 14.2,
+     "ja": "今回はお雑煮です。",
+     "en": "This time, we are making ozoni.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 14.8,
+     "end": 19.3,
+     "ja": "お雑煮は、日本のお正月に食べる料理です。",
+     "en": "Ozoni is a dish eaten during New Year's in Japan.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 20.2,
+     "end": 22.4,
+     "ja": "では、一緒に作りましょう！",
+     "en": "So, let's make it together!",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 127.5,
+   "end": 153.5,
+   "title": "Cooking the Chicken Broth",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — when/if",
+    "〜て — connecting actions"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 127.8,
+     "end": 135.5,
+     "ja": "鍋に水と酒を入れて、中火にします。",
+     "en": "Put water and sake into the pot and set it to medium heat.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 138.5,
+     "end": 143.5,
+     "ja": "沸騰したら、鶏肉を入れます。",
+     "en": "Once it boils, add the chicken.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 147.5,
+     "end": 153.2,
+     "ja": "顆粒だしを入れて、軽く混ぜます。",
+     "en": "Add the dashi granules and stir gently.",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 240.0,
+   "end": 259.0,
+   "title": "Regional Varieties of Ozoni",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜によって — depending on",
+    "〜ている — ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 240.5,
+     "end": 242.5,
+     "ja": "いかがでしたか？",
+     "en": "How was that?",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 243.0,
+     "end": 246.5,
+     "ja": "お雑煮は、住んでいる場所によって",
+     "en": "Ozoni varies depending on where you live,",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 246.7,
+     "end": 249.5,
+     "ja": "材料や味が違います。",
+     "en": "in both ingredients and flavor.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 250.2,
+     "end": 254.3,
+     "ja": "今回は東京のお雑煮を紹介しました。",
+     "en": "This time, I introduced Tokyo-style ozoni.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 255.0,
+     "end": 256.8,
+     "ja": "では、また会いましょう。",
+     "en": "Well then, see you again.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 257.0,
+     "end": 258.8,
+     "ja": "さようなら〜。",
+     "en": "Goodbye!",
+     "speaker": "Akiko"
+    }
+   ]
+  }
+ ],
+ "videoId": "7d3P0zVnprk",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

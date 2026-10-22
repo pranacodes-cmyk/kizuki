@@ -1,0 +1,192 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 235.5,
+   "end": 300.5,
+   "title": "Self-Introduction at an Interview",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜ていただく — receiving an action favorably",
+    "〜と申します — humble introduction"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 235.8,
+     "end": 239.8,
+     "ja": "まず、簡単に自己紹介いただけますでしょうか？",
+     "en": "First, could you briefly introduce yourself?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 241.0,
+     "end": 243.5,
+     "ja": "はい、李里と申します。",
+     "en": "Yes, my name is Riri.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 243.7,
+     "end": 247.8,
+     "ja": "本日は貴重なお時間をいただき、ありがとうございます。",
+     "en": "Thank you very much for your valuable time today.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 248.0,
+     "end": 253.6,
+     "ja": "私は現在、株式会社〇〇で法人営業を担当していまして、",
+     "en": "Currently, I am in charge of corporate sales at XX Inc.,",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 254.0,
+     "end": 259.8,
+     "ja": "DX促進に関するソリューションを企業様に提案しております。",
+     "en": "and I propose DX promotion solutions to corporate clients.",
+     "speaker": "Candidate"
+    }
+   ]
+  },
+  {
+   "start": 277.3,
+   "end": 306.4,
+   "title": "Explaining the Reason for Changing Jobs",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜に関して — regarding / concerning",
+    "〜ており — humble progressive form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 277.7,
+     "end": 281.5,
+     "ja": "なぜ転職しようと考えたのでしょうか？",
+     "en": "What made you decide to change jobs?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 282.5,
+     "end": 285.8,
+     "ja": "はい。現職では結果を出すこともでき、",
+     "en": "Yes. While I have been able to achieve results",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 285.9,
+     "end": 288.5,
+     "ja": "やりがいを感じていますが、",
+     "en": "and find my current job rewarding,",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 288.7,
+     "end": 292.2,
+     "ja": "大手企業への提案の場合は機能が足りず、",
+     "en": "when proposing to large enterprises, features are lacking,",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 292.3,
+     "end": 297.3,
+     "ja": "カスタマイズ要素が少ない点にもどかしさを感じています。",
+     "en": "and I feel frustrated by the lack of customization options.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 297.6,
+     "end": 300.6,
+     "ja": "顧客課題に深く入り込み、",
+     "en": "I wanted to delve deeper into client issues",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 300.7,
+     "end": 303.6,
+     "ja": "コンサルティング営業を行いたいと思い、",
+     "en": "and engage in consultative sales,",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 303.7,
+     "end": 305.8,
+     "ja": "転職を決意しました。",
+     "en": "which led me to decide on changing jobs.",
+     "speaker": "Candidate"
+    }
+   ]
+  },
+  {
+   "start": 362.5,
+   "end": 383.9,
+   "title": "Talking About Future Goals",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜たら — when / after doing",
+    "〜として — as / in the role of",
+    "〜ようと考える — intend / plan to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 363.0,
+     "end": 365.5,
+     "ja": "今後の目標はありますか？",
+     "en": "Do you have any future goals?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 366.8,
+     "end": 370.4,
+     "ja": "はい。まずはお客様から信頼を寄せられる",
+     "en": "Yes. First, becoming a salesperson who earns",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 370.5,
+     "end": 374.0,
+     "ja": "営業になることが第一の目標です。",
+     "en": "clients' trust is my primary goal.",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 374.8,
+     "end": 377.2,
+     "ja": "また、経験を積んだら、",
+     "en": "Additionally, once I gain enough experience,",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 377.3,
+     "end": 380.6,
+     "ja": "リーダーとして後輩指導や新人育成にも",
+     "en": "I would like to take on the challenge of guiding juniors",
+     "speaker": "Candidate"
+    },
+    {
+     "start": 380.7,
+     "end": 383.3,
+     "ja": "挑戦したいと考えています。",
+     "en": "and training newcomers as a leader.",
+     "speaker": "Candidate"
+    }
+   ]
+  }
+ ],
+ "videoId": "mlu6winRFdQ",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

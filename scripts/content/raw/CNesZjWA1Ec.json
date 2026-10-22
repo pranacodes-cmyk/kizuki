@@ -1,0 +1,153 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 81.2,
+   "end": 101.0,
+   "title": "Waking Up and Snooze Alarms",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜おきに — at intervals of",
+    "〜てしまう — unintentionally do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 81.5,
+     "end": 86.6,
+     "ja": "まず、6時半に1回目のアラームが鳴って、それを止めて…。",
+     "en": "First, my first alarm goes off at 6:30, and I turn it off...",
+     "speaker": "Yui"
+    },
+    {
+     "start": 87.0,
+     "end": 92.8,
+     "ja": "それから5分おきに鳴るスヌーズ機能で、7時くらいまでベッドの中にいます。",
+     "en": "Then, with the snooze function that goes off every 5 minutes, I stay in bed until around 7:00.",
+     "speaker": "Yui"
+    },
+    {
+     "start": 93.3,
+     "end": 96.2,
+     "ja": "あはは、わかるよ。",
+     "en": "Haha, I get it.",
+     "speaker": "Haruki"
+    },
+    {
+     "start": 96.6,
+     "end": 100.8,
+     "ja": "「あと5分だけ…」って思う気持ち。",
+     "en": "That feeling of \"just five more minutes...\"",
+     "speaker": "Haruki"
+    }
+   ]
+  },
+  {
+   "start": 280.8,
+   "end": 295.8,
+   "title": "The Ideal Japanese Breakfast",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜たて — freshly done",
+    "〜とき — when / at the time of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 281.2,
+     "end": 284.4,
+     "ja": "炊きたてのご飯と、温かいお味噌汁、",
+     "en": "Freshly cooked rice, warm miso soup,",
+     "speaker": "Haruki"
+    },
+    {
+     "start": 284.6,
+     "end": 287.4,
+     "ja": "それから焼き魚と卵焼き。",
+     "en": "and then grilled fish and rolled omelet.",
+     "speaker": "Haruki"
+    },
+    {
+     "start": 287.6,
+     "end": 290.7,
+     "ja": "時間があるときは、納豆も食べるよ。",
+     "en": "When I have time, I also eat natto.",
+     "speaker": "Haruki"
+    },
+    {
+     "start": 291.0,
+     "end": 293.7,
+     "ja": "うわー、完璧な日本の朝ごはん！",
+     "en": "Wow, the perfect Japanese breakfast!",
+     "speaker": "Yui"
+    },
+    {
+     "start": 293.9,
+     "end": 295.6,
+     "ja": "旅館の朝食みたいです！",
+     "en": "It's like breakfast at a ryokan!",
+     "speaker": "Yui"
+    }
+   ]
+  },
+  {
+   "start": 496.8,
+   "end": 519.8,
+   "title": "The Real Meaning of Ittekimasu",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜直訳すると — literally translated",
+    "〜に対して — in response to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 497.2,
+     "end": 501.2,
+     "ja": "「行ってきます」は、直訳すると「行って、来ます」。",
+     "en": "\"Ittekimasu\" literally translates to \"I'll go and come back.\"",
+     "speaker": "Haruki"
+    },
+    {
+     "start": 501.6,
+     "end": 508.6,
+     "ja": "だから、「今から出かけるけど、また必ずここに帰ってきます」というニュアンスが含まれているんだ。",
+     "en": "So it implies, \"I'm leaving now, but I will definitely come back here.\"",
+     "speaker": "Haruki"
+    },
+    {
+     "start": 509.0,
+     "end": 513.8,
+     "ja": "そして、それに対して家族が言う「行ってらっしゃい」は、",
+     "en": "And in response, the family's \"Itterasshai\" is",
+     "speaker": "Haruki"
+    },
+    {
+     "start": 514.0,
+     "end": 519.5,
+     "ja": "「気をつけてね、無事に帰ってきてね」という、相手を思う気持ちが込められた返事なんだよ。",
+     "en": "a reply filled with care for the person, meaning \"Take care, and come back safely.\"",
+     "speaker": "Haruki"
+    }
+   ]
+  }
+ ],
+ "videoId": "CNesZjWA1Ec",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

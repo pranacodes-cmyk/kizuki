@@ -1,0 +1,128 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.0,
+   "end": 17.5,
+   "title": "Introducing Daiso Items for Daily Use",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ていく — expressing ongoing change/progression",
+    "〜ながら — doing something while doing another"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.0,
+     "end": 2.2,
+     "ja": "こんにちは、池田真子です。",
+     "en": "Hello, I'm Mako Ikeda.",
+     "speaker": "Mako"
+    },
+    {
+     "start": 2.2,
+     "end": 6.8,
+     "ja": "今回は100均マニアが選ぶ、ダイソーの購入品を紹介していきます！",
+     "en": "Today, I'll introduce items bought at Daiso chosen by a 100-yen shop enthusiast!",
+     "speaker": "Mako"
+    },
+    {
+     "start": 7.0,
+     "end": 13.1,
+     "ja": "今回はお掃除グッズや収納グッズなど、日常で便利に使えるアイテムを中心に選んでみました！",
+     "en": "This time, I've selected mainly items useful in daily life, like cleaning and storage goods!",
+     "speaker": "Mako"
+    },
+    {
+     "start": 13.5,
+     "end": 17.0,
+     "ja": "実際に使いながら紹介していくので、ぜひお買い物前の参考にしてください！",
+     "en": "I'll be introducing them while actually using them, so please use this as a reference before shopping!",
+     "speaker": "Mako"
+    }
+   ]
+  },
+  {
+   "start": 419.6,
+   "end": 435.5,
+   "title": "Securing the Drawer with Tape",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜やすい — easy to do",
+    "〜てもいい — permission / it's fine to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 419.8,
+     "end": 423.4,
+     "ja": "で、上には粘着テープが付いています。",
+     "en": "And on top, adhesive tape is attached.",
+     "speaker": "Mako"
+    },
+    {
+     "start": 423.4,
+     "end": 426.8,
+     "ja": "これは若干、剥がし跡が残りやすいタイプなので、",
+     "en": "This is a type that can slightly easily leave residue when peeled off,",
+     "speaker": "Mako"
+    },
+    {
+     "start": 426.8,
+     "end": 429.5,
+     "ja": "気にしない方はそのまま貼ってもいいと思いますし、",
+     "en": "so if you don't mind, you can stick it on as is,",
+     "speaker": "Mako"
+    },
+    {
+     "start": 429.7,
+     "end": 435.0,
+     "ja": "アクリルテープとか他のテープで接着しちゃうっていうのもいいかなと思います。",
+     "en": "or I think it would also be good to attach it with acrylic tape or other tapes.",
+     "speaker": "Mako"
+    }
+   ]
+  },
+  {
+   "start": 724.0,
+   "end": 734.5,
+   "title": "Convenient Sensor Light for Dim Areas",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ほどではない — not to the extent of",
+    "〜と助かる — it helps when / if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 724.2,
+     "end": 730.7,
+     "ja": "玄関や廊下、クローゼットなど、毎回電気をつけるほどじゃないけどっていう場所にちょっとあると助かると思います。",
+     "en": "In places like entryways, hallways, or closets where you don't need to turn on the main light every time, having it helps a lot.",
+     "speaker": "Mako"
+    },
+    {
+     "start": 731.0,
+     "end": 734.2,
+     "ja": "柔らかい光がまた、眩しすぎないのがいいですよね。",
+     "en": "The soft light is great too since it isn't too bright, isn't it?",
+     "speaker": "Mako"
+    }
+   ]
+  }
+ ],
+ "videoId": "8aLf9732hRo",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

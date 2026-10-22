@@ -1,0 +1,143 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 320.5,
+   "end": 333.2,
+   "title": "Tackling the Dishes on Chore Day",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ていく — to go on doing",
+    "〜ちゃう — to accidentally/completely do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 320.6,
+     "end": 324.0,
+     "ja": "続きまして、洗い物をね、やっていきます。",
+     "en": "Moving on, I'm going to do the dishes.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 324.2,
+     "end": 328.0,
+     "ja": "私結構洗い物苦手なタイプの女で、",
+     "en": "I'm the kind of person who's really bad at washing dishes,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 328.1,
+     "end": 330.3,
+     "ja": "結構溜めちゃうんですけど、今日は頑張ってます。",
+     "en": "and I tend to let them pile up, but today I'm working hard.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 330.5,
+     "end": 332.8,
+     "ja": "今日は家事デーです。家事デー。",
+     "en": "Today is chore day. Chore day.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 450.5,
+   "end": 507.5,
+   "title": "Dusting Before Vacuuming",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜前 — before doing",
+    "〜好き — lover of / fond of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 450.5,
+     "end": 453.3,
+     "ja": "ここからお掃除タイムが始まります。",
+     "en": "From here, cleaning time begins.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 453.5,
+     "end": 458.0,
+     "ja": "絶対掃除機かける前は、こうやって埃を取ってから掃除機をかけます。",
+     "en": "Before vacuuming, I always dust first like this and then vacuum.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 458.2,
+     "end": 502.2,
+     "ja": "私のお母さんがめっちゃ綺麗好きで、毎日掃除機１日に２回かけてて、",
+     "en": "My mom is a huge neat freak who vacuumed twice a day every day,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 502.3,
+     "end": 507.0,
+     "ja": "このね、埃を取るっていう習慣が私にも染み付きました。",
+     "en": "so this habit of dusting first stuck with me as well.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 549.4,
+   "end": 601.4,
+   "title": "Vacuuming and Wanting a Dyson",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ようにする — to make sure to / arrange to",
+    "気になる — to be curious or interested in"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 549.4,
+     "end": 551.3,
+     "ja": "掃除機かけていきます。",
+     "en": "Now I'll do the vacuuming.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 551.4,
+     "end": 556.1,
+     "ja": "私埃が溜まるのが嫌なんで、全部フローリングにしてすぐ掃除できるようにしてるんですけど、",
+     "en": "I hate dust building up, so I made it all flooring so I can clean right away, but...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 556.3,
+     "end": 558.2,
+     "ja": "ダイソンがすごい気になってて、",
+     "en": "I've been really curious about Dyson vacuums,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 558.3,
+     "end": 601.0,
+     "ja": "え、めっちゃ買いたい。どうなんだろう、いいんかな？",
+     "en": "like, I really want one. I wonder if they're good?",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "Mpm6k8c4144",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

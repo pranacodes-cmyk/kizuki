@@ -1,0 +1,138 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.5,
+   "end": 22.0,
+   "title": "2026 Social Issues Ranking Intro",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜をもとに — based on",
+    "〜ていく — to go on doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.8,
+     "end": 11.8,
+     "ja": "ここからは、2026年に議論が増えると見られる社会課題について、アキが詳しく解説します。",
+     "en": "From here, Aki will explain in detail the social issues expected to be discussed more in 2026.",
+     "speaker": "Aki"
+    },
+    {
+     "start": 12.3,
+     "end": 16.1,
+     "ja": "今回のランキングは、国内外の動向や専門家の分析をもとに、",
+     "en": "This ranking was compiled based on domestic and international trends and expert analysis,",
+     "speaker": "Aki"
+    },
+    {
+     "start": 16.3,
+     "end": 19.1,
+     "ja": "今年、特に注目されるテーマをまとめたものです。",
+     "en": "summarizing the themes expected to draw particular attention this year.",
+     "speaker": "Aki"
+    },
+    {
+     "start": 19.4,
+     "end": 21.8,
+     "ja": "それでは、第5位から順に見ていきましょう。",
+     "en": "Now, let's take a look starting from number 5.",
+     "speaker": "Aki"
+    }
+   ]
+  },
+  {
+   "start": 62.0,
+   "end": 86.3,
+   "title": "Concern Over Power Shortages",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜により — due to / through",
+    "〜つつある — in the process of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 62.3,
+     "end": 65.4,
+     "ja": "第4位は、電力不足の懸念です。",
+     "en": "Number four is the concern over power shortages.",
+     "speaker": "Aki"
+    },
+    {
+     "start": 65.7,
+     "end": 71.4,
+     "ja": "AIやデータセンターの普及により、電力需要は今後さらに増えると見られています。",
+     "en": "With the spread of AI and data centers, electricity demand is expected to increase even further.",
+     "speaker": "Aki"
+    },
+    {
+     "start": 71.7,
+     "end": 78.0,
+     "ja": "特に生成AIは大量の電力を必要とするため、世界的に電力争奪戦が起きつつあります。",
+     "en": "Generative AI in particular requires a massive amount of power, leading to an emerging global race for electricity.",
+     "speaker": "Aki"
+    },
+    {
+     "start": 78.6,
+     "end": 86.1,
+     "ja": "一方で、再生可能エネルギーの導入には送電網の整備や地域合意など、時間のかかる課題が残っています。",
+     "en": "Meanwhile, the adoption of renewable energy still faces time-consuming challenges such as power grid upgrades and local consensus.",
+     "speaker": "Aki"
+    }
+   ]
+  },
+  {
+   "start": 174.4,
+   "end": 195.8,
+   "title": "Adapting to an AI Society",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜により — through / due to",
+    "〜一方で — on the other hand"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 174.6,
+     "end": 179.8,
+     "ja": "そして、第1位はAI社会への適応です。",
+     "en": "And number one is adapting to an AI society.",
+     "speaker": "Aki"
+    },
+    {
+     "start": 180.2,
+     "end": 188.6,
+     "ja": "生成AIの普及により、働き方、教育、情報の扱い方など、社会のあらゆる場面で変化が起きています。",
+     "en": "With the spread of generative AI, changes are occurring in every aspect of society, such as ways of working, education, and handling information.",
+     "speaker": "Aki"
+    },
+    {
+     "start": 189.0,
+     "end": 195.6,
+     "ja": "便利になる一方で、誤情報の拡散や著作権の問題など、新しい課題も生まれています。",
+     "en": "While it becomes more convenient, new challenges such as the spread of misinformation and copyright issues are also emerging.",
+     "speaker": "Aki"
+    }
+   ]
+  }
+ ],
+ "videoId": "vfD6IaBhMPE",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

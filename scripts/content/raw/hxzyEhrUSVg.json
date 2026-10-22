@@ -1,0 +1,174 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 2.7,
+   "end": 18.3,
+   "title": "I Found My Bride",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜られる — potential form",
+    "〜に見放される — passive voice"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.0,
+     "end": 6.6,
+     "ja": "ここは、「あやかし」と「人間」が共存する世界。",
+     "en": "This is a world where spirits and humans coexist.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 6.9,
+     "end": 8.5,
+     "ja": "信じられる者はいない。",
+     "en": "There is no one I can trust.",
+     "speaker": "Reiya"
+    },
+    {
+     "start": 8.6,
+     "end": 10.2,
+     "ja": "愛を知らない鬼と、",
+     "en": "An oni who knows no love,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 10.2,
+     "end": 11.2,
+     "ja": "やめて！",
+     "en": "Stop it!",
+     "speaker": "Yuko"
+    },
+    {
+     "start": 11.3,
+     "end": 13.3,
+     "ja": "愛に見放された人間。",
+     "en": "and a human abandoned by love.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 15.0,
+     "end": 16.2,
+     "ja": "見つけた。",
+     "en": "I found you.",
+     "speaker": "Reiya"
+    },
+    {
+     "start": 16.3,
+     "end": 18.0,
+     "ja": "俺の花嫁。",
+     "en": "My bride.",
+     "speaker": "Reiya"
+    }
+   ]
+  },
+  {
+   "start": 20.0,
+   "end": 34.8,
+   "title": "Becoming the Oni's Bride",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "anime"
+   ],
+   "grammar": [
+    "〜というのは — defining / explaining a topic",
+    "〜ている — ongoing action / state",
+    "お〜ですか — respectful honorific question"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 20.3,
+     "end": 22.8,
+     "ja": "玲夜様の花嫁になるというのは、",
+     "en": "To become Lord Reiya's bride,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 22.9,
+     "end": 25.0,
+     "ja": "頂点に立つということなのです。",
+     "en": "means standing at the very top.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 25.6,
+     "end": 27.8,
+     "ja": "みんな鬼の座を狙っているのよ。",
+     "en": "Everyone is aiming for the throne of the oni.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 28.8,
+     "end": 30.7,
+     "ja": "煩わしいものじゃのう。",
+     "en": "What a bothersome thing.",
+     "speaker": "Old Spirit"
+    },
+    {
+     "start": 30.8,
+     "end": 34.5,
+     "ja": "玲夜様、一生を捧げる覚悟はお決まりですか？",
+     "en": "Lord Reiya, are you prepared to devote your whole life?",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 41.2,
+   "end": 48.4,
+   "title": "I'm Not Worthy to Be Your Bride",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "anime"
+   ],
+   "grammar": [
+    "〜を傷つける奴 — relative clause modifying noun",
+    "〜に相応しい — suitable / worthy of"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 41.4,
+     "end": 42.6,
+     "ja": "どいて、お姉ちゃん！",
+     "en": "Get out of the way, big sister!",
+     "speaker": "Sister"
+    },
+    {
+     "start": 42.7,
+     "end": 45.0,
+     "ja": "俺の花嫁を傷つける奴は許さない。",
+     "en": "I won't forgive anyone who hurts my bride.",
+     "speaker": "Reiya"
+    },
+    {
+     "start": 45.1,
+     "end": 45.9,
+     "ja": "やめて！",
+     "en": "Stop!",
+     "speaker": "Yuko"
+    },
+    {
+     "start": 46.0,
+     "end": 48.2,
+     "ja": "私は鬼の花嫁に相応しくありません。",
+     "en": "I am not worthy of being the demon's bride.",
+     "speaker": "Yuko"
+    }
+   ]
+  }
+ ],
+ "videoId": "hxzyEhrUSVg",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

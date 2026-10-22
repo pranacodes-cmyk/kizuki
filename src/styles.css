@@ -49,6 +49,9 @@
   --color-info: var(--info);
   --color-gold: var(--gold);
   --color-learning: var(--learning);
+  --color-level-2: var(--level-2);
+  --color-level-3: var(--level-3);
+  --color-level-4: var(--level-4);
   --color-known: var(--known);
   --color-stage: var(--stage);
   --color-border: var(--border);
@@ -79,7 +82,10 @@
   --danger-soft: oklch(0.281 0.039 12.1); /* #3A2124 */
   --info: oklch(0.724 0.147 253); /* #5DA9FF */
   --gold: oklch(0.854 0.157 84.1); /* #FFC53D */
-  --learning: oklch(0.787 0.142 54.6); /* #FF9F5A */
+  --learning: oklch(0.787 0.142 54.6); /* #FF9F5A */ /* word level 1 */
+  --level-2: oklch(0.718 0.134 52.4); /* #E58A4E */
+  --level-3: oklch(0.634 0.109 52.1); /* #BE7648 */
+  --level-4: oklch(0.541 0.081 55.6); /* #93623F */
   --known: oklch(0.765 0.166 152.4); /* #4CD07D */
   --stage: oklch(0.169 0.006 271); /* #0E0F12 */
 }

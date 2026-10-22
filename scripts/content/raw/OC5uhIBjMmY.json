@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 378.8,
+   "end": 403.5,
+   "title": "The Meaning of Mankai",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜というのは…のことだ — defining a term",
+    "〜という意味 — meaning that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 379.0,
+     "end": 384.4,
+     "ja": "満開というのは、桜がいちばん咲いているときのことです。",
+     "en": "\"Mankai\" refers to the time when cherry blossoms are in full bloom.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 385.0,
+     "end": 388.0,
+     "ja": "「満」は「満ちる」、full。",
+     "en": "\"Man\" comes from \"michiru\", meaning full.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 388.5,
+     "end": 393.2,
+     "ja": "「開」は「開く」、to openという意味です。",
+     "en": "\"Kai\" comes from \"hiraku\", meaning to open.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 395.0,
+     "end": 397.4,
+     "ja": "花は「咲く」と言いますが、",
+     "en": "We usually say flowers \"saku\" (bloom), but",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 397.8,
+     "end": 403.0,
+     "ja": "「満開」のときは、「開く」という漢字を使います。",
+     "en": "in the word \"mankai\", the kanji for \"open\" is used.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 531.5,
+   "end": 552.5,
+   "title": "Pitch Accent of Sakura",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜と — conditional (when/if)",
+    "〜になる — to become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 532.0,
+     "end": 557.2,
+     "ja": "「さくら」のピッチアクセントは、「さくら」です。",
+     "en": "The pitch accent of \"sakura\" goes low to high: \"sa-kura\".",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 557.3,
+     "end": 539.0,
+     "ja": "上がります。",
+     "en": "The pitch goes up.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 539.8,
+     "end": 545.8,
+     "ja": "「さくら」と下がると、名字か、女の子の名前になります。",
+     "en": "If you drop the pitch on \"sa\", it becomes a surname or a girl's name.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 546.8,
+     "end": 551.8,
+     "ja": "私の兄の奥さんの名前は、「さくら」です。",
+     "en": "My older brother's wife's name is Sakura.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 644.0,
+   "end": 664.0,
+   "title": "What Hanami Really Is",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "food"
+   ],
+   "grammar": [
+    "〜たり〜たりする — doing things like A and B",
+    "〜より — rather than / more than"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 644.5,
+     "end": 649.0,
+     "ja": "桜の下でご飯を食べている人たちもいますね。",
+     "en": "There are also people eating under the cherry blossoms.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 649.5,
+     "end": 652.0,
+     "ja": "「お花見」をしています。",
+     "en": "They are doing \"ohanami\" (flower viewing).",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 653.0,
+     "end": 656.5,
+     "ja": "お花見は、「花を見る」と書きますが、",
+     "en": "\"Ohanami\" is written as \"look at flowers\", but",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 657.0,
+     "end": 663.5,
+     "ja": "実際は、花を見るより、食べたり飲んだりすることがメインになっていると思います。",
+     "en": "in reality, I think eating and drinking has become the main point rather than viewing flowers.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "OC5uhIBjMmY",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

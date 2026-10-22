@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 165.3,
+   "end": 183.2,
+   "title": "Asking for the Next Boat Departure",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜たい — want to do",
+    "〜時 — o'clock / time"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 165.6,
+     "end": 169.8,
+     "ja": "次の船は何時ですか？",
+     "en": "What time is the next boat?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 171.2,
+     "end": 176.2,
+     "ja": "次は午後２時に出発します。",
+     "en": "The next one departs at 2:00 PM.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 177.4,
+     "end": 182.8,
+     "ja": "２時ですね。それに乗りたいです。",
+     "en": "2:00 PM, right. I want to ride that one.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 287.5,
+   "end": 321.0,
+   "title": "Ordering Salad at a Deli Counter",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜をください — please give me",
+    "どのくらい — about how much"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 287.8,
+     "end": 293.0,
+     "ja": "すみません。このサラダをください。",
+     "en": "Excuse me, I'll have this salad.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 294.0,
+     "end": 299.3,
+     "ja": "いらっしゃいませ。何グラムですか？",
+     "en": "Welcome. How many grams?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 300.0,
+     "end": 306.0,
+     "ja": "ええと、100グラムはどのくらいですか？",
+     "en": "Um, how much is 100 grams?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 307.0,
+     "end": 313.2,
+     "ja": "100グラムは、だいたい１人分ですよ。",
+     "en": "100 grams is about one serving.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 314.0,
+     "end": 320.5,
+     "ja": "なるほど。じゃあ、200グラムお願いします。",
+     "en": "I see. Then, 200 grams, please.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 411.0,
+   "end": 436.0,
+   "title": "Locked Out of Hotel Room",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "どうなさいましたか — polite inquiry: what happened?",
+    "お〜です — honorific form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 411.3,
+     "end": 414.0,
+     "ja": "すみません。",
+     "en": "Excuse me.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 415.0,
+     "end": 419.0,
+     "ja": "はい、どうなさいましたか？",
+     "en": "Yes, how can I help you?",
+     "speaker": "Front Desk"
+    },
+    {
+     "start": 420.0,
+     "end": 425.0,
+     "ja": "あの、部屋のドアが開きません。",
+     "en": "Um, my room door won't open.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 425.8,
+     "end": 430.0,
+     "ja": "部屋の鍵はお持ちですか？",
+     "en": "Do you have your room key?",
+     "speaker": "Front Desk"
+    },
+    {
+     "start": 430.8,
+     "end": 435.5,
+     "ja": "いいえ、鍵を部屋の中に忘れました。",
+     "en": "No, I left the key inside the room.",
+     "speaker": "Guest"
+    }
+   ]
+  }
+ ],
+ "videoId": "m1pvjsBPlH0",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,139 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.6,
+   "end": 22.0,
+   "title": "Waking Up at Three in the Afternoon",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜てしまう — expressing regret or completion",
+    "〜んです — explanatory nuance"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 3.2,
+     "ja": "どうもおはようございます、パーカーです。",
+     "en": "Good morning everyone, this is Parker.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 3.5,
+     "end": 7.1,
+     "ja": "何でこんなことになったかちょっと分かんないんですけれども、",
+     "en": "I don't really know how this happened, but...",
+     "speaker": "Parker"
+    },
+    {
+     "start": 7.4,
+     "end": 11.7,
+     "ja": "起きたらですね、お昼の3時でした。",
+     "en": "When I woke up, it was 3:00 in the afternoon.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 12.3,
+     "end": 16.8,
+     "ja": "おやつの時間に目覚めっていう話で、何でこんなんなってしまったか分かんないんですけれども、",
+     "en": "Waking up at snack time—I don't know how it ended up like this, but...",
+     "speaker": "Parker"
+    },
+    {
+     "start": 17.0,
+     "end": 21.8,
+     "ja": "強いて言うなら、昨日寝たんが朝の5時なんですよ。",
+     "en": "If I had to say, it's that I went to bed at 5:00 in the morning yesterday.",
+     "speaker": "Parker"
+    }
+   ]
+  },
+  {
+   "start": 276.5,
+   "end": 296.5,
+   "title": "Buying a Triangular Chocolate Pie",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくる — go and do something",
+    "〜てしまう — completion/unintentional action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 276.8,
+     "end": 281.8,
+     "ja": "それからね、大学の近くにマクドナルドがあるんですけれども、",
+     "en": "Also, there's a McDonald's near the university,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 281.9,
+     "end": 285.8,
+     "ja": "ちょっとそこにさっき寄ってきて、三角チョコパイ買ってきました。",
+     "en": "and I stopped by there earlier and bought a Sankaku Choco Pie.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 286.0,
+     "end": 289.0,
+     "ja": "これ分かりますか？僕ね、三角チョコパイマジで好きなんですよ。",
+     "en": "Do you know this? I seriously love the Sankaku Choco Pie.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 289.2,
+     "end": 296.0,
+     "ja": "だからもうそんな季節かと思って、何日か前に発売されてたのは知ってたんですけど、ついに購入できました。",
+     "en": "So I realized it's that time of year; I knew it was released a few days ago, and I finally got to buy it.",
+     "speaker": "Parker"
+    }
+   ]
+  },
+  {
+   "start": 443.7,
+   "end": 452.8,
+   "title": "Breaking the One-Episode Anime Rule",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ちゃう — casual completion / regret",
+    "〜ということで — with that said / considering that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 444.0,
+     "end": 448.3,
+     "ja": "さっき散々1日1話がいいとか言ってたんですけど、普通にもう1話見ちゃいました。",
+     "en": "Earlier I kept saying one episode a day is best, but I went ahead and watched another one anyway.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 449.0,
+     "end": 452.4,
+     "ja": "まあ、2話はギリギリセーフということで、いいでしょう。",
+     "en": "Well, two episodes is just barely safe, so that's fine.",
+     "speaker": "Parker"
+    }
+   ]
+  }
+ ],
+ "videoId": "CwAhgbsYN_w",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

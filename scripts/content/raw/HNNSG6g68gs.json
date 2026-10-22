@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 42.5,
+   "end": 59.2,
+   "title": "Learning Bird Names in Japanese",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜て — and / connecting clauses",
+    "〜かな — I wonder"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 43.0,
+     "end": 45.3,
+     "ja": "ではまず鳥から。",
+     "en": "First, let's start with birds.",
+     "speaker": "Abeno"
+    },
+    {
+     "start": 46.8,
+     "end": 48.3,
+     "ja": "鳥です。",
+     "en": "They are birds.",
+     "speaker": "Abeno"
+    },
+    {
+     "start": 49.2,
+     "end": 53.6,
+     "ja": "羽があって空を飛ぶ動物は鳥です。",
+     "en": "Animals that have wings and fly in the sky are birds.",
+     "speaker": "Abeno"
+    },
+    {
+     "start": 56.5,
+     "end": 58.5,
+     "ja": "これはカモかな？",
+     "en": "These are ducks, right?",
+     "speaker": "Abeno"
+    }
+   ]
+  },
+  {
+   "start": 210.0,
+   "end": 231.8,
+   "title": "Calling Monkeys Saru",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "fun"
+   ],
+   "grammar": [
+    "〜てもいい/問題ない — even if / no problem if",
+    "〜って — quoting particle"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 210.5,
+     "end": 213.2,
+     "ja": "まあこのタイプの動物は、",
+     "en": "Well, for these types of animals,",
+     "speaker": "Abeno"
+    },
+    {
+     "start": 213.2,
+     "end": 216.5,
+     "ja": "全部サルって言っても問題ありません。",
+     "en": "there's no problem calling them all monkeys.",
+     "speaker": "Abeno"
+    },
+    {
+     "start": 222.0,
+     "end": 224.0,
+     "ja": "これもサル。",
+     "en": "This is a monkey, too.",
+     "speaker": "Abeno"
+    },
+    {
+     "start": 229.0,
+     "end": 231.2,
+     "ja": "あれもサル。",
+     "en": "That is a monkey, too.",
+     "speaker": "Abeno"
+    }
+   ]
+  },
+  {
+   "start": 545.5,
+   "end": 611.2,
+   "title": "Tanuki and Badger Differences",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "fun"
+   ],
+   "grammar": [
+    "〜てます — ongoing state",
+    "〜らしい — apparently / it seems"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 546.0,
+     "end": 547.3,
+     "ja": "ホンドタヌキ。",
+     "en": "Japanese raccoon dog.",
+     "speaker": "Abeno"
+    },
+    {
+     "start": 547.6,
+     "end": 549.5,
+     "ja": "タヌキですね。",
+     "en": "It's a raccoon dog.",
+     "speaker": "Abeno"
+    },
+    {
+     "start": 550.0,
+     "end": 551.8,
+     "ja": "寝てます。",
+     "en": "It's sleeping.",
+     "speaker": "Abeno"
+    },
+    {
+     "start": 555.0,
+     "end": 558.0,
+     "ja": "こっちはニホンアナグマ。",
+     "en": "This one is a Japanese badger.",
+     "speaker": "Abeno"
+    },
+    {
+     "start": 607.0,
+     "end": 610.5,
+     "ja": "アナグマはタヌキじゃないらしいです。",
+     "en": "Apparently badgers are not raccoon dogs.",
+     "speaker": "Abeno"
+    }
+   ]
+  }
+ ],
+ "videoId": "HNNSG6g68gs",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

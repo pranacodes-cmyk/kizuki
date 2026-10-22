@@ -1,0 +1,174 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 219.5,
+   "end": 231.0,
+   "title": "A Phone Call the Morning After Resigning",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくれる — doing something for someone",
+    "〜てもらう — receiving a favor",
+    "〜て申し訳ない — apologizing for doing something"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 219.8,
+     "end": 223.0,
+     "ja": "大臣を辞めた翌朝、電話をくれましたよね。",
+     "en": "He called me the morning after resigning as minister.",
+     "speaker": "Horie"
+    },
+    {
+     "start": 223.2,
+     "end": 224.2,
+     "ja": "あ、そうなんですか？",
+     "en": "Oh, is that so?",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 224.3,
+     "end": 227.3,
+     "ja": "そうです。あの、「しっかり応援してもらってるのに",
+     "en": "Yes. He said, 'Even though you've been supporting me so strongly,",
+     "speaker": "Horie"
+    },
+    {
+     "start": 227.4,
+     "end": 229.4,
+     "ja": "こんなことになって申し訳なかったですね」",
+     "en": "I'm so sorry that things ended up like this,'",
+     "speaker": "Horie"
+    },
+    {
+     "start": 229.5,
+     "end": 231.0,
+     "ja": "っていうことをされました。",
+     "en": "that kind of thing.",
+     "speaker": "Horie"
+    }
+   ]
+  },
+  {
+   "start": 314.2,
+   "end": 330.2,
+   "title": "Summary of Scandals Surrounding Former Minister",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜を巡る — regarding / concerning",
+    "〜のほかに — in addition to",
+    "〜ている — state / ongoing situation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 314.5,
+     "end": 316.8,
+     "ja": "はい。簗氏をめぐる問題ですが、",
+     "en": "Yes. Regarding the issues surrounding Mr. Yana,",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 316.9,
+     "end": 319.4,
+     "ja": "予算カット発言のほかに、",
+     "en": "in addition to his remarks about budget cuts,",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 319.5,
+     "end": 323.5,
+     "ja": "選挙中にシャトルバスで支持者を無料送迎した問題、",
+     "en": "there is the issue of transporting supporters by free shuttle bus during the election,",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 323.6,
+     "end": 327.5,
+     "ja": "さらに、投票依頼の電話を掛けた人に金銭を支払っていた",
+     "en": "and furthermore, suspicions have also surfaced that money was paid",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 327.6,
+     "end": 329.8,
+     "ja": "疑いも浮上しています。",
+     "en": "to people who made phone calls asking for votes.",
+     "speaker": "Presenter"
+    }
+   ]
+  },
+  {
+   "start": 394.8,
+   "end": 418.5,
+   "title": "Opinion on Facing One's Local Constituents",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜べきだ — should / ought to",
+    "〜ならば — if it is true that",
+    "〜のために — for the sake of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 395.1,
+     "end": 399.5,
+     "ja": "ま、確かにね、やり方、ま、お金に関することでね、今叩かれてますけども、",
+     "en": "Well, indeed, regarding his methods and money matters, he's being criticized right now, but",
+     "speaker": "Hara"
+    },
+    {
+     "start": 399.6,
+     "end": 404.8,
+     "ja": "15年間本当にね、地元の為にやったという自負があるならば、僕は堂々とすべきだと思うんです。",
+     "en": "if he truly has the pride that he worked for his local area for 15 years, I think he should hold his head high.",
+     "speaker": "Hara"
+    },
+    {
+     "start": 404.9,
+     "end": 408.0,
+     "ja": "ですからその為にも地元に帰って、",
+     "en": "Therefore, for that sake as well, he should return to his constituency,",
+     "speaker": "Hara"
+    },
+    {
+     "start": 408.1,
+     "end": 410.4,
+     "ja": "しっかりと謝って、反省して、",
+     "en": "properly apologize, reflect on it,",
+     "speaker": "Hara"
+    },
+    {
+     "start": 410.5,
+     "end": 414.0,
+     "ja": "そしてまた「頑張るぞ」という姿勢をね、見せることが、",
+     "en": "and show an attitude of 'I'll do my best again'—",
+     "speaker": "Hara"
+    },
+    {
+     "start": 414.1,
+     "end": 418.2,
+     "ja": "これからも代議士としてね、あの、返り咲きがあると僕は思うので。",
+     "en": "that is how I believe he could make a comeback as a parliamentarian going forward.",
+     "speaker": "Hara"
+    }
+   ]
+  }
+ ],
+ "videoId": "hQK0ynhzKmA",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

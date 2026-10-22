@@ -5,6 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../logic/logic.dart';
+import '../services/attribution.dart';
 
 /// App state — mirrors src/lib/store.ts (same JSON shape, defaults and actions,
 /// same storage key `mimi-state-v1`).
@@ -274,6 +275,13 @@ class AppState extends ChangeNotifier {
     return wordStatus(status: w.status, card: w.card);
   }
 
+  /// Level badge for a saved word (0 ignored, 1–4 learning, 5 known); null when not saved.
+  int? tokenLevel(String key) {
+    final w = words[key];
+    if (w == null || w.status == 'removed') return null;
+    return wordLevel(status: w.status, card: w.card);
+  }
+
   Future<void> load() async {
     _prefs = await SharedPreferences.getInstance();
     final raw = _prefs!.getString(storageKey);
@@ -360,6 +368,7 @@ class AppState extends ChangeNotifier {
   }
 
   void completeOnboarding() {
+    if (!onboarded) Attribution.onboardingDone();
     onboarded = true;
     _commit();
   }
@@ -372,6 +381,13 @@ class AppState extends ChangeNotifier {
 
   void cancelPremium() {
     premium = Premium();
+    _commit();
+  }
+
+  /// Store-verified Premium (RevenueCat). Only writes when something actually changed.
+  void applyPremium(Premium p) {
+    if (jsonEncode(p.toJson()) == jsonEncode(premium.toJson())) return;
+    premium = p;
     _commit();
   }
 
@@ -433,6 +449,18 @@ class AppState extends ChangeNotifier {
     final w = words[key];
     if (w == null) return;
     w.status = status;
+    w.updatedAt = now;
+    _commit();
+  }
+
+  /// Kiku-style level menu: 0 ignored, 1–4 learning (reschedules the card), 5 known.
+  void setWordLevel(String key, int level) {
+    final w = words[key];
+    if (w == null) return;
+    final next = withWordLevel(w.status, w.card, level, now);
+    if (next.status == w.status && identical(next.card, w.card)) return;
+    w.status = next.status;
+    w.card = next.card;
     w.updatedAt = now;
     _commit();
   }
@@ -505,6 +533,7 @@ class AppState extends ChangeNotifier {
   }
 
   void completeTutorial(String which) {
+    if (which == 'feed' && !tutorialFeed) Attribution.tourDone();
     if (which == 'feed') tutorialFeed = true;
     if (which == 'review') tutorialReview = true;
     _commit();
@@ -517,6 +546,9 @@ class AppState extends ChangeNotifier {
   }
 
   void markAchievementsSeen(List<String> ids) {
+    for (final id in ids) {
+      if (!achievementsSeen.contains(id)) Attribution.achievement(id);
+    }
     achievementsSeen = {...achievementsSeen, ...ids}.toList();
     _commit();
   }

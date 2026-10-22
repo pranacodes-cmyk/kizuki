@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 2.0,
+   "end": 26.5,
+   "title": "Starting a New Podcast",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜について — regarding / about",
+    "〜たいと思う — to want to do / intend to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2.0,
+     "end": 5.5,
+     "ja": "皆さん、こんにちは。チェリーです。",
+     "en": "Hi, everyone. I'm Cherry.",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 5.5,
+     "end": 8.8,
+     "ja": "今日からポッドキャストをスタートします。",
+     "en": "Today, I'm starting my podcast.",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 8.8,
+     "end": 12.3,
+     "ja": "今日はね、最初の１回目なので、",
+     "en": "Since this is the very first episode,",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 12.3,
+     "end": 18.8,
+     "ja": "少し私のことと、私がやっている活動についてお話をします。",
+     "en": "I'll tell you a little about myself and the things I do.",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 18.8,
+     "end": 22.6,
+     "ja": "そしてこのポッドキャストの目的、",
+     "en": "And what this podcast is for.",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 22.6,
+     "end": 26.3,
+     "ja": "これについてもお話ししたいなと思います。",
+     "en": "I'd like to talk about that, too.",
+     "speaker": "Cherry"
+    }
+   ]
+  },
+  {
+   "start": 31.0,
+   "end": 50.8,
+   "title": "A Podcast to Help You Sleep",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜ていく/てくる — change over time",
+    "〜ばいい — hope that / would be nice if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 31.0,
+     "end": 38.8,
+     "ja": "このポッドキャストの目的は、みんなが聞いていて眠くなること。",
+     "en": "The idea behind this podcast is for you to listen and get sleepy.",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 38.8,
+     "end": 44.8,
+     "ja": "私も、自分のポッドキャストを聞いて眠くなること。",
+     "en": "And for me to get sleepy listening to my own podcast, too.",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 44.8,
+     "end": 50.5,
+     "ja": "みんなの睡眠導入剤になればいいなと思っています。",
+     "en": "I hope it can be a little sleep aid for all of you.",
+     "speaker": "Cherry"
+    }
+   ]
+  },
+  {
+   "start": 844.5,
+   "end": 905.5,
+   "title": "Reflecting on Living Alone",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜ようになる — to come to (do)",
+    "〜について — about / regarding"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 845.0,
+     "end": 848.0,
+     "ja": "だって、みんな若い時さあ、",
+     "en": "I mean, when you were young,",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 848.0,
+     "end": 853.6,
+     "ja": "早く自立したい、一人暮らししたいって思ってなかった？",
+     "en": "didn't you want to be independent and live on your own as soon as you could?",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 853.6,
+     "end": 859.5,
+     "ja": "それで、なぜいつからか、一人が嫌だって思うようになった？",
+     "en": "So when did you start not wanting to be alone? And why?",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 859.5,
+     "end": 905.2,
+     "ja": "大人の一人暮らしについては、次のエピソードでお話ししようと思います。",
+     "en": "As for living alone when you're older, in the next episode, I'd like to talk about that.",
+     "speaker": "Cherry"
+    }
+   ]
+  }
+ ],
+ "videoId": "SNXInOpPKD4",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

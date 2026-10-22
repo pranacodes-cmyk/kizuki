@@ -1,0 +1,137 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 239.5,
+   "end": 248.8,
+   "title": "Finishing the Gohei Mochi",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜になります — will result in/become"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 240.2,
+     "end": 243.0,
+     "ja": "これでお、ここでの作業はこれで終わりです。",
+     "en": "With that, that's all for the preparation here.",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 243.0,
+     "end": 246.3,
+     "ja": "あとは焼いてタレを塗って",
+     "en": "Then we bake it, brush on the sauce,",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 246.3,
+     "end": 248.5,
+     "ja": "もう一回ちょっと炙って出来上がりになりますので。",
+     "en": "lightly sear it once more, and it'll be ready.",
+     "speaker": "Instructor"
+    }
+   ]
+  },
+  {
+   "start": 301.0,
+   "end": 308.7,
+   "title": "Applying Sauce to the Mochi",
+   "level": "N4",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜といい — it would be good if"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 301.5,
+     "end": 303.4,
+     "ja": "形が恥ずかしい。",
+     "en": "The shape is embarrassing.",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 304.7,
+     "end": 307.2,
+     "ja": "もうちょっときれいに塗れるといいんですけど、",
+     "en": "It'd be better if it was brushed on more neatly,",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 307.2,
+     "end": 308.4,
+     "ja": "あの、大丈夫です。",
+     "en": "um, but it's okay.",
+     "speaker": "Instructor"
+    }
+   ]
+  },
+  {
+   "start": 319.3,
+   "end": 328.0,
+   "title": "Arriving for the Matcha Ceremony",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜の方 — polite way to refer to someone/something",
+    "どうぞ — please go ahead"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 319.5,
+     "end": 320.6,
+     "ja": "こんにちは。",
+     "en": "Hello.",
+     "speaker": "Visitor"
+    },
+    {
+     "start": 321.1,
+     "end": 323.2,
+     "ja": "今日の抹茶体験の方ですね？",
+     "en": "You're here for today's matcha experience, right?",
+     "speaker": "Host"
+    },
+    {
+     "start": 323.2,
+     "end": 324.7,
+     "ja": "はい、よろしくお願いします。",
+     "en": "Yes, thank you very much in advance.",
+     "speaker": "Visitor"
+    },
+    {
+     "start": 324.7,
+     "end": 326.1,
+     "ja": "はい、よろしくお願いいたします。",
+     "en": "Yes, welcome.",
+     "speaker": "Host"
+    },
+    {
+     "start": 326.3,
+     "end": 327.7,
+     "ja": "では、こちらのほうへどうぞ。",
+     "en": "Please come this way.",
+     "speaker": "Host"
+    }
+   ]
+  }
+ ],
+ "videoId": "x0G5mbbNdBM",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

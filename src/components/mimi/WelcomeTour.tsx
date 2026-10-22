@@ -1,11 +1,11 @@
 import { AnimatePresence, motion } from "motion/react";
-import { Pointer } from "lucide-react";
+import { Bookmark, Pointer, Repeat1, RotateCcw } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { useRouterState } from "@tanstack/react-router";
 
 import { useApp } from "@/lib/store";
-import { TOUR_HAND_TIP_Y, TOUR_LEGEND, TOUR_LEGEND_DELAY_MS, TOUR_MAX_HOLE_HEIGHT, TOUR_STEPS, TOUR_TARGET_WAIT_MS, tourText, type TourStep } from "@/lib/tour";
+import { TOUR_CONTROLS, TOUR_HAND_TIP_Y, TOUR_LEGEND, TOUR_LEGEND_DELAY_MS, TOUR_MAX_HOLE_HEIGHT, TOUR_STEPS, TOUR_TARGET_WAIT_MS, tourText, type TourStep } from "@/lib/tour";
 import { useTour } from "@/lib/tour-store";
 import { cn } from "@/lib/utils";
 
@@ -69,7 +69,8 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
       const x = Math.max(4, r.left - box.left - pad);
       const y = Math.max(4, r.top - box.top - pad);
       const w = Math.min(box.width - 4, r.right - box.left + pad) - x;
-      const h = Math.min(TOUR_MAX_HOLE_HEIGHT, Math.min(box.height - 4, r.bottom - box.top + pad) - y);
+      const full = Math.min(box.height - 4, r.bottom - box.top + pad) - y;
+      const h = step.fullHole ? full : Math.min(TOUR_MAX_HOLE_HEIGHT, full);
       if (w >= 16 && h >= 16) { found = { x, y, w, h }; break; }
     }
     setHole((old) => (old && found && old.x === found.x && old.y === found.y && old.w === found.w && old.h === found.h ? old : found));
@@ -80,7 +81,7 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
       missing.current = 0;
       setWaitedOut(false);
     }
-  }, [root, step.target]);
+  }, [root, step.target, step.fullHole]);
 
   useEffect(() => {
     measure();
@@ -108,11 +109,16 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
     next();
   };
 
-  // Bubble placement: under a spotlight in the top half, above one lower down, else centered.
+  // Bubble placement: pinned (top = above a bottom sheet, bottom = over the lower part of a
+  // tall card), else under a spotlight in the top half, above one lower down, else centered.
   const EST_H = 200;
   let bubbleStyle: React.CSSProperties | undefined;
   let centered = false;
-  if (h) {
+  if (h && step.place === "top") {
+    bubbleStyle = { top: "calc(var(--sat) + 52px)" };
+  } else if (h && step.place === "bottom") {
+    bubbleStyle = { bottom: "calc(var(--sab) + 16px)" };
+  } else if (h) {
     const below = h.y + h.h / 2 < size.h * 0.45;
     const spaceBelow = size.h - (h.y + h.h);
     const spaceAbove = h.y - 48;
@@ -148,7 +154,7 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
       </svg>
 
       {step.hand === "tap" && h && action && (
-        <div className="pointer-events-none absolute" style={{ left: h.x + h.w / 2 - 40, top: h.y + h.h * TOUR_HAND_TIP_Y - 40, width: 80, height: 104 }}>
+        <div className="pointer-events-none absolute" style={{ left: h.x + h.w / 2 - 40, top: h.y + h.h * (step.handY ?? TOUR_HAND_TIP_Y) - 40, width: 80, height: 104 }}>
           <motion.span className="absolute left-1/2 top-[40px] block rounded-full border-[3px] border-primary" style={{ x: "-50%", y: "-50%" }} animate={{ width: [36, 64], height: [36, 64], opacity: [1, 0] }} transition={{ duration: 1.4, repeat: Infinity, ease: "easeOut" }} />
           <motion.span className="absolute left-[34px] top-[34px]" animate={{ y: [0, 8, 0] }} transition={{ duration: 1.4, repeat: Infinity, ease: "easeInOut" }}>
             <Pointer className="h-11 w-11 text-foreground drop-shadow-[0_0_12px_oklch(0_0_0/0.8)]" />
@@ -163,7 +169,8 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
 
       {!waitingForTarget && (
         <div
-          className={cn("absolute inset-x-4", centered && "top-1/2 -translate-y-1/2", pass ? "pointer-events-none" : "pointer-events-auto")}
+          // Action tips have no buttons: let taps through, so a tip resting on the card never blocks it.
+          className={cn("absolute inset-x-4", centered && "top-1/2 -translate-y-1/2", pass || action ? "pointer-events-none" : "pointer-events-auto")}
           style={bubbleStyle}
         >
           <AnimatePresence mode="wait">
@@ -179,8 +186,8 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
                     <>
                       <div className="mt-3 space-y-2.5">
                         {TOUR_LEGEND.map((l) => (
-                          <div key={l.id} className="flex items-center gap-3">
-                            <span className={cn("font-jp text-[1.125rem] font-bold text-background underline decoration-[3px] underline-offset-[6px]", l.id === "new" ? "decoration-info" : l.id === "learning" ? "decoration-learning" : "decoration-transparent")}>言葉</span>
+                          <div key={l.id} className="flex items-center gap-2">
+                            <span className="flex w-16 shrink-0"><LegendWord look={l.id} /></span>
                             <span className="min-w-0">
                               <span className="block text-[0.875rem] font-black text-background">{l.label}</span>
                               <span className="block text-[0.75rem] font-semibold text-faint">{l.hint}</span>
@@ -190,16 +197,24 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
                       </div>
                       <Pill wide disabled={!legendReady} onClick={onNext}>Got it</Pill>
                     </>
+                  ) : kind === "controls" ? (
+                    <>
+                      <div className="mt-2.5 space-y-2">
+                        {TOUR_CONTROLS.map((c) => (
+                          <div key={c.id} className="flex items-center gap-2.5">
+                            <span className="flex h-[30px] w-9 shrink-0 items-center justify-center rounded-[10px] bg-background/10 text-background"><ControlGlyph id={c.id} /></span>
+                            <span className="min-w-0 text-[0.875rem] font-extrabold text-background">{c.label}</span>
+                          </div>
+                        ))}
+                      </div>
+                      <NextRow label={`${index + 1} of ${TOUR_STEPS.length}`} onNext={onNext} />
+                    </>
                   ) : kind === "finish" ? (
                     <Pill wide onClick={onNext}>Let's go!</Pill>
                   ) : kind === "action" ? (
                     step.hint && <p className="mt-2.5 flex items-center gap-1.5 text-[0.8125rem] font-black text-primary-deep"><Pointer className="h-4 w-4 shrink-0" />{step.hint}</p>
                   ) : (
-                    <div className="mt-2.5 flex items-center">
-                      <span className="text-[0.75rem] font-bold text-faint">Tap anywhere</span>
-                      <span className="flex-1" />
-                      <Pill onClick={onNext}>Next</Pill>
-                    </div>
+                    <NextRow label={`${index + 1} of ${TOUR_STEPS.length}`} onNext={onNext} />
                   )}
                 </div>
               </div>
@@ -228,4 +243,36 @@ function Pill({ children, onClick, disabled, wide }: { children: React.ReactNode
       {children}
     </button>
   );
+}
+
+function NextRow({ label, onNext }: { label: string; onNext: () => void }) {
+  return (
+    <div className="mt-2.5 flex items-center">
+      <span className="text-[0.75rem] font-extrabold text-faint tabular">{label}</span>
+      <span className="flex-1" />
+      <Pill onClick={onNext}>Next</Pill>
+    </div>
+  );
+}
+
+/** A legend sample drawn exactly like a transcript word (Transcript Token): same font,
+ * 3px underline in the status colour, green box for the word being said. */
+function LegendWord({ look }: { look: (typeof TOUR_LEGEND)[number]["id"] }) {
+  const underline = look === "new" ? "decoration-info" : look === "learning" ? "decoration-learning" : "decoration-transparent";
+  return (
+    <span className={cn("rounded-lg px-0.5 leading-tight", look === "speaking" && "outline outline-2 outline-success")}>
+      <span className={cn("font-jp text-[1.3rem] font-bold text-background underline decoration-[3px] underline-offset-[6px]", underline)}>言葉</span>
+    </span>
+  );
+}
+
+/** The player buttons as they look in the clip controls (ClipView), for the controls step. */
+function ControlGlyph({ id }: { id: (typeof TOUR_CONTROLS)[number]["id"] }) {
+  switch (id) {
+    case "replay": return <RotateCcw className="h-[18px] w-[18px]" />;
+    case "loop": return <Repeat1 className="h-[18px] w-[18px]" />;
+    case "speed": return <span className="text-[0.8125rem] font-black">1×</span>;
+    case "save": return <Bookmark className="h-[18px] w-[18px]" />;
+    default: return <span className="text-[0.875rem] font-black">Aa</span>;
+  }
 }

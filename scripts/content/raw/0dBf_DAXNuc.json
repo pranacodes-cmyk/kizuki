@@ -1,0 +1,188 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.8,
+   "end": 22.8,
+   "title": "Essential Daily Greetings",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "挨拶 — greetings"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.0,
+     "end": 7.5,
+     "ja": "おはようございます。",
+     "en": "Good morning.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 8.6,
+     "end": 10.0,
+     "ja": "おはようございます。",
+     "en": "Good morning.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 12.1,
+     "end": 13.3,
+     "ja": "こんにちは。",
+     "en": "Hello.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 14.7,
+     "end": 15.9,
+     "ja": "こんにちは。",
+     "en": "Hello.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 18.0,
+     "end": 19.3,
+     "ja": "こんばんは。",
+     "en": "Good evening.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 20.8,
+     "end": 22.0,
+     "ja": "こんばんは。",
+     "en": "Good evening.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 151.2,
+   "end": 209.0,
+   "title": "Phrases for Ordering and Meals",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜をお願いします — please give me / I'd like ~",
+    "〜でした — polite past tense of です"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 151.5,
+     "end": 153.6,
+     "ja": "これをお願いします。",
+     "en": "I'd like this, please.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 154.4,
+     "end": 156.5,
+     "ja": "これをお願いします。",
+     "en": "I'd like this, please.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 157.6,
+     "end": 159.0,
+     "ja": "いただきます。",
+     "en": "Let's eat.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 160.3,
+     "end": 161.7,
+     "ja": "いただきます。",
+     "en": "Let's eat.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 163.5,
+     "end": 165.3,
+     "ja": "ごちそうさまでした。",
+     "en": "Thank you for the meal.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 166.5,
+     "end": 168.4,
+     "ja": "ごちそうさまでした。",
+     "en": "Thank you for the meal.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 230.5,
+   "end": 248.2,
+   "title": "Useful Phrases for Shopping",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ですか — question particle",
+    "〜てください — please do ~",
+    "〜をください — please give me ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 230.8,
+     "end": 232.4,
+     "ja": "いくらですか？",
+     "en": "How much is it?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 233.8,
+     "end": 235.4,
+     "ja": "いくらですか？",
+     "en": "How much is it?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 237.0,
+     "end": 239.0,
+     "ja": "これを見せてください。",
+     "en": "Please show me this.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 240.0,
+     "end": 242.1,
+     "ja": "これを見せてください。",
+     "en": "Please show me this.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 243.0,
+     "end": 244.7,
+     "ja": "これをください。",
+     "en": "I'll take this, please.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 245.8,
+     "end": 247.6,
+     "ja": "これをください。",
+     "en": "I'll take this, please.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "0dBf_DAXNuc",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

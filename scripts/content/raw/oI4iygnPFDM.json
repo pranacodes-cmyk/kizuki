@@ -1,0 +1,63 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 34.9,
+   "end": 55.0,
+   "title": "Ways to Fly",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "sports"
+   ],
+   "grammar": [
+    "〜から — because / since",
+    "〜であっても — even if / even though",
+    "〜へ — direction / toward"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 35.2,
+     "end": 38.1,
+     "ja": "翼が無いから、人は飛び方を探すのだ。",
+     "en": "Because humans don't have wings, they look for a way to fly.",
+     "speaker": "Ukai"
+    },
+    {
+     "start": 38.2,
+     "end": 42.0,
+     "ja": "小さいことは、バレーボールに不利な要因であっても、",
+     "en": "Being short may be a disadvantage in volleyball,",
+     "speaker": "Hoshiumi"
+    },
+    {
+     "start": 42.1,
+     "end": 44.7,
+     "ja": "不能の要因では無い！",
+     "en": "but it is not a reason to say it's impossible!",
+     "speaker": "Hoshiumi"
+    },
+    {
+     "start": 48.5,
+     "end": 51.5,
+     "ja": "劇場版ハイキュー！！ VS 小さな巨人。",
+     "en": "Haikyu!! The Movie: VS The Little Giant.",
+     "speaker": "Hinata"
+    },
+    {
+     "start": 52.2,
+     "end": 54.5,
+     "ja": "さぁ、最高到達点へ。",
+     "en": "Now, to the highest point of reach.",
+     "speaker": "Hinata"
+    }
+   ]
+  }
+ ],
+ "videoId": "oI4iygnPFDM",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

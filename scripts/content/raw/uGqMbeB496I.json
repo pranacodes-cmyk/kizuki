@@ -1,0 +1,182 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 404.2,
+   "end": 417.2,
+   "title": "Kansai Food Isn't Delicate",
+   "level": "N3",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜って — speaking of / topic marker",
+    "〜やねん — Kansai dialect for 〜なのだ"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 404.2,
+     "end": 406.4,
+     "ja": "あのな、関西のご飯ってな、",
+     "en": "You know, Kansai food...",
+     "speaker": "Asagiinyo"
+    },
+    {
+     "start": 406.5,
+     "end": 409.0,
+     "ja": "こういう鉄板、あのお好み焼きとかって、",
+     "en": "Things cooked on a griddle, like okonomiyaki,",
+     "speaker": "Asagiinyo"
+    },
+    {
+     "start": 409.0,
+     "end": 411.3,
+     "ja": "繊細じゃないんよ。全然繊細じゃない。",
+     "en": "they aren't delicate. Not delicate at all.",
+     "speaker": "Asagiinyo"
+    },
+    {
+     "start": 411.5,
+     "end": 414.4,
+     "ja": "むしろもう大雑把って感じやねんけど、",
+     "en": "In fact, they feel totally rough and simple,",
+     "speaker": "Asagiinyo"
+    },
+    {
+     "start": 414.6,
+     "end": 416.8,
+     "ja": "それが美味しいの！",
+     "en": "but that's what makes them so good!",
+     "speaker": "Asagiinyo"
+    }
+   ]
+  },
+  {
+   "start": 725.5,
+   "end": 741.0,
+   "title": "Don't Get the Wrong Idea",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜みたいな — like / similar to",
+    "〜ないでください — please don't"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 725.8,
+     "end": 727.4,
+     "ja": "聞いてみたことあるんですよ。",
+     "en": "I actually asked him about that once.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 727.5,
+     "end": 730.8,
+     "ja": "「何でそんなに親戚の妹みたいな扱いするんですか？」って聞いたら、",
+     "en": "\"Why do you treat me like a younger cousin?\" I asked, and...",
+     "speaker": "Staff"
+    },
+    {
+     "start": 731.0,
+     "end": 733.6,
+     "ja": "「みんなにやってますよ。しおさんにだけじゃないですよ」って。",
+     "en": "he said, \"I do this for everyone. Not just for you, Shio-san.\"",
+     "speaker": "Staff"
+    },
+    {
+     "start": 734.8,
+     "end": 736.8,
+     "ja": "「勘違いしないでくださいね」って？",
+     "en": "Like, \"Don't get the wrong idea\"?",
+     "speaker": "Asagiinyo"
+    },
+    {
+     "start": 736.8,
+     "end": 738.5,
+     "ja": "そう、「勘違いしないで」って。",
+     "en": "Yeah, like \"Don't get the wrong idea!\"",
+     "speaker": "Staff"
+    },
+    {
+     "start": 739.0,
+     "end": 740.8,
+     "ja": "「勘違いはするな」と。",
+     "en": "\"Don't flatter yourself.\"",
+     "speaker": "Asagiinyo"
+    }
+   ]
+  },
+  {
+   "start": 784.5,
+   "end": 799.0,
+   "title": "Seiya's Reason for Living",
+   "level": "N4",
+   "topics": [
+    "work",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜っけ — recalling information",
+    "〜てもらえる — to receive a favor / have someone do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 784.6,
+     "end": 785.9,
+     "ja": "磯野星矢。",
+     "en": "Isono Seiya.",
+     "speaker": "Asagiinyo"
+    },
+    {
+     "start": 786.2,
+     "end": 787.0,
+     "ja": "はい。",
+     "en": "Yes?",
+     "speaker": "Seiya"
+    },
+    {
+     "start": 787.1,
+     "end": 788.0,
+     "ja": "おはよう。",
+     "en": "Good morning.",
+     "speaker": "Asagiinyo"
+    },
+    {
+     "start": 788.1,
+     "end": 789.5,
+     "ja": "おはようございます。",
+     "en": "Good morning.",
+     "speaker": "Seiya"
+    },
+    {
+     "start": 792.3,
+     "end": 794.5,
+     "ja": "磯野星矢の生き甲斐、何だったっけ？",
+     "en": "What was Isono Seiya's purpose in life again?",
+     "speaker": "Asagiinyo"
+    },
+    {
+     "start": 794.6,
+     "end": 798.2,
+     "ja": "生き甲斐は、「ありがとう」を言ってもらえることですね。",
+     "en": "My purpose in life is having people say \"thank you\" to me.",
+     "speaker": "Seiya"
+    }
+   ]
+  }
+ ],
+ "videoId": "uGqMbeB496I",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,181 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 21.0,
+   "end": 35.8,
+   "title": "Pronunciation of Okinawan Place Names",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜かわからない — don't know whether",
+    "〜て言う — to say that"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 21.3,
+     "end": 23.4,
+     "ja": "屋嘉を左方向です。",
+     "en": "Turn left at Yaka.",
+     "speaker": "Navi"
+    },
+    {
+     "start": 23.5,
+     "end": 26.6,
+     "ja": "およそ300メートル先、屋嘉を左方向です。",
+     "en": "In about 300 meters, turn left at Yaka.",
+     "speaker": "Navi"
+    },
+    {
+     "start": 26.8,
+     "end": 28.5,
+     "ja": "どっちの発音かわからへんね。",
+     "en": "I don't know which pronunciation is right.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 28.6,
+     "end": 30.5,
+     "ja": "屋嘉をって言ってたな。",
+     "en": "It said 'Yakao'.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 30.8,
+     "end": 32.1,
+     "ja": "次の信号左や。",
+     "en": "Left at the next traffic light.",
+     "speaker": "Man"
+    },
+    {
+     "start": 32.2,
+     "end": 34.0,
+     "ja": "そこも多分通ったことあるで。",
+     "en": "We've probably passed through there too.",
+     "speaker": "Man"
+    },
+    {
+     "start": 34.1,
+     "end": 35.5,
+     "ja": "うん、絶対あるよ。",
+     "en": "Yeah, definitely.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 414.8,
+   "end": 432.2,
+   "title": "A Strong Aroma of Guava",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜みたい — looks like / seems like",
+    "〜代わりになる — to serve as a substitute for"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 415.1,
+     "end": 417.4,
+     "ja": "グァバだってよ。あんな香んねんな。",
+     "en": "It was guava! It smells that strong, huh?",
+     "speaker": "Man"
+    },
+    {
+     "start": 420.5,
+     "end": 422.3,
+     "ja": "あんなレジ前にあるのにね。",
+     "en": "Even though it was just in front of the cash register.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 422.6,
+     "end": 425.9,
+     "ja": "もう売り場全体に、あの匂い。",
+     "en": "That smell filled the whole sales floor.",
+     "speaker": "Man"
+    },
+    {
+     "start": 426.0,
+     "end": 427.3,
+     "ja": "お犬様だ。",
+     "en": "Look, a doggie.",
+     "speaker": "Man"
+    },
+    {
+     "start": 427.7,
+     "end": 428.7,
+     "ja": "ほら。",
+     "en": "Look.",
+     "speaker": "Man"
+    },
+    {
+     "start": 428.8,
+     "end": 431.9,
+     "ja": "ほんとだ。ふわふわお犬様。",
+     "en": "You're right. A fluffy doggie.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 749.8,
+   "end": 760.6,
+   "title": "Checking the Unmanned Fruit Stand",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — if / when",
+    "〜て話や — apparently..."
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 750.1,
+     "end": 751.7,
+     "ja": "これこれ。ここの角やで。",
+     "en": "This is it, this corner right here.",
+     "speaker": "Man"
+    },
+    {
+     "start": 751.8,
+     "end": 754.2,
+     "ja": "で、ここにのぼりが出てたらって話やから。",
+     "en": "And the story was that if there's a banner up here...",
+     "speaker": "Man"
+    },
+    {
+     "start": 754.3,
+     "end": 755.7,
+     "ja": "そうね。",
+     "en": "Right.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 758.8,
+     "end": 760.3,
+     "ja": "何もないっしょ？",
+     "en": "There's nothing, right?",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "wMYE09DCkZE",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

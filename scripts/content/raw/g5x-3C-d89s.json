@@ -1,0 +1,194 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 90.0,
+   "end": 110.3,
+   "title": "Subject Omission in Daily Japanese",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜じゃないですか — isn't it / as you know",
+    "〜ていい — permission (may I...)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 90.0,
+     "end": 92.5,
+     "ja": "彼らが日本語学校で学ぶ教科書には、",
+     "en": "In the textbooks they study at Japanese language schools,",
+     "speaker": "Man"
+    },
+    {
+     "start": 92.5,
+     "end": 94.7,
+     "ja": "主語が付いて述語がちゃんと付いてる。",
+     "en": "there's a subject and clearly a predicate.",
+     "speaker": "Man"
+    },
+    {
+     "start": 94.7,
+     "end": 96.6,
+     "ja": "「私はお腹が空きました」",
+     "en": "'I have become hungry.'",
+     "speaker": "Man"
+    },
+    {
+     "start": 96.6,
+     "end": 98.7,
+     "ja": "「ご飯を食べに行ってもいいですか？」とか。",
+     "en": "'May I go eat a meal?' and things like that.",
+     "speaker": "Man"
+    },
+    {
+     "start": 98.7,
+     "end": 102.3,
+     "ja": "特にこれアメリカとかの言語だと必ず「I」とか付くじゃないですか。",
+     "en": "Especially in languages like American English, 'I' is always included, right?",
+     "speaker": "Man"
+    },
+    {
+     "start": 102.3,
+     "end": 106.8,
+     "ja": "でも日本人って普通日常会話で「私、今インタビューしてるんだけど」とかって言わないじゃないですか。",
+     "en": "But Japanese people don't say things like 'I am doing an interview now' in casual conversation, right?",
+     "speaker": "Man"
+    },
+    {
+     "start": 106.8,
+     "end": 108.0,
+     "ja": "みんなすごい省略して、",
+     "en": "Everyone shortens it a lot, saying,",
+     "speaker": "Man"
+    },
+    {
+     "start": 108.0,
+     "end": 109.1,
+     "ja": "「腹減ったな」",
+     "en": "'I'm hungry.'",
+     "speaker": "Man"
+    },
+    {
+     "start": 109.1,
+     "end": 110.3,
+     "ja": "「ケーキ食べに行っていい？」とか。",
+     "en": "'Can I go eat cake?' and so on.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 229.8,
+   "end": 247.0,
+   "title": "Onion Farming Experience in Awaji",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていらっしゃる — honorific progressive",
+    "〜らしい — it seems / I hear that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 229.8,
+     "end": 233.5,
+     "ja": "淡路島で玉ねぎ名産じゃないですか。あれを育ててる方がいらっしゃって、",
+     "en": "Onions are famous in Awaji Island, right? There was someone growing them,",
+     "speaker": "Man"
+    },
+    {
+     "start": 233.5,
+     "end": 237.2,
+     "ja": "その方がカンボジア人2人と日本人2人を雇ったんですね。",
+     "en": "and that person hired two Cambodians and two Japanese workers.",
+     "speaker": "Man"
+    },
+    {
+     "start": 237.2,
+     "end": 240.2,
+     "ja": "で、それぞれ20万円ずつ給料をあげてたんですけども、",
+     "en": "He paid each of them a salary of 200,000 yen,",
+     "speaker": "Man"
+    },
+    {
+     "start": 240.2,
+     "end": 244.3,
+     "ja": "カンボジア人の2人がすごいハングリーで、日本人の2倍収穫するらしいんです。",
+     "en": "and the two Cambodians were very hungry for work, harvesting twice as much as the Japanese.",
+     "speaker": "Man"
+    },
+    {
+     "start": 244.3,
+     "end": 247.0,
+     "ja": "片や日本人2人はあまりやる気がないというか。",
+     "en": "On the other hand, the two Japanese didn't really have much motivation.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 482.0,
+   "end": 501.5,
+   "title": "Asking About Festival Etiquette",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜てはいけない — must not do",
+    "〜てくれる — do a favor for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 482.0,
+     "end": 484.5,
+     "ja": "新宿の花園神社でお祭りがある。",
+     "en": "There was a festival at Hanazono Shrine in Shinjuku.",
+     "speaker": "Man"
+    },
+    {
+     "start": 484.5,
+     "end": 487.6,
+     "ja": "それを彼らは英語とロシア語で調べてきてたらしいんです。",
+     "en": "Apparently, they had looked it up beforehand in English and Russian.",
+     "speaker": "Man"
+    },
+    {
+     "start": 487.6,
+     "end": 491.5,
+     "ja": "「そこでやってはいけないマナーとかも教えてくださいね」って言ってくれたりとか、",
+     "en": "They even asked, 'Please tell us what manners or things we shouldn't do there.'",
+     "speaker": "Man"
+    },
+    {
+     "start": 491.5,
+     "end": 496.0,
+     "ja": "祭りを見る上での距離感っていうんですかね、そういったものを教えてもらえると嬉しいっていう。",
+     "en": "They said they'd be glad to learn the proper distance and etiquette for watching festivals.",
+     "speaker": "Man"
+    },
+    {
+     "start": 496.0,
+     "end": 501.5,
+     "ja": "特にSNSとかで悪目立ちしてる迷惑配信者がよく目立ってるんですけども。",
+     "en": "Especially since disruptive live streamers notorious on social media stand out a lot.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "g5x-3C-d89s",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

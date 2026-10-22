@@ -1,0 +1,178 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 24.5,
+   "end": 44.8,
+   "title": "Pouring and Drinking Water",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜に〜を入れる — put ... into ...",
+    "〜を飲む — drink ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 24.8,
+     "end": 27.5,
+     "ja": "これは水です。",
+     "en": "This is water.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 27.8,
+     "end": 30.4,
+     "ja": "これは水です。",
+     "en": "This is water.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 31.0,
+     "end": 34.4,
+     "ja": "コップに水を入れる。",
+     "en": "Pour water into the cup.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 35.3,
+     "end": 38.9,
+     "ja": "コップに水を入れる。",
+     "en": "Pour water into the cup.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 39.4,
+     "end": 44.2,
+     "ja": "コップの水を飲む。",
+     "en": "Drink the water from the cup.",
+     "speaker": "Yuta"
+    }
+   ]
+  },
+  {
+   "start": 125.2,
+   "end": 154.0,
+   "title": "Glass Cups Break When Dropped",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜と — conditional (when/if)",
+    "〜は〜です — A is B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 125.5,
+     "end": 128.5,
+     "ja": "このコップはガラスです。",
+     "en": "This cup is made of glass.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 128.8,
+     "end": 132.7,
+     "ja": "このコップはガラスです。",
+     "en": "This cup is made of glass.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 133.2,
+     "end": 138.5,
+     "ja": "ガラスのコップは落とすと割れます。",
+     "en": "If you drop a glass cup, it breaks.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 139.1,
+     "end": 144.5,
+     "ja": "ガラスのコップは落とすと割れます。",
+     "en": "If you drop a glass cup, it breaks.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 145.3,
+     "end": 146.8,
+     "ja": "パリーン。",
+     "en": "Crash!",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 147.3,
+     "end": 148.5,
+     "ja": "割れる。",
+     "en": "It breaks.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 148.8,
+     "end": 150.1,
+     "ja": "危ないです。",
+     "en": "It's dangerous.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 150.5,
+     "end": 153.8,
+     "ja": "ガラスのコップは落とすと割れます。",
+     "en": "If you drop a glass cup, it breaks.",
+     "speaker": "Yuta"
+    }
+   ]
+  },
+  {
+   "start": 423.0,
+   "end": 447.5,
+   "title": "Washing a Dirty Cup with a Sponge",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — if/when (conditional)",
+    "〜で — with / using (means)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 423.3,
+     "end": 428.0,
+     "ja": "コップが汚くなったら、皆さんは何をしますか？",
+     "en": "What do you do when a cup gets dirty?",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 428.6,
+     "end": 433.7,
+     "ja": "コップが汚くなったら、皆さんは何をしますか？",
+     "en": "What do you do when a cup gets dirty?",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 435.0,
+     "end": 441.8,
+     "ja": "コップが汚くなったら、スポンジでコップを洗います。",
+     "en": "When a cup gets dirty, wash it with a sponge.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 442.5,
+     "end": 447.2,
+     "ja": "スポンジでコップを洗います。",
+     "en": "Wash the cup with a sponge.",
+     "speaker": "Yuta"
+    }
+   ]
+  }
+ ],
+ "videoId": "bRecoD9OsaM",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

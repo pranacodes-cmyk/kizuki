@@ -1,0 +1,254 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 388.7,
+   "end": 411.0,
+   "title": "Ventilator Fan Advice",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜っぱなし — leaving something in a state",
+    "〜らしい — hearsay / it seems that",
+    "〜ておく — doing in advance"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 389.0,
+     "end": 390.8,
+     "ja": "で、対策としては、",
+     "en": "So, as for countermeasures,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 391.0,
+     "end": 392.8,
+     "ja": "あの、換気扇は、",
+     "en": "well, with the ventilation fan,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 393.0,
+     "end": 395.0,
+     "ja": "もうずっと付けっぱなしで",
+     "en": "apparently it's better to just",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 395.1,
+     "end": 397.0,
+     "ja": "いた方がいいらしいです。",
+     "en": "leave it running all the time.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 397.4,
+     "end": 399.8,
+     "ja": "ずっと付けっぱなしにしてても、",
+     "en": "Even if you leave it running non-stop,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 399.9,
+     "end": 403.0,
+     "ja": "1日2円とか3円とかだから、",
+     "en": "it only costs around 2 or 3 yen a day,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 403.6,
+     "end": 407.4,
+     "ja": "ほんと毎日ずっと付けっぱなしにしといてって、",
+     "en": "so my dad told me to make sure",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 408.0,
+     "end": 410.5,
+     "ja": "お父さんに言われたので、",
+     "en": "to leave it on every single day.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 700.0,
+   "end": 729.2,
+   "title": "Obsessed with Zootopia Characters",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜てくる — start to / become",
+    "〜ちゃう — unintended action / completely",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 700.3,
+     "end": 704.2,
+     "ja": "そう、ズートピアがね、最近自分の中で結構きてて、",
+     "en": "Yeah, Zootopia has really been growing on me recently,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 704.7,
+     "end": 706.8,
+     "ja": "ニックがね、いいの。",
+     "en": "and Nick is just great.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 708.6,
+     "end": 710.8,
+     "ja": "ニックね、すごい良い。",
+     "en": "Nick is really good.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 711.2,
+     "end": 713.0,
+     "ja": "あとは、フラッシュ。",
+     "en": "And then there's Flash.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 713.4,
+     "end": 716.5,
+     "ja": "フラッシュの、あのゆっくりとした感じがね、",
+     "en": "Flash's slow-paced vibe,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 717.6,
+     "end": 720.2,
+     "ja": "結構ツボに入っちゃって。",
+     "en": "I just find it completely hilarious.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 721.0,
+     "end": 724.2,
+     "ja": "あ、あとクロウハウザーも好き。",
+     "en": "Oh, and I like Clawhauser too.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 725.1,
+     "end": 726.1,
+     "ja": "可愛い。",
+     "en": "He's so cute.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 726.4,
+     "end": 728.8,
+     "ja": "なんか見てるとね、ドーナツ食べたくなってくる。",
+     "en": "Whenever I look at him, I start craving doughnuts.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 900.5,
+   "end": 921.0,
+   "title": "Unboxing the Flash Figure",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てる — ongoing state",
+    "〜てくる — go and do something",
+    "〜になる — to amount to / become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 900.8,
+     "end": 902.5,
+     "ja": "めっちゃ可愛いね！",
+     "en": "He's so cute!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 903.2,
+     "end": 904.9,
+     "ja": "やだ、可愛いねえ。",
+     "en": "Oh my gosh, he's adorable.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 906.1,
+     "end": 908.2,
+     "ja": "やば、目瞑ってんだけど。",
+     "en": "No way, his eyes are closed!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 910.8,
+     "end": 911.8,
+     "ja": "天才か！？",
+     "en": "Are you a genius?!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 911.9,
+     "end": 912.6,
+     "ja": "やった。",
+     "en": "Nice.",
+     "speaker": "Man"
+    },
+    {
+     "start": 912.8,
+     "end": 914.2,
+     "ja": "全部買ってこようかな。",
+     "en": "Maybe I should go buy all of them.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 914.4,
+     "end": 915.9,
+     "ja": "次これ当てられるよ、でも。",
+     "en": "I can guess this next one, though.",
+     "speaker": "Man"
+    },
+    {
+     "start": 916.1,
+     "end": 917.3,
+     "ja": "え、クロウハウザーも欲しい。",
+     "en": "Ooh, I want Clawhauser too.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 917.4,
+     "end": 918.5,
+     "ja": "これ確実だよ。",
+     "en": "This one's a sure thing.",
+     "speaker": "Man"
+    },
+    {
+     "start": 918.6,
+     "end": 920.5,
+     "ja": "でもそれで4000円になるで。",
+     "en": "But that would add up to 4,000 yen!",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "lRzkKExN7ec",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

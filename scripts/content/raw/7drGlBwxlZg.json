@@ -1,0 +1,289 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 14.0,
+   "end": 34.5,
+   "title": "Being Seated at a Family Restaurant",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜でよろしいでしょうか — polite confirmation",
+    "〜でございます — polite copula",
+    "お〜ください — honorific request"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 14.5,
+     "end": 16.0,
+     "ja": "お客様、３名様で？",
+     "en": "Table for three?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 16.0,
+     "end": 17.5,
+     "ja": "あっ、３名です。",
+     "en": "Ah, yes, three people.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 21.0,
+     "end": 23.5,
+     "ja": "こちらの席でよろしいでしょうか。どうぞ。",
+     "en": "Would this table be all right? Please, have a seat.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 24.5,
+     "end": 26.5,
+     "ja": "お冷はセルフサービスでございます。",
+     "en": "Water is self-service.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 26.8,
+     "end": 27.5,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 27.5,
+     "end": 29.2,
+     "ja": "ドリンクバーのお水をご利用ください。",
+     "en": "Please use the water at the drink bar.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 29.2,
+     "end": 31.8,
+     "ja": "お食事の時以外、マスクの着用をお願いいたします。",
+     "en": "Please wear a mask except when eating.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 31.5,
+     "end": 32.4,
+     "ja": "はーい。",
+     "en": "Sure.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 32.5,
+     "end": 33.8,
+     "ja": "失礼いたします。",
+     "en": "Excuse me.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 242.5,
+   "end": 268.0,
+   "title": "Ordering Food at the Table",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "お〜 — polite prefix",
+    "どちらがよろしいですか — polite choice question",
+    "〜で — selection particle"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 243.0,
+     "end": 244.8,
+     "ja": "チーズハンバーグと、",
+     "en": "A cheese hamburger steak, and...",
+     "speaker": "Mom"
+    },
+    {
+     "start": 245.2,
+     "end": 247.0,
+     "ja": "はい、チーズハンバーグがおひとつ。",
+     "en": "Right, one cheese hamburger steak.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 247.1,
+     "end": 248.5,
+     "ja": "お子様セット。",
+     "en": "The kids' meal set.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 248.8,
+     "end": 251.0,
+     "ja": "はい、お子様セット、こちらがおひとつ。",
+     "en": "Yes, one of the kids' meal sets.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 251.2,
+     "end": 253.5,
+     "ja": "お子様セット、ライスとパンはどちらがよろしいですか？",
+     "en": "For the kids' set, would you like rice or bread?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 253.5,
+     "end": 254.2,
+     "ja": "ライス。",
+     "en": "Rice.",
+     "speaker": "Child"
+    },
+    {
+     "start": 254.2,
+     "end": 255.2,
+     "ja": "ライスで。",
+     "en": "Rice, please.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 256.0,
+     "end": 261.5,
+     "ja": "そして、私がこの選べる小丼の包み焼きハンバーグ膳。",
+     "en": "And for me, this foil-baked hamburger meal with a mini rice bowl.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 262.5,
+     "end": 265.2,
+     "ja": "はい、選べる小丼の包み焼きハンバーグ膳。小丼は？",
+     "en": "Yes, the foil-baked hamburger meal. Which mini bowl?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 265.5,
+     "end": 266.6,
+     "ja": "このサーモン。",
+     "en": "This salmon one.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 266.8,
+     "end": 267.8,
+     "ja": "サーモンで。",
+     "en": "Salmon, got it.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 441.2,
+   "end": 466.0,
+   "title": "Paying with Points at the Register",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "お〜でしょうか — honorific question",
+    "かしこまりました — certainly / understood"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 441.5,
+     "end": 443.5,
+     "ja": "ポイントカードはお持ちでしょうか？",
+     "en": "Do you have a loyalty card?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 443.8,
+     "end": 445.5,
+     "ja": "えっと、これはまた違うんですか？",
+     "en": "Um, is this one different?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 445.5,
+     "end": 447.3,
+     "ja": "それとは違います。ファイブスターってやつです。",
+     "en": "It's different from that one. It's the Five Star one.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 447.3,
+     "end": 448.5,
+     "ja": "あ、あります。",
+     "en": "Ah, I have it.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 452.5,
+     "end": 453.2,
+     "ja": "はい。",
+     "en": "Here.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 453.2,
+     "end": 454.5,
+     "ja": "はい、ありがとうございます。",
+     "en": "Yes, thank you.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 456.5,
+     "end": 458.0,
+     "ja": "ポイントのご利用はよろしいですか？",
+     "en": "Would you like to use your points?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 458.2,
+     "end": 459.5,
+     "ja": "あっ、使ってください。",
+     "en": "Ah, please use them.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 459.8,
+     "end": 461.5,
+     "ja": "えーと、５８ポイント全部でよろしいですか？",
+     "en": "Um, all 58 points?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 461.5,
+     "end": 462.5,
+     "ja": "はい、お願いします。",
+     "en": "Yes, please.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 462.5,
+     "end": 465.0,
+     "ja": "はい、かしこまりました。４，０８９円でございますね。",
+     "en": "Understood. That comes to 4,089 yen.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 465.0,
+     "end": 465.8,
+     "ja": "は〜い。",
+     "en": "Okay.",
+     "speaker": "Mom"
+    }
+   ]
+  }
+ ],
+ "videoId": "7drGlBwxlZg",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

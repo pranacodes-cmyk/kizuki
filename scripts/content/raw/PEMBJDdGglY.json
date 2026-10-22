@@ -1,0 +1,216 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 8.5,
+   "end": 29.8,
+   "title": "The Start of Oiyama",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜出す — start doing",
+    "〜ところで — at the point when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 8.8,
+     "end": 11.2,
+     "ja": "午前４時59分、",
+     "en": "At 4:59 a.m.,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 11.2,
+     "end": 15.0,
+     "ja": "一番山の舁き山が動き出す。",
+     "en": "the first kakiyama float begins to move.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 15.5,
+     "end": 18.5,
+     "ja": "博多祇園山笠のフィナーレを飾る",
+     "en": "Marking the grand finale of the Hakata Gion Yamakasa,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 18.5,
+     "end": 22.0,
+     "ja": "追い山の始まりです。",
+     "en": "this is the beginning of Oiyama.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 22.5,
+     "end": 25.5,
+     "ja": "櫛田神社の境内に入り、",
+     "en": "Entering the grounds of Kushida Shrine,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 25.5,
+     "end": 29.5,
+     "ja": "清道旗を回ったところで一度止まります。",
+     "en": "it comes to a temporary stop after circling the Seido flag.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 117.5,
+   "end": 148.5,
+   "title": "The 5 km Course Through Hakata",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜と呼ばれる — called / known as",
+    "〜たり〜たり — doing things like A and B",
+    "〜わけではない — does not mean that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 117.7,
+     "end": 120.8,
+     "ja": "流と呼ばれる町の集合体が、",
+     "en": "Town district associations known as 'nagare'",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 121.0,
+     "end": 123.6,
+     "ja": "それぞれ毎年テーマを決め、",
+     "en": "each choose a theme every year,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 123.7,
+     "end": 126.5,
+     "ja": "個性豊かな山を作り上げます。",
+     "en": "crafting highly unique floats.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 126.5,
+     "end": 128.8,
+     "ja": "櫛田神社を出た後、",
+     "en": "After leaving Kushida Shrine,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 128.8,
+     "end": 132.5,
+     "ja": "舁き山はおよそ５キロのコースを走ります。",
+     "en": "the kakiyama floats run a course of about 5 kilometers.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 132.8,
+     "end": 136.0,
+     "ja": "広い道路から細い路地へ入ったり、",
+     "en": "Entering narrow alleyways from wide streets,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 136.0,
+     "end": 140.0,
+     "ja": "急なカーブを曲がったりと難所も多い。",
+     "en": "and turning sharp corners, there are many tricky spots.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 140.3,
+     "end": 144.0,
+     "ja": "そして廻り止めと呼ばれるゴールを目指します。",
+     "en": "They then head toward the finish line called mawaridome.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 144.2,
+     "end": 146.3,
+     "ja": "タイムも計測していますが、",
+     "en": "Times are officially measured,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 146.3,
+     "end": 148.2,
+     "ja": "競っているわけではありません。",
+     "en": "but it is not a race.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 156.0,
+   "end": 218.0,
+   "title": "The Giant Running Float",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜た後 — after doing",
+    "〜にわたる — spanning over"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 156.2,
+     "end": 159.5,
+     "ja": "７基の舁き山が櫛田入りした後、",
+     "en": "After the seven kakiyama floats enter Kushida,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 159.8,
+     "end": 162.5,
+     "ja": "最後の８番目に登場するのが、",
+     "en": "the final, eighth entry to appear is",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 162.5,
+     "end": 166.5,
+     "ja": "走る飾り山、上川端通。",
+     "en": "the running decorative float of Kamikawabatadori.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 207.0,
+     "end": 210.5,
+     "ja": "博多祇園山笠のフィナーレを飾る追い山。",
+     "en": "Oiyama, crowning the finale of Hakata Gion Yamakasa.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 211.0,
+     "end": 214.0,
+     "ja": "長きにわたる伝統を継承し、",
+     "en": "Carrying on a longstanding tradition,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 214.2,
+     "end": 217.5,
+     "ja": "男たちは博多の街を駆け抜けます。",
+     "en": "the men sprint through the streets of Hakata.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "PEMBJDdGglY",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

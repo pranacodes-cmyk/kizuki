@@ -1,0 +1,47 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 451.7,
+   "end": 459.0,
+   "title": "Starting a Remote Work Meeting",
+   "level": "N5",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "お疲れ様 — work greeting / set phrase"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 452.0,
+     "end": 454.0,
+     "ja": "お疲れ様です。",
+     "en": "Hello, thank you for your hard work.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 454.2,
+     "end": 456.2,
+     "ja": "お疲れ様です。",
+     "en": "Hello.",
+     "speaker": "Colleague"
+    },
+    {
+     "start": 456.3,
+     "end": 458.2,
+     "ja": "お願いします。",
+     "en": "Let's get started.",
+     "speaker": "Colleague"
+    }
+   ]
+  }
+ ],
+ "videoId": "BKJTJ1JHM0c",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

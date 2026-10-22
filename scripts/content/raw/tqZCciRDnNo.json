@@ -1,0 +1,302 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.4,
+   "end": 55.4,
+   "title": "Ordering at a Chinese Restaurant",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜枚 — counter for flat objects",
+    "〜でよろしいですか — polite confirmation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 24.3,
+     "end": 28.5,
+     "ja": "豚キムチ炒めの定食セット一つ。",
+     "en": "One pork and kimchi stir-fry set meal, please.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 28.8,
+     "end": 30.6,
+     "ja": "豚キムチ炒めの定食ですね。",
+     "en": "The pork and kimchi stir-fry set meal, right?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 30.8,
+     "end": 31.8,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 33.1,
+     "end": 36.9,
+     "ja": "と、えーっと餃子を３枚。",
+     "en": "And, um, three plates of gyoza.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 37.7,
+     "end": 39.0,
+     "ja": "餃子が３枚。",
+     "en": "Three plates of gyoza.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 39.2,
+     "end": 40.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 41.5,
+     "end": 44.8,
+     "ja": "あと、あのー、半チャーハン一つ。",
+     "en": "And also, um, one half fried rice.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 45.4,
+     "end": 46.5,
+     "ja": "半チャーハン一つ。",
+     "en": "One half fried rice.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 46.9,
+     "end": 47.9,
+     "ja": "以上で。",
+     "en": "That's all.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 48.4,
+     "end": 49.8,
+     "ja": "はい、ご確認いたします。",
+     "en": "All right, let me confirm your order.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 50.1,
+     "end": 53.6,
+     "ja": "豚キムチ炒めの定食セットと、餃子が３枚、半チャーハンでよろしいですか？",
+     "en": "The pork and kimchi set meal, three plates of gyoza, and a half fried rice, is that correct?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 53.8,
+     "end": 54.4,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 54.5,
+     "end": 55.4,
+     "ja": "はい、お待ちください。",
+     "en": "All right, please wait a moment.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 100.8,
+   "end": 128.8,
+   "title": "Ordering a Burger Set",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜ができる — can do",
+    "〜でお願いします — please give me..."
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 101.1,
+     "end": 103.0,
+     "ja": "クラシックアボカドバーガーの…",
+     "en": "The classic avocado burger...",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 103.2,
+     "end": 105.7,
+     "ja": "はい、クラシックアボカドバーガー、お一つ。",
+     "en": "Yes, one classic avocado burger.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 105.8,
+     "end": 107.0,
+     "ja": "これってセット…",
+     "en": "For this, is there a set...?",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 107.1,
+     "end": 108.6,
+     "ja": "はい、セットはこちらですね。",
+     "en": "Yes, the sets are right here.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 108.8,
+     "end": 110.8,
+     "ja": "ドリンクとサイドメニューをつけることができます。",
+     "en": "You can add a drink and a side menu.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 111.0,
+     "end": 112.9,
+     "ja": "じゃあ、レギュラーセットで。",
+     "en": "Then with the regular set, please.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 113.1,
+     "end": 115.6,
+     "ja": "はい、ではドリンク・サイドメニューをお願いいたします。",
+     "en": "All right, please choose your drink and side item.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 118.8,
+     "end": 120.2,
+     "ja": "爽健美茶。",
+     "en": "Sokenbicha tea.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 120.3,
+     "end": 122.2,
+     "ja": "はい、ドリンクが爽健美茶。",
+     "en": "Yes, the drink is Sokenbicha.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 122.3,
+     "end": 124.5,
+     "ja": "北海道産のフライドポテト。",
+     "en": "Hokkaido french fries.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 124.7,
+     "end": 126.3,
+     "ja": "北海道産のフライドポテト。",
+     "en": "Hokkaido french fries.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 127.0,
+     "end": 127.8,
+     "ja": "以上で。",
+     "en": "That's all.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 127.9,
+     "end": 128.8,
+     "ja": "以上でよろしいですか？",
+     "en": "Will that be all?",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 128.8,
+   "end": 160.0,
+   "title": "Paying and Getting the Number Card",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "お召し上がり — polite form of eating",
+    "〜でお待ちください — please wait with / at ..."
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 128.9,
+     "end": 129.8,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 129.9,
+     "end": 132.2,
+     "ja": "お客様こちらでお召し上がりですか？",
+     "en": "Will you be dining in today?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 132.3,
+     "end": 133.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 133.1,
+     "end": 135.5,
+     "ja": "お会計が１２９０円でございます。",
+     "en": "Your total is 1,290 yen.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 144.9,
+     "end": 149.2,
+     "ja": "はい、ではこちら失礼します。１０００と３００円お預かりいたします。",
+     "en": "Excuse me. Out of 1,300 yen.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 152.0,
+     "end": 155.6,
+     "ja": "こちら、レシートのお渡しと、１０円のお返しです。",
+     "en": "Here is your receipt and 10 yen change.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 156.4,
+     "end": 158.5,
+     "ja": "番号札４０番でお待ちください。",
+     "en": "Please wait with number card 40.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 158.8,
+     "end": 159.9,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Staff"
+    }
+   ]
+  }
+ ],
+ "videoId": "tqZCciRDnNo",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

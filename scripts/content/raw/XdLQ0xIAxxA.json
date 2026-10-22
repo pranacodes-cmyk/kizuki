@@ -1,0 +1,281 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 120.3,
+   "end": 146.5,
+   "title": "Deciding What to Eat for Lunch",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜じゃね — isn't it / how about",
+    "〜てんの — contraction of 〜ているの"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 120.7,
+     "end": 122.2,
+     "ja": "てか、何食う？",
+     "en": "By the way, what should we eat?",
+     "speaker": "A"
+    },
+    {
+     "start": 126.8,
+     "end": 128.0,
+     "ja": "言ってくれえ？せめて。",
+     "en": "At least tell me you're filming!",
+     "speaker": "B"
+    },
+    {
+     "start": 128.0,
+     "end": 129.5,
+     "ja": "ごめんごめんごめん。",
+     "en": "Sorry, sorry, sorry!",
+     "speaker": "A"
+    },
+    {
+     "start": 130.6,
+     "end": 132.0,
+     "ja": "ラーメンじゃね？",
+     "en": "How about ramen?",
+     "speaker": "C"
+    },
+    {
+     "start": 132.8,
+     "end": 134.3,
+     "ja": "ぽんぷ行くか？",
+     "en": "Shall we go to Ponpu?",
+     "speaker": "A"
+    },
+    {
+     "start": 134.8,
+     "end": 136.2,
+     "ja": "いいっしょ！ぽんぷで。",
+     "en": "Sounds good! Let's do Ponpu.",
+     "speaker": "C"
+    },
+    {
+     "start": 136.4,
+     "end": 139.0,
+     "ja": "なんで、お前そんなに主導権握ってんの？",
+     "en": "Why are you taking full control like that?",
+     "speaker": "A"
+    },
+    {
+     "start": 142.1,
+     "end": 143.2,
+     "ja": "ぽんぷ？",
+     "en": "Ponpu?",
+     "speaker": "A"
+    },
+    {
+     "start": 144.5,
+     "end": 146.0,
+     "ja": "ぽんぷ行くか。",
+     "en": "Let's go to Ponpu.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 368.1,
+   "end": 395.2,
+   "title": "A Fishmonger's Son's Favorite Food",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜てた — casual past continuous (〜ていた)",
+    "〜からさ — because / as you know"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 368.6,
+     "end": 371.7,
+     "ja": "美波里ってさ、魚屋の息子なの？",
+     "en": "Bibari, are you the son of a fishmonger?",
+     "speaker": "A"
+    },
+    {
+     "start": 372.1,
+     "end": 373.8,
+     "ja": "うん、元ね。",
+     "en": "Yeah, originally.",
+     "speaker": "B"
+    },
+    {
+     "start": 374.0,
+     "end": 377.3,
+     "ja": "へえ、じゃあ毎日魚とか食ってたんだ。",
+     "en": "I see. So you ate fish every day, then.",
+     "speaker": "A"
+    },
+    {
+     "start": 377.5,
+     "end": 379.0,
+     "ja": "う〜ん、そうだね〜。",
+     "en": "Yeah, pretty much.",
+     "speaker": "B"
+    },
+    {
+     "start": 379.3,
+     "end": 380.7,
+     "ja": "一番好きな食べ物何？",
+     "en": "What's your favorite food?",
+     "speaker": "A"
+    },
+    {
+     "start": 380.9,
+     "end": 384.5,
+     "ja": "一番好きな食べ物？何だろうなあ〜。",
+     "en": "Favorite food? Hmm, I wonder.",
+     "speaker": "B"
+    },
+    {
+     "start": 385.7,
+     "end": 387.1,
+     "ja": "カレーかなあ。",
+     "en": "Curry, maybe.",
+     "speaker": "B"
+    },
+    {
+     "start": 387.6,
+     "end": 389.7,
+     "ja": "関係ねえじゃん！魚ｗ",
+     "en": "That has nothing to do with fish!",
+     "speaker": "A"
+    },
+    {
+     "start": 390.1,
+     "end": 391.8,
+     "ja": "シーフードカレーとかあるからさ。",
+     "en": "Well, there's seafood curry and stuff.",
+     "speaker": "B"
+    },
+    {
+     "start": 392.2,
+     "end": 393.5,
+     "ja": "そういうことねｗ",
+     "en": "Oh, that's what you mean!",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 400.0,
+   "end": 424.5,
+   "title": "The Only Food I Cannot Eat",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜れない — potential negative (cannot do)",
+    "〜たことある — have experienced doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 400.6,
+     "end": 403.7,
+     "ja": "俺、唯一食べれないものが１つだけあって。",
+     "en": "There's only one thing in the world I can't eat.",
+     "speaker": "B"
+    },
+    {
+     "start": 404.1,
+     "end": 405.0,
+     "ja": "バナナね！",
+     "en": "Bananas!",
+     "speaker": "A"
+    },
+    {
+     "start": 405.3,
+     "end": 407.2,
+     "ja": "うん、って言っちゃうの？",
+     "en": "Yeah... wait, you're blurting it out?",
+     "speaker": "B"
+    },
+    {
+     "start": 407.8,
+     "end": 409.8,
+     "ja": "なんでバナナ嫌いなんだっけなー？",
+     "en": "Why did you hate bananas again?",
+     "speaker": "A"
+    },
+    {
+     "start": 410.2,
+     "end": 411.5,
+     "ja": "バナナ嫌いな人いなくね？",
+     "en": "Isn't there nobody who hates bananas?",
+     "speaker": "A"
+    },
+    {
+     "start": 411.7,
+     "end": 413.5,
+     "ja": "小学校２年生以降食べてない。",
+     "en": "I haven't eaten one since second grade.",
+     "speaker": "B"
+    },
+    {
+     "start": 413.7,
+     "end": 416.7,
+     "ja": "その時まずいなと思って、そっから食わず嫌い？",
+     "en": "You thought it was gross back then, and avoided it ever since?",
+     "speaker": "A"
+    },
+    {
+     "start": 417.0,
+     "end": 418.5,
+     "ja": "食感、食感も味も。",
+     "en": "The texture... both texture and taste.",
+     "speaker": "B"
+    },
+    {
+     "start": 418.8,
+     "end": 420.2,
+     "ja": "バナナジュース飲んだことある？",
+     "en": "Have you ever tried banana juice?",
+     "speaker": "A"
+    },
+    {
+     "start": 420.4,
+     "end": 421.2,
+     "ja": "ない。",
+     "en": "No.",
+     "speaker": "B"
+    },
+    {
+     "start": 421.4,
+     "end": 422.3,
+     "ja": "ばかうまいぞ。",
+     "en": "It's ridiculously good.",
+     "speaker": "A"
+    },
+    {
+     "start": 422.5,
+     "end": 423.8,
+     "ja": "うまいよねえ。",
+     "en": "It really is.",
+     "speaker": "C"
+    }
+   ]
+  }
+ ],
+ "videoId": "XdLQ0xIAxxA",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

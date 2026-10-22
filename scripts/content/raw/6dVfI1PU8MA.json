@@ -1,0 +1,225 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 228.2,
+   "end": 254.9,
+   "title": "Proper Etiquette for Boarding a Train",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜かもしれない — might / perhaps",
+    "〜ましょう — let's"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 228.5,
+     "end": 230.8,
+     "ja": "さぁ電車が到着しました。",
+     "en": "Now the train has arrived.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 231.0,
+     "end": 233.8,
+     "ja": "まずはドア付近を開けて降りる人を通しましょう。",
+     "en": "First, let's clear the doorway to let passengers off.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 234.0,
+     "end": 238.0,
+     "ja": "よくあるパターンはドアの横まで移動して降りる人を待つのがセオリーですが、",
+     "en": "Standard practice is usually to move to the side of the door and wait for people to exit, but",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 238.2,
+     "end": 240.8,
+     "ja": "駅によっては並んでいる位置から動かず、",
+     "en": "at some stations, without moving from the waiting line,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 241.0,
+     "end": 244.8,
+     "ja": "降りる人が済んでから動き出してくださいってパターンがありますね。",
+     "en": "you are supposed to start moving only after everyone finishes getting off.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 245.0,
+     "end": 247.3,
+     "ja": "ちょっと難しいかもしれませんが、",
+     "en": "It might be a bit tricky, but",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 247.5,
+     "end": 250.4,
+     "ja": "周りの人に合わせるのがベターですね。",
+     "en": "it's best to match the people around you.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 250.8,
+     "end": 254.6,
+     "ja": "降りる人が済んだら前の人に続いて乗車しましょう。",
+     "en": "Once people have gotten off, board following the person in front.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 254.8,
+   "end": 281.2,
+   "title": "Move Toward the Inside of the Train Car",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — when / if",
+    "〜のに — even though",
+    "〜のせいで — because of (negative result)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 255.0,
+     "end": 256.8,
+     "ja": "この時、電車に乗り込んだら",
+     "en": "At this point, once you board the train,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 257.0,
+     "end": 259.9,
+     "ja": "左右に分かれて座席の前に移動しましょう。",
+     "en": "let's split left and right and move toward the space in front of the seats.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 260.1,
+     "end": 262.1,
+     "ja": "座席の前はスカスカなのに、",
+     "en": "Even though it's empty in front of the seats,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 262.3,
+     "end": 265.3,
+     "ja": "ドア付近だけギュウギュウってパターンが一番多いです。",
+     "en": "it's most common for it to be jammed only near the doors.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 265.5,
+     "end": 269.3,
+     "ja": "そのせいで電車に乗り切れない人がいることも多々あります。",
+     "en": "Because of that, there are often people who cannot get on the train.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 269.5,
+     "end": 273.9,
+     "ja": "電車の奥に行ったら降りれなくなるかもしれないと思われるかもしれませんが、",
+     "en": "You might think you won't be able to get off if you move deep inside, but",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 274.1,
+     "end": 278.3,
+     "ja": "皆さんが降りる駅は大体決まっているので普通に降りれます。",
+     "en": "the stations people get off at are mostly predictable, so you can exit normally.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 278.5,
+     "end": 280.9,
+     "ja": "なのでとりあえず奥に詰めてください。",
+     "en": "So please just move inside.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 407.9,
+   "end": 436.2,
+   "title": "Step Onto the Platform to Let Others Off",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜なら — if (hypothetical)",
+    "〜によって — due to / depending on",
+    "〜てしまう — ends up doing (regrettable action)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 408.2,
+     "end": 411.2,
+     "ja": "さぁ電車に乗って次の駅に到着しました。",
+     "en": "Now, you are on the train and have arrived at the next station.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 411.5,
+     "end": 415.5,
+     "ja": "あなたがもしドア付近に立っているなら一旦ホームに降りましょう。",
+     "en": "If you are standing near the door, step onto the platform momentarily.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 416.0,
+     "end": 420.0,
+     "ja": "なんでそんなことをしないといけないのかと思われるかもしれませんが、",
+     "en": "You might wonder why you have to do such a thing, but",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 420.2,
+     "end": 424.8,
+     "ja": "あなたがそのドア前で立つことによって降りる人が降りれなくなっています。",
+     "en": "by standing in front of the door, you prevent passengers from exiting.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 425.0,
+     "end": 426.8,
+     "ja": "はっきり言いましょう。",
+     "en": "Let's be frank.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 427.0,
+     "end": 431.5,
+     "ja": "多くのお客さんが降りる駅で１人がドアの前で立っていればめちゃくちゃ邪魔です。",
+     "en": "At a station where many get off, one person standing in front of the door is a huge obstruction.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 431.8,
+     "end": 435.8,
+     "ja": "人の流れが悪くなって乗降に時間がかかってしまいます。",
+     "en": "The passenger flow worsens and boarding and exiting takes too long.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "6dVfI1PU8MA",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

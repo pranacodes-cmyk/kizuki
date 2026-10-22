@@ -1,0 +1,267 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 146.3,
+   "end": 168.5,
+   "title": "Debating Today's Weather",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜が降る — to precipitate / rain",
+    "〜よ — particle giving assertion or new information"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 146.6,
+     "end": 150.0,
+     "ja": "お父さん、今日は雨が降ります。",
+     "en": "Dad, it's going to rain today.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 150.8,
+     "end": 152.5,
+     "ja": "降らんよ。",
+     "en": "It won't rain.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 153.3,
+     "end": 160.0,
+     "ja": "昨日の先生が、今日の日付は雨書いたよ。",
+     "en": "Yesterday the teacher wrote rain for today's date.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 160.4,
+     "end": 162.0,
+     "ja": "今日ほら、晴れ。",
+     "en": "Look, it's sunny today.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 162.1,
+     "end": 163.0,
+     "ja": "いいえ。",
+     "en": "No.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 163.1,
+     "end": 164.0,
+     "ja": "晴れ。",
+     "en": "It's sunny.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 164.1,
+     "end": 165.0,
+     "ja": "いいえ。",
+     "en": "No.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 165.2,
+     "end": 167.2,
+     "ja": "じゃあ昼間あったかいの？",
+     "en": "Then is it warm during the day?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 167.3,
+     "end": 168.5,
+     "ja": "11度。",
+     "en": "11 degrees.",
+     "speaker": "Dad"
+    }
+   ]
+  },
+  {
+   "start": 310.5,
+   "end": 339.0,
+   "title": "Talking About School Minestrone",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜でしょ — right? (tag question)",
+    "〜って言ってた — said that (reported speech)",
+    "〜てくる — to go and do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 310.8,
+     "end": 313.2,
+     "ja": "学校で出るでしょ、ミネストローネ。",
+     "en": "You get minestrone at school, right?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 313.5,
+     "end": 315.2,
+     "ja": "うん、結構出る。",
+     "en": "Yeah, we get it pretty often.",
+     "speaker": "Son A"
+    },
+    {
+     "start": 315.5,
+     "end": 316.5,
+     "ja": "何？",
+     "en": "What?",
+     "speaker": "Son B"
+    },
+    {
+     "start": 316.6,
+     "end": 319.5,
+     "ja": "そうちゃん、トマトのスープ出るって言ってたじゃん、学校で。",
+     "en": "So-chan, you said you get tomato soup at school, right?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 319.8,
+     "end": 320.6,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Son B"
+    },
+    {
+     "start": 320.8,
+     "end": 322.5,
+     "ja": "同じ味でしょ？",
+     "en": "It's the same taste, right?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 328.8,
+     "end": 331.0,
+     "ja": "ちょっと違うね。",
+     "en": "It's a little different.",
+     "speaker": "Son B"
+    },
+    {
+     "start": 331.5,
+     "end": 333.4,
+     "ja": "少しだけ違う？",
+     "en": "Just a little different?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 333.6,
+     "end": 335.8,
+     "ja": "僕ミネストローネ好きだよ。",
+     "en": "I like minestrone.",
+     "speaker": "Son A"
+    },
+    {
+     "start": 336.0,
+     "end": 338.0,
+     "ja": "あ、そうなの？じゃあもっと入れてくる？",
+     "en": "Oh, really? Should I get you some more then?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 338.2,
+     "end": 339.0,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Son A"
+    }
+   ]
+  },
+  {
+   "start": 400.8,
+   "end": 418.8,
+   "title": "Organizing the New Travel Pouch",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜ようとする — to intend/try to do",
+    "〜やっけ — recall question marker (colloquial)",
+    "〜じゃない — isn't it? (seeking agreement)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 401.0,
+     "end": 404.0,
+     "ja": "お、ええやん！予想通りじゃない？",
+     "en": "Oh, that's great! Isn't it just as expected?",
+     "speaker": "Dad"
+    },
+    {
+     "start": 404.2,
+     "end": 404.8,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 405.0,
+     "end": 407.0,
+     "ja": "何を入れようとしたんやっけ？",
+     "en": "What were you planning to put inside again?",
+     "speaker": "Dad"
+    },
+    {
+     "start": 407.1,
+     "end": 408.5,
+     "ja": "この辺の。",
+     "en": "These kinds of things.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 409.8,
+     "end": 412.5,
+     "ja": "なんかそれ、ポーチ買わんかったっけ？",
+     "en": "Wait, didn't you buy a pouch for that?",
+     "speaker": "Dad"
+    },
+    {
+     "start": 413.5,
+     "end": 415.2,
+     "ja": "それ薬用でしょ？",
+     "en": "That's for medicine, right?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 415.5,
+     "end": 416.8,
+     "ja": "薬か！",
+     "en": "Medicine, right!",
+     "speaker": "Dad"
+    },
+    {
+     "start": 417.0,
+     "end": 418.2,
+     "ja": "化粧品か。",
+     "en": "So this is for cosmetics.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 418.3,
+     "end": 418.8,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Mom"
+    }
+   ]
+  }
+ ],
+ "videoId": "STAA-5xCVco",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

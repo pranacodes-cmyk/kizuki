@@ -1,0 +1,224 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 18.7,
+   "end": 37.0,
+   "title": "A Baseball Manga Scene",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "sports",
+    "anime"
+   ],
+   "grammar": [
+    "〜っていう — called / named",
+    "〜やんか — you know ... (Kansai dialect confirmation)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 19.0,
+     "end": 20.8,
+     "ja": "あの、ちょっといきなりやけどね、",
+     "en": "Um, this is a bit sudden, but...",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 20.8,
+     "end": 21.6,
+     "ja": "はいはい。",
+     "en": "Yeah, yeah.",
+     "speaker": "Kimura"
+    },
+    {
+     "start": 21.6,
+     "end": 24.4,
+     "ja": "あの『ダイナマイトストレート』っていう野球漫画あるやんか。",
+     "en": "You know that baseball manga called \"Dynamite Straight\"?",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 24.4,
+     "end": 25.8,
+     "ja": "『ダイナマイトストレート』？",
+     "en": "\"Dynamite Straight\"?",
+     "speaker": "Kimura"
+    },
+    {
+     "start": 25.8,
+     "end": 28.0,
+     "ja": "うん。あれね、俺めっちゃ好きでさ。",
+     "en": "Yeah. I really love that one.",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 28.0,
+     "end": 29.7,
+     "ja": "あ、俺それ知らんわ、多分。",
+     "en": "Ah, I probably don't know it.",
+     "speaker": "Kimura"
+    },
+    {
+     "start": 29.7,
+     "end": 33.7,
+     "ja": "漫画の中でもね、甲子園の決勝のシーンがもうめっちゃ好きやからね、",
+     "en": "Out of the whole manga, I really love the Koshien final scene,",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 33.7,
+     "end": 34.7,
+     "ja": "ああ、そうなんや。",
+     "en": "Ah, is that so?",
+     "speaker": "Kimura"
+    },
+    {
+     "start": 34.7,
+     "end": 36.6,
+     "ja": "今日ちょっとね、2人でその感じやってみよう。",
+     "en": "Let's try acting that out together today.",
+     "speaker": "Akagi"
+    }
+   ]
+  },
+  {
+   "start": 124.7,
+   "end": 137.3,
+   "title": "Where Is Junki Going?",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "sports"
+   ],
+   "grammar": [
+    "〜しか…ない — only / nothing but",
+    "〜じゃないと — unless / if it's not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 125.0,
+     "end": 126.5,
+     "ja": "なんでジュンキが出てないんすか？",
+     "en": "Why isn't Junki playing?",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 126.5,
+     "end": 128.8,
+     "ja": "いや、ジュンキは出てる。ジュンキしか出ないですから。",
+     "en": "No, Junki is playing. Only Junki plays.",
+     "speaker": "Kimura"
+    },
+    {
+     "start": 128.8,
+     "end": 131.0,
+     "ja": "ジュンキじゃないと、本気の球投げられないっすよ！",
+     "en": "If it's not Junki, I can't throw my serious pitches!",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 131.0,
+     "end": 132.4,
+     "ja": "ジュンキは出すって言ってるやんか、そしたら。",
+     "en": "I'm telling you Junki will play, then!",
+     "speaker": "Kimura"
+    },
+    {
+     "start": 132.4,
+     "end": 133.8,
+     "ja": "ちょっと待てよ、ジュンキ！",
+     "en": "Wait up, Junki!",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 133.8,
+     "end": 134.8,
+     "ja": "ジュンキ、",
+     "en": "Junki,",
+     "speaker": "Kimura"
+    },
+    {
+     "start": 134.8,
+     "end": 135.8,
+     "ja": "どこ行くんだよ！",
+     "en": "Where are you going?!",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 135.8,
+     "end": 136.8,
+     "ja": "ジュンキー！",
+     "en": "Junki-!",
+     "speaker": "Kimura"
+    }
+   ]
+  },
+  {
+   "start": 223.1,
+   "end": 234.3,
+   "title": "Throw the Dynamite Straight!",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "sports",
+    "fun"
+   ],
+   "grammar": [
+    "〜ろ — imperative form",
+    "〜やろ — right? (Kansai dialect confirmation)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 223.4,
+     "end": 225.4,
+     "ja": "やった！三振だ！俺たちの勝利！",
+     "en": "Yes! Strikeout! We won!",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 225.4,
+     "end": 227.5,
+     "ja": "ダイナマイトストレート投げろよ！",
+     "en": "Throw the Dynamite Straight!",
+     "speaker": "Kimura"
+    },
+    {
+     "start": 227.7,
+     "end": 229.7,
+     "ja": "なんでドラゴンスクリュー投げるんすか？",
+     "en": "Why are you throwing a dragon screw?",
+     "speaker": "Kimura"
+    },
+    {
+     "start": 229.7,
+     "end": 231.4,
+     "ja": "なあ、この漫画めっちゃおもろいやろ？",
+     "en": "Hey, isn't this manga hilarious?",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 231.4,
+     "end": 232.8,
+     "ja": "ていうか、面白くない、これ。",
+     "en": "Actually, this isn't funny at all.",
+     "speaker": "Kimura"
+    },
+    {
+     "start": 232.8,
+     "end": 234.0,
+     "ja": "どうもありがとうございました。",
+     "en": "Thank you very much.",
+     "speaker": "Both"
+    }
+   ]
+  }
+ ],
+ "videoId": "eKB3Xv3Ip1U",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

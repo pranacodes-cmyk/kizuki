@@ -1,0 +1,181 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 32.5,
+   "end": 48.8,
+   "title": "A Just-Right Size Refrigerator",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food",
+    "family"
+   ],
+   "grammar": [
+    "〜すぎる — too much / excessively"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 32.6,
+     "end": 37.3,
+     "ja": "僕の家には、まあまあ大きい冷蔵庫があります。",
+     "en": "In my house, we have a somewhat big refrigerator.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 37.8,
+     "end": 41.8,
+     "ja": "まあ、大きすぎない、小さすぎない。",
+     "en": "Well, it's not too big, not too small.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 42.0,
+     "end": 45.0,
+     "ja": "僕と奥さんと子供の、",
+     "en": "For my wife, my child, and me,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 45.0,
+     "end": 48.4,
+     "ja": "3人で、まあちょうどいいぐらい。",
+     "en": "for three people, it's about just right.",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 142.3,
+   "end": 205.8,
+   "title": "Vegetables Go Bad Quickly",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜によって — depending on",
+    "〜とか — listing examples"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 142.6,
+     "end": 144.5,
+     "ja": "まあ、野菜によってはね、",
+     "en": "Well, depending on the vegetable,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 144.8,
+     "end": 149.6,
+     "ja": "まあ、ニンジンとかは、1週間ぐらい全然大丈夫です。",
+     "en": "carrots, for example, are totally fine for about a week.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 150.0,
+     "end": 152.8,
+     "ja": "だけど、キャベツとか、",
+     "en": "However, cabbage,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 153.0,
+     "end": 155.5,
+     "ja": "レタスとか、",
+     "en": "lettuce,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 155.8,
+     "end": 158.5,
+     "ja": "あとはキノコとか、",
+     "en": "and mushrooms,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 158.8,
+     "end": 201.8,
+     "ja": "なんか色々なものは、",
+     "en": "various kinds of things",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 202.0,
+     "end": 205.4,
+     "ja": "結構早く悪くなるんですよ。",
+     "en": "go bad pretty quickly.",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 235.6,
+   "end": 255.4,
+   "title": "Cooking Curry to Use Up Vegetables",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜と思う — thinking of doing",
+    "〜ことができる — can / be able to",
+    "〜と — when / if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 235.8,
+     "end": 238.2,
+     "ja": "だから、これから、今からね、",
+     "en": "So from now on, right now,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 238.3,
+     "end": 240.7,
+     "ja": "ちょっとカレーライスを作ろうと思う。",
+     "en": "I'm thinking of making some curry and rice.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 241.0,
+     "end": 242.8,
+     "ja": "カレーライスを作ると、",
+     "en": "If I make curry and rice,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 242.8,
+     "end": 245.8,
+     "ja": "たくさんのこう野菜をね、使うことができる。",
+     "en": "I can use up a lot of vegetables.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 246.3,
+     "end": 250.3,
+     "ja": "そして、そのあとスープを作りましょうかね。",
+     "en": "And after that, maybe I'll make some soup.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 250.6,
+     "end": 254.9,
+     "ja": "スープを作ると、たくさんの野菜を使うことができる。",
+     "en": "If I make soup, I can use a lot of vegetables.",
+     "speaker": "Teppei"
+    }
+   ]
+  }
+ ],
+ "videoId": "XG8tv4sj4CM",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

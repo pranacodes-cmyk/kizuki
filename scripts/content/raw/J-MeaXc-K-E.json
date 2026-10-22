@@ -1,0 +1,173 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 13.3,
+   "end": 30.5,
+   "title": "Hanging Paper Towels from Daiso",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜用 — for the purpose of",
+    "〜て使う — use by doing",
+    "〜必要がある — need to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.5,
+     "end": 16.5,
+     "ja": "パッケージにつり下げ用の丸い穴があり、",
+     "en": "There is a round hole in the package for hanging,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 16.5,
+     "end": 18.7,
+     "ja": "フックに引っ掛けて使えます。",
+     "en": "so you can hang it on a hook to use it.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 18.9,
+     "end": 22.0,
+     "ja": "専用のケースを用意する必要がなく、",
+     "en": "There is no need to prepare a special case,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 22.0,
+     "end": 25.0,
+     "ja": "袋のまま吊るせる作りになっています。",
+     "en": "as it is designed to be hung directly in the bag.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 25.5,
+     "end": 28.5,
+     "ja": "使うときは、下にある取り出し口を開けて、",
+     "en": "When using it, just open the opening at the bottom,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 28.5,
+     "end": 30.2,
+     "ja": "そのまま取り出せます。",
+     "en": "and you can pull them straight out.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 212.0,
+   "end": 232.5,
+   "title": "Expandable Stainless Steel Dish Rack",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜に合わせて — in accordance with",
+    "〜のが特徴 — characterized by",
+    "〜ことで — by doing / because"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 212.4,
+     "end": 216.0,
+     "ja": "ダイソーの新商品、伸縮ステンレス皿立てです。",
+     "en": "This is a new Daiso product, an expandable stainless steel dish rack.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 216.2,
+     "end": 220.0,
+     "ja": "お皿やフライパンなどを立てて収納できるアイテムで、",
+     "en": "It's an item that lets you store plates and pans upright,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 220.0,
+     "end": 224.0,
+     "ja": "収納するものに合わせて幅を調整できるのが特徴です。",
+     "en": "and its feature is that you can adjust the width according to what you store.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 224.5,
+     "end": 226.7,
+     "ja": "素材はステンレス。",
+     "en": "The material is stainless steel.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 226.9,
+     "end": 229.5,
+     "ja": "使った後は縮めることで、",
+     "en": "After using it, by collapsing it,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 229.5,
+     "end": 232.0,
+     "ja": "コンパクトにまとめられます。",
+     "en": "it can be stored compactly.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 514.7,
+   "end": 528.5,
+   "title": "Testing a Silicone Key Cover",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜と同時に — at the same time as",
+    "〜てくれる — do something for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 515.0,
+     "end": 517.3,
+     "ja": "このままカギを刺してみます。",
+     "en": "Let's try inserting the key as is.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 517.6,
+     "end": 521.0,
+     "ja": "カギの先を鍵穴に差し込むと同時に、",
+     "en": "At the same time as the tip enters the keyhole,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 521.0,
+     "end": 523.8,
+     "ja": "シリコーンカバーが手前に持ち上がります。",
+     "en": "the silicone cover slides up toward you.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 524.0,
+     "end": 528.0,
+     "ja": "引き抜くとまたすっぽりカギを覆ってくれます。",
+     "en": "When you pull it out, it completely covers the key again.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "J-MeaXc-K-E",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

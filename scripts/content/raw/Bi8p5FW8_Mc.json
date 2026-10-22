@@ -1,0 +1,240 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 8.0,
+   "end": 26.9,
+   "title": "Getting a Haircut at a New Salon",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜でしょうか — polite wondering",
+    "〜てくる — completion of action before returning",
+    "〜通り — according to / as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 8.0,
+     "end": 10.9,
+     "ja": "えー、皆さん、お気づきでしょうか？",
+     "en": "Um, have you guys noticed?",
+     "speaker": "Creator"
+    },
+    {
+     "start": 11.0,
+     "end": 13.5,
+     "ja": "髪の毛、切ってきました、昨日。",
+     "en": "I got my hair cut yesterday.",
+     "speaker": "Creator"
+    },
+    {
+     "start": 13.6,
+     "end": 15.9,
+     "ja": "多分、襟足これぐらいあったやつ切ってきた。",
+     "en": "I cut off the nape that was probably about this long.",
+     "speaker": "Creator"
+    },
+    {
+     "start": 16.0,
+     "end": 18.0,
+     "ja": "まあ、他もちょこちょこっと切ってきたんだけど。",
+     "en": "Well, I trimmed other parts here and there too, but...",
+     "speaker": "Creator"
+    },
+    {
+     "start": 18.1,
+     "end": 22.0,
+     "ja": "初めて行った美容室でコミュニケーションが全然取れなくて、",
+     "en": "It was my first time at that salon, and I couldn't communicate well at all,",
+     "speaker": "Creator"
+    },
+    {
+     "start": 22.1,
+     "end": 24.4,
+     "ja": "こう、こうしたいみたいの伝えれなくて、",
+     "en": "I couldn't convey how I wanted it,",
+     "speaker": "Creator"
+    },
+    {
+     "start": 24.5,
+     "end": 26.7,
+     "ja": "なんかあんまイメージ通りではないんだけど。",
+     "en": "so it didn't really turn out the way I imagined.",
+     "speaker": "Creator"
+    }
+   ]
+  },
+  {
+   "start": 504.0,
+   "end": 528.0,
+   "title": "Ordering Sake for the First Time",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜をお願いします — please give me ~",
+    "〜てくる — change of state over time",
+    "〜てもいい — permission / optionality"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 504.0,
+     "end": 505.1,
+     "ja": "呼びました？",
+     "en": "Did you call for me?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 505.2,
+     "end": 508.0,
+     "ja": "あっ、はい、はい。あっ、八仙の…",
+     "en": "Ah, yes, yes. Um, Hassen's...",
+     "speaker": "Creator"
+    },
+    {
+     "start": 508.1,
+     "end": 509.8,
+     "ja": "夏吟醸？夏吟醸。",
+     "en": "Summer Ginjo? Summer Ginjo.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 509.9,
+     "end": 511.2,
+     "ja": "一合お願いします。",
+     "en": "One serving, please.",
+     "speaker": "Creator"
+    },
+    {
+     "start": 511.3,
+     "end": 512.2,
+     "ja": "はい、はい。",
+     "en": "Sure thing.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 513.5,
+     "end": 517.3,
+     "ja": "自分普段日本酒あんま飲まなくて、分かんないんすけど、",
+     "en": "I don't usually drink sake, so I don't really know, but...",
+     "speaker": "Creator"
+    },
+    {
+     "start": 517.4,
+     "end": 520.5,
+     "ja": "あの、ここ…これ…も飲むんですか？",
+     "en": "Um, do you drink... this part too?",
+     "speaker": "Creator"
+    },
+    {
+     "start": 521.5,
+     "end": 523.7,
+     "ja": "最初さ、これを飲んで、",
+     "en": "First, you drink this,",
+     "speaker": "Staff"
+    },
+    {
+     "start": 523.8,
+     "end": 527.8,
+     "ja": "ちょっと減ってきたらあけてもいいし、飲み終わったらこれを…",
+     "en": "and once it goes down a bit you can pour it in, or after you finish drinking it...",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 605.0,
+   "end": 624.5,
+   "title": "Guessing Age at the Bar",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜に見える — to look like ~",
+    "〜もん — giving an obvious reason / emphasis",
+    "〜かなって — wondering / thinking"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 605.3,
+     "end": 606.3,
+     "ja": "何歳ですか？",
+     "en": "How old are you?",
+     "speaker": "Customer A"
+    },
+    {
+     "start": 606.4,
+     "end": 608.4,
+     "ja": "自分今27です。",
+     "en": "I'm 27 right now.",
+     "speaker": "Creator"
+    },
+    {
+     "start": 609.1,
+     "end": 611.5,
+     "ja": "えー！すごい若く見えない？",
+     "en": "Whoa! Doesn't he look super young?",
+     "speaker": "Customer A"
+    },
+    {
+     "start": 612.6,
+     "end": 614.3,
+     "ja": "何歳ぐらいに見えてました？",
+     "en": "About how old did I look?",
+     "speaker": "Creator"
+    },
+    {
+     "start": 614.4,
+     "end": 616.0,
+     "ja": "も、もっと若い…",
+     "en": "M-much younger...",
+     "speaker": "Customer A"
+    },
+    {
+     "start": 615.8,
+     "end": 617.0,
+     "ja": "可愛いもん。",
+     "en": "You're cute, after all.",
+     "speaker": "Customer B"
+    },
+    {
+     "start": 617.1,
+     "end": 620.3,
+     "ja": "ねぇ、二十歳ちょっとぐらいかなぁって…",
+     "en": "Right? I thought maybe barely twenty or so...",
+     "speaker": "Customer A"
+    },
+    {
+     "start": 620.9,
+     "end": 623.0,
+     "ja": "普通に27っす。",
+     "en": "I'm genuinely 27.",
+     "speaker": "Creator"
+    },
+    {
+     "start": 623.1,
+     "end": 624.4,
+     "ja": "27歳？",
+     "en": "27 years old?",
+     "speaker": "Customer A"
+    }
+   ]
+  }
+ ],
+ "videoId": "Bi8p5FW8_Mc",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

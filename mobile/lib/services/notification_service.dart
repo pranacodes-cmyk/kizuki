@@ -12,6 +12,8 @@ class NotificationService {
   static final _plugin = FlutterLocalNotificationsPlugin();
   static bool _inited = false;
   static const _dailyId = 1001;
+  static const _trialId = 1002;
+  static const _darwin = DarwinNotificationDetails(presentAlert: true, presentSound: true);
 
   static Future<void> init() async {
     if (_inited) return;
@@ -25,7 +27,9 @@ class NotificationService {
     }
     try {
       const android = AndroidInitializationSettings('@drawable/ic_stat_mimi');
-      await _plugin.initialize(settings: const InitializationSettings(android: android));
+      // iOS asks for permission only when the learner turns reminders on (requestPermission).
+      const ios = DarwinInitializationSettings(requestAlertPermission: false, requestBadgePermission: false, requestSoundPermission: false);
+      await _plugin.initialize(settings: const InitializationSettings(android: android, iOS: ios));
       _ready = true;
     } catch (e) {
       debugPrint('notifications unavailable: $e');
@@ -40,7 +44,9 @@ class NotificationService {
     if (!_ready) return false;
     try {
       final a = _plugin.resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>();
-      return await a?.requestNotificationsPermission() ?? false;
+      if (a != null) return await a.requestNotificationsPermission() ?? false;
+      final i = _plugin.resolvePlatformSpecificImplementation<IOSFlutterLocalNotificationsPlugin>();
+      return await i?.requestPermissions(alert: true, badge: true, sound: true) ?? false;
     } catch (e) {
       debugPrint('notification permission failed: $e');
       return false;
@@ -60,6 +66,7 @@ class NotificationService {
     if (!at.isAfter(now)) at = at.add(const Duration(days: 1));
     const details = NotificationDetails(
       android: AndroidNotificationDetails('daily', 'Daily reminder', channelDescription: 'A friendly nudge to keep your streak', importance: Importance.defaultImportance),
+      iOS: _darwin,
     );
     try {
       await _plugin.zonedSchedule(
@@ -73,6 +80,34 @@ class NotificationService {
       );
     } catch (e) {
       debugPrint('reminder schedule failed: $e');
+    }
+  }
+
+  /// The promised "your trial ends soon" reminder: 2 days before the store's trial end.
+  /// [trialEndsAt] null cancels it (trial converted, cancelled or not a trial).
+  static Future<void> scheduleTrialReminder(int? trialEndsAt) async {
+    await init();
+    if (!_ready) return;
+    try {
+      await _plugin.cancel(id: _trialId);
+    } catch (_) {}
+    if (trialEndsAt == null) return;
+    final at = tz.TZDateTime.fromMillisecondsSinceEpoch(tz.local, trialEndsAt).subtract(const Duration(days: 2));
+    if (!at.isAfter(tz.TZDateTime.now(tz.local))) return;
+    try {
+      await _plugin.zonedSchedule(
+        id: _trialId,
+        title: 'Your free week ends in 2 days',
+        body: 'Keep Kizuki Premium, or cancel anytime in your store settings. No surprises.',
+        scheduledDate: at,
+        notificationDetails: const NotificationDetails(
+          android: AndroidNotificationDetails('trial', 'Trial reminder', channelDescription: 'Tells you before your free trial ends', importance: Importance.high),
+          iOS: _darwin,
+        ),
+        androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
+      );
+    } catch (e) {
+      debugPrint('trial reminder failed: $e');
     }
   }
 }

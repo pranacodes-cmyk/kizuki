@@ -1,0 +1,167 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.0,
+   "end": 21.8,
+   "title": "Starting the Shibuya Street Interview",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜たいと思う — expressing desire/intent",
+    "〜すぎる — too much / excessively"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.4,
+     "end": 7.8,
+     "ja": "ちゃーお、みぽちだよー。",
+     "en": "Ciao, it's Mipochi!",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 8.0,
+     "end": 10.0,
+     "ja": "はい、やってまいりました、みぽちゅーぶ！",
+     "en": "All right, welcome to Mipotube!",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 10.2,
+     "end": 14.3,
+     "ja": "寒い！今日めっちゃ寒いんだけど、今日もこれから渋谷ロケに行きたいと思います。",
+     "en": "It's cold! It's so cold today, but I'm heading out to film in Shibuya now.",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 14.5,
+     "end": 18.8,
+     "ja": "で、今日もね、聞いていくのが黒歴史と今までで一番やらかしちゃったことを聞いていきたいと思います！",
+     "en": "And what I'm asking about today is people's embarrassing pasts and biggest blunders!",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 19.0,
+     "end": 21.5,
+     "ja": "寒すぎるけど、これを飲んで頑張る。レッツゴー！",
+     "en": "It's freezing, but I'll drink this and do my best. Let's go!",
+     "speaker": "Mipochi"
+    }
+   ]
+  },
+  {
+   "start": 23.0,
+   "end": 37.0,
+   "title": "Confessing to an Ex While Drunk",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜すぎて — excessive action / too much",
+    "〜てた — colloquial contraction of 〜ていた"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.3,
+     "end": 27.2,
+     "ja": "人生の中で一番やらかしたこととかを聞いてるんですけど、",
+     "en": "I'm asking people about the biggest blunder in their life...",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 27.5,
+     "end": 30.3,
+     "ja": "黒歴史？成人式の時に飲みすぎて、",
+     "en": "Embarrassing past? At my Coming of Age ceremony, I drank too much,",
+     "speaker": "Man"
+    },
+    {
+     "start": 30.5,
+     "end": 32.4,
+     "ja": "全然自分は覚えてないけど、",
+     "en": "and I don't remember it at all myself, but...",
+     "speaker": "Man"
+    },
+    {
+     "start": 32.5,
+     "end": 35.3,
+     "ja": "中学の時付き合ってた元カノになんか告白してた。",
+     "en": "Apparently I confessed my love to my ex-girlfriend from middle school.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 320.5,
+   "end": 344.0,
+   "title": "Wrapping Up the Street Interviews",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくる — completion and return",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 320.5,
+     "end": 324.5,
+     "ja": "はいてな感じで聞いてきました。たくさんね、すごい黒歴史ね、やばいのがあって、",
+     "en": "Alright, so that's what people had to say! There were lots of crazy embarrassing stories,",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 325.0,
+     "end": 329.0,
+     "ja": "ちょっとピー音多かったかなって思うけど、めちゃめちゃ面白かったです。",
+     "en": "and while I think there were quite a few bleeps, it was super entertaining.",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 329.2,
+     "end": 331.5,
+     "ja": "協力してくれた皆様ありがとうございました！",
+     "en": "Thank you so much to everyone who participated!",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 332.0,
+     "end": 337.5,
+     "ja": "こんな感じでね、またロケに行って色んなことを聞いていきたいと思いますので、みんな渋谷にいたら協力してください。",
+     "en": "I'd like to do more street interviews like this and ask all sorts of things, so if you're in Shibuya, please join in!",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 338.0,
+     "end": 341.5,
+     "ja": "チャンネル登録、高評価ボタンよろしくお願いします！",
+     "en": "Please subscribe to the channel and hit the like button!",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 341.8,
+     "end": 343.5,
+     "ja": "ちゃーの♡",
+     "en": "Bye-bye!",
+     "speaker": "Mipochi"
+    }
+   ]
+  }
+ ],
+ "videoId": "H47Q2yUD2OU",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

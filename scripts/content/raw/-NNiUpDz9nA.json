@@ -1,0 +1,173 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.8,
+   "end": 26.8,
+   "title": "My Stomach Hurts",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜が痛い — to have pain in",
+    "〜てください — please do (casual: て)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 12.8,
+     "end": 16.0,
+     "ja": "すいません、高市さん、エトです。",
+     "en": "Excuse me, Takaichi-san, it's Eto.",
+     "speaker": "Eto"
+    },
+    {
+     "start": 17.3,
+     "end": 19.5,
+     "ja": "あ、エトさん、こんにちは。",
+     "en": "Oh, Eto-san, hello.",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 19.8,
+     "end": 21.2,
+     "ja": "どうしましたか？",
+     "en": "What's the matter?",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 21.3,
+     "end": 23.2,
+     "ja": "お腹が痛いです。",
+     "en": "My stomach hurts.",
+     "speaker": "Eto"
+    },
+    {
+     "start": 23.4,
+     "end": 24.8,
+     "ja": "大丈夫？",
+     "en": "Are you okay?",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 24.9,
+     "end": 26.5,
+     "ja": "ここに座って。",
+     "en": "Sit down here.",
+     "speaker": "Takaichi"
+    }
+   ]
+  },
+  {
+   "start": 57.8,
+   "end": 115.5,
+   "title": "Let's Go to the Hospital Together",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜から — starting from",
+    "〜ましょう — let's"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 58.0,
+     "end": 60.8,
+     "ja": "いつから痛いですか？",
+     "en": "Since when has it been hurting?",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 61.2,
+     "end": 62.8,
+     "ja": "昨日ですか？",
+     "en": "Since yesterday?",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 63.0,
+     "end": 64.6,
+     "ja": "今日ですか？",
+     "en": "Today?",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 65.0,
+     "end": 67.0,
+     "ja": "昨日の夜です。",
+     "en": "Since last night.",
+     "speaker": "Eto"
+    },
+    {
+     "start": 67.4,
+     "end": 68.8,
+     "ja": "分かりました。",
+     "en": "I understand.",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 68.9,
+     "end": 72.0,
+     "ja": "一緒に病院に行きましょう。",
+     "en": "Let's go to the hospital together.",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 72.3,
+     "end": 75.3,
+     "ja": "はい、ありがとうございます。",
+     "en": "Okay, thank you so much.",
+     "speaker": "Eto"
+    }
+   ]
+  },
+  {
+   "start": 130.3,
+   "end": 145.8,
+   "title": "What to Do If You Get Sick on a Holiday",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜たら — if / when",
+    "〜など — and so on / etc."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 130.3,
+     "end": 135.5,
+     "ja": "もし休みの日に具合が悪くなったら、どうしますか？",
+     "en": "If you feel unwell on a day off, what do you do?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 135.9,
+     "end": 139.5,
+     "ja": "もし休みの日に具合が悪くなったら、",
+     "en": "If I feel unwell on a day off,",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 139.8,
+     "end": 145.5,
+     "ja": "インターネットなどで休みの日に開いている病院を調べます。",
+     "en": "I look up clinics open on holidays on the internet or elsewhere.",
+     "speaker": "Interviewee"
+    }
+   ]
+  }
+ ],
+ "videoId": "-NNiUpDz9nA",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

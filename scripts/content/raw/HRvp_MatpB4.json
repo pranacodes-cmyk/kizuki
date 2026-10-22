@@ -1,0 +1,220 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 43.8,
+   "end": 67.2,
+   "title": "A Message Hidden in the Fridge",
+   "level": "N3",
+   "topics": [
+    "family",
+    "anime",
+    "daily"
+   ],
+   "grammar": [
+    "〜ということは — means that",
+    "〜てしまう — unintentionally / completely",
+    "〜ておく — do in advance"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 43.8,
+     "end": 45.4,
+     "ja": "お姉ちゃんへ",
+     "en": "Dear big sister,",
+     "speaker": "Sister"
+    },
+    {
+     "start": 45.7,
+     "end": 48.0,
+     "ja": "この封筒を見つけたということは",
+     "en": "if you have found this envelope,",
+     "speaker": "Sister"
+    },
+    {
+     "start": 48.2,
+     "end": 50.8,
+     "ja": "食料がなくなったか 電気を止められて",
+     "en": "it means you either ran out of food or got your power shut off,",
+     "speaker": "Sister"
+    },
+    {
+     "start": 50.9,
+     "end": 54.7,
+     "ja": "冷蔵庫の中を焦って食い散らかしているかのどちらかでしょう。",
+     "en": "and you're frantically ransacking the fridge.",
+     "speaker": "Sister"
+    },
+    {
+     "start": 55.3,
+     "end": 58.7,
+     "ja": "お姉ちゃんはすぐにお金を使ってしまうので、",
+     "en": "Since you always spend your money right away,",
+     "speaker": "Sister"
+    },
+    {
+     "start": 58.8,
+     "end": 60.5,
+     "ja": "こうして隠しておきました。",
+     "en": "I hid this here in advance.",
+     "speaker": "Sister"
+    },
+    {
+     "start": 60.8,
+     "end": 62.7,
+     "ja": "緊急用のお金です。",
+     "en": "This is emergency money.",
+     "speaker": "Sister"
+    },
+    {
+     "start": 62.9,
+     "end": 64.9,
+     "ja": "お母さんに持たされたので、",
+     "en": "Mom had me hold onto it for you,",
+     "speaker": "Sister"
+    },
+    {
+     "start": 65.0,
+     "end": 66.8,
+     "ja": "感謝はお母さんへ。",
+     "en": "so give your thanks to Mom.",
+     "speaker": "Sister"
+    }
+   ]
+  },
+  {
+   "start": 111.0,
+   "end": 128.0,
+   "title": "Paying the Bill at the Convenience Store",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "comedy",
+    "anime"
+   ],
+   "grammar": [
+    "〜に来た — came to do",
+    "〜てきた — have done and come"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 111.3,
+     "end": 113.0,
+     "ja": "いらっしゃいしゃせー",
+     "en": "Welcome!",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 113.1,
+     "end": 115.8,
+     "ja": "なんニャ この暑さ 日本終了ニャ",
+     "en": "What's with this heat? Japan is finished, meow.",
+     "speaker": "Yanineko"
+    },
+    {
+     "start": 116.0,
+     "end": 118.0,
+     "ja": "電気代払いに来たニャ",
+     "en": "I came to pay the electric bill, meow.",
+     "speaker": "Yanineko"
+    },
+    {
+     "start": 118.1,
+     "end": 120.3,
+     "ja": "払込票の方お願いしゃせー",
+     "en": "May I have your payment slip?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 120.5,
+     "end": 122.0,
+     "ja": "払込票…",
+     "en": "Payment slip...",
+     "speaker": "Yanineko"
+    },
+    {
+     "start": 124.9,
+     "end": 126.7,
+     "ja": "忘れてきたニャ",
+     "en": "I forgot it, meow.",
+     "speaker": "Yanineko"
+    },
+    {
+     "start": 126.8,
+     "end": 127.8,
+     "ja": "っすか",
+     "en": "Gotcha.",
+     "speaker": "Clerk"
+    }
+   ]
+  },
+  {
+   "start": 130.0,
+   "end": 145.2,
+   "title": "Blaming Global Warming",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "comedy",
+    "anime"
+   ],
+   "grammar": [
+    "〜なんて — things like",
+    "〜ばいい — just have to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 130.2,
+     "end": 133.7,
+     "ja": "ニャは何も悪いことしてないニャ 地球温暖化が悪いニャ",
+     "en": "I didn't do anything wrong, meow. Global warming is to blame, meow.",
+     "speaker": "Yanineko"
+    },
+    {
+     "start": 133.9,
+     "end": 136.2,
+     "ja": "昔はクーラーなんて要らなかったニャ",
+     "en": "In the old days, nobody needed AC, meow.",
+     "speaker": "Yanineko"
+    },
+    {
+     "start": 136.4,
+     "end": 138.2,
+     "ja": "もっと昔は冷蔵庫なんてなかったニャ",
+     "en": "Even further back, refrigerators didn't even exist, meow.",
+     "speaker": "Yanineko"
+    },
+    {
+     "start": 138.3,
+     "end": 141.4,
+     "ja": "お金ならもうすぐバイト代が入るから 電気料金なんて払えるニャ",
+     "en": "My paycheck will be here soon, so I can totally pay the power bill, meow.",
+     "speaker": "Yanineko"
+    },
+    {
+     "start": 141.5,
+     "end": 143.0,
+     "ja": "ちょっと我慢すればいいだけニャ",
+     "en": "I just have to tough it out for a bit, meow.",
+     "speaker": "Yanineko"
+    },
+    {
+     "start": 143.1,
+     "end": 145.0,
+     "ja": "あと５日くらいニャ 頑張るニャ",
+     "en": "Just about five more days, meow. I'll hang in there, meow.",
+     "speaker": "Yanineko"
+    }
+   ]
+  }
+ ],
+ "videoId": "HRvp_MatpB4",
+ "pickTopics": [
+  "anime",
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

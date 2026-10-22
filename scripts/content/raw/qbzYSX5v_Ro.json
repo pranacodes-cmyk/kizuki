@@ -1,0 +1,189 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.5,
+   "end": 21.5,
+   "title": "Why He Agreed to Appear on Camera",
+   "level": "N3",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜てもいい — permission / it is okay to...",
+    "〜てもおかしくない — wouldn't be strange if..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.8,
+     "end": 10.5,
+     "ja": "なんで突然さ、出てもいいよって言ったのか気になってて",
+     "en": "I was wondering why you suddenly said it's okay to appear on video.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 11.0,
+     "end": 12.8,
+     "ja": "もう歳４０でしょ。",
+     "en": "I'm already 40, right?",
+     "speaker": "Man"
+    },
+    {
+     "start": 12.9,
+     "end": 13.7,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 13.8,
+     "end": 18.0,
+     "ja": "いつ死んでもおかしくない歳になった。だから動画を残すだけでもいいかなと…",
+     "en": "I've reached an age where dying anytime wouldn't be surprising. So I figured leaving some videos behind would be nice...",
+     "speaker": "Man"
+    },
+    {
+     "start": 18.5,
+     "end": 21.0,
+     "ja": "話が暗すぎて怖いんですけど…そうなんだ。",
+     "en": "That's way too dark, it's scary... But I see.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 223.8,
+   "end": 237.5,
+   "title": "Disappearing at the Cash Register",
+   "level": "N4",
+   "topics": [
+    "family",
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜じゃん — casual confirmation tag",
+    "〜になると — when it comes to / whenever it becomes"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 224.0,
+     "end": 229.8,
+     "ja": "Ｈ＆Ｍも、１００均でもさ、レジで行方不明になるじゃん…見事！",
+     "en": "At H&M and the 100-yen shop, you always go missing at the register... Truly impressive!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 230.8,
+     "end": 232.5,
+     "ja": "違うよそれは。",
+     "en": "That's not true.",
+     "speaker": "Man"
+    },
+    {
+     "start": 233.0,
+     "end": 235.0,
+     "ja": "何でレジになるといなくなるの？",
+     "en": "Why do you always disappear when it's time for the register?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 235.1,
+     "end": 236.5,
+     "ja": "たまたまだよ。",
+     "en": "It's just a coincidence.",
+     "speaker": "Man"
+    },
+    {
+     "start": 236.6,
+     "end": 237.5,
+     "ja": "たまたまじゃないよ〜。",
+     "en": "No way it's a coincidence!",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 241.5,
+   "end": 264.5,
+   "title": "Debating Expiration Dates",
+   "level": "N3",
+   "topics": [
+    "family",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てたら — conditional if (completed state)",
+    "〜っつったって — casual form of 〜と言ったって (even if you say...)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 241.8,
+     "end": 245.4,
+     "ja": "時々冷蔵庫の中がさ、キレイになってるの。",
+     "en": "Sometimes the inside of the fridge becomes all clean.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 245.5,
+     "end": 247.3,
+     "ja": "片付けてる？",
+     "en": "Are you cleaning it out?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 247.7,
+     "end": 249.6,
+     "ja": "賞味期限切れてたら捨てるよ。",
+     "en": "If something has expired, I throw it away.",
+     "speaker": "Man"
+    },
+    {
+     "start": 249.7,
+     "end": 251.2,
+     "ja": "それが嫌やねん。",
+     "en": "That's what I hate.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 253.3,
+     "end": 255.0,
+     "ja": "使うからね、普通に。",
+     "en": "I still use them, normally.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 255.1,
+     "end": 258.8,
+     "ja": "開封後は早めにお召し上がりくださいって書いてあるじゃん。",
+     "en": "It says, \"Please consume promptly after opening,\" doesn't it?",
+     "speaker": "Man"
+    },
+    {
+     "start": 258.9,
+     "end": 262.4,
+     "ja": "早めっつったって１年なのかさ、５年なのか全く分かんないじゃん。",
+     "en": "Even if it says \"promptly,\" you have no idea if that means 1 year or 5 years!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 262.5,
+     "end": 264.0,
+     "ja": "１年ってどういうことだよ。",
+     "en": "What do you mean, \"1 year\"?!",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "qbzYSX5v_Ro",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

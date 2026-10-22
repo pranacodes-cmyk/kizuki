@@ -1,0 +1,149 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.0,
+   "end": 30.5,
+   "title": "Seasonal Events in Japan",
+   "level": "N3",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜を通して — throughout / through",
+    "〜や〜 — and (exhaustive/representative listing)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.5,
+     "end": 9.5,
+     "ja": "みなさんこんにちは、うマッチョです。",
+     "en": "Hello everyone, I'm Umacho.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 9.8,
+     "end": 15.0,
+     "ja": "今日は「日本の季節イベントが多い理由」について話します。",
+     "en": "Today, I'll talk about why Japan has so many seasonal events.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 15.3,
+     "end": 20.8,
+     "ja": "日本では一年を通して、たくさんの季節のイベントがあります。",
+     "en": "In Japan, there are many seasonal events throughout the year.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 21.0,
+     "end": 30.0,
+     "ja": "春はお花見、夏は花火大会や夏祭り、秋は紅葉狩り、冬はお正月。",
+     "en": "In spring cherry blossom viewing, in summer fireworks and festivals, in autumn foliage viewing, and in winter New Year's.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 98.0,
+   "end": 127.5,
+   "title": "Agriculture and Festivals",
+   "level": "N3",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜を中心に — centered around",
+    "〜てくる — continuing up to the present"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 98.5,
+     "end": 103.6,
+     "ja": "二つ目は、昔の農業と関係があることです。",
+     "en": "The second reason is the relationship with traditional agriculture.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 103.9,
+     "end": 109.0,
+     "ja": "日本は長い間、米作りを中心に暮らしてきました。",
+     "en": "For a long time, life in Japan revolved around rice cultivation.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 109.5,
+     "end": 120.2,
+     "ja": "春には豊作を祈り、秋には無事に収穫できたことに感謝するお祭りが、各地で行われてきました。",
+     "en": "Festivals praying for good harvests in spring and giving thanks for successful harvests in autumn have been held across the country.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 120.4,
+     "end": 126.8,
+     "ja": "その伝統が、今も地域の夏祭りや秋祭りとして残っています。",
+     "en": "That tradition lives on today as regional summer and autumn festivals.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 134.8,
+   "end": 169.0,
+   "title": "Blending Shinto and Buddhism",
+   "level": "N3",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜に関係のある — related to",
+    "〜ことはめずらしくない — it is not uncommon to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 135.1,
+     "end": 140.5,
+     "ja": "三つ目は、二つの宗教が自然に混ざっていることです。",
+     "en": "The third reason is that two religions are naturally blended together.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 140.8,
+     "end": 147.2,
+     "ja": "日本では神社の行事と、お寺の行事が、どちらも生活の中にあります。",
+     "en": "In Japan, both Shinto shrine events and Buddhist temple events are part of daily life.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 147.3,
+     "end": 152.4,
+     "ja": "お正月には神社へ初詣に行き、",
+     "en": "During New Year's, people visit shrines for Hatsumode,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 152.5,
+     "end": 159.9,
+     "ja": "夏にはお寺と関係のあるお盆で先祖を迎えます。",
+     "en": "and in summer, they welcome ancestors during Obon, which is associated with temples.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 160.0,
+     "end": 168.5,
+     "ja": "同じ家庭が、神社の行事もお寺の行事も両方行うことは、めずらしくありません。",
+     "en": "It is not unusual for the same household to practice both shrine and temple events.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "p4NAaoq55-Q",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

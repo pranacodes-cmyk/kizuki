@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 20.8,
+   "title": "Making a Fox Origami",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "方 — way of doing",
+    "かもしれない — might / may"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.7,
+     "end": 3.4,
+     "ja": "コンコン、こんにちは！",
+     "en": "Kon-kon, hello!",
+     "speaker": "Misa"
+    },
+    {
+     "start": 3.9,
+     "end": 6.5,
+     "ja": "Japanese Ammoのみさです。",
+     "en": "It's Misa from Japanese Ammo.",
+     "speaker": "Misa"
+    },
+    {
+     "start": 6.9,
+     "end": 10.5,
+     "ja": "今回はキツネの折り紙を作ります。",
+     "en": "This time, I'm going to make a fox origami.",
+     "speaker": "Misa"
+    },
+    {
+     "start": 10.8,
+     "end": 14.1,
+     "ja": "キツネの折り方を教えます。",
+     "en": "I'm going to teach you how to fold a fox.",
+     "speaker": "Misa"
+    },
+    {
+     "start": 14.4,
+     "end": 16.4,
+     "ja": "かわいいですよね。",
+     "en": "They're cute, right?",
+     "speaker": "Misa"
+    },
+    {
+     "start": 16.9,
+     "end": 20.4,
+     "ja": "これはちょっと難しいかもしれないです。",
+     "en": "This might be a little difficult.",
+     "speaker": "Misa"
+    }
+   ]
+  },
+  {
+   "start": 46.5,
+   "end": 65.8,
+   "title": "Folding the First Triangle",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜ように — so that / in a way that",
+    "〜たい — want to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 46.8,
+     "end": 52.4,
+     "ja": "まず、三角形になるように半分に折ります。",
+     "en": "First, fold the paper in half so it turns into a triangle.",
+     "speaker": "Misa"
+    },
+    {
+     "start": 53.0,
+     "end": 55.3,
+     "ja": "この角とこの角。",
+     "en": "This corner and this corner.",
+     "speaker": "Misa"
+    },
+    {
+     "start": 56.5,
+     "end": 59.4,
+     "ja": "表、柄の方、色の方…",
+     "en": "The front, the patterned side, the colored side...",
+     "speaker": "Misa"
+    },
+    {
+     "start": 59.6,
+     "end": 65.4,
+     "ja": "見せたい方が外に来るように折ります。",
+     "en": "Fold the paper in a way that the side you want to show faces outside.",
+     "speaker": "Misa"
+    }
+   ]
+  },
+  {
+   "start": 475.0,
+   "end": 488.0,
+   "title": "Unfolding Before the Next Step",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜なきゃいけない — must / have to",
+    "〜たい — want to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 475.4,
+     "end": 479.4,
+     "ja": "こっちも同じようにしたいんですけど",
+     "en": "We want to do the same on this side, too, but...",
+     "speaker": "Misa"
+    },
+    {
+     "start": 479.8,
+     "end": 484.6,
+     "ja": "そうするには、まずこっちを開かなきゃいけません。",
+     "en": "In order to do so, first we have to unfold this side.",
+     "speaker": "Misa"
+    },
+    {
+     "start": 484.9,
+     "end": 487.4,
+     "ja": "だから、開きます。",
+     "en": "So, we unfold it.",
+     "speaker": "Misa"
+    }
+   ]
+  }
+ ],
+ "videoId": "OcsdFHhzY7Q",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

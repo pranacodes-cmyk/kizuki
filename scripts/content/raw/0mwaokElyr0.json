@@ -1,0 +1,106 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 40.5,
+   "end": 50.0,
+   "title": "Greeting with Konnichiwa",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "こんにちは — hello / good day"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 41.5,
+     "end": 43.0,
+     "ja": "こんにちは。",
+     "en": "Hello.",
+     "speaker": "Risa"
+    },
+    {
+     "start": 43.2,
+     "end": 45.0,
+     "ja": "こんにちはー！",
+     "en": "Hello!",
+     "speaker": "Risa"
+    },
+    {
+     "start": 45.8,
+     "end": 47.5,
+     "ja": "こんにちは。",
+     "en": "Hello.",
+     "speaker": "Risa"
+    },
+    {
+     "start": 47.8,
+     "end": 49.5,
+     "ja": "こんにちは。",
+     "en": "Hello.",
+     "speaker": "Risa"
+    }
+   ]
+  },
+  {
+   "start": 132.5,
+   "end": 145.8,
+   "title": "Answering the Phone in Japanese",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "もしもし — hello (on the phone)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 133.0,
+     "end": 134.5,
+     "ja": "もしもし。",
+     "en": "Hello?",
+     "speaker": "Risa"
+    },
+    {
+     "start": 135.2,
+     "end": 136.8,
+     "ja": "こんにちは！",
+     "en": "Hello!",
+     "speaker": "Bear"
+    },
+    {
+     "start": 137.5,
+     "end": 140.2,
+     "ja": "もしもし。",
+     "en": "Moshi moshi.",
+     "speaker": "Risa"
+    },
+    {
+     "start": 141.5,
+     "end": 143.0,
+     "ja": "もしもし！",
+     "en": "Hello!",
+     "speaker": "Bear"
+    },
+    {
+     "start": 143.5,
+     "end": 145.2,
+     "ja": "もしもし？",
+     "en": "Hello?",
+     "speaker": "Bear"
+    }
+   ]
+  }
+ ],
+ "videoId": "0mwaokElyr0",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

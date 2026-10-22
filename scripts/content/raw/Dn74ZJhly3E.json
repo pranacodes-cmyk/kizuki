@@ -1,0 +1,144 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 42.0,
+   "end": 56.5,
+   "title": "Speaking of Winter, Strawberries!",
+   "level": "N5",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "といえば — speaking of",
+    "〜し — listing reasons or facts"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 42.2,
+     "end": 45.9,
+     "ja": "冬といえばやっぱりイチゴ！冬といえばやっぱりイチゴ！",
+     "en": "Speaking of winter, it's gotta be strawberries!",
+     "speaker": "Purple Asami"
+    },
+    {
+     "start": 46.0,
+     "end": 48.3,
+     "ja": "イチゴはみんな大好き。",
+     "en": "Everyone loves strawberries.",
+     "speaker": "Purple Asami"
+    },
+    {
+     "start": 48.4,
+     "end": 52.2,
+     "ja": "パープルも好きだし、みんなも好き！",
+     "en": "Purple likes them, and everyone likes them too!",
+     "speaker": "Purple Asami"
+    },
+    {
+     "start": 53.3,
+     "end": 55.7,
+     "ja": "え？好きだよね！？",
+     "en": "Wait, you do like them, right?!",
+     "speaker": "Purple Asami"
+    }
+   ]
+  },
+  {
+   "start": 426.2,
+   "end": 444.0,
+   "title": "Refreshing Strawberry Milk Drink",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜て使ってる — using",
+    "〜に決まってる — bound to / obviously"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 429.5,
+     "end": 431.5,
+     "ja": "とちおとめ使ってるんだって。",
+     "en": "They said it uses Tochiotome strawberries.",
+     "speaker": "Purple Asami"
+    },
+    {
+     "start": 431.8,
+     "end": 435.6,
+     "ja": "そりゃ美味しいに決まってんじゃんね！普通に考えて。",
+     "en": "Obviously it's bound to be delicious! When you think about it.",
+     "speaker": "Purple Asami"
+    },
+    {
+     "start": 436.0,
+     "end": 439.8,
+     "ja": "これ美味しい。いちごオレってさ、もう絶対甘いイメージあったんだけど、",
+     "en": "This is good. I always had the impression strawberry milk is super sweet, but...",
+     "speaker": "Purple Asami"
+    },
+    {
+     "start": 440.0,
+     "end": 443.5,
+     "ja": "これ飲んだら変わるわ。さっぱりしてる。",
+     "en": "Drinking this changes that. It's so refreshing.",
+     "speaker": "Purple Asami"
+    }
+   ]
+  },
+  {
+   "start": 726.5,
+   "end": 744.0,
+   "title": "Reviewing the Strawberry Melon Bread",
+   "level": "N4",
+   "topics": [
+    "food"
+   ],
+   "grammar": [
+    "〜てます — polite progressive form",
+    "〜てんのよ — contraction of 〜ているのよ"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 733.2,
+     "end": 735.8,
+     "ja": "次はこちら！いちごメロンパン。",
+     "en": "Next is this! The Strawberry Melon Bread.",
+     "speaker": "Purple Asami"
+    },
+    {
+     "start": 736.0,
+     "end": 739.5,
+     "ja": "すごーい、なんかイチゴのそばかすみたいのが付いてます。",
+     "en": "Awesome, it has things that look like strawberry freckles on it.",
+     "speaker": "Purple Asami"
+    },
+    {
+     "start": 739.7,
+     "end": 741.2,
+     "ja": "めっちゃいい匂いする。",
+     "en": "It smells so good.",
+     "speaker": "Purple Asami"
+    },
+    {
+     "start": 741.5,
+     "end": 743.5,
+     "ja": "オープン！",
+     "en": "Open!",
+     "speaker": "Purple Asami"
+    }
+   ]
+  }
+ ],
+ "videoId": "Dn74ZJhly3E",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,153 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 42.5,
+   "end": 59.8,
+   "title": "Can You Do This Game",
+   "level": "N4",
+   "topics": [
+    "school",
+    "fun"
+   ],
+   "grammar": [
+    "〜て動いていく — gradual action into future",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 42.7,
+     "end": 47.8,
+     "ja": "まず先生が「こんなことこんなことできますか」とみんなに言うので、",
+     "en": "First, the teacher says to everyone, \"Can you do this, can you do this?\"",
+     "speaker": "Moca"
+    },
+    {
+     "start": 48.3,
+     "end": 54.6,
+     "ja": "みんなも同じようにその後真似して「こんなことこんなことできますよ」と返してください。",
+     "en": "And everyone should imitate them and reply, \"I can do this, I can do this!\"",
+     "speaker": "Moca"
+    },
+    {
+     "start": 55.2,
+     "end": 59.8,
+     "ja": "先生がやったことをそのまま真似して子どもたちも動いていきます。",
+     "en": "The children will move by copying exactly what the teacher did.",
+     "speaker": "Moca"
+    }
+   ]
+  },
+  {
+   "start": 234.5,
+   "end": 258.5,
+   "title": "Rules of the Traffic Light Game",
+   "level": "N5",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — if / when",
+    "〜だよね — isn't it? (seeking agreement)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 234.7,
+     "end": 236.9,
+     "ja": "みんな信号は何色がありますか？",
+     "en": "Everyone, what colors do traffic lights have?",
+     "speaker": "Moca"
+    },
+    {
+     "start": 237.1,
+     "end": 240.0,
+     "ja": "赤と黄色と青だよね。",
+     "en": "Red, yellow, and green, right?",
+     "speaker": "Moca"
+    },
+    {
+     "start": 240.2,
+     "end": 245.6,
+     "ja": "なので先生が「赤」って言ったらストップ、止まります。",
+     "en": "So when the teacher says \"red\", stop, you freeze.",
+     "speaker": "Moca"
+    },
+    {
+     "start": 245.9,
+     "end": 252.6,
+     "ja": "「黄色」って言ったら、周りから車が来てないかなーって「キョロキョロ」と言って周りを見ます。",
+     "en": "If she says \"yellow\", say \"look around\" to check for cars and look around.",
+     "speaker": "Moca"
+    },
+    {
+     "start": 252.8,
+     "end": 258.2,
+     "ja": "「青」と言ったら、「進む」と言ってその場で一歩足踏みをします。",
+     "en": "If she says \"green\", say \"go\" and take a step in place.",
+     "speaker": "Moca"
+    }
+   ]
+  },
+  {
+   "start": 514.0,
+   "end": 537.0,
+   "title": "How to Play the Simon Says Game",
+   "level": "N4",
+   "topics": [
+    "school",
+    "fun"
+   ],
+   "grammar": [
+    "〜てもらう — to have someone do",
+    "〜ずに — without doing",
+    "〜ようにする — to make sure to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 514.2,
+     "end": 518.4,
+     "ja": "このゲームは命令をしたことを子どもたちにしてもらうんですけども、",
+     "en": "In this game, the children do whatever command is given,",
+     "speaker": "Moca"
+    },
+    {
+     "start": 518.6,
+     "end": 521.0,
+     "ja": "してもらう時の条件があります。",
+     "en": "but there is a condition for when they do it.",
+     "speaker": "Moca"
+    },
+    {
+     "start": 521.2,
+     "end": 525.0,
+     "ja": "「命令！座ってください」と言ったら座ります。",
+     "en": "If I say \"Order! Please sit down,\" you sit down.",
+     "speaker": "Moca"
+    },
+    {
+     "start": 525.2,
+     "end": 530.4,
+     "ja": "ただ「命令」と言わずに「座ってください」って言われた時は何もしません。",
+     "en": "However, if you are told \"Please sit down\" without \"Order!\", you do nothing.",
+     "speaker": "Moca"
+    },
+    {
+     "start": 530.8,
+     "end": 536.8,
+     "ja": "なので命令をする前に「命令！」と言われたものだけ動くようにしてください。",
+     "en": "So make sure to only move when the action is preceded by \"Order!\".",
+     "speaker": "Moca"
+    }
+   ]
+  }
+ ],
+ "videoId": "FFj2DwhdCiY",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

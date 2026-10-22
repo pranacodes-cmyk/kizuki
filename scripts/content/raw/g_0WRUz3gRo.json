@@ -1,0 +1,143 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 26.5,
+   "end": 44.5,
+   "title": "Time for a Break",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜よ — casual invitation / let's",
+    "〜とる — ongoing state (dialect)"
+   ],
+   "quality": 3,
+   "lines": [
+    {
+     "start": 26.7,
+     "end": 28.0,
+     "ja": "おしまいだよ。",
+     "en": "All done.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 28.2,
+     "end": 29.3,
+     "ja": "おしまい。",
+     "en": "That's all.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 29.4,
+     "end": 30.9,
+     "ja": "休憩しよ？",
+     "en": "Let's take a break, okay?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 31.1,
+     "end": 33.0,
+     "ja": "休憩も大事と思うよ。",
+     "en": "I think resting is important too.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 34.6,
+     "end": 36.1,
+     "ja": "どっちだよ〜。",
+     "en": "Which one is it?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 36.3,
+     "end": 37.3,
+     "ja": "どっち？",
+     "en": "Which one?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 37.4,
+     "end": 39.4,
+     "ja": "めっちゃベロ出とるで。",
+     "en": "Your tongue is sticking way out.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 39.6,
+     "end": 41.2,
+     "ja": "休もうや。",
+     "en": "Let's rest.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 41.8,
+     "end": 42.8,
+     "ja": "遊んだ。",
+     "en": "You played.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 43.1,
+     "end": 44.2,
+     "ja": "満足したろ？",
+     "en": "Aren't you satisfied?",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 153.5,
+   "end": 206.5,
+   "title": "He Learned It Way Too Fast",
+   "level": "N3",
+   "topics": [
+    "animals",
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜こなす — to master / handle skillfully",
+    "〜すぎる — too much / excessively"
+   ],
+   "quality": 3,
+   "lines": [
+    {
+     "start": 154.2,
+     "end": 156.0,
+     "ja": "マジで！？",
+     "en": "Seriously?!",
+     "speaker": "Man"
+    },
+    {
+     "start": 156.8,
+     "end": 159.8,
+     "ja": "使いこなしてるのか、本当にあいつは。",
+     "en": "Has he really mastered using that?",
+     "speaker": "Man"
+    },
+    {
+     "start": 200.7,
+     "end": 203.0,
+     "ja": "使いこなしてるのか、さっきの。",
+     "en": "Did he actually master that just now?",
+     "speaker": "Man"
+    },
+    {
+     "start": 203.6,
+     "end": 206.0,
+     "ja": "覚えるの早すぎ！",
+     "en": "He learns way too fast!",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "g_0WRUz3gRo",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

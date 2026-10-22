@@ -1,0 +1,146 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 36.1,
+   "end": 42.9,
+   "title": "Swedish Women Are Tall and Beautiful",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜と思う — think that",
+    "〜くて — and (adjective te-form)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 36.3,
+     "end": 38.6,
+     "ja": "スウェーデンとかは綺麗だと思いますね。",
+     "en": "I think Sweden has beautiful women.",
+     "speaker": "Man"
+    },
+    {
+     "start": 38.8,
+     "end": 40.5,
+     "ja": "まあイメージですけど、完全に。",
+     "en": "Well, purely my impression, though.",
+     "speaker": "Man"
+    },
+    {
+     "start": 40.6,
+     "end": 42.6,
+     "ja": "背が高くて綺麗な印象があります。",
+     "en": "I have an impression of tall and beautiful women.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 126.8,
+   "end": 139.6,
+   "title": "Dating Foreign Girls Changes Your Values",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "culture",
+    "friends"
+   ],
+   "grammar": [
+    "〜たら — if/when",
+    "〜そう — looks like/seems like"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 127.1,
+     "end": 128.8,
+     "ja": "めっちゃ思います。ああ、思います、それは。",
+     "en": "I totally think so. Yeah, I think so too.",
+     "speaker": "Man 1 & 2"
+    },
+    {
+     "start": 128.8,
+     "end": 132.8,
+     "ja": "日本人としか付き合ったことなかったら損しそうだから。",
+     "en": "If you only date Japanese people, you'd feel like you're missing out.",
+     "speaker": "Man 1"
+    },
+    {
+     "start": 133.6,
+     "end": 136.2,
+     "ja": "なんか自分の価値観とか、",
+     "en": "Like your own values and such,",
+     "speaker": "Man 2"
+    },
+    {
+     "start": 136.3,
+     "end": 139.2,
+     "ja": "いろんなもんが変わりそうだし、楽しいかなと。",
+     "en": "it seems like various things would change and it'd be fun.",
+     "speaker": "Man 2"
+    }
+   ]
+  },
+  {
+   "start": 319.4,
+   "end": 331.7,
+   "title": "Language Barrier in Dating",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜ないと — if not",
+    "〜ば — if (conditional)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 319.7,
+     "end": 321.4,
+     "ja": "いや、日本人のほうがいいっすね。",
+     "en": "No, I prefer Japanese women.",
+     "speaker": "Man"
+    },
+    {
+     "start": 321.6,
+     "end": 324.5,
+     "ja": "やっぱ言葉が通じないと結構厳しいかなと思うんで。",
+     "en": "If you can't understand each other's language, it's quite tough.",
+     "speaker": "Man"
+    },
+    {
+     "start": 324.7,
+     "end": 329.1,
+     "ja": "自分が英語とか、相手の言葉喋れれば全然いいと思うんで。",
+     "en": "If I could speak English or their language, it'd be totally fine.",
+     "speaker": "Man"
+    },
+    {
+     "start": 329.1,
+     "end": 330.1,
+     "ja": "向こうが日本語ペラペラなら？",
+     "en": "What if she is fluent in Japanese?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 330.1,
+     "end": 331.4,
+     "ja": "あ、全然オッケーですね。",
+     "en": "Ah, that would be totally fine.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "gQYoJotXN7U",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

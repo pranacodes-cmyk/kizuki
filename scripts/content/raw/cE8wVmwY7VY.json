@@ -1,0 +1,212 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.026,
+   "end": 0.198,
+   "title": "Wanna Eat Charimera?",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "food",
+    "friends"
+   ],
+   "grammar": [
+    "〜よ — let's / suggestion",
+    "〜ね — seeking agreement / softening"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.028,
+     "end": 0.045,
+     "ja": "ねえ、ねえ、ねえ。",
+     "en": "Hey, hey, hey.",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 0.049,
+     "end": 0.057,
+     "ja": "ん？",
+     "en": "Hm?",
+     "speaker": "Chiikawa"
+    },
+    {
+     "start": 0.06,
+     "end": 0.077,
+     "ja": "チャリメラ、食べる？",
+     "en": "Wanna eat Charimera?",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 0.082,
+     "end": 0.1,
+     "ja": "知ってる？チャリメラ。",
+     "en": "Do you know it? Charimera.",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 0.131,
+     "end": 0.143,
+     "ja": "チャル…",
+     "en": "Charu...",
+     "speaker": "Chiikawa"
+    },
+    {
+     "start": 0.146,
+     "end": 0.153,
+     "ja": "ん？",
+     "en": "Hm?",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 0.155,
+     "end": 0.17,
+     "ja": "食べよ、ね？",
+     "en": "Let's eat it, okay?",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 0.175,
+     "end": 0.188,
+     "ja": "作るね。",
+     "en": "I'll make it.",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 0.189,
+     "end": 0.197,
+     "ja": "フン！",
+     "en": "Mhm!",
+     "speaker": "Chiikawa"
+    }
+   ]
+  },
+  {
+   "start": 0.235,
+   "end": 0.315,
+   "title": "Even Without Toppings",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜なくても — even if not",
+    "〜って — speaking of / topic marker"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.238,
+     "end": 0.252,
+     "ja": "具なくてもさ、",
+     "en": "Even without toppings,",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 0.254,
+     "end": 0.274,
+     "ja": "おいしいよね、チャリメラって。",
+     "en": "Charimera is delicious, right?",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 0.286,
+     "end": 0.302,
+     "ja": "サイコー！",
+     "en": "The best!",
+     "speaker": "Hachiware"
+    }
+   ]
+  },
+  {
+   "start": 0.355,
+   "end": 0.595,
+   "title": "It Was Actually Charumera",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "food",
+    "friends"
+   ],
+   "grammar": [
+    "〜じゃん — isn't it / you know",
+    "〜じゃなくて — not A, but...",
+    "〜んだって — I heard that / turns out that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.358,
+     "end": 0.374,
+     "ja": "この前のさ…",
+     "en": "About the other day...",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 0.378,
+     "end": 0.386,
+     "ja": "ん？",
+     "en": "Hm?",
+     "speaker": "Chiikawa"
+    },
+    {
+     "start": 0.389,
+     "end": 0.415,
+     "ja": "ラーメン、食べたじゃん。ちゅるちゅるの。",
+     "en": "We ate ramen, right? The slurpy kind.",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 0.417,
+     "end": 0.425,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Chiikawa"
+    },
+    {
+     "start": 0.428,
+     "end": 0.464,
+     "ja": "あれさ、チャリメラじゃなくて、",
+     "en": "Well, it turns out it's not Charimera...",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 0.464,
+     "end": 0.477,
+     "ja": "チャルメラなんだって。",
+     "en": "It's Charumera.",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 0.546,
+     "end": 0.559,
+     "ja": "え？それやる？",
+     "en": "Eh? You want to do that?",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 0.562,
+     "end": 0.571,
+     "ja": "じゃあ、改めて…",
+     "en": "Then once again...",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 0.572,
+     "end": 0.589,
+     "ja": "チャルメラ、サイコー！",
+     "en": "Charumera is the best!",
+     "speaker": "Both"
+    }
+   ]
+  }
+ ],
+ "videoId": "cE8wVmwY7VY",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

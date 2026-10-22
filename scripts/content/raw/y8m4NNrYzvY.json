@@ -1,0 +1,188 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 539.3,
+   "end": 553.8,
+   "title": "Unboxing an Apron",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜じゃん — isn't it / tag question",
+    "〜だよな — seeking confirmation"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 539.6,
+     "end": 542.5,
+     "ja": "おっ、エプロンか。すげえな。",
+     "en": "Oh, an apron? That's awesome.",
+     "speaker": "Father"
+    },
+    {
+     "start": 543.7,
+     "end": 545.8,
+     "ja": "え、これ、すごいじゃん。",
+     "en": "Wait, this is really cool.",
+     "speaker": "Father"
+    },
+    {
+     "start": 546.5,
+     "end": 548.5,
+     "ja": "エプロンだよな、これ。",
+     "en": "This is an apron, right?",
+     "speaker": "Father"
+    },
+    {
+     "start": 549.3,
+     "end": 550.3,
+     "ja": "いい。",
+     "en": "Nice.",
+     "speaker": "Father"
+    },
+    {
+     "start": 550.8,
+     "end": 553.3,
+     "ja": "すげえ、めちゃくちゃおしゃれ。",
+     "en": "Awesome, super stylish.",
+     "speaker": "Father"
+    }
+   ]
+  },
+  {
+   "start": 601.0,
+   "end": 624.8,
+   "title": "Matching Parent-Child Aprons",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜みたいな — like / similar to",
+    "〜ていただく — humble receiving / will gratefully do",
+    "〜(よ)う — volitional form"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 601.3,
+     "end": 605.5,
+     "ja": "これ、あれか。親子のあれか、エプロンセットみたいなやつか。",
+     "en": "Is this that matching parent-child apron set thing?",
+     "speaker": "Father"
+    },
+    {
+     "start": 606.5,
+     "end": 608.2,
+     "ja": "へぇー、すげえな。",
+     "en": "Wow, impressive.",
+     "speaker": "Father"
+    },
+    {
+     "start": 608.8,
+     "end": 612.3,
+     "ja": "こんなのどこで見つけてくるの？すごいね。",
+     "en": "Where do you even find something like this? Amazing.",
+     "speaker": "Father"
+    },
+    {
+     "start": 614.5,
+     "end": 616.0,
+     "ja": "ありがとうございます。",
+     "en": "Thank you so much.",
+     "speaker": "Father"
+    },
+    {
+     "start": 616.5,
+     "end": 619.0,
+     "ja": "大切に使わせていただきます。",
+     "en": "I will cherish and use it.",
+     "speaker": "Father"
+    },
+    {
+     "start": 620.5,
+     "end": 624.2,
+     "ja": "今度これ着けて、料理動画撮ろう。",
+     "en": "Next time, let's wear this and film a cooking video.",
+     "speaker": "Father"
+    }
+   ]
+  },
+  {
+   "start": 723.0,
+   "end": 743.0,
+   "title": "Late Night Wake-Up Call",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜ちゃう — ended up doing (casual)",
+    "〜か — expressing intention / let's"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 723.4,
+     "end": 725.5,
+     "ja": "起きてきちゃった。",
+     "en": "Oh, you woke up.",
+     "speaker": "Father"
+    },
+    {
+     "start": 726.5,
+     "end": 727.8,
+     "ja": "トイレ行く？",
+     "en": "Need to go to the bathroom?",
+     "speaker": "Father"
+    },
+    {
+     "start": 728.8,
+     "end": 730.0,
+     "ja": "お茶…",
+     "en": "Tea...",
+     "speaker": "Son"
+    },
+    {
+     "start": 731.0,
+     "end": 733.2,
+     "ja": "お茶？お茶飲む？",
+     "en": "Tea? You want some tea?",
+     "speaker": "Father"
+    },
+    {
+     "start": 733.3,
+     "end": 734.4,
+     "ja": "お茶飲む。",
+     "en": "I'll drink tea.",
+     "speaker": "Son"
+    },
+    {
+     "start": 734.5,
+     "end": 735.8,
+     "ja": "いいよ。",
+     "en": "Sure thing.",
+     "speaker": "Father"
+    },
+    {
+     "start": 740.3,
+     "end": 742.5,
+     "ja": "よし、行くか。",
+     "en": "Alright, let's go.",
+     "speaker": "Father"
+    }
+   ]
+  }
+ ],
+ "videoId": "y8m4NNrYzvY",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

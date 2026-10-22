@@ -1,0 +1,198 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 73.0,
+   "end": 94.5,
+   "title": "Stating Party Size at Japanese Restaurants",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜と — when/if",
+    "〜て言うと — if you say...",
+    "〜みたいになる — end up like..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 73.0,
+     "end": 75.5,
+     "ja": "中に入ると、大体お店の人が",
+     "en": "When you walk inside, the restaurant staff usually",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 75.5,
+     "end": 78.8,
+     "ja": "「何名様ですか」というふうに聞いてくるので、",
+     "en": "will ask you, \"How many people in your party?\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 78.8,
+     "end": 83.0,
+     "ja": "例えば２人いる時は「２名です」と言ってください。",
+     "en": "so if there are two of you, for example, say \"Two people.\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 83.0,
+     "end": 87.0,
+     "ja": "この時間違えて「２名様です」って言うと、",
+     "en": "If you mistakenly say \"Two sama\" here,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 87.0,
+     "end": 90.8,
+     "ja": "「様」は尊敬する人に使うので、",
+     "en": "\"sama\" is used for people you respect,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 90.8,
+     "end": 94.0,
+     "ja": "自分で自分を尊敬しているみたいになります。",
+     "en": "so it sounds like you're showing respect to yourself.",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 243.0,
+   "end": 263.0,
+   "title": "What Are Ohya and Oshibori?",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜てくれる — doing something for someone",
+    "〜というのは — what X means is..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 243.0,
+     "end": 245.5,
+     "ja": "席に着くと、お店の人が大体",
+     "en": "When you sit down, the staff usually",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 245.5,
+     "end": 250.0,
+     "ja": "お冷とおしぼりを持ってきてくれます。",
+     "en": "brings you cold water and a wet towel.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 250.0,
+     "end": 254.2,
+     "ja": "お冷っていうのは、冷たい水のことなんですけど、",
+     "en": "\"Ohya\" means cold water, but",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 254.2,
+     "end": 257.2,
+     "ja": "レストランとかでは「冷たい水」とか言わないで、",
+     "en": "in restaurants they don't say \"cold water\",",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 257.2,
+     "end": 261.0,
+     "ja": "「お冷」というふうに、ちょっと特別な名前になります。",
+     "en": "they use a slightly special name: \"ohya.\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 261.0,
+     "end": 262.8,
+     "ja": "でも、普通の水です。",
+     "en": "Still, it's just regular water.",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 377.3,
+   "end": 398.8,
+   "title": "Calling the Waiter with a Bell",
+   "level": "N3",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "お〜になる — honorific verb form",
+    "〜たら — when/if",
+    "〜たことがある — have experienced"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 377.3,
+     "end": 381.8,
+     "ja": "お店の人も最初、お冷とおしぼりを持ってくる時に",
+     "en": "When the staff first bring over the water and towel,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 381.8,
+     "end": 384.0,
+     "ja": "「ご注文がお決まりになりましたら、",
+     "en": "they say, \"Once you have decided on your order,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 384.0,
+     "end": 387.0,
+     "ja": "ベルでお呼びください」というふうに言います。",
+     "en": "please call us with the bell.\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 387.0,
+     "end": 389.8,
+     "ja": "このフレーズは絶対聞きますよ。",
+     "en": "You will definitely hear this phrase.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 389.8,
+     "end": 393.8,
+     "ja": "「ご注文がお決まりになりましたら、ベルでお呼びください。」",
+     "en": "\"Once you have decided on your order, please call us with the bell.\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 393.8,
+     "end": 396.0,
+     "ja": "すごい有名なフレーズで、",
+     "en": "It's a very famous phrase,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 396.0,
+     "end": 398.8,
+     "ja": "日本に行ったことがある人は、絶対聞いたことがあります。",
+     "en": "and anyone who has been to Japan has definitely heard it.",
+     "speaker": "Hitoki"
+    }
+   ]
+  }
+ ],
+ "videoId": "DmQyBo-H6WU",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

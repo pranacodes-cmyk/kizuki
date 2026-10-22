@@ -1,0 +1,204 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 49.0,
+   "end": 65.5,
+   "title": "Why I Love Sazae-san",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜ない — negative verb form",
+    "〜ところ — aspect / point",
+    "〜れる/られる — potential form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 49.0,
+     "end": 51.2,
+     "ja": "アニメを見ることはありますか？",
+     "en": "Do you ever watch anime?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 51.2,
+     "end": 53.0,
+     "ja": "「サザエさん」。",
+     "en": "Sazae-san.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 53.0,
+     "end": 54.7,
+     "ja": "どんなところが好きですか？",
+     "en": "What do you like about it?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 54.7,
+     "end": 57.3,
+     "ja": "昔から変わらないところですかね。",
+     "en": "I guess the fact that it hasn't changed over the years.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 57.5,
+     "end": 59.8,
+     "ja": "スマホ持ってないところとか。",
+     "en": "Like how they don't have smartphones.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 61.0,
+     "end": 65.4,
+     "ja": "ちょうどこう、家族が揃ってご飯食べる時間にちょうど見れるんで。",
+     "en": "You can watch it right when the family gathers to eat dinner.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 141.0,
+   "end": 158.0,
+   "title": "Hayao Miyazaki and Lupin the Third",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜とか — listing examples",
+    "〜しか…ない — only / nothing but"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 141.0,
+     "end": 143.0,
+     "ja": "アニメを見ることはありますか？",
+     "en": "Do you ever watch anime?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 143.0,
+     "end": 144.7,
+     "ja": "はい、たまにはね。",
+     "en": "Yes, once in a while.",
+     "speaker": "Woman A"
+    },
+    {
+     "start": 144.3,
+     "end": 145.3,
+     "ja": "たまにな。",
+     "en": "Once in a while.",
+     "speaker": "Woman B"
+    },
+    {
+     "start": 145.3,
+     "end": 148.0,
+     "ja": "宮崎駿のシリーズとか。",
+     "en": "Things like Hayao Miyazaki's series.",
+     "speaker": "Woman A"
+    },
+    {
+     "start": 148.0,
+     "end": 150.2,
+     "ja": "「ルパン三世」とかも面白いですね。",
+     "en": "Things like Lupin the Third are also interesting.",
+     "speaker": "Woman A"
+    },
+    {
+     "start": 150.2,
+     "end": 153.0,
+     "ja": "「カリオストロの城」ぐらいしか覚えてへん。",
+     "en": "I only really remember The Castle of Cagliostro.",
+     "speaker": "Woman A"
+    },
+    {
+     "start": 153.0,
+     "end": 154.3,
+     "ja": "昔のやつな。",
+     "en": "The old one, yeah.",
+     "speaker": "Woman B"
+    },
+    {
+     "start": 154.3,
+     "end": 157.6,
+     "ja": "その人物のそれぞれの設定が面白いな。",
+     "en": "The character settings for each of them are interesting.",
+     "speaker": "Woman A"
+    }
+   ]
+  },
+  {
+   "start": 525.5,
+   "end": 542.0,
+   "title": "Solving Mysteries with Detective Conan",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "family"
+   ],
+   "grammar": [
+    "〜自身 — oneself",
+    "〜でも — even",
+    "〜できる — can do (potential)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 525.8,
+     "end": 527.7,
+     "ja": "アニメを見ることってありますか？",
+     "en": "Do you ever watch anime?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 527.7,
+     "end": 530.3,
+     "ja": "ありますね。私自身も好きなんで、はい。",
+     "en": "Yes, I do. I personally like it as well.",
+     "speaker": "Man"
+    },
+    {
+     "start": 530.3,
+     "end": 532.4,
+     "ja": "コナン君とかが好きですね。",
+     "en": "I like things like Detective Conan.",
+     "speaker": "Man"
+    },
+    {
+     "start": 532.4,
+     "end": 536.5,
+     "ja": "探偵物で、大人でも見て推理できるのが面白いですね。",
+     "en": "It's a detective story, so it's fun that adults can watch and try to deduce the mysteries too.",
+     "speaker": "Man"
+    },
+    {
+     "start": 536.5,
+     "end": 538.2,
+     "ja": "漫画の本も読みますね。",
+     "en": "I read the manga books too.",
+     "speaker": "Man"
+    },
+    {
+     "start": 538.2,
+     "end": 541.8,
+     "ja": "子供が小さい時は、プリキュアとか見てましたね、一緒に。はい。",
+     "en": "When my kids were little, I used to watch Pretty Cure with them. Yes.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "sqmQcGwiXWg",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

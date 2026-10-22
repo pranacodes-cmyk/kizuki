@@ -1,0 +1,229 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 17.5,
+   "end": 43.8,
+   "title": "What Kind of Game Is Splatoon?",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜たことがある — have experienced doing",
+    "〜という — called / named"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.8,
+     "end": 20.4,
+     "ja": "さぁということで、本日もゲームですね。",
+     "en": "All right, so we're playing a game again today.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 20.4,
+     "end": 23.2,
+     "ja": "今日のゲームはスプラトゥーンというゲームです。",
+     "en": "Today's game is called Splatoon.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 23.8,
+     "end": 25.1,
+     "ja": "聞いたことある？",
+     "en": "Have you heard of it?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 25.1,
+     "end": 28.5,
+     "ja": "聞いたことある有名なやつですが、もちろんやったことはないので。",
+     "en": "I've heard of it, it's famous, but of course I've never played it.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 28.5,
+     "end": 29.8,
+     "ja": "やったことないですね。",
+     "en": "Never played it, right?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 30.0,
+     "end": 31.9,
+     "ja": "色を塗るんですよね？",
+     "en": "You paint colors, right?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 32.0,
+     "end": 34.4,
+     "ja": "みたいなゲームと聞いたことはあります。",
+     "en": "I've heard it's that kind of game.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 34.5,
+     "end": 36.6,
+     "ja": "俺、その情報だけ持ってる。",
+     "en": "That's the only info I have.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 36.7,
+     "end": 39.4,
+     "ja": "俺はイカ... イカっていう情報だけ。",
+     "en": "I only know about squids... that there are squids.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 39.4,
+     "end": 41.6,
+     "ja": "イカやねんて。それだけ。",
+     "en": "Apparently it's about squids. That's all.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 41.7,
+     "end": 43.8,
+     "ja": "スプラトゥーンってイカのゲームなの？",
+     "en": "Is Splatoon a squid game?",
+     "speaker": "Yamauchi"
+    }
+   ]
+  },
+  {
+   "start": 205.2,
+   "end": 224.2,
+   "title": "Figuring Out How to Win",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜方が勝ち — the one who does ... wins",
+    "〜かも — might / perhaps"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 205.5,
+     "end": 206.5,
+     "ja": "なんですか？",
+     "en": "What happened?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 206.5,
+     "end": 208.0,
+     "ja": "俺が勝ったのか？",
+     "en": "Did I win?",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 208.0,
+     "end": 209.5,
+     "ja": "俺が負けてる。",
+     "en": "Looks like I lost.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 209.7,
+     "end": 213.6,
+     "ja": "なるほど！このマップ上に俺が黄色いっぱい塗っていったんや。",
+     "en": "I get it! I painted a lot of yellow on this map.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 214.4,
+     "end": 217.7,
+     "ja": "いっぱい自分の色塗った方が勝ちってことや、これ多分。",
+     "en": "Whoever covers more area in their color wins, probably.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 218.0,
+     "end": 220.6,
+     "ja": "私の方、ペンキが出ませんでしたけど。",
+     "en": "On my end, no paint came out at all.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 220.8,
+     "end": 224.2,
+     "ja": "ちょっと待って、俺、右上、左上、さっき押してなかったかも。",
+     "en": "Wait, I might not have pressed the top-right or top-left buttons earlier.",
+     "speaker": "Yamauchi"
+    }
+   ]
+  },
+  {
+   "start": 708.8,
+   "end": 722.8,
+   "title": "Hamaie Teaches a Trick",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜やん — isn't it? (Kansai dialect)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 708.9,
+     "end": 711.0,
+     "ja": "よし、1個だけじゃあ教えますわ。",
+     "en": "All right, I'll teach you just one thing.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 711.1,
+     "end": 712.8,
+     "ja": "壁に色を塗るやん。",
+     "en": "You paint the walls, right?",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 712.9,
+     "end": 713.8,
+     "ja": "フ〜ン。",
+     "en": "Uh-huh.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 714.0,
+     "end": 716.0,
+     "ja": "ほんなら壁もギューン登れんねん。",
+     "en": "Then you can zoom right up the wall.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 716.3,
+     "end": 719.1,
+     "ja": "それちょっと駆使しながらやってみ、おもろいわ。",
+     "en": "Try making full use of that, it's so fun.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 720.5,
+     "end": 722.5,
+     "ja": "ダレてんな、おい！",
+     "en": "Hey, you're totally slacking off!",
+     "speaker": "Hamaie"
+    }
+   ]
+  }
+ ],
+ "videoId": "2Bc2nqK7ih0",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

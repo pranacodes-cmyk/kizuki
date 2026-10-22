@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 145.4,
+   "end": 159.9,
+   "title": "Entering Donki and Grabbing a Basket",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜に — destination/direction",
+    "〜を — direct object marker"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 145.7,
+     "end": 148.6,
+     "ja": "ドンキに入ります。",
+     "en": "I enter Donki.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 149.3,
+     "end": 153.9,
+     "ja": "ドア。ドアが開きます。",
+     "en": "The door. The door opens.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 154.6,
+     "end": 159.4,
+     "ja": "カゴ。カゴを取ります。",
+     "en": "A basket. I take a basket.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 517.5,
+   "end": 547.4,
+   "title": "Buying Gummy Candies at Donki",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜くて — and (adjective te-form)",
+    "〜に — destination of putting something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 517.8,
+     "end": 521.1,
+     "ja": "これはグミです。",
+     "en": "These are gummies.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 521.4,
+     "end": 525.6,
+     "ja": "グミはやわらかいです。",
+     "en": "Gummies are soft.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 526.4,
+     "end": 530.4,
+     "ja": "このグミはコロロです。",
+     "en": "These gummies are Kororo.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 531.0,
+     "end": 537.4,
+     "ja": "コロロは青くて丸いです。",
+     "en": "Kororo is blue and round.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 538.1,
+     "end": 541.4,
+     "ja": "コロロを取ります。",
+     "en": "I take the Kororo.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 541.8,
+     "end": 546.9,
+     "ja": "コロロをカゴに入れます。",
+     "en": "I put the Kororo into the basket.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 846.9,
+   "end": 910.4,
+   "title": "Waiting in Line at the Cash Register",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜ています — ongoing action",
+    "〜で — location of action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 847.2,
+     "end": 850.5,
+     "ja": "ここはレジです。",
+     "en": "This is the checkout counter.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 850.9,
+     "end": 855.8,
+     "ja": "今、レジに並んでいます。",
+     "en": "Right now, I am standing in line at the register.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 856.4,
+     "end": 860.5,
+     "ja": "並んで待っています。",
+     "en": "I am standing in line and waiting.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 901.0,
+     "end": 905.8,
+     "ja": "レジでお金を払います。",
+     "en": "I pay money at the cash register.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 906.1,
+     "end": 909.9,
+     "ja": "レジでお金を払います。",
+     "en": "I pay money at the cash register.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "RSwMJ-2THYM",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

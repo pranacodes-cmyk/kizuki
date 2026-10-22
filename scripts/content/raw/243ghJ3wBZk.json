@@ -1,0 +1,123 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.5,
+   "end": 11.0,
+   "title": "Welcome to the Travel Japanese Lesson",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ましょう — let's do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.8,
+     "end": 5.0,
+     "ja": "皆さんこんにちは、日本語教師の未来です。",
+     "en": "Hello everyone, I'm Mirai, a Japanese teacher.",
+     "speaker": "Mirai"
+    },
+    {
+     "start": 5.3,
+     "end": 10.5,
+     "ja": "今日は一緒に旅行のときに使う日本語を勉強しましょう。",
+     "en": "Today, let's study the Japanese used when traveling together.",
+     "speaker": "Mirai"
+    }
+   ]
+  },
+  {
+   "start": 161.8,
+   "end": 177.2,
+   "title": "How Far Are You Going?",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜んですか — asking for explanation/confirmation",
+    "〜の？ — casual question marker"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 162.5,
+     "end": 165.5,
+     "ja": "どこまで行くんですか。",
+     "en": "How far are you going?",
+     "speaker": "Mirai"
+    },
+    {
+     "start": 169.5,
+     "end": 171.5,
+     "ja": "タメ口は？",
+     "en": "How about in casual speech?",
+     "speaker": "Mirai"
+    },
+    {
+     "start": 173.8,
+     "end": 176.2,
+     "ja": "どこまで行くの？",
+     "en": "How far are you going?",
+     "speaker": "Mirai"
+    }
+   ]
+  },
+  {
+   "start": 183.2,
+   "end": 208.6,
+   "title": "Wrapping Up the Lesson",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜たら — if / when",
+    "お〜しましょう — humble offer / polite expression"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 183.6,
+     "end": 186.5,
+     "ja": "今日のレッスンはここまでです。",
+     "en": "That's all for today's lesson.",
+     "speaker": "Mirai"
+    },
+    {
+     "start": 186.8,
+     "end": 190.2,
+     "ja": "旅行のときに使う日本語、分かりましたか？",
+     "en": "Did you understand the Japanese used when traveling?",
+     "speaker": "Mirai"
+    },
+    {
+     "start": 197.0,
+     "end": 203.0,
+     "ja": "このレッスンが役に立ったと思ったら、いいねとチャンネル登録をお願いします。",
+     "en": "If you thought this lesson was helpful, please like and subscribe to the channel.",
+     "speaker": "Mirai"
+    },
+    {
+     "start": 204.3,
+     "end": 208.0,
+     "ja": "ではまた、次のレッスンでお会いしましょう。",
+     "en": "See you again in the next lesson!",
+     "speaker": "Mirai"
+    }
+   ]
+  }
+ ],
+ "videoId": "243ghJ3wBZk",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

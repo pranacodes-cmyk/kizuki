@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 7.4,
+   "end": 26.6,
+   "title": "First Day at a Japanese Elementary School",
+   "level": "N5",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜は〜です — A is B",
+    "まだ〜ない — not yet"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 7.7,
+     "end": 9.9,
+     "ja": "ぼくの名前はアレク。",
+     "en": "My name is Alec.",
+     "speaker": "Alec"
+    },
+    {
+     "start": 10.4,
+     "end": 11.7,
+     "ja": "９歳です。",
+     "en": "I'm nine years old.",
+     "speaker": "Alec"
+    },
+    {
+     "start": 12.0,
+     "end": 16.5,
+     "ja": "ぼくは今日、日本の小学校に入ります。",
+     "en": "Today, I am entering a Japanese elementary school.",
+     "speaker": "Alec"
+    },
+    {
+     "start": 18.7,
+     "end": 22.8,
+     "ja": "まだ日本語も、日本のこともよくわからないけど、",
+     "en": "I don't know much Japanese or much about Japan yet, but",
+     "speaker": "Alec"
+    },
+    {
+     "start": 23.3,
+     "end": 26.2,
+     "ja": "新しい学校はとっても楽しみです！",
+     "en": "I'm really looking forward to my new school!",
+     "speaker": "Alec"
+    }
+   ]
+  },
+  {
+   "start": 116.8,
+   "end": 134.4,
+   "title": "Introducing Myself to the Class",
+   "level": "N5",
+   "topics": [
+    "school",
+    "friends"
+   ],
+   "grammar": [
+    "〜を紹介します — introduce ~",
+    "よろしく — pleased to meet you"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 117.2,
+     "end": 120.7,
+     "ja": "今日は、新しいお友だちを紹介します。",
+     "en": "Today, I'd like to introduce a new classmate.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 121.3,
+     "end": 124.9,
+     "ja": "初めまして！ぼくの名前はアレクです。",
+     "en": "Nice to meet you! My name is Alec.",
+     "speaker": "Alec"
+    },
+    {
+     "start": 130.0,
+     "end": 132.3,
+     "ja": "よろしくね！",
+     "en": "Nice to meet you!",
+     "speaker": "Girl"
+    }
+   ]
+  },
+  {
+   "start": 231.7,
+   "end": 251.2,
+   "title": "School Schedule and Break Times",
+   "level": "N4",
+   "topics": [
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜になると — when it becomes...",
+    "〜と言って — called / saying that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 232.0,
+     "end": 237.0,
+     "ja": "日本の小学校は、１つの授業が４５分あって、",
+     "en": "In Japanese elementary schools, each class lasts 45 minutes,",
+     "speaker": "Alec"
+    },
+    {
+     "start": 237.3,
+     "end": 240.2,
+     "ja": "中学校になると５０分になります。",
+     "en": "and in junior high school, it becomes 50 minutes.",
+     "speaker": "Alec"
+    },
+    {
+     "start": 241.2,
+     "end": 246.0,
+     "ja": "小学校では、２時間目と３時間目の間には、",
+     "en": "In elementary school, between second and third period,",
+     "speaker": "Alec"
+    },
+    {
+     "start": 246.0,
+     "end": 250.7,
+     "ja": "「中休み」と言って、少し長めの休憩時間があります。",
+     "en": "there is a slightly longer break called \"nakayasumi\".",
+     "speaker": "Alec"
+    }
+   ]
+  }
+ ],
+ "videoId": "dO0rqWQo2Ok",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

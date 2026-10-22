@@ -1,0 +1,95 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 18.8,
+   "end": 31.0,
+   "title": "Welcome to the Island",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "fun",
+    "travel"
+   ],
+   "grammar": [
+    "ついつい — unintentionally / ended up doing",
+    "〜すぎる — too much / excessively"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 19.0,
+     "end": 21.6,
+     "ja": "すごい、すごい！歓迎ムードだね！",
+     "en": "Wow, amazing! Everyone's in such a welcoming mood!",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 23.8,
+     "end": 27.5,
+     "ja": "ついつい、楽しくなりすぎちゃうんですね。",
+     "en": "You just can't help having too much fun.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 28.0,
+     "end": 30.8,
+     "ja": "さらに美味いものが追加された？",
+     "en": "Even more delicious treats were added?",
+     "speaker": "Rakko"
+    }
+   ]
+  },
+  {
+   "start": 33.2,
+   "end": 44.3,
+   "title": "Something Suspicious on the Island",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "気配がする — to sense / feel a sign of",
+    "次々 — one after another",
+    "〜られる — passive voice"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 33.6,
+     "end": 35.8,
+     "ja": "怪しい気配がする。",
+     "en": "I sense something suspicious.",
+     "speaker": "Rakko"
+    },
+    {
+     "start": 36.6,
+     "end": 38.9,
+     "ja": "島の住民が次々さらわれて…",
+     "en": "The islanders are being snatched one after another...",
+     "speaker": "Rakko"
+    },
+    {
+     "start": 39.0,
+     "end": 40.9,
+     "ja": "行方不明になってる？",
+     "en": "And going missing?",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 41.1,
+     "end": 44.0,
+     "ja": "このメンバーで、あれを討伐するのか。",
+     "en": "With this crew, we're going to subjugate that thing?",
+     "speaker": "Rakko"
+    }
+   ]
+  }
+ ],
+ "videoId": "N5439yrq_l8",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,149 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 323.5,
+   "end": 339.5,
+   "title": "Asking Young People About Voting",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜たことがある — have experienced doing",
+    "〜てみる — try doing"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 325.2,
+     "end": 326.8,
+     "ja": "選挙は行ったことありますか？",
+     "en": "Have you ever voted in an election?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 326.8,
+     "end": 328.0,
+     "ja": "ないです。",
+     "en": "No, I haven't.",
+     "speaker": "Young Woman"
+    },
+    {
+     "start": 328.0,
+     "end": 329.1,
+     "ja": "あ、ないですか？",
+     "en": "Oh, you haven't?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 329.1,
+     "end": 330.6,
+     "ja": "ない理由とかって？",
+     "en": "What is the reason for not going?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 330.6,
+     "end": 331.6,
+     "ja": "いっぱい。",
+     "en": "There are plenty.",
+     "speaker": "Young Woman"
+    },
+    {
+     "start": 331.6,
+     "end": 332.6,
+     "ja": "いっぱいありますか。",
+     "en": "Plenty, you say?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 333.6,
+     "end": 335.6,
+     "ja": "理由を書いて…",
+     "en": "Write down the reasons...",
+     "speaker": "Young Woman"
+    },
+    {
+     "start": 335.6,
+     "end": 338.8,
+     "ja": "お姉さんの回答を見てみましょう。せーの！",
+     "en": "Let's take a look at her answer. Ready, set...",
+     "speaker": "Interviewer"
+    }
+   ]
+  },
+  {
+   "start": 343.8,
+   "end": 357.2,
+   "title": "Reasons for Not Voting",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜かも知れない — might be",
+    "〜と分からない — don't know unless..."
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 344.1,
+     "end": 345.0,
+     "ja": "1、日時。",
+     "en": "One, the date and time.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 345.0,
+     "end": 345.9,
+     "ja": "2、場所。",
+     "en": "Two, the location.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 345.9,
+     "end": 347.8,
+     "ja": "3、やり方も何にも分からない。",
+     "en": "Three, not knowing how it works or anything.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 348.4,
+     "end": 351.4,
+     "ja": "まあ、ただバカなだけかもしれないけど。",
+     "en": "Well, maybe it's just that I'm dumb, but...",
+     "speaker": "Young Woman"
+    },
+    {
+     "start": 351.4,
+     "end": 354.2,
+     "ja": "何にも、いつあるとか全然分からない。",
+     "en": "I don't know anything about when it takes place at all.",
+     "speaker": "Young Woman"
+    },
+    {
+     "start": 354.2,
+     "end": 355.3,
+     "ja": "何にも分からん。",
+     "en": "I don't know anything.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 355.3,
+     "end": 357.0,
+     "ja": "日時も分かりません。",
+     "en": "You don't know the date and time either.",
+     "speaker": "Interviewer"
+    }
+   ]
+  }
+ ],
+ "videoId": "5O0dS7Uscoo",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

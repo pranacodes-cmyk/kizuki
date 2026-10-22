@@ -1,0 +1,151 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.2,
+   "end": 24.5,
+   "title": "Japan's Role in Nuclear Disarmament",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜べき — should / ought to",
+    "〜に向けて — heading toward / aiming at",
+    "〜が求められている — is being demanded/required"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.3,
+     "end": 8.0,
+     "ja": "よろしくお願いします。",
+     "en": "Thank you, it is an honor to be here.",
+     "speaker": "Tamura"
+    },
+    {
+     "start": 8.0,
+     "end": 12.8,
+     "ja": "日本が果たすべき役割は、被爆80周年の今年、",
+     "en": "The role Japan ought to play this year, the 80th anniversary of the atomic bombings,",
+     "speaker": "Tamura"
+    },
+    {
+     "start": 12.8,
+     "end": 17.4,
+     "ja": "やはり核兵器禁止条約の批准に向けて動くことだと考えます。",
+     "en": "is, I believe, to move toward ratifying the Treaty on the Prohibition of Nuclear Weapons.",
+     "speaker": "Tamura"
+    },
+    {
+     "start": 17.4,
+     "end": 21.8,
+     "ja": "そのために核抑止力論の克服が求められていますので、",
+     "en": "To that end, overcoming the doctrine of nuclear deterrence is required,",
+     "speaker": "Tamura"
+    },
+    {
+     "start": 21.8,
+     "end": 24.3,
+     "ja": "ここに絞って発言したいと思います。",
+     "en": "so I would like to focus my remarks on this point.",
+     "speaker": "Tamura"
+    }
+   ]
+  },
+  {
+   "start": 24.8,
+   "end": 40.5,
+   "title": "The Humanitarian Approach",
+   "level": "N2",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜し続ける — continue doing",
+    "〜させる — causative form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 24.8,
+     "end": 28.0,
+     "ja": "核兵器の非人道性への告発、",
+     "en": "Condemning the inhumanity of nuclear weapons—",
+     "speaker": "Tamura"
+    },
+    {
+     "start": 28.0,
+     "end": 29.8,
+     "ja": "これがやはり重要です。",
+     "en": "this is indeed what is essential.",
+     "speaker": "Tamura"
+    },
+    {
+     "start": 29.8,
+     "end": 35.0,
+     "ja": "被爆者の皆さんは、広島・長崎の地獄を告発し続け、",
+     "en": "The Hibakusha have continued to testify to the horrors of Hiroshima and Nagasaki,",
+     "speaker": "Tamura"
+    },
+    {
+     "start": 35.0,
+     "end": 40.2,
+     "ja": "この人道的なアプローチが核兵器禁止条約を誕生させました。",
+     "en": "and this humanitarian approach brought the Nuclear Weapon Ban Treaty into existence.",
+     "speaker": "Tamura"
+    }
+   ]
+  },
+  {
+   "start": 229.5,
+   "end": 246.5,
+   "title": "Dialogue Over Military Force",
+   "level": "N1",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜ではなく — not A, but B",
+    "〜というもの — something that is"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 229.8,
+     "end": 234.0,
+     "ja": "我が党は、ASEANと協力して、",
+     "en": "Our party advocates a peace initiative in cooperation with ASEAN,",
+     "speaker": "Tamura"
+    },
+    {
+     "start": 234.0,
+     "end": 238.8,
+     "ja": "東アジアを戦争の心配のない地域にする平和構想を提唱して、",
+     "en": "to turn East Asia into a region free from the fear of war,",
+     "speaker": "Tamura"
+    },
+    {
+     "start": 238.8,
+     "end": 241.0,
+     "ja": "国内外で行動しています。",
+     "en": "and we are taking action both at home and abroad.",
+     "speaker": "Tamura"
+    },
+    {
+     "start": 241.0,
+     "end": 246.2,
+     "ja": "その立場は、軍事ではなく対話、排除ではなく包摂というものです。",
+     "en": "That stance is one of dialogue over militarism, and inclusion over exclusion.",
+     "speaker": "Tamura"
+    }
+   ]
+  }
+ ],
+ "videoId": "QWQVaV4Iyeg",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

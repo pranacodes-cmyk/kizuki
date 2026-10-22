@@ -1,0 +1,125 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 3.4,
+   "end": 16.0,
+   "title": "Yuki Ishikawa's Captain Greeting",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "work"
+   ],
+   "grammar": [
+    "〜を務めさせていただく — humbly serving as",
+    "〜になるので — because it will be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.5,
+     "end": 8.0,
+     "ja": "こんにちは。今年度もキャプテンを務めさせて頂く石川祐希です。",
+     "en": "Hello. I'm Yuki Ishikawa, serving as captain again this year.",
+     "speaker": "Ishikawa"
+    },
+    {
+     "start": 8.0,
+     "end": 15.8,
+     "ja": "今シーズンの最大の目標はオリンピック予選になるので、そこで出場権を絶対に獲得します。",
+     "en": "Our biggest goal this season is the Olympic qualifiers, so we will definitely secure our spot there.",
+     "speaker": "Ishikawa"
+    }
+   ]
+  },
+  {
+   "start": 543.8,
+   "end": 605.4,
+   "title": "Ran Takahashi's Playful Introduction",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "comedy"
+   ],
+   "grammar": [
+    "〜を通して — throughout / through",
+    "〜ように — in order to / so that",
+    "〜たいと思います — think I would like to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 544.0,
+     "end": 547.7,
+     "ja": "皆さんこんにちは。インスタグラマーの高橋藍です。",
+     "en": "Hello everyone. I'm Instagrammer Ran Takahashi.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 548.8,
+     "end": 551.0,
+     "ja": "背番号12番、高橋藍です。",
+     "en": "Jersey number 12, Ran Takahashi.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 551.0,
+     "end": 557.2,
+     "ja": "今シーズン、この代表シーズンを通してしっかりと自分自身が進化していくって所も目標にしてやっていきたいですし、",
+     "en": "This season, I want to aim to keep evolving personally through this national team season,",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 557.2,
+     "end": 605.2,
+     "ja": "チームの目標である「パリ五輪出場」って所を、しっかりと決めれるように自分自身も貢献して頑張りたいなと思います。",
+     "en": "and I want to contribute and do my best so we can firmly secure the team's goal of qualifying for the Paris Olympics.",
+     "speaker": "Takahashi"
+    }
+   ]
+  },
+  {
+   "start": 640.5,
+   "end": 650.8,
+   "title": "Praise for Teammate Yamamoto",
+   "level": "N4",
+   "topics": [
+    "sports",
+    "friends"
+   ],
+   "grammar": [
+    "〜くて — combining i-adjectives",
+    "〜になる — to become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 640.7,
+     "end": 647.5,
+     "ja": "隣にいる山本選手は全てのプレーが上手くて、僕自身すごい刺激になる存在です。",
+     "en": "Yamamoto next to me is great at every part of the game, and he really inspires me.",
+     "speaker": "Ogawa"
+    },
+    {
+     "start": 647.5,
+     "end": 649.0,
+     "ja": "はい。あとカワイイです。",
+     "en": "Yes. Also, he's cute.",
+     "speaker": "Ogawa"
+    },
+    {
+     "start": 649.0,
+     "end": 650.5,
+     "ja": "ありがとうございました。",
+     "en": "Thank you very much.",
+     "speaker": "Ogawa"
+    }
+   ]
+  }
+ ],
+ "videoId": "XBoKJ7T4Suw",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 150.0,
+   "end": 216.0,
+   "title": "What to Do If You Spot a Suspicious Item",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ないでください — please do not",
+    "〜かもしれない — might / could be",
+    "〜ば — conditional if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 150.5,
+     "end": 152.5,
+     "ja": "ちょっと待った！",
+     "en": "Wait a second!",
+     "speaker": "Polar Bear"
+    },
+    {
+     "start": 153.0,
+     "end": 158.2,
+     "ja": "もしおかしいものがあったら、近くに行かないでください。",
+     "en": "If you see something suspicious, please do not go near it.",
+     "speaker": "Polar Bear"
+    },
+    {
+     "start": 159.8,
+     "end": 201.3,
+     "ja": "どうして？",
+     "en": "Why?",
+     "speaker": "Rin"
+    },
+    {
+     "start": 201.8,
+     "end": 206.6,
+     "ja": "誰かが爆発物などを置いたかもしれないからです。",
+     "en": "Because someone might have left an explosive or something behind.",
+     "speaker": "Polar Bear"
+    },
+    {
+     "start": 206.8,
+     "end": 210.0,
+     "ja": "そうだ。近くに行くな、リン。",
+     "en": "He's right. Don't go near it, Rin.",
+     "speaker": "Father"
+    },
+    {
+     "start": 210.2,
+     "end": 212.0,
+     "ja": "どうすれば？",
+     "en": "What should we do?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 212.4,
+     "end": 216.0,
+     "ja": "警備員に連絡してください！",
+     "en": "Please contact a security guard!",
+     "speaker": "Polar Bear"
+    }
+   ]
+  },
+  {
+   "start": 278.5,
+   "end": 307.5,
+   "title": "Protecting Yourself During an Explosion",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜かもしれない — might / could be",
+    "〜ことがある — there are times when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 278.8,
+     "end": 282.5,
+     "ja": "体を低くしてください。",
+     "en": "Get down low.",
+     "speaker": "Polar Bear"
+    },
+    {
+     "start": 282.8,
+     "end": 286.5,
+     "ja": "爆発は一度だけではないかもしれません。",
+     "en": "There might not be just one explosion.",
+     "speaker": "Polar Bear"
+    },
+    {
+     "start": 286.7,
+     "end": 292.5,
+     "ja": "最初の爆発のあとに、次の爆発が起きることもありますから。",
+     "en": "Because a second explosion can follow the first one.",
+     "speaker": "Polar Bear"
+    },
+    {
+     "start": 293.7,
+     "end": 299.8,
+     "ja": "続けて爆発が起きることがあるかもしれないんだな。",
+     "en": "I see, so another explosion could happen right after.",
+     "speaker": "Father"
+    },
+    {
+     "start": 300.2,
+     "end": 307.5,
+     "ja": "逃げましょう。近くに安全な建物があれば、そこにいてください。",
+     "en": "Let's flee. If there's a safe building nearby, stay inside it.",
+     "speaker": "Polar Bear"
+    }
+   ]
+  },
+  {
+   "start": 380.5,
+   "end": 405.0,
+   "title": "Evacuating from Poison Gas",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ようにする — make an effort to",
+    "〜たり〜たり — doing things like",
+    "〜ときに — when / at the time of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 380.6,
+     "end": 383.5,
+     "ja": "毒ガスかもしれません！",
+     "en": "It might be poison gas!",
+     "speaker": "Polar Bear"
+    },
+    {
+     "start": 383.8,
+     "end": 386.5,
+     "ja": "口や鼻に入らないようにする。",
+     "en": "Keep it from entering your mouth and nose.",
+     "speaker": "Polar Bear"
+    },
+    {
+     "start": 386.8,
+     "end": 393.0,
+     "ja": "口に入ったり、吸い込むと、体に悪いことがあります。",
+     "en": "If it enters your mouth or you inhale it, it can harm your body.",
+     "speaker": "Polar Bear"
+    },
+    {
+     "start": 393.4,
+     "end": 397.3,
+     "ja": "建物の中にいるときは、外へ。",
+     "en": "When you are inside a building, go outside.",
+     "speaker": "Polar Bear"
+    },
+    {
+     "start": 397.5,
+     "end": 404.5,
+     "ja": "外にいるときは、風が吹いてくる方の高いところへ逃げる。",
+     "en": "When outside, flee upwind to higher ground.",
+     "speaker": "Polar Bear"
+    }
+   ]
+  }
+ ],
+ "videoId": "5xOoCkMx7cc",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

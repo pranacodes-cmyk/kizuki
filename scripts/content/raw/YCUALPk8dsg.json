@@ -1,0 +1,114 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 40.5,
+   "end": 51.2,
+   "title": "The First and Last Lie",
+   "level": "N4",
+   "topics": [
+    "romance"
+   ],
+   "grammar": [
+    "〜てほしい — wanting someone to do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 40.8,
+     "end": 44.4,
+     "ja": "誰よりも、美羽にそばにいてほしかった。",
+     "en": "More than anyone, I wanted Miu by my side.",
+     "speaker": "Minato"
+    },
+    {
+     "start": 44.5,
+     "end": 45.6,
+     "ja": "だけど…",
+     "en": "But...",
+     "speaker": "Minato"
+    },
+    {
+     "start": 46.8,
+     "end": 50.6,
+     "ja": "俺、もう美羽のこと好きじゃない。",
+     "en": "I don't love you anymore, Miu.",
+     "speaker": "Minato"
+    }
+   ]
+  },
+  {
+   "start": 56.0,
+   "end": 64.5,
+   "title": "Wishing for Her Happiness",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "〜てほしい — wanting someone to do something",
+    "〜んです — explanatory nuance"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 56.3,
+     "end": 60.3,
+     "ja": "本当に大事な人だから、幸せになってほしいんです。",
+     "en": "She's truly important to me, so I want her to be happy.",
+     "speaker": "Minato"
+    },
+    {
+     "start": 60.7,
+     "end": 64.2,
+     "ja": "美羽、これまでずっと一人で大変だったんですよ。",
+     "en": "Miu has had a really tough time all alone up until now.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 109.0,
+   "end": 118.5,
+   "title": "Promise for the Leap Year",
+   "level": "N4",
+   "topics": [
+    "romance"
+   ],
+   "grammar": [
+    "〜といいね — hoping that...",
+    "〜てね — casual request"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 109.2,
+     "end": 111.6,
+     "ja": "約束、叶うといいね。",
+     "en": "I hope your promise comes true.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 112.1,
+     "end": 116.4,
+     "ja": "次のうるう年の誕生日には、湊が作った曲、聴かせてね。",
+     "en": "On my birthday next leap year, play the song you write for me, okay?",
+     "speaker": "Miu"
+    },
+    {
+     "start": 116.7,
+     "end": 118.3,
+     "ja": "約束だよ。",
+     "en": "It's a promise.",
+     "speaker": "Miu"
+    }
+   ]
+  }
+ ],
+ "videoId": "YCUALPk8dsg",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

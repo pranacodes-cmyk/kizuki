@@ -1,0 +1,92 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.5,
+   "end": 12.8,
+   "title": "You're Half Ghoul Now",
+   "level": "N4",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜んだから — because / as you know",
+    "〜ないと — must (conditional requirement)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 4.8,
+     "end": 6.8,
+     "ja": "あんたはもう普通の人間じゃない。",
+     "en": "You're not a normal human anymore.",
+     "speaker": "Touka"
+    },
+    {
+     "start": 6.8,
+     "end": 8.5,
+     "ja": "半分は喰種なんだから。",
+     "en": "Because you're half ghoul.",
+     "speaker": "Touka"
+    },
+    {
+     "start": 9.6,
+     "end": 12.6,
+     "ja": "喰種は人間を食べないと生きていけない。",
+     "en": "Ghouls can't survive without eating humans.",
+     "speaker": "Touka"
+    }
+   ]
+  },
+  {
+   "start": 22.4,
+   "end": 29.9,
+   "title": "An Invitation from Tsukiyama",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "food"
+   ],
+   "grammar": [
+    "行きつけ — favorite regular haunt",
+    "〜させてもらう — to be permitted to do"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 22.7,
+     "end": 23.7,
+     "ja": "あの人は？",
+     "en": "Who's he?",
+     "speaker": "Kaneki"
+    },
+    {
+     "start": 24.0,
+     "end": 25.8,
+     "ja": "月山。ちと厄介者。",
+     "en": "Tsukiyama. A bit of a troublemaker.",
+     "speaker": "Touka"
+    },
+    {
+     "start": 26.5,
+     "end": 28.5,
+     "ja": "僕の行きつけのレストランに",
+     "en": "To my favorite restaurant,",
+     "speaker": "Tsukiyama"
+    },
+    {
+     "start": 28.5,
+     "end": 29.7,
+     "ja": "招待させてもらえないだろうか？",
+     "en": "won't you let me invite you?",
+     "speaker": "Tsukiyama"
+    }
+   ]
+  }
+ ],
+ "videoId": "wSug9_Y-FMg",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

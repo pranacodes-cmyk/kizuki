@@ -83,6 +83,9 @@ class _ContextPlayerState extends State<ContextPlayer> {
       }
       final p = st == PlayerState.playing;
       if (p != playing) setState(() => playing = p);
+      // Hide YouTube's own captions here too (enableCaption=false is ignored when the viewer
+      // or channel has captions on) — the card already shows the sentence and translation.
+      if (st == PlayerState.playing || st == PlayerState.buffering) _hideYouTubeCaptions();
     });
     _ts = c.videoStateStream.listen((s) {
       if (playing && s.position.inMilliseconds / 1000 >= to) _c?.pauseVideo();
@@ -94,6 +97,14 @@ class _ContextPlayerState extends State<ContextPlayer> {
         if (widget.autoplay) _play();
       }
     });
+  }
+
+  void _hideYouTubeCaptions() {
+    final c = _c;
+    if (c == null) return;
+    unawaited(c.webViewController
+        .runJavaScript("try{player.unloadModule('captions');player.unloadModule('cc');player.setOption('captions','track',{});}catch(e){}")
+        .catchError((_) {}));
   }
 
   void _destroy() {

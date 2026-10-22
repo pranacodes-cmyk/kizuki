@@ -1,0 +1,174 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 22.5,
+   "title": "Weekend Walks with My Child",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜ようにする — making an effort to",
+    "〜て — sequential actions"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 2.5,
+     "ja": "おはようございます。",
+     "en": "Good morning.",
+     "speaker": "Youn-a"
+    },
+    {
+     "start": 2.8,
+     "end": 5.5,
+     "ja": "Youn-a TVのみなさん。",
+     "en": "Everyone watching Youn-a TV.",
+     "speaker": "Youn-a"
+    },
+    {
+     "start": 6.9,
+     "end": 13.7,
+     "ja": "週末はいつも子どもと、天気がよければいつも外に出かけるようにしてます。",
+     "en": "On weekends, whenever the weather is nice, I always make sure to go out with my child.",
+     "speaker": "Youn-a"
+    },
+    {
+     "start": 14.4,
+     "end": 19.5,
+     "ja": "朝は教会に行って、お昼にはこうやって散歩してます。",
+     "en": "We go to church in the morning, and around noon we go on walks like this.",
+     "speaker": "Youn-a"
+    },
+    {
+     "start": 19.9,
+     "end": 22.2,
+     "ja": "ついてきてください。",
+     "en": "Please come along.",
+     "speaker": "Youn-a"
+    }
+   ]
+  },
+  {
+   "start": 410.2,
+   "end": 427.0,
+   "title": "What Do You Want for Lunch?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food",
+    "family"
+   ],
+   "grammar": [
+    "〜ようと思う — expressing intention",
+    "〜たい — wanting to do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 410.4,
+     "end": 413.8,
+     "ja": "公園でたくさん遊んで、",
+     "en": "After playing a lot at the park,",
+     "speaker": "Youn-a"
+    },
+    {
+     "start": 413.9,
+     "end": 418.5,
+     "ja": "今日は週末なので、ランチを外で食べようと思います。",
+     "en": "since it's the weekend today, I think we'll eat lunch out.",
+     "speaker": "Youn-a"
+    },
+    {
+     "start": 418.8,
+     "end": 420.3,
+     "ja": "何食べたい？",
+     "en": "What do you want to eat?",
+     "speaker": "Youn-a"
+    },
+    {
+     "start": 421.3,
+     "end": 424.6,
+     "ja": "何にも食べないよ。",
+     "en": "I'm not eating anything.",
+     "speaker": "Child"
+    },
+    {
+     "start": 424.9,
+     "end": 426.6,
+     "ja": "何にも食べたくない？",
+     "en": "You don't want to eat anything?",
+     "speaker": "Youn-a"
+    }
+   ]
+  },
+  {
+   "start": 506.4,
+   "end": 521.8,
+   "title": "Time to Go Home for a Nap",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜ないと — must do",
+    "〜させる — causative form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 506.7,
+     "end": 509.4,
+     "ja": "もう帰って昼寝させないと。",
+     "en": "We need to go home and let him take a nap.",
+     "speaker": "Youn-a"
+    },
+    {
+     "start": 509.7,
+     "end": 513.5,
+     "ja": "昼寝させてご飯作って食べさせます。",
+     "en": "I'll have him nap, make a meal, and feed him.",
+     "speaker": "Youn-a"
+    },
+    {
+     "start": 514.0,
+     "end": 515.1,
+     "ja": "楽しかった？",
+     "en": "Did you have fun?",
+     "speaker": "Youn-a"
+    },
+    {
+     "start": 515.2,
+     "end": 516.7,
+     "ja": "楽しかった。",
+     "en": "It was fun.",
+     "speaker": "Child"
+    },
+    {
+     "start": 516.8,
+     "end": 519.8,
+     "ja": "楽しかった？あ、嬉しい。また遊びに行こうね。",
+     "en": "It was fun? Ah, I'm glad. Let's go play again, okay?",
+     "speaker": "Youn-a"
+    },
+    {
+     "start": 520.1,
+     "end": 521.3,
+     "ja": "はーい。",
+     "en": "Okay.",
+     "speaker": "Child"
+    }
+   ]
+  }
+ ],
+ "videoId": "FH-B7Y4-BcA",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

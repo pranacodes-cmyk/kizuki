@@ -1,0 +1,223 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 21.0,
+   "end": 39.5,
+   "title": "Heading Out for Lunch in LA",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜てくれる — doing something for someone",
+    "〜に行く — go in order to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 21.0,
+     "end": 24.0,
+     "ja": "おはようございます。皆さんこんにちは、Yunaです。",
+     "en": "Good morning! Hello everyone, I'm Yuna.",
+     "speaker": "Yuna"
+    },
+    {
+     "start": 24.2,
+     "end": 28.0,
+     "ja": "今日はですね、彼が日本からLAにね、遊びに来てくれてます。",
+     "en": "Today, my boyfriend has come all the way from Japan to visit LA.",
+     "speaker": "Yuna"
+    },
+    {
+     "start": 28.2,
+     "end": 31.3,
+     "ja": "ということで、私のルームメイトのKちゃん、出てこい。",
+     "en": "So, my roommate K-chan, come on out!",
+     "speaker": "Yuna"
+    },
+    {
+     "start": 31.4,
+     "end": 33.2,
+     "ja": "ほら！ほら！",
+     "en": "Come on, come on!",
+     "speaker": "Yuna"
+    },
+    {
+     "start": 33.3,
+     "end": 34.5,
+     "ja": "はーい！",
+     "en": "Hi!",
+     "speaker": "K-chan"
+    },
+    {
+     "start": 35.0,
+     "end": 39.5,
+     "ja": "Kちゃんと、彼と３人でね、ご飯食べに行くんだけど…",
+     "en": "K-chan, my boyfriend, and I are going out to eat, but...",
+     "speaker": "Yuna"
+    }
+   ]
+  },
+  {
+   "start": 278.8,
+   "end": 294.5,
+   "title": "Taking Boyfriend Home",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "romance"
+   ],
+   "grammar": [
+    "〜みたい — seems like",
+    "〜と思う — think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 278.8,
+     "end": 283.2,
+     "ja": "ちょっとこれからね、一応彼の体調がちょっと悪いみたいなので、",
+     "en": "So now, it seems like my boyfriend is feeling a bit unwell, so...",
+     "speaker": "Yuna"
+    },
+    {
+     "start": 283.3,
+     "end": 286.3,
+     "ja": "一回彼をね、家に置いて帰りたいと思います。",
+     "en": "we're going to drop him off at home first.",
+     "speaker": "Yuna"
+    },
+    {
+     "start": 286.4,
+     "end": 287.7,
+     "ja": "お留守番だね、今日は。",
+     "en": "You're holding down the fort today.",
+     "speaker": "Yuna"
+    },
+    {
+     "start": 287.8,
+     "end": 289.8,
+     "ja": "えー、なんで腹の調子こんな悪いんだろう。",
+     "en": "Man, why is my stomach feeling so bad?",
+     "speaker": "Boyfriend"
+    },
+    {
+     "start": 289.9,
+     "end": 292.2,
+     "ja": "知らないです。食べすぎですよ、きっと。",
+     "en": "I don't know. You definitely ate too much.",
+     "speaker": "Yuna"
+    },
+    {
+     "start": 292.3,
+     "end": 293.4,
+     "ja": "ちょっと食べすぎだな。",
+     "en": "Yeah, ate a bit too much.",
+     "speaker": "Boyfriend"
+    },
+    {
+     "start": 293.5,
+     "end": 294.5,
+     "ja": "行こっか。",
+     "en": "Shall we go?",
+     "speaker": "Yuna"
+    }
+   ]
+  },
+  {
+   "start": 558.0,
+   "end": 583.0,
+   "title": "Japanese 101 with Roommate",
+   "level": "N5",
+   "topics": [
+    "friends",
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜が美味しい — ... is delicious",
+    "〜がいません — do not have"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 558.0,
+     "end": 562.5,
+     "ja": "はい、今からKちゃんとジャパニーズ101をしまーす。",
+     "en": "Alright, now K-chan and I are going to do Japanese 101!",
+     "speaker": "Yuna"
+    },
+    {
+     "start": 563.0,
+     "end": 564.3,
+     "ja": "はい。ヤッホー！",
+     "en": "Yes. Yahoo!",
+     "speaker": "K-chan"
+    },
+    {
+     "start": 564.4,
+     "end": 565.8,
+     "ja": "ヤッホー！",
+     "en": "Yahoo!",
+     "speaker": "Yuna"
+    },
+    {
+     "start": 566.3,
+     "end": 569.8,
+     "ja": "アサイーボウルが… アサイーボウルが…",
+     "en": "The acai bowl is... The acai bowl is...",
+     "speaker": "Yuna"
+    },
+    {
+     "start": 570.0,
+     "end": 571.2,
+     "ja": "美味しいです。",
+     "en": "It's delicious.",
+     "speaker": "Yuna"
+    },
+    {
+     "start": 571.3,
+     "end": 572.4,
+     "ja": "美味しいです。",
+     "en": "It's delicious.",
+     "speaker": "K-chan"
+    },
+    {
+     "start": 572.5,
+     "end": 573.8,
+     "ja": "彼氏がいません。",
+     "en": "I don't have a boyfriend.",
+     "speaker": "Yuna"
+    },
+    {
+     "start": 576.5,
+     "end": 578.3,
+     "ja": "彼氏がいません。",
+     "en": "I don't have a boyfriend.",
+     "speaker": "Yuna"
+    },
+    {
+     "start": 578.5,
+     "end": 580.0,
+     "ja": "彼氏がいません。",
+     "en": "I don't have a boyfriend.",
+     "speaker": "K-chan"
+    },
+    {
+     "start": 580.2,
+     "end": 582.0,
+     "ja": "イケメンが好きです。",
+     "en": "I like handsome guys.",
+     "speaker": "Yuna"
+    }
+   ]
+  }
+ ],
+ "videoId": "ak7OK2uUPcI",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

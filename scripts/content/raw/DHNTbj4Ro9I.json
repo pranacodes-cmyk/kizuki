@@ -1,0 +1,192 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 55.5,
+   "end": 84.0,
+   "title": "My Husband Couldn't Make It to the Expo",
+   "level": "N4",
+   "topics": [
+    "family",
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ようと思う — intend to / plan to",
+    "〜てしまう — expressing regret or completion",
+    "〜られる — passive voice"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 55.8,
+     "end": 60.8,
+     "ja": "もともと家族３人で行こうと思っていたのですが、",
+     "en": "We were originally planning to go as a family of three, but",
+     "speaker": "Woman"
+    },
+    {
+     "start": 61.3,
+     "end": 65.5,
+     "ja": "主人が万博に行く１週間前に、",
+     "en": "one week before going to the Expo, my husband",
+     "speaker": "Woman"
+    },
+    {
+     "start": 65.9,
+     "end": 69.4,
+     "ja": "「虫垂炎」という病気になり、",
+     "en": "came down with an illness called appendicitis,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 69.8,
+     "end": 72.8,
+     "ja": "行けなくなりました。",
+     "en": "and could no longer go.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 73.3,
+     "end": 78.5,
+     "ja": "この病気は、「盲腸」という名前でも知られています。",
+     "en": "This disease is also known as \"mōchō\" (appendicitis).",
+     "speaker": "Woman"
+    },
+    {
+     "start": 79.1,
+     "end": 83.5,
+     "ja": "お腹がとても痛くなる病気です。",
+     "en": "It's an illness where your stomach hurts very badly.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 275.5,
+   "end": 307.0,
+   "title": "Waiting in the Wrong Line",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "food",
+    "comedy"
+   ],
+   "grammar": [
+    "〜のに — in order to / for",
+    "〜てみる — try doing / see what happens",
+    "〜ではなく — not A, but B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 275.8,
+     "end": 281.2,
+     "ja": "パビリオンに入るのに、人数を聞かれるのはおかしいと思って、",
+     "en": "I thought it was strange to be asked how many people were in our party just to enter the pavilion,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 281.6,
+     "end": 285.2,
+     "ja": "列の先を見てみると、",
+     "en": "and when I looked at the front of the line,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 286.0,
+     "end": 292.5,
+     "ja": "なんと私たちが並んでいたのは、ドイツのパビリオンの列ではなく、",
+     "en": "it turned out we weren't in line for the German pavilion at all,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 293.0,
+     "end": 299.5,
+     "ja": "ドイツのレストランの列だったのです。",
+     "en": "but in line for the German restaurant.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 300.5,
+     "end": 306.5,
+     "ja": "私も息子もショックで呆然としてしまいました。",
+     "en": "My son and I were in shock and stood there dumbfounded.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 390.5,
+   "end": 423.5,
+   "title": "Getting Separated in the Crowd",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "family"
+   ],
+   "grammar": [
+    "〜ようと思って — with the intention of",
+    "〜と — when / if (conditional)",
+    "〜にくい・〜が難しい — difficult to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 390.8,
+     "end": 395.8,
+     "ja": "列に並ぼうと思って歩いているときに、",
+     "en": "As I was walking, intending to get in line,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 396.3,
+     "end": 399.2,
+     "ja": "後ろを振り返ると、",
+     "en": "I looked back,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 399.7,
+     "end": 404.2,
+     "ja": "私についてきていると思っていた息子が",
+     "en": "and the son I thought was following me",
+     "speaker": "Woman"
+    },
+    {
+     "start": 404.7,
+     "end": 407.8,
+     "ja": "いなかったのです。",
+     "en": "was nowhere to be seen.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 408.5,
+     "end": 413.2,
+     "ja": "万博は本当に人が多いので、",
+     "en": "Because the Expo was so crowded,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 413.8,
+     "end": 419.5,
+     "ja": "ここではぐれると、",
+     "en": "if you get separated from someone here,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 420.0,
+     "end": 423.0,
+     "ja": "もう相手を見つけるのは難しいです。",
+     "en": "it's really difficult to find them again.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "DHNTbj4Ro9I",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

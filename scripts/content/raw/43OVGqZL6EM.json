@@ -1,0 +1,168 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 546.5,
+   "end": 603.0,
+   "title": "A Takoyaki Disaster",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜につれて — as X happens, Y happens",
+    "〜たことない — have never done"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 546.8,
+     "end": 549.0,
+     "ja": "大失敗やな。",
+     "en": "It's a huge failure.",
+     "speaker": "Man"
+    },
+    {
+     "start": 549.8,
+     "end": 551.5,
+     "ja": "そうよね。",
+     "en": "Right?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 552.2,
+     "end": 558.2,
+     "ja": "こっから焼けていくにつれてうまく焼けてくれるの？",
+     "en": "As it cooks from here on, will it turn out okay?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 558.7,
+     "end": 602.5,
+     "ja": "私たこ焼きやったことないからさ…",
+     "en": "I've never made takoyaki before, you see...",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 633.2,
+   "end": 647.2,
+   "title": "Figuring Out What Went Wrong",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜たらよかった — should have",
+    "〜といけない — must not / bad if"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 633.5,
+     "end": 636.5,
+     "ja": "油が足らなかったんやなー。",
+     "en": "There wasn't enough oil, huh.",
+     "speaker": "Man"
+    },
+    {
+     "start": 636.8,
+     "end": 638.2,
+     "ja": "多分ね〜。",
+     "en": "Probably.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 638.8,
+     "end": 641.0,
+     "ja": "あと火を止めちゃったのよ。",
+     "en": "Also, I ended up turning off the heat.",
+     "speaker": "Man"
+    },
+    {
+     "start": 641.8,
+     "end": 644.2,
+     "ja": "焦げるといけないからって。",
+     "en": "Thinking it shouldn't burn.",
+     "speaker": "Man"
+    },
+    {
+     "start": 644.2,
+     "end": 645.3,
+     "ja": "うんうん。",
+     "en": "Yeah, yeah.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 645.3,
+     "end": 646.8,
+     "ja": "これどうしよ。",
+     "en": "What do we do with this?",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 652.5,
+   "end": 706.5,
+   "title": "Claiming Credit for the Only Good One",
+   "level": "N4",
+   "topics": [
+    "food",
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜になる — to become",
+    "〜やつ — the thing / one"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 652.8,
+     "end": 655.8,
+     "ja": "これ凄い綺麗に丸くなった。",
+     "en": "This one became really nicely round.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 656.0,
+     "end": 657.6,
+     "ja": "ほんとや。",
+     "en": "That's true.",
+     "speaker": "Man"
+    },
+    {
+     "start": 657.8,
+     "end": 659.8,
+     "ja": "これだけやん。",
+     "en": "It's only this one though.",
+     "speaker": "Man"
+    },
+    {
+     "start": 659.8,
+     "end": 701.8,
+     "ja": "そうね〜。",
+     "en": "Yeah, true...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 703.2,
+     "end": 706.0,
+     "ja": "それ私が担当したやつ。",
+     "en": "That's the one I made.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "43OVGqZL6EM",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

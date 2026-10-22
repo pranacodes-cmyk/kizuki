@@ -1,0 +1,174 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 9.3,
+   "end": 29.8,
+   "title": "Applying to Two Major Japanese Airlines",
+   "level": "N3",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜しか…ない — only",
+    "〜てくる — come to be / become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.3,
+     "end": 12.3,
+     "ja": "まずね、私の状況を簡単に皆さんにお話しすると、",
+     "en": "First, to briefly explain my situation to you all,",
+     "speaker": "Ai"
+    },
+    {
+     "start": 12.3,
+     "end": 15.4,
+     "ja": "私は新卒で日系大手２社を受けてました。",
+     "en": "as a new graduate, I applied to two major Japanese airlines.",
+     "speaker": "Ai"
+    },
+    {
+     "start": 15.4,
+     "end": 19.3,
+     "ja": "逆にこの日系大手２社しか受けてませんでした、",
+     "en": "In fact, I only applied to these two major Japanese airlines,",
+     "speaker": "Ai"
+    },
+    {
+     "start": 19.3,
+     "end": 20.7,
+     "ja": "っていう感じです。",
+     "en": "is how it went.",
+     "speaker": "Ai"
+    },
+    {
+     "start": 20.7,
+     "end": 25.0,
+     "ja": "なんで今日の内容はこの日系企業の大手２社についてになってくるんですけど、",
+     "en": "So today's content will be about these two major Japanese companies,",
+     "speaker": "Ai"
+    },
+    {
+     "start": 25.0,
+     "end": 27.8,
+     "ja": "まあJALさんとANAさんになってくるんですけど、",
+     "en": "meaning JAL and ANA, basically,",
+     "speaker": "Ai"
+    },
+    {
+     "start": 27.8,
+     "end": 29.8,
+     "ja": "まあよかったら最後までお付き合いください。",
+     "en": "so please stay with me until the end if you'd like.",
+     "speaker": "Ai"
+    }
+   ]
+  },
+  {
+   "start": 54.0,
+   "end": 68.8,
+   "title": "Never Exceed the Interview Time Limit",
+   "level": "N3",
+   "topics": [
+    "work",
+    "school"
+   ],
+   "grammar": [
+    "〜たほうがいい — had better / should",
+    "〜ようにする — make sure to / try to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 54.0,
+     "end": 56.6,
+     "ja": "で、ここでちょっと気をつけたほうがいいのが、",
+     "en": "And what you should be a bit careful about here",
+     "speaker": "Ai"
+    },
+    {
+     "start": 56.6,
+     "end": 60.5,
+     "ja": "もう絶対指定された時間を超えないことですね。",
+     "en": "is never exceeding the specified time.",
+     "speaker": "Ai"
+    },
+    {
+     "start": 60.5,
+     "end": 65.0,
+     "ja": "例えば30秒って言われたら、もう30秒以内でこう収まるようにしとくとか、",
+     "en": "For example, if you're told 30 seconds, make sure it fits within 30 seconds,",
+     "speaker": "Ai"
+    },
+    {
+     "start": 65.0,
+     "end": 68.8,
+     "ja": "そういう工夫をしたほうがいいんじゃないかなと思います。",
+     "en": "I think it's best to make that kind of effort.",
+     "speaker": "Ai"
+    }
+   ]
+  },
+  {
+   "start": 441.0,
+   "end": 462.5,
+   "title": "A Memorable Candidate in the Interview",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜と言われている — to be said to be / called",
+    "〜なぜかと言うと — because / if you ask why"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 441.0,
+     "end": 445.2,
+     "ja": "で、ひとりの子がね、「私は昔からゴリラと言われておりました。」",
+     "en": "And one girl said, \"I've been called a gorilla since I was young.\"",
+     "speaker": "Ai"
+    },
+    {
+     "start": 445.2,
+     "end": 450.4,
+     "ja": "「なぜかと言うとメンタルも強くて頭の回転も早かったからです」っていう風に言ったんですね。",
+     "en": "\"That's because I'm mentally tough and quick on my feet,\" she said.",
+     "speaker": "Ai"
+    },
+    {
+     "start": 450.4,
+     "end": 456.2,
+     "ja": "で、なかなかね、多分客室乗務員を受ける子って自分のことゴリラっていうような子って",
+     "en": "And really, among girls interviewing to be flight attendants, calling oneself a gorilla",
+     "speaker": "Ai"
+    },
+    {
+     "start": 456.2,
+     "end": 458.1,
+     "ja": "多分ね、あんまいなかったと思うんだよね。",
+     "en": "is something I don't think there were many of.",
+     "speaker": "Ai"
+    },
+    {
+     "start": 458.1,
+     "end": 462.5,
+     "ja": "なんで面接官も大爆笑してて、「ワハハ」みたいな感じで、",
+     "en": "So the interviewers burst out laughing, going \"Hahaha,\" like that.",
+     "speaker": "Ai"
+    }
+   ]
+  }
+ ],
+ "videoId": "PTPvudOIzeA",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

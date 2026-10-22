@@ -1,0 +1,170 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.9,
+   "end": 13.5,
+   "title": "Market Introduction and Nikkei Average",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜ていく — to go on doing",
+    "〜と一緒に — together with"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.0,
+     "end": 3.9,
+     "ja": "ここからはNQNの鈴木さんと一緒に、",
+     "en": "From here, together with Mr. Suzuki from NQN,",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 3.9,
+     "end": 6.1,
+     "ja": "今日の相場で注目した銘柄や",
+     "en": "we will look at the featured stocks in today's market",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 6.1,
+     "end": 8.3,
+     "ja": "明日の相場のヒントを探していきます。",
+     "en": "and hints for tomorrow's market.",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 8.3,
+     "end": 10.0,
+     "ja": "鈴木さん、よろしくお願いいたします。",
+     "en": "Mr. Suzuki, thank you for joining us.",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 10.0,
+     "end": 11.3,
+     "ja": "よろしくお願いします。",
+     "en": "Thank you, it's a pleasure.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 11.4,
+     "end": 13.2,
+     "ja": "では、現在の日経平均です。",
+     "en": "Now, let's look at the current Nikkei average.",
+     "speaker": "Anchor"
+    }
+   ]
+  },
+  {
+   "start": 387.3,
+   "end": 404.0,
+   "title": "SoftBank Group Hits New Low",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜ようですね — it seems that",
+    "〜以来 — since / ever since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 387.5,
+     "end": 390.2,
+     "ja": "さあ、それではそのほかですけれども、",
+     "en": "Now, moving on to other stocks,",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 390.2,
+     "end": 393.6,
+     "ja": "ソフトバンクグループ、今日は下げ幅を広げる動きを見せていますが、",
+     "en": "SoftBank Group is extending its losses today,",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 393.6,
+     "end": 396.0,
+     "ja": "材料があるようですね。",
+     "en": "and it seems there are specific factors behind this.",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 396.0,
+     "end": 400.3,
+     "ja": "はい、あの6.6%安の4524円まで今日売られまして、",
+     "en": "Yes, it dropped down to 4,524 yen today, falling 6.6%,",
+     "speaker": "Guest"
+    },
+    {
+     "start": 400.3,
+     "end": 403.7,
+     "ja": "7月30日…30日以来の安値です。",
+     "en": "reaching its lowest level since July 30th.",
+     "speaker": "Guest"
+    }
+   ]
+  },
+  {
+   "start": 670.2,
+   "end": 685.0,
+   "title": "Closing Bell at Tokyo Stock Exchange",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜を発端とする — triggered by / originating from",
+    "〜をお伝えする — humble form of to report"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 670.4,
+     "end": 673.2,
+     "ja": "さて、時刻は3時30分を過ぎました。",
+     "en": "Now, the time is past 3:30.",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 673.2,
+     "end": 676.0,
+     "ja": "東京市場、今日の取引が終了です。",
+     "en": "Trading on the Tokyo market has concluded for today.",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 676.0,
+     "end": 678.8,
+     "ja": "フランスを発端とした金利上昇の中、",
+     "en": "Amid rising interest rates sparked by France,",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 678.8,
+     "end": 682.2,
+     "ja": "AI・ハイテク株の信用不安などが重しでした。",
+     "en": "credit concerns over AI and tech stocks weighed on the market.",
+     "speaker": "Anchor"
+    },
+    {
+     "start": 682.2,
+     "end": 684.7,
+     "ja": "それでは、今日の終値をお伝えしていきます。",
+     "en": "Now, let's share today's closing prices.",
+     "speaker": "Anchor"
+    }
+   ]
+  }
+ ],
+ "videoId": "G5g-rjjAbf4",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

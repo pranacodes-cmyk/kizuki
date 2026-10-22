@@ -1,0 +1,165 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 40.0,
+   "end": 59.8,
+   "title": "The Origin of Plato's Name",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜として — as / in the role of",
+    "〜と言われている — it is said that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 40.2,
+     "end": 44.9,
+     "ja": "プラトンは、アテナイの王様の血を引く一族の息子としてアテナイにて生まれました。",
+     "en": "Plato was born in Athens as the son of a family descended from Athenian royalty.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 45.1,
+     "end": 46.9,
+     "ja": "本名はアリストクレス。",
+     "en": "His real name was Aristocles.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 47.0,
+     "end": 49.8,
+     "ja": "プラトンはレスリングのチャンピオンであったことは有名ですが、",
+     "en": "It is well-known that Plato was a wrestling champion,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 50.0,
+     "end": 54.0,
+     "ja": "実は「プラトン」という名前自体、レスラーとしてのリングネームであったと言われています。",
+     "en": "but the name 'Plato' itself is actually said to have been his wrestling ring name.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 54.3,
+     "end": 59.5,
+     "ja": "今で言うと、サンダーライガーがサンダーライガー名義で哲学書を後世に残すような感じですね。",
+     "en": "To put it in modern terms, it would be like Jushin Liger leaving philosophy books to posterity under the name Jushin Liger.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 145.5,
+   "end": 164.8,
+   "title": "Relativism vs Universal Truth",
+   "level": "N2",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜よりも — rather than / more than",
+    "〜なんて — things like / such as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 147.9,
+     "end": 151.8,
+     "ja": "しかしその時代、真理の探究よりも相対主義が浸透していました。",
+     "en": "However, in that era, relativism had spread more widely than the pursuit of truth.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 152.0,
+     "end": 153.8,
+     "ja": "「真理なんて人それぞれだ。",
+     "en": "'Truth depends on each individual.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 153.9,
+     "end": 156.4,
+     "ja": "本当の善、本当の愛、本当の正義、",
+     "en": "True goodness, true love, true justice—",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 156.5,
+     "end": 160.0,
+     "ja": "これらはその時々その人で変わるから、本質なんてものはない。」",
+     "en": "these change from time to time and person to person, so there is no such thing as an essence.'",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 160.2,
+     "end": 164.2,
+     "ja": "多くの人がそう考えていたのです。しかしプラトンは一つの疑問を持ちます。",
+     "en": "Many people thought that way. But Plato harbored a doubt.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 146.0,
+   "end": 173.5,
+   "title": "Theory of Recollection (Anamnesis)",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜わけではない — does not mean that",
+    "〜のではないか — isn't it perhaps that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 276.0,
+     "end": 280.0,
+     "ja": "人間が何かを学ぶのは、新しいことを知るわけではなく、",
+     "en": "When a human learns something, it does not mean they are learning something new;",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 280.1,
+     "end": 283.0,
+     "ja": "過去に魂が知っていたことを思い出すことである。",
+     "en": "rather, it is remembering what the soul previously knew.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 283.2,
+     "end": 285.8,
+     "ja": "このような考え方を「想起説」と呼びます。",
+     "en": "This kind of thinking is called the 'theory of recollection'.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 286.0,
+     "end": 288.0,
+     "ja": "だから、誰に教えられるでもなく、",
+     "en": "Therefore, without being taught by anyone,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 288.1,
+     "end": 293.0,
+     "ja": "「美しい」とか「正しい」という感覚をそれぞれの人間が持ち合わせていると考えたのです。",
+     "en": "he believed that every human innately possesses a sense of what is 'beautiful' or 'just'.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "cbAuGHu64ao",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

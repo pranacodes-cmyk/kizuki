@@ -1,0 +1,259 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 33.2,
+   "end": 52.5,
+   "title": "Underestimating Golden Week Crowds",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜たり〜たりする — doing things like",
+    "〜てた — was doing (casual)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 33.5,
+     "end": 37.0,
+     "ja": "ということで、みんなでね、新大阪に観光に行こうと、ま、大阪か。",
+     "en": "So, we're all going sightseeing in Shin-Osaka—well, Osaka.",
+     "speaker": "Nakasso"
+    },
+    {
+     "start": 37.0,
+     "end": 39.5,
+     "ja": "大阪に観光に行こうということで。",
+     "en": "Heading off on a sightseeing trip to Osaka.",
+     "speaker": "Nakasso"
+    },
+    {
+     "start": 39.5,
+     "end": 42.0,
+     "ja": "一応楽しみですよ。たこ焼き食べたりね。",
+     "en": "I'm looking forward to it. Eating takoyaki and all.",
+     "speaker": "Nakasso"
+    },
+    {
+     "start": 42.1,
+     "end": 44.8,
+     "ja": "いや、楽しみだったんだけども...",
+     "en": "Well, I was looking forward to it, but...",
+     "speaker": "Tanabe"
+    },
+    {
+     "start": 44.8,
+     "end": 47.3,
+     "ja": "ちょっとゴールデンウィーク舐めてたなぁ。",
+     "en": "I kind of underestimated Golden Week.",
+     "speaker": "Tanabe"
+    },
+    {
+     "start": 47.4,
+     "end": 49.0,
+     "ja": "今日は、えっと、5月3日。",
+     "en": "Today is, let's see, May 3rd.",
+     "speaker": "Nakasso"
+    },
+    {
+     "start": 49.0,
+     "end": 52.2,
+     "ja": "うん、ええ、もう真っ只中。",
+     "en": "Yeah, right in the thick of it.",
+     "speaker": "Tanabe"
+    }
+   ]
+  },
+  {
+   "start": 750.0,
+   "end": 807.5,
+   "title": "Finding a 50-Yen Vending Machine",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture",
+    "food"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜っけ — recalling / confirming"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 750.2,
+     "end": 751.3,
+     "ja": "大阪見つけましたね。",
+     "en": "We've found Osaka, haven't we?",
+     "speaker": "Nakasso"
+    },
+    {
+     "start": 751.3,
+     "end": 753.9,
+     "ja": "大阪見つけた。大阪見つけました、皆さん。",
+     "en": "Found Osaka! We found Osaka, everyone.",
+     "speaker": "Tanabe"
+    },
+    {
+     "start": 754.0,
+     "end": 755.3,
+     "ja": "50円。",
+     "en": "50 yen.",
+     "speaker": "Tanabe"
+    },
+    {
+     "start": 755.3,
+     "end": 756.8,
+     "ja": "生茶。安っ！",
+     "en": "Namacha green tea. So cheap!",
+     "speaker": "Tanabe"
+    },
+    {
+     "start": 757.0,
+     "end": 759.2,
+     "ja": "賞味期限4月... え、今何月でしたっけ？",
+     "en": "Best before April... Wait, what month is it now?",
+     "speaker": "Tanabe"
+    },
+    {
+     "start": 759.2,
+     "end": 760.2,
+     "ja": "5月。",
+     "en": "May.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 760.2,
+     "end": 761.3,
+     "ja": "終わってる？",
+     "en": "It's expired?",
+     "speaker": "Nakasso"
+    },
+    {
+     "start": 761.3,
+     "end": 763.2,
+     "ja": "あ、大阪感じ... 大阪感じてる。",
+     "en": "Ah, feeling the Osaka vibe right here.",
+     "speaker": "Tanabe"
+    },
+    {
+     "start": 763.2,
+     "end": 764.5,
+     "ja": "ちょっと買ってみよう。",
+     "en": "Let's buy one and see.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 764.5,
+     "end": 767.0,
+     "ja": "生茶、切れてる生茶買ってみよう。",
+     "en": "Let's buy the expired Namacha tea.",
+     "speaker": "Tanabe"
+    }
+   ]
+  },
+  {
+   "start": 907.5,
+   "end": 932.5,
+   "title": "Surprisingly Hot Drinks",
+   "level": "N4",
+   "topics": [
+    "food",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜のに — even though / despite",
+    "〜てる — state resulting from action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 907.7,
+     "end": 909.3,
+     "ja": "ちょっと熱いな。",
+     "en": "It's a bit hot.",
+     "speaker": "Tanabe"
+    },
+    {
+     "start": 909.5,
+     "end": 912.6,
+     "ja": "熱い！今日暑いのに。",
+     "en": "Hot! Even though it's hot out today.",
+     "speaker": "Tanabe"
+    },
+    {
+     "start": 912.7,
+     "end": 914.2,
+     "ja": "いただきます。",
+     "en": "Down the hatch.",
+     "speaker": "Tanabe"
+    },
+    {
+     "start": 916.8,
+     "end": 918.4,
+     "ja": "ああ、美味しい、美味しい、美味しい。",
+     "en": "Ah, it's good, it's good, it's good.",
+     "speaker": "Tanabe"
+    },
+    {
+     "start": 918.5,
+     "end": 920.5,
+     "ja": "じゃあコーヒーもいただきます。",
+     "en": "Then I'll try the coffee, too.",
+     "speaker": "Nakasso"
+    },
+    {
+     "start": 921.0,
+     "end": 922.5,
+     "ja": "あっちい！",
+     "en": "It's scorching!",
+     "speaker": "Nakasso"
+    },
+    {
+     "start": 923.0,
+     "end": 925.5,
+     "ja": "50円のアレで隠されてたから。",
+     "en": "Because it was hidden behind that 50-yen sticker.",
+     "speaker": "Tanabe"
+    },
+    {
+     "start": 925.6,
+     "end": 927.2,
+     "ja": "そう、色がついてなかったんだ。",
+     "en": "Right, there was no color indicator.",
+     "speaker": "Nakasso"
+    },
+    {
+     "start": 927.3,
+     "end": 929.0,
+     "ja": "東京だとさ、色がついてんだけど。",
+     "en": "In Tokyo, they have colored labels, though.",
+     "speaker": "Nakasso"
+    },
+    {
+     "start": 929.0,
+     "end": 930.4,
+     "ja": "関西、色ついてないのかな？",
+     "en": "Does Kansai not use colors?",
+     "speaker": "Nakasso"
+    },
+    {
+     "start": 930.5,
+     "end": 932.2,
+     "ja": "嫌な東京もんだなぁ！",
+     "en": "What an annoying Tokyoite thing to say!",
+     "speaker": "Tanabe"
+    }
+   ]
+  }
+ ],
+ "videoId": "KAZQM6Lzw1c",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

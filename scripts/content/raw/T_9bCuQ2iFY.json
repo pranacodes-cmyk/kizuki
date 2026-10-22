@@ -1,0 +1,138 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.3,
+   "end": 14.0,
+   "title": "A Beautiful Sunny Morning",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜てくる — action towards speaker",
+    "〜ね — seeking agreement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 4.3,
+     "ja": "おはようございます！今日はいい天気ですね。",
+     "en": "Good morning! Nice weather today, isn't it?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 4.7,
+     "end": 7.4,
+     "ja": "窓を開けてカーテンを開けます。",
+     "en": "I open the window and open the curtains.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 7.8,
+     "end": 11.6,
+     "ja": "太陽の光が部屋の中に入ってきました。",
+     "en": "Sunlight streamed into the room.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 11.9,
+     "end": 13.6,
+     "ja": "気持ちがいいです。",
+     "en": "It feels wonderful.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 24.7,
+   "end": 37.6,
+   "title": "Deciding on Breakfast",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ようかな — wondering what to do",
+    "〜てみる — try doing",
+    "〜にしましょう — let's decide on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 25.0,
+     "end": 27.2,
+     "ja": "今日は何を食べようかな？",
+     "en": "What should I eat today?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 27.5,
+     "end": 29.8,
+     "ja": "冷蔵庫を見てみます。",
+     "en": "Let's take a look in the fridge.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 30.0,
+     "end": 33.0,
+     "ja": "パンと牛乳、卵があります。",
+     "en": "There is bread, milk, and eggs.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 33.2,
+     "end": 37.2,
+     "ja": "じゃあ、今日の朝ごはんは、トーストと目玉焼きにしましょう。",
+     "en": "Well then, let's make toast and fried eggs for breakfast today.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 62.9,
+   "end": 74.2,
+   "title": "Ready for School",
+   "level": "N5",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜ができる — to be able to / ready",
+    "〜が — but"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 63.3,
+     "end": 66.0,
+     "ja": "学校へ行く準備ができました。",
+     "en": "I'm all ready to go to school.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 66.4,
+     "end": 70.7,
+     "ja": "今日は、数学、国語、理科の授業があります。",
+     "en": "Today, I have math, Japanese, and science classes.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 71.0,
+     "end": 73.8,
+     "ja": "少し緊張しますが、がんばります！",
+     "en": "I'm a little nervous, but I'll do my best!",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "T_9bCuQ2iFY",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

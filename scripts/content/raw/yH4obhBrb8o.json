@@ -1,0 +1,84 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 8.0,
+   "end": 26.0,
+   "title": "A Peaceful Moment Under the Moon",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜になっちゃう — end up becoming",
+    "急に — suddenly"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 8.5,
+     "end": 9.9,
+     "ja": "いいな。",
+     "en": "It's so nice.",
+     "speaker": "Karamatsu"
+    },
+    {
+     "start": 10.1,
+     "end": 11.6,
+     "ja": "きれい。",
+     "en": "It's beautiful.",
+     "speaker": "Todomatsu"
+    },
+    {
+     "start": 11.8,
+     "end": 13.9,
+     "ja": "穏やかな気持ちになっちゃう。",
+     "en": "It makes you feel so calm.",
+     "speaker": "Jyushimatsu"
+    },
+    {
+     "start": 14.0,
+     "end": 15.6,
+     "ja": "幸せだ。",
+     "en": "This is bliss.",
+     "speaker": "Ichimatsu"
+    },
+    {
+     "start": 16.7,
+     "end": 19.1,
+     "ja": "みんな、いつもありがと。",
+     "en": "Everyone, thanks as always.",
+     "speaker": "Choromatsu"
+    },
+    {
+     "start": 19.3,
+     "end": 20.0,
+     "ja": "えっ？",
+     "en": "Huh?",
+     "speaker": "Brothers"
+    },
+    {
+     "start": 20.2,
+     "end": 23.4,
+     "ja": "いや、なんかそんな気持ちになっちゃって。",
+     "en": "No, I just somehow felt that way.",
+     "speaker": "Choromatsu"
+    },
+    {
+     "start": 23.6,
+     "end": 25.5,
+     "ja": "なんだよ急に。",
+     "en": "What's with you all of a sudden?",
+     "speaker": "Osomatsu"
+    }
+   ]
+  }
+ ],
+ "videoId": "yH4obhBrb8o",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

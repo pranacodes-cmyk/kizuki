@@ -1,0 +1,160 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 155.2,
+   "end": 208.5,
+   "title": "How Breakfast Menu Was Decided",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜において — in terms of",
+    "〜ていく — gradual change over time"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 155.3,
+     "end": 158.6,
+     "ja": "夫がトレーニングをし始めて、",
+     "en": "My husband started working out,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 158.8,
+     "end": 203.4,
+     "ja": "栄養バランスとかカロリーにおいて",
+     "en": "and based on nutritional balance and calories,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 203.5,
+     "end": 208.0,
+     "ja": "食べられるものの中で決まっていったというか、はい。",
+     "en": "it gradually became settled from what we could eat, yes.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 259.0,
+   "end": 325.5,
+   "title": "Preparing Vegetables for Bento",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜だけ — just / only"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 259.3,
+     "end": 303.0,
+     "ja": "えーと、ブロッコリーの塩茹でしたものと、",
+     "en": "Um, boiled broccoli with salt,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 303.1,
+     "end": 305.1,
+     "ja": "ゆで卵ですね。",
+     "en": "and boiled eggs.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 305.2,
+     "end": 309.5,
+     "ja": "お弁当用なので、長めに固茹でしてます。",
+     "en": "Since they're for bento, I hard-boil them a bit longer.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 310.0,
+     "end": 316.1,
+     "ja": "あと、にんじんを乱切りにして、甘酢に漬けたもの。",
+     "en": "Also, carrots chopped into chunks and pickled in sweet vinegar.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 316.8,
+     "end": 320.5,
+     "ja": "今日はちょっとイレギュラーに、ふかし芋と、",
+     "en": "Today, a bit unusually, steamed sweet potato and",
+     "speaker": "Woman"
+    },
+    {
+     "start": 320.7,
+     "end": 325.0,
+     "ja": "トマトは生で切っただけです。はい。",
+     "en": "tomatoes just sliced raw. Yes.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 403.0,
+   "end": 428.5,
+   "title": "Packing Frozen Rice and Chicken",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜として — as / in the form of",
+    "〜ていく — to go doing / take"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 403.5,
+     "end": 406.0,
+     "ja": "グラムを測って、1食分を、",
+     "en": "I weigh out each single portion,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 406.5,
+     "end": 411.8,
+     "ja": "おかずと別に持っていって、電子レンジで温めて食べます。",
+     "en": "bring it separately from the side dishes, and heat it up in the microwave to eat.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 412.3,
+     "end": 416.5,
+     "ja": "で、主菜の鶏肉もいつも同じものなんですけど、",
+     "en": "And the main dish chicken is always the same thing too,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 417.0,
+     "end": 422.5,
+     "ja": "これも調理したものを、グラムを測って、",
+     "en": "I weigh it out after cooking,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 423.0,
+     "end": 428.0,
+     "ja": "冷凍して、1食分として一緒に持っていきます。はい。",
+     "en": "freeze it, and bring it along as one meal portion. Yes.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "8dirGkV4n5M",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

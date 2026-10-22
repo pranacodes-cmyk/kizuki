@@ -1,0 +1,198 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 207.2,
+   "end": 218.5,
+   "title": "Morning in the Classroom",
+   "level": "N5",
+   "topics": [
+    "school",
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜へん — Kansai dialect negation",
+    "〜ます — polite form"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 207.5,
+     "end": 208.8,
+     "ja": "おはようございます。",
+     "en": "Good morning.",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 208.9,
+     "end": 210.5,
+     "ja": "みんな来えへんな。",
+     "en": "Nobody's showing up yet, huh?",
+     "speaker": "Girl B"
+    },
+    {
+     "start": 210.8,
+     "end": 213.2,
+     "ja": "あと、あと７分ぐらいやで。",
+     "en": "There's only about seven minutes left.",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 215.3,
+     "end": 216.3,
+     "ja": "授業始まります。",
+     "en": "Class is starting.",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 216.4,
+     "end": 217.5,
+     "ja": "頑張りまーす。",
+     "en": "Let's do our best!",
+     "speaker": "Girl B"
+    },
+    {
+     "start": 217.6,
+     "end": 218.5,
+     "ja": "頑張ります。",
+     "en": "I'll do my best.",
+     "speaker": "Girl A"
+    }
+   ]
+  },
+  {
+   "start": 519.0,
+   "end": 529.5,
+   "title": "Caught on Camera on the Walk Home",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜んかった — colloquial past negative",
+    "〜とった — colloquial / dialect progressive form"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 519.4,
+     "end": 520.5,
+     "ja": "びっくりした！",
+     "en": "You startled me!",
+     "speaker": "Friend"
+    },
+    {
+     "start": 520.6,
+     "end": 522.2,
+     "ja": "全然気づかんかった。",
+     "en": "I didn't notice at all.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 522.8,
+     "end": 524.0,
+     "ja": "かわいいよ。",
+     "en": "You look cute.",
+     "speaker": "Marina"
+    },
+    {
+     "start": 524.1,
+     "end": 526.5,
+     "ja": "まりなちゃんのYouTube出るの嬉しい！",
+     "en": "I'm so happy to be on Marina's YouTube!",
+     "speaker": "Friend"
+    },
+    {
+     "start": 526.9,
+     "end": 529.0,
+     "ja": "もう前も映っとったよ！",
+     "en": "You were already on it earlier too!",
+     "speaker": "Marina"
+    }
+   ]
+  },
+  {
+   "start": 545.0,
+   "end": 607.0,
+   "title": "Compliments from a Best Friend",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜てくれる — to do something for someone",
+    "〜ていく — to continue doing into the future",
+    "〜てあげる — to do something for someone"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 545.2,
+     "end": 548.8,
+     "ja": "えっと、まりなは、まずあの、すぐツッコんでくれるね。",
+     "en": "Well, first of all, Marina always plays the straight man right away.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 548.9,
+     "end": 549.8,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Marina"
+    },
+    {
+     "start": 555.2,
+     "end": 558.2,
+     "ja": "あと、すごいいいのが、要領がいいなって思います。",
+     "en": "Also, what's really great is that she's so efficient.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 558.3,
+     "end": 559.6,
+     "ja": "時間の使い方が上手い。",
+     "en": "She manages her time really well.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 559.7,
+     "end": 600.6,
+     "ja": "ありがとうございます。",
+     "en": "Thank you so much.",
+     "speaker": "Marina"
+    },
+    {
+     "start": 600.7,
+     "end": 602.1,
+     "ja": "素敵な女性です。",
+     "en": "She's a wonderful girl.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 602.2,
+     "end": 604.6,
+     "ja": "これからももっと素敵な人になっていくと思うので。",
+     "en": "I think she'll become an even more wonderful person from now on.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 604.7,
+     "end": 606.6,
+     "ja": "みんなまりなちゃんを応援してあげて！",
+     "en": "Everyone, please support Marina-chan!",
+     "speaker": "Akane"
+    }
+   ]
+  }
+ ],
+ "videoId": "b3OXdnvWRK0",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

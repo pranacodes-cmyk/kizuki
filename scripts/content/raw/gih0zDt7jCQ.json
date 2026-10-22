@@ -1,0 +1,174 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 14.5,
+   "end": 30.5,
+   "title": "Today's Schedule in Tokyo",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "まず〜それから — first... and then...",
+    "〜に行く — go to do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 14.6,
+     "end": 19.3,
+     "ja": "今日の動画では、まず桜の名所を見ます。",
+     "en": "In today's video, we'll first look at a famous cherry blossom spot.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 19.6,
+     "end": 24.3,
+     "ja": "それから、大学の入学式に出ます。",
+     "en": "After that, I'll attend a university entrance ceremony.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 24.8,
+     "end": 30.2,
+     "ja": "そして最後に、神保町にお昼を食べに行きます。",
+     "en": "And finally, we'll go to Jimbocho to have lunch.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 157.0,
+   "end": 186.5,
+   "title": "What Is Hazakura?",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜というのは〜のことです — X means Y",
+    "〜んですが — but / however"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 157.3,
+     "end": 160.8,
+     "ja": "桜は葉桜でした。",
+     "en": "The cherry blossoms had turned to hazakura.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 161.8,
+     "end": 168.3,
+     "ja": "「葉桜」というのは、緑の葉っぱが出てきた桜のことです。",
+     "en": "'Hazakura' refers to cherry blossom trees that have sprouted green leaves.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 169.8,
+     "end": 174.6,
+     "ja": "葉桜は、たいていあまり綺麗ではないんですが、",
+     "en": "Hazakura usually isn't very pretty, but...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 174.8,
+     "end": 179.0,
+     "ja": "ここの葉桜はとても綺麗でした。",
+     "en": "...the hazakura here was very beautiful.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 180.8,
+     "end": 186.0,
+     "ja": "こんなに綺麗な葉桜があるんだと、びっくりしました。",
+     "en": "I was surprised that hazakura could be this pretty.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 811.2,
+   "end": 822.6,
+   "title": "Ordering Lunch at a Restaurant",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜いいですか — is it okay to...",
+    "〜でお願いします — ...please"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 811.4,
+     "end": 813.3,
+     "ja": "すいません。注文いいですか？",
+     "en": "Excuse me, can we order?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 813.4,
+     "end": 814.2,
+     "ja": "どうぞ！",
+     "en": "Go ahead!",
+     "speaker": "Staff"
+    },
+    {
+     "start": 814.3,
+     "end": 815.7,
+     "ja": "何だっけ？餃子定食？",
+     "en": "What was it again? Gyoza set meal?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 815.8,
+     "end": 816.9,
+     "ja": "餃子定食、はい！",
+     "en": "Gyoza set, yes!",
+     "speaker": "Staff"
+    },
+    {
+     "start": 816.9,
+     "end": 817.9,
+     "ja": "ご飯大盛り。",
+     "en": "Large portion of rice.",
+     "speaker": "Son"
+    },
+    {
+     "start": 817.9,
+     "end": 819.1,
+     "ja": "ご飯大盛り、はい！",
+     "en": "Large rice, yes!",
+     "speaker": "Staff"
+    },
+    {
+     "start": 819.1,
+     "end": 820.8,
+     "ja": "あと、もう１つ普通盛りで！",
+     "en": "And another one with regular rice, please!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 820.8,
+     "end": 822.4,
+     "ja": "普通盛りで、わかりましたー。",
+     "en": "Regular rice, got it!",
+     "speaker": "Staff"
+    }
+   ]
+  }
+ ],
+ "videoId": "gih0zDt7jCQ",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

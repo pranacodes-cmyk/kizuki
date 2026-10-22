@@ -1,0 +1,163 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 50.8,
+   "end": 64.5,
+   "title": "Reason for Returning to Japanese Baseball",
+   "level": "N3",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜ということになる — it has been decided that",
+    "〜と思います — I think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 51.0,
+     "end": 53.0,
+     "ja": "そして3年ぶりに日本球界復帰と",
+     "en": "And you are returning to Japanese baseball after three years,",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 53.0,
+     "end": 54.7,
+     "ja": "いうことになりましたけれども、",
+     "en": "but regarding that,",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 54.7,
+     "end": 56.5,
+     "ja": "これを決断した理由というのは",
+     "en": "what was the reason behind",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 56.5,
+     "end": 57.7,
+     "ja": "何だったんでしょうか？",
+     "en": "making this decision?",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 57.9,
+     "end": 60.6,
+     "ja": "そうですね、純粋に野球が好きです。",
+     "en": "Well, purely that I love baseball.",
+     "speaker": "Yang"
+    },
+    {
+     "start": 60.7,
+     "end": 64.2,
+     "ja": "それが一番の要因だったと思いますね、はい。",
+     "en": "I think that was the biggest factor, yes.",
+     "speaker": "Yang"
+    }
+   ]
+  },
+  {
+   "start": 315.5,
+   "end": 328.5,
+   "title": "Message to Niigata Fans",
+   "level": "N4",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜ていただく — to humbly receive the favor of",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 315.7,
+     "end": 318.5,
+     "ja": "新潟県のファンもすごく楽しみにしています。",
+     "en": "Fans in Niigata Prefecture are also really looking forward to it.",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 318.5,
+     "end": 321.2,
+     "ja": "何か一言、新潟県のファンにいただけますでしょうか？",
+     "en": "Could you share a few words for the fans in Niigata?",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 321.6,
+     "end": 324.4,
+     "ja": "えー、もうすぐ新潟の方に行くんで、",
+     "en": "Um, I'll be heading to Niigata very soon,",
+     "speaker": "Yang"
+    },
+    {
+     "start": 324.5,
+     "end": 327.4,
+     "ja": "皆さん待ってください。すぐ行きます。",
+     "en": "so please wait for me, everyone. I'll be right there.",
+     "speaker": "Yang"
+    }
+   ]
+  },
+  {
+   "start": 417.4,
+   "end": 430.5,
+   "title": "Goals for the Current Season",
+   "level": "N4",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜ていただきたい — would like someone to do",
+    "〜ば — if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 417.7,
+     "end": 421.0,
+     "ja": "今季の目標みたいなのがあれば教えていただきたいんですけれど。",
+     "en": "Could you tell us if you have any goals for this season?",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 421.3,
+     "end": 423.8,
+     "ja": "全力プレーです。はい。",
+     "en": "Playing at full power. Yes.",
+     "speaker": "Yang"
+    },
+    {
+     "start": 424.0,
+     "end": 425.7,
+     "ja": "数字的な目標は特に…",
+     "en": "As for numerical goals, not particularly...?",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 425.8,
+     "end": 427.4,
+     "ja": "もう全力プレーです。",
+     "en": "Just giving it my all.",
+     "speaker": "Yang"
+    },
+    {
+     "start": 427.5,
+     "end": 429.8,
+     "ja": "もう100%全力プレーです。",
+     "en": "Just 100% playing with everything I've got.",
+     "speaker": "Yang"
+    }
+   ]
+  }
+ ],
+ "videoId": "AXKzUS3EexI",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -3,11 +3,12 @@
 export type Plan = { id: "yearly" | "monthly"; label: string; sub: string; price: string; perMonth: string; period: string; badge?: string };
 
 export const PLANS: Record<"yearly" | "monthly", Plan> = {
-  yearly: { id: "yearly", label: "Yearly", sub: "12 months · $59.99", price: "$59.99", perMonth: "$5.00", period: "year", badge: "Save 58%" },
-  monthly: { id: "monthly", label: "Monthly", sub: "Billed monthly", price: "$11.99", perMonth: "$11.99", period: "month" },
+  yearly: { id: "yearly", label: "Yearly", sub: "12 months · $54.99", price: "$54.99", perMonth: "$4.58", period: "year", badge: "Save 58%" },
+  monthly: { id: "monthly", label: "Monthly", sub: "Billed monthly", price: "$10.99", perMonth: "$10.99", period: "month" },
 };
 
-export const priceLine = (p: Plan) => `7 days free, then ${p.price}/${p.period}`;
+/** `trial` false = this store account already used its free week (no trial wording). */
+export const priceLine = (p: Plan, trial = true) => (p.id === "yearly" && trial ? `7 days free, then ${p.price}/${p.period}` : `${p.price}/${p.period}, billed today`);
 
 export const TRIAL_DAYS = 7;
 export const REMINDER_DAY = 5;

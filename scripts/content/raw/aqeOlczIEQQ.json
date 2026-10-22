@@ -1,0 +1,204 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 128.0,
+   "end": 143.0,
+   "title": "Breakfast with Toddler",
+   "level": "N5",
+   "topics": [
+    "food",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "どうぞ — please / here you go"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 128.0,
+     "end": 129.0,
+     "ja": "はい。",
+     "en": "Here.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 129.8,
+     "end": 131.0,
+     "ja": "行きます。",
+     "en": "Here it comes.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 132.4,
+     "end": 135.7,
+     "ja": "卵焼きとウインナーと、おにぎりです。",
+     "en": "It's rolled omelet, sausages, and rice ball.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 135.8,
+     "end": 138.8,
+     "ja": "「いただきます」してください。「いただきます」は？",
+     "en": "Say 'itadakimasu'. Where is 'itadakimasu'?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 138.9,
+     "end": 140.3,
+     "ja": "はい、どうぞ。",
+     "en": "Okay, go ahead.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 140.8,
+     "end": 142.5,
+     "ja": "いただきます。",
+     "en": "Let's eat.",
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
+   "start": 506.5,
+   "end": 524.0,
+   "title": "Dinner is Ready",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜できる — can do / to be completed",
+    "〜てる — ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 506.8,
+     "end": 508.8,
+     "ja": "はい、ご飯できました。",
+     "en": "Okay, dinner is ready.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 508.9,
+     "end": 512.3,
+     "ja": "今日はシチューとサラダと、鯖の味噌煮。",
+     "en": "Today we have stew, salad, and mackerel simmered in miso.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 512.4,
+     "end": 516.1,
+     "ja": "ま、これはちょっと冷凍でストックしてるおいしいやつなんですけど、",
+     "en": "Well, this is the delicious one I had stocked in the freezer, but...",
+     "speaker": "Mom"
+    },
+    {
+     "start": 516.3,
+     "end": 518.2,
+     "ja": "はい、できました。いただきます。",
+     "en": "Yes, it's all ready. Let's eat.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 518.4,
+     "end": 521.0,
+     "ja": "まっちーさんもシチューと、あとちょっと野菜とか、",
+     "en": "For Macchi-san, we have stew, some vegetables,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 521.2,
+     "end": 523.5,
+     "ja": "朝の卵焼きとかと、ご飯です。",
+     "en": "rolled omelet from this morning, and rice.",
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
+   "start": 546.0,
+   "end": 571.5,
+   "title": "End of Summer at the Park",
+   "level": "N3",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — when / if",
+    "〜てくる — to start to / gradually become",
+    "〜て思う — to think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 546.3,
+     "end": 549.4,
+     "ja": "もう今日もさ、ブランコ永遠に乗ってさ、",
+     "en": "Today again, you rode the swings endlessly,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 549.5,
+     "end": 552.4,
+     "ja": "滑り台も永遠に滑って。",
+     "en": "and went down the slide endlessly.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 552.8,
+     "end": 554.6,
+     "ja": "何往復したの？",
+     "en": "How many round trips did you make?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 555.3,
+     "end": 556.2,
+     "ja": "ね。",
+     "en": "Right?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 557.0,
+     "end": 559.0,
+     "ja": "ちょうどよかったね、なんかだいぶ。",
+     "en": "It was pretty nice out, actually.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 559.2,
+     "end": 562.0,
+     "ja": "家を出た時はまだ日差しがあって、",
+     "en": "When we left home it was still sunny,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 562.7,
+     "end": 567.1,
+     "ja": "「暑っ」て思ったけど、日陰が多くなってきたら、",
+     "en": "and I thought it was hot, but as more shade appeared,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 567.2,
+     "end": 571.0,
+     "ja": "すごい風も涼しくて、なんだかもう夏の終わりを感じて。",
+     "en": "the breeze was really cool, and I kind of felt the end of summer.",
+     "speaker": "Mom"
+    }
+   ]
+  }
+ ],
+ "videoId": "aqeOlczIEQQ",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

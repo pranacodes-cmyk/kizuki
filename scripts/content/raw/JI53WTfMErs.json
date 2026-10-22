@@ -1,0 +1,156 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 60.5,
+   "end": 82.5,
+   "title": "Kabuki News from Kyoto",
+   "level": "N5",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜にある — to be located in",
+    "〜から — starting from"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 60.8,
+     "end": 63.0,
+     "ja": "日本の文化、",
+     "en": "This is a news story about Japanese culture,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 63.0,
+     "end": 66.0,
+     "ja": "歌舞伎のニュースです。",
+     "en": "kabuki.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 67.5,
+     "end": 73.0,
+     "ja": "京都にある劇場「南座」では、",
+     "en": "At the Minamiza theater in Kyoto,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 73.2,
+     "end": 77.0,
+     "ja": "12月1日から",
+     "en": "starting December 1st,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 77.0,
+     "end": 81.8,
+     "ja": "「顔見世興行」が始まります。",
+     "en": "the Kaomise performance will begin.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 84.5,
+   "end": 102.5,
+   "title": "What Is the Kaomise Performance?",
+   "level": "N4",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜て、〜 — connecting clauses (and)",
+    "〜から続いている — continuing since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 84.8,
+     "end": 87.5,
+     "ja": "顔見世興行では、",
+     "en": "At the Kaomise performance,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 87.5,
+     "end": 92.0,
+     "ja": "とても人気がある歌舞伎の俳優が",
+     "en": "very popular kabuki actors",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 92.0,
+     "end": 95.0,
+     "ja": "みんな集まって、",
+     "en": "all gather together",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 95.0,
+     "end": 98.0,
+     "ja": "劇を見せます。",
+     "en": "and perform plays.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 98.0,
+     "end": 102.0,
+     "ja": "江戸時代から続いています。",
+     "en": "This tradition has continued since the Edo period.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 465.0,
+   "end": 490.5,
+   "title": "Characteristics of Kabuki Theater",
+   "level": "N4",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜とは — defining something",
+    "〜を着た — wearing (relative clause)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 465.5,
+     "end": 474.0,
+     "ja": "歌舞伎とは、日本の伝統的な着物を着た俳優が、",
+     "en": "Kabuki is a stage art where actors wearing traditional Japanese kimono",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 474.0,
+     "end": 480.5,
+     "ja": "独特な言葉で話し、演技をする舞台です。",
+     "en": "speak in a unique style and act out roles.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 480.5,
+     "end": 485.5,
+     "ja": "俳優は、全員男性で、",
+     "en": "The actors are all men,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 485.5,
+     "end": 490.0,
+     "ja": "女性の役も男性が演じます。",
+     "en": "and male actors play female roles as well.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "JI53WTfMErs",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

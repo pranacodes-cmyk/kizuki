@@ -1,0 +1,110 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 496.0,
+   "end": 509.0,
+   "title": "Ear Cleaner in the Car",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜てる — ongoing action",
+    "〜て思われる — to be thought that",
+    "〜やから — because (Kansai dialect)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 496.3,
+     "end": 498.8,
+     "ja": "ちょっと待ってよ、耳かいてるよ。",
+     "en": "Wait... I'm scratching my ear!",
+     "speaker": "Father"
+    },
+    {
+     "start": 501.5,
+     "end": 504.0,
+     "ja": "なんで耳かきがあるの？って思われる。",
+     "en": "People are gonna ask why I have one of these.",
+     "speaker": "Father"
+    },
+    {
+     "start": 504.2,
+     "end": 506.2,
+     "ja": "これ、川上's Wayやから。",
+     "en": "It's a Kawakami thing.",
+     "speaker": "Father"
+    },
+    {
+     "start": 506.4,
+     "end": 508.5,
+     "ja": "ここに入れている！",
+     "en": "He keeps one in here!",
+     "speaker": "Mother"
+    }
+   ]
+  },
+  {
+   "start": 863.0,
+   "end": 878.5,
+   "title": "Cleaning the Walls with Blacklight",
+   "level": "N3",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜が必要 — need / require",
+    "〜かも — might / maybe",
+    "〜ていうか — or rather / come to think of it"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 863.3,
+     "end": 865.0,
+     "ja": "もう一回やりたいから！",
+     "en": "Because I want to do it again!",
+     "speaker": "Boy"
+    },
+    {
+     "start": 866.5,
+     "end": 868.5,
+     "ja": "ブラックライトが必要やな。",
+     "en": "We need a blacklight.",
+     "speaker": "Father"
+    },
+    {
+     "start": 868.8,
+     "end": 871.4,
+     "ja": "あ、確かに！ブラックライトで…そうだよね。",
+     "en": "Oh, that's true! With a blacklight... you're right.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 871.8,
+     "end": 873.7,
+     "ja": "結構残っているんだよ。",
+     "en": "Quite a bit is still left.",
+     "speaker": "Father"
+    },
+    {
+     "start": 874.5,
+     "end": 877.8,
+     "ja": "ていうか、この扉拭くのが初めてかもね。",
+     "en": "Come to think of it, this might be our first time wiping these doors.",
+     "speaker": "Mother"
+    }
+   ]
+  }
+ ],
+ "videoId": "8afdh5EZk_Y",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,55 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 2.8,
+   "end": 18.2,
+   "title": "Introduction to Daily Conversation Phrases",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜ばかり — nothing but / full of",
+    "〜ましょう — let's"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.0,
+     "end": 5.9,
+     "ja": "とても簡単な日常会話フレーズを紹介します。",
+     "en": "I will introduce very simple everyday conversational phrases.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 6.7,
+     "end": 9.3,
+     "ja": "今すぐ使えるものばかりです。",
+     "en": "They are all phrases you can use right away.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 11.2,
+     "end": 15.5,
+     "ja": "なるべく短くて簡単なフレーズを厳選しました。",
+     "en": "I carefully selected phrases that are as short and simple as possible.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 16.0,
+     "end": 17.7,
+     "ja": "では、始めましょう。",
+     "en": "Now, let's get started.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "LOIg2YvLm7I",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

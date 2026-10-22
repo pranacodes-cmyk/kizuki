@@ -1,0 +1,201 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.5,
+   "end": 48.5,
+   "title": "Where Am I Right Now?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜にいます — existence at a location",
+    "〜じゃなくて — not A, but B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 24.5,
+     "end": 28.0,
+     "ja": "僕は今、どこにいますか？",
+     "en": "Where am I right now?",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 28.5,
+     "end": 33.3,
+     "ja": "僕は今、どこにいますか？",
+     "en": "Where am I right now?",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 33.8,
+     "end": 38.0,
+     "ja": "僕は今、外にいます。",
+     "en": "I am outside right now.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 38.2,
+     "end": 39.5,
+     "ja": "外。",
+     "en": "Outside.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 40.0,
+     "end": 42.5,
+     "ja": "家の中じゃなくて、",
+     "en": "Not inside the house,",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 43.0,
+     "end": 45.0,
+     "ja": "家の中じゃなくて、",
+     "en": "not inside the house,",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 45.3,
+     "end": 48.0,
+     "ja": "外にいます。外。",
+     "en": "I am outside. Outside.",
+     "speaker": "Yuta"
+    }
+   ]
+  },
+  {
+   "start": 122.8,
+   "end": 144.0,
+   "title": "I Want to Swim in the River",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜たい — want to do",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 123.0,
+     "end": 125.5,
+     "ja": "今日はちょっと暑い。",
+     "en": "It's a little hot today.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 125.8,
+     "end": 129.5,
+     "ja": "暑いので、川で泳ぎたいです。",
+     "en": "Because it's hot, I want to swim in the river.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 129.8,
+     "end": 133.5,
+     "ja": "僕は川で泳ぎたいです。",
+     "en": "I want to swim in the river.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 134.0,
+     "end": 135.2,
+     "ja": "泳ぐ。",
+     "en": "Swim.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 141.5,
+     "end": 143.5,
+     "ja": "泳ぎたいです。",
+     "en": "I want to swim.",
+     "speaker": "Yuta"
+    }
+   ]
+  },
+  {
+   "start": 550.2,
+   "end": 618.3,
+   "title": "Having a Cold Drink on a Hot Day",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜を飲む — to drink"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 550.5,
+     "end": 553.0,
+     "ja": "今日はとても暑い。",
+     "en": "Today is very hot.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 553.8,
+     "end": 555.0,
+     "ja": "暑い。",
+     "en": "Hot.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 555.2,
+     "end": 557.0,
+     "ja": "暑いので、",
+     "en": "Because it's hot,",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 557.3,
+     "end": 559.0,
+     "ja": "飲み物。",
+     "en": "A drink.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 559.8,
+     "end": 562.5,
+     "ja": "飲み物を飲みます。",
+     "en": "I will drink a beverage.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 608.8,
+     "end": 610.0,
+     "ja": "美味しい。",
+     "en": "Delicious.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 610.3,
+     "end": 613.8,
+     "ja": "飲み物を飲む。",
+     "en": "Drinking a beverage.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 616.8,
+     "end": 618.0,
+     "ja": "美味しい。",
+     "en": "Delicious.",
+     "speaker": "Yuta"
+    }
+   ]
+  }
+ ],
+ "videoId": "PFJZdvrghgI",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,151 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 27.0,
+   "end": 47.8,
+   "title": "Making Jibuni",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜ていく — progression of action",
+    "〜たら — when / after",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 27.2,
+     "end": 33.4,
+     "ja": "今日は石川県金沢市の郷土料理、治部煮を作ります。",
+     "en": "Today, we will make jibuni, a local dish from Kanazawa City, Ishikawa Prefecture.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 33.8,
+     "end": 36.8,
+     "ja": "治部煮は鴨肉を使うのですが、",
+     "en": "Jibuni typically uses duck meat, but...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 37.0,
+     "end": 40.6,
+     "ja": "今回は鶏もも肉で作っていきます。",
+     "en": "today we'll be making it with chicken thigh.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 41.2,
+     "end": 44.5,
+     "ja": "まず鶏肉を一口大に切ったら、",
+     "en": "First, after cutting the chicken into bite-sized pieces,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 44.7,
+     "end": 47.4,
+     "ja": "小麦粉をつけてください。",
+     "en": "please coat it with flour.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 64.0,
+   "end": 91.3,
+   "title": "Simmering the Jibuni Ingredients",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ましょう — let's do",
+    "〜たら — when / after",
+    "〜ても — even if / also if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 64.2,
+     "end": 68.8,
+     "ja": "鍋に出し汁、醤油、みりん、酒、塩を入れて",
+     "en": "Put the dashi broth, soy sauce, mirin, sake, and salt into a pot,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 68.9,
+     "end": 70.8,
+     "ja": "火にかけましょう。",
+     "en": "and put it on the heat.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 71.1,
+     "end": 73.5,
+     "ja": "煮立ったら弱火にして、",
+     "en": "Once it comes to a boil, turn down the heat to low,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 73.6,
+     "end": 76.0,
+     "ja": "椎茸と人参を入れます。",
+     "en": "and add the shiitake mushrooms and carrots.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 76.4,
+     "end": 78.5,
+     "ja": "人参が柔らかくなったら、",
+     "en": "Once the carrots have softened,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 78.6,
+     "end": 80.6,
+     "ja": "鶏肉を入れて煮ます。",
+     "en": "add the chicken and simmer.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 81.1,
+     "end": 83.1,
+     "ja": "鶏肉に火が通ったら、",
+     "en": "Once the chicken is cooked through,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 83.2,
+     "end": 85.9,
+     "ja": "小松菜を加えてさっと煮ます。",
+     "en": "add the komatsuna greens and simmer briefly.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 86.1,
+     "end": 87.7,
+     "ja": "これで出来上がりです。",
+     "en": "With that, it's done!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 87.9,
+     "end": 91.0,
+     "ja": "お好みでわさびを加えても美味しいですよ。",
+     "en": "It's also delicious with wasabi if you like.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "Ze5eFskDkGQ",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

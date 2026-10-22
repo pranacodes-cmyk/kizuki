@@ -1,0 +1,186 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 2.5,
+   "end": 19.0,
+   "title": "A Brand New Battle Begins",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "school"
+   ],
+   "grammar": [
+    "〜かける — dedicate / stake",
+    "〜として — as / in the role of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2.7,
+     "end": 5.7,
+     "ja": "戦車道に青春をかける女子高生たちを描いた、",
+     "en": "Depicting high school girls dedicating their youth to Senshado,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 5.8,
+     "end": 8.5,
+     "ja": "『ガールズ＆パンツァー』。",
+     "en": "\"Girls und Panzer.\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 8.9,
+     "end": 11.8,
+     "ja": "鉄の乙女たちの最後の戦いが、",
+     "en": "The final battle of the iron maidens,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 11.9,
+     "end": 15.6,
+     "ja": "全６話の完全新作OVAシリーズとして、",
+     "en": "as a completely new 6-episode OVA series,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 15.8,
+     "end": 18.7,
+     "ja": "この冬、いよいよ始まります！",
+     "en": "is finally starting this winter!",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 32.5,
+   "end": 50.0,
+   "title": "Who Are BC Freedom Academy?",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "〜だっけ — recall question",
+    "〜なきゃいけない — must / have to"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 32.8,
+     "end": 35.0,
+     "ja": "１回戦はBC自由学園。",
+     "en": "Our first-round opponent is BC Freedom High School.",
+     "speaker": "Saori"
+    },
+    {
+     "start": 35.3,
+     "end": 36.5,
+     "ja": "よし！やった！",
+     "en": "All right! Yes!",
+     "speaker": "Yukari"
+    },
+    {
+     "start": 36.6,
+     "end": 38.0,
+     "ja": "そりゃ助かるなあ。",
+     "en": "That's a relief.",
+     "speaker": "Sodoko"
+    },
+    {
+     "start": 38.1,
+     "end": 39.9,
+     "ja": "どんな学校だっけ？",
+     "en": "What kind of school were they again?",
+     "speaker": "Hana"
+    },
+    {
+     "start": 40.2,
+     "end": 42.8,
+     "ja": "どうして私が頭を下げなきゃいけないの？",
+     "en": "Why should I have to bow my head?",
+     "speaker": "Marie"
+    },
+    {
+     "start": 43.0,
+     "end": 44.7,
+     "ja": "マリー様に盾突く気か！",
+     "en": "Are you planning to defy Lady Marie?!",
+     "speaker": "Oshida"
+    },
+    {
+     "start": 44.8,
+     "end": 46.3,
+     "ja": "同じエスカレーター組だろうが！",
+     "en": "We're both escalator students, aren't we?!",
+     "speaker": "Ando"
+    },
+    {
+     "start": 46.4,
+     "end": 48.0,
+     "ja": "汚れ仕事はお前らの仕事だ！",
+     "en": "The dirty work is your job!",
+     "speaker": "Oshida"
+    },
+    {
+     "start": 48.3,
+     "end": 49.8,
+     "ja": "ケーキ、おいしそう。",
+     "en": "The cake looks delicious.",
+     "speaker": "Marie"
+    }
+   ]
+  },
+  {
+   "start": 115.5,
+   "end": 129.0,
+   "title": "Staking Ooarai's Fate",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜をかける — staking / risking",
+    "〜が始まる — ... begins"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 116.0,
+     "end": 119.4,
+     "ja": "私たち大洗女子学園みんなの運命を懸けた、",
+     "en": "Staking the fate of everyone at Ooarai Girls' Academy,",
+     "speaker": "Miho"
+    },
+    {
+     "start": 119.5,
+     "end": 121.8,
+     "ja": "最後の戦いが始まります！",
+     "en": "the final battle begins!",
+     "speaker": "Miho"
+    },
+    {
+     "start": 122.0,
+     "end": 125.1,
+     "ja": "『ガールズ＆パンツァー 最終章』第１話、",
+     "en": "\"Girls und Panzer das Finale: Part 1\",",
+     "speaker": "Miho"
+    },
+    {
+     "start": 125.2,
+     "end": 128.5,
+     "ja": "12月９日劇場上映！",
+     "en": "in theaters December 9th!",
+     "speaker": "Miho"
+    }
+   ]
+  }
+ ],
+ "videoId": "0DobU1qH440",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

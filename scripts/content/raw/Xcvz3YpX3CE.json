@@ -1,0 +1,196 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 17.8,
+   "end": 34.5,
+   "title": "Dating an International Student",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜てた — was doing (casual past progressive)",
+    "〜じゃないですか — isn't it / you know how..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.0,
+     "end": 20.3,
+     "ja": "モンゴル人と前付き合ってた。",
+     "en": "I used to date a Mongolian guy.",
+     "speaker": "Tana"
+    },
+    {
+     "start": 20.5,
+     "end": 21.8,
+     "ja": "モンゴル人？",
+     "en": "A Mongolian?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 22.0,
+     "end": 25.5,
+     "ja": "留学生で、たまたま付き合ったのがモンゴル人だった。",
+     "en": "He was an exchange student; the person I happened to date just was Mongolian.",
+     "speaker": "Tana"
+    },
+    {
+     "start": 25.8,
+     "end": 27.3,
+     "ja": "どういう風に付き合った？",
+     "en": "How did you end up dating?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 27.5,
+     "end": 31.5,
+     "ja": "バイト一緒にやってて、大変な日あるじゃないですか、ラーメン。で、そういう時とかに、",
+     "en": "We worked at a ramen shop together, and you know how some days are tough? At times like that,",
+     "speaker": "Tana"
+    },
+    {
+     "start": 32.0,
+     "end": 34.0,
+     "ja": "なんか「ガンバッタネ」みたいな。",
+     "en": "he'd be like, \"Good job today!\"",
+     "speaker": "Tana"
+    }
+   ]
+  },
+  {
+   "start": 121.0,
+   "end": 136.5,
+   "title": "A Sudden Coming Out",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "fun"
+   ],
+   "grammar": [
+    "〜てしまう — expressing regret or finality",
+    "〜される — passive voice (being done to)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 121.2,
+     "end": 122.8,
+     "ja": "付き合ってる人いますか？",
+     "en": "Do you have someone you're dating?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 123.0,
+     "end": 124.4,
+     "ja": "いないです。",
+     "en": "No, I don't.",
+     "speaker": "Abo"
+    },
+    {
+     "start": 124.6,
+     "end": 127.0,
+     "ja": "２年前ぐらいに別れてしまって。",
+     "en": "We broke up about two years ago.",
+     "speaker": "Abo"
+    },
+    {
+     "start": 127.1,
+     "end": 128.5,
+     "ja": "なんで別れたんですか？",
+     "en": "Why did you break up?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 128.6,
+     "end": 132.0,
+     "ja": "なんか彼が、付き合ってた人がゲイの方だったんですよ。",
+     "en": "Well, he... the person I was dating was gay.",
+     "speaker": "Abo"
+    },
+    {
+     "start": 132.2,
+     "end": 136.2,
+     "ja": "それで急にカミングアウトされて、別れちゃいました。",
+     "en": "So he suddenly came out to me, and we broke up.",
+     "speaker": "Abo"
+    }
+   ]
+  },
+  {
+   "start": 227.0,
+   "end": 249.0,
+   "title": "An Ex-Boyfriend Demands a Refund",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜た後に — after doing",
+    "〜てくる — do something toward the speaker"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 227.2,
+     "end": 230.8,
+     "ja": "数ヶ月付き合ってて、で、７年くらい離れて、",
+     "en": "We dated for a few months, and then were apart for about seven years,",
+     "speaker": "Miku"
+    },
+    {
+     "start": 231.0,
+     "end": 235.0,
+     "ja": "で、「久しぶり」って会ってからすぐ付き合ったんですけど、",
+     "en": "and after meeting up again with a \"long time no see,\" we started dating right away, but...",
+     "speaker": "Miku"
+    },
+    {
+     "start": 235.2,
+     "end": 237.5,
+     "ja": "すごいケチだった。",
+     "en": "he was super stingy.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 238.2,
+     "end": 241.2,
+     "ja": "喧嘩して別れた後に「お金全部返して」みたいな。",
+     "en": "After we fought and broke up, he was like, \"Give all my money back.\"",
+     "speaker": "Miku"
+    },
+    {
+     "start": 241.4,
+     "end": 244.2,
+     "ja": "交際費も「ガソリン代いくら、食事代いくら、",
+     "en": "Even dating expenses: \"Gas was this much, meals were this much,",
+     "speaker": "Miku"
+    },
+    {
+     "start": 244.3,
+     "end": 246.3,
+     "ja": "〇〇泊まった代いくら」で、",
+     "en": "staying at wherever was this much,\" and...",
+     "speaker": "Miku"
+    },
+    {
+     "start": 246.4,
+     "end": 248.8,
+     "ja": "全部それを割る２した合計を私にメモで送ってきた。",
+     "en": "he sent me a memo with the total divided by two.",
+     "speaker": "Miku"
+    }
+   ]
+  }
+ ],
+ "videoId": "Xcvz3YpX3CE",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

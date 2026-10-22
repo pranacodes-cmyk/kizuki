@@ -1,0 +1,168 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 52.0,
+   "end": 116.8,
+   "title": "Common Listening Struggles",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜のに — even though / despite",
+    "〜すぎる — too much / overly"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 52.4,
+     "end": 56.0,
+     "ja": "教科書のCDの音声なら聞き取れるのに、",
+     "en": "Even though you can catch the audio from textbook CDs,",
+     "speaker": "Mari"
+    },
+    {
+     "start": 56.1,
+     "end": 58.7,
+     "ja": "リアルな日本人の会話になると、",
+     "en": "when it comes to real conversations with native Japanese speakers,",
+     "speaker": "Mari"
+    },
+    {
+     "start": 58.8,
+     "end": 63.5,
+     "ja": "急にスピードが速すぎてついていけない…",
+     "en": "the speed suddenly gets so fast that you can't keep up...",
+     "speaker": "Mari"
+    },
+    {
+     "start": 63.8,
+     "end": 67.5,
+     "ja": "あるいは、単語は知っているはずなのに、",
+     "en": "Or, even though you should know the words,",
+     "speaker": "Mari"
+    },
+    {
+     "start": 67.7,
+     "end": 71.0,
+     "ja": "音になると、全部つながって聞こえて、",
+     "en": "when heard as sound, they all blend together,",
+     "speaker": "Mari"
+    },
+    {
+     "start": 71.1,
+     "end": 73.5,
+     "ja": "意味を追いかけられない…",
+     "en": "and you can't follow the meaning...",
+     "speaker": "Mari"
+    },
+    {
+     "start": 73.7,
+     "end": 76.5,
+     "ja": "そう感じることありませんか？",
+     "en": "Haven't you ever felt like that?",
+     "speaker": "Mari"
+    }
+   ]
+  },
+  {
+   "start": 194.9,
+   "end": 211.5,
+   "title": "Learning Japanese on the Go",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜ば — if",
+    "〜必要はない — there is no need to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 195.2,
+     "end": 200.1,
+     "ja": "スマホ一つあれば、通勤中も家事をしながらでも、",
+     "en": "With just a smartphone, during your commute, while doing chores,",
+     "speaker": "Mari"
+    },
+    {
+     "start": 200.2,
+     "end": 201.8,
+     "ja": "散歩中も、",
+     "en": "or even while taking a walk,",
+     "speaker": "Mari"
+    },
+    {
+     "start": 202.0,
+     "end": 206.5,
+     "ja": "あらゆる隙間時間を学習時間に変えられます。",
+     "en": "you can turn any spare time into study time.",
+     "speaker": "Mari"
+    },
+    {
+     "start": 206.8,
+     "end": 211.0,
+     "ja": "机に向かって教科書を開く必要はありません。",
+     "en": "There is no need to sit at a desk and open a textbook.",
+     "speaker": "Mari"
+    }
+   ]
+  },
+  {
+   "start": 217.8,
+   "end": 239.5,
+   "title": "Textbook vs. Native Japanese",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜と習う — to learn that",
+    "〜のように — like / such as",
+    "〜んです — explanatory emphasis"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 218.2,
+     "end": 223.5,
+     "ja": "教科書では「今日はとても天気がいいです」と習いますが、",
+     "en": "In textbooks you learn \"The weather is very nice today,\"",
+     "speaker": "Mari"
+    },
+    {
+     "start": 223.8,
+     "end": 230.8,
+     "ja": "ネイティブは日常で「今日の天気めっちゃいいね」のように話します。",
+     "en": "but native speakers in daily life say things like, \"The weather is super nice today.\"",
+     "speaker": "Mari"
+    },
+    {
+     "start": 231.0,
+     "end": 234.8,
+     "ja": "ポッドキャストでは、イントネーション、省略、",
+     "en": "Through podcasts, intonation, abbreviations,",
+     "speaker": "Mari"
+    },
+    {
+     "start": 235.0,
+     "end": 239.0,
+     "ja": "自然なスピード感をそのまま吸収できるんです。",
+     "en": "and the natural sense of speed can be absorbed just as they are.",
+     "speaker": "Mari"
+    }
+   ]
+  }
+ ],
+ "videoId": "L1UuaqGg9GQ",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

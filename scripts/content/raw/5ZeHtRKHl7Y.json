@@ -1,0 +1,220 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 39.2,
+   "end": 60.6,
+   "title": "Ordering Dessert at a Taiwanese Cafe",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜でよろしかったですか — polite confirmation",
+    "〜ができる — can do / is possible"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 39.5,
+     "end": 44.5,
+     "ja": "この総合豆花のコールド1つと、",
+     "en": "One cold mixed douhua,",
+     "speaker": "Akane"
+    },
+    {
+     "start": 44.8,
+     "end": 48.2,
+     "ja": "えっと、サツマイモミルクのコールド。",
+     "en": "and, um, one cold sweet potato milk.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 48.5,
+     "end": 50.7,
+     "ja": "こちらMサイズでよろしかったですか？",
+     "en": "Would you like medium size for this?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 50.8,
+     "end": 51.9,
+     "ja": "はい、Mで。",
+     "en": "Yes, medium please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 52.0,
+     "end": 53.8,
+     "ja": "氷の量が調整できます。",
+     "en": "You can adjust the amount of ice.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 53.9,
+     "end": 55.8,
+     "ja": "えっと、少なめ。",
+     "en": "Um, less ice please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 56.2,
+     "end": 57.3,
+     "ja": "以上でよろしいですか？",
+     "en": "Will that be all?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 57.4,
+     "end": 58.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 58.0,
+     "end": 60.0,
+     "ja": "お会計が1360円になります。",
+     "en": "Your total comes to 1,360 yen.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 60.0,
+     "end": 60.6,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Akane"
+    }
+   ]
+  },
+  {
+   "start": 279.6,
+   "end": 305.4,
+   "title": "Checking In at the Hotel Front Desk",
+   "level": "N3",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "〜のうえ — upon doing / after",
+    "〜させていただく — humble causative (allow to do)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 279.8,
+     "end": 282.5,
+     "ja": "こんにちは。そうしましたらすみません、",
+     "en": "Hello. If you wouldn't mind,",
+     "speaker": "Staff"
+    },
+    {
+     "start": 282.5,
+     "end": 286.4,
+     "ja": "お手数ですが、こちらから健康チェックシートのご記入を人数名様分お願いいたします。",
+     "en": "I'm sorry to trouble you, but please fill out this health check sheet for each guest.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 286.6,
+     "end": 287.3,
+     "ja": "はい。",
+     "en": "Sure.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 287.3,
+     "end": 289.2,
+     "ja": "手首から検温の方よろしいですか？",
+     "en": "May I check your temperature from your wrist?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 289.2,
+     "end": 290.8,
+     "ja": "失礼いたします。",
+     "en": "Pardon me.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 291.2,
+     "end": 292.6,
+     "ja": "はい、ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 293.0,
+     "end": 300.0,
+     "ja": "そうしましたらですね、こちらの左手の精算機の方から、お名前フルネームご検索のうえ、チェックインをお願いいたします。",
+     "en": "Next, please search your full name on the payment machine here to your left and check in.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 300.2,
+     "end": 304.0,
+     "ja": "終わりましたらご説明させていただきます。こちらまでお声がけをお願いいたします。",
+     "en": "Once you're done, I will explain the rest. Please let me know over here.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 304.2,
+     "end": 305.2,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Akane"
+    }
+   ]
+  },
+  {
+   "start": 466.2,
+   "end": 484.7,
+   "title": "Touring the Hotel Bunk Bed",
+   "level": "N4",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "〜と — when / whenever",
+    "〜ことができる — can do / be able to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 466.5,
+     "end": 469.5,
+     "ja": "でね、これ、皆さん二段ベッドですよ。",
+     "en": "And look at this, everyone, it's a bunk bed!",
+     "speaker": "Akane"
+    },
+    {
+     "start": 469.8,
+     "end": 475.2,
+     "ja": "この上の段をこうね、横に倒すとベッドになるので、",
+     "en": "If you pull down the top bunk like this, it becomes a bed,",
+     "speaker": "Akane"
+    },
+    {
+     "start": 475.5,
+     "end": 480.6,
+     "ja": "ここは、1、2、3、4人泊まることができます。",
+     "en": "so one, two, three, four people can stay here.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 481.0,
+     "end": 484.5,
+     "ja": "ちょっとね、思ったより広くてめちゃくちゃいいです。",
+     "en": "It's way more spacious than I expected and really nice.",
+     "speaker": "Akane"
+    }
+   ]
+  }
+ ],
+ "videoId": "5ZeHtRKHl7Y",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

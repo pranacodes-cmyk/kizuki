@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 37.5,
+   "end": 54.9,
+   "title": "Caught Badmouthing the Prince",
+   "level": "N2",
+   "topics": [
+    "anime",
+    "comedy",
+    "school"
+   ],
+   "grammar": [
+    "〜とは — expressing surprise or indignation",
+    "〜んじゃないか — asking for confirmation or speculating"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.7,
+     "end": 40.5,
+     "ja": "へえー、誰が最低ゲスだって？",
+     "en": "Oh? Who did you say was the lowest scum?",
+     "speaker": "Kyouya"
+    },
+    {
+     "start": 40.8,
+     "end": 42.4,
+     "ja": "きょ、恭也くん！？",
+     "en": "Ky-Kyouya-kun?!",
+     "speaker": "Erika"
+    },
+    {
+     "start": 42.5,
+     "end": 46.8,
+     "ja": "陰でコソコソと人を貶めるとは、いいご身分になったもんだな。",
+     "en": "Sneaking around badmouthing someone behind their back... quite full of yourself, aren't you?",
+     "speaker": "Kyouya"
+    },
+    {
+     "start": 46.9,
+     "end": 49.0,
+     "ja": "そ、そんなことしてないよ！",
+     "en": "I-I didn't do anything like that!",
+     "speaker": "Erika"
+    },
+    {
+     "start": 49.1,
+     "end": 51.3,
+     "ja": "この状況でも嘘をつくとはな。",
+     "en": "To think you'd still lie in a situation like this.",
+     "speaker": "Kyouya"
+    },
+    {
+     "start": 51.5,
+     "end": 54.7,
+     "ja": "ご主人様に対する礼儀がなってないんじゃないか？",
+     "en": "Aren't you lacking proper manners toward your master?",
+     "speaker": "Kyouya"
+    }
+   ]
+  },
+  {
+   "start": 104.9,
+   "end": 118.0,
+   "title": "Spin Three Times and Bark",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy",
+    "romance"
+   ],
+   "grammar": [
+    "〜てやる — to do something for someone",
+    "〜てろ — imperative of doing continuously"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 105.1,
+     "end": 106.1,
+     "ja": "エリカ。",
+     "en": "Erika.",
+     "speaker": "Kyouya"
+    },
+    {
+     "start": 106.1,
+     "end": 107.1,
+     "ja": "えっ、何？",
+     "en": "Huh, what?",
+     "speaker": "Erika"
+    },
+    {
+     "start": 107.2,
+     "end": 108.6,
+     "ja": "３回回ってワン。",
+     "en": "Spin three times and bark.",
+     "speaker": "Kyouya"
+    },
+    {
+     "start": 108.6,
+     "end": 109.5,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Erika"
+    },
+    {
+     "start": 109.6,
+     "end": 111.4,
+     "ja": "これだけで許してやろうっていうんだ。",
+     "en": "I'm offering to forgive you with just that.",
+     "speaker": "Kyouya"
+    },
+    {
+     "start": 111.6,
+     "end": 113.1,
+     "ja": "至極良心的だろ。",
+     "en": "Quite generous of me, isn't it?",
+     "speaker": "Kyouya"
+    },
+    {
+     "start": 113.2,
+     "end": 115.3,
+     "ja": "くっ…いつか見てろよ…",
+     "en": "Ugh... just you wait...",
+     "speaker": "Erika"
+    },
+    {
+     "start": 115.4,
+     "end": 116.6,
+     "ja": "何か言ったか？",
+     "en": "Did you say something?",
+     "speaker": "Kyouya"
+    },
+    {
+     "start": 116.7,
+     "end": 117.7,
+     "ja": "何でもないです！",
+     "en": "Nothing at all!",
+     "speaker": "Erika"
+    }
+   ]
+  }
+ ],
+ "videoId": "tZJPQfq2UNk",
+ "pickTopics": [
+  "anime",
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

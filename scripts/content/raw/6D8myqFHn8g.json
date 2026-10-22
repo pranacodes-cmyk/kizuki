@@ -1,0 +1,216 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 41.0,
+   "end": 67.8,
+   "title": "Directions to Umekoji Park",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜だと — if / in the case of",
+    "〜なくても — even without doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 41.2,
+     "end": 44.8,
+     "ja": "ゆうこさん、今私たちは何という公園にいますか？",
+     "en": "Yuko-san, what park are we in right now?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 45.3,
+     "end": 48.0,
+     "ja": "ここは梅小路公園です。",
+     "en": "This is Umekoji Park.",
+     "speaker": "Yuko"
+    },
+    {
+     "start": 48.8,
+     "end": 52.2,
+     "ja": "はい。京都駅からだと歩いてどれぐらいですかね？",
+     "en": "How long does it take to walk from Kyoto Station?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 53.0,
+     "end": 56.8,
+     "ja": "えっと、あの反対側の入り口までは近いです。",
+     "en": "Well, it's close to the entrance on the opposite side.",
+     "speaker": "Yuko"
+    },
+    {
+     "start": 56.9,
+     "end": 62.3,
+     "ja": "京都駅から5分、ゆっくり歩いて7、8分ぐらいですかね。",
+     "en": "It's about 5 minutes from Kyoto Station, or 7 to 8 minutes if walking slowly.",
+     "speaker": "Yuko"
+    },
+    {
+     "start": 63.0,
+     "end": 66.0,
+     "ja": "そうなんですね。じゃあバスに乗らなくても歩いてくることができますね。",
+     "en": "I see. So you can walk here without taking a bus.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 66.0,
+     "end": 67.4,
+     "ja": "歩いて来られます。",
+     "en": "You can come on foot.",
+     "speaker": "Yuko"
+    }
+   ]
+  },
+  {
+   "start": 175.3,
+   "end": 196.0,
+   "title": "Offering to Treat a Friend at a Cafe",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "friends"
+   ],
+   "grammar": [
+    "〜たいな — expressing desire casually",
+    "〜とおごる — also called / also means"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 175.7,
+     "end": 179.0,
+     "ja": "私、カフェラテが飲みたいな。ゆうこさん、何飲みます？",
+     "en": "I'd like a caffe latte. What will you drink, Yuko-san?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 179.2,
+     "end": 180.8,
+     "ja": "あ、私は考えます。",
+     "en": "Oh, let me think.",
+     "speaker": "Yuko"
+    },
+    {
+     "start": 181.0,
+     "end": 183.0,
+     "ja": "考えます？あ、あの、ごちそうします！",
+     "en": "You'll think about it? Oh, it's my treat!",
+     "speaker": "Akane"
+    },
+    {
+     "start": 183.0,
+     "end": 184.6,
+     "ja": "大丈夫です、食べるんで。",
+     "en": "It's fine, since I'm going to eat too.",
+     "speaker": "Yuko"
+    },
+    {
+     "start": 184.6,
+     "end": 186.3,
+     "ja": "いやいやいや、ぜひ食べてください。",
+     "en": "No, no, please go ahead and eat!",
+     "speaker": "Akane"
+    },
+    {
+     "start": 186.8,
+     "end": 190.0,
+     "ja": "ごちそうすることを「おごる」とも言います。",
+     "en": "Treating someone is also referred to as \"ogoru\".",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 190.2,
+     "end": 192.4,
+     "ja": "例えば、「今日は私がおごるよ」、",
+     "en": "For example, \"Today is my treat,\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 192.7,
+     "end": 195.5,
+     "ja": "「今日は私がおごります」というふうに使います。",
+     "en": "or \"Today I will treat you,\" is how it's used.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 462.8,
+   "end": 489.8,
+   "title": "Casual Chat About Driving in Kyoto",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜たり〜たりする — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 463.0,
+     "end": 465.0,
+     "ja": "私もね、運転してるよ。",
+     "en": "I'm driving too, you know.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 465.3,
+     "end": 467.3,
+     "ja": "マジで？いつ取ったの？免許。",
+     "en": "Seriously? When did you get your license?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 467.4,
+     "end": 469.2,
+     "ja": "え、京都に来てから取って。",
+     "en": "Well, I got it after moving to Kyoto.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 469.7,
+     "end": 472.9,
+     "ja": "マジで？運転するの怖くない？京都で。",
+     "en": "Really? Isn't it scary driving in Kyoto?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 473.0,
+     "end": 477.8,
+     "ja": "道狭かったり、結構路駐がね、多かったりするんだよね、京都。",
+     "en": "The roads are narrow and there's a lot of street parking in Kyoto.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 478.2,
+     "end": 482.8,
+     "ja": "だからそういうのとか、やっぱり一方通行とか、一通が多い。",
+     "en": "So because of that, there are a lot of one-way streets.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 483.0,
+     "end": 489.5,
+     "ja": "多いよね。なんか広いところはすごく広いけど、狭いところってさ、すれすれのギリギリのところだよね。",
+     "en": "There really are. Wide areas are super wide, but narrow spots are so tight they barely pass each other, right?",
+     "speaker": "Akane"
+    }
+   ]
+  }
+ ],
+ "videoId": "6D8myqFHn8g",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

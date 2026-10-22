@@ -1,0 +1,252 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 47.8,
+   "end": 70.0,
+   "title": "Highlights of 2021",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜てきた — action towards present",
+    "〜たこと — the fact that / experience of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 48.0,
+     "end": 50.0,
+     "ja": "まず東京に上京してきたこと。",
+     "en": "First, moving up to Tokyo.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 50.1,
+     "end": 51.5,
+     "ja": "ほー！そうなんだ。",
+     "en": "Oh! I see.",
+     "speaker": "Ru-chan"
+    },
+    {
+     "start": 51.5,
+     "end": 53.6,
+     "ja": "そう！あと、Ranzukiに入ったこと。",
+     "en": "Yeah! And joining Ranzuki.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 53.7,
+     "end": 55.4,
+     "ja": "あー、素晴らしい！",
+     "en": "Ah, wonderful!",
+     "speaker": "Ru-chan"
+    },
+    {
+     "start": 55.6,
+     "end": 56.9,
+     "ja": "ねえ、被った！！",
+     "en": "Hey, we matched!!",
+     "speaker": "Michun"
+    },
+    {
+     "start": 57.0,
+     "end": 58.4,
+     "ja": "ごめん！！",
+     "en": "Sorry!!",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 59.8,
+     "end": 62.0,
+     "ja": "みゆもRanzukiが生まれたことって…",
+     "en": "Miyu was also going to say Ranzuki being born...",
+     "speaker": "Michun"
+    },
+    {
+     "start": 62.1,
+     "end": 64.3,
+     "ja": "「生まれたこと」はやめてw",
+     "en": "Don't say \"born\"! lol",
+     "speaker": "Ru-chan"
+    },
+    {
+     "start": 64.8,
+     "end": 66.0,
+     "ja": "復活した。",
+     "en": "Revived.",
+     "speaker": "Michun"
+    },
+    {
+     "start": 66.1,
+     "end": 69.5,
+     "ja": "そう、Ranzukiが復活してウチらがRanzukiにいること。",
+     "en": "Yeah, Ranzuki being revived and us being in it.",
+     "speaker": "Michun"
+    }
+   ]
+  },
+  {
+   "start": 81.5,
+   "end": 103.5,
+   "title": "Chipping a Tooth on Pasta",
+   "level": "N3",
+   "topics": [
+    "food",
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — when / if",
+    "〜てほしい — wanting someone to do",
+    "〜っていう — that kind of / namely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 82.0,
+     "end": 83.2,
+     "ja": "るーは？",
+     "en": "What about you, Ru?",
+     "speaker": "Michun"
+    },
+    {
+     "start": 83.3,
+     "end": 85.3,
+     "ja": "普通にパスタ食べたら歯が欠けたっていう。",
+     "en": "I was just eating pasta and chipped my tooth.",
+     "speaker": "Ru-chan"
+    },
+    {
+     "start": 87.6,
+     "end": 90.9,
+     "ja": "パスタ食べてて、なんかガリッて言ったなと思ったら、",
+     "en": "I was eating pasta, and when I thought, \"Wait, something crunched,\"",
+     "speaker": "Ru-chan"
+    },
+    {
+     "start": 91.0,
+     "end": 93.0,
+     "ja": "パスタってなんだっけ？と思って、",
+     "en": "I was like, \"Wait, what's in pasta?\" and...",
+     "speaker": "Ru-chan"
+    },
+    {
+     "start": 93.1,
+     "end": 95.8,
+     "ja": "自分の歯を多分ガリッてやった。",
+     "en": "I probably crunched down on my own tooth.",
+     "speaker": "Ru-chan"
+    },
+    {
+     "start": 95.9,
+     "end": 97.4,
+     "ja": "ヤバいよそれ！",
+     "en": "That's crazy!",
+     "speaker": "Michun"
+    },
+    {
+     "start": 97.8,
+     "end": 101.0,
+     "ja": "しかも注目してほしいのがパスタってことです。",
+     "en": "And what I want you to notice is that it was pasta.",
+     "speaker": "Ru-chan"
+    },
+    {
+     "start": 101.1,
+     "end": 103.0,
+     "ja": "固いものじゃないっていう。",
+     "en": "Like, it's not even something hard.",
+     "speaker": "Ru-chan"
+    }
+   ]
+  },
+  {
+   "start": 289.0,
+   "end": 316.5,
+   "title": "Back Together and In Love",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "school"
+   ],
+   "grammar": [
+    "〜目 — ordinal number suffix",
+    "どんな〜 — what kind of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 289.5,
+     "end": 293.9,
+     "ja": "２人は１回別れて、で、また復縁しました。",
+     "en": "The two of us broke up once, and then got back together.",
+     "speaker": "Boyfriend"
+    },
+    {
+     "start": 297.8,
+     "end": 299.0,
+     "ja": "今何ヶ月目です？",
+     "en": "How many months has it been now?",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 299.1,
+     "end": 301.3,
+     "ja": "今それで３ヶ月ちょっと…",
+     "en": "Now it's a little over three months...",
+     "speaker": "Boyfriend"
+    },
+    {
+     "start": 301.4,
+     "end": 303.0,
+     "ja": "よかった！！嬉しい！",
+     "en": "That's great!! So happy for you!",
+     "speaker": "Ru-chan"
+    },
+    {
+     "start": 303.2,
+     "end": 306.2,
+     "ja": "彼女さんのどんなところが好きですか？",
+     "en": "What do you like about your girlfriend?",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 306.8,
+     "end": 308.8,
+     "ja": "えー、全部ですね！！",
+     "en": "Um, everything!!",
+     "speaker": "Boyfriend"
+    },
+    {
+     "start": 309.8,
+     "end": 311.5,
+     "ja": "素晴らしい！！",
+     "en": "Wonderful!!",
+     "speaker": "Ru-chan"
+    },
+    {
+     "start": 311.7,
+     "end": 313.3,
+     "ja": "え、じゃあ彼氏さんの…？",
+     "en": "Well then, what about your boyfriend...?",
+     "speaker": "Ru-chan"
+    },
+    {
+     "start": 313.4,
+     "end": 315.0,
+     "ja": "全部です♡",
+     "en": "Everything. ♡",
+     "speaker": "Girlfriend"
+    }
+   ]
+  }
+ ],
+ "videoId": "0ltQEMAFgZw",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

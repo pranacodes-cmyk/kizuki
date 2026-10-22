@@ -1,0 +1,95 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 245.5,
+   "end": 256.5,
+   "title": "What Do You Want to Eat?",
+   "level": "N5",
+   "topics": [
+    "friends",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜たい — want to do",
+    "何 — what"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 246.0,
+     "end": 249.2,
+     "ja": "ゲンちゃん、何が食べたい？",
+     "en": "Gen, what do you want to eat?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 249.8,
+     "end": 251.0,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Gen"
+    },
+    {
+     "start": 251.1,
+     "end": 253.2,
+     "ja": "何が食べたい？",
+     "en": "What do you want to eat?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 253.3,
+     "end": 255.8,
+     "ja": "韓国のデリバリー！",
+     "en": "Korean delivery!",
+     "speaker": "Friend"
+    }
+   ]
+  },
+  {
+   "start": 268.5,
+   "end": 275.8,
+   "title": "The Food Delivery Has Arrived",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "これ — this",
+    "〜です — is / am / are"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 269.0,
+     "end": 271.6,
+     "ja": "これはトッポッキでーす。",
+     "en": "This is tteokbokki.",
+     "speaker": "Gen"
+    },
+    {
+     "start": 271.8,
+     "end": 273.1,
+     "ja": "失礼しまーす。",
+     "en": "Excuse me.",
+     "speaker": "Gen"
+    },
+    {
+     "start": 273.2,
+     "end": 275.3,
+     "ja": "ありがとうございまーす。",
+     "en": "Thank you very much.",
+     "speaker": "Friend"
+    }
+   ]
+  }
+ ],
+ "videoId": "Js8bzs79WDw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

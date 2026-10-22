@@ -1,0 +1,157 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 36.5,
+   "end": 50.5,
+   "title": "Arriving at the Office in Japanese",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ということ — nominalizing a sentence"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.3,
+     "end": 39.8,
+     "ja": "あ、おはようございます。",
+     "en": "Ah, good morning.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 41.4,
+     "end": 46.0,
+     "ja": "働いている会社に行くことを「出社する」と言います。",
+     "en": "Going to the company where you work is called 'shussha suru'.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 46.0,
+     "end": 49.8,
+     "ja": "出社する、出社する。",
+     "en": "To go to work, to arrive at the office.",
+     "speaker": "Akane"
+    }
+   ]
+  },
+  {
+   "start": 228.0,
+   "end": 249.0,
+   "title": "Explaining Heisha and Onsha",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜ております — humble ongoing action",
+    "伺う — humble visit/ask"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 228.5,
+     "end": 234.0,
+     "ja": "「弊社」は私の会社、私が働いている会社です。",
+     "en": "'Heisha' means my company, the company where I work.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 234.2,
+     "end": 237.7,
+     "ja": "例えば「弊社の商品は〜です」とか、",
+     "en": "For example, 'Our company's products are...', or",
+     "speaker": "Akane"
+    },
+    {
+     "start": 237.7,
+     "end": 241.5,
+     "ja": "「弊社では〜を行っております」。",
+     "en": "'At our company, we carry out...'",
+     "speaker": "Akane"
+    },
+    {
+     "start": 241.9,
+     "end": 245.5,
+     "ja": "「御社」はあなたの会社です。",
+     "en": "'Onsha' means your company.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 245.8,
+     "end": 248.8,
+     "ja": "例えば「明日御社に伺います」。",
+     "en": "For example, 'Tomorrow I will visit your company.'",
+     "speaker": "Akane"
+    }
+   ]
+  },
+  {
+   "start": 20.5,
+   "end": 44.8,
+   "title": "Answering the Phone at the Office",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜でございます — polite copula",
+    "お〜する — humble verb form",
+    "〜様 — honorific title"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 21.5,
+     "end": 25.8,
+     "ja": "あかね的日本語教室、佐藤でございます。",
+     "en": "Akane's Japanese Class, Sato speaking.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 26.5,
+     "end": 29.5,
+     "ja": "いつもお世話になっております。",
+     "en": "Thank you as always for your business.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 30.0,
+     "end": 34.3,
+     "ja": "営業部の田中ですね。今おつなぎしますので、少々お待ちください。",
+     "en": "Tanaka in Sales, correct? I'll transfer you now, so please hold.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 34.8,
+     "end": 38.2,
+     "ja": "田中部長！田中部長！",
+     "en": "Department Manager Tanaka! Department Manager Tanaka!",
+     "speaker": "Akane"
+    },
+    {
+     "start": 38.5,
+     "end": 42.5,
+     "ja": "あかね的日本語カフェの吉田様からお電話です。",
+     "en": "There is a phone call from Mr. Yoshida of Akane Japanese Cafe.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 42.7,
+     "end": 44.3,
+     "ja": "お願いします。",
+     "en": "Here you go.",
+     "speaker": "Akane"
+    }
+   ]
+  }
+ ],
+ "videoId": "_se3ZTjdsc4",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

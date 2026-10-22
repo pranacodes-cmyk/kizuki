@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 47.5,
+   "end": 61.5,
+   "title": "Tips for Preparing Bento",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜とき — when / at the time of",
+    "〜ましょう — let's / shall we"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 47.7,
+     "end": 49.8,
+     "ja": "お弁当を作ります。",
+     "en": "We are going to make a bento.",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 50.3,
+     "end": 54.3,
+     "ja": "お弁当を作るとき、何に気を付けますか？",
+     "en": "When making a bento, what should you be careful about?",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 55.4,
+     "end": 58.0,
+     "ja": "包丁、弁当箱、きれいに洗いましょう。",
+     "en": "Let's wash the kitchen knife and lunchbox cleanly.",
+     "speaker": "Instructor"
+    },
+    {
+     "start": 58.4,
+     "end": 60.5,
+     "ja": "きれいに洗いましょう。",
+     "en": "Let's wash them thoroughly.",
+     "speaker": "Instructor"
+    }
+   ]
+  },
+  {
+   "start": 118.5,
+   "end": 134.5,
+   "title": "What Does Shun Mean?",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜たことがある — have experienced doing",
+    "〜ましょう — let's"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 118.8,
+     "end": 121.8,
+     "ja": "「旬」という言葉、聞いたことありますか？",
+     "en": "Have you ever heard the word 'shun'?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 122.5,
+     "end": 126.3,
+     "ja": "旬の食べ物は、その季節でとれたものです。",
+     "en": "Seasonal food refers to things harvested in that season.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 127.1,
+     "end": 130.0,
+     "ja": "おいしくて、健康的です。",
+     "en": "They are delicious and healthy.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 130.6,
+     "end": 133.8,
+     "ja": "旬の食べ物を使いましょう！",
+     "en": "Let's use in-season ingredients!",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 148.5,
+   "end": 205.5,
+   "title": "Preparing Rice and Salmon",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜を — direct object marker",
+    "〜に — indirect object / target marker"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 148.8,
+     "end": 151.3,
+     "ja": "ご飯を炊きます。",
+     "en": "Cook the rice.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 153.6,
+     "end": 156.0,
+     "ja": "さけに塩を振ります。",
+     "en": "Sprinkle salt on the salmon.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 156.8,
+     "end": 159.0,
+     "ja": "さけを焼きます。",
+     "en": "Grill the salmon.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 201.8,
+     "end": 204.2,
+     "ja": "さけをほぐします。",
+     "en": "Flake the salmon.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "L6MYKz-1SFM",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

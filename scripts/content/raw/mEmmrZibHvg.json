@@ -1,0 +1,33 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 42.5,
+   "end": 50.0,
+   "title": "Take Off Your Hood",
+   "level": "N2",
+   "topics": [
+    "family",
+    "culture"
+   ],
+   "grammar": [
+    "〜ておやり — do (imperative to subordinate)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 42.9,
+     "end": 45.4,
+     "ja": "助清、頭巾を取っておやり。",
+     "en": "Sukekiyo, take off your hood.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "mEmmrZibHvg",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,132 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.8,
+   "end": 27.8,
+   "title": "Famous Philosophers of the Past",
+   "level": "N3",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜で有名な — famous for",
+    "〜られる — passive voice",
+    "〜から学べる — potential form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 16.8,
+     "end": 20.3,
+     "ja": "そんな哲学で有名なのは、古代ギリシャのソクラテスや",
+     "en": "Those who are famous in such philosophy include Socrates of ancient Greece",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 20.3,
+     "end": 24.2,
+     "ja": "19世紀のニーチェなど、昔の人がよく挙げられます。",
+     "en": "and Nietzsche of the 19th century; figures from the past are often cited.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 24.2,
+     "end": 27.6,
+     "ja": "過去の哲学者から学べることはたくさんありますが、",
+     "en": "While there is much we can learn from past philosophers,",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 187.8,
+   "end": 202.5,
+   "title": "Changing Concepts of Good and Bad",
+   "level": "N3",
+   "topics": [
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜と言われていた — it was said that",
+    "〜ていた — past continuous / state",
+    "〜である — formal copula"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 187.8,
+     "end": 193.3,
+     "ja": "例えば昔は、勉強していい学校に行って、いい会社に入るのが善いことと言われていました。",
+     "en": "For example, in the past, it was considered good to study hard, go to a good school, and join a good company.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 193.3,
+     "end": 197.0,
+     "ja": "そして、勉強できなかった人は社会的に良くない人、",
+     "en": "And people who couldn't study well were seen as socially inadequate,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 197.0,
+     "end": 201.8,
+     "ja": "つまり悪であると考えられていたのです。",
+     "en": "in other words, they were considered 'bad'.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 413.5,
+   "end": 433.5,
+   "title": "Deleuze on Questioning Fixed Identities",
+   "level": "N3",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜とする — suppose that",
+    "〜たりする — doing things like",
+    "〜だろうか — wondering / questioning"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 413.5,
+     "end": 418.5,
+     "ja": "例えば、「自分は今も昔もこういう人間だ」という人がいるとします。",
+     "en": "Suppose, for instance, there's someone who says, 'I have always been this kind of person.'",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 418.5,
+     "end": 424.5,
+     "ja": "ですが、同じ人でも今と昔で見ためや考え方が違ったりしますよね？",
+     "en": "Yet even for the same person, haven't your appearance and way of thinking changed over time?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 424.5,
+     "end": 427.2,
+     "ja": "また、人それぞれに違いもあります。",
+     "en": "Also, each person has their own differences.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 427.2,
+     "end": 433.4,
+     "ja": "ドゥルーズは、「この存在はこういうものだ」という決めつけを、「本当にそうだろうか？」と疑いました。",
+     "en": "Deleuze questioned the assumption that 'this being is definitively like this,' asking, 'Is that really true?'",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "tp_ufA6QgIk",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

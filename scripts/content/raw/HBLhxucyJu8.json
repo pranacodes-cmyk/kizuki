@@ -1,0 +1,202 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 8.0,
+   "end": 24.8,
+   "title": "Learning About Japanese Food: Reverse Miso",
+   "level": "N4",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていきたい — want to go on doing",
+    "〜が — but / however"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 8.0,
+     "end": 9.5,
+     "ja": "皆さん、こんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 9.5,
+     "end": 13.0,
+     "ja": "始まりました、「日本の食を学ぶ」。",
+     "en": "And so begins \"Learning About Japanese Food.\"",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 13.0,
+     "end": 18.8,
+     "ja": "本日は「逆味噌」を作っていきたいと思います。",
+     "en": "Today, I'd like to make \"reverse miso.\"",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 18.9,
+     "end": 22.0,
+     "ja": "普通は1年かかりますが、逆味噌は20分でできます。",
+     "en": "Normally it takes a year, but reverse miso takes only 20 minutes.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 22.4,
+     "end": 24.6,
+     "ja": "材料は3つです。",
+     "en": "There are three ingredients.",
+     "speaker": "Takahashi"
+    }
+   ]
+  },
+  {
+   "start": 462.2,
+   "end": 483.5,
+   "title": "Tasting the Miso Dumpling",
+   "level": "N3",
+   "topics": [
+    "food",
+    "comedy"
+   ],
+   "grammar": [
+    "〜っぽい — -like / -ish",
+    "〜かもしれない — might / could be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 462.2,
+     "end": 464.0,
+     "ja": "真ん中が味噌っぽいんでね、",
+     "en": "The middle one looks like miso,",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 464.0,
+     "end": 467.8,
+     "ja": "こちらも20分で味噌ができたという象徴の料理ですので、",
+     "en": "and this represents miso made in 20 minutes, so...",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 467.8,
+     "end": 470.5,
+     "ja": "こちら素晴らしいんでございますけども。",
+     "en": "This is truly wonderful, but...",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 473.0,
+     "end": 474.0,
+     "ja": "しょっぱい！",
+     "en": "It's salty!",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 474.0,
+     "end": 477.2,
+     "ja": "しょっぱいでございます！めちゃめちゃしょっぱいでございます！",
+     "en": "It is so salty! Incredibly salty!",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 477.2,
+     "end": 479.8,
+     "ja": "この量の味噌は致死量かもしれない。",
+     "en": "This amount of miso might be a lethal dose.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 479.8,
+     "end": 483.0,
+     "ja": "多分そんなことはないけど、急いで汁をかき込みますけども。",
+     "en": "Probably not, but I'll quickly gulp down the soup.",
+     "speaker": "Takahashi"
+    }
+   ]
+  },
+  {
+   "start": 625.5,
+   "end": 648.4,
+   "title": "A Miraculous Victory on the Toast",
+   "level": "N4",
+   "topics": [
+    "food",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜だった — was (past copula)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 625.5,
+     "end": 628.2,
+     "ja": "ついに真ん中の酒飯が乗ってる部分を",
+     "en": "Finally, the middle part with the sake-rice topping...",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 628.3,
+     "end": 630.8,
+     "ja": "いただいてみます。",
+     "en": "Let's try it.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 633.0,
+     "end": 635.0,
+     "ja": "果たして…",
+     "en": "And the result is...",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 635.4,
+     "end": 637.8,
+     "ja": "大丈夫でしたー！",
+     "en": "It was totally fine!",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 638.0,
+     "end": 639.7,
+     "ja": "やりました！やりました！",
+     "en": "I did it! I did it!",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 639.8,
+     "end": 643.7,
+     "ja": "1番心配だったやつが大丈夫だった！やったやったやった！",
+     "en": "The part I was most worried about was totally fine! Yes, yes, yes!",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 643.8,
+     "end": 646.6,
+     "ja": "流れが変わりました、やったー！",
+     "en": "The tide has turned, hooray!",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 646.7,
+     "end": 648.4,
+     "ja": "勝ちました！これです！",
+     "en": "We won! This is it!",
+     "speaker": "Takahashi"
+    }
+   ]
+  }
+ ],
+ "videoId": "HBLhxucyJu8",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

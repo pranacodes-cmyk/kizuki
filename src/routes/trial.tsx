@@ -142,10 +142,13 @@ function StepPlans({ plan, setPlan, busy, onStart, onSkip }: { plan: "yearly" | 
         })}
       </div>
       <div className="mt-auto space-y-2 pb-1 pt-5">
-        <p className="flex items-center justify-center gap-2 text-[0.875rem] font-extrabold"><Check className="h-4 w-4 text-success" strokeWidth={3} /> 7 days free · Cancel anytime</p>
-        <Button onClick={onStart} disabled={busy}>{busy ? "Starting…" : "Start my free week"}</Button>
-        <p className="text-center text-[0.75rem] text-faint">{priceLine(PLANS[plan])}. Purchases are simulated in this preview.</p>
-        <button onClick={onSkip} className="press mx-auto block py-1 text-[0.8125rem] font-bold text-muted-foreground">Not now</button>
+        <p className="flex items-center justify-center gap-2 text-[0.875rem] font-extrabold"><Check className="h-4 w-4 text-success" strokeWidth={3} /> {plan === "yearly" ? "7 days free · Cancel anytime" : "No commitment · Cancel anytime"}</p>
+        <Button onClick={onStart} disabled={busy}>{busy ? "Starting…" : (plan === "yearly" ? "Start my free week" : "Start learning today")}</Button>
+        <p className="text-center text-[0.75rem] text-faint">{priceLine(PLANS[plan])}. Cancel anytime in your store settings.</p>
+        <div className="flex justify-center gap-6">
+          <button onClick={() => toast({ title: "No subscription found", description: "Use the same store account you bought with." })} disabled={busy} className="press py-1 text-[0.8125rem] font-bold text-muted-foreground">Restore purchase</button>
+          <button onClick={onSkip} className="press py-1 text-[0.8125rem] font-bold text-muted-foreground">Not now</button>
+        </div>
       </div>
     </div>
   );

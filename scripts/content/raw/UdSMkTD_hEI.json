@@ -1,0 +1,130 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.0,
+   "end": 17.5,
+   "title": "Living True to Myself Until the End",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "school"
+   ],
+   "grammar": [
+    "〜ちゃう — accidental or finished action",
+    "〜たい — expressing desire",
+    "〜らしく — appropriately / true to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.2,
+     "end": 3.4,
+     "ja": "私ね、あと一週間で死んじゃうの。",
+     "en": "You know, I'm going to die in a week.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 3.8,
+     "end": 4.6,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 5.7,
+     "end": 7.8,
+     "ja": "残された時間は短いけど、",
+     "en": "My remaining time is short, but...",
+     "speaker": "Girl"
+    },
+    {
+     "start": 7.8,
+     "end": 10.5,
+     "ja": "最後まで自分らしく生きたいの。",
+     "en": "I want to live true to myself until the very end.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 11.0,
+     "end": 13.0,
+     "ja": "ロリータさんデビューをして、",
+     "en": "Make my Lolita debut,",
+     "speaker": "Girl"
+    },
+    {
+     "start": 13.0,
+     "end": 15.0,
+     "ja": "大好きなカレーを食べて、",
+     "en": "eat my favorite curry,",
+     "speaker": "Girl"
+    },
+    {
+     "start": 15.2,
+     "end": 17.4,
+     "ja": "大好きなキミと一緒にいたい。",
+     "en": "and be with you, who I love so much.",
+     "speaker": "Girl"
+    }
+   ]
+  },
+  {
+   "start": 26.8,
+   "end": 37.2,
+   "title": "A Life on the Line",
+   "level": "N3",
+   "topics": [
+    "family",
+    "romance"
+   ],
+   "grammar": [
+    "〜てでも — even if having to",
+    "〜そう — on the verge of",
+    "〜てください — please do"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 27.0,
+     "end": 29.0,
+     "ja": "心臓の機能がかなり弱ってます。",
+     "en": "Her heart function has weakened considerably.",
+     "speaker": "Doctor"
+    },
+    {
+     "start": 29.4,
+     "end": 32.4,
+     "ja": "私の心臓を使ってでもあの子を助けてください！",
+     "en": "Even if you have to use my heart, please save my child!",
+     "speaker": "Mother"
+    },
+    {
+     "start": 32.4,
+     "end": 33.4,
+     "ja": "お願いします！",
+     "en": "I'm begging you!",
+     "speaker": "Mother"
+    },
+    {
+     "start": 33.5,
+     "end": 35.2,
+     "ja": "運転手さん、止めて！",
+     "en": "Driver, please stop!",
+     "speaker": "Boy"
+    },
+    {
+     "start": 35.2,
+     "end": 37.0,
+     "ja": "彼女が死にそうなんです！",
+     "en": "She's about to die!",
+     "speaker": "Boy"
+    }
+   ]
+  }
+ ],
+ "videoId": "UdSMkTD_hEI",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

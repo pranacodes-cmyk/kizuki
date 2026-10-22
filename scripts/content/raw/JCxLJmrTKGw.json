@@ -1,0 +1,165 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.5,
+   "end": 30.5,
+   "title": "Spending 3000 Yen at the 100-Yen Store",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜ちゃう — to do completely / accidentally"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 12.5,
+     "end": 19.3,
+     "ja": "今回なんか、そこまで欲しいものがパッと浮かばなかったんだけど、",
+     "en": "This time, nothing I particularly wanted popped into my mind,",
+     "speaker": "Natsuki"
+    },
+    {
+     "start": 19.3,
+     "end": 22.2,
+     "ja": "行ってみたらめちゃめちゃ買っちゃった笑。",
+     "en": "but when I actually went, I ended up buying a ton! (laughs)",
+     "speaker": "Natsuki"
+    },
+    {
+     "start": 22.5,
+     "end": 26.0,
+     "ja": "えっとね、合計2979円でした！",
+     "en": "Let's see, the total was 2,979 yen!",
+     "speaker": "Natsuki"
+    },
+    {
+     "start": 26.1,
+     "end": 27.8,
+     "ja": "約3000円くらい！",
+     "en": "Around 3,000 yen!",
+     "speaker": "Natsuki"
+    },
+    {
+     "start": 27.9,
+     "end": 30.4,
+     "ja": "え、百均で3千円って結構じゃない？",
+     "en": "Spending 3,000 yen at a 100-yen shop is quite a lot, isn't it?",
+     "speaker": "Natsuki"
+    }
+   ]
+  },
+  {
+   "start": 304.0,
+   "end": 326.2,
+   "title": "Gloves Are Essential for Cleaning Drains",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜なきゃ — must (casual)",
+    "〜てしまう / 〜てる — ongoing action / habit"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 304.0,
+     "end": 308.3,
+     "ja": "私、そのさっき言ったお風呂とか排水溝とかの掃除するときに、",
+     "en": "Like I said earlier, when I clean the bath or the drains,",
+     "speaker": "Natsuki"
+    },
+    {
+     "start": 308.5,
+     "end": 313.0,
+     "ja": "あとキッチンの排水溝とか掃除する時に、",
+     "en": "and when cleaning the kitchen drain,",
+     "speaker": "Natsuki"
+    },
+    {
+     "start": 313.2,
+     "end": 316.8,
+     "ja": "絶対この手袋をしなきゃ無理なんですよね。",
+     "en": "I definitely can't do it without these gloves.",
+     "speaker": "Natsuki"
+    },
+    {
+     "start": 317.0,
+     "end": 319.3,
+     "ja": "自分の髪の毛でも触りたくないの...",
+     "en": "I don't even want to touch my own hair...",
+     "speaker": "Natsuki"
+    },
+    {
+     "start": 319.5,
+     "end": 323.5,
+     "ja": "ほんとに嫌で、毎回手袋して掃除してます。",
+     "en": "I really hate it, so I wear gloves every time I clean.",
+     "speaker": "Natsuki"
+    },
+    {
+     "start": 323.7,
+     "end": 326.0,
+     "ja": "だから一気に掃除する！",
+     "en": "That's why I clean it all at once!",
+     "speaker": "Natsuki"
+    }
+   ]
+  },
+  {
+   "start": 387.2,
+   "end": 404.8,
+   "title": "A Super Convenient Big Hair Clip",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜のに — even though / despite",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 387.2,
+     "end": 393.0,
+     "ja": "え、でかいクリップ欲しいって思って、ちょうど可愛いのあったから買ってみた！",
+     "en": "I thought, 'I want a big clip,' and found a cute one, so I bought it to try!",
+     "speaker": "Natsuki"
+    },
+    {
+     "start": 393.2,
+     "end": 398.7,
+     "ja": "これさ、めっちゃ楽じゃない？ゴムもいらないのに、ほぼサイドポニーみたいな感じでまとめられるの！",
+     "en": "Isn't this so easy? You don't even need a hair tie, but it holds it like a side ponytail!",
+     "speaker": "Natsuki"
+    },
+    {
+     "start": 398.9,
+     "end": 401.5,
+     "ja": "めっちゃいいじゃんと思って、しかも可愛いし。",
+     "en": "I thought it's so great, plus it's cute.",
+     "speaker": "Natsuki"
+    },
+    {
+     "start": 401.8,
+     "end": 404.2,
+     "ja": "そう、それで欲しくて買ってみた。",
+     "en": "Yeah, that's why I wanted it and bought it.",
+     "speaker": "Natsuki"
+    }
+   ]
+  }
+ ],
+ "videoId": "JCxLJmrTKGw",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

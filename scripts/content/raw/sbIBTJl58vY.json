@@ -1,0 +1,239 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.8,
+   "end": 43.5,
+   "title": "Arriving in Rainy Okinawa",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "friends"
+   ],
+   "grammar": [
+    "〜てすぐ — immediately after doing",
+    "〜ている — ongoing action",
+    "〜てくれる — doing something for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.0,
+     "end": 19.3,
+     "ja": "おはようございます！",
+     "en": "Good morning!",
+     "speaker": "Runa"
+    },
+    {
+     "start": 19.3,
+     "end": 22.8,
+     "ja": "私は今、沖縄にいます！",
+     "en": "I am in Okinawa right now!",
+     "speaker": "Runa"
+    },
+    {
+     "start": 22.8,
+     "end": 24.0,
+     "ja": "ねー！",
+     "en": "Yeah!",
+     "speaker": "Natsuka"
+    },
+    {
+     "start": 24.0,
+     "end": 27.5,
+     "ja": "全然沖縄っぽくない見た目なんですけど、",
+     "en": "It doesn't look like Okinawa at all right now, though.",
+     "speaker": "Runa"
+    },
+    {
+     "start": 27.5,
+     "end": 31.8,
+     "ja": "空港に着いてすぐレンタカーを予約していたので、",
+     "en": "We had reserved a rental car right after arriving at the airport,",
+     "speaker": "Runa"
+    },
+    {
+     "start": 31.8,
+     "end": 35.3,
+     "ja": "レンタカーを借りて大雨の中運転をしているんですけども、",
+     "en": "so we picked it up and are driving in the heavy rain, but...",
+     "speaker": "Runa"
+    },
+    {
+     "start": 35.3,
+     "end": 39.8,
+     "ja": "今回も私の旅のお供、なつかパイセンです！",
+     "en": "once again, my travel companion is Natsuka-paisen!",
+     "speaker": "Runa"
+    },
+    {
+     "start": 39.8,
+     "end": 41.2,
+     "ja": "おっすー！",
+     "en": "Hey!",
+     "speaker": "Natsuka"
+    },
+    {
+     "start": 41.2,
+     "end": 43.3,
+     "ja": "なっちゃんが安定に運転してくれています。",
+     "en": "Nacchan is doing a solid job driving as always.",
+     "speaker": "Runa"
+    }
+   ]
+  },
+  {
+   "start": 806.2,
+   "end": 835.0,
+   "title": "Customizing Shisa Sculptures",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "friends",
+    "comedy"
+   ],
+   "grammar": [
+    "〜から — because / reason",
+    "〜てあげる — to do something for someone",
+    "〜なさい — command form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 806.5,
+     "end": 810.5,
+     "ja": "私、タラコ唇の男好きだから、タラコ唇にする。",
+     "en": "I like guys with full lips, so I'm giving it full lips.",
+     "speaker": "Runa"
+    },
+    {
+     "start": 815.5,
+     "end": 818.0,
+     "ja": "うちも下唇とんがらせてあげようかな。",
+     "en": "Maybe I should make the lower lip stick out too.",
+     "speaker": "Natsuka"
+    },
+    {
+     "start": 818.0,
+     "end": 820.0,
+     "ja": "あ、いいねえ。",
+     "en": "Oh, nice.",
+     "speaker": "Runa"
+    },
+    {
+     "start": 820.0,
+     "end": 823.2,
+     "ja": "セクシー、セクシー。スプリットタンとかにしてさ。",
+     "en": "Sexy, sexy. Make it a split tongue or something.",
+     "speaker": "Runa"
+    },
+    {
+     "start": 823.2,
+     "end": 827.2,
+     "ja": "ね、全然意味分かってくれてないじゃん！なつが今可愛くボケてるのに。",
+     "en": "Hey, you totally missed the joke! Natsu was acting cute and silly just now.",
+     "speaker": "Natsuka"
+    },
+    {
+     "start": 827.2,
+     "end": 828.4,
+     "ja": "あ、何？",
+     "en": "Wait, what?",
+     "speaker": "Runa"
+    },
+    {
+     "start": 828.4,
+     "end": 830.8,
+     "ja": "お兄さん、下唇ぷっくりにしてください。",
+     "en": "Excuse me, mister, could you make the lower lip plump for me?",
+     "speaker": "Natsuka"
+    },
+    {
+     "start": 830.8,
+     "end": 834.6,
+     "ja": "ちょっとあんた、自分の力でやりなさいよ！そんなチート使わないで！",
+     "en": "Hey you, do it yourself! Don't use cheats like that!",
+     "speaker": "Runa"
+    }
+   ]
+  },
+  {
+   "start": 1623.5,
+   "end": 1652.5,
+   "title": "Tasting Fresh Beni-Imo Tart",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜にした — made into / turned into",
+    "〜より — compared to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1623.7,
+     "end": 1625.8,
+     "ja": "ゲットしましたー！",
+     "en": "We got it!",
+     "speaker": "Runa"
+    },
+    {
+     "start": 1629.5,
+     "end": 1632.0,
+     "ja": "違う、なんか！",
+     "en": "It's different, somehow!",
+     "speaker": "Natsuka"
+    },
+    {
+     "start": 1632.0,
+     "end": 1633.7,
+     "ja": "クッキーうま！",
+     "en": "The cookie is delicious!",
+     "speaker": "Natsuka"
+    },
+    {
+     "start": 1633.7,
+     "end": 1635.4,
+     "ja": "いただきます。",
+     "en": "Let's dig in.",
+     "speaker": "Runa"
+    },
+    {
+     "start": 1637.0,
+     "end": 1638.5,
+     "ja": "うまっ！",
+     "en": "So good!",
+     "speaker": "Runa"
+    },
+    {
+     "start": 1639.0,
+     "end": 1643.0,
+     "ja": "紅芋タルトをお菓子じゃなくてケーキにしたって感じ。",
+     "en": "It feels like the sweet potato tart was made into a fresh cake rather than a snack.",
+     "speaker": "Runa"
+    },
+    {
+     "start": 1643.0,
+     "end": 1646.0,
+     "ja": "中のクリームも美味しい。ちゃんとタルト。",
+     "en": "The cream inside is delicious too. It's a proper tart.",
+     "speaker": "Runa"
+    },
+    {
+     "start": 1649.0,
+     "end": 1652.2,
+     "ja": "お菓子の紅芋タルトより断然こっち派！",
+     "en": "I definitely prefer this over the packaged souvenir version!",
+     "speaker": "Runa"
+    }
+   ]
+  }
+ ],
+ "videoId": "sbIBTJl58vY",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,189 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 343.5,
+   "end": 358.5,
+   "title": "Playing Glico on the School Stairs",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜でしょ — right? / let's"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 344.2,
+     "end": 345.5,
+     "ja": "あいこでしょ！",
+     "en": "Rock, paper, scissors!",
+     "speaker": "Students"
+    },
+    {
+     "start": 346.2,
+     "end": 347.5,
+     "ja": "あいこでしょ！",
+     "en": "Rock, paper, scissors!",
+     "speaker": "Students"
+    },
+    {
+     "start": 348.0,
+     "end": 349.2,
+     "ja": "あいこでしょ！",
+     "en": "Rock, paper, scissors!",
+     "speaker": "Students"
+    },
+    {
+     "start": 349.8,
+     "end": 351.2,
+     "ja": "グ・リ・コ！",
+     "en": "G-li-co!",
+     "speaker": "Student"
+    },
+    {
+     "start": 354.3,
+     "end": 355.4,
+     "ja": "あいこでしょ！",
+     "en": "Rock, paper, scissors!",
+     "speaker": "Students"
+    },
+    {
+     "start": 355.6,
+     "end": 356.6,
+     "ja": "あいこでしょ！",
+     "en": "Rock, paper, scissors!",
+     "speaker": "Students"
+    },
+    {
+     "start": 356.8,
+     "end": 358.2,
+     "ja": "パ・イ・ナ・ツ・プ・ル！",
+     "en": "Pineapple!",
+     "speaker": "Student"
+    }
+   ]
+  },
+  {
+   "start": 444.0,
+   "end": 506.0,
+   "title": "Shopping for Snacks at Muji",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "friends"
+   ],
+   "grammar": [
+    "〜そう — looks like",
+    "〜たい — want to do",
+    "〜てしまう — unintended action / completed action"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 444.5,
+     "end": 446.2,
+     "ja": "かわいい！",
+     "en": "So cute!",
+     "speaker": "A"
+    },
+    {
+     "start": 448.0,
+     "end": 449.2,
+     "ja": "美味しそう。",
+     "en": "That looks good.",
+     "speaker": "A"
+    },
+    {
+     "start": 449.3,
+     "end": 450.2,
+     "ja": "ね。",
+     "en": "Yeah.",
+     "speaker": "B"
+    },
+    {
+     "start": 451.3,
+     "end": 453.2,
+     "ja": "チョコタルト可愛い。",
+     "en": "The chocolate tart is so cute.",
+     "speaker": "A"
+    },
+    {
+     "start": 497.0,
+     "end": 498.8,
+     "ja": "先に買っといた方がいい？",
+     "en": "Should we buy it in advance?",
+     "speaker": "A"
+    },
+    {
+     "start": 499.0,
+     "end": 501.0,
+     "ja": "私、チャイ飲みたい。",
+     "en": "I want to drink chai.",
+     "speaker": "B"
+    },
+    {
+     "start": 502.2,
+     "end": 504.0,
+     "ja": "イエーイ！",
+     "en": "Yay!",
+     "speaker": "A"
+    },
+    {
+     "start": 504.3,
+     "end": 505.7,
+     "ja": "買ってしまった。",
+     "en": "We ended up buying it.",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 633.5,
+   "end": 641.0,
+   "title": "Saying Goodbye After School",
+   "level": "N5",
+   "topics": [
+    "friends",
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "また〜 — see you / again"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 633.8,
+     "end": 634.8,
+     "ja": "また明日！",
+     "en": "See you tomorrow!",
+     "speaker": "A"
+    },
+    {
+     "start": 634.9,
+     "end": 636.8,
+     "ja": "一日ありがとうございました。",
+     "en": "Thank you for today.",
+     "speaker": "B"
+    },
+    {
+     "start": 639.2,
+     "end": 640.5,
+     "ja": "じゃあね！",
+     "en": "Bye!",
+     "speaker": "B"
+    }
+   ]
+  }
+ ],
+ "videoId": "cP3HbuZSG2s",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

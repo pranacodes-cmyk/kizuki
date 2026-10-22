@@ -1,0 +1,162 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.3,
+   "end": 30.3,
+   "title": "Four Phases of the Edo Period",
+   "level": "N3",
+   "topics": [
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜ていく — ongoing/future direction",
+    "〜やすい — easy to do",
+    "〜へと — toward"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.3,
+     "end": 9.6,
+     "ja": "早速、江戸時代の覚え方についてお話ししていきますが、",
+     "en": "Right away, I'll explain how to memorize the Edo period,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 9.6,
+     "end": 13.5,
+     "ja": "江戸時代は起承転結の４つに分けて考えると覚えやすいです。",
+     "en": "it's easy to remember if you think of it divided into four phases: introduction, development, turn, and conclusion.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 14.0,
+     "end": 20.5,
+     "ja": "江戸時代の最初のほうは、安土桃山時代の流れを受け継いだ力強い政治である武断政治から始まります。",
+     "en": "The early Edo period began with military rule, a forceful style of governance carried over from the Azuchi-Momoyama period.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 21.0,
+     "end": 26.5,
+     "ja": "しかし、そのやり方だと反乱が起こったので、江戸幕府は統治の方針を変更し、",
+     "en": "However, because that method led to rebellions, the Edo shogunate changed its governing policy,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 26.5,
+     "end": 30.3,
+     "ja": "平和な政治である文治政治へと切り替えました。",
+     "en": "and switched to civilian rule, which was a peaceful form of government.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 63.4,
+   "end": 84.2,
+   "title": "The First Shogun of Edo",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜たら — conditional (when/if)",
+    "〜ほど — to the extent that",
+    "〜ように — just as/like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 63.4,
+     "end": 69.0,
+     "ja": "「江戸幕府の初代将軍は誰でしょう？」と聞かれたら、多くの人が答えられると思います。",
+     "en": "If asked, 'Who was the first shogun of the Edo shogunate?', I think most people could answer.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 69.4,
+     "end": 71.3,
+     "ja": "徳川家康です。",
+     "en": "It's Tokugawa Ieyasu.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 71.8,
+     "end": 76.4,
+     "ja": "織田信長、豊臣秀吉と並ぶほど有名な徳川家康ですが、",
+     "en": "Although Tokugawa Ieyasu is famous enough to stand alongside Oda Nobunaga and Toyotomi Hideyoshi,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 76.6,
+     "end": 80.2,
+     "ja": "天下人となった秀吉が信長の子孫を警戒したように、",
+     "en": "just as Hideyoshi, upon taking power, was wary of Nobunaga's descendants,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 80.4,
+     "end": 84.0,
+     "ja": "天下人となった家康も秀吉の子孫を警戒しています。",
+     "en": "Ieyasu, upon becoming ruler, was also wary of Hideyoshi's descendants.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 136.5,
+   "end": 162.0,
+   "title": "Strict Shogunate Rule and the Ronin Problem",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜と言うと — when it comes to / to explain",
+    "〜させる — causative form",
+    "〜てしまう — end up doing (unintended outcome)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 136.7,
+     "end": 144.5,
+     "ja": "どういうことかと言うと、江戸幕府は大名に土地を割り振って、彼らにその土地を治めさせるという仕組みで政治を行っていたのですが、",
+     "en": "To explain, the Edo shogunate governed through a system of allocating land to daimyo and having them rule over it, but...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 145.5,
+     "end": 150.5,
+     "ja": "もしも決まりを守れない大名がいたら、すぐに取りつぶしにしていたのです。",
+     "en": "if any daimyo failed to follow the rules, they were immediately stripped of their domains.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 151.0,
+     "end": 153.2,
+     "ja": "これは大名だけの問題ではありません。",
+     "en": "This was not just an issue for the daimyo.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 153.5,
+     "end": 161.5,
+     "ja": "その家に仕えていた武士たちも働く場所がなくなってしまい、働く場所がない武士、つまり浪人が増えてきました。",
+     "en": "The samurai serving those families lost their employment as well, leading to an increase in masterless samurai, or ronin.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "JfrJXjHx90c",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

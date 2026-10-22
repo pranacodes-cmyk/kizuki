@@ -1,0 +1,239 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 275.2,
+   "end": 293.8,
+   "title": "A Birthday Toast and Beer Tasting",
+   "level": "N4",
+   "topics": [
+    "food",
+    "romance",
+    "travel"
+   ],
+   "grammar": [
+    "〜ていただく — humble receiving / doing",
+    "〜だけで — just by / with only"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 275.5,
+     "end": 277.1,
+     "ja": "お疲れ様でーす。",
+     "en": "Cheers!",
+     "speaker": "Saya"
+    },
+    {
+     "start": 277.2,
+     "end": 278.3,
+     "ja": "あ、違うわ。",
+     "en": "Oh, wait, no.",
+     "speaker": "Saya"
+    },
+    {
+     "start": 278.4,
+     "end": 280.8,
+     "ja": "お誕生日おめでとうございまーす！",
+     "en": "Happy birthday!",
+     "speaker": "Saya"
+    },
+    {
+     "start": 282.0,
+     "end": 284.6,
+     "ja": "彼のビール、ちょっといただきます。",
+     "en": "Let me take a sip of his beer.",
+     "speaker": "Saya"
+    },
+    {
+     "start": 285.3,
+     "end": 288.3,
+     "ja": "うわぁ、えっ、ごめん無理だ。",
+     "en": "Whoa, ew... sorry, I can't.",
+     "speaker": "Saya"
+    },
+    {
+     "start": 289.0,
+     "end": 291.2,
+     "ja": "匂いだけで無理でした。",
+     "en": "Even just the smell was too much.",
+     "speaker": "Saya"
+    },
+    {
+     "start": 291.6,
+     "end": 293.4,
+     "ja": "美味しい？",
+     "en": "Is it good?",
+     "speaker": "Saya"
+    }
+   ]
+  },
+  {
+   "start": 372.0,
+   "end": 393.5,
+   "title": "Celebrating a 32nd Birthday",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜になる — to become",
+    "〜差 — difference / gap"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 372.2,
+     "end": 373.8,
+     "ja": "おめでとうございまーす！",
+     "en": "Happy birthday!",
+     "speaker": "Saya"
+    },
+    {
+     "start": 373.9,
+     "end": 375.3,
+     "ja": "だけどロウソクがない。",
+     "en": "Though there are no candles.",
+     "speaker": "Boyfriend"
+    },
+    {
+     "start": 375.4,
+     "end": 377.1,
+     "ja": "何歳になりましたか？",
+     "en": "How old did you turn?",
+     "speaker": "Saya"
+    },
+    {
+     "start": 377.2,
+     "end": 378.2,
+     "ja": "言わない。",
+     "en": "I won't say.",
+     "speaker": "Boyfriend"
+    },
+    {
+     "start": 378.4,
+     "end": 381.0,
+     "ja": "32歳に彼なりました。",
+     "en": "He turned 32.",
+     "speaker": "Saya"
+    },
+    {
+     "start": 382.0,
+     "end": 384.5,
+     "ja": "私が9月誕生日なので、",
+     "en": "Since my birthday is in September,",
+     "speaker": "Saya"
+    },
+    {
+     "start": 384.6,
+     "end": 387.4,
+     "ja": "1ヶ月だけ7歳差です。",
+     "en": "for just one month, we have a 7-year age gap.",
+     "speaker": "Saya"
+    },
+    {
+     "start": 387.7,
+     "end": 389.8,
+     "ja": "7歳差カップルです。",
+     "en": "We're a 7-year gap couple.",
+     "speaker": "Saya"
+    },
+    {
+     "start": 390.2,
+     "end": 392.0,
+     "ja": "じゃあケーキ食べたいと思います。",
+     "en": "Now, let's eat the cakes.",
+     "speaker": "Saya"
+    },
+    {
+     "start": 392.1,
+     "end": 393.3,
+     "ja": "ただの数字だから。",
+     "en": "It's just a number.",
+     "speaker": "Boyfriend"
+    }
+   ]
+  },
+  {
+   "start": 706.8,
+   "end": 722.5,
+   "title": "Waiting in Line at Kyoto Station",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていた — was doing (past continuous)",
+    "〜といいね — I hope / it'd be nice if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 707.1,
+     "end": 708.4,
+     "ja": "おはようございまーす。",
+     "en": "Good morning.",
+     "speaker": "Saya"
+    },
+    {
+     "start": 708.5,
+     "end": 709.9,
+     "ja": "昼は何食べれるかな？",
+     "en": "I wonder what we can eat for lunch?",
+     "speaker": "Boyfriend"
+    },
+    {
+     "start": 710.0,
+     "end": 711.2,
+     "ja": "うん、3日目です。",
+     "en": "Yup, it's day three.",
+     "speaker": "Saya"
+    },
+    {
+     "start": 711.4,
+     "end": 713.3,
+     "ja": "もうホテルチェックアウトして、",
+     "en": "We already checked out of the hotel,",
+     "speaker": "Saya"
+    },
+    {
+     "start": 713.5,
+     "end": 715.2,
+     "ja": "今京都駅にいます。",
+     "en": "and now we're at Kyoto Station.",
+     "speaker": "Saya"
+    },
+    {
+     "start": 715.6,
+     "end": 717.4,
+     "ja": "新幹線まで2時間あるので、",
+     "en": "We have two hours until the bullet train,",
+     "speaker": "Saya"
+    },
+    {
+     "start": 717.6,
+     "end": 720.6,
+     "ja": "彼が食べたいと言っていたお寿司屋さん並んでます。",
+     "en": "so we're waiting in line for the sushi place he wanted to try.",
+     "speaker": "Saya"
+    },
+    {
+     "start": 721.0,
+     "end": 722.1,
+     "ja": "美味しいといいね。",
+     "en": "Hope it's good.",
+     "speaker": "Saya"
+    }
+   ]
+  }
+ ],
+ "videoId": "JzGE5PdKBsk",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

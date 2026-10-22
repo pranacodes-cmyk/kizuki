@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 136.2,
+   "end": 159.5,
+   "title": "Learning a Language and Personality",
+   "level": "N2",
+   "topics": [
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜ような — like / as if",
+    "〜やすい — prone to / easy to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 136.5,
+     "end": 138.8,
+     "ja": "外国語を学ぶことは、",
+     "en": "Learning a foreign language",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 138.8,
+     "end": 142.3,
+     "ja": "新しい人格をまとうような体験であり、",
+     "en": "is like adopting a whole new personality,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 142.6,
+     "end": 145.2,
+     "ja": "母語のように自由に話せず、",
+     "en": "and unable to speak freely like in one's native language,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 145.4,
+     "end": 148.0,
+     "ja": "恥ずかしさを感じることもある。",
+     "en": "one may sometimes feel embarrassed.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 148.3,
+     "end": 151.6,
+     "ja": "そのため、自分を抑える人よりも、",
+     "en": "Therefore, rather than those who hold themselves back,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 151.8,
+     "end": 155.8,
+     "ja": "新しいキャラクターを演じられる人が",
+     "en": "people who can embrace acting out a new persona",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 155.8,
+     "end": 159.2,
+     "ja": "外国語学習に成功しやすいという仮説がある。",
+     "en": "are hypothesized to succeed more easily in language learning.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 200.0,
+   "end": 218.4,
+   "title": "Alcohol and Foreign Accent Experiment",
+   "level": "N2",
+   "topics": [
+    "school",
+    "food"
+   ],
+   "grammar": [
+    "〜ために — in order to",
+    "〜ことがある — there are cases when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 200.3,
+     "end": 203.9,
+     "ja": "これを検証するために行われた実験では、",
+     "en": "In an experiment conducted to test this hypothesis,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 204.0,
+     "end": 207.5,
+     "ja": "少量のアルコールを飲んだ学習者の発音が",
+     "en": "learners who drank a small amount of alcohol",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 207.6,
+     "end": 209.6,
+     "ja": "良くなる場合があった。",
+     "en": "sometimes had improved pronunciation.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 210.0,
+     "end": 214.2,
+     "ja": "例えば、ドイツ語母語話者がウォッカを飲むと、",
+     "en": "For example, when native German speakers drank vodka,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 214.5,
+     "end": 218.0,
+     "ja": "オランダ語の発音が自然に聞こえた。",
+     "en": "their Dutch pronunciation sounded more natural.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 219.0,
+   "end": 240.2,
+   "title": "Native Tongue Slurring and Overdrinking",
+   "level": "N2",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜なら — if (conditional)",
+    "〜とされる — is said / considered to be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 219.4,
+     "end": 223.0,
+     "ja": "反対に母語では、アルコールが多いと、",
+     "en": "Conversely, in their native language, having too much alcohol",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 223.3,
+     "end": 228.0,
+     "ja": "ろれつが回らず聞き取りにくくなることも示された。",
+     "en": "led to slurring and made speech harder to understand.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 228.5,
+     "end": 232.0,
+     "ja": "外国語では適量なら効果があるが、",
+     "en": "While a moderate amount helps with a foreign language,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 232.3,
+     "end": 235.3,
+     "ja": "飲み過ぎは逆効果であり、",
+     "en": "drinking too much is counterproductive,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 235.7,
+     "end": 239.7,
+     "ja": "今後さらなる研究が必要とされる。",
+     "en": "and further research is deemed necessary in the future.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "Gl4cc5ClBCE",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

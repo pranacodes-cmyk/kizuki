@@ -1,0 +1,118 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.8,
+   "end": 11.2,
+   "title": "Welcome to Today's Lesson",
+   "level": "N4",
+   "topics": [
+    "school",
+    "travel"
+   ],
+   "grammar": [
+    "〜ましょう — let's do",
+    "連体修飾 — relative clause modifying a noun"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2.2,
+     "end": 4.8,
+     "ja": "皆さんこんにちは、日本語教師の未来です。",
+     "en": "Hello everyone, I'm Mirai, your Japanese teacher.",
+     "speaker": "Mirai"
+    },
+    {
+     "start": 5.1,
+     "end": 7.8,
+     "ja": "今日は一緒に、旅行で役立つ",
+     "en": "Today, let's practice together",
+     "speaker": "Mirai"
+    },
+    {
+     "start": 7.9,
+     "end": 10.8,
+     "ja": "交通機関で使う日本語を練習しましょう。",
+     "en": "Japanese useful for transportation when traveling.",
+     "speaker": "Mirai"
+    }
+   ]
+  },
+  {
+   "start": 544.5,
+   "end": 553.0,
+   "title": "Wrapping Up the Transportation Lesson",
+   "level": "N5",
+   "topics": [
+    "school",
+    "travel"
+   ],
+   "grammar": [
+    "〜まで — up to / until",
+    "〜ましたか — polite past question"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 544.8,
+     "end": 547.8,
+     "ja": "今日のレッスンはここまでです。",
+     "en": "That is all for today's lesson.",
+     "speaker": "Mirai"
+    },
+    {
+     "start": 548.0,
+     "end": 552.2,
+     "ja": "交通機関で使う日本語、分かりましたか？",
+     "en": "Did you understand the Japanese used for transportation?",
+     "speaker": "Mirai"
+    }
+   ]
+  },
+  {
+   "start": 556.5,
+   "end": 568.0,
+   "title": "See You in the Next Lesson",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — if / when",
+    "お〜しましょう — polite invitation / let's",
+    "〜をお願いします — please do / asking politely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 556.8,
+     "end": 560.0,
+     "ja": "このレッスンが役に立ったと思ったら、",
+     "en": "If you found this lesson helpful,",
+     "speaker": "Mirai"
+    },
+    {
+     "start": 560.2,
+     "end": 563.5,
+     "ja": "いいねとチャンネル登録をお願いします。",
+     "en": "please like and subscribe to the channel.",
+     "speaker": "Mirai"
+    },
+    {
+     "start": 564.0,
+     "end": 567.5,
+     "ja": "ではまた、次のレッスンでお会いしましょう。",
+     "en": "Well then, see you in the next lesson.",
+     "speaker": "Mirai"
+    }
+   ]
+  }
+ ],
+ "videoId": "6w_ebGHzfcc",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

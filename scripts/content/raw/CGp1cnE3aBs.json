@@ -1,0 +1,162 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 15.5,
+   "title": "Arriving at Muroran Institute of Tech",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜ということで — given that / as",
+    "〜てくる — arrive / come to do",
+    "〜たいと思う — think of wanting to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 3.2,
+     "ja": "はい、皆さんこんにちは。パーカーです。",
+     "en": "Hi everyone, hello. I'm Parker.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 3.3,
+     "end": 6.8,
+     "ja": "えっと、今は朝の10時3分ですね。映ってるかな？",
+     "en": "Um, right now it's 10:03 AM. Is it showing on camera?",
+     "speaker": "Parker"
+    },
+    {
+     "start": 7.1,
+     "end": 11.8,
+     "ja": "今日も大学があるということで、室蘭工業大学にやってきました。",
+     "en": "Since I have classes today too, I've come to Muroran Institute of Technology.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 12.0,
+     "end": 15.2,
+     "ja": "今からね、ちょっと動画撮っていきたいなと思います。",
+     "en": "I think I'll film a video now.",
+     "speaker": "Parker"
+    }
+   ]
+  },
+  {
+   "start": 540.0,
+   "end": 605.5,
+   "title": "Introducing the Automatic Cooker",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜わけではない — does not necessarily mean",
+    "〜てくれる — do for someone",
+    "〜ば — conditional (if / when)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 540.1,
+     "end": 543.7,
+     "ja": "みんな大好きホットクックでございます。",
+     "en": "Here we have everyone's favorite, the Hot Cook.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 544.2,
+     "end": 549.0,
+     "ja": "見た目的には炊飯器みたいな見た目してるんですけど、",
+     "en": "In terms of appearance, it looks like a rice cooker,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 549.5,
+     "end": 554.8,
+     "ja": "お米を炊くわけではなくて、色んな料理を自動でやってくれるんですよね。",
+     "en": "but it doesn't cook rice; it automatically makes all kinds of dishes.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 555.3,
+     "end": 558.8,
+     "ja": "カレーとか、シチューとかあるのか分からないけど、",
+     "en": "Like curry, or stew—though I don't know if it has that—",
+     "speaker": "Parker"
+    },
+    {
+     "start": 559.0,
+     "end": 565.1,
+     "ja": "具材をここに入れてスイッチを押せば、料理が自動でできるっていう。",
+     "en": "you just put the ingredients in here, press the switch, and it cooks automatically.",
+     "speaker": "Parker"
+    }
+   ]
+  },
+  {
+   "start": 1141.0,
+   "end": 1201.8,
+   "title": "Tasting the Homemade Nikujaga",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜かもしれない — might / perhaps",
+    "〜れる/られる — passive voice",
+    "〜んだと思う — I think that (explanatory)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1141.2,
+     "end": 1143.8,
+     "ja": "ちゃんとできてるわ、これ。",
+     "en": "This actually turned out really well.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 1144.5,
+     "end": 1146.5,
+     "ja": "普通にいいですね。",
+     "en": "It's genuinely good.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 1147.3,
+     "end": 1151.3,
+     "ja": "なんだったら自分が作った肉じゃがより美味しいかもしれない。",
+     "en": "If anything, it might be tastier than nikujaga I make myself.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 1151.8,
+     "end": 1156.5,
+     "ja": "一番美味しい肉じゃがの作り方をプログラミングされてるんだと思うんですけど、",
+     "en": "I think it's programmed to cook nikujaga the most delicious way possible,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 1156.8,
+     "end": 1201.3,
+     "ja": "もう本当に普通に使えますね、これ。",
+     "en": "this is really, truly useful.",
+     "speaker": "Parker"
+    }
+   ]
+  }
+ ],
+ "videoId": "CGp1cnE3aBs",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

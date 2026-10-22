@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 759.5,
+   "end": 814.5,
+   "title": "Checking the Taste of the Dishes",
+   "level": "N3",
+   "topics": [
+    "food",
+    "work"
+   ],
+   "grammar": [
+    "〜かどうか — whether or not",
+    "〜かもしれない — might / perhaps"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 759.8,
+     "end": 802.4,
+     "ja": "同じ味かどうかというのを確認してます。",
+     "en": "I check whether the taste is consistent.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 802.4,
+     "end": 804.0,
+     "ja": "あと温度とか、",
+     "en": "Also the temperature,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 804.0,
+     "end": 806.5,
+     "ja": "ちゃんとお客さんに出せる状態かっていうのを、",
+     "en": "and whether it's in a state ready to serve to customers,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 806.5,
+     "end": 808.5,
+     "ja": "いつも全部食べて味見してます。",
+     "en": "I always taste everything by eating it.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 809.7,
+     "end": 811.3,
+     "ja": "ここにあるのだったら、",
+     "en": "Out of what's here,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 811.3,
+     "end": 814.0,
+     "ja": "この燻製のポテサラは一番好きかもしれない。",
+     "en": "I might like this smoked potato salad the best.",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 1004.8,
+   "end": 1019.8,
+   "title": "From Nursery Nutritionist to Izakaya",
+   "level": "N3",
+   "topics": [
+    "work",
+    "food"
+   ],
+   "grammar": [
+    "〜ないと — must / unless",
+    "〜てもらう — to have someone do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1005.1,
+     "end": 1007.8,
+     "ja": "この前、私、保育園の栄養士でした。",
+     "en": "Before this, I was a nutritionist at a nursery school.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 1009.5,
+     "end": 1012.7,
+     "ja": "子供の時は、もう薄味、薄味だったけど、",
+     "en": "For children, it was very mildly seasoned, but",
+     "speaker": "Staff"
+    },
+    {
+     "start": 1012.8,
+     "end": 1015.7,
+     "ja": "やっぱり大人で、今度ここだとお酒も飲むから、",
+     "en": "for adults, especially here where people drink alcohol,",
+     "speaker": "Staff"
+    },
+    {
+     "start": 1015.7,
+     "end": 1019.4,
+     "ja": "お酒に合う料理を作らないと、美味しいなと思ってもらえないので。",
+     "en": "if we don't make food that pairs with alcohol, they won't think it's tasty.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 1344.8,
+   "end": 1354.4,
+   "title": "Customer's Favorite Dish",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "一番〜 — the most / best",
+    "〜んで — because / since (colloquial)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1345.3,
+     "end": 1347.3,
+     "ja": "そうですね。多い時、月２回ぐらい。",
+     "en": "Yeah. When it's often, about twice a month.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 1348.8,
+     "end": 1350.4,
+     "ja": "一番好きな料理は、土鍋ご飯。",
+     "en": "My favorite dish is the clay pot rice.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 1350.4,
+     "end": 1352.3,
+     "ja": "毎回種類が違うんで、",
+     "en": "The variety is different every time,",
+     "speaker": "Customer"
+    },
+    {
+     "start": 1352.3,
+     "end": 1354.0,
+     "ja": "すごい美味しいです。",
+     "en": "so it's really delicious.",
+     "speaker": "Customer"
+    }
+   ]
+  }
+ ],
+ "videoId": "vYw9ibksThE",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

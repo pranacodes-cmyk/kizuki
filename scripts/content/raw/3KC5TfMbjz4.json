@@ -1,0 +1,106 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 4.2,
+   "end": 18.3,
+   "title": "Nice to Meet You, Karatsu",
+   "level": "N5",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜から来ました — came from",
+    "〜ね — seeking agreement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.5,
+     "end": 6.6,
+     "ja": "私の名前はユンスルです。",
+     "en": "My name is Yun-seul.",
+     "speaker": "Yun-seul"
+    },
+    {
+     "start": 6.7,
+     "end": 8.5,
+     "ja": "韓国の釜山から来ました。",
+     "en": "I came from Busan, South Korea.",
+     "speaker": "Yun-seul"
+    },
+    {
+     "start": 9.8,
+     "end": 10.8,
+     "ja": "唐津。",
+     "en": "Karatsu.",
+     "speaker": "Yun-seul"
+    },
+    {
+     "start": 11.2,
+     "end": 12.7,
+     "ja": "いい街だね。",
+     "en": "It's a nice town.",
+     "speaker": "Yun-seul"
+    },
+    {
+     "start": 13.8,
+     "end": 15.3,
+     "ja": "本当に知らない？",
+     "en": "Do you really not know?",
+     "speaker": "Yun-seul"
+    },
+    {
+     "start": 16.3,
+     "end": 18.0,
+     "ja": "でも昔のことやね。",
+     "en": "Well, that was a long time ago.",
+     "speaker": "Boy"
+    }
+   ]
+  },
+  {
+   "start": 48.5,
+   "end": 58.5,
+   "title": "Crossing the Sea to See You",
+   "level": "N5",
+   "topics": [
+    "romance"
+   ],
+   "grammar": [
+    "〜て — connecting actions",
+    "〜たい — want to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 48.6,
+     "end": 52.5,
+     "ja": "あの海を越えて、君に会いにいきたい。",
+     "en": "I want to cross that sea and go see you.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 53.0,
+     "end": 55.6,
+     "ja": "俺、ユンスルのこと…",
+     "en": "I... about you, Yun-seul...",
+     "speaker": "Boy"
+    },
+    {
+     "start": 56.5,
+     "end": 58.2,
+     "ja": "３ミリの恋。",
+     "en": "3mm Love.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "3KC5TfMbjz4",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

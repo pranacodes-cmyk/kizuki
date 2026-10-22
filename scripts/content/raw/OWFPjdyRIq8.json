@@ -1,0 +1,178 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 13.2,
+   "title": "A Destined Encounter",
+   "level": "N3",
+   "topics": [
+    "romance"
+   ],
+   "grammar": [
+    "たとえ〜とも — even if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.0,
+     "end": 4.2,
+     "ja": "人はたった一人との出会いで人生が変わる。",
+     "en": "Meeting just one person can change your life.",
+     "speaker": "Rei"
+    },
+    {
+     "start": 5.1,
+     "end": 7.0,
+     "ja": "たとえ100人と会おうとも、",
+     "en": "Even if you meet a hundred people,",
+     "speaker": "Rei"
+    },
+    {
+     "start": 7.1,
+     "end": 9.6,
+     "ja": "1000人と会おうとも敵わない。",
+     "en": "or even a thousand people, none can compare.",
+     "speaker": "Rei"
+    },
+    {
+     "start": 10.8,
+     "end": 13.0,
+     "ja": "まさにそれは運命の相手。",
+     "en": "That truly is your destined partner.",
+     "speaker": "Rei"
+    }
+   ]
+  },
+  {
+   "start": 30.2,
+   "end": 42.5,
+   "title": "I Want to Look Cool for Her",
+   "level": "N4",
+   "topics": [
+    "school",
+    "romance"
+   ],
+   "grammar": [
+    "〜ないで — please don't",
+    "〜とけ — do in advance / leave it be"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 30.6,
+     "end": 32.4,
+     "ja": "私、こういうの嫌だから。",
+     "en": "I really hate this sort of thing.",
+     "speaker": "Rin"
+    },
+    {
+     "start": 32.5,
+     "end": 34.6,
+     "ja": "変な嘘つくやつ、ホント無理だから。",
+     "en": "People who tell weird lies are just impossible for me.",
+     "speaker": "Rin"
+    },
+    {
+     "start": 35.8,
+     "end": 37.0,
+     "ja": "もう付きまとわないで。",
+     "en": "Stop following me around.",
+     "speaker": "Rin"
+    },
+    {
+     "start": 37.2,
+     "end": 38.9,
+     "ja": "何したらかっこいいと思う？",
+     "en": "What do you think would make me look cool?",
+     "speaker": "Rei"
+    },
+    {
+     "start": 39.0,
+     "end": 40.5,
+     "ja": "凛にかっこいい所見せたいんだ。",
+     "en": "I want to show Rin my cool side.",
+     "speaker": "Rei"
+    },
+    {
+     "start": 40.8,
+     "end": 42.4,
+     "ja": "やめとけ、失敗するから。",
+     "en": "Don't bother, you'll just mess it up.",
+     "speaker": "Boy"
+    }
+   ]
+  },
+  {
+   "start": 140.0,
+   "end": 155.8,
+   "title": "I Really Do Like You",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "〜のことなら — when it comes to...",
+    "〜てる — ongoing state"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 140.3,
+     "end": 142.8,
+     "ja": "僕は凛のことなら全力でムキになりたい！",
+     "en": "When it comes to Rin, I'll go all in with everything I've got!",
+     "speaker": "Rei"
+    },
+    {
+     "start": 143.0,
+     "end": 144.2,
+     "ja": "バカ！何やってんの！",
+     "en": "Idiot! What are you doing?!",
+     "speaker": "Rin"
+    },
+    {
+     "start": 144.6,
+     "end": 145.9,
+     "ja": "泣いてるの？",
+     "en": "Are you crying?",
+     "speaker": "Rei"
+    },
+    {
+     "start": 146.7,
+     "end": 149.6,
+     "ja": "僕、本当に凛が好きなんだ。",
+     "en": "I really do like you, Rin.",
+     "speaker": "Rei"
+    },
+    {
+     "start": 151.4,
+     "end": 152.7,
+     "ja": "めちゃくちゃなやつ。",
+     "en": "What a reckless guy.",
+     "speaker": "Girl 1"
+    },
+    {
+     "start": 152.8,
+     "end": 154.2,
+     "ja": "どこまでも全力だな。",
+     "en": "He really gives it his all no matter what.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 154.3,
+     "end": 155.6,
+     "ja": "ホント、よくやるわ。",
+     "en": "Seriously, you gotta hand it to him.",
+     "speaker": "Girl 2"
+    }
+   ]
+  }
+ ],
+ "videoId": "OWFPjdyRIq8",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

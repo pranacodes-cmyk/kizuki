@@ -1,0 +1,126 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 48.7,
+   "end": 64.9,
+   "title": "Traditional Japanese Breakfast",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜より — comparison",
+    "〜が基本 — standard / fundamental"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 49.3,
+     "end": 52.6,
+     "ja": "朝６時ごろ、お母さんは",
+     "en": "Around 6 a.m., mothers",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 52.6,
+     "end": 57.6,
+     "ja": "家族よりも先に起きて料理をします。",
+     "en": "wake up before their families and cook.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 58.7,
+     "end": 64.9,
+     "ja": "日本の朝食は、ご飯と味噌汁が基本です。",
+     "en": "The basics of a Japanese breakfast are rice and miso soup.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 198.8,
+   "end": 224.7,
+   "title": "Making Bento for the Family",
+   "level": "N4",
+   "topics": [
+    "food",
+    "school",
+    "family"
+   ],
+   "grammar": [
+    "〜ことが多い — often do",
+    "〜が、〜 — but / however"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 199.4,
+     "end": 205.5,
+     "ja": "昼ご飯は、学校や会社で食べることが多いです。",
+     "en": "Lunch is often eaten at school or at work.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 206.5,
+     "end": 210.7,
+     "ja": "子供たちは、弁当を持って行きます。",
+     "en": "Children bring bento boxes with them.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 211.7,
+     "end": 218.4,
+     "ja": "お母さんは、朝の時間に家族の弁当を作ります。",
+     "en": "Mothers make bento for the family in the morning.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 219.0,
+     "end": 224.7,
+     "ja": "弁当作りは大変ですが、楽しみでもあります。",
+     "en": "Making bento is hard work, but it's also enjoyable.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 848.7,
+   "end": 863.0,
+   "title": "Weekend Breakfast Staples",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜ことが多い — often do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 849.3,
+     "end": 856.2,
+     "ja": "休日の朝ご飯の定番は、ピザやパンケーキです。",
+     "en": "A weekend breakfast staple is pizza or pancakes.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 857.0,
+     "end": 863.0,
+     "ja": "休日の午前中は、買い物に行くことが多いです。",
+     "en": "On weekend mornings, people often go shopping.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "R-7zToK9j0U",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

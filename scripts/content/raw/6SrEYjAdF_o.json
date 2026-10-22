@@ -1,0 +1,100 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.8,
+   "end": 24.5,
+   "title": "It Depends on Each Person's Actions",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜には — in order to",
+    "〜にかかっている — depends on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.0,
+     "end": 7.5,
+     "ja": "今日は真面目な話がある。",
+     "en": "Today, I have something serious to talk about.",
+     "speaker": "Egashira 2:50"
+    },
+    {
+     "start": 8.5,
+     "end": 14.2,
+     "ja": "毎日ニュースでやってるけど、新型コロナウイルスの感染が拡大している。",
+     "en": "It's on the news every day, but novel coronavirus infections are spreading.",
+     "speaker": "Egashira 2:50"
+    },
+    {
+     "start": 15.0,
+     "end": 18.4,
+     "ja": "あまり不安を煽るのは良くないけど、",
+     "en": "It's not good to stir up too much anxiety, but...",
+     "speaker": "Egashira 2:50"
+    },
+    {
+     "start": 18.8,
+     "end": 24.0,
+     "ja": "感染拡大を止めるには、お前ら1人1人の行動にかかってるんだ。",
+     "en": "stopping the spread depends on the actions of each and every one of you.",
+     "speaker": "Egashira 2:50"
+    }
+   ]
+  },
+  {
+   "start": 32.5,
+   "end": 48.5,
+   "title": "Let's Overcome This Crisis Together",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜だって — even / also",
+    "〜よう — let's (volitional)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 32.8,
+     "end": 35.8,
+     "ja": "俺だって遊びに行きたいぜ！",
+     "en": "I want to go out and have fun too!",
+     "speaker": "Egashira 2:50"
+    },
+    {
+     "start": 36.8,
+     "end": 38.9,
+     "ja": "でも今は我慢だ！",
+     "en": "But right now we have to endure it!",
+     "speaker": "Egashira 2:50"
+    },
+    {
+     "start": 39.0,
+     "end": 42.0,
+     "ja": "みんなでこの危機を乗り越えようぜ！",
+     "en": "Let's overcome this crisis together!",
+     "speaker": "Egashira 2:50"
+    },
+    {
+     "start": 45.3,
+     "end": 48.3,
+     "ja": "ステイホーム！おうちで過ごそう！",
+     "en": "Stay home! Let's spend time at home!",
+     "speaker": "Egashira 2:50"
+    }
+   ]
+  }
+ ],
+ "videoId": "6SrEYjAdF_o",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,157 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 66.0,
+   "end": 85.5,
+   "title": "Talking to My Best Friend",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てほしい — wanting someone to do something",
+    "〜しか…ない — only",
+    "〜て言う — to say that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 66.0,
+     "end": 70.3,
+     "ja": "僕が「〇〇行かへん？」って言うんですよ。",
+     "en": "I'd say, \"Want to go to [somewhere]?\"",
+     "speaker": "Masayuki"
+    },
+    {
+     "start": 70.5,
+     "end": 77.5,
+     "ja": "ほんな親友が「お、ええなぁ！ほんなら何々して、道はどこどこ通って、お菓子はどこどこ買って、何々して何々して」",
+     "en": "Then my best friend would say, \"Oh, sounds good! Then we'll do this, take this route, buy snacks at that place, do this and that...\"",
+     "speaker": "Masayuki"
+    },
+    {
+     "start": 77.6,
+     "end": 80.6,
+     "ja": "「ええやん！」って言うんですよ、僕。",
+     "en": "And I'd say, \"Sounds great!\"",
+     "speaker": "Masayuki"
+    },
+    {
+     "start": 80.7,
+     "end": 85.4,
+     "ja": "で、皆さんここに気づいて欲しいんですけど、僕、最初と最後の二言しか言ってないんですね。",
+     "en": "Now, I'd like you all to notice here: I only said two things, the very first and last words.",
+     "speaker": "Masayuki"
+    }
+   ]
+  },
+  {
+   "start": 226.5,
+   "end": 243.5,
+   "title": "Asking to Cross Japan",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "travel",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ない？ — invitation/suggestion",
+    "〜みたい — looks like / seems like",
+    "〜たら — conditional (if/when)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 226.8,
+     "end": 229.8,
+     "ja": "ほんな親友が「お、おう…」みたいな感じで、",
+     "en": "Then my best friend was like, \"Uh, yeah...\"",
+     "speaker": "Masayuki"
+    },
+    {
+     "start": 230.0,
+     "end": 234.3,
+     "ja": "ちょっと日本縦断と大きかったのか、ちょっと反応が鈍かったんですね。",
+     "en": "Maybe crossing Japan was too big an idea, because his reaction was a bit sluggish.",
+     "speaker": "Masayuki"
+    },
+    {
+     "start": 234.5,
+     "end": 239.5,
+     "ja": "でもまあ、いつも僕は冒険の話出したら行けると思ってますから、すっごいワクワクしてたんですよ。",
+     "en": "Still, whenever I brought up an adventure, I always assumed we could go, so I was super excited.",
+     "speaker": "Masayuki"
+    },
+    {
+     "start": 239.7,
+     "end": 243.2,
+     "ja": "ほんな親友から返ってきた言葉が、「そしたら…」",
+     "en": "Then the words that came back from my friend were, \"In that case...\"",
+     "speaker": "Masayuki"
+    }
+   ]
+  },
+  {
+   "start": 472.0,
+   "end": 494.0,
+   "title": "Big Walls Are Just in Your Head",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜とか〜とか — listing examples",
+    "〜てみる — trying to do something",
+    "〜たりする — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 472.3,
+     "end": 476.8,
+     "ja": "皆さんも今、自分の中に大きな壁ってありますよね。",
+     "en": "You all have a big wall inside you right now, don't you?",
+     "speaker": "Masayuki"
+    },
+    {
+     "start": 476.9,
+     "end": 481.8,
+     "ja": "例えば好きな人に告白するとか、新しい仕事を始めるとか。",
+     "en": "Like confessing to someone you like, or starting a new job.",
+     "speaker": "Masayuki"
+    },
+    {
+     "start": 482.0,
+     "end": 486.5,
+     "ja": "でもそれって思い込みなんです。思い込みで大きいと思ってるんです。",
+     "en": "But that's just an assumption. It only feels huge because of your preconceptions.",
+     "speaker": "Masayuki"
+    },
+    {
+     "start": 486.7,
+     "end": 490.7,
+     "ja": "どうせ思い込むんなら、「何とかなる」と思い込んでみてください。",
+     "en": "If you're going to assume something anyway, try believing that \"things will work out.\"",
+     "speaker": "Masayuki"
+    },
+    {
+     "start": 490.9,
+     "end": 494.0,
+     "ja": "そうしたら意外と一歩目がスッと出たりします。",
+     "en": "If you do, you might find that taking that first step comes surprisingly easily.",
+     "speaker": "Masayuki"
+    }
+   ]
+  }
+ ],
+ "videoId": "VDtCA2GPw4k",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

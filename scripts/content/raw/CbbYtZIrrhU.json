@@ -1,0 +1,162 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 7.3,
+   "end": 21.8,
+   "title": "Boba Gift from the High School Crew",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ながら — doing while",
+    "〜てくれる — doing a favor for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 7.3,
+     "end": 10.1,
+     "ja": "今日はタピオカを飲みながらやります。",
+     "en": "Today I'll do this while drinking boba.",
+     "speaker": "Chiaki"
+    },
+    {
+     "start": 10.4,
+     "end": 15.8,
+     "ja": "いつも編集、撮影してくれてる現役高校生チームが差し入れにくれました。",
+     "en": "The high school team that always edits and shoots for me brought it as a treat.",
+     "speaker": "Chiaki"
+    },
+    {
+     "start": 16.4,
+     "end": 17.4,
+     "ja": "美味しい。",
+     "en": "Delicious.",
+     "speaker": "Chiaki"
+    },
+    {
+     "start": 17.5,
+     "end": 19.2,
+     "ja": "久しぶりだな。",
+     "en": "It's been a while.",
+     "speaker": "Chiaki"
+    },
+    {
+     "start": 19.3,
+     "end": 21.5,
+     "ja": "やっぱり高校生はまだタピオカなんだね。",
+     "en": "I guess high schoolers are still into boba.",
+     "speaker": "Chiaki"
+    }
+   ]
+  },
+  {
+   "start": 90.8,
+   "end": 108.5,
+   "title": "Buying Cute Pocket Tissues at the 100-Yen Shop",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜し、〜し — listing reasons",
+    "〜より — comparison",
+    "〜と思う — thinking that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 90.8,
+     "end": 93.7,
+     "ja": "ポケットティッシュ買ってきました。",
+     "en": "I bought pocket tissues.",
+     "speaker": "Chiaki"
+    },
+    {
+     "start": 93.8,
+     "end": 98.8,
+     "ja": "なんか花粉の季節とかで娘も持っていくし、私も使うし、",
+     "en": "With pollen season and all, my daughter carries them, and I use them too.",
+     "speaker": "Chiaki"
+    },
+    {
+     "start": 99.0,
+     "end": 104.3,
+     "ja": "どうせだったら、街でもらったやつよりも、ちょっと可愛いのがいいかなと思って。",
+     "en": "And I thought, if anything, cute ones would be better than the ones handed out on the street.",
+     "speaker": "Chiaki"
+    },
+    {
+     "start": 104.5,
+     "end": 107.3,
+     "ja": "しかも最近は10個も入って100円、安い！",
+     "en": "Plus, these days you get 10 packs for 100 yen, so cheap!",
+     "speaker": "Chiaki"
+    },
+    {
+     "start": 107.4,
+     "end": 108.4,
+     "ja": "を買いました。",
+     "en": "So I bought this.",
+     "speaker": "Chiaki"
+    }
+   ]
+  },
+  {
+   "start": 855.3,
+   "end": 877.8,
+   "title": "100-Yen Shops Are a Dreamland",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜たら — when/if",
+    "〜てもいい — permission / it is okay to",
+    "〜ていく — gradual progression"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 855.3,
+     "end": 857.4,
+     "ja": "今日もいろいろ買いました。",
+     "en": "I bought a lot of things today too.",
+     "speaker": "Chiaki"
+    },
+    {
+     "start": 857.5,
+     "end": 864.0,
+     "ja": "1回100均に行ったら、大体300円から2000円の間を買います！",
+     "en": "Whenever I go to a 100-yen shop, I usually buy between 300 and 2,000 yen worth!",
+     "speaker": "Chiaki"
+    },
+    {
+     "start": 864.4,
+     "end": 870.3,
+     "ja": "100均はもう夢の国だから、何も気にしないでどんどん買ってもいいと思います。",
+     "en": "A 100-yen shop is like a wonderland, so I think it's fine to just buy without worrying.",
+     "speaker": "Chiaki"
+    },
+    {
+     "start": 870.7,
+     "end": 877.5,
+     "ja": "買って買って買って買って、勉強して学んで、物に対する見方のスキルを養っていけばいいから。",
+     "en": "You buy and buy and learn from it, honing your eye for good items.",
+     "speaker": "Chiaki"
+    }
+   ]
+  }
+ ],
+ "videoId": "CbbYtZIrrhU",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

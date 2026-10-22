@@ -1,0 +1,173 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 29.7,
+   "title": "Introducing a Famous Spring Song",
+   "level": "N4",
+   "topics": [
+    "music",
+    "culture"
+   ],
+   "grammar": [
+    "〜といえば — speaking of",
+    "〜になると — when it becomes"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.0,
+     "end": 5.1,
+     "ja": "皆さん、こんにちは。日本語の先生、のりこです。",
+     "en": "Hello everyone. I'm Noriko, your Japanese teacher.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 5.4,
+     "end": 9.5,
+     "ja": "今日も日本語の歌を紹介します。",
+     "en": "Today, I will introduce another Japanese song.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 9.7,
+     "end": 13.1,
+     "ja": "春と言えば、この歌。",
+     "en": "Speaking of spring, it's this song.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 13.2,
+     "end": 17.3,
+     "ja": "桜が咲く季節になると、この歌。",
+     "en": "When the cherry blossom season arrives, it's this song.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 17.7,
+     "end": 25.5,
+     "ja": "日本人の多くの人が知っている有名な歌を紹介します。",
+     "en": "I'm going to introduce a famous song that many Japanese people know.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 25.8,
+     "end": 29.1,
+     "ja": "歌のタイトルは「さくら」。",
+     "en": "The title of the song is 'Sakura'.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 161.2,
+   "end": 192.4,
+   "title": "The Story Behind the Song Sakura",
+   "level": "N4",
+   "topics": [
+    "music",
+    "culture"
+   ],
+   "grammar": [
+    "〜というのは — talking about / called",
+    "〜てすぐ — right after doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 161.5,
+     "end": 169.0,
+     "ja": "この「さくら」という歌を作曲したのは、森山直太朗さんです。",
+     "en": "The person who composed this song called 'Sakura' is Naotaro Moriyama.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 169.8,
+     "end": 173.6,
+     "ja": "森山直太朗さんというアーティスト。",
+     "en": "An artist named Naotaro Moriyama.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 173.9,
+     "end": 180.0,
+     "ja": "森山さんは、この歌を2003年に発表しました。",
+     "en": "Moriyama released this song in 2003.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 180.0,
+     "end": 183.4,
+     "ja": "ちょっと昔の話ですね。2003年。",
+     "en": "It was quite a while ago, wasn't it? 2003.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 183.6,
+     "end": 191.8,
+     "ja": "そして、発表してすぐに大ヒット、ミリオンセラーになって、とても有名になりました。",
+     "en": "And right after being released, it became a huge hit and a million-seller, becoming very famous.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 264.0,
+   "end": 294.5,
+   "title": "Spring as a Season of Farewells",
+   "level": "N4",
+   "topics": [
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜ば — conditional (if)",
+    "〜なくなる — become no longer able to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 264.2,
+     "end": 272.4,
+     "ja": "春、3月になると、学校が一年間終わり、卒業式のシーズンです。",
+     "en": "In spring, when March comes, the school year ends and it is graduation season.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 272.7,
+     "end": 279.4,
+     "ja": "卒業式、グラデュエーションね。学校が終わって仕事を始める、",
+     "en": "Graduation ceremony, graduation, right? Finishing school and starting work,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 279.7,
+     "end": 283.7,
+     "ja": "例えば中学校が終わって高校に進む。",
+     "en": "for example, finishing junior high school and moving on to high school.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 284.0,
+     "end": 290.4,
+     "ja": "ですから卒業すれば、今まで仲良...仲良かった友達に会えなくなります。",
+     "en": "Therefore, once you graduate, you won't be able to see the friends you were close with until now.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 290.8,
+     "end": 294.0,
+     "ja": "学校の先生ともお別れです。",
+     "en": "It's also goodbye to your school teachers.",
+     "speaker": "Noriko"
+    }
+   ]
+  }
+ ],
+ "videoId": "SOCCaLEeWYQ",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

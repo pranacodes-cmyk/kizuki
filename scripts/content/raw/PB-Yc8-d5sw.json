@@ -1,0 +1,174 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.0,
+   "end": 109.5,
+   "title": "Wearing a Suit for an Interview",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていただく — receiving a favor / doing for me",
+    "〜ちゃう — expressing unintended action or completion",
+    "〜たら — if / when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.5,
+     "end": 48.0,
+     "ja": "今、わたしスーツを着ています。",
+     "en": "Right now, I'm wearing a suit.",
+     "speaker": "Honoka"
+    },
+    {
+     "start": 48.0,
+     "end": 54.5,
+     "ja": "なんでスーツを着ているかっていうと、さっきまで面接があったからです。",
+     "en": "The reason I'm wearing a suit is that I had an interview just a moment ago.",
+     "speaker": "Honoka"
+    },
+    {
+     "start": 54.6,
+     "end": 103.5,
+     "ja": "今日はその面接の感想とか、わたしが感じたことをお届けできたらと思います。",
+     "en": "Today, I'd like to share my thoughts and impressions from that interview.",
+     "speaker": "Honoka"
+    },
+    {
+     "start": 103.5,
+     "end": 109.5,
+     "ja": "少し長くなっちゃうかもしれないんですけど、最後まで聞いてくださったらうれしいです。",
+     "en": "It might end up being a bit long, but I'd be happy if you listened until the end.",
+     "speaker": "Honoka"
+    }
+   ]
+  },
+  {
+   "start": 149.0,
+   "end": 178.5,
+   "title": "Why I Left My Previous Job",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜たり〜たりする — doing things like A and B",
+    "〜ていく — gradual change over time",
+    "〜ようになる — come to be / reach a point where"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 149.2,
+     "end": 152.8,
+     "ja": "なぜかというと、パワハラがあったり、",
+     "en": "The reason is that there was workplace harassment,",
+     "speaker": "Honoka"
+    },
+    {
+     "start": 153.0,
+     "end": 156.5,
+     "ja": "お給料がちょっとずつ減っていったり、",
+     "en": "our salaries gradually decreased,",
+     "speaker": "Honoka"
+    },
+    {
+     "start": 156.8,
+     "end": 165.0,
+     "ja": "ボーナス、賞与って言うんですけど、ボーナスが少しずつ減っていったりしました。",
+     "en": "and our bonuses—or shouyo as they're called—gradually dropped too.",
+     "speaker": "Honoka"
+    },
+    {
+     "start": 165.8,
+     "end": 172.5,
+     "ja": "それに耐えられなくなった私の先輩とか上司も次々と辞めていって、",
+     "en": "Unable to bear it, my seniors and managers quit one after another,",
+     "speaker": "Honoka"
+    },
+    {
+     "start": 172.8,
+     "end": 178.2,
+     "ja": "辞めていった人たちの仕事が私に入ってくるようになりました。",
+     "en": "and the workload of those who left began falling onto me.",
+     "speaker": "Honoka"
+    }
+   ]
+  },
+  {
+   "start": 865.5,
+   "end": 889.0,
+   "title": "Introducing Pon-chan the Cat",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜じゃない — is not (casual negative)",
+    "〜の — possessive particle"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 865.5,
+     "end": 868.0,
+     "ja": "ちなみに、あの、ちゃちゃまるじゃなくて、",
+     "en": "By the way, this isn't Chachamaru;",
+     "speaker": "Honoka"
+    },
+    {
+     "start": 868.0,
+     "end": 871.0,
+     "ja": "この子は「ぽんちゃん」です。",
+     "en": "this one is Pon-chan.",
+     "speaker": "Honoka"
+    },
+    {
+     "start": 871.2,
+     "end": 874.5,
+     "ja": "「ぽんちゃん」で〜す。",
+     "en": "It's Pon-chan!",
+     "speaker": "Honoka"
+    },
+    {
+     "start": 875.5,
+     "end": 878.0,
+     "ja": "ちゃちゃまるじゃないです。",
+     "en": "Not Chachamaru.",
+     "speaker": "Honoka"
+    },
+    {
+     "start": 878.2,
+     "end": 882.5,
+     "ja": "新しいちゃちゃまるの家族です。",
+     "en": "A new family member for Chachamaru.",
+     "speaker": "Honoka"
+    },
+    {
+     "start": 882.8,
+     "end": 885.5,
+     "ja": "ぽんちゃん。",
+     "en": "Pon-chan.",
+     "speaker": "Honoka"
+    },
+    {
+     "start": 885.8,
+     "end": 888.8,
+     "ja": "よろしくね。",
+     "en": "Nice to meet you!",
+     "speaker": "Honoka"
+    }
+   ]
+  }
+ ],
+ "videoId": "PB-Yc8-d5sw",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

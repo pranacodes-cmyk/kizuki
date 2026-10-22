@@ -1,0 +1,217 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 208.0,
+   "end": 219.8,
+   "title": "Ordering Sata Andagi",
+   "level": "N5",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜ご利用 — polite honorific prefix ご",
+    "〜で — specifying quantity or choice"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 208.4,
+     "end": 211.0,
+     "ja": "お待たせいたしました。はい、ありがとうございます。",
+     "en": "Thank you for waiting. Here you go, thank you very much.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 211.1,
+     "end": 212.5,
+     "ja": "袋ご利用ですか？",
+     "en": "Would you like a bag?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 212.6,
+     "end": 213.9,
+     "ja": "あ、ない、大丈夫です。",
+     "en": "Ah, no, I'm okay.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 214.0,
+     "end": 215.3,
+     "ja": "フォークは何本ですか？",
+     "en": "How many forks would you like?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 215.4,
+     "end": 216.3,
+     "ja": "２本で。",
+     "en": "Two, please.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 216.4,
+     "end": 218.0,
+     "ja": "２本で。はい、オリジナルで。",
+     "en": "Two forks. And original flavor.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 218.1,
+     "end": 219.3,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 373.8,
+   "end": 398.2,
+   "title": "How to Make Cup Noodles",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food",
+    "friends"
+   ],
+   "grammar": [
+    "〜方 — way of doing",
+    "〜ばいい — should / it's good if",
+    "〜通りに — in accordance with"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 374.0,
+     "end": 376.1,
+     "ja": "待って、作り方がわかんない。",
+     "en": "Wait, I don't know how to make this.",
+     "speaker": "A"
+    },
+    {
+     "start": 376.3,
+     "end": 378.0,
+     "ja": "お湯入れればいいんだよ。",
+     "en": "You just need to pour hot water in.",
+     "speaker": "B"
+    },
+    {
+     "start": 378.1,
+     "end": 378.9,
+     "ja": "それだけ？",
+     "en": "Just that?",
+     "speaker": "A"
+    },
+    {
+     "start": 379.0,
+     "end": 379.8,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "B"
+    },
+    {
+     "start": 379.9,
+     "end": 380.9,
+     "ja": "どこまで？",
+     "en": "Up to where?",
+     "speaker": "A"
+    },
+    {
+     "start": 381.0,
+     "end": 382.4,
+     "ja": "線書いてある。",
+     "en": "There's a line marked.",
+     "speaker": "B"
+    },
+    {
+     "start": 383.5,
+     "end": 385.2,
+     "ja": "…麺の上に開ける？",
+     "en": "...Do I pour it onto the noodles?",
+     "speaker": "A"
+    },
+    {
+     "start": 388.5,
+     "end": 389.9,
+     "ja": "順番通りにね。",
+     "en": "Follow the order, okay?",
+     "speaker": "B"
+    },
+    {
+     "start": 392.0,
+     "end": 393.8,
+     "ja": "で、何分待つの？",
+     "en": "And how many minutes do I wait?",
+     "speaker": "A"
+    },
+    {
+     "start": 394.2,
+     "end": 395.7,
+     "ja": "４分。",
+     "en": "Four minutes.",
+     "speaker": "B"
+    },
+    {
+     "start": 395.9,
+     "end": 397.7,
+     "ja": "熱湯４分って書いてある。",
+     "en": "It says 4 minutes with boiling water.",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 521.8,
+   "end": 532.5,
+   "title": "Morning Walk and Weather",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜は — topic marker",
+    "普通に — normally / surprisingly"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 522.2,
+     "end": 523.7,
+     "ja": "おはようございます。",
+     "en": "Good morning.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 524.0,
+     "end": 527.2,
+     "ja": "今日の沖縄の天気は、15度。",
+     "en": "Today's weather in Okinawa is 15 degrees.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 527.3,
+     "end": 528.8,
+     "ja": "15度。",
+     "en": "15 degrees.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 529.0,
+     "end": 532.0,
+     "ja": "普通に寒いです。",
+     "en": "It's genuinely cold.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "7DoHVWqRfFs",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

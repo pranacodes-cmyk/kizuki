@@ -1,0 +1,281 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 42.5,
+   "end": 105.5,
+   "title": "Making a Cafe Reservation by Phone",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜名様 — counting people politely",
+    "〜てよろしいでしょうか — asking for permission politely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 42.8,
+     "end": 45.0,
+     "ja": "お電話ありがとうございます。NONです。",
+     "en": "Thank you for calling. This is NON.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 45.1,
+     "end": 47.3,
+     "ja": "すみません、予約をお願いしたいんですが。",
+     "en": "Excuse me, I'd like to make a reservation.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 47.4,
+     "end": 49.7,
+     "ja": "かしこまりました。何名様でしょうか？",
+     "en": "Certainly. How many people will that be for?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 49.8,
+     "end": 51.2,
+     "ja": "えーと、1人です。",
+     "en": "Um, just one person.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 51.4,
+     "end": 54.3,
+     "ja": "1名様ですね。お日にちはお決まりでしょうか？",
+     "en": "One person. Have you decided on a date?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 54.5,
+     "end": 58.7,
+     "ja": "はい、10月3日金曜日の11時からでお願いします。",
+     "en": "Yes, Friday, October 3rd, from 11:00, please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 59.0,
+     "end": 63.0,
+     "ja": "ありがとうございます。お名前を頂戴してもよろしいでしょうか？",
+     "en": "Thank you. May I have your name?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 63.2,
+     "end": 65.0,
+     "ja": "はい、田中です。",
+     "en": "Yes, it's Tanaka.",
+     "speaker": "Akane"
+    }
+   ]
+  },
+  {
+   "start": 935.5,
+   "end": 1004.5,
+   "title": "Ordering Food and Takeout at the Counter",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜もしたくて — also wanting to do",
+    "〜でお願いします — requesting something with で"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 935.8,
+     "end": 936.5,
+     "ja": "すみません。",
+     "en": "Excuse me.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 936.6,
+     "end": 937.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 937.1,
+     "end": 938.2,
+     "ja": "注文いいですか？",
+     "en": "Can I order?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 938.3,
+     "end": 938.8,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 939.0,
+     "end": 943.0,
+     "ja": "えーっと、カフェラテのホットと、",
+     "en": "Um, a hot cafe latte, and...",
+     "speaker": "Akane"
+    },
+    {
+     "start": 944.8,
+     "end": 949.5,
+     "ja": "デザートが、昔ながらのプリン。",
+     "en": "For dessert, the classic pudding.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 949.6,
+     "end": 950.4,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 950.8,
+     "end": 953.4,
+     "ja": "で、すみません、テイクアウトもしたくて。",
+     "en": "And excuse me, I'd also like to get takeout.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 953.5,
+     "end": 954.3,
+     "ja": "テイクアウト、はい。",
+     "en": "Takeout, yes.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 954.5,
+     "end": 1000.0,
+     "ja": "シナモンロール1個とチョコチャンククッキー1個。",
+     "en": "One cinnamon roll and one chocolate chunk cookie.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 1000.0,
+     "end": 1000.6,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 1001.0,
+     "end": 1002.8,
+     "ja": "テイクアウトでお願いします。",
+     "en": "For takeout, please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 1002.9,
+     "end": 1004.5,
+     "ja": "かしこまりました。ありがとうございます。",
+     "en": "Certainly. Thank you very much.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 1341.5,
+   "end": 1359.5,
+   "title": "Paying by Credit Card at the Register",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜使えますか — asking if something can be used (potential form)",
+    "〜か〜 — choosing between A or B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1341.7,
+     "end": 1343.3,
+     "ja": "じゃあ、お会計お願いします。",
+     "en": "All right, the bill, please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 1343.4,
+     "end": 1344.8,
+     "ja": "はい、かしこまりました。",
+     "en": "Yes, right away.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 1345.3,
+     "end": 1347.3,
+     "ja": "お会計、1,510円でございます。",
+     "en": "Your total is 1,510 yen.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 1347.5,
+     "end": 1349.4,
+     "ja": "はい。クレジットカード使えますか？",
+     "en": "Okay. Can I use a credit card?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 1349.6,
+     "end": 1350.5,
+     "ja": "はい、大丈夫です。",
+     "en": "Yes, that's fine.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 1350.7,
+     "end": 1352.5,
+     "ja": "じゃあ、クレジットカードでお願いします。",
+     "en": "Then with a credit card, please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 1352.6,
+     "end": 1353.0,
+     "ja": "はい。",
+     "en": "Sure.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 1354.0,
+     "end": 1356.5,
+     "ja": "タッチか差し込み、お願いいたします。",
+     "en": "Please tap or insert your card.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 1356.6,
+     "end": 1357.2,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 1357.8,
+     "end": 1359.2,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Staff"
+    }
+   ]
+  }
+ ],
+ "videoId": "WkOvU4teCmo",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

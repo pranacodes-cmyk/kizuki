@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.0,
+   "end": 28.0,
+   "title": "Request to Reconsider Tariffs",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜てほしい — wanting someone to do something",
+    "〜について — regarding / about"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.2,
+     "end": 16.5,
+     "ja": "アメリカは、関税を高くすることについて考え方を変えてほしい。",
+     "en": "Japan wants the U.S. to reconsider raising tariffs.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 17.1,
+     "end": 21.0,
+     "ja": "アメリカが関税を高くすることについて、",
+     "en": "Regarding the U.S. raising tariffs,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 21.1,
+     "end": 27.5,
+     "ja": "石破総理大臣がトランプ大統領にもう一度考えてほしいと言いました。",
+     "en": "Prime Minister Ishiba asked President Trump to reconsider.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 29.5,
+   "end": 53.7,
+   "title": "Rising U.S. Tariffs on Japanese Goods",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜にする — decide on / make into",
+    "〜そうだ — looks like / seems like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 29.6,
+     "end": 33.3,
+     "ja": "アメリカの政府は、今月3日、",
+     "en": "On the 3rd of this month, the U.S. government",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 33.5,
+     "end": 39.5,
+     "ja": "日本から輸入する車への関税を25%上げました。",
+     "en": "raised tariffs on cars imported from Japan by 25%.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 39.8,
+     "end": 45.4,
+     "ja": "9日からは、日本から輸入する他のたくさんの物の関税も",
+     "en": "Starting on the 9th, tariffs on many other items imported from Japan",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 45.5,
+     "end": 48.6,
+     "ja": "24%にすると言っています。",
+     "en": "will reportedly also be set to 24%.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 49.0,
+     "end": 53.5,
+     "ja": "日本の経済に大きな影響がありそうです。",
+     "en": "This will likely have a major impact on the Japanese economy.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 53.8,
+   "end": 78.0,
+   "title": "Phone Call Between the Leaders",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくる — action continuing up to now",
+    "〜てほしい — wanting someone to do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 54.0,
+     "end": 57.5,
+     "ja": "このため、石破総理大臣は7日の夜、",
+     "en": "Because of this, on the night of the 7th, Prime Minister Ishiba",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 57.7,
+     "end": 61.5,
+     "ja": "トランプ大統領と電話で話しました。",
+     "en": "spoke with President Trump by phone.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 62.0,
+     "end": 69.9,
+     "ja": "石破総理大臣は、日本がお金を出してアメリカの経済の役に立ってきたことを伝えました。",
+     "en": "Prime Minister Ishiba conveyed that Japan has invested and supported the U.S. economy.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 70.7,
+     "end": 77.5,
+     "ja": "そして、関税を高くすることについて、もう一度考えてほしいと言いました。",
+     "en": "And he asked him to reconsider raising the tariffs.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "Jx2VRH6YzvU",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

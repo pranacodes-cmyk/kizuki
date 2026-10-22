@@ -1,0 +1,245 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 134.5,
+   "end": 154.8,
+   "title": "Thoughts on Anti-Espionage Laws",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "work"
+   ],
+   "grammar": [
+    "〜に関して — regarding / concerning",
+    "〜というか — or rather / I should say",
+    "〜し、〜し — listing reasons"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 134.8,
+     "end": 138.7,
+     "ja": "スパイ防止法に関して賛成、反対、どちらのお立場ですか？",
+     "en": "Regarding the anti-espionage law, are you in favor or against it?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 138.8,
+     "end": 140.4,
+     "ja": "私は当然、賛成の立場です。",
+     "en": "Naturally, I am in favor of it.",
+     "speaker": "Nakazawa"
+    },
+    {
+     "start": 140.4,
+     "end": 141.3,
+     "ja": "その理由は？",
+     "en": "What is the reason for that?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 141.3,
+     "end": 144.8,
+     "ja": "当然どの国にもスパイ防止法というものは制定されていて、",
+     "en": "Naturally, every country has anti-espionage laws enacted,",
+     "speaker": "Nakazawa"
+    },
+    {
+     "start": 144.8,
+     "end": 148.3,
+     "ja": "これはもう理由がいらないというか、当然当たり前のことだと思ってるんですね。",
+     "en": "so it doesn't even need a reason—I just consider it obvious.",
+     "speaker": "Nakazawa"
+    },
+    {
+     "start": 148.3,
+     "end": 150.9,
+     "ja": "スパイっていうのは当然、各国にいますし、",
+     "en": "Spies naturally exist in every country,",
+     "speaker": "Nakazawa"
+    },
+    {
+     "start": 150.9,
+     "end": 154.6,
+     "ja": "その線引きをきっちりと法整備をするっていうのは当たり前ですし、",
+     "en": "and clearly defining boundaries through legislation is only natural.",
+     "speaker": "Nakazawa"
+    }
+   ]
+  },
+  {
+   "start": 262.8,
+   "end": 285.6,
+   "title": "Young People and Political Awareness",
+   "level": "N3",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜なきゃいけない — must / have to",
+    "〜ていい — okay to / allowed to",
+    "〜によって — by means of / through"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 263.2,
+     "end": 264.5,
+     "ja": "どういったご活動を？",
+     "en": "What kind of activities do you do?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 264.5,
+     "end": 266.9,
+     "ja": "この度の参院選挙もそうですけれども、",
+     "en": "Looking at this recent Upper House election as well,",
+     "speaker": "Nakazawa"
+    },
+    {
+     "start": 266.9,
+     "end": 270.3,
+     "ja": "若い人たちの政治への関心はこの度高まったかなと。",
+     "en": "I think young people's interest in politics has grown this time.",
+     "speaker": "Nakazawa"
+    },
+    {
+     "start": 270.3,
+     "end": 271.9,
+     "ja": "投票には行かなきゃいけない、",
+     "en": "They feel they have to go vote,",
+     "speaker": "Nakazawa"
+    },
+    {
+     "start": 271.9,
+     "end": 274.3,
+     "ja": "ただどこに入れていいのかわからないというのが、",
+     "en": "but simply don't know who to vote for—",
+     "speaker": "Nakazawa"
+    },
+    {
+     "start": 274.3,
+     "end": 276.5,
+     "ja": "今の若者の実情かなと思いまして。",
+     "en": "that seems to be the reality for young people today.",
+     "speaker": "Nakazawa"
+    },
+    {
+     "start": 276.5,
+     "end": 280.8,
+     "ja": "今はSNSの時代でこれだけたくさんの情報を得ることができるので、",
+     "en": "In this era of social media where so much information is available,",
+     "speaker": "Nakazawa"
+    },
+    {
+     "start": 280.8,
+     "end": 283.7,
+     "ja": "私が発信することによって正しいことに気づいていただけたらなというところで、",
+     "en": "I started sharing political content hoping people would realize what's right.",
+     "speaker": "Nakazawa"
+    },
+    {
+     "start": 283.7,
+     "end": 285.3,
+     "ja": "政治的な発信を始めました。",
+     "en": "That's why I began speaking out about politics.",
+     "speaker": "Nakazawa"
+    }
+   ]
+  },
+  {
+   "start": 294.0,
+   "end": 318.2,
+   "title": "What Politicians Should Do on Social Media",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜てもいい — it is okay to / even if",
+    "〜わけですから — since it is the case that",
+    "〜てほしい — want someone to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 294.2,
+     "end": 296.8,
+     "ja": "政治家側から発信してほしいことって？",
+     "en": "Is there anything you want politicians to communicate?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 296.8,
+     "end": 298.2,
+     "ja": "私は全くありません。",
+     "en": "I have nothing at all.",
+     "speaker": "Nakazawa"
+    },
+    {
+     "start": 298.4,
+     "end": 300.6,
+     "ja": "特にないですか。もっと興味関心を持ってもらうために、",
+     "en": "Nothing in particular? To get people more interested,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 300.6,
+     "end": 302.5,
+     "ja": "政治家としてもっとしてほしいことは？",
+     "en": "what would you like politicians to do more of?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 302.6,
+     "end": 305.3,
+     "ja": "もう今はこれだけSNSの時代ですから、",
+     "en": "Since we're living in such a social media-driven era,",
+     "speaker": "Nakazawa"
+    },
+    {
+     "start": 305.3,
+     "end": 308.3,
+     "ja": "どの党の人たちであってもどんどん自分たちの意見を、",
+     "en": "regardless of party, by actively voicing their views—",
+     "speaker": "Nakazawa"
+    },
+    {
+     "start": 308.3,
+     "end": 311.4,
+     "ja": "YouTubeでもいいので発信をしてもらうことによって、",
+     "en": "even if it's on YouTube—",
+     "speaker": "Nakazawa"
+    },
+    {
+     "start": 311.4,
+     "end": 314.0,
+     "ja": "直接登録者およびそこから派生した人たちに、",
+     "en": "their message reaches subscribers and everyone connected to them directly,",
+     "speaker": "Nakazawa"
+    },
+    {
+     "start": 314.0,
+     "end": 316.4,
+     "ja": "自分の意見が届く時代なわけですから、",
+     "en": "because that's the kind of era we live in now.",
+     "speaker": "Nakazawa"
+    },
+    {
+     "start": 316.4,
+     "end": 318.0,
+     "ja": "そこを発信してほしい。",
+     "en": "So I want them to put their message out there.",
+     "speaker": "Nakazawa"
+    }
+   ]
+  }
+ ],
+ "videoId": "m3O3icMN5v8",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

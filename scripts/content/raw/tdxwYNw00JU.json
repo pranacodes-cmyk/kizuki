@@ -1,0 +1,161 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 50.0,
+   "end": 66.8,
+   "title": "Introducing the Members",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "work",
+    "school"
+   ],
+   "grammar": [
+    "〜ながら — doing while",
+    "〜と申します — I am called (humble/polite)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 50.2,
+     "end": 52.8,
+     "ja": "それではここで、自己紹介失礼します。",
+     "en": "So right now, let's excuse ourselves to introduce ourselves.",
+     "speaker": "Mira"
+    },
+    {
+     "start": 53.0,
+     "end": 56.7,
+     "ja": "勉強を頑張りながら地域活性化に取り組む、ミラです。",
+     "en": "I'm Mira, working on regional revitalization while working hard on my studies.",
+     "speaker": "Mira"
+    },
+    {
+     "start": 57.3,
+     "end": 60.9,
+     "ja": "部活のマネージャーを頑張りながら、地域活動に取り組むゆりこです。",
+     "en": "I'm Yuriko, participating in community activities while working hard as a club manager.",
+     "speaker": "Yuriko"
+    },
+    {
+     "start": 61.1,
+     "end": 65.5,
+     "ja": "県内で仕事をしながら、地域活性化活動に取り組むこもりです。",
+     "en": "I'm Komori, working on regional revitalization while holding a job in the prefecture.",
+     "speaker": "Komori"
+    },
+    {
+     "start": 65.8,
+     "end": 66.8,
+     "ja": "お願いします！",
+     "en": "Nice to meet you!",
+     "speaker": "Mira"
+    }
+   ]
+  },
+  {
+   "start": 449.6,
+   "end": 465.0,
+   "title": "Lack of Communication Skills",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜てしまう — end up doing / unfortunate completion",
+    "〜だと思う — I think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 449.8,
+     "end": 453.7,
+     "ja": "私が完全オンラインの学校で一番不安なのが、",
+     "en": "The thing I'm most worried about with fully online schools",
+     "speaker": "Mira"
+    },
+    {
+     "start": 454.0,
+     "end": 457.0,
+     "ja": "コミュニケーション能力の欠如だと思うんです。",
+     "en": "is the lack of communication skills.",
+     "speaker": "Mira"
+    },
+    {
+     "start": 457.8,
+     "end": 460.6,
+     "ja": "やっぱり完全オンラインになってしまうと、",
+     "en": "After all, if it becomes completely online,",
+     "speaker": "Mira"
+    },
+    {
+     "start": 460.8,
+     "end": 464.7,
+     "ja": "対面で話す機会がグッと減ってしまって、",
+     "en": "opportunities to speak face-to-face drop drastically,",
+     "speaker": "Mira"
+    }
+   ]
+  },
+  {
+   "start": 571.9,
+   "end": 591.9,
+   "title": "Trouble with Online Classes",
+   "level": "N3",
+   "topics": [
+    "school",
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜たり〜たりする — doing things like A and B",
+    "〜たことがある — have experienced doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 572.2,
+     "end": 577.8,
+     "ja": "自分が中学３年生の時と、高校１年生の時にちょうどオンラインで、",
+     "en": "When I was in 3rd year of middle school and 1st year of high school, online,",
+     "speaker": "Mira"
+    },
+    {
+     "start": 578.1,
+     "end": 580.4,
+     "ja": "授業をやったことがあるんですけど、",
+     "en": "I took classes online, and...",
+     "speaker": "Mira"
+    },
+    {
+     "start": 580.6,
+     "end": 583.5,
+     "ja": "ちょうどコロナ禍で受けたのがあるんです。",
+     "en": "I took them during the COVID pandemic.",
+     "speaker": "Mira"
+    },
+    {
+     "start": 583.7,
+     "end": 587.4,
+     "ja": "その時に、ネットの接続環境が悪かったりして、",
+     "en": "At that time, the internet connection was bad and such,",
+     "speaker": "Mira"
+    },
+    {
+     "start": 587.6,
+     "end": 591.4,
+     "ja": "先生のこの話の一部分がちょっと聞き取れなかったり、",
+     "en": "so I couldn't catch parts of what the teacher was saying,",
+     "speaker": "Mira"
+    }
+   ]
+  }
+ ],
+ "videoId": "tdxwYNw00JU",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

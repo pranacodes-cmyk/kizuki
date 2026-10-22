@@ -1,0 +1,168 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 8.5,
+   "end": 21.0,
+   "title": "What is Plain Japanese?",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "について — about / regarding",
+    "〜か知る — to know whether / what"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 8.8,
+     "end": 12.6,
+     "ja": "おかざきのマメ情報、司会の石田彩佳です。",
+     "en": "Welcome to Okazaki Mame Info. I am your host, Ayaka Ishida.",
+     "speaker": "Ishida"
+    },
+    {
+     "start": 12.9,
+     "end": 16.6,
+     "ja": "今回のテーマはやさしい日本語について。",
+     "en": "Today's theme is about 'Plain Japanese'.",
+     "speaker": "Ishida"
+    },
+    {
+     "start": 16.9,
+     "end": 20.8,
+     "ja": "皆さんはやさしい日本語がどのようなものか知っていますか？",
+     "en": "Do you all know what Plain Japanese is like?",
+     "speaker": "Ishida"
+    }
+   ]
+  },
+  {
+   "start": 249.2,
+   "end": 305.6,
+   "title": "Key Rule: Keep Sentences Short and Simple",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜とき — when / at the time of",
+    "〜のではなく — rather than / instead of",
+    "〜ようにする — to make an effort to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 249.5,
+     "end": 253.8,
+     "ja": "はい。やさしい日本語に言い換えるときのポイントは３つあります。",
+     "en": "Yes. There are three key points when rephrasing into plain Japanese.",
+     "speaker": "Saito"
+    },
+    {
+     "start": 254.2,
+     "end": 257.8,
+     "ja": "１つ目は短く簡単な文にすることです。",
+     "en": "The first is to make sentences short and simple.",
+     "speaker": "Saito"
+    },
+    {
+     "start": 258.1,
+     "end": 261.0,
+     "ja": "伝えたいことがいくつかある場合でも、",
+     "en": "Even if there are multiple things you want to communicate,",
+     "speaker": "Saito"
+    },
+    {
+     "start": 261.1,
+     "end": 262.8,
+     "ja": "１文でまとめるのではなく、",
+     "en": "rather than putting it all into one sentence,",
+     "speaker": "Saito"
+    },
+    {
+     "start": 263.0,
+     "end": 265.3,
+     "ja": "いくつかの文に分けて伝えるようにします。",
+     "en": "try to convey it by dividing it into several sentences.",
+     "speaker": "Saito"
+    }
+   ]
+  },
+  {
+   "start": 266.3,
+   "end": 287.0,
+   "title": "Simplifying Emergency Instructions",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜に備えて — in preparation for",
+    "〜てみる — to try doing",
+    "〜ないように — so as not to / in order to avoid"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 266.5,
+     "end": 268.0,
+     "ja": "それでは第１問。",
+     "en": "Now for the first question.",
+     "speaker": "Saito"
+    },
+    {
+     "start": 268.2,
+     "end": 273.8,
+     "ja": "「災害時に備えて１週間分の水と食料を備蓄しておきましょう。」",
+     "en": "\"In preparation for disasters, stockpile one week's worth of water and food.\"",
+     "speaker": "Saito"
+    },
+    {
+     "start": 274.0,
+     "end": 276.0,
+     "ja": "これを言い換えてみてください。",
+     "en": "Please try rephrasing this.",
+     "speaker": "Saito"
+    },
+    {
+     "start": 276.5,
+     "end": 278.0,
+     "ja": "はい。そうですね…",
+     "en": "Yes. Let's see...",
+     "speaker": "Ishida"
+    },
+    {
+     "start": 278.2,
+     "end": 281.2,
+     "ja": "「地震や台風などで困らないように、",
+     "en": "\"So you won't be in trouble during earthquakes or typhoons,",
+     "speaker": "Ishida"
+    },
+    {
+     "start": 281.4,
+     "end": 284.7,
+     "ja": "いつも７日分の水と食料を準備しておきましょう」",
+     "en": "always keep 7 days' worth of water and food ready,\"",
+     "speaker": "Ishida"
+    },
+    {
+     "start": 285.0,
+     "end": 286.8,
+     "ja": "でどうでしょうか？",
+     "en": "how about that?",
+     "speaker": "Ishida"
+    }
+   ]
+  }
+ ],
+ "videoId": "vGlcJiWtHhE",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

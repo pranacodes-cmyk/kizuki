@@ -1,0 +1,94 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 3.4,
+   "end": 28.3,
+   "title": "A Street Interview Project in Shibuya",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜たいと思う — thinking of doing",
+    "〜てまいる — humble action directed towards speaker",
+    "〜んですけれど — explanatory background"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.7,
+     "end": 10.9,
+     "ja": "本日はですね、新作のご紹介とは別の、企画の動画をお送りしたいと思ってます。",
+     "en": "Today, separate from our new product showcases, I'd like to bring you a special project video.",
+     "speaker": "Host"
+    },
+    {
+     "start": 11.2,
+     "end": 20.0,
+     "ja": "で、どんな企画かと言いますと、先日、渋谷駅周辺にいる若者大体30人ぐらいに街頭インタビューをしてまいりました。",
+     "en": "As for what kind of project, the other day we conducted street interviews with about 30 young people around Shibuya Station.",
+     "speaker": "Host"
+    },
+    {
+     "start": 20.3,
+     "end": 27.8,
+     "ja": "で、その内容なんですけれども、「好きなファッションタレントいますか？」という内容で、街頭インタビューをしてきました。",
+     "en": "And as for the topic, we went and interviewed people asking, 'Do you have a favorite fashion celebrity?'",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 302.2,
+   "end": 324.0,
+   "title": "Who Do Young People Look Up to?",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜てしまう — expressing regret or completion",
+    "〜たり〜たり — listing representative actions/examples"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 302.4,
+     "end": 307.2,
+     "ja": "ということで、かなり短いインタビュー動画になってしまったんですけれども、",
+     "en": "So, it turned into quite a short interview video, but...",
+     "speaker": "Host"
+    },
+    {
+     "start": 307.6,
+     "end": 313.2,
+     "ja": "大体YouTuberの方を参考にしている方がやっぱり多かったですね。",
+     "en": "Overall, it seemed that most people take inspiration from YouTubers.",
+     "speaker": "Host"
+    },
+    {
+     "start": 313.6,
+     "end": 315.7,
+     "ja": "で、その次に芸能人の方。",
+     "en": "And next up were traditional celebrities.",
+     "speaker": "Host"
+    },
+    {
+     "start": 315.8,
+     "end": 323.5,
+     "ja": "あとはTikTokerだったりインフルエンサーのファッションが好き、あとは参考にしてるっていうような集計になりました。",
+     "en": "The results also showed people liking and referencing fashion from TikTokers and influencers.",
+     "speaker": "Host"
+    }
+   ]
+  }
+ ],
+ "videoId": "iyCZW4uiG1M",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

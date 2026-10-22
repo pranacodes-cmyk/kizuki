@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 129.8,
+   "end": 151.3,
+   "title": "Debating the Supplementary Budget",
+   "level": "N2",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜べきだ — should/ought to",
+    "〜なくても — even without / even if not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 130.2,
+     "end": 135.5,
+     "ja": "できるだけ新規の国債発行に頼らない補正予算にすべきだと思います。",
+     "en": "I believe we should make a supplementary budget that avoids relying on new bond issues as much as possible.",
+     "speaker": "玉木代表"
+    },
+    {
+     "start": 135.8,
+     "end": 141.4,
+     "ja": "来月、再来月までには、決算剰余金なども出てまいりますので、",
+     "en": "By next month or the month after, settlement surpluses will be available, so",
+     "speaker": "高市首相"
+    },
+    {
+     "start": 141.5,
+     "end": 146.5,
+     "ja": "そんなに大きな形で国債を発行しなくても、",
+     "en": "even without issuing government bonds on such a large scale,",
+     "speaker": "高市首相"
+    },
+    {
+     "start": 146.6,
+     "end": 150.8,
+     "ja": "財源の確保については大丈夫だと考えております。",
+     "en": "I believe we will be fine in securing financial resources.",
+     "speaker": "高市首相"
+    }
+   ]
+  },
+  {
+   "start": 172.5,
+   "end": 184.5,
+   "title": "A Powerful Smile in the Diet",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜そう — looks like / on the verge of",
+    "おかえりなさい — welcome back"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 173.0,
+     "end": 175.0,
+     "ja": "中道改革連合の小川淳也です。",
+     "en": "I am Junya Ogawa of the Centrist Reform Coalition.",
+     "speaker": "小川代表"
+    },
+    {
+     "start": 175.3,
+     "end": 176.8,
+     "ja": "総理、おかえりなさい。",
+     "en": "Prime Minister, welcome back.",
+     "speaker": "小川代表"
+    },
+    {
+     "start": 176.9,
+     "end": 178.2,
+     "ja": "ただいま。",
+     "en": "Thank you, good to be back.",
+     "speaker": "高市首相"
+    },
+    {
+     "start": 180.7,
+     "end": 184.0,
+     "ja": "あの破壊力のある笑顔にやられそうなんですが、",
+     "en": "I feel almost overwhelmed by that disarming smile, but...",
+     "speaker": "小川代表"
+    }
+   ]
+  },
+  {
+   "start": 272.4,
+   "end": 289.8,
+   "title": "Offering to Be an AI Tutor",
+   "level": "N2",
+   "topics": [
+    "work",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていただく — receiving an action",
+    "〜ば — if (conditional)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 272.8,
+     "end": 276.5,
+     "ja": "総理がAIというものを重要な政治的な課題だと",
+     "en": "Knowing the Prime Minister recognized AI as an important political priority,",
+     "speaker": "安野党首"
+    },
+    {
+     "start": 276.6,
+     "end": 279.8,
+     "ja": "認識していただいてたということで、率直に心強く感じました。",
+     "en": "I frankly felt very encouraged.",
+     "speaker": "安野党首"
+    },
+    {
+     "start": 280.4,
+     "end": 283.3,
+     "ja": "AI、今ものすごいスピードで進化をしております。",
+     "en": "AI is currently evolving at tremendous speed.",
+     "speaker": "安野党首"
+    },
+    {
+     "start": 283.4,
+     "end": 285.9,
+     "ja": "安野、必要があれば家庭教師に参りますが。",
+     "en": "If needed, I, Anno, would be glad to serve as your private tutor.",
+     "speaker": "安野党首"
+    },
+    {
+     "start": 286.2,
+     "end": 289.0,
+     "ja": "カテキョ、ぜひお願いいたします。",
+     "en": "A private tutor—yes, by all means, please do!",
+     "speaker": "高市首相"
+    }
+   ]
+  }
+ ],
+ "videoId": "SMImte0Rq1Q",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

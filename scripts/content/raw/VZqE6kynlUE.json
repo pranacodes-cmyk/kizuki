@@ -1,0 +1,243 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 21.8,
+   "end": 38.2,
+   "title": "Today's Interview Topic",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜ちゃう — to end up doing",
+    "〜ましょう — let's do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 21.8,
+     "end": 23.0,
+     "ja": "ということですので、",
+     "en": "And so,",
+     "speaker": "Dan"
+    },
+    {
+     "start": 23.0,
+     "end": 24.4,
+     "ja": "今日のテーマは何ですかね？",
+     "en": "what is today's theme?",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 24.4,
+     "end": 27.8,
+     "ja": "今日のテーマが、渋谷のクラブの目の前に行って、",
+     "en": "Today's theme is going in front of a Shibuya club,",
+     "speaker": "Dan"
+    },
+    {
+     "start": 27.8,
+     "end": 30.5,
+     "ja": "男の子とか女の子に、",
+     "en": "and asking guys and girls",
+     "speaker": "Dan"
+    },
+    {
+     "start": 30.5,
+     "end": 33.1,
+     "ja": "ナンパの口説き文句をちょっと聞いちゃおうかなと。",
+     "en": "about their pick-up lines.",
+     "speaker": "Dan"
+    },
+    {
+     "start": 33.1,
+     "end": 34.0,
+     "ja": "そうですね。",
+     "en": "Right.",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 34.0,
+     "end": 35.8,
+     "ja": "ちょっと、じゃあ早速行きますか？",
+     "en": "Well then, shall we get right to it?",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 35.8,
+     "end": 36.6,
+     "ja": "行きましょう！",
+     "en": "Let's go!",
+     "speaker": "Dan"
+    },
+    {
+     "start": 36.6,
+     "end": 38.0,
+     "ja": "行きましょう。では、後ほど。",
+     "en": "Let's go. See you in a bit.",
+     "speaker": "Satoshi"
+    }
+   ]
+  },
+  {
+   "start": 50.0,
+   "end": 67.0,
+   "title": "The Smile Killer Pick-up",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "fun"
+   ],
+   "grammar": [
+    "〜たら — when / after",
+    "〜もん — because (explaining)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 50.0,
+     "end": 52.0,
+     "ja": "エピソードは、やっぱあれでしょ、あれでしょ。",
+     "en": "The story is, you know, that one.",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 52.0,
+     "end": 53.3,
+     "ja": "肩トントンって叩いて、",
+     "en": "You tap their shoulder,",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 53.3,
+     "end": 54.8,
+     "ja": "振り返ったらニコッて笑って。",
+     "en": "and when they turn around, you smile.",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 54.8,
+     "end": 56.0,
+     "ja": "あらららら。",
+     "en": "Oh, my my my.",
+     "speaker": "Dan"
+    },
+    {
+     "start": 56.0,
+     "end": 57.0,
+     "ja": "「暇ですか？」",
+     "en": "\"Are you free?\"",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 57.0,
+     "end": 58.4,
+     "ja": "スマイルキラーだね、これ。",
+     "en": "That's a smile killer right there.",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 58.4,
+     "end": 60.8,
+     "ja": "スマイルキラー。だってイケメンだもん、やっぱり。",
+     "en": "Smile killer. Because he's handsome, after all.",
+     "speaker": "Dan"
+    },
+    {
+     "start": 61.5,
+     "end": 62.8,
+     "ja": "それだけ？",
+     "en": "Just that?",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 62.8,
+     "end": 64.0,
+     "ja": "それだけっすね。",
+     "en": "Just that.",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 64.0,
+     "end": 65.8,
+     "ja": "これ、日本人なかなか難しいよ。",
+     "en": "That's pretty tough for Japanese guys.",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 65.8,
+     "end": 67.0,
+     "ja": "難しいっすよね。",
+     "en": "It is tough, isn't it?",
+     "speaker": "Interviewee"
+    }
+   ]
+  },
+  {
+   "start": 603.5,
+   "end": 619.5,
+   "title": "Will You Be My Princess?",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てくれる — to do for someone",
+    "〜ようと思う — decide/intend to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 603.5,
+     "end": 606.3,
+     "ja": "「俺のお姫様になってくれない？」",
+     "en": "\"Won't you become my princess?\"",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 606.3,
+     "end": 608.8,
+     "ja": "って言ってきたんですよ。",
+     "en": "...is what he told me.",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 609.5,
+     "end": 612.0,
+     "ja": "で、次の日にデートするじゃないですか。",
+     "en": "And then, we went on a date the very next day, right?",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 612.0,
+     "end": 613.5,
+     "ja": "えー！早い！",
+     "en": "Whoa! That's fast!",
+     "speaker": "Dan"
+    },
+    {
+     "start": 613.5,
+     "end": 615.8,
+     "ja": "早い！行動力早っ！",
+     "en": "Fast! Quick to take action!",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 615.8,
+     "end": 619.0,
+     "ja": "ちょっと面白いからさ、会ってみようと思って会ったんですよ。",
+     "en": "I thought it was kind of funny, so I figured I'd meet up with him.",
+     "speaker": "Interviewee"
+    }
+   ]
+  }
+ ],
+ "videoId": "VZqE6kynlUE",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

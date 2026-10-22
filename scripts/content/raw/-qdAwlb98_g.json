@@ -1,0 +1,254 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 112.2,
+   "end": 132.3,
+   "title": "A Day of Solo Parenting",
+   "level": "N4",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜ために — in order to",
+    "〜ておく — to do in advance / leave as is",
+    "〜ていく — ongoing change / will proceed with"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 112.5,
+     "end": 115.0,
+     "ja": "はい、おはようございます。ヨウスケです。",
+     "en": "Good morning, everyone. I'm Yousuke.",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 115.2,
+     "end": 118.8,
+     "ja": "今日はいつも頑張ってくれてるゆいをリフレッシュさせるために、",
+     "en": "Today, to let Yui, who always works so hard, refresh herself,",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 118.9,
+     "end": 120.8,
+     "ja": "一日外に行っておいでのことで、",
+     "en": "she's taking the day off outside,",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 121.0,
+     "end": 123.5,
+     "ja": "ワンオペDAYになります。僕が。",
+     "en": "so I'll be solo parenting today.",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 123.7,
+     "end": 126.0,
+     "ja": "初めての二人っきりの時間です、今日は。",
+     "en": "Today will be our first time spending the day just the two of us.",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 126.2,
+     "end": 129.8,
+     "ja": "なので今日はその様子を撮っていこうかなと思います。",
+     "en": "So I thought I'd film how the day goes.",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 130.0,
+     "end": 131.8,
+     "ja": "では続きをどうぞー！",
+     "en": "Alright, enjoy the rest of the video!",
+     "speaker": "Yousuke"
+    }
+   ]
+  },
+  {
+   "start": 253.0,
+   "end": 281.4,
+   "title": "Mom Heads Out for the Day",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくる — to go and do / come to do",
+    "〜ていらっしゃる — polite form of 〜ている / 行ってらっしゃる",
+    "〜にする — to decide on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 253.3,
+     "end": 255.5,
+     "ja": "あっ、撮ってる？もう行くん？",
+     "en": "Ah, is it recording? Are you leaving already?",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 255.8,
+     "end": 257.3,
+     "ja": "行ってらっしゃいませ。",
+     "en": "Have a great day.",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 257.4,
+     "end": 258.2,
+     "ja": "行ってきます。",
+     "en": "I'm heading out.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 258.3,
+     "end": 260.1,
+     "ja": "ごゆっくりどうぞーって、ママ、バイバーイって。",
+     "en": "Take your time! Say 'Bye-bye, Mommy.'",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 260.3,
+     "end": 261.3,
+     "ja": "あっ、来たで！ママ。",
+     "en": "Oh, Mommy's here!",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 261.4,
+     "end": 263.7,
+     "ja": "はーい。休暇をいただきまーす。",
+     "en": "Yes! I'll be taking my day off now.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 263.9,
+     "end": 265.8,
+     "ja": "はい。あららららら。",
+     "en": "Okay. Oh dear, look at that.",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 265.9,
+     "end": 267.2,
+     "ja": "お腹空いたかな？",
+     "en": "Maybe she's hungry?",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 267.5,
+     "end": 269.0,
+     "ja": "ご飯にしますか？",
+     "en": "Shall we give her milk?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 275.0,
+     "end": 277.7,
+     "ja": "お願いします。楽しんできてください。",
+     "en": "Please do. Have fun out there!",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 277.8,
+     "end": 278.9,
+     "ja": "楽しんできます。",
+     "en": "I will!",
+     "speaker": "Mom"
+    },
+    {
+     "start": 279.0,
+     "end": 280.2,
+     "ja": "行ってらっしゃーい。",
+     "en": "See you later!",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 280.3,
+     "end": 281.4,
+     "ja": "行ってきまーす！",
+     "en": "See you!",
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
+   "start": 422.5,
+   "end": 442.3,
+   "title": "Cooking While Babysitting",
+   "level": "N3",
+   "topics": [
+    "food",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜れる/られる — passive form (suffering passive)",
+    "〜のに — even though / despite",
+    "〜てたら — when / after doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 422.8,
+     "end": 424.2,
+     "ja": "いただいてます。",
+     "en": "I'm having my lunch.",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 424.6,
+     "end": 427.1,
+     "ja": "あともう少しで出来上がるって時に、",
+     "en": "Right when it's almost done cooking,",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 427.2,
+     "end": 429.5,
+     "ja": "やっぱ泣かれると、めっちゃテンパりますね。",
+     "en": "if she starts crying, I totally panic.",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 429.7,
+     "end": 433.0,
+     "ja": "あと、もう１分で茹で上がるのに…みたいな",
+     "en": "Like, 'Just one more minute and the pasta is boiled...'",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 433.2,
+     "end": 436.8,
+     "ja": "時に泣かれると、「うわあ、待ってくれ～」って思ってたら、",
+     "en": "When she cries then, just as I thought 'Whoa, please wait!',",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 437.0,
+     "end": 439.4,
+     "ja": "寝てました。ありがたい。",
+     "en": "she fell asleep. What a relief.",
+     "speaker": "Yousuke"
+    },
+    {
+     "start": 439.6,
+     "end": 441.9,
+     "ja": "段取りがちょっと難しいです。",
+     "en": "Getting the timing and steps right is a bit tricky.",
+     "speaker": "Yousuke"
+    }
+   ]
+  }
+ ],
+ "videoId": "-qdAwlb98_g",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

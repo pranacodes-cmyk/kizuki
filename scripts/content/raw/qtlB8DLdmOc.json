@@ -1,0 +1,125 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.8,
+   "end": 27.2,
+   "title": "Troubles Over Trainee Pregnancies",
+   "level": "N2",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜をめぐる — regarding / over",
+    "〜が相次ぐ — continuing one after another"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.1,
+     "end": 14.8,
+     "ja": "では、はじめのニュースです。",
+     "en": "Now, onto our first news story.",
+     "speaker": "Yukari"
+    },
+    {
+     "start": 15.0,
+     "end": 20.9,
+     "ja": "外国人技能実習生、妊娠出産めぐるトラブル相次ぐ。国は注意喚起。",
+     "en": "Foreign technical interns face continuous troubles over pregnancy and childbirth. The government issues a warning.",
+     "speaker": "Yukari"
+    },
+    {
+     "start": 21.3,
+     "end": 26.7,
+     "ja": "外国人技能実習生の妊娠や出産をめぐるトラブルが相次いでいます。",
+     "en": "A series of troubles have been occurring regarding pregnancies and childbirth among foreign technical intern trainees.",
+     "speaker": "Yukari"
+    }
+   ]
+  },
+  {
+   "start": 601.4,
+   "end": 626.0,
+   "title": "Unaware of Leave Allowances",
+   "level": "N2",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜のうち — out of / among",
+    "〜の一方 — on the one hand / while on the other hand",
+    "〜によると — according to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 601.7,
+     "end": 607.2,
+     "ja": "パートなどで働く女性、休業手当を知らぬ人が約8割に。民間調査。",
+     "en": "About 80% of female part-time workers are unaware of leave allowances, according to a private survey.",
+     "speaker": "Yukari"
+    },
+    {
+     "start": 607.5,
+     "end": 615.1,
+     "ja": "パートやアルバイトで働く女性のうち、コロナ禍でシフトが減った人は4人に1人となっている一方、",
+     "en": "While one in four women working part-time or casual jobs saw reduced shifts due to the pandemic,",
+     "speaker": "Yukari"
+    },
+    {
+     "start": 615.4,
+     "end": 625.5,
+     "ja": "シフト時間の短縮でも休業手当を受け取れることを知らない人が、8割近くに上ることが民間の調査で分かりました。",
+     "en": "a private survey found that nearly 80% did not know they could receive a leave allowance even for shortened shift hours.",
+     "speaker": "Yukari"
+    }
+   ]
+  },
+  {
+   "start": 752.1,
+   "end": 776.0,
+   "title": "Teacher Overtime Trends During Pandemic",
+   "level": "N2",
+   "topics": [
+    "work",
+    "school"
+   ],
+   "grammar": [
+    "〜において — in / during",
+    "〜傾向にある — have a tendency to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 752.5,
+     "end": 756.9,
+     "ja": "コロナ禍の教職員、残業が増加傾向に。文科省調査。",
+     "en": "Overtime tends to increase for teachers during the pandemic, according to an MEXT survey.",
+     "speaker": "Yukari"
+    },
+    {
+     "start": 757.2,
+     "end": 763.5,
+     "ja": "コロナ禍における教職員の勤務実態調査で、休校期間は残業が減った一方、",
+     "en": "In a survey on working conditions of teachers during the pandemic, while overtime decreased during school closures,",
+     "speaker": "Yukari"
+    },
+    {
+     "start": 763.8,
+     "end": 775.5,
+     "ja": "再開後、小中学校では夏休みの短縮や消毒作業などで昨年度より残業が増加傾向にあることが分かりました。",
+     "en": "after reopening, it was found that overtime tended to increase compared to the previous year due to shortened summer vacations and disinfection work in elementary and junior high schools.",
+     "speaker": "Yukari"
+    }
+   ]
+  }
+ ],
+ "videoId": "qtlB8DLdmOc",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

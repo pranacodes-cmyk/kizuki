@@ -1,0 +1,176 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 32.5,
+   "end": 48.0,
+   "title": "Enjoying Izakaya Food at Home",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜に行く — go to do something",
+    "〜っぽい — -like, resembling",
+    "〜たり〜たりする — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 32.8,
+     "end": 36.4,
+     "ja": "外でご飯食べに行くのが好きなんですけれども、",
+     "en": "I really like going out to eat, but...",
+     "speaker": "Kanako"
+    },
+    {
+     "start": 36.5,
+     "end": 40.4,
+     "ja": "ま、今はそれがなかなかできないので、",
+     "en": "well, since that isn't really possible right now,",
+     "speaker": "Kanako"
+    },
+    {
+     "start": 40.5,
+     "end": 44.0,
+     "ja": "ま、家で居酒屋っぽいメニューにしたりとか、",
+     "en": "I make izakaya-style menus at home,",
+     "speaker": "Kanako"
+    },
+    {
+     "start": 44.1,
+     "end": 47.7,
+     "ja": "お店っぽいメニューにしたりして楽しんでます。",
+     "en": "or cook restaurant-like dishes and enjoy them.",
+     "speaker": "Kanako"
+    }
+   ]
+  },
+  {
+   "start": 113.1,
+   "end": 135.5,
+   "title": "Tips on Prepping Dried Wheat Gluten",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — when / after doing",
+    "〜ちゃう — do completely / accidentally",
+    "〜ように — so that / in order to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 113.3,
+     "end": 118.0,
+     "ja": "お麩はすぐ水を吸うので、もう柔らかくなったら、",
+     "en": "Fu absorbs water quickly, so once it becomes soft,",
+     "speaker": "Kanako"
+    },
+    {
+     "start": 118.1,
+     "end": 120.1,
+     "ja": "もう軽くこう水を絞ります。",
+     "en": "I lightly squeeze out the water like this.",
+     "speaker": "Kanako"
+    },
+    {
+     "start": 120.2,
+     "end": 124.7,
+     "ja": "あんまり強くやると形が崩れちゃうので、まあちょっと軽めに。",
+     "en": "If you squeeze too hard, it will lose its shape, so keep it gentle.",
+     "speaker": "Kanako"
+    },
+    {
+     "start": 125.5,
+     "end": 129.0,
+     "ja": "でも、まあそんなに水分は残らないように、",
+     "en": "Still, so that too much moisture isn't left behind,",
+     "speaker": "Kanako"
+    },
+    {
+     "start": 129.1,
+     "end": 131.5,
+     "ja": "ちょっと加減があるんですけど、",
+     "en": "it takes a bit of fine-tuning,",
+     "speaker": "Kanako"
+    },
+    {
+     "start": 132.4,
+     "end": 135.3,
+     "ja": "耳たぶぐらいの柔らかさですかね。",
+     "en": "about as soft as an earlobe, I'd say.",
+     "speaker": "Kanako"
+    }
+   ]
+  },
+  {
+   "start": 900.8,
+   "end": 924.2,
+   "title": "How I Decide Dinner Menus",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜方 — way of doing",
+    "〜よりも — rather than",
+    "〜うと思う — intend / think to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 901.0,
+     "end": 903.4,
+     "ja": "メニューの決め方は、",
+     "en": "As for how I decide on the menu,",
+     "speaker": "Kanako"
+    },
+    {
+     "start": 903.5,
+     "end": 907.4,
+     "ja": "家族が何を食べたいよりも、まず",
+     "en": "rather than what my family wants to eat, first",
+     "speaker": "Kanako"
+    },
+    {
+     "start": 907.5,
+     "end": 912.3,
+     "ja": "「今日私何食べたい？」っていうところから献立を考えることが多いです。",
+     "en": "I often plan the meal starting from, 'What do I feel like eating today?'",
+     "speaker": "Kanako"
+    },
+    {
+     "start": 912.6,
+     "end": 916.8,
+     "ja": "ご飯は全部頑張って作ろうって最近は思ってなくて、",
+     "en": "Lately I don't push myself to make every single dish from scratch,",
+     "speaker": "Kanako"
+    },
+    {
+     "start": 917.0,
+     "end": 920.0,
+     "ja": "まあ仕事も忙しかったりするので、",
+     "en": "since work can be quite busy too,",
+     "speaker": "Kanako"
+    },
+    {
+     "start": 920.1,
+     "end": 923.9,
+     "ja": "まあそういう時は自分でちょっと作って、なんて言うか、",
+     "en": "so at times like that, I just make a little bit myself, and...",
+     "speaker": "Kanako"
+    }
+   ]
+  }
+ ],
+ "videoId": "Yi06F27LU1Y",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

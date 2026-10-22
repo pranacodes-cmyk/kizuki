@@ -1,0 +1,205 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 117.8,
+   "end": 133.0,
+   "title": "Silent Pressure from the Dog",
+   "level": "N2",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜ざるを得ない — have no choice but to",
+    "〜たりする — do things like",
+    "〜と — when/whenever"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 118.0,
+     "end": 120.2,
+     "ja": "結構、定時になると、",
+     "en": "Quite often, when the usual time comes,",
+     "speaker": "Owner"
+    },
+    {
+     "start": 120.2,
+     "end": 122.6,
+     "ja": "ベッドの脇に座ったりするんですよ。",
+     "en": "he sits down right next to the bed.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 123.0,
+     "end": 125.8,
+     "ja": "で、こう、無言の圧みたいなのがあって、",
+     "en": "And there's this silent pressure from him,",
+     "speaker": "Owner"
+    },
+    {
+     "start": 125.8,
+     "end": 128.4,
+     "ja": "「行きませんか？」みたいな感じの",
+     "en": "where this message like, \"Shall we go?\"",
+     "speaker": "Owner"
+    },
+    {
+     "start": 128.4,
+     "end": 130.3,
+     "ja": "メッセージが届くので、",
+     "en": "comes through to me,",
+     "speaker": "Owner"
+    },
+    {
+     "start": 130.3,
+     "end": 132.5,
+     "ja": "ちょっと行かざるを得ないかな。",
+     "en": "so I pretty much have no choice but to go.",
+     "speaker": "Owner"
+    }
+   ]
+  },
+  {
+   "start": 163.6,
+   "end": 184.0,
+   "title": "Keeping Breakfast Simple",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜てもいい — it is okay to",
+    "〜だけ — only/just",
+    "〜ていた — was doing (past state)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 164.0,
+     "end": 167.3,
+     "ja": "前職のときにフランスに住んでたんですけど、",
+     "en": "When I was at my previous job, I lived in France,",
+     "speaker": "Owner"
+    },
+    {
+     "start": 167.3,
+     "end": 170.5,
+     "ja": "あの、フランスって朝ご飯、本当に軽く、なんていうのかな、",
+     "en": "and breakfast in France is really light, how should I say,",
+     "speaker": "Owner"
+    },
+    {
+     "start": 170.5,
+     "end": 173.3,
+     "ja": "凝ったもの食べないんですよ。",
+     "en": "they don't eat anything elaborate.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 173.3,
+     "end": 175.7,
+     "ja": "パンとジャムとコーヒーだけ？",
+     "en": "Just bread, jam, and coffee, right?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 175.7,
+     "end": 179.8,
+     "ja": "なので、割と「あ、朝ご飯ってそんなに気合入れなくても」",
+     "en": "So I realized, \"Ah, I don't need to put so much effort into breakfast,\"",
+     "speaker": "Owner"
+    },
+    {
+     "start": 179.8,
+     "end": 183.5,
+     "ja": "「軽く食べるだけでも全然いいんだな」みたいなのは、",
+     "en": "\"and just eating something light is completely fine.\"",
+     "speaker": "Owner"
+    }
+   ]
+  },
+  {
+   "start": 307.5,
+   "end": 328.0,
+   "title": "Daily Dog Brushing Routine",
+   "level": "N3",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜だらけ — full of / covered in",
+    "〜ないと — if not / must",
+    "〜てくれる — do something for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 307.8,
+     "end": 310.8,
+     "ja": "ミックスなので、めちゃくちゃ毛が落ちるんですよ。",
+     "en": "Since he's a mixed breed, he sheds an incredible amount of fur.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 310.8,
+     "end": 313.2,
+     "ja": "あの、朝ブラッシングしないと、",
+     "en": "So if I don't brush him in the morning,",
+     "speaker": "Owner"
+    },
+    {
+     "start": 313.2,
+     "end": 316.8,
+     "ja": "家中毛だらけになっちゃうんで、もうやむなく…",
+     "en": "the whole house gets covered in fur, so it's unavoidable...",
+     "speaker": "Owner"
+    },
+    {
+     "start": 317.0,
+     "end": 318.9,
+     "ja": "すごいおとなしいので、",
+     "en": "He's very gentle and well-behaved,",
+     "speaker": "Owner"
+    },
+    {
+     "start": 318.9,
+     "end": 321.4,
+     "ja": "あの、「ブラッシングするよ」って言うと、",
+     "en": "so when I say, \"Time to brush,\"",
+     "speaker": "Owner"
+    },
+    {
+     "start": 321.4,
+     "end": 323.8,
+     "ja": "ちゃんと座ってくれたりするので、",
+     "en": "he politely sits down for me,",
+     "speaker": "Owner"
+    },
+    {
+     "start": 323.8,
+     "end": 325.7,
+     "ja": "じっと「なすがまま」って感じで、",
+     "en": "just staying still and letting me do it,",
+     "speaker": "Owner"
+    },
+    {
+     "start": 325.7,
+     "end": 327.5,
+     "ja": "これ、すごいやりやすいです。",
+     "en": "which makes it really easy to do.",
+     "speaker": "Owner"
+    }
+   ]
+  }
+ ],
+ "videoId": "82WJlfOKVZc",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

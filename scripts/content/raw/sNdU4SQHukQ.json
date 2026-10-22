@@ -1,0 +1,166 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 86.2,
+   "end": 96.8,
+   "title": "A Walk to School Quiz",
+   "level": "N4",
+   "topics": [
+    "school",
+    "friends"
+   ],
+   "grammar": [
+    "〜かける — take (time)",
+    "〜でしょうか — polite wondering/question"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 86.5,
+     "end": 87.9,
+     "ja": "ここで問題です！",
+     "en": "Here's a quiz question!",
+     "speaker": "A"
+    },
+    {
+     "start": 88.0,
+     "end": 89.9,
+     "ja": "ここから学校まで、",
+     "en": "From here to school,",
+     "speaker": "A"
+    },
+    {
+     "start": 90.0,
+     "end": 93.2,
+     "ja": "私たちは何分かけて歩くでしょうか！",
+     "en": "how many minutes will it take us to walk?",
+     "speaker": "A"
+    },
+    {
+     "start": 93.4,
+     "end": 94.9,
+     "ja": "よーい…",
+     "en": "Ready...",
+     "speaker": "A"
+    },
+    {
+     "start": 95.2,
+     "end": 96.4,
+     "ja": "スタート！",
+     "en": "Start!",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 303.8,
+   "end": 317.8,
+   "title": "Behind the School",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜前に — before doing",
+    "〜しかない — have nothing but"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 304.0,
+     "end": 307.4,
+     "ja": "じゃあ、私たちの学校の裏を紹介します！",
+     "en": "Now, let me show you the back of our school!",
+     "speaker": "A"
+    },
+    {
+     "start": 307.8,
+     "end": 310.2,
+     "ja": "紹介する前に靴紐結んでください。",
+     "en": "Please tie your shoelaces before introducing it.",
+     "speaker": "B"
+    },
+    {
+     "start": 310.4,
+     "end": 312.3,
+     "ja": "だろ？森。",
+     "en": "Right? Forest.",
+     "speaker": "B"
+    },
+    {
+     "start": 313.2,
+     "end": 315.0,
+     "ja": "森ですね。",
+     "en": "It's a forest.",
+     "speaker": "A"
+    },
+    {
+     "start": 315.2,
+     "end": 317.5,
+     "ja": "森しかない。",
+     "en": "There's nothing but a forest.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 517.5,
+   "end": 529.0,
+   "title": "Ordering at the Sushi Restaurant",
+   "level": "N5",
+   "topics": [
+    "food",
+    "friends"
+   ],
+   "grammar": [
+    "〜そう — looks like",
+    "〜に決める — to decide on"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 518.0,
+     "end": 519.8,
+     "ja": "美味しそう。",
+     "en": "That looks delicious.",
+     "speaker": "A"
+    },
+    {
+     "start": 520.0,
+     "end": 521.5,
+     "ja": "君に決めた！",
+     "en": "I choose you!",
+     "speaker": "A"
+    },
+    {
+     "start": 521.6,
+     "end": 523.0,
+     "ja": "これを押して…",
+     "en": "Press this...",
+     "speaker": "A"
+    },
+    {
+     "start": 523.1,
+     "end": 524.8,
+     "ja": "注文！",
+     "en": "Order!",
+     "speaker": "A"
+    },
+    {
+     "start": 525.8,
+     "end": 528.5,
+     "ja": "せーの、いただきます！",
+     "en": "One, two... thanks for the food!",
+     "speaker": "A"
+    }
+   ]
+  }
+ ],
+ "videoId": "sNdU4SQHukQ",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

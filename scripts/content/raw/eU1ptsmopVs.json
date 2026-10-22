@@ -1,0 +1,239 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 20.0,
+   "end": 37.5,
+   "title": "Consulting London and New York",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜べきだ — should/ought to",
+    "〜ておく — doing in advance"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 20.0,
+     "end": 23.8,
+     "ja": "さて、このニュースについてアリス解説員、お願いします。",
+     "en": "Now then, Commentator Alice, what are your thoughts on this news?",
+     "speaker": "Grey"
+    },
+    {
+     "start": 24.2,
+     "end": 26.5,
+     "ja": "まずはですね、あの簡単な方法は、",
+     "en": "First of all, a simple way would be...",
+     "speaker": "Alice"
+    },
+    {
+     "start": 26.7,
+     "end": 30.8,
+     "ja": "ロンドンさんとニューヨークさんにどうやってるのかを聞くべきだと思います。",
+     "en": "I think we should ask Mr. London and Mr. New York how they do it.",
+     "speaker": "Alice"
+    },
+    {
+     "start": 31.0,
+     "end": 32.4,
+     "ja": "「どうやってんの？」つって。",
+     "en": "Just like, \"How're you doing it?\"",
+     "speaker": "Alice"
+    },
+    {
+     "start": 32.5,
+     "end": 36.5,
+     "ja": "なるほど。アリス解説員はもう既に聞き込みを済ませているということですね。",
+     "en": "I see. So Commentator Alice has already finished asking around, then?",
+     "speaker": "Grey"
+    },
+    {
+     "start": 36.6,
+     "end": 37.5,
+     "ja": "そうなんです。",
+     "en": "That's right.",
+     "speaker": "Alice"
+    }
+   ]
+  },
+  {
+   "start": 22.8,
+   "end": 49.0,
+   "title": "Tax Hike Math",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜っけ — recall particle",
+    "〜てしまう — end up doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 22.8,
+     "end": 28.8,
+     "ja": "2019年10月に消費税10％引き上げということなのですが、",
+     "en": "In October 2019, the consumption tax will be raised to 10%, but...",
+     "speaker": "Grey"
+    },
+    {
+     "start": 29.2,
+     "end": 30.1,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Alice"
+    },
+    {
+     "start": 30.3,
+     "end": 32.8,
+     "ja": "今、消費税何パーセントでしたっけ？",
+     "en": "What percent was the consumption tax again right now?",
+     "speaker": "Grey"
+    },
+    {
+     "start": 33.2,
+     "end": 35.8,
+     "ja": "今は…8円ですかね？",
+     "en": "Right now... it's about 8 yen, right?",
+     "speaker": "Alice"
+    },
+    {
+     "start": 36.0,
+     "end": 39.8,
+     "ja": "8円！？100円のものを買った時ですね。なるほどなるほど。",
+     "en": "8 yen?! That's when buying something for 100 yen. I see, I see.",
+     "speaker": "Grey"
+    },
+    {
+     "start": 39.9,
+     "end": 40.8,
+     "ja": "そうです！",
+     "en": "Exactly!",
+     "speaker": "Alice"
+    },
+    {
+     "start": 41.0,
+     "end": 43.6,
+     "ja": "今度100円買ったら110円になってしまうわけなんですが、",
+     "en": "Next time, buying something for 100 yen will end up costing 110 yen...",
+     "speaker": "Grey"
+    },
+    {
+     "start": 43.7,
+     "end": 45.3,
+     "ja": "10倍って事ですもんね！",
+     "en": "Which means it's 10 times more!",
+     "speaker": "Alice"
+    },
+    {
+     "start": 45.4,
+     "end": 47.3,
+     "ja": "10円が10倍って事ですよね！",
+     "en": "That means 10 yen multiplied by 10, right!",
+     "speaker": "Alice"
+    },
+    {
+     "start": 47.4,
+     "end": 48.8,
+     "ja": "100円になりました。はい。",
+     "en": "It became 100 yen. Yes.",
+     "speaker": "Alice"
+    }
+   ]
+  },
+  {
+   "start": 180.8,
+   "end": 205.5,
+   "title": "The Universe's Greatest Othello Master",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜なんて — belittling/casual topic",
+    "〜から — stating reason"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 180.8,
+     "end": 182.8,
+     "ja": "世界トップですよ。",
+     "en": "The top in the world.",
+     "speaker": "Grey"
+    },
+    {
+     "start": 183.0,
+     "end": 185.4,
+     "ja": "トップに立たれたと！オセロで！",
+     "en": "They made it to the top! In Othello!",
+     "speaker": "Alice"
+    },
+    {
+     "start": 185.5,
+     "end": 186.5,
+     "ja": "オセロで。",
+     "en": "In Othello.",
+     "speaker": "Grey"
+    },
+    {
+     "start": 187.4,
+     "end": 190.3,
+     "ja": "どうした！？どうされました！？アリス解説員！？",
+     "en": "What happened?! What's wrong, Commentator Alice?!",
+     "speaker": "Grey"
+    },
+    {
+     "start": 190.5,
+     "end": 193.6,
+     "ja": "私に勝てるかなっていうところですよね。",
+     "en": "The question is, can they beat me?",
+     "speaker": "Alice"
+    },
+    {
+     "start": 193.8,
+     "end": 197.5,
+     "ja": "その笑いだったんですね！世界なんてまだまだぬるいと！",
+     "en": "So that's what that laugh was! The world is still child's play!",
+     "speaker": "Grey"
+    },
+    {
+     "start": 197.6,
+     "end": 199.4,
+     "ja": "そうですよぉ！宇宙がありますから！",
+     "en": "That's right! Because outer space is out there!",
+     "speaker": "Alice"
+    },
+    {
+     "start": 199.5,
+     "end": 202.8,
+     "ja": "アリス解説員は宇宙一のオセロマスターだと。",
+     "en": "You're saying Commentator Alice is the best Othello master in the universe.",
+     "speaker": "Grey"
+    },
+    {
+     "start": 202.9,
+     "end": 205.0,
+     "ja": "そうなんです！",
+     "en": "Exactly!",
+     "speaker": "Alice"
+    }
+   ]
+  }
+ ],
+ "videoId": "eU1ptsmopVs",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

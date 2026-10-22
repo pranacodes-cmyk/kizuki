@@ -1,0 +1,139 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 418.5,
+   "end": 436.5,
+   "title": "Renting an Electric Bicycle",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜のほうが — comparison / preference",
+    "〜ことができる — can do / ability"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 419.0,
+     "end": 423.0,
+     "ja": "電動自転車のほうが楽ですか？",
+     "en": "Is the electric bicycle easier?",
+     "speaker": "旅行者"
+    },
+    {
+     "start": 424.0,
+     "end": 431.0,
+     "ja": "はい、坂道も簡単に登ることができますよ。",
+     "en": "Yes, you can easily climb hills.",
+     "speaker": "店員"
+    },
+    {
+     "start": 431.8,
+     "end": 436.0,
+     "ja": "じゃあ、電動自転車をお願いします。",
+     "en": "Then, I will have the electric bicycle, please.",
+     "speaker": "旅行者"
+    }
+   ]
+  },
+  {
+   "start": 837.0,
+   "end": 907.0,
+   "title": "Wrong Train on the Shinkansen",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜てしまう — unintentionally do",
+    "〜みたい — looks like / seems like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 837.5,
+     "end": 841.5,
+     "ja": "あ、このチケット、時間が違いますよ。",
+     "en": "Ah, this ticket has a different time.",
+     "speaker": "先客"
+    },
+    {
+     "start": 842.8,
+     "end": 845.8,
+     "ja": "え？本当ですか？",
+     "en": "Eh? Really?",
+     "speaker": "客"
+    },
+    {
+     "start": 846.8,
+     "end": 854.0,
+     "ja": "今の時間は10時ですが、このチケットは11時です。",
+     "en": "The time now is 10:00, but this ticket is for 11:00.",
+     "speaker": "先客"
+    },
+    {
+     "start": 855.5,
+     "end": 900.2,
+     "ja": "あ！１時間あとの新幹線ですね。",
+     "en": "Ah! It's the Shinkansen one hour later.",
+     "speaker": "客"
+    },
+    {
+     "start": 901.0,
+     "end": 906.8,
+     "ja": "はい。１本早い新幹線に乗ってしまったみたいですね。",
+     "en": "Yes. It seems you got on an earlier Shinkansen.",
+     "speaker": "先客"
+    }
+   ]
+  },
+  {
+   "start": 1105.5,
+   "end": 1126.5,
+   "title": "Returning CDs at the Library",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜ていい — asking permission",
+    "〜てください — please do",
+    "〜から — because / reason"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1106.0,
+     "end": 1110.5,
+     "ja": "CDもポストに入れていいですか？",
+     "en": "Can I put CDs in the drop box too?",
+     "speaker": "利用者"
+    },
+    {
+     "start": 1111.2,
+     "end": 1120.5,
+     "ja": "いいえ、CDは壊れますから、カウンターへ持ってきてください。",
+     "en": "No, CDs might break, so please bring them to the counter.",
+     "speaker": "係員"
+    },
+    {
+     "start": 1121.5,
+     "end": 1126.0,
+     "ja": "わかりました。本だけポストに入れます。",
+     "en": "Understood. I will put only books in the drop box.",
+     "speaker": "利用者"
+    }
+   ]
+  }
+ ],
+ "videoId": "LBIZbKJUIQ0",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

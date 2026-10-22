@@ -1,0 +1,138 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 74.0,
+   "end": 89.8,
+   "title": "Self Introduction as a Japanese Teacher",
+   "level": "N3",
+   "topics": [
+    "work",
+    "school"
+   ],
+   "grammar": [
+    "〜と申します — humble introduction",
+    "〜を中心に — centered around"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 74.3,
+     "end": 77.2,
+     "ja": "こせんだ式日本語教室をご覧の皆さんこんにちは。",
+     "en": "Hello to everyone watching the Kosenda-style Japanese classroom.",
+     "speaker": "Wada-sensei"
+    },
+    {
+     "start": 77.4,
+     "end": 80.6,
+     "ja": "日本語教師の和田まきこと申します。",
+     "en": "My name is Makiko Wada, and I am a Japanese language teacher.",
+     "speaker": "Wada-sensei"
+    },
+    {
+     "start": 80.8,
+     "end": 86.0,
+     "ja": "普段は日本で働く技能実習生の方を中心に日本語を教えています。",
+     "en": "I usually teach Japanese mainly to technical intern trainees working in Japan.",
+     "speaker": "Wada-sensei"
+    },
+    {
+     "start": 86.2,
+     "end": 89.4,
+     "ja": "オンライン授業と対面授業半々でやっております。",
+     "en": "I conduct classes about half online and half in person.",
+     "speaker": "Wada-sensei"
+    }
+   ]
+  },
+  {
+   "start": 268.5,
+   "end": 287.5,
+   "title": "What Is Plain Japanese",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜やすく — easy to do",
+    "〜とか — listing examples"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 268.8,
+     "end": 269.8,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Wada-sensei"
+    },
+    {
+     "start": 269.9,
+     "end": 274.2,
+     "ja": "やさしい日本語は日本語母語話者が使うものですね。",
+     "en": "Plain Japanese is something that native Japanese speakers use.",
+     "speaker": "Wada-sensei"
+    },
+    {
+     "start": 274.4,
+     "end": 281.5,
+     "ja": "外国の方に伝わりやすく工夫された日本語のことを指します。",
+     "en": "It refers to Japanese tailored to be easy for foreigners to understand.",
+     "speaker": "Wada-sensei"
+    },
+    {
+     "start": 281.8,
+     "end": 287.0,
+     "ja": "例えば敬語を使わないですとか、「です・ます調」で言うとか、",
+     "en": "For example, not using honorific language, or speaking in the 'desu/masu' polite form,",
+     "speaker": "Wada-sensei"
+    }
+   ]
+  },
+  {
+   "start": 906.5,
+   "end": 917.0,
+   "title": "Video Outro and Call to Subscribe",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていただき — receiving a favor",
+    "〜たら — if / when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 906.8,
+     "end": 909.8,
+     "ja": "皆さん、最後まで動画をご覧いただきありがとうございます。",
+     "en": "Everyone, thank you for watching the video until the end.",
+     "speaker": "Kosenda-sensei"
+    },
+    {
+     "start": 910.0,
+     "end": 914.0,
+     "ja": "この動画良いと思ったら高評価、チャンネル登録是非よろしくお願いします。",
+     "en": "If you enjoyed this video, please like and subscribe to the channel.",
+     "speaker": "Kosenda-sensei"
+    },
+    {
+     "start": 914.2,
+     "end": 916.6,
+     "ja": "また明日の授業で会いましょう！",
+     "en": "See you in tomorrow's lesson!",
+     "speaker": "Kosenda-sensei"
+    }
+   ]
+  }
+ ],
+ "videoId": "jNJ5biMvHgU",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,181 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 41.5,
+   "end": 70.3,
+   "title": "January Events: New Year in Japan",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜にとって — for / to",
+    "〜たり〜たりする — doing things like A and B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 41.8,
+     "end": 43.8,
+     "ja": "まず、1月ですね。",
+     "en": "First is January.",
+     "speaker": "Karen"
+    },
+    {
+     "start": 44.0,
+     "end": 47.7,
+     "ja": "1月の最初は「お正月」です。",
+     "en": "The beginning of January is Oshogatsu [New Year's].",
+     "speaker": "Karen"
+    },
+    {
+     "start": 48.1,
+     "end": 54.2,
+     "ja": "だいたい1月1日から1月7日ぐらいまでお祝いします。",
+     "en": "It is celebrated roughly from January 1st to the 7th.",
+     "speaker": "Karen"
+    },
+    {
+     "start": 54.5,
+     "end": 57.5,
+     "ja": "お正月は1年の始まりで、",
+     "en": "New Year's is the start of the year,",
+     "speaker": "Karen"
+    },
+    {
+     "start": 57.7,
+     "end": 63.8,
+     "ja": "日本人にとっては、お正月が1年で一番大切なイベントです。",
+     "en": "and for Japanese people, it's the most important event of the year.",
+     "speaker": "Karen"
+    },
+    {
+     "start": 64.2,
+     "end": 66.5,
+     "ja": "家族で集まったり、",
+     "en": "Families gather together,",
+     "speaker": "Karen"
+    },
+    {
+     "start": 66.7,
+     "end": 70.2,
+     "ja": "仕事ではお客さんにあいさつに行ったりします。",
+     "en": "and in business, people visit clients to exchange greetings.",
+     "speaker": "Karen"
+    }
+   ]
+  },
+  {
+   "start": 161.5,
+   "end": 178.0,
+   "title": "Valentine's Day Traditions in Japan",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "romance"
+   ],
+   "grammar": [
+    "〜同士 — among / between",
+    "〜ことも多い — often the case that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 161.7,
+     "end": 164.2,
+     "ja": "日本のバレンタインデーでは、",
+     "en": "On Valentine's Day in Japan,",
+     "speaker": "Karen"
+    },
+    {
+     "start": 164.4,
+     "end": 169.8,
+     "ja": "女の人が男の人にチョコレートやプレゼントをあげます。",
+     "en": "women give chocolates or gifts to men.",
+     "speaker": "Karen"
+    },
+    {
+     "start": 170.0,
+     "end": 173.6,
+     "ja": "最近では女の人が友達同士で、",
+     "en": "Recently, between female friends,",
+     "speaker": "Karen"
+    },
+    {
+     "start": 173.8,
+     "end": 177.6,
+     "ja": "チョコレートやお菓子を交換することも多いです。",
+     "en": "it is also common to exchange chocolates and sweets.",
+     "speaker": "Karen"
+    }
+   ]
+  },
+  {
+   "start": 257.3,
+   "end": 285.8,
+   "title": "April: New Beginnings and Hanami",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜たり〜たりする — doing things like A and B",
+    "〜なので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 257.5,
+     "end": 260.5,
+     "ja": "4月は行事はないんですけど、",
+     "en": "There are no specific traditional events in April, but",
+     "speaker": "Karen"
+    },
+    {
+     "start": 260.7,
+     "end": 265.5,
+     "ja": "日本では4月に学校や会社が始まります。",
+     "en": "in Japan, schools and companies start in April.",
+     "speaker": "Karen"
+    },
+    {
+     "start": 265.8,
+     "end": 270.5,
+     "ja": "4月に新しい学生が学校に入ったり、",
+     "en": "In April, new students enter schools,",
+     "speaker": "Karen"
+    },
+    {
+     "start": 270.8,
+     "end": 275.5,
+     "ja": "新しい社員が会社に入ったりします。",
+     "en": "and new employees join companies.",
+     "speaker": "Karen"
+    },
+    {
+     "start": 275.8,
+     "end": 279.8,
+     "ja": "4月は新しいことを始める月です。",
+     "en": "April is a month to start new things.",
+     "speaker": "Karen"
+    },
+    {
+     "start": 280.3,
+     "end": 285.3,
+     "ja": "あとは桜の季節なので、お花見をします。",
+     "en": "Also, since it's cherry blossom season, we go flower viewing.",
+     "speaker": "Karen"
+    }
+   ]
+  }
+ ],
+ "videoId": "f6aqDZui2es",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

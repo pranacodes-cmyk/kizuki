@@ -1,0 +1,187 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 13.0,
+   "end": 26.5,
+   "title": "Heading to Osaka from Tokyo Station",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜予定 — plan to / scheduled to",
+    "〜ところ — just about to / in the middle of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.3,
+     "end": 15.0,
+     "ja": "皆さん、こんにちは。",
+     "en": "Good morning, everyone.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 15.0,
+     "end": 17.4,
+     "ja": "ただいま、東京駅に来てます。",
+     "en": "Right now, I'm at Tokyo Station.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 17.4,
+     "end": 21.0,
+     "ja": "今日からね、一泊二日でちょっとね、大阪の方に行く予定があって、",
+     "en": "Starting today, I'm scheduled to go to Osaka for a one-night, two-day trip,",
+     "speaker": "Julia"
+    },
+    {
+     "start": 21.0,
+     "end": 23.3,
+     "ja": "今から新幹線に乗るところです。",
+     "en": "and I'm just about to board the bullet train.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 23.3,
+     "end": 26.2,
+     "ja": "久々の東京駅で、ちょっとウキウキしてるんですけど、",
+     "en": "It's been a while since I was at Tokyo Station, so I'm feeling a bit excited,",
+     "speaker": "Julia"
+    }
+   ]
+  },
+  {
+   "start": 398.2,
+   "end": 413.0,
+   "title": "Waking Up Early for the World Cup",
+   "level": "N4",
+   "topics": [
+    "sports",
+    "daily"
+   ],
+   "grammar": [
+    "〜たばっか — just did",
+    "〜てほしい — want someone to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 398.5,
+     "end": 400.4,
+     "ja": "おはようございます。",
+     "en": "Good morning.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 400.4,
+     "end": 402.2,
+     "ja": "起きたばっかです。",
+     "en": "I just woke up.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 402.2,
+     "end": 404.2,
+     "ja": "今ね、サッカー見てます。",
+     "en": "Right now, I'm watching soccer.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 404.2,
+     "end": 406.4,
+     "ja": "ワールドカップ。",
+     "en": "The World Cup.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 406.4,
+     "end": 411.4,
+     "ja": "これはね、絶対見たいなと思って。スペイン戦なんだけど、勝ってほしい！",
+     "en": "I definitely wanted to watch this. It's against Spain, and I really want them to win!",
+     "speaker": "Julia"
+    },
+    {
+     "start": 411.4,
+     "end": 412.8,
+     "ja": "今、前半7分？",
+     "en": "Is it 7 minutes into the first half now?",
+     "speaker": "Julia"
+    }
+   ]
+  },
+  {
+   "start": 695.4,
+   "end": 715.5,
+   "title": "Morning View Over Osaka",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜になる — to become / turn into",
+    "〜たいと思う — think of wanting to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 695.8,
+     "end": 698.2,
+     "ja": "大阪の朝になりました〜",
+     "en": "Morning has arrived in Osaka!",
+     "speaker": "Julia"
+    },
+    {
+     "start": 698.2,
+     "end": 700.3,
+     "ja": "綺麗ですね。",
+     "en": "It's so pretty.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 700.3,
+     "end": 704.0,
+     "ja": "天気は曇りかな？晴れかな？微妙な感じだけど、",
+     "en": "Is the weather cloudy? Or sunny? It's kind of in-between, but...",
+     "speaker": "Julia"
+    },
+    {
+     "start": 704.0,
+     "end": 706.8,
+     "ja": "こんなに綺麗な景色。",
+     "en": "Such a beautiful view.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 706.8,
+     "end": 709.2,
+     "ja": "遠くの山の方まで見える。",
+     "en": "You can see all the way to the distant mountains.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 709.2,
+     "end": 710.8,
+     "ja": "駅ですね。",
+     "en": "There's the station.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 710.8,
+     "end": 715.2,
+     "ja": "はい、私の準備もね、完了したので、今から朝ご飯を食べに行きたいと思います！",
+     "en": "Okay, I'm all ready now, so I'm going to go have breakfast!",
+     "speaker": "Julia"
+    }
+   ]
+  }
+ ],
+ "videoId": "CVF1hEG0FPw",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

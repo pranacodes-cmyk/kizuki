@@ -1,0 +1,173 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.4,
+   "end": 34.8,
+   "title": "What Language Do Teachers Use?",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜として — as / in the role of",
+    "〜と思いますか — do you think that...?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.7,
+     "end": 26.3,
+     "ja": "私は日本語教師です。",
+     "en": "I am a Japanese language teacher.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 26.6,
+     "end": 30.5,
+     "ja": "外国の人に、外国語としての日本語を教えています。",
+     "en": "I teach Japanese as a foreign language to foreigners.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 30.8,
+     "end": 34.5,
+     "ja": "では、何語で日本語を教えていると思いますか？",
+     "en": "So, what language do you think I use to teach Japanese?",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 105.1,
+   "end": 127.3,
+   "title": "How Many Foreign Residents Speak English?",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜ている — ongoing state / living",
+    "〜のうち — out of / among"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 105.4,
+     "end": 107.4,
+     "ja": "では、もう一つクイズです。",
+     "en": "Now, here is another quiz.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 107.5,
+     "end": 113.8,
+     "ja": "日本に住んでいる外国人のうち、何パーセントくらいの人が英語を話せると思いますか？",
+     "en": "Among foreigners living in Japan, what percentage do you think can speak English?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 114.5,
+     "end": 116.8,
+     "ja": "1、80パーセントくらい。",
+     "en": "1: About 80%.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 117.7,
+     "end": 120.1,
+     "ja": "2、60パーセントくらい。",
+     "en": "2: About 60%.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 120.5,
+     "end": 122.9,
+     "ja": "3、40パーセントくらい。",
+     "en": "3: About 40%.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 123.5,
+     "end": 124.9,
+     "ja": "答えは3です。",
+     "en": "The answer is 3.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 125.4,
+     "end": 127.0,
+     "ja": "40パーセントくらい。",
+     "en": "Around 40%.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 230.0,
+   "end": 247.7,
+   "title": "What Is Plain Japanese?",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜なら — if / when it comes to",
+    "〜て〜て — sequential actions"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 230.3,
+     "end": 233.2,
+     "ja": "日本語なら、もっと多くの人、",
+     "en": "With Japanese, many more people—",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 233.3,
+     "end": 235.4,
+     "ja": "外国人にも、子供にも、",
+     "en": "both foreigners and children,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 235.6,
+     "end": 240.0,
+     "ja": "そして災害が起きて慌てている多くの人にもすぐ分かります。",
+     "en": "and also people panicking in a disaster—can immediately understand.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 240.4,
+     "end": 242.8,
+     "ja": "相手に合わせる優しい気持ちで、",
+     "en": "With a considerate mindset adapted to the listener,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 243.0,
+     "end": 245.9,
+     "ja": "簡単で優しい表現を選んで伝えるのが、",
+     "en": "choosing simple, gentle expressions to communicate—",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 246.0,
+     "end": 247.4,
+     "ja": "やさしい日本語です。",
+     "en": "that is Plain Japanese.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "RKhk-iV4OPw",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

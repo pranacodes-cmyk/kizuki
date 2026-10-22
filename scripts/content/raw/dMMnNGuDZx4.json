@@ -1,0 +1,230 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 74.8,
+   "end": 90.8,
+   "title": "Ordering Skewers at an Izakaya",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜っけ — confirming information",
+    "〜で — specifying preference/choice"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 75.1,
+     "end": 76.6,
+     "ja": "あ、先輩いいすか？",
+     "en": "Ah, boss, can I order?",
+     "speaker": "Matsuoka"
+    },
+    {
+     "start": 76.7,
+     "end": 77.3,
+     "ja": "はい。",
+     "en": "Sure.",
+     "speaker": "Cook"
+    },
+    {
+     "start": 77.3,
+     "end": 79.4,
+     "ja": "いつもの感じで、すいません。タン、カシラ、",
+     "en": "The usual, please. Tongue and cheek,",
+     "speaker": "Matsuoka"
+    },
+    {
+     "start": 79.4,
+     "end": 80.2,
+     "ja": "タン、カシラ。",
+     "en": "Tongue and cheek.",
+     "speaker": "Cook"
+    },
+    {
+     "start": 80.2,
+     "end": 81.0,
+     "ja": "塩で。",
+     "en": "With salt.",
+     "speaker": "Matsuoka"
+    },
+    {
+     "start": 81.4,
+     "end": 82.9,
+     "ja": "シロをタレで。",
+     "en": "And pork intestine with sauce.",
+     "speaker": "Matsuoka"
+    },
+    {
+     "start": 82.9,
+     "end": 83.7,
+     "ja": "シロ、タレで。",
+     "en": "Intestine with sauce.",
+     "speaker": "Cook"
+    },
+    {
+     "start": 83.8,
+     "end": 85.2,
+     "ja": "はい。まずそれください。",
+     "en": "Yeah. I'll start with those.",
+     "speaker": "Matsuoka"
+    },
+    {
+     "start": 85.2,
+     "end": 86.1,
+     "ja": "おっす。",
+     "en": "Got it.",
+     "speaker": "Cook"
+    },
+    {
+     "start": 86.3,
+     "end": 88.1,
+     "ja": "あ、あと漬物ありましたっけ？",
+     "en": "Oh, and did you have pickles?",
+     "speaker": "Matsuoka"
+    },
+    {
+     "start": 88.2,
+     "end": 89.0,
+     "ja": "あります。",
+     "en": "We do.",
+     "speaker": "Cook"
+    },
+    {
+     "start": 89.0,
+     "end": 90.4,
+     "ja": "おっす、お願いします。",
+     "en": "Great, I'll take that too.",
+     "speaker": "Matsuoka"
+    }
+   ]
+  },
+  {
+   "start": 103.4,
+   "end": 114.8,
+   "title": "Why I Love Standing Bars",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜かと言うと — if you ask why",
+    "〜ばっかり — doing only/nothing but"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 103.7,
+     "end": 105.3,
+     "ja": "立ち飲みが好きなのね。",
+     "en": "I really like standing bars, you know.",
+     "speaker": "Matsuoka"
+    },
+    {
+     "start": 105.4,
+     "end": 107.2,
+     "ja": "なんで立ち飲みが好きかって言うと、",
+     "en": "If you ask why I like standing bars,",
+     "speaker": "Matsuoka"
+    },
+    {
+     "start": 107.3,
+     "end": 108.8,
+     "ja": "立ち飲みで飲んでると、",
+     "en": "when you drink standing up,",
+     "speaker": "Matsuoka"
+    },
+    {
+     "start": 108.8,
+     "end": 110.5,
+     "ja": "ベロベロにならないでしょ？",
+     "en": "you don't get completely wasted, right?",
+     "speaker": "Matsuoka"
+    },
+    {
+     "start": 110.6,
+     "end": 111.4,
+     "ja": "なるほど。",
+     "en": "I see.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 111.7,
+     "end": 114.3,
+     "ja": "だからどこ行っても立ち飲みばっかり。",
+     "en": "So wherever I go, it's always standing bars.",
+     "speaker": "Matsuoka"
+    }
+   ]
+  },
+  {
+   "start": 811.8,
+   "end": 829.8,
+   "title": "Beer and Skewers on an Autumn Evening",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜っていう — the concept/act of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 812.4,
+     "end": 814.5,
+     "ja": "いいじゃん。この秋をちょっと、",
+     "en": "This is great. Feeling autumn,",
+     "speaker": "Matsuoka"
+    },
+    {
+     "start": 814.6,
+     "end": 816.6,
+     "ja": "まだ暑いけど秋を感じながら、",
+     "en": "even though it's still warm,",
+     "speaker": "Matsuoka"
+    },
+    {
+     "start": 816.8,
+     "end": 818.7,
+     "ja": "外でビールを煽って、",
+     "en": "knocking back beer outside,",
+     "speaker": "Matsuoka"
+    },
+    {
+     "start": 818.8,
+     "end": 820.7,
+     "ja": "モツをかじるっていう。",
+     "en": "and nibbling on offal skewers.",
+     "speaker": "Matsuoka"
+    },
+    {
+     "start": 820.9,
+     "end": 822.8,
+     "ja": "正しい大人になったよ、俺。",
+     "en": "I've turned into a proper adult.",
+     "speaker": "Matsuoka"
+    },
+    {
+     "start": 827.3,
+     "end": 829.3,
+     "ja": "新橋最高！",
+     "en": "Shinbashi is the best!",
+     "speaker": "Matsuoka"
+    }
+   ]
+  }
+ ],
+ "videoId": "dMMnNGuDZx4",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

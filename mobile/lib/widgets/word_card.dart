@@ -15,6 +15,7 @@ import 'ask_sheet.dart';
 import 'common.dart';
 import 'tour.dart';
 import 'ui.dart';
+import 'word_level.dart';
 
 const posNames = {
   'noun': 'noun', 'verb': 'verb', 'adj': 'adjective', 'i-adj': 'い-adjective', 'na-adj': 'な-adjective', 'adverb': 'adverb', 'particle': 'particle',
@@ -46,7 +47,7 @@ WordInput wordInputOf(m.Clip clip, int li, int wi, Content content, m.ClipNotes?
 }
 
 Future<void> showWordCard(BuildContext context, {required m.Clip clip, required int line, required int idx, required Content content, required m.ClipNotes? notes}) {
-  return showMimiSheet<void>(context, (_) => WordCard(clip: clip, line: line, idx: idx, content: content, notes: notes), maxHeightFactor: 0.78);
+  return showMimiSheet<void>(context, (_) => WordCard(clip: clip, line: line, idx: idx, content: content, notes: notes), maxHeightFactor: 0.72);
 }
 
 /// Word details sheet: meaning, explanation in context, examples ("hear it again") and notes.
@@ -120,12 +121,10 @@ class _WordCardState extends State<WordCard> {
     final reading = entry?.r ?? w.r;
     final saved = app.words[key];
     final live = saved != null && saved.status != 'removed' ? saved : null;
-    final status = live == null ? 'new' : (live.status == 'ignored' ? 'ignored' : wordStatus(status: live.status, card: live.card));
+    final level = live == null ? -1 : wordLevel(status: live.status, card: live.card);
     final note = widget.notes?.words['${widget.line}.${widget.idx}'];
     final lineNote = widget.notes?.lines['${widget.line}'];
     final firstPos = entry != null && entry.m.isNotEmpty && entry.m.first.pos.isNotEmpty ? entry.m.first.pos.first : null;
-    final now = DateTime.now().millisecondsSinceEpoch;
-
     return TourAnchor(
       id: 'card',
       child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
@@ -153,10 +152,11 @@ class _WordCardState extends State<WordCard> {
           ),
         ]),
       ),
+      // One status button (Kiku's level badge) + the quick "I know it" — never a cramped row.
       Padding(
         padding: const EdgeInsets.fromLTRB(20, 12, 20, 0),
-        child: Row(children: live == null || live.status == 'ignored'
-            ? [
+        child: live == null
+            ? Row(children: [
                 Expanded(
                   child: Button3D(
                     height: 44,
@@ -165,30 +165,15 @@ class _WordCardState extends State<WordCard> {
                   ),
                 ),
                 const SizedBox(width: 8),
-                _Chip(
-                  icon: LucideIcons.check,
-                  iconColor: T.success,
-                  label: 'I know it',
-                  onTap: () => live != null ? app.setWordStatus(key, 'known') : app.markKnown([_input()]),
-                ),
-              ]
-            : [
-                Expanded(
-                  child: Container(
-                    height: 44,
-                    padding: const EdgeInsets.symmetric(horizontal: 12),
-                    decoration: BoxDecoration(color: status == 'known' ? T.successSoft : T.primary.withValues(alpha: 0.15), borderRadius: BorderRadius.circular(12)),
-                    alignment: Alignment.centerLeft,
-                    child: status == 'known'
-                        ? Row(children: [const Icon(LucideIcons.check, size: 16, color: T.success), const SizedBox(width: 6), Text('Known', style: txt(14, w: FontWeight.w800, c: T.success))])
-                        : Text('Learning · review ${live.card.due <= now ? 'now' : 'in ${formatInterval(live.card.due - now)}'}', maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(14, w: FontWeight.w800, c: T.primary)),
-                  ),
-                ),
-                if (status != 'known') ...[const SizedBox(width: 8), _Chip(icon: LucideIcons.check, iconColor: T.success, label: 'Known', onTap: () => app.setWordStatus(key, 'known'))],
+                _Chip(icon: LucideIcons.check, iconColor: T.success, label: 'I know it', onTap: () => app.markKnown([_input()])),
+              ])
+            : Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
+                Flexible(child: LevelPill(wordKey: key, word: head)),
                 const SizedBox(width: 8),
-                _SquareIcon(icon: LucideIcons.eyeOff, color: T.muted, label: 'Ignore word', onTap: () => app.setWordStatus(key, 'ignored')),
-                const SizedBox(width: 8),
-                _SquareIcon(icon: LucideIcons.trash2, color: T.danger, label: 'Remove word', onTap: () => app.removeWord(key)),
+                if (level >= 1 && level <= 4)
+                  _Chip(icon: LucideIcons.check, iconColor: T.success, label: 'I know it', onTap: () => app.setWordLevel(key, 5))
+                else
+                  _Chip(icon: LucideIcons.rotateCcw, iconColor: T.primary, label: 'Learn again', onTap: () => app.setWordLevel(key, 1)),
               ]),
       ),
       const SizedBox(height: 16),
@@ -426,20 +411,6 @@ class _RoundIcon extends StatelessWidget {
         button: true,
         label: label,
         child: Press(onTap: onTap, child: Container(width: 44, height: 44, decoration: const BoxDecoration(color: T.surface2, shape: BoxShape.circle), child: Icon(icon, size: 20))),
-      );
-}
-
-class _SquareIcon extends StatelessWidget {
-  final IconData icon;
-  final Color color;
-  final String label;
-  final VoidCallback onTap;
-  const _SquareIcon({required this.icon, required this.color, required this.label, required this.onTap});
-  @override
-  Widget build(BuildContext context) => Semantics(
-        button: true,
-        label: label,
-        child: Press(onTap: onTap, child: Container(width: 44, height: 44, decoration: BoxDecoration(color: T.surface2, borderRadius: BorderRadius.circular(12)), child: Icon(icon, size: 16, color: color))),
       );
 }
 

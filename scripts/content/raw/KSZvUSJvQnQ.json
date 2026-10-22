@@ -1,0 +1,115 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 256.3,
+   "end": 305.2,
+   "title": "A New Mission and Senior Disciple",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "friends"
+   ],
+   "grammar": [
+    "〜だ — plain copula assertion",
+    "〜が — subject marker"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 256.6,
+     "end": 257.6,
+     "ja": "シャオヘイ。",
+     "en": "Xiaohei.",
+     "speaker": "Wuxian"
+    },
+    {
+     "start": 257.8,
+     "end": 258.7,
+     "ja": "師匠！",
+     "en": "Master!",
+     "speaker": "Xiaohei"
+    },
+    {
+     "start": 258.9,
+     "end": 260.4,
+     "ja": "新しい任務だ。",
+     "en": "You have a new mission.",
+     "speaker": "Wuxian"
+    },
+    {
+     "start": 260.8,
+     "end": 262.5,
+     "ja": "姉弟子のルーイエ。",
+     "en": "This is your senior disciple, Luoyi.",
+     "speaker": "Wuxian"
+    },
+    {
+     "start": 263.2,
+     "end": 264.8,
+     "ja": "これが弟弟子？",
+     "en": "This is the junior disciple?",
+     "speaker": "Luoyi"
+    }
+   ]
+  },
+  {
+   "start": 328.7,
+   "end": 340.6,
+   "title": "Finding the True Culprit",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "friends"
+   ],
+   "grammar": [
+    "〜とは — unexpected event marker",
+    "〜のようだ — looks like / seems like",
+    "〜ばいい — what should one do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 329.0,
+     "end": 330.8,
+     "ja": "ナタ様も来るとは。",
+     "en": "To think that Lord Nezha would come too.",
+     "speaker": "Spirit"
+    },
+    {
+     "start": 331.0,
+     "end": 333.0,
+     "ja": "重大な任務のようですね。",
+     "en": "It seems to be a major mission.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 333.3,
+     "end": 335.0,
+     "ja": "厳しく鍛えたんだな。",
+     "en": "You really trained him strictly.",
+     "speaker": "Luoyi"
+    },
+    {
+     "start": 335.9,
+     "end": 337.8,
+     "ja": "真犯人を探したいでしょ。",
+     "en": "You want to find the real culprit, right?",
+     "speaker": "Luoyi"
+    },
+    {
+     "start": 338.0,
+     "end": 340.2,
+     "ja": "分かった。どうすればいい？",
+     "en": "Got it. What should I do?",
+     "speaker": "Xiaohei"
+    }
+   ]
+  }
+ ],
+ "videoId": "KSZvUSJvQnQ",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

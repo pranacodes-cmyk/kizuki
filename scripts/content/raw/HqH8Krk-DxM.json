@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 68.5,
+   "end": 84.5,
+   "title": "Dragonflies Outside the Window",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜ています — continuous action",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 68.7,
+     "end": 72.7,
+     "ja": "今、あの、外を見てます。今、窓の外を見てます。",
+     "en": "Right now, I'm looking outside. Right now, I'm looking out the window.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 73.0,
+     "end": 77.0,
+     "ja": "たくさんのトンボがいますね。トンボ。",
+     "en": "There are lots of dragonflies, aren't there? Dragonflies.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 77.3,
+     "end": 81.0,
+     "ja": "トンボ、分からない人はちょっとチェックしてください。トンボ。",
+     "en": "If you don't know what tombo means, please look it up. Dragonfly.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 81.3,
+     "end": 84.3,
+     "ja": "トンボは夏の虫ですね。",
+     "en": "Dragonflies are summer insects, you know.",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 272.8,
+   "end": 289.8,
+   "title": "Eating Tonkotsu Ramen in Kyushu",
+   "level": "N5",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜ですよね — seeking agreement",
+    "〜けど — but / although"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 273.0,
+     "end": 276.5,
+     "ja": "えー、豚骨ラーメンを食べました。",
+     "en": "Um, I ate tonkotsu ramen.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 277.2,
+     "end": 281.5,
+     "ja": "ま、九州は豚骨ラーメンが有名ですよね。",
+     "en": "Well, Kyushu is famous for tonkotsu ramen, right?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 282.0,
+     "end": 284.2,
+     "ja": "白いスープですね。",
+     "en": "It has white soup.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 284.5,
+     "end": 287.3,
+     "ja": "で、食べたけど、まあまあまあ、まあ美味しかった。",
+     "en": "And so I ate it, and well, it was pretty good.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 287.5,
+     "end": 289.5,
+     "ja": "あの、大丈夫でしたね。",
+     "en": "Um, it went down fine.",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 374.5,
+   "end": 397.8,
+   "title": "Explaining Japanese Nikujaga",
+   "level": "N5",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜とか — listing examples (and/or)",
+    "〜みたいな — like / similar to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 374.8,
+     "end": 378.5,
+     "ja": "えー、肉じゃが。肉じゃがね。",
+     "en": "Um, nikujaga. Meat and potato stew.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 378.8,
+     "end": 383.2,
+     "ja": "肉じゃがは、まあ牛肉のと、牛肉と野菜ですね。",
+     "en": "Nikujaga is, well, beef and... beef and vegetables.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 383.4,
+     "end": 387.0,
+     "ja": "ジャガイモ、ニンジン、玉ねぎね。",
+     "en": "Potatoes, carrots, and onions.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 387.5,
+     "end": 393.5,
+     "ja": "ま、味は醤油とか、みりんとかの、ちょっと甘い醤油の味みたいな。",
+     "en": "Well, the flavor is from soy sauce and mirin—kind of a slightly sweet soy sauce taste.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 394.0,
+     "end": 397.5,
+     "ja": "感じですね。すき焼きみたいな味。",
+     "en": "It's like that. A flavor like sukiyaki.",
+     "speaker": "Teppei"
+    }
+   ]
+  }
+ ],
+ "videoId": "HqH8Krk-DxM",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

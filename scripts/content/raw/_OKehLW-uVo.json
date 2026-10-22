@@ -1,0 +1,175 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 433.4,
+   "end": 458.8,
+   "title": "What She Purchased",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜たばかり — just did something",
+    "〜んです — explanatory tone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 433.7,
+     "end": 438.0,
+     "ja": "ということで私はまず、今回購入したのは、",
+     "en": "So, first of all, what I purchased this time,",
+     "speaker": "Nobe-chan"
+    },
+    {
+     "start": 438.1,
+     "end": 441.2,
+     "ja": "ここにね、ちょっと箱が並んでるんですけれども、",
+     "en": "there are some boxes lined up here,",
+     "speaker": "Nobe-chan"
+    },
+    {
+     "start": 441.2,
+     "end": 446.5,
+     "ja": "3月25日に発売をしたこの、最新のiPad Proと、",
+     "en": "is the latest iPad Pro released on March 25th,",
+     "speaker": "Nobe-chan"
+    },
+    {
+     "start": 446.7,
+     "end": 453.0,
+     "ja": "あとは、本当に先日発売されたばかりのこちらのMagic Keyboardと、",
+     "en": "and this Magic Keyboard that was just released the other day,",
+     "speaker": "Nobe-chan"
+    },
+    {
+     "start": 453.5,
+     "end": 458.4,
+     "ja": "あとは、このApple Pencilの３点を購入しました。",
+     "en": "and this Apple Pencil—I bought these three items.",
+     "speaker": "Nobe-chan"
+    }
+   ]
+  },
+  {
+   "start": 707.4,
+   "end": 721.8,
+   "title": "Ease of Typing",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜やすい — easy to do",
+    "〜てみる — try doing",
+    "〜って言うと — speaking of / if you ask why"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 707.6,
+     "end": 710.5,
+     "ja": "で、実際の入力のしやすさ、打ちやすさなんですけれども、",
+     "en": "Now, as for the ease of input and typing,",
+     "speaker": "Nobe-chan"
+    },
+    {
+     "start": 710.7,
+     "end": 714.3,
+     "ja": "私は実際使ってみて、すごく打ちやすいなっていうふうに思いました。",
+     "en": "having actually tried using it, I felt it's very easy to type on.",
+     "speaker": "Nobe-chan"
+    },
+    {
+     "start": 714.5,
+     "end": 718.4,
+     "ja": "何でかって言うと、キーとキーの間隔が意外としっかりあって、",
+     "en": "The reason is that the spacing between the keys is surprisingly good,",
+     "speaker": "Nobe-chan"
+    },
+    {
+     "start": 718.6,
+     "end": 721.4,
+     "ja": "すごく打ちやすいなっていうふうに思いました。",
+     "en": "so I felt it's really easy to type on.",
+     "speaker": "Nobe-chan"
+    }
+   ]
+  },
+  {
+   "start": 1110.0,
+   "end": 1128.9,
+   "title": "How to Charge",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ことができる — can do / able to do",
+    "〜ば — conditional (if / when)",
+    "〜てもらう — have someone do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1110.2,
+     "end": 1112.4,
+     "ja": "そして充電の方法なんですけれども、",
+     "en": "And as for how to charge it,",
+     "speaker": "Nobe-chan"
+    },
+    {
+     "start": 1112.5,
+     "end": 1114.2,
+     "ja": "iPad Proだけ充電するときには、",
+     "en": "when charging only the iPad Pro,",
+     "speaker": "Nobe-chan"
+    },
+    {
+     "start": 1114.3,
+     "end": 1118.1,
+     "ja": "ここのiPad Proの下の部分に挿して充電することができるんですけど、",
+     "en": "you can plug it into the bottom part of the iPad Pro to charge,",
+     "speaker": "Nobe-chan"
+    },
+    {
+     "start": 1118.3,
+     "end": 1121.0,
+     "ja": "もしこのままの状態で充電する場合には、",
+     "en": "but if you charge it in this attached state,",
+     "speaker": "Nobe-chan"
+    },
+    {
+     "start": 1121.2,
+     "end": 1123.0,
+     "ja": "ぐっとひっくり返して、",
+     "en": "turn it over firmly,",
+     "speaker": "Nobe-chan"
+    },
+    {
+     "start": 1123.2,
+     "end": 1126.5,
+     "ja": "ここのキーボードのね、ここの部分に挿してもらえれば、",
+     "en": "and if you plug it in right here on the keyboard,",
+     "speaker": "Nobe-chan"
+    },
+    {
+     "start": 1126.6,
+     "end": 1128.5,
+     "ja": "全部一緒に充電することができます。",
+     "en": "you can charge everything together.",
+     "speaker": "Nobe-chan"
+    }
+   ]
+  }
+ ],
+ "videoId": "_OKehLW-uVo",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

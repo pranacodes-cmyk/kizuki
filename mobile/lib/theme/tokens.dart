@@ -22,7 +22,10 @@ class T {
   static const dangerSoft = Color(0xFF3A2124);
   static const info = Color(0xFF5DA9FF);
   static const gold = Color(0xFFFFC53D);
-  static const learning = Color(0xFFFF9F5A);
+  static const learning = Color(0xFFFF9F5A); // word level 1
+  static const level2 = Color(0xFFE58A4E);
+  static const level3 = Color(0xFFBE7648);
+  static const level4 = Color(0xFF93623F);
   static const known = Color(0xFF4CD07D);
   static const stage = Color(0xFF0E0F12);
 

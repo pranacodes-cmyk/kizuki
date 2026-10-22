@@ -1,0 +1,194 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 20.0,
+   "end": 42.5,
+   "title": "Valentine's Day in Japanese",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜てます — contracted present progressive (te imasu)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 20.4,
+     "end": 25.5,
+     "ja": "2月14日の金曜日は何の日ですか？",
+     "en": "What day is Friday, February 14th?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 26.0,
+     "end": 28.0,
+     "ja": "そう、バレンタインデー。",
+     "en": "That's right, Valentine's Day.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 28.3,
+     "end": 32.5,
+     "ja": "日本語では「バレンタインデー」ですね。",
+     "en": "In Japanese, it's called 'Barentain dee'.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 33.0,
+     "end": 36.2,
+     "ja": "恋人と、彼氏彼女と、",
+     "en": "With your lover, your boyfriend or girlfriend,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 36.4,
+     "end": 38.3,
+     "ja": "または旦那さん、奥さんと、",
+     "en": "or with your husband or wife,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 38.4,
+     "end": 42.1,
+     "ja": "ロマンチックな時間を過ごせてますか？",
+     "en": "are you spending some romantic time?",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 208.5,
+   "end": 236.0,
+   "title": "My Morning Routine",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜ている — ongoing action / habit"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 209.0,
+     "end": 213.3,
+     "ja": "私は平日、月曜日から金曜までは、",
+     "en": "On weekdays, from Monday through Friday,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 213.5,
+     "end": 217.2,
+     "ja": "大体5時半から6時の間に起きます。",
+     "en": "I usually wake up between 5:30 and 6:00.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 217.6,
+     "end": 221.2,
+     "ja": "そして、まあ朝一番に水を飲んで、",
+     "en": "And then, first thing in the morning, I drink water,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 221.5,
+     "end": 225.0,
+     "ja": "シャワーをして、服を着替えて、",
+     "en": "take a shower, change clothes,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 225.2,
+     "end": 227.4,
+     "ja": "そのあと朝ご飯なんですけれども、",
+     "en": "and then it's breakfast, but...",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 227.6,
+     "end": 232.0,
+     "ja": "朝ご飯を食べる時に、まず必ずコーヒーを作ります。",
+     "en": "When I eat breakfast, I always make coffee first.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 232.5,
+     "end": 235.5,
+     "ja": "毎日、必ずコーヒーを飲みます。",
+     "en": "Every day, without fail, I drink coffee.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 320.0,
+   "end": 345.5,
+   "title": "What Is Asakatsu?",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜という — called / known as",
+    "〜て — connecting actions in sequence"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 320.3,
+     "end": 324.0,
+     "ja": "さて、日本では「朝活」という言葉があります。",
+     "en": "Now, in Japan, there is a word called 'asakatsu'.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 324.2,
+     "end": 327.2,
+     "ja": "これはまさしく朝の活動、",
+     "en": "This is literally 'morning activities',",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 327.4,
+     "end": 333.5,
+     "ja": "朝の活動が短くなって「朝活」って言うんですけれども、",
+     "en": "morning activities shortened to 'asakatsu',",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 334.0,
+     "end": 339.2,
+     "ja": "多くの人が早起きして、少しでも早く起きて、",
+     "en": "where many people wake up early, even a little earlier,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 339.4,
+     "end": 342.3,
+     "ja": "その時間、自分の勉強や、",
+     "en": "and spend that time on their studies,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 342.5,
+     "end": 345.0,
+     "ja": "仕事や趣味に使っている。",
+     "en": "or work, or hobbies.",
+     "speaker": "Noriko"
+    }
+   ]
+  }
+ ],
+ "videoId": "0_xDfisF1lI",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

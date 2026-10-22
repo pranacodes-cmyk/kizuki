@@ -1,0 +1,310 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 118.5,
+   "end": 119.8,
+   "title": "How Popular Are Sticker Books?",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜てます — ongoing/habitual action (contraction of 〜ています)",
+    "〜ぐらい — approximately / around"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 118.5,
+     "end": 122.0,
+     "ja": "あの、１つ質問なんですけど、シール帳って知ってますか？",
+     "en": "Um, I have a question: do you know about sticker books?",
+     "speaker": "Hiroaki"
+    },
+    {
+     "start": 122.1,
+     "end": 123.1,
+     "ja": "知ってます。",
+     "en": "I know about them.",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 123.2,
+     "end": 124.1,
+     "ja": "やってますか？",
+     "en": "Do you have one?",
+     "speaker": "Hiroaki"
+    },
+    {
+     "start": 124.2,
+     "end": 125.2,
+     "ja": "やってます。",
+     "en": "I do.",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 125.3,
+     "end": 126.5,
+     "ja": "今持ってますか？",
+     "en": "Do you have it with you right now?",
+     "speaker": "Hiroaki"
+    },
+    {
+     "start": 126.6,
+     "end": 128.0,
+     "ja": "今持ってないです。",
+     "en": "I don't have it on me right now.",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 128.1,
+     "end": 129.0,
+     "ja": "あなたは？",
+     "en": "What about you?",
+     "speaker": "Hiroaki"
+    },
+    {
+     "start": 129.1,
+     "end": 130.0,
+     "ja": "やってないです。",
+     "en": "I don't do it.",
+     "speaker": "Girl B"
+    },
+    {
+     "start": 130.1,
+     "end": 132.0,
+     "ja": "どれぐらい流行ってる？",
+     "en": "How popular is it?",
+     "speaker": "Hiroaki"
+    },
+    {
+     "start": 132.1,
+     "end": 133.5,
+     "ja": "結構みんなやってます。",
+     "en": "Pretty much everyone does it.",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 133.6,
+     "end": 135.5,
+     "ja": "何歳ぐらいで流行ってる？",
+     "en": "Among what age group is it popular?",
+     "speaker": "Hiroaki"
+    },
+    {
+     "start": 135.6,
+     "end": 138.0,
+     "ja": "小学生も高校生もみんなやってます。",
+     "en": "Elementary schoolers, high schoolers—everyone does it.",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 138.2,
+     "end": 139.5,
+     "ja": "だそうです。",
+     "en": "Apparently so.",
+     "speaker": "Hiroaki"
+    }
+   ]
+  },
+  {
+   "start": 178.5,
+   "end": 203.2,
+   "title": "A Harsh Take on Sticker Books",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜がために — in order to",
+    "〜たがる — tend to want to / show signs of wanting to",
+    "〜てもいい — permission (may I / is it okay to)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 178.8,
+     "end": 181.0,
+     "ja": "シール帳使ってますか？",
+     "en": "Do you use sticker books?",
+     "speaker": "Hiroaki"
+    },
+    {
+     "start": 181.1,
+     "end": 182.4,
+     "ja": "使ってないでーす。使ってないです。",
+     "en": "Nope, not using it. I don't use one.",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 182.5,
+     "end": 185.0,
+     "ja": "使ってない理由とかって聞いてもいいですか？",
+     "en": "May I ask why you don't use one?",
+     "speaker": "Hiroaki"
+    },
+    {
+     "start": 185.1,
+     "end": 187.5,
+     "ja": "興味ないです。お金の無駄遣い。",
+     "en": "I'm not interested. It's a waste of money.",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 187.6,
+     "end": 190.5,
+     "ja": "無駄遣い。え、シール帳交換してる人とかいるじゃないですか。",
+     "en": "A waste of money! But you know, some people trade sticker books, right?",
+     "speaker": "Hiroaki"
+    },
+    {
+     "start": 190.6,
+     "end": 192.0,
+     "ja": "なんでやるんですかね、あれ？",
+     "en": "Why do they do that?",
+     "speaker": "Hiroaki"
+    },
+    {
+     "start": 192.1,
+     "end": 193.5,
+     "ja": "知らないです。承認欲求。",
+     "en": "No idea. Desire for approval.",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 193.6,
+     "end": 195.8,
+     "ja": "やばい、終わったｗｗ 承認欲求？",
+     "en": "That's brutal, game over lol. Desire for approval?",
+     "speaker": "Hiroaki"
+    },
+    {
+     "start": 196.0,
+     "end": 198.5,
+     "ja": "「かわいいの持ってる」っていう承認欲求満たしたいがために、",
+     "en": "To satisfy their desire for approval like, 'I have cute stuff,'",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 198.6,
+     "end": 200.8,
+     "ja": "「私こういうの持ってるよー」って思ってると思います。",
+     "en": "I think they just want to show off, like, 'Look at what I have!'",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 200.9,
+     "end": 203.0,
+     "ja": "ありがとうございます。時間取らせました。",
+     "en": "Thank you very much. Sorry for taking up your time.",
+     "speaker": "Hiroaki"
+    }
+   ]
+  },
+  {
+   "start": 213.2,
+   "end": 241.5,
+   "title": "Where to Buy Sticker Books",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜って — informal topic marker / quoting particle",
+    "〜とか — listing examples (like ... or ...)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 213.5,
+     "end": 215.8,
+     "ja": "ちょっとあの、シール帳やってますか？",
+     "en": "Um, do you keep a sticker book?",
+     "speaker": "Hiroaki"
+    },
+    {
+     "start": 215.9,
+     "end": 217.3,
+     "ja": "やってまーす。",
+     "en": "Yes, I do!",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 217.4,
+     "end": 220.0,
+     "ja": "やってます？！どこで買うんですか？シール帳って。",
+     "en": "You do?! Where do you buy them, sticker books?",
+     "speaker": "Hiroaki"
+    },
+    {
+     "start": 228.0,
+     "end": 229.0,
+     "ja": "ビレバン。",
+     "en": "Vilevan (Village Vanguard).",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 229.1,
+     "end": 230.0,
+     "ja": "ん？",
+     "en": "Huh?",
+     "speaker": "Hiroaki"
+    },
+    {
+     "start": 230.1,
+     "end": 231.0,
+     "ja": "ビレバン。",
+     "en": "Vilevan.",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 231.1,
+     "end": 232.5,
+     "ja": "ビレバン？",
+     "en": "Vilevan?",
+     "speaker": "Hiroaki"
+    },
+    {
+     "start": 232.6,
+     "end": 234.5,
+     "ja": "ビレバンってどこですか？渋谷？原宿？",
+     "en": "Where is Vilevan? Shibuya? Harajuku?",
+     "speaker": "Hiroaki"
+    },
+    {
+     "start": 234.6,
+     "end": 236.5,
+     "ja": "なんかイオンとかにある。",
+     "en": "Like, inside Aeon malls and stuff.",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 236.6,
+     "end": 239.5,
+     "ja": "イオンとかに？え、もう全国のイオンにも置いてあるみたいな。",
+     "en": "In Aeon malls? Ah, so they're in Aeon malls nationwide.",
+     "speaker": "Hiroaki"
+    },
+    {
+     "start": 239.6,
+     "end": 241.0,
+     "ja": "なるほどね。",
+     "en": "I see.",
+     "speaker": "Hiroaki"
+    }
+   ]
+  }
+ ],
+ "videoId": "HmW33V6Z2fU",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

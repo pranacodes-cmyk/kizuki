@@ -1,0 +1,101 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 46.5,
+   "end": 55.0,
+   "title": "Introducing a Friend",
+   "level": "N5",
+   "topics": [
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "こちらは〜です — this is (polite introduction)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 47.0,
+     "end": 50.0,
+     "ja": "こちらは私の友達です。",
+     "en": "This is a friend of mine.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 51.2,
+     "end": 54.5,
+     "ja": "こちらは私の友達です。",
+     "en": "This is a friend of mine.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 419.5,
+   "end": 429.1,
+   "title": "Is Japanese Difficult?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜は〜ですか — is [topic] [adjective]?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 420.0,
+     "end": 423.7,
+     "ja": "日本語は難しいですか？",
+     "en": "Is Japanese difficult?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 425.1,
+     "end": 428.6,
+     "ja": "日本語は難しいですか？",
+     "en": "Is Japanese difficult?",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 604.5,
+   "end": 613.6,
+   "title": "Do You Want to Get Lunch?",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜に行く — to go to do something",
+    "〜ますか — polite question"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 605.0,
+     "end": 608.6,
+     "ja": "ランチを食べに行きますか？",
+     "en": "Do you want to get some lunch?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 609.5,
+     "end": 613.1,
+     "ja": "ランチを食べに行きますか？",
+     "en": "Do you want to get some lunch?",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "Lh3UyAXZDaw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,153 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 98.7,
+   "end": 109.8,
+   "title": "Toast After Work",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜様でした — expressing appreciation for someone's efforts",
+    "〜にどうぞ — please feel free to have..."
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 99.0,
+     "end": 101.4,
+     "ja": "奥のお席にどうぞ。",
+     "en": "Please take a seat in the back.",
+     "speaker": "Server"
+    },
+    {
+     "start": 101.6,
+     "end": 102.7,
+     "ja": "どうも。",
+     "en": "Thank you.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 103.0,
+     "end": 105.7,
+     "ja": "それでは皆様、本日もお疲れ様でした。",
+     "en": "Well then everyone, good work today as always.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 106.0,
+     "end": 107.5,
+     "ja": "乾杯！",
+     "en": "Cheers!",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 139.1,
+   "end": 150.3,
+   "title": "Explaining the Sashimi Platter",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜になります — polite equivalent of です"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 139.3,
+     "end": 142.1,
+     "ja": "マグロ、えー、サーモン、タイ、",
+     "en": "Tuna, um, salmon, sea bream,",
+     "speaker": "Server"
+    },
+    {
+     "start": 142.2,
+     "end": 144.1,
+     "ja": "ヒラメ、えー、カンパチに、",
+     "en": "flounder, um, amberjack,",
+     "speaker": "Server"
+    },
+    {
+     "start": 144.2,
+     "end": 146.4,
+     "ja": "シマアジになります。",
+     "en": "and striped jack.",
+     "speaker": "Server"
+    },
+    {
+     "start": 146.6,
+     "end": 147.8,
+     "ja": "よろしいですか？",
+     "en": "Is that all right?",
+     "speaker": "Server"
+    },
+    {
+     "start": 147.9,
+     "end": 149.8,
+     "ja": "はーい、ありがとうございます。",
+     "en": "Yes, thank you very much.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 322.8,
+   "end": 331.0,
+   "title": "Checking for a Table Without a Reservation",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜てない — have not done yet",
+    "〜けど — but (conversational)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 323.5,
+     "end": 325.2,
+     "ja": "こんにちはー。",
+     "en": "Hello.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 325.3,
+     "end": 326.3,
+     "ja": "いらっしゃいませ。",
+     "en": "Welcome.",
+     "speaker": "Server"
+    },
+    {
+     "start": 326.5,
+     "end": 328.7,
+     "ja": "予約してないんですけど、",
+     "en": "We don't have a reservation,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 328.8,
+     "end": 330.6,
+     "ja": "今二人、いけますか？",
+     "en": "but is there room for two right now?",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "OKeXyoCMpik",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

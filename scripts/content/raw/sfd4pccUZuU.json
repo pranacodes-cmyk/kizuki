@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 37.5,
+   "end": 59.2,
+   "title": "Introduction to Saijo City",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜に位置する — located in / at",
+    "〜と呼ばれる — called / known as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.5,
+     "end": 42.5,
+     "ja": "西日本最高峰、石鎚山の麓に位置する",
+     "en": "Located at the foot of Mount Ishizuchi, the highest peak in western Japan,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 42.6,
+     "end": 46.3,
+     "ja": "愛媛県西条市。",
+     "en": "is Saijo City, Ehime Prefecture.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 46.8,
+     "end": 50.0,
+     "ja": "至るところから湧き出す地下水は、",
+     "en": "The groundwater that springs forth everywhere",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 50.3,
+     "end": 53.3,
+     "ja": "「うちぬき」と呼ばれ、",
+     "en": "is known as \"uchinuki\",",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 53.6,
+     "end": 58.8,
+     "ja": "温暖で自然豊かなこの地を潤します。",
+     "en": "enriching this warm and nature-rich land.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 147.0,
+   "end": 167.3,
+   "title": "The Danjiri Floats in Action",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜とばかりに — as if to say...",
+    "〜の限り — to the limit of / as much as possible"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 147.0,
+     "end": 150.2,
+     "ja": "高さ、およそ5メートル。",
+     "en": "Standing approximately 5 meters tall,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 150.5,
+     "end": 155.5,
+     "ja": "重さは、500キロから800キロとも。",
+     "en": "and weighing anywhere from 500 to 800 kilograms.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 156.0,
+     "end": 159.5,
+     "ja": "「うちの屋台が一番」とばかりに",
+     "en": "As if boasting that their float is the best,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 159.7,
+     "end": 163.7,
+     "ja": "だんじりを操り、力の限り差し上げ、",
+     "en": "they maneuver the danjiri and hoist it with all their might,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 164.0,
+     "end": 166.9,
+     "ja": "観客を魅了します。",
+     "en": "captivating the audience.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 344.8,
+   "end": 377.5,
+   "title": "The Guardians Called Onigashira",
+   "level": "N3",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜と呼ばれる — called / known as",
+    "〜ため — in order to",
+    "〜なのです — explanatory emphasis"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 345.0,
+     "end": 348.8,
+     "ja": "白い房の付いた黒い服、",
+     "en": "Wearing black garments adorned with white tassels,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 349.0,
+     "end": 351.3,
+     "ja": "黒い帽子。",
+     "en": "and black hats.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 351.6,
+     "end": 356.5,
+     "ja": "背中には、鬼の面。",
+     "en": "On their backs are demon masks.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 358.3,
+     "end": 362.8,
+     "ja": "彼らは「鬼頭」と呼ばれています。",
+     "en": "They are called the \"Onigashira\".",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 365.8,
+     "end": 369.2,
+     "ja": "屋台巡行を指導監督し、",
+     "en": "They supervise the parade of floats",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 369.4,
+     "end": 372.3,
+     "ja": "神輿の警護をする、",
+     "en": "and guard the portable shrine—",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 372.5,
+     "end": 377.2,
+     "ja": "昔からの伝統を守るため奮闘する人たちなのです。",
+     "en": "people striving to protect age-old traditions.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "sfd4pccUZuU",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

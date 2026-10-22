@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 9.5,
+   "end": 38.0,
+   "title": "Day Off and Going to a Cafe",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜は〜です — A is B",
+    "〜に行く — go to a place"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.7,
+     "end": 11.8,
+     "ja": "こんにちは。",
+     "en": "Hello.",
+     "speaker": "Kenty"
+    },
+    {
+     "start": 12.0,
+     "end": 16.2,
+     "ja": "私はKentyです。",
+     "en": "I am Kenty.",
+     "speaker": "Kenty"
+    },
+    {
+     "start": 16.8,
+     "end": 23.5,
+     "ja": "今日は仕事が休みです。",
+     "en": "Today I have the day off work.",
+     "speaker": "Kenty"
+    },
+    {
+     "start": 24.0,
+     "end": 30.0,
+     "ja": "今日は仕事が休みです。",
+     "en": "Today I have the day off work.",
+     "speaker": "Kenty"
+    },
+    {
+     "start": 30.5,
+     "end": 37.7,
+     "ja": "私は今日、カフェに行きます。",
+     "en": "Today I am going to a cafe.",
+     "speaker": "Kenty"
+    }
+   ]
+  },
+  {
+   "start": 117.0,
+   "end": 144.0,
+   "title": "Meeting a Cat Near the Station",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜にいる — to be at/in (location of existence)",
+    "〜から〜に — from ... to ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 117.3,
+     "end": 121.8,
+     "ja": "これは猫です。",
+     "en": "This is a cat.",
+     "speaker": "Kenty"
+    },
+    {
+     "start": 122.3,
+     "end": 128.5,
+     "ja": "私は今、駅にいます。",
+     "en": "I am at the station right now.",
+     "speaker": "Kenty"
+    },
+    {
+     "start": 129.3,
+     "end": 133.0,
+     "ja": "猫が鳴きました。",
+     "en": "The cat meowed.",
+     "speaker": "Kenty"
+    },
+    {
+     "start": 133.2,
+     "end": 136.5,
+     "ja": "猫が鳴きました。",
+     "en": "The cat meowed.",
+     "speaker": "Kenty"
+    },
+    {
+     "start": 136.8,
+     "end": 143.6,
+     "ja": "私は駅からカフェに歩きます。",
+     "en": "I will walk from the station to the cafe.",
+     "speaker": "Kenty"
+    }
+   ]
+  },
+  {
+   "start": 517.5,
+   "end": 548.5,
+   "title": "Arriving at the Cafe and Opening Hours",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜に着く — arrive at",
+    "〜から〜まで — from ... to ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 517.8,
+     "end": 521.8,
+     "ja": "カフェに着きました。",
+     "en": "I've arrived at the cafe.",
+     "speaker": "Kenty"
+    },
+    {
+     "start": 522.0,
+     "end": 525.5,
+     "ja": "カフェに着きました。",
+     "en": "I've arrived at the cafe.",
+     "speaker": "Kenty"
+    },
+    {
+     "start": 526.0,
+     "end": 534.5,
+     "ja": "このカフェは火曜日から日曜日まで開いています。",
+     "en": "This cafe is open from Tuesday to Sunday.",
+     "speaker": "Kenty"
+    },
+    {
+     "start": 535.0,
+     "end": 547.8,
+     "ja": "火曜日から日曜日まで、朝の１０時から夜の８時まで開いています。",
+     "en": "From Tuesday to Sunday, it's open from 10 a.m. to 8 p.m.",
+     "speaker": "Kenty"
+    }
+   ]
+  }
+ ],
+ "videoId": "zqVottfovtw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

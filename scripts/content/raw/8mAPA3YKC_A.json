@@ -1,0 +1,209 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.5,
+   "end": 26.5,
+   "title": "Born in a Temple, Schooled by Catholics",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜として — as, in the role of",
+    "〜ておりました — humble progressive/state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 12.7,
+     "end": 15.6,
+     "ja": "私は今から35年前、",
+     "en": "Thirty-five years ago,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 15.6,
+     "end": 18.8,
+     "ja": "ここ京都のお寺で生まれました。",
+     "en": "I was born here in a Kyoto temple.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 19.0,
+     "end": 22.3,
+     "ja": "お寺の子供として育ちましたけれども、",
+     "en": "Although I grew up as a child of a temple,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 22.4,
+     "end": 24.1,
+     "ja": "中学校、高校は",
+     "en": "for junior high and high school,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 24.1,
+     "end": 26.1,
+     "ja": "カトリックの学校に行っておりました。",
+     "en": "I attended a Catholic school.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 128.8,
+   "end": 143.2,
+   "title": "How Japanese Celebrate Year-End Traditions",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜である — formal copula (to be)",
+    "〜に行く — go to do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 129.0,
+     "end": 131.5,
+     "ja": "例えば、多くの日本人は、",
+     "en": "For example, many Japanese people",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 131.6,
+     "end": 135.2,
+     "ja": "キリストの誕生日であるクリスマスをお祝いし、",
+     "en": "celebrate Christmas, which is Christ's birthday,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 135.4,
+     "end": 137.0,
+     "ja": "年末にはお寺で",
+     "en": "and at the end of the year at temples,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 137.0,
+     "end": 139.0,
+     "ja": "除夜の鐘を聞いて、",
+     "en": "listen to the New Year's Eve bells,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 139.2,
+     "end": 140.7,
+     "ja": "そして、お正月には",
+     "en": "and then on New Year's Day,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 140.8,
+     "end": 142.8,
+     "ja": "神社に初詣に行きます。",
+     "en": "visit shrines for the first prayer of the year.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 526.0,
+   "end": 549.5,
+   "title": "Is Japanese Curry Really Curry?",
+   "level": "N3",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜慣れている — used to doing",
+    "〜じゃないか — isn't it / questioning surprise",
+    "〜かもしれません — might, perhaps"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 526.3,
+     "end": 528.0,
+     "ja": "インドでは、このように、",
+     "en": "In India, like this,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 528.0,
+     "end": 530.4,
+     "ja": "非常にスパイシーで辛いカレーを",
+     "en": "a very spicy and hot curry",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 530.4,
+     "end": 532.5,
+     "ja": "皆さん召し上がります。",
+     "en": "is what people eat.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 532.7,
+     "end": 535.6,
+     "ja": "カレーもインド発祥の地なんですけれども、",
+     "en": "Curry originated in India, but",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 535.8,
+     "end": 538.5,
+     "ja": "このインドの方が、日本の私たちが",
+     "en": "if someone from India had Japan's,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 538.5,
+     "end": 541.7,
+     "ja": "すごく食べ慣れている甘くてまろやかなカレー、",
+     "en": "the sweet, mild curry we are so used to eating—",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 541.8,
+     "end": 544.3,
+     "ja": "みんな好きな方たくさんいらっしゃると思いますが、",
+     "en": "I think there are many people who love it—",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 544.3,
+     "end": 546.0,
+     "ja": "あのカレー召し上がったら、",
+     "en": "if they tried that curry,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 546.0,
+     "end": 547.8,
+     "ja": "「これカレーじゃないじゃないか」と、",
+     "en": "they might say, \"Wait, this isn't curry!\"",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 547.8,
+     "end": 549.2,
+     "ja": "こうおっしゃるかもしれません。",
+     "en": "That is what they might say.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "8mAPA3YKC_A",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

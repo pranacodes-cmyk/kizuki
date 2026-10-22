@@ -1,0 +1,195 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.0,
+   "end": 35.0,
+   "title": "Visiting My Parents in Oita",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜ています — ongoing action / state",
+    "〜と — when / whenever"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.0,
+     "end": 13.0,
+     "ja": "はい、皆さん、おはようございます。",
+     "en": "Hi everyone, good morning.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 13.3,
+     "end": 19.8,
+     "ja": "えー、僕は今、大分県の田舎に来ています。",
+     "en": "Well, right now I'm visiting the countryside in Oita Prefecture.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 20.3,
+     "end": 23.6,
+     "ja": "僕の両親の家ですね。",
+     "en": "At my parents' house.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 24.8,
+     "end": 29.8,
+     "ja": "毎年夏になるとここに来ます。",
+     "en": "Every year when summer comes, I come here.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 30.3,
+     "end": 34.8,
+     "ja": "そして今回は3週間ぐらい。",
+     "en": "And this time, it's for about three weeks.",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 282.5,
+   "end": 308.5,
+   "title": "Countryside Scenery in Oita",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜て — connecting predicates",
+    "〜はありません — there is no..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 282.8,
+     "end": 286.7,
+     "ja": "空気はいい、空気がきれいです。",
+     "en": "The air is nice; the air is fresh.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 287.0,
+     "end": 290.8,
+     "ja": "そして山があって川がある。",
+     "en": "And there are mountains and rivers.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 291.1,
+     "end": 293.1,
+     "ja": "海はありません。",
+     "en": "There is no sea.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 293.3,
+     "end": 295.4,
+     "ja": "海はちょっと遠い。",
+     "en": "The sea is a bit far.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 295.6,
+     "end": 297.4,
+     "ja": "山と川、",
+     "en": "Mountains and rivers,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 297.5,
+     "end": 300.0,
+     "ja": "田んぼ、畑、",
+     "en": "rice fields, crop fields,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 300.5,
+     "end": 305.0,
+     "ja": "おじいちゃん、おばあちゃん、そういう場所。",
+     "en": "grandpas, grandmas, that kind of place.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 305.5,
+     "end": 308.2,
+     "ja": "はい、たくさんの老人。",
+     "en": "Yes, lots of elderly people.",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 470.0,
+   "end": 497.5,
+   "title": "The Secret to Staying Healthy",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜のは良くない — it is not good to...",
+    "〜ても — even if / even though",
+    "〜というのは — meaning of / defining"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 470.2,
+     "end": 475.0,
+     "ja": "やっぱり、家の中にずっといるのは良くないですね。",
+     "en": "As expected, staying inside the house all the time isn't good.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 475.2,
+     "end": 479.9,
+     "ja": "年を取っても、色んな人に会って話をする。",
+     "en": "Even as you get older, meeting various people and talking to them.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 480.0,
+     "end": 483.0,
+     "ja": "これが元気の秘訣。",
+     "en": "That is the secret to staying energetic.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 483.2,
+     "end": 487.4,
+     "ja": "秘訣というのは元気の秘密みたいな。",
+     "en": "\"Hiketsu\" means something like the secret to energy.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 487.8,
+     "end": 493.8,
+     "ja": "秘訣は秘密とほとんど同じ意味ですね。秘密、シークレット。",
+     "en": "\"Hiketsu\" means almost the same thing as \"himitsu\". A secret.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 494.3,
+     "end": 497.2,
+     "ja": "秘密、秘訣。",
+     "en": "Himitsu, hiketsu.",
+     "speaker": "Teppei"
+    }
+   ]
+  }
+ ],
+ "videoId": "InEE99N-MJc",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

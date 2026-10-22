@@ -1,0 +1,185 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 65.3,
+   "end": 91.5,
+   "title": "Joining a Startup as a Hired CEO",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜として — as (in the role of)",
+    "〜ていく — process continuing forward"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 65.3,
+     "end": 67.5,
+     "ja": "はい、えっと創業はですね、",
+     "en": "Well, regarding our founding...",
+     "speaker": "加藤"
+    },
+    {
+     "start": 67.5,
+     "end": 73.0,
+     "ja": "えっベンチャーキャピタルがもう100%出して作ったっていう、ちょっと変わった会社でございまして、",
+     "en": "...it's a somewhat unusual company that a venture capital firm created with 100% funding,",
+     "speaker": "加藤"
+    },
+    {
+     "start": 73.2,
+     "end": 77.3,
+     "ja": "あの僕自身はあの、こう雇われ社長として後から入ってまして、",
+     "en": "and I myself joined later as a hired president.",
+     "speaker": "加藤"
+    },
+    {
+     "start": 77.4,
+     "end": 80.1,
+     "ja": "入社した時点でも社員が15人ぐらい、",
+     "en": "At the time I joined, there were already about 15 employees,",
+     "speaker": "加藤"
+    },
+    {
+     "start": 80.2,
+     "end": 83.9,
+     "ja": "もうすでにそのベンチャーキャピタルが雇った人たちがいて、",
+     "en": "people the venture capital had already hired were there,",
+     "speaker": "加藤"
+    },
+    {
+     "start": 84.0,
+     "end": 87.4,
+     "ja": "先輩社員の皆さんがいる中にこう、",
+     "en": "and in the midst of all those senior employees,",
+     "speaker": "加藤"
+    },
+    {
+     "start": 87.5,
+     "end": 91.2,
+     "ja": "代表として後から入ったというのが経緯としてありまして。",
+     "en": "I came in afterwards as the representative—that was the backstory.",
+     "speaker": "加藤"
+    }
+   ]
+  },
+  {
+   "start": 388.0,
+   "end": 414.2,
+   "title": "Testing Local Festival Content",
+   "level": "N3",
+   "topics": [
+    "work",
+    "fun"
+   ],
+   "grammar": [
+    "〜じゃないですか — isn't it? (confirming shared thought)",
+    "〜ていく — gradual progression"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 388.0,
+     "end": 391.8,
+     "ja": "お祭りとかが結構フィーチャーされてて、",
+     "en": "local festivals were heavily featured,",
+     "speaker": "加藤"
+    },
+    {
+     "start": 391.9,
+     "end": 394.6,
+     "ja": "「これ絶対伸びないかもな」と思って。",
+     "en": "and I thought, 'This definitely might not take off.'",
+     "speaker": "加藤"
+    },
+    {
+     "start": 395.0,
+     "end": 397.4,
+     "ja": "いや、気持ちは分かるじゃないですか。",
+     "en": "I mean, you can understand the intention, right?",
+     "speaker": "加藤"
+    },
+    {
+     "start": 397.5,
+     "end": 400.2,
+     "ja": "地域の、お祭り情報を集めて、",
+     "en": "Gathering information on local festivals,",
+     "speaker": "加藤"
+    },
+    {
+     "start": 400.3,
+     "end": 403.9,
+     "ja": "こう地域にとってメリットのある情報だって、まあ、",
+     "en": "it's beneficial information for the community, well,",
+     "speaker": "加藤"
+    },
+    {
+     "start": 404.0,
+     "end": 407.3,
+     "ja": "そうなんだけど、これなんか自動的に増えていくというか、",
+     "en": "that's true, but for something that grows automatically,",
+     "speaker": "加藤"
+    },
+    {
+     "start": 407.4,
+     "end": 413.9,
+     "ja": "エコシステムが働いていくっていうイメージは、僕の中でちょっとお祭り情報だと難しそうだなと感じたりとか。",
+     "en": "where an ecosystem starts functioning—in my mind, I felt that would be tough with just festival info.",
+     "speaker": "加藤"
+    }
+   ]
+  },
+  {
+   "start": 656.3,
+   "end": 679.2,
+   "title": "Running Out of Cash in Two Months",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜ないと — if not / unless",
+    "〜ていく — ongoing direction / action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 656.3,
+     "end": 661.8,
+     "ja": "このタイミングでアクセル踏んでいきたいっていう、そういう意図でいらっしゃったんですかね？",
+     "en": "Was your intention at that timing to step on the gas?",
+     "speaker": "戸塚"
+    },
+    {
+     "start": 662.0,
+     "end": 666.5,
+     "ja": "調達しないとお金がないっていうのが、どちらかというと事実ですね。",
+     "en": "To be honest, the reality was more that if we didn't raise funds, we had no money.",
+     "speaker": "加藤"
+    },
+    {
+     "start": 666.8,
+     "end": 673.0,
+     "ja": "ま、なのでその時とかはもう、12年とか13年とかは、もう本当にしびれる状況で、",
+     "en": "So back in 2012 and 2013, it was a truly nerve-wracking situation,",
+     "speaker": "加藤"
+    },
+    {
+     "start": 673.2,
+     "end": 678.8,
+     "ja": "あと1ヶ月、2ヶ月でキャッシュがなくなりますっていう状況は、何回も迎えてたので。",
+     "en": "and we faced situations where cash would run out in a month or two several times.",
+     "speaker": "加藤"
+    }
+   ]
+  }
+ ],
+ "videoId": "ypjGwYf3uHE",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,265 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 14.8,
+   "end": 29.8,
+   "title": "What Kind of Religion Is Buddhism?",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜って — speaking of / topic marker"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 15.0,
+     "end": 16.0,
+     "ja": "仏教です。",
+     "en": "I'm Buddhist.",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 16.2,
+     "end": 17.1,
+     "ja": "仏教じゃない？",
+     "en": "Aren't you Buddhist too?",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 17.2,
+     "end": 18.1,
+     "ja": "仏教。",
+     "en": "Me too.",
+     "speaker": "Woman 2"
+    },
+    {
+     "start": 18.2,
+     "end": 19.0,
+     "ja": "仏教。",
+     "en": "Buddhist.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 19.3,
+     "end": 21.6,
+     "ja": "じゃ、仏教ってどんな宗教ですか？",
+     "en": "So what kind of religion is Buddhism?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 22.0,
+     "end": 23.5,
+     "ja": "南無阿弥陀仏。",
+     "en": "Namu Amida Butsu.",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 24.5,
+     "end": 25.5,
+     "ja": "えー？",
+     "en": "Hmm?",
+     "speaker": "Woman 2"
+    },
+    {
+     "start": 26.0,
+     "end": 27.0,
+     "ja": "仏様？",
+     "en": "Buddha?",
+     "speaker": "Woman 2"
+    },
+    {
+     "start": 27.2,
+     "end": 28.0,
+     "ja": "先祖。",
+     "en": "Ancestors.",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 28.3,
+     "end": 29.5,
+     "ja": "分かんない！",
+     "en": "I don't know!",
+     "speaker": "Woman 1"
+    }
+   ]
+  },
+  {
+   "start": 141.5,
+   "end": 156.5,
+   "title": "Celebrating Every Holiday",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ちゃう — to do completely / unintentionally",
+    "〜し — listing reasons / facts"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 141.5,
+     "end": 142.8,
+     "ja": "無宗教です。",
+     "en": "We have no religion.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 143.0,
+     "end": 144.8,
+     "ja": "ないない。何もないです。",
+     "en": "None, none. Nothing at all.",
+     "speaker": "Man"
+    },
+    {
+     "start": 145.3,
+     "end": 147.5,
+     "ja": "クリスマスがあってな、お盆があって、",
+     "en": "We have Christmas, we have Obon...",
+     "speaker": "Man"
+    },
+    {
+     "start": 147.7,
+     "end": 149.2,
+     "ja": "お盆があって、正月があって、",
+     "en": "There's Obon, New Year's...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 149.3,
+     "end": 151.0,
+     "ja": "バレンタインもお祝いしちゃうし。",
+     "en": "And we celebrate Valentine's too.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 151.0,
+     "end": 152.3,
+     "ja": "エイプリルフールもちゃんとやるしな。",
+     "en": "We do April Fools' properly too.",
+     "speaker": "Man"
+    },
+    {
+     "start": 152.5,
+     "end": 153.9,
+     "ja": "あれは関係ないかな。",
+     "en": "Maybe that's not related.",
+     "speaker": "Man"
+    },
+    {
+     "start": 154.0,
+     "end": 155.0,
+     "ja": "ハロウィンもやっちゃうし。",
+     "en": "We celebrate Halloween too.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 155.1,
+     "end": 156.2,
+     "ja": "ハロウィンもやっちゃうしな。",
+     "en": "Yeah, we do Halloween too.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 228.7,
+   "end": 244.5,
+   "title": "Temples vs. Shrines",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜か〜ないか — whether or not",
+    "〜んです — explaining / emphasizing fact"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 229.0,
+     "end": 231.0,
+     "ja": "お寺と神社の違いって分かりますか？",
+     "en": "Do you know the difference between temples and shrines?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 231.2,
+     "end": 233.0,
+     "ja": "え、鳥居があるかないかとか。",
+     "en": "Uh, like whether there's a torii gate or not?",
+     "speaker": "Man"
+    },
+    {
+     "start": 233.2,
+     "end": 234.5,
+     "ja": "分かんないっす。",
+     "en": "I don't know.",
+     "speaker": "Man"
+    },
+    {
+     "start": 234.8,
+     "end": 235.6,
+     "ja": "神様が違う？",
+     "en": "Different gods?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 235.8,
+     "end": 237.0,
+     "ja": "え、神様違う？",
+     "en": "Wait, the gods are different?",
+     "speaker": "Man"
+    },
+    {
+     "start": 237.1,
+     "end": 238.1,
+     "ja": "ちょっとすいません。",
+     "en": "Sorry, I don't know.",
+     "speaker": "Man"
+    },
+    {
+     "start": 238.3,
+     "end": 239.8,
+     "ja": "お寺が仏教で、",
+     "en": "Temples are Buddhist,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 240.0,
+     "end": 241.2,
+     "ja": "神社が神道なんです。",
+     "en": "and shrines are Shinto.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 241.5,
+     "end": 242.5,
+     "ja": "あ、そうなんすか？",
+     "en": "Oh, really?",
+     "speaker": "Man"
+    },
+    {
+     "start": 242.8,
+     "end": 244.0,
+     "ja": "初めて知りました。",
+     "en": "I learned that for the first time.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "7gZHuFtuzdg",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

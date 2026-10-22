@@ -1,0 +1,155 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.7,
+   "end": 30.5,
+   "title": "Hunting in the Silent Mountain",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "animals"
+   ],
+   "grammar": [
+    "〜だろう — conjectural expression",
+    "〜そうに — manner (doing something happily)",
+    "〜も〜もない — neither... nor..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.0,
+     "end": 15.4,
+     "ja": "2人は立派な服を着て、",
+     "en": "The two were dressed in fine clothes,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 15.7,
+     "end": 18.4,
+     "ja": "「今日はたくさん獲物が取れるだろう」と、",
+     "en": "\"We'll probably catch a lot of game today,\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 18.7,
+     "end": 21.0,
+     "ja": "楽しそうに話していました。",
+     "en": "they talked merrily.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 21.4,
+     "end": 25.6,
+     "ja": "しかし、山の中はとても静かでした。",
+     "en": "However, it was very quiet in the mountains.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 26.0,
+     "end": 30.3,
+     "ja": "鳥の声も動物の気配もありません。",
+     "en": "There were no bird calls, nor any sign of animals.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 146.5,
+   "end": 208.0,
+   "title": "Discovering the Mountain Restaurant",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "food"
+   ],
+   "grammar": [
+    "〜なんて — expressing surprise",
+    "〜と — when / upon doing",
+    "〜ている — ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 147.0,
+     "end": 150.5,
+     "ja": "「こんなところに料理店があるなんて、",
+     "en": "\"To think there's a restaurant in a place like this!",
+     "speaker": "Gentleman"
+    },
+    {
+     "start": 150.9,
+     "end": 155.0,
+     "ja": "助かった。ここで温かい食事ができるぞ」",
+     "en": "What a relief. We can have a warm meal here.\"",
+     "speaker": "Gentleman"
+    },
+    {
+     "start": 155.5,
+     "end": 159.3,
+     "ja": "2人はほっとして喜んで中へ入りました。",
+     "en": "Relieved and delighted, the two went inside.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 200.6,
+     "end": 207.5,
+     "ja": "中へ進むと、長い廊下にたくさんの扉が並んでいます。",
+     "en": "As they walked inside, many doors lined a long hallway.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 348.8,
+   "end": 411.8,
+   "title": "Realizing the Horrible Truth",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "anime"
+   ],
+   "grammar": [
+    "〜にされる — passive form",
+    "その途端 — right at that moment",
+    "命令形 (来い) — imperative form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 349.2,
+     "end": 354.6,
+     "ja": "「おかしい。この店は料理を出す店じゃない。",
+     "en": "\"Something's wrong. This isn't a restaurant that serves food.",
+     "speaker": "Gentleman"
+    },
+    {
+     "start": 355.0,
+     "end": 358.3,
+     "ja": "僕たちが料理にされるんだ」",
+     "en": "We're the ones who are going to be cooked!\"",
+     "speaker": "Gentleman"
+    },
+    {
+     "start": 359.2,
+     "end": 405.1,
+     "ja": "その途端、奥の部屋から猫のような低い声が聞こえてきました。",
+     "en": "Just then, a low, cat-like voice was heard from the back room.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 405.8,
+     "end": 411.2,
+     "ja": "「さぁ、早く来い。もう準備はできているぞ」",
+     "en": "\"Come on, hurry up. Everything is already prepared.\"",
+     "speaker": "Voice"
+    }
+   ]
+  }
+ ],
+ "videoId": "ryyvrkLIRY8",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

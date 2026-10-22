@@ -1,0 +1,183 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 21.8,
+   "title": "Visiting a Supermarket in Bibai",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜のおかげで — thanks to",
+    "〜ことになる — it has been decided that",
+    "〜ていく — to go on doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 3.2,
+     "ja": "みなさん、こんにちは。あかねです。",
+     "en": "Hello everyone, I'm Akane.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 3.4,
+     "end": 6.8,
+     "ja": "私は今、美唄市のスーパーにいます。",
+     "en": "Right now, I'm at a supermarket in Bibai City.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 7.0,
+     "end": 10.5,
+     "ja": "スーパーってなかなか撮影許可が取れないんですけど、",
+     "en": "It's usually quite difficult to get filming permission in supermarkets, but...",
+     "speaker": "Akane"
+    },
+    {
+     "start": 10.8,
+     "end": 16.8,
+     "ja": "今回、美唄市の方の協力のおかげで、撮影できることになりました。",
+     "en": "thanks to the help of the people of Bibai, I was able to film today.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 17.0,
+     "end": 21.3,
+     "ja": "ちょっとね、スーパーの様子を一緒に見ていきたいと思います。",
+     "en": "Let's take a look around the supermarket together.",
+     "speaker": "Akane"
+    }
+   ]
+  },
+  {
+   "start": 109.5,
+   "end": 125.7,
+   "ja": null,
+   "title": "Silken vs Firm Tofu",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ている — ongoing state",
+    "じゃない — is not (casual negative)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 109.7,
+     "end": 112.0,
+     "ja": "はい、こっちが絹。",
+     "en": "Okay, this is silken tofu.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 113.1,
+     "end": 115.5,
+     "ja": "こっちが木綿です。",
+     "en": "And this is firm tofu.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 116.3,
+     "end": 119.4,
+     "ja": "絹はすごく滑らかです。",
+     "en": "Silken tofu is very smooth.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 120.0,
+     "end": 123.2,
+     "ja": "でも、木綿はちょっとざらざらしている感じです。",
+     "en": "But firm tofu has a bit of a rough texture.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 123.6,
+     "end": 125.7,
+     "ja": "ざらざら…滑らかじゃない。",
+     "en": "Rough... meaning not smooth.",
+     "speaker": "Akane"
+    }
+   ]
+  },
+  {
+   "start": 651.0,
+   "end": 712.5,
+   "title": "Paying at the Register",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜をお願いします — please give me / I'd like",
+    "〜でよろしいですか — is ... alright? (polite)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 651.2,
+     "end": 652.5,
+     "ja": "お待たせいたしました。",
+     "en": "Thank you for waiting.",
+     "speaker": "Cashier"
+    },
+    {
+     "start": 652.6,
+     "end": 654.6,
+     "ja": "すみません、袋お願いします。",
+     "en": "Excuse me, a plastic bag please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 659.0,
+     "end": 700.0,
+     "ja": "4,096円です。",
+     "en": "That will be 4,096 yen.",
+     "speaker": "Cashier"
+    },
+    {
+     "start": 700.1,
+     "end": 701.8,
+     "ja": "クレジットで。",
+     "en": "By credit card, please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 705.8,
+     "end": 707.1,
+     "ja": "１回でよろしいですか？",
+     "en": "One-time payment?",
+     "speaker": "Cashier"
+    },
+    {
+     "start": 707.2,
+     "end": 708.5,
+     "ja": "はい、１回で。",
+     "en": "Yes, in full.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 710.2,
+     "end": 712.0,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Akane"
+    }
+   ]
+  }
+ ],
+ "videoId": "5YIadrdOsnM",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,143 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 2.0,
+   "end": 13.8,
+   "title": "A Lonely Master and Servant",
+   "level": "N2",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "〜であられる — respectful form of である",
+    "〜でおられる — respectful form of でいる"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2.1,
+     "end": 5.5,
+     "ja": "竜胤の御子であられる九郎様は、",
+     "en": "Lord Kuro, the Divine Heir of the Dragon's Blood,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 5.6,
+     "end": 8.0,
+     "ja": "家族も家臣も失い、",
+     "en": "having lost both family and vassals,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 8.1,
+     "end": 10.5,
+     "ja": "狼殿と二人だけの",
+     "en": "with only Lord Wolf by his side,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 10.6,
+     "end": 13.7,
+     "ja": "孤独な主従でおられました。",
+     "en": "were a lonely master and servant.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 14.0,
+   "end": 27.6,
+   "title": "Will That Butterfly Reach the Clouds?",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "果たして〜か — wondering if really",
+    "〜のであろうか — formal wondering"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 14.2,
+     "end": 15.6,
+     "ja": "なあ、狼。",
+     "en": "Say, Wolf.",
+     "speaker": "Kuro"
+    },
+    {
+     "start": 16.3,
+     "end": 18.0,
+     "ja": "あの蝶は果たして、",
+     "en": "Will that butterfly ever,",
+     "speaker": "Kuro"
+    },
+    {
+     "start": 18.1,
+     "end": 20.5,
+     "ja": "雲に届くのであろうか。",
+     "en": "reach the clouds?",
+     "speaker": "Kuro"
+    },
+    {
+     "start": 21.7,
+     "end": 23.0,
+     "ja": "いずれ。",
+     "en": "In time.",
+     "speaker": "Wolf"
+    },
+    {
+     "start": 25.8,
+     "end": 27.3,
+     "ja": "いずれ、か。",
+     "en": "In time, huh?",
+     "speaker": "Kuro"
+    }
+   ]
+  },
+  {
+   "start": 45.2,
+   "end": 57.5,
+   "title": "To Live and Die Together",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜ために — in order to"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 45.6,
+     "end": 47.8,
+     "ja": "九郎様の生きる道。",
+     "en": "A path for Lord Kuro to live.",
+     "speaker": "Wolf"
+    },
+    {
+     "start": 48.8,
+     "end": 52.5,
+     "ja": "隻腕の狼、隻狼よ。",
+     "en": "One-armed wolf... Sekiro.",
+     "speaker": "Man"
+    },
+    {
+     "start": 53.6,
+     "end": 57.2,
+     "ja": "共に生きて、死ぬために。",
+     "en": "To live together, and to die.",
+     "speaker": "Wolf"
+    }
+   ]
+  }
+ ],
+ "videoId": "q0zQNh0wSb0",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

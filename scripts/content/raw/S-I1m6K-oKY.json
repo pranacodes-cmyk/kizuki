@@ -1,0 +1,254 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 26.0,
+   "end": 46.0,
+   "title": "Have You Ever Traveled?",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜たことがある — have experienced doing",
+    "〜以外 — other than"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 26.3,
+     "end": 29.0,
+     "ja": "宮本さん今まで行った旅行先で一番楽しかったとこどこすか？",
+     "en": "Miyamoto-san, what's the most fun place you've ever traveled to?",
+     "speaker": "Kato"
+    },
+    {
+     "start": 29.5,
+     "end": 33.7,
+     "ja": "ああ…俺、旅行行ったことないな。",
+     "en": "Ah... I've never been on a trip.",
+     "speaker": "Miyamoto"
+    },
+    {
+     "start": 34.0,
+     "end": 34.8,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Kato"
+    },
+    {
+     "start": 35.0,
+     "end": 37.8,
+     "ja": "あ、ない、ないわ。あ、修学旅行かな？",
+     "en": "Ah, no, never. Oh, maybe a school trip?",
+     "speaker": "Miyamoto"
+    },
+    {
+     "start": 37.9,
+     "end": 40.8,
+     "ja": "修学旅行行ったよ。北海道。北海道良かったよ。",
+     "en": "I went on a school trip to Hokkaido. Hokkaido was great.",
+     "speaker": "Miyamoto"
+    },
+    {
+     "start": 41.0,
+     "end": 43.0,
+     "ja": "それ以外１回もないんすか？",
+     "en": "Not even once besides that?",
+     "speaker": "Kato"
+    },
+    {
+     "start": 43.1,
+     "end": 44.0,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Miyamoto"
+    },
+    {
+     "start": 44.1,
+     "end": 45.5,
+     "ja": "へえー。",
+     "en": "Huh.",
+     "speaker": "Kato"
+    }
+   ]
+  },
+  {
+   "start": 339.2,
+   "end": 404.0,
+   "title": "Long-Distance Relationship",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "comedy",
+    "friends"
+   ],
+   "grammar": [
+    "〜ても — even if",
+    "〜しか〜ない — only / nothing but",
+    "命令形 — imperative form (しろ)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 339.5,
+     "end": 342.3,
+     "ja": "宮本さんどれくらいのペースで彼女と会ってんすか？",
+     "en": "Miyamoto-san, how often do you see your girlfriend?",
+     "speaker": "Kato"
+    },
+    {
+     "start": 342.4,
+     "end": 346.5,
+     "ja": "いや…会えても２ヶ月に１回とか？",
+     "en": "Well... at best, maybe once every two months?",
+     "speaker": "Miyamoto"
+    },
+    {
+     "start": 346.6,
+     "end": 348.8,
+     "ja": "もっと会えますって、絶対に！",
+     "en": "You could definitely see her more than that!",
+     "speaker": "Kato"
+    },
+    {
+     "start": 349.0,
+     "end": 352.0,
+     "ja": "２ヶ月に１回とかしか会ってないんすか？",
+     "en": "You only see each other like once every two months?",
+     "speaker": "Kato"
+    },
+    {
+     "start": 352.3,
+     "end": 354.0,
+     "ja": "え、浮気とかしてんすか？",
+     "en": "Wait, are you cheating on her or something?",
+     "speaker": "Kato"
+    },
+    {
+     "start": 354.0,
+     "end": 356.0,
+     "ja": "いや、浮気なんて１回もしたことないよ。",
+     "en": "No, I've never cheated on her once.",
+     "speaker": "Miyamoto"
+    },
+    {
+     "start": 356.0,
+     "end": 358.0,
+     "ja": "しろよ、せめて浮気！",
+     "en": "At least cheat on her then!",
+     "speaker": "Kato"
+    },
+    {
+     "start": 358.1,
+     "end": 360.0,
+     "ja": "いや、俺彼女大好きだもん。",
+     "en": "No, I really love my girlfriend.",
+     "speaker": "Miyamoto"
+    },
+    {
+     "start": 360.0,
+     "end": 361.3,
+     "ja": "じゃあ一緒に住めや！",
+     "en": "Then live together!",
+     "speaker": "Kato"
+    },
+    {
+     "start": 361.4,
+     "end": 363.5,
+     "ja": "いやー、大変っしょ。",
+     "en": "No, that'd be tough.",
+     "speaker": "Miyamoto"
+    }
+   ]
+  },
+  {
+   "start": 443.0,
+   "end": 501.2,
+   "title": "Moving In Way Too Fast",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "そういや — speaking of which",
+    "〜てまだ〜 — it's only been... since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 443.3,
+     "end": 445.0,
+     "ja": "あ、そういやお前彼女いるの？",
+     "en": "Oh, speaking of which, do you have a girlfriend?",
+     "speaker": "Miyamoto"
+    },
+    {
+     "start": 445.1,
+     "end": 446.5,
+     "ja": "いますよ、そら。",
+     "en": "Of course I do.",
+     "speaker": "Kato"
+    },
+    {
+     "start": 446.6,
+     "end": 447.3,
+     "ja": "お、そう。",
+     "en": "Oh, really?",
+     "speaker": "Miyamoto"
+    },
+    {
+     "start": 447.4,
+     "end": 448.5,
+     "ja": "同棲してますよ、俺彼女と。",
+     "en": "I'm living with my girlfriend.",
+     "speaker": "Kato"
+    },
+    {
+     "start": 448.6,
+     "end": 449.4,
+     "ja": "いいね！",
+     "en": "Nice!",
+     "speaker": "Miyamoto"
+    },
+    {
+     "start": 449.5,
+     "end": 451.0,
+     "ja": "先輩やないすか！",
+     "en": "Look who's ahead of you!",
+     "speaker": "Kato"
+    },
+    {
+     "start": 453.5,
+     "end": 456.2,
+     "ja": "付き合ってどれくらいで同棲したの？",
+     "en": "How long after you started dating did you move in together?",
+     "speaker": "Miyamoto"
+    },
+    {
+     "start": 456.3,
+     "end": 458.0,
+     "ja": "付き合ってまだ３日っす。",
+     "en": "We've only been dating for three days.",
+     "speaker": "Kato"
+    },
+    {
+     "start": 458.5,
+     "end": 500.8,
+     "ja": "それはそれでどうなの？",
+     "en": "What's up with that, then?",
+     "speaker": "Miyamoto"
+    }
+   ]
+  }
+ ],
+ "videoId": "S-I1m6K-oKY",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

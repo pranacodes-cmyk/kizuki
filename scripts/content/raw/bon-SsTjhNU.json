@@ -1,0 +1,144 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 9.7,
+   "end": 29.8,
+   "title": "Ingredients for Pork Kakuni",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "だけ — only / just"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.9,
+     "end": 11.5,
+     "ja": "材料は、",
+     "en": "As for the ingredients,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 12.8,
+     "end": 14.5,
+     "ja": "豚肉、",
+     "en": "pork,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 16.9,
+     "end": 18.2,
+     "ja": "生姜、",
+     "en": "ginger,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 20.0,
+     "end": 21.2,
+     "ja": "卵、",
+     "en": "eggs,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 22.4,
+     "end": 24.3,
+     "ja": "ネギです。",
+     "en": "and green onion.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 24.8,
+     "end": 29.3,
+     "ja": "ネギは上の青い部分だけ使います。",
+     "en": "For the green onion, use only the top green part.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 82.8,
+   "end": 101.0,
+   "title": "Browning the Pork",
+   "level": "N4",
+   "topics": [
+    "food"
+   ],
+   "grammar": [
+    "〜から — because / since",
+    "〜だけでいい — only need to / just ... is fine",
+    "〜たら — if / once"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 83.1,
+     "end": 85.8,
+     "ja": "豚肉は後で煮ますから、",
+     "en": "We will simmer the pork later,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 86.2,
+     "end": 90.0,
+     "ja": "周りを少し焼くだけでいいです。",
+     "en": "so you just need to brown the outside a bit.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 94.7,
+     "end": 100.4,
+     "ja": "周りがこのくらい焼けたら大丈夫です。",
+     "en": "Once the outside is browned about this much, it's fine.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 398.0,
+   "end": 411.5,
+   "title": "Pork Kakuni is Done!",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜と — when / if",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 398.5,
+     "end": 401.6,
+     "ja": "豚の角煮、できました！",
+     "en": "The braised pork kakuni is ready!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 403.0,
+     "end": 406.5,
+     "ja": "炊飯器を使うと、とても簡単ですから、",
+     "en": "It's very easy using a rice cooker,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 407.0,
+     "end": 410.8,
+     "ja": "皆さんもぜひ作ってみてくださいね。",
+     "en": "so everyone, please definitely try making it too.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "bon-SsTjhNU",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

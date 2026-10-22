@@ -1,0 +1,177 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.17,
+   "end": 1.385,
+   "title": "Aiming for the Championship Series",
+   "level": "N3",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜つつ — while doing",
+    "〜ように — so that / in order to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.172,
+     "end": 1.232,
+     "ja": "自分が来てから２シーズンは、CSに出場することができなかったので、",
+     "en": "In the two seasons since I arrived, we haven't been able to make it to the Championship Series, so...",
+     "speaker": "Kai King"
+    },
+    {
+     "start": 1.233,
+     "end": 1.265,
+     "ja": "今年こそはチーム一丸となって、",
+     "en": "This year, uniting as one team,",
+     "speaker": "Kai King"
+    },
+    {
+     "start": 1.266,
+     "end": 1.302,
+     "ja": "一致団結した姿をファンに見せつつ、",
+     "en": "while showing our fans our united front,",
+     "speaker": "Kai King"
+    },
+    {
+     "start": 1.303,
+     "end": 1.358,
+     "ja": "CSを目標としているので、そこに絶対に行けるように頑張りたいと思います。",
+     "en": "the CS is our goal, so I want to give it my all so we can definitely make it there.",
+     "speaker": "Kai King"
+    },
+    {
+     "start": 1.364,
+     "end": 1.382,
+     "ja": "Go B-COR!",
+     "en": "Go B-COR!",
+     "speaker": "Kai King"
+    }
+   ]
+  },
+  {
+   "start": 3.144,
+   "end": 3.346,
+   "title": "Feeling the Pre-Season Tension",
+   "level": "N3",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜てくれる — doing for someone",
+    "〜なきゃいけない — must do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.145,
+     "end": 3.168,
+     "ja": "本当に初めて、",
+     "en": "For the very first time,",
+     "speaker": "Kenta Morii"
+    },
+    {
+     "start": 3.169,
+     "end": 3.204,
+     "ja": "応援してくれる方々に向けて、",
+     "en": "towards the people who support us,",
+     "speaker": "Kenta Morii"
+    },
+    {
+     "start": 3.205,
+     "end": 3.238,
+     "ja": "新チームの様子をお届けできて、",
+     "en": "being able to showcase the new team",
+     "speaker": "Kenta Morii"
+    },
+    {
+     "start": 3.239,
+     "end": 3.257,
+     "ja": "本当に素直に嬉しいですし、",
+     "en": "makes me truly and genuinely happy, and",
+     "speaker": "Kenta Morii"
+    },
+    {
+     "start": 3.258,
+     "end": 3.294,
+     "ja": "開幕前の緊張感を持ってやらなきゃいけないっていうのを、",
+     "en": "feeling that we must step up with that pre-season tension",
+     "speaker": "Kenta Morii"
+    },
+    {
+     "start": 3.295,
+     "end": 3.323,
+     "ja": "改めて感じる瞬間になったので、",
+     "en": "was something this moment reminded me of,",
+     "speaker": "Kenta Morii"
+    },
+    {
+     "start": 3.324,
+     "end": 3.345,
+     "ja": "本当にいい時間になったなと思います。",
+     "en": "so I feel it was truly a wonderful time.",
+     "speaker": "Kenta Morii"
+    }
+   ]
+  },
+  {
+   "start": 7.045,
+   "end": 7.273,
+   "title": "Drawing Energy from the Fans",
+   "level": "N3",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜ていく — to go on doing",
+    "〜たいと思う — would like to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 7.046,
+     "end": 7.096,
+     "ja": "横浜のこのハンマーヘッドで、こういう場所で、",
+     "en": "Here at Hammerhead in Yokohama, at a place like this,",
+     "speaker": "Koya Sudo"
+    },
+    {
+     "start": 7.097,
+     "end": 7.146,
+     "ja": "新しいチームを発表できるっていうこと、すごく嬉しく思いましたし、",
+     "en": "being able to unveil the new team made me very happy, and",
+     "speaker": "Koya Sudo"
+    },
+    {
+     "start": 7.147,
+     "end": 7.206,
+     "ja": "本当に皆さん熱い気持ちに、すごくエネルギーをもらいましたので、",
+     "en": "everyone's passionate support gave me so much energy,",
+     "speaker": "Koya Sudo"
+    },
+    {
+     "start": 7.207,
+     "end": 7.244,
+     "ja": "このエネルギーをいい形でシーズンにつなげていけるように、",
+     "en": "so in order to carry this energy positively into the season,",
+     "speaker": "Koya Sudo"
+    },
+    {
+     "start": 7.245,
+     "end": 7.272,
+     "ja": "開幕までしっかり準備していきたいと思います。",
+     "en": "I want to prepare thoroughly until opening day.",
+     "speaker": "Koya Sudo"
+    }
+   ]
+  }
+ ],
+ "videoId": "jy3iKqvDU7c",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

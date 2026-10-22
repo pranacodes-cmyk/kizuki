@@ -1,0 +1,102 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.4,
+   "end": 24.8,
+   "title": "Why Don't You Go Out with Me?",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "school",
+    "friends"
+   ],
+   "grammar": [
+    "〜てほしい — wanting someone to do something",
+    "〜かもしれない — might / perhaps",
+    "〜ば — conditional if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.6,
+     "end": 13.5,
+     "ja": "相原君ってさ、泉ちゃんのこと好きなんでしょ。",
+     "en": "Aihara, you like Izumi, don't you?",
+     "speaker": "Koharu"
+    },
+    {
+     "start": 13.8,
+     "end": 16.8,
+     "ja": "俺の泉への気持ちは、何があったって変わらない。",
+     "en": "No matter what happens, my feelings for Izumi won't change.",
+     "speaker": "Naohiko"
+    },
+    {
+     "start": 17.0,
+     "end": 19.9,
+     "ja": "２人が別れれば、付き合えるかもしれないじゃん。",
+     "en": "If they break up, you might be able to date her, right?",
+     "speaker": "Koharu"
+    },
+    {
+     "start": 20.3,
+     "end": 23.7,
+     "ja": "藤村、直彦のこと諦めてほしくて、俺と付き合おう。",
+     "en": "Fujimura, give up on Naohiko and date me instead.",
+     "speaker": "Eiji"
+    },
+    {
+     "start": 23.8,
+     "end": 24.6,
+     "ja": "えー！？",
+     "en": "What!?",
+     "speaker": "Koharu"
+    }
+   ]
+  },
+  {
+   "start": 52.8,
+   "end": 60.5,
+   "title": "I'll Stop Lying to Myself",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "school"
+   ],
+   "grammar": [
+    "〜ても — even if",
+    "〜のをやめる — stop doing"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 53.3,
+     "end": 56.0,
+     "ja": "世界中がお前を嫌っても、俺は隣にいるから。",
+     "en": "Even if the whole world hates you, I'll be by your side.",
+     "speaker": "Eiji"
+    },
+    {
+     "start": 56.2,
+     "end": 58.3,
+     "ja": "恋を知らない僕たちは。",
+     "en": "We Don't Know Love Yet.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 58.4,
+     "end": 60.3,
+     "ja": "俺、自分に嘘つくのやめる。",
+     "en": "I'm going to stop lying to myself.",
+     "speaker": "Eiji"
+    }
+   ]
+  }
+ ],
+ "videoId": "25kipf2lVXg",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

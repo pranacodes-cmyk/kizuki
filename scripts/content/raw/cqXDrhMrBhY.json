@@ -1,0 +1,86 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 34.8,
+   "end": 48.3,
+   "title": "Feeding the Puppy Special Food",
+   "level": "N3",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜なければならない — must / have to",
+    "〜を含む — containing / including"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 35.0,
+     "end": 37.3,
+     "ja": "最初は子犬に、",
+     "en": "At first, for the puppy,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 37.4,
+     "end": 40.5,
+     "ja": "発酵焼きミルク、または",
+     "en": "with fermented baked milk or",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 40.6,
+     "end": 45.3,
+     "ja": "カッテージチーズを含む特別な餌を",
+     "en": "special food containing cottage cheese",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 45.4,
+     "end": 48.0,
+     "ja": "与えなければなりませんでした。",
+     "en": "had to be fed.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 257.9,
+   "end": 306.7,
+   "title": "Feeding Lyova by Hand",
+   "level": "N3",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜以上に — more than",
+    "〜させる — causative form"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 258.2,
+     "end": 302.5,
+     "ja": "リョーバは必要以上に食べなかったので、",
+     "en": "Lyova didn't eat as much as needed, so",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 302.6,
+     "end": 306.2,
+     "ja": "母は手から食べさせました。",
+     "en": "mom fed him from her hand.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "cqXDrhMrBhY",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

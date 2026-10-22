@@ -1,11 +1,11 @@
 import { Link } from "@tanstack/react-router";
-import { Check, EyeOff, MessageCircleQuestion, Plus, Trash2, Volume2 } from "lucide-react";
+import { Check, MessageCircleQuestion, Plus, RotateCcw, Volume2 } from "lucide-react";
 import { useMemo, useState } from "react";
 
 import type { AskContext } from "@/lib/ask";
 import type { Clip, ClipNotes, Content, DictEntry, Word } from "@/lib/content";
 import { glossOf, thumbOf } from "@/lib/content";
-import { clipsWithWord, formatInterval, wordKeyOf, wordStatus } from "@/lib/logic";
+import { clipsWithWord, wordKeyOf, wordLevel } from "@/lib/logic";
 import { speak } from "@/lib/speech";
 import { useApp, type WordInput } from "@/lib/store";
 import { tourEmit } from "@/lib/tour-store";
@@ -14,6 +14,7 @@ import { cn } from "@/lib/utils";
 import { AskSheet } from "./AskSheet";
 import { Mascot } from "./Mascot";
 import { Button, Sheet } from "./ui";
+import { LevelPill } from "./WordLevel";
 
 const TABS = ["Meaning", "Explain", "Examples", "Notes"] as const;
 type Tab = (typeof TABS)[number];
@@ -50,7 +51,7 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
   const key = w ? wordKeyOf(w.d, w.b || w.s) : "";
   const saved = useApp((s) => (key ? s.words[key] : undefined));
   const jlpt = useApp((s) => s.profile.jlpt);
-  const { saveWord, setWordStatus, removeWord, setWordNote } = useApp.getState();
+  const { saveWord, setWordLevel, setWordNote } = useApp.getState();
   const note = w ? notes?.w[`${line}.${idx}`] : undefined;
   const lineNote = notes?.l[String(line)];
   const others = useMemo(() => (open && key ? clipsWithWord(content.clips, key, clip.id, jlpt) : []), [open, key, content.clips, clip.id, jlpt]);
@@ -67,12 +68,12 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
   const head = entry?.w ?? (w.b || w.s);
   const reading = entry?.r ?? w.r;
   const live = saved && saved.status !== "removed" ? saved : undefined;
-  const status = live ? (live.status === "ignored" ? "ignored" : wordStatus({ status: live.status, card: live.card })) : "new";
+  const level = live ? wordLevel(live) : -1;
   const input = () => wordInput(clip, line, idx, content, notes);
 
   return (
     <>
-    <Sheet open={open} onClose={onClose} maxHeight="78%">
+    <Sheet open={open} onClose={onClose} maxHeight="72%">
       <div data-tour="card" className="flex min-h-0 flex-1 flex-col">
         <div className="flex items-start gap-3 px-5 pt-3">
           <div className="min-w-0 flex-1">
@@ -92,20 +93,22 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
           </button>
         </div>
 
-        <div className="mt-3 flex gap-2 px-5">
-          {!live || live.status === "ignored" ? (
+        {/* One status button (Kiku's level badge) + the quick "I know it" — never a cramped row. */}
+        <div className="mt-3 flex items-center gap-2 px-5">
+          {!live ? (
             <>
               <button onClick={() => saveWord(input())} className="btn-3d flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-[0.9375rem] font-extrabold text-primary-foreground"><Plus className="h-4 w-4" strokeWidth={3} /> Save word</button>
-              <button onClick={() => { if (live) setWordStatus(key, "known"); else { useApp.getState().markKnown([input()]); } }} className="press flex h-11 items-center gap-1.5 rounded-xl bg-surface-2 px-3 text-[0.875rem] font-extrabold"><Check className="h-4 w-4 text-success" strokeWidth={3} /> I know it</button>
+              <button onClick={() => useApp.getState().markKnown([input()])} className="press flex h-11 shrink-0 items-center gap-1.5 rounded-xl bg-surface-2 px-3 text-[0.875rem] font-extrabold"><Check className="h-4 w-4 text-success" strokeWidth={3} /> I know it</button>
             </>
           ) : (
             <>
-              <div className={cn("flex h-11 flex-1 items-center gap-2 rounded-xl px-3 text-[0.875rem] font-extrabold", status === "known" ? "bg-success-soft text-success" : "bg-primary/15 text-primary")}>
-                {status === "known" ? <><Check className="h-4 w-4" strokeWidth={3} /> Known</> : <>Learning · review {live.card.due <= Date.now() ? "now" : `in ${formatInterval(live.card.due - Date.now())}`}</>}
-              </div>
-              {status !== "known" && <button aria-label="I know this word" onClick={() => setWordStatus(key, "known")} className="press flex h-11 items-center gap-1 rounded-xl bg-surface-2 px-3 text-[0.8125rem] font-extrabold"><Check className="h-4 w-4 text-success" strokeWidth={3} /> Known</button>}
-              <button aria-label="Ignore word" onClick={() => setWordStatus(key, "ignored")} className="press flex h-11 w-11 items-center justify-center rounded-xl bg-surface-2"><EyeOff className="h-4 w-4 text-muted-foreground" /></button>
-              <button aria-label="Remove word" onClick={() => removeWord(key)} className="press flex h-11 w-11 items-center justify-center rounded-xl bg-surface-2"><Trash2 className="h-4 w-4 text-danger" /></button>
+              <LevelPill wordKey={key} word={head} />
+              <span className="flex-1" />
+              {level >= 1 && level <= 4 ? (
+                <button onClick={() => setWordLevel(key, 5)} className="press flex h-11 shrink-0 items-center gap-1.5 rounded-xl bg-surface-2 px-3 text-[0.875rem] font-extrabold"><Check className="h-4 w-4 text-success" strokeWidth={3} /> I know it</button>
+              ) : (
+                <button onClick={() => setWordLevel(key, 1)} className="press flex h-11 shrink-0 items-center gap-1.5 rounded-xl bg-surface-2 px-3 text-[0.875rem] font-extrabold"><RotateCcw className="h-4 w-4 text-primary" strokeWidth={3} /> Learn again</button>
+              )}
             </>
           )}
         </div>

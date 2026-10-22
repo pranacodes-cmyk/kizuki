@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.3,
+   "end": 39.4,
+   "title": "Wanting to Star in a Detective Drama",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜たい — want to do",
+    "〜てみる — try doing"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 23.5,
+     "end": 27.2,
+     "ja": "ちょっと突然なんやけどね、刑事ドラマに出たいなと思ってさ。",
+     "en": "This is a bit sudden, but I want to appear in a detective drama.",
+     "speaker": "Akaki"
+    },
+    {
+     "start": 27.3,
+     "end": 28.5,
+     "ja": "刑事ドラマ？",
+     "en": "A detective drama?",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 28.6,
+     "end": 31.0,
+     "ja": "刑事ドラマ見てたらさ、昭和顔の人多いやんか。",
+     "en": "When you watch detective dramas, there are lots of people with retro Showa faces, right?",
+     "speaker": "Akaki"
+    },
+    {
+     "start": 31.1,
+     "end": 34.3,
+     "ja": "俺も結構昭和顔やからさ、出れる役あるんちゃうかなと思って。",
+     "en": "I've got quite a Showa face too, so I thought there might be a role for me.",
+     "speaker": "Akaki"
+    },
+    {
+     "start": 34.5,
+     "end": 37.0,
+     "ja": "でもさ、赤木、刑事ドラマの演技なんかできる？",
+     "en": "But Akaki, can you even act in a detective drama?",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 37.1,
+     "end": 38.9,
+     "ja": "それはやってみなわからんやん、そんなんは。",
+     "en": "You don't know unless you try it!",
+     "speaker": "Akaki"
+    }
+   ]
+  },
+  {
+   "start": 52.4,
+   "end": 64.9,
+   "title": "Arriving at the Crime Scene",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜たら — when/if"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 53.8,
+     "end": 57.5,
+     "ja": "ああ、ここが殺人事件の現場か。",
+     "en": "Ah, so this is the scene of the murder.",
+     "speaker": "Akaki"
+    },
+    {
+     "start": 57.8,
+     "end": 60.1,
+     "ja": "面白そうだな。ちょっと入ってみよう。",
+     "en": "Looks interesting. Let's go in.",
+     "speaker": "Akaki"
+    },
+    {
+     "start": 60.2,
+     "end": 61.6,
+     "ja": "そんなやつおらんっすよ！",
+     "en": "Nobody acts like that!",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 61.7,
+     "end": 63.8,
+     "ja": "めちゃくちゃ不謹慎やからね、そんなん。",
+     "en": "That's ridiculously insensitive, you know.",
+     "speaker": "Kimura Band"
+    }
+   ]
+  },
+  {
+   "start": 130.0,
+   "end": 147.2,
+   "title": "Bizarre Cause of Death",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜による — due to / caused by",
+    "〜てしまう — unintentionally end up doing"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 130.5,
+     "end": 135.5,
+     "ja": "被害者は、近所に住む佐藤さん、60歳。",
+     "en": "The victim is Mr. Sato, age 60, who lives nearby.",
+     "speaker": "Akaki"
+    },
+    {
+     "start": 136.2,
+     "end": 141.6,
+     "ja": "死因は、ナイフで刺されたことによる激痛で…",
+     "en": "The cause of death was severe pain from being stabbed with a knife...",
+     "speaker": "Akaki"
+    },
+    {
+     "start": 142.1,
+     "end": 144.5,
+     "ja": "死んでしまいました！\n激痛で！？",
+     "en": "and he died!\nFrom severe pain?!",
+     "speaker": "Akaki"
+    },
+    {
+     "start": 144.8,
+     "end": 146.9,
+     "ja": "出血多量とかじゃなく激痛なんすね。",
+     "en": "Not massive blood loss, but severe pain, huh?",
+     "speaker": "Kimura Band"
+    }
+   ]
+  }
+ ],
+ "videoId": "k4yIT8isgTg",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,197 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 15.6,
+   "end": 35.1,
+   "title": "Bickering Over Partners",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy",
+    "sports"
+   ],
+   "grammar": [
+    "〜ばかり — nothing but",
+    "〜ってこと — meaning that",
+    "〜んだから — because/since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 16.0,
+     "end": 18.2,
+     "ja": "なんであんたとばっか組まされるの？",
+     "en": "Why do I always have to be paired with you?",
+     "speaker": "Daiwa Scarlet"
+    },
+    {
+     "start": 18.9,
+     "end": 21.0,
+     "ja": "そりゃこっちのセリフだぜ。",
+     "en": "That's my line!",
+     "speaker": "Vodka"
+    },
+    {
+     "start": 21.4,
+     "end": 23.3,
+     "ja": "まあまあ。こんなにいいお天気なんだから、",
+     "en": "Now, now. The weather is so nice,",
+     "speaker": "Tsurumaru Tsuyoshi"
+    },
+    {
+     "start": 23.5,
+     "end": 25.5,
+     "ja": "喧嘩なんてもったいないよ。",
+     "en": "it's a waste to fight.",
+     "speaker": "Tsurumaru Tsuyoshi"
+    },
+    {
+     "start": 27.2,
+     "end": 30.1,
+     "ja": "何よ。アタシと組むのが嫌だってこと？",
+     "en": "What? You mean you hate being paired with me?",
+     "speaker": "Daiwa Scarlet"
+    },
+    {
+     "start": 30.3,
+     "end": 33.1,
+     "ja": "先に文句言ってただろうはお前だろう！",
+     "en": "You were the one complaining first!",
+     "speaker": "Vodka"
+    },
+    {
+     "start": 33.8,
+     "end": 34.8,
+     "ja": "うるさいわね！",
+     "en": "Shut up!",
+     "speaker": "Daiwa Scarlet"
+    }
+   ]
+  },
+  {
+   "start": 115.6,
+   "end": 125.7,
+   "title": "Summoning the Typhoon",
+   "level": "N1",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "〜よ — imperative/poetic command",
+    "〜た — past/completed action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 116.0,
+     "end": 117.4,
+     "ja": "風よ、乱せ！",
+     "en": "Wind, create chaos!",
+     "speaker": "Tanino Gimlet"
+    },
+    {
+     "start": 117.5,
+     "end": 119.3,
+     "ja": "この世のことわりを！",
+     "en": "Disturb the order of this world!",
+     "speaker": "Tanino Gimlet"
+    },
+    {
+     "start": 119.8,
+     "end": 121.2,
+     "ja": "稲妻よ、散伐しろ！",
+     "en": "Lightning, strike down!",
+     "speaker": "Tanino Gimlet"
+    },
+    {
+     "start": 121.8,
+     "end": 123.6,
+     "ja": "我が身に張り付いた…",
+     "en": "The thing clinging to my body...",
+     "speaker": "Tanino Gimlet"
+    },
+    {
+     "start": 123.8,
+     "end": 125.5,
+     "ja": "退屈を！",
+     "en": "Boredom!",
+     "speaker": "Tanino Gimlet"
+    }
+   ]
+  },
+  {
+   "start": 134.8,
+   "end": 150.9,
+   "title": "A Dramatic Misunderstanding",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "〜じゃなくて — not ... but",
+    "〜ていろ — remain in that state",
+    "〜のかしら — I wonder if"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 135.2,
+     "end": 137.0,
+     "ja": "よせ…まだだ。",
+     "en": "Stop... not yet.",
+     "speaker": "Tanino Gimlet"
+    },
+    {
+     "start": 137.4,
+     "end": 140.2,
+     "ja": "お前が暴れるステージは、ここじゃない。",
+     "en": "The stage for you to run wild isn't here.",
+     "speaker": "Tanino Gimlet"
+    },
+    {
+     "start": 140.7,
+     "end": 143.1,
+     "ja": "いい子だ…そう、大人しくしていろ。",
+     "en": "Good boy... That's it, stay quiet.",
+     "speaker": "Tanino Gimlet"
+    },
+    {
+     "start": 144.2,
+     "end": 145.4,
+     "ja": "今はな。",
+     "en": "For now, that is.",
+     "speaker": "Tanino Gimlet"
+    },
+    {
+     "start": 146.4,
+     "end": 148.0,
+     "ja": "足、どうにかしたのかしら？",
+     "en": "Did something happen to their leg?",
+     "speaker": "Daiwa Scarlet"
+    },
+    {
+     "start": 148.8,
+     "end": 150.3,
+     "ja": "やっぱかっけー！",
+     "en": "So cool after all!",
+     "speaker": "Vodka"
+    },
+    {
+     "start": 150.3,
+     "end": 150.8,
+     "ja": "なんで！？",
+     "en": "Why?!",
+     "speaker": "Daiwa Scarlet"
+    }
+   ]
+  }
+ ],
+ "videoId": "Q6ur7-o_YdI",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

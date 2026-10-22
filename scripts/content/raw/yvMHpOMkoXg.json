@@ -1,0 +1,263 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 402.5,
+   "end": 432.0,
+   "title": "A Matrix Battle with Grandma",
+   "level": "N3",
+   "topics": [
+    "family",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜とね — when/whenever (quotative/conditional)",
+    "〜される — passive voice",
+    "〜なかったの — asking for confirmation/explanation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 402.8,
+     "end": 404.7,
+     "ja": "おばあちゃんはどうだった？",
+     "en": "How was Grandma doing?",
+     "speaker": "Husband"
+    },
+    {
+     "start": 405.3,
+     "end": 406.5,
+     "ja": "おばあちゃん？",
+     "en": "Grandma?",
+     "speaker": "Wife"
+    },
+    {
+     "start": 406.9,
+     "end": 410.0,
+     "ja": "おばあちゃんあの、帰宅願望攻めと、",
+     "en": "Grandma kept insisting she wanted to go home,",
+     "speaker": "Wife"
+    },
+    {
+     "start": 410.1,
+     "end": 413.3,
+     "ja": "私のこういう攻防戦でね。",
+     "en": "and we had this back-and-forth battle.",
+     "speaker": "Wife"
+    },
+    {
+     "start": 414.0,
+     "end": 416.3,
+     "ja": "私がシューンって攻撃するとね、",
+     "en": "I'd attack like 'swoosh',",
+     "speaker": "Wife"
+    },
+    {
+     "start": 416.5,
+     "end": 418.2,
+     "ja": "シューンって避けてね。",
+     "en": "and she'd dodge like 'whoosh'.",
+     "speaker": "Wife"
+    },
+    {
+     "start": 419.0,
+     "end": 420.6,
+     "ja": "で、カーンって攻撃されて、",
+     "en": "Then she'd counter like 'bam',",
+     "speaker": "Wife"
+    },
+    {
+     "start": 420.7,
+     "end": 422.1,
+     "ja": "私がヒューンって避けてね。",
+     "en": "and I'd dodge like 'swish'.",
+     "speaker": "Wife"
+    },
+    {
+     "start": 422.2,
+     "end": 423.4,
+     "ja": "マトリックスだな。",
+     "en": "Sounds like The Matrix.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 423.5,
+     "end": 425.1,
+     "ja": "そう、こんな感じだった。",
+     "en": "Yeah, it was pretty much like that.",
+     "speaker": "Wife"
+    },
+    {
+     "start": 425.8,
+     "end": 427.4,
+     "ja": "決着つかなかったの？",
+     "en": "Did it not get resolved?",
+     "speaker": "Husband"
+    },
+    {
+     "start": 427.8,
+     "end": 429.1,
+     "ja": "機嫌よく終わったよ。",
+     "en": "We ended on good terms.",
+     "speaker": "Wife"
+    },
+    {
+     "start": 429.3,
+     "end": 430.9,
+     "ja": "あ、本当？じゃあよかったね。",
+     "en": "Oh, really? Well, that's good then.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 431.0,
+     "end": 431.7,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Wife"
+    }
+   ]
+  },
+  {
+   "start": 436.8,
+   "end": 453.2,
+   "title": "Caught on Camera",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "comedy",
+    "family"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜もん — because / giving a reason",
+    "〜って — casual topic marker / quote"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 437.0,
+     "end": 437.8,
+     "ja": "ん？",
+     "en": "Hm?",
+     "speaker": "Husband"
+    },
+    {
+     "start": 439.0,
+     "end": 440.1,
+     "ja": "撮ってんの？",
+     "en": "Are you recording?",
+     "speaker": "Husband"
+    },
+    {
+     "start": 443.2,
+     "end": 446.2,
+     "ja": "今、トゥルルルって言いながら何しに来たの？",
+     "en": "What did you just come here humming 'turururu' for?",
+     "speaker": "Wife"
+    },
+    {
+     "start": 446.3,
+     "end": 448.0,
+     "ja": "MCハマーだもん、だって。",
+     "en": "Because I'm MC Hammer.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 448.1,
+     "end": 449.2,
+     "ja": "MCハマー？",
+     "en": "MC Hammer?",
+     "speaker": "Wife"
+    },
+    {
+     "start": 449.6,
+     "end": 453.0,
+     "ja": "分かんない。MCハマーってどんな歌？",
+     "en": "I don't know it. What kind of song does MC Hammer do?",
+     "speaker": "Wife"
+    }
+   ]
+  },
+  {
+   "start": 488.0,
+   "end": 502.0,
+   "title": "Tasting the Ginger at Dinner",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜ているような感じ — feeling like ...",
+    "〜ただけなのに — even though only did ...",
+    "〜たくなっちゃって — ended up wanting to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 488.2,
+     "end": 489.2,
+     "ja": "どうぞ。",
+     "en": "Here you go.",
+     "speaker": "Wife"
+    },
+    {
+     "start": 489.3,
+     "end": 490.8,
+     "ja": "はい、いただきます。",
+     "en": "Thanks, let's eat.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 491.2,
+     "end": 493.2,
+     "ja": "カレイ安く売ってたの。",
+     "en": "Flounder was on sale.",
+     "speaker": "Wife"
+    },
+    {
+     "start": 493.4,
+     "end": 495.6,
+     "ja": "なんか生姜がすごい効いてるような感じしたよ。",
+     "en": "It feels like there's a really strong kick of ginger.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 496.0,
+     "end": 497.3,
+     "ja": "ピーマン食っただけなのに。",
+     "en": "Even though I only ate a bell pepper.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 497.4,
+     "end": 499.0,
+     "ja": "あ、そう？濃かったかな？",
+     "en": "Oh, really? Was the flavor too strong?",
+     "speaker": "Wife"
+    },
+    {
+     "start": 499.1,
+     "end": 500.3,
+     "ja": "ううん、いいんじゃん。",
+     "en": "No, it's good.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 500.4,
+     "end": 501.8,
+     "ja": "生姜いっぱい食べたくなっちゃって。",
+     "en": "I just really felt like eating lots of ginger.",
+     "speaker": "Wife"
+    }
+   ]
+  }
+ ],
+ "videoId": "yvMHpOMkoXg",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

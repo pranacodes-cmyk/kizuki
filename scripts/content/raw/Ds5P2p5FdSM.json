@@ -1,0 +1,167 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 134.2,
+   "end": 147.8,
+   "title": "Rating English Ability",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜かどうか — whether or not",
+    "〜かなと思う — I think/wonder if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 134.2,
+     "end": 137.0,
+     "ja": "６とかぐらいですかね。",
+     "en": "Maybe around a six?",
+     "speaker": "Student"
+    },
+    {
+     "start": 137.2,
+     "end": 140.5,
+     "ja": "授業中とかでは普通に話せるときは話せるんですけど、",
+     "en": "During class I can speak fine when I need to, but...",
+     "speaker": "Student"
+    },
+    {
+     "start": 140.7,
+     "end": 144.8,
+     "ja": "いざ実践という場所になったときにいきなり使えるかどうかと言うのだと、",
+     "en": "when it comes to a real-life situation, as for whether I can use it on the spot...",
+     "speaker": "Student"
+    },
+    {
+     "start": 145.0,
+     "end": 147.5,
+     "ja": "少し戸惑うかなとは思います。",
+     "en": "I think I might hesitate a little.",
+     "speaker": "Student"
+    }
+   ]
+  },
+  {
+   "start": 193.0,
+   "end": 208.5,
+   "title": "Taking Foreigners to the Police",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てあげる — to do something for someone",
+    "〜すぎる — too much / excessive"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 193.0,
+     "end": 196.8,
+     "ja": "じゃあ、道を聞かれた時にテンパらずに何かちゃんと説明してあげられましたか？",
+     "en": "So when asked for directions, were you able to explain properly without panicking?",
+     "speaker": "Hiroko"
+    },
+    {
+     "start": 197.0,
+     "end": 200.0,
+     "ja": "いや、私はもう交番に連れて行きました。",
+     "en": "No, I just took them to the police box.",
+     "speaker": "Man"
+    },
+    {
+     "start": 200.1,
+     "end": 201.8,
+     "ja": "分からなすぎて。",
+     "en": "Because we had no clue.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 202.0,
+     "end": 203.9,
+     "ja": "「ポリス、ポリス」って言ったけど、",
+     "en": "I said, \"Police, police,\" but...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 204.0,
+     "end": 205.6,
+     "ja": "それも通じないんで、",
+     "en": "that didn't work either,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 205.7,
+     "end": 208.0,
+     "ja": "手で招いて連れて行きました。",
+     "en": "so I gestured with my hands and took them there.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 293.0,
+   "end": 307.2,
+   "title": "Is English Important in Japan?",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "work"
+   ],
+   "grammar": [
+    "〜にしても — even in the case of",
+    "〜ちゃう — to end up doing",
+    "〜かなと思う — to think that maybe"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 293.0,
+     "end": 296.8,
+     "ja": "日本社会では英語を話せることはどれだけ重要ですか？",
+     "en": "How important is it to be able to speak English in Japanese society?",
+     "speaker": "Hiroko"
+    },
+    {
+     "start": 297.0,
+     "end": 300.8,
+     "ja": "まだそこまで重要じゃないかなって思ってます。",
+     "en": "I feel like it's still not that important yet.",
+     "speaker": "Man"
+    },
+    {
+     "start": 301.0,
+     "end": 302.6,
+     "ja": "仕事とかにしても、",
+     "en": "Even when it comes to work,",
+     "speaker": "Man"
+    },
+    {
+     "start": 302.8,
+     "end": 305.3,
+     "ja": "日本語で結局事足りちゃう部分が",
+     "en": "the parts where Japanese ends up being sufficient",
+     "speaker": "Man"
+    },
+    {
+     "start": 305.4,
+     "end": 307.0,
+     "ja": "ほとんどかなって思います。",
+     "en": "make up most of it, I think.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "Ds5P2p5FdSM",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

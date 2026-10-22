@@ -1,0 +1,193 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 82.5,
+   "end": 101.8,
+   "title": "What is an ATM?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜ている — ongoing action/state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 82.8,
+     "end": 84.8,
+     "ja": "ATMは、",
+     "en": "An ATM is...",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 85.0,
+     "end": 90.5,
+     "ja": "えー、まあ、お金を引き出すところですね。",
+     "en": "well, a place where you withdraw money.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 90.8,
+     "end": 92.8,
+     "ja": "お金を引き出すと言います。",
+     "en": "We say \"withdraw money.\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 93.0,
+     "end": 98.6,
+     "ja": "銀行に預けているお金を引き出す場所。",
+     "en": "A place where you withdraw money deposited in a bank.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 99.0,
+     "end": 101.3,
+     "ja": "まあ、マシーンですよね。",
+     "en": "Well, it's a machine, right?",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 115.8,
+   "end": 130.8,
+   "title": "ATMs in Japanese Convenience Stores",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜にも — also in",
+    "〜ので — because"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 116.1,
+     "end": 118.0,
+     "ja": "あと、日本では",
+     "en": "Also, in Japan,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 118.2,
+     "end": 122.5,
+     "ja": "コンビニの中にもATMがあります。",
+     "en": "there are also ATMs inside convenience stores.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 123.0,
+     "end": 125.4,
+     "ja": "コンビニのATMは、",
+     "en": "Convenience store ATMs,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 125.7,
+     "end": 128.4,
+     "ja": "まあ、いつでも使えるので",
+     "en": "well, since you can use them anytime,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 128.7,
+     "end": 130.4,
+     "ja": "とても便利ですよね。",
+     "en": "are very convenient, aren't they?",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 160.0,
+   "end": 187.3,
+   "title": "Cash-Only Shops in Japan",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜とき — when",
+    "〜てある — state resulting from action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 160.3,
+     "end": 162.2,
+     "ja": "まあ、皆さんが",
+     "en": "Well, when you all",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 162.4,
+     "end": 165.5,
+     "ja": "観光で日本に来たとき、",
+     "en": "come to Japan for sightseeing,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 166.0,
+     "end": 170.5,
+     "ja": "たまにキャッシュオンリーの店がありますね。",
+     "en": "sometimes there are cash-only shops.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 170.8,
+     "end": 173.0,
+     "ja": "小さい店とかで",
+     "en": "At small shops or places like that,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 173.3,
+     "end": 176.0,
+     "ja": "昼ご飯とかを食べると、",
+     "en": "when you eat lunch or something,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 176.3,
+     "end": 178.5,
+     "ja": "キャッシュオンリー、",
+     "en": "they say \"cash only\",",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 178.7,
+     "end": 180.2,
+     "ja": "現金のみ。",
+     "en": "\"genkin nomi\".",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 180.5,
+     "end": 182.2,
+     "ja": "現金だけっていうこと。",
+     "en": "Meaning cash only.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 182.5,
+     "end": 186.8,
+     "ja": "「現金のみ」と書いてある店があります。",
+     "en": "There are shops that have \"Cash Only\" written on them.",
+     "speaker": "Teppei"
+    }
+   ]
+  }
+ ],
+ "videoId": "u0StqkhGyPY",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

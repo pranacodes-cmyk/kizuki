@@ -1,0 +1,164 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 29.8,
+   "end": 48.5,
+   "title": "Heading to the First Class",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜たいと思う — expressing intention",
+    "〜んじゃないか — wondering / conjecture",
+    "〜というのは — as for / speaking of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 29.8,
+     "end": 33.2,
+     "ja": "はい それじゃあね、１限目の教室に向かいたいと思います。",
+     "en": "All right then, I'm going to head to the classroom for first period.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 33.3,
+     "end": 36.1,
+     "ja": "１限目はね、材料力学って言って、",
+     "en": "First period is called Mechanics of Materials,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 36.2,
+     "end": 39.1,
+     "ja": "まあね、これ必修じゃなくて選択科目なんですよ。",
+     "en": "and well, it's an elective rather than a required subject.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 39.5,
+     "end": 43.0,
+     "ja": "だから、朝から大学に来るのはみんな億劫なんで、",
+     "en": "So everyone finds coming to campus so early a hassle,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 43.1,
+     "end": 45.6,
+     "ja": "結構人少ないんじゃないかなと思ってます。",
+     "en": "which makes me think there won't be many people.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 45.7,
+     "end": 48.3,
+     "ja": "そういうとこはね、ぼっちの狙い目授業ですね。",
+     "en": "Classes like that are the ideal target for loners.",
+     "speaker": "Parker"
+    }
+   ]
+  },
+  {
+   "start": 309.5,
+   "end": 326.5,
+   "title": "A Loner's Lunch Break Rules",
+   "level": "N3",
+   "topics": [
+    "school",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ば — conditional (if / when)",
+    "〜なんて — such a thing as (diminutive)",
+    "〜ということで — therefore / and so"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 309.5,
+     "end": 313.2,
+     "ja": "で、まあね、２限目が終われば、まあ昼休みということでね、",
+     "en": "And well, once second period ends, it's lunch break,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 313.3,
+     "end": 317.3,
+     "ja": "まあ大抵の学生は学食で食べるとかそういうことを行うんですけども、",
+     "en": "and most students do things like eat at the cafeteria, but...",
+     "speaker": "Parker"
+    },
+    {
+     "start": 317.4,
+     "end": 321.0,
+     "ja": "まあ、ぼっちに学食利用する権利なんてありません。これはね、断言します。",
+     "en": "Well, loners don't have the right to use the cafeteria. I state this firmly.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 321.1,
+     "end": 326.0,
+     "ja": "ということで、僕はね、この学食を通り過ぎて２階へと上がっていきます。",
+     "en": "So, I'm just going to pass by the cafeteria and head up to the second floor.",
+     "speaker": "Parker"
+    }
+   ]
+  },
+  {
+   "start": 431.2,
+   "end": 444.5,
+   "title": "The Secret Lunch Spot",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜だけ — only / just",
+    "〜っていうのは — speaking of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 431.2,
+     "end": 433.8,
+     "ja": "最高の場所なんですけど、",
+     "en": "It's the greatest spot, but...",
+     "speaker": "Parker"
+    },
+    {
+     "start": 433.9,
+     "end": 437.3,
+     "ja": "昔はね、ここ喫煙ルームだったんですけど、",
+     "en": "In the past, this was a smoking area,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 437.4,
+     "end": 441.5,
+     "ja": "灰皿が撤去されてからはね、誰もいなくなったんでね、",
+     "en": "but after the ashtrays were removed, nobody came here anymore.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 441.6,
+     "end": 444.2,
+     "ja": "完全にね、僕だけが利用できるということで。",
+     "en": "So now, it has completely become a place only I use.",
+     "speaker": "Parker"
+    }
+   ]
+  }
+ ],
+ "videoId": "1DYvbBMN1so",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

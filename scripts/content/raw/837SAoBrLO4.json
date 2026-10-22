@@ -1,0 +1,154 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.8,
+   "end": 27.5,
+   "title": "Speaker Introduction",
+   "level": "N3",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜と言うと — when it comes to / speaking of",
+    "〜になります — becoming / turns out to be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.2,
+     "end": 16.5,
+     "ja": "本日は貴重な価値のある、4人目の日本語のスピーカーになります。",
+     "en": "Today, I will be the fourth Japanese speaker of precious value.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 17.0,
+     "end": 19.3,
+     "ja": "よろしくお願いします。",
+     "en": "Thank you for having me.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 19.5,
+     "end": 22.0,
+     "ja": "私は何者かと言いますと、",
+     "en": "As for who I am,",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 22.0,
+     "end": 27.2,
+     "ja": "環境未来都市構想「GREEN FLOAT」のプロジェクトリーダーの竹内です。",
+     "en": "I'm Takeuchi, the project leader of the eco-futuristic city project 'GREEN FLOAT'.",
+     "speaker": "Takeuchi"
+    }
+   ]
+  },
+  {
+   "start": 91.0,
+   "end": 150.0,
+   "title": "How the Great Buddha Survives Earthquakes",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜んですが — but / however",
+    "〜ので — because / since",
+    "〜と — quoting / defining"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 91.2,
+     "end": 95.0,
+     "ja": "名前は難しいんですが、技術は簡単です。",
+     "en": "The name is difficult, but the technology is simple.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 95.2,
+     "end": 99.2,
+     "ja": "大仏さんと下の台座の間に、",
+     "en": "Between the Great Buddha and the pedestal beneath it,",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 99.2,
+     "end": 102.0,
+     "ja": "ステンレスの板を1枚敷いたと。これだけです。",
+     "en": "they just laid a single stainless steel plate. That's all.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 102.2,
+     "end": 106.8,
+     "ja": "地震が来ると、大仏さんがずーっと動きますので、",
+     "en": "When an earthquake hits, the Great Buddha slides smoothly,",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 107.0,
+     "end": 149.7,
+     "ja": "ご本体は安全だと、こういうことです。",
+     "en": "so the main body stays safe—that's how it works.",
+     "speaker": "Takeuchi"
+    }
+   ]
+  },
+  {
+   "start": 160.8,
+   "end": 176.0,
+   "title": "How Base Isolation Works",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜ために — in order to / because of",
+    "〜ように — like / as if",
+    "〜ず — without / not doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 161.0,
+     "end": 163.7,
+     "ja": "右の建物が免震建物です。",
+     "en": "The building on the right is a base-isolated building.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 164.0,
+     "end": 166.8,
+     "ja": "下のゴムがしなるために、",
+     "en": "Because the rubber underneath flexes,",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 166.8,
+     "end": 172.0,
+     "ja": "上の建物は大きな船に乗ったようにゆっくりと揺れます。",
+     "en": "the building above sways slowly, as if riding on a large ship.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 172.2,
+     "end": 175.7,
+     "ja": "天井は落ちず、家具は倒れないということです。",
+     "en": "This means ceilings don't collapse and furniture doesn't tip over.",
+     "speaker": "Takeuchi"
+    }
+   ]
+  }
+ ],
+ "videoId": "837SAoBrLO4",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

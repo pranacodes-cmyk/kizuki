@@ -1,0 +1,110 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.6,
+   "end": 8.2,
+   "title": "Thinking of Getting a Pet",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "daily",
+    "animals"
+   ],
+   "grammar": [
+    "〜やけど — Kansai form of ~but",
+    "〜てくれる — doing something for someone's benefit"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.8,
+     "end": 4.6,
+     "ja": "いきなりやけど俺、ちょっともうペット飼いたいな思て。",
+     "en": "Out of nowhere, but I've been thinking I'd like to get a pet.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 5.0,
+     "end": 8.0,
+     "ja": "一人暮らしの寂しさとか紛らわしてくれるやんか。",
+     "en": "It takes your mind off the loneliness of living alone, you know?",
+     "speaker": "Friend"
+    }
+   ]
+  },
+  {
+   "start": 50.7,
+   "end": 57.0,
+   "title": "Is This Supposed to Be Funny?",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てました — was doing (polite)",
+    "〜ても — even if / no matter what"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 50.9,
+     "end": 54.4,
+     "ja": "人の真似すんの死んでも嫌やって言うてましたよね？",
+     "en": "You told me you'd rather die than copy someone else, right?",
+     "speaker": "Tokunaga"
+    },
+    {
+     "start": 54.8,
+     "end": 56.8,
+     "ja": "これも面白いんですか？",
+     "en": "Is this supposed to be funny too?",
+     "speaker": "Tokunaga"
+    }
+   ]
+  },
+  {
+   "start": 130.2,
+   "end": 144.8,
+   "title": "There Is No Bad Ending",
+   "level": "N3",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜限り — as long as",
+    "まだまだ — still far from / still"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 130.5,
+     "end": 133.7,
+     "ja": "生きている限り、バッドエンドはない。",
+     "en": "As long as you're alive, there is no bad ending.",
+     "speaker": "Tokunaga"
+    },
+    {
+     "start": 135.7,
+     "end": 138.8,
+     "ja": "僕たちはまだまだ途中だ。",
+     "en": "We are still on our way.",
+     "speaker": "Tokunaga"
+    },
+    {
+     "start": 142.5,
+     "end": 144.5,
+     "ja": "火花。",
+     "en": "Sparks.",
+     "speaker": "Tokunaga"
+    }
+   ]
+  }
+ ],
+ "videoId": "nzp96RHZ4_4",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

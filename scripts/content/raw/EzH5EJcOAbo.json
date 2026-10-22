@@ -1,0 +1,216 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 116.5,
+   "end": 134.0,
+   "title": "Rolling the Mission Dice",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜ましょう — let's do"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 116.7,
+     "end": 118.0,
+     "ja": "サイコロ振ってください。",
+     "en": "Please roll the dice.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 118.2,
+     "end": 121.3,
+     "ja": "分かったよ。じゃあ分かりましたよ。振りますよ。分かりましたよ。",
+     "en": "Alright, got it. I'll roll it. Understood.",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 121.7,
+     "end": 122.9,
+     "ja": "よいしょ！",
+     "en": "Here goes!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 126.5,
+     "end": 131.7,
+     "ja": "えー、こちら、「急に無になる」でございます。",
+     "en": "Um, this one: 'Suddenly become completely blank'.",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 134.5,
+     "end": 135.5,
+     "ja": "行きましょう！",
+     "en": "Let's go!",
+     "speaker": "Nagai"
+    }
+   ]
+  },
+  {
+   "start": 163.8,
+   "end": 194.5,
+   "title": "Interviewing a Passerby in Akihabara",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜てもいい — permission (is it okay to...)",
+    "〜ただけ — just did / only did",
+    "〜られる — honorific passive"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 164.0,
+     "end": 166.3,
+     "ja": "ちょっとお話聞いても大丈夫ですか？",
+     "en": "Is it okay if I ask you a few questions?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 166.8,
+     "end": 168.0,
+     "ja": "まあ、いいっすよ。",
+     "en": "Well, sure.",
+     "speaker": "Saito"
+    },
+    {
+     "start": 168.3,
+     "end": 171.8,
+     "ja": "あ、いいですか？今日秋葉原には何しにいらしたんですか？",
+     "en": "Oh, really? What brought you to Akihabara today?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 172.0,
+     "end": 173.8,
+     "ja": "ちょっと買い物ですね。",
+     "en": "Just some shopping.",
+     "speaker": "Saito"
+    },
+    {
+     "start": 174.1,
+     "end": 177.3,
+     "ja": "あ、買い物。今日何か買ったんですか？",
+     "en": "Ah, shopping. Did you buy anything today?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 177.5,
+     "end": 179.8,
+     "ja": "いや、見ただけなんですけど。",
+     "en": "No, I just looked around.",
+     "speaker": "Saito"
+    },
+    {
+     "start": 180.2,
+     "end": 182.8,
+     "ja": "気に入ったものは特に無かったですか？",
+     "en": "Was there nothing you particularly liked?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 183.0,
+     "end": 184.2,
+     "ja": "そうですね。",
+     "en": "That's right.",
+     "speaker": "Saito"
+    },
+    {
+     "start": 184.7,
+     "end": 188.0,
+     "ja": "秋葉原には結構来られるんですか？",
+     "en": "Do you come to Akihabara often?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 188.3,
+     "end": 189.5,
+     "ja": "そうですね。",
+     "en": "Yeah, I do.",
+     "speaker": "Saito"
+    }
+   ]
+  },
+  {
+   "start": 223.7,
+   "end": 247.3,
+   "title": "Suddenly Freezing Mid-Conversation",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜ても困る — be troubled even if",
+    "〜んで — because / so"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 224.0,
+     "end": 225.2,
+     "ja": "ちょっと質問…",
+     "en": "A question...",
+     "speaker": "Saito"
+    },
+    {
+     "start": 225.4,
+     "end": 228.3,
+     "ja": "はい、何でもいいっすよ。何でもいいんで聞いてください。",
+     "en": "Yes, anything is fine. Ask whatever you like.",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 228.8,
+     "end": 230.5,
+     "ja": "趣味とかって何ですか？",
+     "en": "What are your hobbies?",
+     "speaker": "Saito"
+    },
+    {
+     "start": 230.8,
+     "end": 232.0,
+     "ja": "趣味…",
+     "en": "Hobbies...",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 235.4,
+     "end": 237.5,
+     "ja": "何で止まったんですか？",
+     "en": "Why did you freeze?",
+     "speaker": "Saito"
+    },
+    {
+     "start": 241.6,
+     "end": 244.2,
+     "ja": "そんな見つめられても困っちゃうんですけど。",
+     "en": "It's awkward when you stare at me like that.",
+     "speaker": "Saito"
+    },
+    {
+     "start": 244.4,
+     "end": 247.0,
+     "ja": "すいません。趣味は、パチンコですね。",
+     "en": "Sorry. My hobby is pachinko.",
+     "speaker": "Nagai"
+    }
+   ]
+  }
+ ],
+ "videoId": "EzH5EJcOAbo",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

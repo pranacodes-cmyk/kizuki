@@ -1,0 +1,166 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.9,
+   "end": 18.9,
+   "title": "Grasping the Flow of History",
+   "level": "N3",
+   "topics": [
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜ていると — when doing (triggers outcome)",
+    "〜のではないだろうか — isn't it the case that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.9,
+     "end": 4.9,
+     "ja": "日本史の勉強をしていると、",
+     "en": "When studying Japanese history,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 4.9,
+     "end": 8.5,
+     "ja": "日本史は「流れ」を掴むことが大切だという言葉をよく耳にします。",
+     "en": "we often hear that it's important to grasp the overall flow.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 8.7,
+     "end": 11.2,
+     "ja": "しかし、いざ勉強を始めると、",
+     "en": "However, once we actually start studying,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 11.2,
+     "end": 15.5,
+     "ja": "「流れが分からなくなった」と感じる人も多いのではないでしょうか。",
+     "en": "aren't there many people who feel like they've lost track of the flow?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 15.8,
+     "end": 18.9,
+     "ja": "この動画はそんな方々を対象にしています。",
+     "en": "This video is aimed at those people.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 447.5,
+   "end": 511.2,
+   "title": "How Earthenware Changed Early Life",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜によって — through / by means of",
+    "〜ようになる — to come to be able to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 447.8,
+     "end": 452.8,
+     "ja": "しかし、人々の生活はある道具の登場によって大きく変わります。",
+     "en": "However, people's lives changed dramatically with the appearance of a certain tool.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 452.9,
+     "end": 454.7,
+     "ja": "それが土器です。",
+     "en": "That is earthenware.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 454.8,
+     "end": 458.8,
+     "ja": "土器が登場する前までは、森で拾ってきた木の実をそのまま保存したり、",
+     "en": "Before earthenware appeared, they stored nuts gathered in the forest as they were,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 458.9,
+     "end": 463.0,
+     "ja": "喉が渇くと川まで水を汲みに行ったりしていました。",
+     "en": "and when they got thirsty, they would go to the river to fetch water.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 463.3,
+     "end": 467.4,
+     "ja": "しかし、土器ができると、木の実を器に入れて保存できるようになり、",
+     "en": "However, once earthenware was made, they could store nuts in vessels,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 467.5,
+     "end": 510.9,
+     "ja": "水を溜めておくこともできるようになりました。",
+     "en": "and they also became able to store water.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 844.8,
+   "end": 860.8,
+   "title": "The Birth of Tokyo in the Meiji Era",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜を迎える — to welcome / receive",
+    "〜を中心とした — centered on..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 845.0,
+     "end": 849.3,
+     "ja": "そして、薩摩藩や長州藩の人々は",
+     "en": "Then, the people of the Satsuma and Choshu domains",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 849.3,
+     "end": 852.8,
+     "ja": "天皇を京都から江戸に迎え、江戸の名前を東京に変えました。",
+     "en": "welcomed the Emperor from Kyoto to Edo and changed Edo's name to Tokyo.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 853.1,
+     "end": 856.8,
+     "ja": "こうして、東京を新しい政治の中心にし、",
+     "en": "In this way, making Tokyo the new political center,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 856.8,
+     "end": 860.6,
+     "ja": "日本は生まれ変わり、天皇を中心とした政府が作られていったのです。",
+     "en": "Japan was reborn, and a government centered on the Emperor was created.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "Hl365eA0okk",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

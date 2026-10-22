@@ -1,0 +1,141 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.2,
+   "end": 33.0,
+   "title": "Harvesting Cabbage Under the Snow",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "food"
+   ],
+   "grammar": [
+    "〜がある — there is / an event takes place",
+    "〜ぐらい — approximately"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.5,
+     "end": 16.8,
+     "ja": "秋田県 雪の下にあるキャベツをとるイベント",
+     "en": "Akita Prefecture: An event to harvest cabbage under the snow.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 18.5,
+     "end": 28.2,
+     "ja": "秋田県由利本荘市の畑で5日、雪の下にあるキャベツをとるイベントがありました。",
+     "en": "On the 5th, in a field in Yurihonjo City, Akita Prefecture, an event was held to harvest cabbage from under the snow.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 28.8,
+     "end": 32.8,
+     "ja": "270人ぐらいが集まりました。",
+     "en": "About 270 people gathered.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 34.2,
+   "end": 56.5,
+   "title": "Sweet Cabbages Kept Under the Snow",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜ことができる — can / be able to",
+    "〜ておく — to leave in a state",
+    "〜と — conditional when / whenever"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 34.8,
+     "end": 40.5,
+     "ja": "キャベツは去年の秋にとることができる大きさになりましたが、",
+     "en": "The cabbages grew large enough to harvest last autumn, but...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 41.0,
+     "end": 45.2,
+     "ja": "雪が降る冬もそのままにしました。",
+     "en": "...they were left as they were even through the snowy winter.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 46.5,
+     "end": 51.2,
+     "ja": "キャベツを雪の下に置いておくと、甘くなります。",
+     "en": "When cabbage is left under the snow, it becomes sweeter.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 52.2,
+     "end": 56.0,
+     "ja": "噛むと、シャキシャキと音がしておいしいです。",
+     "en": "When you bite into it, it makes a crunchy sound and is delicious.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 58.5,
+   "end": 87.5,
+   "title": "Like Hunting for Treasure",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "family",
+    "food"
+   ],
+   "grammar": [
+    "〜を使って — using / with",
+    "〜ていた — past progressive",
+    "〜のようだ — like / as if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 59.2,
+     "end": 64.5,
+     "ja": "畑には5000個ぐらいのキャベツが残っていました。",
+     "en": "About 5,000 cabbages were left in the field.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 65.0,
+     "end": 72.0,
+     "ja": "家族などが道具を使って、雪の下から1つ1つとっていました。",
+     "en": "Families and others used tools to dig them up one by one from under the snow.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 73.2,
+     "end": 80.0,
+     "ja": "子どもと来た女性は「子どもにもいい経験になると思いました。",
+     "en": "A woman who came with her child said, \"I thought it would be a good experience for my child.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 80.5,
+     "end": 87.0,
+     "ja": "宝物を探すようで楽しかったです」と話していました。",
+     "en": "It was fun, like searching for treasure.\"",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "ZMqE5MueCXM",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

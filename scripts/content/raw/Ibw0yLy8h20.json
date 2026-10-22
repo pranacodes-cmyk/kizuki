@@ -1,0 +1,158 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.2,
+   "end": 40.5,
+   "title": "Introducing Myself at Parties",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜と聞かれる — passive reporting (being asked)",
+    "〜ていく — action moving away / continuing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.2,
+     "end": 27.6,
+     "ja": "私、自己紹介いたしますと、「ご職業何ですか」と聞かれます。",
+     "en": "When I introduce myself, people often ask me what my occupation is.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 28.2,
+     "end": 33.2,
+     "ja": "名刺をお渡ししても、大体無言で「シーン」と。",
+     "en": "Even when I hand them my business card, there is usually dead silence.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 33.6,
+     "end": 37.2,
+     "ja": "ひどい方はそのまま後ろにスーッと下がっていかれます。",
+     "en": "In the worst cases, people slowly step backward and back away.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 37.8,
+     "end": 40.2,
+     "ja": "「あ、どっか行かれましたね」という話です。",
+     "en": "\"Oh, looks like they went somewhere,\" so to speak.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 44.0,
+   "end": 50.0,
+   "title": "What Does It Mean to Embrace?",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "お持ちでしょうか — polite questioning (honorific)",
+    "〜と思う — expressing thoughts/opinions"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.2,
+     "end": 46.2,
+     "ja": "ちょっとあの、ご質問いたします。",
+     "en": "Let me ask you a quick question.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 46.5,
+     "end": 51.5,
+     "ja": "「包み込む」という一言で、皆さんどういう印象をお持ちでしょうか？",
+     "en": "What kind of impression do you have of the phrase 'to embrace'?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 52.0,
+     "end": 54.8,
+     "ja": "大体はこう、愛情があるとか、",
+     "en": "Usually, people associate it with affection,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 55.3,
+     "end": 49.5,
+     "ja": "本当にあの、温かいっていう感覚があると思うんですよね。",
+     "en": "or a genuinely warm feeling, I think.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 739.8,
+   "end": 800.8,
+   "title": "Accepting Things as They Are",
+   "level": "N2",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜てはいかがでしょうか — polite suggestion",
+    "〜てから — after doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 740.0,
+     "end": 744.0,
+     "ja": "あの、白黒をつけないっていうのもすごく大事だと思ってます。",
+     "en": "I think not seeing everything in black and white is very important.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 744.4,
+     "end": 746.7,
+     "ja": "あえてそのまま受け取るということです。",
+     "en": "It means deliberately accepting things just as they are.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 747.1,
+     "end": 749.2,
+     "ja": "これはそれぞれのありようです。",
+     "en": "This is simply how each person is.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 749.5,
+     "end": 753.0,
+     "ja": "皆さんのありようをまず受け取ってからどうするか。",
+     "en": "The question is what to do after first accepting the way everyone is.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 753.3,
+     "end": 756.8,
+     "ja": "ひょっとすると解釈できない、理解できないっていうのは当然でして、",
+     "en": "It is completely natural that you might not be able to interpret or understand it,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 757.0,
+     "end": 800.4,
+     "ja": "そもそもそのまま受け取ってみてはいかがでしょうかと。",
+     "en": "so why not try accepting it just as it is in the first place?",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "Ibw0yLy8h20",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

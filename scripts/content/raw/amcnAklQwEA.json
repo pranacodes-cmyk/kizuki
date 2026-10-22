@@ -1,0 +1,149 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 127.5,
+   "end": 145.0,
+   "title": "Japan's Decreasing Population",
+   "level": "N2",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜によると — according to",
+    "〜時点で — as of / at the point in time of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 127.8,
+     "end": 131.5,
+     "ja": "調査によると、",
+     "en": "According to a survey,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 131.5,
+     "end": 135.3,
+     "ja": "日本人の人口は2025年1月1日の時点で、",
+     "en": "the Japanese population as of January 1st, 2025,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 135.5,
+     "end": 140.5,
+     "ja": "1億2065万3227人で、",
+     "en": "was 120,653,227 people,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 140.7,
+     "end": 144.6,
+     "ja": "前年より約90万8千人減少した。",
+     "en": "decreasing by about 908,000 from the previous year.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 156.0,
+   "end": 215.0,
+   "title": "Causes of Population Decline",
+   "level": "N2",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜に対して — in contrast to / compared to",
+    "〜だ — plain copula assertion"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 156.4,
+     "end": 201.5,
+     "ja": "人口減少の主な要因は、少子高齢化の加速だ。",
+     "en": "The main factor in population decline is the acceleration of the falling birthrate and aging population.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 202.0,
+     "end": 206.0,
+     "ja": "2024年に生まれた日本人の出生数は、",
+     "en": "The number of births among Japanese people born in 2024",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 206.2,
+     "end": 209.7,
+     "ja": "過去最少の約68万人に対して、",
+     "en": "hit a record low of about 680,000, while",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 210.0,
+     "end": 214.7,
+     "ja": "死亡者数は過去最多の約160万人だった。",
+     "en": "the number of deaths reached a record high of about 1.6 million.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 215.2,
+   "end": 240.8,
+   "title": "Trends in Foreign Residents in Japan",
+   "level": "N2",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜によって — due to / because of",
+    "〜ている — ongoing state / progressive"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 215.6,
+     "end": 224.5,
+     "ja": "一方、外国人は約35万4千人増の367万7463人。",
+     "en": "On the other hand, foreign residents increased by about 354,000 to 3,677,463.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 225.0,
+     "end": 228.0,
+     "ja": "全都道府県で増加し、",
+     "en": "The number increased in all prefectures,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 228.0,
+     "end": 232.6,
+     "ja": "調査を始めた2013年以降最多となった。",
+     "en": "reaching the highest figure since surveys began in 2013.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 233.0,
+     "end": 236.5,
+     "ja": "新型コロナウイルスによって一時的に減少したが、",
+     "en": "Although it temporarily dropped due to COVID-19,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 236.8,
+     "end": 240.5,
+     "ja": "2023年から3年連続で増加している。",
+     "en": "it has been increasing for three consecutive years since 2023.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "amcnAklQwEA",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

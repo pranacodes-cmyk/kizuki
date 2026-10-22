@@ -1,0 +1,206 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 15.63,
+   "end": 35.12,
+   "title": "Welcome to FX Economics Research Lab",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜となりました — became / has come to be",
+    "〜をよろしくお願いします — please look favorably upon"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 16.03,
+     "end": 17.57,
+     "ja": "こんにちは。",
+     "en": "Hello.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 18.73,
+     "end": 22.3,
+     "ja": "「FX経済研究所」の時間となりました。",
+     "en": "It is time for the FX Economics Research Institute.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 22.63,
+     "end": 26.0,
+     "ja": "研究助手アシスタントの竹内里佳です。",
+     "en": "I'm Rika Takeuchi, the research assistant.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 26.23,
+     "end": 28.17,
+     "ja": "今日の為替相場の研究報告は、",
+     "en": "Today's foreign exchange market research report",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 28.37,
+     "end": 31.03,
+     "ja": "LION FX経済研究所、",
+     "en": "is from LION FX Economics Research Institute researcher,",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 31.03,
+     "end": 32.73,
+     "ja": "ダックビル山岡和雅研究員です。",
+     "en": "Duckbill Kazumasa Yamaoka.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 32.73,
+     "end": 34.37,
+     "ja": "山岡さん、よろしくお願いします。",
+     "en": "Mr. Yamaoka, it's a pleasure to have you.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 34.47,
+     "end": 34.9,
+     "ja": "はい、よろしくお願いします。",
+     "en": "Yes, thank you.",
+     "speaker": "Yamaoka"
+    }
+   ]
+  },
+  {
+   "start": 204.64,
+   "end": 225.43,
+   "title": "Morning Yen Market Movements",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜となる — to become / result in",
+    "〜とされる — to be regarded as / considered as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 205.14,
+     "end": 208.57,
+     "ja": "今日午前の円相場は上昇となりました。",
+     "en": "This morning, the yen market rose.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 209.67,
+     "end": 214.3,
+     "ja": "今日の日本を含むアジアの株式相場が総じて軟調な展開となり、",
+     "en": "Today, Asian stock markets, including Japan, generally trended weak,",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 214.77,
+     "end": 218.4,
+     "ja": "相対的に低リスクとされる円買いが進みました。",
+     "en": "leading to buying of the relatively lower-risk yen.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 219.03,
+     "end": 223.03,
+     "ja": "現在は1ドル157円72銭となっています。",
+     "en": "Currently, the dollar is at 157 yen 72 sen.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 223.47,
+     "end": 225.2,
+     "ja": "山岡さん、今日ここまでの動きはどう見ていますか？",
+     "en": "Mr. Yamaoka, how do you see the movements so far today?",
+     "speaker": "Takeuchi"
+    }
+   ]
+  },
+  {
+   "start": 346.54,
+   "end": 403.43,
+   "title": "Rate Hike Expectations and the Pound",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜を報告する — report on something",
+    "〜を超える — to exceed",
+    "〜となる — to result in / become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 346.94,
+     "end": 350.37,
+     "ja": "ここからはFX経済研究所の研究員がまとめた、",
+     "en": "From here, we will report on the latest report",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 350.5,
+     "end": 352.54,
+     "ja": "最新のレポートを報告します。",
+     "en": "compiled by our FX Economics Research Institute researcher.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 352.97,
+     "end": 354.27,
+     "ja": "今日のテーマはこちらです。",
+     "en": "Today's theme is this.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 355.67,
+     "end": 358.54,
+     "ja": "「追加利上げ期待97％、",
+     "en": "\"97% expectation of an additional rate hike,",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 358.54,
+     "end": 360.57,
+     "ja": "ポンド買い加速か」ということで、",
+     "en": "will pound buying accelerate?\"",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 361.04,
+     "end": 364.77,
+     "ja": "昨日、イギリスの9月の消費者物価指数が発表されましたが、",
+     "en": "Yesterday, the UK's September Consumer Price Index was announced,",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 365.2,
+     "end": 368.17,
+     "ja": "予想を超える強い結果となりましたね。",
+     "en": "and it was a strong result that exceeded expectations, wasn't it?",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 368.54,
+     "end": 372.47,
+     "ja": "そうですね。昨日、イギリスの国家統計局が物価統計…",
+     "en": "That's right. Yesterday, the UK's Office for National Statistics released price statistics...",
+     "speaker": "Yamaoka"
+    }
+   ]
+  }
+ ],
+ "videoId": "5AWpAZX8eD4",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

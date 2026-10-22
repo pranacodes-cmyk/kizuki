@@ -1,0 +1,47 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.5,
+   "end": 54.5,
+   "title": "Purchasing a Suica Card",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜てください — please do"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 44.8,
+     "end": 47.4,
+     "ja": "ご希望のボタンを押してください。",
+     "en": "Please press the button of your choice.",
+     "speaker": "Ticket Machine"
+    },
+    {
+     "start": 47.7,
+     "end": 50.8,
+     "ja": "ご希望の購入金額を選んでください。",
+     "en": "Please select your desired purchase amount.",
+     "speaker": "Ticket Machine"
+    },
+    {
+     "start": 51.0,
+     "end": 53.9,
+     "ja": "お金、またはカードをお入れください。",
+     "en": "Please insert money or a card.",
+     "speaker": "Ticket Machine"
+    }
+   ]
+  }
+ ],
+ "videoId": "c5RkKpnZjos",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

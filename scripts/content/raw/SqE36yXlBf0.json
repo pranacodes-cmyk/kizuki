@@ -1,0 +1,185 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 15.0,
+   "end": 34.5,
+   "title": "Trumpet Practice and Performing",
+   "level": "N4",
+   "topics": [
+    "music",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ている — ongoing action / state",
+    "〜てくれる — do something for someone",
+    "〜がる / 楽しい — expressing feelings"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 15.3,
+     "end": 19.5,
+     "ja": "最近トランペットの練習を一生懸命やっていて、",
+     "en": "Lately I've been practicing the trumpet really hard,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 20.0,
+     "end": 22.5,
+     "ja": "すごく疲れています。",
+     "en": "so I'm really tired.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 23.2,
+     "end": 25.8,
+     "ja": "この間も本番があって、",
+     "en": "The other day I had a performance,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 26.2,
+     "end": 31.7,
+     "ja": "200人ぐらいのお客さんが来てくれるショーに出ました。",
+     "en": "and I played in a show where about 200 people came.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 32.2,
+     "end": 34.0,
+     "ja": "すごく楽しかったです。",
+     "en": "It was so much fun.",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 46.0,
+   "end": 104.8,
+   "title": "Walking the Dog in Summer Heat",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "animals"
+   ],
+   "grammar": [
+    "〜られない — potential negative",
+    "〜すぎる — too / excessively",
+    "〜ていう感じ — kind of like / something like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 46.3,
+     "end": 48.8,
+     "ja": "日本は今とっても暑くて、",
+     "en": "It's super hot in Japan right now,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 49.0,
+     "end": 52.2,
+     "ja": "12時ぐらいはもう外に出られないです。",
+     "en": "and around noon you can't even go outside.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 52.5,
+     "end": 53.8,
+     "ja": "暑すぎて。",
+     "en": "Because it's way too hot.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 54.0,
+     "end": 55.8,
+     "ja": "だから犬の散歩も、",
+     "en": "So when I walk my dog,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 56.0,
+     "end": 58.7,
+     "ja": "4時？4時も暑いな、5時？",
+     "en": "maybe at 4? No, 4 is still hot, 5?",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 59.0,
+     "end": 61.2,
+     "ja": "6時ぐらいに行って、",
+     "en": "I go around 6,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 61.5,
+     "end": 104.3,
+     "ja": "で、また10時ぐらいに行くっていう感じです。",
+     "en": "and then go again around 10, that kind of thing.",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 300.5,
+   "end": 323.5,
+   "title": "Meeting a Foreigner for the First Time",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜か分からない — not knowing whether/who",
+    "〜んじゃない — negative modifier",
+    "〜た時 — when / the time that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 301.0,
+     "end": 303.5,
+     "ja": "牧師さんがいました。",
+     "en": "There was a priest.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 304.0,
+     "end": 306.8,
+     "ja": "どっから来た人か分かんないんですけど、",
+     "en": "I don't know where he was from, but",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 307.0,
+     "end": 309.2,
+     "ja": "日本語があんまり喋れない人で、",
+     "en": "he couldn't speak Japanese very well,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 309.5,
+     "end": 313.2,
+     "ja": "おじいちゃんですね、園長先生でした。",
+     "en": "he was an old man, and the principal.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 317.0,
+     "end": 323.0,
+     "ja": "それが初めて日本人じゃない人に会った時ですね。",
+     "en": "That was the first time I met someone who wasn't Japanese.",
+     "speaker": "Yuka"
+    }
+   ]
+  }
+ ],
+ "videoId": "SqE36yXlBf0",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

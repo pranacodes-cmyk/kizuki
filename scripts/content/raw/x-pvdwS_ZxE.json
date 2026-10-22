@@ -1,0 +1,213 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 49.0,
+   "end": 113.8,
+   "title": "Minister Questioning Reporter on Source",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜て誰に〜たんですか — asking for clarification",
+    "〜けど — soft contrast / softening statement"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 49.4,
+     "end": 51.2,
+     "ja": "これ署名記事だよね。",
+     "en": "This is a bylined article, right?",
+     "speaker": "Minister"
+    },
+    {
+     "start": 51.3,
+     "end": 52.3,
+     "ja": "あ、私です。",
+     "en": "Ah, yes, that's me.",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 52.5,
+     "end": 53.9,
+     "ja": "何のことですか、これ。",
+     "en": "What is this about?",
+     "speaker": "Minister"
+    },
+    {
+     "start": 54.1,
+     "end": 55.8,
+     "ja": "あ、まあ取材で聞きました。",
+     "en": "Well, I heard it during reporting.",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 56.0,
+     "end": 58.3,
+     "ja": "うん、でも私たちそれどこでも見ていないので。",
+     "en": "Yeah, but we didn't see that anywhere.",
+     "speaker": "Minister"
+    },
+    {
+     "start": 60.8,
+     "end": 63.5,
+     "ja": "あの、ただ取材で確認したので…",
+     "en": "Um, but I confirmed it in reporting...",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 63.8,
+     "end": 65.5,
+     "ja": "確認って誰に確認したんですか。",
+     "en": "Confirmed with whom?",
+     "speaker": "Minister"
+    },
+    {
+     "start": 66.3,
+     "end": 68.2,
+     "ja": "それはちょっと言えないですけど…",
+     "en": "I can't really say that, but...",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 68.4,
+     "end": 73.5,
+     "ja": "でも我々、私はずっとミニステリアルレベルのところ全部出てますけど、そういうシーンはないので。",
+     "en": "Still, we—I attended all the ministerial-level meetings, and no such scene took place.",
+     "speaker": "Minister"
+    }
+   ]
+  },
+  {
+   "start": 103.5,
+   "end": 122.3,
+   "title": "Refuting the Prior Consultation Report",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜って — defining topic informally",
+    "〜なんて — dismissing or emphasizing",
+    "〜ていうか — or rather"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 103.7,
+     "end": 105.2,
+     "ja": "この場ってどの場ですか？",
+     "en": "What venue do you mean by 'this venue'?",
+     "speaker": "Minister"
+    },
+    {
+     "start": 105.4,
+     "end": 109.0,
+     "ja": "あ、この場っていうのはG20の会議でこう発言しましたっていうリリースがさっき…",
+     "en": "Uh, by this venue, a release just came out saying they made that remark at the G20 meeting...",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 109.3,
+     "end": 112.2,
+     "ja": "G20の会議で人民銀行、こんなこと言ってないよね？",
+     "en": "The People's Bank didn't say anything like that at the G20 meeting, did they?",
+     "speaker": "Minister"
+    },
+    {
+     "start": 112.5,
+     "end": 115.3,
+     "ja": "ていうかこれ、あなた方の記事、事前協議って書いてある。",
+     "en": "Or rather, your article says 'prior consultation.'",
+     "speaker": "Minister"
+    },
+    {
+     "start": 115.5,
+     "end": 118.2,
+     "ja": "事前協議なんてやってないから。",
+     "en": "Because we didn't do any prior consultations.",
+     "speaker": "Minister"
+    },
+    {
+     "start": 119.8,
+     "end": 122.1,
+     "ja": "はい、じゃあまずこれを否定したので。",
+     "en": "All right, so I've refuted that first.",
+     "speaker": "Minister"
+    }
+   ]
+  },
+  {
+   "start": 361.0,
+   "end": 376.5,
+   "title": "Confirming Lack of a Joint Statement",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜まで — merely / just to",
+    "〜でよろしいですか — asking for confirmation politely"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 361.3,
+     "end": 363.0,
+     "ja": "共同通信の吉野です。お疲れ様でした。",
+     "en": "I'm Yoshino from Kyodo News. Thank you for your time.",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 363.1,
+     "end": 364.2,
+     "ja": "はい、お願いします。",
+     "en": "Yes, please go ahead.",
+     "speaker": "Minister"
+    },
+    {
+     "start": 364.3,
+     "end": 367.0,
+     "ja": "あの、私から２問お願いします。",
+     "en": "Um, I have two questions.",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 367.1,
+     "end": 369.5,
+     "ja": "まず１問目は確認までなんですけども、",
+     "en": "First, just to confirm,",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 369.6,
+     "end": 373.3,
+     "ja": "今回のG20は共同声明などの取りまとめはなかったという認識でよろしいですか。",
+     "en": "is it correct to understand there was no joint or chair statement prepared at this G20?",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 373.4,
+     "end": 374.6,
+     "ja": "はい、ないですね。",
+     "en": "Yes, that's right, there wasn't.",
+     "speaker": "Minister"
+    },
+    {
+     "start": 374.8,
+     "end": 376.3,
+     "ja": "わかりました。ありがとうございます。",
+     "en": "Understood. Thank you very much.",
+     "speaker": "Reporter"
+    }
+   ]
+  }
+ ],
+ "videoId": "x-pvdwS_ZxE",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

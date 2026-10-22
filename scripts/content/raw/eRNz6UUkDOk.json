@@ -1,0 +1,110 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.7,
+   "end": 25.5,
+   "title": "Good Morning, Ren!",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "ない — not there / missing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.0,
+     "end": 13.5,
+     "ja": "レン、おはよう！",
+     "en": "Good morning, Ren!",
+     "speaker": "Mom"
+    },
+    {
+     "start": 22.8,
+     "end": 24.5,
+     "ja": "ない！",
+     "en": "It's gone!",
+     "speaker": "Ren"
+    }
+   ]
+  },
+  {
+   "start": 32.5,
+   "end": 45.0,
+   "title": "Let's Look for It Together",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "どこ — where",
+    "〜そう — let's (volitional form)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 33.0,
+     "end": 34.5,
+     "ja": "どこだ？",
+     "en": "Where is it?",
+     "speaker": "Sister"
+    },
+    {
+     "start": 42.5,
+     "end": 44.5,
+     "ja": "いっしょに探そう！",
+     "en": "Let's search together!",
+     "speaker": "Brother"
+    }
+   ]
+  },
+  {
+   "start": 141.5,
+   "end": 156.5,
+   "title": "Time to Eat!",
+   "level": "N5",
+   "topics": [
+    "food",
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜だよ — assertion / gentle emphasis",
+    "いただきます — phrase said before eating"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 143.0,
+     "end": 144.5,
+     "ja": "ごはんだよ！",
+     "en": "Dinner's ready!",
+     "speaker": "Mom"
+    },
+    {
+     "start": 144.6,
+     "end": 146.0,
+     "ja": "ごはんだよ！",
+     "en": "Dinner's ready!",
+     "speaker": "Sister"
+    },
+    {
+     "start": 153.8,
+     "end": 156.0,
+     "ja": "いただきます！",
+     "en": "Thank you for the meal!",
+     "speaker": "Family"
+    }
+   ]
+  }
+ ],
+ "videoId": "eRNz6UUkDOk",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

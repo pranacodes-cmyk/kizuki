@@ -1,0 +1,194 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 124.3,
+   "end": 145.8,
+   "title": "Making Friends Through Shared Hobbies",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "culture"
+   ],
+   "grammar": [
+    "〜やすい — easy to do",
+    "〜たら — when/if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 124.5,
+     "end": 126.3,
+     "ja": "なんかのコミュニティに入ったら、",
+     "en": "If you join some kind of community,",
+     "speaker": "Miku"
+    },
+    {
+     "start": 126.4,
+     "end": 128.5,
+     "ja": "友達作りやすいよね、日本でも。",
+     "en": "it's easy to make friends, even in Japan.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 128.6,
+     "end": 129.2,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 129.3,
+     "end": 132.8,
+     "ja": "ハイキングのコミュニティに入ってますとかだと、",
+     "en": "Like if you're in a hiking community,",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 132.9,
+     "end": 135.5,
+     "ja": "いっぱい会話が弾んだりすると思うし、",
+     "en": "I think conversations will flow easily, and...",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 135.6,
+     "end": 136.5,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 136.6,
+     "end": 139.7,
+     "ja": "そういう…自分の好きなことから繋がるのが、",
+     "en": "Connecting through things you like like that,",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 139.8,
+     "end": 141.8,
+     "ja": "一番友達できると思う。",
+     "en": "I think that's the best way to make friends.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 142.0,
+     "end": 145.5,
+     "ja": "確かにそうだね。趣味から始めるのがいいかも。",
+     "en": "That's certainly true. Starting with hobbies might be good.",
+     "speaker": "Miku"
+    }
+   ]
+  },
+  {
+   "start": 444.2,
+   "end": 461.0,
+   "title": "The Hidden Language of Reading the Room",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜ってこと — that means...",
+    "〜だけじゃなくて — not only... but also"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 444.4,
+     "end": 447.8,
+     "ja": "だから空気読むってことだよね。",
+     "en": "So that means reading the room, right?",
+     "speaker": "Miku"
+    },
+    {
+     "start": 448.2,
+     "end": 451.3,
+     "ja": "空気読む、空気読む…難しいよね。",
+     "en": "Reading the room, reading the room... it's tough, isn't it?",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 451.4,
+     "end": 452.7,
+     "ja": "難しい。",
+     "en": "It is tough.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 452.8,
+     "end": 456.2,
+     "ja": "日本語ってさ、言葉だけじゃなくてさ、",
+     "en": "Japanese isn't just about spoken words,",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 456.4,
+     "end": 460.5,
+     "ja": "もうひとつの言語があって、空気。",
+     "en": "there is another language: the atmosphere.",
+     "speaker": "Sayaka"
+    }
+   ]
+  },
+  {
+   "start": 742.0,
+   "end": 759.0,
+   "title": "Hitting It Off on the First Meeting",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜なくていい — don't have to",
+    "〜て思う — to think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 742.3,
+     "end": 744.0,
+     "ja": "初対面。",
+     "en": "Our very first meeting.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 744.2,
+     "end": 747.5,
+     "ja": "初対面。確かにそうだったね。",
+     "en": "First meeting. That's true, it was.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 748.0,
+     "end": 750.7,
+     "ja": "なんか「ノリいい！」と思って、",
+     "en": "I thought, 'She's so fun and easygoing!' and...",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 751.0,
+     "end": 755.8,
+     "ja": "その時点で「あ、気そんなにつかわなくていいかな」って思った。",
+     "en": "at that point I thought, 'Oh, I don't need to be so reserved.'",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 756.0,
+     "end": 758.5,
+     "ja": "一瞬で気が楽になった。",
+     "en": "We immediately felt at ease.",
+     "speaker": "Miku"
+    }
+   ]
+  }
+ ],
+ "videoId": "Gb7hVn2Ol3g",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

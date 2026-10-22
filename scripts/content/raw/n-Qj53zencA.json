@@ -1,0 +1,122 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 36.5,
+   "end": 47.3,
+   "title": "Time Limit for the Challenge",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "work"
+   ],
+   "grammar": [
+    "〜わけだ — it follows that / that's why",
+    "〜たいと思う — want to / intend to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 36.8,
+     "end": 40.9,
+     "ja": "この後生放送の予定があるので、帰れないのはマジでまずいわけで、",
+     "en": "I have a live broadcast scheduled after this, so not being able to go home would be really bad,",
+     "speaker": "Minami"
+    },
+    {
+     "start": 41.0,
+     "end": 44.8,
+     "ja": "絶対１時間で１から10までコンプリートしたいと思います！",
+     "en": "so I definitely want to complete one through ten within one hour!",
+     "speaker": "Minami"
+    },
+    {
+     "start": 45.1,
+     "end": 47.0,
+     "ja": "というわけで早速、レッツゴー！",
+     "en": "So with that, let's go!",
+     "speaker": "Minami"
+    }
+   ]
+  },
+  {
+   "start": 48.0,
+   "end": 120.5,
+   "title": "Doing an Unannounced Interview",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "work"
+   ],
+   "grammar": [
+    "〜られる — passive form",
+    "〜ようと思う — volitional expressing intention",
+    "〜てくれる — doing something for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 48.0,
+     "end": 51.3,
+     "ja": "私、メンタル強いねってよく褒められるから、",
+     "en": "People often praise me for being mentally tough,",
+     "speaker": "Minami"
+    },
+    {
+     "start": 51.5,
+     "end": 53.6,
+     "ja": "じゃんじゃん声を掛けていこうと思う！",
+     "en": "so I plan to just keep calling out to people!",
+     "speaker": "Minami"
+    },
+    {
+     "start": 54.0,
+     "end": 56.5,
+     "ja": "前回の渋谷インタビューでは、Twitterで",
+     "en": "For the previous Shibuya interview, on Twitter,",
+     "speaker": "Minami"
+    },
+    {
+     "start": 56.8,
+     "end": 61.3,
+     "ja": "「今から渋谷でYouTube撮影します」っていうのを載せたんですよ！",
+     "en": "I posted, \"I'm filming YouTube in Shibuya right now!\"",
+     "speaker": "Minami"
+    },
+    {
+     "start": 62.0,
+     "end": 67.2,
+     "ja": "だから結構それを見て来て、視聴者さんから向こうから声を掛けてきてくれて、",
+     "en": "So quite a few viewers saw that and came over to talk to me,",
+     "speaker": "Minami"
+    },
+    {
+     "start": 67.4,
+     "end": 70.6,
+     "ja": "インタビューするみたいな流れがちょっとあったん…",
+     "en": "and it naturally led into an interview...",
+     "speaker": "Minami"
+    },
+    {
+     "start": 71.8,
+     "end": 74.8,
+     "ja": "噛んじゃった。あったんで、",
+     "en": "I stumbled. But since that was how it went,",
+     "speaker": "Minami"
+    },
+    {
+     "start": 75.8,
+     "end": 80.5,
+     "ja": "でも今回は告知一切無しのガチインタビューなんですよ。",
+     "en": "this time, it's a real interview with zero advance announcement.",
+     "speaker": "Minami"
+    }
+   ]
+  }
+ ],
+ "videoId": "n-Qj53zencA",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

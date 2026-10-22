@@ -1,0 +1,179 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.5,
+   "end": 28.2,
+   "title": "The Gyaru Sits Next to Me",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "romance",
+    "school"
+   ],
+   "grammar": [
+    "〜らしい — apparently / it seems",
+    "〜ている — state / ongoing action",
+    "〜のである — explanatory tone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.7,
+     "end": 10.8,
+     "ja": "隣の席のギャルが最近、恋をしたらしい。",
+     "en": "Apparently, the gyaru who sits next to me is in love.",
+     "speaker": "Mitsuki"
+    },
+    {
+     "start": 11.2,
+     "end": 16.3,
+     "ja": "彼女が気になってる人、それって多分…",
+     "en": "And the one she's in love with might actually be...",
+     "speaker": "Mitsuki"
+    },
+    {
+     "start": 17.1,
+     "end": 21.0,
+     "ja": "時々行くCDショップに気になっている人がいる。",
+     "en": "There's someone I'm interested in at the CD shop I visit sometimes.",
+     "speaker": "Aya"
+    },
+    {
+     "start": 21.1,
+     "end": 22.8,
+     "ja": "やばっ、カッコよ！",
+     "en": "Ohmigod, he's so hot!",
+     "speaker": "Aya"
+    },
+    {
+     "start": 24.0,
+     "end": 28.0,
+     "ja": "あなたの推しは、隣の席の女なのである。",
+     "en": "The one you're into is the girl who sits next to you in class!",
+     "speaker": "Mitsuki"
+    }
+   ]
+  },
+  {
+   "start": 29.7,
+   "end": 41.0,
+   "title": "Startled by My Crush",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "romance",
+    "school"
+   ],
+   "grammar": [
+    "全然〜ない — not at all",
+    "〜てしまう — unexpected action / surprised",
+    "〜と思う — to think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 29.8,
+     "end": 32.2,
+     "ja": "最近全然推しに会えないんだけど。",
+     "en": "I haven't seen my fave at all lately.",
+     "speaker": "Aya"
+    },
+    {
+     "start": 35.3,
+     "end": 37.0,
+     "ja": "ごめんなさい、違くて！",
+     "en": "I'm sorry! It's not like that!",
+     "speaker": "Aya"
+    },
+    {
+     "start": 37.1,
+     "end": 38.4,
+     "ja": "いや、違くないけど、",
+     "en": "Well, it is, but...",
+     "speaker": "Aya"
+    },
+    {
+     "start": 38.5,
+     "end": 40.8,
+     "ja": "いないと思ってたから、びっくりして！",
+     "en": "I thought you weren't here, so I was surprised...",
+     "speaker": "Aya"
+    }
+   ]
+  },
+  {
+   "start": 41.0,
+   "end": 52.7,
+   "title": "Why Am I Acting Cool?",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy",
+    "music"
+   ],
+   "grammar": [
+    "〜てくる / 〜てる — ongoing / habitual action",
+    "〜し — listing reasons",
+    "けど — but / although"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 41.1,
+     "end": 43.1,
+     "ja": "楽しみにしてましたよね？もちろん！",
+     "en": "You've been looking forward to it, right? Of course!",
+     "speaker": "Mitsuki"
+    },
+    {
+     "start": 43.3,
+     "end": 44.5,
+     "ja": "いや、本当最高で、",
+     "en": "Seriously, it's awesome!",
+     "speaker": "Mitsuki"
+    },
+    {
+     "start": 44.6,
+     "end": 46.5,
+     "ja": "ニルヴァーナから影響を受けてて…",
+     "en": "They're influenced by Nirvana, so...",
+     "speaker": "Mitsuki"
+    },
+    {
+     "start": 46.6,
+     "end": 48.0,
+     "ja": "って、何やってんの私！？",
+     "en": "Wait, what am I even doing?!",
+     "speaker": "Mitsuki"
+    },
+    {
+     "start": 48.3,
+     "end": 49.6,
+     "ja": "なんかカッコつけてるし、",
+     "en": "Why am I trying to look cool?!",
+     "speaker": "Mitsuki"
+    },
+    {
+     "start": 49.8,
+     "end": 51.1,
+     "ja": "てか「僕」って何！？",
+     "en": "And why am I talking like a guy?!",
+     "speaker": "Mitsuki"
+    },
+    {
+     "start": 51.2,
+     "end": 52.6,
+     "ja": "女ですけどー！",
+     "en": "I'm a girl!!",
+     "speaker": "Mitsuki"
+    }
+   ]
+  }
+ ],
+ "videoId": "2KPFnP1othM",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,175 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 20.5,
+   "title": "How to Improve Japanese Conversation",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜ようになる — to reach the point where",
+    "〜たいと思います — would like to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.5,
+     "end": 2.5,
+     "ja": "はい！皆さん、こんにちは！",
+     "en": "Hello everyone!",
+     "speaker": "Yuyu"
+    },
+    {
+     "start": 2.5,
+     "end": 4.5,
+     "ja": "YUYUの日本語ポッドキャストのお時間です。",
+     "en": "It's time for Yuyu's Japanese Podcast.",
+     "speaker": "Yuyu"
+    },
+    {
+     "start": 4.5,
+     "end": 6.2,
+     "ja": "皆さん元気にしていますでしょうか？",
+     "en": "How are you all doing?",
+     "speaker": "Yuyu"
+    },
+    {
+     "start": 6.8,
+     "end": 11.5,
+     "ja": "今日は皆さんにどうやったら会話が上手になるのか、",
+     "en": "Today, I'd like to talk about how you can become better at conversation,",
+     "speaker": "Yuyu"
+    },
+    {
+     "start": 11.5,
+     "end": 16.5,
+     "ja": "会話の中でうまく話せるようになるのかっていうアドバイス、",
+     "en": "and give advice on how to speak smoothly in conversations,",
+     "speaker": "Yuyu"
+    },
+    {
+     "start": 16.5,
+     "end": 20.2,
+     "ja": "そしてトレーニング方法を紹介したいと思います。",
+     "en": "and also introduce training methods.",
+     "speaker": "Yuyu"
+    }
+   ]
+  },
+  {
+   "start": 276.5,
+   "end": 303.0,
+   "title": "Three Steps to Train First",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜なきゃいけない — must do",
+    "〜ようになる — become able to",
+    "可能形 — potential form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 276.8,
+     "end": 278.5,
+     "ja": "で、お待たせしました！",
+     "en": "Thanks for waiting!",
+     "speaker": "Yuyu"
+    },
+    {
+     "start": 278.5,
+     "end": 283.5,
+     "ja": "早速、皆さんが多分飛ばしてしまった、",
+     "en": "Right away, the three steps that you probably skipped,",
+     "speaker": "Yuyu"
+    },
+    {
+     "start": 283.5,
+     "end": 290.0,
+     "ja": "会話の中で一番最初にトレーニングしなきゃいけない、３つのステップを紹介します。",
+     "en": "and that you must train first in conversation, I will introduce.",
+     "speaker": "Yuyu"
+    },
+    {
+     "start": 290.5,
+     "end": 293.5,
+     "ja": "１つ目、リアクションができる！",
+     "en": "First: being able to react!",
+     "speaker": "Yuyu"
+    },
+    {
+     "start": 293.8,
+     "end": 298.5,
+     "ja": "２つ目、簡単に自分のことが話せるようになる！",
+     "en": "Second: becoming able to talk about yourself simply!",
+     "speaker": "Yuyu"
+    },
+    {
+     "start": 299.0,
+     "end": 302.5,
+     "ja": "３つ目、お願いができる！",
+     "en": "Third: being able to make requests!",
+     "speaker": "Yuyu"
+    }
+   ]
+  },
+  {
+   "start": 953.5,
+   "end": 971.8,
+   "title": "A Soccer Analogy for Learning",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "daily"
+   ],
+   "grammar": [
+    "〜たい — want to do",
+    "〜とする — suppose/assume that",
+    "〜と思う — think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 953.8,
+     "end": 956.8,
+     "ja": "例えば、子どもに、",
+     "en": "For example, suppose a kid says to me,",
+     "speaker": "Yuyu"
+    },
+    {
+     "start": 956.8,
+     "end": 960.5,
+     "ja": "「ゆうすけ！僕はサッカーでゴールを決めたいんだ！",
+     "en": "\"Yusuke! I want to score a goal in soccer!",
+     "speaker": "Yuyu"
+    },
+    {
+     "start": 960.5,
+     "end": 967.2,
+     "ja": "だから、ゴールのねキックの練習をするんだ」っていう風に言われたとしましょう。",
+     "en": "So I'm going to practice kicking into the goal.\"",
+     "speaker": "Yuyu"
+    },
+    {
+     "start": 967.5,
+     "end": 971.5,
+     "ja": "皆さん、それでオッケーだと思います？",
+     "en": "Everyone, do you think that's okay?",
+     "speaker": "Yuyu"
+    }
+   ]
+  }
+ ],
+ "videoId": "C9VabhxOPbA",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

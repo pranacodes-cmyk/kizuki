@@ -1,0 +1,138 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 133.5,
+   "end": 204.5,
+   "title": "A Grateful Couple",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜ても — even if / no matter",
+    "〜と言っていました — was saying"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 133.8,
+     "end": 136.5,
+     "ja": "それでも二人は、",
+     "en": "Even so, the two of them,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 136.7,
+     "end": 143.5,
+     "ja": "毎日神棚にご飯をそなえ、",
+     "en": "offered rice to the household altar every day,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 144.0,
+     "end": 146.5,
+     "ja": "手を合わせて",
+     "en": "put their hands together,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 146.8,
+     "end": 153.5,
+     "ja": "「今日もありがとうございます」と言っていました。",
+     "en": "and said, \"Thank you again for today.\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 156.0,
+     "end": 203.8,
+     "ja": "何があっても、感謝の気持ちを忘れませんでした。",
+     "en": "No matter what happened, they never forgot their feelings of gratitude.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 310.0,
+   "end": 336.5,
+   "title": "The God of Fortune Speaks",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "anime"
+   ],
+   "grammar": [
+    "〜ている — progressive / state",
+    "〜ない — negative verb form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 310.3,
+     "end": 319.5,
+     "ja": "「まじめに生きている人に、私は福を与える。」",
+     "en": "\"I give good fortune to those who live earnestly.\"",
+     "speaker": "God of Fortune"
+    },
+    {
+     "start": 322.0,
+     "end": 329.8,
+     "ja": "「しかし、この家にはすでに貧乏神がいる。」",
+     "en": "\"However, the God of Poverty already lives in this house.\"",
+     "speaker": "God of Fortune"
+    },
+    {
+     "start": 332.0,
+     "end": 336.0,
+     "ja": "「私と一緒には住めない。」",
+     "en": "\"He cannot live together with me.\"",
+     "speaker": "God of Fortune"
+    }
+   ]
+  },
+  {
+   "start": 521.5,
+   "end": 552.0,
+   "title": "Asking the God of Poverty to Stay",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜てほしい — wanting someone to do something",
+    "〜てくれる — doing something as a favor"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 521.8,
+     "end": 528.5,
+     "ja": "「できれば、あなたもここにいてほしいんです。」",
+     "en": "\"If possible, we want you to stay here too.\"",
+     "speaker": "Wife"
+    },
+    {
+     "start": 533.0,
+     "end": 537.8,
+     "ja": "男も慌てて言いました。",
+     "en": "The husband also flusteredly said:",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 541.0,
+     "end": 551.5,
+     "ja": "「うん。そうだ！あなたも、ずっとこの家にいてくれました。」",
+     "en": "\"Yeah, that's right! You've stayed in this house with us this whole time too.\"",
+     "speaker": "Husband"
+    }
+   ]
+  }
+ ],
+ "videoId": "aNltAtr0pOE",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

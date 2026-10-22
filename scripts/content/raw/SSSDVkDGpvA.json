@@ -1,0 +1,193 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 22.0,
+   "end": 45.8,
+   "title": "A Japanese Teacher's Daily Schedule",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜たり〜たり — doing things like...",
+    "〜た後 — after doing..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 22.0,
+     "end": 26.2,
+     "ja": "朝出社しまして、教員の朝礼を行います。",
+     "en": "In the morning I come to work and we have the teachers' morning assembly.",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 26.5,
+     "end": 29.8,
+     "ja": "その後、午前中は授業に入りまして、",
+     "en": "After that, I teach classes during the morning,",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 30.0,
+     "end": 34.0,
+     "ja": "授業が終わった後は自クラスの担任業務、",
+     "en": "and after classes finish, I do homeroom duties for my class,",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 34.0,
+     "end": 37.5,
+     "ja": "進路指導だったり、あとは授業の準備などを行います。",
+     "en": "such as career guidance, and prepare for lessons.",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 37.7,
+     "end": 42.0,
+     "ja": "午後も少しだけ自分のクラスでホームルームを行いまして、",
+     "en": "In the afternoon, I do homeroom with my class for a bit,",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 42.0,
+     "end": 45.5,
+     "ja": "引き続き授業の準備、退社となります。",
+     "en": "continue lesson prep, and then head home.",
+     "speaker": "Uchida"
+    }
+   ]
+  },
+  {
+   "start": 77.5,
+   "end": 107.5,
+   "title": "Teaching Japanese in the Classroom",
+   "level": "N4",
+   "topics": [
+    "school"
+   ],
+   "grammar": [
+    "〜てしょうがない — cannot help but...",
+    "〜なきゃ — must / have to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 77.7,
+     "end": 81.2,
+     "ja": "カジュアルな表現ですから、短く言います。",
+     "en": "It's a casual expression, so we say it shortly.",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 81.3,
+     "end": 85.0,
+     "ja": "友達に言います。話す時使いますの文法です。",
+     "en": "You say it to friends. It's grammar used when speaking.",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 85.0,
+     "end": 87.5,
+     "ja": "「しょうがない」、どうぞ？",
+     "en": "'Shouganai', go ahead?",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 87.5,
+     "end": 90.0,
+     "ja": "そうです。「しょうがない」は「私、とてもしたい」です。",
+     "en": "That's right. '-te shouganai' means 'I really want to.'",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 91.3,
+     "end": 95.0,
+     "ja": "「燃えるゴミと燃えないゴミを分けなきゃ」、どうぞ？",
+     "en": "'We gotta separate the burnable and non-burnable trash,' go ahead?",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 98.5,
+     "end": 100.8,
+     "ja": "そうですね。「なきゃ」はこれ何ですか？",
+     "en": "That's right. What is this 'nakya'?",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 101.4,
+     "end": 103.0,
+     "ja": "なければ…ならない。",
+     "en": "Nakereba... naranai.",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 103.0,
+     "end": 107.2,
+     "ja": "そう、します、しなければならないですね。",
+     "en": "Right, 'must do it', right?",
+     "speaker": "Uchida"
+    }
+   ]
+  },
+  {
+   "start": 359.8,
+   "end": 385.8,
+   "title": "The Key to Enjoyable Teaching",
+   "level": "N3",
+   "topics": [
+    "work",
+    "school"
+   ],
+   "grammar": [
+    "〜ていると — when/if doing...",
+    "〜と思う — to think that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 359.8,
+     "end": 364.0,
+     "ja": "自分がまず楽しむことかなと思っています。",
+     "en": "I think it's about enjoying it myself first.",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 364.0,
+     "end": 370.4,
+     "ja": "学生もやっぱり楽しい先生、授業を楽しんでいる先生を見ると、",
+     "en": "When students see a fun teacher who is enjoying the class,",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 370.4,
+     "end": 374.0,
+     "ja": "勉強する学生も楽しくなると思っていて、",
+     "en": "I think the students studying will also have fun,",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 374.0,
+     "end": 380.8,
+     "ja": "やっぱりこっちが明るく学生に接してると、学生からも明るくコミュニケーションを取れるので、",
+     "en": "and when I engage cheerfully with students, they communicate cheerfully too,",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 380.8,
+     "end": 385.5,
+     "ja": "まずは自分が楽しく授業することが一番かなと思ってます。",
+     "en": "so I feel having fun teaching myself comes first.",
+     "speaker": "Uchida"
+    }
+   ]
+  }
+ ],
+ "videoId": "SSSDVkDGpvA",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

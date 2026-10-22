@@ -1,0 +1,215 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.8,
+   "end": 30.5,
+   "title": "Welcome to the Gambling Den",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "culture"
+   ],
+   "grammar": [
+    "〜てもらう — having someone do something",
+    "〜へん — Kansai negative"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.2,
+     "end": 9.8,
+     "ja": "お集まりの皆さん、ようこそこの賭博場へ。",
+     "en": "Welcome, everyone gathered here, to this gambling den.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 10.8,
+     "end": 14.0,
+     "ja": "ここは丁か半かで、あんたらの人生が変わる場所や。",
+     "en": "This is a place where your lives change on even or odd.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 14.5,
+     "end": 16.2,
+     "ja": "さあ、張ってもらおうか。",
+     "en": "Now, let's take your bets.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 16.8,
+     "end": 21.8,
+     "ja": "丁。丁。半。丁。半。",
+     "en": "Even. Even. Odd. Even. Odd.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 22.2,
+     "end": 23.8,
+     "ja": "もうないか？",
+     "en": "Anyone else?",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 25.5,
+     "end": 28.6,
+     "ja": "いやいや、サイコロみたいな古くさいもん使えへんがな。",
+     "en": "No, no, we don't use old-fashioned things like dice!",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 29.0,
+     "end": 30.2,
+     "ja": "おい、お清！",
+     "en": "Hey, O-Kiyo!",
+     "speaker": "Takeuchi"
+    }
+   ]
+  },
+  {
+   "start": 57.8,
+   "end": 118.5,
+   "title": "The Rules of Knee Gambling",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜かどうか — whether or not",
+    "〜たら — if / when conditional"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 58.2,
+     "end": 60.6,
+     "ja": "なんや？あんた初めてか？",
+     "en": "What's that? Is this your first time?",
+     "speaker": "Masumi"
+    },
+    {
+     "start": 61.0,
+     "end": 62.5,
+     "ja": "怖がらんでええで。",
+     "en": "Don't be scared.",
+     "speaker": "Masumi"
+    },
+    {
+     "start": 62.5,
+     "end": 65.4,
+     "ja": "オバハンの膝が鳴るかどうかの博打やん。",
+     "en": "It's a gamble on whether this middle-aged lady's knees crack.",
+     "speaker": "Masumi"
+    },
+    {
+     "start": 65.7,
+     "end": 68.2,
+     "ja": "鳴ったら丁、鳴らんかったら半や。",
+     "en": "If they pop, it's even; if they don't, it's odd.",
+     "speaker": "Masumi"
+    },
+    {
+     "start": 68.4,
+     "end": 72.0,
+     "ja": "ちなみに昨日は５回やって５回とも丁が出とる。",
+     "en": "By the way, yesterday we played five times and got even all five.",
+     "speaker": "Masumi"
+    },
+    {
+     "start": 72.3,
+     "end": 76.2,
+     "ja": "まあなお清もちょっと年齢を重ねてな、だいぶ丁が多くなってきたなあ。",
+     "en": "Well, O-Kiyo is getting older, so evens have become a lot more common.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 77.0,
+     "end": 78.2,
+     "ja": "ええ女や。",
+     "en": "I'm a fine woman.",
+     "speaker": "Masumi"
+    }
+   ]
+  },
+  {
+   "start": 118.5,
+   "end": 132.0,
+   "title": "Don't Break Character",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜より — more than",
+    "〜な — prohibition"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 118.8,
+     "end": 120.6,
+     "ja": "なあ、思ったより鳴りましてね。",
+     "en": "You know, they popped louder than I expected.",
+     "speaker": "Masumi"
+    },
+    {
+     "start": 120.8,
+     "end": 122.5,
+     "ja": "あの、そんな鳴らへんかなあ思ったんやけど。",
+     "en": "I thought maybe they wouldn't crack that much.",
+     "speaker": "Masumi"
+    },
+    {
+     "start": 122.6,
+     "end": 123.6,
+     "ja": "確かにな。",
+     "en": "True enough.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 123.7,
+     "end": 126.5,
+     "ja": "すごい気持ちようなったんで、なんかちょっと嬉しゅうなりまして。",
+     "en": "It felt so good that I felt kind of happy.",
+     "speaker": "Masumi"
+    },
+    {
+     "start": 126.7,
+     "end": 127.7,
+     "ja": "喋んな、そんな！",
+     "en": "Don't chat like that!",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 127.8,
+     "end": 128.5,
+     "ja": "はよー！",
+     "en": "Hayo!",
+     "speaker": "Masumi"
+    },
+    {
+     "start": 128.6,
+     "end": 130.3,
+     "ja": "キャラがブレるやろ、キャラが！",
+     "en": "You're breaking character! Your character!",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 130.5,
+     "end": 131.7,
+     "ja": "はよー！",
+     "en": "Hayo!",
+     "speaker": "Masumi"
+    }
+   ]
+  }
+ ],
+ "videoId": "y4bWvuLrOzM",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

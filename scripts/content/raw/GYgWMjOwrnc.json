@@ -1,0 +1,202 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 129.5,
+   "end": 159.8,
+   "title": "Signs of Moles at the Campsite",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "travel"
+   ],
+   "grammar": [
+    "〜というのは — definition / explanation",
+    "〜たら — when / if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 129.5,
+     "end": 132.4,
+     "ja": "あとね、モグラね。モグラ。",
+     "en": "And also, moles. Moles.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 132.4,
+     "end": 135.8,
+     "ja": "モグラっていうのは、ちょっとネズミみたいな動物で、",
+     "en": "A mole is an animal sort of like a mouse,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 135.8,
+     "end": 138.0,
+     "ja": "地面の中に住んでいます。",
+     "en": "and it lives underground.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 138.0,
+     "end": 142.5,
+     "ja": "で、モグラは見ませんでした。見ることはなかったけど、",
+     "en": "Now, we didn't see any moles. I didn't actually see one, but...",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 142.5,
+     "end": 146.6,
+     "ja": "キャンプ場にたくさんのなんか、穴みたいな、",
+     "en": "at the campsite there were lots of hole-like things,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 146.6,
+     "end": 150.0,
+     "ja": "こう土が盛り上がったものがたくさんあるんですね。",
+     "en": "lots of mounds where the dirt was piled up.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 150.0,
+     "end": 155.7,
+     "ja": "で、それを僕はサトシくんに「これ、これは何？」と聞いたら、",
+     "en": "So when I asked Satoshi, \"What is this?\",",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 155.7,
+     "end": 159.8,
+     "ja": "まあサトシくんは「それはモグラ、モグラだよ」と。",
+     "en": "well, Satoshi said, \"Those are moles, made by moles.\"",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 218.0,
+   "end": 244.5,
+   "title": "A Giant Spider Guards the Restroom",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "family",
+    "fun"
+   ],
+   "grammar": [
+    "〜と — when / upon",
+    "〜たくない — do not want to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 218.0,
+     "end": 223.8,
+     "ja": "で、トイレに行くと、蜘蛛、でっかい蜘蛛がいてね、トイレの前に。",
+     "en": "And when we went to the restroom, there was a spider—a huge spider in front of the toilet.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 223.8,
+     "end": 226.5,
+     "ja": "「ここは通さない！」みたいな。",
+     "en": "Like, \"You shall not pass!\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 226.5,
+     "end": 230.5,
+     "ja": "そんな感じでね、「ここは通さん！」みたいなね。",
+     "en": "Like that, as if saying, \"None shall pass!\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 230.5,
+     "end": 234.5,
+     "ja": "で、まあ僕は「いや、そんなこと気にしない」。",
+     "en": "Well, as for me, I thought, \"I don't care about that.\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 234.5,
+     "end": 236.5,
+     "ja": "で、僕はトイレに行くんだけど、",
+     "en": "So I went into the restroom, but...",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 236.5,
+     "end": 242.0,
+     "ja": "僕の子供は「やだやだやだ、蜘蛛が怖い！やだ、トイレに行きたくない！」",
+     "en": "my kid was like, \"No, no, no! Spiders are scary! No, I don't want to go!\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 242.0,
+     "end": 244.5,
+     "ja": "言うんですよ、そういうことをね。",
+     "en": "That's what he was saying.",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 327.0,
+   "end": 346.5,
+   "title": "Freezing in the Middle of the Night",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜て目が覚める — to wake up because of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 327.0,
+     "end": 329.2,
+     "ja": "テントのちょっと窓を開けて、",
+     "en": "I opened the tent window a little bit,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 329.2,
+     "end": 332.4,
+     "ja": "で、寝てたんですよ、暑いなと思いながら。",
+     "en": "and went to sleep, thinking about how hot it was.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 332.4,
+     "end": 337.0,
+     "ja": "そしたら、12時ぐらいにめちゃめちゃ寒くって、",
+     "en": "And then, around 12 o'clock, it got crazy cold,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 337.0,
+     "end": 341.5,
+     "ja": "寒くて目が覚めた。「寒い！」",
+     "en": "and I woke up shivering. \"It's so cold!\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 341.5,
+     "end": 346.5,
+     "ja": "で、温度を見ると、20度ぐらいなんですね。",
+     "en": "And when I checked the temperature, it was around 20 degrees.",
+     "speaker": "Teppei"
+    }
+   ]
+  }
+ ],
+ "videoId": "GYgWMjOwrnc",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

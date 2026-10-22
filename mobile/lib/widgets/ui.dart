@@ -276,10 +276,15 @@ Future<R?> showMimiSheet<R>(BuildContext context, WidgetBuilder builder, {double
     barrierColor: T.stage.withValues(alpha: 0.7),
     shape: const RoundedRectangleBorder(borderRadius: BorderRadius.vertical(top: Radius.circular(28))),
     constraints: BoxConstraints(maxHeight: MediaQuery.of(context).size.height * maxHeightFactor),
-    builder: (ctx) => Column(mainAxisSize: MainAxisSize.min, children: [
-      Container(margin: const EdgeInsets.only(top: 10, bottom: 4), width: 40, height: 6, decoration: BoxDecoration(color: T.surface3, borderRadius: BorderRadius.circular(99))),
-      Flexible(child: builder(ctx)),
-    ]),
+    // useSafeArea only keeps the sheet below the status bar: keep its content (e.g. the word
+    // card's Ask Kizuki button) above the phone's own navigation bar too.
+    builder: (ctx) => SafeArea(
+      top: false,
+      child: Column(mainAxisSize: MainAxisSize.min, children: [
+        Container(margin: const EdgeInsets.only(top: 10, bottom: 4), width: 40, height: 6, decoration: BoxDecoration(color: T.surface3, borderRadius: BorderRadius.circular(99))),
+        Flexible(child: builder(ctx)),
+      ]),
+    ),
   );
 }
 

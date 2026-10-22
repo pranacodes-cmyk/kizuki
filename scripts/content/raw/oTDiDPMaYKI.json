@@ -1,0 +1,162 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 117.2,
+   "end": 136.5,
+   "title": "Breakfast Strategy to Minimize School Time",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜ように — in order to / so that",
+    "〜たい — wanting to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 117.2,
+     "end": 121.8,
+     "ja": "あんまり学校にいる滞在時間を少なくしたいので、",
+     "en": "I want to minimize the time I spend at school,",
+     "speaker": "Watage"
+    },
+    {
+     "start": 122.0,
+     "end": 125.7,
+     "ja": "学校でご飯を食べる時間も少なくしたいから、",
+     "en": "and since I also want to minimize the time I spend eating at school,",
+     "speaker": "Watage"
+    },
+    {
+     "start": 125.9,
+     "end": 128.8,
+     "ja": "朝ご飯をできるだけ胃に詰め込んで、",
+     "en": "I stuff as much breakfast as possible into my stomach,",
+     "speaker": "Watage"
+    },
+    {
+     "start": 129.0,
+     "end": 131.6,
+     "ja": "昼ご飯をあんまり食べなくてもいいように、",
+     "en": "so that I don't really have to eat much lunch—",
+     "speaker": "Watage"
+    },
+    {
+     "start": 131.8,
+     "end": 136.0,
+     "ja": "朝ご飯をいっぱい食べるっていうのが私の作戦です。",
+     "en": "eating a huge breakfast is my strategy.",
+     "speaker": "Watage"
+    }
+   ]
+  },
+  {
+   "start": 421.4,
+   "end": 439.4,
+   "title": "Solo Sushi Reward After School",
+   "level": "N3",
+   "topics": [
+    "food",
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜ようにする — make an effort to / make a habit of",
+    "〜ために — for the sake of / in order to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 421.4,
+     "end": 427.7,
+     "ja": "はい、学校帰りにですね、回転寿司屋さんに1人で大好物の茶碗蒸しを食べに来ました。",
+     "en": "So, on my way home from school, I came alone to a conveyor-belt sushi restaurant to eat my favorite, chawanmushi.",
+     "speaker": "Watage"
+    },
+    {
+     "start": 427.8,
+     "end": 433.8,
+     "ja": "こうやってね、学校行った日は、その頑張ったご褒美として、帰りに美味しいものをね、食べて帰るようにしてて、",
+     "en": "On days when I go to school, I make a habit of stopping to eat something delicious on the way home as a reward for trying hard,",
+     "speaker": "Watage"
+    },
+    {
+     "start": 433.9,
+     "end": 439.1,
+     "ja": "ご褒美のために学校頑張るぞっていう、その食べ物を糧に、毎日頑張ってます。",
+     "en": "and using food as fuel—thinking 'I'll do my best at school for the reward'—I keep doing my best every day.",
+     "speaker": "Watage"
+    }
+   ]
+  },
+  {
+   "start": 670.2,
+   "end": 691.2,
+   "title": "A Reward After Overcoming Social Anxiety",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜という — called / the action of",
+    "〜と思う — to think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 670.3,
+     "end": 675.5,
+     "ja": "とりあえず外に出た日は、あの、人とのコミュニケーションがどうだったかっていうのを振り返るんやけど、",
+     "en": "Anyway, on days I go out, I always look back on how my communication with people went,",
+     "speaker": "Watage"
+    },
+    {
+     "start": 675.8,
+     "end": 677.5,
+     "ja": "今日はね、頑張りましたね。",
+     "en": "and today, I really tried hard.",
+     "speaker": "Watage"
+    },
+    {
+     "start": 678.0,
+     "end": 680.1,
+     "ja": "あの、職員室に入ったんですけど、",
+     "en": "Um, I went into the teachers' room,",
+     "speaker": "Watage"
+    },
+    {
+     "start": 680.3,
+     "end": 684.7,
+     "ja": "職員室で先生と会話をするというファインプレーを、あの、あれしたので、",
+     "en": "and pulled off an amazing feat by actually talking to a teacher in the staff room,",
+     "speaker": "Watage"
+    },
+    {
+     "start": 684.8,
+     "end": 688.0,
+     "ja": "今日はだいぶ頑張った方だと思うので、",
+     "en": "so I think I worked pretty hard today,",
+     "speaker": "Watage"
+    },
+    {
+     "start": 688.2,
+     "end": 691.0,
+     "ja": "アイスはあずきバーを食べています。",
+     "en": "and that's why I'm eating an Azuki bar ice cream.",
+     "speaker": "Watage"
+    }
+   ]
+  }
+ ],
+ "videoId": "oTDiDPMaYKI",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

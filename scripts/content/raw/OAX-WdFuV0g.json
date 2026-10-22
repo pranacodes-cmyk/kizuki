@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.6,
+   "end": 36.9,
+   "title": "A Day in the Life of a Japanese Teacher",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜てみる — trying to do",
+    "〜以外に — besides / in addition to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.9,
+     "end": 7.3,
+     "ja": "みなさん、こんにちは。あかねです。",
+     "en": "Hello everyone, I'm Akane.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 7.5,
+     "end": 11.7,
+     "ja": "今日は仕事の日のVlogを撮影してみました。",
+     "en": "Today I tried filming a vlog of a workday.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 12.2,
+     "end": 19.3,
+     "ja": "私はフリーランスの日本語教師なので、学校で教えること以外に自分で仕事もしています。",
+     "en": "Since I'm a freelance Japanese teacher, besides teaching at school I also work for myself.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 19.5,
+     "end": 24.4,
+     "ja": "なので、日によって仕事の内容や仕事量が全然違います。",
+     "en": "So depending on the day, the work details and workload are completely different.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 24.6,
+     "end": 29.3,
+     "ja": "今日は全然忙しくなかったので撮影できました。",
+     "en": "Today wasn't busy at all, so I was able to film.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 29.6,
+     "end": 34.6,
+     "ja": "特別なことは何もありませんが、もし興味があればご覧になってください。",
+     "en": "It's nothing special, but please take a look if you're interested.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 34.8,
+     "end": 36.6,
+     "ja": "では、スタート！",
+     "en": "Well then, let's start!",
+     "speaker": "Akane"
+    }
+   ]
+  },
+  {
+   "start": 102.5,
+   "end": 125.6,
+   "title": "Preparing for Japanese Classes",
+   "level": "N3",
+   "topics": [
+    "work",
+    "school"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜だろう — probably / wonder if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 102.8,
+     "end": 108.6,
+     "ja": "私は日本語母語話者ですが、日本語を教えるのは本当に難しいです。",
+     "en": "Although I'm a native Japanese speaker, teaching Japanese is really difficult.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 108.9,
+     "end": 112.7,
+     "ja": "授業のためにたくさん予習します。",
+     "en": "I prepare a lot for my lessons.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 113.6,
+     "end": 117.2,
+     "ja": "学生の顔を思い浮かべながら、",
+     "en": "While picturing the students' faces,",
+     "speaker": "Akane"
+    },
+    {
+     "start": 117.4,
+     "end": 121.5,
+     "ja": "「このクラスならこの単語や文法がわかりにくいだろうな」と、",
+     "en": "thinking, \"With this class, these words or grammar might be hard to understand,\"",
+     "speaker": "Akane"
+    },
+    {
+     "start": 121.7,
+     "end": 125.1,
+     "ja": "考えながら準備しています。",
+     "en": "that's how I prepare.",
+     "speaker": "Akane"
+    }
+   ]
+  },
+  {
+   "start": 259.4,
+   "end": 282.2,
+   "title": "Vlogging in Public Is Embarrassing",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜てる — ongoing state",
+    "お〜する — humble expression"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 259.7,
+     "end": 266.3,
+     "ja": "やっぱり外で１人で話すの、めっちゃ恥ずかしいですね。",
+     "en": "As expected, talking to myself outside is super embarrassing.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 266.6,
+     "end": 272.7,
+     "ja": "なんか１人でカメラ持って…今あんまり人いないんですけど、ちょっと恥ずかしいね。",
+     "en": "Holding a camera alone... there aren't many people around now, but it's a bit embarrassing.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 273.4,
+     "end": 276.7,
+     "ja": "マスクしてるからまだマシですけど。",
+     "en": "It's somewhat better because I'm wearing a mask, though.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 277.0,
+     "end": 280.2,
+     "ja": "では、また次の動画でお会いしましょう。",
+     "en": "Well then, see you in the next video!",
+     "speaker": "Akane"
+    },
+    {
+     "start": 280.4,
+     "end": 281.8,
+     "ja": "バイバーイ！",
+     "en": "Bye-bye!",
+     "speaker": "Akane"
+    }
+   ]
+  }
+ ],
+ "videoId": "OAX-WdFuV0g",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,194 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 26.0,
+   "end": 48.5,
+   "title": "Recommended Study Methods",
+   "level": "N5",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜について — about / regarding",
+    "〜たい — want to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 26.3,
+     "end": 28.0,
+     "ja": "皆さん、こんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 28.1,
+     "end": 30.5,
+     "ja": "日本語コンてっぺいの時間ですね。",
+     "en": "It's time for Nihongo con Teppei.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 30.6,
+     "end": 31.6,
+     "ja": "元気ですか？",
+     "en": "How are you doing?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 31.8,
+     "end": 33.6,
+     "ja": "僕は元気ですよ。",
+     "en": "I'm doing well.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 34.0,
+     "end": 37.1,
+     "ja": "今日はおすすめの勉強方法について",
+     "en": "Today, about recommended study methods,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 37.2,
+     "end": 39.8,
+     "ja": "話したいと思います。",
+     "en": "I'd like to talk.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 40.8,
+     "end": 44.1,
+     "ja": "何の勉強方法かと言うと、もちろん",
+     "en": "Study methods for what, you ask? Of course,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 44.3,
+     "end": 47.9,
+     "ja": "日本語の勉強方法ですね。",
+     "en": "study methods for Japanese.",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 106.5,
+   "end": 200.8,
+   "title": "YouTube vs. Nihongo con Teppei",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜と思う — to think that",
+    "〜のほうが — comparison (preferring one option)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 106.8,
+     "end": 108.2,
+     "ja": "例えば、",
+     "en": "For example,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 108.3,
+     "end": 109.8,
+     "ja": "例えば、",
+     "en": "for example,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 110.4,
+     "end": 112.0,
+     "ja": "えー、YouTube。",
+     "en": "uh, YouTube.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 112.3,
+     "end": 114.3,
+     "ja": "ね、YouTubeもいいですね。",
+     "en": "Right, YouTube is good too.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 114.4,
+     "end": 115.8,
+     "ja": "いいと思います。",
+     "en": "I think it's good.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 116.4,
+     "end": 120.3,
+     "ja": "ただ、僕は日本語コンてっぺいの方がいいと思います。",
+     "en": "However, I think Nihongo con Teppei is better.",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 150.5,
+   "end": 168.8,
+   "title": "Speak Japanese with Native Speakers",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜ば — conditional (if)",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 150.8,
+     "end": 154.0,
+     "ja": "あとおすすめの勉強方法は、もちろん",
+     "en": "Another recommended study method is, of course,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 155.5,
+     "end": 158.9,
+     "ja": "皆さんの周りに日本人がいれば、",
+     "en": "if there are Japanese people around you,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 159.0,
+     "end": 161.2,
+     "ja": "日本人と話す。",
+     "en": "to talk with Japanese people.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 161.7,
+     "end": 165.0,
+     "ja": "必ず日本人と日本語を話す、",
+     "en": "Make sure to speak Japanese with Japanese people,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 165.3,
+     "end": 168.3,
+     "ja": "話すことをしてくださいね。",
+     "en": "please do try to speak.",
+     "speaker": "Teppei"
+    }
+   ]
+  }
+ ],
+ "videoId": "uOJgGkBflUM",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

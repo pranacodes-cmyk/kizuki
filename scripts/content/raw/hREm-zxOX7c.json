@@ -1,0 +1,113 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 702.2,
+   "end": 715.0,
+   "title": "Traditional Japanese Breakfast",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "と — and (listing items)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 702.6,
+     "end": 704.1,
+     "ja": "卵焼きと、",
+     "en": "Tamagoyaki,",
+     "speaker": "Girl"
+    },
+    {
+     "start": 704.2,
+     "end": 705.4,
+     "ja": "ご飯と、",
+     "en": "rice,",
+     "speaker": "Girl"
+    },
+    {
+     "start": 705.5,
+     "end": 707.0,
+     "ja": "お吸い物と、",
+     "en": "clear soup,",
+     "speaker": "Girl"
+    },
+    {
+     "start": 707.2,
+     "end": 708.8,
+     "ja": "納豆。",
+     "en": "and natto.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 709.7,
+     "end": 711.4,
+     "ja": "納豆ご飯。",
+     "en": "Natto on rice.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 713.0,
+     "end": 714.5,
+     "ja": "いただきます。",
+     "en": "Let's eat.",
+     "speaker": "Girl"
+    }
+   ]
+  },
+  {
+   "start": 719.1,
+   "end": 727.8,
+   "title": "Biking Home with Friends",
+   "level": "N5",
+   "topics": [
+    "friends",
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜ないで — don't (negative request)"
+   ],
+   "quality": 3,
+   "lines": [
+    {
+     "start": 719.3,
+     "end": 721.8,
+     "ja": "いやー！止まんないでよ！",
+     "en": "No! Don't stop!",
+     "speaker": "Friend"
+    },
+    {
+     "start": 722.1,
+     "end": 723.6,
+     "ja": "止まんないで！",
+     "en": "Don't stop!",
+     "speaker": "Friend"
+    },
+    {
+     "start": 723.8,
+     "end": 725.1,
+     "ja": "うるさい！",
+     "en": "Shut up!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 725.8,
+     "end": 727.3,
+     "ja": "あー面白い！",
+     "en": "Ah, that's hilarious!",
+     "speaker": "Friend"
+    }
+   ]
+  }
+ ],
+ "videoId": "hREm-zxOX7c",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

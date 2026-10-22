@@ -1,0 +1,228 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 27.7,
+   "end": 42.8,
+   "title": "Steve's First Day at the Ramen Shop",
+   "level": "N4",
+   "topics": [
+    "work",
+    "food",
+    "comedy"
+   ],
+   "grammar": [
+    "〜と申します — humble introduction",
+    "〜たことがない — have never done",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 28.0,
+     "end": 29.8,
+     "ja": "石沢さん、スティーブと申します。",
+     "en": "Ishizawa-san, my name is Steve.",
+     "speaker": "Steve"
+    },
+    {
+     "start": 30.0,
+     "end": 31.2,
+     "ja": "石沢と言います。",
+     "en": "I'm Ishizawa.",
+     "speaker": "Ishizawa"
+    },
+    {
+     "start": 31.3,
+     "end": 32.3,
+     "ja": "よろしくお願いします。",
+     "en": "Nice to meet you.",
+     "speaker": "Steve"
+    },
+    {
+     "start": 32.4,
+     "end": 33.3,
+     "ja": "よろしくお願いします、どうぞ。",
+     "en": "Nice to meet you too, welcome.",
+     "speaker": "Ishizawa"
+    },
+    {
+     "start": 33.3,
+     "end": 35.0,
+     "ja": "ラーメンは作ったことありません。",
+     "en": "I have never made ramen before.",
+     "speaker": "Steve"
+    },
+    {
+     "start": 35.3,
+     "end": 38.3,
+     "ja": "全く詳しくないです。全く知らないです。教えてください。",
+     "en": "I know nothing about it at all. Please teach me!",
+     "speaker": "Steve"
+    },
+    {
+     "start": 38.4,
+     "end": 40.9,
+     "ja": "はい、私に任せてください。バッチリです。",
+     "en": "Sure, leave it to me. We'll do great.",
+     "speaker": "Ishizawa"
+    },
+    {
+     "start": 41.0,
+     "end": 41.8,
+     "ja": "よろしくお願いします！",
+     "en": "Thank you!",
+     "speaker": "Steve"
+    },
+    {
+     "start": 41.9,
+     "end": 42.6,
+     "ja": "よろしくお願いします。",
+     "en": "Let's do this.",
+     "speaker": "Ishizawa"
+    }
+   ]
+  },
+  {
+   "start": 552.3,
+   "end": 602.5,
+   "title": "Serving Ramen to a Customer",
+   "level": "N4",
+   "topics": [
+    "food",
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "お待たせしました — sorry to keep you waiting",
+    "〜ので — because / since",
+    "召し上がる — honorific eat"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 552.5,
+     "end": 554.6,
+     "ja": "お待たせしました！",
+     "en": "Sorry to keep you waiting!",
+     "speaker": "Steve"
+    },
+    {
+     "start": 554.9,
+     "end": 557.6,
+     "ja": "熱いですので、あの、気をつけてください。",
+     "en": "It's very hot, so please be careful.",
+     "speaker": "Steve"
+    },
+    {
+     "start": 557.8,
+     "end": 559.3,
+     "ja": "召し上がってください。",
+     "en": "Please enjoy your meal.",
+     "speaker": "Steve"
+    },
+    {
+     "start": 559.4,
+     "end": 561.0,
+     "ja": "ごゆっくりどうぞ。",
+     "en": "Take your time.",
+     "speaker": "Steve"
+    },
+    {
+     "start": 561.1,
+     "end": 562.3,
+     "ja": "どうも。",
+     "en": "Thanks.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 628.8,
+   "end": 647.0,
+   "title": "The Owner Tastes the Ramen",
+   "level": "N3",
+   "topics": [
+    "food",
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜じゃダメ — no good like this",
+    "〜られない — potential negative",
+    "〜よう — volitional let's"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 629.0,
+     "end": 629.9,
+     "ja": "スティーブ。",
+     "en": "Steve.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 630.0,
+     "end": 630.7,
+     "ja": "はい。",
+     "en": "Yes?",
+     "speaker": "Steve"
+    },
+    {
+     "start": 630.7,
+     "end": 632.5,
+     "ja": "これじゃダメだよ！",
+     "en": "This is terrible!",
+     "speaker": "Owner"
+    },
+    {
+     "start": 634.5,
+     "end": 636.0,
+     "ja": "美味しくないよ！",
+     "en": "It's not good at all!",
+     "speaker": "Owner"
+    },
+    {
+     "start": 636.8,
+     "end": 638.1,
+     "ja": "失敗ですか？",
+     "en": "Did I fail?",
+     "speaker": "Steve"
+    },
+    {
+     "start": 638.3,
+     "end": 640.9,
+     "ja": "これじゃ俺の看板上げらんないな。",
+     "en": "I can't put my shop's name on this.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 641.0,
+     "end": 642.9,
+     "ja": "ごめんなさい！できなくて。",
+     "en": "I'm sorry! I couldn't do it.",
+     "speaker": "Steve"
+    },
+    {
+     "start": 643.1,
+     "end": 644.4,
+     "ja": "もうちょっと修行しよう。",
+     "en": "You need to train a bit more.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 644.5,
+     "end": 646.5,
+     "ja": "車の仕事に戻ります！",
+     "en": "I'll go back to working on cars!",
+     "speaker": "Steve"
+    }
+   ]
+  }
+ ],
+ "videoId": "7jgGYgNmLto",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

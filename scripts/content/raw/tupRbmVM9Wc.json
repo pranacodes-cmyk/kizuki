@@ -1,0 +1,172 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.0,
+   "end": 28.8,
+   "title": "Waking Up and Falling Back Asleep",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜たばかり — just did",
+    "〜くらい — about / around",
+    "〜て、〜 — sequential actions"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.2,
+     "end": 9.5,
+     "ja": "皆さん、今日は何時に起きましたか？",
+     "en": "Everyone, what time did you wake up today?",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 9.9,
+     "end": 14.2,
+     "ja": "私は朝8時くらいに起きました。",
+     "en": "I woke up around 8 in the morning.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 14.3,
+     "end": 18.0,
+     "ja": "そして、もう1回寝て、さっき起きました。",
+     "en": "And then I fell asleep again, and woke up just a moment ago.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 18.0,
+     "end": 20.6,
+     "ja": "さっき起きたばかりです。",
+     "en": "I only just woke up.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 20.7,
+     "end": 23.8,
+     "ja": "今日は二度寝しました。",
+     "en": "Today I went back to sleep.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 23.9,
+     "end": 26.3,
+     "ja": "起きて、また寝ました。",
+     "en": "I got up, and then slept again.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 26.4,
+     "end": 28.5,
+     "ja": "今日は二度寝しました。",
+     "en": "Today I went back to sleep.",
+     "speaker": "Naoko"
+    }
+   ]
+  },
+  {
+   "start": 40.0,
+   "end": 61.8,
+   "title": "Doing Hair and Putting on Contacts",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ている — ongoing action / state",
+    "〜けど — but / although"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 40.2,
+     "end": 46.5,
+     "ja": "そして、もう髪、髪の毛、髪をとかして、結びました。",
+     "en": "And I already brushed my hair, and tied it up.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 46.6,
+     "end": 49.8,
+     "ja": "髪をとかして、結びました。",
+     "en": "Brushed my hair, and tied it up.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 50.0,
+     "end": 54.5,
+     "ja": "そして、普段、いつもめがねをかけているんですけど、",
+     "en": "And normally I always wear glasses, but...",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 54.6,
+     "end": 57.6,
+     "ja": "今日はめがねをはずして、",
+     "en": "today I took off my glasses,",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 57.7,
+     "end": 61.2,
+     "ja": "コンタクト、コンタクトレンズをつけています。",
+     "en": "and am wearing contacts, contact lenses.",
+     "speaker": "Naoko"
+    }
+   ]
+  },
+  {
+   "start": 820.4,
+   "end": 839.6,
+   "title": "Setting Alarms Before Bed",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "辞書形 + 前に — before doing",
+    "〜たい — want to",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 820.6,
+     "end": 824.5,
+     "ja": "じゃあ寝る前にアラームをかけます。アラーム。",
+     "en": "Alright, before going to bed I'll set an alarm. An alarm.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 824.6,
+     "end": 828.5,
+     "ja": "明日は8時に起きたいので、",
+     "en": "I want to wake up at 8 tomorrow, so...",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 828.6,
+     "end": 836.5,
+     "ja": "7時半と、7時45分と、7時50分、そして8時にアラームをかけます。",
+     "en": "I'll set alarms for 7:30, 7:45, 7:50, and 8:00.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 836.6,
+     "end": 839.2,
+     "ja": "そう、アラーム。",
+     "en": "Right, alarms.",
+     "speaker": "Naoko"
+    }
+   ]
+  }
+ ],
+ "videoId": "tupRbmVM9Wc",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

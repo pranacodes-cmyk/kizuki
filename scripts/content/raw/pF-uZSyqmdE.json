@@ -1,0 +1,94 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.9,
+   "end": 25.0,
+   "title": "Why Music Success Books Don't Exist",
+   "level": "N3",
+   "topics": [
+    "work",
+    "music",
+    "culture"
+   ],
+   "grammar": [
+    "〜に関して — regarding / concerning",
+    "〜ために — in order to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.9,
+     "end": 16.3,
+     "ja": "えーとごめんなさい、音楽の世界で成功するために役に立つ本って結構難しいですね。",
+     "en": "Well, sorry, but finding books that help you succeed in the music world is quite tough.",
+     "speaker": "DaiGo"
+    },
+    {
+     "start": 16.4,
+     "end": 22.0,
+     "ja": "何でかって言うと、音楽の世界で成功している人であんまり本を書く人がいないからですね、その成功法に関して。",
+     "en": "That's because people who succeed in the music world rarely write books about their methods.",
+     "speaker": "DaiGo"
+    },
+    {
+     "start": 22.1,
+     "end": 25.0,
+     "ja": "理由を説明します。",
+     "en": "Let me explain the reason.",
+     "speaker": "DaiGo"
+    }
+   ]
+  },
+  {
+   "start": 119.5,
+   "end": 137.0,
+   "title": "The Harsh Reality of Talent in Music",
+   "level": "N3",
+   "topics": [
+    "work",
+    "music"
+   ],
+   "grammar": [
+    "〜かもしれない — might / maybe",
+    "〜てくる — become / begin to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 119.5,
+     "end": 128.0,
+     "ja": "であとは、音楽の世界でアーティストになりたいと思ってるって書いてあるんですが、才能がない人間が成功できる世界ではないかもしれない、音楽は。",
+     "en": "Also, you wrote that you want to be an artist, but music might not be a world where someone without talent can succeed.",
+     "speaker": "DaiGo"
+    },
+    {
+     "start": 128.2,
+     "end": 130.8,
+     "ja": "何でかって言うと、ニーズが少ないからです。",
+     "en": "That's because the demand is limited.",
+     "speaker": "DaiGo"
+    },
+    {
+     "start": 130.9,
+     "end": 133.4,
+     "ja": "お金を稼げる人がトップの数％ですよね。",
+     "en": "Only the top few percent can actually make money.",
+     "speaker": "DaiGo"
+    },
+    {
+     "start": 133.6,
+     "end": 137.0,
+     "ja": "で、こういう場合ってやっぱり残酷なぐらい才能が効いてきます。",
+     "en": "And in situations like that, talent plays a brutally decisive role.",
+     "speaker": "DaiGo"
+    }
+   ]
+  }
+ ],
+ "videoId": "pF-uZSyqmdE",
+ "pickTopics": [
+  "music"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

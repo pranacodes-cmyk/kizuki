@@ -1,0 +1,224 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 15.3,
+   "end": 33.0,
+   "title": "Visiting a Super Cheap Izakaya in Osaka",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜という — called / named",
+    "〜みたい — seems like / apparently",
+    "〜と思う — to think / plan to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 15.4,
+     "end": 16.9,
+     "ja": "皆さんこんにちは。",
+     "en": "Hello everyone.",
+     "speaker": "Mao"
+    },
+    {
+     "start": 17.0,
+     "end": 19.5,
+     "ja": "今、私は大阪に来ています。",
+     "en": "Right now, I'm visiting Osaka.",
+     "speaker": "Mao"
+    },
+    {
+     "start": 19.8,
+     "end": 22.3,
+     "ja": "大阪の天満っていう場所にいるんですけど、",
+     "en": "I'm in an area called Temma in Osaka,",
+     "speaker": "Mao"
+    },
+    {
+     "start": 22.4,
+     "end": 25.4,
+     "ja": "このへんは結構安く飲める飲み屋さんが多くて、",
+     "en": "and around here there are lots of bars where you can drink quite cheaply,",
+     "speaker": "Mao"
+    },
+    {
+     "start": 25.5,
+     "end": 29.2,
+     "ja": "なんと日本一安いと言われている居酒屋さんがあるみたいなので、",
+     "en": "and apparently there's an izakaya that's said to be the cheapest in Japan,",
+     "speaker": "Mao"
+    },
+    {
+     "start": 29.3,
+     "end": 31.5,
+     "ja": "ちょっとそこに行ってみたいと思います。",
+     "en": "so I'd like to go check it out.",
+     "speaker": "Mao"
+    },
+    {
+     "start": 31.8,
+     "end": 32.8,
+     "ja": "それがこちらです。",
+     "en": "And here it is.",
+     "speaker": "Mao"
+    }
+   ]
+  },
+  {
+   "start": 112.5,
+   "end": 131.5,
+   "title": "Reading the Unique Staircase Menu",
+   "level": "N3",
+   "topics": [
+    "food",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てる — ongoing state",
+    "〜れる — potential form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 112.7,
+     "end": 115.0,
+     "ja": "メニューの数がすごいある。",
+     "en": "There are so many menu items.",
+     "speaker": "Mao"
+    },
+    {
+     "start": 115.5,
+     "end": 116.7,
+     "ja": "名前が面白い。",
+     "en": "The names are funny.",
+     "speaker": "Mao"
+    },
+    {
+     "start": 116.8,
+     "end": 119.0,
+     "ja": "「生きてる車エビおどり喰い」",
+     "en": "\"Live kuruma prawn dancing bite.\"",
+     "speaker": "Mao"
+    },
+    {
+     "start": 119.1,
+     "end": 121.7,
+     "ja": "うわ！しかも安いね、199円。",
+     "en": "Whoa! And it's cheap, 199 yen.",
+     "speaker": "Man"
+    },
+    {
+     "start": 121.9,
+     "end": 124.0,
+     "ja": "「死んでる甘エビ」",
+     "en": "\"Dead sweet shrimp.\"",
+     "speaker": "Mao"
+    },
+    {
+     "start": 124.1,
+     "end": 126.8,
+     "ja": "あ、なるほどね、生きてるあれから。ネーミングセンスが…",
+     "en": "Ah, I see, because of the live one. What a naming sense...",
+     "speaker": "Man"
+    },
+    {
+     "start": 127.2,
+     "end": 128.8,
+     "ja": "待って、ゴキブリ？！",
+     "en": "Wait, cockroach?!",
+     "speaker": "Mao"
+    },
+    {
+     "start": 129.0,
+     "end": 131.2,
+     "ja": "どういうこと？ゴキブリ食べれんの？",
+     "en": "What does that mean? You can eat cockroaches?",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 452.0,
+   "end": 476.5,
+   "title": "Tasting the Ninety-Nine Yen Oden",
+   "level": "N3",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜て言われたら — if you ask whether",
+    "〜たら — conditional (if / when)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 452.4,
+     "end": 453.9,
+     "ja": "激安おでん。",
+     "en": "Super cheap oden.",
+     "speaker": "Mao"
+    },
+    {
+     "start": 454.2,
+     "end": 455.0,
+     "ja": "100円？",
+     "en": "100 yen?",
+     "speaker": "Man"
+    },
+    {
+     "start": 455.2,
+     "end": 457.0,
+     "ja": "これね、99円。",
+     "en": "This is 99 yen.",
+     "speaker": "Mao"
+    },
+    {
+     "start": 457.3,
+     "end": 460.5,
+     "ja": "1、2、3、4、5。5種類入ってる。",
+     "en": "1, 2, 3, 4, 5. It has five different items.",
+     "speaker": "Mao"
+    },
+    {
+     "start": 466.8,
+     "end": 468.2,
+     "ja": "ちゃんと柔らかい。",
+     "en": "It's genuinely tender.",
+     "speaker": "Mao"
+    },
+    {
+     "start": 468.3,
+     "end": 471.7,
+     "ja": "めっちゃ味染みてるかって言われたら薄味だけど、",
+     "en": "If you ask whether the flavor has soaked in deeply, it is mild,",
+     "speaker": "Mao"
+    },
+    {
+     "start": 471.8,
+     "end": 474.3,
+     "ja": "でもこの値段でこれだけ入ってて、",
+     "en": "but getting this much at this price,",
+     "speaker": "Mao"
+    },
+    {
+     "start": 474.4,
+     "end": 476.2,
+     "ja": "このクオリティだったら全然文句ない。",
+     "en": "with this quality, there are no complaints at all.",
+     "speaker": "Mao"
+    }
+   ]
+  }
+ ],
+ "videoId": "HSwoP09plfM",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

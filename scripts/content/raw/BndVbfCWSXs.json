@@ -1,0 +1,179 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.5,
+   "end": 39.2,
+   "title": "What Is a Caregiving Class?",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "ことができる — can do / be able to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.8,
+     "end": 25.0,
+     "ja": "はい。",
+     "en": "All right.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 25.2,
+     "end": 27.8,
+     "ja": "まずは介護教室です。",
+     "en": "First is caregiving classes.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 28.5,
+     "end": 33.6,
+     "ja": "介護教室は、家族などの介護をする人が、",
+     "en": "A caregiving class is a place where family members and caregivers...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 33.7,
+     "end": 38.6,
+     "ja": "介護の知識や技術を学ぶことができるところです。",
+     "en": "...can learn caregiving knowledge and skills.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 111.8,
+   "end": 132.2,
+   "title": "What Is a Dementia Cafe?",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜たり〜たりする — doing things like A and B",
+    "ことができる — can do / be able to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 112.3,
+     "end": 114.5,
+     "ja": "認知症カフェは、",
+     "en": "A dementia cafe is...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 114.5,
+     "end": 117.5,
+     "ja": "認知症の人や、家族、",
+     "en": "...where people with dementia, their families,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 117.5,
+     "end": 120.3,
+     "ja": "認知症の専門の人など、",
+     "en": "and dementia specialists,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 120.3,
+     "end": 123.6,
+     "ja": "色々な人が集まる所です。",
+     "en": "and all kinds of people gather.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 123.9,
+     "end": 126.7,
+     "ja": "認知症のことを相談したり、",
+     "en": "You can consult about dementia,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 126.8,
+     "end": 128.2,
+     "ja": "学んだり、",
+     "en": "learn about it,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 128.3,
+     "end": 131.6,
+     "ja": "色々な人と交流することができます。",
+     "en": "and interact with various people.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 255.8,
+   "end": 277.0,
+   "title": "What Is Respite Care?",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜てしまう — unintentionally / unfortunately do",
+    "〜てもらう — receive the favor of someone doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 256.2,
+     "end": 257.2,
+     "ja": "はい。",
+     "en": "All right.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 257.4,
+     "end": 260.6,
+     "ja": "えー、次にレスパイトケアを紹介します。",
+     "en": "Next, let's introduce respite care.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 261.2,
+     "end": 266.3,
+     "ja": "レスパイトケアは、家で介護をしている人が、",
+     "en": "With respite care... Sometimes people providing care at home...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 266.4,
+     "end": 270.0,
+     "ja": "疲れてしまうことがあります。",
+     "en": "...can become exhausted.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 270.3,
+     "end": 273.8,
+     "ja": "介護をしている人に休んでもらうことを、",
+     "en": "Allowing the caregiver to take a rest...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 274.0,
+     "end": 276.5,
+     "ja": "レスパイトケアと言います。",
+     "en": "...is called respite care.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "BndVbfCWSXs",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

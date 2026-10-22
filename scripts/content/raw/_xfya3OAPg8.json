@@ -1,0 +1,157 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 27.8,
+   "end": 43.3,
+   "title": "AC Coughs and Hospital Visits",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜始める — start doing",
+    "〜によると — according to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 28.0,
+     "end": 31.7,
+     "ja": "暑くなって、エアコンを使い始めて、",
+     "en": "As it gets hotter and people start using air conditioners,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 31.7,
+     "end": 35.0,
+     "ja": "せきが出るという人がいます。",
+     "en": "some people say they start coughing.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 35.5,
+     "end": 38.7,
+     "ja": "横浜市の病院の医者によると、",
+     "en": "According to a doctor at a hospital in Yokohama,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 38.7,
+     "end": 43.0,
+     "ja": "この季節は、病院に来る人が増えます。",
+     "en": "the number of people visiting the hospital increases during this season.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 43.3,
+   "end": 56.8,
+   "title": "Mold and Dust in the Air Conditioner",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜前に — before doing",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 43.6,
+     "end": 47.0,
+     "ja": "せきが出る原因は、3つあります。",
+     "en": "There are three causes for the coughing.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 47.3,
+     "end": 49.8,
+     "ja": "1つ目は、エアコンの中の",
+     "en": "The first is mold and dust",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 49.8,
+     "end": 52.3,
+     "ja": "カビやほこりです。",
+     "en": "inside the air conditioner.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 53.0,
+     "end": 56.5,
+     "ja": "使う前に、エアコンを掃除してください。",
+     "en": "Please clean the air conditioner before using it.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 115.0,
+   "end": 136.3,
+   "title": "Cold Air and AC Temperature Tips",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜やすい — prone to",
+    "〜と — conditional when/if",
+    "〜てほしい — want someone to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 115.5,
+     "end": 119.3,
+     "ja": "3つ目は、急に冷たい空気を吸うと、",
+     "en": "The third is that suddenly inhaling cold air",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 119.3,
+     "end": 122.0,
+     "ja": "せきが出やすくなります。",
+     "en": "makes it easier to start coughing.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 122.3,
+     "end": 124.2,
+     "ja": "エアコンの温度を、",
+     "en": "Please set the air conditioner's temperature",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 124.2,
+     "end": 128.5,
+     "ja": "26度から28度ぐらいにしてください。",
+     "en": "to around 26 to 28 degrees Celsius.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 129.0,
+     "end": 132.4,
+     "ja": "せきが2週間以上続くときなどは、",
+     "en": "If coughing continues for more than two weeks,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 132.4,
+     "end": 135.8,
+     "ja": "病院に行ってほしいと、医者は話しています。",
+     "en": "the doctor says they want people to visit a hospital.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "_xfya3OAPg8",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

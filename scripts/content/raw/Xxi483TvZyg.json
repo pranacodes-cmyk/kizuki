@@ -1,0 +1,173 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 28.8,
+   "end": 47.0,
+   "title": "This Is Supposed to Be Cheesecake",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "一応 — for now / more or less",
+    "〜直後 — immediately after"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 29.0,
+     "end": 32.4,
+     "ja": "え、これは、あの、一応チーズケーキです。",
+     "en": "Um, this is... basically cheesecake.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 32.5,
+     "end": 36.5,
+     "ja": "一応チーズケーキを作ったんですけど、はい。",
+     "en": "Well, I made cheesecake, yeah.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 36.8,
+     "end": 40.8,
+     "ja": "昨日作って、作った直後にちょっと食べました。",
+     "en": "I made it yesterday and ate a bit right after making it.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 41.0,
+     "end": 44.7,
+     "ja": "で、一日今置いたのが、この残骸です。",
+     "en": "And after letting it sit for a day, this is what's left.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 44.8,
+     "end": 46.8,
+     "ja": "いや、でもね、美味しかった！",
+     "en": "No, but seriously, it was delicious!",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 337.0,
+   "end": 353.0,
+   "title": "Morning Skincare Routine",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ておく — doing something in advance",
+    "〜かも — might / maybe"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 337.3,
+     "end": 340.0,
+     "ja": "じゃ、ちょっと化粧水でも塗っとくか、一応！",
+     "en": "Alright, maybe I'll put on some lotion for now!",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 340.2,
+     "end": 343.0,
+     "ja": "夜が結構なんか、がっつり美容液とか塗るんで、",
+     "en": "Since I apply a lot of serum and stuff at night,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 343.1,
+     "end": 345.0,
+     "ja": "朝は、化粧水とか、",
+     "en": "in the morning it's just toner,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 345.1,
+     "end": 348.3,
+     "ja": "化粧水と普通に乳液、クリームだけですね。",
+     "en": "toner and just normal moisturizer and cream.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 348.4,
+     "end": 350.0,
+     "ja": "で、キールズ。",
+     "en": "And Kiehl's.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 350.1,
+     "end": 352.6,
+     "ja": "めっちゃキールズ使ってるかも、普段。",
+     "en": "I think I usually use a lot of Kiehl's.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 408.5,
+   "end": 426.5,
+   "title": "Bleaching My Eyebrows",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜とは別に — separately from",
+    "〜てくる — start to / come to be",
+    "〜たいと思う — thinking of wanting to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 408.8,
+     "end": 410.5,
+     "ja": "ちょっといきなりなんですけど、",
+     "en": "This is kind of out of nowhere, but...",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 410.6,
+     "end": 413.5,
+     "ja": "うち、眉毛、今アートメイクしてるんですけど、",
+     "en": "I have microbladed eyebrows right now, but...",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 413.6,
+     "end": 417.6,
+     "ja": "アートメイクとは別に自分の元のさ、眉毛がめっちゃ生えてきてて、",
+     "en": "besides the microblading, my natural brow hair has been growing back like crazy,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 417.7,
+     "end": 422.0,
+     "ja": "ちょっと全体的に眉毛、脱色したいなってずっと想ってたんですけど、",
+     "en": "and I've been thinking for a while that I want to bleach my eyebrows,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 422.2,
+     "end": 425.8,
+     "ja": "ずっとめんどくさくて、眉毛の脱色すんの。",
+     "en": "but I was always too lazy to actually bleach them.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "Xxi483TvZyg",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

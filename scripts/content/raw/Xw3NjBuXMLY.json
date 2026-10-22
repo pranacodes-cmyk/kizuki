@@ -1,0 +1,160 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.0,
+   "end": 19.3,
+   "title": "Walking from Tokyo to Shimbashi",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていく — to go doing",
+    "〜たいと思う — thinking of doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.2,
+     "end": 7.7,
+     "ja": "今日は、散歩Vlogです。",
+     "en": "Today is a walking vlog.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 7.7,
+     "end": 13.5,
+     "ja": "東京駅から新橋駅まで歩いて行きたいと思います。",
+     "en": "I'd like to walk from Tokyo Station to Shimbashi Station.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 13.8,
+     "end": 19.0,
+     "ja": "この道を、まずはまっすぐ進んでみたいと思います。",
+     "en": "First, I think I'll head straight down this street.",
+     "speaker": "Akane"
+    }
+   ]
+  },
+  {
+   "start": 221.8,
+   "end": 235.4,
+   "title": "Closest Station to the Imperial Palace",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — if/when",
+    "可能形 — potential form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 222.0,
+     "end": 224.7,
+     "ja": "もしここに来たい人がいたら、",
+     "en": "If anyone wants to come here,",
+     "speaker": "Akane"
+    },
+    {
+     "start": 224.7,
+     "end": 228.9,
+     "ja": "最寄り駅は二重橋前駅です。",
+     "en": "the nearest station is Nijubashimae Station.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 229.2,
+     "end": 232.4,
+     "ja": "東京駅からも歩ける距離です。",
+     "en": "It's also walking distance from Tokyo Station.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 232.7,
+     "end": 235.0,
+     "ja": "ここも綺麗だね。",
+     "en": "It's beautiful here too, isn't it?",
+     "speaker": "Akane"
+    }
+   ]
+  },
+  {
+   "start": 400.0,
+   "end": 431.3,
+   "title": "Turning Hobbies into Work",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜なきゃ — must",
+    "〜てしまう — end up doing",
+    "〜可能性が高い — high possibility"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 400.3,
+     "end": 403.6,
+     "ja": "この前、このような質問をもらいました。",
+     "en": "The other day, I received this question.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 403.6,
+     "end": 407.3,
+     "ja": "「好きなことを仕事にしなきゃ駄目ですか？」",
+     "en": "\"Do you have to make what you love your job?\"",
+     "speaker": "Akane"
+    },
+    {
+     "start": 407.3,
+     "end": 409.6,
+     "ja": "っていう質問です。",
+     "en": "That was the question.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 410.1,
+     "end": 415.7,
+     "ja": "えっーと、私、個人的な考えなんですけれども、",
+     "en": "Well, this is just my personal opinion, but...",
+     "speaker": "Akane"
+    },
+    {
+     "start": 415.7,
+     "end": 421.8,
+     "ja": "好きなことを仕事にする必要は全くないと思いますし、",
+     "en": "I think there's absolutely no need to turn what you love into your job,",
+     "speaker": "Akane"
+    },
+    {
+     "start": 422.0,
+     "end": 425.8,
+     "ja": "好きなことを仕事にしてしまうと、",
+     "en": "and if you make what you love your job,",
+     "speaker": "Akane"
+    },
+    {
+     "start": 426.0,
+     "end": 430.8,
+     "ja": "好きではなくなってしまう可能性が高いと思います。",
+     "en": "I think there's a strong chance you might end up not liking it anymore.",
+     "speaker": "Akane"
+    }
+   ]
+  }
+ ],
+ "videoId": "Xw3NjBuXMLY",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

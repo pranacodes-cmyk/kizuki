@@ -1,0 +1,201 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 91.5,
+   "end": 143.0,
+   "title": "Splurging on a Dream Kettle",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜てた — continuous past",
+    "〜ちゃう — to do completely/regret"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 91.8,
+     "end": 93.8,
+     "ja": "もう長年、なんか多分",
+     "en": "For many years, maybe",
+     "speaker": "Woman"
+    },
+    {
+     "start": 93.8,
+     "end": 96.0,
+     "ja": "七、八年ずっと恋焦がれてた",
+     "en": "seven or eight years, I had longed for",
+     "speaker": "Woman"
+    },
+    {
+     "start": 96.0,
+     "end": 97.4,
+     "ja": "やかんなんだけど、",
+     "en": "this kettle,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 97.4,
+     "end": 100.2,
+     "ja": "いいお値段で、ずっと悩んでたんだけど、",
+     "en": "and it was pricey so I agonized over it for a while,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 100.2,
+     "end": 102.5,
+     "ja": "「いいや！えい！」って買っちゃいました。",
+     "en": "but then went, \"Whatever! Go for it!\" and bought it.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 307.0,
+   "end": 328.0,
+   "title": "Efficient Kitchen Counter Workflow",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜じゃないですか — isn't it / as you know",
+    "〜とく — to do in advance/leave as is"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 307.2,
+     "end": 309.5,
+     "ja": "ちょっと使って、まだ使いたいこと、",
+     "en": "You know how there are lots of times when you use something",
+     "speaker": "Woman"
+    },
+    {
+     "start": 309.5,
+     "end": 311.4,
+     "ja": "いっぱいあるじゃないですか。",
+     "en": "and want to keep using it?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 311.4,
+     "end": 313.7,
+     "ja": "で、全部終わったときは",
+     "en": "So when I'm completely done,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 313.7,
+     "end": 316.0,
+     "ja": "ここに洗剤が入ってあって、",
+     "en": "there's soapy water in here,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 316.0,
+     "end": 319.4,
+     "ja": "もう全部終わったやつはこっちに入れるんですよ。",
+     "en": "and the ones I'm completely finished with go in here.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 319.4,
+     "end": 322.5,
+     "ja": "で、すぐ使いたいときはここに入れといて、",
+     "en": "When I want to use it again soon, I keep it here,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 322.5,
+     "end": 326.5,
+     "ja": "さっと水で流して、次切ってとか、",
+     "en": "quickly rinse it with water, then chop the next thing,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 326.5,
+     "end": 327.8,
+     "ja": "炒めたりとか。",
+     "en": "or stir-fry.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 729.8,
+   "end": 747.5,
+   "title": "The Freedom of Chinese Tea",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜ばいい — should / it's fine if",
+    "〜と違って — unlike / different from"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 730.3,
+     "end": 733.4,
+     "ja": "まだまだ何もできないんだけど、",
+     "en": "I still can't do it very properly, but",
+     "speaker": "Woman"
+    },
+    {
+     "start": 733.4,
+     "end": 736.0,
+     "ja": "なんか、綺麗であればいいみたいな",
+     "en": "there are many people who feel like as long as it's nice, it's fine,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 736.0,
+     "end": 737.9,
+     "ja": "考え方の人も多いし、",
+     "en": "while others say,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 737.9,
+     "end": 739.9,
+     "ja": "「こういうやり方」っていう人もいるし、",
+     "en": "\"This is the right way,\" so there are all kinds of people.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 739.9,
+     "end": 741.0,
+     "ja": "色んな人がいて。",
+     "en": "And unlike Japanese tea ceremony,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 741.0,
+     "end": 744.0,
+     "ja": "でも全然、日本の茶道と違って自由だから、",
+     "en": "it's totally free-form,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 744.8,
+     "end": 747.0,
+     "ja": "それでなんか、入りやすかった。",
+     "en": "which made it really easy for me to get into.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "KRjxqts7lxw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

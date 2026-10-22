@@ -6,6 +6,7 @@ import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import 'tour.dart';
 import 'ui.dart';
+import 'word_level.dart';
 
 /// Index of the line being spoken (last line whose start ≤ t), -1 before the first line.
 int activeLineIndex(m.Clip clip, double t) {
@@ -38,6 +39,9 @@ class Transcript extends StatelessWidget {
   final double time;
   final Settings settings;
   final String Function(m.Word w) statusOf;
+
+  /// Level of a saved word (1–4 while learning): its underline fades from orange to brown.
+  final int? Function(m.Word w)? levelOf;
   final (int, int)? selected;
   final void Function(int line, int idx) onWord;
   final ValueChanged<int> onLine;
@@ -46,7 +50,7 @@ class Transcript extends StatelessWidget {
 
   /// The word the welcome tour spotlights (line, index), if any.
   final (int, int)? tourWord;
-  const Transcript({super.key, required this.clip, required this.time, required this.settings, required this.statusOf, required this.selected, required this.onWord, required this.onLine, required this.onLineMenu, required this.lineKeys, this.tourWord});
+  const Transcript({super.key, required this.clip, required this.time, required this.settings, required this.statusOf, this.levelOf, required this.selected, required this.onWord, required this.onLine, required this.onLineMenu, required this.lineKeys, this.tourWord});
 
   @override
   Widget build(BuildContext context) {
@@ -89,6 +93,7 @@ class Transcript extends StatelessWidget {
                               trail: trail,
                               size: base,
                               status: clip.lines[li].words[wi].isPunct ? 'known' : statusOf(clip.lines[li].words[wi]),
+                              level: clip.lines[li].words[wi].isPunct ? null : levelOf?.call(clip.lines[li].words[wi]),
                               speaking: settings.highlight && li == current && time >= clip.lines[li].words[wi].t0 && time < clip.lines[li].words[wi].t1 && !clip.lines[li].words[wi].isPunct,
                               selected: selected != null && selected!.$1 == li && selected!.$2 == wi,
                               furigana: settings.furigana,
@@ -125,15 +130,16 @@ class _Token extends StatelessWidget {
   final String trail;
   final double size;
   final String status;
+  final int? level;
   final bool speaking, selected, furigana, romaji;
   final VoidCallback? onTap;
-  const _Token({required this.w, required this.trail, required this.size, required this.status, required this.speaking, required this.selected, required this.furigana, required this.romaji, this.onTap});
+  const _Token({required this.w, required this.trail, required this.size, required this.status, this.level, required this.speaking, required this.selected, required this.furigana, required this.romaji, this.onTap});
 
   @override
   Widget build(BuildContext context) {
     final style = jp(size, h: 1.25);
     if (onTap == null) return Text(w.s + trail, style: style.copyWith(height: 1.9));
-    final underline = status == 'new' ? T.info : (status == 'learning' ? T.learning : Colors.transparent);
+    final underline = status == 'new' ? T.info : (status == 'learning' ? levelColor((level ?? 1).clamp(1, 4)) : Colors.transparent);
     final rubySize = size * 0.5;
     final showRuby = furigana && w.f != null;
     Widget body;

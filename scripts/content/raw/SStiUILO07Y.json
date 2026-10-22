@@ -1,0 +1,181 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.8,
+   "end": 39.5,
+   "title": "Introduction to Venture House",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜と申します — humble introduction",
+    "〜させていただく — humbly do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 16.9,
+     "end": 20.6,
+     "ja": "株式会社Venture Houseの熊谷恵人と申します。よろしくお願いします。",
+     "en": "My name is Manato Kumagai from Venture House Co., Ltd. Pleased to meet you.",
+     "speaker": "熊谷"
+    },
+    {
+     "start": 20.8,
+     "end": 23.8,
+     "ja": "今、営業代行というのをメインでやっております。",
+     "en": "Currently, we mainly work as a sales agency.",
+     "speaker": "熊谷"
+    },
+    {
+     "start": 24.2,
+     "end": 31.0,
+     "ja": "扱っている商材としては、通信とか電気系の事業というのを訪問販売中心に販売させていただいています。",
+     "en": "As for products, we sell telecommunications and energy services, primarily through door-to-door sales.",
+     "speaker": "熊谷"
+    },
+    {
+     "start": 31.3,
+     "end": 37.0,
+     "ja": "僕らの会社の特徴としては、営業組織というものを学生のみで形成しているところ。",
+     "en": "A feature of our company is that our sales organization is formed entirely of students.",
+     "speaker": "熊谷"
+    },
+    {
+     "start": 37.2,
+     "end": 39.3,
+     "ja": "そこが一番の特徴かなと思います。",
+     "en": "I think that's our biggest defining trait.",
+     "speaker": "熊谷"
+    }
+   ]
+  },
+  {
+   "start": 39.8,
+   "end": 65.0,
+   "title": "From Aspiring Teacher to Entrepreneur",
+   "level": "N3",
+   "topics": [
+    "work",
+    "school"
+   ],
+   "grammar": [
+    "〜というのが夢 — my dream was to...",
+    "〜ていた — ongoing/past state",
+    "〜たいなと思う — thinking that one wants to do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 40.0,
+     "end": 46.5,
+     "ja": "元々、僕自身が小学校の時から小・中・高・大って教員になるというのが夢で、",
+     "en": "Originally, ever since elementary school and through college, my dream was to become a teacher,",
+     "speaker": "熊谷"
+    },
+    {
+     "start": 46.7,
+     "end": 50.3,
+     "ja": "大学ももちろん教育学部の大学に進学して、",
+     "en": "and of course I went on to study at a university's faculty of education,",
+     "speaker": "熊谷"
+    },
+    {
+     "start": 50.5,
+     "end": 53.2,
+     "ja": "そこで教育について学んでいたんですけど、",
+     "en": "and I was studying education there, but...",
+     "speaker": "熊谷"
+    },
+    {
+     "start": 53.4,
+     "end": 57.6,
+     "ja": "実際自分が思い描いていた教員像と違う部分があって、",
+     "en": "there were parts that differed from the image of a teacher I had envisioned,",
+     "speaker": "熊谷"
+    },
+    {
+     "start": 57.8,
+     "end": 60.1,
+     "ja": "自分が教員にならないという道を選んで、",
+     "en": "so I chose the path of not becoming a schoolteacher,",
+     "speaker": "熊谷"
+    },
+    {
+     "start": 60.2,
+     "end": 62.8,
+     "ja": "じゃあ自分で教育事業立ち上げたいなって、",
+     "en": "and thought, 'Then I want to start my own education business,'",
+     "speaker": "熊谷"
+    },
+    {
+     "start": 62.9,
+     "end": 65.0,
+     "ja": "そこで起業しようと思ったのがきっかけになります。",
+     "en": "and deciding to start a business was how it began.",
+     "speaker": "熊谷"
+    }
+   ]
+  },
+  {
+   "start": 727.0,
+   "end": 747.8,
+   "title": "An Indispensable Item: The iPad",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜にとって — for / to (someone)",
+    "〜ってなった時 — when it came to... / when it was decided that...",
+    "〜てて — casual form of 〜ていて"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 727.1,
+     "end": 729.8,
+     "ja": "私の人生に欠かせない3つのアイテム。",
+     "en": "Three items indispensable to my life.",
+     "speaker": "熊谷"
+    },
+    {
+     "start": 730.0,
+     "end": 731.8,
+     "ja": "1つ目はiPadです。",
+     "en": "The first one is an iPad.",
+     "speaker": "熊谷"
+    },
+    {
+     "start": 732.4,
+     "end": 736.8,
+     "ja": "これ何で僕にとって欠かせないものになっているかというと、",
+     "en": "As for why this has become indispensable to me,",
+     "speaker": "熊谷"
+    },
+    {
+     "start": 737.0,
+     "end": 743.6,
+     "ja": "僕が営業のクロージングに初めて入るってなった時に買ったiPadになってくるんですけど、",
+     "en": "it's the iPad I bought when I was about to handle sales closing for the first time,",
+     "speaker": "熊谷"
+    },
+    {
+     "start": 744.0,
+     "end": 746.5,
+     "ja": "かれこれもう3〜4年ぐらい使ってて、",
+     "en": "and I've been using it for about three or four years now.",
+     "speaker": "熊谷"
+    }
+   ]
+  }
+ ],
+ "videoId": "SStiUILO07Y",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,92 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.0,
+   "end": 17.5,
+   "title": "Introduction to Indian Philosophy",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜にわたり — extending over",
+    "〜について — regarding / about"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.3,
+     "end": 1.7,
+     "ja": "こんにちは。哲学チャンネルです。",
+     "en": "Hello. This is Philosophy Channel.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 2.2,
+     "end": 5.8,
+     "ja": "今回から10回弱にわたり、インド哲学の解説をさせていただきます。",
+     "en": "Starting today, over nearly ten episodes, I will be explaining Indian philosophy.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 6.3,
+     "end": 9.4,
+     "ja": "初回となる今回は、インド哲学の成り立ちについてです。",
+     "en": "For this first installment, we will look at the origins of Indian philosophy.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 9.9,
+     "end": 15.0,
+     "ja": "西洋哲学や仏教にも大きな影響を与えたインド哲学は、一体どのような経緯で始まったのでしょうか？",
+     "en": "How on earth did Indian philosophy, which had such a major influence on Western philosophy and Buddhism, actually begin?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 15.6,
+     "end": 17.2,
+     "ja": "ぜひ最後までご視聴ください。",
+     "en": "Please watch until the end.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 25.1,
+   "end": 35.8,
+   "ja": "インド哲学の変遷：アーリア人の祭式",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜前後 — around / approximately"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 25.4,
+     "end": 31.0,
+     "ja": "紀元前18世紀前後、中央アジアで生活をしていたアーリア人が、インダス川周辺に侵攻いたしました。",
+     "en": "Around the 18th century BC, the Aryans living in Central Asia invaded the area around the Indus River.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 31.5,
+     "end": 35.5,
+     "ja": "戦闘力の高い彼らは先住民族を排除して、現在のインドに移り住みます。",
+     "en": "Possessing formidable combat power, they displaced the indigenous peoples and settled in present-day India.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "ZFhM3bnWI00",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

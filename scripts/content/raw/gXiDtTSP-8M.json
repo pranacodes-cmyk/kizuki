@@ -1,0 +1,193 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 17.6,
+   "title": "Game Rules: Do Not Say the Same Thing!",
+   "level": "N4",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜ないで — please do not",
+    "〜たら — if / when",
+    "〜ていたなら — if (condition had been met)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 2.5,
+     "ja": "「クイズの達人」にようこそ！",
+     "en": "Welcome to Quiz Master!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 3.1,
+     "end": 4.5,
+     "ja": "今日のテーマは…",
+     "en": "Today's theme is...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 4.5,
+     "end": 7.1,
+     "ja": "絶対に僕と同じことを言わないで！",
+     "en": "Never say the same thing as me!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 7.3,
+     "end": 9.7,
+     "ja": "僕と同じ選択をしたら君の負けだよ！",
+     "en": "If you make the same choice as me, you lose!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 10.1,
+     "end": 12.3,
+     "ja": "問題は全部で30問！",
+     "en": "There are 30 questions in total!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 12.4,
+     "end": 14.8,
+     "ja": "最後まで生き残っていたなら…",
+     "en": "If you survive until the end...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 14.8,
+     "end": 15.9,
+     "ja": "君の勝ちだ！",
+     "en": "you win!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 16.0,
+     "end": 17.3,
+     "ja": "さあ、始めるよ！",
+     "en": "Alright, let's begin!",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 25.5,
+   "end": 42.6,
+   "title": "Round 1: Think of Sushi",
+   "level": "N4",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜と答えた — answered that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 26.0,
+     "end": 27.5,
+     "ja": "第1問。",
+     "en": "Question 1.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 27.8,
+     "end": 31.0,
+     "ja": "お寿司のネタを1つ思い浮かべてください。",
+     "en": "Think of one sushi topping.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 37.1,
+     "end": 39.1,
+     "ja": "僕はイカを選ぶよ！",
+     "en": "I choose squid!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 39.5,
+     "end": 42.2,
+     "ja": "イカと答えた君は負け〜！",
+     "en": "If you answered squid, you lose!",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 1010.5,
+   "end": 126.8,
+   "title": "Did You Survive until the End?",
+   "level": "N4",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜てね — friendly imperative",
+    "〜ないでね — please don't"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1011.0,
+     "end": 1013.3,
+     "ja": "君は最後まで生き残れたかな？",
+     "en": "Were you able to survive until the end?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1013.6,
+     "end": 1014.8,
+     "ja": "最後まで生き残っていたなら…",
+     "en": "If you survived until the end...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1015.0,
+     "end": 1016.1,
+     "ja": "君の勝ちだ！",
+     "en": "you win!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1016.4,
+     "end": 1017.7,
+     "ja": "おめでとう！",
+     "en": "Congratulations!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1018.1,
+     "end": 1020.9,
+     "ja": "僕に勝てた人は「勝った」とコメントで教えてね！",
+     "en": "If you beat me, tell me in the comments by writing \"I won\"!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1021.3,
+     "end": 1024.9,
+     "ja": "次回のクイズもお楽しみに！チャンネル登録を忘れないでね！",
+     "en": "Look forward to the next quiz! Don't forget to subscribe!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1025.0,
+     "end": 1026.5,
+     "ja": "また君のチャレンジを待ってるよ！",
+     "en": "I'll be waiting for your next challenge!",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "gXiDtTSP-8M",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

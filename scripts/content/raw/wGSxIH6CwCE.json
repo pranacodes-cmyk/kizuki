@@ -1,0 +1,175 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.5,
+   "end": 27.5,
+   "title": "Baking Pizza for a Work Lunch",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜代わりに — instead of",
+    "〜と思ってた — thought that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.8,
+     "end": 10.8,
+     "ja": "で、最近はなぜか早起きができるんで、ピザ作ってますね。",
+     "en": "So lately for some reason I've been waking up early, so I'm making pizza.",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 10.9,
+     "end": 13.5,
+     "ja": "割と栄養が取れて簡単に作れるので、",
+     "en": "It's relatively nutritious and easy to make,",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 13.8,
+     "end": 16.0,
+     "ja": "これを会社に持って行って、",
+     "en": "so I take this to the office",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 16.1,
+     "end": 18.5,
+     "ja": "お昼ご飯の弁当代わりに食べます。",
+     "en": "and eat it instead of a packed lunch for midday.",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 21.0,
+     "end": 23.5,
+     "ja": "ここ、魚焼くところだと思ってたんですけど、",
+     "en": "I used to think this grill was for broiling fish,",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 23.9,
+     "end": 27.0,
+     "ja": "実はピザ焼くところだったって知ってましたか？",
+     "en": "but did you know it was actually for baking pizza?",
+     "speaker": "Tanaka"
+    }
+   ]
+  },
+  {
+   "start": 45.5,
+   "end": 105.5,
+   "title": "High-Protein Breakfast Hack",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていく — to proceed with doing",
+    "〜すぎる — too much / overly",
+    "〜こと — nominalizer"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 45.8,
+     "end": 48.0,
+     "ja": "で、こっちが朝ご飯ですかね。",
+     "en": "And this is my breakfast.",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 48.5,
+     "end": 51.5,
+     "ja": "大豆とフルグラをブレンドして、",
+     "en": "I blend soybeans with fruit granola,",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 51.8,
+     "end": 54.5,
+     "ja": "低脂肪乳をかけていきます。",
+     "en": "and then pour low-fat milk over it.",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 54.8,
+     "end": 58.5,
+     "ja": "フルグラはずっと食べてると甘すぎる感じがするんですけど、",
+     "en": "Fruit granola feels too sweet if you eat it all the time,",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 58.8,
+     "end": 61.5,
+     "ja": "大豆を入れることでそれが緩和されて、",
+     "en": "but adding soybeans tempers the sweetness,",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 62.0,
+     "end": 64.8,
+     "ja": "タンパク質も取れるっていう仕組みになってますね。",
+     "en": "and it's set up so you get protein as well.",
+     "speaker": "Tanaka"
+    }
+   ]
+  },
+  {
+   "start": 126.0,
+   "end": 140.0,
+   "title": "Eating Breakfast on the Clock",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ていく — action progression",
+    "〜と — whenever / if conditional"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 126.5,
+     "end": 129.5,
+     "ja": "続いて、会社のほうで朝食を食べていきます。",
+     "en": "Next up, I'm going to eat breakfast at work.",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 129.8,
+     "end": 134.0,
+     "ja": "家で朝食を食べると時間が消費されるだけなんですが、",
+     "en": "Eating breakfast at home just consumes your time,",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 134.0,
+     "end": 137.0,
+     "ja": "会社で仕事中に朝食を食べると時給が発生するので、",
+     "en": "but eating breakfast while on the clock at work earns you an hourly wage,",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 137.0,
+     "end": 139.5,
+     "ja": "お得だって知ってましたか？",
+     "en": "so did you know it's a great deal?",
+     "speaker": "Tanaka"
+    }
+   ]
+  }
+ ],
+ "videoId": "wGSxIH6CwCE",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

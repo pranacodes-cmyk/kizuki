@@ -1,0 +1,138 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 140.7,
+   "end": 165.7,
+   "title": "Using Otsukaresama Desu at Work",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜んじゃないかな — I think maybe",
+    "〜し — listing reasons"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 141.0,
+     "end": 147.5,
+     "ja": "まず、日本人が会社でよく使う挨拶は「お疲れ様です」ですね。",
+     "en": "First, a greeting Japanese people often use at work is \"Otsukaresama desu.\"",
+     "speaker": "HINA"
+    },
+    {
+     "start": 148.0,
+     "end": 157.0,
+     "ja": "これはドラマでもよく出てくる言葉ですし、日常でも使うので、たぶん、みなさんも聞いたことあるんじゃないかなと思います。",
+     "en": "This phrase often appears in dramas and is used in daily life too, so I think you've probably heard it before.",
+     "speaker": "HINA"
+    },
+    {
+     "start": 157.5,
+     "end": 163.0,
+     "ja": "みなさんはこの言葉はどんなシチュエーションで使うと思いますか？",
+     "en": "In what kind of situation do you think this phrase is used?",
+     "speaker": "HINA"
+    },
+    {
+     "start": 163.5,
+     "end": 165.2,
+     "ja": "どうですか？",
+     "en": "What do you think?",
+     "speaker": "HINA"
+    }
+   ]
+  },
+  {
+   "start": 377.2,
+   "end": 399.2,
+   "title": "When to Say Shitsurei Shimasu",
+   "level": "N4",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜ときに — when doing",
+    "〜てから — after doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 377.5,
+     "end": 382.5,
+     "ja": "この「失礼します」は、帰るときに言う挨拶ですね。",
+     "en": "This \"Shitsurei shimasu\" is a greeting you say when leaving.",
+     "speaker": "HINA"
+    },
+    {
+     "start": 383.0,
+     "end": 389.8,
+     "ja": "例えば、仕事が終わって先に帰るときには「お先に失礼します」と言って、会社を出ます。",
+     "en": "For example, when you finish work and leave before others, you say \"Osaki ni shitsurei shimasu\" and leave the office.",
+     "speaker": "HINA"
+    },
+    {
+     "start": 390.0,
+     "end": 398.7,
+     "ja": "それから、社長や上司などの立場が上の人の部屋を出るときにも「失礼しました」って言って出ますね。",
+     "en": "Also, when leaving the room of a superior like the president or your boss, you say \"Shitsurei shimashita\" as you leave.",
+     "speaker": "HINA"
+    }
+   ]
+  },
+  {
+   "start": 464.5,
+   "end": 487.5,
+   "title": "A Polite Way to Ask for Someone's Time",
+   "level": "N3",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜たいときに — when wanting to",
+    "〜だけで — just by doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 465.0,
+     "end": 469.0,
+     "ja": "それは「今お時間よろしいでしょうか？」です。",
+     "en": "That is \"Ima ojikan yoroshii deshō ka?\"",
+     "speaker": "HINA"
+    },
+    {
+     "start": 469.5,
+     "end": 474.8,
+     "ja": "これは、何か会社の中で質問をしたいときに使います。",
+     "en": "This is used when you want to ask a question at work.",
+     "speaker": "HINA"
+    },
+    {
+     "start": 475.0,
+     "end": 479.5,
+     "ja": "会社ではみんな仕事をしているので、忙しいですよね。",
+     "en": "Everyone is working at the company, so they're busy, right?",
+     "speaker": "HINA"
+    },
+    {
+     "start": 479.8,
+     "end": 487.0,
+     "ja": "なので、この言葉を入れるだけで、この人はきちんと他の人のことまで考えているなって思ってもらえます。",
+     "en": "So just by adding this phrase, people will think, \"This person is truly considerate of others.\"",
+     "speaker": "HINA"
+    }
+   ]
+  }
+ ],
+ "videoId": "XkJ2qeynXgM",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

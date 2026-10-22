@@ -1,0 +1,55 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 223.7,
+   "end": 235.6,
+   "title": "Choosing Dinner for the Cat",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜がいい — expressing preference",
+    "お待たせ — sorry for making you wait"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 224.0,
+     "end": 225.2,
+     "ja": "これ食べる？",
+     "en": "Do you want to eat this?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 225.3,
+     "end": 227.1,
+     "ja": "どれがいい？こっち？",
+     "en": "Which one do you want? This one?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 227.5,
+     "end": 228.6,
+     "ja": "これ？",
+     "en": "This one?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 233.5,
+     "end": 235.1,
+     "ja": "はい、お待たせ。",
+     "en": "Here you go, sorry for the wait.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "lgHAr4FLWko",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

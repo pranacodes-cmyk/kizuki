@@ -1,0 +1,215 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 71.2,
+   "end": 81.3,
+   "title": "Full-Time Live Streamer",
+   "level": "N4",
+   "topics": [
+    "work",
+    "fun"
+   ],
+   "grammar": [
+    "〜てた — past progressive (casual)",
+    "ということで — on the topic of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 71.6,
+     "end": 72.3,
+     "ja": "こんにちは。",
+     "en": "Hello.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 72.4,
+     "end": 74.5,
+     "ja": "年収調査ということで、今ご職業は何ですか？",
+     "en": "We're doing an income survey. What is your current job?",
+     "speaker": "Host A"
+    },
+    {
+     "start": 74.6,
+     "end": 77.0,
+     "ja": "今ちょうどやってたんですけど、ライバーです。",
+     "en": "I was actually just doing it right now, but I'm a streamer.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 77.0,
+     "end": 78.5,
+     "ja": "ライバー！今流行りの。",
+     "en": "A streamer! The trendy thing right now.",
+     "speaker": "Host B"
+    },
+    {
+     "start": 78.5,
+     "end": 79.5,
+     "ja": "ライバー一本？",
+     "en": "Solely as a streamer?",
+     "speaker": "Host A"
+    },
+    {
+     "start": 79.5,
+     "end": 80.9,
+     "ja": "ライバー一本です。",
+     "en": "Yes, just streaming.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 213.0,
+   "end": 230.3,
+   "title": "Guessing the Job",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜に見える — to look like / appear to be",
+    "〜わけがあるか — no way that / of course not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 213.3,
+     "end": 214.3,
+     "ja": "ご年齢は？",
+     "en": "How old are you?",
+     "speaker": "Host A"
+    },
+    {
+     "start": 214.3,
+     "end": 215.7,
+     "ja": "僕、今23歳です。",
+     "en": "I'm 23 years old right now.",
+     "speaker": "Man"
+    },
+    {
+     "start": 215.7,
+     "end": 217.2,
+     "ja": "23歳？若い！",
+     "en": "23? So young!",
+     "speaker": "Host B"
+    },
+    {
+     "start": 217.2,
+     "end": 218.8,
+     "ja": "ご職業はちなみに？",
+     "en": "By the way, what's your profession?",
+     "speaker": "Host B"
+    },
+    {
+     "start": 218.8,
+     "end": 220.6,
+     "ja": "僕ですか？何に見えます？",
+     "en": "Me? What do I look like?",
+     "speaker": "Man"
+    },
+    {
+     "start": 223.1,
+     "end": 224.7,
+     "ja": "少しチャラめな感じの…",
+     "en": "Kind of a flashy vibe...",
+     "speaker": "Host B"
+    },
+    {
+     "start": 224.8,
+     "end": 225.9,
+     "ja": "ホストとか。",
+     "en": "Like a host club worker.",
+     "speaker": "Host B"
+    },
+    {
+     "start": 226.0,
+     "end": 227.9,
+     "ja": "そんなわけあるか！僕、美容師です。",
+     "en": "No way! I'm a hairstylist.",
+     "speaker": "Man"
+    },
+    {
+     "start": 227.9,
+     "end": 229.8,
+     "ja": "美容師なんだ！",
+     "en": "Oh, a hairstylist!",
+     "speaker": "Host B"
+    }
+   ]
+  },
+  {
+   "start": 471.8,
+   "end": 485.8,
+   "title": "A Hairstylist in Shibuya",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "おいくつ — how old (polite)",
+    "〜ている — ongoing occupation / state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 472.2,
+     "end": 474.3,
+     "ja": "今、ざっくりご年齢はおいくつですか？",
+     "en": "Roughly how old are you right now?",
+     "speaker": "Host A"
+    },
+    {
+     "start": 474.3,
+     "end": 475.9,
+     "ja": "30歳ちょうどです。",
+     "en": "Exactly 30 years old.",
+     "speaker": "Man"
+    },
+    {
+     "start": 476.0,
+     "end": 477.5,
+     "ja": "今はご職業は？",
+     "en": "And what do you do for work?",
+     "speaker": "Host A"
+    },
+    {
+     "start": 477.5,
+     "end": 479.1,
+     "ja": "美容師をやっています。",
+     "en": "I work as a hairstylist.",
+     "speaker": "Man"
+    },
+    {
+     "start": 479.1,
+     "end": 481.2,
+     "ja": "美容師さん！どの辺りでやってるんですか？",
+     "en": "A hairstylist! Around where do you work?",
+     "speaker": "Host B"
+    },
+    {
+     "start": 481.2,
+     "end": 483.2,
+     "ja": "この近くです。渋谷辺りで。",
+     "en": "Near here. Around Shibuya.",
+     "speaker": "Man"
+    },
+    {
+     "start": 483.2,
+     "end": 485.4,
+     "ja": "確かにおしゃれな雰囲気出てますよね。",
+     "en": "You definitely have that stylish aura.",
+     "speaker": "Host B"
+    }
+   ]
+  }
+ ],
+ "videoId": "ZRq22_9tnOQ",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

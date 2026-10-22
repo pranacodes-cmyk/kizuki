@@ -1,1 +1,1 @@
-{"videoId": "hPuZX5v70f4", "error": "HTTP 403 b'{\"error\":{\"message\":\"The caller does not have permission\",\"type\":\"upstream_error\"}}'"}
+{"videoId": "hPuZX5v70f4", "error": "HTTP 404 b'{\"error\":{\"message\":\"Requested entity was not found.\",\"type\":\"upstream_error\"}}'"}

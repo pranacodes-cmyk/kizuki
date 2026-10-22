@@ -1,0 +1,187 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 216.5,
+   "end": 245.0,
+   "title": "Rapid Surge in Foreign Visitors to Japan",
+   "level": "N2",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜を巡る — concerning / regarding",
+    "〜見込み — expected to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 216.8,
+     "end": 220.1,
+     "ja": "日本の観光をめぐる状況は、",
+     "en": "The situation surrounding tourism in Japan",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 220.1,
+     "end": 224.2,
+     "ja": "ここ20年で大きく変化しました。",
+     "en": "has changed drastically over the past 20 years.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 224.4,
+     "end": 232.0,
+     "ja": "2005年には約670万人だった訪日外国人数は、",
+     "en": "The number of foreign visitors, which was around 6.7 million in 2005,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 232.4,
+     "end": 238.6,
+     "ja": "2024年には約3700万人まで達しました。",
+     "en": "reached approximately 37 million by 2024.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 239.0,
+     "end": 244.5,
+     "ja": "さらに2025年には、過去最多を更新する見込みです。",
+     "en": "Furthermore, in 2025, it is expected to break the all-time record.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 245.3,
+   "end": 307.0,
+   "title": "Government Promotion and Economic Benefits",
+   "level": "N2",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜を契機に — taking opportunity of / triggered by",
+    "〜といった — such as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 245.6,
+     "end": 251.3,
+     "ja": "日本政府はこれまで、アニメやマンガなどの文化を契機に、",
+     "en": "Taking culture such as anime and manga as an opportunity,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 251.5,
+     "end": 254.4,
+     "ja": "インバウンドを呼び込むためのプロモーションに",
+     "en": "the Japanese government has invested heavily in promotions",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 254.4,
+     "end": 257.6,
+     "ja": "多額の予算を投じてきました。",
+     "en": "to attract inbound tourists.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 258.0,
+     "end": 261.8,
+     "ja": "その結果、ホテルや飲食店といった",
+     "en": "As a result, businesses related to tourist destinations,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 262.1,
+     "end": 266.5,
+     "ja": "観光地に関わる事業者は、大きな利益を得ています。",
+     "en": "such as hotels and restaurants, are earning significant profits.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 307.2,
+   "end": 336.2,
+   "title": "The Issues Caused by Overtourism",
+   "level": "N2",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜に伴い — along with / as",
+    "〜べきだ — should / ought to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 307.5,
+     "end": 312.4,
+     "ja": "しかし、急激な観光客の増加にともない、",
+     "en": "However, along with the rapid increase in tourists,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 312.7,
+     "end": 316.3,
+     "ja": "各地で深刻な問題が起きています。",
+     "en": "serious problems have been arising across the country.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 316.7,
+     "end": 320.0,
+     "ja": "人気観光地での激しい混雑や、",
+     "en": "Issues such as severe congestion in popular tourist spots,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 320.4,
+     "end": 323.9,
+     "ja": "一部の観光客によるマナー違反、",
+     "en": "bad manners from some tourists,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 324.2,
+     "end": 328.0,
+     "ja": "騒音といったトラブルが後を絶ちません。",
+     "en": "and noise pollution are endlessly occurring.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 328.5,
+     "end": 331.0,
+     "ja": "その結果、住民の間では",
+     "en": "As a result, among residents,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 331.3,
+     "end": 333.6,
+     "ja": "「オーバーツーリズムを緩和すべきだ」",
+     "en": "\"Overtourism should be mitigated,\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 333.7,
+     "end": 335.7,
+     "ja": "という声が強まっています。",
+     "en": "voices calling for this are growing stronger.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "WO76IbJdnCo",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

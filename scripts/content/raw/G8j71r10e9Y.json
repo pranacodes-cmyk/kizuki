@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 27.2,
+   "end": 43.0,
+   "title": "Problems Caused by Halloween Crowds",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜たり〜たりする — doing things like",
+    "〜になっている — to have become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 27.2,
+     "end": 29.5,
+     "ja": "ハロウィーンのとき、",
+     "en": "During Halloween,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 29.5,
+     "end": 31.5,
+     "ja": "多くの人が",
+     "en": "many people",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 31.5,
+     "end": 34.2,
+     "ja": "外で酒を飲んで",
+     "en": "drink alcohol outside,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 34.2,
+     "end": 36.5,
+     "ja": "騒いだり",
+     "en": "make a lot of noise,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 36.5,
+     "end": 39.5,
+     "ja": "ごみを捨てたりすることが",
+     "en": "and litter, which",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 39.5,
+     "end": 42.5,
+     "ja": "問題になっています。",
+     "en": "has become a problem.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 159.0,
+   "end": 184.0,
+   "title": "Message from the Mayor of Shinjuku",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜ないでください — please don't",
+    "〜と話す — to state that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 159.0,
+     "end": 163.0,
+     "ja": "新宿区の吉住区長は、",
+     "en": "Mayor Yoshizumi of Shinjuku Ward said,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 163.0,
+     "end": 168.5,
+     "ja": "「店の中でハロウィーンを楽しむことは",
+     "en": "\"Enjoying Halloween inside stores",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 168.5,
+     "end": 171.5,
+     "ja": "問題ありません。",
+     "en": "is not a problem.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 171.5,
+     "end": 176.5,
+     "ja": "しかし、外で騒いだり",
+     "en": "However, please do not make noise outside",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 176.5,
+     "end": 180.5,
+     "ja": "ごみを捨てたりしないでください」",
+     "en": "or throw trash away,\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 180.5,
+     "end": 183.5,
+     "ja": "と話しています。",
+     "en": "he stated.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 277.0,
+   "end": 297.0,
+   "title": "Listening Quiz: Shibuya Drinking Ban",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜のこと — about / concerning",
+    "〜を禁止する — to forbid"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 277.0,
+     "end": 279.5,
+     "ja": "質問１。",
+     "en": "Question 1.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 279.5,
+     "end": 283.0,
+     "ja": "東京の渋谷区は去年、",
+     "en": "Did Tokyo's Shibuya Ward last year,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 283.0,
+     "end": 286.0,
+     "ja": "ハロウィーンの時に、",
+     "en": "during Halloween,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 286.0,
+     "end": 291.5,
+     "ja": "外で酒を飲むことを禁止しましたか？",
+     "en": "ban drinking alcohol outdoors?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 294.0,
+     "end": 296.5,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "G8j71r10e9Y",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

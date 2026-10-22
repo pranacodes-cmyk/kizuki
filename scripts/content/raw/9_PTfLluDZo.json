@@ -1,0 +1,175 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 3.2,
+   "end": 14.8,
+   "title": "Why Did You Start Studying Japanese?",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜し始める — start doing",
+    "〜ている — ongoing action",
+    "〜と思う — to think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.2,
+     "end": 6.8,
+     "ja": "皆さんはなぜ日本語を勉強し始めましたか？",
+     "en": "Why did all of you start studying Japanese?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 7.0,
+     "end": 8.7,
+     "ja": "今見ている人の中には",
+     "en": "Among those watching right now,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 8.7,
+     "end": 10.7,
+     "ja": "日本語を勉強している人も、",
+     "en": "there are people studying Japanese,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 10.8,
+     "end": 12.1,
+     "ja": "まだ始めてないけど",
+     "en": "as well as people who haven't started yet,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 12.1,
+     "end": 14.7,
+     "ja": "興味があるっていう人もいると思います。",
+     "en": "but are interested, I think.",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 120.0,
+   "end": 133.2,
+   "title": "Working at a Japanese Game Company",
+   "level": "N3",
+   "topics": [
+    "work",
+    "fun"
+   ],
+   "grammar": [
+    "〜たい — want to do",
+    "〜と思う — to think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 120.0,
+     "end": 122.5,
+     "ja": "日本のゲーム会社で働きたいから。",
+     "en": "Because I want to work at a Japanese game company.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 122.7,
+     "end": 125.2,
+     "ja": "ま、これは個人的な意見だけど、",
+     "en": "Well, this is just my personal opinion, but",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 125.3,
+     "end": 129.8,
+     "ja": "日本のゲームは結構シナリオとかストーリーが素敵だなーって思うんだよね。",
+     "en": "I think Japanese games have really wonderful scenarios and storylines.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 129.9,
+     "end": 133.2,
+     "ja": "だからこの理由はすごくポイントを得てると思う。",
+     "en": "So I think this reason really hits the mark.",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 716.8,
+   "end": 735.6,
+   "title": "How to Make Japanese Friends",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture",
+    "friends"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜てくる — do something toward speaker"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 716.8,
+     "end": 720.2,
+     "ja": "日本に旅行して、日本人と交流したいから。",
+     "en": "Because I want to travel to Japan and interact with Japanese people.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 720.3,
+     "end": 722.2,
+     "ja": "もうこれはすごく簡単！",
+     "en": "This one is super simple!",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 722.3,
+     "end": 724.4,
+     "ja": "まず東京に行ってください。",
+     "en": "First, go to Tokyo.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 724.5,
+     "end": 727.5,
+     "ja": "そして夜にぎやかな場所で歩いてください。",
+     "en": "Then, walk around lively places at night.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 727.6,
+     "end": 731.3,
+     "ja": "そしたらみんな「ハロー」とか「ヤッホー」って声をかけてくるので、",
+     "en": "Then people will call out things like 'Hello' or 'Yahoo', so",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 731.4,
+     "end": 733.9,
+     "ja": "一緒にビールを乾杯してください！",
+     "en": "cheers with a beer together!",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 734.0,
+     "end": 735.6,
+     "ja": "はい、できました！",
+     "en": "And there you have it!",
+     "speaker": "Hitoki"
+    }
+   ]
+  }
+ ],
+ "videoId": "9_PTfLluDZo",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

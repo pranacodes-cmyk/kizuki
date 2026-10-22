@@ -1,0 +1,151 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.8,
+   "end": 57.8,
+   "title": "Swimming in the Ocean vs River",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜というのは — definition / explanation",
+    "〜ていた — past habitual action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 45.0,
+     "end": 47.8,
+     "ja": "えー、海水浴。海水浴ね。",
+     "en": "Well, sea bathing. Swimming in the ocean, right?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 47.8,
+     "end": 51.8,
+     "ja": "海水浴っていうのは海で泳ぐことを海水浴と言います。",
+     "en": "What 'kaisuiyoku' means is, swimming in the sea is called sea bathing.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 52.0,
+     "end": 54.6,
+     "ja": "でも僕は子どもの時は、",
+     "en": "But when I was a child,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 54.6,
+     "end": 57.5,
+     "ja": "結構、川で泳いでましたね。",
+     "en": "I swam in the river quite a bit.",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 139.8,
+   "end": 208.0,
+   "title": "Dangers of River Swimming",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "sports"
+   ],
+   "grammar": [
+    "〜ないといけない — must / have to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 140.0,
+     "end": 145.3,
+     "ja": "川には、危ない場所と危なくない場所があるんですね。",
+     "en": "In a river, there are dangerous spots and safe spots.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 145.5,
+     "end": 148.8,
+     "ja": "で、それがね、本当に近いんです。",
+     "en": "And they are really close to each other.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 149.2,
+     "end": 156.2,
+     "ja": "ここは大丈夫な場所、でもその数メートル先は危ない。",
+     "en": "Here is a safe spot, but a few meters ahead, it's dangerous.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 157.2,
+     "end": 201.0,
+     "ja": "そういうことを、あの、知らないといけない。",
+     "en": "You have to know that kind of thing.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 201.4,
+     "end": 207.5,
+     "ja": "僕は子どもの時に、そういうことを学びました。",
+     "en": "I learned that kind of thing when I was a child.",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 319.5,
+   "end": 345.5,
+   "title": "Cleaning the Car After the Beach",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜てしまう — regret / unintended result",
+    "〜と — whenever / when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 320.0,
+     "end": 326.5,
+     "ja": "海水浴場にはいつもシャワーがあるから、簡単にシャワーを浴びるんですけど、",
+     "en": "There are always showers at the beach, so we take a quick shower, but...",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 326.7,
+     "end": 331.0,
+     "ja": "それでもサンダルとか砂がつきますね。",
+     "en": "even so, sand gets on sandals and things like that.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 331.3,
+     "end": 337.4,
+     "ja": "で、車がね、汚れるんですよ。やっぱり。車が汚れてしまう。",
+     "en": "And the car gets dirty, after all. The car ends up getting dirty.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 337.8,
+     "end": 345.0,
+     "ja": "だから家に帰ると、お父さんがずっと車掃除をするんですね。車の掃除。",
+     "en": "So when we got home, my dad would clean the car the whole time. Cleaning the car.",
+     "speaker": "Teppei"
+    }
+   ]
+  }
+ ],
+ "videoId": "7xVnnmt4sSU",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

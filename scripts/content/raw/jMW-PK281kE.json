@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.3,
+   "end": 113.0,
+   "title": "Missing Rice After Moving to the Netherlands",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.4,
+     "end": 51.6,
+     "ja": "でも、オランダに来てから、パンの生活になりました。",
+     "en": "However, since coming to the Netherlands, my life has been all about bread.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 52.0,
+     "end": 58.0,
+     "ja": "毎日パンを食べています。パンも大好きです。",
+     "en": "I eat bread every day. I love bread too.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 58.3,
+     "end": 106.0,
+     "ja": "パンもとても美味しいですが、お米が恋しいです。",
+     "en": "Bread is also very delicious, but I miss rice.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 106.4,
+     "end": 112.7,
+     "ja": "毎日食べていたので、すぐに恋しくなりました。",
+     "en": "Because I used to eat it every day, I missed it right away.",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 236.2,
+   "end": 258.0,
+   "title": "Convenience Stores in Japan",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜がたくさんある — there are many...",
+    "〜ている — expressing ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 236.5,
+     "end": 240.5,
+     "ja": "日本にはコンビニがたくさんあります。",
+     "en": "There are many convenience stores in Japan.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 241.0,
+     "end": 245.3,
+     "ja": "なのでとても便利です。",
+     "en": "So they are very convenient.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 245.8,
+     "end": 252.4,
+     "ja": "コンビニは２４時間開いています。土日も開いています。",
+     "en": "Convenience stores are open 24 hours. They're also open on weekends.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 252.8,
+     "end": 257.8,
+     "ja": "土曜日、日曜日、土日も開いています。",
+     "en": "Saturday, Sunday, they're open on weekends too.",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 404.2,
+   "end": 434.7,
+   "title": "Missing Izakaya and Dining Out",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "可能形 — potential verb form",
+    "〜ようだ — it seems that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 404.3,
+     "end": 408.0,
+     "ja": "友達とよく居酒屋に行っていました。",
+     "en": "I often used to go to izakaya with friends.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 408.3,
+     "end": 415.7,
+     "ja": "居酒屋では料理とお酒を気軽に楽しめます。",
+     "en": "At an izakaya, you can casually enjoy food and drinks.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 416.0,
+     "end": 421.3,
+     "ja": "居酒屋の雰囲気が好きです。",
+     "en": "I like the atmosphere of izakaya.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 421.6,
+     "end": 428.0,
+     "ja": "でもオランダではあまり外食をしないようです。",
+     "en": "But in the Netherlands, it seems people don't eat out very often.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 428.5,
+     "end": 434.5,
+     "ja": "外食の文化が盛んではなさそうです。",
+     "en": "Eating out culture doesn't seem to be very widespread.",
+     "speaker": "Akiko"
+    }
+   ]
+  }
+ ],
+ "videoId": "jMW-PK281kE",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

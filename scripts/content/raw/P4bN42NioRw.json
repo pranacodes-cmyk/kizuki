@@ -1,0 +1,212 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 21.9,
+   "end": 48.0,
+   "title": "Prank Idea Pitch",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy",
+    "friends"
+   ],
+   "grammar": [
+    "〜たら — if/when conditional",
+    "〜んじゃないか — isn't it possible that",
+    "〜てくる — do and come/arrive"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 22.4,
+     "end": 26.5,
+     "ja": "遅刻して来た人が大怪我をしてたら、",
+     "en": "If someone who is late shows up severely injured,",
+     "speaker": "Daichi"
+    },
+    {
+     "start": 26.5,
+     "end": 28.5,
+     "ja": "怒れないんじゃないかと。",
+     "en": "maybe people won't be able to get mad at them.",
+     "speaker": "Daichi"
+    },
+    {
+     "start": 29.0,
+     "end": 31.0,
+     "ja": "やっぱ遅刻って良くないし、",
+     "en": "After all, being late is not good,",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 31.0,
+     "end": 34.0,
+     "ja": "遅刻して来たら、まあ、そりゃ怒るじゃん。",
+     "en": "and if you're late, well, obviously people get mad.",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 34.0,
+     "end": 36.6,
+     "ja": "その現場もさ、止まっちゃってるしさ。",
+     "en": "The set is halted too, after all.",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 37.0,
+     "end": 41.5,
+     "ja": "だけど、もう見るからに大怪我してきたら、",
+     "en": "But if you show up looking visibly severely injured,",
+     "speaker": "Daichi"
+    },
+    {
+     "start": 42.0,
+     "end": 45.0,
+     "ja": "どれだけ遅刻して来ても怒れないんじゃないかっていう、",
+     "en": "no matter how late you are, won't people not get mad?",
+     "speaker": "Daichi"
+    },
+    {
+     "start": 46.5,
+     "end": 47.7,
+     "ja": "の、立証したいんですよ。",
+     "en": "That's what I want to prove.",
+     "speaker": "Daichi"
+    }
+   ]
+  },
+  {
+   "start": 134.8,
+   "end": 149.0,
+   "title": "Late for the Meeting",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ないんだけど — expressing complaint/trouble with explanation",
+    "〜てみる — try doing something"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 135.2,
+     "end": 136.6,
+     "ja": "え、連絡つく？",
+     "en": "Can you get in touch with him?",
+     "speaker": "Manager"
+    },
+    {
+     "start": 136.6,
+     "end": 138.3,
+     "ja": "全然電話出ないんだけど。",
+     "en": "He's not answering his phone at all.",
+     "speaker": "Manager"
+    },
+    {
+     "start": 138.3,
+     "end": 140.0,
+     "ja": "ちょっと電話してみますね、じゃあ。",
+     "en": "Let me try calling him then.",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 143.0,
+     "end": 145.0,
+     "ja": "今、5分くらい？何分、今？",
+     "en": "It's about 5 minutes past now? What time is it now?",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 147.0,
+     "end": 148.8,
+     "ja": "やったぞ、あいつ。",
+     "en": "He really did it this time.",
+     "speaker": "Hayato"
+    }
+   ]
+  },
+  {
+   "start": 600.4,
+   "end": 619.6,
+   "title": "Unable to Scold Him",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy",
+    "friends"
+   ],
+   "grammar": [
+    "〜でしょ — right? / surely",
+    "〜た方がいい — it's better to",
+    "〜ていい — okay to do"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 600.4,
+     "end": 602.5,
+     "ja": "言えないでしょ、この人に！",
+     "en": "You can't lecture this guy!",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 602.5,
+     "end": 603.8,
+     "ja": "いや、俺は違うと思う。",
+     "en": "No, I think you should.",
+     "speaker": "Jyutaro"
+    },
+    {
+     "start": 603.8,
+     "end": 605.0,
+     "ja": "あ、本当？",
+     "en": "Oh, really?",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 605.0,
+     "end": 607.4,
+     "ja": "こうなっても、まだ説教する？",
+     "en": "Even like this, you'd still lecture him?",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 608.0,
+     "end": 610.5,
+     "ja": "1回ブチギレていいと思う。",
+     "en": "I think it's fine to snap at him once.",
+     "speaker": "Jyutaro"
+    },
+    {
+     "start": 610.5,
+     "end": 611.8,
+     "ja": "え、ここに？",
+     "en": "What, in this state?",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 611.8,
+     "end": 613.8,
+     "ja": "「遅れんな」って言った方がいいよ、普通に。",
+     "en": "You should just tell him straightforwardly, 'Don't be late.'",
+     "speaker": "Jyutaro"
+    },
+    {
+     "start": 615.0,
+     "end": 619.5,
+     "ja": "いや、ちょっと…人情に欠けるというか…ね？",
+     "en": "No, that feels a bit... lacking in human sympathy, doesn't it?",
+     "speaker": "Jinto"
+    }
+   ]
+  }
+ ],
+ "videoId": "P4bN42NioRw",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

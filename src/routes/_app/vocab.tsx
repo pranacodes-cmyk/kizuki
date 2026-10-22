@@ -5,12 +5,12 @@ import { useShallow } from "zustand/react/shallow";
 
 import { Mascot } from "@/components/mimi/Mascot";
 import { SavedWordSheet } from "@/components/mimi/SavedWordSheet";
+import { LevelBadge } from "@/components/mimi/WordLevel";
 import { Button, Chip, Screen } from "@/components/mimi/ui";
 import { useContent } from "@/lib/feed";
-import { dayKey, isDue, kanaDeck, kanaLearned, kanaQueue, normalizeQuery, wordStatus } from "@/lib/logic";
+import { dayKey, isDue, kanaDeck, kanaLearned, kanaQueue, normalizeQuery, wordLevel, wordStatus } from "@/lib/logic";
 import { speak } from "@/lib/speech";
 import { countsOf, useApp, type SavedWord } from "@/lib/store";
-import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/_app/vocab")({
   head: () => ({
@@ -126,11 +126,10 @@ function Vocab() {
             <p className="mb-1.5 mt-4 text-[0.875rem] font-extrabold text-muted-foreground">{g.label}</p>
             <div className="divide-y divide-border overflow-hidden rounded-2xl bg-surface">
               {g.items.map((w) => {
-                const st = w.status === "ignored" ? "ignored" : wordStatus({ status: w.status, card: w.card });
                 return (
                   <div key={w.key} className="flex items-center gap-3 px-3 py-2.5">
                     <button onClick={() => { setOpen(w); setSheet(true); }} className="flex min-w-0 flex-1 items-center gap-3 text-left">
-                      <span className={cn("h-3 w-3 shrink-0 rounded-full", st === "known" ? "bg-success" : st === "ignored" ? "bg-surface-3" : "bg-learning")} aria-label={st} />
+                      <LevelBadge level={wordLevel(w)} size={24} />
                       <span className="min-w-0 flex-1">
                         <span className="block truncate font-jp text-[1.0625rem] font-bold">{w.word} {w.reading && w.reading !== w.word && <span className="text-[0.8125rem] text-faint">{w.reading}</span>}</span>
                         <span className="block truncate text-[0.8125rem] text-muted-foreground">{w.gloss}</span>

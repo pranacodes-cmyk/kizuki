@@ -1,0 +1,217 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 327.5,
+   "end": 345.0,
+   "title": "How It Feels to Hit a Home Run",
+   "level": "N4",
+   "topics": [
+    "sports",
+    "fun"
+   ],
+   "grammar": [
+    "〜たとき — when doing something",
+    "〜くらい — to the extent of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 327.8,
+     "end": 329.8,
+     "ja": "吉田かえでです。",
+     "en": "I'm Kaede Yoshida.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 330.1,
+     "end": 332.4,
+     "ja": "今日のホームラン、とてもかっこよかったです。",
+     "en": "Today's home run was really cool.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 332.5,
+     "end": 333.4,
+     "ja": "ああ、ありがとう。",
+     "en": "Ah, thank you.",
+     "speaker": "Kiyomiya"
+    },
+    {
+     "start": 333.5,
+     "end": 336.7,
+     "ja": "ホームランを打ったときの気持ちを教えてください。",
+     "en": "Please tell me how it feels when you hit a home run.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 337.0,
+     "end": 339.1,
+     "ja": "もうね、とびきり嬉しい。",
+     "en": "Well, it's extraordinarily happy.",
+     "speaker": "Kiyomiya"
+    },
+    {
+     "start": 340.2,
+     "end": 341.2,
+     "ja": "めっちゃ嬉しい。",
+     "en": "Super happy.",
+     "speaker": "Kiyomiya"
+    },
+    {
+     "start": 341.3,
+     "end": 344.2,
+     "ja": "好きなもの給食出てくるぐらい嬉しい。",
+     "en": "As happy as when your favorite food is served for school lunch.",
+     "speaker": "Kiyomiya"
+    }
+   ]
+  },
+  {
+   "start": 550.0,
+   "end": 619.5,
+   "title": "How to Become a Pro Baseball Player",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "daily"
+   ],
+   "grammar": [
+    "〜ために — in order to",
+    "〜ないといけない — must do",
+    "〜んじゃないかな — I wonder if / might be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 550.1,
+     "end": 552.5,
+     "ja": "僕の名前は安孫子ゆうまです。",
+     "en": "My name is Yuma Abiko.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 552.6,
+     "end": 554.8,
+     "ja": "僕も野球をしているんですが、",
+     "en": "I play baseball too, but...",
+     "speaker": "Boy"
+    },
+    {
+     "start": 554.9,
+     "end": 559.2,
+     "ja": "プロ野球選手になるためにはどうしたらいいですか？",
+     "en": "what should I do to become a professional baseball player?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 600.3,
+     "end": 603.5,
+     "ja": "プロ野球選手になるためには、",
+     "en": "In order to become a pro baseball player...",
+     "speaker": "Kiyomiya"
+    },
+    {
+     "start": 604.9,
+     "end": 608.5,
+     "ja": "まあ、まずやっぱり練習しないといけないと思うけど、",
+     "en": "well, first of all I think you have to practice, but...",
+     "speaker": "Kiyomiya"
+    },
+    {
+     "start": 609.1,
+     "end": 611.8,
+     "ja": "いっぱい動いて、いっぱい寝て、",
+     "en": "move around a lot, sleep a lot,",
+     "speaker": "Kiyomiya"
+    },
+    {
+     "start": 612.7,
+     "end": 615.0,
+     "ja": "いっぱい食べる。体を大きくする。",
+     "en": "and eat a lot. Make your body big.",
+     "speaker": "Kiyomiya"
+    },
+    {
+     "start": 615.5,
+     "end": 619.3,
+     "ja": "それがすごく大事じゃないかなと僕は思います。",
+     "en": "I think that's really important.",
+     "speaker": "Kiyomiya"
+    }
+   ]
+  },
+  {
+   "start": 718.8,
+   "end": 750.5,
+   "title": "Is Manager Shinjo Kind?",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "fun"
+   ],
+   "grammar": [
+    "〜てくれる — do something for someone",
+    "使役形 (笑わせる) — causative form (make laugh)",
+    "〜たりする — do things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 718.9,
+     "end": 720.9,
+     "ja": "藤井志歩です。",
+     "en": "I'm Shiho Fujii.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 721.6,
+     "end": 724.4,
+     "ja": "新庄監督は優しいですか？",
+     "en": "Is Manager Shinjo kind?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 725.0,
+     "end": 729.8,
+     "ja": "新庄監督はね、優しいよ。めっちゃ。",
+     "en": "Manager Shinjo is kind. Super kind.",
+     "speaker": "Kiyomiya"
+    },
+    {
+     "start": 730.6,
+     "end": 737.4,
+     "ja": "メディアとかでは厳しくね、厳しいこと言ったりするけど、",
+     "en": "In the media and stuff he acts strict and says harsh things, but...",
+     "speaker": "Kiyomiya"
+    },
+    {
+     "start": 738.0,
+     "end": 743.0,
+     "ja": "本当僕らと話すときは、いつも優しい言葉をかけてくれるし、",
+     "en": "really, when he talks to us, he always speaks kindly,",
+     "speaker": "Kiyomiya"
+    },
+    {
+     "start": 743.6,
+     "end": 746.3,
+     "ja": "僕たちのことを笑わせてくれるし、",
+     "en": "and he makes us laugh,",
+     "speaker": "Kiyomiya"
+    },
+    {
+     "start": 746.7,
+     "end": 750.0,
+     "ja": "本当にすごくいい監督だなと思ってます。",
+     "en": "so I really think he's a wonderful manager.",
+     "speaker": "Kiyomiya"
+    }
+   ]
+  }
+ ],
+ "videoId": "u-reHrySYzY",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

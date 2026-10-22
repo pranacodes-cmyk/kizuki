@@ -1,0 +1,122 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.7,
+   "end": 32.6,
+   "title": "What Are Nameless Chores?",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜たことがある — have experienced doing",
+    "〜と言ったら — when speaking of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 12.7,
+     "end": 16.8,
+     "ja": "「名もなき家事」という言葉を聞いたことがありますか？",
+     "en": "Have you ever heard the phrase \"nameless chores\"?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 17.0,
+     "end": 22.8,
+     "ja": "簡単な言葉にしたら、「名前がついていない家事」ということです。",
+     "en": "Put simply, it refers to \"housework that doesn't have a name.\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 23.0,
+     "end": 28.8,
+     "ja": "家事と言ったら、「掃除・洗濯・料理」が一般的に考えられますが、",
+     "en": "When we talk about housework, cleaning, laundry, and cooking come to mind,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 28.9,
+     "end": 32.4,
+     "ja": "家事はこれら３つだけではありません。",
+     "en": "but housework isn't limited to just these three.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 258.0,
+   "end": 286.0,
+   "title": "Restocking Household Items",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "family",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ておく — do something in advance",
+    "〜のに — even though / despite"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 258.0,
+     "end": 261.8,
+     "ja": "例えば、トイレットペーパーやシャンプー。",
+     "en": "For instance, toilet paper or shampoo.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 261.9,
+     "end": 265.2,
+     "ja": "これらを買ってきて、整理しておく作業だけでも、",
+     "en": "Just the chore of buying and organizing these items,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 265.3,
+     "end": 268.5,
+     "ja": "疲れている時には負担に感じることがあります。",
+     "en": "can feel like a burden when you're tired.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 268.8,
+     "end": 273.2,
+     "ja": "しかも、家族はそれらが切れていることに気付いているのに、",
+     "en": "What's more, even though family members notice they've run out,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 273.4,
+     "end": 277.4,
+     "ja": "しばしば「見て見ぬふり」をすることもあります。",
+     "en": "they often just pretend not to see it.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 277.7,
+     "end": 281.5,
+     "ja": "もしくは、「トイレットペーパー、ないよ」と",
+     "en": "Or, they politely do nothing more than report it:",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 281.8,
+     "end": 285.5,
+     "ja": "ご丁寧に報告だけしてくれます。",
+     "en": "\"Hey, there's no toilet paper!\"",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "cOs5vldWPts",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

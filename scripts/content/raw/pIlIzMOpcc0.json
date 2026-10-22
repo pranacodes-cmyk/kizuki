@@ -1,0 +1,232 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 13.8,
+   "end": 28.8,
+   "title": "Honeymoons Can Happen Many Times",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜てもいい — permission / even if",
+    "〜かもしれない — might / perhaps"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 14.2,
+     "end": 16.1,
+     "ja": "最初で最後の新婚旅行。",
+     "en": "Our first and last honeymoon.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 16.8,
+     "end": 20.0,
+     "ja": "そうやんな。でも何回行ってもいいんやで、新婚旅行は。",
+     "en": "Yeah. But you know, you can go on honeymoons as many times as you want.",
+     "speaker": "Wife"
+    },
+    {
+     "start": 20.1,
+     "end": 23.0,
+     "ja": "新婚は１回かもしれへん。でも結婚旅行は何回でも行ける！",
+     "en": "Being newlyweds might be once, but we can take married trips as often as we like!",
+     "speaker": "Husband"
+    },
+    {
+     "start": 23.5,
+     "end": 24.8,
+     "ja": "結婚した後も。",
+     "en": "Even after being married.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 25.0,
+     "end": 27.0,
+     "ja": "結婚した後の旅行って全部結婚旅行やな。",
+     "en": "Any trip after getting married counts as a marriage trip, right?",
+     "speaker": "Husband"
+    },
+    {
+     "start": 27.1,
+     "end": 28.4,
+     "ja": "やぁ、最高やん。",
+     "en": "Aww, that's the best.",
+     "speaker": "Wife"
+    }
+   ]
+  },
+  {
+   "start": 226.5,
+   "end": 243.5,
+   "title": "First Night Dinner in Okinawa",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜ても — even if / no matter",
+    "〜と思う — to think that ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 226.8,
+     "end": 228.4,
+     "ja": "沖縄最初の晩ご飯は？",
+     "en": "Our very first dinner in Okinawa is...",
+     "speaker": "Wife"
+    },
+    {
+     "start": 228.8,
+     "end": 230.0,
+     "ja": "焼肉です！",
+     "en": "Yakiniku!",
+     "speaker": "Husband"
+    },
+    {
+     "start": 230.1,
+     "end": 231.0,
+     "ja": "焼肉！",
+     "en": "Yakiniku!",
+     "speaker": "Wife"
+    },
+    {
+     "start": 231.2,
+     "end": 234.0,
+     "ja": "どんだけ焼肉食うねん、どこ行っても焼肉食うやんけと思ってるそこの貴方。",
+     "en": "To anyone thinking, 'How much yakiniku do they eat? They eat it wherever they go!'",
+     "speaker": "Husband"
+    },
+    {
+     "start": 234.2,
+     "end": 236.0,
+     "ja": "そうです。焼肉食べます！",
+     "en": "That's right. We're having yakiniku!",
+     "speaker": "Husband"
+    },
+    {
+     "start": 236.4,
+     "end": 237.6,
+     "ja": "もとぶ牛。",
+     "en": "Motobu beef.",
+     "speaker": "Wife"
+    },
+    {
+     "start": 237.8,
+     "end": 239.4,
+     "ja": "はい、もとぶ牛でございます。",
+     "en": "Yes, Motobu beef it is.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 239.9,
+     "end": 242.2,
+     "ja": "では、沖縄一発目の乾杯。",
+     "en": "Now then, cheers to our first round in Okinawa.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 242.3,
+     "end": 243.2,
+     "ja": "乾杯！",
+     "en": "Cheers!",
+     "speaker": "Wife"
+    }
+   ]
+  },
+  {
+   "start": 838.2,
+   "end": 857.0,
+   "title": "First Time at a Resort Pool",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜たことがある — past experience",
+    "〜しか＋否定 — only / nothing but"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 838.8,
+     "end": 841.5,
+     "ja": "ホテルの備え付けのプールに来ました！",
+     "en": "We've come to the hotel's pool!",
+     "speaker": "Wife"
+    },
+    {
+     "start": 842.0,
+     "end": 843.5,
+     "ja": "やばい、リゾートや。",
+     "en": "Wow, this is like a real resort.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 843.8,
+     "end": 846.0,
+     "ja": "めっちゃリゾートやん。初めてやし、こんなん。",
+     "en": "Total resort vibes. It's my first time at a place like this.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 846.2,
+     "end": 847.4,
+     "ja": "最高やな。早く入ろう。",
+     "en": "It's awesome. Let's get in quickly.",
+     "speaker": "Wife"
+    },
+    {
+     "start": 847.5,
+     "end": 849.8,
+     "ja": "俺、市民プールのさ、流れるやつしか入ったことない。",
+     "en": "I've only ever been in the lazy river at public municipal pools.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 850.0,
+     "end": 851.3,
+     "ja": "ない、私も一緒。",
+     "en": "Same here, me too!",
+     "speaker": "Wife"
+    },
+    {
+     "start": 851.4,
+     "end": 853.3,
+     "ja": "しかも私たち、プールも海も初めてやから。",
+     "en": "Besides, it's our first time visiting a pool or the sea together.",
+     "speaker": "Wife"
+    },
+    {
+     "start": 853.4,
+     "end": 855.2,
+     "ja": "そうやな、２人ではじめてやで！",
+     "en": "That's true, our very first time as a couple!",
+     "speaker": "Husband"
+    },
+    {
+     "start": 855.4,
+     "end": 856.5,
+     "ja": "初めてやで。",
+     "en": "Our first time.",
+     "speaker": "Wife"
+    }
+   ]
+  }
+ ],
+ "videoId": "pIlIzMOpcc0",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

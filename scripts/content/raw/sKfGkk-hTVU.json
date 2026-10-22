@@ -1,0 +1,193 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.2,
+   "end": 12.8,
+   "title": "Zach Neal's Casual Post-Game Japanese",
+   "level": "N5",
+   "topics": [
+    "sports",
+    "daily"
+   ],
+   "grammar": [
+    "〜目 — ordinal counter suffix",
+    "〜でした — polite past copula"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 0.2,
+     "end": 3.9,
+     "ja": "今シーズン６勝目、ニール投手です。おめでとうございます！",
+     "en": "With his sixth win this season, pitcher Neal! Congratulations!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 4.0,
+     "end": 5.7,
+     "ja": "えー、ありがとうございます。",
+     "en": "Uh, thank you very much.",
+     "speaker": "Neal"
+    },
+    {
+     "start": 6.3,
+     "end": 7.4,
+     "ja": "ナイスピッチングでした！",
+     "en": "Nice pitching!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 7.6,
+     "end": 8.8,
+     "ja": "あざっす。",
+     "en": "Thanks!",
+     "speaker": "Neal"
+    },
+    {
+     "start": 9.2,
+     "end": 10.5,
+     "ja": "おめでとうございます！",
+     "en": "Congratulations!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 10.7,
+     "end": 12.4,
+     "ja": "あざーっす。",
+     "en": "Thaaanks!",
+     "speaker": "Neal"
+    }
+   ]
+  },
+  {
+   "start": 21.0,
+   "end": 35.5,
+   "title": "Laird Responds in Japanese",
+   "level": "N5",
+   "topics": [
+    "sports",
+    "fun"
+   ],
+   "grammar": [
+    "そうですね — that's right / indeed",
+    "〜ね — seeking agreement particle"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 21.0,
+     "end": 22.0,
+     "ja": "ナイスバッティング！",
+     "en": "Nice batting!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 22.2,
+     "end": 23.7,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Laird"
+    },
+    {
+     "start": 24.0,
+     "end": 25.6,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Laird"
+    },
+    {
+     "start": 25.8,
+     "end": 27.0,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Laird"
+    },
+    {
+     "start": 27.2,
+     "end": 30.2,
+     "ja": "いや、２試合連続、大きかったですね。",
+     "en": "Two games in a row—that was huge, wasn't it?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 30.3,
+     "end": 32.1,
+     "ja": "そうですね。",
+     "en": "Yeah, that's right.",
+     "speaker": "Laird"
+    },
+    {
+     "start": 33.7,
+     "end": 35.2,
+     "ja": "あざます。",
+     "en": "Thanks.",
+     "speaker": "Laird"
+    }
+   ]
+  },
+  {
+   "start": 52.8,
+   "end": 62.8,
+   "title": "Wonderful Batting!",
+   "level": "N5",
+   "topics": [
+    "sports",
+    "daily"
+   ],
+   "grammar": [
+    "〜でした — polite past copula"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 53.0,
+     "end": 55.0,
+     "ja": "素晴らしいバッティングでした！",
+     "en": "That was wonderful batting!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 55.2,
+     "end": 56.8,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Romero"
+    },
+    {
+     "start": 57.0,
+     "end": 58.2,
+     "ja": "ナイスバッティングでした！",
+     "en": "Nice batting!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 58.4,
+     "end": 59.6,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Romero"
+    },
+    {
+     "start": 59.8,
+     "end": 61.0,
+     "ja": "ナイスバッティングでした！",
+     "en": "Nice batting!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 61.2,
+     "end": 62.4,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Moya"
+    }
+   ]
+  }
+ ],
+ "videoId": "sKfGkk-hTVU",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

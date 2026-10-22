@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 274.5,
+   "end": 296.8,
+   "title": "The High Hurdle of Taking the Bus",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜ないと — unless / if not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 274.7,
+     "end": 276.5,
+     "ja": "バス停ないやつや。",
+     "en": "There's no bus stop here.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 276.7,
+     "end": 281.2,
+     "ja": "これGoogleマップにはバス停載ってるけど、道には標識も何もないパターンです。",
+     "en": "The bus stop shows on Google Maps, but there are no signs on the street.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 281.4,
+     "end": 284.8,
+     "ja": "しかもね、見てる感じ乗り降りがめちゃめちゃ早い。",
+     "en": "Plus, from the looks of it, getting on and off is super fast.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 285.0,
+     "end": 293.0,
+     "ja": "これバスのナンバー確認してからGoogleマップでそのメルカドに行くか調べて、さらにそこから手で合図しないと止まらないやつ。",
+     "en": "You have to check the bus number, verify on Google Maps if it goes to the market, and wave your hand or it won't stop.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 293.4,
+     "end": 296.3,
+     "ja": "これ、実はめちゃめちゃ乗るのハードル高くない？",
+     "en": "Isn't the bar for riding this actually super high?",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 504.3,
+   "end": 520.8,
+   "title": "Local Beef Stew Rice at the Market",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜ても — even if / even though",
+    "〜そう — looks like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 504.5,
+     "end": 506.2,
+     "ja": "はい、来ました。",
+     "en": "All right, it's here.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 506.3,
+     "end": 510.0,
+     "ja": "メニュー見てもさっぱり分からなかったので、お店の方とお話しして、",
+     "en": "I couldn't understand the menu at all, so I talked to the staff,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 510.2,
+     "end": 513.2,
+     "ja": "この牛肉煮込みごはんをいただきますよ。",
+     "en": "and I'm having this stewed beef with rice.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 513.4,
+     "end": 515.3,
+     "ja": "いや、美味しそうですね。",
+     "en": "Man, it looks delicious.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 515.4,
+     "end": 518.9,
+     "ja": "1万8000グアラニー、大体450円ぐらい。",
+     "en": "It's 18,000 Guaraní, which is about 450 yen.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 519.1,
+     "end": 520.4,
+     "ja": "いただきます。",
+     "en": "Bon appétit.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 664.2,
+   "end": 679.5,
+   "title": "Ramen and Yakitori Dinner",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜もある — there is also",
+    "〜のが嬉しい — glad that / happy that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 664.4,
+     "end": 667.0,
+     "ja": "さあ、今夜も菜の花さんでいただきます。",
+     "en": "Tonight I'm dining at Nanohana again.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 667.2,
+     "end": 669.1,
+     "ja": "豚骨ラーメンです。",
+     "en": "Here is the tonkotsu ramen.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 669.3,
+     "end": 671.3,
+     "ja": "焼き鳥もあります。",
+     "en": "There is also yakitori.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 671.5,
+     "end": 673.8,
+     "ja": "ももに、皮に、そしてハツ。",
+     "en": "Thigh, skin, and chicken heart.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 674.0,
+     "end": 677.8,
+     "ja": "いやあ、もうまさかのハツがあるのがもう嬉しい。",
+     "en": "I'm so thrilled that they unexpectedly have chicken heart.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 678.0,
+     "end": 679.2,
+     "ja": "いただきます。",
+     "en": "Let's dig in.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "zlcG1BeYB8U",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

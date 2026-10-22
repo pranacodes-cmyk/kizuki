@@ -1,0 +1,204 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 36.2,
+   "end": 59.8,
+   "title": "A Job Hunting Story",
+   "level": "N5",
+   "topics": [
+    "work",
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜ています — ongoing state",
+    "〜と聞きました — heard that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 36.5,
+     "end": 39.5,
+     "ja": "あのね、無職の男の人がいました。",
+     "en": "You see, there was an unemployed man.",
+     "speaker": "Rakugoka"
+    },
+    {
+     "start": 39.5,
+     "end": 43.0,
+     "ja": "男の人、無職。仕事がありません。",
+     "en": "A man who is jobless. He has no work.",
+     "speaker": "Rakugoka"
+    },
+    {
+     "start": 43.0,
+     "end": 46.3,
+     "ja": "仕事をしていません。フリーターです。",
+     "en": "He doesn't work. He's a part-time job seeker.",
+     "speaker": "Rakugoka"
+    },
+    {
+     "start": 46.7,
+     "end": 49.0,
+     "ja": "仕事を探しています。",
+     "en": "He is looking for a job.",
+     "speaker": "Rakugoka"
+    },
+    {
+     "start": 49.5,
+     "end": 53.6,
+     "ja": "で、いい仕事があると聞きました。",
+     "en": "And then, he heard that there was a good job.",
+     "speaker": "Rakugoka"
+    },
+    {
+     "start": 53.8,
+     "end": 57.0,
+     "ja": "その仕事は動物園の仕事ですね。",
+     "en": "That job is at a zoo.",
+     "speaker": "Rakugoka"
+    },
+    {
+     "start": 57.0,
+     "end": 59.5,
+     "ja": "どんな仕事なんでしょうね。",
+     "en": "I wonder what kind of job it could be.",
+     "speaker": "Rakugoka"
+    }
+   ]
+  },
+  {
+   "start": 86.3,
+   "end": 108.8,
+   "title": "Who Is the Head Person?",
+   "level": "N5",
+   "topics": [
+    "work",
+    "school",
+    "comedy"
+   ],
+   "grammar": [
+    "〜と言います — is called",
+    "〜で — location of context"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 86.5,
+     "end": 89.8,
+     "ja": "じゃ、会社で偉い人のこと、何と言いますか？",
+     "en": "So, what do you call the most important person in a company?",
+     "speaker": "Rakugoka"
+    },
+    {
+     "start": 90.0,
+     "end": 92.4,
+     "ja": "社長さんと言いますね。",
+     "en": "You call them 'shachō', right?",
+     "speaker": "Rakugoka"
+    },
+    {
+     "start": 92.5,
+     "end": 95.0,
+     "ja": "じゃ、お店で偉い人は？",
+     "en": "Then, what about the boss at a shop?",
+     "speaker": "Rakugoka"
+    },
+    {
+     "start": 95.2,
+     "end": 98.2,
+     "ja": "店長さんと言います。よく分かりました。",
+     "en": "You call them 'tenchō'. Very good!",
+     "speaker": "Rakugoka"
+    },
+    {
+     "start": 98.2,
+     "end": 99.8,
+     "ja": "店長さんと言いますね。",
+     "en": "You call them 'tenchō', right?",
+     "speaker": "Rakugoka"
+    },
+    {
+     "start": 100.0,
+     "end": 102.5,
+     "ja": "じゃ、学校で偉い人は？",
+     "en": "Then, what about the head of a school?",
+     "speaker": "Rakugoka"
+    },
+    {
+     "start": 102.5,
+     "end": 104.8,
+     "ja": "校長と言いますね。",
+     "en": "You call them 'kōchō'.",
+     "speaker": "Rakugoka"
+    },
+    {
+     "start": 105.0,
+     "end": 108.5,
+     "ja": "動物園で偉い人は、園長さんと言いますね。",
+     "en": "And the head of a zoo is called 'enchō'.",
+     "speaker": "Rakugoka"
+    }
+   ]
+  },
+  {
+   "start": 303.5,
+   "end": 318.5,
+   "title": "Don't Worry, It's Me",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜てくる — approaching action",
+    "〜な — negative imperative"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 303.8,
+     "end": 306.5,
+     "ja": "のっしのっし、のっしのっし、",
+     "en": "Prowling along, step by heavy step,",
+     "speaker": "Rakugoka"
+    },
+    {
+     "start": 306.5,
+     "end": 308.5,
+     "ja": "近づいてきますとね、",
+     "en": "as it approached,",
+     "speaker": "Rakugoka"
+    },
+    {
+     "start": 308.5,
+     "end": 312.0,
+     "ja": "虎の耳の近くに口を持っていって、",
+     "en": "it brought its mouth close to the tiger's ear and said,",
+     "speaker": "Rakugoka"
+    },
+    {
+     "start": 312.0,
+     "end": 314.5,
+     "ja": "「心配するな。",
+     "en": "\"Don't worry.",
+     "speaker": "Rakugoka"
+    },
+    {
+     "start": 314.7,
+     "end": 317.3,
+     "ja": "園長の長谷川です」",
+     "en": "It's me, Hasegawa, the zoo director.\"",
+     "speaker": "Rakugoka"
+    }
+   ]
+  }
+ ],
+ "videoId": "81RtNiewxI0",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

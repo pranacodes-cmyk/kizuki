@@ -1,0 +1,211 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 9.8,
+   "end": 25.0,
+   "title": "First Time Sightseeing in Asakusa",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜てみる — trying to do something",
+    "〜たい — expressing desire",
+    "〜こと — nominalizing verbs"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.9,
+     "end": 13.0,
+     "ja": "今日私はどこに来たかと言いますとですね！",
+     "en": "If you're wondering where I came today...",
+     "speaker": "Mamiya"
+    },
+    {
+     "start": 13.1,
+     "end": 15.3,
+     "ja": "ジャジャン！浅草に来ました！",
+     "en": "Ta-da! I came to Asakusa!",
+     "speaker": "Mamiya"
+    },
+    {
+     "start": 15.5,
+     "end": 18.0,
+     "ja": "YouTube始めてから東京に来ること多いんですけど、",
+     "en": "Since starting YouTube, I come to Tokyo often, but...",
+     "speaker": "Mamiya"
+    },
+    {
+     "start": 18.2,
+     "end": 21.1,
+     "ja": "なんかあんまり観光地に行ったことがないんですよね！",
+     "en": "I haven't really been to any tourist spots!",
+     "speaker": "Mamiya"
+    },
+    {
+     "start": 21.2,
+     "end": 23.2,
+     "ja": "ずっと食べ歩きしてみたくて、",
+     "en": "I've always wanted to try a street food crawl,",
+     "speaker": "Mamiya"
+    },
+    {
+     "start": 23.4,
+     "end": 24.8,
+     "ja": "だから食べ歩きしたいなー。",
+     "en": "so I really want to go food hopping.",
+     "speaker": "Mamiya"
+    }
+   ]
+  },
+  {
+   "start": 216.7,
+   "end": 230.3,
+   "title": "Asking for Recommendations at a Shop",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜と — conditional (if / when)",
+    "お〜になる — honorific prefix and structure"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 216.8,
+     "end": 219.4,
+     "ja": "しょっからいものでおすすめってありますか？",
+     "en": "Do you have any savory recommendations?",
+     "speaker": "Mamiya"
+    },
+    {
+     "start": 219.6,
+     "end": 222.5,
+     "ja": "しょっぱいものですと、1番の揚げぶぶあられと、",
+     "en": "For savory items, number 1, fried bubu arare, and...",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 222.6,
+     "end": 224.4,
+     "ja": "11番のチーズ麩カツがおすすめです。",
+     "en": "number 11, cheese wheat gluten cutlet, are recommended.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 224.5,
+     "end": 226.5,
+     "ja": "じゃあすいません、揚げぶぶあられと…",
+     "en": "Then excuse me, the fried bubu arare and...",
+     "speaker": "Mamiya"
+    },
+    {
+     "start": 226.5,
+     "end": 227.5,
+     "ja": "はい、ありがとうございます。",
+     "en": "Yes, thank you very much.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 227.5,
+     "end": 228.4,
+     "ja": "ありがとうございます。",
+     "en": "Thank you.",
+     "speaker": "Mamiya"
+    },
+    {
+     "start": 228.5,
+     "end": 229.8,
+     "ja": "お席になってお待ちください。",
+     "en": "Please take a seat and wait.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 229.8,
+     "end": 230.3,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Mamiya"
+    }
+   ]
+  },
+  {
+   "start": 492.0,
+   "end": 514.5,
+   "title": "Why Are Food Stalls Near Shrines?",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜たら — conditional (if/when)",
+    "〜なんて — expressing surprise or emphasis",
+    "〜として — as / in the role of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 492.2,
+     "end": 495.0,
+     "ja": "昔さ、この辺にさ、もし住んでた人とかおったらさ、",
+     "en": "If someone had lived around here long ago,",
+     "speaker": "Mamiya"
+    },
+    {
+     "start": 495.2,
+     "end": 498.4,
+     "ja": "何百年と経ってさ、令和になってここがこんなにさ、",
+     "en": "they'd never think that hundreds of years later in the Reiwa era...",
+     "speaker": "Mamiya"
+    },
+    {
+     "start": 498.5,
+     "end": 501.0,
+     "ja": "食べ歩きスポットになるなんて思わへんよな！",
+     "en": "...it would become such a street food crawl spot!",
+     "speaker": "Mamiya"
+    },
+    {
+     "start": 501.3,
+     "end": 504.0,
+     "ja": "お寺とかさ、神社の近くってさ、",
+     "en": "Near temples and shrines,",
+     "speaker": "Mamiya"
+    },
+    {
+     "start": 504.1,
+     "end": 506.4,
+     "ja": "なんでご飯屋さんいっぱい並ぶんやろな？",
+     "en": "why are there so many eateries lined up?",
+     "speaker": "Mamiya"
+    },
+    {
+     "start": 506.6,
+     "end": 508.8,
+     "ja": "お祭りとかの屋台とかもやけど。",
+     "en": "Just like food stalls at festivals.",
+     "speaker": "Mamiya"
+    },
+    {
+     "start": 509.0,
+     "end": 514.4,
+     "ja": "神様を祝うイベントとして現代化した形があれなんかな？",
+     "en": "Maybe that's the modernized form of events celebrating the gods?",
+     "speaker": "Mamiya"
+    }
+   ]
+  }
+ ],
+ "videoId": "n7EWmHcf1q8",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

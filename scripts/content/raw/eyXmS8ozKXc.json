@@ -1,0 +1,142 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.0,
+   "end": 26.0,
+   "title": "NHK News Report Misrepresentation",
+   "level": "N2",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜させる — causative form",
+    "〜ということです — it is reported that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.2,
+     "end": 12.1,
+     "ja": "問題となったのは、",
+     "en": "What became an issue was",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 12.1,
+     "end": 15.1,
+     "ja": "今年5月に「ニュースウオッチ9」で放送した",
+     "en": "an approximately one-minute video broadcast in May",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 15.1,
+     "end": 17.0,
+     "ja": "およそ1分間の動画で、",
+     "en": "on News Watch 9,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 17.0,
+     "end": 20.1,
+     "ja": "ワクチンの接種後に亡くなった人の遺族を、",
+     "en": "where the bereaved families of people who died after vaccination",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 20.1,
+     "end": 23.2,
+     "ja": "コロナに感染して亡くなった人の遺族だと誤認させる",
+     "en": "were presented in an inappropriate way that led viewers to mistake them",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 23.2,
+     "end": 25.8,
+     "ja": "不適切な伝え方をしたということです。",
+     "en": "for families of those who died from COVID-19 infection.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 26.2,
+   "end": 51.5,
+   "title": "Disciplinary Actions and Underlying Causes",
+   "level": "N1",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜を受けて — in response to / following",
+    "〜のほか — in addition to / besides",
+    "〜ず — without doing / not doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 26.5,
+     "end": 28.4,
+     "ja": "これを受けてNHKは、",
+     "en": "In response to this, NHK",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 28.4,
+     "end": 31.2,
+     "ja": "取材を担当した職員とその上司を、",
+     "en": "suspended the employee who covered the story and their supervisor",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 31.2,
+     "end": 33.8,
+     "ja": "14日間の出勤停止とするなど、",
+     "en": "from work for 14 days,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 33.8,
+     "end": 37.0,
+     "ja": "あわせて4人を懲戒処分にしました。",
+     "en": "disciplining a total of four people.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 37.2,
+     "end": 39.5,
+     "ja": "担当した職員や上司は、",
+     "en": "The staff member and supervisor involved",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 39.5,
+     "end": 43.7,
+     "ja": "新型コロナやワクチンに対する認識が欠けていたほか、",
+     "en": "lacked understanding of COVID-19 and vaccines, and besides that,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 43.7,
+     "end": 47.8,
+     "ja": "インタビュー相手に対して取材の趣旨を明確に伝えておらず、",
+     "en": "did not clearly convey the purpose of the report to the interviewees,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 47.8,
+     "end": 51.2,
+     "ja": "また各段階のチェックも不足していたということです。",
+     "en": "and verification was also insufficient at each stage.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "eyXmS8ozKXc",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

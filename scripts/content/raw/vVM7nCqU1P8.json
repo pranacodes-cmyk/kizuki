@@ -1,0 +1,173 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 19.8,
+   "end": 38.3,
+   "title": "Supporting the Middle Class",
+   "level": "N2",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜てくる — gradual change over time",
+    "〜によって — by means of / through"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 20.1,
+     "end": 24.0,
+     "ja": "中間層がどんどん貧困化してきていると",
+     "en": "The middle class has been getting poorer and poorer,",
+     "speaker": "Noda"
+    },
+    {
+     "start": 24.0,
+     "end": 25.0,
+     "ja": "いうところに問題がある。",
+     "en": "and that is where the problem lies.",
+     "speaker": "Noda"
+    },
+    {
+     "start": 25.1,
+     "end": 28.0,
+     "ja": "分配と再分配の失敗の歴史だったと思います。",
+     "en": "I think it has been a history of failed distribution and redistribution.",
+     "speaker": "Noda"
+    },
+    {
+     "start": 28.1,
+     "end": 31.0,
+     "ja": "そこに、もうちょっと手厚く中間層を戻すような、",
+     "en": "So, providing more generous support to restore the middle class,",
+     "speaker": "Noda"
+    },
+    {
+     "start": 31.5,
+     "end": 35.0,
+     "ja": "生活者ファーストの政策を展開することによって、",
+     "en": "and implementing 'citizens-first' policies,",
+     "speaker": "Noda"
+    },
+    {
+     "start": 35.1,
+     "end": 38.0,
+     "ja": "安心が生まれて持続的な成長になってくると。",
+     "en": "will create peace of mind and lead to sustainable growth.",
+     "speaker": "Noda"
+    }
+   ]
+  },
+  {
+   "start": 38.8,
+   "end": 54.8,
+   "title": "Decentralizing the Economy",
+   "level": "N2",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜だけでなく — not only... but also",
+    "〜をはじめとする — starting with / including"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 39.1,
+     "end": 42.1,
+     "ja": "高市政権が打ち出した責任ある積極財政、",
+     "en": "The responsible proactive fiscal policy put forward by the Takaichi administration,",
+     "speaker": "Fujita"
+    },
+    {
+     "start": 42.2,
+     "end": 44.5,
+     "ja": "可能性のあるところにどんどん投資をしていく。",
+     "en": "investing steadily in areas that show potential.",
+     "speaker": "Fujita"
+    },
+    {
+     "start": 44.9,
+     "end": 48.0,
+     "ja": "東京一極集中だけでなく、副首都構想をはじめとする",
+     "en": "Not just concentrating everything in Tokyo, but creating a multipolar, decentralized economy,",
+     "speaker": "Fujita"
+    },
+    {
+     "start": 48.1,
+     "end": 50.3,
+     "ja": "多極分散型の経済を作って、",
+     "en": "starting with the secondary capital initiative,",
+     "speaker": "Fujita"
+    },
+    {
+     "start": 50.4,
+     "end": 54.3,
+     "ja": "様々な地域が様々な発展の形を謳歌できる。",
+     "en": "so that various regions can enjoy diverse forms of development.",
+     "speaker": "Fujita"
+    }
+   ]
+  },
+  {
+   "start": 55.4,
+   "end": 70.8,
+   "title": "Aiming for Higher Take-Home Pay",
+   "level": "N2",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜ていきたい — want to continue doing",
+    "〜にしよう — let's make / aiming to make"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 55.7,
+     "end": 58.0,
+     "ja": "もっと手取りが増える日本にしていきたいと思います。",
+     "en": "I want to make Japan a country where take-home pay increases more.",
+     "speaker": "Tamaki"
+    },
+    {
+     "start": 58.1,
+     "end": 60.5,
+     "ja": "給料が上がる経済を実現しようというのは、",
+     "en": "Achieving an economy where wages rise",
+     "speaker": "Tamaki"
+    },
+    {
+     "start": 60.6,
+     "end": 64.0,
+     "ja": "結党以来の我々の成長戦略の根幹ですけれども、",
+     "en": "has been the foundation of our growth strategy since the party's founding,",
+     "speaker": "Tamaki"
+    },
+    {
+     "start": 64.1,
+     "end": 66.8,
+     "ja": "我々は明確な目標を持っておりまして、",
+     "en": "and we have a clear target:",
+     "speaker": "Tamaki"
+    },
+    {
+     "start": 66.9,
+     "end": 70.3,
+     "ja": "10年少しで日本の名目GDPを1000兆円にしようと。",
+     "en": "to bring Japan's nominal GDP to 1,000 trillion yen in just over 10 years.",
+     "speaker": "Tamaki"
+    }
+   ]
+  }
+ ],
+ "videoId": "vVM7nCqU1P8",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

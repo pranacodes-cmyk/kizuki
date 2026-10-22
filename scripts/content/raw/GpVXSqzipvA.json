@@ -1,0 +1,110 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 26.5,
+   "end": 40.8,
+   "title": "Getting Around Tokyo",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "といえば — speaking of",
+    "〜ばいい — should / how to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 26.8,
+     "end": 33.3,
+     "ja": "日本では公共交通機関といえば、電車、地下鉄、バス、タクシーなどがありますが、",
+     "en": "In Japan, speaking of public transit, there are trains, subways, buses, taxis, and so on,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 33.5,
+     "end": 40.5,
+     "ja": "特に東京は電車や地下鉄の数が多く、どうやって目的地に行けばいいのか困ることもあります。",
+     "en": "but Tokyo in particular has so many trains and subways that it can be hard to know how to reach your destination.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 41.0,
+   "end": 51.8,
+   "title": "Handy Transit Apps",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ために — in order to",
+    "〜たらいい — should / how to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 41.0,
+     "end": 44.5,
+     "ja": "また、約束の時間に間に合わせるために、",
+     "en": "Also, in order to make it in time for an appointment,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 44.5,
+     "end": 48.0,
+     "ja": "何時の電車に乗ったらいいのか調べたい時もありますよね？",
+     "en": "there are times when you want to look up what time train to take, right?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 48.4,
+     "end": 51.5,
+     "ja": "そんな時に便利なアプリがあります。",
+     "en": "There is a convenient app for times like that.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 59.8,
+   "end": 69.8,
+   "title": "Features of Transit Apps",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜だけでなく — not only... but also",
+    "〜ことができる — can do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 60.0,
+     "end": 66.0,
+     "ja": "電車や地下鉄だけでなく、新幹線やバスなどの時間も調べることができます。",
+     "en": "Not only trains and subways, but you can also look up times for bullet trains and buses.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 66.4,
+     "end": 69.6,
+     "ja": "合計の運賃も表示されるので便利ですよね。",
+     "en": "The total fare is also displayed, so it's very convenient.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "GpVXSqzipvA",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

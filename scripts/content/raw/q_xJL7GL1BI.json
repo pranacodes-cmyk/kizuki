@@ -1,0 +1,139 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.6,
+   "end": 9.8,
+   "title": "A Comet and Meteor Shower",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "anime"
+   ],
+   "grammar": [
+    "〜そうだ — hearsay (I hear that...)",
+    "〜と — conditional (if/when)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.9,
+     "end": 5.5,
+     "ja": "今年の乞巧節には彗星と流星群が近づくそうですね。",
+     "en": "I hear that a comet and a meteor shower will approach during this year's Qixi Festival.",
+     "speaker": "Reirin"
+    },
+    {
+     "start": 6.0,
+     "end": 9.4,
+     "ja": "願い事が叶うと素敵ですよね。",
+     "en": "Wouldn't it be wonderful if our wishes came true?",
+     "speaker": "Reirin"
+    }
+   ]
+  },
+  {
+   "start": 21.0,
+   "end": 32.5,
+   "title": "Jealousy in the Inner Palace",
+   "level": "N2",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "〜に違いない — must be / no doubt that",
+    "〜がいい — had better / may as well"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 21.2,
+     "end": 25.1,
+     "ja": "玲琳様がご寵愛を一心に受けているのは間違いないわね。",
+     "en": "There is no doubt that Lady Reirin commands his undivided favor.",
+     "speaker": "Court Lady A"
+    },
+    {
+     "start": 25.4,
+     "end": 28.3,
+     "ja": "お妃候補を育てるための雛宮なんだから。",
+     "en": "After all, the Hina Palace exists to cultivate bridal candidates.",
+     "speaker": "Court Lady B"
+    },
+    {
+     "start": 28.8,
+     "end": 30.2,
+     "ja": "忌々しい女。",
+     "en": "Detestable woman.",
+     "speaker": "Keigetsu"
+    },
+    {
+     "start": 30.3,
+     "end": 32.1,
+     "ja": "消えるがいいわ。",
+     "en": "Just disappear.",
+     "speaker": "Keigetsu"
+    }
+   ]
+  },
+  {
+   "start": 56.0,
+   "end": 110.8,
+   "title": "Accepting the Role of a Villainess",
+   "level": "N2",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "〜なら — conditional (if)",
+    "〜はずだ — expectation / should have",
+    "〜でございます — polite form of です"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 56.2,
+     "end": 58.7,
+     "ja": "あんた、本当に朱慧月だよな？",
+     "en": "Are you really Shu Keigetsu?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 59.0,
+     "end": 61.3,
+     "ja": "次に玲琳の猿真似をするなら、",
+     "en": "If you ever imitate Reirin again,",
+     "speaker": "Prince"
+    },
+    {
+     "start": 61.4,
+     "end": 63.8,
+     "ja": "首を刎ねるとも告げたはずだが？",
+     "en": "I believe I told you I would have you beheaded.",
+     "speaker": "Prince"
+    },
+    {
+     "start": 64.2,
+     "end": 65.7,
+     "ja": "かしこまりました。",
+     "en": "Understood.",
+     "speaker": "Reirin (in Keigetsu's body)"
+    },
+    {
+     "start": 66.5,
+     "end": 70.5,
+     "ja": "ふつつかな悪女ではございますが、己に見合った行動をいたします。",
+     "en": "Inept villainess though I may be, I shall conduct myself in a manner befitting my station.",
+     "speaker": "Reirin (in Keigetsu's body)"
+    }
+   ]
+  }
+ ],
+ "videoId": "q_xJL7GL1BI",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

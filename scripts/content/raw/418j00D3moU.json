@@ -1,0 +1,183 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 21.3,
+   "end": 34.6,
+   "title": "What Do You Want for Breakfast?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family",
+    "food"
+   ],
+   "grammar": [
+    "〜ようか — shall I / shall we",
+    "〜か — question / confirmation marker"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 21.5,
+     "end": 22.8,
+     "ja": "何食べる？",
+     "en": "What do you want to eat?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 23.5,
+     "end": 24.9,
+     "ja": "りんご剥こうか。",
+     "en": "Shall I peel an apple?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 27.8,
+     "end": 29.5,
+     "ja": "何飲みますかー？",
+     "en": "What would you like to drink?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 29.8,
+     "end": 32.2,
+     "ja": "牛乳。だから牛乳ー。",
+     "en": "Milk. That's why, milk!",
+     "speaker": "Son"
+    },
+    {
+     "start": 32.3,
+     "end": 34.2,
+     "ja": "牛乳飲むんか。牛乳。",
+     "en": "You want milk? Milk it is.",
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
+   "start": 66.2,
+   "end": 84.3,
+   "title": "Sharing a Nugget with Mom",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family",
+    "food"
+   ],
+   "grammar": [
+    "〜なあかん — must / have to (dialect)",
+    "〜と一緒に — together with"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 66.7,
+     "end": 69.2,
+     "ja": "ちゃんと歯磨きせなあかんでー。",
+     "en": "You have to brush your teeth properly!",
+     "speaker": "Son"
+    },
+    {
+     "start": 69.5,
+     "end": 71.8,
+     "ja": "ねー。ちゃんと歯磨きせなあかんな。",
+     "en": "Yeah. You have to brush properly, right?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 76.6,
+     "end": 80.8,
+     "ja": "かあか、このナゲット一緒に食べる？",
+     "en": "Mommy, will you eat this nugget with me?",
+     "speaker": "Son"
+    },
+    {
+     "start": 81.2,
+     "end": 82.5,
+     "ja": "はい、どうぞ。",
+     "en": "Here you go.",
+     "speaker": "Son"
+    },
+    {
+     "start": 82.7,
+     "end": 83.8,
+     "ja": "ありがと。",
+     "en": "Thank you.",
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
+   "start": 296.5,
+   "end": 308.0,
+   "title": "Read It to Me One More Time!",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜て — informal request",
+    "〜だよ — gentle declaration / explanation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 296.8,
+     "end": 298.4,
+     "ja": "ねぇ、これ読んで。",
+     "en": "Hey, read this to me.",
+     "speaker": "Son"
+    },
+    {
+     "start": 298.7,
+     "end": 299.6,
+     "ja": "どれ？",
+     "en": "Which one?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 300.0,
+     "end": 301.2,
+     "ja": "サンタ？",
+     "en": "Santa?",
+     "speaker": "Son"
+    },
+    {
+     "start": 301.4,
+     "end": 303.1,
+     "ja": "サンタクロースだよ。",
+     "en": "It's Santa Claus.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 303.3,
+     "end": 304.5,
+     "ja": "おしまい。",
+     "en": "The end.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 304.8,
+     "end": 305.8,
+     "ja": "もっかい！",
+     "en": "One more time!",
+     "speaker": "Son"
+    },
+    {
+     "start": 306.0,
+     "end": 307.7,
+     "ja": "３回読んだよ。",
+     "en": "I've already read it three times!",
+     "speaker": "Mom"
+    }
+   ]
+  }
+ ],
+ "videoId": "418j00D3moU",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,234 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 17.5,
+   "end": 35.5,
+   "title": "Rules of the Word Relay Quiz",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜てある — state resulting from action",
+    "〜ように — so that / in order to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.6,
+     "end": 21.6,
+     "ja": "片方に外国語で書かれた単語の紙を配ります。",
+     "en": "We'll hand a paper with a foreign word to one of you.",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 22.0,
+     "end": 24.8,
+     "ja": "もう片方は、紙とペンという形にしてあるので、",
+     "en": "The other person has paper and a pen,",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 25.4,
+     "end": 28.0,
+     "ja": "ワードを持ってる方は口で説明するなどして、",
+     "en": "so the one with the word should explain it verbally,",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 28.1,
+     "end": 31.0,
+     "ja": "どんな単語が書かれてるかを伝えてください。",
+     "en": "and convey what kind of word is written.",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 32.1,
+     "end": 35.4,
+     "ja": "文字を正確に書き取れるように伝えてほしいんですね。",
+     "en": "The key is to convey it so they can transcribe the characters accurately.",
+     "speaker": "Izawa"
+    }
+   ]
+  },
+  {
+   "start": 249.2,
+   "end": 269.0,
+   "ja": null,
+   "en": null,
+   "title": null,
+   "level": null,
+   "topics": null,
+   "grammar": null,
+   "quality": null,
+   "lines": null
+  },
+  {
+   "start": 409.0,
+   "end": 427.7,
+   "title": "Explaining How to Write the Letter",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜じゃん — isn't it? (casual tag)",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 409.3,
+     "end": 412.3,
+     "ja": "1文字目、アルファベット小文字の「n」ありますよね？",
+     "en": "First character: you know the lowercase letter 'n', right?",
+     "speaker": "Tsurusaki"
+    },
+    {
+     "start": 412.8,
+     "end": 416.5,
+     "ja": "縦棒の2割くらいから始めるじゃん？",
+     "en": "You start the second stroke around 20% down the vertical line, right?",
+     "speaker": "Tsurusaki"
+    },
+    {
+     "start": 416.8,
+     "end": 417.8,
+     "ja": "は？",
+     "en": "Huh?",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 418.6,
+     "end": 421.3,
+     "ja": "縦棒の上から2割くらいから始めるじゃん、「n」って。",
+     "en": "You start about 20% from the top of the vertical line for 'n'.",
+     "speaker": "Tsurusaki"
+    },
+    {
+     "start": 421.4,
+     "end": 422.3,
+     "ja": "ああ、はいはいはい。",
+     "en": "Ah, okay, okay.",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 422.8,
+     "end": 425.0,
+     "ja": "あれを、0割から始めてください。",
+     "en": "Please start that from 0%.",
+     "speaker": "Tsurusaki"
+    },
+    {
+     "start": 425.4,
+     "end": 427.2,
+     "ja": "ああ、なるほど。",
+     "en": "Oh, I see.",
+     "speaker": "Yamamoto"
+    }
+   ]
+  },
+  {
+   "start": 722.2,
+   "end": 747.0,
+   "title": "Judging the Hebrew Transcription",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜たいと思います — I would like to",
+    "〜やん — isn't it (Kansai casual)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 722.5,
+     "end": 725.2,
+     "ja": "山本の解答を判定していきたいと思います！",
+     "en": "Let's check Yamamoto's answer!",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 725.3,
+     "end": 726.0,
+     "ja": "はい！",
+     "en": "Yes!",
+     "speaker": "Tsurusaki"
+    },
+    {
+     "start": 726.6,
+     "end": 728.3,
+     "ja": "こちらは…",
+     "en": "This is...",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 728.7,
+     "end": 730.8,
+     "ja": "「月食」、正解！",
+     "en": "'Lunar eclipse,' correct!",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 730.9,
+     "end": 732.3,
+     "ja": "よっしゃあ！",
+     "en": "All right!",
+     "speaker": "Tsurusaki"
+    },
+    {
+     "start": 733.2,
+     "end": 734.5,
+     "ja": "お見事です！",
+     "en": "Splendid!",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 736.2,
+     "end": 738.1,
+     "ja": "ああ～、そうそうそう！",
+     "en": "Ah, yes, exactly!",
+     "speaker": "Tsurusaki"
+    },
+    {
+     "start": 738.3,
+     "end": 741.0,
+     "ja": "「フ」と「？」めちゃくちゃ完成度高いやん！",
+     "en": "The 'fu' and '?' are super well done!",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 741.3,
+     "end": 743.0,
+     "ja": "うまいわ！伝えるのうまいわ！",
+     "en": "You're good! Good at explaining!",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 743.3,
+     "end": 744.2,
+     "ja": "これ何語？",
+     "en": "What language is this?",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 744.3,
+     "end": 745.3,
+     "ja": "ヘブライ語です。",
+     "en": "It's Hebrew.",
+     "speaker": "Izawa"
+    }
+   ]
+  }
+ ],
+ "videoId": "G3H9q563S2U",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

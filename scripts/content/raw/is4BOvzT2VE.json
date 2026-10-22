@@ -1,0 +1,179 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 18.8,
+   "title": "Welcome to the Sprunki Sound Quiz!",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜にようこそ — welcome to",
+    "〜以上 — ... or more",
+    "〜（よ）う — let's / volitional"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 2.8,
+     "ja": "クイズの達人にようこそ！",
+     "en": "Welcome to Quiz Master!",
+     "speaker": "Host"
+    },
+    {
+     "start": 2.8,
+     "end": 4.2,
+     "ja": "今日のテーマは…",
+     "en": "Today's theme is...",
+     "speaker": "Host"
+    },
+    {
+     "start": 4.2,
+     "end": 6.8,
+     "ja": "スプランキー音当てクイズ！",
+     "en": "Sprunki sound guessing quiz!",
+     "speaker": "Host"
+    },
+    {
+     "start": 6.8,
+     "end": 9.5,
+     "ja": "キミのスプランキーの知識はどれぐらいかな？",
+     "en": "How much do you know about Sprunki?",
+     "speaker": "Host"
+    },
+    {
+     "start": 9.5,
+     "end": 12.3,
+     "ja": "問題は全部で16問！",
+     "en": "There are 16 questions in total!",
+     "speaker": "Host"
+    },
+    {
+     "start": 12.3,
+     "end": 14.0,
+     "ja": "12問以上正解で…",
+     "en": "If you get 12 or more correct...",
+     "speaker": "Host"
+    },
+    {
+     "start": 14.0,
+     "end": 16.1,
+     "ja": "キミはスプランキー博士だ！",
+     "en": "You are a Sprunki expert!",
+     "speaker": "Host"
+    },
+    {
+     "start": 16.1,
+     "end": 18.5,
+     "ja": "準備はいい？始めるよ！",
+     "en": "Are you ready? Here we go!",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 859.5,
+   "end": 888.0,
+   "title": "Scoring Your Sprunki Quiz Results",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜たとしても — even if",
+    "〜ないで — don't do",
+    "〜（よ）う — let's / volitional"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 859.8,
+     "end": 861.3,
+     "ja": "採点しよう！",
+     "en": "Let's check your score!",
+     "speaker": "Host"
+    },
+    {
+     "start": 861.3,
+     "end": 863.9,
+     "ja": "キミは何問正解できたかな？",
+     "en": "How many did you get right?",
+     "speaker": "Host"
+    },
+    {
+     "start": 863.9,
+     "end": 865.9,
+     "ja": "コメントで教えてね！",
+     "en": "Let us know in the comments!",
+     "speaker": "Host"
+    },
+    {
+     "start": 865.9,
+     "end": 868.5,
+     "ja": "12問以上正解できたキミは…",
+     "en": "If you got 12 or more right...",
+     "speaker": "Host"
+    },
+    {
+     "start": 868.5,
+     "end": 870.5,
+     "ja": "スプランキー博士だ！",
+     "en": "You're a Sprunki expert!",
+     "speaker": "Host"
+    },
+    {
+     "start": 870.5,
+     "end": 872.0,
+     "ja": "おめでとう！だけど…",
+     "en": "Congratulations! But...",
+     "speaker": "Host"
+    },
+    {
+     "start": 872.0,
+     "end": 875.8,
+     "ja": "スプランキー博士になれなかったとしても落ち込まないで！",
+     "en": "Don't feel down even if you didn't become a Sprunki expert!",
+     "speaker": "Host"
+    },
+    {
+     "start": 875.8,
+     "end": 878.7,
+     "ja": "何度もこの動画を見てリベンジしよう！",
+     "en": "Watch this video again and again to try again!",
+     "speaker": "Host"
+    },
+    {
+     "start": 878.7,
+     "end": 881.5,
+     "ja": "キミは必ずスプランキー博士になれるよ！",
+     "en": "You'll definitely become a Sprunki expert!",
+     "speaker": "Host"
+    },
+    {
+     "start": 881.5,
+     "end": 886.0,
+     "ja": "次回のクイズもお楽しみに！チャンネル登録を忘れないでね！",
+     "en": "Look forward to the next quiz! Don't forget to subscribe!",
+     "speaker": "Host"
+    },
+    {
+     "start": 886.0,
+     "end": 887.8,
+     "ja": "またキミのチャレンジを待ってるよ！",
+     "en": "I'll be waiting for you to take on the challenge again!",
+     "speaker": "Host"
+    }
+   ]
+  }
+ ],
+ "videoId": "is4BOvzT2VE",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

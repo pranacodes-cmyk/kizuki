@@ -3,11 +3,12 @@ import 'package:go_router/go_router.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../data/content.dart';
 import '../data/onboarding.dart';
-import '../data/paywall.dart';
 import '../logic/logic.dart';
+import '../services/billing.dart';
 import '../services/export_service.dart';
 import '../services/notification_service.dart';
 import '../services/sync_service.dart';
@@ -46,14 +47,14 @@ class _SettingsScreenState extends State<SettingsScreen> {
     try {
       await Supabase.instance.client.rpc('delete_my_account');
     } catch (e) {
-      setState(() => busy = false);
+      if (mounted) setState(() => busy = false);
       toast("Couldn't delete your account", description: e is PostgrestException ? e.message : e.toString(), tone: ToastTone.error);
       return;
     }
     await Supabase.instance.client.auth.signOut();
     await app.reset();
     if (modal.mounted) Navigator.of(modal).pop();
-    setState(() => busy = false);
+    if (mounted) setState(() => busy = false);
     router.go('/');
   }
 
@@ -259,22 +260,16 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         ]),
                       ),
                       _ActionRow(
-                        label: 'Cancel subscription',
-                        danger: true,
-                        onTap: () => showMimiModal<void>(
-                          context,
-                          (ctx) => _Confirm(
-                            title: 'Cancel Premium?',
-                            body: "You'll go back to $freeDailyClips free clips a day. Your words and progress stay.",
-                            yes: 'Cancel Premium',
-                            no: 'Keep Premium',
-                            onYes: () {
-                              app.cancelPremium();
-                              Navigator.of(ctx).pop();
-                              toast('Premium cancelled');
-                            },
-                          ),
-                        ),
+                        label: 'Manage subscription',
+                        onTap: () {
+                          if (!Billing.available) {
+                            // Test builds have no store: the simulated plan can be ended here.
+                            app.cancelPremium();
+                            toast('Premium ended (test build)');
+                            return;
+                          }
+                          launchUrl(Uri.parse(Billing.manageUrl()), mode: LaunchMode.externalApplication);
+                        },
                       ),
                     ]
                   : [_ActionRow(label: 'Try Premium free for 7 days', onTap: () => context.push('/trial'))]),

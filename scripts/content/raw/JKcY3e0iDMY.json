@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.8,
+   "end": 29.8,
+   "title": "Causes of Fake News",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜んじゃないか — isn't it / perhaps",
+    "〜ようになる — reach the point where / become able to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.8,
+     "end": 17.0,
+     "ja": "フェイクニュース、この原因・背景にあるものは、大きく５つなんじゃないでしょうか。",
+     "en": "What lies behind the causes and background of fake news are broadly five things, wouldn't you say?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 17.0,
+     "end": 22.5,
+     "ja": "ＳＮＳの普及により、誰でも容易に情報発信・拡散ができるようになったということ。",
+     "en": "With the spread of social media, anyone has become easily able to publish and spread information.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 22.5,
+     "end": 29.5,
+     "ja": "注目や広告収入を目的とした、意図的な虚偽の情報の送信。",
+     "en": "The intentional transmission of false information aimed at gaining attention or advertising revenue.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 51.5,
+   "end": 76.5,
+   "title": "Issues Caused by Fake News",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜というと — when speaking of",
+    "〜ていく — ongoing change into the future"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 51.5,
+     "end": 53.8,
+     "ja": "で、課題としては何かというと、",
+     "en": "Now, as for what the problems are,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 53.8,
+     "end": 56.2,
+     "ja": "まあ、偽情報ですね、誤情報。",
+     "en": "well, false information, misinformation.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 56.2,
+     "end": 58.8,
+     "ja": "短時間での大量が拡散されるということと、",
+     "en": "Large amounts being spread in a short time,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 58.8,
+     "end": 62.0,
+     "ja": "社会不安や分断を助長するということですね。",
+     "en": "and encouraging social anxiety and division.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 62.0,
+     "end": 66.3,
+     "ja": "それから、民主主義、選挙、世論形成などへの悪影響も一部である。",
+     "en": "Additionally, negative impacts on democracy, elections, and public opinion formation are part of it.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 66.3,
+     "end": 69.9,
+     "ja": "個人や企業の、名誉・権利侵害もある。",
+     "en": "There are also infringements on the reputation and rights of individuals and companies.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 69.9,
+     "end": 76.2,
+     "ja": "正確な情報への、そもそもの信頼が低下していってるんじゃないかという、こういったことが挙げられますね。",
+     "en": "These kinds of things can be cited, such as trust in accurate information itself declining.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 77.5,
+   "end": 99.5,
+   "title": "Solutions to Fake News",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜ていかないといけない — must go on doing",
+    "〜としましては — as for ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 77.5,
+     "end": 84.0,
+     "ja": "ですので、解決策としては、まず、その学校や社会での情報リテラシー教育の充実をまず図っていかないといけないですね。",
+     "en": "Therefore, as solutions, we first have to aim to enhance information literacy education in schools and society.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 84.0,
+     "end": 88.5,
+     "ja": "で、常に複数の情報源を確認する習慣の定着ですよね。",
+     "en": "And establishing the habit of always verifying multiple information sources.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 88.5,
+     "end": 94.5,
+     "ja": "ま、よく、簡単なやり方としましては、自分と反対の意見の人たちの意見もしっかり読む。",
+     "en": "As a common, simple approach, carefully read the opinions of people with opposing views.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 94.5,
+     "end": 99.3,
+     "ja": "どういった考えなのかっていうのを確認するということですよね。",
+     "en": "It means confirming what kind of thinking they have.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "JKcY3e0iDMY",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

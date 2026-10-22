@@ -1,0 +1,226 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 120.3,
+   "end": 123.5,
+   "title": "Choosing the Thorny Path",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "work"
+   ],
+   "grammar": [
+    "〜がち — tendency to",
+    "〜ていく — action continuing forward",
+    "〜みたい — seems like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 120.3,
+     "end": 121.8,
+     "ja": "あー、そうですね。",
+     "en": "Ah, that's right.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 121.8,
+     "end": 124.2,
+     "ja": "結構難しい道、選びがちで、",
+     "en": "I tend to choose the difficult path,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 124.2,
+     "end": 128.8,
+     "ja": "なんか、YouTubeチャンネルも、作るときに、",
+     "en": "and even when I started my YouTube channel,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 128.8,
+     "end": 132.8,
+     "ja": "「いや、オノマトペなんて誰も興味ないし、",
+     "en": "\"Nobody's interested in onomatopoeia,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 132.8,
+     "end": 136.0,
+     "ja": "誰もチャンネル登録しないよ」って言われていた、",
+     "en": "no one will subscribe,\" people said,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 136.0,
+     "end": 140.2,
+     "ja": "いばらの道を歩いていくっていう感じだったんですよね。",
+     "en": "so it felt like walking down a thorny path.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 140.2,
+     "end": 143.2,
+     "ja": "そういうタフな道を歩くのが好きみたいです、僕は。",
+     "en": "It seems I just like walking tough paths like that.",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 193.0,
+   "end": 217.0,
+   "title": "Busking Around the World",
+   "level": "N3",
+   "topics": [
+    "music",
+    "travel"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜ていく — ongoing into the future",
+    "〜たいと思ってる — thinking of wanting to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 193.2,
+     "end": 196.8,
+     "ja": "将来、ちょっと夢があって、",
+     "en": "I have a bit of a dream for the future,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 196.8,
+     "end": 200.5,
+     "ja": "世界を、ギター片手に回りたい、みたいな。",
+     "en": "like traveling around the world with a guitar in hand.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 200.5,
+     "end": 202.5,
+     "ja": "最高！",
+     "en": "Awesome!",
+     "speaker": "Miku"
+    },
+    {
+     "start": 202.5,
+     "end": 205.0,
+     "ja": "なんか、わかんないですけど、",
+     "en": "I don't really know why, but...",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 205.0,
+     "end": 209.2,
+     "ja": "狭い道で、ギターを弾きながら歌って、",
+     "en": "singing while playing guitar on narrow streets,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 209.2,
+     "end": 213.2,
+     "ja": "その日食べるお金を稼ぐ、",
+     "en": "and earning money to eat for that day,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 213.2,
+     "end": 216.5,
+     "ja": "帽子の小銭で食べていく、みたいなのをやりたいと思ってて、",
+     "en": "living off the spare change in my hat—I'd love to do that,",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 480.0,
+   "end": 501.2,
+   "title": "Starting a Japanese Blues Duo",
+   "level": "N3",
+   "topics": [
+    "music",
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜ましょうか — shall we",
+    "〜てた — was doing",
+    "〜たいと思ってる — thinking of wanting to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 480.2,
+     "end": 483.8,
+     "ja": "私も世界一周したいなと思ってるんですけど、",
+     "en": "I've also been thinking I want to travel around the world,",
+     "speaker": "Miku"
+    },
+    {
+     "start": 483.8,
+     "end": 486.5,
+     "ja": "おー！はい、二人で弾きます？",
+     "en": "Oh! Yes, should we play together?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 486.5,
+     "end": 488.8,
+     "ja": "弾きましょうか、私も。泣きながら。",
+     "en": "Shall I play too? While crying.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 488.8,
+     "end": 491.5,
+     "ja": "私、三味線ちょっとやってたので、",
+     "en": "I used to play the shamisen a bit, so...",
+     "speaker": "Miku"
+    },
+    {
+     "start": 491.5,
+     "end": 494.2,
+     "ja": "あ、本当ですか。いや、ありですね。",
+     "en": "Oh, really? Wow, that could actually work!",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 494.2,
+     "end": 496.4,
+     "ja": "ブルース弾きますか、一緒に。",
+     "en": "Shall we play the blues together?",
+     "speaker": "Miku"
+    },
+    {
+     "start": 496.4,
+     "end": 498.5,
+     "ja": "いいですね、和風ブルースみたいな。",
+     "en": "Sounds great, like a Japanese-style blues.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 498.5,
+     "end": 500.0,
+     "ja": "和風ブルース！",
+     "en": "Japanese blues!",
+     "speaker": "Miku"
+    },
+    {
+     "start": 500.0,
+     "end": 501.0,
+     "ja": "はい、いいですね。",
+     "en": "Yes, sounds nice.",
+     "speaker": "Hitoki"
+    }
+   ]
+  }
+ ],
+ "videoId": "T8AE6aTV3Ng",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

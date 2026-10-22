@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 128.8,
+   "end": 147.8,
+   "title": "Su Sensei Introduces Herself",
+   "level": "N5",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜は〜です — A is B",
+    "〜に住んでいます — living in"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 129.2,
+     "end": 135.5,
+     "ja": "初めまして。私の名前は、Suです。もちろん、あだ名です。",
+     "en": "Nice to meet you. My name is Su. Of course, that's a nickname.",
+     "speaker": "Su Sensei"
+    },
+    {
+     "start": 136.2,
+     "end": 140.7,
+     "ja": "ベトナム出身です。今は、日本に住んでいます。",
+     "en": "I'm from Vietnam. Currently, I'm living in Japan.",
+     "speaker": "Su Sensei"
+    },
+    {
+     "start": 141.5,
+     "end": 147.3,
+     "ja": "私は、日本語能力試験のN1に合格しています！",
+     "en": "I have passed N1 of the Japanese Language Proficiency Test!",
+     "speaker": "Su Sensei"
+    }
+   ]
+  },
+  {
+   "start": 219.7,
+   "end": 245.0,
+   "title": "Difficulties in Learning Japanese",
+   "level": "N4",
+   "topics": [
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜を覚える — remember / memorize",
+    "〜たり〜たり — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 220.0,
+     "end": 226.7,
+     "ja": "日本語の勉強を始めた頃は、本当に難しいなぁと思い、",
+     "en": "When I first started studying Japanese, I thought it was really difficult,",
+     "speaker": "Su Sensei"
+    },
+    {
+     "start": 226.7,
+     "end": 231.8,
+     "ja": "文字や語彙を覚えるのに苦労したのを覚えています。",
+     "en": "and I remember struggling to memorize the characters and vocabulary.",
+     "speaker": "Su Sensei"
+    },
+    {
+     "start": 232.7,
+     "end": 238.6,
+     "ja": "日本語には、「ひらがな」、「カタカナ」、「漢字」がありますよね。",
+     "en": "Japanese has hiragana, katakana, and kanji, right?",
+     "speaker": "Su Sensei"
+    },
+    {
+     "start": 239.1,
+     "end": 244.5,
+     "ja": "それから、敬語という丁寧な表現などもありますよね。",
+     "en": "And there are also polite expressions like keigo, right?",
+     "speaker": "Su Sensei"
+    }
+   ]
+  },
+  {
+   "start": 900.2,
+   "end": 925.3,
+   "title": "Self-Introduction Templates",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜から〜 — from (starting point)",
+    "〜ています — progressive state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 900.8,
+     "end": 907.5,
+     "ja": "まず、「初めまして。」そして、名前を「〇〇です。」",
+     "en": "First, \"Hajimemashite (Nice to meet you).\" Then, state your name: \"I am...\"",
+     "speaker": "Su Sensei"
+    },
+    {
+     "start": 908.7,
+     "end": 911.2,
+     "ja": "「ベトナム出身です。」",
+     "en": "\"I am from Vietnam.\"",
+     "speaker": "Su Sensei"
+    },
+    {
+     "start": 912.0,
+     "end": 915.2,
+     "ja": "「日本に来て、〇年です。」",
+     "en": "\"It has been ... years since I came to Japan.\"",
+     "speaker": "Su Sensei"
+    },
+    {
+     "start": 915.7,
+     "end": 919.4,
+     "ja": "「〇年前から日本語を勉強しています。」",
+     "en": "\"I have been studying Japanese since ... years ago.\"",
+     "speaker": "Su Sensei"
+    },
+    {
+     "start": 920.2,
+     "end": 924.8,
+     "ja": "「日本語を勉強し始めたのは〇〇だからです。」",
+     "en": "\"The reason I started studying Japanese is because...\"",
+     "speaker": "Su Sensei"
+    }
+   ]
+  }
+ ],
+ "videoId": "ZbcHKad-iF0",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,313 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.0,
+   "end": 35.8,
+   "title": "Could You Explain from the Beginning?",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ちゃう — accidental or unintended action",
+    "〜てくれる — asking someone to do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.0,
+     "end": 13.2,
+     "ja": "全然話についていけてないんだけど、",
+     "en": "I'm totally not following what you're saying, but...",
+     "speaker": "Officer"
+    },
+    {
+     "start": 13.2,
+     "end": 15.5,
+     "ja": "これってこの3日間の間に起きた事件の内容のこと話してるんだよね？",
+     "en": "you're talking about the incident that happened over the past three days, right?",
+     "speaker": "Officer"
+    },
+    {
+     "start": 15.5,
+     "end": 17.6,
+     "ja": "そうだよ、さっきからずっとそのこと説明してるのに…",
+     "en": "Yeah, and I've been explaining that this whole time...",
+     "speaker": "Chiharu"
+    },
+    {
+     "start": 17.0,
+     "end": 19.4,
+     "ja": "ごめん分かったごめんごめん、そうだよね。",
+     "en": "Sorry, got it, sorry, sorry, that's right.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 18.0,
+     "end": 19.8,
+     "ja": "何の話してると思って…",
+     "en": "What did you think I was talking about...",
+     "speaker": "Chiharu"
+    },
+    {
+     "start": 20.0,
+     "end": 25.0,
+     "ja": "改めて確認なんだけど、その話がマキナちゃんがこうなっちゃった理由に繋がるんだよね？",
+     "en": "Just to confirm again, this story connects to why Makina-chan ended up like this, right?",
+     "speaker": "Officer"
+    },
+    {
+     "start": 28.5,
+     "end": 30.0,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Chiharu"
+    },
+    {
+     "start": 30.2,
+     "end": 34.2,
+     "ja": "はぁ〜。もう一回最初から説明してくれる？",
+     "en": "Sigh. Could you explain it from the beginning one more time?",
+     "speaker": "Officer"
+    },
+    {
+     "start": 34.2,
+     "end": 35.8,
+     "ja": "えぇーっ！",
+     "en": "Ehh?!",
+     "speaker": "Chiharu"
+    }
+   ]
+  },
+  {
+   "start": 118.0,
+   "end": 49.2,
+   "title": "Roll Call at the Police Station",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ていく — to do an action going forward",
+    "〜なければ — if not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 118.0,
+     "end": 120.1,
+     "ja": "はい、お待たせしてごめんなさい。",
+     "en": "Alright, sorry to keep you waiting.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 120.1,
+     "end": 124.0,
+     "ja": "今ここにいるのって、この辺の道路で逮捕されちゃった人たちですよね。",
+     "en": "Everyone here is someone who got arrested on the roads around here, right?",
+     "speaker": "Officer"
+    },
+    {
+     "start": 124.0,
+     "end": 128.2,
+     "ja": "とりあえず名前と拘束された理由言っていくんで、間違いなければ返事をお願いします。",
+     "en": "I'll read out your names and reasons for detention, so please respond if correct.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 128.2,
+     "end": 130.0,
+     "ja": "マックス・マカリスター。",
+     "en": "Max McAllister.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 129.8,
+     "end": 130.6,
+     "ja": "はい。",
+     "en": "Here.",
+     "speaker": "Max"
+    },
+    {
+     "start": 130.6,
+     "end": 132.2,
+     "ja": "カート・クレイマー。",
+     "en": "Kurt Kramer.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 132.0,
+     "end": 132.8,
+     "ja": "はい。",
+     "en": "Here.",
+     "speaker": "Kurt"
+    },
+    {
+     "start": 132.8,
+     "end": 134.4,
+     "ja": "二人は砂糖の不法所持？",
+     "en": "You two, illegal possession of sugar?",
+     "speaker": "Officer"
+    },
+    {
+     "start": 134.4,
+     "end": 135.8,
+     "ja": "あーい。／うぃっす。",
+     "en": "Yeah. / Yep.",
+     "speaker": "Kurt & Max"
+    },
+    {
+     "start": 135.8,
+     "end": 137.1,
+     "ja": "岩尾カナタ。",
+     "en": "Kanata Iwao.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 137.0,
+     "end": 137.8,
+     "ja": "うぃす。",
+     "en": "Yeah.",
+     "speaker": "Kanata"
+    },
+    {
+     "start": 137.8,
+     "end": 139.0,
+     "ja": "雷童アカネ。",
+     "en": "Akane Raido.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 138.9,
+     "end": 139.7,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 139.7,
+     "end": 140.7,
+     "ja": "スピード違反。",
+     "en": "Speeding.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 140.5,
+     "end": 141.3,
+     "ja": "でーす。",
+     "en": "Yup.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 141.3,
+     "end": 142.5,
+     "ja": "九条チハル。",
+     "en": "Chiharu Kujo.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 142.4,
+     "end": 143.2,
+     "ja": "はい。",
+     "en": "Here.",
+     "speaker": "Chiharu"
+    },
+    {
+     "start": 143.2,
+     "end": 144.3,
+     "ja": "久留須マキナ。",
+     "en": "Makina Kurusu.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 144.2,
+     "end": 145.0,
+     "ja": "はい。",
+     "en": "Here.",
+     "speaker": "Makina"
+    },
+    {
+     "start": 145.0,
+     "end": 148.0,
+     "ja": "スピード違反、公務執行妨害、警察車両爆破。",
+     "en": "Speeding, obstruction of justice, blowing up a police vehicle.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 148.0,
+     "end": 149.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Makina"
+    }
+   ]
+  },
+  {
+   "start": 184.5,
+   "end": 209.8,
+   "title": "Your Community Service Assignment",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "work"
+   ],
+   "grammar": [
+    "〜と呼ばれる — to be called",
+    "〜てもらう — to have someone do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 184.5,
+     "end": 189.2,
+     "ja": "今目の前にあるのは惑星間走行列車、通称ミルキー★サブウェイ。",
+     "en": "What's in front of you now is an interplanetary train, commonly known as Milky Subway.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 189.2,
+     "end": 192.3,
+     "ja": "正式名称はAM24って呼ばれてます。",
+     "en": "Its official name is the AM24.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 192.3,
+     "end": 197.3,
+     "ja": "地球歴72年にタイタン工業が作って、それ以来中部鉄道が運用してます。",
+     "en": "Titan Industries built it in Earth Year 72, and Chubu Railway has operated it ever since.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 197.3,
+     "end": 201.4,
+     "ja": "ただご覧の通り、長いこと使われてる影響で非常に汚いです。",
+     "en": "However, as you can see, because it's been in use for a long time, it's extremely filthy.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 201.4,
+     "end": 205.4,
+     "ja": "なので本日皆さんには、この車両の清掃をやってもらいます。",
+     "en": "Therefore, today you will all be cleaning this train car.",
+     "speaker": "Officer"
+    },
+    {
+     "start": 205.4,
+     "end": 209.6,
+     "ja": "ミルキー★サブウェイの掃除、これが皆さんの今回の社会奉仕活動です。",
+     "en": "Cleaning the Milky Subway—this is your community service for this time.",
+     "speaker": "Officer"
+    }
+   ]
+  }
+ ],
+ "videoId": "BmcksAVjK7o",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

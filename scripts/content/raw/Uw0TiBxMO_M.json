@@ -1,0 +1,132 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 76.5,
+   "end": 110.5,
+   "title": "Don't Open the Door",
+   "level": "N5",
+   "topics": [
+    "family",
+    "culture"
+   ],
+   "grammar": [
+    "〜ことになる — decided that",
+    "〜てはいけない — must not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 76.8,
+     "end": 89.8,
+     "ja": "ある日、お母さんは町へ出かけることになりました。",
+     "en": "One day, their mother had to go out to town.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 90.5,
+     "end": 98.0,
+     "ja": "お母さんは言いました。",
+     "en": "The mother said:",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 98.8,
+     "end": 110.2,
+     "ja": "「知らない人が来ても、ドアを開けてはいけませんよ。」",
+     "en": "\"Even if a stranger comes, you must not open the door.\"",
+     "speaker": "Mother"
+    }
+   ]
+  },
+  {
+   "start": 153.8,
+   "end": 185.6,
+   "title": "Who Is at the Door?",
+   "level": "N5",
+   "topics": [
+    "family",
+    "culture"
+   ],
+   "grammar": [
+    "〜がする — perceive a sound",
+    "〜に来る — come to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 153.8,
+     "end": 158.8,
+     "ja": "「だれですか？」",
+     "en": "\"Who is it?\"",
+     "speaker": "Sister"
+    },
+    {
+     "start": 159.5,
+     "end": 166.5,
+     "ja": "姉が聞きました。",
+     "en": "The older sister asked.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 167.3,
+     "end": 175.5,
+     "ja": "外から声がしました。",
+     "en": "A voice came from outside.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 176.8,
+     "end": 185.3,
+     "ja": "「おばさんですよ。会いに来ました。」",
+     "en": "\"It's your auntie. I came to see you.\"",
+     "speaker": "Auntie"
+    }
+   ]
+  },
+  {
+   "start": 229.0,
+   "end": 262.5,
+   "title": "Let Her In",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜から — because",
+    "〜てあげる — do for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 229.2,
+     "end": 239.5,
+     "ja": "「外は寒いですよ。中へ入れてください。」",
+     "en": "\"It's cold outside. Please let me in.\"",
+     "speaker": "Auntie"
+    },
+    {
+     "start": 242.0,
+     "end": 250.0,
+     "ja": "弟は言いました。",
+     "en": "The younger brother said:",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 251.5,
+     "end": 262.2,
+     "ja": "「かわいそうだから、入れてあげようよ。」",
+     "en": "\"I feel bad for her, so let's let her in.\"",
+     "speaker": "Brother"
+    }
+   ]
+  }
+ ],
+ "videoId": "Uw0TiBxMO_M",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

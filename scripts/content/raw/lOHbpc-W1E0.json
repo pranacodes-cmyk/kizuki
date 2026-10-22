@@ -1,0 +1,210 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.3,
+   "end": 23.4,
+   "title": "My Family and My Father",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜たり〜たりする — doing things like",
+    "〜ですが — but / although"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 3.1,
+     "ja": "私の家族は五人です。",
+     "en": "There are five people in my family.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 3.3,
+     "end": 6.5,
+     "ja": "父と母と兄と妹と私です。",
+     "en": "My father, mother, older brother, younger sister, and me.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 6.7,
+     "end": 9.8,
+     "ja": "私の家族はとても仲がいいです。",
+     "en": "My family gets along very well.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 9.9,
+     "end": 12.3,
+     "ja": "毎日一緒にご飯を食べたり、",
+     "en": "Every day, we eat meals together,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 12.3,
+     "end": 14.7,
+     "ja": "テレビを見たりします。",
+     "en": "and watch TV together.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 14.9,
+     "end": 17.0,
+     "ja": "父は会社員です。",
+     "en": "My father is an office worker.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 17.2,
+     "end": 20.0,
+     "ja": "毎朝早く会社へ行きます。",
+     "en": "He goes to the office early every morning.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 20.3,
+     "end": 23.1,
+     "ja": "少し怖いですが、優しいです。",
+     "en": "He's a little scary, but kind.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 23.5,
+   "end": 41.8,
+   "title": "My Mother and Older Brother",
+   "level": "N5",
+   "topics": [
+    "family",
+    "food",
+    "sports"
+   ],
+   "grammar": [
+    "〜てくれる — doing something for someone",
+    "〜が好き — like something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.8,
+     "end": 25.4,
+     "ja": "母は主婦です。",
+     "en": "My mother is a homemaker.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 25.5,
+     "end": 27.6,
+     "ja": "料理がとても上手です。",
+     "en": "She is very good at cooking.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 27.8,
+     "end": 31.5,
+     "ja": "母のカレーライスはとてもおいしいです。",
+     "en": "My mother's curry rice is delicious.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 31.7,
+     "end": 33.8,
+     "ja": "兄は大学生です。",
+     "en": "My older brother is a university student.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 34.0,
+     "end": 35.8,
+     "ja": "サッカーが好きで、",
+     "en": "He likes soccer,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 35.8,
+     "end": 38.3,
+     "ja": "よく友達とサッカーをします。",
+     "en": "and often plays soccer with his friends.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 38.5,
+     "end": 41.5,
+     "ja": "時々私にもサッカーを教えてくれます。",
+     "en": "Sometimes he teaches me soccer too.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 106.5,
+   "end": 128.5,
+   "title": "Spending Time with Family",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜たり〜たりする — doing things like",
+    "〜こともある — sometimes do",
+    "〜たい — want to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 106.8,
+     "end": 110.0,
+     "ja": "週末は家族と一緒に出かけます。",
+     "en": "On weekends, I go out with my family.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 110.2,
+     "end": 113.6,
+     "ja": "公園へ行ったり、映画を見たりします。",
+     "en": "We do things like going to the park and watching movies.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 113.8,
+     "end": 116.8,
+     "ja": "みんなでピクニックに行くこともあります。",
+     "en": "Sometimes we all go on a picnic together.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 117.0,
+     "end": 119.8,
+     "ja": "家族と過ごす時間が好きです。",
+     "en": "I love the time I spend with my family.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 120.3,
+     "end": 124.0,
+     "ja": "私の家族は大切な人たちです。",
+     "en": "My family are precious people to me.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 124.5,
+     "end": 128.0,
+     "ja": "これからも、ずっと一緒にいたいです。",
+     "en": "I want to be together with them always.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "lOHbpc-W1E0",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

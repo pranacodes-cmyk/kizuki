@@ -1,0 +1,219 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 161.1,
+   "end": 188.0,
+   "title": "My Brother Told Me to Take Action",
+   "level": "N3",
+   "topics": [
+    "family",
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — if / when",
+    "〜に対して — in response to",
+    "〜て言われまして — passive quotation (being told)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 161.1,
+     "end": 165.3,
+     "ja": "「お前なぁ、何かしたい、何かしたいって、もう口ばっかりやんけ。",
+     "en": "\"You know, you keep saying you want to do something, but you're all talk.",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 165.6,
+     "end": 167.3,
+     "ja": "ほんまに変わりたかったらなぁ、",
+     "en": "If you really want to change,",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 167.4,
+     "end": 170.1,
+     "ja": "何でもええから、お前、行動せえよ！」",
+     "en": "I don't care what it is, just take some action!\"",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 170.4,
+     "end": 173.7,
+     "ja": "って言われまして。その言葉がすごく響いて、",
+     "en": "That's what he said to me. Those words resonated deeply with me,",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 174.0,
+     "end": 177.8,
+     "ja": "初めて何かをしようって、大学3年生の時に思って、",
+     "en": "and for the first time, in my third year of college, I thought I should do something,",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 177.9,
+     "end": 179.7,
+     "ja": "そして僕は兄に言いました。",
+     "en": "and I said to my brother:",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 179.8,
+     "end": 183.9,
+     "ja": "「よっしゃ分かった、じゃあ俺、毎朝6時から新宿駅でゴミ拾いする！」",
+     "en": "\"Alright, got it! Then I'll pick up trash at Shinjuku Station every morning from 6 AM!\"",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 184.1,
+     "end": 186.6,
+     "ja": "って言った言葉に対して、兄がこう返しました。",
+     "en": "To which my brother responded:",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 186.9,
+     "end": 187.9,
+     "ja": "「何で？」",
+     "en": "\"Why?\"",
+     "speaker": "Yuji"
+    }
+   ]
+  },
+  {
+   "start": 500.2,
+   "end": 515.3,
+   "title": "Learning to Believe in Yourself",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜こと — nominalization (turning phrase into noun)",
+    "〜なんか — such as / like (humble or dismissive)",
+    "〜なくなる — to become unable to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 500.3,
+     "end": 502.5,
+     "ja": "自分を好きになること。",
+     "en": "Loving yourself.",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 503.0,
+     "end": 505.8,
+     "ja": "それは、自分を信じること。",
+     "en": "That meant believing in yourself.",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 506.0,
+     "end": 507.7,
+     "ja": "自信を持つことだったんですね。",
+     "en": "It was about having self-confidence.",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 508.0,
+     "end": 511.4,
+     "ja": "今まで何をやっても「俺無理無理、できへん」「いやいや、無理やから」って言って、",
+     "en": "Before, whatever I did, I would say \"No way, I can't do it,\" \"No, it's impossible,\"",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 511.6,
+     "end": 515.1,
+     "ja": "逃げてた自分なんか、好きにはなれませんでした。",
+     "en": "and I could never come to like a version of myself that just ran away.",
+     "speaker": "Yuji"
+    }
+   ]
+  },
+  {
+   "start": 756.0,
+   "end": 782.5,
+   "title": "What Can You Do Right Now?",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜と同時に — at the same time as",
+    "〜のために — for the sake of / in order to",
+    "〜ていい — it is fine to / okay to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 756.2,
+     "end": 760.3,
+     "ja": "「俺はこうなりたい、私はああなりたい」っていう理想を、",
+     "en": "Picture your ideal vision clearly: \"I want to become this, I want to become that,\"",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 760.4,
+     "end": 763.0,
+     "ja": "思いっきり綺麗に思い描いて、",
+     "en": "envision it as vividly as you can,",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 763.3,
+     "end": 766.8,
+     "ja": "それと同時に、「じゃあその理想の未来のために、",
+     "en": "and at the same time, ask yourself:",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 767.3,
+     "end": 775.6,
+     "ja": "今、俺に、今、私に、この瞬間何ができるかな」って。",
+     "en": "\"For that ideal future, what can I do right here, in this exact moment?\"",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 776.0,
+     "end": 777.5,
+     "ja": "小さな一歩でいいんです。",
+     "en": "A small step is all it takes.",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 777.7,
+     "end": 779.0,
+     "ja": "インターネットで調べる、",
+     "en": "Look something up online,",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 779.1,
+     "end": 780.5,
+     "ja": "それに関連する本を読む、",
+     "en": "read a related book,",
+     "speaker": "Yuji"
+    },
+    {
+     "start": 780.6,
+     "end": 782.3,
+     "ja": "人に話を聞いてみる。",
+     "en": "or ask someone for advice.",
+     "speaker": "Yuji"
+    }
+   ]
+  }
+ ],
+ "videoId": "TKr030nAPU4",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

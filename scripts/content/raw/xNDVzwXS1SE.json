@@ -1,0 +1,187 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 9.9,
+   "end": 29.5,
+   "title": "Asking to See a T-Shirt",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜てもいいですか — may I / is it okay to",
+    "〜はどこにありますか — where is"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.3,
+     "end": 14.6,
+     "ja": "あの、この白いTシャツを見てもいいですか？",
+     "en": "Um, may I look at this white T-shirt?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 16.4,
+     "end": 18.2,
+     "ja": "はい、どうぞ。",
+     "en": "Yes, go ahead.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 19.4,
+     "end": 22.9,
+     "ja": "こちらは今年の新しいデザインです。",
+     "en": "This is a new design for this year.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 24.6,
+     "end": 26.1,
+     "ja": "かわいいですね。",
+     "en": "It's cute.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 26.6,
+     "end": 28.7,
+     "ja": "鏡はどこにありますか？",
+     "en": "Where is the mirror?",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 202.8,
+   "end": 225.4,
+   "title": "Asking Which Bus to Take",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜へ行きます — go to (direction)",
+    "〜ましょう — let's"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 203.3,
+     "end": 207.6,
+     "ja": "いいえ、金閣寺行きはあちら、",
+     "en": "No, the one for Kinkaku-ji is over there,",
+     "speaker": "Passerby"
+    },
+    {
+     "start": 208.6,
+     "end": 211.2,
+     "ja": "反対側のバス停ですよ。",
+     "en": "the bus stop on the opposite side.",
+     "speaker": "Passerby"
+    },
+    {
+     "start": 213.2,
+     "end": 214.8,
+     "ja": "あ、そうなんですね！",
+     "en": "Ah, is that so!",
+     "speaker": "Tourist"
+    },
+    {
+     "start": 215.4,
+     "end": 218.4,
+     "ja": "教えてくれてありがとうございます。",
+     "en": "Thank you for telling me.",
+     "speaker": "Tourist"
+    },
+    {
+     "start": 220.7,
+     "end": 223.1,
+     "ja": "私もあちらへ行きますから、",
+     "en": "I'm going that way too,",
+     "speaker": "Passerby"
+    },
+    {
+     "start": 223.5,
+     "end": 224.9,
+     "ja": "一緒に行きましょう。",
+     "en": "so let's go together.",
+     "speaker": "Passerby"
+    }
+   ]
+  },
+  {
+   "start": 508.3,
+   "end": 533.1,
+   "title": "Wrong Order at the Restaurant",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていません — not yet / negative state",
+    "〜を頼みました — ordered"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 508.7,
+     "end": 512.4,
+     "ja": "あの、これ、頼んでいません。",
+     "en": "Um, I didn't order this.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 513.7,
+     "end": 515.2,
+     "ja": "え、そうですか？",
+     "en": "Oh, really?",
+     "speaker": "Waitress"
+    },
+    {
+     "start": 515.6,
+     "end": 518.2,
+     "ja": "これはカレーライスですね。",
+     "en": "This is curry and rice.",
+     "speaker": "Waitress"
+    },
+    {
+     "start": 520.1,
+     "end": 521.1,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 521.4,
+     "end": 524.3,
+     "ja": "私はオムライスを頼みました。",
+     "en": "I ordered an omelet rice.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 526.0,
+     "end": 528.9,
+     "ja": "大変失礼いたしました。",
+     "en": "I am very sorry.",
+     "speaker": "Waitress"
+    },
+    {
+     "start": 530.0,
+     "end": 532.5,
+     "ja": "すぐに確認します。",
+     "en": "I will check right away.",
+     "speaker": "Waitress"
+    }
+   ]
+  }
+ ],
+ "videoId": "xNDVzwXS1SE",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

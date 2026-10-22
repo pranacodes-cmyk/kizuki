@@ -1,0 +1,122 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.5,
+   "end": 26.5,
+   "title": "Waking Up as a Freelancer",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜ことが多い — often the case that",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 12.8,
+     "end": 14.8,
+     "ja": "9時、起床。",
+     "en": "9:00 AM, waking up.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 15.5,
+     "end": 21.8,
+     "ja": "前の日は編集で夜更かししていることが多いので、朝はゆっくりです。",
+     "en": "Since I often stay up late editing the night before, mornings are relaxed.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 22.5,
+     "end": 25.8,
+     "ja": "これは個人事業主の特権ですね。",
+     "en": "This is a privilege of being self-employed.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 55.8,
+   "end": 113.0,
+   "title": "Morning Skincare Routine",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — when / after",
+    "〜ていく — to go on doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 56.0,
+     "end": 59.8,
+     "ja": "シャワーから上がったらスキンケアは欠かせません。",
+     "en": "Once I get out of the shower, skincare is essential.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 102.8,
+     "end": 106.6,
+     "ja": "まずジェリー状の先行美容液を塗り、",
+     "en": "First, I apply a jelly pre-serum,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 108.8,
+     "end": 112.5,
+     "ja": "化粧水、乳液を塗っていきます。",
+     "en": "and then continue with toner and lotion.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 127.0,
+   "end": 140.0,
+   "title": "Morning Herbal Tea",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜ことができる — to be able to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 127.5,
+     "end": 128.8,
+     "ja": "9時半。",
+     "en": "9:30 AM.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 129.3,
+     "end": 133.8,
+     "ja": "それから毎朝一杯のハーブティーを飲みます。",
+     "en": "Then, I drink a cup of herbal tea every morning.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 135.0,
+     "end": 139.2,
+     "ja": "これで爽やかに朝を過ごすことができます。",
+     "en": "This allows me to spend a refreshing morning.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "jIBlAoXtBCU",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

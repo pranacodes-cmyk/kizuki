@@ -1,0 +1,209 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 55.0,
+   "end": 69.8,
+   "title": "Can You Handle Spicy Food?",
+   "level": "N3",
+   "topics": [
+    "food",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜ちゃう — do completely / unintentionally",
+    "〜てられない — cannot afford to / can't keep doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 55.0,
+     "end": 56.6,
+     "ja": "どうですか？激辛。",
+     "en": "How are you with super spicy food?",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 56.8,
+     "end": 59.5,
+     "ja": "そうですね、僕は辛いものは好きなんですけど、",
+     "en": "Well, I like spicy food, but...",
+     "speaker": "Nicholas"
+    },
+    {
+     "start": 59.5,
+     "end": 63.8,
+     "ja": "NICHOLASは本当に、結構激辛のものとかも食べれちゃう人で、",
+     "en": "Nicholas is someone who can really eat super spicy things.",
+     "speaker": "K"
+    },
+    {
+     "start": 63.9,
+     "end": 65.4,
+     "ja": "でも負けてられないですよね？Kさん。",
+     "en": "But you can't lose to him, right, K?",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 65.4,
+     "end": 67.0,
+     "ja": "当たり前じゃないですか。",
+     "en": "Of course not!",
+     "speaker": "K"
+    },
+    {
+     "start": 67.0,
+     "end": 69.8,
+     "ja": "辛いK。逆か！",
+     "en": "Spicy K. Wait, the other way around!",
+     "speaker": "K"
+    }
+   ]
+  },
+  {
+   "start": 126.8,
+   "end": 141.5,
+   "title": "Spicy Cheese on Fire",
+   "level": "N3",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜込む — into / thoroughly",
+    "〜やすい — easy to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 126.8,
+     "end": 128.0,
+     "ja": "うわぁ！",
+     "en": "Whoa!",
+     "speaker": "Nicholas"
+    },
+    {
+     "start": 128.0,
+     "end": 129.3,
+     "ja": "なにチーズですか？これは。",
+     "en": "What kind of cheese is this?",
+     "speaker": "Nicholas"
+    },
+    {
+     "start": 129.3,
+     "end": 133.5,
+     "ja": "レッドチリパウダーとかも練り込んだ、スパイシーチーズ…",
+     "en": "Spicy cheese mixed with things like red chili powder...",
+     "speaker": "Chef"
+    },
+    {
+     "start": 133.6,
+     "end": 135.9,
+     "ja": "スパイシーチーズ、わかりやすいですね。",
+     "en": "Spicy cheese, very straightforward.",
+     "speaker": "Nicholas"
+    },
+    {
+     "start": 136.0,
+     "end": 137.2,
+     "ja": "シンプルな名前だったね。",
+     "en": "That was a simple name.",
+     "speaker": "K"
+    },
+    {
+     "start": 137.2,
+     "end": 137.8,
+     "ja": "本当に。",
+     "en": "Truly.",
+     "speaker": "Nicholas"
+    },
+    {
+     "start": 137.8,
+     "end": 139.4,
+     "ja": "うわっ、きた！",
+     "en": "Whoa, here it comes!",
+     "speaker": "K"
+    },
+    {
+     "start": 139.4,
+     "end": 141.5,
+     "ja": "ファイヤー！",
+     "en": "Fire!",
+     "speaker": "K"
+    }
+   ]
+  },
+  {
+   "start": 343.0,
+   "end": 354.8,
+   "title": "A Time Difference for Spiciness",
+   "level": "N3",
+   "topics": [
+    "food",
+    "comedy"
+   ],
+   "grammar": [
+    "〜くらい — about / as much as",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 343.0,
+     "end": 344.7,
+     "ja": "カレーめっちゃうまいです。",
+     "en": "The curry is super good.",
+     "speaker": "Nicholas"
+    },
+    {
+     "start": 344.7,
+     "end": 346.3,
+     "ja": "カレー大好きなので。",
+     "en": "Because I love curry.",
+     "speaker": "Nicholas"
+    },
+    {
+     "start": 346.3,
+     "end": 347.4,
+     "ja": "で、これで…",
+     "en": "And with this...",
+     "speaker": "Nicholas"
+    },
+    {
+     "start": 347.4,
+     "end": 348.8,
+     "ja": "ちょ、ちょ、ちょっと待ってください。",
+     "en": "W-W-Wait a second.",
+     "speaker": "K"
+    },
+    {
+     "start": 348.8,
+     "end": 350.0,
+     "ja": "どうしました？",
+     "en": "What's wrong?",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 350.0,
+     "end": 353.3,
+     "ja": "日本とオーストラリアくらい時差があるわ。",
+     "en": "There's a time difference like Japan and Australia.",
+     "speaker": "K"
+    },
+    {
+     "start": 353.3,
+     "end": 354.8,
+     "ja": "辛さの。",
+     "en": "With the spiciness.",
+     "speaker": "K"
+    }
+   ]
+  }
+ ],
+ "videoId": "rlXsAwzNGwo",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

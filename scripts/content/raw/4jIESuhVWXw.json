@@ -1,0 +1,209 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 62.0,
+   "end": 81.0,
+   "title": "Job Interview Self-Introduction",
+   "level": "N4",
+   "topics": [
+    "work",
+    "school"
+   ],
+   "grammar": [
+    "〜と申します — humble form of to be called",
+    "〜てから / 〜て — temporal sequence",
+    "〜目 — ordinal counter suffix"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 62.0,
+     "end": 64.5,
+     "ja": "では、最初に自己紹介をお願いできますか？",
+     "en": "Now, could you first introduce yourself?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 65.1,
+     "end": 66.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "May"
+    },
+    {
+     "start": 66.8,
+     "end": 70.0,
+     "ja": "私の名前は、メイ・ヤモン・カインと申します。",
+     "en": "My name is May Yamon Khaing.",
+     "speaker": "May"
+    },
+    {
+     "start": 70.1,
+     "end": 72.3,
+     "ja": "ミャンマーからの留学生です。",
+     "en": "I am an international student from Myanmar.",
+     "speaker": "May"
+    },
+    {
+     "start": 72.6,
+     "end": 75.6,
+     "ja": "今は中央大学法学部４年生です。",
+     "en": "I am currently a fourth-year student in the Faculty of Law at Chuo University.",
+     "speaker": "May"
+    },
+    {
+     "start": 75.9,
+     "end": 78.0,
+     "ja": "日本に来て６年目になります。",
+     "en": "It has been six years since I came to Japan.",
+     "speaker": "May"
+    },
+    {
+     "start": 78.1,
+     "end": 80.6,
+     "ja": "本日は面接よろしくお願いいたします。",
+     "en": "Thank you very much for having me for this interview today.",
+     "speaker": "May"
+    }
+   ]
+  },
+  {
+   "start": 200.5,
+   "end": 225.8,
+   "title": "Don't Worry About Minor Slips of Tongue",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜必要がない — no need to",
+    "〜ば — conditional if/when",
+    "〜ぐらい — to the extent of / just"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 200.6,
+     "end": 203.2,
+     "ja": "ここは逆に、俺、言い間違いを",
+     "en": "On the contrary, I feel that slips of the tongue...",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 203.3,
+     "end": 204.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "May"
+    },
+    {
+     "start": 205.4,
+     "end": 208.0,
+     "ja": "そんなに実は気にする必要がないと思っていて、",
+     "en": "...are actually not something you need to worry that much about.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 208.8,
+     "end": 210.8,
+     "ja": "その、ニュアンスが伝われば",
+     "en": "As long as the nuance comes across,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 211.0,
+     "end": 212.7,
+     "ja": "面接官は分かるから、",
+     "en": "the interviewer will understand.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 219.5,
+     "end": 221.5,
+     "ja": "ちょっとした言い間違いぐらいだったら、",
+     "en": "If it's just a slight slip of the tongue,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 221.6,
+     "end": 223.2,
+     "ja": "あんまり気にしてないっていうのが、",
+     "en": "the interviewer won't really mind,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 223.3,
+     "end": 225.5,
+     "ja": "多分面接官の見方だと思う。",
+     "en": "I think that's how interviewers see it.",
+     "speaker": "Interviewer"
+    }
+   ]
+  },
+  {
+   "start": 248.5,
+   "end": 261.5,
+   "title": "Advice on Numbering Your Talking Points",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜って言って — quoting speech",
+    "〜のに — even though / despite",
+    "〜た方がいい — had better / should"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 248.7,
+     "end": 251.2,
+     "ja": "「あの、２点あります」とかって言って、",
+     "en": "If you say something like, 'There are two points,'",
+     "speaker": "Interviewer 2"
+    },
+    {
+     "start": 251.7,
+     "end": 254.6,
+     "ja": "１つは何々、１つは何々っていう風に収められると、",
+     "en": "and structure it as 'one is..., and the other is...',",
+     "speaker": "Interviewer 2"
+    },
+    {
+     "start": 254.7,
+     "end": 256.1,
+     "ja": "もっと良くなったよね。",
+     "en": "it would have been even better.",
+     "speaker": "Interviewer 2"
+    },
+    {
+     "start": 255.8,
+     "end": 256.7,
+     "ja": "そうですね。",
+     "en": "That's true.",
+     "speaker": "May"
+    },
+    {
+     "start": 256.8,
+     "end": 259.4,
+     "ja": "最初にまとめて「２点あります」って言いたいのに、",
+     "en": "I wanted to summarize and say 'there are two points' at first,",
+     "speaker": "May"
+    },
+    {
+     "start": 259.5,
+     "end": 261.0,
+     "ja": "余裕がなかったんですよね。",
+     "en": "but I just didn't have the composure.",
+     "speaker": "May"
+    }
+   ]
+  }
+ ],
+ "videoId": "4jIESuhVWXw",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

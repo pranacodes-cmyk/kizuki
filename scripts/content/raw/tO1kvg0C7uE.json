@@ -1,0 +1,224 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 13.5,
+   "end": 35.0,
+   "title": "Trying Out Convenience Store Sweets",
+   "level": "N4",
+   "topics": [
+    "food",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てみよう — let's try doing",
+    "〜とか — things like / and so on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.5,
+     "end": 15.6,
+     "ja": "どうも、かまいたちです！",
+     "en": "Hello, we are Kamaitachi!",
+     "speaker": "Both"
+    },
+    {
+     "start": 18.8,
+     "end": 22.3,
+     "ja": "さあ、本日はコンビニのスイーツ色々食べてみよう！",
+     "en": "Well, today let's try a variety of convenience store sweets!",
+     "speaker": "Hamaiye"
+    },
+    {
+     "start": 23.2,
+     "end": 25.8,
+     "ja": "すごいな。最新？",
+     "en": "Incredible. Are these the latest ones?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 26.0,
+     "end": 28.0,
+     "ja": "最新の新発売のやつとかも。",
+     "en": "Yes, newly released ones,",
+     "speaker": "Staff"
+    },
+    {
+     "start": 28.2,
+     "end": 29.8,
+     "ja": "あと元々あるやつとかも。",
+     "en": "as well as some existing staples.",
+     "speaker": "Hamaiye"
+    },
+    {
+     "start": 30.0,
+     "end": 33.8,
+     "ja": "ちょっと定番とか、僕個人的に気になったやつとか。",
+     "en": "Standard ones, and some I was personally curious about.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 33.9,
+     "end": 35.0,
+     "ja": "なるほどな。",
+     "en": "I see.",
+     "speaker": "Yamauchi"
+    }
+   ]
+  },
+  {
+   "start": 1709.3,
+   "end": 1728.0,
+   "title": "Guessing the Calories",
+   "level": "N3",
+   "topics": [
+    "food",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜やん — Kansai copula (isn't it)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1709.3,
+     "end": 1711.8,
+     "ja": "ちょっと見して、パッと。",
+     "en": "Show me quickly for a second.",
+     "speaker": "Hamaiye"
+    },
+    {
+     "start": 1712.2,
+     "end": 1714.8,
+     "ja": "意外に258ぐらい。",
+     "en": "Surprisingly, around 258.",
+     "speaker": "Hamaiye"
+    },
+    {
+     "start": 1715.2,
+     "end": 1717.0,
+     "ja": "337。",
+     "en": "337.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 1717.1,
+     "end": 1718.5,
+     "ja": "全然ちゃうやん…",
+     "en": "Not even close...",
+     "speaker": "Hamaiye"
+    },
+    {
+     "start": 1718.6,
+     "end": 1720.5,
+     "ja": "全然わかってない。",
+     "en": "You have no idea at all.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 1722.0,
+     "end": 1725.0,
+     "ja": "えー、これ280ぐらいやな。",
+     "en": "Uh, this one is around 280.",
+     "speaker": "Hamaiye"
+    },
+    {
+     "start": 1725.3,
+     "end": 1726.7,
+     "ja": "374。",
+     "en": "374.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 1726.8,
+     "end": 1728.0,
+     "ja": "全然違う。",
+     "en": "Completely off.",
+     "speaker": "Hamaiye"
+    }
+   ]
+  },
+  {
+   "start": 1829.0,
+   "end": 1849.0,
+   "title": "Spot-On Calorie Guess",
+   "level": "N3",
+   "topics": [
+    "food",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜ても — even if / even though",
+    "〜のが得意 — good at doing something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1829.5,
+     "end": 1831.2,
+     "ja": "バターだ。",
+     "en": "It's got butter.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 1831.4,
+     "end": 1832.4,
+     "ja": "します。",
+     "en": "It sure does.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 1832.6,
+     "end": 1835.2,
+     "ja": "この大きさでも結構します。",
+     "en": "Even at this size, it has quite a bit.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 1835.4,
+     "end": 1837.0,
+     "ja": "220！",
+     "en": "220!",
+     "speaker": "Hamaiye"
+    },
+    {
+     "start": 1837.1,
+     "end": 1838.2,
+     "ja": "221。",
+     "en": "221.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 1838.3,
+     "end": 1840.0,
+     "ja": "すごい！",
+     "en": "Amazing!",
+     "speaker": "Hamaiye"
+    },
+    {
+     "start": 1841.2,
+     "end": 1844.0,
+     "ja": "俺、俺そんなにすごかった？",
+     "en": "Was I... was I really that good?",
+     "speaker": "Hamaiye"
+    },
+    {
+     "start": 1844.2,
+     "end": 1848.8,
+     "ja": "お前カロリーの人やったん？カロリー当てんのが得意な人やったん？",
+     "en": "Were you the calorie guy? Were you someone who's good at guessing calories?",
+     "speaker": "Yamauchi"
+    }
+   ]
+  }
+ ],
+ "videoId": "tO1kvg0C7uE",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

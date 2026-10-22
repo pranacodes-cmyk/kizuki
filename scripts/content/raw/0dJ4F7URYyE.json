@@ -1,0 +1,184 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.3,
+   "end": 138.8,
+   "title": "Staff Calling Their Outfits Warm",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "friends",
+    "travel"
+   ],
+   "grammar": [
+    "〜そう — looks like",
+    "〜ろ — imperative form",
+    "〜って言われる — passive form of reporting"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 130.6,
+     "end": 133.0,
+     "ja": "全員から「暖かそうですね」って言われるから",
+     "en": "Because everyone says, \"That looks warm!\"",
+     "speaker": "A"
+    },
+    {
+     "start": 133.0,
+     "end": 134.1,
+     "ja": "それマニュアルだよ。",
+     "en": "That's in the manual.",
+     "speaker": "B"
+    },
+    {
+     "start": 134.1,
+     "end": 135.0,
+     "ja": "怒られろ！",
+     "en": "Get scolded!",
+     "speaker": "A"
+    },
+    {
+     "start": 135.0,
+     "end": 136.3,
+     "ja": "そう、絶対マニュアル。",
+     "en": "Yeah, definitely the manual.",
+     "speaker": "B"
+    },
+    {
+     "start": 136.3,
+     "end": 138.5,
+     "ja": "暖かそうな服装でーす！",
+     "en": "It's warm-looking clothing!",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 613.5,
+   "end": 627.5,
+   "title": "Exploring the Retro Shopping Street",
+   "level": "N3",
+   "topics": [
+    "food",
+    "friends",
+    "travel"
+   ],
+   "grammar": [
+    "〜ほど — the more... the more...",
+    "〜ね — agreement tag question"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 613.6,
+     "end": 615.0,
+     "ja": "いいねー。",
+     "en": "Nice.",
+     "speaker": "A"
+    },
+    {
+     "start": 615.8,
+     "end": 618.5,
+     "ja": "韓国にいる感じあるね、ちょっと。",
+     "en": "It kind of feels like being in Korea, a bit.",
+     "speaker": "A"
+    },
+    {
+     "start": 618.7,
+     "end": 620.0,
+     "ja": "ちょっとあるね。",
+     "en": "A little bit, yeah.",
+     "speaker": "B"
+    },
+    {
+     "start": 620.4,
+     "end": 622.3,
+     "ja": "なんかさ、ちょっと廃れてる...",
+     "en": "Like, it's a bit run-down...",
+     "speaker": "A"
+    },
+    {
+     "start": 622.4,
+     "end": 625.5,
+     "ja": "廃れてる店ほどうまいんだよ。",
+     "en": "The more run-down the shop, the tastier it is.",
+     "speaker": "B"
+    },
+    {
+     "start": 625.8,
+     "end": 627.0,
+     "ja": "それはある。",
+     "en": "That's true.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 720.5,
+   "end": 732.5,
+   "title": "Buying Colorful Korean Rice Cakes",
+   "level": "N4",
+   "topics": [
+    "food",
+    "friends",
+    "travel"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜ていい — permission (is it okay to)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 720.6,
+     "end": 721.7,
+     "ja": "え！食べてみる？",
+     "en": "Oh, wanna try eating this?",
+     "speaker": "A"
+    },
+    {
+     "start": 721.8,
+     "end": 723.0,
+     "ja": "もちろん食べます。",
+     "en": "Of course we'll eat it.",
+     "speaker": "B"
+    },
+    {
+     "start": 723.0,
+     "end": 723.8,
+     "ja": "開けていい？",
+     "en": "Can I open it?",
+     "speaker": "B"
+    },
+    {
+     "start": 723.8,
+     "end": 724.8,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "A"
+    },
+    {
+     "start": 727.5,
+     "end": 729.5,
+     "ja": "うわ、めっちゃ可愛いね！",
+     "en": "Whoa, it's super cute!",
+     "speaker": "A"
+    },
+    {
+     "start": 729.6,
+     "end": 731.5,
+     "ja": "超可愛い。",
+     "en": "Super cute.",
+     "speaker": "B"
+    }
+   ]
+  }
+ ],
+ "videoId": "0dJ4F7URYyE",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

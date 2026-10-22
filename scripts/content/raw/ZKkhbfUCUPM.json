@@ -1,0 +1,151 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 17.0,
+   "end": 29.6,
+   "title": "That's Really Unfair",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "romance"
+   ],
+   "grammar": [
+    "〜んだろう — wondering",
+    "〜けど — but / although"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 17.1,
+     "end": 22.2,
+     "ja": "これっていつまで続くんだろうと思ったら、ふわっと。",
+     "en": "I wondered how long this would go on, and then suddenly...",
+     "speaker": "Kazuto"
+    },
+    {
+     "start": 22.4,
+     "end": 23.9,
+     "ja": "何だよ、それ。",
+     "en": "What kind of answer is that?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 24.4,
+     "end": 26.8,
+     "ja": "真部くんのことよく知らないけど、",
+     "en": "I don't know much about you, Manabe,",
+     "speaker": "Matsuri"
+    },
+    {
+     "start": 27.0,
+     "end": 29.3,
+     "ja": "それってすごいずるい。",
+     "en": "but that's really unfair.",
+     "speaker": "Matsuri"
+    }
+   ]
+  },
+  {
+   "start": 33.6,
+   "end": 43.8,
+   "title": "Please Don't Think of Dying",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "romance"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜ないでください — please don't"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 33.7,
+     "end": 37.8,
+     "ja": "とりあえず、やれることからやってみようかなって。",
+     "en": "For now, I thought I'd just try doing what I can.",
+     "speaker": "Kazuto"
+    },
+    {
+     "start": 38.1,
+     "end": 40.5,
+     "ja": "私も頑張るからさ。",
+     "en": "I'll do my best too.",
+     "speaker": "Matsuri"
+    },
+    {
+     "start": 40.7,
+     "end": 43.5,
+     "ja": "もう死にたいなんて思わないでください。",
+     "en": "So please don't ever think about wanting to die again.",
+     "speaker": "Matsuri"
+    }
+   ]
+  },
+  {
+   "start": 56.0,
+   "end": 72.2,
+   "title": "I'll Protect You",
+   "level": "N3",
+   "topics": [
+    "romance"
+   ],
+   "grammar": [
+    "〜ないで — don't / without",
+    "〜たら — if / when"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 56.2,
+     "end": 57.4,
+     "ja": "ズルいって何？",
+     "en": "What do you mean, 'unfair'?",
+     "speaker": "Matsuri"
+    },
+    {
+     "start": 57.5,
+     "end": 59.5,
+     "ja": "私のこと何にも知らないで、",
+     "en": "You don't know anything about me,",
+     "speaker": "Matsuri"
+    },
+    {
+     "start": 59.7,
+     "end": 62.0,
+     "ja": "勝手に色々決めつけないでよ。",
+     "en": "so stop making assumptions!",
+     "speaker": "Matsuri"
+    },
+    {
+     "start": 62.3,
+     "end": 64.6,
+     "ja": "俺が茉莉さんのこと守るから、",
+     "en": "I'll protect you, Matsuri-san, so...",
+     "speaker": "Kazuto"
+    },
+    {
+     "start": 64.7,
+     "end": 66.5,
+     "ja": "一緒にいてください。",
+     "en": "please stay with me.",
+     "speaker": "Kazuto"
+    },
+    {
+     "start": 67.5,
+     "end": 71.8,
+     "ja": "これ以上家族以外いたら、死ぬのが怖くなる。",
+     "en": "If I care about anyone besides family, dying becomes terrifying.",
+     "speaker": "Matsuri"
+    }
+   ]
+  }
+ ],
+ "videoId": "ZKkhbfUCUPM",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

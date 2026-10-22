@@ -1,0 +1,63 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 2.7,
+   "end": 18.9,
+   "title": "Welcome to the Snack Quiz Challenge",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "どれだけ〜か — how much / to what extent",
+    "〜たびに — each time / every time"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.0,
+     "end": 5.9,
+     "ja": "あなたはどれだけお菓子を知っているかな？",
+     "en": "How well do you know snacks, I wonder?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 6.2,
+     "end": 8.0,
+     "ja": "今から出題する52問のクイズで、",
+     "en": "With the 52 quiz questions starting now,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 8.0,
+     "end": 10.6,
+     "ja": "あなたのお菓子愛を証明しよう！",
+     "en": "let's prove your love for snacks!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 12.3,
+     "end": 16.0,
+     "ja": "クイズを一つ一つ正解するたびにお菓子マニアに近づくよ！",
+     "en": "With every question you get right, you get closer to being a snack maniac!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 16.5,
+     "end": 18.5,
+     "ja": "準備はいい？始めるよ！",
+     "en": "Are you ready? Let's begin!",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "lh-Wijo_Tec",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

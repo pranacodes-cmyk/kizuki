@@ -1,0 +1,129 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.0,
+   "end": 30.5,
+   "title": "Deciding One's Own Path",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "〜られる — potential form",
+    "〜か〜か — whether ... or ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 16.1,
+     "end": 20.3,
+     "ja": "西の国で何か不吉なことが起こっているのだよ。",
+     "en": "Something ominous is happening in the western lands.",
+     "speaker": "Elder Woman"
+    },
+    {
+     "start": 23.5,
+     "end": 26.0,
+     "ja": "誰にも運命は変えられない。",
+     "en": "No one can change their destiny.",
+     "speaker": "Elder Woman"
+    },
+    {
+     "start": 26.4,
+     "end": 30.3,
+     "ja": "だが、ただ待つか自ら赴くかは決められる。",
+     "en": "Yet one can decide whether to just wait or to go face it.",
+     "speaker": "Elder Woman"
+    }
+   ]
+  },
+  {
+   "start": 43.3,
+   "end": 51.3,
+   "title": "Is Conflict Inevitable?",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜ずに済む — avoid having to do",
+    "〜気だ — intend to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 43.5,
+     "end": 46.8,
+     "ja": "森と人とが争わずに済む道はないのか？",
+     "en": "Is there no way for the forest and humans to avoid conflict?",
+     "speaker": "Ashitaka"
+    },
+    {
+     "start": 46.8,
+     "end": 48.9,
+     "ja": "本当にもう止められないのか？",
+     "en": "Can it truly not be stopped anymore?",
+     "speaker": "Ashitaka"
+    },
+    {
+     "start": 49.0,
+     "end": 51.2,
+     "ja": "サンをどうする気だ？",
+     "en": "What do you intend to do with San?",
+     "speaker": "Ashitaka"
+    }
+   ]
+  },
+  {
+   "start": 119.0,
+   "end": 129.5,
+   "title": "Living Together",
+   "level": "N4",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜える — potential form",
+    "〜ことができる — can do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 119.2,
+     "end": 120.9,
+     "ja": "アシタカ。",
+     "en": "Ashitaka.",
+     "speaker": "Moro"
+    },
+    {
+     "start": 121.0,
+     "end": 123.2,
+     "ja": "お前にサンが救えるか？",
+     "en": "Can you save San?",
+     "speaker": "Moro"
+    },
+    {
+     "start": 124.9,
+     "end": 126.2,
+     "ja": "わからん。",
+     "en": "I don't know.",
+     "speaker": "Ashitaka"
+    },
+    {
+     "start": 126.8,
+     "end": 129.2,
+     "ja": "だが、共に生きることはできる！",
+     "en": "But we can live together!",
+     "speaker": "Ashitaka"
+    }
+   ]
+  }
+ ],
+ "videoId": "3fAfrNvIwMk",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

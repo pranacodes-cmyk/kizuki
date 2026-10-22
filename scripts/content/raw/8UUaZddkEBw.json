@@ -1,0 +1,163 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 341.6,
+   "end": 371.3,
+   "title": "Explaining the Proposed Food Tax Cut",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜てらっしゃる — respectful form of 〜ている",
+    "〜てしまう — unintentional action",
+    "〜ということで — based on the fact that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 341.9,
+     "end": 348.9,
+     "ja": "まずは今、軽減税率ね。基本的に今の消費税率、日本は10%ですが、",
+     "en": "First, the reduced tax rate. Basically, Japan's consumption tax is 10%,",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 348.9,
+     "end": 353.0,
+     "ja": "あの食料品などは軽減税率が導入されて今8%になっています。",
+     "en": "but with the reduced tax rate on groceries, it is currently 8%.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 353.0,
+     "end": 355.8,
+     "ja": "これを、本当は全てゼロにしたかったんですね。",
+     "en": "Originally, they really wanted to make this completely zero.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 355.8,
+     "end": 362.8,
+     "ja": "だけど覚えてらっしゃいますでしょうか。あのレジのね、問題があって、レジを0%にすることができないから、それだと間に合わないということで、",
+     "en": "However, do you recall? Because of cash register issues, setting it to 0% wasn't possible in time,",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 362.8,
+     "end": 367.0,
+     "ja": "でも1%に残したら、なんとか来年の春導入に間に合うということで、",
+     "en": "so keeping 1% would make it just in time for the spring rollout,",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 367.0,
+     "end": 370.8,
+     "ja": "7%減税しましょうということが、まず決まりました。",
+     "en": "and it was initially decided to reduce the tax by 7%.",
+     "speaker": "Takahashi"
+    }
+   ]
+  },
+  {
+   "start": 576.4,
+   "end": 603.8,
+   "title": "Who Qualifies for Support Handouts",
+   "level": "N2",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "あくまでも — strictly / purely",
+    "〜てらっしゃる — respectful form of 〜ている",
+    "〜てしまう — unfortunately end up doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 576.7,
+     "end": 582.4,
+     "ja": "今回はね、あくまでもあの、働く方々に対する支援なんですね。",
+     "en": "This time, the support is strictly aimed at working people.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 582.8,
+     "end": 589.6,
+     "ja": "考え方としては、働いてお給料をもらっている方でも給料が低い方のほうが、",
+     "en": "The logic is that among wage-earners, those with lower salaries",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 589.6,
+     "end": 596.5,
+     "ja": "いろんなあの社会保障の負担とか税の負担とかが高いというところで、そういう方々を支援していくということが大前提としてあるんで、",
+     "en": "carry a higher relative burden of social security and taxes, so supporting them is the core premise,",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 596.8,
+     "end": 603.3,
+     "ja": "どうしてもね、年金のみで生活されてらっしゃる方というのは、対象外に今回はなってしまうということなんですね。",
+     "en": "meaning inevitably, people living solely on a pension end up being excluded this time.",
+     "speaker": "Takahashi"
+    }
+   ]
+  },
+  {
+   "start": 706.7,
+   "end": 724.7,
+   "title": "Gasoline as an Economic Indicator",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "daily"
+   ],
+   "grammar": [
+    "〜ば — conditional if/when",
+    "〜てしまう — expressing feelings/completion",
+    "〜というのは — defining a topic"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 707.0,
+     "end": 710.9,
+     "ja": "あの私たちがね、一番よく見る経済指標なんですね。",
+     "en": "It's the economic indicator that we see most often in our daily lives.",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 710.9,
+     "end": 716.4,
+     "ja": "やっぱり車運転しない人、バイクに乗らない人も、街を歩けばガソリンのね、あの価格というのが分かりますから、",
+     "en": "Even people who don't drive cars or ride motorcycles notice the price of gas just by walking around town,",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 716.4,
+     "end": 719.9,
+     "ja": "「あ、上がったな」って思うと「政権何やってるんだ」っていうふうに思いますので、",
+     "en": "so when they think 'oh, it went up,' they start thinking 'what is the government doing?'",
+     "speaker": "Takahashi"
+    },
+    {
+     "start": 719.9,
+     "end": 724.2,
+     "ja": "ま、そこら辺を下げたというのは、一つ大きなあの対応なのかなと。",
+     "en": "So capping that was probably a major countermeasure.",
+     "speaker": "Takahashi"
+    }
+   ]
+  }
+ ],
+ "videoId": "8UUaZddkEBw",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

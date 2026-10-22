@@ -1,0 +1,137 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.5,
+   "end": 22.0,
+   "title": "That Cat Pose",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "animals",
+    "fun"
+   ],
+   "grammar": [
+    "〜じゃん — isn't it / right?",
+    "〜でしょ — right? / isn't it?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.7,
+     "end": 8.5,
+     "ja": "これってあれじゃん。",
+     "en": "Isn't this that thing?",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 8.8,
+     "end": 10.3,
+     "ja": "あの、何だっけ…",
+     "en": "Um, what was it called...",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 10.5,
+     "end": 12.5,
+     "ja": "あれだよあれ、あの…",
+     "en": "That thing, you know, um...",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 13.0,
+     "end": 14.3,
+     "ja": "これ！",
+     "en": "This!",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 15.8,
+     "end": 17.5,
+     "ja": "こんなんさ、絶対あれじゃん。",
+     "en": "This is definitely that, right?",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 17.6,
+     "end": 19.0,
+     "ja": "猫のさ…",
+     "en": "Cats doing...",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 20.0,
+     "end": 21.6,
+     "ja": "これでしょ？",
+     "en": "This, right?",
+     "speaker": "Hachiware"
+    }
+   ]
+  },
+  {
+   "start": 35.6,
+   "end": 53.0,
+   "title": "Meeting a Real Sphinx",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜んだね — expressing realisation",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 36.0,
+     "end": 37.8,
+     "ja": "本物だぁ。",
+     "en": "It's the real thing.",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 38.0,
+     "end": 40.6,
+     "ja": "いるんだね、こういうとこにも。",
+     "en": "They really exist in places like this too.",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 41.0,
+     "end": 42.4,
+     "ja": "でか…",
+     "en": "It's huge...",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 43.6,
+     "end": 45.3,
+     "ja": "話しかけてみよっか。",
+     "en": "Shall we try talking to it?",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 46.8,
+     "end": 47.9,
+     "ja": "なんで？",
+     "en": "Why?",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 48.1,
+     "end": 52.4,
+     "ja": "スフィンクス！スフィンクス！スフィンクース！",
+     "en": "Sphinx! Sphinx! Sphiiinx!",
+     "speaker": "Hachiware"
+    }
+   ]
+  }
+ ],
+ "videoId": "i6d3K6ln-d4",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

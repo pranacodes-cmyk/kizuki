@@ -1,0 +1,155 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.0,
+   "end": 8.3,
+   "title": "You Were My Everything",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜だった — past tense of copula",
+    "〜なかった — negative past form",
+    "〜を守る — protect someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.2,
+     "end": 4.2,
+     "ja": "あの頃、君は僕のすべてだった。",
+     "en": "Back then, you were my everything.",
+     "speaker": "Shinya"
+    },
+    {
+     "start": 4.5,
+     "end": 8.0,
+     "ja": "僕は、大切な人を守れなかった。",
+     "en": "I couldn't protect the one who mattered most.",
+     "speaker": "Shinya"
+    }
+   ]
+  },
+  {
+   "start": 9.5,
+   "end": 25.0,
+   "title": "I Want to Run Away Far Away",
+   "level": "N4",
+   "topics": [
+    "school",
+    "friends",
+    "romance"
+   ],
+   "grammar": [
+    "〜ってのどう — how about ...?",
+    "〜たい — want to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.8,
+     "end": 13.0,
+     "ja": "ねえ、私たちで部活作るってのどう？",
+     "en": "Hey, what if we started our own school club?",
+     "speaker": "Yuuka"
+    },
+    {
+     "start": 13.0,
+     "end": 14.0,
+     "ja": "部活？",
+     "en": "A club?",
+     "speaker": "Shinya"
+    },
+    {
+     "start": 14.0,
+     "end": 15.0,
+     "ja": "暇部。",
+     "en": "The Free-Time Club.",
+     "speaker": "Yuuka"
+    },
+    {
+     "start": 15.1,
+     "end": 16.8,
+     "ja": "何だそれ。",
+     "en": "What is that?",
+     "speaker": "Shinya"
+    },
+    {
+     "start": 19.7,
+     "end": 21.8,
+     "ja": "私、逃げたい。",
+     "en": "I want to run away.",
+     "speaker": "Yuuka"
+    },
+    {
+     "start": 22.0,
+     "end": 23.5,
+     "ja": "遠くに。",
+     "en": "Far away.",
+     "speaker": "Yuuka"
+    },
+    {
+     "start": 23.8,
+     "end": 24.8,
+     "ja": "行こう。",
+     "en": "Let's go.",
+     "speaker": "Shinya"
+    }
+   ]
+  },
+  {
+   "start": 45.0,
+   "end": 55.3,
+   "title": "We Will Definitely Meet Again",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "〜なら — as for / conditional",
+    "〜れる (会える / なれる) — potential form",
+    "〜から — reason / emphasis of promise"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 45.3,
+     "end": 48.5,
+     "ja": "心也くんは、私の居場所だったよ！",
+     "en": "Shinya, you were my safe place!",
+     "speaker": "Yuuka"
+    },
+    {
+     "start": 48.7,
+     "end": 51.2,
+     "ja": "夕花なら絶対幸せになれる！",
+     "en": "You can definitely be happy, Yuuka!",
+     "speaker": "Shinya"
+    },
+    {
+     "start": 51.3,
+     "end": 53.3,
+     "ja": "俺たち絶対また会える！",
+     "en": "We'll definitely meet again!",
+     "speaker": "Shinya"
+    },
+    {
+     "start": 53.4,
+     "end": 55.1,
+     "ja": "約束するから！",
+     "en": "I promise you!",
+     "speaker": "Shinya"
+    }
+   ]
+  }
+ ],
+ "videoId": "qER-uSRCW_E",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

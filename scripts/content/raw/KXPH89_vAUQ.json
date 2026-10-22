@@ -1,0 +1,201 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 26.5,
+   "end": 46.2,
+   "title": "Encouragement for Japanese Learners",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜ている — ongoing action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 26.5,
+     "end": 28.8,
+     "ja": "はい、皆さんこんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 28.8,
+     "end": 32.5,
+     "ja": "日本語コン鉄平の時間ですね。",
+     "en": "It's time for Nihongo con Teppei.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 32.9,
+     "end": 36.5,
+     "ja": "元気ですか？僕は元気ですよ。",
+     "en": "How are you? I'm doing well.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 37.0,
+     "end": 41.5,
+     "ja": "毎日、毎日、日本語を勉強してますね。",
+     "en": "You're studying Japanese every day, aren't you?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 42.0,
+     "end": 44.5,
+     "ja": "いいですね。頑張ってください。",
+     "en": "That's great. Good luck!",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 44.5,
+     "end": 46.0,
+     "ja": "ね、頑張って。",
+     "en": "Keep it up!",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 149.3,
+   "end": 208.8,
+   "title": "Languages Spoken in America",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜なので — because / since",
+    "〜を話す — to speak (a language)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 149.5,
+     "end": 151.3,
+     "ja": "そしてクリスさんは言います。",
+     "en": "And Chris says:",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 151.5,
+     "end": 153.8,
+     "ja": "「僕はアメリカ人なので、",
+     "en": "'Because I am American,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 153.8,
+     "end": 156.0,
+     "ja": "英語を話します。」",
+     "en": "I speak English.'",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 156.5,
+     "end": 159.2,
+     "ja": "アメリカ人なので英語、",
+     "en": "Since he is American, English.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 159.4,
+     "end": 162.7,
+     "ja": "アメリカでは英語が母国語ですね。",
+     "en": "In America, English is the native language.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 163.0,
+     "end": 165.2,
+     "ja": "アメリカでは英語を話します。",
+     "en": "In America, people speak English.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 165.4,
+     "end": 168.6,
+     "ja": "アメリカ人は英語を話します。なので英語を話す。",
+     "en": "Americans speak English, so he speaks English.",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 228.3,
+   "end": 249.5,
+   "title": "My Native Language and Languages I Speak",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜が話せる — potential form (can speak)",
+    "〜も — also / too"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 228.8,
+     "end": 230.8,
+     "ja": "僕もそうですね。僕も、",
+     "en": "The same goes for me too. I...",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 231.2,
+     "end": 234.3,
+     "ja": "僕は日本語が話せますね。",
+     "en": "I can speak Japanese.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 234.6,
+     "end": 237.9,
+     "ja": "僕は日本語が自分の母国語ですね。",
+     "en": "Japanese is my native language,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 238.1,
+     "end": 240.2,
+     "ja": "自分の国の言葉ね。",
+     "en": "the language of my own country.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 240.4,
+     "end": 243.5,
+     "ja": "僕は日本語が母国語です。",
+     "en": "Japanese is my native language.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 244.0,
+     "end": 246.5,
+     "ja": "そして、英語を話しますね。",
+     "en": "And I speak English.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 246.8,
+     "end": 249.0,
+     "ja": "僕は英語も話します。",
+     "en": "I speak English as well.",
+     "speaker": "Teppei"
+    }
+   ]
+  }
+ ],
+ "videoId": "KXPH89_vAUQ",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

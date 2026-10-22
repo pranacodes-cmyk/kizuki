@@ -1,0 +1,164 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 125.4,
+   "end": 148.0,
+   "title": "Asking for Directions",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "どうやって — how / by what means",
+    "〜まで — until / up to (destination)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 125.4,
+     "end": 128.5,
+     "ja": "フレーズ5、どうやって行きますか？",
+     "en": "Phrase 5: How do I get there?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 128.7,
+     "end": 131.7,
+     "ja": "どうやって行きますか？",
+     "en": "How do I get there?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 132.0,
+     "end": 136.0,
+     "ja": "シチュエーション：道案内を求める時。",
+     "en": "Situation: When asking for directions.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 136.4,
+     "end": 142.3,
+     "ja": "例文：すみません、東京タワーまでどうやって行きますか？",
+     "en": "Example: Excuse me, how do I get to Tokyo Tower?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 142.7,
+     "end": 148.0,
+     "ja": "すみません、東京タワーまでどうやって行きますか？",
+     "en": "Excuse me, how do I get to Tokyo Tower?",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 278.5,
+   "end": 301.0,
+   "title": "Asking for the Menu at a Restaurant",
+   "level": "N5",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜をお願いします — please give me ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 278.8,
+     "end": 282.9,
+     "ja": "フレーズ11、メニューをお願いします。",
+     "en": "Phrase 11: Could I have the menu, please?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 283.2,
+     "end": 286.5,
+     "ja": "メニューをお願いします。",
+     "en": "Could I have the menu, please?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 287.0,
+     "end": 291.5,
+     "ja": "シチュエーション：レストランでメニューをお願いする時。",
+     "en": "Situation: When asking for the menu at a restaurant.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 292.0,
+     "end": 296.5,
+     "ja": "例文：すみません、メニューをお願いします。",
+     "en": "Example: Excuse me, could I have the menu, please?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 297.0,
+     "end": 301.0,
+     "ja": "すみません、メニューをお願いします。",
+     "en": "Excuse me, could I have the menu, please?",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 522.5,
+   "end": 547.0,
+   "title": "Checking In at a Hotel",
+   "level": "N5",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "〜をお願いします — please do ~ / ~ please",
+    "〜ています — state / progressive"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 522.8,
+     "end": 526.0,
+     "ja": "フレーズ21、チェックインをお願いします。",
+     "en": "Phrase 21: I'd like to check in, please.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 526.4,
+     "end": 529.8,
+     "ja": "チェックインをお願いします。",
+     "en": "I'd like to check in, please.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 530.0,
+     "end": 535.2,
+     "ja": "シチュエーション：ホテルに到着してチェックインする時。",
+     "en": "Situation: When arriving at a hotel and checking in.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 535.7,
+     "end": 541.3,
+     "ja": "例文：チェックインをお願いします。予約をしています。",
+     "en": "Example: I'd like to check in, please. I have a reservation.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 541.8,
+     "end": 547.0,
+     "ja": "チェックインをお願いします。予約をしています。",
+     "en": "I'd like to check in, please. I have a reservation.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "ybs4OHyd2Fg",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

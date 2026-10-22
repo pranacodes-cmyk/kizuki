@@ -1,0 +1,235 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 525.0,
+   "end": 546.0,
+   "title": "Fresh Dango After Takoyaki",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel",
+    "family"
+   ],
+   "grammar": [
+    "〜てくる — change of state over time",
+    "〜そう — looks like",
+    "〜てた — casual ongoing action / past habit"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 525.2,
+     "end": 526.0,
+     "ja": "はい、ということで、",
+     "en": "Alright, so,",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 526.1,
+     "end": 529.5,
+     "ja": "甘い口になってきたので、お団子を買いました！",
+     "en": "we were craving something sweet, so we bought dango!",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 529.8,
+     "end": 532.5,
+     "ja": "結構屋台みたいなの多かったよね。",
+     "en": "There were quite a lot of street food stalls, wasn't there?",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 533.0,
+     "end": 534.0,
+     "ja": "焼きたてだよ。",
+     "en": "They're freshly grilled.",
+     "speaker": "Sumire"
+    },
+    {
+     "start": 534.2,
+     "end": 535.5,
+     "ja": "それな！",
+     "en": "Totally!",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 536.0,
+     "end": 537.8,
+     "ja": "熱そう！見て！湯気が！",
+     "en": "Looks hot! Look! There's steam!",
+     "speaker": "Shizuku"
+    },
+    {
+     "start": 538.0,
+     "end": 541.0,
+     "ja": "うちらよくさ、スーパーに売ってる3本入りの買ってなかった？",
+     "en": "Didn't we often buy the 3-packs they sell at supermarkets?",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 541.2,
+     "end": 542.8,
+     "ja": "毎日買ってて草。",
+     "en": "We bought them every day, lol.",
+     "speaker": "Sumire"
+    },
+    {
+     "start": 543.0,
+     "end": 545.5,
+     "ja": "いただきます！",
+     "en": "Let's eat!",
+     "speaker": "Girls"
+    }
+   ]
+  },
+  {
+   "start": 606.8,
+   "end": 640.2,
+   "title": "Visiting a Retro Coffee Shop in Osaka",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜という — called / named",
+    "〜やがる — expressing annoyance/mocking",
+    "〜じゃなくて — not A, but B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 607.0,
+     "end": 614.2,
+     "ja": "はい、ということで、道頓堀の商店街のところにある「アメリカン」というレトロな喫茶店に来ました！",
+     "en": "Alright, so we came to a retro cafe called American in the Dotonbori shopping street!",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 615.2,
+     "end": 619.5,
+     "ja": "私たちはやっぱりレトロな女だから...",
+     "en": "Because after all, we're retro girls...",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 624.5,
+     "end": 627.0,
+     "ja": "クリームソーダを頼んだんですけど、",
+     "en": "We ordered cream sodas, but...",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 627.1,
+     "end": 630.8,
+     "ja": "なんと！三女の女、横を見てください。こちら！",
+     "en": "Look at the third sister next to us! Look!",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 631.0,
+     "end": 633.5,
+     "ja": "コーラ！コーラを頼みやがった。",
+     "en": "Cola! She went and ordered a cola.",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 634.2,
+     "end": 637.8,
+     "ja": "しかもコーラフロートじゃなくて普通のコーラ！",
+     "en": "And not even a cola float, just a regular cola!",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 638.0,
+     "end": 639.8,
+     "ja": "どこでも飲めるよね？",
+     "en": "You can drink that anywhere, right?",
+     "speaker": "Sakura"
+    }
+   ]
+  },
+  {
+   "start": 715.0,
+   "end": 743.0,
+   "title": "Sisters' Food Review of Cream Soda and Cola",
+   "level": "N3",
+   "topics": [
+    "food",
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜すぎず — not too...",
+    "〜より — comparison",
+    "〜てみなさい — try doing (imperative/suggestion)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 715.2,
+     "end": 716.8,
+     "ja": "しずくちゃん、食レポお願いします！",
+     "en": "Shizuku-chan, give us a food review, please!",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 717.0,
+     "end": 724.5,
+     "ja": "甘すぎずほんのり甘い感じで、ふわっとメロンの風味が広がって、本当に美味しいです！",
+     "en": "It's not overly sweet, just mildly sweet, with a gentle melon flavor spreading, it's really delicious!",
+     "speaker": "Shizuku"
+    },
+    {
+     "start": 724.8,
+     "end": 726.5,
+     "ja": "たぶんさくらより上手いw",
+     "en": "She's probably better at this than Sakura, lol.",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 727.0,
+     "end": 729.8,
+     "ja": "じゃあ、すみれさんもコーラの食レポお願いします！",
+     "en": "Alright, Sumire-san, give us a review of the cola too!",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 731.5,
+     "end": 733.5,
+     "ja": "レモン入ってる！",
+     "en": "There's lemon in it!",
+     "speaker": "Sumire"
+    },
+    {
+     "start": 734.5,
+     "end": 736.5,
+     "ja": "爽やかさをアップでしょ？",
+     "en": "To boost freshness, right?",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 736.8,
+     "end": 738.5,
+     "ja": "あんた飲んでみなさいよ。",
+     "en": "Why don't you try drinking it?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 739.8,
+     "end": 742.5,
+     "ja": "味、なんか炭酸強い！",
+     "en": "The taste... like, the carbonation is strong!",
+     "speaker": "Sumire"
+    }
+   ]
+  }
+ ],
+ "videoId": "v4hh2C-BinA",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

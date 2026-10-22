@@ -1,0 +1,172 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.3,
+   "end": 25.5,
+   "title": "Introduction to Tonjiru",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ましょう — let's"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.4,
+     "end": 8.4,
+     "ja": "皆さん、こんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 8.8,
+     "end": 11.7,
+     "ja": "ひらがなネットのあきこです。",
+     "en": "I'm Akiko from Hiragana Net.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 12.1,
+     "end": 15.0,
+     "ja": "今回は豚汁です。",
+     "en": "This time, it's tonjiru (pork miso soup).",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 15.4,
+     "end": 21.8,
+     "ja": "豚汁は豚肉とたくさんの野菜が入った味噌汁です。",
+     "en": "Tonjiru is a miso soup with pork and plenty of vegetables.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 22.4,
+     "end": 25.0,
+     "ja": "では、一緒に作りましょう。",
+     "en": "Now, let's make it together.",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 407.5,
+   "end": 434.8,
+   "title": "Seasoning with Miso",
+   "level": "N4",
+   "topics": [
+    "food"
+   ],
+   "grammar": [
+    "〜によって — depending on",
+    "〜たら — if/when",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 408.0,
+     "end": 412.5,
+     "ja": "味噌は種類によって味が違います。",
+     "en": "The flavor of miso varies depending on the type.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 413.8,
+     "end": 417.4,
+     "ja": "味見をしてください。",
+     "en": "Please give it a taste.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 418.0,
+     "end": 422.3,
+     "ja": "味が薄かったら味噌を足してください。",
+     "en": "If the flavor is too weak, please add more miso.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 422.6,
+     "end": 425.3,
+     "ja": "1〜2分煮ます。",
+     "en": "Simmer for one to two minutes.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 429.4,
+     "end": 434.0,
+     "ja": "最後に長ネギを入れて出来上がりです。",
+     "en": "Finally, add the green onion and it's done!",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 439.5,
+   "end": 500.0,
+   "title": "Other Ingredients for Tonjiru",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜も — also"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 439.8,
+     "end": 441.8,
+     "ja": "いかがでしたか？",
+     "en": "How did you like it?",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 442.2,
+     "end": 445.3,
+     "ja": "さつまいも、里芋、",
+     "en": "Sweet potatoes, taro,",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 446.0,
+     "end": 450.5,
+     "ja": "こんにゃく、豆腐なども豚汁に合います。",
+     "en": "konjac, and tofu also go well in tonjiru.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 451.5,
+     "end": 454.5,
+     "ja": "ぜひ作ってみてください。",
+     "en": "Please give it a try and make it.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 455.3,
+     "end": 457.6,
+     "ja": "それでは、また会いましょう。",
+     "en": "Well then, see you again.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 458.0,
+     "end": 459.5,
+     "ja": "さようなら。",
+     "en": "Goodbye.",
+     "speaker": "Akiko"
+    }
+   ]
+  }
+ ],
+ "videoId": "JNKWevDlZ64",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

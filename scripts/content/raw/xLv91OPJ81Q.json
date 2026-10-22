@@ -1,0 +1,158 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.2,
+   "end": 60.5,
+   "title": "Who Did You Come to See Today?",
+   "level": "N4",
+   "topics": [
+    "music",
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜に来た — came to do something",
+    "全員 — all / everybody"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 44.2,
+     "end": 46.0,
+     "ja": "ではやってまいりました！",
+     "en": "Here we are!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 46.0,
+     "end": 47.5,
+     "ja": "お疲れ様です！",
+     "en": "Good evening!",
+     "speaker": "Group"
+    },
+    {
+     "start": 47.8,
+     "end": 49.8,
+     "ja": "今日は誰を見に来たんですか？",
+     "en": "Who did you guys come to see today?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 50.0,
+     "end": 51.8,
+     "ja": "今夜はね…",
+     "en": "Tonight, let's see...",
+     "speaker": "Friend 1"
+    },
+    {
+     "start": 51.8,
+     "end": 53.2,
+     "ja": "オニオンリングです。",
+     "en": "Onion Ring.",
+     "speaker": "Friend 2"
+    },
+    {
+     "start": 53.2,
+     "end": 54.3,
+     "ja": "俺はONENESS。",
+     "en": "For me, ONENESS.",
+     "speaker": "Friend 3"
+    },
+    {
+     "start": 54.3,
+     "end": 55.6,
+     "ja": "自分も同じっすね。",
+     "en": "Same for me.",
+     "speaker": "Friend 4"
+    },
+    {
+     "start": 55.6,
+     "end": 58.0,
+     "ja": "おお！全員違う！みんなバラバラ！",
+     "en": "Oh, all different! Everyone's got their own!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 58.0,
+     "end": 60.5,
+     "ja": "服がイケイケです、すごい。",
+     "en": "Your outfits are super cool, amazing.",
+     "speaker": "Interviewer"
+    }
+   ]
+  },
+  {
+   "start": 109.8,
+   "end": 125.8,
+   "title": "What's Your Favorite Sushi?",
+   "level": "N4",
+   "topics": [
+    "food",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜が好き — to like something",
+    "〜の中で一番 — the most among..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 109.8,
+     "end": 112.1,
+     "ja": "今のは冗談で、えー、好きな食べ物は？",
+     "en": "That was a joke, but what's your favorite food?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 112.1,
+     "end": 114.2,
+     "ja": "好きな食べ物は寿司が好きっすね。",
+     "en": "As for favorite food, I like sushi.",
+     "speaker": "Passerby"
+    },
+    {
+     "start": 114.2,
+     "end": 116.8,
+     "ja": "あ、お寿司が好き。ま、もちろん何ですかね？",
+     "en": "Ah, sushi! And naturally, which one?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 116.8,
+     "end": 118.4,
+     "ja": "マグロ。マグロ。",
+     "en": "Tuna. Tuna.",
+     "speaker": "Passerby"
+    },
+    {
+     "start": 118.4,
+     "end": 120.9,
+     "ja": "マグロと言ってもなんか2、3個ぐらい種類ある…",
+     "en": "Even with tuna, there are a few kinds...",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 120.9,
+     "end": 123.5,
+     "ja": "ああ、まあマグロんなかでも卵が一番好きっす。",
+     "en": "Well, among tuna, egg is my absolute favorite.",
+     "speaker": "Passerby"
+    },
+    {
+     "start": 123.5,
+     "end": 125.5,
+     "ja": "な、何て言いました？",
+     "en": "Wh-what did you just say?",
+     "speaker": "Interviewer"
+    }
+   ]
+  }
+ ],
+ "videoId": "xLv91OPJ81Q",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

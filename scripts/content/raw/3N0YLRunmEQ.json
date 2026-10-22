@@ -1,0 +1,116 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 47.6,
+   "end": 66.4,
+   "title": "Crossing the Shark-Infested Street",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜に気をつける — to be careful of",
+    "〜て — request / soft command"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 48.0,
+     "end": 49.0,
+     "ja": "サメ…",
+     "en": "Sharks...",
+     "speaker": "Tsumugi"
+    },
+    {
+     "start": 50.4,
+     "end": 52.0,
+     "ja": "サメに気をつけて。",
+     "en": "Watch out for sharks.",
+     "speaker": "Student A"
+    },
+    {
+     "start": 52.2,
+     "end": 53.5,
+     "ja": "行くよ？",
+     "en": "Ready to go?",
+     "speaker": "Student B"
+    },
+    {
+     "start": 53.8,
+     "end": 54.6,
+     "ja": "うん！",
+     "en": "Yeah!",
+     "speaker": "Tsumugi"
+    },
+    {
+     "start": 54.8,
+     "end": 56.6,
+     "ja": "せーの、よいしょ！",
+     "en": "Ready... heave-ho!",
+     "speaker": "Students"
+    },
+    {
+     "start": 63.2,
+     "end": 64.4,
+     "ja": "バイバーイ！",
+     "en": "Bye-bye!",
+     "speaker": "Tsumugi"
+    },
+    {
+     "start": 64.6,
+     "end": 65.9,
+     "ja": "バイバーイ！",
+     "en": "Bye-bye!",
+     "speaker": "Students"
+    }
+   ]
+  },
+  {
+   "start": 92.3,
+   "end": 103.2,
+   "title": "Ambushed by a Big Dog",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "大丈夫 — okay / all right",
+    "〜なさい — command form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 92.8,
+     "end": 94.0,
+     "ja": "大丈夫？",
+     "en": "Are you okay?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 96.5,
+     "end": 98.7,
+     "ja": "こら、クー太！やめなさい！",
+     "en": "Hey, Kuuta! Stop it!",
+     "speaker": "Boy"
+    },
+    {
+     "start": 100.8,
+     "end": 102.5,
+     "ja": "よしよし。",
+     "en": "Good doggy.",
+     "speaker": "Tsumugi"
+    }
+   ]
+  }
+ ],
+ "videoId": "3N0YLRunmEQ",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,204 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.4,
+   "end": 19.3,
+   "title": "Selected as Test Subject Number One",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "〜られる — passive voice",
+    "〜わけだ — that's why / naturally"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.8,
+     "end": 8.0,
+     "ja": "あなたは被験者１号に選ばれましたー！",
+     "en": "You have been chosen as test subject number one!",
+     "speaker": "Riri"
+    },
+    {
+     "start": 8.3,
+     "end": 9.8,
+     "ja": "おめでとうございまーす！",
+     "en": "Congratulations!",
+     "speaker": "Riri"
+    },
+    {
+     "start": 10.5,
+     "end": 14.0,
+     "ja": "僕はおんずちゃんの恋愛を全力でサポートいたします。",
+     "en": "I will give my all to support your love life, Anzu-chan.",
+     "speaker": "Riri"
+    },
+    {
+     "start": 14.3,
+     "end": 17.0,
+     "ja": "そんなわけでそろそろ魔法界へ戻りま…",
+     "en": "So with that, I'll be heading back to the magic realm...",
+     "speaker": "Riri"
+    },
+    {
+     "start": 17.3,
+     "end": 19.0,
+     "ja": "あたしそんなの関わらないから！",
+     "en": "I'm not getting involved in that!",
+     "speaker": "Anzu"
+    }
+   ]
+  },
+  {
+   "start": 45.8,
+   "end": 115.8,
+   "title": "Did You Forget Your Childhood Friend?",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "school",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てんだ — contracting 〜ているんだ",
+    "〜たっけ — asking for confirmation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 46.2,
+     "end": 47.9,
+     "ja": "おはよう、杏子。",
+     "en": "Morning, Anzu.",
+     "speaker": "Junta"
+    },
+    {
+     "start": 50.8,
+     "end": 52.3,
+     "ja": "寝坊しなかったか？",
+     "en": "Didn't oversleep, did you?",
+     "speaker": "Junta"
+    },
+    {
+     "start": 52.4,
+     "end": 53.6,
+     "ja": "学校行こう。",
+     "en": "Let's head to school.",
+     "speaker": "Junta"
+    },
+    {
+     "start": 54.8,
+     "end": 57.8,
+     "ja": "誰？この高身長イケメン。",
+     "en": "Who is this tall, good-looking guy?",
+     "speaker": "Anzu"
+    },
+    {
+     "start": 58.4,
+     "end": 59.9,
+     "ja": "えっとー…",
+     "en": "Um...",
+     "speaker": "Anzu"
+    },
+    {
+     "start": 60.8,
+     "end": 63.3,
+     "ja": "どこかでお会いしましたっけ？",
+     "en": "Have we met somewhere before?",
+     "speaker": "Anzu"
+    },
+    {
+     "start": 63.5,
+     "end": 64.3,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Junta"
+    },
+    {
+     "start": 65.8,
+     "end": 68.8,
+     "ja": "何言ってんだ、寝ぼけてんのか？",
+     "en": "What are you talking about? Are you still half-asleep?",
+     "speaker": "Junta"
+    },
+    {
+     "start": 69.5,
+     "end": 73.0,
+     "ja": "幼馴染の顔忘れるなんて。",
+     "en": "Forgetting your childhood friend's face...",
+     "speaker": "Junta"
+    },
+    {
+     "start": 73.8,
+     "end": 75.5,
+     "ja": "幼馴染！？",
+     "en": "Childhood friend!?",
+     "speaker": "Anzu"
+    }
+   ]
+  },
+  {
+   "start": 118.0,
+   "end": 137.0,
+   "title": "Cheap Taste, but Not Bad",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "romance",
+    "comedy"
+   ],
+   "grammar": [
+    "〜っぽい — -ish / having the quality of",
+    "〜ない — negative adjective form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 118.5,
+     "end": 119.5,
+     "ja": "どう？",
+     "en": "How is it?",
+     "speaker": "Anzu"
+    },
+    {
+     "start": 121.0,
+     "end": 123.5,
+     "ja": "ずいぶん安っぽい味だな。",
+     "en": "It tastes pretty cheap.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 124.8,
+     "end": 127.5,
+     "ja": "だが、悪くない。",
+     "en": "But... it's not bad.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 133.8,
+     "end": 134.8,
+     "ja": "どうした？",
+     "en": "What's wrong?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 135.2,
+     "end": 136.8,
+     "ja": "ちょっと正気を…",
+     "en": "Just regaining my senses...",
+     "speaker": "Anzu"
+    }
+   ]
+  }
+ ],
+ "videoId": "LU0gBbgGF8U",
+ "pickTopics": [
+  "anime",
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

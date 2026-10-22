@@ -1,0 +1,246 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 15.3,
+   "end": 39.8,
+   "title": "Starting the Whirlwind Trip to Osaka",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜てくる — go and do / come to be",
+    "〜たらいいな — hoping that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 15.5,
+     "end": 19.3,
+     "ja": "大阪に一泊二日の弾丸旅行で行ってきましてですね、",
+     "en": "I went on an overnight whirlwind trip to Osaka,",
+     "speaker": "Rina"
+    },
+    {
+     "start": 19.4,
+     "end": 23.5,
+     "ja": "そちらの様子を今日はお届けしちゃいたいなと思います。",
+     "en": "and today I'd love to share how that went with you all.",
+     "speaker": "Rina"
+    },
+    {
+     "start": 23.9,
+     "end": 26.4,
+     "ja": "なかなかね、旅行することもそんなになくて、",
+     "en": "I don't really travel that much,",
+     "speaker": "Rina"
+    },
+    {
+     "start": 26.5,
+     "end": 28.3,
+     "ja": "新幹線に乗ることもないので、",
+     "en": "nor do I often ride the Shinkansen,",
+     "speaker": "Rina"
+    },
+    {
+     "start": 28.4,
+     "end": 30.8,
+     "ja": "すっごく顔がこわばっていますね。",
+     "en": "so my face is super stiff, isn't it?",
+     "speaker": "Rina"
+    },
+    {
+     "start": 30.9,
+     "end": 33.2,
+     "ja": "こんなこわばるんだったら別に撮らなくてもいいのに",
+     "en": "I'm so stiff you'd think, \"If you're going to freeze up like that,",
+     "speaker": "Rina"
+    },
+    {
+     "start": 33.3,
+     "end": 35.3,
+     "ja": "っていうくらいこわばってるんですけど、",
+     "en": "you don't even have to film yourself,\"",
+     "speaker": "Rina"
+    },
+    {
+     "start": 35.4,
+     "end": 37.8,
+     "ja": "ちょっとね、ぎこちないVLOGになるんですけれども、",
+     "en": "so it'll be a bit of an awkward vlog,",
+     "speaker": "Rina"
+    },
+    {
+     "start": 37.9,
+     "end": 39.8,
+     "ja": "皆さんにお届けできたらいいなと思います。",
+     "en": "but I hope you enjoy watching it anyway.",
+     "speaker": "Rina"
+    }
+   ]
+  },
+  {
+   "start": 144.1,
+   "end": 207.3,
+   "title": "Trying Cheese Takoyaki in Osaka",
+   "level": "N3",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜かと言うと — as for which / if you ask",
+    "〜っぽい — seems like / -ish",
+    "〜ば — conditional if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 144.3,
+     "end": 146.4,
+     "ja": "結局ですね、どこのたこ焼きにしたかと言いますと、",
+     "en": "In the end, as for which takoyaki shop I chose,",
+     "speaker": "Rina"
+    },
+    {
+     "start": 146.5,
+     "end": 148.8,
+     "ja": "「くくる」のたこ焼きにしました！",
+     "en": "I went with takoyaki from Kukuru!",
+     "speaker": "Rina"
+    },
+    {
+     "start": 148.9,
+     "end": 152.0,
+     "ja": "くくる調べてみたら、東京でも食べれるっぽいんですけど、",
+     "en": "When I looked it up, apparently you can eat it in Tokyo too,",
+     "speaker": "Rina"
+    },
+    {
+     "start": 152.1,
+     "end": 155.0,
+     "ja": "ま、私が大阪で食べたたこ焼きはくくるです。",
+     "en": "but anyway, the takoyaki I ate in Osaka was Kukuru.",
+     "speaker": "Rina"
+    },
+    {
+     "start": 155.1,
+     "end": 158.6,
+     "ja": "王道のたこ焼きじゃなくて、チーズが中に入ってるやつを食べましたね。",
+     "en": "Instead of the classic takoyaki, I got one filled with cheese.",
+     "speaker": "Rina"
+    },
+    {
+     "start": 158.7,
+     "end": 201.0,
+     "ja": "あの私はあんまりうまく伸ばせなかったんですけど、",
+     "en": "I couldn't really stretch it that well myself,",
+     "speaker": "Rina"
+    },
+    {
+     "start": 201.1,
+     "end": 203.2,
+     "ja": "「頑張ってチーズ伸ばせば40cm伸びますよ」みたいな、",
+     "en": "but there was a ruler to measure the stretched cheese,",
+     "speaker": "Rina"
+    },
+    {
+     "start": 203.3,
+     "end": 206.0,
+     "ja": "伸ばしたチーズを測る定規みたいのが置いてありましたね。",
+     "en": "saying stuff like, \"If you try hard, it can stretch 40 cm!\"",
+     "speaker": "Rina"
+    },
+    {
+     "start": 206.1,
+     "end": 207.3,
+     "ja": "全く使わなかったけど。",
+     "en": "Not that I used it at all, though.",
+     "speaker": "Rina"
+    }
+   ]
+  },
+  {
+   "start": 501.9,
+   "end": 530.8,
+   "title": "Souvenir Dilemma at Rikuro-ojisan",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "food",
+    "friends"
+   ],
+   "grammar": [
+    "〜てしまう — end up doing (unintended outcome)",
+    "〜ないといけない — have to / must do",
+    "〜させていただく — humbly do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 502.1,
+     "end": 505.0,
+     "ja": "こちらでね、自分用のチーズケーキと、",
+     "en": "Here, along with a cheesecake for myself,",
+     "speaker": "Rina"
+    },
+    {
+     "start": 505.1,
+     "end": 508.3,
+     "ja": "友達にもね、本当はチーズケーキ買って帰りたいんですよ。",
+     "en": "I really wanted to buy cheesecake to bring back for my friends too.",
+     "speaker": "Rina"
+    },
+    {
+     "start": 508.4,
+     "end": 511.4,
+     "ja": "でもチーズケーキを買ってしまうと、賞味期限の問題で、",
+     "en": "However, if I buy cheesecake, due to its expiration date,",
+     "speaker": "Rina"
+    },
+    {
+     "start": 511.5,
+     "end": 514.8,
+     "ja": "3日以内に友達に会わないといけないというミッションが発生するんですね。",
+     "en": "it triggers a mission where I have to see them within three days.",
+     "speaker": "Rina"
+    },
+    {
+     "start": 514.9,
+     "end": 519.3,
+     "ja": "なんで難しいので、チーズケーキは今回諦めさせていただいて、",
+     "en": "Since that's tricky, I decided to pass on the cheesecake this time,",
+     "speaker": "Rina"
+    },
+    {
+     "start": 519.4,
+     "end": 524.3,
+     "ja": "その代わりにチーズケーキ以外のおすすめ商品である「薪パイ」っていう、",
+     "en": "and instead go for another recommended item called \"Maki Pie,\"",
+     "speaker": "Rina"
+    },
+    {
+     "start": 524.4,
+     "end": 527.3,
+     "ja": "パイが巻いてある薪みたいな形のパイ、",
+     "en": "which is a rolled pie shaped like firewood,",
+     "speaker": "Rina"
+    },
+    {
+     "start": 527.4,
+     "end": 530.8,
+     "ja": "そちらを買って友達に配りたいなと思いました。",
+     "en": "and hand those out to my friends.",
+     "speaker": "Rina"
+    }
+   ]
+  }
+ ],
+ "videoId": "yFAhR7OBHn4",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

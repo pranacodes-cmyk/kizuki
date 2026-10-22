@@ -1,0 +1,147 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.5,
+   "end": 62.5,
+   "title": "Unboxing a Bookstand",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜っていうと — as for / speaking of",
+    "〜を機に — taking the opportunity to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 45.0,
+     "end": 47.3,
+     "ja": "そうそうそう、これを買いました。",
+     "en": "Yeah, yeah, yeah, I bought this.",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 47.8,
+     "end": 52.6,
+     "ja": "これ何かっていうと「書見台」っていうんですけど、",
+     "en": "As for what this is, it's called a bookstand,",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 52.7,
+     "end": 56.5,
+     "ja": "私もその名前自体初めて知ったんですよね。",
+     "en": "and I actually learned that word for the first time myself.",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 57.2,
+     "end": 62.4,
+     "ja": "ちょっとこれを機にどういうものかGoogleで調べてみようと思います。",
+     "en": "Taking this opportunity, I think I'll look up on Google what it is.",
+     "speaker": "Iroha"
+    }
+   ]
+  },
+  {
+   "start": 63.2,
+   "end": 82.8,
+   "title": "Why I Bought a Bookstand",
+   "level": "N3",
+   "topics": [
+    "work",
+    "school"
+   ],
+   "grammar": [
+    "〜ように — in order to / so that",
+    "〜というより — rather than",
+    "〜ために — for the purpose of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 63.5,
+     "end": 67.5,
+     "ja": "「書見台」は資料が読みやすくなるように、",
+     "en": "It says a bookstand is a stand placed on a desk",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 67.6,
+     "end": 72.4,
+     "ja": "机の上に置いて一定の角度に保持できるようにした台、って書いてあるんですけど。",
+     "en": "to hold materials at a certain angle for easier reading.",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 73.0,
+     "end": 76.8,
+     "ja": "別に私は本を読みたくて買ったっていうよりは、",
+     "en": "Rather than buying it because I wanted to read books,",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 76.9,
+     "end": 82.3,
+     "ja": "授業中に教科書を置くために欲しいな〜とずっと思っていて、買いました。",
+     "en": "I bought it because I'd always wanted one to prop up textbooks during lessons.",
+     "speaker": "Iroha"
+    }
+   ]
+  },
+  {
+   "start": 149.5,
+   "end": 168.8,
+   "title": "Trying Out the New Stand",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜たら — if / when",
+    "〜てみる — try doing",
+    "〜んじゃないか — isn't it / I think"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 150.0,
+     "end": 153.0,
+     "ja": "プリント1枚みたいな感じだったらこれでいいし、",
+     "en": "If it's just a single handout, this is fine,",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 153.2,
+     "end": 156.7,
+     "ja": "教科書だったらここ広がるよ〜みたいな、そんな感じですかね。",
+     "en": "and if it's a textbook, it can expand out like this, I guess.",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 157.0,
+     "end": 160.0,
+     "ja": "ちょっと『みんなの日本語』を立てかけてみようかな。",
+     "en": "Maybe I'll try propping up 'Minna no Nihongo'.",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 166.0,
+     "end": 168.5,
+     "ja": "なかなかいいんじゃないかなって思います。",
+     "en": "I think this is pretty good.",
+     "speaker": "Iroha"
+    }
+   ]
+  }
+ ],
+ "videoId": "uXysiahSOYs",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,216 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.2,
+   "end": 39.5,
+   "title": "What Did You Eat Yesterday?",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜を食べました — ate ~",
+    "〜は — topic marker"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.2,
+     "end": 25.4,
+     "ja": "昨日は何を食べましたか？",
+     "en": "What did you eat yesterday?",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 25.5,
+     "end": 28.9,
+     "ja": "昨日は、昨日はステーキを食べましたよ。",
+     "en": "Yesterday, yesterday I ate steak.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 29.0,
+     "end": 30.3,
+     "ja": "えー、いいなあ。",
+     "en": "Aw, sounds nice.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 30.4,
+     "end": 32.7,
+     "ja": "はい。ステーキ美味しかった。",
+     "en": "Yes. The steak was delicious.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 32.8,
+     "end": 34.4,
+     "ja": "昨日、何を食べましたか？",
+     "en": "What did you eat yesterday?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 34.5,
+     "end": 37.3,
+     "ja": "昨日は、お寿司を食べました。",
+     "en": "Yesterday, I ate sushi.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 37.4,
+     "end": 39.5,
+     "ja": "いいなあ！",
+     "en": "Nice!",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 520.0,
+   "end": 542.5,
+   "title": "Visiting Switzerland in Winter",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜から〜まで — from ~ to ~",
+    "〜で行く — go by (means of transport)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 520.0,
+     "end": 524.7,
+     "ja": "スイスはたくさん山がありますけど、ハイキングをしましたか？",
+     "en": "Switzerland has a lot of mountains, but did you go hiking?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 524.9,
+     "end": 527.2,
+     "ja": "あ、ハイキングはしませんでした。",
+     "en": "Ah, I didn't go hiking.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 527.3,
+     "end": 528.8,
+     "ja": "へえ、そうなんですね。",
+     "en": "Oh, is that so?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 528.9,
+     "end": 532.4,
+     "ja": "ええ。だけど、山の上にはロープウェイで行きました。",
+     "en": "Yeah. But I went to the top of the mountain by ropeway.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 532.5,
+     "end": 536.0,
+     "ja": "あ、そっか。え、冬に行きましたか？夏に行きましたか？",
+     "en": "Ah, I see. Did you go in winter? Or in summer?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 536.1,
+     "end": 537.3,
+     "ja": "冬でした。",
+     "en": "It was winter.",
+     "speaker": "Okkei"
+    },
+    {
+     "start": 537.4,
+     "end": 538.7,
+     "ja": "あ、そっか。",
+     "en": "Ah, I see.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 538.8,
+     "end": 542.4,
+     "ja": "１２月から１月まで行きました。",
+     "en": "I went from December to January.",
+     "speaker": "Okkei"
+    }
+   ]
+  },
+  {
+   "start": 843.5,
+   "end": 905.5,
+   "title": "Traveling Across Europe to Chile",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "friends"
+   ],
+   "grammar": [
+    "〜て — connecting verbs",
+    "〜に住んでいました — was living in ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 843.7,
+     "end": 846.7,
+     "ja": "その時、私は大阪に住んでいました。",
+     "en": "At that time, I was living in Osaka.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 846.9,
+     "end": 850.8,
+     "ja": "だから、大阪からギリシャに行って、",
+     "en": "So, I went from Osaka to Greece,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 850.9,
+     "end": 852.3,
+     "ja": "ギリシャからマルタ、",
+     "en": "from Greece to Malta,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 852.5,
+     "end": 854.5,
+     "ja": "マルタからイタリア、",
+     "en": "from Malta to Italy,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 854.6,
+     "end": 859.7,
+     "ja": "イタリアからフランス、フランスからスペイン、",
+     "en": "from Italy to France, from France to Spain,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 859.8,
+     "end": 903.0,
+     "ja": "で、スペインからチリに行きましたね。",
+     "en": "and then I went from Spain to Chile.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 903.1,
+     "end": 905.3,
+     "ja": "たくさん行きましたね。",
+     "en": "You went to so many places!",
+     "speaker": "Okkei"
+    }
+   ]
+  }
+ ],
+ "videoId": "lXcXkOa5LAU",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

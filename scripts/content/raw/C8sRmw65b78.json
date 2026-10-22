@@ -1,0 +1,173 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.8,
+   "end": 63.0,
+   "title": "Switching on the Day with a Run",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "sports"
+   ],
+   "grammar": [
+    "〜っていう — called / that means",
+    "〜ておく / 〜ていく — directional/aspectual aspect",
+    "〜というか — or rather / let's say"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 45.0,
+     "end": 48.8,
+     "ja": "ちょっと１日のスイッチを入れるっていう意味もあって、",
+     "en": "Partly to switch on my mode for the day,",
+     "speaker": "Miyako"
+    },
+    {
+     "start": 49.0,
+     "end": 51.8,
+     "ja": "なんかこう大事な仕事の前にとか、",
+     "en": "before an important job or something,",
+     "speaker": "Miyako"
+    },
+    {
+     "start": 52.0,
+     "end": 54.6,
+     "ja": "「今日は頑張るぞ」っていう日とかに、",
+     "en": "on days when I think, \"Let's do my best today,\"",
+     "speaker": "Miyako"
+    },
+    {
+     "start": 54.8,
+     "end": 59.6,
+     "ja": "あえて少し走るっていうことは私の日課というか、",
+     "en": "going for a short run on purpose is my daily habit, or rather,",
+     "speaker": "Miyako"
+    },
+    {
+     "start": 59.8,
+     "end": 62.8,
+     "ja": "自分の生活のルーティンの１つです。",
+     "en": "one of the routines in my life.",
+     "speaker": "Miyako"
+    }
+   ]
+  },
+  {
+   "start": 341.5,
+   "end": 402.8,
+   "title": "Nutritious Breakfast Preparation",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ようにする — make an effort to",
+    "〜たり〜たり — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 341.8,
+     "end": 346.8,
+     "ja": "なんか、バランスがよく食べられるようにしていて、",
+     "en": "I try to make sure I eat a well-balanced meal,",
+     "speaker": "Miyako"
+    },
+    {
+     "start": 347.0,
+     "end": 350.8,
+     "ja": "玄米にお味噌汁をつけて、",
+     "en": "adding miso soup to brown rice,",
+     "speaker": "Miyako"
+    },
+    {
+     "start": 351.0,
+     "end": 353.8,
+     "ja": "で、あの、私は運動をするので、",
+     "en": "and since I exercise,",
+     "speaker": "Miyako"
+    },
+    {
+     "start": 354.0,
+     "end": 356.2,
+     "ja": "タンパク質もしっかり取れるように、",
+     "en": "so that I can get plenty of protein,",
+     "speaker": "Miyako"
+    },
+    {
+     "start": 356.4,
+     "end": 358.8,
+     "ja": "お豆腐だったり大豆製品、",
+     "en": "I have things like tofu or soy products,",
+     "speaker": "Miyako"
+    },
+    {
+     "start": 359.0,
+     "end": 402.5,
+     "ja": "あとは魚、卵とかもいいし、",
+     "en": "and then fish, and eggs are great too,",
+     "speaker": "Miyako"
+    }
+   ]
+  },
+  {
+   "start": 362.8,
+   "end": 378.8,
+   "title": "Refreshing Morning Herbs",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜がする — sense of smell/sound/taste"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 363.0,
+     "end": 367.0,
+     "ja": "これはアフリカンバジルとミントを混ぜてるので、",
+     "en": "This is a mix of African basil and mint, so...",
+     "speaker": "Miyako"
+    },
+    {
+     "start": 367.2,
+     "end": 370.5,
+     "ja": "すごいいい香りが。",
+     "en": "It has such a wonderful aroma.",
+     "speaker": "Miyako"
+    },
+    {
+     "start": 371.0,
+     "end": 372.5,
+     "ja": "清涼感。",
+     "en": "So refreshing.",
+     "speaker": "Miyako"
+    },
+    {
+     "start": 372.8,
+     "end": 375.5,
+     "ja": "なんか、おいしい匂いがする。",
+     "en": "It kind of smells delicious.",
+     "speaker": "Miyako"
+    },
+    {
+     "start": 376.0,
+     "end": 378.5,
+     "ja": "お腹すく匂いがします。",
+     "en": "It makes me feel hungry.",
+     "speaker": "Miyako"
+    }
+   ]
+  }
+ ],
+ "videoId": "C8sRmw65b78",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

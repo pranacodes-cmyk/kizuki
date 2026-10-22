@@ -1,0 +1,173 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.1,
+   "end": 14.9,
+   "title": "Fixing Bedhead in the Morning",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜くらい — degree/extent",
+    "〜てさ — casual explanation"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 4.1,
+     "end": 6.8,
+     "ja": "それじゃあ今から朝ご飯食べるっていう感じなんですけど、",
+     "en": "So, I'm about to eat breakfast now,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 6.8,
+     "end": 9.2,
+     "ja": "今日ね、びっくりするくらい寝癖が悪くてさ、",
+     "en": "but my bedhead was shockingly bad today,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 9.2,
+     "end": 11.2,
+     "ja": "何とか修正してこんな感じですから。",
+     "en": "and this is how it looks after I managed to fix it.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 11.2,
+     "end": 14.7,
+     "ja": "一応ギリギリ皆さんにお見せできるくらいにはなったのかなと思うんですけど。",
+     "en": "I guess it's barely presentable enough to show you all.",
+     "speaker": "Parker"
+    }
+   ]
+  },
+  {
+   "start": 129.3,
+   "end": 144.5,
+   "title": "Quick-Boil Pasta Routine",
+   "level": "N2",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てしまう — unintentional action",
+    "〜ていく — to go on doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 129.4,
+     "end": 131.4,
+     "ja": "今回はパスタですね。早ゆで3分。",
+     "en": "This time it's pasta. 3-minute quick boil.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 131.4,
+     "end": 134.3,
+     "ja": "3分で茹で上がるスパゲッティがこの世に存在するんだっていう、",
+     "en": "I was amazed to learn that spaghetti boiling in 3 minutes exists,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 134.3,
+     "end": 136.4,
+     "ja": "目から鱗で買ってしまったんですけれども。",
+     "en": "so it was an eye-opener and I bought it.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 136.4,
+     "end": 138.5,
+     "ja": "今回はね、これを茹でていこうと思います。",
+     "en": "This time, I'm going to boil this.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 138.5,
+     "end": 141.3,
+     "ja": "それから、こういう一食ごとに束にくくってくれてるんですけども、",
+     "en": "Also, it's bundled up into single portions,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 141.3,
+     "end": 144.4,
+     "ja": "これをガン無視するっていうのが僕のルーティンではありますから。",
+     "en": "but my routine is to completely ignore that.",
+     "speaker": "Parker"
+    }
+   ]
+  },
+  {
+   "start": 211.4,
+   "end": 229.0,
+   "title": "Ordering Matsuya via Uber Eats",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていただく — receiving an action (polite)",
+    "〜すぎる — too much / overly"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 211.5,
+     "end": 214.5,
+     "ja": "以前ね、視聴者の方に「ウーバーイーツおすすめですよ」って",
+     "en": "Previously, a viewer recommended Uber Eats to me,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 214.5,
+     "end": 215.8,
+     "ja": "言っていただいたので、",
+     "en": "so since they told me that,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 215.8,
+     "end": 220.0,
+     "ja": "今回送料が無料のキャンペーンやってたから松屋頼んでみたんですけれども。",
+     "en": "there was a free delivery campaign, so I tried ordering Matsuya.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 220.0,
+     "end": 223.0,
+     "ja": "まあ唐揚げとかピザとかすごい美味しそうなものはあったんですけど、",
+     "en": "There were really delicious-looking things like fried chicken or pizza,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 223.0,
+     "end": 226.8,
+     "ja": "結局この安心感が段違いということで松屋選んでしまいましたね。",
+     "en": "but in the end, this sense of comfort is on another level, so I picked Matsuya.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 226.8,
+     "end": 228.8,
+     "ja": "ていうかね、うますぎるんですよ、やっぱり牛丼。",
+     "en": "I mean, beef bowls are just too delicious after all.",
+     "speaker": "Parker"
+    }
+   ]
+  }
+ ],
+ "videoId": "sJBw4QcCtf4",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

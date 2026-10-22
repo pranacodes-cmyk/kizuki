@@ -1,0 +1,121 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 134.8,
+   "end": 143.5,
+   "title": "Talking About Managing Company Socials",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜について — regarding / about",
+    "〜ておく — do something in advance"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 135.2,
+     "end": 139.1,
+     "ja": "アカウントはあるので。",
+     "en": "Because the account is already there.",
+     "speaker": "Colleague"
+    },
+    {
+     "start": 139.2,
+     "end": 140.7,
+     "ja": "スプレッドシートに？",
+     "en": "On a spreadsheet?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 140.8,
+     "end": 143.0,
+     "ja": "スプレッドシート、今、型作っちゃいますね。",
+     "en": "I'll make a template on a spreadsheet right now.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 215.1,
+   "end": 239.5,
+   "title": "Are You Playing a Prank on Me?",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜わけがない — there's no way that...",
+    "〜ておく — do in advance / leave as is"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 215.5,
+     "end": 217.4,
+     "ja": "今日、ドッキリない？大丈夫？",
+     "en": "There's no prank today, right? We're good?",
+     "speaker": "Boss"
+    },
+    {
+     "start": 218.4,
+     "end": 221.0,
+     "ja": "え？あるわけないじゃないですか〜。",
+     "en": "Huh? There's no way there'd be one!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 221.5,
+     "end": 227.0,
+     "ja": "いや最近なんか、普通にとりあえずカメラ置いとくみたいな感じだから、もう分からない。",
+     "en": "No, lately you just leave a camera rolling out of nowhere, so I never know.",
+     "speaker": "Boss"
+    },
+    {
+     "start": 228.3,
+     "end": 230.9,
+     "ja": "常に置いとくみたいな感じだから。",
+     "en": "Because you just leave it there all the time.",
+     "speaker": "Boss"
+    },
+    {
+     "start": 232.0,
+     "end": 233.1,
+     "ja": "わあ！",
+     "en": "Boo!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 234.3,
+     "end": 235.6,
+     "ja": "何ですかそれ？",
+     "en": "What was that?",
+     "speaker": "Colleague"
+    },
+    {
+     "start": 236.4,
+     "end": 237.6,
+     "ja": "ドッキリ！",
+     "en": "A prank!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 238.4,
+     "end": 239.2,
+     "ja": "物理的。",
+     "en": "A physical one.",
+     "speaker": "Colleague"
+    }
+   ]
+  }
+ ],
+ "videoId": "eWu56gI_XuA",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

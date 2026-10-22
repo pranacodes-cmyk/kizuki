@@ -1,0 +1,170 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 34.9,
+   "end": 57.7,
+   "title": "A Very Thick and Heavy Board Game",
+   "level": "N3",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜より — comparing with / than",
+    "〜てた感じ — impression / looked like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 35.2,
+     "end": 37.9,
+     "ja": "ものすごいこれが分厚いんですね。",
+     "en": "This is incredibly thick.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 38.0,
+     "end": 42.4,
+     "ja": "アグリコラよりまだ1.2、3倍分厚いって感じですね。",
+     "en": "It feels about 1.2 or 1.3 times thicker than Agricola.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 42.6,
+     "end": 48.0,
+     "ja": "まあ極端な話を言うと、アグリコラと泥を足したぐらいの厚さという感じでしょうか。",
+     "en": "To exaggerate a bit, it feels about as thick as Agricola plus Farmers of the Moor combined.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 48.2,
+     "end": 51.5,
+     "ja": "で、重さがまあ3.5キロあるという、ビッグゲームですね。",
+     "en": "And with a weight of 3.5 kilograms, it's a huge game.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 51.7,
+     "end": 55.4,
+     "ja": "全然カメラにも全体が入りきらないサイズなんですけども。",
+     "en": "It's so big it doesn't even completely fit in the camera view.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 55.6,
+     "end": 57.5,
+     "ja": "じゃあこいつの開封をしていきたいと思います。",
+     "en": "So, let's open this up.",
+     "speaker": "Presenter"
+    }
+   ]
+  },
+  {
+   "start": 102.5,
+   "end": 120.3,
+   "title": "Opening the Box of Components",
+   "level": "N3",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜はず — bound to be / expected to",
+    "〜だの〜だの — and things like / such as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 103.0,
+     "end": 107.4,
+     "ja": "ものすごい密度で、コマが。",
+     "en": "The pieces are packed at an incredible density.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 107.6,
+     "end": 110.0,
+     "ja": "これ、重いわけですね。",
+     "en": "No wonder this is heavy.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 110.5,
+     "end": 114.7,
+     "ja": "えーっと、収穫物関係のいつものいろんな木だの、",
+     "en": "Um, the usual harvest-related stuff like various wood,",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 114.9,
+     "end": 117.7,
+     "ja": "小麦系だの、羊だの、みたいな入った、",
+     "en": "and wheat, and sheep, and such are inside.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 117.8,
+     "end": 120.0,
+     "ja": "これ全部で1セットですね。",
+     "en": "This is all one set.",
+     "speaker": "Presenter"
+    }
+   ]
+  },
+  {
+   "start": 408.0,
+   "end": 427.6,
+   "title": "Wrapping Up the Unboxing",
+   "level": "N3",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜てみる — trying to do",
+    "〜たら — if / when conditional"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 408.5,
+     "end": 413.9,
+     "ja": "ということでですね、『カヴェルナ』のですね、開封動画をお届けしましたけども、",
+     "en": "So, that was our unboxing video of Caverna,",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 414.2,
+     "end": 417.0,
+     "ja": "まあこれですね、実際あとはこの後切り抜いてみて、",
+     "en": "and next I'll punch out the tokens,",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 417.1,
+     "end": 420.0,
+     "ja": "プレイの準備をしてみてですね、またプレイできたらですね、",
+     "en": "prepare for gameplay, and if I get to play it,",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 420.1,
+     "end": 422.0,
+     "ja": "ご紹介してみたいと思います。",
+     "en": "I'd like to introduce it again.",
+     "speaker": "Presenter"
+    },
+    {
+     "start": 422.2,
+     "end": 427.3,
+     "ja": "はい、The Game GalleryのHAL99でした。ではまた次回！",
+     "en": "All right, this was HAL99 from The Game Gallery. See you next time!",
+     "speaker": "Presenter"
+    }
+   ]
+  }
+ ],
+ "videoId": "y1_MhTDBhp0",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

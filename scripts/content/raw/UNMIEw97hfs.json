@@ -1,0 +1,280 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 37.0,
+   "end": 59.8,
+   "title": "You Love Clothes That Much?",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜のに — even though / despite",
+    "〜かと思った — thought that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.2,
+     "end": 39.8,
+     "ja": "ごめんごめん。ごめん遅れちゃって。",
+     "en": "Sorry, sorry. Sorry I'm late.",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 40.8,
+     "end": 44.5,
+     "ja": "おい、お前めっちゃ服好きやな！",
+     "en": "Hey, you really love clothes!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 45.0,
+     "end": 46.0,
+     "ja": "ん？",
+     "en": "Huh?",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 46.0,
+     "end": 47.9,
+     "ja": "え、お前めっちゃ服好きやん！",
+     "en": "Whoa, you're crazy about clothes!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 48.0,
+     "end": 49.0,
+     "ja": "何何何？",
+     "en": "What, what, what?",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 49.0,
+     "end": 51.5,
+     "ja": "いや知らんかったわ、俺私服見たの初めてやから。",
+     "en": "I had no idea, this is the first time seeing you in civilian clothes.",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 51.6,
+     "end": 54.2,
+     "ja": "お前自衛隊やのにめちゃくちゃ服好きやんけ！",
+     "en": "You're in the JSDF, yet you're so into fashion!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 54.3,
+     "end": 55.5,
+     "ja": "ああ、マジで？",
+     "en": "Oh, really?",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 55.6,
+     "end": 58.4,
+     "ja": "最初入ってきたとき堂本剛入ってきたかと思ったわ！",
+     "en": "When you walked in, I thought Tsuyoshi Domoto had arrived!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 58.4,
+     "end": 59.5,
+     "ja": "堂本剛じゃねえよ！",
+     "en": "I'm not Tsuyoshi Domoto!",
+     "speaker": "Shimasa"
+    }
+   ]
+  },
+  {
+   "start": 149.0,
+   "end": 216.0,
+   "title": "Fashion Monster of the JSDF",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "friends",
+    "work"
+   ],
+   "grammar": [
+    "〜てんの — asking about ongoing state (Kansai)",
+    "〜の後 — after doing something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 149.0,
+     "end": 150.0,
+     "ja": "レディース！？",
+     "en": "Women's?!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 150.2,
+     "end": 153.0,
+     "ja": "自衛隊やのにレディース着てんの？お前！",
+     "en": "You're in the JSDF and you wear women's clothes?!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 153.2,
+     "end": 155.2,
+     "ja": "まあこのジャケットは自分で作った。",
+     "en": "Well, I made this jacket myself.",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 155.3,
+     "end": 156.5,
+     "ja": "作った！？",
+     "en": "You made it?!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 156.6,
+     "end": 159.0,
+     "ja": "自衛隊やのに服作ったん！？",
+     "en": "You're in the JSDF and made your own clothes?!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 159.2,
+     "end": 200.8,
+     "ja": "ああ、まあ普通に。",
+     "en": "Yeah, naturally.",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 200.9,
+     "end": 203.0,
+     "ja": "いつ？いついつ？そんな時間ないやん俺ら！",
+     "en": "When? When, when? We don't have that kind of time!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 203.2,
+     "end": 204.5,
+     "ja": "いや、普通に訓練の後。",
+     "en": "Well, just after training.",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 204.6,
+     "end": 207.5,
+     "ja": "訓練の後！？くたくたやで！くたくたやで！",
+     "en": "After training?! You're exhausted! Utterly exhausted!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 208.0,
+     "end": 211.0,
+     "ja": "いや俺、昼間大砲撃って、夜はミシン撃ってます。",
+     "en": "Well, in the daytime I fire cannons, at night I fire up the sewing machine.",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 211.2,
+     "end": 215.5,
+     "ja": "おーい！自衛隊界のファッションモンスターやんけお前！",
+     "en": "Hey! You're the fashion monster of the JSDF!",
+     "speaker": "Yashiki"
+    }
+   ]
+  },
+  {
+   "start": 413.0,
+   "end": 440.0,
+   "title": "Liking Clothes Doesn't Make You Stylish",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "friends"
+   ],
+   "grammar": [
+    "〜からって — just because...",
+    "わけじゃない / わけちゃう — doesn't mean that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 413.2,
+     "end": 415.5,
+     "ja": "お前おしゃれではないぞ！",
+     "en": "You are not fashionable!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 416.0,
+     "end": 416.9,
+     "ja": "ん？",
+     "en": "Huh?",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 417.0,
+     "end": 420.5,
+     "ja": "お前おしゃれではないぞ、服好きなだけ！",
+     "en": "You're not stylish, you just like clothes!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 421.0,
+     "end": 423.7,
+     "ja": "いや俺服好きよ。ってことはおしゃれじゃん。",
+     "en": "Well, I like clothes. That means I'm stylish.",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 424.0,
+     "end": 426.5,
+     "ja": "全然違うわ、バカお前！",
+     "en": "Totally different, you idiot!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 426.7,
+     "end": 429.5,
+     "ja": "お前じゃあ漫画好きやからって絵うまいわけちゃうやろ？",
+     "en": "Just because you like manga doesn't mean you're good at drawing, right?",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 429.6,
+     "end": 432.0,
+     "ja": "歌好きやからって歌うまいわけちゃうやろ？",
+     "en": "Just because you like singing doesn't mean you're good at it, right?",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 432.1,
+     "end": 435.5,
+     "ja": "それと一緒で、服好きやからっておしゃれではないねん！",
+     "en": "Same thing, liking clothes doesn't mean you're fashionable!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 435.6,
+     "end": 437.3,
+     "ja": "お前の格好、アホみたいやで。",
+     "en": "Your outfit looks ridiculous.",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 437.5,
+     "end": 439.5,
+     "ja": "おしゃれな奴はクリームをかぶりません！",
+     "en": "A stylish guy doesn't wear a cap that says \"CREAM\"!",
+     "speaker": "Yashiki"
+    }
+   ]
+  }
+ ],
+ "videoId": "UNMIEw97hfs",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

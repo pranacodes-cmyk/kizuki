@@ -1,0 +1,189 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 30.0,
+   "end": 46.8,
+   "title": "Have You Heard of Wasabi Terrorism?",
+   "level": "N3",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜について — regarding / about",
+    "〜ことがある — to have experienced",
+    "〜っていう — called / that says"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 30.2,
+     "end": 33.2,
+     "ja": "わさびテロ事件について聞いたことはありますか？",
+     "en": "Have you ever heard of 'wasabi terrorism'?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 33.3,
+     "end": 34.4,
+     "ja": "はい、聞いたことはあります。",
+     "en": "Yes, I've heard of it.",
+     "speaker": "Man"
+    },
+    {
+     "start": 34.5,
+     "end": 35.5,
+     "ja": "はい、あります。",
+     "en": "Yes, I have.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 35.6,
+     "end": 36.9,
+     "ja": "どんな事件ですか？",
+     "en": "Can you tell us what it is?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 37.0,
+     "end": 40.0,
+     "ja": "えっと、大阪にあるお寿司屋さんで、",
+     "en": "A sushi restaurant in Osaka...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 40.1,
+     "end": 42.9,
+     "ja": "中国人とか韓国人のお客さんに、",
+     "en": "served Korean and Chinese customers...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 43.0,
+     "end": 46.4,
+     "ja": "わさびを大量に入れたお寿司を提供するっていう。",
+     "en": "sushi with too much wasabi on purpose.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 305.4,
+   "end": 320.0,
+   "title": "Perception of Chinese People in Japan",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜による — depending on",
+    "〜んじゃない — isn't it / I suppose",
+    "〜とか — things like / such as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 305.6,
+     "end": 307.5,
+     "ja": "逆に中国はどういう感じですかね？",
+     "en": "What's your perception of the Chinese?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 307.7,
+     "end": 310.4,
+     "ja": "人に寄るんじゃないっていう解釈ですね。",
+     "en": "I think it really depends on the individual.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 310.5,
+     "end": 313.2,
+     "ja": "なんか一般的にはどんな感じなんですか？",
+     "en": "But what's the typical perception of them?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 313.4,
+     "end": 315.8,
+     "ja": "一般的にはマナーが悪いとか、",
+     "en": "Bad manners...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 316.1,
+     "end": 319.4,
+     "ja": "あの、普段の話す声が大きいとか。",
+     "en": "They talk very loudly...",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 537.0,
+   "end": 556.5,
+   "title": "Generational Gap Regarding History",
+   "level": "N2",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜てくる — progressive change / up until now",
+    "〜し — listing reasons",
+    "〜ところがある — to have an aspect of / tendency to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 537.3,
+     "end": 542.0,
+     "ja": "年配の方々と若者の間の意見のギャップって大きいと思いますか？",
+     "en": "Is there a gap between the way the old and new generation think?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 542.1,
+     "end": 543.8,
+     "ja": "大きいと思います。",
+     "en": "Yes, there is.",
+     "speaker": "Man"
+    },
+    {
+     "start": 543.9,
+     "end": 548.4,
+     "ja": "僕らはもう、その、なんて言うんすか、見てきてないんで、",
+     "en": "The youth don't know much about the history...",
+     "speaker": "Man"
+    },
+    {
+     "start": 548.5,
+     "end": 550.0,
+     "ja": "そんな歴史も知らないし。",
+     "en": "...because we haven't seen it ourselves.",
+     "speaker": "Man"
+    },
+    {
+     "start": 550.1,
+     "end": 554.0,
+     "ja": "でもやっぱり年配の人はそれなりに、体験じゃないすけど、",
+     "en": "Whereas the older generation has actually experienced it.",
+     "speaker": "Man"
+    },
+    {
+     "start": 554.1,
+     "end": 556.2,
+     "ja": "やっぱりその経験で物を言うところがあるんで。",
+     "en": "They speak from their own experiences.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "TNZR0u0xZGU",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

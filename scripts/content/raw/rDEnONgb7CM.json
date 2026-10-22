@@ -1,0 +1,123 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 20.5,
+   "end": 29.5,
+   "title": "An Offer to Work at the Clinic",
+   "level": "N4",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜を変える — to change something",
+    "〜ませんか — invitation / would you like to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 20.8,
+     "end": 22.5,
+     "ja": "神の手があなたを変える。",
+     "en": "The Hand of God will change you.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 22.8,
+     "end": 24.7,
+     "ja": "遠山美容外科クリニック。",
+     "en": "Tohyama Cosmetic Surgery Clinic.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 25.2,
+     "end": 28.0,
+     "ja": "うちのクリニックで働きませんか？",
+     "en": "Would you like to work at our clinic?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 28.5,
+     "end": 29.3,
+     "ja": "は？",
+     "en": "Huh?",
+     "speaker": "Doctor"
+    }
+   ]
+  },
+  {
+   "start": 53.0,
+   "end": 61.0,
+   "title": "There's No One Who Isn't Sick",
+   "level": "N3",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜でもない — not even / neither",
+    "〜なんて — things like / such as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 53.4,
+     "end": 56.8,
+     "ja": "私は医者です。病気でもない人にメスは入れられない。",
+     "en": "I'm a doctor. I can't operate on someone who isn't sick.",
+     "speaker": "Doctor"
+    },
+    {
+     "start": 57.0,
+     "end": 60.6,
+     "ja": "この世界に、病気じゃない人なんていないから。",
+     "en": "In this world, there's no one who isn't sick.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 119.0,
+   "end": 129.5,
+   "title": "A Cosmetic Surgeon's Duty",
+   "level": "N2",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "余命いくばくもない — having little time left to live",
+    "〜て願っている — wishing / desiring to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 119.2,
+     "end": 121.1,
+     "ja": "あんた、それでも医者かいよ。",
+     "en": "You call yourself a doctor?",
+     "speaker": "Doctor"
+    },
+    {
+     "start": 121.3,
+     "end": 125.9,
+     "ja": "余命いくばくもない人が、最後に綺麗になりたいって願ってるの！",
+     "en": "Someone without much time left is asking for one last chance to be beautiful!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 126.2,
+     "end": 129.0,
+     "ja": "美容外科医がそれをどうして断れるの？",
+     "en": "How could a cosmetic surgeon refuse?",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "rDEnONgb7CM",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

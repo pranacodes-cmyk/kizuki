@@ -1,0 +1,195 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.3,
+   "end": 18.2,
+   "title": "Do You Lounge Around on the Sofa?",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "とか — things like / or something",
+    "〜ている — ongoing action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 3.2,
+     "ja": "えっ、質問です。",
+     "en": "Um, I have a question.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 3.7,
+     "end": 5.1,
+     "ja": "はい、どうぞ。",
+     "en": "Sure, go ahead.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 5.3,
+     "end": 11.4,
+     "ja": "みくは、なんかソファーの上でゴロゴロする時間とかありますか。",
+     "en": "Miku, do you have times when you lounge around on the sofa?",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 11.7,
+     "end": 13.3,
+     "ja": "あります。",
+     "en": "I do.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 13.8,
+     "end": 18.0,
+     "ja": "えっ、そのソファーでゴロゴロするときは、何をしてるの？",
+     "en": "When you lounge on the sofa, what do you do?",
+     "speaker": "Sayaka"
+    }
+   ]
+  },
+  {
+   "start": 70.5,
+   "end": 93.5,
+   "title": "Losing Track of Time on the Phone",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜つつ — while / even though",
+    "〜どころじゃない — far from / not just",
+    "〜ちゃう — to end up doing accidentally"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 70.8,
+     "end": 74.3,
+     "ja": "うーん、ずっと携帯見てるね。",
+     "en": "Hmm, I look at my phone the whole time.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 74.9,
+     "end": 79.4,
+     "ja": "だめだなと思いつつ見ちゃって、",
+     "en": "Even while thinking I shouldn't, I keep watching, and...",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 80.1,
+     "end": 84.3,
+     "ja": "えっ！もう１時間も経ってたとか、",
+     "en": "Like, 'Wait, an hour has already passed?!'",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 84.5,
+     "end": 87.1,
+     "ja": "もう１時間どころじゃ済まないときもあって、",
+     "en": "And sometimes it doesn't even stop at one hour...",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 87.3,
+     "end": 91.0,
+     "ja": "あの、えっ！さ…３時間！みたいなときがある。",
+     "en": "There are times when it's like, 'Wait, th-three hours?!'",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 91.2,
+     "end": 93.2,
+     "ja": "３時間はやばい。",
+     "en": "Three hours is crazy.",
+     "speaker": "Miku"
+    }
+   ]
+  },
+  {
+   "start": 719.0,
+   "end": 742.5,
+   "title": "Golden Rules of Karaoke",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜たら — when / after doing",
+    "〜ないでください — please don't do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 719.5,
+     "end": 723.1,
+     "ja": "あのね皆さん、カラオケに行くときの、",
+     "en": "You see everyone, when going to karaoke,",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 723.3,
+     "end": 726.1,
+     "ja": "あの、まずファーストステップは、",
+     "en": "the first step is,",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 726.3,
+     "end": 729.6,
+     "ja": "部屋に入ったら、靴脱いでください。",
+     "en": "once you enter the room, please take off your shoes.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 730.0,
+     "end": 733.3,
+     "ja": "で、その次、ステップ２は、",
+     "en": "And then, step two is,",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 733.5,
+     "end": 736.3,
+     "ja": "椅子は椅子だと思わないでください。",
+     "en": "please don't think of the chairs as chairs.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 736.5,
+     "end": 738.2,
+     "ja": "あれは、お立ち台です。",
+     "en": "Those are dance stages.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 738.4,
+     "end": 740.7,
+     "ja": "お立ち台です。立って歌う所です。",
+     "en": "Dance stages. Places to stand and sing.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 740.9,
+     "end": 742.3,
+     "ja": "だから、みんなで立って、",
+     "en": "So, everyone stands up,",
+     "speaker": "Sayaka"
+    }
+   ]
+  }
+ ],
+ "videoId": "cvH3kdl1JxE",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

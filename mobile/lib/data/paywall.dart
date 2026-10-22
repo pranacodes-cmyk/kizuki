@@ -1,5 +1,5 @@
-// Plans + trial copy — mirrored from src/lib/paywall.ts. Prices are placeholders until the
-// Play Console products exist; purchases are simulated.
+// Plans + trial copy — mirrored from src/lib/paywall.ts. These are fallback prices; the
+// app swaps in live store prices from RevenueCat (services/billing.dart) when available.
 
 class Plan {
   final String id, label, sub, price, perMonth, period;
@@ -7,12 +7,13 @@ class Plan {
   const Plan(this.id, this.label, this.sub, this.price, this.perMonth, this.period, [this.badge]);
 }
 
-const plans = {
-  'yearly': Plan('yearly', 'Yearly', '12 months · \$59.99', '\$59.99', '\$5.00', 'year', 'Save 58%'),
-  'monthly': Plan('monthly', 'Monthly', 'Billed monthly', '\$11.99', '\$11.99', 'month'),
+var plans = <String, Plan>{
+  'yearly': Plan('yearly', 'Yearly', '12 months · \$54.99', '\$54.99', '\$4.58', 'year', 'Save 58%'),
+  'monthly': Plan('monthly', 'Monthly', 'Billed monthly', '\$10.99', '\$10.99', 'month'),
 };
 
-String priceLine(Plan p) => '7 days free, then ${p.price}/${p.period}';
+/// [trial] false = this store account already used its free week (no trial wording).
+String priceLine(Plan p, {bool trial = true}) => p.id == 'yearly' && trial ? '7 days free, then ${p.price}/${p.period}' : '${p.price}/${p.period}, billed today';
 
 const trialDays = 7;
 const reminderDay = 5;

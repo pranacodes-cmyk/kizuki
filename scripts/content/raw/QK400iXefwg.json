@@ -1,0 +1,173 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 15.6,
+   "end": 25.8,
+   "title": "Is Japanese a Difficult Language?",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜と思う — I think that...",
+    "〜て — and (listing reasons)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 15.7,
+     "end": 19.3,
+     "ja": "日本語は、難しい言葉だと思いますか？簡単な言葉だと思いますか？",
+     "en": "Do you think Japanese is a difficult language, or an easy one?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 19.4,
+     "end": 21.0,
+     "ja": "いや、難しいと思いますね。",
+     "en": "No, I think it's difficult.",
+     "speaker": "Man"
+    },
+    {
+     "start": 21.1,
+     "end": 23.4,
+     "ja": "漢字と、ひらがなとカタカナがあって、",
+     "en": "There's kanji, hiragana, and katakana,",
+     "speaker": "Man"
+    },
+    {
+     "start": 23.5,
+     "end": 25.5,
+     "ja": "勉強するの大変だなと思います。",
+     "en": "so I think it must be tough to study.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 118.5,
+   "end": 136.5,
+   "title": "Why Japanese Homophones Are Hard",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜たり〜たり — doing things like... and...",
+    "〜っていう — called / which means"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 118.5,
+     "end": 120.0,
+     "ja": "難しいと思います。",
+     "en": "I think it's difficult.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 120.1,
+     "end": 122.5,
+     "ja": "例えば「くも」っていう言葉でも、",
+     "en": "For example, even with the word 'kumo',",
+     "speaker": "Woman"
+    },
+    {
+     "start": 122.6,
+     "end": 125.5,
+     "ja": "空の雲と虫のクモだったり、",
+     "en": "it can mean clouds in the sky or spiders,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 125.6,
+     "end": 128.2,
+     "ja": "「はし」っていうのもお箸だったり、",
+     "en": "and with 'hashi', it could be chopsticks,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 128.3,
+     "end": 131.1,
+     "ja": "川に通る橋っていうのがあったり、",
+     "en": "or a bridge that crosses a river,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 131.2,
+     "end": 136.2,
+     "ja": "１つの音でも違う意味を持つっていうところが難しいかなって思います。",
+     "en": "so having different meanings for the same sound is what makes it difficult, I think.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 282.7,
+   "end": 301.2,
+   "title": "Advice for Japanese Learners",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜てくる / 〜てください — please do...",
+    "〜に向けて — towards / for"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 282.7,
+     "end": 286.0,
+     "ja": "日本語勉強してる人とか、日本語勉強したい人多いんですけど、",
+     "en": "There are many people studying Japanese or wanting to study it,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 286.1,
+     "end": 288.7,
+     "ja": "そういう人たちに向けて一言何か。",
+     "en": "do you have any words for them?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 288.8,
+     "end": 291.8,
+     "ja": "まあ日本はいいところなので、いっぱい日本語勉強して、",
+     "en": "Well, Japan is a great place, so please study Japanese a lot,",
+     "speaker": "Man"
+    },
+    {
+     "start": 291.9,
+     "end": 295.1,
+     "ja": "日本を楽しみにしてください。",
+     "en": "and look forward to visiting Japan.",
+     "speaker": "Man"
+    },
+    {
+     "start": 295.2,
+     "end": 297.4,
+     "ja": "どういうところがちなみにいいと思いますか？",
+     "en": "By the way, what parts do you think are good?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 297.5,
+     "end": 301.2,
+     "ja": "文化がユニークですよね。世界にはないと思います。",
+     "en": "The culture is unique. I think there's nothing else like it in the world.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "QK400iXefwg",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

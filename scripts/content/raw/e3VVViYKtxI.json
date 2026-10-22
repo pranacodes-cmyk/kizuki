@@ -1,0 +1,147 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.5,
+   "end": 28.0,
+   "title": "Let's Look for It Together",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜にある — exists (inanimate)",
+    "〜よう — volitional form (let's do)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.8,
+     "end": 13.4,
+     "ja": "どこにあるの？",
+     "en": "Where is it?",
+     "speaker": "Haruto"
+    },
+    {
+     "start": 15.7,
+     "end": 17.5,
+     "ja": "いっしょに探そう。",
+     "en": "Let's look for it together.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 21.4,
+     "end": 24.0,
+     "ja": "レンちゃん、探そう！",
+     "en": "Ren, let's search for it!",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 26.0,
+     "end": 27.1,
+     "ja": "うん！",
+     "en": "Yeah!",
+     "speaker": "Ren"
+    }
+   ]
+  },
+  {
+   "start": 141.0,
+   "end": 158.0,
+   "title": "Leaving the House Greetings",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "いってきます / いってらっしゃい — leaving/sending off greeting",
+    "〜てね — gentle request/imperative"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 141.4,
+     "end": 143.6,
+     "ja": "いってらっしゃい！",
+     "en": "Have a good day!",
+     "speaker": "Mom"
+    },
+    {
+     "start": 145.3,
+     "end": 147.4,
+     "ja": "いってきます！",
+     "en": "I'm heading out!",
+     "speaker": "Haruto"
+    },
+    {
+     "start": 152.4,
+     "end": 154.4,
+     "ja": "バイバイ！",
+     "en": "Bye-bye!",
+     "speaker": "Ren"
+    },
+    {
+     "start": 155.7,
+     "end": 157.4,
+     "ja": "気をつけてね！",
+     "en": "Be safe!",
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
+   "start": 441.5,
+   "end": 459.0,
+   "title": "Where Is the Rice Ball?",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "どこ — where",
+    "〜ない — negative plain form",
+    "〜よう — volitional form (let's do)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 441.9,
+     "end": 444.2,
+     "ja": "おにぎり、どこだ？",
+     "en": "Where is the rice ball?",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 445.8,
+     "end": 447.7,
+     "ja": "いっしょに探そう！",
+     "en": "Let's search together!",
+     "speaker": "Haruto"
+    },
+    {
+     "start": 451.8,
+     "end": 453.9,
+     "ja": "ここにはないな。",
+     "en": "It's not here.",
+     "speaker": "Haruto"
+    },
+    {
+     "start": 456.9,
+     "end": 458.2,
+     "ja": "ない！",
+     "en": "Not here!",
+     "speaker": "Ren"
+    }
+   ]
+  }
+ ],
+ "videoId": "e3VVViYKtxI",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

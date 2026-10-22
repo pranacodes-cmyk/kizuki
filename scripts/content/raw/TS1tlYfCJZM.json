@@ -1,0 +1,218 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 63.5,
+   "end": 78.0,
+   "title": "Talking About Chef Ryuji",
+   "level": "N3",
+   "topics": [
+    "food",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てくれる — doing something for someone",
+    "〜もん — explaining reason or feeling"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 63.8,
+     "end": 65.1,
+     "ja": "リュウジは誰？",
+     "en": "Who is Ryuji?",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 65.2,
+     "end": 66.7,
+     "ja": "料理研究家の方。",
+     "en": "A culinary researcher.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 66.9,
+     "end": 69.8,
+     "ja": "え、YouTube登録者数541万人？",
+     "en": "Wait, 5.41 million YouTube subscribers?",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 70.0,
+     "end": 71.2,
+     "ja": "すごいですね。",
+     "en": "That's incredible.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 71.8,
+     "end": 72.9,
+     "ja": "え、料理で？",
+     "en": "Just with cooking?",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 73.0,
+     "end": 74.2,
+     "ja": "めっちゃ見てるもん。",
+     "en": "I watch his videos all the time.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 74.3,
+     "end": 75.2,
+     "ja": "ええー！",
+     "en": "Whoa!",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 75.3,
+     "end": 77.8,
+     "ja": "すっげー美味そうなんなんか作ってくれはんねん。",
+     "en": "He makes all kinds of super delicious-looking dishes.",
+     "speaker": "Yamauchi"
+    }
+   ]
+  },
+  {
+   "start": 120.0,
+   "end": 138.5,
+   "title": "Buns Used to Be 100 Yen",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜頃 — when / around the time of",
+    "〜やん — isn't it / aren't we"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 120.0,
+     "end": 122.5,
+     "ja": "高なったな…肉まんも。",
+     "en": "They've gotten expensive... even meat buns.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 123.0,
+     "end": 125.6,
+     "ja": "250円？ 前100円やった。",
+     "en": "250 yen? They used to be 100 yen.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 126.3,
+     "end": 129.5,
+     "ja": "俺らの子どもの頃は100円やったな。あんまん80円とかやったな。",
+     "en": "When we were kids, they were 100 yen. Red bean buns were like 80 yen.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 129.6,
+     "end": 130.5,
+     "ja": "そうそうそう！",
+     "en": "Right, exactly!",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 130.8,
+     "end": 133.3,
+     "ja": "めっちゃ昔の人やん俺ら！",
+     "en": "We sound like people from ancient history!",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 133.8,
+     "end": 136.8,
+     "ja": "お祭りの当てくじも前100円だったよ。",
+     "en": "Festival raffle games used to be 100 yen too.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 137.0,
+     "end": 138.2,
+     "ja": "昔な。",
+     "en": "Back in the day, yeah.",
+     "speaker": "Yamauchi"
+    }
+   ]
+  },
+  {
+   "start": 412.5,
+   "end": 438.0,
+   "title": "Working Since 7 in the Morning",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy",
+    "food"
+   ],
+   "grammar": [
+    "〜てんねん — Kansai progressive/explanatory",
+    "〜しゃあない — it can't be helped / no wonder"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 412.8,
+     "end": 416.2,
+     "ja": "うわ、ココナッツのあの…グリーンカレー！",
+     "en": "Whoa, that coconut... green curry!",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 416.5,
+     "end": 418.5,
+     "ja": "あ、グリーンカレーまんやからな。",
+     "en": "Well yeah, it's a green curry bun.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 421.0,
+     "end": 423.2,
+     "ja": "朝から働いてんねん！",
+     "en": "I've been working since early morning!",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 423.5,
+     "end": 426.0,
+     "ja": "朝の7時から働いてんねん、今日。",
+     "en": "We've been working since 7 AM today.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 427.5,
+     "end": 430.5,
+     "ja": "そうや、そうや。ロケしてきてんねん。",
+     "en": "That's right, exactly. We've been shooting on location.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 431.5,
+     "end": 434.6,
+     "ja": "もう今20時やろ？ で、これ22時まで撮んねんやろ？",
+     "en": "It's already 8 PM, right? And we're filming this until 10 PM?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 435.0,
+     "end": 438.0,
+     "ja": "そらもうお前、グリーンカレーまんかどうか分からへんなるのしゃあないやろ！",
+     "en": "Then it's no wonder you can't tell whether it's a green curry bun or not!",
+     "speaker": "Yamauchi"
+    }
+   ]
+  }
+ ],
+ "videoId": "TS1tlYfCJZM",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

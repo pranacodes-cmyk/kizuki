@@ -1,0 +1,182 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 257.2,
+   "end": 284.5,
+   "title": "The Expensive Cabbage Incident",
+   "level": "N3",
+   "topics": [
+    "food",
+    "culture",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜ばいい — should do / would be nice",
+    "〜てしまう — accidental action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 257.5,
+     "end": 263.8,
+     "ja": "最初に出されるのが、キャベツの千切りみたいなキャベツ出されまして。",
+     "en": "The first thing they served was shredded cabbage-like cabbage.",
+     "speaker": "Li"
+    },
+    {
+     "start": 264.5,
+     "end": 268.8,
+     "ja": "で、僕はおっいいね、まあとりあえず食べ物はあるから食べてみようかなって。",
+     "en": "And I thought, 'Oh nice, there's food anyway, so let me try it.'",
+     "speaker": "Li"
+    },
+    {
+     "start": 269.0,
+     "end": 273.5,
+     "ja": "で、食べたらお会計するとき、「あ、これ500円もかかるの？」って。",
+     "en": "Then, when I went to pay after eating, I was like, 'Wait, this costs 500 yen?!'",
+     "speaker": "Li"
+    },
+    {
+     "start": 273.8,
+     "end": 276.5,
+     "ja": "店側に聞いたら、「あ、これお通しです」。",
+     "en": "When I asked the staff, they said, 'Oh, that's the otoshi.'",
+     "speaker": "Li"
+    },
+    {
+     "start": 276.8,
+     "end": 280.5,
+     "ja": "そもそも頼んでもいないし、着席した後すぐ出された料理なんで、",
+     "en": "I hadn't even ordered it, and it was brought out right after sitting down,",
+     "speaker": "Li"
+    },
+    {
+     "start": 280.8,
+     "end": 283.8,
+     "ja": "500円もかかる？",
+     "en": "so why should it cost 500 yen?",
+     "speaker": "Li"
+    }
+   ]
+  },
+  {
+   "start": 245.5,
+   "end": 274.0,
+   "title": "Otoshi as a Table Charge",
+   "level": "N2",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜のではないか — isn't it the case that...",
+    "〜だけでなく — not only... but also..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 245.8,
+     "end": 253.8,
+     "ja": "なので、キャベツ代プラス席料だと思ったら、500円は全然妥当な金額ではないかなと思います。",
+     "en": "So, if you think of it as cabbage plus a seating fee, I think 500 yen is a totally reasonable price.",
+     "speaker": "Hara"
+    },
+    {
+     "start": 254.3,
+     "end": 256.9,
+     "ja": "逆に、一人当たり席料が500円だったら、",
+     "en": "Conversely, if the seating charge was 500 yen per person,",
+     "speaker": "Hara"
+    },
+    {
+     "start": 257.0,
+     "end": 259.8,
+     "ja": "それで席料でお金を取るだけじゃなくて、",
+     "en": "rather than just taking money for the seat fee,",
+     "speaker": "Hara"
+    },
+    {
+     "start": 259.9,
+     "end": 263.2,
+     "ja": "お酒に合う食べられるものを出してくれるのが、",
+     "en": "providing something edible that pairs well with alcohol",
+     "speaker": "Hara"
+    },
+    {
+     "start": 263.3,
+     "end": 267.8,
+     "ja": "日本の飲食店の、おもてなしのスタイル、",
+     "en": "is the hospitality style of Japanese restaurants,",
+     "speaker": "Hara"
+    },
+    {
+     "start": 268.0,
+     "end": 273.5,
+     "ja": "お店の人の優しさ代として言うのではないかなと思います。",
+     "en": "so couldn't you call it a fee for the restaurant's thoughtfulness?",
+     "speaker": "Hara"
+    }
+   ]
+  },
+  {
+   "start": 447.0,
+   "end": 462.5,
+   "title": "What If You Dislike the Food?",
+   "level": "N3",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜なければならない — must / have to",
+    "〜のに — even though"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 447.1,
+     "end": 450.3,
+     "ja": "じゃあ逆に考えば、もし嫌いなものを出されたらどうしますか？",
+     "en": "Well, think about it the other way: what would you do if they served something you hate?",
+     "speaker": "Li"
+    },
+    {
+     "start": 450.5,
+     "end": 453.2,
+     "ja": "もちろん、好き嫌いは人々それぞれなんで、",
+     "en": "Of course, everyone has their own likes and dislikes,",
+     "speaker": "Li"
+    },
+    {
+     "start": 453.3,
+     "end": 455.3,
+     "ja": "嫌いなものを注文してないのに、",
+     "en": "so having to pay money to eat something you dislike",
+     "speaker": "Li"
+    },
+    {
+     "start": 455.4,
+     "end": 459.0,
+     "ja": "お金を払って嫌いなものを食べないといけないっていうのは、",
+     "en": "even though you never ordered it,",
+     "speaker": "Li"
+    },
+    {
+     "start": 459.1,
+     "end": 462.2,
+     "ja": "さすがにないんじゃないですかって思いますよ。",
+     "en": "I honestly feel that's just not right.",
+     "speaker": "Li"
+    }
+   ]
+  }
+ ],
+ "videoId": "pRg5XpwMMRo",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

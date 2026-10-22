@@ -1,0 +1,77 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 600.5,
+   "end": 612.8,
+   "title": "Morning Request for Chocolate Bread",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family",
+    "food"
+   ],
+   "grammar": [
+    "おいで — come here",
+    "〜がいい — to prefer/want something"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 601.0,
+     "end": 602.3,
+     "ja": "おはよう。",
+     "en": "Good morning.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 603.5,
+     "end": 604.6,
+     "ja": "おいで。",
+     "en": "Come here.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 606.5,
+     "end": 607.4,
+     "ja": "ん？",
+     "en": "Hm?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 607.5,
+     "end": 608.8,
+     "ja": "チョコパン。",
+     "en": "Chocolate bread.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 608.9,
+     "end": 610.5,
+     "ja": "チョコパンがいい？",
+     "en": "Do you want chocolate bread?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 610.6,
+     "end": 611.2,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 611.3,
+     "end": 612.3,
+     "ja": "いいよ。",
+     "en": "Sure.",
+     "speaker": "Mother"
+    }
+   ]
+  }
+ ],
+ "videoId": "VckV81quGsM",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

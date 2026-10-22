@@ -1,0 +1,154 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 22.2,
+   "end": 32.2,
+   "title": "Why Are You in Shibuya Tonight?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜に来る — to come in order to do",
+    "〜てくる — movement toward the speaker"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 22.5,
+     "end": 24.9,
+     "ja": "友達と普通に飲みに来ました。",
+     "en": "I came to have a drink with my friends.",
+     "speaker": "Man 1"
+    },
+    {
+     "start": 25.2,
+     "end": 26.9,
+     "ja": "飲みに来ました〜。",
+     "en": "We came for drinks!",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 27.1,
+     "end": 28.8,
+     "ja": "飲みに来ました。",
+     "en": "We came to drink.",
+     "speaker": "Woman 2"
+    },
+    {
+     "start": 29.0,
+     "end": 32.0,
+     "ja": "高校の友達がこっちに帰ってきて。",
+     "en": "A friend from high school came back here.",
+     "speaker": "Man 2"
+    }
+   ]
+  },
+  {
+   "start": 65.8,
+   "end": 77.5,
+   "title": "What Are Your Dreams for the Future?",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜こと — nominalizer (verb to noun)",
+    "〜ながら — while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 66.0,
+     "end": 69.7,
+     "ja": "海外の海の近くで住むこと。",
+     "en": "To live near the sea overseas.",
+     "speaker": "Man 1"
+    },
+    {
+     "start": 70.0,
+     "end": 72.6,
+     "ja": "マジで夢決まってなくて。",
+     "en": "Honestly, I haven't decided on my dream yet.",
+     "speaker": "Man 2"
+    },
+    {
+     "start": 73.0,
+     "end": 75.8,
+     "ja": "サラリーマンやりながら音楽プロデューサーっすね。",
+     "en": "To be a music producer while working as an office worker.",
+     "speaker": "Man 3"
+    },
+    {
+     "start": 76.1,
+     "end": 77.2,
+     "ja": "キャビンアテンダント。",
+     "en": "A flight attendant.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 134.0,
+   "end": 145.5,
+   "title": "A Message to Adults",
+   "level": "N3",
+   "topics": [
+    "work",
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜たほうがいい — should do",
+    "〜と思う — I think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 134.3,
+     "end": 137.0,
+     "ja": "もっとみんな意見出したほうがいいと思う。",
+     "en": "I think everyone should speak up more.",
+     "speaker": "Man"
+    },
+    {
+     "start": 137.1,
+     "end": 138.8,
+     "ja": "言いたいこと言ったほうがいいと思うし、",
+     "en": "I think people should say what they want to say,",
+     "speaker": "Man"
+    },
+    {
+     "start": 138.9,
+     "end": 140.8,
+     "ja": "楽しく行こうよって思うよね、俺は。",
+     "en": "and just have fun, that's what I think.",
+     "speaker": "Man"
+    },
+    {
+     "start": 141.2,
+     "end": 142.5,
+     "ja": "給料上げろって。",
+     "en": "Raise our salary.",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 142.6,
+     "end": 145.2,
+     "ja": "せーの、給料上げろー！",
+     "en": "Ready, go: Raise our salary!",
+     "speaker": "Women"
+    }
+   ]
+  }
+ ],
+ "videoId": "YrBjLLzWYWc",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,203 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 55.6,
+   "end": 116.0,
+   "title": "Access and Deities of Yasaka Shrine",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜られている — passive form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 55.8,
+     "end": 59.0,
+     "ja": "場所は京都府東山区祇園町。",
+     "en": "The location is Gionmachi, Higashiyama Ward, Kyoto Prefecture.",
+     "speaker": "Corvus"
+    },
+    {
+     "start": 59.3,
+     "end": 62.0,
+     "ja": "京都のメインストリート、四条通りの突き当たり、",
+     "en": "At the end of Kyoto's main street, Shijo-dori,",
+     "speaker": "Corvus"
+    },
+    {
+     "start": 62.1,
+     "end": 65.1,
+     "ja": "伝統ある街並みの中、この神社はあります。",
+     "en": "this shrine stands amid the historic cityscape.",
+     "speaker": "Corvus"
+    },
+    {
+     "start": 65.3,
+     "end": 68.0,
+     "ja": "最寄りは祇園四条駅、徒歩５分。",
+     "en": "The nearest station is Gion-Shijo Station, a five-minute walk.",
+     "speaker": "Corvus"
+    },
+    {
+     "start": 68.3,
+     "end": 70.8,
+     "ja": "バス停の目の前なので便利ですね。",
+     "en": "It's right in front of a bus stop, so it's very convenient.",
+     "speaker": "Corvus"
+    },
+    {
+     "start": 71.0,
+     "end": 75.8,
+     "ja": "本殿にはスサノオノミコトとその妻と子供たちが祀られています。",
+     "en": "In the main hall, Susanoo-no-Mikoto, his wife, and their children are enshrined.",
+     "speaker": "Corvus"
+    }
+   ]
+  },
+  {
+   "start": 96.4,
+   "end": 127.3,
+   "title": "The Mystery of Yasaka Shrine's Goshuin",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜として — as / in the role of",
+    "〜もの — as many as (emphasis on large number)",
+    "〜ことに — strangely / interestingly enough"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 96.6,
+     "end": 100.8,
+     "ja": "神社やお寺に参拝した証として頂く御朱印。",
+     "en": "Goshuin seals are received as proof of visiting a shrine or temple.",
+     "speaker": "Corvus"
+    },
+    {
+     "start": 101.2,
+     "end": 105.9,
+     "ja": "今では「御朱印集めが趣味」という人も多く、ごく一般的な文化ですね。",
+     "en": "Nowadays, many people collect them as a hobby, making it a very common culture.",
+     "speaker": "Corvus"
+    },
+    {
+     "start": 106.4,
+     "end": 111.8,
+     "ja": "もちろん、ここ八坂神社でも境内社含めて16種類もの御朱印を頂けます。",
+     "en": "Of course, here at Yasaka Shrine, you can receive as many as 16 types of goshuin, including from auxiliary shrines.",
+     "speaker": "Corvus"
+    },
+    {
+     "start": 112.3,
+     "end": 118.3,
+     "ja": "ですが不思議なことに、その中に「八坂神社」と書かれている御朱印はひとつもありません。",
+     "en": "Curiously, though, not a single one among them has \"Yasaka Shrine\" written on it.",
+     "speaker": "Corvus"
+    },
+    {
+     "start": 118.8,
+     "end": 121.8,
+     "ja": "そこにあるのは「祇園社」という文字。",
+     "en": "What is written there are the characters for \"Gion-sha\".",
+     "speaker": "Corvus"
+    },
+    {
+     "start": 122.0,
+     "end": 127.0,
+     "ja": "実はこの八坂神社、明治時代より前は「祇園社」という名前だったんです。",
+     "en": "In fact, before the Meiji era, this Yasaka Shrine was named \"Gion-sha\".",
+     "speaker": "Corvus"
+    }
+   ]
+  },
+  {
+   "start": 263.7,
+   "end": 292.5,
+   "title": "The Grandeur of Gion Matsuri",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜んじゃないか — isn't it / might it not be",
+    "〜と言われている — it is said that",
+    "〜ほど — to the extent of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 263.8,
+     "end": 266.5,
+     "ja": "京都、夏の風物詩、祇園祭。",
+     "en": "Kyoto's summer tradition, the Gion Festival.",
+     "speaker": "Corvus"
+    },
+    {
+     "start": 266.7,
+     "end": 269.8,
+     "ja": "期間は長く、７月丸々１か月間。",
+     "en": "Its duration is long, spanning the entire month of July.",
+     "speaker": "Corvus"
+    },
+    {
+     "start": 270.0,
+     "end": 272.8,
+     "ja": "八坂神社のとても大きなお祭りですが、",
+     "en": "It is a huge festival of Yasaka Shrine,",
+     "speaker": "Corvus"
+    },
+    {
+     "start": 272.9,
+     "end": 277.8,
+     "ja": "一度も耳にしたことがない人はいないんじゃないかっていうぐらい、有名なお祭りですね。",
+     "en": "and it's so famous that hardly anyone has never heard of it.",
+     "speaker": "Corvus"
+    },
+    {
+     "start": 278.0,
+     "end": 279.5,
+     "ja": "それもそのはず。",
+     "en": "And with good reason.",
+     "speaker": "Corvus"
+    },
+    {
+     "start": 279.6,
+     "end": 284.2,
+     "ja": "京都の祇園祭は、東京の神田祭、大阪の天神祭と並び、",
+     "en": "Kyoto's Gion Festival, along with Tokyo's Kanda Festival and Osaka's Tenjin Festival,",
+     "speaker": "Corvus"
+    },
+    {
+     "start": 284.3,
+     "end": 287.0,
+     "ja": "日本三大祭りのひとつとも言われています。",
+     "en": "is said to be one of Japan's three major festivals.",
+     "speaker": "Corvus"
+    },
+    {
+     "start": 287.3,
+     "end": 292.0,
+     "ja": "無数にあるお祭りの中で、三本の指に入るほどのお祭りなんですね。",
+     "en": "Out of countless festivals, it is one of the top three.",
+     "speaker": "Corvus"
+    }
+   ]
+  }
+ ],
+ "videoId": "TLjIp1WhJ3c",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

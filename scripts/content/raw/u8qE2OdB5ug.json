@@ -1,0 +1,271 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 29.0,
+   "end": 53.0,
+   "title": "Everything Was Wrong",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていた — progressive/state",
+    "〜たほうがいい — had better"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 29.0,
+     "end": 32.4,
+     "ja": "で、花嫁様の挨拶をして乾杯。以上でよろしいですか？",
+     "en": "And then, greetings from the bride and the toast. Does that sound good?",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 32.7,
+     "end": 34.9,
+     "ja": "いや、全部違ったんですけど。",
+     "en": "Uh, literally every single part of that was wrong.",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 35.0,
+     "end": 36.5,
+     "ja": "オッケーです！",
+     "en": "Got it!",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 40.0,
+     "end": 42.5,
+     "ja": "乾杯、最後にしてませんでした？",
+     "en": "Didn't you put the toast at the very end?",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 42.8,
+     "end": 44.2,
+     "ja": "あ、乾杯最初のほうがいい？",
+     "en": "Oh, is the toast better at the start?",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 44.4,
+     "end": 45.3,
+     "ja": "そらそうでしょう！",
+     "en": "Well, obviously!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 45.4,
+     "end": 47.0,
+     "ja": "オッケーです！",
+     "en": "Got it!",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 47.3,
+     "end": 50.0,
+     "ja": "オッケーです？それ、僕の資料で合ってますか？",
+     "en": "\"Got it\"? Are you sure you have the right notes for me?",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 50.0,
+     "end": 51.4,
+     "ja": "うん。杉本達也さん。",
+     "en": "Yeah. Mr. Tatsuya Sugimoto.",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 51.5,
+     "end": 52.4,
+     "ja": "はい、そうです。",
+     "en": "Yes, that's me.",
+     "speaker": "Yashiki"
+    }
+   ]
+  },
+  {
+   "start": 117.0,
+   "end": 136.5,
+   "title": "Entering Like Stand-up Comedians",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜みたいに — like / similar to",
+    "〜てくる — action towards speaker / coming into view"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 117.0,
+     "end": 120.1,
+     "ja": "まずは新郎新婦が両サイドから登場します。",
+     "en": "First, the bride and groom enter from both sides of the stage.",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 120.1,
+     "end": 123.5,
+     "ja": "で、出てこないですよ、両サイドから！漫才師みたいに！",
+     "en": "We're not entering from both sides! Like stand-up comedians!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 123.7,
+     "end": 124.7,
+     "ja": "漫才師？",
+     "en": "Comedians?",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 124.8,
+     "end": 128.1,
+     "ja": "いや、だから、普通に扉から二人で揃って出てきますよ。",
+     "en": "I mean, normally the two of us just enter together through the door.",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 128.1,
+     "end": 129.3,
+     "ja": "あ、扉から？",
+     "en": "Oh, through the door?",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 129.4,
+     "end": 130.3,
+     "ja": "そらそうでしょう！",
+     "en": "Of course!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 130.3,
+     "end": 131.7,
+     "ja": "あ、すいません。オッケーです。",
+     "en": "Ah, my apologies. Got it.",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 131.7,
+     "end": 134.1,
+     "ja": "メモ何で…太いでしょう、それ！",
+     "en": "What are you taking notes with... that pen is way too thick!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 134.1,
+     "end": 136.0,
+     "ja": "太い棒で書いたぞ、今！",
+     "en": "You just wrote with a thick stick!",
+     "speaker": "Yashiki"
+    }
+   ]
+  },
+  {
+   "start": 201.2,
+   "end": 224.0,
+   "title": "Ruining the Surprise",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜やろ — seeking agreement (Kansai dialect)",
+    "〜ちゃう — to do accidentally / completely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 201.3,
+     "end": 204.2,
+     "ja": "あと、あの、テーブルは黒？",
+     "en": "Also, um, should the table be black?",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 204.2,
+     "end": 205.1,
+     "ja": "白！",
+     "en": "White!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 205.1,
+     "end": 207.3,
+     "ja": "白やろ、そら結婚式なんやから！",
+     "en": "White, obviously! It's a wedding!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 207.4,
+     "end": 209.1,
+     "ja": "あ、そっか。オッケーです。",
+     "en": "Oh, right. Got it.",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 209.1,
+     "end": 210.5,
+     "ja": "なんや、こいつ。",
+     "en": "What is with this guy?",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 210.5,
+     "end": 214.3,
+     "ja": "あと、杉本様のご友人、あの、サプライズでBTSを踊るっていうのはもうご存…",
+     "en": "Also, about your friends dancing to BTS as a surprise, are you already awar...",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 214.3,
+     "end": 216.0,
+     "ja": "何で言っちゃうんですか！",
+     "en": "Why would you just blurt that out?!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 216.0,
+     "end": 217.9,
+     "ja": "俺、BTS知らなかったですよ。",
+     "en": "I didn't know anything about BTS.",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 217.9,
+     "end": 219.4,
+     "ja": "あ、BTS、韓国のアイドルです。",
+     "en": "Oh, BTS is a Korean idol group.",
+     "speaker": "Shimasa"
+    },
+    {
+     "start": 219.4,
+     "end": 221.0,
+     "ja": "それは知ってる！",
+     "en": "I know that part!",
+     "speaker": "Yashiki"
+    },
+    {
+     "start": 221.3,
+     "end": 223.5,
+     "ja": "BTS踊ること知らなかったんですよ、僕は！",
+     "en": "I meant I didn't know they were dancing to BTS!",
+     "speaker": "Yashiki"
+    }
+   ]
+  }
+ ],
+ "videoId": "u8qE2OdB5ug",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

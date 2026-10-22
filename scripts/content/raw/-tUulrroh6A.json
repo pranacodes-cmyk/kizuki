@@ -1,0 +1,191 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.5,
+   "end": 26.2,
+   "title": "A World Where Nobody Knows Me",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy",
+    "culture"
+   ],
+   "grammar": [
+    "〜ない…はいない — double negative (everyone)",
+    "〜って — casual quotation / topic marker",
+    "〜たりして — maybe / perhaps"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 12.8,
+     "end": 14.1,
+     "ja": "高瀬川玄。",
+     "en": "Takasegawa Gen.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 14.2,
+     "end": 16.4,
+     "ja": "彼を知らない日本人はいない。",
+     "en": "There is no Japanese person who doesn't know him.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 16.8,
+     "end": 18.5,
+     "ja": "ずっと思ってた。",
+     "en": "I've always wondered.",
+     "speaker": "Gen"
+    },
+    {
+     "start": 18.6,
+     "end": 22.0,
+     "ja": "誰も高瀬川玄を知らない世界って、どんなだろうって。",
+     "en": "What a world where nobody knows Takasegawa Gen would be like.",
+     "speaker": "Gen"
+    },
+    {
+     "start": 22.2,
+     "end": 23.6,
+     "ja": "うわ、最悪！",
+     "en": "Ugh, the worst!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 23.8,
+     "end": 26.0,
+     "ja": "案外、快適だったりして。",
+     "en": "Maybe it'd be surprisingly comfortable.",
+     "speaker": "Gen"
+    }
+   ]
+  },
+  {
+   "start": 28.0,
+   "end": 42.7,
+   "title": "Who Might You Be?",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "どちら様 — polite expression for 'who'",
+    "〜者 — person who ...",
+    "誰一人〜ない — not a single person"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 28.4,
+     "end": 29.5,
+     "ja": "よう子。",
+     "en": "Yoko.",
+     "speaker": "Gen"
+    },
+    {
+     "start": 29.7,
+     "end": 31.9,
+     "ja": "なぜ出ない、電話に？",
+     "en": "Why aren't you answering your phone?",
+     "speaker": "Gen"
+    },
+    {
+     "start": 32.3,
+     "end": 34.2,
+     "ja": "どちら様ですか？",
+     "en": "Who might you be?",
+     "speaker": "Yoko"
+    },
+    {
+     "start": 34.3,
+     "end": 35.3,
+     "ja": "あ？",
+     "en": "Huh?",
+     "speaker": "Gen"
+    },
+    {
+     "start": 35.5,
+     "end": 38.8,
+     "ja": "高瀬川玄。彼を知る者は、",
+     "en": "Takasegawa Gen. The people who know him...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 40.8,
+     "end": 42.5,
+     "ja": "誰一人いない。",
+     "en": "...not a single one.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 45.8,
+   "end": 56.5,
+   "title": "Erased from Everyone's Memory",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "drama"
+   ],
+   "grammar": [
+    "〜に関する — regarding / related to",
+    "〜と思ってんだ — contraction of と思っているのだ",
+    "〜て — imperative request"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 45.9,
+     "end": 50.0,
+     "ja": "日本人の頭脳から、高瀬川玄に関する記憶が消えた。",
+     "en": "From the minds of the Japanese, memories of Takasegawa Gen vanished.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 50.1,
+     "end": 51.6,
+     "ja": "俺を誰だと思ってんだ！",
+     "en": "Who do you think I am?!",
+     "speaker": "Gen"
+    },
+    {
+     "start": 51.7,
+     "end": 52.8,
+     "ja": "どちら様でしょう？",
+     "en": "Who are you?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 52.9,
+     "end": 53.9,
+     "ja": "記憶ないんだよね。",
+     "en": "I don't remember you.",
+     "speaker": "Man"
+    },
+    {
+     "start": 54.0,
+     "end": 54.9,
+     "ja": "誰やねん、おっさん。",
+     "en": "Who the heck are you, mister?",
+     "speaker": "Young Man"
+    },
+    {
+     "start": 55.0,
+     "end": 56.2,
+     "ja": "思い出して！",
+     "en": "Remember me!",
+     "speaker": "Gen"
+    }
+   ]
+  }
+ ],
+ "videoId": "-tUulrroh6A",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

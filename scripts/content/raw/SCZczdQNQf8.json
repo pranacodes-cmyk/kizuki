@@ -1,0 +1,231 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 18.0,
+   "end": 34.0,
+   "title": "Starting a New Survey Project",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜たいと思う — thinking of wanting to do",
+    "〜ていく — will go on doing / start doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.5,
+     "end": 21.0,
+     "ja": "今日から新しい企画をやりたいと思ってて、",
+     "en": "Starting today, we'd like to do a new project,",
+     "speaker": "Miu"
+    },
+    {
+     "start": 21.3,
+     "end": 23.2,
+     "ja": "アンケートを取ろうと思うんです。",
+     "en": "and we're thinking of conducting a survey.",
+     "speaker": "Miu"
+    },
+    {
+     "start": 23.7,
+     "end": 26.5,
+     "ja": "今日のお題は「原宿オススメのお店は？」とか、",
+     "en": "Today's topic is, 'What are recommended shops in Harajuku?' and such,",
+     "speaker": "Miu"
+    },
+    {
+     "start": 26.8,
+     "end": 29.0,
+     "ja": "「どこのお店がいいのか？」っていうのを",
+     "en": "and testing out which shops are good.",
+     "speaker": "Miu"
+    },
+    {
+     "start": 29.2,
+     "end": 31.0,
+     "ja": "検証していきたいと思います。",
+     "en": "We'd like to investigate that.",
+     "speaker": "Miu"
+    },
+    {
+     "start": 31.5,
+     "end": 33.7,
+     "ja": "はい！頑張りましょう！",
+     "en": "Yes! Let's do our best!",
+     "speaker": "Non"
+    }
+   ]
+  },
+  {
+   "start": 246.0,
+   "end": 303.5,
+   "title": "Trending Lightbulb Soda",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜てる — ongoing action / state",
+    "何〜 — what kind of ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 246.0,
+     "end": 248.0,
+     "ja": "それでは、オススメの…ものかな？",
+     "en": "Now then, your recommendation is... an item, right?",
+     "speaker": "Miu"
+    },
+    {
+     "start": 248.2,
+     "end": 249.2,
+     "ja": "ズバリ、どうぞ！",
+     "en": "Go right ahead!",
+     "speaker": "Miu"
+    },
+    {
+     "start": 249.4,
+     "end": 251.0,
+     "ja": "電球ソーダです。",
+     "en": "It's lightbulb soda.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 251.2,
+     "end": 254.8,
+     "ja": "電球ソーダ！流行ってるよね、電球ソーダ！",
+     "en": "Lightbulb soda! That's really popular right now, isn't it!",
+     "speaker": "Emika"
+    },
+    {
+     "start": 255.0,
+     "end": 257.6,
+     "ja": "かわいい！これ何味ですか、ちなみに？",
+     "en": "Cute! What flavors are these, by the way?",
+     "speaker": "Non"
+    },
+    {
+     "start": 257.8,
+     "end": 258.7,
+     "ja": "オレンジ。",
+     "en": "Orange.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 258.8,
+     "end": 300.0,
+     "ja": "オレンジ味。こっちは？",
+     "en": "Orange flavor. And this one?",
+     "speaker": "Emika"
+    },
+    {
+     "start": 300.2,
+     "end": 301.6,
+     "ja": "ピンクレモネード。",
+     "en": "Pink lemonade.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 301.8,
+     "end": 303.3,
+     "ja": "ピンクレモネード！",
+     "en": "Pink lemonade!",
+     "speaker": "Miu"
+    }
+   ]
+  },
+  {
+   "start": 448.0,
+   "end": 512.0,
+   "title": "First Time in Harajuku",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜をしに — for the purpose of doing",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 448.0,
+     "end": 451.0,
+     "ja": "今日は何をしに原宿に来たんですか？",
+     "en": "What did you come to Harajuku to do today?",
+     "speaker": "Miu"
+    },
+    {
+     "start": 451.3,
+     "end": 454.0,
+     "ja": "この感じを見に来ました！",
+     "en": "We came to see this kind of vibe!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 454.3,
+     "end": 457.5,
+     "ja": "竹下通りの感じとか、原宿の感じとかを見に？",
+     "en": "To experience the Takeshita Street vibe and the Harajuku atmosphere?",
+     "speaker": "Emika"
+    },
+    {
+     "start": 457.8,
+     "end": 500.2,
+     "ja": "なんか手に持ってるのは？",
+     "en": "What's that you're holding in your hand?",
+     "speaker": "Miu"
+    },
+    {
+     "start": 500.4,
+     "end": 502.0,
+     "ja": "エチュード…",
+     "en": "Etude...",
+     "speaker": "Girl"
+    },
+    {
+     "start": 502.2,
+     "end": 504.5,
+     "ja": "あ、エチュード！いいですねー！",
+     "en": "Ah, Etude House! That's nice!",
+     "speaker": "Non"
+    },
+    {
+     "start": 505.0,
+     "end": 507.0,
+     "ja": "化粧品？リップ？",
+     "en": "Cosmetics? Lipstick?",
+     "speaker": "Emika"
+    },
+    {
+     "start": 507.2,
+     "end": 508.2,
+     "ja": "ティント！",
+     "en": "Lip tint!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 508.4,
+     "end": 511.5,
+     "ja": "当たったあああ！",
+     "en": "I guessed right!",
+     "speaker": "Emika"
+    }
+   ]
+  }
+ ],
+ "videoId": "SCZczdQNQf8",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

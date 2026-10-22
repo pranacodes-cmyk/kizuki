@@ -1,0 +1,93 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 18.5,
+   "title": "Welcome to the Sound Guessing Quiz",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜だけで — just by / only",
+    "〜たことがある — have experienced doing",
+    "〜たびに — each time / whenever"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 2.3,
+     "ja": "クイズの達人へようこそ！",
+     "en": "Welcome to Quiz Master!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 2.8,
+     "end": 5.9,
+     "ja": "あなたは音を聞いただけで何の音か当てられるかな？",
+     "en": "Can you guess what sound it is just by hearing it?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 6.3,
+     "end": 9.9,
+     "ja": "これから流れる音はみんなが絶対に聞いたことがある音だよ。",
+     "en": "The sounds about to play are sounds everyone has definitely heard before.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 12.0,
+     "end": 15.5,
+     "ja": "クイズを1つずつ正解するたびに音マスターに近づくよ。",
+     "en": "Every time you answer a quiz correctly, you get closer to becoming a Sound Master.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 15.8,
+     "end": 18.2,
+     "ja": "準備はいい？始めるよ。",
+     "en": "Are you ready? Let's begin.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 507.0,
+   "end": 515.6,
+   "title": "You Are a Quiz Master",
+   "level": "N4",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜抜く — to do through to the end",
+    "〜てね — please do (casual request)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 507.4,
+     "end": 510.8,
+     "ja": "最後までやり抜いたあなたはクイズの達人だ！",
+     "en": "Having seen it through to the end, you're a Quiz Master!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 510.9,
+     "end": 515.4,
+     "ja": "いいねとチャンネル登録をして、次に挑戦するクイズを決めてね！",
+     "en": "Leave a like, subscribe, and pick which quiz to tackle next!",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "KQ1RMkII04Q",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

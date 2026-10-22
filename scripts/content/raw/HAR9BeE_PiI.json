@@ -1,0 +1,109 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 3.0,
+   "end": 22.5,
+   "title": "The Duty of the Popin Tribe",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜てさ — conversational topic marker",
+    "〜たら — conditional if/when",
+    "〜ちまう — casual contraction of 〜てしまう"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.2,
+     "end": 6.6,
+     "ja": "ポッピン族ってさ、どうしてこんなに一生懸命なの？",
+     "en": "Why are the Popin tribe working so hard?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 6.9,
+     "end": 11.2,
+     "ja": "どうしてって、時を前に進めるのが俺たちの役目だ。",
+     "en": "Why? Because moving time forward is our duty.",
+     "speaker": "Creature"
+    },
+    {
+     "start": 11.4,
+     "end": 14.3,
+     "ja": "正直、サボりたいとか思わないの？",
+     "en": "Honestly, don't you ever feel like slacking off?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 14.7,
+     "end": 18.1,
+     "ja": "俺たちは自然の法則の中で生かされているんだ。",
+     "en": "We are given life within the laws of nature.",
+     "speaker": "Creature"
+    },
+    {
+     "start": 18.2,
+     "end": 22.2,
+     "ja": "それぞれが自分勝手なことをしたら、調和が乱れちまうんだよ。",
+     "en": "If everyone did whatever they wanted, harmony would be broken.",
+     "speaker": "Creature"
+    }
+   ]
+  },
+  {
+   "start": 43.9,
+   "end": 55.2,
+   "title": "Nothing Is Impossible",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "school"
+   ],
+   "grammar": [
+    "〜てみたい — wanting to try doing",
+    "〜から — because / reason",
+    "なんて — things like / such as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.1,
+     "end": 45.9,
+     "ja": "私、もう一度信じてみたい。",
+     "en": "I want to try believing once more.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 46.0,
+     "end": 50.0,
+     "ja": "苦しんで悩んで、がむしゃらに前に進んだから今がある。",
+     "en": "Because we struggled, worried, and blindly pushed forward, we have the present.",
+     "speaker": "Creature"
+    },
+    {
+     "start": 50.5,
+     "end": 52.9,
+     "ja": "不可能なことなんてないんだぜ！",
+     "en": "There's no such thing as impossible!",
+     "speaker": "Creature"
+    },
+    {
+     "start": 53.0,
+     "end": 55.0,
+     "ja": "世界はシンプルなんだから！",
+     "en": "Because the world is simple!",
+     "speaker": "Creature"
+    }
+   ]
+  }
+ ],
+ "videoId": "HAR9BeE_PiI",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

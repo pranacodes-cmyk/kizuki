@@ -1,0 +1,240 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 100.5,
+   "end": 126.5,
+   "title": "Struggles of Working From Home",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ばっかり — doing nothing but / only",
+    "〜ちゃう — end up doing unintentionally"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 100.8,
+     "end": 103.7,
+     "ja": "もう最近家の中ばっかりですね、僕らは。",
+     "en": "Lately we've been staying home all the time, haven't we?",
+     "speaker": "Ikezaki"
+    },
+    {
+     "start": 104.0,
+     "end": 105.3,
+     "ja": "まあそうですね。",
+     "en": "Yeah, that's true.",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 105.4,
+     "end": 107.0,
+     "ja": "ご時世的にね。はい。",
+     "en": "Given the current situation.",
+     "speaker": "Ikezaki"
+    },
+    {
+     "start": 107.2,
+     "end": 112.2,
+     "ja": "仕事も家だし、のんびりするのも家だし、家ばっかだよ。",
+     "en": "Work is at home, relaxing is at home—it's just home all the time.",
+     "speaker": "Ikezaki"
+    },
+    {
+     "start": 112.5,
+     "end": 117.2,
+     "ja": "やっぱね、家ばっかりだと、なんかね、ちょっとダラダラしちゃうね。",
+     "en": "When you're only at home, you kind of end up slacking off.",
+     "speaker": "Ikezaki"
+    },
+    {
+     "start": 117.8,
+     "end": 121.0,
+     "ja": "確かに、こうオンオフの切り替えができない。",
+     "en": "Definitely, you can't switch between work mode and off mode.",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 121.3,
+     "end": 126.0,
+     "ja": "仕事もプライベートも家ばっかだと切り替えがムズいね。",
+     "en": "When work and personal life are both at home, switching gears is tough.",
+     "speaker": "Ikezaki"
+    }
+   ]
+  },
+  {
+   "start": 1031.0,
+   "end": 1054.8,
+   "title": "What Does the Gum Taste Like?",
+   "level": "N3",
+   "topics": [
+    "food",
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜て言ったら — if someone says",
+    "〜ようが — regardless of / no matter how"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1031.2,
+     "end": 1036.4,
+     "ja": "池崎さん、まあすごいのは分かりましたけど、肝心の味が分からない。",
+     "en": "Ikezaki-san, I get that it's amazing, but we don't know the most important thing: the taste.",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 1036.8,
+     "end": 1038.8,
+     "ja": "ああ、確かに！味は言ってなかった！",
+     "en": "Oh, right! I didn't talk about the taste!",
+     "speaker": "Ikezaki"
+    },
+    {
+     "start": 1039.4,
+     "end": 1042.3,
+     "ja": "はい。言ってもガム、味大事ですから。",
+     "en": "Yeah. At the end of the day it's gum, so taste matters.",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 1042.5,
+     "end": 1047.2,
+     "ja": "確かにね。まずいって言われたら嫌だもんね、いくらマカが入っていようが。",
+     "en": "True. Nobody wants to be told it tastes bad, no matter how much maca is inside.",
+     "speaker": "Ikezaki"
+    },
+    {
+     "start": 1048.1,
+     "end": 1049.5,
+     "ja": "行きます。",
+     "en": "Here goes.",
+     "speaker": "Ikezaki"
+    },
+    {
+     "start": 1051.5,
+     "end": 1054.3,
+     "ja": "あー！フルーティーなのよ、なんか！",
+     "en": "Ah! It's kind of fruity!",
+     "speaker": "Ikezaki"
+    }
+   ]
+  },
+  {
+   "start": 1079.8,
+   "end": 1107.5,
+   "title": "Comedy School Lessons Forgotten",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜出す — start doing",
+    "〜っぽい — -like / resembling",
+    "〜ましょう — let's do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1080.0,
+     "end": 1082.3,
+     "ja": "そういうこと言い出すと嘘臭くなりますよ。",
+     "en": "If you start saying things like that, it starts sounding fake.",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 1082.5,
+     "end": 1083.5,
+     "ja": "すいません。",
+     "en": "Sorry.",
+     "speaker": "Ikezaki"
+    },
+    {
+     "start": 1085.4,
+     "end": 1089.5,
+     "ja": "それまで言ってきたフルーティーでエナジードリンクっぽいのも嘘臭く感じちゃうんで。",
+     "en": "It makes everything you said before about it tasting fruity and like an energy drink seem fake too.",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 1089.6,
+     "end": 1090.8,
+     "ja": "あ、そうかそうか。",
+     "en": "Ah, I see, I see.",
+     "speaker": "Ikezaki"
+    },
+    {
+     "start": 1091.0,
+     "end": 1092.4,
+     "ja": "今のところでボケると。",
+     "en": "If you make a joke at a time like that.",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 1092.5,
+     "end": 1094.3,
+     "ja": "やっぱね、ふざけたくなっちゃう。ごめんなさい。",
+     "en": "I just can't resist clowning around. I'm sorry.",
+     "speaker": "Ikezaki"
+    },
+    {
+     "start": 1094.5,
+     "end": 1096.8,
+     "ja": "養成所でそういうの学びませんでした？",
+     "en": "Didn't you learn that kind of thing in comedy school?",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 1097.0,
+     "end": 1098.0,
+     "ja": "無視してました。",
+     "en": "I ignored it.",
+     "speaker": "Ikezaki"
+    },
+    {
+     "start": 1098.5,
+     "end": 1101.0,
+     "ja": "ふざけていい時とそうじゃない時を使い分けましょう。",
+     "en": "Let's distinguish when to joke around and when not to.",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 1101.5,
+     "end": 1103.5,
+     "ja": "それはね、養成所で習いました。",
+     "en": "That, I did learn in comedy school.",
+     "speaker": "Ikezaki"
+    },
+    {
+     "start": 1103.8,
+     "end": 1104.6,
+     "ja": "今は？",
+     "en": "And now?",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 1105.0,
+     "end": 1107.0,
+     "ja": "もう忘れました。",
+     "en": "I've already forgotten it.",
+     "speaker": "Ikezaki"
+    }
+   ]
+  }
+ ],
+ "videoId": "CglwSQBDutY",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

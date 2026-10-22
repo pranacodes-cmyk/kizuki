@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -17,7 +18,10 @@ void main() {
     SharedPreferences.setMockInitialValues({});
     final app = AppState();
     await app.load();
-    final content = Content.fromJson(File('assets/data/content.json').readAsStringSync(), File('assets/data/dict.json').readAsStringSync());
+    final index = File('assets/data/content.json').readAsStringSync();
+    final parts = [for (final p in ((jsonDecode(index) as Map<String, dynamic>)['parts'] as List? ?? const []).cast<String>()) File('assets/data/$p').readAsStringSync()];
+    final content = Content.fromJson(index, File('assets/data/dict.json').readAsStringSync(), parts);
+    expect(content.clips, isNotEmpty, reason: 'the bundled library loads with all its parts');
     final clip = content.clips.first;
     tester.view.physicalSize = const Size(402 * 3, 874 * 3);
     tester.view.devicePixelRatio = 3;

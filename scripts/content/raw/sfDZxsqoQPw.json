@@ -1,0 +1,154 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 18.2,
+   "end": 46.5,
+   "title": "Picnics Banned During the Pandemic",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜になると — when / once",
+    "〜たり〜たりする — doing things like",
+    "〜ようにする — make an effort to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.5,
+     "end": 21.8,
+     "ja": "東京都の上野公園は、",
+     "en": "At Ueno Park in Tokyo,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 21.9,
+     "end": 25.8,
+     "ja": "お花見の季節になるとたくさんの人が来ます。",
+     "en": "many people visit once the cherry blossom season arrives.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 27.0,
+     "end": 32.5,
+     "ja": "しかし３年前から上野公園など都立の公園では、",
+     "en": "However, starting three years ago at Tokyo Metropolitan parks such as Ueno Park,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 33.0,
+     "end": 39.5,
+     "ja": "お酒を飲んだり食事したりしながらお花見をすることはできませんでした。",
+     "en": "people were unable to view the cherry blossoms while drinking or eating.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 41.4,
+     "end": 46.1,
+     "ja": "新型コロナウイルスが広がらないようにするためです。",
+     "en": "This was in order to prevent the coronavirus from spreading.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 49.0,
+   "end": 78.0,
+   "title": "Easing Rules on Hanami Picnics",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜かどうか — whether or not",
+    "〜ことになる — it has been decided that",
+    "〜ながら — while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 49.4,
+     "end": 55.2,
+     "ja": "13日から、マスクをするかどうかを自分で決めることになります。",
+     "en": "From the 13th, individuals will decide for themselves whether to wear masks.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 56.5,
+     "end": 63.0,
+     "ja": "都立の公園では食事をしながらお花見ができるようになります。",
+     "en": "In metropolitan parks, people will be allowed to view the blossoms while dining.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 64.2,
+     "end": 69.8,
+     "ja": "上野公園の「さくら通り」はたくさんの人が集まるため、",
+     "en": "Because large crowds gather on Sakura-dori in Ueno Park,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 70.5,
+     "end": 77.2,
+     "ja": "今月13日から来月16日まではできません。",
+     "en": "it will not be permitted there from the 13th of this month to the 16th of next month.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 81.0,
+   "end": 98.2,
+   "title": "Safety Advice from the Tokyo Government",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜と話している — says that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 81.5,
+     "end": 86.8,
+     "ja": "東京都は「ウイルスがうつる心配はまだあります。",
+     "en": "The Tokyo Metropolitan Government said, \"There is still concern about catching the virus.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 87.8,
+     "end": 90.8,
+     "ja": "手の消毒などを続けて、",
+     "en": "Please continue hand disinfection,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 91.0,
+     "end": 95.8,
+     "ja": "周りの人のことも考えながらお花見を楽しんでください」",
+     "en": "and enjoy cherry blossom viewing while being considerate of others around you,\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 95.9,
+     "end": 97.8,
+     "ja": "と話しています。",
+     "en": "they stated.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "sfDZxsqoQPw",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

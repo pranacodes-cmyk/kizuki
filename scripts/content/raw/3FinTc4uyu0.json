@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.6,
+   "end": 13.6,
+   "title": "Welcome to Japan-Korea Trot",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "music"
+   ],
+   "grammar": [
+    "〜へようこそ — welcome to",
+    "〜ていただく — receiving a favor"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 5.5,
+     "ja": "皆様こんにちは、日本韓国トロット館へようこそ。",
+     "en": "Hello everyone, welcome to the Japan-Korea Trot Channel.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 5.6,
+     "end": 13.5,
+     "ja": "本日は皆様にぜひご覧いただきたい、とても興味深い内容をご用意しました。",
+     "en": "Today, we have prepared some very interesting content that we definitely want you all to see.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 14.1,
+   "end": 37.0,
+   "title": "Exclusive Interview with Shin",
+   "level": "N3",
+   "topics": [
+    "family",
+    "music"
+   ],
+   "grammar": [
+    "〜について — regarding / about",
+    "〜てくれる — doing something for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 14.1,
+     "end": 19.8,
+     "ja": "今回は、日本の歌手SHINの独占インタビューをお届けします。",
+     "en": "This time, we bring you an exclusive interview with Japanese singer Shin.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 20.0,
+     "end": 26.5,
+     "ja": "そしてインタビューの中でSHINは、母親が自分の化粧を好んでいなかったこと、",
+     "en": "And in the interview, Shin spoke about how his mother didn't like his makeup,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 26.8,
+     "end": 32.2,
+     "ja": "そして今の自分の外見も好きではないと感じていたことについて、",
+     "en": "and how he felt that she didn't like his current appearance either,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 33.0,
+     "end": 37.0,
+     "ja": "率直な胸の内を語ってくれました。",
+     "en": "frankly sharing what was in his heart.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 57.4,
+   "end": 85.6,
+   "title": "Shin Enters the Studio",
+   "level": "N2",
+   "topics": [
+    "music",
+    "culture"
+   ],
+   "grammar": [
+    "〜とは違い — unlike / different from",
+    "〜てきた — have done up to now"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 57.4,
+     "end": 62.3,
+     "ja": "静まり返ったスタジオに足音だけが響いていた。",
+     "en": "In the quiet studio, only the sound of footsteps echoed.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 62.5,
+     "end": 66.8,
+     "ja": "カメラの前に現れたその人物は日本の歌手SHIN。",
+     "en": "The person appearing in front of the camera was Japanese singer Shin.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 66.9,
+     "end": 71.0,
+     "ja": "華やかな舞台で見せる姿とは違い、その表情には緊張と迷いが入り混じっていた。",
+     "en": "Unlike his appearance on the glamorous stage, his expression was a mix of tension and hesitation.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 71.2,
+     "end": 76.5,
+     "ja": "これまで多くのステージに立ち、数え切れない拍手を浴びてきた彼だが、",
+     "en": "Though he had stood on many stages and bathed in countless applause until now,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 76.6,
+     "end": 80.0,
+     "ja": "この日のインタビューは明らかに特別なものだった。",
+     "en": "this day's interview was clearly something special.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 80.2,
+     "end": 85.5,
+     "ja": "椅子に腰を下ろした瞬間、小さく息を整える姿が印象的だった。",
+     "en": "The moment he sat down in the chair, the way he quietly caught his breath was striking.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "3FinTc4uyu0",
+ "pickTopics": [
+  "music"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

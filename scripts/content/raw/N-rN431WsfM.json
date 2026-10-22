@@ -1,0 +1,181 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.3,
+   "end": 36.7,
+   "title": "Size of the Daiso Jjigae Pot",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てみる — trying something out",
+    "〜としては — as for / for"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.6,
+     "end": 26.0,
+     "ja": "陶器でできた、小さめの鍋で、",
+     "en": "It's a rather small pot made of ceramic,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 26.2,
+     "end": 28.1,
+     "ja": "直径は約13cmです。",
+     "en": "with a diameter of about 13 cm.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 29.0,
+     "end": 31.4,
+     "ja": "初めは小さく感じましたが、",
+     "en": "At first it felt small,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 31.7,
+     "end": 33.3,
+     "ja": "実際に使ってみると、",
+     "en": "but when I actually used it,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 33.6,
+     "end": 34.7,
+     "ja": "1人分としては、",
+     "en": "for one serving,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 35.1,
+     "end": 36.4,
+     "ja": "ちょうどいいサイズでした。",
+     "en": "it was just the right size.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 107.0,
+   "end": 128.0,
+   "title": "Small Pot for Cooking at Home",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜たい — wanting to do something",
+    "〜なくても — even without doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 107.4,
+     "end": 109.4,
+     "ja": "ちょっと湯豆腐が食べたい時も、",
+     "en": "Even when you just want some boiled tofu,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 109.9,
+     "end": 112.5,
+     "ja": "わざわざ大きな鍋を出さなくても、",
+     "en": "without having to bother taking out a large pot,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 112.8,
+     "end": 115.0,
+     "ja": "この小さなサイズがちょうどいいんです。",
+     "en": "this small size is just right.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 117.2,
+     "end": 120.3,
+     "ja": "アヒージョにもちょうどいいサイズ感でした。",
+     "en": "It was also the perfect size for ajillo.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 121.2,
+     "end": 124.0,
+     "ja": "エビやキノコの旨味が出たオイルに、",
+     "en": "In the oil packed with flavors of shrimp and mushrooms,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 124.2,
+     "end": 125.9,
+     "ja": "フランスパンを浸して食べるのも、",
+     "en": "dipping French bread to eat",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 126.1,
+     "end": 127.8,
+     "ja": "これがまた美味しいんですよね。",
+     "en": "is just so delicious too.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 139.0,
+   "end": 151.3,
+   "title": "Safety Tip for Using the Mini Pot",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜てほしい — wanting someone to do",
+    "〜ので — because / since",
+    "〜と便利 — it is convenient when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 139.1,
+     "end": 141.2,
+     "ja": "1つ注意してほしいのが、",
+     "en": "One thing to watch out for is that,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 141.6,
+     "end": 142.9,
+     "ja": "小さい鍋なので、",
+     "en": "because it's a small pot,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 143.2,
+     "end": 145.4,
+     "ja": "コンロによっては置けない場合があります。",
+     "en": "depending on the stove, you might not be able to set it down.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 146.0,
+     "end": 148.6,
+     "ja": "そんな時は、ミニ五徳があると便利です。",
+     "en": "In times like that, a mini trivet comes in handy.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "N-rN431WsfM",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

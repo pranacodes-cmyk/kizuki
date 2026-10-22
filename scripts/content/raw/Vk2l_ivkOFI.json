@@ -1,0 +1,205 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 43.0,
+   "end": 57.5,
+   "title": "Is Spitting in Public Rude?",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜と思う — expressing opinion",
+    "〜というのは — as for the act of",
+    "〜っす — casual copula"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 43.2,
+     "end": 45.3,
+     "ja": "失礼に当たると思いますね。",
+     "en": "I'd say it's considered rude.",
+     "speaker": "A"
+    },
+    {
+     "start": 45.4,
+     "end": 48.8,
+     "ja": "やっぱ唾には何が含まれてるのか分かんないんで、",
+     "en": "You don't know what germs spit carries,",
+     "speaker": "A"
+    },
+    {
+     "start": 49.0,
+     "end": 51.0,
+     "ja": "いろんな人が通る所で",
+     "en": "so in a place where lots of people pass by,",
+     "speaker": "A"
+    },
+    {
+     "start": 51.1,
+     "end": 55.0,
+     "ja": "唾を吐くっていうのは、あんまり良くないことかなって思います。",
+     "en": "spitting in public isn't really a good thing, I think.",
+     "speaker": "A"
+    },
+    {
+     "start": 55.8,
+     "end": 57.2,
+     "ja": "全く同じっすね。",
+     "en": "I completely agree.",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 382.2,
+   "end": 410.0,
+   "title": "Why Japanese People Bow Subconsciously",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜ちゃう — unintentional action",
+    "〜まま — doing while in a state",
+    "〜みたい — like / such as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 382.4,
+     "end": 383.8,
+     "ja": "だと思います。",
+     "en": "I think so.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 384.0,
+     "end": 386.5,
+     "ja": "なんか自然と「あ、すいません」みたいな、",
+     "en": "It's natural, like \"Oh, excuse me,\"",
+     "speaker": "Woman"
+    },
+    {
+     "start": 386.6,
+     "end": 389.2,
+     "ja": "「よろしくお願いします」みたいな。",
+     "en": "or \"Nice to meet you.\"",
+     "speaker": "Woman"
+    },
+    {
+     "start": 389.8,
+     "end": 392.2,
+     "ja": "もう多分、先生とかが",
+     "en": "I guess our teachers",
+     "speaker": "Woman"
+    },
+    {
+     "start": 392.4,
+     "end": 396.8,
+     "ja": "こう話してる時とかも、こうやってペコペコしてるから、",
+     "en": "would also bow like this while talking,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 397.0,
+     "end": 401.0,
+     "ja": "もう小っちゃい時からそれを多分自然とずっと見てて、",
+     "en": "so having grown up seeing that all the time,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 401.2,
+     "end": 404.2,
+     "ja": "もう無意識にやっちゃうんで、",
+     "en": "we just do it subconsciously,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 404.4,
+     "end": 407.3,
+     "ja": "何だろう、お辞儀してるって感覚がないかもしれない。",
+     "en": "so we might not even feel like we're bowing.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 407.5,
+     "end": 409.8,
+     "ja": "自覚がないままやってますね。",
+     "en": "We do it without even realizing.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 541.8,
+   "end": 565.5,
+   "title": "The 90-Degree Bow of Gratitude",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ば〜ほど — the more... the more...",
+    "〜を表す — to express / show",
+    "〜んですね — expressing realization"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 542.0,
+     "end": 546.5,
+     "ja": "一番違う時は、感謝の気持ちを表す時のお辞儀ですね。",
+     "en": "The biggest difference is the bow when showing gratitude.",
+     "speaker": "A"
+    },
+    {
+     "start": 546.8,
+     "end": 550.2,
+     "ja": "もう感謝のお辞儀はもう90度。",
+     "en": "A bow of gratitude is a full 90 degrees.",
+     "speaker": "A"
+    },
+    {
+     "start": 550.8,
+     "end": 554.5,
+     "ja": "もう深々しく。ありがとうございます。",
+     "en": "Very deeply: \"Thank you very much.\"",
+     "speaker": "A"
+    },
+    {
+     "start": 556.3,
+     "end": 558.8,
+     "ja": "すごい深くて長いんですね。",
+     "en": "Wow, it's really deep and long.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 559.0,
+     "end": 562.0,
+     "ja": "もう感謝はもう長ければ長いほうがいいです。",
+     "en": "For gratitude, the longer the better.",
+     "speaker": "A"
+    },
+    {
+     "start": 562.2,
+     "end": 565.2,
+     "ja": "深く深く、長く長く。",
+     "en": "As deep as you can, as long as you can.",
+     "speaker": "B"
+    }
+   ]
+  }
+ ],
+ "videoId": "Vk2l_ivkOFI",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

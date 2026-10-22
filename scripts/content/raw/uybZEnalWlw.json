@@ -1,0 +1,162 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 37.5,
+   "end": 56.7,
+   "title": "Monday Routine at University",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "school",
+    "food"
+   ],
+   "grammar": [
+    "〜があります — existence of inanimate things",
+    "〜てから — after doing"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 39.2,
+     "end": 41.5,
+     "ja": "今日は月曜日です。",
+     "en": "Today is Monday.",
+     "speaker": "Erin"
+    },
+    {
+     "start": 41.6,
+     "end": 43.6,
+     "ja": "朝、私は起きます。",
+     "en": "In the morning, I wake up.",
+     "speaker": "Erin"
+    },
+    {
+     "start": 44.3,
+     "end": 46.5,
+     "ja": "昼、講義があります。",
+     "en": "In the afternoon, I have a lecture.",
+     "speaker": "Erin"
+    },
+    {
+     "start": 46.9,
+     "end": 49.6,
+     "ja": "これは大学のビデオです。",
+     "en": "This is a video of university.",
+     "speaker": "Erin"
+    },
+    {
+     "start": 50.8,
+     "end": 53.0,
+     "ja": "昼ご飯を食べます。",
+     "en": "I eat lunch.",
+     "speaker": "Erin"
+    },
+    {
+     "start": 53.8,
+     "end": 56.4,
+     "ja": "それから、帰って休みます。",
+     "en": "After that, I go home and rest.",
+     "speaker": "Erin"
+    }
+   ]
+  },
+  {
+   "start": 125.5,
+   "end": 145.5,
+   "title": "Wednesday Rain and Lunch",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food",
+    "school"
+   ],
+   "grammar": [
+    "〜のを待つ — wait for (nominalized verb)",
+    "〜て休みます — verb te-form sequence"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 126.1,
+     "end": 128.4,
+     "ja": "今日は水曜日です。",
+     "en": "Today is Wednesday.",
+     "speaker": "Erin"
+    },
+    {
+     "start": 128.9,
+     "end": 131.6,
+     "ja": "昼、授業があります。",
+     "en": "In the afternoon, I have class.",
+     "speaker": "Erin"
+    },
+    {
+     "start": 136.6,
+     "end": 139.2,
+     "ja": "昼ご飯を食べます。",
+     "en": "I eat lunch.",
+     "speaker": "Erin"
+    },
+    {
+     "start": 139.4,
+     "end": 142.1,
+     "ja": "雨が止むのを待ちます。",
+     "en": "I wait for the rain to stop.",
+     "speaker": "Erin"
+    },
+    {
+     "start": 142.4,
+     "end": 145.2,
+     "ja": "それから、帰って休みます。",
+     "en": "After that, I go home and rest.",
+     "speaker": "Erin"
+    }
+   ]
+  },
+  {
+   "start": 202.8,
+   "end": 222.5,
+   "title": "Lunch by the Beach on Thursday",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food",
+    "friends"
+   ],
+   "grammar": [
+    "〜で食べる — location of action",
+    "〜て遊びます — te-form sequence of actions"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 203.2,
+     "end": 208.8,
+     "ja": "それから、友達と後輩の海で昼ご飯を食べます。",
+     "en": "After that, I eat lunch by the sea with my friend.",
+     "speaker": "Erin"
+    },
+    {
+     "start": 209.1,
+     "end": 213.5,
+     "ja": "そのあと、友達と少し話します。",
+     "en": "After that, I chat with my friend for a bit.",
+     "speaker": "Erin"
+    },
+    {
+     "start": 216.5,
+     "end": 221.8,
+     "ja": "午後、海で散歩して遊びます。",
+     "en": "In the afternoon, we take a walk and play at the beach.",
+     "speaker": "Erin"
+    }
+   ]
+  }
+ ],
+ "videoId": "uybZEnalWlw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,151 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 13.5,
+   "end": 36.2,
+   "title": "Relax and Drift Off to Sleep",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ているうちに — while doing",
+    "〜ていただけると — I would appreciate if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.7,
+     "end": 18.6,
+     "ja": "日本語でお話をしますが、日本語が分からなくても大丈夫です。",
+     "en": "I'll speak in Japanese, but it's totally fine if you don't understand it.",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 18.9,
+     "end": 23.4,
+     "ja": "私の声をBGMのように流して聞いていただいて、",
+     "en": "Just let my voice play like background music,",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 23.6,
+     "end": 28.5,
+     "ja": "聞いてるうちに「眠くなったな、もう寝ちゃおう」、",
+     "en": "and as you listen, you might think, \"I'm getting sleepy, time for bed.\"",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 28.8,
+     "end": 31.4,
+     "ja": "これが私の目的なので、",
+     "en": "That's my goal,",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 31.6,
+     "end": 36.0,
+     "ja": "ゆっくりした気持ちで聞いていただけると嬉しいです。",
+     "en": "so I'd be glad if you could listen in a relaxed mood.",
+     "speaker": "Cherry"
+    }
+   ]
+  },
+  {
+   "start": 45.8,
+   "end": 69.8,
+   "title": "Emotional Stability in Adults",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜として — as / in the role of",
+    "〜っていうのは — speaking of / as for"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 46.2,
+     "end": 50.4,
+     "ja": "大人と子供の違いっていうのはたくさんあると思うんだけど、",
+     "en": "I think there are a lot of differences between adults and children,",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 50.8,
+     "end": 58.0,
+     "ja": "私が思う、大人として素敵だなって思う人の条件の1つに、",
+     "en": "but one of the qualities I admire in a wonderful adult",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 58.3,
+     "end": 62.6,
+     "ja": "感情のアップダウンがないっていうものがあります。",
+     "en": "is not having emotional ups and downs.",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 63.0,
+     "end": 69.5,
+     "ja": "1つは、私が感情のアップダウンがとても激しい人が苦手っていうことがあるんだけど、",
+     "en": "Part of it is that I personally struggle around people with extreme mood swings,",
+     "speaker": "Cherry"
+    }
+   ]
+  },
+  {
+   "start": 341.6,
+   "end": 367.0,
+   "title": "Keeping Life Calm and Steady",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ちゃう — completely do / end up doing",
+    "〜ておくといい — it's good to do in advance"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 341.9,
+     "end": 346.8,
+     "ja": "でもやっぱり年齢重ねると、アップダウンアップダウンもう疲れちゃうからさ。",
+     "en": "As you get older, all those constant ups and downs just get exhausting.",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 347.0,
+     "end": 353.4,
+     "ja": "自分が心地いいなって思う時間を安定して過ごせるのが、",
+     "en": "Spending your time feeling comfortable in a stable way",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 353.7,
+     "end": 358.2,
+     "ja": "一番安心で、安全で、心地良いので、",
+     "en": "is what feels most reassuring, safe, and pleasant,",
+     "speaker": "Cherry"
+    },
+    {
+     "start": 358.5,
+     "end": 366.5,
+     "ja": "みんな自分のね、お気に入りの時間の過ごし方のレシピを持っておくといいんじゃないかなと、私は思っています。",
+     "en": "so I think it's a great idea to have your own recipes for spending quality time.",
+     "speaker": "Cherry"
+    }
+   ]
+  }
+ ],
+ "videoId": "Cw0gm2UkAOI",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

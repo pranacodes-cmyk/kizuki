@@ -1,0 +1,169 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 93.2,
+   "end": 112.2,
+   "title": "Frozen Acai Bowl Snack",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てもらう — receiving a favor",
+    "〜ちゃう — accidental action",
+    "〜のかな — wondering to oneself"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 93.3,
+     "end": 94.8,
+     "ja": "じゃーん。",
+     "en": "Ta-da!",
+     "speaker": "Waco"
+    },
+    {
+     "start": 95.0,
+     "end": 97.4,
+     "ja": "友達が買ってきてくれた、",
+     "en": "A friend bought this for me,",
+     "speaker": "Waco"
+    },
+    {
+     "start": 99.8,
+     "end": 104.2,
+     "ja": "お裾分けしてもらったアサイーがあるので、ちょっとこれ食べます。",
+     "en": "and shared some acai with me, so I'm going to eat this.",
+     "speaker": "Waco"
+    },
+    {
+     "start": 107.4,
+     "end": 111.8,
+     "ja": "冷凍庫に入れてたらこんなカチコチになっちゃったんだけど、食べれるのかな？",
+     "en": "I put it in the freezer and it turned rock-hard, wonder if I can eat it?",
+     "speaker": "Waco"
+    }
+   ]
+  },
+  {
+   "start": 488.2,
+   "end": 513.0,
+   "title": "Blinding Morning Sun and an Overslept Nap",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜すぎる — too / excessive",
+    "〜たら — when / if",
+    "〜んだけど — explanatory ending"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 488.5,
+     "end": 490.5,
+     "ja": "眩しすぎる。",
+     "en": "It's way too bright.",
+     "speaker": "Waco"
+    },
+    {
+     "start": 492.3,
+     "end": 494.5,
+     "ja": "やばいね、この日差し。",
+     "en": "This sunlight is intense.",
+     "speaker": "Waco"
+    },
+    {
+     "start": 495.0,
+     "end": 497.0,
+     "ja": "超眩しいんだけど。",
+     "en": "It's so blinding.",
+     "speaker": "Waco"
+    },
+    {
+     "start": 497.5,
+     "end": 499.5,
+     "ja": "まあ、しましまですけど。",
+     "en": "Well, it's striped [from the blinds], though.",
+     "speaker": "Waco"
+    },
+    {
+     "start": 504.0,
+     "end": 507.5,
+     "ja": "急に昨日昼寝してたら、",
+     "en": "Yesterday, while taking an unexpected nap,",
+     "speaker": "Waco"
+    },
+    {
+     "start": 509.5,
+     "end": 511.0,
+     "ja": "夜になってて、",
+     "en": "it suddenly turned into night,",
+     "speaker": "Waco"
+    },
+    {
+     "start": 511.2,
+     "end": 512.5,
+     "ja": "あ、やべっ。",
+     "en": "and I was like, \"Oh crap.\"",
+     "speaker": "Waco"
+    }
+   ]
+  },
+  {
+   "start": 644.5,
+   "end": 663.5,
+   "title": "A Care Package from Mom",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくれる — doing something for someone",
+    "〜かな — I wonder / maybe",
+    "〜てみる — trying something out"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 645.0,
+     "end": 647.8,
+     "ja": "お母さんが送ってくれました。",
+     "en": "My mom sent this to me.",
+     "speaker": "Waco"
+    },
+    {
+     "start": 649.8,
+     "end": 652.5,
+     "ja": "Amazonかな、たぶん。",
+     "en": "From Amazon, probably.",
+     "speaker": "Waco"
+    },
+    {
+     "start": 655.3,
+     "end": 658.2,
+     "ja": "えー、別府温泉。",
+     "en": "Ooh, Beppu Hot Springs.",
+     "speaker": "Waco"
+    },
+    {
+     "start": 661.0,
+     "end": 662.8,
+     "ja": "入ってみよう。",
+     "en": "Let's try putting it in.",
+     "speaker": "Waco"
+    }
+   ]
+  }
+ ],
+ "videoId": "kXf259H3fGY",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

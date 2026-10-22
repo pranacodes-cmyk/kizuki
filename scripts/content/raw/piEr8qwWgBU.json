@@ -1,0 +1,133 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 13.5,
+   "end": 32.2,
+   "title": "Introducing Top 5 Onsen Inns and Criteria",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜てまいる — humble action directed toward listener",
+    "〜ておる — humble ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.8,
+     "end": 15.5,
+     "ja": "Ryoでございます。",
+     "en": "I'm Ryo.",
+     "speaker": "Ryo"
+    },
+    {
+     "start": 15.7,
+     "end": 21.8,
+     "ja": "今回は今年宿泊した温泉旅館の中から、特に良かった宿5軒を厳選してご紹介してまいります。",
+     "en": "Today, I will carefully select and introduce five of the best onsen ryokan I stayed at this year.",
+     "speaker": "Ryo"
+    },
+    {
+     "start": 22.0,
+     "end": 32.0,
+     "ja": "評価は、宿、料理、温泉、接客、サービス、価格、観光、ロケーションの8項目を採点し、総合得点でランク付けしております。",
+     "en": "The evaluation scores eight categories—inn, cuisine, onsen, customer service, service, price, sightseeing, and location—and ranks them by total score.",
+     "speaker": "Ryo"
+    }
+   ]
+  },
+  {
+   "start": 544.5,
+   "end": 610.2,
+   "title": "Rank 2: Historic Maruya Ryokan in Yamagata",
+   "level": "N2",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "知る人ぞ知る — well known only to those in the know",
+    "〜によって — by means of / due to",
+    "〜ており — conjunctive form of 〜ている"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 544.8,
+     "end": 552.4,
+     "ja": "第2位は、知る人ぞ知る山形の秘湯、肘折温泉にある明治元年創業の老舗、丸屋旅館です。",
+     "en": "In second place is Maruya Ryokan, a historic inn established in the first year of Meiji, located in Hijiori Onsen, a hidden hot spring gem in Yamagata.",
+     "speaker": "Ryo"
+    },
+    {
+     "start": 552.8,
+     "end": 601.8,
+     "ja": "肘折温泉は山形県の静かな山あいに佇む温泉地で、肘折カルデラと呼ばれる窪地の地形に発展した珍しい温泉街です。",
+     "en": "Hijiori Onsen is a hot spring resort nestled quietly in the mountains of Yamagata Prefecture, a unique onsen town that developed in a basin known as the Hijiori Caldera.",
+     "speaker": "Ryo"
+    },
+    {
+     "start": 602.0,
+     "end": 610.0,
+     "ja": "この地熱活動によって湧き出す源泉には豊富な鉱物が含まれており、温泉マニアもうなる本格派の湯を堪能できます。",
+     "en": "The spring water gushing up from this geothermal activity is rich in minerals, letting you enjoy an authentic bath that satisfies even onsen connoisseurs.",
+     "speaker": "Ryo"
+    }
+   ]
+  },
+  {
+   "start": 754.5,
+   "end": 780.5,
+   "title": "Rank 1: Hanare no Yado Kanon in Shiobara",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "romance"
+   ],
+   "grammar": [
+    "〜に面した — facing / bordering",
+    "〜ことに — surprisingly / to one's surprise",
+    "〜なら — conditional 'if it is...'"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 754.8,
+     "end": 760.6,
+     "ja": "第1位はこちら、私が大好きな塩原温泉にある「離れの宿 楓音」です。",
+     "en": "Number one is this place: Hanare no Yado Kanon, located in Shiobara Onsen, which I absolutely love.",
+     "speaker": "Ryo"
+    },
+    {
+     "start": 761.0,
+     "end": 765.8,
+     "ja": "全室が塩原のシンボル箒川に面した特別なロケーション。",
+     "en": "Every room has a special location facing the Hoki River, the symbol of Shiobara.",
+     "speaker": "Ryo"
+    },
+    {
+     "start": 766.1,
+     "end": 770.8,
+     "ja": "そして驚くことに、客室はすべて露天風呂付きの離れなんです。",
+     "en": "And remarkably, all guest rooms are detached villas equipped with open-air baths.",
+     "speaker": "Ryo"
+    },
+    {
+     "start": 772.0,
+     "end": 780.2,
+     "ja": "館内はおしゃれ空間の連続で、カップルなら自然とロマンチックな雰囲気に包まれると思います。",
+     "en": "The interior is a succession of stylish spaces, creating a naturally romantic atmosphere for couples.",
+     "speaker": "Ryo"
+    }
+   ]
+  }
+ ],
+ "videoId": "piEr8qwWgBU",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

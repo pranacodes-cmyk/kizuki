@@ -1,0 +1,243 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 160.0,
+   "end": 184.0,
+   "title": "Ordering Gyoza at a Restaurant",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てもいいですか — asking for permission",
+    "〜でお願いします — ordering politely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 160.1,
+     "end": 161.3,
+     "ja": "すみません。",
+     "en": "Excuse me.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 161.3,
+     "end": 162.5,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 164.2,
+     "end": 169.0,
+     "ja": "この手作り餃子５個で、チャーシュー３枚で。",
+     "en": "I'll have five handmade gyoza and three slices of chashu.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 170.4,
+     "end": 172.1,
+     "ja": "炙ってもらってもいいですか？",
+     "en": "Could you sear them for me?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 172.1,
+     "end": 173.3,
+     "ja": "炙りで、はい。",
+     "en": "Seared, sure.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 173.3,
+     "end": 176.0,
+     "ja": "炙りで。で、ご飯なんですけど少なめで。",
+     "en": "Seared. And for the rice, a small portion.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 176.0,
+     "end": 177.3,
+     "ja": "ご飯少なめで。",
+     "en": "A small portion of rice.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 177.3,
+     "end": 178.3,
+     "ja": "お願いします。",
+     "en": "Please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 178.3,
+     "end": 181.0,
+     "ja": "餃子の方はニンニクありとなし、どうしましょう？",
+     "en": "For the gyoza, would you like them with or without garlic?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 181.0,
+     "end": 182.4,
+     "ja": "なしでお願いします。",
+     "en": "Without garlic, please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 182.4,
+     "end": 183.8,
+     "ja": "かしこまりました。",
+     "en": "Certainly.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 542.0,
+   "end": 557.0,
+   "title": "Asking How to Pay the Bill",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていただく — receiving an action politely",
+    "〜になる — polite copula"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 542.2,
+     "end": 545.8,
+     "ja": "すみません、こちらってどっちのパターンですか？",
+     "en": "Excuse me, which way do you do things here?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 546.0,
+     "end": 549.3,
+     "ja": "こちらはレジに来ていただくパターンになります。",
+     "en": "Customers pay at the register here.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 549.5,
+     "end": 553.2,
+     "ja": "わかりました。じゃあ「お会計お願いします」と言います。",
+     "en": "Understood. Then I'll say, 'The check, please.'",
+     "speaker": "Akane"
+    },
+    {
+     "start": 553.2,
+     "end": 555.0,
+     "ja": "お会計お願いします。",
+     "en": "The check, please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 555.0,
+     "end": 556.7,
+     "ja": "はい、かしこまりました。",
+     "en": "Yes, right away.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 581.0,
+   "end": 609.0,
+   "title": "Paying in Cash and Free Candy",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ております — humble continuous/state",
+    "〜のみ — only / solely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 581.5,
+     "end": 584.2,
+     "ja": "1000円ちょうどになります。",
+     "en": "That will be exactly 1,000 yen.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 584.2,
+     "end": 586.3,
+     "ja": "はい。じゃあ1000円で。",
+     "en": "Okay. Here is 1,000 yen.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 586.3,
+     "end": 588.5,
+     "ja": "1000円お預かりいたします。",
+     "en": "I'll take 1,000 yen.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 590.0,
+     "end": 591.6,
+     "ja": "レシートのお返しです。",
+     "en": "Here is your receipt.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 591.8,
+     "end": 593.3,
+     "ja": "はい、ありがとうございます。",
+     "en": "Yes, thank you.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 593.5,
+     "end": 596.0,
+     "ja": "もしよかったら、飴を差し上げているんですが…",
+     "en": "If you'd like, we're giving out candy...",
+     "speaker": "Staff"
+    },
+    {
+     "start": 596.0,
+     "end": 599.2,
+     "ja": "ありがとうございます！飴をもらいました。",
+     "en": "Thank you! I got some candy.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 600.8,
+     "end": 604.2,
+     "ja": "こちらは現金以外で他の支払い方法はありますか？",
+     "en": "Do you accept other payment methods besides cash?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 604.2,
+     "end": 607.3,
+     "ja": "現金のみでお願いしております。",
+     "en": "We only accept cash.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 607.3,
+     "end": 608.5,
+     "ja": "わかりました。",
+     "en": "I understand.",
+     "speaker": "Akane"
+    }
+   ]
+  }
+ ],
+ "videoId": "ihRjDwIyxk0",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

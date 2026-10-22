@@ -1,0 +1,115 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 14.6,
+   "title": "Dissatisfaction Among the People",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "work"
+   ],
+   "grammar": [
+    "〜ば — if / hypothetical condition",
+    "〜わけがない — there is no way that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.7,
+     "end": 3.9,
+     "ja": "うーむ、民たちの不満が募っておるのじゃ。",
+     "en": "Hmm, the people's dissatisfaction is piling up.",
+     "speaker": "Demon Lord"
+    },
+    {
+     "start": 3.9,
+     "end": 8.9,
+     "ja": "もっと人を増やして、皆が楽しめるものを素早く提供することができればのう。",
+     "en": "If only we could increase our personnel and quickly deliver something everyone can enjoy...",
+     "speaker": "Demon Lord"
+    },
+    {
+     "start": 9.2,
+     "end": 12.8,
+     "ja": "とはいえ、すぐに人が増えるわけもないし、",
+     "en": "Even so, it's not like staff will just appear right away,",
+     "speaker": "Demon Lord"
+    },
+    {
+     "start": 12.8,
+     "end": 14.3,
+     "ja": "どうしたものか。",
+     "en": "so what should I do?",
+     "speaker": "Demon Lord"
+    }
+   ]
+  },
+  {
+   "start": 14.8,
+   "end": 25.5,
+   "title": "Too Many Recruits",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ようだ — it seems like",
+    "〜ておく / 〜てもらう — receiving an action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 15.0,
+     "end": 16.3,
+     "ja": "話は聞かせてもらった。",
+     "en": "I've heard the whole story.",
+     "speaker": "Mysterious Figure"
+    },
+    {
+     "start": 16.3,
+     "end": 17.8,
+     "ja": "どうやらお困りのようだな？",
+     "en": "It seems you're in a bind, aren't you?",
+     "speaker": "Mysterious Figure"
+    },
+    {
+     "start": 17.8,
+     "end": 19.5,
+     "ja": "人員の手配なら我に任せよ。",
+     "en": "Leave arranging the personnel to me.",
+     "speaker": "Mysterious Figure"
+    },
+    {
+     "start": 19.5,
+     "end": 20.6,
+     "ja": "お、お主は！",
+     "en": "Y-You are...!",
+     "speaker": "Demon Lord"
+    },
+    {
+     "start": 20.6,
+     "end": 22.5,
+     "ja": "よろしくお願いいたします。",
+     "en": "We look forward to working with you!",
+     "speaker": "Staff"
+    },
+    {
+     "start": 22.5,
+     "end": 25.2,
+     "ja": "なんじゃ！多すぎるぞ！うわああ！",
+     "en": "What?! There are way too many! Whoa!",
+     "speaker": "Demon Lord"
+    }
+   ]
+  }
+ ],
+ "videoId": "f5NQ7AJO8hI",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

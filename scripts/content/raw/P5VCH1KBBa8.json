@@ -1,0 +1,194 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 38.0,
+   "end": 52.5,
+   "title": "A Toothache Pose That Became Reality",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てたら — when/if doing",
+    "〜てしまう — unintended action/regret"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 38.2,
+     "end": 40.5,
+     "ja": "もうさ、私さ、本当にあの、",
+     "en": "You know, seriously, I...",
+     "speaker": "Nachosu"
+    },
+    {
+     "start": 40.5,
+     "end": 44.2,
+     "ja": "虫歯ポーズしてたら現実的に虫歯になっちゃって。",
+     "en": "I did the toothache pose, and it actually turned into a real cavity!",
+     "speaker": "Nachosu"
+    },
+    {
+     "start": 44.5,
+     "end": 47.3,
+     "ja": "いや本当に、本当にびっくりなんですけど、",
+     "en": "No, really, I was so shocked,",
+     "speaker": "Nachosu"
+    },
+    {
+     "start": 47.3,
+     "end": 49.2,
+     "ja": "朝起きたらびっくりしたんですけど、",
+     "en": "when I woke up this morning, I was stunned because...",
+     "speaker": "Nachosu"
+    },
+    {
+     "start": 49.2,
+     "end": 52.3,
+     "ja": "ほっぺたが3倍ぐらいに膨れ上がっております！",
+     "en": "my cheek has swollen to about three times its size!",
+     "speaker": "Nachosu"
+    }
+   ]
+  },
+  {
+   "start": 420.5,
+   "end": 435.0,
+   "title": "Secret Behind Winning First Place",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜から — because",
+    "〜と思う — to think/believe"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 420.5,
+     "end": 422.5,
+     "ja": "2人結構いい勝負してたもんな。",
+     "en": "Those two were in a pretty close race, after all.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 422.5,
+     "end": 423.7,
+     "ja": "接戦、ね。",
+     "en": "A close contest, yeah.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 423.7,
+     "end": 424.7,
+     "ja": "何で勝ったか？",
+     "en": "Why do you think you won?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 424.7,
+     "end": 427.7,
+     "ja": "いや、そりゃあやっぱ盛れてるからね、あれはこれね。",
+     "en": "Well, obviously because it looks so flattering, you know?",
+     "speaker": "Nachosu"
+    },
+    {
+     "start": 427.7,
+     "end": 429.8,
+     "ja": "実際こんなに顔が…",
+     "en": "Since in reality my face is...",
+     "speaker": "Nachosu"
+    },
+    {
+     "start": 430.1,
+     "end": 432.2,
+     "ja": "膨れ上がってるから。",
+     "en": "swollen like this.",
+     "speaker": "Nachosu"
+    },
+    {
+     "start": 432.4,
+     "end": 434.8,
+     "ja": "それが今回の勝因だったと思います。",
+     "en": "I think that was the secret to my victory this time.",
+     "speaker": "Nachosu"
+    }
+   ]
+  },
+  {
+   "start": 295.2,
+   "end": 315.8,
+   "title": "Selfie Tip: Lighting Is Key",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ようにする — to make sure to / try to",
+    "〜ていく — action going forward"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 295.5,
+     "end": 298.7,
+     "ja": "まず、そうですね。あの、光です！",
+     "en": "First of all, let's see. Um, lighting!",
+     "speaker": "Nachosu"
+    },
+    {
+     "start": 298.8,
+     "end": 301.3,
+     "ja": "光はめっちゃ重要にしてて、",
+     "en": "I consider lighting super important,",
+     "speaker": "Nachosu"
+    },
+    {
+     "start": 301.4,
+     "end": 305.8,
+     "ja": "私、最近あの、家でもYouTubeを撮るようにしてるから、",
+     "en": "and lately I've been shooting YouTube videos at home too,",
+     "speaker": "Nachosu"
+    },
+    {
+     "start": 305.8,
+     "end": 307.8,
+     "ja": "家にリングライトがあるんですよ。",
+     "en": "so I have a ring light at home.",
+     "speaker": "Nachosu"
+    },
+    {
+     "start": 307.8,
+     "end": 310.8,
+     "ja": "だから、まあ自然光の時もあるんですけど、",
+     "en": "So, while there are times I use natural light,",
+     "speaker": "Nachosu"
+    },
+    {
+     "start": 310.9,
+     "end": 313.2,
+     "ja": "ちょっとこの時はリングライトを使って、",
+     "en": "for this photo, I used a ring light,",
+     "speaker": "Nachosu"
+    },
+    {
+     "start": 313.2,
+     "end": 315.6,
+     "ja": "もうめっちゃ光の近くに行って撮りました。",
+     "en": "and took it right up close to the light.",
+     "speaker": "Nachosu"
+    }
+   ]
+  }
+ ],
+ "videoId": "P5VCH1KBBa8",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

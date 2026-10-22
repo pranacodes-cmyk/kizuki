@@ -1,0 +1,210 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.5,
+   "end": 31.8,
+   "title": "Welcome to Easy Japanese News Wan",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜こと — nominalizer"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.8,
+     "end": 13.0,
+     "ja": "はい、皆さんこんばんは。",
+     "en": "Hello, good evening everyone.",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 13.3,
+     "end": 17.0,
+     "ja": "「やさしい日本語ニュースわん」の時間です。",
+     "en": "It's time for 'Easy Japanese News Wan'.",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 17.5,
+     "end": 21.8,
+     "ja": "このニュースは、NHK NEWS WEB EASYなどの",
+     "en": "In this program, from news written in easy Japanese",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 22.0,
+     "end": 24.3,
+     "ja": "やさしい日本語で書かれたニュースや、",
+     "en": "such as NHK NEWS WEB EASY,",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 24.5,
+     "end": 26.5,
+     "ja": "面白いニュースを見て、",
+     "en": "and interesting news that I read,",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 26.6,
+     "end": 31.5,
+     "ja": "私、ニュース犬が思ったことを皆さんに話します。",
+     "en": "I, News Dog, will share my thoughts with you all.",
+     "speaker": "News Dog"
+    }
+   ]
+  },
+  {
+   "start": 234.0,
+   "end": 260.8,
+   "title": "Honda's Autonomous Driving News",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜なくても — even if not",
+    "〜てくれる — doing for someone",
+    "〜について — regarding / about"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 234.2,
+     "end": 236.8,
+     "ja": "皆さん、人が運転しなくても",
+     "en": "Everyone, you know about cars that can drive",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 236.9,
+     "end": 241.5,
+     "ja": "自動で走ってくれる車って知っていますよね？",
+     "en": "automatically without a human driver, right?",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 241.8,
+     "end": 244.5,
+     "ja": "自動運転の車です。",
+     "en": "Self-driving cars.",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 244.8,
+     "end": 249.5,
+     "ja": "今日は、その自動運転の車についてのニュースです。",
+     "en": "Today is news about those self-driving cars.",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 250.0,
+     "end": 251.8,
+     "ja": "ホンダ。",
+     "en": "Honda.",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 252.0,
+     "end": 254.8,
+     "ja": "高速道路が混んでいる時、",
+     "en": "I read news that when highways are congested,",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 255.0,
+     "end": 260.5,
+     "ja": "自動で運転ができる車を売るというニュースを読みました。",
+     "en": "they will sell cars capable of autonomous driving.",
+     "speaker": "News Dog"
+    }
+   ]
+  },
+  {
+   "start": 470.0,
+   "end": 495.0,
+   "title": "Airbus and Hydrogen-Powered Planes",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜とき — when doing",
+    "〜ようにする — make an effort to / ensure that",
+    "〜と思う — to think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 470.4,
+     "end": 472.0,
+     "ja": "はい、皆さん",
+     "en": "Now, everyone,",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 472.3,
+     "end": 475.2,
+     "ja": "海外に行くときはどうやって行きますか？",
+     "en": "how do you travel when you go abroad?",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 475.6,
+     "end": 478.7,
+     "ja": "もちろん鉄道や船もありますが、",
+     "en": "Of course there are trains and ships, but",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 479.0,
+     "end": 482.8,
+     "ja": "飛行機に乗る人も多いと思います。",
+     "en": "I think many people take airplanes.",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 483.3,
+     "end": 485.5,
+     "ja": "今日のニュースです。",
+     "en": "Here is today's news.",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 485.7,
+     "end": 487.3,
+     "ja": "エアバス、",
+     "en": "Airbus,",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 487.5,
+     "end": 491.5,
+     "ja": "2035年までに水素の飛行機を使えるようにする",
+     "en": "I read news that by 2035 they will make",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 491.8,
+     "end": 494.5,
+     "ja": "というニュースを読みました。",
+     "en": "hydrogen-powered airplanes available for use.",
+     "speaker": "News Dog"
+    }
+   ]
+  }
+ ],
+ "videoId": "zPRgZwimbns",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

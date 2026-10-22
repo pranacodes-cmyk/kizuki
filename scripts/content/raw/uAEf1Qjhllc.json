@@ -1,0 +1,121 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.0,
+   "end": 8.5,
+   "title": "A Familiar Incident",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜とよく似た — very similar to",
+    "〜が取れない — unable to obtain/reach"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.2,
+     "end": 5.1,
+     "ja": "２年前のアプリ婚連続殺人事件と、よく似た事件が起きています。",
+     "en": "An incident very similar to the serial murder case involving app marriages two years ago has occurred.",
+     "speaker": "Detective"
+    },
+    {
+     "start": 5.4,
+     "end": 7.9,
+     "ja": "永山吐夢さんと連絡が取れません。",
+     "en": "We are unable to get in touch with Tomu Nagayama.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 21.3,
+   "end": 30.2,
+   "title": "A Test of True Love",
+   "level": "N3",
+   "topics": [
+    "romance"
+   ],
+   "grammar": [
+    "〜ても — even if / even knowing",
+    "〜たい — want to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 21.5,
+     "end": 23.5,
+     "ja": "本当の姿を知っても、",
+     "en": "Even if you knew who they really are...",
+     "speaker": "Voiceover"
+    },
+    {
+     "start": 25.2,
+     "end": 28.1,
+     "ja": "変わらず相手を愛していると誓えるか？",
+     "en": "...can you swear to love your partner without change?",
+     "speaker": "Voiceover"
+    },
+    {
+     "start": 28.5,
+     "end": 29.8,
+     "ja": "会いたかった。",
+     "en": "I missed you.",
+     "speaker": "Tomu"
+    }
+   ]
+  },
+  {
+   "start": 44.0,
+   "end": 53.8,
+   "title": "The Ultimate Form of Love",
+   "level": "N3",
+   "topics": [
+    "romance"
+   ],
+   "grammar": [
+    "〜をかけた — putting ... at stake",
+    "〜てくる — gradually approach"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.2,
+     "end": 45.8,
+     "ja": "あんたが殺人鬼ですか？",
+     "en": "Are you the killer?",
+     "speaker": "Man"
+    },
+    {
+     "start": 46.0,
+     "end": 47.9,
+     "ja": "愛の最終形が近づいてきました。",
+     "en": "The final form of love is drawing near.",
+     "speaker": "Tomu"
+    },
+    {
+     "start": 48.2,
+     "end": 51.3,
+     "ja": "生き残りをかけたマッチングツアーの、真の目的とは？",
+     "en": "What is the true purpose of this survival matching tour?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 51.5,
+     "end": 53.4,
+     "ja": "さあ、僕の命を奪って。",
+     "en": "Now, take my life.",
+     "speaker": "Tomu"
+    }
+   ]
+  }
+ ],
+ "videoId": "uAEf1Qjhllc",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

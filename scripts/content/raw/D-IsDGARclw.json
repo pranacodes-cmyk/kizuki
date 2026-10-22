@@ -1,0 +1,178 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 199.3,
+   "end": 211.2,
+   "title": "Assembling the Train Cars",
+   "level": "N4",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜てみる — try doing something",
+    "〜くらい — approximately"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 199.6,
+     "end": 201.2,
+     "ja": "はい、というわけですね。",
+     "en": "Alright, so there you have it.",
+     "speaker": "Host"
+    },
+    {
+     "start": 201.5,
+     "end": 203.2,
+     "ja": "えー、6車両と、",
+     "en": "Six train cars,",
+     "speaker": "Host"
+    },
+    {
+     "start": 203.4,
+     "end": 204.6,
+     "ja": "えー、機関車ですね。",
+     "en": "and the locomotive.",
+     "speaker": "Host"
+    },
+    {
+     "start": 204.7,
+     "end": 206.0,
+     "ja": "これ一番先頭ですけども。",
+     "en": "This is the very front one.",
+     "speaker": "Host"
+    },
+    {
+     "start": 206.1,
+     "end": 208.5,
+     "ja": "合計で、えー、7車両分を作ってみました。",
+     "en": "In total, I tried building seven cars.",
+     "speaker": "Host"
+    },
+    {
+     "start": 208.6,
+     "end": 210.7,
+     "ja": "だいたい20分ぐらいですね。",
+     "en": "It took about 20 minutes.",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 407.4,
+   "end": 425.2,
+   "title": "How the Board Game Works",
+   "level": "N3",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜たり〜たりする — doing things like... and...",
+    "〜という — called / such as"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 407.7,
+     "end": 411.3,
+     "ja": "で、実際のところ、本当に冗談でも何でもなくですね、",
+     "en": "And in reality, no kidding at all,",
+     "speaker": "Host"
+    },
+    {
+     "start": 411.4,
+     "end": 414.7,
+     "ja": "プレイヤーたちのコマが移動すると、本当にこういう風に移動して、",
+     "en": "when players' pieces move, they really move like this,",
+     "speaker": "Host"
+    },
+    {
+     "start": 414.8,
+     "end": 418.1,
+     "ja": "「ここでこっちに射撃して」とか、「ここで物奪って」なんていうのを",
+     "en": "and players go, 'Shoot this way from here' or 'Steal the loot here,'",
+     "speaker": "Host"
+    },
+    {
+     "start": 418.2,
+     "end": 419.6,
+     "ja": "ここでやり合っていって、",
+     "en": "and fight each other right here,",
+     "speaker": "Host"
+    },
+    {
+     "start": 419.7,
+     "end": 424.7,
+     "ja": "まあ、お金を奪うっていう、お金を儲けるという、強盗ですからね、いうシステムになっていましたね。",
+     "en": "to take money, or make money, since they're bandits, you see. That's how the system works.",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 626.3,
+   "end": 643.5,
+   "title": "Storing the Pieces in the Box",
+   "level": "N3",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜てみる — try doing something",
+    "〜ようとする — attempt to do",
+    "〜ようになる — come to be able to"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 626.6,
+     "end": 629.7,
+     "ja": "箱に収納してみようと思ったらですね、",
+     "en": "When I tried storing them in the box,",
+     "speaker": "Host"
+    },
+    {
+     "start": 629.8,
+     "end": 634.3,
+     "ja": "これ、紙を折ったやつを挿せるところがちゃんと2箇所あって、",
+     "en": "there are two spots where you can insert these folded cardboard dividers,",
+     "speaker": "Host"
+    },
+    {
+     "start": 634.4,
+     "end": 638.7,
+     "ja": "で、これを挿すとですね、きれいにその列車が6車両と機関車とカードが",
+     "en": "and when you insert them, neatly, the six cars, the locomotive, and the cards",
+     "speaker": "Host"
+    },
+    {
+     "start": 638.8,
+     "end": 641.0,
+     "ja": "入るような仕切りが生まれてきたので、",
+     "en": "have compartments created for them to fit,",
+     "speaker": "Host"
+    },
+    {
+     "start": 641.1,
+     "end": 643.0,
+     "ja": "なんか割と結構きれいにしまえるような",
+     "en": "so it turned out to have a layout",
+     "speaker": "Host"
+    },
+    {
+     "start": 643.1,
+     "end": 644.2,
+     "ja": "雰囲気になりました。",
+     "en": "where things can be packed away pretty neatly.",
+     "speaker": "Host"
+    }
+   ]
+  }
+ ],
+ "videoId": "D-IsDGARclw",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,222 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 64.5,
+   "end": 95.8,
+   "title": "Good Example of a Self-Introduction",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜てまいる — humble ongoing action",
+    "〜たことがある — past experience",
+    "〜ていただく — receiving a favor politely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 64.5,
+     "end": 66.8,
+     "ja": "それではまず自己紹介をお願いします。",
+     "en": "First, please introduce yourself.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 67.1,
+     "end": 72.4,
+     "ja": "石黒一馬と申します。前職では飲料メーカーに勤めておりました！",
+     "en": "My name is Kazuma Ishiguro. At my previous job, I worked at a beverage manufacturer!",
+     "speaker": "Ishiguro"
+    },
+    {
+     "start": 72.7,
+     "end": 76.4,
+     "ja": "マーケティング職としてキャンペーンの企画などに携わってまいりました。",
+     "en": "In marketing, I was involved in planning campaigns and similar tasks.",
+     "speaker": "Ishiguro"
+    },
+    {
+     "start": 76.8,
+     "end": 82.3,
+     "ja": "自分が企画したキャンペーンで前年比120％の応募数を獲得したこともあります。",
+     "en": "A campaign I planned even achieved 120% of the previous year's application volume.",
+     "speaker": "Ishiguro"
+    },
+    {
+     "start": 83.0,
+     "end": 86.5,
+     "ja": "今後は自社のマーケティングだけではなく、",
+     "en": "Going forward, rather than marketing only in-house products,",
+     "speaker": "Ishiguro"
+    },
+    {
+     "start": 86.5,
+     "end": 89.6,
+     "ja": "幅広い業種のマーケティングに挑戦したいと思い御社を希望いたしました。",
+     "en": "I wanted to take on marketing for a wider range of industries, which led me to apply to your company.",
+     "speaker": "Ishiguro"
+    },
+    {
+     "start": 89.8,
+     "end": 95.8,
+     "ja": "本日は面接のお時間をいただきましてありがとうございます！どうぞよろしくお願いいたします。",
+     "en": "Thank you very much for taking the time to interview me today! I look forward to speaking with you.",
+     "speaker": "Ishiguro"
+    }
+   ]
+  },
+  {
+   "start": 164.8,
+   "end": 194.0,
+   "title": "Reason for Leaving and Changing Jobs",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜しか〜ない — only, nothing but",
+    "〜に及ぶ — reach up to, extend to",
+    "〜ておく — doing in advance / to put oneself in"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 164.8,
+     "end": 169.8,
+     "ja": "続いて前職の退職理由と弊社への転職理由をお聞かせいただけますか？",
+     "en": "Next, could you tell us your reason for leaving your previous job and why you wish to change to our company?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 170.1,
+     "end": 173.6,
+     "ja": "前の会社では月に休みが２日しかもらえず、",
+     "en": "At my previous company, I only got two days off a month,",
+     "speaker": "Applicant"
+    },
+    {
+     "start": 173.8,
+     "end": 176.8,
+     "ja": "残業が100時間以上に及ぶこともしばしばあり、",
+     "en": "and overtime often exceeded 100 hours,",
+     "speaker": "Applicant"
+    },
+    {
+     "start": 176.9,
+     "end": 179.8,
+     "ja": "体力的に難しさを感じていました。",
+     "en": "so I found it physically challenging.",
+     "speaker": "Applicant"
+    },
+    {
+     "start": 180.0,
+     "end": 184.2,
+     "ja": "また諸先輩の社員が私と近い給料で働いていることも知り、",
+     "en": "I also learned that senior colleagues were working for salaries similar to mine,",
+     "speaker": "Applicant"
+    },
+    {
+     "start": 184.5,
+     "end": 187.5,
+     "ja": "数年先を見据えた時に不安がありました。",
+     "en": "which made me anxious when looking several years ahead.",
+     "speaker": "Applicant"
+    },
+    {
+     "start": 187.9,
+     "end": 190.8,
+     "ja": "御社では明確なキャリアパスを掲げているので、",
+     "en": "Since your company outlines clear career paths,",
+     "speaker": "Applicant"
+    },
+    {
+     "start": 191.0,
+     "end": 194.0,
+     "ja": "そういった環境に身を置きたいと思っております。",
+     "en": "I would like to place myself in that kind of environment.",
+     "speaker": "Applicant"
+    }
+   ]
+  },
+  {
+   "start": 499.0,
+   "end": 531.5,
+   "title": "Self-Promotion in an Interview",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜てしまう — unintended / regrettable result",
+    "〜ば — conditional if",
+    "〜ていく — to continue doing into the future"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 499.0,
+     "end": 501.8,
+     "ja": "では石黒さんから何か自己PRはございますか？",
+     "en": "Now, Mr. Ishiguro, do you have any self-promotion points?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 502.0,
+     "end": 506.3,
+     "ja": "私の長所は粘り強く最後まで諦めないことです。",
+     "en": "My greatest strength is tenacity and not giving up until the very end.",
+     "speaker": "Ishiguro"
+    },
+    {
+     "start": 506.8,
+     "end": 511.4,
+     "ja": "前職では営業としてなかなか受注できない案件がありましたが、",
+     "en": "In my previous job in sales, there were cases where securing orders was difficult,",
+     "speaker": "Ishiguro"
+    },
+    {
+     "start": 511.9,
+     "end": 515.0,
+     "ja": "そのときは毎週のようにお客様を訪問し、",
+     "en": "but I visited the client almost every week,",
+     "speaker": "Ishiguro"
+    },
+    {
+     "start": 515.1,
+     "end": 518.2,
+     "ja": "最終的に大口の契約を取ることができました。",
+     "en": "and ultimately managed to land a major contract.",
+     "speaker": "Ishiguro"
+    },
+    {
+     "start": 519.1,
+     "end": 522.5,
+     "ja": "自分で仕事を背負いすぎてしまう部分があるのですが、",
+     "en": "While I tend to take on too much work myself,",
+     "speaker": "Ishiguro"
+    },
+    {
+     "start": 523.0,
+     "end": 526.3,
+     "ja": "自分がこれまでに身につけたノウハウを共有できれば、",
+     "en": "if I can share the expertise I've acquired so far,",
+     "speaker": "Ishiguro"
+    },
+    {
+     "start": 526.5,
+     "end": 530.8,
+     "ja": "より多くのお客様のニーズに速く答えていけると思います。",
+     "en": "I believe I can respond to more client needs more quickly.",
+     "speaker": "Ishiguro"
+    }
+   ]
+  }
+ ],
+ "videoId": "jEXt4xBeD54",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

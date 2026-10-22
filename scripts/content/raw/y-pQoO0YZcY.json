@@ -1,0 +1,129 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 51.5,
+   "end": 107.0,
+   "title": "At the Pharmacy Counter",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "お〜する — humble action",
+    "ご〜お願いいたします — polite request"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 52.0,
+     "end": 55.2,
+     "ja": "こちら処方箋ですね。お預かりします。",
+     "en": "This is your prescription, right? I'll take it.",
+     "speaker": "Pharmacist"
+    },
+    {
+     "start": 56.0,
+     "end": 58.5,
+     "ja": "こちらの薬局は今回初めてですか？",
+     "en": "Is this your first time at our pharmacy?",
+     "speaker": "Pharmacist"
+    },
+    {
+     "start": 58.8,
+     "end": 60.6,
+     "ja": "はい、そうです。",
+     "en": "Yes, it is.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 61.0,
+     "end": 63.9,
+     "ja": "そうですか。それではちょっとお手数なんですが、",
+     "en": "I see. Well, sorry to trouble you, but",
+     "speaker": "Pharmacist"
+    },
+    {
+     "start": 64.0,
+     "end": 66.8,
+     "ja": "まずこちらの問診票にご記入お願いいたします。",
+     "en": "could you please fill out this medical questionnaire first?",
+     "speaker": "Pharmacist"
+    }
+   ]
+  },
+  {
+   "start": 107.0,
+   "end": 128.5,
+   "title": "Where Should I Park?",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜てもいい／大丈夫 — asking for permission",
+    "〜ていただく — receiving an action",
+    "〜てくる — go and do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 107.2,
+     "end": 108.3,
+     "ja": "分かりました。",
+     "en": "Understood.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 108.5,
+     "end": 111.8,
+     "ja": "あの、車ってこの前に停めてても大丈夫ですか？",
+     "en": "Um, is it okay if I leave my car parked in front here?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 112.1,
+     "end": 115.5,
+     "ja": "すみません。うちの前は一応駐車禁止になっていて、",
+     "en": "I'm sorry, parking isn't allowed in front of our shop,",
+     "speaker": "Pharmacist"
+    },
+    {
+     "start": 115.6,
+     "end": 118.0,
+     "ja": "裏に駐車場があるのでそちらをご利用いただけますか？",
+     "en": "so could you use the parking lot in the back instead?",
+     "speaker": "Pharmacist"
+    },
+    {
+     "start": 118.1,
+     "end": 122.0,
+     "ja": "そこの角を左に曲がって、またすぐ左に曲がったところにございます。",
+     "en": "Turn left at that corner, and it's right where you turn left again.",
+     "speaker": "Pharmacist"
+    },
+    {
+     "start": 122.2,
+     "end": 125.2,
+     "ja": "看板が出ているのですぐに分かるかと思うんですが。",
+     "en": "There's a sign, so I think you'll find it right away.",
+     "speaker": "Pharmacist"
+    },
+    {
+     "start": 125.5,
+     "end": 128.0,
+     "ja": "そうなんですね。じゃあ先に車を動かしてきます。",
+     "en": "I see. Then I'll go move my car first.",
+     "speaker": "Customer"
+    }
+   ]
+  }
+ ],
+ "videoId": "y-pQoO0YZcY",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

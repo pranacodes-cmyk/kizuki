@@ -1,0 +1,196 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.0,
+   "end": 33.0,
+   "title": "Summer Humidity in Japan",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜くらい — to the extent that",
+    "〜なら — if / conditional",
+    "〜と思う — to think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.0,
+     "end": 12.0,
+     "ja": "皆さんこんにちは。",
+     "en": "Hello everyone.",
+     "speaker": "Naobon"
+    },
+    {
+     "start": 12.0,
+     "end": 14.5,
+     "ja": "日本は蒸し暑いです。",
+     "en": "Japan is hot and humid.",
+     "speaker": "Naobon"
+    },
+    {
+     "start": 14.5,
+     "end": 16.5,
+     "ja": "本当に蒸し暑い。",
+     "en": "It's really humid.",
+     "speaker": "Naobon"
+    },
+    {
+     "start": 16.5,
+     "end": 18.0,
+     "ja": "お風呂か！",
+     "en": "Is this a bath?!",
+     "speaker": "Naobon"
+    },
+    {
+     "start": 18.0,
+     "end": 19.5,
+     "ja": "サウナか！",
+     "en": "Or a sauna?!",
+     "speaker": "Naobon"
+    },
+    {
+     "start": 19.5,
+     "end": 23.8,
+     "ja": "って言いたくなるくらい蒸し暑いです。",
+     "en": "It's humid enough that you'd want to say that.",
+     "speaker": "Naobon"
+    },
+    {
+     "start": 24.5,
+     "end": 27.5,
+     "ja": "梅雨でこの暑さなら、",
+     "en": "If it's this hot during the rainy season,",
+     "speaker": "Naobon"
+    },
+    {
+     "start": 27.8,
+     "end": 32.5,
+     "ja": "梅雨明けの夏はもっと暑いと思います。",
+     "en": "I think summer after the rainy season ends will be even hotter.",
+     "speaker": "Naobon"
+    }
+   ]
+  },
+  {
+   "start": 41.8,
+   "end": 104.5,
+   "title": "Do You Like Animals?",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜が好き — to like something",
+    "〜という — called / named",
+    "〜ていた — past continuous / past state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 42.0,
+     "end": 44.5,
+     "ja": "皆さんは動物が好きですか？",
+     "en": "Do you like animals?",
+     "speaker": "Naobon"
+    },
+    {
+     "start": 45.0,
+     "end": 48.0,
+     "ja": "私は大好きです。",
+     "en": "I love them.",
+     "speaker": "Naobon"
+    },
+    {
+     "start": 48.5,
+     "end": 52.8,
+     "ja": "昔、ミニチュアダックスフンドという",
+     "en": "In the past, a type called miniature dachshund,",
+     "speaker": "Naobon"
+    },
+    {
+     "start": 52.8,
+     "end": 55.5,
+     "ja": "犬を飼っていました。",
+     "en": "I used to have that kind of dog.",
+     "speaker": "Naobon"
+    },
+    {
+     "start": 56.0,
+     "end": 59.5,
+     "ja": "その犬は足が短くて、",
+     "en": "That dog had short legs,",
+     "speaker": "Naobon"
+    },
+    {
+     "start": 59.5,
+     "end": 103.8,
+     "ja": "胴が長い犬です。",
+     "en": "and a long body.",
+     "speaker": "Naobon"
+    }
+   ]
+  },
+  {
+   "start": 88.5,
+   "end": 105.5,
+   "title": "Visiting the Pet Shop",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜た時に — when / at the time",
+    "〜ことがある — to sometimes do",
+    "〜たい — to want to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 88.8,
+     "end": 92.8,
+     "ja": "私はちょっとね疲れたなーと思った時に、",
+     "en": "When I feel a little tired,",
+     "speaker": "Naobon"
+    },
+    {
+     "start": 93.0,
+     "end": 96.0,
+     "ja": "ペットショップに行くことがあります。",
+     "en": "I sometimes go to a pet shop.",
+     "speaker": "Naobon"
+    },
+    {
+     "start": 96.2,
+     "end": 98.8,
+     "ja": "ワンちゃんとか猫ちゃんを見て、",
+     "en": "Looking at puppies and kittens,",
+     "speaker": "Naobon"
+    },
+    {
+     "start": 99.0,
+     "end": 101.0,
+     "ja": "その後、熱帯魚を見て、",
+     "en": "and after that, looking at tropical fish,",
+     "speaker": "Naobon"
+    },
+    {
+     "start": 101.2,
+     "end": 105.2,
+     "ja": "「ああ〜いいなぁ〜いつか飼いたいなー」とか思いながら、",
+     "en": "thinking things like, 'Oh how nice, I want to keep one someday.'",
+     "speaker": "Naobon"
+    }
+   ]
+  }
+ ],
+ "videoId": "iUzudjchk5Q",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

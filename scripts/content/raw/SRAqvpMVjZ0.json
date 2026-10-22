@@ -1,0 +1,121 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 36.9,
+   "end": 47.5,
+   "title": "Is That a Japanese Castle?",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜てみる — trying doing something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.3,
+     "end": 40.0,
+     "ja": "あれは日本のお城？",
+     "en": "Is that a Japanese castle?",
+     "speaker": "A"
+    },
+    {
+     "start": 40.4,
+     "end": 43.6,
+     "ja": "うん、姫路城だよ。",
+     "en": "Yes, it's Himeji Castle.",
+     "speaker": "B"
+    },
+    {
+     "start": 44.0,
+     "end": 46.9,
+     "ja": "中に入ってみよう。",
+     "en": "Let's go inside.",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 116.8,
+   "end": 128.0,
+   "title": "Making a Wish at a Shinto Shrine",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "〜てね — casual request"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 117.2,
+     "end": 120.7,
+     "ja": "ここは神道の神社です。",
+     "en": "This is a Shinto shrine.",
+     "speaker": "A"
+    },
+    {
+     "start": 121.0,
+     "end": 123.7,
+     "ja": "願い事できる？",
+     "en": "Can I make a wish?",
+     "speaker": "B"
+    },
+    {
+     "start": 124.0,
+     "end": 127.5,
+     "ja": "うん、まず鈴を鳴らしてね。",
+     "en": "Yes, ring the bell first.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 139.1,
+   "end": 150.6,
+   "title": "What Is This Dish Called?",
+   "level": "N5",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜って言う — to be called"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 139.6,
+     "end": 143.2,
+     "ja": "この料理、何て言うの？",
+     "en": "What is this dish called?",
+     "speaker": "A"
+    },
+    {
+     "start": 143.6,
+     "end": 146.2,
+     "ja": "煮物って言うよ。",
+     "en": "It's called nimono.",
+     "speaker": "B"
+    },
+    {
+     "start": 146.6,
+     "end": 150.1,
+     "ja": "健康的でおいしいよ。",
+     "en": "It's healthy and delicious.",
+     "speaker": "B"
+    }
+   ]
+  }
+ ],
+ "videoId": "SRAqvpMVjZ0",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

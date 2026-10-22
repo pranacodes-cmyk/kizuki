@@ -1,0 +1,194 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 140.0,
+   "end": 202.8,
+   "title": "Studying Japanese Is Tough!",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "特に — especially",
+    "結構 — quite / fairly"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 140.3,
+     "end": 142.2,
+     "ja": "例えば、",
+     "en": "For example,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 142.3,
+     "end": 145.0,
+     "ja": "「日本語の勉強、どうですか？」",
+     "en": "\"How is your Japanese study going?\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 145.2,
+     "end": 148.0,
+     "ja": "「日本語の勉強はちょっと大変ですね」。",
+     "en": "\"Studying Japanese is a bit tough.\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 148.1,
+     "end": 150.4,
+     "ja": "ね、ちょっと難しいですよね。",
+     "en": "Right, it's a bit difficult, isn't it?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 150.5,
+     "end": 153.5,
+     "ja": "特に漢字が大変ですね。",
+     "en": "Kanji especially is tough.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 154.8,
+     "end": 158.2,
+     "ja": "あとカタカナもね、結構大変ですね。",
+     "en": "Katakana too is pretty tough.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 158.3,
+     "end": 162.5,
+     "ja": "この場合は「難しい」ですよね。大変ですね。",
+     "en": "In this case it means \"difficult\". Tough, right?",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 244.5,
+   "end": 305.5,
+   "title": "Showing Sympathy with Taihen",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜ちゃう — to end up doing",
+    "〜ですね — seeking agreement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 244.8,
+     "end": 248.8,
+     "ja": "例えば「子供が病気でね、今ちょっと大変です」とかね。",
+     "en": "For example, \"My child is sick, so it's a bit tough right now.\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 249.0,
+     "end": 253.6,
+     "ja": "「子供が風邪を引いちゃって、ちょっと大変ですね」とか。",
+     "en": "Or, \"My child caught a cold, so things are a bit rough.\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 254.0,
+     "end": 258.8,
+     "ja": "そうするとその友達も「あ、そうなんですか。それは大変ですね」ってね。",
+     "en": "Then the friend says, \"Oh really? That must be tough.\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 259.2,
+     "end": 262.1,
+     "ja": "日本語で本当によく使いますね。",
+     "en": "It's used really often in Japanese.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 262.2,
+     "end": 265.3,
+     "ja": "「大変ですよね」とか「色々大変ですよね」ね。",
+     "en": "Like \"It's tough, isn't it?\" or \"Things must be tough.\"",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 306.0,
+   "end": 328.0,
+   "title": "Mutual Empathy in Japanese Communication",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜というか — or rather",
+    "〜ていう感じで — in a way that / like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 306.2,
+     "end": 309.5,
+     "ja": "そこで日本人はいつも、励ますというか、",
+     "en": "So Japanese people, to encourage, or rather,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 309.6,
+     "end": 312.8,
+     "ja": "まあ、その理解をね、表すのに、",
+     "en": "well, to show understanding,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 313.0,
+     "end": 315.5,
+     "ja": "「そうですよね、大変ですよね」",
+     "en": "\"Right, that must be tough.\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 315.6,
+     "end": 317.8,
+     "ja": "「そうですね、大変です」",
+     "en": "\"Yeah, it is tough.\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 318.0,
+     "end": 321.8,
+     "ja": "ね、そうやってお互いね、「大変ですよね」",
+     "en": "And that way, going \"It's tough, isn't it?\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 321.9,
+     "end": 324.6,
+     "ja": "「はい、大変です」っていう感じで、",
+     "en": "and \"Yes, it's tough\",",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 324.7,
+     "end": 327.8,
+     "ja": "お互いを理解する。これがコミュニケーションになってるんですね。",
+     "en": "they understand one another. This forms communication.",
+     "speaker": "Teppei"
+    }
+   ]
+  }
+ ],
+ "videoId": "cULY-fd2ooU",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

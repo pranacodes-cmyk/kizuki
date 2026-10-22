@@ -1,0 +1,116 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.0,
+   "end": 11.8,
+   "title": "Welcome to Hotel Japanese Lesson",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜ましょう — let's"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.3,
+     "end": 4.7,
+     "ja": "皆さんこんにちは。日本語教師の未来です。",
+     "en": "Hello everyone. I'm Mirai, a Japanese teacher.",
+     "speaker": "Mirai"
+    },
+    {
+     "start": 5.1,
+     "end": 11.3,
+     "ja": "今日は一緒に旅行で役立つ、ホテルで使う日本語を練習しましょう。",
+     "en": "Today, let's practice Japanese phrases useful for travel to use at hotels.",
+     "speaker": "Mirai"
+    }
+   ]
+  },
+  {
+   "start": 1102.8,
+   "end": 1120.5,
+   "title": "Asking for Restaurant Recommendations",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜ていただきたい — would like someone to do",
+    "〜のですが — softening sentence end"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1103.2,
+     "end": 1110.2,
+     "ja": "素敵なレストランを教えていただきたいのですが。",
+     "en": "I'm wondering if you could recommend a nice restaurant.",
+     "speaker": "Mirai"
+    },
+    {
+     "start": 1112.7,
+     "end": 1119.8,
+     "ja": "素敵なレストランを教えていただきたいのですが。",
+     "en": "I'm wondering if you could recommend a nice restaurant.",
+     "speaker": "Mirai"
+    }
+   ]
+  },
+  {
+   "start": 1217.5,
+   "end": 1241.5,
+   "title": "Wrapping Up the Lesson",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — if/when",
+    "〜ましょう — let's"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1218.0,
+     "end": 1220.4,
+     "ja": "今日のレッスンはここまでです。",
+     "en": "That's all for today's lesson.",
+     "speaker": "Mirai"
+    },
+    {
+     "start": 1220.9,
+     "end": 1225.0,
+     "ja": "ホテルで使う日本語、分かりましたか？",
+     "en": "Did you understand the Japanese used at hotels?",
+     "speaker": "Mirai"
+    },
+    {
+     "start": 1229.4,
+     "end": 1235.8,
+     "ja": "このレッスンが役に立ったと思ったら、いいねとチャンネル登録をお願いします。",
+     "en": "If you thought this lesson was helpful, please like and subscribe to the channel.",
+     "speaker": "Mirai"
+    },
+    {
+     "start": 1236.8,
+     "end": 1240.8,
+     "ja": "ではまた、次のレッスンでお会いしましょう。",
+     "en": "See you again in the next lesson.",
+     "speaker": "Mirai"
+    }
+   ]
+  }
+ ],
+ "videoId": "iojxmzTeaqo",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

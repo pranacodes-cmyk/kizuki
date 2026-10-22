@@ -1,0 +1,165 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 14.8,
+   "end": 33.8,
+   "title": "Live from Okubo Park in Kabukicho",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "friends",
+    "culture"
+   ],
+   "grammar": [
+    "〜ています — current state or ongoing action",
+    "〜に囲まれる — passive form"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 15.2,
+     "end": 20.3,
+     "ja": "ということで、私今、新宿歌舞伎町２丁目にある大久保公園に来ています。",
+     "en": "So, right now I'm here at Okubo Park in 2-chome, Kabukicho, Shinjuku.",
+     "speaker": "Host"
+    },
+    {
+     "start": 20.5,
+     "end": 23.9,
+     "ja": "非常にね、元気のいいヤングたちに囲まれています。",
+     "en": "I'm surrounded by very energetic young folks.",
+     "speaker": "Host"
+    },
+    {
+     "start": 24.0,
+     "end": 26.2,
+     "ja": "イエーイ！",
+     "en": "Yay!",
+     "speaker": "Boys"
+    },
+    {
+     "start": 26.3,
+     "end": 27.8,
+     "ja": "マジ元気だし、マジで。",
+     "en": "Seriously energetic, for real.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 28.0,
+     "end": 29.4,
+     "ja": "で、みんな今日はどうだった？",
+     "en": "So, how was it today, guys?",
+     "speaker": "Host"
+    },
+    {
+     "start": 29.5,
+     "end": 31.5,
+     "ja": "めっちゃ最高でした！最高でした！",
+     "en": "It was so awesome! Awesome!",
+     "speaker": "Boys"
+    },
+    {
+     "start": 31.6,
+     "end": 33.3,
+     "ja": "マジ最高っすよ。",
+     "en": "Seriously the best.",
+     "speaker": "Boy"
+    }
+   ]
+  },
+  {
+   "start": 138.8,
+   "end": 209.5,
+   "title": "Kabukicho Christmas Garden Announcement",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜から〜まで — from... until...",
+    "〜かも — might / perhaps",
+    "〜てね — casual request"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 139.2,
+     "end": 144.7,
+     "ja": "ということで、この歌舞伎町クリスマスガーデン、今日から日曜日まで３日間行われます。",
+     "en": "So, this Kabukicho Christmas Garden will be held for three days, from today through Sunday.",
+     "speaker": "Host"
+    },
+    {
+     "start": 145.0,
+     "end": 150.0,
+     "ja": "主に１時から３時の間が、このプラスチック段ボールを使ったワークショップ、",
+     "en": "Mainly between 1 and 3 PM is the workshop using this corrugated plastic cardboard,",
+     "speaker": "Host"
+    },
+    {
+     "start": 150.2,
+     "end": 153.2,
+     "ja": "そして夜間はライトアップも行われます。",
+     "en": "and at night, there will also be illumination displays.",
+     "speaker": "Host"
+    },
+    {
+     "start": 153.5,
+     "end": 155.2,
+     "ja": "おー！",
+     "en": "Ooh!",
+     "speaker": "Boys"
+    },
+    {
+     "start": 155.3,
+     "end": 158.7,
+     "ja": "ここに来ると、こんな素敵なイケメンたちに会えるかもよ？",
+     "en": "If you come here, you might even meet these handsome young guys!",
+     "speaker": "Host"
+    },
+    {
+     "start": 158.8,
+     "end": 200.8,
+     "ja": "イエーイ！",
+     "en": "Yay!",
+     "speaker": "Boys"
+    },
+    {
+     "start": 201.0,
+     "end": 202.8,
+     "ja": "絶対嘘だよ！絶対嘘だよ！",
+     "en": "Total lie! Total lie!",
+     "speaker": "Boy"
+    },
+    {
+     "start": 203.2,
+     "end": 207.0,
+     "ja": "ということで、２６日までみんな歌舞伎町来てね！",
+     "en": "So until the 26th, everyone come visit Kabukicho!",
+     "speaker": "Host"
+    },
+    {
+     "start": 207.1,
+     "end": 208.5,
+     "ja": "来てね！",
+     "en": "Come visit!",
+     "speaker": "Boys"
+    },
+    {
+     "start": 208.6,
+     "end": 209.4,
+     "ja": "イエーイ！",
+     "en": "Yay!",
+     "speaker": "Boys"
+    }
+   ]
+  }
+ ],
+ "videoId": "E4sN7JtNTnE",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

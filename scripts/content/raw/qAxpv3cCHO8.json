@@ -1,0 +1,96 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 50.8,
+   "end": 58.0,
+   "title": "Basic Self-Introduction in Japanese",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "初めまして — nice to meet you",
+    "〜です — to be (polite)",
+    "よろしくお願いします — please treat me well"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 51.1,
+     "end": 52.3,
+     "ja": "初めまして。",
+     "en": "Nice to meet you.",
+     "speaker": "Sheka"
+    },
+    {
+     "start": 52.5,
+     "end": 53.6,
+     "ja": "シェカです。",
+     "en": "I'm Sheka.",
+     "speaker": "Sheka"
+    },
+    {
+     "start": 53.9,
+     "end": 55.3,
+     "ja": "フィリピン出身です。",
+     "en": "I'm from the Philippines.",
+     "speaker": "Sheka"
+    },
+    {
+     "start": 55.6,
+     "end": 57.6,
+     "ja": "よろしくお願いします。",
+     "en": "I look forward to having a good relationship with you.",
+     "speaker": "Sheka"
+    }
+   ]
+  },
+  {
+   "start": 414.2,
+   "end": 424.0,
+   "title": "Three Ways to Say Your Name",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜の名前は — the name of...",
+    "〜と申します — my name is (humble)",
+    "〜です — to be (polite)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 414.7,
+     "end": 417.6,
+     "ja": "私の名前は松本潤です。",
+     "en": "My name is Jun Matsumoto.",
+     "speaker": "Sheka"
+    },
+    {
+     "start": 418.2,
+     "end": 420.7,
+     "ja": "松本潤と申します。",
+     "en": "I am called Jun Matsumoto.",
+     "speaker": "Sheka"
+    },
+    {
+     "start": 421.3,
+     "end": 423.5,
+     "ja": "松本潤です。",
+     "en": "I'm Jun Matsumoto.",
+     "speaker": "Sheka"
+    }
+   ]
+  }
+ ],
+ "videoId": "qAxpv3cCHO8",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

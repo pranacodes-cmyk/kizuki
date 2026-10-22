@@ -1,0 +1,182 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 63.5,
+   "end": 81.0,
+   "title": "Waking Up Early Every Morning",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜と思います — I think that...",
+    "〜から — because, so",
+    "時間＋に — specific time marker"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 64.0,
+     "end": 67.5,
+     "ja": "私は毎朝6時に起きます。",
+     "en": "I wake up at 6:00 every morning.",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 68.0,
+     "end": 70.5,
+     "ja": "皆さんは何時に起きますか。",
+     "en": "What time do you all wake up?",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 70.8,
+     "end": 72.8,
+     "ja": "6時は早いですか。",
+     "en": "Is 6:00 early?",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 73.0,
+     "end": 75.8,
+     "ja": "私は早いと思います。",
+     "en": "I think that is early.",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 76.0,
+     "end": 78.8,
+     "ja": "でも毎日の習慣ですから、",
+     "en": "But because it's a daily habit,",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 78.9,
+     "end": 80.5,
+     "ja": "大丈夫です。",
+     "en": "I'm fine.",
+     "speaker": "Yamada"
+    }
+   ]
+  },
+  {
+   "start": 319.5,
+   "end": 339.5,
+   "title": "Lunch Break at the Office Cafeteria",
+   "level": "N5",
+   "topics": [
+    "work",
+    "food"
+   ],
+   "grammar": [
+    "〜から〜まで — from... to...",
+    "〜くて — adjective te-form for connecting",
+    "でした / かったです — past tense forms"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 319.8,
+     "end": 322.0,
+     "ja": "昼休みは12時からです。",
+     "en": "Lunch break is from 12:00.",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 322.2,
+     "end": 324.0,
+     "ja": "1時までです。",
+     "en": "It is until 1:00.",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 324.2,
+     "end": 328.8,
+     "ja": "私は大抵会社の食堂で昼ご飯を食べます。",
+     "en": "I usually eat lunch in the company cafeteria.",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 329.0,
+     "end": 333.2,
+     "ja": "食堂の定食は安くて美味しいです。",
+     "en": "The set meals at the cafeteria are cheap and delicious.",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 333.5,
+     "end": 336.8,
+     "ja": "今日の定食は唐揚げ定食でした。",
+     "en": "Today's set meal was the fried chicken set meal.",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 337.0,
+     "end": 339.2,
+     "ja": "とても美味しかったです。",
+     "en": "It was very delicious.",
+     "speaker": "Yamada"
+    }
+   ]
+  },
+  {
+   "start": 585.8,
+   "end": 605.0,
+   "title": "Watching Ghibli Movies on the Weekend",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "fun"
+   ],
+   "grammar": [
+    "〜に行く — go to do something",
+    "〜たことがある — have experienced doing",
+    "〜が一番好き — like ... the best"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 586.0,
+     "end": 590.5,
+     "ja": "ときどき映画館へ映画を見に行きます。",
+     "en": "Sometimes I go to the movie theater to watch a film.",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 590.8,
+     "end": 593.8,
+     "ja": "先週、隣のトトロを見ました。",
+     "en": "Last week, I watched My Neighbor Totoro.",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 594.0,
+     "end": 597.5,
+     "ja": "何回も見ましたが、いつも感動します。",
+     "en": "I've seen it many times, but it always moves me.",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 597.8,
+     "end": 601.8,
+     "ja": "皆さんはジブリの映画を見たことがありますか。",
+     "en": "Have you all ever seen a Ghibli movie?",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 602.0,
+     "end": 604.8,
+     "ja": "どの映画が一番好きですか。",
+     "en": "Which movie do you like the best?",
+     "speaker": "Yamada"
+    }
+   ]
+  }
+ ],
+ "videoId": "p6HyCOc5v-k",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

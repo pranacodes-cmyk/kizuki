@@ -1,0 +1,193 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 378.5,
+   "end": 395.5,
+   "title": "Not Suited for Group Behavior",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜じゃなかった — negative past of noun/na-adjective",
+    "〜じゃないですか — isn't it / as you know"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 378.8,
+     "end": 381.8,
+     "ja": "ちっちゃい頃から集団行動があんまり得意じゃなかったので、",
+     "en": "Ever since I was little, I wasn't very good at group behavior,",
+     "speaker": "辻"
+    },
+    {
+     "start": 382.0,
+     "end": 384.4,
+     "ja": "右向け右があんまりできない子供で、",
+     "en": "so I was the kind of kid who couldn't easily turn right on command,",
+     "speaker": "辻"
+    },
+    {
+     "start": 384.5,
+     "end": 387.5,
+     "ja": "「あ、蝶々」みたいな感じだったんで、ちっちゃい頃から。",
+     "en": "and would be like, \"Oh, a butterfly!\"",
+     "speaker": "辻"
+    },
+    {
+     "start": 387.6,
+     "end": 388.0,
+     "ja": "はい。",
+     "en": "Right.",
+     "speaker": "聞き手"
+    },
+    {
+     "start": 388.2,
+     "end": 390.8,
+     "ja": "世の中ってなんかこう「普通」みたいなものとか、",
+     "en": "In society, concepts like what is \"normal\",",
+     "speaker": "辻"
+    },
+    {
+     "start": 391.0,
+     "end": 395.2,
+     "ja": "こういう風にみんな一緒に動きましょうみたいな規範がすごい強いじゃないですか。",
+     "en": "or norms saying \"everyone should act together like this\" are really strong, aren't they?",
+     "speaker": "辻"
+    }
+   ]
+  },
+  {
+   "start": 587.0,
+   "end": 605.5,
+   "title": "The Meaning of Running a Company",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜がち — prone to / tend to",
+    "〜ために — in order to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 587.3,
+     "end": 590.0,
+     "ja": "自由…性格もあるかもしれないですけど、",
+     "en": "Freedom... though it might also just be my personality,",
+     "speaker": "辻"
+    },
+    {
+     "start": 590.1,
+     "end": 590.7,
+     "ja": "どうですか？",
+     "en": "What do you think?",
+     "speaker": "聞き手"
+    },
+    {
+     "start": 590.8,
+     "end": 594.6,
+     "ja": "自由であれなかったら会社をやる意味がないと私は思っていて、",
+     "en": "I feel that if I can't be free, there's no point in running a company,",
+     "speaker": "辻"
+    },
+    {
+     "start": 595.0,
+     "end": 597.6,
+     "ja": "「ちゃんとしなきゃ」って思いがちなんですけど、",
+     "en": "and while people tend to think \"I have to do things properly,\"",
+     "speaker": "辻"
+    },
+    {
+     "start": 597.7,
+     "end": 598.2,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "聞き手"
+    },
+    {
+     "start": 598.3,
+     "end": 602.1,
+     "ja": "むしろそういうことより、ときどき自分の気持ちに立ち返りながらやっていくために、",
+     "en": "rather than that, in order to keep going while checking in with my own feelings,",
+     "speaker": "辻"
+    },
+    {
+     "start": 602.3,
+     "end": 605.0,
+     "ja": "私は自己資本100%で会社をやっているので、",
+     "en": "I'm running the company with 100% self-funding,",
+     "speaker": "辻"
+    }
+   ]
+  },
+  {
+   "start": 648.5,
+   "end": 666.5,
+   "title": "Just Trying It Out First",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜た方がいい/早い — it is better/faster to",
+    "〜だらけ — full of / covered with",
+    "〜ながら — while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 648.8,
+     "end": 652.5,
+     "ja": "なんかぶっちゃけやってみた方が早いし、学ぶことが大きいんですよね。",
+     "en": "Honestly, it's faster to just try it, and you learn a lot more that way.",
+     "speaker": "辻"
+    },
+    {
+     "start": 653.0,
+     "end": 655.2,
+     "ja": "日々わかんないことだらけなんですけど、今でも。",
+     "en": "Every day is full of things I don't know, even now.",
+     "speaker": "辻"
+    },
+    {
+     "start": 655.3,
+     "end": 655.9,
+     "ja": "はい。",
+     "en": "Right.",
+     "speaker": "聞き手"
+    },
+    {
+     "start": 656.0,
+     "end": 659.0,
+     "ja": "なので、いろんな人にいろんなことを聞いて教えてもらいながらやってるんですけど、",
+     "en": "So I ask various people and have them teach me as I go along,",
+     "speaker": "辻"
+    },
+    {
+     "start": 659.2,
+     "end": 663.0,
+     "ja": "経営の何たるかなんて、本当に人によって会社によって多分違うと思うので、",
+     "en": "and what management really is probably differs depending on the person and company,",
+     "speaker": "辻"
+    },
+    {
+     "start": 663.2,
+     "end": 666.0,
+     "ja": "わかんなくて当然で大丈夫なので、",
+     "en": "so it's totally natural and fine not to know.",
+     "speaker": "辻"
+    }
+   ]
+  }
+ ],
+ "videoId": "Dj2PNLY0d3w",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

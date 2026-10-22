@@ -1,0 +1,166 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 51.5,
+   "end": 118.8,
+   "title": "Switching to a Morning Routine",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜から〜へ — from ... to ...",
+    "〜を通して — through / via"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 51.5,
+     "end": 55.7,
+     "ja": "実は花さんは最近生活の時間を大きく変えたんです。",
+     "en": "Actually, Hana-san recently made a big change to her daily schedule.",
+     "speaker": "Man"
+    },
+    {
+     "start": 56.0,
+     "end": 62.5,
+     "ja": "夜遅くまで起きている夜型の生活から朝早く起きる朝型の生活に変えました。",
+     "en": "She switched from being a night owl staying up late to an early bird waking up early.",
+     "speaker": "Man"
+    },
+    {
+     "start": 63.0,
+     "end": 66.8,
+     "ja": "夜型から朝型へですか？それは大きな変化ですね。",
+     "en": "From night owl to early bird? That's a big change, isn't it?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 67.0,
+     "end": 74.4,
+     "ja": "ええ。今日のミッションは自分のリズムを見つけることがどうして心に余裕、つまりゆとりを作るのか。",
+     "en": "Yes. Today's mission is to explore why finding your own rhythm gives you peace of mind.",
+     "speaker": "Man"
+    },
+    {
+     "start": 74.6,
+     "end": 78.5,
+     "ja": "これを花さんの経験を通してゆっくり見ていきましょう。",
+     "en": "Let's take our time exploring this through Hana-san's experience.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 282.8,
+   "end": 307.2,
+   "title": "Grinding Coffee by Hand",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜を使って — using ...",
+    "〜ながら — while doing ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 283.0,
+     "end": 289.0,
+     "ja": "でもただのコーヒーではありません。手回しのミルを使って自分でコーヒー豆を挽くんです。",
+     "en": "But it's not just regular coffee. She uses a manual grinder to grind the coffee beans herself.",
+     "speaker": "Man"
+    },
+    {
+     "start": 289.3,
+     "end": 294.8,
+     "ja": "手回しのミルですか？機械ではなく手で回して豆を小さくする道具ですね。",
+     "en": "A manual grinder? That's a tool where you turn it by hand, not by machine, to grind down the beans, right?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 295.2,
+     "end": 300.0,
+     "ja": "はい、そうです。ゴリゴリという良い音を聞きながらゆっくりと手で回します。",
+     "en": "Yes, exactly. She turns it slowly by hand while listening to that pleasant grinding sound.",
+     "speaker": "Man"
+    },
+    {
+     "start": 300.3,
+     "end": 307.0,
+     "ja": "そのゴリゴリという音と一緒に挽きたてのコーヒーの素晴らしい香りが広がっていくのが想像できます。",
+     "en": "I can imagine the wonderful aroma of freshly ground coffee spreading along with that crunching sound.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 406.5,
+   "end": 430.8,
+   "title": "Enjoying a Quiet Drink at Home",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜てしまう — end up doing / regrettably do",
+    "〜ようになる — to come to (do)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 406.7,
+     "end": 412.8,
+     "ja": "お酒の楽しみ方が変わりました。昔の花さんは外のお店で夜遅くまでお酒を飲んでいました。",
+     "en": "The way she enjoys drinking changed. In the past, Hana drank out at bars until late at night.",
+     "speaker": "Man"
+    },
+    {
+     "start": 413.0,
+     "end": 416.8,
+     "ja": "友達と遅くまで飲むのも楽しいですが、疲れてしまいますね。",
+     "en": "Drinking late with friends is fun, but it can be exhausting, right?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 417.0,
+     "end": 418.8,
+     "ja": "今はどうなったんですか？",
+     "en": "How about now?",
+     "speaker": "Man"
+    },
+    {
+     "start": 419.0,
+     "end": 422.0,
+     "ja": "今は自分の家で少しだけ飲むのが好きになりました。",
+     "en": "Now she has come to enjoy having just a little drink at home.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 422.3,
+     "end": 424.2,
+     "ja": "家で少しだけ？いいですね。",
+     "en": "Just a little at home? That sounds nice.",
+     "speaker": "Man"
+    },
+    {
+     "start": 424.5,
+     "end": 430.5,
+     "ja": "夕方まだ外が明るい時間から飲み始めます。自分でレモンを絞ってハイボールを作ったりします。",
+     "en": "She starts drinking in the evening while it's still bright outside. She squeezes lemon herself to make highballs and such.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "MJtM6Euz2aI",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

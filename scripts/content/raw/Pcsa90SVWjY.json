@@ -1,0 +1,233 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 73.5,
+   "end": 97.9,
+   "title": "Leaving Luggage Before Check-in",
+   "level": "N4",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "〜たい — wanting to do",
+    "お〜いただく — humble polite request/action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 74.0,
+     "end": 75.3,
+     "ja": "いらっしゃいませ。",
+     "en": "Welcome.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 75.8,
+     "end": 78.8,
+     "ja": "あの、今日チェックインします。林です。",
+     "en": "Um, I am checking in today. I'm Lin.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 79.2,
+     "end": 82.8,
+     "ja": "先に荷物を預けたいです。大丈夫ですか。",
+     "en": "I'd like to leave my luggage first. Is that okay?",
+     "speaker": "Guest"
+    },
+    {
+     "start": 83.4,
+     "end": 86.2,
+     "ja": "かしこまりました。林様ですね。",
+     "en": "Certainly. Ms. Lin, correct?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 86.4,
+     "end": 89.2,
+     "ja": "ただいま確認いたします。少々お待ちください。",
+     "en": "I will check right away. Please wait a moment.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 89.5,
+     "end": 90.8,
+     "ja": "お願いします。",
+     "en": "Please.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 91.3,
+     "end": 95.0,
+     "ja": "はい、確認できましたので、お荷物をお預からせいただきます。",
+     "en": "Yes, I was able to confirm it, so we'll hold onto your luggage.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 95.2,
+     "end": 97.4,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Guest"
+    }
+   ]
+  },
+  {
+   "start": 100.8,
+   "end": 125.8,
+   "title": "Hotel Check-in and Passport Copy",
+   "level": "N4",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "お〜する — humble honorific",
+    "〜てもよろしいでしょうか — asking for permission politely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 101.4,
+     "end": 102.7,
+     "ja": "いらっしゃいませ。",
+     "en": "Welcome.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 103.0,
+     "end": 105.0,
+     "ja": "チェックイン、お願いします。",
+     "en": "Check-in, please.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 105.2,
+     "end": 107.3,
+     "ja": "お名前、お伺いします。",
+     "en": "May I have your name?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 107.5,
+     "end": 108.8,
+     "ja": "林です。",
+     "en": "I'm Lin.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 109.0,
+     "end": 111.7,
+     "ja": "林様ですね。少々お待ちください。",
+     "en": "Ms. Lin, right. Please wait a moment.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 112.0,
+     "end": 117.1,
+     "ja": "はい、林様、素泊まりプランのお部屋、3泊でお間違いございませんか。",
+     "en": "Yes, Ms. Lin, a room with a room-only plan for three nights, is that correct?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 117.4,
+     "end": 118.8,
+     "ja": "はい。そうです。",
+     "en": "Yes, that's right.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 119.0,
+     "end": 124.0,
+     "ja": "はい、ありがとうございます。パスポートをコピーさせていただいてもよろしいでしょうか。",
+     "en": "Yes, thank you. May I make a copy of your passport?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 124.2,
+     "end": 125.4,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Guest"
+    }
+   ]
+  },
+  {
+   "start": 442.5,
+   "end": 471.8,
+   "title": "Asking for Full Name at Reception",
+   "level": "N3",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "〜ことはできる — can / is it possible to",
+    "〜てもよろしいでしょうか — asking permission politely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 443.0,
+     "end": 444.2,
+     "ja": "いらっしゃいませ。",
+     "en": "Welcome.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 444.5,
+     "end": 446.8,
+     "ja": "今日チェックインします。張です。",
+     "en": "I'm checking in today. I'm Chang.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 447.0,
+     "end": 450.8,
+     "ja": "先に荷物を預けることは、できますか。",
+     "en": "Is it possible to leave my luggage first?",
+     "speaker": "Guest"
+    },
+    {
+     "start": 451.0,
+     "end": 452.5,
+     "ja": "はい。かしこまりました。",
+     "en": "Yes. Certainly.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 452.7,
+     "end": 458.2,
+     "ja": "申し訳ございません。お名前をもう一度フルネームで伺ってもよろしいでしょうか。",
+     "en": "I'm sorry. May I ask for your name once more in full?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 458.8,
+     "end": 461.2,
+     "ja": "え？ふ、フル？",
+     "en": "Huh? Fu- full?",
+     "speaker": "Guest"
+    },
+    {
+     "start": 461.4,
+     "end": 466.5,
+     "ja": "あ、予約のお名前、フルネームでお願いいたします。",
+     "en": "Ah, could you please give the name on the reservation in full?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 466.8,
+     "end": 471.2,
+     "ja": "あ、張です。張怡君です。",
+     "en": "Ah, I'm Chang. I'm Chang Yi-chun.",
+     "speaker": "Guest"
+    }
+   ]
+  }
+ ],
+ "videoId": "Pcsa90SVWjY",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

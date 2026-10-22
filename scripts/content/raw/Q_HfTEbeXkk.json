@@ -1,0 +1,208 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 3.0,
+   "end": 23.2,
+   "title": "Shouting in Harajuku in the Morning",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜ても大丈夫 — it is okay to...",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.2,
+     "end": 5.4,
+     "ja": "ここは朝の原宿です。",
+     "en": "Here is Harajuku in the morning.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 8.8,
+     "end": 11.4,
+     "ja": "時刻は、朝の9時なんですけども、",
+     "en": "The time is 9:00 AM, but...",
+     "speaker": "Girl"
+    },
+    {
+     "start": 11.8,
+     "end": 14.5,
+     "ja": "人誰もいないので叫んでも大丈夫です。",
+     "en": "there's nobody here, so it's fine to shout.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 15.2,
+     "end": 16.8,
+     "ja": "原宿ー！",
+     "en": "Harajuku!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 18.5,
+     "end": 20.1,
+     "ja": "はらじゅくー！",
+     "en": "Harajuku!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 20.5,
+     "end": 22.6,
+     "ja": "おーい、はらじゅくー！",
+     "en": "Hey, Harajuku!",
+     "speaker": "Girl"
+    }
+   ]
+  },
+  {
+   "start": 224.0,
+   "end": 245.0,
+   "title": "Announcing the Reebok Collaboration",
+   "level": "N4",
+   "topics": [
+    "work",
+    "fun"
+   ],
+   "grammar": [
+    "〜じゃん — isn't it / right?",
+    "〜よう — let's (volitional form)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 224.2,
+     "end": 225.5,
+     "ja": "今日はですね、実は",
+     "en": "Today, actually...",
+     "speaker": "Girl"
+    },
+    {
+     "start": 225.7,
+     "end": 228.1,
+     "ja": "Reebokさん、あのReebokさんとですね、",
+     "en": "with Reebok, that Reebok...",
+     "speaker": "Girl"
+    },
+    {
+     "start": 228.2,
+     "end": 231.0,
+     "ja": "JIMWAG、コラボが決まったよ！",
+     "en": "JIMWAG has decided on a collaboration!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 232.3,
+     "end": 234.0,
+     "ja": "今日はその撮影なんです。",
+     "en": "Today is the photo shoot for that.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 234.2,
+     "end": 236.5,
+     "ja": "で、やっぱりそういう撮影は密着したい。",
+     "en": "And of course, for a shoot like that, I want to go behind the scenes.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 236.6,
+     "end": 238.3,
+     "ja": "外で撮影なんですよ、しかも。",
+     "en": "It's an outdoor shoot, on top of that.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 238.5,
+     "end": 240.2,
+     "ja": "渋谷で撮影するので、",
+     "en": "Since we're shooting in Shibuya...",
+     "speaker": "Girl"
+    },
+    {
+     "start": 240.4,
+     "end": 242.8,
+     "ja": "大都会で外で撮影するの珍しいじゃん。",
+     "en": "Shooting outside in the big city is rare, isn't it?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 243.0,
+     "end": 244.8,
+     "ja": "だからちょっと密着しようよと。",
+     "en": "So we thought, let's do a behind-the-scenes!",
+     "speaker": "Girl"
+    }
+   ]
+  },
+  {
+   "start": 307.0,
+   "end": 325.0,
+   "title": "Respect for Everyday Commuters",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜たり〜たり — doing things like...",
+    "あながち〜ない — not necessarily"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 307.2,
+     "end": 309.5,
+     "ja": "会社に勤めてたりとか、毎日",
+     "en": "Working at a company, or every day...",
+     "speaker": "Girl"
+    },
+    {
+     "start": 309.7,
+     "end": 313.0,
+     "ja": "6時とかに起きて8時に絶対出社とか、",
+     "en": "waking up around 6:00 and strictly going to work by 8:00...",
+     "speaker": "Girl"
+    },
+    {
+     "start": 313.1,
+     "end": 316.8,
+     "ja": "それを毎日してる人は問答無用で素晴らしいと思うの。",
+     "en": "I think people who do that every day are unquestioningly amazing.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 316.9,
+     "end": 319.4,
+     "ja": "簡単にできることじゃないからやっぱり。",
+     "en": "Because it really isn't something easily done.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 319.7,
+     "end": 322.0,
+     "ja": "生きてるだけで偉いっていうのはね、",
+     "en": "Saying 'you're admirable just for being alive'...",
+     "speaker": "Girl"
+    },
+    {
+     "start": 322.2,
+     "end": 324.8,
+     "ja": "あながち間違ってないと思います、私。",
+     "en": "isn't necessarily wrong, in my opinion.",
+     "speaker": "Girl"
+    }
+   ]
+  }
+ ],
+ "videoId": "Q_HfTEbeXkk",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

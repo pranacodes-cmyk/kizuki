@@ -1,0 +1,266 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 197.0,
+   "end": 219.5,
+   "title": "Ordering Food and Drinks at an Izakaya",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜てもいいですか — may I...?",
+    "〜をお願いします — please give me..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 197.3,
+     "end": 200.2,
+     "ja": "はい、えっとまずドリンクが…",
+     "en": "Yes, so first for drinks...",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 200.3,
+     "end": 202.0,
+     "ja": "えっとビール１つと",
+     "en": "Um, one beer and...",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 202.1,
+     "end": 203.7,
+     "ja": "ビール１つ、はいかしこまりました。",
+     "en": "One beer, certainly.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 203.8,
+     "end": 206.5,
+     "ja": "あとジンジャエール１つお願いします。",
+     "en": "And one ginger ale, please.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 206.5,
+     "end": 207.7,
+     "ja": "はい、かしこまりました。",
+     "en": "Certainly.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 207.8,
+     "end": 209.8,
+     "ja": "食事も頼んでもいいですか？",
+     "en": "May I order food too?",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 209.8,
+     "end": 210.8,
+     "ja": "はい、どうぞ。",
+     "en": "Yes, go ahead.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 210.9,
+     "end": 213.9,
+     "ja": "えっと、ちゃおまる餃子１つと、",
+     "en": "Um, one Chaomaru gyoza and...",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 214.0,
+     "end": 217.9,
+     "ja": "あと鉄板チーズ餃子１つお願いします。",
+     "en": "And one teppan cheese gyoza, please.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 218.0,
+     "end": 219.2,
+     "ja": "鉄板チーズ、はい。",
+     "en": "Teppan cheese, got it.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 578.5,
+   "end": 589.0,
+   "title": "Ordering Plum Wine and Water",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜と — and",
+    "〜てもいいですか — is it okay if / may I...?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 578.8,
+     "end": 581.0,
+     "ja": "えっと、梅酒の水割りと、",
+     "en": "Um, plum wine with water and...",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 581.1,
+     "end": 582.6,
+     "ja": "梅酒の水割り、はい。",
+     "en": "Plum wine with water, yes.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 582.7,
+     "end": 584.2,
+     "ja": "あと梅酒のソーダ割りをお願いします。",
+     "en": "And plum wine with soda, please.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 584.3,
+     "end": 585.0,
+     "ja": "ソーダ割り。",
+     "en": "With soda.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 585.1,
+     "end": 586.8,
+     "ja": "あとすいません、お水も２杯いただいていいですか？",
+     "en": "Also excuse me, could we get two glasses of water?",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 586.9,
+     "end": 588.0,
+     "ja": "お冷２つですね。はい。",
+     "en": "Two glasses of cold water. Got it.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 588.1,
+     "end": 589.0,
+     "ja": "はい、お願いします。",
+     "en": "Yes, please.",
+     "speaker": "Sayaka"
+    }
+   ]
+  },
+  {
+   "start": 849.0,
+   "end": 874.0,
+   "title": "Correcting the Bill and Paying by Card",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜てない — have not (negative result)",
+    "〜ますか — polite question"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 849.3,
+     "end": 852.8,
+     "ja": "すいません、お会計お願いします。",
+     "en": "Excuse me, the check please.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 853.0,
+     "end": 855.9,
+     "ja": "あの多分、最後に頼んだだし巻き卵と",
+     "en": "Um, I think the rolled omelette we ordered at the end and...",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 856.0,
+     "end": 858.7,
+     "ja": "スープ餃子が入ってない…",
+     "en": "The soup dumplings aren't included...",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 859.0,
+     "end": 861.5,
+     "ja": "あ、本当ですね。少々お待ちください。",
+     "en": "Ah, you're right. Please wait a moment.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 861.6,
+     "end": 862.5,
+     "ja": "はい。",
+     "en": "Sure.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 863.6,
+     "end": 865.2,
+     "ja": "ではお会計変わりまして、",
+     "en": "Here is the updated total,",
+     "speaker": "Staff"
+    },
+    {
+     "start": 865.3,
+     "end": 866.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 866.1,
+     "end": 867.7,
+     "ja": "5,980円でございます。",
+     "en": "It comes to 5,980 yen.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 867.8,
+     "end": 869.8,
+     "ja": "はい。ここってカード使えますか？",
+     "en": "Okay. Can I use a card here?",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 869.9,
+     "end": 871.0,
+     "ja": "はい、大丈夫ですよ。",
+     "en": "Yes, that's fine.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 871.1,
+     "end": 872.9,
+     "ja": "じゃあカードでお願いします。",
+     "en": "Then with card, please.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 873.0,
+     "end": 874.0,
+     "ja": "お願いします。",
+     "en": "Thank you.",
+     "speaker": "Staff"
+    }
+   ]
+  }
+ ],
+ "videoId": "WXbhfbd-n6g",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

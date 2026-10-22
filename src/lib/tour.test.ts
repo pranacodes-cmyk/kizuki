@@ -2,7 +2,7 @@
 import { beforeEach, describe, expect, it } from "vitest";
 
 import { useApp } from "@/lib/store";
-import { TOUR_STEPS, tourIndexOf, tourText } from "@/lib/tour";
+import { TOUR_CONTROLS, TOUR_LEGEND, TOUR_STEPS, tourIndexOf, tourText } from "@/lib/tour";
 import { useTour } from "@/lib/tour-store";
 
 const id = () => {
@@ -65,6 +65,18 @@ describe("welcome tour", () => {
     t().goTo(tourIndexOf("review"));
     t().skipStep();
     expect(id()).toBe("done");
+  });
+
+  it("tips never cover what they explain", () => {
+    const s = (id: string) => TOUR_STEPS[tourIndexOf(id)]!;
+    // Word card: both tips sit above the sheet (never over the word), and the explanation is lit whole.
+    expect(s("meaning").place).toBe("top");
+    expect([s("explain").target, s("explain").place, s("explain").fullHole]).toEqual(["card", "top", true]);
+    // Flashcard: the whole card is the target, the tip rests on its empty lower part, the hand below the word.
+    expect([s("reveal").target, s("reveal").place, s("reveal").fullHole]).toEqual(["reviewCard", "bottom", true]);
+    expect(s("reveal").handY! > 0.5).toBe(true);
+    expect(TOUR_CONTROLS.map((c) => c.id)).toEqual(["replay", "loop", "speed", "save", "display"]);
+    expect(TOUR_LEGEND.map((l) => l.id)).toEqual(["new", "learning", "known", "speaking"]);
   });
 
   it("finishing stops the tour and remembers it", () => {

@@ -1,0 +1,153 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 18.8,
+   "end": 33.5,
+   "title": "Introducing Yuki and Her Pets",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "animals"
+   ],
+   "grammar": [
+    "〜と暮らしています — living with",
+    "〜ていく — will do into the future"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.8,
+     "end": 21.8,
+     "ja": "皆さんこんにちは、YUKIです。",
+     "en": "Hello everyone, I'm Yuki.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 21.8,
+     "end": 27.6,
+     "ja": "私は6匹のハムスターと、6匹の猫と暮らしています。",
+     "en": "I live with six hamsters and six cats.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 27.6,
+     "end": 33.5,
+     "ja": "これから日本語で、私たちの幸せな日々をお話ししていきます。",
+     "en": "From now on, I will talk about our happy days in Japanese.",
+     "speaker": "Yuki"
+    }
+   ]
+  },
+  {
+   "start": 33.7,
+   "end": 56.1,
+   "title": "Meeting Mia the Cat",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜って種類の — a kind called...",
+    "〜に行く — go in order to..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 33.7,
+     "end": 36.4,
+     "ja": "2匹目は、ミア！",
+     "en": "The second member is Mia!",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 36.4,
+     "end": 40.4,
+     "ja": "ミヌエットって種類の、猫の女の子。",
+     "en": "She's a female Minuet cat.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 40.4,
+     "end": 43.8,
+     "ja": "シルバータビーっていう毛色だよ。",
+     "en": "Her coat color is called silver tabby.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 43.8,
+     "end": 49.7,
+     "ja": "えのきの床材を買いに行ったペットショップで、たまたま出会ったの。",
+     "en": "I met her by chance at a pet shop where I went to buy bedding for Enoki.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 49.7,
+     "end": 56.1,
+     "ja": "まん丸おめめの美人さんで、私はすぐにこの子が欲しいって思ったんだ。",
+     "en": "With round eyes and beautiful looks, I immediately thought, \"I want her!\"",
+     "speaker": "Yuki"
+    }
+   ]
+  },
+  {
+   "start": 224.8,
+   "end": 247.4,
+   "title": "Mia's Impressive Tricks",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "family",
+    "fun"
+   ],
+   "grammar": [
+    "〜までできる — can even do...",
+    "〜て遊ぶ — play by doing..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 224.8,
+     "end": 227.5,
+     "ja": "しかもとっても賢くて、",
+     "en": "What's more, she's super smart,",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 227.5,
+     "end": 235.2,
+     "ja": "おすわり、おて、タッチ、おかわり、バンザイまでできるんだ！",
+     "en": "and can do sit, paw, touch, other paw, and even 'banzai'!",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 235.2,
+     "end": 237.6,
+     "ja": "すごいでしょ！",
+     "en": "Isn't that amazing?",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 238.3,
+     "end": 243.7,
+     "ja": "パパともよく遊んでて、パパもミアが大好き。",
+     "en": "She plays a lot with Papa, and Papa loves Mia so much too.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 243.7,
+     "end": 247.4,
+     "ja": "わざとちょっかいかけて遊んでたくらい。",
+     "en": "To the point that he'd playfully tease her just to play.",
+     "speaker": "Yuki"
+    }
+   ]
+  }
+ ],
+ "videoId": "dVCj33Lm4Tg",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

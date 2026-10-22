@@ -1,0 +1,199 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.2,
+   "end": 107.8,
+   "title": "Choosing Sides in the Debate",
+   "level": "N3",
+   "topics": [
+    "work",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていただく — humble receiving / being allowed to",
+    "〜と思う — expressing intention/thought"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.2,
+     "end": 50.0,
+     "ja": "今回の議論テーマはこちら。「採用するならスキル？人柄？」です。",
+     "en": "Here is today's debate topic: 'If hiring, skills or personality?'",
+     "speaker": "MC"
+    },
+    {
+     "start": 50.5,
+     "end": 53.3,
+     "ja": "こちらのテーマ、どちらの立場で議論しますか？",
+     "en": "From which position will you debate this topic?",
+     "speaker": "MC"
+    },
+    {
+     "start": 53.7,
+     "end": 55.9,
+     "ja": "これ選ばしていただけるということで、",
+     "en": "Since I get to choose,",
+     "speaker": "Ryoff Karma"
+    },
+    {
+     "start": 56.1,
+     "end": 59.0,
+     "ja": "圧倒的に有利なほうを選ばしてもらおうと思うんですけど。",
+     "en": "I think I'll pick the overwhelmingly advantageous side.",
+     "speaker": "Ryoff Karma"
+    },
+    {
+     "start": 59.6,
+     "end": 60.6,
+     "ja": "おお。",
+     "en": "Oh?",
+     "speaker": "Hiroyuki"
+    },
+    {
+     "start": 60.6,
+     "end": 62.5,
+     "ja": "えー、人柄でお願いします。",
+     "en": "Um, personality please.",
+     "speaker": "Ryoff Karma"
+    },
+    {
+     "start": 62.7,
+     "end": 64.0,
+     "ja": "かしこまりました。",
+     "en": "Understood.",
+     "speaker": "MC"
+    },
+    {
+     "start": 64.0,
+     "end": 65.1,
+     "ja": "おおー。",
+     "en": "Ooh.",
+     "speaker": "Hiroyuki"
+    },
+    {
+     "start": 65.1,
+     "end": 67.8,
+     "ja": "では早速、議論スタート！",
+     "en": "Without further ado, let the debate begin!",
+     "speaker": "MC"
+    }
+   ]
+  },
+  {
+   "start": 70.8,
+   "end": 96.5,
+   "title": "Why Personality Matters in Hiring",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜じゃないですか — isn't it? (seeking agreement)",
+    "〜たりする — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 70.8,
+     "end": 76.8,
+     "ja": "まあ就職、採用するときに見るのは人柄だなと思うのはですね、",
+     "en": "Well, the reason I think personality is what gets looked at during hiring is,",
+     "speaker": "Ryoff Karma"
+    },
+    {
+     "start": 77.0,
+     "end": 81.0,
+     "ja": "スキルっていうのは就職した後に身につくもんだったりするじゃないですか。",
+     "en": "skills are often something you pick up after getting hired, aren't they?",
+     "speaker": "Ryoff Karma"
+    },
+    {
+     "start": 81.2,
+     "end": 83.5,
+     "ja": "あの変な話、スキルだけ見るんだったら、",
+     "en": "Frankly speaking, if you were only looking at skills,",
+     "speaker": "Ryoff Karma"
+    },
+    {
+     "start": 83.7,
+     "end": 87.5,
+     "ja": "こういう資格持ってますとか書類だけでできちゃうわけじゃないですか。",
+     "en": "like having certain credentials, you could screen people purely on paperwork.",
+     "speaker": "Ryoff Karma"
+    },
+    {
+     "start": 87.7,
+     "end": 92.0,
+     "ja": "基本的には大体面接をやると思うんですけど、",
+     "en": "Usually, almost everyone conducts interviews,",
+     "speaker": "Ryoff Karma"
+    },
+    {
+     "start": 92.2,
+     "end": 96.5,
+     "ja": "会話をするというのは、その人の人柄を見たりするからかなっていうふうに。",
+     "en": "and having a conversation is to get a sense of that person's character, I think.",
+     "speaker": "Ryoff Karma"
+    }
+   ]
+  },
+  {
+   "start": 568.0,
+   "end": 589.8,
+   "title": "What Interviewers Actually Look For",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜にお伺いする — humble inquiry / ask",
+    "〜られる — passive voice"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 568.0,
+     "end": 571.3,
+     "ja": "ちなみに久保田さんにお伺いしたいのですが、",
+     "en": "By the way, I'd like to ask Ms. Kubota,",
+     "speaker": "MC"
+    },
+    {
+     "start": 571.5,
+     "end": 575.7,
+     "ja": "実際の面接だとスキルと人柄、どちらで見ているとかありますか？",
+     "en": "in actual interviews, is it skills or personality that gets evaluated?",
+     "speaker": "MC"
+    },
+    {
+     "start": 576.1,
+     "end": 578.6,
+     "ja": "はい。結論はどちらも見られています。",
+     "en": "Yes. The conclusion is that both are looked at.",
+     "speaker": "Kubota"
+    },
+    {
+     "start": 578.8,
+     "end": 582.5,
+     "ja": "１〜２次面接ではスキルが見られていて、",
+     "en": "In the first and second rounds, skills are evaluated,",
+     "speaker": "Kubota"
+    },
+    {
+     "start": 582.7,
+     "end": 589.3,
+     "ja": "最終面接では人柄でしたり会社のカルチャーとかのマッチングっていうものが見られています。",
+     "en": "and in the final round, character and culture fit with the company are evaluated.",
+     "speaker": "Kubota"
+    }
+   ]
+  }
+ ],
+ "videoId": "LbRSZk4Rrv0",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

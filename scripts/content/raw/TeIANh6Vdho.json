@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 24.5,
+   "end": 48.5,
+   "title": "Renting an Audio Guide",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜になります — polite expression for price or state",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 24.8,
+     "end": 27.2,
+     "ja": "いくらですか？",
+     "en": "How much is it?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 27.8,
+     "end": 32.2,
+     "ja": "1台、500円になります。",
+     "en": "It is 500 yen for one device.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 33.0,
+     "end": 36.6,
+     "ja": "じゃあ、1台お願いします。",
+     "en": "Then, one device, please.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 37.5,
+     "end": 40.8,
+     "ja": "カードで払えますか？",
+     "en": "Can I pay by card?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 42.0,
+     "end": 48.0,
+     "ja": "はい、大丈夫ですよ。こちらにタッチしてください。",
+     "en": "Yes, that's fine. Please touch here.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 135.2,
+   "end": 163.0,
+   "title": "Asking How to Charge an IC Card",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜たいです — want to do",
+    "〜ばいいですか — what should I do?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 135.5,
+     "end": 139.5,
+     "ja": "すみません、ちょっといいですか？",
+     "en": "Excuse me, do you have a moment?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 141.0,
+     "end": 144.2,
+     "ja": "はい、どうなさいましたか？",
+     "en": "Yes, how can I help you?",
+     "speaker": "Station Staff"
+    },
+    {
+     "start": 145.5,
+     "end": 150.8,
+     "ja": "このICカードにお金を入れたいです。",
+     "en": "I want to put money on this IC card.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 152.0,
+     "end": 155.0,
+     "ja": "どうすればいいですか？",
+     "en": "What should I do?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 156.0,
+     "end": 162.5,
+     "ja": "チャージですね。あちらの機械でできますよ。",
+     "en": "Charging, right. You can do it at that machine over there.",
+     "speaker": "Station Staff"
+    }
+   ]
+  },
+  {
+   "start": 258.5,
+   "end": 290.0,
+   "title": "Paying the Bill Separately",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜でお願いします — please do via...",
+    "〜でしたか — polite past question"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 259.0,
+     "end": 262.5,
+     "ja": "お支払いはご一緒ですか？",
+     "en": "Will you be paying together?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 263.8,
+     "end": 267.5,
+     "ja": "いいえ、別々でお願いします。",
+     "en": "No, separately, please.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 268.8,
+     "end": 271.5,
+     "ja": "かしこまりました。",
+     "en": "Certainly.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 272.2,
+     "end": 276.0,
+     "ja": "お客様のご注文は何でしたか？",
+     "en": "What was your order, sir?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 276.8,
+     "end": 281.5,
+     "ja": "私は、トマトパスタとコーヒーです。",
+     "en": "I had the tomato pasta and a coffee.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 282.5,
+     "end": 286.0,
+     "ja": "トマトパスタとコーヒーですね。",
+     "en": "Tomato pasta and a coffee, right.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 286.8,
+     "end": 289.8,
+     "ja": "1,300円になります。",
+     "en": "It will be 1,300 yen.",
+     "speaker": "Clerk"
+    }
+   ]
+  }
+ ],
+ "videoId": "TeIANh6Vdho",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

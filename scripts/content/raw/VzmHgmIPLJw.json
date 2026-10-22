@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 9.8,
+   "end": 23.5,
+   "title": "Cramming for Today's College Exam",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜しかない — only / nothing but",
+    "〜んじゃないか — isn't it / I suppose"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.8,
+     "end": 13.2,
+     "ja": "今日のテストはね、結構難しいような内容なんですけど、",
+     "en": "Today's test content is quite difficult,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 13.3,
+     "end": 15.8,
+     "ja": "逆にそれしかテストがないので、今日。",
+     "en": "but on the other hand, that's the only test I have today.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 15.9,
+     "end": 18.9,
+     "ja": "まぁあと2、3時間、その勉強にあてられるってことで、",
+     "en": "So I can devote another two or three hours to studying for it.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 19.0,
+     "end": 23.5,
+     "ja": "まぁそこまで頑張ったらね、単位は取れるんじゃないかなと思いますね。",
+     "en": "I think if I work that hard, I should be able to get the credit.",
+     "speaker": "Parker"
+    }
+   ]
+  },
+  {
+   "start": 121.0,
+   "end": 136.1,
+   "title": "150-Yen Ramen at the Cafeteria",
+   "level": "N3",
+   "topics": [
+    "food",
+    "school"
+   ],
+   "grammar": [
+    "〜ていた — was doing",
+    "〜と同じような — similar to / just like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 121.3,
+     "end": 124.0,
+     "ja": "まぁこちらなんですけれども、ラーメン。",
+     "en": "Well, this is it: ramen.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 124.1,
+     "end": 127.2,
+     "ja": "150円でラーメンが食べられるっていう、そういう期間限定のね、",
+     "en": "They were running a limited-time deal where you can get ramen for 150 yen,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 127.3,
+     "end": 130.0,
+     "ja": "キャンペーンやってたんで、ちょっと気になったから来ました。",
+     "en": "so I got curious and came to try it.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 130.1,
+     "end": 131.5,
+     "ja": "で、これ頂くんですけれども、",
+     "en": "Now, having tried some of it,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 131.6,
+     "end": 133.8,
+     "ja": "まぁ味はね、普通のサッポロ一番とかそういうね、",
+     "en": "well, the taste is like regular Sapporo Ichiban,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 133.9,
+     "end": 136.1,
+     "ja": "即席ラーメンと同じような味ですね。",
+     "en": "pretty much like instant ramen.",
+     "speaker": "Parker"
+    }
+   ]
+  },
+  {
+   "start": 297.6,
+   "end": 316.0,
+   "title": "Starting Laundry and Gearing Up",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜とく — do in advance",
+    "〜ようと思う — intend to / thinking of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 297.8,
+     "end": 300.8,
+     "ja": "今からちょっとお腹減ったんで、スーパーで買い物してこようかと思うんですけど、",
+     "en": "I'm hungry now, so I'm thinking of going shopping at the supermarket,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 300.9,
+     "end": 303.4,
+     "ja": "その前にこれね、洗濯物だけ回しとこうかなと思います。",
+     "en": "but before that, I think I'll start the laundry.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 303.5,
+     "end": 306.1,
+     "ja": "帰ってきたらね、多分ちょうどいい時間だと思うんで。",
+     "en": "Because by the time I get back, it should be done just in time.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 306.4,
+     "end": 308.5,
+     "ja": "新しく買ったユニクロの新兵器、",
+     "en": "This new weapon I bought at Uniqlo,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 308.6,
+     "end": 311.4,
+     "ja": "ウルトラダウンとかよく分からんダウンをね、",
+     "en": "this Ultra Light Down or whatever kind of down it is,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 311.5,
+     "end": 314.6,
+     "ja": "これを着て完全防寒対策ということで。",
+     "en": "I'll wear this to be fully protected against the cold.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 314.7,
+     "end": 315.9,
+     "ja": "まだタグ付いてんな。",
+     "en": "Wait, the tag is still on.",
+     "speaker": "Parker"
+    }
+   ]
+  }
+ ],
+ "videoId": "VzmHgmIPLJw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

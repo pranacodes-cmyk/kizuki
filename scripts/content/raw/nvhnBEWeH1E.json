@@ -1,0 +1,205 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 49.8,
+   "end": 73.6,
+   "title": "Asking for Recommendations at a Restaurant",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜と — if/when",
+    "〜か〜か — whether ... or ...",
+    "〜でお願いします — asking for an option"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 49.9,
+     "end": 51.8,
+     "ja": "はい、お伺いします。",
+     "en": "Yes, may I take your order?",
+     "speaker": "Server"
+    },
+    {
+     "start": 52.2,
+     "end": 55.2,
+     "ja": "あの、おすすめ、ありますか。",
+     "en": "Um, do you have any recommendations?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 55.6,
+     "end": 60.5,
+     "ja": "今の時期ですと、この季節限定の定食がおすすめですよ。",
+     "en": "At this time of year, I'd recommend this seasonal set meal.",
+     "speaker": "Server"
+    },
+    {
+     "start": 60.8,
+     "end": 65.3,
+     "ja": "じゃ、この季節のご飯定食1つお願いします。",
+     "en": "Then I'll have one seasonal set meal, please.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 65.6,
+     "end": 70.4,
+     "ja": "こちら、メインが焼き魚かお刺身か選べますが、いかがしますか。",
+     "en": "For this, you can choose grilled fish or sashimi for the main; which would you prefer?",
+     "speaker": "Server"
+    },
+    {
+     "start": 70.8,
+     "end": 73.1,
+     "ja": "お刺身でお願いします。",
+     "en": "Sashimi, please.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 131.2,
+   "end": 158.6,
+   "title": "Ordering All-You-Can-Eat and Drinks",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜分 — portion / amount for",
+    "お〜する — humble verb prefix",
+    "〜だけ — only / just"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 131.4,
+     "end": 133.2,
+     "ja": "はい、お伺いします。",
+     "en": "Yes, may I take your order?",
+     "speaker": "Server"
+    },
+    {
+     "start": 133.5,
+     "end": 139.5,
+     "ja": "この食べ放題スタンダードコース、3人分お願いします。",
+     "en": "Three orders of this standard all-you-can-eat course, please.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 139.8,
+     "end": 143.4,
+     "ja": "ありがとうございます。飲み放題はおつけしますか。",
+     "en": "Thank you. Would you like to add an all-you-can-drink option?",
+     "speaker": "Server"
+    },
+    {
+     "start": 143.7,
+     "end": 146.0,
+     "ja": "すみません。いくらですか。",
+     "en": "Excuse me, how much is it?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 146.3,
+     "end": 153.8,
+     "ja": "アルコール飲み放題ですと、1200円、ソフトドリンクだけの飲み放題ですと、480円でございます。",
+     "en": "It's 1,200 yen for all-you-can-drink alcohol, and 480 yen for soft drinks only.",
+     "speaker": "Server"
+    },
+    {
+     "start": 154.2,
+     "end": 158.3,
+     "ja": "じゃ、ソフトドリンク飲み放題3人分お願いします。",
+     "en": "Then three soft drink all-you-can-drink options, please.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 651.0,
+   "end": 676.0,
+   "title": "Splitting the Bill at the Cash Register",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜でよろしいでしょうか — is ... alright?",
+    "〜なさる — honorific form of する",
+    "〜のみ — only / solely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 651.4,
+     "end": 653.8,
+     "ja": "お会計、お願いします。",
+     "en": "Check, please.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 654.3,
+     "end": 657.4,
+     "ja": "かしこまりました。ご一緒でよろしいでしょうか。",
+     "en": "Certainly. Will that be together?",
+     "speaker": "Server"
+    },
+    {
+     "start": 657.8,
+     "end": 660.0,
+     "ja": "別々にできますか。",
+     "en": "Can we pay separately?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 660.4,
+     "end": 663.2,
+     "ja": "はい。どちらから、お会計なさいますか。",
+     "en": "Yes. Who would like to pay first?",
+     "speaker": "Server"
+    },
+    {
+     "start": 663.5,
+     "end": 665.5,
+     "ja": "Aセット、お願いします。",
+     "en": "The A set, please.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 666.0,
+     "end": 669.5,
+     "ja": "Aセット、お会計1200円でございます。",
+     "en": "For the A set, the bill comes to 1,200 yen.",
+     "speaker": "Server"
+    },
+    {
+     "start": 669.9,
+     "end": 672.0,
+     "ja": "カード、大丈夫ですか。",
+     "en": "Is credit card okay?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 672.3,
+     "end": 675.5,
+     "ja": "すみません。現金のみでして…",
+     "en": "I'm sorry, we only accept cash...",
+     "speaker": "Server"
+    }
+   ]
+  }
+ ],
+ "videoId": "nvhnBEWeH1E",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

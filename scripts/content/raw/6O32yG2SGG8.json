@@ -1,0 +1,187 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 192.0,
+   "end": 211.5,
+   "title": "A More Human-Like ChatGPT",
+   "level": "N2",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜に応じて — depending on / in accordance with",
+    "〜ようになる — come to be able to / reach the point where"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 192.2,
+     "end": 197.0,
+     "ja": "OpenAIは、ChatGPTがより人間らしく振る舞う",
+     "en": "OpenAI plans to release a new version where ChatGPT",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 197.0,
+     "end": 200.0,
+     "ja": "新しいバージョンを公開する予定だ。",
+     "en": "behaves in a more human-like manner.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 200.8,
+     "end": 205.0,
+     "ja": "この新モデルでは、ユーザーの希望に応じて、",
+     "en": "With this new model, depending on user preferences,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 205.0,
+     "end": 208.5,
+     "ja": "絵文字を使ったり、より親しみやすい話し方で",
+     "en": "it will be able to use emojis and respond in",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 208.5,
+     "end": 211.2,
+     "ja": "応答したりできるようになるという。",
+     "en": "a friendlier conversational style.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 237.5,
+   "end": 258.5,
+   "title": "Developing Feelings for AI",
+   "level": "N2",
+   "topics": [
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜という — reporting / that",
+    "〜のだ — explanatory tone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 237.8,
+     "end": 241.0,
+     "ja": "また、AIとの関係が",
+     "en": "Additionally, there are reports that relationships with AI",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 241.0,
+     "end": 245.0,
+     "ja": "人間関係に近づいているという報告もある。",
+     "en": "are growing closer to human relationships.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 245.3,
+     "end": 248.5,
+     "ja": "理想のパートナー像をAIに投影し、",
+     "en": "More people are projecting their ideal partner onto AI",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 248.5,
+     "end": 252.0,
+     "ja": "恋愛感情を抱く人が増えているのだ。",
+     "en": "and developing romantic feelings for it.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 252.8,
+     "end": 255.2,
+     "ja": "実際にAIと交際を始め、",
+     "en": "There are even women who have actually started dating AI",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 255.2,
+     "end": 258.2,
+     "ja": "結婚したという女性もいる。",
+     "en": "and got married to it.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 259.0,
+   "end": 222.5,
+   "title": "Why Listening Matters in Relationships",
+   "level": "N2",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜によると — according to",
+    "〜よりも — rather than / more than",
+    "〜つつある — in the process of / steadily doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 259.3,
+     "end": 261.3,
+     "ja": "ある研究によると、",
+     "en": "According to one study,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 261.3,
+     "end": 266.0,
+     "ja": "女性が現実の夫婦関係で最も重視するのは、",
+     "en": "what women value most in a real marital relationship,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 266.0,
+     "end": 268.2,
+     "ja": "相手の外見や収入よりも",
+     "en": "more than their partner's looks or income,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 268.2,
+     "end": 271.5,
+     "ja": "自分の話を聞いてもらえることだという。",
+     "en": "is having someone listen to what they have to say.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 272.8,
+     "end": 277.5,
+     "ja": "AIは、どんな話にも耳を傾けてくれる存在として、",
+     "en": "As an entity that listens to anything you say,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 277.5,
+     "end": 279.8,
+     "ja": "人の心を満たす新しいパートナーに",
+     "en": "AI may be becoming a new kind of partner",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 279.8,
+     "end": 282.3,
+     "ja": "なりつつあるのかもしれない。",
+     "en": "that fulfills people's emotional needs.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "6O32yG2SGG8",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

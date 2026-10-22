@@ -1,0 +1,210 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 15.8,
+   "end": 31.5,
+   "title": "Pre-Debate Nerves and Strategy",
+   "level": "N3",
+   "topics": [
+    "school",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜ように見える — appears to / looks like",
+    "〜かもしれない — might / could be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 15.8,
+     "end": 17.4,
+     "ja": "さあ対する開成の品田くん。",
+     "en": "Now, facing him is Shinada from Kaisei.",
+     "speaker": "Moderator"
+    },
+    {
+     "start": 17.5,
+     "end": 21.6,
+     "ja": "難しいテーマだと言ってて、今ガチガチに緊張してるように見えるんですけど。",
+     "en": "He said it was a difficult topic, and he looks totally nervous right now.",
+     "speaker": "Moderator"
+    },
+    {
+     "start": 21.7,
+     "end": 22.6,
+     "ja": "そうですね。",
+     "en": "That's right.",
+     "speaker": "Shinada"
+    },
+    {
+     "start": 22.7,
+     "end": 24.3,
+     "ja": "大丈夫ですか？品田くん。",
+     "en": "Are you doing okay, Shinada?",
+     "speaker": "Moderator"
+    },
+    {
+     "start": 24.4,
+     "end": 26.0,
+     "ja": "ここから緊張ほぐして頑張…",
+     "en": "I'll try to loosen up from here and...",
+     "speaker": "Shinada"
+    },
+    {
+     "start": 26.1,
+     "end": 27.2,
+     "ja": "緊張ほぐしてこう！",
+     "en": "Let's loosen up!",
+     "speaker": "Moderator"
+    },
+    {
+     "start": 27.3,
+     "end": 29.2,
+     "ja": "いや、これ作戦かもしれないですからね。",
+     "en": "No, this might actually be a strategy.",
+     "speaker": "Nakata"
+    },
+    {
+     "start": 29.3,
+     "end": 30.0,
+     "ja": "なるほどね！",
+     "en": "I see!",
+     "speaker": "Moderator"
+    },
+    {
+     "start": 30.1,
+     "end": 31.4,
+     "ja": "事前にちょっと舐めさしとく作戦ありますよ。",
+     "en": "Underestimating oneself in advance can be a strategy.",
+     "speaker": "Nakata"
+    }
+   ]
+  },
+  {
+   "start": 150.0,
+   "end": 165.0,
+   "title": "How Should AI Be Used in Research?",
+   "level": "N2",
+   "topics": [
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜を〜に使う — to use X for Y",
+    "〜んじゃないかと思う — I think that maybe..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 150.2,
+     "end": 154.5,
+     "ja": "肯定側さんはAIを何に使う想定ですか？",
+     "en": "How does the affirmative side envision using AI?",
+     "speaker": "Shinada"
+    },
+    {
+     "start": 155.0,
+     "end": 159.0,
+     "ja": "基本的にはあくまでもアイディアは研究者のものだけど、",
+     "en": "Basically, the ideas belong to the researcher, but...",
+     "speaker": "Iwamoto"
+    },
+    {
+     "start": 159.1,
+     "end": 162.0,
+     "ja": "それを言語化したり論文を書く行為、",
+     "en": "The act of phrasing them into words and writing the paper,",
+     "speaker": "Iwamoto"
+    },
+    {
+     "start": 162.2,
+     "end": 164.8,
+     "ja": "そこに対してAIを使えるんじゃないかと考えています。",
+     "en": "I believe that AI could be used for that part.",
+     "speaker": "Iwamoto"
+    }
+   ]
+  },
+  {
+   "start": 607.5,
+   "end": 621.5,
+   "title": "It Was Actually a Poker Face",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていたじゃないですか — as you know, wasn't it...",
+    "〜ただけ — just / merely did"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 607.8,
+     "end": 610.5,
+     "ja": "岩本くん、終わってみた感想を教えてください。",
+     "en": "Iwamoto, tell us how you felt now that it's over.",
+     "speaker": "Moderator"
+    },
+    {
+     "start": 610.8,
+     "end": 613.5,
+     "ja": "頭真っ白で、あの、余裕って言われてたじゃないですか。",
+     "en": "My mind went totally blank; everyone said I looked calm, right?",
+     "speaker": "Iwamoto"
+    },
+    {
+     "start": 613.6,
+     "end": 614.4,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Moderator"
+    },
+    {
+     "start": 614.5,
+     "end": 616.2,
+     "ja": "あの、何も考えてなかっただけで…",
+     "en": "Well, it was just that I wasn't thinking of anything...",
+     "speaker": "Iwamoto"
+    },
+    {
+     "start": 616.3,
+     "end": 617.2,
+     "ja": "あ、そう！",
+     "en": "Oh, really?!",
+     "speaker": "Moderator"
+    },
+    {
+     "start": 617.3,
+     "end": 619.1,
+     "ja": "あの、マジで何言われるんだろう…",
+     "en": "Like, I wondered what they would ask me...",
+     "speaker": "Iwamoto"
+    },
+    {
+     "start": 619.2,
+     "end": 620.5,
+     "ja": "実はポーカーフェイスだったということですね。",
+     "en": "So it was actually just a poker face, then.",
+     "speaker": "Nakata"
+    },
+    {
+     "start": 620.6,
+     "end": 621.4,
+     "ja": "そういうことですね！",
+     "en": "That's how it was!",
+     "speaker": "Moderator"
+    }
+   ]
+  }
+ ],
+ "videoId": "Q5aDPAorTq8",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

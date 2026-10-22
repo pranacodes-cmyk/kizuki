@@ -1,0 +1,269 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 108.5,
+   "end": 123.8,
+   "title": "Arriving at a Restaurant",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "ご〜する — humble polite action",
+    "〜名 — counter for people"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 108.5,
+     "end": 110.8,
+     "ja": "いらっしゃいませー！",
+     "en": "Welcome!",
+     "speaker": "Staff"
+    },
+    {
+     "start": 110.9,
+     "end": 112.1,
+     "ja": "何名様ですか？",
+     "en": "How many people?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 112.2,
+     "end": 113.6,
+     "ja": "あ、２名です。",
+     "en": "Ah, party of two.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 113.7,
+     "end": 116.4,
+     "ja": "２名様ですね。お席ご案内します。",
+     "en": "Two people, right? I'll show you to your seats.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 116.5,
+     "end": 117.3,
+     "ja": "はーい。",
+     "en": "Okay.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 117.4,
+     "end": 119.3,
+     "ja": "お好きなお席へどうぞー。",
+     "en": "Please have a seat wherever you like.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 119.4,
+     "end": 120.1,
+     "ja": "はーい。",
+     "en": "Okay.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 120.2,
+     "end": 121.8,
+     "ja": "こちらメニューです。",
+     "en": "Here are the menus.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 121.9,
+     "end": 123.3,
+     "ja": "ありがとうございます。",
+     "en": "Thank you.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 134.8,
+   "end": 156.3,
+   "title": "Ordering Food and Drinks",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜つ — counter for items",
+    "いかがでしょうか — polite offer/inquiry",
+    "〜をお願いします — please give me..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 135.0,
+     "end": 136.5,
+     "ja": "あ、すいません。",
+     "en": "Excuse me.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 136.6,
+     "end": 137.3,
+     "ja": "はい！",
+     "en": "Yes!",
+     "speaker": "Staff"
+    },
+    {
+     "start": 137.4,
+     "end": 138.7,
+     "ja": "注文いいですか？",
+     "en": "Can we order?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 138.8,
+     "end": 140.4,
+     "ja": "はい、お伺いします。",
+     "en": "Yes, I'm ready to take your order.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 140.5,
+     "end": 143.6,
+     "ja": "じゃあ、味噌ラーメン１つと、",
+     "en": "Well then, one miso ramen,",
+     "speaker": "Customer"
+    },
+    {
+     "start": 143.7,
+     "end": 145.8,
+     "ja": "あと、醤油ラーメンを１つ。",
+     "en": "and one soy sauce ramen.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 145.9,
+     "end": 148.3,
+     "ja": "あと、餃子を１つお願いします。",
+     "en": "And one order of gyoza, please.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 148.4,
+     "end": 149.2,
+     "ja": "はい。",
+     "en": "Understood.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 149.3,
+     "end": 151.5,
+     "ja": "お飲み物はいかがでしょうか。",
+     "en": "Would you like anything to drink?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 151.6,
+     "end": 154.0,
+     "ja": "じゃあ、生ビールを１つお願いします。",
+     "en": "Then, one draft beer, please.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 154.1,
+     "end": 155.8,
+     "ja": "はい、かしこまりました。",
+     "en": "Certainly.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 155.9,
+   "end": 216.8,
+   "title": "Confirming the Order",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "以上 — that is all",
+    "〜でよろしいですか — is ... all right?",
+    "〜ないでしょうか — polite negative question"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 156.0,
+     "end": 158.3,
+     "ja": "ご注文は以上でよろしいですか？",
+     "en": "Will that be all for your order?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 158.4,
+     "end": 159.9,
+     "ja": "はい、以上で。",
+     "en": "Yes, that's all.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 160.0,
+     "end": 163.2,
+     "ja": "はい、かしこまりました。ご注文を確認いたします。",
+     "en": "Certainly. Let me confirm your order.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 163.3,
+     "end": 167.4,
+     "ja": "醤油ラーメンを１つ、味噌ラーメンを１つ、餃子を１つ、",
+     "en": "One soy sauce ramen, one miso ramen, one gyoza,",
+     "speaker": "Staff"
+    },
+    {
+     "start": 167.5,
+     "end": 170.0,
+     "ja": "そして、お飲み物が、生ビールを１つ。",
+     "en": "and for drinks, one draft beer.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 170.1,
+     "end": 172.1,
+     "ja": "以上でお間違いないでしょうか。",
+     "en": "Is that all correct?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 172.2,
+     "end": 173.6,
+     "ja": "はい、大丈夫です。",
+     "en": "Yes, that's fine.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 173.7,
+     "end": 174.8,
+     "ja": "はい、かしこまりました。",
+     "en": "Certainly.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 174.9,
+     "end": 176.3,
+     "ja": "はい、お願いしまーす。",
+     "en": "Thank you.",
+     "speaker": "Customer"
+    }
+   ]
+  }
+ ],
+ "videoId": "YurForSAId4",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

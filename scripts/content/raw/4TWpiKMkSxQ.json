@@ -1,0 +1,181 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 24.2,
+   "end": 50.8,
+   "title": "Asking for a Table Without Reservation",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜てない — have not done yet",
+    "〜てまいる — humble form of to go/come"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 24.5,
+     "end": 28.5,
+     "ja": "すみません、予約してないんですけど、",
+     "en": "Excuse me, we don't have a reservation,",
+     "speaker": "Ken"
+    },
+    {
+     "start": 26.8,
+     "end": 29.0,
+     "ja": "2名って空いてますか？",
+     "en": "but do you have a table for two?",
+     "speaker": "Ken"
+    },
+    {
+     "start": 27.2,
+     "end": 28.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Server"
+    },
+    {
+     "start": 28.1,
+     "end": 29.2,
+     "ja": "大丈夫ですか？",
+     "en": "Is that okay?",
+     "speaker": "Ken"
+    },
+    {
+     "start": 47.3,
+     "end": 49.3,
+     "ja": "2名様でよろしいですか？",
+     "en": "Table for two, is that right?",
+     "speaker": "Server"
+    },
+    {
+     "start": 48.7,
+     "end": 49.6,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 49.3,
+     "end": 50.8,
+     "ja": "お席確認してまいりますね。",
+     "en": "I'll go check on the seating.",
+     "speaker": "Server"
+    }
+   ]
+  },
+  {
+   "start": 232.0,
+   "end": 240.2,
+   "title": "Ordering Drinks First",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜と〜 — and (connecting nouns)",
+    "〜で — specifying a manner/style"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 232.3,
+     "end": 233.7,
+     "ja": "飲み物は、",
+     "en": "For drinks,",
+     "speaker": "Ken"
+    },
+    {
+     "start": 233.4,
+     "end": 234.3,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Server"
+    },
+    {
+     "start": 234.3,
+     "end": 236.4,
+     "ja": "オレンジジュース1つと、",
+     "en": "one orange juice, and",
+     "speaker": "Ken"
+    },
+    {
+     "start": 237.2,
+     "end": 238.2,
+     "ja": "万年星、",
+     "en": "Mannenboshi,",
+     "speaker": "Ken"
+    },
+    {
+     "start": 238.2,
+     "end": 239.3,
+     "ja": "ロックで。",
+     "en": "on the rocks.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 239.1,
+     "end": 240.0,
+     "ja": "ロックで。はい。",
+     "en": "On the rocks. Understood.",
+     "speaker": "Server"
+    }
+   ]
+  },
+  {
+   "start": 547.0,
+   "end": 602.8,
+   "title": "Finishing Up the Order",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "とりあえず〜 — for now",
+    "〜だけでいい — only ... is fine"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 547.6,
+     "end": 550.0,
+     "ja": "とりあえずそれだけでいいです。",
+     "en": "That'll be all for now.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 549.9,
+     "end": 551.9,
+     "ja": "はい、かしこまりました。",
+     "en": "Certainly, understood.",
+     "speaker": "Server"
+    },
+    {
+     "start": 552.0,
+     "end": 556.1,
+     "ja": "とりあえず、それだけでいいです。",
+     "en": "That'll be all for now.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 557.0,
+     "end": 601.8,
+     "ja": "とりあえず、それだけでいいです。",
+     "en": "That'll be all for now.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "4TWpiKMkSxQ",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

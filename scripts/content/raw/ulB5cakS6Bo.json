@@ -1,0 +1,219 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.8,
+   "end": 18.7,
+   "title": "Apartment Hunting: Studio vs 2DK",
+   "level": "N2",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜に負けない — as good as / comparable to",
+    "〜てほしい — wanting something to be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.8,
+     "end": 4.3,
+     "ja": "こちらのお部屋、すごいおすすめです。",
+     "en": "This room is highly recommended.",
+     "speaker": "Agent"
+    },
+    {
+     "start": 4.3,
+     "end": 6.1,
+     "ja": "ワンルームなんですけど、",
+     "en": "It's a studio apartment,",
+     "speaker": "Agent"
+    },
+    {
+     "start": 6.1,
+     "end": 8.0,
+     "ja": "間取りがすごい工夫されていて、",
+     "en": "but the layout is really well thought out,",
+     "speaker": "Agent"
+    },
+    {
+     "start": 8.0,
+     "end": 11.2,
+     "ja": "2DKに負けないくらいの広さはあると思います。",
+     "en": "so it feels just as spacious as a 2DK.",
+     "speaker": "Agent"
+    },
+    {
+     "start": 11.4,
+     "end": 15.1,
+     "ja": "あと南向きなので、日当たりがかなりいいですね。",
+     "en": "Plus, since it faces south, it gets plenty of sunlight.",
+     "speaker": "Agent"
+    },
+    {
+     "start": 15.2,
+     "end": 18.5,
+     "ja": "うーん、でもやっぱり部屋は2部屋欲しいんですよねー。",
+     "en": "Hmm... but I'd really prefer a place with two rooms.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 18.8,
+   "end": 33.8,
+   "title": "Considering an East-Facing Room",
+   "level": "N2",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜し、〜し — listing reasons",
+    "〜そう — looks like / seems"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.9,
+     "end": 21.0,
+     "ja": "そしたら、こちらはいかがでしょう？",
+     "en": "In that case, how about this one?",
+     "speaker": "Agent"
+    },
+    {
+     "start": 21.1,
+     "end": 23.0,
+     "ja": "東向きなんですけど、",
+     "en": "It faces east, but",
+     "speaker": "Agent"
+    },
+    {
+     "start": 23.0,
+     "end": 25.5,
+     "ja": "どちらのお部屋からもベランダに出られますし、",
+     "en": "both rooms have access to the balcony,",
+     "speaker": "Agent"
+    },
+    {
+     "start": 25.5,
+     "end": 28.0,
+     "ja": "7階なので眺めもいいですよ。",
+     "en": "and since it's on the 7th floor, the view is great.",
+     "speaker": "Agent"
+    },
+    {
+     "start": 28.0,
+     "end": 29.8,
+     "ja": "あ、でもこれいいかも。",
+     "en": "Oh, this one looks nice too.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 29.8,
+     "end": 31.0,
+     "ja": "風通しも良さそうだし。",
+     "en": "It seems like it has good ventilation.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 31.0,
+     "end": 33.6,
+     "ja": "何か他にも良さそうな物件ってありますか？",
+     "en": "Do you have any other good options?",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 33.8,
+   "end": 56.0,
+   "title": "Deciding on an Apartment Viewing",
+   "level": "N2",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜させてもらう — to be allowed to do",
+    "〜オーバー — exceeding (budget)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 33.9,
+     "end": 36.3,
+     "ja": "では、こちらの物件はいかがでしょう？",
+     "en": "How about this one?",
+     "speaker": "Agent"
+    },
+    {
+     "start": 36.3,
+     "end": 38.3,
+     "ja": "人気の角部屋です。",
+     "en": "It's a popular corner unit.",
+     "speaker": "Agent"
+    },
+    {
+     "start": 38.3,
+     "end": 40.5,
+     "ja": "5階の南西の角なので、",
+     "en": "It's on the southwest corner of the 5th floor,",
+     "speaker": "Agent"
+    },
+    {
+     "start": 40.5,
+     "end": 42.5,
+     "ja": "日当たりはもう抜群です。",
+     "en": "so it gets amazing sunlight.",
+     "speaker": "Agent"
+    },
+    {
+     "start": 42.6,
+     "end": 44.8,
+     "ja": "あ〜すごい良さそうなんですけど、",
+     "en": "Wow, this looks really nice, but",
+     "speaker": "Customer"
+    },
+    {
+     "start": 44.8,
+     "end": 47.3,
+     "ja": "これはちょっと予算オーバーです。",
+     "en": "it's a bit over my budget.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 47.6,
+     "end": 48.9,
+     "ja": "なるほど。",
+     "en": "I see.",
+     "speaker": "Agent"
+    },
+    {
+     "start": 49.2,
+     "end": 51.5,
+     "ja": "さっきの東向きの物件を、",
+     "en": "Would it be possible to schedule a viewing",
+     "speaker": "Customer"
+    },
+    {
+     "start": 51.5,
+     "end": 53.8,
+     "ja": "今度内見させてもらうことってできますか？",
+     "en": "for the east-facing one from earlier?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 53.8,
+     "end": 55.7,
+     "ja": "そうしましょうか。はい、かしこまりました。",
+     "en": "Shall we do that? Yes, certainly.",
+     "speaker": "Agent"
+    }
+   ]
+  }
+ ],
+ "videoId": "ulB5cakS6Bo",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

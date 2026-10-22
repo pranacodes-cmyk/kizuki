@@ -1,0 +1,220 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 159.5,
+   "end": 188.5,
+   "title": "Only You Can Make Yourself Happy",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜から言うと — judging from / speaking from",
+    "〜しか〜ない — only / nothing but",
+    "〜たばかり — just did"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 159.7,
+     "end": 162.5,
+     "ja": "で、結論から言うと… あっ、結論から言っていい？",
+     "en": "So, to get straight to the point... wait, can I start with the conclusion?",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 162.7,
+     "end": 164.8,
+     "ja": "結論から、お願いします。",
+     "en": "Please start with the conclusion.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 165.0,
+     "end": 173.6,
+     "ja": "結論から言うと、自分を幸せにできるのは、自分しかいない。",
+     "en": "To put it simply, the only person who can make you happy is yourself.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 174.0,
+     "end": 177.0,
+     "ja": "タダー！",
+     "en": "Ta-da!",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 178.5,
+     "end": 180.8,
+     "ja": "それでは皆さん、今日もありがとう…",
+     "en": "Well everyone, thank you for watching today...",
+     "speaker": "Miku"
+    },
+    {
+     "start": 180.9,
+     "end": 183.3,
+     "ja": "なんで、なんで！始まったばかり。",
+     "en": "Wait, why?! We just started!",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 183.4,
+     "end": 184.5,
+     "ja": "なんでやねん。",
+     "en": "Why are you ending it?!",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 184.6,
+     "end": 185.8,
+     "ja": "知らんがな。",
+     "en": "Like I care!",
+     "speaker": "Miku"
+    },
+    {
+     "start": 186.8,
+     "end": 188.2,
+     "ja": "もう、さやか最高。",
+     "en": "Man, Sayaka, you're the best.",
+     "speaker": "Miku"
+    }
+   ]
+  },
+  {
+   "start": 344.8,
+   "end": 379.5,
+   "title": "Listing Things That Bring Joy",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜ようと思う — deciding/planning to do",
+    "〜こと — nominalizer (doing something)",
+    "〜てない — haven't done yet"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 345.0,
+     "end": 349.7,
+     "ja": "で、そこで色々ね、自分ことを知ろうと思って、色んなYouTube見て、",
+     "en": "So then, I wanted to get to know myself better, watched various YouTube videos,",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 351.8,
+     "end": 359.8,
+     "ja": "こう、自分が幸せって感じることは何だろうって、自分の好きなことって、何だろうって書き出したの。",
+     "en": "and wrote down what made me feel happy and what things I actually liked.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 360.0,
+     "end": 361.0,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 361.8,
+     "end": 368.5,
+     "ja": "で、それが、例えばピアノを弾くこととか、うーん、なんかちょっと運動すること、",
+     "en": "And that included things like playing the piano, exercising a bit,",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 368.7,
+     "end": 373.5,
+     "ja": "カラオケに行くこととか、旅行に行くことだったんだけど、",
+     "en": "going to karaoke, and traveling, but...",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 375.5,
+     "end": 378.8,
+     "ja": "あれ？私、何もこれできてないと思って、",
+     "en": "I realized, 'Wait, I haven't been doing any of this!'",
+     "speaker": "Sayaka"
+    }
+   ]
+  },
+  {
+   "start": 644.5,
+   "end": 677.5,
+   "title": "Switching Work Mode On and Off",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜ことで — by doing / through",
+    "〜たら — when / after",
+    "〜やすくなる — to become easier to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 644.5,
+     "end": 649.3,
+     "ja": "でも、遊ぶことによっ… 私は、最近気づいたのは、",
+     "en": "But by having fun... what I realized recently is,",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 649.4,
+     "end": 656.5,
+     "ja": "遊ぶというか、自分のために時間を使うことで、より、メリハリがつく、",
+     "en": "or rather by spending time on myself, it creates a better rhythm,",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 656.8,
+     "end": 661.5,
+     "ja": "仕事の時間は、仕事でスイッチオン、オフができて、",
+     "en": "I can switch on and off during work hours,",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 662.0,
+     "end": 666.3,
+     "ja": "あっ、これが終わったら、ジムに行けるからとか、",
+     "en": "like, 'Once this is done, I can go to the gym,'",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 666.4,
+     "end": 669.5,
+     "ja": "これが終わったら、旅行があるからとか、",
+     "en": "or, 'Once this is done, I have a trip coming up,'",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 669.7,
+     "end": 675.5,
+     "ja": "そういうふうに、スイッチのオン、オフをするのがしやすくなる。",
+     "en": "and that way, it makes it much easier to flip the switch on and off.",
+     "speaker": "Sayaka"
+    },
+    {
+     "start": 675.8,
+     "end": 677.2,
+     "ja": "うんうん。大事だね。",
+     "en": "Yeah, that's really important.",
+     "speaker": "Miku"
+    }
+   ]
+  }
+ ],
+ "videoId": "PZe-ew2VIJU",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

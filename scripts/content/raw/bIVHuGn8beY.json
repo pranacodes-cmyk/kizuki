@@ -1,0 +1,260 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.8,
+   "end": 40.5,
+   "title": "Betting All My Savings on One Horse",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "sports",
+    "fun"
+   ],
+   "grammar": [
+    "〜たいと思う — thinking of doing",
+    "〜の方 — direction / polite indicator"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.0,
+     "end": 15.5,
+     "ja": "ということで、こちら。",
+     "en": "So, here it is.",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 16.7,
+     "end": 18.0,
+     "ja": "ホントに…",
+     "en": "Seriously...",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 18.6,
+     "end": 20.2,
+     "ja": "全財産。",
+     "en": "My entire savings.",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 20.8,
+     "end": 22.3,
+     "ja": "１万円です。",
+     "en": "It's 10,000 yen.",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 22.8,
+     "end": 25.4,
+     "ja": "これをですね、こちら、",
+     "en": "And with this, here,",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 25.8,
+     "end": 30.8,
+     "ja": "10レースの神無月特別ですね。",
+     "en": "the 10th race, the Kannazuki Special.",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 31.5,
+     "end": 33.3,
+     "ja": "こちらの方のレースに、",
+     "en": "In this race right here,",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 33.4,
+     "end": 37.0,
+     "ja": "この１万円を一点張りで、",
+     "en": "betting all 10,000 yen on a single horse,",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 37.2,
+     "end": 40.2,
+     "ja": "賭けたいと思います。",
+     "en": "I'm going to place my bet.",
+     "speaker": "Nagai"
+    }
+   ]
+  },
+  {
+   "start": 432.2,
+   "end": 459.8,
+   "title": "Disappointed by Low Payout Odds",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "sports",
+    "fun"
+   ],
+   "grammar": [
+    "〜たら — if / when conditional",
+    "〜てたのに — even though was doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 432.5,
+     "end": 434.0,
+     "ja": "1.3？",
+     "en": "1.3?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 435.8,
+     "end": 438.0,
+     "ja": "え？1.3倍っていくら？１万円だったら。",
+     "en": "Wait, how much is 1.3 times for 10,000 yen?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 438.1,
+     "end": 439.4,
+     "ja": "プラス3000円。",
+     "en": "Plus 3,000 yen.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 439.5,
+     "end": 441.5,
+     "ja": "え？なんだよそれ！",
+     "en": "What? What the heck is that?!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 444.7,
+     "end": 447.2,
+     "ja": "俺、今日億万長者になる夢見て…",
+     "en": "I was dreaming of becoming a billionaire today...",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 447.3,
+     "end": 449.2,
+     "ja": "１万円買ったんですよ！",
+     "en": "I bet 10,000 yen on it!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 451.3,
+     "end": 453.5,
+     "ja": "え？1.3すか？",
+     "en": "Wait, it's 1.3?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 454.8,
+     "end": 456.8,
+     "ja": "3000円だけ？",
+     "en": "Only 3,000 yen?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 457.1,
+     "end": 459.5,
+     "ja": "なんだよそれ！",
+     "en": "What the heck!",
+     "speaker": "Nagai"
+    }
+   ]
+  },
+  {
+   "start": 535.8,
+   "end": 605.8,
+   "title": "Cashing in the Winning Ticket",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "sports",
+    "daily"
+   ],
+   "grammar": [
+    "〜だけだった — only had been",
+    "ってことは — which means"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 536.0,
+     "end": 537.8,
+     "ja": "的中券、入り口。",
+     "en": "Winning ticket slot.",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 538.1,
+     "end": 539.8,
+     "ja": "１万円が、",
+     "en": "My 10,000 yen becomes...",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 540.2,
+     "end": 543.5,
+     "ja": "なんと、１万5000円。で、精算？",
+     "en": "A whopping 15,000 yen! And now, payout?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 548.8,
+     "end": 551.2,
+     "ja": "増えた！",
+     "en": "It multiplied!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 551.8,
+     "end": 554.5,
+     "ja": "増えました！イエーイ！",
+     "en": "It increased! Yeah!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 555.2,
+     "end": 558.0,
+     "ja": "ってことは、福澤さんだけだったのが…",
+     "en": "So, from having only one Fukuzawa bill...",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 558.2,
+     "end": 600.2,
+     "ja": "野口五郎さんだっけ？なんだっけ？",
+     "en": "Was it Goro Noguchi? What was his name?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 600.3,
+     "end": 601.5,
+     "ja": "野口英世です。",
+     "en": "It's Hideyo Noguchi.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 601.6,
+     "end": 603.8,
+     "ja": "野口英世さんが５人増えました！",
+     "en": "Five Hideyo Noguchis have joined me!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 604.0,
+     "end": 605.5,
+     "ja": "ありがとうございます！",
+     "en": "Thank you very much!",
+     "speaker": "Nagai"
+    }
+   ]
+  }
+ ],
+ "videoId": "bIVHuGn8beY",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

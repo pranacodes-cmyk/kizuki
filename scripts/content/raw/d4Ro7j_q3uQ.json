@@ -1,0 +1,204 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 20.0,
+   "end": 36.5,
+   "title": "Arriving at Urawa Racecourse",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てまいる — humble coming/going",
+    "〜ということで — so/it means that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 20.0,
+     "end": 24.0,
+     "ja": "永井佑一郎の街ぶらトーク！",
+     "en": "Nagai Yuichiro's Machibura Talk!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 24.2,
+     "end": 28.5,
+     "ja": "ということでですね、本日はこちら浦和にやってまいりまして…",
+     "en": "So today, we have come here to Urawa...",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 28.5,
+     "end": 31.0,
+     "ja": "浦和はこちらでございます！",
+     "en": "And here we are in Urawa!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 31.0,
+     "end": 36.0,
+     "ja": "浦和競馬場の方にやってまいりましたよ、ということで。",
+     "en": "We've arrived here at Urawa Racecourse.",
+     "speaker": "Nagai"
+    }
+   ]
+  },
+  {
+   "start": 36.8,
+   "end": 54.5,
+   "title": "Looking to Make Friends at the Races",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "friends",
+    "comedy"
+   ],
+   "grammar": [
+    "〜んじゃないかな — I wonder if / might be",
+    "〜たいと思う — think of wanting to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 36.8,
+     "end": 39.5,
+     "ja": "こちらやっぱ競馬場、僕もギャンブル好きなんでね。",
+     "en": "This is a racecourse, and since I like gambling too...",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 39.6,
+     "end": 44.5,
+     "ja": "気が合う友達というか、結構ユニークな方がいっぱいいるんじゃないかなということで、",
+     "en": "I figured there would be like-minded friends, or lots of unique people,",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 44.6,
+     "end": 49.5,
+     "ja": "今日もどんどんお話をしてお友達を増やしたいと思いますが…",
+     "en": "so I'd like to talk to lots of people today and make friends, but...",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 49.6,
+     "end": 54.0,
+     "ja": "今日もあるということで、なんか新作？これ。",
+     "en": "apparently we have this today too... Is this a new one?",
+     "speaker": "Nagai"
+    }
+   ]
+  },
+  {
+   "start": 172.5,
+   "end": 198.5,
+   "title": "Chatting with a Racecourse Worker",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "friends",
+    "work"
+   ],
+   "grammar": [
+    "〜てみる — trying to / looking",
+    "とんでもない — not at all / far from it"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 172.5,
+     "end": 174.5,
+     "ja": "おや？あれ？お母さん、どうしたの？",
+     "en": "Oh? What's the matter, ma'am?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 174.8,
+     "end": 177.0,
+     "ja": "あ〜、違う違う。遠目を見てるの。",
+     "en": "Ah, no, no. I'm just looking off into the distance.",
+     "speaker": "Sato"
+    },
+    {
+     "start": 177.0,
+     "end": 178.5,
+     "ja": "あ、遠目を見てる。",
+     "en": "Ah, looking into the distance.",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 178.6,
+     "end": 182.5,
+     "ja": "これ、いつも働いて、ここは長いんですか？",
+     "en": "Have you been working here for a long time?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 182.7,
+     "end": 184.0,
+     "ja": "私、今年から。",
+     "en": "Just starting this year.",
+     "speaker": "Sato"
+    },
+    {
+     "start": 184.0,
+     "end": 185.5,
+     "ja": "今年から？お名前は？",
+     "en": "From this year? What's your name?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 185.8,
+     "end": 187.0,
+     "ja": "佐藤。",
+     "en": "Sato.",
+     "speaker": "Sato"
+    },
+    {
+     "start": 189.8,
+     "end": 191.2,
+     "ja": "キレイっすね。",
+     "en": "You're very pretty.",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 191.2,
+     "end": 193.0,
+     "ja": "いえいえ、とんでもない。",
+     "en": "Oh, no, no, not at all.",
+     "speaker": "Sato"
+    },
+    {
+     "start": 193.0,
+     "end": 194.6,
+     "ja": "お歳はおいくつですか？",
+     "en": "How old are you?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 194.7,
+     "end": 195.5,
+     "ja": "61。",
+     "en": "Sixty-one.",
+     "speaker": "Sato"
+    },
+    {
+     "start": 195.5,
+     "end": 198.5,
+     "ja": "え、61！？全然キレイっすね！",
+     "en": "Eh, 61!? You look totally gorgeous!",
+     "speaker": "Nagai"
+    }
+   ]
+  }
+ ],
+ "videoId": "d4Ro7j_q3uQ",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

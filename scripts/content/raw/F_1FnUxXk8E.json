@@ -1,0 +1,108 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 9.5,
+   "title": "We Did Not Destroy Godzilla",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜切る — completely do",
+    "〜ていく — action moving away / continuing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 5.5,
+     "ja": "私たちは、ゴジラを葬り切れてはいなかったんだ。",
+     "en": "We had not completely destroyed Godzilla.",
+     "speaker": "Professor"
+    },
+    {
+     "start": 6.8,
+     "end": 9.2,
+     "ja": "見ましたよね、あいつがバラバラになって沈んでいくところ！",
+     "en": "You saw it, right? It was torn to pieces and sank!",
+     "speaker": "Young Man"
+    }
+   ]
+  },
+  {
+   "start": 11.5,
+   "end": 21.2,
+   "title": "Proposing Plan B",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜をもって — by means of",
+    "〜てもよろしいですか — may I"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.8,
+     "end": 15.0,
+     "ja": "毒をもって毒を制すじゃ。",
+     "en": "We fight poison with poison.",
+     "speaker": "Old Man"
+    },
+    {
+     "start": 15.5,
+     "end": 17.5,
+     "ja": "天災予防官、青島女史。",
+     "en": "Disaster Prevention Officer, Ms. Aoshima.",
+     "speaker": "Man"
+    },
+    {
+     "start": 18.6,
+     "end": 20.8,
+     "ja": "一つ、プランBを提案してもよろしいですか？",
+     "en": "May I propose a Plan B?",
+     "speaker": "Aoshima"
+    }
+   ]
+  },
+  {
+   "start": 27.5,
+   "end": 34.5,
+   "title": "What Will Happen to Akiko?",
+   "level": "N3",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜んだと思う — express personal belief",
+    "〜たら — if / when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 27.8,
+     "end": 30.6,
+     "ja": "私はもう長くはないんだと思います。",
+     "en": "I don't think I have much longer to live.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 31.0,
+     "end": 34.2,
+     "ja": "浩さんにまで何かあったら、明子はどうなるんですか？",
+     "en": "If something happens to you too, Ko, what will become of Akiko?",
+     "speaker": "Noriko"
+    }
+   ]
+  }
+ ],
+ "videoId": "F_1FnUxXk8E",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

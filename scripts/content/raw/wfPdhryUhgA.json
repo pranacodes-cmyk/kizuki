@@ -1,0 +1,139 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 150.8,
+   "end": 163.0,
+   "title": "Talking About Ramen at the Bus Stop",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜があります — there is",
+    "〜が好き — to like something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 151.0,
+     "end": 156.4,
+     "ja": "その近くに有名なラーメン屋さんがありますよ。",
+     "en": "There is a famous ramen shop near there.",
+     "speaker": "A"
+    },
+    {
+     "start": 156.8,
+     "end": 159.5,
+     "ja": "ラーメンは好きですか？",
+     "en": "Do you like ramen?",
+     "speaker": "A"
+    },
+    {
+     "start": 160.0,
+     "end": 162.4,
+     "ja": "はい、大好きです。",
+     "en": "Yes, I love it.",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 175.5,
+   "end": 193.2,
+   "title": "Where Are You From?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜出身 — from (origin)",
+    "〜が降る — precipitation falls"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 175.8,
+     "end": 179.0,
+     "ja": "ご出身はどちらですか？",
+     "en": "Where are you from?",
+     "speaker": "A"
+    },
+    {
+     "start": 179.6,
+     "end": 182.2,
+     "ja": "イギリス出身です。",
+     "en": "I'm from the UK.",
+     "speaker": "B"
+    },
+    {
+     "start": 182.8,
+     "end": 184.6,
+     "ja": "そうですか。",
+     "en": "I see.",
+     "speaker": "A"
+    },
+    {
+     "start": 185.0,
+     "end": 189.4,
+     "ja": "そちらでは、雨がよく降りますか？",
+     "en": "Does it rain a lot over there?",
+     "speaker": "A"
+    },
+    {
+     "start": 190.0,
+     "end": 192.6,
+     "ja": "はい、よく降ります。",
+     "en": "Yes, it rains a lot.",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 193.8,
+   "end": 207.0,
+   "title": "Complimenting Japanese Ability",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "お上手 — good at / skillful (polite)",
+    "〜から — starting from / since",
+    "〜ている — ongoing action / state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 194.0,
+     "end": 198.3,
+     "ja": "それにしても、日本語がお上手ですね。",
+     "en": "Even so, your Japanese is very good.",
+     "speaker": "A"
+    },
+    {
+     "start": 198.8,
+     "end": 202.4,
+     "ja": "いつから勉強しているんですか？",
+     "en": "How long have you been studying it?",
+     "speaker": "A"
+    },
+    {
+     "start": 203.0,
+     "end": 206.5,
+     "ja": "３年前から勉強しています。",
+     "en": "I have been studying for three years.",
+     "speaker": "B"
+    }
+   ]
+  }
+ ],
+ "videoId": "wfPdhryUhgA",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

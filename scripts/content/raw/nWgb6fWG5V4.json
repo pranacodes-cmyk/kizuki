@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 34.0,
+   "end": 50.8,
+   "title": "Are You Feeling Sleepy Right Now?",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜ています — ongoing action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 34.5,
+     "end": 38.0,
+     "ja": "皆さん、今どうですか？今何時ですか？",
+     "en": "How are you all doing right now? What time is it?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 38.5,
+     "end": 43.5,
+     "ja": "眠いですか？それとも、眠くないですか？",
+     "en": "Are you sleepy? Or are you not sleepy?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 44.0,
+     "end": 47.5,
+     "ja": "僕はね、少し眠いですね。少し眠い。",
+     "en": "I'm a little sleepy. A bit sleepy.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 47.5,
+     "end": 50.4,
+     "ja": "少し眠いので、コーヒーを飲んでいます。",
+     "en": "I'm a bit sleepy, so I'm drinking coffee.",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 123.0,
+   "end": 145.2,
+   "title": "What to Do When You Feel Sleepy",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜時 — when / at the time of",
+    "〜のがいい — it is good to...",
+    "〜くなる — to become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 123.2,
+     "end": 128.8,
+     "ja": "僕は、眠い時は、あの、外に出るのがいいと思います。",
+     "en": "I think when you're sleepy, going outside is best.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 129.0,
+     "end": 132.5,
+     "ja": "外を歩く。散歩ですね。",
+     "en": "Walking outside. Going for a stroll.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 132.8,
+     "end": 136.9,
+     "ja": "散歩をする。体を動かす。これが一番です。",
+     "en": "Taking a walk. Moving your body. That's the best.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 137.5,
+     "end": 140.2,
+     "ja": "外に出て、散歩をする。",
+     "en": "Go outside and take a walk.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 140.5,
+     "end": 144.8,
+     "ja": "そうすると、ええ、少しずつ眠くなくなりますね。",
+     "en": "When you do that, you gradually become less sleepy.",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 236.8,
+   "end": 251.0,
+   "title": "Best Study Method for Sleepy Times",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜と思う — I think that...",
+    "〜た時 — when (past/completed)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 237.2,
+     "end": 243.6,
+     "ja": "眠くなった時のおすすめの勉強方法は、外に出る。",
+     "en": "My recommended study method when you get sleepy is to go outside.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 243.8,
+     "end": 245.8,
+     "ja": "散歩をする。",
+     "en": "Take a walk.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 245.9,
+     "end": 248.0,
+     "ja": "そして日本語コンテッペイを聴く。",
+     "en": "And listen to Nihongo con Teppei.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 248.2,
+     "end": 250.7,
+     "ja": "これが一番だと思います。",
+     "en": "I think this is the best.",
+     "speaker": "Teppei"
+    }
+   ]
+  }
+ ],
+ "videoId": "nWgb6fWG5V4",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

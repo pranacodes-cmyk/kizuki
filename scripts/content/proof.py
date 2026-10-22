@@ -10,7 +10,7 @@ reviews each line against its English and the scene, and returns corrected ortho
 Usage: python3 scripts/content/proof.py [--workers 6]
 """
 import argparse, concurrent.futures as cf, json, os, time, urllib.error
-from explain import stream, MODEL, CONTENT  # same gateway client + model
+from explain import stream, MODEL, CONTENT, load_clips  # same gateway client + model
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, "proof")
@@ -71,7 +71,7 @@ def main():
     ap.add_argument("--workers", type=int, default=6)
     a = ap.parse_args()
     os.makedirs(OUT, exist_ok=True)
-    clips = json.load(open(CONTENT, encoding="utf-8"))["clips"]
+    clips = load_clips()
     with cf.ThreadPoolExecutor(a.workers) as ex:
         for cid, status in ex.map(work, clips):
             print(cid, status, flush=True)

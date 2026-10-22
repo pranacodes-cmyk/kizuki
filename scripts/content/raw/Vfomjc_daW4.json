@@ -1,0 +1,131 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 29.2,
+   "end": 47.0,
+   "title": "Enjoying Pasta on the Terrace",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ています — state of being",
+    "〜たい — expressing desire"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 29.5,
+     "end": 34.0,
+     "ja": "パスタの上ににんじんラペがのっています。",
+     "en": "Carrot râpées are placed on top of the pasta.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 35.0,
+     "end": 38.5,
+     "ja": "色がカラフルで見ためがきれいです。",
+     "en": "It's colorful and looks beautiful.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 39.0,
+     "end": 42.0,
+     "ja": "すごくおいしかったです！",
+     "en": "It was so delicious!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 43.5,
+     "end": 46.5,
+     "ja": "このお店、よかったのでまた行きたいです。",
+     "en": "This restaurant was great, so I want to go again.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 56.2,
+   "end": 117.5,
+   "title": "Visiting The National Art Center",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜だけど — but / although",
+    "〜くて — connecting i-adjectives"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 56.8,
+     "end": 61.2,
+     "ja": "ここは国立新美術館です。",
+     "en": "This is The National Art Center, Tokyo.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 65.5,
+     "end": 71.0,
+     "ja": "平日だけど、人がたくさんいました。",
+     "en": "Even though it was a weekday, there were a lot of people.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 71.7,
+     "end": 77.2,
+     "ja": "この建物はおもしろくて大好きです。",
+     "en": "This building is interesting and I love it.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 117.5,
+   "end": 136.0,
+   "title": "Hanae Mori Exhibition",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜に来る — come to do something",
+    "〜て — connecting verbs with te-form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 118.0,
+     "end": 121.2,
+     "ja": "今日はこの展覧会を見に来ました。",
+     "en": "Today, I came to see this exhibition.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 121.8,
+     "end": 125.8,
+     "ja": "森英恵さんは日本のファッションデザイナーです。",
+     "en": "Hanae Mori is a Japanese fashion designer.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 126.8,
+     "end": 135.5,
+     "ja": "きれいなドレスや服をデザインして世界中の人に日本のファッションのすばらしさを伝えました。",
+     "en": "She designed beautiful dresses and clothes, conveying the wonderfulness of Japanese fashion to people all over the world.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "Vfomjc_daW4",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,142 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.4,
+   "end": 18.2,
+   "title": "Rice Ball for the Baby",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜だよ — explanation/assertion",
+    "〜ちょうだい — give me please",
+    "〜てね — gentle request"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.7,
+     "end": 4.5,
+     "ja": "あ！おにぎりだよ。",
+     "en": "Ah! It's a rice ball.",
+     "speaker": "Baby"
+    },
+    {
+     "start": 4.7,
+     "end": 6.8,
+     "ja": "おにぎりだよ。",
+     "en": "It is a rice ball.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 11.8,
+     "end": 13.0,
+     "ja": "ちょうだい！",
+     "en": "Give it to me!",
+     "speaker": "Baby"
+    },
+    {
+     "start": 15.6,
+     "end": 17.5,
+     "ja": "ちょっと待ってね。",
+     "en": "Wait a moment.",
+     "speaker": "Mother"
+    }
+   ]
+  },
+  {
+   "start": 41.8,
+   "end": 54.8,
+   "title": "Searching Together",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜どこ — asking where",
+    "〜そう (意向形) — let's do",
+    "〜にはない — not in/at"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 42.1,
+     "end": 44.5,
+     "ja": "おにぎり、どこだ？",
+     "en": "Where is the rice ball?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 45.7,
+     "end": 47.9,
+     "ja": "いっしょに探そう！",
+     "en": "Let's search together!",
+     "speaker": "Boy"
+    },
+    {
+     "start": 51.6,
+     "end": 54.3,
+     "ja": "ここにはないな。",
+     "en": "It's not here.",
+     "speaker": "Boy"
+    }
+   ]
+  },
+  {
+   "start": 100.8,
+   "end": 118.0,
+   "title": "Is Breakfast Ready?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food",
+    "family"
+   ],
+   "grammar": [
+    "〜できた — completed/ready",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 101.4,
+     "end": 103.5,
+     "ja": "準備できたの？",
+     "en": "Is it all ready?",
+     "speaker": "Grandmother"
+    },
+    {
+     "start": 105.4,
+     "end": 107.5,
+     "ja": "うん、できたよ。",
+     "en": "Yes, it is ready.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 111.4,
+     "end": 113.8,
+     "ja": "見てください！",
+     "en": "Look!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 114.6,
+     "end": 116.5,
+     "ja": "ワンワン！",
+     "en": "Woof woof!",
+     "speaker": "Baby"
+    }
+   ]
+  }
+ ],
+ "videoId": "jTzIwucqHnQ",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,166 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 40.0,
+   "end": 63.7,
+   "title": "What Are Seasonal Traditions?",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜という — called / known as",
+    "〜たいと思う — to want / intend to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 40.3,
+     "end": 48.3,
+     "ja": "こんな感じで、ある季節を表すものやことを、「風物詩」といいます。",
+     "en": "Like this, things or events that represent a season are called \"fūbutsushi.\"",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 48.5,
+     "end": 50.5,
+     "ja": "そう、風物詩。",
+     "en": "Yes, fūbutsushi.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 51.2,
+     "end": 57.6,
+     "ja": "今日は、みなさんに、日本の夏の風物詩を紹介したいと思います。",
+     "en": "Today, I'd like to introduce Japan's summer traditions to you all.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 57.9,
+     "end": 60.6,
+     "ja": "７つ！７つ紹介します。",
+     "en": "Seven! I will introduce seven of them.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 61.0,
+     "end": 63.2,
+     "ja": "じゃあ、さっそくひとつめ。",
+     "en": "So, right away to the first one.",
+     "speaker": "Naoko"
+    }
+   ]
+  },
+  {
+   "start": 402.0,
+   "end": 431.2,
+   "title": "Japanese Handheld Fireworks",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜以外に — besides / other than",
+    "〜とか〜とか — listing examples (like A or B)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 402.2,
+     "end": 409.6,
+     "ja": "あっ、後、この打ち上げ花火以外にも、「手」で楽しむ花火があります。",
+     "en": "Oh, and besides skyrocket fireworks, there are fireworks you enjoy in your hand.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 409.9,
+     "end": 413.4,
+     "ja": "それを、「手持ち花火」といいます。",
+     "en": "We call those \"temochi hanabi\" [handheld fireworks].",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 413.9,
+     "end": 419.0,
+     "ja": "「手」で「持つ」から、「手持ち」花火です。手持ち花火。",
+     "en": "Because you \"hold\" them in your \"hand,\" they are \"handheld\" fireworks. Handheld fireworks.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 419.4,
+     "end": 426.0,
+     "ja": "これは、友達とか家族とか、あとカップルとかと一緒に、",
+     "en": "These are enjoyed together with friends, family, or couples...",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 426.1,
+     "end": 430.5,
+     "ja": "ビーチ、あとは大きな公園で楽しみます。",
+     "en": "...at the beach or in large parks.",
+     "speaker": "Naoko"
+    }
+   ]
+  },
+  {
+   "start": 715.5,
+   "end": 738.2,
+   "title": "Summer Treat Kakigori",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜というのは — the meaning of ~ is",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 715.8,
+     "end": 718.8,
+     "ja": "まず、ひとつめは、「かき氷」です。",
+     "en": "First, the first one is \"kakigōri\" [shaved ice].",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 719.3,
+     "end": 722.9,
+     "ja": "かき氷というのは、氷を削ります。",
+     "en": "Kakigōri means shaving ice.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 723.3,
+     "end": 727.7,
+     "ja": "そして、その上に、甘いシロップをかけます。",
+     "en": "And then you pour sweet syrup on top of it.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 728.1,
+     "end": 731.5,
+     "ja": "そう、これをかき氷といいます。",
+     "en": "Right, this is called kakigōri.",
+     "speaker": "Naoko"
+    },
+    {
+     "start": 732.0,
+     "end": 737.6,
+     "ja": "かき氷はとても冷たいので、暑い夏にぴったりです。",
+     "en": "Kakigōri is very cold, so it's perfect for a hot summer.",
+     "speaker": "Naoko"
+    }
+   ]
+  }
+ ],
+ "videoId": "P9VQ-Jl1Jno",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

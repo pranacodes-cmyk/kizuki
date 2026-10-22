@@ -1,0 +1,166 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 7.5,
+   "end": 22.0,
+   "title": "Introduction to Yuki and Her Pets",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "animals"
+   ],
+   "grammar": [
+    "〜ています — ongoing state",
+    "〜ていく — to continue doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 7.8,
+     "end": 9.5,
+     "ja": "こんにちは！YUKIです。",
+     "en": "Hello! I'm Yuki.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 9.6,
+     "end": 14.7,
+     "ja": "私は6匹のハムスターと6匹の猫と暮らしています。",
+     "en": "I live with six hamsters and six cats.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 15.0,
+     "end": 17.5,
+     "ja": "これから日本語で、",
+     "en": "From now on, in Japanese,",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 17.6,
+     "end": 21.8,
+     "ja": "私たちの幸せな日々をお話ししていきます。",
+     "en": "I will share stories of our happy days.",
+     "speaker": "Yuki"
+    }
+   ]
+  },
+  {
+   "start": 48.5,
+   "end": 118.8,
+   "title": "Caring for Mia the Cat",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "animals"
+   ],
+   "grammar": [
+    "〜たほうが — had better / advisable to",
+    "〜と言われている — it is said that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 48.8,
+     "end": 52.5,
+     "ja": "ミアのお世話も、えのきとほとんど変わらない。",
+     "en": "Taking care of Mia isn't that different from taking care of Enoki.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 52.8,
+     "end": 58.5,
+     "ja": "朝と夜えさをあげて、水を用意して、トイレを掃除する。",
+     "en": "I feed her morning and night, prepare her water, and clean her litter box.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 59.2,
+     "end": 104.2,
+     "ja": "ミアはとても綺麗好きで、自分でこまめに毛繕いをしてるから、",
+     "en": "Mia is very tidy and grooms herself often, so...",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 104.3,
+     "end": 106.8,
+     "ja": "毛がサラサラなの！",
+     "en": "...her fur is always smooth and silky!",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 107.6,
+     "end": 113.6,
+     "ja": "換毛期にはシャンプーをした方が抜け毛対策にはなるけど、",
+     "en": "During shedding season shampooing helps reduce hair loss, but...",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 114.5,
+     "end": 118.5,
+     "ja": "基本的に猫はシャンプー不要って言われてる。",
+     "en": "...cats generally don't need baths.",
+     "speaker": "Yuki"
+    }
+   ]
+  },
+  {
+   "start": 125.5,
+   "end": 150.2,
+   "title": "Nighttime Routine with the Hamster",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "animals"
+   ],
+   "grammar": [
+    "〜てあげる — doing something for someone/a pet",
+    "〜とその間に — while / during that time"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 125.8,
+     "end": 130.5,
+     "ja": "夜はパパとご飯を食べて、ミアにも餌をあげて、",
+     "en": "At night, after having dinner with Papa and feeding Mia,",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 130.8,
+     "end": 134.0,
+     "ja": "寝る頃になると、えのきが起きてくるんだ。",
+     "en": "around bedtime, Enoki wakes up.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 134.8,
+     "end": 138.2,
+     "ja": "「出してー！」ってアピールしてくるから、",
+     "en": "She begs, saying, \"Let me out!\", so...",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 138.6,
+     "end": 144.4,
+     "ja": "ボールに入れてあげて、その間にトイレ掃除と餌の準備をするの。",
+     "en": "...I put her in her exercise ball, and meanwhile clean her toilet and prepare her food.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 145.5,
+     "end": 149.8,
+     "ja": "終わったら、えのきをケージに戻して、おしまい。",
+     "en": "When I finish, I put Enoki back in her cage, and that's it.",
+     "speaker": "Yuki"
+    }
+   ]
+  }
+ ],
+ "videoId": "XNUZH6S3boQ",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

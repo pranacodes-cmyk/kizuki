@@ -1,0 +1,196 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.8,
+   "end": 28.0,
+   "title": "Self-Introductions in the Locker Room",
+   "level": "N5",
+   "topics": [
+    "sports",
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜です — to be (polite copula)",
+    "〜て — request / encouragement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.0,
+     "end": 14.5,
+     "ja": "こんにちは。",
+     "en": "Hello.",
+     "speaker": "Espinoza"
+    },
+    {
+     "start": 15.3,
+     "end": 17.8,
+     "ja": "日本語ちょっと分かります。",
+     "en": "I understand a little Japanese.",
+     "speaker": "Espinoza"
+    },
+    {
+     "start": 18.0,
+     "end": 19.8,
+     "ja": "エスピノーザです。",
+     "en": "I'm Espinoza.",
+     "speaker": "Espinoza"
+    },
+    {
+     "start": 21.4,
+     "end": 23.0,
+     "ja": "エスピノーザです。",
+     "en": "I'm Espinoza.",
+     "speaker": "Machado"
+    },
+    {
+     "start": 23.1,
+     "end": 24.7,
+     "ja": "得意日本語。",
+     "en": "His best Japanese.",
+     "speaker": "Machado"
+    },
+    {
+     "start": 24.9,
+     "end": 25.8,
+     "ja": "がんばって！",
+     "en": "Good luck!",
+     "speaker": "Staff"
+    },
+    {
+     "start": 25.9,
+     "end": 27.5,
+     "ja": "がんばります！",
+     "en": "I'll do my best!",
+     "speaker": "Espinoza"
+    }
+   ]
+  },
+  {
+   "start": 150.2,
+   "end": 210.5,
+   "title": "Espinoza's Message to the Fans",
+   "level": "N4",
+   "topics": [
+    "sports",
+    "fun"
+   ],
+   "grammar": [
+    "〜から — from",
+    "〜てます — currently doing (contraction)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 151.0,
+     "end": 154.0,
+     "ja": "日本語ちょっと分かります。",
+     "en": "I understand a little Japanese.",
+     "speaker": "Espinoza"
+    },
+    {
+     "start": 154.8,
+     "end": 156.4,
+     "ja": "日本人です。",
+     "en": "I'm Japanese.",
+     "speaker": "Espinoza"
+    },
+    {
+     "start": 158.5,
+     "end": 159.9,
+     "ja": "かわいいね。",
+     "en": "You're cute.",
+     "speaker": "Espinoza"
+    },
+    {
+     "start": 160.6,
+     "end": 164.5,
+     "ja": "ファンの皆様、心から愛してます。",
+     "en": "To all the fans, I love you from the bottom of my heart.",
+     "speaker": "Espinoza"
+    },
+    {
+     "start": 165.1,
+     "end": 169.1,
+     "ja": "いつも温かいサポートありがとうございます。",
+     "en": "Thank you very much for always giving your warm support.",
+     "speaker": "Espinoza"
+    },
+    {
+     "start": 169.2,
+     "end": 170.4,
+     "ja": "すごい！",
+     "en": "Amazing!",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 313.0,
+   "end": 327.5,
+   "title": "Mercedes and Polanco Greet in Japanese",
+   "level": "N5",
+   "topics": [
+    "sports",
+    "friends",
+    "food"
+   ],
+   "grammar": [
+    "〜たい — want to do",
+    "〜は〜です — A is B (copula)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 313.3,
+     "end": 314.6,
+     "ja": "こんにちは。",
+     "en": "Hello.",
+     "speaker": "Mercedes"
+    },
+    {
+     "start": 314.8,
+     "end": 316.8,
+     "ja": "私はメルセデスです。",
+     "en": "I am Mercedes.",
+     "speaker": "Mercedes"
+    },
+    {
+     "start": 316.9,
+     "end": 319.0,
+     "ja": "よろしくお願いします。",
+     "en": "Pleased to meet you.",
+     "speaker": "Mercedes"
+    },
+    {
+     "start": 321.0,
+     "end": 322.6,
+     "ja": "あー、すいません！",
+     "en": "Ah, excuse me!",
+     "speaker": "Polanco"
+    },
+    {
+     "start": 322.8,
+     "end": 325.2,
+     "ja": "明日どこご飯食べたい？",
+     "en": "Where do you want to eat tomorrow?",
+     "speaker": "Polanco"
+    },
+    {
+     "start": 325.3,
+     "end": 327.0,
+     "ja": "えーと…",
+     "en": "Well...",
+     "speaker": "Players"
+    }
+   ]
+  }
+ ],
+ "videoId": "5yjuDzMivSo",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

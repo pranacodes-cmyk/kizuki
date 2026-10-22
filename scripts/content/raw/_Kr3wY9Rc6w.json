@@ -1,0 +1,272 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 14.5,
+   "end": 33.7,
+   "title": "Explaining the Cucumber Challenge",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜とか — things like",
+    "〜やつ — thing / one"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 14.5,
+     "end": 16.0,
+     "ja": "よく皆さん、",
+     "en": "You know how everyone,",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 16.0,
+     "end": 18.0,
+     "ja": "海外の人とかがよくやってる、",
+     "en": "foreigners and people often do,",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 18.0,
+     "end": 21.8,
+     "ja": "なんか耐久系の動画があるの知りません？",
+     "en": "don't you know those endurance challenge videos?",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 23.0,
+     "end": 26.0,
+     "ja": "例えばピンポン玉を鍋にポンポンポンって入れるやつとか。",
+     "en": "Like bouncing ping-pong balls into a pot.",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 26.0,
+     "end": 27.5,
+     "ja": "あ〜、かっこいい動画みたいなやつね。",
+     "en": "Ah, like those cool trick shot videos, right?",
+     "speaker": "Shunta"
+    },
+    {
+     "start": 27.5,
+     "end": 30.8,
+     "ja": "そうそう。きゅうりをトランプで一刀両断！",
+     "en": "Exactly. Like slicing a cucumber clean through with a playing card!",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 30.8,
+     "end": 33.5,
+     "ja": "みたいなやつって結構あったんですよ。",
+     "en": "There were quite a few videos like that.",
+     "speaker": "Jinto"
+    }
+   ]
+  },
+  {
+   "start": 236.8,
+   "end": 256.2,
+   "title": "Accidental Success Derails the Plan",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜まで — until",
+    "〜たらいい — it would be fine if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 236.8,
+     "end": 239.0,
+     "ja": "成功〜！",
+     "en": "Success!",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 239.0,
+     "end": 240.2,
+     "ja": "よっしゃあ！",
+     "en": "All right!",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 240.2,
+     "end": 241.8,
+     "ja": "もう四人刺さるまでやろう。",
+     "en": "Let's keep going until all four of us stick one.",
+     "speaker": "Shunta"
+    },
+    {
+     "start": 241.8,
+     "end": 243.9,
+     "ja": "全員できるまでやろう、それは。",
+     "en": "Yeah, let's keep going until everyone does it.",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 243.9,
+     "end": 245.9,
+     "ja": "そ、そうしよう、本当に。",
+     "en": "L-let's do that, seriously.",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 245.9,
+     "end": 246.6,
+     "ja": "そうだよ。",
+     "en": "Exactly.",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 246.6,
+     "end": 248.3,
+     "ja": "いや、すごない？もう俺いいや。",
+     "en": "Wait, isn't that amazing? I'm good now.",
+     "speaker": "Shunta"
+    },
+    {
+     "start": 248.3,
+     "end": 249.8,
+     "ja": "やだよ、なんでだよ！",
+     "en": "No way, why not?!",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 249.8,
+     "end": 251.2,
+     "ja": "全員できたらいいじゃん、それは。",
+     "en": "Wouldn't it be better if everyone succeeded?",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 251.2,
+     "end": 253.4,
+     "ja": "なんで？今休憩しようよ、お腹もあれだし。",
+     "en": "Why? Let's take a break now, our stomachs are full anyway.",
+     "speaker": "Shunta"
+    },
+    {
+     "start": 253.4,
+     "end": 255.3,
+     "ja": "いやいや、やろうよ！",
+     "en": "No, no, let's do it!",
+     "speaker": "Jyutaro"
+    },
+    {
+     "start": 255.3,
+     "end": 256.1,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Shunta"
+    }
+   ]
+  },
+  {
+   "start": 445.0,
+   "end": 471.5,
+   "title": "Why Didn't You Say Anything?",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "friends",
+    "comedy"
+   ],
+   "grammar": [
+    "〜のかな — I wonder if",
+    "〜と思う — to think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 445.0,
+     "end": 448.0,
+     "ja": "舜太はまぁ、気遣って言ってなかったよね、最初ね。",
+     "en": "Shunta was being polite and didn't say anything at first, right?",
+     "speaker": "Jyutaro"
+    },
+    {
+     "start": 448.0,
+     "end": 453.4,
+     "ja": "最初なんか、ちょっと何？何で？って思ったけど、そういう日なのかなって。",
+     "en": "At first I wondered what was going on, but then I thought, maybe he's just having that kind of day.",
+     "speaker": "Shunta"
+    },
+    {
+     "start": 454.5,
+     "end": 456.0,
+     "ja": "どういう日だよ、それ！",
+     "en": "What kind of day is that?!",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 456.0,
+     "end": 457.3,
+     "ja": "ねえだろ、俺そんな日！",
+     "en": "I'd never have a day like that!",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 457.3,
+     "end": 459.1,
+     "ja": "で、どこで気付いたの？段階的には。",
+     "en": "So at which stage did you realize?",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 459.1,
+     "end": 460.0,
+     "ja": "最後でしょ？",
+     "en": "The end, right?",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 460.0,
+     "end": 461.2,
+     "ja": "ちょんまげでしょ？",
+     "en": "With the topknot, right?",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 461.2,
+     "end": 463.7,
+     "ja": "ちょんまげして、でも別にそれドッキリだとは思わなくて。",
+     "en": "He did the topknot, but even then I didn't think it was a prank.",
+     "speaker": "Shunta"
+    },
+    {
+     "start": 463.7,
+     "end": 468.0,
+     "ja": "なんか、よくあるやん、１回出て行って被って出てくるイェーイ！みたいな。",
+     "en": "Like, you know how people step out and come back wearing something goofy like, 'Yeah!'?",
+     "speaker": "Shunta"
+    },
+    {
+     "start": 468.0,
+     "end": 469.3,
+     "ja": "あ、ちょっとふざけみたいなね。",
+     "en": "Ah, just clowning around a bit.",
+     "speaker": "Jinto"
+    },
+    {
+     "start": 469.3,
+     "end": 471.1,
+     "ja": "モノボケしてんだ！って思ってた。",
+     "en": "I just thought, 'Oh, he's doing a prop gag!'",
+     "speaker": "Shunta"
+    }
+   ]
+  }
+ ],
+ "videoId": "_Kr3wY9Rc6w",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

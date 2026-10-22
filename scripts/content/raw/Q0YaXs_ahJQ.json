@@ -1,0 +1,173 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.8,
+   "end": 23.8,
+   "title": "Why Are You Late to Work?",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ちゃう — do completely / unfortunately",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 12.0,
+     "end": 14.2,
+     "ja": "チョウさん、もう10時ですよ。",
+     "en": "Cho-san, it's already 10 o'clock.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 14.3,
+     "end": 17.0,
+     "ja": "出社時間を1時間も過ぎてます。",
+     "en": "You're over an hour past clock-in time.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 17.0,
+     "end": 18.9,
+     "ja": "どうして遅れたんですか？",
+     "en": "Why are you late?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 19.0,
+     "end": 21.6,
+     "ja": "いやあ、電車が止まっちゃったので、",
+     "en": "Well, the train stopped, so...",
+     "speaker": "Man"
+    },
+    {
+     "start": 21.6,
+     "end": 23.4,
+     "ja": "しょうがなかったんですよ。",
+     "en": "it couldn't be helped.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 60.0,
+   "end": 90.0,
+   "title": "The Meaning of Yamuoenai",
+   "level": "N2",
+   "topics": [
+    "work",
+    "school"
+   ],
+   "grammar": [
+    "〜を得ない — cannot do / cannot help but",
+    "〜しかない — have no choice but to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 60.0,
+     "end": 65.8,
+     "ja": "「やむを得ない」の「やむ」は漢字で書くと「止む」で、",
+     "en": "The 'yamu' in 'yamu o enai' is written as 'stop' in kanji,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 65.9,
+     "end": 71.4,
+     "ja": "今まで続いてきたことがそこで終わりになるという意味です。",
+     "en": "and it means that what was ongoing comes to an end there.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 71.8,
+     "end": 75.8,
+     "ja": "「得ない」は「できない」という意味ですから、",
+     "en": "Since 'enai' means 'cannot do',",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 75.9,
+     "end": 80.9,
+     "ja": "元々続いていることを終わりにできないという意味でした。",
+     "en": "it originally meant that you cannot bring an ongoing thing to an end.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 81.2,
+     "end": 85.0,
+     "ja": "つまり、他にどうすることもできず、仕方がない。",
+     "en": "In other words, you have no other choice and it can't be helped.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 85.2,
+     "end": 89.8,
+     "ja": "残念だけど、あきらめるしかないというニュアンスになります。",
+     "en": "It carries the nuance that it's unfortunate, but you just have to give up.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 161.0,
+   "end": 187.5,
+   "title": "Polite Form: Yamu o Emasen",
+   "level": "N2",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜なければならない — must do",
+    "〜のも — even / that fact"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 161.2,
+     "end": 164.7,
+     "ja": "2つ目は「やむを得ません」です。",
+     "en": "The second one is 'yamu o emasen'.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 165.0,
+     "end": 170.5,
+     "ja": "「やむを得ない」の丁寧形なので、上司と話すときに使えます。",
+     "en": "It's the polite form of 'yamu o enai', so you can use it when speaking to your boss.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 171.0,
+     "end": 175.7,
+     "ja": "この用法は特に、あきらめなければならないときにも使えます。",
+     "en": "This expression is especially useful when you have no choice but to give up.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 176.0,
+     "end": 181.8,
+     "ja": "例えば、飛行機が飛べなくてあきらめなければならないとき、",
+     "en": "For example, when a flight can't take off and you just have to accept it,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 181.9,
+     "end": 187.2,
+     "ja": "「こんなに荒れた天気では飛行機が飛べないのもやむを得ません。」",
+     "en": "'In such stormy weather, it's unavoidable that the plane cannot fly.'",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "Q0YaXs_ahJQ",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

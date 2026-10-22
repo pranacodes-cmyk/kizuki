@@ -1,0 +1,189 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.0,
+   "end": 20.3,
+   "title": "Master Has Collapsed",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜しろ — imperative form",
+    "〜ています — ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.0,
+     "end": 7.1,
+     "ja": "ま、マスター！",
+     "en": "M-Master!",
+     "speaker": "Cu Chulainn"
+    },
+    {
+     "start": 7.1,
+     "end": 8.8,
+     "ja": "どうした、しっかりしろ！",
+     "en": "What happened? Pull yourself together!",
+     "speaker": "Cu Chulainn"
+    },
+    {
+     "start": 8.9,
+     "end": 11.0,
+     "ja": "何事ですか、クーフーリンさん？",
+     "en": "What's going on, Mr. Cu Chulainn?",
+     "speaker": "Mash"
+    },
+    {
+     "start": 11.1,
+     "end": 13.2,
+     "ja": "おう、マシュ。マスターが倒れてて…",
+     "en": "Oh, Mash. Master collapsed, and...",
+     "speaker": "Cu Chulainn"
+    },
+    {
+     "start": 13.3,
+     "end": 15.6,
+     "ja": "せ、先輩！先輩！",
+     "en": "S-Senpai! Senpai!",
+     "speaker": "Mash"
+    },
+    {
+     "start": 16.8,
+     "end": 19.5,
+     "ja": "これは…眠っていますね。",
+     "en": "He's... just asleep, isn't he?",
+     "speaker": "Mash"
+    },
+    {
+     "start": 19.6,
+     "end": 20.3,
+     "ja": "あ？",
+     "en": "Huh?",
+     "speaker": "Cu Chulainn"
+    }
+   ]
+  },
+  {
+   "start": 51.5,
+   "end": 62.5,
+   "title": "Command Order Battle System",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "〜しかない — have no choice but to",
+    "〜なので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 51.8,
+     "end": 53.6,
+     "ja": "ああ、また眠ってる！",
+     "en": "Ah, he fell asleep again!",
+     "speaker": "Mash"
+    },
+    {
+     "start": 53.8,
+     "end": 55.2,
+     "ja": "嘘だろ！？",
+     "en": "You've got to be kidding me!",
+     "speaker": "Cu Chulainn"
+    },
+    {
+     "start": 55.3,
+     "end": 57.2,
+     "ja": "しょうがねえ、勝手にやらせてもらうしか…",
+     "en": "No choice then, guess we'll just have to fight on our own—",
+     "speaker": "Cu Chulainn"
+    },
+    {
+     "start": 57.3,
+     "end": 60.0,
+     "ja": "ダメです！コマンドオーダーバトルシステムなので！",
+     "en": "You can't! It's a Command Order Battle System!",
+     "speaker": "Mash"
+    },
+    {
+     "start": 60.1,
+     "end": 62.2,
+     "ja": "なんでそこはメタなんだよ！",
+     "en": "Why are you getting meta about that?!",
+     "speaker": "Cu Chulainn"
+    }
+   ]
+  },
+  {
+   "start": 202.8,
+   "end": 217.0,
+   "title": "Silhouette Quiz",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "fun",
+    "food"
+   ],
+   "grammar": [
+    "〜かな — wondering / questioning",
+    "〜まで — until"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 202.8,
+     "end": 204.4,
+     "ja": "シルエットクイズ！",
+     "en": "Silhouette quiz!",
+     "speaker": "Da Vinci"
+    },
+    {
+     "start": 204.7,
+     "end": 206.9,
+     "ja": "このシルエットは何でしょう？",
+     "en": "What do you think this silhouette is?",
+     "speaker": "Da Vinci"
+    },
+    {
+     "start": 207.4,
+     "end": 210.5,
+     "ja": "うーん、あれかな？それともこれかな？",
+     "en": "Hmm, could it be that? Or maybe this?",
+     "speaker": "Da Vinci"
+    },
+    {
+     "start": 210.8,
+     "end": 213.0,
+     "ja": "正解発表まで、３、２、１。正解はこちら！",
+     "en": "Answer in 3, 2, 1... Here's the answer!",
+     "speaker": "Da Vinci"
+    },
+    {
+     "start": 213.3,
+     "end": 215.3,
+     "ja": "分かったかな？次回もお楽しみに！",
+     "en": "Did you get it? See you next time!",
+     "speaker": "Da Vinci"
+    },
+    {
+     "start": 215.4,
+     "end": 216.8,
+     "ja": "いや、そっちなの！？",
+     "en": "Wait, that's what it was?!",
+     "speaker": "Fujimaru"
+    }
+   ]
+  }
+ ],
+ "videoId": "TgbLfyK0vlY",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

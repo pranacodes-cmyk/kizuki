@@ -1,0 +1,70 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.8,
+   "end": 20.8,
+   "title": "Ordering at Restaurants Abroad",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜際（に） — when / on the occasion of",
+    "〜なければならない — must / have to",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.8,
+     "end": 8.3,
+     "ja": "皆さん、こんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 8.3,
+     "end": 11.5,
+     "ja": "今回はインドネシア語で注文、お会計をしようです。",
+     "en": "This time, let's learn how to order and pay in Indonesian.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 11.8,
+     "end": 14.2,
+     "ja": "現地のレストランで食事をする際には、",
+     "en": "When you dine at a local restaurant,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 14.2,
+     "end": 17.5,
+     "ja": "必ずしも注文、お会計をしなければなりませんので、",
+     "en": "you inevitably have to order and pay the bill, so",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 17.5,
+     "end": 19.0,
+     "ja": "この表現をよく使います。",
+     "en": "you will use these expressions very often.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 19.0,
+     "end": 20.8,
+     "ja": "よく覚えてみてください。",
+     "en": "Please try to remember them well.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "NeqfJ-gtDc0",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

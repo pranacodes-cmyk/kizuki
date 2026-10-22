@@ -1,0 +1,215 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 413.0,
+   "end": 442.8,
+   "title": "Self-Introduction at a Job Interview",
+   "level": "N4",
+   "topics": [
+    "work",
+    "school"
+   ],
+   "grammar": [
+    "〜と申します — humble expression for saying one's name",
+    "〜てもらえますか — could you please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 413.5,
+     "end": 418.0,
+     "ja": "初めまして。私はABCカフェの店長の鈴木と申します。よろしくお願いします。",
+     "en": "Nice to meet you. I am Suzuki, manager of ABC Cafe. Pleased to meet you.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 418.5,
+     "end": 420.5,
+     "ja": "よろしくお願いいたします。",
+     "en": "Pleased to meet you as well.",
+     "speaker": "Applicant"
+    },
+    {
+     "start": 420.8,
+     "end": 423.7,
+     "ja": "まず最初に簡単に自己紹介してもらえますか？",
+     "en": "First of all, could you briefly introduce yourself?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 424.0,
+     "end": 428.0,
+     "ja": "はい。インドネシアから参りましたバンバンと申します。",
+     "en": "Yes. My name is Bambang, and I came from Indonesia.",
+     "speaker": "Applicant"
+    },
+    {
+     "start": 428.3,
+     "end": 435.3,
+     "ja": "今は新宿大学経済学部経営学科の２年生です。",
+     "en": "I am currently a second-year student in the Department of Business Administration, Faculty of Economics at Shinjuku University.",
+     "speaker": "Applicant"
+    },
+    {
+     "start": 436.0,
+     "end": 439.0,
+     "ja": "今年、日本に来て３年目になります。",
+     "en": "This is my third year in Japan.",
+     "speaker": "Applicant"
+    },
+    {
+     "start": 439.3,
+     "end": 441.0,
+     "ja": "よろしくお願いいたします。",
+     "en": "Thank you for your time today.",
+     "speaker": "Applicant"
+    },
+    {
+     "start": 441.2,
+     "end": 442.5,
+     "ja": "よろしくお願いします。",
+     "en": "Thank you.",
+     "speaker": "Interviewer"
+    }
+   ]
+  },
+  {
+   "start": 443.0,
+   "end": 500.5,
+   "title": "Why Did You Come to Study in Japan?",
+   "level": "N3",
+   "topics": [
+    "school",
+    "work"
+   ],
+   "grammar": [
+    "〜に興味を持つ — to be interested in",
+    "〜たいと考えている — thinking of wanting to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 443.0,
+     "end": 444.5,
+     "ja": "じゃあ、いくつか質問しますね。",
+     "en": "Well then, I will ask you a few questions.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 444.8,
+     "end": 446.8,
+     "ja": "どうして日本で勉強していますか？",
+     "en": "Why are you studying in Japan?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 447.2,
+     "end": 452.5,
+     "ja": "はい。僕は高校から日本に興味を持ち、日本語の勉強を始めました。",
+     "en": "Yes. I became interested in Japan in high school and started studying Japanese.",
+     "speaker": "Applicant"
+    },
+    {
+     "start": 453.0,
+     "end": 458.2,
+     "ja": "そして将来は日本語を使った仕事をしたいと考えているからです。",
+     "en": "And that's because in the future, I would like to do a job using Japanese.",
+     "speaker": "Applicant"
+    },
+    {
+     "start": 458.7,
+     "end": 500.2,
+     "ja": "そうなんですね。",
+     "en": "I see.",
+     "speaker": "Interviewer"
+    }
+   ]
+  },
+  {
+   "start": 554.5,
+   "end": 629.8,
+   "title": "Discussing the Work Schedule and Shifts",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ことになる — to be decided / to turn out that",
+    "〜なら — if (as for)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 554.8,
+     "end": 556.8,
+     "ja": "じゃあ、シフトについてなんですけど、",
+     "en": "Well, regarding your shifts,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 557.0,
+     "end": 601.8,
+     "ja": "もしうちの店で働くことになったら、週に何回ぐらい来られますか？",
+     "en": "if you were to work at our cafe, about how many times a week could you come in?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 602.0,
+     "end": 604.5,
+     "ja": "はい。週３回入れます。",
+     "en": "Yes. I can take three shifts a week.",
+     "speaker": "Applicant"
+    },
+    {
+     "start": 604.8,
+     "end": 607.7,
+     "ja": "わかりました。土日はどうですか？忙しいですか？",
+     "en": "I see. How about weekends? Are you busy?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 608.0,
+     "end": 610.5,
+     "ja": "日曜日なら大丈夫です。",
+     "en": "Sundays would be fine.",
+     "speaker": "Applicant"
+    },
+    {
+     "start": 610.8,
+     "end": 615.8,
+     "ja": "わかりました。時間なんですけど、週３回で１日何時間ぐらい働けますか？",
+     "en": "Understood. Regarding hours, doing three days a week, about how many hours a day can you work?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 616.2,
+     "end": 621.0,
+     "ja": "はい。大学の授業が17時まであるので、",
+     "en": "Yes. My university classes run until 5:00 PM,",
+     "speaker": "Applicant"
+    },
+    {
+     "start": 621.3,
+     "end": 627.8,
+     "ja": "18時から21時までの３時間までなら入れます。",
+     "en": "so I could work up to three hours, from 6:00 PM to 9:00 PM.",
+     "speaker": "Applicant"
+    },
+    {
+     "start": 628.0,
+     "end": 629.5,
+     "ja": "わかりました。",
+     "en": "Understood.",
+     "speaker": "Interviewer"
+    }
+   ]
+  }
+ ],
+ "videoId": "VsxXDT0HFg4",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,266 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 27.0,
+   "end": 41.8,
+   "title": "Ordering a Kebab with All the Options",
+   "level": "N5",
+   "topics": [
+    "food",
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜てもいい / オッケー — permission",
+    "〜ちょうだい — please give me"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 27.0,
+     "end": 28.5,
+     "ja": "じゃあ1個ちょうだい、1個ちょうだい。",
+     "en": "Then give me one, give me one.",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 28.5,
+     "end": 30.0,
+     "ja": "はい、どっちがいいですか？",
+     "en": "Sure, which one would you like?",
+     "speaker": "Vendor"
+    },
+    {
+     "start": 30.0,
+     "end": 31.5,
+     "ja": "チキンか、ビーフか、合わせても同じ値段で。",
+     "en": "Chicken, beef, or both mixed for the same price.",
+     "speaker": "Vendor"
+    },
+    {
+     "start": 31.5,
+     "end": 32.8,
+     "ja": "合わせてもオッケー？",
+     "en": "Mixing them is okay too?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 32.8,
+     "end": 34.2,
+     "ja": "はい、オッケー！一番人気！",
+     "en": "Yes, totally fine! It's the most popular!",
+     "speaker": "Vendor"
+    },
+    {
+     "start": 34.2,
+     "end": 36.5,
+     "ja": "ええ！じゃあ合わせる、合わせる、合わせる。",
+     "en": "Oh! Then mix it, mix it, mix it.",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 36.5,
+     "end": 39.5,
+     "ja": "辛さは甘口、辛口、中辛、テリヤキとヨーグルトソース？",
+     "en": "For spiciness: mild, spicy, medium, teriyaki, or yogurt sauce?",
+     "speaker": "Vendor"
+    },
+    {
+     "start": 39.5,
+     "end": 40.8,
+     "ja": "甘口、甘口。",
+     "en": "Mild, mild.",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 40.8,
+     "end": 41.8,
+     "ja": "ア〜ザイマス！",
+     "en": "Thank you very much!",
+     "speaker": "Vendor"
+    }
+   ]
+  },
+  {
+   "start": 51.5,
+   "end": 106.0,
+   "title": "Five Million Yen for a Kebab",
+   "level": "N4",
+   "topics": [
+    "food",
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜でしょ — right? / isn't it?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 51.5,
+     "end": 53.0,
+     "ja": "大盛りで？",
+     "en": "Extra large?",
+     "speaker": "Vendor"
+    },
+    {
+     "start": 53.0,
+     "end": 54.4,
+     "ja": "これ、大盛り、大盛り、大盛り！",
+     "en": "Yeah, extra large, extra large, extra large!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 54.4,
+     "end": 55.3,
+     "ja": "サービス、玉ねぎ。",
+     "en": "Complimentary onions.",
+     "speaker": "Vendor"
+    },
+    {
+     "start": 55.3,
+     "end": 57.0,
+     "ja": "イエス、サンキュー、サンキュー！",
+     "en": "Yes, thank you, thank you!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 57.0,
+     "end": 58.7,
+     "ja": "日本語上手ね。",
+     "en": "Your Japanese is good.",
+     "speaker": "Vendor"
+    },
+    {
+     "start": 58.7,
+     "end": 60.6,
+     "ja": "これいくら？いくら？ハウマッチ？ハウマッチ？",
+     "en": "How much is this? How much? How much?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 60.6,
+     "end": 62.1,
+     "ja": "500万円です。",
+     "en": "It's five million yen.",
+     "speaker": "Vendor"
+    },
+    {
+     "start": 62.1,
+     "end": 64.5,
+     "ja": "500万！？古いんだよボケが！",
+     "en": "Five million?! That's an old joke, idiot!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 64.5,
+     "end": 65.8,
+     "ja": "安いでしょ？",
+     "en": "Cheap, right?",
+     "speaker": "Vendor"
+    }
+   ]
+  },
+  {
+   "start": 200.5,
+   "end": 217.5,
+   "title": "Did I Just Eat a Fake Kebab?",
+   "level": "N4",
+   "topics": [
+    "food",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜ちゃう — accidentally do",
+    "〜に違いない — must be / no doubt"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 200.5,
+     "end": 203.2,
+     "ja": "また？また食うの、俺？",
+     "en": "Again? I have to eat again?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 203.5,
+     "end": 207.2,
+     "ja": "本物のケバブ、本物の味。モーゼスさんのケバブよ。",
+     "en": "Authentic kebab, authentic flavor. Moses' kebab.",
+     "speaker": "Vendor"
+    },
+    {
+     "start": 207.2,
+     "end": 208.6,
+     "ja": "間違いないよ。",
+     "en": "No doubt about it.",
+     "speaker": "Vendor"
+    },
+    {
+     "start": 208.6,
+     "end": 210.0,
+     "ja": "間違いないの？",
+     "en": "No doubt?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 210.0,
+     "end": 211.2,
+     "ja": "間違いないよ。",
+     "en": "No doubt.",
+     "speaker": "Vendor"
+    },
+    {
+     "start": 211.2,
+     "end": 212.4,
+     "ja": "本当に？向こうニセモノ？",
+     "en": "Really? The other one is fake?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 212.4,
+     "end": 213.4,
+     "ja": "ニセモノ。",
+     "en": "Fake.",
+     "speaker": "Vendor"
+    },
+    {
+     "start": 213.4,
+     "end": 215.3,
+     "ja": "えー？俺ニセモノ食べちゃったの？",
+     "en": "What? Did I eat a fake one?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 215.3,
+     "end": 216.1,
+     "ja": "そう。",
+     "en": "Yeah.",
+     "speaker": "Vendor"
+    },
+    {
+     "start": 216.1,
+     "end": 217.0,
+     "ja": "ヤバい。",
+     "en": "Bad news.",
+     "speaker": "Vendor"
+    },
+    {
+     "start": 217.0,
+     "end": 217.5,
+     "ja": "ヤバい？",
+     "en": "Bad news?",
+     "speaker": "Nagai"
+    }
+   ]
+  }
+ ],
+ "videoId": "8RYvt5OcsVo",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

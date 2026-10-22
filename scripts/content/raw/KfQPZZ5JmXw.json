@@ -1,0 +1,190 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.0,
+   "end": 17.8,
+   "title": "What Is NHK Easy Japanese News?",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜ことができる — can do",
+    "〜ている — continuous state",
+    "〜のために — for the purpose of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.0,
+     "end": 2.8,
+     "ja": "NHKやさしいことばニュースとは、",
+     "en": "What is NHK Easy Japanese News?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 2.8,
+     "end": 5.1,
+     "ja": "NHKの「NEWS WEB EASY」、",
+     "en": "NHK's \"NEWS WEB EASY\".",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 5.1,
+     "end": 10.8,
+     "ja": "「NEWS WEB EASY」は、日本のニュースをやさしい日本語で読むことができるウェブサイトです。",
+     "en": "\"NEWS WEB EASY\" is a website where you can read Japanese news in simple Japanese.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 10.8,
+     "end": 14.1,
+     "ja": "このサイトは、日本に住んでいる外国人や、",
+     "en": "This website is for foreigners living in Japan,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 14.1,
+     "end": 15.6,
+     "ja": "日本語を勉強している人、",
+     "en": "people studying Japanese,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 15.6,
+     "end": 17.8,
+     "ja": "そして子どもたちのために作られています。",
+     "en": "and made for children.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 35.8,
+   "end": 55.6,
+   "title": "Features of Easy Japanese",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜できるだけ — as much as possible",
+    "〜やすい — easy to do",
+    "〜という — such as / named"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 35.8,
+     "end": 38.0,
+     "ja": "やさしい日本語の特徴。",
+     "en": "Features of easy Japanese.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 38.0,
+     "end": 42.0,
+     "ja": "「NEWS WEB EASY」では、難しい言葉をできるだけ使いません。",
+     "en": "On \"NEWS WEB EASY\", difficult words are avoided as much as possible.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 42.0,
+     "end": 44.8,
+     "ja": "例えば、長い文を短くする、",
+     "en": "For example, making long sentences shorter,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 44.8,
+     "end": 47.3,
+     "ja": "難しい漢字にふりがなをつける、",
+     "en": "adding furigana to difficult kanji,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 47.3,
+     "end": 50.8,
+     "ja": "難しい言葉を簡単な言葉に変える、という工夫をしています。",
+     "en": "and replacing difficult words with simpler ones.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 50.8,
+     "end": 55.6,
+     "ja": "そのため、日本語を勉強している人でもニュースを理解しやすいです。",
+     "en": "Therefore, even learners of Japanese can easily understand the news.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 56.0,
+   "end": 78.8,
+   "title": "Audio Features and Popularity",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜にとって — for / to",
+    "〜ことがある — sometimes happens"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 56.0,
+     "end": 58.6,
+     "ja": "音声も聞くことができます。",
+     "en": "You can also listen to audio.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 58.6,
+     "end": 61.9,
+     "ja": "ニュースには、音声がついているものもあります。",
+     "en": "Some news stories also include audio.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 61.9,
+     "end": 66.4,
+     "ja": "記事を読みながら、日本語の発音や話し方を勉強できます。",
+     "en": "While reading the articles, you can study Japanese pronunciation and ways of speaking.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 66.4,
+     "end": 68.7,
+     "ja": "外国人に人気があります。",
+     "en": "It is popular among foreigners.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 68.7,
+     "end": 73.5,
+     "ja": "日本で生活している外国人にとって、普通のニュースは難しいことがあります。",
+     "en": "For foreigners living in Japan, regular news can sometimes be difficult.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 73.5,
+     "end": 78.8,
+     "ja": "しかし、「NEWS WEB EASY」なら、生活に必要な情報を分かりやすく知ることができます。",
+     "en": "However, with \"NEWS WEB EASY\", you can easily get the information needed for daily life.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "KfQPZZ5JmXw",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

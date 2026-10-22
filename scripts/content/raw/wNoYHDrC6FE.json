@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 186.0,
+   "end": 214.0,
+   "title": "How Many Vegetables Should You Eat?",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜たほうがいい — should / had better",
+    "〜そうです — hearsay (I hear that...)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 186.0,
+     "end": 189.5,
+     "ja": "さて、ここでみなさんに質問です。",
+     "en": "Now, here's a question for everyone.",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 189.8,
+     "end": 194.5,
+     "ja": "大学の人は野菜は１日何グラム以上、",
+     "en": "How many grams of vegetables a day do the researchers say",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 195.0,
+     "end": 201.0,
+     "ja": "果物は１日何グラム以上食べたほうがいいと言っていますか。",
+     "en": "and how many grams of fruit should we eat?",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 203.5,
+     "end": 213.5,
+     "ja": "はい、野菜は３００グラム以上、果物は１４０グラム以上だそうです。",
+     "en": "Well, they say over 300 grams of vegetables and over 140 grams of fruit.",
+     "speaker": "News Dog"
+    }
+   ]
+  },
+  {
+   "start": 318.5,
+   "end": 346.0,
+   "title": "The Spoon That Makes Food Taste Salty",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜と — conditional when/whenever",
+    "〜んだって — hearsay (they say that...)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 319.0,
+     "end": 324.5,
+     "ja": "このスプーンで食べると、食べ物がしょっぱく感じるんですって。",
+     "en": "They say that when you eat with this spoon, food tastes salty.",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 325.0,
+     "end": 327.0,
+     "ja": "信じられますか？",
+     "en": "Can you believe it?",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 328.0,
+     "end": 333.5,
+     "ja": "では、どうしてこのスプーンで食べるとしょっぱく感じるんでしょう。",
+     "en": "So, why does food taste salty when you eat with this spoon?",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 334.0,
+     "end": 337.5,
+     "ja": "答えは電気の力だそうです。",
+     "en": "The answer is said to be the power of electricity.",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 339.0,
+     "end": 345.5,
+     "ja": "塩の中に入っている成分を電気でコントロールするんだって。",
+     "en": "Apparently, it uses electricity to control components in salt.",
+     "speaker": "News Dog"
+    }
+   ]
+  },
+  {
+   "start": 478.0,
+   "end": 502.0,
+   "title": "Do Dogs Cry When Reunited with Owners?",
+   "level": "N3",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜ようにする — to make an effort to / arrange to",
+    "〜と比べて — compared to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 478.5,
+     "end": 488.5,
+     "ja": "５時間以上犬と飼い主を会わないようにした後、犬と飼い主を合わせるという方法です。",
+     "en": "The method was to keep dogs and owners apart for over 5 hours, then reunite them.",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 489.5,
+     "end": 493.5,
+     "ja": "結果、いつも一緒にいる時と比べて、",
+     "en": "As a result, compared to when they are always together,",
+     "speaker": "News Dog"
+    },
+    {
+     "start": 494.0,
+     "end": 501.5,
+     "ja": "５時間以上犬と飼い主を会わないようにした後だと、涙が多くなったそうです。",
+     "en": "they found that tears increased after being separated for over 5 hours.",
+     "speaker": "News Dog"
+    }
+   ]
+  }
+ ],
+ "videoId": "wNoYHDrC6FE",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,179 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.5,
+   "end": 34.5,
+   "title": "Waking Up and Morning Sun",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜ても — even if / even though",
+    "〜てすぐに — immediately after doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.0,
+     "end": 16.7,
+     "ja": "私は毎朝7時頃に起きます。",
+     "en": "I wake up around 7:00 every morning.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 17.6,
+     "end": 21.0,
+     "ja": "私は朝があまり得意ではないので、",
+     "en": "I'm not really a morning person, so",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 21.0,
+     "end": 24.3,
+     "ja": "毎朝目覚まし時計の音で目を覚まします。",
+     "en": "I wake up every morning to the sound of an alarm clock.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 25.0,
+     "end": 28.5,
+     "ja": "目が覚めてもすぐには動き出せません。",
+     "en": "Even after waking up, I can't start moving right away.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 29.2,
+     "end": 34.2,
+     "ja": "起きてすぐにカーテンを開けて朝日を浴びます。",
+     "en": "Right after getting up, I open the curtains and soak in the morning sun.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 105.5,
+   "end": 134.8,
+   "title": "Breakfast Routine: Rice and Natto",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ておく — doing in advance",
+    "〜ように — so that / in order to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 106.0,
+     "end": 110.3,
+     "ja": "平日の朝ごはんはほとんどお米です。",
+     "en": "On weekday mornings, breakfast is almost always rice.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 111.0,
+     "end": 114.0,
+     "ja": "前日の夜にお米を研いで、",
+     "en": "I wash the rice the night before,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 114.0,
+     "end": 120.0,
+     "ja": "翌朝7時に炊き上がるように炊飯器を予約しておきます。",
+     "en": "and set the timer on the rice cooker so it finishes cooking at 7:00 the next morning.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 121.0,
+     "end": 125.8,
+     "ja": "朝はお米の上に納豆と生卵をかけて、",
+     "en": "In the morning, I put natto and a raw egg on the rice,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 126.0,
+     "end": 129.5,
+     "ja": "醤油を少したらして食べます。",
+     "en": "add a few drops of soy sauce, and eat it.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 130.0,
+     "end": 134.5,
+     "ja": "ほぼ毎朝食べていますが、全然飽きません。",
+     "en": "I eat it almost every morning, but I never get tired of it.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 159.2,
+   "end": 225.2,
+   "title": "Getting Ready and Choosing an Outfit",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ば — conditional (if)",
+    "〜に合わせて — to match / according to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 159.7,
+     "end": 163.5,
+     "ja": "そして、その後は化粧をして、",
+     "en": "And after that, I do my makeup,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 163.7,
+     "end": 166.8,
+     "ja": "時間があれば髪の毛もセットします。",
+     "en": "and if I have time, I do my hair as well.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 167.3,
+     "end": 171.0,
+     "ja": "服はその日の天気に合わせて決めます。",
+     "en": "I choose my clothes according to the weather that day.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 171.5,
+     "end": 175.2,
+     "ja": "私は服をコーディネートするのが好きなので、",
+     "en": "I like coordinating outfits, so",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 175.5,
+     "end": 178.5,
+     "ja": "この時間が楽しいです。",
+     "en": "I really enjoy this time.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 179.0,
+     "end": 184.8,
+     "ja": "服に合わせてピアスや時計、バッグも選びます。",
+     "en": "I also choose earrings, a watch, and a bag to match my outfit.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "t4Ta0I68Iok",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

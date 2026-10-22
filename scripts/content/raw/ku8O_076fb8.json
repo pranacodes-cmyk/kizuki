@@ -1,0 +1,203 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 98.7,
+   "end": 113.8,
+   "title": "Guessing the Price of the Sign",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜だけで — just with / only"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 98.9,
+     "end": 100.2,
+     "ja": "見てみ、これ看板。",
+     "en": "Take a look at this sign.",
+     "speaker": "Shimizu"
+    },
+    {
+     "start": 100.8,
+     "end": 102.0,
+     "ja": "考えてんだろ！？",
+     "en": "They put thought into it, right?!",
+     "speaker": "Shimizu"
+    },
+    {
+     "start": 102.4,
+     "end": 104.2,
+     "ja": "この看板いくらするか知ってる！？",
+     "en": "Do you know how much this sign costs!?",
+     "speaker": "Shimizu"
+    },
+    {
+     "start": 104.4,
+     "end": 105.4,
+     "ja": "この看板だけで。",
+     "en": "Just for the sign alone.",
+     "speaker": "Shimizu"
+    },
+    {
+     "start": 105.7,
+     "end": 106.3,
+     "ja": "えっ！？",
+     "en": "What!?",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 106.4,
+     "end": 108.0,
+     "ja": "看板だけで1000万ぐらいするぞ。",
+     "en": "Just the sign costs around 10 million yen.",
+     "speaker": "Shimizu"
+    },
+    {
+     "start": 108.1,
+     "end": 109.1,
+     "ja": "マジっすか！？",
+     "en": "Seriously!?",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 109.1,
+     "end": 110.2,
+     "ja": "嘘だよ。",
+     "en": "Just kidding.",
+     "speaker": "Shimizu"
+    },
+    {
+     "start": 111.4,
+     "end": 113.7,
+     "ja": "いや、でもかなり高い。",
+     "en": "No, but it's still pretty expensive.",
+     "speaker": "Shimizu"
+    }
+   ]
+  },
+  {
+   "start": 215.7,
+   "end": 228.8,
+   "title": "A Restaurant Design You Do Not Tire Of",
+   "level": "N3",
+   "topics": [
+    "food",
+    "work"
+   ],
+   "grammar": [
+    "〜自体 — itself",
+    "〜のせい — due to / because of"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 216.0,
+     "end": 218.4,
+     "ja": "店自体が飽きない。",
+     "en": "You don't get bored of the restaurant itself.",
+     "speaker": "Shimizu"
+    },
+    {
+     "start": 219.8,
+     "end": 221.0,
+     "ja": "デザインとかが。",
+     "en": "Because of things like the design.",
+     "speaker": "Shimizu"
+    },
+    {
+     "start": 221.1,
+     "end": 222.7,
+     "ja": "デザインのせいかな！？",
+     "en": "Maybe it's because of the design!?",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 222.8,
+     "end": 224.2,
+     "ja": "そうかもしれませんね。",
+     "en": "That might be true.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 225.5,
+     "end": 227.2,
+     "ja": "飽きが来ないよね。",
+     "en": "You don't get tired of it, do you?",
+     "speaker": "Shimizu"
+    },
+    {
+     "start": 227.6,
+     "end": 228.6,
+     "ja": "お店自体も。",
+     "en": "The restaurant itself too.",
+     "speaker": "Shimizu"
+    }
+   ]
+  },
+  {
+   "start": 410.5,
+   "end": 423.4,
+   "title": "Eye Contact Customer Service",
+   "level": "N3",
+   "topics": [
+    "food",
+    "work"
+   ],
+   "grammar": [
+    "〜てみる — try looking at",
+    "〜てある — resultant state",
+    "〜ている — ongoing habitual action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 410.8,
+     "end": 412.3,
+     "ja": "見てみ、この接客。",
+     "en": "Look at this customer service.",
+     "speaker": "Shimizu"
+    },
+    {
+     "start": 412.5,
+     "end": 414.7,
+     "ja": "必ず「目」見てやってるだろ！？",
+     "en": "They always look you right in the eye, right!?",
+     "speaker": "Shimizu"
+    },
+    {
+     "start": 414.8,
+     "end": 417.8,
+     "ja": "これ絶対営業中も常にやってるから。",
+     "en": "They definitely do this during regular hours too.",
+     "speaker": "Shimizu"
+    },
+    {
+     "start": 417.9,
+     "end": 419.6,
+     "ja": "そこ大切なんですね。",
+     "en": "That part really is important.",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 420.0,
+     "end": 423.2,
+     "ja": "やっぱそういうところ、簡単なことだよ。",
+     "en": "After all, it's things like that, simple things.",
+     "speaker": "Shimizu"
+    }
+   ]
+  }
+ ],
+ "videoId": "ku8O_076fb8",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

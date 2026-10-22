@@ -1,0 +1,166 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 21.6,
+   "end": 35.8,
+   "title": "A Blindfolded Quiz with Silent Buzzers",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てもらう — having someone do something",
+    "〜ようにしている — making sure to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 21.9,
+     "end": 25.1,
+     "ja": "今回は目隠しした状態で",
+     "en": "This time, with you blindfolded,",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 25.2,
+     "end": 26.5,
+     "ja": "早押しクイズをやってもらおうと思います。",
+     "en": "I'd like you to play a fast-buzzer quiz.",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 26.5,
+     "end": 28.1,
+     "ja": "それじゃ普通の目隠しクイズよ？",
+     "en": "Isn't that just a normal blindfolded quiz?",
+     "speaker": "Higashi Mon"
+    },
+    {
+     "start": 28.2,
+     "end": 30.0,
+     "ja": "じゃ、ちょっと山本さん、ボタン押してみてください。",
+     "en": "Well, Yamamoto-san, try pressing your buzzer.",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 30.5,
+     "end": 32.5,
+     "ja": "えっ！？え〜！？",
+     "en": "What?! Huh?!",
+     "speaker": "All"
+    },
+    {
+     "start": 32.7,
+     "end": 35.5,
+     "ja": "今回、音鳴らないようにしております。",
+     "en": "This time, I've made sure it doesn't make any sound.",
+     "speaker": "Fukura P"
+    }
+   ]
+  },
+  {
+   "start": 44.8,
+   "end": 56.1,
+   "title": "Rules for Answering in Order",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜だと思う — think that...",
+    "〜の順 — in the order of..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 45.1,
+     "end": 47.1,
+     "ja": "今回、答えが２つあるクイズを出しますので、",
+     "en": "This time, questions will have two answers,",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 47.4,
+     "end": 49.3,
+     "ja": "最初に１着の人が、",
+     "en": "so first, the person who thinks they buzzed 1st,",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 49.4,
+     "end": 51.5,
+     "ja": "その次に２着の人が答えを発してください。",
+     "en": "and next, the person who thinks they buzzed 2nd, shout your answers.",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 51.7,
+     "end": 53.0,
+     "ja": "無理だって！",
+     "en": "That's impossible!",
+     "speaker": "Tsurusaki"
+    },
+    {
+     "start": 54.8,
+     "end": 55.9,
+     "ja": "不可能でしょ、こんなの！",
+     "en": "This is totally impossible!",
+     "speaker": "Higashi Mon"
+    }
+   ]
+  },
+  {
+   "start": 439.8,
+   "end": 452.4,
+   "title": "A Massive Point Deduction",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜のに — even though",
+    "〜ことになっております — it is decided that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 440.0,
+     "end": 443.3,
+     "ja": "１着光ってないのに誤答をしてマイナス１、",
+     "en": "Buzzer 1 wasn't lit yet he answered wrongly, so minus 1.",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 443.4,
+     "end": 446.5,
+     "ja": "２着光ってるのに答えなかったんだからマイナス２、",
+     "en": "Buzzer 2 was lit but he didn't answer, so minus 2.",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 446.6,
+     "end": 449.2,
+     "ja": "ということで山本さんはマイナス３点となります！",
+     "en": "Therefore, Yamamoto-san gets minus 3 points!",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 449.6,
+     "end": 451.9,
+     "ja": "大損だ…！",
+     "en": "What a massive loss...!",
+     "speaker": "Yamamoto"
+    }
+   ]
+  }
+ ],
+ "videoId": "hDF_SNVbksI",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,274 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 121.0,
+   "end": 145.5,
+   "title": "Fast Answer for Broom and Entrance",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜べき — should",
+    "〜つって — saying that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 121.0,
+     "end": 122.0,
+     "ja": "あ、はいはいはい。",
+     "en": "Ah, yes yes yes.",
+     "speaker": "Tsurusaki"
+    },
+    {
+     "start": 122.0,
+     "end": 123.0,
+     "ja": "え、早っ！どうぞ。",
+     "en": "Whoa, that was fast! Go ahead.",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 123.0,
+     "end": 124.5,
+     "ja": "機械、machine。",
+     "en": "Kikai, machine.",
+     "speaker": "Tsurusaki"
+    },
+    {
+     "start": 124.5,
+     "end": 125.5,
+     "ja": "正解！",
+     "en": "Correct!",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 125.5,
+     "end": 127.5,
+     "ja": "うわー！すごい！",
+     "en": "Whoa! Amazing!",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 127.5,
+     "end": 128.2,
+     "ja": "よし。",
+     "en": "Alright.",
+     "speaker": "Tsurusaki"
+    },
+    {
+     "start": 128.2,
+     "end": 129.8,
+     "ja": "え、日本語から考えるべき？",
+     "en": "Wait, should we think from the Japanese?",
+     "speaker": "Tom"
+    },
+    {
+     "start": 129.8,
+     "end": 135.5,
+     "ja": "「き」から「い」でね、「きかい」。お、「machine」。よっしゃ！つってね。",
+     "en": "From 'ki' to 'i', 'kikai'. Oh, 'machine'! 'Yes!' just like that.",
+     "speaker": "Tsurusaki"
+    },
+    {
+     "start": 135.8,
+     "end": 138.2,
+     "ja": "日本語だとほうき、機械、入口。",
+     "en": "In Japanese it's houki, kikai, iriguchi.",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 138.2,
+     "end": 141.5,
+     "ja": "で、英語もbroom, machine, entranceと、いうようになります。",
+     "en": "And in English it's broom, machine, entrance.",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 142.0,
+     "end": 145.0,
+     "ja": "よくできてる。「よくできてる」って多分7回言うんだろうな。",
+     "en": "Well-made. I'll probably say 'well-made' seven times today.",
+     "speaker": "Tsurusaki"
+    }
+   ]
+  },
+  {
+   "start": 138.0,
+   "end": 164.5,
+   "title": "It Was Just One Letter",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜ないで — don't do",
+    "〜だけ — just / only"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 138.2,
+     "end": 144.5,
+     "ja": "えーとね、合成、シンセー…ズム。",
+     "en": "Um, well, gōsei, synthe...sm.",
+     "speaker": "Tsurusaki"
+    },
+    {
+     "start": 145.5,
+     "end": 147.5,
+     "ja": "適当に答えないで。",
+     "en": "Don't just give random answers.",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 149.2,
+     "end": 153.5,
+     "ja": "豪快な男たちの集い、scrum。",
+     "en": "A gathering of hearty men, scrum.",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 154.0,
+     "end": 155.8,
+     "ja": "あ、合計、sum！",
+     "en": "Ah, gōkei, sum!",
+     "speaker": "Tsurusaki"
+    },
+    {
+     "start": 156.0,
+     "end": 157.5,
+     "ja": "正解！",
+     "en": "Correct!",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 157.8,
+     "end": 159.5,
+     "ja": "お前、めっちゃ1文字だった！",
+     "en": "Dude, it was literally just one letter!",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 159.5,
+     "end": 162.0,
+     "ja": "めっちゃ1文字だった！u入れるだけだった！",
+     "en": "It really was one letter! You just had to put in 'u'!",
+     "speaker": "Tom"
+    },
+    {
+     "start": 162.5,
+     "end": 164.2,
+     "ja": "あーあ、ボケた意味ねえー！",
+     "en": "Aw man, making that joke was totally pointless!",
+     "speaker": "Izawa"
+    }
+   ]
+  },
+  {
+   "start": 500.8,
+   "end": 526.8,
+   "title": "Brute-Forcing the Alphabet",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜てんの — doing (colloquial)",
+    "〜すぎる — too much"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 501.0,
+     "end": 503.0,
+     "ja": "伊沢さん考えてんのは、kで始まって…",
+     "en": "What Izawa-san is thinking starts with k...",
+     "speaker": "Tom"
+    },
+    {
+     "start": 503.0,
+     "end": 505.0,
+     "ja": "あ、そうそうそう…",
+     "en": "Ah, yeah, yeah, yeah...",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 505.0,
+     "end": 507.0,
+     "ja": "え、それは「こ」で始まって何で終わりますか？",
+     "en": "Wait, it starts with 'ko' and ends with what?",
+     "speaker": "Tom"
+    },
+    {
+     "start": 507.0,
+     "end": 508.8,
+     "ja": "言えねえよ！",
+     "en": "I can't tell you that!",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 509.0,
+     "end": 510.5,
+     "ja": "引っ掛からなかったー。",
+     "en": "You didn't fall for it!",
+     "speaker": "Tom"
+    },
+    {
+     "start": 511.0,
+     "end": 512.8,
+     "ja": "シンプルすぎるだろ！",
+     "en": "That trick was way too simple!",
+     "speaker": "Izawa"
+    },
+    {
+     "start": 513.2,
+     "end": 515.5,
+     "ja": "ちょ待ってよ。na...",
+     "en": "Hold on a sec. n-a...",
+     "speaker": "Tsurusaki"
+    },
+    {
+     "start": 516.0,
+     "end": 518.0,
+     "ja": "nb...",
+     "en": "n-b...",
+     "speaker": "Tsurusaki"
+    },
+    {
+     "start": 519.2,
+     "end": 521.0,
+     "ja": "nc...",
+     "en": "n-c...",
+     "speaker": "Tsurusaki"
+    },
+    {
+     "start": 521.0,
+     "end": 524.0,
+     "ja": "それ本当に同じ時間でローラーできてんの？",
+     "en": "Can you really brute-force them at equal speed?",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 524.0,
+     "end": 526.5,
+     "ja": "naの可能性とnbの可能性同じか？",
+     "en": "Are the odds of 'na' and 'nb' really the same?",
+     "speaker": "Fukura P"
+    }
+   ]
+  }
+ ],
+ "videoId": "JJsG9NPiqRU",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

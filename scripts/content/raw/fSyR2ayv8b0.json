@@ -1,0 +1,190 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 62.2,
+   "end": 81.0,
+   "title": "Recording 158 Takes for the Song",
+   "level": "N3",
+   "topics": [
+    "music",
+    "work"
+   ],
+   "grammar": [
+    "〜くはない — not completely impossible",
+    "〜てしまう — complete an action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 62.4,
+     "end": 64.3,
+     "ja": "そう、全部でね、",
+     "en": "Yeah, in total,",
+     "speaker": "Kitahara"
+    },
+    {
+     "start": 64.6,
+     "end": 66.2,
+     "ja": "158テイク。",
+     "en": "158 takes.",
+     "speaker": "Fujitsuka"
+    },
+    {
+     "start": 66.2,
+     "end": 68.7,
+     "ja": "158テイクを撮りました。",
+     "en": "We recorded 158 takes.",
+     "speaker": "Kitahara"
+    },
+    {
+     "start": 69.5,
+     "end": 72.8,
+     "ja": "すごい！いや、でもね、",
+     "en": "Incredible! But you know,",
+     "speaker": "Fujitsuka"
+    },
+    {
+     "start": 72.8,
+     "end": 75.8,
+     "ja": "1〜2テイクとかで終わって、",
+     "en": "wrapping it up in one or two takes,",
+     "speaker": "Fujitsuka"
+    },
+    {
+     "start": 75.8,
+     "end": 79.2,
+     "ja": "別に終わらすこともできなくはないと思うんですよ。",
+     "en": "it wouldn't be impossible to just end it there.",
+     "speaker": "Fujitsuka"
+    },
+    {
+     "start": 79.4,
+     "end": 80.8,
+     "ja": "いやいや...",
+     "en": "No, no...",
+     "speaker": "Kitahara"
+    }
+   ]
+  },
+  {
+   "start": 193.0,
+   "end": 204.8,
+   "title": "Revealing the Song Title",
+   "level": "N4",
+   "topics": [
+    "music",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていい — may / allowed to",
+    "〜そう — looks like / seems like",
+    "〜たいと思う — think of wanting to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 193.2,
+     "end": 195.0,
+     "ja": "タイトルもう言っていいんでしたっけ？",
+     "en": "Am I allowed to share the title already?",
+     "speaker": "Kitahara"
+    },
+    {
+     "start": 195.0,
+     "end": 196.2,
+     "ja": "タイトルはどうぞ！",
+     "en": "Go ahead with the title!",
+     "speaker": "Fujitsuka"
+    },
+    {
+     "start": 196.2,
+     "end": 198.5,
+     "ja": "タイトルは「Brave HeartBeat」という曲なんですが、",
+     "en": "The title of the song is \"Brave HeartBeat,\"",
+     "speaker": "Kitahara"
+    },
+    {
+     "start": 198.5,
+     "end": 199.7,
+     "ja": "おー、かっこよさそう！",
+     "en": "Ooh, sounds cool!",
+     "speaker": "Fujitsuka"
+    },
+    {
+     "start": 199.7,
+     "end": 203.0,
+     "ja": "そう、みんなのハートをね、もう「Brave HeartBeat」したいなと思っているので、",
+     "en": "Yeah, I want to make everyone's hearts do a \"Brave HeartBeat,\" so...",
+     "speaker": "Kitahara"
+    },
+    {
+     "start": 203.0,
+     "end": 204.5,
+     "ja": "なるほど！",
+     "en": "I see!",
+     "speaker": "Fujitsuka"
+    }
+   ]
+  },
+  {
+   "start": 494.5,
+   "end": 515.0,
+   "title": "Studying Studio Equipment",
+   "level": "N3",
+   "topics": [
+    "music",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜てくる — do and come / begin to",
+    "〜ている — ongoing state / progressive",
+    "〜ついでに — while doing / taking the opportunity to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 494.7,
+     "end": 498.5,
+     "ja": "ここにある機材をまず全部調べてきました！",
+     "en": "First of all, I researched all the gear you have here!",
+     "speaker": "Kitahara"
+    },
+    {
+     "start": 499.5,
+     "end": 502.8,
+     "ja": "ホームページに載っている機材リストから見て、",
+     "en": "Looking at the equipment list on the website...",
+     "speaker": "Kitahara"
+    },
+    {
+     "start": 503.0,
+     "end": 505.5,
+     "ja": "受験勉強みたいな感じ！",
+     "en": "Just like studying for an exam!",
+     "speaker": "Fujitsuka"
+    },
+    {
+     "start": 505.8,
+     "end": 511.2,
+     "ja": "で、あの、楽器屋さんにも行って、店員さんと30分くらい、ちょうどベースを買ったんですよ、今日。",
+     "en": "And I even went to an instrument shop and talked to the staff for 30 minutes—I actually bought a bass today.",
+     "speaker": "Kitahara"
+    },
+    {
+     "start": 511.8,
+     "end": 514.8,
+     "ja": "そう、ベースを買ったついでにではないですけど、",
+     "en": "Well, not simply as a byproduct of buying the bass, but...",
+     "speaker": "Kitahara"
+    }
+   ]
+  }
+ ],
+ "videoId": "fSyR2ayv8b0",
+ "pickTopics": [
+  "music"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

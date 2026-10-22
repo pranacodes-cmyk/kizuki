@@ -1,0 +1,194 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 3.07,
+   "end": 39.5,
+   "title": "What Does It Mean to Keep a Pet?",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜について — about / regarding",
+    "〜というのは — what is meant by / the meaning of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.07,
+     "end": 7.18,
+     "ja": "今日はペットについて話したいと思います。",
+     "en": "Today, I'd like to talk about pets.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 7.24,
+     "end": 11.1,
+     "ja": "皆さんはペットを飼っていますか？",
+     "en": "Do you all have any pets?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 11.4,
+     "end": 15.5,
+     "ja": "ペットを飼う、ペットを飼う。",
+     "en": "'Pet o kau, pet o kau.'",
+     "speaker": "Akane"
+    },
+    {
+     "start": 15.9,
+     "end": 19.0,
+     "ja": "「飼う」という漢字はこちらです。",
+     "en": "This is the kanji for 'kau' (to keep a pet).",
+     "speaker": "Akane"
+    },
+    {
+     "start": 19.3,
+     "end": 24.5,
+     "ja": "あの、お金を払って何かを買うじゃなくて、飼うです。",
+     "en": "It's not 'kau' as in buying something with money, but keeping a pet.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 25.0,
+     "end": 29.3,
+     "ja": "ペットを飼うというのは、ペットを家族として迎え入れて、一緒に生活することですね。",
+     "en": "To keep a pet means welcoming it as a family member and living together.",
+     "speaker": "Akane"
+    }
+   ]
+  },
+  {
+   "start": 655.2,
+   "end": 673.5,
+   "title": "Ordering Tea and Pudding at a Cafe",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜で — selecting / specifying an order",
+    "〜でよろしいですか — is ... correct?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 655.4,
+     "end": 656.8,
+     "ja": "すいません。",
+     "en": "Excuse me.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 657.0,
+     "end": 660.6,
+     "ja": "マンゴーストロベリーフルーツティーのアイスと、",
+     "en": "An iced mango strawberry fruit tea, and...",
+     "speaker": "Akane"
+    },
+    {
+     "start": 661.0,
+     "end": 664.2,
+     "ja": "えっと、このウーロン茶のプリンで。",
+     "en": "um, this oolong tea pudding, please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 664.5,
+     "end": 669.5,
+     "ja": "はい。えっと、烏龍茶プリンをおひとつと、マンゴーストロベリーのジャスミンティーをおひとつでよろしいですか？",
+     "en": "Yes. One oolong tea pudding and one mango strawberry jasmine tea, is that correct?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 669.8,
+     "end": 671.0,
+     "ja": "はい、お願いします。",
+     "en": "Yes, please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 671.2,
+     "end": 672.3,
+     "ja": "少々お待ちください。",
+     "en": "Please wait a moment.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 672.4,
+     "end": 673.3,
+     "ja": "ありがとうございます。",
+     "en": "Thank you.",
+     "speaker": "Akane"
+    }
+   ]
+  },
+  {
+   "start": 794.5,
+   "end": 812.5,
+   "title": "Paying with Cash at the Register",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜からお願いします — paying with (an amount)",
+    "〜のお返しになります — here is your change"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 794.8,
+     "end": 797.5,
+     "ja": "2,000円からお願いします。",
+     "en": "Out of 2,000 yen, please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 797.8,
+     "end": 800.2,
+     "ja": "2,000円お預かりします。",
+     "en": "Out of 2,000 yen.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 804.6,
+     "end": 806.5,
+     "ja": "レシートご利用ですか？",
+     "en": "Would you like a receipt?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 806.7,
+     "end": 808.1,
+     "ja": "レシートお願いします。",
+     "en": "Receipt, please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 808.4,
+     "end": 810.7,
+     "ja": "レシートと700円のお返しになります。",
+     "en": "Here is your receipt and 700 yen change.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 811.0,
+     "end": 812.3,
+     "ja": "ありがとうございます。",
+     "en": "Thank you.",
+     "speaker": "Akane"
+    }
+   ]
+  }
+ ],
+ "videoId": "fr0BHb2V55w",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

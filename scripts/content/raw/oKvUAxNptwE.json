@@ -1,0 +1,252 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 25.5,
+   "end": 40.0,
+   "title": "Scoring for the National Team",
+   "level": "N3",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜てくれる — doing something for someone",
+    "〜たいと思う — thinking of wanting to do",
+    "〜てよかった — glad that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 25.5,
+     "end": 28.7,
+     "ja": "そして先日の代表戦でも見事ゴールを決めて、",
+     "en": "And in the recent national team match, you scored a great goal,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 28.7,
+     "end": 31.3,
+     "ja": "もう日本のサポーターを沸かせてくれましたよね。",
+     "en": "and really electrified the Japanese supporters.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 31.3,
+     "end": 33.4,
+     "ja": "あの試合、ご自身ではいかがでしたか？",
+     "en": "How did you personally feel about that match?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 33.6,
+     "end": 35.0,
+     "ja": "そうですね、本当に、",
+     "en": "Well, honestly,",
+     "speaker": "Ito"
+    },
+    {
+     "start": 35.0,
+     "end": 37.7,
+     "ja": "そろそろ代表でも点を取りたいと思ってたので、",
+     "en": "I'd been feeling that it was time to score for the national team,",
+     "speaker": "Ito"
+    },
+    {
+     "start": 38.2,
+     "end": 39.8,
+     "ja": "取れてよかったです。",
+     "en": "so I'm really glad I did.",
+     "speaker": "Ito"
+    }
+   ]
+  },
+  {
+   "start": 40.2,
+   "end": 106.6,
+   "title": "A Recent Expensive Purchase",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜される — respectful passive",
+    "〜ぐらい — about / only to the extent of",
+    "どんな — what kind of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 40.2,
+     "end": 44.7,
+     "ja": "最近購入された大きな買い物などございますでしょうか？",
+     "en": "Have you made any big purchases recently?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 45.3,
+     "end": 48.8,
+     "ja": "いや、買い物…",
+     "en": "Well, purchases...",
+     "speaker": "Ito"
+    },
+    {
+     "start": 49.8,
+     "end": 53.5,
+     "ja": "いや本当に、ちょっと高い服を買ったぐらいです。",
+     "en": "Really, just bought some somewhat expensive clothes, that's about it.",
+     "speaker": "Ito"
+    },
+    {
+     "start": 53.5,
+     "end": 54.3,
+     "ja": "ええ。",
+     "en": "I see.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 54.3,
+     "end": 55.1,
+     "ja": "はい。",
+     "en": "Yeah.",
+     "speaker": "Ito"
+    },
+    {
+     "start": 55.1,
+     "end": 57.6,
+     "ja": "どんな、どんな服ですか？ちなみに。",
+     "en": "What kind of clothes, by the way?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 58.2,
+     "end": 60.6,
+     "ja": "いや… Tシャツ。",
+     "en": "Well... a T-shirt.",
+     "speaker": "Ito"
+    },
+    {
+     "start": 60.6,
+     "end": 61.5,
+     "ja": "Tシャツ。",
+     "en": "A T-shirt.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 61.5,
+     "end": 62.1,
+     "ja": "はい。",
+     "en": "Yeah.",
+     "speaker": "Ito"
+    },
+    {
+     "start": 62.1,
+     "end": 63.2,
+     "ja": "何色ですか？",
+     "en": "What color is it?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 63.4,
+     "end": 65.8,
+     "ja": "あー… ベージュ。",
+     "en": "Um... beige.",
+     "speaker": "Ito"
+    }
+   ]
+  },
+  {
+   "start": 112.8,
+   "end": 128.8,
+   "title": "Relaxing with Games Off-Season",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜てほしくない — don't want someone to do / don't want to happen",
+    "〜ていらっしゃる — honorific ongoing action",
+    "〜れる — potential form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 112.8,
+     "end": 114.2,
+     "ja": "永久に無くなってほしくないものは？",
+     "en": "What is something you never want to disappear forever?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 114.2,
+     "end": 115.1,
+     "ja": "えーっと…",
+     "en": "Um...",
+     "speaker": "Ito"
+    },
+    {
+     "start": 115.1,
+     "end": 116.2,
+     "ja": "ゲームとか、",
+     "en": "Things like video games,",
+     "speaker": "Ito"
+    },
+    {
+     "start": 116.2,
+     "end": 117.3,
+     "ja": "ああー。",
+     "en": "Ah.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 117.4,
+     "end": 118.8,
+     "ja": "ですかね。",
+     "en": "I'd say.",
+     "speaker": "Ito"
+    },
+    {
+     "start": 119.4,
+     "end": 121.4,
+     "ja": "じゃあ、このオフに入って、",
+     "en": "So now that you're in the off-season,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 121.4,
+     "end": 122.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Ito"
+    },
+    {
+     "start": 122.0,
+     "end": 124.4,
+     "ja": "ゲームを楽しんでらっしゃいますか？",
+     "en": "are you enjoying gaming?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 124.4,
+     "end": 127.0,
+     "ja": "そうですね、ゆっくり楽しめてます。",
+     "en": "Yeah, I've been able to take it easy and enjoy it.",
+     "speaker": "Ito"
+    },
+    {
+     "start": 127.0,
+     "end": 128.8,
+     "ja": "ああ、なるほど。ありがとうございます。",
+     "en": "Ah, I see. Thank you very much.",
+     "speaker": "Interviewer"
+    }
+   ]
+  }
+ ],
+ "videoId": "oKvUAxNptwE",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

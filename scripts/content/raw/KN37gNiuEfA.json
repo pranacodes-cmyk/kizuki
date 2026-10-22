@@ -1,0 +1,194 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 22.0,
+   "title": "Hayata Hina's Tournament Summary",
+   "level": "N3",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜てしまう — expressing regret/accident",
+    "〜ことができる — can do / to be able to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 2.1,
+     "ja": "皆さん、こんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "早田ひな"
+    },
+    {
+     "start": 2.5,
+     "end": 5.0,
+     "ja": "日本生命所属の早田ひなです。",
+     "en": "I'm Hina Hayata from Nippon Life Insurance.",
+     "speaker": "早田ひな"
+    },
+    {
+     "start": 5.4,
+     "end": 9.2,
+     "ja": "今大会は金メダルを目標に頑張っていたんですけど、",
+     "en": "I was working hard with the goal of winning gold at this tournament,",
+     "speaker": "早田ひな"
+    },
+    {
+     "start": 9.5,
+     "end": 13.5,
+     "ja": "シングルスの準々決勝が終わって腕を怪我してしまって、",
+     "en": "but after the singles quarterfinals I injured my arm.",
+     "speaker": "早田ひな"
+    },
+    {
+     "start": 13.7,
+     "end": 16.8,
+     "ja": "それでもやっぱたくさんの方に支えられて、",
+     "en": "Even so, supported by so many people,",
+     "speaker": "早田ひな"
+    },
+    {
+     "start": 16.9,
+     "end": 21.8,
+     "ja": "団体銀メダル、そしてシングルス銅メダルを獲得することができました。",
+     "en": "I was able to win team silver and singles bronze medals.",
+     "speaker": "早田ひな"
+    }
+   ]
+  },
+  {
+   "start": 164.2,
+   "end": 190.5,
+   "title": "Places I Want to Visit During My Break",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "sports",
+    "culture"
+   ],
+   "grammar": [
+    "〜として — as / in the role of",
+    "〜たいと思う — think about wanting to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 164.4,
+     "end": 167.3,
+     "ja": "行きたいとことしては、",
+     "en": "As for places I want to visit,",
+     "speaker": "早田ひな"
+    },
+    {
+     "start": 167.4,
+     "end": 170.5,
+     "ja": "1つは、まあ、アンパンマンミュージアムに、",
+     "en": "one is the Anpanman Children's Museum,",
+     "speaker": "早田ひな"
+    },
+    {
+     "start": 170.6,
+     "end": 174.0,
+     "ja": "ポーチをちょっと作りにいきたいなって思ってるのと、",
+     "en": "where I want to go make a pouch.",
+     "speaker": "早田ひな"
+    },
+    {
+     "start": 174.2,
+     "end": 178.2,
+     "ja": "あとは鹿児島の特攻資料館に行って、",
+     "en": "And also, I want to visit the Kamikaze Peace Museum in Kagoshima,",
+     "speaker": "早田ひな"
+    },
+    {
+     "start": 178.3,
+     "end": 180.0,
+     "ja": "まあ、生きてること、そして、",
+     "en": "to reflect on being alive, and,",
+     "speaker": "早田ひな"
+    },
+    {
+     "start": 180.1,
+     "end": 185.0,
+     "ja": "自分が卓球がこうやって当たり前にできていることっていうのが、",
+     "en": "how being able to play table tennis as a matter of course,",
+     "speaker": "早田ひな"
+    },
+    {
+     "start": 185.2,
+     "end": 187.4,
+     "ja": "当たり前じゃないっていうのを、",
+     "en": "is actually not something to take for granted.",
+     "speaker": "早田ひな"
+    },
+    {
+     "start": 187.5,
+     "end": 190.2,
+     "ja": "感じたいなと思って、行ってみたいなと思ってます。",
+     "en": "I'd like to go there to feel that firsthand.",
+     "speaker": "早田ひな"
+    }
+   ]
+  },
+  {
+   "start": 411.0,
+   "end": 424.0,
+   "title": "Rewarding Myself for the Medals",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "sports"
+   ],
+   "grammar": [
+    "〜か〜か — or",
+    "〜たいと思う — to want to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 411.1,
+     "end": 414.4,
+     "ja": "このメダルが形としてやっぱり残って、",
+     "en": "These medals remain as tangible forms,",
+     "speaker": "早田ひな"
+    },
+    {
+     "start": 414.5,
+     "end": 417.4,
+     "ja": "それがいろんな思い出になってると思うので、",
+     "en": "and I think they will become various memories.",
+     "speaker": "早田ひな"
+    },
+    {
+     "start": 417.5,
+     "end": 420.2,
+     "ja": "やっぱり形に残したいっていうのがあるので、",
+     "en": "So since I want to leave something tangible behind,",
+     "speaker": "早田ひな"
+    },
+    {
+     "start": 420.3,
+     "end": 422.1,
+     "ja": "まあジュエリーかカバンか、",
+     "en": "either some jewelry or a bag,",
+     "speaker": "早田ひな"
+    },
+    {
+     "start": 422.4,
+     "end": 423.8,
+     "ja": "どっちかを買いたいなと思います。",
+     "en": "I'd like to buy one of those.",
+     "speaker": "早田ひな"
+    }
+   ]
+  }
+ ],
+ "videoId": "KN37gNiuEfA",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,219 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 101.0,
+   "end": 131.8,
+   "title": "Ayatans Journey to Traveling Abroad",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜てみる — to try doing",
+    "〜たりする — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 101.2,
+     "end": 103.0,
+     "ja": "はい、わかりました。",
+     "en": "Sure, no problem.",
+     "speaker": "Ayatan"
+    },
+    {
+     "start": 103.0,
+     "end": 106.5,
+     "ja": "私は、栄養士の短大に行って、",
+     "en": "I went to a junior college to become a nutritionist,",
+     "speaker": "Ayatan"
+    },
+    {
+     "start": 106.5,
+     "end": 109.0,
+     "ja": "資格を取得したんですけど、",
+     "en": "and got certified, but...",
+     "speaker": "Ayatan"
+    },
+    {
+     "start": 109.0,
+     "end": 115.5,
+     "ja": "卒業後は、全く関係のない水泳のインストラクターになって、",
+     "en": "after graduating, I became a swimming instructor, which had nothing to do with it,",
+     "speaker": "Ayatan"
+    },
+    {
+     "start": 115.5,
+     "end": 118.8,
+     "ja": "で、３年間ちょっと働いてたんだけど、",
+     "en": "and worked there for a little over three years.",
+     "speaker": "Ayatan"
+    },
+    {
+     "start": 118.8,
+     "end": 123.5,
+     "ja": "仕事自体は好きだったけど、ずっと海外に行ってみたくて、",
+     "en": "I liked the job itself, but I had always wanted to go abroad,",
+     "speaker": "Ayatan"
+    },
+    {
+     "start": 123.5,
+     "end": 128.0,
+     "ja": "で、２０１５年からずっと海外にいます。",
+     "en": "so I've been overseas ever since 2015.",
+     "speaker": "Ayatan"
+    },
+    {
+     "start": 128.0,
+     "end": 130.8,
+     "ja": "たまに日本に帰ったりするけど。",
+     "en": "Though I occasionally go back to Japan.",
+     "speaker": "Ayatan"
+    },
+    {
+     "start": 130.8,
+     "end": 131.5,
+     "ja": "うん、うん、うん。",
+     "en": "Uh-huh, yeah.",
+     "speaker": "Miku"
+    }
+   ]
+  },
+  {
+   "start": 306.8,
+   "end": 336.0,
+   "title": "A Morning Routine While Camping",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜たら — when / if",
+    "〜じゃん — isn't it? / right?",
+    "〜し — listing actions / reasons"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 307.1,
+     "end": 308.8,
+     "ja": "７時頃かな。",
+     "en": "Around 7:00, I guess.",
+     "speaker": "Ayatan"
+    },
+    {
+     "start": 308.8,
+     "end": 312.8,
+     "ja": "もう、明るくなったらさ、目が覚めるじゃん。",
+     "en": "Like, once it gets light, you just wake up, right?",
+     "speaker": "Ayatan"
+    },
+    {
+     "start": 313.5,
+     "end": 316.0,
+     "ja": "もう、光があれだから。",
+     "en": "Because of the morning light.",
+     "speaker": "Ayatan"
+    },
+    {
+     "start": 316.0,
+     "end": 319.8,
+     "ja": "そう、まあその朝の光で目覚めて、",
+     "en": "Yeah, waking up to the morning light,",
+     "speaker": "Ayatan"
+    },
+    {
+     "start": 319.8,
+     "end": 324.5,
+     "ja": "で、デイビッドコーヒー飲んで、私味噌汁飲んで、",
+     "en": "then David drinks coffee and I drink miso soup,",
+     "speaker": "Ayatan"
+    },
+    {
+     "start": 326.5,
+     "end": 330.0,
+     "ja": "で、２時間ぐらいかな、まったりして、",
+     "en": "and then we chill out for about two hours,",
+     "speaker": "Ayatan"
+    },
+    {
+     "start": 330.5,
+     "end": 335.5,
+     "ja": "で、ハイキング行く日はハイキング行くし、",
+     "en": "and on days we go hiking, we go hiking,",
+     "speaker": "Ayatan"
+    }
+   ]
+  },
+  {
+   "start": 399.7,
+   "end": 422.2,
+   "title": "How Travel Changes Your Values",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜てよかった — glad that I did",
+    "〜のが — nominalizing a verb",
+    "〜し — and / moreover"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 400.0,
+     "end": 404.8,
+     "ja": "旅してよかったなって思うのは、やっぱ価値観が変わったかな。",
+     "en": "What makes me glad I traveled is that my values really changed.",
+     "speaker": "Ayatan"
+    },
+    {
+     "start": 404.8,
+     "end": 405.8,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 405.8,
+     "end": 410.5,
+     "ja": "まっ、その日本のよさも改めてわかるし、",
+     "en": "Well, you appreciate the good things about Japan again,",
+     "speaker": "Ayatan"
+    },
+    {
+     "start": 410.5,
+     "end": 414.0,
+     "ja": "プラス、でも、海外のよさもあるし、",
+     "en": "plus, there are also good things about being abroad,",
+     "speaker": "Ayatan"
+    },
+    {
+     "start": 414.0,
+     "end": 419.8,
+     "ja": "日本と海外の文化の違いを知るのが、面白いって思うかな。",
+     "en": "and I find it interesting to learn the cultural differences between Japan and other countries.",
+     "speaker": "Ayatan"
+    },
+    {
+     "start": 420.0,
+     "end": 421.8,
+     "ja": "面白いよね。",
+     "en": "It is interesting, isn't it?",
+     "speaker": "Miku"
+    }
+   ]
+  }
+ ],
+ "videoId": "B2nI77jpzAw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

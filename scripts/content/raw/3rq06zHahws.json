@@ -1,0 +1,187 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 20.0,
+   "end": 41.5,
+   "title": "What Is This?",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "これ — this",
+    "〜は〜です — A is B",
+    "〜の〜 — possessive particle"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 20.5,
+     "end": 22.8,
+     "ja": "これは何ですか？",
+     "en": "What is this?",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 23.3,
+     "end": 25.5,
+     "ja": "これは何ですか？",
+     "en": "What is this?",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 26.5,
+     "end": 28.9,
+     "ja": "これは自転車です。",
+     "en": "This is a bicycle.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 29.6,
+     "end": 32.2,
+     "ja": "これは自転車です。",
+     "en": "This is a bicycle.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 32.8,
+     "end": 36.3,
+     "ja": "これは僕の自転車です。",
+     "en": "This is my bicycle.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 37.3,
+     "end": 40.8,
+     "ja": "これは僕の自転車です。",
+     "en": "This is my bicycle.",
+     "speaker": "Yuta"
+    }
+   ]
+  },
+  {
+   "start": 199.0,
+   "end": 224.0,
+   "title": "Getting on and Off a Bicycle",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "sports"
+   ],
+   "grammar": [
+    "〜に乗る — to ride / get on",
+    "〜から降りる — to get off from"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 199.3,
+     "end": 201.8,
+     "ja": "自転車に乗る。",
+     "en": "Get on the bicycle.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 204.2,
+     "end": 206.5,
+     "ja": "自転車に乗る。",
+     "en": "Get on the bicycle.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 207.4,
+     "end": 210.5,
+     "ja": "自転車から降りる。",
+     "en": "Get off the bicycle.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 213.8,
+     "end": 216.4,
+     "ja": "自転車から降りる。",
+     "en": "Get off the bicycle.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 217.1,
+     "end": 219.4,
+     "ja": "自転車に乗る。",
+     "en": "Get on the bicycle.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 220.6,
+     "end": 223.5,
+     "ja": "自転車から降りる。",
+     "en": "Get off the bicycle.",
+     "speaker": "Yuta"
+    }
+   ]
+  },
+  {
+   "start": 254.0,
+   "end": 321.0,
+   "title": "Turning and Going Straight",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜に曲がる — to turn to",
+    "まっすぐ — straight"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 254.3,
+     "end": 256.8,
+     "ja": "右に曲がる。",
+     "en": "Turn right.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 257.3,
+     "end": 259.8,
+     "ja": "右に曲がる。",
+     "en": "Turn right.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 304.6,
+     "end": 307.1,
+     "ja": "左に曲がる。",
+     "en": "Turn left.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 307.5,
+     "end": 310.0,
+     "ja": "左に曲がる。",
+     "en": "Turn left.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 314.9,
+     "end": 317.7,
+     "ja": "まっすぐ進む。",
+     "en": "Go straight.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 318.0,
+     "end": 320.6,
+     "ja": "まっすぐ進む。",
+     "en": "Go straight.",
+     "speaker": "Yuta"
+    }
+   ]
+  }
+ ],
+ "videoId": "3rq06zHahws",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

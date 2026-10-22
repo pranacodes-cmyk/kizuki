@@ -1,0 +1,197 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.3,
+   "end": 17.0,
+   "title": "Heading Out on a Sunny Sunday",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜てことで — meaning that...",
+    "〜ようと思う — expressing intention",
+    "〜んで — because / explanation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.3,
+     "end": 1.8,
+     "ja": "おはようございます。",
+     "en": "Good morning.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 1.8,
+     "end": 3.2,
+     "ja": "本日はですね、めちゃくちゃいい天気で、",
+     "en": "Today the weather is super nice, and",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 3.2,
+     "end": 5.8,
+     "ja": "まあ、めちゃくちゃいい天気の日に外に出ないのはありえないってことで、",
+     "en": "well, not going outside on such a nice day is out of the question,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 5.8,
+     "end": 9.1,
+     "ja": "丸の内で行われているアンティーク食器とかのイベントを見に行こうかなと思います。",
+     "en": "so I think I'll go check out an antique tableware event in Marunouchi.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 9.1,
+     "end": 11.3,
+     "ja": "ちょっとね、もうね、テンション上がりますよね。",
+     "en": "I'm really getting hyped up already.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 11.3,
+     "end": 14.3,
+     "ja": "今、日曜日なんですけど、日曜日に晴れてるって最高なんで。",
+     "en": "It's Sunday today, and clear weather on a Sunday is the best.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 14.3,
+     "end": 17.0,
+     "ja": "まあ、まだ昼飯食ってないんで、昼飯食ってからね、行こうと思いますね。",
+     "en": "I haven't eaten lunch yet, so I'll go after grabbing some lunch.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 152.3,
+   "end": 169.0,
+   "title": "Showing Off an Antique Vase",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜じゃないですか — isn't it?",
+    "〜らしい — it seems that / apparently",
+    "〜ておく — to leave something as is"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 152.3,
+     "end": 156.1,
+     "ja": "購入したのがね、アンティーク雑貨の一輪挿しの花瓶ですね。",
+     "en": "What I bought was this antique single-flower vase.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 156.1,
+     "end": 158.2,
+     "ja": "めちゃくちゃ色綺麗じゃないですか！",
+     "en": "Isn't the color absolutely gorgeous?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 158.2,
+     "end": 160.4,
+     "ja": "緑と青のグラデーションみたいな感じで。",
+     "en": "It has this gradient of green and blue.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 160.4,
+     "end": 163.3,
+     "ja": "これ1960年代のアメリカ雑貨らしいんですけども、",
+     "en": "Apparently, it's American goods from the 1960s,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 163.3,
+     "end": 166.8,
+     "ja": "まあそういう背景とかは置いといて、見た目めっちゃいいなと思って購入しました。",
+     "en": "but setting that background aside, I just loved how it looked and bought it.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 166.8,
+     "end": 169.0,
+     "ja": "ちなみにこれ値段ね、税込3300円でした。",
+     "en": "By the way, the price was 3,300 yen including tax.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 246.0,
+   "end": 263.0,
+   "title": "Styling a Shell Jacket",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜と — when / if (conditional)",
+    "〜っぽ — -ish / -like",
+    "〜れる — potential form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 246.0,
+     "end": 249.5,
+     "ja": "バツッと着たら着丈が長いんで、バランス悪いと思うんですけども、",
+     "en": "If you just put it on straight, the length is long, so the balance looks off,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 249.5,
+     "end": 252.7,
+     "ja": "このサイドのドローコード引っ張って、",
+     "en": "but if you pull these side drawcords,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 252.7,
+     "end": 255.1,
+     "ja": "こっちもね、引っ張って、",
+     "en": "and pull this side too,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 255.1,
+     "end": 257.8,
+     "ja": "で、ちょっと内側に折る感じで着ると、",
+     "en": "and then wear it folded slightly inward,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 257.8,
+     "end": 260.1,
+     "ja": "着丈がね、ほら、グッと短くなって、",
+     "en": "look, the length gets significantly shorter,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 260.1,
+     "end": 263.0,
+     "ja": "さらっと着れるんですよ、シティボーイっぽい感じで。",
+     "en": "and you can wear it effortlessly, giving off a city boy vibe.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "Bu9P2ThVq3c",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

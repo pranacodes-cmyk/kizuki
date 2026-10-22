@@ -1,0 +1,162 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.2,
+   "end": 105.7,
+   "title": "Things to Do at the Big Park",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "sports"
+   ],
+   "grammar": [
+    "〜ができる — can do",
+    "〜たり〜たりする — doing things like",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.5,
+     "end": 49.3,
+     "ja": "公園には、子供たちが遊ぶ遊具や、",
+     "en": "In the park, there is playground equipment for children to play on,",
+     "speaker": "Risa"
+    },
+    {
+     "start": 49.5,
+     "end": 56.4,
+     "ja": "サッカーやバスケができるグラウンド、テニスコートなどもあります。",
+     "en": "as well as grounds for soccer and basketball, tennis courts, and more.",
+     "speaker": "Risa"
+    },
+    {
+     "start": 56.8,
+     "end": 60.5,
+     "ja": "大きな芝生もあってピクニックをしたり、",
+     "en": "There is also a large lawn where you can have a picnic,",
+     "speaker": "Risa"
+    },
+    {
+     "start": 60.7,
+     "end": 65.4,
+     "ja": "バーベキュー場もあるのでバーベキューもできます！",
+     "en": "and since there is a barbecue area, you can have a barbecue too!",
+     "speaker": "Risa"
+    }
+   ]
+  },
+  {
+   "start": 165.2,
+   "end": 193.0,
+   "title": "Drugstore and Convenience Store",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜だけでなく — not only...",
+    "〜てある — state resulting from an action",
+    "〜のが好き — like doing..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 165.5,
+     "end": 170.0,
+     "ja": "マンションの、目の前にドラッグストアがあります。",
+     "en": "Right in front of my apartment building, there is a drugstore.",
+     "speaker": "Risa"
+    },
+    {
+     "start": 170.5,
+     "end": 174.9,
+     "ja": "ドラッグストアには、薬だけでなく、",
+     "en": "At the drugstore, they have not only medicine,",
+     "speaker": "Risa"
+    },
+    {
+     "start": 175.1,
+     "end": 179.8,
+     "ja": "簡単な食材も置いてあるので、とても便利です。",
+     "en": "but also simple groceries, so it is very convenient.",
+     "speaker": "Risa"
+    },
+    {
+     "start": 180.2,
+     "end": 185.7,
+     "ja": "ドラッグストアの向かい側には、コンビニもあります。",
+     "en": "Across from the drugstore, there is also a convenience store.",
+     "speaker": "Risa"
+    },
+    {
+     "start": 185.9,
+     "end": 192.7,
+     "ja": "コンビニでお菓子を買うことが好きな息子には、嬉しい場所です。",
+     "en": "For my son, who loves buying snacks at convenience stores, it's a great spot.",
+     "speaker": "Risa"
+    }
+   ]
+  },
+  {
+   "start": 204.0,
+   "end": 230.5,
+   "title": "What Is Machi-Chuka?",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜という — called / known as",
+    "〜というのは〜のことです — X means Y",
+    "〜に親しまれている — popular with / familiar to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 204.3,
+     "end": 209.0,
+     "ja": "でも、美味しいご飯屋さんは、沢山あります。",
+     "en": "However, there are plenty of delicious eateries.",
+     "speaker": "Risa"
+    },
+    {
+     "start": 209.2,
+     "end": 213.2,
+     "ja": "「町中華」という言葉を知っていますか？",
+     "en": "Do you know the term \"machi-chuka\"?",
+     "speaker": "Risa"
+    },
+    {
+     "start": 213.4,
+     "end": 219.0,
+     "ja": "町中華というのは、その地域に古くから親しまれている中華料理を、",
+     "en": "\"Machi-chuka\" refers to casual diners whose main menu is Chinese food",
+     "speaker": "Risa"
+    },
+    {
+     "start": 219.2,
+     "end": 223.7,
+     "ja": "メインにした食堂のことです。",
+     "en": "that has long been loved by the local community.",
+     "speaker": "Risa"
+    },
+    {
+     "start": 224.0,
+     "end": 230.2,
+     "ja": "日本では、この町中華を好きな人が沢山います。",
+     "en": "In Japan, there are many people who love machi-chuka.",
+     "speaker": "Risa"
+    }
+   ]
+  }
+ ],
+ "videoId": "KfTu_mM9Jao",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

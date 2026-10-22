@@ -1,0 +1,167 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 120.5,
+   "end": 142.9,
+   "title": "Singing at Family Gatherings as a Child",
+   "level": "N3",
+   "topics": [
+    "music",
+    "family"
+   ],
+   "grammar": [
+    "〜ていた — past progressive/habitual",
+    "〜たりして — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 120.5,
+     "end": 124.2,
+     "ja": "本当に小さい頃、まあ幼稚園とかその頃に、",
+     "en": "When I was really little, around kindergarten,",
+     "speaker": "Fukui Kei"
+    },
+    {
+     "start": 124.2,
+     "end": 129.8,
+     "ja": "あの親戚で集まって、例えばこうクリスマスパーティーみたいなことをやってたんですよ。",
+     "en": "relatives would gather, and we'd have things like Christmas parties.",
+     "speaker": "Fukui Kei"
+    },
+    {
+     "start": 129.8,
+     "end": 133.6,
+     "ja": "そうすると、そこで親戚がみんなで集まって、その前で歌を歌うと、",
+     "en": "So all the relatives would gather there, and when I sang in front of them,",
+     "speaker": "Fukui Kei"
+    },
+    {
+     "start": 133.6,
+     "end": 138.2,
+     "ja": "おひねりが、こう、あのおじさんとかそういうところから飛んできたりして、",
+     "en": "tips wrapped in paper would come flying from my uncles and others,",
+     "speaker": "Fukui Kei"
+    },
+    {
+     "start": 138.2,
+     "end": 142.9,
+     "ja": "で、そういうところで歌うのも「ああ、楽しいな」と思っていて、",
+     "en": "and singing in that kind of setting made me think, \"Oh, this is fun.\"",
+     "speaker": "Fukui Kei"
+    }
+   ]
+  },
+  {
+   "start": 208.6,
+   "end": 235.8,
+   "title": "Teaching Vocal Music at University",
+   "level": "N3",
+   "topics": [
+    "school",
+    "music"
+   ],
+   "grammar": [
+    "〜ずに — without doing",
+    "〜わけですね — explains background",
+    "〜たり — listing actions"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 208.6,
+     "end": 213.4,
+     "ja": "要するにクラシックの声楽っていうのは、基本的にはアコースティックって言って、",
+     "en": "Basically, classical vocal music is acoustic, meaning",
+     "speaker": "Fukui Kei"
+    },
+    {
+     "start": 213.4,
+     "end": 218.8,
+     "ja": "要するにマイクを使わずに、こう響きのあるいい声を出すかっていうことを、まあやるわけですね。",
+     "en": "without using a microphone, you work on how to project a resonant, beautiful voice.",
+     "speaker": "Fukui Kei"
+    },
+    {
+     "start": 218.8,
+     "end": 223.7,
+     "ja": "で、そういうことを学生たちにいろいろ教えたり、",
+     "en": "And I teach various things like that to the students,",
+     "speaker": "Fukui Kei"
+    },
+    {
+     "start": 223.7,
+     "end": 229.0,
+     "ja": "それから、あとはやっぱりその声楽を使って、いろんな歌曲ですとか、",
+     "en": "and then using that vocal technique, we also work on various art songs,",
+     "speaker": "Fukui Kei"
+    },
+    {
+     "start": 229.0,
+     "end": 235.8,
+     "ja": "オペラの作品のいろんな場面を、まあ教えたりですね、そういうことをやっています。",
+     "en": "or teach scenes from opera productions; that's what I do.",
+     "speaker": "Fukui Kei"
+    }
+   ]
+  },
+  {
+   "start": 480.6,
+   "end": 506.7,
+   "title": "A Message to Experience Music",
+   "level": "N3",
+   "topics": [
+    "music",
+    "daily"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜んじゃないかな — I think that maybe"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 480.6,
+     "end": 486.0,
+     "ja": "そして、ぜひ皆さんも、歌、音楽っていうのを",
+     "en": "And I really hope that all of you, with singing and music,",
+     "speaker": "Fukui Kei"
+    },
+    {
+     "start": 486.0,
+     "end": 492.3,
+     "ja": "ご自分で体験したり、歌ったり、演奏したりしてみてください。",
+     "en": "will experience it yourself, try singing, or try playing an instrument.",
+     "speaker": "Fukui Kei"
+    },
+    {
+     "start": 492.3,
+     "end": 495.1,
+     "ja": "必ずそこには",
+     "en": "Without a doubt, in doing so,",
+     "speaker": "Fukui Kei"
+    },
+    {
+     "start": 495.1,
+     "end": 500.8,
+     "ja": "楽しさだとか、懐かしさだとか、癒やしですとか、",
+     "en": "joy, nostalgia, or healing—",
+     "speaker": "Fukui Kei"
+    },
+    {
+     "start": 500.8,
+     "end": 506.7,
+     "ja": "そういうものが何か発見できるんじゃないかなと思います。",
+     "en": "I believe you'll be able to discover something like that.",
+     "speaker": "Fukui Kei"
+    }
+   ]
+  }
+ ],
+ "videoId": "9lUz7MVAz90",
+ "pickTopics": [
+  "music"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

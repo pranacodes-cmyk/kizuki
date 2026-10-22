@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.5,
+   "end": 31.2,
+   "title": "New Year Holiday Treats",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜てから / 〜て — connecting actions",
+    "〜と言って — called/named"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 16.8,
+     "end": 20.1,
+     "ja": "年末はお気に入りの店でステーキを食べて、",
+     "en": "At the end of the year, I had steak at my favorite restaurant,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 20.2,
+     "end": 23.2,
+     "ja": "りんごタルトを作りました。",
+     "en": "and made an apple tart.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 23.8,
+     "end": 27.9,
+     "ja": "これはお雑煮と言って、お正月に食べる伝統的な食べ物です。",
+     "en": "This is called ozoni, a traditional food eaten during New Year's.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 28.0,
+     "end": 30.9,
+     "ja": "そしてみんなも知っているお餅も食べました。",
+     "en": "And I also ate mochi, which everyone knows.",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 128.2,
+   "end": 139.0,
+   "title": "Driving to Pick Up Dinner",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜に行く — go to do something",
+    "〜ているところ — in the middle of doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 128.5,
+     "end": 131.8,
+     "ja": "車で晩ご飯を買いに行っているところです。",
+     "en": "I'm on my way by car to buy dinner.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 131.9,
+     "end": 134.3,
+     "ja": "車で２分ぐらいの場所なんだけど、",
+     "en": "It's about a two-minute drive, but...",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 134.4,
+     "end": 138.5,
+     "ja": "車がすごく便利だからいつも車で行きます。",
+     "en": "Cars are so convenient that I always go by car.",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 246.0,
+   "end": 266.3,
+   "title": "Surprisingly Warm January Day",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜のに — even though / despite",
+    "〜なくてもいい — don't have to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 246.3,
+     "end": 250.0,
+     "ja": "今日は1月、ええ、7日？今日は7日。",
+     "en": "Today is January... uh, 7th? Today is the 7th.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 250.4,
+     "end": 253.2,
+     "ja": "今、12時半です。",
+     "en": "It's 12:30 right now.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 253.7,
+     "end": 255.8,
+     "ja": "すっごく暑い。",
+     "en": "It's really hot.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 256.2,
+     "end": 262.5,
+     "ja": "1月なのに上着を着なくてもいいんですよ。",
+     "en": "Even though it's January, you don't even need a jacket.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 262.9,
+     "end": 265.8,
+     "ja": "でも夜は寒い。",
+     "en": "But it gets cold at night.",
+     "speaker": "Yuka"
+    }
+   ]
+  }
+ ],
+ "videoId": "9H33RrDfUvs",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,153 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 9.5,
+   "end": 31.0,
+   "title": "Introduction to Film Farming",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜の代わりに — instead of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.5,
+     "end": 11.5,
+     "ja": "こんにちは、森です。",
+     "en": "Hello, I'm Mori.",
+     "speaker": "Yuichi"
+    },
+    {
+     "start": 12.0,
+     "end": 17.5,
+     "ja": "面白い農業の技術を開発しましたので、ご紹介いたします。",
+     "en": "We have developed an interesting agricultural technology, so I'd like to introduce it.",
+     "speaker": "Yuichi"
+    },
+    {
+     "start": 18.0,
+     "end": 23.0,
+     "ja": "実はですね、土の代わりにこういうフィルム、",
+     "en": "Actually, instead of soil, we use this kind of film—",
+     "speaker": "Yuichi"
+    },
+    {
+     "start": 23.5,
+     "end": 26.2,
+     "ja": "まあこれ、サランラップじゃないですよ。",
+     "en": "well, this isn't plastic wrap, you know!",
+     "speaker": "Yuichi"
+    },
+    {
+     "start": 26.8,
+     "end": 30.7,
+     "ja": "私たちが特別に開発したフィルムなんです。",
+     "en": "It's a film specially developed by us.",
+     "speaker": "Yuichi"
+    }
+   ]
+  },
+  {
+   "start": 85.0,
+   "end": 112.5,
+   "title": "Growing Vegetables in Space",
+   "level": "N3",
+   "topics": [
+    "food",
+    "work"
+   ],
+   "grammar": [
+    "〜てます — progressive / result state",
+    "〜ことに成功する — succeed in doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 85.2,
+     "end": 92.0,
+     "ja": "これはですね、実はこのフィルムでバッグを作りまして、その中に液体肥料が入ってます。",
+     "en": "For this, we actually made a bag using this film, and there is liquid fertilizer inside.",
+     "speaker": "Yuichi"
+    },
+    {
+     "start": 92.5,
+     "end": 98.5,
+     "ja": "で、その上にパラパラッとレタスの種を蒔いて育てたものです。",
+     "en": "And we lightly scattered lettuce seeds on top and grew them.",
+     "speaker": "Yuichi"
+    },
+    {
+     "start": 99.0,
+     "end": 104.8,
+     "ja": "これは去年ですね、日本の宇宙飛行士の野口さんがですね、",
+     "en": "Last year, Japanese astronaut Mr. Noguchi...",
+     "speaker": "Yuichi"
+    },
+    {
+     "start": 105.5,
+     "end": 112.0,
+     "ja": "宇宙船の中でこの実験をやりまして、ハーブを生やすことに成功しました。",
+     "en": "...conducted this experiment inside the spacecraft and succeeded in growing herbs.",
+     "speaker": "Yuichi"
+    }
+   ]
+  },
+  {
+   "start": 294.0,
+   "end": 309.5,
+   "title": "Blocking Bacteria with Film",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜とか〜とか — listing examples",
+    "〜から — because / since",
+    "〜がいらない — no need for"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 294.5,
+     "end": 298.2,
+     "ja": "水とか栄養分は吸い込みます。",
+     "en": "It absorbs things like water and nutrients.",
+     "speaker": "Yuichi"
+    },
+    {
+     "start": 299.0,
+     "end": 303.0,
+     "ja": "ただ、菌とかウイルスはでかいから入れません。",
+     "en": "However, bacteria and viruses are large, so they cannot enter.",
+     "speaker": "Yuichi"
+    },
+    {
+     "start": 303.8,
+     "end": 306.5,
+     "ja": "ですから、こっちが病気にならないんですね。",
+     "en": "Therefore, the plants on this side do not get diseases.",
+     "speaker": "Yuichi"
+    },
+    {
+     "start": 307.0,
+     "end": 309.2,
+     "ja": "ですから、農薬がいらない。",
+     "en": "So, pesticides are not needed.",
+     "speaker": "Yuichi"
+    }
+   ]
+  }
+ ],
+ "videoId": "w9rtg9uUcpA",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

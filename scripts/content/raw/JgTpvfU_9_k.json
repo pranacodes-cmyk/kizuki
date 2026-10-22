@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.3,
+   "end": 42.8,
+   "title": "Introducing Mira the Cat",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜ように見える — looks like / seems like",
+    "〜が — but / although"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.5,
+     "end": 28.5,
+     "ja": "名前はミラで、2歳の女の子です。",
+     "en": "Her name is Mira, and she is a two-year-old girl.",
+     "speaker": "Koko"
+    },
+    {
+     "start": 29.2,
+     "end": 36.6,
+     "ja": "体の色は黒ですが、手と足は白いです。",
+     "en": "Her body is black, but her paws are white.",
+     "speaker": "Koko"
+    },
+    {
+     "start": 37.1,
+     "end": 42.5,
+     "ja": "まるで手袋をつけているように見えます。",
+     "en": "It looks just like she is wearing gloves.",
+     "speaker": "Koko"
+    }
+   ]
+  },
+  {
+   "start": 57.3,
+   "end": 122.5,
+   "title": "Dog People vs. Cat People",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "animals"
+   ],
+   "grammar": [
+    "〜のほうが — more than / prefer",
+    "〜と言う — to call / to say"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 57.6,
+     "end": 103.5,
+     "ja": "日本で人気のペットは、犬と猫です。",
+     "en": "In Japan, the popular pets are dogs and cats.",
+     "speaker": "Koko"
+    },
+    {
+     "start": 104.0,
+     "end": 109.5,
+     "ja": "犬のほうが好きな人のことを「犬派」、",
+     "en": "People who prefer dogs are called 'dog lovers,'",
+     "speaker": "Koko"
+    },
+    {
+     "start": 110.0,
+     "end": 116.0,
+     "ja": "猫のほうが好きな人のことを「猫派」と言います。",
+     "en": "and people who prefer cats are called 'cat lovers.'",
+     "speaker": "Koko"
+    },
+    {
+     "start": 116.8,
+     "end": 122.0,
+     "ja": "私は犬も好きですが、猫派です。",
+     "en": "I like dogs too, but I'm a cat person.",
+     "speaker": "Koko"
+    }
+   ]
+  },
+  {
+   "start": 156.8,
+   "end": 181.8,
+   "title": "Japanese Animal Sounds",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "animals"
+   ],
+   "grammar": [
+    "〜によって — depending on",
+    "〜と鳴く — make a sound / cry"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 157.4,
+     "end": 162.6,
+     "ja": "日本では「ニャーニャー」と鳴きます。",
+     "en": "In Japan, cats meow as 'nyaa nyaa.'",
+     "speaker": "Koko"
+    },
+    {
+     "start": 164.0,
+     "end": 169.6,
+     "ja": "国によって様々で、面白いですよね。",
+     "en": "It varies by country, which is interesting, isn't it?",
+     "speaker": "Koko"
+    },
+    {
+     "start": 170.0,
+     "end": 172.8,
+     "ja": "犬は「ワンワン」、",
+     "en": "Dogs go 'wan wan,'",
+     "speaker": "Koko"
+    },
+    {
+     "start": 173.0,
+     "end": 176.2,
+     "ja": "豚は「ブーブー」、",
+     "en": "pigs go 'buu buu,'",
+     "speaker": "Koko"
+    },
+    {
+     "start": 177.0,
+     "end": 181.5,
+     "ja": "ネズミは「チューチュー」と鳴きます。",
+     "en": "and mice squeak as 'chuu chuu.'",
+     "speaker": "Koko"
+    }
+   ]
+  }
+ ],
+ "videoId": "JgTpvfU_9_k",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,208 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 66.0,
+   "end": 85.8,
+   "title": "Foreign Language Backgrounds",
+   "level": "N3",
+   "topics": [
+    "school",
+    "friends"
+   ],
+   "grammar": [
+    "〜わけじゃない — it does not mean that",
+    "〜てて — and (continuous/state)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 66.1,
+     "end": 68.0,
+     "ja": "とむはあれ、海外生活長いんだっけ？",
+     "en": "Tom, did you live abroad for a long time?",
+     "speaker": "Ko-Chan"
+    },
+    {
+     "start": 68.1,
+     "end": 73.5,
+     "ja": "長いわけじゃないですけど、１年間ドイツに留学で高校の時行ってて、まああと英語が話せます。",
+     "en": "Not that long, but I studied abroad in Germany for a year in high school, and I can speak English.",
+     "speaker": "Tom"
+    },
+    {
+     "start": 73.6,
+     "end": 76.8,
+     "ja": "フランス語は大学の第二外国語で。",
+     "en": "French was my second foreign language in college.",
+     "speaker": "Tom"
+    },
+    {
+     "start": 77.5,
+     "end": 83.0,
+     "ja": "あ、俺はね、第二外国語がドイツ語、で第三外国語としてフランス語。",
+     "en": "Oh, for me, German was my second foreign language, and French was my third.",
+     "speaker": "Ko-Chan"
+    },
+    {
+     "start": 83.1,
+     "end": 84.4,
+     "ja": "お、じゃあちょうどね。",
+     "en": "Oh, so that fits right in.",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 84.5,
+     "end": 85.4,
+     "ja": "ちょうどいいやん。",
+     "en": "That works out nicely.",
+     "speaker": "Izawa"
+    }
+   ]
+  },
+  {
+   "start": 126.2,
+   "end": 147.3,
+   "title": "Game Rules and Izawa's Panic",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜なきゃいけない — must / have to",
+    "〜てしまう — end up doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 126.3,
+     "end": 128.4,
+     "ja": "さあそして、ここから重要でございます。",
+     "en": "And now, this is the important part.",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 128.5,
+     "end": 130.5,
+     "ja": "とむはドイツ語で答えましたね。",
+     "en": "Tom answered in German, right?",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 130.6,
+     "end": 132.8,
+     "ja": "以降とむはドイツ語では答えられません。",
+     "en": "From now on, Tom cannot answer in German.",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 132.9,
+     "end": 135.0,
+     "ja": "英語かフランス語で答えなきゃいけない。",
+     "en": "I have to answer in English or French.",
+     "speaker": "Tom"
+    },
+    {
+     "start": 135.3,
+     "end": 138.0,
+     "ja": "ドイツ語しか分かんなかったら？",
+     "en": "What if he only knows the German word?",
+     "speaker": "Ko-Chan"
+    },
+    {
+     "start": 138.3,
+     "end": 139.4,
+     "ja": "誤答扱い。",
+     "en": "It's treated as a wrong answer.",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 139.8,
+     "end": 144.5,
+     "ja": "誤答しますと、今まで自分が獲得した言語を１個失っちゃいます。",
+     "en": "If you get it wrong, you lose one of the languages you've already secured.",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 144.8,
+     "end": 147.0,
+     "ja": "俺日本語しか喋れないのに！",
+     "en": "Even though I can only speak Japanese!",
+     "speaker": "Izawa"
+    }
+   ]
+  },
+  {
+   "start": 316.0,
+   "end": 337.3,
+   "title": "Calculating Dodecahedron Edges",
+   "level": "N3",
+   "topics": [
+    "school",
+    "fun"
+   ],
+   "grammar": [
+    "〜なんで — because / since",
+    "〜ば — if / when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 316.5,
+     "end": 320.0,
+     "ja": "正十二面体の１つの面は五角形なんで、",
+     "en": "One face of a regular dodecahedron is a pentagon, so...",
+     "speaker": "Tom"
+    },
+    {
+     "start": 320.1,
+     "end": 325.2,
+     "ja": "正五角形なんで、何個面があるか数えて、掛け算して、",
+     "en": "Since it's a regular pentagon, you count how many faces there are, multiply them,",
+     "speaker": "Tom"
+    },
+    {
+     "start": 325.6,
+     "end": 331.2,
+     "ja": "正多面体は全部の辺が２つの面のこう被ってるとこなんで、",
+     "en": "and on a regular polyhedron, every edge is shared by two faces,",
+     "speaker": "Tom"
+    },
+    {
+     "start": 331.5,
+     "end": 333.2,
+     "ja": "で、２で割れば。",
+     "en": "so then divide by two.",
+     "speaker": "Tom"
+    },
+    {
+     "start": 333.3,
+     "end": 334.5,
+     "ja": "それでも30。",
+     "en": "Still, 30.",
+     "speaker": "Ko-Chan"
+    },
+    {
+     "start": 334.6,
+     "end": 335.3,
+     "ja": "30ですね。",
+     "en": "It's 30.",
+     "speaker": "Tom"
+    },
+    {
+     "start": 335.4,
+     "end": 337.0,
+     "ja": "早っ、てか強…",
+     "en": "So fast! Or rather, so good...",
+     "speaker": "Ko-Chan"
+    }
+   ]
+  }
+ ],
+ "videoId": "55MiQhrVpjY",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

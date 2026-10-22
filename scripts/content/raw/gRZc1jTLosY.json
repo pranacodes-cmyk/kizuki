@@ -1,0 +1,298 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 100.0,
+   "end": 123.5,
+   "title": "Trying a Convenience Store Chestnut Crepe",
+   "level": "N4",
+   "topics": [
+    "food",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜そう — looks like",
+    "〜やんか — isn't it (Kansai)",
+    "〜てる — progressive state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 100.3,
+     "end": 102.7,
+     "ja": "イタリア栗のモンブランクレープいこうか、これ。",
+     "en": "Shall we go with this Italian chestnut Mont Blanc crepe?",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 103.0,
+     "end": 104.5,
+     "ja": "うまそうやんか。",
+     "en": "Doesn't it look delicious?",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 104.8,
+     "end": 106.0,
+     "ja": "これ、どこのやつや？",
+     "en": "Where is this one from?",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 106.3,
+     "end": 107.5,
+     "ja": "ファミマや。",
+     "en": "It's FamilyMart.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 109.0,
+     "end": 110.2,
+     "ja": "いいね。",
+     "en": "Nice.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 111.0,
+     "end": 112.5,
+     "ja": "めっちゃ栗。",
+     "en": "So much chestnut.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 115.2,
+     "end": 116.1,
+     "ja": "あ、美味しそう。",
+     "en": "Oh, that looks tasty.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 116.2,
+     "end": 117.8,
+     "ja": "うまい。栗。栗やわ。",
+     "en": "Delicious. Chestnut. Total chestnut.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 117.8,
+     "end": 120.0,
+     "ja": "生クリーム入ってるやつね。",
+     "en": "The one with whipped cream inside.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 120.6,
+     "end": 122.2,
+     "ja": "どんぐりころころどん栗田や。",
+     "en": "It's Don Kurita from Donguri Korokoro.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 122.3,
+     "end": 123.2,
+     "ja": "OCTPATH。",
+     "en": "OCTPATH.",
+     "speaker": "Yamauchi"
+    }
+   ]
+  },
+  {
+   "start": 313.0,
+   "end": 339.0,
+   "title": "Drinking Candied Sweet Potato Latte",
+   "level": "N3",
+   "topics": [
+    "food",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜みたいな — like / resembling",
+    "〜てから — after doing",
+    "お〜ください — please do (honorific)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 313.5,
+     "end": 315.7,
+     "ja": "まぜまぜスイーツ、大学芋みたいなラテ。",
+     "en": "Mix-mix sweets, latte like candied sweet potato.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 315.8,
+     "end": 316.8,
+     "ja": "ストロー付いてる。",
+     "en": "It comes with a straw.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 316.9,
+     "end": 317.9,
+     "ja": "ラテなんや。",
+     "en": "So it's a latte.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 318.0,
+     "end": 319.2,
+     "ja": "飲むの？これ。",
+     "en": "You drink this?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 319.3,
+     "end": 321.8,
+     "ja": "どういうこと？大学芋飲まへんやろ。",
+     "en": "What does that mean? You wouldn't drink candied sweet potato.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 322.0,
+     "end": 324.5,
+     "ja": "大学芋を飲めるの？",
+     "en": "Can you actually drink candied sweet potato?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 325.0,
+     "end": 327.8,
+     "ja": "「本品をストローで混ぜた後、少量ずつ吸い、",
+     "en": "'After stirring this product with a straw, sip small amounts at a time,",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 327.9,
+     "end": 330.8,
+     "ja": "口の中でよく噛んでからお召し上がりください。",
+     "en": "chew well in your mouth before swallowing.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 330.9,
+     "end": 333.3,
+     "ja": "一度に強く吸い込むと喉に詰まるおそれがあります。」",
+     "en": "Inhaling strongly all at once may cause choking.'",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 333.4,
+     "end": 335.5,
+     "ja": "そんな…",
+     "en": "No way...",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 335.8,
+     "end": 337.0,
+     "ja": "思いっきり吸ってみて、１回。",
+     "en": "Try sucking it as hard as you can once.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 337.2,
+     "end": 338.8,
+     "ja": "いや、だからそれがアカンって言ってる…",
+     "en": "No, that's literally what it says not to do...",
+     "speaker": "Yamauchi"
+    }
+   ]
+  },
+  {
+   "start": 422.3,
+   "end": 442.5,
+   "title": "Shockingly Huge Soft Cookie",
+   "level": "N4",
+   "topics": [
+    "food",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜ちゃう — is not / different (Kansai)",
+    "〜てみる — try doing",
+    "〜と — when / if (conditional)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 422.7,
+     "end": 423.7,
+     "ja": "でかっ！",
+     "en": "It's huge!",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 423.8,
+     "end": 425.0,
+     "ja": "でっかいね。",
+     "en": "It really is big.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 425.1,
+     "end": 428.5,
+     "ja": "全然相場のデカさとちゃうねんけど。",
+     "en": "It's completely different from the normal size standard.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 429.1,
+     "end": 432.8,
+     "ja": "生カントリーマアムだけちょっと気になるから、いってみましょうか。",
+     "en": "I'm curious about the raw Country Ma'am, so shall we try it?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 433.3,
+     "end": 435.0,
+     "ja": "うわ、でかっ！",
+     "en": "Whoa, it's huge!",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 435.3,
+     "end": 436.5,
+     "ja": "焼くとこうなるから。",
+     "en": "Because this is what it's like before baking.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 436.8,
+     "end": 437.8,
+     "ja": "あ、縮むんや。",
+     "en": "Ah, so it shrinks.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 438.0,
+     "end": 439.5,
+     "ja": "焼く前のやつ？これ。",
+     "en": "Is this the dough before baking?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 439.8,
+     "end": 441.0,
+     "ja": "生やから。",
+     "en": "Because it's 'raw.'",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 441.1,
+     "end": 442.2,
+     "ja": "いただきます。",
+     "en": "Bon appétit.",
+     "speaker": "Yamauchi"
+    }
+   ]
+  }
+ ],
+ "videoId": "gRZc1jTLosY",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

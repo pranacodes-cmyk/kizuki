@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 17.5,
+   "end": 38.5,
+   "title": "Feeling Autumn Through Sweets",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜じゃん — tag question / right?",
+    "〜系 — type / category of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.5,
+     "end": 22.5,
+     "ja": "で、今日は、秋！もう秋だよ、ヤバいよ。早くない？もう秋なんだね。",
+     "en": "And today, it's autumn! It's already autumn, crazy right? Isn't that fast? It's already autumn.",
+     "speaker": "Chihurun"
+    },
+    {
+     "start": 22.8,
+     "end": 26.0,
+     "ja": "で、なんかもー、この間までさ、だってさ、めっちゃ暑かったじゃん。",
+     "en": "And like, until recently, I mean, it was super hot, right?",
+     "speaker": "Chihurun"
+    },
+    {
+     "start": 26.2,
+     "end": 28.8,
+     "ja": "だからマジで、全然実感ないんだけど、",
+     "en": "So seriously, it doesn't feel like it at all, but...",
+     "speaker": "Chihurun"
+    },
+    {
+     "start": 29.0,
+     "end": 34.5,
+     "ja": "最近さ、それこそお月見とかさ、お芋系の商品とかもさ、結構色々出てるから、",
+     "en": "Lately, items like Moon Viewing and sweet potato treats have been coming out,",
+     "speaker": "Chihurun"
+    },
+    {
+     "start": 34.8,
+     "end": 38.5,
+     "ja": "食べ物で、なんか、秋をちょっと実感してるかなっていう感じです。",
+     "en": "so through food, I kind of feel like autumn is finally here.",
+     "speaker": "Chihurun"
+    }
+   ]
+  },
+  {
+   "start": 64.2,
+   "end": 84.0,
+   "title": "Caneles at Convenience Stores",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜っけ — casual recall particle",
+    "〜てた — casual past progressive"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 64.2,
+     "end": 68.5,
+     "ja": "まずは、じゃん！生カヌレスティックケーキです！",
+     "en": "First up, tada! It's a fresh canelé stick cake!",
+     "speaker": "Chihurun"
+    },
+    {
+     "start": 68.7,
+     "end": 70.5,
+     "ja": "これはファミマの商品です。",
+     "en": "This is an item from FamilyMart.",
+     "speaker": "Chihurun"
+    },
+    {
+     "start": 70.7,
+     "end": 74.0,
+     "ja": "で、なんとね、コンビニスイーツにもカヌレがありました！",
+     "en": "And amazingly, there was even a canelé among the convenience store sweets!",
+     "speaker": "Chihurun"
+    },
+    {
+     "start": 74.2,
+     "end": 76.0,
+     "ja": "え、これは嬉しい。",
+     "en": "Wow, this makes me happy.",
+     "speaker": "Chihurun"
+    },
+    {
+     "start": 76.2,
+     "end": 80.5,
+     "ja": "前どこだっけ？ えっとね、確かセブンだ… あ、違う、ローソンか。",
+     "en": "Where was it before? Um, pretty sure it was Seven... Ah no, Lawson!",
+     "speaker": "Chihurun"
+    },
+    {
+     "start": 80.8,
+     "end": 84.0,
+     "ja": "ローソンでもカヌレが売られてたんだけど、",
+     "en": "Lawson sold canelés too, but...",
+     "speaker": "Chihurun"
+    }
+   ]
+  },
+  {
+   "start": 257.2,
+   "end": 276.5,
+   "title": "Moon Viewing Pudding Crepe",
+   "level": "N3",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜引き — discount / off",
+    "〜で見立てる — likening to / representing as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 257.2,
+     "end": 261.0,
+     "ja": "お次は、じゃん！お月見プリンクレープでーす！",
+     "en": "Next up, tada! It's the Moon Viewing Pudding Crepe!",
+     "speaker": "Chihurun"
+    },
+    {
+     "start": 261.2,
+     "end": 263.0,
+     "ja": "30円引き、ありがとうございます。",
+     "en": "30 yen off, thank you very much!",
+     "speaker": "Chihurun"
+    },
+    {
+     "start": 263.2,
+     "end": 266.5,
+     "ja": "今年のね、コンビニスイーツの中の初のお月見スイーツです。",
+     "en": "This is this year's first moon viewing sweet among convenience store treats.",
+     "speaker": "Chihurun"
+    },
+    {
+     "start": 266.8,
+     "end": 270.0,
+     "ja": "それもこれ、中にね、プリンが入ってんの、多分。",
+     "en": "Plus, this one probably has pudding inside.",
+     "speaker": "Chihurun"
+    },
+    {
+     "start": 270.2,
+     "end": 272.5,
+     "ja": "お月見をプリンで見立ててるのかな。",
+     "en": "Maybe they represent the moon viewing with pudding?",
+     "speaker": "Chihurun"
+    },
+    {
+     "start": 272.7,
+     "end": 276.5,
+     "ja": "だからもう大需要！プリン大好きじゃん、だからマジで嬉しい！",
+     "en": "So there's huge demand! I love pudding, so I'm seriously happy!",
+     "speaker": "Chihurun"
+    }
+   ]
+  }
+ ],
+ "videoId": "gOWTi8NoGIw",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

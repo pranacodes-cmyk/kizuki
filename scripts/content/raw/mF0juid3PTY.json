@@ -1,0 +1,185 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.8,
+   "end": 24.5,
+   "title": "Too Rough of a Recap",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy",
+    "school"
+   ],
+   "grammar": [
+    "〜てもらう — having someone do something",
+    "〜っぱなし — leaving something as is",
+    "〜て言っても — even if one says"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.8,
+     "end": 7.5,
+     "ja": "かーしま、硬い！",
+     "en": "Kashima, you're way too stiff!",
+     "speaker": "Anzu"
+    },
+    {
+     "start": 7.5,
+     "end": 11.7,
+     "ja": "桃ちゃん桃ちゃん、今日は１話の内容をみんなに思い出してもらうのが目的だから。",
+     "en": "Momo-chan, Momo-chan, the goal today is to help everyone remember what happened in episode 1.",
+     "speaker": "Yuzuko"
+    },
+    {
+     "start": 11.7,
+     "end": 13.4,
+     "ja": "桃ちゃんと言うな！",
+     "en": "Don't call me Momo-chan!",
+     "speaker": "Momo"
+    },
+    {
+     "start": 13.4,
+     "end": 18.2,
+     "ja": "て言っても今はうちは、BC自由学園との試合の真っ最中、というだけなんだけどね。",
+     "en": "Though all that's going on now is that we're in the middle of our match with BC Freedom High School.",
+     "speaker": "Anzu"
+    },
+    {
+     "start": 18.4,
+     "end": 21.8,
+     "ja": "杏、いくら何でもざっくりしすぎなんじゃ？",
+     "en": "Anzu, isn't that being a little too brief?",
+     "speaker": "Yuzuko"
+    },
+    {
+     "start": 21.8,
+     "end": 24.5,
+     "ja": "そう？ んじゃかーしま、あとはよろしくー。",
+     "en": "Really? Well then, Kashima, take it away!",
+     "speaker": "Anzu"
+    }
+   ]
+  },
+  {
+   "start": 260.8,
+   "end": 288.8,
+   "title": "Passive-Aggressive Apologies",
+   "level": "N2",
+   "topics": [
+    "anime",
+    "comedy",
+    "school"
+   ],
+   "grammar": [
+    "〜のおかげだ — thanks to",
+    "〜だの〜だの — and things like",
+    "〜て申し訳ない — sorry for doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 260.8,
+     "end": 265.0,
+     "ja": "安藤さんたちの作戦のおかげだ。外部生は頭がいい。",
+     "en": "It's thanks to Andou's strategy. Transfer students are quite clever.",
+     "speaker": "Oshida"
+    },
+    {
+     "start": 265.0,
+     "end": 269.8,
+     "ja": "いやいや何を言う。あなた方が協力してくれたおかげだ。",
+     "en": "No, no, not at all. It's thanks to you all cooperating.",
+     "speaker": "Andou"
+    },
+    {
+     "start": 269.8,
+     "end": 272.4,
+     "ja": "本当にエスカレーター組は統率が取れている。",
+     "en": "The escalator students truly are well disciplined.",
+     "speaker": "Andou"
+    },
+    {
+     "start": 272.4,
+     "end": 275.3,
+     "ja": "今まで外様だの、下品だの言って悪かった。",
+     "en": "I'm sorry for calling you outsiders and vulgar until now.",
+     "speaker": "Oshida"
+    },
+    {
+     "start": 275.3,
+     "end": 278.9,
+     "ja": "こっちこそ、無知だの、世間知らずだの言って申し訳ない。",
+     "en": "Likewise, I apologize for calling you ignorant and sheltered.",
+     "speaker": "Andou"
+    },
+    {
+     "start": 278.9,
+     "end": 282.7,
+     "ja": "いやいやこちらこそ。野蛮だのバーバリアンだの、田吾作だの旧石器時代だの。",
+     "en": "No, no, on our end too. Calling you savages, barbarians, country bumpkins, Paleolithic era...",
+     "speaker": "Oshida"
+    },
+    {
+     "start": 282.7,
+     "end": 288.8,
+     "ja": "いやいやいや、こっちこそ、温室育ちだの、自分たちじゃ何にもできないだの、斜陽だの、革命起きたら真っ先にアレだの…",
+     "en": "No no no, our side as well: calling you spoiled greenhouse flowers, helpless on your own, declining aristocracy, the first ones against the wall when a revolution starts...",
+     "speaker": "Andou"
+    }
+   ]
+  },
+  {
+   "start": 451.4,
+   "end": 470.0,
+   "title": "Victory Comes to the Patient",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "food"
+   ],
+   "grammar": [
+    "〜にとって — for / to",
+    "〜みたい — like / as if",
+    "〜って言ってた — said that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 451.4,
+     "end": 456.4,
+     "ja": "ボカージュは私たちにとって宮殿の裏庭みたいなものだわ。",
+     "en": "The bocage is like a palace backyard to us.",
+     "speaker": "Marie"
+    },
+    {
+     "start": 456.5,
+     "end": 462.1,
+     "ja": "干し芋さんたちはレジスタンスのような遊撃戦を恐れているから、容易には手を出してこないの。",
+     "en": "The Dried Sweet Potato girls are afraid of guerrilla tactics like the Resistance, so they won't easily make a move.",
+     "speaker": "Marie"
+    },
+    {
+     "start": 462.5,
+     "end": 464.8,
+     "ja": "じっくり行きましょう。",
+     "en": "Let's take our time.",
+     "speaker": "Marie"
+    },
+    {
+     "start": 465.0,
+     "end": 470.0,
+     "ja": "最も辛抱強い人に勝利はやってくるの。って誰かが言ってたわ。",
+     "en": "Victory comes to the most patient of people. Or so someone once said.",
+     "speaker": "Marie"
+    }
+   ]
+  }
+ ],
+ "videoId": "mF0juid3PTY",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

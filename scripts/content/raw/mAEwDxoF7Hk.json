@@ -1,0 +1,187 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.8,
+   "end": 28.5,
+   "title": "Installing the Japanese Mod",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜だけ — just / only",
+    "〜よう — let's (volitional)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.0,
+     "end": 16.0,
+     "ja": "んーしかし、このゲームは公式では日本語非対応だ。",
+     "en": "Hmm, however, this game doesn't officially support Japanese.",
+     "speaker": "Akari"
+    },
+    {
+     "start": 16.2,
+     "end": 18.5,
+     "ja": "なので、まずは日本語化MODを入れよう。",
+     "en": "So, first let's install the Japanese language mod.",
+     "speaker": "Akari"
+    },
+    {
+     "start": 18.8,
+     "end": 21.0,
+     "ja": "このページの「サブスクライブ」を押してー、",
+     "en": "Press \"Subscribe\" on this page...",
+     "speaker": "Akari"
+    },
+    {
+     "start": 21.2,
+     "end": 23.2,
+     "ja": "起動画面の「Mods」をクリック。",
+     "en": "Click \"Mods\" on the launcher screen.",
+     "speaker": "Akari"
+    },
+    {
+     "start": 23.4,
+     "end": 25.5,
+     "ja": "あとはMODを有効にするだけ。",
+     "en": "Then just enable the mod.",
+     "speaker": "Akari"
+    },
+    {
+     "start": 25.6,
+     "end": 26.6,
+     "ja": "簡単でしょ？",
+     "en": "Simple, right?",
+     "speaker": "Akari"
+    },
+    {
+     "start": 26.9,
+     "end": 28.2,
+     "ja": "では、ゲームスタート！",
+     "en": "Now, let's start the game!",
+     "speaker": "Akari"
+    }
+   ]
+  },
+  {
+   "start": 64.0,
+   "end": 79.5,
+   "title": "Moving Military Units",
+   "level": "N4",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜てくれ — imperative request",
+    "〜ば — if / when (conditional)",
+    "〜てくれる — do something for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 64.2,
+     "end": 65.5,
+     "ja": "ではマップを見てくれ。",
+     "en": "Now take a look at the map.",
+     "speaker": "Akari"
+    },
+    {
+     "start": 65.7,
+     "end": 68.8,
+     "ja": "これが戦争の手駒になるユニット「師団」だ。",
+     "en": "These are \"divisions\", the units that serve as your war pieces.",
+     "speaker": "Akari"
+    },
+    {
+     "start": 69.0,
+     "end": 72.3,
+     "ja": "クリックして選択、その後右クリックすれば移動してくれる。",
+     "en": "Click to select, then right-click and they will move.",
+     "speaker": "Akari"
+    },
+    {
+     "start": 72.6,
+     "end": 75.3,
+     "ja": "ドラッグすればまとめて選択できるぞ。",
+     "en": "If you drag, you can select them all together.",
+     "speaker": "Akari"
+    },
+    {
+     "start": 75.8,
+     "end": 77.3,
+     "ja": "軍の動かし方は以上！",
+     "en": "That's all for how to move your military!",
+     "speaker": "Akari"
+    },
+    {
+     "start": 77.5,
+     "end": 79.2,
+     "ja": "これだけ分かれば君もソ連邦元帥だ！",
+     "en": "Once you know this much, you're a Marshal of the Soviet Union!",
+     "speaker": "Akari"
+    }
+   ]
+  },
+  {
+   "start": 275.5,
+   "end": 288.5,
+   "title": "Summary of Domestic Affairs",
+   "level": "N4",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜て — sequential actions",
+    "〜ば — if / when (conditional)",
+    "〜れる — potential form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 275.7,
+     "end": 277.5,
+     "ja": "内政の流れは以上だ！",
+     "en": "That's the basic flow of domestic affairs!",
+     "speaker": "Akari"
+    },
+    {
+     "start": 278.0,
+     "end": 280.2,
+     "ja": "まず研究して兵器を開発。",
+     "en": "First, research to develop weapons.",
+     "speaker": "Akari"
+    },
+    {
+     "start": 280.3,
+     "end": 282.6,
+     "ja": "工場を建てて、兵器を生産する。",
+     "en": "Build factories and produce the weapons.",
+     "speaker": "Akari"
+    },
+    {
+     "start": 282.8,
+     "end": 285.0,
+     "ja": "最後に徴兵して、師団を作る。",
+     "en": "Finally, conscript soldiers and create divisions.",
+     "speaker": "Akari"
+    },
+    {
+     "start": 285.2,
+     "end": 288.2,
+     "ja": "これを繰り返せば、世界最強の軍隊が作れるぞ！",
+     "en": "If you repeat this, you can build the world's strongest army!",
+     "speaker": "Akari"
+    }
+   ]
+  }
+ ],
+ "videoId": "mAEwDxoF7Hk",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

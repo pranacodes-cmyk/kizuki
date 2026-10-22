@@ -1,0 +1,124 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 26.8,
+   "end": 47.0,
+   "title": "Umaibo Snack Price Increase",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜から — starting from",
+    "〜になる — to become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 27.0,
+     "end": 36.0,
+     "ja": "お菓子の「うまい棒」は、10月から値段が上がります。",
+     "en": "The price of the snack Umaibo will increase starting in October.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 37.0,
+     "end": 46.5,
+     "ja": "今の1本12円から3円上がって、15円になります。",
+     "en": "It will go up by 3 yen from the current 12 yen per piece, becoming 15 yen.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 49.6,
+   "end": 72.2,
+   "title": "History and Popularity of Umaibo",
+   "level": "N5",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜でしたが — was ..., but",
+    "〜くて — and (te-form of i-adjectives)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 49.8,
+     "end": 58.5,
+     "ja": "うまい棒は、1979年から1本10円でしたが、",
+     "en": "Umaibo had been 10 yen apiece since 1979, but",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 58.8,
+     "end": 64.5,
+     "ja": "2年前、12円になりました。",
+     "en": "two years ago, it became 12 yen.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 65.8,
+     "end": 71.8,
+     "ja": "安くて、いろいろな味があって、人気があります。",
+     "en": "It is cheap, comes in various flavors, and is popular.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 826.0,
+   "end": 844.5,
+   "title": "Benefits of Fresh Local Vegetables",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜たて — freshly done",
+    "〜ず — without doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 826.5,
+     "end": 831.5,
+     "ja": "なにより採れたての野菜は、",
+     "en": "Above all, freshly picked vegetables",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 831.6,
+     "end": 835.5,
+     "ja": "新鮮で栄養満点で、美味しいです。",
+     "en": "are fresh, nutritious, and delicious.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 835.8,
+     "end": 840.5,
+     "ja": "輸送コストもかからず、手頃です。",
+     "en": "With no transportation costs, they are affordable.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 840.8,
+     "end": 844.0,
+     "ja": "お財布にも優しいですね。",
+     "en": "It's also friendly on the wallet.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "VIOPlpRYhlA",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

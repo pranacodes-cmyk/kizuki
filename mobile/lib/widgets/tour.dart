@@ -258,7 +258,7 @@ class _TourHostState extends State<TourHost> with TickerProviderStateMixin {
       r = TourAnchor.rectOf(s.target!, me);
       if (r != null) {
         r = r.inflate(6).intersect((Offset.zero & me.size).deflate(4));
-        if (r.height > tourMaxHoleHeight) r = Rect.fromLTWH(r.left, r.top, r.width, tourMaxHoleHeight);
+        if (!s.fullHole && r.height > tourMaxHoleHeight) r = Rect.fromLTWH(r.left, r.top, r.width, tourMaxHoleHeight);
         if (r.width < 16 || r.height < 16) r = null;
       }
       if (r == null) {
@@ -303,16 +303,22 @@ class _TourHostState extends State<TourHost> with TickerProviderStateMixin {
       pose: _pose(s.pose),
       text: text,
       progress: (Tour.I.index + 1) / total,
+      stepLabel: '${Tour.I.index + 1} of $total',
       kind: waitedOut && s.kind == 'action' ? 'tap' : s.kind,
       hint: s.hint,
       legendReady: legendReady,
       onNext: onNext,
     );
 
-    // Bubble placement: under a spotlight in the top half, above one lower down, else centered.
+    // Bubble placement: pinned (top = above a bottom sheet, bottom = over the lower part of a
+    // tall card), else under a spotlight in the top half, above one lower down, else centered.
     Widget placed;
     const estH = 200.0;
-    if (h != null) {
+    if (h != null && s.place == 'top') {
+      placed = Positioned(left: 16, right: 16, top: pad.top + 52, child: bubble);
+    } else if (h != null && s.place == 'bottom') {
+      placed = Positioned(left: 16, right: 16, bottom: pad.bottom + 16, child: bubble);
+    } else if (h != null) {
       final below = h.center.dy < size.height * 0.45;
       final spaceBelow = size.height - h.bottom - pad.bottom;
       final spaceAbove = h.top - pad.top - 48;
@@ -351,9 +357,10 @@ class _TourHostState extends State<TourHost> with TickerProviderStateMixin {
               ),
             ),
           ),
-          if (s.hand == 'tap' && h != null && action) _TapHand(anim: _hand, at: h),
+          if (s.hand == 'tap' && h != null && action) _TapHand(anim: _hand, at: h, tipY: s.handY ?? tourHandTipY),
           if (s.hand == 'swipe' && !waitedOut) _SwipeHand(anim: _hand, center: Offset(size.width / 2, size.height * 0.62)),
-          if (!waitingForTarget) (pass ? placedChild(placed) : placed),
+          // Action tips have no buttons: let taps through, so a tip resting on the card never blocks it.
+          if (!waitingForTarget) (pass || action ? placedChild(placed) : placed),
           Positioned(
             top: pad.top + 8,
             right: 16,
@@ -435,12 +442,13 @@ class _DimPainter extends CustomPainter {
 class _TapHand extends StatelessWidget {
   final Animation<double> anim;
   final Rect at;
-  const _TapHand({required this.anim, required this.at});
+  final double tipY;
+  const _TapHand({required this.anim, required this.at, required this.tipY});
   @override
   Widget build(BuildContext context) {
     // Fingertip on the lower part of the target, so the word itself stays readable
-    // (WelcomeTour.tsx: TOUR_HAND_TIP_Y).
-    final c = Offset(at.center.dx, at.top + at.height * tourHandTipY);
+    // (WelcomeTour.tsx: TOUR_HAND_TIP_Y / step.handY).
+    final c = Offset(at.center.dx, at.top + at.height * tipY);
     return Positioned(
       left: c.dx - 40,
       top: c.dy - 40,
@@ -510,11 +518,18 @@ class _Bubble extends StatelessWidget {
   final MascotPose pose;
   final String text;
   final double progress;
+  final String stepLabel;
   final String kind;
   final String? hint;
   final bool legendReady;
   final VoidCallback onNext;
-  const _Bubble({super.key, required this.pose, required this.text, required this.progress, required this.kind, required this.hint, required this.legendReady, required this.onNext});
+  const _Bubble({super.key, required this.pose, required this.text, required this.progress, required this.stepLabel, required this.kind, required this.hint, required this.legendReady, required this.onNext});
+
+  Widget _nextRow() => Row(children: [
+        Text(stepLabel, style: txt(12, w: FontWeight.w800, c: T.faint)),
+        const Spacer(),
+        _Pill(label: 'Next', enabled: true, onTap: onNext),
+      ]);
 
   @override
   Widget build(BuildContext context) {
@@ -537,12 +552,8 @@ class _Bubble extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(bottom: 10),
               child: Row(children: [
-                Container(
-                  padding: const EdgeInsets.only(bottom: 3),
-                  decoration: BoxDecoration(border: Border(bottom: BorderSide(color: id == 'new' ? T.info : (id == 'learning' ? T.learning : Colors.transparent), width: 3))),
-                  child: Text('言葉', style: jp(18, c: T.background)),
-                ),
-                const SizedBox(width: 12),
+                SizedBox(width: 64, child: Align(alignment: Alignment.centerLeft, child: LegendWord(look: id))),
+                const SizedBox(width: 8),
                 Expanded(
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                     Text(label, style: txt(14, w: FontWeight.w900, c: T.background)),
@@ -553,6 +564,19 @@ class _Bubble extends StatelessWidget {
             ),
           const SizedBox(height: 4),
           _Pill(label: 'Got it', enabled: legendReady, onTap: onNext, wide: true),
+        ] else if (kind == 'controls') ...[
+          const SizedBox(height: 10),
+          for (final (id, label) in tourControls)
+            Padding(
+              padding: const EdgeInsets.only(bottom: 8),
+              child: Row(children: [
+                Container(width: 36, height: 30, alignment: Alignment.center, decoration: BoxDecoration(color: T.background.withValues(alpha: 0.08), borderRadius: BorderRadius.circular(10)), child: ControlGlyph(id: id, color: T.background)),
+                const SizedBox(width: 10),
+                Expanded(child: Text(label, style: txt(14, w: FontWeight.w800, c: T.background))),
+              ]),
+            ),
+          const SizedBox(height: 2),
+          _nextRow(),
         ] else if (kind == 'finish') ...[
           const SizedBox(height: 12),
           _Pill(label: "Let's go!", enabled: true, onTap: onNext, wide: true),
@@ -567,11 +591,7 @@ class _Bubble extends StatelessWidget {
           ],
         ] else ...[
           const SizedBox(height: 10),
-          Row(children: [
-            Text('Tap anywhere', style: txt(12, w: FontWeight.w700, c: T.faint)),
-            const Spacer(),
-            _Pill(label: 'Next', enabled: true, onTap: onNext),
-          ]),
+          _nextRow(),
         ],
       ]),
     );
@@ -587,6 +607,41 @@ class _Bubble extends StatelessWidget {
       ]),
     );
   }
+}
+
+/// A legend sample drawn exactly like a transcript word (Transcript._Token): same font,
+/// 3px underline in the status colour, green box for the word being said.
+class LegendWord extends StatelessWidget {
+  final String look; // new | learning | known | speaking
+  const LegendWord({super.key, required this.look});
+  @override
+  Widget build(BuildContext context) {
+    final underline = switch (look) { 'new' => T.info, 'learning' => T.learning, _ => Colors.transparent };
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 2),
+      decoration: BoxDecoration(borderRadius: BorderRadius.circular(8), border: Border.all(color: look == 'speaking' ? T.success : Colors.transparent, width: 2)),
+      child: Container(
+        padding: const EdgeInsets.only(bottom: 3),
+        decoration: BoxDecoration(border: Border(bottom: BorderSide(color: underline, width: 3))),
+        child: Text('言葉', style: jp(20.8, c: T.background, h: 1.25)),
+      ),
+    );
+  }
+}
+
+/// The player buttons as they look in the clip controls (ClipView), for the controls step.
+class ControlGlyph extends StatelessWidget {
+  final String id;
+  final Color color;
+  const ControlGlyph({super.key, required this.id, required this.color});
+  @override
+  Widget build(BuildContext context) => switch (id) {
+        'replay' => Icon(LucideIcons.rotateCcw, size: 18, color: color),
+        'loop' => Icon(LucideIcons.repeat1, size: 18, color: color),
+        'speed' => Text('1×', style: txt(13, w: FontWeight.w900, c: color)),
+        'save' => Icon(LucideIcons.bookmark, size: 18, color: color),
+        _ => Text('Aa', style: txt(14, w: FontWeight.w900, c: color)),
+      };
 }
 
 class _Pill extends StatelessWidget {

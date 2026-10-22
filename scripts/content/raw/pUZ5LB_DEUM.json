@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.8,
+   "end": 31.8,
+   "title": "Where Are You From?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "どんな〜 — what kind of ~",
+    "〜くて — and (connecting i-adjectives)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.2,
+     "end": 10.4,
+     "ja": "マリアさん、出身はどこですか？",
+     "en": "Maria, where are you from?",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 12.0,
+     "end": 16.8,
+     "ja": "私はオーストラリアのシドニーです。",
+     "en": "I am from Sydney, Australia.",
+     "speaker": "Maria"
+    },
+    {
+     "start": 17.6,
+     "end": 22.0,
+     "ja": "シドニーですか。どんな町ですか？",
+     "en": "Sydney? What kind of town is it?",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 23.2,
+     "end": 27.9,
+     "ja": "私の町は、海が近くて静かです。",
+     "en": "My town is near the sea and quiet.",
+     "speaker": "Maria"
+    },
+    {
+     "start": 29.0,
+     "end": 31.3,
+     "ja": "いいですね。",
+     "en": "That's nice.",
+     "speaker": "Yuta"
+    }
+   ]
+  },
+  {
+   "start": 169.3,
+   "end": 197.0,
+   "title": "Ordering Hot Snacks at the Konbini",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜をお願いします — please give me ~",
+    "〜は要りますか — do you need ~?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 169.8,
+     "end": 176.2,
+     "ja": "肉まんと唐揚げですね。かしこまりました。",
+     "en": "A meat bun and fried chicken, right? Certainly.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 177.6,
+     "end": 181.8,
+     "ja": "おしぼりはいくつ必要ですか？",
+     "en": "How many wet towels do you need?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 182.8,
+     "end": 185.8,
+     "ja": "２つお願いします。",
+     "en": "Two, please.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 186.9,
+     "end": 192.4,
+     "ja": "かしこまりました。袋はいりますか？",
+     "en": "Certainly. Do you need a bag?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 193.5,
+     "end": 196.4,
+     "ja": "はい、お願いします。",
+     "en": "Yes, please.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 425.0,
+   "end": 457.5,
+   "title": "Taking a Taxi in Japan",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜までお願いします — to [place], please",
+    "〜から — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 425.4,
+     "end": 427.3,
+     "ja": "すみません、",
+     "en": "Excuse me,",
+     "speaker": "Customer"
+    },
+    {
+     "start": 427.7,
+     "end": 432.0,
+     "ja": "この地図の場所までお願いします。",
+     "en": "please take me to the place on this map.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 433.1,
+     "end": 436.0,
+     "ja": "はい、確認します。",
+     "en": "Yes, let me check.",
+     "speaker": "Driver"
+    },
+    {
+     "start": 436.4,
+     "end": 439.8,
+     "ja": "ああ、さくらカフェですね。",
+     "en": "Ah, Sakura Cafe, right.",
+     "speaker": "Driver"
+    },
+    {
+     "start": 441.8,
+     "end": 448.0,
+     "ja": "はい、そうです。どのくらい時間がかかりますか？",
+     "en": "Yes, that's right. About how long will it take?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 449.8,
+     "end": 453.3,
+     "ja": "道がすいていますから、",
+     "en": "The roads are clear,",
+     "speaker": "Driver"
+    },
+    {
+     "start": 453.9,
+     "end": 456.9,
+     "ja": "１５分くらいですよ。",
+     "en": "so it will take about 15 minutes.",
+     "speaker": "Driver"
+    }
+   ]
+  }
+ ],
+ "videoId": "pUZ5LB_DEUM",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

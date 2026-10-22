@@ -1,0 +1,250 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 100.4,
+   "end": 123.5,
+   "title": "Choosing Debate Sides",
+   "level": "N3",
+   "topics": [
+    "school",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ほうがいい — had better / prefer",
+    "〜可能性がある — there is a possibility that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 100.6,
+     "end": 102.5,
+     "ja": "ちなみにどっちがいいですか？",
+     "en": "By the way, which side do you prefer?",
+     "speaker": "Host"
+    },
+    {
+     "start": 102.6,
+     "end": 104.1,
+     "ja": "否定のほうがいいと思ってます。",
+     "en": "I think the negative side is better.",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 104.3,
+     "end": 106.4,
+     "ja": "おー。対する竹内さんはどうですか？",
+     "en": "Oh. What about you, Takeuchi-san?",
+     "speaker": "Host"
+    },
+    {
+     "start": 106.5,
+     "end": 107.8,
+     "ja": "私は肯定がいいですね。",
+     "en": "I'd prefer affirmative.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 107.9,
+     "end": 108.8,
+     "ja": "あ、肯定！",
+     "en": "Ah, affirmative!",
+     "speaker": "Host"
+    },
+    {
+     "start": 108.9,
+     "end": 111.1,
+     "ja": "こういうとこで恋芽生える可能性ありますからね。",
+     "en": "Romance might even sprout in moments like this.",
+     "speaker": "Host"
+    },
+    {
+     "start": 112.5,
+     "end": 114.3,
+     "ja": "じゃ、引いてください、どうぞ！",
+     "en": "Now then, please draw lots, go ahead!",
+     "speaker": "Host"
+    },
+    {
+     "start": 116.8,
+     "end": 118.7,
+     "ja": "おー！肯定が南山！",
+     "en": "Oh! Affirmative goes to Nanzan!",
+     "speaker": "Host"
+    },
+    {
+     "start": 118.8,
+     "end": 120.1,
+     "ja": "そして広尾が否定！",
+     "en": "And Hiroo gets negative!",
+     "speaker": "Host"
+    },
+    {
+     "start": 120.6,
+     "end": 122.8,
+     "ja": "これ、まさにやりたい方じゃないですか！",
+     "en": "That's exactly the side you both wanted!",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 221.2,
+   "end": 240.5,
+   "title": "Can You Buy Bonito Flakes Without Money?",
+   "level": "N3",
+   "topics": [
+    "food",
+    "comedy"
+   ],
+   "grammar": [
+    "〜からこそ — precisely because",
+    "〜んじゃないですか — isn't it the case that...?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 221.4,
+     "end": 224.3,
+     "ja": "愛があることによって、日常生活ではストレスが少ないんだ、",
+     "en": "You mentioned that having love results in less daily stress,",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 224.4,
+     "end": 225.9,
+     "ja": "みたいな話があったと思うんですけど。",
+     "en": "or something along those lines.",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 226.0,
+     "end": 226.6,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 226.7,
+     "end": 228.6,
+     "ja": "ま、じゃあお金がないとお好み焼きにも、",
+     "en": "Well then, if you have no money,",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 228.7,
+     "end": 231.0,
+     "ja": "その、鰹節っていっぱいかけられませんよね？",
+     "en": "you can't put lots of bonito flakes on okonomiyaki, right?",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 231.1,
+     "end": 231.7,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 232.2,
+     "end": 234.4,
+     "ja": "だってお金がないと鰹節買えないじゃないですか。",
+     "en": "Because without money you can't buy bonito flakes.",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 234.5,
+     "end": 236.5,
+     "ja": "え、お金がない…あー、ええと…",
+     "en": "Wait, no money... um, well...",
+     "speaker": "Takeuchi"
+    },
+    {
+     "start": 236.6,
+     "end": 239.8,
+     "ja": "だからお金があるからこそ愛っていうのは成り立つんじゃないんですか？",
+     "en": "So isn't it precisely because there's money that love can exist?",
+     "speaker": "Yamamoto"
+    }
+   ]
+  },
+  {
+   "start": 802.2,
+   "end": 824.5,
+   "title": "What Do You Really Think?",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "school"
+   ],
+   "grammar": [
+    "〜づらい — hard to do",
+    "〜通り — just as / as stated"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 802.5,
+     "end": 804.7,
+     "ja": "終わったねー。山本君どうだった？",
+     "en": "It's over! Yamamoto-kun, how was it?",
+     "speaker": "Host"
+    },
+    {
+     "start": 804.9,
+     "end": 807.2,
+     "ja": "いや、やっぱり僕自身もその、愛っていうものが",
+     "en": "Well, I personally don't really know",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 807.3,
+     "end": 808.9,
+     "ja": "何なのか分かっていないので、",
+     "en": "what love actually is, so...",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 810.8,
+     "end": 814.2,
+     "ja": "この論題っていうのは非常にやりづらかったなって気がします。",
+     "en": "I feel like this topic was really hard to tackle.",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 815.4,
+     "end": 817.7,
+     "ja": "本心ではどっちだと思う？ディベートじゃなくて。",
+     "en": "In your true heart, which do you think it is? Not for the debate.",
+     "speaker": "Host"
+    },
+    {
+     "start": 818.2,
+     "end": 819.9,
+     "ja": "本心でも、さっきも言った通り、",
+     "en": "Deep down, just like I said earlier,",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 820.0,
+     "end": 821.9,
+     "ja": "お金なのかなーっていう。",
+     "en": "I think it might be money.",
+     "speaker": "Yamamoto"
+    },
+    {
+     "start": 822.3,
+     "end": 824.0,
+     "ja": "本心、お金！",
+     "en": "Deep down, money!",
+     "speaker": "Host"
+    }
+   ]
+  }
+ ],
+ "videoId": "09Se9CAFjo0",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -3,6 +3,25 @@
 Flutter (`mobile/`) is the product; the web app is its phone-frame prototype.
 Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com/pranacodes-cmyk/kizuki
 
+## Production launch round (22 Oct, goal run)
+- [ ] Play: release AAB (versionCode bump) uploaded to the internal track as a draft via the Play API
+- [ ] Apple: macOS GitHub workflow (Flutter iOS build, distribution cert + App Store profile via API) → first TestFlight build
+- [ ] Store listing both stores: name, subtitle/short description, keywords, full description from competitor ASO research
+- [ ] Store art: app icon 512 (Play) + 1024 (Apple), Play feature graphic, phone screenshots (Apple 6.9"/6.5", Play) — real app UI in AI-styled frames, better than Kiku's
+- [ ] Meta max setup: SKAdNetwork IDs, privacy manifest, ATT asked after the app opens (iOS), full app-event set (no double counting with RevenueCat), RevenueCat device IDs after ATT
+- [ ] Founder video: UK/US presenter, better script than Kiku's, clear voice + captions (both clients)
+- [ ] Full audit of the Flutter app (crashes, logic, performance, UX) + fixes mirrored on web
+
+## Phone screenshots round 3 (tour + review card, 22 Oct) — no APK this round
+- [x] Review flashcard rebuilt like Kiku's: whole card is the tap target (no "Show answer"), card flips, Definition (clip meaning only when it adds something) + Context (original clip, highlighted sentence, Open the clip), Again/Good appear only after the flip, swipe still works
+- [x] Word levels like Kiku (1 New, 2 Recognized, 3 Familiar, 4 Almost known, Known, Ignored): rise with reviews, one level button + sheet on word card and saved-word sheet, badge in Vocab list, underline fades orange to brown
+- [x] Word card: cramped Learning/Known/eye/trash row replaced by level button + "I know it"/"Learn again"; Android sheets keep clear of the nav bar
+- [x] Tour: meaning/explain tips sit above the word card (card fully lit); legend drawn like real words incl. green "being said" box; controls step lists every button with its icon; "Aa" button; step counter instead of "Tap anywhere"; whole flashcard spotlit with tip on its empty lower part; short grade tip that leaves the sentence visible; tour word is a real content word (never ん/particles)
+- [x] YouTube's own captions also switched off in the flashcard/saved-word clip player (code done; real-phone check pending)
+- [x] Mirrored tests: levels, duplicate-meaning, tour-word pick, tour placement, flashcard + level-sheet widget tests. Flutter analyze clean, 84 Flutter tests + 68 web tests pass; web tour walked end-to-end in a phone-size browser
+- [ ] Android emulator run of the new flashcard/tour (needs a CI run; user asked for no APK this round)
+- [ ] Level thresholds (10 min / 3 days / 10 days, Known at 21 days) are my choice; confirm with the user
+
 ## Real-phone feedback round 1 (user screen recording, 22 Oct)
 - [x] Feedback round 2: removed simulated preview animation/geometry callbacks; released founder decoder before trial; single-flight content loading; actual swipeable home ClipView in both clients. 75 Flutter tests + 63 web tests pass; green emulator run 39752455442 verifies trial swipes, trial activation → account, full tour, feed swipes and 0.00px wobble. APK 1.1.2 delivered. Exact original real-phone crash cause remains unconfirmed without phone logs; phone retest pending.
 - [x] Name field: "Build my plan" + Skip stay fully above the keyboard (verified on the Android emulator with the real keyboard, 312px tall, and on web)
@@ -38,6 +57,7 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 - [x] Beginner round 2: 65 comprehensible-input / folk-tale / kids' videos → 594 clips, N5 207, N4 225, N3 152, N2 10
 - [x] Word splitting: long vowels (ー) stay with their word; numbers + counters are one word with the right reading (いっぷん, じゅっぷん, さんぜんねん…)
 - [x] Pinned dictionary download (scripts/content/fetch_dict.sh) so the pipeline re-runs from scratch
+- [x] Library round 3: 952 videos / 2,507 clips (N5 510, N4 942, N3 987, N2 64, N1 4), all proofread + word notes; 63 web tests pass. Flutter tests/APK not re-run (user asked to focus on content).
 - [x] Automated timing audit (order, bounds, durations, speed); lines never overlap the next line
 - [ ] Listen-through spot-check of a sample of clips by a person
 
@@ -84,3 +104,13 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 - Real prices / Play billing products (a permanent signing key now exists and can be the Play upload key)
 - Real support email (hello@kizuki.app is a placeholder)
 - Legal review of Terms / Privacy drafts
+
+## Store setup
+- [x] Apple bundle identifier com.kizukijapan.app registered (team key)
+- [x] RevenueCat V2 key saved; Android + iOS public SDK keys fetched and saved
+- [ ] Wire RevenueCat + Meta SDK into Flutter (needs Play/App Store product IDs + prices + entitlement name from user)
+- [ ] Privacy policy: mention Meta + RevenueCat, tracking opt-out
+- [x] App Store + Play subscriptions created (yearly 7-day trial, monthly), prices in all countries; RevenueCat entitlement/offering wired
+- [x] RevenueCat SDK in Flutter: live prices, buy, restore, status sync; iOS project created (com.kizukijapan.app)
+- [ ] iOS build/upload needs a macOS GitHub workflow + Apple signing certificate
+- [ ] E2E: emulator has no store account; build E2E APK with --dart-define=KIZUKI_SIMULATE_PURCHASES=true

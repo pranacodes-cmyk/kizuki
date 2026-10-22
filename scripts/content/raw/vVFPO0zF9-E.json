@@ -1,0 +1,146 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 21.8,
+   "end": 30.2,
+   "title": "Happy Father's Day Present",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜ました — polite past tense"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 22.1,
+     "end": 23.3,
+     "ja": "せいしくん。",
+     "en": "Seishi-kun.",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 23.9,
+     "end": 25.5,
+     "ja": "ハッピーファザーズデー。",
+     "en": "Happy Father's Day.",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 26.0,
+     "end": 27.2,
+     "ja": "マフィン作りました。",
+     "en": "I made muffins.",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 27.2,
+     "end": 28.5,
+     "ja": "ありがとう。",
+     "en": "Thank you.",
+     "speaker": "Father"
+    },
+    {
+     "start": 28.9,
+     "end": 30.0,
+     "ja": "いただきます。",
+     "en": "Thank you for the food.",
+     "speaker": "Father"
+    }
+   ]
+  },
+  {
+   "start": 249.7,
+   "end": 258.5,
+   "title": "Enjoying the Tsukune",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜た方がいい — had better / preferable to do",
+    "〜ねん — Kansai dialect explanatory particle"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 250.0,
+     "end": 253.0,
+     "ja": "匂いもやばいし、焼き加減最高やで。",
+     "en": "The smell is amazing, and the char is just perfect.",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 253.1,
+     "end": 254.9,
+     "ja": "これぐらい焦がした方が美味しい。",
+     "en": "It's tastier when it's charred like this.",
+     "speaker": "Father"
+    },
+    {
+     "start": 254.9,
+     "end": 256.0,
+     "ja": "そやねん、そやねん。",
+     "en": "Exactly, exactly.",
+     "speaker": "Daughter"
+    }
+   ]
+  },
+  {
+   "start": 353.6,
+   "end": 371.7,
+   "title": "Ordering a Highball",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜系 — type / category"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 354.0,
+     "end": 357.2,
+     "ja": "すみません、ハイボールもう１つください。",
+     "en": "Excuse me, could I get another highball please?",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 366.5,
+     "end": 367.6,
+     "ja": "美味しい。",
+     "en": "Delicious.",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 367.7,
+     "end": 369.8,
+     "ja": "濃い、味が濃い。",
+     "en": "Rich, the flavor is really rich.",
+     "speaker": "Father"
+    },
+    {
+     "start": 369.9,
+     "end": 371.4,
+     "ja": "お酒が進む系やな。",
+     "en": "It really makes you want to drink more.",
+     "speaker": "Daughter"
+    }
+   ]
+  }
+ ],
+ "videoId": "vVFPO0zF9-E",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

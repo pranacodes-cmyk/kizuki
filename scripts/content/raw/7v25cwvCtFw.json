@@ -1,0 +1,262 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.3,
+   "end": 27.6,
+   "title": "Biggest Struggle in Mexico",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜てほしい — wanting someone to do something",
+    "〜た時 — when/at the time"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.5,
+     "end": 2.8,
+     "ja": "私がちょっと聞いてみたいことは、",
+     "en": "One thing I'd really like to ask is,",
+     "speaker": "Host"
+    },
+    {
+     "start": 2.9,
+     "end": 8.8,
+     "ja": "メキシコで苦労したこと、大変だったことをゆーすけさんに教えてほしいです。",
+     "en": "I'd love for Yusuke to tell us about what he struggled with or found tough in Mexico.",
+     "speaker": "Host"
+    },
+    {
+     "start": 9.1,
+     "end": 13.0,
+     "ja": "そうだね。これも答えはひとつだけです。",
+     "en": "Right. Well, there's only one answer to this.",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 13.1,
+     "end": 14.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Host"
+    },
+    {
+     "start": 14.0,
+     "end": 15.1,
+     "ja": "言葉。",
+     "en": "Language.",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 15.1,
+     "end": 16.2,
+     "ja": "言葉！（笑）",
+     "en": "Language! (laughs)",
+     "speaker": "Host"
+    },
+    {
+     "start": 16.2,
+     "end": 17.3,
+     "ja": "言葉。",
+     "en": "Language.",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 18.2,
+     "end": 22.5,
+     "ja": "はい。メキシコに行った時は、スペイン語が話せなかったんですよね？",
+     "en": "Right. When you first went to Mexico, you couldn't speak Spanish, could you?",
+     "speaker": "Host"
+    },
+    {
+     "start": 22.5,
+     "end": 24.5,
+     "ja": "話せなかったね。",
+     "en": "I couldn't speak it at all.",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 24.7,
+     "end": 27.2,
+     "ja": "どうやって乗り越えたんですか？",
+     "en": "How did you overcome that?",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 119.2,
+   "end": 151.0,
+   "title": "All I Could Say Was I Like Tacos",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜じゃなくて — not A, but B",
+    "〜てもらう — have someone do",
+    "〜くらいしか…ない — only, nothing but"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 119.4,
+     "end": 121.6,
+     "ja": "自分の話をするんじゃなくて、",
+     "en": "Instead of talking about yourself,",
+     "speaker": "Host"
+    },
+    {
+     "start": 121.8,
+     "end": 125.7,
+     "ja": "逆に質問をして、たくさん話してもらうってことですか？",
+     "en": "you mean you asked questions and had them do most of the talking?",
+     "speaker": "Host"
+    },
+    {
+     "start": 125.8,
+     "end": 127.2,
+     "ja": "うん、そうそうそうそう。",
+     "en": "Yeah, exactly, exactly.",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 127.3,
+     "end": 132.4,
+     "ja": "だいたいみんな、僕が話すことなんて興味なかったから。",
+     "en": "Basically, nobody was interested in anything I had to say anyway.",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 132.8,
+     "end": 134.4,
+     "ja": "悲しい、悲しい（笑）。",
+     "en": "That's so sad! (laughs)",
+     "speaker": "Host"
+    },
+    {
+     "start": 134.5,
+     "end": 137.4,
+     "ja": "いや、それはもちろん、持ってるアイデアはまた別の話よ。",
+     "en": "Well, obviously, the ideas you have in your head are a different story.",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 137.5,
+     "end": 141.8,
+     "ja": "その時期で話せることの幅って本当になかった。",
+     "en": "At that stage, the range of things I could talk about was practically zero.",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 142.5,
+     "end": 146.4,
+     "ja": "「私はタコスを食べたいです。タコスが好きです。」",
+     "en": "\"I want to eat tacos. I like tacos.\"",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 146.6,
+     "end": 150.8,
+     "ja": "ぐらいしか話せなかったから、そんな話、誰が聞きたいっちゅう話じゃん（笑）。",
+     "en": "That was pretty much all I could say, so who would want to listen to that? (laughs)",
+     "speaker": "Yusuke"
+    }
+   ]
+  },
+  {
+   "start": 724.8,
+   "end": 750.5,
+   "title": "Wearing Backpacks in Front for Safety",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜てしまう — end up doing",
+    "〜たら — if/when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 725.2,
+     "end": 727.4,
+     "ja": "なんかメキシコから帰ってきてから、",
+     "en": "Ever since returning from Mexico,",
+     "speaker": "Host"
+    },
+    {
+     "start": 727.6,
+     "end": 731.4,
+     "ja": "リュックを前に持つっていう癖が直らなくて、",
+     "en": "I haven't been able to break the habit of wearing my backpack in front,",
+     "speaker": "Host"
+    },
+    {
+     "start": 733.2,
+     "end": 736.8,
+     "ja": "日本でも、私だけなんですよね、リュックを前に持ってる人。",
+     "en": "even in Japan, I'm the only person carrying a backpack in front.",
+     "speaker": "Host"
+    },
+    {
+     "start": 737.0,
+     "end": 739.5,
+     "ja": "で、もう後ろにしてもいいんですけど、",
+     "en": "And I know I could wear it on my back now,",
+     "speaker": "Host"
+    },
+    {
+     "start": 740.0,
+     "end": 741.3,
+     "ja": "なんか慣れてしまって。",
+     "en": "but I've just gotten so used to it.",
+     "speaker": "Host"
+    },
+    {
+     "start": 741.4,
+     "end": 742.5,
+     "ja": "なんか気持ち悪いよね。",
+     "en": "It feels uncomfortable otherwise, right?",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 742.5,
+     "end": 744.2,
+     "ja": "そうそうそうそう！",
+     "en": "Exactly, exactly!",
+     "speaker": "Host"
+    },
+    {
+     "start": 746.0,
+     "end": 748.8,
+     "ja": "でもまあ、気をつけていたら大丈夫ですよね？",
+     "en": "But still, as long as you're careful, you're fine, right?",
+     "speaker": "Host"
+    },
+    {
+     "start": 749.0,
+     "end": 750.2,
+     "ja": "そうだね。",
+     "en": "Yeah, that's true.",
+     "speaker": "Yusuke"
+    }
+   ]
+  }
+ ],
+ "videoId": "7v25cwvCtFw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

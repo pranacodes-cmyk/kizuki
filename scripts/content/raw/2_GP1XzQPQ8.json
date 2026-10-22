@@ -1,0 +1,182 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 26.6,
+   "end": 52.4,
+   "title": "Kyu-chan Helps with Store Sales",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜にある — to be located in",
+    "〜んじゃないですか — isn't it / don't you think"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 27.0,
+     "end": 31.7,
+     "ja": "東京都荒川区にある大衆酒場「栃木屋」さん。",
+     "en": "The pub Tochigi-ya, located in Arakawa Ward, Tokyo.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 32.5,
+     "end": 38.8,
+     "ja": "このお店の看板動物がおしゃべり大好き、九官鳥の九ちゃんです。",
+     "en": "This tavern's star mascot is Kyu-chan the hill myna, who loves to talk.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 40.1,
+     "end": 46.9,
+     "ja": "実はこの九ちゃんが達者なおしゃべりでお店の売り上げアップに協力しているんだとか。",
+     "en": "Apparently, Kyu-chan helps boost shop sales with its clever talking.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 48.0,
+     "end": 51.5,
+     "ja": "ええ、協力してますよ。エサ代ぐらい稼ぐんじゃないですか？",
+     "en": "Yes, he helps out. He probably earns enough to cover his own food expenses, wouldn't you say?",
+     "speaker": "Owner"
+    }
+   ]
+  },
+  {
+   "start": 608.6,
+   "end": 630.0,
+   "title": "Saying Goodbye to the Parrot",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくる — go and come back",
+    "〜そう — appears to be / looks like"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 609.4,
+     "end": 612.4,
+     "ja": "ピーちゃん、お出かけしてくるね。",
+     "en": "Pii-chan, I'm heading out for a bit, okay?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 612.4,
+     "end": 613.8,
+     "ja": "バイバイ！",
+     "en": "Bye-bye!",
+     "speaker": "Owner"
+    },
+    {
+     "start": 615.1,
+     "end": 616.4,
+     "ja": "バイバイ！",
+     "en": "Bye-bye!",
+     "speaker": "Owner"
+    },
+    {
+     "start": 617.4,
+     "end": 621.1,
+     "ja": "さあ、お母さんがお出かけするようです。",
+     "en": "Now, it looks like Mother is heading out.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 622.2,
+     "end": 624.5,
+     "ja": "こんな時は？",
+     "en": "At a time like this...?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 625.3,
+     "end": 627.5,
+     "ja": "いってらっしゃ〜い！",
+     "en": "Take care!",
+     "speaker": "Parrot"
+    },
+    {
+     "start": 628.0,
+     "end": 630.0,
+     "ja": "いってらっしゃ〜い！",
+     "en": "Take care!",
+     "speaker": "Parrot"
+    }
+   ]
+  },
+  {
+   "start": 757.2,
+   "end": 782.0,
+   "title": "Asking for More Apple",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜ない？ — question asking for confirmation / invitation",
+    "〜てくれる — doing something for someone's sake"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 757.5,
+     "end": 760.3,
+     "ja": "終わりね。食べない？いらない？",
+     "en": "All done, right? Won't you eat? Don't want any?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 760.3,
+     "end": 761.5,
+     "ja": "もっと！",
+     "en": "More!",
+     "speaker": "Parrot"
+    },
+    {
+     "start": 761.5,
+     "end": 764.3,
+     "ja": "もっと？もっと？はい。",
+     "en": "More? More? Here you go.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 764.7,
+     "end": 766.1,
+     "ja": "はい。",
+     "en": "Here.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 767.1,
+     "end": 769.7,
+     "ja": "おいし、おいし！",
+     "en": "Delicious, delicious!",
+     "speaker": "Parrot"
+    },
+    {
+     "start": 771.5,
+     "end": 774.8,
+     "ja": "食べた感想。でも、これだけじゃありません。",
+     "en": "His review after eating! But that's not all.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "2_GP1XzQPQ8",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

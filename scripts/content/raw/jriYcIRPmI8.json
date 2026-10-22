@@ -1,0 +1,190 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 508.2,
+   "end": 527.2,
+   "title": "Muscular Men vs. Skinny Men",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜として — assuming that",
+    "〜場合に — in the case of",
+    "〜のほうが — preferring one over another"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 508.4,
+     "end": 512.6,
+     "ja": "もしあなたが今独身だとして、",
+     "en": "If you were single right now,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 512.6,
+     "end": 516.2,
+     "ja": "２人の男性からパートナーを選ぶ場合に、",
+     "en": "and you had to choose between two men for a partner,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 516.2,
+     "end": 519.8,
+     "ja": "他の条件はほぼみんな同じで、",
+     "en": "everything else being equal,",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 519.8,
+     "end": 521.6,
+     "ja": "１人はすごく細身の人、",
+     "en": "let's say one is very thin",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 521.6,
+     "end": 523.8,
+     "ja": "でもう１人はとても筋肉質な人だった場合、",
+     "en": "and the other is very muscular.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 523.8,
+     "end": 526.4,
+     "ja": "どちらのほうが魅力的だと思いますか？",
+     "en": "Which one would you find more attractive?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 526.4,
+     "end": 528.9,
+     "ja": "私は細身のほうが好きですね。",
+     "en": "I'd prefer the thin one.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 740.5,
+   "end": 767.5,
+   "title": "What an Elderly Tokyoite Eats Daily",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜から — because / since",
+    "〜とか — such as / and so on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 740.7,
+     "end": 747.3,
+     "ja": "ええと、朝食はね、パン。パンとチーズと、プリン。",
+     "en": "Let's see, bread for breakfast. Bread, cheese, and pudding.",
+     "speaker": "Man"
+    },
+    {
+     "start": 747.3,
+     "end": 753.0,
+     "ja": "昼飯はね、ワイフが作ったものを食べるから決まってない。",
+     "en": "For lunch, I eat whatever my wife cooks, so it's not set in stone.",
+     "speaker": "Man"
+    },
+    {
+     "start": 753.0,
+     "end": 758.2,
+     "ja": "チャーハンとか、スパゲッティとか、寿司。寿司ね。",
+     "en": "Sometimes fried rice, spaghetti, or sushi. Sushi.",
+     "speaker": "Man"
+    },
+    {
+     "start": 758.2,
+     "end": 765.5,
+     "ja": "えー何だ、魚のね、鯖寿司とかね。",
+     "en": "What else... fish, mackerel sushi, for example.",
+     "speaker": "Man"
+    },
+    {
+     "start": 765.5,
+     "end": 767.2,
+     "ja": "毎日違う。",
+     "en": "It's different every day.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 808.5,
+   "end": 850.5,
+   "title": "Personal Tips for Losing Weight",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ために — in order to",
+    "〜って聞く — hear that...",
+    "〜たら — if / in the case of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 808.7,
+     "end": 813.4,
+     "ja": "ちょっとでも細くいるための、なんかコツとか個人的なものあったりします？",
+     "en": "Do you have any personal tips for losing weight?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 813.4,
+     "end": 816.2,
+     "ja": "それ俺に聞きます？",
+     "en": "You're asking me?",
+     "speaker": "Man"
+    },
+    {
+     "start": 816.2,
+     "end": 819.5,
+     "ja": "適切な運動とかじゃないですか、やっぱり。",
+     "en": "Regular exercise is good, after all.",
+     "speaker": "Man"
+    },
+    {
+     "start": 819.5,
+     "end": 821.3,
+     "ja": "どういう運動がいいと思います？",
+     "en": "What kind of exercise do you think is good?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 821.3,
+     "end": 826.3,
+     "ja": "水泳とかがいいって聞きますよね、あの全身動かすし。",
+     "en": "Swimming, maybe? It's a full-body workout.",
+     "speaker": "Man"
+    },
+    {
+     "start": 826.3,
+     "end": 830.2,
+     "ja": "だから俺だったら多分、水泳とかやるのかなって思います。",
+     "en": "So if it were me, I would probably do swimming.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "jriYcIRPmI8",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,114 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.2,
+   "end": 38.0,
+   "title": "Ghibli Short Animation Collection",
+   "level": "N2",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "〜をはじめ — starting with",
+    "〜を手掛ける — to work on / produce"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.4,
+     "end": 13.5,
+     "ja": "宮崎駿、百瀬義行をはじめ、",
+     "en": "Starting with Hayao Miyazaki and Yoshiyuki Momose,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 13.7,
+     "end": 17.5,
+     "ja": "スタジオジブリを支える監督、アニメーターたちが描いた",
+     "en": "drawn by the directors and animators who support Studio Ghibli,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 17.6,
+     "end": 21.0,
+     "ja": "貴重な短編作品集。",
+     "en": "a collection of rare short works.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 22.4,
+     "end": 26.5,
+     "ja": "1992年から2016年まで、",
+     "en": "From 1992 to 2016,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 26.6,
+     "end": 30.7,
+     "ja": "スタジオジブリが手掛けたプロモーションフィルムや",
+     "en": "promotional films created by Studio Ghibli,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 30.8,
+     "end": 34.4,
+     "ja": "ミュージッククリップ、企業CM、Webアニメーションほか、",
+     "en": "music clips, corporate commercials, web animations, and more,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 34.5,
+     "end": 37.8,
+     "ja": "数多くの貴重な映像を収録。",
+     "en": "containing a large number of rare videos.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 48.7,
+   "end": 65.5,
+   "title": "Studio Ghibli Special Short Shorts",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "〜が満載 — packed with",
+    "〜で発売 — released on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 48.9,
+     "end": 52.3,
+     "ja": "ジブリの魅力が満載。",
+     "en": "Packed with the charm of Ghibli.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 53.6,
+     "end": 60.0,
+     "ja": "ジブリがいっぱいSPECIAL ショートショート 1992-2016。",
+     "en": "Ghibli ga Ippai SPECIAL Short Short 1992-2016.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 60.6,
+     "end": 65.0,
+     "ja": "ブルーレイとDVDで7月17日新発売！",
+     "en": "New release on Blu-ray and DVD on July 17th!",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "KP5WbRo0Edg",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

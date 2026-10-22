@@ -1,0 +1,210 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 25.8,
+   "end": 40.0,
+   "title": "Highlights Are Important",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜たら — conditional when/if",
+    "〜そう — looks like",
+    "〜ね — seeking agreement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 26.0,
+     "end": 28.0,
+     "ja": "なんか白が入ったら",
+     "en": "With the color white added,",
+     "speaker": "A"
+    },
+    {
+     "start": 28.4,
+     "end": 29.3,
+     "ja": "うん",
+     "en": "Yeah.",
+     "speaker": "B"
+    },
+    {
+     "start": 29.3,
+     "end": 31.7,
+     "ja": "おいしそうになったね。",
+     "en": "It started looking delicious, didn't it?",
+     "speaker": "A"
+    },
+    {
+     "start": 31.8,
+     "end": 34.2,
+     "ja": "ハイライトは大事だからね。",
+     "en": "Highlights are important, you know.",
+     "speaker": "B"
+    },
+    {
+     "start": 34.3,
+     "end": 36.4,
+     "ja": "ハイライトが大事ですか？",
+     "en": "Highlights are important?",
+     "speaker": "A"
+    },
+    {
+     "start": 36.5,
+     "end": 37.3,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "B"
+    },
+    {
+     "start": 37.5,
+     "end": 39.5,
+     "ja": "なるほど。",
+     "en": "I see.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 46.5,
+   "end": 60.5,
+   "title": "Until I Feel It's Good Enough",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜まで — until",
+    "〜そう — looks like / seems like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 46.8,
+     "end": 49.7,
+     "ja": "あと何分ぐらいで仕上がりますか？",
+     "en": "About how many more minutes until it's finished?",
+     "speaker": "A"
+    },
+    {
+     "start": 49.8,
+     "end": 51.3,
+     "ja": "わかんない。",
+     "en": "I don't know.",
+     "speaker": "B"
+    },
+    {
+     "start": 51.5,
+     "end": 54.3,
+     "ja": "私がいいなと思うまで。",
+     "en": "Until I feel it's good enough.",
+     "speaker": "B"
+    },
+    {
+     "start": 54.4,
+     "end": 55.8,
+     "ja": "まだかかりそう？",
+     "en": "Is it going to take long?",
+     "speaker": "A"
+    },
+    {
+     "start": 55.9,
+     "end": 56.8,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "B"
+    },
+    {
+     "start": 57.0,
+     "end": 60.0,
+     "ja": "へえ！すごいこだわりですね。",
+     "en": "Wow, you're very particular!",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 210.5,
+   "end": 239.5,
+   "title": "Mixing Complementary Colors",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜っていうのは — talking about / the concept of",
+    "〜と — when / if (natural consequence)",
+    "〜たら — conditional if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 211.0,
+     "end": 214.5,
+     "ja": "なんか、青を使うっていうのが不思議だね。",
+     "en": "It's curious how you use blue here.",
+     "speaker": "A"
+    },
+    {
+     "start": 215.0,
+     "end": 220.5,
+     "ja": "青とオレンジは補色だから、混ぜると茶色になる。",
+     "en": "Blue and orange are complementary colors, so when mixed they become brown.",
+     "speaker": "B"
+    },
+    {
+     "start": 220.8,
+     "end": 225.5,
+     "ja": "補色！補色だと混ぜると茶色になる。",
+     "en": "Complementary colors! If they're complementary, mixing them makes brown.",
+     "speaker": "A"
+    },
+    {
+     "start": 225.8,
+     "end": 228.2,
+     "ja": "そう、黒くなるの。濁るの。",
+     "en": "Yes, it gets dark. It gets muddy.",
+     "speaker": "B"
+    },
+    {
+     "start": 228.2,
+     "end": 230.0,
+     "ja": "へーえ。",
+     "en": "Wow.",
+     "speaker": "A"
+    },
+    {
+     "start": 230.5,
+     "end": 235.5,
+     "ja": "ってことは、これがもしリンゴだったら、青じゃなくて緑を使う？",
+     "en": "So if this was an apple, you'd use green instead of blue?",
+     "speaker": "A"
+    },
+    {
+     "start": 235.8,
+     "end": 238.2,
+     "ja": "こともあり得る。",
+     "en": "That's possible too.",
+     "speaker": "B"
+    },
+    {
+     "start": 238.3,
+     "end": 239.5,
+     "ja": "ああー。",
+     "en": "Ah.",
+     "speaker": "A"
+    }
+   ]
+  }
+ ],
+ "videoId": "whwo881y1eo",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,218 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 21.8,
+   "end": 36.5,
+   "title": "The Early Life of Sigmund Freud",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜として — as (role/capacity)",
+    "〜と — upon doing / when",
+    "〜について — about / regarding"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 21.9,
+     "end": 24.4,
+     "ja": "ジークムント・フロイトは1856年、",
+     "en": "Sigmund Freud was born in 1856",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 24.4,
+     "end": 28.0,
+     "ja": "オーストリアのフライベルクにユダヤ人の子供として生まれます。",
+     "en": "in Freiberg, Austria, as the child of Jewish parents.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 28.0,
+     "end": 30.3,
+     "ja": "17歳でウィーン大学に入学すると、",
+     "en": "Upon entering the University of Vienna at age 17,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 30.3,
+     "end": 32.4,
+     "ja": "物理学と医学を学び、",
+     "en": "he studied physics and medicine,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 32.4,
+     "end": 34.7,
+     "ja": "29歳の頃にはパリに留学をし、",
+     "en": "and around age 29, he studied abroad in Paris,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 34.7,
+     "end": 36.5,
+     "ja": "ヒステリーの治療について研究します。",
+     "en": "researching the treatment of hysteria.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 83.7,
+   "end": 104.0,
+   "title": "Discovery of the Unconscious",
+   "level": "N2",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜といえば — speaking of",
+    "〜とするならば — if we assume that",
+    "〜はず — should be / ought to be"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 83.7,
+     "end": 85.5,
+     "ja": "フロイトの一番の功績といえば、",
+     "en": "Speaking of Freud's greatest achievement,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 85.5,
+     "end": 87.2,
+     "ja": "「無意識」の発見です。",
+     "en": "it is the discovery of the unconscious.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 87.2,
+     "end": 89.0,
+     "ja": "我々からすると不思議ですが、",
+     "en": "It may seem strange to us,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 89.0,
+     "end": 91.0,
+     "ja": "フロイトが現れるまでの世界では、",
+     "en": "but in the world before Freud appeared,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 91.0,
+     "end": 94.2,
+     "ja": "人間の中に無意識が存在するとはされていませんでした。",
+     "en": "the unconscious was not considered to exist within humans.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 94.2,
+     "end": 97.8,
+     "ja": "しかし、仮に人間が明瞭な意識だけで生きているとするならば、",
+     "en": "However, if humans lived solely by clear conscious awareness,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 97.8,
+     "end": 100.4,
+     "ja": "もっと人間の行動を体系化して説明できるはずです。",
+     "en": "we should be able to systematize and explain human behavior much more.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 100.4,
+     "end": 104.0,
+     "ja": "でもご存知の通り、それは未だに解明されていません。",
+     "en": "Yet as you know, that has still not been fully resolved.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 171.5,
+   "end": 193.0,
+   "title": "Freudian Slips and Daily Life",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "work",
+    "school"
+   ],
+   "grammar": [
+    "〜のに — even though",
+    "〜てしまう — unintentionally do",
+    "〜ことができる — can do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 171.8,
+     "end": 173.8,
+     "ja": "1つが「錯誤行為」。",
+     "en": "One is 'parapraxis' (Freudian slips).",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 173.8,
+     "end": 176.5,
+     "ja": "これは言い間違いやど忘れなどのことです。",
+     "en": "This refers to things like slips of the tongue or memory lapses.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 176.5,
+     "end": 178.2,
+     "ja": "私は会社員時代に、",
+     "en": "Back when I was an office worker,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 178.2,
+     "end": 181.8,
+     "ja": "家にいるのに「帰りたい」と発言する経験が何度もありました。",
+     "en": "I frequently had the experience of saying 'I want to go home' while already at home.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 181.8,
+     "end": 184.2,
+     "ja": "これは会社に行きたくないという欲望が、",
+     "en": "This is likely the result of the desire not to go to work",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 184.2,
+     "end": 186.6,
+     "ja": "無意識に解放されている結果でしょう。",
+     "en": "being unconsciously released.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 186.6,
+     "end": 189.6,
+     "ja": "また、学校の先生に「お母さん」と言ってしまうのも、",
+     "en": "Also, accidentally calling a school teacher 'Mom'",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 189.6,
+     "end": 193.0,
+     "ja": "何かしらの親への欲望の表象化と捉えることもできます。",
+     "en": "can also be seen as a manifestation of some desire toward one's parents.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "4f1FAQdsqic",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

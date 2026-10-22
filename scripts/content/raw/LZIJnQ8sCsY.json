@@ -1,0 +1,146 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 35.0,
+   "end": 48.6,
+   "title": "The Ice Cream Is Melting",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy",
+    "food"
+   ],
+   "grammar": [
+    "〜ちゃう — contraction of 〜てしまう",
+    "〜てんだ — contraction of 〜ているんだ",
+    "〜なんか — something like / things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 35.3,
+     "end": 36.8,
+     "ja": "あ？なんだよ？",
+     "en": "Huh? What is it?",
+     "speaker": "Man"
+    },
+    {
+     "start": 37.3,
+     "end": 39.8,
+     "ja": "アイス溶けちゃうにゃ。",
+     "en": "The ice cream is gonna melt, nya.",
+     "speaker": "Yani Neko"
+    },
+    {
+     "start": 40.3,
+     "end": 42.4,
+     "ja": "馬鹿野郎！説教してんだぞ！",
+     "en": "Idiot! I'm lecturing you here!",
+     "speaker": "Man"
+    },
+    {
+     "start": 42.4,
+     "end": 44.8,
+     "ja": "アイスなんかより気にすることがあるだろう！",
+     "en": "There are more important things to care about than ice cream!",
+     "speaker": "Man"
+    },
+    {
+     "start": 44.8,
+     "end": 48.3,
+     "ja": "常識！所作！思いやり！美意識！世界平和！",
+     "en": "Common sense! Manners! Consideration! Aesthetics! World peace!",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 112.5,
+   "end": 137.8,
+   "title": "Don't Take a Smoke Break",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ていい — permission (it is okay to)",
+    "〜みてえ — colloquial form of 〜みたい (looks like)",
+    "〜終わったら — after finishing doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 112.8,
+     "end": 115.0,
+     "ja": "あーもう悪かった！悪かったよ！",
+     "en": "Ah, fine, I'm sorry! I'm sorry!",
+     "speaker": "Man"
+    },
+    {
+     "start": 115.0,
+     "end": 117.2,
+     "ja": "さ、食っていいから。ほら、食え！",
+     "en": "Go ahead, you can eat it. Here, eat!",
+     "speaker": "Man"
+    },
+    {
+     "start": 117.8,
+     "end": 119.0,
+     "ja": "にゃ…",
+     "en": "Nya...",
+     "speaker": "Yani Neko"
+    },
+    {
+     "start": 119.2,
+     "end": 122.2,
+     "ja": "なんだよ、俺が悪いことしたみてえじゃねえか。",
+     "en": "What, now you're making it look like I'm the bad guy.",
+     "speaker": "Man"
+    },
+    {
+     "start": 122.5,
+     "end": 123.3,
+     "ja": "にゃ。",
+     "en": "Nya.",
+     "speaker": "Yani Neko"
+    },
+    {
+     "start": 123.4,
+     "end": 126.3,
+     "ja": "「にゃ」じゃねえよ！泣きたいのはこっちだよ！",
+     "en": "Don't 'nya' me! I'm the one who wants to cry!",
+     "speaker": "Man"
+    },
+    {
+     "start": 127.0,
+     "end": 130.4,
+     "ja": "それ食い終わったら、ちゃんと俺の話も聞けよ。",
+     "en": "Once you finish eating that, you better listen to what I have to say.",
+     "speaker": "Man"
+    },
+    {
+     "start": 131.0,
+     "end": 132.0,
+     "ja": "にゃ。",
+     "en": "Nya.",
+     "speaker": "Yani Neko"
+    },
+    {
+     "start": 134.8,
+     "end": 137.5,
+     "ja": "タバコ休憩挟んでんじゃねえ！",
+     "en": "Don't squeeze in a smoke break!",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "LZIJnQ8sCsY",
+ "pickTopics": [
+  "anime",
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,163 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.6,
+   "end": 10.5,
+   "title": "Kubo on Winning Four Straight Matches",
+   "level": "N3",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜たらいい — hoping for something",
+    "〜のかな — wondering / softening an opinion"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 3.5,
+     "ja": "4試合やって4連勝できたらいいなって話を",
+     "en": "We all talked about how great it'd be to win all four matches,",
+     "speaker": "Kubo"
+    },
+    {
+     "start": 3.5,
+     "end": 4.4,
+     "ja": "みんなでしてて、",
+     "en": "and discussing it together,",
+     "speaker": "Kubo"
+    },
+    {
+     "start": 4.5,
+     "end": 6.3,
+     "ja": "最後も勝って終われて、",
+     "en": "we were able to finish with a win at the end,",
+     "speaker": "Kubo"
+    },
+    {
+     "start": 6.4,
+     "end": 9.5,
+     "ja": "非常にいい、新たなスタートを切れたのかなと",
+     "en": "so I feel like we got off to a really good fresh start.",
+     "speaker": "Kubo"
+    },
+    {
+     "start": 9.5,
+     "end": 10.5,
+     "ja": "思ってます。",
+     "en": "That's how I see it.",
+     "speaker": "Kubo"
+    }
+   ]
+  },
+  {
+   "start": 208.4,
+   "end": 218.0,
+   "title": "Doan Reflects on His Winning Goal",
+   "level": "N3",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜た瞬間 — the moment that",
+    "〜のおかげ — thanks to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 208.7,
+     "end": 211.0,
+     "ja": "まぁ、簡単なゴールではあったので、",
+     "en": "Well, it was an easy goal,",
+     "speaker": "Doan"
+    },
+    {
+     "start": 211.1,
+     "end": 213.8,
+     "ja": "あの、来た瞬間入ったことは確信しましたけど、",
+     "en": "so the moment it came to me, I was confident it was going in,",
+     "speaker": "Doan"
+    },
+    {
+     "start": 214.0,
+     "end": 215.4,
+     "ja": "あの、先ほども言いましたけど、",
+     "en": "but like I said earlier,",
+     "speaker": "Doan"
+    },
+    {
+     "start": 215.5,
+     "end": 216.8,
+     "ja": "あの、チームメイトのおかげなので、",
+     "en": "it's all thanks to my teammates,",
+     "speaker": "Doan"
+    },
+    {
+     "start": 216.8,
+     "end": 218.0,
+     "ja": "チームメイトに感謝したいと思います。",
+     "en": "so I want to thank them.",
+     "speaker": "Doan"
+    }
+   ]
+  },
+  {
+   "start": 279.8,
+   "end": 291.3,
+   "title": "Ueda on Finishing the Window Successfully",
+   "level": "N3",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜てくる — continuing action up to present",
+    "〜と思う — I think"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 280.0,
+     "end": 281.7,
+     "ja": "嬉しいです。",
+     "en": "I'm happy.",
+     "speaker": "Ueda"
+    },
+    {
+     "start": 282.0,
+     "end": 283.7,
+     "ja": "あの、まず勝てたこと、",
+     "en": "First of all, being able to win,",
+     "speaker": "Ueda"
+    },
+    {
+     "start": 283.7,
+     "end": 285.9,
+     "ja": "それは良かったことだと思いますし、",
+     "en": "I think that was a great thing, and",
+     "speaker": "Ueda"
+    },
+    {
+     "start": 286.0,
+     "end": 288.8,
+     "ja": "まぁチームとしてその、トライしてきたことが、",
+     "en": "the things we've been trying out as a team,",
+     "speaker": "Ueda"
+    },
+    {
+     "start": 288.8,
+     "end": 291.0,
+     "ja": "まぁいい形で終われたのは良かったと思います。",
+     "en": "ending in a positive way was really good, I think.",
+     "speaker": "Ueda"
+    }
+   ]
+  }
+ ],
+ "videoId": "ULIusjmwLU8",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

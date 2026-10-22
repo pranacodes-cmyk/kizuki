@@ -1,0 +1,160 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 20.0,
+   "end": 28.7,
+   "title": "Why She Wants a Tall Partner",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "family"
+   ],
+   "grammar": [
+    "〜だと — if / when",
+    "〜ちゃう — end up doing (casual)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 20.2,
+     "end": 22.3,
+     "ja": "180cm前後。",
+     "en": "I'd say around 180cm.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 22.4,
+     "end": 24.0,
+     "ja": "私がチビだから、",
+     "en": "Because I'm short...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 24.1,
+     "end": 25.7,
+     "ja": "ちっちゃい男の人だと、",
+     "en": "if the guy is short too,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 25.8,
+     "end": 28.5,
+     "ja": "あの、チビ家族になっちゃうから、家族が。",
+     "en": "well, then the whole family would end up being short.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 124.2,
+   "end": 136.5,
+   "title": "Acceptable Age Gap for Dating",
+   "level": "N3",
+   "topics": [
+    "romance"
+   ],
+   "grammar": [
+    "〜くらい — about / approximately",
+    "〜まで — up to / as far as",
+    "可能形 — potential form (いける)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 124.5,
+     "end": 126.6,
+     "ja": "私が今26なので、",
+     "en": "I'm 26 now, so...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 127.3,
+     "end": 130.0,
+     "ja": "37くらいかなと思ったけど、",
+     "en": "I initially thought 37 was the limit, but...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 130.6,
+     "end": 133.5,
+     "ja": "多分45くらいまで全然いける。",
+     "en": "now I think up to 45 is totally fine.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 134.0,
+     "end": 136.2,
+     "ja": "だから結構上までいける、20個上ぐらい。",
+     "en": "So I can go pretty much older, like 20 years older.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 162.8,
+   "end": 173.3,
+   "title": "Does His University Matter?",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "school"
+   ],
+   "grammar": [
+    "〜とか — or something like",
+    "〜って言われたら — if told that...",
+    "〜とする — onomatopoeia + suru (ドキッとする)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 163.0,
+     "end": 164.7,
+     "ja": "気にしないけど、",
+     "en": "I don't really mind, but...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 164.8,
+     "end": 167.0,
+     "ja": "高校中退とかでも全然いいけど、",
+     "en": "Even a high school dropout is totally fine, but...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 167.1,
+     "end": 169.0,
+     "ja": "でも「スタンフォード行ったよ」とか、",
+     "en": "if he says like, 'I went to Stanford,' or...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 169.1,
+     "end": 170.3,
+     "ja": "「ハーバードだよ」とか、",
+     "en": "'Harvard,' or...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 170.4,
+     "end": 171.6,
+     "ja": "「MITだよ」って言われたら、",
+     "en": "'MIT,'",
+     "speaker": "Woman"
+    },
+    {
+     "start": 171.7,
+     "end": 173.1,
+     "ja": "やっぱり「あ、すごっ」ってちょっとドキッとする。",
+     "en": "I'd definitely be like 'Wow, impressive!' and get a little fluttered.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "VIMYW9D9ods",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 126.7,
+   "end": 140.0,
+   "title": "Studying Abroad Timeline",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜と思う — think that",
+    "〜と — if/when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 127.0,
+     "end": 130.0,
+     "ja": "では最初、留学するパターンを話します。",
+     "en": "First, let's talk about the study abroad scenario.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 130.4,
+     "end": 133.5,
+     "ja": "結論は、生活するレベルだと3ヶ月、",
+     "en": "In short, for everyday living level, it takes about three months,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 133.7,
+     "end": 136.9,
+     "ja": "友達を作るレベルだと6ヶ月かかると思います。",
+     "en": "and to make friends, I think it takes about six months.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 137.2,
+     "end": 139.8,
+     "ja": "「え、長い！」って感じてる人もいると思います。",
+     "en": "Some of you might be thinking, \"Wait, that's so long!\"",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 317.9,
+   "end": 331.4,
+   "title": "The Meaning of Perapera",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜を表す — express/represent",
+    "〜ている — ongoing action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 318.2,
+     "end": 321.0,
+     "ja": "「ペラペラ、ペラペラ」。",
+     "en": "\"Pera pera, pera pera.\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 321.2,
+     "end": 325.2,
+     "ja": "「ペラペラ」は言語を流暢に話している様子を表します。",
+     "en": "\"Pera pera\" describes the state of speaking a language fluently.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 325.4,
+     "end": 327.6,
+     "ja": "今でもよく覚えていることがあって、",
+     "en": "There's something I still remember clearly,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 327.7,
+     "end": 331.1,
+     "ja": "それは台湾のナイトマーケットで夜ご飯を買おうと思っていた時、",
+     "en": "which was when I was trying to buy dinner at a night market in Taiwan.",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 726.3,
+   "end": 747.8,
+   "title": "Consistency Is Key in Studying",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜よりも〜の方が — X is more ... than Y",
+    "〜ば — if (conditional)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 726.7,
+     "end": 732.5,
+     "ja": "勉強って、1時間を1日よりも10分を6日間の方が意味あるんですよね。",
+     "en": "When studying, doing 10 minutes for 6 days is more meaningful than 1 hour in a single day.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 733.2,
+     "end": 738.0,
+     "ja": "ですので5ヶ月勉強すれば、僕のその1ヶ月と同じくらいだと思います。",
+     "en": "So if you study for 5 months, I think it equals about my 1 month.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 738.5,
+     "end": 743.0,
+     "ja": "合計6ヶ月勉強した後は、会話から日本語を覚えられるようになるので、",
+     "en": "After studying for a total of 6 months, you'll be able to pick up Japanese through conversation,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 743.7,
+     "end": 747.6,
+     "ja": "10ヶ月後くらいには日本語で友達ができるレベルになると思います。",
+     "en": "so after about 10 months, I think you'll reach a level where you can make friends in Japanese.",
+     "speaker": "Hitoki"
+    }
+   ]
+  }
+ ],
+ "videoId": "RGOO1ehnw2M",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,200 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.7,
+   "end": 29.3,
+   "title": "Plans for a Glamorous Vlog Ruined",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜なきゃいけない — must do",
+    "〜予定 — plan to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 12.7,
+     "end": 15.3,
+     "ja": "今日は普通に平日水曜日なんでね、",
+     "en": "Today is just a regular weekday, Wednesday,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 15.4,
+     "end": 17.2,
+     "ja": "学校に行かなきゃいけなくて、",
+     "en": "so I have to go to school,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 17.3,
+     "end": 20.5,
+     "ja": "結構キラキラしたVlogを撮る予定だったんですよ。",
+     "en": "and I was planning to film a glamorous vlog.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 20.6,
+     "end": 23.8,
+     "ja": "まあなんか、イタリア大学生の１日みたいな。",
+     "en": "Like, 'A Day in the Life of a University Student in Italy'.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 23.9,
+     "end": 27.0,
+     "ja": "朝７時に目覚ましをセットしてたんですけど、",
+     "en": "I had set my alarm for 7 a.m., but...",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 27.1,
+     "end": 29.2,
+     "ja": "１１時に起きました。",
+     "en": "I woke up at 11 a.m.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 101.8,
+   "end": 120.2,
+   "title": "Overslept and Breaking Out",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ちゃう — to do completely / accidentally",
+    "〜てさ — and (casual filler)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 101.8,
+     "end": 104.4,
+     "ja": "昨日の夜さ、４時ぐらいまで寝られなくて、",
+     "en": "Last night, I couldn't fall asleep until around 4 a.m.,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 104.5,
+     "end": 107.1,
+     "ja": "でも頑張って７時に起きるぞと思ったんだけどな。",
+     "en": "but I thought, 'I'll try my best to wake up at 7!'",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 107.2,
+     "end": 108.7,
+     "ja": "しっかり寝ちゃった。",
+     "en": "I totally ended up sleeping in.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 108.8,
+     "end": 111.0,
+     "ja": "しっかり７時間ぐらい寝ちゃった。",
+     "en": "I slept a solid seven hours.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 111.1,
+     "end": 112.3,
+     "ja": "最悪だ、マジで。",
+     "en": "Seriously, it's the worst.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 112.4,
+     "end": 115.6,
+     "ja": "しかも、最近肌の調子悪くてさ、水が合わなくて、",
+     "en": "Plus, my skin's been acting up lately because the water doesn't suit me,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 115.7,
+     "end": 118.5,
+     "ja": "ここら辺とかここら辺とか、めちゃめちゃニキビできてるんですよ。",
+     "en": "and I'm breaking out like crazy around here and here.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 118.6,
+     "end": 120.0,
+     "ja": "それも最悪。",
+     "en": "That's terrible too.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 615.5,
+   "end": 628.0,
+   "title": "Drinking to Reset a Bad Day",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜ようと思う — to intend to",
+    "〜ていく — to continue doing / progress"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 615.5,
+     "end": 617.3,
+     "ja": "こういう日は忘れようと思います。",
+     "en": "On days like this, I just want to forget everything.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 617.4,
+     "end": 619.4,
+     "ja": "うまくいかない日はお酒を飲んで、",
+     "en": "When things go wrong, you drink alcohol,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 619.5,
+     "end": 621.3,
+     "ja": "忘れて寝る。で、リセット。",
+     "en": "forget about it, and go to bed. And then reset.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 621.4,
+     "end": 623.4,
+     "ja": "こうやって人生うまく生きていく。",
+     "en": "That's how you make it through life smoothly.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 623.5,
+     "end": 625.8,
+     "ja": "そのために酒って合法だから。",
+     "en": "That's why alcohol is legal after all.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 625.9,
+     "end": 627.7,
+     "ja": "ということで、お店で会いましょう。",
+     "en": "Anyway, let's meet at the restaurant.",
+     "speaker": "Speaker"
+    }
+   ]
+  }
+ ],
+ "videoId": "-_gt1zxkmA8",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

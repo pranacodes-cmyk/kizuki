@@ -1,0 +1,138 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 126.0,
+   "end": 146.8,
+   "title": "Don't Study with Romaji",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜ないで — don't do",
+    "〜たことがない — have never done"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 126.0,
+     "end": 129.1,
+     "ja": "それでは1つ目。ローマ字で勉強しないで。",
+     "en": "First of all: don't study with romaji.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 129.1,
+     "end": 134.2,
+     "ja": "ローマ字で日本語を勉強して、日本語が上手な人はもう見たことないです。",
+     "en": "I've never seen anyone who got good at Japanese by studying with romaji.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 134.2,
+     "end": 138.0,
+     "ja": "もう絶対ひらがなを覚えて、ひらがなで勉強してください。",
+     "en": "Definitely memorize hiragana and study using hiragana.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 138.0,
+     "end": 146.3,
+     "ja": "めんどくさいのはわかるけど、ローマ字で「Arigato」とか「Konnichiwa」って書いていたら、もう絶対成長しないですよ。",
+     "en": "I know it's a hassle, but if you write things like 'Arigato' or 'Konnichiwa' in romaji, you'll never improve.",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 191.2,
+   "end": 211.2,
+   "title": "Don't Translate Word for Word",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜ようとする — try to do",
+    "〜たら — if / when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 191.2,
+     "end": 197.3,
+     "ja": "失敗する勉強方法2つ目。何でもかんでも一語一句翻訳しようとする。",
+     "en": "Second study mistake: trying to translate everything word for word.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 197.3,
+     "end": 203.8,
+     "ja": "そもそも僕たちは、何か言いたいことがあった時に、言語を使って相手に伝えるんですよ。",
+     "en": "To begin with, we use language to convey things when we have something to say.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 203.8,
+     "end": 210.8,
+     "ja": "ですので、もしテレパシーとかあったら、言いたいことがそのまま伝わるので、言語とかいらないんですよ。",
+     "en": "So if telepathy existed, what we wanted to say would get across directly, and we wouldn't need language at all.",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 343.7,
+   "end": 365.1,
+   "title": "How to Take Constructive Criticism",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜ば — if (conditional)",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 343.7,
+     "end": 347.3,
+     "ja": "やっぱり聞いている人の方が、どんどんレベルも上がっていました。",
+     "en": "As expected, people who listened to feedback saw their level go up rapidly.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 347.3,
+     "end": 353.4,
+     "ja": "ま、でもアドバイスをもらった時って、ちょっと耳が痛かったり、ズキってここが痛くなるじゃないですか。",
+     "en": "Well, when you get advice, it can be hard to hear and sting a little, right?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 353.4,
+     "end": 359.8,
+     "ja": "でもズキっていう気持ちがあるってことは、そこを直せばものすごく成長するってことなので、",
+     "en": "But that sting means fixing that area will help you grow tremendously, so...",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 359.8,
+     "end": 364.7,
+     "ja": "本当に嫌かもしれないけど、そこは自分のためだと思って聞いてみてください。",
+     "en": "You might really dislike it, but try listening and seeing it as something for your own good.",
+     "speaker": "Hitoki"
+    }
+   ]
+  }
+ ],
+ "videoId": "FPeEjr_lTgs",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

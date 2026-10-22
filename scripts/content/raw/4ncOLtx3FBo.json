@@ -1,0 +1,253 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.0,
+   "end": 61.0,
+   "title": "Asking About the Coffee Stand",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜歴 — experience / history of",
+    "〜んすか — casual form of 〜のですか"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.2,
+     "end": 46.5,
+     "ja": "菅原さん、競馬歴どんくらいですか？",
+     "en": "Sugahara-san, how long have you been into horse racing?",
+     "speaker": "Host"
+    },
+    {
+     "start": 46.7,
+     "end": 47.7,
+     "ja": "ぼちぼち。",
+     "en": "So-so.",
+     "speaker": "Sugahara"
+    },
+    {
+     "start": 47.7,
+     "end": 48.7,
+     "ja": "「ぼちぼち」って。",
+     "en": "What do you mean, 'so-so'?",
+     "speaker": "Host"
+    },
+    {
+     "start": 48.8,
+     "end": 50.7,
+     "ja": "このコーヒー屋さんはいつも来るんすか？",
+     "en": "Do you always come to this coffee shop?",
+     "speaker": "Host"
+    },
+    {
+     "start": 50.8,
+     "end": 52.6,
+     "ja": "そうですね。浦和開催の時は。",
+     "en": "Yeah, whenever races are held at Urawa.",
+     "speaker": "Sugahara"
+    },
+    {
+     "start": 52.7,
+     "end": 54.0,
+     "ja": "美味しい？コーヒー。",
+     "en": "Is it good? The coffee.",
+     "speaker": "Host"
+    },
+    {
+     "start": 54.0,
+     "end": 54.6,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Sugahara"
+    },
+    {
+     "start": 54.7,
+     "end": 56.5,
+     "ja": "いくらですか？コーヒー。",
+     "en": "How much is it? The coffee.",
+     "speaker": "Host"
+    },
+    {
+     "start": 56.7,
+     "end": 58.3,
+     "ja": "２０００万？",
+     "en": "Twenty million?",
+     "speaker": "Host"
+    },
+    {
+     "start": 58.8,
+     "end": 59.8,
+     "ja": "２００円です。",
+     "en": "It's 200 yen.",
+     "speaker": "Shopkeeper"
+    },
+    {
+     "start": 60.0,
+     "end": 61.0,
+     "ja": "２００円！",
+     "en": "200 yen!",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 111.5,
+   "end": 124.0,
+   "title": "Don't Send Me Away Just Yet",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "comedy"
+   ],
+   "grammar": [
+    "お越しくださいませ — honorific request (please come)",
+    "〜ていいですか — asking for permission"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 111.7,
+     "end": 112.5,
+     "ja": "２００円？",
+     "en": "200 yen?",
+     "speaker": "Host"
+    },
+    {
+     "start": 112.5,
+     "end": 113.3,
+     "ja": "２００円です。",
+     "en": "It's 200 yen.",
+     "speaker": "Shopkeeper"
+    },
+    {
+     "start": 113.3,
+     "end": 114.2,
+     "ja": "安いね。",
+     "en": "That's cheap.",
+     "speaker": "Host"
+    },
+    {
+     "start": 114.3,
+     "end": 115.1,
+     "ja": "ありがとう。",
+     "en": "Thank you.",
+     "speaker": "Host"
+    },
+    {
+     "start": 115.1,
+     "end": 117.6,
+     "ja": "はい、ありがとうございます。またお越しくださいませ。",
+     "en": "Thank you very much. Please come again.",
+     "speaker": "Shopkeeper"
+    },
+    {
+     "start": 117.8,
+     "end": 119.5,
+     "ja": "いや、まだいるよ。",
+     "en": "Wait, I'm still staying here.",
+     "speaker": "Host"
+    },
+    {
+     "start": 119.5,
+     "end": 121.2,
+     "ja": "すぐ帰さないで。",
+     "en": "Don't send me away already.",
+     "speaker": "Host"
+    },
+    {
+     "start": 121.3,
+     "end": 123.0,
+     "ja": "いただいていいですか？",
+     "en": "May I take a sip?",
+     "speaker": "Host"
+    },
+    {
+     "start": 123.0,
+     "end": 123.9,
+     "ja": "どうぞ。",
+     "en": "Go ahead.",
+     "speaker": "Shopkeeper"
+    }
+   ]
+  },
+  {
+   "start": 213.5,
+   "end": 231.0,
+   "title": "Becoming Friends on Camera",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "friends",
+    "comedy"
+   ],
+   "grammar": [
+    "〜になる — to become",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 214.0,
+     "end": 218.0,
+     "ja": "「あなたは芸人永井佑一郎とお友達になりました。今後ともよろしくお願いします」吉田さん。",
+     "en": "\"You have become friends with comedian Yuichiro Nagai. Thank you for your continued friendship,\" Yoshida-san.",
+     "speaker": "Host"
+    },
+    {
+     "start": 218.0,
+     "end": 218.8,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 218.8,
+     "end": 223.4,
+     "ja": "ってことで、じゃカメラに最後に「永井佑一郎とお友達になりました」って言ってください。",
+     "en": "So, to wrap up, please say to the camera, 'I became friends with Yuichiro Nagai.'",
+     "speaker": "Host"
+    },
+    {
+     "start": 223.4,
+     "end": 224.0,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 224.0,
+     "end": 226.3,
+     "ja": "永井佑一郎さんとお友達になりました！",
+     "en": "I became friends with Yuichiro Nagai!",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 226.4,
+     "end": 228.0,
+     "ja": "ありがとう、吉田さん！サンキュー！",
+     "en": "Thank you, Yoshida-san! Thank you!",
+     "speaker": "Host"
+    },
+    {
+     "start": 228.1,
+     "end": 230.5,
+     "ja": "これからも美味しいコーヒーお願いします！",
+     "en": "Keep making delicious coffee for us!",
+     "speaker": "Host"
+    }
+   ]
+  }
+ ],
+ "videoId": "4ncOLtx3FBo",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

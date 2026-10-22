@@ -1,0 +1,123 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 37.2,
+   "end": 47.3,
+   "title": "Is That a Japanese Castle?",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.6,
+     "end": 39.9,
+     "ja": "あれは日本のお城？",
+     "en": "Is that a Japanese castle?",
+     "speaker": "A"
+    },
+    {
+     "start": 40.5,
+     "end": 43.1,
+     "ja": "うん、姫路城だよ。",
+     "en": "Yes, it's Himeji Castle.",
+     "speaker": "B"
+    },
+    {
+     "start": 43.7,
+     "end": 46.8,
+     "ja": "中に入ってみよう。",
+     "en": "Let's go inside.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 137.3,
+   "end": 147.8,
+   "title": "Going to the Festival in Yukata",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜たい — want to",
+    "意向形 — let's (volitional)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 137.7,
+     "end": 140.0,
+     "ja": "お祭り行く？",
+     "en": "Are you going to the festival?",
+     "speaker": "A"
+    },
+    {
+     "start": 140.4,
+     "end": 144.0,
+     "ja": "うん、パレードが見たい。",
+     "en": "Yes, I want to see the parade.",
+     "speaker": "B"
+    },
+    {
+     "start": 144.6,
+     "end": 147.2,
+     "ja": "浴衣着よう！",
+     "en": "Let's wear yukata!",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 197.4,
+   "end": 208.3,
+   "title": "Preparing Matcha for Tea Ceremony",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "food"
+   ],
+   "grammar": [
+    "〜てる — ongoing action",
+    "〜んだ — explanatory tone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 197.8,
+     "end": 200.4,
+     "ja": "何してるの？",
+     "en": "What are you doing?",
+     "speaker": "A"
+    },
+    {
+     "start": 200.9,
+     "end": 203.8,
+     "ja": "抹茶を点ててるの。",
+     "en": "I'm preparing matcha.",
+     "speaker": "B"
+    },
+    {
+     "start": 204.3,
+     "end": 207.6,
+     "ja": "これは茶道の一部なんだ。",
+     "en": "It's part of the tea ceremony.",
+     "speaker": "B"
+    }
+   ]
+  }
+ ],
+ "videoId": "5rNrKg_LyHI",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

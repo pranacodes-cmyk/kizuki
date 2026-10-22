@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 334.8,
+   "end": 344.2,
+   "title": "Strolling Down Omoide Yokocho",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "food",
+    "friends"
+   ],
+   "grammar": [
+    "〜でしょう — right? / isn't it?"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 334.9,
+     "end": 337.0,
+     "ja": "お前、ここエモいでしょう？",
+     "en": "Doesn't this place feel nostalgic?",
+     "speaker": "A"
+    },
+    {
+     "start": 337.2,
+     "end": 339.4,
+     "ja": "エモいだろう、ここ？ほらほらほら！",
+     "en": "It feels nostalgic here, doesn't it? Look, look, look!",
+     "speaker": "A"
+    },
+    {
+     "start": 339.7,
+     "end": 341.9,
+     "ja": "ザ・日本ね！ザ・日本！",
+     "en": "The classic Japan! Classic Japan!",
+     "speaker": "A"
+    },
+    {
+     "start": 342.2,
+     "end": 344.0,
+     "ja": "ここ全部居酒屋！",
+     "en": "All of these are izakayas!",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 820.0,
+   "end": 841.4,
+   "title": "Tasting Grilled Negi Skewers",
+   "level": "N5",
+   "topics": [
+    "food",
+    "friends"
+   ],
+   "grammar": [
+    "〜が好き — to like something",
+    "〜くない — negative adjective (isn't ...)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 820.1,
+     "end": 822.4,
+     "ja": "私の好きな野菜、ネギ！",
+     "en": "My favorite vegetable: green onions!",
+     "speaker": "A"
+    },
+    {
+     "start": 822.5,
+     "end": 823.7,
+     "ja": "ネギ！",
+     "en": "Green onions!",
+     "speaker": "B"
+    },
+    {
+     "start": 837.2,
+     "end": 838.7,
+     "ja": "うわ、うまい！",
+     "en": "Wow, so good!",
+     "speaker": "B"
+    },
+    {
+     "start": 838.9,
+     "end": 840.4,
+     "ja": "熱くない？",
+     "en": "Isn't it hot?",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 854.9,
+   "end": 868.9,
+   "title": "Surprised by How Sweet It Is",
+   "level": "N5",
+   "topics": [
+    "food",
+    "friends"
+   ],
+   "grammar": [
+    "〜い — i-adjective exclamation",
+    "〜じゃん — isn't it?"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 855.2,
+     "end": 856.7,
+     "ja": "あ、うまい！",
+     "en": "Ah, delicious!",
+     "speaker": "B"
+    },
+    {
+     "start": 856.8,
+     "end": 857.7,
+     "ja": "甘い！",
+     "en": "It's sweet!",
+     "speaker": "A"
+    },
+    {
+     "start": 857.9,
+     "end": 859.1,
+     "ja": "甘い！",
+     "en": "It's sweet!",
+     "speaker": "B"
+    },
+    {
+     "start": 859.2,
+     "end": 861.3,
+     "ja": "めっちゃ甘い、甘い。",
+     "en": "It's super sweet, really sweet.",
+     "speaker": "A"
+    },
+    {
+     "start": 861.4,
+     "end": 862.9,
+     "ja": "じゃ、乾杯しよう！",
+     "en": "Well, let's cheers!",
+     "speaker": "A"
+    }
+   ]
+  }
+ ],
+ "videoId": "EdsNTJgQaTA",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,161 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 10.0,
+   "title": "Reunion at the Class Gathering",
+   "level": "N5",
+   "topics": [
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "〜よね — seeking confirmation",
+    "〜ぶり — after a span of time",
+    "〜か — casual invitation/suggestion"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.7,
+     "end": 2.0,
+     "ja": "山田さんだよね？",
+     "en": "You're Yamada, right?",
+     "speaker": "Tabuchi"
+    },
+    {
+     "start": 2.1,
+     "end": 3.4,
+     "ja": "覚えてる？",
+     "en": "Do you remember me?",
+     "speaker": "Tabuchi"
+    },
+    {
+     "start": 3.6,
+     "end": 5.0,
+     "ja": "田淵くん？",
+     "en": "Tabuchi?",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 5.1,
+     "end": 7.4,
+     "ja": "久しぶり、山田さん。",
+     "en": "Long time no see, Yamada.",
+     "speaker": "Tabuchi"
+    },
+    {
+     "start": 8.2,
+     "end": 9.9,
+     "ja": "また抜け出すか。",
+     "en": "Shall we slip out again?",
+     "speaker": "Tabuchi"
+    }
+   ]
+  },
+  {
+   "start": 11.4,
+   "end": 26.0,
+   "title": "Unchanged Feelings",
+   "level": "N4",
+   "topics": [
+    "romance"
+   ],
+   "grammar": [
+    "〜けど — although, but",
+    "どうしても〜ない — no matter what / can't possibly",
+    "〜のは嫌だ — hate to do / don't want to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.7,
+     "end": 13.2,
+     "ja": "田淵くん変わったけど、",
+     "en": "You've changed, Tabuchi, but...",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 13.4,
+     "end": 15.0,
+     "ja": "変わってないね。",
+     "en": "...you haven't changed at all.",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 16.8,
+     "end": 19.0,
+     "ja": "数ヶ月の間だったけどさ、",
+     "en": "It was only for a few months, but...",
+     "speaker": "Tabuchi"
+    },
+    {
+     "start": 19.4,
+     "end": 22.5,
+     "ja": "山田のことがどうしても忘れられなかった。",
+     "en": "...I just couldn't forget about you, Yamada.",
+     "speaker": "Tabuchi"
+    },
+    {
+     "start": 22.8,
+     "end": 25.5,
+     "ja": "もう離れるのは、嫌だ。",
+     "en": "I don't want to part ways again.",
+     "speaker": "Yamada"
+    }
+   ]
+  },
+  {
+   "start": 38.4,
+   "end": 46.5,
+   "title": "Encouraging a Move",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "意向形 (〜おう) — let's / expressing volition",
+    "〜のこと — concerning / about",
+    "〜んの — casual contraction of の (questioning)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 38.6,
+     "end": 40.5,
+     "ja": "デート、誘おう！",
+     "en": "Ask him out on a date!",
+     "speaker": "Colleague"
+    },
+    {
+     "start": 40.7,
+     "end": 42.2,
+     "ja": "田淵くんのこと。",
+     "en": "Tabuchi, I mean.",
+     "speaker": "Colleague"
+    },
+    {
+     "start": 42.4,
+     "end": 44.2,
+     "ja": "そうやって距離置いてさ、",
+     "en": "If you keep keeping your distance like that...",
+     "speaker": "Friend"
+    },
+    {
+     "start": 44.3,
+     "end": 46.4,
+     "ja": "また何年も後悔すんの？",
+     "en": "...are you gonna regret it for years again?",
+     "speaker": "Friend"
+    }
+   ]
+  }
+ ],
+ "videoId": "LXXZc3yAsmM",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

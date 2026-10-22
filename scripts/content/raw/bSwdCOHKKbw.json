@@ -1,0 +1,208 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 22.5,
+   "end": 43.5,
+   "title": "Waiting for Spring in Belfast",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜てほしい — wanting someone to do something",
+    "〜と思っています — thinking of doing / feeling that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.0,
+     "end": 25.4,
+     "ja": "春、夏、秋、冬ね。",
+     "en": "Spring, summer, autumn, winter, right?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 25.5,
+     "end": 28.0,
+     "ja": "四季、春、夏、秋、冬。",
+     "en": "The four seasons: spring, summer, autumn, winter.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 28.0,
+     "end": 30.8,
+     "ja": "皆さんはどの季節が好き？",
+     "en": "Which season do you all like?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 31.0,
+     "end": 34.2,
+     "ja": "私は本当に春が好きです。",
+     "en": "I really love spring.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 34.2,
+     "end": 37.4,
+     "ja": "だから、今ベルファストは冬ですから、",
+     "en": "So, since it's winter in Belfast right now,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 37.4,
+     "end": 40.2,
+     "ja": "本当に春が待ち遠しい、",
+     "en": "I'm really looking forward to spring,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 40.2,
+     "end": 43.0,
+     "ja": "早く来てほしいなと思っています。",
+     "en": "and I'm wishing it would come quickly.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 272.5,
+   "end": 295.2,
+   "title": "Top Way to Relieve Stress",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜たら / 〜と — condition / when",
+    "〜たりする — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 272.8,
+     "end": 277.0,
+     "ja": "ナンバーワンは「ぐっすり眠る」でした。",
+     "en": "Number one was \"getting a good night's sleep.\"",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 277.5,
+     "end": 279.2,
+     "ja": "ぐっすり眠る、",
+     "en": "Sleeping soundly,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 279.2,
+     "end": 282.5,
+     "ja": "よく眠る、よく寝るっていうことですね。",
+     "en": "meaning sleeping deeply and getting good rest.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 283.0,
+     "end": 285.6,
+     "ja": "これ、確かにそうですね。",
+     "en": "That makes a lot of sense.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 286.0,
+     "end": 290.0,
+     "ja": "気になることとかストレスを感じると、",
+     "en": "When you have worries or feel stressed,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 290.5,
+     "end": 294.6,
+     "ja": "なかなかよく寝られなかったりしますね。",
+     "en": "it can be quite hard to get good sleep.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 425.0,
+   "end": 449.5,
+   "title": "Walking One Hour to De-Stress",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜というか — or rather / should I say",
+    "〜ない限り — as long as / unless"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 425.5,
+     "end": 427.0,
+     "ja": "１つは、",
+     "en": "One of them is,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 427.0,
+     "end": 430.5,
+     "ja": "運動というか、歩くことです。",
+     "en": "exercise, or rather, walking.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 431.2,
+     "end": 434.2,
+     "ja": "私はこの会社の仕事が終わって、",
+     "en": "After my office job finishes,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 434.5,
+     "end": 437.5,
+     "ja": "毎日、会社から自宅まで",
+     "en": "every day from work to my home,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 437.5,
+     "end": 440.5,
+     "ja": "１時間歩いて帰ります。",
+     "en": "I walk home for one hour.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 441.0,
+     "end": 443.8,
+     "ja": "大嵐が来ない限りは、",
+     "en": "Unless a major storm hits,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 444.0,
+     "end": 445.8,
+     "ja": "ちょっとの雨だと、",
+     "en": "even if it's raining a little bit,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 445.8,
+     "end": 448.8,
+     "ja": "本当に１時間歩いて帰ります。",
+     "en": "I really do walk home for an hour.",
+     "speaker": "Noriko"
+    }
+   ]
+  }
+ ],
+ "videoId": "bSwdCOHKKbw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

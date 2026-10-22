@@ -1,0 +1,232 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.8,
+   "end": 33.2,
+   "title": "Tired of Talking About Stocks",
+   "level": "N3",
+   "topics": [
+    "family",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てくれる — asking someone to do/stop something",
+    "〜てから — since / after doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.0,
+     "end": 21.0,
+     "ja": "ずっと帰ってきてから株の話なんだけど、やめてくれる？",
+     "en": "Ever since we got back, all you talk about is stocks. Can you stop?",
+     "speaker": "Sae"
+    },
+    {
+     "start": 21.2,
+     "end": 23.5,
+     "ja": "他にないの？２人で話すトピック。",
+     "en": "Don't you two have anything else to talk about?",
+     "speaker": "Sae"
+    },
+    {
+     "start": 24.0,
+     "end": 26.3,
+     "ja": "前はね、子育ての話がいっぱいあったから。",
+     "en": "In the past, we had plenty of parenting topics to talk about.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 26.5,
+     "end": 28.5,
+     "ja": "連絡事項も多かったしね。",
+     "en": "And there were a lot of practical things to coordinate.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 28.8,
+     "end": 30.5,
+     "ja": "俺は会社してるからな。",
+     "en": "I run a company, you know.",
+     "speaker": "Father"
+    },
+    {
+     "start": 30.8,
+     "end": 32.8,
+     "ja": "共通の話題じゃないわな。",
+     "en": "So it's not really a shared topic for us.",
+     "speaker": "Father"
+    }
+   ]
+  },
+  {
+   "start": 200.5,
+   "end": 221.0,
+   "title": "Choosing Ice Cream Flavors",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜べき — should do",
+    "〜にする — to decide on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 200.7,
+     "end": 204.0,
+     "ja": "でも何？最初に食べるんだったらこれみたいなのあるの？",
+     "en": "So, like, is there a recommended flavor for a first-timer?",
+     "speaker": "Sae"
+    },
+    {
+     "start": 204.5,
+     "end": 206.5,
+     "ja": "やっぱりバニラ食べるべき？",
+     "en": "Should I definitely go with vanilla?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 206.6,
+     "end": 208.0,
+     "ja": "バニラ。",
+     "en": "Vanilla.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 208.2,
+     "end": 211.0,
+     "ja": "じゃあバニラ... でもチョコも美味しいしね。",
+     "en": "Vanilla then... though chocolate is also good.",
+     "speaker": "Sae"
+    },
+    {
+     "start": 211.2,
+     "end": 213.0,
+     "ja": "今、ちなみにうどん食べてきた。",
+     "en": "By the way, we just ate udon.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 213.2,
+     "end": 215.5,
+     "ja": "あ、そうなのね。じゃあちょっとサンデーじゃ多いかな？",
+     "en": "Oh, really? Then a sundae might be a bit too much, huh?",
+     "speaker": "Sae"
+    },
+    {
+     "start": 215.8,
+     "end": 217.5,
+     "ja": "じゃあバニラにしようかな。",
+     "en": "In that case, maybe I'll go with vanilla.",
+     "speaker": "Sae"
+    },
+    {
+     "start": 218.5,
+     "end": 220.5,
+     "ja": "バニラお願いします。",
+     "en": "Vanilla, please.",
+     "speaker": "Sae"
+    }
+   ]
+  },
+  {
+   "start": 673.0,
+   "end": 696.5,
+   "title": "Last Day of Work Before Maternity Leave",
+   "level": "N3",
+   "topics": [
+    "work",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜に追われる — to be overwhelmed/swamped by",
+    "〜んじゃない — tag question / expressing surprise"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 673.3,
+     "end": 675.5,
+     "ja": "菜穂ちゃん、お腹が大きい！",
+     "en": "Naho-chan, your belly is so big!",
+     "speaker": "Sae"
+    },
+    {
+     "start": 675.6,
+     "end": 677.0,
+     "ja": "まだ働いてます。",
+     "en": "I'm still working.",
+     "speaker": "Naho"
+    },
+    {
+     "start": 677.2,
+     "end": 678.8,
+     "ja": "すごい！いつまで働くの？",
+     "en": "Amazing! Until when are you working?",
+     "speaker": "Sae"
+    },
+    {
+     "start": 679.0,
+     "end": 681.0,
+     "ja": "今日が最終日！",
+     "en": "Today is my last day!",
+     "speaker": "Naho"
+    },
+    {
+     "start": 681.1,
+     "end": 682.0,
+     "ja": "最終日！？",
+     "en": "Your last day!?",
+     "speaker": "Sae"
+    },
+    {
+     "start": 682.2,
+     "end": 684.0,
+     "ja": "お疲れ様でした！",
+     "en": "Thank you for all your hard work!",
+     "speaker": "Sae"
+    },
+    {
+     "start": 686.5,
+     "end": 690.0,
+     "ja": "相変わらずデスクワークに追われてるんで。",
+     "en": "I'm swamped with desk work as usual.",
+     "speaker": "Naho"
+    },
+    {
+     "start": 691.5,
+     "end": 693.2,
+     "ja": "大事、大事。",
+     "en": "That's important, that's important.",
+     "speaker": "Sae"
+    },
+    {
+     "start": 693.5,
+     "end": 695.0,
+     "ja": "来週産みます。",
+     "en": "I'm giving birth next week.",
+     "speaker": "Naho"
+    },
+    {
+     "start": 695.1,
+     "end": 696.2,
+     "ja": "凄くない！？",
+     "en": "Isn't that incredible!?",
+     "speaker": "Sae"
+    }
+   ]
+  }
+ ],
+ "videoId": "buknUBZyBOM",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,252 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 8.5,
+   "end": 24.3,
+   "title": "Changing the Dinner Plan",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "food",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てくる — will come (action direction)",
+    "〜てみる — try doing something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 8.8,
+     "end": 11.2,
+     "ja": "おい、おいおいおい、みんなまだ？",
+     "en": "Hey, hey, where is everyone?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 11.3,
+     "end": 13.2,
+     "ja": "おう、なんかちょっと遅れてくるって。",
+     "en": "Yeah, they said they'd be a bit late.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 13.3,
+     "end": 14.1,
+     "ja": "あ、ほんま？",
+     "en": "Oh, really?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 14.2,
+     "end": 18.0,
+     "ja": "なんかさ、俺、あの行こや言うてた店がさ、今聞いたらもう満席でさ。",
+     "en": "Well, that place I said we should go to... I just checked and it's already full.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 18.1,
+     "end": 18.9,
+     "ja": "あ、そう。",
+     "en": "Oh, really.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 19.0,
+     "end": 20.3,
+     "ja": "他の店でもええかな？",
+     "en": "Is it okay if we go somewhere else?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 20.4,
+     "end": 21.7,
+     "ja": "ま、どこでもええんちゃう。",
+     "en": "Well, anywhere's fine, isn't it?",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 21.8,
+     "end": 23.2,
+     "ja": "ええ？適当に聞いてみるわ。",
+     "en": "Yeah? I'll call around and ask somewhere.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 23.3,
+     "end": 24.0,
+     "ja": "はいはい。",
+     "en": "Sure, go ahead.",
+     "speaker": "Hamaie"
+    }
+   ]
+  },
+  {
+   "start": 36.2,
+   "end": 57.2,
+   "title": "Calling to Make a Reservation",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "comedy"
+   ],
+   "grammar": [
+    "〜たいんですけど — expressing desire softly",
+    "〜てます — ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 36.5,
+     "end": 37.5,
+     "ja": "はい、すいません。",
+     "en": "Yes, excuse me.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 37.7,
+     "end": 41.0,
+     "ja": "あ、あの、今から行きたいんですけど、行けますかね？",
+     "en": "Um, we'd like to come over now. Would that be possible?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 41.2,
+     "end": 42.8,
+     "ja": "えっとー",
+     "en": "Let's see...",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 43.0,
+     "end": 44.2,
+     "ja": "５、５人。",
+     "en": "Five, five people.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 44.3,
+     "end": 46.8,
+     "ja": "５、５人です。はい。",
+     "en": "Five, five people. Yes.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 48.3,
+     "end": 51.0,
+     "ja": "あ、大学生です。はい。",
+     "en": "Ah, we're college students. Yes.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 52.1,
+     "end": 54.2,
+     "ja": "あ、二十歳は超えてます。はい。",
+     "en": "Ah, we're over twenty. Yes.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 54.6,
+     "end": 56.8,
+     "ja": "厳しいな、やっぱ最近。",
+     "en": "They're pretty strict nowadays, huh?",
+     "speaker": "Hamaie"
+    }
+   ]
+  },
+  {
+   "start": 515.5,
+   "end": 532.2,
+   "title": "Looking Back at an Old Skit",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "work"
+   ],
+   "grammar": [
+    "〜ぶりに — for the first time in (time)",
+    "〜てた — colloquial past progressive"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 515.8,
+     "end": 516.8,
+     "ja": "お疲れ様でした。",
+     "en": "Good job today.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 516.9,
+     "end": 517.8,
+     "ja": "お疲れ様でした。",
+     "en": "Good job.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 517.9,
+     "end": 519.0,
+     "ja": "懐かしいね。",
+     "en": "Brings back memories, doesn't it?",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 519.1,
+     "end": 520.2,
+     "ja": "７年前ですよ。",
+     "en": "That was seven years ago.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 520.3,
+     "end": 521.4,
+     "ja": "７年前のコント。",
+     "en": "A skit from seven years ago.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 521.5,
+     "end": 522.2,
+     "ja": "はい。",
+     "en": "Yeah.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 522.3,
+     "end": 527.4,
+     "ja": "いや、久しぶりに見返したんですけど、キングオブコントの、７年前の準決勝で。",
+     "en": "I watched it again after so long, and it was in the King of Conte semifinals seven years ago.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 528.1,
+     "end": 529.8,
+     "ja": "あ、でやってたやつか。",
+     "en": "Ah, so that's where we did it.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 529.9,
+     "end": 530.8,
+     "ja": "やってます。",
+     "en": "Yeah, we did.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 530.9,
+     "end": 531.9,
+     "ja": "いや、すごいね。",
+     "en": "Man, that's wild.",
+     "speaker": "Hamaie"
+    }
+   ]
+  }
+ ],
+ "videoId": "7HnqhxNSeb8",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

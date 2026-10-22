@@ -1,0 +1,61 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 14.1,
+   "title": "Post-Game Interview with Kawasaki",
+   "level": "N2",
+   "topics": [
+    "sports"
+   ],
+   "grammar": [
+    "〜ぬ — not (classical negative)",
+    "〜にお越しいただく — to have someone come (honorific)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 3.0,
+     "ja": "殊勲の川崎。",
+     "en": "Kawasaki, the hero of the game.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 3.2,
+     "end": 6.0,
+     "ja": "試合終了直後、興奮冷めやらぬ中、",
+     "en": "Right after the game, amidst the lingering excitement,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 6.1,
+     "end": 9.0,
+     "ja": "ＮＨＫのインタビューに答えました。",
+     "en": "he responded to an interview with NHK.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 9.5,
+     "end": 12.4,
+     "ja": "川崎宗則選手にお越しいただきました。",
+     "en": "We are joined by Munenori Kawasaki.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 12.5,
+     "end": 14.1,
+     "ja": "見事でした。",
+     "en": "That was magnificent.",
+     "speaker": "Interviewer"
+    }
+   ]
+  }
+ ],
+ "videoId": "dcxmIs4colE",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

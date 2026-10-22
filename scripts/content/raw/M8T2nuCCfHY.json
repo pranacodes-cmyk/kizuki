@@ -1,0 +1,230 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 189.5,
+   "end": 204.5,
+   "title": "Grandma Explains Her Home-Cooked Dishes",
+   "level": "N4",
+   "topics": [
+    "food",
+    "family"
+   ],
+   "grammar": [
+    "〜和え — dressed with / tossed in",
+    "そして — and / moreover"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 189.7,
+     "end": 191.0,
+     "ja": "これは何ですか？",
+     "en": "What is this?",
+     "speaker": "Akari"
+    },
+    {
+     "start": 191.3,
+     "end": 193.3,
+     "ja": "これ、あの、枝豆。",
+     "en": "This is, um, edamame.",
+     "speaker": "Grandma"
+    },
+    {
+     "start": 193.6,
+     "end": 195.3,
+     "ja": "美味しそう。枝豆とこんにゃくの？",
+     "en": "Looks delicious. Edamame and konjac?",
+     "speaker": "Akari"
+    },
+    {
+     "start": 195.4,
+     "end": 196.8,
+     "ja": "こんにゃくのずんだ和え。",
+     "en": "Konjac dressed with mashed edamame.",
+     "speaker": "Grandma"
+    },
+    {
+     "start": 196.9,
+     "end": 197.8,
+     "ja": "あ、ずんだ？",
+     "en": "Ah, zunda?",
+     "speaker": "Akari"
+    },
+    {
+     "start": 197.9,
+     "end": 198.5,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Grandma"
+    },
+    {
+     "start": 198.6,
+     "end": 199.7,
+     "ja": "そしてこちらは？",
+     "en": "And what about this one?",
+     "speaker": "Akari"
+    },
+    {
+     "start": 199.8,
+     "end": 202.8,
+     "ja": "菜の花と、あれの、厚揚げ。",
+     "en": "Rapeseed blossoms and deep-fried tofu.",
+     "speaker": "Grandma"
+    },
+    {
+     "start": 203.0,
+     "end": 204.0,
+     "ja": "厚揚げか。",
+     "en": "Deep-fried tofu, I see.",
+     "speaker": "Akari"
+    }
+   ]
+  },
+  {
+   "start": 266.5,
+   "end": 293.0,
+   "title": "Asking Grandma for the Chicken Recipe",
+   "level": "N3",
+   "topics": [
+    "food",
+    "family"
+   ],
+   "grammar": [
+    "〜ておく — to do in advance",
+    "〜てから — after doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 266.7,
+     "end": 268.2,
+     "ja": "これどうやって作ったん？",
+     "en": "How did you make this?",
+     "speaker": "Akari"
+    },
+    {
+     "start": 268.5,
+     "end": 271.0,
+     "ja": "え？だからな、あの、醤油と、",
+     "en": "Huh? Well, you take soy sauce,",
+     "speaker": "Grandma"
+    },
+    {
+     "start": 271.1,
+     "end": 274.0,
+     "ja": "ほんであの、みりん、味付けて揉んどいて、",
+     "en": "and mirin to season and rub into it,",
+     "speaker": "Grandma"
+    },
+    {
+     "start": 274.2,
+     "end": 275.5,
+     "ja": "うん、うん。",
+     "en": "Yeah, yeah.",
+     "speaker": "Akari"
+    },
+    {
+     "start": 275.9,
+     "end": 278.1,
+     "ja": "ほんで、あれ、片栗粉",
+     "en": "and then you coat it in potato starch,",
+     "speaker": "Grandma"
+    },
+    {
+     "start": 278.8,
+     "end": 281.4,
+     "ja": "まぶして、しっかりまぶして、ほんで焼く。",
+     "en": "coat it well, and then fry it.",
+     "speaker": "Grandma"
+    },
+    {
+     "start": 283.8,
+     "end": 286.3,
+     "ja": "ほんで甘酢タレに流し入れて、",
+     "en": "Then pour in the sweet and sour sauce,",
+     "speaker": "Grandma"
+    },
+    {
+     "start": 286.5,
+     "end": 287.3,
+     "ja": "うん。",
+     "en": "Uh-huh.",
+     "speaker": "Akari"
+    },
+    {
+     "start": 289.4,
+     "end": 291.0,
+     "ja": "ちょっと生姜入れて。",
+     "en": "and add a bit of ginger.",
+     "speaker": "Grandma"
+    },
+    {
+     "start": 291.2,
+     "end": 292.5,
+     "ja": "え〜、美味しい。",
+     "en": "Wow, so delicious.",
+     "speaker": "Akari"
+    }
+   ]
+  },
+  {
+   "start": 846.0,
+   "end": 861.0,
+   "title": "Sharing Dango with Mom in Kyoto",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "food",
+    "family"
+   ],
+   "grammar": [
+    "〜うかな — thinking of doing",
+    "いかがですか — how about (polite)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 846.5,
+     "end": 849.5,
+     "ja": "そっちのんがよかった？みたらしのきな粉のん。",
+     "en": "Did you want this one? The sweet soy sauce with kinako.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 849.8,
+     "end": 851.0,
+     "ja": "いかがですか？",
+     "en": "Would you like some?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 851.3,
+     "end": 852.8,
+     "ja": "一個もらおうかな。",
+     "en": "Maybe I'll have one.",
+     "speaker": "Akari"
+    },
+    {
+     "start": 853.0,
+     "end": 854.0,
+     "ja": "ありがとう。",
+     "en": "Thank you.",
+     "speaker": "Akari"
+    },
+    {
+     "start": 858.8,
+     "end": 860.2,
+     "ja": "美味しい！",
+     "en": "Delicious!",
+     "speaker": "Akari"
+    }
+   ]
+  }
+ ],
+ "videoId": "M8T2nuCCfHY",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

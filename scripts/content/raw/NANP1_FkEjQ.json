@@ -1,0 +1,216 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 18.9,
+   "title": "Childhood Friends in One-Sided Love",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜ないといけない — must / have to",
+    "〜から — because / so"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 1.0,
+     "end": 4.1,
+     "ja": "20年間両片思いの幼なじみ",
+     "en": "Childhood friends with 20 years of mutual unrequited love.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 4.1,
+     "end": 5.9,
+     "ja": "当たって砕けろだ！",
+     "en": "Go for broke!",
+     "speaker": "Haru"
+    },
+    {
+     "start": 5.9,
+     "end": 7.3,
+     "ja": "砕けろじゃアホ！",
+     "en": "Why would I want to break, idiot?!",
+     "speaker": "Kaede"
+    },
+    {
+     "start": 7.3,
+     "end": 8.7,
+     "ja": "超残念男子と",
+     "en": "The super disappointing boy and...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 8.7,
+     "end": 10.9,
+     "ja": "オカンいなくなると俺生きていけないし。",
+     "en": "If Mom's gone, I can't survive.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 10.9,
+     "end": 11.8,
+     "ja": "誰がオカンじゃ！",
+     "en": "Who're you calling 'Mom'?!",
+     "speaker": "Kaede"
+    },
+    {
+     "start": 11.8,
+     "end": 12.8,
+     "ja": "オカン系女子。",
+     "en": "...the motherly girl.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 12.8,
+     "end": 14.8,
+     "ja": "普通に愛されたい。",
+     "en": "I just want normal love.",
+     "speaker": "Kaede"
+    },
+    {
+     "start": 14.8,
+     "end": 16.0,
+     "ja": "ダメダメでバカな俺じゃない！",
+     "en": "And not with a useless idiot like me?!",
+     "speaker": "Haru"
+    },
+    {
+     "start": 16.0,
+     "end": 17.5,
+     "ja": "ちゃんと素敵な相手とちゃんと恋するから。",
+     "en": "I'm going to find someone really nice and fall in love properly.",
+     "speaker": "Kaede"
+    },
+    {
+     "start": 17.5,
+     "end": 18.9,
+     "ja": "好きにしろよ！",
+     "en": "Do whatever you want!",
+     "speaker": "Haru"
+    }
+   ]
+  },
+  {
+   "start": 20.8,
+   "end": 29.3,
+   "title": "A Rival's Confession",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てどうする — what are you going to do by doing...",
+    "〜みたい — like / similar to"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 21.0,
+     "end": 22.4,
+     "ja": "ずっと好きだから。",
+     "en": "I've always loved you.",
+     "speaker": "Iori"
+    },
+    {
+     "start": 23.6,
+     "end": 25.1,
+     "ja": "好きだぞ！俺は！",
+     "en": "I like you, too!",
+     "speaker": "Haru"
+    },
+    {
+     "start": 25.1,
+     "end": 26.6,
+     "ja": "それ俺に言ってどうすんの？",
+     "en": "What's the point of telling that to me?",
+     "speaker": "Iori"
+    },
+    {
+     "start": 26.6,
+     "end": 28.1,
+     "ja": "千円が復刻みたいなやつだよ！",
+     "en": "It's like... declaring a republic of 1,000 yen!",
+     "speaker": "Haru"
+    },
+    {
+     "start": 28.1,
+     "end": 29.3,
+     "ja": "宣戦布告な。",
+     "en": "You mean a declaration of war.",
+     "speaker": "Iori"
+    }
+   ]
+  },
+  {
+   "start": 33.1,
+   "end": 44.4,
+   "title": "Confidence to Make Her Happy",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "friends"
+   ],
+   "grammar": [
+    "〜にする — make into / decide on",
+    "〜てくれる — to do for someone"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 33.3,
+     "end": 35.3,
+     "ja": "大丈夫だって、俺がいるから。",
+     "en": "You'll be fine, because I'm here.",
+     "speaker": "Haru"
+    },
+    {
+     "start": 35.3,
+     "end": 36.9,
+     "ja": "閉店の関取みたいなやつだ！",
+     "en": "Like a closing-time sumo wrestler!",
+     "speaker": "Haru"
+    },
+    {
+     "start": 36.9,
+     "end": 38.3,
+     "ja": "青天の霹靂。",
+     "en": "A bolt from the blue.",
+     "speaker": "Elderly Woman"
+    },
+    {
+     "start": 38.3,
+     "end": 40.2,
+     "ja": "楓を幸せにする自信がある。",
+     "en": "I have the confidence to make Kaede happy.",
+     "speaker": "Iori"
+    },
+    {
+     "start": 40.2,
+     "end": 41.7,
+     "ja": "楓のそばにいる。",
+     "en": "I'll stay by Kaede's side.",
+     "speaker": "Iori"
+    },
+    {
+     "start": 41.7,
+     "end": 44.0,
+     "ja": "諦めつくわけねえし！",
+     "en": "There's no way I can just give up!",
+     "speaker": "Haru"
+    }
+   ]
+  }
+ ],
+ "videoId": "NANP1_FkEjQ",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

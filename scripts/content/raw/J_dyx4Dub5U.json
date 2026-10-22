@@ -1,0 +1,153 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 70.0,
+   "end": 81.0,
+   "title": "Stereotypical Image of a Foreigner",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜にとって — to / for (someone)",
+    "〜てて — and (continuing description)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 70.2,
+     "end": 72.7,
+     "ja": "背が高くて、で、やっぱ",
+     "en": "Someone who is tall, and of course...",
+     "speaker": "Man 1"
+    },
+    {
+     "start": 72.8,
+     "end": 74.0,
+     "ja": "鼻も高い。",
+     "en": "Has a prominent nose.",
+     "speaker": "Man 2"
+    },
+    {
+     "start": 74.1,
+     "end": 76.8,
+     "ja": "顔もやっぱり、あの、整ってて、",
+     "en": "Their features are well-proportioned,",
+     "speaker": "Man 1"
+    },
+    {
+     "start": 76.9,
+     "end": 80.8,
+     "ja": "やっぱ憧れるっすね。日本人にとっては憧れる。",
+     "en": "it's something Japanese people admire.",
+     "speaker": "Man 1"
+    }
+   ]
+  },
+  {
+   "start": 144.0,
+   "end": 160.8,
+   "title": "Is Gaijin a Discriminatory Word?",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "friends"
+   ],
+   "grammar": [
+    "〜に対して — towards / regarding",
+    "〜ちゃう — to do completely / end up doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 144.3,
+     "end": 146.5,
+     "ja": "話では聞いてますけども、",
+     "en": "I've heard about that, but...",
+     "speaker": "Man"
+    },
+    {
+     "start": 146.7,
+     "end": 150.8,
+     "ja": "自分としてはそんなに、その、外人っていう言葉に対して、",
+     "en": "Personally, towards the word 'gaijin',",
+     "speaker": "Man"
+    },
+    {
+     "start": 150.9,
+     "end": 153.6,
+     "ja": "差別的な意識は持ってないですね。",
+     "en": "I don't have any discriminatory intent.",
+     "speaker": "Man"
+    },
+    {
+     "start": 153.8,
+     "end": 157.8,
+     "ja": "特に言ってる私たちとしては、深い意味はないっていうか、",
+     "en": "For those of us using it, there's no deeper meaning,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 157.9,
+     "end": 160.6,
+     "ja": "聞き慣れちゃってる言葉だったんで。",
+     "en": "it's just a word we've grown up hearing all the time.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 204.0,
+   "end": 217.0,
+   "title": "Better Ways to Refer to Foreigners",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — if / when",
+    "〜ほうがいい — it's better to",
+    "〜気がする — to have a feeling that"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 204.5,
+     "end": 207.1,
+     "ja": "アメリカ人だったらアメリカ人、",
+     "en": "If they're American, say 'American',",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 207.2,
+     "end": 209.6,
+     "ja": "韓国人だったら韓国人、",
+     "en": "if they're Korean, say 'Korean',",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 209.7,
+     "end": 212.2,
+     "ja": "なんか国をつければいいと思います。",
+     "en": "I think it's better to name the country.",
+     "speaker": "Woman 1"
+    },
+    {
+     "start": 212.3,
+     "end": 216.5,
+     "ja": "外人っていうよりは、外国人のほうがいい気がする。",
+     "en": "Rather than 'gaijin', I feel 'gaikokujin' sounds better.",
+     "speaker": "Woman 2"
+    }
+   ]
+  }
+ ],
+ "videoId": "J_dyx4Dub5U",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

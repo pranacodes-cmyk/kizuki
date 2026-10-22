@@ -1,0 +1,109 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.8,
+   "end": 26.1,
+   "title": "Inviting to a Live Show",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "music",
+    "friends"
+   ],
+   "grammar": [
+    "〜てほしい — wanting someone to do something",
+    "〜んだ — explanatory tone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.0,
+     "end": 17.5,
+     "ja": "月末でっけえライブあんだけど、お前に聴いてほしいんだけど。",
+     "en": "We've got a huge gig at the end of the month, and I really want you to come hear it.",
+     "speaker": "Hiiragi"
+    },
+    {
+     "start": 18.9,
+     "end": 21.6,
+     "ja": "みんなのスピードに、俺だけ追いついてない。",
+     "en": "I'm the only one who can't keep up with everyone's pace.",
+     "speaker": "Mafuyu"
+    },
+    {
+     "start": 21.8,
+     "end": 25.4,
+     "ja": "音楽を拒んだように見えた。なんでだろう。違う。",
+     "en": "It looked as if he rejected music. Why? No.",
+     "speaker": "Ritsuka"
+    }
+   ]
+  },
+  {
+   "start": 38.6,
+   "end": 57.0,
+   "title": "Afraid of Never Turning Back",
+   "level": "N2",
+   "topics": [
+    "anime",
+    "music",
+    "romance"
+   ],
+   "grammar": [
+    "〜たら — if / once",
+    "〜なくなる — to become unable to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 38.8,
+     "end": 43.1,
+     "ja": "ライブに行って音楽を聴いたら、俺は決定的なことを絶対に考える。",
+     "en": "If I go to the gig and listen to the music, I'll definitely end up thinking about something irreversible.",
+     "speaker": "Mafuyu"
+    },
+    {
+     "start": 43.7,
+     "end": 46.3,
+     "ja": "あいつに聴かせたくて雨曲を完成させたのに。",
+     "en": "Even though I finished the rain song just so he could hear it.",
+     "speaker": "Hiiragi"
+    },
+    {
+     "start": 46.7,
+     "end": 49.3,
+     "ja": "真冬さ、本当は何が怖いの？",
+     "en": "Mafuyu, what are you really afraid of?",
+     "speaker": "Ugetsu"
+    },
+    {
+     "start": 49.6,
+     "end": 52.3,
+     "ja": "あいつ、ちゃんとライブ来るんだろうな。",
+     "en": "Will he really show up to the gig, I wonder?",
+     "speaker": "Hiiragi"
+    },
+    {
+     "start": 52.6,
+     "end": 55.4,
+     "ja": "音楽を選んだら、音楽に背いて生きていけなくなる。",
+     "en": "If I choose music, I'll never be able to live turning my back on it.",
+     "speaker": "Mafuyu"
+    },
+    {
+     "start": 55.7,
+     "end": 56.8,
+     "ja": "戻れなくなるのが怖い。",
+     "en": "I'm scared of never being able to turn back.",
+     "speaker": "Mafuyu"
+    }
+   ]
+  }
+ ],
+ "videoId": "ArGNQrw6kEQ",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

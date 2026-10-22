@@ -1,0 +1,150 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 411.0,
+   "end": 421.2,
+   "title": "Learning to Say Gochisousama",
+   "level": "N5",
+   "topics": [
+    "food",
+    "culture",
+    "travel"
+   ],
+   "grammar": [
+    "ごちそうさまでした — thanking for a meal"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 411.2,
+     "end": 412.3,
+     "ja": "ごち",
+     "en": "Go-chi",
+     "speaker": "Man"
+    },
+    {
+     "start": 412.3,
+     "end": 413.4,
+     "ja": "ごち",
+     "en": "Go-chi",
+     "speaker": "Woman"
+    },
+    {
+     "start": 413.4,
+     "end": 414.4,
+     "ja": "そう",
+     "en": "Sō",
+     "speaker": "Man"
+    },
+    {
+     "start": 414.4,
+     "end": 415.2,
+     "ja": "そう",
+     "en": "Sō",
+     "speaker": "Woman"
+    },
+    {
+     "start": 415.2,
+     "end": 415.9,
+     "ja": "さま",
+     "en": "Sama",
+     "speaker": "Man"
+    },
+    {
+     "start": 415.9,
+     "end": 416.5,
+     "ja": "さま",
+     "en": "Sama",
+     "speaker": "Woman"
+    },
+    {
+     "start": 416.5,
+     "end": 417.1,
+     "ja": "でした",
+     "en": "Deshita",
+     "speaker": "Man"
+    },
+    {
+     "start": 417.1,
+     "end": 417.8,
+     "ja": "でした",
+     "en": "Deshita",
+     "speaker": "Woman"
+    },
+    {
+     "start": 417.8,
+     "end": 419.4,
+     "ja": "ごちそうさまでした！",
+     "en": "Thank you for the treat!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 419.4,
+     "end": 420.8,
+     "ja": "ありがとうございます！",
+     "en": "Thank you very much!",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 752.0,
+   "end": 772.3,
+   "title": "English Learning Advice",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜たい方 — people who want to...",
+    "〜のが一番 — ...is the best way",
+    "ぜひ〜てください — please be sure to..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 752.3,
+     "end": 758.8,
+     "ja": "実践的な英会話を短期間で効率よく身につけたい方は、",
+     "en": "If you want to acquire practical English conversation efficiently in a short period of time,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 758.8,
+     "end": 763.0,
+     "ja": "いろんなアメリカ人の生の英会話を学ぶのが一番です。",
+     "en": "learning from real-life conversations of various Americans is the best way.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 763.0,
+     "end": 766.4,
+     "ja": "英会話教材「This is 英会話」では、",
+     "en": "In the English learning material \"This is Eikaiwa\",",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 766.4,
+     "end": 770.0,
+     "ja": "アメリカ人約150人の生の英会話を紹介しています。",
+     "en": "we introduce real English conversations of about 150 Americans.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 770.0,
+     "end": 772.3,
+     "ja": "概要欄に紹介していますので、ぜひ見てください。",
+     "en": "It is introduced in the description, so please check it out.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "kqU1NDme5Ns",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

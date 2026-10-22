@@ -24,6 +24,12 @@ function Welcome() {
   const navigate = useNavigate();
   const onboarded = useApp((s) => s.onboarded);
   useEffect(() => {
+    // Preview shortcut: /?tour=1 skips onboarding and opens the feed with a fresh welcome tour.
+    if (new URLSearchParams(window.location.search).get("tour") === "1") {
+      useApp.setState({ onboarded: true, tutorial: { feed: false, review: false }, updatedAt: Date.now() });
+      void navigate({ to: "/feed", replace: true });
+      return;
+    }
     if (onboarded) void navigate({ to: "/feed", replace: true });
   }, [onboarded, navigate]);
 

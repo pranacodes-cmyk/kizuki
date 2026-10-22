@@ -1,0 +1,220 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 242.3,
+   "end": 302.7,
+   "title": "Recording the Sound Buttons",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun",
+    "animals"
+   ],
+   "grammar": [
+    "〜た方がいい — had better / should",
+    "〜ように — so that...",
+    "〜たらすぐ — right after / as soon as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 242.5,
+     "end": 244.2,
+     "ja": "「おやつ」",
+     "en": "\"Treat.\"",
+     "speaker": "Woman"
+    },
+    {
+     "start": 247.2,
+     "end": 248.3,
+     "ja": "あー、いいね。",
+     "en": "Ah, that's good.",
+     "speaker": "Man"
+    },
+    {
+     "start": 248.4,
+     "end": 250.0,
+     "ja": "もうちょっとなんかタイムロス無くした方がいいのか？",
+     "en": "Should we reduce the delay a bit?",
+     "speaker": "Man"
+    },
+    {
+     "start": 250.1,
+     "end": 251.8,
+     "ja": "押した瞬間鳴るようにさ。",
+     "en": "So it plays the moment you press it.",
+     "speaker": "Man"
+    },
+    {
+     "start": 252.0,
+     "end": 254.8,
+     "ja": "「ピッ」って鳴ったらすぐ「おやつ」って言って。",
+     "en": "Say \"treat\" right when it beeps.",
+     "speaker": "Man"
+    },
+    {
+     "start": 256.5,
+     "end": 258.5,
+     "ja": "おやつ！",
+     "en": "Treat!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 258.7,
+     "end": 260.3,
+     "ja": "離しちゃダメだよ。",
+     "en": "You can't let go of the button!",
+     "speaker": "Man"
+    },
+    {
+     "start": 260.4,
+     "end": 262.5,
+     "ja": "ああ、そうか！",
+     "en": "Oh, right!",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 308.5,
+   "end": 326.5,
+   "title": "Tell Us What You Want, Joy",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ないと — if not / unless",
+    "〜て — request / imperative",
+    "〜やん — isn't it / you do (Kansai dialect)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 308.8,
+     "end": 310.2,
+     "ja": "ジョイ、しゃべるやん。",
+     "en": "Look, Joy can talk!",
+     "speaker": "Man"
+    },
+    {
+     "start": 310.5,
+     "end": 313.2,
+     "ja": "はい、ジョイしゃべらないと分からないよ？",
+     "en": "Joy, if you don't speak, we won't know.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 313.8,
+     "end": 315.5,
+     "ja": "気持ちを伝えて？",
+     "en": "Tell us how you feel.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 315.6,
+     "end": 316.8,
+     "ja": "気持ち伝えて、ジョイ。",
+     "en": "Tell us how you feel, Joy.",
+     "speaker": "Man"
+    },
+    {
+     "start": 316.9,
+     "end": 318.0,
+     "ja": "はい、ジョイ、これ。",
+     "en": "Here, Joy, this one.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 318.1,
+     "end": 319.4,
+     "ja": "気持ち伝えて？",
+     "en": "Tell us how you feel.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 324.5,
+     "end": 326.0,
+     "ja": "「おやつ」",
+     "en": "\"Treat.\"",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 364.5,
+   "end": 381.0,
+   "title": "Which Button Do You Want?",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "どれがいい — which one would you like",
+    "〜たばっか — just finished doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 364.8,
+     "end": 366.5,
+     "ja": "ジョイ、どれがいい？",
+     "en": "Joy, which one do you want?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 368.5,
+     "end": 370.5,
+     "ja": "どれがいい？これ？",
+     "en": "Which one do you want? This one?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 372.1,
+     "end": 373.6,
+     "ja": "散歩がいい？！",
+     "en": "You want a walk?!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 373.7,
+     "end": 375.0,
+     "ja": "散歩後だ。",
+     "en": "We just finished our walk.",
+     "speaker": "Man"
+    },
+    {
+     "start": 375.1,
+     "end": 376.3,
+     "ja": "行ったばっか。",
+     "en": "We just went.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 376.4,
+     "end": 377.3,
+     "ja": "はい。",
+     "en": "Here.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 378.2,
+     "end": 380.5,
+     "ja": "いいこいいこ〜。",
+     "en": "Good boy, good boy!",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "nP-cKgXQu1M",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

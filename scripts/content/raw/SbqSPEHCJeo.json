@@ -1,0 +1,169 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.02,
+   "end": 25.13,
+   "title": "Waking Members Up in the Hotel",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜終わって — after finishing",
+    "〜ていただく — receiving an action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.32,
+     "end": 13.06,
+     "ja": "昨日大阪のライブが終わって",
+     "en": "Yesterday our Osaka live show finished,",
+     "speaker": "Kevin"
+    },
+    {
+     "start": 13.06,
+     "end": 15.17,
+     "ja": "今大阪のホテルに泊まってます。",
+     "en": "and right now we're staying at an Osaka hotel.",
+     "speaker": "Kevin"
+    },
+    {
+     "start": 15.53,
+     "end": 16.74,
+     "ja": "なので、",
+     "en": "So,",
+     "speaker": "Kevin"
+    },
+    {
+     "start": 17.2,
+     "end": 20.35,
+     "ja": "私がい〜い感じに起こしていきたいと思いますよ。",
+     "en": "I'm going to wake everyone up nice and nicely.",
+     "speaker": "Kevin"
+    },
+    {
+     "start": 20.91,
+     "end": 21.84,
+     "ja": "行きましょう。",
+     "en": "Let's go.",
+     "speaker": "Kevin"
+    },
+    {
+     "start": 22.38,
+     "end": 25.13,
+     "ja": "まずはSEIYAの部屋から行きます！",
+     "en": "First, let's go to Seiya's room!",
+     "speaker": "Kevin"
+    }
+   ]
+  },
+  {
+   "start": 208.97,
+   "end": 224.23,
+   "title": "Good Morning, Time to Wake Up",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜んです — giving explanation/context",
+    "〜ていただく — humble request/receive favor"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 209.27,
+     "end": 210.84,
+     "ja": "おはようございます！",
+     "en": "Good morning!",
+     "speaker": "Kevin"
+    },
+    {
+     "start": 211.23,
+     "end": 214.07,
+     "ja": "朝ですよ。早いですよう、朝。",
+     "en": "It's morning. It's early morning.",
+     "speaker": "Kevin"
+    },
+    {
+     "start": 214.39,
+     "end": 217.2,
+     "ja": "ライブ終わってお疲れなのはわかるんですけど、",
+     "en": "I know you're tired after the show, but",
+     "speaker": "Kevin"
+    },
+    {
+     "start": 217.4,
+     "end": 219.78,
+     "ja": "起きていただいてもよろしいでしょうか？",
+     "en": "would it be alright if you wake up?",
+     "speaker": "Kevin"
+    },
+    {
+     "start": 220.84,
+     "end": 222.18,
+     "ja": "起きてます…",
+     "en": "I'm awake...",
+     "speaker": "Seiya"
+    }
+   ]
+  },
+  {
+   "start": 845.89,
+   "end": 855.97,
+   "title": "Where Is Older Brother Sleeping?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てよ — request to close friend",
+    "〜てんの — colloquial form of 〜ているの"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 846.19,
+     "end": 847.64,
+     "ja": "お兄ちゃん起こしてよ。",
+     "en": "Wake up your big bro.",
+     "speaker": "Kevin"
+    },
+    {
+     "start": 847.64,
+     "end": 849.03,
+     "ja": "どこにいんの…",
+     "en": "Where is he...?",
+     "speaker": "Shoot"
+    },
+    {
+     "start": 849.03,
+     "end": 850.55,
+     "ja": "ここにいんの？",
+     "en": "Is he in here?",
+     "speaker": "Shoot"
+    },
+    {
+     "start": 850.69,
+     "end": 852.32,
+     "ja": "ハマっちゃってんの？",
+     "en": "Is he stuck in there?",
+     "speaker": "Shoot"
+    }
+   ]
+  }
+ ],
+ "videoId": "SbqSPEHCJeo",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

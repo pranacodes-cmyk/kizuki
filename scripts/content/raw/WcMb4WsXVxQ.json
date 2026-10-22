@@ -1,0 +1,180 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 136.5,
+   "end": 156.0,
+   "title": "The Old Moon-Viewing Dumpling Custom",
+   "level": "N3",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜てある — state resulting from action",
+    "〜ていい — permission / allowed to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 136.5,
+     "end": 140.0,
+     "ja": "なんとこの子たち、何をしてるか分かるかな？",
+     "en": "Can you guess what these kids are doing?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 140.0,
+     "end": 144.2,
+     "ja": "お供えしてあるお団子を盗んでるんだって！",
+     "en": "They're actually stealing the dumplings set out as offerings!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 144.2,
+     "end": 147.3,
+     "ja": "これは「盗み食い」の風習と言って、",
+     "en": "This was a custom called \"stealth eating,\" where...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 147.3,
+     "end": 150.0,
+     "ja": "他の人の家にお供えしてあったお団子を、",
+     "en": "...the dumplings offered at other people's houses...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 150.0,
+     "end": 155.2,
+     "ja": "勝手に盗んで取って食べていいってされてたんだって！",
+     "en": "...were allowed to be taken and eaten without asking!",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 322.5,
+   "end": 346.0,
+   "title": "The Origins of Shichi-Go-San",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "family"
+   ],
+   "grammar": [
+    "〜を祝う — celebrate",
+    "〜に由来する — originate from",
+    "〜始める — begin to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 322.5,
+     "end": 326.0,
+     "ja": "そう、七五三。",
+     "en": "That's right, Shichi-Go-San.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 326.5,
+     "end": 330.0,
+     "ja": "七五三は子どもの成長を祝う、",
+     "en": "Shichi-Go-San comes from ancient ceremonies...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 330.0,
+     "end": 336.0,
+     "ja": "昔の3歳、5歳、7歳の行事に由来してるんだって。",
+     "en": "...celebrating children's growth at ages 3, 5, and 7.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 336.0,
+     "end": 338.8,
+     "ja": "3歳の時は「髪置」って言って、",
+     "en": "For 3-year-olds, there was a ceremony called \"Kamioki\"...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 338.8,
+     "end": 343.0,
+     "ja": "子どもの髪を伸ばし始める儀式があったんだって。",
+     "en": "...where they began growing out the child's hair.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 343.0,
+     "end": 345.8,
+     "ja": "それが今、七五三に変わってるんだね。",
+     "en": "That evolved into today's Shichi-Go-San.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 553.0,
+   "end": 612.0,
+   "title": "Lucky Foods for the Winter Solstice",
+   "level": "N3",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜といい — it is good to",
+    "〜と言うと — speaking of / when it comes to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 553.0,
+     "end": 555.3,
+     "ja": "あとこれは知らなかったんだけど、",
+     "en": "Also, I didn't know this, but...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 555.3,
+     "end": 558.5,
+     "ja": "冬至には「ん」がつく食べ物を食べると、",
+     "en": "...they say on the winter solstice, eating foods with an \"n\"...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 558.5,
+     "end": 560.0,
+     "ja": "とってもいいんだって！",
+     "en": "...is considered very auspicious!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 560.0,
+     "end": 603.0,
+     "ja": "カボチャも何で食べるといいのかなって言うと、",
+     "en": "As for why eating pumpkin is good...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 603.0,
+     "end": 607.0,
+     "ja": "カボチャを難しい言葉で言うと「ナンキン」って言うんだって。",
+     "en": "...the formal word for pumpkin is \"nankin.\"",
+     "speaker": "Woman"
+    },
+    {
+     "start": 607.0,
+     "end": 611.8,
+     "ja": "それで「ん」が2つ付いてるから、すごくいいってされてるんだって。",
+     "en": "And since it has two \"n\"s, it's considered very lucky.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "WcMb4WsXVxQ",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

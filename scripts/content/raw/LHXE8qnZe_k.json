@@ -1,0 +1,201 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 8.8,
+   "end": 18.8,
+   "title": "Introductions and Greetings",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜と申します — my name is (humble)",
+    "〜させていただきます — allow me to do (humble)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 8.8,
+     "end": 10.6,
+     "ja": "すごい緩い感じで 初めまして。",
+     "en": "Starting off very relaxed: nice to meet you.",
+     "speaker": "Choruko"
+    },
+    {
+     "start": 10.6,
+     "end": 12.0,
+     "ja": "ちょる子と申します。",
+     "en": "I'm Choruko.",
+     "speaker": "Choruko"
+    },
+    {
+     "start": 12.0,
+     "end": 14.7,
+     "ja": "今日はたぱぞうさんと ご一緒させていただいております。",
+     "en": "I'm joined today by Tapazou-san.",
+     "speaker": "Choruko"
+    },
+    {
+     "start": 14.7,
+     "end": 17.0,
+     "ja": "はい、改めまして たぱぞうです。",
+     "en": "Yes, once again, I'm Tapazou.",
+     "speaker": "Tapazou"
+    },
+    {
+     "start": 17.0,
+     "end": 18.4,
+     "ja": "よろしくお願いいたします。",
+     "en": "It's a pleasure to be here.",
+     "speaker": "Tapazou"
+    }
+   ]
+  },
+  {
+   "start": 231.8,
+   "end": 252.0,
+   "title": "Honored to Talk on a Volatile Day",
+   "level": "N3",
+   "topics": [
+    "work",
+    "friends"
+   ],
+   "grammar": [
+    "〜て光栄です — honored to do...",
+    "〜てて — casual form of 〜ていて"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 231.8,
+     "end": 235.4,
+     "ja": "いやいや、本当にこんなに相場がね、",
+     "en": "No, no, on a day when the market is moving...",
+     "speaker": "Tapazou"
+    },
+    {
+     "start": 235.4,
+     "end": 237.2,
+     "ja": "こう動いてる日に、",
+     "en": "...so dramatically like this,",
+     "speaker": "Tapazou"
+    },
+    {
+     "start": 237.2,
+     "end": 239.3,
+     "ja": "こう、ちょる子さんとお話しができて 光栄ですよ。",
+     "en": "it's an honor to talk with you, Choruko-san.",
+     "speaker": "Tapazou"
+    },
+    {
+     "start": 239.3,
+     "end": 240.7,
+     "ja": "あ、ありがとうございます。",
+     "en": "Ah, thank you so much.",
+     "speaker": "Choruko"
+    },
+    {
+     "start": 240.7,
+     "end": 244.6,
+     "ja": "私、あの、午前中ちょっと バタバタしててですね、",
+     "en": "I was a bit rushed this morning,",
+     "speaker": "Tapazou"
+    },
+    {
+     "start": 244.6,
+     "end": 246.5,
+     "ja": "電車遅れて、",
+     "en": "and the train was delayed,",
+     "speaker": "Tapazou"
+    },
+    {
+     "start": 246.5,
+     "end": 249.2,
+     "ja": "ここに着いて 暴落してることを知ったので、",
+     "en": "so I only found out about the crash when I arrived here.",
+     "speaker": "Tapazou"
+    },
+    {
+     "start": 249.7,
+     "end": 251.7,
+     "ja": "感動がより深いですね。",
+     "en": "So the shock is even deeper.",
+     "speaker": "Tapazou"
+    }
+   ]
+  },
+  {
+   "start": 744.4,
+   "end": 760.3,
+   "title": "Buying and Selling Just Now",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜てた — casual past continuous",
+    "〜直す — to do again"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 744.4,
+     "end": 746.2,
+     "ja": "欲しかったやつは何ですか？",
+     "en": "What were the ones you wanted?",
+     "speaker": "Tapazou"
+    },
+    {
+     "start": 746.2,
+     "end": 749.0,
+     "ja": "欲しかったやつはですね、 化学系が欲しかったんですよ。",
+     "en": "The ones I wanted were in the chemical sector.",
+     "speaker": "Choruko"
+    },
+    {
+     "start": 749.0,
+     "end": 753.1,
+     "ja": "で、さっき、あ、あとアドバンテストも 1回手放しちゃってたので、",
+     "en": "And earlier, ah, and Advantest, I had already sold it once,",
+     "speaker": "Choruko"
+    },
+    {
+     "start": 753.1,
+     "end": 754.7,
+     "ja": "さっき買い直して、もうすぐ、",
+     "en": "so I bought it back earlier and immediately...",
+     "speaker": "Choruko"
+    },
+    {
+     "start": 754.7,
+     "end": 755.7,
+     "ja": "さっき？",
+     "en": "Just now?",
+     "speaker": "Tapazou"
+    },
+    {
+     "start": 755.7,
+     "end": 758.2,
+     "ja": "さっきです。さっき買って、 さっきもう売りました。",
+     "en": "Just now. I bought it a moment ago, and I already sold it.",
+     "speaker": "Choruko"
+    },
+    {
+     "start": 758.2,
+     "end": 760.2,
+     "ja": "リバ取りみたいな感じで。",
+     "en": "Just catching a small rebound.",
+     "speaker": "Choruko"
+    }
+   ]
+  }
+ ],
+ "videoId": "LHXE8qnZe_k",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

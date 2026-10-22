@@ -1,0 +1,208 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 137.3,
+   "end": 205.5,
+   "title": "Basic Self-Introduction Examples",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜出身 — from (hometown/country)",
+    "〜です — to be (polite)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 137.6,
+     "end": 139.0,
+     "ja": "例えば、",
+     "en": "For example,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 139.0,
+     "end": 141.5,
+     "ja": "「こんにちは、マークです。",
+     "en": "\"Hello, I'm Mark.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 141.5,
+     "end": 143.6,
+     "ja": "アメリカ人です。",
+     "en": "I'm American.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 143.6,
+     "end": 145.9,
+     "ja": "ニューヨーク出身です。",
+     "en": "I'm from New York.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 145.9,
+     "end": 148.3,
+     "ja": "よろしくお願いします」とかね。",
+     "en": "Nice to meet you,\" or something like that.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 148.8,
+     "end": 152.8,
+     "ja": "まぁ色々ありますよ。もう少し長く言えば、",
+     "en": "Well, there are many ways. If you say a bit more,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 152.8,
+     "end": 155.4,
+     "ja": "「こんにちは、マリアです。",
+     "en": "\"Hello, I'm Maria.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 155.4,
+     "end": 157.8,
+     "ja": "アルゼンチン出身です」ね。",
+     "en": "I'm from Argentina.\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 157.8,
+     "end": 205.0,
+     "ja": "この出身っていうのは、アルゼンチンから来ましたっていうことですね。",
+     "en": "Saying \"from\" means \"I came from Argentina.\"",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 205.2,
+   "end": 226.0,
+   "title": "Explaining Where You Are From",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜のほうが — comparison: more than",
+    "〜から来ました — came from"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 205.5,
+     "end": 209.3,
+     "ja": "「アルゼンチンから来ました」も悪くはないんですけど、",
+     "en": "\"I came from Argentina\" isn't bad either, but",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 209.3,
+     "end": 212.7,
+     "ja": "出身のほうが日本人はよく使いますね。",
+     "en": "Japanese people use \"from (shusshin)\" more often.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 212.7,
+     "end": 217.6,
+     "ja": "例えば僕だったら、「こんにちは、鉄平です。日本から来ました」",
+     "en": "For instance, for me, \"Hello, I'm Teppei. I came from Japan\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 217.6,
+     "end": 219.8,
+     "ja": "これは僕は使わない。",
+     "en": "I wouldn't say this.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 219.8,
+     "end": 223.3,
+     "ja": "「日本出身です」とか「日本人です」とか、",
+     "en": "\"I'm from Japan\" or \"I'm Japanese,\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 223.3,
+     "end": 225.5,
+     "ja": "それでいいと思いますね。",
+     "en": "I think that's fine.",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 236.8,
+   "end": 257.0,
+   "title": "Talking About Hobbies in Japanese",
+   "level": "N5",
+   "topics": [
+    "music",
+    "daily"
+   ],
+   "grammar": [
+    "〜が好き — to like something",
+    "〜や — and (non-exhaustive list)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 237.0,
+     "end": 239.4,
+     "ja": "あとは、趣味ね。",
+     "en": "Also, hobbies.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 239.4,
+     "end": 242.2,
+     "ja": "「音楽が好きです」とかね。",
+     "en": "Like \"I like music.\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 242.2,
+     "end": 246.1,
+     "ja": "「趣味は音楽です」でもいいし、ま、「音楽が好きです」ね。",
+     "en": "\"My hobby is music\" is fine, or \"I like music.\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 246.1,
+     "end": 250.6,
+     "ja": "例えばロックや、ジャズ、ヒップホップ、",
+     "en": "For example, rock, jazz, hip-hop,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 250.6,
+     "end": 253.6,
+     "ja": "テクノ、ハウス、クラブミュージック、",
+     "en": "techno, house, club music,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 253.6,
+     "end": 256.5,
+     "ja": "「色々な音楽が好きです」とかね。",
+     "en": "\"I like all kinds of music,\" and so on.",
+     "speaker": "Teppei"
+    }
+   ]
+  }
+ ],
+ "videoId": "RB5nfJHq5fI",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

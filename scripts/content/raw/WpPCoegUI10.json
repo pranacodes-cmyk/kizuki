@@ -1,0 +1,253 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 141.0,
+   "end": 158.2,
+   "title": "Morning Sports Routine",
+   "level": "N4",
+   "topics": [
+    "sports",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ている — ongoing action",
+    "〜から — and then / after"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 141.3,
+     "end": 143.0,
+     "ja": "何かスポーツやってるんですか？",
+     "en": "Do you do any sports?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 143.0,
+     "end": 144.7,
+     "ja": "スポーツはもう毎朝やってます。",
+     "en": "I do sports every morning.",
+     "speaker": "Yashima"
+    },
+    {
+     "start": 144.7,
+     "end": 146.0,
+     "ja": "何やってるんですか、スポーツ？",
+     "en": "What kind of sports do you do?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 146.0,
+     "end": 148.3,
+     "ja": "自転車、ランニング、それからちょっとストレッチ。",
+     "en": "Cycling, running, and then some stretching.",
+     "speaker": "Yashima"
+    },
+    {
+     "start": 148.3,
+     "end": 151.0,
+     "ja": "自転車、ランニング、ストレッチ？！",
+     "en": "Cycling, running, stretching?!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 151.0,
+     "end": 152.5,
+     "ja": "どっしゃー！",
+     "en": "Whoa!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 153.2,
+     "end": 155.6,
+     "ja": "ちょっと、みんなびっくりしてるよ。",
+     "en": "Hey, you're startling everyone.",
+     "speaker": "Yashima"
+    },
+    {
+     "start": 155.6,
+     "end": 158.0,
+     "ja": "僕が一番びっくりしてますよ、八島さん。",
+     "en": "I'm the one who's most surprised, Yashima-san!",
+     "speaker": "Nagai"
+    }
+   ]
+  },
+  {
+   "start": 253.2,
+   "end": 313.0,
+   "title": "Rock-Paper-Scissors and a Forehead Flick",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "comedy",
+    "culture"
+   ],
+   "grammar": [
+    "〜た方 — the one who (did/does)",
+    "〜てよ — imperative / request"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 253.6,
+     "end": 255.6,
+     "ja": "最後にじゃんけんをして、",
+     "en": "Finally, let's play rock-paper-scissors,",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 255.6,
+     "end": 257.6,
+     "ja": "負けた方がデコピン。",
+     "en": "and the loser gets a forehead flick.",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 257.6,
+     "end": 258.8,
+     "ja": "デコピンね。",
+     "en": "A forehead flick, got it.",
+     "speaker": "Yashima"
+    },
+    {
+     "start": 258.8,
+     "end": 300.6,
+     "ja": "最初はグー、じゃんけんぽん！",
+     "en": "First comes rock, rock-paper-scissors!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 300.6,
+     "end": 302.5,
+     "ja": "あいこでしょ！あーっしょ！",
+     "en": "It's a tie, shoot! Shoot!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 303.4,
+     "end": 305.7,
+     "ja": "痛ーっ！",
+     "en": "Ouch!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 305.7,
+     "end": 307.7,
+     "ja": "いたたたたたたた！",
+     "en": "Ow ow ow ow ow ow!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 308.5,
+     "end": 309.8,
+     "ja": "もういいよ。",
+     "en": "Alright, that's enough.",
+     "speaker": "Yashima"
+    },
+    {
+     "start": 309.8,
+     "end": 311.8,
+     "ja": "体張って頑張ってよ！",
+     "en": "Keep giving it your all physically!",
+     "speaker": "Yashima"
+    },
+    {
+     "start": 311.8,
+     "end": 312.8,
+     "ja": "ありがとうございます！",
+     "en": "Thank you very much!",
+     "speaker": "Nagai"
+    }
+   ]
+  },
+  {
+   "start": 315.5,
+   "end": 333.5,
+   "title": "Official Friendship Certificate",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜になる — to become",
+    "〜て言う — to say that ..."
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 316.0,
+     "end": 317.8,
+     "ja": "街ぶらトーク会員証。",
+     "en": "Town Stroll Talk membership card.",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 317.8,
+     "end": 320.0,
+     "ja": "お友達ナンバー005。",
+     "en": "Friend number 005.",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 320.0,
+     "end": 322.5,
+     "ja": "あなたは芸人・永井佑一郎と",
+     "en": "You and comedian Yuichiro Nagai",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 322.5,
+     "end": 323.7,
+     "ja": "お友達になりました。",
+     "en": "have become friends.",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 323.7,
+     "end": 325.0,
+     "ja": "今後ともよろしくお願いします！",
+     "en": "Looking forward to continuing our friendship!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 325.0,
+     "end": 326.2,
+     "ja": "はい、分かりました。",
+     "en": "Yes, understood.",
+     "speaker": "Yashima"
+    },
+    {
+     "start": 326.2,
+     "end": 328.5,
+     "ja": "「永井佑一郎とお友達になりました」って言ってください。",
+     "en": "Please say, 'I became friends with Yuichiro Nagai.'",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 328.5,
+     "end": 331.2,
+     "ja": "永井佑一郎君とお友達になりました！",
+     "en": "I became friends with Yuichiro Nagai-kun!",
+     "speaker": "Yashima"
+    },
+    {
+     "start": 331.2,
+     "end": 333.2,
+     "ja": "ありがとうございます！",
+     "en": "Thank you so much!",
+     "speaker": "Nagai"
+    }
+   ]
+  }
+ ],
+ "videoId": "WpPCoegUI10",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

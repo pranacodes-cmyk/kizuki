@@ -1,0 +1,265 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 15.5,
+   "end": 36.5,
+   "title": "I'll Do Something About the Scolding",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy",
+    "friends"
+   ],
+   "grammar": [
+    "〜かもしんない — might be / perhaps",
+    "〜に決まってる — bound to be / definitely"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 15.7,
+     "end": 17.0,
+     "ja": "謝ってこいよ。",
+     "en": "Go and apologize.",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 17.1,
+     "end": 21.8,
+     "ja": "無理だよ。あの課長怒ると怖いしさ、説教長いんだよ。この前も２時間半怒られたんだよ。",
+     "en": "No way. When that manager gets mad he's scary, and his lectures are long. Just recently I got scolded for two and a half hours.",
+     "speaker": "Wada"
+    },
+    {
+     "start": 22.0,
+     "end": 25.0,
+     "ja": "いや、そうかもしんないけど、謝んなかったらお前クビになるぞ。",
+     "en": "Well, that might be true, but if you don't apologize, you're gonna get fired.",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 25.2,
+     "end": 26.0,
+     "ja": "え、どうしよう？",
+     "en": "Huh, what should I do?",
+     "speaker": "Wada"
+    },
+    {
+     "start": 26.1,
+     "end": 27.2,
+     "ja": "謝ってこいって！",
+     "en": "Just go apologize!",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 27.3,
+     "end": 29.0,
+     "ja": "いや無理だよ、説教終わんねえもん。",
+     "en": "No way, the scolding will never end.",
+     "speaker": "Wada"
+    },
+    {
+     "start": 29.3,
+     "end": 31.2,
+     "ja": "じゃ分かった、俺どうにかしてやるから。",
+     "en": "Fine, got it, I'll figure something out for you.",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 31.3,
+     "end": 32.4,
+     "ja": "どうにかって？",
+     "en": "Figure what out?",
+     "speaker": "Wada"
+    },
+    {
+     "start": 32.5,
+     "end": 35.0,
+     "ja": "だからあの、説教早く終わるようにどうにかしてやるっつってんだよ。",
+     "en": "Like I said, I'm saying I'll do something so the lecture ends quickly.",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 35.1,
+     "end": 36.5,
+     "ja": "そんなん無理に決まってんだろ！",
+     "en": "That's obviously impossible!",
+     "speaker": "Wada"
+    }
+   ]
+  },
+  {
+   "start": 120.5,
+   "end": 132.5,
+   "title": "A Technique to Defuse the Boss",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ないといけない — must / have to",
+    "〜ことによって — by doing / through"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 120.8,
+     "end": 121.8,
+     "ja": "どうやったの？",
+     "en": "How did you do that?",
+     "speaker": "Wada"
+    },
+    {
+     "start": 122.0,
+     "end": 125.3,
+     "ja": "上司っていうのはね、その部下の揉め事を丸く収めないといけないの。",
+     "en": "See, a boss has to settle disputes among their subordinates peacefully.",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 125.5,
+     "end": 128.8,
+     "ja": "俺が課長以上にブチギレることによって、自分が怒ってるとかどうでもよくなるんだよ。",
+     "en": "By me snapping even harder than the manager, he forgets that he was angry in the first place.",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 128.9,
+     "end": 129.6,
+     "ja": "そうなんだ。",
+     "en": "I see.",
+     "speaker": "Wada"
+    },
+    {
+     "start": 129.7,
+     "end": 130.4,
+     "ja": "そういうもんなんだよ。",
+     "en": "That's how it works.",
+     "speaker": "Kawai"
+    },
+    {
+     "start": 130.5,
+     "end": 131.5,
+     "ja": "ありがとな、助かったよ。",
+     "en": "Thanks, you saved me.",
+     "speaker": "Wada"
+    },
+    {
+     "start": 131.6,
+     "end": 132.4,
+     "ja": "うん、ほら仕事やっちまえ。",
+     "en": "Yeah, now get back to work.",
+     "speaker": "Kawai"
+    }
+   ]
+  },
+  {
+   "start": 291.0,
+   "end": 317.0,
+   "title": "Confessing All the Misdeeds at Once",
+   "level": "N3",
+   "topics": [
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てくれ / てください — please do",
+    "〜てんの(は) — the one who is doing"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 291.2,
+     "end": 292.4,
+     "ja": "もう分かりました、課長。",
+     "en": "Alright, I understand, Manager.",
+     "speaker": "Wada"
+    },
+    {
+     "start": 292.5,
+     "end": 294.0,
+     "ja": "俺の悪行、今から全部言います。",
+     "en": "I'll tell you all my misdeeds right now.",
+     "speaker": "Wada"
+    },
+    {
+     "start": 294.1,
+     "end": 296.5,
+     "ja": "まとめて１回でキレてください、お願いします。",
+     "en": "Please just get mad once for all of them together.",
+     "speaker": "Wada"
+    },
+    {
+     "start": 296.8,
+     "end": 299.2,
+     "ja": "何回も何回も怒られんの、俺、頭おかしくなるんで。",
+     "en": "Getting scolded over and over is going to make me lose my mind.",
+     "speaker": "Wada"
+    },
+    {
+     "start": 299.4,
+     "end": 301.0,
+     "ja": "俺の悪行、今から全部言います。",
+     "en": "I'll tell you all my misdeeds right now.",
+     "speaker": "Wada"
+    },
+    {
+     "start": 301.4,
+     "end": 304.2,
+     "ja": "パソコンも、もう半年くらい前から動いてないです。",
+     "en": "My computer hasn't been working for about six months either.",
+     "speaker": "Wada"
+    },
+    {
+     "start": 305.0,
+     "end": 307.4,
+     "ja": "あの、トイレットペーパー毎日持って帰ってんの、俺です。",
+     "en": "Um, the one taking toilet paper home every day, that's me.",
+     "speaker": "Wada"
+    },
+    {
+     "start": 307.8,
+     "end": 310.0,
+     "ja": "課長の悪口みんなに言いふらしてんの、俺ですから。",
+     "en": "The one spreading bad rumors about you to everyone, that's me too.",
+     "speaker": "Wada"
+    },
+    {
+     "start": 310.3,
+     "end": 312.8,
+     "ja": "はい、まとめて１回でキレてください。お願いします。",
+     "en": "So please, just blow up once for everything. Please.",
+     "speaker": "Wada"
+    },
+    {
+     "start": 314.2,
+     "end": 314.8,
+     "ja": "和田。",
+     "en": "Wada.",
+     "speaker": "Kachou"
+    },
+    {
+     "start": 314.9,
+     "end": 315.4,
+     "ja": "はい。",
+     "en": "Yes?",
+     "speaker": "Wada"
+    },
+    {
+     "start": 315.5,
+     "end": 316.8,
+     "ja": "クビだ！",
+     "en": "You're fired!",
+     "speaker": "Kachou"
+    }
+   ]
+  }
+ ],
+ "videoId": "YkE3wgW9FCY",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

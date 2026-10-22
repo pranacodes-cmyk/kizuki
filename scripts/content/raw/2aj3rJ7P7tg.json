@@ -1,0 +1,138 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 7.2,
+   "end": 18.0,
+   "title": "Trip to Okinawa with Family",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "family"
+   ],
+   "grammar": [
+    "〜ていく — action motion/direction",
+    "〜ので — because/since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 7.3,
+     "end": 8.5,
+     "ja": "こんにちは。",
+     "en": "Hello.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 8.6,
+     "end": 12.0,
+     "ja": "先日、家族で沖縄へ行ってきました。",
+     "en": "The other day, I went to Okinawa with my family.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 12.1,
+     "end": 15.5,
+     "ja": "最後に今回の旅行でかかった費用もまとめたので、",
+     "en": "At the end, I've also tallied up the expenses for this trip,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 15.6,
+     "end": 18.0,
+     "ja": "ぜひ最後までご覧ください。",
+     "en": "so please be sure to watch until the end.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 137.4,
+   "end": 147.5,
+   "title": "Visiting Churaumi Aquarium",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "animals"
+   ],
+   "grammar": [
+    "〜んですが — but/and (soft connector)",
+    "〜的 — -like / from the standpoint of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 137.6,
+     "end": 140.5,
+     "ja": "美ら海水族館に到着しました。",
+     "en": "We arrived at Churaumi Aquarium.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 140.7,
+     "end": 143.5,
+     "ja": "ジンベエザメもすごかったんですが、",
+     "en": "The whale shark was amazing, but...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 143.7,
+     "end": 147.2,
+     "ja": "個人的にはブラックマンタがとっても可愛かったです。",
+     "en": "...personally, I thought the black manta ray was really cute.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 403.0,
+   "end": 417.0,
+   "title": "Delicious Okinawa Soba Breakfast",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜たら — when/if",
+    "〜たい — want to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 403.2,
+     "end": 406.0,
+     "ja": "3日目の朝ごはんは、沖縄そば。",
+     "en": "Breakfast on the third day was Okinawa soba.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 406.2,
+     "end": 410.5,
+     "ja": "前日に調べて口コミのよかった謝苅そばさんへ。",
+     "en": "We went to Jagaru Soba, which had great reviews when I looked it up the day before.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 410.7,
+     "end": 413.6,
+     "ja": "これが本当に美味しくて大正解！",
+     "en": "This was so delicious and a great choice!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 413.8,
+     "end": 416.8,
+     "ja": "また沖縄に来たら絶対に行きたいお店です。",
+     "en": "It's a place I definitely want to visit again when I come to Okinawa.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "2aj3rJ7P7tg",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

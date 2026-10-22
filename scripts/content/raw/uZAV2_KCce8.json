@@ -1,0 +1,195 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 9.3,
+   "end": 24.3,
+   "title": "Arriving in Osaka",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜ております — humble ongoing/state",
+    "〜でしょうか — polite conjecture question"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.5,
+     "end": 12.8,
+     "ja": "やっほー！皆さんこんにちは、ジュリアです。",
+     "en": "Hey! Hello everyone, I'm Julia.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 12.9,
+     "end": 15.0,
+     "ja": "今日はどこに来ているでしょうか？",
+     "en": "Where do you think I've come today?",
+     "speaker": "Julia"
+    },
+    {
+     "start": 15.1,
+     "end": 16.8,
+     "ja": "正解はこちらです！",
+     "en": "Here's the answer!",
+     "speaker": "Julia"
+    },
+    {
+     "start": 17.0,
+     "end": 18.5,
+     "ja": "じゃーん！",
+     "en": "Ta-da!",
+     "speaker": "Julia"
+    },
+    {
+     "start": 18.8,
+     "end": 21.5,
+     "ja": "本日は大阪に来ております！",
+     "en": "Today I have come to Osaka!",
+     "speaker": "Julia"
+    },
+    {
+     "start": 21.7,
+     "end": 24.0,
+     "ja": "いえーい！久々の大阪です。",
+     "en": "Yay! It's been a while since I was in Osaka.",
+     "speaker": "Julia"
+    }
+   ]
+  },
+  {
+   "start": 221.0,
+   "end": 235.5,
+   "title": "Ordering Lunch in Koreatown",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜れる/られる — potential form",
+    "〜そう — looks like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 221.2,
+     "end": 223.0,
+     "ja": "お店に入れました！",
+     "en": "We managed to get into the restaurant!",
+     "speaker": "Julia"
+    },
+    {
+     "start": 223.2,
+     "end": 226.0,
+     "ja": "すごくね、美味しそうな冷麺と、",
+     "en": "Along with delicious-looking cold noodles,",
+     "speaker": "Julia"
+    },
+    {
+     "start": 226.2,
+     "end": 229.0,
+     "ja": "あとね、チーズ石焼ビビンバをね、頼みました。",
+     "en": "I also ordered cheese stone pot bibimbap.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 229.3,
+     "end": 230.8,
+     "ja": "楽しみ〜。",
+     "en": "Can't wait!",
+     "speaker": "Julia"
+    },
+    {
+     "start": 231.0,
+     "end": 233.2,
+     "ja": "お腹も結構空いてるから、歩いてきて。",
+     "en": "I'm pretty hungry too after walking here.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 233.5,
+     "end": 235.2,
+     "ja": "暑いし、楽しみです！",
+     "en": "It's hot out too, so I'm looking forward to it!",
+     "speaker": "Julia"
+    }
+   ]
+  },
+  {
+   "start": 526.3,
+   "end": 546.0,
+   "title": "Heading to the HEP FIVE Ferris Wheel",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜たいと思う — thinking of doing",
+    "〜ので — because/so"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 526.5,
+     "end": 530.5,
+     "ja": "じゃーん！こちら大阪のHEP FIVEに着きました！",
+     "en": "Ta-da! I've arrived at HEP FIVE in Osaka!",
+     "speaker": "Julia"
+    },
+    {
+     "start": 530.8,
+     "end": 534.5,
+     "ja": "今日はこちらで観覧車に乗りたいと思います！",
+     "en": "Today I'm planning to ride the Ferris wheel here!",
+     "speaker": "Julia"
+    },
+    {
+     "start": 534.8,
+     "end": 535.8,
+     "ja": "いえーい！",
+     "en": "Yay!",
+     "speaker": "Julia"
+    },
+    {
+     "start": 536.0,
+     "end": 538.2,
+     "ja": "ちょっと夕方の観覧車に乗りたいので、",
+     "en": "I want to ride the Ferris wheel around dusk,",
+     "speaker": "Julia"
+    },
+    {
+     "start": 538.3,
+     "end": 541.8,
+     "ja": "今から中に入ってね、観覧車乗り場まで移動しまーす。",
+     "en": "so I'll head inside now and walk up to the boarding platform.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 542.2,
+     "end": 544.0,
+     "ja": "初めて来たの、ここHEP FIVE。",
+     "en": "It's my first time here at HEP FIVE.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 544.2,
+     "end": 546.0,
+     "ja": "楽しみ！じゃあ、行ってきまーす！",
+     "en": "Excited! Well then, here I go!",
+     "speaker": "Julia"
+    }
+   ]
+  }
+ ],
+ "videoId": "uZAV2_KCce8",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

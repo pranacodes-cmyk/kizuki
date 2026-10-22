@@ -1,0 +1,198 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.8,
+   "end": 19.0,
+   "title": "Selected as Test Subject Number One",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "〜れる/られる — passive voice",
+    "〜いたします — humble form of する"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.1,
+     "end": 8.5,
+     "ja": "あなたは被験者１号に選ばれました！",
+     "en": "You have been selected as test subject number one!",
+     "speaker": "Riri"
+    },
+    {
+     "start": 8.6,
+     "end": 10.0,
+     "ja": "おめでとうございまーす！",
+     "en": "Congratulations!",
+     "speaker": "Riri"
+    },
+    {
+     "start": 10.4,
+     "end": 13.8,
+     "ja": "僕は杏子ちゃんの恋愛を全力でサポートいたします。",
+     "en": "I will do everything in my power to support your love life, Anzu.",
+     "speaker": "Riri"
+    },
+    {
+     "start": 14.6,
+     "end": 16.8,
+     "ja": "そんなわけで、そろそろ魔法界へ戻りま…",
+     "en": "Anyway, it's about time I return to the Magic World...",
+     "speaker": "Riri"
+    },
+    {
+     "start": 16.9,
+     "end": 18.5,
+     "ja": "私そんなの関わらないから！",
+     "en": "I'm not getting involved in that!",
+     "speaker": "Anzu"
+    }
+   ]
+  },
+  {
+   "start": 45.5,
+   "end": 116.0,
+   "title": "Who Is This Childhood Friend?",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "school",
+    "comedy"
+   ],
+   "grammar": [
+    "〜っけ — confirming forgotten info",
+    "〜てんの — contraction of 〜ているの",
+    "〜なんて — expressing disbelief or surprise"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 45.8,
+     "end": 47.8,
+     "ja": "おはよう、杏子。",
+     "en": "Good morning, Anzu.",
+     "speaker": "Kazuki"
+    },
+    {
+     "start": 50.5,
+     "end": 53.3,
+     "ja": "寝坊しなかったか？学校行こう。",
+     "en": "You didn't oversleep? Let's go to school.",
+     "speaker": "Kazuki"
+    },
+    {
+     "start": 55.2,
+     "end": 57.4,
+     "ja": "誰？この高身長イケメン。",
+     "en": "Who is this tall, handsome guy?",
+     "speaker": "Anzu"
+    },
+    {
+     "start": 58.5,
+     "end": 59.7,
+     "ja": "えーっと…",
+     "en": "Um...",
+     "speaker": "Anzu"
+    },
+    {
+     "start": 60.8,
+     "end": 63.2,
+     "ja": "どこかでお会いしましたっけ？",
+     "en": "Have we met somewhere before?",
+     "speaker": "Anzu"
+    },
+    {
+     "start": 63.4,
+     "end": 64.2,
+     "ja": "へ？",
+     "en": "Huh?",
+     "speaker": "Kazuki"
+    },
+    {
+     "start": 66.0,
+     "end": 68.8,
+     "ja": "何言ってんだ、寝ぼけてんのか？",
+     "en": "What are you talking about? Are you half-asleep?",
+     "speaker": "Kazuki"
+    },
+    {
+     "start": 69.5,
+     "end": 73.2,
+     "ja": "幼馴染の顔忘れるなんて。",
+     "en": "How could you forget your childhood friend's face?",
+     "speaker": "Kazuki"
+    },
+    {
+     "start": 74.0,
+     "end": 75.8,
+     "ja": "幼馴染ー？！",
+     "en": "Childhood friend?!",
+     "speaker": "Anzu"
+    }
+   ]
+  },
+  {
+   "start": 78.4,
+   "end": 97.2,
+   "title": "A Cheap Treat That Is Not Bad",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "food",
+    "romance"
+   ],
+   "grammar": [
+    "〜っぽい — resembling / tasting like",
+    "だが — but / however"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 78.7,
+     "end": 79.8,
+     "ja": "どう？",
+     "en": "How is it?",
+     "speaker": "Anzu"
+    },
+    {
+     "start": 80.6,
+     "end": 83.5,
+     "ja": "随分安っぽい味だな。",
+     "en": "It tastes pretty cheap.",
+     "speaker": "Junta"
+    },
+    {
+     "start": 84.7,
+     "end": 87.2,
+     "ja": "だが、悪くない。",
+     "en": "But it's not bad.",
+     "speaker": "Junta"
+    },
+    {
+     "start": 93.8,
+     "end": 94.9,
+     "ja": "どうした？",
+     "en": "What's wrong?",
+     "speaker": "Junta"
+    },
+    {
+     "start": 95.0,
+     "end": 96.7,
+     "ja": "ちょっと正気を…",
+     "en": "Just coming to my senses...",
+     "speaker": "Anzu"
+    }
+   ]
+  }
+ ],
+ "videoId": "Hk5aBoVs11s",
+ "pickTopics": [
+  "anime",
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

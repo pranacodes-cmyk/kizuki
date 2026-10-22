@@ -1,0 +1,155 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 87.0,
+   "end": 99.2,
+   "title": "Checking What's Inside the Keychains",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜でしょうか — polite wondering",
+    "〜じゃない — isn't it?"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 87.4,
+     "end": 89.8,
+     "ja": "何が入ってるのでしょうか？",
+     "en": "What could be inside?",
+     "speaker": "A"
+    },
+    {
+     "start": 92.5,
+     "end": 94.0,
+     "ja": "え、何これ？",
+     "en": "Wait, what is this?",
+     "speaker": "A"
+    },
+    {
+     "start": 94.1,
+     "end": 95.8,
+     "ja": "ワセリンじゃない？",
+     "en": "Isn't it Vaseline?",
+     "speaker": "B"
+    },
+    {
+     "start": 96.6,
+     "end": 98.6,
+     "ja": "こちらは何もなし。",
+     "en": "Nothing in this one.",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 108.5,
+   "end": 119.8,
+   "title": "Strict Uniform Regulations",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜ないとダメ — must do",
+    "〜た瞬間 — the moment / as soon as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 108.8,
+     "end": 110.5,
+     "ja": "閉めないと怒られます。",
+     "en": "If we don't button it, we get scolded.",
+     "speaker": "A"
+    },
+    {
+     "start": 110.6,
+     "end": 114.2,
+     "ja": "校則でリボンつける時は第1まで閉めないとダメなんです。",
+     "en": "School rules say when wearing a ribbon we have to button up to the top.",
+     "speaker": "A"
+    },
+    {
+     "start": 114.3,
+     "end": 115.6,
+     "ja": "ポイントです。",
+     "en": "That's the point.",
+     "speaker": "B"
+    },
+    {
+     "start": 116.5,
+     "end": 119.2,
+     "ja": "先生いなくなった瞬間外させていただきます。",
+     "en": "The moment the teacher leaves, I'll unbutton it.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 424.2,
+   "end": 437.2,
+   "title": "Classmates' Study Abroad Experience",
+   "level": "N3",
+   "topics": [
+    "school",
+    "friends",
+    "travel"
+   ],
+   "grammar": [
+    "〜てました — was doing",
+    "〜た経験がある — have experience of"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 424.6,
+     "end": 427.0,
+     "ja": "後ろの子はカナダ留学してました！",
+     "en": "The girl behind us studied abroad in Canada!",
+     "speaker": "A"
+    },
+    {
+     "start": 427.2,
+     "end": 429.6,
+     "ja": "もう1人の人はイギリスへ3ヶ月行った経験あり。",
+     "en": "Another person has experience going to the UK for three months.",
+     "speaker": "A"
+    },
+    {
+     "start": 429.8,
+     "end": 432.8,
+     "ja": "私たちのクラスは留学経験者が多いです。",
+     "en": "Many students in our class have studied abroad.",
+     "speaker": "A"
+    },
+    {
+     "start": 433.0,
+     "end": 435.0,
+     "ja": "あちらはオーストラリア2週間。",
+     "en": "Over there, they went to Australia for two weeks.",
+     "speaker": "B"
+    },
+    {
+     "start": 435.3,
+     "end": 436.8,
+     "ja": "2週間！？",
+     "en": "Two weeks!?",
+     "speaker": "A"
+    }
+   ]
+  }
+ ],
+ "videoId": "gdDlz6SaT4Q",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

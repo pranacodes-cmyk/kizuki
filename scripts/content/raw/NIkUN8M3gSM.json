@@ -1,0 +1,123 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 18.8,
+   "end": 38.2,
+   "title": "What is a Fragrant Olive Tree?",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜というのは — speaking of / defining",
+    "〜がする — sense/smell occurs"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 19.0,
+     "end": 24.5,
+     "ja": "みなさんは、金木犀って知っていますか？",
+     "en": "Do you know what fragrant olive is?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 25.2,
+     "end": 30.5,
+     "ja": "金木犀というのは、こういう木です。",
+     "en": "A fragrant olive is this kind of tree.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 31.0,
+     "end": 37.8,
+     "ja": "小さいオレンジの花から、とてもいい匂いがします。",
+     "en": "A very sweet scent comes from the small orange flowers.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 303.2,
+   "end": 316.8,
+   "title": "Voices from Across the River",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜が聞こえる — to be audible",
+    "〜ている — ongoing action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 303.4,
+     "end": 306.0,
+     "ja": "何か、聞こえますか？",
+     "en": "Can you hear something?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 306.8,
+     "end": 311.0,
+     "ja": "あれは部活をしている声です。",
+     "en": "Those are voices from students doing club activities.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 311.6,
+     "end": 316.3,
+     "ja": "この川の向こうに高校があります。",
+     "en": "There is a high school across this river.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 506.7,
+   "end": 526.3,
+   "title": "Do You Know the Author Osamu Dazai?",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜という — called / named",
+    "〜から — because / reason"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 507.0,
+     "end": 513.2,
+     "ja": "ところでみなさん、太宰治という作家を知っていますか？",
+     "en": "By the way, everyone, do you know an author named Osamu Dazai?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 513.6,
+     "end": 519.5,
+     "ja": "太宰治は日本の人はみんな知っている作家です。",
+     "en": "Osamu Dazai is an author that everyone in Japan knows.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 519.9,
+     "end": 525.8,
+     "ja": "教科書に太宰治の書いたお話が載っているからです。",
+     "en": "That is because stories written by Osamu Dazai appear in textbooks.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "NIkUN8M3gSM",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

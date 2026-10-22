@@ -1,0 +1,117 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 40.5,
+   "end": 66.5,
+   "title": "The Old Man and the Old Woman",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜に行く — to go in order to do",
+    "〜ていると — when/while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 41.0,
+     "end": 50.0,
+     "ja": "ある日、おじいさんは山に木を切りに行きました。",
+     "en": "One day, the old man went to the mountain to cut wood.",
+     "speaker": "Koko"
+    },
+    {
+     "start": 51.0,
+     "end": 59.8,
+     "ja": "おばあさんは、川に洗濯をしに行きました。",
+     "en": "The old woman went to the river to do laundry.",
+     "speaker": "Koko"
+    },
+    {
+     "start": 60.0,
+     "end": 66.0,
+     "ja": "おばあさんが川で洗濯をしていると、",
+     "en": "While the old woman was doing laundry at the river,",
+     "speaker": "Koko"
+    }
+   ]
+  },
+  {
+   "start": 106.5,
+   "end": 126.5,
+   "title": "A Giant Peach Floats Down the River",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜てくる — movement toward speaker",
+    "〜て帰る — to do and go home"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 107.0,
+     "end": 115.5,
+     "ja": "川上から、大きな桃が流れてきました。",
+     "en": "A giant peach came floating down from upstream.",
+     "speaker": "Koko"
+    },
+    {
+     "start": 116.0,
+     "end": 125.8,
+     "ja": "おばあさんは、その桃を拾って、家に持って帰りました。",
+     "en": "The old woman picked up the peach and carried it home.",
+     "speaker": "Koko"
+    }
+   ]
+  },
+  {
+   "start": 167.0,
+   "end": 195.2,
+   "title": "Meeting Companions on the Way",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "animals"
+   ],
+   "grammar": [
+    "〜に出会う — to meet / run into",
+    "〜になる — to become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 167.4,
+     "end": 175.0,
+     "ja": "桃太郎は、一人で鬼がいる島に向かいました。",
+     "en": "Momotaro headed alone to the island where the demons were.",
+     "speaker": "Koko"
+    },
+    {
+     "start": 175.7,
+     "end": 186.5,
+     "ja": "その途中で、犬と猿と鳥に出会いました。",
+     "en": "On the way, he met a dog, a monkey, and a bird.",
+     "speaker": "Koko"
+    },
+    {
+     "start": 186.8,
+     "end": 194.5,
+     "ja": "そして、彼らは桃太郎の仲間になりました。",
+     "en": "And they became Momotaro's companions.",
+     "speaker": "Koko"
+    }
+   ]
+  }
+ ],
+ "videoId": "qyTY-ZaxWuU",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

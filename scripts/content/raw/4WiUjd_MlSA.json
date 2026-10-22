@@ -1,0 +1,41 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.5,
+   "end": 8.3,
+   "title": "Where Did My Mother Die?",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "family"
+   ],
+   "grammar": [
+    "〜ていただけませんか — polite request",
+    "〜と言う — called / named"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 3.8,
+     "ja": "母が死んだ場所、教えていただけませんか？",
+     "en": "Could you please tell me where my mother died?",
+     "speaker": "辰弥"
+    },
+    {
+     "start": 4.1,
+     "end": 8.1,
+     "ja": "岡山県の八つ墓村と言います。",
+     "en": "It is called Yatsuhaka Village in Okayama Prefecture.",
+     "speaker": "女性"
+    }
+   ]
+  }
+ ],
+ "videoId": "4WiUjd_MlSA",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

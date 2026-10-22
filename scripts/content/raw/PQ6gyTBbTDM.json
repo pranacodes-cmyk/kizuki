@@ -1,0 +1,97 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 30.8,
+   "end": 39.5,
+   "title": "This Is Your Cheat Day",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "food",
+    "friends"
+   ],
+   "grammar": [
+    "〜ていい — asking permission",
+    "〜ないため — in order not to",
+    "〜ちゃう — to do completely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 31.0,
+     "end": 33.1,
+     "ja": "ほ、本当に食べていいの？",
+     "en": "I-Is it really okay for me to eat this?",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 33.3,
+     "end": 36.3,
+     "ja": "まこっちが無理をしないためのチートデイです。",
+     "en": "This is your cheat day to make sure you don't push yourself too hard.",
+     "speaker": "Friend A"
+    },
+    {
+     "start": 36.4,
+     "end": 39.0,
+     "ja": "写真も撮るから豪快に行っちゃって！",
+     "en": "And since we're taking photos, we went all-out!",
+     "speaker": "Friend B"
+    }
+   ]
+  },
+  {
+   "start": 101.0,
+   "end": 116.8,
+   "title": "Tears of Deliciousness",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "food",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てる — ongoing state/action",
+    "〜たい — wanting to do something",
+    "〜ていい — asking permission"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 101.4,
+     "end": 103.4,
+     "ja": "な、泣いてる？！",
+     "en": "A-Are you crying?!",
+     "speaker": "Friend"
+    },
+    {
+     "start": 104.2,
+     "end": 107.5,
+     "ja": "美味しい…美味しいよぉ…",
+     "en": "It's delicious... It's so delicious!",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 107.8,
+     "end": 111.6,
+     "ja": "もっと食べたい…もっと食べていい？",
+     "en": "I want to eat more... May I eat more?",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 112.3,
+     "end": 116.4,
+     "ja": "いいよいいよ！写真撮るからいっぱい食べて！",
+     "en": "You can! Of course you can! I'll take photos, so eat lots!",
+     "speaker": "Friend"
+    }
+   ]
+  }
+ ],
+ "videoId": "PQ6gyTBbTDM",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 17.5,
+   "title": "Beginner's Guide to RimWorld",
+   "level": "N3",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜向け — intended for",
+    "〜ておく — do something in advance",
+    "〜ようと思う — intend to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 4.5,
+     "ja": "こんにちは、今日はRimWorldの初心者向けの講座になります。",
+     "en": "Hello, today's video is a beginner's guide to RimWorld.",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 4.9,
+     "end": 11.5,
+     "ja": "実はやったことないんだけど、最近初めて、始めるまでにMODやらなんやらで始めるのが難しかったのよね。",
+     "en": "Actually, I'd never played it, but recently started, and it was hard just getting going with mods and everything.",
+     "speaker": "Marisa"
+    },
+    {
+     "start": 11.9,
+     "end": 17.2,
+     "ja": "始めるときに困ったところや、最初にこれを知っておけばよかったという事を紹介していこうと思うぜ。",
+     "en": "I'll go over the points I struggled with when starting and things I wish I had known from the beginning.",
+     "speaker": "Reimu"
+    }
+   ]
+  },
+  {
+   "start": 18.4,
+   "end": 36.6,
+   "title": "What Are Game Mods?",
+   "level": "N3",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜たり〜たりする — doing things like",
+    "〜みたいなもの — something like",
+    "〜ための — in order to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.4,
+     "end": 21.0,
+     "ja": "まずは一つ目、便利MOD紹介からだな。",
+     "en": "First up, let's start by introducing useful mods.",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 21.4,
+     "end": 27.2,
+     "ja": "MODというのは、ゲームの細かい不便なUIを変更したり、大きくゲームの内容を変更するものだったりする、",
+     "en": "Mods can modify inconvenient UI details or drastically alter the game's content,",
+     "speaker": "Marisa"
+    },
+    {
+     "start": 27.5,
+     "end": 30.5,
+     "ja": "ユーザーが作成したゲーム改変データみたいなものね。",
+     "en": "so they're basically user-created game modification data, right?",
+     "speaker": "Marisa"
+    },
+    {
+     "start": 30.9,
+     "end": 36.3,
+     "ja": "今回は、大きくゲームが変わるものではなく、RimWorldをより楽しく遊ぶためのものを紹介していくぜ。",
+     "en": "Today, rather than game-changing ones, I'll introduce mods to make playing RimWorld more enjoyable.",
+     "speaker": "Reimu"
+    }
+   ]
+  },
+  {
+   "start": 367.8,
+   "end": 384.2,
+   "title": "First Priority: Shelter",
+   "level": "N4",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜ば — conditional if",
+    "〜て構わない — no problem even if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 367.8,
+     "end": 373.8,
+     "ja": "コロニーの人数はまず３人で始めてみたぞ。まずすることは、とりあえず寝るところの確保だな。",
+     "en": "We've started with three colonists. The first order of business is securing a place to sleep.",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 374.0,
+     "end": 376.0,
+     "ja": "家とベッドを作るという事ね。",
+     "en": "Meaning we build a shelter and beds, right?",
+     "speaker": "Marisa"
+    },
+    {
+     "start": 376.3,
+     "end": 379.0,
+     "ja": "色んなタブがあるが、アーキテクトから建築を選ぶぞ。",
+     "en": "There are various tabs, but select Structure under Architect.",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 379.3,
+     "end": 381.3,
+     "ja": "Yを押して木の壁を建築する。",
+     "en": "Press Y to build wooden walls.",
+     "speaker": "Reimu"
+    },
+    {
+     "start": 381.5,
+     "end": 383.7,
+     "ja": "囲いになればなんだって構わない。",
+     "en": "As long as it's an enclosure, anything works.",
+     "speaker": "Reimu"
+    }
+   ]
+  }
+ ],
+ "videoId": "YTLRHUmg1y4",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

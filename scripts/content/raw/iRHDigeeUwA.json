@@ -1,0 +1,101 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.2,
+   "end": 24.0,
+   "title": "Subtle Bragging Among Old Friends",
+   "level": "N2",
+   "topics": [
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜てしまう — regrettable completion",
+    "〜なんて — emphasizing / belittling example",
+    "〜という — called / namely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.4,
+     "end": 15.0,
+     "ja": "いつメンだった私たち、いつの間にか見える景色がバラバラになってしまった。",
+     "en": "We used to be an inseparable crew, but before we knew it, we started seeing entirely different worlds.",
+     "speaker": "Protagonist"
+    },
+    {
+     "start": 15.3,
+     "end": 19.0,
+     "ja": "乳って飾りじゃないのよ。今なんてさ、授乳で眠れないんだから。",
+     "en": "Breasts aren't just for decoration, you know. Right now, I can't even sleep because of breastfeeding.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 19.3,
+     "end": 23.9,
+     "ja": "母親というネクストステージに進んだことを強調する、隠れマウントね。",
+     "en": "That subtle flex, emphasizing she has moved on to the next stage of being a mother.",
+     "speaker": "Protagonist"
+    }
+   ]
+  },
+  {
+   "start": 32.5,
+   "end": 41.0,
+   "title": "Will You Give That Baby to Me?",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "family"
+   ],
+   "grammar": [
+    "〜の？ — casual explanation question",
+    "〜ちょうだい — give me / please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 32.7,
+     "end": 34.4,
+     "ja": "妊娠…",
+     "en": "Pregnant...",
+     "speaker": "Protagonist"
+    },
+    {
+     "start": 34.7,
+     "end": 36.0,
+     "ja": "産むの？",
+     "en": "Are you going to keep it?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 36.2,
+     "end": 37.7,
+     "ja": "分かんない。",
+     "en": "I don't know.",
+     "speaker": "Protagonist"
+    },
+    {
+     "start": 37.8,
+     "end": 40.3,
+     "ja": "その子供、私にちょうだい？",
+     "en": "Could you give that child to me?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 40.3,
+     "end": 41.0,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Protagonist"
+    }
+   ]
+  }
+ ],
+ "videoId": "iRHDigeeUwA",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

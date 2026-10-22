@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 836.5,
+   "end": 857.0,
+   "title": "Dinner with the Pressure Cooker",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ている — ongoing action / state",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 836.7,
+     "end": 841.2,
+     "ja": "今日はホテル無水カレーを作って今保温しています。",
+     "en": "Today I made waterless hotel curry, and it's keeping warm now.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 841.5,
+     "end": 844.8,
+     "ja": "保温していて もうここから",
+     "en": "While keeping it warm, from here...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 845.3,
+     "end": 847.3,
+     "ja": "娘と夫はカレーを食べました。",
+     "en": "my daughter and husband ate curry.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 847.5,
+     "end": 851.0,
+     "ja": "ホカホカ熱々で食べられるので便利です。",
+     "en": "It's so convenient because you can eat it piping hot.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 851.5,
+     "end": 856.5,
+     "ja": "暑くなるので、この火を使わないで作れるのがいいですね。",
+     "en": "Since it gets hot, it's great being able to cook without using fire.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 1006.0,
+   "end": 1028.0,
+   "title": "Prepping Fresh Vegetables",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ようにしている — making an effort to",
+    "〜ておく — doing something in preparation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1006.5,
+     "end": 1011.8,
+     "ja": "野菜はこんな風に用意をしているので、すぐ使えます。",
+     "en": "I prep the vegetables like this in advance, so they're ready to use right away.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1012.2,
+     "end": 1016.2,
+     "ja": "ま、これは ま、２、３日で使い切るようにしています。",
+     "en": "Well, I make sure to use these up within two or three days.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1018.2,
+     "end": 1022.2,
+     "ja": "ご近所の方からサニーレタスもらって、",
+     "en": "I got some red leaf lettuce from a neighbor,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1022.7,
+     "end": 1027.5,
+     "ja": "あと いつも通り、この水菜はお気に入りです。",
+     "en": "and as always, this mizuna is my favorite.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 1321.0,
+   "end": 1337.5,
+   "title": "Daughter's Cozy Lounging Nook",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜にする — to turn into / make into",
+    "〜まで — until"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1321.5,
+     "end": 1325.8,
+     "ja": "ここの下がもうゴロゴロベッドにしたので、",
+     "en": "We turned the space down here into a lounging bed, so...",
+     "speaker": "Mother"
+    },
+    {
+     "start": 1327.5,
+     "end": 1330.3,
+     "ja": "どうですか？ここ気持ちいいですか？",
+     "en": "How is it? Is it comfy here?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 1330.6,
+     "end": 1331.5,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 1332.8,
+     "end": 1337.0,
+     "ja": "ちょっと寝る時間までこんな風に我が家は過ごしています。",
+     "en": "Until bedtime, our family spends our time like this.",
+     "speaker": "Mother"
+    }
+   ]
+  }
+ ],
+ "videoId": "AtM5Cs7pLw0",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

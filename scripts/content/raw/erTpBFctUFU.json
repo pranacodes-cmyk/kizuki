@@ -1,0 +1,69 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 57.2,
+   "end": 64.2,
+   "title": "Shopping for Kids at the Beach Shop",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜用 — intended for / for use by",
+    "結構 — quite / fairly"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 57.5,
+     "end": 59.3,
+     "ja": "子ども用の何かあるんですかね？",
+     "en": "Do you have anything for kids?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 59.3,
+     "end": 60.3,
+     "ja": "子ども用ありますよ。",
+     "en": "We do have things for kids.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 60.2,
+     "end": 61.1,
+     "ja": "子どもの大きさで。",
+     "en": "In a kids' size.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 61.0,
+     "end": 61.8,
+     "ja": "浮き輪ですかね？",
+     "en": "Like swim rings?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 61.7,
+     "end": 62.1,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 62.0,
+     "end": 63.5,
+     "ja": "結構ありますね。",
+     "en": "You have quite a lot of stuff.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "erTpBFctUFU",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

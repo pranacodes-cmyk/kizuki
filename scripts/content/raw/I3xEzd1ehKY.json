@@ -1,0 +1,183 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 439.0,
+   "end": 501.0,
+   "title": "Choosing the Farthest Country",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "work",
+    "comedy"
+   ],
+   "grammar": [
+    "〜について — regarding / about",
+    "〜ようと（思う） — volitional intention",
+    "〜って決める — to decide to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 439.2,
+     "end": 446.3,
+     "ja": "そのね、じゃ何でメキシコに行こうかなと思った理由についてなんだけど、",
+     "en": "Well, about the reason why I thought of going to Mexico...",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 446.4,
+     "end": 447.3,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 447.4,
+     "end": 451.3,
+     "ja": "日本から一番遠いところで、",
+     "en": "I had decided to go to a place that was farthest from Japan...",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 451.4,
+     "end": 456.2,
+     "ja": "日本語教師の仕事があるところに行こうって決めてたの。",
+     "en": "...and where there was a job teaching Japanese.",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 456.4,
+     "end": 458.7,
+     "ja": "めっちゃおもろい。",
+     "en": "That's so funny.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 458.8,
+     "end": 500.6,
+     "ja": "なんで？なんで？",
+     "en": "Why? Why?",
+     "speaker": "Yusuke"
+    }
+   ]
+  },
+  {
+   "start": 468.0,
+   "end": 486.0,
+   "title": "Why Stay in Mexico?",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜ようと思う — intending to",
+    "〜し、〜し — listing reasons"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 468.4,
+     "end": 471.8,
+     "ja": "どうしてメキシコに残ろうと思ったんですか？",
+     "en": "Why did you decide to stay in Mexico?",
+     "speaker": "Miku"
+    },
+    {
+     "start": 472.2,
+     "end": 477.1,
+     "ja": "そうだね。まあ、一つの大きな決め手は結婚してるので、",
+     "en": "Well, one big deciding factor is that I'm married,",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 477.2,
+     "end": 478.6,
+     "ja": "ああ、そうですね。はい。",
+     "en": "Ah, right. Yes.",
+     "speaker": "Miku"
+    },
+    {
+     "start": 478.7,
+     "end": 483.4,
+     "ja": "奥さんメキシコ人だしっていうのもあるし、やっぱメキシコが好きだからかな。",
+     "en": "and my wife is Mexican, plus I just really like Mexico.",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 483.8,
+     "end": 485.8,
+     "ja": "いろんな意味で。うん。",
+     "en": "In many ways. Yeah.",
+     "speaker": "Yusuke"
+    }
+   ]
+  },
+  {
+   "start": 548.5,
+   "end": 568.0,
+   "title": "Family Values in Mexico",
+   "level": "N3",
+   "topics": [
+    "family",
+    "culture"
+   ],
+   "grammar": [
+    "〜を大切にする — to value / treasure",
+    "〜からすると — from the perspective of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 548.8,
+     "end": 552.3,
+     "ja": "家族を大切にしますよね、メキシコ人は本当に。",
+     "en": "Mexicans really place great importance on family, don't they?",
+     "speaker": "Miku"
+    },
+    {
+     "start": 552.4,
+     "end": 556.1,
+     "ja": "そうだね。まあ、それが本当にいい文化だとは思う。",
+     "en": "Yeah. I really think that's a great part of the culture.",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 556.2,
+     "end": 558.8,
+     "ja": "あの、まあ、もちろんいいことだけじゃないけど、",
+     "en": "Well, of course it's not only good things, but...",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 558.9,
+     "end": 561.9,
+     "ja": "その家族と一緒に生きている感じが、",
+     "en": "...that feeling of truly living together as a family...",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 562.0,
+     "end": 566.5,
+     "ja": "やっぱ日本人の僕からすると、とてもやっぱびっくりする。",
+     "en": "...really surprises me from a Japanese perspective.",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 566.7,
+     "end": 567.7,
+     "ja": "そうですね。",
+     "en": "That's true.",
+     "speaker": "Miku"
+    }
+   ]
+  }
+ ],
+ "videoId": "I3xEzd1ehKY",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

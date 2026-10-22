@@ -1,0 +1,154 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.5,
+   "end": 25.5,
+   "title": "Arriving at the Restaurant",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜ている — ongoing action / state",
+    "お〜する — humble action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.8,
+     "end": 6.8,
+     "ja": "いらっしゃいませ。",
+     "en": "Welcome.",
+     "speaker": "Server"
+    },
+    {
+     "start": 9.2,
+     "end": 13.8,
+     "ja": "12時半に予約している田中です。",
+     "en": "I'm Tanaka, I have a reservation for 12:30.",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 15.6,
+     "end": 18.9,
+     "ja": "田中様、お待ちしておりました。",
+     "en": "Ms. Tanaka, we've been expecting you.",
+     "speaker": "Server"
+    },
+    {
+     "start": 21.6,
+     "end": 24.2,
+     "ja": "こちらへどうぞ。",
+     "en": "Right this way, please.",
+     "speaker": "Server"
+    }
+   ]
+  },
+  {
+   "start": 33.6,
+   "end": 49.3,
+   "title": "Ordering Lunch Sets",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜をお願いします — please give me ~",
+    "かしこまりました — certainly / understood"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 33.9,
+     "end": 35.8,
+     "ja": "すみません。",
+     "en": "Excuse me.",
+     "speaker": "Customer 1"
+    },
+    {
+     "start": 38.3,
+     "end": 42.6,
+     "ja": "Aセットを２つ、お願いします。",
+     "en": "Two Set A's, please.",
+     "speaker": "Customer 2"
+    },
+    {
+     "start": 44.9,
+     "end": 47.7,
+     "ja": "かしこまりました。",
+     "en": "Certainly.",
+     "speaker": "Server"
+    }
+   ]
+  },
+  {
+   "start": 224.5,
+   "end": 258.9,
+   "title": "Checking for Table Availability",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "ご〜なさる — honorific action",
+    "〜なら — conditional 'if'"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 224.9,
+     "end": 227.1,
+     "ja": "いらっしゃいませ。",
+     "en": "Welcome.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 229.4,
+     "end": 233.1,
+     "ja": "ご予約なさっていますか？",
+     "en": "Do you have a reservation?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 235.6,
+     "end": 238.4,
+     "ja": "いいえ、空いていますか？",
+     "en": "No. Is there a table available?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 241.6,
+     "end": 245.8,
+     "ja": "外のお席ならご用意できます。",
+     "en": "If outdoor seating is fine, we can prepare a table for you.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 247.9,
+     "end": 251.4,
+     "ja": "では、それでお願します。",
+     "en": "Well then, that works for us.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 253.9,
+     "end": 258.1,
+     "ja": "かしこまりました。ご案内いたします。",
+     "en": "Certainly. I will show you to your table.",
+     "speaker": "Staff"
+    }
+   ]
+  }
+ ],
+ "videoId": "1oAOTbPzrg4",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

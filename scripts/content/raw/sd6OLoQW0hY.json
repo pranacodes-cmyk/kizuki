@@ -1,0 +1,179 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 121.3,
+   "end": 143.5,
+   "title": "A Zero-Cost Solution to Japan's Issues",
+   "level": "N2",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜だけでなく — not only... but also",
+    "〜ずに — without doing",
+    "〜ということ — that means / the fact that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 121.3,
+     "end": 125.1,
+     "ja": "えー今、日本は少子化だけじゃなく、",
+     "en": "Now, Japan is facing not just a declining birthrate,",
+     "speaker": "Yoshie"
+    },
+    {
+     "start": 125.1,
+     "end": 129.9,
+     "ja": "うつ病の問題、ダイバーシティ、大介護の問題、財政難、",
+     "en": "depression issues, diversity, major eldercare problems, and financial distress;",
+     "speaker": "Yoshie"
+    },
+    {
+     "start": 129.9,
+     "end": 132.7,
+     "ja": "問題山積の国です。",
+     "en": "it's a country piled high with problems.",
+     "speaker": "Yoshie"
+    },
+    {
+     "start": 132.7,
+     "end": 136.8,
+     "ja": "しかし、これらの問題に対して、実は財政を全く使わずに",
+     "en": "However, there is actually a way to solve these problems",
+     "speaker": "Yoshie"
+    },
+    {
+     "start": 136.8,
+     "end": 139.4,
+     "ja": "解決できる方法があるんです。",
+     "en": "without spending any public funds at all.",
+     "speaker": "Yoshie"
+    },
+    {
+     "start": 139.4,
+     "end": 142.0,
+     "ja": "それが「長時間労働をやめる」ということです。",
+     "en": "That is to stop working long hours.",
+     "speaker": "Yoshie"
+    },
+    {
+     "start": 142.0,
+     "end": 143.5,
+     "ja": "今日はこのアイデアを皆さんにお話ししたいと思います。",
+     "en": "Today, I would like to share this idea with all of you.",
+     "speaker": "Yoshie"
+    }
+   ]
+  },
+  {
+   "start": 315.2,
+   "end": 331.0,
+   "title": "Time Spent Does Not Equal Results",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜てくる — do and come / progressive change",
+    "〜関係ない — has no relation to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 315.2,
+     "end": 318.9,
+     "ja": "私の会社は６年間ずっと残業禁止でやってきましたが、",
+     "en": "At my company, we've had a complete ban on overtime for six years,",
+     "speaker": "Yoshie"
+    },
+    {
+     "start": 318.9,
+     "end": 324.4,
+     "ja": "６年間トップ成績のコンサルタント、実は短時間勤務の女性なんですよ。",
+     "en": "and our top-performing consultant for those six years is actually a woman on reduced hours.",
+     "speaker": "Yoshie"
+    },
+    {
+     "start": 324.4,
+     "end": 326.5,
+     "ja": "時間と成果は関係ないんです。",
+     "en": "Working time and performance have nothing to do with each other.",
+     "speaker": "Yoshie"
+    },
+    {
+     "start": 326.5,
+     "end": 330.5,
+     "ja": "時間に制約がある人は、短時間で集中力高く働いてくれます。",
+     "en": "People with time constraints work with incredible focus in a short amount of time.",
+     "speaker": "Yoshie"
+    }
+   ]
+  },
+  {
+   "start": 660.0,
+   "end": 682.4,
+   "title": "The Limits of Brain Focus and Overtime",
+   "level": "N2",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜しか〜ない — only / nothing but",
+    "〜てあげる — to do something for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 660.1,
+     "end": 662.1,
+     "ja": "脳科学者が解明してます。",
+     "en": "Brain scientists have shown this.",
+     "speaker": "Yoshie"
+    },
+    {
+     "start": 662.1,
+     "end": 666.4,
+     "ja": "人間の脳は、朝起きて１３時間しか集中力が持たないんですね。",
+     "en": "The human brain can only maintain focus for 13 hours after waking up.",
+     "speaker": "Yoshie"
+    },
+    {
+     "start": 666.4,
+     "end": 671.3,
+     "ja": "それを過ぎると、酒気帯び運転と同じ集中力しかないんです。",
+     "en": "Past that point, it only has the concentration level of drunk driving.",
+     "speaker": "Yoshie"
+    },
+    {
+     "start": 671.3,
+     "end": 674.3,
+     "ja": "そんな時間帯に、ミスが多く発生し、",
+     "en": "During those hours when many mistakes occur,",
+     "speaker": "Yoshie"
+    },
+    {
+     "start": 674.3,
+     "end": 678.4,
+     "ja": "アイデアも出ない時間帯に、割増の残業代を払うなんて、",
+     "en": "paying premium overtime wages during hours when no ideas come,",
+     "speaker": "Yoshie"
+    },
+    {
+     "start": 678.4,
+     "end": 682.1,
+     "ja": "お人好しの経営者ですよと、いう風に言ってあげてください。",
+     "en": "tell them: 'You are just being an overly gullible manager.'",
+     "speaker": "Yoshie"
+    }
+   ]
+  }
+ ],
+ "videoId": "sd6OLoQW0hY",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 37.1,
+   "end": 60.1,
+   "title": "Asking About the Theme Park Parade",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜から — starting from",
+    "〜で見られますか — potential form (can be seen at)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.5,
+     "end": 43.6,
+     "ja": "はい。あの、パレードは何時からですか？",
+     "en": "Okay. Um, what time does the parade start?",
+     "speaker": "Guest"
+    },
+    {
+     "start": 46.2,
+     "end": 50.8,
+     "ja": "パレードは午後２時からスタートします。",
+     "en": "The parade starts at 2:00 PM.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 53.0,
+     "end": 57.6,
+     "ja": "２時からですね。どこで見られますか？",
+     "en": "From 2:00 PM, right. Where can I see it?",
+     "speaker": "Guest"
+    },
+    {
+     "start": 59.7,
+     "end": 64.9,
+     "ja": "お城の前の広場がよく見えますよ。",
+     "en": "The plaza in front of the castle has a good view.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 303.8,
+   "end": 335.7,
+   "title": "Leaving Suitcases at Hotel Front Desk",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜てもらえますか — asking someone to do something",
+    "〜まで — until (a time)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 304.3,
+     "end": 311.9,
+     "ja": "このスーツケースを、午後３時まで預かってもらえますか？",
+     "en": "Could you keep this suitcase until 3:00 PM?",
+     "speaker": "Guest"
+    },
+    {
+     "start": 313.9,
+     "end": 317.0,
+     "ja": "はい、大丈夫ですよ。",
+     "en": "Yes, that's fine.",
+     "speaker": "Front Desk"
+    },
+    {
+     "start": 317.7,
+     "end": 320.6,
+     "ja": "お荷物はいくつですか？",
+     "en": "How many pieces of luggage do you have?",
+     "speaker": "Front Desk"
+    },
+    {
+     "start": 322.9,
+     "end": 327.6,
+     "ja": "これと、これです。全部で２つです。",
+     "en": "This one and this one. Two in total.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 329.9,
+     "end": 334.6,
+     "ja": "スーツケースが２つですね。お預かりします。",
+     "en": "Two suitcases, right. We will keep them for you.",
+     "speaker": "Front Desk"
+    }
+   ]
+  },
+  {
+   "start": 446.7,
+   "end": 472.0,
+   "title": "Sorting Garbage Schedule",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜はいつですか — asking when something is",
+    "〜までに — by (a deadline)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 447.1,
+     "end": 451.2,
+     "ja": "燃えるゴミの日はいつですか？",
+     "en": "When is burnable garbage day?",
+     "speaker": "Resident"
+    },
+    {
+     "start": 452.9,
+     "end": 458.8,
+     "ja": "燃えるゴミは、月曜日と木曜日です。",
+     "en": "Burnable garbage is on Mondays and Thursdays.",
+     "speaker": "Manager"
+    },
+    {
+     "start": 460.5,
+     "end": 464.3,
+     "ja": "何時までに出しますか？",
+     "en": "By what time should I put it out?",
+     "speaker": "Resident"
+    },
+    {
+     "start": 466.7,
+     "end": 471.2,
+     "ja": "朝の８時までに出してください。",
+     "en": "Please put it out by 8:00 AM.",
+     "speaker": "Manager"
+    }
+   ]
+  }
+ ],
+ "videoId": "l5346_Qp-cE",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

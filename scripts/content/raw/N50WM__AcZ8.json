@@ -1,0 +1,116 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 8.5,
+   "end": 21.2,
+   "title": "A Giant Bee at the Entrance",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "comedy",
+    "school"
+   ],
+   "grammar": [
+    "たかが〜 — merely / just",
+    "〜て — request / command"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 8.8,
+     "end": 12.3,
+     "ja": "入り口にでっかいずんぐりむっくりな蜂がいるー！",
+     "en": "There's a huge, pudgy bee by the entrance!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 12.8,
+     "end": 14.6,
+     "ja": "たかが虫一匹で。",
+     "en": "Freaking out over just one bug...",
+     "speaker": "Boy"
+    },
+    {
+     "start": 14.8,
+     "end": 17.0,
+     "ja": "いいから！早く追い払って！",
+     "en": "Just hurry up and shoo it away!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 18.0,
+     "end": 20.7,
+     "ja": "でっ…でけぇー！",
+     "en": "It's... it's huge!",
+     "speaker": "Boy"
+    }
+   ]
+  },
+  {
+   "start": 27.2,
+   "end": 43.5,
+   "title": "Testing the Bee's Bite Force",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy",
+    "school"
+   ],
+   "grammar": [
+    "〜んじゃない — prohibition / don't do",
+    "全然〜ない — not at all"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 27.5,
+     "end": 29.7,
+     "ja": "おい、やめろ。入るんじゃない。",
+     "en": "Hey, stop. Don't crawl into that shoe.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 30.3,
+     "end": 32.0,
+     "ja": "うわ、教科書が！",
+     "en": "Whoa, my textbook!",
+     "speaker": "Boy"
+    },
+    {
+     "start": 32.3,
+     "end": 33.9,
+     "ja": "これ本当に虫か？",
+     "en": "Is this thing really an insect?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 34.0,
+     "end": 35.8,
+     "ja": "模様は蜂だよ。",
+     "en": "Its pattern is a bee's, at least.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 36.8,
+     "end": 38.8,
+     "ja": "お？全然破れてねぇ。",
+     "en": "Oh? It didn't tear at all.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 40.3,
+     "end": 42.4,
+     "ja": "咬合力カスかよ。",
+     "en": "Its bite force is totally pathetic, huh?",
+     "speaker": "Boy"
+    }
+   ]
+  }
+ ],
+ "videoId": "N50WM__AcZ8",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

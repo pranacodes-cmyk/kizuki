@@ -1,0 +1,135 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 22.0,
+   "end": 42.3,
+   "title": "Meeting at School Orientation",
+   "level": "N5",
+   "topics": [
+    "school",
+    "friends"
+   ],
+   "grammar": [
+    "〜です — to be (copula)",
+    "〜か — question marker"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 22.4,
+     "end": 23.9,
+     "ja": "こんにちは。",
+     "en": "Hello.",
+     "speaker": "Takeshi"
+    },
+    {
+     "start": 24.8,
+     "end": 26.9,
+     "ja": "木村武史です。",
+     "en": "I'm Takeshi Kimura.",
+     "speaker": "Takeshi"
+    },
+    {
+     "start": 27.6,
+     "end": 29.8,
+     "ja": "メアリー・ハートです。",
+     "en": "I'm Mary Hart.",
+     "speaker": "Mary"
+    },
+    {
+     "start": 30.0,
+     "end": 32.7,
+     "ja": "あの、留学生ですか？",
+     "en": "Um, are you an international student?",
+     "speaker": "Mary"
+    },
+    {
+     "start": 33.2,
+     "end": 35.8,
+     "ja": "いいえ、日本人です。",
+     "en": "No, I'm Japanese.",
+     "speaker": "Takeshi"
+    },
+    {
+     "start": 36.3,
+     "end": 39.2,
+     "ja": "そうですか。何年生ですか？",
+     "en": "I see. What year are you?",
+     "speaker": "Mary"
+    },
+    {
+     "start": 39.7,
+     "end": 41.8,
+     "ja": "４年生です。",
+     "en": "I'm a fourth-year student.",
+     "speaker": "Takeshi"
+    }
+   ]
+  },
+  {
+   "start": 50.8,
+   "end": 66.7,
+   "title": "Mary Introduces Herself to the Class",
+   "level": "N5",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "初めまして — nice to meet you",
+    "〜の〜 — noun modifier (of/at)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 51.0,
+     "end": 54.0,
+     "ja": "初めまして。メアリー・ハートです。",
+     "en": "Nice to meet you. I'm Mary Hart.",
+     "speaker": "Mary"
+    },
+    {
+     "start": 54.8,
+     "end": 57.0,
+     "ja": "アリゾナ大学の学生です。",
+     "en": "I'm a student at the University of Arizona.",
+     "speaker": "Mary"
+    },
+    {
+     "start": 57.4,
+     "end": 59.0,
+     "ja": "２年生です。",
+     "en": "I'm a sophomore.",
+     "speaker": "Mary"
+    },
+    {
+     "start": 59.4,
+     "end": 61.9,
+     "ja": "専攻は日本語です。",
+     "en": "My major is Japanese.",
+     "speaker": "Mary"
+    },
+    {
+     "start": 62.2,
+     "end": 63.8,
+     "ja": "１９歳です。",
+     "en": "I'm 19 years old.",
+     "speaker": "Mary"
+    },
+    {
+     "start": 64.0,
+     "end": 66.2,
+     "ja": "よろしくお願いします。",
+     "en": "Pleased to meet you.",
+     "speaker": "Mary"
+    }
+   ]
+  }
+ ],
+ "videoId": "_8b_ERSJ6_Q",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

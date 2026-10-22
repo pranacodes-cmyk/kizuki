@@ -1,0 +1,124 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.5,
+   "end": 28.0,
+   "title": "What Is Plain Japanese?",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜とする — to regard as / take as",
+    "〜やすい — easy to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.8,
+     "end": 14.8,
+     "ja": "「やさしい日本語」を知っていますか。",
+     "en": "Do you know about \"Plain Japanese\"?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 15.0,
+     "end": 23.3,
+     "ja": "日本語を母語としない外国人や、こども、高齢者、障害者などにも伝わりやすい日本語です。",
+     "en": "It is Japanese that is easy to understand for non-native speakers, children, the elderly, and people with disabilities.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 23.8,
+     "end": 27.6,
+     "ja": "ことばも、心もやさしくして、伝えましょう。",
+     "en": "Let's communicate with both kind words and a kind heart.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 153.5,
+   "end": 164.5,
+   "title": "Avoiding Ambiguous Phrases",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜より〜が好き — to prefer something over another",
+    "〜ことができる — can do / to be able to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 154.2,
+     "end": 157.6,
+     "ja": "「コーヒーより紅茶が好きです。」",
+     "en": "\"I like tea better than coffee.\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 158.0,
+     "end": 164.0,
+     "ja": "「ここでは、たばこを吸うことができません。」",
+     "en": "\"Smoking is not allowed here.\"",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 174.0,
+   "end": 187.5,
+   "title": "Avoid Keigo in Plain Japanese",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜ではなく — instead of / rather than"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 174.3,
+     "end": 177.2,
+     "ja": "「こちらにいらしてください」ではなく、",
+     "en": "Instead of saying, \"Please come this way,\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 177.5,
+     "end": 180.2,
+     "ja": "「ここに来てください」。",
+     "en": "say, \"Please come here.\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 180.8,
+     "end": 183.6,
+     "ja": "「イベントにいらっしゃいますか？」ではなく、",
+     "en": "Instead of saying, \"Will you be attending the event?\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 184.0,
+     "end": 187.0,
+     "ja": "「イベントに行きますか？」。",
+     "en": "say, \"Are you going to the event?\"",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "3mYJp-GGyVM",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

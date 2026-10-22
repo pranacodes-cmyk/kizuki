@@ -1,0 +1,142 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 13.5,
+   "end": 27.8,
+   "title": "Then, Want to Try Dating?",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "school"
+   ],
+   "grammar": [
+    "〜てもらう — have someone do something",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.8,
+     "end": 15.4,
+     "ja": "変な誤解されますよ。",
+     "en": "People are going to get the wrong idea.",
+     "speaker": "Yoi"
+    },
+    {
+     "start": 15.6,
+     "end": 16.5,
+     "ja": "いいけど俺は。",
+     "en": "I wouldn't mind.",
+     "speaker": "Kohaku"
+    },
+    {
+     "start": 16.6,
+     "end": 18.5,
+     "ja": "むしろ宵ちゃんのこと気になってるし。",
+     "en": "In fact, I'm pretty curious about you, Yoi.",
+     "speaker": "Kohaku"
+    },
+    {
+     "start": 18.9,
+     "end": 20.2,
+     "ja": "次はどんな顔すんの？",
+     "en": "What kind of face will you make next?",
+     "speaker": "Kohaku"
+    },
+    {
+     "start": 20.3,
+     "end": 21.6,
+     "ja": "もっと見せてよ。",
+     "en": "Show me more.",
+     "speaker": "Kohaku"
+    },
+    {
+     "start": 21.8,
+     "end": 24.2,
+     "ja": "そうやってからかうの、やめてもらっていいですか？",
+     "en": "Could you please stop teasing me like that?",
+     "speaker": "Yoi"
+    },
+    {
+     "start": 24.4,
+     "end": 25.6,
+     "ja": "じゃあ、付き合ってみる？",
+     "en": "Then, want to try dating?",
+     "speaker": "Kohaku"
+    },
+    {
+     "start": 25.7,
+     "end": 26.5,
+     "ja": "なんて。",
+     "en": "Just kidding...",
+     "speaker": "Kohaku"
+    },
+    {
+     "start": 26.6,
+     "end": 27.6,
+     "ja": "いいですよ。",
+     "en": "Sure, why not.",
+     "speaker": "Yoi"
+    }
+   ]
+  },
+  {
+   "start": 33.0,
+   "end": 46.7,
+   "title": "What It Means to Like Someone",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "school"
+   ],
+   "grammar": [
+    "〜かどうか — whether or not",
+    "〜ちゃう — to do unintentionally / completely"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 33.2,
+     "end": 35.8,
+     "ja": "人を好きになることが、よくわかんなくなっちゃって。",
+     "en": "I've kind of lost track of what it feels like to like someone.",
+     "speaker": "Yoi"
+    },
+    {
+     "start": 36.3,
+     "end": 38.0,
+     "ja": "好きかどうか何て、すぐに分かりますよ。",
+     "en": "You can tell right away whether you like them or not.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 38.3,
+     "end": 40.2,
+     "ja": "その人に目がいっちゃうから。",
+     "en": "Because your eyes just naturally follow them.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 41.4,
+     "end": 44.2,
+     "ja": "あいつといる時の宵ちゃん、俺の前じゃしないような顔してるから。",
+     "en": "When you're with him, you make expressions you never make around me.",
+     "speaker": "Kohaku"
+    },
+    {
+     "start": 44.4,
+     "end": 46.4,
+     "ja": "ちゃんと好きって言われてないですから！",
+     "en": "He hasn't even properly told me he likes me!",
+     "speaker": "Yoi"
+    }
+   ]
+  }
+ ],
+ "videoId": "l4XZtIPhpbQ",
+ "pickTopics": [
+  "romance"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

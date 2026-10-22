@@ -1,0 +1,146 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 136.7,
+   "end": 147.9,
+   "title": "Ordering a Caffe Latte",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜をお願いします — please give me ~",
+    "いかがなさいますか — what would you like?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 137.0,
+     "end": 140.8,
+     "ja": "あの、このカフェラテを一つお願いします。",
+     "en": "Um, could I have one of these caffe lattes, please?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 142.6,
+     "end": 144.3,
+     "ja": "はい、カフェラテですね。",
+     "en": "Sure, a caffe latte.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 144.7,
+     "end": 147.2,
+     "ja": "サイズはいかがなさいますか？",
+     "en": "What size would you like?",
+     "speaker": "Clerk"
+    }
+   ]
+  },
+  {
+   "start": 810.9,
+   "end": 831.3,
+   "title": "Paying at the Convenience Store",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜ますか — polite question",
+    "〜をお願いします — please give me ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 811.2,
+     "end": 812.8,
+     "ja": "いらっしゃいませ。",
+     "en": "Welcome.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 814.7,
+     "end": 817.1,
+     "ja": "お弁当温めますか？",
+     "en": "Would you like me to warm up your bento?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 819.0,
+     "end": 821.5,
+     "ja": "はい、お願いします。",
+     "en": "Yes, please.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 823.5,
+     "end": 825.9,
+     "ja": "お箸はつけますか？",
+     "en": "Would you like chopsticks?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 827.8,
+     "end": 830.6,
+     "ja": "はい、一膳お願いします。",
+     "en": "Yes, one pair please.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 1041.0,
+   "end": 1060.0,
+   "title": "Asking for Directions to Tokyo DX",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜から出てください — please exit from ~",
+    "〜くらい — about / approximately"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1041.4,
+     "end": 1045.0,
+     "ja": "東京駅の八重洲北口から出てください。",
+     "en": "Please exit from the Yaesu North Exit of Tokyo Station.",
+     "speaker": "Man"
+    },
+    {
+     "start": 1046.3,
+     "end": 1049.2,
+     "ja": "八重洲北口ですね。",
+     "en": "The Yaesu North Exit, right?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 1051.8,
+     "end": 1054.4,
+     "ja": "はい。そこから歩いて行けますよ。",
+     "en": "Yes. You can walk from there.",
+     "speaker": "Man"
+    },
+    {
+     "start": 1056.2,
+     "end": 1059.4,
+     "ja": "そうですか。どのくらいかかりますか？",
+     "en": "I see. How long will it take?",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "z9CoofBvkY0",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

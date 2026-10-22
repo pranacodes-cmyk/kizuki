@@ -1,0 +1,265 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 568.2,
+   "end": 595.3,
+   "title": "When Is Daddy Coming Back?",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜ようと思う — intending to",
+    "〜かな — I wonder / maybe"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 568.2,
+     "end": 570.3,
+     "ja": "ううん、ちょっと寝とったね。",
+     "en": "No, I was taking a nap.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 570.4,
+     "end": 573.1,
+     "ja": "ごめん。寝る？起きてから話す？",
+     "en": "Sorry. You wanna sleep? Call us back later?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 573.3,
+     "end": 576.8,
+     "ja": "ああ、いいよいいよ。もう起きようと思ったところ。",
+     "en": "No, it's fine. I was just about to wake up anyway.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 577.3,
+     "end": 579.5,
+     "ja": "いつ帰ってくる？",
+     "en": "When are you coming back?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 581.0,
+     "end": 582.5,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Dad"
+    },
+    {
+     "start": 583.8,
+     "end": 585.9,
+     "ja": "いつ帰ってくる？",
+     "en": "When are you coming back?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 586.8,
+     "end": 589.2,
+     "ja": "ずっと聞いてる。「いつ帰ってくるの？」って。",
+     "en": "They keep asking me, \"When are you coming back?\"",
+     "speaker": "Mom"
+    },
+    {
+     "start": 589.5,
+     "end": 592.5,
+     "ja": "来週の日曜日の夜帰るかな。",
+     "en": "I guess I'll be home next Sunday night.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 593.0,
+     "end": 595.2,
+     "ja": "月曜日に会えるよ、月曜日の朝。",
+     "en": "You can see him on Monday, Monday morning.",
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
+   "start": 620.2,
+   "end": 650.5,
+   "title": "Do You Miss Us When You Eat?",
+   "level": "N5",
+   "topics": [
+    "family",
+    "food"
+   ],
+   "grammar": [
+    "〜た時 — when doing",
+    "〜ている — ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 620.3,
+     "end": 623.2,
+     "ja": "ダディ、ねえねえ今日…",
+     "en": "Daddy, hey, today...",
+     "speaker": "Girl"
+    },
+    {
+     "start": 623.8,
+     "end": 626.5,
+     "ja": "ねえねえ、起きた時どうした？",
+     "en": "Hey, what did you do when you woke up?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 627.5,
+     "end": 634.5,
+     "ja": "ねえ、なんか食べてる時に、なんか私たちをミスした？",
+     "en": "Hey, did you miss us when you were eating?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 635.0,
+     "end": 637.0,
+     "ja": "うん、ミスしているよ。",
+     "en": "Yeah, I miss you.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 640.0,
+     "end": 641.5,
+     "ja": "私もよ。",
+     "en": "Me too, you know.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 642.5,
+     "end": 644.2,
+     "ja": "ちょっとお姉ちゃんになったね。",
+     "en": "You've become a big girl.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 644.5,
+     "end": 648.3,
+     "ja": "だって私、いっぱいチキンになってる。",
+     "en": "Because I've been eating a lot of chicken.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 649.0,
+     "end": 650.1,
+     "ja": "本当？",
+     "en": "Really?",
+     "speaker": "Dad"
+    }
+   ]
+  },
+  {
+   "start": 697.5,
+   "end": 730.5,
+   "title": "Showing Daddy the Kimono Drawing",
+   "level": "N5",
+   "topics": [
+    "family",
+    "fun"
+   ],
+   "grammar": [
+    "〜て — imperative/request (頑張って)",
+    "〜けど — but, although",
+    "〜じゃん — isn't it? (informal tag question)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 697.5,
+     "end": 699.0,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 699.1,
+     "end": 701.0,
+     "ja": "パパ、頑張って！",
+     "en": "Daddy, keep working hard!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 701.2,
+     "end": 703.0,
+     "ja": "ありがとう。",
+     "en": "Thank you.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 704.0,
+     "end": 706.5,
+     "ja": "いい英語ステーション作って。",
+     "en": "Make a good Eigo Station.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 707.8,
+     "end": 713.2,
+     "ja": "だけど私も着物作った。作ってないけど描いた。",
+     "en": "I made a kimono too. I didn't make one, but I drew one.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 713.4,
+     "end": 714.8,
+     "ja": "描いたね。",
+     "en": "You drew it, right?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 714.9,
+     "end": 717.2,
+     "ja": "描いた。見る？",
+     "en": "I drew it. Wanna see?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 717.8,
+     "end": 719.2,
+     "ja": "うん、見る。",
+     "en": "Yeah, let's see.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 720.0,
+     "end": 721.3,
+     "ja": "これ。",
+     "en": "This one.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 721.8,
+     "end": 724.0,
+     "ja": "おお、すごい！",
+     "en": "Oh, awesome!",
+     "speaker": "Dad"
+    },
+    {
+     "start": 725.8,
+     "end": 727.5,
+     "ja": "うん、きれい。",
+     "en": "Yeah, pretty.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 728.5,
+     "end": 730.2,
+     "ja": "かっこいいじゃん。",
+     "en": "That's really cool.",
+     "speaker": "Dad"
+    }
+   ]
+  }
+ ],
+ "videoId": "HqBUJ3YMMEw",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

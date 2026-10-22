@@ -1,0 +1,93 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.8,
+   "end": 23.5,
+   "title": "Searching for a Passion",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜ていた — past continuous / habitual state",
+    "〜たい — wanting to do something",
+    "〜ていく — action moving away / continuing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 5.1,
+     "end": 8.7,
+     "ja": "ずっと夢中になれるものを探してた。",
+     "en": "I'd been searching all along for something I could become absorbed in.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 10.9,
+     "end": 14.7,
+     "ja": "早く何かになりたくて、何かを掴みたくて。",
+     "en": "Wanting to quickly become someone, wanting to grasp hold of something.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 15.3,
+     "end": 20.3,
+     "ja": "毎日目を凝らしていたつもりでも、全部、目の前を通り過ぎて行くだけで。",
+     "en": "Even though I thought I was keeping my eyes peeled every day, everything just passed right before my eyes.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 21.8,
+     "end": 23.5,
+     "ja": "僕は気づかなかった。",
+     "en": "I never realized.",
+     "speaker": "Boy"
+    }
+   ]
+  },
+  {
+   "start": 24.8,
+   "end": 33.2,
+   "title": "Right Beneath My Feet",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜ていた — past progressive / state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 25.1,
+     "end": 27.2,
+     "ja": "僕が夢中になれるものは、",
+     "en": "The thing I could become absorbed in...",
+     "speaker": "Boy"
+    },
+    {
+     "start": 27.5,
+     "end": 31.8,
+     "ja": "はるか昔から、自分のすぐ足元に、",
+     "en": "...had been right beneath my feet all along,",
+     "speaker": "Boy"
+    },
+    {
+     "start": 31.8,
+     "end": 33.0,
+     "ja": "埋まっていた。",
+     "en": "buried since long ago.",
+     "speaker": "Boy"
+    }
+   ]
+  }
+ ],
+ "videoId": "COZ5fwIavo0",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

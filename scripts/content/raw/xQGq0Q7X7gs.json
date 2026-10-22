@@ -1,0 +1,156 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 84.0,
+   "end": 98.2,
+   "title": "Point of the Choreography",
+   "level": "N3",
+   "topics": [
+    "music",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていただく — to receive the favor of",
+    "〜に合わせて — in time with / to match",
+    "〜ような — like / similar to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 84.2,
+     "end": 85.3,
+     "ja": "NI-KIさん、",
+     "en": "NI-KI,",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 85.5,
+     "end": 89.8,
+     "ja": "振り付けのポイントをちょっと踊りながら教えていただいてもいいですか？",
+     "en": "could you show us the key choreography move while dancing?",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 90.0,
+     "end": 92.8,
+     "ja": "「beautiful fire」っていう歌詞に合わせて、",
+     "en": "Matching the lyrics 'beautiful fire',",
+     "speaker": "NI-KI"
+    },
+    {
+     "start": 93.0,
+     "end": 97.6,
+     "ja": "手で火を作って口で吹くような動作があるんですね。",
+     "en": "there's a motion where you make fire with your hands and blow it with your mouth.",
+     "speaker": "NI-KI"
+    }
+   ]
+  },
+  {
+   "start": 213.8,
+   "end": 227.2,
+   "title": "Languages I Want to Learn",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜たい — want to",
+    "〜という — called / the feeling that",
+    "できるだけ — as much as possible"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 214.0,
+     "end": 216.2,
+     "ja": "これから学びたいこととかってあるんですか？",
+     "en": "Is there anything you want to learn in the future?",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 216.5,
+     "end": 220.4,
+     "ja": "フランス語を勉強したいという気持ちはあって、",
+     "en": "I feel like I want to study French,",
+     "speaker": "Jay"
+    },
+    {
+     "start": 220.8,
+     "end": 223.0,
+     "ja": "言語はできるだけ、",
+     "en": "and with languages, as much as possible,",
+     "speaker": "Jay"
+    },
+    {
+     "start": 223.1,
+     "end": 226.8,
+     "ja": "なんかいっぱい勉強したいっていう気持ちです。",
+     "en": "I really want to study a lot of them.",
+     "speaker": "Jay"
+    }
+   ]
+  },
+  {
+   "start": 357.8,
+   "end": 376.5,
+   "title": "Getting Praised for Acting",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜と言われて — being told that",
+    "あんまり〜ない — not very much / rarely",
+    "〜ていかがですか — how does it feel to..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 358.0,
+     "end": 361.0,
+     "ja": "JAYさん、演技が上手になったと言われてどうですか？",
+     "en": "JAY, how do you feel being told that your acting has improved?",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 361.0,
+     "end": 362.4,
+     "ja": "嬉しいですね！",
+     "en": "I'm really happy!",
+     "speaker": "Jay"
+    },
+    {
+     "start": 362.6,
+     "end": 367.2,
+     "ja": "普段あんまりメンバーから、なんか褒められることあんまりなくて…",
+     "en": "I don't really get praised by the members very often, so...",
+     "speaker": "Jay"
+    },
+    {
+     "start": 372.0,
+     "end": 374.2,
+     "ja": "JAKEさんも褒められていかがですか？",
+     "en": "JAKE, you were also praised, how do you feel?",
+     "speaker": "Reporter"
+    },
+    {
+     "start": 374.3,
+     "end": 375.8,
+     "ja": "ありがとうございます！",
+     "en": "Thank you very much!",
+     "speaker": "Jake"
+    }
+   ]
+  }
+ ],
+ "videoId": "xQGq0Q7X7gs",
+ "pickTopics": [
+  "music"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

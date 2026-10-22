@@ -1,0 +1,211 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 85.3,
+   "end": 99.8,
+   "title": "Comparing Shoe Sizes with Raidel",
+   "level": "N5",
+   "topics": [
+    "sports",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜てない — haven't done",
+    "全然〜ない — not at all"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 85.4,
+     "end": 86.8,
+     "ja": "キャンプやってないから。",
+     "en": "Because I haven't done camp.",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 87.2,
+     "end": 88.5,
+     "ja": "でかっ！",
+     "en": "It's huge!",
+     "speaker": "Teammate"
+    },
+    {
+     "start": 88.8,
+     "end": 90.6,
+     "ja": "キャンプ全然やってないから。",
+     "en": "Because I haven't done camp at all.",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 90.8,
+     "end": 91.9,
+     "ja": "何センチですか？",
+     "en": "What size is it?",
+     "speaker": "Teammate"
+    },
+    {
+     "start": 92.0,
+     "end": 93.1,
+     "ja": "38cm？",
+     "en": "38 centimeters?",
+     "speaker": "Teammate"
+    },
+    {
+     "start": 93.2,
+     "end": 94.2,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 97.6,
+     "end": 99.3,
+     "ja": "30.5cm。",
+     "en": "30.5 cm.",
+     "speaker": "Tanaka"
+    }
+   ]
+  },
+  {
+   "start": 100.4,
+   "end": 116.5,
+   "title": "Running or Catchball?",
+   "level": "N5",
+   "topics": [
+    "sports",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "なんで — why",
+    "早く — hurry up / quickly"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 100.6,
+     "end": 101.5,
+     "ja": "な〜に？",
+     "en": "What is it?",
+     "speaker": "Martinez"
+    },
+    {
+     "start": 101.8,
+     "end": 102.7,
+     "ja": "ランニング？",
+     "en": "Running?",
+     "speaker": "Martinez"
+    },
+    {
+     "start": 102.8,
+     "end": 104.3,
+     "ja": "ランニング？ノーノーノー！",
+     "en": "Running? No, no, no!",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 104.4,
+     "end": 105.1,
+     "ja": "なんで？",
+     "en": "Why?",
+     "speaker": "Martinez"
+    },
+    {
+     "start": 105.2,
+     "end": 106.1,
+     "ja": "キャッチボール！",
+     "en": "Catch ball!",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 107.0,
+     "end": 108.8,
+     "ja": "ユー、明日ゲーム！",
+     "en": "You have a game tomorrow!",
+     "speaker": "Martinez"
+    },
+    {
+     "start": 150.8,
+     "end": 152.0,
+     "ja": "早く！",
+     "en": "Hurry up!",
+     "speaker": "Martinez"
+    },
+    {
+     "start": 152.8,
+     "end": 153.9,
+     "ja": "大丈夫ね？",
+     "en": "Are you alright?",
+     "speaker": "Martinez"
+    },
+    {
+     "start": 154.0,
+     "end": 155.8,
+     "ja": "他のピッチャーグッドね！",
+     "en": "The other pitchers are good!",
+     "speaker": "Martinez"
+    }
+   ]
+  },
+  {
+   "start": 231.5,
+   "end": 243.5,
+   "title": "Their Playful Banter Starts Again",
+   "level": "N4",
+   "topics": [
+    "sports",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜ね — isn't it / right",
+    "〜も — also / too"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 231.8,
+     "end": 233.5,
+     "ja": "ばかやろうネ〜。",
+     "en": "You idiot~.",
+     "speaker": "Martinez"
+    },
+    {
+     "start": 234.7,
+     "end": 237.1,
+     "ja": "始まるね。今年もこの絡みが始まるね。",
+     "en": "It's starting. This banter is starting again this year.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 237.3,
+     "end": 239.5,
+     "ja": "ばかね〜、ライデルはね〜。",
+     "en": "What a dummy, Raidel is~.",
+     "speaker": "Tanaka"
+    },
+    {
+     "start": 239.9,
+     "end": 241.2,
+     "ja": "お前もバカね！",
+     "en": "You're a dummy too!",
+     "speaker": "Martinez"
+    },
+    {
+     "start": 241.4,
+     "end": 243.0,
+     "ja": "お前もバカね（笑）。",
+     "en": "You're a dummy too (laughs).",
+     "speaker": "Tanaka"
+    }
+   ]
+  }
+ ],
+ "videoId": "y5ksUhP9qno",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

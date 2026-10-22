@@ -1,0 +1,133 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1046.0,
+   "end": 1080.5,
+   "title": "What Do You Want to Eat?",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "animals"
+   ],
+   "grammar": [
+    "〜たい — want to do",
+    "〜ね — seeking agreement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1047.0,
+     "end": 1051.2,
+     "ja": "腹減った〜",
+     "en": "I'm starving~",
+     "speaker": "Bear"
+    },
+    {
+     "start": 1057.0,
+     "end": 1061.5,
+     "ja": "何食べたい？",
+     "en": "What do you want to eat?",
+     "speaker": "Cat"
+    },
+    {
+     "start": 1067.0,
+     "end": 1070.5,
+     "ja": "焼肉！",
+     "en": "Yakiniku!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1075.5,
+     "end": 1079.5,
+     "ja": "いいね〜",
+     "en": "Sounds good~",
+     "speaker": "Cat"
+    }
+   ]
+  },
+  {
+   "start": 1083.0,
+   "end": 1110.0,
+   "title": "If It's Yakiniku, Let's Have Beer",
+   "level": "N5",
+   "topics": [
+    "food",
+    "fun",
+    "animals"
+   ],
+   "grammar": [
+    "〜なら — if / in the case of",
+    "〜たいな — expressing personal desire casually"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1083.8,
+     "end": 1088.0,
+     "ja": "焼肉なら、",
+     "en": "If it's yakiniku,",
+     "speaker": "Cat"
+    },
+    {
+     "start": 1094.0,
+     "end": 1099.0,
+     "ja": "ビール飲みたいな。",
+     "en": "I'd love a beer.",
+     "speaker": "Cat"
+    },
+    {
+     "start": 1105.0,
+     "end": 1109.0,
+     "ja": "いいね〜",
+     "en": "Sounds good~",
+     "speaker": "Bear"
+    }
+   ]
+  },
+  {
+   "start": 1113.5,
+   "end": 1141.0,
+   "title": "Going to the Yakiniku Restaurant",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food",
+    "animals"
+   ],
+   "grammar": [
+    "〜に行きました — went to [place]"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1114.5,
+     "end": 1119.0,
+     "ja": "熊さんと猫さんは、",
+     "en": "Mr. Bear and Mr. Cat,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1124.5,
+     "end": 1129.5,
+     "ja": "焼肉屋さんに行きました。",
+     "en": "went to a yakiniku restaurant.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1137.0,
+     "end": 1140.5,
+     "ja": "おしまい。",
+     "en": "The end.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "f7PoYWdmbC4",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

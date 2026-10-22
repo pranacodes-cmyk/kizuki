@@ -1,0 +1,266 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 377.5,
+   "end": 400.0,
+   "title": "Do You Know Crystal Kay?",
+   "level": "N3",
+   "topics": [
+    "music",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていただく — receiving a favor",
+    "〜と申します — my name is (humble)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 377.5,
+     "end": 379.0,
+     "ja": "歌手なんですけど。",
+     "en": "I'm a singer, actually.",
+     "speaker": "Crystal Kay"
+    },
+    {
+     "start": 379.0,
+     "end": 380.5,
+     "ja": "そうなんですか？",
+     "en": "Really?",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 380.5,
+     "end": 381.8,
+     "ja": "おいくつですか？",
+     "en": "How old are you?",
+     "speaker": "Crystal Kay"
+    },
+    {
+     "start": 381.8,
+     "end": 383.0,
+     "ja": "21歳です。",
+     "en": "I'm 21.",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 383.0,
+     "end": 385.5,
+     "ja": "若っ！じゃあ知らないよ。",
+     "en": "So young! Then you wouldn't know.",
+     "speaker": "Crystal Kay"
+    },
+    {
+     "start": 385.5,
+     "end": 387.2,
+     "ja": "Crystal Kayなんですけど。",
+     "en": "I'm Crystal Kay.",
+     "speaker": "Crystal Kay"
+    },
+    {
+     "start": 387.2,
+     "end": 389.0,
+     "ja": "あ、聞いたことあるな。",
+     "en": "Ah, I've heard that name.",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 389.0,
+     "end": 390.0,
+     "ja": "聞いたことある？",
+     "en": "You've heard it?",
+     "speaker": "Crystal Kay"
+    },
+    {
+     "start": 390.0,
+     "end": 392.3,
+     "ja": "はい。絶対聞いたことあります。",
+     "en": "Yes. I've definitely heard it.",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 392.3,
+     "end": 394.8,
+     "ja": "わざわざ声かけていただいてありがとうございました。",
+     "en": "Thank you so much for taking the time to speak to me.",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 394.8,
+     "end": 396.4,
+     "ja": "いえいえ。何さんですか？",
+     "en": "No problem. What's your name?",
+     "speaker": "Crystal Kay"
+    },
+    {
+     "start": 396.4,
+     "end": 398.8,
+     "ja": "ヤマモトダイユウと申します。",
+     "en": "My name is Daiyu Yamamoto.",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 398.8,
+     "end": 400.0,
+     "ja": "ありがとうございました。",
+     "en": "Thank you very much.",
+     "speaker": "Crystal Kay"
+    }
+   ]
+  },
+  {
+   "start": 438.0,
+   "end": 461.5,
+   "title": "City Pop Among Japanese Youth",
+   "level": "N3",
+   "topics": [
+    "music",
+    "culture"
+   ],
+   "grammar": [
+    "〜の影響で — under the influence of",
+    "〜たりする — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 438.0,
+     "end": 440.8,
+     "ja": "海外もね、今シティーポップ大好きだから。",
+     "en": "People abroad love city pop right now too.",
+     "speaker": "Crystal Kay"
+    },
+    {
+     "start": 440.8,
+     "end": 444.4,
+     "ja": "僕の外国人の友達でも山下達郎好きな人結構いますね。",
+     "en": "Even among my foreign friends, there are quite a few who like Tatsuro Yamashita.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 444.4,
+     "end": 447.8,
+     "ja": "若そうなのに、結構渋くないですか、セレクション？",
+     "en": "Even though you look young, isn't your selection pretty mature?",
+     "speaker": "Crystal Kay"
+    },
+    {
+     "start": 447.8,
+     "end": 451.5,
+     "ja": "父の影響でレコードを結構集めてて。",
+     "en": "Through my dad's influence, I collect quite a few records.",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 452.0,
+     "end": 455.5,
+     "ja": "日本人の若者でもシティーポップとか今流行ってるんですか？",
+     "en": "Is city pop popular among young Japanese people right now too?",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 455.5,
+     "end": 459.5,
+     "ja": "そうですね、友達の大学生とかにもレコード集めたりしている人多くて。",
+     "en": "Yeah, a lot of my college friends are collecting records too.",
+     "speaker": "Interviewee"
+    },
+    {
+     "start": 459.5,
+     "end": 461.5,
+     "ja": "トレンドなんですね。",
+     "en": "So it's a trend, huh.",
+     "speaker": "Takashi"
+    }
+   ]
+  },
+  {
+   "start": 641.2,
+   "end": 666.5,
+   "title": "Admiration for Heisei Gyaru Style",
+   "level": "N3",
+   "topics": [
+    "music",
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜じゃないですか — isn't it the case that...?",
+    "〜すぎる — too much / overly"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 641.2,
+     "end": 645.5,
+     "ja": "なんかCrystal KayさんのMVがカラオケでも実際流れるじゃないですか。",
+     "en": "Like, Crystal Kay's music videos actually play at karaoke, right?",
+     "speaker": "Miu"
+    },
+    {
+     "start": 645.5,
+     "end": 647.0,
+     "ja": "ああ、はいはいはい。",
+     "en": "Ah, yeah, yeah, yeah.",
+     "speaker": "Crystal Kay"
+    },
+    {
+     "start": 647.0,
+     "end": 651.8,
+     "ja": "それでCrystal Kayさんの当時がめっちゃ平成ギャルすぎてヤバいねって、",
+     "en": "And we were saying how you back then were such peak Heisei gyaru, it's amazing,",
+     "speaker": "Miu"
+    },
+    {
+     "start": 651.8,
+     "end": 654.5,
+     "ja": "友達と最近話してました。",
+     "en": "I was just talking about that with a friend recently.",
+     "speaker": "Miu"
+    },
+    {
+     "start": 654.5,
+     "end": 658.0,
+     "ja": "超ギャルでめっちゃ憧れて話してました。",
+     "en": "Saying you were super gyaru and we really admire that.",
+     "speaker": "Miu"
+    },
+    {
+     "start": 658.0,
+     "end": 660.0,
+     "ja": "めっちゃローライズ履いてて。",
+     "en": "Wearing super low-rise jeans.",
+     "speaker": "Miu"
+    },
+    {
+     "start": 660.0,
+     "end": 661.5,
+     "ja": "あ、そうなの？",
+     "en": "Oh, really?",
+     "speaker": "Crystal Kay"
+    },
+    {
+     "start": 661.5,
+     "end": 664.8,
+     "ja": "Crystal Kayさん超カッコいいって話してました。",
+     "en": "We were talking about how super cool Crystal Kay is.",
+     "speaker": "Miu"
+    },
+    {
+     "start": 664.8,
+     "end": 666.5,
+     "ja": "ありがとうございます！",
+     "en": "Thank you so much!",
+     "speaker": "Crystal Kay"
+    }
+   ]
+  }
+ ],
+ "videoId": "hwlQqtvPYsI",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

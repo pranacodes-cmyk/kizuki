@@ -1,0 +1,175 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 125.7,
+   "end": 149.3,
+   "title": "Starting a New Job in the Netherlands",
+   "level": "N5",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜から — starting from",
+    "〜を始めました — started doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 126.2,
+     "end": 128.5,
+     "ja": "仕事を見つけました。",
+     "en": "I found a job.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 129.1,
+     "end": 133.0,
+     "ja": "１月５日、",
+     "en": "On January 5th,",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 133.5,
+     "end": 139.7,
+     "ja": "１月５日から仕事を始めました。",
+     "en": "I started working on January 5th.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 140.7,
+     "end": 145.4,
+     "ja": "始める、スタートするという意味です。",
+     "en": "\"Hajimeru\" means to start.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 146.3,
+     "end": 148.8,
+     "ja": "仕事が始まりました。",
+     "en": "My work has begun.",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 497.1,
+   "end": 529.5,
+   "title": "Disruptions Caused by Heavy Snow",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜も — also / even",
+    "〜ので — because / since",
+    "〜ないで — negative form / cannot do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 497.6,
+     "end": 501.7,
+     "ja": "でも、バスが止まりました。",
+     "en": "However, the buses stopped running.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 502.4,
+     "end": 505.7,
+     "ja": "電車も止まりました。",
+     "en": "The trains also stopped running.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 506.6,
+     "end": 509.3,
+     "ja": "自転車も乗れません。",
+     "en": "You can't ride a bicycle either.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 509.8,
+     "end": 516.3,
+     "ja": "自転車も危ないので乗れません。",
+     "en": "It's dangerous, so you can't ride a bicycle either.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 517.3,
+     "end": 520.1,
+     "ja": "ちょっと不便です。",
+     "en": "It's a little inconvenient.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 520.6,
+     "end": 525.8,
+     "ja": "ちょっと不便。便利じゃない。",
+     "en": "A little inconvenient. Not convenient.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 526.4,
+     "end": 529.0,
+     "ja": "ちょっと大変でした。",
+     "en": "It was a bit tough.",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 616.7,
+   "end": 639.2,
+   "title": "Making Bento for Work",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜を作っています — making / ongoing action",
+    "〜時に — when / at the time of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 617.2,
+     "end": 622.7,
+     "ja": "まず最近、お弁当を作っています。",
+     "en": "First, lately I've been making bento boxes.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 623.8,
+     "end": 627.0,
+     "ja": "お弁当を作っています。",
+     "en": "I've been making bento.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 628.1,
+     "end": 634.3,
+     "ja": "会社に行く時に、お弁当を持っていきます。",
+     "en": "When I go to the office, I take my bento with me.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 634.8,
+     "end": 638.7,
+     "ja": "お弁当を持っていきます。",
+     "en": "I bring my bento.",
+     "speaker": "Akiko"
+    }
+   ]
+  }
+ ],
+ "videoId": "p4BzOpv7Qtw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

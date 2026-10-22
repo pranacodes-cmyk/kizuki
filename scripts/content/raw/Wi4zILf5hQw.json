@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 39.0,
+   "end": 57.0,
+   "title": "Checking In at the Hotel",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜をお願いします — please give me / I'd like",
+    "〜ております — humble form of 〜ている"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 39.2,
+     "end": 40.4,
+     "ja": "こんにちは！",
+     "en": "Hello!",
+     "speaker": "Staff"
+    },
+    {
+     "start": 40.5,
+     "end": 41.8,
+     "ja": "こんにちは！",
+     "en": "Hello!",
+     "speaker": "Ken"
+    },
+    {
+     "start": 42.0,
+     "end": 44.2,
+     "ja": "すいません、チェックインをお願いします。",
+     "en": "Excuse me, I'd like to check in.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 44.3,
+     "end": 46.3,
+     "ja": "はい、かしこまりました。お名前伺いますね。",
+     "en": "Certainly. May I have your name?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 46.4,
+     "end": 48.0,
+     "ja": "黒川健太郎です。",
+     "en": "It's Kentaro Kurokawa.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 48.1,
+     "end": 50.4,
+     "ja": "黒川健太郎様、ありがとうございます。",
+     "en": "Mr. Kentaro Kurokawa, thank you.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 50.5,
+     "end": 53.6,
+     "ja": "本日から３泊いただいておりまして、",
+     "en": "You are staying 3 nights starting today,",
+     "speaker": "Staff"
+    },
+    {
+     "start": 53.7,
+     "end": 56.5,
+     "ja": "セミダブルのお部屋、２名様で承っております。",
+     "en": "and we have a semi-double room booked for 2 persons.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 126.0,
+   "end": 146.0,
+   "title": "Hotel Checkout and Rules",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜でございます — polite form of 〜です",
+    "〜ていただければ — I would appreciate if you could"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 137.0,
+     "end": 140.5,
+     "ja": "では、お部屋が６０６で、ご精算が済んでおりますね。",
+     "en": "So, your room is 606, and payment is already completed.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 141.0,
+     "end": 143.2,
+     "ja": "チェックアウト、最終日１０時でございます。",
+     "en": "Check-out time is 10:00 AM on your last day.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 143.3,
+     "end": 145.8,
+     "ja": "１０時以降のご連絡、特にしておりません。",
+     "en": "We do not specifically contact you after 10:00.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 313.5,
+   "end": 329.5,
+   "title": "Why Ken Loves This Hotel",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜かどうか — whether or not",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 313.8,
+     "end": 320.5,
+     "ja": "僕がホテルを選ぶ時、すごく大事にしているのが清潔感。",
+     "en": "When I choose a hotel, what I value very much is cleanliness.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 321.3,
+     "end": 324.0,
+     "ja": "綺麗かどうか。",
+     "en": "Whether it is clean or not.",
+     "speaker": "Ken"
+    },
+    {
+     "start": 325.0,
+     "end": 329.2,
+     "ja": "このホテルはすごく綺麗なので、僕は大好きです。",
+     "en": "Because this hotel is very clean, I really like it.",
+     "speaker": "Ken"
+    }
+   ]
+  }
+ ],
+ "videoId": "Wi4zILf5hQw",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

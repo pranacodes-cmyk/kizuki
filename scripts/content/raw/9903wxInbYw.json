@@ -1,0 +1,187 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 211.0,
+   "end": 223.5,
+   "title": "Introducing Where You Are From",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜から来ました — came from ~",
+    "どちらの方 — polite way to ask where"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 211.6,
+     "end": 214.9,
+     "ja": "初めまして。山田です。よろしくお願いします。",
+     "en": "Nice to meet you. I'm Yamada. Pleased to meet you.",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 215.0,
+     "end": 218.8,
+     "ja": "あ、初めまして。アレックスです。よろしくお願いします。",
+     "en": "Oh, nice to meet you. I'm Alex. Pleased to meet you.",
+     "speaker": "Alex"
+    },
+    {
+     "start": 218.9,
+     "end": 220.9,
+     "ja": "よろしく。どちらの方ですか？",
+     "en": "Nice to meet you. Where are you from?",
+     "speaker": "Yamada"
+    },
+    {
+     "start": 221.1,
+     "end": 223.0,
+     "ja": "イギリスから来ました。",
+     "en": "I came from the UK.",
+     "speaker": "Alex"
+    }
+   ]
+  },
+  {
+   "start": 264.4,
+   "end": 281.8,
+   "title": "Introducing Yourself at School",
+   "level": "N5",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜の — affiliation / belonging to",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 264.7,
+     "end": 266.5,
+     "ja": "どうも。初めまして。",
+     "en": "Hello. Nice to meet you.",
+     "speaker": "Akky"
+    },
+    {
+     "start": 266.6,
+     "end": 269.4,
+     "ja": "教育学部のあっきーです。よろしく。",
+     "en": "I'm Akky from the Faculty of Education. Nice to meet you.",
+     "speaker": "Akky"
+    },
+    {
+     "start": 269.8,
+     "end": 271.1,
+     "ja": "初めまして。",
+     "en": "Nice to meet you.",
+     "speaker": "Akky"
+    },
+    {
+     "start": 271.2,
+     "end": 273.9,
+     "ja": "政治経済学部3年のあっきーです。",
+     "en": "I'm Akky, a third-year in the School of Political Science and Economics.",
+     "speaker": "Akky"
+    },
+    {
+     "start": 274.0,
+     "end": 275.5,
+     "ja": "よろしくお願いします。",
+     "en": "Pleased to meet you.",
+     "speaker": "Akky"
+    },
+    {
+     "start": 275.9,
+     "end": 278.5,
+     "ja": "初めまして。数学科のあっきーです。",
+     "en": "Nice to meet you. I'm Akky from the Mathematics Department.",
+     "speaker": "Akky"
+    },
+    {
+     "start": 278.6,
+     "end": 280.0,
+     "ja": "よろしくお願いします。",
+     "en": "Pleased to meet you.",
+     "speaker": "Akky"
+    },
+    {
+     "start": 280.2,
+     "end": 281.4,
+     "ja": "こうやって言ってください。",
+     "en": "Please say it like this.",
+     "speaker": "Akky"
+    }
+   ]
+  },
+  {
+   "start": 303.2,
+   "end": 316.0,
+   "title": "Introducing Yourself at Work",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜と申します — humble form of \"to be called\"",
+    "〜部 — department / division"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 303.5,
+     "end": 305.1,
+     "ja": "どうも。初めまして。",
+     "en": "Hello. Nice to meet you.",
+     "speaker": "Akky"
+    },
+    {
+     "start": 305.2,
+     "end": 308.5,
+     "ja": "経理部のあっきーです。よろしくお願いします。",
+     "en": "I'm Akky from accounting. Pleased to meet you.",
+     "speaker": "Akky"
+    },
+    {
+     "start": 308.9,
+     "end": 310.0,
+     "ja": "初めまして。",
+     "en": "Nice to meet you.",
+     "speaker": "Akky"
+    },
+    {
+     "start": 310.1,
+     "end": 313.0,
+     "ja": "株式会社三本塾のあっきーと申します。",
+     "en": "My name is Akky from Sambon Juku Co., Ltd.",
+     "speaker": "Akky"
+    },
+    {
+     "start": 313.1,
+     "end": 314.5,
+     "ja": "よろしくお願いします。",
+     "en": "Pleased to meet you.",
+     "speaker": "Akky"
+    },
+    {
+     "start": 314.7,
+     "end": 315.8,
+     "ja": "このように言ってください。",
+     "en": "Please say it like this.",
+     "speaker": "Akky"
+    }
+   ]
+  }
+ ],
+ "videoId": "9903wxInbYw",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

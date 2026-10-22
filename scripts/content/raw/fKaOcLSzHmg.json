@@ -1,0 +1,253 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 11.5,
+   "end": 26.2,
+   "title": "Heading to Okinawa from Narita Airport",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "fun"
+   ],
+   "grammar": [
+    "〜におります — humble form of います (to be)",
+    "〜に行きます — to go to (destination)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.8,
+     "end": 13.0,
+     "ja": "good morning!",
+     "en": "Good morning!",
+     "speaker": "Man"
+    },
+    {
+     "start": 13.0,
+     "end": 14.8,
+     "ja": "おはようございます！",
+     "en": "Good morning!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 14.9,
+     "end": 16.5,
+     "ja": "ってことで、ここは？",
+     "en": "So, where are we?",
+     "speaker": "Man"
+    },
+    {
+     "start": 16.6,
+     "end": 19.3,
+     "ja": "私たちは今成田空港におります。",
+     "en": "We are now at Narita Airport.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 19.4,
+     "end": 20.6,
+     "ja": "そしてそして？",
+     "en": "And then?",
+     "speaker": "Man"
+    },
+    {
+     "start": 20.7,
+     "end": 23.0,
+     "ja": "そしてそして、沖縄に行きます！",
+     "en": "And then, we're going to Okinawa!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 23.0,
+     "end": 24.8,
+     "ja": "うぇーい、念願やな。",
+     "en": "Yay, your long-held wish!",
+     "speaker": "Man"
+    },
+    {
+     "start": 24.9,
+     "end": 25.8,
+     "ja": "そう！",
+     "en": "Yes!",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 731.0,
+   "end": 754.5,
+   "title": "Morning of Day 2: Going for Okinawa Soba",
+   "level": "N4",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜ていたので — because (we) were doing",
+    "〜という — called / named",
+    "〜てくれる — to do something for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 731.3,
+     "end": 733.2,
+     "ja": "おはようございます！",
+     "en": "Good morning!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 733.2,
+     "end": 734.6,
+     "ja": "おざまーす。",
+     "en": "'Morning.",
+     "speaker": "Man"
+    },
+    {
+     "start": 734.7,
+     "end": 736.4,
+     "ja": "2日目の朝です。",
+     "en": "It's the morning of the second day.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 736.5,
+     "end": 739.0,
+     "ja": "天気は相変わらず良くありませんが。",
+     "en": "The weather is still not good, though.",
+     "speaker": "Man"
+    },
+    {
+     "start": 739.1,
+     "end": 741.2,
+     "ja": "土砂降りなんですけど、",
+     "en": "It's pouring rain, but...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 741.5,
+     "end": 746.4,
+     "ja": "今日は名護に泊まってたので、そのままちょっと下に降りてきて、",
+     "en": "we stayed in Nago, so we came a bit down south...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 746.5,
+     "end": 751.8,
+     "ja": "今日は幸ちゃんそばっていうところに、沖縄そばを食べに来ました。",
+     "en": "and came to eat Okinawa soba at a place called Sacchan Soba today.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 752.0,
+     "end": 754.0,
+     "ja": "チャンが紹介してくれましたね。",
+     "en": "Chan recommended it to us.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 1021.5,
+   "end": 1041.0,
+   "title": "Visiting a Stylish Cafe in Chatan",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜たことがある — to have ever done",
+    "〜ば — conditional (if / when)",
+    "〜ってこと — it means that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1021.8,
+     "end": 1025.0,
+     "ja": "じゃーじゃーん。ジバゴコーヒー。",
+     "en": "Ta-da! Zhyvago Coffee.",
+     "speaker": "Man"
+    },
+    {
+     "start": 1025.2,
+     "end": 1027.2,
+     "ja": "そう、北谷のカフェに来た。",
+     "en": "Yeah, we came to a cafe in Chatan.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 1027.4,
+     "end": 1028.7,
+     "ja": "来たことある？",
+     "en": "Have you ever been here?",
+     "speaker": "Man"
+    },
+    {
+     "start": 1028.8,
+     "end": 1029.6,
+     "ja": "なーい。",
+     "en": "Nope.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 1029.7,
+     "end": 1030.3,
+     "ja": "初？",
+     "en": "First time?",
+     "speaker": "Man"
+    },
+    {
+     "start": 1030.4,
+     "end": 1031.2,
+     "ja": "初。",
+     "en": "First time.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 1031.3,
+     "end": 1034.0,
+     "ja": "チャンよくここで編集してんねん。",
+     "en": "Chan often edits videos here.",
+     "speaker": "Man"
+    },
+    {
+     "start": 1034.0,
+     "end": 1035.3,
+     "ja": "え、そうなの？",
+     "en": "Oh, really?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 1035.4,
+     "end": 1037.8,
+     "ja": "ここに来れば会えるってことじゃん。",
+     "en": "That means you can meet him if you come here!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 1037.8,
+     "end": 1039.0,
+     "ja": "会える。",
+     "en": "You can.",
+     "speaker": "Man"
+    },
+    {
+     "start": 1039.0,
+     "end": 1040.8,
+     "ja": "上もあって、雰囲気めっちゃいい。",
+     "en": "There's an upstairs too, and the atmosphere is great.",
+     "speaker": "Man"
+    }
+   ]
+  }
+ ],
+ "videoId": "fKaOcLSzHmg",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

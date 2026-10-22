@@ -1,0 +1,176 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 7.0,
+   "end": 22.8,
+   "title": "Starting the Day with Breakfast",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "school",
+    "food"
+   ],
+   "grammar": [
+    "〜わけではない — it doesn't mean that",
+    "〜ついでに — while doing / on the occasion of",
+    "〜ように思う — to think / feel that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 7.1,
+     "end": 10.5,
+     "ja": "今日は大学がそんな忙しいってわけではないんですけど、",
+     "en": "It's not that I'm super busy at university today, but",
+     "speaker": "Parker"
+    },
+    {
+     "start": 10.5,
+     "end": 13.5,
+     "ja": "学校行ったついでに図書館で勉強すると思います。",
+     "en": "I think I'll study at the library while I'm at school.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 13.5,
+     "end": 16.8,
+     "ja": "家で勉強っていうのはなかなかできないから。",
+     "en": "Because it's pretty hard to study at home.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 16.8,
+     "end": 19.0,
+     "ja": "今日１限からじゃなくて２限からですからね。",
+     "en": "I don't have first period today, but second period,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 19.0,
+     "end": 22.5,
+     "ja": "朝もゆっくりパンとヨーグルトで始まろうというふうに思っております。",
+     "en": "so I'm planning to take it easy this morning and start with bread and yogurt.",
+     "speaker": "Parker"
+    }
+   ]
+  },
+  {
+   "start": 120.0,
+   "end": 136.2,
+   "title": "Options for Lunch",
+   "level": "N3",
+   "topics": [
+    "school",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜っていうのは — as for ~",
+    "〜なあかん — must do (Kansai dialect)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 120.1,
+     "end": 123.0,
+     "ja": "授業が終わって今から昼休みなんですけど、",
+     "en": "Class is over and now it's lunch break,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 123.1,
+     "end": 126.5,
+     "ja": "ご飯食べるのはどうするかっていうのは選択肢がちょっとあって、",
+     "en": "and I have a couple of options for what to do for lunch.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 126.6,
+     "end": 128.5,
+     "ja": "一つは学食で食べるっていうのと、",
+     "en": "One is eating at the cafeteria,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 128.6,
+     "end": 130.7,
+     "ja": "もう一つは家に帰って食べるっていうの。",
+     "en": "and the other is going back home to eat.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 130.8,
+     "end": 133.4,
+     "ja": "ただ家帰るのも結構めんどくさいんですよ。",
+     "en": "But going home is honestly quite a hassle.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 133.5,
+     "end": 136.0,
+     "ja": "だってどうせ３時間目また学校戻らなあかんし。",
+     "en": "Because I have to come back to school for third period anyway.",
+     "speaker": "Parker"
+    }
+   ]
+  },
+  {
+   "start": 276.0,
+   "end": 290.0,
+   "title": "Ultra-Cheap Dinner Ramen",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくる — return after doing",
+    "〜だけ — just / only"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 276.2,
+     "end": 278.2,
+     "ja": "家に帰ってきたんですけど、",
+     "en": "I just got back home,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 278.2,
+     "end": 280.0,
+     "ja": "今から晩ご飯作るんですけど、",
+     "en": "and I'm about to make dinner now.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 280.0,
+     "end": 282.1,
+     "ja": "この「プチッと鍋」に、",
+     "en": "Into this 'Puchitto Nabe' broth cup,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 282.2,
+     "end": 285.8,
+     "ja": "業務スーパーで買った16円の中華そば入れて食べるだけっていう、",
+     "en": "I just throw in these 16-yen noodles bought from Gyomu Super and eat it.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 285.9,
+     "end": 289.8,
+     "ja": "コスパ最強のラーメン作っていくんですけど。",
+     "en": "I'm going to make this ultimate cost-effective ramen.",
+     "speaker": "Parker"
+    }
+   ]
+  }
+ ],
+ "videoId": "X_NTX8p-sdI",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

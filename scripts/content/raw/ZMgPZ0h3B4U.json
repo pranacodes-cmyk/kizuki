@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.2,
+   "end": 46.5,
+   "title": "Creating Residents on the Island",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜次第 — depending on",
+    "〜ことも — also a case/possibility of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.6,
+     "end": 26.5,
+     "ja": "あなたは、この島の管理人です。",
+     "en": "You are the caretaker of this island.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 27.0,
+     "end": 31.0,
+     "ja": "どんなMiiを住人にするかは管理人次第。",
+     "en": "Which Miis become residents is up to you, the manager.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 31.8,
+     "end": 37.0,
+     "ja": "友達や家族、もちろん自分を作ることも。",
+     "en": "You can make friends, family, or of course, even yourself.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 38.0,
+     "end": 43.1,
+     "ja": "性格や声を選んで、完成です。",
+     "en": "Choose their personality and voice, and you're all set.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 44.0,
+     "end": 46.2,
+     "ja": "今日からよろしくお願いします！",
+     "en": "I look forward to being here starting today!",
+     "speaker": "Mii"
+    }
+   ]
+  },
+  {
+   "start": 55.0,
+   "end": 71.5,
+   "title": "Feeding a Hungry Mii",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜のでしょうか — wondering polite question",
+    "〜てくれる — doing something for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 55.2,
+     "end": 57.8,
+     "ja": "おや？どうしたのでしょうか？",
+     "en": "Oh? What seems to be the matter?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 58.2,
+     "end": 60.6,
+     "ja": "おなかがペコペコです。",
+     "en": "I'm starving.",
+     "speaker": "Mii"
+    },
+    {
+     "start": 61.1,
+     "end": 62.5,
+     "ja": "どうぞ。",
+     "en": "Here you go.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 63.0,
+     "end": 64.9,
+     "ja": "いただきます。",
+     "en": "Thank you for the food.",
+     "speaker": "Mii"
+    },
+    {
+     "start": 68.8,
+     "end": 71.1,
+     "ja": "喜んでくれたようですね。",
+     "en": "It looks like they enjoyed it.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 153.0,
+   "end": 173.5,
+   "title": "Breaking News from Mii News",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていましたが — contrast after past ongoing state",
+    "お〜ください — respectful request"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 153.4,
+     "end": 157.3,
+     "ja": "突然ですが、ここでニュース速報をお伝えします。",
+     "en": "We interrupt for a breaking news bulletin.",
+     "speaker": "News Anchor"
+    },
+    {
+     "start": 158.6,
+     "end": 205.5,
+     "ja": "トモダチコレクション わくわく生活の発売は、2026年とお伝えしていましたが、",
+     "en": "Although we previously reported that Tomodachi Collection would release in 2026,",
+     "speaker": "News Anchor"
+    },
+    {
+     "start": 206.0,
+     "end": 209.4,
+     "ja": "その後、春になったことがわかりました。",
+     "en": "we have since learned that it will be released in spring.",
+     "speaker": "News Anchor"
+    },
+    {
+     "start": 210.0,
+     "end": 213.2,
+     "ja": "発売までもうしばらくお待ちください。",
+     "en": "Please wait just a little longer until the release.",
+     "speaker": "News Anchor"
+    }
+   ]
+  }
+ ],
+ "videoId": "ZMgPZ0h3B4U",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

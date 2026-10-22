@@ -1,0 +1,167 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 33.2,
+   "end": 50.4,
+   "title": "Making Breakfast with Kiwis",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ところ — point in time / situation",
+    "〜め — somewhat / -ish"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 33.4,
+     "end": 35.3,
+     "ja": "おはようございます。",
+     "en": "Good morning.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 35.6,
+     "end": 39.5,
+     "ja": "今日は朝食を作るところから始まります。",
+     "en": "Today starts from making breakfast.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 39.9,
+     "end": 44.0,
+     "ja": "このキウイは コストコ購入品でご紹介した",
+     "en": "These kiwis are the ones I introduced from Costco,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 44.3,
+     "end": 46.5,
+     "ja": "オーガニックグリーンキウイです。",
+     "en": "organic green kiwis.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 47.2,
+     "end": 49.9,
+     "ja": "ちょっとグリーンなんで 酸っぱめでした。",
+     "en": "Since they're green, they were a bit sour.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 60.0,
+   "end": 73.0,
+   "title": "Eating Bread Without a Toaster",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ずに — without doing",
+    "〜てなくて — not having done (negative te-form)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 60.0,
+     "end": 63.6,
+     "ja": "これはオイコスのギリシャヨーグルトですね。",
+     "en": "This is Oikos Greek yogurt.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 63.9,
+     "end": 67.4,
+     "ja": "残念ながら まだトースターが届いてなくて",
+     "en": "Unfortunately the toaster hasn't arrived yet,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 67.6,
+     "end": 69.8,
+     "ja": "パンは焼かずに食べてます。",
+     "en": "so I'm eating the bread untoasted.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 70.2,
+     "end": 72.5,
+     "ja": "でも それでもふわふわで美味しい。",
+     "en": "Even so, it's fluffy and delicious.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 216.2,
+   "end": 238.5,
+   "title": "Sweet Shine Muscat Grapes Arrive",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜そう — hearsay / they say that",
+    "〜た方が — comparison / preference",
+    "〜られる — potential form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 216.4,
+     "end": 220.7,
+     "ja": "春ぐらいに注文してた立派なシャインマスカットが",
+     "en": "The wonderful Shine Muscat grapes I ordered around spring",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 221.2,
+     "end": 223.8,
+     "ja": "やっと届きました。",
+     "en": "have finally arrived.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 224.8,
+     "end": 228.6,
+     "ja": "実が大きくて すごい美味しそう。",
+     "en": "The grapes are so big and look delicious.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 229.8,
+     "end": 233.2,
+     "ja": "ぶどうは上の方が甘いので",
+     "en": "Since grapes are sweeter at the top,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 233.4,
+     "end": 235.6,
+     "ja": "下から順番に食べると",
+     "en": "if you eat them from the bottom up,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 235.8,
+     "end": 238.2,
+     "ja": "最後まで美味しく食べられるそうです。",
+     "en": "they say you can enjoy them deliciously until the end.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "s4C5cCq5r7Y",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

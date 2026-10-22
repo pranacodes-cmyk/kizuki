@@ -1,0 +1,204 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 246.3,
+   "end": 254.8,
+   "title": "Late Check-out Reaction",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜時 — time/o'clock",
+    "〜しかない — only"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 246.6,
+     "end": 247.9,
+     "ja": "チェックアウト何時？",
+     "en": "What time is check-out?",
+     "speaker": "A"
+    },
+    {
+     "start": 248.0,
+     "end": 249.2,
+     "ja": "チェックアウトは11時。",
+     "en": "Check-out is at 11:00.",
+     "speaker": "B"
+    },
+    {
+     "start": 249.3,
+     "end": 251.3,
+     "ja": "今11時40分やで。オーマイガー！",
+     "en": "It's 11:40 now. Oh my god!",
+     "speaker": "A"
+    },
+    {
+     "start": 251.6,
+     "end": 254.4,
+     "ja": "アメリカ人にしか喜ばれへん今のボケ。",
+     "en": "Only Americans would appreciate that joke.",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 321.0,
+   "end": 334.0,
+   "title": "Shopping for Underwear",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "friends",
+    "travel"
+   ],
+   "grammar": [
+    "〜から — because",
+    "〜に行こう — let's go do"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 321.2,
+     "end": 322.4,
+     "ja": "今からどうする？",
+     "en": "What are we doing now?",
+     "speaker": "A"
+    },
+    {
+     "start": 323.0,
+     "end": 326.0,
+     "ja": "替えのパンツないからさ、買いに行こう。",
+     "en": "I don't have spare underwear, so let's go buy some.",
+     "speaker": "B"
+    },
+    {
+     "start": 326.1,
+     "end": 327.2,
+     "ja": "買い行くか。",
+     "en": "Let's go buy some.",
+     "speaker": "A"
+    },
+    {
+     "start": 327.3,
+     "end": 330.3,
+     "ja": "パンツ俺、３着しか持ってなくてさ、足りへんねん。",
+     "en": "I only brought three pairs of underwear, so I'm running short.",
+     "speaker": "B"
+    },
+    {
+     "start": 330.4,
+     "end": 331.6,
+     "ja": "ユニクロとかじゃあかんの？",
+     "en": "Is Uniqlo no good?",
+     "speaker": "A"
+    },
+    {
+     "start": 331.7,
+     "end": 333.6,
+     "ja": "もっとブランドもんがいいわ。あったやん、あそこに。",
+     "en": "I'd prefer brand-name stuff. Look, there's one over there.",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 900.5,
+   "end": 923.0,
+   "title": "Reflecting on the Tokyo Trip",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜と思う — think that",
+    "〜てみてはどうでしょうか — how about trying to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 901.0,
+     "end": 903.0,
+     "ja": "多分うすうすみんな気づいてると思うけど、",
+     "en": "I think everyone probably already has an inkling, but...",
+     "speaker": "A"
+    },
+    {
+     "start": 903.2,
+     "end": 905.1,
+     "ja": "前半めっちゃ濃いのに、後半薄い。",
+     "en": "The first half is so detailed, but the second half is so sparse.",
+     "speaker": "A"
+    },
+    {
+     "start": 905.3,
+     "end": 906.9,
+     "ja": "忘れてた、YouTube。",
+     "en": "We totally forgot about YouTube.",
+     "speaker": "B"
+    },
+    {
+     "start": 907.0,
+     "end": 908.2,
+     "ja": "動画撮るの忘れてる。",
+     "en": "We forgot to take videos.",
+     "speaker": "A"
+    },
+    {
+     "start": 908.7,
+     "end": 910.4,
+     "ja": "でもいい旅になったんじゃないでしょうか。",
+     "en": "Still, it turned out to be a good trip, didn't it?",
+     "speaker": "B"
+    },
+    {
+     "start": 910.5,
+     "end": 913.3,
+     "ja": "久しぶりやしね、男3人旅するっていうのも。",
+     "en": "It's been a while since the three of us guys traveled together like this.",
+     "speaker": "B"
+    },
+    {
+     "start": 913.5,
+     "end": 915.2,
+     "ja": "いい旅行になったと思います。",
+     "en": "I think it was a wonderful trip.",
+     "speaker": "B"
+    },
+    {
+     "start": 916.0,
+     "end": 917.4,
+     "ja": "息抜きも大事です。",
+     "en": "Taking a break is important too.",
+     "speaker": "A"
+    },
+    {
+     "start": 917.5,
+     "end": 920.6,
+     "ja": "たまには気を抜いて遊んでみてはどうでしょうか。",
+     "en": "Why not relax and have some fun once in a while?",
+     "speaker": "B"
+    },
+    {
+     "start": 920.8,
+     "end": 922.7,
+     "ja": "では次回の動画でお会いしましょう。バイバイ！",
+     "en": "See you in our next video. Bye-bye!",
+     "speaker": "B"
+    }
+   ]
+  }
+ ],
+ "videoId": "hCLh4SL9K0k",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,137 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 230.34,
+   "end": 242.06,
+   "title": "Jack-o-Lantern Origins",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜と呼ばれる — called/known as",
+    "〜ではなく — instead of / not A but B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 230.64,
+     "end": 233.1,
+     "ja": "ジャック・オー・ランタンと呼ばれています。",
+     "en": "They are called jack-o'-lanterns.",
+     "speaker": "Otani"
+    },
+    {
+     "start": 233.56,
+     "end": 237.16,
+     "ja": "実は、アイルランドなどでは、元々カボチャではなく、",
+     "en": "Actually, in places like Ireland, originally instead of pumpkins,",
+     "speaker": "Otani"
+    },
+    {
+     "start": 237.16,
+     "end": 240.16,
+     "ja": "カブを使ってランタンを作る習慣があったんです。",
+     "en": "there was a custom of making lanterns using turnips.",
+     "speaker": "Otani"
+    },
+    {
+     "start": 240.48,
+     "end": 241.88,
+     "ja": "えっ、カブですか？",
+     "en": "Eh, turnips?",
+     "speaker": "Yui"
+    }
+   ]
+  },
+  {
+   "start": 599.96,
+   "end": 622.7,
+   "title": "Making a Jack-o-Lantern",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜てみたい — want to try doing",
+    "〜てみますか — shall we try doing?",
+    "〜なら — if it's the case that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 600.32,
+     "end": 603.88,
+     "ja": "私、今年はジャック・オー・ランタンを作ってみたいんです。",
+     "en": "I'd like to try making a jack-o'-lantern this year.",
+     "speaker": "Yui"
+    },
+    {
+     "start": 604.28,
+     "end": 605.3,
+     "ja": "いいですね！",
+     "en": "Sounds great!",
+     "speaker": "Otani"
+    },
+    {
+     "start": 605.62,
+     "end": 607.04,
+     "ja": "じゃあ、一緒に作ってみますか？",
+     "en": "Well then, shall we try making them together?",
+     "speaker": "Otani"
+    },
+    {
+     "start": 607.46,
+     "end": 608.66,
+     "ja": "本当ですか？",
+     "en": "Really?",
+     "speaker": "Yui"
+    },
+    {
+     "start": 608.92,
+     "end": 610.74,
+     "ja": "じゃあ、私はカボチャで。",
+     "en": "In that case, I'll use a pumpkin.",
+     "speaker": "Yui"
+    },
+    {
+     "start": 610.96,
+     "end": 614.04,
+     "ja": "それなら、僕は昔ながらのカブに挑戦してみましょうか。",
+     "en": "In that case, how about I try my hand at a traditional turnip?",
+     "speaker": "Otani"
+    },
+    {
+     "start": 614.44,
+     "end": 616.74,
+     "ja": "え、カブですか？難しそう。",
+     "en": "Eh, a turnip? That looks difficult.",
+     "speaker": "Yui"
+    },
+    {
+     "start": 618.3,
+     "end": 620.36,
+     "ja": "うまくできるか分かりませんけどね。",
+     "en": "I don't know if it'll turn out well, though.",
+     "speaker": "Otani"
+    },
+    {
+     "start": 620.76,
+     "end": 622.46,
+     "ja": "じゃあ、どっちが上手にできるか、",
+     "en": "Well then, seeing who makes a better one",
+     "speaker": "Yui"
+    }
+   ]
+  }
+ ],
+ "videoId": "HEW7SzCbXg0",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

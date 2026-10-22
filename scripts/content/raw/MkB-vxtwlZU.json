@@ -1,0 +1,130 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 53.8,
+   "end": 88.0,
+   "title": "An Old Man and an Old Woman",
+   "level": "N5",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜がいました — existed (animate)",
+    "〜へ行く — to go towards"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 54.2,
+     "end": 65.5,
+     "ja": "昔々、おじいさんとおばあさんがいました。",
+     "en": "A long time ago, there lived an old man and an old woman.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 69.8,
+     "end": 76.5,
+     "ja": "おじいさんは、山へ行きます。",
+     "en": "The old man goes to the mountains.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 81.0,
+     "end": 87.5,
+     "ja": "おばあさんは、川へ行きます。",
+     "en": "The old woman goes to the river.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 129.5,
+   "end": 161.5,
+   "title": "A Boy Comes Out of the Peach",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "family"
+   ],
+   "grammar": [
+    "て形 + 帰る — do something and return",
+    "〜から出てくる — to come out of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 130.0,
+     "end": 136.5,
+     "ja": "家へ、持って帰ります。",
+     "en": "She brings it back home.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 140.0,
+     "end": 147.0,
+     "ja": "ふたりは、桃を切ります。",
+     "en": "The two cut open the peach.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 151.5,
+     "end": 160.5,
+     "ja": "中から、男の子が出てきました。",
+     "en": "A boy came out from inside.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 250.5,
+   "end": 285.0,
+   "title": "The Dog Joins Momotaro",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "animals"
+   ],
+   "grammar": [
+    "〜たいです — want to do",
+    "〜をあげる — to give something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 251.0,
+     "end": 255.0,
+     "ja": "犬は言います。",
+     "en": "The dog says.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 257.5,
+     "end": 263.0,
+     "ja": "「いっしょに行きたいです。」",
+     "en": "\"I want to go with you.\"",
+     "speaker": "Dog"
+    },
+    {
+     "start": 267.5,
+     "end": 274.5,
+     "ja": "桃太郎は、食べ物をあげます。",
+     "en": "Momotaro gives him food.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 279.0,
+     "end": 284.5,
+     "ja": "犬は、ついてきます。",
+     "en": "The dog follows along.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "MkB-vxtwlZU",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,71 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 318.0,
+   "end": 326.5,
+   "title": "Robot Vacuum Voice Announcements",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜を開始しています — currently starting",
+    "〜には — in order to",
+    "〜てください — please do"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 318.4,
+     "end": 320.5,
+     "ja": "清掃を開始しています。",
+     "en": "Starting cleaning.",
+     "speaker": "Vacuum"
+    },
+    {
+     "start": 322.4,
+     "end": 325.8,
+     "ja": "清掃を続行するには、位置を再調整してください。",
+     "en": "To resume cleaning, please reposition the unit.",
+     "speaker": "Vacuum"
+    }
+   ]
+  },
+  {
+   "start": 711.2,
+   "end": 718.3,
+   "title": "Telling the Cat Not to Drink",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "animals"
+   ],
+   "grammar": [
+    "〜ちゃだめ — must not do"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 712.3,
+     "end": 715.0,
+     "ja": "ちょ、ちょ、ちょっと！飲んじゃだめだよ。",
+     "en": "Wait, wait, hey! You can't drink that.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 715.5,
+     "end": 717.2,
+     "ja": "飲んじゃだめ。",
+     "en": "Don't drink it.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "UtWxtBIyGBQ",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

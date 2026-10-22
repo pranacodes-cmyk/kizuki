@@ -1,0 +1,230 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 2.565,
+   "end": 2.565,
+   "title": "Ramen from an Udon Shop",
+   "level": "N3",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜という — called / named",
+    "流石 — as expected of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 2.568,
+     "end": 2.568,
+     "ja": "これね、「釜揚げ屋」という、うどん屋さんが作ったラーメン。",
+     "en": "This is ramen made by an udon shop called Kamaageya.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 3.022,
+     "end": 3.022,
+     "ja": "ほー。",
+     "en": "Wow.",
+     "speaker": "Non"
+    },
+    {
+     "start": 3.04,
+     "end": 3.04,
+     "ja": "「わかめラーメン」です。",
+     "en": "It's \"Wakame Ramen\".",
+     "speaker": "Staff"
+    },
+    {
+     "start": 3.056,
+     "end": 3.056,
+     "ja": "わかめの麺だ。もしかして。違う？",
+     "en": "These are wakame noodles. Could it be? Or am I wrong?",
+     "speaker": "Non"
+    },
+    {
+     "start": 3.084,
+     "end": 3.084,
+     "ja": "この麺は、そう、わかめを練り込んでます。",
+     "en": "Yes, these noodles have wakame kneaded into them.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 3.114,
+     "end": 3.114,
+     "ja": "えー、こんなラーメンある？",
+     "en": "Wow, there's ramen like this?",
+     "speaker": "Non"
+    },
+    {
+     "start": 3.133,
+     "end": 3.133,
+     "ja": "流石、麺探偵！",
+     "en": "As expected of the Noodle Detective!",
+     "speaker": "Staff"
+    },
+    {
+     "start": 3.147,
+     "end": 3.147,
+     "ja": "すごいねー！",
+     "en": "That's amazing!",
+     "speaker": "Non"
+    }
+   ]
+  },
+  {
+   "start": 4.365,
+   "end": 4.365,
+   "title": "A Famous Ramen Shop from Kuji",
+   "level": "N3",
+   "topics": [
+    "food",
+    "work"
+   ],
+   "grammar": [
+    "〜といえば — speaking of",
+    "〜たことがある — have the experience of",
+    "〜てから — after doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.367,
+     "end": 4.367,
+     "ja": "こちらは、岩手県久慈市の人気ラーメン店、",
+     "en": "This is from a popular ramen shop in Kuji City, Iwate Prefecture,",
+     "speaker": "Staff"
+    },
+    {
+     "start": 4.401,
+     "end": 4.401,
+     "ja": "「らーめん千草」さんが監修した醤油ラーメン。",
+     "en": "a soy sauce ramen supervised by Ramen Chigusa.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 4.434,
+     "end": 4.434,
+     "ja": "ほー。",
+     "en": "Ooh.",
+     "speaker": "Non"
+    },
+    {
+     "start": 4.448,
+     "end": 4.448,
+     "ja": "「千草」さんといえば、実はのんちゃん、一回行ったことある。",
+     "en": "Speaking of Chigusa, Non-chan has actually been there once.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 4.484,
+     "end": 4.484,
+     "ja": "行ったことあります！ずっと行きたかったんですよ。",
+     "en": "I have! I had always wanted to go.",
+     "speaker": "Non"
+    },
+    {
+     "start": 4.514,
+     "end": 4.514,
+     "ja": "朝ドラを撮ってた時に、皆さん行かれてて、",
+     "en": "When we were filming the morning drama, everyone was going,",
+     "speaker": "Non"
+    },
+    {
+     "start": 4.547,
+     "end": 4.547,
+     "ja": "でも私、なんかお伺いする機会がなくて、",
+     "en": "but I didn't get a chance to visit,",
+     "speaker": "Non"
+    },
+    {
+     "start": 4.572,
+     "end": 4.572,
+     "ja": "「のん」になってからやっと行ったんですよ。",
+     "en": "so I finally went after becoming Non.",
+     "speaker": "Non"
+    },
+    {
+     "start": 4.599,
+     "end": 4.599,
+     "ja": "「らーめん千草」さんがお取り寄せできるということで、めっちゃ嬉しいな。",
+     "en": "Knowing that you can order from Ramen Chigusa makes me so happy.",
+     "speaker": "Non"
+    }
+   ]
+  },
+  {
+   "start": 6.5,
+   "end": 6.5,
+   "title": "The Number One Ranked Ramen",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜で1位になる — becoming number one in",
+    "〜とも違う — different from ~ as well"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.502,
+     "end": 6.502,
+     "ja": "こちら、2022年岩手県のラーメンランキングで",
+     "en": "This ramen was number one in the 2022 Iwate Prefecture",
+     "speaker": "Staff"
+    },
+    {
+     "start": 6.544,
+     "end": 6.544,
+     "ja": "1位になったラーメン屋、",
+     "en": "ramen rankings,",
+     "speaker": "Staff"
+    },
+    {
+     "start": 6.563,
+     "end": 6.563,
+     "ja": "1位！",
+     "en": "Number one!",
+     "speaker": "Non"
+    },
+    {
+     "start": 6.573,
+     "end": 6.573,
+     "ja": "「鶏煮干しソバ」です。",
+     "en": "it's \"Chicken and Dried Sardine Soba\".",
+     "speaker": "Staff"
+    },
+    {
+     "start": 6.593,
+     "end": 6.593,
+     "ja": "はぁー。",
+     "en": "Wow.",
+     "speaker": "Non"
+    },
+    {
+     "start": 7.001,
+     "end": 7.001,
+     "ja": "全然違う！なんか今まで見てきたラーメンとも違う。",
+     "en": "It's totally different! Different from any ramen I've seen before.",
+     "speaker": "Non"
+    },
+    {
+     "start": 7.039,
+     "end": 7.039,
+     "ja": "それでは、いただきます。",
+     "en": "Well then, bon appétit.",
+     "speaker": "Non"
+    }
+   ]
+  }
+ ],
+ "videoId": "M4gwiXyjeOk",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

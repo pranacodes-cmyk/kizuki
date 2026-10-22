@@ -1,0 +1,168 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 44.7,
+   "end": 70.2,
+   "title": "Ten-Times Trick Quiz: Mirin",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "comedy",
+    "animals"
+   ],
+   "grammar": [
+    "〜てください — please do (request)",
+    "〜た — past tense"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 45.0,
+     "end": 46.5,
+     "ja": "第2問！",
+     "en": "Question number two!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 46.5,
+     "end": 49.7,
+     "ja": "みりんと10回言ってください。",
+     "en": "Please say \"mirin\" ten times.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 55.6,
+     "end": 58.2,
+     "ja": "では、鼻の長い動物は？",
+     "en": "Now, which animal has a long nose?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 63.8,
+     "end": 65.7,
+     "ja": "ゾウ！",
+     "en": "An elephant!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 66.8,
+     "end": 69.8,
+     "ja": "キリンと答えたキミはひっかかった〜！",
+     "en": "If you answered giraffe, you got tricked!",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 71.7,
+   "end": 97.2,
+   "title": "Ten-Times Trick Quiz: Sunburn",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "comedy",
+    "animals"
+   ],
+   "grammar": [
+    "〜てください — please do (request)",
+    "〜が — subject marker"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 72.0,
+     "end": 73.5,
+     "ja": "第3問！",
+     "en": "Question number three!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 73.5,
+     "end": 76.7,
+     "ja": "日焼けと10回言ってください。",
+     "en": "Please say \"hiyake\" ten times.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 82.6,
+     "end": 85.1,
+     "ja": "では、ニワトリが産むのは？",
+     "en": "Now, what does a chicken lay?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 90.8,
+     "end": 92.7,
+     "ja": "卵！",
+     "en": "Eggs!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 93.8,
+     "end": 96.9,
+     "ja": "ひよこと答えたキミはひっかかった〜！",
+     "en": "If you answered chick, you got tricked!",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 319.2,
+   "end": 345.3,
+   "title": "Ten-Times Trick Quiz: Deer",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てください — please do (request)",
+    "〜ている — ongoing state/action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 319.5,
+     "end": 321.3,
+     "ja": "第12問！",
+     "en": "Question number twelve!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 321.3,
+     "end": 324.5,
+     "ja": "シカと10回言ってください。",
+     "en": "Please say \"shika\" ten times.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 330.4,
+     "end": 333.2,
+     "ja": "では、サンタさんが乗っているのは？",
+     "en": "Now, what is Santa riding on?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 338.8,
+     "end": 340.6,
+     "ja": "ソリ！",
+     "en": "A sleigh!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 341.6,
+     "end": 344.8,
+     "ja": "トナカイと答えたキミはひっかかった〜！",
+     "en": "If you answered reindeer, you got tricked!",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "sXrS9oKV1Dc",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

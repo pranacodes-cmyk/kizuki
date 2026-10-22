@@ -1,0 +1,184 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 9.7,
+   "end": 26.5,
+   "title": "Rushing to School After Oversleeping",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜ずに — without doing",
+    "〜わけだ — it follows that / naturally",
+    "〜なければいけない — must do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.0,
+     "end": 12.0,
+     "ja": "普段ゆっくり朝を過ごしている僕ですけれども、",
+     "en": "I usually spend my mornings taking it easy, but",
+     "speaker": "Parker"
+    },
+    {
+     "start": 12.1,
+     "end": 14.3,
+     "ja": "朝ご飯も食べずに水だけ飲んで、",
+     "en": "without even eating breakfast, just drinking water,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 14.4,
+     "end": 16.5,
+     "ja": "学校に向かう準備をするわけです。",
+     "en": "I have to get ready to head to school.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 16.6,
+     "end": 19.3,
+     "ja": "しかもよりによって次の授業、めっちゃ出席厳しいんですよ。",
+     "en": "And of all classes, attendance is super strict for the next one.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 19.4,
+     "end": 21.8,
+     "ja": "僕、休んだら周りに聞く人もいないですから、",
+     "en": "If I miss it, I don't have anyone around to ask,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 21.9,
+     "end": 24.0,
+     "ja": "授業の内容は一切入ってこないということで、",
+     "en": "meaning I wouldn't get any of the lesson content,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 24.1,
+     "end": 26.5,
+     "ja": "何としても学校に向かわなければいけません。",
+     "en": "so I absolutely must head to school no matter what.",
+     "speaker": "Parker"
+    }
+   ]
+  },
+  {
+   "start": 59.3,
+   "end": 74.0,
+   "title": "Heading to the Campus Co-op",
+   "level": "N3",
+   "topics": [
+    "school",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜すぎる — too much / overly",
+    "〜んじゃないか — isn't it perhaps"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 59.5,
+     "end": 63.0,
+     "ja": "起きてから朝ご飯も食べてない状況ですから、",
+     "en": "Since waking up, I haven't eaten breakfast,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 63.1,
+     "end": 66.0,
+     "ja": "だから大学の生協に行って、朝ご飯買ってこようと思います。",
+     "en": "so I think I'll go to the university co-op and buy some breakfast.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 66.1,
+     "end": 68.8,
+     "ja": "そんでね、教室が寒すぎるんですよ。",
+     "en": "And you know, the classroom is way too cold.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 68.9,
+     "end": 71.4,
+     "ja": "暖房ついてないんじゃないかってくらい寒いんで、",
+     "en": "It's so cold it feels like the heat isn't even on,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 71.5,
+     "end": 73.8,
+     "ja": "温かいもの食べたいなと思ってるんですけどね。",
+     "en": "so I'd really like to eat something warm.",
+     "speaker": "Parker"
+    }
+   ]
+  },
+  {
+   "start": 322.8,
+   "end": 338.0,
+   "title": "Having to Redo a 15-Page Report",
+   "level": "N2",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜てしまう — unintentional action / regret",
+    "〜以上(は) — as long as / since",
+    "〜ながら — while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 323.0,
+     "end": 326.5,
+     "ja": "それから僕はレポートのやり直しをくらってしまった。",
+     "en": "And after that, I got told to redo my report.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 326.6,
+     "end": 329.2,
+     "ja": "しかもA4用紙15枚のレポートですから、",
+     "en": "And what's more, it's a 15-page A4 report,",
+     "speaker": "Parker"
+    },
+    {
+     "start": 329.3,
+     "end": 332.4,
+     "ja": "これをもう一回やり直すのは地獄のような作業なんですけれども、",
+     "en": "so having to redo this once more is hellish work, but",
+     "speaker": "Parker"
+    },
+    {
+     "start": 332.5,
+     "end": 334.5,
+     "ja": "命じられた以上は仕方がない。",
+     "en": "since I was ordered to, I have no choice.",
+     "speaker": "Parker"
+    },
+    {
+     "start": 334.6,
+     "end": 337.5,
+     "ja": "レポートを徹夜しながら頑張りたいと思います。",
+     "en": "I'll do my best working through the night on this report.",
+     "speaker": "Parker"
+    }
+   ]
+  }
+ ],
+ "videoId": "PTtO_cwA6JE",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

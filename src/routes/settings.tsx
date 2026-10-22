@@ -165,7 +165,7 @@ function SettingsPage() {
           {premium.active ? (
             <>
               <div className="px-4 py-3"><p className="text-[0.9375rem] font-bold">Kizuki Premium · {premium.plan === "monthly" ? "Monthly" : "Yearly"}</p><p className="text-[0.8125rem] text-muted-foreground">{premium.trialEndsAt && premium.trialEndsAt > Date.now() ? `Free trial until ${new Date(premium.trialEndsAt).toLocaleDateString()}` : "Active"}</p></div>
-              <ActionRow label="Cancel subscription" danger onClick={() => setConfirm("cancel")} />
+              <ActionRow label="Manage subscription" onClick={() => setConfirm("cancel")} />
             </>
           ) : (
             <ActionRow label="Try Premium free for 7 days" onClick={() => navigate({ to: "/trial" })} />
@@ -199,10 +199,10 @@ function SettingsPage() {
         </div>
       </Modal>
       <Modal open={confirm === "cancel"} onClose={() => setConfirm(null)}>
-        <h2 className="text-[1.25rem] font-black">Cancel Premium?</h2>
-        <p className="mt-2 text-[0.9375rem] text-muted-foreground">You'll go back to {FREE_DAILY_CLIPS} free clips a day. Your words and progress stay.</p>
+        <h2 className="text-[1.25rem] font-black">Manage subscription</h2>
+        <p className="mt-2 text-[0.9375rem] text-muted-foreground">In the phone app this opens your App Store or Google Play subscriptions. This preview has no store, so you can end the simulated plan here — you'll go back to {FREE_DAILY_CLIPS} free clips a day and keep your words.</p>
         <div className="mt-5 space-y-2">
-          <Button variant="danger" onClick={() => { cancelPremium(); setConfirm(null); toast({ title: "Premium cancelled" }); }}>Cancel Premium</Button>
+          <Button variant="danger" onClick={() => { cancelPremium(); setConfirm(null); toast({ title: "Premium ended (preview)" }); }}>End simulated plan</Button>
           <Button variant="ghost" size="md" className="w-full" onClick={() => setConfirm(null)}>Keep Premium</Button>
         </div>
       </Modal>

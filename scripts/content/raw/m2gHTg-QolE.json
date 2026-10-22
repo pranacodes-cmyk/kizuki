@@ -1,0 +1,147 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 5.8,
+   "end": 24.4,
+   "title": "Getting Ready for School",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜ていく — to go on doing",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.0,
+     "end": 7.1,
+     "ja": "こんにちは。",
+     "en": "Hello everyone.",
+     "speaker": "Takara"
+    },
+    {
+     "start": 7.2,
+     "end": 10.0,
+     "ja": "今回もまた学校のある日のVlogを撮ってみたので、",
+     "en": "I filmed another vlog of a school day,",
+     "speaker": "Takara"
+    },
+    {
+     "start": 10.0,
+     "end": 12.0,
+     "ja": "よかったら見ていってください。",
+     "en": "so please check it out if you'd like.",
+     "speaker": "Takara"
+    },
+    {
+     "start": 12.8,
+     "end": 18.5,
+     "ja": "毎朝学校が始まる30分くらい前に起きて、準備をします。",
+     "en": "Every morning I wake up about 30 minutes before school starts and get ready.",
+     "speaker": "Takara"
+    },
+    {
+     "start": 18.8,
+     "end": 20.5,
+     "ja": "本当に顔やばい。",
+     "en": "My face really looks awful.",
+     "speaker": "Takara"
+    },
+    {
+     "start": 20.8,
+     "end": 24.0,
+     "ja": "1時間目が体育なので、体操着着てます。",
+     "en": "I have PE first period, so I'm wearing gym clothes.",
+     "speaker": "Takara"
+    }
+   ]
+  },
+  {
+   "start": 512.7,
+   "end": 527.3,
+   "title": "Favorite Subject Art Class",
+   "level": "N3",
+   "topics": [
+    "school"
+   ],
+   "grammar": [
+    "〜と思う — to think that",
+    "〜てある — state resulting from an action",
+    "〜たり〜たり — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 513.0,
+     "end": 518.0,
+     "ja": "あんまり興味ないと思うんですけど、一応美術が一番の得意科目です。",
+     "en": "I doubt anyone cares, but art is actually my best subject.",
+     "speaker": "Takara"
+    },
+    {
+     "start": 518.4,
+     "end": 522.3,
+     "ja": "こんな感じで私たちが作った作品が飾ってあったりしていて、",
+     "en": "The pieces we made are displayed like this on the walls,",
+     "speaker": "Takara"
+    },
+    {
+     "start": 522.5,
+     "end": 526.8,
+     "ja": "美術室の空間がすごく好きです。",
+     "en": "and I really love the atmosphere in the art room.",
+     "speaker": "Takara"
+    }
+   ]
+  },
+  {
+   "start": 922.6,
+   "end": 933.4,
+   "title": "Mandatory Study Time at the Dorm",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜っていう — called / which is",
+    "〜なきゃいけない — must / have to",
+    "〜ので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 923.0,
+     "end": 926.3,
+     "ja": "寮生は必ずスタディタイムっていうのがあって、",
+     "en": "Boarding students always have what is called study time,",
+     "speaker": "Takara"
+    },
+    {
+     "start": 926.5,
+     "end": 929.8,
+     "ja": "2時間ドアを開けて勉強しなきゃいけないので、",
+     "en": "and we have to keep our doors open and study for two hours,",
+     "speaker": "Takara"
+    },
+    {
+     "start": 929.9,
+     "end": 933.0,
+     "ja": "こんな感じで今日も宿題をやりました。",
+     "en": "so like this, I did my homework today too.",
+     "speaker": "Takara"
+    }
+   ]
+  }
+ ],
+ "videoId": "m2gHTg-QolE",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

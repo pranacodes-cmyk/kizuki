@@ -1,0 +1,201 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 13.2,
+   "end": 35.3,
+   "title": "Walking to School on Monday Morning",
+   "level": "N4",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていく — to go doing",
+    "〜くらい — approximately"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.2,
+     "end": 14.5,
+     "ja": "今日暖かいね。",
+     "en": "It's warm today, isn't it?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 15.0,
+     "end": 17.3,
+     "ja": "ハッピーマンデーモーニング！",
+     "en": "Happy Monday morning!",
+     "speaker": "Mom"
+    },
+    {
+     "start": 18.0,
+     "end": 21.5,
+     "ja": "ハンナは今日は私が一緒に歩いて行って、",
+     "en": "Today I'm walking to school together with Hannah,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 21.8,
+     "end": 25.0,
+     "ja": "ニイナとジーナは車で３分くらいなんだけど、",
+     "en": "and while Nina and Gina's school is about 3 minutes by car,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 25.2,
+     "end": 27.5,
+     "ja": "今日はたいがが車で行ってます。",
+     "en": "today Taiga is driving them.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 30.0,
+     "end": 32.4,
+     "ja": "ママ、ビデオ撮ってるの？",
+     "en": "Mommy, are you recording a video?",
+     "speaker": "Hannah"
+    },
+    {
+     "start": 32.7,
+     "end": 33.8,
+     "ja": "おはようは？",
+     "en": "How about 'good morning'?",
+     "speaker": "Mom"
+    },
+    {
+     "start": 33.9,
+     "end": 34.9,
+     "ja": "おはよう。",
+     "en": "Good morning.",
+     "speaker": "Hannah"
+    }
+   ]
+  },
+  {
+   "start": 254.0,
+   "end": 308.5,
+   "title": "Healthy Salmon and Natto Rice Wrap",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜にハマる — to be hooked on",
+    "〜たら — if / when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 254.0,
+     "end": 256.0,
+     "ja": "今日の私のお昼ご飯。",
+     "en": "Here's my lunch for today.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 256.1,
+     "end": 300.0,
+     "ja": "最近ハマってて、ご飯に海苔で、キムチと…今日アボカドないんだけど、",
+     "en": "I've been hooked on this lately: rice wrapped in nori, with kimchi and... I don't have avocado today,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 300.1,
+     "end": 303.9,
+     "ja": "アボカドあったら、アボカドとキムチと鮭と納豆を巻いて食べるの。",
+     "en": "but if I have avocado, I wrap avocado, kimchi, salmon, and natto together to eat.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 304.0,
+     "end": 306.6,
+     "ja": "めっちゃうまい。体にいいし。",
+     "en": "It's super delicious. And good for you, too.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 306.8,
+     "end": 308.2,
+     "ja": "お腹空いた。",
+     "en": "I'm so hungry.",
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
+   "start": 250.5,
+   "end": 273.5,
+   "title": "Afternoon Errands and School Pickup",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜ようと思う — thinking of doing",
+    "〜なきゃいけない — have to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 250.5,
+     "end": 253.4,
+     "ja": "今から…さっきちょっとお化粧したの。",
+     "en": "Right now... I just put on a little makeup earlier.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 253.5,
+     "end": 257.0,
+     "ja": "もっと早くやろうと思ったんだけど、バタバタでできなかった。",
+     "en": "I was planning to do it earlier, but I was so rushed I couldn't.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 257.1,
+     "end": 259.4,
+     "ja": "で、今やっとちょっとだけお化粧して、",
+     "en": "So now I finally put on a little makeup,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 259.5,
+     "end": 262.0,
+     "ja": "今からハンナをピックアップして、",
+     "en": "and now I'm going to pick up Hannah.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 262.1,
+     "end": 264.8,
+     "ja": "セントパトリックスデーっていうのがあって、",
+     "en": "There's St. Patrick's Day coming up,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 264.9,
+     "end": 269.5,
+     "ja": "それのイベントでクラフト作んなきゃいけなくて、そのクラフトをハンナと買いに行って、",
+     "en": "and we have to make a craft for that event, so Hannah and I are going to buy craft supplies,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 269.6,
+     "end": 273.2,
+     "ja": "ニイナとジーナは多分たいががピックしてご飯食べてって感じです。",
+     "en": "and Taiga will probably pick up Nina and Gina and grab dinner.",
+     "speaker": "Mom"
+    }
+   ]
+  }
+ ],
+ "videoId": "jBQ-h9LJEKg",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

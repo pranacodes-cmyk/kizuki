@@ -1,0 +1,300 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.7,
+   "end": 35.8,
+   "title": "Setting Up the Prank",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "work"
+   ],
+   "grammar": [
+    "〜という風に — in a way like / saying that",
+    "〜たり〜たり — doing things like A and B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 16.8,
+     "end": 20.0,
+     "ja": "あの、まあちょっと僕と仁人君が仕掛け人になりまして、",
+     "en": "Well, Jinto and I are going to be the pranksters,",
+     "speaker": "Sano"
+    },
+    {
+     "start": 20.0,
+     "end": 20.9,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 20.9,
+     "end": 23.1,
+     "ja": "ちょっと、各今、柔太朗、舜太、太智にですね、",
+     "en": "and for Jyutaro, Shunta, and Daichi,",
+     "speaker": "Sano"
+    },
+    {
+     "start": 23.1,
+     "end": 25.5,
+     "ja": "ちょっとアンケートを書くから番組の、",
+     "en": "saying they need to fill out a questionnaire for a show,",
+     "speaker": "Sano"
+    },
+    {
+     "start": 25.5,
+     "end": 28.0,
+     "ja": "「ちょっとこっちの部屋で書いて」っていう風に呼び出します。",
+     "en": "we'll call them in saying, \"Please write it here.\"",
+     "speaker": "Sano"
+    },
+    {
+     "start": 28.0,
+     "end": 28.8,
+     "ja": "はい。",
+     "en": "Right.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 28.8,
+     "end": 31.0,
+     "ja": "そこで、まあ、お水だったりとか、",
+     "en": "And in there, with water,",
+     "speaker": "Sano"
+    },
+    {
+     "start": 31.0,
+     "end": 35.2,
+     "ja": "お弁当だったりとか、ビリビリペンと色んな仕掛けが施してありますので、",
+     "en": "lunch boxes, shocking pens, and various traps set up,",
+     "speaker": "Sano"
+    }
+   ]
+  },
+  {
+   "start": 434.5,
+   "end": 458.0,
+   "title": "That Ruined My Favorite Outfit!",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "friends",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てもいい — even if / allowed to",
+    "〜てない — have not done yet"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 434.8,
+     "end": 436.0,
+     "ja": "ドッキリ！",
+     "en": "Prank!",
+     "speaker": "Sano"
+    },
+    {
+     "start": 436.0,
+     "end": 437.0,
+     "ja": "でしょうね！",
+     "en": "I figured!",
+     "speaker": "Daichi"
+    },
+    {
+     "start": 437.0,
+     "end": 439.2,
+     "ja": "大成功！",
+     "en": "Huge success!",
+     "speaker": "Sano"
+    },
+    {
+     "start": 439.4,
+     "end": 441.5,
+     "ja": "やってるわー。",
+     "en": "You guys really did it.",
+     "speaker": "Daichi"
+    },
+    {
+     "start": 441.6,
+     "end": 443.0,
+     "ja": "えー、ごめん。",
+     "en": "Uh, sorry.",
+     "speaker": "Sano"
+    },
+    {
+     "start": 443.0,
+     "end": 444.6,
+     "ja": "見て！",
+     "en": "Look at this!",
+     "speaker": "Daichi"
+    },
+    {
+     "start": 444.6,
+     "end": 447.0,
+     "ja": "汚れてもいい服でってお願いしたのはそのため。",
+     "en": "That's why we asked you to wear clothes you don't mind dirtying.",
+     "speaker": "Sano"
+    },
+    {
+     "start": 447.0,
+     "end": 448.6,
+     "ja": "してないしてない！",
+     "en": "You didn't, you didn't!",
+     "speaker": "Daichi"
+    },
+    {
+     "start": 448.6,
+     "end": 450.0,
+     "ja": "聞いてない聞いてない！",
+     "en": "I didn't hear that, I didn't hear that!",
+     "speaker": "Daichi"
+    },
+    {
+     "start": 450.0,
+     "end": 450.7,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Sano"
+    },
+    {
+     "start": 450.7,
+     "end": 452.1,
+     "ja": "聞いてないよ！",
+     "en": "Nobody told me!",
+     "speaker": "Daichi"
+    },
+    {
+     "start": 452.1,
+     "end": 454.2,
+     "ja": "俺、今日お気に入りのセットアップの…",
+     "en": "I'm wearing my favorite matching outfit today...",
+     "speaker": "Daichi"
+    },
+    {
+     "start": 454.2,
+     "end": 455.2,
+     "ja": "他には？",
+     "en": "Do you have another?",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 455.2,
+     "end": 457.2,
+     "ja": "ないよ、今日服！",
+     "en": "I don't have any other clothes today!",
+     "speaker": "Daichi"
+    }
+   ]
+  },
+  {
+   "start": 1097.0,
+   "end": 1119.5,
+   "title": "Announcing the Prank Winner",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜ていく — to go on to do",
+    "〜を含めて — including"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1097.3,
+     "end": 1100.4,
+     "ja": "はい。ということで、あのー、得点を集計したんですけども、",
+     "en": "All right. So, we've tallied up the points,",
+     "speaker": "Sano"
+    },
+    {
+     "start": 1100.4,
+     "end": 1101.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 1101.0,
+     "end": 1102.2,
+     "ja": "発表していきたいと思います。",
+     "en": "and we'd like to announce them.",
+     "speaker": "Sano"
+    },
+    {
+     "start": 1102.2,
+     "end": 1104.4,
+     "ja": "山中柔太朗君、9ポイント。",
+     "en": "Jyutaro Yamanaka, 9 points.",
+     "speaker": "Sano"
+    },
+    {
+     "start": 1104.4,
+     "end": 1105.2,
+     "ja": "9ポイント。",
+     "en": "9 points.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 1105.2,
+     "end": 1107.2,
+     "ja": "その後、舜太君、10ポイント。",
+     "en": "Next, Shunta-kun, 10 points.",
+     "speaker": "Sano"
+    },
+    {
+     "start": 1107.2,
+     "end": 1108.4,
+     "ja": "塩﨑太智君、",
+     "en": "Daichi Shiozaki...",
+     "speaker": "Sano"
+    },
+    {
+     "start": 1108.4,
+     "end": 1110.0,
+     "ja": "15ポイント！",
+     "en": "15 points!",
+     "speaker": "Both"
+    },
+    {
+     "start": 1110.0,
+     "end": 1113.8,
+     "ja": "優勝は塩﨑太智君です！",
+     "en": "The winner is Daichi Shiozaki!",
+     "speaker": "Sano"
+    },
+    {
+     "start": 1114.0,
+     "end": 1115.3,
+     "ja": "やっぱ流石ですね。",
+     "en": "He really was amazing.",
+     "speaker": "Sano"
+    },
+    {
+     "start": 1115.3,
+     "end": 1117.0,
+     "ja": "リアクション一番でかいですね、やっぱね。",
+     "en": "His reactions are the biggest after all.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 1117.0,
+     "end": 1119.2,
+     "ja": "僕ら含めても一番でかいんで。",
+     "en": "Even including us, he has the biggest.",
+     "speaker": "Sano"
+    }
+   ]
+  }
+ ],
+ "videoId": "z6k-Bl2ARHc",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

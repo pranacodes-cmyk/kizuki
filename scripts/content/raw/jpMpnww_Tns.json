@@ -1,0 +1,188 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 308.2,
+   "end": 327.0,
+   "title": "Next Class Is English",
+   "level": "N5",
+   "topics": [
+    "school",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜て — informal request",
+    "〜てる — ongoing state / doing",
+    "〜好き／嫌い — likes and dislikes"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 308.7,
+     "end": 309.8,
+     "ja": "なんかして。",
+     "en": "Do something.",
+     "speaker": "Aida"
+    },
+    {
+     "start": 311.5,
+     "end": 312.8,
+     "ja": "YouTubeの動画？",
+     "en": "A YouTube video?",
+     "speaker": "Haruka"
+    },
+    {
+     "start": 313.2,
+     "end": 315.2,
+     "ja": "え、YouTubeやってんの？！",
+     "en": "Wait, you do YouTube?!",
+     "speaker": "Haruka"
+    },
+    {
+     "start": 315.8,
+     "end": 316.8,
+     "ja": "やり直し。",
+     "en": "Let's restart.",
+     "speaker": "Aida"
+    },
+    {
+     "start": 316.8,
+     "end": 317.8,
+     "ja": "なんかして。",
+     "en": "Do something.",
+     "speaker": "Aida"
+    },
+    {
+     "start": 318.0,
+     "end": 319.2,
+     "ja": "次の授業は…",
+     "en": "The next class is...",
+     "speaker": "Aida"
+    },
+    {
+     "start": 319.2,
+     "end": 320.5,
+     "ja": "次の授業は…",
+     "en": "The next class is...",
+     "speaker": "Mie & Haruka"
+    },
+    {
+     "start": 320.5,
+     "end": 321.7,
+     "ja": "英語！",
+     "en": "English!",
+     "speaker": "Mie & Haruka"
+    },
+    {
+     "start": 321.8,
+     "end": 322.9,
+     "ja": "英語好き！",
+     "en": "I like English!",
+     "speaker": "Haruka"
+    },
+    {
+     "start": 323.0,
+     "end": 323.8,
+     "ja": "英語好き？",
+     "en": "You like English?",
+     "speaker": "Aida"
+    },
+    {
+     "start": 323.8,
+     "end": 325.0,
+     "ja": "英語大嫌い！",
+     "en": "I hate English!",
+     "speaker": "Mie"
+    },
+    {
+     "start": 325.0,
+     "end": 326.5,
+     "ja": "英語大嫌い。",
+     "en": "Actually, I hate English.",
+     "speaker": "Haruka"
+    }
+   ]
+  },
+  {
+   "start": 415.2,
+   "end": 431.0,
+   "title": "What's in Your Bento?",
+   "level": "N5",
+   "topics": [
+    "food",
+    "school",
+    "friends"
+   ],
+   "grammar": [
+    "〜の残り — leftovers of ~",
+    "嫌いな＋名詞 — na-adjective modifying a noun",
+    "〜から — because / since"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 415.6,
+     "end": 416.7,
+     "ja": "おかずは？",
+     "en": "What's your side dish?",
+     "speaker": "Aida"
+    },
+    {
+     "start": 417.0,
+     "end": 418.3,
+     "ja": "えっと、トンカツ。",
+     "en": "Umm, pork cutlet.",
+     "speaker": "Miuna"
+    },
+    {
+     "start": 418.4,
+     "end": 421.2,
+     "ja": "昨日の残りの、お弁当のトンカツ。",
+     "en": "Pork cutlet from yesterday's leftovers for my bento.",
+     "speaker": "Miuna"
+    },
+    {
+     "start": 422.8,
+     "end": 423.8,
+     "ja": "卵焼き。",
+     "en": "Rolled omelet.",
+     "speaker": "Miuna"
+    },
+    {
+     "start": 424.0,
+     "end": 425.8,
+     "ja": "嫌いなピーマンも。",
+     "en": "And bell peppers, which I hate.",
+     "speaker": "Miuna"
+    },
+    {
+     "start": 426.2,
+     "end": 427.6,
+     "ja": "私ないから、普通のお弁当。",
+     "en": "I don't have anything special, just a normal bento.",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 427.8,
+     "end": 429.2,
+     "ja": "可愛くない…",
+     "en": "It's not cute...",
+     "speaker": "Sakura"
+    },
+    {
+     "start": 429.8,
+     "end": 430.7,
+     "ja": "美味しい。",
+     "en": "It's good.",
+     "speaker": "Miuna"
+    }
+   ]
+  }
+ ],
+ "videoId": "jpMpnww_Tns",
+ "pickTopics": [
+  "school"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

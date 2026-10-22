@@ -1,0 +1,148 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 3.5,
+   "end": 18.5,
+   "title": "A Boy on Every Checkout Card",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "school",
+    "romance"
+   ],
+   "grammar": [
+    "〜より先に — ahead of / before",
+    "〜たい — want to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3.7,
+     "end": 5.1,
+     "ja": "天沢聖司…",
+     "en": "Seiji Amasawa...",
+     "speaker": "Shizuku"
+    },
+    {
+     "start": 5.2,
+     "end": 7.0,
+     "ja": "みんな私より先に借りてる。",
+     "en": "He checked out all of them before me.",
+     "speaker": "Shizuku"
+    },
+    {
+     "start": 7.1,
+     "end": 10.8,
+     "ja": "雫にもようやく、春が来たんですねー。",
+     "en": "Spring has finally arrived for Shizuku, huh?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 11.2,
+     "end": 13.2,
+     "ja": "月島、ちょっといいかな？",
+     "en": "Tsukishima, got a minute?",
+     "speaker": "Seiji"
+    },
+    {
+     "start": 13.3,
+     "end": 14.5,
+     "ja": "えっ？",
+     "en": "Huh?",
+     "speaker": "Shizuku"
+    },
+    {
+     "start": 15.0,
+     "end": 18.0,
+     "ja": "俺さ、バイオリン作りになりたいんだ。",
+     "en": "You know, I want to become a violin maker.",
+     "speaker": "Seiji"
+    }
+   ]
+  },
+  {
+   "start": 44.8,
+   "end": 58.2,
+   "title": "Summer at the Old Estate",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜だけ — only / just",
+    "〜って — hearsay / quotation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 45.3,
+     "end": 51.5,
+     "ja": "僕はあの年の夏、母の育った古い屋敷で、一週間だけ過ごした。",
+     "en": "That summer, I spent just one week at the old estate where my mother grew up.",
+     "speaker": "Sho"
+    },
+    {
+     "start": 51.8,
+     "end": 57.8,
+     "ja": "母が言っていたんだ。この家の庭で、小人を見たって。",
+     "en": "My mother used to say she saw a borrower in this garden.",
+     "speaker": "Sho"
+    }
+   ]
+  },
+  {
+   "start": 101.5,
+   "end": 113.6,
+   "title": "Life of a Borrower",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "daily"
+   ],
+   "grammar": [
+    "〜ように — so that / in order to",
+    "〜てくる — do and return / ongoing habit",
+    "〜てきた — have been doing up to now"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 101.8,
+     "end": 106.3,
+     "ja": "人間の家から気づかれないように、少しずつ必要なものを借りてくるの。",
+     "en": "We borrow what we need little by little from human houses without being noticed.",
+     "speaker": "Arrietty"
+    },
+    {
+     "start": 106.5,
+     "end": 109.8,
+     "ja": "お父さんのおじいちゃんの頃から、そうやって暮らしてきたわ。",
+     "en": "We've lived like that ever since my father's grandfather's time.",
+     "speaker": "Arrietty"
+    },
+    {
+     "start": 110.0,
+     "end": 111.8,
+     "ja": "僕、翔って言うんだ。",
+     "en": "I'm Sho.",
+     "speaker": "Sho"
+    },
+    {
+     "start": 112.0,
+     "end": 113.3,
+     "ja": "君の名前は？",
+     "en": "What's your name?",
+     "speaker": "Sho"
+    }
+   ]
+  }
+ ],
+ "videoId": "ThHBxoGyPfI",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

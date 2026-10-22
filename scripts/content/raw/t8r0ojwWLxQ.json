@@ -1,0 +1,229 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 32.2,
+   "end": 47.3,
+   "title": "I Asked for a Size Large",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜てくれ・〜てください — requesting an action",
+    "〜やから — because (Kansai dialect)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 32.4,
+     "end": 34.5,
+     "ja": "いや、俺言うたよな？",
+     "en": "Hey, I told you, right?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 34.5,
+     "end": 35.3,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 35.3,
+     "end": 37.4,
+     "ja": "普段の服、Lやから、",
+     "en": "My normal clothes are size L,",
+     "speaker": "Customer"
+    },
+    {
+     "start": 37.4,
+     "end": 38.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 38.0,
+     "end": 40.5,
+     "ja": "Lサイズなんを持ってきてくださーいって。",
+     "en": "so please bring me a size L.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 40.5,
+     "end": 41.4,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 41.4,
+     "end": 43.4,
+     "ja": "お前が持ってきたこれ何？",
+     "en": "What is this that you brought?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 43.4,
+     "end": 45.3,
+     "ja": "XSです。",
+     "en": "It's XS.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 45.3,
+     "end": 46.4,
+     "ja": "いや、それ何でなん？",
+     "en": "Why on earth is that?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 46.4,
+     "end": 47.3,
+     "ja": "すいません。",
+     "en": "I'm sorry.",
+     "speaker": "Clerk"
+    }
+   ]
+  },
+  {
+   "start": 54.0,
+   "end": 74.0,
+   "title": "Skipping Two Sizes Down",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜つもりで — with the intention of",
+    "〜んだと思います — I think that (explanatory)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 54.2,
+     "end": 56.2,
+     "ja": "何でXSなん？",
+     "en": "Why is it XS?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 56.2,
+     "end": 60.0,
+     "ja": "いや、あの、僕もLのつもりで持ってきたんですけど、",
+     "en": "Well, um, I intended to bring an L, but...",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 60.0,
+     "end": 63.2,
+     "ja": "多分バックヤードでなんか取り違えたんだと思います。すいません。",
+     "en": "I think I mixed it up in the backroom. I'm sorry.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 63.2,
+     "end": 65.1,
+     "ja": "いや、分かるやん。",
+     "en": "Hey, you should notice that.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 65.1,
+     "end": 68.5,
+     "ja": "それ、LとMを間違えたんなら分かるけど、",
+     "en": "If you mixed up L and M, I'd understand, but...",
+     "speaker": "Customer"
+    },
+    {
+     "start": 68.5,
+     "end": 69.3,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 69.3,
+     "end": 72.7,
+     "ja": "XSやで？これ2個行ってんのよ。",
+     "en": "It's XS! You jumped down two sizes!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 72.7,
+     "end": 74.0,
+     "ja": "なあ。申し訳ございません。",
+     "en": "Right? / I am truly sorry.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
+   "start": 736.8,
+   "end": 757.2,
+   "title": "Adrenaline Numbed the Pain",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜てたのかな — wondering about past continuous",
+    "〜っていう — called / describing a sound"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 737.3,
+     "end": 740.5,
+     "ja": "めちゃくちゃ痛かったで。",
+     "en": "That hurt like crazy.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 741.5,
+     "end": 744.2,
+     "ja": "「キングオブコント」のとき、麻痺してたのかな。",
+     "en": "Maybe I was numb back during King of Conte.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 744.2,
+     "end": 748.3,
+     "ja": "やっぱアドレナリン出てるから、多分痛くなかったんや。",
+     "en": "Adrenaline was pumping, so it probably didn't hurt.",
+     "speaker": "Hiraishi"
+    },
+    {
+     "start": 748.3,
+     "end": 749.2,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 749.2,
+     "end": 753.3,
+     "ja": "あんときだって、「バッ、バーン」っていう音の中に、",
+     "en": "Even back then, amid the loud rustling sounds,",
+     "speaker": "Hiraishi"
+    },
+    {
+     "start": 753.3,
+     "end": 757.0,
+     "ja": "「ゴッ」「ゴッ」っていう骨の音してたもん、あんとき。",
+     "en": "you could hear bone crack sounds like \"clunk, clunk\".",
+     "speaker": "Hiraishi"
+    }
+   ]
+  }
+ ],
+ "videoId": "t8r0ojwWLxQ",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

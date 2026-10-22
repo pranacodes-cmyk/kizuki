@@ -1,0 +1,165 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 13.9,
+   "end": 26.6,
+   "title": "A Realistic Routine on a Work Day",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜んで — because",
+    "〜られる — passive voice"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 14.1,
+     "end": 16.3,
+     "ja": "今回は出勤する日の",
+     "en": "This time, it's my realistic",
+     "speaker": "Maidon"
+    },
+    {
+     "start": 16.3,
+     "end": 17.5,
+     "ja": "リアルな一日ルーティン。",
+     "en": "daily routine on a day I go to work.",
+     "speaker": "Maidon"
+    },
+    {
+     "start": 17.5,
+     "end": 20.0,
+     "ja": "週最後の出勤でストレスMAXなんで、",
+     "en": "It's the last shift of the week, so my stress is at its max,",
+     "speaker": "Maidon"
+    },
+    {
+     "start": 20.0,
+     "end": 22.3,
+     "ja": "今回の動画、おしゃれの「お」もないです。",
+     "en": "so there's not an ounce of style in this video.",
+     "speaker": "Maidon"
+    },
+    {
+     "start": 22.5,
+     "end": 24.3,
+     "ja": "初っ端、この顔やからね。",
+     "en": "Right from the start, I have this face, you know.",
+     "speaker": "Maidon"
+    },
+    {
+     "start": 24.5,
+     "end": 26.6,
+     "ja": "ただ、げっそりした社会人の姿を",
+     "en": "You all are just going to be shown",
+     "speaker": "Maidon"
+    }
+   ]
+  },
+  {
+   "start": 44.5,
+   "end": 57.7,
+   "title": "Skincare and Makeup Routine",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜ようになる — come to / become so that",
+    "〜だけ — only"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.8,
+     "end": 47.7,
+     "ja": "最近急にほっぺのところがマスクとか、",
+     "en": "Lately, the cheek area has suddenly started getting irritated",
+     "speaker": "Maidon"
+    },
+    {
+     "start": 47.7,
+     "end": 49.6,
+     "ja": "化粧荒れするようになってきたので、",
+     "en": "from masks and makeup,",
+     "speaker": "Maidon"
+    },
+    {
+     "start": 49.6,
+     "end": 51.5,
+     "ja": "保湿は念入りにしてます。",
+     "en": "so I moisturize very carefully.",
+     "speaker": "Maidon"
+    },
+    {
+     "start": 51.5,
+     "end": 54.2,
+     "ja": "たまにマスクからはみ出る部分だけ化粧して、",
+     "en": "Sometimes I only do makeup on the parts showing outside the mask,",
+     "speaker": "Maidon"
+    },
+    {
+     "start": 54.2,
+     "end": 57.4,
+     "ja": "顔の上半身と下半身別人みたいな色で出勤することある。",
+     "en": "and end up going to work looking like two different people on the top and bottom of my face.",
+     "speaker": "Maidon"
+    }
+   ]
+  },
+  {
+   "start": 147.7,
+   "end": 158.0,
+   "title": "Meal Prep for Dieting",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜ていく — to go on doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 148.0,
+     "end": 150.3,
+     "ja": "ちょっと前からね、ダイエットガチってるから、",
+     "en": "Since a little while ago, I've been taking dieting seriously,",
+     "speaker": "Maidon"
+    },
+    {
+     "start": 150.5,
+     "end": 152.0,
+     "ja": "朝と昼は鶏肉、",
+     "en": "so for breakfast and lunch,",
+     "speaker": "Maidon"
+    },
+    {
+     "start": 152.0,
+     "end": 155.6,
+     "ja": "ブロッコリー、白米120gを測って持って行ってます。",
+     "en": "I measure out chicken, broccoli, and 120 grams of white rice to take with me.",
+     "speaker": "Maidon"
+    },
+    {
+     "start": 155.7,
+     "end": 157.6,
+     "ja": "夜は実家のご飯。",
+     "en": "Dinner is a meal at my parents' house.",
+     "speaker": "Maidon"
+    }
+   ]
+  }
+ ],
+ "videoId": "aRFDUL3x51g",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

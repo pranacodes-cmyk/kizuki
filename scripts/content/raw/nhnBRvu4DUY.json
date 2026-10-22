@@ -1,0 +1,42 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 849.8,
+   "end": 857.2,
+   "title": "Warning the Cat While Cooking",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "animals",
+    "food"
+   ],
+   "grammar": [
+    "〜てる — ongoing action",
+    "〜から — because / reason"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 850.4,
+     "end": 852.0,
+     "ja": "もなみちゃん。",
+     "en": "Monami-chan.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 852.4,
+     "end": 855.2,
+     "ja": "今お料理してるから危ないよー。",
+     "en": "I'm cooking right now, so it's dangerous.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "nhnBRvu4DUY",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

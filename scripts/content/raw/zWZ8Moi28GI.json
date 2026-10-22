@@ -1,0 +1,265 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 19.8,
+   "end": 48.5,
+   "title": "Going to Order Furniture",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "shopping"
+   ],
+   "grammar": [
+    "〜に行く — purpose of going",
+    "〜てから — after doing",
+    "〜ちゃう — complete or unintended action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 19.9,
+     "end": 25.5,
+     "ja": "今日は念願の家具を、注文しに行く日です！",
+     "en": "Today is the day we go order the furniture we've wanted!",
+     "speaker": "Julia"
+    },
+    {
+     "start": 26.0,
+     "end": 29.8,
+     "ja": "これは買おうかすごく迷ってたもので、",
+     "en": "We were really hesitating on whether to buy this,",
+     "speaker": "Julia"
+    },
+    {
+     "start": 29.9,
+     "end": 36.8,
+     "ja": "本当は引っ越してからもう買う予定は無くって、ヴィンテージのものでいいものがあったら揃えられたらいいなというか、",
+     "en": "we originally didn't plan to buy anything after moving, hoping we could just collect nice vintage pieces if we found any...",
+     "speaker": "Julia"
+    },
+    {
+     "start": 37.0,
+     "end": 38.6,
+     "ja": "あ、確かに、そうやん。",
+     "en": "Ah, right, exactly.",
+     "speaker": "Kouhei"
+    },
+    {
+     "start": 39.0,
+     "end": 45.5,
+     "ja": "そう思って、家具屋さんとか見に行ってたんだけど、欲しかったものがちょうど売り切れちゃったんだよね。",
+     "en": "With that in mind we went checking furniture shops, but what we wanted happened to be sold out.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 45.7,
+     "end": 46.8,
+     "ja": "そうね。",
+     "en": "Yeah.",
+     "speaker": "Kouhei"
+    },
+    {
+     "start": 47.0,
+     "end": 48.5,
+     "ja": "そんなことがありました。",
+     "en": "So that's what happened.",
+     "speaker": "Julia"
+    }
+   ]
+  },
+  {
+   "start": 266.8,
+   "end": 294.8,
+   "title": "Tasting Pudding at the Cafe",
+   "level": "N4",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜め — somewhat / on the side of",
+    "どっちが — which one (out of two)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 266.8,
+     "end": 268.4,
+     "ja": "いただきます。",
+     "en": "Let's dig in.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 268.5,
+     "end": 270.2,
+     "ja": "固い！",
+     "en": "It's firm!",
+     "speaker": "Julia"
+    },
+    {
+     "start": 270.4,
+     "end": 272.0,
+     "ja": "へえ〜",
+     "en": "Oh really?",
+     "speaker": "Kouhei"
+    },
+    {
+     "start": 272.5,
+     "end": 276.5,
+     "ja": "蜜がね、キャラメルが… あ〜怖い怖い怖い！",
+     "en": "The syrup, the caramel... Ah, watch out, watch out!",
+     "speaker": "Julia"
+    },
+    {
+     "start": 281.8,
+     "end": 283.6,
+     "ja": "めっちゃ美味しい！",
+     "en": "It's so good!",
+     "speaker": "Julia"
+    },
+    {
+     "start": 283.7,
+     "end": 284.8,
+     "ja": "めっちゃ美味しい？",
+     "en": "It's really good?",
+     "speaker": "Kouhei"
+    },
+    {
+     "start": 284.9,
+     "end": 286.8,
+     "ja": "キャラメルが甘め。",
+     "en": "The caramel is on the sweet side.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 287.0,
+     "end": 288.2,
+     "ja": "カラメル？",
+     "en": "Caramel?",
+     "speaker": "Kouhei"
+    },
+    {
+     "start": 288.3,
+     "end": 289.0,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 289.1,
+     "end": 292.2,
+     "ja": "どっちが正解？キャラメルかカラメル。",
+     "en": "Which pronunciation is right? Caramel or caramel?",
+     "speaker": "Julia"
+    },
+    {
+     "start": 292.3,
+     "end": 294.8,
+     "ja": "これは美味い！",
+     "en": "This is delicious!",
+     "speaker": "Kouhei"
+    }
+   ]
+  },
+  {
+   "start": 543.9,
+   "end": 567.4,
+   "title": "First Time Trying Banh Mi",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜にする — to decide on",
+    "〜ね (Kansai やん/やな) — tag question / agreement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 543.9,
+     "end": 545.8,
+     "ja": "初めて食べるね、これ。",
+     "en": "It's our first time eating this.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 545.9,
+     "end": 547.4,
+     "ja": "初めてやな。",
+     "en": "Yeah, first time.",
+     "speaker": "Kouhei"
+    },
+    {
+     "start": 547.5,
+     "end": 550.0,
+     "ja": "バインミー、見て！大きい！",
+     "en": "Look at this banh mi! It's huge!",
+     "speaker": "Julia"
+    },
+    {
+     "start": 550.2,
+     "end": 552.0,
+     "ja": "そしてパンが固い。",
+     "en": "And the bread is crusty.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 552.1,
+     "end": 554.0,
+     "ja": "硬いね。でも好きやん。",
+     "en": "It's hard. But you like that, right?",
+     "speaker": "Kouhei"
+    },
+    {
+     "start": 554.1,
+     "end": 555.5,
+     "ja": "バゲットって感じ。好き。",
+     "en": "It feels like a baguette. I like it.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 555.6,
+     "end": 558.5,
+     "ja": "私は普通のにしました。ノーマルのバインミー。",
+     "en": "I went with the standard one, the normal banh mi.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 558.6,
+     "end": 560.0,
+     "ja": "一番人気やな。",
+     "en": "The most popular one.",
+     "speaker": "Kouhei"
+    },
+    {
+     "start": 560.1,
+     "end": 563.0,
+     "ja": "こうへいさんはなんか、エビアボカドみたいな。",
+     "en": "Kouhei's is like shrimp and avocado.",
+     "speaker": "Julia"
+    },
+    {
+     "start": 563.2,
+     "end": 564.4,
+     "ja": "２番人気。",
+     "en": "Number two popular.",
+     "speaker": "Kouhei"
+    },
+    {
+     "start": 564.5,
+     "end": 567.4,
+     "ja": "２番人気。No.1、No.2。いただきます！",
+     "en": "Number two. No. 1 and No. 2. Let's eat!",
+     "speaker": "Julia"
+    }
+   ]
+  }
+ ],
+ "videoId": "zWZ8Moi28GI",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

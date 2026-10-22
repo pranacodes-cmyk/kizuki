@@ -1,0 +1,193 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.5,
+   "end": 29.3,
+   "title": "What Are You Eating?",
+   "level": "N5",
+   "topics": [
+    "food",
+    "friends"
+   ],
+   "grammar": [
+    "〜を食べます — eat ~",
+    "〜も — also"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 10.8,
+     "end": 13.5,
+     "ja": "はい、マリさん。何を食べますか？",
+     "en": "All right, Mari. What are you eating?",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 13.8,
+     "end": 15.5,
+     "ja": "ベジリッチです。",
+     "en": "It's Vege Rich.",
+     "speaker": "Mari"
+    },
+    {
+     "start": 15.6,
+     "end": 17.0,
+     "ja": "ベジリッチです？",
+     "en": "Vege Rich?",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 17.0,
+     "end": 18.5,
+     "ja": "はい、ベジリッチです。",
+     "en": "Yes, Vege Rich.",
+     "speaker": "Mari"
+    },
+    {
+     "start": 20.0,
+     "end": 22.8,
+     "ja": "はい、マリです。これはベジリッチです。",
+     "en": "Yes, I'm Mari. This is Vege Rich.",
+     "speaker": "Mari"
+    },
+    {
+     "start": 23.0,
+     "end": 24.5,
+     "ja": "はい。あれ、左利きですか？",
+     "en": "Okay. Wait, are you left-handed?",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 24.6,
+     "end": 25.5,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Mari"
+    },
+    {
+     "start": 25.8,
+     "end": 27.4,
+     "ja": "左もいいです。",
+     "en": "Left is fine too.",
+     "speaker": "Mari"
+    },
+    {
+     "start": 27.6,
+     "end": 29.0,
+     "ja": "右も使えます？",
+     "en": "Can you use your right hand too?",
+     "speaker": "Cameraman"
+    }
+   ]
+  },
+  {
+   "start": 131.5,
+   "end": 143.5,
+   "title": "Trying Mutton Miso Cutlet",
+   "level": "N5",
+   "topics": [
+    "food"
+   ],
+   "grammar": [
+    "〜は何ですか — what is ~?",
+    "〜そう — looks like"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 132.0,
+     "end": 133.2,
+     "ja": "それは何ですか？",
+     "en": "What is that?",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 133.3,
+     "end": 135.5,
+     "ja": "これはヤギ味噌カツです。",
+     "en": "This is mutton miso cutlet.",
+     "speaker": "Mari"
+    },
+    {
+     "start": 137.0,
+     "end": 139.0,
+     "ja": "あ、美味しそうですね。いいね。",
+     "en": "Oh, that looks delicious. Nice.",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 139.1,
+     "end": 140.5,
+     "ja": "いいスマイルですね。",
+     "en": "Nice smile.",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 140.6,
+     "end": 142.5,
+     "ja": "美味しいです。イエーイ！",
+     "en": "It's delicious. Yay!",
+     "speaker": "Mari"
+    }
+   ]
+  },
+  {
+   "start": 301.5,
+   "end": 314.0,
+   "title": "Aki Bay Special Omurice",
+   "level": "N5",
+   "topics": [
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜です — polite copula",
+    "いただきます — expression before eating"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 301.8,
+     "end": 303.0,
+     "ja": "はい、ジョーさん。",
+     "en": "All right, Joh.",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 303.1,
+     "end": 306.0,
+     "ja": "ジョーです！オムライスでーす！",
+     "en": "I'm Joh! Here is omurice!",
+     "speaker": "Joh"
+    },
+    {
+     "start": 306.1,
+     "end": 308.0,
+     "ja": "オムライス！",
+     "en": "Omurice!",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 308.2,
+     "end": 309.5,
+     "ja": "いただきまーす！",
+     "en": "Let's eat!",
+     "speaker": "Joh"
+    },
+    {
+     "start": 309.6,
+     "end": 313.2,
+     "ja": "オムライスです。秋平特製オムライスです。",
+     "en": "It's omurice. Aki Bay's special omurice.",
+     "speaker": "Joh"
+    }
+   ]
+  }
+ ],
+ "videoId": "vvOd3XVj9ik",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

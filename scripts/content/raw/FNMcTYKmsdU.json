@@ -1,0 +1,266 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 242.5,
+   "end": 303.0,
+   "title": "Guessing the German Audio Clip",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "friends",
+    "culture"
+   ],
+   "grammar": [
+    "〜よりかは — rather than",
+    "〜と思う — thinking that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 242.5,
+     "end": 244.2,
+     "ja": "D、Dですかね。",
+     "en": "D, I think D.",
+     "speaker": "Speaker 1"
+    },
+    {
+     "start": 244.3,
+     "end": 245.5,
+     "ja": "４つ目。",
+     "en": "The fourth one.",
+     "speaker": "Speaker 2"
+    },
+    {
+     "start": 245.7,
+     "end": 247.3,
+     "ja": "ドイツより、かな？",
+     "en": "Sounds Germanic, I think?",
+     "speaker": "Speaker 2"
+    },
+    {
+     "start": 247.4,
+     "end": 249.0,
+     "ja": "でも、そんな巻いてる？これ。",
+     "en": "Is it that rolled, though?",
+     "speaker": "Speaker 1"
+    },
+    {
+     "start": 249.1,
+     "end": 250.5,
+     "ja": "ドイツだと思う。",
+     "en": "I think it's German.",
+     "speaker": "Speaker 2"
+    },
+    {
+     "start": 250.6,
+     "end": 252.0,
+     "ja": "正解です。ドイツ語でした。",
+     "en": "Correct. It was German.",
+     "speaker": "Host"
+    },
+    {
+     "start": 252.1,
+     "end": 253.4,
+     "ja": "おー！すごい！",
+     "en": "Oh! Amazing!",
+     "speaker": "Speaker 1"
+    },
+    {
+     "start": 253.5,
+     "end": 254.9,
+     "ja": "どういうところが良かったですか？",
+     "en": "What did you like about it?",
+     "speaker": "Host"
+    },
+    {
+     "start": 255.0,
+     "end": 258.0,
+     "ja": "なんか言葉ってよりかは、なんかトーンみたいな。",
+     "en": "Rather than the words, I liked the tone.",
+     "speaker": "Speaker 1"
+    },
+    {
+     "start": 258.8,
+     "end": 262.5,
+     "ja": "声とか、なんかこう弾む感じみたいな。",
+     "en": "Yeah, like the voice and the bounciness.",
+     "speaker": "Speaker 1"
+    }
+   ]
+  },
+  {
+   "start": 315.8,
+   "end": 341.5,
+   "title": "Choosing Between Spanish and Cantonese",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜じゃない？ — isn't it?",
+    "〜てて — while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 315.8,
+     "end": 317.3,
+     "ja": "えー、F。",
+     "en": "Uh, F.",
+     "speaker": "Speaker 1"
+    },
+    {
+     "start": 317.4,
+     "end": 319.8,
+     "ja": "F。一番最後、一番最後。",
+     "en": "F. The very last one.",
+     "speaker": "Speaker 1"
+    },
+    {
+     "start": 319.9,
+     "end": 322.0,
+     "ja": "ちなみに何語か分かります？",
+     "en": "Do you know what language it is?",
+     "speaker": "Host"
+    },
+    {
+     "start": 322.1,
+     "end": 324.8,
+     "ja": "英語？いや、英語じゃない。",
+     "en": "English? No, it's not English.",
+     "speaker": "Speaker 2"
+    },
+    {
+     "start": 325.0,
+     "end": 327.2,
+     "ja": "Fはスペイン語でした。",
+     "en": "F was Spanish.",
+     "speaker": "Host"
+    },
+    {
+     "start": 327.3,
+     "end": 328.9,
+     "ja": "おー。",
+     "en": "Oh.",
+     "speaker": "Speaker 1"
+    },
+    {
+     "start": 329.0,
+     "end": 332.1,
+     "ja": "自分、E。",
+     "en": "I like... E.",
+     "speaker": "Speaker 2"
+    },
+    {
+     "start": 332.4,
+     "end": 334.7,
+     "ja": "E、中国語じゃない？",
+     "en": "Isn't E Chinese?",
+     "speaker": "Speaker 1"
+    },
+    {
+     "start": 335.0,
+     "end": 337.0,
+     "ja": "広東語ですね。",
+     "en": "It's Cantonese.",
+     "speaker": "Host"
+    },
+    {
+     "start": 337.3,
+     "end": 341.4,
+     "ja": "結構、可愛いっすね、なんか聞いてて。",
+     "en": "It sounded pretty cute as I listened to it.",
+     "speaker": "Speaker 2"
+    }
+   ]
+  },
+  {
+   "start": 445.0,
+   "end": 506.0,
+   "title": "Recognizing Latin American Spanish",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "music",
+    "culture"
+   ],
+   "grammar": [
+    "〜たことがある — have experienced",
+    "〜から — because"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 445.0,
+     "end": 446.8,
+     "ja": "Fが良かったです。",
+     "en": "I liked F.",
+     "speaker": "Speaker 1"
+    },
+    {
+     "start": 446.9,
+     "end": 452.1,
+     "ja": "洋楽みたいなんで聞いたことあるやつだな、と。",
+     "en": "I've heard it before in Western music and songs.",
+     "speaker": "Speaker 1"
+    },
+    {
+     "start": 452.2,
+     "end": 454.0,
+     "ja": "何語か分かります？",
+     "en": "Do you know what language it is?",
+     "speaker": "Host"
+    },
+    {
+     "start": 454.1,
+     "end": 456.2,
+     "ja": "最後、メキシコとかそこら辺？",
+     "en": "Is it from Mexico or somewhere near there?",
+     "speaker": "Speaker 2"
+    },
+    {
+     "start": 456.3,
+     "end": 457.6,
+     "ja": "おー、いい線いってますね。",
+     "en": "Oh, you're very close.",
+     "speaker": "Host"
+    },
+    {
+     "start": 457.7,
+     "end": 459.8,
+     "ja": "ラテンアメリカって聞こえたんで。",
+     "en": "Because I heard 'Latin America'.",
+     "speaker": "Speaker 2"
+    },
+    {
+     "start": 459.9,
+     "end": 502.0,
+     "ja": "スペイン語なんですけど、エクアドルの。",
+     "en": "It's Spanish, but from Ecuador.",
+     "speaker": "Host"
+    },
+    {
+     "start": 502.1,
+     "end": 504.2,
+     "ja": "「デスパシート」なんかこんな感じ言ってた。",
+     "en": "Isn't 'Despacito' kind of like this?",
+     "speaker": "Speaker 2"
+    },
+    {
+     "start": 504.3,
+     "end": 505.9,
+     "ja": "そうそう、「デスパシート」スペイン語ですからね。",
+     "en": "Right, right, 'Despacito' is Spanish.",
+     "speaker": "Host"
+    }
+   ]
+  }
+ ],
+ "videoId": "FNMcTYKmsdU",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,123 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 541.5,
+   "end": 554.8,
+   "title": "Dinner Time Begins",
+   "level": "N5",
+   "topics": [
+    "family",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ましょう — let's ...",
+    "〜ようか — shall we ...?"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 541.8,
+     "end": 542.8,
+     "ja": "できた！",
+     "en": "Ready!",
+     "speaker": "Olivia"
+    },
+    {
+     "start": 542.8,
+     "end": 545.0,
+     "ja": "みんな食べる時間です！",
+     "en": "It's time to eat, everyone!",
+     "speaker": "Olivia"
+    },
+    {
+     "start": 545.4,
+     "end": 547.7,
+     "ja": "よし、みんな食べましょう、じゃあ。",
+     "en": "Alright, let's eat then.",
+     "speaker": "Taka"
+    },
+    {
+     "start": 548.0,
+     "end": 549.8,
+     "ja": "リビこれ食べるね。",
+     "en": "Liv will eat this, okay?",
+     "speaker": "Olivia"
+    },
+    {
+     "start": 550.0,
+     "end": 551.6,
+     "ja": "これ分けよっか？ね。",
+     "en": "Shall we share this?",
+     "speaker": "Taka"
+    },
+    {
+     "start": 552.7,
+     "end": 554.4,
+     "ja": "これ出そうか、こうやって。",
+     "en": "Shall I take them off the skewers like this?",
+     "speaker": "Taka"
+    }
+   ]
+  },
+  {
+   "start": 600.8,
+   "end": 613.6,
+   "title": "Can I Have Some of Alex's Food?",
+   "level": "N4",
+   "topics": [
+    "family",
+    "food"
+   ],
+   "grammar": [
+    "〜てもいい — may I ... / is it okay to ...",
+    "〜じゃん — isn't it / you can after all",
+    "〜でしょ — right? / isn't that so?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 601.2,
+     "end": 603.2,
+     "ja": "ちゃんと食べれるじゃん。",
+     "en": "See, you can eat it properly!",
+     "speaker": "Olivia"
+    },
+    {
+     "start": 603.8,
+     "end": 605.8,
+     "ja": "リビちゃん１つもらってもいい？",
+     "en": "Can Liv have one?",
+     "speaker": "Olivia"
+    },
+    {
+     "start": 607.3,
+     "end": 608.8,
+     "ja": "オリビア、なんで？",
+     "en": "Olivia, why?",
+     "speaker": "Taka"
+    },
+    {
+     "start": 609.0,
+     "end": 611.4,
+     "ja": "だってアレックスそんなに食べないでしょ？",
+     "en": "Because Alex doesn't eat that much, right?",
+     "speaker": "Olivia"
+    },
+    {
+     "start": 611.7,
+     "end": 613.2,
+     "ja": "うん、食べれるよ。",
+     "en": "Yeah, I can eat it!",
+     "speaker": "Alex"
+    }
+   ]
+  }
+ ],
+ "videoId": "uu7OjFGSAjM",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

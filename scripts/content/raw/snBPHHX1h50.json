@@ -1,0 +1,254 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 63.8,
+   "end": 79.5,
+   "title": "Convenience Store Onigiri and Value",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ている — ongoing state",
+    "〜だけ — only / just",
+    "〜たら — if / when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 64.2,
+     "end": 66.3,
+     "ja": "あとは、みんなも見たことがある",
+     "en": "Next is something you've probably all seen,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 66.3,
+     "end": 68.3,
+     "ja": "こういう普通のおにぎり。",
+     "en": "just a normal onigiri like this.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 68.5,
+     "end": 71.7,
+     "ja": "なんだけど、特に明太子が入ってるのが、",
+     "en": "But I especially love the ones",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 71.7,
+     "end": 73.2,
+     "ja": "もう、大好き。",
+     "en": "with spicy pollack roe inside.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 73.3,
+     "end": 77.0,
+     "ja": "ま、この２つだけだったら５００円以内に入るから、",
+     "en": "Well, just these two items cost under 500 yen,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 77.2,
+     "end": 79.0,
+     "ja": "すごくコストパフォーマンスもいいの。",
+     "en": "so they're also a really great value.",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 157.0,
+   "end": 179.5,
+   "title": "Catching Up Over the Phone",
+   "level": "N3",
+   "topics": [
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜ぶり — for the first time in",
+    "〜ているところ — in the middle of doing",
+    "〜かと思って — thinking that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 157.2,
+     "end": 160.0,
+     "ja": "え、いつぶりだっけ？最後会ったの。",
+     "en": "Hey, when was the last time we met?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 160.0,
+     "end": 163.0,
+     "ja": "もう今学校ないから、10月か？",
+     "en": "We don't have school now, so October?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 163.0,
+     "end": 164.2,
+     "ja": "10月末？",
+     "en": "Late October?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 164.2,
+     "end": 167.8,
+     "ja": "10月末か。じゃあ1ヶ月ぐらいか。",
+     "en": "Late October, huh. So about a month ago.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 167.8,
+     "end": 169.5,
+     "ja": "もうご飯食べた？",
+     "en": "Have you eaten already?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 169.6,
+     "end": 171.8,
+     "ja": "あー、ちょっと軽く今済ませて、",
+     "en": "Ah, I just had a light bite,",
+     "speaker": "Friend"
+    },
+    {
+     "start": 171.8,
+     "end": 174.2,
+     "ja": "今あの、残り食べてるところ。",
+     "en": "and right now I'm eating the rest.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 174.2,
+     "end": 175.7,
+     "ja": "あ、本当？良かった！",
+     "en": "Oh, really? Good!",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 175.7,
+     "end": 177.2,
+     "ja": "俺、今食べてるからさ、",
+     "en": "Because I'm eating right now,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 177.2,
+     "end": 179.2,
+     "ja": "なんか俺だけ食べてるんかと思って。",
+     "en": "and I thought maybe I was the only one eating.",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 282.3,
+   "end": 309.5,
+   "title": "Guessing the Name of the Pudding",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "friends",
+    "food"
+   ],
+   "grammar": [
+    "〜ような — like / such as",
+    "〜て言うか — or rather / I mean",
+    "流石 — just as expected of..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 282.5,
+     "end": 283.8,
+     "ja": "そんな名前ある？",
+     "en": "Does a name like that exist?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 283.8,
+     "end": 285.3,
+     "ja": "卵だけのプリン？",
+     "en": "Pudding of just eggs?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 285.3,
+     "end": 288.0,
+     "ja": "違う。もっと心と関係しているもの。",
+     "en": "Wrong. Something more related to the heart.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 288.0,
+     "end": 289.5,
+     "ja": "心と関係して…？",
+     "en": "Related to the heart...?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 289.5,
+     "end": 292.0,
+     "ja": "もっと、なんかそういう心理的な、",
+     "en": "More like psychological...",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 292.3,
+     "end": 297.0,
+     "ja": "これを聞いた時に「はぁ…」って思うような名前。",
+     "en": "A name where when you hear it, you go \"sigh...\".",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 298.2,
+     "end": 300.5,
+     "ja": "あ、なんか、何て言うんだ、ロマンチックって言うか？",
+     "en": "Ah, what do you call it, romantic?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 300.6,
+     "end": 303.5,
+     "ja": "そう！そう、そういうこと！流石だわ！",
+     "en": "Yes! Exactly that! Impressive!",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 303.8,
+     "end": 305.4,
+     "ja": "あなただけのプリン？",
+     "en": "Pudding just for you (anata)?",
+     "speaker": "Friend"
+    },
+    {
+     "start": 305.4,
+     "end": 307.0,
+     "ja": "おっ！すごい！",
+     "en": "Whoa, amazing!",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 307.0,
+     "end": 309.2,
+     "ja": "違う、ちょっと違うけど、「きみだけのプリン」。",
+     "en": "Not quite, but close—it's \"Kimi dake no Purin\".",
+     "speaker": "Hitoki"
+    }
+   ]
+  }
+ ],
+ "videoId": "snBPHHX1h50",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

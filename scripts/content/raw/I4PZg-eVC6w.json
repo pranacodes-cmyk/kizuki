@@ -1,0 +1,197 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.7,
+   "end": 31.8,
+   "title": "Welcome to Easy Japanese News",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "animals"
+   ],
+   "grammar": [
+    "〜の時間 — time for...",
+    "〜とお久しぶり — long time no see",
+    "〜て書かれた — written with..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 11.0,
+     "end": 13.0,
+     "ja": "皆さん、こんばんは。",
+     "en": "Good evening, everyone.",
+     "speaker": "News-wan"
+    },
+    {
+     "start": 13.5,
+     "end": 16.5,
+     "ja": "「やさしい日本語ニュースわん」の時間です。",
+     "en": "It's time for 'Easy Japanese News-wan'.",
+     "speaker": "News-wan"
+    },
+    {
+     "start": 16.6,
+     "end": 18.7,
+     "ja": "皆さん、お久しぶりです。",
+     "en": "Everyone, it's been a while.",
+     "speaker": "News-wan"
+    },
+    {
+     "start": 19.3,
+     "end": 21.9,
+     "ja": "このニュースはNHK Web Easyなどの",
+     "en": "This news comes from sites like NHK Web Easy,",
+     "speaker": "News-wan"
+    },
+    {
+     "start": 22.0,
+     "end": 24.5,
+     "ja": "易しい日本語で書かれた",
+     "en": "which are news homepages written",
+     "speaker": "News-wan"
+    },
+    {
+     "start": 24.6,
+     "end": 26.8,
+     "ja": "ニュースのホームページを見て、",
+     "en": "in simple Japanese,",
+     "speaker": "News-wan"
+    },
+    {
+     "start": 27.0,
+     "end": 29.3,
+     "ja": "私、ニュース犬が",
+     "en": "and I, the News Dog,",
+     "speaker": "News-wan"
+    },
+    {
+     "start": 29.4,
+     "end": 31.3,
+     "ja": "思ったことを皆さんに話します。",
+     "en": "will talk about my thoughts with you.",
+     "speaker": "News-wan"
+    }
+   ]
+  },
+  {
+   "start": 119.2,
+   "end": 141.6,
+   "title": "The Lunar New Year Calendar",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜でも — but / however",
+    "〜という — called / known as",
+    "〜ていて — ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 119.5,
+     "end": 121.8,
+     "ja": "でも、中国や台湾では",
+     "en": "However, in China and Taiwan,",
+     "speaker": "News-wan"
+    },
+    {
+     "start": 122.0,
+     "end": 126.1,
+     "ja": "1月1日にお正月のお祝いをしません。",
+     "en": "they do not celebrate the New Year on January 1st.",
+     "speaker": "News-wan"
+    },
+    {
+     "start": 127.3,
+     "end": 129.6,
+     "ja": "どうしてか分かりますか？",
+     "en": "Do you know why?",
+     "speaker": "News-wan"
+    },
+    {
+     "start": 130.8,
+     "end": 134.7,
+     "ja": "中国や台湾では旧暦という昔のカレンダーを",
+     "en": "In China and Taiwan, they still use an old calendar",
+     "speaker": "News-wan"
+    },
+    {
+     "start": 134.8,
+     "end": 136.9,
+     "ja": "今でも使っていて、",
+     "en": "called the lunar calendar,",
+     "speaker": "News-wan"
+    },
+    {
+     "start": 137.3,
+     "end": 141.1,
+     "ja": "それは今のカレンダーとちょっと違うんです。",
+     "en": "and it is a bit different from our current calendar.",
+     "speaker": "News-wan"
+    }
+   ]
+  },
+  {
+   "start": 398.2,
+   "end": 432.2,
+   "title": "A Dog's Lifespan in Human Years",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜くらい — about / approximately",
+    "〜と言われている — it is said that...",
+    "〜たら — if / when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 398.5,
+     "end": 403.7,
+     "ja": "皆さん、犬の寿命は大体何年くらいか知っていますか？",
+     "en": "Everyone, do you know roughly how long a dog's lifespan is?",
+     "speaker": "News-wan"
+    },
+    {
+     "start": 405.3,
+     "end": 409.6,
+     "ja": "10歳から13歳と言われています。",
+     "en": "It is said to be around 10 to 13 years old.",
+     "speaker": "News-wan"
+    },
+    {
+     "start": 418.1,
+     "end": 420.7,
+     "ja": "じゃあ、犬の10歳は",
+     "en": "So, around how old would a 10-year-old dog",
+     "speaker": "News-wan"
+    },
+    {
+     "start": 420.8,
+     "end": 425.4,
+     "ja": "人間で言ったら何歳くらいだと思いますか？",
+     "en": "be in human years, do you think?",
+     "speaker": "News-wan"
+    },
+    {
+     "start": 427.2,
+     "end": 431.7,
+     "ja": "うーん、大体60歳くらいだと言われています。",
+     "en": "Well, it is said to be around 60 years old.",
+     "speaker": "News-wan"
+    }
+   ]
+  }
+ ],
+ "videoId": "I4PZg-eVC6w",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,242 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 135.5,
+   "end": 157.5,
+   "title": "What Does Dotakyan Mean?",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "friends",
+    "fun"
+   ],
+   "grammar": [
+    "〜ないで — please do not",
+    "〜というのは — defining / explaining a term",
+    "〜直前 — right before"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 135.6,
+     "end": 138.0,
+     "ja": "「ドタキャンしないでよ」の意味は、",
+     "en": "The meaning of \"dotakyan shinai de yo\" is,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 138.0,
+     "end": 141.0,
+     "ja": "急にキャンセルしないでよの意味になります。",
+     "en": "it means \"don't cancel suddenly.\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 141.2,
+     "end": 143.5,
+     "ja": "土壇場にキャンセルしないでよが、",
+     "en": "Canceling at the eleventh hour (dotanba)",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 143.5,
+     "end": 145.5,
+     "ja": "ドタキャンです。",
+     "en": "is \"dotakyan.\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 145.7,
+     "end": 147.5,
+     "ja": "この土壇場っていうのは、",
+     "en": "This \"dotanba\" means",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 147.5,
+     "end": 150.3,
+     "ja": "イベントが始まる直前のことなので、",
+     "en": "right before an event starts, so",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 150.5,
+     "end": 153.2,
+     "ja": "土壇場でキャンセルしないでよっていうのは、",
+     "en": "canceling at the eleventh hour",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 153.2,
+     "end": 157.2,
+     "ja": "ギリギリのところでキャンセルしないでよっていう意味になります。",
+     "en": "means \"don't cancel at the very last minute.\"",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 164.8,
+   "end": 184.2,
+   "title": "Online Shopping Slang Pochiru",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜ちゃう — to do accidentally / completely",
+    "〜から来ている — to originate from",
+    "〜という時の — when/at the time of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 164.9,
+     "end": 166.0,
+     "ja": "２つ目。",
+     "en": "Number two.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 166.0,
+     "end": 169.3,
+     "ja": "「実はさ、昨日どうしても欲しかった本があったから、",
+     "en": "\"Actually, there was a book I really wanted yesterday,\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 169.3,
+     "end": 171.8,
+     "ja": "ネットでポチっちゃったんだよね。」",
+     "en": "\"so I ended up ordering it online.\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 171.8,
+     "end": 174.4,
+     "ja": "この「ポチる」はオノマトペから来ています。",
+     "en": "This \"pochiru\" comes from an onomatopoeia.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 174.5,
+     "end": 178.0,
+     "ja": "インターネットで買い物をしたという時の言葉です。",
+     "en": "It's a word used when you shop on the internet.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 178.1,
+     "end": 180.7,
+     "ja": "もう最後の購入ボタンを押す、",
+     "en": "Pressing the final purchase button,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 180.7,
+     "end": 183.8,
+     "ja": "この時にポチッと音が鳴るので「ポチる」です。",
+     "en": "at that moment it clicks \"pochi\", hence \"pochiru.\"",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 290.8,
+   "end": 311.2,
+   "title": "The Meaning of Ataoka",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "comedy",
+    "friends"
+   ],
+   "grammar": [
+    "〜じゃない — isn't it? / aren't they?",
+    "〜のこと — referring to",
+    "〜たら — if / when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 291.0,
+     "end": 293.0,
+     "ja": "「ねえねえ見て、あの人。」",
+     "en": "\"Hey, look at that person.\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 293.0,
+     "end": 295.0,
+     "ja": "「あたおかじゃない？」",
+     "en": "\"Aren't they totally crazy?\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 295.0,
+     "end": 296.5,
+     "ja": "あたおか？",
+     "en": "Ataoka?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 296.5,
+     "end": 298.0,
+     "ja": "あたおかて誰？",
+     "en": "Who's Ataoka?",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 298.0,
+     "end": 300.5,
+     "ja": "これ、人の名前じゃないですよ。",
+     "en": "This isn't a person's name.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 300.5,
+     "end": 302.8,
+     "ja": "頭がおかしい人のことを、",
+     "en": "Referring to someone crazy in the head,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 302.8,
+     "end": 305.0,
+     "ja": "縮めて「あたおか」です。",
+     "en": "shortened, it's \"ataoka.\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 305.2,
+     "end": 307.2,
+     "ja": "まあいないと思うんだけど、もし、",
+     "en": "Well, I don't think there are any, but if",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 307.2,
+     "end": 310.0,
+     "ja": "本当にあたおかていう名前の子がいたら、",
+     "en": "there really is a kid named Ataoka,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 310.0,
+     "end": 311.0,
+     "ja": "ごめんね。",
+     "en": "I'm sorry.",
+     "speaker": "Hitoki"
+    }
+   ]
+  }
+ ],
+ "videoId": "DACyYF4NpC8",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

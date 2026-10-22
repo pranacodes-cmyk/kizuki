@@ -1,0 +1,155 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 43.2,
+   "end": 69.5,
+   "title": "Summary of the G20 Media Controversy",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜のか — indirect question",
+    "〜ものの — although",
+    "〜から — because / from"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 43.2,
+     "end": 46.4,
+     "ja": "何が起きている話なのかを説明すると、",
+     "en": "To explain what this situation is all about,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 46.5,
+     "end": 53.0,
+     "ja": "国際会議の場で先進国の金融政策が中国から激しく糾弾されて、",
+     "en": "an economic paper reported a dramatic story where developed nations' monetary policies were fiercely condemned by China,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 53.1,
+     "end": 58.5,
+     "ja": "日本側が守勢に回ったかのようなドラマチックな記事を経済紙が報じたものの、",
+     "en": "making it seem as if the Japanese side was put on the defensive, but",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 58.6,
+     "end": 63.2,
+     "ja": "当の財務相から「そもそも事前協議など一切やっていないし、",
+     "en": "the Finance Minister flatly dismissed it in public, saying, 'We never had prior consultations at all,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 63.3,
+     "end": 69.3,
+     "ja": "中国から批判された事実も全くない」と公式の場で叩き潰され、",
+     "en": "and there is no truth whatsoever to being criticized by China.'",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 146.3,
+   "end": 172.5,
+   "title": "The Nikkei Article at the G20",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "work"
+   ],
+   "grammar": [
+    "〜ていた — past continuous action",
+    "〜と題する — entitled / titled",
+    "〜のです — explanatory assertion"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 146.3,
+     "end": 155.8,
+     "ja": "１５日夕方、タイのバンコクで開かれていた２０カ国・地域（Ｇ２０）財務相・中央銀行総裁会議が閉幕しました。",
+     "en": "On the evening of the 15th, the G20 Finance Ministers and Central Bank Governors Meeting held in Bangkok, Thailand, came to a close.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 156.0,
+     "end": 167.0,
+     "ja": "その直後、日本経済新聞の電子版は「Ｇ２０閉幕、中国に批判された『悪い金利上昇』日米欧が守勢に」と題する、",
+     "en": "Immediately afterward, the online edition of the Nikkei published a bylined article entitled 'G20 Concludes, US, Japan and Europe on the Defensive Over Bad Interest Rate Hikes Criticized by China,'",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 167.1,
+     "end": 172.4,
+     "ja": "上田志晃記者の署名記事を配信したのです。",
+     "en": "written by reporter Shiko Ueda.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 208.3,
+   "end": 237.8,
+   "title": "Asking Viewers for Their Thoughts",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜になって — polite form of 〜て (honorific)",
+    "〜でしょうか — polite wondering / asking",
+    "〜と思われる — to seem / to be considered"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 208.3,
+     "end": 214.9,
+     "ja": "視聴者の皆さんは、この「日経新聞が存在しない事前協議で中国批判記事を飛ばし、",
+     "en": "How do you, the viewers, feel about this entire chain of events",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 215.0,
+     "end": 220.0,
+     "ja": "片山財務相に記者会見で名指し論破された一部始終」をご覧になって、",
+     "en": "where Nikkei fabricated an article about non-existent prior talks and was publicly refuted by the Finance Minister,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 220.1,
+     "end": 223.8,
+     "ja": "一体どのように感じられたでしょうか。",
+     "en": "upon witnessing it all?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 224.0,
+     "end": 229.8,
+     "ja": "「日経のあまりの杜撰さと捏造ぶりに呆れ果てた」と思われますか、",
+     "en": "Do you feel appalled by Nikkei's sheer sloppiness and fabrication,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 230.0,
+     "end": 237.8,
+     "ja": "もしくは「この決定的な瞬間を一切報じないテレビや大新聞の隠蔽体質に怒りを覚える」でしょうか。",
+     "en": "or do you feel angry at the cover-up culture of TV and major papers that didn't report this crucial moment at all?",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "J3G8FO2QFnM",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

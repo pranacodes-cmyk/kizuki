@@ -1,0 +1,194 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 51.8,
+   "end": 119.5,
+   "title": "What Is a Conversation?",
+   "level": "N3",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜わけではない — not necessarily",
+    "〜たり〜たりする — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 52.0,
+     "end": 56.8,
+     "ja": "会話というのは自分だけが話すわけではありませんよね？",
+     "en": "A conversation isn't just you doing all the talking, right?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 57.0,
+     "end": 62.5,
+     "ja": "自分だけが5分も10分も15分も話していたら、",
+     "en": "If you're the only one talking for 5, 10, or 15 minutes,",
+     "speaker": "Akane"
+    },
+    {
+     "start": 62.8,
+     "end": 66.4,
+     "ja": "それはスピーチやプレゼンテーションだと思います。",
+     "en": "I think that's a speech or a presentation.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 66.6,
+     "end": 71.8,
+     "ja": "会話というのは相手が話すことを聞き取って理解して、",
+     "en": "A conversation means listening to and understanding what the other person says,",
+     "speaker": "Akane"
+    },
+    {
+     "start": 71.9,
+     "end": 74.0,
+     "ja": "自分も話す。",
+     "en": "and then speaking yourself.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 74.1,
+     "end": 79.3,
+     "ja": "お互いが聞いたり話したりするのが会話だと思います。",
+     "en": "I think listening and talking with each other is what makes a conversation.",
+     "speaker": "Akane"
+    }
+   ]
+  },
+  {
+   "start": 523.5,
+   "end": 554.7,
+   "title": "Practice Pronouncing Vowel Rows",
+   "level": "N3",
+   "topics": [
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "〜てもらう — have someone do",
+    "〜ようにする — make an effort to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 524.0,
+     "end": 530.5,
+     "ja": "五十音表を母音の段で読んでもらうっていうことです。",
+     "en": "It's having them read the 50-sound chart across the vowel rows.",
+     "speaker": "Fumi"
+    },
+    {
+     "start": 531.0,
+     "end": 534.0,
+     "ja": "日本語は母音がとっても大事なので、",
+     "en": "Vowels are extremely important in Japanese, so",
+     "speaker": "Fumi"
+    },
+    {
+     "start": 534.2,
+     "end": 539.8,
+     "ja": "「あかさたな」とか「いきしちに」の順で読んでもらいます。",
+     "en": "I have them read in rows like 'a-ka-sa-ta-na' or 'i-ki-shi-chi-ni'.",
+     "speaker": "Fumi"
+    },
+    {
+     "start": 540.3,
+     "end": 545.0,
+     "ja": "で、実はその「いきしちに」って言う時に鏡を見てもらって、",
+     "en": "And when they say 'i-ki-shi-chi-ni', I have them look in a mirror,",
+     "speaker": "Fumi"
+    },
+    {
+     "start": 545.2,
+     "end": 549.5,
+     "ja": "口の形が動いてないっていうことを確認してもらって、",
+     "en": "and check that the shape of their mouth isn't shifting,",
+     "speaker": "Fumi"
+    },
+    {
+     "start": 549.8,
+     "end": 554.2,
+     "ja": "できるだけ綺麗な発音になるようにしています。",
+     "en": "so that their pronunciation becomes as clean as possible.",
+     "speaker": "Fumi"
+    }
+   ]
+  },
+  {
+   "start": 758.2,
+   "end": 790.8,
+   "title": "Describe Your Day in Japanese",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜かどうか — whether or not",
+    "〜てみる — try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 758.5,
+     "end": 764.5,
+     "ja": "あとは、1日の終わりにその日の出来事を",
+     "en": "Also, at the end of the day, try practicing whether",
+     "speaker": "Akane"
+    },
+    {
+     "start": 764.6,
+     "end": 769.5,
+     "ja": "日本語ですぐに言えるかどうか練習してみるのもいい方法だと思います。",
+     "en": "you can immediately describe what happened in Japanese.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 770.0,
+     "end": 773.6,
+     "ja": "例えば、今日は乗っていた電車が遅延したとか、",
+     "en": "For instance, 'The train I was on was delayed today,'",
+     "speaker": "Akane"
+    },
+    {
+     "start": 773.8,
+     "end": 777.2,
+     "ja": "今日は同僚に服装を褒められたとか、",
+     "en": "or 'A coworker complimented my outfit today.'",
+     "speaker": "Akane"
+    },
+    {
+     "start": 777.5,
+     "end": 780.0,
+     "ja": "何でもいいと思うんですけれども、",
+     "en": "Anything is fine, but",
+     "speaker": "Akane"
+    },
+    {
+     "start": 780.3,
+     "end": 785.5,
+     "ja": "まずは自分の母語で考えて、それを日本語に翻訳しようと思った時に、",
+     "en": "when you think in your native language first and try to translate it,",
+     "speaker": "Akane"
+    },
+    {
+     "start": 785.8,
+     "end": 790.2,
+     "ja": "すぐに分からない動詞や名詞がたくさん出てくると思います。",
+     "en": "I think you'll find lots of verbs and nouns you don't know right away.",
+     "speaker": "Akane"
+    }
+   ]
+  }
+ ],
+ "videoId": "iIkEj1rZWa0",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

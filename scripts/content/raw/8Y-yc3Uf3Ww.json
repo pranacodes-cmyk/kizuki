@@ -1,0 +1,218 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 159.2,
+   "end": 180.5,
+   "title": "Rich Chocolate Ice Cocoa Review",
+   "level": "N3",
+   "topics": [
+    "food",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜感がある — to have a feel or sense of",
+    "〜割る — to dilute or mix with"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 159.5,
+     "end": 160.7,
+     "ja": "うま！",
+     "en": "Delicious!",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 160.8,
+     "end": 164.5,
+     "ja": "うまっ！めっちゃチョコレート感ある！",
+     "en": "Delicious! It really feels like chocolate!",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 164.8,
+     "end": 168.0,
+     "ja": "すんごい。「なんや、しょうもないうっすいココアやな」",
+     "en": "Amazing. I've often thought, 'What a cheap, watered-down cocoa,'",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 168.1,
+     "end": 171.0,
+     "ja": "って思ったこと何回かんねんけど、全然その感じなし！",
+     "en": "in the past, but this doesn't feel like that at all!",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 171.1,
+     "end": 172.4,
+     "ja": "攻め攻めの？",
+     "en": "Aggressively rich?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 172.5,
+     "end": 175.0,
+     "ja": "うん。今から水で半分で割っても飲めるかも。",
+     "en": "Yeah. You could probably still drink it diluted with half water.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 175.1,
+     "end": 176.4,
+     "ja": "そんな濃いんや。",
+     "en": "It's that rich?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 176.5,
+     "end": 180.0,
+     "ja": "濃くはないねんけど、まあちょうどいい感じの濃さ。",
+     "en": "It's not overly thick, but just the right richness.",
+     "speaker": "Hamaie"
+    }
+   ]
+  },
+  {
+   "start": 361.5,
+   "end": 385.5,
+   "title": "Tasting Convenience Store Fruit Tea",
+   "level": "N3",
+   "topics": [
+    "food",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ねんけど — but (Kansai dialect)",
+    "〜すぎる — too much / excessively"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 362.0,
+     "end": 364.5,
+     "ja": "うんま！！",
+     "en": "So good!!",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 365.8,
+     "end": 366.9,
+     "ja": "きてる？",
+     "en": "Hitting the spot?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 367.0,
+     "end": 370.5,
+     "ja": "爽やか〜！めっちゃ美味いねんけどこれ！",
+     "en": "So refreshing! This is ridiculously good!",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 370.7,
+     "end": 372.3,
+     "ja": "ほんまにフルーツティーって感じ。",
+     "en": "It really feels like proper fruit tea.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 372.4,
+     "end": 375.5,
+     "ja": "紅茶ベースやねんけど、フルーツの香り、",
+     "en": "It's black tea-based, but with the fruit aroma,",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 375.6,
+     "end": 379.8,
+     "ja": "もうミックスフルーツ感がすごい！",
+     "en": "the mixed fruit feeling is incredible!",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 380.2,
+     "end": 382.2,
+     "ja": "ほんで、ゴロゴロ系？",
+     "en": "And does it have chunky bits?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 382.3,
+     "end": 384.4,
+     "ja": "うん、めっちゃちゃんといっぱい果肉入ってる。",
+     "en": "Yeah, it's packed full of real fruit pulp.",
+     "speaker": "Hamaie"
+    }
+   ]
+  },
+  {
+   "start": 758.5,
+   "end": 775.5,
+   "title": "Drinking Soft-Serve Ice Cream",
+   "level": "N3",
+   "topics": [
+    "food",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜すぎる — too much / excessive",
+    "そのまんま — just like that / exactly as is"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 758.8,
+     "end": 761.8,
+     "ja": "めっちゃ飲むソフトクリーム！",
+     "en": "It really is drinkable soft serve!",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 762.0,
+     "end": 763.2,
+     "ja": "イメージ通り？",
+     "en": "Just like you imagined?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 763.3,
+     "end": 765.6,
+     "ja": "すごいわ。ソフトクリームすぎる。",
+     "en": "Amazing. It's totally soft-serve ice cream.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 765.8,
+     "end": 766.7,
+     "ja": "へえー。",
+     "en": "Wow.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 766.8,
+     "end": 771.5,
+     "ja": "マジで溶かしただけぐらいの感じ。めっちゃ飲むソフトクリーム！",
+     "en": "It literally tastes like melted soft serve. Truly drinkable soft cream!",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 771.8,
+     "end": 775.0,
+     "ja": "チョコソフトクリームの味、そのまんま再現してるわ。",
+     "en": "It faithfully reproduces the taste of chocolate soft serve.",
+     "speaker": "Hamaie"
+    }
+   ]
+  }
+ ],
+ "videoId": "8Y-yc3Uf3Ww",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

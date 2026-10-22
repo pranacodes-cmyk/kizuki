@@ -1,0 +1,160 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 146.5,
+   "end": 165.8,
+   "title": "Morning Routine During Lockdown",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜ています — ongoing or habitual action",
+    "〜てから — after doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 146.7,
+     "end": 149.8,
+     "ja": "例えば、私たちは朝早く起きますね。",
+     "en": "For example, we wake up early in the morning.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 149.8,
+     "end": 153.3,
+     "ja": "私は最近は６時に起きています。",
+     "en": "Recently, I've been waking up at 6:00.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 153.3,
+     "end": 159.8,
+     "ja": "６時に起きて、最近私はシャワーをして、朝ご飯を食べて、",
+     "en": "I get up at 6:00, and lately I take a shower and eat breakfast,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 159.8,
+     "end": 165.3,
+     "ja": "朝ご飯はコーヒーとスムージーを作って飲みますね。",
+     "en": "and for breakfast, I make coffee and a smoothie to drink.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 186.2,
+   "end": 206.0,
+   "title": "Morning Stretches with YouTube",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "sports"
+   ],
+   "grammar": [
+    "〜こと — nominalizer",
+    "〜ながら — doing while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 186.5,
+     "end": 191.5,
+     "ja": "朝ご飯の次にしていることは、朝のストレッチです。",
+     "en": "What I do after breakfast is my morning stretches.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 191.8,
+     "end": 194.0,
+     "ja": "ヨガでもないですね。",
+     "en": "It's not quite yoga.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 194.0,
+     "end": 197.5,
+     "ja": "ヨガまで本格的なことはしていないんですけれども、",
+     "en": "I don't do anything as serious as yoga, but...",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 197.5,
+     "end": 205.5,
+     "ja": "YouTubeのビデオを見ながら、朝のストレッチを10分ぐらいだけやっています。",
+     "en": "while watching YouTube videos, I do morning stretches for just about 10 minutes.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 293.0,
+   "end": 319.0,
+   "title": "Taking Turns Cooking Lunch",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "family"
+   ],
+   "grammar": [
+    "〜にする — decide on",
+    "〜という — that kind of / called"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 293.2,
+     "end": 295.2,
+     "ja": "そして、昼ご飯。",
+     "en": "And then, lunch.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 295.4,
+     "end": 299.0,
+     "ja": "最近は昼ご飯は当番制にしています。",
+     "en": "Recently, we've been taking turns making lunch on duty.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 299.0,
+     "end": 302.5,
+     "ja": "当番、係を決めているんだね。",
+     "en": "Duty roster—we assign roles, you see.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 302.5,
+     "end": 307.5,
+     "ja": "「今日は私が作ります、明日は旦那さんが作ります」みたいに、",
+     "en": "Like, \"Today I'll cook, tomorrow my husband will cook.\"",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 307.5,
+     "end": 309.8,
+     "ja": "まあ当番にしていて、",
+     "en": "Taking turns like that,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 309.8,
+     "end": 318.5,
+     "ja": "その昼の時間にレッスンがないとかミーティングがない人が昼ご飯を作る、という約束をしています。",
+     "en": "we have an agreement that whoever has no lessons or meetings at lunchtime makes lunch.",
+     "speaker": "Noriko"
+    }
+   ]
+  }
+ ],
+ "videoId": "AOsFg1vOWMQ",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

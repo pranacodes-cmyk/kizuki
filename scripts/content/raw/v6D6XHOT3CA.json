@@ -1,0 +1,256 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 16.0,
+   "end": 32.0,
+   "title": "A Day Shadowing the CEO Begins",
+   "level": "N4",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていただく — receiving a favor / doing humbly",
+    "〜ね — seeking agreement / casual affirmation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 16.2,
+     "end": 17.5,
+     "ja": "真生さん、おはようございます！",
+     "en": "Good morning, Mao-san!",
+     "speaker": "Staff"
+    },
+    {
+     "start": 17.5,
+     "end": 18.6,
+     "ja": "おはよう。",
+     "en": "Good morning.",
+     "speaker": "Mao"
+    },
+    {
+     "start": 19.0,
+     "end": 20.8,
+     "ja": "今日１日密着させていただきます。",
+     "en": "I'll be shadowing you all day today.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 20.9,
+     "end": 21.8,
+     "ja": "１日！？",
+     "en": "All day!?",
+     "speaker": "Mao"
+    },
+    {
+     "start": 21.9,
+     "end": 22.9,
+     "ja": "はい、１日です。",
+     "en": "Yes, all day.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 23.0,
+     "end": 23.8,
+     "ja": "よろしくお願いします。",
+     "en": "I look forward to working with you.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 23.8,
+     "end": 24.9,
+     "ja": "よろしくお願いします。",
+     "en": "Same here.",
+     "speaker": "Mao"
+    },
+    {
+     "start": 25.0,
+     "end": 26.5,
+     "ja": "まず最初は何ですか？",
+     "en": "What's first on the schedule?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 26.5,
+     "end": 29.8,
+     "ja": "今日は月曜の朝はね、毎週役員会議だね。",
+     "en": "Monday mornings are always board meetings.",
+     "speaker": "Mao"
+    },
+    {
+     "start": 29.8,
+     "end": 31.4,
+     "ja": "そちらの様子もよろしくお願いします。",
+     "en": "Please let us film that as well.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 31.4,
+     "end": 31.9,
+     "ja": "OK。",
+     "en": "OK.",
+     "speaker": "Mao"
+    }
+   ]
+  },
+  {
+   "start": 209.2,
+   "end": 227.5,
+   "title": "The Three Rules of Note-Taking",
+   "level": "N3",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜たほうがいい — had better / should",
+    "〜じゃん — isn't it / right?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 209.5,
+     "end": 211.2,
+     "ja": "これね、いつ使うかが大事なの。",
+     "en": "The key with this is when to use it.",
+     "speaker": "Mao"
+    },
+    {
+     "start": 211.2,
+     "end": 212.3,
+     "ja": "いつ使ったらいいんですか？",
+     "en": "When should we use it?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 212.3,
+     "end": 213.2,
+     "ja": "聞きたい？",
+     "en": "Want to know?",
+     "speaker": "Mao"
+    },
+    {
+     "start": 213.2,
+     "end": 214.3,
+     "ja": "聞きたいです。",
+     "en": "I do.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 214.3,
+     "end": 216.4,
+     "ja": "まずね、誰が見るの？って話と、",
+     "en": "First, who will look at it?",
+     "speaker": "Mao"
+    },
+    {
+     "start": 216.4,
+     "end": 218.4,
+     "ja": "後から見返すの？って話と、",
+     "en": "Second, will you review it later?",
+     "speaker": "Mao"
+    },
+    {
+     "start": 218.4,
+     "end": 220.7,
+     "ja": "共有する可能性あるの？っていうのと、",
+     "en": "And third, is there a chance you'll share it?",
+     "speaker": "Mao"
+    },
+    {
+     "start": 220.7,
+     "end": 223.5,
+     "ja": "その３つで整理して考えたほうがいい。",
+     "en": "You should organize your thinking around those three.",
+     "speaker": "Mao"
+    },
+    {
+     "start": 223.5,
+     "end": 227.2,
+     "ja": "まず誰が見るの？振り返るの？共有するの？分けるじゃん。",
+     "en": "First, you divide by: Who sees it? Review it? Share it?",
+     "speaker": "Mao"
+    }
+   ]
+  },
+  {
+   "start": 557.5,
+   "end": 573.5,
+   "title": "A Birthday Surprise on the Desk",
+   "level": "N4",
+   "topics": [
+    "work",
+    "fun"
+   ],
+   "grammar": [
+    "〜てある — state resulting from an action",
+    "〜ておく — doing something in advance"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 557.8,
+     "end": 558.6,
+     "ja": "え！？",
+     "en": "Wait, what!?",
+     "speaker": "Mao"
+    },
+    {
+     "start": 558.6,
+     "end": 560.0,
+     "ja": "わあ！",
+     "en": "Whoa!",
+     "speaker": "Staff"
+    },
+    {
+     "start": 560.0,
+     "end": 562.0,
+     "ja": "「祝38歳 素敵な１年を」",
+     "en": "\"Happy 38th Birthday, have a great year!\"",
+     "speaker": "Mao"
+    },
+    {
+     "start": 562.0,
+     "end": 564.4,
+     "ja": "むっちゃタバコ置いてある。",
+     "en": "There's so many cigarettes laid out.",
+     "speaker": "Mao"
+    },
+    {
+     "start": 564.4,
+     "end": 566.5,
+     "ja": "すごい！",
+     "en": "Amazing!",
+     "speaker": "Staff"
+    },
+    {
+     "start": 566.8,
+     "end": 568.9,
+     "ja": "誰これ？",
+     "en": "Who did this?",
+     "speaker": "Mao"
+    },
+    {
+     "start": 568.9,
+     "end": 571.0,
+     "ja": "ちょっと写真撮っておこう。",
+     "en": "Let me take a photo.",
+     "speaker": "Mao"
+    },
+    {
+     "start": 571.0,
+     "end": 573.0,
+     "ja": "嬉しいな。",
+     "en": "This makes me so happy.",
+     "speaker": "Mao"
+    }
+   ]
+  }
+ ],
+ "videoId": "v6D6XHOT3CA",
+ "pickTopics": [
+  "work"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

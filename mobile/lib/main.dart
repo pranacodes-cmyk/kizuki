@@ -9,12 +9,15 @@ import 'package:provider/provider.dart';
 import 'data/content.dart';
 import 'logic/logic.dart';
 import 'router.dart';
+import 'services/attribution.dart';
+import 'services/billing.dart';
 import 'services/notification_service.dart';
 import 'services/sync_service.dart';
 import 'state/app_state.dart';
 import 'theme/tokens.dart';
 import 'widgets/common.dart' show ScreenError;
 import 'widgets/toast.dart';
+import 'widgets/tracking_explainer.dart';
 import 'widgets/tour.dart';
 
 Future<void> main() async {
@@ -64,6 +67,13 @@ Future<void> startApp() async {
   unawaited(Content.load().then<void>((_) {}, onError: (Object e) => debugPrint('KIZUKI_ERROR content: $e')));
   unawaited(NotificationService.init().catchError((Object e) => debugPrint('KIZUKI_ERROR reminders: $e')));
   unawaited(SyncService.I.boot(app));
+  // Live store prices + subscription status (App Store / Google Play via RevenueCat).
+  // The store is the only source of Premium; the trial-ending reminder follows it.
+  Billing.onPremium = (p) {
+    app.applyPremium(p);
+    unawaited(NotificationService.scheduleTrialReminder(p.trialEndsAt));
+  };
+  unawaited(Billing.init().then((_) => Attribution.linkRevenueCat()));
 }
 
 class KizukiApp extends StatefulWidget {
@@ -107,6 +117,12 @@ class _KizukiAppState extends State<KizukiApp> {
     widget.app.addListener(_celebrate);
     widget.app.addListener(_reminders);
     _reminders();
+    // Meta install/open + Apple's tracking question, once the first screen is showing.
+    Attribution.explainTracking = () async {
+      final ctx = router.routerDelegate.navigatorKey.currentContext;
+      if (ctx != null && ctx.mounted) await showTrackingExplainer(ctx);
+    };
+    WidgetsBinding.instance.addPostFrameCallback((_) => unawaited(Attribution.start()));
   }
 
   @override

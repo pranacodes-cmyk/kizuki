@@ -1,0 +1,118 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 16.8,
+   "title": "Opening Thanks at the Press Conference",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "work"
+   ],
+   "grammar": [
+    "〜ていただく — receiving a favor politely",
+    "〜しかない — nothing but / only"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.0,
+     "end": 2.8,
+     "ja": "皆さん、こんばんは。",
+     "en": "Good evening, everyone.",
+     "speaker": "Moriyasu"
+    },
+    {
+     "start": 3.0,
+     "end": 6.5,
+     "ja": "今日もお忙しい中、お集まりいただきありがとうございます。",
+     "en": "Thank you for gathering here today despite your busy schedules.",
+     "speaker": "Moriyasu"
+    },
+    {
+     "start": 7.5,
+     "end": 16.3,
+     "ja": "私からも、あの、感謝の言葉しか出ないぐらいの気持ちでいます。",
+     "en": "I feel so grateful that words of thanks are truly all I can express.",
+     "speaker": "Moriyasu"
+    }
+   ]
+  },
+  {
+   "start": 500.3,
+   "end": 521.8,
+   "title": "Tactics and Squad Hierarchy",
+   "level": "N2",
+   "topics": [
+    "sports",
+    "work"
+   ],
+   "grammar": [
+    "〜し — listing reasons",
+    "〜かと言われれば — if asked whether",
+    "〜てもらう — to have someone do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 500.6,
+     "end": 505.4,
+     "ja": "そうですね。その時々の戦術的な起用がありますし、",
+     "en": "Well, we deploy players tactically depending on the situation,",
+     "speaker": "Moriyasu"
+    },
+    {
+     "start": 505.8,
+     "end": 512.6,
+     "ja": "26人いる中でも、全員が横一列かと言われればそうではないっていうところを、",
+     "en": "and if you ask whether all 26 players are on equal footing, that's not the case,",
+     "speaker": "Moriyasu"
+    },
+    {
+     "start": 513.2,
+     "end": 521.2,
+     "ja": "序列を決めて、出場をしてもらうっていうところを考えています。",
+     "en": "so we decide a pecking order when selecting who takes the pitch.",
+     "speaker": "Moriyasu"
+    }
+   ]
+  },
+  {
+   "start": 655.2,
+   "end": 666.0,
+   "title": "A Message of Praise for the Korean Team",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "culture"
+   ],
+   "grammar": [
+    "〜と思います — I think that",
+    "〜てあげる — to do something for someone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 655.5,
+     "end": 661.2,
+     "ja": "韓国の方々も、サッカーに関係してる方々、頑張ってると思いますので、",
+     "en": "The people involved in Korean soccer are also working hard, I believe, so...",
+     "speaker": "Moriyasu"
+    },
+    {
+     "start": 661.8,
+     "end": 665.2,
+     "ja": "はい。あの、褒める報道をしてあげてください。",
+     "en": "Yes. Please give them some positive coverage.",
+     "speaker": "Moriyasu"
+    }
+   ]
+  }
+ ],
+ "videoId": "b8JqM6dghvI",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

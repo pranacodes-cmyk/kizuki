@@ -1,0 +1,159 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 18.5,
+   "end": 48.0,
+   "title": "Visiting a Ryokan in Wakura Onsen",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜ています — ongoing state / result",
+    "〜てみましょう — let's try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.8,
+     "end": 23.5,
+     "ja": "今日は石川県和倉温泉に来ています。",
+     "en": "Today, I have come to Wakura Onsen in Ishikawa Prefecture.",
+     "speaker": "Maisy"
+    },
+    {
+     "start": 24.5,
+     "end": 27.5,
+     "ja": "温泉です。",
+     "en": "It's a hot spring.",
+     "speaker": "Maisy"
+    },
+    {
+     "start": 28.5,
+     "end": 30.5,
+     "ja": "旅館です。",
+     "en": "It's a ryokan.",
+     "speaker": "Maisy"
+    },
+    {
+     "start": 31.0,
+     "end": 37.5,
+     "ja": "旅館は温泉がある日本のホテルです。",
+     "en": "A ryokan is a Japanese hotel that has hot springs.",
+     "speaker": "Maisy"
+    },
+    {
+     "start": 39.8,
+     "end": 47.5,
+     "ja": "今日は旅館の日本語を一緒に見てみましょう。",
+     "en": "Today, let's explore Japanese used at a ryokan together.",
+     "speaker": "Maisy"
+    }
+   ]
+  },
+  {
+   "start": 468.5,
+   "end": 494.5,
+   "title": "What Is a Yukata?",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜のような — like / similar to",
+    "〜たり〜たりする — doing things like A and B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 468.8,
+     "end": 471.5,
+     "ja": "これが浴衣です。",
+     "en": "This is a yukata.",
+     "speaker": "Maisy"
+    },
+    {
+     "start": 472.0,
+     "end": 475.5,
+     "ja": "パジャマのような服です。",
+     "en": "It's clothes like pajamas.",
+     "speaker": "Maisy"
+    },
+    {
+     "start": 476.0,
+     "end": 482.0,
+     "ja": "夏や温泉で着る着物です。",
+     "en": "It's a kimono worn in summer or at hot springs.",
+     "speaker": "Maisy"
+    },
+    {
+     "start": 483.5,
+     "end": 487.5,
+     "ja": "みんな浴衣に着替えて、",
+     "en": "Everyone changes into a yukata,",
+     "speaker": "Maisy"
+    },
+    {
+     "start": 487.8,
+     "end": 494.0,
+     "ja": "温泉に行ったり食事をしたりします。",
+     "en": "and goes to the hot spring or has a meal.",
+     "speaker": "Maisy"
+    }
+   ]
+  },
+  {
+   "start": 753.0,
+   "end": 781.5,
+   "title": "Dinner Buffet at the Inn",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜だけ — as much as",
+    "〜が有名 — famous for"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 753.5,
+     "end": 756.5,
+     "ja": "夜ご飯を食べます。",
+     "en": "I'm having dinner.",
+     "speaker": "Maisy"
+    },
+    {
+     "start": 757.2,
+     "end": 763.5,
+     "ja": "バイキングで自分の好きな食べ物を、",
+     "en": "At the buffet, foods you like,",
+     "speaker": "Maisy"
+    },
+    {
+     "start": 764.0,
+     "end": 767.5,
+     "ja": "好きなだけ取ります。",
+     "en": "you take as much as you like.",
+     "speaker": "Maisy"
+    },
+    {
+     "start": 772.0,
+     "end": 781.0,
+     "ja": "能登は魚、海の食べ物が有名です。",
+     "en": "Noto is famous for fish and seafood.",
+     "speaker": "Maisy"
+    }
+   ]
+  }
+ ],
+ "videoId": "VL49nyIQzYs",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

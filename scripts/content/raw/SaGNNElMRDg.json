@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 27.2,
+   "end": 57.5,
+   "title": "Practicing Casual Japanese",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜てしまう — accidental action",
+    "〜とき — when doing something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 27.5,
+     "end": 34.0,
+     "ja": "私たちは友達や家族と話すときは",
+     "en": "When we talk to friends or family,",
+     "speaker": "Koko"
+    },
+    {
+     "start": 34.2,
+     "end": 37.6,
+     "ja": "タメ語を使います。",
+     "en": "we use casual speech.",
+     "speaker": "Koko"
+    },
+    {
+     "start": 38.0,
+     "end": 42.5,
+     "ja": "あ、今敬語を喋ってしまいました。",
+     "en": "Ah, I just spoke in polite language!",
+     "speaker": "Koko"
+    },
+    {
+     "start": 43.0,
+     "end": 49.6,
+     "ja": "家族や友達と話すときはタメ語を使うよ。",
+     "en": "When talking to family and friends, we use casual speech.",
+     "speaker": "Koko"
+    },
+    {
+     "start": 50.2,
+     "end": 57.3,
+     "ja": "だから、今日はタメ語を聞く練習をしようね。",
+     "en": "So today, let's practice listening to casual Japanese.",
+     "speaker": "Koko"
+    }
+   ]
+  },
+  {
+   "start": 110.0,
+   "end": 130.5,
+   "title": "What Is Design Festa?",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜という — called / known as",
+    "〜の略 — abbreviation of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 110.5,
+     "end": 117.3,
+     "ja": "みんなはデザフェスっていうイベントを知ってる？",
+     "en": "Do you all know an event called Dezafes?",
+     "speaker": "Koko"
+    },
+    {
+     "start": 117.8,
+     "end": 122.5,
+     "ja": "デザフェスはDesign Festaの略で、",
+     "en": "Dezafes is short for Design Festa,",
+     "speaker": "Koko"
+    },
+    {
+     "start": 122.5,
+     "end": 130.3,
+     "ja": "たくさんのアーティストがオリジナルの作品を販売するイベントだよ。",
+     "en": "and it's an event where many artists sell their original works.",
+     "speaker": "Koko"
+    }
+   ]
+  },
+  {
+   "start": 230.5,
+   "end": 301.0,
+   "title": "Buying a Ring at the Art Fair",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜って言ってた — quoted speech",
+    "〜ことにする — to decide on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 231.0,
+     "end": 238.6,
+     "ja": "私は会場でめっちゃ可愛いアクセサリーのお店を見つけたの。",
+     "en": "I found a super cute accessory shop at the venue.",
+     "speaker": "Koko"
+    },
+    {
+     "start": 239.0,
+     "end": 249.8,
+     "ja": "その作家さんは海外のビンテージパーツでアクセサリーを作ってるって言ってたよ。",
+     "en": "The creator said they make accessories using vintage parts from overseas.",
+     "speaker": "Koko"
+    },
+    {
+     "start": 250.2,
+     "end": 255.2,
+     "ja": "全部魅力的ですごく迷った。",
+     "en": "Everything was so charming that I couldn't decide.",
+     "speaker": "Koko"
+    },
+    {
+     "start": 255.3,
+     "end": 300.8,
+     "ja": "でも、白い指輪を買うことにしたんだ。",
+     "en": "But I decided to buy a white ring.",
+     "speaker": "Koko"
+    }
+   ]
+  }
+ ],
+ "videoId": "SaGNNElMRDg",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

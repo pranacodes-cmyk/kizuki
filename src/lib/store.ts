@@ -4,7 +4,8 @@ import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 
 import {
-  asksToday, currentStreak, dayKey, dayMs, dueWordKeys, emptyDay, newCard, wordCounts, wordKeyOf, wordStatus,
+  asksToday, currentStreak, dayKey, dayMs, dueWordKeys, emptyDay, newCard, wordCounts, wordKeyOf, wordLevel, wordStatus, withWordLevel,
+  type WordLevel,
   type Card, type DayActivity, type Stats, type WordLite,
 } from "./logic";
 
@@ -94,6 +95,8 @@ type Actions = {
   saveWord: (i: WordInput) => void;
   markKnown: (inputs: WordInput[]) => void;
   setWordStatus: (key: string, status: WordStatusValue) => void;
+  /** Kiku-style level menu: 0 ignored, 1–4 learning (reschedules the card), 5 known. */
+  setWordLevel: (key: string, level: WordLevel) => void;
   removeWord: (key: string) => void;
   setWordNote: (key: string, note: string) => void;
   answerWord: (key: string, updated: Card) => Card;
@@ -167,6 +170,13 @@ export const useApp = create<AppStore>()(
           if (!w) return;
           commit({ words: { ...get().words, [key]: { ...w, status, updatedAt: Date.now() } } });
         },
+        setWordLevel: (key, level) => {
+          const w = get().words[key];
+          if (!w) return;
+          const next = withWordLevel(w, level, Date.now());
+          if (next.status === w.status && next.card === w.card) return;
+          commit({ words: { ...get().words, [key]: { ...w, status: next.status, card: next.card, updatedAt: Date.now() } } });
+        },
         removeWord: (key) => get().setWordStatus(key, "removed"),
         setWordNote: (key, note) => {
           const w = get().words[key];
@@ -236,6 +246,12 @@ export const statsOf = (s: PersistedState): Stats => {
   const c = countsOf(s);
   return { clips: s.totals.clips, seconds: s.totals.seconds, words: c.saved, known: c.known, reviews: s.totals.reviews, streak: streakOf(s) };
 };
+/** Level badge for a saved word (0 ignored, 1–4 learning, 5 known); null when not saved. */
+export function tokenLevel(s: PersistedState, key: string): WordLevel | null {
+  const w = s.words[key];
+  if (!w || w.status === "removed") return null;
+  return wordLevel(w);
+}
 /** Underline status for a word in a transcript: new | learning | known | ignored. */
 export function tokenStatus(s: PersistedState, key: string): "new" | "learning" | "known" | "ignored" {
   const w = s.words[key];

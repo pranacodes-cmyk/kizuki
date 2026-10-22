@@ -1,0 +1,166 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 19.0,
+   "end": 46.5,
+   "title": "Two Sides to the Gion Festival",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜と思う — expressing intention",
+    "〜というと — speaking of",
+    "〜れる/られる — passive voice"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 19.0,
+     "end": 23.5,
+     "ja": "今回皆さんにお伝えしようと思うのは、祇園祭についてです。",
+     "en": "What I would like to tell everyone about this time is the Gion Festival.",
+     "speaker": "Taka"
+    },
+    {
+     "start": 23.6,
+     "end": 27.5,
+     "ja": "祇園祭というと、日本でもとても有名なお祭りですが、",
+     "en": "Speaking of the Gion Festival, it's a very famous festival in Japan, but...",
+     "speaker": "Taka"
+    },
+    {
+     "start": 27.6,
+     "end": 32.7,
+     "ja": "この祇園祭には表と裏が存在することは、あまり知られていません。",
+     "en": "It is not widely known that there are two sides to this festival.",
+     "speaker": "Taka"
+    },
+    {
+     "start": 32.8,
+     "end": 39.8,
+     "ja": "今回のお話では、祇園祭の表側と裏側という形でお話をしていきたいなと思います。",
+     "en": "In this video, I would like to talk about both the public side and the hidden side of the Gion Festival.",
+     "speaker": "Taka"
+    },
+    {
+     "start": 39.9,
+     "end": 46.5,
+     "ja": "ちょうどこの動画が配信される7月は、祇園祭が開催されますので、タイムリーなお話かなと思います。",
+     "en": "Since the festival takes place in July when this video is uploaded, I think it's quite timely.",
+     "speaker": "Taka"
+    }
+   ]
+  },
+  {
+   "start": 166.0,
+   "end": 186.0,
+   "title": "Why Were There 66 Floats Originally?",
+   "level": "N4",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜当初 — at the beginning of",
+    "〜んです — explaining reason"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 166.0,
+     "end": 169.2,
+     "ja": "しかし、祇園祭が始まった当初は、",
+     "en": "However, when the Gion Festival first began,",
+     "speaker": "Taka"
+    },
+    {
+     "start": 169.3,
+     "end": 172.5,
+     "ja": "この山鉾は66基ありました。",
+     "en": "there were 66 of these festival floats.",
+     "speaker": "Taka"
+    },
+    {
+     "start": 172.6,
+     "end": 175.4,
+     "ja": "この66にも理由があるんです。",
+     "en": "There is a reason for this number 66 as well.",
+     "speaker": "Taka"
+    },
+    {
+     "start": 175.5,
+     "end": 179.0,
+     "ja": "現在の日本の都道府県の数は、47都道府県ですね。",
+     "en": "Currently, the number of prefectures in Japan is 47, right?",
+     "speaker": "Taka"
+    },
+    {
+     "start": 179.1,
+     "end": 181.8,
+     "ja": "しかし、祇園祭が始まった時は、",
+     "en": "However, when the Gion Festival began,",
+     "speaker": "Taka"
+    },
+    {
+     "start": 181.9,
+     "end": 185.8,
+     "ja": "日本の国は66個あったんですね。",
+     "en": "Japan was made up of 66 provinces.",
+     "speaker": "Taka"
+    }
+   ]
+  },
+  {
+   "start": 537.0,
+   "end": 562.5,
+   "title": "July 17th and Noah's Ark",
+   "level": "N3",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜である — formal copula",
+    "〜とされる — is considered to be",
+    "〜ていく — action progressing forward"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 537.0,
+     "end": 544.7,
+     "ja": "祇園祭のメインイベントである山鉾巡行は、7月の17日に行われます。",
+     "en": "The main event of the Gion Festival, the Yamaboko parade, is held on July 17th.",
+     "speaker": "Taka"
+    },
+    {
+     "start": 544.8,
+     "end": 553.2,
+     "ja": "そして、この7月17日というのは、ノアの箱舟が陸地に漂着した日でもあるとされています。",
+     "en": "And July 17th is also said to be the day Noah's Ark made landfall.",
+     "speaker": "Taka"
+    },
+    {
+     "start": 553.6,
+     "end": 559.0,
+     "ja": "祇園祭とノアの箱舟、こんなのがなぜ出てくるんだ？",
+     "en": "The Gion Festival and Noah's Ark—why on earth does that come up?",
+     "speaker": "Taka"
+    },
+    {
+     "start": 559.1,
+     "end": 562.4,
+     "ja": "と思う方も多いと思いますが、話を先に進めていきましょう。",
+     "en": "Many of you may wonder, but let's go ahead and move the story forward.",
+     "speaker": "Taka"
+    }
+   ]
+  }
+ ],
+ "videoId": "VaUXGbxga3Q",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

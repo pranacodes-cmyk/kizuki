@@ -30,7 +30,10 @@ class Content {
     try {
     final raw = await rootBundle.loadString('assets/data/content.json');
     final dictRaw = await rootBundle.loadString('assets/data/dict.json');
-    final parsed = await compute(_parse, [raw, dictRaw]);
+    // Clips are sharded into parts (repo file-size limit); see scripts/content/build.ts.
+    final partNames = ((jsonDecode(raw) as Map<String, dynamic>)['parts'] as List?)?.cast<String>() ?? const <String>[];
+    final parts = await Future.wait(partNames.map((p) => rootBundle.loadString('assets/data/$p')));
+    final parsed = await compute(_parse, [raw, dictRaw, ...parts]);
     _instance = Content._(parsed.$1, parsed.$2, parsed.$3);
     return _instance!;
     } finally {
@@ -38,9 +41,9 @@ class Content {
     }
   }
 
-  /// Test hook: build from in-memory JSON.
-  static Content fromJson(String raw, String dictRaw) {
-    final p = _parse([raw, dictRaw]);
+  /// Test hook: build from in-memory JSON (the index plus its clip parts, when sharded).
+  static Content fromJson(String raw, String dictRaw, [List<String> parts = const []]) {
+    final p = _parse([raw, dictRaw, ...parts]);
     _instance = Content._(p.$1, p.$2, p.$3);
     return _instance!;
   }
@@ -48,7 +51,8 @@ class Content {
   static (Map<String, Video>, List<Clip>, Map<String, DictEntry>) _parse(List<String> input) {
     final j = jsonDecode(input[0]) as Map<String, dynamic>;
     final videos = (j['videos'] as Map<String, dynamic>).map((k, v) => MapEntry(k, Video(v['title'] as String, v['channel'] as String, v['channelUrl'] as String)));
-    final clips = (j['clips'] as List).map((c) => Clip.fromJson(c as Map<String, dynamic>)).toList();
+    final rawClips = j['clips'] as List? ?? [for (final part in input.skip(2)) ...((jsonDecode(part) as Map<String, dynamic>)['clips'] as List)];
+    final clips = rawClips.map((c) => Clip.fromJson(c as Map<String, dynamic>)).toList();
     final d = (jsonDecode(input[1]) as Map<String, dynamic>).map((k, v) => MapEntry(k, DictEntry.fromJson(v as Map<String, dynamic>)));
     return (videos, clips, d);
   }

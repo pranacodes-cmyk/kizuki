@@ -1,0 +1,163 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.5,
+   "end": 25.8,
+   "title": "Are We Doing Something Wrong?",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "friends",
+    "daily"
+   ],
+   "grammar": [
+    "〜てるところ — in the middle of doing",
+    "〜てる — ongoing state or action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.6,
+     "end": 12.0,
+     "ja": "井上暁海？",
+     "en": "Akimi Inoue?",
+     "speaker": "Kai"
+    },
+    {
+     "start": 12.8,
+     "end": 13.5,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Akimi"
+    },
+    {
+     "start": 13.7,
+     "end": 15.6,
+     "ja": "名前覚えとるとこやね。",
+     "en": "I was just trying to remember your name.",
+     "speaker": "Kai"
+    },
+    {
+     "start": 16.0,
+     "end": 17.6,
+     "ja": "ねえ、櫂はどうするの？",
+     "en": "Hey, what are you going to do, Kai?",
+     "speaker": "Akimi"
+    },
+    {
+     "start": 20.7,
+     "end": 21.8,
+     "ja": "私たち…",
+     "en": "Are we...",
+     "speaker": "Akimi"
+    },
+    {
+     "start": 23.0,
+     "end": 25.0,
+     "ja": "なんか悪いことしてる？",
+     "en": "...doing something bad?",
+     "speaker": "Kai"
+    }
+   ]
+  },
+  {
+   "start": 32.8,
+   "end": 45.0,
+   "title": "I'm Going to Tokyo",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜て — request / demand",
+    "〜たら — conditional if/when",
+    "〜から — because / so"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 33.0,
+     "end": 34.2,
+     "ja": "東京に行く。",
+     "en": "I'm going to Tokyo.",
+     "speaker": "Kai"
+    },
+    {
+     "start": 35.3,
+     "end": 36.6,
+     "ja": "東京で何するの？",
+     "en": "What will you do in Tokyo?",
+     "speaker": "Akimi"
+    },
+    {
+     "start": 37.0,
+     "end": 38.3,
+     "ja": "漫画で売れる。",
+     "en": "Make it big as a manga artist.",
+     "speaker": "Kai"
+    },
+    {
+     "start": 40.8,
+     "end": 42.4,
+     "ja": "帰るなんて言って。",
+     "en": "Tell me not to go home.",
+     "speaker": "Akimi"
+    },
+    {
+     "start": 42.6,
+     "end": 44.6,
+     "ja": "そしたら私、バカになれるから。",
+     "en": "Because then, I can just act like a fool.",
+     "speaker": "Akimi"
+    }
+   ]
+  },
+  {
+   "start": 46.0,
+   "end": 58.5,
+   "title": "Walking Together",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜かわからない — don't know whether",
+    "〜たい — want to do",
+    "〜てた — was doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 46.2,
+     "end": 48.4,
+     "ja": "どこまで続くか分からない。",
+     "en": "I don't know how long it will last.",
+     "speaker": "Kai"
+    },
+    {
+     "start": 48.8,
+     "end": 52.3,
+     "ja": "けれど、続くところまで共に歩きたい。",
+     "en": "Yet, I want to walk together for as long as it does.",
+     "speaker": "Kai"
+    },
+    {
+     "start": 53.8,
+     "end": 58.0,
+     "ja": "もっと一緒にいれるって思ってたんやけど…",
+     "en": "I thought we'd be able to stay together longer, but...",
+     "speaker": "Akimi"
+    }
+   ]
+  }
+ ],
+ "videoId": "nIrUeZnHH-Y",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

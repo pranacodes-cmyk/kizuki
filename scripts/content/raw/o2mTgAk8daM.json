@@ -1,0 +1,210 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 17.5,
+   "end": 39.8,
+   "title": "Asking where to meet for the festival",
+   "level": "N5",
+   "topics": [
+    "friends",
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜ましょう — let's",
+    "〜たらいいですか — where should I / what should I do?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.7,
+     "end": 20.9,
+     "ja": "アナさん、来週は花笠祭りです。",
+     "en": "Ana, next week is the Hanagasa Festival.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 21.3,
+     "end": 23.3,
+     "ja": "一緒に行きましょう。",
+     "en": "Let's go together.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 24.3,
+     "end": 25.4,
+     "ja": "はい、行きます！",
+     "en": "Yes, I'd love to go!",
+     "speaker": "Ana"
+    },
+    {
+     "start": 25.7,
+     "end": 27.5,
+     "ja": "どこに行ったらいいですか？",
+     "en": "Where should we meet?",
+     "speaker": "Ana"
+    },
+    {
+     "start": 28.5,
+     "end": 30.6,
+     "ja": "エアリィデパートは分かりますか？",
+     "en": "Do you know Airy Department Store?",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 31.4,
+     "end": 32.5,
+     "ja": "分かります。",
+     "en": "Yes, I know it.",
+     "speaker": "Ana"
+    },
+    {
+     "start": 33.3,
+     "end": 36.8,
+     "ja": "それでは、６時にエアリィデパートの前に",
+     "en": "Well then, could you come in front of Airy Department Store at 6 o'clock,",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 36.8,
+     "end": 38.6,
+     "ja": "来てもらっていいですか？",
+     "en": "if that's all right?",
+     "speaker": "Takashi"
+    }
+   ]
+  },
+  {
+   "start": 53.9,
+   "end": 72.8,
+   "title": "Simplified dialogue for Hanagasa Festival",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends",
+    "culture"
+   ],
+   "grammar": [
+    "〜ましょう — let's",
+    "〜たらいいですか — where should I / what should I do?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 54.3,
+     "end": 57.5,
+     "ja": "アナさん、来週は花笠祭りです。",
+     "en": "Ana, next week is the Hanagasa Festival.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 57.9,
+     "end": 59.9,
+     "ja": "一緒に行きましょう。",
+     "en": "Let's go together.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 60.9,
+     "end": 62.0,
+     "ja": "はい、行きます！",
+     "en": "Yes, I'll go!",
+     "speaker": "Ana"
+    },
+    {
+     "start": 62.2,
+     "end": 64.1,
+     "ja": "どこに行ったらいいですか？",
+     "en": "Where should I go?",
+     "speaker": "Ana"
+    },
+    {
+     "start": 65.1,
+     "end": 67.2,
+     "ja": "エアリィデパートは分かりますか？",
+     "en": "Do you know Airy Department Store?",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 68.0,
+     "end": 69.1,
+     "ja": "分かります。",
+     "en": "I know it.",
+     "speaker": "Ana"
+    }
+   ]
+  },
+  {
+   "start": 105.8,
+   "end": 123.6,
+   "title": "Arranging a meeting spot at the department store",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜かもしれない — might / may"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 106.3,
+     "end": 109.8,
+     "ja": "それでは、６時にエアリィデパートの前に来てください。",
+     "en": "Well then, please come in front of Airy Department Store at 6 o'clock.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 109.8,
+     "end": 110.8,
+     "ja": "いいですか？",
+     "en": "Is that okay?",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 111.4,
+     "end": 112.7,
+     "ja": "はい、いいです。",
+     "en": "Yes, that's fine.",
+     "speaker": "Ana"
+    },
+    {
+     "start": 113.6,
+     "end": 115.6,
+     "ja": "お祭りは人がたくさんいます。",
+     "en": "There are lots of people at the festival.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 116.1,
+     "end": 119.0,
+     "ja": "僕とアナさんは、すぐに会えないかもしれません。",
+     "en": "We might not be able to meet right away.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 119.5,
+     "end": 121.7,
+     "ja": "その時は、僕に電話をしてください。",
+     "en": "In that case, please call me.",
+     "speaker": "Takashi"
+    },
+    {
+     "start": 122.4,
+     "end": 123.4,
+     "ja": "分かりました。そうします。",
+     "en": "Understood. I'll do that.",
+     "speaker": "Ana"
+    }
+   ]
+  }
+ ],
+ "videoId": "o2mTgAk8daM",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

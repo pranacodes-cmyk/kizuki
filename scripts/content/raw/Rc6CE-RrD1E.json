@@ -1,0 +1,158 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 12.2,
+   "end": 32.5,
+   "title": "Self-Introduction and Opening",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "school"
+   ],
+   "grammar": [
+    "〜ている — ongoing action/state",
+    "〜と思う — thinking/expressing opinion"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 12.5,
+     "end": 14.7,
+     "ja": "私の名前は花。",
+     "en": "My name is Hana.",
+     "speaker": "Hana"
+    },
+    {
+     "start": 14.8,
+     "end": 17.5,
+     "ja": "東京の大学に通っています。",
+     "en": "I go to a university in Tokyo.",
+     "speaker": "Hana"
+    },
+    {
+     "start": 17.6,
+     "end": 22.3,
+     "ja": "今は大学の近くにある寮に住んでいます。",
+     "en": "Right now, I live in a dorm near the university.",
+     "speaker": "Hana"
+    },
+    {
+     "start": 22.5,
+     "end": 26.8,
+     "ja": "今日は私の一日を紹介します。",
+     "en": "Today, I will introduce my daily routine.",
+     "speaker": "Hana"
+    },
+    {
+     "start": 27.0,
+     "end": 32.2,
+     "ja": "最後まで聞くと、日本語の勉強に役に立つと思うよ。",
+     "en": "If you listen to the end, I think it will be helpful for studying Japanese!",
+     "speaker": "Hana"
+    }
+   ]
+  },
+  {
+   "start": 36.8,
+   "end": 55.5,
+   "title": "Morning Routine",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜たら — when / after doing",
+    "〜たり〜たりする — doing things like A and B"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.2,
+     "end": 40.5,
+     "ja": "私は毎朝8時半に起きます。",
+     "en": "I wake up at 8:30 every morning.",
+     "speaker": "Hana"
+    },
+    {
+     "start": 41.0,
+     "end": 44.2,
+     "ja": "起きたらまずスマホをチェック。",
+     "en": "When I wake up, first I check my smartphone.",
+     "speaker": "Hana"
+    },
+    {
+     "start": 44.8,
+     "end": 50.4,
+     "ja": "SNSを見たり、友達からのメッセージを確認したりします。",
+     "en": "I look at social media and check messages from friends.",
+     "speaker": "Hana"
+    },
+    {
+     "start": 51.0,
+     "end": 55.2,
+     "ja": "その後顔を洗って、服を着替えます。",
+     "en": "After that, I wash my face and change clothes.",
+     "speaker": "Hana"
+    }
+   ]
+  },
+  {
+   "start": 104.8,
+   "end": 127.5,
+   "title": "After Class and Part-Time Job",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜たら — when / after",
+    "〜から〜まで — from ... to ..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 105.1,
+     "end": 109.8,
+     "ja": "授業が終わったら17時からアルバイトです。",
+     "en": "When class finishes, I have a part-time job starting at 5:00 PM.",
+     "speaker": "Hana"
+    },
+    {
+     "start": 110.1,
+     "end": 113.6,
+     "ja": "今はレストランで働いています。",
+     "en": "Currently, I work at a restaurant.",
+     "speaker": "Hana"
+    },
+    {
+     "start": 114.0,
+     "end": 116.8,
+     "ja": "アルバイトは22時までです。",
+     "en": "The part-time job lasts until 10:00 PM.",
+     "speaker": "Hana"
+    },
+    {
+     "start": 117.2,
+     "end": 121.5,
+     "ja": "その後寮に帰って、シャワーを浴びます。",
+     "en": "After that, I return to the dorm and take a shower.",
+     "speaker": "Hana"
+    },
+    {
+     "start": 122.0,
+     "end": 126.8,
+     "ja": "いつも大体23時半くらいには寝ます。",
+     "en": "I usually go to sleep around 11:30 PM.",
+     "speaker": "Hana"
+    }
+   ]
+  }
+ ],
+ "videoId": "Rc6CE-RrD1E",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,203 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 74.0,
+   "end": 88.0,
+   "title": "A High Schooler Who Dreams of Acting",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜たい — wanting to do something",
+    "〜てしまう — unintentionally doing something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 74.3,
+     "end": 76.5,
+     "ja": "俳優になりたいんですか、将来？",
+     "en": "Do you want to become an actor in the future?",
+     "speaker": "Host"
+    },
+    {
+     "start": 76.8,
+     "end": 77.4,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Suzuki"
+    },
+    {
+     "start": 77.5,
+     "end": 80.0,
+     "ja": "どんな俳優になりたいとかありますか？",
+     "en": "What kind of actor do you want to become?",
+     "speaker": "Host"
+    },
+    {
+     "start": 80.1,
+     "end": 83.1,
+     "ja": "すごい僕、『HERO』っていう映画が好きで。",
+     "en": "I really love the movie called 'HERO'.",
+     "speaker": "Suzuki"
+    },
+    {
+     "start": 83.3,
+     "end": 84.8,
+     "ja": "え、キムタクさんのやつですか？",
+     "en": "Eh, the one with Kimutaku?",
+     "speaker": "Host"
+    },
+    {
+     "start": 85.0,
+     "end": 85.7,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Suzuki"
+    },
+    {
+     "start": 85.8,
+     "end": 86.4,
+     "ja": "ほい。",
+     "en": "Right.",
+     "speaker": "Host"
+    },
+    {
+     "start": 86.5,
+     "end": 88.0,
+     "ja": "やっぱキムタクさんかっこいいなーって",
+     "en": "I just thought, Kimutaku is so cool,",
+     "speaker": "Suzuki"
+    }
+   ]
+  },
+  {
+   "start": 128.5,
+   "end": 142.3,
+   "title": "Powering Up Before the Debate",
+   "level": "N4",
+   "topics": [
+    "school",
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ぞ — strong assertion / self-encouragement",
+    "〜たがる — showing signs of wanting / gathering (energy)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 128.8,
+     "end": 130.8,
+     "ja": "いやー！優勝するぞ！",
+     "en": "Yeah! We're gonna win!",
+     "speaker": "Nomura"
+    },
+    {
+     "start": 131.7,
+     "end": 135.0,
+     "ja": "今「いやー」って言うの何だったのかな？",
+     "en": "What was that 'yeah' just now about?",
+     "speaker": "Host"
+    },
+    {
+     "start": 135.5,
+     "end": 136.6,
+     "ja": "エネルギー溜めてたんです。",
+     "en": "I was gathering energy.",
+     "speaker": "Nomura"
+    },
+    {
+     "start": 136.7,
+     "end": 138.8,
+     "ja": "エネルギーを溜めてたかいね、「いやー」ってね。",
+     "en": "Gathering energy, like 'yeah!', right?",
+     "speaker": "Host"
+    },
+    {
+     "start": 138.9,
+     "end": 139.7,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Nomura"
+    },
+    {
+     "start": 139.8,
+     "end": 141.6,
+     "ja": "そうは見えなかったよ。",
+     "en": "It didn't look like that to me.",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 252.0,
+   "end": 269.0,
+   "title": "Why Tokyo Is at the Center of Japan",
+   "level": "N2",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜ており — continuous state (formal)",
+    "〜た方が — expressing recommendation/preference"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 252.8,
+     "end": 256.4,
+     "ja": "日本の経済の中心は東京であるという",
+     "en": "There is a shared global understanding",
+     "speaker": "Suzuki"
+    },
+    {
+     "start": 256.4,
+     "end": 258.1,
+     "ja": "世界の共通認識が生まれており、",
+     "en": "that Tokyo is the center of Japan's economy,",
+     "speaker": "Suzuki"
+    },
+    {
+     "start": 258.4,
+     "end": 261.3,
+     "ja": "企業は東京に本社を置いた方が",
+     "en": "and companies find it internationally advantageous",
+     "speaker": "Suzuki"
+    },
+    {
+     "start": 261.3,
+     "end": 263.2,
+     "ja": "国際的にも有利な状況にあります。",
+     "en": "to base their headquarters in Tokyo.",
+     "speaker": "Suzuki"
+    },
+    {
+     "start": 263.5,
+     "end": 267.3,
+     "ja": "次に、日本の政治や経済などが東京に一極集中していることから",
+     "en": "Next, explaining the problems that arise",
+     "speaker": "Suzuki"
+    },
+    {
+     "start": 267.3,
+     "end": 269.0,
+     "ja": "起きている問題を説明します。",
+     "en": "from Japan's politics and economy being unipolar in Tokyo.",
+     "speaker": "Suzuki"
+    }
+   ]
+  }
+ ],
+ "videoId": "TERqoDWWqgI",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

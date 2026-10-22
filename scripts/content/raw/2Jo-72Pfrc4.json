@@ -1,0 +1,210 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 36.8,
+   "end": 67.2,
+   "title": "Ordering a Burger at the Library",
+   "level": "N5",
+   "topics": [
+    "comedy",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜をください — please give me",
+    "〜ですよ — emphasis / informing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.2,
+     "end": 39.8,
+     "ja": "あ、あの、すみません！",
+     "en": "Ah, excuse me!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 40.0,
+     "end": 45.7,
+     "ja": "ハンバーガーとコカ・コーラをください！",
+     "en": "A hamburger and a Coca-Cola, please!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 48.3,
+     "end": 54.6,
+     "ja": "あの、ハンバーガーとコカ・コーラをください！",
+     "en": "Um, a hamburger and a Coca-Cola, please!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 55.7,
+     "end": 59.7,
+     "ja": "あのー、ここは図書館ですよ。",
+     "en": "Um, this is a library, you know.",
+     "speaker": "Librarian"
+    },
+    {
+     "start": 60.6,
+     "end": 63.4,
+     "ja": "はあっ！ごめんなさい！",
+     "en": "Gasp! I am so sorry!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 63.8,
+     "end": 66.5,
+     "ja": "ハンバーガーと…",
+     "en": "A hamburger and...",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 152.0,
+   "end": 179.0,
+   "title": "Interrogating the Monkey",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "animals"
+   ],
+   "grammar": [
+    "〜ている — ongoing action",
+    "〜時 — when..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 152.4,
+     "end": 154.0,
+     "ja": "おーい、サル。",
+     "en": "Hey, monkey.",
+     "speaker": "Police Officer"
+    },
+    {
+     "start": 154.3,
+     "end": 157.5,
+     "ja": "私の言ってることが分かりますか？",
+     "en": "Do you understand what I'm saying?",
+     "speaker": "Police Officer"
+    },
+    {
+     "start": 159.5,
+     "end": 161.7,
+     "ja": "おー、すごいな。",
+     "en": "Oh, impressive.",
+     "speaker": "Police Officer"
+    },
+    {
+     "start": 163.0,
+     "end": 164.4,
+     "ja": "じゃあ、あの、",
+     "en": "Well then, um,",
+     "speaker": "Police Officer"
+    },
+    {
+     "start": 164.6,
+     "end": 166.7,
+     "ja": "事故が起きた時、",
+     "en": "when the accident happened,",
+     "speaker": "Police Officer"
+    },
+    {
+     "start": 167.0,
+     "end": 169.7,
+     "ja": "子どもたちは何をしていましたか？",
+     "en": "what were the kids doing?",
+     "speaker": "Police Officer"
+    },
+    {
+     "start": 175.8,
+     "end": 177.9,
+     "ja": "あ、遊んでいましたか。",
+     "en": "Ah, they were playing?",
+     "speaker": "Police Officer"
+    },
+    {
+     "start": 178.3,
+     "end": 179.8,
+     "ja": "なるほど。",
+     "en": "I see.",
+     "speaker": "Police Officer"
+    }
+   ]
+  },
+  {
+   "start": 215.0,
+   "end": 241.8,
+   "title": "Who Was Driving the Car?",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "animals"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜かもしれない — might, may",
+    "〜ていました — past continuous"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 215.3,
+     "end": 218.0,
+     "ja": "お酒を飲んで酔っ払っていた。",
+     "en": "He was drinking alcohol and drunk.",
+     "speaker": "Police Officer"
+    },
+    {
+     "start": 218.4,
+     "end": 221.4,
+     "ja": "酔っ払いながら運転をしていたので、",
+     "en": "Because he was driving while drunk,",
+     "speaker": "Police Officer"
+    },
+    {
+     "start": 221.7,
+     "end": 224.2,
+     "ja": "事故になったのかもしれないな。",
+     "en": "that might have caused the accident.",
+     "speaker": "Police Officer"
+    },
+    {
+     "start": 225.0,
+     "end": 226.8,
+     "ja": "では、お猿さん。",
+     "en": "Now then, monkey.",
+     "speaker": "Police Officer"
+    },
+    {
+     "start": 227.1,
+     "end": 229.2,
+     "ja": "あなたは何をしていましたか？",
+     "en": "What were you doing?",
+     "speaker": "Police Officer"
+    },
+    {
+     "start": 236.6,
+     "end": 237.9,
+     "ja": "面白いね。",
+     "en": "Funny, isn't it?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 238.2,
+     "end": 241.4,
+     "ja": "サルが運転をしていました。",
+     "en": "The monkey was driving.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "2Jo-72Pfrc4",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

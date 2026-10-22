@@ -1,0 +1,197 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 79.2,
+   "end": 101.2,
+   "title": "The Hardworking Honor Student",
+   "level": "N2",
+   "topics": [
+    "school",
+    "daily",
+    "anime"
+   ],
+   "grammar": [
+    "〜ため — because / due to",
+    "〜んと — intending to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 79.5,
+     "end": 82.5,
+     "ja": "この者、母親との相性最悪だったため、",
+     "en": "Because things were terrible with her mother,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 82.6,
+     "end": 85.8,
+     "ja": "身一つで生きていかんと上京せり。",
+     "en": "she moved to Tokyo to survive on her own.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 86.0,
+     "end": 89.5,
+     "ja": "せっせと、それはそれはせっせとバイトし、",
+     "en": "Diligently—oh so diligently—she worked part-time,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 89.7,
+     "end": 94.0,
+     "ja": "生活費と学費を稼ぎ、何とか生計を立てにけり。",
+     "en": "earning living costs and tuition to scrape by.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 94.2,
+     "end": 98.2,
+     "ja": "学校ではまさに才色兼備、文武両道。",
+     "en": "At school, she was both talented and beautiful, excelling in academics and sports.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 98.5,
+     "end": 101.0,
+     "ja": "他の生徒たちも憧れる優等生。",
+     "en": "An honor student admired by all her peers.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 101.5,
+   "end": 122.5,
+   "title": "Model Student Barely Awake",
+   "level": "N3",
+   "topics": [
+    "school",
+    "comedy",
+    "anime"
+   ],
+   "grammar": [
+    "〜通り — just as / exactly like",
+    "〜たまま — left in a state",
+    "〜てよかった — glad that / relieved that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 101.8,
+     "end": 102.8,
+     "ja": "酒寄さん。",
+     "en": "Miss Sakayori.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 103.0,
+     "end": 103.7,
+     "ja": "はい！",
+     "en": "Present!",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 103.8,
+     "end": 106.0,
+     "ja": "ここでの「いたづらになりぬ」は、",
+     "en": "Here, \"itazura ni narinu\"",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 106.2,
+     "end": 107.8,
+     "ja": "動詞「なる」の連用形と、",
+     "en": "is the conjunctive form of the verb \"naru\",",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 108.0,
+     "end": 110.5,
+     "ja": "完了の助動詞「ぬ」の組み合わせです。",
+     "en": "combined with the perfective auxiliary \"nu\".",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 111.2,
+     "end": 112.8,
+     "ja": "はい、その通りです。",
+     "en": "Yes, that is correct.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 115.8,
+     "end": 117.5,
+     "ja": "危なー！",
+     "en": "That was close!",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 117.7,
+     "end": 120.0,
+     "ja": "目開けたまま気絶してたの",
+     "en": "I passed out with my eyes open,",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 120.1,
+     "end": 122.0,
+     "ja": "バレなくてよかったー！",
+     "en": "so glad nobody noticed!",
+     "speaker": "Iroha"
+    }
+   ]
+  },
+  {
+   "start": 231.5,
+   "end": 243.5,
+   "title": "A Shooting Star Wish",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "anime",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ように — hoping / praying that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 232.1,
+     "end": 233.5,
+     "ja": "流れ星！",
+     "en": "A shooting star!",
+     "speaker": "Boy"
+    },
+    {
+     "start": 233.8,
+     "end": 236.2,
+     "ja": "帝様の願いが叶いますように！",
+     "en": "May the Emperor's wish come true!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 236.5,
+     "end": 238.2,
+     "ja": "願い事？",
+     "en": "A wish?",
+     "speaker": "Iroha"
+    },
+    {
+     "start": 239.5,
+     "end": 242.5,
+     "ja": "こ、金……。",
+     "en": "M-Money...",
+     "speaker": "Iroha"
+    }
+   ]
+  }
+ ],
+ "videoId": "DK0zTkT4QSc",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

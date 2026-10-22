@@ -1,0 +1,231 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 25.5,
+   "end": 40.8,
+   "title": "Meeting the Mother",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family",
+    "friends"
+   ],
+   "grammar": [
+    "〜の — possessive particle",
+    "〜です — polite copula"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 25.9,
+     "end": 27.5,
+     "ja": "ただいまー。",
+     "en": "I'm home.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 27.8,
+     "end": 29.3,
+     "ja": "おかえり。",
+     "en": "Welcome home.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 29.5,
+     "end": 31.5,
+     "ja": "僕の母です。",
+     "en": "This is my mother.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 31.8,
+     "end": 33.5,
+     "ja": "はじめまして。",
+     "en": "Nice to meet you.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 33.9,
+     "end": 36.5,
+     "ja": "はじめまして、緑です。",
+     "en": "Nice to meet you, I'm Midori.",
+     "speaker": "Alien"
+    },
+    {
+     "start": 36.8,
+     "end": 38.0,
+     "ja": "あ、どうぞ。",
+     "en": "Ah, please come in.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 38.2,
+     "end": 40.2,
+     "ja": "お邪魔します。",
+     "en": "Excuse me for intruding.",
+     "speaker": "Alien"
+    }
+   ]
+  },
+  {
+   "start": 54.0,
+   "end": 72.0,
+   "title": "Asking Each Other's Age",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "何〜 — how many / what",
+    "〜歳 — age counter"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 54.4,
+     "end": 57.0,
+     "ja": "はじめまして、緑です。",
+     "en": "Nice to meet you, I'm Midori.",
+     "speaker": "Alien"
+    },
+    {
+     "start": 57.2,
+     "end": 59.8,
+     "ja": "はじめまして、トミです。",
+     "en": "Nice to meet you, I'm Tomi.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 60.0,
+     "end": 61.8,
+     "ja": "何歳ですか？",
+     "en": "How old are you?",
+     "speaker": "Alien"
+    },
+    {
+     "start": 62.0,
+     "end": 63.7,
+     "ja": "7歳です。",
+     "en": "I'm seven years old.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 64.0,
+     "end": 65.8,
+     "ja": "若いですね！",
+     "en": "You're young!",
+     "speaker": "Alien"
+    },
+    {
+     "start": 66.0,
+     "end": 67.5,
+     "ja": "何歳ですか？",
+     "en": "How old are you?",
+     "speaker": "Girl"
+    },
+    {
+     "start": 67.7,
+     "end": 69.1,
+     "ja": "5歳です。",
+     "en": "I'm five years old.",
+     "speaker": "Alien"
+    },
+    {
+     "start": 69.3,
+     "end": 71.8,
+     "ja": "え？年下ですか？",
+     "en": "Eh? You're younger than me?",
+     "speaker": "Girl"
+    }
+   ]
+  },
+  {
+   "start": 112.0,
+   "end": 130.8,
+   "title": "Meeting the Father",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family",
+    "comedy"
+   ],
+   "grammar": [
+    "〜ですか — question marker",
+    "〜ですね — agreement marker"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 112.3,
+     "end": 114.0,
+     "ja": "ただいまー。",
+     "en": "I'm home.",
+     "speaker": "Father"
+    },
+    {
+     "start": 114.3,
+     "end": 115.5,
+     "ja": "おかえり。",
+     "en": "Welcome home.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 115.9,
+     "end": 117.8,
+     "ja": "お兄さんですか？",
+     "en": "Is he your older brother?",
+     "speaker": "Alien"
+    },
+    {
+     "start": 118.0,
+     "end": 120.0,
+     "ja": "いえ、父です。",
+     "en": "No, he is my father.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 120.5,
+     "end": 122.5,
+     "ja": "え？お父さん？",
+     "en": "Eh? Your father?",
+     "speaker": "Alien"
+    },
+    {
+     "start": 122.7,
+     "end": 124.4,
+     "ja": "かっこいいですね！",
+     "en": "He looks so cool!",
+     "speaker": "Alien"
+    },
+    {
+     "start": 124.7,
+     "end": 126.5,
+     "ja": "え？本当ですか？",
+     "en": "Eh? Really?",
+     "speaker": "Father"
+    },
+    {
+     "start": 126.7,
+     "end": 128.7,
+     "ja": "ありがとうございます！",
+     "en": "Thank you very much!",
+     "speaker": "Father"
+    },
+    {
+     "start": 128.8,
+     "end": 130.3,
+     "ja": "ハハハハ！",
+     "en": "Hahaha!",
+     "speaker": "Father"
+    }
+   ]
+  }
+ ],
+ "videoId": "GUqFU5u7rLQ",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,165 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.1,
+   "end": 19.8,
+   "title": "Daiso Haul Video Introduction",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていく — will go on to do",
+    "〜ば嬉しい — would be glad if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.3,
+     "end": 8.0,
+     "ja": "皆さんこんにちは、ちゃんみいです。",
+     "en": "Hello everyone, this is Chanmii.",
+     "speaker": "Chanmii"
+    },
+    {
+     "start": 8.1,
+     "end": 11.3,
+     "ja": "今日はですね、100円ショップのダイソーさんで、",
+     "en": "Today, at the 100-yen shop Daiso,",
+     "speaker": "Chanmii"
+    },
+    {
+     "start": 11.3,
+     "end": 14.0,
+     "ja": "超大量にね、購入してきたので、",
+     "en": "I bought a huge haul of items,",
+     "speaker": "Chanmii"
+    },
+    {
+     "start": 14.0,
+     "end": 14.9,
+     "ja": "紹介していきたいと思います。",
+     "en": "so I'd like to share them with you.",
+     "speaker": "Chanmii"
+    },
+    {
+     "start": 15.0,
+     "end": 17.3,
+     "ja": "新商品もね、ちょこちょこあるので、",
+     "en": "There are quite a few new products too,",
+     "speaker": "Chanmii"
+    },
+    {
+     "start": 17.3,
+     "end": 18.5,
+     "ja": "少しでも参考になれば嬉しいです。",
+     "en": "so I hope this will be helpful.",
+     "speaker": "Chanmii"
+    },
+    {
+     "start": 18.6,
+     "end": 19.8,
+     "ja": "ではね、どんどん紹介していきたいと思います。",
+     "en": "Now, let's jump right in and introduce them.",
+     "speaker": "Chanmii"
+    }
+   ]
+  },
+  {
+   "start": 548.8,
+   "end": 568.5,
+   "title": "Stickers Are Getting So Expensive",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜じゃないですか — isn't it / as you know",
+    "〜ても — even if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 548.8,
+     "end": 555.5,
+     "ja": "やっぱ今めちゃめちゃ、その普通に市販の雑貨屋さんとかで買うシールって、めっちゃ高いじゃないですか。",
+     "en": "As you know, stickers you buy nowadays at regular variety stores are super expensive, right?",
+     "speaker": "Chanmii"
+    },
+    {
+     "start": 556.1,
+     "end": 559.2,
+     "ja": "もう安くても400円前後？",
+     "en": "Even the cheaper ones are around 400 yen, right?",
+     "speaker": "Chanmii"
+    },
+    {
+     "start": 559.4,
+     "end": 565.0,
+     "ja": "もう高くて、今ね、私900円とか見ました。あのキャラクターのやつで。",
+     "en": "They're so pricey; recently I saw ones that cost around 900 yen for character stickers.",
+     "speaker": "Chanmii"
+    },
+    {
+     "start": 565.2,
+     "end": 568.4,
+     "ja": "もう小学生とか買えないよね、お小遣いで。",
+     "en": "Elementary school kids can't even afford that with their allowance.",
+     "speaker": "Chanmii"
+    }
+   ]
+  },
+  {
+   "start": 944.0,
+   "end": 965.7,
+   "title": "The Perfect Clear Storage Box",
+   "level": "N3",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜すぎる — too / excessively",
+    "〜たら — when / if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 944.2,
+     "end": 949.5,
+     "ja": "違う形のものはね、使ってたんですけど、大きすぎて入ってなかったんですけど、",
+     "en": "I used to use one with a different shape, but it was too big and didn't fit.",
+     "speaker": "Chanmii"
+    },
+    {
+     "start": 949.8,
+     "end": 953.3,
+     "ja": "これがね、めちゃめちゃベストで、めっちゃ入るんですよ。",
+     "en": "This one is absolutely the best, and it holds so much.",
+     "speaker": "Chanmii"
+    },
+    {
+     "start": 953.6,
+     "end": 959.8,
+     "ja": "多分ダイソーさんの中でも、この透明なもの、300円以下の物では一番大きくって、",
+     "en": "Among Daiso's clear containers under 300 yen, this is probably the biggest,",
+     "speaker": "Chanmii"
+    },
+    {
+     "start": 960.0,
+     "end": 965.5,
+     "ja": "これにね、収納してたらめちゃめちゃ良かったので、これをね、3つ追加で購入しました。",
+     "en": "and storing things in it worked so well that I bought three more.",
+     "speaker": "Chanmii"
+    }
+   ]
+  }
+ ],
+ "videoId": "NzjRIoHcRAM",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

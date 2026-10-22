@@ -1,0 +1,223 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 69.5,
+   "end": 90.8,
+   "title": "Golden Gate Multiplied",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜ている — ongoing state",
+    "〜まで — until"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 69.5,
+     "end": 73.8,
+     "ja": "x = y が成り立ってる時は、3x = 3y は当然成り立つよねっていう話ね。",
+     "en": "If x = y holds true, then 3x = 3y obviously holds true too, right?",
+     "speaker": "山本"
+    },
+    {
+     "start": 74.2,
+     "end": 78.4,
+     "ja": "それで成り立つから、ゴールデンゲート x ＝ ゴールデンゲート y が成り立つ。",
+     "en": "Since that holds true, Golden Gate x = Golden Gate y holds true.",
+     "speaker": "山上"
+    },
+    {
+     "start": 78.7,
+     "end": 80.9,
+     "ja": "数字というものをご存知でない！？",
+     "en": "Do you not know what numbers are?!",
+     "speaker": "山上"
+    },
+    {
+     "start": 81.2,
+     "end": 86.5,
+     "ja": "正解で+1ポイント、間違えたら誰かが間違えるまでお休みと。全部で7問あります。",
+     "en": "A correct answer is +1 point, and if you miss, you sit out until someone else misses. There are 7 questions in total.",
+     "speaker": "河村"
+    },
+    {
+     "start": 87.7,
+     "end": 90.6,
+     "ja": "すごいフリだね。「7問も無理でしょ」。",
+     "en": "That's quite a setup. \"There's no way we can do 7 questions!\"",
+     "speaker": "山本"
+    }
+   ]
+  },
+  {
+   "start": 94.8,
+   "end": 118.8,
+   "title": "Blue-Eyes White Dragon",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun",
+    "anime"
+   ],
+   "grammar": [
+    "〜しかない — nothing but / only",
+    "〜てる — ongoing action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 94.8,
+     "end": 97.4,
+     "ja": "アメリカのブルーアイズ・ホワイト...",
+     "en": "America's Blue-Eyes White...",
+     "speaker": "河村"
+    },
+    {
+     "start": 103.8,
+     "end": 106.7,
+     "ja": "えーと、これはブルーアイズ・ホワイト・ドラゴン！",
+     "en": "Uh, this is Blue-Eyes White Dragon!",
+     "speaker": "ふくら"
+    },
+    {
+     "start": 106.8,
+     "end": 107.8,
+     "ja": "正解！",
+     "en": "Correct!",
+     "speaker": "河村"
+    },
+    {
+     "start": 107.9,
+     "end": 109.8,
+     "ja": "おい、なんだよこれ！",
+     "en": "Hey, what is this?!",
+     "speaker": "山上"
+    },
+    {
+     "start": 110.0,
+     "end": 112.3,
+     "ja": "ブルーアイズ・ホワイトで始まる単語なんて、",
+     "en": "Any word that starts with \"Blue-Eyes White\"...",
+     "speaker": "山上"
+    },
+    {
+     "start": 112.5,
+     "end": 114.5,
+     "ja": "ブルーアイズ・ホワイト・ドラゴンしかないだろ！",
+     "en": "...can only be Blue-Eyes White Dragon!",
+     "speaker": "山上"
+    },
+    {
+     "start": 115.2,
+     "end": 117.0,
+     "ja": "問題読んで！問題読んで！",
+     "en": "Read the question! Read the question!",
+     "speaker": "ふくら"
+    },
+    {
+     "start": 117.1,
+     "end": 118.5,
+     "ja": "笑ってるやん、もう！",
+     "en": "You're already cracking up!",
+     "speaker": "山上"
+    }
+   ]
+  },
+  {
+   "start": 336.0,
+   "end": 360.0,
+   "title": "Great Barrier Reef",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜じゃん — casual confirmation (isn't it?)",
+    "〜た方が — had better / it's better to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 336.5,
+     "end": 338.0,
+     "ja": "帳だったのか！",
+     "en": "It was \"curtain\" (tobari)?!",
+     "speaker": "山上"
+    },
+    {
+     "start": 338.2,
+     "end": 339.2,
+     "ja": "帳だよ！",
+     "en": "It is \"curtain\"!",
+     "speaker": "ふくら"
+    },
+    {
+     "start": 339.3,
+     "end": 340.7,
+     "ja": "なんで気づかないんだよ！",
+     "en": "Why didn't you notice?!",
+     "speaker": "山本"
+    },
+    {
+     "start": 341.0,
+     "end": 343.0,
+     "ja": "「アリーフ」とか言ってたから。",
+     "en": "Because he said stuff like \"a reef\".",
+     "speaker": "ふくら"
+    },
+    {
+     "start": 344.8,
+     "end": 347.5,
+     "ja": "いや、グレーは灰色だと思うじゃん！",
+     "en": "Well, you'd naturally think \"gray\" meant the color gray!",
+     "speaker": "山本"
+    },
+    {
+     "start": 348.3,
+     "end": 352.0,
+     "ja": "今回はアリーフの方を聞いた方が解きやすい問題だったね。",
+     "en": "This time, listening for \"a reef\" made the question easier to solve.",
+     "speaker": "ふくら"
+    },
+    {
+     "start": 352.4,
+     "end": 354.4,
+     "ja": "解き方がブルーアイズじゃん！",
+     "en": "That's the same way you solved the Blue-Eyes one!",
+     "speaker": "山本"
+    },
+    {
+     "start": 354.6,
+     "end": 356.0,
+     "ja": "これ何なんだよ！",
+     "en": "What is going on here?!",
+     "speaker": "山上"
+    },
+    {
+     "start": 356.2,
+     "end": 357.7,
+     "ja": "何をすれば良いんだ俺たちは！",
+     "en": "What are we supposed to do?!",
+     "speaker": "山上"
+    },
+    {
+     "start": 358.0,
+     "end": 359.8,
+     "ja": "何が求められているんだ、このクイズは！",
+     "en": "What is this quiz demanding of us?!",
+     "speaker": "山上"
+    }
+   ]
+  }
+ ],
+ "videoId": "4JpUPnH32SM",
+ "pickTopics": [
+  "fun"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

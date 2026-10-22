@@ -1,0 +1,121 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 14.2,
+   "end": 28.4,
+   "title": "Is It Too Early for Shukatsu?",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜たことがない — have never done",
+    "〜かな — I wonder / right?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 14.4,
+     "end": 16.6,
+     "ja": "活動とかっていうのは？",
+     "en": "Have you done any planning activities?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 16.7,
+     "end": 18.9,
+     "ja": "特に考えたことないですね。",
+     "en": "I haven't really thought about it.",
+     "speaker": "Man"
+    },
+    {
+     "start": 18.9,
+     "end": 20.8,
+     "ja": "まだ早いなって感じですか？",
+     "en": "Does it feel like it's still too early?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 20.9,
+     "end": 22.1,
+     "ja": "早いかな？",
+     "en": "A bit early, maybe?",
+     "speaker": "Man"
+    },
+    {
+     "start": 22.2,
+     "end": 23.7,
+     "ja": "ん〜…",
+     "en": "Hmm...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 23.7,
+     "end": 25.5,
+     "ja": "想像もあんまりしてない。",
+     "en": "I can't really imagine it yet.",
+     "speaker": "Man"
+    },
+    {
+     "start": 25.5,
+     "end": 28.1,
+     "ja": "そうですね、まだ先かなって感じですね。",
+     "en": "Right, it feels like it's still far in the future.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 32.5,
+   "end": 48.0,
+   "title": "Have Your Parents Done Any Planning?",
+   "level": "N3",
+   "topics": [
+    "family",
+    "culture"
+   ],
+   "grammar": [
+    "〜ている — continuous state",
+    "〜かもしれない — might / perhaps"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 32.8,
+     "end": 37.8,
+     "ja": "親御さんとか終活ってされてます？",
+     "en": "Are your parents doing any end-of-life planning?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 38.8,
+     "end": 41.6,
+     "ja": "して…聞いてはいないです。",
+     "en": "They haven't... I haven't heard about it.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 41.8,
+     "end": 45.4,
+     "ja": "こっそりしてるかもしれないけど…",
+     "en": "They might be doing it secretly, though...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 45.8,
+     "end": 47.6,
+     "ja": "聞いたことはないです。",
+     "en": "I haven't heard about it.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "4bWBIOZ2P3c",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

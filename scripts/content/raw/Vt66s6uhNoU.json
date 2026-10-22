@@ -1,0 +1,137 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 41.2,
+   "end": 52.2,
+   "title": "What Is a Haiku?",
+   "level": "N5",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜って — speaking of / casual topic marker",
+    "〜てみる — to try doing something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 41.5,
+     "end": 44.5,
+     "ja": "俳句ってなに？",
+     "en": "What's a haiku?",
+     "speaker": "A"
+    },
+    {
+     "start": 45.0,
+     "end": 48.0,
+     "ja": "短い詩のことだよ。",
+     "en": "It's a short poem.",
+     "speaker": "B"
+    },
+    {
+     "start": 48.5,
+     "end": 51.5,
+     "ja": "作ってみよう！",
+     "en": "Let's write one!",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 342.5,
+   "end": 360.8,
+   "title": "Throwing Beans for Setsubun",
+   "level": "N4",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜てる — ongoing action",
+    "〜の — explanatory sentence ending"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 342.8,
+     "end": 346.5,
+     "ja": "なんで豆を投げてるの？",
+     "en": "Why are you throwing beans?",
+     "speaker": "A"
+    },
+    {
+     "start": 347.0,
+     "end": 350.0,
+     "ja": "節分だよ。",
+     "en": "It's Setsubun.",
+     "speaker": "B"
+    },
+    {
+     "start": 351.0,
+     "end": 354.8,
+     "ja": "悪いものを追い出すの。",
+     "en": "We drive out evil spirits.",
+     "speaker": "B"
+    },
+    {
+     "start": 355.3,
+     "end": 357.3,
+     "ja": "鬼は外！",
+     "en": "Demons out!",
+     "speaker": "B"
+    },
+    {
+     "start": 357.8,
+     "end": 360.3,
+     "ja": "福は内！",
+     "en": "Fortune in!",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 461.7,
+   "end": 473.5,
+   "title": "Relaxing at an Onsen",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜たことがある — have experienced",
+    "〜が好き — to like something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 462.0,
+     "end": 465.3,
+     "ja": "温泉に行ったことある？",
+     "en": "Have you been to an onsen?",
+     "speaker": "A"
+    },
+    {
+     "start": 465.8,
+     "end": 469.0,
+     "ja": "うん、すごく気持ちよかった。",
+     "en": "Yeah, it was so relaxing.",
+     "speaker": "B"
+    },
+    {
+     "start": 469.5,
+     "end": 473.0,
+     "ja": "露天風呂が好き！",
+     "en": "I love open-air baths!",
+     "speaker": "A"
+    }
+   ]
+  }
+ ],
+ "videoId": "Vt66s6uhNoU",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

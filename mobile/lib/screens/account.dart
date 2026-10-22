@@ -100,7 +100,7 @@ class _AccountScreenState extends State<AccountScreen> {
       if (mode == 'signup') {
         final res = await auth.signUp(email: _email.text.trim(), password: _password.text, emailRedirectTo: AppConfig.webOrigin, data: name.isEmpty ? null : {'name': name});
         if (res.session == null) {
-          setState(() => sent = 'confirm');
+          if (mounted) setState(() => sent = 'confirm');
           return;
         }
       } else {
@@ -108,6 +108,7 @@ class _AccountScreenState extends State<AccountScreen> {
         toast('Welcome back!', icon: '👋');
       }
       SyncService.I.session = auth.currentSession;
+      if (!mounted) return;
       await _finish();
     } catch (e) {
       if (mounted) setState(() => error = friendlyAuthError(e));
@@ -126,9 +127,9 @@ class _AccountScreenState extends State<AccountScreen> {
     if (!await _backend()) return;
     try {
       await Supabase.instance.client.auth.resetPasswordForEmail(em, redirectTo: '${AppConfig.webOrigin}/reset-password');
-      setState(() => sent = 'reset');
+      if (mounted) setState(() => sent = 'reset');
     } catch (e) {
-      setState(() => error = friendlyAuthError(e));
+      if (mounted) setState(() => error = friendlyAuthError(e));
     } finally {
       if (mounted) setState(() => busy = false);
     }

@@ -1,0 +1,145 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 43.0,
+   "end": 63.0,
+   "title": "Arranging Shoes at the Entrance",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜時 — when doing",
+    "〜への — toward / for"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 43.0,
+     "end": 46.5,
+     "ja": "例えば、朝起きて家を出る時、",
+     "en": "For example, when waking up in the morning and leaving the house,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 46.5,
+     "end": 50.2,
+     "ja": "玄関で靴を揃える人が多いですね。",
+     "en": "many people arrange their shoes neatly at the entrance.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 50.5,
+     "end": 55.0,
+     "ja": "靴を揃えることは、ただの習慣ではありません。",
+     "en": "Lining up your shoes isn't just a habit.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 55.3,
+     "end": 57.8,
+     "ja": "自分の心を整える、",
+     "en": "It is settling your own mind,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 58.0,
+     "end": 62.5,
+     "ja": "そして次に使う人への思いやりでもあります。",
+     "en": "and also consideration for the next person who will use it.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 171.5,
+   "end": 192.5,
+   "title": "Enjoying Cherry Blossoms in Spring",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜になると — when it becomes",
+    "〜ながら — while doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 171.8,
+     "end": 176.5,
+     "ja": "春になると、多くの人が桜を見に行きます。",
+     "en": "When spring comes, many people go to see the cherry blossoms.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 176.8,
+     "end": 182.8,
+     "ja": "公園や川の近くには、ピンク色の花が静かに咲きます。",
+     "en": "In parks and near rivers, pink blossoms quietly bloom.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 183.0,
+     "end": 189.5,
+     "ja": "人々はシートを広げて、ゆっくりと桜を見ながら時間を過ごします。",
+     "en": "People spread out picnic mats and spend time quietly viewing the cherry blossoms.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 189.8,
+     "end": 192.2,
+     "ja": "これを「花見」と言います。",
+     "en": "This is called hanami.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 289.0,
+   "end": 307.5,
+   "title": "Winter Days Around the Kotatsu",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜たり〜たりする — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 289.2,
+     "end": 295.2,
+     "ja": "家の中では、こたつに入りながらみかんを食べる人も多いです。",
+     "en": "Inside the house, many people eat mandarins while sitting under a kotatsu.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 295.5,
+     "end": 300.8,
+     "ja": "こたつに入ると、時間がゆっくり流れるように感じます。",
+     "en": "When you enter a kotatsu, it feels like time flows slowly.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 301.0,
+     "end": 307.0,
+     "ja": "テレビを見たり、何もしずぼんやりしたりする時間も大切です。",
+     "en": "Time spent watching TV or doing nothing and spacing out is important, too.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "omtHFw8JRmI",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

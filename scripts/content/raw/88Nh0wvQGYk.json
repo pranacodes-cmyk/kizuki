@@ -1,0 +1,211 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.6,
+   "end": 24.5,
+   "title": "Can Japanese Speak Without Loanwords?",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜ずに — without doing",
+    "〜てみる — try doing",
+    "〜ものだ — nature of things / general truth"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.6,
+     "end": 2.5,
+     "ja": "皆さんこんにちは、アジアンボスのKeiです。",
+     "en": "Hey guys, it's Kei from Asian Boss.",
+     "speaker": "Kei"
+    },
+    {
+     "start": 2.7,
+     "end": 7.0,
+     "ja": "外来語とは外国語の単語をあまり形を変えずに取り入れたものですが、",
+     "en": "A loanword is a word adopted from a foreign language with little to no modification.",
+     "speaker": "Kei"
+    },
+    {
+     "start": 7.4,
+     "end": 12.8,
+     "ja": "日本の人々が英単語をどれだけ頻繁に使っているのか考えてみたことはありますか？",
+     "en": "Have you ever wondered how often Japanese people use English words?",
+     "speaker": "Kei"
+    },
+    {
+     "start": 13.3,
+     "end": 16.9,
+     "ja": "日本人は外来語なしでコミュニケーションが取れるものなんでしょうか？",
+     "en": "Can Japanese people \"communicate\" without using English loanwords?",
+     "speaker": "Kei"
+    },
+    {
+     "start": 17.0,
+     "end": 19.1,
+     "ja": "あ、コミュニケーションも英語でしたね。",
+     "en": "\"Communicate\" is also an English word.",
+     "speaker": "Kei"
+    },
+    {
+     "start": 19.3,
+     "end": 22.4,
+     "ja": "日本人は外来語なしで話ができるものなんでしょうか？",
+     "en": "Can Japanese people speak without using English loanwords?",
+     "speaker": "Kei"
+    },
+    {
+     "start": 22.7,
+     "end": 24.4,
+     "ja": "さあ、確認してみましょう。",
+     "en": "Let's go find out!",
+     "speaker": "Kei"
+    }
+   ]
+  },
+  {
+   "start": 87.7,
+   "end": 108.5,
+   "title": "Describing Video Camera Without English",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜けど — but / although",
+    "〜じゃない — is not",
+    "〜だめ — not allowed / must not"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 87.8,
+     "end": 89.8,
+     "ja": "写真機。",
+     "en": "Photo-machine.",
+     "speaker": "Man"
+    },
+    {
+     "start": 90.3,
+     "end": 92.5,
+     "ja": "でも今動画ですけどね。",
+     "en": "But this actually records videos.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 93.0,
+     "end": 95.4,
+     "ja": "録画、あ、録画機。",
+     "en": "Then, record-machine.",
+     "speaker": "Man"
+    },
+    {
+     "start": 96.0,
+     "end": 100.0,
+     "ja": "えー？何だろう。カメラじゃないし…",
+     "en": "What is it? It's not a camera...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 100.2,
+     "end": 101.5,
+     "ja": "あ、今外来語…",
+     "en": "That's a loanword.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 101.6,
+     "end": 103.1,
+     "ja": "外来語ダメですね。",
+     "en": "Right, it is.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 105.2,
+     "end": 106.2,
+     "ja": "へー。",
+     "en": "Huh...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 106.4,
+     "end": 108.0,
+     "ja": "分かりません。",
+     "en": "I have no idea.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 238.9,
+   "end": 261.0,
+   "title": "What Do You Call an Escalator?",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜にする — to notice / lay eyes on",
+    "〜だろ — right? (casual confirmation)",
+    "〜だろう — wonder / conjecture"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 238.9,
+     "end": 244.7,
+     "ja": "建物内とか駅でよく目にする、あの、動く階段のことって何て言いますか？",
+     "en": "What do you call a moving staircase often found within malls and subway stations?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 246.5,
+     "end": 252.1,
+     "ja": "動く階段はだって…それだって日本語にないだろ、だって。",
+     "en": "The moving stairs... I'm pretty sure there's no Japanese word for it.",
+     "speaker": "Man"
+    },
+    {
+     "start": 253.1,
+     "end": 255.0,
+     "ja": "エスカレーター。",
+     "en": "Escalator.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 255.6,
+     "end": 257.3,
+     "ja": "それ、英語じゃないですか？",
+     "en": "That's English!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 257.4,
+     "end": 258.7,
+     "ja": "英語ですよね。",
+     "en": "It is, isn't it.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 258.9,
+     "end": 260.7,
+     "ja": "何だろう、電動階段？",
+     "en": "Electronic stairs, maybe?",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "88Nh0wvQGYk",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

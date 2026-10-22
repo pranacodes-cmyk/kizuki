@@ -1,0 +1,107 @@
+{
+ "speech": "some",
+ "clips": [
+  {
+   "start": 439.5,
+   "end": 447.0,
+   "title": "Opening the Garlic Shrimp Box",
+   "level": "N5",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜そう — looks like / seems like",
+    "〜にする — to decide on"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 440.2,
+     "end": 442.5,
+     "ja": "3、2、1、オープン。",
+     "en": "Three, two, one, open.",
+     "speaker": "Man"
+    },
+    {
+     "start": 443.0,
+     "end": 444.5,
+     "ja": "うわ、うまそう！",
+     "en": "Whoa, that looks delicious!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 444.8,
+     "end": 445.9,
+     "ja": "こっちにする？",
+     "en": "Do you want this one?",
+     "speaker": "Man"
+    },
+    {
+     "start": 446.0,
+     "end": 446.8,
+     "ja": "ね！",
+     "en": "Yeah!",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 1526.5,
+   "end": 1536.0,
+   "title": "Tasting Blue Seal Ice Cream",
+   "level": "N5",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜好き — liking something",
+    "〜よな — seeking agreement"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1527.2,
+     "end": 1528.0,
+     "ja": "うん。",
+     "en": "Mm-hmm.",
+     "speaker": "Man"
+    },
+    {
+     "start": 1528.4,
+     "end": 1530.8,
+     "ja": "うわ、めっちゃ美味しい、これ！",
+     "en": "Whoa, this is super tasty!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 1531.2,
+     "end": 1532.8,
+     "ja": "めっちゃこれ好き。",
+     "en": "I really like this.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 1533.0,
+     "end": 1534.2,
+     "ja": "美味しいよな。",
+     "en": "It's good, isn't it?",
+     "speaker": "Man"
+    },
+    {
+     "start": 1534.4,
+     "end": 1535.3,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "Zr44HauGc5c",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

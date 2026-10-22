@@ -1,0 +1,176 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 13.0,
+   "end": 38.4,
+   "title": "Olivia Newton-John's Storied Career",
+   "level": "N2",
+   "topics": [
+    "music",
+    "culture"
+   ],
+   "grammar": [
+    "〜として — as / in the role of",
+    "〜と共に — together with",
+    "〜など — such as / and the like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 13.2,
+     "end": 19.4,
+     "ja": "イギリスで生まれ、幼いころオーストラリアに移住した、オリビア・ニュートン＝ジョンさん。",
+     "en": "Born in Britain and having moved to Australia in her youth, Olivia Newton-John.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 20.5,
+     "end": 24.4,
+     "ja": "1966年に歌手デビューし、",
+     "en": "She debuted as a singer in 1966,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 24.5,
+     "end": 28.7,
+     "ja": "「そよ風の誘惑」「フィジカル」などのヒット曲で、数々の賞に輝き、",
+     "en": "won numerous awards with hits like 'Have You Never Been Mellow' and 'Physical',",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 29.0,
+     "end": 34.5,
+     "ja": "俳優としても、ジョン・トラボルタさんと共に主演した映画『グリース』が大ヒットするなど、",
+     "en": "and as an actor, starred alongside John Travolta in the smash-hit movie 'Grease',",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 34.6,
+     "end": 38.0,
+     "ja": "世界的スターとなりました。",
+     "en": "becoming a worldwide star.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 39.0,
+   "end": 60.8,
+   "title": "Receiving the Japanese Decoration",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "music"
+   ],
+   "grammar": [
+    "〜として — for / on the grounds of",
+    "〜以上 — more than / over",
+    "〜て振り返る — to look back on doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 39.2,
+     "end": 44.8,
+     "ja": "今回、日本の音楽文化の発展と、良好な日豪関係の構築に貢献したとして、",
+     "en": "This time, for contributing to the development of Japanese music culture and positive Japan-Australia relations,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 44.9,
+     "end": 48.3,
+     "ja": "旭日小綬章を受章。",
+     "en": "she received the Order of the Rising Sun, Gold Rays with Rosette.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 49.2,
+     "end": 53.6,
+     "ja": "これまで、コンサートなどで10回以上来日していますが、",
+     "en": "She has visited Japan over 10 times for concerts and other events,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 53.7,
+     "end": 60.6,
+     "ja": "2015年、東日本大震災の被災地で行った特別公演をこう振り返りました。",
+     "en": "and looked back on the special performance she held in 2015 in the disaster-hit region of the Great East Japan Earthquake like this.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 96.3,
+   "end": 131.3,
+   "title": "Battling Cancer and Supporting Patients",
+   "level": "N2",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜ものの — although / despite",
+    "〜もあって — partly due to",
+    "〜を行う — to conduct / carry out"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 96.7,
+     "end": 100.8,
+     "ja": "実は、およそ20年前に乳がんを発症。",
+     "en": "In fact, she developed breast cancer roughly 20 years ago.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 101.0,
+     "end": 105.3,
+     "ja": "一旦回復したものの、4年前に3度目の再発が分かり、",
+     "en": "Although she once recovered, a third recurrence was discovered four years ago,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 105.4,
+     "end": 109.0,
+     "ja": "ステージ4の転移性がんと診断されました。",
+     "en": "and she was diagnosed with stage 4 metastatic cancer.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 109.6,
+     "end": 114.6,
+     "ja": "今は、医療大麻を使った治療などを行う夫の助けもあって、",
+     "en": "Now, partly with the help of her husband providing treatments such as medical cannabis,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 114.7,
+     "end": 118.7,
+     "ja": "痛みやがんの転移も抑えられているといい、",
+     "en": "the pain and cancer metastases are reportedly being kept under control,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 118.8,
+     "end": 124.0,
+     "ja": "自らの経験から、メルボルンにがんリサーチセンターを設立。",
+     "en": "and based on her own experience, she established a cancer research center in Melbourne.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 124.1,
+     "end": 131.1,
+     "ja": "検査の重要性の訴えや、患者の支援活動を積極的に行っています。",
+     "en": "She actively raises awareness about the importance of screenings and supports patients.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "dJgg4G_xbj8",
+ "pickTopics": [
+  "music"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

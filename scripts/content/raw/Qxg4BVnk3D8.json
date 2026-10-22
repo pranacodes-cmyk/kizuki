@@ -1,0 +1,197 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.2,
+   "end": 19.8,
+   "title": "Asking About People's Embarrassing Pasts",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "daily"
+   ],
+   "grammar": [
+    "〜に引き続き — continuing from",
+    "〜ていきたい — want to go on doing",
+    "〜ていただく — humbly receive an action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.4,
+     "end": 3.5,
+     "ja": "ちゃーお！みぽちだよー！",
+     "en": "Ciao! It's Mipochi!",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 3.6,
+     "end": 5.8,
+     "ja": "はい、やってまいりました、みぽチューブ！",
+     "en": "Alright, here we go, MipoTube!",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 5.9,
+     "end": 12.0,
+     "ja": "今日もこの間の動画に引き続き、黒歴史とか、やらかしちゃった系のことを聞いていきたいと思います！",
+     "en": "Today as well, continuing from the last video, I want to ask people about their embarrassing pasts and biggest mess-ups!",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 12.2,
+     "end": 15.0,
+     "ja": "いや、ホントこの企画、みぽ最近好きよ、マジで。",
+     "en": "Seriously, Mipo has really been loving this project lately, honestly.",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 15.2,
+     "end": 18.5,
+     "ja": "色んな人にね、黒歴史を聞いて楽しませていただいております。",
+     "en": "I've been having fun hearing about all kinds of people's dark pasts.",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 18.6,
+     "end": 19.8,
+     "ja": "聞いていくぞー！",
+     "en": "Let's go ask them!",
+     "speaker": "Mipochi"
+    }
+   ]
+  },
+  {
+   "start": 224.0,
+   "end": 243.5,
+   "title": "Losing 800,000 Yen on Payday",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜たその日に — on the very day of",
+    "くらい — about / roughly",
+    "ていうか — or rather / by the way"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 224.0,
+     "end": 227.7,
+     "ja": "今までにやらかしちゃった事とか、一番の黒歴史聞いてるんですよ。教えてください！",
+     "en": "I'm asking people about their biggest mistakes and darkest past. Tell me yours!",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 227.8,
+     "end": 232.3,
+     "ja": "給料もらったその日に潰れて、80万くらい無くなった。",
+     "en": "On the day I got my paycheck, I passed out drunk and lost about 800,000 yen.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 235.8,
+     "end": 237.3,
+     "ja": "ぶっ飛んでんなー！",
+     "en": "That is crazy!",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 237.4,
+     "end": 239.1,
+     "ja": "てか給料めっちゃ高くない？",
+     "en": "Wait, isn't your salary insanely high?",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 239.2,
+     "end": 241.2,
+     "ja": "たまたまなんか、たまたま。",
+     "en": "It just happened to be, just by chance.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 241.3,
+     "end": 243.2,
+     "ja": "たまたま80万円？",
+     "en": "By chance, 800,000 yen?",
+     "speaker": "Mipochi"
+    }
+   ]
+  },
+  {
+   "start": 309.5,
+   "end": 331.5,
+   "title": "Wrapping Up the Shibuya Street Interviews",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "travel"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜という風に思う — to think that...",
+    "〜てくれる — do something for me"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 309.7,
+     "end": 312.7,
+     "ja": "はい、ってな感じで黒歴史を聞いてきました！",
+     "en": "Alright, and that's how it went asking about people's dark pasts!",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 313.0,
+     "end": 317.3,
+     "ja": "マジでみんなぶっ飛びすぎ！本当にぶっ飛んでるなって思った。",
+     "en": "Seriously, everyone is way too wild! I really felt like they were out of their minds.",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 317.4,
+     "end": 322.5,
+     "ja": "あとなんかね、思ったのが、渋谷とやっぱ新宿は絶対違うから、人の層？",
+     "en": "Another thing I thought was, the demographic is definitely different between Shibuya and Shinjuku, right?",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 322.6,
+     "end": 325.8,
+     "ja": "みたいなのが違うから、次はね、ちょっと新宿でやってみたいなっていう風に思いました。",
+     "en": "Since that kind of thing is different, I thought I'd like to try this in Shinjuku next time.",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 326.0,
+     "end": 328.4,
+     "ja": "今日協力してくれた皆様、ありがとうございました！",
+     "en": "Thank you so much to everyone who cooperated today!",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 328.5,
+     "end": 330.8,
+     "ja": "チャンネル登録、高評価ボタン、よろしくお願いします！",
+     "en": "Please subscribe to the channel and hit the thumbs up button!",
+     "speaker": "Mipochi"
+    },
+    {
+     "start": 330.9,
+     "end": 331.7,
+     "ja": "ちゃーの！",
+     "en": "Ciao!",
+     "speaker": "Mipochi"
+    }
+   ]
+  }
+ ],
+ "videoId": "Qxg4BVnk3D8",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

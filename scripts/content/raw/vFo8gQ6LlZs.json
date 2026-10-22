@@ -1,0 +1,182 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 136.6,
+   "end": 160.5,
+   "title": "Naming the Cats After Baseball Players",
+   "level": "N3",
+   "topics": [
+    "animals",
+    "sports",
+    "fun"
+   ],
+   "grammar": [
+    "〜ことにする — decide to",
+    "〜っていう — called / named"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 136.9,
+     "end": 140.3,
+     "ja": "一応僕、広島カープのファンなので、野球の。",
+     "en": "I'm a fan of the Hiroshima Carp, the baseball team.",
+     "speaker": "Tokui"
+    },
+    {
+     "start": 140.5,
+     "end": 143.5,
+     "ja": "そのカープの選手の名前をつけよう。",
+     "en": "So I decided to name them after Carp players.",
+     "speaker": "Tokui"
+    },
+    {
+     "start": 144.5,
+     "end": 148.0,
+     "ja": "助っ人外国人選手の名前にしようってことで、",
+     "en": "I decided to go with foreign players' names,",
+     "speaker": "Tokui"
+    },
+    {
+     "start": 148.2,
+     "end": 152.2,
+     "ja": "エルドレッド、当時4番のすごいホームラン量産した、",
+     "en": "Eldred, who batted fourth back then and hit tons of home runs,",
+     "speaker": "Tokui"
+    },
+    {
+     "start": 152.5,
+     "end": 156.4,
+     "ja": "すごいバッターがいたんですけど、エルドレッドっていうのと、",
+     "en": "he was an amazing batter, so Eldred,",
+     "speaker": "Tokui"
+    },
+    {
+     "start": 156.7,
+     "end": 159.8,
+     "ja": "あとピッチャーのミコライオっていうのにしました。",
+     "en": "and then I named the other after the pitcher, Mickolio.",
+     "speaker": "Tokui"
+    }
+   ]
+  },
+  {
+   "start": 164.0,
+   "end": 182.2,
+   "title": "Two Very Different Personalities",
+   "level": "N3",
+   "topics": [
+    "animals",
+    "fun"
+   ],
+   "grammar": [
+    "〜て — connecting adjectives",
+    "〜なんですよ — explanatory assertion"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 164.2,
+     "end": 165.6,
+     "ja": "ミコは、",
+     "en": "As for Miko,",
+     "speaker": "Tokui"
+    },
+    {
+     "start": 165.8,
+     "end": 170.1,
+     "ja": "とにかく人懐っこくて、誰にでも愛想が良くて、",
+     "en": "she's super friendly and charming to everyone,",
+     "speaker": "Tokui"
+    },
+    {
+     "start": 170.3,
+     "end": 172.9,
+     "ja": "ほんま物怖じしないですね。",
+     "en": "she's really not shy at all.",
+     "speaker": "Tokui"
+    },
+    {
+     "start": 173.2,
+     "end": 177.2,
+     "ja": "で、エルはちょい繊細で、",
+     "en": "And El is a bit sensitive,",
+     "speaker": "Tokui"
+    },
+    {
+     "start": 177.6,
+     "end": 181.8,
+     "ja": "なんかもろにタイプの違う女子二人なんですよ。",
+     "en": "so they're two girls with completely different personalities.",
+     "speaker": "Tokui"
+    }
+   ]
+  },
+  {
+   "start": 239.0,
+   "end": 267.5,
+   "title": "The Cats' Aggressive Morning Wake-Up",
+   "level": "N3",
+   "topics": [
+    "animals",
+    "daily",
+    "comedy"
+   ],
+   "grammar": [
+    "〜られる — passive voice",
+    "〜ようとする — attempt to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 239.2,
+     "end": 243.8,
+     "ja": "大体まあ、6時から7時の間に起こされるんですよ。",
+     "en": "They usually wake me up between 6 and 7 in the morning.",
+     "speaker": "Tokui"
+    },
+    {
+     "start": 244.0,
+     "end": 249.2,
+     "ja": "エルが大体カリカリやってきて、こういう感じでカリカリやられて、",
+     "en": "El usually comes scratching at me like this,",
+     "speaker": "Tokui"
+    },
+    {
+     "start": 249.7,
+     "end": 252.6,
+     "ja": "で、カリカリしてても起きひんかったら、",
+     "en": "and if I don't wake up from that scratching,",
+     "speaker": "Tokui"
+    },
+    {
+     "start": 252.8,
+     "end": 258.4,
+     "ja": "寝てるTシャツとかを歯でブイーって、なんか猟奇的に引き裂こうとしてくる。",
+     "en": "she violently tries to rip the T-shirt I'm sleeping in with her teeth.",
+     "speaker": "Tokui"
+    },
+    {
+     "start": 258.9,
+     "end": 263.5,
+     "ja": "で、ミコが顔をもうめちゃくちゃ舐めてくる。",
+     "en": "And then Miko starts aggressively licking my face.",
+     "speaker": "Tokui"
+    },
+    {
+     "start": 263.8,
+     "end": 266.9,
+     "ja": "でもう起きなしゃあないから起きる。でご飯あげる。",
+     "en": "So I have no choice but to get up. And then I feed them.",
+     "speaker": "Tokui"
+    }
+   ]
+  }
+ ],
+ "videoId": "vFo8gQ6LlZs",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

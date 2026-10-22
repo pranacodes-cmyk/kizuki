@@ -1,0 +1,179 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 6.0,
+   "end": 24.0,
+   "title": "Welcome and Dish Introduction",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ましょう — let's do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 6.3,
+     "end": 8.5,
+     "ja": "皆さん、こんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 9.0,
+     "end": 11.2,
+     "ja": "ひらがなネットのあきこです。",
+     "en": "I'm Akiko from Hiragana Net.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 12.0,
+     "end": 14.2,
+     "ja": "今回の和食メニューは",
+     "en": "This time's Japanese dish is",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 14.6,
+     "end": 17.3,
+     "ja": "じゃがいものそぼろ煮です。",
+     "en": "simmered potatoes with minced meat.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 18.0,
+     "end": 20.1,
+     "ja": "とても簡単です。",
+     "en": "It's very easy.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 21.0,
+     "end": 23.5,
+     "ja": "では、一緒に作りましょう。",
+     "en": "Now, let's make it together.",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 114.5,
+   "end": 145.5,
+   "title": "Stir-Frying the Pork and Ginger",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜て — connecting actions",
+    "〜まで — until"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 114.8,
+     "end": 117.0,
+     "ja": "フライパンを温めて",
+     "en": "Heat the frying pan,",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 117.5,
+     "end": 119.8,
+     "ja": "油を入れます。",
+     "en": "and add oil.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 125.2,
+     "end": 128.0,
+     "ja": "豚のひき肉と",
+     "en": "Minced pork and...",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 132.4,
+     "end": 135.0,
+     "ja": "しょうがを入れます。",
+     "en": "...ginger go in.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 140.0,
+     "end": 144.8,
+     "ja": "肉の色が変わるまで炒めます。",
+     "en": "Stir-fry until the color of the meat changes.",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 356.5,
+   "end": 417.2,
+   "title": "Closing and Meat Alternatives",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ても — even if / also with",
+    "〜てみてください — please try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 356.8,
+     "end": 358.7,
+     "ja": "いかがでしたか？",
+     "en": "How was it?",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 359.4,
+     "end": 363.5,
+     "ja": "今回は豚のひき肉を使いました。",
+     "en": "This time, I used minced pork.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 404.2,
+     "end": 408.5,
+     "ja": "鶏肉や牛肉を使っても美味しくできます。",
+     "en": "It also turns out delicious using chicken or beef.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 409.3,
+     "end": 411.5,
+     "ja": "ぜひ作ってみてください。",
+     "en": "Please try making it yourself.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 412.4,
+     "end": 414.8,
+     "ja": "それでは、また会いましょう。",
+     "en": "Well then, see you again.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 415.3,
+     "end": 416.8,
+     "ja": "さようなら。",
+     "en": "Goodbye!",
+     "speaker": "Akiko"
+    }
+   ]
+  }
+ ],
+ "videoId": "iTswZuuKSPo",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

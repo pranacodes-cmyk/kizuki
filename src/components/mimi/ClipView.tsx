@@ -1,11 +1,11 @@
-import { Bookmark, CheckCheck, Pause, Play, Repeat1, RotateCcw, Type } from "lucide-react";
+import { Bookmark, CheckCheck, Pause, Play, Repeat1, RotateCcw } from "lucide-react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import type { Clip, ClipNotes, Content, Word } from "@/lib/content";
 import { loadNotes } from "@/lib/content";
 import { feedMoving } from "@/lib/feed-motion";
-import { wordKeyOf } from "@/lib/logic";
-import { tokenStatus, useApp, type WordInput } from "@/lib/store";
+import { pickTourWord, wordKeyOf } from "@/lib/logic";
+import { tokenLevel, tokenStatus, useApp, type WordInput } from "@/lib/store";
 import { TOUR_STEPS } from "@/lib/tour";
 import { tourEmit, useTour } from "@/lib/tour-store";
 import { toast } from "@/lib/ui-store";
@@ -109,6 +109,7 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
   }, [tourOn, tourStepId]);
 
   const statusOf = useCallback((w: Word): TokenStatus => tokenStatus({ words } as never, wordKeyOf(w.d, w.b || w.s)), [words]);
+  const levelOf = useCallback((w: Word) => tokenLevel({ words } as never, wordKeyOf(w.d, w.b || w.s)), [words]);
 
   const onWord = useCallback((li: number, wi: number) => {
     setSel({ line: li, idx: wi });
@@ -149,21 +150,10 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
   const loopRange = ll ? { start: ll.start - 0.1, end: ll.end + 0.15 } : null;
 
   const tour = (id: string) => (tourOn ? id : undefined);
-  // The word the welcome tour asks you to tap: the first new word from the current line on.
+  // The word the welcome tour asks you to tap: a new content word from the current line on.
   const tourWord = useMemo(() => {
     if (!tourOn) return null;
-    let any: { line: number; idx: number } | null = null;
-    for (let li = Math.max(0, current); li < clip.lines.length; li++) {
-      const words = clip.lines[li]!.words;
-      for (let wi = 0; wi < words.length; wi++) {
-        const w = words[wi]!;
-        if (w.p === "punct") continue;
-        if (statusOf(w) === "new") return { line: li, idx: wi };
-        any ??= { line: li, idx: wi };
-      }
-      if (any) return any;
-    }
-    return any;
+    return pickTourWord(clip.lines, current, (li, wi) => statusOf(clip.lines[li]!.words[wi]!) === "new");
   }, [tourOn, current, clip, statusOf]);
 
   return (
@@ -192,7 +182,8 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
         <button aria-label="Loop line" onClick={() => setLoopLine(loopLine != null ? null : Math.max(0, current))} className={cn("press flex h-10 w-10 items-center justify-center rounded-full", loopLine != null ? "text-primary" : "text-muted-foreground")}><Repeat1 className="h-[18px] w-[18px]" /></button>
         <button aria-label="Playback speed" onClick={() => setRate(SPEEDS[(SPEEDS.indexOf(rate as 1) + 1) % SPEEDS.length] ?? 1)} className={cn("press h-8 min-w-11 rounded-full px-2 text-[0.8125rem] font-black tabular", rate !== 1 ? "bg-primary/15 text-primary" : "text-muted-foreground")}>{rate}×</button>
         <button aria-label={savedClip ? "Unsave clip" : "Save clip"} onClick={() => { useApp.getState().toggleSavedClip(clip.id); if (!savedClip) toast({ icon: "🔖", title: "Clip saved", description: "Find it in Profile → Saved" }); }} className={cn("press flex h-10 w-10 items-center justify-center rounded-full", savedClip ? "text-primary" : "text-muted-foreground")}><Bookmark className={cn("h-[18px] w-[18px]", savedClip && "fill-current")} /></button>
-        <button aria-label="Display options" onClick={() => setDisplay(true)} className="press flex h-10 w-10 items-center justify-center rounded-full text-muted-foreground"><Type className="h-[18px] w-[18px]" /></button>
+        {/* "Aa", like the Display sheet's name (the welcome tour points at it by that name). */}
+        <button aria-label="Display options" onClick={() => setDisplay(true)} className="press flex h-10 w-10 items-center justify-center rounded-full text-[0.9375rem] font-black text-muted-foreground">Aa</button>
       </div>
 
       <div ref={scroller} onWheel={inFeed ? undefined : markUserScroll} onTouchMove={inFeed ? undefined : markUserScroll} className={cn("relative min-h-0 flex-1 no-scrollbar", inFeed ? "overflow-hidden" : "overflow-y-auto overscroll-contain")} style={{ paddingBottom: bottomInset }}>
@@ -206,7 +197,7 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
           </a>
         )}
         <div data-tour={tour("transcript")}>
-        <Transcript clip={clip} time={time} settings={settings} statusOf={statusOf} selected={cardOpen ? sel : null} onWord={onWord} onLine={seekLine} onLineMenu={(li) => { setMenuLine(li); setMenuOpen(true); }} tourWord={tourWord} />
+        <Transcript clip={clip} time={time} settings={settings} statusOf={statusOf} levelOf={levelOf} selected={cardOpen ? sel : null} onWord={onWord} onLine={seekLine} onLineMenu={(li) => { setMenuLine(li); setMenuOpen(true); }} tourWord={tourWord} />
         </div>
         {unknown.length > 0 && (
           <div className="px-4 pb-4">

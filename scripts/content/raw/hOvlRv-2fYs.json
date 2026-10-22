@@ -1,0 +1,174 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 4.56,
+   "end": 519.0,
+   "title": "The Fuji Five Lakes",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜の一つ — one of...",
+    "〜たことがある — to have experienced"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 456.5,
+     "end": 503.5,
+     "ja": "さっき見えた精進湖は、富士五湖の一つです。",
+     "en": "Lake Shoji, which we saw earlier, is one of the Fuji Five Lakes.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 504.0,
+     "end": 514.5,
+     "ja": "ほかに、河口湖、山中湖、西湖、本栖湖があります。",
+     "en": "Besides that, there are Lake Kawaguchi, Lake Yamanaka, Lake Sai, and Lake Motosu.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 515.0,
+     "end": 518.5,
+     "ja": "聞いたことのある名前はありましたか？",
+     "en": "Were there any names you've heard before?",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 620.5,
+   "end": 646.0,
+   "title": "Origin of the Word 'Bae'",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜からきている — to originate from",
+    "〜ようになる — to come to (do)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 621.0,
+     "end": 625.5,
+     "ja": "「映え」は、「映える」という動詞からきています。",
+     "en": "\"Bae\" comes from the verb \"haeru\".",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 626.0,
+     "end": 634.5,
+     "ja": "本来は、「はえる」と読んで、「ほかと比べても特に際立って美しい」という意味です。",
+     "en": "Originally read as \"haeru\", it means \"standing out as remarkably beautiful compared to others.\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 635.0,
+     "end": 645.5,
+     "ja": "でも、「インスタ映え」という言葉ができてからは、「はえる」ではなくて、「ばえる」とも言うようになりました。",
+     "en": "However, since the word \"Insta-bae\" emerged, people also started saying \"baeru\" instead of \"haeru\".",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 707.0,
+   "end": 735.5,
+   "title": "Buying Snacks at the Register",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "お〜いたす — humble action",
+    "〜てもよろしいですか — may I...?"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 707.3,
+     "end": 709.0,
+     "ja": "お待たせいたしました。",
+     "en": "Thank you for waiting.",
+     "speaker": "Cashier"
+    },
+    {
+     "start": 709.0,
+     "end": 711.0,
+     "ja": "お預かりいたします。",
+     "en": "I'll take these items.",
+     "speaker": "Cashier"
+    },
+    {
+     "start": 711.2,
+     "end": 713.2,
+     "ja": "こちら、袋にお入れしてもよろしいですか？",
+     "en": "May I put these in a bag for you?",
+     "speaker": "Cashier"
+    },
+    {
+     "start": 713.3,
+     "end": 714.4,
+     "ja": "あ、はい、お願いします。",
+     "en": "Ah, yes, please.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 714.4,
+     "end": 717.2,
+     "ja": "はい、かしこまりました。580円でございます。",
+     "en": "Certainly. That will be 580 yen.",
+     "speaker": "Cashier"
+    },
+    {
+     "start": 722.8,
+     "end": 724.5,
+     "ja": "はい、こちら、お先にお品物失礼します。",
+     "en": "Here are your items first.",
+     "speaker": "Cashier"
+    },
+    {
+     "start": 724.5,
+     "end": 725.5,
+     "ja": "あ、はい、どうも。",
+     "en": "Ah, yes, thank you.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 725.5,
+     "end": 727.5,
+     "ja": "600円お預かりいたします。",
+     "en": "Out of 600 yen.",
+     "speaker": "Cashier"
+    },
+    {
+     "start": 731.8,
+     "end": 733.5,
+     "ja": "20円とレシートのお渡しです。",
+     "en": "Here is your 20 yen change and receipt.",
+     "speaker": "Cashier"
+    },
+    {
+     "start": 733.5,
+     "end": 735.0,
+     "ja": "どうもありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "hOvlRv-2fYs",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

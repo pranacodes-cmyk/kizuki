@@ -1,0 +1,218 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 22.5,
+   "end": 35.0,
+   "title": "Turning 24 Years Old",
+   "level": "N4",
+   "topics": [
+    "sports",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていた — past continuous / state",
+    "〜ですか — question particle"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 22.8,
+     "end": 24.5,
+     "ja": "お誕生日おめでとうございます。",
+     "en": "Happy birthday.",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 24.7,
+     "end": 26.2,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Kubo"
+    },
+    {
+     "start": 29.0,
+     "end": 30.1,
+     "ja": "24歳？",
+     "en": "24 years old?",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 30.3,
+     "end": 31.2,
+     "ja": "24歳です。",
+     "en": "I'm 24.",
+     "speaker": "Kubo"
+    },
+    {
+     "start": 31.4,
+     "end": 35.0,
+     "ja": "どうですか、その、自分が思い描いていた24歳ですか？",
+     "en": "How is it? Is 24 what you envisioned it to be?",
+     "speaker": "Uchida"
+    }
+   ]
+  },
+  {
+   "start": 792.0,
+   "end": 812.5,
+   "title": "Living Life for the Third Time?",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜なんか — things/people like",
+    "〜ております — humble form of 〜ている"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 792.3,
+     "end": 794.2,
+     "ja": "3周目ですか？人生。",
+     "en": "Is this your third lap through life?",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 794.4,
+     "end": 796.3,
+     "ja": "一応、一応1周目なんですけど。",
+     "en": "Technically, it's my first lap though.",
+     "speaker": "Kubo"
+    },
+    {
+     "start": 796.5,
+     "end": 798.2,
+     "ja": "すごいですね、なんか。",
+     "en": "That's really impressive, honestly.",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 798.5,
+     "end": 801.7,
+     "ja": "それこそ多分あの、吉田選手なんかには、",
+     "en": "Players like Yoshida often tell me,",
+     "speaker": "Kubo"
+    },
+    {
+     "start": 801.8,
+     "end": 804.3,
+     "ja": "「お前は考えろ」っていうのよく言われるんで、",
+     "en": "\"You should think about the next generation,\"",
+     "speaker": "Kubo"
+    },
+    {
+     "start": 804.4,
+     "end": 807.0,
+     "ja": "たまに彼の顔が頭に浮かびますね。",
+     "en": "so his face pops into my head sometimes.",
+     "speaker": "Kubo"
+    },
+    {
+     "start": 807.8,
+     "end": 809.5,
+     "ja": "すいません、吉田が。",
+     "en": "I apologize on Yoshida's behalf.",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 809.6,
+     "end": 811.2,
+     "ja": "いつもお世話になっております。",
+     "en": "Thank you for always taking care of him.",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 811.3,
+     "end": 812.3,
+     "ja": "いえいえいえ。",
+     "en": "No, not at all.",
+     "speaker": "Kubo"
+    }
+   ]
+  },
+  {
+   "start": 921.4,
+   "end": 941.0,
+   "title": "Playing Spain Again in the World Cup",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜同士 — mutual / among",
+    "〜た方がいい — it is better to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 921.8,
+     "end": 924.3,
+     "ja": "やっぱり次のワールドカップでもスペインとやりたいですか？",
+     "en": "Do you want to play against Spain again in the next World Cup?",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 924.5,
+     "end": 925.9,
+     "ja": "いや、もうやりたくないですね。",
+     "en": "No, I really don't want to.",
+     "speaker": "Kubo"
+    },
+    {
+     "start": 926.0,
+     "end": 927.0,
+     "ja": "何で？",
+     "en": "Why not?",
+     "speaker": "Uchida"
+    },
+    {
+     "start": 927.2,
+     "end": 930.2,
+     "ja": "いや、未だになんかその、国同士の話になったときに、",
+     "en": "Well, even now, whenever talks about our countries come up,",
+     "speaker": "Kubo"
+    },
+    {
+     "start": 930.3,
+     "end": 932.2,
+     "ja": "僕個人としてはマウント取れるんで。",
+     "en": "I personally hold bragging rights over them.",
+     "speaker": "Kubo"
+    },
+    {
+     "start": 932.3,
+     "end": 936.0,
+     "ja": "「お前らなんか言ってるけど、負けてるよね」っていう話できるんで。",
+     "en": "I can say, \"You guys talk a lot, but you lost to us, didn't you?\"",
+     "speaker": "Kubo"
+    },
+    {
+     "start": 936.4,
+     "end": 938.8,
+     "ja": "次その負ける可能性は少しでも低い方がいいんで、",
+     "en": "It's better to keep the chances of losing next time as low as possible,",
+     "speaker": "Kubo"
+    },
+    {
+     "start": 938.9,
+     "end": 940.7,
+     "ja": "とりあえずもういいですね。",
+     "en": "so for now, I'm good.",
+     "speaker": "Kubo"
+    }
+   ]
+  }
+ ],
+ "videoId": "Z774GYhLuo0",
+ "pickTopics": [
+  "sports"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

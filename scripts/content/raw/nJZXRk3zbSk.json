@@ -1,0 +1,162 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 26.5,
+   "end": 42.5,
+   "title": "Enjoying a Hanami Bento Lunch",
+   "level": "N4",
+   "topics": [
+    "food",
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜と — when / upon",
+    "〜も — also / as well"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 27.0,
+     "end": 29.0,
+     "ja": "昼になると、",
+     "en": "At noon,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 29.5,
+     "end": 32.5,
+     "ja": "家族や友達が集まり、",
+     "en": "families and friends gather,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 33.0,
+     "end": 35.4,
+     "ja": "お弁当を開けます。",
+     "en": "and open their lunch boxes.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 35.8,
+     "end": 38.6,
+     "ja": "おにぎり、卵焼き、唐揚げ、",
+     "en": "Rice balls, rolled omelets, fried chicken,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 38.9,
+     "end": 42.2,
+     "ja": "それから桜の形のお菓子も並びます。",
+     "en": "and cherry-blossom-shaped sweets are laid out.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 85.5,
+   "end": 99.5,
+   "title": "Dancing Petals in the Wind",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜と — when / natural result",
+    "〜のように — like / as if",
+    "〜ず — without / negative continuation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 85.8,
+     "end": 89.2,
+     "ja": "風が吹くと、薄い花びらが、",
+     "en": "When the wind blows, the pale petals,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 89.5,
+     "end": 92.5,
+     "ja": "雪のように空を舞います。",
+     "en": "dance through the air like snow.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 93.0,
+     "end": 95.8,
+     "ja": "その美しさは長く続かず、",
+     "en": "That beauty does not last long,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 96.0,
+     "end": 99.2,
+     "ja": "多くの花は一週間ほどで散ります。",
+     "en": "and many blossoms fall after about a week.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 144.2,
+   "end": 157.8,
+   "title": "The Meaning of Hanami",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜こと — nominalizer (the act of)",
+    "〜と言える — can be said that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 144.5,
+     "end": 146.0,
+     "ja": "花見は、",
+     "en": "Hanami is,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 146.2,
+     "end": 149.5,
+     "ja": "桜などの花を見ながら、",
+     "en": "while viewing cherry blossoms and other flowers,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 149.8,
+     "end": 152.6,
+     "ja": "春を楽しむことです。",
+     "en": "enjoying spring.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 153.0,
+     "end": 155.0,
+     "ja": "公園を歩くだけでも、",
+     "en": "Even just walking through a park,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 155.2,
+     "end": 157.5,
+     "ja": "「花見をする」と言えます。",
+     "en": "can be called 'doing hanami.'",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "nJZXRk3zbSk",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

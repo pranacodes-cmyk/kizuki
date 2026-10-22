@@ -1,0 +1,167 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 111.2,
+   "end": 126.8,
+   "title": "Thoughts on Plastic Surgery",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜というのは — as for / that thing called",
+    "〜のであれば — if it is the case that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 111.3,
+     "end": 114.3,
+     "ja": "僕は別に反対っていうかはしないですね。",
+     "en": "Personally, I'm not really against it.",
+     "speaker": "A"
+    },
+    {
+     "start": 114.4,
+     "end": 117.3,
+     "ja": "美意識が高いってことはいいことだと思うし。",
+     "en": "I think having high beauty standards is a good thing.",
+     "speaker": "A"
+    },
+    {
+     "start": 118.2,
+     "end": 120.0,
+     "ja": "整形して、",
+     "en": "Getting surgery,",
+     "speaker": "B"
+    },
+    {
+     "start": 120.1,
+     "end": 122.5,
+     "ja": "その本人がものすごく自信を持って",
+     "en": "if it helps that person gain confidence",
+     "speaker": "B"
+    },
+    {
+     "start": 122.6,
+     "end": 124.6,
+     "ja": "輝いているのであれば、",
+     "en": "and shine,",
+     "speaker": "B"
+    },
+    {
+     "start": 124.7,
+     "end": 126.6,
+     "ja": "すごく素敵だなと思います。",
+     "en": "I think that's really wonderful.",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 188.5,
+   "end": 202.5,
+   "title": "Matchmaking Parties and Conditions",
+   "level": "N2",
+   "topics": [
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜限定 — limited to",
+    "〜切る — to do completely (分かりきった)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 188.7,
+     "end": 191.7,
+     "ja": "色んな条件があるんですよ、街コンって。",
+     "en": "There are all kinds of conditions at matchmaking parties.",
+     "speaker": "A"
+    },
+    {
+     "start": 191.8,
+     "end": 195.0,
+     "ja": "例えば年収いくらとか、どういう職業の人限定とかっていうのは。",
+     "en": "Like what income you need, or only certain professions.",
+     "speaker": "A"
+    },
+    {
+     "start": 195.2,
+     "end": 198.0,
+     "ja": "ある程度お互い分かりきった条件を求めて、",
+     "en": "Looking for clear criteria known to both sides,",
+     "speaker": "A"
+    },
+    {
+     "start": 198.2,
+     "end": 202.3,
+     "ja": "出会うっていうのは、すごくいいことだとは思います。",
+     "en": "meeting like that is a very good thing, I think.",
+     "speaker": "A"
+    }
+   ]
+  },
+  {
+   "start": 203.0,
+   "end": 216.8,
+   "title": "Making the First Move",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "daily"
+   ],
+   "grammar": [
+    "〜たほうがいい — had better / should",
+    "〜わけだから — because it is naturally the case that",
+    "〜てくれない — won't do for me"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 203.3,
+     "end": 204.9,
+     "ja": "なんか色々あるんだろうけど、",
+     "en": "I'm sure there are many ways, but...",
+     "speaker": "A"
+    },
+    {
+     "start": 205.0,
+     "end": 207.9,
+     "ja": "まあ、もっと勇気を出して話しかけたほうがいいんじゃないかって思う。",
+     "en": "I think it's best to summon some courage and approach girls yourself.",
+     "speaker": "A"
+    },
+    {
+     "start": 208.0,
+     "end": 212.0,
+     "ja": "やっぱり、女性は男性を待ってるわけだから、",
+     "en": "After all, women are waiting for men to approach them,",
+     "speaker": "A"
+    },
+    {
+     "start": 212.1,
+     "end": 214.0,
+     "ja": "だから自分から動かないと、",
+     "en": "so unless you make a move yourself,",
+     "speaker": "A"
+    },
+    {
+     "start": 214.1,
+     "end": 216.6,
+     "ja": "女性の方から声かけてくれないと思うから。",
+     "en": "I don't think women are going to approach you.",
+     "speaker": "A"
+    }
+   ]
+  }
+ ],
+ "videoId": "ILgIrKJL2yE",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

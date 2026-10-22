@@ -1,0 +1,102 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 17.2,
+   "end": 34.0,
+   "title": "Ryoku Loves to Sleep",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜のが好き — liking doing something",
+    "〜のに — even though / despite"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 17.5,
+     "end": 22.2,
+     "ja": "のんびりと眠るのが好きなリョク。",
+     "en": "Ryoku, who loves sleeping peacefully.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 27.0,
+     "end": 29.3,
+     "ja": "こんなに騒がしいのに、",
+     "en": "Even though it's this noisy,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 29.7,
+     "end": 33.5,
+     "ja": "全然気にせず、夢の中。",
+     "en": "he doesn't mind at all, fast asleep in dreamland.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 46.5,
+   "end": 67.5,
+   "title": "Waking Up for Daifuku",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "animals",
+    "food"
+   ],
+   "grammar": [
+    "〜ても — even if / even though",
+    "〜てすぐ — right after doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 46.8,
+     "end": 49.0,
+     "ja": "あー、大福か。",
+     "en": "Ah, a daifuku?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 49.8,
+     "end": 52.5,
+     "ja": "リョク、大好きだもんね。",
+     "en": "Ryoku loves them, after all.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 53.2,
+     "end": 57.5,
+     "ja": "でも、寝てても気づくって、すごい！",
+     "en": "Still, noticing it even while asleep is amazing!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 63.0,
+     "end": 64.0,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 64.2,
+     "end": 67.2,
+     "ja": "食べてすぐ寝て、大丈夫？",
+     "en": "Going right back to sleep after eating, is that okay?",
+     "speaker": "Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "kNF7V_PLxrQ",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

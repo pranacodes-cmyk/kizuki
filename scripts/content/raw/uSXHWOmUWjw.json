@@ -1,0 +1,163 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 167.3,
+   "end": 190.5,
+   "title": "Discussion on Japan's Birth Rate",
+   "level": "N2",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜べき — should / ought to",
+    "〜というのは前提 — taking ... as a premise"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 167.3,
+     "end": 170.5,
+     "ja": "まず日本の出生率改善が先だろうみたいな、",
+     "en": "Things like, improving Japan's birth rate should come first...",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 170.6,
+     "end": 173.0,
+     "ja": "こういった主張はどう思います？",
+     "en": "What do you think of arguments like that?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 173.1,
+     "end": 175.7,
+     "ja": "日本人の出生率をあげるというのは前提なんですけど、",
+     "en": "Raising the birth rate of Japanese people is a given, but...",
+     "speaker": "Manana"
+    },
+    {
+     "start": 175.8,
+     "end": 178.2,
+     "ja": "今年生まれた新生児の、何パーだったっけ、",
+     "en": "Of the newborns born this year—what was the percentage again—",
+     "speaker": "Manana"
+    },
+    {
+     "start": 178.3,
+     "end": 181.3,
+     "ja": "3％が外国籍だったみたいな話をしてたんですけど、",
+     "en": "there was talk about 3% having foreign nationality.",
+     "speaker": "Manana"
+    },
+    {
+     "start": 181.4,
+     "end": 184.2,
+     "ja": "それは日本人の出生率を上げるのか、",
+     "en": "Is the goal to raise the birth rate of Japanese people,",
+     "speaker": "Manana"
+    },
+    {
+     "start": 184.3,
+     "end": 186.0,
+     "ja": "日本の出生率を上げたいのか、",
+     "en": "or to raise the birth rate in Japan as a whole?",
+     "speaker": "Manana"
+    },
+    {
+     "start": 186.1,
+     "end": 188.0,
+     "ja": "その時点でどっちなのかというのは重要だと思っていて、",
+     "en": "I think figuring out which one it is at that point is crucial,",
+     "speaker": "Manana"
+    },
+    {
+     "start": 188.1,
+     "end": 190.5,
+     "ja": "私は日本人の出生率を上げるべきだと思うので、",
+     "en": "and since I believe we should raise the Japanese birth rate,",
+     "speaker": "Manana"
+    }
+   ]
+  },
+  {
+   "start": 371.2,
+   "end": 398.2,
+   "title": "Future Direction and School Classrooms",
+   "level": "N2",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜べき — should / ought to",
+    "〜らしい — I hear that / apparently",
+    "〜てしまう — end up doing (regrettable result)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 371.2,
+     "end": 373.2,
+     "ja": "最後にもう一個ご質問させてください。",
+     "en": "Let me ask one last question.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 373.3,
+     "end": 376.8,
+     "ja": "今後日本はどういう方向に舵を切るべきだと思いますか？",
+     "en": "What direction do you think Japan should steer towards going forward?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 376.9,
+     "end": 381.8,
+     "ja": "トレンドですけど、グローバリズムよりもナショナリズムの方に行っていくと思います、自然に。",
+     "en": "It's the trend, but I think it will naturally shift more toward nationalism than globalism.",
+     "speaker": "Manana"
+    },
+    {
+     "start": 382.0,
+     "end": 385.0,
+     "ja": "やっぱり今は数パーセント規模ですけど、",
+     "en": "Right now it's only on the scale of a few percent, but...",
+     "speaker": "Manana"
+    },
+    {
+     "start": 385.1,
+     "end": 389.4,
+     "ja": "杉並区の方では児童の4人に1人が外国人になっていて、",
+     "en": "in Suginami Ward, 1 in 4 schoolchildren is a foreign national,",
+     "speaker": "Manana"
+    },
+    {
+     "start": 389.5,
+     "end": 392.4,
+     "ja": "30人くらい外国語しか喋れない子がいると。",
+     "en": "and around 30 children can only speak a foreign language.",
+     "speaker": "Manana"
+    },
+    {
+     "start": 392.5,
+     "end": 395.3,
+     "ja": "埼玉もそうらしいんですけど、教師が1クラスに2〜3人必要だと。",
+     "en": "Apparently Saitama is like that too, where 2 to 3 teachers are needed per class.",
+     "speaker": "Manana"
+    },
+    {
+     "start": 395.4,
+     "end": 398.0,
+     "ja": "そうなると全体の学習が進まなくなってしまって、",
+     "en": "When that happens, overall learning grinds to a halt...",
+     "speaker": "Manana"
+    }
+   ]
+  }
+ ],
+ "videoId": "uSXHWOmUWjw",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

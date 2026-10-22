@@ -1,0 +1,202 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 430.0,
+   "end": 445.8,
+   "title": "Heading Out After Lunch",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜に行く — go to do something",
+    "〜てくる — go and come back"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 430.3,
+     "end": 436.5,
+     "ja": "お昼食べたので、私は友達に会いにいきます。",
+     "en": "Now that we've had lunch, I'm going to meet a friend.",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 436.5,
+     "end": 438.8,
+     "ja": "からの美容室。",
+     "en": "And after that, the hair salon.",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 439.0,
+     "end": 443.0,
+     "ja": "私はまつりと一緒に、まずは...",
+     "en": "As for me, with Matsuri, first...",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 443.0,
+     "end": 444.8,
+     "ja": "ちょっと散歩に行ってきます。",
+     "en": "We're going to go for a quick walk.",
+     "speaker": "Dad"
+    },
+    {
+     "start": 444.8,
+     "end": 445.8,
+     "ja": "行ってきます。",
+     "en": "See you!",
+     "speaker": "Makoto"
+    }
+   ]
+  },
+  {
+   "start": 502.0,
+   "end": 524.0,
+   "title": "Will the New Hair Color Last?",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜てもらう — have someone do something",
+    "〜用 — for the use/purpose of",
+    "〜でしょう — probably / won't it"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 502.2,
+     "end": 506.5,
+     "ja": "オレンジをまた追加で濃いめに入れてもらいました。",
+     "en": "I had them add more orange and make it a bit darker.",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 507.0,
+     "end": 508.5,
+     "ja": "追いオレンジね。",
+     "en": "Extra orange, right.",
+     "speaker": "Stylist"
+    },
+    {
+     "start": 508.7,
+     "end": 510.5,
+     "ja": "追いオレンジしました。",
+     "en": "I went for extra orange.",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 510.7,
+     "end": 514.2,
+     "ja": "来週と再来週はえーと、バッグのイベントがあって、",
+     "en": "Next week and the week after, I have bag events,",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 514.2,
+     "end": 517.0,
+     "ja": "それ用に入れたんですけど、",
+     "en": "so I colored it for that, but...",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 517.0,
+     "end": 519.0,
+     "ja": "持ちますかね？このオレンジ。",
+     "en": "Will it last? This orange color.",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 519.0,
+     "end": 520.8,
+     "ja": "持たないでしょう。",
+     "en": "Probably not.",
+     "speaker": "Stylist"
+    },
+    {
+     "start": 521.0,
+     "end": 522.0,
+     "ja": "きゅう！",
+     "en": "Gah!",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 522.0,
+     "end": 523.8,
+     "ja": "ズバリ持たないでしょう。",
+     "en": "Frankly speaking, it probably won't.",
+     "speaker": "Stylist"
+    }
+   ]
+  },
+  {
+   "start": 1416.0,
+   "end": 1438.5,
+   "title": "Tantan Soup for Lunch",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜気がする — have a feeling that",
+    "〜ていた — past continuous / habitual state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1416.5,
+     "end": 1421.5,
+     "ja": "無印の胡麻味噌担々スープ、半熟卵のせです。",
+     "en": "This is Muji's sesame miso tantan soup with a soft-boiled egg on top.",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 1421.7,
+     "end": 1424.5,
+     "ja": "いただきます。",
+     "en": "Let's eat.",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 1424.7,
+     "end": 1426.5,
+     "ja": "美味しそう。",
+     "en": "Looks delicious.",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 1426.7,
+     "end": 1429.3,
+     "ja": "てかこれ美味しかった気がする。",
+     "en": "Come to think of it, I feel like this was delicious.",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 1429.3,
+     "end": 1433.2,
+     "ja": "結構前に買ってリピ買いしてたものなので。",
+     "en": "I bought it a while ago and kept buying it again.",
+     "speaker": "Makoto"
+    },
+    {
+     "start": 1435.3,
+     "end": 1438.2,
+     "ja": "うーん、うま。",
+     "en": "Mmm, so good.",
+     "speaker": "Makoto"
+    }
+   ]
+  }
+ ],
+ "videoId": "zpvEBnlZC_E",
+ "pickTopics": [
+  "family"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,250 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 207.7,
+   "end": 225.0,
+   "title": "Opening a Keroro Gacha Capsule",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "family"
+   ],
+   "grammar": [
+    "〜じゃない？ — isn't it?",
+    "〜か — expressing realization"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 208.0,
+     "end": 209.3,
+     "ja": "やばい、やばい！",
+     "en": "Oh no, oh no!",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 209.3,
+     "end": 211.5,
+     "ja": "色がギロロじゃない？",
+     "en": "Isn't the color Giroro?",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 213.7,
+     "end": 215.3,
+     "ja": "開かない。",
+     "en": "It won't open.",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 216.2,
+     "end": 217.7,
+     "ja": "頭、タママか！",
+     "en": "From the head, it's Tamama!",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 217.7,
+     "end": 219.0,
+     "ja": "あ、可愛い！",
+     "en": "Ah, how cute!",
+     "speaker": "Mother"
+    },
+    {
+     "start": 219.0,
+     "end": 221.0,
+     "ja": "え、めっちゃ可愛い！",
+     "en": "Wait, it's super cute!",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 222.0,
+     "end": 223.2,
+     "ja": "可愛い、可愛い。",
+     "en": "Cute, so cute.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 223.2,
+     "end": 224.8,
+     "ja": "目うるうるで可愛いね。",
+     "en": "Its teary eyes are so cute.",
+     "speaker": "Mother"
+    }
+   ]
+  },
+  {
+   "start": 378.8,
+   "end": 402.5,
+   "title": "Unboxing a Powerpuff Girls Toy",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "family"
+   ],
+   "grammar": [
+    "〜じゃない？ — isn't it?",
+    "〜ていうか — or rather"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 379.0,
+     "end": 381.0,
+     "ja": "うわ、やばい！",
+     "en": "Whoa, awesome!",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 383.2,
+     "end": 384.8,
+     "ja": "バブルスじゃない？",
+     "en": "Isn't that Bubbles?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 384.8,
+     "end": 386.4,
+     "ja": "え、じゃないっていうか、",
+     "en": "Well, more like...",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 386.5,
+     "end": 388.0,
+     "ja": "やばいっていうか。",
+     "en": "More like, amazing.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 390.9,
+     "end": 392.5,
+     "ja": "開かない！",
+     "en": "It won't open!",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 396.4,
+     "end": 398.2,
+     "ja": "あ、開いた、開いた！",
+     "en": "Ah, it opened, it opened!",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 398.8,
+     "end": 400.3,
+     "ja": "結構でかいね！",
+     "en": "It's pretty big!",
+     "speaker": "Mother"
+    },
+    {
+     "start": 400.3,
+     "end": 402.2,
+     "ja": "ああ、でかい！可愛い！",
+     "en": "Yeah, it's big! So cute!",
+     "speaker": "Daughter"
+    }
+   ]
+  },
+  {
+   "start": 403.4,
+   "end": 425.5,
+   "title": "Trying the Ojarumaru Capsule Machine",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "family"
+   ],
+   "grammar": [
+    "〜たい — want to",
+    "〜よう — let's (volitional)"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 403.7,
+     "end": 405.8,
+     "ja": "オコリんぼうとニコリんぼうがね、",
+     "en": "Okorinbou and Nikorinbou...",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 405.9,
+     "end": 408.3,
+     "ja": "意外と持ってないから普通に欲しいんだよね。",
+     "en": "I surprisingly don't have them, so I really want them.",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 408.3,
+     "end": 409.2,
+     "ja": "当てよう。",
+     "en": "Let's win one.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 409.2,
+     "end": 410.8,
+     "ja": "おじゃるも普通に欲しいし。",
+     "en": "I also want Ojaru, too.",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 410.8,
+     "end": 411.6,
+     "ja": "当てよう。",
+     "en": "Let's win it.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 411.6,
+     "end": 413.3,
+     "ja": "そう、全員当たりです。",
+     "en": "Right, all of them are winners.",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 413.3,
+     "end": 414.7,
+     "ja": "はい、行きます。",
+     "en": "Okay, here goes.",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 414.8,
+     "end": 415.8,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 420.6,
+     "end": 422.3,
+     "ja": "ニコリんぼう！",
+     "en": "Nikorinbou!",
+     "speaker": "Daughter"
+    },
+    {
+     "start": 422.8,
+     "end": 423.8,
+     "ja": "可愛い！",
+     "en": "Cute!",
+     "speaker": "Mother"
+    },
+    {
+     "start": 424.0,
+     "end": 425.2,
+     "ja": "よかった。",
+     "en": "Thank goodness.",
+     "speaker": "Mother"
+    }
+   ]
+  }
+ ],
+ "videoId": "bHXmj9lo-24",
+ "pickTopics": [
+  "animals"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

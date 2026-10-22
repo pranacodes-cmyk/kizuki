@@ -1,0 +1,202 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 20.2,
+   "end": 47.5,
+   "title": "Upcoming Wedding Anniversary Plans",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "family"
+   ],
+   "grammar": [
+    "〜てくる — go and do something",
+    "〜と思う — thinking of doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 20.5,
+     "end": 24.5,
+     "ja": "今週は木曜日、２月の20日、",
+     "en": "This week on Thursday, February 20th,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 24.8,
+     "end": 28.5,
+     "ja": "20日、20日の木曜日に私たちの結婚記念日があります。",
+     "en": "the 20th, on Thursday the 20th is our wedding anniversary.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 29.5,
+     "end": 33.2,
+     "ja": "木曜日は普通の日なので、平日なので、",
+     "en": "Thursday is a regular day, a weekday, so",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 33.5,
+     "end": 36.5,
+     "ja": "特に何もしないんですが、",
+     "en": "we're not doing anything special, but",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 36.8,
+     "end": 42.0,
+     "ja": "その代わりに金曜日の夜に良いレストランに行って、食事をしてこようと思っています。",
+     "en": "instead, we plan to go to a nice restaurant on Friday evening for a meal.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 42.5,
+     "end": 47.2,
+     "ja": "だから金曜日の夜に予定があるので、ちょっとワクワクしています。",
+     "en": "So having plans on Friday night makes me a little excited.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 67.5,
+   "end": 96.5,
+   "title": "Catchball in Conversation",
+   "level": "N3",
+   "topics": [
+    "sports",
+    "culture"
+   ],
+   "grammar": [
+    "〜たことがある — have experienced",
+    "〜という — called / known as"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 68.0,
+     "end": 70.0,
+     "ja": "この表現、聞いたことがありますか？",
+     "en": "Have you heard this expression before?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 70.3,
+     "end": 73.8,
+     "ja": "会話のキャッチボールができる、できない。",
+     "en": "To be able, or not be able, to play conversational catchball.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 74.0,
+     "end": 76.8,
+     "ja": "会話のキャッチボールをうまくしよう。",
+     "en": "Let's get good at conversational catchball.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 77.0,
+     "end": 80.0,
+     "ja": "これは野球から来ているんですけれども、",
+     "en": "This comes from baseball, but",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 80.2,
+     "end": 84.0,
+     "ja": "日本では野球というスポーツはとても人気です。",
+     "en": "the sport called baseball is very popular in Japan.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 84.2,
+     "end": 87.2,
+     "ja": "その中でキャッチボール、野球のボールを",
+     "en": "In that context, playing catch, when",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 87.4,
+     "end": 90.5,
+     "ja": "相手が投げて、じゃあ私はそれを受け取って、",
+     "en": "the other person throws the ball, then I catch it,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 90.8,
+     "end": 93.5,
+     "ja": "また相手に投げ返す、",
+     "en": "and throw it back to them again,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 93.6,
+     "end": 96.2,
+     "ja": "この繰り返しをキャッチボールと言います。",
+     "en": "repeating this process is called catchball.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 162.5,
+   "end": 178.5,
+   "title": "Keeping the Conversation Flowing",
+   "level": "N4",
+   "topics": [
+    "food",
+    "friends"
+   ],
+   "grammar": [
+    "〜たら — if / when",
+    "〜と — when / if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 162.8,
+     "end": 165.5,
+     "ja": "私だったら、「じゃあ、とんかつが好き？",
+     "en": "If it were me, I'd say, \"So you like tonkatsu?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 166.0,
+     "end": 169.5,
+     "ja": "じゃあ、ゆみこさんはどんな料理が好き？",
+     "en": "Well, Yumiko, what kind of food do you like?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 170.0,
+     "end": 172.5,
+     "ja": "ゆみこさんもとんかつが好き？」",
+     "en": "Do you like tonkatsu too, Yumiko?\"",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 173.0,
+     "end": 175.8,
+     "ja": "相手に同じように投げ返すと、",
+     "en": "If you throw it back to the other person like that,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 176.0,
+     "end": 178.2,
+     "ja": "次の会話に繋がるね。",
+     "en": "it leads into the next conversation, right?",
+     "speaker": "Noriko"
+    }
+   ]
+  }
+ ],
+ "videoId": "dzxiUDn0Nfs",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

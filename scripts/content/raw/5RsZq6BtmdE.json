@@ -1,0 +1,152 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 53.4,
+   "end": 61.2,
+   "title": "No One Is Entirely Healthy",
+   "level": "N3",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜られない — potential form (negative)",
+    "〜なんて — expressing disdain/emphasis"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 53.7,
+     "end": 55.2,
+     "ja": "私は医者です。",
+     "en": "I am a doctor.",
+     "speaker": "Doctor"
+    },
+    {
+     "start": 55.3,
+     "end": 57.2,
+     "ja": "病気でもない人にメスは入れられない。",
+     "en": "I can't operate on someone who isn't sick.",
+     "speaker": "Doctor"
+    },
+    {
+     "start": 57.4,
+     "end": 58.7,
+     "ja": "この世界に、",
+     "en": "In this world,",
+     "speaker": "Surgeon"
+    },
+    {
+     "start": 58.8,
+     "end": 60.8,
+     "ja": "病気じゃない人なんていないから。",
+     "en": "there's no such thing as someone who isn't sick.",
+     "speaker": "Surgeon"
+    }
+   ]
+  },
+  {
+   "start": 119.5,
+   "end": 129.3,
+   "title": "A Final Wish to Be Beautiful",
+   "level": "N2",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "幾ばくもない — very little left",
+    "〜て願う — to pray/wish that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 119.8,
+     "end": 121.5,
+     "ja": "あんたそれでも医者かよ。",
+     "en": "And you call yourself a doctor?",
+     "speaker": "Doctor"
+    },
+    {
+     "start": 121.7,
+     "end": 123.6,
+     "ja": "余命幾ばくもない人が、",
+     "en": "Someone with not much time left to live...",
+     "speaker": "Surgeon"
+    },
+    {
+     "start": 123.7,
+     "end": 126.3,
+     "ja": "最後に綺麗になりたいって願ってるの！",
+     "en": "...is wishing to look beautiful in the end!",
+     "speaker": "Surgeon"
+    },
+    {
+     "start": 126.4,
+     "end": 128.8,
+     "ja": "美容外科医がそれをどうして断れるの？",
+     "en": "How can a cosmetic surgeon refuse that?",
+     "speaker": "Surgeon"
+    }
+   ]
+  },
+  {
+   "start": 120.4,
+   "end": 130.5,
+   "title": "Necessary Downtime",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜ためには — in order to",
+    "〜んです — explanatory / emphatic tone"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 120.7,
+     "end": 122.1,
+     "ja": "ダウンタイムは、",
+     "en": "Downtime...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 122.2,
+     "end": 125.4,
+     "ja": "未来に向かって飛び立つためにはどうしても必要な時間なんです。",
+     "en": "is time that is absolutely necessary to take flight toward the future.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 125.7,
+     "end": 127.1,
+     "ja": "変わりたいんですよ。",
+     "en": "They want to change.",
+     "speaker": "Doctor"
+    },
+    {
+     "start": 127.3,
+     "end": 128.5,
+     "ja": "さよなら、",
+     "en": "Goodbye,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 128.8,
+     "end": 130.2,
+     "ja": "昔の自分。",
+     "en": "my former self.",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "5RsZq6BtmdE",
+ "pickTopics": [
+  "culture"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

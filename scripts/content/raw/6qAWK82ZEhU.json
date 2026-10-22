@@ -1,0 +1,158 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 9.1,
+   "end": 22.8,
+   "title": "Artist Introductions",
+   "level": "N3",
+   "topics": [
+    "music",
+    "work"
+   ],
+   "grammar": [
+    "〜させていただく — humble causative permission"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.2,
+     "end": 10.5,
+     "ja": "皆さんこんにちは。",
+     "en": "Hello, everyone.",
+     "speaker": "Ashimine"
+    },
+    {
+     "start": 10.8,
+     "end": 15.5,
+     "ja": "今回『グリムノーツ』テーマソング「忘れじの言の葉」を歌わせていただきました、",
+     "en": "I had the privilege of singing the Grimms Notes theme song, 'Wasureji no Kotonoha.'",
+     "speaker": "Ashimine"
+    },
+    {
+     "start": 16.0,
+     "end": 17.8,
+     "ja": "安次嶺希和子です。",
+     "en": "I'm Kiwako Ashimine.",
+     "speaker": "Ashimine"
+    },
+    {
+     "start": 18.0,
+     "end": 20.6,
+     "ja": "音楽の未来古代楽団、砂守岳央です。",
+     "en": "From Mirai Kodai Gakudan in charge of the music, I'm Taketeru Sunamori.",
+     "speaker": "Sunamori"
+    },
+    {
+     "start": 21.0,
+     "end": 22.5,
+     "ja": "同じく松岡美弥子です。",
+     "en": "Also from the group, I'm Miyako Matsuoka.",
+     "speaker": "Matsuoka"
+    }
+   ]
+  },
+  {
+   "start": 36.8,
+   "end": 48.3,
+   "title": "Recorded with Live Instruments",
+   "level": "N3",
+   "topics": [
+    "music",
+    "work"
+   ],
+   "grammar": [
+    "ということで — so / with that said",
+    "〜てみる — to try doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.0,
+     "end": 40.4,
+     "ja": "はい、ということで、今回、音楽のこだわりは？",
+     "en": "All right, so what was the special focus for the music this time?",
+     "speaker": "Sunamori"
+    },
+    {
+     "start": 40.8,
+     "end": 45.8,
+     "ja": "今回なんとすべての楽器を生楽器で録音して、音楽を制作しました。",
+     "en": "This time, we actually recorded all the instruments live to produce the music.",
+     "speaker": "Matsuoka"
+    },
+    {
+     "start": 46.0,
+     "end": 48.0,
+     "ja": "ちょっと注目してみてください。",
+     "en": "Please be sure to listen closely for that.",
+     "speaker": "Sunamori"
+    }
+   ]
+  },
+  {
+   "start": 114.0,
+   "end": 132.5,
+   "title": "A Message from the Singer",
+   "level": "N3",
+   "topics": [
+    "music",
+    "work"
+   ],
+   "grammar": [
+    "〜てほしい — wanting someone to do something",
+    "〜ております — humble form of 〜ている"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 114.2,
+     "end": 116.8,
+     "ja": "じゃあ、見てる方にメッセージを。",
+     "en": "Well then, please give a message to those watching.",
+     "speaker": "Sunamori"
+    },
+    {
+     "start": 117.0,
+     "end": 120.5,
+     "ja": "はい。えー「忘れじの言の葉」、",
+     "en": "Sure. 'Wasureji no Kotonoha'...",
+     "speaker": "Ashimine"
+    },
+    {
+     "start": 121.0,
+     "end": 125.0,
+     "ja": "私にとってもとても大切な一曲にもなっておりますので、",
+     "en": "...has become a very special song for me as well, so...",
+     "speaker": "Ashimine"
+    },
+    {
+     "start": 125.1,
+     "end": 128.0,
+     "ja": "たくさんの人に聴いてほしいと思っています。",
+     "en": "...I really hope many people will listen to it.",
+     "speaker": "Ashimine"
+    },
+    {
+     "start": 128.3,
+     "end": 129.8,
+     "ja": "ので、聴いてください。",
+     "en": "So please give it a listen.",
+     "speaker": "Ashimine"
+    },
+    {
+     "start": 130.0,
+     "end": 132.0,
+     "ja": "よろしくお願いします。",
+     "en": "Thank you very much!",
+     "speaker": "Ashimine"
+    }
+   ]
+  }
+ ],
+ "videoId": "6qAWK82ZEhU",
+ "pickTopics": [
+  "music"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

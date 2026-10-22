@@ -1,0 +1,55 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 1.2,
+   "end": 12.6,
+   "title": "When Images Move, Hearts Move",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "culture"
+   ],
+   "grammar": [
+    "と — conditional (when/if)",
+    "〜てくる — continuing up to the present"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1.5,
+     "end": 3.3,
+     "ja": "絵が動くと、",
+     "en": "When images move,",
+     "speaker": "Female Narrator"
+    },
+    {
+     "start": 3.4,
+     "end": 5.2,
+     "ja": "心も動く。",
+     "en": "so do hearts.",
+     "speaker": "Female Narrator"
+    },
+    {
+     "start": 5.8,
+     "end": 8.7,
+     "ja": "そう信じて歩んできた。",
+     "en": "Believing that, we have walked forward.",
+     "speaker": "Male Narrator"
+    },
+    {
+     "start": 10.4,
+     "end": 12.2,
+     "ja": "あの時から。",
+     "en": "Ever since that time.",
+     "speaker": "Female Narrator"
+    }
+   ]
+  }
+ ],
+ "videoId": "uQGGrOq5Qew",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

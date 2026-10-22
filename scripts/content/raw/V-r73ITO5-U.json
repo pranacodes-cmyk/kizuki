@@ -1,0 +1,135 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 30.5,
+   "end": 59.0,
+   "title": "Checking Baggage at the Counter",
+   "level": "N4",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "お〜になる — honorific verb form",
+    "〜てもらえますか — could you please"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 31.0,
+     "end": 36.5,
+     "ja": "お預けになる荷物はありますか？",
+     "en": "Do you have any baggage to check in?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 39.0,
+     "end": 44.2,
+     "ja": "はい。スーツケースを一つお願いします。",
+     "en": "Yes. One suitcase, please.",
+     "speaker": "Traveler"
+    },
+    {
+     "start": 47.0,
+     "end": 52.5,
+     "ja": "割れ物シールを貼ってもらえますか？",
+     "en": "Could you put a fragile sticker on it?",
+     "speaker": "Traveler"
+    },
+    {
+     "start": 54.8,
+     "end": 58.2,
+     "ja": "かしこまりました。",
+     "en": "Certainly.",
+     "speaker": "Clerk"
+    }
+   ]
+  },
+  {
+   "start": 100.8,
+   "end": 124.0,
+   "title": "Receiving the Boarding Pass",
+   "level": "N4",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "〜となります — to become / turn out to be",
+    "お越しください — please come"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 101.3,
+     "end": 105.5,
+     "ja": "これがあなたの搭乗券です。",
+     "en": "This is your boarding pass.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 108.8,
+     "end": 114.5,
+     "ja": "5番ゲートで9時に搭乗となります。",
+     "en": "You will be boarding at Gate 5 at 9:00.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 117.3,
+     "end": 123.2,
+     "ja": "出発の30分前には搭乗ゲートにお越しください。",
+     "en": "Please be at the boarding gate 30 minutes before departure.",
+     "speaker": "Clerk"
+    }
+   ]
+  },
+  {
+   "start": 158.5,
+   "end": 225.2,
+   "title": "Immigration Questions",
+   "level": "N5",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "〜予定ですか — are you planning to?",
+    "〜の目的 — purpose of ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 159.2,
+     "end": 204.5,
+     "ja": "どのくらい滞在する予定ですか？",
+     "en": "How long are you planning to stay?",
+     "speaker": "Officer"
+    },
+    {
+     "start": 207.3,
+     "end": 210.0,
+     "ja": "1週間です。",
+     "en": "For one week.",
+     "speaker": "Traveler"
+    },
+    {
+     "start": 213.2,
+     "end": 218.5,
+     "ja": "滞在の目的は何ですか？",
+     "en": "What is the purpose of your visit?",
+     "speaker": "Officer"
+    },
+    {
+     "start": 221.3,
+     "end": 224.2,
+     "ja": "観光です。",
+     "en": "Sightseeing.",
+     "speaker": "Traveler"
+    }
+   ]
+  }
+ ],
+ "videoId": "V-r73ITO5-U",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

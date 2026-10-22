@@ -1,0 +1,154 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 18.0,
+   "end": 31.8,
+   "title": "Greeting in Kyoto Dialect",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜てはる — respectful continuous form (Kansai dialect)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.5,
+     "end": 20.0,
+     "ja": "まいど、おおきに。",
+     "en": "Hello, thank you very much.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 20.3,
+     "end": 22.8,
+     "ja": "みなさん、元気にしてはりますか？",
+     "en": "How are you all doing?",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 23.6,
+     "end": 26.5,
+     "ja": "みなさんこんにちは。日本語の森のゆかです。",
+     "en": "Hello everyone. I'm Yuka from Nihongo no Mori.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 27.0,
+     "end": 30.1,
+     "ja": "京都の人の話し方をちょっと真似してみました。",
+     "en": "I tried to imitate how people in Kyoto speak.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 30.4,
+     "end": 31.5,
+     "ja": "どうでしょうか？",
+     "en": "How did it sound?",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 121.3,
+   "end": 132.8,
+   "title": "How Kyoto Streets Are Named",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜ている — ongoing state",
+    "〜ので — because"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 121.9,
+     "end": 124.0,
+     "ja": "ここは「四条通り」と",
+     "en": "Here, Shijo Street",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 124.0,
+     "end": 126.8,
+     "ja": "「河原町通り」という道が",
+     "en": "and Kawaramachi Street",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 126.8,
+     "end": 128.5,
+     "ja": "交わっているところなので、",
+     "en": "intersect each other, so",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 128.7,
+     "end": 131.0,
+     "ja": "「四条河原町」と言います。",
+     "en": "it is called Shijo Kawaramachi.",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 251.2,
+   "end": 266.3,
+   "title": "Enjoying Pike Conger Eel in Kyoto",
+   "level": "N3",
+   "topics": [
+    "food",
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜というのは — definition/explanation",
+    "〜みたいに — like / similar to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 251.7,
+     "end": 254.9,
+     "ja": "鱧を使ったお料理をいただきました。",
+     "en": "We had a meal featuring pike conger eel.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 255.4,
+     "end": 257.6,
+     "ja": "鱧というのは、魚の種類です。",
+     "en": "Hamo is a type of fish.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 258.1,
+     "end": 261.2,
+     "ja": "うなぎみたいに、細くて長い魚です。",
+     "en": "It's a long, thin fish like an eel.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 261.9,
+     "end": 265.4,
+     "ja": "京都では鱧の料理がとても有名です。",
+     "en": "Hamo dishes are very famous in Kyoto.",
+     "speaker": "Yuka"
+    }
+   ]
+  }
+ ],
+ "videoId": "-57IhTP5_uU",
+ "pickTopics": [
+  "travel"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

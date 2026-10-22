@@ -1,0 +1,184 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 10.3,
+   "end": 35.5,
+   "title": "Welcome to the Channel Walk",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "sports",
+    "fun"
+   ],
+   "grammar": [
+    "〜たいと思う — to want to / intend to do",
+    "〜ながら — while doing",
+    "〜ましょう — let's"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.4,
+     "end": 12.3,
+     "ja": "どうも！元気ですか？",
+     "en": "Hello! How are you doing?",
+     "speaker": "Milano"
+    },
+    {
+     "start": 12.6,
+     "end": 14.5,
+     "ja": "楽しんでますか？",
+     "en": "Are you having fun?",
+     "speaker": "Milano"
+    },
+    {
+     "start": 15.3,
+     "end": 18.3,
+     "ja": "勝手にサッカーチャンネルのミラノです。",
+     "en": "I'm Milano from Katteni Soccer Channel.",
+     "speaker": "Milano"
+    },
+    {
+     "start": 18.3,
+     "end": 21.3,
+     "ja": "今回はですね、またこういった形で、",
+     "en": "This time, once again in this format,",
+     "speaker": "Milano"
+    },
+    {
+     "start": 21.3,
+     "end": 25.5,
+     "ja": "サッカーどこでできるか、街をブラブラしながらですね、",
+     "en": "while strolling around the city to see where we can play soccer,",
+     "speaker": "Milano"
+    },
+    {
+     "start": 26.5,
+     "end": 31.0,
+     "ja": "ブラブラトークしながら、お送りしたいと思います。",
+     "en": "I'd like to bring this to you while having a casual strolling chat.",
+     "speaker": "Milano"
+    },
+    {
+     "start": 31.2,
+     "end": 35.3,
+     "ja": "では早速行きたいと思いますので、早速参りましょう！",
+     "en": "So I want to get right to it, let's head out!",
+     "speaker": "Milano"
+    }
+   ]
+  },
+  {
+   "start": 107.0,
+   "end": 124.8,
+   "title": "Places to Play Sports in the City",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "sports"
+   ],
+   "grammar": [
+    "〜と — when/if",
+    "〜ような — like / such as",
+    "〜というのは — defining/explaining a topic"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 107.3,
+     "end": 111.5,
+     "ja": "まぁ、なかなか首都圏にいると、",
+     "en": "Well, when you're in the greater Tokyo area,",
+     "speaker": "Milano"
+    },
+    {
+     "start": 111.8,
+     "end": 115.0,
+     "ja": "えー、そういった、",
+     "en": "um, those kinds of,",
+     "speaker": "Milano"
+    },
+    {
+     "start": 115.5,
+     "end": 121.8,
+     "ja": "まあ安心してサッカーができる、もしくはスポーツができるような場所っていうのは、",
+     "en": "places where you can safely play soccer, or play sports in general,",
+     "speaker": "Milano"
+    },
+    {
+     "start": 122.0,
+     "end": 124.5,
+     "ja": "まあ少ないですよね。",
+     "en": "well, they are quite few, aren't they?",
+     "speaker": "Milano"
+    }
+   ]
+  },
+  {
+   "start": 666.3,
+   "end": 689.0,
+   "title": "Closing Remarks and Farewell",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ばいい — would be nice if",
+    "〜でしょうか — polite wondering",
+    "〜ましょう — let's"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 666.8,
+     "end": 669.5,
+     "ja": "さて、皆さんどうだったでしょうか？",
+     "en": "Well then, how was that, everyone?",
+     "speaker": "Milano"
+    },
+    {
+     "start": 669.8,
+     "end": 675.0,
+     "ja": "まあ今日はですね、ちょっとぶらっと、ちょっとふらっと行ってみた感じなんですけども。",
+     "en": "Well, today was just a casual, spontaneous walk around, but...",
+     "speaker": "Milano"
+    },
+    {
+     "start": 675.8,
+     "end": 680.0,
+     "ja": "えー、まあね、こういった形で、撮れればいいかなと思ってます。",
+     "en": "I think it'd be nice if I can film like this going forward.",
+     "speaker": "Milano"
+    },
+    {
+     "start": 680.0,
+     "end": 682.0,
+     "ja": "また皆さんお会いできればと思います。",
+     "en": "I hope to see everyone again.",
+     "speaker": "Milano"
+    },
+    {
+     "start": 682.2,
+     "end": 686.0,
+     "ja": "それではまた、皆さん、元気にまたお会いしましょう！",
+     "en": "Until then, everyone, stay healthy and let's meet again!",
+     "speaker": "Milano"
+    },
+    {
+     "start": 686.0,
+     "end": 688.5,
+     "ja": "じゃあね！バイバイ！",
+     "en": "See you! Bye-bye!",
+     "speaker": "Milano"
+    }
+   ]
+  }
+ ],
+ "videoId": "-7wkawvHU8Q",
+ "pickTopics": [
+  "friends"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

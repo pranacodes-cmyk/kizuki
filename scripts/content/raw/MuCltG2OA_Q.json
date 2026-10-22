@@ -1,0 +1,228 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 307.5,
+   "end": 325.5,
+   "title": "A Day of Doing Nothing",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜もしない — not even doing",
+    "〜たり〜たり — doing things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 307.8,
+     "end": 309.5,
+     "ja": "何もしない。",
+     "en": "I did nothing.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 309.8,
+     "end": 312.4,
+     "ja": "韓国語の勉強もしない。",
+     "en": "I didn't study Korean either.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 312.7,
+     "end": 314.6,
+     "ja": "レッスンの準備もしない。",
+     "en": "I didn't prepare for lessons either.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 314.8,
+     "end": 317.0,
+     "ja": "ポッドキャストの録音もしない。",
+     "en": "I didn't record podcasts either.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 317.1,
+     "end": 318.8,
+     "ja": "ま、散歩に行きました。",
+     "en": "Well, I went for a walk.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 319.0,
+     "end": 320.9,
+     "ja": "あとは布団の中で、",
+     "en": "Other than that, in my futon,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 321.0,
+     "end": 323.2,
+     "ja": "またはソファの上で、",
+     "en": "or on the couch,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 323.2,
+     "end": 325.2,
+     "ja": "ゴロゴロした１日だったんです。",
+     "en": "it was a day spent lounging around.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 325.5,
+   "end": 347.0,
+   "title": "Feeling Guilty About Taking a Day Off",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜のに — even though / despite",
+    "〜たほうがいいんじゃない — wouldn't it be better to..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 325.7,
+     "end": 328.9,
+     "ja": "最初はね、ちょっと罪悪感を感じました。",
+     "en": "At first, I felt a little guilty.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 329.4,
+     "end": 332.4,
+     "ja": "「あれ？いつも日曜日仕事をしているのに、",
+     "en": "\"Wait, I usually work on Sundays,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 332.7,
+     "end": 334.7,
+     "ja": "今日は何もしていない。",
+     "en": "yet today I'm not doing anything.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 335.0,
+     "end": 336.5,
+     "ja": "こんなのいいのかな？",
+     "en": "Is this really okay?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 336.7,
+     "end": 338.6,
+     "ja": "仕事したほうがいいんじゃない？",
+     "en": "Shouldn't I be working?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 338.9,
+     "end": 341.2,
+     "ja": "だって仕事をしなかったらそれが溜まって、",
+     "en": "'Cause if I don't work, things will pile up,",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 341.4,
+     "end": 344.8,
+     "ja": "明日、明後日忙しくなるよね」って",
+     "en": "and tomorrow and the day after will get so busy, right?\"",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 344.8,
+     "end": 346.7,
+     "ja": "思ったんだけれども、",
+     "en": "is what I thought, but...",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
+   "start": 435.0,
+   "end": 457.8,
+   "title": "Overworking Isn't Good for You",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "work"
+   ],
+   "grammar": [
+    "〜すぎる — to do too much",
+    "〜が必要 — ...is necessary"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 435.4,
+     "end": 437.3,
+     "ja": "ちょっと本も読みました。",
+     "en": "I read a book a bit.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 437.5,
+     "end": 440.0,
+     "ja": "Netflixのドラマも見ました。",
+     "en": "I also watched a drama on Netflix.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 440.2,
+     "end": 443.0,
+     "ja": "あとは仕事を本当にしなかった。",
+     "en": "Other than that, I really didn't do any work.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 443.3,
+     "end": 447.0,
+     "ja": "これが普通の休日なのかなって思ったんですね。",
+     "en": "I thought, maybe this is what a normal day off is like.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 447.4,
+     "end": 449.0,
+     "ja": "悪くないですね。",
+     "en": "It's not bad at all.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 449.3,
+     "end": 451.5,
+     "ja": "働きすぎはやっぱりよくない。",
+     "en": "Overworking really isn't good.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 451.7,
+     "end": 454.6,
+     "ja": "たまには１日何にもしない日も",
+     "en": "Days where you do nothing at all once in a while",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 454.7,
+     "end": 457.4,
+     "ja": "必要だなと思いました。",
+     "en": "are necessary too, I realized.",
+     "speaker": "Noriko"
+    }
+   ]
+  }
+ ],
+ "videoId": "MuCltG2OA_Q",
+ "pickTopics": [
+  "daily"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

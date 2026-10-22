@@ -12,7 +12,7 @@
 # Output (screenshots, logcat, drive log) goes to $OUT and is uploaded as an artifact.
 set -uo pipefail
 
-PKG="com.kizuki.app"
+PKG="com.kizukijapan.app"
 APK="${APK:?path to the release APK}"
 OUT="${OUT:-$PWD/e2e-out}"
 mkdir -p "$OUT/release" "$OUT/flow"

@@ -1,0 +1,190 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 15.8,
+   "end": 34.2,
+   "title": "Kuromi Has an Older Sister?!",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "comedy",
+    "family"
+   ],
+   "grammar": [
+    "〜とは — expression of surprise",
+    "どんな — what kind of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 16.0,
+     "end": 17.8,
+     "ja": "クロミ様、どうしたゾナ？",
+     "en": "Lady Kuromi, what's the matter, zona?",
+     "speaker": "Baku"
+    },
+    {
+     "start": 18.0,
+     "end": 20.0,
+     "ja": "お…お…",
+     "en": "My... my...",
+     "speaker": "Kuromi"
+    },
+    {
+     "start": 20.3,
+     "end": 22.0,
+     "ja": "お姉ちゃん！",
+     "en": "Big sister!",
+     "speaker": "Kuromi"
+    },
+    {
+     "start": 22.2,
+     "end": 24.0,
+     "ja": "えーっ！？",
+     "en": "Whaaat?!",
+     "speaker": "Baku"
+    },
+    {
+     "start": 24.3,
+     "end": 27.0,
+     "ja": "まさかクロミ様に兄弟がいたとは！",
+     "en": "To think Lady Kuromi had a sibling!",
+     "speaker": "Baku"
+    },
+    {
+     "start": 27.2,
+     "end": 29.8,
+     "ja": "第１話から衝撃の展開ゾナ！",
+     "en": "What a shocking development for episode one, zona!",
+     "speaker": "Baku"
+    },
+    {
+     "start": 30.0,
+     "end": 34.0,
+     "ja": "そ、それで、お姉様はどんな人だったゾナ？",
+     "en": "S-so, what was your sister like, zona?",
+     "speaker": "Baku"
+    }
+   ]
+  },
+  {
+   "start": 34.5,
+   "end": 51.8,
+   "title": "Describing Kuromi's Sister",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "family"
+   ],
+   "grammar": [
+    "〜くて、〜くて — connecting adjectives",
+    "〜気がする — to have a feeling that",
+    "〜てしまう / 〜ちゃう — unintended action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 34.8,
+     "end": 36.0,
+     "ja": "うーん…",
+     "en": "Well...",
+     "speaker": "Kuromi"
+    },
+    {
+     "start": 36.5,
+     "end": 39.0,
+     "ja": "優しくって、かっこよくって、",
+     "en": "Kind, cool,",
+     "speaker": "Kuromi"
+    },
+    {
+     "start": 39.2,
+     "end": 42.5,
+     "ja": "なんでもできる最高のお姉ちゃんなんだ！",
+     "en": "and able to do anything—she's the best big sister!",
+     "speaker": "Kuromi"
+    },
+    {
+     "start": 42.8,
+     "end": 46.0,
+     "ja": "見たことないけど、この姿ではない気がするゾナ。",
+     "en": "I've never seen her, but I have a feeling she doesn't look like that, zona.",
+     "speaker": "Baku"
+    },
+    {
+     "start": 46.3,
+     "end": 49.0,
+     "ja": "あたいが小さい頃に家を出てっちゃって、",
+     "en": "She left home when I was little,",
+     "speaker": "Kuromi"
+    },
+    {
+     "start": 49.2,
+     "end": 51.8,
+     "ja": "それ以来、会ってないけどね。",
+     "en": "so I haven't seen her since, though.",
+     "speaker": "Kuromi"
+    }
+   ]
+  },
+  {
+   "start": 140.5,
+   "end": 152.8,
+   "title": "Heading to Paris... in Spain?",
+   "level": "N5",
+   "topics": [
+    "anime",
+    "travel",
+    "comedy"
+   ],
+   "grammar": [
+    "〜に行く — go to do",
+    "いざ〜へ — onward to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 140.8,
+     "end": 143.0,
+     "ja": "お姉ちゃんに会いにいくよ！",
+     "en": "I'm going to go see my big sister!",
+     "speaker": "Kuromi"
+    },
+    {
+     "start": 143.2,
+     "end": 145.0,
+     "ja": "目的地はパリ！",
+     "en": "Destination: Paris!",
+     "speaker": "Kuromi"
+    },
+    {
+     "start": 145.2,
+     "end": 147.0,
+     "ja": "いざ、スペインへ！",
+     "en": "Onward to Spain!",
+     "speaker": "Kuromi"
+    },
+    {
+     "start": 147.5,
+     "end": 149.0,
+     "ja": "え？ スペイン？",
+     "en": "Huh? Spain?",
+     "speaker": "Baku"
+    },
+    {
+     "start": 149.2,
+     "end": 152.2,
+     "ja": "パリはフランスゾナ！",
+     "en": "Paris is in France, zona!",
+     "speaker": "Baku"
+    }
+   ]
+  }
+ ],
+ "videoId": "3TKp9yCGBjQ",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

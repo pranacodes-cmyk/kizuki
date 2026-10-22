@@ -1,0 +1,178 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 0.8,
+   "end": 14.5,
+   "title": "Interview Before the Performance",
+   "level": "N3",
+   "topics": [
+    "music",
+    "work"
+   ],
+   "grammar": [
+    "〜ていただく — humble receiving of an action"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 0.8,
+     "end": 2.0,
+     "ja": "お疲れ様です。",
+     "en": "Thank you for your hard work.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 2.0,
+     "end": 3.0,
+     "ja": "お疲れ様です。",
+     "en": "Thank you for your hard work.",
+     "speaker": "Saya"
+    },
+    {
+     "start": 3.0,
+     "end": 6.0,
+     "ja": "出番前の、ちょっと忙しいところにお邪魔してしまいまして、すみません。",
+     "en": "I'm sorry to intrude when you're busy right before going on stage.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 6.0,
+     "end": 7.5,
+     "ja": "いえ、とんでもないです。はい。",
+     "en": "No, not at all. Yes.",
+     "speaker": "Saya"
+    },
+    {
+     "start": 7.5,
+     "end": 10.5,
+     "ja": "今日はこの後は何を歌ってくださる…？",
+     "en": "What will you be singing for us after this today?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 10.5,
+     "end": 14.2,
+     "ja": "「さくらさくら」を歌わせていただきます。はい。",
+     "en": "I will be singing 'Sakura Sakura'. Yes.",
+     "speaker": "Saya"
+    }
+   ]
+  },
+  {
+   "start": 19.3,
+   "end": 49.3,
+   "title": "The Meaning Behind the Name Sakura",
+   "level": "N2",
+   "topics": [
+    "culture"
+   ],
+   "grammar": [
+    "〜という — called / meaning",
+    "〜た花の名前 — noun modification"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 19.5,
+     "end": 23.5,
+     "ja": "あの、桜の…「さくら」という語源が、",
+     "en": "Well, the origin of the word 'sakura'...",
+     "speaker": "Saya"
+    },
+    {
+     "start": 23.5,
+     "end": 28.0,
+     "ja": "「咲く」「ら」、「ら」は「僕ら」とか「彼ら」とかの「ら」、",
+     "en": "is 'saku' and 'ra'; the 'ra' is like the 'ra' in 'bokura' or 'karera',",
+     "speaker": "Saya"
+    },
+    {
+     "start": 28.0,
+     "end": 31.0,
+     "ja": "「等」…「等しい」っていう字を書くんですけど、",
+     "en": "written with the character for 'equal',",
+     "speaker": "Saya"
+    },
+    {
+     "start": 31.0,
+     "end": 35.5,
+     "ja": "「咲く」という動詞に「僕ら」の「等」で、",
+     "en": "and with the verb 'to bloom' plus the plural/equal 'ra',",
+     "speaker": "Saya"
+    },
+    {
+     "start": 35.5,
+     "end": 39.0,
+     "ja": "「等しく咲く者たち」っていう意味を持った花の名前なんですけども、",
+     "en": "it's the name of a flower meaning 'those who bloom equally together'.",
+     "speaker": "Saya"
+    },
+    {
+     "start": 39.0,
+     "end": 43.5,
+     "ja": "今日、デモに来てくださってる方たちも、",
+     "en": "And the people attending the rally today,",
+     "speaker": "Saya"
+    },
+    {
+     "start": 43.5,
+     "end": 49.0,
+     "ja": "まさしく「等しく咲く者たち」だなという気持ちで、今日は「さくらさくら」を選びました。",
+     "en": "truly felt like 'those who bloom equally together', so I chose 'Sakura Sakura'.",
+     "speaker": "Saya"
+    }
+   ]
+  },
+  {
+   "start": 63.3,
+   "end": 78.2,
+   "title": "A Singer's Role",
+   "level": "N3",
+   "topics": [
+    "music",
+    "work"
+   ],
+   "grammar": [
+    "〜ように — so that / in order to",
+    "お〜する — humble expression"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 63.5,
+     "end": 68.5,
+     "ja": "あの、本当に、思いを伝えるのが、歌い手の役目だと思ってますんで、",
+     "en": "I truly believe that conveying feelings is a singer's duty,",
+     "speaker": "Saya"
+    },
+    {
+     "start": 68.5,
+     "end": 74.2,
+     "ja": "皆様がこの後のデモに張り切って行かれるように、ちょっと応援歌をお送りしたいと思っています。",
+     "en": "so I want to send an encouraging song so everyone can go energetically to the rally.",
+     "speaker": "Saya"
+    },
+    {
+     "start": 74.2,
+     "end": 76.8,
+     "ja": "はい、楽しみにしています。どうもありがとうございました。",
+     "en": "We're looking forward to it. Thank you very much.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 76.8,
+     "end": 78.0,
+     "ja": "どうもありがとうございます。",
+     "en": "Thank you very much.",
+     "speaker": "Saya"
+    }
+   ]
+  }
+ ],
+ "videoId": "9rmhT5TTlIU",
+ "pickTopics": [
+  "music"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

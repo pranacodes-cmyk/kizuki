@@ -1,0 +1,271 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 93.2,
+   "end": 118.0,
+   "title": "Why Was I Called Here?",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜じゃねえか — isn't it (emphatic assertion)",
+    "〜てんだ — ongoing action / explanation (contraction of ているんだ)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 93.5,
+     "end": 96.5,
+     "ja": "いや、なんで俺呼ばれたんだよな、おい！",
+     "en": "Seriously, why the heck was I even brought here?!",
+     "speaker": "Man"
+    },
+    {
+     "start": 96.6,
+     "end": 98.9,
+     "ja": "なんで俺呼ばれたの、これ？",
+     "en": "Why was I called for this?",
+     "speaker": "Man"
+    },
+    {
+     "start": 99.1,
+     "end": 101.9,
+     "ja": "人殺し、人殺し、詐欺師…",
+     "en": "Murderer, murderer, fraudster...",
+     "speaker": "Man"
+    },
+    {
+     "start": 102.0,
+     "end": 104.2,
+     "ja": "ただファスト映画見ただだけの人。",
+     "en": "And just a guy who watched fast cinema recap videos.",
+     "speaker": "Man"
+    },
+    {
+     "start": 104.3,
+     "end": 107.3,
+     "ja": "いや、おかしいだろ！俺、めちゃくちゃ善良じゃねえかよな！",
+     "en": "That makes no sense! I'm practically a model citizen!",
+     "speaker": "Man"
+    },
+    {
+     "start": 107.4,
+     "end": 111.7,
+     "ja": "4人から1人生贄…一目瞭然じゃない。",
+     "en": "One sacrifice out of four... isn't it obvious who it should be?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 111.8,
+     "end": 113.9,
+     "ja": "あんた、自分から名乗り上げなさいよ！",
+     "en": "You should volunteer yourself!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 113.9,
+     "end": 117.6,
+     "ja": "なんで俺見てんだよ、お前よ！",
+     "en": "Why are you looking at me?!",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 157.4,
+   "end": 190.5,
+   "title": "You Can't Endure a Movie?",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜た方がいい — had better / should",
+    "〜られる — potential form (can endure)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 157.6,
+     "end": 162.5,
+     "ja": "こん中で一番若いのはあんたじゃない？いくつなの？",
+     "en": "Aren't you the youngest here? How old are you?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 163.6,
+     "end": 165.3,
+     "ja": "いや、29。",
+     "en": "Uh, 29.",
+     "speaker": "Man"
+    },
+    {
+     "start": 165.4,
+     "end": 169.6,
+     "ja": "29歳で映画の2時間半に耐えられない？",
+     "en": "You're 29 and you can't sit through a two-and-a-half-hour movie?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 169.7,
+     "end": 171.8,
+     "ja": "死んだ方がいいんじゃない？",
+     "en": "Wouldn't you be better off dead?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 171.8,
+     "end": 175.6,
+     "ja": "言い過ぎだろ！言い過ぎだよ、それは！",
+     "en": "That's way too harsh! That's going too far!",
+     "speaker": "Man"
+    },
+    {
+     "start": 176.3,
+     "end": 178.6,
+     "ja": "ファスト映画で何見たの？",
+     "en": "What did you watch in fast cinema?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 180.6,
+     "end": 182.6,
+     "ja": "『グリーンマイル』。",
+     "en": "The Green Mile.",
+     "speaker": "Man"
+    },
+    {
+     "start": 183.1,
+     "end": 186.7,
+     "ja": "あんな良い映画を2、3分で？",
+     "en": "A masterpiece like that in two or three minutes?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 186.8,
+     "end": 188.5,
+     "ja": "死んだ方がいいんじゃない？",
+     "en": "Wouldn't you be better off dead?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 188.5,
+     "end": 190.4,
+     "ja": "だから言い過ぎだって、お前！",
+     "en": "Like I said, you're taking it too far!",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 292.0,
+   "end": 322.0,
+   "title": "My Shift at the Manga Cafe",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "work"
+   ],
+   "grammar": [
+    "〜たら — conditional if / when",
+    "〜たって — even if (contraction of 〜ても)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 292.3,
+     "end": 295.3,
+     "ja": "え、じゃあお前は？お前は明日何があるっつんだよ？",
+     "en": "Then what about you? What do you claim you have tomorrow?",
+     "speaker": "Man"
+    },
+    {
+     "start": 295.3,
+     "end": 296.3,
+     "ja": "夜勤。",
+     "en": "Night shift.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 296.3,
+     "end": 298.9,
+     "ja": "夜勤？！よわー！夜勤！",
+     "en": "Night shift?! That's so weak! A night shift?!",
+     "speaker": "Man"
+    },
+    {
+     "start": 299.0,
+     "end": 301.3,
+     "ja": "小銭稼ぎてえだけじゃねえか、てめえ、おい！",
+     "en": "You just want to earn some pocket change, damn it!",
+     "speaker": "Man"
+    },
+    {
+     "start": 301.4,
+     "end": 303.4,
+     "ja": "明日は一番混む曜日なの。",
+     "en": "Tomorrow is our busiest day of the week.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 303.5,
+     "end": 308.1,
+     "ja": "知らねえよな。なんだ混む曜日って。何、バイト何やってんの？",
+     "en": "Who cares? What do you mean busiest day? What's your part-time job anyway?",
+     "speaker": "Man"
+    },
+    {
+     "start": 308.2,
+     "end": 309.1,
+     "ja": "漫喫。",
+     "en": "A manga cafe.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 309.1,
+     "end": 310.2,
+     "ja": "漫喫？！",
+     "en": "A manga cafe?!",
+     "speaker": "Man"
+    },
+    {
+     "start": 310.3,
+     "end": 313.2,
+     "ja": "いい、いい。1人ぐらい行かなくたって回る、回るそんなの。",
+     "en": "Whatever! That kind of place does fine even if one person doesn't show up.",
+     "speaker": "Man"
+    },
+    {
+     "start": 313.3,
+     "end": 315.5,
+     "ja": "なんでそんなこと言うの？",
+     "en": "Why would you say that?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 315.5,
+     "end": 317.4,
+     "ja": "無断で欠席したらペナルティーがつく…",
+     "en": "If I skip without notice, I'll get penalized...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 317.5,
+     "end": 321.5,
+     "ja": "それに明日はベテランが3人も集う神シフトなの！",
+     "en": "Besides, tomorrow is an all-star shift with three veterans gathered!",
+     "speaker": "Woman"
+    }
+   ]
+  }
+ ],
+ "videoId": "Y5_csckmsRQ",
+ "pickTopics": [
+  "comedy"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,184 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 23.7,
+   "end": 36.2,
+   "title": "Why Are You Looking So Down?",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜ている — ongoing state",
+    "〜なくて（なんかない） — emphasis on negation"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 24.0,
+     "end": 25.0,
+     "ja": "……先生。",
+     "en": "...Teacher.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 25.1,
+     "end": 26.0,
+     "ja": "えっ！？",
+     "en": "Huh?!",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 26.1,
+     "end": 28.0,
+     "ja": "何をそんなに落ち込んでいるんですか？",
+     "en": "Why are you looking so down?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 28.1,
+     "end": 30.8,
+     "ja": "お、落ち込んでなんかないよ！！",
+     "en": "I-I'm not down at all!!",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 31.0,
+     "end": 35.8,
+     "ja": "ただ、今日は大変だったなーって思っていただけで……",
+     "en": "I was just thinking today was really tough, that's all...",
+     "speaker": "Teacher"
+    }
+   ]
+  },
+  {
+   "start": 121.5,
+   "end": 134.5,
+   "title": "Advice From a Mature Kindergarten Boy",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy",
+    "school"
+   ],
+   "grammar": [
+    "〜なくていい — do not need to",
+    "〜より〜ほうが — comparison/preference",
+    "〜ようとする — attempt to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 122.0,
+     "end": 124.8,
+     "ja": "先生は頑張らなくていいんですよ。",
+     "en": "Teacher, you don't have to push yourself so hard.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 125.0,
+     "end": 127.4,
+     "ja": "子供に何かをさせようとするより、",
+     "en": "Rather than trying to make the kids do something,",
+     "speaker": "Boy"
+    },
+    {
+     "start": 127.5,
+     "end": 129.8,
+     "ja": "子供が今、何をやりたいか、",
+     "en": "thinking about what the kids want to do right now,",
+     "speaker": "Boy"
+    },
+    {
+     "start": 129.9,
+     "end": 134.0,
+     "ja": "何に興味を持っているかを考えたほうが、きっと有益ですよ。",
+     "en": "and what they're interested in would surely be much more fruitful.",
+     "speaker": "Boy"
+    }
+   ]
+  },
+  {
+   "start": 215.0,
+   "end": 240.5,
+   "title": "How Many Lives Has That Kid Lived?",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "comedy",
+    "school"
+   ],
+   "grammar": [
+    "〜てくる — go and do",
+    "〜でいてください — please remain in a state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 215.2,
+     "end": 217.8,
+     "ja": "やはり、女性の笑顔はいいものですね。",
+     "en": "A woman's smile really is a wonderful thing.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 218.0,
+     "end": 219.0,
+     "ja": "えっ！？",
+     "en": "Huh?!",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 219.2,
+     "end": 222.0,
+     "ja": "いつまでも笑顔でいてくださいね、先生。",
+     "en": "Please always keep smiling, Teacher.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 224.8,
+     "end": 226.0,
+     "ja": "おーい！",
+     "en": "Hey!",
+     "speaker": "Other Kid"
+    },
+    {
+     "start": 226.1,
+     "end": 227.8,
+     "ja": "うん、今いくよー！",
+     "en": "Yeah, coming!",
+     "speaker": "Boy"
+    },
+    {
+     "start": 228.0,
+     "end": 230.8,
+     "ja": "では僕は校庭で砂遊びしてきますね。",
+     "en": "Well then, I'm off to play in the sandbox in the yard.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 230.9,
+     "end": 233.5,
+     "ja": "あっ、うん……気をつけてね。",
+     "en": "Ah, okay... be careful.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 236.7,
+     "end": 240.0,
+     "ja": "……って、あの子人生何周目！？",
+     "en": "...Wait, how many lives has that kid lived?!",
+     "speaker": "Teacher"
+    }
+   ]
+  }
+ ],
+ "videoId": "FRBr_si1oYM",
+ "pickTopics": [
+  "anime"
+ ],
+ "model": "google/gemini-3.8-flash"
+}

@@ -1,0 +1,223 @@
+{
+ "speech": "clear",
+ "clips": [
+  {
+   "start": 201.0,
+   "end": 216.5,
+   "title": "Ordering Lunch with Less Rice",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜お願いします — please / I'd like",
+    "〜できますか — can I / is it possible to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 201.3,
+     "end": 203.5,
+     "ja": "すみません、注文お願いします。",
+     "en": "Excuse me, I'd like to order.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 203.7,
+     "end": 205.4,
+     "ja": "はい、お伺いします。",
+     "en": "Yes, I'm ready to take your order.",
+     "speaker": "Server"
+    },
+    {
+     "start": 206.6,
+     "end": 209.5,
+     "ja": "えっと、若鶏の照り焼きチキンランチ。",
+     "en": "Um, the young chicken teriyaki lunch.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 209.7,
+     "end": 211.2,
+     "ja": "照り焼きチキンランチ、はい。",
+     "en": "The teriyaki chicken lunch, yes.",
+     "speaker": "Server"
+    },
+    {
+     "start": 211.4,
+     "end": 213.3,
+     "ja": "これって、ライス少なめとかできますか？",
+     "en": "Can I get less rice with this?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 213.4,
+     "end": 214.3,
+     "ja": "あ、大丈夫です。",
+     "en": "Ah, yes, of course.",
+     "speaker": "Server"
+    },
+    {
+     "start": 214.4,
+     "end": 215.5,
+     "ja": "じゃあライス少なめでお願いします。",
+     "en": "Then less rice, please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 215.6,
+     "end": 216.5,
+     "ja": "かしこまりました。",
+     "en": "Certainly.",
+     "speaker": "Server"
+    }
+   ]
+  },
+  {
+   "start": 253.5,
+   "end": 269.5,
+   "title": "Asking for Today's Dessert",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜になります — polite form of です / to be",
+    "〜にする — to decide on"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 253.8,
+     "end": 256.4,
+     "ja": "すみません、今日のデザートは何ですか？",
+     "en": "Excuse me, what is today's dessert?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 256.9,
+     "end": 260.0,
+     "ja": "本日のデザートですと、ええと濃厚ガトーショコラか、",
+     "en": "For today's dessert, we have a rich gateau chocolat,",
+     "speaker": "Server"
+    },
+    {
+     "start": 260.5,
+     "end": 263.6,
+     "ja": "あと、ミックスベリーのチーズケーキになりますね。",
+     "en": "and mixed berry cheesecake.",
+     "speaker": "Server"
+    },
+    {
+     "start": 264.0,
+     "end": 265.2,
+     "ja": "どうしようかなぁ。",
+     "en": "What should I do...",
+     "speaker": "Akane"
+    },
+    {
+     "start": 265.4,
+     "end": 267.0,
+     "ja": "すみません、じゃあ、ガトーショコラ１つ。",
+     "en": "Excuse me, then one gateau chocolat, please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 267.2,
+     "end": 268.7,
+     "ja": "ガトーショコラで、はい、かしこまりました。",
+     "en": "One gateau chocolat, certainly.",
+     "speaker": "Server"
+    },
+    {
+     "start": 268.9,
+     "end": 269.5,
+     "ja": "お願いします。",
+     "en": "Thank you.",
+     "speaker": "Akane"
+    }
+   ]
+  },
+  {
+   "start": 329.5,
+   "end": 350.0,
+   "title": "Paying the Bill at the Counter",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜になります — polite form for amounts",
+    "〜お預かりいたします — to receive / hold onto (humble)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 329.7,
+     "end": 331.9,
+     "ja": "すみません、お会計お願いします。",
+     "en": "Excuse me, check please.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 332.1,
+     "end": 333.0,
+     "ja": "はーい、どうぞー。",
+     "en": "Yes, right this way.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 333.2,
+     "end": 334.9,
+     "ja": "こちらが今回のご明細ですね。",
+     "en": "Here is your bill.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 335.1,
+     "end": 337.3,
+     "ja": "失礼します、１１５５円になりますね。",
+     "en": "Excuse me, that will be 1,155 yen.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 339.3,
+     "end": 340.4,
+     "ja": "はい、お預かりいたします。",
+     "en": "Yes, I will take that.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 340.8,
+     "end": 343.7,
+     "ja": "こちらが１１６０円でお預かりいたします。",
+     "en": "I have received 1,160 yen.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 346.8,
+     "end": 348.8,
+     "ja": "こちらご明細と５円のお返しですね。",
+     "en": "Here is your receipt and 5 yen change.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 348.9,
+     "end": 349.8,
+     "ja": "失礼します。",
+     "en": "Thank you very much.",
+     "speaker": "Staff"
+    }
+   ]
+  }
+ ],
+ "videoId": "wnBiNFy5-rQ",
+ "pickTopics": [
+  "food"
+ ],
+ "model": "google/gemini-3.8-flash"
+}
