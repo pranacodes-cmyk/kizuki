@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import 'data/content.dart';
@@ -72,6 +73,21 @@ class KizukiApp extends StatefulWidget {
   State<KizukiApp> createState() => _KizukiAppState();
 }
 
+/// Path of the screen on top, including pushed ones (/review, /settings).
+/// routerDelegate.currentConfiguration.uri stays on the screen underneath a push, so the
+/// welcome tour never saw the review open.
+String? topPath(GoRouter router) {
+  try {
+    return router.state.uri.path;
+  } catch (_) {
+    try {
+      return router.routerDelegate.currentConfiguration.uri.path;
+    } catch (_) {
+      return null;
+    }
+  }
+}
+
 class _KizukiAppState extends State<KizukiApp> {
   late final router = buildRouter(widget.app);
 
@@ -79,9 +95,8 @@ class _KizukiAppState extends State<KizukiApp> {
   final _path = ValueNotifier<String>('/');
 
   void _syncPath() {
-    try {
-      _path.value = router.routerDelegate.currentConfiguration.uri.path;
-    } catch (_) {}
+    final p = topPath(router);
+    if (p != null) _path.value = p;
   }
 
   @override

@@ -4,7 +4,7 @@ Flutter (`mobile/`) is the product; the web app is its phone-frame prototype.
 Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com/pranacodes-cmyk/kizuki
 
 ## Real-phone feedback round 1 (user screen recording, 22 Oct)
-- [ ] Name field: button gets cut off when the keyboard is open (code done both clients; verify on emulator)
+- [x] Name field: "Build my plan" + Skip stay fully above the keyboard (verified on the Android emulator with the real keyboard, 312px tall, and on web)
 - [x] "Designing your course" progress bar → ring (both clients)
 - [x] Feed jumps up/down as the transcript advances (transcript scrolls only itself now)
 - [x] Welcome tour: 16 interactive steps across Feed, word card, Explore, Vocab, Review (web walked end-to-end; tap hand sits below the word; review spotlight on the word)
