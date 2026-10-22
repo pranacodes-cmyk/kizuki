@@ -11,11 +11,11 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 - [x] Swipe to next clip: one swipe anywhere = one clip (subtitles no longer eat swipes; web feed no longer bounces back while a clip plays); drag tests on both clients
 - [x] Founder step: presenter video with voice + synced captions (generated presenter — not a real person; swap for a real recording before launch)
 - [x] "$0 today" paywall step: phone mockup plays the learner's own first clips (thumbnail, karaoke, tap, card, swipe)
-- [ ] Trial mockup: fill the empty lower half with the next transcript lines, like the real feed
+- [x] Trial mockup: lower half shows the next transcript lines like the real feed (repeated sentences skipped)
 - [x] Word meanings: 119 katakana words had the wrong meaning (ホテル "to feel hot", クラス "to live", チョコ "sake cup"…) — fixed in the content build + data tests
-- [ ] Split katakana compounds (イヤ+ホン, ブルー+レイ, サブ+ウェイ) → one word; needs AI word notes re-made for those clips
-- [ ] Emulator run on GitHub with the new tour + swipe + founder video, then new APK
-- [ ] Sweep for other bugs seen in the recording (first clip starts with a Patreon promo; some clips start mid-sentence)
+- [x] Split katakana words joined back up (ガン+ダム "cancer"+"dam" → ガンダム, イヤホン, サブウェイ, カンフー…): 42 words in 31 clips, AI word notes re-made for those 31 clips; tests guard it
+- [ ] Emulator run on GitHub (now also: name screen with the real keyboard, presenter video, paywall demo, full 16-step tour, real finger swipes, no-wobble check), then new APK
+- [x] Sweep of the phone recording: podcast videos (a still Patreon banner instead of video) now rank far down the feed (22 clips; never in a new learner's first 150); clips no longer open on the tail of the previous sentence (2 clips trimmed, notes re-made)
 
 ## Research
 - [x] Frame-by-frame teardown of the user's Kiku recording (docs/kiku-teardown.md)
@@ -46,7 +46,7 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 - [x] Feed: YouTube player, karaoke transcript, word card (Meaning/Explain/Examples/Notes), daily goal, line menu, Aa sheet
 - [x] Explore, Vocab, Review, Profile, Settings, History, Saved, Achievements, Terms, Privacy
 - [x] Email + Google + Lovable sign-in, password reset, cloud sync, delete account
-- [x] Welcome tour on the feed (7 steps) + replay in Settings
+- [x] Welcome tour (16 steps across Feed, word card, Explore, Vocab, Review) + replay in Settings
 - [x] Ask Kizuki chat (word card Explain tab + line menu), streamed AI answers, sign-in + daily-limit states
 - [x] Kizuki branding on splash + welcome ("気づき · the moment it clicks")
 - [x] Paywall perks mention the AI tutor (both clients)

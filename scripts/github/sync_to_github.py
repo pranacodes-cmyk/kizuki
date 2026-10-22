@@ -143,9 +143,12 @@ def main():
         print(head)
         return
 
-    status, new_tree = call("POST", f"/repos/{repo}/git/trees", {
-        "tree": [{"path": p, "mode": m, "type": "blob", "sha": s} for p, m, _, s in entries],
-    })
+    # Only the changed and deleted paths on top of the current tree (a full ~3000-entry tree
+    # request can time out on GitHub's side).
+    local = {e[0] for e in entries}
+    changes = [{"path": p, "mode": m, "type": "blob", "sha": s} for p, m, _, s in entries if remote.get(p) != s]
+    changes += [{"path": p, "mode": "100644", "type": "blob", "sha": None} for p in remote if p not in local]
+    status, new_tree = call("POST", f"/repos/{repo}/git/trees", {"base_tree": commit["tree"]["sha"], "tree": changes})
     if status != 201:
         sys.exit(f"tree failed: {status} {new_tree}")
     status, new_commit = call("POST", f"/repos/{repo}/git/commits", {"message": message, "tree": new_tree["sha"], "parents": [head]})

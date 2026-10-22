@@ -141,7 +141,11 @@ export function fnv1a(s: string) {
 // Feed ranking
 // ---------------------------------------------------------------------------
 
-export type RankClip = { id: string; videoId: string; level: string; topics: string[]; quality: number };
+/** still: audio-first video (a podcast) whose picture is one still image — ranked well below real video. */
+export type RankClip = { id: string; videoId: string; level: string; topics: string[]; quality: number; still?: boolean };
+
+/** Score taken off a still-picture clip (more than the whole random jitter range). */
+export const STILL_CLIP_PENALTY = 6;
 type RankCtx = { reasonList: string[]; jlpt: string; seen: Record<string, number>; seed: string };
 
 export function clipScore(clip: RankClip, { reasonList, jlpt, seen, seed }: RankCtx) {
@@ -155,7 +159,8 @@ export function clipScore(clip: RankClip, { reasonList, jlpt, seen, seed }: Rank
   const quality = (clip.quality - 3) * 1.5;
   const seenPenalty = (seen[clip.id] ?? 0) * 8;
   const jitter = ((fnv1a(`${seed}:${clip.id}`) % 1000) / 1000) * 2.5;
-  return topic + level + quality - seenPenalty + jitter;
+  const still = clip.still ? STILL_CLIP_PENALTY : 0;
+  return topic + level + quality - seenPenalty - still + jitter;
 }
 
 /** Ordered clip ids for the For You feed. Same video never plays twice in a row

@@ -48,6 +48,9 @@ class Clip {
   final List<String> topics, grammar;
   final int quality;
   final List<Line> lines;
+
+  /// Audio-first video (a podcast): the picture is one still image, often a channel banner.
+  final bool still;
   const Clip({
     required this.id,
     required this.videoId,
@@ -59,6 +62,7 @@ class Clip {
     required this.grammar,
     required this.quality,
     required this.lines,
+    this.still = false,
   });
   double get duration => end - start;
   String get thumb => 'https://i.ytimg.com/vi/$videoId/hqdefault.jpg';
@@ -74,6 +78,7 @@ class Clip {
         grammar: (j['grammar'] as List).cast<String>(),
         quality: (j['quality'] as num? ?? 3).toInt(),
         lines: (j['lines'] as List).map((l) => Line.fromJson(l as Map<String, dynamic>)).toList(),
+        still: j['still'] == true,
       );
 }
 

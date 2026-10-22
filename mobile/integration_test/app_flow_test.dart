@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:mimi/data/tour.dart';
 import 'package:mimi/main.dart' as kizuki;
+import 'package:mimi/screens/settings.dart';
 import 'package:mimi/state/app_state.dart';
 import 'package:mimi/widgets/feed_pager.dart';
 import 'package:mimi/widgets/tour.dart';
@@ -60,6 +61,12 @@ void main() {
       }
       await shot('timeout_${what.replaceAll(RegExp(r'[^a-z0-9]+'), '_')}');
       fail('Timed out after ${seconds}s waiting for $what');
+    }
+
+    /// The active clip's "0:03 / 0:14" label (shows whether YouTube is actually playing).
+    String playerTime() {
+      final labels = find.byWidgetPredicate((w) => w is Text && RegExp(r'^\d+:\d\d / \d+:\d\d$').hasMatch(w.data ?? ''));
+      return labels.evaluate().map((e) => (e.widget as Text).data).join(', ');
     }
 
     BuildContext ctx() => tester.element(find.byType(Navigator).first);
@@ -150,6 +157,7 @@ void main() {
     expect(state().tutorialFeed, isTrue);
     await wait(9000); // let the embedded player load the first clip
     await shot('12_feed_player');
+    debugPrint('E2E_INFO first clip after 9s: ${playerTime()}');
 
     // Tap the first real word of the first line.
     Finder? word;
@@ -219,6 +227,10 @@ void main() {
 
     // Real finger swipes (adb) must reach the app, like a person's.
     binding.shouldPropagateDevicePointerEvents = true;
+    // The settings list is long: scroll to the row first (it isn't built until it's near).
+    final settingsList = find.descendant(of: find.byType(SettingsScreen), matching: find.byType(Scrollable)).first;
+    await tester.scrollUntilVisible(find.text('Replay the welcome tour'), 500, scrollable: settingsList);
+    await wait(600);
     await tapText('Replay the welcome tour', after: 2500);
     await atStep('hello', '21_tour_hello');
     expect(find.textContaining('Hi Mohit!'), findsOneWidget);
@@ -278,6 +290,7 @@ void main() {
     }
 
     final start = page();
+    debugPrint('E2E_INFO feed before swipes: page $start, player ${playerTime()}');
     await shot('37_feed_before_swipes');
     // Up on the subtitles, five times: five new clips, never two at once.
     for (var i = 1; i <= 5; i++) {
@@ -297,7 +310,7 @@ void main() {
       await wait(250);
       worst = [worst, (pages().position.pixels - here * h0).abs(), if (top0 != null && player.evaluate().isNotEmpty) (tester.getRect(player.first).top - top0).abs()].reduce((a, b) => a > b ? a : b);
     }
-    debugPrint('E2E_INFO feed wobble over 10s: ${worst.toStringAsFixed(2)}px');
+    debugPrint('E2E_INFO feed wobble over 10s: ${worst.toStringAsFixed(2)}px; player ${playerTime()}');
     expect(worst, lessThan(1.0), reason: 'the feed must not move up and down while subtitles play');
     await shot('42_feed_after_10s');
     binding.shouldPropagateDevicePointerEvents = false;

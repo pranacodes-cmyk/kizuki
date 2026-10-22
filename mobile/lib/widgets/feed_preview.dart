@@ -61,6 +61,18 @@ List<PreviewDemo> previewDemos(Content c, List<String> order, {int n = 3}) {
   return out;
 }
 
+/// The lines shown after the demo line: up to [n], skipping repeats of a sentence already on
+/// screen (teachers often say a line twice; in a demo that just looks like a glitch).
+List<m.Line> previewFollowing(m.Clip clip, int line, {int n = previewFollowingLines}) {
+  final seen = {clip.lines[line].ja.trim()};
+  final out = <m.Line>[];
+  for (var li = line + 1; li < clip.lines.length && out.length < n; li++) {
+    final l = clip.lines[li];
+    if (seen.add(l.ja.trim())) out.add(l);
+  }
+  return out;
+}
+
 /// Loop timing (fractions of [previewLoopMs]).
 const previewLoopMs = 7000;
 /// How many transcript lines after the demo line the mockup shows (FeedPreview.tsx: PREVIEW_FOLLOWING_LINES).
@@ -199,7 +211,7 @@ class _Page extends StatelessWidget {
     final clip = demo.clip;
     final line = clip.lines[demo.line];
     // The lines after the demo line fill the page like the real feed's transcript.
-    final after = clip.lines.skip(demo.line + 1).take(previewFollowingLines).toList();
+    final after = previewFollowing(clip, demo.line);
     return ColoredBox(
       color: T.stage,
       child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [

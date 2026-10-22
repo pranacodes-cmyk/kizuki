@@ -198,8 +198,14 @@ class RankClip {
   final String level;
   final List<String> topics;
   final int quality;
-  const RankClip({required this.id, required this.videoId, required this.level, required this.topics, required this.quality});
+
+  /// Still-picture video (podcast): ranked well below real video, so it never opens the feed.
+  final bool still;
+  const RankClip({required this.id, required this.videoId, required this.level, required this.topics, required this.quality, this.still = false});
 }
+
+/// Score taken off a still-picture clip (more than the whole random jitter range).
+const stillClipPenalty = 6.0;
 
 double clipScore(RankClip clip, {required List<String> reasonList, required String jlpt, required Map<String, int> seen, required String seed}) {
   final wanted = <String, int>{};
@@ -226,7 +232,8 @@ double clipScore(RankClip clip, {required List<String> reasonList, required Stri
   final quality = (clip.quality - 3) * 1.5;
   final seenPenalty = (seen[clip.id] ?? 0) * 8.0;
   final jitter = (fnv1a('$seed:${clip.id}') % 1000) / 1000 * 2.5;
-  return topic + level + quality - seenPenalty + jitter;
+  final still = clip.still ? stillClipPenalty : 0.0;
+  return topic + level + quality - seenPenalty - still + jitter;
 }
 
 /// Ordered clip ids for the For You feed. Same video never plays twice in a row

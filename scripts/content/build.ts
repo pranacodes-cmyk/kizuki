@@ -88,6 +88,11 @@ const BIG_UNITS = ["万", "億", "兆"];
 const isNumberGroup = (parts: kuromoji.IpadicFeatures[]) =>
   parts.some((p) => DIGITS.test(p.surface_form)) && parts.every((p) => DIGITS.test(p.surface_form) || NUM_SEP.test(p.surface_form) || BIG_UNITS.includes(p.surface_form));
 
+const KATA_ONLY = /^[ァ-ヺー]+$/;
+const surfaceOf = (parts: kuromoji.IpadicFeatures[]) => parts.map((p) => p.surface_form).join("");
+/** A katakana loanword JMdict knows as a whole (byKana is filled before the first group() call). */
+const kataWord = (s: string) => s.length >= 3 && KATA_ONLY.test(s) && byKana.has(s);
+
 /**
  * Merge kuromoji morphemes into learner-sized words (歩い+てる → 歩いてる, お+座り → お座り).
  * Also: a stretched vowel joins its word (分かる+ー → 分かるー, く+ー+ん → くーん) and numbers stay
@@ -103,6 +108,9 @@ function group(tokens: kuromoji.IpadicFeatures[]) {
     const s = t.surface_form;
     let merge = false;
     if (prev && !prev.parts.every(isPunct) && LONG_VOWEL.test(s)) merge = true;
+    // A katakana word kuromoji split in pieces joins back up when the whole is a dictionary
+    // word (ガン+ダム → ガンダム, not "cancer" + "dam"; イヤ+ホン → イヤホン; サブ+ウェイ → サブウェイ).
+    else if (prev && KATA_ONLY.test(s) && prev.parts.every((p) => KATA_ONLY.test(p.surface_form)) && (kataWord(surfaceOf(prev.parts) + s) || (!!next && KATA_ONLY.test(next.surface_form) && kataWord(surfaceOf(prev.parts) + s + next.surface_form)))) merge = true;
     else if (prev && prevLast && LONG_VOWEL.test(prevLast.surface_form) && /^[ぁ-ん]$/.test(s) && (t.pos !== "助詞" || s === "ん")) merge = true;
     else if (prev && isNumberGroup(prev.parts) && (DIGITS.test(s) || BIG_UNITS.includes(s) || (NUM_SEP.test(s) && !!next && DIGITS.test(next.surface_form)))) merge = true;
     else if (prev && !isPunct(t)) {
@@ -363,6 +371,11 @@ async function oembed(id: string) {
 }
 
 // ---------- build ----------
+/** Audio-first videos (podcasts, radio) usually show one still picture — often a channel's
+ * Patreon / course banner — so the feed ranks them well below real video (logic.ts clipScore). */
+const STILL_VIDEO = /podcast|ポッドキャスト|ラジオ|\bradio\b/i;
+/** Lines that only finish the sentence before them (です！…, ですので、…). */
+const OPENS_MID_SENTENCE = /^(です|でした|でしょう|ます|ました)/;
 const rawFiles = fs.readdirSync(RAW).filter((f) => f.endsWith(".json")).sort(); // sorted: dictionary display forms must not depend on directory order
 const clips: any[] = [];
 const videos: Record<string, { title: string; channel: string; channelUrl: string }> = {};
@@ -391,7 +404,12 @@ for (const f of rawFiles) {
         if (lines[fix.line]) lines[fix.line] = { ...lines[fix.line], ja: fix.ja, en: fix.en || lines[fix.line].en };
       }
     }
-    const outLines = lines.map((l) => {
+    // A clip never opens on the tail of the previous sentence (です！はい。…); the id keeps the
+    // original start so cached proofs and notes still find the clip.
+    let first = 0;
+    while (lines.length - first > 2 && OPENS_MID_SENTENCE.test(lines[first].ja.trim())) first++;
+    const clipStart = first ? Math.max(0, lines[first].start - 0.4) : start;
+    const outLines = lines.slice(first).map((l) => {
       const toks = tokenizer.tokenize(l.ja.trim());
       const groups = group(toks);
       const weights = groups.map((g) => (g.parts.every(isPunct) ? 0 : mora(g.parts.some((p) => DIGITS.test(p.surface_form)) ? numberGroupReading(g.parts) : g.parts.map((p) => p.reading ?? p.surface_form).join(""))));
@@ -436,8 +454,9 @@ for (const f of rawFiles) {
     const level = LEVELS.includes(c.level) ? c.level : "N4";
     const topics = [...new Set([...(c.topics ?? []), ...v.pickTopics].filter((t) => TOPICS.has(t)))].slice(0, 4);
     const clip = {
-      id, videoId: v.videoId, start: round(start), end: round(end), title: c.title.slice(0, 48), level, topics,
+      id, videoId: v.videoId, start: round(clipStart), end: round(end), title: c.title.slice(0, 48), level, topics,
       grammar: (c.grammar ?? []).slice(0, 3), quality: c.quality, lines: outLines,
+      ...(STILL_VIDEO.test(m.title) ? { still: true } : {}),
     };
     kept.push(clip);
   }

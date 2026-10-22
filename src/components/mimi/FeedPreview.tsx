@@ -45,6 +45,21 @@ export function previewDemos(c: Content, order: string[], n = 3): PreviewDemo[] 
   return out;
 }
 
+/** The lines shown after the demo line: up to n, skipping repeats of a sentence already on
+ * screen (teachers often say a line twice; in a demo that just looks like a glitch). Mirrors
+ * feed_preview.dart: previewFollowing. */
+export function previewFollowing(clip: Clip, line: number, n = PREVIEW_FOLLOWING_LINES) {
+  const seen = new Set([clip.lines[line]!.ja.trim()]);
+  const out: Clip["lines"] = [];
+  for (let li = line + 1; li < clip.lines.length && out.length < n; li++) {
+    const l = clip.lines[li]!;
+    if (seen.has(l.ja.trim())) continue;
+    seen.add(l.ja.trim());
+    out.push(l);
+  }
+  return out;
+}
+
 /** Loop timing (fractions of PREVIEW_LOOP_MS). */
 export const PREVIEW_LOOP_MS = 7000;
 /** How many transcript lines after the demo line the mockup shows (feed_preview.dart: previewFollowingLines). */
@@ -107,7 +122,7 @@ export function FeedPreview() {
   const cardV = ramp(t, CARD_IN, CARD_IN + 0.04) * (1 - ramp(t, CARD_OUT, CARD_OUT + 0.04));
   const swipeV = ramp(t, SWIPE_FROM, 1);
   // The lines after the demo line fill the page like the real feed's transcript.
-  const after = demo.clip.lines.slice(demo.line + 1, demo.line + 1 + PREVIEW_FOLLOWING_LINES);
+  const after = previewFollowing(demo.clip, demo.line);
 
   // The finger lifts away as the card slides up, so the card never slides over it.
   const tapFinger = !still && wordAt && t >= KARAOKE_END && t < CARD_IN + 0.06

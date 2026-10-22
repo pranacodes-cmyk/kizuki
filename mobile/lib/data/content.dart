@@ -56,7 +56,7 @@ class Content {
     }
   }
 
-  List<RankClip> get rankClips => [for (final c in clips) RankClip(id: c.id, videoId: c.videoId, level: c.level, topics: c.topics, quality: c.quality)];
+  List<RankClip> get rankClips => [for (final c in clips) RankClip(id: c.id, videoId: c.videoId, level: c.level, topics: c.topics, quality: c.quality, still: c.still)];
 
   /// All grammar patterns with how many clips use them, most common first.
   List<MapEntry<String, int>> grammarIndex() {

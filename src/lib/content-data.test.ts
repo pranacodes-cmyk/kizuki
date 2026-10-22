@@ -24,7 +24,7 @@ describe("clip word meanings", () => {
     expect(glossOf("クラス")).toMatch(/^class/);
     expect(glossOf("チョコ")).toMatch(/^chocolate/);
     expect(glossOf("ペット")).toMatch(/^pet/);
-    expect(glossOf("タオル")).toMatch(/^towel/);
+    expect(glossOf("ハンドタオル")).toMatch(/^hand-towel/);
   });
 
   it("katakana spellings of Japanese words keep the Japanese word", () => {
@@ -36,6 +36,21 @@ describe("clip word meanings", () => {
     const kataOnly = /^[\u30a1-\u30fa\u30fc]+$/;
     const verbs = words.filter((w) => w.d && kataOnly.test(w.b) && (dict[w.d]?.m[0]?.pos ?? []).some((p) => /^(godan|ichidan|auxiliary|くる) verb$/.test(p)));
     expect(verbs.map((w) => `${w.s} → ${dict[w.d!]?.w}`)).toEqual([]);
+  });
+
+  it("katakana words the tokenizer splits stay one word (Gundam is not 'cancer' + 'dam')", () => {
+    const surfaces = new Set(words.map((w) => w.s));
+    for (const whole of ["ガンダム", "イヤホン", "サブウェイ", "ブルーレイ", "カンフー"]) expect(surfaces.has(whole), whole).toBe(true);
+    expect(glossOf("ガンダム")).toMatch(/^Gundam/);
+    expect(glossOf("イヤホン")).toMatch(/^earphone/);
+    for (const piece of ["ガン", "ダム", "イヤ", "ホン", "ウェイ"]) {
+      expect(content.clips.some((c) => c.lines.some((l) => l.words.some((w, i) => w.s === piece && /^[\u30a1-\u30fa\u30fc]+$/.test(l.words[i + 1]?.s ?? "") && ["ガンダム", "イヤホン", "サブウェイ"].includes(w.s + l.words[i + 1]!.s)))), piece).toBe(false);
+    }
+  });
+
+  it("every clip ships its word explanations, written for its exact word split", () => {
+    const missing = content.clips.filter((c) => !fs.existsSync(path.join(root, "public/data/explain", `${c.id}.json`)));
+    expect(missing.map((c) => c.id)).toEqual([]);
   });
 
   it("every word's dictionary id exists", () => {

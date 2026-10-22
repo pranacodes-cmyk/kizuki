@@ -57,6 +57,17 @@ void main() {
         expect(order[i].split('-')[0], isNot(order[i - 1].split('-')[0]));
       }
     });
+    test('a still-picture (podcast) clip ranks below the same clip as real video', () {
+      const pair = [
+        RankClip(id: 'p-1', videoId: 'p', level: 'N5', topics: ['anime'], quality: 5, still: true),
+        RankClip(id: 'v-1', videoId: 'v', level: 'N5', topics: ['anime'], quality: 5),
+      ];
+      for (final seed in ['s1', 's2', 's3', 'x']) {
+        expect(rankFeed(pair, reasonList: ['anime'], jlpt: 'N5', seen: {}, seed: seed), ['v-1', 'p-1']);
+      }
+      expect(clipScore(pair[1], reasonList: ['anime'], jlpt: 'N5', seen: {}, seed: 'none') - clipScore(pair[0], reasonList: ['anime'], jlpt: 'N5', seen: {}, seed: 'none'),
+          closeTo(6.0 + (fnv1a('none:v-1') % 1000) / 1000 * 2.5 - (fnv1a('none:p-1') % 1000) / 1000 * 2.5, 1e-9));
+    });
     test('pushes already-seen clips down', () {
       final order = rankFeed(clips, reasonList: ['anime'], jlpt: 'N5', seen: {'a-1': 2, 'a-2': 2}, seed: 's1');
       expect(order[0], 'c-1');

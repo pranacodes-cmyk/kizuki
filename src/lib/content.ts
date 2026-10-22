@@ -10,6 +10,8 @@ export type Line = { start: number; end: number; en: string; sp: string; ja: str
 export type Clip = {
   id: string; videoId: string; title: string; level: string; start: number; end: number;
   topics: string[]; grammar: string[]; quality: number; lines: Line[];
+  /** Audio-first video (a podcast): the picture is one still image, often a channel banner. */
+  still?: boolean;
 };
 export type Video = { title: string; channel: string; channelUrl: string };
 export type DictEntry = { w: string; r: string; j: number | null; c: boolean; m: { pos: string[]; g: string }[]; ex: { ja: string; en: string }[] };
@@ -52,7 +54,7 @@ export function loadNotes(clipId: string): Promise<ClipNotes> {
 
 export const thumbOf = (videoId: string) => `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
 export const glossOf = (e?: DictEntry) => (e?.m[0]?.g.split(";")[0]?.trim() ?? "");
-export const rankClips = (c: Content): RankClip[] => c.clips.map((x) => ({ id: x.id, videoId: x.videoId, level: x.level, topics: x.topics, quality: x.quality }));
+export const rankClips = (c: Content): RankClip[] => c.clips.map((x) => ({ id: x.id, videoId: x.videoId, level: x.level, topics: x.topics, quality: x.quality, still: x.still === true }));
 
 /** All grammar patterns with how many clips use them, most common first. */
 export function grammarIndex(c: Content): [string, number][] {

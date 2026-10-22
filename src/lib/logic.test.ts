@@ -61,6 +61,15 @@ describe("feed ranking", () => {
     expect(order.length).toBe(4);
     for (let i = 1; i < order.length; i++) expect(order[i]!.split("-")[0]).not.toBe(order[i - 1]!.split("-")[0]);
   });
+  it("a still-picture (podcast) clip ranks below the same clip as real video", () => {
+    const pair: RankClip[] = [
+      { id: "p-1", videoId: "p", level: "N5", topics: ["anime"], quality: 5, still: true },
+      { id: "v-1", videoId: "v", level: "N5", topics: ["anime"], quality: 5 },
+    ];
+    for (const seed of ["s1", "s2", "s3", "x"]) expect(rankFeed(pair, { ...ctx, seed })).toEqual(["v-1", "p-1"]);
+    expect(clipScore(pair[1]!, { ...ctx, seed: "none" }) - clipScore(pair[0]!, { ...ctx, seed: "none" })).toBeCloseTo(
+      6 + ((fnv1a("none:v-1") % 1000) / 1000) * 2.5 - ((fnv1a("none:p-1") % 1000) / 1000) * 2.5, 9);
+  });
   it("pushes already-seen clips down", () => {
     const order = rankFeed(clips, { ...ctx, seen: { "a-1": 2, "a-2": 2 } });
     expect(order[0]).toBe("c-1");
