@@ -49,12 +49,13 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 - [ ] Google / Lovable sign-in on Android (needs native OAuth redirect setup)
 
 ## Android delivery
-- [x] flutter analyze + flutter test clean (53 Flutter tests, 43 web tests)
+- [x] flutter analyze + flutter test clean (54 Flutter tests, 43 web tests)
 - [x] GitHub Actions: analyze → test → release APK → Android emulator end-to-end (release smoke + full flow with screenshots)
 - [x] Release APK on the emulator: opens to the welcome screen, saved-progress error gone (run 39691375925)
 - [x] Emulator watcher closes system pop-ups (launcher "isn't responding") that covered the app
-- [ ] Emulator end-to-end run green on GitHub with the fixes above
-- [ ] Final APK from the green GitHub run → Files
+- [x] Emulator end-to-end run green on GitHub (run 39697658751): release APK opens and moves into onboarding; full flow welcome → onboarding → plan → founder → paywall → feed with YouTube → word card → Ask Kizuki → Vocab → Review → Explore → Profile → Settings
+- [x] Emulator caught + fixed: cards now open above the tab bar; word card closes without an error
+- [x] Final APK from the green run → Files (Kizuki-1.1.0.apk)
 - [ ] Test on a real Android phone
 
 ## Needs the user
