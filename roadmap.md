@@ -4,7 +4,7 @@ Flutter (`mobile/`) is the product; the web app is its phone-frame prototype.
 Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com/pranacodes-cmyk/kizuki
 
 ## Real-phone feedback round 1 (user screen recording, 22 Oct)
-- [ ] Feedback round 2: trial screen freezes/crashes on the real phone — investigate, replace simulated demo with a swipeable live home preview in both clients, verify continuation and deliver a tested APK
+- [x] Feedback round 2: removed simulated preview animation/geometry callbacks; released founder decoder before trial; single-flight content loading; actual swipeable home ClipView in both clients. 75 Flutter tests + 63 web tests pass; green emulator run 39752455442 verifies trial swipes, trial activation → account, full tour, feed swipes and 0.00px wobble. APK 1.1.2 delivered. Exact original real-phone crash cause remains unconfirmed without phone logs; phone retest pending.
 - [x] Name field: "Build my plan" + Skip stay fully above the keyboard (verified on the Android emulator with the real keyboard, 312px tall, and on web)
 - [x] "Designing your course" progress bar → ring (both clients)
 - [x] Feed jumps up/down as the transcript advances (transcript scrolls only itself now)
@@ -19,7 +19,7 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 - [x] Every APK now signed with one fixed key (GitHub secret), so new versions install over old ones; version 1.1.1
 - [x] Emulator run green on GitHub (run 39738357302): name screen with the real keyboard, presenter video, paywall demo, full 16-step tour, real finger swipes (5 up, 1 down, short drag springs back, quick flick), no wobble (0.00px over 10s)
 - [x] New APK from the green run → Files (Kizuki-1.1.1.apk, fixed signing key)
-- [ ] YouTube video actually playing: on GitHub's emulator the player stays on "loading" for every clip (their machine can't stream YouTube), so this needs the real-phone check
+- [ ] YouTube video actually playing on Android: GitHub emulator reaches buffering but does not advance; cause unconfirmed, real-phone check needed (web preview player renders and trial continuation verified).
 - [x] Sweep of the phone recording: podcast videos (a still Patreon banner instead of video) now rank far down the feed (22 clips; never in a new learner's first 150); clips no longer open on the tail of the previous sentence (2 clips trimmed, notes re-made)
 
 ## Research

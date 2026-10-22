@@ -125,6 +125,9 @@ class ClipPlayerState extends State<ClipPlayer> {
         if (st == PlayerState.playing || st == PlayerState.paused || st == PlayerState.buffering) _ready = true;
       });
       if (!wasReady && _ready) _c?.setPlaybackRate(widget.rate);
+      // Hide YouTube's own captions: our transcript is the subtitle. enableCaption=false
+      // is ignored when the viewer/channel has captions on, so unload the module.
+      if (st == PlayerState.playing || st == PlayerState.buffering) _hideYouTubeCaptions();
       widget.onPlayingChange(st == PlayerState.playing);
       if (st == PlayerState.ended) {
         // YouTube's end hit: wrap like a loop.
@@ -133,6 +136,14 @@ class ClipPlayerState extends State<ClipPlayer> {
         widget.onLoop();
       }
     }
+  }
+
+  void _hideYouTubeCaptions() {
+    final c = _c;
+    if (c == null) return;
+    unawaited(c.webViewController
+        .runJavaScript("try{player.unloadModule('captions');player.unloadModule('cc');player.setOption('captions','track',{});}catch(e){}")
+        .catchError((_) {}));
   }
 
   void _onPosition(YoutubeVideoState s) {

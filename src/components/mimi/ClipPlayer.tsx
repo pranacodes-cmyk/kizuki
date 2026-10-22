@@ -89,6 +89,11 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
             },
             onStateChange: (e) => {
               setState(e.data);
+              // Hide YouTube's own captions (cc_load_policy is ignored when the viewer has CC on).
+              if (e.data === YT_STATE.PLAYING || e.data === YT_STATE.BUFFERING) {
+                const t = e.target as unknown as { unloadModule?: (m: string) => void; setOption?: (m: string, k: string, v: unknown) => void };
+                try { t.unloadModule?.("captions"); t.unloadModule?.("cc"); t.setOption?.("captions", "track", {}); } catch { /* no captions */ }
+              }
               cb.current.onPlayingChange(e.data === YT_STATE.PLAYING);
               if (e.data === YT_STATE.ENDED) {
                 // YouTube's `end` hit: wrap like a loop.
