@@ -160,6 +160,8 @@ void main() {
     expect(find.text('account'), findsOneWidget);
     expect(app.premium.active, isTrue);
     expect(tester.takeException(), isNull);
+    // Let the trial-start toast and debounced local save finish before teardown.
+    await tester.pump(const Duration(seconds: 4));
   });
 
   testWidgets('achievements and legal pages render', (tester) async {
