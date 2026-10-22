@@ -4,6 +4,7 @@ Flutter (`mobile/`) is the product; the web app is its phone-frame prototype.
 Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com/pranacodes-cmyk/kizuki
 
 ## Real-phone feedback round 1 (user screen recording, 22 Oct)
+- [ ] Feedback round 2: trial screen freezes/crashes on the real phone — investigate, replace simulated demo with a swipeable live home preview in both clients, verify continuation and deliver a tested APK
 - [x] Name field: "Build my plan" + Skip stay fully above the keyboard (verified on the Android emulator with the real keyboard, 312px tall, and on web)
 - [x] "Designing your course" progress bar → ring (both clients)
 - [x] Feed jumps up/down as the transcript advances (transcript scrolls only itself now)
@@ -16,7 +17,9 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 - [x] Split katakana words joined back up (ガン+ダム "cancer"+"dam" → ガンダム, イヤホン, サブウェイ, カンフー…): 42 words in 31 clips, AI word notes re-made for those 31 clips; tests guard it
 - [x] Android tour stuck on the Review step (the app didn't notice the pushed Review screen) — fixed + test
 - [x] Every APK now signed with one fixed key (GitHub secret), so new versions install over old ones; version 1.1.1
-- [ ] Emulator run on GitHub (now also: name screen with the real keyboard, presenter video, paywall demo, full 16-step tour, real finger swipes, no-wobble check), then new APK
+- [x] Emulator run green on GitHub (run 39738357302): name screen with the real keyboard, presenter video, paywall demo, full 16-step tour, real finger swipes (5 up, 1 down, short drag springs back, quick flick), no wobble (0.00px over 10s)
+- [x] New APK from the green run → Files (Kizuki-1.1.1.apk, fixed signing key)
+- [ ] YouTube video actually playing: on GitHub's emulator the player stays on "loading" for every clip (their machine can't stream YouTube), so this needs the real-phone check
 - [x] Sweep of the phone recording: podcast videos (a still Patreon banner instead of video) now rank far down the feed (22 clips; never in a new learner's first 150); clips no longer open on the tail of the previous sentence (2 clips trimmed, notes re-made)
 
 ## Research
@@ -78,6 +81,6 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 - Publish the web app — Ask Kizuki in the phone app and the email links (confirm / reset password) use the published address
 - Install the APK on a real phone and report anything broken
 - Real founder recording (recording guide in Files: founder-video-guide.md)
-- Real prices / Play billing products, Play signing keystore
+- Real prices / Play billing products (a permanent signing key now exists and can be the Play upload key)
 - Real support email (hello@kizuki.app is a placeholder)
 - Legal review of Terms / Privacy drafts

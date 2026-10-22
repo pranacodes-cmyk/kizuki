@@ -145,7 +145,7 @@ void main() {
   });
 
   testWidgets('trial pitch walks through its three steps', (tester) async {
-    await _pump(tester, '/trial');
+    final app = await _pump(tester, '/trial');
     expect(find.text(r'Try for $0.00'), findsOneWidget);
     await tester.tap(find.text(r'Try for $0.00'));
     await tester.pump(const Duration(milliseconds: 1500));
@@ -154,6 +154,12 @@ void main() {
     await tester.pump(const Duration(milliseconds: 400));
     expect(find.text('Start my free week'), findsOneWidget);
     expect(find.text('Yearly'), findsOneWidget);
+    await tester.tap(find.text('Start my free week'));
+    await tester.pump(const Duration(milliseconds: 1000));
+    await tester.pump(const Duration(milliseconds: 500));
+    expect(find.text('account'), findsOneWidget);
+    expect(app.premium.active, isTrue);
+    expect(tester.takeException(), isNull);
   });
 
   testWidgets('achievements and legal pages render', (tester) async {

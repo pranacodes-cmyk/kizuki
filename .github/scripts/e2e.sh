@@ -101,6 +101,10 @@ adb logcat -d -v time </dev/null > "$OUT/release/logcat.txt"
 grep -E "FATAL EXCEPTION|AndroidRuntime|E/flutter|KIZUKI_ERROR|Impeller|libc.*Fatal|ANR in $PKG" "$OUT/release/logcat.txt" > "$OUT/release/errors.txt" || true
 echo "release process: $(cat "$OUT/release/process.txt")"
 echo "release error lines: $(wc -l < "$OUT/release/errors.txt")"
+if ! grep -q '^running$' "$OUT/release/process.txt" || grep -Eq "FATAL EXCEPTION|KIZUKI_ERROR|ANR in $PKG" "$OUT/release/logcat.txt"; then
+  echo "Release crashed or stopped; refusing to pass this APK"
+  exit 1
+fi
 adb uninstall "$PKG" </dev/null >/dev/null 2>&1 || true
 
 # ---------------------------------------------------------------- 2. profile-mode flow test
@@ -156,5 +160,9 @@ grep -E "FATAL EXCEPTION|AndroidRuntime|E/flutter|KIZUKI_ERROR|ANR in $PKG" "$OU
 kill "$GRANT_PID" "$WATCH_PID" "$SHOT_PID" 2>/dev/null || true
 pkill -f "adb logcat" 2>/dev/null || true
 echo "flow test exit code: $RC"
+if grep -Eq "FATAL EXCEPTION|KIZUKI_ERROR|ANR in $PKG" "$OUT/flow/logcat.txt"; then
+  echo "App crash/ANR recorded during flow"
+  RC=1
+fi
 ls -1 "$OUT/flow" | sed 's/^/  /'
 exit "$RC"

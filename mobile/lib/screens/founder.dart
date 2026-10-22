@@ -142,7 +142,8 @@ class _FounderScreenState extends State<FounderScreen> with TickerProviderStateM
 
   void _continue() {
     _pause();
-    context.push('/trial');
+    // Replace this screen so its native decoder is released before YouTube starts.
+    context.go('/trial');
   }
 
   @override

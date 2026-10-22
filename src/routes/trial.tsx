@@ -1,5 +1,5 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
-import { AnimatePresence, motion } from "motion/react";
+import { motion } from "motion/react";
 import { Bell, Check, Crown, Lock, Sparkles } from "lucide-react";
 import { useState } from "react";
 
@@ -45,13 +45,11 @@ function Trial() {
   return (
     <Screen scroll={false}>
       <ProgressHeader progress={(10 + step) / 13} onBack={() => (step ? setStep(step - 1) : useApp.getState().onboarded ? window.history.back() : navigate({ to: "/founder" }))} />
-      <AnimatePresence mode="wait">
-        <motion.div key={step} initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -40 }} transition={{ duration: 0.25 }} className="flex flex-1 flex-col overflow-y-auto no-scrollbar">
+        <div key={step} className="flex min-h-0 flex-1 flex-col overflow-y-auto no-scrollbar">
           {step === 0 && <StepTry onNext={() => setStep(1)} />}
           {step === 1 && <StepRemind onNext={() => setStep(2)} />}
           {step === 2 && <StepPlans plan={plan} setPlan={setPlan} busy={busy} onStart={start} onSkip={skip} />}
-        </motion.div>
-      </AnimatePresence>
+        </div>
     </Screen>
   );
 }

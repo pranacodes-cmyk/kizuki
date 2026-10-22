@@ -75,7 +75,7 @@ function Founder() {
   };
   const next = () => {
     videoRef.current?.pause();
-    void navigate({ to: "/trial" });
+    void navigate({ to: "/trial", replace: true });
   };
 
   const left = Math.max(0, Math.ceil(total - t));

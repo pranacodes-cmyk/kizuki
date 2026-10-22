@@ -71,11 +71,9 @@ class _TrialScreenState extends State<TrialScreen> {
           child: Column(children: [
             ProgressHeader(progress: (10 + step) / 13, onBack: _back),
             Expanded(
-              child: AnimatedSwitcher(
-                duration: const Duration(milliseconds: 250),
-                transitionBuilder: (c, a) => FadeTransition(opacity: a, child: SlideTransition(position: Tween(begin: const Offset(0.12, 0), end: Offset.zero).animate(a), child: c)),
-                child: KeyedSubtree(key: ValueKey(step), child: body),
-              ),
+              // Dispose the preview immediately. Keeping a live platform video in an
+              // outgoing slide can retain its surface/decoder during the next screen.
+              child: KeyedSubtree(key: ValueKey(step), child: body),
             ),
           ]),
         ),

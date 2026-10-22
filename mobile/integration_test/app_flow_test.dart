@@ -7,6 +7,7 @@ import 'package:mimi/main.dart' as kizuki;
 import 'package:mimi/screens/settings.dart';
 import 'package:mimi/state/app_state.dart';
 import 'package:mimi/widgets/feed_pager.dart';
+import 'package:mimi/widgets/feed_preview.dart';
 import 'package:mimi/widgets/tour.dart';
 import 'package:mimi/widgets/ui.dart';
 import 'package:provider/provider.dart';
@@ -141,12 +142,18 @@ void main() {
     // The phone mockup plays the personal feed demo (it used to be empty).
     await wait(3500);
     await shot('08b_trial_demo');
-    await wait(3500);
+    final previewPager = find.descendant(of: find.byType(FeedPreview), matching: find.byType(PageView));
+    expect(previewPager, findsOneWidget);
+    await tester.fling(previewPager, const Offset(0, -200), 1200);
+    await wait(1500);
     await shot('08c_trial_demo');
+    await tester.fling(previewPager, const Offset(0, 200), 1200);
+    await wait(1000);
     await tapText(r'Try for $0.00', after: 1800);
     await tapText('Continue for free', after: 1200);
     await shot('09_trial_plans');
-    await tapText('Not now', after: 1200);
+    await tapText('Start my free week', after: 1800);
+    expect(state().premium.active, isTrue);
     await shot('10_account');
     await tapText('Maybe later', after: 1500);
 

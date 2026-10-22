@@ -17,15 +17,25 @@ class Content {
   Content._(this.videos, this.clips, this.dict) : byId = {for (final c in clips) c.id: c};
 
   static Content? _instance;
+  static Future<Content>? _loading;
   static Content get I => _instance!;
 
   static Future<Content> load() async {
-    if (_instance != null) return _instance!;
+    final cached = _instance;
+    if (cached != null) return cached;
+    return _loading ??= _loadOnce();
+  }
+
+  static Future<Content> _loadOnce() async {
+    try {
     final raw = await rootBundle.loadString('assets/data/content.json');
     final dictRaw = await rootBundle.loadString('assets/data/dict.json');
     final parsed = await compute(_parse, [raw, dictRaw]);
     _instance = Content._(parsed.$1, parsed.$2, parsed.$3);
     return _instance!;
+    } finally {
+      _loading = null;
+    }
   }
 
   /// Test hook: build from in-memory JSON.

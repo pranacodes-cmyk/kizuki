@@ -26,3 +26,5 @@
 - The web dev server ignores `mobile/**` (vite.config.ts). Why: Flutter build/test output otherwise reloads the preview mid-session.
 - Welcome-tour steps live in `src/lib/tour.ts` / `mobile/lib/data/tour.dart`; spotlight targets are `data-tour` attributes on web and `TourTargets` keys on Flutter, set only on the feed's active clip. Why: one tour definition per client, targets never point at off-screen clips.
 - Flutter sheets (`showMimiSheet`) open on the root navigator, above the tab shell. Why: the web Sheet layers over the TabBar; inside the shell the floating tab bar covered cards and took their taps.
+
+- Trial phone previews reuse the home ClipView and feed pager; only the settled clip creates a player, with no simulated transcript animations or geometry callbacks. Replace the founder route before opening trial to release its native video decoder. Why: real feed parity without retaining multiple video surfaces during onboarding.
