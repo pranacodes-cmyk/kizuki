@@ -85,7 +85,7 @@ class _TrialScreenState extends State<TrialScreen> {
 Widget _noPayment([String text = 'No payment due now']) => Row(mainAxisAlignment: MainAxisAlignment.center, children: [
       const Icon(LucideIcons.check, size: 20, color: T.success),
       const SizedBox(width: 8),
-      Text(text, style: txt(15, w: FontWeight.w800)),
+      Flexible(child: Text(text, textAlign: TextAlign.center, style: txt(15, w: FontWeight.w800))),
     ]);
 
 class _StepTry extends StatelessWidget {
