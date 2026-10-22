@@ -65,25 +65,22 @@ export const reviews = [
  * personal founder story — swap in the founder's own recording + captions when there is one. */
 export const founderLines = [
   { t: 0.0, text: "こんにちは！" },
-  { t: 1.1, text: "Okay, real talk before you start." },
-  { t: 2.6, text: "Most people learn Japanese the usual way." },
-  { t: 4.65, text: "Textbooks, drill apps, flashcards." },
-  { t: 7.3, text: "And sure, you can order a coffee." },
-  { t: 9.38, text: "But a real conversation?" },
-  { t: 11.0, text: "You can't follow a thing." },
-  { t: 12.5, text: "What actually works is listening." },
-  { t: 14.63, text: "A lot. Anime, vlogs, street interviews," },
-  { t: 17.49, text: "and pausing on every word you don't get." },
-  { t: 19.8, text: "Kizuki does all of that for you," },
-  { t: 21.61, text: "in short clips that actually feel fun." },
-  { t: 24.2, text: "Watch a clip, tap a word," },
-  { t: 25.7, text: "review it later with the real audio." },
-  { t: 27.7, text: "If you've got feedback, or just wanna say hi," },
-  { t: 30.8, text: "message me anytime." },
-  { t: 32.41, text: "がんばろう！ Let's do this together." },
+  { t: 1.4, text: "Okay, quick one before you start." },
+  { t: 3.8, text: "Most of us tried textbooks and drill apps…" },
+  { t: 6.45, text: "…and still couldn't follow real Japanese." },
+  { t: 9.0, text: "What actually works is listening." },
+  { t: 11.4, text: "A lot. To real people." },
+  { t: 13.65, text: "That's Kizuki." },
+  { t: 15.25, text: "Short, real clips." },
+  { t: 17.2, text: "Tap any word to see what it means, right there." },
+  { t: 20.25, text: "Then review it later, with the original voice." },
+  { t: 23.55, text: "Ten minutes a day…" },
+  { t: 24.95, text: "…and it starts to click." },
+  { t: 26.55, text: "Got feedback? Message us anytime." },
+  { t: 29.25, text: "がんばろう！" },
 ];
 /** Length of the message video (also the countdown when the video can't play). */
-export const FOUNDER_SECONDS = 36;
+export const FOUNDER_SECONDS = 30;
 export const FOUNDER_VIDEO_URL = "/video/kizuki-message.mp4";
 export const FOUNDER_VIDEO_WEBM_URL = "/video/kizuki-message.webm";
 export const FOUNDER_POSTER_URL = "/video/kizuki-message.jpg";

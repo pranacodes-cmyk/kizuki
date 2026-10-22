@@ -89,25 +89,22 @@ class FounderLine {
 /// personal founder story — swap in the founder's own recording + captions when there is one.
 const founderLines = [
   FounderLine(0.0, "こんにちは！"),
-  FounderLine(1.1, "Okay, real talk before you start."),
-  FounderLine(2.6, "Most people learn Japanese the usual way."),
-  FounderLine(4.65, "Textbooks, drill apps, flashcards."),
-  FounderLine(7.3, "And sure, you can order a coffee."),
-  FounderLine(9.38, "But a real conversation?"),
-  FounderLine(11.0, "You can't follow a thing."),
-  FounderLine(12.5, "What actually works is listening."),
-  FounderLine(14.63, "A lot. Anime, vlogs, street interviews,"),
-  FounderLine(17.49, "and pausing on every word you don't get."),
-  FounderLine(19.8, "Kizuki does all of that for you,"),
-  FounderLine(21.61, "in short clips that actually feel fun."),
-  FounderLine(24.2, "Watch a clip, tap a word,"),
-  FounderLine(25.7, "review it later with the real audio."),
-  FounderLine(27.7, "If you've got feedback, or just wanna say hi,"),
-  FounderLine(30.8, "message me anytime."),
-  FounderLine(32.41, "がんばろう！ Let's do this together."),
+  FounderLine(1.4, "Okay, quick one before you start."),
+  FounderLine(3.8, "Most of us tried textbooks and drill apps…"),
+  FounderLine(6.45, "…and still couldn't follow real Japanese."),
+  FounderLine(9.0, "What actually works is listening."),
+  FounderLine(11.4, "A lot. To real people."),
+  FounderLine(13.65, "That's Kizuki."),
+  FounderLine(15.25, "Short, real clips."),
+  FounderLine(17.2, "Tap any word to see what it means, right there."),
+  FounderLine(20.25, "Then review it later, with the original voice."),
+  FounderLine(23.55, "Ten minutes a day…"),
+  FounderLine(24.95, "…and it starts to click."),
+  FounderLine(26.55, "Got feedback? Message us anytime."),
+  FounderLine(29.25, "がんばろう！"),
 ];
 
 /// Length of the message video (also the countdown when the video can't play).
-const founderSeconds = 36;
+const founderSeconds = 30;
 const founderVideoAsset = 'assets/video/message.mp4';
 const founderPosterAsset = 'assets/video/message.jpg';
