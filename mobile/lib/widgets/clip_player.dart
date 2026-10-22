@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
@@ -116,6 +117,8 @@ class ClipPlayerState extends State<ClipPlayer> {
     }
     final st = v.playerState;
     if (st != _state) {
+      // Not in the shipped build (the emulator test, a profile build, reads it).
+      if (!kReleaseMode) debugPrint('KIZUKI_PLAYER ${widget.clip.id} ${st.name} at ${_time.toStringAsFixed(1)}s');
       final wasReady = _ready;
       setState(() {
         _state = st;

@@ -137,6 +137,9 @@ echo "screen: ${W}x${H}"
       *E2E_INFO*)
         echo "${line##*E2E_INFO }" >> "$OUT/flow/info.txt"
         ;;
+      *KIZUKI_PLAYER*)
+        echo "player ${line##*KIZUKI_PLAYER }" >> "$OUT/flow/info.txt"
+        ;;
     esac
   done ) &
 SHOT_PID=$!
