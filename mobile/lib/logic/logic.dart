@@ -931,3 +931,21 @@ List<T> askHistory<T extends AskTurn>(List<T> msgs, [int max = askMaxMessages]) 
   }
   return out;
 }
+
+// ---------------------------------------------------------------------------
+// Help & support messages (stored in public.support_messages; limits match its checks)
+// ---------------------------------------------------------------------------
+
+const supportMessageMin = 5;
+const supportMessageMax = 2000;
+const supportTopics = ['subscription', 'account', 'bug', 'content', 'feedback', 'other'];
+
+/// Problem with a support message, or null when it can be sent.
+String? supportMessageError(String email, String message) {
+  final e = email.trim();
+  if (e.length < 3 || e.length > 255 || !RegExp(r'^[^\s@]+@[^\s@]+\.[^\s@]+$').hasMatch(e)) return 'Enter the email we should reply to.';
+  final m = message.trim();
+  if (m.length < supportMessageMin) return 'Tell us a little more (at least 5 characters).';
+  if (m.length > supportMessageMax) return 'Keep it under $supportMessageMax characters.';
+  return null;
+}

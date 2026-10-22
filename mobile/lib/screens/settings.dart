@@ -34,6 +34,20 @@ class SettingsScreen extends StatefulWidget {
 
 class _SettingsScreenState extends State<SettingsScreen> {
   bool busy = false;
+  bool restoring = false;
+
+  /// Same store restore as the paywall (trial.dart), for people who reinstalled or switched phones.
+  Future<void> _restore() async {
+    setState(() => restoring = true);
+    final r = await Billing.restore();
+    if (!mounted) return;
+    setState(() => restoring = false);
+    if (r == StoreResult.unavailable) {
+      return toast("Couldn't reach the store", description: 'Check your connection and try again.', tone: ToastTone.error);
+    }
+    if (r != StoreResult.done) return toast('No subscription found', description: 'Use the same store account you bought with.');
+    toast('Purchase restored', icon: '🎉');
+  }
 
   Future<void> _signOut() async {
     await SyncService.I.signOut();
@@ -272,7 +286,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         },
                       ),
                     ]
-                  : [_ActionRow(label: 'Try Premium free for 7 days', onTap: () => context.push('/trial'))]),
+                  : [
+                      _ActionRow(label: 'Try Premium free for 7 days', onTap: () => context.push('/trial')),
+                      _ActionRow(label: restoring ? 'Restoring…' : 'Restore purchase', onTap: () => restoring ? null : _restore()),
+                    ]),
               _Group(title: 'Account', children: session != null
                   ? [
                       Padding(
@@ -303,6 +320,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       ),
                     ]
                   : [_ActionRow(label: 'Sign in or create an account', onTap: () => context.push('/account?mode=signin'))]),
+              _Group(title: 'Help', children: [_ActionRow(label: 'Help & support', onTap: () => context.push('/support'))]),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 8),
                 child: Column(children: [

@@ -1,0 +1,53 @@
+{
+  "_note": "Store listing source of truth for both stores (en-US). Pushed by scripts/stores/push_listing.py. Limits: Apple name/subtitle 30, keywords 100, promo 170; Play title 30, short 80, full 4000.",
+  "site": "https://kiku-clip-word-garden.lovable.app",
+  "apple": {
+    "name": "Kizuki: Learn Japanese",
+    "subtitle": "Real Clips, Anime & Listening",
+    "keywords": "jlpt,n5,n4,n3,kanji,hiragana,katakana,vocabulary,flashcards,furigana,romaji,immersion,nihongo,drama",
+    "promotionalText": "Learn Japanese from real videos. Tap any word for its meaning, then review it later with the original voice. Start with 10 free clips a day.",
+    "primaryCategory": "EDUCATION",
+    "secondaryCategory": "REFERENCE",
+    "description": "Hear Japanese the way it's really spoken — and finally understand it.\n\nKizuki (気づき) means \"the moment it clicks\". Swipe through short, real Japanese clips — street interviews, vlogs, dramas, anime and easy-Japanese channels — and turn every one into listening practice you can actually follow.\n\nWATCH REAL JAPANESE\nOver 1,000 videos and 3,000 short clips from official YouTube channels, sorted from beginner (N5) to advanced. Each clip is a few seconds to half a minute, so practice fits on the train, in a queue or before bed.\n\nTAP ANY WORD\nAn interactive transcript follows the audio line by line, with furigana and romaji when you want them. Tap any word to see its reading, meaning in this clip, dictionary senses and JLPT level — without leaving the video.\n\nKNOW WHY IT'S SAID THAT WAY\nEvery line comes with a plain-English explanation of the grammar and nuance. Still curious? Ask Kizuki, the built-in AI tutor, about anything you just heard.\n\nREVIEW WITH THE ORIGINAL VOICE\nSave words as you watch. Your flashcards replay the exact clip where you heard the word, so you remember the voice, the scene and the meaning. Smart spaced repetition brings each word back right before you'd forget it.\n\nWATCH YOUR VOCABULARY GROW\nEvery saved word moves from New to Known as you review. See how many Japanese words you know, practise hiragana and katakana, and keep a daily streak going.\n\nMADE FOR\n• Anime and J-drama fans who want to rely less on subtitles\n• Travellers who want to understand Japan, not just read phrasebooks\n• JLPT students who need real listening practice\n• Learners who stalled on textbook and drill apps\n\nSTART FREE\nWatch 10 clips a day for free. Kizuki Premium unlocks unlimited clips and AI tutor questions: yearly with a 7-day free trial, or monthly. Prices are shown in your currency before you buy.\n\nSUBSCRIPTION TERMS\nPayment is charged to your Apple ID account when you confirm the purchase, or when the free trial ends. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period. Manage or cancel any time in your Apple ID settings.\n\nVideos play through YouTube's official player; all clips belong to their creators and channels.\n\nTerms of Use: https://kiku-clip-word-garden.lovable.app/terms\nPrivacy Policy: https://kiku-clip-word-garden.lovable.app/privacy",
+    "whatsNew": "The first Kizuki release. Real Japanese clips, tap-any-word transcripts, AI explanations and flashcards with the original voice.",
+    "locale": "en-US",
+    "version": "1.0.0",
+    "copyright": "2026 Kizuki",
+    "privacyPolicyUrl": "https://kiku-clip-word-garden.lovable.app/privacy",
+    "supportUrl": "https://kiku-clip-word-garden.lovable.app/support",
+    "marketingUrl": "https://kiku-clip-word-garden.lovable.app",
+    "ageRating": {
+      "alcoholTobaccoOrDrugUseOrReferences": "INFREQUENT_OR_MILD",
+      "contests": "NONE",
+      "gamblingSimulated": "NONE",
+      "horrorOrFearThemes": "INFREQUENT_OR_MILD",
+      "matureOrSuggestiveThemes": "INFREQUENT_OR_MILD",
+      "medicalOrTreatmentInformation": "NONE",
+      "profanityOrCrudeHumor": "INFREQUENT_OR_MILD",
+      "sexualContentGraphicAndNudity": "NONE",
+      "sexualContentOrNudity": "NONE",
+      "violenceCartoonOrFantasy": "INFREQUENT_OR_MILD",
+      "violenceRealistic": "INFREQUENT_OR_MILD",
+      "violenceRealisticProlongedGraphicOrSadistic": "NONE",
+      "gunsOrOtherWeapons": "INFREQUENT_OR_MILD",
+      "gambling": false,
+      "lootBox": false,
+      "unrestrictedWebAccess": false,
+      "messagingAndChat": false,
+      "userGeneratedContent": false,
+      "advertising": false,
+      "parentalControls": false,
+      "ageAssurance": false,
+      "healthOrWellnessTopics": false,
+      "socialMedia": false
+    }
+  },
+  "play": {
+    "title": "Kizuki: Learn Japanese",
+    "shortDescription": "Learn Japanese from real videos: tap any word, review with the original voice.",
+    "fullDescription": "Learn Japanese from real videos — and finally understand what you hear.\n\nKizuki (気づき) means \"the moment it clicks\". Swipe through short, real Japanese clips — street interviews, vlogs, dramas, anime and easy-Japanese channels — and turn each one into Japanese listening practice you can actually follow.\n\n★ REAL JAPANESE, NOT TEXTBOOK PHRASES\nOver 1,000 videos and 3,000 short clips from official YouTube channels, sorted by JLPT level from beginner N5 to advanced. Hear natural speed, casual speech and real pronunciation from native speakers.\n\n★ TAP ANY WORD FOR ITS MEANING\nAn interactive transcript follows the audio line by line, with furigana and romaji when you want them. Tap a word to see its reading, its meaning in this clip, dictionary senses and JLPT level — without leaving the video. A Japanese dictionary built into every clip.\n\n★ GRAMMAR EXPLAINED IN PLAIN ENGLISH\nEvery line has a short explanation of the grammar and nuance. Have a question? Ask Kizuki, the built-in AI Japanese tutor, about anything you just heard.\n\n★ FLASHCARDS WITH THE ORIGINAL VOICE\nSave Japanese vocabulary as you watch. Your spaced-repetition (SRS) flashcards replay the clip where you heard each word, so you remember the voice, the scene and the meaning — not just a translation.\n\n★ WATCH YOUR VOCABULARY GROW\nWords move from New to Known as you review. See how many Japanese words you know, learn hiragana and katakana with their own decks, keep a daily streak and unlock achievements.\n\n★ A PLAN FOR YOUR LEVEL\nTell Kizuki why you are learning and how much time you have. You get a daily goal and a feed tuned to your level, from your first Japanese words to JLPT N3 and beyond.\n\nPERFECT FOR\n• Anime and J-drama fans who want to rely less on subtitles\n• Travellers getting ready for Japan\n• JLPT N5, N4 and N3 students who need listening practice\n• Beginners and intermediate learners who stalled with drill apps\n\nSTART FREE\nWatch 10 clips a day for free. Kizuki Premium unlocks unlimited clips and AI tutor questions: yearly with a 7-day free trial, or monthly. Prices are shown in your currency before you buy. Subscriptions renew automatically unless cancelled before renewal; manage or cancel any time in Google Play → Subscriptions.\n\nVideos play through YouTube's official player; all clips belong to their creators and channels.\n\nTerms of Use: https://kiku-clip-word-garden.lovable.app/terms\nPrivacy Policy: https://kiku-clip-word-garden.lovable.app/privacy",
+    "language": "en-US",
+    "contactWebsite": "https://kiku-clip-word-garden.lovable.app/support",
+    "contactEmail": "pranacodes@gmail.com"
+  }
+}

@@ -2,10 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:provider/provider.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 import '../logic/logic.dart';
-import '../services/config.dart';
 import '../services/sync_service.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
@@ -153,12 +151,7 @@ class ProfileScreen extends StatelessWidget {
               if (sync.session == null) _Row(icon: const Text('☁️', style: TextStyle(fontSize: 22)), title: 'Save your progress', sub: 'Create a free account to sync devices', onTap: () => context.push('/account')),
               _Row(icon: const Text('🔖', style: TextStyle(fontSize: 22)), title: 'Saved clips', sub: 'Clips you bookmarked', onTap: () => context.push('/saved')),
               _Row(icon: const Text('⏱️', style: TextStyle(fontSize: 22)), title: 'Watch history', sub: "Everything you've watched", onTap: () => context.push('/history')),
-              _Row(
-                icon: const Text('✉️', style: TextStyle(fontSize: 22)),
-                title: 'Contact the founder',
-                sub: 'Feedback, ideas or just say hi',
-                onTap: () => launchUrl(Uri.parse('mailto:${AppConfig.supportEmail}?subject=Kizuki%20feedback')),
-              ),
+              _Row(icon: const Text('💬', style: TextStyle(fontSize: 22)), title: 'Help & feedback', sub: 'Questions, problems or ideas', onTap: () => context.push('/support')),
             ]),
           ),
         ]),

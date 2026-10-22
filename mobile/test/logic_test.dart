@@ -416,5 +416,14 @@ void main() {
       expect(odd.map((m) => m.text).toList(), ['q', 'q2']);
       expect(askHistory(msgs, 3).map((m) => m.text).toList(), ['m10', 'm11']);
     });
+    test('accepts a support message only with a reply email and 5-2000 characters', () {
+      expect(supportMessageError('aiko@example.com', 'The clip will not play'), null);
+      expect(supportMessageError('aiko@example', 'The clip will not play'), 'Enter the email we should reply to.');
+      expect(supportMessageError('', 'The clip will not play'), 'Enter the email we should reply to.');
+      expect(supportMessageError('aiko@example.com', '  hi  '), 'Tell us a little more (at least 5 characters).');
+      expect(supportMessageError('aiko@example.com', 'a' * 2000), null);
+      expect(supportMessageError('aiko@example.com', 'a' * 2001), 'Keep it under 2000 characters.');
+      expect(supportTopics, ['subscription', 'account', 'bug', 'content', 'feedback', 'other']);
+    });
   });
 }

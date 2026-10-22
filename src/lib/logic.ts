@@ -738,3 +738,22 @@ export function askHistory<T extends AskTurn>(msgs: T[], max = ASK_MAX_MESSAGES)
   while (out.length && out[0]!.role !== "user") out = out.slice(1);
   return out;
 }
+
+// ---------------------------------------------------------------------------
+// Help & support messages (stored in public.support_messages; limits match its checks)
+// ---------------------------------------------------------------------------
+
+export const SUPPORT_MESSAGE_MIN = 5;
+export const SUPPORT_MESSAGE_MAX = 2000;
+export const SUPPORT_TOPICS = ["subscription", "account", "bug", "content", "feedback", "other"] as const;
+export type SupportTopic = (typeof SUPPORT_TOPICS)[number];
+
+/** Problem with a support message, or null when it can be sent. Email trimmed + lowercased by the caller. */
+export function supportMessageError(email: string, message: string): string | null {
+  const e = email.trim();
+  if (e.length < 3 || e.length > 255 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)) return "Enter the email we should reply to.";
+  const m = message.trim();
+  if (m.length < SUPPORT_MESSAGE_MIN) return "Tell us a little more (at least 5 characters).";
+  if (m.length > SUPPORT_MESSAGE_MAX) return `Keep it under ${SUPPORT_MESSAGE_MAX} characters.`;
+  return null;
+}

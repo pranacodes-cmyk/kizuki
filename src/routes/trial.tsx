@@ -1,4 +1,4 @@
-import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { motion } from "motion/react";
 import { Bell, Check, Crown, Lock, Sparkles } from "lucide-react";
 import { useState } from "react";
@@ -144,11 +144,13 @@ function StepPlans({ plan, setPlan, busy, onStart, onSkip }: { plan: "yearly" | 
       <div className="mt-auto space-y-2 pb-1 pt-5">
         <p className="flex items-center justify-center gap-2 text-[0.875rem] font-extrabold"><Check className="h-4 w-4 text-success" strokeWidth={3} /> {plan === "yearly" ? "7 days free · Cancel anytime" : "No commitment · Cancel anytime"}</p>
         <Button onClick={onStart} disabled={busy}>{busy ? "Starting…" : (plan === "yearly" ? "Start my free week" : "Start learning today")}</Button>
-        <p className="text-center text-[0.75rem] text-faint">{priceLine(PLANS[plan])}. Cancel anytime in your store settings.</p>
+        <p className="text-center text-[0.75rem] text-faint">{priceLine(PLANS[plan])}. Renews automatically, cancel anytime in your store settings.</p>
         <div className="flex justify-center gap-6">
           <button onClick={() => toast({ title: "No subscription found", description: "Use the same store account you bought with." })} disabled={busy} className="press py-1 text-[0.8125rem] font-bold text-muted-foreground">Restore purchase</button>
           <button onClick={onSkip} className="press py-1 text-[0.8125rem] font-bold text-muted-foreground">Not now</button>
         </div>
+        {/* Store rules: subscription screens link the Terms of Use and Privacy Policy. */}
+        <p className="text-center text-[0.75rem] text-faint"><Link to="/terms" className="underline">Terms of Use</Link> · <Link to="/privacy" className="underline">Privacy Policy</Link></p>
       </div>
     </div>
   );

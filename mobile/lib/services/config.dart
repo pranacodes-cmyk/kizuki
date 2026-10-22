@@ -2,7 +2,6 @@
 class AppConfig {
   static const supabaseUrl = 'https://qhcpbemzxzvdsucqeobc.supabase.co';
   static const supabasePublishableKey = 'sb_publishable_JezI_rCrzC_OY7ZLDzEThw_k4S320A2';
-  static const supportEmail = 'hello@kizuki.app';
 
   /// Published web app origin for email links (confirm / reset password). Never the preview
   /// URL: that one needs a Lovable login, so learners could not open the link.

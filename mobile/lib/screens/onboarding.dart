@@ -620,7 +620,8 @@ class MimiField extends StatelessWidget {
   final Iterable<String>? autofill;
   final Widget? suffix;
   final IconData? prefixIcon;
-  const MimiField({super.key, required this.controller, required this.hint, this.maxLength, this.obscure = false, this.keyboard, this.onChanged, this.onSubmitted, this.autofill, this.suffix, this.prefixIcon});
+  final int minLines, maxLines;
+  const MimiField({super.key, required this.controller, required this.hint, this.maxLength, this.obscure = false, this.keyboard, this.onChanged, this.onSubmitted, this.autofill, this.suffix, this.prefixIcon, this.minLines = 1, this.maxLines = 1});
   @override
   Widget build(BuildContext context) => TextField(
         controller: controller,
@@ -630,6 +631,8 @@ class MimiField extends StatelessWidget {
         onSubmitted: onSubmitted,
         autofillHints: autofill,
         maxLength: maxLength,
+        minLines: minLines,
+        maxLines: maxLines,
         style: txt(16, w: FontWeight.w700),
         cursorColor: T.primary,
         decoration: InputDecoration(

@@ -2,7 +2,7 @@
 import { describe, expect, it } from "vitest";
 
 import {
-  ReviewSession, answerCard, bestStreak, clipScore, currentStreak, dayKey, dayMs, fnv1a, formatInterval, goalDateLabel,
+  ReviewSession, SUPPORT_TOPICS, supportMessageError, answerCard, bestStreak, clipScore, currentStreak, dayKey, dayMs, fnv1a, formatInterval, goalDateLabel,
   heatLevel, heatmapWeeks, kanaDeck, levelToJlpt, mergeActivity, mergeByUpdatedAt, minuteMs, minutesLeft, newCard,
   newlyUnlocked, nextIntervalLabel, normalizeQuery, planItems, rankFeed, recommendedMinutes, toKatakana, wordStatus, wordsPerMonth,
   searchClips, clipWordKeys, wordKeyOf, dueWordKeys, wordCounts, mergeState, canWatchClip, clipsWithWord, kanaQueue, kanaLearned, customStudyKeys,
@@ -381,5 +381,14 @@ describe("ask kizuki", () => {
     const odd = askHistory<AskTurn>([{ role: "assistant", text: "hi" }, { role: "user", text: "q" }, { role: "assistant", text: "" }, { role: "user", text: "q2" }]);
     expect(odd.map((m) => m.text)).toEqual(["q", "q2"]);
     expect(askHistory(msgs, 3).map((m) => m.text)).toEqual(["m10", "m11"]);
+  });
+  it("accepts a support message only with a reply email and 5–2000 characters", () => {
+    expect(supportMessageError("aiko@example.com", "The clip will not play")).toBe(null);
+    expect(supportMessageError("aiko@example", "The clip will not play")).toBe("Enter the email we should reply to.");
+    expect(supportMessageError("", "The clip will not play")).toBe("Enter the email we should reply to.");
+    expect(supportMessageError("aiko@example.com", "  hi  ")).toBe("Tell us a little more (at least 5 characters).");
+    expect(supportMessageError("aiko@example.com", "a".repeat(2000))).toBe(null);
+    expect(supportMessageError("aiko@example.com", "a".repeat(2001))).toBe("Keep it under 2000 characters.");
+    expect(SUPPORT_TOPICS).toEqual(["subscription", "account", "bug", "content", "feedback", "other"]);
   });
 });

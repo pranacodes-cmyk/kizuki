@@ -307,6 +307,12 @@ class _StepPlans extends StatelessWidget {
                   TextButton(onPressed: busy ? null : onRestore, child: Text('Restore purchase', style: txt(13, w: FontWeight.w700, c: T.muted))),
                   TextButton(onPressed: onSkip, child: Text('Not now', style: txt(13, w: FontWeight.w700, c: T.muted))),
                 ]),
+                // Store rules: subscription screens link the Terms of Use and Privacy Policy.
+                Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                  GestureDetector(onTap: () => context.push('/terms'), child: Text('Terms of Use', style: txt(12, w: FontWeight.w400, c: T.faint).copyWith(decoration: TextDecoration.underline, decorationColor: T.faint))),
+                  Text('  ·  ', style: txt(12, w: FontWeight.w400, c: T.faint)),
+                  GestureDetector(onTap: () => context.push('/privacy'), child: Text('Privacy Policy', style: txt(12, w: FontWeight.w400, c: T.faint).copyWith(decoration: TextDecoration.underline, decorationColor: T.faint))),
+                ]),
               ]),
             ),
           ),

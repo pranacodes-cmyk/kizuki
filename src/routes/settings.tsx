@@ -168,7 +168,11 @@ function SettingsPage() {
               <ActionRow label="Manage subscription" onClick={() => setConfirm("cancel")} />
             </>
           ) : (
-            <ActionRow label="Try Premium free for 7 days" onClick={() => navigate({ to: "/trial" })} />
+            <>
+              <ActionRow label="Try Premium free for 7 days" onClick={() => navigate({ to: "/trial" })} />
+              {/* Same store restore as the paywall; the web prototype has no store, so it reports none found. */}
+              <ActionRow label="Restore purchase" onClick={() => toast({ title: "No subscription found", description: "Use the same store account you bought with." })} />
+            </>
           )}
         </Group>
 
@@ -182,6 +186,10 @@ function SettingsPage() {
           ) : (
             <ActionRow label="Sign in or create an account" onClick={() => navigate({ to: "/account", search: { mode: "signin" } })} />
           )}
+        </Group>
+
+        <Group title="Help">
+          <ActionRow label="Help & support" onClick={() => navigate({ to: "/support" })} />
         </Group>
 
         <div className="space-y-2 px-2 text-center text-[0.75rem] leading-relaxed text-faint">

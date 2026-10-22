@@ -8,6 +8,7 @@ import 'screens/explore.dart';
 import 'screens/feed.dart';
 import 'screens/founder.dart';
 import 'screens/legal.dart';
+import 'screens/support.dart';
 import 'screens/lists.dart';
 import 'screens/onboarding.dart';
 import 'screens/plan.dart';
@@ -70,6 +71,7 @@ GoRouter buildRouter(AppState app) {
       GoRoute(path: '/achievements', builder: (c, s) => const AchievementsScreen()),
       GoRoute(path: '/terms', builder: (c, s) => const LegalScreen(kind: 'terms')),
       GoRoute(path: '/privacy', builder: (c, s) => const LegalScreen(kind: 'privacy')),
+      GoRoute(path: '/support', builder: (c, s) => const SupportScreen()),
     ],
   );
 }

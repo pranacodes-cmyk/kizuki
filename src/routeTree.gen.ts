@@ -23,6 +23,7 @@ import { Route as ResetPasswordRouteImport } from './routes/reset-password'
 import { Route as ReviewRouteImport } from './routes/review'
 import { Route as SavedRouteImport } from './routes/saved'
 import { Route as SettingsRouteImport } from './routes/settings'
+import { Route as SupportRouteImport } from './routes/support'
 import { Route as TermsRouteImport } from './routes/terms'
 import { Route as TrialRouteImport } from './routes/trial'
 import { Route as AppExploreRouteImport } from './routes/_app/explore'
@@ -101,6 +102,11 @@ const SettingsRoute = SettingsRouteImport.update({
   path: '/settings',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SupportRoute = SupportRouteImport.update({
+  id: '/support',
+  path: '/support',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const TermsRoute = TermsRouteImport.update({
   id: '/terms',
   path: '/terms',
@@ -156,6 +162,7 @@ export interface FileRoutesByFullPath {
   '/review': typeof ReviewRoute
   '/saved': typeof SavedRoute
   '/settings': typeof SettingsRoute
+  '/support': typeof SupportRoute
   '/terms': typeof TermsRoute
   '/trial': typeof TrialRoute
   '/explore': typeof AppExploreRoute
@@ -179,6 +186,7 @@ export interface FileRoutesByTo {
   '/review': typeof ReviewRoute
   '/saved': typeof SavedRoute
   '/settings': typeof SettingsRoute
+  '/support': typeof SupportRoute
   '/terms': typeof TermsRoute
   '/trial': typeof TrialRoute
   '/explore': typeof AppExploreRoute
@@ -204,6 +212,7 @@ export interface FileRoutesById {
   '/review': typeof ReviewRoute
   '/saved': typeof SavedRoute
   '/settings': typeof SettingsRoute
+  '/support': typeof SupportRoute
   '/terms': typeof TermsRoute
   '/trial': typeof TrialRoute
   '/_app/explore': typeof AppExploreRoute
@@ -229,6 +238,7 @@ export interface FileRouteTypes {
     | '/review'
     | '/saved'
     | '/settings'
+    | '/support'
     | '/terms'
     | '/trial'
     | '/explore'
@@ -252,6 +262,7 @@ export interface FileRouteTypes {
     | '/review'
     | '/saved'
     | '/settings'
+    | '/support'
     | '/terms'
     | '/trial'
     | '/explore'
@@ -276,6 +287,7 @@ export interface FileRouteTypes {
     | '/review'
     | '/saved'
     | '/settings'
+    | '/support'
     | '/terms'
     | '/trial'
     | '/_app/explore'
@@ -301,6 +313,7 @@ export interface RootRouteChildren {
   ReviewRoute: typeof ReviewRoute
   SavedRoute: typeof SavedRoute
   SettingsRoute: typeof SettingsRoute
+  SupportRoute: typeof SupportRoute
   TermsRoute: typeof TermsRoute
   TrialRoute: typeof TrialRoute
   ClipClipIdRoute: typeof ClipClipIdRoute
@@ -407,6 +420,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SettingsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/support': {
+      id: '/support'
+      path: '/support'
+      fullPath: '/support'
+      preLoaderRoute: typeof SupportRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/terms': {
       id: '/terms'
       path: '/terms'
@@ -497,6 +517,7 @@ const rootRouteChildren: RootRouteChildren = {
   ReviewRoute: ReviewRoute,
   SavedRoute: SavedRoute,
   SettingsRoute: SettingsRoute,
+  SupportRoute: SupportRoute,
   TermsRoute: TermsRoute,
   TrialRoute: TrialRoute,
   ClipClipIdRoute: ClipClipIdRoute,

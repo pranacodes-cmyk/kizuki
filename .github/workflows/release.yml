@@ -158,10 +158,14 @@ jobs:
           KEYFILE="$HOME/.appstoreconnect/private_keys/AuthKey_${APPLE_KEY_ID}.p8"
           python3 - "$KEYFILE" <<'PY'
           import os, sys
-          k = os.environ["APPLE_P8_PRIVATE_KEY"].strip().replace("\\n", "\n")
-          if "BEGIN PRIVATE KEY" not in k:
-              k = "-----BEGIN PRIVATE KEY-----\n" + k + "\n-----END PRIVATE KEY-----"
-          open(sys.argv[1], "w").write(k + "\n")
+          import re
+          # The saved key may have spaces or literal \n instead of line breaks; altool only
+          # reads a real PEM file (header, 64-char lines, footer), so rebuild it from the body.
+          k = os.environ["APPLE_P8_PRIVATE_KEY"].replace("\\n", "\n")
+          body = re.sub(r"\s+", "", re.sub(r"-----(BEGIN|END) PRIVATE KEY-----", "", k))
+          lines = [body[i:i + 64] for i in range(0, len(body), 64)]
+          open(sys.argv[1], "w").write("-----BEGIN PRIVATE KEY-----\n" + "\n".join(lines) + "\n-----END PRIVATE KEY-----\n")
+          print("AuthKey file written:", len(lines), "lines")
           PY
           IPA=$(ls build/ios/ipa/*.ipa | head -1)
           xcrun altool --upload-app --type ios --file "$IPA" --apiKey "$APPLE_KEY_ID" --apiIssuer "$APPLE_ISSUER_ID" --output-format normal

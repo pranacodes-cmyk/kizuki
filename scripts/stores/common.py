@@ -54,11 +54,17 @@ def play(method, path, body=None, base=PLAY, ok=(200, 204), **kw):
 ASC = "https://api.appstoreconnect.apple.com"
 
 
+def asc_key_pem():
+    """The .p8 key as a proper PEM (the saved value may use spaces or literal \\n for line breaks)."""
+    import re
+    raw = os.environ["APPLE_P8_PRIVATE_KEY"].replace("\\n", "\n")
+    body = re.sub(r"\s+", "", re.sub(r"-----(BEGIN|END) PRIVATE KEY-----", "", raw))
+    lines = [body[i:i + 64] for i in range(0, len(body), 64)]
+    return "-----BEGIN PRIVATE KEY-----\n" + "\n".join(lines) + "\n-----END PRIVATE KEY-----\n"
+
+
 def asc_token():
-    key = os.environ["APPLE_P8_PRIVATE_KEY"].strip()
-    if "BEGIN PRIVATE KEY" not in key:
-        key = "-----BEGIN PRIVATE KEY-----\n" + key + "\n-----END PRIVATE KEY-----"
-    key = key.replace("\\n", "\n")
+    key = asc_key_pem()
     now = int(time.time())
     return jwt.encode({"iss": os.environ["APPLE_ISSUER_ID"].strip(), "iat": now, "exp": now + 1100,
                        "aud": "appstoreconnect-v1"}, key, algorithm="ES256",

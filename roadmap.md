@@ -6,8 +6,12 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 ## Production launch round (22 Oct, goal run)
 - [ ] Play: release AAB (versionCode bump) uploaded to the internal track as a draft via the Play API
 - [ ] Apple: macOS GitHub workflow (Flutter iOS build, distribution cert + App Store profile via API) → first TestFlight build
-- [ ] Store listing both stores: name, subtitle/short description, keywords, full description from competitor ASO research
-- [ ] Store art: app icon 512 (Play) + 1024 (Apple), Play feature graphic, phone screenshots (Apple 6.9"/6.5", Play) — real app UI in AI-styled frames, better than Kiku's
+- [x] Store listing text (store/listing.json, within every store limit): App Store name, subtitle, 99-char keywords, promo text, description, categories Education/Reference, age rating, support/privacy/marketing URLs, version 1.0.0 — pushed to App Store Connect
+- [ ] Google Play listing: text + icon + feature graphic + 6 screenshots are ready, but Play refuses to save without a public contact email (waiting on the user's email)
+- [x] Help & support page in both apps (common questions + message form saved to the backend), Profile → Help & feedback, Settings → Help & support + Restore purchase; final Terms/Privacy (draft banner removed, auto-renew terms, AI tutor + help messages in privacy); Terms/Privacy links on the paywall; website tab icon
+- [ ] Publish the website so the new Support page is live before Apple review (needs the user's go-ahead)
+- [ ] App Store Connect by hand: App Privacy answers, App Review contact (name/phone/email); Play by hand: App content forms (Data safety, content rating, target audience, ads)
+- [x] Store art: Play icon 512, Play feature graphic 1024×500, 6 captioned screenshots each for iPhone 6.9" (1290×2796, uploaded to App Store Connect) and Play (1080×1920); re-render with scripts/stores/screenshots
 - [ ] Meta max setup: SKAdNetwork IDs, privacy manifest, ATT asked after the app opens (iOS), full app-event set (no double counting with RevenueCat), RevenueCat device IDs after ATT
 - [ ] Founder video: UK/US presenter, better script than Kiku's, clear voice + captions (both clients)
 - [ ] Full audit of the Flutter app (crashes, logic, performance, UX) + fixes mirrored on web
