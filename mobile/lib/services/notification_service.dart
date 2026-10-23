@@ -10,14 +10,17 @@ import '../logic/logic.dart';
 /// src/lib/reminders.ts. One repeating notification; rescheduled whenever settings change.
 class NotificationService {
   static final _plugin = FlutterLocalNotificationsPlugin();
-  static bool _inited = false;
   static const _dailyId = 1001;
   static const _trialId = 1002;
   static const _darwin = DarwinNotificationDetails(presentAlert: true, presentSound: true);
 
-  static Future<void> init() async {
-    if (_inited) return;
-    _inited = true;
+  /// One shared start-up: every caller (launch, reminder scheduling, trial reminder)
+  /// awaits the same future, so a schedule() racing the first init() waits instead of
+  /// silently skipping. A failed start clears it so the next call can retry.
+  static Future<void>? _initializing;
+  static Future<void> init() => _initializing ??= _initialize();
+
+  static Future<void> _initialize() async {
     try {
       tzdata.initializeTimeZones();
       final name = await FlutterTimezone.getLocalTimezone();
@@ -33,10 +36,19 @@ class NotificationService {
       _ready = true;
     } catch (e) {
       debugPrint('notifications unavailable: $e');
+      _initializing = null;
     }
   }
 
   static bool _ready = false;
+
+  /// Widget tests run each case in its own fake clock, so a start-up begun in one test never
+  /// finishes; tests reset it instead of inheriting a stuck future.
+  @visibleForTesting
+  static void resetForTest() {
+    _initializing = null;
+    _ready = false;
+  }
 
   /// Ask for notification permission (Android 13+). Never throws — reminders are optional.
   static Future<bool> requestPermission() async {

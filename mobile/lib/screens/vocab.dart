@@ -84,7 +84,7 @@ class _VocabScreenState extends State<VocabScreen> {
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 Text('${counts.known}', style: txt(52, w: FontWeight.w900, h: 1)),
                 const SizedBox(height: 4),
-                Text('Japanese words you know 🇯🇵', style: txt(16, w: FontWeight.w800, c: T.muted)),
+                Text('Words mastered', style: txt(16, w: FontWeight.w800, c: T.muted)),
               ]),
             ),
             const Mascot(MascotPose.read, size: 80),
@@ -100,7 +100,7 @@ class _VocabScreenState extends State<VocabScreen> {
                 width: double.infinity,
                 child: Column(children: [
                   Text(counts.saved > 0 ? 'Done reviewing for today 🎉' : 'Tap words in clips to save them', textAlign: TextAlign.center, style: txt(16, w: FontWeight.w800)),
-                  Text(counts.saved > 0 ? '${counts.learning} learning · ${counts.known} known' : "They'll show up here, ready to review.", textAlign: TextAlign.center, style: txt(13, w: FontWeight.w400, c: T.muted)),
+                  Text(counts.saved > 0 ? '${counts.learning} learning · ${counts.known} mastered' : "They'll show up here, ready to review.", textAlign: TextAlign.center, style: txt(13, w: FontWeight.w400, c: T.muted)),
                   if (counts.learning > 0) TextButton(onPressed: () => context.push('/review?deck=words&mode=extra'), child: Text('Keep studying', style: txt(14, w: FontWeight.w800, c: T.primary))),
                 ]),
               ),
@@ -141,7 +141,7 @@ class _VocabScreenState extends State<VocabScreen> {
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
             child: Row(children: [
-              for (final f in [('all', 'All ${counts.saved}'), ('due', 'Due ${counts.due}'), ('learning', 'Learning ${counts.learning}'), ('known', 'Known ${counts.known}')]) ...[
+              for (final f in [('all', 'All ${counts.saved}'), ('due', 'To Review ${counts.due}'), ('known', 'Mastered ${counts.known}')]) ...[
                 MimiChip(active: filter == f.$1, onTap: () => setState(() => filter = f.$1), child: Text(f.$2)),
                 const SizedBox(width: 8),
               ],

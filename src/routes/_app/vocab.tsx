@@ -78,7 +78,7 @@ function Vocab() {
         <div className="flex items-start justify-between">
           <div>
             <p className="text-[3.25rem] font-black leading-none tabular">{counts.known}</p>
-            <p className="mt-1 text-[1rem] font-extrabold text-muted-foreground">Japanese words you know 🇯🇵</p>
+            <p className="mt-1 text-[1rem] font-extrabold text-muted-foreground">Words mastered</p>
           </div>
           <Mascot pose="read" className="-mt-1 h-20 w-20" />
         </div>
@@ -88,7 +88,7 @@ function Vocab() {
           ) : (
             <div className="rounded-2xl bg-surface px-4 py-3.5 text-center">
               <p className="text-[1rem] font-extrabold">{counts.saved ? "Done reviewing for today 🎉" : "Tap words in clips to save them"}</p>
-              <p className="text-[0.8125rem] text-muted-foreground">{counts.saved ? `${counts.learning} learning · ${counts.known} known` : "They'll show up here, ready to review."}</p>
+              <p className="text-[0.8125rem] text-muted-foreground">{counts.saved ? `${counts.learning} learning · ${counts.known} mastered` : "They'll show up here, ready to review."}</p>
               {counts.learning > 0 && <button onClick={() => navigate({ to: "/review", search: { deck: "words", mode: "extra" } })} className="press mt-2 text-[0.875rem] font-extrabold text-primary">Keep studying</button>}
             </div>
           )}
@@ -107,7 +107,7 @@ function Vocab() {
           {text && <button aria-label="Clear" onClick={() => setText("")}><X className="h-5 w-5 text-faint" /></button>}
         </label>
         <div className="mt-2.5 flex gap-2 overflow-x-auto no-scrollbar">
-          {([["all", `All ${counts.saved}`], ["due", `Due ${counts.due}`], ["learning", `Learning ${counts.learning}`], ["known", `Known ${counts.known}`]] as const).map(([f, l]) => (
+          {([["all", `All ${counts.saved}`], ["due", `To Review ${counts.due}`], ["known", `Mastered ${counts.known}`]] as const).map(([f, l]) => (
             <Chip key={f} active={filter === f} onClick={() => setFilter(f)}>{l}</Chip>
           ))}
         </div>

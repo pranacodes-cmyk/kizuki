@@ -25,6 +25,26 @@ TextStyle jp(double size, {FontWeight w = FontWeight.w700, Color c = T.foregroun
 /// Small caps section label ("YOUR FIRST CLIPS").
 Widget caps(String s, {Color c = T.muted}) => Text(s.toUpperCase(), style: txt(11, w: FontWeight.w900, c: c, ls: 1.4));
 
+/// Scroll area whose bottom edge fades out above a pinned footer, hinting there is more to
+/// scroll on small phones — the web `scroll-fade` utility in src/styles.css.
+class FadedScroll extends StatelessWidget {
+  final Widget child;
+  final EdgeInsetsGeometry padding;
+  const FadedScroll({super.key, required this.child, this.padding = EdgeInsets.zero});
+  @override
+  Widget build(BuildContext context) => ShaderMask(
+        blendMode: BlendMode.dstIn,
+        shaderCallback: (r) => LinearGradient(
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+          // Mask alpha only (opaque → transparent), not a visible colour.
+          colors: const [Color(0xFF000000), Color(0xFF000000), Color(0x00000000)],
+          stops: [0, r.height <= 24 ? 0 : (r.height - 24) / r.height, 1],
+        ).createShader(r),
+        child: SingleChildScrollView(padding: padding, child: child),
+      );
+}
+
 enum BtnVariant { primary, surface, ghost, danger, success }
 
 /// 3D press button (orange with darker bottom edge) — Button in ui.tsx.

@@ -42,8 +42,8 @@ void main() {
     expect(find.text('毎日'), findsOneWidget);
     expect(find.textContaining('Tap to reveal'), findsOneWidget);
     expect(find.textContaining('Show answer'), findsNothing, reason: 'the card itself is the only reveal target');
-    expect(find.text('Again'), findsNothing);
-    expect(find.text('Good'), findsNothing);
+    expect(find.text('Forgot'), findsNothing);
+    expect(find.text('Remembered'), findsNothing);
 
     await tester.tap(find.text('毎日'));
     await tester.pump();
@@ -52,18 +52,18 @@ void main() {
     expect(find.text('every day; daily'), findsOneWidget);
     // "every day" (this clip) repeats sense 1, so it is not shown a second time.
     expect(find.textContaining('In this clip', findRichText: true), findsNothing);
-    expect(find.text('Again'), findsOneWidget);
-    expect(find.text('Good'), findsOneWidget);
+    expect(find.text('Forgot'), findsOneWidget);
+    expect(find.text('Remembered'), findsOneWidget);
 
     final before = DateTime.now().millisecondsSinceEpoch;
-    await tester.tap(find.text('Good'));
+    await tester.tap(find.text('Remembered'));
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 500));
     // A new card graded Good comes back in 10 minutes, and the next card starts face down.
     expect(app.words[key]!.card.due - before, greaterThanOrEqualTo(10 * 60 * 1000 - 1000));
     expect(app.totalReviews, 1);
     expect(find.textContaining('Tap to reveal'), findsOneWidget);
-    expect(find.text('Good'), findsNothing);
+    expect(find.text('Remembered'), findsNothing);
     await tester.pump(const Duration(seconds: 3)); // confetti + debounced save
   });
 

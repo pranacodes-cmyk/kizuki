@@ -166,19 +166,21 @@ class _FounderScreenState extends State<FounderScreen> with TickerProviderStateM
             ),
             const SizedBox(height: 20),
             Expanded(
-              child: Semantics(
+              child: Center(child: ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 180, maxHeight: 320),
+                child: Semantics(
                 button: true,
                 label: ended ? 'Play again' : (playing ? 'Pause' : 'Play'),
                 child: GestureDetector(
                   onTap: _toggle,
                   child: ClipRRect(
-                    borderRadius: BorderRadius.circular(28),
+                    borderRadius: BorderRadius.circular(8),
                     child: Stack(fit: StackFit.expand, children: [
                       if (v != null)
                         ColoredBox(
                           color: T.stage,
                           child: FittedBox(
-                            fit: BoxFit.cover,
+                            fit: BoxFit.contain,
                             clipBehavior: Clip.hardEdge,
                             child: SizedBox(width: v.value.size.width, height: v.value.size.height, child: VideoPlayer(v)),
                           ),
@@ -227,7 +229,7 @@ class _FounderScreenState extends State<FounderScreen> with TickerProviderStateM
                           ),
                         ),
                       // Captions.
-                      Positioned(
+                      if (_videoFailed) Positioned(
                         left: 16,
                         right: 16,
                         bottom: 24,
@@ -246,8 +248,15 @@ class _FounderScreenState extends State<FounderScreen> with TickerProviderStateM
                     ]),
                   ),
                 ),
-              ),
+              ))),
             ),
+            const SizedBox(height: 16),
+            Text('Ten minutes a day. Then it just clicks.', textAlign: TextAlign.center, style: txt(17, w: FontWeight.w900)),
+            const SizedBox(height: 12),
+            Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
+              for (final item in [(LucideIcons.headphones, 'Real voices'), (LucideIcons.bookOpen, 'Words in context'), (LucideIcons.repeat, 'Lasting recall')])
+                Expanded(child: Column(children: [Icon(item.$1, size: 20, color: T.primary), const SizedBox(height: 6), Text(item.$2, textAlign: TextAlign.center, style: txt(12, c: T.foreground.withValues(alpha: 0.7)))])),
+            ]),
             Padding(
               padding: const EdgeInsets.only(top: 20, bottom: 8),
               child: Row(children: [

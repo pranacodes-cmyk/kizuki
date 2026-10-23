@@ -18,7 +18,7 @@ export function ClipCard({ clip, highlight }: { clip: Clip; highlight?: string |
       <div className="relative">
         <img src={thumbOf(clip.videoId)} alt="" loading="lazy" className="aspect-video w-full object-cover" />
         <span className="absolute bottom-1.5 right-1.5 rounded-md bg-stage/80 px-1.5 py-0.5 text-[0.6875rem] font-black tabular">0:{String(dur).padStart(2, "0")}</span>
-        <span className="absolute left-1.5 top-1.5 rounded-md bg-stage/80 px-1.5 py-0.5 text-[0.6875rem] font-black">{clip.level}</span>
+        <span className="absolute left-1.5 top-1.5 rounded-md bg-stage/80 px-1.5 py-0.5 text-[0.6875rem] font-black">JLPT {clip.level}</span>
         {seen && <span className="absolute right-1.5 top-1.5 flex h-5 w-5 items-center justify-center rounded-full bg-success"><Check className="h-3 w-3 text-primary-foreground" strokeWidth={4} /></span>}
       </div>
       <div className="px-2.5 py-2">

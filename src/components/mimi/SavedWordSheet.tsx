@@ -7,7 +7,6 @@ import { speak } from "@/lib/speech";
 import { useApp, type SavedWord } from "@/lib/store";
 import { cn } from "@/lib/utils";
 
-import { ContextPlayer } from "./ContextPlayer";
 import { Sheet } from "./ui";
 import { LevelPill } from "./WordLevel";
 
@@ -64,7 +63,6 @@ export function SavedWordSheet({ word, content, open, onClose }: { word: SavedWo
         {clip && (
           <div className="mt-5">
             <p className="mb-2 text-[0.6875rem] font-black uppercase tracking-[0.12em] text-muted-foreground">Where you found it</p>
-            {open && <ContextPlayer clip={clip} line={w.line} autoplay={false} />}
             <HighlightedLine clip={clip} line={w.line} idx={w.idx} className="mt-2 text-[1.0625rem]" />
             <p className="text-[0.875rem] text-muted-foreground">{clip.lines[w.line]?.en}</p>
             <Link to="/clip/$clipId" params={{ clipId: clip.id }} onClick={onClose} className="press mt-2 flex items-center justify-between rounded-xl bg-surface-2 px-3 py-2.5 text-[0.875rem] font-extrabold">

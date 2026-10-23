@@ -2,6 +2,7 @@ import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { motion } from "motion/react";
 import { useMemo } from "react";
 
+import { Mascot } from "@/components/mimi/Mascot";
 import { Confetti } from "@/components/mimi/Confetti";
 import { Button, Pill, Screen } from "@/components/mimi/ui";
 import { thumbOf } from "@/lib/content";
@@ -37,10 +38,11 @@ function Plan() {
   });
 
   return (
-    <Screen className="px-6">
+    <Screen scroll={false} className="px-6">
       <Confetti />
+      <div className="min-h-0 flex-1 overflow-y-auto pb-6 no-scrollbar">
       <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} className="pt-6 text-center">
-        <p className="text-[2.5rem] leading-none">🎉</p>
+        <Mascot pose="cheer" className="mx-auto h-20 w-20" />
         <h1 className="mt-3 text-[1.625rem] font-black leading-tight">
           {profile.name ? `${profile.name}, your plan is ready!` : "Your plan is ready!"}
         </h1>
@@ -49,7 +51,7 @@ function Plan() {
 
       <div className="mt-6 space-y-3">
         {items.map((it, i) => (
-          <motion.div key={it.title} initial={{ opacity: 0, x: -16 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.15 + i * 0.08 }} className="flex items-center gap-4 rounded-2xl bg-surface px-4 py-3.5">
+          <motion.div key={it.title} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 + i * 0.08 }} className="flex items-center gap-4 rounded-2xl bg-surface px-4 py-3.5">
             <span className="text-[1.75rem]">{it.icon}</span>
             <span className="min-w-0">
               <span className="block text-[1rem] font-extrabold">{it.title}</span>
@@ -73,7 +75,8 @@ function Plan() {
         </motion.div>
       )}
 
-      <div className="sticky bottom-0 mt-auto bg-background pb-1 pt-4">
+      </div>
+      <div className="shrink-0 bg-background pb-2 pt-3">
         <Button onClick={() => navigate({ to: "/founder" })}>Continue</Button>
       </div>
     </Screen>

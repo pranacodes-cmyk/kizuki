@@ -75,7 +75,7 @@ const tourSteps = [
       kind: 'action', untilRoute: '/review', hand: 'tap', hint: 'Tap the orange button', skipTo: 'done'),
   TourStep('reveal', ['/review'], 'reviewCard', 'Try to remember what it means, then tap the card to check.', 'think',
       kind: 'action', until: TourEvent.reveal, hand: 'tap', hint: 'Tap anywhere on the card', skipTo: 'done', place: 'bottom', fullHole: true, handY: 0.62),
-  TourStep('grade', ['/review'], 'grade', 'Knew it? Tap Good. Forgot? Tap Again.', 'read',
+  TourStep('grade', ['/review'], 'grade', 'Remembered it? Tap Remembered. Otherwise, tap Forgot.', 'read',
       kind: 'action', until: TourEvent.graded, hint: 'Or swipe the card right or left', skipTo: 'done'),
   TourStep('done', [], null, "That's the whole loop: watch, tap, review. {minutes} minutes a day and you'll surprise yourself!", 'brave', kind: 'finish'),
 ];

@@ -4,6 +4,7 @@ import {
   Link,
   createRootRouteWithContext,
   useRouter,
+  useLocation,
   HeadContent,
   Scripts,
   type ErrorComponentProps,
@@ -15,6 +16,8 @@ import { reportLovableError } from "../lib/lovable-error-reporting";
 import { TourHost } from "@/components/mimi/WelcomeTour";
 import { AppFrame } from "@/components/mimi/AppFrame";
 import { Mascot } from "@/components/mimi/Mascot";
+import { useApp } from "@/lib/store";
+import { purchaseNeedsAccount } from "@/lib/logic";
 import { AppEffects } from "@/components/mimi/AppEffects";
 
 function NotFoundComponent() {
@@ -69,7 +72,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1, viewport-fit=cover" },
-      { name: "theme-color", content: "#16171B" },
+      { name: "theme-color", content: "#000000" },
       { title: "Kizuki — Learn Japanese from real clips" },
       { name: "description", content: "Learn Japanese by watching short real clips with tap-to-translate subtitles, saved words and smart flashcards." },
       { name: "author", content: "Kizuki" },
@@ -116,9 +119,22 @@ function RootComponent() {
       <AppFrame>
         <AppEffects />
         {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-        <Outlet />
+        <PurchaseAccountBoundary><Outlet /></PurchaseAccountBoundary>
         <TourHost />
       </AppFrame>
     </QueryClientProvider>
   );
+}
+
+function PurchaseAccountBoundary({ children }: { children: ReactNode }) {
+  const pending = useApp((s) => s.purchaseAccountPending);
+  const location = useLocation();
+  const allowed = ["/account", "/terms", "/privacy", "/support", "/reset-password"].includes(location.pathname);
+  if (!purchaseNeedsAccount(pending, false) || allowed) return children;
+  return <div className="flex h-full flex-col items-center justify-center bg-background px-6 text-center">
+    <Mascot pose="heart" className="h-24 w-24" />
+    <h1 className="mt-4 text-2xl font-black">Your purchase is saved</h1>
+    <p className="mt-2 text-muted-foreground">Sign in to continue with Kizuki.</p>
+    <Link to="/account" search={{ mode: "signin" }} className="btn-3d mt-6 flex h-14 w-full items-center justify-center rounded-2xl bg-primary font-extrabold text-primary-foreground">Continue to sign in</Link>
+  </div>;
 }

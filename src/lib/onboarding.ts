@@ -1,3 +1,7 @@
+import founderVideo from "@/assets/videos/founder-v8.mp4.asset.json";
+import founderPoster from "@/assets/videos/founder-v8.jpg.asset.json";
+import founderWebm from "@/assets/videos/founder-v8.webm.asset.json";
+
 // Onboarding questions + copy — mirrored in mobile/lib/data/onboarding.dart.
 
 export const reasonOptions = [
@@ -60,27 +64,51 @@ export const reviews = [
   { name: "Priya R.", stars: 5, text: "The explanations in context are gold. It feels like a tutor sitting next to me." },
 ];
 
-/** The welcome message before the trial: captions timed to public/video/kizuki-message.mp4
- * (mobile/assets/video/message.mp4 in the app). A presenter from the Kizuki team, not a
- * personal founder story — swap in the founder's own recording + captions when there is one. */
+/** User's founder story with burned-in captions; fallback uses matching speech. */
 export const founderLines = [
-  { t: 0.0, text: "こんにちは！" },
-  { t: 1.4, text: "Okay, quick one before you start." },
-  { t: 3.8, text: "Most of us tried textbooks and drill apps…" },
-  { t: 6.45, text: "…and still couldn't follow real Japanese." },
-  { t: 9.0, text: "What actually works is listening." },
-  { t: 11.4, text: "A lot. To real people." },
-  { t: 13.65, text: "That's Kizuki." },
-  { t: 15.25, text: "Short, real clips." },
-  { t: 17.2, text: "Tap any word to see what it means, right there." },
-  { t: 20.25, text: "Then review it later, with the original voice." },
-  { t: 23.55, text: "Ten minutes a day…" },
-  { t: 24.95, text: "…and it starts to click." },
-  { t: 26.55, text: "Got feedback? Message us anytime." },
-  { t: 29.25, text: "がんばろう！" },
+  { t: 0.7, text: "Konnichiwa, Kenji here," },
+  { t: 2.44, text: "creator of Kizuki." },
+  { t: 3.82, text: "Three years ago," },
+  { t: 4.44, text: "I failed my" },
+  { t: 5.02, text: "first Japanese test." },
+  { t: 6.58, text: "So bad, my" },
+  { t: 7.3, text: "teacher asked if" },
+  { t: 8.04, text: "I was guessing" },
+  { t: 8.52, text: "randomly." },
+  { t: 10.18, text: "18 months later," },
+  { t: 11.42, text: "I passed the" },
+  { t: 11.98, text: "N2, and was" },
+  { t: 13.62, text: "giving presentations in" },
+  { t: 14.6, text: "Tokyo." },
+  { t: 15.18, text: "How?" },
+  { t: 15.9, text: "Definitely not Duolingo." },
+  { t: 17.1, text: "That bird only" },
+  { t: 17.62, text: "taught me, the" },
+  { t: 18.46, text: "lawyer loves green" },
+  { t: 19.18, text: "tea." },
+  { t: 20.42, text: "And textbooks?" },
+  { t: 22.4, text: "Genki made me" },
+  { t: 22.94, text: "want to stare" },
+  { t: 23.36, text: "at a blank" },
+  { t: 23.76, text: "wall." },
+  { t: 24.74, text: "Then it hit" },
+  { t: 25.18, text: "me." },
+  { t: 25.8, text: "Japanese babies don't" },
+  { t: 26.64, text: "study grammar charts." },
+  { t: 27.58, text: "They just listen" },
+  { t: 28.52, text: "until it clicks." },
+  { t: 30.4, text: "That click is" },
+  { t: 31.14, text: "what Kizuki means." },
+  { t: 32.76, text: "Short, real clips," },
+  { t: 34.02, text: "tap whatever you" },
+  { t: 34.7, text: "don't get." },
+  { t: 35.56, text: "If anything feels" },
+  { t: 36.16, text: "off, message me" },
+  { t: 37.2, text: "in the app." },
+  { t: 37.96, text: "I read every one." },
+  { t: 39.5, text: "Ja ne!" },
 ];
-/** Length of the message video (also the countdown when the video can't play). */
-export const FOUNDER_SECONDS = 30;
-export const FOUNDER_VIDEO_URL = "/video/kizuki-message.mp4";
-export const FOUNDER_VIDEO_WEBM_URL = "/video/kizuki-message.webm";
-export const FOUNDER_POSTER_URL = "/video/kizuki-message.jpg";
+export const FOUNDER_SECONDS = 40.067;
+export const FOUNDER_VIDEO_URL = founderVideo.url;
+export const FOUNDER_VIDEO_WEBM_URL = founderWebm.url;
+export const FOUNDER_POSTER_URL = founderPoster.url;

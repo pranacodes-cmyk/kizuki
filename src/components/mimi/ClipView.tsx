@@ -189,7 +189,7 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
       <div ref={scroller} onWheel={inFeed ? undefined : markUserScroll} onTouchMove={inFeed ? undefined : markUserScroll} className={cn("relative min-h-0 flex-1 no-scrollbar", inFeed ? "overflow-hidden" : "overflow-y-auto overscroll-contain")} style={{ paddingBottom: bottomInset }}>
         <div className="flex items-center gap-2 px-4 pb-1 pt-1">
           <p className="min-w-0 flex-1 truncate text-[0.875rem] font-extrabold">{clip.title}</p>
-          <span className="shrink-0 rounded-md bg-surface-2 px-1.5 py-0.5 text-[0.6875rem] font-black text-muted-foreground">{clip.level}</span>
+          <span className="shrink-0 rounded-md bg-surface-2 px-1.5 py-0.5 text-[0.6875rem] font-black text-muted-foreground">JLPT {clip.level}</span>
         </div>
         {video && (
           <a href={watchUrl(clip.videoId, clip.start)} target="_blank" rel="noreferrer" className="block truncate px-4 text-[0.75rem] font-bold text-faint hover:text-muted-foreground">

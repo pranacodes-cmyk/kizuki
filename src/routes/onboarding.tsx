@@ -1,5 +1,5 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
-import { AnimatePresence, motion } from "motion/react";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { Check } from "lucide-react";
 import { useMemo, useState, type ReactNode } from "react";
 
@@ -25,10 +25,11 @@ export const Route = createFileRoute("/onboarding")({
   component: Onboarding,
 });
 
-const STEPS = ["reasons", "level", "challenges", "method", "source", "fluency", "minutes", "window", "streak", "name"] as const;
+const STEPS = ["reasons", "level", "challenges", "method", "source", "fluency", "minutes", "window", "streak"] as const;
 
 function Onboarding() {
   const navigate = useNavigate();
+  const reducedMotion = useReducedMotion();
   const profile = useApp((s) => s.profile);
   const setProfile = useApp((s) => s.setProfile);
   const [i, setI] = useState(0);
@@ -53,17 +54,17 @@ function Onboarding() {
 
   return (
     <Screen scroll={false}>
-      <ProgressHeader progress={(i + 1) / (STEPS.length + 1)} onBack={back} />
+      <ProgressHeader progress={(i + 1) / STEPS.length} onBack={back} />
       <div className="relative flex-1 overflow-hidden">
         <AnimatePresence initial={false} custom={dir} mode="popLayout">
           <motion.div
             key={step}
             custom={dir}
-            initial={{ x: dir * 60, opacity: 0 }}
+            initial={{ x: dir * (reducedMotion ? 0 : 16), opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            exit={{ x: dir * -60, opacity: 0 }}
-            transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
-            className="absolute inset-0 flex flex-col"
+            exit={{ x: dir * (reducedMotion ? 0 : -16), opacity: 0 }}
+            transition={{ duration: reducedMotion ? 0 : 0.22, ease: [0.22, 1, 0.36, 1] }}
+            className="absolute inset-0 flex min-h-0 flex-col"
           >
             {step === "reasons" && <Reasons value={profile.reasons} onChange={(reasons) => setProfile({ reasons })} onNext={next} />}
             {step === "level" && <Level value={profile.level} onPick={(level) => { setProfile({ level, jlpt: levelToJlpt(level) }); setTimeout(next, 220); }} />}
@@ -74,7 +75,6 @@ function Onboarding() {
             {step === "minutes" && <Minutes minutes={profile.dailyMinutes} months={profile.fluencyMonths} onChange={(dailyMinutes) => setProfile({ dailyMinutes })} onNext={next} />}
             {step === "window" && <Window value={profile.window} minutes={profile.dailyMinutes} onChange={(window) => setProfile({ window })} onNext={async () => { await requestReminderPermission(); next(); }} />}
             {step === "streak" && <Streak value={profile.streakGoal} onChange={(streakGoal) => setProfile({ streakGoal })} onNext={next} />}
-            {step === "name" && <Name value={profile.name} onChange={(name) => setProfile({ name })} onNext={next} />}
           </motion.div>
         </AnimatePresence>
       </div>
@@ -92,8 +92,14 @@ function Title({ title, subtitle, children }: { title: string; subtitle?: string
   );
 }
 
+/** Step content that scrolls above the pinned Footer, so the main button is always on
+ * screen on small phones and with large text (mirrors _stepBody in onboarding.dart). */
+function StepBody({ children }: { children: ReactNode }) {
+  return <div className="min-h-0 flex-1 overflow-y-auto pb-4 no-scrollbar scroll-fade">{children}</div>;
+}
+
 function Footer({ children }: { children: ReactNode }) {
-  return <div className="mt-auto space-y-3 px-6 pb-2 pt-3">{children}</div>;
+  return <div className="mt-auto shrink-0 space-y-3 bg-background px-6 pb-2 pt-3">{children}</div>;
 }
 
 function GridCard({ active, emoji, label, onClick }: { active: boolean; emoji: string; label: string; onClick: () => void }) {
@@ -139,7 +145,7 @@ function Reasons({ value, onChange, onNext }: { value: string[]; onChange: (v: s
   return (
     <>
       <Title title="Why do you want to learn Japanese?" subtitle="Pick all that apply — we'll find clips you'll love." />
-      <div className="mt-5 grid grid-cols-2 gap-3 overflow-y-auto px-6 pb-2 no-scrollbar">
+      <div className="mt-5 grid min-h-0 flex-1 auto-rows-[104px] grid-cols-2 content-start gap-3 overflow-y-auto px-6 pb-6 no-scrollbar">
         {reasonOptions.map((o) => <GridCard key={o.id} active={value.includes(o.id)} emoji={o.emoji} label={o.label} onClick={() => onChange(toggle(value, o.id))} />)}
       </div>
       <Footer><Button disabled={!value.length} onClick={onNext}>Continue</Button></Footer>
@@ -183,7 +189,7 @@ function Challenges({ value, onChange, onNext }: { value: string[]; onChange: (v
   return (
     <>
       <Title title="What's hardest for you right now?" subtitle="Select all that apply." />
-      <div className="mt-5 grid grid-cols-2 gap-3 overflow-y-auto px-6 pb-2 no-scrollbar">
+      <div className="mt-5 grid min-h-0 flex-1 auto-rows-[104px] grid-cols-2 content-start gap-3 overflow-y-auto px-6 pb-6 no-scrollbar">
         {challengeOptions.map((o) => <GridCard key={o.id} active={value.includes(o.id)} emoji={o.emoji} label={o.label} onClick={() => onChange(toggle(value, o.id))} />)}
       </div>
       <Footer>
@@ -205,6 +211,7 @@ function Challenges({ value, onChange, onNext }: { value: string[]; onChange: (v
 function Method({ onNext }: { onNext: () => void }) {
   return (
     <>
+      <StepBody>
       <Title title="Learn the way you learned your first language" subtitle="By listening to real people — not by memorising rules." />
       <div className="mx-6 mt-6 rounded-3xl bg-surface p-5">
         <p className="text-[0.8125rem] font-black uppercase tracking-[0.12em] text-muted-foreground">Real Japanese you hear in 10 minutes</p>
@@ -227,6 +234,7 @@ function Method({ onNext }: { onNext: () => void }) {
           <p key={t} className="flex items-center gap-2 text-[0.9375rem] font-bold"><Check className="h-4 w-4 text-success" strokeWidth={3} />{t}</p>
         ))}
       </div>
+      </StepBody>
       <Footer><Button onClick={onNext}>Continue</Button></Footer>
     </>
   );
@@ -283,11 +291,13 @@ function Fluency({ months, onChange, onNext }: { months: number; onChange: (v: n
   const date = useMemo(() => goalDateLabel(new Date(), months), [months]);
   return (
     <>
+      <StepBody>
       <Title title="When do you want to understand Japanese?" subtitle="Set a goal. We'll keep it realistic." />
       <div className="mt-4 flex justify-center"><Pill tone="success">🇯🇵 Conversational by {date}</Pill></div>
       <div className="mt-6"><Ring value={months} max={36} color="stroke-success"><span className="text-[3.25rem] font-black leading-none tabular">{months}</span><span className="text-[1rem] font-bold text-muted-foreground">months</span></Ring></div>
       <div className="mt-8 px-8"><Slider value={months} min={3} max={36} step={1} onChange={onChange} tone="success" /></div>
       <div className="mt-2 flex justify-between px-8 text-[0.75rem] font-bold text-faint"><span>3 months</span><span>3 years</span></div>
+      </StepBody>
       <Footer><Button onClick={onNext}>Continue</Button></Footer>
     </>
   );
@@ -297,13 +307,15 @@ function Minutes({ minutes, months, onChange, onNext }: { minutes: number; month
   const rec = recommendedMinutes(months);
   return (
     <>
+      <StepBody>
       <Title title="How much time can you give each day?" subtitle="Consistency beats intensity. Even 5 minutes works." />
       <div className="mt-4 flex justify-center"><Pill tone="primary">🧠 About {wordsPerMonth(minutes)} new words a month</Pill></div>
       <div className="mt-6"><Ring value={minutes} max={60} color="stroke-primary"><span className="text-[3.25rem] font-black leading-none tabular">{minutes}</span><span className="text-[1rem] font-bold text-muted-foreground">minutes</span></Ring></div>
       <div className="mt-8 px-8"><Slider value={minutes} min={5} max={60} step={5} onChange={onChange} tone="primary" /></div>
-      <div className="mt-4 flex justify-center">
+      <div className="mt-4 flex justify-center px-6 text-center">
         {minutes >= rec ? <Pill tone="success">✓ Enough to reach your {months}-month goal</Pill> : <Pill>{rec} min/day recommended for {months} months</Pill>}
       </div>
+      </StepBody>
       <Footer><Button onClick={onNext}>I'm committed</Button></Footer>
     </>
   );
@@ -313,10 +325,12 @@ function Window({ value, minutes, onChange, onNext }: { value: string; minutes: 
   const [picked, setPicked] = useState(false);
   return (
     <>
-      <Title title={`When can you spend ${minutes} minutes?`} subtitle="We'll send one friendly reminder so you never break your streak." />
-      <div className="mt-5 space-y-3 px-6">
-        {windowOptions.map((o) => <ListOption key={o.id} active={picked && value === o.id} left={o.emoji} label={o.label} hint={o.hint} onClick={() => { setPicked(true); onChange(o.id); }} />)}
-      </div>
+      <StepBody>
+        <Title title={`When can you spend ${minutes} minutes?`} subtitle="We'll send one friendly reminder so you never break your streak." />
+        <div className="mt-5 space-y-3 px-6">
+          {windowOptions.map((o) => <ListOption key={o.id} active={picked && value === o.id} left={o.emoji} label={o.label} hint={o.hint} onClick={() => { setPicked(true); onChange(o.id); }} />)}
+        </div>
+      </StepBody>
       <Footer>
         <p className="text-center text-[0.8125rem] text-muted-foreground">Learners with reminders on are far more likely to keep their streak.</p>
         <Button disabled={!picked} onClick={onNext}>{picked ? `Remind me ${windowLabel(value)}` : "Pick a time"}</Button>
@@ -328,49 +342,16 @@ function Window({ value, minutes, onChange, onNext }: { value: string; minutes: 
 function Streak({ value, onChange, onNext }: { value: number; onChange: (v: number) => void; onNext: () => void }) {
   return (
     <>
-      <div className="flex justify-center pt-2"><Mascot pose="brave" className="h-32 w-32" /></div>
-      <Title title="Make a promise to yourself" subtitle="Pick a streak goal. Kizuki will cheer you on." />
-      <div className="mt-5 space-y-3 px-6">
-        {streakOptions.map((o) => (
-          <ListOption key={o.days} active={value === o.days} left={o.emoji} label={`${o.days}-day streak`} hint={o.label} onClick={() => onChange(o.days)} />
-        ))}
-      </div>
+      <StepBody>
+        <div className="flex justify-center pt-2"><Mascot pose="brave" className="h-28 w-28" /></div>
+        <Title title="Make a promise to yourself" subtitle="Pick a streak goal. Kizuki will cheer you on." />
+        <div className="mt-5 space-y-3 px-6">
+          {streakOptions.map((o) => (
+            <ListOption key={o.days} active={value === o.days} left={o.emoji} label={`${o.days}-day streak`} hint={o.label} onClick={() => onChange(o.days)} />
+          ))}
+        </div>
+      </StepBody>
       <Footer><Button onClick={onNext}>Commit to {value} days</Button></Footer>
-    </>
-  );
-}
-
-function Name({ value, onChange, onNext }: { value: string; onChange: (v: string) => void; onNext: () => void }) {
-  // With the keyboard up the fox steps aside, so the field and both buttons stay visible (onboarding.dart _Name).
-  const [typing, setTyping] = useState(false);
-  const go = () => {
-    (document.activeElement as HTMLElement | null)?.blur();
-    onNext();
-  };
-  // The buttons live outside the scrolling part, so they always sit right above the keyboard.
-  return (
-    <>
-      <div className="min-h-0 flex-1 overflow-y-auto pb-4 no-scrollbar">
-      <div className={cn("flex justify-center overflow-hidden transition-all duration-200 ease-out", typing ? "max-h-1 pt-0 opacity-0" : "max-h-40 pt-4 opacity-100")}><Mascot pose="wave" className="h-32 w-32" /></div>
-      <Title title="Last thing — what should Kizuki call you?" subtitle="So your plan feels like yours." />
-      <div className="mt-6 px-6">
-        <input
-          value={value}
-          onChange={(e) => onChange(e.target.value.slice(0, 30))}
-          onKeyDown={(e) => { if (e.key === "Enter" && value.trim()) go(); }}
-          onFocus={() => setTyping(true)}
-          onBlur={() => setTyping(false)}
-          placeholder="Your first name"
-          autoComplete="given-name"
-          enterKeyHint="done"
-          className="h-14 w-full rounded-2xl border-2 border-border bg-surface px-4 text-[1.0625rem] font-bold outline-none placeholder:text-faint focus:border-primary"
-        />
-      </div>
-      </div>
-      <Footer>
-        <Button onClick={go} disabled={!value.trim()}>Build my plan</Button>
-        <Button variant="ghost" size="md" className="w-full" onClick={go}>Skip</Button>
-      </Footer>
     </>
   );
 }

@@ -15,6 +15,13 @@
       "when": 1792695020846,
       "tag": "0001_create_support_messages",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1792748069015,
+      "tag": "0002_learner_profiles",
+      "breakpoints": true
     }
   ]
 }

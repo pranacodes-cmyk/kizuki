@@ -4,6 +4,7 @@ import { Loader2, Play, RotateCw } from "lucide-react";
 import type { Clip } from "@/lib/content";
 import { thumbOf } from "@/lib/content";
 import { loadYouTubeApi, playerErrorMessage, YT_STATE, type YTPlayer } from "@/lib/youtube";
+import { PlaybackLoopGuard } from "@/lib/playback-loop";
 
 export type ClipPlayerHandle = {
   play(): void;
@@ -32,6 +33,7 @@ type Props = {
 export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlayer({ clip, active, rate, onTime, onPlayingChange, onLoop, loopRange }, ref) {
   const host = useRef<HTMLDivElement>(null);
   const player = useRef<YTPlayer | null>(null);
+  const loop = useRef(new PlaybackLoopGuard(clip.start));
   const [ready, setReady] = useState(false);
   const [state, setState] = useState<number>(YT_STATE.UNSTARTED);
   const [error, setError] = useState<string | null>(null);
@@ -52,6 +54,7 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
     seek: (t: number) => {
       const p = player.current;
       if (!p) return;
+      loop.current.beginSeek(t);
       p.seekTo(t, true);
       p.playVideo();
     },
@@ -62,8 +65,12 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
   useEffect(() => {
     if (!active || !host.current) return;
     let cancelled = false;
+    let startupCorrectionIssued = false;
     setError(null);
     setReady(false);
+    setTapped(false);
+    setState(YT_STATE.UNSTARTED);
+    loop.current = new PlaybackLoopGuard(clip.start);
     const mount = document.createElement("div");
     host.current.appendChild(mount);
     loadYouTubeApi()
@@ -84,10 +91,13 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
               if (cancelled) return;
               setReady(true);
               e.target.setPlaybackRate(rate);
+              // Some players ignore playerVars.start: position once, never every tick.
+              loop.current.beginSeek(clip.start);
               e.target.seekTo(clip.start, true);
               e.target.playVideo();
             },
             onStateChange: (e) => {
+              if (cancelled) return;
               setState(e.data);
               // Hide YouTube's own captions (cc_load_policy is ignored when the viewer has CC on).
               if (e.data === YT_STATE.PLAYING || e.data === YT_STATE.BUFFERING) {
@@ -95,11 +105,21 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
                 try { t.unloadModule?.("captions"); t.unloadModule?.("cc"); t.setOption?.("captions", "track", {}); } catch { /* no captions */ }
               }
               cb.current.onPlayingChange(e.data === YT_STATE.PLAYING);
-              if (e.data === YT_STATE.ENDED) {
-                // YouTube's `end` hit: wrap like a loop.
-                e.target.seekTo(cb.current.clip.start, true);
+              const { clip: c, loopRange: lr } = cb.current;
+              // A pre-play seek can be ignored; one playing-state correction is enough.
+              if (e.data === YT_STATE.PLAYING && !startupCorrectionIssued) {
+                startupCorrectionIssued = true;
+                if (e.target.getCurrentTime() < c.start - 1.5) {
+                  loop.current.beginSeek(c.start);
+                  e.target.seekTo(c.start, true);
+                }
+              }
+              const start = lr?.start ?? c.start;
+              const end = lr?.end ?? c.end;
+              if (e.data === YT_STATE.ENDED && loop.current.shouldLoop(e.target.getCurrentTime(), start, end, false, true)) {
+                e.target.seekTo(start, true);
                 e.target.playVideo();
-                cb.current.onLoop();
+                if (!lr) cb.current.onLoop();
               }
             },
             onError: (e) => setError(playerErrorMessage(e.data)),
@@ -133,14 +153,14 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
       const { clip: c, loopRange: lr } = cb.current;
       const end = lr ? lr.end : c.end;
       const start = lr ? lr.start : c.start;
-      if (t >= end - 0.05 && p.getPlayerState() === YT_STATE.PLAYING) {
+      if (loop.current.shouldLoop(t, start, end, p.getPlayerState() === YT_STATE.PLAYING)) {
         p.seekTo(start, true);
         if (!lr) cb.current.onLoop();
         cb.current.onTime(start);
         return;
       }
-      if (t < c.start - 1.5) p.seekTo(c.start, true);
-      cb.current.onTime(t);
+      // Zero/early timestamps during startup are not a request to restart.
+      cb.current.onTime(Math.max(c.start, Math.min(c.end, t)));
     }, 100);
     return () => clearInterval(id);
   }, [ready]);

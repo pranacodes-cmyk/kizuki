@@ -1,9 +1,10 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { Eye, EyeOff, MailCheck } from "lucide-react";
-import { useState, type FormEvent } from "react";
+import { useState, useEffect, useRef, type FormEvent } from "react";
 import { z } from "zod";
 import "@lovable.dev/cloud-auth-js/styles.css";
 
+import { useSession } from "@/hooks/use-session";
 import { Mascot } from "@/components/mimi/Mascot";
 import { Button, Screen, TopBar } from "@/components/mimi/ui";
 import { supabase } from "@/integrations/supabase/client";
@@ -44,9 +45,14 @@ function Account() {
   const [sent, setSent] = useState<null | "confirm" | "reset">(null);
   const onboarded = useApp((s) => s.onboarded);
   const completeOnboarding = useApp((s) => s.completeOnboarding);
-  const fromWelcome = initialMode === "signin" && !onboarded;
+  const requiredAccount = useApp((s) => s.purchaseAccountPending);
+  const session = useSession();
+  const finishing = useRef(false);
+  const fromWelcome = initialMode === "signin" && !requiredAccount && !onboarded;
 
   const finish = async () => {
+    const { data, error } = await supabase.auth.getUser();
+    if (error || !data.user) { setError("Please sign in to continue."); return; }
     await syncNow();
     const s = useApp.getState();
     if (fromWelcome && !s.onboarded) {
@@ -54,9 +60,16 @@ function Account() {
       void navigate({ to: "/onboarding", replace: true });
       return;
     }
+    s.confirmPurchaseAccount();
     if (!s.onboarded) completeOnboarding();
     void navigate({ to: "/feed", replace: true });
   };
+
+  useEffect(() => {
+    if (!session || !requiredAccount || finishing.current) return;
+    finishing.current = true;
+    void finish().finally(() => { finishing.current = false; });
+  }, [session, requiredAccount]);
 
   const submit = async (e: FormEvent) => {
     e.preventDefault();
@@ -111,6 +124,7 @@ function Account() {
   };
 
   const later = () => {
+    if (requiredAccount) return;
     if (fromWelcome) { void navigate({ to: "/" }); return; }
     completeOnboarding();
     void navigate({ to: "/feed", replace: true });
@@ -127,7 +141,7 @@ function Account() {
           </p>
         </div>
         <div className="w-full space-y-3 pb-2">
-          {sent === "confirm" ? <Button onClick={later}>Continue to Kizuki</Button> : <Button onClick={() => { setSent(null); setMode("signin"); }}>Back to sign in</Button>}
+          <Button onClick={() => { setSent(null); setMode("signin"); }}>Back to sign in</Button>
         </div>
       </Screen>
     );
@@ -135,7 +149,7 @@ function Account() {
 
   return (
     <Screen>
-      <TopBar onBack={() => (fromWelcome ? navigate({ to: "/" }) : navigate({ to: "/trial" }))} />
+      {!requiredAccount && <TopBar onBack={() => (fromWelcome ? navigate({ to: "/" }) : navigate({ to: "/trial" }))} />}
       <div className="flex flex-col items-center px-6 text-center">
         <Mascot pose={mode === "signup" ? "heart" : "wave"} className="h-24 w-24" />
         <h1 className="mt-2 text-[1.5rem] font-black leading-tight">{mode === "signup" ? "Save your progress" : "Welcome back"}</h1>
@@ -166,7 +180,7 @@ function Account() {
         <button onClick={() => { setMode(mode === "signup" ? "signin" : "signup"); setError(null); }} className="press text-[0.9375rem] font-bold text-muted-foreground">
           {mode === "signup" ? <>Already have an account? <span className="text-primary">Sign in</span></> : <>New here? <span className="text-primary">Create an account</span></>}
         </button>
-        <button onClick={later} className="press block w-full py-2 text-[0.875rem] font-bold text-faint">{fromWelcome ? "Back" : "Maybe later"}</button>
+        {!requiredAccount && <Button variant="ghost" size="md" onClick={later} className="w-full">{fromWelcome ? "Back" : "Maybe later"}</Button>}
       </div>
     </Screen>
   );

@@ -650,6 +650,7 @@ export function mergeState(local: Json, remote: Json): Json {
     onboarded: !!(local.onboarded || remote.onboarded),
     // Premium never syncs: each device keeps its own, verified by its store.
     premium: local.premium,
+    purchaseAccountPending: !!local.purchaseAccountPending,
     words: mergeByUpdatedAt(local.words ?? {}, remote.words ?? {}),
     kana,
     seen,
@@ -757,3 +758,6 @@ export function supportMessageError(email: string, message: string): string | nu
   if (m.length > SUPPORT_MESSAGE_MAX) return `Keep it under ${SUPPORT_MESSAGE_MAX} characters.`;
   return null;
 }
+
+/** Completed checkout must be followed by a verified account. */
+export const purchaseNeedsAccount = (pending: boolean, verified: boolean) => pending && !verified;

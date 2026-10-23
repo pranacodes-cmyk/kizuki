@@ -1,6 +1,6 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { AnimatePresence, motion } from "motion/react";
-import { Pause, Play, RotateCcw, Volume2, VolumeX } from "lucide-react";
+import { BookOpen, Headphones, Pause, Play, Repeat, RotateCcw, Volume2, VolumeX } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 import { Mascot } from "@/components/mimi/Mascot";
@@ -11,9 +11,9 @@ export const Route = createFileRoute("/founder")({
   head: () => ({
     meta: [
       { title: "A quick hello before you start — Kizuki" },
-      { name: "description", content: "Why Kizuki works, in about 35 seconds: real Japanese, short clips, tap a word, review it with the real audio." },
+      { name: "description", content: "The story behind Kizuki and learning through real Japanese clips." },
       { property: "og:title", content: "A quick hello before you start — Kizuki" },
-      { property: "og:description", content: "Why Kizuki works, in about 35 seconds: real Japanese, short clips, tap a word, review it with the real audio." },
+      { property: "og:description", content: "The story behind Kizuki and learning through real Japanese clips." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
     ],
@@ -79,13 +79,14 @@ function Founder() {
   };
 
   const left = Math.max(0, Math.ceil(total - t));
-  const line = [...founderLines].reverse().find((l) => l.t <= t) ?? founderLines[0]!;
+  const line = [...founderLines].reverse().find((l) => l.t <= t) ?? founderLines[0];
   const r = 22, c = 2 * Math.PI * r;
 
   return (
     <Screen scroll={false} className="px-6">
       <h1 className="pt-4 text-center text-[1.5rem] font-black">A quick <span className="text-primary">hello</span> before you start</h1>
-      <div className="relative mt-5 flex-1 overflow-hidden rounded-[28px] bg-surface">
+      <div className="mt-5 flex min-h-0 flex-1 items-center justify-center">
+      <div className="relative h-full max-h-80 w-[180px] overflow-hidden rounded-lg bg-stage">
         <button className="absolute inset-0" onClick={toggle} aria-label={ended ? "Play again" : playing ? "Pause" : "Play"}>
           {!failed ? (
             <video
@@ -93,7 +94,7 @@ function Founder() {
               poster={FOUNDER_POSTER_URL}
               playsInline
               preload="auto"
-              className="h-full w-full bg-stage object-cover"
+              className="h-full w-full bg-stage object-contain"
               onTimeUpdate={(e) => setT(e.currentTarget.currentTime)}
               onLoadedMetadata={(e) => { if (Number.isFinite(e.currentTarget.duration)) setTotal(e.currentTarget.duration); }}
               onPlay={() => setPlaying(true)}
@@ -106,7 +107,7 @@ function Founder() {
                 fail();
               }}
             >
-              {/* MP4 for Safari/Chrome; WebM for browsers without H.264. Fallback only if both fail. */}
+              {/* Approved video includes captions, keeping web and Flutter identical. */}
               <source src={FOUNDER_VIDEO_URL} type="video/mp4" />
               <source src={FOUNDER_VIDEO_WEBM_URL} type="video/webm" onError={fail} />
             </video>
@@ -135,16 +136,22 @@ function Founder() {
         {!failed && (
           <button onClick={toggleMute} aria-label={muted ? "Turn sound on" : "Mute"} className="absolute left-4 top-4 flex h-10 items-center justify-center gap-1.5 rounded-full bg-stage/50 px-2.5">
             {muted ? <VolumeX className="h-5 w-5" /> : <Volume2 className="h-5 w-5" />}
-            {muted && <span className="pr-1 text-[0.8125rem] font-extrabold">Tap for sound</span>}
           </button>
         )}
-        <div className="pointer-events-none absolute inset-x-4 bottom-6 flex justify-center">
+        {failed && <div className="pointer-events-none absolute inset-x-4 bottom-6 flex justify-center">
           <AnimatePresence mode="wait">
-            <motion.p key={line.t} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -6 }} transition={{ duration: 0.25 }} className="rounded-xl bg-stage/80 px-3 py-2 text-center text-[1rem] font-extrabold leading-snug">
-              {line.text}
+            <motion.p key={line?.t} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -6 }} transition={{ duration: 0.25 }} className="rounded-xl bg-stage/80 px-3 py-2 text-center text-[1.125rem] font-extrabold leading-snug">
+              {line?.text}
             </motion.p>
           </AnimatePresence>
-        </div>
+        </div>}
+      </div>
+      </div>
+      <h2 className="mt-4 text-center text-[1.0625rem] font-black">Ten minutes a day. Then it just clicks.</h2>
+      <div className="mt-3 grid grid-cols-3 gap-2">
+        {[{ icon: Headphones, label: "Real voices" }, { icon: BookOpen, label: "Words in context" }, { icon: Repeat, label: "Lasting recall" }].map(({ icon: Icon, label }) => (
+          <div key={label} className="flex flex-col items-center gap-1.5 text-center"><Icon className="h-5 w-5 text-primary" /><span className="text-xs text-foreground/70">{label}</span></div>
+        ))}
       </div>
       <div className="flex items-center gap-4 pb-1 pt-5">
         <div className="relative h-14 w-14 shrink-0">

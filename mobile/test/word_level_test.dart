@@ -36,15 +36,16 @@ void main() {
     await tester.pump(const Duration(milliseconds: 500));
   }
 
-  testWidgets('a saved word starts at 1 New; picking Familiar moves its review 3 days out', (tester) async {
+  testWidgets('choosing Learning preserves an existing review schedule', (tester) async {
     final (app, key) = await pump(tester);
-    expect(find.text('New'), findsOneWidget);
-    final before = DateTime.now().millisecondsSinceEpoch;
-    await pick(tester, 'Familiar');
-    final w = app.words[key]!;
+    app.setWordLevel(key, 3);
+    await tester.pump();
+    final before = app.words[key]?.card.due;
+    await pick(tester, 'Learning');
+    final w = app.words[key];
+    if (w == null) fail('saved word missing');
     expect(wordLevel(status: w.status, card: w.card), 3);
-    expect((w.card.due - before) / 86400000, closeTo(3, 0.01));
-    expect(find.text('Familiar'), findsOneWidget, reason: 'the pill shows the new level');
+    expect(w.card.due, before);
     await tester.pump(const Duration(seconds: 1));
   });
 

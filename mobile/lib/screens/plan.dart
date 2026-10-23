@@ -39,7 +39,7 @@ class PlanScreen extends StatelessWidget {
             return Column(children: [
               Expanded(
                 child: ListView(padding: const EdgeInsets.fromLTRB(24, 24, 24, 16), children: [
-                  const Center(child: Text('🎉', style: TextStyle(fontSize: 40))),
+                  const Center(child: Mascot(MascotPose.cheer, size: 80)),
                   const SizedBox(height: 12),
                   Text(p.name.isNotEmpty ? '${p.name}, your plan is ready!' : 'Your plan is ready!', textAlign: TextAlign.center, style: txt(26, w: FontWeight.w900, h: 1.2)),
                   const SizedBox(height: 12),
@@ -48,9 +48,9 @@ class PlanScreen extends StatelessWidget {
                   for (var i = 0; i < items.length; i++)
                     TweenAnimationBuilder<double>(
                       tween: Tween(begin: 0, end: 1),
-                      duration: Duration(milliseconds: 400 + i * 80),
+                      duration: MediaQuery.disableAnimationsOf(context) ? Duration.zero : Duration(milliseconds: 300 + i * 60),
                       curve: Curves.easeOutCubic,
-                      builder: (_, v, child) => Opacity(opacity: v, child: Transform.translate(offset: Offset(-16 * (1 - v), 0), child: child)),
+                      builder: (_, v, child) => Opacity(opacity: v, child: Transform.translate(offset: Offset(0, 8 * (1 - v)), child: child)),
                       child: Padding(
                         padding: const EdgeInsets.only(bottom: 12),
                         child: Surface(

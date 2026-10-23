@@ -232,6 +232,7 @@ class HistoryEntry {
 
 class AppState extends ChangeNotifier {
   bool onboarded = false;
+  bool purchaseAccountPending = false;
   Profile profile = Profile();
   Premium premium = Premium();
   Map<String, SavedWord> words = {};
@@ -297,6 +298,7 @@ class AppState extends ChangeNotifier {
   Map<String, dynamic> toJson() => {
         'version': 1,
         'onboarded': onboarded,
+        'purchaseAccountPending': purchaseAccountPending,
         'profile': profile.toJson(),
         'premium': premium.toJson(),
         'words': words.map((k, v) => MapEntry(k, v.toJson())),
@@ -319,6 +321,7 @@ class AppState extends ChangeNotifier {
 
   void applyJson(Map<String, dynamic> j) {
     onboarded = j['onboarded'] as bool? ?? false;
+    purchaseAccountPending = j['purchaseAccountPending'] as bool? ?? false;
     profile = Profile.fromJson((j['profile'] as Map? ?? {}).cast<String, dynamic>());
     premium = Premium.fromJson((j['premium'] as Map? ?? {}).cast<String, dynamic>());
     words = (j['words'] as Map? ?? {}).map((k, v) => MapEntry(k as String, SavedWord.fromJson((v as Map).cast<String, dynamic>())));
@@ -364,6 +367,16 @@ class AppState extends ChangeNotifier {
   // ---- onboarding / account ----
   void setProfile(void Function(Profile p) edit) {
     edit(profile);
+    _commit();
+  }
+
+  void requirePurchaseAccount() {
+    purchaseAccountPending = true;
+    _commit();
+  }
+
+  void confirmPurchaseAccount() {
+    purchaseAccountPending = false;
     _commit();
   }
 

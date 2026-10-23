@@ -27,7 +27,7 @@ class LevelBadge extends StatelessWidget {
   Widget build(BuildContext context) {
     final fg = level >= 1 && level <= 2 ? T.primaryFg : (level == 5 || level == 0 ? T.stage : T.foreground);
     return Semantics(
-      label: 'Level: ${wordLevelInfo(level).label}',
+      label: 'Level: ${(level >= 1 && level <= 4 ? 'Learning' : wordLevelInfo(level).label)}',
       child: Container(
         width: size,
         height: size,
@@ -37,7 +37,7 @@ class LevelBadge extends StatelessWidget {
             ? Icon(LucideIcons.check, size: size * 0.6, color: fg)
             : level == 0
                 ? Icon(LucideIcons.x, size: size * 0.6, color: fg)
-                : Text('$level', style: txt(size * 0.55, w: FontWeight.w900, c: fg, h: 1)),
+                : Icon(LucideIcons.bookOpen, size: size * 0.6, color: fg),
       ),
     );
   }
@@ -59,7 +59,7 @@ class LevelPill extends StatelessWidget {
     final level = wordLevel(status: w.status, card: w.card);
     return Semantics(
       button: true,
-      label: 'Word level: ${wordLevelInfo(level).label}. Change',
+      label: 'Word level: ${(level >= 1 && level <= 4 ? 'Learning' : wordLevelInfo(level).label)}. Change',
       child: Press(
         onTap: () async {
           final r = await showWordLevelSheet(context, wordKey: wordKey, word: word);
@@ -73,7 +73,7 @@ class LevelPill extends StatelessWidget {
           child: Row(mainAxisSize: MainAxisSize.min, children: [
             LevelBadge(level: level, size: 26),
             const SizedBox(width: 8),
-            Flexible(child: Text(wordLevelInfo(level).label, maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(15, w: FontWeight.w800, c: level == 0 ? T.muted : T.foreground))),
+            Flexible(child: Text((level >= 1 && level <= 4 ? 'Learning' : wordLevelInfo(level).label), maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(15, w: FontWeight.w800, c: level == 0 ? T.muted : T.foreground))),
             const SizedBox(width: 4),
             const Icon(LucideIcons.chevronDown, size: 16, color: T.muted),
           ]),
@@ -110,35 +110,35 @@ class _WordLevelSheet extends StatelessWidget {
         ),
         if (review != null) Padding(padding: const EdgeInsets.only(top: 4), child: Text(review, style: txt(14, w: FontWeight.w700, c: T.muted))),
         const SizedBox(height: 12),
-        for (final l in wordLevels)
+        for (final l in [wordLevels[0], wordLevels[4], wordLevels[5]])
           Padding(
             padding: const EdgeInsets.only(bottom: 6),
             child: Semantics(
               button: true,
-              selected: l.level == current,
+              selected: (l.level == 1 ? current >= 1 && current <= 4 : l.level == current),
               label: '${l.label}. ${l.hint}',
               child: Press(
                 onTap: () {
-                  app.setWordLevel(wordKey, l.level);
+                  if (!(l.level == 1 && current >= 1 && current <= 4)) app.setWordLevel(wordKey, l.level);
                   Navigator.of(context).pop();
                 },
                 child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
                   decoration: BoxDecoration(
-                    color: l.level == current ? T.surface2 : Colors.transparent,
+                    color: (l.level == 1 ? current >= 1 && current <= 4 : l.level == current) ? T.surface2 : Colors.transparent,
                     borderRadius: BorderRadius.circular(14),
-                    border: Border.all(color: l.level == current ? T.border : Colors.transparent, width: 2),
+                    border: Border.all(color: (l.level == 1 ? current >= 1 && current <= 4 : l.level == current) ? T.border : Colors.transparent, width: 2),
                   ),
                   child: Row(children: [
                     LevelBadge(level: l.level, size: 30),
                     const SizedBox(width: 12),
                     Expanded(
                       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                        Text(l.label, style: txt(16, w: FontWeight.w800)),
-                        Text(l.hint, style: txt(13, w: FontWeight.w600, c: T.muted)),
+                        Text(l.level == 1 ? 'Learning' : l.label, style: txt(16, w: FontWeight.w800)),
+                        Text(l.level == 1 ? 'Keep this word in my reviews' : l.level == 5 ? 'I know this word' : 'Leave this word out', style: txt(13, w: FontWeight.w600, c: T.muted)),
                       ]),
                     ),
-                    if (l.level == current) const Icon(LucideIcons.check, size: 20, color: T.primary),
+                    if ((l.level == 1 ? current >= 1 && current <= 4 : l.level == current)) const Icon(LucideIcons.check, size: 20, color: T.primary),
                   ]),
                 ),
               ),

@@ -7,6 +7,14 @@ const now = 1800000000000;
 
 void main() {
   group('onboarding rules', () {
+    test('purchase requires verified login', () {
+      expect(purchaseNeedsAccount(true, false), isTrue);
+      expect(purchaseNeedsAccount(true, true), isFalse);
+      expect(purchaseNeedsAccount(false, false), isFalse);
+    });
+    test('pending account stays local during sync', () {
+      expect(mergeState({'purchaseAccountPending': true}, {'purchaseAccountPending': false, 'updatedAt': 10})['purchaseAccountPending'], isTrue);
+    });
     test('maps self-reported level to JLPT band', () {
       expect([0, 1, 2, 3, 4].map(levelToJlpt).toList(), ['N5', 'N5', 'N4', 'N3', 'N2']);
     });

@@ -9,6 +9,7 @@ import '../data/models.dart' as m;
 import '../theme/tokens.dart';
 import 'common.dart';
 import 'ui.dart';
+import 'playback_loop.dart';
 
 /// Learner-facing message for a YouTube player error — same copy as playerErrorMessage() in youtube.ts.
 String playerErrorMessage(YoutubeError e) => switch (e) {
@@ -44,7 +45,8 @@ class ClipPlayerState extends State<ClipPlayer> {
   bool _tapped = false;
   String? _error;
   double _time = 0;
-  bool _seeking = false;
+  late PlaybackLoopGuard _loop;
+  bool _startupCorrectionIssued = false;
 
   @override
   void initState() {
@@ -74,6 +76,9 @@ class ClipPlayerState extends State<ClipPlayer> {
     _error = null;
     _ready = false;
     _tapped = false;
+    _time = clip.start;
+    _loop = PlaybackLoopGuard(clip.start);
+    _startupCorrectionIssued = false;
     final c = YoutubePlayerController.fromVideoId(
       videoId: clip.videoId,
       autoPlay: true,
@@ -129,11 +134,13 @@ class ClipPlayerState extends State<ClipPlayer> {
       // is ignored when the viewer/channel has captions on, so unload the module.
       if (st == PlayerState.playing || st == PlayerState.buffering) _hideYouTubeCaptions();
       widget.onPlayingChange(st == PlayerState.playing);
-      if (st == PlayerState.ended) {
-        // YouTube's end hit: wrap like a loop.
-        _c?.seekTo(seconds: widget.clip.start, allowSeekAhead: true);
+      final range = widget.loopRange;
+      final start = range?.$1 ?? widget.clip.start;
+      final end = range?.$2 ?? widget.clip.end;
+      if (st == PlayerState.ended && _loop.shouldLoop(_time, start, end, playing: false, ended: true)) {
+        _seekTo(start);
         _c?.playVideo();
-        widget.onLoop();
+        if (range == null) widget.onLoop();
       }
     }
   }
@@ -154,24 +161,28 @@ class ClipPlayerState extends State<ClipPlayer> {
     final lr = widget.loopRange;
     final end = lr?.$2 ?? c.end;
     final start = lr?.$1 ?? c.start;
-    if (_seeking) return;
-    if (t >= end - 0.05 && _state == PlayerState.playing) {
+    // Some players ignore startSeconds. Correct once after play, never every tick.
+    if (_state == PlayerState.playing && !_startupCorrectionIssued) {
+      _startupCorrectionIssued = true;
+      if (t < c.start - 1.5) {
+        _seekTo(c.start);
+        widget.onTime(c.start);
+        return;
+      }
+    }
+    if (_loop.shouldLoop(t, start, end, playing: _state == PlayerState.playing)) {
       _seekTo(start);
       if (lr == null) widget.onLoop();
       widget.onTime(start);
       return;
     }
-    if (t < c.start - 1.5) _seekTo(c.start);
-    widget.onTime(t);
+    // Startup reports zero/early keyframes; let YouTube settle without seeking again.
+    widget.onTime(t.clamp(c.start, c.end));
   }
 
   Future<void> _seekTo(double t) async {
-    _seeking = true;
-    try {
-      await _c?.seekTo(seconds: t, allowSeekAhead: true);
-    } finally {
-      Timer(const Duration(milliseconds: 250), () => _seeking = false);
-    }
+    _loop.beginSeek(t);
+    await _c?.seekTo(seconds: t, allowSeekAhead: true);
   }
 
   // ---- handle used by ClipView ----

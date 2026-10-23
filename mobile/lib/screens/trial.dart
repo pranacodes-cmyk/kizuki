@@ -30,7 +30,12 @@ class _TrialScreenState extends State<TrialScreen> {
   String plan = 'yearly';
   bool busy = false;
 
+  /// Store-verified purchase: the account step is required even if this screen was
+  /// left while the store sheet was still open (the gate never depends on `mounted`).
+  void _purchased(AppState app) => app.requirePurchaseAccount();
+
   Future<void> _start() async {
+    final app = context.read<AppState>();
     setState(() => busy = true);
     final price = Billing.priceOf(plan);
     Attribution.checkoutStarted(plan: plan, price: price?.$1, currency: price?.$2);
@@ -43,6 +48,7 @@ class _TrialScreenState extends State<TrialScreen> {
       toast('Purchase didn\'t go through', description: 'Nothing was charged. Please try again.', tone: ToastTone.error);
       return;
     }
+    if (r == StoreResult.done) _purchased(app);
     if (!mounted) return;
     if (r == StoreResult.cancelled) return setState(() => busy = false); // closed the store sheet
     if (r == StoreResult.none) {
@@ -50,7 +56,6 @@ class _TrialScreenState extends State<TrialScreen> {
       toast('Purchase is pending', description: 'The store is still confirming it. Premium unlocks as soon as it does.');
       return;
     }
-    final app = context.read<AppState>();
     if (r == StoreResult.unavailable) {
       if (!Billing.simulate && !kDebugMode) {
         setState(() => busy = false);
@@ -58,31 +63,34 @@ class _TrialScreenState extends State<TrialScreen> {
         return;
       }
       await Future<void>.delayed(const Duration(milliseconds: 900)); // test builds: store stand-in
-      if (!mounted) return;
       app.startTrial(plan);
+      _purchased(app);
+      if (!mounted) return;
     }
     setState(() => busy = false);
     final trial = app.premium.trialEndsAt != null;
     toast(trial ? 'Your free week has started' : 'Welcome to Premium', description: 'Everything in Kizuki is unlocked.', icon: '🎉');
     if (trial) unawaited(NotificationService.requestPermission());
-    context.go(app.onboarded ? '/feed' : '/account');
+    context.go('/account?mode=signin');
   }
 
   Future<void> _restore() async {
+    final app = context.read<AppState>();
     setState(() => busy = true);
     final r = await Billing.restore();
+    if (r == StoreResult.done) _purchased(app);
     if (!mounted) return;
     setState(() => busy = false);
     if (r == StoreResult.unavailable) {
       return toast('Couldn\'t reach the store', description: 'Check your connection and try again.', tone: ToastTone.error);
     }
     if (r != StoreResult.done) return toast('No subscription found', description: 'Use the same store account you bought with.');
-    final app = context.read<AppState>();
     toast('Purchase restored', icon: '🎉');
-    context.go(app.onboarded ? '/feed' : '/account');
+    context.go('/account?mode=signin');
   }
 
   void _skip() {
+    if (busy) return;
     final app = context.read<AppState>();
     if (app.onboarded) {
       context.pop();
@@ -92,7 +100,10 @@ class _TrialScreenState extends State<TrialScreen> {
   }
 
   void _back() {
-    if (step > 0) {
+    if (busy) return; // the store sheet is open; leaving now would lose its result
+    if (step == 2 && !Billing.trialEligible) {
+      setState(() => step = 0);
+    } else if (step > 0) {
       setState(() => step--);
     } else {
       context.pop();
@@ -100,35 +111,57 @@ class _TrialScreenState extends State<TrialScreen> {
   }
 
   @override
-  Widget build(BuildContext context) {
-    final Widget body = switch (step) {
-      0 => _StepTry(onNext: () => setState(() => step = 1)),
-      1 => _StepRemind(onNext: () {
-            Attribution.paywallViewed();
-            setState(() => step = 2);
-          }),
-      _ => _StepPlans(plan: plan, setPlan: (p) => setState(() => plan = p), busy: busy, onStart: _start, onSkip: _skip, onRestore: _restore),
-    };
-    return PopScope(
-      canPop: step == 0,
-      onPopInvokedWithResult: (didPop, _) {
-        if (!didPop) _back();
-      },
-      child: Scaffold(
-        body: SafeArea(
-          child: Column(children: [
-            ProgressHeader(progress: (10 + step) / 13, onBack: _back),
-            Expanded(
-              // Dispose the preview immediately. Keeping a live platform video in an
-              // outgoing slide can retain its surface/decoder during the next screen.
-              child: KeyedSubtree(key: ValueKey(step), child: body),
+  Widget build(BuildContext context) => ValueListenableBuilder<int>(
+        // Live store prices / trial eligibility can arrive while this screen is open.
+        valueListenable: Billing.revision,
+        builder: (context, _, _) {
+          final trial = Billing.trialEligible;
+          final Widget body = switch (step) {
+            0 => _StepTry(
+                trial: trial,
+                onNext: () {
+                  if (!trial) Attribution.paywallViewed();
+                  setState(() => step = trial ? 1 : 2);
+                }),
+            1 => _StepRemind(onNext: () {
+                Attribution.paywallViewed();
+                setState(() => step = 2);
+              }),
+            _ => _StepPlans(plan: plan, setPlan: (p) => setState(() => plan = p), busy: busy, onStart: _start, onSkip: _skip, onRestore: _restore),
+          };
+          return PopScope(
+            canPop: step == 0 && !busy,
+            onPopInvokedWithResult: (didPop, _) {
+              if (!didPop) _back();
+            },
+            child: Scaffold(
+              body: SafeArea(
+                child: Column(children: [
+                  ProgressHeader(progress: (9 + step) / 12, onBack: _back),
+                  Expanded(
+                    // Dispose the preview immediately. Keeping a live platform video in an
+                    // outgoing slide can retain its surface/decoder during the next screen.
+                    child: KeyedSubtree(key: ValueKey(step), child: body),
+                  ),
+                ]),
+              ),
             ),
-          ]),
+          );
+        },
+      );
+}
+
+/// Scrolling step content above a pinned footer: the main button, price and legal links
+/// stay on screen on small phones and with large system text.
+Widget _pinned({required List<Widget> body, required List<Widget> footer, CrossAxisAlignment align = CrossAxisAlignment.center}) => Column(children: [
+      Expanded(
+        child: FadedScroll(
+          padding: const EdgeInsets.fromLTRB(24, 0, 24, 16),
+          child: SizedBox(width: double.infinity, child: Column(crossAxisAlignment: align, children: body)),
         ),
       ),
-    );
-  }
-}
+      Padding(padding: const EdgeInsets.fromLTRB(24, 8, 24, 8), child: Column(mainAxisSize: MainAxisSize.min, children: footer)),
+    ]);
 
 Widget _noPayment([String text = 'No payment due now']) => Row(mainAxisAlignment: MainAxisAlignment.center, children: [
       const Icon(LucideIcons.check, size: 20, color: T.success),
@@ -137,15 +170,19 @@ Widget _noPayment([String text = 'No payment due now']) => Row(mainAxisAlignment
     ]);
 
 class _StepTry extends StatelessWidget {
+  /// False for store accounts that already used the free week: no free-trial promises.
+  final bool trial;
   final VoidCallback onNext;
-  const _StepTry({required this.onNext});
+  const _StepTry({required this.trial, required this.onNext});
   @override
   Widget build(BuildContext context) => Padding(
         padding: const EdgeInsets.symmetric(horizontal: 24),
         child: Column(children: [
           const SizedBox(height: 16),
           Text.rich(
-            TextSpan(children: [const TextSpan(text: 'Try Kizuki '), TextSpan(text: 'free', style: txt(26, w: FontWeight.w900, c: T.primary)), const TextSpan(text: ' for 7 days')]),
+            trial
+                ? TextSpan(children: [const TextSpan(text: 'Try Kizuki '), TextSpan(text: 'free', style: txt(26, w: FontWeight.w900, c: T.primary)), const TextSpan(text: ' for 7 days')])
+                : TextSpan(children: [const TextSpan(text: 'Learn with Kizuki '), TextSpan(text: 'Premium', style: txt(26, w: FontWeight.w900, c: T.primary))]),
             textAlign: TextAlign.center,
             style: txt(26, w: FontWeight.w900, h: 1.2),
           ),
@@ -168,11 +205,11 @@ class _StepTry extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 24),
-          _noPayment(),
+          _noPayment(trial ? 'No payment due now' : 'Cancel anytime'),
           const SizedBox(height: 12),
-          Button3D(label: r'Try for $0.00', onPressed: onNext),
+          Button3D(label: trial ? r'Try for $0.00' : 'See plans', onPressed: onNext),
           const SizedBox(height: 12),
-          Text(priceLine(plans['yearly']!), textAlign: TextAlign.center, style: txt(13, w: FontWeight.w400, c: T.muted)),
+          Text(priceLine(plans['yearly']!, trial: trial), textAlign: TextAlign.center, style: txt(13, w: FontWeight.w400, c: T.muted)),
           const SizedBox(height: 8),
         ]),
       );
@@ -187,16 +224,18 @@ class _StepRemind extends StatefulWidget {
 
 class _StepRemindState extends State<_StepRemind> with SingleTickerProviderStateMixin {
   late final AnimationController _ring = AnimationController(vsync: this, duration: const Duration(milliseconds: 1100));
+  Timer? _delay;
   @override
   void initState() {
     super.initState();
-    Timer(const Duration(milliseconds: 300), () {
+    _delay = Timer(const Duration(milliseconds: 300), () {
       if (mounted) _ring.forward();
     });
   }
 
   @override
   void dispose() {
+    _delay?.cancel();
     _ring.dispose();
     super.dispose();
   }
@@ -204,21 +243,20 @@ class _StepRemindState extends State<_StepRemind> with SingleTickerProviderState
   @override
   Widget build(BuildContext context) {
     const icons = [LucideIcons.lock, LucideIcons.bell, LucideIcons.crown];
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 24),
-      child: Column(children: [
+    return _pinned(
+      body: [
         const SizedBox(height: 16),
         Text("We'll remind you before your trial ends", textAlign: TextAlign.center, style: txt(26, w: FontWeight.w900, h: 1.2)),
-        const SizedBox(height: 32),
+        const SizedBox(height: 28),
         AnimatedBuilder(
           animation: _ring,
           builder: (_, child) {
-            final v = _ring.value;
-            final angle = v == 0 || v == 1 ? 0.0 : math.sin(v * math.pi * 5) * (1 - v) * 0.21;
+            final v = MediaQuery.disableAnimationsOf(context) ? 1.0 : _ring.value;
+            final angle = v == 0 || v == 1 ? 0.0 : math.sin(v * math.pi * 5) * (1 - v) * 0.09;
             return Transform.rotate(angle: angle, child: child);
           },
           child: Stack(clipBehavior: Clip.none, children: [
-            const Icon(LucideIcons.bell, size: 96, color: T.gold),
+            const Icon(LucideIcons.bell, size: 88, color: T.gold),
             Positioned(
               right: -4,
               top: 4,
@@ -226,7 +264,7 @@ class _StepRemindState extends State<_StepRemind> with SingleTickerProviderState
             ),
           ]),
         ),
-        const SizedBox(height: 40),
+        const SizedBox(height: 32),
         for (var i = 0; i < trialTimeline.length; i++)
           IntrinsicHeight(
             child: Row(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
@@ -242,7 +280,7 @@ class _StepRemindState extends State<_StepRemind> with SingleTickerProviderState
               const SizedBox(width: 16),
               Expanded(
                 child: Padding(
-                  padding: const EdgeInsets.only(bottom: 24),
+                  padding: EdgeInsets.only(bottom: i < trialTimeline.length - 1 ? 24 : 0),
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                     Text(trialTimeline[i].$1, style: txt(16, w: FontWeight.w800)),
                     Text(trialTimeline[i].$2, style: txt(14, w: FontWeight.w400, c: T.muted)),
@@ -251,12 +289,12 @@ class _StepRemindState extends State<_StepRemind> with SingleTickerProviderState
               ),
             ]),
           ),
-        const Spacer(),
+      ],
+      footer: [
         _noPayment(),
         const SizedBox(height: 12),
         Button3D(label: 'Continue for free', onPressed: widget.onNext),
-        const SizedBox(height: 8),
-      ]),
+      ],
     );
   }
 }
@@ -269,62 +307,63 @@ class _StepPlans extends StatelessWidget {
   const _StepPlans({required this.plan, required this.setPlan, required this.busy, required this.onStart, required this.onSkip, required this.onRestore});
   static const perks = ['Unlimited clips, every level', 'Tap any word for an explanation in context', 'Unlimited questions to Kizuki, your AI tutor', 'Smart reviews with the original audio', 'Hiragana & katakana trainer', 'Streaks, goals and progress stats'];
   @override
-  Widget build(BuildContext context) => LayoutBuilder(
-        builder: (context, c) => SingleChildScrollView(
-          padding: const EdgeInsets.symmetric(horizontal: 24),
-          child: ConstrainedBox(
-            constraints: BoxConstraints(minHeight: c.maxHeight),
-            child: IntrinsicHeight(
-              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                const SizedBox(height: 8),
-                Row(children: [
-                  const Mascot(MascotPose.heart, size: 64),
-                  const SizedBox(width: 12),
-                  Expanded(
-                    child: Text.rich(
-                      TextSpan(children: [const TextSpan(text: 'Unlock everything in '), TextSpan(text: 'Kizuki', style: txt(24, w: FontWeight.w900, c: T.primary))]),
-                      style: txt(24, w: FontWeight.w900, h: 1.2),
-                    ),
-                  ),
-                ]),
-                const SizedBox(height: 16),
-                for (final p in perks)
-                  Padding(
-                    padding: const EdgeInsets.only(bottom: 8),
-                    child: Row(children: [const Icon(LucideIcons.sparkles, size: 16, color: T.gold), const SizedBox(width: 10), Expanded(child: Text(p, style: txt(15, w: FontWeight.w700)))]),
-                  ),
-                const SizedBox(height: 12),
-                for (final id in ['yearly', 'monthly'])
-                  Padding(padding: const EdgeInsets.only(top: 12), child: _PlanCard(p: plans[id]!, active: plan == id, onTap: () => setPlan(id))),
-                const Spacer(),
-                const SizedBox(height: 20),
-                _noPayment(plan == 'yearly' && Billing.trialEligible ? '7 days free · Cancel anytime' : 'No commitment · Cancel anytime'),
-                const SizedBox(height: 8),
-                Button3D(label: busy ? 'Starting…' : (plan == 'yearly' && Billing.trialEligible ? 'Start my free week' : 'Start learning today'), onPressed: busy ? null : onStart),
-                const SizedBox(height: 8),
-                Center(child: Text('${priceLine(plans[plan]!, trial: Billing.trialEligible)}. Renews automatically, cancel anytime in your store settings.', textAlign: TextAlign.center, style: txt(12, w: FontWeight.w400, c: T.faint))),
-                // Wrap, not Row: with large system text sizes these lines must flow, never overflow.
-                SizedBox(
-                  width: double.infinity,
-                  child: Wrap(alignment: WrapAlignment.center, spacing: 8, children: [
-                    TextButton(onPressed: busy ? null : onRestore, child: Text('Restore purchase', style: txt(13, w: FontWeight.w700, c: T.muted))),
-                    TextButton(onPressed: onSkip, child: Text('Not now', style: txt(13, w: FontWeight.w700, c: T.muted))),
-                  ]),
-                ),
-                // Store rules: subscription screens link the Terms of Use and Privacy Policy.
-                SizedBox(
-                  width: double.infinity,
-                  child: Wrap(alignment: WrapAlignment.center, crossAxisAlignment: WrapCrossAlignment.center, children: [
-                    GestureDetector(onTap: () => context.push('/terms'), child: Text('Terms of Use', style: txt(12, w: FontWeight.w400, c: T.faint).copyWith(decoration: TextDecoration.underline, decorationColor: T.faint))),
-                    Text('  ·  ', style: txt(12, w: FontWeight.w400, c: T.faint)),
-                    GestureDetector(onTap: () => context.push('/privacy'), child: Text('Privacy Policy', style: txt(12, w: FontWeight.w400, c: T.faint).copyWith(decoration: TextDecoration.underline, decorationColor: T.faint))),
-                  ]),
-                ),
-              ]),
+  Widget build(BuildContext context) {
+    final trial = plan == 'yearly' && Billing.trialEligible;
+    final link = txt(12, w: FontWeight.w400, c: T.faint).copyWith(decoration: TextDecoration.underline, decorationColor: T.faint);
+    final small = TextButton.styleFrom(minimumSize: const Size(44, 40), padding: const EdgeInsets.symmetric(horizontal: 10), tapTargetSize: MaterialTapTargetSize.shrinkWrap);
+    return _pinned(
+      align: CrossAxisAlignment.start,
+      body: [
+        const SizedBox(height: 8),
+        Row(children: [
+          const Mascot(MascotPose.heart, size: 64),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Text.rich(
+              TextSpan(children: [const TextSpan(text: 'Unlock everything in '), TextSpan(text: 'Kizuki', style: txt(24, w: FontWeight.w900, c: T.primary))]),
+              style: txt(24, w: FontWeight.w900, h: 1.2),
             ),
           ),
+        ]),
+        // Plans come first so the price is always visible on small phones; perks scroll below.
+        const SizedBox(height: 6),
+        for (final id in ['yearly', 'monthly'])
+          Padding(padding: const EdgeInsets.only(top: 14), child: _PlanCard(p: plans[id]!, active: plan == id, onTap: () => setPlan(id))),
+        const SizedBox(height: 20),
+        caps('Everything in Premium'),
+        const SizedBox(height: 10),
+        for (final p in perks)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 8),
+            child: Row(children: [const Icon(LucideIcons.sparkles, size: 16, color: T.gold), const SizedBox(width: 10), Expanded(child: Text(p, style: txt(15, w: FontWeight.w700)))]),
+          ),
+      ],
+      footer: [
+        _noPayment(trial ? '7 days free · Cancel anytime' : 'No commitment · Cancel anytime'),
+        const SizedBox(height: 8),
+        Button3D(label: busy ? 'Starting…' : (trial ? 'Start my free week' : 'Start learning today'), onPressed: busy ? null : onStart),
+        const SizedBox(height: 8),
+        Text('${priceLine(plans[plan]!, trial: Billing.trialEligible)}. Renews automatically, cancel anytime in your store settings.', textAlign: TextAlign.center, style: txt(12, w: FontWeight.w400, c: T.faint)),
+        // Wrap, not Row: with large system text sizes these lines must flow, never overflow.
+        SizedBox(
+          width: double.infinity,
+          child: Wrap(alignment: WrapAlignment.center, spacing: 8, children: [
+            TextButton(style: small, onPressed: busy ? null : onRestore, child: Text('Restore purchase', style: txt(13, w: FontWeight.w700, c: T.muted))),
+            TextButton(style: small, onPressed: busy ? null : onSkip, child: Text('Not now', style: txt(13, w: FontWeight.w700, c: T.muted))),
+          ]),
         ),
-      );
+        // Store rules: subscription screens link the Terms of Use and Privacy Policy.
+        SizedBox(
+          width: double.infinity,
+          child: Wrap(alignment: WrapAlignment.center, crossAxisAlignment: WrapCrossAlignment.center, children: [
+            GestureDetector(onTap: () => context.push('/terms'), child: Text('Terms of Use', style: link)),
+            Text('  ·  ', style: txt(12, w: FontWeight.w400, c: T.faint)),
+            GestureDetector(onTap: () => context.push('/privacy'), child: Text('Privacy Policy', style: link)),
+          ]),
+        ),
+      ],
+    );
+  }
 }
 
 class _PlanCard extends StatelessWidget {

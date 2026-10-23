@@ -32,6 +32,30 @@ export type Database = {
         }
         Relationships: []
       }
+      profiles: {
+        Row: {
+          avatar_url: string | null
+          display_name: string
+          id: string
+          preferences: Json
+          updated_at: string
+        }
+        Insert: {
+          avatar_url?: string | null
+          display_name?: string
+          id: string
+          preferences?: Json
+          updated_at?: string
+        }
+        Update: {
+          avatar_url?: string | null
+          display_name?: string
+          id?: string
+          preferences?: Json
+          updated_at?: string
+        }
+        Relationships: []
+      }
       support_messages: {
         Row: {
           app_version: string | null

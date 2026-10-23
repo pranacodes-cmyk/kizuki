@@ -23,7 +23,7 @@ class BuildingScreen extends StatefulWidget {
 class _BuildingScreenState extends State<BuildingScreen> with TickerProviderStateMixin {
   static const _duration = 6500;
   late final Ticker _ticker;
-  late final AnimationController _bounce = AnimationController(vsync: this, duration: const Duration(milliseconds: 700))..repeat(reverse: true);
+  late final AnimationController _bounce = AnimationController(vsync: this, duration: const Duration(milliseconds: 1600))..repeat(reverse: true);
   int pct = 0;
   int review = 0;
   Timer? _reviewTimer;
@@ -83,7 +83,7 @@ class _BuildingScreenState extends State<BuildingScreen> with TickerProviderStat
                     ),
                     AnimatedBuilder(
                       animation: _bounce,
-                      builder: (_, child) => Transform.translate(offset: Offset(0, -8 * Curves.easeInOut.transform(_bounce.value)), child: child),
+                      builder: (_, child) => Transform.translate(offset: Offset(0, MediaQuery.disableAnimationsOf(context) ? 0 : -3 * Curves.easeInOut.transform(_bounce.value)), child: child),
                       child: const Mascot(MascotPose.listen, size: 140),
                     ),
                   ]),
@@ -93,7 +93,7 @@ class _BuildingScreenState extends State<BuildingScreen> with TickerProviderStat
                 const SizedBox(height: 8),
                 Text('Building your personal plan', textAlign: TextAlign.center, style: txt(26, w: FontWeight.w900, h: 1.2)),
                 const SizedBox(height: 8),
-                SizedBox(height: 24, child: Text(step, style: txt(15, c: T.muted))),
+                SizedBox(height: 44, child: Text(step, textAlign: TextAlign.center, style: txt(15, c: T.muted))),
               ]),
             ),
             SizedBox(

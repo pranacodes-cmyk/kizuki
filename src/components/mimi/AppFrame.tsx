@@ -46,14 +46,7 @@ export function AppFrame({ children }: { children: ReactNode }) {
   );
 }
 
-function StageBackdrop() {
-  return (
-    <div aria-hidden className="pointer-events-none absolute inset-0 hidden sm:block">
-      <div className="absolute -left-40 -top-40 h-[520px] w-[520px] rounded-full bg-primary/10 blur-3xl" />
-      <div className="absolute -bottom-48 -right-32 h-[560px] w-[560px] rounded-full bg-primary-deep/10 blur-3xl" />
-    </div>
-  );
-}
+function StageBackdrop() { return null; }
 
 function StageCaption() {
   return (

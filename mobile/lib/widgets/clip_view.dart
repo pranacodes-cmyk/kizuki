@@ -356,7 +356,7 @@ class _ClipViewState extends State<ClipView> {
                         padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
                         decoration: BoxDecoration(color: T.surface2, borderRadius: BorderRadius.circular(6)),
                         child: Text(
-                          clip.level,
+                          'JLPT ${clip.level}',
                           style: txt(11, w: FontWeight.w900, c: T.muted),
                         ),
                       ),

@@ -35,7 +35,7 @@ class ClipCard extends StatelessWidget {
           Stack(children: [
             ClipThumb(clip.thumb),
             Positioned(right: 6, bottom: 6, child: badge('0:${dur.toString().padLeft(2, '0')}')),
-            Positioned(left: 6, top: 6, child: badge(clip.level)),
+            Positioned(left: 6, top: 6, child: badge('JLPT ${clip.level}')),
             if (seen)
               Positioned(
                 right: 6,

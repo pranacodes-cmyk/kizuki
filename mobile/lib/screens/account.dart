@@ -43,27 +43,56 @@ class _AccountScreenState extends State<AccountScreen> {
   String? error;
   String? sent; // confirm | reset
 
-  bool get fromWelcome => widget.signInMode && !context.read<AppState>().onboarded;
+  bool get requiredAccount => context.read<AppState>().purchaseAccountPending;
+  bool get fromWelcome => widget.signInMode && !requiredAccount && !context.read<AppState>().onboarded;
+
+  @override
+  void initState() {
+    super.initState();
+    // Already signed in when a purchase/restore lands here (mirrors account.tsx): the
+    // verified account completes the purchase step without asking to sign in again.
+    SyncService.I.addListener(_autoFinish);
+    WidgetsBinding.instance.addPostFrameCallback((_) => _autoFinish());
+  }
 
   @override
   void dispose() {
+    SyncService.I.removeListener(_autoFinish);
     _email.dispose();
     _password.dispose();
     super.dispose();
   }
 
+  void _autoFinish() {
+    if (!mounted || !requiredAccount || SyncService.I.session == null) return;
+    _finish();
+  }
+
+  bool _finishing = false;
+
   Future<void> _finish() async {
-    final app = context.read<AppState>();
-    final welcome = fromWelcome;
-    await SyncService.I.syncNow();
-    if (!mounted) return;
-    if (welcome && !app.onboarded) {
-      // Signed in on a fresh device without cloud progress → still needs a plan.
-      context.go('/onboarding');
-      return;
+    if (_finishing) return;
+    _finishing = true;
+    try {
+      final app = context.read<AppState>();
+      final welcome = fromWelcome;
+      final user = (await Supabase.instance.client.auth.getUser()).user;
+      if (user == null || !mounted) return;
+      await SyncService.I.syncNow();
+      if (!mounted) return;
+      if (welcome && !app.onboarded) {
+        // Signed in on a fresh device without cloud progress → still needs a plan.
+        context.go('/onboarding');
+        return;
+      }
+      app.confirmPurchaseAccount();
+      if (!app.onboarded) app.completeOnboarding();
+      context.go('/feed');
+    } catch (e) {
+      if (mounted) setState(() => error = friendlyAuthError(e));
+    } finally {
+      _finishing = false;
     }
-    if (!app.onboarded) app.completeOnboarding();
-    context.go('/feed');
   }
 
   String? _validate() {
@@ -107,7 +136,7 @@ class _AccountScreenState extends State<AccountScreen> {
         await auth.signInWithPassword(email: _email.text.trim(), password: _password.text);
         toast('Welcome back!', icon: '👋');
       }
-      SyncService.I.session = auth.currentSession;
+      SyncService.I.setSession(auth.currentSession);
       if (!mounted) return;
       await _finish();
     } catch (e) {
@@ -136,6 +165,7 @@ class _AccountScreenState extends State<AccountScreen> {
   }
 
   void _later() {
+    if (requiredAccount) return;
     if (fromWelcome) {
       context.go('/');
       return;
@@ -172,9 +202,7 @@ class _AccountScreenState extends State<AccountScreen> {
                   ),
                 ]),
               ),
-              sent == 'confirm'
-                  ? Button3D(label: 'Continue to Kizuki', onPressed: _later)
-                  : Button3D(label: 'Back to sign in', onPressed: () => setState(() {
+              Button3D(label: 'Back to sign in', onPressed: () => setState(() {
                         sent = null;
                         mode = 'signin';
                       })),
@@ -189,7 +217,7 @@ class _AccountScreenState extends State<AccountScreen> {
       body: SafeArea(
         child: AutofillGroup(
           child: CustomScrollView(slivers: [
-            SliverToBoxAdapter(child: TopBar(onBack: () => context.canPop() ? context.pop() : context.go('/'))),
+            if (!requiredAccount) SliverToBoxAdapter(child: TopBar(onBack: () => context.canPop() ? context.pop() : context.go('/'))),
             SliverToBoxAdapter(
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 24),
@@ -245,7 +273,7 @@ class _AccountScreenState extends State<AccountScreen> {
                     style: txt(15, w: FontWeight.w700, c: T.muted),
                   ),
                 ),
-                TextButton(onPressed: _later, child: Text(fromWelcome ? 'Back' : 'Maybe later', style: txt(14, w: FontWeight.w700, c: T.faint))),
+                if (!requiredAccount) TextButton(onPressed: _later, child: Text(fromWelcome ? 'Back' : 'Maybe later', style: txt(14, w: FontWeight.w700, c: T.faint))),
                 const SizedBox(height: 8),
               ]),
             ),

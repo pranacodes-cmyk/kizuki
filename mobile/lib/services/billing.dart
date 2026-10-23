@@ -33,6 +33,10 @@ class Billing {
   /// subscribers who already used it). Unknown → true, the store has the final say.
   static bool trialEligible = true;
 
+  /// Bumped when live prices or trial eligibility arrive, so an open paywall redraws
+  /// with the store's local prices instead of keeping the fallback ones.
+  static final ValueNotifier<int> revision = ValueNotifier(0);
+
   /// Where the learner manages or cancels (App Store / Play subscriptions page).
   static String? managementUrl;
 
@@ -105,6 +109,7 @@ class Billing {
       next['monthly'] = Plan('monthly', 'Monthly', 'Billed monthly', mp.priceString, mp.priceString, 'month');
     }
     plans = next;
+    revision.value++;
   }
 
   static Future<void> _checkTrial(StoreProduct yp) async {

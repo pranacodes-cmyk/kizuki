@@ -1,5 +1,5 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
-import { AnimatePresence, motion } from "motion/react";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { Star } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -29,6 +29,7 @@ const RING_C = 2 * Math.PI * RING_R;
 
 function Building() {
   const navigate = useNavigate();
+  const reducedMotion = useReducedMotion();
   const jlpt = useApp((s) => s.profile.jlpt);
   const minutes = useApp((s) => s.profile.dailyMinutes);
   useContent(); // warm the library while the plan "builds"
@@ -50,7 +51,8 @@ function Building() {
     return () => { cancelAnimationFrame(raf); clearInterval(r); };
   }, [navigate]);
 
-  const r = reviews[review] ?? reviews[0]!;
+  const r = reviews[review] ?? reviews[0];
+  if (!r) return null;
   const step = steps[Math.min(steps.length - 1, Math.floor((pct / 100) * steps.length))];
 
   return (
@@ -63,14 +65,14 @@ function Building() {
             <circle cx="116" cy="116" r={RING_R} fill="none" strokeWidth="14" strokeLinecap="round" className="stroke-primary transition-[stroke-dashoffset] duration-100" strokeDasharray={RING_C} strokeDashoffset={RING_C * (1 - pct / 100)} style={{ opacity: pct > 0 ? 1 : 0 }} />
           </svg>
           <div className="absolute inset-0 flex items-center justify-center">
-            <motion.div animate={{ y: [0, -8, 0] }} transition={{ repeat: Infinity, duration: 1.4, ease: "easeInOut" }}>
+            <motion.div animate={{ y: reducedMotion ? 0 : [0, -3, 0] }} transition={{ repeat: Infinity, duration: 3.2, ease: "easeInOut" }}>
               <Mascot pose="listen" className="h-[140px] w-[140px]" />
             </motion.div>
           </div>
         </div>
         <p className="tabular mt-3 text-[2.125rem] font-black leading-none text-primary" role="progressbar" aria-valuenow={pct} aria-valuemin={0} aria-valuemax={100} aria-label="Plan progress">{pct}%</p>
         <h1 className="mt-2 text-[1.625rem] font-black leading-tight">Building your personal plan</h1>
-        <p className="mt-2 h-6 text-[0.9375rem] font-bold text-muted-foreground">{step}</p>
+        <p className="mt-2 min-h-11 text-[0.9375rem] font-bold text-muted-foreground">{step}</p>
       </div>
       <div className="relative mb-4 h-[132px]">
         <AnimatePresence mode="wait">

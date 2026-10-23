@@ -24,7 +24,7 @@ export const SUPPORT_FAQ: { q: string; a: string }[] = [
   },
   {
     q: "How do I delete my account?",
-    a: "Profile → Settings → Delete account. This permanently removes your account and cloud progress.",
+    a: "Profile → Settings → Delete account. This permanently removes your account and cloud progress. No longer have the app? Send us a message below with the topic Account, from the email you signed up with, and we will delete your account and data within 30 days.",
   },
   {
     q: "Where do the videos come from?",

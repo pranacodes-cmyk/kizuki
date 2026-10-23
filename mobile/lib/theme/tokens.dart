@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 /// Design tokens — mirrored 1:1 from src/styles.css (:root). Components use these only.
 class T {
-  static const background = Color(0xFF16171B);
-  static const surface = Color(0xFF212228);
-  static const surface2 = Color(0xFF2B2C33);
-  static const surface3 = Color(0xFF35363E);
-  static const border = Color(0xFF383942);
-  static const foreground = Color(0xFFF5F2ED);
-  static const muted = Color(0xFF9D9CA4);
-  static const faint = Color(0xFF6E6D75);
+  static const background = Color(0xFF000000);
+  static const surface = Color(0xFF0D0D0D);
+  static const surface2 = Color(0xFF141414);
+  static const surface3 = Color(0xFF1F1F1F);
+  static const border = Color(0xFF303030);
+  static const foreground = Color(0xFFEDEDED);
+  static const muted = Color(0xFFA3A3A3);
+  static const faint = Color(0xFF737373);
   static const primary = Color(0xFFFF8A3D);
   static const primaryDeep = Color(0xFFC8601C);
   static const primaryDim = Color(0xFF4A3122);
@@ -27,7 +27,7 @@ class T {
   static const level3 = Color(0xFFBE7648);
   static const level4 = Color(0xFF93623F);
   static const known = Color(0xFF4CD07D);
-  static const stage = Color(0xFF0E0F12);
+  static const stage = Color(0xFF000000);
 
   static const rSm = 8.0;
   static const rMd = 12.0;

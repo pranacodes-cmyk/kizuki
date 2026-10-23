@@ -33,6 +33,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.5"
+  app_tracking_transparency:
+    dependency: "direct main"
+    description:
+      name: app_tracking_transparency
+      sha256: "3a52669c0645ffd7efe9a460047616de3e3f2128338f9ec7cdb681628d36238e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.7"
   args:
     dependency: transitive
     description:
@@ -157,10 +165,18 @@ packages:
     dependency: transitive
     description:
       name: equatable
-      sha256: ea36e500cbf0ec18361deabca755434f73e42fe53c5130021c7e2d6b5ebe1702
+      sha256: "3bce007a596ff8b3119c45d68aaef631272537c03d30e5d4534dd24bf4c5eaa2"
       url: "https://pub.dev"
     source: hosted
-    version: "3.0.0"
+    version: "2.1.0"
+  facebook_app_events:
+    dependency: "direct main"
+    description:
+      name: facebook_app_events
+      sha256: "212a389584b0065754f48e8758de3c982b87e9c2eba66d80e2be772606e8b13c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.31.0"
   fake_async:
     dependency: transitive
     description:
@@ -652,6 +668,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.2.1"
+  purchases_flutter:
+    dependency: "direct main"
+    description:
+      name: purchases_flutter
+      sha256: "0c4384bc3b24a5f0b131eb40d48fe866d8a59548000d4a937b691dbfb2900324"
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.16.2"
   realtime_client:
     dependency: transitive
     description:

@@ -1,6 +1,6 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { AnimatePresence, motion, useMotionValue, useTransform } from "motion/react";
-import { Check, ChevronRight, Pointer, Star, Volume2, X } from "lucide-react";
+import { Check, ChevronRight, Play, Pointer, Star, Volume2, X } from "lucide-react";
 import { useMemo, useRef, useState } from "react";
 import { z } from "zod";
 
@@ -9,10 +9,11 @@ import { ContextPlayer } from "@/components/mimi/ContextPlayer";
 import { Mascot } from "@/components/mimi/Mascot";
 import { HighlightedLine } from "@/components/mimi/SavedWordSheet";
 import { POS_NAMES } from "@/components/mimi/WordCard";
-import { Button, Modal, Screen } from "@/components/mimi/ui";
+import { Button, Modal, Screen, Sheet } from "@/components/mimi/ui";
 import type { Content } from "@/lib/content";
 import { useContent } from "@/lib/feed";
 import { customStudyKeys, kanaDeck, kanaQueue, newCard, nextIntervalLabel, repeatsSense, ReviewSession, type Card, type Grade } from "@/lib/logic";
+import { watchUrl } from "@/lib/youtube";
 import { speak } from "@/lib/speech";
 import { dueKeysOf, useApp, wordLites, type SavedWord } from "@/lib/store";
 import { toast } from "@/lib/ui-store";
@@ -164,14 +165,14 @@ function Review() {
         {revealed && card && (
           <motion.div key="grade" initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} transition={{ duration: 0.22, ease: "easeOut" }} className="shrink-0 overflow-hidden">
             <div className="px-4 pb-2">
-              {firstTime && <p className="mb-2 text-center text-[0.8125rem] font-bold text-faint">Knew it? Swipe right. Forgot? Swipe left.</p>}
+              {firstTime && <p className="mb-2 text-center text-[0.8125rem] font-bold text-faint">How did you do?</p>}
               <div data-tour="grade" className="grid grid-cols-2 gap-3">
-                <button aria-label={`Again, next in ${nextIntervalLabel(card, "again", Date.now())}`} onClick={() => answer("again")} className="press flex h-16 flex-col items-center justify-center rounded-2xl bg-danger-soft text-danger">
-                  <span className="text-[1.0625rem] font-black">Again</span><span className="text-[0.75rem] font-bold opacity-80">{nextIntervalLabel(card, "again", Date.now())}</span>
-                </button>
-                <button aria-label={`Good, next in ${nextIntervalLabel(card, "good", Date.now())}`} onClick={() => answer("good")} className="press flex h-16 flex-col items-center justify-center rounded-2xl bg-success-soft text-success">
-                  <span className="text-[1.0625rem] font-black">Good</span><span className="text-[0.75rem] font-bold opacity-80">{nextIntervalLabel(card, "good", Date.now())}</span>
-                </button>
+                <Button variant="ghost" aria-label={`Forgot, next in ${nextIntervalLabel(card, "again", Date.now())}`} onClick={() => answer("again")} className="h-16 flex-col !gap-0 !px-1 items-center justify-center rounded-2xl bg-danger-soft text-danger">
+                  <span className="text-[1.0625rem] font-black">Forgot</span><span className="text-[0.75rem] font-bold opacity-80">{nextIntervalLabel(card, "again", Date.now())}</span>
+                </Button>
+                <Button variant="ghost" aria-label={`Remembered, next in ${nextIntervalLabel(card, "good", Date.now())}`} onClick={() => answer("good")} className="h-16 flex-col !gap-0 !px-1 items-center justify-center rounded-2xl bg-success-soft text-success">
+                  <span className="text-[1.0625rem] font-black">Remembered</span><span className="text-[0.75rem] font-bold opacity-80">{nextIntervalLabel(card, "good", Date.now())}</span>
+                </Button>
               </div>
             </div>
           </motion.div>
@@ -184,11 +185,12 @@ function Review() {
 /** Answer side of a word card: word + reading/romaji/POS, numbered definition (the clip meaning
  * only when it adds something), then the original clip with the sentence highlighted. */
 function WordBack({ word, content, playerKey }: { word: SavedWord; content: Content | undefined; playerKey: string }) {
+  const [watching, setWatching] = useState(false);
   const clip = content?.byId[word.clipId];
   const entry = word.dictId ? content?.dict[word.dictId] : undefined;
   const senses = entry ? entry.m.slice(0, 3) : [];
   const pos = senses[0]?.pos[0] ?? (word.pos === "other" ? undefined : POS_NAMES[word.pos] ?? word.pos);
-  const showClipMeaning = senses.length === 0 ? !!word.gloss : !repeatsSense(word.gloss, senses[0]!.g);
+  const showClipMeaning = senses.length === 0 ? !!word.gloss : !repeatsSense(word.gloss, senses[0]?.g ?? "");
   return (
     <div className="h-full overflow-y-auto no-scrollbar">
       <div className="flex items-start gap-3">
@@ -219,17 +221,19 @@ function WordBack({ word, content, playerKey }: { word: SavedWord; content: Cont
 
       {clip && (
         <>
-          <p className="mt-3 text-[0.6875rem] font-black uppercase tracking-[0.12em] text-muted-foreground">Context</p>
-          <div className="mt-2 overflow-hidden rounded-[18px] bg-surface-2" onClick={(e) => e.stopPropagation()}>
-            <ContextPlayer key={playerKey} clip={clip} line={word.line} autoplay />
-            <div className="px-3 pb-1 pt-2.5">
-              <HighlightedLine clip={clip} line={word.line} idx={word.idx} className="text-[1.0625rem]" />
-              <p className="mt-0.5 text-[0.875rem] text-muted-foreground">{clip.lines[word.line]?.en}</p>
+          <p className="mt-5 text-[0.6875rem] font-black uppercase text-muted-foreground">Example sentence</p>
+          <HighlightedLine clip={clip} line={word.line} idx={word.idx} className="mt-2 text-[1.25rem]" />
+          <p className="mt-1.5 text-[0.9375rem] leading-relaxed text-muted-foreground">{clip.lines[word.line]?.en}</p>
+          <Button variant="surface" size="md" className="mt-4 w-full" onClick={() => setWatching(true)}><Play className="h-4 w-4" />Watch original</Button>
+          <Sheet open={watching} onClose={() => setWatching(false)}>
+            <div className="overflow-y-auto px-4 pb-5 pt-2">
+              <h2 className="mb-3 text-[1.125rem] font-black">{clip.title}</h2>
+              {watching && <ContextPlayer key={playerKey} clip={clip} line={word.line} autoplay />}
+              <a href={watchUrl(clip.videoId, clip.start)} target="_blank" rel="noreferrer" className="mt-2 block text-sm text-muted-foreground">{content?.videos[clip.videoId]?.channel ?? "YouTube"} · Watch on YouTube</a>
+              <HighlightedLine clip={clip} line={word.line} idx={word.idx} className="mt-3 text-[1.0625rem]" />
+              <Link to="/clip/$clipId" params={{ clipId: clip.id }} className="press mt-3 flex items-center text-[0.875rem] font-extrabold text-muted-foreground"><span className="flex-1">Open the clip</span><ChevronRight className="h-4 w-4" /></Link>
             </div>
-            <Link to="/clip/$clipId" params={{ clipId: clip.id }} className="press flex items-center px-3 pb-2.5 pt-1.5 text-[0.875rem] font-extrabold text-muted-foreground">
-              <span className="flex-1">Open the clip</span><ChevronRight className="h-[18px] w-[18px]" />
-            </Link>
-          </div>
+          </Sheet>
         </>
       )}
     </div>
@@ -273,8 +277,8 @@ function SwipeCard({ children, revealed, onReveal, onSwipe }: { children: React.
           {children}
         </motion.div>
       </AnimatePresence>
-      <motion.span style={{ opacity: good }} className="pointer-events-none absolute right-4 top-4 rounded-lg border-2 border-success bg-surface px-2 py-0.5 text-[0.875rem] font-black text-success">GOOD</motion.span>
-      <motion.span style={{ opacity: again }} className="pointer-events-none absolute left-4 top-4 rounded-lg border-2 border-danger bg-surface px-2 py-0.5 text-[0.875rem] font-black text-danger">AGAIN</motion.span>
+      <motion.span style={{ opacity: good }} className="pointer-events-none absolute right-4 top-4 rounded-lg border-2 border-success bg-surface px-2 py-0.5 text-[0.875rem] font-black text-success">REMEMBERED</motion.span>
+      <motion.span style={{ opacity: again }} className="pointer-events-none absolute left-4 top-4 rounded-lg border-2 border-danger bg-surface px-2 py-0.5 text-[0.875rem] font-black text-danger">FORGOT</motion.span>
     </motion.div>
   );
 }

@@ -2,7 +2,7 @@
 import { describe, expect, it } from "vitest";
 
 import {
-  ReviewSession, SUPPORT_TOPICS, supportMessageError, answerCard, bestStreak, clipScore, currentStreak, dayKey, dayMs, fnv1a, formatInterval, goalDateLabel,
+  purchaseNeedsAccount, ReviewSession, SUPPORT_TOPICS, supportMessageError, answerCard, bestStreak, clipScore, currentStreak, dayKey, dayMs, fnv1a, formatInterval, goalDateLabel,
   heatLevel, heatmapWeeks, kanaDeck, levelToJlpt, mergeActivity, mergeByUpdatedAt, minuteMs, minutesLeft, newCard,
   newlyUnlocked, nextIntervalLabel, normalizeQuery, planItems, rankFeed, recommendedMinutes, toKatakana, wordStatus, wordsPerMonth,
   searchClips, clipWordKeys, wordKeyOf, dueWordKeys, wordCounts, mergeState, canWatchClip, clipsWithWord, kanaQueue, kanaLearned, customStudyKeys,
@@ -14,6 +14,14 @@ import {
 const NOW = 1_800_000_000_000;
 
 describe("onboarding rules", () => {
+  it("purchase requires verified login", () => {
+    expect(purchaseNeedsAccount(true, false)).toBe(true);
+    expect(purchaseNeedsAccount(true, true)).toBe(false);
+    expect(purchaseNeedsAccount(false, false)).toBe(false);
+  });
+  it("pending account stays local during sync", () => {
+    expect(mergeState({ purchaseAccountPending: true }, { purchaseAccountPending: false, updatedAt: 10 }).purchaseAccountPending).toBe(true);
+  });
   it("maps self-reported level to JLPT band", () => {
     expect([0, 1, 2, 3, 4].map(levelToJlpt)).toEqual(["N5", "N5", "N4", "N3", "N2"]);
   });

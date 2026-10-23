@@ -53,7 +53,7 @@ export const TOUR_STEPS: TourStep[] = [
   { id: "vocabTab", screens: ["/explore", "/feed"], target: "vocabTab", text: "Now tap Vocab. Every word you tap is saved there.", pose: "heart", kind: "action", untilRoute: "/vocab", hand: "tap", hint: "Tap Vocab", skipTo: "done" },
   { id: "review", screens: ["/vocab"], target: "reviewButton", text: "The word you tapped is already here. Tap to review it.", pose: "cheer", kind: "action", untilRoute: "/review", hand: "tap", hint: "Tap the orange button", skipTo: "done" },
   { id: "reveal", screens: ["/review"], target: "reviewCard", text: "Try to remember what it means, then tap the card to check.", pose: "think", kind: "action", until: "reveal", hand: "tap", hint: "Tap anywhere on the card", skipTo: "done", place: "bottom", fullHole: true, handY: 0.62 },
-  { id: "grade", screens: ["/review"], target: "grade", text: "Knew it? Tap Good. Forgot? Tap Again.", pose: "read", kind: "action", until: "graded", hint: "Or swipe the card right or left", skipTo: "done" },
+  { id: "grade", screens: ["/review"], target: "grade", text: "Remembered it? Tap Remembered. Otherwise, tap Forgot.", pose: "read", kind: "action", until: "graded", hint: "Or swipe the card right or left", skipTo: "done" },
   { id: "done", screens: [], target: null, text: "That's the whole loop: watch, tap, review. {minutes} minutes a day and you'll surprise yourself!", pose: "brave", kind: "finish" },
 ];
 

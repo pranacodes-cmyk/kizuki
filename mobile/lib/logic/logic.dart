@@ -835,6 +835,7 @@ Map<String, dynamic> mergeState(Map<String, dynamic> local, Map<String, dynamic>
     ...newer,
     'onboarded': (local['onboarded'] == true) || (remote['onboarded'] == true),
     'premium': local['premium'],
+    'purchaseAccountPending': local['purchaseAccountPending'] == true,
     'words': words,
     'kana': kana,
     'seen': seen,
@@ -949,3 +950,6 @@ String? supportMessageError(String email, String message) {
   if (m.length > supportMessageMax) return 'Keep it under $supportMessageMax characters.';
   return null;
 }
+
+/// A completed purchase requires account verification before learning continues.
+bool purchaseNeedsAccount(bool pending, bool verified) => pending && !verified;

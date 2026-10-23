@@ -9,12 +9,11 @@ import 'package:mimi/state/app_state.dart';
 import 'package:mimi/widgets/feed_pager.dart';
 import 'package:mimi/widgets/feed_preview.dart';
 import 'package:mimi/widgets/tour.dart';
-import 'package:mimi/widgets/ui.dart';
 import 'package:provider/provider.dart';
 import 'package:video_player/video_player.dart';
 
 /// End-to-end on a real Android emulator (GitHub Actions → .github/scripts/e2e.sh):
-/// first launch → onboarding (name step with the real keyboard up) → plan → founder video →
+/// first launch → nine-step onboarding → plan → founder video →
 /// paywall with the feed demo → account → feed with the real YouTube player → tap a word →
 /// save it → Vocab → Review → Explore → Profile → Settings → replay the welcome tour and walk
 /// all of it (feed, word card, Explore, Vocab, first review) → real finger swipes on the feed.
@@ -96,36 +95,8 @@ void main() {
     await waitFor(find.text('Make a promise to yourself'), seconds: 40, what: 'streak goal step');
     await tapText('30-day streak', after: 300);
     await tapText('Commit to 30 days', after: 900);
-    await waitFor(find.byType(TextField), what: 'name field');
-    // Open the real soft keyboard: "Build my plan" must stay fully above it (it used to be cut off).
-    await tester.tap(find.byType(TextField), warnIfMissed: false);
-    await wait(2500);
-    // On a real device the soft keyboard owns text input, so type through the field's controller.
-    final nameField = tester.widget<TextField>(find.byType(TextField));
-    nameField.controller!.text = 'Mohit';
-    nameField.onChanged?.call('Mohit');
-    await wait(600);
-    {
-      final view = tester.view;
-      final screenH = view.physicalSize.height / view.devicePixelRatio;
-      final keyboard = view.viewInsets.bottom / view.devicePixelRatio;
-      final build = tester.getRect(find.ancestor(of: find.text('Build my plan'), matching: find.byType(Button3D)).first);
-      final skip = tester.getRect(find.ancestor(of: find.text('Skip'), matching: find.byType(Button3D)).first);
-      debugPrint('E2E_INFO name step: screen=${screenH.toStringAsFixed(0)} keyboard=${keyboard.toStringAsFixed(0)} build=$build skip=$skip');
-      await shot('04a_onboarding_name_keyboard');
-      if (keyboard > 0) {
-        expect(build.bottom, lessThanOrEqualTo(screenH - keyboard + 1), reason: 'Build my plan is fully above the keyboard');
-        expect(skip.bottom, lessThanOrEqualTo(screenH - keyboard + 1), reason: 'Skip is fully above the keyboard');
-        expect(build.top, greaterThanOrEqualTo(0));
-      }
-    }
-    FocusManager.instance.primaryFocus?.unfocus();
-    await wait(900);
-    await shot('04_onboarding_name');
-    await tapText('Build my plan', after: 1000);
     await shot('05_building');
     expect(state().profile.reasons, ['work']);
-    expect(state().profile.name, 'Mohit');
     expect(state().profile.jlpt, 'N5');
 
     // ---- Plan → founder → paywall → account ----------------------------------------
@@ -155,7 +126,15 @@ void main() {
     await tapText('Start my free week', after: 1800);
     expect(state().premium.active, isTrue);
     await shot('10_account');
-    await tapText('Maybe later', after: 1500);
+    expect(state().purchaseAccountPending, isTrue);
+    expect(find.text('Maybe later'), findsNothing);
+    // Separate signed-out feed fixture: checkout gate above is verified, not bypassed by UI.
+    // A real authenticated checkout test requires an approved test account.
+    state().confirmPurchaseAccount();
+    state().cancelPremium();
+    state().completeOnboarding();
+    GoRouter.of(ctx()).go('/feed');
+    await wait(1500);
 
     // ---- Feed with the real YouTube player -----------------------------------------
     await waitFor(find.text('Skip tour'), seconds: 40, what: 'welcome tour on the feed');
@@ -182,7 +161,7 @@ void main() {
     expect(state().words, isNotEmpty);
     // The saved word shows its level button (Kiku-style badge), starting at 1 · New.
     expect(find.byKey(const ValueKey('level-pill')), findsOneWidget);
-    expect(find.text('New'), findsWidgets);
+    expect(find.text('Learning'), findsWidgets);
     await shot('14_word_saved');
 
     // Ask Kizuki from the word card (signed out → it offers a free account first).
@@ -197,7 +176,7 @@ void main() {
 
     // ---- Vocab → Review --------------------------------------------------------------
     await tester.tap(find.byKey(const ValueKey('tab-Vocab')), warnIfMissed: false);
-    await waitFor(find.textContaining('words you know'), what: 'vocab screen');
+    await waitFor(find.text('Words mastered'), what: 'vocab screen');
     await shot('15_vocab');
     await tapText('to review', contains: true, after: 1800);
     await shot('16_review');
@@ -207,8 +186,8 @@ void main() {
       await tester.tap(reveal.first, warnIfMissed: false);
       await wait(1200);
       await waitFor(find.text('DEFINITION'), what: 'flashcard answer');
-      expect(find.text('Again'), findsOneWidget);
-      expect(find.text('Good'), findsOneWidget);
+      expect(find.text('Forgot'), findsOneWidget);
+      expect(find.text('Remembered'), findsOneWidget);
       await shot('17_review_answer');
     }
 

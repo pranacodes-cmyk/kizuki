@@ -62,13 +62,13 @@ class ScreenError extends StatelessWidget {
 /// Deterministic burst of confetti — mirrors Confetti.tsx.
 class Confetti extends StatefulWidget {
   final int count;
-  const Confetti({super.key, this.count = 36});
+  const Confetti({super.key, this.count = 18});
   @override
   State<Confetti> createState() => _ConfettiState();
 }
 
 class _ConfettiState extends State<Confetti> with SingleTickerProviderStateMixin {
-  late final AnimationController _c = AnimationController(vsync: this, duration: const Duration(milliseconds: 3200))..forward();
+  late final AnimationController _c = AnimationController(vsync: this, duration: const Duration(milliseconds: 1900))..forward();
   @override
   void dispose() {
     _c.dispose();
@@ -76,7 +76,7 @@ class _ConfettiState extends State<Confetti> with SingleTickerProviderStateMixin
   }
 
   @override
-  Widget build(BuildContext context) => IgnorePointer(
+  Widget build(BuildContext context) => MediaQuery.disableAnimationsOf(context) ? const SizedBox.shrink() : IgnorePointer(
         child: AnimatedBuilder(animation: _c, builder: (_, _) => CustomPaint(painter: _ConfettiPainter(_c.value, widget.count), size: Size.infinite)),
       );
 }
@@ -85,20 +85,20 @@ class _ConfettiPainter extends CustomPainter {
   final double t;
   final int count;
   _ConfettiPainter(this.t, this.count);
-  static const colors = [T.primary, T.gold, T.success, T.info, T.danger];
+  static const colors = [T.primary, T.gold, T.foreground];
   @override
   void paint(Canvas canvas, Size size) {
     for (var i = 0; i < count; i++) {
       final h = fnv1a('c$i');
       final x = (h % 1000) / 1000 * size.width;
-      final delay = ((h >> 10) % 60) / 100;
-      final dur = 1.8 + ((h >> 14) % 100) / 80;
-      final local = ((t * 3.2 - delay) / dur).clamp(0.0, 1.0);
-      if (local <= 0) continue;
-      final y = -30 + local * local * (size.height + 60);
-      final rot = ((h >> 4) % 360) * math.pi / 180 + local * 9.4;
-      final w = 6.0 + ((h >> 20) % 6);
-      final paint = Paint()..color = colors[i % colors.length].withValues(alpha: local > 0.8 ? (1 - local) * 5 : 1);
+      final delay = ((h >> 10) % 20) / 100;
+      final dur = 1.2 + ((h >> 14) % 40) / 100;
+      final local = ((t * 1.9 - delay) / dur).clamp(0.0, 1.0);
+      if (local <= 0 || local >= 1) continue;
+      final y = -12 + local * local * math.min(size.height * 0.4, 240);
+      final rot = ((h >> 4) % 360) * math.pi / 180 + local * 2.4;
+      final w = 4.0 + ((h >> 20) % 3);
+      final paint = Paint()..color = colors[i % colors.length].withValues(alpha: local > 0.55 ? (1 - local) / 0.45 : 0.85);
       canvas.save();
       canvas.translate(x, y);
       canvas.rotate(rot);

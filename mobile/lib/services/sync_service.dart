@@ -56,31 +56,68 @@ class SyncService extends ChangeNotifier {
       _timer?.cancel();
       _timer = Timer(const Duration(milliseconds: 2500), () => push());
     };
-    session = _db.auth.currentSession;
+    _setSession(_db.auth.currentSession);
     if (session != null) syncNow();
     _db.auth.onAuthStateChange.listen((data) {
       final e = data.event;
       if (e != AuthChangeEvent.signedIn && e != AuthChangeEvent.signedOut && e != AuthChangeEvent.userUpdated && e != AuthChangeEvent.tokenRefreshed) return;
       final was = session != null;
-      session = data.session;
+      _setSession(data.session);
       notifyListeners();
       if (e == AuthChangeEvent.signedIn && !was) syncNow();
     });
   }
 
+  /// Bumped whenever the signed-in account changes (sign-in, sign-out, switch). A sync
+  /// started for one account discards its result if the account changed meanwhile, so
+  /// one learner's progress can never be merged into or uploaded under another account.
+  int _generation = 0;
+  String? _userId;
+
+  /// Updates the session; a different account cancels pending pushes and in-flight syncs.
+  void setSession(Session? s) => _setSession(s);
+
+  void _setSession(Session? s) {
+    final id = s?.user.id;
+    if (id != _userId) {
+      _generation++;
+      _userId = id;
+      _timer?.cancel();
+      _inflight = null;
+    }
+    session = s;
+  }
+
+  bool _current(int gen, String uid) => gen == _generation && session?.user.id == uid;
+
+  @visibleForTesting
+  int get generation => _generation;
+  @visibleForTesting
+  bool isCurrent(int gen, String uid) => _current(gen, uid);
+
   /// Pull the cloud copy, merge it into this device and push the result back.
-  Future<void> syncNow() => _inflight ??= _pullAndMerge().whenComplete(() => _inflight = null);
+  Future<void> syncNow() {
+    final existing = _inflight;
+    if (existing != null) return existing;
+    final f = _pullAndMerge();
+    _inflight = f;
+    return f.whenComplete(() {
+      if (identical(_inflight, f)) _inflight = null;
+    });
+  }
 
   Future<void> _pullAndMerge() async {
     final s = session;
     if (s == null) return;
+    final gen = _generation, uid = s.user.id;
     try {
-      final row = await _db.from('learner_state').select('state').eq('user_id', s.user.id).maybeSingle();
+      final row = await _db.from('learner_state').select('state').eq('user_id', uid).maybeSingle();
+      if (!_current(gen, uid)) return; // account changed while the cloud copy loaded
       final local = _app.toJson();
       final remote = (row?['state'] as Map?)?.cast<String, dynamic>();
       final merged = remote != null ? mergeState(local, remote) : local;
       if (remote != null) _app.replaceAll(merged);
-      await push(merged);
+      await _push(s, gen, merged);
     } catch (e) {
       debugPrint('sync pull failed: $e');
     }
@@ -89,8 +126,19 @@ class SyncService extends ChangeNotifier {
   Future<void> push([Map<String, dynamic>? state]) async {
     final s = session;
     if (s == null) return;
+    await _push(s, _generation, state);
+  }
+
+  Future<void> _push(Session s, int gen, [Map<String, dynamic>? state]) async {
+    final uid = s.user.id;
+    if (!_current(gen, uid)) return;
     try {
-      await _db.from('learner_state').upsert({'user_id': s.user.id, 'state': state ?? _app.toJson()});
+      final payload = state ?? _app.toJson();
+      await _db.from('learner_state').upsert({'user_id': uid, 'state': payload});
+      if (!_current(gen, uid)) return;
+      final metadata = s.user.userMetadata ?? {};
+      final name = _app.profile.name.isNotEmpty ? _app.profile.name : (metadata['full_name'] ?? metadata['name'] ?? '').toString();
+      await _db.from('profiles').upsert({'id': uid, 'display_name': name, 'avatar_url': metadata['avatar_url'], 'preferences': payload['profile'], 'updated_at': DateTime.now().toUtc().toIso8601String()});
     } catch (e) {
       debugPrint('sync push failed: $e');
     }

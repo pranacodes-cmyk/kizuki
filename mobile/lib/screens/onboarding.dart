@@ -13,7 +13,7 @@ import '../theme/tokens.dart';
 import '../widgets/common.dart';
 import '../widgets/ui.dart';
 
-/// Onboarding questions — mirrors src/routes/onboarding.tsx (same 10 steps and copy).
+/// Onboarding questions — mirrors src/routes/onboarding.tsx (same 9 steps and copy).
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
   @override
@@ -22,7 +22,7 @@ class OnboardingScreen extends StatefulWidget {
 
 List<String> _toggle(List<String> list, String id) => list.contains(id) ? list.where((x) => x != id).toList() : [...list, id];
 
-const _steps = ['reasons', 'level', 'challenges', 'method', 'source', 'fluency', 'minutes', 'window', 'streak', 'name'];
+const _steps = ['reasons', 'level', 'challenges', 'method', 'source', 'fluency', 'minutes', 'window', 'streak'];
 
 class _OnboardingScreenState extends State<OnboardingScreen> {
   int i = 0;
@@ -106,7 +106,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       case 'streak':
         body = _Streak(value: p.streakGoal, onChange: (d) => app.setProfile((x) => x.streakGoal = d), onNext: next);
       default:
-        body = _Name(value: p.name, onChange: (n) => app.setProfile((x) => x.name = n), onNext: next);
+        body = const SizedBox.shrink();
     }
     return PopScope(
       canPop: i == 0,
@@ -116,14 +116,14 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       child: Scaffold(
         body: SafeArea(
           child: Column(children: [
-            ProgressHeader(progress: (i + 1) / (_steps.length + 1), onBack: back),
+            ProgressHeader(progress: (i + 1) / _steps.length, onBack: back),
             Expanded(
               child: AnimatedSwitcher(
-                duration: const Duration(milliseconds: 280),
+                duration: MediaQuery.disableAnimationsOf(context) ? Duration.zero : const Duration(milliseconds: 220),
                 switchInCurve: Curves.easeOutCubic,
                 transitionBuilder: (child, a) => FadeTransition(
                   opacity: a,
-                  child: SlideTransition(position: Tween(begin: Offset(0.15 * dir, 0), end: Offset.zero).animate(a), child: child),
+                  child: SlideTransition(position: Tween(begin: Offset(0.04 * dir, 0), end: Offset.zero).animate(a), child: child),
                 ),
                 child: KeyedSubtree(key: ValueKey(step), child: body),
               ),
@@ -143,15 +143,28 @@ class _Title extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Padding(
         padding: const EdgeInsets.fromLTRB(24, 16, 24, 0),
-        child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          Text(title, style: txt(26, w: FontWeight.w900, h: 1.2)),
-          if (subtitle != null) Padding(padding: const EdgeInsets.only(top: 8), child: Text(subtitle!, style: txt(15, w: FontWeight.w400, c: T.muted))),
-          ?extra,
-        ]),
+        // Full width so short titles stay left-aligned like the web, never centered.
+        child: SizedBox(
+          width: double.infinity,
+          child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Text(title, style: txt(26, w: FontWeight.w900, h: 1.2)),
+            if (subtitle != null) Padding(padding: const EdgeInsets.only(top: 8), child: Text(subtitle!, style: txt(15, w: FontWeight.w400, c: T.muted))),
+            ?extra,
+          ]),
+        ),
       );
 }
 
 Widget _footer(List<Widget> children) => Padding(padding: const EdgeInsets.fromLTRB(24, 12, 24, 8), child: Column(mainAxisSize: MainAxisSize.min, children: children));
+
+/// Step content that scrolls above the pinned footer, so the main button is always on
+/// screen on small phones and with large system text (mirrors StepBody in onboarding.tsx).
+Widget _stepBody(List<Widget> children) => Expanded(
+      child: FadedScroll(
+        padding: const EdgeInsets.only(bottom: 16),
+        child: SizedBox(width: double.infinity, child: Column(children: children)),
+      ),
+    );
 
 class _GridCard extends StatelessWidget {
   final bool active;
@@ -169,12 +182,19 @@ class _GridCard extends StatelessWidget {
             border: Border.all(color: active ? T.primary : T.border, width: 2),
           ),
           child: Stack(children: [
+            // Scales down instead of overflowing when the phone uses large system text.
             Center(
-              child: Column(mainAxisSize: MainAxisSize.min, children: [
-                Text(emoji, style: const TextStyle(fontSize: 32)),
-                const SizedBox(height: 8),
-                Text(label, textAlign: TextAlign.center, maxLines: 2, overflow: TextOverflow.ellipsis, style: txt(15, w: FontWeight.w800, h: 1.2)),
-              ]),
+              child: FittedBox(
+                fit: BoxFit.scaleDown,
+                child: ConstrainedBox(
+                  constraints: const BoxConstraints(maxWidth: 140),
+                  child: Column(mainAxisSize: MainAxisSize.min, children: [
+                    Text(emoji, style: const TextStyle(fontSize: 32)),
+                    const SizedBox(height: 8),
+                    Text(label, textAlign: TextAlign.center, maxLines: 2, overflow: TextOverflow.ellipsis, style: txt(15, w: FontWeight.w800, h: 1.2)),
+                  ]),
+                ),
+              ),
             ),
             if (active)
               Positioned(
@@ -229,11 +249,13 @@ class _MultiGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(children: [
-      _Title(title, subtitle: subtitle),
       Expanded(
-        child: GridView.builder(
-          padding: const EdgeInsets.fromLTRB(24, 20, 24, 8),
-          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2, mainAxisSpacing: 12, crossAxisSpacing: 12, mainAxisExtent: 120),
+        child: CustomScrollView(slivers: [
+          SliverToBoxAdapter(child: _Title(title, subtitle: subtitle)),
+          SliverPadding(
+          padding: const EdgeInsets.fromLTRB(24, 20, 24, 24),
+          sliver: SliverGrid.builder(
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2, mainAxisSpacing: 12, crossAxisSpacing: 12, mainAxisExtent: 104),
           itemCount: options.length,
           itemBuilder: (_, i) => _GridCard(
             active: value.contains(options[i].id),
@@ -242,11 +264,13 @@ class _MultiGrid extends StatelessWidget {
             onTap: () => onToggle(options[i].id),
           ),
         ),
+        ),
+        ]),
       ),
       _footer([
         if (benefit)
           SizedBox(
-            height: 44,
+            height: 64,
             child: AnimatedSwitcher(
               duration: const Duration(milliseconds: 250),
               child: value.isEmpty
@@ -316,47 +340,58 @@ class _Method extends StatelessWidget {
   const _Method({required this.onNext});
   @override
   Widget build(BuildContext context) => Column(children: [
-        const _Title('Learn the way you learned your first language', subtitle: 'By listening to real people — not by memorising rules.'),
-        Container(
-          margin: const EdgeInsets.fromLTRB(24, 24, 24, 0),
-          padding: const EdgeInsets.all(20),
-          decoration: BoxDecoration(color: T.surface, borderRadius: BorderRadius.circular(28)),
-          child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-            caps('Real Japanese you hear in 10 minutes'),
-            const SizedBox(height: 20),
-            SizedBox(
-              height: 230,
-              child: Row(mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.end, children: [
-                Column(mainAxisAlignment: MainAxisAlignment.end, children: [
-                  Text('~10 lines', style: txt(14, w: FontWeight.w800, c: T.muted)),
-                  const SizedBox(height: 8),
-                  _GrowBar(height: 36, color: T.surface3, delay: 200),
-                  const SizedBox(height: 8),
-                  Text('Drill apps', style: txt(13, c: T.muted)),
-                ]),
-                const SizedBox(width: 32),
-                Column(mainAxisAlignment: MainAxisAlignment.end, children: [
-                  Text('100+ lines', style: txt(14, w: FontWeight.w800, c: T.primary)),
-                  const Mascot(MascotPose.cheer, size: 48),
-                  _GrowBar(height: 130, color: T.primary, delay: 350),
-                  const SizedBox(height: 8),
-                  Text('With Kizuki', style: txt(13)),
-                ]),
-              ]),
-            ),
-          ]),
-        ),
-        Padding(
-          padding: const EdgeInsets.fromLTRB(24, 16, 24, 0),
-          child: Column(children: [
-            for (final t in ['Hear real native speed from day one', 'Every word explained in its sentence', 'Remember words with the original audio'])
-              Padding(
-                padding: const EdgeInsets.only(bottom: 10),
-                child: Row(children: [const Icon(LucideIcons.check, size: 16, color: T.success), const SizedBox(width: 8), Expanded(child: Text(t, style: txt(15)))]),
+        _stepBody([
+          const _Title('Learn the way you learned your first language', subtitle: 'By listening to real people — not by memorising rules.'),
+          Container(
+            margin: const EdgeInsets.fromLTRB(24, 24, 24, 0),
+            padding: const EdgeInsets.all(20),
+            decoration: BoxDecoration(color: T.surface, borderRadius: BorderRadius.circular(28)),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              caps('Real Japanese you hear in 10 minutes'),
+              const SizedBox(height: 20),
+              // Chart labels stay at normal size and the chart scales down on narrow phones, so
+              // large system text can't push the bars out of the card.
+              MediaQuery.withClampedTextScaling(
+                maxScaleFactor: 1,
+                child: SizedBox(
+                  height: 230,
+                  width: double.infinity,
+                  child: FittedBox(
+                    fit: BoxFit.scaleDown,
+                    alignment: Alignment.bottomCenter,
+                    child: Row(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.end, children: [
+                      Column(mainAxisAlignment: MainAxisAlignment.end, children: [
+                        Text('~10 lines', style: txt(14, w: FontWeight.w800, c: T.muted)),
+                        const SizedBox(height: 8),
+                        _GrowBar(height: 36, color: T.surface3, delay: 200),
+                        const SizedBox(height: 8),
+                        Text('Drill apps', style: txt(13, c: T.muted)),
+                      ]),
+                      const SizedBox(width: 32),
+                      Column(mainAxisAlignment: MainAxisAlignment.end, children: [
+                        Text('100+ lines', style: txt(14, w: FontWeight.w800, c: T.primary)),
+                        const Mascot(MascotPose.cheer, size: 48),
+                        _GrowBar(height: 130, color: T.primary, delay: 350),
+                        const SizedBox(height: 8),
+                        Text('With Kizuki', style: txt(13)),
+                      ]),
+                    ]),
+                  ),
+                ),
               ),
-          ]),
-        ),
-        const Spacer(),
+            ]),
+          ),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(24, 16, 24, 0),
+            child: Column(children: [
+              for (final t in ['Hear real native speed from day one', 'Every word explained in its sentence', 'Remember words with the original audio'])
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 10),
+                  child: Row(children: [const Icon(LucideIcons.check, size: 16, color: T.success), const SizedBox(width: 8), Expanded(child: Text(t, style: txt(15)))]),
+                ),
+            ]),
+          ),
+        ]),
         _footer([Button3D(label: 'Continue', onPressed: onNext)]),
       ]);
 }
@@ -450,15 +485,16 @@ class _Fluency extends StatelessWidget {
   const _Fluency({required this.months, required this.onChange, required this.onNext});
   @override
   Widget build(BuildContext context) => Column(children: [
-        const _Title('When do you want to understand Japanese?', subtitle: "Set a goal. We'll keep it realistic."),
-        const SizedBox(height: 16),
-        Pill('🇯🇵 Conversational by ${goalDateLabel(DateTime.now(), months)}', tone: PillTone.success),
-        const SizedBox(height: 24),
-        Ring(value: months / 36, color: T.success, child: Column(mainAxisSize: MainAxisSize.min, children: [Text('$months', style: txt(52, w: FontWeight.w900, h: 1)), Text('months', style: txt(16, c: T.muted))])),
-        const SizedBox(height: 28),
-        Padding(padding: const EdgeInsets.symmetric(horizontal: 20), child: _MimiSlider(value: months.toDouble(), min: 3, max: 36, divisions: 33, color: T.success, onChanged: (v) => onChange(v.round()))),
-        Padding(padding: const EdgeInsets.symmetric(horizontal: 32), child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [Text('3 months', style: txt(12, c: T.faint)), Text('3 years', style: txt(12, c: T.faint))])),
-        const Spacer(),
+        _stepBody([
+          const _Title('When do you want to understand Japanese?', subtitle: "Set a goal. We'll keep it realistic."),
+          const SizedBox(height: 16),
+          Pill('🇯🇵 Conversational by ${goalDateLabel(DateTime.now(), months)}', tone: PillTone.success),
+          const SizedBox(height: 24),
+          Ring(value: months / 36, color: T.success, child: Column(mainAxisSize: MainAxisSize.min, children: [Text('$months', style: txt(52, w: FontWeight.w900, h: 1)), Text('months', style: txt(16, c: T.muted))])),
+          const SizedBox(height: 28),
+          Padding(padding: const EdgeInsets.symmetric(horizontal: 20), child: _MimiSlider(value: months.toDouble(), min: 3, max: 36, divisions: 33, color: T.success, onChanged: (v) => onChange(v.round()))),
+          Padding(padding: const EdgeInsets.symmetric(horizontal: 32), child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [Text('3 months', style: txt(12, c: T.faint)), Text('3 years', style: txt(12, c: T.faint))])),
+        ]),
         _footer([Button3D(label: 'Continue', onPressed: onNext)]),
       ]);
 }
@@ -472,16 +508,20 @@ class _Minutes extends StatelessWidget {
   Widget build(BuildContext context) {
     final rec = recommendedMinutes(months);
     return Column(children: [
-      const _Title('How much time can you give each day?', subtitle: 'Consistency beats intensity. Even 5 minutes works.'),
-      const SizedBox(height: 16),
-      Pill('🧠 About ${wordsPerMonth(minutes)} new words a month', tone: PillTone.primary),
-      const SizedBox(height: 24),
-      Ring(value: minutes / 60, color: T.primary, child: Column(mainAxisSize: MainAxisSize.min, children: [Text('$minutes', style: txt(52, w: FontWeight.w900, h: 1)), Text('minutes', style: txt(16, c: T.muted))])),
-      const SizedBox(height: 28),
-      Padding(padding: const EdgeInsets.symmetric(horizontal: 20), child: _MimiSlider(value: minutes.toDouble(), min: 5, max: 60, divisions: 11, color: T.primary, onChanged: (v) => onChange(v.round()))),
-      const SizedBox(height: 12),
-      minutes >= rec ? Pill('✓ Enough to reach your $months-month goal', tone: PillTone.success) : Pill('$rec min/day recommended for $months months'),
-      const Spacer(),
+      _stepBody([
+        const _Title('How much time can you give each day?', subtitle: 'Consistency beats intensity. Even 5 minutes works.'),
+        const SizedBox(height: 16),
+        Pill('🧠 About ${wordsPerMonth(minutes)} new words a month', tone: PillTone.primary),
+        const SizedBox(height: 24),
+        Ring(value: minutes / 60, color: T.primary, child: Column(mainAxisSize: MainAxisSize.min, children: [Text('$minutes', style: txt(52, w: FontWeight.w900, h: 1)), Text('minutes', style: txt(16, c: T.muted))])),
+        const SizedBox(height: 28),
+        Padding(padding: const EdgeInsets.symmetric(horizontal: 20), child: _MimiSlider(value: minutes.toDouble(), min: 5, max: 60, divisions: 11, color: T.primary, onChanged: (v) => onChange(v.round()))),
+        const SizedBox(height: 12),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 24),
+          child: minutes >= rec ? Pill('✓ Enough to reach your $months-month goal', tone: PillTone.success) : Pill('$rec min/day recommended for $months months'),
+        ),
+      ]),
       _footer([Button3D(label: "I'm committed", onPressed: onNext)]),
     ]);
   }
@@ -501,25 +541,28 @@ class _WindowState extends State<_Window> {
   bool picked = false;
   @override
   Widget build(BuildContext context) => Column(children: [
-        _Title('When can you spend ${widget.minutes} minutes?', subtitle: "We'll send one friendly reminder so you never break your streak."),
-        Expanded(
-          child: ListView(padding: const EdgeInsets.fromLTRB(24, 20, 24, 8), children: [
-            for (final o in windowOptions)
-              Padding(
-                padding: const EdgeInsets.only(bottom: 12),
-                child: _ListOption(
-                  active: picked && widget.value == o.id,
-                  left: Text(o.emoji, style: const TextStyle(fontSize: 26)),
-                  label: o.label,
-                  hint: o.hint,
-                  onTap: () {
-                    setState(() => picked = true);
-                    widget.onChange(o.id);
-                  },
+        _stepBody([
+          _Title('When can you spend ${widget.minutes} minutes?', subtitle: "We'll send one friendly reminder so you never break your streak."),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(24, 20, 24, 0),
+            child: Column(children: [
+              for (final o in windowOptions)
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 12),
+                  child: _ListOption(
+                    active: picked && widget.value == o.id,
+                    left: Text(o.emoji, style: const TextStyle(fontSize: 26)),
+                    label: o.label,
+                    hint: o.hint,
+                    onTap: () {
+                      setState(() => picked = true);
+                      widget.onChange(o.id);
+                    },
+                  ),
                 ),
-              ),
-          ]),
-        ),
+            ]),
+          ),
+        ]),
         _footer([
           Text('Learners with reminders on are far more likely to keep their streak.', textAlign: TextAlign.center, style: txt(13, w: FontWeight.w400, c: T.muted)),
           const SizedBox(height: 12),
@@ -535,77 +578,22 @@ class _Streak extends StatelessWidget {
   const _Streak({required this.value, required this.onChange, required this.onNext});
   @override
   Widget build(BuildContext context) => Column(children: [
-        const Padding(padding: EdgeInsets.only(top: 8), child: Mascot(MascotPose.brave, size: 128)),
-        const _Title('Make a promise to yourself', subtitle: 'Pick a streak goal. Kizuki will cheer you on.'),
-        Expanded(
-          child: ListView(padding: const EdgeInsets.fromLTRB(24, 20, 24, 8), children: [
-            for (final o in streakOptions)
-              Padding(
-                padding: const EdgeInsets.only(bottom: 12),
-                child: _ListOption(active: value == o.days, left: Text(o.emoji, style: const TextStyle(fontSize: 26)), label: '${o.days}-day streak', hint: o.label, onTap: () => onChange(o.days)),
-              ),
-          ]),
-        ),
+        _stepBody([
+          const Padding(padding: EdgeInsets.only(top: 8), child: Mascot(MascotPose.brave, size: 112)),
+          const _Title('Make a promise to yourself', subtitle: 'Pick a streak goal. Kizuki will cheer you on.'),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(24, 20, 24, 0),
+            child: Column(children: [
+              for (final o in streakOptions)
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 12),
+                  child: _ListOption(active: value == o.days, left: Text(o.emoji, style: const TextStyle(fontSize: 26)), label: '${o.days}-day streak', hint: o.label, onTap: () => onChange(o.days)),
+                ),
+            ]),
+          ),
+        ]),
         _footer([Button3D(label: 'Commit to $value days', onPressed: onNext)]),
       ]);
-}
-
-class _Name extends StatefulWidget {
-  final String value;
-  final ValueChanged<String> onChange;
-  final VoidCallback onNext;
-  const _Name({required this.value, required this.onChange, required this.onNext});
-  @override
-  State<_Name> createState() => _NameState();
-}
-
-class _NameState extends State<_Name> {
-  late final _c = TextEditingController(text: widget.value);
-  @override
-  void dispose() {
-    _c.dispose();
-    super.dispose();
-  }
-
-  // Close the keyboard first so the next screen doesn't open half-covered.
-  void _go() {
-    FocusManager.instance.primaryFocus?.unfocus();
-    widget.onNext();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    // With the keyboard up the fox steps aside, so the field and both buttons stay visible.
-    final keyboard = MediaQuery.viewInsetsOf(context).bottom > 0;
-    // The buttons live outside the scrolling part, so they always sit right above the keyboard.
-    return Column(children: [
-      Expanded(
-        child: SingleChildScrollView(
-          physics: const ClampingScrollPhysics(),
-          child: Column(children: [
-            AnimatedSize(
-              duration: const Duration(milliseconds: 220),
-              curve: Curves.easeOutCubic,
-              alignment: Alignment.topCenter,
-              child: keyboard
-                  ? const SizedBox(width: double.infinity, height: 4)
-                  : const Padding(padding: EdgeInsets.only(top: 16), child: Mascot(MascotPose.wave, size: 128)),
-            ),
-            const _Title('Last thing — what should Kizuki call you?', subtitle: 'So your plan feels like yours.'),
-            Padding(
-              padding: const EdgeInsets.fromLTRB(24, 24, 24, 16),
-              child: MimiField(controller: _c, hint: 'Your first name', maxLength: 30, onChanged: widget.onChange, onSubmitted: (_) => _c.text.trim().isNotEmpty ? _go() : null, autofill: const [AutofillHints.givenName]),
-            ),
-          ]),
-        ),
-      ),
-      _footer([
-        ListenableBuilder(listenable: _c, builder: (_, _) => Button3D(label: 'Build my plan', onPressed: _c.text.trim().isEmpty ? null : _go)),
-        const SizedBox(height: 8),
-        Button3D(label: 'Skip', variant: BtnVariant.ghost, height: 48, onPressed: _go),
-      ]),
-    ]);
-  }
 }
 
 /// Text input styled like the web inputs.

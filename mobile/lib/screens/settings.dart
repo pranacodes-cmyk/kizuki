@@ -36,10 +36,14 @@ class _SettingsScreenState extends State<SettingsScreen> {
   bool busy = false;
   bool restoring = false;
 
-  /// Same store restore as the paywall (trial.dart), for people who reinstalled or switched phones.
+  /// Same store restore as the paywall (trial.dart), for people who reinstalled or switched
+  /// phones — including its account step: a restored purchase needs a verified account
+  /// (signed-in learners pass straight through on the account screen).
   Future<void> _restore() async {
+    final app = context.read<AppState>();
     setState(() => restoring = true);
     final r = await Billing.restore();
+    if (r == StoreResult.done) app.requirePurchaseAccount();
     if (!mounted) return;
     setState(() => restoring = false);
     if (r == StoreResult.unavailable) {
@@ -47,6 +51,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
     }
     if (r != StoreResult.done) return toast('No subscription found', description: 'Use the same store account you bought with.');
     toast('Purchase restored', icon: '🎉');
+    context.go('/account?mode=signin');
   }
 
   Future<void> _signOut() async {

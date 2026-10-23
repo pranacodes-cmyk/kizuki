@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 import 'package:in_app_review/in_app_review.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../data/content.dart';
 import '../data/models.dart' as m;
@@ -14,6 +15,7 @@ import '../services/tts.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import '../widgets/common.dart';
+import '../widgets/clip_player.dart' show watchUrl;
 import '../widgets/context_player.dart';
 import '../widgets/saved_word_sheet.dart';
 import '../widgets/toast.dart';
@@ -196,7 +198,8 @@ class _ReviewScreenState extends State<ReviewScreen> {
         );
 
     Widget backWord() {
-      final w = word!;
+      final w = word;
+      if (w == null) return const SizedBox.shrink();
       final c = content;
       final clip = c?.byId[w.clipId];
       final entry = w.dictId != null ? c?.dict[w.dictId] : null;
@@ -244,36 +247,29 @@ class _ReviewScreenState extends State<ReviewScreen> {
               ]),
             ),
           if (clip != null) ...[
-            const SizedBox(height: 12),
-            caps('Context'),
+            const SizedBox(height: 20),
+            caps('Example sentence'),
             const SizedBox(height: 8),
-            Container(
-              clipBehavior: Clip.antiAlias,
-              decoration: BoxDecoration(color: T.surface2, borderRadius: BorderRadius.circular(18)),
-              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                ContextPlayer(key: ValueKey('ctx-$id-${sess.answered}'), clip: clip, line: w.line, autoplay: true),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(12, 10, 12, 4),
-                  child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    HighlightedLine(clip: clip, line: w.line, idx: w.idx),
-                    if (w.line < clip.lines.length) Padding(padding: const EdgeInsets.only(top: 2), child: Text(clip.lines[w.line].en, style: txt(14, w: FontWeight.w400, c: T.muted))),
-                  ]),
-                ),
-                Semantics(
-                  button: true,
-                  label: 'Open the clip',
-                  child: Press(
-                    onTap: () => context.push('/clip/${clip.id}'),
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(12, 6, 8, 10),
-                      child: Row(children: [
-                        Expanded(child: Text('Open the clip', style: txt(14, w: FontWeight.w800, c: T.muted))),
-                        const Icon(LucideIcons.chevronRight, size: 18, color: T.muted),
-                      ]),
-                    ),
-                  ),
-                ),
-              ]),
+            HighlightedLine(clip: clip, line: w.line, idx: w.idx, size: 20),
+            if (w.line < clip.lines.length)
+              Padding(padding: const EdgeInsets.only(top: 6), child: Text(clip.lines[w.line].en, style: txt(15, w: FontWeight.w400, c: T.muted, h: 1.4))),
+            const SizedBox(height: 16),
+            Button3D(
+              variant: BtnVariant.surface,
+              height: 48,
+              label: 'Watch original',
+              onPressed: () => showMimiSheet<void>(context, (_) => SingleChildScrollView(
+                padding: const EdgeInsets.fromLTRB(16, 8, 16, 20),
+                child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                  Text(clip.title, style: txt(18, w: FontWeight.w900)),
+                  const SizedBox(height: 12),
+                  ContextPlayer(key: ValueKey('ctx-$id-${sess.answered}'), clip: clip, line: w.line, autoplay: true),
+                  TextButton(onPressed: () => launchUrl(Uri.parse(watchUrl(clip.videoId, clip.start)), mode: LaunchMode.externalApplication), child: Text('${c?.videos[clip.videoId]?.channel ?? 'YouTube'} · Watch on YouTube')),
+                  const SizedBox(height: 12),
+                  HighlightedLine(clip: clip, line: w.line, idx: w.idx),
+                  TextButton(onPressed: () { Navigator.of(context).pop(); context.push('/clip/${clip.id}'); }, child: const Text('Open the clip')),
+                ]),
+              )),
             ),
           ],
         ]),
@@ -339,11 +335,11 @@ class _ReviewScreenState extends State<ReviewScreen> {
                 ? Padding(
                     padding: const EdgeInsets.fromLTRB(16, 0, 16, 8),
                     child: Column(mainAxisSize: MainAxisSize.min, children: [
-                      if (firstTime) Padding(padding: const EdgeInsets.only(bottom: 8), child: Text('Knew it? Swipe right. Forgot? Swipe left.', style: txt(13, w: FontWeight.w700, c: T.faint))),
+                      if (firstTime) Padding(padding: const EdgeInsets.only(bottom: 8), child: Text('How did you do?', style: txt(13, w: FontWeight.w700, c: T.faint))),
                       TourAnchor(id: 'grade', child: Row(children: [
-                        Expanded(child: _GradeBtn(label: 'Again', sub: nextIntervalLabel(card, 'again', now), bg: T.dangerSoft, fg: T.danger, onTap: () => _answer('again'))),
+                        Expanded(child: _GradeBtn(label: 'Forgot', sub: nextIntervalLabel(card, 'again', now), bg: T.dangerSoft, fg: T.danger, onTap: () => _answer('again'))),
                         const SizedBox(width: 12),
-                        Expanded(child: _GradeBtn(label: 'Good', sub: nextIntervalLabel(card, 'good', now), bg: T.successSoft, fg: T.success, onTap: () => _answer('good'))),
+                        Expanded(child: _GradeBtn(label: 'Remembered', sub: nextIntervalLabel(card, 'good', now), bg: T.successSoft, fg: T.success, onTap: () => _answer('good'))),
                       ])),
                     ]),
                   )
@@ -470,8 +466,8 @@ class _SwipeCardState extends State<_SwipeCard> with SingleTickerProviderStateMi
                 },
                 child: face,
               ),
-              Positioned(right: 16, top: 16, child: IgnorePointer(child: Opacity(opacity: good, child: stamp('GOOD', T.success)))),
-              Positioned(left: 16, top: 16, child: IgnorePointer(child: Opacity(opacity: again, child: stamp('AGAIN', T.danger)))),
+              Positioned(right: 16, top: 16, child: IgnorePointer(child: Opacity(opacity: good, child: stamp('REMEMBERED', T.success)))),
+              Positioned(left: 16, top: 16, child: IgnorePointer(child: Opacity(opacity: again, child: stamp('FORGOT', T.danger)))),
             ]),
           ),
         ),

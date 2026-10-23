@@ -9,7 +9,6 @@ import '../logic/logic.dart';
 import '../services/tts.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
-import 'context_player.dart';
 import 'ui.dart';
 import 'word_level.dart';
 
@@ -138,8 +137,6 @@ class _SavedWordSheetState extends State<SavedWordSheet> {
         if (clip != null) ...[
           const SizedBox(height: 20),
           caps('Where you found it'),
-          const SizedBox(height: 8),
-          ContextPlayer(clip: clip, line: w.line, autoplay: false),
           const SizedBox(height: 8),
           HighlightedLine(clip: clip, line: w.line, idx: w.idx),
           if (w.line < clip.lines.length) Text(clip.lines[w.line].en, style: txt(14, w: FontWeight.w400, c: T.muted)),

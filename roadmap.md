@@ -3,6 +3,46 @@
 Flutter (`mobile/`) is the product; the web app is its phone-frame prototype.
 Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com/pranacodes-cmyk/kizuki
 
+## Launch audit + privacy policy + store update (23 Oct)
+- [x] Flutter SDK running in the sandbox (certificate fix); flutter analyze clean, 99 Flutter tests + 82 web tests pass
+- [x] Sync: a cloud sync started for one account can no longer be merged into or uploaded under another account (both clients, Flutter tests)
+- [x] Settings → Restore purchase and paywall purchases always go through the mandatory account step; back/skip blocked while a purchase runs
+- [x] Reminder start-up race fixed (reminders no longer silently skipped at launch)
+- [x] Returning subscribers aren't promised a free week; live prices/eligibility redraw an open paywall
+- [x] Small phones (360×640, large system text): onboarding + paywall buttons pinned, content scrolls with a fade, plans shown before perks; Flutter widget tests + web walk at 360×640 and 384×624
+- [x] New full Privacy Policy (14 sections: data, uses, providers, Meta/ATT, retention, rights, deletion without the app, children, transfers) + Terms contact; same text in both clients (generated + parity test); Help answer for deleting without the app
+- [ ] Store builds: sync to GitHub, Store release workflow → Play internal draft + TestFlight
+- [ ] App Store privacy answers + Play Data safety must match the new policy (by hand in the consoles)
+- [ ] Legal review of the policy by a lawyer (written by me from what the app does; not legal advice)
+
+
+## Founder model comparison (23 Oct)
+- [x] Founder video reduced to max 180×320 with learning highlights, Flutter first then web; phone preview shows video, highlights and Continue to trial with no page errors. Flutter visual check pending because Flutter SDK is unavailable.
+- [x] Removed added story/AI label in v8; speech, expressions and orange captions unchanged. Flutter bundled master replaced first, then web MP4/WebM/poster pointers; beginning/middle/end frames inspected, phone video and Continue verified without page errors, preview build OK. No new store build requested.
+- [x] Approved first version: captions enlarged from 39 to 51px with orange impactful words; 40.07s master compressed to 3.55 MB (about 38% smaller). Flutter bundled file replaced first, then web asset pointers with same-caption WebM fallback; old app overlays disabled during video playback. Phone preview verified at 384×624, Continue reaches trial, no page errors; all 80 web tests pass and preview build OK. Flutter SDK absent: native checks/new store build not performed.
+- [x] Softer natural-expression export (40.07s, 5.7 MB), Seedance comparison (60.22s) and Omni comparison (60.62s) exported with timed captions and AI-fiction disclosure; grouped in Files.
+- [x] Same source persona used across parallel generations; sampled beginning/middle/end frames checked, speech machine-transcribed. These are comparison drafts: independent clips can vary in voice/expression and joins; no full lipsync listening review.
+- [ ] Veo 3 version blocked: the available generation tool exposes only Seedance and Omni.
+- [x] Present comparison files honestly as AI dramatizations; no app integration or store upload requested.
+
+## Word-first cards and simpler vocabulary (23 Oct)
+- [x] Flutter first: word/meaning/sentence cards; original video opens only on request; Forgot / Remembered choices.
+- [x] Mirror web; Learning / Known / Ignored controls, All / To Review / Mastered tabs, JLPT clip badges; saved SRS thresholds unchanged.
+- [x] 79 existing web tests plus the new familiarity regression test pass (80 total), preview build OK; 384×624 browser flow verifies reveal, zero video iframes before request, optional context sheet and persisted review grading.
+- [ ] Flutter analyze/tests and physical Android/iPhone check: Flutter SDK unavailable here; no new native build uploaded.
+
+## AMOLED and onboarding polish (23 Oct)
+- [x] Mirror pure-black/neutral-surface/orange tokens, Flutter first, then web.
+- [x] Remove the name question; make categories fully reachable and refine plan celebration/step motion.
+- [x] Require sign-in after purchase/restore, preserve purchase on login, and save owner-only profiles.
+- [x] All 79 web tests pass. At 384×624, all categories reachable; nine questions go directly to building; simulated checkout cannot skip login or reopen feed; verified account reaches feed with Premium retained and profile preferences read back. No browser page errors.
+- [ ] Flutter analyze/tests and physical Android/iPhone checks: Flutter SDK is unavailable here; no new store build/upload requested in this round. Signup trigger is applied but a fresh confirmed-signup test is still pending.
+
+## Playback restart fix (23 Oct)
+- [x] Remove repeated startup seeks and guard loop/replay seeks until YouTube acknowledges the new position; Flutter first, then web. Allow only a one-time correction if YouTube ignores the requested start.
+- [x] Add 4 mirrored guard tests plus an actual web-player command regression test; all 77 web tests pass, preview build OK.
+- [ ] Flutter tests and real-phone playback retest: Flutter SDK unavailable here; new signed phone build needed. Browser video advances 0→20s without a 1-second restart, but ignores clip-start commands and app timer remains 0:00 in this environment, so correct-range playback is not verified.
+
 ## Production launch round (22 Oct, goal run)
 - [ ] Play: release AAB (versionCode bump) uploaded to the internal track as a draft via the Play API
 - [ ] Apple: macOS GitHub workflow (Flutter iOS build, distribution cert + App Store profile via API) → first TestFlight build

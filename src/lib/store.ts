@@ -36,6 +36,7 @@ export type HistoryEntry = { clipId: string; at: number };
 export type PersistedState = {
   version: 1;
   onboarded: boolean;
+  purchaseAccountPending: boolean;
   profile: Profile;
   premium: Premium;
   words: Record<string, SavedWord>;
@@ -67,6 +68,7 @@ export const defaultSettings: Settings = {
 export const initialState = (): PersistedState => ({
   version: 1,
   onboarded: false,
+  purchaseAccountPending: false,
   profile: { ...defaultProfile },
   premium: { active: false, plan: null, since: null, trialEndsAt: null },
   words: {},
@@ -90,6 +92,8 @@ export const initialState = (): PersistedState => ({
 type Actions = {
   setProfile: (patch: Partial<Profile>) => void;
   completeOnboarding: () => void;
+  requirePurchaseAccount: () => void;
+  confirmPurchaseAccount: () => void;
   startTrial: (plan: string) => void;
   cancelPremium: () => void;
   saveWord: (i: WordInput) => void;
@@ -144,6 +148,8 @@ export const useApp = create<AppStore>()(
         ...initialState(),
         setProfile: (patch) => commit({ profile: { ...get().profile, ...patch } }),
         completeOnboarding: () => commit({ onboarded: true }),
+        requirePurchaseAccount: () => commit({ purchaseAccountPending: true }),
+        confirmPurchaseAccount: () => commit({ purchaseAccountPending: false }),
         startTrial: (plan) => {
           const t = Date.now();
           commit({ premium: { active: true, plan, since: t, trialEndsAt: t + 7 * dayMs } });
@@ -228,7 +234,7 @@ export const useApp = create<AppStore>()(
 
 export function pickPersisted(s: PersistedState): PersistedState {
   return {
-    version: 1, onboarded: s.onboarded, profile: s.profile, premium: s.premium, words: s.words, kana: s.kana, seen: s.seen,
+    version: 1, onboarded: s.onboarded, purchaseAccountPending: s.purchaseAccountPending ?? false, profile: s.profile, premium: s.premium, words: s.words, kana: s.kana, seen: s.seen,
     history: s.history, savedClips: s.savedClips, activity: s.activity, totals: s.totals, settings: s.settings, tutorial: s.tutorial,
     achievementsSeen: s.achievementsSeen, feedSeed: s.feedSeed, reviewSessions: s.reviewSessions, ratingAsked: s.ratingAsked,
     planModalSeen: s.planModalSeen, asks: s.asks ?? { day: "", n: 0 }, updatedAt: s.updatedAt,

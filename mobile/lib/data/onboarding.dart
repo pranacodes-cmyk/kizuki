@@ -84,27 +84,52 @@ class FounderLine {
   const FounderLine(this.t, this.text);
 }
 
-/// The welcome message before the trial: captions timed to assets/video/message.mp4
-/// (public/video/kizuki-message.mp4 on web). A presenter from the Kizuki team, not a
-/// personal founder story — swap in the founder's own recording + captions when there is one.
+/// User's founder story; video contains its own timed captions.
 const founderLines = [
-  FounderLine(0.0, "こんにちは！"),
-  FounderLine(1.4, "Okay, quick one before you start."),
-  FounderLine(3.8, "Most of us tried textbooks and drill apps…"),
-  FounderLine(6.45, "…and still couldn't follow real Japanese."),
-  FounderLine(9.0, "What actually works is listening."),
-  FounderLine(11.4, "A lot. To real people."),
-  FounderLine(13.65, "That's Kizuki."),
-  FounderLine(15.25, "Short, real clips."),
-  FounderLine(17.2, "Tap any word to see what it means, right there."),
-  FounderLine(20.25, "Then review it later, with the original voice."),
-  FounderLine(23.55, "Ten minutes a day…"),
-  FounderLine(24.95, "…and it starts to click."),
-  FounderLine(26.55, "Got feedback? Message us anytime."),
-  FounderLine(29.25, "がんばろう！"),
+  FounderLine(0.7, "Konnichiwa, Kenji here,"),
+  FounderLine(2.44, "creator of Kizuki."),
+  FounderLine(3.82, "Three years ago,"),
+  FounderLine(4.44, "I failed my"),
+  FounderLine(5.02, "first Japanese test."),
+  FounderLine(6.58, "So bad, my"),
+  FounderLine(7.3, "teacher asked if"),
+  FounderLine(8.04, "I was guessing"),
+  FounderLine(8.52, "randomly."),
+  FounderLine(10.18, "18 months later,"),
+  FounderLine(11.42, "I passed the"),
+  FounderLine(11.98, "N2, and was"),
+  FounderLine(13.62, "giving presentations in"),
+  FounderLine(14.6, "Tokyo."),
+  FounderLine(15.18, "How?"),
+  FounderLine(15.9, "Definitely not Duolingo."),
+  FounderLine(17.1, "That bird only"),
+  FounderLine(17.62, "taught me, the"),
+  FounderLine(18.46, "lawyer loves green"),
+  FounderLine(19.18, "tea."),
+  FounderLine(20.42, "And textbooks?"),
+  FounderLine(22.4, "Genki made me"),
+  FounderLine(22.94, "want to stare"),
+  FounderLine(23.36, "at a blank"),
+  FounderLine(23.76, "wall."),
+  FounderLine(24.74, "Then it hit"),
+  FounderLine(25.18, "me."),
+  FounderLine(25.8, "Japanese babies don't"),
+  FounderLine(26.64, "study grammar charts."),
+  FounderLine(27.58, "They just listen"),
+  FounderLine(28.52, "until it clicks."),
+  FounderLine(30.4, "That click is"),
+  FounderLine(31.14, "what Kizuki means."),
+  FounderLine(32.76, "Short, real clips,"),
+  FounderLine(34.02, "tap whatever you"),
+  FounderLine(34.7, "don't get."),
+  FounderLine(35.56, "If anything feels"),
+  FounderLine(36.16, "off, message me"),
+  FounderLine(37.2, "in the app."),
+  FounderLine(37.96, "I read every one."),
+  FounderLine(39.5, "Ja ne!"),
 ];
 
 /// Length of the message video (also the countdown when the video can't play).
-const founderSeconds = 30;
+const founderSeconds = 40.067;
 const founderVideoAsset = 'assets/video/message.mp4';
 const founderPosterAsset = 'assets/video/message.jpg';

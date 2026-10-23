@@ -1,7 +1,7 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { motion } from "motion/react";
 import { Bell, Check, Crown, Lock, Sparkles } from "lucide-react";
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 
 import { FeedPreview } from "@/components/mimi/FeedPreview";
 import { Mascot } from "@/components/mimi/Mascot";
@@ -25,39 +25,78 @@ export const Route = createFileRoute("/trial")({
   component: Trial,
 });
 
+/** The web prototype has no store account, so it is always eligible for the free week. The
+ * Android/iPhone app reads eligibility from the store and drops trial promises when false. */
+const TRIAL_ELIGIBLE = true;
+
 function Trial() {
   const navigate = useNavigate();
   const startTrial = useApp((s) => s.startTrial);
   const [step, setStep] = useState(0);
   const [plan, setPlan] = useState<"yearly" | "monthly">("yearly");
   const [busy, setBusy] = useState(false);
+  const trial = TRIAL_ELIGIBLE;
 
   const start = async () => {
     setBusy(true);
     await new Promise((r) => setTimeout(r, 900)); // store sheet stand-in (real billing in the Android app)
     startTrial(plan);
+    // The account step is required as soon as the store confirms, even if this screen was left.
+    useApp.getState().requirePurchaseAccount();
     setBusy(false);
     toast({ icon: "🎉", title: "Your free week has started", description: "Everything in Kizuki is unlocked." });
-    void navigate({ to: useApp.getState().onboarded ? "/feed" : "/account" });
+    void navigate({ to: "/account", search: { mode: "signin" }, replace: true });
   };
-  const skip = () => (useApp.getState().onboarded ? window.history.back() : void navigate({ to: "/account" }));
+  const skip = () => {
+    if (busy) return;
+    if (useApp.getState().onboarded) window.history.back();
+    else void navigate({ to: "/account" });
+  };
+  const back = () => {
+    if (busy) return; // the store sheet is open; leaving now would lose its result
+    if (step === 2 && !trial) setStep(0);
+    else if (step) setStep(step - 1);
+    else if (useApp.getState().onboarded) window.history.back();
+    else void navigate({ to: "/founder" });
+  };
 
   return (
     <Screen scroll={false}>
-      <ProgressHeader progress={(10 + step) / 13} onBack={() => (step ? setStep(step - 1) : useApp.getState().onboarded ? window.history.back() : navigate({ to: "/founder" }))} />
-        <div key={step} className="flex min-h-0 flex-1 flex-col overflow-y-auto no-scrollbar">
-          {step === 0 && <StepTry onNext={() => setStep(1)} />}
-          {step === 1 && <StepRemind onNext={() => setStep(2)} />}
-          {step === 2 && <StepPlans plan={plan} setPlan={setPlan} busy={busy} onStart={start} onSkip={skip} />}
-        </div>
+      <ProgressHeader progress={(9 + step) / 12} onBack={back} />
+      <div key={step} className="flex min-h-0 flex-1 flex-col">
+        {step === 0 && <StepTry trial={trial} onNext={() => setStep(trial ? 1 : 2)} />}
+        {step === 1 && <StepRemind onNext={() => setStep(2)} />}
+        {step === 2 && <StepPlans plan={plan} setPlan={setPlan} busy={busy} trialEligible={trial} onStart={start} onSkip={skip} />}
+      </div>
     </Screen>
   );
 }
 
-function StepTry({ onNext }: { onNext: () => void }) {
+/** Scrolling step content above a pinned footer: the main button, price and legal links
+ * stay on screen on small phones and with large text (mirrors _pinned in trial.dart). */
+function Pinned({ children, footer }: { children: ReactNode; footer: ReactNode }) {
+  return (
+    <>
+      <div className="min-h-0 flex-1 overflow-y-auto px-6 pb-4 no-scrollbar scroll-fade">{children}</div>
+      <div className="shrink-0 space-y-2 bg-background px-6 pb-2 pt-2">{footer}</div>
+    </>
+  );
+}
+
+function StepTry({ trial, onNext }: { trial: boolean; onNext: () => void }) {
   return (
     <div className="flex flex-1 flex-col px-6">
-      <h1 className="pt-4 text-center text-[1.625rem] font-black leading-tight">Try Kizuki <span className="text-primary">free</span> for 7 days</h1>
+      <h1 className="pt-4 text-center text-[1.625rem] font-black leading-tight">
+        {trial ? (
+          <>
+            Try Kizuki <span className="text-primary">free</span> for 7 days
+          </>
+        ) : (
+          <>
+            Learn with Kizuki <span className="text-primary">Premium</span>
+          </>
+        )}
+      </h1>
       <div className="relative mx-auto mt-6 w-[230px] flex-1">
         <div className="absolute inset-0 overflow-hidden rounded-[32px] border-[6px] border-surface-3 bg-stage">
           <FeedPreview />
@@ -65,9 +104,11 @@ function StepTry({ onNext }: { onNext: () => void }) {
         <Mascot pose="cheer" className="absolute -bottom-3 -right-14 h-24 w-24" />
       </div>
       <div className="space-y-3 pb-2 pt-6">
-        <p className="flex items-center justify-center gap-2 text-[0.9375rem] font-extrabold"><Check className="h-5 w-5 text-success" strokeWidth={3} /> No payment due now</p>
-        <Button onClick={onNext}>Try for $0.00</Button>
-        <p className="text-center text-[0.8125rem] text-muted-foreground">{priceLine(PLANS.yearly)}</p>
+        <p className="flex items-center justify-center gap-2 text-[0.9375rem] font-extrabold">
+          <Check className="h-5 w-5 text-success" strokeWidth={3} /> {trial ? "No payment due now" : "Cancel anytime"}
+        </p>
+        <Button onClick={onNext}>{trial ? "Try for $0.00" : "See plans"}</Button>
+        <p className="text-center text-[0.8125rem] text-muted-foreground">{priceLine(PLANS.yearly, trial)}</p>
       </div>
     </div>
   );
@@ -77,24 +118,36 @@ function StepRemind({ onNext }: { onNext: () => void }) {
   const items = trialTimeline();
   const icons = [Lock, Bell, Crown];
   return (
-    <div className="flex flex-1 flex-col px-6">
+    <Pinned
+      footer={
+        <>
+          <p className="flex items-center justify-center gap-2 pb-1 text-[0.9375rem] font-extrabold">
+            <Check className="h-5 w-5 text-success" strokeWidth={3} /> No payment due now
+          </p>
+          <Button onClick={onNext}>Continue for free</Button>
+        </>
+      }
+    >
       <h1 className="pt-4 text-center text-[1.625rem] font-black leading-tight">We'll remind you before your trial ends</h1>
-      <div className="mt-8 flex justify-center">
-        <motion.div className="relative" animate={{ rotate: [0, -12, 12, -8, 8, 0] }} transition={{ duration: 1.1, delay: 0.3 }}>
-          <Bell className="h-24 w-24 fill-gold text-gold" strokeWidth={1.5} />
+      <div className="mt-7 flex justify-center">
+        <motion.div className="relative" animate={{ rotate: [0, -5, 5, -3, 3, 0] }} transition={{ duration: 1.1, delay: 0.3 }}>
+          <Bell className="h-[88px] w-[88px] fill-gold text-gold" strokeWidth={1.5} />
           <span className="absolute -right-1 top-1 flex h-8 w-8 items-center justify-center rounded-full bg-danger text-[0.9375rem] font-black">1</span>
         </motion.div>
       </div>
-      <div className="mt-10 space-y-0">
+      <div className="mt-8">
         {items.map((it, i) => {
           const Icon = icons[i] ?? Bell;
+          const last = i === items.length - 1;
           return (
             <div key={it.title} className="flex gap-4">
               <div className="flex flex-col items-center">
-                <span className={cn("flex h-11 w-11 items-center justify-center rounded-full", i === 0 ? "bg-primary text-primary-foreground" : "bg-surface-2 text-foreground")}><Icon className="h-5 w-5" /></span>
-                {i < items.length - 1 && <span className="my-1 w-1 flex-1 rounded-full bg-surface-2" />}
+                <span className={cn("flex h-11 w-11 items-center justify-center rounded-full", i === 0 ? "bg-primary text-primary-foreground" : "bg-surface-2 text-foreground")}>
+                  <Icon className="h-5 w-5" />
+                </span>
+                {!last && <span className="my-1 w-1 flex-1 rounded-full bg-surface-2" />}
               </div>
-              <div className="pb-6">
+              <div className={last ? "" : "pb-6"}>
                 <p className="text-[1rem] font-extrabold">{it.title}</p>
                 <p className="text-[0.875rem] text-muted-foreground">{it.body}</p>
               </div>
@@ -102,33 +155,99 @@ function StepRemind({ onNext }: { onNext: () => void }) {
           );
         })}
       </div>
-      <div className="mt-auto space-y-3 pb-2 pt-4">
-        <p className="flex items-center justify-center gap-2 text-[0.9375rem] font-extrabold"><Check className="h-5 w-5 text-success" strokeWidth={3} /> No payment due now</p>
-        <Button onClick={onNext}>Continue for free</Button>
-      </div>
-    </div>
+    </Pinned>
   );
 }
 
-function StepPlans({ plan, setPlan, busy, onStart, onSkip }: { plan: "yearly" | "monthly"; setPlan: (p: "yearly" | "monthly") => void; busy: boolean; onStart: () => void; onSkip: () => void }) {
-  const perks = ["Unlimited clips, every level", "Tap any word for an explanation in context", "Unlimited questions to Kizuki, your AI tutor", "Smart reviews with the original audio", "Hiragana & katakana trainer", "Streaks, goals and progress stats"];
+const PERKS = [
+  "Unlimited clips, every level",
+  "Tap any word for an explanation in context",
+  "Unlimited questions to Kizuki, your AI tutor",
+  "Smart reviews with the original audio",
+  "Hiragana & katakana trainer",
+  "Streaks, goals and progress stats",
+];
+
+function StepPlans({
+  plan,
+  setPlan,
+  busy,
+  trialEligible,
+  onStart,
+  onSkip,
+}: {
+  plan: "yearly" | "monthly";
+  setPlan: (p: "yearly" | "monthly") => void;
+  busy: boolean;
+  trialEligible: boolean;
+  onStart: () => void;
+  onSkip: () => void;
+}) {
+  const trial = plan === "yearly" && trialEligible;
   return (
-    <div className="flex flex-1 flex-col px-6">
+    <Pinned
+      footer={
+        <>
+          <p className="flex items-center justify-center gap-2 text-[0.875rem] font-extrabold">
+            <Check className="h-4 w-4 text-success" strokeWidth={3} /> {trial ? "7 days free · Cancel anytime" : "No commitment · Cancel anytime"}
+          </p>
+          <Button onClick={onStart} disabled={busy}>
+            {busy ? "Starting…" : trial ? "Start my free week" : "Start learning today"}
+          </Button>
+          <p className="text-center text-[0.75rem] text-faint">
+            {priceLine(PLANS[plan], trialEligible)}. Renews automatically, cancel anytime in your store settings.
+          </p>
+          <div className="flex flex-wrap justify-center gap-x-6">
+            <button
+              onClick={() => toast({ title: "No subscription found", description: "Use the same store account you bought with." })}
+              disabled={busy}
+              className="press min-h-10 px-2 text-[0.8125rem] font-bold text-muted-foreground disabled:opacity-50"
+            >
+              Restore purchase
+            </button>
+            <button onClick={onSkip} disabled={busy} className="press min-h-10 px-2 text-[0.8125rem] font-bold text-muted-foreground disabled:opacity-50">
+              Not now
+            </button>
+          </div>
+          {/* Store rules: subscription screens link the Terms of Use and Privacy Policy. */}
+          <p className="text-center text-[0.75rem] text-faint">
+            <Link to="/terms" className="underline">
+              Terms of Use
+            </Link>{" "}
+            ·{" "}
+            <Link to="/privacy" className="underline">
+              Privacy Policy
+            </Link>
+          </p>
+        </>
+      }
+    >
       <div className="flex items-center gap-3 pt-2">
         <Mascot pose="heart" className="h-16 w-16" />
-        <h1 className="text-[1.5rem] font-black leading-tight">Unlock everything in <span className="text-primary">Kizuki</span></h1>
+        <h1 className="text-[1.5rem] font-black leading-tight">
+          Unlock everything in <span className="text-primary">Kizuki</span>
+        </h1>
       </div>
-      <div className="mt-4 space-y-2">
-        {perks.map((p) => <p key={p} className="flex items-center gap-2.5 text-[0.9375rem] font-bold"><Sparkles className="h-4 w-4 shrink-0 text-gold" />{p}</p>)}
-      </div>
-      <div className="mt-5 space-y-3">
+      {/* Plans come first so the price is always visible on small phones; perks scroll below. */}
+      <div className="mt-5 space-y-3.5">
         {(["yearly", "monthly"] as const).map((id) => {
           const p = PLANS[id];
           const active = plan === id;
           return (
-            <button key={id} onClick={() => setPlan(id)} aria-pressed={active} className={cn("press relative flex w-full items-center gap-3 rounded-2xl border-2 bg-surface px-4 py-3.5 text-left", active ? "border-primary bg-primary/10" : "border-border")}>
-              {p.badge && <span className="absolute -top-3 right-4 rounded-full bg-primary px-2.5 py-0.5 text-[0.6875rem] font-black uppercase tracking-wider text-primary-foreground">{p.badge}</span>}
-              <span className={cn("flex h-6 w-6 shrink-0 items-center justify-center rounded-full border-2", active ? "border-primary bg-primary" : "border-surface-3")}>{active && <Check className="h-4 w-4 text-primary-foreground" strokeWidth={3.5} />}</span>
+            <button
+              key={id}
+              onClick={() => setPlan(id)}
+              aria-pressed={active}
+              className={cn("press relative flex w-full items-center gap-3 rounded-2xl border-2 bg-surface px-4 py-3.5 text-left", active ? "border-primary bg-primary/10" : "border-border")}
+            >
+              {p.badge && (
+                <span className="absolute -top-3 right-4 rounded-full bg-primary px-2.5 py-0.5 text-[0.6875rem] font-black uppercase tracking-wider text-primary-foreground">
+                  {p.badge}
+                </span>
+              )}
+              <span className={cn("flex h-6 w-6 shrink-0 items-center justify-center rounded-full border-2", active ? "border-primary bg-primary" : "border-surface-3")}>
+                {active && <Check className="h-4 w-4 text-primary-foreground" strokeWidth={3.5} />}
+              </span>
               <span className="flex-1">
                 <span className="block text-[1rem] font-extrabold">{p.label}</span>
                 <span className="block text-[0.8125rem] text-muted-foreground">{p.sub}</span>
@@ -141,17 +260,15 @@ function StepPlans({ plan, setPlan, busy, onStart, onSkip }: { plan: "yearly" | 
           );
         })}
       </div>
-      <div className="mt-auto space-y-2 pb-1 pt-5">
-        <p className="flex items-center justify-center gap-2 text-[0.875rem] font-extrabold"><Check className="h-4 w-4 text-success" strokeWidth={3} /> {plan === "yearly" ? "7 days free · Cancel anytime" : "No commitment · Cancel anytime"}</p>
-        <Button onClick={onStart} disabled={busy}>{busy ? "Starting…" : (plan === "yearly" ? "Start my free week" : "Start learning today")}</Button>
-        <p className="text-center text-[0.75rem] text-faint">{priceLine(PLANS[plan])}. Renews automatically, cancel anytime in your store settings.</p>
-        <div className="flex flex-wrap justify-center gap-x-6">
-          <button onClick={() => toast({ title: "No subscription found", description: "Use the same store account you bought with." })} disabled={busy} className="press py-1 text-[0.8125rem] font-bold text-muted-foreground">Restore purchase</button>
-          <button onClick={onSkip} className="press py-1 text-[0.8125rem] font-bold text-muted-foreground">Not now</button>
-        </div>
-        {/* Store rules: subscription screens link the Terms of Use and Privacy Policy. */}
-        <p className="text-center text-[0.75rem] text-faint"><Link to="/terms" className="underline">Terms of Use</Link> · <Link to="/privacy" className="underline">Privacy Policy</Link></p>
+      <p className="mt-6 text-[0.6875rem] font-black uppercase tracking-[0.12em] text-muted-foreground">Everything in Premium</p>
+      <div className="mt-2.5 space-y-2">
+        {PERKS.map((p) => (
+          <p key={p} className="flex items-center gap-2.5 text-[0.9375rem] font-bold">
+            <Sparkles className="h-4 w-4 shrink-0 text-gold" />
+            {p}
+          </p>
+        ))}
       </div>
-    </div>
+    </Pinned>
   );
 }

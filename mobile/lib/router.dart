@@ -19,6 +19,7 @@ import 'screens/trial.dart';
 import 'screens/vocab.dart';
 import 'screens/welcome.dart';
 import 'state/app_state.dart';
+import 'logic/logic.dart';
 import 'widgets/tab_bar.dart';
 
 /// Same paths as the web prototype (src/routes).
@@ -35,6 +36,7 @@ GoRouter buildRouter(AppState app) {
     refreshListenable: app,
     redirect: (context, state) {
       final p = state.uri.path;
+      if (purchaseNeedsAccount(app.purchaseAccountPending, false) && !['/account', '/terms', '/privacy', '/support'].contains(p)) return '/account?mode=signin';
       if (!app.onboarded && tabs.contains(p)) return '/';
       if (app.onboarded && p == '/') return '/feed';
       return null;
