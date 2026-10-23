@@ -88,7 +88,7 @@ def apple():
         pass
     manual.append("App Store → App Review Information: add your name, phone and email (Apple only uses them to contact you during review); no demo account needed")
     manual.append("App Store → App Privacy: answer the data questions (email for accounts, purchases, device ID for ads measurement, usage data) — Apple has no API for this")
-    manual.append("App Store → version 1.0.0 → Build: pick the build after the iPhone build is uploaded, then Add for Review")
+    manual.append(f"App Store → version {a['version']} → Build: pick the build after the iPhone build is uploaded, then Add for Review")
 
 
 def _age_rating(info_id, wanted):
