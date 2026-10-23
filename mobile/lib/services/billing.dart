@@ -133,7 +133,7 @@ class Billing {
     final pkg = _packages[plan];
     if (pkg == null) return StoreResult.unavailable;
     try {
-      final info = await Purchases.purchasePackage(pkg);
+      final info = (await Purchases.purchasePackage(pkg)).customerInfo;
       _apply(info);
       return info.entitlements.active.containsKey(entitlement) ? StoreResult.done : StoreResult.none;
     } on PlatformException catch (e) {

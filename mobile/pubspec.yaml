@@ -51,7 +51,7 @@ dependencies:
   intl: ^0.20.3
   url_launcher: ^6.3.3
   video_player: ^2.10.0
-  purchases_flutter: ^8.10.0
+  purchases_flutter: ^9.0.0
   facebook_app_events: ^0.31.0
   app_tracking_transparency: ^2.0.6
 
