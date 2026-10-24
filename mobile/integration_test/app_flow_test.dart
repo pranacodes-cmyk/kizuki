@@ -290,6 +290,10 @@ void main() {
     }
 
     Future<void> swipe(String kind, int expectPage, String name) async {
+      // Pace like a viewer: let the warmed next clip finish loading first. On the software
+      // emulator frames take 0.5-2.8 s during that load, and one adb swipe made inside it
+      // was dropped (run 40124669917); real-phone fast swiping is checked on the store build.
+      await wait(4000);
       debugPrint('E2E_SWIPE $kind');
       await wait(1500);
       await waitUntil(() => settled(expectPage), seconds: 10, what: 'feed page $expectPage after a $kind swipe (now ${pages().page})');
