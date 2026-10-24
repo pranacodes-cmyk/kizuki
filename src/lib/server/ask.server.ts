@@ -6,6 +6,7 @@ import { convertToModelMessages, streamText, type UIMessage } from "ai";
 import { z } from "zod";
 
 import { ASK_MAX_CHARS, ASK_MAX_MESSAGES } from "@/lib/logic";
+import { hasStoreSubscription } from './subscription.server';
 
 import { createLovableAiGatewayRunIdFetch, getLovableAiGatewayRunId, withLovableAiGatewayRunIdHeader } from "./run-id";
 
@@ -71,10 +72,17 @@ export async function handleAsk(request: Request): Promise<Response> {
 
   // Only signed-in learners can ask (keeps the tutor from being used anonymously).
   const token = request.headers.get("authorization")?.replace(/^Bearer\s+/i, "").trim();
-  if (!token) return json(401, "Create a free account to ask Kizuki.");
+  if (!token) return json(401, "Please sign in to ask Kizuki.");
   const auth = createClient(sbUrl, sbKey, { auth: { persistSession: false, autoRefreshToken: false } });
   const { data: user, error: authError } = await auth.auth.getUser(token);
   if (authError || !user?.user) return json(401, "Please sign in again to ask Kizuki.");
+  const billingKey = process.env['REVENUECAT_V2_SECRET_KEY'];
+  if (!billingKey) return json(503, "We couldn't verify your subscription. Please try again.");
+  try {
+    if (!await hasStoreSubscription(user.user.id, billingKey)) return json(403, "Renew or restore your Premium subscription to ask Kizuki.");
+  } catch {
+    return json(503, "We couldn't verify your subscription. Please try again.");
+  }
 
   let body: AskBody;
   try {
@@ -84,8 +92,8 @@ export async function handleAsk(request: Request): Promise<Response> {
   } catch {
     return json(400, "That question couldn't be sent. Please try again.");
   }
-  const last = body.messages[body.messages.length - 1]!;
-  if (last.role !== "user") return json(400, "That question couldn't be sent. Please try again.");
+  const last = body.messages[body.messages.length - 1];
+  if (!last || last.role !== "user") return json(400, "That question couldn't be sent. Please try again.");
   for (const m of body.messages) {
     const t = textOf(m);
     if (m.role === "user" && (t.trim() === "" || t.length > ASK_MAX_CHARS)) return json(400, `Questions can be up to ${ASK_MAX_CHARS} characters.`);
@@ -99,7 +107,7 @@ export async function streamAsk(request: Request, body: AskBody, apiKey: string)
   // History keeps only text: the tutor needs the words, not earlier reasoning.
   const ui: UIMessage[] = body.messages
     .map((m) => ({ id: m.id, role: m.role, parts: [{ type: "text" as const, text: textOf(m).slice(0, 6000) }] }))
-    .filter((m) => m.parts[0]!.text.trim() !== "");
+    .filter((m) => m.parts[0]?.text.trim() !== "");
   const messages = await convertToModelMessages(ui);
 
   const runIdFetch = createLovableAiGatewayRunIdFetch(getLovableAiGatewayRunId(request));

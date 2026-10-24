@@ -57,25 +57,19 @@ void main() {
     expect(find.byKey(const ValueKey('ask-input')), findsNothing);
   });
 
-  testWidgets('signed-in free learner with questions left can ask', (tester) async {
+  testWidgets('signed in without Premium: no questions, the Premium card instead', (tester) async {
     SyncService.I.session = _fakeSession();
-    await _open(tester, asked: 3);
-    expect(find.byKey(const ValueKey('ask-input')), findsOneWidget);
-    expect(find.byKey(ValueKey('ask-suggestion-${askSuggestions(true).first}')), findsOneWidget);
-    expect(find.text('2 of 5 free questions left today'), findsOneWidget);
-  });
-
-  testWidgets('after 5 free questions the composer becomes an upgrade card', (tester) async {
-    SyncService.I.session = _fakeSession();
-    await _open(tester, asked: 5);
+    await _open(tester, asked: 0);
     expect(find.byKey(const ValueKey('ask-input')), findsNothing);
-    expect(find.text('Try Premium free'), findsOneWidget);
+    expect(find.text('Premium is required to ask Kizuki'), findsOneWidget);
+    expect(find.textContaining('free questions'), findsNothing);
   });
 
   testWidgets('premium learners are never limited', (tester) async {
     SyncService.I.session = _fakeSession();
     await _open(tester, asked: 40, premium: true);
     expect(find.byKey(const ValueKey('ask-input')), findsOneWidget);
-    expect(find.text('Try Premium free'), findsNothing);
+    expect(find.byKey(ValueKey('ask-suggestion-${askSuggestions(true).first}')), findsOneWidget);
+    expect(find.text('Premium is required to ask Kizuki'), findsNothing);
   });
 }

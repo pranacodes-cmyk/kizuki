@@ -15,6 +15,7 @@ import path from "node:path";
 import kuromoji from "kuromoji";
 import * as wanakana from "wanakana";
 import excludedClips from "./excluded-clips.json";
+import { runtimeNotes } from "./runtime-notes";
 
 const ROOT = path.resolve(import.meta.dir, "../..");
 const HERE = import.meta.dir;
@@ -574,9 +575,10 @@ for (const dir of OUT_DIRS) {
     const target = path.join(dir, "explain", `${c.id}.json`);
     if (!fs.existsSync(ef)) { fs.rmSync(target, { force: true }); continue; }
     // notes are keyed by "line.word" index — only ship them for the tokenisation they were written for
-    const sig = JSON.parse(fs.readFileSync(ef, "utf8")).sig;
+    const sourceNotes = JSON.parse(fs.readFileSync(ef, "utf8"));
+    const sig = sourceNotes.sig;
     if (sig && sig !== tokenSig(c)) { stale.add(c.id); fs.rmSync(target, { force: true }); continue; }
-    fs.copyFileSync(ef, target);
+    fs.writeFileSync(target, runtimeNotes(sourceNotes));
   }
 }
 if (stale.size) console.warn(`stale explain notes (re-run explain.py): ${stale.size}`);

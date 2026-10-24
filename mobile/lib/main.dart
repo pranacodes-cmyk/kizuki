@@ -10,9 +10,13 @@ import 'data/content.dart';
 import 'logic/logic.dart';
 import 'router.dart';
 import 'services/attribution.dart';
+import 'services/analytics.dart';
+import 'services/auth_links.dart';
 import 'services/billing.dart';
 import 'services/haptics.dart';
 import 'services/notification_service.dart';
+import 'services/onboarding_settings.dart';
+import 'services/trial_preload.dart';
 import 'services/sync_service.dart';
 import 'state/app_state.dart';
 import 'theme/tokens.dart';
@@ -22,6 +26,7 @@ import 'widgets/splash.dart';
 import 'widgets/toast.dart';
 import 'widgets/tracking_explainer.dart';
 import 'widgets/tour.dart';
+import 'widgets/analytics_consent.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -36,8 +41,10 @@ void installErrorHandlers() {
   FlutterError.onError = (details) {
     debugPrint('KIZUKI_ERROR ${details.exceptionAsString()}\n${details.stack}');
     previous?.call(details);
+    Analytics.track('app_error', {'category': 'flutter_widget'});
   };
   PlatformDispatcher.instance.onError = (error, stack) {
+    Analytics.track('app_error', {'category': 'uncaught_async'});
     debugPrint('KIZUKI_ERROR $error\n$stack');
     return true;
   };
@@ -58,9 +65,22 @@ Future<void> startApp() async {
   try {
     await app.load().timeout(const Duration(seconds: 5));
   } catch (e) {
+    // A late load merges in when it finishes; it never replaces live state or Premium.
+    app.loadIsLate = true;
     debugPrint('KIZUKI_ERROR state load: $e');
   }
   Haptics.enabled = app.settings.haptics;
+  // Analytics never holds up the first frame; setup continues in the background.
+  try {
+    await Analytics.load().timeout(const Duration(seconds: 2));
+  } catch (e) {
+    debugPrint('KIZUKI_WARN analytics load: $e');
+  }
+  // Saved flags are not proof of a subscription. Launch locked until the store verifies it.
+  if (!Billing.simulate && kReleaseMode) app.applyPremium(Premium());
+  // A browser sign-in that opens the app must be caught from the very first moment.
+  AuthLinks.I.onUnclaimed = SyncService.I.installHandoff;
+  AuthLinks.I.start();
   // The animated splash covers the first screen; entrances wait until it fades.
   SplashGate.visible.value = true;
   runApp(MultiProvider(
@@ -71,6 +91,7 @@ Future<void> startApp() async {
     child: KizukiApp(app: app),
   ));
   unawaited(Content.load().then<void>((_) {}, onError: (Object e) => debugPrint('KIZUKI_ERROR content: $e')));
+  unawaited(OnboardingSettings.refresh());
   unawaited(NotificationService.init().catchError((Object e) => debugPrint('KIZUKI_ERROR reminders: $e')));
   unawaited(SyncService.I.boot(app));
   // Live store prices + subscription status (App Store / Google Play via RevenueCat).
@@ -79,6 +100,8 @@ Future<void> startApp() async {
     app.applyPremium(p);
     unawaited(NotificationService.scheduleTrialReminder(p.trialEndsAt));
   };
+  // A purchase the store approved later gets the same mandatory account step.
+  Billing.onApprovedLater = app.requirePurchaseAccount;
   unawaited(Billing.init().then((_) => Attribution.linkRevenueCat()));
 }
 
@@ -112,7 +135,12 @@ class _KizukiAppState extends State<KizukiApp> {
 
   void _syncPath() {
     final p = topPath(router);
-    if (p != null) _path.value = p;
+    if (p != null) { _path.value = p; Analytics.screen(p); }
+    final a = widget.app;
+    if (a.onboarded && !subscriptionAccess(a.premium.active, a.premium.expiresAt, a.premium.trialEndsAt, DateTime.now().millisecondsSinceEpoch)) {
+      Tour.I.reset();
+      router.routerDelegate.navigatorKey.currentState?.popUntil((r) => r is! PopupRoute);
+    }
   }
 
   @override
@@ -131,6 +159,7 @@ class _KizukiAppState extends State<KizukiApp> {
       if (ctx != null && ctx.mounted) await showTrackingExplainer(ctx);
     };
     WidgetsBinding.instance.addPostFrameCallback((_) => unawaited(Attribution.start()));
+    WidgetsBinding.instance.addPostFrameCallback((_) => TrialPreload.start(context));
   }
 
   @override
@@ -192,6 +221,7 @@ class _KizukiAppState extends State<KizukiApp> {
         const Positioned.fill(child: ToastLayer()),
         // Cold-start splash above everything; it removes itself after ~1.6 s.
         const Positioned.fill(child: SplashOverlay()),
+        const AnalyticsConsent(),
       ]),
     );
   }

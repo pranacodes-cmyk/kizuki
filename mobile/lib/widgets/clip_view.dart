@@ -12,6 +12,7 @@ import '../data/models.dart' as m;
 import '../data/tour.dart' show TourEvent;
 import '../logic/logic.dart' show pickTourWord;
 import '../services/haptics.dart';
+import '../services/analytics.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import 'clip_player.dart';
@@ -121,6 +122,7 @@ class _ClipViewState extends State<ClipView> {
   }
 
   void _activate() {
+    Analytics.track('clip_viewed', {'clip_id': widget.clip.id, 'source': widget.inFeed ? 'feed' : 'clip', 'jlpt': widget.clip.level});
     widget.content.notes(widget.clip.id).then((n) {
       if (mounted) setState(() => notes = n);
     });
@@ -142,6 +144,7 @@ class _ClipViewState extends State<ClipView> {
 
   void _onPlaying(bool v) {
     if (v == playing) return;
+    if (widget.active) Analytics.track(v ? 'clip_played' : 'clip_paused', {'clip_id': widget.clip.id});
     setState(() => playing = v);
     _tick?.cancel();
     if (v) {
@@ -194,6 +197,7 @@ class _ClipViewState extends State<ClipView> {
   String _statusOf(AppState app, m.Word w) => app.tokenStatus(keyOfWord(w));
 
   void _onWord(int li, int wi) {
+    Analytics.track('word_card_opened', {'clip_id': widget.clip.id, 'line_index': li, 'word_index': wi});
     final app = context.read<AppState>();
     Haptics.select();
     setState(() => sel = (li, wi));
@@ -211,6 +215,7 @@ class _ClipViewState extends State<ClipView> {
   }
 
   void _seekLine(int li) {
+    Analytics.track('clip_line_replayed', {'clip_id': widget.clip.id});
     if (li < 0 || li >= widget.clip.lines.length) return;
     _player.currentState?.seek(math.max(widget.clip.start, widget.clip.lines[li].start - 0.1));
   }
@@ -276,7 +281,7 @@ class _ClipViewState extends State<ClipView> {
             ],
           ),
         ),
-        Padding(
+        TourAnchor(id: 'controls', enabled: tourOn, child: Padding(
           padding: const EdgeInsets.fromLTRB(8, 6, 8, 0),
           child: Row(
             children: [
@@ -335,7 +340,7 @@ class _ClipViewState extends State<ClipView> {
               ),
             ],
           ),
-        ),
+        )),
         Expanded(
           child: NotificationListener<ScrollNotification>(
           onNotification: _onTranscriptScroll,

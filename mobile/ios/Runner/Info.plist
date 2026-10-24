@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>com.posthog.posthog.AUTO_INIT</key>
+	<false/>
 	<key>FacebookAppID</key>
 	<string>1145381451472542</string>
 	<key>FacebookClientToken</key>
@@ -12,6 +14,22 @@
 	<false/>
 	<key>FacebookAutoInitEnabled</key>
 	<true/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array><string>com.googleusercontent.apps.275836414743-leolu0dp0j8v0jatevcqq327073ssd3b</string></array>
+		</dict>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.kizukijapan.app.auth</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<!-- Browser sign-in hand-off (kizuki://auth?session=...). -->
+				<string>kizuki</string>
+			</array>
+		</dict>
+	</array>
 	<key>FacebookAdvertiserIDCollectionEnabled</key>
 	<true/>
 	<key>NSUserTrackingUsageDescription</key>

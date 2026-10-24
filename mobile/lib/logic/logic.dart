@@ -16,6 +16,38 @@ const studyWindows = ['morning', 'afternoon', 'evening', 'night'];
 const streakGoals = [7, 14, 30, 50];
 const jlptLevels = ['N5', 'N4', 'N3', 'N2', 'N1'];
 
+List<String> signInProviders(String platform) => platform == 'android' ? const ['google'] : const ['google', 'apple'];
+bool founderVideoEnabled(Object? remote, [bool cached = true]) => remote is bool ? remote : cached;
+String onboardingAfterPlan(bool enabled) => enabled ? '/founder' : '/trial';
+
+/// Remote native sign-in switch: off until the backend accepts this app's own provider
+/// tokens; a missing/invalid value keeps the last valid one.
+bool nativeSignInEnabled(Object? remote, [bool cached = false]) => remote is bool ? remote : cached;
+
+/// How a phone sign-in runs: the native account sheet when its switch is on, otherwise
+/// the browser hand-off through the published site (also the fallback when native fails).
+String signInMethod(String provider, {required bool nativeGoogle, required bool nativeApple}) =>
+    (provider == 'google' && nativeGoogle) || (provider == 'apple' && nativeApple) ? 'native' : 'browser';
+
+/// Learner progress on a device belongs to the account it last synced with (`owner`).
+/// Progress made before any sign-in (no owner) joins the first account; signing into a
+/// different account starts from a clean learner document that keeps only device-level
+/// values, so one learner's words, history and profile never merge into another account.
+Map<String, dynamic> localStateFor(Map<String, dynamic> local, String userId) {
+  final owner = local['owner'];
+  if (owner == null || owner == userId) return {...local, 'owner': userId};
+  return {
+    'version': local['version'] ?? 1,
+    'onboarded': local['onboarded'] == true,
+    'purchaseAccountPending': local['purchaseAccountPending'] == true,
+    'premium': local['premium'],
+    'settings': local['settings'],
+    'feedSeed': local['feedSeed'],
+    'owner': userId,
+    'updatedAt': 0,
+  };
+}
+
 /// Self-reported level (0..4) → JLPT band used for content.
 String levelToJlpt(int level) => const ['N5', 'N5', 'N4', 'N3', 'N2'][level.clamp(0, 4)];
 
@@ -211,6 +243,13 @@ const stillClipPenalty = 6.0;
 const starterWatchLimit = 60;
 /// Only yearly simulation has a trial; native dates always come from the store.
 int? simulatedTrialEnd(String plan, int now) => plan == 'yearly' ? now + 7 * dayMs : null;
+/// Expired trials/subscriptions never fall back to free learning.
+bool subscriptionAccess(bool active, int? expiresAt, int? trialEndsAt, int now) {
+  final end = expiresAt ?? trialEndsAt;
+  return active && (end == null || end > now);
+}
+bool learningPath(String path) => !['/account', '/settings', '/support', '/terms', '/privacy', '/trial', '/profile', '/achievements'].contains(path);
+bool onboardingPath(String path) => ['/', '/onboarding', '/building', '/plan', '/founder'].contains(path);
 String subscriptionPhase(bool active, String? plan, int? trialEndsAt, int now) =>
     !active ? 'free' : plan == 'yearly' && trialEndsAt != null && trialEndsAt > now ? 'trial' : 'active';
 /// YouTube reports zero until metadata arrives; allow only end-padding tolerance.
@@ -790,9 +829,9 @@ List<String> searchClips(List<Clip> clips, String query, {String? level, String?
   final qLower = query.trim().toLowerCase();
   final hits = <MapEntry<Clip, int>>[];
   for (final c in clips) {
-    if (level != null && c.level != level) continue;
-    if (topic != null && !c.topics.contains(topic)) continue;
-    if (grammar != null && !c.grammar.any((g) => grammarKey(g) == grammar)) continue;
+    if (level != null && level.isNotEmpty && c.level != level) continue;
+    if (topic != null && topic.isNotEmpty && !c.topics.contains(topic)) continue;
+    if (grammar != null && grammar.isNotEmpty && !c.grammar.any((g) => grammarKey(g) == grammar)) continue;
     final s = q.isEmpty ? 1 : _matchScore(c, q, qLower);
     if (s > 0) hits.add(MapEntry(c, s));
   }
@@ -904,8 +943,8 @@ Map<String, dynamic> mergeState(Map<String, dynamic> local, Map<String, dynamic>
 // Free tier + "hear it again"
 // ---------------------------------------------------------------------------
 
-/// Free learners get [freeLimit] clips a day; premium (incl. trial) is unlimited.
-bool canWatchClip(bool premiumActive, int clipsToday, int freeLimit) => premiumActive || clipsToday < freeLimit;
+/// Only active trial/paid learners can watch; legacy quota arguments stay compatible.
+bool canWatchClip(bool premiumActive, int clipsToday, int freeLimit) => premiumActive;
 
 /// Other clips that contain a word key, best level-fit first, excluding the current clip.
 List<String> clipsWithWord(List<Clip> clips, String key, String excludeId, String jlpt, {int limit = 6}) {
@@ -954,11 +993,11 @@ const askMaxMessages = 10;
 /// Questions asked today; the counter resets on a new day.
 int asksToday(String day, int n, String today) => day == today ? n : 0;
 
-/// Free learners get [freeLimit] questions a day; premium (incl. trial) is unlimited.
-bool canAsk(bool premiumActive, int asked, int freeLimit) => premiumActive || asked < freeLimit;
+/// Only active trial/paid learners can ask; no free learning tier.
+bool canAsk(bool premiumActive, int asked, int freeLimit) => premiumActive;
 
 /// Free questions left today, or null when unlimited.
-int? asksLeft(bool premiumActive, int asked, int freeLimit) => premiumActive ? null : math.max(0, freeLimit - asked);
+int? asksLeft(bool premiumActive, int asked, int freeLimit) => premiumActive ? null : 0;
 
 /// Typed question → what gets sent: whitespace collapsed, trimmed, capped at [askMaxChars].
 String cleanQuestion(String s) {

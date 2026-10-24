@@ -10,6 +10,7 @@ import '../data/paywall.dart';
 import '../data/tour.dart';
 import '../logic/logic.dart';
 import '../services/ask_service.dart';
+import '../services/analytics.dart';
 import '../services/sync_service.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
@@ -32,6 +33,7 @@ class _AskSheetState extends State<AskSheet> {
   final _input = TextEditingController();
   final _scroll = ScrollController();
   final List<AskMessage> _msgs = [];
+  late final bool _tourExample = Tour.I.running;
   AskRequest? _req;
   bool _waiting = false;
   String? _error;
@@ -42,6 +44,7 @@ class _AskSheetState extends State<AskSheet> {
   @override
   void initState() {
     super.initState();
+    Analytics.track('ask_opened', {'has_word_context': widget.ctx.word != null});
     _input.addListener(() => setState(() {}));
   }
 
@@ -61,6 +64,7 @@ class _AskSheetState extends State<AskSheet> {
     final app = context.read<AppState>();
     final q = cleanQuestion(raw);
     if (q.isEmpty || _busy || !canAsk(app.premium.active, app.asksTodayCount, freeDailyAsks)) return;
+    Analytics.track('ask_submitted', {'has_word_context': widget.ctx.word != null});
     _input.clear();
     final answerId = 'a${_seq++}';
     final req = AskRequest();
@@ -99,6 +103,7 @@ class _AskSheetState extends State<AskSheet> {
         app.recordAsk();
       }
     } on AskFailure catch (e) {
+      Analytics.track('ask_failed', {'category': 'request'});
       if (mounted && _req == req) setState(() => _error = e.message);
     } finally {
       req.close();
@@ -112,6 +117,7 @@ class _AskSheetState extends State<AskSheet> {
   }
 
   void _stop() {
+    Analytics.track('ask_stopped');
     _req?.close();
     setState(() {
       _req = null;
@@ -142,17 +148,17 @@ class _AskSheetState extends State<AskSheet> {
     final app = context.watch<AppState>();
     final mq = MediaQuery.of(context);
     final insets = mq.viewInsets.bottom;
-    final height = math.max(260.0, math.min(mq.size.height * 0.8, mq.size.height * 0.92 - 28 - insets));
+    final height = math.max(260.0, math.min(mq.size.height * (_tourExample ? 0.56 : 0.8), mq.size.height * 0.92 - 28 - insets));
     final signedIn = SyncService.I.session != null;
     final left = asksLeft(app.premium.active, app.asksTodayCount, freeDailyAsks);
     final word = widget.ctx.word;
 
     return Padding(
       padding: EdgeInsets.only(bottom: insets),
-      child: SizedBox(
+      child: TourAnchor(id: 'askPanel', enabled: _tourExample, child: SizedBox(
         height: height,
         child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-          TourAnchor(id: 'askPanel', child: Padding(
+          Padding(
             padding: const EdgeInsets.fromLTRB(20, 6, 20, 0),
             child: Row(children: [
               const Mascot(MascotPose.think, size: 44),
@@ -166,7 +172,7 @@ class _AskSheetState extends State<AskSheet> {
                 ]),
               ),
             ]),
-          )),
+          ),
           Container(
             margin: const EdgeInsets.fromLTRB(20, 12, 20, 0),
             padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
@@ -179,7 +185,17 @@ class _AskSheetState extends State<AskSheet> {
               ],
             ]),
           ),
-          if (!signedIn) Expanded(child: _locked()) else ...[
+          if (_tourExample) Expanded(child: SingleChildScrollView(
+            padding: const EdgeInsets.fromLTRB(20, 14, 20, 12),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+              Text('EXAMPLE · NO QUESTION SENT', style: txt(11, w: FontWeight.w800, c: T.muted)),
+              const SizedBox(height: 10),
+              const _UserBubble(text: 'What does this word mean here?'),
+              _Bubble(text: word != null && word.gloss.isNotEmpty
+                ? '**${word.surface}** here means **${word.gloss}**.\nThe sentence above shows the context.'
+                : widget.ctx.en.isNotEmpty ? 'This line means: **${widget.ctx.en}**' : 'Ask about grammar, meaning or another example from this line.'),
+            ]),
+          )) else if (!signedIn) Expanded(child: _locked()) else ...[
             Expanded(
               child: ListView(
                 controller: _scroll,
@@ -209,17 +225,19 @@ class _AskSheetState extends State<AskSheet> {
               ),
             ),
             if (left == 0 && !_busy) _limit() else _composer(),
-            Padding(
-              padding: const EdgeInsets.fromLTRB(20, 0, 20, 6),
-              child: Text(
-                left == null ? 'AI answers can be wrong — double-check anything important.' : '$left of $freeDailyAsks free questions left today',
-                textAlign: TextAlign.center,
-                style: txt(11, w: FontWeight.w600, c: T.faint),
+            // There are no free questions any more: the Premium card explains access.
+            if (left == null)
+              Padding(
+                padding: const EdgeInsets.fromLTRB(20, 0, 20, 6),
+                child: Text(
+                  'AI answers can be wrong — double-check anything important.',
+                  textAlign: TextAlign.center,
+                  style: txt(11, w: FontWeight.w600, c: T.faint),
+                ),
               ),
-            ),
           ],
         ]),
-      ),
+      )),
     );
   }
 
@@ -280,11 +298,11 @@ class _AskSheetState extends State<AskSheet> {
         padding: const EdgeInsets.fromLTRB(16, 14, 16, 14),
         decoration: BoxDecoration(color: T.primary.withValues(alpha: 0.1), borderRadius: BorderRadius.circular(16)),
         child: Column(children: [
-          Text("That's your $freeDailyAsks free questions for today", textAlign: TextAlign.center, style: txt(15, w: FontWeight.w900)),
+          Text('Premium is required to ask Kizuki', textAlign: TextAlign.center, style: txt(15, w: FontWeight.w900)),
           const SizedBox(height: 2),
           Text('Premium gives you unlimited answers from Kizuki.', textAlign: TextAlign.center, style: txt(13, w: FontWeight.w500, c: T.muted)),
           const SizedBox(height: 10),
-          Button3D(label: 'Try Premium free', height: 48, onPressed: () => _go('/trial')),
+          Button3D(label: 'See plans', height: 48, onPressed: () => _go('/trial')),
         ]),
       );
 
@@ -295,10 +313,10 @@ class _AskSheetState extends State<AskSheet> {
           const SizedBox(height: 12),
           Text('Ask Kizuki anything', textAlign: TextAlign.center, style: txt(20, w: FontWeight.w900)),
           const SizedBox(height: 6),
-          Text('Create a free account to ask follow-up questions about any line — grammar, nuance, more examples. Your words and streak sync too.',
+          Text('Sign in with your Premium account to ask about this line. Your words and streak sync too.',
               textAlign: TextAlign.center, style: txt(15, w: FontWeight.w500, c: T.muted, h: 1.4)),
           const SizedBox(height: 16),
-          Button3D(key: const ValueKey('ask-signup'), label: 'Create free account', height: 52, onPressed: () => _go('/account')),
+          Button3D(key: const ValueKey('ask-signup'), label: 'Sign in', height: 52, onPressed: () => _go('/account')),
         ]),
       );
 }

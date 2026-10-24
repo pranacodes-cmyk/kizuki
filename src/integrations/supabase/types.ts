@@ -32,6 +32,27 @@ export type Database = {
         }
         Relationships: []
       }
+      onboarding_settings: {
+        Row: {
+          founder_video_enabled: boolean
+          id: number
+          native_apple_sign_in: boolean
+          native_google_sign_in: boolean
+        }
+        Insert: {
+          founder_video_enabled?: boolean
+          id?: number
+          native_apple_sign_in?: boolean
+          native_google_sign_in?: boolean
+        }
+        Update: {
+          founder_video_enabled?: boolean
+          id?: number
+          native_apple_sign_in?: boolean
+          native_google_sign_in?: boolean
+        }
+        Relationships: []
+      }
       profiles: {
         Row: {
           avatar_url: string | null

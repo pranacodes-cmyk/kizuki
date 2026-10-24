@@ -5,21 +5,24 @@ import { DefaultChatTransport, type UIMessage } from "ai";
 import { ArrowUp, CircleAlert, Square } from "lucide-react";
 import { Fragment, useEffect, useMemo, useRef, useState } from "react";
 
+import { track } from '@/lib/analytics';
 import { supabase } from "@/integrations/supabase/client";
 import { ASK_PATH, askErrorText, askGreeting, askSuggestions, type AskContext } from "@/lib/ask";
 import { ASK_MAX_CHARS, askHistory, asksLeft, canAsk, cleanQuestion } from "@/lib/logic";
 import { FREE_DAILY_ASKS } from "@/lib/paywall";
 import { asksTodayOf, useApp } from "@/lib/store";
 import { getSession } from "@/lib/sync";
+import { useTour } from "@/lib/tour-store";
 import { cn } from "@/lib/utils";
 
 import { Mascot } from "./Mascot";
 import { Button, Sheet } from "./ui";
 
 export function AskSheet({ open, onClose, context }: { open: boolean; onClose: () => void; context: AskContext }) {
+  const touring = useTour((s) => s.index != null);
   return (
-    <Sheet open={open} onClose={onClose} maxHeight="92%" className="h-[80%]">
-      {open && <AskChat context={context} onClose={onClose} />}
+    <Sheet open={open} onClose={onClose} maxHeight="92%" className={touring ? "h-[56%]" : "h-[80%]"}>
+      {open && <AskChat context={context} onClose={onClose} tourExample={touring} />}
     </Sheet>
   );
 }
@@ -39,8 +42,9 @@ function errorCopy(e: Error) {
   return raw && raw.length < 160 && !raw.startsWith("<") && !raw.startsWith("{") ? raw : askErrorText(500);
 }
 
-function AskChat({ context, onClose }: { context: AskContext; onClose: () => void }) {
+function AskChat({ context, onClose, tourExample }: { context: AskContext; onClose: () => void; tourExample: boolean }) {
   const navigate = useNavigate();
+  useEffect(() => { track('ask_opened', { has_word_context: Boolean(context.word) }); return () => track('ask_closed'); }, []);
   const premium = useApp((s) => s.premium.active);
   const asked = useApp(asksTodayOf);
   const [signedIn] = useState(() => !!getSession());
@@ -66,6 +70,7 @@ function AskChat({ context, onClose }: { context: AskContext; onClose: () => voi
   );
   const { messages, sendMessage, status, error, stop, regenerate, clearError } = useChat({
     transport,
+    onError: () => track('ask_failed', { category: 'request' }),
     onFinish: ({ message, isAbort, isError, isDisconnect }) => {
       if (isAbort || isError || isDisconnect) return;
       if (textOf(message).trim()) useApp.getState().recordAsk();
@@ -88,6 +93,7 @@ function AskChat({ context, onClose }: { context: AskContext; onClose: () => voi
   const send = (raw: string) => {
     const q = cleanQuestion(raw);
     if (!q || busy || !canAsk(premium, asked, FREE_DAILY_ASKS)) return;
+    track('ask_submitted', { has_word_context: Boolean(context.word) });
     setInput("");
     setEmptyAnswer(false);
     clearError();
@@ -104,8 +110,8 @@ function AskChat({ context, onClose }: { context: AskContext; onClose: () => voi
   };
 
   return (
-    <div className="flex min-h-0 flex-1 flex-col">
-      <div data-tour="askPanel" className="flex items-center gap-3 px-5 pt-1.5">
+    <div data-tour={tourExample ? "askPanel" : undefined} className="flex min-h-0 flex-1 flex-col">
+      <div className="flex items-center gap-3 px-5 pt-1.5">
         <Mascot pose="think" className="h-11 w-11 shrink-0" />
         <div className="min-w-0 flex-1">
           <p className="text-[1.125rem] font-black">Ask Kizuki</p>
@@ -119,14 +125,22 @@ function AskChat({ context, onClose }: { context: AskContext; onClose: () => voi
         {context.line.en && <p className="mt-0.5 line-clamp-2 text-[0.8125rem] text-muted-foreground">{context.line.en}</p>}
       </div>
 
-      {!signedIn ? (
+      {tourExample ? (
+        <div className="min-h-0 flex-1 overflow-y-auto px-5 pb-3 pt-3.5 no-scrollbar">
+          <p className="mb-2.5 text-[0.6875rem] font-extrabold text-muted-foreground">EXAMPLE · NO QUESTION SENT</p>
+          <UserBubble text="What does this word mean here?" />
+          <Bubble text={context.word?.gloss
+            ? `**${context.word.surface}** here means **${context.word.gloss}**.\nThe sentence above shows the context.`
+            : context.line.en ? `This line means: **${context.line.en}**` : "Ask about grammar, meaning or another example from this line."} />
+        </div>
+      ) : !signedIn ? (
         <div className="flex-1 overflow-y-auto px-6 pb-4 pt-5 text-center no-scrollbar">
           <Mascot pose="wave" className="mx-auto h-24 w-24" />
           <p className="mt-3 text-[1.25rem] font-black">Ask Kizuki anything</p>
           <p className="mt-1.5 text-[0.9375rem] font-medium leading-snug text-muted-foreground">
-            Create a free account to ask follow-up questions about any line — grammar, nuance, more examples. Your words and streak sync too.
+            Sign in with your Premium account to ask about this line. Your words and streak sync too.
           </p>
-          <Button className="mt-4 h-[52px]" onClick={() => go("/account")}>Create free account</Button>
+          <Button className="mt-4 h-[52px]" onClick={() => go("/account")}>Sign in</Button>
         </div>
       ) : (
         <>
@@ -152,9 +166,9 @@ function AskChat({ context, onClose }: { context: AskContext; onClose: () => voi
 
           {left === 0 && !busy ? (
             <div className="mx-4 mb-2 mt-1 rounded-2xl bg-primary/10 px-4 py-3.5 text-center">
-              <p className="text-[0.9375rem] font-black">That's your {FREE_DAILY_ASKS} free questions for today</p>
+              <p className="text-[0.9375rem] font-black">Premium is required to ask Kizuki</p>
               <p className="mt-0.5 text-[0.8125rem] font-medium text-muted-foreground">Premium gives you unlimited answers from Kizuki.</p>
-              <Button className="mt-2.5 h-12" onClick={() => go("/trial")}>Try Premium free</Button>
+              <Button className="mt-2.5 h-12" onClick={() => go("/trial")}>See plans</Button>
             </div>
           ) : (
             <form
@@ -183,9 +197,12 @@ function AskChat({ context, onClose }: { context: AskContext; onClose: () => voi
               )}
             </form>
           )}
-          <p className="px-5 pb-1.5 text-center text-[0.6875rem] font-semibold text-faint">
-            {left === null ? "AI answers can be wrong — double-check anything important." : `${left} of ${FREE_DAILY_ASKS} free questions left today`}
-          </p>
+          {/* There are no free questions any more: the Premium card explains access. */}
+          {left === null && (
+            <p className="px-5 pb-1.5 text-center text-[0.6875rem] font-semibold text-faint">
+              AI answers can be wrong — double-check anything important.
+            </p>
+          )}
         </>
       )}
     </div>

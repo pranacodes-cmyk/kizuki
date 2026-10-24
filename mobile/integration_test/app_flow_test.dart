@@ -4,7 +4,9 @@ import 'package:go_router/go_router.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:mimi/data/tour.dart';
 import 'package:mimi/main.dart' as kizuki;
+import 'package:mimi/screens/founder.dart';
 import 'package:mimi/screens/settings.dart';
+import 'package:mimi/screens/trial.dart';
 import 'package:mimi/state/app_state.dart';
 import 'package:mimi/widgets/feed_pager.dart';
 import 'package:mimi/widgets/feed_preview.dart';
@@ -99,16 +101,24 @@ void main() {
     expect(state().profile.reasons, ['work']);
     expect(state().profile.jlpt, 'N5');
 
-    // ---- Plan → founder → paywall → account ----------------------------------------
+    // ---- Plan → founder (remote switch) → paywall → account ------------------------
     await waitFor(find.text('Continue'), seconds: 40, what: 'plan screen');
     await shot('06_plan');
     await tapText('Continue', after: 1500);
-    // The welcome message is the real presenter video (not the fox fallback).
-    await waitFor(find.byType(VideoPlayer), seconds: 15, what: 'presenter video');
-    await shot('07_founder');
-    await wait(4000);
-    await shot('07b_founder_playing');
-    await tapText('Continue', after: 1200);
+    // The founder screen can be switched off remotely; both paths meet at the trial.
+    final founder = find.byType(FounderScreen), trial = find.byType(TrialScreen);
+    await waitFor(find.byWidgetPredicate((w) => w is FounderScreen || w is TrialScreen), seconds: 20, what: 'founder or trial');
+    if (founder.evaluate().isNotEmpty) {
+      // The welcome message is the real presenter video (not the fox fallback).
+      await waitFor(find.byType(VideoPlayer), seconds: 15, what: 'presenter video');
+      await shot('07_founder');
+      await wait(4000);
+      await shot('07b_founder_playing');
+      await tapText('Continue', after: 1200);
+    } else {
+      debugPrint('E2E_INFO founder screen switched off remotely: plan went straight to trial');
+    }
+    await waitFor(trial, seconds: 20, what: 'trial');
     await shot('08_trial');
     // The phone mockup plays the personal feed demo (it used to be empty).
     await wait(3500);
@@ -128,10 +138,11 @@ void main() {
     await shot('10_account');
     expect(state().purchaseAccountPending, isTrue);
     expect(find.text('Maybe later'), findsNothing);
-    // Separate signed-out feed fixture: checkout gate above is verified, not bypassed by UI.
-    // A real authenticated checkout test requires an approved test account.
+    expect(find.byKey(const ValueKey('account-google')), findsOneWidget);
+    // Signed-out feed fixture with the simulated (test-build) entitlement kept active: the
+    // checkout gate above is verified, not bypassed by UI. A real authenticated checkout
+    // test requires an approved test account.
     state().confirmPurchaseAccount();
-    state().cancelPremium();
     state().completeOnboarding();
     GoRouter.of(ctx()).go('/feed');
     await wait(1500);
@@ -227,6 +238,8 @@ void main() {
     await atStep('hello', '21_tour_hello');
     expect(find.textContaining('Hi Mohit!'), findsOneWidget);
     await tapText('Show me');
+    await atStep('controls', '21b_tour_controls');
+    await tapText('Try a word');
     await atStep('tapWord', '22_tour_tap_word');
     await tapAnchor('word');
     await atStep('meaning', '23_tour_meaning');
@@ -234,6 +247,7 @@ void main() {
     await atStep('askOpen', '24_tour_explain');
     await tapAnchor('askButton');
     await atStep('askInfo', '25_tour_ask');
+    expect(find.text('EXAMPLE · NO QUESTION SENT'), findsOneWidget);
     // The tour closes Ask Kizuki and the word card itself.
     await tapText('Back to the video');
     await atStep('legend', '26_tour_legend');
@@ -243,6 +257,8 @@ void main() {
     debugPrint('E2E_SWIPE up');
     await atStep('vocabTab', '28_tour_vocab_tab');
     await tapAnchor('vocabTab');
+    await atStep('kanaDecks', '28b_tour_kana');
+    await tapText('Got it');
     await atStep('review', '29_tour_review');
     await tapAnchor('reviewButton');
     await atStep('reveal', '30_tour_reveal');

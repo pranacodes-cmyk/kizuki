@@ -6,7 +6,7 @@ import type { MascotPose } from "@/components/mimi/Mascot";
 /** Things the learner does that move an "action" step forward. */
 export type TourEvent = "word" | "explain" | "cardClosed" | "askOpened" | "askClosed" | "swipe" | "reveal" | "graded";
 
-export type TourTarget = "player" | "word" | "cardExplain" | "card" | "askButton" | "askPanel" | "vocabTab" | "reviewButton" | "reviewCard" | "grade";
+export type TourTarget = "player" | "controls" | "word" | "cardExplain" | "card" | "askButton" | "askPanel" | "vocabTab" | "reviewButton" | "reviewCard" | "grade";
 
 export type TourStep = {
   id: string;
@@ -17,7 +17,7 @@ export type TourStep = {
   text: string;
   pose: MascotPose;
   /** tap = Next (or tap anywhere) · action = do the highlighted thing · legend = underline key · finish = last card. */
-  kind?: "tap" | "action" | "legend" | "finish";
+  kind?: "tap" | "action" | "controls" | "legend" | "finish";
   /** Action steps: the event that completes the step… */
   until?: TourEvent;
   /** …or the route that completes it. */
@@ -48,13 +48,15 @@ export type TourStep = {
 
 export const TOUR_STEPS: TourStep[] = [
   { id: "hello", screens: ["/feed"], target: null, text: "Hi{name}! I'll show you how Kizuki works. It takes one minute — just tap what I point at.", pose: "wave", button: "Show me" },
+  { id: "controls", screens: ["/feed"], target: "controls", text: "Slow down, replay or save a clip.", pose: "listen", kind: "controls", button: "Try a word" },
   { id: "tapWord", screens: ["/feed"], target: "word", text: "Real Japanese, with subtitles. Tap this word to see what it means.", pose: "think", kind: "action", until: "word", hand: "tap", hint: "Tap the highlighted word", skipTo: "legend" },
   { id: "meaning", screens: ["/feed"], target: "card", text: "That's what it means. It's saved for you, so you can practice it later.", pose: "read", kind: "action", until: "explain", hand: "tap", handAt: "cardExplain", hint: "Now tap Explain", skipTo: "legend", place: "top", fullHole: true },
   { id: "askOpen", screens: ["/feed"], target: "card", text: "This explains the word in this exact sentence. Still have a question?", pose: "think", kind: "action", until: "askOpened", hand: "tap", handAt: "askButton", hint: "Tap Ask Kizuki", skipTo: "legend", place: "top", fullHole: true },
-  { id: "askInfo", screens: ["/feed"], target: "askPanel", text: "Ask me anything about this word here: grammar, meaning or more examples.", pose: "heart", button: "Back to the video", closesSheets: true },
+  { id: "askInfo", screens: ["/feed"], target: "askPanel", text: "Here is an example. Your question stays about the word and sentence you just watched.", pose: "heart", button: "Back to the video", closesSheets: true, place: "top" },
   { id: "legend", screens: ["/feed"], target: null, text: "The line under each word tells you:", pose: "think", kind: "legend" },
-  { id: "swipe", screens: ["/feed"], target: null, text: "Swipe up for the next clip.", pose: "cheer", kind: "action", until: "swipe", hand: "swipe", passThrough: true, hint: "Swipe up anywhere" },
+  { id: "swipe", screens: ["/feed"], target: "controls", text: "Swipe up for the next clip.", pose: "cheer", kind: "action", until: "swipe", hand: "swipe", passThrough: true, hint: "Swipe up anywhere" },
   { id: "vocabTab", screens: ["/feed", "/explore"], target: "vocabTab", text: "Every word you tap is saved in Vocab.", pose: "heart", kind: "action", untilRoute: "/vocab", hand: "tap", hint: "Tap Vocab", skipTo: "done" },
+  { id: "kanaDecks", screens: ["/vocab"], target: null, text: "One more thing: these two decks teach the Japanese ABCs. Hiragana あ and Katakana ア are the same sounds, just two ways to write them. Start with Hiragana — it's optional, but it makes reading real Japanese much easier.", pose: "read", button: "Got it" },
   { id: "review", screens: ["/vocab"], target: "reviewButton", text: "Your new word is waiting here. Let's practice it once.", pose: "cheer", kind: "action", untilRoute: "/review", hand: "tap", hint: "Tap the orange button", skipTo: "done" },
   { id: "reveal", screens: ["/review"], target: "reviewCard", text: "Do you remember what it means? Tap the card to check.", pose: "think", kind: "action", until: "reveal", hand: "tap", hint: "Tap anywhere on the card", skipTo: "done", place: "bottom", fullHole: true, handY: 0.62 },
   { id: "grade", screens: ["/review"], target: "grade", text: "Remembered it? Tap Remembered. If not, tap Forgot — the word just comes back sooner.", pose: "read", kind: "action", until: "graded", hint: "Tap one of the two buttons", skipTo: "done" },

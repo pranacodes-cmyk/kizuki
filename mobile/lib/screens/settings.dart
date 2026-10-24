@@ -9,6 +9,7 @@ import '../data/content.dart';
 import '../data/onboarding.dart';
 import '../logic/logic.dart';
 import '../services/billing.dart';
+import '../services/analytics.dart';
 import '../services/export_service.dart';
 import '../services/haptics.dart';
 import '../services/notification_service.dart';
@@ -263,6 +264,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ],
               ]),
               _Group(title: 'Your data', children: [
+                ValueListenableBuilder<bool?>(valueListenable: Analytics.choice, builder: (context, choice, _) => Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                  child: Row(children: [
+                    Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [Text('Usage analytics', style: txt(15)), Text('Share activity with PostHog. No messages or payment details.', style: txt(12, c: T.muted))])),
+                    Semantics(label: 'Usage analytics', child: MimiToggle(value: choice == true, onChanged: (v) => Analytics.setChoice(v))),
+                  ]),
+                )),
                 _ActionRow(label: 'Export saved words (.csv)', onTap: _export),
                 _ActionRow(
                   label: 'Replay the welcome tour',

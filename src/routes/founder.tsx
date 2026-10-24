@@ -6,6 +6,8 @@ import { useEffect, useRef, useState } from "react";
 import { Mascot } from "@/components/mimi/Mascot";
 import { Button, Screen } from "@/components/mimi/ui";
 import { FOUNDER_POSTER_URL, FOUNDER_SECONDS, FOUNDER_VIDEO_URL, FOUNDER_VIDEO_WEBM_URL, founderLines } from "@/lib/onboarding";
+import { refreshOnboardingSettings } from '@/lib/onboarding-settings';
+import { preloadTrial } from '@/lib/trial-preload';
 
 export const Route = createFileRoute("/founder")({
   head: () => ({
@@ -37,11 +39,15 @@ function Founder() {
   useEffect(() => {
     const v = videoRef.current;
     if (!v) return;
-    v.muted = false;
-    v.play().catch(() => {
+    void preloadTrial();
+    void refreshOnboardingSettings().then((enabled) => {
+      if (!enabled) { v.pause(); void navigate({ to: '/trial', replace: true }); return; }
+      v.muted = false;
+      v.play().catch(() => {
       v.muted = true;
       setMuted(true);
       v.play().catch(() => setPlaying(false));
+      });
     });
   }, []);
 

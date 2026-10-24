@@ -5,6 +5,8 @@ import 'package:provider/provider.dart';
 import '../data/content.dart';
 import '../logic/logic.dart';
 import '../services/haptics.dart';
+import '../services/onboarding_settings.dart';
+import '../services/trial_preload.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import '../widgets/common.dart';
@@ -42,6 +44,7 @@ class _PlanScreenState extends State<PlanScreen> {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (mounted) Haptics.celebrate();
+      if (mounted) TrialPreload.start(context);
     });
   }
 
@@ -121,7 +124,10 @@ class _PlanScreenState extends State<PlanScreen> {
                   ],
                 ]),
               ),
-              Padding(padding: const EdgeInsets.fromLTRB(24, 0, 24, 8), child: Button3D(label: 'Continue', onPressed: () => context.push('/founder'))),
+              Padding(padding: const EdgeInsets.fromLTRB(24, 0, 24, 8), child: Button3D(label: 'Continue', onPressed: () async {
+                await OnboardingSettings.refresh();
+                if (context.mounted) context.push(onboardingAfterPlan(OnboardingSettings.enabled));
+              })),
             ]);
           }),
         ),

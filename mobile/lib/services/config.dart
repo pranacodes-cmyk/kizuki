@@ -1,5 +1,8 @@
 /// Public backend settings (publishable values only — same as the web app's VITE_* vars).
 class AppConfig {
+  static const googleWebClientId = '275836414743-lp23tluqq1f9ojm635ebkjdgjuukocdd.apps.googleusercontent.com';
+  static const googleIosClientId = '275836414743-leolu0dp0j8v0jatevcqq327073ssd3b.apps.googleusercontent.com';
+  static const googleAndroidClientId = '275836414743-p6pcqt7481289gp8enl5poa6prnueg8t.apps.googleusercontent.com';
   static const supabaseUrl = 'https://qhcpbemzxzvdsucqeobc.supabase.co';
   static const supabasePublishableKey = 'sb_publishable_JezI_rCrzC_OY7ZLDzEThw_k4S320A2';
 

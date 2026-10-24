@@ -9,6 +9,7 @@ import 'package:provider/provider.dart';
 
 import '../data/tour.dart';
 import '../state/app_state.dart';
+import '../services/analytics.dart';
 import '../theme/tokens.dart';
 import 'ui.dart';
 
@@ -35,6 +36,7 @@ class Tour extends ChangeNotifier {
 
   void start() {
     _i = 0;
+    Analytics.track('welcome_tour_step_viewed', {'step': tourSteps[0].id});
     _notify();
   }
 
@@ -42,6 +44,7 @@ class Tour extends ChangeNotifier {
     if (_i == null) return;
     if (i >= tourSteps.length) return finish();
     _i = i;
+    Analytics.track('welcome_tour_step_viewed', {'step': tourSteps[i].id});
     _notify();
   }
 
@@ -348,7 +351,9 @@ class _TourHostState extends State<TourHost> with TickerProviderStateMixin {
       Tour.I.advance();
     }
 
+    final sheetTip = s.place == 'top';
     final bubble = _Bubble(
+      compact: sheetTip,
       key: ValueKey('${s.id}-$waitedOut'),
       pose: _pose(s.pose),
       text: text,
@@ -366,10 +371,10 @@ class _TourHostState extends State<TourHost> with TickerProviderStateMixin {
     // half, above one lower down, else centered.
     Widget placed;
     const estH = tourTipEstHeight;
-    if (h != null && s.place == 'top') {
-      placed = h.top - pad.top - 56 >= estH
-          ? Positioned(left: 16, right: 16, bottom: size.height - h.top + 12, child: bubble)
-          : Positioned(left: 16, right: 16, top: pad.top + 52, child: bubble);
+    if (s.place == 'top') {
+      placed = Positioned(left: 16, right: 16, top: pad.top + 52, child: bubble);
+    } else if (h != null && (s.kind == 'controls' || s.hand == 'swipe')) {
+      placed = Positioned(left: 16, right: 16, top: h.bottom + 10, child: bubble);
     } else if (h != null && s.place == 'bottom') {
       placed = Positioned(left: 16, right: 16, bottom: pad.bottom + 16, child: bubble);
     } else if (h != null) {
@@ -570,6 +575,7 @@ class _SwipeHand extends StatelessWidget {
 
 class _Bubble extends StatelessWidget {
   final MascotPose pose;
+  final bool compact;
   final String text;
   final double progress;
   final String stepLabel;
@@ -580,7 +586,7 @@ class _Bubble extends StatelessWidget {
   final String? button;
   final bool legendReady;
   final VoidCallback onNext;
-  const _Bubble({super.key, required this.pose, required this.text, required this.progress, required this.stepLabel, required this.kind, required this.hint, this.button, required this.legendReady, required this.onNext});
+  const _Bubble({super.key, this.compact = false, required this.pose, required this.text, required this.progress, required this.stepLabel, required this.kind, required this.hint, this.button, required this.legendReady, required this.onNext});
 
   /// "Next" sits beside the step count; a named button ("Back to the video") gets the full width,
   /// so it never squeezes on small phones.
@@ -607,7 +613,12 @@ class _Bubble extends StatelessWidget {
         ),
         const SizedBox(height: 10),
         Text(text, style: txt(16, w: FontWeight.w800, c: T.background, h: 1.35)),
-        if (kind == 'legend') ...[
+        if (kind == 'controls') ...[
+          const SizedBox(height: 12),
+          for (final item in [(LucideIcons.play, 'Play / pause'), (LucideIcons.rotateCcw, 'Replay · loop this line'), (LucideIcons.gauge, '1× · tap to change speed'), (LucideIcons.bookmark, 'Save · Profile → Saved'), (LucideIcons.type, 'Aa · subtitle display')])
+            Padding(padding: const EdgeInsets.only(bottom: 8), child: Row(children: [Icon(item.$1, size: 18, color: T.primaryDeep), const SizedBox(width: 10), Expanded(child: Text(item.$2, style: txt(13, w: FontWeight.w800, c: T.background)))])),
+          _Pill(label: button ?? 'Next', enabled: true, onTap: onNext, wide: true),
+        ] else if (kind == 'legend') ...[
           const SizedBox(height: 12),
           for (final (id, label, hint) in tourLegend)
             Padding(
@@ -649,8 +660,10 @@ class _Bubble extends StatelessWidget {
       curve: Curves.easeOutBack,
       builder: (_, v, child) => Opacity(opacity: v.clamp(0, 1), child: Transform.scale(scale: 0.9 + 0.1 * v, child: child)),
       child: Row(crossAxisAlignment: CrossAxisAlignment.end, children: [
-        Mascot(pose, size: 64),
-        const SizedBox(width: 8),
+        if (kind != 'controls') ...[
+          Mascot(pose, size: compact ? 40 : 48),
+          const SizedBox(width: 8),
+        ],
         Expanded(child: body),
       ]),
     );

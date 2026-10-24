@@ -22,12 +22,12 @@ describe("welcome tour", () => {
   });
 
   it("is a short do-what-I-point tour: word card, Ask Kizuki, swipe, Vocab, first review, back to videos", () => {
-    expect(TOUR_STEPS.map((s) => s.id)).toEqual(["hello", "tapWord", "meaning", "askOpen", "askInfo", "legend", "swipe", "vocabTab", "review", "reveal", "grade", "done"]);
-    expect(TOUR_STEPS.length).toBeLessThanOrEqual(12);
+expect(TOUR_STEPS.map((s) => s.id)).toEqual(["hello", "controls", "tapWord", "meaning", "askOpen", "askInfo", "legend", "swipe", "vocabTab", "kanaDecks", "review", "reveal", "grade", "done"]);
+    expect(TOUR_STEPS.length).toBeLessThanOrEqual(14);
     expect(new Set(TOUR_STEPS.flatMap((s) => s.screens))).toEqual(new Set(["/feed", "/explore", "/vocab", "/review"]));
     // No step points at the whole transcript, the button row or Explore any more.
     const targets = new Set<string>(TOUR_STEPS.map((s) => s.target).filter((x): x is NonNullable<typeof x> => !!x));
-    for (const gone of ["transcript", "controls", "player", "exploreTab", "exploreSearch"]) expect(targets.has(gone)).toBe(false);
+    for (const gone of ["transcript", "player", "exploreTab", "exploreSearch"]) expect(targets.has(gone)).toBe(false);
     for (const s of TOUR_STEPS) if (s.skipTo) expect(tourIndexOf(s.skipTo)).toBeLessThan(TOUR_STEPS.length);
   });
 
@@ -81,6 +81,8 @@ describe("welcome tour", () => {
     t().route("/explore");
     expect(id()).toBe("vocabTab");
     t().route("/vocab");
+    expect(id()).toBe("kanaDecks");
+    t().advance();
     expect(id()).toBe("review");
     t().route("/review");
     expect(id()).toBe("reveal");

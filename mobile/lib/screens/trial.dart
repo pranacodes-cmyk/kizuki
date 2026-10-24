@@ -9,6 +9,7 @@ import 'package:provider/provider.dart';
 
 import '../data/paywall.dart';
 import '../services/attribution.dart';
+import '../services/analytics.dart';
 import '../services/billing.dart';
 import '../services/haptics.dart';
 import '../services/notification_service.dart';
@@ -31,6 +32,13 @@ class _TrialScreenState extends State<TrialScreen> {
   int step = 0;
   String plan = 'yearly';
   bool busy = false;
+
+  @override
+  void initState() {
+    super.initState();
+    if (context.read<AppState>().onboarded) step = 2;
+    Analytics.track('paywall_viewed', {'step_index': step});
+  }
 
   /// Store-verified purchase: the account step is required even if this screen was
   /// left while the store sheet was still open (the gate never depends on `mounted`).
@@ -94,6 +102,7 @@ class _TrialScreenState extends State<TrialScreen> {
   }
 
   void _skip() {
+    Analytics.track('paywall_skipped');
     if (busy) return;
     final app = context.read<AppState>();
     if (app.onboarded) {
@@ -126,12 +135,14 @@ class _TrialScreenState extends State<TrialScreen> {
                 onNext: () {
                   if (!trial) Attribution.paywallViewed();
                   setState(() => step = trial ? 1 : 2);
+                  Analytics.track('paywall_step_viewed', {'step_index': step});
                 }),
             1 => _StepRemind(onNext: () {
                 Attribution.paywallViewed();
                 setState(() => step = 2);
+                Analytics.track('paywall_step_viewed', {'step_index': step});
               }),
-            _ => _StepPlans(plan: plan, setPlan: (p) => setState(() => plan = p), busy: busy, onStart: _start, onSkip: _skip, onRestore: _restore),
+            _ => _StepPlans(plan: plan, setPlan: (p) { setState(() => plan = p); Analytics.track('plan_selected', {'plan': p}); }, busy: busy, onStart: _start, onSkip: _skip, onRestore: _restore),
           };
           return PopScope(
             canPop: step == 0 && !busy,
@@ -200,7 +211,9 @@ class _StepTry extends StatelessWidget {
                     child: Container(
                       decoration: BoxDecoration(color: T.stage, borderRadius: BorderRadius.circular(32), border: Border.all(color: T.surface3, width: 6)),
                       clipBehavior: Clip.antiAlias,
-                      child: const FeedPreview(),
+                      child: context.watch<AppState>().onboarded
+                          ? Center(child: Text('Renew Premium to keep learning', textAlign: TextAlign.center, style: txt(18, w: FontWeight.w800)))
+                          : const FeedPreview(),
                     ),
                   ),
                   const Positioned(right: -56, bottom: -12, child: LivelyMascot(MascotPose.cheer, size: 96, tappable: true)),

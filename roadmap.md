@@ -3,6 +3,66 @@
 Flutter (`mobile/`) is the product; the web app is its phone-frame prototype.
 Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com/pranacodes-cmyk/kizuki
 
+## Pre-release deep check + new store build (24 Oct, user request)
+- [x] Flutter analyze error: app_links `getInitialUri` replaced by `getInitialLink` (analyze clean)
+- [x] Stale Flutter Ask tests updated to the Premium-only tutor; leftover "free questions left" footer removed in both clients
+- [x] Sign-in: browser hand-off restored as default + automatic fallback (refresh-token install, cold/warm links, unclaimed links installed); per-provider remote switches `native_google_sign_in` / `native_apple_sign_in` (default off) in onboarding_settings; web drops its own stored copy after hand-off without signing out. Managed Google broker reaches Google's login page (live check); real phone round-trip not yet tested
+- [x] Billing: identity requested during RevenueCat configure reconciled in order; failed links retried on resume and stay locked meanwhile
+- [x] Billing: purchase approved later by the store now triggers the mandatory account step (persisted marker)
+- [x] Sync: learner progress scoped to its account owner in both clients (another account starts clean)
+- [x] Startup: store verification no longer bumps learner timestamp; late state load merges without reviving saved Premium and keeps the account step; analytics setup bounded to 2 s
+- [x] Player: queued pause cleared on re-activation/ready replay in both clients (new failing-first web test); founder decoder released and awaited before trial
+- [x] Emulator E2E fixture keeps the simulated entitlement and accepts founder screen on or off
+- [x] searchClips empty filters identical in both clients (parity tests)
+- [x] Local checks: Flutter analyze clean, 155 Flutter tests, 143 web tests, typecheck, preview build OK
+- [x] iOS App Store profile regenerated with Sign in with Apple (old one was INVALID); GitHub secret updated
+- [ ] GitHub: analyze/tests/APK + Android emulator E2E green on the synced code
+- [ ] Store release: Play internal + TestFlight; publish web (phone app's tutor + sign-in hand-off live there)
+
+## App size + welcome tour polish (24 Oct)
+- [x] Remote founder screen: public read-only onboarding_settings row, no client writes, default ON, cached offline choice; Flutter first mirrored web checks startup, plan Continue and direct founder entry. Live OFF skips to trial and live ON restores video; tested both and restored ON. 79 tests pass, preview build OK. No app publication or native build performed; installed old apps need the new build once before this flag works.
+- [x] Trial preparation starts at launch/plan/founder: shared content + first starter note/poster, YouTube API bootstrap (native DNS/TLS only, not guaranteed shared WebView cache). Browser verified resource requests before trial, 0 YouTube surfaces on founder / 1 in trial. Actual YouTube video buffering is still controlled by YouTube; no downloaded or hidden-playing clip, native speed improvement not measured.
+- [x] Follow-up junk audit: 0 orphan explanations, 0 unreferenced dictionary entries; all 8 mascot poses, 8 font files and founder video/poster used. Removed unused cupertino_icons dependency/font (old APK font 533 compressed bytes) and compacted 2,562 note exports, excluding build-only signatures while keeping source validation. 624,043 bundled bytes removed per client (~86,199 compressed bytes estimated versus old APK). All notes compared field-by-field and both clients identical; 13 tests pass and actual word explanation renders with no errors. No massive unused asset payload found; native dependency resolution/build remains pending in CI.
+- [x] Existing signed universal APK measured: 93.34 MB; 59.98 MB is three ABI runtimes. CI now produces separately signed arm64-v8a / armeabi-v7a / x86_64 APKs, with size reports and x86_64 emulator selection; Play AAB unchanged, R8 remains off. Removing other two runtimes predicts ~39.71 MB saved for arm64, not a measured new APK. All content/video/fonts/features retained.
+- [x] Flutter first, mirrored web: video/speed/save/display introduction restored, labelled contextual Ask example without sending a question, compact tips above shorter scrollable tour sheets; normal sheets unchanged. Native integration walkthrough updated including existing missing kana step.
+- [x] Web walkthrough: all 14 steps at 384×624, 360×640, 412×880 (42 screenshots inspected), returns to feed, zero tutor requests and page errors; 86 targeted web tests + size-report test pass, preview build OK. Subscription simulated only for UI checks; no authenticated tutor claim.
+- [ ] New signed APK size + Flutter analyze/tests/emulator validation: Flutter SDK unavailable locally; requires next GitHub Actions run. No store release/publication requested or performed.
+
+## PostHog product analytics (24 Oct)
+- [x] Manual public-token install with verified US project host; Flutter first, mirrored web: ~50 named events covering screens/dwell, tabs/controls, onboarding/tour steps, paywall/checkout/restore results, account identity, clips/playback, words, reviews, Ask outcomes and settings. Official SDKs; no Meta event duplication.
+- [x] Explicit analytics choice before SDK starts, equal accept/reject, Settings withdrawal, local time/notice-version evidence preserving prior acceptance; web honors other-tab withdrawal. Credentials, OAuth URLs, chat/support text, notes and receipts excluded; replay disabled; shared legal text regenerated.
+- [x] 132 web tests pass; preview build OK. Browser verified zero PostHog requests before acceptance and after withdrawal, onboarding progression and no page errors. Test-only bot-filter bypass allowed one marked test event to receive PostHog HTTP 200; automated browser filtering remains enabled in app code. Navigation aborted another in-flight test request; provider receipt does not establish dashboard funnels.
+- [ ] Native analyze/tests and real authenticated identity/checkout flow: Flutter SDK and an app/store test account unavailable here; native consent tests added but not run. No publication or store upload requested in this task.
+- [ ] Saved PostHog dashboard/funnels and project retention: public ingest token cannot administer dashboards or read analytics; needs PostHog account access. Funnel definitions saved in docs/posthog-tracking.md.
+
+## Social-only sign-in: Google + Apple (24 Oct, user request)
+- [x] Native SDK wiring authored with user's Google Web/iOS IDs, Google authentication/access-token exchange, Apple hashed/raw nonce exchange, iOS URL scheme and Apple entitlement. Android Google only; iOS Google+Apple; icons, busy/error states, no Lovable button. Flutter first, mirrored web platform preview; two rule tests pass (65 logic tests total). Screenshots are actual web phone preview, not native captures.
+- [x] Apple Developer: enabled APPLE_ID_AUTH for com.kizukijapan.app with PRIMARY_APP_CONSENT and read back the capability successfully. Existing App Store Connect key is usable for this operation; this is not a Sign in with Apple private key. No phone login behavior changed yet.
+- [ ] Configure own provider backend audiences: user's three Google client IDs are saved and native Google uses Web ID as serverClientId, but no offered tool sets BYOC audiences. User must configure Google own credentials in Cloud Auth settings; Apple allowed ID must include com.kizukijapan.app. Google Web secret and Apple own auth settings not supplied/configured. Do not run configure_social_auth to overwrite them with managed credentials. Play SHA-1 obtained from Play API-generated build 111, separate APK signing SHA-1 obtained from GitHub release; client registration association unverified.
+- [x] Email/password sign-up, password field, forgot-password and email-confirmation screens removed from both clients; `/reset-password` web route deleted; email provider disabled in the backend (Google, Apple, Lovable enabled via managed social login — Apple newly enabled).
+- [x] Flutter first: account screen now shows Continue with Apple / Google / Lovable; sign-in opens the published web origin (`/account?bridge=1&provider=…`) in the system browser; on completion the web page hands the session back via `kizuki://auth?session=…` (intent URL on Chrome Android), restored with `auth.recoverSession` (app_links added; Android intent-filter + iOS CFBundleURLTypes registered). Waiting/cancel/offline states + "Open browser again" for when the browser round-trip is lost.
+- [x] Web mirrored: bridge mode on /account auto-starts the chosen provider, returns to the same page after OAuth, and redirects to the deep link; non-bridge flow unchanged for the preview.
+- [x] 127 web tests pass. AGENTS.md rule added for the shared hand-off flow.
+- [ ] Native analyze/tests/dependency locks + real Google/Apple account round-trip: Flutter SDK unavailable here; next CI native build needed. Existing iOS provisioning profile must be regenerated with Apple sign-in capability. No upload/publication performed; native login not verified or ready.
+
+## Subscription expiry access (24 Oct)
+- [x] Flutter first then web: central learning gate, expiry dates, no legacy free clips/questions or seen-clip bypass; native startup requires store verification, refreshes on resume, expiry timer closes sheets, renewed paid dates keep access. Purchase/restore/account/settings/help remain accessible; saved progress retained.
+- [x] Ask checks the authenticated user's live RevenueCat Premium entitlement server-side; native login links the store identity to the same account. 127 web tests pass, mirrored native rule tests added; phone-size browser checks eight blocked paths, no player, settings reachable, renewal access and auto-lock while open, no page errors.
+- [ ] Native tests + real store trial-to-expiry/renewal/restore check: Flutter SDK unavailable here; next native CI build and actual store account needed. No new Play/TestFlight build uploaded or web publication in this task.
+- [ ] Authenticated tutor end-to-end check: requesting user has no matching app account/session; server predicate tested, live RevenueCat project/entitlement read verified, but signed-in request not exercised.
+
+## Tutor model: can a basic model do it? (24 Oct, user question)
+- [x] Ran 8 real tutor questions (greeting meaning, は vs が, て-form vs ます-form, 〜といいな, alternate kanji reading, a mis-heard transcript たへた, an off-topic jailbreak, polite-form + readings) through the exact Kizuki instructions on 6 gateway models. Nothing in the app changed.
+- [x] Cost per question (measured tokens × catalog price): gpt-6-luna 0.00038 credits, gpt-5.6-luna 0.00068, gemini-3.1-flash-lite 0.0014, gpt-6-sol 0.0071, gpt-6-astra (current) 0.036 — the cheapest current model is ~96× cheaper and ~2× faster (1.9s vs 4.0s).
+- [x] Quality: cheap models got all 8 right, caught the transcript mis-hear and refused the off-topic ask. Astra still edges them on spotting a wrong gloss in the clip's own metadata (いってらっしゃい ≠ "welcome back") and on completeness (2 alternate readings vs 1).
+- [x] gemini-3.8-flash cut its answer off mid-sentence at the same output cap and was slower and costlier than gpt-6-sol; claude-haiku-4-5 returned 400 on this endpoint (needs its native endpoint) — not fairly compared.
+- [ ] Pick the tutor model: keep astra, move to luna, or hybrid (cheap model on word taps, astra on the Explain tab) — waiting on the user.
+
+## Word card meanings + tutor model (24 Oct, user question)
+- [x] Word card keeps showing the clip meaning first plus all dictionary senses — user decided "aise hi sahi hai", no change made.
+- [x] Ask Kizuki's active model checked (not changed): `openai/gpt-6-astra` through the Lovable AI Gateway, low reasoning effort, answers not stored; both clients hit the same server route so both get the same tutor.
+
+
 ## Starter clips, faster video start, word levels + new store build (24 Oct)
 - [x] Word level badges: Waller's JLPT list ids pointed basic words at side entries (これ N5 → "hey"), greetings sat in N3–N2 — now matched by id + spelling + textbook fixes (おはよう/こんにちは/ありがとう/これ/さん → N5). Found on the way: grammar words used kanji nouns' meanings (の = 野 "field", た = 田 "rice field", ます = 増す) — matching is now part-of-speech aware. Guarded by content tests.
 - [x] Library checked through the official player (all 1,150 videos): 31 videos refuse embedding, 309 had AI timestamps past the real video end (stretched timing, subtitles out of sync). Re-timed all 309 with the real length: 167 fixed, 142 still wrong and excluded. Library now 2,562 clips / 975 videos, every clip inside its real video; content test fails if a broken window ships.
@@ -181,7 +241,7 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 - [x] App icon + splash
 - [x] Ask Kizuki chat (same sheet as web; talks to the published web app)
 - [x] Blank-screen fix: release builds no longer shrink plugin code (saved progress failed to load → blank app); startup shows UI first, backend connects in the background
-- [ ] Google / Lovable sign-in on Android (needs native OAuth redirect setup)
+- [x] Account screen is social-only (Apple / Google / Lovable via browser hand-off — see Social-only sign-in, 24 Oct); email/password flow removed
 
 ## Android delivery
 - [x] flutter analyze + flutter test clean (54 Flutter tests, 43 web tests)

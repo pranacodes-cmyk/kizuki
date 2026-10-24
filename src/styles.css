@@ -55,6 +55,10 @@
   --color-level-4: var(--level-4);
   --color-known: var(--known);
   --color-stage: var(--stage);
+  --color-google-blue: var(--google-blue);
+  --color-google-green: var(--google-green);
+  --color-google-yellow: var(--google-yellow);
+  --color-google-red: var(--google-red);
   --color-border: var(--border);
   --color-input: var(--border);
   --color-ring: var(--primary);
@@ -90,6 +94,10 @@
   --level-4: oklch(0.541 0.081 55.6); /* #93623F */
   --known: oklch(0.765 0.166 152.4); /* #4CD07D */
   --stage: oklch(0 0 0); /* #000000 */
+  --google-blue: #4285f4;
+  --google-green: #34a853;
+  --google-yellow: #fbbc05;
+  --google-red: #ea4335;
 }
 
 @layer base {

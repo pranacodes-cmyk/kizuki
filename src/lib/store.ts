@@ -1,6 +1,7 @@
 // App state — mirrors mobile/lib/state/app_state.dart (same JSON shape, defaults and
 // actions, same storage key `mimi-state-v1`).
 import { create } from "zustand";
+import { track } from './analytics';
 import { createJSONStorage, persist } from "zustand/middleware";
 
 import {
@@ -15,7 +16,7 @@ export type Profile = {
   name: string; reasons: string[]; level: number; jlpt: string; challenges: string[]; source: string;
   fluencyMonths: number; dailyMinutes: number; window: string; streakGoal: number;
 };
-export type Premium = { active: boolean; plan: string | null; since: number | null; trialEndsAt: number | null };
+export type Premium = { active: boolean; plan: string | null; since: number | null; trialEndsAt: number | null; expiresAt?: number | null };
 export type WordStatusValue = "learning" | "known" | "ignored" | "removed";
 export type SavedWord = {
   key: string; dictId: string | null; word: string; reading: string; romaji: string; gloss: string; pos: string;
@@ -57,6 +58,8 @@ export type PersistedState = {
   planModalSeen: boolean;
   asks: { day: string; n: number };
   updatedAt: number;
+  /** Account this device's learner progress last synced with (see localStateFor). */
+  owner?: string | null;
 };
 
 export const defaultProfile: Profile = {
@@ -148,22 +151,25 @@ export const useApp = create<AppStore>()(
       };
       return {
         ...initialState(),
-        setProfile: (patch) => commit({ profile: { ...get().profile, ...patch } }),
-        completeOnboarding: () => commit({ onboarded: true }),
-        requirePurchaseAccount: () => commit({ purchaseAccountPending: true }),
-        confirmPurchaseAccount: () => commit({ purchaseAccountPending: false }),
+        setProfile: (patch) => { commit({ profile: { ...get().profile, ...patch } }); track('learning_preferences_changed', { jlpt: get().profile.jlpt, daily_minutes: get().profile.dailyMinutes }); },
+        completeOnboarding: () => { if (!get().onboarded) track('onboarding_completed'); commit({ onboarded: true }); },
+        requirePurchaseAccount: () => { commit({ purchaseAccountPending: true }); track('purchase_account_required'); },
+        confirmPurchaseAccount: () => { commit({ purchaseAccountPending: false }); track('purchase_account_completed'); },
         startTrial: (plan) => {
           const t = Date.now();
-          commit({ premium: { active: true, plan, since: t, trialEndsAt: simulatedTrialEnd(plan, t) } });
+          commit({ premium: { active: true, plan, since: t, trialEndsAt: simulatedTrialEnd(plan, t), expiresAt: simulatedTrialEnd(plan, t) } });
+          track('subscription_status_changed', { active: true, plan, is_trial: plan === 'yearly' });
         },
         cancelPremium: () => commit({ premium: { active: false, plan: null, since: null, trialEndsAt: null } }),
         saveWord: (i) => {
           const key = wordKeyOf(i.dictId, i.base);
           const existing = get().words[key];
           if (existing && existing.status !== "removed") return;
+          track('word_saved', { clip_id: i.clipId, word_id: key, jlpt: i.jlpt ?? 0 });
           commit({ words: { ...get().words, [key]: makeWord(i, "learning", Date.now()) }, activity: bump(get().activity, { words: 1 }) });
         },
         markKnown: (inputs) => {
+          track('words_marked_known', { count: inputs.length });
           const t = Date.now();
           const words = { ...get().words };
           for (const i of inputs) {
@@ -176,6 +182,7 @@ export const useApp = create<AppStore>()(
         setWordStatus: (key, status) => {
           const w = get().words[key];
           if (!w) return;
+          track('word_status_changed', { word_id: key, status });
           commit({ words: { ...get().words, [key]: { ...w, status, updatedAt: Date.now() } } });
         },
         setWordLevel: (key, level) => {
@@ -183,12 +190,14 @@ export const useApp = create<AppStore>()(
           if (!w) return;
           const next = withWordLevel(w, level, Date.now());
           if (next.status === w.status && next.card === w.card) return;
+          track('word_level_changed', { word_id: key, level });
           commit({ words: { ...get().words, [key]: { ...w, status: next.status, card: next.card, updatedAt: Date.now() } } });
         },
         removeWord: (key) => get().setWordStatus(key, "removed"),
         setWordNote: (key, note) => {
           const w = get().words[key];
           if (!w) return;
+          track('word_note_saved');
           commit({ words: { ...get().words, [key]: { ...w, note, updatedAt: Date.now() } } });
         },
         answerWord: (key, updated) => {
@@ -199,29 +208,33 @@ export const useApp = create<AppStore>()(
         },
         answerKana: (id, updated) =>
           commit({ kana: { ...get().kana, [id]: updated }, totals: { ...get().totals, reviews: get().totals.reviews + 1 }, activity: bump(get().activity, { reviews: 1 }) }),
-        finishReviewSession: () => commit({ reviewSessions: get().reviewSessions + 1 }),
+        finishReviewSession: () => { commit({ reviewSessions: get().reviewSessions + 1 }); track('review_session_completed'); },
         addWatchSeconds: (sec) => {
           if (sec <= 0) return;
+          track('study_time_recorded', { seconds: sec });
           commit({ totals: { ...get().totals, seconds: get().totals.seconds + sec }, activity: bump(get().activity, { sec }) }, false);
         },
-        markClipWatched: (clipId) =>
+        markClipWatched: (clipId) => {
+          track('clip_watched', { clip_id: clipId });
           commit({
             seen: { ...get().seen, [clipId]: (get().seen[clipId] ?? 0) + 1 },
             history: [{ clipId, at: Date.now() }, ...get().history].slice(0, 200),
             totals: { ...get().totals, clips: get().totals.clips + 1 },
             activity: bump(get().activity, { clips: 1 }),
-          }),
+          });
+        },
         toggleSavedClip: (clipId) => {
           const s = get().savedClips;
+          track('clip_bookmark_changed', { clip_id: clipId, saved: !s.includes(clipId) });
           commit({ savedClips: s.includes(clipId) ? s.filter((x) => x !== clipId) : [clipId, ...s] });
         },
-        setSettings: (patch) => commit({ settings: { ...get().settings, ...patch } }),
-        completeTutorial: (which) => commit({ tutorial: { ...get().tutorial, [which]: true } }),
-        resetTutorial: () => commit({ tutorial: { feed: false, review: false } }),
+        setSettings: (patch) => { const before = get().settings; commit({ settings: { ...before, ...patch } }); for (const [setting, value] of Object.entries(patch)) { if (before[setting as keyof Settings] !== value) track('setting_changed', { setting, value }); } },
+        completeTutorial: (which) => { commit({ tutorial: { ...get().tutorial, [which]: true } }); track('welcome_tour_completed', { tour: which }); },
+        resetTutorial: () => { commit({ tutorial: { feed: false, review: false } }); track('welcome_tour_restarted'); },
         markAchievementsSeen: (ids) => commit({ achievementsSeen: [...new Set([...get().achievementsSeen, ...ids])] }),
         setRatingAsked: () => commit({ ratingAsked: true }),
         setPlanModalSeen: () => commit({ planModalSeen: true }),
-        recordAsk: () => commit({ asks: { day: today(), n: asksTodayOf(get()) + 1 } }),
+        recordAsk: () => { commit({ asks: { day: today(), n: asksTodayOf(get()) + 1 } }); track('ask_answer_received'); },
         replaceAll: (s) => set({ ...initialState(), ...s }),
         reset: () => set({ ...initialState(), feedSeed: Date.now().toString(36) }),
       };
@@ -240,6 +253,7 @@ export function pickPersisted(s: PersistedState): PersistedState {
     history: s.history, savedClips: s.savedClips, activity: s.activity, totals: s.totals, settings: s.settings, tutorial: s.tutorial,
     achievementsSeen: s.achievementsSeen, feedSeed: s.feedSeed, reviewSessions: s.reviewSessions, ratingAsked: s.ratingAsked,
     planModalSeen: s.planModalSeen, asks: s.asks ?? { day: "", n: 0 }, updatedAt: s.updatedAt,
+    ...(s.owner ? { owner: s.owner } : {}),
   };
 }
 

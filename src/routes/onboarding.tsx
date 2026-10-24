@@ -1,12 +1,13 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { Check } from "lucide-react";
-import { useMemo, useState, type ReactNode } from "react";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
 
 import { LivelyMascot, Pop } from "@/components/mimi/Mascot";
 import { Button, Pill, ProgressHeader, Screen } from "@/components/mimi/ui";
 import { challengeBenefit, goalDateLabel, levelToJlpt, recommendedMinutes, windowLabel, wordsPerMonth } from "@/lib/logic";
 import { challengeOptions, levelOptions, reasonOptions, sourceOptions, streakOptions, windowOptions } from "@/lib/onboarding";
+import { track } from '@/lib/analytics';
 import { haptic } from "@/lib/haptics";
 import { requestReminderPermission } from "@/lib/reminders";
 import { useApp } from "@/lib/store";
@@ -35,9 +36,11 @@ function Onboarding() {
   const setProfile = useApp((s) => s.setProfile);
   const [i, setI] = useState(0);
   const [dir, setDir] = useState(1);
-  const step = STEPS[i];
+  const step = STEPS[i] ?? 'reasons';
 
+  useEffect(() => track('onboarding_step_viewed', { step, step_index: i }), [step, i]);
   const next = () => {
+    track('onboarding_step_completed', { step, step_index: i });
     if (i === STEPS.length - 1) {
       void navigate({ to: "/building" });
       return;
@@ -46,6 +49,7 @@ function Onboarding() {
     setI(i + 1);
   };
   const back = () => {
+    track('onboarding_step_back', { step });
     if (i === 0) void navigate({ to: "/" });
     else {
       setDir(-1);

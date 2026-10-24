@@ -22,6 +22,20 @@
       "when": 1792748069015,
       "tag": "0002_learner_profiles",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1792863832564,
+      "tag": "0003_onboarding_video_control",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1792867116854,
+      "tag": "0004_native_sign_in_switches",
+      "breakpoints": true
     }
   ]
 }

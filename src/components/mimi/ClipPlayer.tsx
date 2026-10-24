@@ -5,6 +5,7 @@ import type { Clip } from "@/lib/content";
 import { thumbOf } from "@/lib/content";
 import { loadYouTubeApi, playerErrorMessage, YT_STATE, type YTPlayer } from "@/lib/youtube";
 import { PlaybackLoopGuard, PlaybackStartGuard } from "@/lib/playback-loop";
+import { track } from '@/lib/analytics';
 import { clipWindowAvailable } from "@/lib/logic";
 
 export type ClipPlayerHandle = {
@@ -75,7 +76,9 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
     },
     seek: (t: number) => {
       const p = live();
-      if (!p) return;
+      if (!p) return; // not ready: a queued pause stays
+      // Replay / tapping a line on a ready player is an explicit play: it cancels a queued pause.
+      wantPause.current = false;
       loop.current.beginSeek(t);
       p.seekTo(t, true);
       p.playVideo();
@@ -154,6 +157,7 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
               if (cancelled) return;
               cb.current.onPlayingChange(false);
               setState(YT_STATE.PAUSED);
+              if (activeRef.current) track('clip_failed', { category: String(e.data), clip_id: clip.id });
               setError(playerErrorMessage(e.data));
             },
           },
@@ -177,6 +181,8 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
   useEffect(() => {
     if (wasActive.current === active) return;
     wasActive.current = active;
+    // A pause queued during an earlier activation never blocks a new start.
+    if (active) wantPause.current = false;
     const p = live();
     if (!p) return; // still loading: onReady starts it (activeRef)
     if (active) {
@@ -198,11 +204,12 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
   useEffect(() => {
     setSlow(false);
     if (!active || error || state === YT_STATE.PLAYING) return;
-    const id = setTimeout(() => setSlow(true), 9000);
+    const id = setTimeout(() => { track('clip_loading_slow', { clip_id: clip.id }); setSlow(true); }, 9000);
     return () => clearTimeout(id);
   }, [active, error, state === YT_STATE.PLAYING, attempt]);
 
   useEffect(() => {
+    if (active) track('clip_speed_changed', { speed: rate });
     if (ready) player.current?.setPlaybackRate(rate);
   }, [rate, ready]);
 

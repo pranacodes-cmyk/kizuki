@@ -6,6 +6,8 @@ import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:video_player/video_player.dart';
 
 import '../data/onboarding.dart';
+import '../services/onboarding_settings.dart';
+import '../services/trial_preload.dart';
 import '../theme/tokens.dart';
 import '../widgets/common.dart';
 import '../widgets/ui.dart';
@@ -35,14 +37,31 @@ class _FounderScreenState extends State<FounderScreen> with TickerProviderStateM
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
-    _initVideo();
+    _checkVideo();
   }
 
-  Future<void> _initVideo() async {
+  Future<void> _checkVideo() async {
+    await OnboardingSettings.refresh();
+    if (!mounted) return;
+    if (!OnboardingSettings.enabled) { context.go('/trial'); return; }
+    TrialPreload.start(context);
+    await _initVideo();
+  }
+
+  /// Controller still initializing, so leaving can release it too.
+  VideoPlayerController? _starting;
+  Future<void>? _init;
+  bool _leaving = false;
+
+  Future<void> _initVideo() => _init = _startVideo();
+
+  Future<void> _startVideo() async {
     final c = VideoPlayerController.asset(founderVideoAsset, videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true));
+    _starting = c;
     try {
       await c.initialize().timeout(const Duration(seconds: 6));
-      if (!mounted) {
+      _starting = null;
+      if (!mounted || _leaving) {
         await c.dispose();
         return;
       }
@@ -52,8 +71,9 @@ class _FounderScreenState extends State<FounderScreen> with TickerProviderStateM
       setState(() => _video = c);
       await c.play();
     } catch (_) {
-      unawaited(c.dispose().catchError((_) {}));
-      if (!mounted) return;
+      _starting = null;
+      await c.dispose().catchError((_) {});
+      if (!mounted || _leaving) return;
       setState(() => _videoFailed = true);
       _startFallback();
     }
@@ -140,9 +160,22 @@ class _FounderScreenState extends State<FounderScreen> with TickerProviderStateM
     _video?.setVolume(muted ? 0 : 1);
   }
 
-  void _continue() {
-    _pause();
-    // Replace this screen so its native decoder is released before YouTube starts.
+  /// The native video decoder is fully released before the trial creates its YouTube
+  /// player, so two video surfaces never overlap on low-memory phones.
+  Future<void> _continue() async {
+    if (_leaving) return;
+    _leaving = true;
+    _timer?.cancel();
+    final v = _video;
+    if (v != null) {
+      v.removeListener(_onVideo);
+      setState(() => _video = null); // poster replaces the player before it is released
+      await v.pause().catchError((_) {});
+      await v.dispose().catchError((_) {});
+    }
+    // Still initializing: it disposes itself on completion (_leaving), wait for that.
+    if (_starting != null) await _init?.catchError((_) {});
+    if (!mounted) return;
     context.go('/trial');
   }
 

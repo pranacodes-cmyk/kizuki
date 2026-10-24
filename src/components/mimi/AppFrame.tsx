@@ -7,6 +7,8 @@ import { SPLASH_FACE, SPLASH_FADE_MS, SPLASH_MS, SPLASH_REDUCED_MS, SPLASH_WORD,
 import { useUI } from "@/lib/ui-store";
 import { cn } from "@/lib/utils";
 import { loadYouTubeApi } from "@/lib/youtube";
+import { refreshOnboardingSettings } from '@/lib/onboarding-settings';
+import { preloadTrial } from '@/lib/trial-preload';
 
 import { Mascot } from "./Mascot";
 
@@ -22,6 +24,8 @@ export function AppFrame({ children }: { children: ReactNode }) {
     if (!hydrated) return;
     // Fetch YouTube's player code during the splash, so the first clip starts sooner.
     void loadYouTubeApi().catch(() => {});
+    void refreshOnboardingSettings();
+    void preloadTrial();
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     // Screens start their entrances as the splash begins to fade, so the two overlap.
     const t = setTimeout(() => { setSplashDone(true); useUI.getState().setSplashing(false); }, reduced ? SPLASH_REDUCED_MS : SPLASH_MS);

@@ -1,19 +1,27 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
 import 'package:go_router/go_router.dart';
-import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:provider/provider.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-
+import 'package:url_launcher/url_launcher.dart';
+import '../logic/logic.dart';
+import '../services/auth_links.dart';
 import '../services/config.dart';
+import '../services/native_auth.dart';
+import '../services/onboarding_settings.dart';
+import '../widgets/provider_icon.dart';
+import '../services/analytics.dart';
 import '../services/sync_service.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
-import '../widgets/toast.dart';
 import '../widgets/ui.dart';
-import 'onboarding.dart' show MimiField;
 
-/// Save progress / sign in — mirrors src/routes/account.tsx. Android uses email + password
-/// (the web preview also offers Google and Lovable sign-in through the web-only broker).
+/// Save progress / sign in — mirrors src/routes/account.tsx. Sign-in is social only:
+/// Google on Android, Google and Apple on iOS. A provider uses its native account sheet
+/// once its remote switch is on; otherwise — and whenever native sign-in fails — the
+/// published site signs in through the browser and hands the session back (kizuki://auth).
 class AccountScreen extends StatefulWidget {
   final bool signInMode;
   const AccountScreen({super.key, this.signInMode = false});
@@ -21,27 +29,23 @@ class AccountScreen extends StatefulWidget {
   State<AccountScreen> createState() => _AccountScreenState();
 }
 
-final _emailRe = RegExp(r'^[^\s@]+@[^\s@]+\.[^\s@]+$');
-
 /// Same messages as friendly() in account.tsx.
 String friendlyAuthError(Object err) {
   final msg = err is AuthException ? err.message : err.toString();
   final m = msg.toLowerCase();
-  if (m.contains('invalid login')) return "That email and password don't match.";
-  if (m.contains('already registered') || m.contains('already exists')) return 'That email already has an account — try signing in.';
-  if (m.contains('email not confirmed')) return 'Please confirm your email first — check your inbox.';
-  if (m.contains('pwned') || m.contains('leaked') || m.contains('weak')) return 'That password is too common. Please pick another.';
-  if (m.contains('socketexception') || m.contains('failed host lookup') || m.contains('clientexception')) return "You're offline. Check your connection and try again.";
+  if (m.contains('socketexception') || m.contains('failed host lookup') || m.contains('clientexception') || m.contains('network')) {
+    return "You're offline. Check your connection and try again.";
+  }
   return msg.isEmpty ? 'Something went wrong. Please try again.' : msg;
 }
 
+String get _platform => defaultTargetPlatform == TargetPlatform.android ? 'android' : 'ios';
+
 class _AccountScreenState extends State<AccountScreen> {
-  late String mode = widget.signInMode ? 'signin' : 'signup';
-  final _email = TextEditingController();
-  final _password = TextEditingController();
-  bool show = false, busy = false;
+  bool busy = false; // native sheet or restoring the handed-back session
+  bool waiting = false; // browser is open, the learner signs in there
+  String? waitingProvider;
   String? error;
-  String? sent; // confirm | reset
 
   bool get requiredAccount => context.read<AppState>().purchaseAccountPending;
   bool get fromWelcome => widget.signInMode && !requiredAccount && !context.read<AppState>().onboarded;
@@ -52,14 +56,19 @@ class _AccountScreenState extends State<AccountScreen> {
     // Already signed in when a purchase/restore lands here (mirrors account.tsx): the
     // verified account completes the purchase step without asking to sign in again.
     SyncService.I.addListener(_autoFinish);
-    WidgetsBinding.instance.addPostFrameCallback((_) => _autoFinish());
+    AuthLinks.I.start();
+    AuthLinks.I.onSession = _onHandoff;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _autoFinish();
+      final handoff = AuthLinks.I.takePending();
+      if (handoff != null) _onHandoff(handoff);
+    });
   }
 
   @override
   void dispose() {
     SyncService.I.removeListener(_autoFinish);
-    _email.dispose();
-    _password.dispose();
+    if (AuthLinks.I.onSession == _onHandoff) AuthLinks.I.onSession = null;
     super.dispose();
   }
 
@@ -89,19 +98,35 @@ class _AccountScreenState extends State<AccountScreen> {
       if (!app.onboarded) app.completeOnboarding();
       context.go('/feed');
     } catch (e) {
+      Analytics.track('sign_in_failed', {'category': 'account_completion'});
       if (mounted) setState(() => error = friendlyAuthError(e));
     } finally {
       _finishing = false;
+      if (mounted) setState(() => busy = false);
     }
   }
 
-  String? _validate() {
-    final em = _email.text.trim();
-    if (em.isEmpty || em.length > 255 || !_emailRe.hasMatch(em)) return 'Enter a valid email';
-    final pw = _password.text;
-    if (pw.length < 8) return 'Use at least 8 characters';
-    if (pw.length > 72) return 'Use at most 72 characters';
-    return null;
+  /// Session came back from the browser (kizuki://auth hand-off).
+  Future<void> _onHandoff(String sessionJson) async {
+    if (!mounted) return;
+    setState(() {
+      waiting = false;
+      waitingProvider = null;
+      busy = true;
+      error = null;
+    });
+    try {
+      await SyncService.I.installHandoff(sessionJson);
+      if (mounted) await _finish();
+    } catch (e) {
+      Analytics.track('sign_in_failed', {'category': 'browser_handoff'});
+      if (mounted) {
+        setState(() {
+          error = friendlyAuthError(e);
+          busy = false;
+        });
+      }
+    }
   }
 
   /// Waits (briefly) for the background backend connection; shows the offline message
@@ -110,6 +135,7 @@ class _AccountScreenState extends State<AccountScreen> {
     final ok = await SyncService.I.ensureBackend().timeout(const Duration(seconds: 12), onTimeout: () => false);
     if (!ok && mounted) {
       setState(() {
+        waiting = false;
         busy = false;
         error = "You're offline. Check your connection and try again.";
       });
@@ -117,50 +143,62 @@ class _AccountScreenState extends State<AccountScreen> {
     return ok;
   }
 
-  Future<void> _submit() async {
+  Future<void> _oauth(String provider) async {
+    Analytics.track('sign_in_started', {'provider': provider});
     FocusScope.of(context).unfocus();
-    setState(() => error = _validate());
-    if (error != null) return;
-    setState(() => busy = true);
-    final name = context.read<AppState>().profile.name;
+    setState(() {
+      error = null;
+      busy = true;
+      waiting = false;
+    });
     if (!await _backend()) return;
-    final auth = Supabase.instance.client.auth;
-    try {
-      if (mode == 'signup') {
-        final res = await auth.signUp(email: _email.text.trim(), password: _password.text, emailRedirectTo: AppConfig.webOrigin, data: name.isEmpty ? null : {'name': name});
-        if (res.session == null) {
-          if (mounted) setState(() => sent = 'confirm');
+    // Fresh switch values; offline keeps the last valid ones.
+    await OnboardingSettings.refresh().timeout(const Duration(seconds: 3), onTimeout: () {});
+    if (!mounted) return;
+    final method = signInMethod(provider, nativeGoogle: OnboardingSettings.nativeGoogle, nativeApple: OnboardingSettings.nativeApple);
+    if (method == 'native') {
+      try {
+        await NativeAuth.signIn(provider);
+        SyncService.I.setSession(Supabase.instance.client.auth.currentSession);
+        if (mounted) await _finish();
+        return;
+      } catch (e) {
+        if (NativeAuth.isCancel(e)) {
+          if (mounted) setState(() => busy = false);
           return;
         }
-      } else {
-        await auth.signInWithPassword(email: _email.text.trim(), password: _password.text);
-        toast('Welcome back!', icon: '👋');
+        // Any other native failure (provider setup, backend rejected the token): the
+        // browser hand-off still signs the learner in, so they are never stuck here.
+        debugPrint('KIZUKI_WARN native sign-in failed, using browser: $e');
+        Analytics.track('sign_in_failed', {'category': 'native_fallback'});
       }
-      SyncService.I.setSession(auth.currentSession);
-      if (!mounted) return;
-      await _finish();
-    } catch (e) {
-      if (mounted) setState(() => error = friendlyAuthError(e));
-    } finally {
-      if (mounted) setState(() => busy = false);
     }
+    if (mounted) await _browser(provider);
   }
 
-  Future<void> _forgot() async {
-    final em = _email.text.trim();
-    if (!_emailRe.hasMatch(em)) {
-      setState(() => error = 'Enter your email first, then tap “Forgot password”.');
-      return;
-    }
-    setState(() => busy = true);
-    if (!await _backend()) return;
+  Future<void> _browser(String provider) async {
+    setState(() {
+      busy = false;
+      waiting = true;
+      waitingProvider = provider;
+      error = null;
+    });
+    final url = Uri.parse('${AppConfig.webOrigin}/account?bridge=1&provider=$provider&platform=$_platform');
     try {
-      await Supabase.instance.client.auth.resetPasswordForEmail(em, redirectTo: '${AppConfig.webOrigin}/reset-password');
-      if (mounted) setState(() => sent = 'reset');
+      final ok = await launchUrl(url, mode: LaunchMode.externalApplication);
+      if (!ok && mounted) {
+        setState(() {
+          waiting = false;
+          error = "Couldn't open the browser. Please try again.";
+        });
+      }
     } catch (e) {
-      if (mounted) setState(() => error = friendlyAuthError(e));
-    } finally {
-      if (mounted) setState(() => busy = false);
+      if (mounted) {
+        setState(() {
+          waiting = false;
+          error = friendlyAuthError(e);
+        });
+      }
     }
   }
 
@@ -174,111 +212,77 @@ class _AccountScreenState extends State<AccountScreen> {
     context.go('/feed');
   }
 
+  String _label(String provider) => provider == 'google' ? 'Google' : 'Apple';
+
   @override
   Widget build(BuildContext context) {
-    if (sent != null) {
-      return Scaffold(
-        body: SafeArea(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 24),
-            child: Column(children: [
-              Expanded(
-                child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                  const Icon(LucideIcons.mailCheck, size: 64, color: T.primary),
-                  const SizedBox(height: 20),
-                  Text('Check your inbox', style: txt(24, w: FontWeight.w900)),
-                  const SizedBox(height: 8),
-                  SizedBox(
-                    width: 300,
-                    child: Text.rich(
-                      TextSpan(children: [
-                        TextSpan(text: sent == 'confirm' ? 'We sent a confirmation link to ' : 'We sent a password reset link to '),
-                        TextSpan(text: _email.text.trim(), style: txt(15, w: FontWeight.w800)),
-                        TextSpan(text: sent == 'confirm' ? '. Open it to finish creating your account — your progress is saved on this phone meanwhile.' : '.'),
-                      ]),
-                      textAlign: TextAlign.center,
-                      style: txt(15, w: FontWeight.w400, c: T.muted),
-                    ),
-                  ),
-                ]),
-              ),
-              Button3D(label: 'Back to sign in', onPressed: () => setState(() {
-                        sent = null;
-                        mode = 'signin';
-                      })),
-              const SizedBox(height: 8),
-            ]),
-          ),
-        ),
-      );
-    }
-    final signup = mode == 'signup';
+    final signin = widget.signInMode;
     return Scaffold(
       body: SafeArea(
-        child: AutofillGroup(
-          child: CustomScrollView(slivers: [
-            if (!requiredAccount) SliverToBoxAdapter(child: TopBar(onBack: () => context.canPop() ? context.pop() : context.go('/'))),
-            SliverToBoxAdapter(
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 24),
-                child: Column(children: [
-                  Mascot(signup ? MascotPose.heart : MascotPose.wave, size: 96),
-                  const SizedBox(height: 8),
-                  Text(signup ? 'Save your progress' : 'Welcome back', style: txt(24, w: FontWeight.w900, h: 1.2)),
-                  const SizedBox(height: 6),
-                  Text(signup ? 'Keep your words, streak and reviews safe on every device.' : 'Sign in to pick up where you left off.', textAlign: TextAlign.center, style: txt(15, w: FontWeight.w400, c: T.muted)),
-                  const SizedBox(height: 24),
-                  MimiField(controller: _email, hint: 'Email', keyboard: TextInputType.emailAddress, autofill: const [AutofillHints.email]),
-                  const SizedBox(height: 12),
-                  MimiField(
-                    controller: _password,
-                    hint: 'Password',
-                    obscure: !show,
-                    autofill: [signup ? AutofillHints.newPassword : AutofillHints.password],
-                    onSubmitted: (_) => _submit(),
-                    suffix: IconButton(
-                      tooltip: show ? 'Hide password' : 'Show password',
-                      onPressed: () => setState(() => show = !show),
-                      icon: Icon(show ? LucideIcons.eyeOff : LucideIcons.eye, size: 20, color: T.muted),
-                    ),
-                  ),
-                  if (error != null)
-                    Container(
-                      width: double.infinity,
-                      margin: const EdgeInsets.only(top: 12),
-                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-                      decoration: BoxDecoration(color: T.dangerSoft, borderRadius: BorderRadius.circular(12)),
-                      child: Text(error!, style: txt(14, w: FontWeight.w700, c: T.danger)),
-                    ),
-                  const SizedBox(height: 12),
-                  Button3D(label: busy ? 'One moment…' : (signup ? 'Create account' : 'Sign in'), onPressed: busy ? null : _submit),
-                  if (!signup) TextButton(onPressed: busy ? null : _forgot, child: Text('Forgot password?', style: txt(14, w: FontWeight.w700, c: T.muted))),
-                ]),
-              ),
-            ),
-            SliverFillRemaining(
-              hasScrollBody: false,
-              child: Column(mainAxisAlignment: MainAxisAlignment.end, children: [
-                const SizedBox(height: 24),
-                TextButton(
-                  onPressed: () => setState(() {
-                    mode = signup ? 'signin' : 'signup';
-                    error = null;
-                  }),
-                  child: Text.rich(
-                    TextSpan(children: [
-                      TextSpan(text: signup ? 'Already have an account? ' : 'New here? '),
-                      TextSpan(text: signup ? 'Sign in' : 'Create an account', style: txt(15, w: FontWeight.w700, c: T.primary)),
-                    ]),
-                    style: txt(15, w: FontWeight.w700, c: T.muted),
-                  ),
-                ),
-                if (!requiredAccount) TextButton(onPressed: _later, child: Text(fromWelcome ? 'Back' : 'Maybe later', style: txt(14, w: FontWeight.w700, c: T.faint))),
+        child: CustomScrollView(slivers: [
+          if (!requiredAccount) SliverToBoxAdapter(child: TopBar(onBack: () => context.canPop() ? context.pop() : context.go('/'))),
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 24),
+              child: Column(children: [
+                Mascot(MascotPose.wave, size: 96),
                 const SizedBox(height: 8),
+                Text(signin ? 'Welcome back' : 'Save your progress', textAlign: TextAlign.center, style: txt(24, w: FontWeight.w900, h: 1.2)),
+                const SizedBox(height: 6),
+                Text(signin ? 'Sign in to pick up where you left off.' : 'Keep your words, streak and reviews safe on every device.', textAlign: TextAlign.center, style: txt(15, w: FontWeight.w400, c: T.muted)),
+                const SizedBox(height: 24),
+                if (error != null)
+                  Container(
+                    width: double.infinity,
+                    margin: const EdgeInsets.only(bottom: 12),
+                    padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                    decoration: BoxDecoration(color: T.dangerSoft, borderRadius: BorderRadius.circular(12)),
+                    child: Text(error!, textAlign: TextAlign.center, style: txt(14, w: FontWeight.w700, c: T.danger)),
+                  ),
+                if (waiting) ...[
+                  Text('Finish signing in with ${_label(waitingProvider ?? 'google')} in your browser — Kizuki opens again as soon as you\u2019re done.',
+                      key: const ValueKey('account-waiting'), textAlign: TextAlign.center, style: txt(15, w: FontWeight.w700, c: T.muted, h: 1.4)),
+                  const SizedBox(height: 16),
+                  Button3D(label: 'Open browser again', onPressed: waitingProvider == null ? null : () => _browser(waitingProvider!), variant: BtnVariant.surface),
+                  const SizedBox(height: 8),
+                  Button3D(
+                    label: 'Cancel',
+                    onPressed: () => setState(() {
+                      waiting = false;
+                      waitingProvider = null;
+                    }),
+                    variant: BtnVariant.ghost,
+                    height: 48,
+                  ),
+                ] else if (busy) ...[
+                  const SizedBox(height: 24),
+                  const CircularProgressIndicator(),
+                ] else ...[
+                  for (final provider in signInProviders(_platform)) ...[
+                    Semantics(button: true, label: 'Continue with ${_label(provider)}', child: Button3D(
+                      key: ValueKey('account-$provider'),
+                      onPressed: () => _oauth(provider), variant: BtnVariant.surface,
+                      child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                        ProviderIcon(provider), const SizedBox(width: 12),
+                        Text('Continue with ${_label(provider)}', style: txt(17, w: FontWeight.w800)),
+                      ]),
+                    )),
+                    const SizedBox(height: 12),
+                  ],
+                ],
               ]),
             ),
-          ]),
-        ),
+          ),
+          SliverFillRemaining(
+            hasScrollBody: false,
+            child: Column(mainAxisAlignment: MainAxisAlignment.end, children: [
+              if (!busy && !waiting) ...[
+                if (!requiredAccount) TextButton(onPressed: _later, child: Text(fromWelcome ? 'Back' : 'Maybe later', style: txt(14, w: FontWeight.w700, c: T.faint))),
+                const SizedBox(height: 8),
+              ],
+            ]),
+          ),
+        ]),
       ),
     );
   }

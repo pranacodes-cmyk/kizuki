@@ -12,6 +12,39 @@ export const studyWindows = ["morning", "afternoon", "evening", "night"] as cons
 export const streakGoals = [7, 14, 30, 50] as const;
 export const jlptLevels = ["N5", "N4", "N3", "N2", "N1"] as const;
 
+export const signInProviders = (platform: string): readonly ("google" | "apple")[] => platform === "android" ? ["google"] : ["google", "apple"];
+export const founderVideoEnabled = (remote: unknown, cached = true): boolean => typeof remote === 'boolean' ? remote : cached;
+export const onboardingAfterPlan = (enabled: boolean): '/founder' | '/trial' => enabled ? '/founder' : '/trial';
+
+/** Remote native sign-in switch: off until the backend accepts this app's own provider
+ * tokens; a missing/invalid value keeps the last valid one. */
+export const nativeSignInEnabled = (remote: unknown, cached = false): boolean => typeof remote === 'boolean' ? remote : cached;
+
+/** How a phone sign-in runs: the native account sheet when its switch is on, otherwise the
+ * browser hand-off through the published site (also the fallback when native fails). */
+export const signInMethod = (provider: string, f: { nativeGoogle: boolean; nativeApple: boolean }): 'native' | 'browser' =>
+  (provider === 'google' && f.nativeGoogle) || (provider === 'apple' && f.nativeApple) ? 'native' : 'browser';
+
+/** Learner progress on a device belongs to the account it last synced with (`owner`).
+ * Progress made before any sign-in (no owner) joins the first account; signing into a
+ * different account starts from a clean learner document that keeps only device-level
+ * values, so one learner's words, history and profile never merge into another account. */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export function localStateFor(local: any, userId: string): any {
+  const owner = local.owner ?? null;
+  if (owner === null || owner === userId) return { ...local, owner: userId };
+  return {
+    version: local.version ?? 1,
+    onboarded: local.onboarded === true,
+    purchaseAccountPending: local.purchaseAccountPending === true,
+    premium: local.premium,
+    settings: local.settings,
+    feedSeed: local.feedSeed,
+    owner: userId,
+    updatedAt: 0,
+  };
+}
+
 const clamp = (n: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, n));
 
 /** Self-reported level (0..4) → JLPT band used for content. */
@@ -150,6 +183,13 @@ export const STILL_CLIP_PENALTY = 6;
 export const STARTER_WATCH_LIMIT = 60;
 /** Only yearly simulation has a trial; native dates always come from the store. */
 export const simulatedTrialEnd = (plan: string, now: number): number | null => plan === "yearly" ? now + 7 * dayMs : null;
+/** Expired trials/subscriptions never fall back to free learning. */
+export function subscriptionAccess(active: boolean, expiresAt: number | null | undefined, trialEndsAt: number | null, now: number) {
+  const end = expiresAt ?? trialEndsAt;
+  return active && (end == null || end > now);
+}
+export const learningPath = (path: string) => !["/account", "/settings", "/support", "/terms", "/privacy", "/trial", "/profile", "/achievements"].includes(path);
+export const onboardingPath = (path: string) => ["/", "/onboarding", "/building", "/plan", "/founder"].includes(path);
 export const subscriptionPhase = (active: boolean, plan: string | null, trialEndsAt: number | null, now: number) =>
   !active ? "free" : plan === "yearly" && trialEndsAt != null && trialEndsAt > now ? "trial" : "active";
 /** YouTube reports zero until metadata arrives; allow only end-padding tolerance. */
@@ -717,8 +757,8 @@ export function mergeState(local: Json, remote: Json): Json {
 // Free tier + "hear it again"
 // ---------------------------------------------------------------------------
 
-/** Free learners get `freeLimit` clips a day; premium (incl. trial) is unlimited. */
-export const canWatchClip = (premiumActive: boolean, clipsToday: number, freeLimit: number) => premiumActive || clipsToday < freeLimit;
+/** Only active trial/paid learners can watch; legacy quota arguments stay compatible. */
+export const canWatchClip = (premiumActive: boolean, _clipsToday: number, _freeLimit: number) => premiumActive;
 
 /** Other clips that contain a word key, best level-fit first, excluding the current clip. */
 export function clipsWithWord(clips: SearchClip[], key: string, excludeId: string, jlpt: string, limit = 6) {
@@ -768,11 +808,11 @@ export const ASK_MAX_MESSAGES = 10;
 /** Questions asked today; the counter resets on a new day. */
 export const asksToday = (day: string, n: number, today: string) => (day === today ? n : 0);
 
-/** Free learners get `freeLimit` questions a day; premium (incl. trial) is unlimited. */
-export const canAsk = (premiumActive: boolean, asked: number, freeLimit: number) => premiumActive || asked < freeLimit;
+/** Only active trial/paid learners can ask; no free learning tier. */
+export const canAsk = (premiumActive: boolean, _asked: number, _freeLimit: number) => premiumActive;
 
 /** Free questions left today, or null when unlimited. */
-export const asksLeft = (premiumActive: boolean, asked: number, freeLimit: number): number | null => (premiumActive ? null : Math.max(0, freeLimit - asked));
+export const asksLeft = (premiumActive: boolean, _asked: number, _freeLimit: number): number | null => (premiumActive ? null : 0);
 
 /** Typed question → what gets sent: whitespace collapsed, trimmed, capped at ASK_MAX_CHARS. */
 export function cleanQuestion(s: string) {

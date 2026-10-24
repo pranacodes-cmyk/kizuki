@@ -9,6 +9,7 @@
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round">
+        <meta-data android:name="com.posthog.posthog.AUTO_INIT" android:value="false"/>
         <!-- Meta SDK: install/open + funnel events are logged by the app (services/attribution.dart).
              Automatic logging is off so Play purchases are never double counted: trials and
              purchases reach Meta from RevenueCat (Conversions API). -->
@@ -37,6 +38,14 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <!-- Browser sign-in hand-off (kizuki://auth?session=... from the published
+                 web origin after Google/Apple/Lovable OAuth). -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="kizuki" android:host="auth"/>
             </intent-filter>
         </activity>
         <!-- Daily reminder (flutter_local_notifications): fire scheduled reminders and restore them after reboot. -->

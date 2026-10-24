@@ -23,11 +23,11 @@ void main() {
 
   test('a short do-what-I-point tour: word card, Ask Kizuki, swipe, Vocab, first review, back to videos', () {
     final ids = tourSteps.map((s) => s.id).toList();
-    expect(ids, ['hello', 'tapWord', 'meaning', 'askOpen', 'askInfo', 'legend', 'swipe', 'vocabTab', 'review', 'reveal', 'grade', 'done']);
-    expect(tourSteps.length, lessThanOrEqualTo(12));
+    expect(ids, ['hello', 'controls', 'tapWord', 'meaning', 'askOpen', 'askInfo', 'legend', 'swipe', 'vocabTab', 'kanaDecks', 'review', 'reveal', 'grade', 'done']);
+    expect(tourSteps.length, lessThanOrEqualTo(14));
     expect(tourSteps.expand((s) => s.screens).toSet(), {'/feed', '/explore', '/vocab', '/review'});
     // No step points at the whole transcript, the button row or Explore any more.
-    expect(tourSteps.map((s) => s.target).whereType<String>().toSet().intersection({'transcript', 'controls', 'player', 'exploreTab', 'exploreSearch'}), isEmpty);
+    expect(tourSteps.map((s) => s.target).whereType<String>().toSet().intersection({'transcript', 'player', 'exploreTab', 'exploreSearch'}), isEmpty);
     // Every skipTo points at a real step.
     for (final s in tourSteps.where((s) => s.skipTo != null)) {
       expect(tourIndexOf(s.skipTo!), lessThan(tourSteps.length), reason: s.id);
@@ -84,6 +84,8 @@ void main() {
     Tour.I.route('/explore');
     expect(id(), 'vocabTab');
     Tour.I.route('/vocab');
+    expect(id(), 'kanaDecks');
+    Tour.I.advance();
     expect(id(), 'review');
     Tour.I.route('/review');
     expect(id(), 'reveal');
@@ -186,6 +188,10 @@ void main() {
     expect(find.textContaining('Hi Mohit!'), findsOneWidget);
     await tester.tap(find.text('Show me'));
     await tester.pump(const Duration(milliseconds: 600));
+    expect(id(), 'controls');
+    await tester.pump(const Duration(milliseconds: tourTargetWaitMs + 400));
+    await tester.tap(find.text('Try a word'));
+    await tester.pump(const Duration(milliseconds: 400));
     expect(id(), 'tapWord');
     expect(find.text('Tap the highlighted word'), findsOneWidget);
 

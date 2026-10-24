@@ -2,6 +2,7 @@
 // the start until it's finished or skipped). Mirrors the Tour controller in
 // mobile/lib/widgets/tour.dart.
 import { create } from "zustand";
+import { track } from './analytics';
 
 import { useApp } from "@/lib/store";
 import { TOUR_CARD_STEPS, TOUR_STEPS, tourIndexOf, type TourEvent } from "@/lib/tour";
@@ -35,11 +36,12 @@ export function setTourNavigator(fn: ((path: string) => void) | null) {
 export const useTour = create<TourState>((set, get) => ({
   index: null,
   closeSignal: 0,
-  start: () => set({ index: 0 }),
+  start: () => { set({ index: 0 }); track('welcome_tour_step_viewed', { step: TOUR_STEPS[0]?.id ?? 'start' }); },
   goTo: (i) => {
     if (get().index == null) return;
     if (i >= TOUR_STEPS.length) return get().finish();
     set({ index: i });
+    track('welcome_tour_step_viewed', { step: TOUR_STEPS[i]?.id ?? 'unknown' });
   },
   next: () => {
     const i = get().index;

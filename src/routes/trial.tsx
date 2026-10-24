@@ -1,16 +1,18 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { motion } from "motion/react";
 import { Bell, Check, Crown, Lock, Sparkles } from "lucide-react";
-import { useState, type ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 
 import { FeedPreview } from "@/components/mimi/FeedPreview";
 import { LivelyMascot } from "@/components/mimi/Mascot";
 import { Button, ProgressHeader, Screen } from "@/components/mimi/ui";
+import { track } from '@/lib/analytics';
 import { haptic } from "@/lib/haptics";
 import { PLANS, priceLine, trialTimeline } from "@/lib/paywall";
 import { useApp } from "@/lib/store";
 import { toast } from "@/lib/ui-store";
 import { cn } from "@/lib/utils";
+import { cachedFounderEnabled } from '@/lib/onboarding-settings';
 
 export const Route = createFileRoute("/trial")({
   head: () => ({
@@ -33,15 +35,19 @@ const TRIAL_ELIGIBLE = true;
 function Trial() {
   const navigate = useNavigate();
   const startTrial = useApp((s) => s.startTrial);
-  const [step, setStep] = useState(0);
+  const [step, setStep] = useState(() => useApp.getState().onboarded ? 2 : 0);
   const [plan, setPlan] = useState<"yearly" | "monthly">("yearly");
   const [busy, setBusy] = useState(false);
   const trial = TRIAL_ELIGIBLE;
 
+  useEffect(() => track('paywall_viewed'), []);
+  useEffect(() => track('paywall_step_viewed', { step_index: step }), [step]);
   const start = async () => {
+    track('checkout_started', { plan, is_simulated: true });
     setBusy(true);
     await new Promise((r) => setTimeout(r, 900)); // store sheet stand-in (real billing in the Android app)
     startTrial(plan);
+    track('checkout_result', { result: 'done', plan, is_simulated: true });
     // The account step is required as soon as the store confirms, even if this screen was left.
     useApp.getState().requirePurchaseAccount();
     setBusy(false);
@@ -50,6 +56,7 @@ function Trial() {
     void navigate({ to: "/account", search: { mode: "signin" }, replace: true });
   };
   const skip = () => {
+    track('paywall_skipped');
     if (busy) return;
     if (useApp.getState().onboarded) window.history.back();
     else void navigate({ to: "/account" });
@@ -59,7 +66,7 @@ function Trial() {
     if (step === 2 && !trial) setStep(0);
     else if (step) setStep(step - 1);
     else if (useApp.getState().onboarded) window.history.back();
-    else void navigate({ to: "/founder" });
+    else void navigate({ to: cachedFounderEnabled() ? "/founder" : "/plan" });
   };
 
   return (
@@ -68,7 +75,7 @@ function Trial() {
       <div key={step} className="flex min-h-0 flex-1 flex-col">
         {step === 0 && <StepTry trial={trial} onNext={() => setStep(trial ? 1 : 2)} />}
         {step === 1 && <StepRemind onNext={() => setStep(2)} />}
-        {step === 2 && <StepPlans plan={plan} setPlan={setPlan} busy={busy} trialEligible={trial} onStart={start} onSkip={skip} />}
+        {step === 2 && <StepPlans plan={plan} setPlan={(p) => { setPlan(p); track('plan_selected', { plan: p }); }} busy={busy} trialEligible={trial} onStart={start} onSkip={skip} />}
       </div>
     </Screen>
   );
@@ -86,6 +93,7 @@ function Pinned({ children, footer }: { children: ReactNode; footer: ReactNode }
 }
 
 function StepTry({ trial, onNext }: { trial: boolean; onNext: () => void }) {
+  const onboarded = useApp((s) => s.onboarded);
   return (
     <div className="flex flex-1 flex-col px-6">
       <h1 className="pt-4 text-center text-[1.625rem] font-black leading-tight">
@@ -101,7 +109,7 @@ function StepTry({ trial, onNext }: { trial: boolean; onNext: () => void }) {
       </h1>
       <div className="relative mx-auto mt-6 w-[230px] flex-1">
         <div className="absolute inset-0 overflow-hidden rounded-[32px] border-[6px] border-surface-3 bg-stage">
-          <FeedPreview />
+          {onboarded ? <div className="flex h-full items-center justify-center px-4 text-center font-extrabold">Renew Premium to keep learning</div> : <FeedPreview />}
         </div>
         <LivelyMascot pose="cheer" size={96} tappable className="absolute -bottom-3 -right-14" />
       </div>

@@ -8,6 +8,7 @@ import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import '../data/models.dart' as m;
 import '../logic/logic.dart' show clipWindowAvailable;
 import '../theme/tokens.dart';
+import '../services/analytics.dart';
 import 'common.dart';
 import 'ui.dart';
 import 'playback_loop.dart';
@@ -85,7 +86,10 @@ class ClipPlayerState extends State<ClipPlayer> {
         _park(); // swiped back past it: keep it loaded, paused at its start
       }
     }
-    if (oldWidget.rate != widget.rate && _ready) _c?.setPlaybackRate(widget.rate);
+    if (oldWidget.rate != widget.rate) {
+      if (widget.active) Analytics.track('clip_speed_changed', {'speed': widget.rate});
+      if (_ready) _c?.setPlaybackRate(widget.rate);
+    }
   }
 
   @override
@@ -100,7 +104,7 @@ class ClipPlayerState extends State<ClipPlayer> {
     _slow = false;
     if (!widget.active) return;
     _slowTimer = Timer(const Duration(seconds: 9), () {
-      if (mounted && widget.active && !_ready && _error == null) setState(() => _slow = true);
+      if (mounted && widget.active && !_ready && _error == null) { Analytics.track('clip_loading_slow', {'clip_id': widget.clip.id}); setState(() => _slow = true); }
     });
   }
 
@@ -172,6 +176,8 @@ class ClipPlayerState extends State<ClipPlayer> {
     _loop = PlaybackLoopGuard(widget.clip.start);
     _startup = PlaybackStartGuard();
     _tapped = false;
+    // A pause queued during an earlier activation never blocks this new start.
+    _wantPause = false;
     _watchSlow();
     if (_loaded) unawaited(_play(c, widget.clip).catchError((_) {}));
   }
@@ -207,10 +213,12 @@ class ClipPlayerState extends State<ClipPlayer> {
     if (!clipWindowAvailable(widget.clip.start, widget.clip.end, duration)) {
       _c?.pauseVideo();
       widget.onPlayingChange(false);
+      if (_error == null && widget.active) Analytics.track('clip_failed', {'category': 'invalid_window', 'clip_id': widget.clip.id});
       setState(() => _error = 'This clip is no longer available. Choose another clip.');
       return;
     }
     if (v.error != YoutubeError.none) {
+      if (_error == null && widget.active) Analytics.track('clip_failed', {'category': v.error.name, 'clip_id': widget.clip.id});
       setState(() => _error = playerErrorMessage(v.error));
       return;
     }
@@ -305,6 +313,9 @@ class ClipPlayerState extends State<ClipPlayer> {
 
   void toggle() => _state == PlayerState.playing ? pause() : play();
   void seek(double t) {
+    // Replay / tapping a line on a ready player is an explicit play: it cancels a queued
+    // pause. Before ready it does not run, so a queued pause stays.
+    if (_ready) _wantPause = false;
     _seekTo(t);
     _c?.playVideo();
   }
@@ -345,7 +356,7 @@ class ClipPlayerState extends State<ClipPlayer> {
               child: GestureDetector(
                 onTap: () {
                   setState(() => _tapped = true);
-                  _c?.playVideo();
+                  play();
                 },
                 child: Stack(fit: StackFit.expand, children: [
                   ClipThumb(widget.clip.thumb),

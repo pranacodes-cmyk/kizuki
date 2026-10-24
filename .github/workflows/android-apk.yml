@@ -67,23 +67,29 @@ jobs:
         env:
           KIZUKI_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
           KIZUKI_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
-        run: flutter build apk --release
+        run: flutter build apk --release --split-per-abi
 
       - name: Check signature
         run: |
           APKSIGNER=$(ls $ANDROID_HOME/build-tools/*/apksigner | sort -V | tail -1)
-          "$APKSIGNER" verify --print-certs build/app/outputs/flutter-apk/app-release.apk | grep -E "SHA-256|DN" | tee /tmp/cert.txt
+          "$APKSIGNER" verify --print-certs build/app/outputs/flutter-apk/app-arm64-v8a-release.apk | grep -E "SHA-256|DN" | tee /tmp/cert.txt
           if [ -n "${KIZUKI_KEYSTORE:-}" ]; then grep -qi "998e8734cb805df541868ce39117fb9e6a97eb9c015772dc59d84591fb7eff90" /tmp/cert.txt; fi
 
       - name: Name the APK
         run: |
           VERSION=$(grep '^version:' pubspec.yaml | awk '{print $2}' | tr '+' '-')
-          cp build/app/outputs/flutter-apk/app-release.apk "build/app/outputs/flutter-apk/kizuki-${VERSION}-${GITHUB_SHA::7}.apk"
+          for ABI in arm64-v8a armeabi-v7a x86_64; do
+            cp "build/app/outputs/flutter-apk/app-${ABI}-release.apk" "build/app/outputs/flutter-apk/kizuki-${VERSION}-${GITHUB_SHA::7}-${ABI}.apk"
+          done
+          python3 ../scripts/apk_size_report.py build/app/outputs/flutter-apk/kizuki-*.apk | tee build/app/outputs/flutter-apk/size-report.txt
+          cat build/app/outputs/flutter-apk/size-report.txt >> "$GITHUB_STEP_SUMMARY"
 
       - uses: actions/upload-artifact@v4
         with:
           name: kizuki-android-apk
-          path: mobile/build/app/outputs/flutter-apk/kizuki-*.apk
+          path: |
+            mobile/build/app/outputs/flutter-apk/kizuki-*.apk
+            mobile/build/app/outputs/flutter-apk/size-report.txt
           if-no-files-found: error
           retention-days: 30
 
@@ -138,7 +144,7 @@ jobs:
           emulator-boot-timeout: 900
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none -no-snapshot
           working-directory: mobile
-          script: APK=$(ls "$PWD"/apk/*.apk | head -1) bash ../.github/scripts/e2e.sh
+          script: APK=$(ls "$PWD"/apk/*-x86_64.apk | head -1) bash ../.github/scripts/e2e.sh
 
       - uses: actions/upload-artifact@v4
         if: always()

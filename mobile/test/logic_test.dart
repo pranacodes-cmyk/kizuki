@@ -6,7 +6,62 @@ import 'package:mimi/logic/logic.dart';
 const now = 1800000000000;
 
 void main() {
+  test('remote off skips founder; on restores it', () {
+    expect(onboardingAfterPlan(founderVideoEnabled(false)), '/trial');
+    expect(onboardingAfterPlan(founderVideoEnabled(true)), '/founder');
+  });
+  test('missing remote setting keeps last valid choice, default on', () {
+    expect(founderVideoEnabled(null), true);
+    expect(founderVideoEnabled(null, false), false);
+    expect(founderVideoEnabled('false', true), true);
+  });
+  test('Android offers only Google', () => expect(signInProviders('android'), ['google']));
+  test('iOS offers Google and Apple', () => expect(signInProviders('ios'), ['google', 'apple']));
+  test('native sign-in stays off until its remote switch is on', () {
+    expect(nativeSignInEnabled(null), false);
+    expect(nativeSignInEnabled(null, true), true);
+    expect(nativeSignInEnabled('true', false), false);
+    expect(nativeSignInEnabled(true, false), true);
+  });
+  test('each provider uses its own switch, otherwise the browser hand-off', () {
+    expect(signInMethod('google', nativeGoogle: false, nativeApple: true), 'browser');
+    expect(signInMethod('google', nativeGoogle: true, nativeApple: false), 'native');
+    expect(signInMethod('apple', nativeGoogle: true, nativeApple: false), 'browser');
+    expect(signInMethod('apple', nativeGoogle: false, nativeApple: true), 'native');
+  });
+  test('progress before any sign-in joins the first account', () {
+    final local = {'words': {'a': 1}, 'updatedAt': 5};
+    expect(localStateFor(local, 'u1'), {'words': {'a': 1}, 'updatedAt': 5, 'owner': 'u1'});
+    expect(localStateFor({...local, 'owner': 'u1'}, 'u1')['words'], {'a': 1});
+  });
+  test("another account never receives the previous learner's progress", () {
+    final local = {'owner': 'u1', 'onboarded': true, 'premium': {'active': true}, 'settings': {'haptics': false}, 'feedSeed': 's', 'words': {'a': 1}, 'history': [1], 'profile': {'name': 'A'}, 'updatedAt': 5};
+    expect(localStateFor(local, 'u2'), {
+      'version': 1, 'onboarded': true, 'purchaseAccountPending': false, 'premium': {'active': true},
+      'settings': {'haptics': false}, 'feedSeed': 's', 'owner': 'u2', 'updatedAt': 0,
+    });
+  });
   group('onboarding rules', () {
+    test('expired trial blocks learning at the exact end', () {
+      expect(subscriptionAccess(true, null, now, now), false);
+      expect(subscriptionAccess(true, null, now - 1, now), false);
+      expect(subscriptionAccess(true, null, now + 1, now), true);
+    });
+    test('paid renewal continues beyond the old trial end', () {
+      expect(subscriptionAccess(true, now + 30 * dayMs, now - 1, now), true);
+    });
+    test('unpaid expired subscription has no learning access', () {
+      expect(subscriptionAccess(true, now - 1, null, now), false);
+      expect(subscriptionAccess(false, now + dayMs, null, now), false);
+    });
+    test('expiry locks learning but keeps restore and help available', () {
+      for (final path in ['/feed', '/vocab', '/review', '/explore', '/clip/test', '/history', '/saved', '/onboarding', '/founder']) {
+        expect(learningPath(path), true);
+      }
+      for (final path in ['/trial', '/settings', '/account', '/privacy', '/terms', '/support']) {
+        expect(learningPath(path), false);
+      }
+    });
     test('yearly has seven simulated trial days; monthly has none', () {
       expect(simulatedTrialEnd('yearly', now), now + 7 * dayMs);
       expect(simulatedTrialEnd('monthly', now), null);
@@ -350,6 +405,9 @@ void main() {
       expect(searchClips(clips, '', grammar: '〜てる'), ['x-1']);
       expect(searchClips(clips, ''), ['y-1', 'x-1']);
     });
+    test('an empty filter means no filter', () {
+      expect(searchClips(clips, '', level: '', topic: '', grammar: ''), ['y-1', 'x-1']);
+    });
     test('word keys prefer dictionary ids', () {
       expect(clipWordKeys(clips[0]), ['d1467640', 'd1514320']);
       expect(wordKeyOf(null, 'よし'), 'bよし');
@@ -367,8 +425,8 @@ void main() {
   });
 
   group('free tier', () {
-    test('free learners get 10 clips a day, premium is unlimited', () {
-      expect(canWatchClip(false, 9, 10), true);
+    test('no free clips without active trial or payment', () {
+      expect(canWatchClip(false, 9, 10), false);
       expect(canWatchClip(false, 10, 10), false);
       expect(canWatchClip(true, 500, 10), true);
     });
@@ -450,11 +508,11 @@ void main() {
       expect(asksToday('2026-10-21', 3, '2026-10-21'), 3);
       expect(asksToday('2026-10-20', 3, '2026-10-21'), 0);
     });
-    test('free learners get 5 questions a day, premium unlimited', () {
-      expect(canAsk(false, 4, 5), true);
+    test('no free questions without active trial or payment', () {
+      expect(canAsk(false, 4, 5), false);
       expect(canAsk(false, 5, 5), false);
       expect(canAsk(true, 99, 5), true);
-      expect(asksLeft(false, 3, 5), 2);
+      expect(asksLeft(false, 3, 5), 0);
       expect(asksLeft(false, 7, 5), 0);
       expect(asksLeft(true, 7, 5), null);
     });

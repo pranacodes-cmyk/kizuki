@@ -1,7 +1,7 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { AnimatePresence, motion, useMotionValue, useTransform } from "motion/react";
 import { Check, ChevronRight, Play, Pointer, Star, Volume2, X } from "lucide-react";
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { z } from "zod";
 
 import { Confetti } from "@/components/mimi/Confetti";
@@ -13,6 +13,7 @@ import { Button, Modal, Screen, Sheet } from "@/components/mimi/ui";
 import type { Content } from "@/lib/content";
 import { useContent } from "@/lib/feed";
 import { customStudyKeys, kanaDeck, kanaQueue, newCard, repeatsSense, ReviewSession, type Card, type Grade } from "@/lib/logic";
+import { track } from '@/lib/analytics';
 import { haptic } from "@/lib/haptics";
 import { watchUrl } from "@/lib/youtube";
 import { speak } from "@/lib/speech";
@@ -75,10 +76,12 @@ function Review() {
   const kana = deck !== "words" && id ? kanaCards.find((k) => k.id === id) : undefined;
   const card: Card | undefined = deck === "words" ? word?.card : id ? store.kana[id] ?? newCard(Date.now()) : undefined;
 
-  const reveal = () => { setRevealed(true); tourEmit("reveal"); };
+  useEffect(() => track('review_session_started', { deck, card_count: total.current, extra: mode === 'extra' }), []);
+  const reveal = () => { track('review_card_revealed', { deck }); setRevealed(true); tourEmit("reveal"); };
 
   const answer = (g: Grade) => {
     if (!id || !card) return;
+    track('review_answered', { deck, grade: g });
     const next = sess.answer(card, g, Date.now());
     if (deck === "words") store.answerWord(id, next);
     else store.answerKana(id, next);

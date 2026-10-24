@@ -29,6 +29,10 @@ class T {
   static const level4 = Color(0xFF93623F);
   static const known = Color(0xFF4CD07D);
   static const stage = Color(0xFF000000);
+  static const googleBlue = Color(0xFF4285F4);
+  static const googleGreen = Color(0xFF34A853);
+  static const googleYellow = Color(0xFFFBBC05);
+  static const googleRed = Color(0xFFEA4335);
 
   static const rSm = 8.0;
   static const rMd = 12.0;

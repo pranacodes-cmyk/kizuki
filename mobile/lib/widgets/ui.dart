@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 
 import '../services/haptics.dart';
+import '../services/analytics.dart';
 import '../theme/mascot_motion.dart';
 import '../theme/tokens.dart';
 import 'lively_mascot.dart';
@@ -101,6 +102,7 @@ class _Button3DState extends State<Button3D> {
           ? (_) {
               setState(() => _down = false);
               Haptics.tap();
+              Analytics.track('control_tapped', {'control_type': 'button', 'variant': widget.variant.name});
               widget.onPressed!();
             }
           : null,
@@ -143,6 +145,7 @@ class _PressState extends State<Press> {
             ? null
             : (_) {
                 setState(() => _down = false);
+                Analytics.track('control_tapped', {'control_type': 'press'});
                 widget.onTap!();
               },
         child: AnimatedScale(scale: _down ? 0.97 : 1, duration: const Duration(milliseconds: 90), child: widget.child),

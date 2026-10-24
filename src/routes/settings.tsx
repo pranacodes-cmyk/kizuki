@@ -2,6 +2,7 @@ import { createFileRoute, Link, useNavigate, useRouter } from "@tanstack/react-r
 import { useState } from "react";
 
 import { Button, Modal, Screen, Toggle, TopBar } from "@/components/mimi/ui";
+import { AnalyticsToggle } from "@/components/mimi/AnalyticsConsent";
 import { supabase } from "@/integrations/supabase/client";
 import { useSession } from "@/hooks/use-session";
 import { getContent } from "@/lib/content";
@@ -167,6 +168,7 @@ function SettingsPage() {
         </Group>
 
         <Group title="Your data">
+          <AnalyticsToggle />
           <ActionRow label="Export saved words (.csv)" onClick={exportWords} />
           <ActionRow label="Replay the welcome tour" onClick={() => { resetTutorial(); toast({ icon: "🦊", title: "Tour reset", description: "Kizuki will show you around on the feed." }); void navigate({ to: "/feed" }); }} />
         </Group>

@@ -26,7 +26,7 @@ class _ClipScreenState extends State<ClipScreen> {
     super.initState();
     // Lock decided on arrival only — the clip never locks while you're watching it.
     final app = context.read<AppState>();
-    allowed = canWatchClip(app.premium.active, app.todayActivity.clips, freeDailyClips) || (app.seen[widget.clipId] ?? 0) > 0;
+    allowed = canWatchClip(app.premium.active, app.todayActivity.clips, freeDailyClips);
   }
 
   void _back() => context.canPop() ? context.pop() : context.go('/feed');

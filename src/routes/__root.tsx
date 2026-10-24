@@ -9,7 +9,7 @@ import {
   Scripts,
   type ErrorComponentProps,
 } from "@tanstack/react-router";
-import { useEffect, type ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
@@ -17,8 +17,11 @@ import { TourHost } from "@/components/mimi/WelcomeTour";
 import { AppFrame } from "@/components/mimi/AppFrame";
 import { Mascot } from "@/components/mimi/Mascot";
 import { useApp } from "@/lib/store";
-import { purchaseNeedsAccount } from "@/lib/logic";
+import { learningPath, onboardingPath, purchaseNeedsAccount, subscriptionAccess } from "@/lib/logic";
+import { useTour } from "@/lib/tour-store";
+import { Button } from "@/components/mimi/ui";
 import { AppEffects } from "@/components/mimi/AppEffects";
+import { AnalyticsConsent } from "@/components/mimi/AnalyticsConsent";
 
 function NotFoundComponent() {
   return (
@@ -123,18 +126,50 @@ function RootComponent() {
     <QueryClientProvider client={queryClient}>
       <AppFrame>
         <AppEffects />
+        <AnalyticsConsent />
         {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-        <PurchaseAccountBoundary><Outlet /></PurchaseAccountBoundary>
-        <TourHost />
+        <SubscriptionBoundary><PurchaseAccountBoundary><Outlet /></PurchaseAccountBoundary></SubscriptionBoundary>
       </AppFrame>
     </QueryClientProvider>
   );
 }
 
+function SubscriptionBoundary({ children }: { children: ReactNode }) {
+  const premium = useApp((s) => s.premium);
+  const onboarded = useApp((s) => s.onboarded);
+  const pending = useApp((s) => s.purchaseAccountPending);
+  const { pathname } = useLocation();
+  const router = useRouter();
+  const [now, setNow] = useState(Date.now());
+  useEffect(() => {
+    const check = () => setNow(Date.now());
+    const end = premium.expiresAt ?? premium.trialEndsAt;
+    const delay = end == null || end <= Date.now() ? 60000 : Math.min(end - Date.now(), 2147483647);
+    const timer = setTimeout(check, delay);
+    window.addEventListener("focus", check);
+    document.addEventListener("visibilitychange", check);
+    return () => { clearTimeout(timer); window.removeEventListener("focus", check); document.removeEventListener("visibilitychange", check); };
+  }, [premium, now]);
+  const access = subscriptionAccess(premium.active, premium.expiresAt, premium.trialEndsAt, now);
+  const blocked = (onboarded || !onboardingPath(pathname)) && learningPath(pathname) && !access && !pending;
+  useEffect(() => {
+    if (!access && onboarded) { useTour.getState().reset(); useTour.getState().closeSheets(); }
+  }, [access, onboarded]);
+  if (!blocked) return <>{children}{access && <TourHost />}</>;
+  return <div className="absolute inset-0 flex flex-col items-center justify-center bg-background px-6 text-center">
+    <Mascot pose="heart" className="h-28 w-28" />
+    <h1 className="mt-4 text-2xl font-black">Keep learning with Premium</h1>
+    <p className="mt-2 text-muted-foreground">Your access has ended. Renew or restore your subscription to continue. Your saved words and progress are safe.</p>
+    <div className="mt-6 w-full"><Button onClick={() => void router.navigate({ to: "/trial" })}>See plans</Button></div>
+    <div className="mt-3 w-full"><Button variant="surface" onClick={() => void router.navigate({ to: "/settings" })}>Settings & restore purchase</Button></div>
+    <Link to="/support" className="mt-5 text-sm text-muted-foreground">Get help</Link>
+  </div>;
+}
+
 function PurchaseAccountBoundary({ children }: { children: ReactNode }) {
   const pending = useApp((s) => s.purchaseAccountPending);
   const location = useLocation();
-  const allowed = ["/account", "/terms", "/privacy", "/support", "/reset-password"].includes(location.pathname);
+  const allowed = ["/account", "/terms", "/privacy", "/support"].includes(location.pathname);
   if (!purchaseNeedsAccount(pending, false) || allowed) return children;
   return <div className="flex h-full flex-col items-center justify-center bg-background px-6 text-center">
     <Mascot pose="heart" className="h-24 w-24" />

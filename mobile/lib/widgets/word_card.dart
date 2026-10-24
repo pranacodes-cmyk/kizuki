@@ -9,6 +9,7 @@ import '../data/models.dart' as m;
 import '../data/tour.dart' show TourEvent;
 import '../logic/logic.dart';
 import '../services/tts.dart';
+import '../services/analytics.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import 'ask_sheet.dart';
@@ -47,7 +48,7 @@ WordInput wordInputOf(m.Clip clip, int li, int wi, Content content, m.ClipNotes?
 }
 
 Future<void> showWordCard(BuildContext context, {required m.Clip clip, required int line, required int idx, required Content content, required m.ClipNotes? notes}) {
-  return showMimiSheet<void>(context, (_) => WordCard(clip: clip, line: line, idx: idx, content: content, notes: notes), maxHeightFactor: 0.72);
+  return showMimiSheet<void>(context, (_) => WordCard(clip: clip, line: line, idx: idx, content: content, notes: notes), maxHeightFactor: Tour.I.running ? 0.60 : 0.72);
 }
 
 /// Word details sheet: meaning, explanation in context, examples ("hear it again") and notes.
@@ -85,6 +86,7 @@ class _WordCardState extends State<WordCard> {
     final app = _app;
     final live = app.words[key];
     if (live != null && live.status != 'removed' && live.note != _note.text) app.setWordNote(key, _note.text.length > 500 ? _note.text.substring(0, 500) : _note.text);
+    Analytics.track('word_card_closed');
     _note.dispose();
     super.dispose();
   }
@@ -193,6 +195,7 @@ class _WordCardState extends State<WordCard> {
                   behavior: HitTestBehavior.opaque,
                   onTap: () {
                     setState(() => tab = t);
+                    Analytics.track('word_card_tab_selected', {'tab': t});
                     if (t == 'Explain') Tour.I.emit(TourEvent.explain);
                   },
                   child: Padding(
@@ -211,7 +214,7 @@ class _WordCardState extends State<WordCard> {
       ),
       Flexible(
         child: ConstrainedBox(
-          constraints: const BoxConstraints(minHeight: 180),
+          constraints: const BoxConstraints(minHeight: 100),
           child: SingleChildScrollView(
             padding: const EdgeInsets.fromLTRB(20, 16, 20, 16),
             child: switch (tab) {

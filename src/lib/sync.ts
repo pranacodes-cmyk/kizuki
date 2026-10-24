@@ -5,7 +5,8 @@ import type { Session } from "@supabase/supabase-js";
 
 import { supabase } from "@/integrations/supabase/client";
 
-import { mergeState } from "./logic";
+import { localStateFor, mergeState } from "./logic";
+import { analyticsIdentity } from './analytics';
 import { pickPersisted, syncHook, useApp, type PersistedState } from "./store";
 
 let session: Session | null = null;
@@ -25,6 +26,7 @@ function applySession(s: Session | null) {
   if (id !== userId) {
     generation++;
     userId = id;
+    analyticsIdentity(id);
     if (timer) clearTimeout(timer);
     timer = null;
     inflight = null;
@@ -66,10 +68,11 @@ async function pullAndMerge() {
     return;
   }
   if (!isCurrent(gen, uid)) return; // account changed while the cloud copy loaded
-  const local = pickPersisted(useApp.getState());
+  // Another account's progress on this device never merges into this account.
+  const local = localStateFor(pickPersisted(useApp.getState()), uid) as PersistedState;
   const remote = (data?.state ?? null) as PersistedState | null;
-  const merged = remote ? (mergeState(local, remote) as PersistedState) : local;
-  if (remote) useApp.getState().replaceAll(merged);
+  const merged = remote ? ({ ...mergeState(local, remote), owner: uid } as PersistedState) : local;
+  useApp.getState().replaceAll(merged);
   await pushAs(s, gen, merged);
 }
 

@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "motion/react";
-import { Pointer } from "lucide-react";
+import { Bookmark, Gauge, Play, Pointer, RotateCcw, Type } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { useNavigate, useRouterState } from "@tanstack/react-router";
@@ -10,6 +10,7 @@ import { setTourNavigator, useTour } from "@/lib/tour-store";
 import { cn } from "@/lib/utils";
 
 import { Mascot } from "./Mascot";
+import { Button } from "./ui";
 
 type Box = { x: number; y: number; w: number; h: number };
 
@@ -146,11 +147,12 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
   // bottom = over the empty lower part of a tall card; otherwise under a spotlight in the top
   // half, above one lower down, else centered.
   const EST_H = TOUR_TIP_EST_HEIGHT;
-  const sat = parseFloat(getComputedStyle(root).getPropertyValue("--sat")) || 0;
   let bubbleStyle: React.CSSProperties | undefined;
   let centered = false;
-  if (h && step.place === "top") {
-    bubbleStyle = h.y - sat - 56 >= EST_H ? { bottom: size.h - h.y + 12 } : { top: "calc(var(--sat) + 52px)" };
+  if (step.place === "top") {
+    bubbleStyle = { top: "calc(var(--sat) + 52px)" };
+  } else if (h && (kind === "controls" || step.hand === "swipe")) {
+    bubbleStyle = { top: h.y + h.h + 10 };
   } else if (h && step.place === "bottom") {
     bubbleStyle = { bottom: "calc(var(--sab) + 16px)" };
   } else if (h) {
@@ -211,13 +213,23 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
           <AnimatePresence mode="wait">
             <motion.div key={`${step.id}-${waitedOut}`} initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0.95 }} transition={{ duration: 0.25 }}>
               <div className="flex items-end gap-2">
-                <Mascot pose={step.pose} className="h-16 w-16 shrink-0" />
+                {kind !== "controls" && <Mascot pose={step.pose} className={cn("shrink-0", step.place === "top" ? "h-10 w-10" : "h-12 w-12")} />}
                 <div className="min-w-0 flex-1 rounded-[20px] bg-foreground px-4 pb-3.5 pt-3 shadow-[0_12px_30px_oklch(0_0_0/0.5)]">
                   <div className="h-1 w-full overflow-hidden rounded-full bg-background/10">
                     <div className="h-full rounded-full bg-primary" style={{ width: `${Math.max(5, ((index + 1) / TOUR_STEPS.length) * 100)}%` }} />
                   </div>
                   <p className="mt-2.5 text-[1rem] font-extrabold leading-snug text-background">{tourText(step, name, minutes)}</p>
-                  {kind === "legend" ? (
+                  {kind === "controls" ? (
+                    <>
+                      <div className="mt-3 space-y-2">
+                        {[[Play, "Play / pause"], [RotateCcw, "Replay · loop this line"], [Gauge, "1× · tap to change speed"], [Bookmark, "Save · Profile → Saved"], [Type, "Aa · subtitle display"]].map(([Icon, label]) => {
+                          const ControlIcon = Icon as typeof Play;
+                          return <div key={String(label)} className="flex items-center gap-2.5 text-[0.8125rem] font-extrabold text-background"><ControlIcon className="h-[18px] w-[18px] shrink-0 text-primary-deep" /><span>{String(label)}</span></div>;
+                        })}
+                      </div>
+                      <Pill wide onClick={onNext}>{step.button ?? "Next"}</Pill>
+                    </>
+                  ) : kind === "legend" ? (
                     <>
                       <div className="mt-3 space-y-2.5">
                         {TOUR_LEGEND.map((l) => (
@@ -249,25 +261,25 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
         </div>
       )}
 
-      <button
+      <Button variant="ghost" size="sm"
         onClick={(e) => { e.stopPropagation(); finish(); }}
         className="press pointer-events-auto absolute right-4 top-[calc(var(--sat)+8px)] rounded-full border border-border bg-surface-2 px-3.5 py-2 text-[0.8125rem] font-extrabold text-muted-foreground"
       >
         Skip tour
-      </button>
+      </Button>
     </div>
   );
 }
 
 function Pill({ children, onClick, disabled, wide }: { children: React.ReactNode; onClick: () => void; disabled?: boolean; wide?: boolean }) {
   return (
-    <button
+    <Button size="sm"
       disabled={disabled}
       onClick={(e) => { e.stopPropagation(); onClick(); }}
       className={cn("rounded-[14px] px-[18px] text-[0.9375rem] font-black text-primary-foreground transition-colors", wide ? "mt-3 h-11 w-full" : "h-9", disabled ? "bg-primary-dim-foreground/40" : "bg-primary")}
     >
       {children}
-    </button>
+    </Button>
   );
 }
 

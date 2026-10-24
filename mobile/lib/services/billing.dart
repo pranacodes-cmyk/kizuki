@@ -6,8 +6,10 @@ import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart' show AppLifecycleListener;
 import 'package:intl/intl.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../data/paywall.dart';
+import 'analytics.dart';
 import '../state/app_state.dart' show Premium;
 
 /// Outcome of a store action, so the paywall never shows the wrong message.
@@ -44,6 +46,65 @@ class Billing {
   static void Function(Premium premium)? onPremium;
 
   static AppLifecycleListener? _life;
+  static Timer? _expiry;
+
+  /// Account the app wants purchases linked to, and the one the store SDK actually uses
+  /// (null = anonymous). They differ while configuring or after a failed link, and are
+  /// reconciled in order so a sign-in during startup is never lost.
+  static String? _identity;
+  static String? _applied;
+  static Future<void> _identityWork = Future<void>.value();
+
+  /// Link store purchases to the signed-in account used by the server tutor check.
+  static Future<void> identify(String? userId) {
+    _identity = userId;
+    if (!ready) return _identityWork;
+    return _reconcile();
+  }
+
+  static Future<void> _reconcile() {
+    _identityWork = _identityWork.then((_) async {
+      final want = _identity;
+      if (want == _applied) return;
+      try {
+        if (want != null) {
+          final result = await Purchases.logIn(want);
+          _applied = want;
+          _apply(result.customerInfo);
+        } else {
+          final info = await Purchases.logOut();
+          _applied = null;
+          _apply(info);
+        }
+      } catch (e) {
+        _log('billing identity', e);
+        onPremium?.call(Premium());
+      }
+    });
+    return _identityWork;
+  }
+
+  /// A purchase the store has not approved yet (e.g. pending payment). When it is
+  /// approved later, the same mandatory account step as an instant purchase follows.
+  static const _awaitingKey = 'kizuki-purchase-awaiting-store';
+  static bool _awaiting = false;
+
+  /// Called when a purchase that was waiting for store approval becomes active.
+  static void Function()? onApprovedLater;
+
+  static Future<void> _setAwaiting(bool v) async {
+    _awaiting = v;
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      if (v) {
+        await prefs.setBool(_awaitingKey, true);
+      } else {
+        await prefs.remove(_awaitingKey);
+      }
+    } catch (e) {
+      _log('pending purchase flag', e);
+    }
+  }
 
   static bool get _mobile => !kIsWeb && (Platform.isAndroid || Platform.isIOS);
 
@@ -60,13 +121,23 @@ class Billing {
   static Future<void> init({String? userId}) async {
     if (!available || ready) return;
     try {
-      final cfg = PurchasesConfiguration(Platform.isIOS ? _iosKey : _androidKey)..appUserID = userId;
+      final prefs = await SharedPreferences.getInstance();
+      _awaiting = prefs.getBool(_awaitingKey) ?? false;
+    } catch (e) {
+      _log('pending purchase flag', e);
+    }
+    try {
+      final id = _identity ?? userId;
+      final cfg = PurchasesConfiguration(Platform.isIOS ? _iosKey : _androidKey)..appUserID = id;
       await Purchases.configure(cfg);
+      _applied = id;
       ready = true;
     } catch (e) {
       _log('billing init', e);
       return;
     }
+    // An account that signed in while the store was configuring is linked now.
+    unawaited(_reconcile());
     Purchases.addCustomerInfoUpdateListener(_apply);
     _life ??= AppLifecycleListener(onResume: () => unawaited(refresh()));
     // Status and prices load independently: a price failure never hides a paid subscription.
@@ -77,6 +148,11 @@ class Billing {
   static Future<void> refresh() async {
     if (!ready) return;
     try {
+      // Retries an account link that failed earlier (e.g. offline at sign-in). While the
+      // store still uses another identity its purchases are not this account's: stay locked.
+      await _reconcile();
+      if (_identity != _applied) return;
+      await Purchases.invalidateCustomerInfoCache();
       _apply(await Purchases.getCustomerInfo());
     } catch (e) {
       _log('customer info', e);
@@ -85,7 +161,21 @@ class Billing {
 
   static void _apply(CustomerInfo info) {
     managementUrl = info.managementURL;
-    onPremium?.call(premiumFrom(info));
+    final premium = premiumFrom(info);
+    _expiry?.cancel();
+    onPremium?.call(premium);
+    if (premium.active && _awaiting) {
+      unawaited(_setAwaiting(false));
+      onApprovedLater?.call();
+    }
+    final end = premium.expiresAt;
+    if (premium.active && end != null) {
+      final remaining = end - DateTime.now().millisecondsSinceEpoch;
+      _expiry = Timer(Duration(milliseconds: remaining > 0 ? remaining : 0), () {
+        onPremium?.call(Premium());
+        unawaited(refresh());
+      });
+    }
   }
 
   /// Premium as the store reports it: plan from the product, real trial end only for trials.
@@ -94,8 +184,10 @@ class Billing {
     if (e == null) return Premium();
     final plan = e.productIdentifier.contains('monthly') ? 'monthly' : 'yearly';
     final since = DateTime.tryParse(e.originalPurchaseDate)?.millisecondsSinceEpoch;
-    final exp = e.expirationDate == null ? null : DateTime.tryParse(e.expirationDate!)?.millisecondsSinceEpoch;
-    return Premium(active: true, plan: plan, since: since, trialEndsAt: e.periodType == PeriodType.trial ? exp : null);
+    final expirationDate = e.expirationDate;
+    final exp = expirationDate == null ? null : DateTime.tryParse(expirationDate)?.millisecondsSinceEpoch;
+    if (exp != null && exp <= DateTime.now().millisecondsSinceEpoch) return Premium();
+    return Premium(active: true, plan: plan, since: since, expiresAt: exp, trialEndsAt: e.periodType == PeriodType.trial ? exp : null);
   }
 
   /// Swaps the fallback prices for the store's local prices (currency + format per country).
@@ -136,7 +228,8 @@ class Billing {
   }
 
   static Future<StoreResult> buy(String plan) async {
-    if (!ready) return StoreResult.unavailable;
+    Analytics.track('checkout_started', {'plan': plan, 'is_simulated': simulate});
+    if (!ready) { Analytics.track('checkout_result', {'result': 'unavailable'}); return StoreResult.unavailable; }
     if (_packages[plan] == null) {
       try {
         await loadPlans();
@@ -145,24 +238,34 @@ class Billing {
       }
     }
     final pkg = _packages[plan];
-    if (pkg == null) return StoreResult.unavailable;
+    if (pkg == null) { Analytics.track('checkout_result', {'result': 'unavailable'}); return StoreResult.unavailable; }
     try {
       final info = (await Purchases.purchase(PurchaseParams.package(pkg))).customerInfo;
+      final done = info.entitlements.active.containsKey(entitlement);
+      // Not approved yet: remember it so a later approval still asks for the account.
+      if (!done) await _setAwaiting(true);
       _apply(info);
-      return info.entitlements.active.containsKey(entitlement) ? StoreResult.done : StoreResult.none;
+      Analytics.track('checkout_result', {'result': done ? 'done' : 'pending', 'plan': plan});
+      return done ? StoreResult.done : StoreResult.none;
     } on PlatformException catch (e) {
-      if (PurchasesErrorHelper.getErrorCode(e) == PurchasesErrorCode.purchaseCancelledError) return StoreResult.cancelled;
+      final cancelled = PurchasesErrorHelper.getErrorCode(e) == PurchasesErrorCode.purchaseCancelledError;
+      Analytics.track('checkout_result', {'result': cancelled ? 'cancelled' : 'error'});
+      if (cancelled) return StoreResult.cancelled;
       rethrow;
     }
   }
 
   static Future<StoreResult> restore() async {
-    if (!ready) return StoreResult.unavailable;
+    Analytics.track('restore_started');
+    if (!ready) { Analytics.track('restore_result', {'result': 'unavailable'}); return StoreResult.unavailable; }
     try {
       final info = await Purchases.restorePurchases();
       _apply(info);
-      return info.entitlements.active.containsKey(entitlement) ? StoreResult.done : StoreResult.none;
+      final done = info.entitlements.active.containsKey(entitlement);
+      Analytics.track('restore_result', {'result': done ? 'done' : 'none'});
+      return done ? StoreResult.done : StoreResult.none;
     } catch (e) {
+      Analytics.track('restore_result', {'result': 'error'});
       debugPrint('KIZUKI_ERROR restore: $e');
       return StoreResult.unavailable;
     }

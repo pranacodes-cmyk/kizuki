@@ -12,6 +12,7 @@ import '../data/models.dart' as m;
 import '../data/tour.dart' show TourEvent;
 import '../logic/logic.dart';
 import '../services/haptics.dart';
+import '../services/analytics.dart';
 import '../services/tts.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
@@ -61,6 +62,7 @@ class _ReviewScreenState extends State<ReviewScreen> {
     final ids = widget.deck == 'words' ? (extra ? customStudyKeys(app.wordLites, now) : app.dueKeys) : kanaQueue(kanaCards, app.kana, now);
     sess = ReviewSession(ids);
     total = ids.length;
+    Analytics.track('review_session_started', {'deck': widget.deck, 'card_count': total, 'extra': extra});
   }
 
   Card? _card(AppState app, String? id) {
@@ -74,6 +76,7 @@ class _ReviewScreenState extends State<ReviewScreen> {
     final id = sess.current;
     final card = _card(app, id);
     if (id == null || card == null) return;
+    Analytics.track('review_answered', {'deck': widget.deck, 'grade': grade});
     final next = sess.answer(card, grade, DateTime.now().millisecondsSinceEpoch);
     if (widget.deck == 'words') {
       app.answerWord(id, next);
@@ -94,6 +97,7 @@ class _ReviewScreenState extends State<ReviewScreen> {
   }
 
   void _reveal() {
+    Analytics.track('review_card_revealed', {'deck': widget.deck});
     setState(() => revealed = true);
     Tour.I.emit(TourEvent.reveal);
   }

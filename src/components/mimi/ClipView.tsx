@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Clip, ClipNotes, Content, Word } from "@/lib/content";
 import { loadNotes } from "@/lib/content";
 import { feedMoving } from "@/lib/feed-motion";
+import { track } from '@/lib/analytics';
 import { haptic } from "@/lib/haptics";
 import { pickTourWord, wordKeyOf } from "@/lib/logic";
 import { tokenLevel, tokenStatus, useApp, type WordInput } from "@/lib/store";
@@ -47,6 +48,7 @@ export function ClipView({ clip, content, active, warm = false, bottomInset = 96
 
   useEffect(() => {
     if (!active) return;
+    track('clip_viewed', { clip_id: clip.id, source: inFeed ? 'feed' : 'clip', jlpt: clip.level });
     let live = true;
     void loadNotes(clip.id).then((n) => live && setNotes(n));
     return () => { live = false; };
@@ -129,6 +131,7 @@ export function ClipView({ clip, content, active, warm = false, bottomInset = 96
   const levelOf = useCallback((w: Word) => tokenLevel({ words } as never, wordKeyOf(w.d, w.b || w.s)), [words]);
 
   const onWord = useCallback((li: number, wi: number) => {
+    track('word_card_opened', { clip_id: clip.id, line_index: li, word_index: wi });
     haptic("select");
     setSel({ line: li, idx: wi });
     setCardOpen(true);
@@ -144,6 +147,7 @@ export function ClipView({ clip, content, active, warm = false, bottomInset = 96
   }, [clip, content, notes]);
 
   const seekLine = useCallback((li: number) => {
+    track('clip_line_replayed', { clip_id: clip.id });
     const l = clip.lines[li];
     if (!l) return;
     player.current?.seek(Math.max(clip.start, l.start - 0.1));
@@ -184,14 +188,14 @@ export function ClipView({ clip, content, active, warm = false, bottomInset = 96
         warm={warm}
         rate={rate}
         onTime={onTime}
-        onPlayingChange={setPlaying}
+        onPlayingChange={(v) => { setPlaying(v); if (active) track(v ? 'clip_played' : 'clip_paused', { clip_id: clip.id }); }}
         onLoop={markWatched}
         loopRange={loopRange}
       />
       </div>
       <div className="h-[3px] w-full bg-surface-2"><div className="h-full bg-primary transition-[width] duration-100" style={{ width: `${(rel / dur) * 100}%` }} /></div>
 
-      <div className="flex items-center gap-1 px-2 pt-1.5">
+      <div data-tour={tour("controls")} className="flex items-center gap-1 px-2 pt-1.5">
         <button aria-label={playing ? "Pause" : "Play"} onClick={() => player.current?.toggle()} className="press flex h-10 w-10 items-center justify-center rounded-full">
           {playing ? <Pause className="h-5 w-5 fill-current" /> : <Play className="h-5 w-5 fill-current" />}
         </button>

@@ -30,7 +30,7 @@ function ClipPage() {
   const { data, error, refetch, isLoading } = useContent();
   const premium = useApp((s) => s.premium.active);
   // Lock decided on arrival only — the clip never locks while you're watching it.
-  const [allowed] = useState(() => canWatchClip(premium, todayOf(useApp.getState()).clips, FREE_DAILY_CLIPS) || (useApp.getState().seen[clipId] ?? 0) > 0);
+  const [allowed] = useState(() => canWatchClip(premium, todayOf(useApp.getState()).clips, FREE_DAILY_CLIPS));
   const back = () => (window.history.length > 1 ? router.history.back() : void navigate({ to: "/feed" }));
   const clip = data?.byId[clipId];
 

@@ -8,6 +8,7 @@ import 'package:provider/provider.dart';
 import '../data/onboarding.dart';
 import '../logic/logic.dart';
 import '../services/haptics.dart';
+import '../services/analytics.dart';
 import '../services/notification_service.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
@@ -30,7 +31,11 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   int i = 0;
   int dir = 1;
 
+  @override
+  void initState() { super.initState(); Analytics.track('onboarding_step_viewed', {'step': _steps[i], 'step_index': i}); }
+
   void next() {
+    Analytics.track('onboarding_step_completed', {'step': _steps[i], 'step_index': i});
     if (i == _steps.length - 1) {
       context.push('/building');
       return;
@@ -38,16 +43,19 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     setState(() {
       dir = 1;
       i++;
+      Analytics.track('onboarding_step_viewed', {'step': _steps[i], 'step_index': i});
     });
   }
 
   void back() {
+    Analytics.track('onboarding_step_back', {'step': _steps[i]});
     if (i == 0) {
       context.pop();
     } else {
       setState(() {
         dir = -1;
         i--;
+        Analytics.track('onboarding_step_viewed', {'step': _steps[i], 'step_index': i});
       });
     }
   }

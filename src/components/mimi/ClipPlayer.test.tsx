@@ -84,6 +84,42 @@ describe("feed player seek commands", () => {
     expect(pauseVideo).toHaveBeenCalledTimes(1);
   });
 
+  it("a pause queued before a clip was parked never blocks its next start", async () => {
+    const pauseVideo = vi.fn();
+    const playVideo = vi.fn();
+    let ready: (() => void) | undefined;
+    let emit: ((data: number) => void) | undefined;
+    class LoadingPlayer {
+      constructor(_el: HTMLElement, opts: { events?: { onReady?: (e: {target: YTPlayer}) => void; onStateChange?: (e: {data: number; target: YTPlayer}) => void } }) {
+        const self = this as unknown as Record<string, unknown>;
+        ready = () => {
+          Object.assign(self, {
+            seekTo: vi.fn(), playVideo, pauseVideo, setPlaybackRate: vi.fn(), mute: vi.fn(), unMute: vi.fn(),
+            destroy: vi.fn(), getCurrentTime: () => 0, getPlayerState: () => 1,
+          });
+          opts.events?.onReady?.({ target: this as unknown as YTPlayer });
+        };
+        emit = (data) => opts.events?.onStateChange?.({ data, target: this as unknown as YTPlayer });
+      }
+      destroy() {}
+    }
+    window.YT = { Player: LoadingPlayer as never };
+    const clip = { id: "0dBf_DAXNuc-6", videoId: "0dBf_DAXNuc", start: 6, end: 23 } as Clip;
+    const ref = createRef<ClipPlayerHandle>();
+    const props = { clip, rate: 1, onTime: vi.fn(), onPlayingChange: vi.fn(), onLoop: vi.fn() };
+    let view: ReturnType<typeof render> | undefined;
+    await act(async () => {
+      view = render(<ClipPlayer ref={ref} {...props} active />);
+      await Promise.resolve();
+    });
+    act(() => ref.current!.pause()); // queued: the player is still loading
+    await act(async () => { view!.rerender(<ClipPlayer ref={ref} {...props} active={false} warm />); await Promise.resolve(); });
+    await act(async () => { view!.rerender(<ClipPlayer ref={ref} {...props} active />); await Promise.resolve(); });
+    act(() => { ready!(); emit!(1); });
+    expect(playVideo).toHaveBeenCalled();
+    expect(pauseVideo).not.toHaveBeenCalled();
+  });
+
   it("warms up the next clip cued and silent, then starts it at once when it becomes active", async () => {
     const calls: string[] = [];
     let opts: { playerVars?: Record<string, unknown>; events?: { onReady?: (e: {target: YTPlayer}) => void; onStateChange?: (e: {data: number; target: YTPlayer}) => void } } = {};

@@ -6,6 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../logic/logic.dart';
 import '../services/attribution.dart';
+import '../services/analytics.dart';
 
 /// App state — mirrors src/lib/store.ts (same JSON shape, defaults and actions,
 /// same storage key `mimi-state-v1`).
@@ -65,13 +66,15 @@ class Premium {
   String? plan;
   int? since;
   int? trialEndsAt;
-  Premium({this.active = false, this.plan, this.since, this.trialEndsAt});
-  Map<String, dynamic> toJson() => {'active': active, 'plan': plan, 'since': since, 'trialEndsAt': trialEndsAt};
+  int? expiresAt;
+  Premium({this.active = false, this.plan, this.since, this.trialEndsAt, this.expiresAt});
+  Map<String, dynamic> toJson() => {'active': active, 'plan': plan, 'since': since, 'trialEndsAt': trialEndsAt, 'expiresAt': expiresAt};
   factory Premium.fromJson(Map<String, dynamic> j) => Premium(
         active: j['active'] as bool? ?? false,
         plan: j['plan'] as String?,
         since: (j['since'] as num?)?.toInt(),
         trialEndsAt: (j['trialEndsAt'] as num?)?.toInt(),
+        expiresAt: (j['expiresAt'] as num?)?.toInt(),
       );
 }
 
@@ -256,6 +259,9 @@ class AppState extends ChangeNotifier {
   int asksN = 0;
   int updatedAt = 0;
 
+  /// Account this device's learner progress last synced with (see localStateFor).
+  String? owner;
+
   /// Called after every change (cloud sync hooks in here).
   void Function()? onChanged;
 
@@ -287,12 +293,32 @@ class AppState extends ChangeNotifier {
     return wordLevel(status: w.status, card: w.card);
   }
 
+  /// Set by startup when [load] took too long and the app already started without it.
+  bool loadIsLate = false;
+
   Future<void> load() async {
     _prefs = await SharedPreferences.getInstance();
     final raw = _prefs!.getString(storageKey);
     if (raw != null) {
       try {
-        applyJson(jsonDecode(raw) as Map<String, dynamic>);
+        final saved = jsonDecode(raw) as Map<String, dynamic>;
+        if (loadIsLate) {
+          // The app is already running: merge the saved progress in instead of replacing
+          // what happened since, and keep the live (store-verified) Premium state. A saved
+          // purchase-account step and the progress owner are never lost.
+          final live = toJson();
+          final merged = mergeState(live, saved);
+          if (saved['purchaseAccountPending'] == true) merged['purchaseAccountPending'] = true;
+          final owner = live['owner'] ?? saved['owner'];
+          if (owner != null) {
+            merged['owner'] = owner;
+          } else {
+            merged.remove('owner');
+          }
+          replaceAll(merged);
+        } else {
+          applyJson(saved);
+        }
       } catch (e) {
         debugPrint('state load failed: $e');
       }
@@ -321,11 +347,13 @@ class AppState extends ChangeNotifier {
         'planModalSeen': planModalSeen,
         'asks': {'day': asksDay, 'n': asksN},
         'updatedAt': updatedAt,
+        if (owner != null) 'owner': owner,
       };
 
   void applyJson(Map<String, dynamic> j) {
     onboarded = j['onboarded'] as bool? ?? false;
     purchaseAccountPending = j['purchaseAccountPending'] as bool? ?? false;
+    owner = j['owner'] as String?;
     profile = Profile.fromJson((j['profile'] as Map? ?? {}).cast<String, dynamic>());
     premium = Premium.fromJson((j['premium'] as Map? ?? {}).cast<String, dynamic>());
     words = (j['words'] as Map? ?? {}).map((k, v) => MapEntry(k as String, SavedWord.fromJson((v as Map).cast<String, dynamic>())));
@@ -353,8 +381,10 @@ class AppState extends ChangeNotifier {
     updatedAt = (j['updatedAt'] as num? ?? 0).toInt();
   }
 
-  void _commit({bool sync = true}) {
-    updatedAt = now;
+  /// [touch] false for device-only values (store-verified Premium): they must not make
+  /// this device's older synced fields look newer than the cloud copy.
+  void _commit({bool sync = true, bool touch = true}) {
+    if (touch) updatedAt = now;
     notifyListeners();
     _saveTimer?.cancel();
     _saveTimer = Timer(const Duration(milliseconds: 300), () => _prefs?.setString(storageKey, jsonEncode(toJson())));
@@ -371,28 +401,32 @@ class AppState extends ChangeNotifier {
   // ---- onboarding / account ----
   void setProfile(void Function(Profile p) edit) {
     edit(profile);
+    Analytics.track('learning_preferences_changed', {'jlpt': profile.jlpt, 'daily_minutes': profile.dailyMinutes});
     _commit();
   }
 
   void requirePurchaseAccount() {
     purchaseAccountPending = true;
+    Analytics.track('purchase_account_required');
     _commit();
   }
 
   void confirmPurchaseAccount() {
     purchaseAccountPending = false;
+    Analytics.track('purchase_account_completed');
     _commit();
   }
 
   void completeOnboarding() {
     if (!onboarded) Attribution.onboardingDone();
+    if (!onboarded) Analytics.track('onboarding_completed');
     onboarded = true;
     _commit();
   }
 
   void startTrial(String plan) {
     final t = now;
-    premium = Premium(active: true, plan: plan, since: t, trialEndsAt: simulatedTrialEnd(plan, t));
+    premium = Premium(active: true, plan: plan, since: t, trialEndsAt: simulatedTrialEnd(plan, t), expiresAt: simulatedTrialEnd(plan, t));
     _commit();
   }
 
@@ -402,10 +436,12 @@ class AppState extends ChangeNotifier {
   }
 
   /// Store-verified Premium (RevenueCat). Only writes when something actually changed.
+  /// Premium never syncs, so it neither pushes nor advances the learner timestamp.
   void applyPremium(Premium p) {
     if (jsonEncode(p.toJson()) == jsonEncode(premium.toJson())) return;
     premium = p;
-    _commit();
+    Analytics.track('subscription_status_changed', {'active': p.active, 'plan': p.plan ?? 'none', 'is_trial': p.trialEndsAt != null});
+    _commit(sync: false, touch: false);
   }
 
   // ---- words ----
@@ -430,6 +466,7 @@ class AppState extends ChangeNotifier {
       addedAt: t,
       updatedAt: t,
     );
+    Analytics.track('word_saved', {'clip_id': i.clipId, 'word_id': i.key, 'jlpt': i.jlpt ?? 0});
     activity[today] = todayActivity.add(words: 1);
     _commit();
   }
@@ -437,6 +474,7 @@ class AppState extends ChangeNotifier {
   /// "Mark remaining words as known" — saves each as known without reviews.
   void markKnown(List<WordInput> inputs) {
     final t = now;
+    Analytics.track('words_marked_known', {'count': inputs.length});
     for (final i in inputs) {
       final w = words[i.key];
       if (w != null && w.status != 'removed') continue;
@@ -466,6 +504,7 @@ class AppState extends ChangeNotifier {
     final w = words[key];
     if (w == null) return;
     w.status = status;
+    Analytics.track('word_status_changed', {'word_id': key, 'status': status});
     w.updatedAt = now;
     _commit();
   }
@@ -476,6 +515,7 @@ class AppState extends ChangeNotifier {
     if (w == null) return;
     final next = withWordLevel(w.status, w.card, level, now);
     if (next.status == w.status && identical(next.card, w.card)) return;
+    Analytics.track('word_level_changed', {'word_id': key, 'level': level});
     w.status = next.status;
     w.card = next.card;
     w.updatedAt = now;
@@ -488,6 +528,7 @@ class AppState extends ChangeNotifier {
     final w = words[key];
     if (w == null) return;
     w.note = note;
+    Analytics.track('word_note_saved');
     w.updatedAt = now;
     _commit();
   }
@@ -514,6 +555,7 @@ class AppState extends ChangeNotifier {
 
   void finishReviewSession() {
     reviewSessions++;
+    Analytics.track('review_session_completed');
     _commit();
   }
 
@@ -521,11 +563,13 @@ class AppState extends ChangeNotifier {
   void addWatchSeconds(int sec) {
     if (sec <= 0) return;
     totalSeconds += sec;
+    Analytics.track('study_time_recorded', {'seconds': sec});
     activity[today] = todayActivity.add(sec: sec);
     _commit(sync: false);
   }
 
   void markClipWatched(String clipId) {
+    Analytics.track('clip_watched', {'clip_id': clipId});
     seen[clipId] = (seen[clipId] ?? 0) + 1;
     history.insert(0, HistoryEntry(clipId, now));
     if (history.length > 200) history = history.sublist(0, 200);
@@ -535,6 +579,7 @@ class AppState extends ChangeNotifier {
   }
 
   void toggleSavedClip(String clipId) {
+    Analytics.track('clip_bookmark_changed', {'clip_id': clipId, 'saved': !savedClips.contains(clipId)});
     if (savedClips.contains(clipId)) {
       savedClips.remove(clipId);
     } else {
@@ -545,11 +590,16 @@ class AppState extends ChangeNotifier {
 
   // ---- settings & flags ----
   void setSettings(void Function(Settings s) edit) {
+    final before = settings.toJson();
     edit(settings);
+    for (final entry in settings.toJson().entries) {
+      if (before[entry.key] != entry.value && entry.value is Object) Analytics.track('setting_changed', {'setting': entry.key, 'value': entry.value as Object});
+    }
     _commit();
   }
 
   void completeTutorial(String which) {
+    Analytics.track('welcome_tour_completed', {'tour': which});
     if (which == 'feed' && !tutorialFeed) Attribution.tourDone();
     if (which == 'feed') tutorialFeed = true;
     if (which == 'review') tutorialReview = true;
@@ -557,6 +607,7 @@ class AppState extends ChangeNotifier {
   }
 
   void resetTutorial() {
+    Analytics.track('welcome_tour_restarted');
     tutorialFeed = false;
     tutorialReview = false;
     _commit();
@@ -582,6 +633,7 @@ class AppState extends ChangeNotifier {
 
   /// One answered "Ask Kizuki" question (counts toward the free daily allowance).
   void recordAsk() {
+    Analytics.track('ask_answer_received');
     asksN = asksTodayCount + 1;
     asksDay = today;
     _commit();

@@ -2,7 +2,9 @@
 import { describe, expect, it } from "vitest";
 
 import {
-  purchaseNeedsAccount, ReviewSession, SUPPORT_TOPICS, supportMessageError, answerCard, bestStreak, clipScore, currentStreak, dayKey, dayMs, fnv1a, formatInterval, formatWhen, goalDateLabel,
+  signInProviders, nativeSignInEnabled, signInMethod, localStateFor,
+  founderVideoEnabled, onboardingAfterPlan,
+  subscriptionAccess, learningPath, purchaseNeedsAccount, ReviewSession, SUPPORT_TOPICS, supportMessageError, answerCard, bestStreak, clipScore, currentStreak, dayKey, dayMs, fnv1a, formatInterval, formatWhen, goalDateLabel,
   heatLevel, heatmapWeeks, kanaDeck, levelToJlpt, mergeActivity, mergeByUpdatedAt, minuteMs, minutesLeft, newCard,
   newlyUnlocked, nextIntervalLabel, normalizeQuery, planItems, rankFeed, recommendedMinutes, toKatakana, wordStatus, wordsPerMonth,
   searchClips, clipWordKeys, wordKeyOf, dueWordKeys, wordCounts, mergeState, canWatchClip, clipsWithWord, kanaQueue, kanaLearned, customStudyKeys,
@@ -12,8 +14,60 @@ import {
 } from "./logic";
 
 const NOW = 1_800_000_000_000;
+it('remote off skips founder; on restores it', () => {
+  expect(onboardingAfterPlan(founderVideoEnabled(false))).toBe('/trial');
+  expect(onboardingAfterPlan(founderVideoEnabled(true))).toBe('/founder');
+});
+it('missing remote setting keeps last valid choice, default on', () => {
+  expect(founderVideoEnabled(null)).toBe(true);
+  expect(founderVideoEnabled(null, false)).toBe(false);
+  expect(founderVideoEnabled('false', true)).toBe(true);
+});
+
+it('Android offers only Google', () => expect(signInProviders('android')).toEqual(['google']));
+it('iOS offers Google and Apple', () => expect(signInProviders('ios')).toEqual(['google', 'apple']));
+it('native sign-in stays off until its remote switch is on', () => {
+  expect(nativeSignInEnabled(null)).toBe(false);
+  expect(nativeSignInEnabled(null, true)).toBe(true);
+  expect(nativeSignInEnabled('true', false)).toBe(false);
+  expect(nativeSignInEnabled(true, false)).toBe(true);
+});
+it('each provider uses its own switch, otherwise the browser hand-off', () => {
+  expect(signInMethod('google', { nativeGoogle: false, nativeApple: true })).toBe('browser');
+  expect(signInMethod('google', { nativeGoogle: true, nativeApple: false })).toBe('native');
+  expect(signInMethod('apple', { nativeGoogle: true, nativeApple: false })).toBe('browser');
+  expect(signInMethod('apple', { nativeGoogle: false, nativeApple: true })).toBe('native');
+});
+it('progress before any sign-in joins the first account', () => {
+  const local = { words: { a: 1 }, updatedAt: 5 };
+  expect(localStateFor(local, 'u1')).toEqual({ words: { a: 1 }, updatedAt: 5, owner: 'u1' });
+  expect(localStateFor({ ...local, owner: 'u1' }, 'u1').words).toEqual({ a: 1 });
+});
+it("another account never receives the previous learner's progress", () => {
+  const local = { owner: 'u1', onboarded: true, premium: { active: true }, settings: { haptics: false }, feedSeed: 's', words: { a: 1 }, history: [1], profile: { name: 'A' }, updatedAt: 5 };
+  expect(localStateFor(local, 'u2')).toEqual({
+    version: 1, onboarded: true, purchaseAccountPending: false, premium: { active: true },
+    settings: { haptics: false }, feedSeed: 's', owner: 'u2', updatedAt: 0,
+  });
+});
 
 describe("onboarding rules", () => {
+  it('expired trial blocks learning at the exact end', () => {
+    expect(subscriptionAccess(true, null, NOW, NOW)).toBe(false);
+    expect(subscriptionAccess(true, null, NOW - 1, NOW)).toBe(false);
+    expect(subscriptionAccess(true, null, NOW + 1, NOW)).toBe(true);
+  });
+  it('paid renewal continues beyond the old trial end', () => {
+    expect(subscriptionAccess(true, NOW + 30 * dayMs, NOW - 1, NOW)).toBe(true);
+  });
+  it('unpaid expired subscription has no learning access', () => {
+    expect(subscriptionAccess(true, NOW - 1, null, NOW)).toBe(false);
+    expect(subscriptionAccess(false, NOW + dayMs, null, NOW)).toBe(false);
+  });
+  it('expiry locks learning but keeps restore and help available', () => {
+    for (const path of ['/feed', '/vocab', '/review', '/explore', '/clip/test', '/history', '/saved', '/onboarding', '/founder']) expect(learningPath(path)).toBe(true);
+    for (const path of ['/trial', '/settings', '/account', '/privacy', '/terms', '/support']) expect(learningPath(path)).toBe(false);
+  });
   it("yearly has seven simulated trial days; monthly has none", () => {
     expect(simulatedTrialEnd('yearly', NOW)).toBe(NOW + 7 * dayMs);
     expect(simulatedTrialEnd('monthly', NOW)).toBeNull();
@@ -326,6 +380,9 @@ describe("clip search", () => {
     expect(searchClips(clips, "", { grammar: "〜てる" })).toEqual(["x-1"]);
     expect(searchClips(clips, "", {})).toEqual(["y-1", "x-1"]);
   });
+  it("an empty filter means no filter", () => {
+    expect(searchClips(clips, "", { level: "", topic: "", grammar: "" })).toEqual(["y-1", "x-1"]);
+  });
   it("word keys prefer dictionary ids", () => {
     expect(clipWordKeys(clips[0]!)).toEqual(["d1467640", "d1514320"]);
     expect(wordKeyOf(null, "よし")).toBe("bよし");
@@ -338,8 +395,8 @@ describe("clip search", () => {
 });
 
 describe("free tier", () => {
-  it("free learners get 10 clips a day, premium is unlimited", () => {
-    expect(canWatchClip(false, 9, 10)).toBe(true);
+  it("no free clips without active trial or payment", () => {
+    expect(canWatchClip(false, 9, 10)).toBe(false);
     expect(canWatchClip(false, 10, 10)).toBe(false);
     expect(canWatchClip(true, 500, 10)).toBe(true);
   });
@@ -417,11 +474,11 @@ describe("ask kizuki", () => {
     expect(asksToday("2026-10-21", 3, "2026-10-21")).toBe(3);
     expect(asksToday("2026-10-20", 3, "2026-10-21")).toBe(0);
   });
-  it("free learners get 5 questions a day, premium unlimited", () => {
-    expect(canAsk(false, 4, 5)).toBe(true);
+  it("no free questions without active trial or payment", () => {
+    expect(canAsk(false, 4, 5)).toBe(false);
     expect(canAsk(false, 5, 5)).toBe(false);
     expect(canAsk(true, 99, 5)).toBe(true);
-    expect(asksLeft(false, 3, 5)).toBe(2);
+    expect(asksLeft(false, 3, 5)).toBe(0);
     expect(asksLeft(false, 7, 5)).toBe(0);
     expect(asksLeft(true, 7, 5)).toBe(null);
   });

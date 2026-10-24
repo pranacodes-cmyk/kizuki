@@ -37,6 +37,7 @@ GoRouter buildRouter(AppState app) {
     redirect: (context, state) {
       final p = state.uri.path;
       if (purchaseNeedsAccount(app.purchaseAccountPending, false) && !['/account', '/terms', '/privacy', '/support'].contains(p)) return '/account?mode=signin';
+      if ((app.onboarded || !onboardingPath(p)) && learningPath(p) && !subscriptionAccess(app.premium.active, app.premium.expiresAt, app.premium.trialEndsAt, DateTime.now().millisecondsSinceEpoch)) return '/trial';
       if (!app.onboarded && tabs.contains(p)) return '/';
       if (app.onboarded && p == '/') return '/feed';
       return null;

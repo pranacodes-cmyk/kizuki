@@ -6,6 +6,9 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 import '../logic/logic.dart';
 import '../state/app_state.dart';
 import 'config.dart';
+import 'auth_links.dart';
+import 'billing.dart';
+import 'analytics.dart';
 
 /// Cloud sync for signed-in learners — mirrors src/lib/sync.ts. The whole learner state
 /// lives in one row of public.learner_state (RLS: own row only); on sign-in we pull, merge
@@ -27,7 +30,12 @@ class SyncService extends ChangeNotifier {
   /// must never leave the screen blank).
   Future<bool> boot(AppState app) {
     _pending = app;
-    return ensureBackend();
+    // The backend may already be connecting for an early sign-in hand-off; sync still
+    // starts for this app once it is ready.
+    return ensureBackend().then((ok) {
+      if (ok) start(app);
+      return ok;
+    });
   }
 
   /// Resolves once the backend client is ready (true) or failed to start (false).
@@ -84,6 +92,8 @@ class SyncService extends ChangeNotifier {
       _userId = id;
       _timer?.cancel();
       _inflight = null;
+      unawaited(Billing.identify(id));
+      Analytics.identity(id);
     }
     session = s;
   }
@@ -108,24 +118,36 @@ class SyncService extends ChangeNotifier {
 
   Future<void> _pullAndMerge() async {
     final s = session;
-    if (s == null) return;
+    if (s == null || !_started) return; // start() syncs as soon as the app is attached
     final gen = _generation, uid = s.user.id;
     try {
       final row = await _db.from('learner_state').select('state').eq('user_id', uid).maybeSingle();
       if (!_current(gen, uid)) return; // account changed while the cloud copy loaded
-      final local = _app.toJson();
+      // Another account's progress on this device never merges into this account.
+      final local = localStateFor(_app.toJson(), uid);
       final remote = (row?['state'] as Map?)?.cast<String, dynamic>();
-      final merged = remote != null ? mergeState(local, remote) : local;
-      if (remote != null) _app.replaceAll(merged);
+      final merged = remote != null ? {...mergeState(local, remote), 'owner': uid} : local;
+      _app.replaceAll(merged);
       await _push(s, gen, merged);
     } catch (e) {
       debugPrint('sync pull failed: $e');
     }
   }
 
+  /// Installs a session handed back by the browser sign-in (kizuki://auth). Its refresh
+  /// token is exchanged for a fresh session; the web page already dropped its own copy.
+  Future<void> installHandoff(String sessionJson) async {
+    final refresh = AuthLinks.refreshTokenOf(sessionJson);
+    if (refresh == null) throw const AuthException("Sign-in didn't finish. Please try again.");
+    if (!await ensureBackend()) throw const AuthException("You're offline. Check your connection and try again.");
+    final res = await _db.auth.setSession(refresh);
+    _setSession(res.session ?? _db.auth.currentSession);
+    notifyListeners();
+  }
+
   Future<void> push([Map<String, dynamic>? state]) async {
     final s = session;
-    if (s == null) return;
+    if (s == null || !_started) return;
     await _push(s, _generation, state);
   }
 
