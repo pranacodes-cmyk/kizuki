@@ -148,6 +148,8 @@ void main() {
     // checkout gate above is verified, not bypassed by UI. A real authenticated checkout
     // test requires an approved test account.
     state().confirmPurchaseAccount();
+    // Stand-in for the signed-in account's profile name (there is no name question).
+    state().setProfile((p) => p.name = 'Mohit');
     state().completeOnboarding();
     GoRouter.of(ctx()).go('/feed');
     await wait(1500);
