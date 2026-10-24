@@ -1,19 +1,30 @@
 {
  "videoId": "AtM5Cs7pLw0",
  "ids": [
-  "AtM5Cs7pLw0-836"
+  "AtM5Cs7pLw0-516",
+  "AtM5Cs7pLw0-593"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "AtM5Cs7pLw0-836": {
-   "id": "AtM5Cs7pLw0-836",
+  "AtM5Cs7pLw0-593": {
+   "id": "AtM5Cs7pLw0-593",
    "appeal": 6,
-   "clarity": 4,
-   "picture": 4,
+   "clarity": 3,
+   "picture": 3,
    "ease": 4,
    "english": false,
    "issues": [],
-   "why": "Clear narration with relatable cooking visuals and everyday home vocabulary."
+   "why": "Simple natural dialogue about food portions while plating dinner."
+  },
+  "AtM5Cs7pLw0-516": {
+   "id": "AtM5Cs7pLw0-516",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear spoken narration explaining a warm home-cooked curry dish."
   }
  }
 }

@@ -2,30 +2,30 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 26.8,
-   "end": 47.0,
-   "title": "Umaibo Snack Price Increase",
+   "start": 26.5,
+   "end": 49.0,
+   "title": "Umaibo Price Increase",
    "level": "N5",
    "topics": [
     "food",
     "daily"
    ],
    "grammar": [
-    "〜から — starting from",
-    "〜になる — to become"
+    "〜から — from",
+    "〜になる — become"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 27.0,
-     "end": 36.0,
+     "start": 26.8,
+     "end": 36.5,
      "ja": "お菓子の「うまい棒」は、10月から値段が上がります。",
-     "en": "The price of the snack Umaibo will increase starting in October.",
+     "en": "The price of the snack \"Umaibo\" will go up from October.",
      "speaker": "Narrator"
     },
     {
-     "start": 37.0,
-     "end": 46.5,
+     "start": 36.9,
+     "end": 48.5,
      "ja": "今の1本12円から3円上がって、15円になります。",
      "en": "It will go up by 3 yen from the current 12 yen per piece, becoming 15 yen.",
      "speaker": "Narrator"
@@ -33,84 +33,65 @@
    ]
   },
   {
-   "start": 49.6,
-   "end": 72.2,
-   "title": "History and Popularity of Umaibo",
-   "level": "N5",
-   "topics": [
-    "food",
-    "culture"
-   ],
-   "grammar": [
-    "〜でしたが — was ..., but",
-    "〜くて — and (te-form of i-adjectives)"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 49.8,
-     "end": 58.5,
-     "ja": "うまい棒は、1979年から1本10円でしたが、",
-     "en": "Umaibo had been 10 yen apiece since 1979, but",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 58.8,
-     "end": 64.5,
-     "ja": "2年前、12円になりました。",
-     "en": "two years ago, it became 12 yen.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 65.8,
-     "end": 71.8,
-     "ja": "安くて、いろいろな味があって、人気があります。",
-     "en": "It is cheap, comes in various flavors, and is popular.",
-     "speaker": "Narrator"
-    }
-   ]
-  },
-  {
-   "start": 826.0,
-   "end": 844.5,
-   "title": "Benefits of Fresh Local Vegetables",
+   "start": 742.5,
+   "end": 802.0,
+   "title": "Dependency on Imports and Weak Yen",
    "level": "N3",
    "topics": [
     "food",
     "daily"
    ],
    "grammar": [
-    "〜たて — freshly done",
-    "〜ず — without doing"
+    "〜に頼る — rely on",
+    "〜ので — because / since",
+    "〜と思う — to think that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 826.5,
-     "end": 831.5,
-     "ja": "なにより採れたての野菜は、",
-     "en": "Above all, freshly picked vegetables",
+     "start": 743.0,
+     "end": 749.5,
+     "ja": "日本は、海外からの輸入に頼っています。",
+     "en": "Japan relies on imports from abroad.",
      "speaker": "Narrator"
     },
     {
-     "start": 831.6,
-     "end": 835.5,
-     "ja": "新鮮で栄養満点で、美味しいです。",
-     "en": "are fresh, nutritious, and delicious.",
+     "start": 750.0,
+     "end": 801.5,
+     "ja": "最近は、円の価値が下がって原料の値段が上がっているので、仕方のないことだと思います。",
+     "en": "Recently, the value of the yen has fallen and the cost of raw materials has gone up, so I think it cannot be helped.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 803.0,
+   "end": 824.5,
+   "title": "Supporting Local Farmers",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜ようにする — to make an effort to",
+    "〜ため — due to / because",
+    "〜たいからだ — because one wants to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 803.5,
+     "end": 813.0,
+     "ja": "私は、できるだけ、近所の農家から野菜を買うようにしています。",
+     "en": "I try to buy vegetables from local farmers as much as possible.",
      "speaker": "Narrator"
     },
     {
-     "start": 835.8,
-     "end": 840.5,
-     "ja": "輸送コストもかからず、手頃です。",
-     "en": "With no transportation costs, they are affordable.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 840.8,
-     "end": 844.0,
-     "ja": "お財布にも優しいですね。",
-     "en": "It's also friendly on the wallet.",
+     "start": 813.5,
+     "end": 824.0,
+     "ja": "日本の食料自給率が低いため、少しでも農家を応援したいからです。",
+     "en": "Because Japan's food self-sufficiency rate is low, I want to support farmers even a little.",
      "speaker": "Narrator"
     }
    ]
@@ -120,5 +101,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

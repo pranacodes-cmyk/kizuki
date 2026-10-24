@@ -1,6 +1,7 @@
 {
  "videoId": "eU1ptsmopVs",
  "ids": [
+  "eU1ptsmopVs-180",
   "eU1ptsmopVs-20"
  ],
  "model": "google/gemini-3.8-flash",
@@ -13,7 +14,17 @@
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Cute VTuber comedy segment with clear audio, but speech is moderately fast."
+   "why": "Cute VTuber dialogue with helpful subtitles and clear audio delivery."
+  },
+  "eU1ptsmopVs-180": {
+   "id": "eU1ptsmopVs-180",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous and expressive anime acting, though slightly fast for beginners."
   }
  }
 }

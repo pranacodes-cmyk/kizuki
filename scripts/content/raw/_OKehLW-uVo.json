@@ -2,9 +2,9 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 433.4,
-   "end": 458.8,
-   "title": "What She Purchased",
+   "start": 273.2,
+   "end": 298.5,
+   "title": "Unboxing New Apple Devices",
    "level": "N4",
    "topics": [
     "daily",
@@ -12,157 +12,128 @@
    ],
    "grammar": [
     "〜たばかり — just did something",
-    "〜んです — explanatory tone"
+    "〜んです — explaining background"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 433.7,
-     "end": 438.0,
-     "ja": "ということで私はまず、今回購入したのは、",
-     "en": "So, first of all, what I purchased this time,",
-     "speaker": "Nobe-chan"
+     "start": 273.2,
+     "end": 277.8,
+     "ja": "ということで、私はまず今回購入したのは、ここにね、ちょっと箱が並んでるんですけれども、",
+     "en": "So, what I bought this time—as you can see from the boxes lined up here—",
+     "speaker": "Nobechan"
     },
     {
-     "start": 438.1,
-     "end": 441.2,
-     "ja": "ここにね、ちょっと箱が並んでるんですけれども、",
-     "en": "there are some boxes lined up here,",
-     "speaker": "Nobe-chan"
+     "start": 277.8,
+     "end": 286.5,
+     "ja": "3月25日に発売をした、この最新のiPad Proと、",
+     "en": "is this latest iPad Pro released on March 25th,",
+     "speaker": "Nobechan"
     },
     {
-     "start": 441.2,
-     "end": 446.5,
-     "ja": "3月25日に発売をしたこの、最新のiPad Proと、",
-     "en": "is the latest iPad Pro released on March 25th,",
-     "speaker": "Nobe-chan"
-    },
-    {
-     "start": 446.7,
-     "end": 453.0,
+     "start": 286.5,
+     "end": 293.5,
      "ja": "あとは、本当に先日発売されたばかりのこちらのMagic Keyboardと、",
-     "en": "and this Magic Keyboard that was just released the other day,",
-     "speaker": "Nobe-chan"
+     "en": "plus this Magic Keyboard that was just released the other day,",
+     "speaker": "Nobechan"
     },
     {
-     "start": 453.5,
-     "end": 458.4,
-     "ja": "あとは、このApple Pencilの３点を購入しました。",
-     "en": "and this Apple Pencil—I bought these three items.",
-     "speaker": "Nobe-chan"
+     "start": 293.5,
+     "end": 298.2,
+     "ja": "あとは、このApple Pencilの3点を購入しました。",
+     "en": "and this Apple Pencil, making three items in total.",
+     "speaker": "Nobechan"
     }
    ]
   },
   {
-   "start": 707.4,
-   "end": 721.8,
-   "title": "Ease of Typing",
+   "start": 322.5,
+   "end": 349.0,
+   "title": "Buying the Chinese Keyboard",
    "level": "N3",
    "topics": [
     "daily",
     "fun"
    ],
    "grammar": [
-    "〜やすい — easy to do",
-    "〜てみる — try doing",
-    "〜って言うと — speaking of / if you ask why"
+    "〜から言うと — judging from / in terms of",
+    "〜ではなくて — not A, but B",
+    "〜てある — state after an action"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 707.6,
-     "end": 710.5,
-     "ja": "で、実際の入力のしやすさ、打ちやすさなんですけれども、",
-     "en": "Now, as for the ease of input and typing,",
-     "speaker": "Nobe-chan"
+     "start": 322.5,
+     "end": 327.3,
+     "ja": "でもね、結論から言うと、全然問題なく使えるなっていう風に思いました。",
+     "en": "But honestly, to get straight to the conclusion, I found it works with no problem at all.",
+     "speaker": "Nobechan"
     },
     {
-     "start": 710.7,
-     "end": 714.3,
-     "ja": "私は実際使ってみて、すごく打ちやすいなっていうふうに思いました。",
-     "en": "having actually tried using it, I felt it's very easy to type on.",
-     "speaker": "Nobe-chan"
+     "start": 327.5,
+     "end": 334.8,
+     "ja": "まずね、見た目なんだけど、日本語版とかだと、ここにひらがなが書いてあるキーボードになってるものもあるんですけれども、",
+     "en": "First, looking at the layout: with Japanese versions, some keyboards have hiragana printed here,",
+     "speaker": "Nobechan"
     },
     {
-     "start": 714.5,
-     "end": 718.4,
-     "ja": "何でかって言うと、キーとキーの間隔が意外としっかりあって、",
-     "en": "The reason is that the spacing between the keys is surprisingly good,",
-     "speaker": "Nobe-chan"
+     "start": 334.9,
+     "end": 339.8,
+     "ja": "私はそういう風に中国語とかが入ってない、アルファベットだけのものを選びました。",
+     "en": "but I chose the one without Chinese or anything, just English letters.",
+     "speaker": "Nobechan"
     },
     {
-     "start": 718.6,
-     "end": 721.4,
-     "ja": "すごく打ちやすいなっていうふうに思いました。",
-     "en": "so I felt it's really easy to type on.",
-     "speaker": "Nobe-chan"
+     "start": 340.0,
+     "end": 348.8,
+     "ja": "なので違う所と言えば、ここですね。入力の切り替えのボタンのところが、日本語と英語ではなくって、中国語と英語になってるぐらいで、",
+     "en": "So the only difference is right here: the switch button is Chinese/English instead of Japanese/English.",
+     "speaker": "Nobechan"
     }
    ]
   },
   {
-   "start": 1110.0,
-   "end": 1128.9,
-   "title": "How to Charge",
+   "start": 467.2,
+   "end": 485.8,
+   "title": "Typing in the Dark",
    "level": "N4",
    "topics": [
     "daily",
     "fun"
    ],
    "grammar": [
-    "〜ことができる — can do / able to do",
-    "〜ば — conditional (if / when)",
-    "〜てもらう — have someone do"
+    "〜てくれる — doing something for someone",
+    "〜やすい — easy to do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1110.2,
-     "end": 1112.4,
-     "ja": "そして充電の方法なんですけれども、",
-     "en": "And as for how to charge it,",
-     "speaker": "Nobe-chan"
+     "start": 467.2,
+     "end": 472.8,
+     "ja": "でね、このキーボードは電気を暗くしたりとかしても、ここのキーボードの文字の部分が光ってくれるので、",
+     "en": "Also, even if you turn off the lights, the letters on this keyboard light up,",
+     "speaker": "Nobechan"
     },
     {
-     "start": 1112.5,
-     "end": 1114.2,
-     "ja": "iPad Proだけ充電するときには、",
-     "en": "when charging only the iPad Pro,",
-     "speaker": "Nobe-chan"
+     "start": 473.0,
+     "end": 476.4,
+     "ja": "電気がついてなくて暗い場所でも、打ちやすいなっていう風に思いました。",
+     "en": "so I found it's really easy to type even in dark places without lights on.",
+     "speaker": "Nobechan"
     },
     {
-     "start": 1114.3,
-     "end": 1118.1,
-     "ja": "ここのiPad Proの下の部分に挿して充電することができるんですけど、",
-     "en": "you can plug it into the bottom part of the iPad Pro to charge,",
-     "speaker": "Nobe-chan"
+     "start": 476.5,
+     "end": 481.0,
+     "ja": "ほら見て！実際やると、こんな感じで光るんです。もうのべが見えないけどさ、",
+     "en": "Look! In reality, it lights up like this. You can't even see me anymore, though!",
+     "speaker": "Nobechan"
     },
     {
-     "start": 1118.3,
-     "end": 1121.0,
-     "ja": "もしこのままの状態で充電する場合には、",
-     "en": "but if you charge it in this attached state,",
-     "speaker": "Nobe-chan"
-    },
-    {
-     "start": 1121.2,
-     "end": 1123.0,
-     "ja": "ぐっとひっくり返して、",
-     "en": "turn it over firmly,",
-     "speaker": "Nobe-chan"
-    },
-    {
-     "start": 1123.2,
-     "end": 1126.5,
-     "ja": "ここのキーボードのね、ここの部分に挿してもらえれば、",
-     "en": "and if you plug it in right here on the keyboard,",
-     "speaker": "Nobe-chan"
-    },
-    {
-     "start": 1126.6,
-     "end": 1128.5,
-     "ja": "全部一緒に充電することができます。",
-     "en": "you can charge everything together.",
-     "speaker": "Nobe-chan"
+     "start": 481.0,
+     "end": 485.5,
+     "ja": "こんな感じでキーボードが光ってるので、こんなに暗い場所でも入力に困りません。",
+     "en": "Since the keyboard is backlit like this, you have no trouble typing even in a dark room.",
+     "speaker": "Nobechan"
     }
    ]
   }
@@ -171,5 +142,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

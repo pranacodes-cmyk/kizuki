@@ -1,30 +1,30 @@
 {
  "videoId": "xxIPdeVmuKc",
  "ids": [
-  "xxIPdeVmuKc-1720",
-  "xxIPdeVmuKc-497"
+  "xxIPdeVmuKc-555",
+  "xxIPdeVmuKc-635"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "xxIPdeVmuKc-497": {
-   "id": "xxIPdeVmuKc-497",
+  "xxIPdeVmuKc-555": {
+   "id": "xxIPdeVmuKc-555",
    "appeal": 6,
-   "clarity": 3,
+   "clarity": 4,
    "picture": 4,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Energetic character debut with expressive animation and clear comedic delivery."
+   "why": "Iconic anime moment introducing the main item with clear character speech."
   },
-  "xxIPdeVmuKc-1720": {
-   "id": "xxIPdeVmuKc-1720",
+  "xxIPdeVmuKc-635": {
+   "id": "xxIPdeVmuKc-635",
    "appeal": 6,
-   "clarity": 3,
-   "picture": 3,
+   "clarity": 4,
+   "picture": 4,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Charming narrative with a funny punchline, supported by clear visual cues."
+   "why": "Humorous and expressive character dialogue that keeps viewers entertained."
   }
  }
 }

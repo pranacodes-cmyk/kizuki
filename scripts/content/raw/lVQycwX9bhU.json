@@ -2,137 +2,163 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 23.3,
-   "end": 40.5,
-   "title": "Looking for Sunscreen at a Drugstore",
+   "start": 6.2,
+   "end": 30.2,
+   "title": "Asking for Sunscreen at a Drugstore",
    "level": "N5",
    "topics": [
     "daily",
     "travel"
    ],
    "grammar": [
-    "〜にありますか — is it located at ~?",
-    "どれが一番〜ですか — which is the most ~?"
+    "〜を探しています — looking for something",
+    "ご案内します — humble form of guide/show"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 23.6,
-     "end": 26.2,
-     "ja": "日焼け止めですね。",
-     "en": "Sunscreen, right.",
-     "speaker": "Clerk"
+     "start": 6.7,
+     "end": 10.5,
+     "ja": "すみません、ちょっといいですか？",
+     "en": "Excuse me, do you have a moment?",
+     "speaker": "Customer"
     },
     {
-     "start": 26.8,
+     "start": 12.0,
+     "end": 14.8,
+     "ja": "はい、いらっしゃいませ。",
+     "en": "Yes, welcome.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 16.0,
+     "end": 20.8,
+     "ja": "日焼け止めを探しています。どこにありますか？",
+     "en": "I am looking for sunscreen. Where is it?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 22.8,
+     "end": 25.5,
+     "ja": "日焼け止めですね。",
+     "en": "Sunscreen, right.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 26.7,
      "end": 29.8,
      "ja": "あちらです。ご案内します。",
      "en": "It is over there. I will show you the way.",
-     "speaker": "Clerk"
-    },
-    {
-     "start": 31.3,
-     "end": 35.8,
-     "ja": "ありがとうございます。たくさんありますね。",
-     "en": "Thank you. There are so many.",
-     "speaker": "Customer"
-    },
-    {
-     "start": 37.0,
-     "end": 40.0,
-     "ja": "どれが一番人気ですか？",
-     "en": "Which one is the most popular?",
-     "speaker": "Customer"
+     "speaker": "Staff"
     }
    ]
   },
   {
-   "start": 242.8,
-   "end": 260.0,
+   "start": 152.2,
+   "end": 186.8,
    "title": "Lost at Tokyo Station",
    "level": "N5",
    "topics": [
-    "travel",
-    "daily"
+    "travel"
    ],
    "grammar": [
-    "〜に行きたいです — want to go to ~",
-    "〜たいです — want to do"
+    "〜たい — wanting to do",
+    "〜て — connecting sentences / reason"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 243.3,
-     "end": 248.5,
+     "start": 152.7,
+     "end": 156.3,
+     "ja": "すみません。道に迷いました。",
+     "en": "Excuse me. I am lost.",
+     "speaker": "Passenger"
+    },
+    {
+     "start": 157.7,
+     "end": 161.5,
+     "ja": "東京駅は広くて……。",
+     "en": "Tokyo Station is so big...",
+     "speaker": "Passenger"
+    },
+    {
+     "start": 162.8,
+     "end": 168.3,
      "ja": "大丈夫ですか？どこに行きたいですか？",
      "en": "Are you okay? Where do you want to go?",
-     "speaker": "Station Staff"
+     "speaker": "Staff"
     },
     {
-     "start": 250.2,
-     "end": 254.5,
+     "start": 169.8,
+     "end": 174.6,
      "ja": "新大阪行きの新幹線に乗りたいです。",
      "en": "I want to take the Shinkansen bound for Shin-Osaka.",
-     "speaker": "Customer"
+     "speaker": "Passenger"
     },
     {
-     "start": 255.8,
-     "end": 259.0,
+     "start": 175.7,
+     "end": 179.6,
      "ja": "でも、乗り場がわかりません。",
      "en": "But I don't know where the gates are.",
-     "speaker": "Customer"
+     "speaker": "Passenger"
+    },
+    {
+     "start": 180.8,
+     "end": 186.5,
+     "ja": "新幹線の乗り場は、「八重洲口」にあります。",
+     "en": "The Shinkansen gates are at the Yaesu Exit.",
+     "speaker": "Staff"
     }
    ]
   },
   {
-   "start": 523.0,
-   "end": 548.8,
-   "title": "Eating Dango at the Bench",
+   "start": 261.3,
+   "end": 289.0,
+   "title": "Ordering Dango and Matcha",
    "level": "N5",
    "topics": [
     "food",
-    "daily",
-    "travel"
+    "daily"
    ],
    "grammar": [
-    "〜てもいいですか — may I ~?",
-    "〜ことができます — be able to do ~"
+    "〜をください — please give me",
+    "〜はいかがですか — how about / would you like"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 523.2,
-     "end": 526.4,
-     "ja": "あの、ここで食べてもいいですか？",
-     "en": "Um, can I eat here?",
+     "start": 261.8,
+     "end": 265.2,
+     "ja": "いらっしゃいませ。こんにちは。",
+     "en": "Welcome. Hello.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 266.3,
+     "end": 271.4,
+     "ja": "こんにちは。みたらし団子を２本ください。",
+     "en": "Hello. Two mitarashi dango, please.",
      "speaker": "Customer"
     },
     {
-     "start": 528.0,
-     "end": 530.8,
-     "ja": "はい、大丈夫ですよ。",
-     "en": "Yes, it's fine.",
+     "start": 272.7,
+     "end": 277.2,
+     "ja": "はい、みたらし団子が２本ですね。",
+     "en": "Yes, two mitarashi dango.",
      "speaker": "Staff"
     },
     {
-     "start": 531.8,
-     "end": 535.8,
-     "ja": "あちらに赤いベンチがあります。",
-     "en": "There is a red bench over there.",
+     "start": 278.4,
+     "end": 282.2,
+     "ja": "お飲み物はいかがですか？",
+     "en": "Would you like a drink?",
      "speaker": "Staff"
     },
     {
-     "start": 537.0,
-     "end": 541.0,
-     "ja": "あそこで座って食べることができますよ。",
-     "en": "You can sit and eat there.",
-     "speaker": "Staff"
-    },
-    {
-     "start": 542.4,
-     "end": 547.8,
-     "ja": "わかりました。じゃあ、ベンチに座って食べます。",
-     "en": "Understood. Then, I will sit and eat at the bench.",
+     "start": 283.3,
+     "end": 288.5,
+     "ja": "じゃあ、冷たい抹茶も１つお願いします。",
+     "en": "Then, one cold matcha, please.",
      "speaker": "Customer"
     }
    ]
@@ -142,5 +168,6 @@
  "pickTopics": [
   "travel"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

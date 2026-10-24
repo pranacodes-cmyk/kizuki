@@ -2,59 +2,51 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 10.02,
-   "end": 25.13,
-   "title": "Waking Members Up in the Hotel",
+   "start": 10.0,
+   "end": 26.0,
+   "title": "Prank Morning Wake-Up",
    "level": "N4",
    "topics": [
     "fun",
-    "friends",
     "daily"
    ],
    "grammar": [
-    "〜終わって — after finishing",
-    "〜ていただく — receiving an action"
+    "〜てます — ongoing state",
+    "〜たいと思います — I think I will do / intend to do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 10.32,
-     "end": 13.06,
-     "ja": "昨日大阪のライブが終わって",
-     "en": "Yesterday our Osaka live show finished,",
+     "start": 10.2,
+     "end": 12.3,
+     "ja": "昨日大阪のライブが終わって、",
+     "en": "Yesterday our live show in Osaka ended,",
      "speaker": "Kevin"
     },
     {
-     "start": 13.06,
-     "end": 15.17,
+     "start": 12.4,
+     "end": 14.8,
      "ja": "今大阪のホテルに泊まってます。",
-     "en": "and right now we're staying at an Osaka hotel.",
+     "en": "and now we're staying at a hotel in Osaka.",
      "speaker": "Kevin"
     },
     {
-     "start": 15.53,
-     "end": 16.74,
-     "ja": "なので、",
-     "en": "So,",
+     "start": 15.3,
+     "end": 19.9,
+     "ja": "なので、私がいい感じに起こしていきたいと思いますよ。",
+     "en": "So, I'd like to wake everyone up in a nice way.",
      "speaker": "Kevin"
     },
     {
-     "start": 17.2,
-     "end": 20.35,
-     "ja": "私がい〜い感じに起こしていきたいと思いますよ。",
-     "en": "I'm going to wake everyone up nice and nicely.",
-     "speaker": "Kevin"
-    },
-    {
-     "start": 20.91,
-     "end": 21.84,
+     "start": 20.8,
+     "end": 22.0,
      "ja": "行きましょう。",
      "en": "Let's go.",
      "speaker": "Kevin"
     },
     {
-     "start": 22.38,
-     "end": 25.13,
+     "start": 22.8,
+     "end": 25.5,
      "ja": "まずはSEIYAの部屋から行きます！",
      "en": "First, let's go to Seiya's room!",
      "speaker": "Kevin"
@@ -62,101 +54,141 @@
    ]
   },
   {
-   "start": 208.97,
-   "end": 224.23,
-   "title": "Good Morning, Time to Wake Up",
+   "start": 245.0,
+   "end": 256.0,
+   "title": "Asking for Their Honest Reaction",
    "level": "N4",
    "topics": [
-    "daily",
-    "friends",
-    "fun"
+    "fun",
+    "friends"
    ],
    "grammar": [
-    "〜んです — giving explanation/context",
-    "〜ていただく — humble request/receive favor"
+    "〜てほしい — want someone to do"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 209.27,
-     "end": 210.84,
-     "ja": "おはようございます！",
-     "en": "Good morning!",
+     "start": 245.3,
+     "end": 246.6,
+     "ja": "おはようございます。",
+     "en": "Good morning.",
      "speaker": "Kevin"
     },
     {
-     "start": 211.23,
-     "end": 214.07,
-     "ja": "朝ですよ。早いですよう、朝。",
-     "en": "It's morning. It's early morning.",
+     "start": 246.7,
+     "end": 247.9,
+     "ja": "おはようございます。",
+     "en": "Good morning.",
+     "speaker": "Takuya"
+    },
+    {
+     "start": 248.0,
+     "end": 250.7,
+     "ja": "どう？初めてじゃない？ドッキリ。",
+     "en": "How was it? Isn't this your first time being pranked?",
      "speaker": "Kevin"
     },
     {
-     "start": 214.39,
-     "end": 217.2,
-     "ja": "ライブ終わってお疲れなのはわかるんですけど、",
-     "en": "I know you're tired after the show, but",
+     "start": 251.0,
+     "end": 252.0,
+     "ja": "確かに。",
+     "en": "Indeed.",
+     "speaker": "Takuya"
+    },
+    {
+     "start": 252.3,
+     "end": 253.5,
+     "ja": "どうですか？",
+     "en": "How do you feel?",
      "speaker": "Kevin"
     },
     {
-     "start": 217.4,
-     "end": 219.78,
-     "ja": "起きていただいてもよろしいでしょうか？",
-     "en": "would it be alright if you wake up?",
-     "speaker": "Kevin"
-    },
-    {
-     "start": 220.84,
-     "end": 222.18,
-     "ja": "起きてます…",
-     "en": "I'm awake...",
-     "speaker": "Seiya"
+     "start": 253.7,
+     "end": 255.4,
+     "ja": "もうやめてほしいですね。",
+     "en": "I'd really like you to stop doing this.",
+     "speaker": "Takuya"
     }
    ]
   },
   {
-   "start": 845.89,
-   "end": 855.97,
-   "title": "Where Is Older Brother Sleeping?",
-   "level": "N5",
+   "start": 1024.4,
+   "end": 1043.6,
+   "title": "Sleeping with Candy in His Mouth",
+   "level": "N4",
    "topics": [
-    "daily",
-    "friends",
-    "comedy"
+    "fun",
+    "comedy",
+    "daily"
    ],
    "grammar": [
-    "〜てよ — request to close friend",
-    "〜てんの — colloquial form of 〜ているの"
+    "〜たまま — leaving as is / while still",
+    "〜ないで — without doing"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 846.19,
-     "end": 847.64,
-     "ja": "お兄ちゃん起こしてよ。",
-     "en": "Wake up your big bro.",
+     "start": 1024.6,
+     "end": 1026.3,
+     "ja": "夜から飴噛んでんの？",
+     "en": "Have you been chewing candy since last night?",
      "speaker": "Kevin"
     },
     {
-     "start": 847.64,
-     "end": 849.03,
-     "ja": "どこにいんの…",
-     "en": "Where is he...?",
-     "speaker": "Shoot"
+     "start": 1026.4,
+     "end": 1027.0,
+     "ja": "おはよう。",
+     "en": "Good morning.",
+     "speaker": "Kevin"
     },
     {
-     "start": 849.03,
-     "end": 850.55,
-     "ja": "ここにいんの？",
-     "en": "Is he in here?",
-     "speaker": "Shoot"
+     "start": 1027.2,
+     "end": 1028.9,
+     "ja": "飴入ったまんま寝てた。",
+     "en": "I was sleeping with candy still in my mouth.",
+     "speaker": "Morrie"
     },
     {
-     "start": 850.69,
-     "end": 852.32,
-     "ja": "ハマっちゃってんの？",
-     "en": "Is he stuck in there?",
-     "speaker": "Shoot"
+     "start": 1029.0,
+     "end": 1030.7,
+     "ja": "舐めたてじゃない？マジで。",
+     "en": "Didn't you just put it in? Seriously.",
+     "speaker": "Kevin"
+    },
+    {
+     "start": 1033.7,
+     "end": 1035.7,
+     "ja": "俺、ずっとここに入れてた。",
+     "en": "I kept it right here the whole time.",
+     "speaker": "Morrie"
+    },
+    {
+     "start": 1036.0,
+     "end": 1037.2,
+     "ja": "溶けるでしょ？",
+     "en": "Wouldn't it dissolve?",
+     "speaker": "Kevin"
+    },
+    {
+     "start": 1037.3,
+     "end": 1039.0,
+     "ja": "こしょこしょやると詰まる。",
+     "en": "If you tickle me, I'll choke on it.",
+     "speaker": "Morrie"
+    },
+    {
+     "start": 1039.3,
+     "end": 1041.0,
+     "ja": "じゃ、舐めんなよ！",
+     "en": "Then don't eat candy in bed!",
+     "speaker": "Kevin"
+    },
+    {
+     "start": 1041.5,
+     "end": 1043.1,
+     "ja": "まず舐めんなよ。",
+     "en": "In the first place, don't eat it.",
+     "speaker": "Kevin"
     }
    ]
   }
@@ -165,5 +197,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

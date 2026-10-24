@@ -1,6 +1,7 @@
 {
  "videoId": "lqLBnNSV1rk",
  "ids": [
+  "lqLBnNSV1rk-157",
   "lqLBnNSV1rk-558"
  ],
  "model": "google/gemini-3.8-flash",
@@ -9,13 +10,21 @@
    "id": "lqLBnNSV1rk-558",
    "appeal": 6,
    "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Casual conversation over sushi with natural food expressions."
+  },
+  "lqLBnNSV1rk-157": {
+   "id": "lqLBnNSV1rk-157",
+   "appeal": 6,
+   "clarity": 3,
    "picture": 4,
    "ease": 3,
    "english": false,
-   "issues": [
-    "speech overlaps"
-   ],
-   "why": "Casual conversation while eating sushi, featuring simple food comments but slight mumbling."
+   "issues": [],
+   "why": "Practical real-world interaction buying lottery tickets at a local shop."
   }
  }
 }

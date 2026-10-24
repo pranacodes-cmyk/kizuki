@@ -2,169 +2,174 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 18.9,
-   "end": 38.8,
-   "title": "Self Introduction at the Interview",
+   "start": 11.7,
+   "end": 38.6,
+   "title": "Self-Introduction at a Job Interview",
    "level": "N5",
    "topics": [
     "work",
     "daily"
    ],
    "grammar": [
-    "〜から来ました — came from",
-    "〜ています — current state/living",
-    "〜ことです — hobby/nominalizing"
+    "〜から来ました — came from...",
+    "趣味は〜ことです — my hobby is doing..."
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 19.3,
-     "end": 22.8,
+     "start": 11.7,
+     "end": 14.8,
+     "ja": "では、初めに簡単に自己紹介できますか？",
+     "en": "Well then, to start, could you briefly introduce yourself?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 15.0,
+     "end": 18.5,
+     "ja": "はい、分かりました。ありがとうございます。",
+     "en": "Yes, understood. Thank you.",
+     "speaker": "Geeta"
+    },
+    {
+     "start": 18.8,
+     "end": 22.3,
      "ja": "初めまして。私の名前はギータです。",
-     "en": "Nice to meet you. My name is Gita.",
-     "speaker": "Gita"
+     "en": "Nice to meet you. My name is Geeta.",
+     "speaker": "Geeta"
     },
     {
-     "start": 23.0,
-     "end": 25.5,
-     "ja": "一年前にネパールから来ました。",
+     "start": 22.7,
+     "end": 25.8,
+     "ja": "１年前にネパールから来ました。",
      "en": "I came from Nepal one year ago.",
-     "speaker": "Gita"
+     "speaker": "Geeta"
     },
     {
-     "start": 26.0,
-     "end": 29.5,
+     "start": 26.2,
+     "end": 29.8,
      "ja": "今、大阪の淀川区に住んでいます。",
-     "en": "I currently live in Yodogawa Ward, Osaka.",
-     "speaker": "Gita"
+     "en": "Currently, I live in Yodogawa Ward, Osaka.",
+     "speaker": "Geeta"
     },
     {
      "start": 30.1,
-     "end": 32.5,
+     "end": 32.4,
      "ja": "今年２６歳です。",
      "en": "I am 26 years old this year.",
-     "speaker": "Gita"
+     "speaker": "Geeta"
     },
     {
-     "start": 33.1,
-     "end": 35.7,
+     "start": 32.7,
+     "end": 35.8,
      "ja": "趣味は美味しい料理を作ることです。",
      "en": "My hobby is cooking delicious food.",
-     "speaker": "Gita"
+     "speaker": "Geeta"
     },
     {
-     "start": 36.1,
-     "end": 38.3,
-     "ja": "以上です。よろしくお願いいたします。",
-     "en": "That's all. Pleased to meet you.",
-     "speaker": "Gita"
+     "start": 36.0,
+     "end": 38.6,
+     "ja": "以上です。よろしくお願い致します。",
+     "en": "That is all. Pleased to meet you.",
+     "speaker": "Geeta"
     }
    ]
   },
   {
-   "start": 56.6,
-   "end": 72.3,
-   "title": "Explaining the Convenience Store Job",
+   "start": 103.2,
+   "end": 125.6,
+   "title": "Explaining the Job Duties",
    "level": "N4",
    "topics": [
     "work"
    ],
    "grammar": [
-    "〜たり〜たりする — doing things like... and...",
-    "〜てみます — try doing"
+    "〜たり〜たりする — doing things like...",
+    "〜ので — because / so"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 56.9,
-     "end": 59.1,
-     "ja": "それでは、ローソンでの仕事は知っていますか？",
-     "en": "Well then, do you know what the job at Lawson entails?",
-     "speaker": "Interviewer"
-    },
-    {
-     "start": 59.4,
-     "end": 60.9,
-     "ja": "少しだけ知っています。",
-     "en": "I know a little bit.",
-     "speaker": "Gita"
-    },
-    {
-     "start": 61.3,
-     "end": 63.3,
-     "ja": "でも、まだ全部わかりません。",
-     "en": "But I don't understand everything yet.",
-     "speaker": "Gita"
-    },
-    {
-     "start": 63.6,
-     "end": 66.2,
+     "start": 103.2,
+     "end": 106.0,
      "ja": "大丈夫です。簡単に説明しますね。",
-     "en": "That's okay. I'll explain it simply.",
+     "en": "That's alright. Let me explain briefly.",
      "speaker": "Interviewer"
     },
     {
-     "start": 66.5,
-     "end": 71.9,
+     "start": 106.2,
+     "end": 110.1,
      "ja": "レジでお客様を対応したり、商品を棚に並べたりします。",
-     "en": "You'll help customers at the register, arrange products on shelves, and so on.",
+     "en": "You'll serve customers at the register and arrange products on the shelves.",
      "speaker": "Interviewer"
+    },
+    {
+     "start": 110.6,
+     "end": 112.2,
+     "ja": "分かりました。頑張ります。",
+     "en": "Understood. I'll do my best.",
+     "speaker": "Geeta"
+    },
+    {
+     "start": 112.5,
+     "end": 115.5,
+     "ja": "いいですね。ギータさん、日本語は少し難しいですか？",
+     "en": "Sounds good. Geeta, is Japanese a little difficult?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 115.8,
+     "end": 118.8,
+     "ja": "はい、少し難しいですが、頑張っています。",
+     "en": "Yes, it's a bit difficult, but I'm doing my best.",
+     "speaker": "Geeta"
+    },
+    {
+     "start": 119.0,
+     "end": 122.8,
+     "ja": "そうですね。簡単な日本語で話しますので、安心してください。",
+     "en": "I see. We'll speak in simple Japanese, so don't worry.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 123.0,
+     "end": 125.6,
+     "ja": "ありがとうございます。よろしくお願いします。",
+     "en": "Thank you very much. I look forward to working with you.",
+     "speaker": "Geeta"
     }
    ]
   },
   {
-   "start": 126.0,
-   "end": 149.2,
-   "title": "Asking About Working Shifts and Hourly Wage",
+   "start": 136.4,
+   "end": 154.2,
+   "title": "Asking About the Hourly Wage",
    "level": "N4",
    "topics": [
     "work"
    ],
    "grammar": [
-    "〜から〜まで — from ... to ...",
-    "〜ていただけませんか — polite request",
+    "〜ていただけませんか — could you please...",
     "〜について — regarding / about"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 126.4,
-     "end": 129.5,
-     "ja": "では、シフトの時間はどのくらい働けますか？",
-     "en": "Then, how long can you work during a shift?",
-     "speaker": "Interviewer"
-    },
-    {
-     "start": 129.8,
-     "end": 133.5,
-     "ja": "平日は朝９時から午後６時まで働けます。",
-     "en": "On weekdays, I can work from 9 AM to 6 PM.",
-     "speaker": "Gita"
-    },
-    {
-     "start": 133.8,
-     "end": 136.2,
-     "ja": "週末はもっと長く働けます。",
-     "en": "On weekends, I can work even longer.",
-     "speaker": "Gita"
-    },
-    {
-     "start": 136.6,
+     "start": 136.4,
      "end": 139.7,
-     "ja": "わかりました。最後に何か質問はありますか？",
-     "en": "Understood. Finally, do you have any questions?",
+     "ja": "分かりました。最後に何か質問はありますか？",
+     "en": "Understood. Lastly, do you have any questions?",
      "speaker": "Interviewer"
     },
     {
-     "start": 140.0,
+     "start": 139.9,
      "end": 143.0,
      "ja": "すみません、時給について教えていただけませんか？",
      "en": "Excuse me, could you tell me about the hourly wage?",
-     "speaker": "Gita"
+     "speaker": "Geeta"
     },
     {
-     "start": 143.4,
-     "end": 145.8,
+     "start": 143.2,
+     "end": 145.7,
      "ja": "時給は１１５５円です。",
      "en": "The hourly wage is 1,155 yen.",
      "speaker": "Interviewer"
@@ -173,8 +178,22 @@
      "start": 146.0,
      "end": 148.8,
      "ja": "電車代はすべて別途支給します。",
-     "en": "Train fare is paid separately in full.",
+     "en": "Train fares are paid separately in full.",
      "speaker": "Interviewer"
+    },
+    {
+     "start": 149.0,
+     "end": 151.7,
+     "ja": "また他、何か質問はありますか？",
+     "en": "Also, do you have any other questions?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 151.9,
+     "end": 154.2,
+     "ja": "分かりました。ありがとうございました。",
+     "en": "Understood. Thank you very much.",
+     "speaker": "Geeta"
     }
    ]
   }
@@ -183,5 +202,6 @@
  "pickTopics": [
   "work"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

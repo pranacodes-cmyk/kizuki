@@ -1,34 +1,30 @@
 {
  "videoId": "sDLthkrDAF8",
  "ids": [
-  "sDLthkrDAF8-1141",
-  "sDLthkrDAF8-502"
+  "sDLthkrDAF8-405",
+  "sDLthkrDAF8-702"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "sDLthkrDAF8-502": {
-   "id": "sDLthkrDAF8-502",
+  "sDLthkrDAF8-702": {
+   "id": "sDLthkrDAF8-702",
    "appeal": 6,
    "clarity": 3,
    "picture": 3,
    "ease": 3,
    "english": false,
-   "issues": [
-    "loud music"
-   ],
-   "why": "Everyday food recommendation, but background music has distracting vocals."
+   "issues": [],
+   "why": "Playful banter about sharing cake between a couple."
   },
-  "sDLthkrDAF8-1141": {
-   "id": "sDLthkrDAF8-1141",
+  "sDLthkrDAF8-405": {
+   "id": "sDLthkrDAF8-405",
    "appeal": 6,
    "clarity": 3,
-   "picture": 4,
+   "picture": 3,
    "ease": 3,
    "english": false,
-   "issues": [
-    "loud music"
-   ],
-   "why": "Cute natural couple banter over dessert, though background music is loud."
+   "issues": [],
+   "why": "Spontaneous funny reaction to bumping a hot pan during lunch."
   }
  }
 }

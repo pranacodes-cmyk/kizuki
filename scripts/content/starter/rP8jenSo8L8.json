@@ -1,19 +1,30 @@
 {
  "videoId": "rP8jenSo8L8",
  "ids": [
-  "rP8jenSo8L8-11"
+  "rP8jenSo8L8-427",
+  "rP8jenSo8L8-639"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "rP8jenSo8L8-11": {
-   "id": "rP8jenSo8L8-11",
+  "rP8jenSo8L8-427": {
+   "id": "rP8jenSo8L8-427",
    "appeal": 6,
    "clarity": 4,
    "picture": 4,
    "ease": 4,
    "english": false,
    "issues": [],
-   "why": "Clear, simple beginner vocabulary paired with helpful visual context."
+   "why": "Sweet character apology featuring common, accessible everyday Japanese phrases."
+  },
+  "rP8jenSo8L8-639": {
+   "id": "rP8jenSo8L8-639",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Simple conversational exchange, though interrupted briefly by English dialogue."
   }
  }
 }

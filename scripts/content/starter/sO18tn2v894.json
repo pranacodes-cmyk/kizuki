@@ -1,7 +1,8 @@
 {
  "videoId": "sO18tn2v894",
  "ids": [
-  "sO18tn2v894-27"
+  "sO18tn2v894-27",
+  "sO18tn2v894-307"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
@@ -13,7 +14,19 @@
    "ease": 4,
    "english": false,
    "issues": [],
-   "why": "Cute dogs reacting to a simple walk invitation with basic Japanese words."
+   "why": "Cute dogs reacting excitedly to simple questions about a walk."
+  },
+  "sO18tn2v894-307": {
+   "id": "sO18tn2v894-307",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Sweet scene showing a kitten to a dog with casual dialogue."
   }
  }
 }

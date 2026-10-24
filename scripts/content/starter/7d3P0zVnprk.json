@@ -1,0 +1,19 @@
+{
+ "videoId": "7d3P0zVnprk",
+ "ids": [
+  "7d3P0zVnprk-6"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "7d3P0zVnprk-6": {
+   "id": "7d3P0zVnprk-6",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Friendly, slow, and clear cultural introduction tailored for Japanese learners."
+  }
+ }
+}

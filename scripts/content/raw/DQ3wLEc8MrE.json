@@ -12,7 +12,8 @@
    ],
    "grammar": [
     "〜ても — even if",
-    "〜ことができる — can do"
+    "〜ことができる — can do",
+    "〜ましょう — let's"
    ],
    "quality": 5,
    "lines": [
@@ -20,12 +21,12 @@
      "start": 7.1,
      "end": 9.5,
      "ja": "皆さん、こんにちは。",
-     "en": "Hello everyone.",
+     "en": "Hello, everyone.",
      "speaker": "Akiko"
     },
     {
-     "start": 9.8,
-     "end": 12.3,
+     "start": 9.7,
+     "end": 12.7,
      "ja": "ひらがなネットのあきこです。",
      "en": "I'm Akiko from Hiragana Net.",
      "speaker": "Akiko"
@@ -38,113 +39,122 @@
      "speaker": "Akiko"
     },
     {
-     "start": 16.2,
-     "end": 19.4,
+     "start": 16.0,
+     "end": 19.8,
      "ja": "蒸し器がなくても作ることができます。",
      "en": "You can make it even without a steamer.",
      "speaker": "Akiko"
     },
     {
      "start": 20.1,
-     "end": 22.3,
+     "end": 22.0,
      "ja": "では、一緒に作りましょう。",
-     "en": "Now, let's make it together.",
+     "en": "Well then, let's make it together.",
      "speaker": "Akiko"
     }
    ]
   },
   {
-   "start": 109.0,
-   "end": 122.8,
-   "title": "A Fruit for Winter",
-   "level": "N4",
+   "start": 62.8,
+   "end": 83.0,
+   "title": "What Is Yuzu?",
+   "level": "N5",
    "topics": [
     "food",
     "culture"
    ],
    "grammar": [
+    "〜にする — to turn into / cut into",
     "〜より — rather than / more than"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 109.2,
-     "end": 113.2,
-     "ja": "ゆずは日本の冬の果物です。",
+     "start": 63.2,
+     "end": 68.5,
+     "ja": "柚子の皮を千切りにします。",
+     "en": "Cut the yuzu peel into thin strips.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 69.1,
+     "end": 73.5,
+     "ja": "柚子は日本の冬の果物です。",
      "en": "Yuzu is a Japanese winter fruit.",
      "speaker": "Akiko"
     },
     {
-     "start": 114.3,
-     "end": 118.0,
+     "start": 74.0,
+     "end": 78.0,
      "ja": "食べるより皮をよく使います。",
-     "en": "Rather than eating the fruit itself, its peel is often used.",
+     "en": "Rather than eating it, its peel is often used.",
      "speaker": "Akiko"
     },
     {
-     "start": 119.0,
-     "end": 122.5,
-     "ja": "ゆずの皮はとてもいい匂いです。",
-     "en": "Yuzu peel has a very nice scent.",
+     "start": 79.0,
+     "end": 82.5,
+     "ja": "柚子の皮はとてもいい匂いです。",
+     "en": "Yuzu peel smells very nice.",
      "speaker": "Akiko"
     }
    ]
   },
   {
-   "start": 439.2,
-   "end": 456.5,
-   "title": "Perfect for Cold Days",
-   "level": "N4",
+   "start": 279.0,
+   "end": 296.5,
+   "title": "Perfect Dish for a Cold Day",
+   "level": "N5",
    "topics": [
     "food",
     "daily"
    ],
    "grammar": [
-    "〜てみる — try doing",
-    "〜ので — because / since"
+    "〜におすすめ — recommended for",
+    "〜ので — because / since",
+    "〜てみる — try doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 439.5,
-     "end": 441.2,
+     "start": 279.4,
+     "end": 281.5,
      "ja": "いかがでしたか？",
      "en": "How was it?",
      "speaker": "Akiko"
     },
     {
-     "start": 442.0,
-     "end": 445.3,
+     "start": 282.1,
+     "end": 285.5,
      "ja": "茶碗蒸しは寒い日におすすめです。",
-     "en": "Chawanmushi is recommended on cold days.",
+     "en": "Chawanmushi is recommended for cold days.",
      "speaker": "Akiko"
     },
     {
-     "start": 446.0,
-     "end": 448.3,
+     "start": 286.0,
+     "end": 288.8,
      "ja": "おもてなし料理にもなるので、",
-     "en": "It also makes great hospitality food, so...",
+     "en": "It can also be a dish for entertaining guests, so...",
      "speaker": "Akiko"
     },
     {
-     "start": 448.6,
-     "end": 451.0,
+     "start": 289.0,
+     "end": 291.3,
      "ja": "ぜひ作ってみてください。",
-     "en": "please definitely try making it.",
+     "en": "Please be sure to try making it.",
      "speaker": "Akiko"
     },
     {
-     "start": 451.6,
-     "end": 453.9,
+     "start": 291.8,
+     "end": 293.8,
      "ja": "それではまた会いましょう。",
-     "en": "Well then, see you again!",
+     "en": "Well then, see you again.",
      "speaker": "Akiko"
     },
     {
-     "start": 454.2,
-     "end": 456.0,
+     "start": 294.2,
+     "end": 295.8,
      "ja": "さようなら。",
-     "en": "Goodbye!",
+     "en": "Goodbye.",
      "speaker": "Akiko"
     }
    ]
@@ -154,5 +164,6 @@
  "pickTopics": [
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

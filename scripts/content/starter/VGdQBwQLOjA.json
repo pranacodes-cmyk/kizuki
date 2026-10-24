@@ -1,0 +1,19 @@
+{
+ "videoId": "VGdQBwQLOjA",
+ "ids": [
+  "VGdQBwQLOjA-967"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "VGdQBwQLOjA-967": {
+   "id": "VGdQBwQLOjA-967",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Engaging casual chat over ramen, though spoken at natural conversational speed."
+  }
+ }
+}

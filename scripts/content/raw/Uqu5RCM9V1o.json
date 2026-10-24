@@ -2,134 +2,157 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 18.9,
-   "end": 33.2,
-   "title": "Deciding to Buy the Japanese Edition",
+   "start": 19.0,
+   "end": 33.8,
+   "title": "Importing the English Board Game",
    "level": "N3",
    "topics": [
-    "fun"
+    "fun",
+    "culture"
    ],
    "grammar": [
-    "〜ようと思う — thinking of doing",
-    "〜てみる — to try doing"
+    "〜ようかなと思う — thinking of doing",
+    "〜てみる — try doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 18.9,
-     "end": 22.8,
-     "ja": "はい、この『ウィッチャー』ですね。私、英語版出た時から結構気になっていて、",
-     "en": "All right, this is The Witcher. I've been quite curious about it since the English version came out,",
-     "speaker": "Speaker"
+     "start": 19.0,
+     "end": 21.0,
+     "ja": "はい、この『ザ・ウィッチャー』ですね。",
+     "en": "All right, this is \"The Witcher\".",
+     "speaker": "Haru99"
     },
     {
-     "start": 22.8,
-     "end": 26.6,
-     "ja": "ファンタジーフライトさんの方から輸入してプレイしようかなと思ったんですけども、",
-     "en": "and was thinking about importing it from Fantasy Flight to play,",
-     "speaker": "Speaker"
+     "start": 21.0,
+     "end": 24.0,
+     "ja": "私、英語版が出た時から結構気になっていて、",
+     "en": "I've been quite interested in it since the English edition came out,",
+     "speaker": "Haru99"
     },
     {
-     "start": 26.6,
-     "end": 29.8,
-     "ja": "日本語版が出たってことでしたらね、",
-     "en": "but since a Japanese edition was released,",
-     "speaker": "Speaker"
+     "start": 24.0,
+     "end": 27.5,
+     "ja": "輸入してプレイしようかなと思ったんですけども、",
+     "en": "and I thought about importing and playing it, but...",
+     "speaker": "Haru99"
     },
     {
-     "start": 29.8,
-     "end": 33.2,
-     "ja": "日本語版でぜひプレイしたいと思いましたので、早速入手してみました。",
-     "en": "I definitely wanted to play it in Japanese, so I went ahead and bought it.",
-     "speaker": "Speaker"
+     "start": 27.5,
+     "end": 30.8,
+     "ja": "日本語版が出たってことでしたんでね、",
+     "en": "Since a Japanese version was released,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 30.8,
+     "end": 33.8,
+     "ja": "早速入手してみました。",
+     "en": "I went ahead and got it right away.",
+     "speaker": "Haru99"
     }
    ]
   },
   {
-   "start": 436.2,
-   "end": 455.5,
+   "start": 228.5,
+   "end": 253.5,
+   "title": "The Appeal of Western Game Characters",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜っぽい — -ish, resembling",
+    "〜損ねる — miss the chance to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 228.8,
+     "end": 234.6,
+     "ja": "さっきちょっと出し損ねましたけど、いわゆる勇者ですね。",
+     "en": "I forgot to take these out earlier, but here are the heroes.",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 234.8,
+     "end": 239.5,
+     "ja": "まあ、こういうちょっとベテランっぽい冒険者というか、",
+     "en": "Well, these seasoned, veteran-looking adventurers,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 239.5,
+     "end": 244.0,
+     "ja": "いい雰囲気の味のあるキャラクターっていうのがね、",
+     "en": "characters with such a great atmosphere and flavor...",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 244.2,
+     "end": 248.5,
+     "ja": "なかなか無いですよね。お子様っぽいのが主人公になるのが多いんですけど、",
+     "en": "You don't see them often. Many domestic games have kid-like protagonists,",
+     "speaker": "Haru99"
+    },
+    {
+     "start": 248.5,
+     "end": 253.3,
+     "ja": "こういう渋いのがね、なかなか海外ゲームの魅力でもあったりしますよね。",
+     "en": "so this kind of gritty style is really one of the charms of foreign games.",
+     "speaker": "Haru99"
+    }
+   ]
+  },
+  {
+   "start": 440.5,
+   "end": 501.5,
    "title": "Good Luck and Bad Luck Cards",
    "level": "N3",
    "topics": [
     "fun"
    ],
    "grammar": [
-    "〜みたい — seems like / looks like",
-    "〜から分かる — to be able to tell from"
+    "〜に応じる — depending on / in response to",
+    "〜てみる — try doing / look at"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 436.2,
-     "end": 441.5,
-     "ja": "あとは、いわゆるイベントカードですね。これ、イベントカードがね、なかなか露骨で面白いかなと思ったんですけど、",
-     "en": "Next are the event cards. I thought these event cards were pretty blatant and amusing,",
-     "speaker": "Speaker"
+     "start": 441.2,
+     "end": 444.8,
+     "ja": "こっちグッドラックの、ラック、いいほうなんですね。",
+     "en": "This is good luck—the positive card.",
+     "speaker": "Haru99"
     },
     {
-     "start": 441.5,
-     "end": 445.5,
-     "ja": "こっち、グッドラックの、ラックのいい方ですね。こっちバッドラックのカードなんですよね。",
-     "en": "this one is good luck, the lucky side. And this one is bad luck.",
-     "speaker": "Speaker"
+     "start": 445.0,
+     "end": 447.8,
+     "ja": "こっちバッドラックのカードなんですよね。",
+     "en": "And this is the bad luck card.",
+     "speaker": "Haru99"
     },
     {
-     "start": 445.5,
-     "end": 450.8,
-     "ja": "見た目から分かるんですけど、嫌なのを引く時は明らかにデザインから嫌なイベントカードを引いて、",
-     "en": "You can tell just from looking: when you draw a bad one, the design clearly looks unpleasant,",
-     "speaker": "Speaker"
+     "start": 447.8,
+     "end": 451.5,
+     "ja": "嫌なのを引く時は、明らかにデザインから嫌なイベントカードを引いて、",
+     "en": "When drawing bad stuff, you clearly draw an ominous-looking event card,",
+     "speaker": "Haru99"
     },
     {
-     "start": 450.8,
-     "end": 455.5,
-     "ja": "いい時は明らかにいいイベントカードを引くっていうことがはっきり分かってるみたいですけど、",
-     "en": "and when it's good, it's very clear that it's a good event card.",
-     "speaker": "Speaker"
-    }
-   ]
-  },
-  {
-   "start": 407.3,
-   "end": 427.0,
-   "title": "Explaining the Investigation Cards",
-   "level": "N3",
-   "topics": [
-    "fun"
-   ],
-   "grammar": [
-    "〜によって — depending on",
-    "〜たら — if / when"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 407.3,
-     "end": 412.5,
-     "ja": "調査カードっていうのは同じように3色あるんで、戦闘系とか外交系とか魔法系っていう様々な調査カードがあるので、",
-     "en": "The investigation cards similarly come in three colors, with various types like combat, diplomacy, and magic,",
-     "speaker": "Speaker"
+     "start": 451.5,
+     "end": 455.8,
+     "ja": "いい時は明らかにいいイベントカードを引くっていうことが、はっきり分かってるみたいですけど、",
+     "en": "and when it's good, you clearly draw a good one, it seems, but...",
+     "speaker": "Haru99"
     },
     {
-     "start": 412.5,
-     "end": 416.5,
-     "ja": "これをどっか行って何とかしたらこのカードを引きましょうと。",
-     "en": "so when you go somewhere and accomplish something, you draw this card.",
-     "speaker": "Speaker"
-    },
-    {
-     "start": 416.5,
-     "end": 422.5,
-     "ja": "1枚調査カード引けると、どこどこへ行ったら何とかもらえますよとかですね、様々なイベントが書かれているので、",
-     "en": "When you draw one investigation card, various events are written on it, like getting something if you visit a certain place,",
-     "speaker": "Speaker"
-    },
-    {
-     "start": 422.5,
-     "end": 427.0,
-     "ja": "こうしたイベントをこなしていく過程で、最後の任務を達成していくというようになりますね。",
-     "en": "and through completing these events, you end up fulfilling your final quest.",
-     "speaker": "Speaker"
+     "start": 456.0,
+     "end": 501.2,
+     "ja": "まあそれに応じた様々なイベントが、結構あるのがイベントカードとして用意されているみたいですね。",
+     "en": "Various events corresponding to those seem to be prepared in quite large numbers.",
+     "speaker": "Haru99"
     }
    ]
   }
@@ -138,5 +161,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

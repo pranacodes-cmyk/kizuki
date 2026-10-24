@@ -2,68 +2,54 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 16.5,
-   "end": 42.0,
-   "title": "Do You Live Alone?",
+   "start": 13.0,
+   "end": 28.5,
+   "title": "Living with Her Family",
    "level": "N5",
    "topics": [
     "daily",
     "family"
    ],
    "grammar": [
-    "〜と 一緒に — together with",
-    "〜ている — ongoing state / living"
+    "〜と一緒に — together with",
+    "〜てる — ongoing state"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 16.8,
+     "start": 13.2,
+     "end": 14.6,
+     "ja": "マニラの近くです。",
+     "en": "It's near Manila.",
+     "speaker": "Learner"
+    },
+    {
+     "start": 14.9,
      "end": 18.8,
-     "ja": "一人で住んでるんですか？",
-     "en": "Do you live alone?",
+     "ja": "あー、そうなんですね。一人で住んでるんですか？",
+     "en": "Ah, I see. Do you live alone?",
      "speaker": "Akiko"
     },
     {
-     "start": 19.0,
-     "end": 24.5,
+     "start": 19.2,
+     "end": 24.4,
      "ja": "いいえ、彼女と彼女の家族と一緒に住んでいます。",
-     "en": "No, I live together with my girlfriend and her family.",
-     "speaker": "Man"
+     "en": "No, I live with my girlfriend and her family.",
+     "speaker": "Learner"
     },
     {
-     "start": 25.0,
-     "end": 28.0,
-     "ja": "あ、そうなんですね。じゃあ、寂しくないですね。",
-     "en": "Ah, I see. Then you're not lonely.",
-     "speaker": "Akiko"
-    },
-    {
-     "start": 29.0,
-     "end": 33.0,
-     "ja": "今、あきこさんは一人だけで住んでいますか？",
-     "en": "Akiko-san, are you living all by yourself right now?",
-     "speaker": "Man"
-    },
-    {
-     "start": 33.2,
-     "end": 36.5,
-     "ja": "今は旦那さんと二人で住んでいます。",
-     "en": "Right now I live with my husband, the two of us.",
-     "speaker": "Akiko"
-    },
-    {
-     "start": 37.0,
-     "end": 41.8,
-     "ja": "でも、旦那さんはまだ仕事です。なので今は一人。",
-     "en": "But my husband is still at work. So right now I'm alone.",
+     "start": 24.7,
+     "end": 28.2,
+     "ja": "そうなんですね。じゃあ、寂しくないですね。",
+     "en": "I see. Then you won't be lonely.",
      "speaker": "Akiko"
     }
    ]
   },
   {
-   "start": 42.8,
-   "end": 66.5,
-   "title": "How Many People Live in Your House?",
+   "start": 42.5,
+   "end": 106.8,
+   "title": "How Many People Live Together?",
    "level": "N5",
    "topics": [
     "daily",
@@ -76,110 +62,118 @@
    "quality": 5,
    "lines": [
     {
-     "start": 43.0,
+     "start": 42.8,
      "end": 47.3,
-     "ja": "彼女の家族と住んでるから、にぎやかですよね？家が。",
-     "en": "Since you live with her family, the house must be lively, right?",
+     "ja": "彼女の家族と住んでるから、にぎやかですよね？",
+     "en": "Since you live with her family, it must be lively, right?",
      "speaker": "Akiko"
     },
     {
-     "start": 47.8,
+     "start": 47.6,
      "end": 50.8,
-     "ja": "そうですね。子供がいますから。",
-     "en": "That's right. Because there are kids.",
-     "speaker": "Man"
+     "ja": "そうですね。子どもがいますから。",
+     "en": "That's right, because there are children.",
+     "speaker": "Learner"
     },
     {
-     "start": 51.0,
-     "end": 55.8,
-     "ja": "彼女のお姉さんと弟は子供がいますから。",
-     "en": "Her older sister and younger brother have children.",
-     "speaker": "Man"
+     "start": 51.3,
+     "end": 55.4,
+     "ja": "彼女のお姉さんと弟は子どもがいますから。",
+     "en": "Because her older sister and younger brother have children.",
+     "speaker": "Learner"
     },
     {
-     "start": 56.0,
-     "end": 59.8,
+     "start": 55.7,
+     "end": 59.4,
      "ja": "すごい。今、家何人で住んでるんですか？",
-     "en": "Wow. How many people live in your house right now?",
+     "en": "Wow. How many people are living in the house now?",
      "speaker": "Akiko"
     },
     {
-     "start": 60.0,
-     "end": 63.8,
+     "start": 59.8,
+     "end": 64.1,
      "ja": "今は… 10人です。",
-     "en": "Right now... it's 10 people.",
-     "speaker": "Man"
+     "en": "Right now... it's ten people.",
+     "speaker": "Learner"
     },
     {
-     "start": 63.8,
-     "end": 66.2,
-     "ja": "10人！？すごい。たくさん。",
-     "en": "Ten people?! Amazing. That's a lot.",
+     "start": 64.2,
+     "end": 66.5,
+     "ja": "10人！すごい。たくさん。",
+     "en": "Ten people! Wow, that's a lot.",
      "speaker": "Akiko"
     }
    ]
   },
   {
    "start": 110.5,
-   "end": 137.0,
-   "title": "A Big Family of Siblings",
+   "end": 136.8,
+   "title": "How Many Siblings Do You Have?",
    "level": "N4",
    "topics": [
-    "family"
+    "family",
+    "daily"
    ],
    "grammar": [
-    "〜だけ — only",
-    "〜ので — because / since"
+    "もう〜ました — already finished",
+    "〜だけ — only / just"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 110.8,
-     "end": 113.5,
-     "ja": "私の家族は、あの、11人。",
-     "en": "My family is, um, 11 people.",
-     "speaker": "Man"
+     "end": 116.0,
+     "ja": "私の家族は、あの、11人。両親はもう亡くなりました。",
+     "en": "My family is, um, eleven people. My parents have already passed away.",
+     "speaker": "Learner"
     },
     {
-     "start": 113.8,
-     "end": 118.0,
-     "ja": "両親はもう亡くなりました。兄弟だけです。",
-     "en": "My parents have already passed away. It's just siblings.",
-     "speaker": "Man"
-    },
-    {
-     "start": 118.5,
-     "end": 121.8,
-     "ja": "え！じゃあ10人兄弟がいるんですか？",
-     "en": "What! So you have 10 siblings?",
+     "start": 116.2,
+     "end": 117.6,
+     "ja": "あー、そうなんですか。",
+     "en": "Oh, is that so?",
      "speaker": "Akiko"
     },
     {
-     "start": 122.5,
-     "end": 127.5,
-     "ja": "お姉さんは5人と、お兄さんも5人と、私です。",
-     "en": "Five older sisters, five older brothers, and me.",
-     "speaker": "Man"
+     "start": 117.8,
+     "end": 119.3,
+     "ja": "兄弟だけです。",
+     "en": "It's just siblings.",
+     "speaker": "Learner"
     },
     {
-     "start": 127.8,
-     "end": 129.5,
-     "ja": "へえー、楽しそう。",
+     "start": 119.5,
+     "end": 121.8,
+     "ja": "え！じゃあ10人兄弟がいるんですか？",
+     "en": "Eh! So you have ten siblings?",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 122.3,
+     "end": 127.1,
+     "ja": "お姉さんは5人、お兄さんも5人と私です。",
+     "en": "There are five older sisters, five older brothers, and me.",
+     "speaker": "Learner"
+    },
+    {
+     "start": 127.3,
+     "end": 129.1,
+     "ja": "へー、楽しそう。",
      "en": "Wow, sounds fun.",
      "speaker": "Akiko"
     },
     {
-     "start": 129.8,
-     "end": 131.5,
+     "start": 129.3,
+     "end": 131.0,
      "ja": "私は末っ子です。",
      "en": "I'm the youngest child.",
-     "speaker": "Man"
+     "speaker": "Learner"
     },
     {
-     "start": 131.8,
-     "end": 136.8,
-     "ja": "へえー、いいなあ。私は弟が一人だけなので、二人兄弟です。",
-     "en": "Wow, that's nice. I only have one younger brother, so there are two of us.",
+     "start": 131.3,
+     "end": 136.4,
+     "ja": "へー、いいな。私は弟が一人だけなので、二人兄弟です。",
+     "en": "Oh, that's nice. I only have one younger brother, so we're two siblings.",
      "speaker": "Akiko"
     }
    ]
@@ -189,5 +183,6 @@
  "pickTopics": [
   "family"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

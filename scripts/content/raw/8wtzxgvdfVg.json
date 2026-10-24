@@ -2,328 +2,283 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 0.5,
-   "end": 22.0,
+   "start": 0.8,
+   "end": 21.8,
    "title": "Can Foreigners Guess Japanese Ages?",
    "level": "N3",
    "topics": [
-    "culture",
-    "fun"
+    "friends",
+    "fun",
+    "culture"
    ],
    "grammar": [
-    "〜ことができる — can do / able to do",
-    "〜てみる — to try doing",
-    "〜ていく — to continue doing / will go on to do"
+    "〜てみたい — want to try doing",
+    "〜としても — even if / even though",
+    "〜たり〜たり — doing things like"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 0.8,
-     "end": 2.2,
+     "end": 2.8,
      "ja": "ということで今回は、",
-     "en": "Alright, so this time,",
+     "en": "So for today's video,",
      "speaker": "Kaito"
     },
     {
-     "start": 2.2,
-     "end": 5.0,
-     "ja": "海外の友達に日本の有名人の写真を見せて、",
-     "en": "showing photos of famous Japanese people to my foreign friends,",
+     "start": 2.8,
+     "end": 5.2,
+     "ja": "海外の友達に日本の有名人の人の写真を見せて、",
+     "en": "I'll show photos of famous Japanese celebrities to my foreign friends,",
      "speaker": "Kaito"
     },
     {
-     "start": 5.0,
-     "end": 8.0,
+     "start": 5.2,
+     "end": 7.7,
      "ja": "みんなが年齢を当てることができるのかやってみたいと思います。",
-     "en": "I want to see if everyone can guess their ages.",
+     "en": "and see if they can guess their ages.",
      "speaker": "Kaito"
     },
     {
-     "start": 8.0,
-     "end": 11.0,
-     "ja": "自分の周りの海外の友達は、日本に長くいたり、",
-     "en": "My foreign friends around me have lived in Japan for a long time,",
+     "start": 7.7,
+     "end": 11.8,
+     "ja": "自分の周りの海外の友達は、日本に長くいたり結構日本のテレビ見たり、",
+     "en": "My foreign friends have lived in Japan a while, watch Japanese TV,",
      "speaker": "Kaito"
     },
     {
-     "start": 11.0,
-     "end": 12.5,
-     "ja": "結構日本のテレビ見たり、",
-     "en": "watch quite a bit of Japanese TV,",
+     "start": 11.8,
+     "end": 15.5,
+     "ja": "なんといっても捻くれ者が多いので、みんな本気で予想してくると思うの。",
+     "en": "and above all, many are contrarians, so I think they'll guess seriously.",
      "speaker": "Kaito"
     },
     {
-     "start": 12.5,
-     "end": 14.3,
-     "ja": "なんといっても捻くれ者が多いので、",
-     "en": "and above all, many are contrarians,",
-     "speaker": "Kaito"
-    },
-    {
-     "start": 14.3,
-     "end": 16.4,
-     "ja": "みんな本気で予想してくると思うの。",
-     "en": "so I think they'll make serious guesses.",
-     "speaker": "Kaito"
-    },
-    {
-     "start": 16.4,
-     "end": 18.5,
-     "ja": "そんな日本のことよく知ってる人でも、",
-     "en": "Even for people who know Japan so well,",
-     "speaker": "Kaito"
-    },
-    {
-     "start": 18.5,
-     "end": 21.8,
-     "ja": "日本人の年齢を当てるのは難しいのか検証していきたいと思います。",
-     "en": "I'd like to test if guessing Japanese people's age is difficult.",
+     "start": 15.5,
+     "end": 21.6,
+     "ja": "そんな日本のことよく知ってる人でも、日本人の年齢を当てるのは難しいのか検証していきたいと思います。",
+     "en": "I want to see if guessing Japanese ages is hard even for people who know Japan well.",
      "speaker": "Kaito"
     }
    ]
   },
   {
-   "start": 543.0,
-   "end": 601.0,
+   "start": 531.8,
+   "end": 558.0,
    "title": "Guessing Kanna Hashimoto's Age",
    "level": "N4",
    "topics": [
+    "fun",
     "friends",
-    "fun"
+    "culture"
    ],
    "grammar": [
-    "〜に見える — to look like / seem",
-    "〜まんま — left as is / just as it is",
-    "〜たい — want to do"
+    "〜と言われている — is said that",
+    "〜そう — looks like",
+    "〜に見える — looks like / appears to be"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 543.3,
-     "end": 545.0,
-     "ja": "じゃあ、31。",
-     "en": "Then, 31.",
-     "speaker": "Guy"
-    },
-    {
-     "start": 545.0,
-     "end": 545.8,
-     "ja": "本当に言ってる？",
-     "en": "Are you serious?",
+     "start": 531.8,
+     "end": 536.5,
+     "ja": "この人ちょー有名。日本で結構「１０００年に１度の逸材」って言われてる、可愛さが。",
+     "en": "She is super famous. In Japan, her cuteness is called 'a once-in-a-millennium talent.'",
      "speaker": "Kaito"
     },
     {
-     "start": 545.8,
-     "end": 548.3,
-     "ja": "まあ、31に見えないんだけど、意外と...",
-     "en": "Well, she doesn't look 31, but unexpectedly...",
-     "speaker": "Guy"
+     "start": 536.5,
+     "end": 537.7,
+     "ja": "かわいい。",
+     "en": "She's cute.",
+     "speaker": "Eri"
     },
     {
-     "start": 548.3,
+     "start": 537.7,
+     "end": 540.0,
+     "ja": "２８くらい。",
+     "en": "Around 28.",
+     "speaker": "Eri"
+    },
+    {
+     "start": 540.0,
+     "end": 543.6,
+     "ja": "意外と若そうだけど、多分２８歳くらい。",
+     "en": "She looks surprisingly young, but maybe around 28.",
+     "speaker": "Eri"
+    },
+    {
+     "start": 543.6,
+     "end": 545.3,
+     "ja": "じゃあ、３１。",
+     "en": "Then, 31.",
+     "speaker": "Leo"
+    },
+    {
+     "start": 545.3,
+     "end": 546.8,
+     "ja": "本当に言ってる？",
+     "en": "Are you serious?",
+     "speaker": "Eri"
+    },
+    {
+     "start": 546.8,
      "end": 550.0,
-     "ja": "見えた年齢が、25とか。",
-     "en": "The age she looked like was around 25.",
-     "speaker": "Guy"
+     "ja": "３１に見えないんだけど、意外と...",
+     "en": "She doesn't look 31, but unexpectedly...",
+     "speaker": "Leo"
     },
     {
      "start": 550.0,
-     "end": 551.6,
-     "ja": "26かな、じゃあ。",
-     "en": "Maybe 26 then.",
-     "speaker": "Guy"
+     "end": 553.6,
+     "ja": "まぁ見えた年齢が２５とか...２６かな、じゃあ。",
+     "en": "Well, she looked 25 to me... 26 then, maybe.",
+     "speaker": "Leo"
     },
     {
-     "start": 551.6,
-     "end": 553.3,
-     "ja": "26？じゃあ答え行くよ。",
+     "start": 553.6,
+     "end": 555.3,
+     "ja": "２６？じゃあ答え行くよ。",
      "en": "26? Okay, here's the answer.",
      "speaker": "Kaito"
     },
     {
-     "start": 553.3,
-     "end": 554.4,
-     "ja": "24歳。",
-     "en": "24 years old.",
+     "start": 555.3,
+     "end": 557.5,
+     "ja": "２４歳！",
+     "en": "She's 24!",
      "speaker": "Kaito"
-    },
-    {
-     "start": 554.4,
-     "end": 555.2,
-     "ja": "うわー！",
-     "en": "Argh!",
-     "speaker": "Girl"
-    },
-    {
-     "start": 555.2,
-     "end": 556.5,
-     "ja": "なんでそんな疑うの？",
-     "en": "Why did you doubt it so much?",
-     "speaker": "Kaito"
-    },
-    {
-     "start": 556.5,
-     "end": 558.3,
-     "ja": "俺言ったやん、ちゃんと見たまんまって。",
-     "en": "I told you, just go with what she looks like.",
-     "speaker": "Kaito"
-    },
-    {
-     "start": 558.3,
-     "end": 600.6,
-     "ja": "25歳言いたかったのになー。",
-     "en": "Man, I wanted to say 25!",
-     "speaker": "Guy"
     }
    ]
   },
   {
-   "start": 718.5,
-   "end": 746.5,
-   "title": "Guessing Masaharu Fukuyama's Age",
+   "start": 722.5,
+   "end": 745.5,
+   "title": "Spot on Fukuyama Masaharu's Age",
    "level": "N4",
    "topics": [
-    "comedy",
-    "fun"
+    "fun",
+    "friends",
+    "comedy"
    ],
    "grammar": [
-    "わけがない — there's no way that",
-    "〜すぎる — too much / excessively"
+    "〜わけがない — there is no way that",
+    "〜に見える — to look like / appear",
+    "〜すぎる — too much"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 718.6,
-     "end": 719.8,
-     "ja": "この人いきましょう。",
-     "en": "Let's go with this person.",
-     "speaker": "Kaito"
-    },
-    {
-     "start": 720.2,
-     "end": 721.5,
-     "ja": "あ、ハウルじゃない？",
-     "en": "Ah, isn't he Howl?",
-     "speaker": "Guy"
-    },
-    {
-     "start": 722.0,
+     "start": 722.5,
      "end": 723.5,
-     "ja": "違う。福山雅治。",
-     "en": "No. Masaharu Fukuyama.",
+     "ja": "福山雅治。",
+     "en": "Masaharu Fukuyama.",
      "speaker": "Kaito"
     },
     {
-     "start": 723.8,
+     "start": 723.5,
      "end": 725.0,
-     "ja": "55。",
-     "en": "55.",
-     "speaker": "Girl"
+     "ja": "５５！",
+     "en": "55!",
+     "speaker": "Eri"
     },
     {
      "start": 725.0,
-     "end": 726.3,
-     "ja": "いや、なわけねーでしょ。マジ？",
-     "en": "No way that's it. Really?",
-     "speaker": "Guy"
+     "end": 726.5,
+     "ja": "いや、なわけねーでしょ。",
+     "en": "No way, that can't be true.",
+     "speaker": "Leo"
     },
     {
-     "start": 726.3,
+     "start": 726.5,
      "end": 727.8,
-     "ja": "54。55。",
-     "en": "54. 55.",
-     "speaker": "Guy"
+     "ja": "５４。",
+     "en": "54.",
+     "speaker": "Leo"
     },
     {
      "start": 727.8,
-     "end": 729.2,
+     "end": 728.8,
+     "ja": "５５。",
+     "en": "55.",
+     "speaker": "Eri"
+    },
+    {
+     "start": 728.8,
+     "end": 730.0,
      "ja": "なんでそう見えんの？",
-     "en": "Why does he look that way?",
+     "en": "Why do you think he looks like that?",
      "speaker": "Kaito"
     },
     {
-     "start": 729.2,
-     "end": 730.3,
-     "ja": "いや、もう54。",
-     "en": "No, definitely 54.",
-     "speaker": "Guy"
-    },
-    {
-     "start": 730.3,
+     "start": 730.0,
      "end": 731.5,
-     "ja": "絶対50年代。",
-     "en": "Definitely in his 50s.",
-     "speaker": "Girl"
+     "ja": "いや、もう５４。",
+     "en": "No, he's 54.",
+     "speaker": "Leo"
     },
     {
      "start": 731.5,
-     "end": 732.3,
-     "ja": "何歳？",
-     "en": "How old is he?",
-     "speaker": "Guy"
-    },
-    {
-     "start": 732.3,
      "end": 733.2,
-     "ja": "え？",
-     "en": "Huh?",
-     "speaker": "Kaito"
+     "ja": "絶対５０年代！",
+     "en": "Definitely in his 50s!",
+     "speaker": "Eri"
     },
     {
-     "start": 733.4,
+     "start": 733.2,
      "end": 735.3,
-     "ja": "ほら、54でしょ！",
-     "en": "See, it's 54, right?!",
-     "speaker": "Guy"
+     "ja": "５４でしょ！",
+     "en": "He's 54, right?!",
+     "speaker": "Eri"
     },
     {
      "start": 735.3,
-     "end": 736.0,
+     "end": 736.2,
      "ja": "え、何歳？",
      "en": "Wait, how old is he?",
-     "speaker": "Guy"
+     "speaker": "Leo"
     },
     {
-     "start": 736.0,
-     "end": 737.3,
-     "ja": "年齢って入れて。",
-     "en": "Search for his age.",
-     "speaker": "Guy"
+     "start": 736.2,
+     "end": 738.2,
+     "ja": "年齢って入れて...",
+     "en": "Typing in his age...",
+     "speaker": "Kaito"
     },
     {
-     "start": 737.3,
-     "end": 739.4,
+     "start": 738.2,
+     "end": 740.0,
      "ja": "うわー！",
      "en": "Whoa!",
      "speaker": "Kaito"
     },
     {
      "start": 740.0,
-     "end": 742.2,
-     "ja": "やったー！54です！",
-     "en": "Yes! He's 54!",
-     "speaker": "Guy"
-    },
-    {
-     "start": 742.2,
-     "end": 743.7,
-     "ja": "もう和牛ビーフ楽しみすぎて",
-     "en": "Looking forward to wagyu beef too much...",
-     "speaker": "Guy"
-    },
-    {
-     "start": 743.7,
-     "end": 745.3,
-     "ja": "ダルいわ、こいつら。",
-     "en": "You guys are exhausting.",
-     "speaker": "Kaito"
-    },
-    {
-     "start": 745.3,
-     "end": 746.3,
+     "end": 741.2,
      "ja": "やったー！",
      "en": "Yay!",
-     "speaker": "Guy"
+     "speaker": "Eri"
+    },
+    {
+     "start": 741.2,
+     "end": 742.5,
+     "ja": "５４です！",
+     "en": "He's 54!",
+     "speaker": "Leo"
+    },
+    {
+     "start": 742.5,
+     "end": 744.0,
+     "ja": "もう和牛楽しみすぎて！",
+     "en": "I'm looking forward to the Wagyu so much!",
+     "speaker": "Leo"
+    },
+    {
+     "start": 744.0,
+     "end": 745.5,
+     "ja": "ダルいわ、コイツら！",
+     "en": "These guys are such a pain!",
+     "speaker": "Kaito"
     }
    ]
   }
@@ -332,5 +287,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

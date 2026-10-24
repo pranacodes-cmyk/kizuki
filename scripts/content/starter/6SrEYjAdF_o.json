@@ -1,19 +1,30 @@
 {
  "videoId": "6SrEYjAdF_o",
  "ids": [
-  "6SrEYjAdF_o-32"
+  "6SrEYjAdF_o-32",
+  "6SrEYjAdF_o-5"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
   "6SrEYjAdF_o-32": {
    "id": "6SrEYjAdF_o-32",
    "appeal": 5,
-   "clarity": 3,
+   "clarity": 4,
    "picture": 3,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Passionate delivery with text on screen, though comedic style is unusual."
+   "why": "Energetic delivery with clear, simple phrases encouraging staying home."
+  },
+  "6SrEYjAdF_o-5": {
+   "id": "6SrEYjAdF_o-5",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Serious tone about COVID safety spoken clearly at moderate speed."
   }
  }
 }

@@ -2,114 +2,206 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 3.4,
-   "end": 16.0,
-   "title": "Yuki Ishikawa's Captain Greeting",
+   "start": 3.5,
+   "end": 27.8,
+   "title": "Captain Yuki Ishikawa's Season Goals",
    "level": "N3",
    "topics": [
     "sports",
     "work"
    ],
    "grammar": [
-    "〜を務めさせていただく — humbly serving as",
-    "〜になるので — because it will be"
+    "〜させていただく — humble permission/action",
+    "〜ように — in order to / so that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 3.5,
-     "end": 8.0,
+     "start": 3.7,
+     "end": 7.8,
      "ja": "こんにちは。今年度もキャプテンを務めさせて頂く石川祐希です。",
-     "en": "Hello. I'm Yuki Ishikawa, serving as captain again this year.",
+     "en": "Hello. I'm Yuki Ishikawa, serving as team captain again this year.",
      "speaker": "Ishikawa"
     },
     {
-     "start": 8.0,
-     "end": 15.8,
-     "ja": "今シーズンの最大の目標はオリンピック予選になるので、そこで出場権を絶対に獲得します。",
-     "en": "Our biggest goal this season is the Olympic qualifiers, so we will definitely secure our spot there.",
+     "start": 8.2,
+     "end": 12.6,
+     "ja": "今シーズンの最大の目標はオリンピック予選になるので、",
+     "en": "Our biggest goal this season is the Olympic qualifiers, so",
+     "speaker": "Ishikawa"
+    },
+    {
+     "start": 12.6,
+     "end": 15.4,
+     "ja": "そこで出場権を絶対に獲得します。",
+     "en": "we will definitely secure a ticket to the Olympics there.",
+     "speaker": "Ishikawa"
+    },
+    {
+     "start": 15.8,
+     "end": 18.7,
+     "ja": "そして、この後ネーションズリーグが始まるので、",
+     "en": "And since the Nations League starts after this,",
+     "speaker": "Ishikawa"
+    },
+    {
+     "start": 18.7,
+     "end": 22.6,
+     "ja": "そこからアジア選手権、オリンピック予選と、",
+     "en": "leading into the Asian Championship and Olympic qualifiers,",
+     "speaker": "Ishikawa"
+    },
+    {
+     "start": 22.7,
+     "end": 27.5,
+     "ja": "良い形でオリンピック予選に臨めるように準備していきたいと思います。",
+     "en": "I want to prepare so we can head into the Olympic qualifiers in great shape.",
      "speaker": "Ishikawa"
     }
    ]
   },
   {
-   "start": 543.8,
-   "end": 605.4,
-   "title": "Ran Takahashi's Playful Introduction",
+   "start": 544.0,
+   "end": 605.7,
+   "title": "Ran Takahashi's Goal for the Season",
    "level": "N3",
    "topics": [
     "sports",
-    "comedy"
+    "fun"
    ],
    "grammar": [
     "〜を通して — throughout / through",
-    "〜ように — in order to / so that",
-    "〜たいと思います — think I would like to"
+    "〜ていく — to continue doing / go on",
+    "〜ように — in order to / so that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 544.0,
-     "end": 547.7,
-     "ja": "皆さんこんにちは。インスタグラマーの高橋藍です。",
-     "en": "Hello everyone. I'm Instagrammer Ran Takahashi.",
-     "speaker": "Takahashi"
+     "start": 544.2,
+     "end": 545.6,
+     "ja": "皆さんこんにちは。",
+     "en": "Hello everyone.",
+     "speaker": "Takahashi Ran"
     },
     {
-     "start": 548.8,
-     "end": 551.0,
+     "start": 545.8,
+     "end": 548.0,
+     "ja": "インスタグラマーの高橋藍です。",
+     "en": "I'm Instagrammer Ran Takahashi.",
+     "speaker": "Takahashi Ran"
+    },
+    {
+     "start": 549.0,
+     "end": 551.4,
      "ja": "背番号12番、高橋藍です。",
-     "en": "Jersey number 12, Ran Takahashi.",
-     "speaker": "Takahashi"
+     "en": "Number 12, Ran Takahashi.",
+     "speaker": "Takahashi Ran"
     },
     {
-     "start": 551.0,
-     "end": 557.2,
-     "ja": "今シーズン、この代表シーズンを通してしっかりと自分自身が進化していくって所も目標にしてやっていきたいですし、",
-     "en": "This season, I want to aim to keep evolving personally through this national team season,",
-     "speaker": "Takahashi"
+     "start": 551.6,
+     "end": 554.4,
+     "ja": "今シーズン、この代表シーズンを通してしっかりと、",
+     "en": "This season, throughout this national team season,",
+     "speaker": "Takahashi Ran"
     },
     {
-     "start": 557.2,
-     "end": 605.2,
-     "ja": "チームの目標である「パリ五輪出場」って所を、しっかりと決めれるように自分自身も貢献して頑張りたいなと思います。",
-     "en": "and I want to contribute and do my best so we can firmly secure the team's goal of qualifying for the Paris Olympics.",
-     "speaker": "Takahashi"
+     "start": 554.4,
+     "end": 557.6,
+     "ja": "自分自身が進化していくってところを目標にしてやっていきたいですし、",
+     "en": "I want to make continuing to evolve my goal,",
+     "speaker": "Takahashi Ran"
+    },
+    {
+     "start": 557.6,
+     "end": 601.2,
+     "ja": "チームの目標である、パリ五輪出場ってところを、",
+     "en": "and regarding the team's goal of qualifying for the Paris Olympics,",
+     "speaker": "Takahashi Ran"
+    },
+    {
+     "start": 601.2,
+     "end": 605.4,
+     "ja": "しっかりと決めれるように、自分自身も貢献して頑張りたいなと思います。",
+     "en": "I want to contribute and do my best so we can definitely secure it.",
+     "speaker": "Takahashi Ran"
     }
    ]
   },
   {
-   "start": 640.5,
-   "end": 650.8,
-   "title": "Praise for Teammate Yamamoto",
-   "level": "N4",
+   "start": 624.7,
+   "end": 651.0,
+   "title": "Tomohiro Ogawa Introduces Himself",
+   "level": "N3",
    "topics": [
     "sports",
-    "friends"
+    "fun",
+    "comedy"
    ],
    "grammar": [
-    "〜くて — combining i-adjectives",
+    "〜として — as / in the role of",
     "〜になる — to become"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 640.7,
-     "end": 647.5,
-     "ja": "隣にいる山本選手は全てのプレーが上手くて、僕自身すごい刺激になる存在です。",
-     "en": "Yamamoto next to me is great at every part of the game, and he really inspires me.",
+     "start": 625.0,
+     "end": 627.3,
+     "ja": "大物YouTuberの小川智大です。",
+     "en": "I'm top YouTuber Tomohiro Ogawa.",
      "speaker": "Ogawa"
     },
     {
-     "start": 647.5,
-     "end": 649.0,
-     "ja": "はい。あとカワイイです。",
-     "en": "Yes. Also, he's cute.",
+     "start": 627.6,
+     "end": 631.9,
+     "ja": "僕自身の最大の目標である、パリ五輪の出場権、",
+     "en": "My biggest personal goal, qualifying for the Paris Olympics,",
      "speaker": "Ogawa"
     },
     {
-     "start": 649.0,
-     "end": 650.5,
+     "start": 632.0,
+     "end": 634.8,
+     "ja": "パリ五輪に出るっていうのを、今シーズン、",
+     "en": "going to the Paris Olympics, this season,",
+     "speaker": "Ogawa"
+    },
+    {
+     "start": 634.8,
+     "end": 637.4,
+     "ja": "チームとしても最大の目標であるので、",
+     "en": "is also the team's biggest goal, so",
+     "speaker": "Ogawa"
+    },
+    {
+     "start": 637.4,
+     "end": 639.7,
+     "ja": "必ず取りに行きたいと思います。",
+     "en": "we definitely want to go and get it.",
+     "speaker": "Ogawa"
+    },
+    {
+     "start": 640.4,
+     "end": 644.9,
+     "ja": "隣にいる山本選手は、すべてのプレーが上手くて、",
+     "en": "Yamamoto next to me is good at all aspects of play,",
+     "speaker": "Ogawa"
+    },
+    {
+     "start": 645.0,
+     "end": 647.8,
+     "ja": "僕自身すごい刺激になる存在です。",
+     "en": "and is someone who really inspires me.",
+     "speaker": "Ogawa"
+    },
+    {
+     "start": 648.0,
+     "end": 649.5,
+     "ja": "あとカワイイです。",
+     "en": "Also, he's cute.",
+     "speaker": "Ogawa"
+    },
+    {
+     "start": 649.6,
+     "end": 650.7,
      "ja": "ありがとうございました。",
      "en": "Thank you very much.",
      "speaker": "Ogawa"
@@ -121,5 +213,6 @@
  "pickTopics": [
   "sports"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

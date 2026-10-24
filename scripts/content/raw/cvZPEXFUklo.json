@@ -2,98 +2,157 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 29.5,
-   "end": 42.3,
-   "title": "Meaning of Viking in Japan",
+   "start": 13.1,
+   "end": 42.4,
+   "title": "What Viking Means in Japan",
    "level": "N4",
    "topics": [
     "food",
+    "daily",
     "culture"
    ],
    "grammar": [
-    "〜ば — conditional (if)",
+    "〜たい — wanting to do",
+    "〜ば — conditional if",
     "〜られる — potential form"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 29.6,
-     "end": 31.7,
+     "start": 13.1,
+     "end": 16.0,
+     "ja": "見て！食べ物がいっぱい！",
+     "en": "Look! There's so much food!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 16.0,
+     "end": 18.8,
+     "ja": "食べたい、食べたい、全部食べたい！",
+     "en": "I want to eat, I want to eat, I want to eat everything!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 18.8,
+     "end": 20.8,
+     "ja": "皆さん、こんにちは！",
+     "en": "Hello, everyone!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 20.8,
+     "end": 23.0,
+     "ja": "今日の「一日一言」は、",
+     "en": "Today's \"one phrase a day\" is...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 23.0,
+     "end": 25.5,
+     "ja": "「バイキング」です。",
+     "en": "\"Viking.\"",
+     "speaker": "Woman"
+    },
+    {
+     "start": 25.5,
+     "end": 29.3,
+     "ja": "「バイキング」はヨーロッパの「ヴァイキング」と似ていますね。",
+     "en": "\"Viking\" sounds like the European \"Vikings\", doesn't it?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 29.3,
+     "end": 32.0,
      "ja": "でも、意味が全然違いますよ！",
-     "en": "However, the meaning is completely different!",
+     "en": "But the meaning is completely different!",
      "speaker": "Woman"
     },
     {
      "start": 32.0,
      "end": 35.5,
      "ja": "日本で「バイキング」は「食べ放題」ということです。",
-     "en": "In Japan, \"viking\" means an \"all-you-can-eat buffet.\"",
+     "en": "In Japan, \"viking\" means \"all-you-can-eat.\"",
      "speaker": "Woman"
     },
     {
-     "start": 35.8,
-     "end": 38.3,
+     "start": 35.5,
+     "end": 38.2,
      "ja": "「食べ放題」は一度お金を払えば、",
-     "en": "\"Tabehoudai\" means once you pay,",
+     "en": "\"All-you-can-eat\" means that once you pay,",
      "speaker": "Woman"
     },
     {
-     "start": 38.5,
-     "end": 40.0,
-     "ja": "何でも、いくつでも、",
-     "en": "you can eat anything, as much as you like.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 40.0,
-     "end": 42.0,
-     "ja": "食べられることです。",
-     "en": "",
+     "start": 38.2,
+     "end": 42.2,
+     "ja": "何でもいくつでも食べられることです。",
+     "en": "you can eat anything and as much as you want.",
      "speaker": "Woman"
     }
    ]
   },
   {
-   "start": 204.6,
-   "end": 216.5,
-   "title": "The Word Apo in Japanese",
+   "start": 113.0,
+   "end": 137.5,
+   "title": "What Is Yoshoku Western Food?",
    "level": "N4",
    "topics": [
-    "daily",
+    "food",
     "culture"
    ],
    "grammar": [
-    "〜を短くした — shortened form of",
-    "〜と同じ — same as"
+    "〜みたい — looks like / seems like",
+    "〜ように — in order to / so that",
+    "〜と違って — unlike"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 204.7,
-     "end": 207.7,
-     "ja": "でも、日本で「アポ」の意味が違いますよ！",
-     "en": "However, the meaning of \"apo\" is different in Japan!",
+     "start": 113.0,
+     "end": 116.5,
+     "ja": "「洋食」は外国の料理みたいですが、",
+     "en": "\"Yoshoku\" looks like foreign food, but...",
      "speaker": "Woman"
     },
     {
-     "start": 208.0,
-     "end": 212.0,
-     "ja": "「アポ」は「アポイントメント」を短くした言葉です。",
-     "en": "\"Apo\" is a shortened version of the word \"appointment.\"",
+     "start": 116.5,
+     "end": 119.8,
+     "ja": "外国の本物の味と全然違います。",
+     "en": "it tastes completely different from authentic foreign food.",
      "speaker": "Woman"
     },
     {
-     "start": 212.2,
-     "end": 216.2,
-     "ja": "「アポを取る」は「予約をする」の意味と同じです。",
-     "en": "\"Apo o toru\" has the same meaning as \"to make a reservation.\"",
+     "start": 119.8,
+     "end": 125.0,
+     "ja": "「洋食」は日本人が外国の料理を食べられるように作られましたよ。",
+     "en": "\"Yoshoku\" was created so that Japanese people could enjoy foreign cuisine.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 125.0,
+     "end": 129.5,
+     "ja": "例えば、「カレーライス」に「カレー」が入っていますが、",
+     "en": "For example, \"curry rice\" contains curry, but...",
+     "speaker": "Woman"
+    },
+    {
+     "start": 129.5,
+     "end": 132.4,
+     "ja": "本物のカレーと違って甘〜いです。",
+     "en": "unlike real curry, it is sweet.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 132.4,
+     "end": 137.2,
+     "ja": "洋食は本場の味と違いますが、とても美味しいですよ！",
+     "en": "Yoshoku differs from the authentic flavor, but it is delicious!",
      "speaker": "Woman"
     }
    ]
   },
   {
-   "start": 339.2,
-   "end": 356.2,
+   "start": 339.0,
+   "end": 400.5,
    "title": "The Origin of the Word Pan",
    "level": "N4",
    "topics": [
@@ -101,30 +160,37 @@
     "culture"
    ],
    "grammar": [
-    "〜を指す — to refer to",
-    "〜から来る — to originate from"
+    "〜と言う — called / said",
+    "〜から — from / origin"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 339.3,
-     "end": 343.3,
+     "start": 339.0,
+     "end": 343.5,
      "ja": "「パン」は英語で「Bread」と言います。",
      "en": "\"Pan\" is called \"bread\" in English.",
      "speaker": "Woman"
     },
     {
-     "start": 344.2,
-     "end": 349.5,
-     "ja": "英語でパンは、フライパンなど料理に使う道具を指します。",
-     "en": "In English, \"pan\" refers to a cooking tool like a frying pan.",
+     "start": 343.5,
+     "end": 349.8,
+     "ja": "英語で「パン」は、フライパンなど料理に使う道具を指します。",
+     "en": "In English, \"pan\" refers to cooking utensils like frying pans.",
      "speaker": "Woman"
     },
     {
-     "start": 350.0,
-     "end": 355.8,
-     "ja": "「パン」という言葉の語源はポルトガル語からきました。",
-     "en": "The origin of the word \"pan\" came from Portuguese.",
+     "start": 349.8,
+     "end": 356.5,
+     "ja": "「パン」という言葉の語源は、ポルトガル語から来ました。",
+     "en": "The origin of the word \"pan\" comes from Portuguese.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 356.5,
+     "end": 400.2,
+     "ja": "皆さん、好きなパンは何ですか？",
+     "en": "Everyone, what is your favorite bread?",
      "speaker": "Woman"
     }
    ]
@@ -134,5 +200,6 @@
  "pickTopics": [
   "family"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

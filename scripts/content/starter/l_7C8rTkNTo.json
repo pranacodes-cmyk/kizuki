@@ -1,7 +1,8 @@
 {
  "videoId": "l_7C8rTkNTo",
  "ids": [
-  "l_7C8rTkNTo-521"
+  "l_7C8rTkNTo-521",
+  "l_7C8rTkNTo-9"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
@@ -12,10 +13,18 @@
    "picture": 4,
    "ease": 3,
    "english": false,
-   "issues": [
-    "background noise"
-   ],
-   "why": "Lively dining conversation featuring simple everyday food expressions."
+   "issues": [],
+   "why": "Lively meal scene with natural reactions, despite background chatter."
+  },
+  "l_7C8rTkNTo-9": {
+   "id": "l_7C8rTkNTo-9",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear speech introducing travel plans, though visually somewhat static."
   }
  }
 }

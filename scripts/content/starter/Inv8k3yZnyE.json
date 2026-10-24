@@ -1,0 +1,30 @@
+{
+ "videoId": "Inv8k3yZnyE",
+ "ids": [
+  "Inv8k3yZnyE-0",
+  "Inv8k3yZnyE-12"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Inv8k3yZnyE-0": {
+   "id": "Inv8k3yZnyE-0",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Standard vlog introduction explaining tram card usage."
+  },
+  "Inv8k3yZnyE-12": {
+   "id": "Inv8k3yZnyE-12",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, practical travel advice directly matching the on-screen signage."
+  }
+ }
+}

@@ -2,178 +2,116 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 216.5,
+   "start": 216.2,
    "end": 245.0,
-   "title": "Rapid Surge in Foreign Visitors to Japan",
+   "title": "A Rapid Surge in Tourists to Japan",
    "level": "N2",
    "topics": [
     "travel",
     "culture"
    ],
    "grammar": [
-    "〜を巡る — concerning / regarding",
-    "〜見込み — expected to"
+    "〜を巡る — concerning / surrounding",
+    "〜見込み — expected to / anticipated"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 216.8,
-     "end": 220.1,
-     "ja": "日本の観光をめぐる状況は、",
-     "en": "The situation surrounding tourism in Japan",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 220.1,
-     "end": 224.2,
-     "ja": "ここ20年で大きく変化しました。",
-     "en": "has changed drastically over the past 20 years.",
+     "end": 223.8,
+     "ja": "日本の観光をめぐる状況は、ここ20年で大きく変化しました。",
+     "en": "The situation surrounding tourism in Japan has changed dramatically over the past 20 years.",
      "speaker": "Narrator"
     },
     {
      "start": 224.4,
-     "end": 232.0,
-     "ja": "2005年には約670万人だった訪日外国人数は、",
-     "en": "The number of foreign visitors, which was around 6.7 million in 2005,",
+     "end": 238.2,
+     "ja": "2005年には約670万人だった訪日外国人数は、2024年には約3700万人まで達しました。",
+     "en": "The number of foreign visitors to Japan, which was around 6.7 million in 2005, reached about 37 million by 2024.",
      "speaker": "Narrator"
     },
     {
-     "start": 232.4,
-     "end": 238.6,
-     "ja": "2024年には約3700万人まで達しました。",
-     "en": "reached approximately 37 million by 2024.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 239.0,
-     "end": 244.5,
+     "start": 238.8,
+     "end": 244.6,
      "ja": "さらに2025年には、過去最多を更新する見込みです。",
-     "en": "Furthermore, in 2025, it is expected to break the all-time record.",
+     "en": "Furthermore, in 2025, it is expected to hit a record high.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 245.3,
-   "end": 307.0,
-   "title": "Government Promotion and Economic Benefits",
+   "start": 307.0,
+   "end": 336.0,
+   "title": "Serious Problems Caused by Overtourism",
    "level": "N2",
    "topics": [
     "travel",
     "culture"
    ],
    "grammar": [
-    "〜を契機に — taking opportunity of / triggered by",
-    "〜といった — such as"
+    "〜に伴い — along with / in accordance with",
+    "〜べき — should / ought to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 245.6,
-     "end": 251.3,
-     "ja": "日本政府はこれまで、アニメやマンガなどの文化を契機に、",
-     "en": "Taking culture such as anime and manga as an opportunity,",
+     "start": 307.3,
+     "end": 315.5,
+     "ja": "しかし、急激な観光客の増加にともない、各地で深刻な問題が起きています。",
+     "en": "However, with the rapid increase in tourists, serious problems have arisen in various regions.",
      "speaker": "Narrator"
     },
     {
-     "start": 251.5,
-     "end": 254.4,
-     "ja": "インバウンドを呼び込むためのプロモーションに",
-     "en": "the Japanese government has invested heavily in promotions",
+     "start": 316.1,
+     "end": 327.5,
+     "ja": "人気観光地での激しい混雑や、一部の観光客によるマナー違反、騒音といったトラブルが後を絶ちません。",
+     "en": "Severe crowding at popular spots, bad manners by some tourists, and noise issues continue unabated.",
      "speaker": "Narrator"
     },
     {
-     "start": 254.4,
-     "end": 257.6,
-     "ja": "多額の予算を投じてきました。",
-     "en": "to attract inbound tourists.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 258.0,
-     "end": 261.8,
-     "ja": "その結果、ホテルや飲食店といった",
-     "en": "As a result, businesses related to tourist destinations,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 262.1,
-     "end": 266.5,
-     "ja": "観光地に関わる事業者は、大きな利益を得ています。",
-     "en": "such as hotels and restaurants, are earning significant profits.",
+     "start": 328.0,
+     "end": 335.5,
+     "ja": "その結果、住民の間では「オーバーツーリズムを緩和すべきだ」という声が強まっています。",
+     "en": "As a result, calls among local residents to mitigate overtourism are growing stronger.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 307.2,
-   "end": 336.2,
-   "title": "The Issues Caused by Overtourism",
-   "level": "N2",
+   "start": 336.8,
+   "end": 402.8,
+   "title": "Residential Areas Turning into Tourist Spots",
+   "level": "N1",
    "topics": [
     "travel",
     "culture"
    ],
    "grammar": [
-    "〜に伴い — along with / as",
-    "〜べきだ — should / ought to"
+    "〜反面 — on the other hand / while",
+    "〜を強いられる — to be forced to / compelled to",
+    "〜にくい — hard to / difficult to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 307.5,
-     "end": 312.4,
-     "ja": "しかし、急激な観光客の増加にともない、",
-     "en": "However, along with the rapid increase in tourists,",
+     "start": 337.0,
+     "end": 346.6,
+     "ja": "特に問題となっているのは、もともと普通の住宅地だった場所が、突然、観光地化してしまうケースです。",
+     "en": "What is particularly problematic is when places that used to be ordinary residential areas suddenly turn into tourist attractions.",
      "speaker": "Narrator"
     },
     {
-     "start": 312.7,
-     "end": 316.3,
-     "ja": "各地で深刻な問題が起きています。",
-     "en": "serious problems have been arising across the country.",
+     "start": 347.3,
+     "end": 352.3,
+     "ja": "観光によって利益を得る人がいる反面、",
+     "en": "While some people benefit financially from tourism,",
      "speaker": "Narrator"
     },
     {
-     "start": 316.7,
-     "end": 320.0,
-     "ja": "人気観光地での激しい混雑や、",
-     "en": "Issues such as severe congestion in popular tourist spots,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 320.4,
-     "end": 323.9,
-     "ja": "一部の観光客によるマナー違反、",
-     "en": "bad manners from some tourists,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 324.2,
-     "end": 328.0,
-     "ja": "騒音といったトラブルが後を絶ちません。",
-     "en": "and noise pollution are endlessly occurring.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 328.5,
-     "end": 331.0,
-     "ja": "その結果、住民の間では",
-     "en": "As a result, among residents,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 331.3,
-     "end": 333.6,
-     "ja": "「オーバーツーリズムを緩和すべきだ」",
-     "en": "\"Overtourism should be mitigated,\"",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 333.7,
-     "end": 335.7,
-     "ja": "という声が強まっています。",
-     "en": "voices calling for this are growing stronger.",
+     "start": 352.6,
+     "end": 402.3,
+     "ja": "地域住民は騒音や交通の不便といった生活への負担ばかりを強いられており、利益を実感しにくいという現状があります。",
+     "en": "local residents are burdened with disruptions like noise and traffic issues, making it difficult for them to feel the benefits.",
      "speaker": "Narrator"
     }
    ]
@@ -183,5 +121,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

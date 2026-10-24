@@ -2,113 +2,179 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 12.7,
-   "end": 32.6,
+   "start": 12.8,
+   "end": 32.0,
    "title": "What Are Nameless Chores?",
    "level": "N4",
    "topics": [
     "daily",
-    "culture"
+    "family"
    ],
    "grammar": [
     "〜たことがある — have experienced doing",
-    "〜と言ったら — when speaking of"
+    "〜たら — when/if"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 12.7,
+     "start": 13.0,
      "end": 16.8,
      "ja": "「名もなき家事」という言葉を聞いたことがありますか？",
-     "en": "Have you ever heard the phrase \"nameless chores\"?",
+     "en": "Have you heard the term \"nameless chores\"?",
      "speaker": "Narrator"
     },
     {
      "start": 17.0,
-     "end": 22.8,
-     "ja": "簡単な言葉にしたら、「名前がついていない家事」ということです。",
-     "en": "Put simply, it refers to \"housework that doesn't have a name.\"",
+     "end": 18.8,
+     "ja": "簡単な言葉にしたら、",
+     "en": "In simple terms,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 18.9,
+     "end": 22.5,
+     "ja": "「名前がついていない家事」ということです。",
+     "en": "it means \"chores that don't have a name.\"",
      "speaker": "Narrator"
     },
     {
      "start": 23.0,
-     "end": 28.8,
-     "ja": "家事と言ったら、「掃除・洗濯・料理」が一般的に考えられますが、",
-     "en": "When we talk about housework, cleaning, laundry, and cooking come to mind,",
+     "end": 24.5,
+     "ja": "家事と言ったら、",
+     "en": "When you think of housework,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 24.6,
+     "end": 28.4,
+     "ja": "「掃除・洗濯・料理」が一般的に考えられますが、",
+     "en": "cleaning, laundry, and cooking are usually what come to mind, but",
      "speaker": "Narrator"
     },
     {
      "start": 28.9,
-     "end": 32.4,
-     "ja": "家事はこれら３つだけではありません。",
-     "en": "but housework isn't limited to just these three.",
+     "end": 31.8,
+     "ja": "家事は、この3つだけではありません。",
+     "en": "housework is not just these three.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 258.0,
-   "end": 286.0,
-   "title": "Restocking Household Items",
+   "start": 55.0,
+   "end": 117.8,
+   "title": "Division of Labor in Dual-Income Homes",
    "level": "N3",
    "topics": [
-    "daily",
     "family",
-    "comedy"
+    "daily",
+    "culture"
    ],
    "grammar": [
-    "〜ておく — do something in advance",
-    "〜のに — even though / despite"
+    "〜となると — when it comes to / if",
+    "〜ことになる — it is decided that / ends up"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 258.0,
-     "end": 261.8,
+     "start": 55.3,
+     "end": 59.2,
+     "ja": "近年は共働きの世帯が約半数になりました。",
+     "en": "In recent years, dual-income households have become about half.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 59.8,
+     "end": 102.5,
+     "ja": "夫も妻も外で働くとなると、",
+     "en": "When both husband and wife work outside,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 102.6,
+     "end": 105.7,
+     "ja": "家事は夫婦で分担の打ち合わせをして、",
+     "en": "couples discuss dividing up the housework,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 105.8,
+     "end": 108.9,
+     "ja": "それをそれぞれが実践することになります。",
+     "en": "and each person puts that into practice.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 109.6,
+     "end": 113.2,
+     "ja": "しかし、実際にはうまくいかないことが多く、",
+     "en": "However, in reality, it often doesn't go well,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 113.4,
+     "end": 117.3,
+     "ja": "妻が家事の大半をこなしているのが現実です。",
+     "en": "and the reality is that wives handle most of the chores.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 247.0,
+   "end": 308.5,
+   "title": "The Hidden Chore of Restocking",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜で言えば — speaking in terms of",
+    "〜ておく — do something in advance"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 247.2,
+     "end": 249.0,
+     "ja": "2つ目、「補充」は",
+     "en": "Second, \"replenishment\"",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 249.2,
+     "end": 252.4,
+     "ja": "ビジネスで言えば「商品管理」です。",
+     "en": "is \"inventory management\" in business terms.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 252.8,
+     "end": 257.2,
+     "ja": "在庫状態を見極め、補充するという作業です。",
+     "en": "It's the task of assessing inventory and restocking.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 258.2,
+     "end": 301.4,
      "ja": "例えば、トイレットペーパーやシャンプー。",
-     "en": "For instance, toilet paper or shampoo.",
+     "en": "For example, toilet paper or shampoo.",
      "speaker": "Narrator"
     },
     {
-     "start": 261.9,
-     "end": 265.2,
+     "start": 301.8,
+     "end": 305.0,
      "ja": "これらを買ってきて、整理しておく作業だけでも、",
-     "en": "Just the chore of buying and organizing these items,",
+     "en": "Even just buying and organizing these items",
      "speaker": "Narrator"
     },
     {
-     "start": 265.3,
-     "end": 268.5,
+     "start": 305.2,
+     "end": 308.0,
      "ja": "疲れている時には負担に感じることがあります。",
      "en": "can feel like a burden when you're tired.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 268.8,
-     "end": 273.2,
-     "ja": "しかも、家族はそれらが切れていることに気付いているのに、",
-     "en": "What's more, even though family members notice they've run out,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 273.4,
-     "end": 277.4,
-     "ja": "しばしば「見て見ぬふり」をすることもあります。",
-     "en": "they often just pretend not to see it.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 277.7,
-     "end": 281.5,
-     "ja": "もしくは、「トイレットペーパー、ないよ」と",
-     "en": "Or, they politely do nothing more than report it:",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 281.8,
-     "end": 285.5,
-     "ja": "ご丁寧に報告だけしてくれます。",
-     "en": "\"Hey, there's no toilet paper!\"",
      "speaker": "Narrator"
     }
    ]
@@ -118,5 +184,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

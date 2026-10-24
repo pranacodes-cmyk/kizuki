@@ -2,186 +2,228 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 2.051,
-   "end": 25.5,
-   "title": "Two Main Types of Laughter",
+   "start": 124.5,
+   "end": 152.5,
+   "title": "Two Elements of Laughter",
    "level": "N3",
    "topics": [
     "comedy",
     "culture"
    ],
    "grammar": [
-    "〜ていうのは — defining a term",
-    "〜なら — conditional 'if'"
+    "〜てしまう — expressing reflexivity",
+    "〜としましょう — let us suppose"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 2.051,
-     "end": 5.2,
+     "start": 124.8,
+     "end": 128.5,
      "ja": "笑いには大きく２通りあるんですよ。",
      "en": "There are broadly two types of humor.",
-     "speaker": "Mitsuyoshi"
+     "speaker": "Takasu"
     },
     {
-     "start": 5.5,
-     "end": 7.5,
-     "ja": "さあこちら、ポン！",
-     "en": "Here they are, boom!",
-     "speaker": "Mitsuyoshi"
+     "start": 128.8,
+     "end": 130.5,
+     "ja": "さあ、こちら、ポン。",
+     "en": "Now, take a look at this.",
+     "speaker": "Takasu"
     },
     {
-     "start": 7.8,
-     "end": 11.0,
-     "ja": "初めて見た体で「おおー」なり言うてくださいね。",
-     "en": "Pretend you're seeing it for the first time and say 'ooh'.",
-     "speaker": "Mitsuyoshi"
+     "start": 130.8,
+     "end": 134.0,
+     "ja": "初めて見た体で、「おおー」なり言ってくださいね。",
+     "en": "Pretend you're seeing it for the first time and say 'ooh' or something.",
+     "speaker": "Takasu"
     },
     {
-     "start": 12.5,
-     "end": 16.4,
-     "ja": "あの「共感と意外性」、もう見てるもんね。",
-     "en": "'Empathy and unpredictability'—though you've already seen it, right?",
-     "speaker": "Mitsuyoshi"
+     "start": 134.5,
+     "end": 138.5,
+     "ja": "共感と意外性。もう見てるもんね。",
+     "en": "Relatability and surprise. You can already see it, right?",
+     "speaker": "Takasu"
     },
     {
-     "start": 16.8,
-     "end": 19.5,
-     "ja": "あの共感っていうのは、あるあるネタ。",
-     "en": "Now, empathy means relatable humor.",
-     "speaker": "Mitsuyoshi"
+     "start": 139.4,
+     "end": 142.2,
+     "ja": "共感というのは「あるあるネタ」。",
+     "en": "Relatability means 'relatable observational jokes.'",
+     "speaker": "Takasu"
     },
     {
-     "start": 19.7,
-     "end": 22.3,
-     "ja": "まあ日本の方なら分かると思うんすけど、あるあるネタ。",
-     "en": "I think Japanese people will know, relatable observational jokes.",
-     "speaker": "Mitsuyoshi"
+     "start": 142.5,
+     "end": 145.2,
+     "ja": "日本の方なら分かると思いますが、「あるあるネタ」。",
+     "en": "Japanese folks will understand: 'relatable situations.'",
+     "speaker": "Takasu"
+    },
+    {
+     "start": 145.4,
+     "end": 147.0,
+     "ja": "あとは、モノマネね。",
+     "en": "And then, impersonations.",
+     "speaker": "Takasu"
+    },
+    {
+     "start": 147.2,
+     "end": 149.5,
+     "ja": "モノマネって、不思議と思いません？",
+     "en": "Don't you think impersonations are strange?",
+     "speaker": "Takasu"
+    },
+    {
+     "start": 149.7,
+     "end": 152.5,
+     "ja": "モノマネって、似てるだけでちょっと可笑しいじゃないですか。",
+     "en": "Just being similar is funny in itself, isn't it?",
+     "speaker": "Takasu"
     }
    ]
   },
   {
-   "start": 717.3,
-   "end": 735.0,
-   "title": "Turning Insecurities into Humor",
+   "start": 345.5,
+   "end": 361.5,
+   "title": "An Everyday Situation",
    "level": "N3",
    "topics": [
     "comedy",
-    "friends"
+    "daily"
    ],
    "grammar": [
-    "〜すぎる — too much / overdoing",
-    "〜だけマシ — at least it's better that"
+    "〜としましょう — let's assume that",
+    "〜なきゃあかん — must do (Kansai-ben)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 717.3,
-     "end": 721.8,
-     "ja": "その会議中に女の子が、前髪切りすぎて「失敗したー」言うたんです。",
-     "en": "During that meeting, a girl said, 'I cut my bangs too short and messed up!'",
-     "speaker": "Mitsuyoshi"
+     "start": 345.7,
+     "end": 347.4,
+     "ja": "例えば、僕がここにいましょう。",
+     "en": "For instance, suppose I'm standing right here.",
+     "speaker": "Takasu"
     },
     {
-     "start": 722.0,
-     "end": 725.3,
-     "ja": "その江藤くんは、ハゲてますよ、その江藤くんは",
-     "en": "Now Eto-kun—he is bald, remember—Eto-kun said,",
-     "speaker": "Mitsuyoshi"
+     "start": 347.5,
+     "end": 350.1,
+     "ja": "したら、男前の人がスタスタスタスターっと歩いてきて、",
+     "en": "Then, a handsome guy briskly walks over,",
+     "speaker": "Takasu"
     },
     {
-     "start": 725.5,
-     "end": 727.4,
-     "ja": "「それがどないしてん」と。",
-     "en": "'So what of it?'",
-     "speaker": "Mitsuyoshi"
+     "start": 350.2,
+     "end": 352.0,
+     "ja": "ここに座ったとしましょう。",
+     "en": "and let's say he sits down here.",
+     "speaker": "Takasu"
     },
     {
-     "start": 727.6,
-     "end": 730.3,
-     "ja": "「俺、15年前髪見てない」と。",
-     "en": "'I haven't seen bangs for 15 years.'",
-     "speaker": "Mitsuyoshi"
+     "start": 352.1,
+     "end": 353.2,
+     "ja": "で、座って、",
+     "en": "And after sitting down,",
+     "speaker": "Takasu"
     },
     {
-     "start": 731.0,
-     "end": 734.5,
-     "ja": "「触れるだけマシやないか」って言うたんですよ。",
-     "en": "'At least you have something you can touch,' he said.",
-     "speaker": "Mitsuyoshi"
+     "start": 353.3,
+     "end": 355.2,
+     "ja": "「ああ、そろそろ散髪行かなあかんなあ」",
+     "en": "'Man, I really need to get a haircut soon,'",
+     "speaker": "Takasu"
+    },
+    {
+     "start": 355.3,
+     "end": 357.0,
+     "ja": "って言うたとしましょう。",
+     "en": "let's suppose he says that.",
+     "speaker": "Takasu"
+    },
+    {
+     "start": 357.1,
+     "end": 358.5,
+     "ja": "普通じゃないですか、別に。",
+     "en": "That's completely ordinary, right?",
+     "speaker": "Takasu"
+    },
+    {
+     "start": 358.6,
+     "end": 361.0,
+     "ja": "こんなん、何にもおもろないですよ、これ。",
+     "en": "There's nothing funny about that at all.",
+     "speaker": "Takasu"
     }
    ]
   },
   {
-   "start": 1022.5,
-   "end": 1041.5,
-   "title": "All Hardships Are Setups for Laughter",
-   "level": "N3",
+   "start": 518.0,
+   "end": 541.0,
+   "title": "The Power of Laughter",
+   "level": "N2",
    "topics": [
     "culture",
-    "daily"
+    "comedy"
    ],
    "grammar": [
-    "〜において — in / regarding",
-    "〜に向き合う — to face / confront"
+    "〜ことになっている — it means that...",
+    "〜てしまう — completely / uncontrollably"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1022.5,
-     "end": 1024.4,
-     "ja": "人生においては笑いのフリ、",
-     "en": "In life, they're setups for laughter;",
-     "speaker": "Mitsuyoshi"
+     "start": 518.2,
+     "end": 520.6,
+     "ja": "でもある人がこう言うんです。",
+     "en": "But someone once told me this:",
+     "speaker": "Takasu"
     },
     {
-     "start": 1024.5,
-     "end": 1027.0,
-     "ja": "全部嫌なこと笑いのフリ！",
-     "en": "all unpleasant things are setups for laughs!",
-     "speaker": "Mitsuyoshi"
+     "start": 520.8,
+     "end": 524.2,
+     "ja": "「笑いは最も平和的に、",
+     "en": "'Laughter is the most peaceful way,",
+     "speaker": "Takasu"
     },
     {
-     "start": 1027.1,
-     "end": 1030.4,
-     "ja": "そう考えると、笑いで全部回収できるんですよ。",
-     "en": "If you think of it that way, you can redeem everything with laughter.",
-     "speaker": "Mitsuyoshi"
+     "start": 524.5,
+     "end": 528.2,
+     "ja": "瞬間に人を支配するものでもある」と。",
+     "en": "to instantly take control over someone.'",
+     "speaker": "Takasu"
     },
     {
-     "start": 1030.8,
-     "end": 1032.8,
-     "ja": "全部回収できるんです。",
-     "en": "You can pay it all off.",
-     "speaker": "Mitsuyoshi"
+     "start": 528.5,
+     "end": 531.0,
+     "ja": "「そういう力を持ってる」と。",
+     "en": "'It possesses that kind of power.'",
+     "speaker": "Takasu"
     },
     {
-     "start": 1033.2,
-     "end": 1034.8,
-     "ja": "皆さんも一緒です。",
-     "en": "It's the same for all of you.",
-     "speaker": "Mitsuyoshi"
+     "start": 531.2,
+     "end": 533.3,
+     "ja": "だって笑ってしまうんですよ。",
+     "en": "Because you just can't help laughing.",
+     "speaker": "Takasu"
     },
     {
-     "start": 1035.3,
-     "end": 1037.9,
-     "ja": "だから今日からコンプレックスに向き合って、",
-     "en": "So starting today, face your insecurities",
-     "speaker": "Mitsuyoshi"
+     "start": 533.5,
+     "end": 535.0,
+     "ja": "なんぼ我慢しても、",
+     "en": "No matter how much you try to hold back,",
+     "speaker": "Takasu"
     },
     {
-     "start": 1038.1,
-     "end": 1040.2,
-     "ja": "素晴らしい人生に変えてください。",
-     "en": "and turn them into a wonderful life.",
-     "speaker": "Mitsuyoshi"
+     "start": 535.1,
+     "end": 537.2,
+     "ja": "面白いこと言われたら、ワーッと笑うんですよ。",
+     "en": "if someone says something funny, you burst out laughing.",
+     "speaker": "Takasu"
     },
     {
-     "start": 1040.4,
-     "end": 1041.4,
-     "ja": "ありがとうございました。",
-     "en": "Thank you very much.",
-     "speaker": "Mitsuyoshi"
+     "start": 537.4,
+     "end": 540.6,
+     "ja": "これ瞬間に、ものすごい平和的に支配したことになるんですよね。",
+     "en": "In that instant, you've taken control in an extremely peaceful way.",
+     "speaker": "Takasu"
     }
    ]
   }
@@ -190,5 +232,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

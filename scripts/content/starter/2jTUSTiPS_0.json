@@ -1,19 +1,30 @@
 {
  "videoId": "2jTUSTiPS_0",
  "ids": [
+  "2jTUSTiPS_0-11",
   "2jTUSTiPS_0-130"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
   "2jTUSTiPS_0-130": {
    "id": "2jTUSTiPS_0-130",
-   "appeal": 6,
+   "appeal": 7,
    "clarity": 4,
    "picture": 4,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Practical restaurant recommendation dialogue with clear visual menu references."
+   "why": "Practical ordering dialogue with clear menu visuals."
+  },
+  "2jTUSTiPS_0-11": {
+   "id": "2jTUSTiPS_0-11",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Casual conversation about ramen with off-camera speaker."
   }
  }
 }

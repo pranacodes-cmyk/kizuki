@@ -2,100 +2,105 @@
  "speech": "some",
  "clips": [
   {
-   "start": 436.5,
-   "end": 449.8,
-   "title": "Meeting a Favorite Actor in Tokyo",
+   "start": 436.6,
+   "end": 450.0,
+   "title": "Met My Favorite Actor in Tokyo",
    "level": "N4",
    "topics": [
-    "fun",
-    "travel",
-    "culture"
+    "daily",
+    "fun"
    ],
    "grammar": [
-    "〜てくる — go and do something",
-    "〜わ — sentence-ending particle"
+    "〜て — and (connecting clauses)",
+    "〜てくる — go and do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 437.2,
-     "end": 440.8,
+     "start": 436.8,
+     "end": 440.5,
      "ja": "昨日、東京に行って、",
-     "en": "Yesterday, I went to Tokyo,",
+     "en": "Yesterday I went to Tokyo,",
      "speaker": "Yuka"
     },
     {
-     "start": 441.1,
-     "end": 444.6,
+     "start": 441.0,
+     "end": 444.5,
      "ja": "好きな俳優に会ってきて、",
-     "en": "and got to meet my favorite actor,",
+     "en": "and met my favorite actor,",
      "speaker": "Yuka"
     },
     {
-     "start": 445.0,
-     "end": 446.5,
-     "ja": "そう、んー、",
-     "en": "so, yeah, um...",
+     "start": 444.8,
+     "end": 446.0,
+     "ja": "そう、",
+     "en": "yeah,",
      "speaker": "Yuka"
     },
     {
-     "start": 446.8,
-     "end": 449.3,
+     "start": 446.2,
+     "end": 447.2,
+     "ja": "んー、",
+     "en": "mm,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 447.4,
+     "end": 449.8,
      "ja": "楽しかったわ、そう。",
-     "en": "it was really fun, yeah.",
+     "en": "it was fun, yeah.",
      "speaker": "Yuka"
     }
    ]
   },
   {
-   "start": 503.5,
-   "end": 513.8,
-   "title": "Going to a Concert in Tokyo",
-   "level": "N4",
+   "start": 503.4,
+   "end": 513.5,
+   "title": "Went to a Concert in Tokyo",
+   "level": "N5",
    "topics": [
-    "fun",
     "music",
-    "travel"
+    "fun"
    ],
    "grammar": [
-    "〜たい — want to do",
-    "〜んだ — explanatory emphasis"
+    "〜て — and (connecting clauses)",
+    "〜たい — want to do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 504.0,
-     "end": 505.6,
+     "start": 503.8,
+     "end": 505.3,
      "ja": "東京に行って、",
      "en": "I went to Tokyo,",
      "speaker": "Yuka"
     },
     {
-     "start": 505.7,
-     "end": 507.2,
+     "start": 505.5,
+     "end": 507.0,
      "ja": "ライブに行って、",
      "en": "went to a concert,",
      "speaker": "Yuka"
     },
     {
-     "start": 507.3,
-     "end": 509.3,
+     "start": 507.1,
+     "end": 509.2,
      "ja": "めっちゃ楽しかったんだよねー。",
      "en": "and it was so much fun.",
      "speaker": "Yuka"
     },
     {
-     "start": 509.5,
-     "end": 511.4,
+     "start": 509.4,
+     "end": 511.5,
      "ja": "ねー、また行きたいなー。",
-     "en": "Right? I really want to go again.",
+     "en": "Right? I want to go again.",
      "speaker": "Yuka"
     },
     {
-     "start": 511.5,
+     "start": 511.7,
      "end": 513.2,
-     "ja": "ねー、うん。",
-     "en": "Yeah, totally.",
+     "ja": "ねー、んー。",
+     "en": "Yeah, mm.",
      "speaker": "Yuka"
     }
    ]
@@ -105,5 +110,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

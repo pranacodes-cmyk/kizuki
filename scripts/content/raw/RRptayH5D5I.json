@@ -2,36 +2,75 @@
  "speech": "clear",
  "clips": [
   {
+   "start": 25.8,
+   "end": 36.8,
+   "title": "Decades as a Loyal Customer",
+   "level": "N4",
+   "topics": [
+    "culture",
+    "food"
+   ],
+   "grammar": [
+    "〜か — question marker",
+    "〜へん — Kansai dialect negation"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 26.2,
+     "end": 27.5,
+     "ja": "乾杯！",
+     "en": "Cheers!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 29.8,
+     "end": 32.2,
+     "ja": "もう四、五十年か？",
+     "en": "Has it already been forty or fifty years?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 34.0,
+     "end": 36.5,
+     "ja": "他にはもう絶対行かへん。",
+     "en": "I'd never go anywhere else.",
+     "speaker": "Customer"
+    }
+   ]
+  },
+  {
    "start": 133.5,
    "end": 142.6,
-   "title": "Aspiring to Be Like a Geiko",
+   "title": "A Geiko's Aspiration",
    "level": "N3",
    "topics": [
     "culture",
     "work"
    ],
    "grammar": [
-    "〜ていうより — rather than",
-    "〜みたいになりたい — wanting to become like"
+    "〜というよりも — rather than",
+    "〜たい — wanting to do something",
+    "〜みたいに — like, similar to"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 133.8,
-     "end": 137.1,
+     "end": 137.2,
      "ja": "今は結婚してお母さんになってっていうよりも、",
-     "en": "Rather than getting married and becoming a mother now,",
+     "en": "Right now, rather than getting married and becoming a mother,",
      "speaker": "Geiko"
     },
     {
      "start": 137.3,
-     "end": 140.4,
-     "ja": "あのお姉さんみたいになりたいなっていう方が、",
-     "en": "the desire to become like that senior sister",
+     "end": 140.8,
+     "ja": "あのお姉さんみたいになりたいなっていうほうが、",
+     "en": "wanting to become like that senior sister",
      "speaker": "Geiko"
     },
     {
-     "start": 140.7,
+     "start": 141.0,
      "end": 142.2,
      "ja": "強い。",
      "en": "is much stronger.",
@@ -40,46 +79,47 @@
    ]
   },
   {
-   "start": 143.3,
-   "end": 154.8,
-   "title": "Living True to Myself in Gion",
+   "start": 143.0,
+   "end": 154.5,
+   "title": "Living True to Oneself in Gion",
    "level": "N3",
    "topics": [
     "culture",
     "daily"
    ],
    "grammar": [
-    "〜たことない — have never done",
-    "〜らしく — true to / like"
+    "〜たことない — have never experienced",
+    "〜ている — ongoing state / living",
+    "〜らしく — true to oneself"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 143.6,
-     "end": 146.4,
+     "start": 143.3,
+     "end": 146.5,
      "ja": "もう祇園町から出たことない。",
-     "en": "I've never once left the Gion district.",
+     "en": "I've never left Gion town.",
      "speaker": "Okami"
     },
     {
-     "start": 146.9,
-     "end": 148.8,
-     "ja": "小さい時からずっと居てて、",
-     "en": "I've been here ever since I was small,",
+     "start": 146.8,
+     "end": 149.0,
+     "ja": "小さい時からずーっと居てて、",
+     "en": "I've been here ever since I was little,",
      "speaker": "Okami"
     },
     {
-     "start": 149.2,
-     "end": 151.2,
-     "ja": "やっぱりここに居てる方が、",
-     "en": "and after all, being right here,",
+     "start": 149.5,
+     "end": 151.5,
+     "ja": "やっぱりここに居てるほうが、",
+     "en": "and staying here after all,",
      "speaker": "Okami"
     },
     {
-     "start": 151.4,
-     "end": 154.4,
+     "start": 151.6,
+     "end": 154.0,
      "ja": "私は私らしく生きられるし。",
-     "en": "I can live as my true self.",
+     "en": "I can truly live as myself.",
      "speaker": "Okami"
     }
    ]
@@ -89,5 +129,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

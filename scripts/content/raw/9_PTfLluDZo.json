@@ -2,97 +2,106 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 3.2,
-   "end": 14.8,
+   "start": 2.7,
+   "end": 26.2,
    "title": "Why Did You Start Studying Japanese?",
    "level": "N4",
    "topics": [
-    "school",
-    "daily"
+    "daily",
+    "culture"
    ],
    "grammar": [
     "〜し始める — start doing",
-    "〜ている — ongoing action",
-    "〜と思う — to think that"
+    "〜ている — ongoing action/state",
+    "〜と思う — I think that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 3.2,
-     "end": 6.8,
+     "start": 2.7,
+     "end": 6.5,
      "ja": "皆さんはなぜ日本語を勉強し始めましたか？",
-     "en": "Why did all of you start studying Japanese?",
+     "en": "Why did everyone start studying Japanese?",
      "speaker": "Hitoki"
     },
     {
-     "start": 7.0,
-     "end": 8.7,
-     "ja": "今見ている人の中には",
-     "en": "Among those watching right now,",
+     "start": 6.8,
+     "end": 10.4,
+     "ja": "今見ている人の中には日本語を勉強している人も、",
+     "en": "Among the people watching now, there are people studying Japanese,",
      "speaker": "Hitoki"
     },
     {
-     "start": 8.7,
-     "end": 10.7,
-     "ja": "日本語を勉強している人も、",
-     "en": "there are people studying Japanese,",
+     "start": 10.4,
+     "end": 14.8,
+     "ja": "まだ始めてないけど興味があるっていう人もいると思います。",
+     "en": "and I think there are also people who haven't started yet but are interested.",
      "speaker": "Hitoki"
     },
     {
-     "start": 10.8,
-     "end": 12.1,
-     "ja": "まだ始めてないけど",
-     "en": "as well as people who haven't started yet,",
+     "start": 14.8,
+     "end": 19.3,
+     "ja": "今まで僕も中国語とかスペイン語を勉強してきたんですけど、",
+     "en": "Up until now, I've also studied languages like Chinese and Spanish, but",
      "speaker": "Hitoki"
     },
     {
-     "start": 12.1,
-     "end": 14.7,
-     "ja": "興味があるっていう人もいると思います。",
-     "en": "but are interested, I think.",
+     "start": 19.3,
+     "end": 21.8,
+     "ja": "結構言語を勉強している人って、",
+     "en": "people who study languages often...",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 21.8,
+     "end": 25.8,
+     "ja": "色々な面白いきっかけで勉強してることがあるんですよ。",
+     "en": "...study them for all kinds of interesting reasons.",
      "speaker": "Hitoki"
     }
    ]
   },
   {
-   "start": 120.0,
-   "end": 133.2,
+   "start": 79.9,
+   "end": 93.3,
    "title": "Working at a Japanese Game Company",
    "level": "N3",
    "topics": [
     "work",
+    "anime",
     "fun"
    ],
    "grammar": [
-    "〜たい — want to do",
-    "〜と思う — to think that"
+    "〜たい — want to",
+    "〜と思う — I think that",
+    "〜だけど — but / however"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 120.0,
-     "end": 122.5,
+     "start": 80.2,
+     "end": 82.3,
      "ja": "日本のゲーム会社で働きたいから。",
      "en": "Because I want to work at a Japanese game company.",
      "speaker": "Hitoki"
     },
     {
-     "start": 122.7,
-     "end": 125.2,
-     "ja": "ま、これは個人的な意見だけど、",
+     "start": 82.5,
+     "end": 85.0,
+     "ja": "まぁこれは個人的な意見だけど、",
      "en": "Well, this is just my personal opinion, but",
      "speaker": "Hitoki"
     },
     {
-     "start": 125.3,
-     "end": 129.8,
-     "ja": "日本のゲームは結構シナリオとかストーリーが素敵だなーって思うんだよね。",
-     "en": "I think Japanese games have really wonderful scenarios and storylines.",
+     "start": 85.0,
+     "end": 90.0,
+     "ja": "日本のゲームは結構シナリオとかストーリーが素敵だなって思うんだよね。",
+     "en": "I think Japanese games have really wonderful scenarios and stories.",
      "speaker": "Hitoki"
     },
     {
-     "start": 129.9,
-     "end": 133.2,
+     "start": 90.2,
+     "end": 93.0,
      "ja": "だからこの理由はすごくポイントを得てると思う。",
      "en": "So I think this reason really hits the mark.",
      "speaker": "Hitoki"
@@ -100,68 +109,69 @@
    ]
   },
   {
-   "start": 716.8,
-   "end": 735.6,
-   "title": "How to Make Japanese Friends",
+   "start": 436.8,
+   "end": 456.0,
+   "title": "How to Make Friends in Japan",
    "level": "N4",
    "topics": [
     "travel",
-    "culture",
-    "friends"
+    "friends",
+    "culture"
    ],
    "grammar": [
     "〜てください — please do",
-    "〜てくる — do something toward speaker"
+    "〜てくる — do towards the speaker",
+    "〜たい — want to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 716.8,
-     "end": 720.2,
-     "ja": "日本に旅行して、日本人と交流したいから。",
+     "start": 437.1,
+     "end": 440.3,
+     "ja": "日本に旅行をして、日本人と交流したいから。",
      "en": "Because I want to travel to Japan and interact with Japanese people.",
      "speaker": "Hitoki"
     },
     {
-     "start": 720.3,
-     "end": 722.2,
-     "ja": "もうこれはすごく簡単！",
-     "en": "This one is super simple!",
+     "start": 440.4,
+     "end": 442.2,
+     "ja": "もうこれはすごく簡単。",
+     "en": "This is super easy.",
      "speaker": "Hitoki"
     },
     {
-     "start": 722.3,
-     "end": 724.4,
+     "start": 442.3,
+     "end": 444.4,
      "ja": "まず東京に行ってください。",
      "en": "First, go to Tokyo.",
      "speaker": "Hitoki"
     },
     {
-     "start": 724.5,
-     "end": 727.5,
-     "ja": "そして夜にぎやかな場所で歩いてください。",
+     "start": 444.5,
+     "end": 447.3,
+     "ja": "そして、夜賑やかな場所で歩いてください。",
      "en": "Then, walk around lively places at night.",
      "speaker": "Hitoki"
     },
     {
-     "start": 727.6,
-     "end": 731.3,
+     "start": 447.4,
+     "end": 451.3,
      "ja": "そしたらみんな「ハロー」とか「ヤッホー」って声をかけてくるので、",
-     "en": "Then people will call out things like 'Hello' or 'Yahoo', so",
+     "en": "Then everyone will call out to you with \"Hello!\" or \"Yahoo!\", so",
      "speaker": "Hitoki"
     },
     {
-     "start": 731.4,
-     "end": 733.9,
-     "ja": "一緒にビールを乾杯してください！",
-     "en": "cheers with a beer together!",
+     "start": 451.4,
+     "end": 454.3,
+     "ja": "一緒にビールを乾杯してください。",
+     "en": "cheers with a beer together.",
      "speaker": "Hitoki"
     },
     {
-     "start": 734.0,
-     "end": 735.6,
+     "start": 454.4,
+     "end": 455.7,
      "ja": "はい、できました！",
-     "en": "And there you have it!",
+     "en": "There, done!",
      "speaker": "Hitoki"
     }
    ]
@@ -171,5 +181,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

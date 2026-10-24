@@ -1,61 +1,10 @@
 {
- "speech": "clear",
- "clips": [
-  {
-   "start": 403.95,
-   "end": 423.4,
-   "title": "Speaking Goals in Spanish",
-   "level": "N3",
-   "topics": [
-    "sports"
-   ],
-   "grammar": [
-    "〜をお願いします — please give/do ~",
-    "〜そうです — I hear that / it seems"
-   ],
-   "quality": 4,
-   "lines": [
-    {
-     "start": 404.25,
-     "end": 405.3,
-     "ja": "最後にですね、",
-     "en": "Lastly,",
-     "speaker": "Reporter"
-    },
-    {
-     "start": 405.3,
-     "end": 405.8,
-     "ja": "はい。",
-     "en": "Yes.",
-     "speaker": "Pipi Nakai"
-    },
-    {
-     "start": 405.8,
-     "end": 408.35,
-     "ja": "スペイン語で目標をお願いします。",
-     "en": "please share your goal in Spanish.",
-     "speaker": "Reporter"
-    },
-    {
-     "start": 408.35,
-     "end": 409.25,
-     "ja": "お願いします。",
-     "en": "Here it goes.",
-     "speaker": "Pipi Nakai"
-    },
-    {
-     "start": 421.35,
-     "end": 422.9,
-     "ja": "だそうです。",
-     "en": "That's what he said.",
-     "speaker": "Reporter"
-    }
-   ]
-  }
- ],
+ "speech": "some",
+ "clips": [],
  "videoId": "RhWfleo_EPE",
  "pickTopics": [
   "sports"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

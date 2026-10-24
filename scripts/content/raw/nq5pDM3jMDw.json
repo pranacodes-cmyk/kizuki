@@ -2,164 +2,162 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 6.4,
-   "end": 17.0,
-   "title": "Snapping the Losing Streak",
+   "start": 6.0,
+   "end": 17.2,
+   "title": "Stopping the Team's Losing Streak",
    "level": "N3",
    "topics": [
-    "sports",
-    "daily"
+    "sports"
    ],
    "grammar": [
-    "〜について — regarding / about",
-    "〜たい — want to"
+    "〜てます — ongoing state",
+    "〜たいと思う — want to do"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 6.7,
-     "end": 8.7,
+     "start": 6.2,
+     "end": 8.6,
      "ja": "毎回、連敗ストッパーになってますけど、",
-     "en": "You've been snapping the losing streak every time,",
-     "speaker": "Ippei Mizuhara"
+     "en": "You've been stopping the losing streak each time,",
+     "speaker": "Ippei"
     },
     {
      "start": 8.7,
      "end": 10.6,
      "ja": "それについてはどう思ってますか？",
-     "en": "what are your thoughts on that?",
-     "speaker": "Ippei Mizuhara"
+     "en": "how do you feel about that?",
+     "speaker": "Ippei"
     },
     {
-     "start": 10.9,
-     "end": 13.0,
-     "ja": "えー、苦しい試合多いですけど、",
-     "en": "Well, there have been a lot of tough games,",
-     "speaker": "Shohei Ohtani"
+     "start": 11.2,
+     "end": 13.2,
+     "ja": "ええ、まあ、苦しい試合多いですけど、",
+     "en": "Well, there have been a lot of tough games, but",
+     "speaker": "Shohei"
     },
     {
-     "start": 13.0,
-     "end": 14.6,
+     "start": 13.2,
+     "end": 15.0,
      "ja": "なんとか粘って今日も勝てたので、",
-     "en": "but we somehow hung in there and won today too,",
-     "speaker": "Shohei Ohtani"
+     "en": "we hung in there and won today, so",
+     "speaker": "Shohei"
     },
     {
-     "start": 14.6,
-     "end": 16.7,
+     "start": 15.0,
+     "end": 17.0,
      "ja": "また明日切り替えて頑張りたいなと思います。",
-     "en": "so I want to reset and do my best again tomorrow.",
-     "speaker": "Shohei Ohtani"
+     "en": "I want to reset tomorrow and do my best again.",
+     "speaker": "Shohei"
     }
    ]
   },
   {
-   "start": 29.8,
-   "end": 42.1,
-   "title": "Providing Your Own Run Support",
-   "level": "N2",
+   "start": 29.5,
+   "end": 42.0,
+   "title": "Driving in Runs on the Mound",
+   "level": "N3",
    "topics": [
-    "sports",
-    "daily"
+    "sports"
    ],
    "grammar": [
-    "〜にも関わらず — despite / regardless of",
-    "〜たい — want to"
+    "〜にかかわらず — regardless of",
+    "〜てよかった — glad that"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 30.1,
-     "end": 31.9,
-     "ja": "2点三塁打打ちましたけど、",
+     "start": 29.8,
+     "end": 32.0,
+     "ja": "あの、２点３塁打打ちましたけど、",
      "en": "You hit a two-run triple,",
-     "speaker": "Ippei Mizuhara"
+     "speaker": "Ippei"
     },
     {
-     "start": 31.9,
-     "end": 33.7,
-     "ja": "自分の試合で打点上げるのは",
-     "en": "how does it feel to drive in runs",
-     "speaker": "Ippei Mizuhara"
+     "start": 32.1,
+     "end": 35.8,
+     "ja": "自分の試合で打点上げるのはどういう気持ちですか？",
+     "en": "how does it feel to drive in runs in your own game?",
+     "speaker": "Ippei"
     },
     {
-     "start": 33.7,
-     "end": 35.5,
-     "ja": "どういう気持ちですか？",
-     "en": "in a game you start pitching?",
-     "speaker": "Ippei Mizuhara"
-    },
-    {
-     "start": 36.2,
+     "start": 36.1,
      "end": 37.9,
-     "ja": "自分が投げてるのに関わらず、",
-     "en": "Regardless of whether I'm pitching or not,",
-     "speaker": "Shohei Ohtani"
+     "ja": "ま、自分投げてるに関わらず、",
+     "en": "Well, regardless of whether I'm pitching or not,",
+     "speaker": "Shohei"
     },
     {
-     "start": 37.9,
+     "start": 38.0,
      "end": 40.0,
      "ja": "常に得点圏は返したいなと思ってるので、",
      "en": "I always want to drive in runners in scoring position,",
-     "speaker": "Shohei Ohtani"
+     "speaker": "Shohei"
     },
     {
      "start": 40.0,
-     "end": 41.7,
-     "ja": "いい打撃ができて良かったなと思ってます。",
+     "end": 41.8,
+     "ja": "良い打撃が出来て良かったなと思ってます。",
      "en": "so I'm glad I had a good at-bat.",
-     "speaker": "Shohei Ohtani"
+     "speaker": "Shohei"
     }
    ]
   },
   {
-   "start": 101.8,
-   "end": 118.0,
-   "title": "Secret Behind the Strikeouts",
+   "start": 101.5,
+   "end": 117.8,
+   "title": "Secret to Double-Digit Strikeouts",
    "level": "N2",
    "topics": [
     "sports"
    ],
    "grammar": [
-    "〜ように — in order to / so that",
-    "〜てくる — indicates an incoming change/flow"
+    "〜のに — in order to",
+    "〜ように — so that / in a way that"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 102.1,
-     "end": 105.0,
-     "ja": "4試合連続2桁奪三振、ピッチャーとしてやってますけど、",
-     "en": "You've had double-digit strikeouts in four straight games as a pitcher,",
-     "speaker": "Ippei Mizuhara"
+     "start": 101.8,
+     "end": 103.6,
+     "ja": "４試合連続二桁三振、",
+     "en": "Four straight games with double-digit strikeouts,",
+     "speaker": "Ippei"
     },
     {
-     "start": 105.5,
-     "end": 107.8,
-     "ja": "その好調の秘訣は何でしょう？",
+     "start": 103.7,
+     "end": 105.5,
+     "ja": "ピッチャーとしてやってますけど、",
+     "en": "as a pitcher,",
+     "speaker": "Ippei"
+    },
+    {
+     "start": 105.6,
+     "end": 108.2,
+     "ja": "良いその調子の秘訣は何でしょう？",
      "en": "what is the secret behind that great form?",
-     "speaker": "Ippei Mizuhara"
+     "speaker": "Ippei"
     },
     {
-     "start": 109.1,
-     "end": 112.2,
-     "ja": "積極的に攻められてるのがいいところかなと思うので、",
-     "en": "I think being able to attack aggressively is a strong point,",
-     "speaker": "Shohei Ohtani"
+     "start": 108.8,
+     "end": 112.3,
+     "ja": "ま、積極的に攻められてるのが良い所かなと思うので、",
+     "en": "Well, I think attacking aggressively is working well, and",
+     "speaker": "Shohei"
     },
     {
-     "start": 112.4,
-     "end": 116.1,
-     "ja": "奪三振は流れを持ってくるのにすごくいいアウトだなと思うので、",
-     "en": "and strikeouts are really great outs for shifting momentum,",
-     "speaker": "Shohei Ohtani"
+     "start": 112.3,
+     "end": 115.5,
+     "ja": "奪三振は流れ持ってくるのに凄く良いアウトだなと思うので、",
+     "en": "strikeouts are great outs to bring momentum our way, so",
+     "speaker": "Shohei"
     },
     {
-     "start": 116.1,
-     "end": 117.7,
+     "start": 115.5,
+     "end": 117.6,
      "ja": "続けられるように頑張りたいなと思います。",
-     "en": "so I hope to keep that going.",
-     "speaker": "Shohei Ohtani"
+     "en": "I want to do my best to keep that going.",
+     "speaker": "Shohei"
     }
    ]
   }
@@ -168,5 +166,6 @@
  "pickTopics": [
   "sports"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

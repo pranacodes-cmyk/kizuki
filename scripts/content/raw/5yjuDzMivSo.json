@@ -2,89 +2,105 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 12.8,
+   "start": 0.5,
    "end": 28.0,
-   "title": "Self-Introductions in the Locker Room",
+   "title": "Practicing Japanese Introductions",
    "level": "N5",
    "topics": [
     "sports",
-    "fun",
+    "friends",
     "daily"
    ],
    "grammar": [
-    "〜です — to be (polite copula)",
-    "〜て — request / encouragement"
+    "〜です — to be (polite)",
+    "〜て — imperative/encouragement form",
+    "〜ます — polite non-past verb ending"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 13.0,
-     "end": 14.5,
+     "start": 0.6,
+     "end": 3.2,
+     "ja": "日本人選手多いですけど、どうやって自己紹介しますか？",
+     "en": "There are many Japanese players, how do you introduce yourself?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 7.4,
+     "end": 9.5,
+     "ja": "マチでーす！",
+     "en": "I'm Machi!",
+     "speaker": "Machado"
+    },
+    {
+     "start": 10.5,
+     "end": 12.3,
+     "ja": "よろしく。",
+     "en": "Nice to meet you.",
+     "speaker": "Machado"
+    },
+    {
+     "start": 12.8,
+     "end": 14.2,
      "ja": "こんにちは。",
      "en": "Hello.",
      "speaker": "Espinoza"
     },
     {
-     "start": 15.3,
-     "end": 17.8,
+     "start": 14.5,
+     "end": 17.4,
      "ja": "日本語ちょっと分かります。",
      "en": "I understand a little Japanese.",
      "speaker": "Espinoza"
     },
     {
-     "start": 18.0,
-     "end": 19.8,
+     "start": 17.8,
+     "end": 19.4,
      "ja": "エスピノーザです。",
      "en": "I'm Espinoza.",
      "speaker": "Espinoza"
     },
     {
-     "start": 21.4,
-     "end": 23.0,
-     "ja": "エスピノーザです。",
-     "en": "I'm Espinoza.",
-     "speaker": "Machado"
-    },
-    {
-     "start": 23.1,
-     "end": 24.7,
-     "ja": "得意日本語。",
-     "en": "His best Japanese.",
-     "speaker": "Machado"
-    },
-    {
-     "start": 24.9,
+     "start": 24.8,
      "end": 25.8,
-     "ja": "がんばって！",
+     "ja": "頑張って！",
      "en": "Good luck!",
      "speaker": "Staff"
     },
     {
      "start": 25.9,
-     "end": 27.5,
-     "ja": "がんばります！",
+     "end": 27.8,
+     "ja": "頑張ります！",
      "en": "I'll do my best!",
      "speaker": "Espinoza"
     }
    ]
   },
   {
-   "start": 150.2,
-   "end": 210.5,
-   "title": "Espinoza's Message to the Fans",
+   "start": 141.8,
+   "end": 211.0,
+   "title": "Recently Learned Japanese Phrases",
    "level": "N4",
    "topics": [
     "sports",
-    "fun"
+    "fun",
+    "friends"
    ],
    "grammar": [
-    "〜から — from",
-    "〜てます — currently doing (contraction)"
+    "〜から — from / because",
+    "〜ています — ongoing state"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 151.0,
+     "start": 142.0,
+     "end": 144.2,
+     "ja": "エスピ、最近覚えた日本語なんかある？",
+     "en": "Espi, are there any Japanese phrases you learned recently?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 151.6,
      "end": 154.0,
      "ja": "日本語ちょっと分かります。",
      "en": "I understand a little Japanese.",
@@ -92,35 +108,35 @@
     },
     {
      "start": 154.8,
-     "end": 156.4,
+     "end": 156.2,
      "ja": "日本人です。",
-     "en": "I'm Japanese.",
+     "en": "I am Japanese.",
      "speaker": "Espinoza"
     },
     {
      "start": 158.5,
-     "end": 159.9,
+     "end": 159.8,
      "ja": "かわいいね。",
      "en": "You're cute.",
      "speaker": "Espinoza"
     },
     {
-     "start": 160.6,
-     "end": 164.5,
-     "ja": "ファンの皆様、心から愛してます。",
+     "start": 200.2,
+     "end": 204.6,
+     "ja": "ファンの皆さま、心から愛してます。",
      "en": "To all the fans, I love you from the bottom of my heart.",
      "speaker": "Espinoza"
     },
     {
-     "start": 165.1,
-     "end": 169.1,
-     "ja": "いつも温かいサポートありがとうございます。",
-     "en": "Thank you very much for always giving your warm support.",
+     "start": 205.1,
+     "end": 209.3,
+     "ja": "いつも温かいサポート、ありがとうございます。",
+     "en": "Thank you always for your warm support.",
      "speaker": "Espinoza"
     },
     {
-     "start": 169.2,
-     "end": 170.4,
+     "start": 209.5,
+     "end": 210.5,
      "ja": "すごい！",
      "en": "Amazing!",
      "speaker": "Staff"
@@ -128,62 +144,62 @@
    ]
   },
   {
-   "start": 313.0,
-   "end": 327.5,
-   "title": "Mercedes and Polanco Greet in Japanese",
+   "start": 313.8,
+   "end": 330.0,
+   "title": "Mercedes and Polanco's Japanese",
    "level": "N5",
    "topics": [
     "sports",
-    "friends",
+    "fun",
     "food"
    ],
    "grammar": [
-    "〜たい — want to do",
-    "〜は〜です — A is B (copula)"
+    "〜は〜です — A is B",
+    "〜たい — wanting to do something"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 313.3,
-     "end": 314.6,
+     "start": 314.0,
+     "end": 315.0,
      "ja": "こんにちは。",
      "en": "Hello.",
      "speaker": "Mercedes"
     },
     {
-     "start": 314.8,
-     "end": 316.8,
+     "start": 315.2,
+     "end": 317.0,
      "ja": "私はメルセデスです。",
      "en": "I am Mercedes.",
      "speaker": "Mercedes"
     },
     {
-     "start": 316.9,
+     "start": 317.3,
      "end": 319.0,
      "ja": "よろしくお願いします。",
-     "en": "Pleased to meet you.",
+     "en": "Nice to meet you.",
      "speaker": "Mercedes"
     },
     {
-     "start": 321.0,
-     "end": 322.6,
-     "ja": "あー、すいません！",
-     "en": "Ah, excuse me!",
+     "start": 321.8,
+     "end": 323.0,
+     "ja": "すいません。",
+     "en": "Excuse me.",
      "speaker": "Polanco"
     },
     {
-     "start": 322.8,
-     "end": 325.2,
-     "ja": "明日どこご飯食べたい？",
+     "start": 323.2,
+     "end": 325.5,
+     "ja": "明日、どこご飯食べたい？",
      "en": "Where do you want to eat tomorrow?",
      "speaker": "Polanco"
     },
     {
-     "start": 325.3,
-     "end": 327.0,
-     "ja": "えーと…",
-     "en": "Well...",
-     "speaker": "Players"
+     "start": 325.6,
+     "end": 327.5,
+     "ja": "えーっと…",
+     "en": "Let's see...",
+     "speaker": "Polanco"
     }
    ]
   }
@@ -192,5 +208,6 @@
  "pickTopics": [
   "sports"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

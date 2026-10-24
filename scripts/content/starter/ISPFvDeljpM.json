@@ -1,19 +1,19 @@
 {
  "videoId": "ISPFvDeljpM",
  "ids": [
-  "ISPFvDeljpM-6"
+  "ISPFvDeljpM-202"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "ISPFvDeljpM-6": {
-   "id": "ISPFvDeljpM-6",
+  "ISPFvDeljpM-202": {
+   "id": "ISPFvDeljpM-202",
    "appeal": 6,
-   "clarity": 4,
-   "picture": 3,
+   "clarity": 3,
+   "picture": 4,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Energetic creators clearly introduce their Shibuya street challenge."
+   "why": "Engaging street interview with natural dialogue about a solo travel meetup."
   }
  }
 }

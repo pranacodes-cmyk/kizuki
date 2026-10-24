@@ -1,0 +1,19 @@
+{
+ "videoId": "-WPYeqidmSU",
+ "ids": [
+  "-WPYeqidmSU-24"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "-WPYeqidmSU-24": {
+   "id": "-WPYeqidmSU-24",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear storytelling with simple daily phrases and visual kamishibai presentation."
+  }
+ }
+}

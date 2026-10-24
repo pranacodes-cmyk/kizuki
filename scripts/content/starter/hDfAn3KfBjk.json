@@ -1,0 +1,19 @@
+{
+ "videoId": "hDfAn3KfBjk",
+ "ids": [
+  "hDfAn3KfBjk-58"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "hDfAn3KfBjk-58": {
+   "id": "hDfAn3KfBjk-58",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear self-introduction to camera, slightly fast for absolute beginners."
+  }
+ }
+}

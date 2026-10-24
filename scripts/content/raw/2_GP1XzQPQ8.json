@@ -2,174 +2,189 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 26.6,
-   "end": 52.4,
-   "title": "Kyu-chan Helps with Store Sales",
-   "level": "N4",
+   "start": 26.5,
+   "end": 52.5,
+   "title": "A Talking Bird Working at an Izakaya",
+   "level": "N3",
    "topics": [
     "animals",
     "daily",
-    "food"
+    "work"
    ],
    "grammar": [
-    "〜にある — to be located in",
-    "〜んじゃないですか — isn't it / don't you think"
+    "〜んだとか — I hear that / supposedly",
+    "〜んじゃないですか — wouldn't you say / isn't it"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 27.0,
-     "end": 31.7,
+     "start": 26.8,
+     "end": 32.1,
      "ja": "東京都荒川区にある大衆酒場「栃木屋」さん。",
-     "en": "The pub Tochigi-ya, located in Arakawa Ward, Tokyo.",
+     "en": "Tochigiya, a local pub located in Arakawa Ward, Tokyo.",
      "speaker": "Narrator"
     },
     {
-     "start": 32.5,
-     "end": 38.8,
+     "start": 32.4,
+     "end": 39.5,
      "ja": "このお店の看板動物がおしゃべり大好き、九官鳥の九ちゃんです。",
-     "en": "This tavern's star mascot is Kyu-chan the hill myna, who loves to talk.",
+     "en": "The pub's mascot animal is Kyu-chan the hill myna, who loves to talk.",
      "speaker": "Narrator"
     },
     {
-     "start": 40.1,
-     "end": 46.9,
-     "ja": "実はこの九ちゃんが達者なおしゃべりでお店の売り上げアップに協力しているんだとか。",
-     "en": "Apparently, Kyu-chan helps boost shop sales with its clever talking.",
+     "start": 40.0,
+     "end": 47.5,
+     "ja": "実はこの九ちゃんが達者なおしゃべりで、お店の売り上げアップに協力しているんだとか。",
+     "en": "Apparently, Kyu-chan's fluent talking actually helps boost the shop's sales.",
      "speaker": "Narrator"
     },
     {
      "start": 48.0,
-     "end": 51.5,
-     "ja": "ええ、協力してますよ。エサ代ぐらい稼ぐんじゃないですか？",
-     "en": "Yes, he helps out. He probably earns enough to cover his own food expenses, wouldn't you say?",
+     "end": 52.2,
+     "ja": "ええ、協力してますよ。エサ代くらい稼ぐんじゃないですか？",
+     "en": "Yes, he helps out. Doesn't he earn enough to cover his own food?",
      "speaker": "Owner"
     }
    ]
   },
   {
-   "start": 608.6,
-   "end": 630.0,
-   "title": "Saying Goodbye to the Parrot",
-   "level": "N5",
-   "topics": [
-    "animals",
-    "daily"
-   ],
-   "grammar": [
-    "〜てくる — go and come back",
-    "〜そう — appears to be / looks like"
-   ],
-   "quality": 4,
-   "lines": [
-    {
-     "start": 609.4,
-     "end": 612.4,
-     "ja": "ピーちゃん、お出かけしてくるね。",
-     "en": "Pii-chan, I'm heading out for a bit, okay?",
-     "speaker": "Owner"
-    },
-    {
-     "start": 612.4,
-     "end": 613.8,
-     "ja": "バイバイ！",
-     "en": "Bye-bye!",
-     "speaker": "Owner"
-    },
-    {
-     "start": 615.1,
-     "end": 616.4,
-     "ja": "バイバイ！",
-     "en": "Bye-bye!",
-     "speaker": "Owner"
-    },
-    {
-     "start": 617.4,
-     "end": 621.1,
-     "ja": "さあ、お母さんがお出かけするようです。",
-     "en": "Now, it looks like Mother is heading out.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 622.2,
-     "end": 624.5,
-     "ja": "こんな時は？",
-     "en": "At a time like this...?",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 625.3,
-     "end": 627.5,
-     "ja": "いってらっしゃ〜い！",
-     "en": "Take care!",
-     "speaker": "Parrot"
-    },
-    {
-     "start": 628.0,
-     "end": 630.0,
-     "ja": "いってらっしゃ〜い！",
-     "en": "Take care!",
-     "speaker": "Parrot"
-    }
-   ]
-  },
-  {
-   "start": 757.2,
-   "end": 782.0,
-   "title": "Asking for More Apple",
+   "start": 609.0,
+   "end": 630.5,
+   "title": "See You Later, Mom!",
    "level": "N5",
    "topics": [
     "animals",
     "daily",
-    "food"
+    "fun"
    ],
    "grammar": [
-    "〜ない？ — question asking for confirmation / invitation",
-    "〜てくれる — doing something for someone's sake"
+    "〜てくる — go and do something",
+    "〜よう — seems like / appears to"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 757.5,
-     "end": 760.3,
-     "ja": "終わりね。食べない？いらない？",
-     "en": "All done, right? Won't you eat? Don't want any?",
+     "start": 609.4,
+     "end": 612.0,
+     "ja": "ピーちゃん、お出かけしてくるね。",
+     "en": "P-chan, I'm going out for a bit.",
      "speaker": "Owner"
     },
     {
-     "start": 760.3,
-     "end": 761.5,
-     "ja": "もっと！",
-     "en": "More!",
-     "speaker": "Parrot"
-    },
-    {
-     "start": 761.5,
-     "end": 764.3,
-     "ja": "もっと？もっと？はい。",
-     "en": "More? More? Here you go.",
+     "start": 612.2,
+     "end": 613.5,
+     "ja": "バイバイ。",
+     "en": "Bye-bye.",
      "speaker": "Owner"
     },
     {
-     "start": 764.7,
-     "end": 766.1,
-     "ja": "はい。",
-     "en": "Here.",
+     "start": 614.5,
+     "end": 616.0,
+     "ja": "バイバイ。",
+     "en": "Bye-bye.",
      "speaker": "Owner"
     },
     {
-     "start": 767.1,
-     "end": 769.7,
-     "ja": "おいし、おいし！",
-     "en": "Delicious, delicious!",
-     "speaker": "Parrot"
-    },
-    {
-     "start": 771.5,
-     "end": 774.8,
-     "ja": "食べた感想。でも、これだけじゃありません。",
-     "en": "His review after eating! But that's not all.",
+     "start": 617.0,
+     "end": 621.5,
+     "ja": "さあ、お母さんがお出かけするようです。",
+     "en": "Now, it looks like Mom is heading out.",
      "speaker": "Narrator"
+    },
+    {
+     "start": 622.0,
+     "end": 624.0,
+     "ja": "こんな時は？",
+     "en": "At a time like this...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 624.8,
+     "end": 627.2,
+     "ja": "いってらっしゃ〜い！",
+     "en": "Have a good day!",
+     "speaker": "P-chan"
+    },
+    {
+     "start": 627.7,
+     "end": 629.8,
+     "ja": "いってらっしゃ〜い！",
+     "en": "Have a good day!",
+     "speaker": "P-chan"
+    }
+   ]
+  },
+  {
+   "start": 713.0,
+   "end": 738.0,
+   "title": "Feeding the Turtles with the Parrot",
+   "level": "N4",
+   "topics": [
+    "animals",
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜てて — casual form of 〜ていて (observing/doing)",
+    "〜な — casual imperative (eat!)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 713.3,
+     "end": 717.8,
+     "ja": "日常生活を見てて、自然に覚えたんですね。",
+     "en": "He watched our daily life and learned naturally.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 718.5,
+     "end": 722.2,
+     "ja": "そんな石川家の日常の一つが、カメのエサやり。",
+     "en": "One of the Ishikawa family's daily routines is feeding the turtles.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 722.5,
+     "end": 726.2,
+     "ja": "以前はお母さんが声をかけていたんですが...",
+     "en": "Mom used to call out to them, but...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 726.6,
+     "end": 728.8,
+     "ja": "はい、カメちゃんご飯食べな。",
+     "en": "All right, turtle, eat your food.",
+     "speaker": "P-chan"
+    },
+    {
+     "start": 729.0,
+     "end": 731.0,
+     "ja": "はい、ご飯よ〜。",
+     "en": "Here's your food!",
+     "speaker": "P-chan"
+    },
+    {
+     "start": 733.6,
+     "end": 735.0,
+     "ja": "カ〜メ〜。",
+     "en": "Tur~tle~.",
+     "speaker": "P-chan"
+    },
+    {
+     "start": 735.1,
+     "end": 736.2,
+     "ja": "あら、ここら？",
+     "en": "Oh, right here?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 736.3,
+     "end": 737.5,
+     "ja": "カ〜メ〜。",
+     "en": "Tur~tle~.",
+     "speaker": "P-chan"
     }
    ]
   }
@@ -178,5 +193,6 @@
  "pickTopics": [
   "animals"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

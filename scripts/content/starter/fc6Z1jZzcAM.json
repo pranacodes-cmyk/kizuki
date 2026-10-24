@@ -1,0 +1,30 @@
+{
+ "videoId": "fc6Z1jZzcAM",
+ "ids": [
+  "fc6Z1jZzcAM-12",
+  "fc6Z1jZzcAM-28"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "fc6Z1jZzcAM-28": {
+   "id": "fc6Z1jZzcAM-28",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Lively dialogue and expressive interactions, though slightly fast-paced."
+  },
+  "fc6Z1jZzcAM-12": {
+   "id": "fc6Z1jZzcAM-12",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Engaging fantasy character introductions with distinct, natural lines."
+  }
+ }
+}

@@ -2,193 +2,214 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 8.8,
+   "start": 0.3,
    "end": 18.8,
-   "title": "Introductions and Greetings",
-   "level": "N4",
+   "title": "Down 10 Million Yen Today!",
+   "level": "N3",
    "topics": [
     "work",
     "daily"
    ],
    "grammar": [
-    "〜と申します — my name is (humble)",
-    "〜させていただきます — allow me to do (humble)"
+    "〜てました — continuous/resultant state past",
+    "〜ていただく — receiving an action (humble)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 8.8,
-     "end": 10.6,
-     "ja": "すごい緩い感じで 初めまして。",
-     "en": "Starting off very relaxed: nice to meet you.",
-     "speaker": "Choruko"
+     "start": 0.6,
+     "end": 2.1,
+     "ja": "いや、もう地獄ですよ。",
+     "en": "Man, it's total hell.",
+     "speaker": "ちょる子"
     },
     {
-     "start": 10.6,
-     "end": 12.0,
-     "ja": "ちょる子と申します。",
-     "en": "I'm Choruko.",
-     "speaker": "Choruko"
+     "start": 2.1,
+     "end": 4.2,
+     "ja": "今日1000万円減ってました、さっき見たら。",
+     "en": "When I checked earlier, I was down 10 million yen today.",
+     "speaker": "ちょる子"
     },
     {
-     "start": 12.0,
-     "end": 14.7,
-     "ja": "今日はたぱぞうさんと ご一緒させていただいております。",
+     "start": 4.4,
+     "end": 6.8,
+     "ja": "うん、うん。うん。いや、なるほど。",
+     "en": "Yeah, yeah. Hmm, I see.",
+     "speaker": "たぱぞう"
+    },
+    {
+     "start": 8.5,
+     "end": 11.4,
+     "ja": "すごい緩い感じで。初めまして、ちょる子と申します。",
+     "en": "Starting off super casual. Nice to meet you, I'm Choruko.",
+     "speaker": "ちょる子"
+    },
+    {
+     "start": 11.4,
+     "end": 14.1,
+     "ja": "今日はたぱぞうさんとご一緒させていただいております。",
      "en": "I'm joined today by Tapazou-san.",
-     "speaker": "Choruko"
+     "speaker": "ちょる子"
     },
     {
-     "start": 14.7,
-     "end": 17.0,
-     "ja": "はい、改めまして たぱぞうです。",
-     "en": "Yes, once again, I'm Tapazou.",
-     "speaker": "Tapazou"
+     "start": 14.2,
+     "end": 17.2,
+     "ja": "はい、改めましてたぱぞうです。よろしくお願いいたします。",
+     "en": "Yes, hello everyone, I'm Tapazou. Nice to be here.",
+     "speaker": "たぱぞう"
     },
     {
-     "start": 17.0,
-     "end": 18.4,
-     "ja": "よろしくお願いいたします。",
-     "en": "It's a pleasure to be here.",
-     "speaker": "Tapazou"
+     "start": 17.3,
+     "end": 18.8,
+     "ja": "はい、よろしくお願いいたします。",
+     "en": "Yes, thank you for having me.",
+     "speaker": "ちょる子"
     }
    ]
   },
   {
-   "start": 231.8,
-   "end": 252.0,
-   "title": "Honored to Talk on a Volatile Day",
-   "level": "N3",
-   "topics": [
-    "work",
-    "friends"
-   ],
-   "grammar": [
-    "〜て光栄です — honored to do...",
-    "〜てて — casual form of 〜ていて"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 231.8,
-     "end": 235.4,
-     "ja": "いやいや、本当にこんなに相場がね、",
-     "en": "No, no, on a day when the market is moving...",
-     "speaker": "Tapazou"
-    },
-    {
-     "start": 235.4,
-     "end": 237.2,
-     "ja": "こう動いてる日に、",
-     "en": "...so dramatically like this,",
-     "speaker": "Tapazou"
-    },
-    {
-     "start": 237.2,
-     "end": 239.3,
-     "ja": "こう、ちょる子さんとお話しができて 光栄ですよ。",
-     "en": "it's an honor to talk with you, Choruko-san.",
-     "speaker": "Tapazou"
-    },
-    {
-     "start": 239.3,
-     "end": 240.7,
-     "ja": "あ、ありがとうございます。",
-     "en": "Ah, thank you so much.",
-     "speaker": "Choruko"
-    },
-    {
-     "start": 240.7,
-     "end": 244.6,
-     "ja": "私、あの、午前中ちょっと バタバタしててですね、",
-     "en": "I was a bit rushed this morning,",
-     "speaker": "Tapazou"
-    },
-    {
-     "start": 244.6,
-     "end": 246.5,
-     "ja": "電車遅れて、",
-     "en": "and the train was delayed,",
-     "speaker": "Tapazou"
-    },
-    {
-     "start": 246.5,
-     "end": 249.2,
-     "ja": "ここに着いて 暴落してることを知ったので、",
-     "en": "so I only found out about the crash when I arrived here.",
-     "speaker": "Tapazou"
-    },
-    {
-     "start": 249.7,
-     "end": 251.7,
-     "ja": "感動がより深いですね。",
-     "en": "So the shock is even deeper.",
-     "speaker": "Tapazou"
-    }
-   ]
-  },
-  {
-   "start": 744.4,
-   "end": 760.3,
-   "title": "Buying and Selling Just Now",
+   "start": 434.2,
+   "end": 455.5,
+   "title": "Frequent Trading and Holding Cash",
    "level": "N3",
    "topics": [
     "work",
     "daily"
    ],
    "grammar": [
-    "〜てた — casual past continuous",
-    "〜直す — to do again"
+    "〜んじゃないか — wondering if / thinking that",
+    "〜たら — conditional (when/if)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 744.4,
-     "end": 746.2,
-     "ja": "欲しかったやつは何ですか？",
-     "en": "What were the ones you wanted?",
-     "speaker": "Tapazou"
+     "start": 434.5,
+     "end": 436.8,
+     "ja": "結構あれなんですね、出入りをされるんですね。",
+     "en": "So you trade in and out quite a bit, right?",
+     "speaker": "たぱぞう"
     },
     {
-     "start": 746.2,
-     "end": 749.0,
-     "ja": "欲しかったやつはですね、 化学系が欲しかったんですよ。",
-     "en": "The ones I wanted were in the chemical sector.",
-     "speaker": "Choruko"
+     "start": 436.8,
+     "end": 439.5,
+     "ja": "あ、そうですね。私かなり出入りをするので、",
+     "en": "Ah, yes. I trade in and out quite a lot,",
+     "speaker": "ちょる子"
     },
     {
-     "start": 749.0,
-     "end": 753.1,
-     "ja": "で、さっき、あ、あとアドバンテストも 1回手放しちゃってたので、",
-     "en": "And earlier, ah, and Advantest, I had already sold it once,",
-     "speaker": "Choruko"
+     "start": 439.7,
+     "end": 444.0,
+     "ja": "あの、これがいいんじゃないかって思っても、もうすぐ、あの、何でしょう、",
+     "en": "so even if I thought something was good, as soon as, um, what can I say,",
+     "speaker": "ちょる子"
     },
     {
-     "start": 753.1,
-     "end": 754.7,
-     "ja": "さっき買い直して、もうすぐ、",
-     "en": "so I bought it back earlier and immediately...",
-     "speaker": "Choruko"
+     "start": 444.0,
+     "end": 447.5,
+     "ja": "見通しが曇ったらすぐ、はい、手放しますね。",
+     "en": "the outlook gets cloudy, I let go of it right away.",
+     "speaker": "ちょる子"
     },
     {
-     "start": 754.7,
-     "end": 755.7,
-     "ja": "さっき？",
-     "en": "Just now?",
-     "speaker": "Tapazou"
+     "start": 447.5,
+     "end": 453.4,
+     "ja": "なので結構こう、比較的今、ポジションとしては現金が多いので、",
+     "en": "So relatively speaking, my portfolio currently has a lot of cash,",
+     "speaker": "ちょる子"
     },
     {
-     "start": 755.7,
-     "end": 758.2,
-     "ja": "さっきです。さっき買って、 さっきもう売りました。",
-     "en": "Just now. I bought it a moment ago, and I already sold it.",
-     "speaker": "Choruko"
+     "start": 453.5,
+     "end": 455.3,
+     "ja": "ああ、じゃあワクワクですね。",
+     "en": "Oh, so you must be excited, then.",
+     "speaker": "たぱぞう"
+    }
+   ]
+  },
+  {
+   "start": 552.7,
+   "end": 579.5,
+   "title": "Why Index Investing Is So Easy",
+   "level": "N3",
+   "topics": [
+    "work",
+    "daily"
+   ],
+   "grammar": [
+    "〜すぎる — doing excessively",
+    "〜てほしい — wanting someone to do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 553.0,
+     "end": 555.5,
+     "ja": "私はもう最近、指数が好きすぎましてね。",
+     "en": "Lately, I've just grown way too fond of index investing.",
+     "speaker": "たぱぞう"
     },
     {
-     "start": 758.2,
-     "end": 760.2,
-     "ja": "リバ取りみたいな感じで。",
-     "en": "Just catching a small rebound.",
-     "speaker": "Choruko"
+     "start": 555.8,
+     "end": 556.4,
+     "ja": "ほう。",
+     "en": "Oh?",
+     "speaker": "ちょる子"
+    },
+    {
+     "start": 556.5,
+     "end": 557.7,
+     "ja": "あれ楽なんですよ。",
+     "en": "It's just so easy.",
+     "speaker": "たぱぞう"
+    },
+    {
+     "start": 557.8,
+     "end": 560.8,
+     "ja": "あ、それで日経平均はいまいちっていうお話をされたんですね。",
+     "en": "Ah, that's why you mentioned the Nikkei 225 was so-so.",
+     "speaker": "ちょる子"
+    },
+    {
+     "start": 561.0,
+     "end": 563.0,
+     "ja": "日経平均は買わないですね。",
+     "en": "I wouldn't buy the Nikkei 225.",
+     "speaker": "たぱぞう"
+    },
+    {
+     "start": 563.7,
+     "end": 564.9,
+     "ja": "TOPIXどうですか？",
+     "en": "How about TOPIX?",
+     "speaker": "ちょる子"
+    },
+    {
+     "start": 565.0,
+     "end": 569.4,
+     "ja": "TOPIXも、あの、東証さんは私は非常に応援してますので、",
+     "en": "With TOPIX as well, well, I strongly support the Tokyo Stock Exchange,",
+     "speaker": "たぱぞう"
+    },
+    {
+     "start": 569.8,
+     "end": 571.9,
+     "ja": "良くなってほしいなと思いますね。",
+     "en": "so I really hope it improves.",
+     "speaker": "たぱぞう"
+    },
+    {
+     "start": 572.1,
+     "end": 573.8,
+     "ja": "今一生懸命変えてますもんね。",
+     "en": "They're working really hard to reform things right now.",
+     "speaker": "たぱぞう"
+    },
+    {
+     "start": 574.5,
+     "end": 578.6,
+     "ja": "昔はね、TOPIX ETFとか結構買ってましたけどね。",
+     "en": "In the past, I used to buy quite a few TOPIX ETFs.",
+     "speaker": "たぱぞう"
     }
    ]
   }
@@ -197,5 +218,6 @@
  "pickTopics": [
   "work"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

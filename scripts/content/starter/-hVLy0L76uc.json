@@ -1,7 +1,8 @@
 {
  "videoId": "-hVLy0L76uc",
  "ids": [
-  "-hVLy0L76uc-0"
+  "-hVLy0L76uc-0",
+  "-hVLy0L76uc-595"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
@@ -9,11 +10,21 @@
    "id": "-hVLy0L76uc-0",
    "appeal": 6,
    "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Friendly vlog greeting and introduction in a car setting."
+  },
+  "-hVLy0L76uc-595": {
+   "id": "-hVLy0L76uc-595",
+   "appeal": 3,
+   "clarity": 4,
    "picture": 3,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Friendly introduction and clear natural Japanese about visiting a ramen shop."
+   "why": "Generic YouTube outro asking viewers to like and subscribe."
   }
  }
 }

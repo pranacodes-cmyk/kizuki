@@ -1,19 +1,19 @@
 {
  "videoId": "PQ6gyTBbTDM",
  "ids": [
-  "PQ6gyTBbTDM-101"
+  "PQ6gyTBbTDM-61"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "PQ6gyTBbTDM-101": {
-   "id": "PQ6gyTBbTDM-101",
+  "PQ6gyTBbTDM-61": {
+   "id": "PQ6gyTBbTDM-61",
    "appeal": 6,
    "clarity": 3,
-   "picture": 3,
+   "picture": 4,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Expressive scene with simple words like oishii and tabetai."
+   "why": "Cute anime scene with very simple, recognizable food-related Japanese words."
   }
  }
 }

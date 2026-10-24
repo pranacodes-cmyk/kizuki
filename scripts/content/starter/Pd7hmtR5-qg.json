@@ -1,0 +1,21 @@
+{
+ "videoId": "Pd7hmtR5-qg",
+ "ids": [
+  "Pd7hmtR5-qg-139"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Pd7hmtR5-qg-139": {
+   "id": "Pd7hmtR5-qg-139",
+   "appeal": 4,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "unsafe content"
+   ],
+   "why": "Humorous stage sketch, but involves adult themes inappropriate for beginners."
+  }
+ }
+}

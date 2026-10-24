@@ -1,0 +1,19 @@
+{
+ "videoId": "jg_zssYfQFY",
+ "ids": [
+  "jg_zssYfQFY-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "jg_zssYfQFY-0": {
+   "id": "jg_zssYfQFY-0",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear vlog narration about meeting friends, accompanied by travel footage."
+  }
+ }
+}

@@ -2,54 +2,61 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 0.5,
-   "end": 19.5,
-   "title": "Explaining the New Buzz Cut",
+   "start": 0.0,
+   "end": 19.2,
+   "title": "Explaining the Shaved Head",
    "level": "N3",
    "topics": [
     "work",
     "daily"
    ],
    "grammar": [
-    "〜ていただく — humble permission",
-    "〜ので — because, since"
+    "〜させていただく — humble expression of doing something",
+    "〜ので — because / since"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 0.6,
-     "end": 2.1,
+     "start": 0.3,
+     "end": 1.8,
      "ja": "どうも、佐野勇斗です。",
      "en": "Hello, I'm Hayato Sano.",
      "speaker": "Hayato"
     },
     {
-     "start": 2.3,
+     "start": 2.0,
+     "end": 3.9,
+     "ja": "みなさんお気づきの通り、",
+     "en": "As you may have noticed,",
+     "speaker": "Hayato"
+    },
+    {
+     "start": 4.2,
      "end": 8.5,
-     "ja": "皆さんお気づきの通り、私、髪の毛を丸刈りにさせていただきました。",
-     "en": "As you may have noticed, I got a buzz cut.",
+     "ja": "私、髪の毛を丸刈りにさせていただきました。",
+     "en": "I have shaved my head.",
      "speaker": "Hayato"
     },
     {
-     "start": 9.1,
-     "end": 15.5,
-     "ja": "朝の連続テレビ小説『おむすび』で高校野球球児を演じるので、",
-     "en": "Since I'll be playing a high school baseball player in the morning drama series 'Omusubi,'",
+     "start": 9.0,
+     "end": 14.8,
+     "ja": "朝の連続テレビ小説『おむすび』で高校球児を演じるので、",
+     "en": "Since I'm playing a high school baseball player in the morning drama series Omusubi,",
      "speaker": "Hayato"
     },
     {
-     "start": 15.8,
-     "end": 19.2,
+     "start": 15.5,
+     "end": 18.8,
      "ja": "頭を丸刈りにしました。",
-     "en": "I shaved my head.",
+     "en": "I went and buzzed my head.",
      "speaker": "Hayato"
     }
    ]
   },
   {
-   "start": 123.8,
-   "end": 144.0,
-   "title": "Surprising the Group Members",
+   "start": 123.5,
+   "end": 144.5,
+   "title": "Shocking the Group Members",
    "level": "N4",
    "topics": [
     "fun",
@@ -57,23 +64,23 @@
     "comedy"
    ],
    "grammar": [
-    "どうする — what to do",
-    "〜を込めて — with (feelings of)"
+    "〜てくる — to do and come / to end up doing",
+    "〜を込めて — with (feelings) put into"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
      "start": 123.8,
-     "end": 125.8,
-     "ja": "ういー、こんにちは。",
-     "en": "Hey, hello.",
+     "end": 125.4,
+     "ja": "こんにちは。",
+     "en": "Hello.",
      "speaker": "Hayato"
     },
     {
-     "start": 125.8,
+     "start": 125.4,
      "end": 128.5,
-     "ja": "ええええっ！？",
-     "en": "Whaaaat?!",
+     "ja": "えええっ！？",
+     "en": "Whaaat?!",
      "speaker": "Members"
     },
     {
@@ -85,119 +92,133 @@
     },
     {
      "start": 130.0,
-     "end": 132.4,
+     "end": 132.3,
      "ja": "丸めてきました、謝罪の気持ちを込めて。",
-     "en": "I shaved it off, as a sign of apology.",
+     "en": "I shaved it, as a sign of apology.",
      "speaker": "Hayato"
     },
     {
-     "start": 132.4,
-     "end": 134.5,
-     "ja": "いやいやいやいや。",
+     "start": 132.3,
+     "end": 134.8,
+     "ja": "いやいやいやいや...",
      "en": "No, no, no, no...",
      "speaker": "Member"
     },
     {
      "start": 135.5,
-     "end": 137.0,
+     "end": 136.8,
      "ja": "ライブどうすんの？",
      "en": "What about the concert?",
      "speaker": "Member"
     },
     {
-     "start": 137.0,
-     "end": 138.2,
+     "start": 136.8,
+     "end": 138.1,
      "ja": "これで出ます。",
-     "en": "I'll go on like this.",
+     "en": "I'll perform like this.",
      "speaker": "Hayato"
     },
     {
-     "start": 138.2,
-     "end": 140.0,
+     "start": 138.1,
+     "end": 139.3,
      "ja": "えっ！？",
      "en": "What?!",
      "speaker": "Member"
     },
     {
-     "start": 140.0,
-     "end": 141.5,
-     "ja": "あの王子衣装？",
-     "en": "In that prince costume?",
+     "start": 139.8,
+     "end": 142.3,
+     "ja": "あの王子衣装で？",
+     "en": "In that prince outfit?",
      "speaker": "Member"
     },
     {
-     "start": 141.5,
-     "end": 142.5,
-     "ja": "すみません…",
-     "en": "Sorry...",
+     "start": 142.3,
+     "end": 143.5,
+     "ja": "すみません。",
+     "en": "Sorry about that.",
      "speaker": "Hayato"
-    },
-    {
-     "start": 142.5,
-     "end": 143.7,
-     "ja": "本当に？",
-     "en": "Really?",
-     "speaker": "Member"
     }
    ]
   },
   {
-   "start": 235.5,
-   "end": 248.0,
-   "title": "Will He Wear a Wig on Stage?",
-   "level": "N4",
+   "start": 155.0,
+   "end": 212.0,
+   "title": "Should Have Waited After the Show",
+   "level": "N3",
    "topics": [
     "fun",
     "friends",
-    "work"
+    "comedy"
    ],
    "grammar": [
-    "〜っす — informal polite form",
-    "〜くね？ — casual negative tag question"
+    "〜ばよかった — should have done",
+    "〜んじゃない — isn't it? (seeking agreement)"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 235.8,
-     "end": 239.0,
-     "ja": "正直、坊主じゃないっす、ライブは。",
-     "en": "Honestly, I won't be bald for the concert.",
+     "start": 155.3,
+     "end": 159.5,
+     "ja": "これさ、最悪２日目終わったその日、その瞬間で良かったんじゃないの？",
+     "en": "Couldn't you have waited until the moment day two ended at the very least?",
+     "speaker": "Member"
+    },
+    {
+     "start": 160.0,
+     "end": 161.4,
+     "ja": "カツラ被るでしょ？",
+     "en": "You're gonna wear a wig, right?",
+     "speaker": "Member"
+    },
+    {
+     "start": 161.4,
+     "end": 162.2,
+     "ja": "それな。",
+     "en": "Totally.",
      "speaker": "Hayato"
     },
     {
-     "start": 239.0,
-     "end": 240.5,
-     "ja": "カツラ被ります。",
-     "en": "I'm going to wear a wig.",
+     "start": 162.5,
+     "end": 164.0,
+     "ja": "何？「それな」って。",
+     "en": "What do you mean 'totally'?",
+     "speaker": "Member"
+    },
+    {
+     "start": 164.5,
+     "end": 166.5,
+     "ja": "誰に対してそれ？",
+     "en": "Who are you agreeing with?",
+     "speaker": "Member"
+    },
+    {
+     "start": 166.5,
+     "end": 167.5,
+     "ja": "君だ。",
+     "en": "You.",
      "speaker": "Hayato"
     },
     {
-     "start": 240.5,
-     "end": 241.8,
-     "ja": "ああ、そうなんだ。",
-     "en": "Ah, is that so?",
+     "start": 167.5,
+     "end": 168.2,
+     "ja": "俺？",
+     "en": "Me?",
      "speaker": "Member"
     },
     {
-     "start": 242.0,
-     "end": 244.2,
-     "ja": "別に似合うよ、やっぱり。",
-     "en": "Actually it looks good on you after all.",
+     "start": 168.3,
+     "end": 171.0,
+     "ja": "２日目のライブが終わった瞬間に剃れば良かったんじゃないの？",
+     "en": "Shouldn't you have shaved right after the day two show ended?",
      "speaker": "Member"
     },
     {
-     "start": 244.2,
-     "end": 246.0,
-     "ja": "なんか頭ちっちゃくね？",
-     "en": "Doesn't your head look tiny?",
-     "speaker": "Member"
-    },
-    {
-     "start": 246.0,
-     "end": 247.8,
-     "ja": "でもさ、なんかすごいね。",
-     "en": "Still though, it's pretty impressive.",
-     "speaker": "Member"
+     "start": 171.0,
+     "end": 171.8,
+     "ja": "それな。",
+     "en": "Totally.",
+     "speaker": "Hayato"
     }
    ]
   }
@@ -206,5 +227,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -4,171 +4,172 @@
   {
    "start": 16.8,
    "end": 39.5,
-   "title": "Introduction to Venture House",
+   "title": "Introducing Venture House",
    "level": "N3",
    "topics": [
     "work"
    ],
    "grammar": [
-    "〜と申します — humble introduction",
-    "〜させていただく — humbly do something"
+    "〜ております — humble progressive / state",
+    "〜させていただく — humble causative",
+    "〜かなと思う — expressing personal impression"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 16.9,
-     "end": 20.6,
+     "start": 17.0,
+     "end": 20.8,
      "ja": "株式会社Venture Houseの熊谷恵人と申します。よろしくお願いします。",
      "en": "My name is Manato Kumagai from Venture House Co., Ltd. Pleased to meet you.",
-     "speaker": "熊谷"
+     "speaker": "Kumagai"
     },
     {
-     "start": 20.8,
-     "end": 23.8,
+     "start": 21.0,
+     "end": 24.0,
      "ja": "今、営業代行というのをメインでやっております。",
-     "en": "Currently, we mainly work as a sales agency.",
-     "speaker": "熊谷"
+     "en": "Right now, we mainly operate as a sales agency.",
+     "speaker": "Kumagai"
     },
     {
-     "start": 24.2,
-     "end": 31.0,
-     "ja": "扱っている商材としては、通信とか電気系の事業というのを訪問販売中心に販売させていただいています。",
-     "en": "As for products, we sell telecommunications and energy services, primarily through door-to-door sales.",
-     "speaker": "熊谷"
+     "start": 24.3,
+     "end": 27.8,
+     "ja": "扱っている商材としては、通信とか電気系の事業というのを",
+     "en": "In terms of the products we handle, with telecommunications and electricity businesses,",
+     "speaker": "Kumagai"
     },
     {
-     "start": 31.3,
-     "end": 37.0,
-     "ja": "僕らの会社の特徴としては、営業組織というものを学生のみで形成しているところ。",
-     "en": "A feature of our company is that our sales organization is formed entirely of students.",
-     "speaker": "熊谷"
+     "start": 28.0,
+     "end": 31.2,
+     "ja": "訪問販売中心に販売させていただいています。",
+     "en": "we sell them mainly through door-to-door sales.",
+     "speaker": "Kumagai"
     },
     {
-     "start": 37.2,
-     "end": 39.3,
+     "start": 31.5,
+     "end": 36.8,
+     "ja": "僕らの会社の特徴としては、営業組織というのを学生のみで形成しているところ、",
+     "en": "As for the feature of our company, having our sales organization formed only by students,",
+     "speaker": "Kumagai"
+    },
+    {
+     "start": 37.0,
+     "end": 39.5,
      "ja": "そこが一番の特徴かなと思います。",
-     "en": "I think that's our biggest defining trait.",
-     "speaker": "熊谷"
+     "en": "I think that is our biggest characteristic.",
+     "speaker": "Kumagai"
     }
    ]
   },
   {
-   "start": 39.8,
-   "end": 65.0,
-   "title": "From Aspiring Teacher to Entrepreneur",
+   "start": 224.3,
+   "end": 242.5,
+   "title": "Modern Reading, Writing, and Abacus",
    "level": "N3",
    "topics": [
     "work",
-    "school"
+    "culture"
    ],
    "grammar": [
-    "〜というのが夢 — my dream was to...",
-    "〜ていた — ongoing/past state",
-    "〜たいなと思う — thinking that one wants to do something"
+    "〜ように — just like / as",
+    "〜上での — in the process of / for doing",
+    "〜ために — for the purpose of"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 40.0,
-     "end": 46.5,
-     "ja": "元々、僕自身が小学校の時から小・中・高・大って教員になるというのが夢で、",
-     "en": "Originally, ever since elementary school and through college, my dream was to become a teacher,",
-     "speaker": "熊谷"
+     "start": 224.5,
+     "end": 227.0,
+     "ja": "僕の中で挑戦するための要素、",
+     "en": "In my view, the elements needed to take on challenges,",
+     "speaker": "Kumagai"
     },
     {
-     "start": 46.7,
-     "end": 50.3,
-     "ja": "大学ももちろん教育学部の大学に進学して、",
-     "en": "and of course I went on to study at a university's faculty of education,",
-     "speaker": "熊谷"
+     "start": 227.2,
+     "end": 231.6,
+     "ja": "それこそ昔の寺子屋が「読み・書き・そろばん」というのを教えていたように、",
+     "en": "just like how the old temple schools taught reading, writing, and the abacus,",
+     "speaker": "Kumagai"
     },
     {
-     "start": 50.5,
-     "end": 53.2,
-     "ja": "そこで教育について学んでいたんですけど、",
-     "en": "and I was studying education there, but...",
-     "speaker": "熊谷"
+     "start": 231.9,
+     "end": 234.5,
+     "ja": "僕も今、現代版の「読み・書き・そろばん」というところが",
+     "en": "I think a modern version of reading, writing, and the abacus",
+     "speaker": "Kumagai"
     },
     {
-     "start": 53.4,
-     "end": 57.6,
-     "ja": "実際自分が思い描いていた教員像と違う部分があって、",
-     "en": "there were parts that differed from the image of a teacher I had envisioned,",
-     "speaker": "熊谷"
+     "start": 234.7,
+     "end": 237.1,
+     "ja": "結構挑戦する上での要素になるなと思ってて、",
+     "en": "serves as key elements when taking on challenges,",
+     "speaker": "Kumagai"
     },
     {
-     "start": 57.8,
-     "end": 60.1,
-     "ja": "自分が教員にならないという道を選んで、",
-     "en": "so I chose the path of not becoming a schoolteacher,",
-     "speaker": "熊谷"
-    },
-    {
-     "start": 60.2,
-     "end": 62.8,
-     "ja": "じゃあ自分で教育事業立ち上げたいなって、",
-     "en": "and thought, 'Then I want to start my own education business,'",
-     "speaker": "熊谷"
-    },
-    {
-     "start": 62.9,
-     "end": 65.0,
-     "ja": "そこで起業しようと思ったのがきっかけになります。",
-     "en": "and deciding to start a business was how it began.",
-     "speaker": "熊谷"
+     "start": 237.4,
+     "end": 242.2,
+     "ja": "具体的に「読み」で何かと言うと、昔って「読み」って何のためにやってたかと言うと知識をつけるため。",
+     "en": "and speaking specifically about 'reading', the reason people practiced reading in the past was to acquire knowledge.",
+     "speaker": "Kumagai"
     }
    ]
   },
   {
    "start": 727.0,
-   "end": 747.8,
-   "title": "An Indispensable Item: The iPad",
+   "end": 747.5,
+   "title": "Must-Have Item: The iPad",
    "level": "N3",
    "topics": [
     "work",
     "daily"
    ],
    "grammar": [
-    "〜にとって — for / to (someone)",
-    "〜ってなった時 — when it came to... / when it was decided that...",
-    "〜てて — casual form of 〜ていて"
+    "〜に欠かせない — indispensable to",
+    "〜と言うと — when it comes to / if you ask why",
+    "〜てくる — indicates gradual progression or emergence"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 727.1,
+     "start": 227.2,
      "end": 729.8,
-     "ja": "私の人生に欠かせない3つのアイテム。",
+     "ja": "私の人生に欠かせない３つのアイテム。",
      "en": "Three items indispensable to my life.",
-     "speaker": "熊谷"
+     "speaker": "Kumagai"
     },
     {
      "start": 730.0,
-     "end": 731.8,
-     "ja": "1つ目はiPadです。",
+     "end": 732.0,
+     "ja": "１つ目はiPadです。",
      "en": "The first one is an iPad.",
-     "speaker": "熊谷"
+     "speaker": "Kumagai"
     },
     {
-     "start": 732.4,
-     "end": 736.8,
-     "ja": "これ何で僕にとって欠かせないものになっているかというと、",
-     "en": "As for why this has become indispensable to me,",
-     "speaker": "熊谷"
+     "start": 732.8,
+     "end": 736.7,
+     "ja": "これ、なんで僕にとって欠かせないものになっているかと言うと、",
+     "en": "As for why this has become an indispensable item for me,",
+     "speaker": "Kumagai"
     },
     {
      "start": 737.0,
-     "end": 743.6,
-     "ja": "僕が営業のクロージングに初めて入るってなった時に買ったiPadになってくるんですけど、",
-     "en": "it's the iPad I bought when I was about to handle sales closing for the first time,",
-     "speaker": "熊谷"
+     "end": 740.2,
+     "ja": "僕がそもそも営業のクロージングに",
+     "en": "when I first got involved",
+     "speaker": "Kumagai"
     },
     {
-     "start": 744.0,
-     "end": 746.5,
-     "ja": "かれこれもう3〜4年ぐらい使ってて、",
+     "start": 740.4,
+     "end": 743.0,
+     "ja": "初めて入るってなった時に買ったiPadになってくるんですけど、",
+     "en": "in closing sales deals, this was the iPad I bought,",
+     "speaker": "Kumagai"
+    },
+    {
+     "start": 743.5,
+     "end": 746.8,
+     "ja": "かれこれもう３、４年ぐらい使ってて、",
      "en": "and I've been using it for about three or four years now.",
-     "speaker": "熊谷"
+     "speaker": "Kumagai"
     }
    ]
   }
@@ -177,5 +178,6 @@
  "pickTopics": [
   "work"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -1,6 +1,7 @@
 {
  "videoId": "_xfya3OAPg8",
  "ids": [
+  "_xfya3OAPg8-115",
   "_xfya3OAPg8-28"
  ],
  "model": "google/gemini-3.8-flash",
@@ -9,11 +10,21 @@
    "id": "_xfya3OAPg8-28",
    "appeal": 4,
    "clarity": 4,
-   "picture": 2,
+   "picture": 3,
    "ease": 4,
    "english": false,
    "issues": [],
-   "why": "Clear slow Japanese news reading, but static textbook-style screen recording."
+   "why": "Clear easy Japanese narration over a static educational slide."
+  },
+  "_xfya3OAPg8-115": {
+   "id": "_xfya3OAPg8-115",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Slow and intelligible news audio paired with static slides."
   }
  }
 }

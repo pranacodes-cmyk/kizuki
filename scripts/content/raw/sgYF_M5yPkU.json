@@ -2,173 +2,157 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 27.8,
-   "end": 45.8,
-   "title": "Putting Humans Before Things",
+   "start": 28.0,
+   "end": 46.2,
+   "title": "Materialism vs Human Happiness",
    "level": "N2",
    "topics": [
     "work",
     "culture"
    ],
    "grammar": [
-    "〜ていうと — if you ask / speaking of",
     "〜のに — even though / despite",
-    "決して〜ない — by no means / not at all"
+    "〜っていうのは — speaking of / that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 27.8,
-     "end": 31.8,
-     "ja": "20世紀ってやっぱり我々、モノの時代だったっていう風に捉えてまして、",
-     "en": "We consider the 20th century to have been an era of material things,",
+     "start": 28.2,
+     "end": 31.5,
+     "ja": "20世紀ってやっぱり、我々モノの時代だったっていう風に捉えてまして、",
+     "en": "We view the 20th century as an era focused on material things,",
      "speaker": "Endo"
     },
     {
      "start": 31.8,
-     "end": 35.0,
-     "ja": "じゃあそれで本当に全員幸せになったの？っていうと、",
-     "en": "and if you ask, \"Did that really make everyone happy?\",",
+     "end": 35.5,
+     "ja": "じゃあそれで本当に全員幸せになったの？っていうと、決してそんなことはなくて、",
+     "en": "and if you ask whether that made everyone happy, that's definitely not the case.",
      "speaker": "Endo"
     },
     {
-     "start": 35.0,
-     "end": 37.0,
-     "ja": "決してそんなことはなくて、",
-     "en": "that certainly wasn't the case.",
+     "start": 36.0,
+     "end": 40.5,
+     "ja": "モノ自体は人間の幸せのための手段なのに、手段が目的になっていて、",
+     "en": "Things are meant to be a means to human happiness, yet the means became the end,",
      "speaker": "Endo"
     },
     {
-     "start": 37.0,
-     "end": 39.8,
-     "ja": "モノ自体は人間の幸せのための手段なのに、",
-     "en": "Even though things themselves are merely means to human happiness,",
-     "speaker": "Endo"
-    },
-    {
-     "start": 39.8,
-     "end": 41.5,
-     "ja": "手段が目的になっていて、",
-     "en": "the means became the purpose,",
-     "speaker": "Endo"
-    },
-    {
-     "start": 41.5,
-     "end": 44.0,
-     "ja": "モノが重要であり お金が重要であるっていうのって、",
-     "en": "and believing things and money are what's important",
-     "speaker": "Endo"
-    },
-    {
-     "start": 44.0,
+     "start": 40.8,
      "end": 45.8,
-     "ja": "ちょっとひっくり返ってるよねと。",
-     "en": "is a bit backwards, isn't it?",
+     "ja": "モノが重要でありお金が重要であるっていうのって、ちょっとひっくり返ってるよねと。",
+     "en": "and thinking material goods and money are what matter is rather backwards.",
      "speaker": "Endo"
     }
    ]
   },
   {
-   "start": 124.5,
-   "end": 139.0,
-   "title": "Finding Happiness in Being Helpful",
-   "level": "N3",
+   "start": 129.2,
+   "end": 146.8,
+   "title": "Finding Meaning in Society",
+   "level": "N2",
    "topics": [
     "work",
-    "culture"
+    "daily"
    ],
    "grammar": [
-    "〜にこだわる — to be particular about / obsess over",
     "〜しか〜ない — only / nothing but",
-    "なかなか〜ない — not easily / quite difficult to"
+    "〜ていい — allowed to / okay to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 124.5,
-     "end": 128.8,
-     "ja": "あの、beBitは役に立つことに徹底的にこだわった会社です。",
-     "en": "Well, beBit is a company thoroughly dedicated to being helpful.",
-     "speaker": "Endo"
-    },
-    {
-     "start": 128.8,
+     "start": 129.5,
      "end": 132.5,
      "ja": "人って社会の中でしか生きられないし、",
-     "en": "People can only live within society,",
+     "en": "Humans can only live within society,",
      "speaker": "Endo"
     },
     {
-     "start": 132.5,
+     "start": 132.7,
      "end": 135.5,
-     "ja": "まあ家族も友達も同僚もいる中で、",
-     "en": "and with family, friends, and colleagues around us,",
+     "ja": "ま、家族も友達も同僚もいる中で、",
+     "en": "and surrounded by family, friends, and colleagues,",
      "speaker": "Endo"
     },
     {
-     "start": 135.5,
-     "end": 139.0,
-     "ja": "自分だけが幸せになるってなかなか難しい。",
-     "en": "it's quite difficult to be happy all by yourself.",
+     "start": 135.6,
+     "end": 138.2,
+     "ja": "自分だけが幸せになるって、なかなか難しい。",
+     "en": "it's quite hard to become happy all by oneself.",
+     "speaker": "Endo"
+    },
+    {
+     "start": 138.8,
+     "end": 141.2,
+     "ja": "その社会に所属していていいとかですね、",
+     "en": "Feeling like it's okay to belong to society,",
+     "speaker": "Endo"
+    },
+    {
+     "start": 141.3,
+     "end": 146.5,
+     "ja": "自分がいる意味があるっていうのは、どうやって感じられるのかっていうのを、ま、我々考えた時に、",
+     "en": "and how one can feel a sense of purpose—when we thought about this,",
      "speaker": "Endo"
     }
    ]
   },
   {
-   "start": 221.8,
-   "end": 241.5,
+   "start": 142.0,
+   "end": 162.0,
    "title": "Creating Safety to Fail and Learn",
    "level": "N2",
    "topics": [
     "work"
    ],
    "grammar": [
-    "〜じゃないですか — isn't it? / as you know",
-    "〜ていい — it's okay to",
-    "〜べきだ — should / ought to"
+    "〜じゃないですか — isn't it? / you know",
+    "〜たら — conditional (if / when)",
+    "〜べき — should / ought to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 221.8,
-     "end": 225.2,
-     "ja": "多くの組織だと 何か新しいことを始める時に、",
+     "start": 142.2,
+     "end": 145.4,
+     "ja": "多くの組織だと、何か新しいことを始める時に、",
      "en": "In many organizations, when starting something new,",
      "speaker": "Endo"
     },
     {
-     "start": 225.2,
-     "end": 227.6,
+     "start": 145.5,
+     "end": 148.0,
      "ja": "「それ絶対成功するんですか？」って聞いたりするじゃないですか。",
-     "en": "people often ask, \"Is that definitely going to succeed?\", right?",
+     "en": "people ask things like, \"Is that guaranteed to succeed?\"",
      "speaker": "Endo"
     },
     {
-     "start": 227.6,
-     "end": 231.2,
-     "ja": "そんな絶対成功することがあったら 全員やってるよって思うんですよね。",
-     "en": "I feel like if such guaranteed successes existed, everyone would be doing them.",
+     "start": 148.2,
+     "end": 151.7,
+     "ja": "そんな絶対成功することがあったら、全員やってるよって思うんですね。",
+     "en": "I always think, if there were a guaranteed success, everyone would already do it.",
      "speaker": "Endo"
     },
     {
-     "start": 231.2,
-     "end": 234.6,
-     "ja": "で、「挑戦していいんだよ」「失敗していいんだよ」",
-     "en": "So saying \"it's okay to take on challenges\" and \"it's okay to fail\",",
+     "start": 152.0,
+     "end": 154.5,
+     "ja": "で、「挑戦していいんだよ、失敗していいんだよ」と。",
+     "en": "So we say, \"It's okay to take on challenges, and it's okay to fail.\"",
      "speaker": "Endo"
     },
     {
-     "start": 234.6,
-     "end": 237.0,
+     "start": 154.7,
+     "end": 156.8,
      "ja": "で、ただ絶対学習しないといけないけど、",
-     "en": "and while of course you must learn from it,",
+     "en": "Though, of course, you definitely must learn from it,",
      "speaker": "Endo"
     },
     {
-     "start": 237.0,
-     "end": 241.5,
-     "ja": "みんな失敗していいし 挑戦していいんだっていうことに対する安全性を作るべきだと思っていて、",
-     "en": "I think we should create psychological safety where everyone is allowed to fail and try.",
+     "start": 157.0,
+     "end": 161.8,
+     "ja": "みんな失敗していいし挑戦していいんだっていうことに対する安全性を作るべきだと思っていて、",
+     "en": "I believe we should create psychological safety where it's okay for anyone to fail and try again.",
      "speaker": "Endo"
     }
    ]
@@ -178,5 +162,6 @@
  "pickTopics": [
   "work"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

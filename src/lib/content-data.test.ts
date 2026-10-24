@@ -29,6 +29,28 @@ const shown = (surface: string, pos?: string) => {
   return e ? { w: e.w, j: e.j, g: e.m[0]?.g ?? "" } : null;
 };
 
+describe("library checked against the official player", () => {
+  const playable = JSON.parse(read("scripts/content/playable.json")) as Record<string, { duration?: number; error?: number }>;
+  const meta2 = JSON.parse(read("public/data/content.json")) as { starter: string[] };
+  const all = meta.parts.flatMap((p) => (JSON.parse(read(`public/data/${p}`)) as { clips: { id: string; videoId: string; start: number; end: number; level: string }[] }).clips);
+  it("no shipped clip starts past its video's real length or comes from an embed-blocked video", () => {
+    const bad = all.filter((c) => {
+      const r = playable[c.videoId];
+      return !r || r.error != null || (r.duration ?? 0) <= 0 || c.start >= r.duration! || c.end > r.duration! + 0.75;
+    });
+    expect(bad.map((c) => c.id)).toEqual([]);
+  });
+  it("the starter feed is 40–50 existing clips, no repeats, at most 2 per video channel and mostly N5", () => {
+    const ids = new Set(all.map((c) => c.id));
+    expect(meta2.starter.length).toBeGreaterThanOrEqual(40);
+    expect(meta2.starter.length).toBeLessThanOrEqual(50);
+    expect(new Set(meta2.starter).size).toBe(meta2.starter.length);
+    expect(meta2.starter.every((id) => ids.has(id))).toBe(true);
+    const lv = meta2.starter.map((id) => all.find((c) => c.id === id)!.level);
+    expect(lv.filter((l) => l === "N5").length).toBeGreaterThan(lv.length / 2);
+  });
+});
+
 describe("word levels and grammar words (word card badge)", () => {
   it("everyday greetings and first-lesson words are N5, not N3/N2/N1", () => {
     for (const s of ["おはよう", "こんにちは", "ありがとう", "すみません", "これ", "それ", "さん", "だけ", "日本"]) {
@@ -73,7 +95,8 @@ describe("clip word meanings", () => {
 
   it("katakana words the tokenizer splits stay one word (Gundam is not 'cancer' + 'dam')", () => {
     const surfaces = new Set(words.map((w) => w.s));
-    for (const whole of ["ガンダム", "イヤホン", "サブウェイ", "ブルーレイ", "カンフー"]) expect(surfaces.has(whole), whole).toBe(true);
+    // (サブウェイ left with a video whose timing failed the official-player check; the split guard below still covers it.)
+    for (const whole of ["ガンダム", "イヤホン", "ブルーレイ", "カンフー"]) expect(surfaces.has(whole), whole).toBe(true);
     expect(glossOf("ガンダム")).toMatch(/^Gundam/);
     expect(glossOf("イヤホン")).toMatch(/^earphone/);
     for (const piece of ["ガン", "ダム", "イヤ", "ホン", "ウェイ"]) {

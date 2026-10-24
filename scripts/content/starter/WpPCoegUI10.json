@@ -1,0 +1,21 @@
+{
+ "videoId": "WpPCoegUI10",
+ "ids": [
+  "WpPCoegUI10-161"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "WpPCoegUI10-161": {
+   "id": "WpPCoegUI10-161",
+   "appeal": 4,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "awkward context"
+   ],
+   "why": "Casual street banter is mildly amusing but begins awkwardly."
+  }
+ }
+}

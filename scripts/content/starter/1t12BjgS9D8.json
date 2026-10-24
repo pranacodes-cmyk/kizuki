@@ -1,19 +1,30 @@
 {
  "videoId": "1t12BjgS9D8",
  "ids": [
-  "1t12BjgS9D8-341"
+  "1t12BjgS9D8-341",
+  "1t12BjgS9D8-41"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
   "1t12BjgS9D8-341": {
    "id": "1t12BjgS9D8-341",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Warm daily departure phrases suitable for complete beginners."
+  },
+  "1t12BjgS9D8-41": {
+   "id": "1t12BjgS9D8-41",
    "appeal": 7,
    "clarity": 4,
    "picture": 4,
    "ease": 4,
    "english": false,
    "issues": [],
-   "why": "Clear common daily departure greetings with cute matching animation."
+   "why": "Cute interaction teaching simple words with clear visual context."
   }
  }
 }

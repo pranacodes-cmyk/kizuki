@@ -2,171 +2,164 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 1.8,
-   "end": 25.5,
-   "title": "Overview of the Asuka Period",
+   "start": 1.0,
+   "end": 18.0,
+   "title": "Introduction to the Asuka Period",
    "level": "N3",
    "topics": [
     "culture",
     "school"
    ],
    "grammar": [
-    "について — regarding / about",
-    "〜ていく — ongoing change into the future"
+    "〜について — regarding / about",
+    "〜ていく — change over time"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1.8,
+     "start": 1.3,
      "end": 3.4,
-     "ja": "はいどうも、皆さんこんにちは。",
+     "ja": "はい、どうも皆さんこんにちは。",
      "en": "Hello everyone.",
      "speaker": "Narrator"
     },
     {
-     "start": 3.4,
-     "end": 6.1,
+     "start": 3.5,
+     "end": 6.0,
      "ja": "今回は飛鳥時代についてお話ししていきます。",
-     "en": "Today, we're going to talk about the Asuka period.",
+     "en": "Today, I'll be talking about the Asuka period.",
      "speaker": "Narrator"
     },
     {
-     "start": 6.1,
-     "end": 9.1,
+     "start": 6.3,
+     "end": 8.3,
      "ja": "この飛鳥時代の間に日本は、",
-     "en": "During this Asuka period, Japan transitioned",
+     "en": "During this Asuka period, Japan changed",
      "speaker": "Narrator"
     },
     {
-     "start": 9.1,
-     "end": 13.6,
+     "start": 8.4,
+     "end": 14.2,
      "ja": "豪族たち、つまり当時力を持っていた人々が集まって政治を行っていた",
-     "en": "from a state where powerful clans—the influential figures of the time—gathered to govern,",
+     "en": "from a state where powerful clans ruled together",
      "speaker": "Narrator"
     },
     {
-     "start": 13.6,
-     "end": 17.3,
+     "start": 14.3,
+     "end": 17.6,
      "ja": "という状況から、天皇中心の国へと変化していきます。",
-     "en": "into an emperor-centered nation.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 17.4,
-     "end": 21.4,
-     "ja": "それでは、飛鳥時代初期に力を持っていた豪族の代表である、",
-     "en": "Now then, let's begin with the story of the representative clans",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 21.4,
-     "end": 25.5,
-     "ja": "蘇我氏と物部氏についてのお話から始めていきましょう。",
-     "en": "that held power in the early Asuka period: the Soga and Mononobe clans.",
+     "en": "into a nation centered around the Emperor.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 124.5,
-   "end": 147.5,
+   "start": 124.2,
+   "end": 148.2,
    "title": "Empress Suiko and Prince Shotoku",
-   "level": "N3",
+   "level": "N2",
    "topics": [
     "culture",
     "school"
    ],
    "grammar": [
-    "として — as / in the role of",
-    "によって — by / through"
+    "〜として — as / in the role of",
+    "〜によって — by means of / through"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 124.5,
-     "end": 129.8,
-     "ja": "さて、この推古天皇ですが、日本史上初の女性天皇として有名です。",
-     "en": "Now, Empress Suiko is famous as the first female emperor in Japanese history.",
+     "end": 127.1,
+     "ja": "さて、この推古天皇ですが、",
+     "en": "Now, as for Empress Suiko,",
      "speaker": "Narrator"
     },
     {
-     "start": 130.0,
-     "end": 136.7,
-     "ja": "その他にも有名なこととしては、厩戸皇子、つまり聖徳太子が摂政を務めたということも挙げられます。",
-     "en": "Another well-known fact is that Prince Umayado—that is, Prince Shotoku—served as regent.",
+     "start": 127.2,
+     "end": 130.3,
+     "ja": "日本史上初の女性天皇として有名です。",
+     "en": "she is famous as the first female emperor in Japanese history.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 130.5,
+     "end": 137.0,
+     "ja": "その他にも有名なこととしては、厩戸皇子、つまり聖徳太子が摂政を務めた",
+     "en": "Another well-known fact is that Prince Umayado, known as Prince Shotoku, served as regent,",
      "speaker": "Narrator"
     },
     {
      "start": 137.0,
-     "end": 141.8,
-     "ja": "この厩戸皇子は皇族、つまり天皇の親族ですね。",
-     "en": "Prince Umayado was imperial royalty, meaning a relative of the emperor.",
+     "end": 139.0,
+     "ja": "ということも挙げられます。",
+     "en": "which can also be cited.",
      "speaker": "Narrator"
     },
     {
-     "start": 142.0,
-     "end": 147.3,
-     "ja": "この厩戸皇子によって制定されたのが、冠位十二階と十七条の憲法です。",
-     "en": "Established by Prince Umayado were the Twelve Level Cap and Rank System and the Seventeen-Article Constitution.",
+     "start": 139.1,
+     "end": 142.0,
+     "ja": "この厩戸皇子は皇族、つまり天皇の親族ですね。",
+     "en": "Prince Umayado was royalty—a relative of the Emperor.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 142.1,
+     "end": 147.8,
+     "ja": "この厩戸皇子によって制定されたのが冠位十二階と十七条の憲法です。",
+     "en": "What was established by Prince Umayado was the Twelve Level Cap and Rank System and the Seventeen-Article Constitution.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 400.8,
-   "end": 263.5,
-   "title": "Relocating from Fujiwara-kyo to Heijo-kyo",
-   "level": "N3",
+   "start": 218.0,
+   "end": 241.5,
+   "title": "Emperor Tenmu and Empress Jito",
+   "level": "N2",
    "topics": [
     "culture",
     "school"
    ],
    "grammar": [
-    "〜んです — explanatory tone",
-    "〜ようになる — to come to do / begin to"
+    "〜ということで — because of / since",
+    "〜ていく — to go on doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 401.0,
-     "end": 405.9,
-     "ja": "今まで拠点としていた飛鳥の少し北側にあるこの藤原京ですが、",
-     "en": "Now, this Fujiwara-kyo, located slightly north of their former base in Asuka,",
+     "start": 218.0,
+     "end": 224.6,
+     "ja": "さて、この天武天皇ですが、戦いに勝利して即位したということで、絶大な権力を持つことになります。",
+     "en": "Now, having ascended the throne through victory in battle, Emperor Tenmu came to wield immense power.",
      "speaker": "Narrator"
     },
     {
-     "start": 405.9,
-     "end": 409.6,
-     "ja": "問題点がありました。交通の便が悪いんです。",
-     "en": "had a drawback: its transportation access was poor.",
+     "start": 224.8,
+     "end": 227.8,
+     "ja": "天皇中心の政治が確立したんです。",
+     "en": "An imperial-centered government was firmly established.",
      "speaker": "Narrator"
     },
     {
-     "start": 409.8,
-     "end": 413.0,
-     "ja": "ということで、更に北へと再度都が移されます。",
-     "en": "Therefore, the capital was moved once again, even further to the north.",
+     "start": 228.0,
+     "end": 232.5,
+     "ja": "この天武天皇の跡を継いだのが、皇后の持統天皇。",
+     "en": "Succeeding Emperor Tenmu was his empress consort, Empress Jito.",
      "speaker": "Narrator"
     },
     {
-     "start": 413.0,
-     "end": 416.8,
-     "ja": "これが平城京、現在の奈良市にあたります。",
-     "en": "This is Heijo-kyo, corresponding to present-day Nara City.",
+     "start": 232.5,
+     "end": 237.9,
+     "ja": "この持統天皇も天武天皇の政策を受け継いで、天皇中心の政治を押し進めていきます。",
+     "en": "Empress Jito also carried on his policies, pushing forward an emperor-centered administration.",
      "speaker": "Narrator"
     },
     {
-     "start": 417.0,
-     "end": 419.9,
-     "ja": "こうして平城京で政治が行われていくようになり、",
-     "en": "With government now being conducted in Heijo-kyo,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 419.9,
-     "end": 423.5,
-     "ja": "日本の歴史は奈良時代へと突入していくのでした。",
-     "en": "Japanese history was about to enter the Nara period.",
+     "start": 238.0,
+     "end": 241.0,
+     "ja": "こうして造営されたのが藤原京です。",
+     "en": "Thus, Fujiwara-kyo was constructed.",
      "speaker": "Narrator"
     }
    ]
@@ -176,5 +169,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

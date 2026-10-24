@@ -1,0 +1,30 @@
+{
+ "videoId": "m2gHTg-QolE",
+ "ids": [
+  "m2gHTg-QolE-573",
+  "m2gHTg-QolE-6"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "m2gHTg-QolE-573": {
+   "id": "m2gHTg-QolE-573",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Standard YouTuber outro; clear talking head but generic content."
+  },
+  "m2gHTg-QolE-6": {
+   "id": "m2gHTg-QolE-6",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Relatable morning routine vlog with everyday vocabulary and clear narration."
+  }
+ }
+}

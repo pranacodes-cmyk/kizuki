@@ -2,241 +2,242 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 0.0,
-   "end": 23.0,
+   "start": 4.2,
+   "end": 22.8,
    "title": "Buying 100 Items at the 100-Yen Shop",
    "level": "N4",
    "topics": [
-    "friends",
     "fun",
-    "daily"
+    "friends"
    ],
    "grammar": [
     "〜てみる — try doing",
-    "〜たいと思う — think of doing",
-    "〜けど — but / although"
+    "〜たいと思う — intend/want to do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 0.0,
-     "end": 1.3,
-     "ja": "こんにちは〜、みなみです！",
-     "en": "Hello, I'm Minami!",
+     "start": 4.2,
+     "end": 5.5,
+     "ja": "はい！今日は",
+     "en": "All right! Today,",
      "speaker": "Minami"
     },
     {
-     "start": 1.3,
-     "end": 2.1,
-     "ja": "こんにちは、なつきです！",
-     "en": "Hello, I'm Natsuki!",
+     "start": 5.6,
+     "end": 7.5,
+     "ja": "100円均一で",
+     "en": "at the 100-yen shop,",
      "speaker": "Natsuki"
     },
     {
-     "start": 2.1,
-     "end": 3.0,
-     "ja": "こんにちは、るいかです！",
-     "en": "Hello, I'm Ruika!",
-     "speaker": "Ruika"
-    },
-    {
-     "start": 3.0,
-     "end": 4.1,
-     "ja": "こんにちは、みみママです！",
-     "en": "Hello, I'm Mimi Mama!",
-     "speaker": "Mama"
-    },
-    {
-     "start": 4.4,
+     "start": 7.6,
      "end": 9.5,
-     "ja": "はい！今日は100円均一で100個買ってみた〜！",
-     "en": "Alright! Today we bought 100 items at the 100-yen shop!",
+     "ja": "100個買ってみた！",
+     "en": "we tried buying 100 items!",
      "speaker": "Minami"
     },
     {
-     "start": 10.8,
-     "end": 13.4,
+     "start": 9.6,
+     "end": 11.0,
+     "ja": "イエーイ！",
+     "en": "Yay!",
+     "speaker": "All"
+    },
+    {
+     "start": 11.1,
+     "end": 13.6,
      "ja": "4人合わせて100個買ってきました。",
-     "en": "All four of us together bought 100 items.",
+     "en": "Between the four of us, we bought 100 items.",
+     "speaker": "Minami"
+    },
+    {
+     "start": 13.7,
+     "end": 16.0,
+     "ja": "1人25個買ったんですけど。",
+     "en": "We bought 25 each.",
      "speaker": "Natsuki"
     },
     {
-     "start": 13.6,
-     "end": 15.8,
-     "ja": "1人25個買ったんですけど、",
-     "en": "We bought 25 items each, but...",
-     "speaker": "Minami"
-    },
-    {
-     "start": 18.9,
-     "end": 21.0,
+     "start": 18.8,
+     "end": 20.8,
      "ja": "パッパと紹介していきたいと思います！",
-     "en": "We'd like to show them to you quickly!",
+     "en": "We'd like to quickly show you what we got!",
      "speaker": "Minami"
     },
     {
-     "start": 21.3,
+     "start": 20.9,
      "end": 22.8,
      "ja": "それでは、スタート！",
-     "en": "Here we go, start!",
-     "speaker": "Minami"
+     "en": "Here we go!",
+     "speaker": "All"
     }
    ]
   },
   {
-   "start": 1019.2,
-   "end": 1045.5,
-   "title": "A Folding Chair for Dad",
+   "start": 703.5,
+   "end": 727.5,
+   "title": "Dad Specifically Requested a Knit Cap",
    "level": "N3",
    "topics": [
     "family",
-    "comedy",
-    "daily"
+    "comedy"
    ],
    "grammar": [
-    "〜たり〜たり — doing things like",
-    "〜でしょ — right? / isn't it?",
-    "〜みたい — looks like / seems like"
+    "〜たらしくて — apparently / it seems that",
+    "〜て言ったら — when (I) said"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1019.4,
-     "end": 1021.0,
-     "ja": "ジャーン！",
-     "en": "Ta-da!",
+     "start": 703.5,
+     "end": 705.7,
+     "ja": "はい、こちらパパのでございます。",
+     "en": "Okay, this one is for Dad.",
      "speaker": "Minami"
     },
     {
-     "start": 1021.2,
-     "end": 1024.0,
-     "ja": "これパパに買ってきたんだけど、",
-     "en": "I bought this for Dad, but...",
-     "speaker": "Minami"
-    },
-    {
-     "start": 1024.5,
-     "end": 1025.5,
-     "ja": "パパなの？",
-     "en": "For Dad?",
-     "speaker": "Mama"
-    },
-    {
-     "start": 1025.7,
-     "end": 1027.6,
-     "ja": "パパ座れないでしょ！",
-     "en": "Dad won't be able to sit in that!",
+     "start": 705.8,
+     "end": 707.3,
+     "ja": "えー、パパの買ったの？優しい！",
+     "en": "Aw, you got one for Dad? How sweet!",
      "speaker": "Natsuki"
     },
     {
-     "start": 1029.0,
-     "end": 1035.1,
-     "ja": "朝パパが庭でさ、まるぷー見る時に座ったり、",
-     "en": "In the morning, in the yard, when Dad sits to watch Marupu...",
+     "start": 707.4,
+     "end": 709.1,
+     "ja": "訴えてきたんですよ！",
+     "en": "He was complaining about it!",
      "speaker": "Minami"
     },
     {
-     "start": 1035.3,
-     "end": 1037.8,
-     "ja": "1人でバーベキューとかするでしょ？",
-     "en": "He does barbecues by himself, right?",
-     "speaker": "Ruika"
+     "start": 709.2,
+     "end": 713.1,
+     "ja": "前回のなんかの100均の時に、みみだけパパの買い忘れたんだよね、確かに。",
+     "en": "At our last 100-yen run, only Mimi forgot to get him something, right.",
+     "speaker": "Natsuki"
     },
     {
-     "start": 1038.7,
-     "end": 1041.8,
-     "ja": "その時に使うのにいいかなと思って。",
-     "en": "I thought it would be good to use then.",
+     "start": 713.2,
+     "end": 715.4,
+     "ja": "それをパパはまだ覚えてたらしくて、",
+     "en": "Apparently Dad still remembered that,",
      "speaker": "Minami"
     },
     {
-     "start": 1042.0,
-     "end": 1043.9,
-     "ja": "パパの1人バーベキュー！",
-     "en": "Dad's solo barbecue!",
-     "speaker": "Mama"
+     "start": 715.5,
+     "end": 718.8,
+     "ja": "「パパ、ニット帽が欲しいんだけどな。このへんにあるんだよね〜」とか言ってさ。",
+     "en": "and kept dropping hints like, 'I sure want a knit cap... they have some around here.'",
+     "speaker": "Minami"
     },
     {
-     "start": 1044.1,
-     "end": 1045.3,
-     "ja": "すごい寂しい人みたい。",
-     "en": "He sounds like such a lonely person.",
-     "speaker": "Mama"
+     "start": 718.9,
+     "end": 721.9,
+     "ja": "真っ赤と真っ黄色持ってって、「どっちかならいいよ」って言ったら、",
+     "en": "I brought him bright red and bright yellow ones and said, 'Pick one,'",
+     "speaker": "Minami"
+    },
+    {
+     "start": 722.0,
+     "end": 723.4,
+     "ja": "「嫌だよ！」",
+     "en": "and he went, 'No way!'",
+     "speaker": "Minami"
+    },
+    {
+     "start": 723.5,
+     "end": 725.5,
+     "ja": "注文してきた！「嫌だよ」って！",
+     "en": "He got so picky! Saying 'No way'!",
+     "speaker": "Mimi-mama"
+    },
+    {
+     "start": 725.6,
+     "end": 727.5,
+     "ja": "で、結局黒！",
+     "en": "So in the end, it was black!",
+     "speaker": "Minami"
     }
    ]
   },
   {
-   "start": 1130.0,
-   "end": 1148.8,
-   "title": "Buying Haircutting Scissors",
+   "start": 741.5,
+   "end": 765.5,
+   "title": "A Tiny Folding Chair for Dad",
    "level": "N3",
    "topics": [
-    "daily",
-    "friends",
+    "family",
     "comedy"
    ],
    "grammar": [
-    "〜てた — was doing (casual 〜ていた)",
-    "〜ようと思う — thinking of doing",
-    "さすがに — as expected / after all this time"
+    "〜でしょ — right? / isn't that so?",
+    "〜のに — for the purpose of"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1130.3,
-     "end": 1131.7,
-     "ja": "ジャーン！",
-     "en": "Ta-da!",
-     "speaker": "Minami"
+     "start": 741.5,
+     "end": 743.4,
+     "ja": "これパパに買ってきたんだけど。",
+     "en": "I bought this for Dad.",
+     "speaker": "Ruika"
     },
     {
-     "start": 1131.9,
-     "end": 1134.4,
-     "ja": "散髪！散髪！",
-     "en": "Haircutting! Haircutting!",
-     "speaker": "Minami"
+     "start": 743.5,
+     "end": 744.8,
+     "ja": "おお！",
+     "en": "Oh!",
+     "speaker": "Mimi-mama"
     },
     {
-     "start": 1134.7,
-     "end": 1136.2,
-     "ja": "ついに！？",
-     "en": "Finally!?",
-     "speaker": "Mama"
+     "start": 744.9,
+     "end": 747.4,
+     "ja": "え、パパなの？パパ座れないでしょ。",
+     "en": "Wait, for Dad? He won't fit on that, will he?",
+     "speaker": "Natsuki"
     },
     {
-     "start": 1136.6,
-     "end": 1140.7,
-     "ja": "いつも私、文房具のハサミで切ってたんですよ！",
-     "en": "I've always been cutting it with stationery scissors!",
-     "speaker": "Minami"
+     "start": 747.5,
+     "end": 749.0,
+     "ja": "壊れる壊れる！",
+     "en": "It's gonna break, it's gonna break!",
+     "speaker": "Mimi-mama"
     },
     {
-     "start": 1140.9,
-     "end": 1141.8,
-     "ja": "前髪を！",
-     "en": "Your bangs!",
-     "speaker": "Mama"
+     "start": 749.1,
+     "end": 753.6,
+     "ja": "朝パパが庭でさ、まるぷー見る時に座ったり、",
+     "en": "In the morning when Dad's in the yard watching Marupu,",
+     "speaker": "Ruika"
     },
     {
-     "start": 1141.9,
-     "end": 1144.1,
-     "ja": "しかも何年か前に買ったやつ。",
-     "en": "And ones I bought years ago, at that.",
-     "speaker": "Minami"
+     "start": 753.7,
+     "end": 757.8,
+     "ja": "あと1人でバーベキューとかするでしょ？",
+     "en": "and also, you know how he does barbecues by himself?",
+     "speaker": "Ruika"
     },
     {
-     "start": 1144.2,
-     "end": 1146.2,
-     "ja": "さすがに変えようかなと思って。",
-     "en": "I thought it was finally time to switch.",
-     "speaker": "Minami"
+     "start": 758.0,
+     "end": 761.8,
+     "ja": "その時に使うのに、いいかなと思って。",
+     "en": "I thought it would be nice to use then.",
+     "speaker": "Ruika"
     },
     {
-     "start": 1146.3,
-     "end": 1148.4,
-     "ja": "切れ味長持ち！",
-     "en": "Long-lasting sharpness!",
-     "speaker": "Minami"
+     "start": 762.0,
+     "end": 764.0,
+     "ja": "パパの1人バーベキュー！",
+     "en": "Dad's solo barbecue!",
+     "speaker": "Mimi-mama"
+    },
+    {
+     "start": 764.1,
+     "end": 765.5,
+     "ja": "すごい寂しい人みたい！",
+     "en": "Makes him sound like such a lonely guy!",
+     "speaker": "Mimi-mama"
     }
    ]
   }
@@ -245,5 +246,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

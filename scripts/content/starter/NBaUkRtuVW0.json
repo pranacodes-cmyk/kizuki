@@ -1,0 +1,30 @@
+{
+ "videoId": "NBaUkRtuVW0",
+ "ids": [
+  "NBaUkRtuVW0-118",
+  "NBaUkRtuVW0-2"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "NBaUkRtuVW0-2": {
+   "id": "NBaUkRtuVW0-2",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear stage monologue setting up an accessible comedic scene."
+  },
+  "NBaUkRtuVW0-118": {
+   "id": "NBaUkRtuVW0-118",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Engaging comedy sketch delivered with exaggerated theatrical energy."
+  }
+ }
+}

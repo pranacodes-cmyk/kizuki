@@ -1,0 +1,19 @@
+{
+ "videoId": "0Oc28nDgZMA",
+ "ids": [
+  "0Oc28nDgZMA-141"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "0Oc28nDgZMA-141": {
+   "id": "0Oc28nDgZMA-141",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear Japanese narration explaining train ticket machines with helpful visuals."
+  }
+ }
+}

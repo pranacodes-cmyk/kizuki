@@ -1,0 +1,21 @@
+{
+ "videoId": "9Y0eK1HGI6Y",
+ "ids": [
+  "9Y0eK1HGI6Y-197"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "9Y0eK1HGI6Y-197": {
+   "id": "9Y0eK1HGI6Y-197",
+   "appeal": 4,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "starts mid-sentence"
+   ],
+   "why": "Rapid component listing with hands showing box items."
+  }
+ }
+}

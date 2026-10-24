@@ -1,0 +1,19 @@
+{
+ "videoId": "CmMBEDsucBo",
+ "ids": [
+  "CmMBEDsucBo-168"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "CmMBEDsucBo-168": {
+   "id": "CmMBEDsucBo-168",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear advice on asking train staff for directions with helpful subtitles."
+  }
+ }
+}

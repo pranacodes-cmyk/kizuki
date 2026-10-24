@@ -1,13 +1,12 @@
 {
  "videoId": "V9cPAMkxpHg",
  "ids": [
-  "V9cPAMkxpHg-0",
-  "V9cPAMkxpHg-1130"
+  "V9cPAMkxpHg-4"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "V9cPAMkxpHg-1130": {
-   "id": "V9cPAMkxpHg-1130",
+  "V9cPAMkxpHg-4": {
+   "id": "V9cPAMkxpHg-4",
    "appeal": 6,
    "clarity": 3,
    "picture": 3,
@@ -16,17 +15,7 @@
    "issues": [
     "speech overlaps"
    ],
-   "why": "Casual conversation with overlapping laughter and informal phrasing."
-  },
-  "V9cPAMkxpHg-0": {
-   "id": "V9cPAMkxpHg-0",
-   "appeal": 7,
-   "clarity": 4,
-   "picture": 3,
-   "ease": 4,
-   "english": false,
-   "issues": [],
-   "why": "Energetic, clear greetings and simple video topic introduction."
+   "why": "Energetic vlog intro with lively speech, though slightly fast for beginners."
   }
  }
 }

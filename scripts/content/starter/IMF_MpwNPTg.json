@@ -1,0 +1,19 @@
+{
+ "videoId": "IMF_MpwNPTg",
+ "ids": [
+  "IMF_MpwNPTg-58"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "IMF_MpwNPTg-58": {
+   "id": "IMF_MpwNPTg-58",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear narration over gameplay, though phrasing is poetic for beginners."
+  }
+ }
+}

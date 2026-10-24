@@ -1,0 +1,21 @@
+{
+ "videoId": "P9VQ-Jl1Jno",
+ "ids": [
+  "P9VQ-Jl1Jno-715"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "P9VQ-Jl1Jno-715": {
+   "id": "P9VQ-Jl1Jno-715",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [
+    "starts mid-sentence"
+   ],
+   "why": "Starts mid-sentence on onomatopoeia then abruptly transitions to cold noodles."
+  }
+ }
+}

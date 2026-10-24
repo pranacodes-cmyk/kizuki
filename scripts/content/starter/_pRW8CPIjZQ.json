@@ -1,0 +1,19 @@
+{
+ "videoId": "_pRW8CPIjZQ",
+ "ids": [
+  "_pRW8CPIjZQ-53"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "_pRW8CPIjZQ-53": {
+   "id": "_pRW8CPIjZQ-53",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Humorous cartoon clip with simple, clear dialogue ideal for beginners."
+  }
+ }
+}

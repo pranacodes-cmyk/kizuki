@@ -1,0 +1,21 @@
+{
+ "videoId": "Lhv4887I4Aw",
+ "ids": [
+  "Lhv4887I4Aw-208"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Lhv4887I4Aw-208": {
+   "id": "Lhv4887I4Aw-208",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [
+    "static image"
+   ],
+   "why": "Clear gentle Japanese speech, but the visual is completely static."
+  }
+ }
+}

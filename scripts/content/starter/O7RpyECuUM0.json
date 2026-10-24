@@ -1,0 +1,30 @@
+{
+ "videoId": "O7RpyECuUM0",
+ "ids": [
+  "O7RpyECuUM0-336",
+  "O7RpyECuUM0-57"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "O7RpyECuUM0-57": {
+   "id": "O7RpyECuUM0-57",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Relatable high school interaction with natural casual Japanese speech."
+  },
+  "O7RpyECuUM0-336": {
+   "id": "O7RpyECuUM0-336",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear everyday phone dialogue with accessible vocabulary for beginners."
+  }
+ }
+}

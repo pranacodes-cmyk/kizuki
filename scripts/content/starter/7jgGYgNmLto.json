@@ -1,6 +1,7 @@
 {
  "videoId": "7jgGYgNmLto",
  "ids": [
+  "7jgGYgNmLto-279",
   "7jgGYgNmLto-28"
  ],
  "model": "google/gemini-3.8-flash",
@@ -13,7 +14,17 @@
    "ease": 4,
    "english": false,
    "issues": [],
-   "why": "Clear and polite beginner-friendly greetings in an authentic setting."
+   "why": "Clear polite beginner greetings and introductions in an authentic kitchen setting."
+  },
+  "7jgGYgNmLto-279": {
+   "id": "7jgGYgNmLto-279",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous cooking mistake, but background kitchen noise slightly hinders listening."
   }
  }
 }

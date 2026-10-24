@@ -567,6 +567,8 @@ for (const dir of OUT_DIRS) {
   }
   fs.writeFileSync(path.join(dir, "content.json"), JSON.stringify({ version: content.version, generatedAt: content.generatedAt, videos, parts, starter }));
   fs.writeFileSync(path.join(dir, "dict.json"), JSON.stringify(dictOut));
+  // Notes of clips that left the library (excluded, re-timed) are not shipped.
+  for (const f of fs.readdirSync(path.join(dir, "explain"))) if (f.endsWith(".json") && !clipIds.has(f.slice(0, -5))) fs.rmSync(path.join(dir, "explain", f));
   for (const c of clips) {
     const ef = path.join(EXPLAIN, `${c.id}.json`);
     const target = path.join(dir, "explain", `${c.id}.json`);

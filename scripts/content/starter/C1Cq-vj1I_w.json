@@ -1,0 +1,34 @@
+{
+ "videoId": "C1Cq-vj1I_w",
+ "ids": [
+  "C1Cq-vj1I_w-331",
+  "C1Cq-vj1I_w-40"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "C1Cq-vj1I_w-331": {
+   "id": "C1Cq-vj1I_w-331",
+   "appeal": 4,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "serious topic"
+   ],
+   "why": "Somber topic and conversational speed may challenge a complete beginner."
+  },
+  "C1Cq-vj1I_w-40": {
+   "id": "C1Cq-vj1I_w-40",
+   "appeal": 4,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "serious topic"
+   ],
+   "why": "Serious disaster-related topic with standard conversational Japanese."
+  }
+ }
+}

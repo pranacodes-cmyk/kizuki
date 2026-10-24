@@ -2,171 +2,177 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 0.5,
-   "end": 18.8,
-   "title": "Welcome to the Sprunki Sound Quiz!",
+   "start": 0.3,
+   "end": 18.2,
+   "title": "Welcome to the Sprunki Sound Quiz",
    "level": "N5",
    "topics": [
     "fun",
-    "daily"
+    "anime"
    ],
    "grammar": [
-    "〜にようこそ — welcome to",
-    "〜以上 — ... or more",
-    "〜（よ）う — let's / volitional"
+    "〜へようこそ — welcome to",
+    "〜以上 — more than / or more"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 0.6,
-     "end": 2.8,
-     "ja": "クイズの達人にようこそ！",
+     "end": 2.5,
+     "ja": "クイズの達人へようこそ！",
      "en": "Welcome to Quiz Master!",
-     "speaker": "Host"
+     "speaker": "Narrator"
     },
     {
      "start": 2.8,
      "end": 4.2,
      "ja": "今日のテーマは…",
      "en": "Today's theme is...",
-     "speaker": "Host"
+     "speaker": "Narrator"
     },
     {
-     "start": 4.2,
-     "end": 6.8,
+     "start": 4.3,
+     "end": 6.5,
      "ja": "スプランキー音当てクイズ！",
-     "en": "Sprunki sound guessing quiz!",
-     "speaker": "Host"
+     "en": "The Sprunki sound guessing quiz!",
+     "speaker": "Narrator"
     },
     {
-     "start": 6.8,
+     "start": 6.7,
      "end": 9.5,
      "ja": "キミのスプランキーの知識はどれぐらいかな？",
      "en": "How much do you know about Sprunki?",
-     "speaker": "Host"
+     "speaker": "Narrator"
     },
     {
-     "start": 9.5,
-     "end": 12.3,
-     "ja": "問題は全部で16問！",
+     "start": 9.8,
+     "end": 11.8,
+     "ja": "問題はぜんぶで１６問！",
      "en": "There are 16 questions in total!",
-     "speaker": "Host"
+     "speaker": "Narrator"
     },
     {
-     "start": 12.3,
-     "end": 14.0,
-     "ja": "12問以上正解で…",
-     "en": "If you get 12 or more correct...",
-     "speaker": "Host"
+     "start": 12.0,
+     "end": 15.5,
+     "ja": "１２問以上正解で、キミはスプランキー博士だ！",
+     "en": "If you get 12 or more right, you're a Sprunki expert!",
+     "speaker": "Narrator"
     },
     {
-     "start": 14.0,
-     "end": 16.1,
-     "ja": "キミはスプランキー博士だ！",
-     "en": "You are a Sprunki expert!",
-     "speaker": "Host"
-    },
-    {
-     "start": 16.1,
-     "end": 18.5,
-     "ja": "準備はいい？始めるよ！",
-     "en": "Are you ready? Here we go!",
-     "speaker": "Host"
+     "start": 15.7,
+     "end": 18.0,
+     "ja": "じゅんびはいい？はじめるよ！",
+     "en": "Are you ready? Let's start!",
+     "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 859.5,
-   "end": 888.0,
-   "title": "Scoring Your Sprunki Quiz Results",
-   "level": "N4",
+   "start": 539.5,
+   "end": 555.6,
+   "title": "Let's Check Your Score!",
+   "level": "N5",
    "topics": [
-    "fun",
-    "daily"
+    "fun"
    ],
    "grammar": [
-    "〜たとしても — even if",
-    "〜ないで — don't do",
-    "〜（よ）う — let's / volitional"
+    "〜よう — let's / volitional form",
+    "〜としても — even if"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 859.8,
-     "end": 861.3,
+     "start": 539.8,
+     "end": 541.2,
      "ja": "採点しよう！",
      "en": "Let's check your score!",
-     "speaker": "Host"
+     "speaker": "Narrator"
     },
     {
-     "start": 861.3,
-     "end": 863.9,
+     "start": 541.4,
+     "end": 543.6,
      "ja": "キミは何問正解できたかな？",
-     "en": "How many did you get right?",
-     "speaker": "Host"
+     "en": "How many questions did you get right?",
+     "speaker": "Narrator"
     },
     {
-     "start": 863.9,
-     "end": 865.9,
-     "ja": "コメントで教えてね！",
+     "start": 543.8,
+     "end": 545.8,
+     "ja": "コメントでおしえてね！",
      "en": "Let us know in the comments!",
-     "speaker": "Host"
+     "speaker": "Narrator"
     },
     {
-     "start": 865.9,
-     "end": 868.5,
-     "ja": "12問以上正解できたキミは…",
+     "start": 546.0,
+     "end": 548.3,
+     "ja": "１２問以上正解できたキミは…",
      "en": "If you got 12 or more right...",
-     "speaker": "Host"
+     "speaker": "Narrator"
     },
     {
-     "start": 868.5,
-     "end": 870.5,
-     "ja": "スプランキー博士だ！",
-     "en": "You're a Sprunki expert!",
-     "speaker": "Host"
+     "start": 548.5,
+     "end": 550.8,
+     "ja": "スプランキー博士だ！おめでとう！",
+     "en": "...you're a Sprunki expert! Congratulations!",
+     "speaker": "Narrator"
     },
     {
-     "start": 870.5,
-     "end": 872.0,
-     "ja": "おめでとう！だけど…",
-     "en": "Congratulations! But...",
-     "speaker": "Host"
-    },
+     "start": 551.0,
+     "end": 555.3,
+     "ja": "だけど、スプランキー博士になれなかったとしても落ち込まないで！",
+     "en": "Even if you didn't become a Sprunki expert, don't be discouraged!",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 555.5,
+   "end": 568.3,
+   "title": "Try Again and Subscribe!",
+   "level": "N4",
+   "topics": [
+    "fun"
+   ],
+   "grammar": [
+    "〜てみる — try doing",
+    "〜ないで — please do not"
+   ],
+   "quality": 5,
+   "lines": [
     {
-     "start": 872.0,
-     "end": 875.8,
-     "ja": "スプランキー博士になれなかったとしても落ち込まないで！",
-     "en": "Don't feel down even if you didn't become a Sprunki expert!",
-     "speaker": "Host"
-    },
-    {
-     "start": 875.8,
-     "end": 878.7,
+     "start": 555.8,
+     "end": 558.5,
      "ja": "何度もこの動画を見てリベンジしよう！",
      "en": "Watch this video again and again to try again!",
-     "speaker": "Host"
+     "speaker": "Narrator"
     },
     {
-     "start": 878.7,
-     "end": 881.5,
+     "start": 558.7,
+     "end": 561.3,
      "ja": "キミは必ずスプランキー博士になれるよ！",
      "en": "You'll definitely become a Sprunki expert!",
-     "speaker": "Host"
+     "speaker": "Narrator"
     },
     {
-     "start": 881.5,
-     "end": 886.0,
-     "ja": "次回のクイズもお楽しみに！チャンネル登録を忘れないでね！",
-     "en": "Look forward to the next quiz! Don't forget to subscribe!",
-     "speaker": "Host"
+     "start": 561.5,
+     "end": 563.3,
+     "ja": "次回のクイズもお楽しみに！",
+     "en": "Look forward to the next quiz!",
+     "speaker": "Narrator"
     },
     {
-     "start": 886.0,
-     "end": 887.8,
+     "start": 563.4,
+     "end": 565.8,
+     "ja": "チャンネル登録を忘れないでね！",
+     "en": "Don't forget to subscribe to the channel!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 566.0,
+     "end": 568.0,
      "ja": "またキミのチャレンジを待ってるよ！",
-     "en": "I'll be waiting for you to take on the challenge again!",
-     "speaker": "Host"
+     "en": "I'll be waiting for your challenge again!",
+     "speaker": "Narrator"
     }
    ]
   }
@@ -175,5 +181,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

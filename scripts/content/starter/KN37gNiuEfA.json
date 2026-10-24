@@ -1,0 +1,19 @@
+{
+ "videoId": "KN37gNiuEfA",
+ "ids": [
+  "KN37gNiuEfA-411"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "KN37gNiuEfA-411": {
+   "id": "KN37gNiuEfA-411",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Relatable topic spoken clearly, though the press conference visual is static."
+  }
+ }
+}

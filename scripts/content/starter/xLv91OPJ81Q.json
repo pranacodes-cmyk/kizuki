@@ -1,7 +1,8 @@
 {
  "videoId": "xLv91OPJ81Q",
  "ids": [
-  "xLv91OPJ81Q-109"
+  "xLv91OPJ81Q-109",
+  "xLv91OPJ81Q-44"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
@@ -9,11 +10,26 @@
    "id": "xLv91OPJ81Q-109",
    "appeal": 6,
    "clarity": 3,
-   "picture": 4,
-   "ease": 4,
+   "picture": 3,
+   "ease": 3,
    "english": false,
-   "issues": [],
-   "why": "Relatable and simple street interview about favorite sushi toppings."
+   "issues": [
+    "background noise"
+   ],
+   "why": "Relatable topic with simple vocabulary about favorite sushi toppings."
+  },
+  "xLv91OPJ81Q-44": {
+   "id": "xLv91OPJ81Q-44",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [
+    "background noise",
+    "speech overlaps"
+   ],
+   "why": "Street interview setting is lively but fast and noisy for novices."
   }
  }
 }

@@ -1,0 +1,21 @@
+{
+ "videoId": "YTLRHUmg1y4",
+ "ids": [
+  "YTLRHUmg1y4-367"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "YTLRHUmg1y4-367": {
+   "id": "YTLRHUmg1y4-367",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "synthetic voice"
+   ],
+   "why": "Fast synthetic dialogue over video game footage is tough for beginners."
+  }
+ }
+}

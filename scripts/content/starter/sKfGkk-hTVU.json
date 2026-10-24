@@ -1,6 +1,7 @@
 {
  "videoId": "sKfGkk-hTVU",
  "ids": [
+  "sKfGkk-hTVU-0",
   "sKfGkk-hTVU-21"
  ],
  "model": "google/gemini-3.8-flash",
@@ -10,10 +11,20 @@
    "appeal": 6,
    "clarity": 3,
    "picture": 3,
-   "ease": 3,
+   "ease": 4,
    "english": false,
    "issues": [],
-   "why": "Baseball player responds with simple Japanese phrases and laughs."
+   "why": "Lighthearted sports interview repeating basic thank-you phrases."
+  },
+  "sKfGkk-hTVU-0": {
+   "id": "sKfGkk-hTVU-0",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Foreign player using basic Japanese greetings in a post-game interview."
   }
  }
 }

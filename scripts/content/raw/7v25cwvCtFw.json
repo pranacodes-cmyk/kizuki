@@ -2,10 +2,10 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 0.3,
-   "end": 27.6,
-   "title": "Biggest Struggle in Mexico",
-   "level": "N3",
+   "start": 0.0,
+   "end": 27.2,
+   "title": "Biggest Struggle When Moving to Mexico",
+   "level": "N4",
    "topics": [
     "travel",
     "culture",
@@ -13,242 +13,222 @@
    ],
    "grammar": [
     "〜てほしい — wanting someone to do something",
-    "〜た時 — when/at the time"
+    "〜た時 — when doing something",
+    "〜ことができる — potential form"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 0.5,
-     "end": 2.8,
+     "start": 0.0,
+     "end": 2.5,
      "ja": "私がちょっと聞いてみたいことは、",
-     "en": "One thing I'd really like to ask is,",
-     "speaker": "Host"
+     "en": "What I'd like to ask you is,",
+     "speaker": "Yuka"
     },
     {
-     "start": 2.9,
-     "end": 8.8,
-     "ja": "メキシコで苦労したこと、大変だったことをゆーすけさんに教えてほしいです。",
-     "en": "I'd love for Yusuke to tell us about what he struggled with or found tough in Mexico.",
-     "speaker": "Host"
+     "start": 2.8,
+     "end": 6.0,
+     "ja": "メキシコで苦労したこと、",
+     "en": "what you struggled with in Mexico,",
+     "speaker": "Yuka"
     },
     {
-     "start": 9.1,
-     "end": 13.0,
-     "ja": "そうだね。これも答えはひとつだけです。",
-     "en": "Right. Well, there's only one answer to this.",
+     "start": 6.0,
+     "end": 9.5,
+     "ja": "大変だったことを悠介さんに教えてほしいです。",
+     "en": "I'd like you to tell me what was tough for you.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 9.5,
+     "end": 13.2,
+     "ja": "そうだね。これもう答えは1つだけです。",
+     "en": "Well, there's really only one answer to this.",
      "speaker": "Yusuke"
     },
     {
-     "start": 13.1,
-     "end": 14.0,
+     "start": 13.2,
+     "end": 14.3,
      "ja": "はい。",
      "en": "Yes.",
-     "speaker": "Host"
+     "speaker": "Yuka"
     },
     {
-     "start": 14.0,
-     "end": 15.1,
+     "start": 14.3,
+     "end": 15.5,
      "ja": "言葉。",
      "en": "Language.",
      "speaker": "Yusuke"
     },
     {
-     "start": 15.1,
-     "end": 16.2,
-     "ja": "言葉！（笑）",
-     "en": "Language! (laughs)",
-     "speaker": "Host"
+     "start": 15.5,
+     "end": 16.8,
+     "ja": "言葉？",
+     "en": "Language?",
+     "speaker": "Yuka"
     },
     {
-     "start": 16.2,
-     "end": 17.3,
+     "start": 16.8,
+     "end": 18.0,
      "ja": "言葉。",
      "en": "Language.",
      "speaker": "Yusuke"
     },
     {
-     "start": 18.2,
+     "start": 18.5,
      "end": 22.5,
-     "ja": "はい。メキシコに行った時は、スペイン語が話せなかったんですよね？",
-     "en": "Right. When you first went to Mexico, you couldn't speak Spanish, could you?",
-     "speaker": "Host"
+     "ja": "メキシコに行った時はスペイン語が話せなかったんですよね。",
+     "en": "When you went to Mexico, you couldn't speak Spanish, right?",
+     "speaker": "Yuka"
     },
     {
      "start": 22.5,
-     "end": 24.5,
+     "end": 24.4,
      "ja": "話せなかったね。",
-     "en": "I couldn't speak it at all.",
+     "en": "I couldn't speak it, yeah.",
      "speaker": "Yusuke"
     },
     {
-     "start": 24.7,
-     "end": 27.2,
+     "start": 24.5,
+     "end": 27.0,
      "ja": "どうやって乗り越えたんですか？",
      "en": "How did you overcome that?",
-     "speaker": "Host"
+     "speaker": "Yuka"
     }
    ]
   },
   {
-   "start": 119.2,
-   "end": 151.0,
-   "title": "All I Could Say Was I Like Tacos",
+   "start": 242.0,
+   "end": 306.5,
+   "title": "What Matters Most in Conversation",
    "level": "N3",
    "topics": [
-    "comedy",
-    "travel",
-    "fun"
-   ],
-   "grammar": [
-    "〜じゃなくて — not A, but B",
-    "〜てもらう — have someone do",
-    "〜くらいしか…ない — only, nothing but"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 119.4,
-     "end": 121.6,
-     "ja": "自分の話をするんじゃなくて、",
-     "en": "Instead of talking about yourself,",
-     "speaker": "Host"
-    },
-    {
-     "start": 121.8,
-     "end": 125.7,
-     "ja": "逆に質問をして、たくさん話してもらうってことですか？",
-     "en": "you mean you asked questions and had them do most of the talking?",
-     "speaker": "Host"
-    },
-    {
-     "start": 125.8,
-     "end": 127.2,
-     "ja": "うん、そうそうそうそう。",
-     "en": "Yeah, exactly, exactly.",
-     "speaker": "Yusuke"
-    },
-    {
-     "start": 127.3,
-     "end": 132.4,
-     "ja": "だいたいみんな、僕が話すことなんて興味なかったから。",
-     "en": "Basically, nobody was interested in anything I had to say anyway.",
-     "speaker": "Yusuke"
-    },
-    {
-     "start": 132.8,
-     "end": 134.4,
-     "ja": "悲しい、悲しい（笑）。",
-     "en": "That's so sad! (laughs)",
-     "speaker": "Host"
-    },
-    {
-     "start": 134.5,
-     "end": 137.4,
-     "ja": "いや、それはもちろん、持ってるアイデアはまた別の話よ。",
-     "en": "Well, obviously, the ideas you have in your head are a different story.",
-     "speaker": "Yusuke"
-    },
-    {
-     "start": 137.5,
-     "end": 141.8,
-     "ja": "その時期で話せることの幅って本当になかった。",
-     "en": "At that stage, the range of things I could talk about was practically zero.",
-     "speaker": "Yusuke"
-    },
-    {
-     "start": 142.5,
-     "end": 146.4,
-     "ja": "「私はタコスを食べたいです。タコスが好きです。」",
-     "en": "\"I want to eat tacos. I like tacos.\"",
-     "speaker": "Yusuke"
-    },
-    {
-     "start": 146.6,
-     "end": 150.8,
-     "ja": "ぐらいしか話せなかったから、そんな話、誰が聞きたいっちゅう話じゃん（笑）。",
-     "en": "That was pretty much all I could say, so who would want to listen to that? (laughs)",
-     "speaker": "Yusuke"
-    }
-   ]
-  },
-  {
-   "start": 724.8,
-   "end": 750.5,
-   "title": "Wearing Backpacks in Front for Safety",
-   "level": "N3",
-   "topics": [
+    "culture",
     "daily",
-    "travel",
-    "culture"
+    "friends"
    ],
    "grammar": [
-    "〜てから — after doing",
-    "〜てしまう — end up doing",
-    "〜たら — if/when"
+    "〜てもらえる — to have someone do something for you",
+    "〜じゃなくても — even if it's not",
+    "〜ようにする — to try to / make an effort to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 725.2,
-     "end": 727.4,
-     "ja": "なんかメキシコから帰ってきてから、",
-     "en": "Ever since returning from Mexico,",
-     "speaker": "Host"
-    },
-    {
-     "start": 727.6,
-     "end": 731.4,
-     "ja": "リュックを前に持つっていう癖が直らなくて、",
-     "en": "I haven't been able to break the habit of wearing my backpack in front,",
-     "speaker": "Host"
-    },
-    {
-     "start": 733.2,
-     "end": 736.8,
-     "ja": "日本でも、私だけなんですよね、リュックを前に持ってる人。",
-     "en": "even in Japan, I'm the only person carrying a backpack in front.",
-     "speaker": "Host"
-    },
-    {
-     "start": 737.0,
-     "end": 739.5,
-     "ja": "で、もう後ろにしてもいいんですけど、",
-     "en": "And I know I could wear it on my back now,",
-     "speaker": "Host"
-    },
-    {
-     "start": 740.0,
-     "end": 741.3,
-     "ja": "なんか慣れてしまって。",
-     "en": "but I've just gotten so used to it.",
-     "speaker": "Host"
-    },
-    {
-     "start": 741.4,
-     "end": 742.5,
-     "ja": "なんか気持ち悪いよね。",
-     "en": "It feels uncomfortable otherwise, right?",
+     "start": 242.3,
+     "end": 245.0,
+     "ja": "会話ってどうしたら嬉しくなるかって、",
+     "en": "What makes you happy in a conversation is,",
      "speaker": "Yusuke"
     },
     {
-     "start": 742.5,
-     "end": 744.2,
-     "ja": "そうそうそうそう！",
-     "en": "Exactly, exactly!",
-     "speaker": "Host"
+     "start": 245.3,
+     "end": 247.8,
+     "ja": "その理解してもらえる、",
+     "en": "being understood,",
+     "speaker": "Yusuke"
     },
     {
-     "start": 746.0,
-     "end": 748.8,
-     "ja": "でもまあ、気をつけていたら大丈夫ですよね？",
-     "en": "But still, as long as you're careful, you're fine, right?",
-     "speaker": "Host"
+     "start": 248.3,
+     "end": 251.3,
+     "ja": "共感してもらえるっていうのが",
+     "en": "having people empathize with you,",
+     "speaker": "Yusuke"
     },
     {
-     "start": 749.0,
-     "end": 750.2,
+     "start": 251.3,
+     "end": 256.0,
+     "ja": "やっぱ会話の中で一番大切なことだと思うんだよね。",
+     "en": "I think that's the most important thing in a conversation.",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 256.0,
+     "end": 257.2,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 257.3,
+     "end": 301.0,
+     "ja": "だからそれを別に言葉じゃなくても、顔でもいいし、",
+     "en": "So even if it wasn't through words, with facial expressions,",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 301.0,
+     "end": 303.2,
+     "ja": "そのジェスチャーでもいいから、",
+     "en": "or through gestures,",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 303.2,
+     "end": 306.0,
+     "ja": "その表すようにはしていた。",
+     "en": "I tried to express that.",
+     "speaker": "Yusuke"
+    }
+   ]
+  },
+  {
+   "start": 700.0,
+   "end": 725.0,
+   "title": "Awareness of Safety and Possessions",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜て育つ — to grow up doing",
+    "〜に慣れる — to get used to",
+    "〜とか — things like / or"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 700.3,
+     "end": 704.2,
+     "ja": "やっぱり日本で生まれて育ってるから、",
+     "en": "Since we were born and raised in Japan,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 704.2,
+     "end": 709.2,
+     "ja": "あまりその周りに気をつけるっていうことに慣れてないじゃないですか。",
+     "en": "we aren't really used to paying attention to our surroundings, are we?",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 709.2,
+     "end": 710.8,
      "ja": "そうだね。",
-     "en": "Yeah, that's true.",
+     "en": "That's true.",
+     "speaker": "Yusuke"
+    },
+    {
+     "start": 710.8,
+     "end": 715.5,
+     "ja": "誰かに何かを取られるっていうことは、時々あるけどそんなにないから、",
+     "en": "Having something stolen by someone happens occasionally, but not that much,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 715.5,
+     "end": 722.3,
+     "ja": "自分を守るとか、自分のものを守るっていう習慣がないんですよね、日本で、あまり。",
+     "en": "so we don't really have the habit of protecting ourselves or our belongings in Japan.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 722.3,
+     "end": 724.5,
+     "ja": "そうだね。",
+     "en": "That's right.",
      "speaker": "Yusuke"
     }
    ]
@@ -258,5 +238,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

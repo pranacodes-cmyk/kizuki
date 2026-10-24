@@ -1,0 +1,19 @@
+{
+ "videoId": "zH5_2tgHHOo",
+ "ids": [
+  "zH5_2tgHHOo-194"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "zH5_2tgHHOo-194": {
+   "id": "zH5_2tgHHOo-194",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, repetitive beginner vocabulary describing the cute cat on screen."
+  }
+ }
+}

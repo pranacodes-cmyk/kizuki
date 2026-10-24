@@ -1,0 +1,19 @@
+{
+ "videoId": "VL49nyIQzYs",
+ "ids": [
+  "VL49nyIQzYs-468"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "VL49nyIQzYs-468": {
+   "id": "VL49nyIQzYs-468",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, slow cultural explanation with a direct visual demonstration."
+  }
+ }
+}

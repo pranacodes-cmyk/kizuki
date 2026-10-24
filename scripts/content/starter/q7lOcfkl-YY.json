@@ -1,19 +1,30 @@
 {
  "videoId": "q7lOcfkl-YY",
  "ids": [
+  "q7lOcfkl-YY-377",
   "q7lOcfkl-YY-4"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
   "q7lOcfkl-YY-4": {
    "id": "q7lOcfkl-YY-4",
-   "appeal": 5,
+   "appeal": 6,
    "clarity": 4,
    "picture": 3,
    "ease": 4,
    "english": false,
    "issues": [],
-   "why": "Very clear and simple self-introduction suitable for beginners."
+   "why": "Clear and simple standard self-introduction suitable for beginners."
+  },
+  "q7lOcfkl-YY-377": {
+   "id": "q7lOcfkl-YY-377",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Charming and natural interaction about nicknames with good energy."
   }
  }
 }

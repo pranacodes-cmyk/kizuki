@@ -1,6 +1,7 @@
 {
  "videoId": "z7mBxU12PKg",
  "ids": [
+  "z7mBxU12PKg-370",
   "z7mBxU12PKg-45"
  ],
  "model": "google/gemini-3.8-flash",
@@ -13,7 +14,17 @@
    "ease": 4,
    "english": false,
    "issues": [],
-   "why": "Clear beginner Japanese with helpful supporting graphics."
+   "why": "Clear beginner daily routine vocabulary with helpful visual illustrations."
+  },
+  "z7mBxU12PKg-370": {
+   "id": "z7mBxU12PKg-370",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Accessible talk about personal hobbies with clear, paced speech."
   }
  }
 }

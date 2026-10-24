@@ -1,7 +1,8 @@
 {
  "videoId": "sHLH0RoV5uY",
  "ids": [
-  "sHLH0RoV5uY-2"
+  "sHLH0RoV5uY-2",
+  "sHLH0RoV5uY-22"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
@@ -9,11 +10,21 @@
    "id": "sHLH0RoV5uY-2",
    "appeal": 6,
    "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Cute narration about visiting Kagoshima, though speech is slightly fast."
+  },
+  "sHLH0RoV5uY-22": {
+   "id": "sHLH0RoV5uY-22",
+   "appeal": 6,
+   "clarity": 4,
    "picture": 4,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Appealing food clip, though narration is moderately fast for beginners."
+   "why": "Appetizing ramen closeup with clear narration, but includes specific food vocabulary."
   }
  }
 }

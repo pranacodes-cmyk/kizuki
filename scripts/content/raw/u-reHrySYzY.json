@@ -2,208 +2,200 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 327.5,
-   "end": 345.0,
-   "title": "How It Feels to Hit a Home Run",
+   "start": 139.2,
+   "end": 157.0,
+   "title": "Favorite Player on the Team",
    "level": "N4",
    "topics": [
     "sports",
     "fun"
    ],
    "grammar": [
-    "〜たとき — when doing something",
-    "〜くらい — to the extent of"
+    "〜かな — wondering / softening an opinion",
+    "〜から — because / reason"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 327.8,
-     "end": 329.8,
-     "ja": "吉田かえでです。",
-     "en": "I'm Kaede Yoshida.",
-     "speaker": "Girl"
+     "start": 139.2,
+     "end": 141.0,
+     "ja": "出村建です。",
+     "en": "I'm Takeru Demura.",
+     "speaker": "Boy"
     },
     {
-     "start": 330.1,
-     "end": 332.4,
-     "ja": "今日のホームラン、とてもかっこよかったです。",
-     "en": "Today's home run was really cool.",
-     "speaker": "Girl"
+     "start": 141.1,
+     "end": 144.1,
+     "ja": "ファイターズで好きな選手は誰ですか？",
+     "en": "Who is your favorite player on the Fighters?",
+     "speaker": "Boy"
     },
     {
-     "start": 332.5,
-     "end": 333.4,
-     "ja": "ああ、ありがとう。",
-     "en": "Ah, thank you.",
+     "start": 144.4,
+     "end": 146.4,
+     "ja": "ファイターズで好きな選手？",
+     "en": "My favorite player on the Fighters?",
      "speaker": "Kiyomiya"
     },
     {
-     "start": 333.5,
-     "end": 336.7,
-     "ja": "ホームランを打ったときの気持ちを教えてください。",
-     "en": "Please tell me how it feels when you hit a home run.",
-     "speaker": "Girl"
-    },
-    {
-     "start": 337.0,
-     "end": 339.1,
-     "ja": "もうね、とびきり嬉しい。",
-     "en": "Well, it's extraordinarily happy.",
+     "start": 146.5,
+     "end": 148.5,
+     "ja": "僕はね、淺間さんかな。",
+     "en": "For me, maybe Asama.",
      "speaker": "Kiyomiya"
     },
     {
-     "start": 340.2,
-     "end": 341.2,
-     "ja": "めっちゃ嬉しい。",
-     "en": "Super happy.",
+     "start": 149.3,
+     "end": 150.5,
+     "ja": "かっこよくない？",
+     "en": "Isn't he cool?",
      "speaker": "Kiyomiya"
     },
     {
-     "start": 341.3,
-     "end": 344.2,
-     "ja": "好きなもの給食出てくるぐらい嬉しい。",
-     "en": "As happy as when your favorite food is served for school lunch.",
+     "start": 151.0,
+     "end": 152.3,
+     "ja": "わかんないか。",
+     "en": "Maybe you don't know?",
+     "speaker": "Kiyomiya"
+    },
+    {
+     "start": 153.0,
+     "end": 156.6,
+     "ja": "かっこいいから、かっこいいから好きかな。はい。",
+     "en": "He's cool, so I guess I like him because he's cool. Yeah.",
      "speaker": "Kiyomiya"
     }
    ]
   },
   {
-   "start": 550.0,
-   "end": 619.5,
-   "title": "How to Become a Pro Baseball Player",
+   "start": 264.4,
+   "end": 289.8,
+   "title": "What If You Weren't a Baseball Player?",
    "level": "N3",
    "topics": [
     "sports",
-    "daily"
+    "work"
    ],
    "grammar": [
-    "〜ために — in order to",
-    "〜ないといけない — must do",
-    "〜んじゃないかな — I wonder if / might be"
+    "〜たら — if / conditional",
+    "〜と思う — I think that..."
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 550.1,
-     "end": 552.5,
-     "ja": "僕の名前は安孫子ゆうまです。",
-     "en": "My name is Yuma Abiko.",
+     "start": 264.4,
+     "end": 266.3,
+     "ja": "高野彼方です。",
+     "en": "I'm Kanata Takano.",
      "speaker": "Boy"
     },
     {
-     "start": 552.6,
-     "end": 554.8,
-     "ja": "僕も野球をしているんですが、",
-     "en": "I play baseball too, but...",
+     "start": 266.4,
+     "end": 270.2,
+     "ja": "もしも野球選手じゃなかったら、何になってましたか？",
+     "en": "If you weren't a baseball player, what would you have become?",
      "speaker": "Boy"
     },
     {
-     "start": 554.9,
-     "end": 559.2,
-     "ja": "プロ野球選手になるためにはどうしたらいいですか？",
-     "en": "what should I do to become a professional baseball player?",
-     "speaker": "Boy"
-    },
-    {
-     "start": 600.3,
-     "end": 603.5,
-     "ja": "プロ野球選手になるためには、",
-     "en": "In order to become a pro baseball player...",
+     "start": 270.6,
+     "end": 274.0,
+     "ja": "ああ、そうだね。ラグビー選手かな。",
+     "en": "Ah, let's see. Probably a rugby player.",
      "speaker": "Kiyomiya"
     },
     {
-     "start": 604.9,
-     "end": 608.5,
-     "ja": "まあ、まずやっぱり練習しないといけないと思うけど、",
-     "en": "well, first of all I think you have to practice, but...",
+     "start": 274.4,
+     "end": 277.3,
+     "ja": "うん、父親がラグビーやってて、",
+     "en": "Yeah, my father played rugby,",
      "speaker": "Kiyomiya"
     },
     {
-     "start": 609.1,
-     "end": 611.8,
-     "ja": "いっぱい動いて、いっぱい寝て、",
-     "en": "move around a lot, sleep a lot,",
+     "start": 277.5,
+     "end": 282.1,
+     "ja": "それで、小さい頃から、年少からずっとラグビーやってて、",
+     "en": "and so I played rugby from an early age, since preschool,",
      "speaker": "Kiyomiya"
     },
     {
-     "start": 612.7,
-     "end": 615.0,
-     "ja": "いっぱい食べる。体を大きくする。",
-     "en": "and eat a lot. Make your body big.",
+     "start": 282.5,
+     "end": 285.0,
+     "ja": "ま、結構うまかったんだけど。",
+     "en": "and, well, I was pretty good at it.",
      "speaker": "Kiyomiya"
     },
     {
-     "start": 615.5,
-     "end": 619.3,
-     "ja": "それがすごく大事じゃないかなと僕は思います。",
-     "en": "I think that's really important.",
+     "start": 285.4,
+     "end": 289.4,
+     "ja": "もし野球じゃなかったら、今でもラグビーやってたかなって思います。",
+     "en": "If not baseball, I think I'd probably still be playing rugby now.",
      "speaker": "Kiyomiya"
     }
    ]
   },
   {
-   "start": 718.8,
-   "end": 750.5,
-   "title": "Is Manager Shinjo Kind?",
+   "start": 438.6,
+   "end": 470.5,
+   "title": "Is Manager Shinjo Nice?",
    "level": "N3",
    "topics": [
     "sports",
-    "fun"
+    "work",
+    "friends"
    ],
    "grammar": [
-    "〜てくれる — do something for someone",
-    "使役形 (笑わせる) — causative form (make laugh)",
-    "〜たりする — do things like"
+    "〜たりする — doing things like...",
+    "〜てくれる — doing something for someone"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 718.9,
-     "end": 720.9,
+     "start": 438.6,
+     "end": 440.6,
      "ja": "藤井志歩です。",
      "en": "I'm Shiho Fujii.",
      "speaker": "Girl"
     },
     {
-     "start": 721.6,
-     "end": 724.4,
+     "start": 441.4,
+     "end": 444.6,
      "ja": "新庄監督は優しいですか？",
-     "en": "Is Manager Shinjo kind?",
+     "en": "Is Manager Shinjo nice?",
      "speaker": "Girl"
     },
     {
-     "start": 725.0,
-     "end": 729.8,
+     "start": 444.9,
+     "end": 449.6,
      "ja": "新庄監督はね、優しいよ。めっちゃ。",
-     "en": "Manager Shinjo is kind. Super kind.",
+     "en": "Manager Shinjo is nice. Very nice.",
      "speaker": "Kiyomiya"
     },
     {
-     "start": 730.6,
-     "end": 737.4,
-     "ja": "メディアとかでは厳しくね、厳しいこと言ったりするけど、",
-     "en": "In the media and stuff he acts strict and says harsh things, but...",
+     "start": 450.4,
+     "end": 457.0,
+     "ja": "あのメディアとかでは、厳しくね、厳しいこと言ったりするけど、",
+     "en": "In the media and stuff he's strict and says strict things, but...",
      "speaker": "Kiyomiya"
     },
     {
-     "start": 738.0,
-     "end": 743.0,
-     "ja": "本当僕らと話すときは、いつも優しい言葉をかけてくれるし、",
-     "en": "really, when he talks to us, he always speaks kindly,",
+     "start": 457.7,
+     "end": 463.0,
+     "ja": "ほんと僕らと話すときは、いつも優しい言葉かけてくれるし、",
+     "en": "when he talks with us, he always says kind words to us,",
      "speaker": "Kiyomiya"
     },
     {
-     "start": 743.6,
-     "end": 746.3,
-     "ja": "僕たちのことを笑わせてくれるし、",
+     "start": 463.3,
+     "end": 466.0,
+     "ja": "僕らのこと笑わせてくれるし、",
      "en": "and he makes us laugh,",
      "speaker": "Kiyomiya"
     },
     {
-     "start": 746.7,
-     "end": 750.0,
-     "ja": "本当にすごくいい監督だなと思ってます。",
-     "en": "so I really think he's a wonderful manager.",
+     "start": 466.4,
+     "end": 470.0,
+     "ja": "本当に、すごくいい監督だなと思ってます。",
+     "en": "so I really think he is a wonderful manager.",
      "speaker": "Kiyomiya"
     }
    ]
@@ -213,5 +205,6 @@
  "pickTopics": [
   "sports"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

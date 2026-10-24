@@ -1,21 +1,19 @@
 {
  "videoId": "SRctsHb9nX8",
  "ids": [
-  "SRctsHb9nX8-195"
+  "SRctsHb9nX8-117"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "SRctsHb9nX8-195": {
-   "id": "SRctsHb9nX8-195",
-   "appeal": 3,
+  "SRctsHb9nX8-117": {
+   "id": "SRctsHb9nX8-117",
+   "appeal": 4,
    "clarity": 4,
    "picture": 2,
-   "ease": 4,
+   "ease": 3,
    "english": false,
-   "issues": [
-    "starts mid-sentence"
-   ],
-   "why": "Dry multiple choice format starting without context over static illustration."
+   "issues": [],
+   "why": "Clear JLPT practice audio paired with a static slide illustration."
   }
  }
 }

@@ -2,111 +2,131 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 42.0,
-   "end": 106.8,
-   "title": "Finding the Right Study Pace",
+   "start": 26.0,
+   "end": 41.5,
+   "title": "Studying Japanese Every Day",
    "level": "N5",
    "topics": [
-    "school",
-    "daily"
+    "daily",
+    "school"
    ],
    "grammar": [
-    "〜方がいい — it is better to",
-    "〜より — more than / rather than",
-    "〜てしまう — end up doing"
+    "〜ていく — to continue doing",
+    "〜ましょう — let's"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 42.0,
-     "end": 45.8,
-     "ja": "時間はですね、もちろん多い方がいいです。",
-     "en": "As for study time, of course more is better.",
+     "start": 26.0,
+     "end": 27.2,
+     "ja": "はい、こんにちは。",
+     "en": "Hi, hello.",
      "speaker": "Teppei"
     },
     {
-     "start": 46.2,
-     "end": 52.8,
-     "ja": "例えば、3時間勉強した方が、5分勉強するよりもいいですね。",
-     "en": "For example, studying for three hours is better than studying for five minutes.",
+     "start": 27.2,
+     "end": 29.5,
+     "ja": "日本語コン徹平の時間ですね。",
+     "en": "It's time for Nihongo con Teppei.",
      "speaker": "Teppei"
     },
     {
-     "start": 53.0,
-     "end": 57.6,
-     "ja": "まあ、だけど、10時間とかね、10時間とか勉強すると、",
-     "en": "Well, but if you study for something like 10 hours,",
+     "start": 29.5,
+     "end": 31.4,
+     "ja": "皆さん元気ですか？",
+     "en": "How is everyone doing?",
      "speaker": "Teppei"
     },
     {
-     "start": 57.7,
-     "end": 64.0,
-     "ja": "ほとんどの人は疲れてしまって、次の日に勉強ができないです。",
-     "en": "most people get exhausted and can't study the next day.",
+     "start": 31.4,
+     "end": 35.8,
+     "ja": "今日も頑張って日本語を勉強していきましょう。",
+     "en": "Let's do our best and keep studying Japanese today.",
      "speaker": "Teppei"
     },
     {
-     "start": 64.5,
-     "end": 66.5,
-     "ja": "ね、できないことが多いです。",
-     "en": "Often, they just can't do it.",
+     "start": 35.8,
+     "end": 38.3,
+     "ja": "日本語の勉強を続けていきましょうね。",
+     "en": "Let's keep up with our Japanese studies.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 38.3,
+     "end": 39.8,
+     "ja": "毎日ですよ。",
+     "en": "Every single day.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 39.8,
+     "end": 41.5,
+     "ja": "絶対に毎日。",
+     "en": "Definitely every day.",
      "speaker": "Teppei"
     }
    ]
   },
   {
-   "start": 209.5,
-   "end": 230.8,
+   "start": 208.8,
+   "end": 230.5,
    "title": "Listening Is the Most Important",
    "level": "N5",
    "topics": [
-    "school",
-    "daily"
+    "daily",
+    "school"
    ],
    "grammar": [
-    "〜が一番 — the most...",
-    "〜ている — progressive / continuous state"
+    "〜が一番 — the most",
+    "〜ている — ongoing action"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 209.5,
-     "end": 211.2,
+     "start": 208.8,
+     "end": 210.8,
      "ja": "リスニング。",
      "en": "Listening.",
      "speaker": "Teppei"
     },
     {
-     "start": 211.4,
-     "end": 214.0,
+     "start": 210.8,
+     "end": 213.8,
      "ja": "ね、リスニングが大事です。",
-     "en": "Listening is important.",
+     "en": "Right, listening is important.",
      "speaker": "Teppei"
     },
     {
-     "start": 214.2,
-     "end": 217.4,
+     "start": 213.8,
+     "end": 217.3,
      "ja": "リスニングが一番大事です。",
-     "en": "Listening is the most important thing.",
+     "en": "Listening is the most important.",
      "speaker": "Teppei"
     },
     {
-     "start": 218.0,
+     "start": 217.3,
+     "end": 219.5,
+     "ja": "僕は、だから、",
+     "en": "For me, that's why...",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 219.5,
      "end": 223.3,
-     "ja": "僕は、だから、ね、だから僕はポッドキャストを撮っています。",
-     "en": "That's why, you see, that's why I record this podcast.",
+     "ja": "だから僕はポッドキャストを録っています。",
+     "en": "That's why I record this podcast.",
      "speaker": "Teppei"
     },
     {
-     "start": 223.5,
-     "end": 226.9,
+     "start": 223.3,
+     "end": 227.0,
      "ja": "ね、リスニングが一番効果がある。",
      "en": "Listening is the most effective.",
      "speaker": "Teppei"
     },
     {
-     "start": 227.2,
-     "end": 230.2,
+     "start": 227.0,
+     "end": 230.3,
      "ja": "そして一人でもできる。",
      "en": "And you can do it on your own.",
      "speaker": "Teppei"
@@ -114,61 +134,68 @@
    ]
   },
   {
-   "start": 203.0,
-   "end": 345.5,
-   "title": "Listening Takes Time",
+   "start": 246.0,
+   "end": 302.0,
+   "title": "Kanji Versus Listening Practice",
    "level": "N4",
    "topics": [
-    "school",
-    "daily"
+    "daily",
+    "school"
    ],
    "grammar": [
-    "〜た方がいい — had better / should",
-    "〜ば — conditional if/when",
-    "〜ようになる — reach the point where / become able to"
+    "〜たり〜たり — doing things like A and B",
+    "〜た方がいい — it is better to",
+    "〜てください — please do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 323.0,
-     "end": 326.5,
-     "ja": "リスニングは絶対に毎日した方がいいです。",
-     "en": "You should definitely do listening practice every day.",
+     "start": 246.0,
+     "end": 248.0,
+     "ja": "じゃあ、漢字を読んだり、",
+     "en": "Now, reading kanji,",
      "speaker": "Teppei"
     },
     {
-     "start": 326.8,
-     "end": 330.8,
-     "ja": "なぜかと言うとね、時間がかかります。ね、時間がかかる。",
-     "en": "The reason why is that it takes time. It really takes time.",
+     "start": 248.0,
+     "end": 249.8,
+     "ja": "漢字を書いたり、",
+     "en": "writing kanji,",
      "speaker": "Teppei"
     },
     {
-     "start": 331.0,
-     "end": 333.6,
-     "ja": "リスニングを1日やっても上達しないです。",
-     "en": "Doing listening for just one day won't improve your skills.",
+     "start": 249.8,
+     "end": 252.4,
+     "ja": "それが必要なのかというと、",
+     "en": "if you ask whether that's necessary,",
      "speaker": "Teppei"
     },
     {
-     "start": 333.8,
-     "end": 337.8,
-     "ja": "1年間、2年間、3年間、ね、毎日やれば、",
-     "en": "If you do it every day for one year, two years, three years,",
+     "start": 252.4,
+     "end": 254.4,
+     "ja": "もちろんできた方がいいですね。",
+     "en": "of course it's better if you can do it.",
      "speaker": "Teppei"
     },
     {
-     "start": 338.0,
-     "end": 342.1,
-     "ja": "皆さんは日本人が何を言っているか分かるようになります。",
-     "en": "you will be able to understand what Japanese people are saying.",
+     "start": 254.4,
+     "end": 256.0,
+     "ja": "もちろんできた方がいい。",
+     "en": "Of course it's better.",
      "speaker": "Teppei"
     },
     {
-     "start": 342.3,
-     "end": 345.0,
-     "ja": "必ず。ね、僕を信じて続けてください。",
-     "en": "Definitely. Trust me and keep going.",
+     "start": 256.0,
+     "end": 258.5,
+     "ja": "でも、まずはリスニング。",
+     "en": "However, listening comes first.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 258.5,
+     "end": 302.0,
+     "ja": "必ずリスニングを続けてください。",
+     "en": "Be sure to keep up with your listening practice.",
      "speaker": "Teppei"
     }
    ]
@@ -178,5 +205,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

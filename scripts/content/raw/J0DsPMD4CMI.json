@@ -2,9 +2,9 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 147.0,
+   "start": 146.7,
    "end": 205.7,
-   "title": "Survey on Japanese Teachers Working Overtime",
+   "title": "Overtime Statistics for Japanese Teachers",
    "level": "N2",
    "topics": [
     "work",
@@ -12,34 +12,41 @@
    ],
    "grammar": [
     "〜によると — according to",
-    "〜そうだ — hearsay / reportedly"
+    "〜ずに — without doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 147.1,
-     "end": 149.8,
+     "start": 147.0,
+     "end": 150.0,
      "ja": "あるアンケートによると、",
      "en": "According to a survey,",
      "speaker": "Narrator"
     },
     {
-     "start": 149.8,
-     "end": 158.5,
-     "ja": "日本の先生の97%が定時に帰れず残業をしているという結果が発表されました。",
-     "en": "results showed that 97% of teachers in Japan cannot leave on time and work overtime.",
+     "start": 150.0,
+     "end": 155.0,
+     "ja": "日本の先生の97％が定時に帰れず残業をしている",
+     "en": "97% of Japanese teachers cannot leave on time and work overtime,",
      "speaker": "Narrator"
     },
     {
-     "start": 158.8,
+     "start": 155.0,
+     "end": 158.5,
+     "ja": "という結果が発表されました。",
+     "en": "according to published results.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 159.0,
      "end": 161.0,
      "ja": "3人に1人は、",
-     "en": "One in three",
+     "en": "One in three teachers",
      "speaker": "Narrator"
     },
     {
      "start": 161.0,
-     "end": 205.2,
+     "end": 165.2,
      "ja": "1日に2時間以上残業をしているそうです。",
      "en": "reportedly works more than two hours of overtime a day.",
      "speaker": "Narrator"
@@ -49,59 +56,59 @@
   {
    "start": 222.0,
    "end": 247.5,
-   "title": "Reasons Behind Teachers' Overtime Work",
+   "title": "Why Japanese Teachers Work Overtime",
    "level": "N2",
    "topics": [
     "work",
     "school"
    ],
    "grammar": [
-    "〜など — such as",
-    "〜だけ — only / just"
+    "〜など — and such / etc.",
+    "〜だけ — only"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 222.3,
-     "end": 226.5,
+     "start": 222.2,
+     "end": 227.5,
      "ja": "残業の理由は、授業の準備が一番多く、",
-     "en": "The most common reason for overtime was lesson prep,",
+     "en": "The most common reason for overtime was preparing for classes,",
      "speaker": "Narrator"
     },
     {
-     "start": 227.0,
-     "end": 230.8,
+     "start": 227.5,
+     "end": 232.0,
      "ja": "他に学校の仕事の分担、事務作業、",
-     "en": "along with shared school responsibilities, administrative tasks,",
+     "en": "followed by shared school duties, paperwork,",
      "speaker": "Narrator"
     },
     {
-     "start": 231.0,
-     "end": 234.5,
+     "start": 232.0,
+     "end": 235.5,
      "ja": "テストや宿題のチェックなどがありました。",
-     "en": "and grading tests and homework.",
+     "en": "and grading tests or homework.",
      "speaker": "Narrator"
     },
     {
-     "start": 235.3,
+     "start": 235.8,
      "end": 241.8,
-     "ja": "さらに、家に仕事を持ち帰らない先生は29%だけで、",
-     "en": "Furthermore, only 29% of teachers did not bring work home,",
+     "ja": "さらに、家に仕事を持ち帰らない先生は29％だけで、",
+     "en": "Furthermore, only 29% of teachers don't take work home,",
      "speaker": "Narrator"
     },
     {
-     "start": 242.1,
+     "start": 242.0,
      "end": 247.0,
-     "ja": "土日に仕事をしない先生は25%だけでした。",
-     "en": "and only 25% of teachers did not work on weekends.",
+     "ja": "土日に仕事をしない先生は25％だけでした。",
+     "en": "and only 25% don't work on weekends.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 248.5,
-   "end": 309.0,
-   "title": "Exceeding the Karoshi Threshold",
+   "start": 248.0,
+   "end": 208.5,
+   "title": "Exceeding the Karoshi Line",
    "level": "N2",
    "topics": [
     "work",
@@ -109,36 +116,36 @@
    ],
    "grammar": [
     "〜と — when / if",
-    "〜といわれる — said to be / called"
+    "〜と言われる — to be called / referred to as"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 248.8,
+     "start": 248.3,
      "end": 253.0,
      "ja": "1か月の平均残業時間を計算すると、",
-     "en": "When calculating the average monthly overtime,",
+     "en": "When calculating average monthly overtime hours,",
      "speaker": "Narrator"
     },
     {
-     "start": 253.4,
-     "end": 256.8,
+     "start": 253.0,
+     "end": 256.2,
      "ja": "小学校の先生は88時間で、",
-     "en": "it was 88 hours for elementary school teachers,",
+     "en": "elementary school teachers averaged 88 hours,",
      "speaker": "Narrator"
     },
     {
-     "start": 257.2,
-     "end": 262.0,
+     "start": 256.2,
+     "end": 262.3,
      "ja": "これは「過労死ライン」といわれる80時間をこえています。",
-     "en": "which exceeds the 80-hour threshold known as the 'karoshi line.'",
+     "en": "which exceeds the 80-hour mark known as the 'karoshi line'.",
      "speaker": "Narrator"
     },
     {
-     "start": 302.8,
-     "end": 308.5,
+     "start": 262.5,
+     "end": 268.0,
      "ja": "中学校と高校の先生は71時間でした。",
-     "en": "For middle and high school teachers, it was 71 hours.",
+     "en": "For junior high and high school teachers, it was 71 hours.",
      "speaker": "Narrator"
     }
    ]
@@ -148,5 +155,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

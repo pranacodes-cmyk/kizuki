@@ -1,19 +1,30 @@
 {
  "videoId": "S1Xjc3z_k2s",
  "ids": [
-  "S1Xjc3z_k2s-227"
+  "S1Xjc3z_k2s-227",
+  "S1Xjc3z_k2s-257"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
   "S1Xjc3z_k2s-227": {
    "id": "S1Xjc3z_k2s-227",
-   "appeal": 7,
+   "appeal": 6,
    "clarity": 4,
    "picture": 3,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Fun roleplay contrasting polite and casual speech styles clearly."
+   "why": "Fun roleplay demonstrating an abrupt switch to casual speech."
+  },
+  "S1Xjc3z_k2s-257": {
+   "id": "S1Xjc3z_k2s-257",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Helpful examples showing how to blend casual and polite speech."
   }
  }
 }

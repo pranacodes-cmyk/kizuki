@@ -1,0 +1,30 @@
+{
+ "videoId": "xr5xQ89EYAo",
+ "ids": [
+  "xr5xQ89EYAo-534",
+  "xr5xQ89EYAo-599"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "xr5xQ89EYAo-599": {
+   "id": "xr5xQ89EYAo-599",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Standard YouTube farewell with clear, basic Japanese phrases."
+  },
+  "xr5xQ89EYAo-534": {
+   "id": "xr5xQ89EYAo-534",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Relatable student vlog clip about returning home before curfew."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "XcgzoXpi-ms",
+ "ids": [
+  "XcgzoXpi-ms-527"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "XcgzoXpi-ms-527": {
+   "id": "XcgzoXpi-ms-527",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, slow N5 speech supported by relevant images and text."
+  }
+ }
+}

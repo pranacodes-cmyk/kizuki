@@ -1,0 +1,19 @@
+{
+ "videoId": "f6aqDZui2es",
+ "ids": [
+  "f6aqDZui2es-161"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "f6aqDZui2es-161": {
+   "id": "f6aqDZui2es-161",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear and accessible cultural explanation, but mostly a static talking head."
+  }
+ }
+}

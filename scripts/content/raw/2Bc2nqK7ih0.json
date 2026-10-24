@@ -2,169 +2,171 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 17.5,
-   "end": 43.8,
-   "title": "What Kind of Game Is Splatoon?",
+   "start": 17.6,
+   "end": 44.0,
+   "title": "What Do We Know About Splatoon?",
    "level": "N4",
    "topics": [
     "fun",
-    "friends"
+    "comedy"
    ],
    "grammar": [
-    "〜たことがある — have experienced doing",
-    "〜という — called / named"
+    "〜たことがある — have the experience of",
+    "〜という — called / named",
+    "〜んですよね — isn't it true that / seeking confirmation"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 17.8,
-     "end": 20.4,
-     "ja": "さぁということで、本日もゲームですね。",
-     "en": "All right, so we're playing a game again today.",
+     "start": 17.6,
+     "end": 20.1,
+     "ja": "さぁということで本日もゲームですね。",
+     "en": "Well then, today's video is a game again.",
      "speaker": "Hamaie"
     },
     {
-     "start": 20.4,
-     "end": 23.2,
+     "start": 20.1,
+     "end": 23.5,
      "ja": "今日のゲームはスプラトゥーンというゲームです。",
-     "en": "Today's game is called Splatoon.",
-     "speaker": "Yamauchi"
+     "en": "Today's game is one called Splatoon.",
+     "speaker": "Hamaie"
     },
     {
-     "start": 23.8,
-     "end": 25.1,
+     "start": 23.5,
+     "end": 24.7,
      "ja": "聞いたことある？",
      "en": "Have you heard of it?",
      "speaker": "Yamauchi"
     },
     {
-     "start": 25.1,
-     "end": 28.5,
-     "ja": "聞いたことある有名なやつですが、もちろんやったことはないので。",
-     "en": "I've heard of it, it's famous, but of course I've never played it.",
+     "start": 24.7,
+     "end": 28.1,
+     "ja": "ね、聞いたことある有名なやつですが、もちろんやったことはないので。",
+     "en": "Yeah, I've heard of it, it's famous, but of course I've never played it.",
      "speaker": "Hamaie"
     },
     {
-     "start": 28.5,
-     "end": 29.8,
+     "start": 28.1,
+     "end": 29.7,
      "ja": "やったことないですね。",
-     "en": "Never played it, right?",
+     "en": "We've never played it.",
      "speaker": "Yamauchi"
     },
     {
-     "start": 30.0,
-     "end": 31.9,
+     "start": 29.7,
+     "end": 32.1,
      "ja": "色を塗るんですよね？",
      "en": "You paint colors, right?",
      "speaker": "Yamauchi"
     },
     {
-     "start": 32.0,
-     "end": 34.4,
-     "ja": "みたいなゲームと聞いたことはあります。",
-     "en": "I've heard it's that kind of game.",
+     "start": 32.1,
+     "end": 34.9,
+     "ja": "うん、みたいなゲームと聞いたことはあります。",
+     "en": "Yeah, I've heard it's that kind of game.",
      "speaker": "Hamaie"
     },
     {
-     "start": 34.5,
-     "end": 36.6,
-     "ja": "俺、その情報だけ持ってる。",
+     "start": 34.9,
+     "end": 36.7,
+     "ja": "俺その情報だけ持ってる。",
      "en": "That's the only info I have.",
      "speaker": "Yamauchi"
     },
     {
      "start": 36.7,
-     "end": 39.4,
-     "ja": "俺はイカ... イカっていう情報だけ。",
-     "en": "I only know about squids... that there are squids.",
+     "end": 40.0,
+     "ja": "俺はイカ...イカっていう情報だけ持ってる。",
+     "en": "I only have... the info that there are squids.",
      "speaker": "Hamaie"
     },
     {
-     "start": 39.4,
-     "end": 41.6,
-     "ja": "イカやねんて。それだけ。",
-     "en": "Apparently it's about squids. That's all.",
+     "start": 40.0,
+     "end": 41.0,
+     "ja": "イカ？",
+     "en": "Squids?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 41.0,
+     "end": 42.2,
+     "ja": "うん、イカやねんて。それだけ。",
+     "en": "Yeah, they say it's squids. That's all.",
      "speaker": "Hamaie"
     },
     {
-     "start": 41.7,
-     "end": 43.8,
-     "ja": "スプラトゥーンってイカのゲームなの？",
-     "en": "Is Splatoon a squid game?",
+     "start": 42.2,
+     "end": 44.0,
+     "ja": "スプラトゥーンてイカのゲームなの？",
+     "en": "Splatoon is a squid game?",
      "speaker": "Yamauchi"
     }
    ]
   },
   {
-   "start": 205.2,
-   "end": 224.2,
-   "title": "Figuring Out How to Win",
+   "start": 423.5,
+   "end": 444.0,
+   "title": "Turning into a Squid",
    "level": "N4",
    "topics": [
     "fun",
-    "friends"
+    "comedy"
    ],
    "grammar": [
-    "〜方が勝ち — the one who does ... wins",
-    "〜かも — might / perhaps"
+    "〜すぎる — too much / excessively",
+    "〜になった — became / turned into",
+    "〜て何 — what is ~ (rhetorical/curious)"
    ],
-   "quality": 5,
+   "quality": 4,
    "lines": [
     {
-     "start": 205.5,
-     "end": 206.5,
-     "ja": "なんですか？",
-     "en": "What happened?",
+     "start": 423.8,
+     "end": 426.0,
+     "ja": "上すぎるんだわ。",
+     "en": "It's aimed too high up.",
      "speaker": "Yamauchi"
     },
     {
-     "start": 206.5,
-     "end": 208.0,
-     "ja": "俺が勝ったのか？",
-     "en": "Did I win?",
-     "speaker": "Hamaie"
-    },
-    {
-     "start": 208.0,
-     "end": 209.5,
-     "ja": "俺が負けてる。",
-     "en": "Looks like I lost.",
+     "start": 426.8,
+     "end": 429.5,
+     "ja": "あ、イカになった！なんだこれ！",
+     "en": "Ah, I became a squid! What is this?!",
      "speaker": "Yamauchi"
     },
     {
-     "start": 209.7,
-     "end": 213.6,
-     "ja": "なるほど！このマップ上に俺が黄色いっぱい塗っていったんや。",
-     "en": "I get it! I painted a lot of yellow on this map.",
-     "speaker": "Hamaie"
-    },
-    {
-     "start": 214.4,
-     "end": 217.7,
-     "ja": "いっぱい自分の色塗った方が勝ちってことや、これ多分。",
-     "en": "Whoever covers more area in their color wins, probably.",
-     "speaker": "Hamaie"
-    },
-    {
-     "start": 218.0,
-     "end": 220.6,
-     "ja": "私の方、ペンキが出ませんでしたけど。",
-     "en": "On my end, no paint came out at all.",
+     "start": 431.0,
+     "end": 432.5,
+     "ja": "え？ちょっと待って。",
+     "en": "Eh? Hold on a second.",
      "speaker": "Yamauchi"
     },
     {
-     "start": 220.8,
-     "end": 224.2,
-     "ja": "ちょっと待って、俺、右上、左上、さっき押してなかったかも。",
-     "en": "Wait, I might not have pressed the top-right or top-left buttons earlier.",
+     "start": 432.8,
+     "end": 435.5,
+     "ja": "なんだ、イカになった！イカだ！",
+     "en": "What, I became a squid! It's a squid!",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 438.8,
+     "end": 442.0,
+     "ja": "あれっ、イカになった。戻った。",
+     "en": "Huh, I turned into a squid. Now I'm back.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 442.0,
+     "end": 444.0,
+     "ja": "イカになって何なん！",
+     "en": "What's the point of turning into a squid?!",
      "speaker": "Yamauchi"
     }
    ]
   },
   {
-   "start": 708.8,
-   "end": 722.8,
-   "title": "Hamaie Teaches a Trick",
+   "start": 423.5,
+   "end": 444.0,
+   "title": "Secret Technique: Swimming Up Walls",
    "level": "N3",
    "topics": [
     "fun",
@@ -172,50 +174,58 @@
    ],
    "grammar": [
     "〜てみる — try doing",
-    "〜やん — isn't it? (Kansai dialect)"
+    "〜ながら — while doing",
+    "〜てん — dialect for 〜ている (ongoing/state)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 708.9,
-     "end": 711.0,
-     "ja": "よし、1個だけじゃあ教えますわ。",
+     "start": 423.5,
+     "end": 425.9,
+     "ja": "これで面白さが分かってきました。",
+     "en": "Now I've started to get the fun of it.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 426.0,
+     "end": 428.8,
+     "ja": "あれ？もういいや。",
+     "en": "Huh? Whatever, I'm done.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 428.8,
+     "end": 431.0,
+     "ja": "１個だけじゃあ教えますわ。",
      "en": "All right, I'll teach you just one thing.",
      "speaker": "Hamaie"
     },
     {
-     "start": 711.1,
-     "end": 712.8,
+     "start": 431.0,
+     "end": 433.5,
      "ja": "壁に色を塗るやん。",
-     "en": "You paint the walls, right?",
+     "en": "You paint ink on the wall, right?",
      "speaker": "Hamaie"
     },
     {
-     "start": 712.9,
-     "end": 713.8,
-     "ja": "フ〜ン。",
-     "en": "Uh-huh.",
-     "speaker": "Yamauchi"
-    },
-    {
-     "start": 714.0,
-     "end": 716.0,
-     "ja": "ほんなら壁もギューン登れんねん。",
-     "en": "Then you can zoom right up the wall.",
+     "start": 433.5,
+     "end": 435.8,
+     "ja": "壁もギューン登れんねん。",
+     "en": "You can zoom right up the wall too.",
      "speaker": "Hamaie"
     },
     {
-     "start": 716.3,
-     "end": 719.1,
+     "start": 435.8,
+     "end": 438.4,
      "ja": "それちょっと駆使しながらやってみ、おもろいわ。",
-     "en": "Try making full use of that, it's so fun.",
+     "en": "Try making full use of that, it's really fun.",
      "speaker": "Hamaie"
     },
     {
-     "start": 720.5,
-     "end": 722.5,
-     "ja": "ダレてんな、おい！",
-     "en": "Hey, you're totally slacking off!",
+     "start": 439.8,
+     "end": 442.0,
+     "ja": "ダレてんな！オイ！",
+     "en": "Don't slack off! Hey!",
      "speaker": "Hamaie"
     }
    ]
@@ -225,5 +235,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

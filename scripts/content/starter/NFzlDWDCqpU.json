@@ -1,0 +1,19 @@
+{
+ "videoId": "NFzlDWDCqpU",
+ "ids": [
+  "NFzlDWDCqpU-107"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "NFzlDWDCqpU-107": {
+   "id": "NFzlDWDCqpU-107",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Casual VTuber banter with conversational slang, moderately engaging."
+  }
+ }
+}

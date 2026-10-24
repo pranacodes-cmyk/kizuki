@@ -2,125 +2,146 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 18.8,
-   "end": 39.8,
+   "start": 15.2,
+   "end": 39.5,
    "title": "Not Really a Sports Fan",
    "level": "N5",
    "topics": [
-    "daily",
-    "sports"
+    "sports",
+    "daily"
    ],
    "grammar": [
-    "〜し — listing reasons",
-    "〜ぐらい — approximately / about"
+    "〜し、〜し — listing reasons or states",
+    "〜くらい — approximately"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 19.0,
-     "end": 23.8,
-     "ja": "まあ、僕はそんなにスポーツのファンじゃないですね。",
-     "en": "Well, I'm not really a sports fan.",
+     "start": 15.2,
+     "end": 18.8,
+     "ja": "あの、今日はスポーツについてですね。",
+     "en": "Um, today is about sports.",
      "speaker": "Teppei"
     },
     {
-     "start": 24.0,
-     "end": 27.6,
+     "start": 18.8,
+     "end": 24.4,
+     "ja": "まあ、僕はそんなにスポーツのファンじゃないですね。",
+     "en": "Well, I'm not really much of a sports fan.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 24.4,
+     "end": 28.5,
      "ja": "スポーツをしないし、スポーツを見ない。",
      "en": "I don't play sports, and I don't watch sports.",
      "speaker": "Teppei"
     },
     {
-     "start": 28.3,
-     "end": 30.5,
+     "start": 28.5,
+     "end": 31.0,
      "ja": "まあ、めんどくさいけど、",
-     "en": "Well, it's a hassle, but...",
+     "en": "Well, even though it's a hassle,",
      "speaker": "Teppei"
     },
     {
-     "start": 30.8,
-     "end": 36.4,
-     "ja": "ジムに一週間に2回ぐらいは行くけど、真面目にしない。",
-     "en": "I go to the gym about twice a week, but I don't take it seriously.",
+     "start": 31.0,
+     "end": 34.8,
+     "ja": "ジムに１週間に２回ぐらいは行くけど、",
+     "en": "I go to the gym about twice a week, but",
      "speaker": "Teppei"
     },
     {
-     "start": 36.8,
-     "end": 39.4,
+     "start": 34.8,
+     "end": 37.3,
+     "ja": "真面目にはしない。",
+     "en": "I don't take it seriously.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 37.3,
+     "end": 39.5,
      "ja": "あの、少しだけ。",
-     "en": "Just, you know, a little bit.",
+     "en": "Um, just a little bit.",
      "speaker": "Teppei"
     }
    ]
   },
   {
-   "start": 50.8,
-   "end": 73.2,
+   "start": 51.0,
+   "end": 113.5,
    "title": "Starting Kendo at Age Five",
    "level": "N5",
    "topics": [
-    "daily",
-    "sports"
+    "sports",
+    "culture"
    ],
    "grammar": [
-    "〜というか — or rather",
+    "〜の時に — when / at the time of",
     "〜なければいけない — must / have to"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 51.0,
-     "end": 53.6,
+     "end": 54.0,
      "ja": "だけど、僕の家の近くに、",
-     "en": "However, near my house...",
+     "en": "However, near my house—",
      "speaker": "Teppei"
     },
     {
-     "start": 53.8,
-     "end": 57.8,
-     "ja": "まあ、家の近くというか、家のもう隣に",
-     "en": "Well, rather than near my house, right next door to my house,",
+     "start": 54.0,
+     "end": 58.0,
+     "ja": "まあ家の近くというか、家のもう隣に、",
+     "en": "well, rather than near, right next door to my house—",
      "speaker": "Teppei"
     },
     {
      "start": 58.0,
-     "end": 62.4,
+     "end": 62.8,
      "ja": "剣道の道場があったんですね。",
      "en": "there was a kendo dojo.",
      "speaker": "Teppei"
     },
     {
-     "start": 63.0,
-     "end": 68.4,
-     "ja": "だから、僕は5歳のときに剣道を始めます。",
-     "en": "So, when I was five years old, I started kendo.",
+     "start": 62.8,
+     "end": 65.9,
+     "ja": "だから、僕は５歳の時に、",
+     "en": "So, when I was five years old,",
      "speaker": "Teppei"
     },
     {
-     "start": 68.8,
-     "end": 71.0,
+     "start": 65.9,
+     "end": 69.1,
+     "ja": "剣道を始めます。",
+     "en": "I started kendo.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 69.1,
+     "end": 71.3,
      "ja": "始めなければいけなかった。",
      "en": "I had to start it.",
      "speaker": "Teppei"
     },
     {
-     "start": 71.2,
-     "end": 73.0,
-     "ja": "5歳ですね。5歳。",
-     "en": "Five years old. Five years old.",
+     "start": 71.3,
+     "end": 73.5,
+     "ja": "５歳ですね。５歳。",
+     "en": "Five years old. Age five.",
      "speaker": "Teppei"
     }
    ]
   },
   {
-   "start": 225.8,
-   "end": 254.5,
-   "title": "Quitting Kendo for Punk Rock",
+   "start": 226.0,
+   "end": 254.8,
+   "title": "Quitting Kendo to Start a Band",
    "level": "N4",
    "topics": [
     "music",
-    "sports",
-    "fun"
+    "fun",
+    "sports"
    ],
    "grammar": [
     "〜たくない — do not want to",
@@ -130,37 +151,65 @@
    "lines": [
     {
      "start": 226.0,
-     "end": 232.0,
-     "ja": "理由は、まあ、高校のときはもうちょっと剣道したくないと思ったんですね。",
-     "en": "The reason is, well, in high school I felt I didn't want to do kendo anymore.",
+     "end": 228.0,
+     "ja": "理由は、",
+     "en": "The reason was,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 228.0,
+     "end": 232.4,
+     "ja": "ま、高校の時はもうちょっと剣道したくないと思ったんですね。",
+     "en": "well, in high school, I just didn't want to do kendo anymore.",
      "speaker": "Teppei"
     },
     {
      "start": 232.4,
-     "end": 237.2,
-     "ja": "「剣道したくない、僕は剣道したくない、僕はもっとデートとか、」",
-     "en": "\"I don't want to do kendo, I don't want to do kendo, I want to go on dates,\"",
+     "end": 234.9,
+     "ja": "剣道したくない、僕は剣道したくない、",
+     "en": "I didn't want to do kendo, I didn't want to do kendo,",
      "speaker": "Teppei"
     },
     {
-     "start": 237.5,
-     "end": 243.6,
-     "ja": "映画を見に行ったり、デートしたり、あとはバンドをやったり。",
-     "en": "\"go see movies, go on dates, and play in a band.\"",
+     "start": 234.9,
+     "end": 238.0,
+     "ja": "僕はもっとデートとか、ね。",
+     "en": "I wanted to go on dates and stuff, you know?",
      "speaker": "Teppei"
     },
     {
-     "start": 244.0,
-     "end": 251.0,
-     "ja": "僕はギターを買って、剣道をやめてギターを買って、バンドを始めました。",
-     "en": "I bought a guitar, quit kendo, bought a guitar, and started a band.",
+     "start": 238.0,
+     "end": 241.0,
+     "ja": "映画を観に行ったり、デートしたり、",
+     "en": "Go watch movies, go on dates,",
      "speaker": "Teppei"
     },
     {
-     "start": 251.5,
-     "end": 254.5,
-     "ja": "パンクロックを始めた。",
-     "en": "I started punk rock.",
+     "start": 241.0,
+     "end": 243.8,
+     "ja": "あとはバンドをやったり。",
+     "en": "and also play in a band.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 243.8,
+     "end": 248.3,
+     "ja": "えー、僕はギターを買って、剣道をやめて、",
+     "en": "Um, I bought a guitar, quit kendo,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 248.3,
+     "end": 252.1,
+     "ja": "え、ギターを買って、バンドを始めました。",
+     "en": "bought a guitar and started a band.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 252.1,
+     "end": 254.8,
+     "ja": "え、パンクロックを始めた。",
+     "en": "I started playing punk rock.",
      "speaker": "Teppei"
     }
    ]
@@ -170,5 +219,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

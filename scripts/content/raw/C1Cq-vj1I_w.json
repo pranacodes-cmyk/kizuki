@@ -2,151 +2,167 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 40.0,
-   "end": 59.2,
-   "title": "Eating Produce From Fukushima",
+   "start": 40.1,
+   "end": 58.7,
+   "title": "Buying Products from Fukushima",
    "level": "N3",
    "topics": [
     "food",
-    "daily"
+    "daily",
+    "culture"
    ],
    "grammar": [
-    "〜たら — if / when",
+    "〜としたら — if we assume that",
     "〜通り — just like / as"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 40.3,
+     "start": 40.4,
      "end": 45.9,
-     "ja": "もし例えば原産地とかが福島だったとしたら買いますか？",
-     "en": "If for example the origin was Fukushima, would you buy it?",
+     "ja": "もし原産地とかが福島だったとしたら買いますか？",
+     "en": "If the origin was Fukushima, would you buy it?",
      "speaker": "Interviewer"
     },
     {
      "start": 46.1,
-     "end": 50.4,
-     "ja": "普通に今まで通り、日本の国内で作られてる物だったら、",
-     "en": "Just like before, as long as it's produced within Japan,",
-     "speaker": "Woman 1"
+     "end": 49.6,
+     "ja": "普通に今まで通り日本の国内で作られてるものだったら、",
+     "en": "Just as usual, if it's produced within Japan,",
+     "speaker": "Woman A"
     },
     {
-     "start": 50.6,
-     "end": 52.8,
+     "start": 49.6,
+     "end": 52.5,
      "ja": "安心して食べてます。",
-     "en": "I feel safe eating it.",
-     "speaker": "Woman 1"
+     "en": "I'd eat it without worrying.",
+     "speaker": "Woman A"
     },
     {
      "start": 53.0,
-     "end": 56.0,
-     "ja": "私も買います。国産っていうあれで別に、",
-     "en": "I'd buy it too. As long as it's domestic produce,",
-     "speaker": "Woman 2"
+     "end": 55.4,
+     "ja": "私も買います。「国産」っていうあれで、",
+     "en": "I'd buy it too. Because it's domestic,",
+     "speaker": "Woman B"
     },
     {
-     "start": 56.2,
-     "end": 59.0,
-     "ja": "なんか、うん、そんな意識しないと思います。",
-     "en": "I don't think I'd really care that much.",
-     "speaker": "Woman 2"
+     "start": 55.4,
+     "end": 58.2,
+     "ja": "別にそんな意識しないと思います。",
+     "en": "I don't think I'd be particularly conscious of it.",
+     "speaker": "Woman B"
     }
    ]
   },
   {
-   "start": 220.2,
-   "end": 237.4,
-   "title": "Where Do You Get Your Information?",
+   "start": 173.3,
+   "end": 188.8,
+   "title": "Would You Return to Your Hometown?",
    "level": "N3",
    "topics": [
     "culture",
     "daily"
    ],
    "grammar": [
-    "〜自体 — itself",
-    "〜って言ってる — quoting / saying that"
+    "〜としたら — if we assume that",
+    "〜たい — wanting to do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 220.5,
-     "end": 225.8,
-     "ja": "福島のもの自体が安全っていうのは、どっから情報を得てるんですか？",
-     "en": "Regarding food from Fukushima being safe, where are you getting that info from?",
+     "start": 173.5,
+     "end": 177.2,
+     "ja": "もし福島が自分の故郷だとしたら、",
+     "en": "If Fukushima were your hometown,",
      "speaker": "Interviewer"
     },
     {
-     "start": 226.1,
-     "end": 229.4,
-     "ja": "私は福島に住んでる友達が何人かいるんですけど、",
-     "en": "I have a few friends who live in Fukushima,",
-     "speaker": "Woman"
+     "start": 177.2,
+     "end": 179.8,
+     "ja": "今現在そこに残りたいと思いますか？",
+     "en": "would you want to stay there right now?",
+     "speaker": "Interviewer"
     },
     {
-     "start": 229.6,
-     "end": 232.6,
-     "ja": "でもそんなに気にする事はないよって言ってて、",
-     "en": "and they tell me there's really nothing to worry about.",
-     "speaker": "Woman"
+     "start": 180.1,
+     "end": 182.1,
+     "ja": "え、残りたいです。",
+     "en": "Yes, I would want to stay.",
+     "speaker": "Woman A"
     },
     {
-     "start": 233.0,
-     "end": 237.2,
-     "ja": "メディアでも最近はもう「安心です」っていうのを結構言ってるんで。",
-     "en": "Even the media has been frequently reporting lately that it's safe.",
-     "speaker": "Woman"
+     "start": 182.1,
+     "end": 185.0,
+     "ja": "復興が進んでないところもあると思うんで、",
+     "en": "Since there are areas where reconstruction hasn't progressed,",
+     "speaker": "Woman A"
+    },
+    {
+     "start": 185.0,
+     "end": 186.7,
+     "ja": "助けていきたいと思います。",
+     "en": "I'd want to help out.",
+     "speaker": "Woman A"
+    },
+    {
+     "start": 186.9,
+     "end": 188.4,
+     "ja": "生まれたとこだったら、やっぱり残りたいですね。",
+     "en": "If it were where I was born, I'd definitely want to stay.",
+     "speaker": "Woman B"
     }
    ]
   },
   {
-   "start": 530.8,
-   "end": 550.0,
-   "title": "Ever Considered Leaving Japan?",
+   "start": 331.0,
+   "end": 346.5,
+   "title": "Considering Leaving Japan?",
    "level": "N3",
    "topics": [
+    "travel",
     "culture",
-    "travel"
+    "daily"
    ],
    "grammar": [
-    "〜としたら — assuming that / if",
+    "〜たことがある — have done before",
     "〜と比べて — compared to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 531.0,
-     "end": 534.2,
-     "ja": "将来日本を離れるっていうそういうオプションがあったとしたら、",
+     "start": 331.2,
+     "end": 335.2,
+     "ja": "将来日本を離れるっていうオプションがあったとしたら、",
      "en": "If you had the option to leave Japan in the future,",
      "speaker": "Interviewer"
     },
     {
-     "start": 534.4,
-     "end": 539.5,
-     "ja": "原発とかの影響で「日本離れたい」って考えたことってありますか？",
-     "en": "have you ever thought about leaving Japan due to the nuclear issue?",
+     "start": 335.3,
+     "end": 339.2,
+     "ja": "原発の影響で「日本離れたい」って考えたことってありますか？",
+     "en": "have you ever thought about wanting to leave because of the nuclear plant?",
      "speaker": "Interviewer"
     },
     {
-     "start": 539.8,
-     "end": 541.2,
+     "start": 339.5,
+     "end": 341.0,
      "ja": "ないです、ないです。",
      "en": "No, never.",
      "speaker": "Woman"
     },
     {
-     "start": 541.4,
-     "end": 546.4,
-     "ja": "日本は結構安全だと思います、普通に他の国と比べて。",
-     "en": "I think Japan is quite safe compared to other countries.",
+     "start": 341.2,
+     "end": 343.8,
+     "ja": "日本は結構、安全だと思います、普通に、",
+     "en": "I think Japan is pretty safe, honestly,",
      "speaker": "Woman"
     },
     {
-     "start": 546.8,
-     "end": 549.8,
-     "ja": "ないですね。私はもう日本が大好きですから。はい。",
-     "en": "Never. Because I love Japan. Yes.",
-     "speaker": "Man"
+     "start": 343.8,
+     "end": 346.0,
+     "ja": "他の国と比べて。",
+     "en": "compared to other countries.",
+     "speaker": "Woman"
     }
    ]
   }
@@ -155,5 +171,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

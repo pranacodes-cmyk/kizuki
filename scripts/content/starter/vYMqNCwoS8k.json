@@ -1,0 +1,19 @@
+{
+ "videoId": "vYMqNCwoS8k",
+ "ids": [
+  "vYMqNCwoS8k-202"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "vYMqNCwoS8k-202": {
+   "id": "vYMqNCwoS8k-202",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear cultural explanation of Tanabata wishes with helpful visual props."
+  }
+ }
+}

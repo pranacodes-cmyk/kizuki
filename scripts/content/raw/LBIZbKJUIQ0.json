@@ -2,8 +2,74 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 418.5,
-   "end": 436.5,
+   "start": 203.9,
+   "end": 234.3,
+   "title": "Looking for Station Coin Lockers",
+   "level": "N5",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜を探しています — looking for / searching for",
+    "〜にあります — is located in"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 204.2,
+     "end": 207.5,
+     "ja": "コインロッカーを探しています。",
+     "en": "I'm looking for coin lockers.",
+     "speaker": "Traveler"
+    },
+    {
+     "start": 207.6,
+     "end": 210.0,
+     "ja": "どこにありますか？",
+     "en": "Where are they?",
+     "speaker": "Traveler"
+    },
+    {
+     "start": 211.2,
+     "end": 214.0,
+     "ja": "コインロッカーですね。",
+     "en": "Coin lockers, right.",
+     "speaker": "Station Staff"
+    },
+    {
+     "start": 215.2,
+     "end": 218.8,
+     "ja": "改札のすぐ外にありますよ。",
+     "en": "They are just outside the ticket gate.",
+     "speaker": "Station Staff"
+    },
+    {
+     "start": 220.0,
+     "end": 223.2,
+     "ja": "改札の外ですね。",
+     "en": "Outside the ticket gate.",
+     "speaker": "Traveler"
+    },
+    {
+     "start": 223.8,
+     "end": 228.0,
+     "ja": "大きいスーツケースも入りますか？",
+     "en": "Will a large suitcase fit?",
+     "speaker": "Traveler"
+    },
+    {
+     "start": 229.0,
+     "end": 234.0,
+     "ja": "はい、大きいサイズのロッカーもあります。",
+     "en": "Yes, we also have large-sized lockers.",
+     "speaker": "Station Staff"
+    }
+   ]
+  },
+  {
+   "start": 248.5,
+   "end": 276.8,
    "title": "Renting an Electric Bicycle",
    "level": "N4",
    "topics": [
@@ -11,122 +77,118 @@
     "daily"
    ],
    "grammar": [
-    "〜のほうが — comparison / preference",
-    "〜ことができる — can do / ability"
+    "〜のほうが — comparing alternatives",
+    "〜ことができる — to be able to do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 419.0,
-     "end": 423.0,
+     "start": 248.7,
+     "end": 252.3,
+     "ja": "1日1,000円です。",
+     "en": "It is 1,000 yen for a day.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 253.0,
+     "end": 257.3,
+     "ja": "電動自転車は1,500円になります。",
+     "en": "An electric bicycle is 1,500 yen.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 258.8,
+     "end": 263.0,
      "ja": "電動自転車のほうが楽ですか？",
      "en": "Is the electric bicycle easier?",
-     "speaker": "旅行者"
+     "speaker": "Traveler"
     },
     {
-     "start": 424.0,
-     "end": 431.0,
-     "ja": "はい、坂道も簡単に登ることができますよ。",
-     "en": "Yes, you can easily climb hills.",
-     "speaker": "店員"
+     "start": 264.3,
+     "end": 266.0,
+     "ja": "はい、",
+     "en": "Yes,",
+     "speaker": "Clerk"
     },
     {
-     "start": 431.8,
-     "end": 436.0,
+     "start": 266.1,
+     "end": 271.0,
+     "ja": "坂道も簡単に登ることができますよ。",
+     "en": "you can easily climb hills.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 272.0,
+     "end": 276.2,
      "ja": "じゃあ、電動自転車をお願いします。",
      "en": "Then, I will have the electric bicycle, please.",
-     "speaker": "旅行者"
+     "speaker": "Traveler"
     }
    ]
   },
   {
-   "start": 837.0,
-   "end": 907.0,
-   "title": "Wrong Train on the Shinkansen",
+   "start": 517.2,
+   "end": 548.0,
+   "title": "Boarding the Wrong Shinkansen",
    "level": "N4",
    "topics": [
     "travel",
-    "daily"
-   ],
-   "grammar": [
-    "〜てしまう — unintentionally do",
-    "〜みたい — looks like / seems like"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 837.5,
-     "end": 841.5,
-     "ja": "あ、このチケット、時間が違いますよ。",
-     "en": "Ah, this ticket has a different time.",
-     "speaker": "先客"
-    },
-    {
-     "start": 842.8,
-     "end": 845.8,
-     "ja": "え？本当ですか？",
-     "en": "Eh? Really?",
-     "speaker": "客"
-    },
-    {
-     "start": 846.8,
-     "end": 854.0,
-     "ja": "今の時間は10時ですが、このチケットは11時です。",
-     "en": "The time now is 10:00, but this ticket is for 11:00.",
-     "speaker": "先客"
-    },
-    {
-     "start": 855.5,
-     "end": 900.2,
-     "ja": "あ！１時間あとの新幹線ですね。",
-     "en": "Ah! It's the Shinkansen one hour later.",
-     "speaker": "客"
-    },
-    {
-     "start": 901.0,
-     "end": 906.8,
-     "ja": "はい。１本早い新幹線に乗ってしまったみたいですね。",
-     "en": "Yes. It seems you got on an earlier Shinkansen.",
-     "speaker": "先客"
-    }
-   ]
-  },
-  {
-   "start": 1105.5,
-   "end": 1126.5,
-   "title": "Returning CDs at the Library",
-   "level": "N4",
-   "topics": [
-    "daily",
     "culture"
    ],
    "grammar": [
-    "〜ていい — asking permission",
-    "〜てください — please do",
-    "〜から — because / reason"
+    "〜てしまう — inadvertently / accidentally do",
+    "〜みたい — seems like / looks like"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1106.0,
-     "end": 1110.5,
-     "ja": "CDもポストに入れていいですか？",
-     "en": "Can I put CDs in the drop box too?",
-     "speaker": "利用者"
+     "start": 517.5,
+     "end": 521.8,
+     "ja": "あ、このチケット、時間が違いますよ。",
+     "en": "Ah, this ticket has a different time.",
+     "speaker": "Passenger"
     },
     {
-     "start": 1111.2,
-     "end": 1120.5,
-     "ja": "いいえ、CDは壊れますから、カウンターへ持ってきてください。",
-     "en": "No, CDs might break, so please bring them to the counter.",
-     "speaker": "係員"
+     "start": 523.0,
+     "end": 526.0,
+     "ja": "え？本当ですか？",
+     "en": "Eh? Really?",
+     "speaker": "Traveler"
     },
     {
-     "start": 1121.5,
-     "end": 1126.0,
-     "ja": "わかりました。本だけポストに入れます。",
-     "en": "Understood. I will put only books in the drop box.",
-     "speaker": "利用者"
+     "start": 526.8,
+     "end": 530.4,
+     "ja": "今の時間は10時ですが、",
+     "en": "The time now is 10:00,",
+     "speaker": "Passenger"
+    },
+    {
+     "start": 530.8,
+     "end": 534.4,
+     "ja": "このチケットは11時です。",
+     "en": "but this ticket is for 11:00.",
+     "speaker": "Passenger"
+    },
+    {
+     "start": 535.7,
+     "end": 539.8,
+     "ja": "あ！1時間あとの新幹線ですね。",
+     "en": "Ah! It's the Shinkansen one hour later.",
+     "speaker": "Traveler"
+    },
+    {
+     "start": 540.8,
+     "end": 542.5,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Passenger"
+    },
+    {
+     "start": 542.6,
+     "end": 547.4,
+     "ja": "1本早い新幹線に乗ってしまったみたいですね。",
+     "en": "It seems you got on an earlier Shinkansen.",
+     "speaker": "Passenger"
     }
    ]
   }
@@ -135,5 +197,6 @@
  "pickTopics": [
   "travel"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

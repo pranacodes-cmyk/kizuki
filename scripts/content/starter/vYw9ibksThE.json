@@ -1,0 +1,19 @@
+{
+ "videoId": "vYw9ibksThE",
+ "ids": [
+  "vYw9ibksThE-698"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "vYw9ibksThE-698": {
+   "id": "vYw9ibksThE-698",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Fun cultural moment featuring lively, natural workplace dialogue."
+  }
+ }
+}

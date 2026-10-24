@@ -2,54 +2,9 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 10.5,
-   "end": 28.0,
-   "title": "A Talking Parakeet Introduces Itself",
-   "level": "N4",
-   "topics": [
-    "animals",
-    "fun"
-   ],
-   "grammar": [
-    "〜も — as much as / as many as",
-    "〜ができる — can do / be able to"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 11.0,
-     "end": 13.8,
-     "ja": "お名前は？お名前は？",
-     "en": "What's your name? What's your name?",
-     "speaker": "Owner"
-    },
-    {
-     "start": 15.0,
-     "end": 18.0,
-     "ja": "石川ピーちゃん！",
-     "en": "Ishikawa Pi-chan!",
-     "speaker": "Parakeet"
-    },
-    {
-     "start": 18.8,
-     "end": 22.8,
-     "ja": "自己紹介も決まった、オキナインコのピーちゃん。",
-     "en": "A monk parakeet named Pi-chan, nailing the self-introduction.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 23.6,
-     "end": 27.8,
-     "ja": "なんと50もの言葉を使い会話ができるんです。",
-     "en": "Remarkably, he can hold conversations using as many as 50 words.",
-     "speaker": "Narrator"
-    }
-   ]
-  },
-  {
-   "start": 36.0,
+   "start": 35.8,
    "end": 57.0,
-   "title": "Saying Goodbye as Mom Leaves the House",
+   "title": "The Parrot Sees Off His Owner",
    "level": "N5",
    "topics": [
     "animals",
@@ -57,117 +12,197 @@
    ],
    "grammar": [
     "〜てくる — go and come back",
-    "〜ようだ — seems like / looks like"
+    "〜よう — looks like / seems like"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 36.3,
-     "end": 38.6,
-     "ja": "ピーちゃん、お出かけしてくるね。",
+     "start": 36.0,
+     "end": 38.5,
+     "ja": "ピーちゃん お出かけしてくるね。",
      "en": "Pi-chan, I'm heading out.",
      "speaker": "Owner"
     },
     {
      "start": 38.8,
-     "end": 42.6,
-     "ja": "バイバイ。バイバイ。",
-     "en": "Bye-bye. Bye-bye.",
+     "end": 40.2,
+     "ja": "バイバイ。",
+     "en": "Bye-bye.",
+     "speaker": "Owner"
+    },
+    {
+     "start": 41.0,
+     "end": 42.5,
+     "ja": "バイバイ。",
+     "en": "Bye-bye.",
      "speaker": "Owner"
     },
     {
      "start": 43.5,
-     "end": 46.8,
+     "end": 46.5,
      "ja": "さあ、お母さんがお出かけするようです。",
-     "en": "Now, it seems Mom is heading out.",
+     "en": "Now, it seems his mom is heading out.",
      "speaker": "Narrator"
     },
     {
-     "start": 48.4,
-     "end": 50.1,
+     "start": 48.2,
+     "end": 50.2,
      "ja": "こんな時は？",
-     "en": "At a time like this...?",
+     "en": "At times like this?",
      "speaker": "Narrator"
     },
     {
-     "start": 51.3,
+     "start": 51.5,
      "end": 54.0,
-     "ja": "いってらっしゃ～い！",
-     "en": "Have a safe trip!",
-     "speaker": "Parakeet"
+     "ja": "いってらっしゃ〜い！",
+     "en": "Have a good day!",
+     "speaker": "Pi-chan"
     },
     {
      "start": 54.2,
      "end": 56.5,
-     "ja": "いってらっしゃ～い！",
-     "en": "Have a safe trip!",
-     "speaker": "Parakeet"
+     "ja": "いってらっしゃ〜い！",
+     "en": "Have a good day!",
+     "speaker": "Pi-chan"
     }
    ]
   },
   {
-   "start": 223.0,
-   "end": 245.5,
-   "title": "Pi-chan Asks for More Apple",
-   "level": "N4",
+   "start": 59.8,
+   "end": 123.0,
+   "title": "A Hilarious Greeting Slip-Up",
+   "level": "N5",
    "topics": [
     "animals",
-    "daily"
+    "comedy"
    ],
    "grammar": [
-    "〜になると — when / once becomes",
-    "〜てくれる — to do for someone"
+    "〜た時 — when doing something",
+    "時には — sometimes"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 223.5,
-     "end": 225.5,
-     "ja": "終わりね。食べない？いらない？",
-     "en": "All done? Not eating? Don't want it?",
+     "start": 100.0,
+     "end": 103.0,
+     "ja": "ピーちゃん、ただいま。",
+     "en": "Pi-chan, I'm home.",
      "speaker": "Owner"
     },
     {
-     "start": 225.8,
-     "end": 227.0,
-     "ja": "もっと！",
-     "en": "More!",
-     "speaker": "Parakeet"
+     "start": 103.1,
+     "end": 105.4,
+     "ja": "帰ってきた時は？",
+     "en": "And when she comes home?",
+     "speaker": "Narrator"
     },
     {
-     "start": 227.1,
-     "end": 228.6,
+     "start": 105.6,
+     "end": 107.8,
+     "ja": "おかえり。",
+     "en": "Welcome home.",
+     "speaker": "Pi-chan"
+    },
+    {
+     "start": 108.5,
+     "end": 110.5,
+     "ja": "おかえり。",
+     "en": "Welcome home.",
+     "speaker": "Pi-chan"
+    },
+    {
+     "start": 110.8,
+     "end": 113.5,
+     "ja": "でも、時にはこんなことも。",
+     "en": "But sometimes, this happens too.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 118.5,
+     "end": 120.8,
+     "ja": "おかいま。",
+     "en": "Welc-home.",
+     "speaker": "Pi-chan"
+    },
+    {
+     "start": 121.0,
+     "end": 122.5,
+     "ja": "お帰り？",
+     "en": "Welcome home?",
+     "speaker": "Owner"
+    }
+   ]
+  },
+  {
+   "start": 204.5,
+   "end": 230.0,
+   "title": "Pi-chan's Polite Apple Requests",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "food"
+   ],
+   "grammar": [
+    "〜と — when/upon doing",
+    "〜だけじゃない — not only / not just"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 204.8,
+     "end": 207.0,
+     "ja": "そして、おやつの時間。",
+     "en": "And then, snack time.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 207.3,
+     "end": 211.2,
+     "ja": "ピーちゃんが大好きなリンゴをもらうと？",
+     "en": "When Pi-chan gets his favorite apple?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 212.7,
+     "end": 216.0,
+     "ja": "あ〜おいし、おいし。",
+     "en": "Ah, so tasty, so tasty.",
+     "speaker": "Pi-chan"
+    },
+    {
+     "start": 218.0,
+     "end": 220.0,
+     "ja": "食べた感想。",
+     "en": "His thoughts on the food.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 220.4,
+     "end": 222.8,
+     "ja": "でも、これだけじゃありません。",
+     "en": "But that's not all.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 223.2,
+     "end": 225.8,
+     "ja": "終わりね？食べない？いらない？",
+     "en": "All done? Not eating? Don't want any?",
+     "speaker": "Owner"
+    },
+    {
+     "start": 226.0,
+     "end": 227.5,
+     "ja": "もっと。",
+     "en": "More.",
+     "speaker": "Pi-chan"
+    },
+    {
+     "start": 227.6,
+     "end": 229.5,
      "ja": "もっと？はい。",
      "en": "More? Here you go.",
      "speaker": "Owner"
-    },
-    {
-     "start": 235.3,
-     "end": 237.0,
-     "ja": "そしてさらに...",
-     "en": "And then...",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 237.3,
-     "end": 239.0,
-     "ja": "はい終わり！",
-     "en": "All done!",
-     "speaker": "Parakeet"
-    },
-    {
-     "start": 239.3,
-     "end": 240.8,
-     "ja": "はい終わり。",
-     "en": "Yes, all done.",
-     "speaker": "Owner"
-    },
-    {
-     "start": 241.2,
-     "end": 245.2,
-     "ja": "お腹がいっぱいになると、ちゃんと教えてくれるピーちゃんでした。",
-     "en": "Once full, Pi-chan makes sure to let her know.",
-     "speaker": "Narrator"
     }
    ]
   }
@@ -176,5 +211,6 @@
  "pickTopics": [
   "animals"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

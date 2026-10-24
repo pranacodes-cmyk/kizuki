@@ -1,0 +1,19 @@
+{
+ "videoId": "qReT43CSSGE",
+ "ids": [
+  "qReT43CSSGE-47"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "qReT43CSSGE-47": {
+   "id": "qReT43CSSGE-47",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear speech and practical daily commute visuals suitable for beginners."
+  }
+ }
+}

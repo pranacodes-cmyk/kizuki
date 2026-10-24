@@ -2,9 +2,9 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 2.3,
+   "start": 2.2,
    "end": 21.0,
-   "title": "Welcome to Japanese Cooking Class",
+   "title": "Introduction to Japanese Eggplant Dish",
    "level": "N5",
    "topics": [
     "food",
@@ -16,121 +16,135 @@
    "quality": 5,
    "lines": [
     {
-     "start": 2.5,
-     "end": 4.3,
+     "start": 2.4,
+     "end": 5.3,
      "ja": "皆さん、こんにちは。",
      "en": "Hello, everyone.",
      "speaker": "Akiko"
     },
     {
-     "start": 5.5,
-     "end": 9.5,
+     "start": 5.6,
+     "end": 10.3,
      "ja": "ひらがなネットで和食料理教室を担当しています、",
      "en": "I'm in charge of the Japanese cooking class at Hiragana Net,",
      "speaker": "Akiko"
     },
     {
-     "start": 9.6,
-     "end": 11.0,
+     "start": 10.3,
+     "end": 11.4,
      "ja": "あきこです。",
-     "en": "my name is Akiko.",
+     "en": "Akiko.",
      "speaker": "Akiko"
     },
     {
      "start": 11.5,
-     "end": 16.0,
-     "ja": "今回のメニューは、ナスの煮浸しです。",
-     "en": "Today's menu is simmered eggplant.",
+     "end": 15.8,
+     "ja": "今回のメニューはナスの煮浸しです。",
+     "en": "This time's menu is simmered eggplant.",
      "speaker": "Akiko"
     },
     {
-     "start": 16.8,
-     "end": 20.5,
-     "ja": "とても簡単なので、一緒に作りましょう。",
-     "en": "It's very easy, so let's make it together.",
+     "start": 16.4,
+     "end": 18.5,
+     "ja": "とても簡単なので、",
+     "en": "It's very easy, so",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 18.5,
+     "end": 20.8,
+     "ja": "一緒に作りましょう！",
+     "en": "let's make it together!",
      "speaker": "Akiko"
     }
    ]
   },
   {
-   "start": 311.0,
-   "end": 322.8,
-   "title": "Condiments That Go Well with Eggplant",
+   "start": 190.5,
+   "end": 203.0,
+   "title": "What Are Yakumi Condiments?",
    "level": "N4",
    "topics": [
     "food",
     "culture"
    ],
    "grammar": [
-    "〜てみる — try doing",
-    "〜ので — because / since"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 311.3,
-     "end": 315.5,
-     "ja": "薬味は、香りや辛味がある野菜です。",
-     "en": "Condiments are vegetables that have aroma or spiciness.",
-     "speaker": "Akiko"
-    },
-    {
-     "start": 316.2,
-     "end": 319.2,
-     "ja": "料理の味が美味しくなるので、",
-     "en": "They make the dish taste better,",
-     "speaker": "Akiko"
-    },
-    {
-     "start": 319.4,
-     "end": 322.3,
-     "ja": "ぜひ使ってみてください。",
-     "en": "so please be sure to try using them.",
-     "speaker": "Akiko"
-    }
-   ]
-  },
-  {
-   "start": 324.0,
-   "end": 335.8,
-   "title": "Delicious Even When Chilled",
-   "level": "N4",
-   "topics": [
-    "food",
-    "daily"
-   ],
-   "grammar": [
-    "〜ても — even if",
+    "〜ので — because / since",
     "〜てみる — try doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 324.2,
-     "end": 326.0,
+     "start": 191.0,
+     "end": 192.5,
+     "ja": "薬味は、",
+     "en": "Yakumi condiments are",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 192.6,
+     "end": 196.2,
+     "ja": "香りや辛味がある野菜です。",
+     "en": "vegetables that have aroma or spiciness.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 196.5,
+     "end": 199.5,
+     "ja": "料理の味が美味しくなるので、",
+     "en": "Since they make the food taste better,",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 199.5,
+     "end": 202.5,
+     "ja": "ぜひ使ってみてください。",
+     "en": "please be sure to try using them.",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 204.0,
+   "end": 216.5,
+   "title": "Serving Suggestion and Farewell",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てもいい — even if / also good when",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 204.2,
+     "end": 206.2,
      "ja": "いかがでしたか？",
      "en": "How was it?",
      "speaker": "Akiko"
     },
     {
-     "start": 326.3,
-     "end": 329.8,
+     "start": 206.3,
+     "end": 210.5,
      "ja": "冷蔵庫で冷やして食べても美味しいです。",
-     "en": "It's also delicious when chilled in the fridge.",
+     "en": "It's also delicious eaten chilled in the refrigerator.",
      "speaker": "Akiko"
     },
     {
-     "start": 330.2,
-     "end": 332.5,
+     "start": 210.6,
+     "end": 213.0,
      "ja": "ぜひ作ってみてください。",
-     "en": "Please try making it!",
+     "en": "Please definitely try making it.",
      "speaker": "Akiko"
     },
     {
-     "start": 332.8,
-     "end": 335.3,
-     "ja": "それではまた、お会いしましょう。",
-     "en": "Well then, see you again next time.",
+     "start": 213.1,
+     "end": 216.0,
+     "ja": "それでは、またお会いしましょう。",
+     "en": "Well then, see you again.",
      "speaker": "Akiko"
     }
    ]
@@ -140,5 +154,6 @@
  "pickTopics": [
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -2,127 +2,97 @@
  "speech": "some",
  "clips": [
   {
-   "start": 239.5,
-   "end": 248.8,
-   "title": "Finishing the Gohei Mochi",
+   "start": 160.0,
+   "end": 168.3,
+   "title": "How Gohei Mochi is Finished",
    "level": "N4",
    "topics": [
     "food",
     "culture"
    ],
    "grammar": [
-    "〜てから — after doing",
-    "〜になります — will result in/become"
+    "〜て — connecting actions",
+    "〜になります — to become / to result in"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 240.2,
-     "end": 243.0,
-     "ja": "これでお、ここでの作業はこれで終わりです。",
-     "en": "With that, that's all for the preparation here.",
+     "start": 160.4,
+     "end": 163.0,
+     "ja": "これで、あの、ここでの作業はこれで終わりです。",
+     "en": "With this, our work here is finished.",
      "speaker": "Instructor"
     },
     {
-     "start": 243.0,
-     "end": 246.3,
-     "ja": "あとは焼いてタレを塗って",
-     "en": "Then we bake it, brush on the sauce,",
+     "start": 163.1,
+     "end": 165.3,
+     "ja": "あとは焼いて、タレを塗って、",
+     "en": "Next we grill it, brush the sauce on,",
      "speaker": "Instructor"
     },
     {
-     "start": 246.3,
-     "end": 248.5,
-     "ja": "もう一回ちょっと炙って出来上がりになりますので。",
-     "en": "lightly sear it once more, and it'll be ready.",
+     "start": 165.4,
+     "end": 168.0,
+     "ja": "えー、もう一回ちょっと炙って出来上がりになりますので。",
+     "en": "and lightly sear it once more, so it'll be ready.",
      "speaker": "Instructor"
     }
    ]
   },
   {
-   "start": 301.0,
-   "end": 308.7,
-   "title": "Applying Sauce to the Mochi",
-   "level": "N4",
-   "topics": [
-    "food",
-    "fun"
-   ],
-   "grammar": [
-    "〜といい — it would be good if"
-   ],
-   "quality": 4,
-   "lines": [
-    {
-     "start": 301.5,
-     "end": 303.4,
-     "ja": "形が恥ずかしい。",
-     "en": "The shape is embarrassing.",
-     "speaker": "Instructor"
-    },
-    {
-     "start": 304.7,
-     "end": 307.2,
-     "ja": "もうちょっときれいに塗れるといいんですけど、",
-     "en": "It'd be better if it was brushed on more neatly,",
-     "speaker": "Instructor"
-    },
-    {
-     "start": 307.2,
-     "end": 308.4,
-     "ja": "あの、大丈夫です。",
-     "en": "um, but it's okay.",
-     "speaker": "Instructor"
-    }
-   ]
-  },
-  {
-   "start": 319.3,
-   "end": 328.0,
-   "title": "Arriving for the Matcha Ceremony",
+   "start": 198.8,
+   "end": 208.3,
+   "title": "Greeting for the Matcha Ceremony",
    "level": "N5",
    "topics": [
-    "daily",
+    "travel",
     "culture"
    ],
    "grammar": [
-    "〜の方 — polite way to refer to someone/something",
-    "どうぞ — please go ahead"
+    "〜の方 — polite reference to a person",
+    "〜どうぞ — please go ahead / this way"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 319.5,
-     "end": 320.6,
+     "start": 199.2,
+     "end": 200.2,
      "ja": "こんにちは。",
      "en": "Hello.",
-     "speaker": "Visitor"
+     "speaker": "Nina"
     },
     {
-     "start": 321.1,
-     "end": 323.2,
+     "start": 200.3,
+     "end": 201.0,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Host"
+    },
+    {
+     "start": 201.0,
+     "end": 203.0,
      "ja": "今日の抹茶体験の方ですね？",
      "en": "You're here for today's matcha experience, right?",
      "speaker": "Host"
     },
     {
-     "start": 323.2,
-     "end": 324.7,
+     "start": 203.1,
+     "end": 204.7,
      "ja": "はい、よろしくお願いします。",
-     "en": "Yes, thank you very much in advance.",
-     "speaker": "Visitor"
+     "en": "Yes, thank you very much.",
+     "speaker": "Nina"
     },
     {
-     "start": 324.7,
-     "end": 326.1,
+     "start": 204.8,
+     "end": 206.3,
      "ja": "はい、よろしくお願いいたします。",
-     "en": "Yes, welcome.",
+     "en": "Yes, welcome, nice to meet you.",
      "speaker": "Host"
     },
     {
-     "start": 326.3,
-     "end": 327.7,
-     "ja": "では、こちらのほうへどうぞ。",
+     "start": 206.4,
+     "end": 208.0,
+     "ja": "では、こちらの方どうぞ。",
      "en": "Please come this way.",
      "speaker": "Host"
     }
@@ -133,5 +103,6 @@
  "pickTopics": [
   "travel"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

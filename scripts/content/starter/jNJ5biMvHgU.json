@@ -1,0 +1,21 @@
+{
+ "videoId": "jNJ5biMvHgU",
+ "ids": [
+  "jNJ5biMvHgU-906"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "jNJ5biMvHgU-906": {
+   "id": "jNJ5biMvHgU-906",
+   "appeal": 3,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "ad / sponsor"
+   ],
+   "why": "Standard YouTube outro asking for likes and channel subscriptions."
+  }
+ }
+}

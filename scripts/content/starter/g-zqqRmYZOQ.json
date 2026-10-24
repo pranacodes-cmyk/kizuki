@@ -1,0 +1,19 @@
+{
+ "videoId": "g-zqqRmYZOQ",
+ "ids": [
+  "g-zqqRmYZOQ-23"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "g-zqqRmYZOQ-23": {
+   "id": "g-zqqRmYZOQ-23",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [],
+   "why": "Lively stand-up comedy dialogue, but fast for beginners."
+  }
+ }
+}

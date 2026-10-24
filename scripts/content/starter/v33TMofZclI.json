@@ -1,0 +1,19 @@
+{
+ "videoId": "v33TMofZclI",
+ "ids": [
+  "v33TMofZclI-29"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "v33TMofZclI-29": {
+   "id": "v33TMofZclI-29",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous comedy sketch with clear delivery, though slightly fast for beginners."
+  }
+ }
+}

@@ -1,19 +1,19 @@
 {
  "videoId": "9_PTfLluDZo",
  "ids": [
-  "9_PTfLluDZo-716"
+  "9_PTfLluDZo-437"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "9_PTfLluDZo-716": {
-   "id": "9_PTfLluDZo-716",
+  "9_PTfLluDZo-437": {
+   "id": "9_PTfLluDZo-437",
    "appeal": 6,
    "clarity": 4,
    "picture": 3,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Enthusiastic speaker gives fun, practical tips on meeting locals in Tokyo."
+   "why": "Humorous and engaging advice for meeting local Japanese people."
   }
  }
 }

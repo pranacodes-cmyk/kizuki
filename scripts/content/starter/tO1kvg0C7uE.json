@@ -1,0 +1,19 @@
+{
+ "videoId": "tO1kvg0C7uE",
+ "ids": [
+  "tO1kvg0C7uE-1029"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "tO1kvg0C7uE-1029": {
+   "id": "tO1kvg0C7uE-1029",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Fun calorie guessing game with clear numbers shown on screen."
+  }
+ }
+}

@@ -2,38 +2,8 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 10.7,
-   "end": 25.5,
-   "title": "Good Morning, Ren!",
-   "level": "N5",
-   "topics": [
-    "family",
-    "daily"
-   ],
-   "grammar": [
-    "ない — not there / missing"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 11.0,
-     "end": 13.5,
-     "ja": "レン、おはよう！",
-     "en": "Good morning, Ren!",
-     "speaker": "Mom"
-    },
-    {
-     "start": 22.8,
-     "end": 24.5,
-     "ja": "ない！",
-     "en": "It's gone!",
-     "speaker": "Ren"
-    }
-   ]
-  },
-  {
-   "start": 32.5,
-   "end": 45.0,
+   "start": 31.0,
+   "end": 46.0,
    "title": "Let's Look for It Together",
    "level": "N5",
    "topics": [
@@ -41,31 +11,61 @@
     "daily"
    ],
    "grammar": [
-    "どこ — where",
-    "〜そう — let's (volitional form)"
+    "〜よう — volitional form (let's)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 33.0,
+     "start": 32.2,
      "end": 34.5,
      "ja": "どこだ？",
      "en": "Where is it?",
      "speaker": "Sister"
     },
     {
-     "start": 42.5,
-     "end": 44.5,
+     "start": 42.0,
+     "end": 44.6,
      "ja": "いっしょに探そう！",
-     "en": "Let's search together!",
+     "en": "Let's look for it together!",
      "speaker": "Brother"
     }
    ]
   },
   {
+   "start": 121.5,
+   "end": 137.0,
+   "title": "Here It Is",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜だよ — casual assertion",
+    "ありがとう — thank you"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 122.4,
+     "end": 124.5,
+     "ja": "ここだよ！",
+     "en": "Here it is!",
+     "speaker": "Sister"
+    },
+    {
+     "start": 132.4,
+     "end": 134.8,
+     "ja": "ありがとう！",
+     "en": "Thank you!",
+     "speaker": "Ren"
+    }
+   ]
+  },
+  {
    "start": 141.5,
-   "end": 156.5,
-   "title": "Time to Eat!",
+   "end": 157.5,
+   "title": "Mealtime with Family",
    "level": "N5",
    "topics": [
     "food",
@@ -73,31 +73,31 @@
     "daily"
    ],
    "grammar": [
-    "〜だよ — assertion / gentle emphasis",
-    "いただきます — phrase said before eating"
+    "〜だよ — casual assertion",
+    "いただきます — set phrase before eating"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 143.0,
-     "end": 144.5,
+     "start": 142.4,
+     "end": 144.0,
      "ja": "ごはんだよ！",
-     "en": "Dinner's ready!",
+     "en": "It's mealtime!",
      "speaker": "Mom"
     },
     {
-     "start": 144.6,
+     "start": 144.2,
      "end": 146.0,
      "ja": "ごはんだよ！",
-     "en": "Dinner's ready!",
-     "speaker": "Sister"
+     "en": "It's mealtime!",
+     "speaker": "Kids"
     },
     {
-     "start": 153.8,
+     "start": 153.3,
      "end": 156.0,
      "ja": "いただきます！",
-     "en": "Thank you for the meal!",
-     "speaker": "Family"
+     "en": "Let's eat!",
+     "speaker": "Everyone"
     }
    ]
   }
@@ -106,5 +106,6 @@
  "pickTopics": [
   "family"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

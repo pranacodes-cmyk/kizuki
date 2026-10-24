@@ -2,152 +2,145 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 42.4,
-   "end": 61.8,
-   "title": "Buying a Train Ticket",
+   "start": 26.8,
+   "end": 38.2,
+   "title": "Using the Ticket Vending Machine",
    "level": "N5",
    "topics": [
     "travel",
     "daily"
    ],
    "grammar": [
-    "〜てくる — come out / emerge",
-    "〜ないで — please do not"
+    "〜を押す — to press (direct object)",
+    "〜までは — as far as / up to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 42.6,
-     "end": 44.7,
-     "ja": "次はお金を入れるよ。",
-     "en": "Next, we'll put in the money.",
-     "speaker": "Speaker 1"
+     "start": 27.1,
+     "end": 28.4,
+     "ja": "これ、なに？",
+     "en": "What is this?",
+     "speaker": "Woman 1"
     },
     {
-     "start": 47.7,
-     "end": 49.3,
-     "ja": "あっ、お金入れたね。",
-     "en": "Oh, you put the money in.",
-     "speaker": "Speaker 2"
+     "start": 28.8,
+     "end": 30.4,
+     "ja": "券売機だよ。",
+     "en": "It's a ticket vending machine.",
+     "speaker": "Woman 2"
     },
     {
-     "start": 49.8,
-     "end": 52.4,
-     "ja": "切符はどこから出てくるの？",
-     "en": "Where does the ticket come out from?",
-     "speaker": "Speaker 2"
+     "start": 30.8,
+     "end": 34.2,
+     "ja": "「うんちん」ボタンと「おとな」ボタンを押すよ。",
+     "en": "Press the \"Fare\" and \"Adult\" buttons.",
+     "speaker": "Woman 1"
     },
     {
-     "start": 56.7,
-     "end": 58.6,
-     "ja": "あっ、出てきたよ。",
-     "en": "Oh, it came out.",
-     "speaker": "Speaker 1"
-    },
-    {
-     "start": 58.8,
-     "end": 61.2,
-     "ja": "おつり忘れないでね！",
-     "en": "Don't forget your change!",
-     "speaker": "Speaker 1"
+     "start": 34.6,
+     "end": 37.7,
+     "ja": "仙台駅までは150円だね。",
+     "en": "It's 150 yen to Sendai Station.",
+     "speaker": "Woman 2"
     }
    ]
   },
   {
-   "start": 141.2,
-   "end": 155.0,
-   "title": "Waiting on the Platform Safely",
+   "start": 141.9,
+   "end": 155.3,
+   "title": "Waiting on the Train Platform",
    "level": "N5",
    "topics": [
     "travel",
     "daily"
    ],
    "grammar": [
-    "〜に着く — arrive at",
-    "〜なら — if / as for"
+    "〜に着く — to arrive at",
+    "〜なら — if it is (conditional)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 141.6,
-     "end": 143.5,
+     "start": 142.2,
+     "end": 144.0,
      "ja": "はぁ〜、ホームに着いた。",
-     "en": "Phew, we arrived at the platform.",
-     "speaker": "Speaker 2"
+     "en": "Phew, I arrived at the platform.",
+     "speaker": "Woman 1"
     },
     {
-     "start": 143.8,
-     "end": 146.4,
+     "start": 144.2,
+     "end": 146.3,
      "ja": "その場所、だめ！危ないよ！",
      "en": "Not there! It's dangerous!",
-     "speaker": "Speaker 1"
+     "speaker": "Woman 2"
     },
     {
-     "start": 147.2,
-     "end": 149.2,
+     "start": 147.3,
+     "end": 149.6,
      "ja": "え〜、ここならいいの？",
-     "en": "Huh, is it okay here?",
-     "speaker": "Speaker 2"
+     "en": "Eh, is it okay here?",
+     "speaker": "Woman 1"
     },
     {
-     "start": 149.6,
-     "end": 151.2,
+     "start": 149.9,
+     "end": 151.6,
      "ja": "ここもだめ！",
      "en": "Not here either!",
-     "speaker": "Speaker 1"
+     "speaker": "Woman 2"
     },
     {
-     "start": 151.8,
-     "end": 154.5,
+     "start": 151.9,
+     "end": 154.8,
      "ja": "黄色い線の内側だよ。",
-     "en": "Stay inside the yellow line.",
-     "speaker": "Speaker 1"
+     "en": "You should stand inside the yellow line.",
+     "speaker": "Woman 2"
     }
    ]
   },
   {
-   "start": 313.2,
-   "end": 323.5,
-   "title": "Train Etiquette: Bag Placement",
-   "level": "N4",
+   "start": 213.5,
+   "end": 224.0,
+   "title": "Bag Manners on the Train",
+   "level": "N5",
    "topics": [
     "travel",
-    "daily"
+    "daily",
+    "culture"
    ],
    "grammar": [
-    "〜と — when / whenever",
-    "〜れない — cannot (potential negative)",
-    "〜よう — let's (volitional)"
+    "〜と — when/if (conditional)",
+    "〜(よ)う — let's (volitional)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 313.6,
-     "end": 315.4,
+     "start": 213.8,
+     "end": 215.5,
      "ja": "あっ、バッグが…",
-     "en": "Oh, the bag is...",
-     "speaker": "Speaker 2"
+     "en": "Oh, a bag...",
+     "speaker": "Woman 1"
     },
     {
-     "start": 315.6,
-     "end": 318.1,
+     "start": 215.8,
+     "end": 218.1,
      "ja": "ここに置くと、他の人が座れないよ。",
-     "en": "If you put it here, other people can't sit.",
-     "speaker": "Speaker 1"
+     "en": "Other people can't sit down when you put your bag here.",
+     "speaker": "Woman 2"
     },
     {
-     "start": 318.4,
-     "end": 319.8,
+     "start": 218.4,
+     "end": 219.8,
      "ja": "そっか〜。",
      "en": "I see.",
-     "speaker": "Speaker 2"
+     "speaker": "Woman 1"
     },
     {
-     "start": 320.2,
-     "end": 323.0,
-     "ja": "バッグは膝の上に置こうね。",
-     "en": "Let's put our bags on our lap.",
-     "speaker": "Speaker 1"
+     "start": 220.2,
+     "end": 223.5,
+     "ja": "バッグは、膝の上に置こうね。",
+     "en": "Let's put the bag on our lap.",
+     "speaker": "Woman 2"
     }
    ]
   }
@@ -156,5 +149,6 @@
  "pickTopics": [
   "travel"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

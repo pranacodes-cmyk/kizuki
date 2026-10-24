@@ -3,177 +3,144 @@
  "clips": [
   {
    "start": 36.6,
-   "end": 55.6,
-   "title": "Words You Should Never Use in an Interview",
+   "end": 55.8,
+   "title": "Slang to Avoid in Job Interviews",
    "level": "N3",
    "topics": [
     "work",
     "culture"
    ],
    "grammar": [
-    "〜てはいけない — must not",
-    "〜ておく — to do in advance"
+    "〜てはいけない — must not do",
+    "〜ておく — to do in advance",
+    "〜ように — in a manner like"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 36.7,
-     "end": 41.2,
+     "start": 36.8,
+     "end": 41.5,
      "ja": "まず面接で絶対に使ってはいけない言葉遣いを紹介しておきます。",
-     "en": "First, let me introduce language that you should never use in an interview.",
-     "speaker": "Presenter"
+     "en": "First, let me introduce language that you must never use in an interview.",
+     "speaker": "Ide"
     },
     {
      "start": 41.8,
-     "end": 45.3,
+     "end": 45.4,
      "ja": "友達に使うような若者言葉ですね。",
      "en": "That would be youth slang that you use with friends.",
-     "speaker": "Presenter"
+     "speaker": "Ide"
     },
     {
      "start": 45.8,
-     "end": 48.8,
-     "ja": "「超」「めっちゃ」「やばい」「まじで」など、",
-     "en": "Things like \"chō\", \"metcha\", \"yabai\", \"maji de\"...",
-     "speaker": "Presenter"
+     "end": 48.7,
+     "ja": "「超」「めっちゃ」「ヤバい」「マジで」など、",
+     "en": "\"Chō\", \"metcha\", \"yabai\", \"maji de\", and so on.",
+     "speaker": "Ide"
     },
     {
      "start": 48.8,
-     "end": 52.4,
-     "ja": "普段友達と使っている言葉だと思いますが、",
-     "en": "These are words you probably use with friends normally, but...",
-     "speaker": "Presenter"
+     "end": 52.0,
+     "ja": "普段友達と使っている言葉だとは思いますが、",
+     "en": "I'm sure you normally use these words with friends, but...",
+     "speaker": "Ide"
     },
     {
-     "start": 52.4,
-     "end": 55.3,
+     "start": 52.2,
+     "end": 55.4,
      "ja": "面接でこういった言葉を使うのはやめておきましょう。",
-     "en": "let's avoid using words like these in an interview.",
-     "speaker": "Presenter"
+     "en": "...let's avoid using words like these in an interview.",
+     "speaker": "Ide"
     }
    ]
   },
   {
-   "start": 300.5,
-   "end": 320.5,
-   "title": "The Three Types of Japanese Keigo",
+   "start": 413.0,
+   "end": 435.8,
+   "title": "Common Mistakes in Polite Expressions",
    "level": "N3",
    "topics": [
     "work",
     "culture"
    ],
    "grammar": [
-    "〜になる — to become / to be (polite)"
+    "〜ために — in order to",
+    "〜ようにする — to make an effort to do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 300.6,
-     "end": 303.2,
-     "ja": "敬語には3種類あります。",
-     "en": "There are three types of honorific language.",
-     "speaker": "Presenter"
+     "start": 413.3,
+     "end": 417.2,
+     "ja": "皆さんが普段使っている「了解しました」という言葉ですが、",
+     "en": "Regarding the phrase \"ryōkai shimashita\" that you normally use,",
+     "speaker": "Ide"
     },
     {
-     "start": 303.3,
-     "end": 305.5,
-     "ja": "まず1つ目が尊敬語ですね。",
-     "en": "First is sonkeigo, or respectful language.",
-     "speaker": "Presenter"
+     "start": 417.4,
+     "end": 424.6,
+     "ja": "こちらはより丁寧に言うために、面接などでは「かしこまりました」や「承知しました」という言葉を使うようにしましょう。",
+     "en": "to be more polite, make sure to use words like \"kashikomarimashita\" or \"shōchi shimashita\" in interviews.",
+     "speaker": "Ide"
     },
     {
-     "start": 305.6,
-     "end": 308.3,
-     "ja": "相手に敬意を表す言葉になります。",
-     "en": "It is language that shows respect toward the other person.",
-     "speaker": "Presenter"
+     "start": 425.3,
+     "end": 430.9,
+     "ja": "また、「ご苦労様です」という言葉ですが、こちらは目上の人から目下の人に使う言葉になります。",
+     "en": "Also, the phrase \"gokurōsama desu\" is something used by superiors to subordinates.",
+     "speaker": "Ide"
     },
     {
-     "start": 308.5,
-     "end": 312.0,
-     "ja": "「いらっしゃる」など、「お帰りになる」などですね。",
-     "en": "Examples include \"irassharu\" or \"okaeri ni naru\".",
-     "speaker": "Presenter"
-    },
-    {
-     "start": 312.2,
-     "end": 314.6,
-     "ja": "2つ目が謙譲語になります。",
-     "en": "The second is kenjōgo, or humble language.",
-     "speaker": "Presenter"
-    },
-    {
-     "start": 314.7,
-     "end": 317.3,
-     "ja": "謙譲語は、自分や身内などを",
-     "en": "Humble language is used to express things about oneself or an insider",
-     "speaker": "Presenter"
-    },
-    {
-     "start": 317.4,
-     "end": 320.1,
-     "ja": "へりくだって表現する言葉です。",
-     "en": "in a modest or self-deprecating way.",
-     "speaker": "Presenter"
+     "start": 431.2,
+     "end": 435.4,
+     "ja": "なので皆さんは「お疲れ様でした」というようにしましょう。",
+     "en": "So, you should say \"otsukaresama deshita\" instead.",
+     "speaker": "Ide"
     }
    ]
   },
   {
    "start": 503.2,
-   "end": 519.8,
-   "title": "Onsha vs Kisha: Which Should You Use?",
+   "end": 519.6,
+   "title": "Onsha vs. Kisha: Spoken vs. Written",
    "level": "N3",
    "topics": [
     "work",
     "culture"
    ],
    "grammar": [
-    "〜と思う — to think that...",
-    "〜のが — nominalizing a verb"
+    "〜と思う — to think that",
+    "〜ことになる — to turn out to be / function as"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 503.4,
-     "end": 505.5,
-     "ja": "皆さん、「御社」「貴社」、",
-     "en": "Everyone, between \"onsha\" and \"kisha\",",
-     "speaker": "Presenter"
-    },
-    {
-     "start": 505.6,
-     "end": 508.1,
-     "ja": "面接ではどちらを使うと思いますか？",
-     "en": "which do you think you should use in an interview?",
-     "speaker": "Presenter"
+     "start": 503.5,
+     "end": 507.8,
+     "ja": "皆さん、「御社」「貴社」、面接ではどちらを使うと思いますか？",
+     "en": "Everyone, which do you think is used in interviews: \"onsha\" or \"kisha\"?",
+     "speaker": "Ide"
     },
     {
      "start": 508.3,
-     "end": 510.4,
+     "end": 510.5,
      "ja": "正解は「御社」です。",
      "en": "The correct answer is \"onsha\".",
-     "speaker": "Presenter"
+     "speaker": "Ide"
     },
     {
-     "start": 510.5,
-     "end": 512.5,
-     "ja": "「御社」は話し言葉、",
-     "en": "\"Onsha\" is spoken language,",
-     "speaker": "Presenter"
+     "start": 510.9,
+     "end": 515.0,
+     "ja": "「御社」は話し言葉、「貴社」は書き言葉になります。",
+     "en": "\"Onsha\" is spoken language, while \"kisha\" is written language.",
+     "speaker": "Ide"
     },
     {
-     "start": 512.6,
-     "end": 514.9,
-     "ja": "「貴社」は書き言葉になります。",
-     "en": "while \"kisha\" is written language.",
-     "speaker": "Presenter"
-    },
-    {
-     "start": 515.1,
-     "end": 519.4,
-     "ja": "そのため、エントリーシートでは「貴社」と書くのが正解です。",
-     "en": "Therefore, writing \"kisha\" on an entry sheet is correct.",
-     "speaker": "Presenter"
+     "start": 515.3,
+     "end": 519.2,
+     "ja": "そのためエントリーシートでは「貴社」と書くのが正解です。",
+     "en": "Therefore, writing \"kisha\" on an application sheet is correct.",
+     "speaker": "Ide"
     }
    ]
   }
@@ -182,5 +149,6 @@
  "pickTopics": [
   "work"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

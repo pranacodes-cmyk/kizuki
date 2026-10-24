@@ -1,0 +1,19 @@
+{
+ "videoId": "3eijAAkcSvk",
+ "ids": [
+  "3eijAAkcSvk-208"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "3eijAAkcSvk-208": {
+   "id": "3eijAAkcSvk-208",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple greetings and an authentic team interaction make it accessible."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "xNDVzwXS1SE",
+ "ids": [
+  "xNDVzwXS1SE-10"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "xNDVzwXS1SE-10": {
+   "id": "xNDVzwXS1SE-10",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear slow dialogue with helpful subtitles, though visually static."
+  }
+ }
+}

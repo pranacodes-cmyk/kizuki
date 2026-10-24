@@ -2,140 +2,173 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 7.8,
-   "end": 26.6,
-   "title": "Trip to England with College Classmates",
-   "level": "N3",
-   "topics": [
-    "school",
-    "travel"
-   ],
-   "grammar": [
-    "〜の時に — when / at the time of",
-    "〜てきた — have done up until now",
-    "〜という風に — in such a way that"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 8.0,
-     "end": 10.9,
-     "ja": "僕は大学1年生の時に",
-     "en": "When I was a first-year college student,",
-     "speaker": "Hitoki"
-    },
-    {
-     "start": 10.9,
-     "end": 14.8,
-     "ja": "大学の人たちと一緒にイギリスに行く機会がありました。",
-     "en": "I had the chance to go to England with people from my university.",
-     "speaker": "Hitoki"
-    },
-    {
-     "start": 15.0,
-     "end": 17.5,
-     "ja": "ま、僕は今まで小学校から高校まで",
-     "en": "Well, from elementary school through high school,",
-     "speaker": "Hitoki"
-    },
-    {
-     "start": 17.6,
-     "end": 21.3,
-     "ja": "英語の文法や単語をずっと勉強してきたので、",
-     "en": "I had been studying English grammar and vocabulary the whole time, so",
-     "speaker": "Hitoki"
-    },
-    {
-     "start": 21.6,
-     "end": 26.2,
-     "ja": "みんなにも「俺は英語できるから任せておいて」っていう風に言っていました。",
-     "en": "I kept telling everyone, \"I can speak English, so leave it to me.\"",
-     "speaker": "Hitoki"
-    }
-   ]
-  },
-  {
-   "start": 26.9,
-   "end": 42.1,
-   "title": "Realizing I Could Only Catch the Subject",
+   "start": 7.5,
+   "end": 26.8,
+   "title": "Confident Before Visiting the UK",
    "level": "N3",
    "topics": [
     "school",
     "travel",
-    "comedy"
+    "friends"
    ],
    "grammar": [
-    "〜たら — when / after doing",
-    "〜しか…ない — only / nothing but",
-    "〜てしまう — accidentally / completely"
+    "〜てきた — continuous action up to now",
+    "〜ておく — doing in advance"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 27.2,
-     "end": 29.5,
-     "ja": "でもイギリスに行ったら気づいたんですよね。",
-     "en": "But once I got to the UK, I realized something.",
+     "start": 7.5,
+     "end": 10.0,
+     "ja": "僕は大学1年生の時に、",
+     "en": "When I was a freshman in college,",
      "speaker": "Hitoki"
     },
     {
-     "start": 29.7,
-     "end": 31.9,
-     "ja": "あれ？主語しか聞き取れない。",
-     "en": "Wait, I can only catch the subject.",
+     "start": 10.0,
+     "end": 14.3,
+     "ja": "大学の人たちと一緒にイギリスに行く機会がありました。",
+     "en": "I had a chance to visit the UK with some people from my university.",
      "speaker": "Hitoki"
     },
     {
-     "start": 32.2,
-     "end": 36.6,
-     "ja": "なんか「I」とか「you」までは聞き取れるけど、その後何言ってるの？",
-     "en": "Like, I can catch up to \"I\" or \"you,\" but what are they saying after that?",
+     "start": 14.5,
+     "end": 18.0,
+     "ja": "ま、僕はいままで小学校から高校まで、",
+     "en": "Well, having studied English grammar and vocabulary...",
      "speaker": "Hitoki"
     },
     {
-     "start": 37.0,
-     "end": 41.6,
-     "ja": "ヤバい！みんなには「俺はイングリッシュ・キング」って言っちゃったよ。どうしよう！",
-     "en": "Oh no! I already told everyone, \"I'm the English King.\" What am I going to do?!",
+     "start": 18.0,
+     "end": 21.8,
+     "ja": "英語の文法や単語をずっと勉強してきたので、",
+     "en": "...all the way from elementary school through high school,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 22.0,
+     "end": 26.5,
+     "ja": "みんなにも、「ま、俺は英語できるから任せておいて」っていう風に言ってました。",
+     "en": "I told everyone, \"Leave it to me, I can speak English!\"",
      "speaker": "Hitoki"
     }
    ]
   },
   {
-   "start": 604.1,
-   "end": 619.5,
-   "title": "Tip 3: Asking How to Say It in Japanese",
-   "level": "N4",
+   "start": 111.5,
+   "end": 139.3,
+   "title": "Learning All Grammar Before Speaking",
+   "level": "N3",
    "topics": [
-    "school",
-    "daily"
+    "daily",
+    "school"
    ],
    "grammar": [
-    "〜はなんですか — what is ~?",
-    "〜たばかり — just did",
-    "〜ている時 — when doing"
+    "〜てから — after doing",
+    "〜ても — even if",
+    "〜たら — conditional if/when"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 604.4,
-     "end": 608.6,
+     "start": 111.5,
+     "end": 115.8,
+     "ja": "1つ目、全部の文法を覚えてから話そうとする人。",
+     "en": "Number one: people who try to speak only after memorizing all grammar.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 116.0,
+     "end": 121.0,
+     "ja": "結論を言うと、文法をたくさん勉強しても話せるようにはなりません。",
+     "en": "In short, studying tons of grammar won't make you able to speak.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 121.2,
+     "end": 126.0,
+     "ja": "僕が英語の勉強を始めた時は、「この分厚い文法の本覚えればいいんだろう？」",
+     "en": "When I started studying English, I thought, \"I just have to memorize this thick grammar book, right?\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 126.2,
+     "end": 129.5,
+     "ja": "「そしたら映画を字幕なしで見れるし、」",
+     "en": "\"Then I can watch movies without subtitles,\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 129.5,
+     "end": 133.2,
+     "ja": "「英語話せるから一人で海外旅行行けるし、」",
+     "en": "\"and since I can speak English, I can travel abroad alone,\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 133.4,
+     "end": 138.8,
+     "ja": "「もしハリウッドで有名人に会ったら、英語で会話できるじゃん」っていう風に思っていました。",
+     "en": "\"and if I meet a celebrity in Hollywood, I can talk with them!\" or so I thought.",
+     "speaker": "Hitoki"
+    }
+   ]
+  },
+  {
+   "start": 364.0,
+   "end": 392.2,
+   "title": "Ask in Japanese Instead of English",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "〜ちゃう — end up doing",
+    "〜だけ — only/just"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 364.0,
+     "end": 368.0,
      "ja": "3つ目、「〇〇の日本語は何ですか？」と聞けない人。",
-     "en": "Number three: people who cannot ask, \"What is OO in Japanese?\"",
+     "en": "Number three: people who don't ask, \"How do you say X in Japanese?\"",
      "speaker": "Hitoki"
     },
     {
-     "start": 608.9,
-     "end": 614.0,
+     "start": 368.2,
+     "end": 373.5,
      "ja": "これは日本語を始めた人にも、もう結構話せる人にも大切なことです。",
-     "en": "This is important both for beginners and for people who can already speak quite well.",
+     "en": "This is important both for beginners and for those who can already speak quite well.",
      "speaker": "Hitoki"
     },
     {
-     "start": 614.4,
-     "end": 619.2,
+     "start": 373.7,
+     "end": 378.5,
      "ja": "日本語を練習している時は、できるだけ日本語だけで話すのがいいんですよ。",
-     "en": "When practicing Japanese, it's best to speak only in Japanese as much as possible.",
+     "en": "When you're practicing Japanese, it's best to speak only in Japanese as much as possible.",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 378.8,
+     "end": 382.5,
+     "ja": "だから、「あ、この日本語わからない」っていう時に、",
+     "en": "So when you think, \"Oh, I don't know the Japanese word for this,\"",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 382.6,
+     "end": 387.5,
+     "ja": "毎回「How do you say... in Japanese?」とか言っていると、",
+     "en": "if you keep saying \"How do you say... in Japanese?\" every time,",
+     "speaker": "Hitoki"
+    },
+    {
+     "start": 387.7,
+     "end": 392.2,
+     "ja": "ちょっとそこから英語に変わって、英語で話しちゃう可能性もあります。",
+     "en": "it can switch to English from there, and you might end up speaking in English.",
      "speaker": "Hitoki"
     }
    ]
@@ -145,5 +178,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

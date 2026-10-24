@@ -1,0 +1,30 @@
+{
+ "videoId": "zXkf2da639o",
+ "ids": [
+  "zXkf2da639o-271",
+  "zXkf2da639o-51"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "zXkf2da639o-51": {
+   "id": "zXkf2da639o-51",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear speech, but slide-heavy format is less engaging."
+  },
+  "zXkf2da639o-271": {
+   "id": "zXkf2da639o-271",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Helpful visual diagrams of money with steady synthetic narration."
+  }
+ }
+}

@@ -2,176 +2,191 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 12.8,
-   "end": 32.8,
-   "title": "Bon Odori in the Square",
+   "start": 34.8,
+   "end": 64.6,
+   "title": "Bon Odori: Welcoming the Ancestors",
    "level": "N3",
    "topics": [
     "culture"
    ],
    "grammar": [
-    "〜と — when/upon doing",
-    "〜てくる — starting to/gradually"
+    "〜てくる — continuous action up to present",
+    "〜ましょう — let's (invitation)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 13.1,
-     "end": 16.5,
-     "ja": "近くの広場で盆踊り。",
-     "en": "Bon Odori at a nearby town square.",
+     "start": 34.8,
+     "end": 38.4,
+     "ja": "まだまだ暑さの治まらぬ8月、",
+     "en": "In August, when the heat has yet to subside,",
      "speaker": "Narrator"
     },
     {
-     "start": 16.5,
-     "end": 20.3,
-     "ja": "日が暮れると笛や太鼓の音が聞こえてきます。",
-     "en": "When dusk falls, the sounds of flutes and taiko drums can be heard.",
+     "start": 38.9,
+     "end": 44.2,
+     "ja": "全国各地、津々浦々で盆踊りが行われます。",
+     "en": "Bon Odori dances are held all across the country.",
      "speaker": "Narrator"
     },
     {
-     "start": 20.7,
-     "end": 25.8,
-     "ja": "櫓の周りには浴衣姿の踊り手が集まってきました。",
-     "en": "Around the scaffold tower, dancers dressed in yukata have gathered.",
+     "start": 44.8,
+     "end": 49.4,
+     "ja": "お盆には、ご先祖様が里帰りし、家で盛大に迎えられ、",
+     "en": "During Obon, ancestors return home to a grand welcome,",
      "speaker": "Narrator"
     },
     {
-     "start": 26.6,
-     "end": 29.8,
-     "ja": "盆踊り歌が続く中、",
-     "en": "As the Bon dance song continues,",
+     "start": 49.6,
+     "end": 53.6,
+     "ja": "家族と過ごすひと時を楽しみます。",
+     "en": "and enjoy time spent together with their families.",
      "speaker": "Narrator"
     },
     {
-     "start": 29.8,
-     "end": 32.7,
-     "ja": "踊りの列はいつしか大きな輪に。",
-     "en": "the line of dancers turns before long into a large circle.",
+     "start": 54.6,
+     "end": 60.6,
+     "ja": "ご先祖様への感謝を含めて踊り継がれてきた盆踊り。",
+     "en": "Bon Odori has been passed down through generations with gratitude to ancestors.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 61.0,
+     "end": 64.5,
+     "ja": "踊り方を覚えて、輪に加わりましょう。",
+     "en": "Let's learn how to dance and join the circle.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 111.9,
-   "end": 136.9,
-   "title": "Moon Viewing on Jugoya",
+   "start": 71.3,
+   "end": 97.8,
+   "title": "Jugoya: Moon Viewing and Harvest",
    "level": "N3",
    "topics": [
-    "culture"
+    "culture",
+    "food"
    ],
    "grammar": [
-    "〜などして — doing things like",
-    "〜てくる — continue doing up to now"
+    "〜などして — doing things such as",
+    "〜てくる — continuous action up to present"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 112.2,
-     "end": 117.2,
+     "start": 71.5,
+     "end": 75.5,
      "ja": "旧暦の8月15日の満月の夜を、",
-     "en": "The night of the full moon on the 15th day of the 8th lunar month",
+     "en": "The full moon night on the 15th of the eighth lunar month,",
      "speaker": "Narrator"
     },
     {
-     "start": 117.2,
-     "end": 120.3,
-     "ja": "「十五夜」または「中秋の名月」と言い、",
-     "en": "is called 'Jugoya' or 'Mid-Autumn Harvest Moon,'",
+     "start": 75.9,
+     "end": 80.1,
+     "ja": "十五夜、または「中秋の名月」と言い、",
+     "en": "is called Jugoya, or the Mid-Autumn Harvest Moon,",
      "speaker": "Narrator"
     },
     {
-     "start": 120.7,
-     "end": 124.6,
+     "start": 80.5,
+     "end": 84.4,
      "ja": "古くから月見が行われています。",
-     "en": "and moon-viewing has been practiced since ancient times.",
+     "en": "and moon viewing has been practiced since ancient times.",
      "speaker": "Narrator"
     },
     {
-     "start": 125.1,
-     "end": 129.5,
+     "start": 84.9,
+     "end": 88.9,
      "ja": "宮中の観月の風習が庶民へと広がり、",
-     "en": "The court's moon-viewing custom spread to the common people,",
+     "en": "The imperial court custom of moon viewing spread to the common people,",
      "speaker": "Narrator"
     },
     {
-     "start": 129.5,
-     "end": 132.3,
+     "start": 89.3,
+     "end": 92.4,
      "ja": "月見団子を飾るなどして、",
-     "en": "and by displaying moon-viewing dumplings and such,",
+     "en": "and by displaying moon-viewing dumplings,",
      "speaker": "Narrator"
     },
     {
-     "start": 132.3,
-     "end": 136.7,
-     "ja": "時代時代に満月を見つめ収穫を感謝してきました。",
-     "en": "through the ages, people have gazed at the full moon and given thanks for the harvest.",
+     "start": 92.8,
+     "end": 95.3,
+     "ja": "時代時代に満月を見つめ、",
+     "en": "people across generations have gazed at the full moon",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 95.4,
+     "end": 97.6,
+     "ja": "収穫を感謝してきました。",
+     "en": "and given thanks for the harvest.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 321.8,
-   "end": 345.5,
-   "title": "The Meaning of Shichi-Go-San",
+   "start": 200.2,
+   "end": 226.4,
+   "title": "Shichi-Go-San: Celebrating Children",
    "level": "N3",
    "topics": [
     "culture",
     "family"
    ],
    "grammar": [
-    "〜ように — wishing that...",
-    "〜ましょう — let's"
+    "お〜する — humble/polite expression",
+    "〜ましょう — let's (invitation)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 322.2,
-     "end": 324.9,
-     "ja": "3歳の男女は「髪置」、",
-     "en": "Three-year-old boys and girls performed 'Kamioki,'",
+     "start": 200.4,
+     "end": 204.2,
+     "ja": "3歳の男女は髪置、",
+     "en": "Three-year-old boys and girls performed Kamioki,",
      "speaker": "Narrator"
     },
     {
-     "start": 325.0,
-     "end": 327.3,
-     "ja": "5歳の男子は「袴着」、",
-     "en": "five-year-old boys 'Hakamagi,'",
+     "start": 204.7,
+     "end": 207.2,
+     "ja": "5歳の男子は袴着、",
+     "en": "five-year-old boys performed Hakamagi,",
      "speaker": "Narrator"
     },
     {
-     "start": 327.4,
-     "end": 330.1,
-     "ja": "7歳の女子は「帯解」を行ったことが、",
-     "en": "and seven-year-old girls performed 'Obitoki,'",
+     "start": 207.7,
+     "end": 210.4,
+     "ja": "7歳の女子は帯解を行ったことが、",
+     "en": "and seven-year-old girls performed Obitoki,",
      "speaker": "Narrator"
     },
     {
-     "start": 330.5,
-     "end": 333.1,
+     "start": 210.5,
+     "end": 213.2,
      "ja": "七五三祝いの由来です。",
      "en": "which is the origin of the Shichi-Go-San celebration.",
      "speaker": "Narrator"
     },
     {
-     "start": 335.2,
-     "end": 338.2,
+     "start": 214.6,
+     "end": 218.2,
      "ja": "これまでの子供の成長に感謝し、",
-     "en": "Giving thanks for the children's growth so far,",
+     "en": "Giving thanks for their children's growth so far,",
      "speaker": "Narrator"
     },
     {
-     "start": 338.4,
-     "end": 341.6,
+     "start": 218.7,
+     "end": 221.7,
      "ja": "これからの健やかな成長を願い、",
-     "en": "and wishing for their healthy growth ahead,",
+     "en": "and praying for their continued healthy development,",
      "speaker": "Narrator"
     },
     {
-     "start": 342.0,
-     "end": 345.3,
-     "ja": "地域のお宮に家族皆でお参りしましょう。",
-     "en": "let us visit the local shrine together as a family.",
+     "start": 222.1,
+     "end": 226.0,
+     "ja": "地域のお宮に家族みんなでお参りしましょう。",
+     "en": "let's visit the local shrine together as a whole family.",
      "speaker": "Narrator"
     }
    ]
@@ -181,5 +196,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

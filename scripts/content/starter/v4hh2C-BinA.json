@@ -1,0 +1,21 @@
+{
+ "videoId": "v4hh2C-BinA",
+ "ids": [
+  "v4hh2C-BinA-525"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "v4hh2C-BinA-525": {
+   "id": "v4hh2C-BinA-525",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Fun photo booth moment, but rapid speech and background machine noise hinder clarity."
+  }
+ }
+}

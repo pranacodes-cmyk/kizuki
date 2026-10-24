@@ -1,21 +1,32 @@
 {
  "videoId": "_up0_BdrJTY",
  "ids": [
-  "_up0_BdrJTY-211"
+  "_up0_BdrJTY-309",
+  "_up0_BdrJTY-555"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "_up0_BdrJTY-211": {
-   "id": "_up0_BdrJTY-211",
-   "appeal": 6,
+  "_up0_BdrJTY-309": {
+   "id": "_up0_BdrJTY-309",
+   "appeal": 5,
    "clarity": 4,
    "picture": 3,
    "ease": 3,
    "english": false,
+   "issues": [],
+   "why": "Casual daily monologue while applying makeup, clear and easy pacing."
+  },
+  "_up0_BdrJTY-555": {
+   "id": "_up0_BdrJTY-555",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
    "issues": [
-    "starts mid-sentence"
+    "speech overlaps"
    ],
-   "why": "Natural casual speech while applying makeup in a hotel room."
+   "why": "Natural family dinner conversation, though voices overlap slightly at times."
   }
  }
 }

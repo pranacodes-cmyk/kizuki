@@ -2,57 +2,65 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 4.0,
-   "end": 17.4,
+   "start": 240.3,
+   "end": 257.8,
    "title": "Starting an Online Meeting",
    "level": "N3",
    "topics": [
-    "work"
+    "work",
+    "daily"
    ],
    "grammar": [
-    "〜ております — humble ongoing state",
-    "〜でしょうか — polite inquiry"
+    "〜ております — humble progressive / state",
+    "〜でしょうか — polite questioning"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 4.0,
-     "end": 6.5,
-     "ja": "山崎さん、お世話になっております。あの、私の音声は届いておりますでしょうか？",
-     "en": "Mr. Yamazaki, thank you for your continued support. Can you hear my audio alright?",
+     "start": 240.6,
+     "end": 243.4,
+     "ja": "あ、山崎さん、お世話になっております。",
+     "en": "Ah, Mr. Yamazaki, thank you for your ongoing support.",
      "speaker": "Akane"
     },
     {
-     "start": 6.5,
-     "end": 8.5,
+     "start": 243.5,
+     "end": 246.0,
+     "ja": "あの、私の音声は届いておりますでしょうか？",
+     "en": "Can you hear my audio clearly?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 246.1,
+     "end": 248.3,
      "ja": "あ、はい、お世話になっております。",
-     "en": "Ah, yes, thank you as always.",
+     "en": "Ah, yes, thank you as well.",
      "speaker": "Yamazaki"
     },
     {
-     "start": 8.5,
-     "end": 10.8,
+     "start": 248.4,
+     "end": 250.5,
      "ja": "あかねさんの音声、届いております。",
-     "en": "I can hear your audio clearly, Akane-san.",
+     "en": "Akane-san, I can hear your audio.",
      "speaker": "Yamazaki"
     },
     {
-     "start": 10.8,
-     "end": 12.7,
-     "ja": "はい、今画面がつきましたね。",
-     "en": "Great, the video feed just came on.",
+     "start": 250.6,
+     "end": 252.8,
+     "ja": "はい。あ、今画面がつきましたね。",
+     "en": "Great. Ah, your video just came on.",
      "speaker": "Akane"
     },
     {
-     "start": 12.7,
-     "end": 14.8,
+     "start": 252.9,
+     "end": 255.0,
      "ja": "本日はよろしくお願いいたします。",
-     "en": "Thank you for your time today.",
+     "en": "Thank you for taking the time to meet today.",
      "speaker": "Akane"
     },
     {
-     "start": 14.8,
-     "end": 17.4,
+     "start": 255.1,
+     "end": 257.5,
      "ja": "こちらこそよろしくお願いいたします。",
      "en": "Likewise, thank you very much.",
      "speaker": "Yamazaki"
@@ -60,65 +68,59 @@
    ]
   },
   {
-   "start": 44.2,
-   "end": 50.0,
-   "title": "Adjusting a Meeting Schedule",
+   "start": 283.7,
+   "end": 309.6,
+   "title": "Rescheduling a Meeting Time",
    "level": "N3",
    "topics": [
-    "work"
+    "work",
+    "daily"
    ],
    "grammar": [
-    "〜てしまう — unintentional action",
-    "〜たら — conditional if/when",
-    "〜させていただく — humble permission"
+    "〜てしまう — expressing regret or completion",
+    "〜そう — looks like / seems like",
+    "〜させていだだく — humble causative"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 44.2,
-     "end": 49.8,
-     "ja": "午後はですね、すでにちょっと先約が入ってしまっているので、",
-     "en": "As for the afternoon, I already have prior plans, so...",
+     "start": 284.0,
+     "end": 290.0,
+     "ja": "午後はですね…すでに先約が入ってしまっているので、",
+     "en": "As for the afternoon... I already have a prior engagement, so",
      "speaker": "Yamazaki"
     },
     {
-     "start": 49.8,
-     "end": 54.0,
+     "start": 290.3,
+     "end": 293.6,
      "ja": "この日の午後は難しそうですね。",
-     "en": "...the afternoon of that day looks like it might be difficult.",
+     "en": "the afternoon of that day looks difficult.",
      "speaker": "Yamazaki"
     },
     {
-     "start": 54.0,
-     "end": 56.0,
-     "ja": "そうでしたか。",
-     "en": "I see.",
+     "start": 294.0,
+     "end": 299.8,
+     "ja": "そうでしたか。午前中でしたら、１０時はいかがでしょうか？",
+     "en": "I see. If it's in the morning, how about 10:00 AM?",
      "speaker": "Akane"
     },
     {
-     "start": 56.0,
-     "end": 59.5,
-     "ja": "午前中でしたら、１０時はいかがでしょうか？",
-     "en": "If it's in the morning, how about 10:00?",
-     "speaker": "Akane"
-    },
-    {
-     "start": 59.8,
-     "end": 64.0,
+     "start": 300.0,
+     "end": 304.3,
      "ja": "はい、午前の１０時でしたら空いておりますね。",
-     "en": "Yes, I am free at 10:00 in the morning.",
+     "en": "Yes, I am free at 10:00 AM.",
      "speaker": "Yamazaki"
     },
     {
-     "start": 64.2,
-     "end": 67.5,
+     "start": 304.6,
+     "end": 307.8,
      "ja": "わかりました。じゃあ、その日にさせていただいてもよろしいですか？",
-     "en": "Understood. Then, would it be alright to set it for that time?",
+     "en": "Understood. Then would it be all right if we set it for that time?",
      "speaker": "Akane"
     },
     {
-     "start": 67.5,
-     "end": 69.2,
+     "start": 308.0,
+     "end": 309.2,
      "ja": "かしこまりました。",
      "en": "Certainly.",
      "speaker": "Yamazaki"
@@ -126,59 +128,60 @@
    ]
   },
   {
-   "start": 702.3,
-   "end": 716.0,
-   "title": "Wrapping Up a Business Call",
+   "start": 353.8,
+   "end": 378.5,
+   "title": "Deciding the Participant Limit",
    "level": "N3",
    "topics": [
     "work"
    ],
    "grammar": [
-    "〜でよろしいでしょうか — polite confirmation",
-    "お〜いただく — respectful receiving of an action"
+    "〜てしまう — unintentional result",
+    "〜可能性がある — possibility of",
+    "〜たいと思う — expressing intention"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 702.3,
-     "end": 704.8,
-     "ja": "はい、以上でよろしいでしょうか？",
-     "en": "Right, does that cover everything?",
-     "speaker": "Akane"
-    },
-    {
-     "start": 704.8,
-     "end": 706.6,
-     "ja": "はい、大丈夫です。",
-     "en": "Yes, that's fine.",
+     "start": 354.2,
+     "end": 358.5,
+     "ja": "そうですね…ちょっとあんまり人数多くなってしまうと、",
+     "en": "Well... if too many people end up joining,",
      "speaker": "Yamazaki"
     },
     {
-     "start": 706.6,
-     "end": 711.2,
-     "ja": "はい、ありがとうございます。お忙しい中お時間をいただきまして、ありがとうございました。",
-     "en": "Thank you very much. Thank you for taking time out of your busy schedule today.",
-     "speaker": "Akane"
-    },
-    {
-     "start": 711.2,
-     "end": 712.6,
-     "ja": "ありがとうございました。",
-     "en": "Thank you very much.",
+     "start": 358.7,
+     "end": 362.8,
+     "ja": "参加者もいろいろ混乱してしまう可能性があるので、",
+     "en": "there's a chance the participants might get confused, so",
      "speaker": "Yamazaki"
     },
     {
-     "start": 712.6,
-     "end": 714.2,
-     "ja": "はい、では失礼いたします。",
-     "en": "Yes, goodbye then.",
+     "start": 363.0,
+     "end": 367.5,
+     "ja": "だいたい、まあ２０名前後ぐらいがいいかなぁとは思います。",
+     "en": "I think roughly around 20 people would be best.",
+     "speaker": "Yamazaki"
+    },
+    {
+     "start": 367.7,
+     "end": 372.0,
+     "ja": "そうですね。私も２０名前後がちょうどいいかなぁと思いますので、",
+     "en": "Right. I also think around 20 people would be just right, so",
      "speaker": "Akane"
     },
     {
-     "start": 714.2,
-     "end": 716.0,
-     "ja": "はい、失礼いたします。",
-     "en": "Yes, goodbye.",
+     "start": 372.1,
+     "end": 376.8,
+     "ja": "じゃ、先着順で、まあ２０名ということで募集をかけたいと思います。",
+     "en": "I'd like to open registration for 20 people on a first-come, first-served basis.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 377.0,
+     "end": 378.2,
+     "ja": "かしこまりました。",
+     "en": "Understood.",
      "speaker": "Yamazaki"
     }
    ]
@@ -188,5 +191,6 @@
  "pickTopics": [
   "work"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -2,180 +2,228 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 125.68,
-   "end": 143.5,
+   "start": 125.5,
+   "end": 144.2,
    "title": "Connecting to Seoul via Video Call",
    "level": "N4",
    "topics": [
     "daily",
-    "music",
-    "friends"
+    "music"
    ],
    "grammar": [
-    "〜ですね — seeking agreement/confirmation",
-    "〜になりました — became/has become"
+    "〜になる — to become",
+    "〜ですよね — confirming information"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 125.9,
-     "end": 127.88,
-     "ja": "YUKIKAさ〜ん！",
+     "start": 125.5,
+     "end": 127.7,
+     "ja": "YUKIKAさん！",
      "en": "YUKIKA-san!",
-     "speaker": "Host"
+     "speaker": "Furuya"
     },
     {
-     "start": 128.52,
-     "end": 131.24,
-     "ja": "ああ、よろしくお願いします！YUKIKAです。",
+     "start": 128.0,
+     "end": 131.2,
+     "ja": "あー、よろしくお願いします！YUKIKAですー。",
      "en": "Ah, nice to meet you! I'm YUKIKA.",
      "speaker": "YUKIKA"
     },
     {
-     "start": 131.32,
-     "end": 132.88,
-     "ja": "アニョハセヨ〜！",
-     "en": "Annyeonghaseyo!",
-     "speaker": "Host"
+     "start": 131.5,
+     "end": 134.3,
+     "ja": "アニョハセヨ。韓国ですよね、本当に？",
+     "en": "Annyeonghaseyo. Are you really in Korea?",
+     "speaker": "Furuya"
     },
     {
-     "start": 133.02,
-     "end": 134.88,
-     "ja": "韓国ですよね、本当に？",
-     "en": "You really are in Korea, right?",
-     "speaker": "Host"
-    },
-    {
-     "start": 135.22,
-     "end": 136.92,
-     "ja": "ここ、韓国です！",
-     "en": "I'm in Korea!",
+     "start": 134.5,
+     "end": 136.5,
+     "ja": "ここ韓国です。",
+     "en": "I am in Korea.",
      "speaker": "YUKIKA"
     },
     {
-     "start": 137.08,
-     "end": 138.8,
+     "start": 136.7,
+     "end": 138.2,
      "ja": "ソウルです！",
      "en": "In Seoul!",
      "speaker": "YUKIKA"
     },
     {
-     "start": 139.02,
-     "end": 141.2,
-     "ja": "いい時代になりましたね！",
-     "en": "What a great era we live in now!",
-     "speaker": "Host"
+     "start": 138.6,
+     "end": 141.0,
+     "ja": "いい時代になりましたねー。",
+     "en": "We live in great times, don't we?",
+     "speaker": "Furuya"
     },
     {
-     "start": 141.36,
-     "end": 143.26,
+     "start": 141.2,
+     "end": 144.0,
      "ja": "本当です。不思議ですね。",
-     "en": "Truly. It's so amazing.",
+     "en": "Truly. It feels so strange, doesn't it?",
      "speaker": "YUKIKA"
     }
    ]
   },
   {
-   "start": 1133.6,
-   "end": 1157.6,
-   "title": "Listening to Insomnia Before Sleep",
+   "start": 261.0,
+   "end": 290.5,
+   "title": "Did You Always Plan to Move to Korea?",
    "level": "N3",
    "topics": [
-    "music",
-    "daily"
+    "work",
+    "music"
    ],
    "grammar": [
-    "〜たらいいな — I hope/it would be nice if",
+    "〜という — called / content of thought",
+    "〜じゃないですか — isn't it / as you know"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 261.0,
+     "end": 264.7,
+     "ja": "正直その、韓国に来るっていう計画は、",
+     "en": "Honestly, that plan to come to Korea...",
+     "speaker": "Furuya"
+    },
+    {
+     "start": 264.7,
+     "end": 268.0,
+     "ja": "そもそもずっと持ってたのかな？「韓国行きたい」っていう気持ちっていうのは？",
+     "en": "Did you always have that in mind? That feeling of wanting to go to Korea?",
+     "speaker": "Furuya"
+    },
+    {
+     "start": 268.0,
+     "end": 270.0,
+     "ja": "いや…なかったです。",
+     "en": "No... I didn't.",
+     "speaker": "YUKIKA"
+    },
+    {
+     "start": 270.0,
+     "end": 273.2,
+     "ja": "「いや」（笑）。そうでもなかった？",
+     "en": "Just \"No\"? (laughs) So you really didn't?",
+     "speaker": "Furuya"
+    },
+    {
+     "start": 273.2,
+     "end": 277.7,
+     "ja": "あの、今みたいにK-POPアイドルが身近なものではなかったので、",
+     "en": "Well, K-pop idols weren't as familiar back then as they are now, so...",
+     "speaker": "YUKIKA"
+    },
+    {
+     "start": 277.7,
+     "end": 278.7,
+     "ja": "あー。",
+     "en": "Ah.",
+     "speaker": "Furuya"
+    },
+    {
+     "start": 278.7,
+     "end": 283.7,
+     "ja": "今は自分たちがなる、なりたいみたいな時代になったじゃないですか。",
+     "en": "Nowadays people feel like they can become one or want to become one, right?",
+     "speaker": "YUKIKA"
+    },
+    {
+     "start": 283.7,
+     "end": 284.6,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Furuya"
+    },
+    {
+     "start": 284.6,
+     "end": 288.8,
+     "ja": "でもまだその時は、憧れの存在だったんです。",
+     "en": "But back then, they were just someone you admired from afar.",
+     "speaker": "YUKIKA"
+    },
+    {
+     "start": 288.8,
+     "end": 290.5,
+     "ja": "あー、そうかそうか。",
+     "en": "Ah, I see, I see.",
+     "speaker": "Furuya"
+    }
+   ]
+  },
+  {
+   "start": 691.0,
+   "end": 719.5,
+   "title": "A Song for Sleepless Nights",
+   "level": "N3",
+   "topics": [
+    "music"
+   ],
+   "grammar": [
+    "〜というか — or rather",
+    "〜たらいいな — I hope that",
     "〜てほしい — want someone to do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1134.34,
-     "end": 1137.6,
-     "ja": "聞いてほしいところってどんなところですか？",
-     "en": "What would you like listeners to pay attention to?",
-     "speaker": "Host"
+     "start": 691.0,
+     "end": 694.5,
+     "ja": "この「Insomnia -JP Ver.-」の",
+     "en": "For this track \"Insomnia -JP Ver.-\",",
+     "speaker": "Furuya"
     },
     {
-     "start": 1138.48,
-     "end": 1142.92,
-     "ja": "「Insomnia」っていう曲自体があんまり刺激のない曲なんです。",
-     "en": "The song 'Insomnia' itself isn't very intense.",
-     "speaker": "YUKIKA"
+     "start": 694.5,
+     "end": 698.0,
+     "ja": "聞きどころというか、聞いてほしいところってどんなとこですか？",
+     "en": "what is the highlight, or the part you'd like listeners to pay attention to?",
+     "speaker": "Furuya"
     },
     {
-     "start": 1143.52,
-     "end": 1147.16,
-     "ja": "不眠症っていう意味じゃないですか、「Insomnia」っていうのが。",
-     "en": "Because 'Insomnia' means not being able to sleep, right?",
-     "speaker": "YUKIKA"
-    },
-    {
-     "start": 1147.38,
-     "end": 1152.02,
-     "ja": "なので、眠れない夜に聞いてくださったらいいなって思います。",
-     "en": "So, I hope people listen to it on sleepless nights.",
+     "start": 698.0,
+     "end": 702.5,
+     "ja": "その「Insomnia」っていう曲自体があんまり刺激のない曲なんです。",
+     "en": "The song \"Insomnia\" itself isn't very intense or overwhelming.",
      "speaker": "YUKIKA"
     },
     {
-     "start": 1153.28,
-     "end": 1157.48,
-     "ja": "BGMみたいな感じで自分の生活に添えてほしいです。",
-     "en": "I'd like it to accompany people's lives like background music.",
-     "speaker": "YUKIKA"
-    }
-   ]
-  },
-  {
-   "start": 1315.6,
-   "end": 1326.6,
-   "title": "Advice for Going to Korea",
-   "level": "N3",
-   "topics": [
-    "culture",
-    "music"
-   ],
-   "grammar": [
-    "〜ずに — without doing",
-    "〜ていただければ — if you could please"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 1315.86,
-     "end": 1318.06,
-     "ja": "夢を忘れずに",
-     "en": "Without forgetting your dreams,",
+     "start": 702.5,
+     "end": 707.3,
+     "ja": "で、その不眠症っていう意味じゃないですか、「Insomnia」っていうのが。",
+     "en": "And \"Insomnia\" means sleeplessness, right?",
      "speaker": "YUKIKA"
     },
     {
-     "start": 1318.16,
-     "end": 1320.12,
-     "ja": "純粋な心で",
-     "en": "with a pure heart,",
+     "start": 707.3,
+     "end": 712.5,
+     "ja": "なので、なんかちょっと眠れない夜に聴いてくださったらいいなって思います。",
+     "en": "So I hope people will listen to it on nights when they can't sleep.",
      "speaker": "YUKIKA"
     },
     {
-     "start": 1320.22,
-     "end": 1322.9,
-     "ja": "人間力を身につけ",
-     "en": "and building character,",
+     "start": 712.5,
+     "end": 714.6,
+     "ja": "BGMみたいな感じで、",
+     "en": "Like background music,",
      "speaker": "YUKIKA"
     },
     {
-     "start": 1322.9,
-     "end": 1324.54,
-     "ja": "お越しになっていただければと思います。",
-     "en": "if you could come over like that, that would be wonderful.",
+     "start": 714.6,
+     "end": 717.6,
+     "ja": "自分の生活に添えてほしいです。",
+     "en": "I'd like it to be a companion to their everyday lives.",
      "speaker": "YUKIKA"
     },
     {
-     "start": 1324.7,
-     "end": 1326.46,
-     "ja": "私がそんなアドバイスできることなんてありません。",
-     "en": "Though I'm not really in a position to give advice.",
-     "speaker": "YUKIKA"
+     "start": 717.6,
+     "end": 719.5,
+     "ja": "あ、なるほどなるほど。",
+     "en": "Ah, I see, I see.",
+     "speaker": "Furuya"
     }
    ]
   }
@@ -184,5 +232,6 @@
  "pickTopics": [
   "music"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

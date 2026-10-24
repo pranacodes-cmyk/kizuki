@@ -1,19 +1,32 @@
 {
  "videoId": "I46YFhlloqw",
  "ids": [
+  "I46YFhlloqw-18",
   "I46YFhlloqw-52"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
   "I46YFhlloqw-52": {
    "id": "I46YFhlloqw-52",
-   "appeal": 5,
+   "appeal": 4,
    "clarity": 3,
    "picture": 3,
-   "ease": 2,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "starts mid-sentence"
+   ],
+   "why": "Dramatic comedy sketch dialogue, slightly fast speech."
+  },
+  "I46YFhlloqw-18": {
+   "id": "I46YFhlloqw-18",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Colloquial and aggressive stage scolding is difficult for beginners to follow."
+   "why": "Energetic solo comedy routine with clear speech."
   }
  }
 }

@@ -1,0 +1,30 @@
+{
+ "videoId": "Rs0d6gP3IEw",
+ "ids": [
+  "Rs0d6gP3IEw-1054",
+  "Rs0d6gP3IEw-406"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Rs0d6gP3IEw-406": {
+   "id": "Rs0d6gP3IEw-406",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear narration explaining schedule over walking footage."
+  },
+  "Rs0d6gP3IEw-1054": {
+   "id": "Rs0d6gP3IEw-1054",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Talking head counting work hours with clear spoken Japanese."
+  }
+ }
+}

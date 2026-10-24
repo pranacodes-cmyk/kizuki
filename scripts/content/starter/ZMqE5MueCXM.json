@@ -1,0 +1,34 @@
+{
+ "videoId": "ZMqE5MueCXM",
+ "ids": [
+  "ZMqE5MueCXM-11",
+  "ZMqE5MueCXM-34"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "ZMqE5MueCXM-34": {
+   "id": "ZMqE5MueCXM-34",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [
+    "static slides"
+   ],
+   "why": "Clear easy Japanese with text, but uses static slides."
+  },
+  "ZMqE5MueCXM-11": {
+   "id": "ZMqE5MueCXM-11",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [
+    "static slides"
+   ],
+   "why": "Clear beginner-friendly narration, though visuals are static slides."
+  }
+ }
+}

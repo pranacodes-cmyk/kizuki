@@ -1,30 +1,19 @@
 {
  "videoId": "mNDKiEhcDCI",
  "ids": [
-  "mNDKiEhcDCI-13",
-  "mNDKiEhcDCI-214"
+  "mNDKiEhcDCI-131"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "mNDKiEhcDCI-13": {
-   "id": "mNDKiEhcDCI-13",
-   "appeal": 6,
-   "clarity": 4,
-   "picture": 4,
-   "ease": 4,
-   "english": false,
-   "issues": [],
-   "why": "Simple retail exchange with a clear comedic reaction."
-  },
-  "mNDKiEhcDCI-214": {
-   "id": "mNDKiEhcDCI-214",
+  "mNDKiEhcDCI-131": {
+   "id": "mNDKiEhcDCI-131",
    "appeal": 6,
    "clarity": 4,
    "picture": 3,
-   "ease": 3,
+   "ease": 2,
    "english": false,
    "issues": [],
-   "why": "Expressive dialogue about cute characters at natural conversational speed."
+   "why": "Humorous lottery reaction sketch with clear audio, but fairly rapid dialogue."
   }
  }
 }

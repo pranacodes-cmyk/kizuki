@@ -2,185 +2,186 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 36.3,
-   "end": 63.3,
-   "title": "Today's News Topics",
-   "level": "N4",
+   "start": 36.2,
+   "end": 63.5,
+   "title": "Today's News Lineup",
+   "level": "N5",
    "topics": [
     "daily",
-    "culture"
+    "fun"
    ],
    "grammar": [
     "〜の代わりに — instead of",
-    "〜ましょう — let's"
+    "〜たい — want to"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 36.3,
      "end": 39.5,
-     "ja": "今日は9月13日、日曜日。",
+     "ja": "今日は9月13日日曜日。",
      "en": "Today is Sunday, September 13th.",
      "speaker": "News Dog"
     },
     {
      "start": 39.8,
-     "end": 42.5,
+     "end": 42.1,
      "ja": "紹介するのは、",
-     "en": "What I'll be introducing is:",
+     "en": "What I will be introducing are:",
      "speaker": "News Dog"
     },
     {
-     "start": 42.8,
-     "end": 46.5,
-     "ja": "レジ袋の代わりに風呂敷が人気。",
-     "en": "\"Furoshiki is popular instead of plastic bags.\"",
+     "start": 42.4,
+     "end": 46.8,
+     "ja": "「レジ袋の代わりに風呂敷が人気」",
+     "en": "\"Furoshiki is popular instead of plastic bags,\"",
      "speaker": "News Dog"
     },
     {
-     "start": 47.5,
+     "start": 47.2,
      "end": 52.8,
-     "ja": "オンラインゲーム「子どもがするときは親が一緒にいて」。",
-     "en": "Online games: \"Parents, please stay with children when they play.\"",
+     "ja": "「オンラインゲーム『子どもがするときは親が一緒にいて』」",
+     "en": "and \"Online games: 'Parents, please be with your children when they play.'\"",
      "speaker": "News Dog"
     },
     {
-     "start": 53.3,
-     "end": 56.0,
-     "ja": "この2つのニュースです。",
+     "start": 53.1,
+     "end": 55.8,
+     "ja": "この二つのニュースです。",
      "en": "These two news stories.",
      "speaker": "News Dog"
     },
     {
-     "start": 56.4,
-     "end": 60.3,
+     "start": 56.1,
+     "end": 60.5,
      "ja": "それから、私が好きな歌を皆さんに紹介します。",
-     "en": "And then, I will introduce a song I like to everyone.",
+     "en": "After that, I'll introduce a song I like to everyone.",
      "speaker": "News Dog"
     },
     {
      "start": 60.8,
-     "end": 63.3,
-     "ja": "ではじゃあ、始めましょう。",
-     "en": "Now then, let's begin.",
+     "end": 63.2,
+     "ja": "では、じゃあ始めましょう。",
+     "en": "Well then, let's get started.",
      "speaker": "News Dog"
     }
    ]
   },
   {
-   "start": 127.5,
-   "end": 149.3,
-   "title": "Furoshiki Becoming Popular",
+   "start": 87.8,
+   "end": 108.6,
+   "title": "What Is a Furoshiki?",
    "level": "N4",
    "topics": [
     "culture",
     "daily"
    ],
    "grammar": [
-    "〜たり〜たりする — doing things like",
+    "〜って — topic marker (casual)",
+    "〜たりできる — can do things like",
     "〜という — called / saying that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 127.8,
-     "end": 130.5,
+     "start": 88.0,
+     "end": 90.8,
      "ja": "皆さん、風呂敷って知っていますか？",
      "en": "Everyone, do you know what a furoshiki is?",
      "speaker": "News Dog"
     },
     {
-     "start": 131.0,
-     "end": 133.8,
-     "ja": "1枚の大きな布で、",
-     "en": "It is a large piece of cloth,",
+     "start": 91.1,
+     "end": 94.2,
+     "ja": "一枚の大きな布で、",
+     "en": "It's a large piece of cloth",
      "speaker": "News Dog"
     },
     {
-     "start": 134.0,
-     "end": 137.4,
+     "start": 94.5,
+     "end": 97.8,
      "ja": "お土産を包んだりできるものです。",
-     "en": "used for things like wrapping gifts.",
+     "en": "that you can use to wrap souvenirs and other things.",
      "speaker": "News Dog"
     },
     {
-     "start": 138.0,
-     "end": 140.4,
+     "start": 98.0,
+     "end": 100.4,
      "ja": "はい、今日のニュースです。",
      "en": "Now, here is today's news.",
      "speaker": "News Dog"
     },
     {
-     "start": 140.7,
-     "end": 143.3,
+     "start": 100.7,
+     "end": 103.5,
      "ja": "レジ袋が有料になって、",
-     "en": "Plastic bags started charging a fee,",
+     "en": "Since plastic bags started costing money,",
      "speaker": "News Dog"
     },
     {
-     "start": 143.7,
-     "end": 146.4,
+     "start": 103.8,
+     "end": 106.3,
      "ja": "代わりに使う風呂敷が人気、",
-     "en": "and using furoshiki instead has become popular,",
+     "en": "using furoshiki instead has become popular—",
      "speaker": "News Dog"
     },
     {
-     "start": 146.6,
-     "end": 149.0,
+     "start": 106.5,
+     "end": 108.4,
      "ja": "というニュースを読みました。",
-     "en": "that was the news story I read.",
+     "en": "that's the news story I read.",
      "speaker": "News Dog"
     }
    ]
   },
   {
-   "start": 622.8,
-   "end": 644.5,
-   "title": "Introducing a Japanese Band",
+   "start": 383.0,
+   "end": 403.9,
+   "title": "Introducing a Favorite Japanese Band",
    "level": "N4",
    "topics": [
     "music",
-    "fun"
+    "friends"
    ],
    "grammar": [
-    "〜たいと思う — thinking of wanting to do",
-    "〜てもらう — receive a favor"
+    "〜たいと思う — would like to",
+    "〜てもらう — receive the favor of"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 623.0,
-     "end": 627.5,
+     "start": 383.2,
+     "end": 387.4,
      "ja": "最後に、日本のバンドを紹介したいと思います。",
-     "en": "Lastly, I'd like to introduce a Japanese band.",
+     "en": "Finally, I would like to introduce a Japanese band.",
      "speaker": "News Dog"
     },
     {
-     "start": 628.0,
-     "end": 631.0,
-     "ja": "ニュース犬が好きなバンドの1つ、",
-     "en": "One of News Dog's favorite bands,",
+     "start": 387.8,
+     "end": 391.2,
+     "ja": "ニュース犬が好きなバンドの一つ、",
+     "en": "One of News Dog's favorite bands is",
      "speaker": "News Dog"
     },
     {
-     "start": 631.2,
-     "end": 635.0,
+     "start": 391.5,
+     "end": 395.2,
      "ja": "打首獄門同好会というバンドです。",
-     "en": "is a band called Uchikubi Gokumon Doukoukai.",
+     "en": "a band called Uchikubi Gokumon Doukoukai.",
      "speaker": "News Dog"
     },
     {
-     "start": 635.5,
-     "end": 639.0,
+     "start": 395.5,
+     "end": 399.0,
      "ja": "ちょっと面白い名前のこのバンド、",
-     "en": "This band with a slightly funny name,",
+     "en": "This band with a rather interesting name",
      "speaker": "News Dog"
     },
     {
-     "start": 639.3,
-     "end": 644.2,
+     "start": 399.3,
+     "end": 403.7,
      "ja": "日本語を勉強している友達に紹介してもらいました。",
-     "en": "was recommended to me by a friend studying Japanese.",
+     "en": "was recommended to me by a friend who is studying Japanese.",
      "speaker": "News Dog"
     }
    ]
@@ -190,5 +191,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

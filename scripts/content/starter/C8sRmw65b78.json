@@ -1,0 +1,19 @@
+{
+ "videoId": "C8sRmw65b78",
+ "ids": [
+  "C8sRmw65b78-363"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "C8sRmw65b78-363": {
+   "id": "C8sRmw65b78-363",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Pleasant morning routine scene with clear, relatable vocabulary about herb scents."
+  }
+ }
+}

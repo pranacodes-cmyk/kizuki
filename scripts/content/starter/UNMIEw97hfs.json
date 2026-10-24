@@ -1,0 +1,21 @@
+{
+ "videoId": "UNMIEw97hfs",
+ "ids": [
+  "UNMIEw97hfs-261"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "UNMIEw97hfs-261": {
+   "id": "UNMIEw97hfs-261",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [
+    "fast speech"
+   ],
+   "why": "Funny comedic banter, but dialogue is quite fast and colloquial."
+  }
+ }
+}

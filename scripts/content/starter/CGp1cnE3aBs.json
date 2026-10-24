@@ -1,0 +1,19 @@
+{
+ "videoId": "CGp1cnE3aBs",
+ "ids": [
+  "CGp1cnE3aBs-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "CGp1cnE3aBs-0": {
+   "id": "CGp1cnE3aBs-0",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Friendly vlog greeting and daily life context, muffled slightly by mask."
+  }
+ }
+}

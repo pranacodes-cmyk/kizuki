@@ -1,30 +1,19 @@
 {
  "videoId": "3TKp9yCGBjQ",
  "ids": [
-  "3TKp9yCGBjQ-140",
-  "3TKp9yCGBjQ-16"
+  "3TKp9yCGBjQ-101"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "3TKp9yCGBjQ-140": {
-   "id": "3TKp9yCGBjQ-140",
-   "appeal": 6,
+  "3TKp9yCGBjQ-101": {
+   "id": "3TKp9yCGBjQ-101",
+   "appeal": 7,
    "clarity": 4,
-   "picture": 4,
-   "ease": 4,
-   "english": false,
-   "issues": [],
-   "why": "Humorous dialogue with simple words and colorful visuals."
-  },
-  "3TKp9yCGBjQ-16": {
-   "id": "3TKp9yCGBjQ-16",
-   "appeal": 6,
-   "clarity": 3,
    "picture": 4,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Lively animation but contains loud screaming and stylized delivery."
+   "why": "Cute animated dialogue with simple vocabulary and humorous delivery."
   }
  }
 }

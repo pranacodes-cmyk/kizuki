@@ -2,95 +2,88 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 48.8,
-   "end": 74.2,
-   "title": "How Are You Feeling?",
+   "start": 42.2,
+   "end": 69.8,
+   "title": "Are You Doing Well?",
    "level": "N5",
    "topics": [
     "daily",
-    "fun"
+    "friends"
    ],
    "grammar": [
-    "〜ですか — question marker",
-    "〜ですよ — emphatic assertion"
+    "〜たいと思う — want to think about / intend to",
+    "〜ですよ — assertive particle"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 49.2,
-     "end": 51.8,
+     "start": 42.5,
+     "end": 44.5,
+     "ja": "今日はですね、",
+     "en": "Today, well,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 44.6,
+     "end": 48.5,
+     "ja": "「元気」について話したいと思います。",
+     "en": "I'd like to talk about being 'genki' (energetic/well).",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 49.0,
+     "end": 51.5,
      "ja": "皆さん、元気ですか？",
-     "en": "Everyone, how are you doing?",
+     "en": "How are you all doing?",
      "speaker": "Teppei"
     },
     {
-     "start": 52.0,
-     "end": 54.0,
+     "start": 51.8,
+     "end": 53.7,
      "ja": "僕は元気ですよ。",
-     "en": "I'm doing well!",
+     "en": "I am doing well!",
      "speaker": "Teppei"
     },
     {
-     "start": 54.1,
-     "end": 55.7,
-     "ja": "元気ですか？",
-     "en": "Are you doing well?",
+     "start": 54.2,
+     "end": 57.0,
+     "ja": "元気ですか？元気ですよ。",
+     "en": "Are you well? I am well.",
      "speaker": "Teppei"
     },
     {
-     "start": 56.0,
-     "end": 57.6,
-     "ja": "元気ですよ。",
-     "en": "I'm doing well!",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 57.8,
-     "end": 59.8,
+     "start": 57.5,
+     "end": 59.5,
      "ja": "僕は元気です。",
-     "en": "I am fine.",
+     "en": "I'm doing great.",
      "speaker": "Teppei"
     },
     {
-     "start": 60.0,
+     "start": 59.8,
      "end": 62.5,
-     "ja": "僕は元気いっぱい、ね？",
-     "en": "I'm full of energy, right?",
+     "ja": "僕は元気いっぱいね。",
+     "en": "I'm full of energy.",
      "speaker": "Teppei"
     },
     {
      "start": 62.6,
-     "end": 66.0,
-     "ja": "元気いっぱい、元気がたくさん、ね、元気がある。",
+     "end": 66.8,
+     "ja": "元気いっぱい、元気がたくさんね、元気がある。",
      "en": "Full of energy, lots of energy, having energy.",
      "speaker": "Teppei"
     },
     {
-     "start": 66.3,
-     "end": 69.3,
+     "start": 67.0,
+     "end": 69.5,
      "ja": "いいですね。元気は大事ですよ。",
-     "en": "That's good. Being energetic is important.",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 69.5,
-     "end": 71.4,
-     "ja": "皆さん、元気ですか？",
-     "en": "Everyone, how are you?",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 71.6,
-     "end": 73.6,
-     "ja": "ね、僕は元気ですよ。",
-     "en": "Yeah, I'm doing well!",
+     "en": "That's good. Energy is important!",
      "speaker": "Teppei"
     }
    ]
   },
   {
    "start": 116.0,
-   "end": 134.8,
+   "end": 145.4,
    "title": "What Is Your Name?",
    "level": "N5",
    "topics": [
@@ -98,117 +91,145 @@
     "friends"
    ],
    "grammar": [
-    "〜は何ですか — what is...?",
-    "〜の〜 — possessive particle"
+    "〜は何ですか — what is ~?",
+    "それとも — or"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 116.3,
+     "start": 116.2,
      "end": 118.5,
      "ja": "皆さんの名前は何ですか？",
      "en": "What is everyone's name?",
      "speaker": "Teppei"
     },
     {
-     "start": 118.7,
-     "end": 120.9,
+     "start": 118.5,
+     "end": 121.0,
      "ja": "名前。名前は何ですか？",
      "en": "Name. What is your name?",
      "speaker": "Teppei"
     },
     {
      "start": 121.1,
-     "end": 124.0,
-     "ja": "僕の名前はてっぺいです。ね？",
-     "en": "My name is Teppei. Right?",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 124.1,
-     "end": 126.5,
-     "ja": "僕の名前はてっぺいです。",
+     "end": 123.8,
+     "ja": "僕の名前は鉄平です。",
      "en": "My name is Teppei.",
      "speaker": "Teppei"
     },
     {
-     "start": 126.8,
-     "end": 129.4,
+     "start": 124.0,
+     "end": 126.8,
+     "ja": "ね、僕の名前は鉄平です。",
+     "en": "Yeah, my name is Teppei.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 127.2,
+     "end": 129.5,
      "ja": "皆さんの名前は何ですか？",
-     "en": "What is everyone's name?",
+     "en": "What are your names?",
      "speaker": "Teppei"
     },
     {
      "start": 129.8,
-     "end": 134.2,
+     "end": 134.0,
      "ja": "あなたの名前は、ね、あなたの名前は何ですか？",
-     "en": "Your name... yeah, what is your name?",
+     "en": "What is your name? Yeah, what's your name?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 134.8,
+     "end": 139.6,
+     "ja": "あなたの名前はカルロス君ですか？カルロス君ですか？",
+     "en": "Is your name Carlos? Are you Carlos?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 140.0,
+     "end": 142.6,
+     "ja": "それともマイケル君ですか？",
+     "en": "Or is it Michael?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 142.8,
+     "end": 145.2,
+     "ja": "それともマリアさんですか？",
+     "en": "Or are you Maria?",
      "speaker": "Teppei"
     }
    ]
   },
   {
-   "start": 208.5,
-   "end": 236.2,
-   "title": "What Is Your Nationality?",
+   "start": 316.5,
+   "end": 343.0,
+   "title": "Listen Every Day to Improve",
    "level": "N5",
    "topics": [
     "daily",
-    "culture"
+    "school"
    ],
    "grammar": [
-    "〜に住む — to live in...",
-    "それとも〜 — or / or else"
+    "〜てください — please do ~",
+    "〜ようになる — come to be able to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 208.8,
-     "end": 215.0,
-     "ja": "僕は日本人です。ね？日本に住む日本人です。ね？僕は日本人です。",
-     "en": "I'm Japanese. Right? A Japanese person living in Japan. I'm Japanese.",
+     "start": 316.8,
+     "end": 319.3,
+     "ja": "毎日聞いてください。",
+     "en": "Please listen every day.",
      "speaker": "Teppei"
     },
     {
-     "start": 215.2,
-     "end": 217.3,
-     "ja": "皆さんは何人ですか？",
-     "en": "What nationality are you all?",
+     "start": 319.5,
+     "end": 322.5,
+     "ja": "毎日聞いて、少しずつ、",
+     "en": "By listening every day, little by little,",
      "speaker": "Teppei"
     },
     {
-     "start": 217.5,
-     "end": 220.2,
-     "ja": "アメリカ人ですか？アメリカ人？",
-     "en": "Are you American? American?",
+     "start": 322.6,
+     "end": 325.5,
+     "ja": "日本語が上手くなります。",
+     "en": "your Japanese will get better.",
      "speaker": "Teppei"
     },
     {
-     "start": 220.4,
-     "end": 224.0,
-     "ja": "それともイギリス人ですか？イギリス人？",
-     "en": "Or are you British? British?",
+     "start": 325.8,
+     "end": 328.5,
+     "ja": "日本語が上手になります。",
+     "en": "You'll become good at Japanese.",
      "speaker": "Teppei"
     },
     {
-     "start": 224.2,
-     "end": 227.5,
-     "ja": "ね、ロンドンとか。イギリス人、ね？",
-     "en": "Like London. British, right?",
+     "start": 328.8,
+     "end": 331.5,
+     "ja": "日本語が話せるようになります。",
+     "en": "You'll become able to speak Japanese.",
      "speaker": "Teppei"
     },
     {
-     "start": 227.7,
-     "end": 231.0,
-     "ja": "スコットランドの人もイギリス人ですね。",
-     "en": "People from Scotland are British too.",
+     "start": 331.8,
+     "end": 334.5,
+     "ja": "日本語が分かるようになります。",
+     "en": "You'll become able to understand Japanese.",
      "speaker": "Teppei"
     },
     {
-     "start": 231.2,
-     "end": 235.8,
-     "ja": "まあ、スコットランド人でも大丈夫ですけど、イギリス人でも大丈夫。",
-     "en": "Well, Scottish is fine, but British is also fine.",
+     "start": 335.0,
+     "end": 340.0,
+     "ja": "僕を信じて毎日日本語を聞いてください。",
+     "en": "Trust me and listen to Japanese every day.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 341.0,
+     "end": 342.8,
+     "ja": "それではまた皆さん！",
+     "en": "Well then, see you everyone!",
      "speaker": "Teppei"
     }
    ]
@@ -218,5 +239,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -2,179 +2,164 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 50.8,
-   "end": 77.5,
-   "title": "Zodiac Handover Ceremony at Tsutenkaku",
+   "start": 51.5,
+   "end": 117.8,
+   "title": "Passing the Zodiac Baton in Osaka",
    "level": "N5",
    "topics": [
     "culture",
     "daily"
    ],
    "grammar": [
-    "〜が終わる — to end / finish",
-    "〜から〜に — from ... to ..."
+    "〜から〜に — from ... to ...",
+    "〜がありました — there was ..."
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 51.1,
+     "start": 51.5,
      "end": 58.0,
      "ja": "もうすぐ、2024年が終わります。",
      "en": "Soon, the year 2024 will come to an end.",
-     "speaker": "Narrator"
+     "speaker": "Speaker"
     },
     {
      "start": 59.0,
-     "end": 63.5,
+     "end": 103.0,
      "ja": "大阪の通天閣では、",
      "en": "At Tsutenkaku in Osaka,",
-     "speaker": "Narrator"
+     "speaker": "Speaker"
     },
     {
-     "start": 63.6,
-     "end": 68.6,
+     "start": 103.4,
+     "end": 108.5,
      "ja": "2024年のえとの「たつ」から",
-     "en": "from the 2024 zodiac animal, the dragon,",
-     "speaker": "Narrator"
+     "en": "from the 2024 zodiac animal, the Dragon,",
+     "speaker": "Speaker"
     },
     {
-     "start": 68.7,
-     "end": 73.8,
+     "start": 108.8,
+     "end": 113.5,
      "ja": "2025年のえとの「へび」に",
-     "en": "to the 2025 zodiac animal, the snake,",
-     "speaker": "Narrator"
+     "en": "to the 2025 zodiac animal, the Snake,",
+     "speaker": "Speaker"
     },
     {
-     "start": 73.9,
-     "end": 77.2,
+     "start": 113.8,
+     "end": 117.6,
      "ja": "交代する式がありました。",
-     "en": "a handover ceremony was held.",
-     "speaker": "Narrator"
+     "en": "there was a handover ceremony.",
+     "speaker": "Speaker"
     }
    ]
   },
   {
-   "start": 97.0,
-   "end": 125.0,
-   "title": "Osaka Governor on the Upcoming Expo",
-   "level": "N4",
+   "start": 163.0,
+   "end": 183.5,
+   "title": "Explaining the Word Koutai",
+   "level": "N5",
    "topics": [
     "culture",
-    "fun"
+    "school"
    ],
    "grammar": [
-    "〜のように — like / as",
-    "〜てほしい — wanting someone to do something"
+    "〜ことです — explanation / definition of an action"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 97.5,
-     "end": 102.0,
-     "ja": "大阪府の吉村知事は",
-     "en": "Governor Yoshimura of Osaka Prefecture said,",
-     "speaker": "Narrator"
+     "start": 163.2,
+     "end": 166.0,
+     "ja": "交代。",
+     "en": "Handover.",
+     "speaker": "Speaker"
     },
     {
-     "start": 102.5,
-     "end": 106.3,
-     "ja": "「万博は、世界が注目する",
-     "en": "\"The Expo is a heavyweight event",
-     "speaker": "Narrator"
+     "start": 166.8,
+     "end": 170.0,
+     "ja": "代わる。",
+     "en": "To take over / change.",
+     "speaker": "Speaker"
     },
     {
-     "start": 106.6,
-     "end": 110.8,
-     "ja": "ヘビー級のイベントです」と言って、",
-     "en": "drawing the world's attention,\"",
-     "speaker": "Narrator"
+     "start": 171.5,
+     "end": 175.8,
+     "ja": "2024年のたつ年から",
+     "en": "From the Year of the Dragon in 2024,",
+     "speaker": "Speaker"
     },
     {
-     "start": 112.5,
-     "end": 116.5,
-     "ja": "へびのようにたくさんの人が",
-     "en": "and expressed his hope that many people would come,",
-     "speaker": "Narrator"
+     "start": 176.2,
+     "end": 180.0,
+     "ja": "2025年のへび年へ",
+     "en": "to the Year of the Snake in 2025,",
+     "speaker": "Speaker"
     },
     {
-     "start": 116.8,
-     "end": 120.0,
-     "ja": "長く並ぶくらい、",
-     "en": "forming lines as long as a snake,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 120.2,
-     "end": 124.5,
-     "ja": "多くの人に来てほしいと話しました。",
-     "en": "and wanting many people to visit.",
-     "speaker": "Narrator"
+     "start": 180.5,
+     "end": 183.0,
+     "ja": "代わることです。",
+     "en": "it means to switch over.",
+     "speaker": "Speaker"
     }
    ]
   },
   {
-   "start": 819.5,
-   "end": 843.0,
-   "title": "Introduction to the 12 Zodiac Animals",
+   "start": 499.5,
+   "end": 523.0,
+   "title": "How the Japanese Zodiac Works",
    "level": "N5",
    "topics": [
     "culture",
     "animals"
    ],
    "grammar": [
-    "〜から始まる — to start from",
-    "〜で終わる — to end with"
+    "〜から始まり — starting with ...",
+    "〜で終わります — ends with ..."
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 820.0,
-     "end": 824.0,
+     "start": 499.7,
+     "end": 504.4,
      "ja": "「えと」は、毎年、交代します。",
-     "en": "The zodiac signs change every year.",
-     "speaker": "Narrator"
+     "en": "The zodiac sign changes every year.",
+     "speaker": "Speaker"
     },
     {
-     "start": 824.5,
-     "end": 827.5,
+     "start": 505.0,
+     "end": 507.4,
      "ja": "12種類あります。",
      "en": "There are 12 kinds.",
-     "speaker": "Narrator"
+     "speaker": "Speaker"
     },
     {
-     "start": 828.0,
-     "end": 830.8,
+     "start": 507.8,
+     "end": 510.6,
      "ja": "ねずみから始まり、",
-     "en": "Starting with the rat,",
-     "speaker": "Narrator"
+     "en": "Starting with the Rat,",
+     "speaker": "Speaker"
     },
     {
-     "start": 831.0,
-     "end": 834.0,
+     "start": 511.0,
+     "end": 513.7,
      "ja": "いのししで終わります。",
-     "en": "and ending with the boar.",
-     "speaker": "Narrator"
+     "en": "it ends with the Boar.",
+     "speaker": "Speaker"
     },
     {
-     "start": 834.2,
-     "end": 837.0,
+     "start": 514.0,
+     "end": 517.0,
      "ja": "今年は、へび年です。",
      "en": "This year is the Year of the Snake.",
-     "speaker": "Narrator"
+     "speaker": "Speaker"
     },
     {
-     "start": 837.2,
-     "end": 840.5,
-     "ja": "「えと」の動物を、これから、",
-     "en": "Now, the animals of the zodiac",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 840.8,
-     "end": 842.5,
-     "ja": "紹介します。",
-     "en": "will be introduced.",
-     "speaker": "Narrator"
+     "start": 517.4,
+     "end": 522.5,
+     "ja": "「えと」の動物を、これから、紹介します。",
+     "en": "Now, I will introduce the zodiac animals.",
+     "speaker": "Speaker"
     }
    ]
   }
@@ -183,5 +168,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

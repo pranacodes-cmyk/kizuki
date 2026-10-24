@@ -3,180 +3,206 @@
  "clips": [
   {
    "start": 0.6,
-   "end": 11.0,
-   "title": "Secret Test for Polka",
+   "end": 11.8,
+   "title": "Secret Test on Polka",
    "level": "N3",
    "topics": [
     "fun",
-    "work"
+    "culture"
    ],
    "grammar": [
     "〜に内緒で — in secret from",
-    "お〜ください — please do (polite)"
+    "お〜ください — polite request"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 0.6,
+     "start": 0.8,
      "end": 3.2,
-     "ja": "こんにちは。ポル伝スタッフの井筒です。",
-     "en": "Hello. I'm Izutsu, a staff member of Legend of Polka.",
+     "ja": "こんにちは、ポル伝スタッフの井筒です。",
+     "en": "Hello, I'm Izutsu from the Pol-Den staff.",
      "speaker": "Izutsu"
     },
     {
      "start": 3.4,
-     "end": 6.8,
+     "end": 7.1,
      "ja": "今日はポルカさんに内緒である検証をします。",
-     "en": "Today, we're doing a secret test without Polka knowing.",
+     "en": "Today, we're doing a secret test on Polka.",
      "speaker": "Izutsu"
     },
     {
-     "start": 7.1,
-     "end": 11.0,
+     "start": 7.4,
+     "end": 11.4,
      "ja": "それでは、今日のポルカの伝説をお楽しみください。",
-     "en": "Now then, please enjoy today's Legend of Polka.",
+     "en": "Now, please enjoy today's Legend of Polka.",
      "speaker": "Izutsu"
     }
    ]
   },
   {
-   "start": 106.5,
-   "end": 119.8,
-   "title": "Umaibo Trivia",
+   "start": 44.5,
+   "end": 106.3,
+   "title": "So Many Snacks in the Studio",
    "level": "N4",
    "topics": [
     "food",
-    "fun",
-    "friends"
+    "fun"
    ],
    "grammar": [
-    "〜ちゃう — to do completely / casually",
-    "〜ましょうか — shall we"
+    "〜ないですか — aren't there / isn't it?",
+    "〜ませんか — won't you? / why don't we?"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 106.5,
-     "end": 108.2,
+     "start": 44.7,
+     "end": 46.5,
+     "ja": "めっちゃ機嫌いいですねｗ",
+     "en": "You're in such a good mood, haha.",
+     "speaker": "Izutsu"
+    },
+    {
+     "start": 46.7,
+     "end": 47.9,
+     "ja": "だってお菓子が…",
+     "en": "Because all these snacks...",
+     "speaker": "Polka"
+    },
+    {
+     "start": 48.0,
+     "end": 49.7,
+     "ja": "めちゃめちゃお菓子ありますね！",
+     "en": "There really are a ton of snacks!",
+     "speaker": "Izutsu"
+    },
+    {
+     "start": 49.8,
+     "end": 51.3,
+     "ja": "お菓子がいっぱいある！",
+     "en": "There are so many snacks!",
+     "speaker": "Polka"
+    },
+    {
+     "start": 51.4,
+     "end": 54.6,
+     "ja": "なんかうまい棒いっぱい種類ないですか？",
+     "en": "Aren't there a ton of varieties of Umaibo?",
+     "speaker": "Izutsu"
+    },
+    {
+     "start": 54.7,
+     "end": 57.5,
+     "ja": "うまい棒屋さんになった？めっちゃくちゃある！",
+     "en": "Did this become an Umaibo shop? There's so many!",
+     "speaker": "Polka"
+    },
+    {
+     "start": 57.6,
+     "end": 60.8,
+     "ja": "知らない間になんか見たことない味もあるね！",
+     "en": "Without me noticing, there are flavors I've never seen!",
+     "speaker": "Polka"
+    },
+    {
+     "start": 61.0,
+     "end": 62.4,
+     "ja": "あ、いいですね！",
+     "en": "Oh, nice!",
+     "speaker": "Izutsu"
+    },
+    {
+     "start": 62.5,
+     "end": 64.2,
+     "ja": "このうまい棒で企画しません？",
+     "en": "Want to do a segment with these Umaibo?",
+     "speaker": "Izutsu"
+    },
+    {
+     "start": 64.4,
+     "end": 66.1,
+     "ja": "えーっ？食べようよ…。",
+     "en": "Huh? Let's just eat them...",
+     "speaker": "Polka"
+    }
+   ]
+  },
+  {
+   "start": 106.7,
+   "end": 120.3,
+   "title": "The Mascot Character's Secret",
+   "level": "N4",
+   "topics": [
+    "fun",
+    "comedy"
+   ],
+   "grammar": [
+    "〜って言う — to be called",
+    "〜ちゃう — to do completely / casually"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 106.9,
+     "end": 108.5,
      "ja": "このうまい棒いいじゃないですか。",
      "en": "Aren't these Umaibo great?",
      "speaker": "Izutsu"
     },
     {
-     "start": 108.3,
-     "end": 110.1,
+     "start": 108.5,
+     "end": 110.0,
      "ja": "うまえもんって言うんだよ、このキャラ。",
      "en": "This character is called Umaemon.",
      "speaker": "Polka"
     },
     {
-     "start": 110.2,
+     "start": 110.0,
      "end": 111.0,
      "ja": "そうなんですか？",
      "en": "Is that so?",
      "speaker": "Izutsu"
     },
     {
-     "start": 111.1,
+     "start": 111.0,
      "end": 112.3,
      "ja": "妹の名前知ってる？",
      "en": "Do you know his little sister's name?",
      "speaker": "Polka"
     },
     {
-     "start": 112.4,
+     "start": 112.3,
      "end": 113.2,
      "ja": "知らないです。",
-     "en": "I don't know.",
+     "en": "I don't.",
      "speaker": "Izutsu"
     },
     {
-     "start": 113.3,
+     "start": 113.2,
      "end": 114.3,
      "ja": "うまみちゃん。",
      "en": "Umami-chan.",
      "speaker": "Polka"
     },
     {
-     "start": 114.4,
-     "end": 115.5,
-     "ja": "へぇー！よく知ってますね。",
-     "en": "Wow! You really know your stuff.",
-     "speaker": "Izutsu"
-    },
-    {
-     "start": 115.6,
-     "end": 117.2,
+     "start": 114.5,
+     "end": 116.8,
      "ja": "ギリギリ攻めてるよね。",
      "en": "They're really pushing the envelope, huh?",
      "speaker": "Polka"
     },
     {
-     "start": 117.3,
-     "end": 118.8,
+     "start": 117.0,
+     "end": 118.5,
      "ja": "じゃあ企画しちゃう？これ。",
-     "en": "Should we make a segment out of this, then?",
+     "en": "Well, shall we make a game out of it?",
      "speaker": "Polka"
     },
     {
-     "start": 118.9,
-     "end": 119.8,
+     "start": 118.7,
+     "end": 120.0,
      "ja": "しちゃいましょうか！",
-     "en": "Shall we!",
+     "en": "Let's do it!",
      "speaker": "Izutsu"
-    }
-   ]
-  },
-  {
-   "start": 817.0,
-   "end": 829.8,
-   "title": "As Long as Nobody Gets Hurt",
-   "level": "N3",
-   "topics": [
-    "fun",
-    "work"
-   ],
-   "grammar": [
-    "〜に関して — regarding / concerning",
-    "〜なければいい — as long as / it's fine if not",
-    "〜んで — because / since (explanatory)"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 817.0,
-     "end": 818.4,
-     "ja": "ポルカは、",
-     "en": "As for me,",
-     "speaker": "Polka"
-    },
-    {
-     "start": 818.5,
-     "end": 821.8,
-     "ja": "ドッキリとかモニタリングみたいのに関しては、",
-     "en": "when it comes to pranks and hidden camera setups,",
-     "speaker": "Polka"
-    },
-    {
-     "start": 822.0,
-     "end": 825.0,
-     "ja": "人が傷つかなければいいと思ってるんで、",
-     "en": "I think it's fine as long as nobody gets hurt,",
-     "speaker": "Polka"
-    },
-    {
-     "start": 825.2,
-     "end": 827.0,
-     "ja": "これは誰も傷ついてないんで、",
-     "en": "and since no one got hurt here,",
-     "speaker": "Polka"
-    },
-    {
-     "start": 827.2,
-     "end": 829.5,
-     "ja": "オッケーです！",
-     "en": "it's totally okay!",
-     "speaker": "Polka"
     }
    ]
   }
@@ -185,5 +211,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

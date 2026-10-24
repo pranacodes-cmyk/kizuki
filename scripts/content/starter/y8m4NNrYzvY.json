@@ -1,0 +1,33 @@
+{
+ "videoId": "y8m4NNrYzvY",
+ "ids": [
+  "y8m4NNrYzvY-341",
+  "y8m4NNrYzvY-444"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "y8m4NNrYzvY-444": {
+   "id": "y8m4NNrYzvY-444",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "whispering",
+    "quiet speech"
+   ],
+   "why": "Sweet father-son moment, though the whispered speech is somewhat faint."
+  },
+  "y8m4NNrYzvY-341": {
+   "id": "y8m4NNrYzvY-341",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Natural casual monologue with good visual support showing the apron gift."
+  }
+ }
+}

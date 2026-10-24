@@ -1,0 +1,19 @@
+{
+ "videoId": "YN7vJdekm5M",
+ "ids": [
+  "YN7vJdekm5M-501"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "YN7vJdekm5M-501": {
+   "id": "YN7vJdekm5M-501",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, slow narration paired with story illustrations suitable for beginners."
+  }
+ }
+}

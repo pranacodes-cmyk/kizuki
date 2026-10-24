@@ -1,19 +1,19 @@
 {
  "videoId": "nvir_HTG_eU",
  "ids": [
-  "nvir_HTG_eU-616"
+  "nvir_HTG_eU-65"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "nvir_HTG_eU-616": {
-   "id": "nvir_HTG_eU-616",
+  "nvir_HTG_eU-65": {
+   "id": "nvir_HTG_eU-65",
    "appeal": 6,
    "clarity": 4,
    "picture": 3,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Dramatic comedic dialogue about being chosen to protect Earth."
+   "why": "Comedic stage dialogue about an absurd situation, spoken clearly."
   }
  }
 }

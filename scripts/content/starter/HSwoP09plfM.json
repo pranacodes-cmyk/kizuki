@@ -1,19 +1,32 @@
 {
  "videoId": "HSwoP09plfM",
  "ids": [
+  "HSwoP09plfM-112",
   "HSwoP09plfM-15"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
   "HSwoP09plfM-15": {
    "id": "HSwoP09plfM-15",
-   "appeal": 6,
+   "appeal": 7,
    "clarity": 4,
    "picture": 4,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Clear travel vlog introduction with common greeting and natural speech."
+   "why": "Friendly greeting and clear introduction to an Osaka izakaya."
+  },
+  "HSwoP09plfM-112": {
+   "id": "HSwoP09plfM-112",
+   "appeal": 7,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Fun menu banter, though voices occasionally overlap on the stairs."
   }
  }
 }

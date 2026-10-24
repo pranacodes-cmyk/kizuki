@@ -1,0 +1,19 @@
+{
+ "videoId": "kay6GrgdS-A",
+ "ids": [
+  "kay6GrgdS-A-46"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "kay6GrgdS-A-46": {
+   "id": "kay6GrgdS-A-46",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Engaging kamishibai storytelling with clear character dialogue for beginners."
+  }
+ }
+}

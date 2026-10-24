@@ -1,0 +1,19 @@
+{
+ "videoId": "kXf259H3fGY",
+ "ids": [
+  "kXf259H3fGY-645"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "kXf259H3fGY-645": {
+   "id": "kXf259H3fGY-645",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Sweet everyday moment, but the voiceover is quiet and somewhat mumbled."
+  }
+ }
+}

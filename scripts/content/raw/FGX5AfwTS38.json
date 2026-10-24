@@ -2,59 +2,58 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 109.2,
-   "end": 140.5,
-   "title": "How Long Have You Been Studying Japanese?",
+   "start": 108.5,
+   "end": 140.8,
+   "title": "How Long Have You Studied Japanese?",
    "level": "N5",
    "topics": [
-    "daily",
-    "school"
+    "school",
+    "daily"
    ],
    "grammar": [
     "〜ています — ongoing action",
-    "〜年間 — span of years",
-    "それとも — or (alternative)"
+    "どのくらい — how long / how much"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 109.5,
-     "end": 113.8,
+     "start": 109.2,
+     "end": 114.2,
      "ja": "皆さんはどのくらい日本語を勉強してますか？",
      "en": "How long have you all been studying Japanese?",
      "speaker": "Teppei"
     },
     {
-     "start": 114.7,
+     "start": 114.5,
      "end": 117.8,
-     "ja": "どのくらい日本語を勉強してますか？",
-     "en": "How long have you been studying Japanese?",
+     "ja": "ね、どのくらい日本語を勉強してますか？",
+     "en": "Right, how long have you been studying Japanese?",
      "speaker": "Teppei"
     },
     {
-     "start": 118.2,
-     "end": 123.0,
-     "ja": "どのくらい、どのくらいの期間、日本語を勉強していますか？",
-     "en": "For about how long, for what period of time, have you been studying Japanese?",
+     "start": 118.0,
+     "end": 122.8,
+     "ja": "どのくらい、ね、どのくらいの期間日本語を勉強していますか？",
+     "en": "How long, for what period of time have you been studying Japanese?",
      "speaker": "Teppei"
     },
     {
-     "start": 123.5,
-     "end": 129.8,
-     "ja": "例えば、1年間、1年間日本語を勉強していますか？",
-     "en": "For example, for one year, have you been studying Japanese for one year?",
+     "start": 123.2,
+     "end": 129.5,
+     "ja": "例えば、1年間、ね、1年間日本語を勉強していますか？",
+     "en": "For example, one year, have you been studying Japanese for one year?",
      "speaker": "Teppei"
     },
     {
-     "start": 130.3,
-     "end": 134.8,
+     "start": 129.8,
+     "end": 135.2,
      "ja": "それとも2年間、日本語を勉強してますか？",
      "en": "Or have you been studying Japanese for two years?",
      "speaker": "Teppei"
     },
     {
-     "start": 135.2,
-     "end": 139.8,
+     "start": 135.5,
+     "end": 140.2,
      "ja": "それとも3年間、日本語を勉強していますか？",
      "en": "Or have you been studying Japanese for three years?",
      "speaker": "Teppei"
@@ -62,120 +61,92 @@
    ]
   },
   {
-   "start": 144.0,
-   "end": 172.5,
-   "title": "Counting Months of Study",
+   "start": 233.2,
+   "end": 252.0,
+   "title": "Is Studying Japanese Fun?",
    "level": "N5",
    "topics": [
-    "daily",
-    "school"
-   ],
-   "grammar": [
-    "〜だけ — only",
-    "〜か月 — counter for months"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 144.5,
-     "end": 148.8,
-     "ja": "1か月間、1か月だけ、1か月だけ勉強してますか？",
-     "en": "For one month, just one month, have you been studying for just one month?",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 149.2,
-     "end": 155.8,
-     "ja": "それとも2か月、短いですね、2か月、3か月、4か月、",
-     "en": "Or two months? That's short: two months, three months, four months,",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 156.0,
-     "end": 160.8,
-     "ja": "5か月、6か月、7か月、8か月、",
-     "en": "five months, six months, seven months, eight months,",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 161.0,
-     "end": 166.0,
-     "ja": "9か月ね、「くか月」じゃないですよ、9か月？",
-     "en": "nine months, right—not 'kugatsu'—nine months?",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 166.5,
-     "end": 171.8,
-     "ja": "7か月ですね。「しち」じゃないですよ、7か月、8か月、9か月、10か月。",
-     "en": "It's nanakagetsu. Not 'shichi', it's seven months, eight months, nine months, ten months.",
-     "speaker": "Teppei"
-    }
-   ]
-  },
-  {
-   "start": 224.0,
-   "end": 251.5,
-   "title": "Do You Enjoy Studying Japanese?",
-   "level": "N5",
-   "topics": [
-    "daily",
     "school",
+    "daily",
     "fun"
    ],
    "grammar": [
     "〜が好き — to like something",
-    "〜は楽しい — ... is fun"
+    "〜ですよ — giving new information"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 224.4,
-     "end": 227.2,
-     "ja": "皆さんはどのくらい日本語を勉強していますか？",
-     "en": "How long have you all been studying Japanese?",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 227.6,
-     "end": 232.8,
-     "ja": "どのくらい、どのくらいの時間日本語を勉強してますか？",
-     "en": "How much, how much time have you been studying Japanese?",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 233.8,
-     "end": 237.2,
-     "ja": "日本語の勉強は楽しいですか？",
+     "start": 233.6,
+     "end": 237.3,
+     "ja": "日本語の勉強は楽しいですか？ね。",
      "en": "Is studying Japanese fun?",
      "speaker": "Teppei"
     },
     {
-     "start": 238.2,
+     "start": 237.6,
      "end": 241.0,
      "ja": "僕は楽しいですよ。",
-     "en": "I find it fun!",
+     "en": "I think it's fun.",
      "speaker": "Teppei"
     },
     {
-     "start": 241.5,
+     "start": 241.3,
      "end": 245.0,
-     "ja": "僕は楽しいですよ。僕は楽しいです。",
-     "en": "I find it fun. I enjoy it.",
+     "ja": "僕は楽しいですよ、ね、僕は楽しいです。",
+     "en": "I think it's fun, yeah, it's fun for me.",
      "speaker": "Teppei"
     },
     {
-     "start": 245.2,
-     "end": 247.1,
+     "start": 245.3,
+     "end": 247.3,
      "ja": "皆さんは楽しいですか？",
      "en": "Is it fun for all of you?",
      "speaker": "Teppei"
     },
     {
-     "start": 247.4,
-     "end": 251.0,
-     "ja": "日本語の勉強が好きですか？勉強が好きですか？",
+     "start": 247.5,
+     "end": 251.5,
+     "ja": "日本語の勉強が好きですか？ね、勉強が好きですか？",
      "en": "Do you like studying Japanese? Do you like studying?",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 252.3,
+   "end": 307.5,
+   "title": "Listen and Repeat Many Times",
+   "level": "N5",
+   "topics": [
+    "school",
+    "daily"
+   ],
+   "grammar": [
+    "〜てください — please do",
+    "〜時 — when / at the time of"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 252.8,
+     "end": 256.0,
+     "ja": "今日も少し勉強しましたね。",
+     "en": "We studied a little bit today as well.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 256.4,
+     "end": 301.8,
+     "ja": "えー、分からない時は何度も何度もリピートして聞いてみてください。",
+     "en": "When you don't understand, please repeat and listen to it again and again.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 302.0,
+     "end": 307.0,
+     "ja": "ね、何回も何回も日本語コン鉄平を聞いてください。",
+     "en": "Please listen to Nihongo con Teppei many, many times.",
      "speaker": "Teppei"
     }
    ]
@@ -185,5 +156,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

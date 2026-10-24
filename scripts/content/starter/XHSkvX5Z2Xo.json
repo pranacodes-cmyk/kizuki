@@ -1,6 +1,7 @@
 {
  "videoId": "XHSkvX5Z2Xo",
  "ids": [
+  "XHSkvX5Z2Xo-4",
   "XHSkvX5Z2Xo-63"
  ],
  "model": "google/gemini-3.8-flash",
@@ -13,7 +14,17 @@
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Humorous stage comedy with clear enunciation and simple dramatic phrasing."
+   "why": "Humorous theatrical sketch with clear and dramatic dialogue."
+  },
+  "XHSkvX5Z2Xo-4": {
+   "id": "XHSkvX5Z2Xo-4",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear theatrical stage performance with simple, expressive lines."
   }
  }
 }

@@ -1,7 +1,8 @@
 {
  "videoId": "PQNeuKJ9ibE",
  "ids": [
-  "PQNeuKJ9ibE-0"
+  "PQNeuKJ9ibE-0",
+  "PQNeuKJ9ibE-384"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
@@ -10,10 +11,20 @@
    "appeal": 6,
    "clarity": 4,
    "picture": 3,
-   "ease": 3,
+   "ease": 4,
    "english": false,
    "issues": [],
-   "why": "Energetic greeting and introduction to convenience store snacks."
+   "why": "Energetic, clear standard Japanese greeting introducing a snack taste test."
+  },
+  "PQNeuKJ9ibE-384": {
+   "id": "PQNeuKJ9ibE-384",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Appealing dessert visuals with clear, enthusiastic spoken commentary."
   }
  }
 }

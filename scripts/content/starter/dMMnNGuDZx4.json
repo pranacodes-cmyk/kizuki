@@ -1,6 +1,7 @@
 {
  "videoId": "dMMnNGuDZx4",
  "ids": [
+  "dMMnNGuDZx4-103",
   "dMMnNGuDZx4-812"
  ],
  "model": "google/gemini-3.8-flash",
@@ -13,7 +14,17 @@
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Fun outdoor drinking scene enjoying skewers with casual Japanese."
+   "why": "Atmospheric izakaya scene enjoying beer and skewers on an autumn evening."
+  },
+  "dMMnNGuDZx4-103": {
+   "id": "dMMnNGuDZx4-103",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear and relatable explanation of why he prefers standing bars."
   }
  }
 }

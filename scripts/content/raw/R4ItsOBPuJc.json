@@ -3,165 +3,172 @@
  "clips": [
   {
    "start": 16.5,
-   "end": 28.5,
-   "title": "Example of Afterthought Conditions",
-   "level": "N3",
+   "end": 26.5,
+   "title": "Who Is the Current Prime Minister?",
+   "level": "N4",
    "topics": [
-    "comedy",
-    "fun"
+    "fun",
+    "comedy"
    ],
    "grammar": [
-    "〜たら — if/when conditional",
-    "〜って言う — to say that..."
+    "〜たら — if/when",
+    "〜て言う — to say that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 16.6,
+     "start": 16.8,
      "end": 20.0,
-     "ja": "例えば、「現在の首相は誰？」っていう問題があったら、",
-     "en": "For example, if the question is 'Who is the current prime minister?'",
+     "ja": "現在の首相は誰？っていう問題があったら、",
+     "en": "If there's a question like 'Who is the current prime minister?'",
      "speaker": "Fukura P"
     },
     {
-     "start": 20.1,
+     "start": 20.0,
      "end": 21.0,
-     "ja": "何て答えます？",
+     "ja": "なんて答えます？",
      "en": "how would you answer?",
      "speaker": "Fukura P"
     },
     {
      "start": 21.1,
-     "end": 22.3,
+     "end": 22.1,
      "ja": "岸田文雄。",
      "en": "Fumio Kishida.",
-     "speaker": "Ko-Chan"
+     "speaker": "Ko-chan"
     },
     {
-     "start": 23.4,
-     "end": 25.5,
-     "ja": "今、一応早押し…",
-     "en": "Right now, it's technically a buzzer quiz...",
+     "start": 23.3,
+     "end": 24.5,
+     "ja": "今、一応、",
+     "en": "Right now, to be fair,",
      "speaker": "Izawa"
     },
     {
-     "start": 26.5,
-     "end": 28.2,
-     "ja": "岸田文雄さんって言うけど、",
-     "en": "You'd say Fumio Kishida, but...",
-     "speaker": "Fukura P"
+     "start": 24.5,
+     "end": 26.2,
+     "ja": "早押し…",
+     "en": "a buzzer race...",
+     "speaker": "Izawa"
     }
    ]
   },
   {
-   "start": 57.0,
-   "end": 71.5,
-   "title": "Rules for Point Scoring",
+   "start": 124.9,
+   "end": 139.6,
+   "title": "Guessing the Atmosphere on Mars",
    "level": "N3",
    "topics": [
     "fun",
-    "friends"
+    "comedy"
    ],
    "grammar": [
-    "〜のが一番〜 — doing ... is the most ...",
-    "〜以降 — from ... onwards",
-    "〜場合 — in the case of"
+    "〜んじゃない — isn't it / probably",
+    "〜かどうか — whether or not"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 57.3,
-     "end": 60.1,
-     "ja": "最初に押す人が一番難しいので、",
-     "en": "Since it's hardest for the first person who buzzes in,",
+     "start": 125.1,
+     "end": 126.8,
+     "ja": "二酸化炭素！",
+     "en": "Carbon dioxide!",
+     "speaker": "Kawamura"
+    },
+    {
+     "start": 126.9,
+     "end": 127.9,
+     "ja": "正解！",
+     "en": "Correct!",
      "speaker": "Fukura P"
     },
     {
-     "start": 60.3,
-     "end": 62.4,
-     "ja": "最初に押した人はプラス2ポイント。",
-     "en": "the first person to buzz gets plus 2 points.",
-     "speaker": "Fukura P"
+     "start": 128.0,
+     "end": 129.5,
+     "ja": "お見事！",
+     "en": "Splendid!",
+     "speaker": "Izawa"
     },
     {
-     "start": 63.4,
-     "end": 67.5,
-     "ja": "それ以降の2人目とか3人目に押す場合がプラス1ポイント、",
-     "en": "If you buzz in second or third after that, it's plus 1 point,",
-     "speaker": "Fukura P"
+     "start": 129.9,
+     "end": 132.8,
+     "ja": "そもそもここ大気があるかどうか分かんないとこって、",
+     "en": "To begin with, places where we don't know if there is an atmosphere,",
+     "speaker": "Izawa"
     },
     {
-     "start": 67.8,
-     "end": 69.8,
-     "ja": "って感じにしたいと思います。",
-     "en": "is how I'd like to do it.",
-     "speaker": "Fukura P"
+     "start": 132.8,
+     "end": 135.2,
+     "ja": "調べるの自体が難しいと思うんですよね。",
+     "en": "I think it's difficult to even investigate.",
+     "speaker": "Izawa"
     },
     {
-     "start": 70.1,
-     "end": 71.2,
-     "ja": "誤答すると…",
-     "en": "If you answer incorrectly...",
-     "speaker": "Fukura P"
+     "start": 135.4,
+     "end": 139.3,
+     "ja": "だとしたら火星か金星あたりまでじゃない？",
+     "en": "If so, wouldn't it be somewhere around Mars or Venus?",
+     "speaker": "Izawa"
     }
    ]
   },
   {
    "start": 725.2,
-   "end": 745.0,
-   "title": "What If You Are Crabs?",
+   "end": 745.8,
+   "title": "Rock-Paper-Scissors with Crabs",
    "level": "N4",
    "topics": [
+    "fun",
     "comedy",
-    "fun"
+    "animals"
    ],
    "grammar": [
-    "〜たとき — when / at the time of",
-    "〜はいくら／いくつ — how much / how many"
+    "〜としたとき — assuming that / when",
+    "〜じゃないと — unless / if not"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 725.3,
-     "end": 728.0,
-     "ja": "皆さん3人でじゃんけんをした時、",
-     "en": "When the three of you play rock-paper-scissors,",
+     "start": 725.8,
+     "end": 730.2,
+     "ja": "みなさん3人でじゃんけんをしたとき、あいこになる確率はいくつ？",
+     "en": "When the three of you play rock-paper-scissors, what is the probability of a tie?",
      "speaker": "Fukura P"
     },
     {
-     "start": 728.1,
-     "end": 730.4,
-     "ja": "あいこになる確率はいくつ？",
-     "en": "what is the probability of a tie?",
-     "speaker": "Fukura P"
-    },
-    {
-     "start": 732.5,
-     "end": 735.0,
-     "ja": "ただし、皆さんはカニです。",
-     "en": "However, you are all crabs.",
-     "speaker": "Fukura P"
-    },
-    {
-     "start": 738.9,
-     "end": 740.1,
-     "ja": "確率だよね？",
-     "en": "It's probability, right?",
+     "start": 730.8,
+     "end": 732.6,
+     "ja": "とりあえず押さないと勝ち目ないか。",
+     "en": "I guess I have no chance of winning unless I buzz in.",
      "speaker": "Izawa"
     },
     {
-     "start": 740.2,
-     "end": 741.5,
-     "ja": "100パーセント！",
-     "en": "100 percent!",
+     "start": 732.9,
+     "end": 735.6,
+     "ja": "ただし、みなさんはカニです。",
+     "en": "However, all of you are crabs.",
+     "speaker": "Fukura P"
+    },
+    {
+     "start": 738.1,
+     "end": 741.0,
+     "ja": "確率だよね？100%！",
+     "en": "It asks for probability, right? 100%!",
      "speaker": "Izawa"
     },
     {
-     "start": 741.8,
+     "start": 741.2,
      "end": 742.6,
      "ja": "正解！",
      "en": "Correct!",
      "speaker": "Fukura P"
+    },
+    {
+     "start": 744.9,
+     "end": 745.8,
+     "ja": "なんだこれ！",
+     "en": "What is this?!",
+     "speaker": "Ko-chan"
     }
    ]
   }
@@ -170,5 +177,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

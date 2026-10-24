@@ -3,54 +3,60 @@
  "clips": [
   {
    "start": 18.2,
-   "end": 28.5,
-   "title": "Rules of the Fake Sleep Werewolf",
+   "end": 31.2,
+   "title": "Rules of the Fake Sleeping Werewolf Game",
    "level": "N3",
    "topics": [
     "fun",
-    "comedy"
+    "culture"
    ],
    "grammar": [
-    "〜のうち — out of / among",
-    "〜られる — passive voice",
-    "〜と伝えられている — it is reported / told that"
+    "〜のうち — among / out of",
+    "〜と伝えられている — it is told that..."
    ],
    "quality": 5,
    "lines": [
     {
      "start": 18.5,
-     "end": 21.8,
+     "end": 20.9,
      "ja": "メンバー7人のうち3人は、",
-     "en": "Out of the seven members, three of them...",
+     "en": "Three of the seven members",
      "speaker": "Narrator"
     },
     {
-     "start": 21.8,
-     "end": 24.0,
-     "ja": "撮影前日にマネージャーから、",
-     "en": "...were told by their manager the day before filming...",
+     "start": 21.0,
+     "end": 23.4,
+     "ja": "撮影前日にマネージャーから",
+     "en": "were told by their manager the day before filming",
      "speaker": "Narrator"
     },
     {
-     "start": 24.0,
-     "end": 26.5,
-     "ja": "「寝起きドッキリがある」と伝えられている、",
-     "en": "...that there would be a wake-up prank.",
+     "start": 23.5,
+     "end": 26.0,
+     "ja": "「寝起きドッキリがある」と伝えられている",
+     "en": "that a wake-up prank would happen,",
      "speaker": "Narrator"
     },
     {
-     "start": 26.6,
-     "end": 28.1,
+     "start": 26.1,
+     "end": 28.2,
      "ja": "ウソ寝人狼。",
-     "en": "They are the 'fake sleeping werewolves.'",
+     "en": "making them the fake sleeping werewolves.",
      "speaker": "Narrator"
+    },
+    {
+     "start": 28.5,
+     "end": 31.0,
+     "ja": "ヤバいね、楽しみだね。",
+     "en": "Crazy, right? I can't wait.",
+     "speaker": "Raul"
     }
    ]
   },
   {
    "start": 52.5,
-   "end": 60.1,
-   "title": "Too Sexy for Minors",
+   "end": 60.0,
+   "title": "Too Sexy to Air?",
    "level": "N3",
    "topics": [
     "fun",
@@ -58,91 +64,89 @@
    ],
    "grammar": [
     "〜すぎる — too / excessively",
-    "〜未満 — under / less than",
-    "〜かもしれない — might / may"
+    "〜かもしれない — may / might"
    ],
    "quality": 4,
    "lines": [
     {
      "start": 52.8,
-     "end": 54.8,
-     "ja": "色っぽすぎて、",
-     "en": "It's way too sexy...",
+     "end": 54.7,
+     "ja": "色っぽ過ぎて、",
+     "en": "It's too sexy,",
      "speaker": "Raul"
     },
     {
-     "start": 55.6,
-     "end": 57.6,
-     "ja": "ここからはちょっと18歳未満は、",
-     "en": "...so from this point on, viewers under 18...",
+     "start": 54.8,
+     "end": 57.4,
+     "ja": "ここからはちょっと18歳未満は",
+     "en": "so from here on, those under 18",
      "speaker": "Raul"
     },
     {
-     "start": 57.6,
-     "end": 59.9,
-     "ja": "ご視聴できないかもしれません。",
-     "en": "...might not be allowed to watch.",
+     "start": 57.5,
+     "end": 60.0,
+     "ja": "ちょっとご視聴できないかもしれません。",
+     "en": "might not be allowed to watch.",
      "speaker": "Raul"
     }
    ]
   },
   {
    "start": 110.5,
-   "end": 121.5,
-   "title": "Guessing the Werewolves Quiz",
-   "level": "N4",
+   "end": 122.0,
+   "title": "Guessing the Werewolf",
+   "level": "N3",
    "topics": [
     "fun",
-    "friends",
-    "work"
+    "friends"
    ],
    "grammar": [
     "〜間に — while / during",
     "〜てもらう — to have someone do something",
-    "〜ましょう — let's"
+    "〜ましょう — let's..."
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 110.7,
-     "end": 113.4,
-     "ja": "皆さんがメイクしてる間に編集してもらったんで、",
-     "en": "While you all were getting your makeup done, we had it edited,",
+     "start": 110.8,
+     "end": 112.7,
+     "ja": "皆さんがメイクしてる間に、",
+     "en": "While everyone was getting their makeup done,",
      "speaker": "Raul"
     },
     {
-     "start": 113.6,
-     "end": 114.3,
-     "ja": "えー！？",
-     "en": "What?!",
-     "speaker": "Member"
+     "start": 112.8,
+     "end": 114.2,
+     "ja": "編集してもらったんで。",
+     "en": "I had the clips edited.",
+     "speaker": "Raul"
     },
     {
-     "start": 114.4,
-     "end": 115.5,
-     "ja": "この短時間で？",
-     "en": "In such a short time?",
-     "speaker": "Member"
-    },
-    {
-     "start": 115.7,
-     "end": 117.1,
+     "start": 115.3,
+     "end": 116.8,
      "ja": "7人VTR見て、",
-     "en": "so after watching all 7 clips,",
+     "en": "Let's watch the 7 clips,",
      "speaker": "Raul"
     },
     {
-     "start": 117.4,
-     "end": 119.0,
+     "start": 116.9,
+     "end": 118.5,
      "ja": "ちょっとクイズしましょう。",
-     "en": "let's do a little quiz.",
+     "en": "and play a little quiz game.",
      "speaker": "Raul"
     },
     {
-     "start": 119.5,
-     "end": 121.2,
-     "ja": "ああ、誰が人狼か？",
-     "en": "Ah, guess who the werewolves are?",
+     "start": 118.7,
+     "end": 119.8,
+     "ja": "ああー！",
+     "en": "Ah!",
+     "speaker": "Fukazawa"
+    },
+    {
+     "start": 120.0,
+     "end": 121.5,
+     "ja": "誰が人狼か？",
+     "en": "Guess who the werewolf is?",
      "speaker": "Member"
     }
    ]
@@ -152,5 +156,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

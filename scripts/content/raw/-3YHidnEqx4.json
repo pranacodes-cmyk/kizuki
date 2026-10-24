@@ -2,280 +2,246 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 5.2,
-   "end": 31.8,
-   "title": "Using Video Conferencing Apps",
-   "level": "N3",
-   "topics": [
-    "work",
-    "daily"
-   ],
-   "grammar": [
-    "〜ことがある — have the experience of",
-    "〜ていただく — receiving an action"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 5.2,
-     "end": 7.5,
-     "ja": "最近、私はZoomなどの",
-     "en": "Lately, using video conference apps",
-     "speaker": "Akane"
-    },
-    {
-     "start": 7.5,
-     "end": 10.5,
-     "ja": "ビデオ会議のアプリを使って",
-     "en": "like Zoom,",
-     "speaker": "Akane"
-    },
-    {
-     "start": 10.5,
-     "end": 13.6,
-     "ja": "打ち合わせをすることが多いです。",
-     "en": "I often have business meetings.",
-     "speaker": "Akane"
-    },
-    {
-     "start": 13.9,
-     "end": 16.8,
-     "ja": "みなさんも使ったことがありますか？",
-     "en": "Have you all used them as well?",
-     "speaker": "Akane"
-    },
-    {
-     "start": 17.0,
-     "end": 19.4,
-     "ja": "今回は特別に、",
-     "en": "This time, as a special occasion,",
-     "speaker": "Akane"
-    },
-    {
-     "start": 19.6,
-     "end": 23.2,
-     "ja": "打ち合わせをした、ある日本語学校の",
-     "en": "with permission from a Japanese school",
-     "speaker": "Akane"
-    },
-    {
-     "start": 23.3,
-     "end": 25.5,
-     "ja": "許可をいただいて、",
-     "en": "that I met with,",
-     "speaker": "Akane"
-    },
-    {
-     "start": 25.7,
-     "end": 28.0,
-     "ja": "その打ち合わせをしている場面を",
-     "en": "I was allowed to record",
-     "speaker": "Akane"
-    },
-    {
-     "start": 28.1,
-     "end": 31.5,
-     "ja": "撮影させていただきました。",
-     "en": "the scene of our meeting.",
-     "speaker": "Akane"
-    }
-   ]
-  },
-  {
-   "start": 502.1,
-   "end": 536.8,
-   "title": "Scheduling an Online Event",
+   "start": 295.2,
+   "end": 320.2,
+   "title": "Scheduling a Date for the Event",
    "level": "N3",
    "topics": [
     "work",
     "school"
    ],
    "grammar": [
-    "〜はいかがですか — how about...",
-    "〜そう — seems like",
-    "〜た後 — after doing"
+    "〜てしまう — unintentionally/to one's regret",
+    "〜はいかがですか — how about...?",
+    "〜そう — looks like / seems like"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 502.1,
-     "end": 505.7,
-     "ja": "28日の木曜日はいかがですか？",
+     "start": 295.3,
+     "end": 298.2,
+     "ja": "わかりました。来週ですと…",
+     "en": "Understood. If it's next week...",
+     "speaker": "Akane"
+    },
+    {
+     "start": 298.7,
+     "end": 302.1,
+     "ja": "すみません、私の都合になってしまうのですが、",
+     "en": "Excuse me, this is just based on my schedule, but...",
+     "speaker": "Akane"
+    },
+    {
+     "start": 302.4,
+     "end": 305.7,
+     "ja": "２８日の木曜日はいかがですか？",
      "en": "How about Thursday the 28th?",
      "speaker": "Akane"
     },
     {
-     "start": 506.3,
-     "end": 508.5,
+     "start": 306.0,
+     "end": 308.0,
      "ja": "はい、ちょっとお待ちください。",
-     "en": "Yes, please hold on a moment.",
-     "speaker": "Staff"
+     "en": "Yes, please give me a moment.",
+     "speaker": "Staff A"
     },
     {
-     "start": 508.7,
-     "end": 510.7,
+     "start": 308.2,
+     "end": 310.5,
      "ja": "スケジュールを確認します。",
      "en": "I'll check the schedule.",
-     "speaker": "Staff"
+     "speaker": "Staff A"
     },
     {
-     "start": 511.1,
-     "end": 512.3,
+     "start": 310.8,
+     "end": 312.1,
      "ja": "はい。",
      "en": "Sure.",
      "speaker": "Akane"
     },
     {
-     "start": 513.2,
-     "end": 516.1,
-     "ja": "はい、えー28日木曜日は…",
-     "en": "Yes, um, on Thursday the 28th...",
-     "speaker": "Staff"
+     "start": 313.0,
+     "end": 315.5,
+     "ja": "えー、２８日木曜日は…",
+     "en": "Let's see, Thursday the 28th...",
+     "speaker": "Staff A"
     },
     {
-     "start": 516.3,
-     "end": 518.9,
+     "start": 315.7,
+     "end": 318.7,
      "ja": "スケジュールは大丈夫そうですね。",
-     "en": "The schedule looks fine.",
-     "speaker": "Staff"
+     "en": "The schedule seems to be fine.",
+     "speaker": "Staff A"
     },
     {
-     "start": 519.0,
-     "end": 520.5,
+     "start": 318.9,
+     "end": 320.2,
      "ja": "ありがとうございます。",
-     "en": "Thank you very much.",
+     "en": "Thank you.",
      "speaker": "Akane"
-    },
-    {
-     "start": 520.5,
-     "end": 522.1,
-     "ja": "時間帯はどうしましょうかね…",
-     "en": "What time slot should we choose?",
-     "speaker": "Akane"
-    },
-    {
-     "start": 522.3,
-     "end": 526.5,
-     "ja": "時間帯はですね、弊校の学生たちがですね、",
-     "en": "As for the time, our school's students",
-     "speaker": "Staff"
-    },
-    {
-     "start": 526.9,
-     "end": 529.0,
-     "ja": "夕方の4時半くらいまでは",
-     "en": "study Japanese until around",
-     "speaker": "Staff"
-    },
-    {
-     "start": 529.2,
-     "end": 531.8,
-     "ja": "日本語の勉強をしているので、",
-     "en": "4:30 in the evening,",
-     "speaker": "Staff"
-    },
-    {
-     "start": 532.0,
-     "end": 533.8,
-     "ja": "それが終わった後なので",
-     "en": "so after that ends,",
-     "speaker": "Staff"
-    },
-    {
-     "start": 534.0,
-     "end": 536.8,
-     "ja": "5時ぐらいがいいかなあと思います。",
-     "en": "I think around 5:00 would be good.",
-     "speaker": "Staff"
     }
    ]
   },
   {
-   "start": 604.5,
-   "end": 631.8,
-   "title": "Where Are the Students From?",
+   "start": 320.1,
+   "end": 349.4,
+   "title": "Deciding on the Meeting Time",
    "level": "N3",
    "topics": [
-    "school",
     "work",
-    "culture"
+    "school"
    ],
    "grammar": [
-    "〜ていただく — receiving an action",
-    "いらっしゃる — honorific for to come/be",
-    "〜し — listing reasons"
+    "〜終わった後 — after finishing",
+    "〜たら — if / when",
+    "〜と思います — I think that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 604.5,
-     "end": 607.1,
-     "ja": "ちなみに御校の学生さんは",
-     "en": "By the way, regarding your school's students,",
+     "start": 320.2,
+     "end": 322.5,
+     "ja": "時間帯はどうしましょうかね…",
+     "en": "What should we do about the time slot?",
      "speaker": "Akane"
     },
     {
-     "start": 607.3,
-     "end": 610.6,
-     "ja": "どちらの国のご出身が１番多いですか？",
+     "start": 322.7,
+     "end": 326.5,
+     "ja": "時間帯はですね、弊校の学生たちがですね、",
+     "en": "As for the time, our school's students...",
+     "speaker": "Staff A"
+    },
+    {
+     "start": 326.8,
+     "end": 331.7,
+     "ja": "夕方の４時半くらいまでは日本語の勉強をしているので、",
+     "en": "study Japanese until around 4:30 in the afternoon, so...",
+     "speaker": "Staff A"
+    },
+    {
+     "start": 331.9,
+     "end": 332.8,
+     "ja": "ええ。",
+     "en": "Yes.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 333.1,
+     "end": 337.0,
+     "ja": "それが終わった後なので、まあ５時ぐらいがいいかなと思いますね。",
+     "en": "since it's after that, I think around 5:00 would be good.",
+     "speaker": "Staff A"
+    },
+    {
+     "start": 337.2,
+     "end": 338.6,
+     "ja": "承知しました。",
+     "en": "Understood.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 338.8,
+     "end": 341.8,
+     "ja": "私も５時でしたら時間に間に合うと思いますので、",
+     "en": "I think I can make it in time if it's 5:00, so...",
+     "speaker": "Akane"
+    },
+    {
+     "start": 342.1,
+     "end": 346.8,
+     "ja": "じゃあ、２８日木曜日の夕方５時からでお願いしたいと思います。",
+     "en": "then I'd like to request Thursday the 28th starting at 5:00 PM.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 347.1,
+     "end": 349.2,
+     "ja": "はい、かしこまりました。",
+     "en": "Yes, certainly.",
+     "speaker": "Staff A"
+    }
+   ]
+  },
+  {
+   "start": 364.0,
+   "end": 393.2,
+   "title": "Where the Students Are From",
+   "level": "N2",
+   "topics": [
+    "work",
+    "school",
+    "culture"
+   ],
+   "grammar": [
+    "御〜 — honorific prefix for institutions",
+    "いらっしゃる — honorific for 来る / 行く / いる",
+    "〜ていただく — humbly receive an action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 364.2,
+     "end": 366.5,
+     "ja": "ちなみに御校の学生さんは、",
+     "en": "By the way, as for the students at your school,",
+     "speaker": "Akane"
+    },
+    {
+     "start": 366.8,
+     "end": 370.3,
+     "ja": "どちらの国のご出身が一番多いですか？",
      "en": "which country are most of them from?",
      "speaker": "Akane"
     },
     {
-     "start": 611.4,
-     "end": 612.7,
-     "ja": "そうですね、",
-     "en": "Well,",
-     "speaker": "Staff"
+     "start": 370.7,
+     "end": 372.2,
+     "ja": "そうですね。",
+     "en": "Let's see.",
+     "speaker": "Staff B"
     },
     {
-     "start": 613.0,
-     "end": 616.5,
+     "start": 372.6,
+     "end": 376.3,
      "ja": "やっぱり中国から来ていただいている学生さんが",
-     "en": "students coming from China",
-     "speaker": "Staff"
+     "en": "As expected, students coming from China",
+     "speaker": "Staff B"
     },
     {
-     "start": 616.6,
-     "end": 618.8,
-     "ja": "１番多いですけれども、",
-     "en": "are indeed the largest group, but",
-     "speaker": "Staff"
+     "start": 376.5,
+     "end": 378.4,
+     "ja": "一番多いですけれども、",
+     "en": "are the most numerous, but...",
+     "speaker": "Staff B"
     },
     {
-     "start": 619.0,
-     "end": 621.8,
+     "start": 378.7,
+     "end": 381.4,
      "ja": "ベトナムの学生さんも多いですし、",
      "en": "there are also many students from Vietnam,",
-     "speaker": "Staff"
+     "speaker": "Staff B"
     },
     {
-     "start": 622.0,
-     "end": 625.0,
-     "ja": "あとはヨーロッパとかアメリカからいらっしゃっている",
-     "en": "and international students coming from Europe and America",
-     "speaker": "Staff"
+     "start": 381.8,
+     "end": 387.1,
+     "ja": "あとはヨーロッパとかアメリカからいらっしゃっている留学生の方もたくさんいますので、",
+     "en": "and we also have many international students coming from Europe and America, so...",
+     "speaker": "Staff B"
     },
     {
-     "start": 625.1,
-     "end": 627.2,
-     "ja": "留学生の方もたくさんいますので、",
-     "en": "are also numerous,",
-     "speaker": "Staff"
+     "start": 387.3,
+     "end": 391.0,
+     "ja": "そういった方々にもご参加いただけるかなというふうに思っています。",
+     "en": "we think people like that will also be able to participate.",
+     "speaker": "Staff B"
     },
     {
-     "start": 627.4,
-     "end": 629.8,
-     "ja": "そういった方々にもご参加いただけるかな",
-     "en": "so I think those people could join as well.",
-     "speaker": "Staff"
-    },
-    {
-     "start": 629.9,
-     "end": 631.4,
-     "ja": "というふうに思っています。",
-     "en": "That's what I'm thinking.",
-     "speaker": "Staff"
+     "start": 391.2,
+     "end": 393.2,
+     "ja": "わかりました。ありがとうございます。",
+     "en": "I understand. Thank you very much.",
+     "speaker": "Akane"
     }
    ]
   }
@@ -284,5 +250,6 @@
  "pickTopics": [
   "work"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

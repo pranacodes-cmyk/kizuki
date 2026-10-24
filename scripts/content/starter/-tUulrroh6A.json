@@ -1,6 +1,7 @@
 {
  "videoId": "-tUulrroh6A",
  "ids": [
+  "-tUulrroh6A-12",
   "-tUulrroh6A-28"
  ],
  "model": "google/gemini-3.8-flash",
@@ -13,7 +14,17 @@
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Clear speech with an intriguing dramatic scenario."
+   "why": "Intriguing interaction with clear, basic dialogue before dramatic voiceover."
+  },
+  "-tUulrroh6A-12": {
+   "id": "-tUulrroh6A-12",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [],
+   "why": "Fast montage pacing and complex narration challenge beginners."
   }
  }
 }

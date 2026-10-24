@@ -2,164 +2,126 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 13.3,
-   "end": 30.5,
-   "title": "Hanging Paper Towels from Daiso",
+   "start": 6.2,
+   "end": 30.6,
+   "title": "Hanging Paper Towel Pack",
    "level": "N3",
    "topics": [
     "daily"
    ],
    "grammar": [
-    "〜用 — for the purpose of",
-    "〜て使う — use by doing",
-    "〜必要がある — need to do"
+    "〜て使える — can be used by doing",
+    "〜する必要がない — no need to do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 13.5,
-     "end": 16.5,
-     "ja": "パッケージにつり下げ用の丸い穴があり、",
-     "en": "There is a round hole in the package for hanging,",
+     "start": 6.4,
+     "end": 10.1,
+     "ja": "ダイソーの吊り下げタイプのペーパータオルです。",
+     "en": "These are hanging-type paper towels from Daiso.",
      "speaker": "Narrator"
     },
     {
-     "start": 16.5,
-     "end": 18.7,
-     "ja": "フックに引っ掛けて使えます。",
-     "en": "so you can hang it on a hook to use it.",
+     "start": 10.2,
+     "end": 13.3,
+     "ja": "250枚入りで100円商品。",
+     "en": "It comes with 250 sheets for 100 yen.",
      "speaker": "Narrator"
     },
     {
-     "start": 18.9,
-     "end": 22.0,
-     "ja": "専用のケースを用意する必要がなく、",
-     "en": "There is no need to prepare a special case,",
+     "start": 13.7,
+     "end": 19.2,
+     "ja": "パッケージに吊り下げ用の丸い穴があり、フックに引っ掛けて使えます。",
+     "en": "There is a round hole in the package for hanging, so you can hook it up.",
      "speaker": "Narrator"
     },
     {
-     "start": 22.0,
-     "end": 25.0,
-     "ja": "袋のまま吊るせる作りになっています。",
-     "en": "as it is designed to be hung directly in the bag.",
+     "start": 19.5,
+     "end": 25.5,
+     "ja": "専用のケースを用意する必要がなく、袋のまま吊るせる作りになっています。",
+     "en": "There is no need to prepare a special case; it is designed to hang right in the bag.",
      "speaker": "Narrator"
     },
     {
-     "start": 25.5,
-     "end": 28.5,
-     "ja": "使うときは、下にある取り出し口を開けて、",
-     "en": "When using it, just open the opening at the bottom,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 28.5,
-     "end": 30.2,
-     "ja": "そのまま取り出せます。",
-     "en": "and you can pull them straight out.",
+     "start": 25.7,
+     "end": 30.3,
+     "ja": "使う時は、下にある取り出し口を開けて、そのまま取り出せます。",
+     "en": "When using it, just open the opening at the bottom to pull them straight out.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 212.0,
-   "end": 232.5,
-   "title": "Expandable Stainless Steel Dish Rack",
+   "start": 108.5,
+   "end": 128.2,
+   "title": "Laundry Net Magnetic Holder",
    "level": "N3",
    "topics": [
     "daily"
    ],
    "grammar": [
-    "〜に合わせて — in accordance with",
-    "〜のが特徴 — characterized by",
-    "〜ことで — by doing / because"
+    "〜がち — tend to / prone to",
+    "〜られる — potential form"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 212.4,
-     "end": 216.0,
-     "ja": "ダイソーの新商品、伸縮ステンレス皿立てです。",
-     "en": "This is a new Daiso product, an expandable stainless steel dish rack.",
+     "start": 108.8,
+     "end": 113.3,
+     "ja": "ダイソーから出た新商品、洗濯ネットホルダーです。",
+     "en": "This is a new product from Daiso, the laundry net holder.",
      "speaker": "Narrator"
     },
     {
-     "start": 216.2,
-     "end": 220.0,
-     "ja": "お皿やフライパンなどを立てて収納できるアイテムで、",
-     "en": "It's an item that lets you store plates and pans upright,",
+     "start": 113.6,
+     "end": 120.4,
+     "ja": "収納に困りがちな洗濯ネットを、そのままこちらのホルダーに引っ掛けて収納できます。",
+     "en": "You can easily store laundry nets, which are often awkward to put away, by hooking them on this holder.",
      "speaker": "Narrator"
     },
     {
-     "start": 220.0,
-     "end": 224.0,
-     "ja": "収納するものに合わせて幅を調整できるのが特徴です。",
-     "en": "and its feature is that you can adjust the width according to what you store.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 224.5,
-     "end": 226.7,
-     "ja": "素材はステンレス。",
-     "en": "The material is stainless steel.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 226.9,
-     "end": 229.5,
-     "ja": "使った後は縮めることで、",
-     "en": "After using it, by collapsing it,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 229.5,
-     "end": 232.0,
-     "ja": "コンパクトにまとめられます。",
-     "en": "it can be stored compactly.",
+     "start": 120.7,
+     "end": 127.8,
+     "ja": "裏面には磁石が付いていて、洗濯機横など磁石がつく平らな面に取り付けられます。",
+     "en": "There is a magnet on the back, so it can be attached to flat magnetic surfaces like the side of a washing machine.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 514.7,
-   "end": 528.5,
-   "title": "Testing a Silicone Key Cover",
+   "start": 447.5,
+   "end": 504.6,
+   "title": "Protective Silicone Key Cover",
    "level": "N3",
    "topics": [
     "daily"
    ],
    "grammar": [
-    "〜てみる — try doing",
-    "〜と同時に — at the same time as",
-    "〜てくれる — do something for someone"
+    "〜たり〜たり — doing things like",
+    "〜たまま — while keeping in a state"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 515.0,
-     "end": 517.3,
-     "ja": "このままカギを刺してみます。",
-     "en": "Let's try inserting the key as is.",
+     "start": 447.8,
+     "end": 452.3,
+     "ja": "カギ全体を覆うことができる、シリコーン製のキーカバー。",
+     "en": "A silicone key cover that can cover the entire key.",
      "speaker": "Narrator"
     },
     {
-     "start": 517.6,
-     "end": 521.0,
-     "ja": "カギの先を鍵穴に差し込むと同時に、",
-     "en": "At the same time as the tip enters the keyhole,",
+     "start": 452.7,
+     "end": 458.8,
+     "ja": "カバンなどのキズ防止になったり、カギナンバーの盗み見防止にもなります。",
+     "en": "It prevents scratches on your bags and keeps your key number from being peeped.",
      "speaker": "Narrator"
     },
     {
-     "start": 521.0,
-     "end": 523.8,
-     "ja": "シリコーンカバーが手前に持ち上がります。",
-     "en": "the silicone cover slides up toward you.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 524.0,
-     "end": 528.0,
-     "ja": "引き抜くとまたすっぽりカギを覆ってくれます。",
-     "en": "When you pull it out, it completely covers the key again.",
+     "start": 459.0,
+     "end": 504.2,
+     "ja": "何より便利なのが、カバーをつけたまま鍵穴に差せること。",
+     "en": "Best of all, you can insert it into the keyhole with the cover still on.",
      "speaker": "Narrator"
     }
    ]
@@ -169,5 +131,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

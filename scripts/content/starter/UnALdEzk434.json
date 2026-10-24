@@ -1,0 +1,30 @@
+{
+ "videoId": "UnALdEzk434",
+ "ids": [
+  "UnALdEzk434-126",
+  "UnALdEzk434-315"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "UnALdEzk434-315": {
+   "id": "UnALdEzk434-315",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Pleasant everyday routine with clear voiceover describing breakfast prep."
+  },
+  "UnALdEzk434-126": {
+   "id": "UnALdEzk434-126",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear speech about routine chores, but visually quite ordinary."
+  }
+ }
+}

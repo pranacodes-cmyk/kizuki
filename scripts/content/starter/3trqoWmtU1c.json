@@ -1,0 +1,19 @@
+{
+ "videoId": "3trqoWmtU1c",
+ "ids": [
+  "3trqoWmtU1c-427"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "3trqoWmtU1c-427": {
+   "id": "3trqoWmtU1c-427",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Natural daily kitchen routine with clear, conversational Japanese."
+  }
+ }
+}

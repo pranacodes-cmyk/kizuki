@@ -4,145 +4,168 @@
   {
    "start": 10.0,
    "end": 27.5,
-   "title": "Using the Air Conditioner in Spring",
+   "title": "A Chilly Day in Tokyo",
    "level": "N5",
    "topics": [
     "daily"
    ],
    "grammar": [
-    "はず — should be / expected to",
-    "〜てます — continuous action / state"
+    "〜はず — supposed to / should be",
+    "〜ている — ongoing action"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 10.0,
+     "start": 10.3,
      "end": 12.7,
      "ja": "はい、皆さん元気ですか？",
      "en": "Hi everyone, how are you?",
      "speaker": "Teppei"
     },
     {
-     "start": 12.7,
-     "end": 17.5,
+     "start": 13.2,
+     "end": 17.3,
      "ja": "あの、今日の東京は少し寒いですね。",
-     "en": "Um, Tokyo is a bit cold today, isn't it?",
+     "en": "Um, today in Tokyo it's a bit cold.",
      "speaker": "Teppei"
     },
     {
      "start": 18.5,
      "end": 22.0,
      "ja": "春のはずがちょっと寒いですね。",
-     "en": "It should be spring, but it's a bit cold.",
+     "en": "It should be spring, but it's a bit chilly.",
      "speaker": "Teppei"
     },
     {
-     "start": 22.5,
-     "end": 27.5,
-     "ja": "だから僕は少しエアコンをつけてますね。",
-     "en": "So I have the air conditioner on a bit.",
+     "start": 22.4,
+     "end": 27.2,
+     "ja": "だから僕は少しエアコンをつけてます、ね。",
+     "en": "So I have the air conditioner on a bit, right?",
      "speaker": "Teppei"
     }
    ]
   },
   {
-   "start": 39.0,
-   "end": 54.0,
-   "title": "How Many Air Conditioners at Home?",
-   "level": "N5",
-   "topics": [
-    "daily"
-   ],
-   "grammar": [
-    "〜しか...ない — only / nothing but",
-    "必要ない — not necessary"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 39.0,
-     "end": 44.0,
-     "ja": "僕の家には、えー、4つのエアコンがありますね。",
-     "en": "In my house, uh, there are four air conditioners.",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 44.2,
-     "end": 46.0,
-     "ja": "4つのエアコンがある。",
-     "en": "There are four air conditioners.",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 46.5,
-     "end": 50.5,
-     "ja": "だけどほとんどは、まあ、2つしか使わないね。",
-     "en": "But mostly, well, we only use two.",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 51.5,
-     "end": 53.8,
-     "ja": "4つは必要ないですね。",
-     "en": "Four aren't really necessary.",
-     "speaker": "Teppei"
-    }
-   ]
-  },
-  {
-   "start": 397.5,
-   "end": 420.0,
-   "title": "Cleaning the Dirty Air Conditioner",
+   "start": 211.5,
+   "end": 241.0,
+   "title": "Air Conditioning Through the Seasons",
    "level": "N4",
    "topics": [
-    "daily"
+    "daily",
+    "culture"
    ],
    "grammar": [
-    "そうすると — when you do that",
-    "〜てくる — start to / come to"
+    "〜すぎる — too much / overly",
+    "〜ないと — if not / unless"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 397.5,
+     "start": 211.8,
+     "end": 220.0,
+     "ja": "日本では、まあ普通夏はほとんど毎日エアコンが必要です。",
+     "en": "In Japan, normally in summer you need AC almost every day.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 220.8,
+     "end": 227.8,
+     "ja": "暑すぎるので、まあいつもエアコンをつけないと夏はちょっと難しいですね。",
+     "en": "Because it's too hot, if you don't keep the AC on, summer is a bit tough.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 228.5,
+     "end": 234.4,
+     "ja": "冬も結構寒くなるのでエアコンが必要です。",
+     "en": "Winter also gets pretty cold, so you need the AC.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 234.8,
+     "end": 240.8,
+     "ja": "でも春と秋は、まあ普通はほとんどエアコンを使いません、ね。",
+     "en": "But in spring and autumn, normally you barely use the AC, right?",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 357.0,
+   "end": 427.3,
+   "title": "The Horrors of a Dirty AC",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜と — when / upon",
+    "〜くなる — to become"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 357.3,
      "end": 402.8,
      "ja": "そうすると、エアコンの中から汚い水が出てくるんですけど、",
-     "en": "When they do that, dirty water comes out from inside the air conditioner,",
+     "en": "When they did that, dirty water came out of the air conditioner, and...",
      "speaker": "Teppei"
     },
     {
      "start": 403.0,
-     "end": 405.5,
+     "end": 405.2,
      "ja": "めちゃめちゃ汚かったです。",
-     "en": "and it was super dirty.",
+     "en": "It was insanely filthy.",
      "speaker": "Teppei"
     },
     {
-     "start": 405.8,
-     "end": 407.5,
+     "start": 405.4,
+     "end": 407.2,
      "ja": "真っ黒でした。",
-     "en": "It was pitch-black.",
+     "en": "It was pitch black.",
      "speaker": "Teppei"
     },
     {
-     "start": 407.8,
-     "end": 412.0,
-     "ja": "真っ黒の水、汚い水が出てきた。",
-     "en": "Pitch-black water, dirty water came out.",
+     "start": 407.4,
+     "end": 409.2,
+     "ja": "真っ黒の水、",
+     "en": "Pitch black water,",
      "speaker": "Teppei"
     },
     {
-     "start": 412.5,
-     "end": 414.5,
+     "start": 409.5,
+     "end": 411.8,
+     "ja": "汚い水が出てきた。",
+     "en": "filthy water came pouring out.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 412.2,
+     "end": 414.2,
      "ja": "まあ、汚れですよね。",
-     "en": "Well, it was grime, you know.",
+     "en": "Well, it's dirt and grime, right?",
      "speaker": "Teppei"
     },
     {
-     "start": 414.8,
-     "end": 419.5,
+     "start": 414.4,
+     "end": 419.0,
      "ja": "エアコンの中がめちゃめちゃ汚かったんですね。",
      "en": "The inside of the air conditioner was extremely dirty.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 419.4,
+     "end": 423.0,
+     "ja": "それを見た時、ちょっと怖くなりましたね。",
+     "en": "When I saw that, I felt a little scared.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 423.3,
+     "end": 426.8,
+     "ja": "「これは体に悪かったな」と。",
+     "en": "Thinking, 'This must have been so bad for my health.'",
      "speaker": "Teppei"
     }
    ]
@@ -152,5 +175,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

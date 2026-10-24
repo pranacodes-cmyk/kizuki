@@ -2,175 +2,153 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 17.6,
-   "end": 35.2,
-   "title": "Overview of the Kamakura Period",
+   "start": 17.5,
+   "end": 34.8,
+   "title": "Two Halves of the Kamakura Period",
    "level": "N3",
    "topics": [
     "school",
     "culture"
    ],
    "grammar": [
-    "〜た方がいい — better to",
-    "〜による — by / through",
-    "〜ことで — because of / due to"
+    "〜たら — if / when",
+    "〜による — by means of / due to",
+    "〜ことで — because / due to the fact that"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 17.8,
      "end": 21.0,
-     "ja": "まず、鎌倉時代は2つに分けた方が覚えやすいです。",
-     "en": "First, the Kamakura period is easier to remember if divided into two parts.",
+     "ja": "まず鎌倉時代は、2つに分けたら覚えやすいです。",
+     "en": "First, the Kamakura period is easy to remember if you divide it into two parts.",
      "speaker": "Narrator"
     },
     {
-     "start": 21.2,
+     "start": 21.0,
      "end": 23.3,
-     "ja": "前半は、源氏による政治、",
-     "en": "The first half is government by the Minamoto clan,",
+     "ja": "前半は、源氏による政治。",
+     "en": "The first half was rule by the Minamoto clan.",
      "speaker": "Narrator"
     },
     {
-     "start": 23.5,
-     "end": 26.5,
+     "start": 23.3,
+     "end": 26.2,
      "ja": "後半は、北条氏による執権政治です。",
-     "en": "and the second half is regency government by the Hojo clan.",
+     "en": "The second half was regency rule by the Hojo clan.",
      "speaker": "Narrator"
     },
     {
-     "start": 26.6,
-     "end": 30.8,
+     "start": 26.2,
+     "end": 30.5,
      "ja": "この源氏による政治が途絶えたことで起こった戦いが承久の乱なので、",
-     "en": "The battle that occurred because Minamoto rule came to an end was the Jokyu War,",
+     "en": "Because the battle that occurred when the Minamoto rule ended was the Jokyu War,",
      "speaker": "Narrator"
     },
     {
-     "start": 30.9,
-     "end": 34.9,
+     "start": 30.5,
+     "end": 34.5,
      "ja": "前半と後半が切り替わる時期に承久の乱が入ります。",
-     "en": "so the Jokyu War falls right at the transition between the two halves.",
+     "en": "the Jokyu War falls right where the first and second halves switch.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 48.8,
-   "end": 65.6,
-   "title": "A Simple Pattern for Remembering History",
+   "start": 304.8,
+   "end": 323.2,
+   "title": "The Toddler Shogun and Hojo Regency",
    "level": "N3",
    "topics": [
     "school",
     "culture"
    ],
    "grammar": [
-    "〜てみれば — if one looks at it like...",
-    "〜だけ — only / just",
-    "〜ていきましょう — let's go on doing"
+    "〜ないと困る — will be in trouble if not...",
+    "〜として — as / in the role of",
+    "〜って思う — to think that..."
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 48.8,
-     "end": 51.5,
-     "ja": "こうやってみれば鎌倉時代の流れは、",
-     "en": "Looking at it this way, the flow of the Kamakura period is:",
+     "start": 305.0,
+     "end": 307.4,
+     "ja": "ここで源氏による将軍は途絶えます。",
+     "en": "With this, the succession of shoguns from the Minamoto clan came to an end.",
      "speaker": "Narrator"
     },
     {
-     "start": 51.5,
-     "end": 53.0,
-     "ja": "源氏による政治、",
-     "en": "rule by the Minamoto,",
+     "start": 307.4,
+     "end": 313.1,
+     "ja": "とはいえ将軍がいないと困るので、北条氏は京都の摂関家から将軍を呼んできます。",
+     "en": "However, since having no shogun would be problematic, the Hojo clan invited a shogun from Kyoto's regent family.",
      "speaker": "Narrator"
     },
     {
-     "start": 53.0,
-     "end": 54.2,
-     "ja": "承久の乱、",
-     "en": "the Jokyu War,",
+     "start": 313.1,
+     "end": 317.0,
+     "ja": "しかしこの4代将軍として呼ばれてきた三寅は2歳。",
+     "en": "But Mitora, who was summoned as the fourth shogun, was only two years old.",
      "speaker": "Narrator"
     },
     {
-     "start": 54.2,
-     "end": 56.0,
-     "ja": "北条氏による政治、",
-     "en": "rule by the Hojo,",
+     "start": 317.0,
+     "end": 319.4,
+     "ja": "完全に飾りの将軍です。",
+     "en": "He was completely a figurehead shogun.",
      "speaker": "Narrator"
     },
     {
-     "start": 56.0,
-     "end": 57.2,
-     "ja": "蒙古襲来、",
-     "en": "the Mongol invasions,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 57.2,
-     "end": 60.0,
-     "ja": "というように、政治、戦い、政治、戦い、",
-     "en": "in other words: politics, war, politics, war.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 60.0,
-     "end": 63.3,
-     "ja": "この順で並んでいるだけなので、結構覚えやすいです。",
-     "en": "They just alternate in that order, so it's quite easy to remember.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 63.3,
-     "end": 65.3,
-     "ja": "それでは早速細かい出来事について見ていきましょう。",
-     "en": "Now, let's dive right into the detailed events.",
+     "start": 319.4,
+     "end": 323.0,
+     "ja": "じゃあ誰が政治を行うの？って思いますが、もちろんそれは北条氏です。",
+     "en": "You might wonder, \"Then who governs?\" Of course, that was the Hojo clan.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 745.2,
-   "end": 758.3,
-   "title": "Thank You for Watching and Channel Intro",
+   "start": 464.8,
+   "end": 478.0,
+   "title": "Thank You for Watching",
    "level": "N4",
    "topics": [
-    "travel",
-    "culture",
-    "daily"
+    "daily",
+    "culture"
    ],
    "grammar": [
     "〜てくれてありがとう — thank you for doing",
-    "〜を使って — using...",
-    "ぜひ〜てください — please be sure to"
+    "〜を使って — using / by means of",
+    "ぜひ〜てください — please definitely do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 745.2,
-     "end": 747.5,
+     "start": 465.1,
+     "end": 467.5,
      "ja": "最後まで見てくれてありがとうございます。",
      "en": "Thank you for watching until the end.",
      "speaker": "Narrator"
     },
     {
-     "start": 747.6,
-     "end": 750.3,
+     "start": 467.5,
+     "end": 470.5,
      "ja": "このチャンネルでは、日本史に出てくる場所を実際に歩いて、",
-     "en": "On this channel, we actually walk around places that appear in Japanese history,",
+     "en": "On this channel, we actually visit places that appear in Japanese history,",
      "speaker": "Narrator"
     },
     {
-     "start": 750.4,
-     "end": 754.2,
-     "ja": "学んだ情報を撮ってきた映像や写真を使って紹介しています。",
-     "en": "and introduce what we've learned using videos and photos we took.",
+     "start": 470.5,
+     "end": 474.3,
+     "ja": "学んだ情報を、撮ってきた映像や写真を使って紹介しています。",
+     "en": "and share what we learned using footage and photos we took.",
      "speaker": "Narrator"
     },
     {
-     "start": 754.3,
-     "end": 757.8,
+     "start": 474.3,
+     "end": 477.6,
      "ja": "興味のある方は、ぜひチャンネル登録をお願いします。",
-     "en": "If you are interested, please be sure to subscribe to the channel.",
+     "en": "If you're interested, please be sure to subscribe to the channel!",
      "speaker": "Narrator"
     }
    ]
@@ -180,5 +158,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

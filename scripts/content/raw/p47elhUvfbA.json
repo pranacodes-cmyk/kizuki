@@ -2,164 +2,228 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 0.6,
-   "end": 20.3,
-   "title": "Introduction and Festival Origin",
+   "start": 142.3,
+   "end": 211.7,
+   "title": "Why Kagura Dances Are Dedicated to Gods",
    "level": "N3",
    "topics": [
     "culture"
    ],
    "grammar": [
-    "〜てから — after doing",
-    "〜ている — ongoing state"
+    "〜ために — in order to",
+    "〜わけです — explanation / that is why"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 0.9,
-     "end": 4.6,
-     "ja": "川口囃子保存会の佐藤喜代です。",
-     "en": "I'm Kishio Sato from the Kawaguchi Hayashi Preservation Society.",
+     "start": 142.5,
+     "end": 146.3,
+     "ja": "神楽はあの、神様に仕える、神社に仕える",
+     "en": "Kagura is... during rituals serving the gods, serving the shrine,",
      "speaker": "Kishio"
     },
     {
-     "start": 5.1,
-     "end": 9.9,
-     "ja": "金成地区の郷土芸能連絡会の事務局をやっています。",
-     "en": "I run the office for the Kannari District Local Performing Arts Liaison Council.",
+     "start": 146.3,
+     "end": 149.2,
+     "ja": "神事の時に終わってから、",
+     "en": "after they are over,",
      "speaker": "Kishio"
     },
     {
-     "start": 10.9,
-     "end": 13.0,
-     "ja": "このお祭りの起源を教えてください。",
-     "en": "Could you tell us the origin of this festival?",
-     "speaker": "Interviewer"
-    },
-    {
-     "start": 13.3,
-     "end": 16.0,
-     "ja": "このお祭りは第55回で、",
-     "en": "This is the 55th edition of this festival,",
-     "speaker": "Kishio"
-    },
-    {
-     "start": 16.8,
-     "end": 19.8,
-     "ja": "昭和44年の正月神輿から始まっています。",
-     "en": "and it began from New Year's in 1969.",
-     "speaker": "Kishio"
-    }
-   ]
-  },
-  {
-   "start": 140.4,
-   "end": 156.4,
-   "title": "Why Kagura Is Performed",
-   "level": "N3",
-   "topics": [
-    "culture"
-   ],
-   "grammar": [
-    "〜のために — for the sake of / in order to",
-    "〜たわけです — that is why"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 142.3,
-     "end": 145.9,
-     "ja": "神楽は、あの、神様に仕える、",
-     "en": "Kagura, well, is for serving the gods—",
-     "speaker": "Kishio"
-    },
-    {
-     "start": 146.0,
-     "end": 149.3,
-     "ja": "いわゆる神社に仕える神事のときに、終わってから、",
-     "en": "during Shinto rituals at shrines, after they end,",
-     "speaker": "Kishio"
-    },
-    {
-     "start": 149.8,
+     "start": 149.2,
      "end": 152.0,
      "ja": "神様に楽しんでもらうために、",
      "en": "in order to entertain the gods,",
      "speaker": "Kishio"
     },
     {
-     "start": 152.3,
-     "end": 155.0,
+     "start": 152.0,
+     "end": 155.2,
      "ja": "喜んでもらうために神楽を奉納したわけです。",
-     "en": "and to please them, kagura was dedicated.",
+     "en": "Kagura was dedicated to make them happy.",
      "speaker": "Kishio"
     },
     {
-     "start": 155.4,
-     "end": 156.1,
+     "start": 155.2,
+     "end": 156.0,
      "ja": "なるほど。",
      "en": "I see.",
      "speaker": "Interviewer"
+    },
+    {
+     "start": 156.0,
+     "end": 157.6,
+     "ja": "五穀豊穣とか。",
+     "en": "For good harvests and such.",
+     "speaker": "Kishio"
+    },
+    {
+     "start": 157.6,
+     "end": 200.8,
+     "ja": "それで獅子踊りも同じで、",
+     "en": "And the lion dance is the same;",
+     "speaker": "Kishio"
+    },
+    {
+     "start": 200.8,
+     "end": 203.9,
+     "ja": "神様に奉納して喜んでもらうと。",
+     "en": "it is dedicated to please the gods.",
+     "speaker": "Kishio"
+    },
+    {
+     "start": 203.9,
+     "end": 207.5,
+     "ja": "そしてあの地域の、人々の安泰とか、",
+     "en": "And then they prayed for the peace of the local people",
+     "speaker": "Kishio"
+    },
+    {
+     "start": 207.5,
+     "end": 211.2,
+     "ja": "五穀豊穣をお願いしていたわけです。",
+     "en": "and bountiful harvests.",
+     "speaker": "Kishio"
     }
    ]
   },
   {
-   "start": 224.5,
-   "end": 243.8,
-   "title": "Keeping the Gods Powered Up",
+   "start": 211.7,
+   "end": 235.5,
+   "title": "Keeping the Gods Energized",
    "level": "N3",
    "topics": [
     "culture",
-    "daily"
+    "comedy"
    ],
    "grammar": [
-    "〜と同じ — same as",
-    "〜てくる — start to / become",
-    "〜と — whenever / if"
+    "〜られる — passive form",
+    "〜と同じ — the same as"
    ],
    "quality": 5,
    "lines": [
     {
+     "start": 211.8,
+     "end": 217.3,
+     "ja": "神様は楽しいものをいっぱいこう見せられて機嫌がよくなって、",
+     "en": "When the gods are shown plenty of fun things, they get into a good mood and go,",
+     "speaker": "Kishio"
+    },
+    {
+     "start": 217.3,
+     "end": 222.0,
+     "ja": "「あ、よしよし。あなたたちの言うこと、じゃあ俺がちゃんと叶えてやっからな」と、",
+     "en": "\"Alright, alright. I'll grant your wishes properly then,\"",
+     "speaker": "Kishio"
+    },
+    {
+     "start": 222.0,
+     "end": 223.5,
+     "ja": "そういう風に言われるわけです。",
+     "en": "that's what they say.",
+     "speaker": "Kishio"
+    },
+    {
+     "start": 223.5,
+     "end": 224.8,
+     "ja": "なるほど。",
+     "en": "I see.",
+     "speaker": "Interviewer"
+    },
+    {
      "start": 224.8,
-     "end": 228.8,
-     "ja": "で、あと神様にいろいろなお供えとかお酒をあげるのも、",
+     "end": 228.9,
+     "ja": "で、あと神様にいろんなお供えとかお酒をあげるのも、",
      "en": "Also, giving various offerings and sake to the gods,",
      "speaker": "Kishio"
     },
     {
-     "start": 229.0,
-     "end": 231.9,
+     "start": 228.9,
+     "end": 232.0,
      "ja": "神様腹減って馬力がなくなってくる。",
-     "en": "it's because when the gods get hungry, they lose horsepower.",
+     "en": "it's because gods get hungry and lose horsepower.",
      "speaker": "Kishio"
     },
     {
-     "start": 232.2,
-     "end": 235.3,
+     "start": 232.0,
+     "end": 235.0,
      "ja": "いわゆる車で言えばバッテリーがなくなるのと同じです。",
-     "en": "Like a car running out of battery.",
+     "en": "If we talk in terms of cars, it's just like running out of battery.",
+     "speaker": "Kishio"
+    }
+   ]
+  },
+  {
+   "start": 254.0,
+   "end": 312.6,
+   "title": "Running Out of Horsepower",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てくる — gradual change / becoming",
+    "〜ましょう — let's do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 254.3,
+     "end": 255.8,
+     "ja": "なるほど、ありがとうございます。",
+     "en": "I see, thank you very much.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 255.8,
+     "end": 257.5,
+     "ja": "すごい分かりやすかったです。",
+     "en": "That was very easy to understand.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 258.3,
+     "end": 259.7,
+     "ja": "要するにね、",
+     "en": "In short, you know,",
      "speaker": "Kishio"
     },
     {
-     "start": 236.0,
-     "end": 238.2,
-     "ja": "で、いっぱいご馳走を食べてもらって、",
-     "en": "So, we treat them to a big feast,",
+     "start": 259.7,
+     "end": 262.3,
+     "ja": "腹減ってくると馬力なくなるわけですから。",
+     "en": "when you get hungry, you lose your horsepower.",
      "speaker": "Kishio"
     },
     {
-     "start": 238.3,
-     "end": 240.2,
-     "ja": "で、芸能を奉納すると、",
-     "en": "and when we dedicate performances,",
+     "start": 262.3,
+     "end": 263.8,
+     "ja": "ですね。",
+     "en": "That's true.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 264.8,
+     "end": 267.7,
+     "ja": "じゃあ、この後弁当食べましょう。我々も。",
+     "en": "Well then, let's eat our boxed lunches after this. Us too.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 268.0,
+     "end": 270.5,
+     "ja": "はい。俺も馬力なくなってきたから。",
+     "en": "Yes. I've been running out of horsepower too.",
      "speaker": "Kishio"
     },
     {
-     "start": 240.6,
-     "end": 243.5,
-     "ja": "すごく神様は機嫌がよくなります。",
-     "en": "the gods become very pleased.",
-     "speaker": "Kishio"
+     "start": 270.5,
+     "end": 272.1,
+     "ja": "ありがとうございました。",
+     "en": "Thank you very much.",
+     "speaker": "Interviewer"
     }
    ]
   }
@@ -168,5 +232,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

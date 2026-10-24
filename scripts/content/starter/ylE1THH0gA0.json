@@ -1,19 +1,34 @@
 {
  "videoId": "ylE1THH0gA0",
  "ids": [
-  "ylE1THH0gA0-610"
+  "ylE1THH0gA0-610",
+  "ylE1THH0gA0-682"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
   "ylE1THH0gA0-610": {
    "id": "ylE1THH0gA0-610",
-   "appeal": 7,
-   "clarity": 4,
+   "appeal": 6,
+   "clarity": 3,
    "picture": 3,
    "ease": 4,
    "english": false,
-   "issues": [],
-   "why": "Practical and clear real-life restaurant exchange ideal for beginners."
+   "issues": [
+    "camera pointed down"
+   ],
+   "why": "Practical restaurant greeting, but camera mostly captures the vlogger's shirt."
+  },
+  "ylE1THH0gA0-682": {
+   "id": "ylE1THH0gA0-682",
+   "appeal": 7,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "background noise"
+   ],
+   "why": "Engaging cultural interaction picking an appetizer from a varied tray."
   }
  }
 }

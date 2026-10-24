@@ -2,8 +2,8 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 39.1,
-   "end": 63.8,
+   "start": 38.8,
+   "end": 104.2,
    "title": "Spring in Azumino",
    "level": "N5",
    "topics": [
@@ -11,51 +11,89 @@
     "culture"
    ],
    "grammar": [
-    "も〜も — both ... and ...",
-    "〜られる — potential form"
+    "〜も…も — both ~ and ...",
+    "〜のは — nominalization"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 39.3,
-     "end": 42.2,
+     "start": 39.0,
+     "end": 41.8,
      "ja": "安曇野はどの季節もきれいです。",
      "en": "Azumino is beautiful in every season.",
      "speaker": "Yuka"
     },
     {
-     "start": 42.5,
-     "end": 45.9,
+     "start": 42.2,
+     "end": 45.8,
      "ja": "でも、特におすすめなのは春です。",
-     "en": "However, I especially recommend spring.",
+     "en": "But what I recommend most is spring.",
      "speaker": "Yuka"
     },
     {
-     "start": 46.4,
-     "end": 52.2,
+     "start": 46.2,
+     "end": 52.5,
      "ja": "春には、桜も雪もどっちも見られます。",
      "en": "In spring, you can see both cherry blossoms and snow.",
      "speaker": "Yuka"
     },
     {
-     "start": 52.8,
-     "end": 57.3,
+     "start": 53.0,
+     "end": 57.2,
      "ja": "今日は、安曇野の光城山に登った動画です。",
-     "en": "Today's video is about climbing Mount Hikarujo in Azumino.",
+     "en": "Today's video is about climbing Mount Hikarijo in Azumino.",
      "speaker": "Yuka"
     },
     {
-     "start": 57.7,
-     "end": 63.4,
+     "start": 57.5,
+     "end": 63.5,
      "ja": "ここは、桜がすごくきれいな山です。",
-     "en": "This is a mountain where the cherry blossoms are incredibly beautiful.",
+     "en": "This mountain has gorgeous cherry blossoms.",
      "speaker": "Yuka"
     }
    ]
   },
   {
-   "start": 216.0,
-   "end": 237.4,
+   "start": 135.8,
+   "end": 157.5,
+   "title": "Cherry Blossoms in Azumino",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜たことがある — past experience",
+    "〜始める — to begin doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 137.5,
+     "end": 145.8,
+     "ja": "私は東京とか大阪とか神戸に住んでいたことがあるんですが、",
+     "en": "I've lived in Tokyo, Osaka, and Kobe before, but...",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 146.5,
+     "end": 152.5,
+     "ja": "だいたい、3月の終わりから桜が咲き始めます。",
+     "en": "the cherry blossoms usually start blooming from the end of March.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 153.0,
+     "end": 157.0,
+     "ja": "でも安曇野では、だいたい4月に桜が咲きます。",
+     "en": "In Azumino, though, the cherry blossoms generally bloom in April.",
+     "speaker": "Yuka"
+    }
+   ]
+  },
+  {
+   "start": 215.8,
+   "end": 237.5,
    "title": "What is Hanami?",
    "level": "N4",
    "topics": [
@@ -64,102 +102,50 @@
    ],
    "grammar": [
     "〜ながら — while doing",
-    "〜たり〜たりする — doing things like ... and ..."
+    "〜たり〜たりする — doing things like"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 216.2,
-     "end": 219.4,
-     "ja": "みなさん、「お花見」を知っていますか？",
+     "start": 216.0,
+     "end": 219.5,
+     "ja": "皆さん、「お花見」を知っていますか？",
      "en": "Everyone, do you know what 'hanami' is?",
      "speaker": "Yuka"
     },
     {
      "start": 219.8,
-     "end": 223.5,
+     "end": 223.2,
      "ja": "お花見は日本の春の習慣で、",
      "en": "Hanami is a Japanese spring custom,",
      "speaker": "Yuka"
     },
     {
-     "start": 223.7,
+     "start": 223.5,
      "end": 227.2,
      "ja": "桜を見て楽しむことです。",
-     "en": "where you enjoy viewing cherry blossoms.",
+     "en": "where people enjoy viewing cherry blossoms.",
      "speaker": "Yuka"
     },
     {
-     "start": 227.6,
-     "end": 233.2,
-     "ja": "私は桜を見ながら、お弁当を食べたり、",
-     "en": "I like eating bento lunch boxes while looking at the blossoms,",
+     "start": 227.5,
+     "end": 230.0,
+     "ja": "私は桜を見ながら、",
+     "en": "While looking at the cherry blossoms,",
      "speaker": "Yuka"
     },
     {
-     "start": 233.4,
-     "end": 236.9,
+     "start": 230.2,
+     "end": 233.0,
+     "ja": "お弁当を食べたり、",
+     "en": "I like eating bento boxes,",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 233.2,
+     "end": 237.0,
      "ja": "お団子を食べたりするのが好きです。",
-     "en": "and eating dango dumplings.",
-     "speaker": "Yuka"
-    }
-   ]
-  },
-  {
-   "start": 238.4,
-   "end": 305.1,
-   "title": "Spring and Winter at the Same Time",
-   "level": "N4",
-   "topics": [
-    "travel",
-    "culture"
-   ],
-   "grammar": [
-    "〜ので — because / since",
-    "〜でも — even in / even if"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 238.7,
-     "end": 243.7,
-     "ja": "この山は911メートルぐらいなので、",
-     "en": "This mountain is about 911 meters high, so",
-     "speaker": "Yuka"
-    },
-    {
-     "start": 244.2,
-     "end": 248.3,
-     "ja": "4月にはもう雪がありません。",
-     "en": "by April there is no longer any snow.",
-     "speaker": "Yuka"
-    },
-    {
-     "start": 248.8,
-     "end": 251.3,
-     "ja": "でも高い山には、",
-     "en": "However, on the high mountains,",
-     "speaker": "Yuka"
-    },
-    {
-     "start": 251.5,
-     "end": 255.7,
-     "ja": "4月でもたくさん雪があります。",
-     "en": "there is still a lot of snow even in April.",
-     "speaker": "Yuka"
-    },
-    {
-     "start": 256.5,
-     "end": 261.3,
-     "ja": "春と冬を一緒に楽しめるって、いいですよね。",
-     "en": "Being able to enjoy spring and winter together is great, isn't it?",
-     "speaker": "Yuka"
-    },
-    {
-     "start": 261.8,
-     "end": 264.6,
-     "ja": "春の安曇野は、最高です！",
-     "en": "Azumino in spring is the best!",
+     "en": "and eating dango sweets.",
      "speaker": "Yuka"
     }
    ]
@@ -169,5 +155,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

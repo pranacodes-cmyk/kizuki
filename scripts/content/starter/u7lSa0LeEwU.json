@@ -1,0 +1,21 @@
+{
+ "videoId": "u7lSa0LeEwU",
+ "ids": [
+  "u7lSa0LeEwU-155"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "u7lSa0LeEwU-155": {
+   "id": "u7lSa0LeEwU-155",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Fun casual backstage banter, but fast speech with occasional overlap."
+  }
+ }
+}

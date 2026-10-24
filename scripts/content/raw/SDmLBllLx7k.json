@@ -2,51 +2,57 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 0.8,
-   "end": 12.7,
-   "title": "Market Discussion Segment Intro",
+   "start": 1.3,
+   "end": 12.6,
+   "title": "Market Discussion Intro",
    "level": "N3",
    "topics": [
-    "work",
-    "daily"
+    "work"
    ],
    "grammar": [
-    "〜ていく — to continue doing / proceed",
+    "〜ていく — to go on doing",
     "〜と一緒に — together with"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 0.8,
-     "end": 4.4,
-     "ja": "では、ここからはNQNの古門さんと一緒に、",
-     "en": "Now, from here on, together with Mr. Furukado of NQN,",
-     "speaker": "Female Anchor"
+     "start": 1.3,
+     "end": 2.8,
+     "ja": "それではここからは",
+     "en": "Now from here,",
+     "speaker": "Female Host"
     },
     {
-     "start": 4.4,
-     "end": 7.1,
-     "ja": "きょうの相場で注目した銘柄や、",
-     "en": "the stocks that caught our attention in today's market,",
-     "speaker": "Female Anchor"
+     "start": 2.8,
+     "end": 4.9,
+     "ja": "NQNの古門さんと一緒に、",
+     "en": "together with Mr. Furukado from NQN,",
+     "speaker": "Female Host"
     },
     {
-     "start": 7.1,
-     "end": 9.0,
+     "start": 4.9,
+     "end": 7.0,
+     "ja": "今日の相場で注目した銘柄や",
+     "en": "we'll look at the stocks that drew attention today",
+     "speaker": "Female Host"
+    },
+    {
+     "start": 7.0,
+     "end": 9.3,
      "ja": "明日の相場のヒントを探していきます。",
      "en": "and hints for tomorrow's market.",
-     "speaker": "Female Anchor"
+     "speaker": "Female Host"
     },
     {
-     "start": 9.0,
-     "end": 11.2,
+     "start": 9.3,
+     "end": 11.3,
      "ja": "古門さん、よろしくお願いいたします。",
-     "en": "Mr. Furukado, thank you for being with us.",
-     "speaker": "Female Anchor"
+     "en": "Mr. Furukado, thank you for joining us.",
+     "speaker": "Female Host"
     },
     {
-     "start": 11.2,
-     "end": 12.5,
+     "start": 11.3,
+     "end": 12.4,
      "ja": "はい、お願いします。",
      "en": "Yes, thank you.",
      "speaker": "Furukado"
@@ -54,127 +60,154 @@
    ]
   },
   {
-   "start": 41.5,
-   "end": 57.5,
-   "title": "TOPIX and Growth 250 Market Update",
-   "level": "N2",
+   "start": 414.0,
+   "end": 432.8,
+   "title": "Reviewing One Year of Stock Trends",
+   "level": "N3",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜から — since / from",
+    "〜てみる — to try doing / to see"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 414.0,
+     "end": 416.4,
+     "ja": "さあ、そして今日ですけれども、",
+     "en": "Now, speaking of today,",
+     "speaker": "Female Host"
+    },
+    {
+     "start": 416.4,
+     "end": 418.7,
+     "ja": "高市政権発足から1年なんですね。",
+     "en": "it's been one year since the Takaichi administration began.",
+     "speaker": "Female Host"
+    },
+    {
+     "start": 418.8,
+     "end": 420.2,
+     "ja": "そうなんですね。",
+     "en": "That's right.",
+     "speaker": "Furukado"
+    },
+    {
+     "start": 420.6,
+     "end": 421.9,
+     "ja": "ということでですね、",
+     "en": "And so,",
+     "speaker": "Furukado"
+    },
+    {
+     "start": 422.0,
+     "end": 422.6,
+     "ja": "ええ。",
+     "en": "Yes.",
+     "speaker": "Female Host"
+    },
+    {
+     "start": 422.6,
+     "end": 424.2,
+     "ja": "1年間のチャートを振り返りました。",
+     "en": "we looked back at the chart over this past year.",
+     "speaker": "Furukado"
+    },
+    {
+     "start": 424.2,
+     "end": 426.1,
+     "ja": "あ、株価はよく上がりましたね。",
+     "en": "Oh, stock prices have really risen.",
+     "speaker": "Female Host"
+    },
+    {
+     "start": 426.5,
+     "end": 428.5,
+     "ja": "上がったのは、あの、株価と、",
+     "en": "As for what went up, well, stock prices—",
+     "speaker": "Furukado"
+    },
+    {
+     "start": 428.5,
+     "end": 430.2,
+     "ja": "ひとまず株価で振り返ると、",
+     "en": "if we look back just at the stock prices,",
+     "speaker": "Furukado"
+    },
+    {
+     "start": 430.2,
+     "end": 431.7,
+     "ja": "上がりましたねってことですね。",
+     "en": "it's true they have gone up.",
+     "speaker": "Furukado"
+    },
+    {
+     "start": 431.8,
+     "end": 432.7,
+     "ja": "はい。",
+     "en": "Right.",
+     "speaker": "Female Host"
+    }
+   ]
+  },
+  {
+   "start": 661.3,
+   "end": 686.8,
+   "title": "Tokyo Market Closing Numbers",
+   "level": "N3",
    "topics": [
     "work"
    ],
    "grammar": [
-    "〜にとどまる — to stay limited to",
+    "〜を過ぎる — to pass / exceed",
     "〜ぶり — after an interval of"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 41.5,
-     "end": 43.7,
-     "ja": "では、続いてTOPIX。",
-     "en": "Now, moving on to the TOPIX.",
-     "speaker": "Female Anchor"
-    },
-    {
-     "start": 44.3,
-     "end": 46.3,
-     "ja": "こちら反発ですが、",
-     "en": "This rebounded as well, but",
-     "speaker": "Female Anchor"
-    },
-    {
-     "start": 46.3,
-     "end": 49.0,
-     "ja": "1%未満の上昇にとどまっています。",
-     "en": "the gain remained at less than 1%.",
-     "speaker": "Female Anchor"
-    },
-    {
-     "start": 49.3,
-     "end": 52.5,
-     "ja": "また東証グロース市場250指数は",
-     "en": "Also, the TSE Growth Market 250 Index",
-     "speaker": "Female Anchor"
-    },
-    {
-     "start": 52.5,
-     "end": 54.1,
-     "ja": "2.8%高。",
-     "en": "is up 2.8%.",
-     "speaker": "Female Anchor"
-    },
-    {
-     "start": 54.2,
-     "end": 57.2,
-     "ja": "こちらは大幅に3日ぶりの反発となっています。",
-     "en": "This saw a sharp rebound for the first time in three days.",
-     "speaker": "Female Anchor"
-    }
-   ]
-  },
-  {
-   "start": 1101.2,
-   "end": 1126.5,
-   "title": "Tokyo Market Closing Numbers",
-   "level": "N3",
-   "topics": [
-    "work",
-    "daily"
-   ],
-   "grammar": [
-    "〜ていく — to proceed to",
-    "〜ぶり — after an interval of",
-    "〜となる — to become / amount to"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 1101.2,
-     "end": 1104.7,
+     "start": 661.3,
+     "end": 665.3,
      "ja": "さて、時刻は3時30分を過ぎました。",
-     "en": "Well, the time is past 3:30.",
-     "speaker": "Female Anchor"
+     "en": "Now, the time is past 3:30 PM.",
+     "speaker": "Female Host"
     },
     {
-     "start": 1105.1,
-     "end": 1107.8,
-     "ja": "きょうはひとまず買い戻されましたけれども、",
-     "en": "Although there was some short-covering today,",
-     "speaker": "Female Anchor"
+     "start": 665.4,
+     "end": 670.2,
+     "ja": "今日はひとまず買い戻されましたけれども、積極的な買いは続きませんでした。",
+     "en": "There was some short-covering today, but aggressive buying did not continue.",
+     "speaker": "Female Host"
     },
     {
-     "start": 1107.9,
-     "end": 1110.0,
-     "ja": "積極的な買いは続きませんでした。",
-     "en": "aggressive buying did not continue.",
-     "speaker": "Female Anchor"
+     "start": 670.3,
+     "end": 673.0,
+     "ja": "では、今日の終値をお伝えしていきます。",
+     "en": "Now, here are today's closing prices.",
+     "speaker": "Female Host"
     },
     {
-     "start": 1110.4,
-     "end": 1113.4,
-     "ja": "では、きょうの終値をお伝えしていきます。",
-     "en": "Now, let's share today's closing prices.",
-     "speaker": "Female Anchor"
-    },
-    {
-     "start": 1114.2,
-     "end": 1117.5,
+     "start": 673.8,
+     "end": 677.3,
      "ja": "日経平均株価、3日ぶりの反発です。",
-     "en": "The Nikkei average rebounded for the first time in three days.",
-     "speaker": "Female Anchor"
+     "en": "The Nikkei Average rebounded for the first time in three days.",
+     "speaker": "Female Host"
     },
     {
-     "start": 1118.0,
-     "end": 1120.8,
+     "start": 677.4,
+     "end": 681.0,
      "ja": "545円82銭高い、",
-     "en": "Up 545 yen and 82 sen,",
-     "speaker": "Female Anchor"
+     "en": "Up 545.82 yen,",
+     "speaker": "Female Host"
     },
     {
-     "start": 1121.0,
-     "end": 1126.2,
-     "ja": "6万4621円24銭となりました。",
-     "en": "it closed at 64,621 yen and 24 sen.",
-     "speaker": "Female Anchor"
+     "start": 681.1,
+     "end": 686.5,
+     "ja": "6万4,621円24銭となりました。",
+     "en": "it finished at 64,621.24 yen.",
+     "speaker": "Female Host"
     }
    ]
   }
@@ -183,5 +216,6 @@
  "pickTopics": [
   "work"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

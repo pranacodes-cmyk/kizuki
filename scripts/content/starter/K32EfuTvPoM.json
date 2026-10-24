@@ -1,0 +1,19 @@
+{
+ "videoId": "K32EfuTvPoM",
+ "ids": [
+  "K32EfuTvPoM-656"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "K32EfuTvPoM-656": {
+   "id": "K32EfuTvPoM-656",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, slow speech about food that beginners can easily follow."
+  }
+ }
+}

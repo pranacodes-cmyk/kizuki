@@ -1,0 +1,19 @@
+{
+ "videoId": "zpvEBnlZC_E",
+ "ids": [
+  "zpvEBnlZC_E-270"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "zpvEBnlZC_E-270": {
+   "id": "zpvEBnlZC_E-270",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Natural family vlog conversation with casual everyday speech outdoors."
+  }
+ }
+}

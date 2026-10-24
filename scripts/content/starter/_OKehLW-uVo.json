@@ -1,19 +1,19 @@
 {
  "videoId": "_OKehLW-uVo",
  "ids": [
-  "_OKehLW-uVo-1110"
+  "_OKehLW-uVo-467"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "_OKehLW-uVo-1110": {
-   "id": "_OKehLW-uVo-1110",
-   "appeal": 5,
+  "_OKehLW-uVo-467": {
+   "id": "_OKehLW-uVo-467",
+   "appeal": 6,
    "clarity": 4,
    "picture": 4,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Clear explanation and demonstration of how to charge the device."
+   "why": "Clear audio explaining the backlit keyboard with a dark demonstration."
   }
  }
 }

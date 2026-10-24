@@ -1,19 +1,30 @@
 {
  "videoId": "E454yHYH_vw",
  "ids": [
-  "E454yHYH_vw-13"
+  "E454yHYH_vw-228",
+  "E454yHYH_vw-29"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "E454yHYH_vw-13": {
-   "id": "E454yHYH_vw-13",
-   "appeal": 6,
-   "clarity": 3,
-   "picture": 3,
+  "E454yHYH_vw-228": {
+   "id": "E454yHYH_vw-228",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 4,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Cute anime scene, but colloquial phrasing may challenge complete beginners."
+   "why": "Cute anime conversation, but slightly fast and colloquial for total beginners."
+  },
+  "E454yHYH_vw-29": {
+   "id": "E454yHYH_vw-29",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear streamer speech parody, but paced moderately fast with some jargon."
   }
  }
 }

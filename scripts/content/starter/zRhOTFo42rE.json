@@ -1,32 +1,30 @@
 {
  "videoId": "zRhOTFo42rE",
  "ids": [
-  "zRhOTFo42rE-1122",
-  "zRhOTFo42rE-418"
+  "zRhOTFo42rE-257",
+  "zRhOTFo42rE-46"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "zRhOTFo42rE-1122": {
-   "id": "zRhOTFo42rE-1122",
+  "zRhOTFo42rE-257": {
+   "id": "zRhOTFo42rE-257",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear demonstration of phone case stand features with steady speech."
+  },
+  "zRhOTFo42rE-46": {
+   "id": "zRhOTFo42rE-46",
    "appeal": 6,
    "clarity": 4,
    "picture": 4,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Clear demonstration of phone features with clear, steady Japanese speech."
-  },
-  "zRhOTFo42rE-418": {
-   "id": "zRhOTFo42rE-418",
-   "appeal": 4,
-   "clarity": 4,
-   "picture": 3,
-   "ease": 3,
-   "english": false,
-   "issues": [
-    "ad / sponsor"
-   ],
-   "why": "Sponsored case demo with clear speech and easy-to-follow visual actions."
+   "why": "Engaging unboxing moment with simple expressive vocabulary."
   }
  }
 }

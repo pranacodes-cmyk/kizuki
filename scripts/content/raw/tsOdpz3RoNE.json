@@ -2,9 +2,9 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 544.8,
-   "end": 611.8,
-   "title": "Talking About Animals in Japanese",
+   "start": 545.2,
+   "end": 570.3,
+   "title": "Simple Animal Sentences Part 1",
    "level": "N5",
    "topics": [
     "animals",
@@ -12,49 +12,49 @@
    ],
    "grammar": [
     "〜が好き — to like something",
-    "〜がいる — existence of animate objects",
-    "〜ている — ongoing action"
+    "〜がいる — there is (living thing)",
+    "〜ています — ongoing action"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 545.8,
-     "end": 548.3,
+     "start": 545.9,
+     "end": 547.7,
      "ja": "犬が好きです。",
      "en": "I like dogs.",
      "speaker": "Narrator"
     },
     {
      "start": 548.8,
-     "end": 551.5,
+     "end": 550.8,
      "ja": "犬が好きです。",
      "en": "I like dogs.",
      "speaker": "Narrator"
     },
     {
-     "start": 554.8,
-     "end": 557.5,
+     "start": 555.0,
+     "end": 556.8,
      "ja": "猫がいます。",
      "en": "There is a cat.",
      "speaker": "Narrator"
     },
     {
-     "start": 558.3,
-     "end": 561.0,
+     "start": 558.0,
+     "end": 559.8,
      "ja": "猫がいます。",
      "en": "There is a cat.",
      "speaker": "Narrator"
     },
     {
-     "start": 604.0,
-     "end": 607.0,
+     "start": 563.8,
+     "end": 566.2,
      "ja": "鳥が飛んでいます。",
      "en": "A bird is flying.",
      "speaker": "Narrator"
     },
     {
-     "start": 607.8,
-     "end": 610.8,
+     "start": 567.4,
+     "end": 569.7,
      "ja": "鳥が飛んでいます。",
      "en": "A bird is flying.",
      "speaker": "Narrator"
@@ -63,8 +63,8 @@
   },
   {
    "start": 613.2,
-   "end": 632.0,
-   "title": "Cute Rabbits and Seeing Elephants",
+   "end": 630.2,
+   "title": "Simple Animal Sentences Part 2",
    "level": "N5",
    "topics": [
     "animals",
@@ -72,37 +72,68 @@
    ],
    "grammar": [
     "〜は〜です — A is B",
-    "〜を見た — saw (past tense)"
+    "〜ました — past tense polite"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 614.0,
-     "end": 616.8,
+     "start": 613.9,
+     "end": 616.4,
      "ja": "うさぎはかわいいです。",
      "en": "Rabbits are cute.",
      "speaker": "Narrator"
     },
     {
-     "start": 617.8,
-     "end": 620.8,
+     "start": 617.4,
+     "end": 619.9,
      "ja": "うさぎはかわいいです。",
      "en": "Rabbits are cute.",
      "speaker": "Narrator"
     },
     {
-     "start": 624.0,
-     "end": 626.8,
+     "start": 624.1,
+     "end": 626.2,
      "ja": "象を見ました。",
      "en": "I saw an elephant.",
      "speaker": "Narrator"
     },
     {
-     "start": 627.8,
-     "end": 630.8,
+     "start": 627.3,
+     "end": 629.4,
      "ja": "象を見ました。",
      "en": "I saw an elephant.",
      "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 635.0,
+   "end": 642.5,
+   "title": "Thank You for Watching",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "friends"
+   ],
+   "grammar": [
+    "〜てくれる — doing something for someone",
+    "〜てありがとう — thank you for doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 636.5,
+     "end": 639.2,
+     "ja": "動画を見てくれてありがとう。",
+     "en": "Thank you for watching the video.",
+     "speaker": "Puppet"
+    },
+    {
+     "start": 639.8,
+     "end": 641.5,
+     "ja": "またねー！",
+     "en": "See you!",
+     "speaker": "Puppet"
     }
    ]
   }
@@ -111,5 +142,6 @@
  "pickTopics": [
   "animals"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

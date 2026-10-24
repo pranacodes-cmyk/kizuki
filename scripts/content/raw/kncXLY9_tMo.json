@@ -2,17 +2,62 @@
  "speech": "clear",
  "clips": [
   {
+   "start": 109.3,
+   "end": 131.0,
+   "title": "Travel Plans and Souvenir Stories",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "culture"
+   ],
+   "grammar": [
+    "〜たら — when/if",
+    "〜たり〜たりする — listing actions"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 109.3,
+     "end": 113.5,
+     "ja": "皆さんは日本に行ったらどんなことをしてみたいですか？",
+     "en": "What kind of things would you like to do if you go to Japan?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 113.9,
+     "end": 116.5,
+     "ja": "どこに行ってみたいですか？",
+     "en": "Where would you like to visit?",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 116.8,
+     "end": 122.5,
+     "ja": "日本に行く前に、日本の地理をよく調べて楽しい旅行をしてください。",
+     "en": "Before you go to Japan, look into Japan's geography well and have a fun trip.",
+     "speaker": "Noriko"
+    },
+    {
+     "start": 123.0,
+     "end": 130.5,
+     "ja": "そして、お城を見学したり、温泉に入ったりして、楽しい土産話を持って帰ってください。",
+     "en": "And tour castles, bathe in hot springs, and bring home fun travel tales to share.",
+     "speaker": "Noriko"
+    }
+   ]
+  },
+  {
    "start": 136.5,
-   "end": 158.5,
-   "title": "What Is Omiyage in Japan?",
+   "end": 158.0,
+   "title": "What Is Omiyage?",
    "level": "N4",
    "topics": [
     "culture",
     "travel"
    ],
    "grammar": [
-    "〜ことがある — to have the experience of",
-    "〜と — when/if conditional"
+    "〜たことがある — have experienced",
+    "〜と — whenever / when"
    ],
    "quality": 5,
    "lines": [
@@ -20,115 +65,35 @@
      "start": 136.5,
      "end": 141.8,
      "ja": "皆さんは多分「お土産」っていう言葉を聞いたことがありますね。",
-     "en": "You have probably heard the word 'omiyage' before, right?",
+     "en": "You have probably heard the word 'omiyage' before.",
      "speaker": "Noriko"
     },
     {
      "start": 142.0,
-     "end": 145.0,
+     "end": 144.5,
      "ja": "これは日本の習慣なんですが、",
-     "en": "This is a Japanese custom, but",
+     "en": "This is a Japanese custom, but...",
      "speaker": "Noriko"
     },
     {
-     "start": 145.1,
-     "end": 147.3,
-     "ja": "日本人は旅行に行くと、",
-     "en": "when Japanese people go on a trip,",
+     "start": 144.6,
+     "end": 151.8,
+     "ja": "日本人は旅行に行くと、旅行先で何か物や食べ物を買って、それを持って帰って、",
+     "en": "When Japanese people go on a trip, they buy some goods or food at their destination, bring them back,",
      "speaker": "Noriko"
     },
     {
-     "start": 147.4,
-     "end": 150.9,
-     "ja": "旅行先で何か物や食べ物を買って、",
-     "en": "they buy things or food at their destination,",
-     "speaker": "Noriko"
-    },
-    {
-     "start": 151.0,
-     "end": 152.5,
-     "ja": "それを持って帰って、",
-     "en": "bring them back,",
-     "speaker": "Noriko"
-    },
-    {
-     "start": 152.6,
-     "end": 155.7,
+     "start": 152.0,
+     "end": 155.5,
      "ja": "友達や家族や同僚にあげます。",
      "en": "and give them to friends, family, or colleagues.",
      "speaker": "Noriko"
     },
     {
-     "start": 155.8,
-     "end": 158.2,
+     "start": 155.6,
+     "end": 158.0,
      "ja": "これがお土産、土産ですね。",
-     "en": "This is what 'omiyage' or 'miyage' is.",
-     "speaker": "Noriko"
-    }
-   ]
-  },
-  {
-   "start": 159.0,
-   "end": 224.5,
-   "title": "The Meaning of Miyage-banashi",
-   "level": "N3",
-   "topics": [
-    "culture",
-    "travel"
-   ],
-   "grammar": [
-    "〜ということは — that means that...",
-    "〜という意味 — means that..."
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 159.0,
-     "end": 203.4,
-     "ja": "この場合は土産話、話、お話です。",
-     "en": "In this case it's 'miyage-banashi'—a story, a tale.",
-     "speaker": "Noriko"
-    },
-    {
-     "start": 203.5,
-     "end": 208.5,
-     "ja": "ということは、旅行先で経験した面白いエピソード、",
-     "en": "Which means funny episodes experienced at your destination,",
-     "speaker": "Noriko"
-    },
-    {
-     "start": 208.6,
-     "end": 210.5,
-     "ja": "ね、体験談、経験談。",
-     "en": "personal accounts and travel stories.",
-     "speaker": "Noriko"
-    },
-    {
-     "start": 210.6,
-     "end": 214.3,
-     "ja": "大変だったこと、「こんなことやったよ」「こんなもの食べたよ」",
-     "en": "Hardships, or telling things like 'I did this' or 'I ate that,'",
-     "speaker": "Noriko"
-    },
-    {
-     "start": 214.4,
-     "end": 217.5,
-     "ja": "「これがすごかったよ」っていうような話を、",
-     "en": "sharing stories like 'This was amazing'",
-     "speaker": "Noriko"
-    },
-    {
-     "start": 217.6,
-     "end": 219.8,
-     "ja": "友達や家族にする。",
-     "en": "with your friends and family.",
-     "speaker": "Noriko"
-    },
-    {
-     "start": 220.0,
-     "end": 224.2,
-     "ja": "ね、これが「土産話」という意味になります。",
-     "en": "Right, that's what 'miyage-banashi' means.",
+     "en": "This is 'omiyage', or 'miyage'.",
      "speaker": "Noriko"
     }
    ]
@@ -136,42 +101,42 @@
   {
    "start": 306.5,
    "end": 329.5,
-   "title": "A Severe Sunburn Incident",
+   "title": "A Painful Sunburn in Malaysia",
    "level": "N3",
    "topics": [
     "travel",
-    "daily"
+    "fun"
    ],
    "grammar": [
-    "〜てしまう — unintentional action/regret",
-    "〜たり〜たり — listing representative actions"
+    "〜ちゃう — do unintentionally / completely",
+    "〜たり〜たり — listing actions"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 306.7,
-     "end": 311.2,
+     "start": 306.5,
+     "end": 310.8,
      "ja": "私の主人は日焼け止めを塗り忘れちゃって、",
-     "en": "My husband forgot to put on sunscreen, and",
+     "en": "My husband forgot to put on sunscreen,",
      "speaker": "Noriko"
     },
     {
-     "start": 311.4,
-     "end": 317.0,
+     "start": 311.0,
+     "end": 316.0,
      "ja": "でもずっと外で泳いだり座ってたり寝てたりしたので、",
-     "en": "because he was outside swimming, sitting, and sleeping the whole time,",
+     "en": "and because he was outside the whole time swimming, sitting, or sleeping,",
      "speaker": "Noriko"
     },
     {
-     "start": 317.2,
-     "end": 320.5,
+     "start": 316.5,
+     "end": 320.0,
      "ja": "日焼けで火傷してしまったんです。",
-     "en": "he got sunburned so badly it was like a thermal burn.",
+     "en": "he got burned from the sunburn.",
      "speaker": "Noriko"
     },
     {
-     "start": 320.7,
-     "end": 325.8,
+     "start": 320.5,
+     "end": 325.5,
      "ja": "もう肩とか足が、太ももとか真っ赤になって、",
      "en": "His shoulders and legs, like his thighs, turned bright red,",
      "speaker": "Noriko"
@@ -190,5 +155,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

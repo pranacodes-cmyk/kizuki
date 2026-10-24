@@ -1,0 +1,21 @@
+{
+ "videoId": "N5439yrq_l8",
+ "ids": [
+  "N5439yrq_l8-19"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "N5439yrq_l8-19": {
+   "id": "N5439yrq_l8-19",
+   "appeal": 7,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "loud music"
+   ],
+   "why": "Cute animated scene with fast dialogue and prominent background audio."
+  }
+ }
+}

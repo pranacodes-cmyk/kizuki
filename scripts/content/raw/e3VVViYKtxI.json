@@ -2,135 +2,134 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 11.5,
-   "end": 28.0,
-   "title": "Let's Look for It Together",
-   "level": "N5",
-   "topics": [
-    "family",
-    "daily"
-   ],
-   "grammar": [
-    "〜にある — exists (inanimate)",
-    "〜よう — volitional form (let's do)"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 11.8,
-     "end": 13.4,
-     "ja": "どこにあるの？",
-     "en": "Where is it?",
-     "speaker": "Haruto"
-    },
-    {
-     "start": 15.7,
-     "end": 17.5,
-     "ja": "いっしょに探そう。",
-     "en": "Let's look for it together.",
-     "speaker": "Mom"
-    },
-    {
-     "start": 21.4,
-     "end": 24.0,
-     "ja": "レンちゃん、探そう！",
-     "en": "Ren, let's search for it!",
-     "speaker": "Sakura"
-    },
-    {
-     "start": 26.0,
-     "end": 27.1,
-     "ja": "うん！",
-     "en": "Yeah!",
-     "speaker": "Ren"
-    }
-   ]
-  },
-  {
-   "start": 141.0,
+   "start": 141.2,
    "end": 158.0,
-   "title": "Leaving the House Greetings",
+   "title": "Off to School",
    "level": "N5",
    "topics": [
     "daily",
     "family"
    ],
    "grammar": [
-    "いってきます / いってらっしゃい — leaving/sending off greeting",
-    "〜てね — gentle request/imperative"
+    "いってらっしゃい／いってきます — leaving home greetings",
+    "〜てね — casual request or reminder"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 141.4,
-     "end": 143.6,
+     "start": 141.7,
+     "end": 143.7,
      "ja": "いってらっしゃい！",
      "en": "Have a good day!",
      "speaker": "Mom"
     },
     {
      "start": 145.3,
-     "end": 147.4,
+     "end": 147.2,
      "ja": "いってきます！",
-     "en": "I'm heading out!",
+     "en": "I'm off!",
      "speaker": "Haruto"
     },
     {
-     "start": 152.4,
-     "end": 154.4,
+     "start": 152.6,
+     "end": 154.5,
      "ja": "バイバイ！",
      "en": "Bye-bye!",
      "speaker": "Ren"
     },
     {
-     "start": 155.7,
-     "end": 157.4,
+     "start": 155.8,
+     "end": 157.5,
      "ja": "気をつけてね！",
-     "en": "Be safe!",
+     "en": "Be careful!",
      "speaker": "Mom"
     }
    ]
   },
   {
-   "start": 441.5,
-   "end": 459.0,
-   "title": "Where Is the Rice Ball?",
+   "start": 401.0,
+   "end": 418.0,
+   "title": "Rice Ball for Breakfast",
    "level": "N5",
    "topics": [
     "food",
-    "daily",
-    "family"
+    "family",
+    "daily"
    ],
    "grammar": [
-    "どこ — where",
-    "〜ない — negative plain form",
-    "〜よう — volitional form (let's do)"
+    "ちょうだい — give me",
+    "〜てね — gentle request"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 441.9,
+     "start": 401.3,
+     "end": 404.2,
+     "ja": "あ！おにぎりだよ！",
+     "en": "Ah! It's a rice ball!",
+     "speaker": "Ren"
+    },
+    {
+     "start": 404.6,
+     "end": 406.4,
+     "ja": "おにぎりだよ。",
+     "en": "It is a rice ball.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 411.3,
+     "end": 413.2,
+     "ja": "ちょうだい！",
+     "en": "Please give it to me!",
+     "speaker": "Ren"
+    },
+    {
+     "start": 415.2,
+     "end": 417.3,
+     "ja": "ちょっと待ってね。",
+     "en": "Wait a moment, okay?",
+     "speaker": "Mom"
+    }
+   ]
+  },
+  {
+   "start": 441.8,
+   "end": 458.8,
+   "title": "Where Is the Rice Ball?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜よう (探そう) — volitional form (let's do)",
+    "〜にはない — not in / at (a place)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 442.2,
      "end": 444.2,
      "ja": "おにぎり、どこだ？",
      "en": "Where is the rice ball?",
      "speaker": "Sakura"
     },
     {
-     "start": 445.8,
-     "end": 447.7,
+     "start": 446.0,
+     "end": 447.8,
      "ja": "いっしょに探そう！",
      "en": "Let's search together!",
      "speaker": "Haruto"
     },
     {
      "start": 451.8,
-     "end": 453.9,
+     "end": 453.8,
      "ja": "ここにはないな。",
      "en": "It's not here.",
      "speaker": "Haruto"
     },
     {
-     "start": 456.9,
+     "start": 456.8,
      "end": 458.2,
      "ja": "ない！",
      "en": "Not here!",
@@ -143,5 +142,6 @@
  "pickTopics": [
   "family"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

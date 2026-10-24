@@ -1,0 +1,19 @@
+{
+ "videoId": "DmQyBo-H6WU",
+ "ids": [
+  "DmQyBo-H6WU-243"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "DmQyBo-H6WU-243": {
+   "id": "DmQyBo-H6WU-243",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear cultural explanation of restaurant terms with helpful visual graphics."
+  }
+ }
+}

@@ -1,19 +1,30 @@
 {
  "videoId": "2YZH-_QhyvU",
  "ids": [
-  "2YZH-_QhyvU-17"
+  "2YZH-_QhyvU-17",
+  "2YZH-_QhyvU-52"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
   "2YZH-_QhyvU-17": {
    "id": "2YZH-_QhyvU-17",
-   "appeal": 5,
+   "appeal": 6,
    "clarity": 4,
-   "picture": 3,
+   "picture": 4,
    "ease": 4,
    "english": false,
    "issues": [],
-   "why": "Clear beginner office dialogue asking about the day of the week."
+   "why": "Natural office dialogue with clear pronunciation and practical questions."
+  },
+  "2YZH-_QhyvU-52": {
+   "id": "2YZH-_QhyvU-52",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear audio example but visually static graphic interface."
   }
  }
 }

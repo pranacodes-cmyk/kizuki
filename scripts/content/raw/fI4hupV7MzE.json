@@ -2,192 +2,151 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 12.8,
-   "end": 29.5,
-   "title": "Opening the Unopened Board Game",
-   "level": "N3",
-   "topics": [
-    "fun",
-    "daily"
-   ],
-   "grammar": [
-    "〜ば — conditional if",
-    "〜だろう — conjectural auxiliary",
-    "〜たいと思います — expressing intention"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 13.1,
-     "end": 15.5,
-     "ja": "今年の年始のご挨拶のときにですね、",
-     "en": "During this year's New Year's greeting,",
-     "speaker": "Haru99"
-    },
-    {
-     "start": 15.7,
-     "end": 17.0,
-     "ja": "これも出てきたんですよね。",
-     "en": "this showed up as well.",
-     "speaker": "Haru99"
-    },
-    {
-     "start": 17.2,
-     "end": 18.7,
-     "ja": "「まだ袋すら開けてねえ」ということで、",
-     "en": "Realizing, 'I haven't even opened the shrink wrap yet,'",
-     "speaker": "Haru99"
-    },
-    {
-     "start": 18.9,
-     "end": 20.3,
-     "ja": "まあ、開封をすればね、",
-     "en": "well, if I unbox it,",
-     "speaker": "Haru99"
-    },
-    {
-     "start": 20.4,
-     "end": 22.3,
-     "ja": "その後、ゲームをプレイするだろうという、",
-     "en": "I'll probably end up playing the game after that,",
-     "speaker": "Haru99"
-    },
-    {
-     "start": 22.4,
-     "end": 24.1,
-     "ja": "自分のちょっと戒めも含めて、",
-     "en": "so as a sort of self-admonition,",
-     "speaker": "Haru99"
-    },
-    {
-     "start": 24.3,
-     "end": 27.2,
-     "ja": "今日は、こちらの『新・電力会社 デラックス 完全日本語版』ですね、",
-     "en": "today, for this Power Grid Deluxe Japanese Edition,",
-     "speaker": "Haru99"
-    },
-    {
-     "start": 27.3,
-     "end": 29.3,
-     "ja": "開封レビューの方をお届けしたいと思います。",
-     "en": "I'd like to bring you an unboxing review.",
-     "speaker": "Haru99"
-    }
-   ]
-  },
-  {
-   "start": 141.8,
+   "start": 133.0,
    "end": 156.4,
-   "title": "Checking the Rulebook",
+   "title": "Checking the Rulebook Contents",
    "level": "N3",
    "topics": [
+    "daily",
     "fun"
    ],
    "grammar": [
-    "〜わけではない — it doesn't mean that",
-    "〜かもしれない — might/maybe"
+    "〜ような — like / similar to",
+    "〜わけではない — it does not mean that"
    ],
-   "quality": 5,
+   "quality": 4,
    "lines": [
+    {
+     "start": 133.4,
+     "end": 137.9,
+     "ja": "えーと、いつものアークライトさんの",
+     "en": "Let's see, it's the usual Arclight",
+     "speaker": "Host"
+    },
+    {
+     "start": 137.9,
+     "end": 142.1,
+     "ja": "感じのマニュアルですかね。このフォントとかね。",
+     "en": "style manual, like with this font.",
+     "speaker": "Host"
+    },
     {
      "start": 142.1,
-     "end": 144.9,
-     "ja": "まあ、12ページぐらいの、大した分量があるわけでは",
-     "en": "Well, it's about 12 pages, so it doesn't have an enormous volume,",
-     "speaker": "Haru99"
+     "end": 145.4,
+     "ja": "まあ12ページぐらいので大した分量があるわけでは",
+     "en": "Well, it's about 12 pages, so it's not like",
+     "speaker": "Host"
     },
     {
-     "start": 145.0,
-     "end": 146.1,
-     "ja": "ありませんね。",
-     "en": "does it?",
-     "speaker": "Haru99"
+     "start": 145.4,
+     "end": 148.4,
+     "ja": "ありませんね。割とさっくりと、",
+     "en": "it's a huge volume. It's relatively straightforward.",
+     "speaker": "Host"
     },
     {
-     "start": 146.2,
-     "end": 147.1,
-     "ja": "割とさっくり。",
-     "en": "It's relatively straightforward.",
-     "speaker": "Haru99"
+     "start": 148.4,
+     "end": 153.2,
+     "ja": "そんなに複雑なゲームではありませんから。",
+     "en": "Because it's not that complicated of a game.",
+     "speaker": "Host"
     },
     {
-     "start": 147.2,
-     "end": 150.3,
-     "ja": "まあ、『電力会社』そのものは、そんなに複雑なゲームではありませんから、",
-     "en": "Power Grid itself isn't that complicated of a game,",
-     "speaker": "Haru99"
-    },
-    {
-     "start": 150.5,
-     "end": 152.4,
-     "ja": "まあ、割と見やすい感じですね。",
-     "en": "so it seems pretty easy to read.",
-     "speaker": "Haru99"
-    },
-    {
-     "start": 152.6,
-     "end": 154.3,
-     "ja": "まあ、でも文字はちょっとあるかな。",
-     "en": "Well, there might be quite a bit of text though.",
-     "speaker": "Haru99"
-    },
-    {
-     "start": 154.4,
+     "start": 153.2,
      "end": 156.0,
-     "ja": "文字はちょっとね、びっしりあるかもしれませんね。",
-     "en": "The text might be packed in a bit densely.",
-     "speaker": "Haru99"
+     "ja": "文字はちょっとぎっしりあるかもしれませんね。",
+     "en": "Though the text might be packed in a bit densely.",
+     "speaker": "Host"
     }
    ]
   },
   {
-   "start": 432.9,
-   "end": 446.5,
-   "title": "Inspecting the Power Plant Cards",
+   "start": 219.8,
+   "end": 235.8,
+   "title": "Bilingual City Names on the Map",
    "level": "N3",
    "topics": [
+    "daily",
     "fun"
    ],
    "grammar": [
-    "〜ている — ongoing state",
-    "〜気がする — to feel that / to get the sense that"
+    "〜てみる — to try doing",
+    "〜やすい — easy to do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 433.2,
-     "end": 436.4,
-     "ja": "まあ、あと入ってんのは、おなじみのね、発電カードですね。",
-     "en": "And the other thing included are the familiar power plant cards.",
-     "speaker": "Haru99"
+     "start": 220.2,
+     "end": 224.2,
+     "ja": "かなり大きいですね。ただ、私初めて日本語版、",
+     "en": "It's quite large. However, this is my first time",
+     "speaker": "Host"
     },
     {
-     "start": 436.7,
-     "end": 440.4,
-     "ja": "これも若干、私が知ってるものよりは絵柄は",
-     "en": "I get the feeling that the artwork on these too",
-     "speaker": "Haru99"
+     "start": 224.2,
+     "end": 228.3,
+     "ja": "手にしたんですけども、外国語版しかなかったので、",
+     "en": "getting the Japanese edition, as I only had foreign ones before,",
+     "speaker": "Host"
     },
     {
-     "start": 440.5,
-     "end": 442.2,
-     "ja": "綺麗になってるような気がしますけども、",
-     "en": "has become a bit nicer than what I'm used to,",
-     "speaker": "Haru99"
+     "start": 228.3,
+     "end": 232.0,
+     "ja": "カタカナになってるのは割と、",
+     "en": "so having it in katakana",
+     "speaker": "Host"
     },
     {
-     "start": 442.3,
-     "end": 444.6,
-     "ja": "まあ、バランスまではね、ちょっと全くまだ分かりませんけども、",
-     "en": "though of course I don't know anything about the balance yet,",
-     "speaker": "Haru99"
+     "start": 232.0,
+     "end": 235.3,
+     "ja": "カタカナで書いてるのは割と見やすいですね。",
+     "en": "is actually pretty easy to read.",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 337.8,
+   "end": 351.0,
+   "title": "Examining the Plastic Money Coins",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜かと思う — to think whether",
+    "〜ている — state of being"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 338.2,
+     "end": 341.6,
+     "ja": "ただのプラスチックのコインかと思った、",
+     "en": "I thought they were just plain plastic coins,",
+     "speaker": "Host"
     },
     {
-     "start": 444.8,
-     "end": 446.3,
-     "ja": "綺麗になってる気がしますね。",
-     "en": "it feels like it's gotten prettier.",
-     "speaker": "Haru99"
+     "start": 341.6,
+     "end": 344.2,
+     "ja": "微妙に50とか、",
+     "en": "but numbers like 50,",
+     "speaker": "Host"
+    },
+    {
+     "start": 344.2,
+     "end": 346.9,
+     "ja": "微妙に1とか、",
+     "en": "or 1,",
+     "speaker": "Host"
+    },
+    {
+     "start": 346.9,
+     "end": 350.5,
+     "ja": "これだと5とか彫ってますね。",
+     "en": "or in this case, 5, are subtly engraved.",
+     "speaker": "Host"
     }
    ]
   }
@@ -196,5 +155,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -1,19 +1,30 @@
 {
  "videoId": "is4BOvzT2VE",
  "ids": [
-  "is4BOvzT2VE-0"
+  "is4BOvzT2VE-0",
+  "is4BOvzT2VE-539"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
   "is4BOvzT2VE-0": {
    "id": "is4BOvzT2VE-0",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Energetic cartoon introduction with clear pronunciation and simple vocabulary."
+  },
+  "is4BOvzT2VE-539": {
+   "id": "is4BOvzT2VE-539",
    "appeal": 5,
    "clarity": 4,
    "picture": 3,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Enthusiastic kids quiz intro with clear voiceover and colorful visuals."
+   "why": "Cheerful quiz wrap-up featuring encouraging, accessible mascot narration."
   }
  }
 }

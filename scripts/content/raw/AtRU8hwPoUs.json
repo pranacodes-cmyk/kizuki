@@ -3,21 +3,21 @@
  "clips": [
   {
    "start": 416.0,
-   "end": 429.0,
-   "title": "Buying Things at the Airport",
+   "end": 447.0,
+   "title": "You Can Buy Anything Here",
    "level": "N4",
    "topics": [
     "daily",
     "fun"
    ],
    "grammar": [
-    "〜とか〜とか — listing examples",
-    "買える — potential form"
+    "〜える — potential form",
+    "〜とか — listing examples"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 416.4,
+     "start": 416.3,
      "end": 419.8,
      "ja": "大体何でも買えます。",
      "en": "You can buy mostly anything.",
@@ -25,84 +25,84 @@
     },
     {
      "start": 420.5,
-     "end": 428.5,
+     "end": 428.7,
      "ja": "例えば、私は水とかマウスウォッシュとかお菓子を買います。",
-     "en": "For example, I buy water, mouthwash, snacks, and such.",
+     "en": "For example, I buy water, mouthwash, snacks and stuff.",
+     "speaker": "Misa"
+    },
+    {
+     "start": 433.0,
+     "end": 436.6,
+     "ja": "大体何でも買えます。",
+     "en": "You can buy mostly anything.",
+     "speaker": "Misa"
+    },
+    {
+     "start": 437.2,
+     "end": 446.2,
+     "ja": "例えば、私は水とかマウスウォッシュとかお菓子を買います。",
+     "en": "For example, I buy water, mouthwash, snacks and stuff.",
      "speaker": "Misa"
     }
    ]
   },
   {
-   "start": 732.5,
-   "end": 752.0,
-   "title": "Places You Can't Enter Without a Ticket",
+   "start": 452.2,
+   "end": 473.0,
+   "title": "You Need a Ticket to Enter",
    "level": "N4",
    "topics": [
     "travel",
     "daily"
    ],
    "grammar": [
-    "〜ないと — conditional (if not)",
-    "入れない — negative potential form"
+    "〜ないと — if not (conditional)",
+    "〜ない — potential negative"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 733.0,
-     "end": 737.0,
-     "ja": "チケットを買わないと、",
-     "en": "If you don't buy a ticket,",
+     "start": 452.8,
+     "end": 461.5,
+     "ja": "チケットを買わないと、入れない場所があります。",
+     "en": "There is a place where you can't go in if you don't buy a ticket.",
      "speaker": "Misa"
     },
     {
-     "start": 737.5,
-     "end": 741.8,
-     "ja": "入れない場所があります。",
-     "en": "there are places you can't enter.",
-     "speaker": "Misa"
-    },
-    {
-     "start": 743.5,
-     "end": 747.0,
-     "ja": "チケットを買わないと、",
-     "en": "If you don't buy a ticket,",
-     "speaker": "Misa"
-    },
-    {
-     "start": 747.5,
-     "end": 751.5,
-     "ja": "入れない場所があります。",
-     "en": "there are places you can't enter.",
+     "start": 463.2,
+     "end": 471.8,
+     "ja": "チケットを買わないと、入れない場所があります。",
+     "en": "There is a place where you can't go in if you don't buy a ticket.",
      "speaker": "Misa"
     }
    ]
   },
   {
-   "start": 1523.5,
-   "end": 1532.8,
-   "title": "Things I Do on Weekends",
-   "level": "N4",
+   "start": 791.8,
+   "end": 809.8,
+   "title": "Price Varies by Size and Location",
+   "level": "N3",
    "topics": [
-    "daily",
-    "friends"
+    "daily"
    ],
    "grammar": [
-    "〜たり〜たりする — doing things like A and B"
+    "〜によって — depending on",
+    "〜たり〜たりする — alternating states or actions"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1524.0,
-     "end": 1527.7,
-     "ja": "映画館に行ったり、友達と遊んだり、",
-     "en": "I go to the cinema, hang out with my friend,",
+     "start": 792.3,
+     "end": 800.6,
+     "ja": "場所と大きさによって、安かったり高かったりします。",
+     "en": "It can be cheap or expensive depending on the location and the size.",
      "speaker": "Misa"
     },
     {
-     "start": 1528.0,
-     "end": 1532.4,
-     "ja": "うちでごろごろしたりします。",
-     "en": "and chill at home.",
+     "start": 801.5,
+     "end": 809.2,
+     "ja": "場所と大きさによって、安かったり高かったりします。",
+     "en": "It can be cheap or expensive depending on the location and the size.",
      "speaker": "Misa"
     }
    ]
@@ -112,5 +112,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

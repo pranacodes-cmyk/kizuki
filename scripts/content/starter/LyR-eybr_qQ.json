@@ -1,7 +1,7 @@
 {
  "videoId": "LyR-eybr_qQ",
  "ids": [
-  "LyR-eybr_qQ-319",
+  "LyR-eybr_qQ-137",
   "LyR-eybr_qQ-7"
  ],
  "model": "google/gemini-3.8-flash",
@@ -14,17 +14,17 @@
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Relatable morning routine clip with clear, casual daily speech."
+   "why": "Relatable student morning routine with clear casual speech."
   },
-  "LyR-eybr_qQ-319": {
-   "id": "LyR-eybr_qQ-319",
+  "LyR-eybr_qQ-137": {
+   "id": "LyR-eybr_qQ-137",
    "appeal": 5,
-   "clarity": 4,
+   "clarity": 3,
    "picture": 3,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Everyday domestic scene showing simple fridge cooking routine."
+   "why": "Casual conversation about lunch plans with everyday vocabulary."
   }
  }
 }

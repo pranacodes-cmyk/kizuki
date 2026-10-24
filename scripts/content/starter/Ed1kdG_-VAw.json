@@ -1,6 +1,7 @@
 {
  "videoId": "Ed1kdG_-VAw",
  "ids": [
+  "Ed1kdG_-VAw-15",
   "Ed1kdG_-VAw-235"
  ],
  "model": "google/gemini-3.8-flash",
@@ -13,7 +14,17 @@
    "ease": 4,
    "english": false,
    "issues": [],
-   "why": "Appealing food clip with clear narration and vocabulary overlays."
+   "why": "Appealing food clip with clear pronunciation and simple vocabulary."
+  },
+  "Ed1kdG_-VAw-15": {
+   "id": "Ed1kdG_-VAw-15",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Static garden view with moderately clear everyday conversational audio."
   }
  }
 }

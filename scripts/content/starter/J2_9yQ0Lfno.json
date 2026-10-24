@@ -1,21 +1,19 @@
 {
  "videoId": "J2_9yQ0Lfno",
  "ids": [
-  "J2_9yQ0Lfno-745"
+  "J2_9yQ0Lfno-465"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "J2_9yQ0Lfno-745": {
-   "id": "J2_9yQ0Lfno-745",
-   "appeal": 4,
+  "J2_9yQ0Lfno-465": {
+   "id": "J2_9yQ0Lfno-465",
+   "appeal": 5,
    "clarity": 4,
-   "picture": 3,
+   "picture": 4,
    "ease": 3,
    "english": false,
-   "issues": [
-    "ad / sponsor"
-   ],
-   "why": "Standard outro and subscribe request over historical site images."
+   "issues": [],
+   "why": "Scenic visuals accompany a standard closing channel plug."
   }
  }
 }

@@ -1,0 +1,21 @@
+{
+ "videoId": "QtPkTfFitxk",
+ "ids": [
+  "QtPkTfFitxk-13"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "QtPkTfFitxk-13": {
+   "id": "QtPkTfFitxk-13",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "ends mid-sentence"
+   ],
+   "why": "Intriguing street interview concept with clear conversational Japanese."
+  }
+ }
+}

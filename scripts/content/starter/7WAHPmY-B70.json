@@ -1,0 +1,19 @@
+{
+ "videoId": "7WAHPmY-B70",
+ "ids": [
+  "7WAHPmY-B70-109"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "7WAHPmY-B70-109": {
+   "id": "7WAHPmY-B70-109",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear instructional speech accompanied by direct physical gestures."
+  }
+ }
+}

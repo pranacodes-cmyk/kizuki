@@ -2,44 +2,44 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 5.5,
-   "end": 21.5,
-   "title": "Welcome to the Cooking Class",
+   "start": 5.6,
+   "end": 21.8,
+   "title": "Making Chicken Teriyaki Together",
    "level": "N5",
    "topics": [
     "food",
-    "culture"
+    "daily"
    ],
    "grammar": [
-    "〜ている — ongoing action / habit",
-    "〜ましょう — let's do"
+    "〜ている — ongoing action",
+    "〜ましょう — let's"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 5.8,
-     "end": 7.5,
+     "start": 5.9,
+     "end": 8.0,
      "ja": "皆さん、こんにちは。",
      "en": "Hello, everyone.",
      "speaker": "Akiko"
     },
     {
-     "start": 8.5,
+     "start": 9.1,
      "end": 13.5,
-     "ja": "ひらがなネットで和食料理を教えているあきこです。",
+     "ja": "ひらがなネットで和食料理を教えている、あきこです。",
      "en": "I'm Akiko, teaching Japanese cooking at Hiragana Net.",
      "speaker": "Akiko"
     },
     {
      "start": 14.3,
-     "end": 18.0,
-     "ja": "今回は、鶏の照り焼きを作ります。",
+     "end": 18.1,
+     "ja": "今回は鶏の照り焼きを作ります。",
      "en": "This time, we will make chicken teriyaki.",
      "speaker": "Akiko"
     },
     {
-     "start": 18.8,
-     "end": 21.2,
+     "start": 19.1,
+     "end": 21.4,
      "ja": "では、一緒に作りましょう。",
      "en": "Now, let's make it together.",
      "speaker": "Akiko"
@@ -47,53 +47,52 @@
    ]
   },
   {
-   "start": 239.8,
-   "end": 306.0,
-   "title": "Simmering and Glazing the Chicken",
+   "start": 239.5,
+   "end": 305.7,
+   "title": "Thickening the Teriyaki Sauce",
    "level": "N4",
    "topics": [
-    "food",
-    "daily"
+    "food"
    ],
    "grammar": [
-    "〜たら — when / once",
-    "〜やすい — prone to / easy to"
+    "〜たら — when/if",
+    "〜やすい — easy to / prone to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 240.2,
-     "end": 243.8,
+     "start": 240.0,
+     "end": 243.7,
      "ja": "調味料を煮詰めます。",
-     "en": "Boil down the seasonings.",
+     "en": "Boil down the seasoning sauce.",
      "speaker": "Akiko"
     },
     {
      "start": 252.5,
-     "end": 256.3,
+     "end": 256.0,
      "ja": "スプーンでタレをかけます。",
      "en": "Spoon the sauce over the chicken.",
      "speaker": "Akiko"
     },
     {
-     "start": 257.0,
-     "end": 302.4,
-     "ja": "タレの色が濃い茶色になったら出来上がりです。",
-     "en": "Once the sauce turns dark brown, it is done.",
+     "start": 257.3,
+     "end": 302.1,
+     "ja": "タレの色が濃い茶色になったら、できあがりです。",
+     "en": "Once the sauce turns dark brown, it's done.",
      "speaker": "Akiko"
     },
     {
-     "start": 302.9,
-     "end": 305.8,
-     "ja": "焦げやすいので気を付けましょう。",
+     "start": 302.7,
+     "end": 305.3,
+     "ja": "焦げやすいので、気をつけましょう。",
      "en": "It burns easily, so let's be careful.",
      "speaker": "Akiko"
     }
    ]
   },
   {
-   "start": 322.0,
-   "end": 334.0,
+   "start": 322.4,
+   "end": 334.2,
    "title": "Great for Bento Lunches",
    "level": "N5",
    "topics": [
@@ -102,36 +101,36 @@
    ],
    "grammar": [
     "〜にも — also for",
-    "〜ましょう — let's do"
+    "〜ましょう — let's"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 322.2,
+     "start": 322.7,
      "end": 324.5,
      "ja": "いかがでしたか？",
      "en": "How was it?",
      "speaker": "Akiko"
     },
     {
-     "start": 325.0,
+     "start": 325.5,
      "end": 328.5,
      "ja": "お弁当のおかずにもおすすめです。",
-     "en": "It's also recommended as a side dish for bento boxes.",
+     "en": "It is also recommended as a side dish for bento boxes.",
      "speaker": "Akiko"
     },
     {
-     "start": 329.0,
-     "end": 331.2,
+     "start": 329.5,
+     "end": 331.4,
      "ja": "では、また会いましょう。",
      "en": "Well then, see you again.",
      "speaker": "Akiko"
     },
     {
-     "start": 331.5,
-     "end": 333.5,
-     "ja": "さようならー。",
-     "en": "Goodbye!",
+     "start": 331.9,
+     "end": 333.7,
+     "ja": "さようなら。",
+     "en": "Goodbye.",
      "speaker": "Akiko"
     }
    ]
@@ -141,5 +140,6 @@
  "pickTopics": [
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

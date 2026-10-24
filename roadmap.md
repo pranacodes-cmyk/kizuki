@@ -4,10 +4,14 @@ Flutter (`mobile/`) is the product; the web app is its phone-frame prototype.
 Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com/pranacodes-cmyk/kizuki
 
 ## Starter clips, faster video start, word levels + new store build (24 Oct)
-- [ ] Word level badges: find why some easy words show hard levels (おはよう = N2) and fix in the content pipeline; regenerate data for both apps.
-- [ ] Starter feed: pick the 40–50 best opening clips (AI + rules, all checked to really play through the official player); same curated start for everyone in the trial phone preview and the first home feed, then personal ranking. Flutter first, then web, mirrored tests.
-- [ ] Faster video start: measure startup; warm up the next clip in the background, earlier YouTube player loading, clear slow-loading state with Try again / Watch on YouTube. (480p cannot be forced: YouTube's embedded player ignores quality requests.)
-- [ ] Checks (Flutter analyze/tests, web tests, browser walk), then send build to Play internal testing + TestFlight.
+- [x] Word level badges: Waller's JLPT list ids pointed basic words at side entries (これ N5 → "hey"), greetings sat in N3–N2 — now matched by id + spelling + textbook fixes (おはよう/こんにちは/ありがとう/これ/さん → N5). Found on the way: grammar words used kanji nouns' meanings (の = 野 "field", た = 田 "rice field", ます = 増す) — matching is now part-of-speech aware. Guarded by content tests.
+- [x] Library checked through the official player (all 1,150 videos): 31 videos refuse embedding, 309 had AI timestamps past the real video end (stretched timing, subtitles out of sync). Re-timed all 309 with the real length: 167 fixed, 142 still wrong and excluded. Library now 2,562 clips / 975 videos, every clip inside its real video; content test fails if a broken window ships.
+- [x] Starter feed: AI watched ~620 candidate clips and rated them as first clips; 48 picked (37 N5, 11 N4, 44 channels), each verified playing; an AI editor ordered them for variety. Same order for everyone in the onboarding phone preview and the first home feed (until watched / 60 watched clips; N2+ learners skip very easy ones). The old greetings showcase left with its mistimed video; the top-rated clip opens now.
+- [x] Faster video start: next clip's player loads and cues in the background (both apps, never plays hidden), YouTube player code loads during the splash, early connections, "Slow connection · Tap to retry" after 9 s, pause-before-ready fixed. 480p cannot be forced (YouTube ignores quality requests in embeds; a phone-size player already gets ~360–480p).
+- [x] Checks: Flutter analyze clean + 132 tests, web 118 tests + typecheck, browser walk (tour, feed, trial preview show the same first clip, 2 players in feed / 1 in preview, no errors).
+- [ ] Android emulator test + store upload (Play internal + TestFlight) of this build — in progress.
+- [ ] Re-time the 142 still-stretched videos another way (e.g. shorter segments) or replace them with new videos to get back above 1,000 videos.
+- [ ] Real-phone check of video start speed with the warm-up (cannot be measured here).
 
 ## Simple welcome tour + plain review words (24 Oct, from phone screenshots)
 - [x] Tour cut from 19 to 12 do-what-I-point steps, Flutter first then web: no subtitles/green-box step (it lit the video), no button list, no Explore detour.
@@ -19,7 +23,7 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 - [x] Bug found in the walk: pausing a clip that was still loading crashed the web feed ("Something went wrong") — both players now queue the pause until playback starts; web regression test added.
 - [x] Mirrored tests (tour machine, plain-time wording) + Flutter analyze/tests, web tests/typecheck, browser walk of the whole tour at phone size (412×880), 4/4 repeated starts without errors.
 - [ ] Real-phone check of the new tour + Android emulator tour test: runs in the next store build (none uploaded in this task).
-- [ ] Content check: some dictionary JLPT badges look wrong (おはよう shows N2) — review the JLPT level source.
+- [x] Content check: JLPT badges fixed (see Starter clips section).
 
 ## Premium motion + haptics (24 Oct)
 - [x] Living fox: shared mirrored motion math (breathe / float / groove idle, spring entrance, squash-and-stretch hop, tap boop); entrances wait for the splash; reduced motion freezes it. Flutter first, then web.

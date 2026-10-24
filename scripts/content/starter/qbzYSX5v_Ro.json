@@ -1,0 +1,19 @@
+{
+ "videoId": "qbzYSX5v_Ro",
+ "ids": [
+  "qbzYSX5v_Ro-224"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "qbzYSX5v_Ro-224": {
+   "id": "qbzYSX5v_Ro-224",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Lively family interaction with natural, casual outdoor conversation."
+  }
+ }
+}

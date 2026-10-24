@@ -1,19 +1,30 @@
 {
  "videoId": "-e_uejZwX7U",
  "ids": [
-  "-e_uejZwX7U-39"
+  "-e_uejZwX7U-39",
+  "-e_uejZwX7U-451"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
   "-e_uejZwX7U-39": {
    "id": "-e_uejZwX7U-39",
-   "appeal": 3,
+   "appeal": 4,
    "clarity": 4,
    "picture": 2,
-   "ease": 3,
+   "ease": 4,
    "english": false,
    "issues": [],
-   "why": "Very clear, slow reading pace, but visual is just website text."
+   "why": "Very clear and slow reading, but visually just a static webpage."
+  },
+  "-e_uejZwX7U-451": {
+   "id": "-e_uejZwX7U-451",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Slow and intelligible Japanese, but text-heavy presentation lacks visual engagement."
   }
  }
 }

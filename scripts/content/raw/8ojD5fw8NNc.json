@@ -2,195 +2,191 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 0.0,
-   "end": 15.6,
+   "start": 0.5,
+   "end": 16.0,
    "title": "Welcome to the Logo Quiz!",
    "level": "N4",
    "topics": [
     "fun"
    ],
    "grammar": [
-    "〜へようこそ — welcome to",
-    "〜れる (見破れる) — potential form",
-    "〜以上 — or more / greater than or equal to"
+    "〜れる — potential form",
+    "〜以上 — or more / over"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 0.0,
-     "end": 2.5,
+     "start": 0.6,
+     "end": 2.3,
      "ja": "クイズの達人へようこそ！",
      "en": "Welcome to Quiz Master!",
      "speaker": "Narrator"
     },
     {
-     "start": 2.5,
-     "end": 5.4,
-     "ja": "今日のテーマは…ロゴクイズ！",
-     "en": "Today's theme is... the Logo Quiz!",
+     "start": 2.8,
+     "end": 4.1,
+     "ja": "今日のテーマは...",
+     "en": "Today's theme is...",
      "speaker": "Narrator"
     },
     {
-     "start": 5.4,
-     "end": 7.9,
+     "start": 4.2,
+     "end": 5.5,
+     "ja": "ロゴクイズ！",
+     "en": "Logo Quiz!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 5.6,
+     "end": 8.0,
      "ja": "キミは正しいロゴを見破れるかな？",
      "en": "Can you spot the correct logo?",
      "speaker": "Narrator"
     },
     {
-     "start": 7.9,
-     "end": 10.0,
-     "ja": "問題は全部で３０問！",
+     "start": 8.3,
+     "end": 10.1,
+     "ja": "問題はぜんぶで30問！",
      "en": "There are 30 questions in total!",
      "speaker": "Narrator"
     },
     {
-     "start": 10.0,
-     "end": 12.0,
-     "ja": "２１問以上正解で…",
-     "en": "Get 21 or more right, and...",
+     "start": 10.4,
+     "end": 12.3,
+     "ja": "21問以上正解で...",
+     "en": "If you get 21 or more correct...",
      "speaker": "Narrator"
     },
     {
-     "start": 12.0,
+     "start": 12.5,
      "end": 14.0,
      "ja": "キミはロゴマスターだ！",
-     "en": "You're a Logo Master!",
+     "en": "You're a logo master!",
      "speaker": "Narrator"
     },
     {
-     "start": 14.0,
-     "end": 15.6,
-     "ja": "さぁ、始めるよ！",
+     "start": 14.3,
+     "end": 15.8,
+     "ja": "さあ、始めるよ！",
      "en": "Now, let's get started!",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 332.8,
-   "end": 357.2,
+   "start": 333.0,
+   "end": 344.0,
    "title": "Olympic Rings Challenge Quiz",
    "level": "N3",
    "topics": [
-    "culture",
     "sports",
-    "fun"
+    "culture"
    ],
    "grammar": [
-    "〜を表している — expressing / representing",
-    "それとも — or (alternative question)",
-    "〜てね — casual request"
+    "〜ている — ongoing state/meaning",
+    "それとも — or (alternative)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 332.8,
+     "start": 333.0,
      "end": 334.5,
      "ja": "チャレンジクイズ！",
-     "en": "Challenge Quiz!",
+     "en": "Challenge quiz!",
      "speaker": "Narrator"
     },
     {
-     "start": 334.5,
-     "end": 338.8,
-     "ja": "オリンピックの５つの輪のロゴは、何を表しているでしょう？",
-     "en": "What do the five Olympic rings represent?",
+     "start": 334.6,
+     "end": 338.7,
+     "ja": "オリンピックの5つの輪のロゴは、何を表しているでしょう？",
+     "en": "What do the five rings of the Olympic logo represent?",
      "speaker": "Narrator"
     },
     {
      "start": 338.8,
-     "end": 340.3,
-     "ja": "５種類のスポーツ、",
-     "en": "Five types of sports,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 340.3,
-     "end": 341.8,
-     "ja": "世界の５大陸、",
-     "en": "the world's five continents,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 341.8,
-     "end": 344.0,
-     "ja": "それとも５つの大会ルール？",
-     "en": "or five competition rules?",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 349.0,
-     "end": 352.5,
-     "ja": "答えは、世界の５大陸！",
-     "en": "The answer is the world's five continents!",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 353.0,
-     "end": 357.2,
-     "ja": "正解した人は「チャレンジ成功！」とコメントで教えてね！",
-     "en": "If you got it right, let us know in the comments by saying 'Challenge Success!'",
+     "end": 343.7,
+     "ja": "5種類のスポーツ？世界の5大陸？それとも5つの大会ルール？",
+     "en": "Five types of sports? The world's five continents? Or five tournament rules?",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 1012.7,
-   "end": 1030.3,
-   "title": "Time to Score Your Quiz",
+   "start": 1013.0,
+   "end": 1030.5,
+   "title": "Scoring Time and Logo Master",
    "level": "N4",
    "topics": [
     "fun",
     "daily"
    ],
    "grammar": [
-    "〜よう (採点しよう) — let's ... (volitional form)",
-    "〜ないでね — please don't ...",
-    "〜待ってる — waiting (contracted 〜ている)"
+    "〜よう — volitional form (let's do)",
+    "〜ないで — please don't"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1012.8,
-     "end": 1015.8,
-     "ja": "採点しよう！キミは何問正解できたかな？",
-     "en": "Let's check your score! How many did you get right?",
+     "start": 1013.2,
+     "end": 1015.0,
+     "ja": "採点しよう！",
+     "en": "Let's check your score!",
      "speaker": "Narrator"
     },
     {
-     "start": 1015.8,
-     "end": 1018.0,
+     "start": 1015.1,
+     "end": 1017.2,
+     "ja": "キミは何問正解できたかな？",
+     "en": "How many did you get right?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1017.3,
+     "end": 1018.8,
      "ja": "コメントで教えてね！",
      "en": "Let us know in the comments!",
      "speaker": "Narrator"
     },
     {
-     "start": 1018.0,
-     "end": 1022.2,
-     "ja": "２１問以上正解できたキミは…ロゴマスターだ！",
-     "en": "If you got 21 or more right, you're a Logo Master!",
+     "start": 1018.9,
+     "end": 1021.2,
+     "ja": "21問以上正解できたキミは...",
+     "en": "If you got 21 or more right...",
      "speaker": "Narrator"
     },
     {
-     "start": 1022.2,
-     "end": 1024.0,
+     "start": 1021.3,
+     "end": 1022.8,
+     "ja": "ロゴマスターだ！",
+     "en": "You're a logo master!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1022.9,
+     "end": 1023.9,
      "ja": "おめでとう！",
      "en": "Congratulations!",
      "speaker": "Narrator"
     },
     {
      "start": 1024.0,
-     "end": 1028.0,
-     "ja": "次回のクイズもお楽しみに！チャンネル登録を忘れないでね！",
-     "en": "Look forward to the next quiz! Don't forget to subscribe to the channel!",
+     "end": 1026.0,
+     "ja": "次回のクイズもお楽しみに！",
+     "en": "Look forward to the next quiz!",
      "speaker": "Narrator"
     },
     {
-     "start": 1028.0,
-     "end": 1030.3,
+     "start": 1026.1,
+     "end": 1028.0,
+     "ja": "チャンネル登録を忘れないでね！",
+     "en": "Don't forget to subscribe to the channel!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 1028.1,
+     "end": 1030.2,
      "ja": "またキミのチャレンジを待ってるよ！",
-     "en": "I'll be waiting for your challenge again!",
+     "en": "We'll be waiting for your next challenge!",
      "speaker": "Narrator"
     }
    ]
@@ -200,5 +196,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -1,12 +1,12 @@
 {
  "videoId": "E8kDNoWAeSk",
  "ids": [
-  "E8kDNoWAeSk-2"
+  "E8kDNoWAeSk-0"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "E8kDNoWAeSk-2": {
-   "id": "E8kDNoWAeSk-2",
+  "E8kDNoWAeSk-0": {
+   "id": "E8kDNoWAeSk-0",
    "appeal": 5,
    "clarity": 3,
    "picture": 3,
@@ -15,7 +15,7 @@
    "issues": [
     "starts mid-sentence"
    ],
-   "why": "Fast casual Japanese with stumbles, making it difficult for beginners."
+   "why": "Fast conversational delivery and word fumbling make comprehension challenging for beginners."
   }
  }
 }

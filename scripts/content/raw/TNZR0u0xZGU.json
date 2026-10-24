@@ -2,26 +2,26 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 30.0,
+   "start": 29.5,
    "end": 46.8,
-   "title": "Have You Heard of Wasabi Terrorism?",
-   "level": "N3",
+   "title": "Have you heard of wasabi terrorism?",
+   "level": "N4",
    "topics": [
     "food",
     "culture"
    ],
    "grammar": [
-    "〜について — regarding / about",
-    "〜ことがある — to have experienced",
-    "〜っていう — called / that says"
+    "〜について — about / regarding",
+    "〜たことがある — have experienced doing",
+    "〜という — called / saying that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 30.2,
+     "start": 29.8,
      "end": 33.2,
      "ja": "わさびテロ事件について聞いたことはありますか？",
-     "en": "Have you ever heard of 'wasabi terrorism'?",
+     "en": "Have you ever heard of the \"wasabi terrorism\" incident?",
      "speaker": "Interviewer"
     },
     {
@@ -33,149 +33,142 @@
     },
     {
      "start": 34.5,
-     "end": 35.5,
-     "ja": "はい、あります。",
-     "en": "Yes, I have.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 35.6,
-     "end": 36.9,
+     "end": 36.5,
      "ja": "どんな事件ですか？",
      "en": "Can you tell us what it is?",
      "speaker": "Interviewer"
     },
     {
-     "start": 37.0,
-     "end": 40.0,
+     "start": 36.8,
+     "end": 39.6,
      "ja": "えっと、大阪にあるお寿司屋さんで、",
-     "en": "A sushi restaurant in Osaka...",
+     "en": "At a sushi restaurant in Osaka...",
      "speaker": "Woman"
     },
     {
-     "start": 40.1,
-     "end": 42.9,
+     "start": 39.7,
+     "end": 42.8,
      "ja": "中国人とか韓国人のお客さんに、",
-     "en": "served Korean and Chinese customers...",
+     "en": "to Chinese and Korean customers...",
      "speaker": "Woman"
     },
     {
      "start": 43.0,
-     "end": 46.4,
+     "end": 46.5,
      "ja": "わさびを大量に入れたお寿司を提供するっていう。",
-     "en": "sushi with too much wasabi on purpose.",
+     "en": "they served sushi with huge amounts of wasabi.",
      "speaker": "Woman"
     }
    ]
   },
   {
-   "start": 305.4,
-   "end": 320.0,
-   "title": "Perception of Chinese People in Japan",
+   "start": 119.2,
+   "end": 135.5,
+   "title": "Serving Wasabi on the Side",
    "level": "N3",
    "topics": [
-    "culture",
-    "daily"
-   ],
-   "grammar": [
-    "〜による — depending on",
-    "〜んじゃない — isn't it / I suppose",
-    "〜とか — things like / such as"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 305.6,
-     "end": 307.5,
-     "ja": "逆に中国はどういう感じですかね？",
-     "en": "What's your perception of the Chinese?",
-     "speaker": "Interviewer"
-    },
-    {
-     "start": 307.7,
-     "end": 310.4,
-     "ja": "人に寄るんじゃないっていう解釈ですね。",
-     "en": "I think it really depends on the individual.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 310.5,
-     "end": 313.2,
-     "ja": "なんか一般的にはどんな感じなんですか？",
-     "en": "But what's the typical perception of them?",
-     "speaker": "Interviewer"
-    },
-    {
-     "start": 313.4,
-     "end": 315.8,
-     "ja": "一般的にはマナーが悪いとか、",
-     "en": "Bad manners...",
-     "speaker": "Woman"
-    },
-    {
-     "start": 316.1,
-     "end": 319.4,
-     "ja": "あの、普段の話す声が大きいとか。",
-     "en": "They talk very loudly...",
-     "speaker": "Woman"
-    }
-   ]
-  },
-  {
-   "start": 537.0,
-   "end": 556.5,
-   "title": "Generational Gap Regarding History",
-   "level": "N2",
-   "topics": [
+    "food",
     "culture"
    ],
    "grammar": [
-    "〜てくる — progressive change / up until now",
-    "〜し — listing reasons",
-    "〜ところがある — to have an aspect of / tendency to"
+    "〜わけだから — because it is the case that",
+    "〜べき — should / ought to",
+    "たとえ〜ても — even if"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 537.3,
-     "end": 542.0,
-     "ja": "年配の方々と若者の間の意見のギャップって大きいと思いますか？",
-     "en": "Is there a gap between the way the old and new generation think?",
+     "start": 119.4,
+     "end": 122.4,
+     "ja": "お客さん一人一人好みは違うわけだから、",
+     "en": "Every customer has different preferences,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 122.5,
+     "end": 125.0,
+     "ja": "全員にそうするべきじゃなかったと思うし、",
+     "en": "so I don't think they should've served it like that.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 125.1,
+     "end": 128.4,
+     "ja": "たとえわさび大量に欲しいって言っても、",
+     "en": "Even if someone said they wanted a lot of wasabi,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 128.6,
+     "end": 130.6,
+     "ja": "中にいっぱい入れて出すんじゃなくて、",
+     "en": "rather than putting a lot inside,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 130.8,
+     "end": 132.6,
+     "ja": "外付けというか横につけるとか、",
+     "en": "serving it on the side,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 132.7,
+     "end": 135.3,
+     "ja": "いう出し方があったんじゃないかなって思います。",
+     "en": "was an option they could have chosen.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 489.0,
+   "end": 507.2,
+   "title": "Historical Knowledge Among Youth",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "school"
+   ],
+   "grammar": [
+    "〜と比べると — compared with",
+    "あえて〜 — deliberately / daring to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 489.3,
+     "end": 495.7,
+     "ja": "日本と韓国や中国の歴史的な背景って、日本人の若い人たちって結構ご存知だと思いますか？",
+     "en": "Do you think young Japanese people are well aware of the historical background between Japan, Korea, and China?",
      "speaker": "Interviewer"
     },
     {
-     "start": 542.1,
-     "end": 543.8,
-     "ja": "大きいと思います。",
-     "en": "Yes, there is.",
+     "start": 496.0,
+     "end": 499.8,
+     "ja": "韓国とか中国の学生と日本の学生を比べると、",
+     "en": "Comparing students in Korea and China with Japanese students,",
      "speaker": "Man"
     },
     {
-     "start": 543.9,
-     "end": 548.4,
-     "ja": "僕らはもう、その、なんて言うんすか、見てきてないんで、",
-     "en": "The youth don't know much about the history...",
+     "start": 499.9,
+     "end": 502.0,
+     "ja": "日本の学生の知識はすごい少ないと思います。",
+     "en": "I think Japanese students know very little.",
      "speaker": "Man"
     },
     {
-     "start": 548.5,
-     "end": 550.0,
-     "ja": "そんな歴史も知らないし。",
-     "en": "...because we haven't seen it ourselves.",
+     "start": 502.1,
+     "end": 504.2,
+     "ja": "そういうところにあえて触れない、",
+     "en": "They deliberately avoid touching on those topics,",
      "speaker": "Man"
     },
     {
-     "start": 550.1,
-     "end": 554.0,
-     "ja": "でもやっぱり年配の人はそれなりに、体験じゃないすけど、",
-     "en": "Whereas the older generation has actually experienced it.",
-     "speaker": "Man"
-    },
-    {
-     "start": 554.1,
-     "end": 556.2,
-     "ja": "やっぱりその経験で物を言うところがあるんで。",
-     "en": "They speak from their own experiences.",
+     "start": 504.4,
+     "end": 506.8,
+     "ja": "あの、そういうバックグラウンドがあるので。",
+     "en": "because of that kind of background.",
      "speaker": "Man"
     }
    ]
@@ -185,5 +178,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

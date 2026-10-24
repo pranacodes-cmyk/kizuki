@@ -2,166 +2,165 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 24.0,
-   "end": 33.2,
-   "title": "Which Guys Are the Most Handsome?",
-   "level": "N4",
-   "topics": [
-    "romance",
-    "culture"
-   ],
-   "grammar": [
-    "〜て、〜 — connective te-form",
-    "〜と思う — I think that ~"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 24.3,
-     "end": 26.0,
-     "ja": "日本人。",
-     "en": "Japanese guys.",
-     "speaker": "Woman A"
-    },
-    {
-     "start": 26.2,
-     "end": 28.0,
-     "ja": "スペイン人、スペイン人。",
-     "en": "Spanish guys, Spanish guys.",
-     "speaker": "Woman B"
-    },
-    {
-     "start": 28.0,
-     "end": 30.2,
-     "ja": "ヨーロッパ人、やっぱかっこいいと思う。",
-     "en": "I think European guys are handsome after all.",
-     "speaker": "Woman B"
-    },
-    {
-     "start": 30.2,
-     "end": 33.1,
-     "ja": "背が高くて、なんか目の色がきれい。",
-     "en": "They are tall, and their eye colors are pretty.",
-     "speaker": "Woman B"
-    }
-   ]
-  },
-  {
-   "start": 149.0,
-   "end": 210.5,
-   "title": "Why I Prefer Dating Latin Men",
+   "start": 4.4,
+   "end": 24.3,
+   "title": "Which Countries Have the Cutest Guys?",
    "level": "N3",
    "topics": [
     "romance",
-    "culture",
-    "family"
+    "culture"
    ],
    "grammar": [
-    "〜なら — conditional if / in the case of",
-    "〜たり〜たりする — doing things like ~ and ~"
+    "〜系 — type / style",
+    "〜けど — although / but"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 149.3,
-     "end": 151.3,
-     "ja": "むしろ外国人がいい。",
-     "en": "Rather, I prefer foreign men.",
-     "speaker": "Woman"
+     "start": 4.6,
+     "end": 6.0,
+     "ja": "イタリア？",
+     "en": "Italy?",
+     "speaker": "A"
     },
     {
-     "start": 151.4,
-     "end": 154.2,
-     "ja": "スペイン人か南米の人。",
-     "en": "Spanish men or South Americans.",
-     "speaker": "Woman"
+     "start": 6.4,
+     "end": 8.0,
+     "ja": "あ、確かに。",
+     "en": "Ah, that's true.",
+     "speaker": "B"
     },
     {
-     "start": 154.3,
-     "end": 157.2,
-     "ja": "スペイン語喋れる人なら誰でもいい。",
-     "en": "Anyone who speaks Spanish is fine.",
-     "speaker": "Woman"
+     "start": 8.5,
+     "end": 10.8,
+     "ja": "ヨーロッパ系かな？多分。",
+     "en": "European guys maybe, probably.",
+     "speaker": "A"
     },
     {
-     "start": 157.3,
-     "end": 200.0,
-     "ja": "なんかスペイン、ラテン系の文化が自分に合ってる。",
-     "en": "I feel like Spanish, Latin culture fits me.",
-     "speaker": "Woman"
+     "start": 11.0,
+     "end": 14.5,
+     "ja": "「レディーファースト」が有名な感じしない？",
+     "en": "Don't you feel like they're famous for \"ladies first\"?",
+     "speaker": "B"
     },
     {
-     "start": 200.0,
-     "end": 203.5,
-     "ja": "なんか休みの日は家族で集まって、みんなでご飯とか、",
-     "en": "Like gathering with family on days off and having dinner together,",
-     "speaker": "Woman"
+     "start": 14.7,
+     "end": 19.4,
+     "ja": "女の人に優しい、けど、チャラ男ってイメージもあるから。",
+     "en": "They're kind to women, but they also have that playboy image.",
+     "speaker": "A"
     },
     {
-     "start": 203.5,
-     "end": 205.8,
-     "ja": "音楽流して踊ったりとか、",
-     "en": "playing music and dancing,",
-     "speaker": "Woman"
+     "start": 19.5,
+     "end": 22.5,
+     "ja": "なんか日本人以外はみんなレディーファーストな感じしない？",
+     "en": "Don't you feel like everyone except Japanese guys does ladies first?",
+     "speaker": "B"
     },
     {
-     "start": 205.8,
-     "end": 209.9,
-     "ja": "仕事もするけど、なんか好きな人との時間を取るとこみたいな。",
-     "en": "and working hard, but making time for the people they love.",
-     "speaker": "Woman"
+     "start": 22.6,
+     "end": 24.2,
+     "ja": "わかんないけど。",
+     "en": "I don't know, though.",
+     "speaker": "B"
     }
    ]
   },
   {
-   "start": 511.0,
-   "end": 529.8,
-   "title": "What's Great About Being Straightforward",
-   "level": "N2",
+   "start": 57.2,
+   "end": 115.0,
+   "title": "Expectations from Dating Foreign Men",
+   "level": "N3",
    "topics": [
     "romance",
     "culture"
    ],
    "grammar": [
-    "〜そう — looks like / seems like",
-    "〜てくれる — to do something for someone's sake"
+    "〜より(も) — comparison (more than)",
+    "〜そう — looks like / seems like"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 511.0,
-     "end": 513.6,
-     "ja": "ストレート。",
-     "en": "They can be straightforward.",
-     "speaker": "Woman"
+     "start": 57.4,
+     "end": 59.8,
+     "ja": "あ、思います。思います、思います。",
+     "en": "Ah, I do. Sure, I do.",
+     "speaker": "A"
     },
     {
-     "start": 513.6,
-     "end": 518.4,
-     "ja": "なんかこう、ごにょごにょ裏でこうコソコソしたりとか、",
-     "en": "Rather than mumbling or sneaking behind your back,",
-     "speaker": "Woman"
+     "start": 60.0,
+     "end": 64.8,
+     "ja": "日本人よりもすごい何て言うかね、ダンディーな感じするよね。",
+     "en": "I feel like they're way more, how should I put it, sophisticated than Japanese men.",
+     "speaker": "B"
     },
     {
-     "start": 518.4,
-     "end": 522.5,
-     "ja": "なんか「こう言ったらこうだから、こう言っとこう」とかじゃなくて、",
-     "en": "or calculating like, 'If I say this, she'll think that, so I'll say this,'",
-     "speaker": "Woman"
+     "start": 65.0,
+     "end": 69.5,
+     "ja": "なんか全てにおいてこうエスコートしてくれそう。",
+     "en": "I feel like they'd gently lead me through every situation.",
+     "speaker": "A"
     },
     {
-     "start": 522.5,
-     "end": 526.5,
-     "ja": "思ったことを素直に言ってくれそうなところは、",
-     "en": "the way they speak their mind honestly",
-     "speaker": "Woman"
+     "start": 69.6,
+     "end": 71.7,
+     "ja": "そういう期待があります。",
+     "en": "I have that kind of expectation.",
+     "speaker": "A"
     },
     {
-     "start": 526.5,
-     "end": 529.5,
-     "ja": "すごく素敵だなと思います。",
-     "en": "is something I think is really wonderful.",
-     "speaker": "Woman"
+     "start": 71.8,
+     "end": 74.6,
+     "ja": "あと愛情表現がちゃんとしてくれそう。",
+     "en": "Also, it seems like they'd express their affection properly.",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 131.5,
+   "end": 152.0,
+   "title": "Why I Prefer Dating Japanese Men",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "culture"
+   ],
+   "grammar": [
+    "〜てしまう — expressing regret / inadvertence",
+    "〜たら — conditional (if / when)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 131.8,
+     "end": 136.8,
+     "ja": "なんか日本の生ぬるい感じで生きてきちゃったんで、",
+     "en": "I've always lived comfortably in Japanese culture, so...",
+     "speaker": "A"
+    },
+    {
+     "start": 137.0,
+     "end": 140.5,
+     "ja": "外国の文化とかもよくわからないし、",
+     "en": "I don't really understand foreign cultures, and...",
+     "speaker": "A"
+    },
+    {
+     "start": 141.0,
+     "end": 145.5,
+     "ja": "なんか、何だろう、日本人がいいです。",
+     "en": "How should I put it, I prefer Japanese guys.",
+     "speaker": "A"
+    },
+    {
+     "start": 145.8,
+     "end": 151.8,
+     "ja": "でも外国人だけどずっと日本で生まれ育ったみたいな人だったら別です。",
+     "en": "But if he's a foreigner who was born and raised in Japan the whole time, that's different.",
+     "speaker": "A"
     }
    ]
   }
@@ -170,5 +169,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

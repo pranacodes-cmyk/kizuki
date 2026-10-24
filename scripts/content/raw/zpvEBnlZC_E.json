@@ -2,194 +2,196 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 430.0,
-   "end": 445.8,
-   "title": "Heading Out After Lunch",
+   "start": 136.2,
+   "end": 157.5,
+   "title": "Getting Ready and Plans for the Day",
    "level": "N4",
    "topics": [
     "daily",
-    "family"
+    "food",
+    "friends"
    ],
    "grammar": [
-    "〜に行く — go to do something",
-    "〜てくる — go and come back"
-   ],
-   "quality": 4,
-   "lines": [
-    {
-     "start": 430.3,
-     "end": 436.5,
-     "ja": "お昼食べたので、私は友達に会いにいきます。",
-     "en": "Now that we've had lunch, I'm going to meet a friend.",
-     "speaker": "Makoto"
-    },
-    {
-     "start": 436.5,
-     "end": 438.8,
-     "ja": "からの美容室。",
-     "en": "And after that, the hair salon.",
-     "speaker": "Makoto"
-    },
-    {
-     "start": 439.0,
-     "end": 443.0,
-     "ja": "私はまつりと一緒に、まずは...",
-     "en": "As for me, with Matsuri, first...",
-     "speaker": "Makoto"
-    },
-    {
-     "start": 443.0,
-     "end": 444.8,
-     "ja": "ちょっと散歩に行ってきます。",
-     "en": "We're going to go for a quick walk.",
-     "speaker": "Dad"
-    },
-    {
-     "start": 444.8,
-     "end": 445.8,
-     "ja": "行ってきます。",
-     "en": "See you!",
-     "speaker": "Makoto"
-    }
-   ]
-  },
-  {
-   "start": 502.0,
-   "end": 524.0,
-   "title": "Will the New Hair Color Last?",
-   "level": "N3",
-   "topics": [
-    "daily",
-    "fun"
-   ],
-   "grammar": [
-    "〜てもらう — have someone do something",
-    "〜用 — for the use/purpose of",
-    "〜でしょう — probably / won't it"
+    "〜ていく — go to do",
+    "〜予定 — plan to",
+    "〜ので — because/since"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 502.2,
-     "end": 506.5,
-     "ja": "オレンジをまた追加で濃いめに入れてもらいました。",
-     "en": "I had them add more orange and make it a bit darker.",
-     "speaker": "Makoto"
+     "start": 136.2,
+     "end": 139.5,
+     "ja": "さっとメイクして、もう早速着替えました。",
+     "en": "I did some quick makeup and already changed my clothes.",
+     "speaker": "Mom"
     },
     {
-     "start": 507.0,
-     "end": 508.5,
-     "ja": "追いオレンジね。",
-     "en": "Extra orange, right.",
-     "speaker": "Stylist"
+     "start": 140.8,
+     "end": 142.2,
+     "ja": "今日は、えっと、",
+     "en": "Today, um,",
+     "speaker": "Mom"
     },
     {
-     "start": 508.7,
-     "end": 510.5,
-     "ja": "追いオレンジしました。",
-     "en": "I went for extra orange.",
-     "speaker": "Makoto"
+     "start": 142.5,
+     "end": 146.4,
+     "ja": "夕方ぐらいに友達と会う予定があるんですけど、",
+     "en": "I have plans to meet a friend in the evening,",
+     "speaker": "Mom"
     },
     {
-     "start": 510.7,
-     "end": 514.2,
-     "ja": "来週と再来週はえーと、バッグのイベントがあって、",
-     "en": "Next week and the week after, I have bag events,",
-     "speaker": "Makoto"
+     "start": 146.5,
+     "end": 149.0,
+     "ja": "その前にちょっとお腹空いたので、",
+     "en": "but I got a little hungry before that,",
+     "speaker": "Mom"
     },
     {
-     "start": 514.2,
-     "end": 517.0,
-     "ja": "それ用に入れたんですけど、",
-     "en": "so I colored it for that, but...",
-     "speaker": "Makoto"
+     "start": 149.2,
+     "end": 151.8,
+     "ja": "ランチしに行ってきたいと思います。",
+     "en": "so I think I'll go grab some lunch.",
+     "speaker": "Mom"
     },
     {
-     "start": 517.0,
-     "end": 519.0,
-     "ja": "持ちますかね？このオレンジ。",
-     "en": "Will it last? This orange color.",
-     "speaker": "Makoto"
+     "start": 152.0,
+     "end": 154.0,
+     "ja": "ちょっとパパとマツリは",
+     "en": "Dad and Matsuri already",
+     "speaker": "Mom"
     },
     {
-     "start": 519.0,
-     "end": 520.8,
-     "ja": "持たないでしょう。",
-     "en": "Probably not.",
-     "speaker": "Stylist"
+     "start": 154.1,
+     "end": 155.8,
+     "ja": "先に行ったので、",
+     "en": "went ahead,",
+     "speaker": "Mom"
     },
     {
-     "start": 521.0,
-     "end": 522.0,
-     "ja": "きゅう！",
-     "en": "Gah!",
-     "speaker": "Makoto"
-    },
-    {
-     "start": 522.0,
-     "end": 523.8,
-     "ja": "ズバリ持たないでしょう。",
-     "en": "Frankly speaking, it probably won't.",
-     "speaker": "Stylist"
+     "start": 156.0,
+     "end": 157.0,
+     "ja": "追いかけます。",
+     "en": "so I'll catch up with them.",
+     "speaker": "Mom"
     }
    ]
   },
   {
-   "start": 1416.0,
-   "end": 1438.5,
-   "title": "Tantan Soup for Lunch",
-   "level": "N3",
+   "start": 269.8,
+   "end": 284.5,
+   "title": "Parting Ways After Lunch",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family",
+    "friends"
+   ],
+   "grammar": [
+    "〜にいく — go to do",
+    "〜てくる — go and come back"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 270.0,
+     "end": 272.0,
+     "ja": "えー、お昼食べたので、",
+     "en": "So, we finished lunch,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 272.2,
+     "end": 275.5,
+     "ja": "私は友達に会いに行きます。",
+     "en": "and I'm off to meet my friend.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 276.5,
+     "end": 278.2,
+     "ja": "からの、美容室。",
+     "en": "And after that, the hair salon.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 278.8,
+     "end": 281.0,
+     "ja": "ぼくはマツリと一緒に、",
+     "en": "Matsuri and I will,",
+     "speaker": "Dad"
+    },
+    {
+     "start": 281.2,
+     "end": 284.0,
+     "ja": "まずは公園行ってきます。",
+     "en": "first head to the park.",
+     "speaker": "Dad"
+    }
+   ]
+  },
+  {
+   "start": 856.8,
+   "end": 875.2,
+   "title": "Serving Sesame Miso Tan-Tan Soup",
+   "level": "N4",
    "topics": [
     "food",
     "daily"
    ],
    "grammar": [
-    "〜気がする — have a feeling that",
-    "〜ていた — past continuous / habitual state"
+    "〜気がする — to feel like / have a hunch",
+    "〜ていた — past continuous"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1416.5,
-     "end": 1421.5,
-     "ja": "無印の胡麻味噌担々スープ、半熟卵のせです。",
-     "en": "This is Muji's sesame miso tantan soup with a soft-boiled egg on top.",
-     "speaker": "Makoto"
+     "start": 857.0,
+     "end": 859.5,
+     "ja": "無印の胡麻味噌担々スープ、",
+     "en": "This is MUJI's sesame miso tan-tan soup,",
+     "speaker": "Mom"
     },
     {
-     "start": 1421.7,
-     "end": 1424.5,
-     "ja": "いただきます。",
-     "en": "Let's eat.",
-     "speaker": "Makoto"
+     "start": 859.6,
+     "end": 861.5,
+     "ja": "半熟卵乗せでーす！",
+     "en": "topped with a soft-boiled egg!",
+     "speaker": "Mom"
     },
     {
-     "start": 1424.7,
-     "end": 1426.5,
-     "ja": "美味しそう。",
-     "en": "Looks delicious.",
-     "speaker": "Makoto"
+     "start": 861.8,
+     "end": 864.2,
+     "ja": "いただきまーす！",
+     "en": "Let's eat!",
+     "speaker": "Mom"
     },
     {
-     "start": 1426.7,
-     "end": 1429.3,
-     "ja": "てかこれ美味しかった気がする。",
-     "en": "Come to think of it, I feel like this was delicious.",
-     "speaker": "Makoto"
+     "start": 865.0,
+     "end": 866.5,
+     "ja": "美味しそう！",
+     "en": "Looks delicious!",
+     "speaker": "Mom"
     },
     {
-     "start": 1429.3,
-     "end": 1433.2,
-     "ja": "結構前に買ってリピ買いしてたものなので。",
-     "en": "I bought it a while ago and kept buying it again.",
-     "speaker": "Makoto"
+     "start": 867.5,
+     "end": 870.2,
+     "ja": "てか、これ美味しかった気がする。",
+     "en": "Actually, I think this was really good.",
+     "speaker": "Mom"
     },
     {
-     "start": 1435.3,
-     "end": 1438.2,
-     "ja": "うーん、うま。",
-     "en": "Mmm, so good.",
-     "speaker": "Makoto"
+     "start": 870.5,
+     "end": 872.2,
+     "ja": "結構前に買って、",
+     "en": "I bought it quite a while ago,",
+     "speaker": "Mom"
+    },
+    {
+     "start": 872.4,
+     "end": 874.6,
+     "ja": "リピ買いしてたものなので。",
+     "en": "and it's something I kept repurchasing.",
+     "speaker": "Mom"
     }
    ]
   }
@@ -198,5 +200,6 @@
  "pickTopics": [
   "family"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

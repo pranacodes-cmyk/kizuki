@@ -1,0 +1,19 @@
+{
+ "videoId": "Ze5eFskDkGQ",
+ "ids": [
+  "Ze5eFskDkGQ-27"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Ze5eFskDkGQ-27": {
+   "id": "Ze5eFskDkGQ-27",
+   "appeal": 3,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear speech, but visuals are just a progress bar."
+  }
+ }
+}

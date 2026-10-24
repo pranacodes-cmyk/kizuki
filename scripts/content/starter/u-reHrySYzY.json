@@ -1,0 +1,21 @@
+{
+ "videoId": "u-reHrySYzY",
+ "ids": [
+  "u-reHrySYzY-139"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "u-reHrySYzY-139": {
+   "id": "u-reHrySYzY-139",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "starts mid-sentence"
+   ],
+   "why": "Starts mid-question; cute interaction with polite, casual player response."
+  }
+ }
+}

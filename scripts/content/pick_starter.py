@@ -173,11 +173,13 @@ def select(videos, cands, size, unplayable, pool_size=None, use_ai=False):
         per_video.add(c["videoId"])
         per_channel[ch] += 1
         per_level[c["level"]] += 1
-        if len(picked) >= (pool_size or size) - 1:
+        if len(picked) >= (pool_size or size):
             break
-    if use_ai and len(picked) > size - 1:
+    head = [SHOWCASE] if SHOWCASE else []
+    room = size - len(head)
+    if use_ai and len(picked) > room:
         try:
-            chosen = ai_order(videos, picked, size - 1)
+            chosen = ai_order(videos, picked, room)
             by = {c["id"]: (sc, c, r) for sc, c, r in picked}
             seq = [by[o["id"]] for o in chosen if o["id"] in by and o["id"] != SHOWCASE]
             seen_ids, ordered = set(), []
@@ -186,13 +188,13 @@ def select(videos, cands, size, unplayable, pool_size=None, use_ai=False):
                     seen_ids.add(e[1]["id"])
                     ordered.append(e)
             for e in sorted(picked, key=lambda x: -x[0]):  # top up if the editor returned fewer
-                if len(ordered) >= size - 1:
+                if len(ordered) >= room:
                     break
                 if e[1]["id"] not in seen_ids and e[1]["id"] != SHOWCASE:
                     seen_ids.add(e[1]["id"])
                     ordered.append(e)
-            ordered = ordered[: size - 1]
-            ids = [SHOWCASE] + [c["id"] for _, c, _ in ordered]
+            ordered = ordered[:room]
+            ids = head + [c["id"] for _, c, _ in ordered]
             notes = {c["id"]: {"score": round(sc, 1), "level": c["level"], "title": c["title"], "channel": videos[c["videoId"]]["channel"], "why": r.get("why", "")} for sc, c, r in ordered}
             return ids, notes
         except Exception as e:  # editor pass is optional; fall back to score order
@@ -207,7 +209,7 @@ def select(videos, cands, size, unplayable, pool_size=None, use_ai=False):
                 k = i
                 break
         ordered.append(pool.pop(k))
-    ids = [SHOWCASE] + [c["id"] for _, c, _ in ordered if c["id"] != SHOWCASE]
+    ids = head + [c["id"] for _, c, _ in ordered if c["id"] != SHOWCASE][:room]
     notes = {c["id"]: {"score": round(s, 1), "level": c["level"], "title": c["title"], "channel": videos[c["videoId"]]["channel"], "why": r.get("why", "")} for s, c, r in ordered}
     return ids, notes
 
@@ -280,8 +282,8 @@ def main():
     global SHOWCASE
     opening = sorted((c for c in clips if c["videoId"] == SHOWCASE_VIDEO), key=lambda c: c["start"])
     SHOWCASE = opening[0]["id"] if opening else None
-    if not SHOWCASE:
-        raise SystemExit(f"showcase video {SHOWCASE_VIDEO} has no clips in public/data")
+    if not SHOWCASE:  # its video failed the timing check: the editor's first pick opens instead
+        print(f"showcase video {SHOWCASE_VIDEO} has no clips now; the best-rated clip opens the starter")
     cands = candidates(videos, clips, a.max)
     print(f"candidates {len(cands)} from {len({c['videoId'] for c in cands})} videos", flush=True)
     if not a.select_only:
@@ -295,7 +297,7 @@ def main():
     unplayable_file = os.path.join(HERE, "starter-unplayable.json")
     unplayable = set(json.load(open(unplayable_file))) if os.path.exists(unplayable_file) else set()  # ids (dict keys or list)
     ids, notes = select(videos, cands, a.size, unplayable, pool_size=a.pool, use_ai=a.pool > a.size)
-    json.dump({"_about": "Curated starter feed (scripts/content/pick_starter.py). First id = onboarding showcase. Do not hand-edit; re-run the script.",
+    json.dump({"_about": "Curated starter feed (scripts/content/pick_starter.py). First id = the onboarding showcase (same for everyone). Do not hand-edit; re-run the script.",
                "ids": ids, "notes": notes}, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     lv = collections.Counter(n["level"] for n in notes.values())
     print(f"starter {len(ids)} clips, levels {dict(lv)}, channels {len({n['channel'] for n in notes.values()})}")

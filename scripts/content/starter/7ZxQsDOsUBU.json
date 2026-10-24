@@ -1,19 +1,30 @@
 {
  "videoId": "7ZxQsDOsUBU",
  "ids": [
-  "7ZxQsDOsUBU-799"
+  "7ZxQsDOsUBU-30",
+  "7ZxQsDOsUBU-531"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "7ZxQsDOsUBU-799": {
-   "id": "7ZxQsDOsUBU-799",
+  "7ZxQsDOsUBU-30": {
+   "id": "7ZxQsDOsUBU-30",
    "appeal": 6,
-   "clarity": 4,
+   "clarity": 3,
    "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple introductions and ages featuring unique street fashion personalities."
+  },
+  "7ZxQsDOsUBU-531": {
+   "id": "7ZxQsDOsUBU-531",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Clear introductions and natural street fashion conversation for beginners."
+   "why": "Amusing dialogue revealing an unexpected job title contrary to his nickname."
   }
  }
 }

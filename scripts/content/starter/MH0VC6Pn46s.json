@@ -1,21 +1,30 @@
 {
  "videoId": "MH0VC6Pn46s",
  "ids": [
-  "MH0VC6Pn46s-1037"
+  "MH0VC6Pn46s-208",
+  "MH0VC6Pn46s-637"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "MH0VC6Pn46s-1037": {
-   "id": "MH0VC6Pn46s-1037",
+  "MH0VC6Pn46s-208": {
+   "id": "MH0VC6Pn46s-208",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Amusing street vendor interaction spoken naturally at normal speed."
+  },
+  "MH0VC6Pn46s-637": {
+   "id": "MH0VC6Pn46s-637",
    "appeal": 4,
    "clarity": 4,
    "picture": 3,
    "ease": 3,
    "english": false,
-   "issues": [
-    "generic outro"
-   ],
-   "why": "Standard YouTube outro asking for likes; unengaging for beginners."
+   "issues": [],
+   "why": "Clear speech, but generic YouTube outro asking for likes."
   }
  }
 }

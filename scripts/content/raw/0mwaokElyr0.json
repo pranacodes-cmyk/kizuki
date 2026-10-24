@@ -1,44 +1,44 @@
 {
- "speech": "clear",
+ "speech": "some",
  "clips": [
   {
-   "start": 40.5,
-   "end": 50.0,
-   "title": "Greeting with Konnichiwa",
+   "start": 41.2,
+   "end": 49.3,
+   "title": "Saying Hello in Japanese",
    "level": "N5",
    "topics": [
     "daily",
     "friends"
    ],
    "grammar": [
-    "こんにちは — hello / good day"
+    "こんにちは — standard daytime greeting"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 41.5,
+     "start": 41.7,
      "end": 43.0,
      "ja": "こんにちは。",
      "en": "Hello.",
      "speaker": "Risa"
     },
     {
-     "start": 43.2,
-     "end": 45.0,
+     "start": 43.3,
+     "end": 45.1,
      "ja": "こんにちはー！",
      "en": "Hello!",
      "speaker": "Risa"
     },
     {
-     "start": 45.8,
-     "end": 47.5,
+     "start": 45.7,
+     "end": 47.0,
      "ja": "こんにちは。",
      "en": "Hello.",
      "speaker": "Risa"
     },
     {
-     "start": 47.8,
-     "end": 49.5,
+     "start": 47.6,
+     "end": 49.0,
      "ja": "こんにちは。",
      "en": "Hello.",
      "speaker": "Risa"
@@ -47,16 +47,16 @@
   },
   {
    "start": 132.5,
-   "end": 145.8,
+   "end": 145.5,
    "title": "Answering the Phone in Japanese",
    "level": "N5",
    "topics": [
     "daily",
-    "comedy",
-    "fun"
+    "fun",
+    "comedy"
    ],
    "grammar": [
-    "もしもし — hello (on the phone)"
+    "もしもし — telephone greeting"
    ],
    "quality": 5,
    "lines": [
@@ -68,31 +68,24 @@
      "speaker": "Risa"
     },
     {
-     "start": 135.2,
-     "end": 136.8,
+     "start": 135.0,
+     "end": 136.6,
      "ja": "こんにちは！",
      "en": "Hello!",
      "speaker": "Bear"
     },
     {
      "start": 137.5,
-     "end": 140.2,
+     "end": 140.0,
      "ja": "もしもし。",
-     "en": "Moshi moshi.",
+     "en": "Say moshi-moshi.",
      "speaker": "Risa"
     },
     {
-     "start": 141.5,
-     "end": 143.0,
-     "ja": "もしもし！",
-     "en": "Hello!",
-     "speaker": "Bear"
-    },
-    {
-     "start": 143.5,
-     "end": 145.2,
-     "ja": "もしもし？",
-     "en": "Hello?",
+     "start": 141.2,
+     "end": 145.0,
+     "ja": "もしもーし！もしもし？",
+     "en": "Hello! Hello?",
      "speaker": "Bear"
     }
    ]
@@ -102,5 +95,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

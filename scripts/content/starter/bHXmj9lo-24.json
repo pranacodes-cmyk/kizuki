@@ -1,0 +1,21 @@
+{
+ "videoId": "bHXmj9lo-24",
+ "ids": [
+  "bHXmj9lo-24-208"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "bHXmj9lo-24-208": {
+   "id": "bHXmj9lo-24-208",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Cute, casual everyday reaction to opening a toy capsule."
+  }
+ }
+}

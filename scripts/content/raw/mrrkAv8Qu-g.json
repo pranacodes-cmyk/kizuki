@@ -2,199 +2,157 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 42.8,
-   "end": 56.5,
-   "title": "Did You Eat Dinner?",
-   "level": "N5",
-   "topics": [
-    "daily",
-    "food"
-   ],
-   "grammar": [
-    "〜ました — past polite verb",
-    "〜でしょう — guessing / wondering"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 43.1,
-     "end": 44.5,
-     "ja": "ご飯食べましたか？",
-     "en": "Did you eat dinner?",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 44.7,
-     "end": 47.1,
-     "ja": "ね？ご飯、夜ご飯を食べました？",
-     "en": "Right? A meal, did you eat dinner?",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 47.7,
-     "end": 50.1,
-     "ja": "うん、僕は食べました。ね？",
-     "en": "Yeah, I ate. You know?",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 50.8,
-     "end": 52.8,
-     "ja": "僕は何を食べたでしょう？ね？",
-     "en": "What do you think I ate?",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 53.1,
-     "end": 56.0,
-     "ja": "僕はうどんを食べました。うどん。",
-     "en": "I ate udon. Udon.",
-     "speaker": "Teppei"
-    }
-   ]
-  },
-  {
-   "start": 123.5,
-   "end": 145.2,
-   "title": "Do You Like Japanese Food?",
-   "level": "N5",
-   "topics": [
-    "food",
-    "culture"
-   ],
-   "grammar": [
-    "〜が好き — like something",
-    "〜というのは — defining / explaining"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 123.9,
-     "end": 126.5,
-     "ja": "皆さんはどんな食べ物が好きですか？",
-     "en": "What kind of food do you like, everyone?",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 126.7,
-     "end": 128.0,
-     "ja": "日本食？",
-     "en": "Japanese food?",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 128.5,
-     "end": 131.7,
-     "ja": "日本食っていうのは、まあ、和食、",
-     "en": "Japanese food means, well, traditional food,",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 131.9,
-     "end": 134.4,
-     "ja": "日本食、和食、日本料理、ね、",
-     "en": "Japanese food, traditional food, Japanese cooking,",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 134.7,
-     "end": 136.2,
-     "ja": "日本の食べ物ですね。",
-     "en": "Japanese food, right?",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 136.6,
-     "end": 138.8,
-     "ja": "日本の食べ物が好きですか？皆さん。",
-     "en": "Do you like Japanese food, everyone?",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 139.2,
-     "end": 141.6,
-     "ja": "天ぷら、天ぷら好きですか？",
-     "en": "Tempura, do you like tempura?",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 142.1,
-     "end": 144.7,
-     "ja": "ね、とんかつ。とんかつ美味しいですよ。",
-     "en": "And tonkatsu. Tonkatsu is delicious, you know.",
-     "speaker": "Teppei"
-    }
-   ]
-  },
-  {
-   "start": 240.5,
-   "end": 260.0,
-   "title": "Are Doughnuts Too Sweet?",
+   "start": 47.0,
+   "end": 64.8,
+   "title": "Udon or Ramen?",
    "level": "N5",
    "topics": [
     "food",
     "daily"
    ],
    "grammar": [
-    "〜すぎる — too much / excessively",
-    "〜とか — things like ~"
+    "〜ました — polite past tense",
+    "どっちが好き — which one do you like"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 241.0,
-     "end": 243.6,
-     "ja": "ハンバーガーとか、ドーナツ。",
-     "en": "Things like hamburgers, donuts.",
+     "start": 47.4,
+     "end": 50.0,
+     "ja": "僕は食べました。ね。",
+     "en": "I did. Yeah.",
      "speaker": "Teppei"
     },
     {
-     "start": 243.9,
-     "end": 244.9,
-     "ja": "ね、ドーナツ。",
-     "en": "Right, donuts.",
+     "start": 50.3,
+     "end": 52.8,
+     "ja": "僕は何を食べたでしょう？",
+     "en": "What do you think I ate?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 53.0,
+     "end": 56.1,
+     "ja": "僕はうどんを食べました。うどん。",
+     "en": "I ate udon. Udon.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 56.3,
+     "end": 59.5,
+     "ja": "皆さん、うどんは好きですか？",
+     "en": "Everyone, do you like udon?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 59.7,
+     "end": 64.5,
+     "ja": "うどん、ラーメン、どっちが好きですか？",
+     "en": "Udon or ramen, which do you like better?",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 136.0,
+   "end": 156.8,
+   "title": "Tempura, Tonkatsu, or Karaage?",
+   "level": "N5",
+   "topics": [
+    "food",
+    "culture"
+   ],
+   "grammar": [
+    "〜られない — potential negative (cannot do)",
+    "〜とかどう — how about (doing/having) ~"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 136.2,
+     "end": 139.1,
+     "ja": "日本の食べ物が好きですか、皆さん？",
+     "en": "Do you like Japanese food, everyone?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 139.3,
+     "end": 142.1,
+     "ja": "天ぷら、天ぷら好きですか？",
+     "en": "Tempura, do you like tempura?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 142.3,
+     "end": 145.4,
+     "ja": "とんかつ。とんかつ美味しいですよ。",
+     "en": "Tonkatsu. Tonkatsu is delicious, you know.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 145.6,
+     "end": 150.8,
+     "ja": "まあでも豚肉が食べられない人、そういう人もいますから、",
+     "en": "Well, but there are people who can't eat pork,",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 150.9,
+     "end": 154.0,
+     "ja": "そういう人は唐揚げとかどうでしょう？",
+     "en": "for those people, how about something like karaage?",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 154.1,
+     "end": 156.5,
+     "ja": "鶏の唐揚げ、美味しいですよ。",
+     "en": "Fried chicken is really delicious, you know.",
+     "speaker": "Teppei"
+    }
+   ]
+  },
+  {
+   "start": 240.8,
+   "end": 302.8,
+   "title": "Krispy Kreme Donuts Are Too Sweet",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜すぎる — too much / overly",
+    "〜かな — I wonder / I guess"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 241.1,
+     "end": 245.0,
+     "ja": "ハンバーガーとか、ドーナツ。ね、ドーナツ。",
+     "en": "Hamburgers, donuts... yeah, donuts.",
      "speaker": "Teppei"
     },
     {
      "start": 245.2,
-     "end": 246.7,
-     "ja": "クリスピー・クリーム・ドーナツ。",
-     "en": "Krispy Kreme Doughnuts.",
+     "end": 251.2,
+     "ja": "クリスピー・クリーム・ドーナツ。好きですか？皆さん。",
+     "en": "Krispy Kreme Doughnuts. Do you like them, everyone?",
      "speaker": "Teppei"
     },
     {
-     "start": 247.1,
-     "end": 248.8,
-     "ja": "好きですか？皆さん。",
-     "en": "Do you like them, everyone?",
+     "start": 251.8,
+     "end": 257.0,
+     "ja": "僕は、うーん、まあ、ちょっと甘すぎるかな。",
+     "en": "For me, hmm, well, I guess they're a bit too sweet.",
      "speaker": "Teppei"
     },
     {
-     "start": 249.2,
-     "end": 252.0,
-     "ja": "クリスピー・クリーム・ドーナツは好きですか？ね？",
-     "en": "Do you like Krispy Kreme Doughnuts? Right?",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 252.5,
-     "end": 255.4,
-     "ja": "僕は、うーん、",
-     "en": "As for me, hmm...",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 255.6,
-     "end": 257.5,
-     "ja": "ちょっと甘すぎるかな？",
-     "en": "Maybe they're a bit too sweet?",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 257.8,
-     "end": 259.5,
-     "ja": "甘すぎるね。ちょっと甘すぎますね。",
-     "en": "Too sweet. A bit too sweet, right?",
+     "start": 257.3,
+     "end": 262.5,
+     "ja": "甘すぎるね。ちょっと甘すぎますね、クリスピー・クリーム・ドーナツは。",
+     "en": "Too sweet. Krispy Kreme Doughnuts are a bit too sweet.",
      "speaker": "Teppei"
     }
    ]
@@ -204,5 +162,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

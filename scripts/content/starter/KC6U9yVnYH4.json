@@ -1,0 +1,21 @@
+{
+ "videoId": "KC6U9yVnYH4",
+ "ids": [
+  "KC6U9yVnYH4-17"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "KC6U9yVnYH4-17": {
+   "id": "KC6U9yVnYH4-17",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [
+    "fast speech"
+   ],
+   "why": "Rapid comedic banter and dialect make comprehension tricky for beginners."
+  }
+ }
+}

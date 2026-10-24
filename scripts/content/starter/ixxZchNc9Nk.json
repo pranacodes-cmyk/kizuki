@@ -1,0 +1,30 @@
+{
+ "videoId": "ixxZchNc9Nk",
+ "ids": [
+  "ixxZchNc9Nk-11",
+  "ixxZchNc9Nk-61"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "ixxZchNc9Nk-11": {
+   "id": "ixxZchNc9Nk-11",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear intro to spring with simple vocabulary and friendly delivery."
+  },
+  "ixxZchNc9Nk-61": {
+   "id": "ixxZchNc9Nk-61",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Culturally appealing topic with beautiful cherry blossom visuals and clear speech."
+  }
+ }
+}

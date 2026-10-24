@@ -1,7 +1,8 @@
 {
  "videoId": "zwVmrYjMVAM",
  "ids": [
-  "zwVmrYjMVAM-17"
+  "zwVmrYjMVAM-17",
+  "zwVmrYjMVAM-374"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
@@ -13,7 +14,17 @@
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Natural vlog-style morning greeting and walk with clear speech."
+   "why": "Pleasant morning vlog format with clear Japanese narration."
+  },
+  "zwVmrYjMVAM-374": {
+   "id": "zwVmrYjMVAM-374",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Casual walking clip, slightly breathy speech but relatable."
   }
  }
 }

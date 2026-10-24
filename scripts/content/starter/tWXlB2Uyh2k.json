@@ -1,6 +1,7 @@
 {
  "videoId": "tWXlB2Uyh2k",
  "ids": [
+  "tWXlB2Uyh2k-0",
   "tWXlB2Uyh2k-146"
  ],
  "model": "google/gemini-3.8-flash",
@@ -15,7 +16,17 @@
    "issues": [
     "speech overlaps"
    ],
-   "why": "Lively street food tasting with casual, conversational Japanese."
+   "why": "Lively eating scene, but rapid overlapping conversation."
+  },
+  "tWXlB2Uyh2k-0": {
+   "id": "tWXlB2Uyh2k-0",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Energetic greeting in kimonos at Kaminarimon, clear introductory tone."
   }
  }
 }

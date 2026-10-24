@@ -1,6 +1,7 @@
 {
  "videoId": "4auggVQ7H8s",
  "ids": [
+  "4auggVQ7H8s-466",
   "4auggVQ7H8s-6"
  ],
  "model": "google/gemini-3.8-flash",
@@ -15,7 +16,17 @@
    "issues": [
     "intro bumper"
    ],
-   "why": "Includes title card bumper and transitions into English host commentary."
+   "why": "Interrupted by an intro screen and cuts to English speaking."
+  },
+  "4auggVQ7H8s-466": {
+   "id": "4auggVQ7H8s-466",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Lively street interview discussing cultural stereotypes in natural Japanese."
   }
  }
 }

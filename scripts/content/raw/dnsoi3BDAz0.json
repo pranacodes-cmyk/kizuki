@@ -2,131 +2,136 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 38.7,
-   "end": 53.8,
-   "title": "Debating Tax Reductions in the Diet",
-   "level": "N2",
+   "start": 79.0,
+   "end": 94.7,
+   "title": "PM Takaichi on the Tax Policy Timeline",
+   "level": "N1",
    "topics": [
-    "work",
-    "culture"
+    "work"
    ],
    "grammar": [
-    "〜について — regarding / about",
-    "〜てください — please do"
+    "〜てまいる — humble aspect",
+    "〜について — regarding / about"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 38.9,
-     "end": 42.5,
-     "ja": "ま、レジの問題もあるので、1％までまず下げますと。",
-     "en": "Well, partly due to the cash register issue, we would first lower it to 1%.",
-     "speaker": "玉木代表"
+     "start": 79.3,
+     "end": 83.3,
+     "ja": "ま、本丸は給付付き税額控除と申し上げてまいりました。",
+     "en": "Well, I have maintained that the core goal is a refundable tax credit.",
+     "speaker": "Takaichi"
     },
     {
-     "start": 42.8,
-     "end": 45.4,
-     "ja": "で、残りの1％分は給付でありますと。",
-     "en": "And the remaining 1% portion would be handled via benefits.",
-     "speaker": "玉木代表"
+     "start": 83.7,
+     "end": 88.3,
+     "ja": "その状況が達成できるまでのつなぎと申し上げてまいりましたので、",
+     "en": "Since I stated it is a stopgap until that condition can be achieved,",
+     "speaker": "Takaichi"
     },
     {
-     "start": 45.8,
-     "end": 50.8,
-     "ja": "これについては残念ながらですね、国民会議で全く各党の合意が得られていません。",
-     "en": "Regarding this, unfortunately, no agreement among the parties has been reached at the National Council at all.",
-     "speaker": "玉木代表"
+     "start": 88.7,
+     "end": 91.8,
+     "ja": "ま、2年間限定という見通しについて、",
+     "en": "regarding the outlook of it being limited to two years,",
+     "speaker": "Takaichi"
     },
     {
-     "start": 51.0,
-     "end": 53.5,
-     "ja": "総理のお考えをお聞かせください。",
-     "en": "Please share your thoughts on this, Prime Minister.",
-     "speaker": "玉木代表"
+     "start": 92.0,
+     "end": 94.2,
+     "ja": "あの、私自身は変わりはございません。",
+     "en": "personally, my stance has not changed.",
+     "speaker": "Takaichi"
     }
    ]
   },
   {
-   "start": 144.0,
-   "end": 156.6,
-   "title": "A Request for Live Debate",
+   "start": 104.2,
+   "end": 116.5,
+   "title": "A Request for a Live Debate",
    "level": "N2",
    "topics": [
-    "work",
-    "culture"
+    "work"
    ],
    "grammar": [
-    "〜ていただきたい — wish for someone to do",
-    "ご〜 — honorific prefix"
+    "〜ていただく — humble receiving of action",
+    "〜てある — state resulting from action"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 144.3,
-     "end": 148.8,
-     "ja": "あの、ちょっと読み物を読まれていることが残念です。",
-     "en": "Well, it is somewhat disappointing that you are reading from prepared text.",
-     "speaker": "小川代表"
+     "start": 104.4,
+     "end": 109.0,
+     "ja": "あの…ちょっと読み物を読まれていることが残念です。",
+     "en": "Well... it is unfortunate that you are reading from your notes.",
+     "speaker": "Ogawa"
     },
     {
-     "start": 149.4,
-     "end": 152.7,
+     "start": 109.5,
+     "end": 112.4,
      "ja": "できるだけご自身の言葉で咀嚼をして、",
-     "en": "Digest it in your own words as much as possible,",
-     "speaker": "小川代表"
+     "en": "I hope you digest it into your own words as much as possible,",
+     "speaker": "Ogawa"
     },
     {
-     "start": 152.9,
-     "end": 156.3,
-     "ja": "ぜひライブ感のあるやりとりにご協力いただきたい。",
-     "en": "and please cooperate in having an unscripted, dynamic exchange.",
-     "speaker": "小川代表"
+     "start": 112.8,
+     "end": 116.2,
+     "ja": "ぜひそのライブ感のあるやりとりにご協力をいただきたい。",
+     "en": "and please cooperate in having a dynamic, live exchange.",
+     "speaker": "Ogawa"
     }
    ]
   },
   {
-   "start": 225.3,
-   "end": 241.2,
-   "title": "A Polite Retort with Keigo",
+   "start": 144.7,
+   "end": 162.0,
+   "title": "Defending the Use of Notes",
    "level": "N2",
    "topics": [
     "work",
-    "culture"
+    "comedy"
    ],
    "grammar": [
-    "〜ておられる — honorific progressive",
-    "〜として — in the capacity of",
-    "でございます — polite form of です"
+    "〜ておられる — honorific continuous action",
+    "〜てまいる — humble action over time",
+    "〜ということで — on the grounds that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 225.6,
-     "end": 228.5,
-     "ja": "ま、ご自身もメモを見ておられましたので、",
-     "en": "Well, you yourself were looking at notes as well,",
-     "speaker": "高市首相"
+     "start": 145.3,
+     "end": 148.6,
+     "ja": "えー、ま、ご自身もメモを見ておられましたので。",
+     "en": "Well, you were looking at your notes yourself as well.",
+     "speaker": "Takaichi"
     },
     {
-     "start": 228.7,
-     "end": 233.1,
-     "ja": "私も内閣総理大臣としての答弁でございますから、",
-     "en": "and since this is an official response as Prime Minister,",
-     "speaker": "高市首相"
+     "start": 149.0,
+     "end": 153.3,
+     "ja": "私も、あの、内閣総理大臣としての答弁でございますから、",
+     "en": "And since this is my answer as Prime Minister,",
+     "speaker": "Takaichi"
     },
     {
-     "start": 233.4,
-     "end": 237.3,
-     "ja": "ここはできるだけ正確にと、いうことで、",
-     "en": "I prepared notes in order to be as accurate as possible.",
-     "speaker": "高市首相"
+     "start": 153.5,
+     "end": 156.4,
+     "ja": "ここはできるだけ正確にということで、",
+     "en": "in order to be as precise as possible,",
+     "speaker": "Takaichi"
     },
     {
-     "start": 237.4,
-     "end": 240.9,
-     "ja": "あの、メモを用意してまいりました。ご通告ありがとうございます。",
-     "en": "Thank you for giving prior notice of your question.",
-     "speaker": "高市首相"
+     "start": 156.6,
+     "end": 159.2,
+     "ja": "あの、メモを用意してまいりました。",
+     "en": "I prepared these notes.",
+     "speaker": "Takaichi"
+    },
+    {
+     "start": 159.6,
+     "end": 161.6,
+     "ja": "ご通告ありがとうございます。",
+     "en": "Thank you for the notification.",
+     "speaker": "Takaichi"
     }
    ]
   }
@@ -135,5 +140,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

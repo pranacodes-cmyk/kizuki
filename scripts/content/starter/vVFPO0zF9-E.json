@@ -1,0 +1,19 @@
+{
+ "videoId": "vVFPO0zF9-E",
+ "ids": [
+  "vVFPO0zF9-E-354"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "vVFPO0zF9-E-354": {
+   "id": "vVFPO0zF9-E-354",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Useful, clear izakaya ordering phrase with lively natural context."
+  }
+ }
+}

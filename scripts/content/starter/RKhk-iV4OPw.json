@@ -1,0 +1,19 @@
+{
+ "videoId": "RKhk-iV4OPw",
+ "ids": [
+  "RKhk-iV4OPw-105"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "RKhk-iV4OPw-105": {
+   "id": "RKhk-iV4OPw-105",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear speech, but static slide presentation feels dry."
+  }
+ }
+}

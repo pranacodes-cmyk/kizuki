@@ -2,144 +2,139 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 18.8,
-   "end": 33.5,
-   "title": "Introducing Yuki and Her Pets",
-   "level": "N5",
-   "topics": [
-    "daily",
-    "animals"
-   ],
-   "grammar": [
-    "〜と暮らしています — living with",
-    "〜ていく — will do into the future"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 18.8,
-     "end": 21.8,
-     "ja": "皆さんこんにちは、YUKIです。",
-     "en": "Hello everyone, I'm Yuki.",
-     "speaker": "Yuki"
-    },
-    {
-     "start": 21.8,
-     "end": 27.6,
-     "ja": "私は6匹のハムスターと、6匹の猫と暮らしています。",
-     "en": "I live with six hamsters and six cats.",
-     "speaker": "Yuki"
-    },
-    {
-     "start": 27.6,
-     "end": 33.5,
-     "ja": "これから日本語で、私たちの幸せな日々をお話ししていきます。",
-     "en": "From now on, I will talk about our happy days in Japanese.",
-     "speaker": "Yuki"
-    }
-   ]
-  },
-  {
-   "start": 33.7,
-   "end": 56.1,
-   "title": "Meeting Mia the Cat",
+   "start": 43.9,
+   "end": 105.0,
+   "title": "Meeting Mia at the Pet Shop",
    "level": "N4",
    "topics": [
     "animals",
     "daily"
    ],
    "grammar": [
-    "〜って種類の — a kind called...",
-    "〜に行く — go in order to..."
+    "〜に行く — go in order to do",
+    "〜がほしい — want something",
+    "〜てから — after / because"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 33.7,
-     "end": 36.4,
-     "ja": "2匹目は、ミア！",
-     "en": "The second member is Mia!",
-     "speaker": "Yuki"
-    },
-    {
-     "start": 36.4,
-     "end": 40.4,
-     "ja": "ミヌエットって種類の、猫の女の子。",
-     "en": "She's a female Minuet cat.",
-     "speaker": "Yuki"
-    },
-    {
-     "start": 40.4,
-     "end": 43.8,
-     "ja": "シルバータビーっていう毛色だよ。",
-     "en": "Her coat color is called silver tabby.",
-     "speaker": "Yuki"
-    },
-    {
-     "start": 43.8,
-     "end": 49.7,
+     "start": 44.2,
+     "end": 49.3,
      "ja": "えのきの床材を買いに行ったペットショップで、たまたま出会ったの。",
-     "en": "I met her by chance at a pet shop where I went to buy bedding for Enoki.",
+     "en": "I met her by chance at a pet shop when I went to buy bedding for Enoki.",
      "speaker": "Yuki"
     },
     {
-     "start": 49.7,
-     "end": 56.1,
-     "ja": "まん丸おめめの美人さんで、私はすぐにこの子が欲しいって思ったんだ。",
-     "en": "With round eyes and beautiful looks, I immediately thought, \"I want her!\"",
+     "start": 49.8,
+     "end": 56.3,
+     "ja": "まんまるお目目の美人さんで、わたしはすぐにこの子がほしいって思ったんだ。",
+     "en": "She had round eyes and was so pretty, I immediately thought, \"I want her!\"",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 57.2,
+     "end": 61.6,
+     "ja": "もともと猫を飼いたくて、コツコツ貯金してたから、",
+     "en": "I'd wanted to keep a cat all along and had been steadily saving money,",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 61.8,
+     "end": 64.8,
+     "ja": "パパにOKをもらって、すぐにお迎えできたの。",
+     "en": "so after getting Papa's OK, I was able to bring her home right away.",
      "speaker": "Yuki"
     }
    ]
   },
   {
-   "start": 224.8,
-   "end": 247.4,
-   "title": "Mia's Impressive Tricks",
+   "start": 105.7,
+   "end": 128.8,
+   "title": "A Whimsical Little Princess",
    "level": "N4",
    "topics": [
     "animals",
-    "family",
-    "fun"
+    "daily"
    ],
    "grammar": [
-    "〜までできる — can even do...",
-    "〜て遊ぶ — play by doing..."
+    "〜だけで — just by doing",
+    "〜みたい — seems like",
+    "〜てくれる — do something for someone"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 224.8,
-     "end": 227.5,
-     "ja": "しかもとっても賢くて、",
-     "en": "What's more, she's super smart,",
+     "start": 106.0,
+     "end": 111.7,
+     "ja": "ミアは本当にかわいくて、見てるだけで幸せな気持ちになれたよ。",
+     "en": "Mia was so cute that just looking at her made me feel happy.",
      "speaker": "Yuki"
     },
     {
-     "start": 227.5,
-     "end": 235.2,
-     "ja": "おすわり、おて、タッチ、おかわり、バンザイまでできるんだ！",
-     "en": "and can do sit, paw, touch, other paw, and even 'banzai'!",
+     "start": 112.1,
+     "end": 117.8,
+     "ja": "喜んでもらいたくて、おもちゃとかベッドとかたくさん買ったけど、",
+     "en": "Wanting to make her happy, I bought lots of toys and beds, but...",
      "speaker": "Yuki"
     },
     {
-     "start": 235.2,
-     "end": 237.6,
-     "ja": "すごいでしょ！",
-     "en": "Isn't that amazing?",
+     "start": 118.2,
+     "end": 121.7,
+     "ja": "どうやら床で寝るのが好きみたい。",
+     "en": "apparently she prefers sleeping on the floor.",
      "speaker": "Yuki"
     },
     {
-     "start": 238.3,
-     "end": 243.7,
-     "ja": "パパともよく遊んでて、パパもミアが大好き。",
-     "en": "She plays a lot with Papa, and Papa loves Mia so much too.",
+     "start": 122.0,
+     "end": 128.5,
+     "ja": "でも、たまに一緒にベッドでお昼寝してくれて、気まぐれなお嬢様って感じだったな。",
+     "en": "Still, she'd occasionally nap with me on the bed, feeling just like a whimsical princess.",
+     "speaker": "Yuki"
+    }
+   ]
+  },
+  {
+   "start": 200.5,
+   "end": 224.2,
+   "title": "Can a Cat and Hamster Coexist?",
+   "level": "N3",
+   "topics": [
+    "animals",
+    "daily"
+   ],
+   "grammar": [
+    "〜かもしれない — might / may",
+    "〜ば — conditional if",
+    "〜たりする — do things like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 200.8,
+     "end": 205.5,
+     "ja": "ミアはえのきとも仲良しで、いつもケージをのぞいていたよ。",
+     "en": "Mia got along well with Enoki too, and was always peering into the cage.",
      "speaker": "Yuki"
     },
     {
-     "start": 243.7,
-     "end": 247.4,
-     "ja": "わざとちょっかいかけて遊んでたくらい。",
-     "en": "To the point that he'd playfully tease her just to play.",
+     "start": 206.0,
+     "end": 211.2,
+     "ja": "「中で動いてるのが気になるんだろうな」って思ってた。",
+     "en": "I figured she was curious about what was moving inside.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 212.0,
+     "end": 216.8,
+     "ja": "猫とハムスターって、危ないイメージがあるかもしれないけど、",
+     "en": "People might think having a cat and a hamster together is dangerous, but...",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 217.2,
+     "end": 223.8,
+     "ja": "人間がちゃんと見てて、「ダメだよ」って教えてあげれば、ミアは襲ったりしないの。",
+     "en": "if a human keeps watch and teaches her \"no,\" Mia doesn't attack at all.",
      "speaker": "Yuki"
     }
    ]
@@ -149,5 +144,6 @@
  "pickTopics": [
   "animals"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

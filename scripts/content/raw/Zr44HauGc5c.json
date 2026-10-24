@@ -1,54 +1,54 @@
 {
- "speech": "some",
+ "speech": "clear",
  "clips": [
   {
-   "start": 439.5,
-   "end": 447.0,
-   "title": "Opening the Garlic Shrimp Box",
-   "level": "N5",
+   "start": 12.235,
+   "end": 34.0,
+   "title": "Elephant Rock at Manzamo",
+   "level": "N4",
    "topics": [
-    "food",
-    "travel"
+    "travel",
+    "fun"
    ],
    "grammar": [
-    "〜そう — looks like / seems like",
-    "〜にする — to decide on"
+    "〜すぎる — too much / overly",
+    "〜やな — Kansai copula / isn't it"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 440.2,
-     "end": 442.5,
-     "ja": "3、2、1、オープン。",
-     "en": "Three, two, one, open.",
+     "start": 12.238,
+     "end": 12.253,
+     "ja": "あ、象やな。",
+     "en": "Ah, it looks like an elephant.",
      "speaker": "Man"
     },
     {
-     "start": 443.0,
-     "end": 444.5,
-     "ja": "うわ、うまそう！",
-     "en": "Whoa, that looks delicious!",
+     "start": 12.258,
+     "end": 12.275,
+     "ja": "めっちゃ綺麗やな。",
+     "en": "It's so beautiful.",
+     "speaker": "Man"
+    },
+    {
+     "start": 12.298,
+     "end": 12.312,
+     "ja": "めっちゃ綺麗。",
+     "en": "Super pretty.",
      "speaker": "Woman"
     },
     {
-     "start": 444.8,
-     "end": 445.9,
-     "ja": "こっちにする？",
-     "en": "Do you want this one?",
-     "speaker": "Man"
-    },
-    {
-     "start": 446.0,
-     "end": 446.8,
-     "ja": "ね！",
-     "en": "Yeah!",
+     "start": 12.316,
+     "end": 12.336,
+     "ja": "いや、風強すぎてさ。",
+     "en": "Though the wind is way too strong.",
      "speaker": "Woman"
     }
    ]
   },
   {
-   "start": 1526.5,
-   "end": 1536.0,
+   "start": 15.272,
+   "end": 36.0,
    "title": "Tasting Blue Seal Ice Cream",
    "level": "N5",
    "topics": [
@@ -56,45 +56,68 @@
     "travel"
    ],
    "grammar": [
-    "〜好き — liking something",
-    "〜よな — seeking agreement"
+    "めっちゃ — very / super",
+    "〜が好き — like something"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 15.275,
+     "end": 15.284,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Man"
+    },
+    {
+     "start": 15.286,
+     "end": 15.309,
+     "ja": "うわ、めっちゃ美味しいこれ！",
+     "en": "Whoa, this is so good!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 15.313,
+     "end": 15.33,
+     "ja": "めっちゃこれ好き。",
+     "en": "I love this so much.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 15.332,
+     "end": 15.343,
+     "ja": "美味しい？",
+     "en": "Is it good?",
+     "speaker": "Man"
+    },
+    {
+     "start": 15.345,
+     "end": 15.355,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 18.098,
+   "end": 16.0,
+   "title": "Arrival In-Flight Announcement",
+   "level": "N3",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "〜並びに — and / as well as",
+    "ご〜いただく — humble honorific form"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1527.2,
-     "end": 1528.0,
-     "ja": "うん。",
-     "en": "Mm-hmm.",
-     "speaker": "Man"
-    },
-    {
-     "start": 1528.4,
-     "end": 1530.8,
-     "ja": "うわ、めっちゃ美味しい、これ！",
-     "en": "Whoa, this is super tasty!",
-     "speaker": "Woman"
-    },
-    {
-     "start": 1531.2,
-     "end": 1532.8,
-     "ja": "めっちゃこれ好き。",
-     "en": "I really like this.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 1533.0,
-     "end": 1534.2,
-     "ja": "美味しいよな。",
-     "en": "It's good, isn't it?",
-     "speaker": "Man"
-    },
-    {
-     "start": 1534.4,
-     "end": 1535.3,
-     "ja": "うん。",
-     "en": "Yeah.",
-     "speaker": "Woman"
+     "start": 18.101,
+     "end": 18.156,
+     "ja": "ANA並びに、スターアライアンスパートナーのコードシェア便をご利用いただきまして、ありがとうございました。",
+     "en": "Thank you for flying with ANA and our Star Alliance partner codeshare flights.",
+     "speaker": "Attendant"
     }
    ]
   }
@@ -103,5 +126,6 @@
  "pickTopics": [
   "travel"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

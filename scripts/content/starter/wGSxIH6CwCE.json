@@ -1,0 +1,19 @@
+{
+ "videoId": "wGSxIH6CwCE",
+ "ids": [
+  "wGSxIH6CwCE-6"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "wGSxIH6CwCE-6": {
+   "id": "wGSxIH6CwCE-6",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Engaging cooking visuals align nicely with steady narration."
+  }
+ }
+}

@@ -1,7 +1,6 @@
 {
  "videoId": "H47Q2yUD2OU",
  "ids": [
-  "H47Q2yUD2OU-320",
   "H47Q2yUD2OU-6"
  ],
  "model": "google/gemini-3.8-flash",
@@ -9,22 +8,12 @@
   "H47Q2yUD2OU-6": {
    "id": "H47Q2yUD2OU-6",
    "appeal": 6,
-   "clarity": 3,
+   "clarity": 4,
    "picture": 3,
    "ease": 3,
    "english": false,
    "issues": [],
-   "why": "Energetic host intro with subtitles, though speech is somewhat fast."
-  },
-  "H47Q2yUD2OU-320": {
-   "id": "H47Q2yUD2OU-320",
-   "appeal": 6,
-   "clarity": 3,
-   "picture": 3,
-   "ease": 3,
-   "english": false,
-   "issues": [],
-   "why": "Lively wrap-up commentary with clear delivery and expressive visual context."
+   "why": "Energetic vlog intro with clear conversational speech and helpful on-screen text."
   }
  }
 }

@@ -2,137 +2,172 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 0.6,
-   "end": 10.5,
-   "title": "Opening a Board Game Unboxing Review",
+   "start": 0.0,
+   "end": 10.9,
+   "title": "Opening Unboxing Introduction",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "culture"
+   ],
+   "grammar": [
+    "〜てみる — trying to do something",
+    "〜から — from / by (agent)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.3,
+     "end": 2.5,
+     "ja": "はい、The Game GalleryチャンネルのHAL99です。",
+     "en": "Hi, this is HAL99 from The Game Gallery channel.",
+     "speaker": "HAL99"
+    },
+    {
+     "start": 2.7,
+     "end": 4.1,
+     "ja": "えー今日はですね、",
+     "en": "So today,",
+     "speaker": "HAL99"
+    },
+    {
+     "start": 4.1,
+     "end": 5.9,
+     "ja": "『ノイシュヴァンシュタイン城』のですね、",
+     "en": "the Japanese edition of Castles of Mad King Ludwig",
+     "speaker": "HAL99"
+    },
+    {
+     "start": 5.9,
+     "end": 7.4,
+     "ja": "日本語版がですね、アークライトさんから出ましたので、",
+     "en": "has been released by Arclight,",
+     "speaker": "HAL99"
+    },
+    {
+     "start": 7.5,
+     "end": 10.6,
+     "ja": "早速開封レビューをお届けしてみたいと思います。",
+     "en": "so I'd like to dive right into an unboxing review.",
+     "speaker": "HAL99"
+    }
+   ]
+  },
+  {
+   "start": 146.4,
+   "end": 160.7,
+   "title": "Inside the Box",
    "level": "N3",
    "topics": [
     "fun",
     "daily"
    ],
    "grammar": [
-    "〜ので — because / since",
-    "〜てみる — try doing"
+    "〜たりする — doing things like",
+    "〜っぽい — -ish / -like"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 0.6,
-     "end": 2.8,
-     "ja": "はい、The Game GalleryチャンネルのHaru99です。",
-     "en": "Hi, this is Haru99 from The Game Gallery Channel.",
-     "speaker": "Haru99"
+     "start": 147.2,
+     "end": 150.3,
+     "ja": "あれ？ なんか中は…",
+     "en": "Huh? Inside it's kind of...",
+     "speaker": "HAL99"
     },
     {
-     "start": 2.8,
-     "end": 7.0,
-     "ja": "今日はですね、『ノイシュヴァンシュタイン城』のですね、日本語版がですね、アークライトさんから出ましたので、",
-     "en": "Today, the Japanese edition of Castles of Mad King Ludwig was released by Arclight, so...",
-     "speaker": "Haru99"
+     "start": 150.3,
+     "end": 151.7,
+     "ja": "中すごい…",
+     "en": "Inside it's really...",
+     "speaker": "HAL99"
     },
     {
-     "start": 7.0,
-     "end": 10.3,
-     "ja": "今日はこれのですね、早速ですね、開封レビューのほうをお届けしてみたいと思います。",
-     "en": "I'd like to bring you an unboxing review of it right away.",
-     "speaker": "Haru99"
+     "start": 151.7,
+     "end": 153.2,
+     "ja": "「あれ」って言いましたけど、スカスカですね。",
+     "en": "I said 'huh', but there's a lot of empty space.",
+     "speaker": "HAL99"
+    },
+    {
+     "start": 153.4,
+     "end": 156.4,
+     "ja": "えっと、まあ最近よく流行りのビニールパックですね。",
+     "en": "Um, well, here are the popular zip-lock bags.",
+     "speaker": "HAL99"
+    },
+    {
+     "start": 156.6,
+     "end": 160.3,
+     "ja": "除けたやつが入るビニールパックが結構入ってますね。",
+     "en": "There are quite a few bags included to store punched-out pieces.",
+     "speaker": "HAL99"
     }
    ]
   },
   {
-   "start": 146.5,
-   "end": 203.2,
-   "title": "Looking Inside the Box",
+   "start": 756.2,
+   "end": 776.4,
+   "title": "Channel Outro and Closing Thoughts",
    "level": "N3",
    "topics": [
     "fun",
     "daily"
    ],
    "grammar": [
-    "〜と言う — to say that",
-    "〜ぐらい — approximately / about"
+    "〜ていただく — receiving a favor",
+    "〜てみる — trying to do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 146.8,
-     "end": 148.0,
-     "ja": "あれ？",
-     "en": "Huh?",
-     "speaker": "Haru99"
+     "start": 756.6,
+     "end": 759.1,
+     "ja": "今回の動画お楽しみいただけましたでしょうか？",
+     "en": "Did you enjoy this video?",
+     "speaker": "HAL99"
     },
     {
-     "start": 148.0,
-     "end": 153.3,
-     "ja": "なんか中は…中すごい、「あれ？」って言いましたけど、スカスカですね。",
-     "en": "The inside is... I said 'Huh?', but it's really practically empty.",
-     "speaker": "Haru99"
+     "start": 759.4,
+     "end": 761.5,
+     "ja": "The Game Galleryチャンネルではですね、",
+     "en": "On The Game Gallery channel,",
+     "speaker": "HAL99"
     },
     {
-     "start": 153.3,
-     "end": 157.2,
-     "ja": "えーっと、まあ最近よく流行りのビニールパックですね。",
-     "en": "Well, we have those plastic baggies that are popular recently.",
-     "speaker": "Haru99"
+     "start": 761.5,
+     "end": 765.2,
+     "ja": "様々なボードゲームに関する話題をお届けしております。",
+     "en": "we deliver various topics related to board games.",
+     "speaker": "HAL99"
     },
     {
-     "start": 157.2,
-     "end": 200.3,
-     "ja": "まあ、のけたやつが入るビニールパックは結構入ってますね。",
-     "en": "There are quite a few plastic baggies included to store punched-out pieces.",
-     "speaker": "Haru99"
+     "start": 765.5,
+     "end": 768.4,
+     "ja": "YouTubeの方はチャンネル登録をしていただけますと、",
+     "en": "If you subscribe to the YouTube channel,",
+     "speaker": "HAL99"
     },
     {
-     "start": 200.3,
-     "end": 202.8,
-     "ja": "10パックぐらい入ってる感じですね。",
-     "en": "It looks like there are about ten packs.",
-     "speaker": "Haru99"
-    }
-   ]
-  },
-  {
-   "start": 744.8,
-   "end": 755.0,
-   "title": "Wrapping Up the Video",
-   "level": "N4",
-   "topics": [
-    "fun",
-    "daily"
-   ],
-   "grammar": [
-    "〜というわけ — that is why / so",
-    "〜でした — was / were"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 744.8,
-     "end": 748.3,
-     "ja": "はい、というわけでですね、『ノイシュヴァンシュタイン城』ですね、",
-     "en": "Alright, so that was Castles of Mad King Ludwig,",
-     "speaker": "Haru99"
+     "start": 768.7,
+     "end": 771.7,
+     "ja": "私が動画を登録した時にそれがですね、",
+     "en": "whenever I upload a new video,",
+     "speaker": "HAL99"
     },
     {
-     "start": 748.3,
-     "end": 751.6,
-     "ja": "まあ旧輸入名はですね、『狂王ルートヴィヒの城』ですね、",
-     "en": "previously known by its imported title 'Castles of Mad King Ludwig',",
-     "speaker": "Haru99"
+     "start": 771.8,
+     "end": 774.2,
+     "ja": "素早くお伝えできるようになっておりますので、",
+     "en": "you'll be notified promptly,",
+     "speaker": "HAL99"
     },
     {
-     "start": 751.6,
-     "end": 753.2,
-     "ja": "まあこちらのですね、日本語版をお届けしました。",
-     "en": "and I brought you the Japanese edition.",
-     "speaker": "Haru99"
-    },
-    {
-     "start": 753.2,
-     "end": 754.8,
-     "ja": "The Game GalleryチャンネルのHaru99でした。",
-     "en": "This was Haru99 from The Game Gallery Channel.",
-     "speaker": "Haru99"
+     "start": 774.4,
+     "end": 776.1,
+     "ja": "ぜひチャンネル登録の方をお願いいたします。",
+     "en": "so please be sure to subscribe to the channel.",
+     "speaker": "HAL99"
     }
    ]
   }
@@ -141,5 +176,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

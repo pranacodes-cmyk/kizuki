@@ -1,0 +1,197 @@
+{
+ "model": "openai/gpt-6-astra",
+ "order": [
+  {
+   "id": "1t12BjgS9D8-41",
+   "reason": "Adorable family hook with instantly understandable, repeated fruit vocabulary."
+  },
+  {
+   "id": "3N0YLRunmEQ-48",
+   "reason": "Playful anime surprise pairs short phrases with clear action."
+  },
+  {
+   "id": "2LY8wEv32po-0",
+   "reason": "Warm beach greeting makes basic introductions feel welcoming."
+  },
+  {
+   "id": "lZifLIXWOPU-588",
+   "reason": "Charming goat conversation repeats greetings and simple preference questions."
+  },
+  {
+   "id": "7Onynxqf83I-175",
+   "reason": "Useful bakery exchange introduces essential questions with concrete context."
+  },
+  {
+   "id": "OcsdFHhzY7Q-0",
+   "reason": "Cute fox greeting introduces a hands-on slice of Japanese culture."
+  },
+  {
+   "id": "sO18tn2v894-27",
+   "reason": "Excited dogs make a simple invitation immediately meaningful."
+  },
+  {
+   "id": "ZMgPZ0h3B4U-55",
+   "reason": "Cute gameplay reinforces hunger and offering phrases through visible actions."
+  },
+  {
+   "id": "RSwMJ-2THYM-145",
+   "reason": "Short, slow shopping actions build confidence with everyday nouns."
+  },
+  {
+   "id": "Dn74ZJhly3E-42",
+   "reason": "Energetic strawberry repetition delivers an easy, memorable vocabulary win."
+  },
+  {
+   "id": "3KC5TfMbjz4-4",
+   "reason": "Scenic cinematic introduction models names and hometowns clearly."
+  },
+  {
+   "id": "3TKp9yCGBjQ-101",
+   "reason": "Brief Sanrio comedy adds lively destination vocabulary and character charm."
+  },
+  {
+   "id": "AjUpwbig3GM-221",
+   "reason": "Affectionate dog praise revisits apple vocabulary in a new context."
+  },
+  {
+   "id": "fKaOcLSzHmg-13",
+   "reason": "Upbeat airport greeting brings beginner phrases into authentic travel."
+  },
+  {
+   "id": "7jgGYgNmLto-28",
+   "reason": "Authentic chef introductions demonstrate immediately useful polite greetings."
+  },
+  {
+   "id": "rjmKQ-fjnyQ-165",
+   "reason": "Beautiful blossoms support clear repetition and simple seasonal vocabulary."
+  },
+  {
+   "id": "jTzIwucqHnQ-1",
+   "reason": "Sweet baby interaction introduces rice balls and a basic request."
+  },
+  {
+   "id": "_pRW8CPIjZQ-53",
+   "reason": "A visual cartoon misunderstanding makes everyday drink vocabulary memorable."
+  },
+  {
+   "id": "PweksFQGzmI-23",
+   "reason": "Visible morning actions support slightly longer everyday narration."
+  },
+  {
+   "id": "2aj3rJ7P7tg-137",
+   "reason": "Brief, captivating aquarium footage provides a gentle first N4 stretch."
+  },
+  {
+   "id": "Vfomjc_daW4-29",
+   "reason": "Colorful pasta visuals anchor slow descriptions and an enthusiastic reaction."
+  },
+  {
+   "id": "q7lOcfkl-YY-377",
+   "reason": "Friendly sports interview adds nickname vocabulary and natural conversational energy."
+  },
+  {
+   "id": "VL49nyIQzYs-468",
+   "reason": "Direct clothing demonstration makes this N4 cultural explanation approachable."
+  },
+  {
+   "id": "nP-cKgXQu1M-308",
+   "reason": "Expressive dog interaction adds humor beyond familiar snack requests."
+  },
+  {
+   "id": "5WOH6-ibcMU-375",
+   "reason": "Step-by-step milk purchase connects repeated verbs to visible actions."
+  },
+  {
+   "id": "9qYvnsslUqQ-127",
+   "reason": "Charming animated exchange introduces polite offers and delighted responses."
+  },
+  {
+   "id": "uZAV2_KCce8-9",
+   "reason": "Lively Osaka reveal offers an accessible N4 guessing-game moment."
+  },
+  {
+   "id": "tupRbmVM9Wc-264",
+   "reason": "Helpful graphics clarify clothing verbs and repeated negative patterns."
+  },
+  {
+   "id": "ackXOQLzL_I-316",
+   "reason": "Comic dog wake-up adds a short, playful listening reset."
+  },
+  {
+   "id": "u_JRcanRhmA-481",
+   "reason": "Repeated texture words make regional takoyaki differences fun to hear."
+  },
+  {
+   "id": "UVIpf_SSNCc-109",
+   "reason": "Playful doll skit makes N4 workplace etiquette concrete and entertaining."
+  },
+  {
+   "id": "ZmczD3Q44w8-129",
+   "reason": "Scenic mountain walk links hunger, movement, and a clear destination."
+  },
+  {
+   "id": "xWd33E2f7to-197",
+   "reason": "Gentle cat interaction offers affectionate, repeated everyday phrases."
+  },
+  {
+   "id": "ZlfuBGTK2Xk-41",
+   "reason": "Expressive rakugo introduces cultural comedy through a simple museum exchange."
+  },
+  {
+   "id": "fr0BHb2V55w-655",
+   "reason": "Real cafe ordering practices polite requests with helpful menu context."
+  },
+  {
+   "id": "yH4obhBrb8o-8",
+   "reason": "Peaceful anime reactions provide a short, emotionally clear N4 interlude."
+  },
+  {
+   "id": "pyIX6v8r1os-1090",
+   "reason": "Warm family curiosity adds naturally repeated shopping-related language."
+  },
+  {
+   "id": "Ed1kdG_-VAw-235",
+   "reason": "Appealing ice cream visuals support an accessible N4 food description."
+  },
+  {
+   "id": "-rRTYYm_Vrs-209",
+   "reason": "Visible metro-door demonstration anchors a more challenging practical travel explanation."
+  },
+  {
+   "id": "kNF7V_PLxrQ-17",
+   "reason": "Sleepy puppy animation returns to gentle N5 narration and charm."
+  },
+  {
+   "id": "yYXTI4Wu4Lk-3",
+   "reason": "Familiar burger-shop context supports everyday preferences and audience questions."
+  },
+  {
+   "id": "iwXT0U7ESys-153",
+   "reason": "Lively flea-market discoveries introduce N4 descriptions through visible objects."
+  },
+  {
+   "id": "sBVojoUqPfE-223",
+   "reason": "Charming illustrations reinforce familiar dishes and family-member vocabulary."
+  },
+  {
+   "id": "cvH3kdl1JxE-0",
+   "reason": "Friendly beach conversation extends listening into relatable N4 everyday questions."
+  },
+  {
+   "id": "0ycXiWFBCBE-709",
+   "reason": "Appetizing ramen close-ups help learners identify N4 ingredient vocabulary."
+  },
+  {
+   "id": "gih0zDt7jCQ-14",
+   "reason": "Clear Tokyo itinerary practices sequencing after simpler travel introductions."
+  },
+  {
+   "id": "h8aHI9R4p0I-241",
+   "reason": "Curious cat supplies a charming return to clear N5 narration."
+  },
+  {
+   "id": "7drGlBwxlZg-14",
+   "reason": "Practical subtitled restaurant exchange finishes with useful N4 real-world listening."
+  }
+ ]
+}

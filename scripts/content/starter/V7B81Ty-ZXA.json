@@ -1,12 +1,13 @@
 {
  "videoId": "V7B81Ty-ZXA",
  "ids": [
-  "V7B81Ty-ZXA-54"
+  "V7B81Ty-ZXA-495",
+  "V7B81Ty-ZXA-51"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
-  "V7B81Ty-ZXA-54": {
-   "id": "V7B81Ty-ZXA-54",
+  "V7B81Ty-ZXA-51": {
+   "id": "V7B81Ty-ZXA-51",
    "appeal": 6,
    "clarity": 3,
    "picture": 4,
@@ -15,7 +16,17 @@
    "issues": [
     "speech overlaps"
    ],
-   "why": "Casual family dining conversation with common food vocabulary."
+   "why": "Lively family dining scene with natural conversation about food."
+  },
+  "V7B81Ty-ZXA-495": {
+   "id": "V7B81Ty-ZXA-495",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Fun street vlog moment showing off a new purchase."
   }
  }
 }

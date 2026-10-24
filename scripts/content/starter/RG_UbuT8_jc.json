@@ -1,0 +1,19 @@
+{
+ "videoId": "RG_UbuT8_jc",
+ "ids": [
+  "RG_UbuT8_jc-125"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "RG_UbuT8_jc-125": {
+   "id": "RG_UbuT8_jc-125",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear audio narration paired with a single static storybook illustration."
+  }
+ }
+}

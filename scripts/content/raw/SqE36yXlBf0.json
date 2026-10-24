@@ -2,176 +2,188 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 15.0,
-   "end": 34.5,
-   "title": "Trumpet Practice and Performing",
+   "start": 15.1,
+   "end": 45.8,
+   "title": "Making Friends Through Playing Trumpet",
    "level": "N4",
    "topics": [
     "music",
-    "daily",
-    "fun"
+    "friends"
    ],
    "grammar": [
-    "〜ている — ongoing action / state",
-    "〜てくれる — do something for someone",
-    "〜がる / 楽しい — expressing feelings"
+    "〜ていて — ongoing state",
+    "〜を通じて — through / via",
+    "〜てから — after doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 15.3,
-     "end": 19.5,
-     "ja": "最近トランペットの練習を一生懸命やっていて、",
-     "en": "Lately I've been practicing the trumpet really hard,",
-     "speaker": "Yuka"
-    },
-    {
-     "start": 20.0,
+     "start": 15.1,
      "end": 22.5,
-     "ja": "すごく疲れています。",
-     "en": "so I'm really tired.",
+     "ja": "最近トランペットの練習を一生懸命やっていて、すごく疲れています。",
+     "en": "Lately I've been practicing trumpet really hard, so I'm very tired.",
      "speaker": "Yuka"
     },
     {
-     "start": 23.2,
-     "end": 25.8,
-     "ja": "この間も本番があって、",
-     "en": "The other day I had a performance,",
+     "start": 23.1,
+     "end": 31.8,
+     "ja": "この間も本番があって、200人ぐらいのお客さんが来てくれるショーに出ました。",
+     "en": "The other day I had a performance, and I was in a show with about 200 people in the audience.",
      "speaker": "Yuka"
     },
     {
-     "start": 26.2,
-     "end": 31.7,
-     "ja": "200人ぐらいのお客さんが来てくれるショーに出ました。",
-     "en": "and I played in a show where about 200 people came.",
-     "speaker": "Yuka"
-    },
-    {
-     "start": 32.2,
-     "end": 34.0,
+     "start": 32.0,
+     "end": 34.2,
      "ja": "すごく楽しかったです。",
-     "en": "It was so much fun.",
+     "en": "It was really fun.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 34.5,
+     "end": 40.8,
+     "ja": "大学を卒業してから友達ができる機会がなかったので、",
+     "en": "After graduating from university, I didn't have many chances to make friends, so...",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 41.0,
+     "end": 45.6,
+     "ja": "トランペットを通じて友達ができて、とても嬉しいです。",
+     "en": "I'm really happy that I made friends through trumpet.",
      "speaker": "Yuka"
     }
    ]
   },
   {
-   "start": 46.0,
+   "start": 46.2,
    "end": 104.8,
-   "title": "Walking the Dog in Summer Heat",
+   "title": "Walking the Dog in Summer",
    "level": "N4",
    "topics": [
     "daily",
     "animals"
    ],
    "grammar": [
-    "〜られない — potential negative",
-    "〜すぎる — too / excessively",
-    "〜ていう感じ — kind of like / something like"
+    "〜られない — potential negative (cannot)",
+    "〜すぎて — excessively / too much",
+    "〜っていう感じ — something like"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 46.3,
-     "end": 48.8,
+     "start": 46.2,
+     "end": 49.0,
      "ja": "日本は今とっても暑くて、",
-     "en": "It's super hot in Japan right now,",
+     "en": "It's really hot in Japan right now,",
      "speaker": "Yuka"
     },
     {
      "start": 49.0,
-     "end": 52.2,
+     "end": 52.4,
      "ja": "12時ぐらいはもう外に出られないです。",
-     "en": "and around noon you can't even go outside.",
+     "en": "around noon, you can't even go outside.",
      "speaker": "Yuka"
     },
     {
      "start": 52.5,
-     "end": 53.8,
+     "end": 54.0,
      "ja": "暑すぎて。",
-     "en": "Because it's way too hot.",
+     "en": "Because it's just too hot.",
      "speaker": "Yuka"
     },
     {
-     "start": 54.0,
-     "end": 55.8,
+     "start": 54.1,
+     "end": 56.5,
      "ja": "だから犬の散歩も、",
-     "en": "So when I walk my dog,",
+     "en": "So when walking the dog,",
      "speaker": "Yuka"
     },
     {
-     "start": 56.0,
-     "end": 58.7,
+     "start": 56.6,
+     "end": 59.5,
      "ja": "4時？4時も暑いな、5時？",
-     "en": "maybe at 4? No, 4 is still hot, 5?",
+     "en": "4 o'clock? 4 is still hot... 5?",
      "speaker": "Yuka"
     },
     {
-     "start": 59.0,
-     "end": 61.2,
+     "start": 59.6,
+     "end": 61.8,
      "ja": "6時ぐらいに行って、",
      "en": "I go around 6,",
      "speaker": "Yuka"
     },
     {
-     "start": 61.5,
-     "end": 104.3,
-     "ja": "で、また10時ぐらいに行くっていう感じです。",
-     "en": "and then go again around 10, that kind of thing.",
+     "start": 61.9,
+     "end": 104.6,
+     "ja": "また10時ぐらいに行くっていう感じです。",
+     "en": "and then go again around 10, that sort of thing.",
      "speaker": "Yuka"
     }
    ]
   },
   {
-   "start": 300.5,
-   "end": 323.5,
-   "title": "Meeting a Foreigner for the First Time",
+   "start": 173.0,
+   "end": 203.2,
+   "title": "Meeting a Non-Japanese for the First Time",
    "level": "N4",
    "topics": [
     "school",
-    "daily",
     "culture"
    ],
    "grammar": [
-    "〜か分からない — not knowing whether/who",
-    "〜んじゃない — negative modifier",
-    "〜た時 — when / the time that"
+    "〜ていたので — because (was doing)",
+    "〜じゃない — not",
+    "〜時 — when"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 301.0,
-     "end": 303.5,
-     "ja": "牧師さんがいました。",
-     "en": "There was a priest.",
+     "start": 173.2,
+     "end": 180.2,
+     "ja": "で、私は3歳から4歳まではカトリックの幼稚園に行っていたので、",
+     "en": "When I was 3 to 4 years old, I went to a Catholic kindergarten, so...",
      "speaker": "Yuka"
     },
     {
-     "start": 304.0,
-     "end": 306.8,
-     "ja": "どっから来た人か分かんないんですけど、",
+     "start": 180.4,
+     "end": 183.5,
+     "ja": "牧師（神父）さんがいました。",
+     "en": "there was a priest.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 183.8,
+     "end": 186.7,
+     "ja": "どこから来た人かわからないんですけど、",
      "en": "I don't know where he was from, but",
      "speaker": "Yuka"
     },
     {
-     "start": 307.0,
-     "end": 309.2,
+     "start": 186.8,
+     "end": 189.5,
      "ja": "日本語があんまり喋れない人で、",
-     "en": "he couldn't speak Japanese very well,",
+     "en": "he was someone who couldn't speak Japanese very well,",
      "speaker": "Yuka"
     },
     {
-     "start": 309.5,
-     "end": 313.2,
-     "ja": "おじいちゃんですね、園長先生でした。",
-     "en": "he was an old man, and the principal.",
+     "start": 189.6,
+     "end": 193.0,
+     "ja": "おじいちゃんですね。おじいちゃんが、",
+     "en": "an elderly man. He was...",
      "speaker": "Yuka"
     },
     {
-     "start": 317.0,
-     "end": 323.0,
-     "ja": "それが初めて日本人じゃない人に会った時ですね。",
-     "en": "That was the first time I met someone who wasn't Japanese.",
+     "start": 193.1,
+     "end": 196.5,
+     "ja": "園長先生でした。",
+     "en": "the principal of the kindergarten.",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 197.0,
+     "end": 202.8,
+     "ja": "多分それが初めて、日本人じゃない人に会った時ですね。",
+     "en": "I think that was the first time I met someone who wasn't Japanese.",
      "speaker": "Yuka"
     }
    ]
@@ -181,5 +193,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

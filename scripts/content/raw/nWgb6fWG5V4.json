@@ -2,143 +2,201 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 34.0,
-   "end": 50.8,
-   "title": "Are You Feeling Sleepy Right Now?",
+   "start": 43.7,
+   "end": 70.5,
+   "title": "Feeling Sleepy After Lunch",
    "level": "N5",
    "topics": [
-    "daily"
+    "daily",
+    "food"
    ],
    "grammar": [
     "〜ので — because / since",
-    "〜ています — ongoing action"
+    "〜た後 — after doing"
    ],
    "quality": 5,
    "lines": [
-    {
-     "start": 34.5,
-     "end": 38.0,
-     "ja": "皆さん、今どうですか？今何時ですか？",
-     "en": "How are you all doing right now? What time is it?",
-     "speaker": "Teppei"
-    },
-    {
-     "start": 38.5,
-     "end": 43.5,
-     "ja": "眠いですか？それとも、眠くないですか？",
-     "en": "Are you sleepy? Or are you not sleepy?",
-     "speaker": "Teppei"
-    },
     {
      "start": 44.0,
-     "end": 47.5,
-     "ja": "僕はね、少し眠いですね。少し眠い。",
-     "en": "I'm a little sleepy. A bit sleepy.",
+     "end": 46.8,
+     "ja": "僕はね、少し眠いですね。",
+     "en": "As for me, I'm a little sleepy.",
      "speaker": "Teppei"
     },
     {
-     "start": 47.5,
-     "end": 50.4,
+     "start": 47.0,
+     "end": 48.2,
+     "ja": "少し眠い。",
+     "en": "A little sleepy.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 48.4,
+     "end": 51.5,
      "ja": "少し眠いので、コーヒーを飲んでいます。",
-     "en": "I'm a bit sleepy, so I'm drinking coffee.",
+     "en": "Since I'm a bit sleepy, I'm drinking coffee.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 51.7,
+     "end": 55.0,
+     "ja": "さっき、昼ご飯を食べました。昼ご飯。",
+     "en": "Earlier, I ate lunch. Lunch.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 55.4,
+     "end": 60.0,
+     "ja": "昼ご飯を食べた後は、いつも少し眠くなりますね。",
+     "en": "After eating lunch, I always get a little sleepy.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 60.3,
+     "end": 63.8,
+     "ja": "その時はコーヒーを飲んで我慢する。",
+     "en": "At times like that, I drink coffee and bear it.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 64.0,
+     "end": 68.0,
+     "ja": "「うー、眠いな。でも、うーん」ってね、我慢するんですけど、",
+     "en": "I try to bear it, thinking, \"Ugh, I'm sleepy. But...\"",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 68.5,
+     "end": 69.8,
+     "ja": "眠い。",
+     "en": "Still sleepy.",
      "speaker": "Teppei"
     }
    ]
   },
   {
-   "start": 123.0,
-   "end": 145.2,
-   "title": "What to Do When You Feel Sleepy",
+   "start": 83.5,
+   "end": 106.0,
+   "title": "Take a Walk When You're Sleepy",
    "level": "N5",
    "topics": [
     "daily",
-    "school"
+    "sports"
    ],
    "grammar": [
-    "〜時 — when / at the time of",
-    "〜のがいい — it is good to...",
-    "〜くなる — to become"
+    "〜のがいい — it's good to ...",
+    "〜と思う — to think that ...",
+    "〜と — when / if (conditional)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 123.2,
-     "end": 128.8,
-     "ja": "僕は、眠い時は、あの、外に出るのがいいと思います。",
-     "en": "I think when you're sleepy, going outside is best.",
+     "start": 84.0,
+     "end": 89.0,
+     "ja": "僕は、眠い時は、外に出るのがいいと思います。",
+     "en": "I think when you're sleepy, it's good to go outside.",
      "speaker": "Teppei"
     },
     {
-     "start": 129.0,
-     "end": 132.5,
-     "ja": "外を歩く。散歩ですね。",
-     "en": "Walking outside. Going for a stroll.",
+     "start": 89.5,
+     "end": 92.0,
+     "ja": "外を歩く、散歩ですね。",
+     "en": "Walking outside. Taking a walk.",
      "speaker": "Teppei"
     },
     {
-     "start": 132.8,
-     "end": 136.9,
-     "ja": "散歩をする。体を動かす。これが一番です。",
-     "en": "Taking a walk. Moving your body. That's the best.",
+     "start": 92.3,
+     "end": 95.0,
+     "ja": "散歩をする。体を動かす。",
+     "en": "Taking a walk. Moving your body.",
      "speaker": "Teppei"
     },
     {
-     "start": 137.5,
-     "end": 140.2,
+     "start": 95.2,
+     "end": 97.2,
+     "ja": "これが一番です。",
+     "en": "This is the best thing.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 97.5,
+     "end": 100.5,
      "ja": "外に出て、散歩をする。",
-     "en": "Go outside and take a walk.",
+     "en": "Going outside and taking a walk.",
      "speaker": "Teppei"
     },
     {
-     "start": 140.5,
-     "end": 144.8,
-     "ja": "そうすると、ええ、少しずつ眠くなくなりますね。",
-     "en": "When you do that, you gradually become less sleepy.",
+     "start": 101.0,
+     "end": 105.5,
+     "ja": "そうすると、少しずつ眠くなくなりますね。",
+     "en": "If you do that, you'll gradually become less sleepy.",
      "speaker": "Teppei"
     }
    ]
   },
   {
-   "start": 236.8,
-   "end": 251.0,
-   "title": "Best Study Method for Sleepy Times",
+   "start": 125.0,
+   "end": 155.0,
+   "title": "Listen to Podcasts While Walking",
    "level": "N5",
    "topics": [
     "daily",
-    "school"
+    "sports"
    ],
    "grammar": [
-    "〜と思う — I think that...",
-    "〜た時 — when (past/completed)"
+    "〜ながら — while doing",
+    "〜てもいい — may / can do",
+    "〜し — and / what's more"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 237.2,
-     "end": 243.6,
-     "ja": "眠くなった時のおすすめの勉強方法は、外に出る。",
-     "en": "My recommended study method when you get sleepy is to go outside.",
+     "start": 125.5,
+     "end": 130.0,
+     "ja": "携帯電話で聞きながら、外を歩いてください。",
+     "en": "Please walk outside while listening on your mobile phone.",
      "speaker": "Teppei"
     },
     {
-     "start": 243.8,
-     "end": 245.8,
-     "ja": "散歩をする。",
-     "en": "Take a walk.",
+     "start": 130.5,
+     "end": 134.0,
+     "ja": "外を歩きながらポッドキャストを聴く。",
+     "en": "Listening to podcasts while walking outside.",
      "speaker": "Teppei"
     },
     {
-     "start": 245.9,
-     "end": 248.0,
-     "ja": "そして日本語コンテッペイを聴く。",
-     "en": "And listen to Nihongo con Teppei.",
+     "start": 134.8,
+     "end": 138.8,
+     "ja": "まあ、走ってもいいですけどね。走る人もいますからね。",
+     "en": "Well, you can run too. Some people run, after all.",
      "speaker": "Teppei"
     },
     {
-     "start": 248.2,
-     "end": 250.7,
-     "ja": "これが一番だと思います。",
-     "en": "I think this is the best.",
+     "start": 139.0,
+     "end": 144.5,
+     "ja": "外を走る。外をランニングしながら、日本語コン鉄平を聴く。",
+     "en": "Running outside. Listening to Nihongo con Teppei while running outside.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 144.8,
+     "end": 147.5,
+     "ja": "そうすると、眠くなくなる。",
+     "en": "When you do that, you won't feel sleepy anymore.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 147.8,
+     "end": 152.5,
+     "ja": "眠く...眠くなくなるし、あと、でも、日本語の勉強ができる。",
+     "en": "You won't feel sleepy, and on top of that, you get to study Japanese.",
+     "speaker": "Teppei"
+    },
+    {
+     "start": 152.8,
+     "end": 154.5,
+     "ja": "これはいいことですね。",
+     "en": "This is a great thing.",
      "speaker": "Teppei"
     }
    ]
@@ -148,5 +206,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

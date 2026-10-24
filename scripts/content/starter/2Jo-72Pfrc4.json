@@ -1,0 +1,19 @@
+{
+ "videoId": "2Jo-72Pfrc4",
+ "ids": [
+  "2Jo-72Pfrc4-215"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "2Jo-72Pfrc4-215": {
+   "id": "2Jo-72Pfrc4-215",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous punchline with expressive acting and clear delivery."
+  }
+ }
+}

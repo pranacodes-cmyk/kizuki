@@ -1,0 +1,19 @@
+{
+ "videoId": "riDaz7OMn74",
+ "ids": [
+  "riDaz7OMn74-18"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "riDaz7OMn74-18": {
+   "id": "riDaz7OMn74-18",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Slow, clear beginner speech supported by simple on-screen illustrations."
+  }
+ }
+}

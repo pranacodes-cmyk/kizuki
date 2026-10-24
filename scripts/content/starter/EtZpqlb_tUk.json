@@ -1,19 +1,30 @@
 {
  "videoId": "EtZpqlb_tUk",
  "ids": [
+  "EtZpqlb_tUk-130",
   "EtZpqlb_tUk-637"
  ],
  "model": "google/gemini-3.8-flash",
  "ratings": {
   "EtZpqlb_tUk-637": {
    "id": "EtZpqlb_tUk-637",
-   "appeal": 5,
+   "appeal": 6,
    "clarity": 4,
    "picture": 3,
    "ease": 4,
    "english": false,
    "issues": [],
-   "why": "Clear, friendly farewell phrasing suitable for beginners, though visual face is covered."
+   "why": "Calm, simple farewell message with easy vocabulary."
+  },
+  "EtZpqlb_tUk-130": {
+   "id": "EtZpqlb_tUk-130",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Practical cafeteria ticket machine scene with everyday food choices."
   }
  }
 }

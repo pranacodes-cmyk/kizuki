@@ -2,38 +2,45 @@
  "speech": "some",
  "clips": [
   {
-   "start": 333.6,
-   "end": 341.3,
-   "title": "Watching the Next World Cup",
+   "start": 333.5,
+   "end": 341.8,
+   "title": "Watching the World Cup",
    "level": "N3",
    "topics": [
     "sports"
    ],
    "grammar": [
     "〜てほしい — wanting someone to do something",
-    "〜し — listing reasons / states"
+    "〜し — listing reasons"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 333.8,
-     "end": 335.8,
-     "ja": "来年のワールドカップは、",
+     "start": 333.6,
+     "end": 335.3,
+     "ja": "来年のワールドカップは",
      "en": "Next year's World Cup",
      "speaker": "Narrator"
     },
     {
-     "start": 335.8,
-     "end": 338.7,
-     "ja": "朝から昼の時間帯に地上波で放送されますし、",
-     "en": "will be broadcast on terrestrial TV from morning to afternoon,",
+     "start": 335.4,
+     "end": 337.2,
+     "ja": "朝から昼の時間帯に",
+     "en": "will be in the morning and afternoon hours,",
      "speaker": "Narrator"
     },
     {
-     "start": 338.7,
-     "end": 340.9,
-     "ja": "多くの人に見てほしいですね！",
-     "en": "so I hope many people watch it!",
+     "start": 337.3,
+     "end": 339.3,
+     "ja": "地上波で放送されますし、",
+     "en": "and broadcast on terrestrial TV,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 339.4,
+     "end": 341.6,
+     "ja": "多くの人に見てほしいですね。",
+     "en": "so I hope many people will watch it.",
      "speaker": "Narrator"
     }
    ]
@@ -43,5 +50,6 @@
  "pickTopics": [
   "sports"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

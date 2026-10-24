@@ -2,185 +2,172 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 146.2,
-   "end": 169.8,
-   "title": "What Makes You Stand Out?",
+   "start": 46.5,
+   "end": 106.8,
+   "title": "You Are Just a One-Hit Wonder",
    "level": "N3",
-   "topics": [
-    "work",
-    "school"
-   ],
-   "grammar": [
-    "〜のに — even though",
-    "〜てくる — directional/temporal aspect"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 146.4,
-     "end": 149.9,
-     "ja": "ちょっと俺らを見て出る価値がないっていう理由をまず聞きたいっすね、そっちから。",
-     "en": "Looking at us, I want to hear the reason why we aren't worth appearing on the show, from your side first.",
-     "speaker": "Participant"
-    },
-    {
-     "start": 150.2,
-     "end": 153.7,
-     "ja": "人生変えに「Nontitle」出てる人、多分全員ですよね？",
-     "en": "Everyone who came on Nontitle came to change their life, right?",
-     "speaker": "Nosuke"
-    },
-    {
-     "start": 153.8,
-     "end": 155.0,
-     "ja": "そりゃ、そりゃそうでしょう。",
-     "en": "Well, obviously that's the case.",
-     "speaker": "Participant"
-    },
-    {
-     "start": 155.1,
-     "end": 158.2,
-     "ja": "全員なのに最初の議論、全く平行線、進まなかった。",
-     "en": "Even though it's everyone, the first debate got totally deadlocked and made zero progress.",
-     "speaker": "Nosuke"
-    },
-    {
-     "start": 158.3,
-     "end": 160.0,
-     "ja": "じゃあ他にポジショニングは？",
-     "en": "So then what other positioning do you have?",
-     "speaker": "Nosuke"
-    },
-    {
-     "start": 160.1,
-     "end": 164.2,
-     "ja": "君たちの特出してアピールするポイントは何なんですか？",
-     "en": "What is the standout point that you can appeal with?",
-     "speaker": "Nosuke"
-    },
-    {
-     "start": 164.4,
-     "end": 166.2,
-     "ja": "誰が一番とがってる？",
-     "en": "Who has the sharpest edge?",
-     "speaker": "Nosuke"
-    },
-    {
-     "start": 166.3,
-     "end": 169.5,
-     "ja": "そこら辺の後ろで全く喋んない人たちは、出る気あるんですか？",
-     "en": "Do the people sitting in the back who aren't talking at all even intend to appear?",
-     "speaker": "Nosuke"
-    }
-   ]
-  },
-  {
-   "start": 420.5,
-   "end": 444.0,
-   "title": "Business Combat Power",
-   "level": "N2",
-   "topics": [
-    "work"
-   ],
-   "grammar": [
-    "〜ということ — that means / the fact that",
-    "〜ば — conditional if"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 420.8,
-     "end": 426.3,
-     "ja": "Nontitleで一番今求められているものって、ちゃんと売上作れる事業を作ることだと思うんですよ。",
-     "en": "I think what is most needed on Nontitle right now is creating a business that generates solid revenue.",
-     "speaker": "Yamamoto"
-    },
-    {
-     "start": 426.6,
-     "end": 430.5,
-     "ja": "で、それで言うと、求められるものってビジネス戦闘力だと思うんですよね。",
-     "en": "In that sense, what's demanded is business combat power.",
-     "speaker": "Yamamoto"
-    },
-    {
-     "start": 431.0,
-     "end": 438.3,
-     "ja": "で、お三方は出ているということは、お三方よりもビジネス戦闘力が高い人がこちら側に１人でもいれば、「いる」っていうことだと僕は思うんですよ。",
-     "en": "Since the three of you made it on, if there's even one person here with higher business ability than you, that proves someone belongs.",
-     "speaker": "Yamamoto"
-    },
-    {
-     "start": 438.5,
-     "end": 440.5,
-     "ja": "で言うと、お三方よりも年商高いと思うんですよ。",
-     "en": "Speaking of which, I think my annual revenue is higher than yours.",
-     "speaker": "Yamamoto"
-    },
-    {
-     "start": 440.7,
-     "end": 443.8,
-     "ja": "結構いると思うんですよ。それについてはどういうふうに反論されますか？",
-     "en": "I think there are quite a few. How do you counter that?",
-     "speaker": "Yamamoto"
-    }
-   ]
-  },
-  {
-   "start": 510.5,
-   "end": 532.5,
-   "title": "Analyzing Tamekuni's Debate Style",
-   "level": "N2",
    "topics": [
     "work",
     "fun"
    ],
    "grammar": [
-    "〜ちゃう — do completely / end up doing",
-    "〜てると — when doing / while doing"
+    "〜だけで — merely / just by",
+    "〜ていく／〜ている — continuous state"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 510.7,
-     "end": 513.2,
-     "ja": "さあ、為国節すごかったですね。",
-     "en": "Well, Tamekuni's signature style was impressive.",
-     "speaker": "Host"
+     "start": 46.5,
+     "end": 49.8,
+     "ja": "のすけさんは一発屋です、正直。一発屋芸人です。",
+     "en": "Nosuke is just a one-hit wonder, honestly. Like a one-hit comedian.",
+     "speaker": "高田"
     },
     {
-     "start": 513.3,
-     "end": 517.3,
+     "start": 50.0,
+     "end": 53.0,
+     "ja": "たまたまNontitleでちょっと跳ねただけで、",
+     "en": "He just happened to bounce a little on Nontitle,",
+     "speaker": "高田"
+    },
+    {
+     "start": 53.2,
+     "end": 56.0,
+     "ja": "かつ入江さんとかヒカルさんとかに好かれてるだけで、",
+     "en": "and just happens to be liked by Mr. Irie and Hikaru,",
+     "speaker": "高田"
+    },
+    {
+     "start": 56.1,
+     "end": 58.2,
+     "ja": "もう一発で終わります。",
+     "en": "and he'll be done after one hit.",
+     "speaker": "高田"
+    },
+    {
+     "start": 58.4,
+     "end": 60.0,
+     "ja": "僕は正直そう思ってます。",
+     "en": "That's honestly what I think.",
+     "speaker": "高田"
+    },
+    {
+     "start": 60.1,
+     "end": 63.4,
+     "ja": "だから、そういう継続性のある人間っていうのが",
+     "en": "So, people with that kind of consistency",
+     "speaker": "高田"
+    },
+    {
+     "start": 63.5,
+     "end": 64.7,
+     "ja": "必要だと思っていて、",
+     "en": "are what is needed,",
+     "speaker": "高田"
+    },
+    {
+     "start": 64.8,
+     "end": 66.8,
+     "ja": "そういう熱意とかある人間はたくさんいます。以上。",
+     "en": "and there are plenty of people with that enthusiasm. That's all.",
+     "speaker": "高田"
+    }
+   ]
+  },
+  {
+   "start": 459.5,
+   "end": 476.2,
+   "title": "Your Ability Is Too High",
+   "level": "N2",
+   "topics": [
+    "work",
+    "culture"
+   ],
+   "grammar": [
+    "〜ている — ongoing state",
+    "〜すぎる — too much / excessive"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 459.5,
+     "end": 464.2,
+     "ja": "隆玄さんが青笹の師匠だったのも知っているし、すごい人なのは分かっています。",
+     "en": "I know Ryuken was Aozasa's mentor, and I recognize that he's an incredible person.",
+     "speaker": "為国"
+    },
+    {
+     "start": 464.4,
+     "end": 469.2,
+     "ja": "ただ、元々この番組って何者でもない人が何者かになるっていう番組なんで、",
+     "en": "However, this show is originally about nobodies becoming somebodies,",
+     "speaker": "為国"
+    },
+    {
+     "start": 469.4,
+     "end": 472.5,
+     "ja": "隆玄さんの場合は戦闘力高すぎて、",
+     "en": "so in Ryuken's case, his business strength is just too high,",
+     "speaker": "為国"
+    },
+    {
+     "start": 472.6,
+     "end": 476.2,
+     "ja": "Season Zの直後ってタイミングが悪すぎるんで厳しいかなと思ってます。",
+     "en": "and the timing right after Season Z is too poor, so I think it's tough.",
+     "speaker": "為国"
+    }
+   ]
+  },
+  {
+   "start": 510.8,
+   "end": 531.8,
+   "title": "The Art of Speaking Less",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜ちゃう — completely / end up doing",
+    "〜から — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 511.0,
+     "end": 513.4,
+     "ja": "さあ、為国節すごかったですねー。",
+     "en": "Well, Tamekuni's distinct style was amazing, wasn't it?",
+     "speaker": "坂口"
+    },
+    {
+     "start": 513.6,
+     "end": 518.0,
      "ja": "強いよね、やっぱ。自分の空気感、世界を作るのうまいよね、やっぱああいう場でね。",
-     "en": "He really is strong. He's so good at creating his own mood and world in settings like that.",
-     "speaker": "Commentator A"
+     "en": "He's tough, really. He's great at creating his own atmosphere and world in settings like that.",
+     "speaker": "朝倉"
     },
     {
-     "start": 517.5,
-     "end": 520.3,
+     "start": 518.2,
+     "end": 520.4,
      "ja": "聞き入っちゃうもんね、為国くんが喋ってると。",
-     "en": "You just end up listening intently whenever Tamekuni speaks.",
-     "speaker": "Host"
+     "en": "You really get absorbed listening when Tamekuni speaks.",
+     "speaker": "坂口"
     },
     {
-     "start": 520.4,
-     "end": 525.3,
-     "ja": "聞き入っちゃうし、やっぱ的を射てるから割とね、ちょっと言い返すの難しいよね。",
-     "en": "You listen closely, and since he hits the nail on the head, it's pretty hard to argue back.",
-     "speaker": "Commentator A"
+     "start": 520.5,
+     "end": 525.8,
+     "ja": "聞き入っちゃうし、やっぱ的を射てるから、割と言い返すの難しいよね。",
+     "en": "You get absorbed, and since he's spot-on, it's pretty hard to argue back.",
+     "speaker": "朝倉"
     },
     {
-     "start": 526.2,
-     "end": 530.0,
+     "start": 526.0,
+     "end": 531.8,
      "ja": "やっぱ引き算というか、あんま多く喋らないっていう技の１個ですよね。",
-     "en": "It's like subtraction—not talking too much is a technique in itself, isn't it?",
-     "speaker": "Commentator B"
-    },
-    {
-     "start": 530.1,
-     "end": 532.2,
-     "ja": "格が違うって見せる。",
-     "en": "To show that you're on a different level.",
-     "speaker": "Commentator B"
+     "en": "It's like subtraction—not talking too much is one of those skills, right?",
+     "speaker": "青笹"
     }
    ]
   }
@@ -189,5 +176,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

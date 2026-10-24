@@ -2,170 +2,157 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 199.3,
-   "end": 211.2,
-   "title": "Assembling the Train Cars",
+   "start": 0.5,
+   "end": 11.0,
+   "title": "Unboxing Colt Express Japanese Edition",
    "level": "N4",
    "topics": [
     "fun"
    ],
    "grammar": [
-    "〜てみる — try doing something",
-    "〜くらい — approximately"
+    "〜てみる — trying to do something",
+    "〜ので — because / since"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 199.6,
-     "end": 201.2,
-     "ja": "はい、というわけですね。",
-     "en": "Alright, so there you have it.",
-     "speaker": "Host"
+     "start": 0.6,
+     "end": 2.7,
+     "ja": "はい、ザ・ゲーム・ギャラリー・チャンネルのハル99です。",
+     "en": "Hi, this is Haru99 from The Game Gallery channel.",
+     "speaker": "Haru99"
     },
     {
-     "start": 201.5,
-     "end": 203.2,
-     "ja": "えー、6車両と、",
-     "en": "Six train cars,",
-     "speaker": "Host"
+     "start": 2.8,
+     "end": 5.4,
+     "ja": "今日ご紹介するアイテムはこちら！",
+     "en": "The item I'm introducing today is this!",
+     "speaker": "Haru99"
     },
     {
-     "start": 203.4,
-     "end": 204.6,
-     "ja": "えー、機関車ですね。",
-     "en": "and the locomotive.",
-     "speaker": "Host"
+     "start": 5.5,
+     "end": 7.4,
+     "ja": "えー、『コルト・エクスプレス』ですね。",
+     "en": "Uh, Colt Express.",
+     "speaker": "Haru99"
     },
     {
-     "start": 204.7,
-     "end": 206.0,
-     "ja": "これ一番先頭ですけども。",
-     "en": "This is the very front one.",
-     "speaker": "Host"
+     "start": 7.4,
+     "end": 9.0,
+     "ja": "えー、この日本語版が出ましたので、",
+     "en": "A Japanese edition of this has come out, so...",
+     "speaker": "Haru99"
     },
     {
-     "start": 206.1,
-     "end": 208.5,
-     "ja": "合計で、えー、7車両分を作ってみました。",
-     "en": "In total, I tried building seven cars.",
-     "speaker": "Host"
-    },
-    {
-     "start": 208.6,
-     "end": 210.7,
-     "ja": "だいたい20分ぐらいですね。",
-     "en": "It took about 20 minutes.",
-     "speaker": "Host"
+     "start": 9.0,
+     "end": 11.0,
+     "ja": "今日はこちらをご紹介してみたいと思います。",
+     "en": "...today I'd like to show it to you.",
+     "speaker": "Haru99"
     }
    ]
   },
   {
-   "start": 407.4,
-   "end": 425.2,
-   "title": "How the Board Game Works",
+   "start": 407.6,
+   "end": 424.7,
+   "title": "Moving Pieces on the 3D Train",
    "level": "N3",
    "topics": [
-    "fun"
+    "fun",
+    "comedy"
    ],
    "grammar": [
-    "〜たり〜たりする — doing things like... and...",
-    "〜という — called / such as"
+    "〜ていく — gradual progression / continuing action",
+    "〜ですから — because it is..."
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 407.7,
-     "end": 411.3,
+     "start": 407.8,
+     "end": 411.4,
      "ja": "で、実際のところ、本当に冗談でも何でもなくですね、",
-     "en": "And in reality, no kidding at all,",
-     "speaker": "Host"
+     "en": "And in fact, no joke at all,",
+     "speaker": "Haru99"
     },
     {
-     "start": 411.4,
-     "end": 414.7,
-     "ja": "プレイヤーたちのコマが移動すると、本当にこういう風に移動して、",
-     "en": "when players' pieces move, they really move like this,",
-     "speaker": "Host"
+     "start": 411.7,
+     "end": 414.3,
+     "ja": "プレイヤーたちのコマが移動すると本当にこういう風に移動して、",
+     "en": "when the player pawns move, they really move like this,",
+     "speaker": "Haru99"
     },
     {
-     "start": 414.8,
-     "end": 418.1,
-     "ja": "「ここでこっちに射撃して」とか、「ここで物奪って」なんていうのを",
-     "en": "and players go, 'Shoot this way from here' or 'Steal the loot here,'",
-     "speaker": "Host"
+     "start": 414.5,
+     "end": 417.6,
+     "ja": "ここでこっちに射撃してとか、ここで物奪ってなんていうのを、",
+     "en": "and doing things like shooting this way or stealing items here,",
+     "speaker": "Haru99"
     },
     {
-     "start": 418.2,
-     "end": 419.6,
-     "ja": "ここでやり合っていって、",
-     "en": "and fight each other right here,",
-     "speaker": "Host"
+     "start": 417.8,
+     "end": 420.5,
+     "ja": "ここでやり合っていって、まあお金を奪うっていう、",
+     "en": "they clash here and rob money...",
+     "speaker": "Haru99"
     },
     {
-     "start": 419.7,
-     "end": 424.7,
-     "ja": "まあ、お金を奪うっていう、お金を儲けるという、強盗ですからね、いうシステムになっていましたね。",
-     "en": "to take money, or make money, since they're bandits, you see. That's how the system works.",
-     "speaker": "Host"
+     "start": 420.6,
+     "end": 424.4,
+     "ja": "お金をまあ儲ける…儲けると変ですね、強盗ですからね。",
+     "en": "...or, well, 'earn' money—'earn' sounds strange, since it's a robbery.",
+     "speaker": "Haru99"
     }
    ]
   },
   {
-   "start": 626.3,
-   "end": 643.5,
-   "title": "Storing the Pieces in the Box",
+   "start": 602.0,
+   "end": 618.7,
+   "title": "Decorative Scenery in the Box",
    "level": "N3",
    "topics": [
-    "fun"
+    "fun",
+    "comedy"
    ],
    "grammar": [
-    "〜てみる — try doing something",
-    "〜ようとする — attempt to do",
-    "〜ようになる — come to be able to"
+    "〜っぽい — -ish / like",
+    "〜たら — if / when conditional"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 626.6,
-     "end": 629.7,
-     "ja": "箱に収納してみようと思ったらですね、",
-     "en": "When I tried storing them in the box,",
-     "speaker": "Host"
+     "start": 602.3,
+     "end": 606.4,
+     "ja": "はい、組み立てると、まあ、こんな草っぽいもんとか骨っぽいもんとかになるわけですけど、",
+     "en": "All right, once assembled, they become like these plant-like things or bone-like things,",
+     "speaker": "Haru99"
     },
     {
-     "start": 629.8,
-     "end": 634.3,
-     "ja": "これ、紙を折ったやつを挿せるところがちゃんと2箇所あって、",
-     "en": "there are two spots where you can insert these folded cardboard dividers,",
-     "speaker": "Host"
+     "start": 606.8,
+     "end": 608.8,
+     "ja": "別に何にもするわけではなくて、",
+     "en": "they don't actually do anything at all,",
+     "speaker": "Haru99"
     },
     {
-     "start": 634.4,
-     "end": 638.7,
-     "ja": "で、これを挿すとですね、きれいにその列車が6車両と機関車とカードが",
-     "en": "and when you insert them, neatly, the six cars, the locomotive, and the cards",
-     "speaker": "Host"
+     "start": 609.0,
+     "end": 611.2,
+     "ja": "列車のそばに置いてたら、",
+     "en": "if you place them beside the train,",
+     "speaker": "Haru99"
     },
     {
-     "start": 638.8,
-     "end": 641.0,
-     "ja": "入るような仕切りが生まれてきたので、",
-     "en": "have compartments created for them to fit,",
-     "speaker": "Host"
+     "start": 611.4,
+     "end": 615.5,
+     "ja": "まあ、西部劇っぽい、西部時代っぽい雰囲気が盛り上がりますよねみたいな、",
+     "en": "it just livens up that Western movie, Old West atmosphere,",
+     "speaker": "Haru99"
     },
     {
-     "start": 641.1,
-     "end": 643.0,
-     "ja": "なんか割と結構きれいにしまえるような",
-     "en": "so it turned out to have a layout",
-     "speaker": "Host"
-    },
-    {
-     "start": 643.1,
-     "end": 644.2,
-     "ja": "雰囲気になりました。",
-     "en": "where things can be packed away pretty neatly.",
-     "speaker": "Host"
+     "start": 615.7,
+     "end": 618.3,
+     "ja": "グッズも一応入ってはいました。",
+     "en": "pieces like that were also included.",
+     "speaker": "Haru99"
     }
    ]
   }
@@ -174,5 +161,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

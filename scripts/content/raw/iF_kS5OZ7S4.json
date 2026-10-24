@@ -2,39 +2,39 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 1.4,
+   "start": 1.5,
    "end": 17.8,
-   "title": "Introduction to Making Onigiri",
+   "title": "Welcome to the Onigiri Cooking Lesson",
    "level": "N5",
    "topics": [
     "food",
-    "culture"
+    "daily"
    ],
    "grammar": [
-    "〜ている — ongoing action",
-    "〜ましょう — let's do"
+    "〜方 — how to do",
+    "〜ましょう — let's ..."
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1.7,
-     "end": 3.7,
+     "start": 1.8,
+     "end": 3.8,
      "ja": "皆さん、こんにちは。",
      "en": "Hello, everyone.",
      "speaker": "Akiko"
     },
     {
-     "start": 3.9,
+     "start": 4.1,
      "end": 7.6,
      "ja": "ひらがなネットで和食を教えている明子です。",
-     "en": "I'm Akiko, teaching Japanese cooking at Hiragana Net.",
+     "en": "I'm Akiko, teaching Japanese cuisine at Hiragana Net.",
      "speaker": "Akiko"
     },
     {
-     "start": 8.5,
+     "start": 8.6,
      "end": 11.5,
      "ja": "今回はおにぎりを作ります。",
-     "en": "This time, we will make onigiri (rice balls).",
+     "en": "This time, we will make onigiri.",
      "speaker": "Akiko"
     },
     {
@@ -45,113 +45,100 @@
      "speaker": "Akiko"
     },
     {
-     "start": 15.2,
+     "start": 15.5,
      "end": 17.5,
      "ja": "では、一緒に作りましょう。",
-     "en": "Now, let's make them together.",
+     "en": "Now, let's make it together.",
      "speaker": "Akiko"
     }
    ]
   },
   {
-   "start": 354.2,
-   "end": 418.0,
-   "title": "Shaping the Rice Ball into a Triangle",
+   "start": 234.0,
+   "end": 257.2,
+   "title": "How to Shape the Rice Ball",
    "level": "N4",
-   "topics": [
-    "food",
-    "culture"
-   ],
-   "grammar": [
-    "〜て — connecting actions",
-    "〜と — conditional if/when",
-    "〜てしまう — inadvertent action"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 354.5,
-     "end": 357.2,
-     "ja": "ラップを持ち上げて、",
-     "en": "Lift the plastic wrap,",
-     "speaker": "Akiko"
-    },
-    {
-     "start": 357.5,
-     "end": 400.5,
-     "ja": "ご飯を包みます。",
-     "en": "and wrap up the rice.",
-     "speaker": "Akiko"
-    },
-    {
-     "start": 403.5,
-     "end": 408.5,
-     "ja": "右手を使って三角に握ります。",
-     "en": "Using your right hand, mold it into a triangle.",
-     "speaker": "Akiko"
-    },
-    {
-     "start": 409.5,
-     "end": 414.2,
-     "ja": "強く握るとご飯が潰れてしまうので、",
-     "en": "If you squeeze too hard, the rice gets crushed, so",
-     "speaker": "Akiko"
-    },
-    {
-     "start": 414.5,
-     "end": 417.2,
-     "ja": "優しく握ります。",
-     "en": "squeeze it gently.",
-     "speaker": "Akiko"
-    }
-   ]
-  },
-  {
-   "start": 501.2,
-   "end": 515.0,
-   "title": "Wrap-up and Farewell",
-   "level": "N5",
    "topics": [
     "food",
     "daily"
    ],
    "grammar": [
-    "〜てみる — try doing something",
-    "〜ましょう — let's do"
+    "〜と — if / when",
+    "〜てしまう — end up doing",
+    "〜ので — because / since"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 501.8,
-     "end": 503.6,
+     "start": 234.2,
+     "end": 240.5,
+     "ja": "ラップを持ち上げてご飯を包みます。",
+     "en": "Lift the plastic wrap and wrap the rice.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 244.0,
+     "end": 249.2,
+     "ja": "右手を使って三角に握ります。",
+     "en": "Use your right hand to squeeze it into a triangle.",
+     "speaker": "Akiko"
+    },
+    {
+     "start": 250.2,
+     "end": 256.8,
+     "ja": "強く握るとご飯が潰れてしまうので、優しく握ります。",
+     "en": "If you squeeze too hard, the rice will get crushed, so squeeze gently.",
+     "speaker": "Akiko"
+    }
+   ]
+  },
+  {
+   "start": 301.5,
+   "end": 315.0,
+   "title": "Freshly Cooked Rice Makes It Delicious",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜たて — freshly done",
+    "〜てみる — try doing",
+    "〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 301.8,
+     "end": 303.8,
      "ja": "いかがでしたか？",
-     "en": "How was it?",
+     "en": "How did you find it?",
      "speaker": "Akiko"
     },
     {
-     "start": 504.0,
-     "end": 507.4,
-     "ja": "炊き立てのご飯で作るととても美味しいです。",
-     "en": "It's really delicious when made with freshly cooked rice.",
+     "start": 304.2,
+     "end": 307.4,
+     "ja": "炊きたてのご飯で作るととても美味しいです。",
+     "en": "It's very delicious when made with freshly cooked rice.",
      "speaker": "Akiko"
     },
     {
-     "start": 507.8,
-     "end": 510.4,
+     "start": 308.2,
+     "end": 310.5,
      "ja": "ぜひ作ってみてください。",
      "en": "Please be sure to try making it.",
      "speaker": "Akiko"
     },
     {
-     "start": 510.8,
-     "end": 512.8,
+     "start": 311.0,
+     "end": 313.2,
      "ja": "それでは、また会いましょう。",
      "en": "Well then, see you again.",
      "speaker": "Akiko"
     },
     {
-     "start": 512.9,
-     "end": 514.5,
+     "start": 313.5,
+     "end": 314.8,
      "ja": "さようなら。",
      "en": "Goodbye.",
      "speaker": "Akiko"
@@ -163,5 +150,6 @@
  "pickTopics": [
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }
