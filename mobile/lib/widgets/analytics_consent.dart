@@ -3,23 +3,39 @@ import '../services/analytics.dart';
 import '../theme/tokens.dart';
 import 'ui.dart';
 
+/// First-launch analytics choice (mirrors src/components/mimi/AnalyticsConsent.tsx).
+/// It sits above the router in MaterialApp's builder, where no Material exists yet, so it
+/// brings its own: without one, text falls back to Flutter's debug style (yellow underline).
 class AnalyticsConsent extends StatelessWidget {
   const AnalyticsConsent({super.key});
   @override
   Widget build(BuildContext context) => ValueListenableBuilder<bool?>(
     valueListenable: Analytics.choice,
     builder: (context, choice, _) => choice != null ? const SizedBox.shrink() : Positioned.fill(
-      child: ColoredBox(color: T.background.withValues(alpha: 0.9), child: SafeArea(
-        child: Center(child: SingleChildScrollView(padding: const EdgeInsets.all(24), child: Column(mainAxisSize: MainAxisSize.min, children: [
-          Text('Usage analytics', style: txt(24, w: FontWeight.w900)),
-          const SizedBox(height: 16),
-          Text(Analytics.notice, style: txt(15, c: T.muted, h: 1.5)),
-          const SizedBox(height: 24),
-          Button3D(label: 'Allow analytics', variant: BtnVariant.surface, onPressed: () => Analytics.setChoice(true)),
-          const SizedBox(height: 12),
-          Button3D(label: 'No thanks', variant: BtnVariant.surface, onPressed: () => Analytics.setChoice(false)),
-        ]))),
-      )),
+      child: Material(
+        type: MaterialType.transparency,
+        child: Semantics(
+          scopesRoute: true,
+          namesRoute: true,
+          explicitChildNodes: true,
+          label: 'Usage analytics',
+          child: ColoredBox(color: T.background.withValues(alpha: 0.95), child: SafeArea(
+            child: Center(child: SingleChildScrollView(padding: const EdgeInsets.all(24), child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Text('Usage analytics', style: txt(24, w: FontWeight.w900)),
+                const SizedBox(height: 16),
+                Text(Analytics.notice, style: txt(15, c: T.muted, h: 1.5)),
+                const SizedBox(height: 24),
+                Button3D(label: 'Allow analytics', variant: BtnVariant.surface, onPressed: () => Analytics.setChoice(true)),
+                const SizedBox(height: 12),
+                Button3D(label: 'No thanks', variant: BtnVariant.surface, onPressed: () => Analytics.setChoice(false)),
+              ],
+            ))),
+          )),
+        ),
+      ),
     ),
   );
 }
