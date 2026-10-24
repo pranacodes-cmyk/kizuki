@@ -57,6 +57,7 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 - [x] Small phones (360×640, large system text): onboarding + paywall buttons pinned, content scrolls with a fade, plans shown before perks; Flutter widget tests + web walk at 360×640 and 384×624
 - [x] New full Privacy Policy (14 sections: data, uses, providers, Meta/ATT, retention, rights, deletion without the app, children, transfers) + Terms contact; same text in both clients (generated + parity test); Help answer for deleting without the app
 - [x] Store builds: GitHub run 40006801363 green (analyze + tests) → Android 1.2.0 (109) rolled out to Play internal testing (replaces 108); iOS 1.2.0 (109) VALID, in TestFlight for the Kizuki team group; new policy live at /privacy (read back)
+- [x] Build 1.2.0 (111) (24 Oct): Play internal testing rolled out; TestFlight VALID, in internal testing for Kizuki team. Emulator flow test stopped on request — not re-run since billing fix.
 - [ ] App Store privacy answers + Play Data safety must match the new policy (by hand in the consoles)
 - [ ] Legal review of the policy by a lawyer (written by me from what the app does; not legal advice)
 - [ ] Real-phone retest of build 109 (Android + iPhone): purchase → account, reminders, small-screen paywall

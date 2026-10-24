@@ -1,7 +1,7 @@
 name: Store release
 
 # Builds the Kizuki store binaries and ships them:
-#   Android → signed App Bundle → Google Play internal track (draft release)
+#   Android → signed App Bundle → Google Play internal track (published to testers)
 #   iOS     → signed IPA (App Store distribution) → App Store Connect / TestFlight
 # Both only run after `flutter analyze` and `flutter test` pass. The build number is
 # 100 + the run number, so every release is higher than the last on both stores.
@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       android:
-        description: "Upload Android to Google Play internal (draft)"
+        description: "Upload Android to Google Play internal (published)"
         type: boolean
         default: true
       ios:
@@ -91,13 +91,13 @@ jobs:
           name: kizuki-android-aab
           path: mobile/build/app/outputs/bundle/release/app-release.aab
           retention-days: 30
-      - name: Upload to Google Play (internal, draft)
+      - name: Upload to Google Play (internal, published)
         env:
           GOOGLE_PLAY_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON }}
         run: |
           pip install --quiet pyjwt cryptography requests
           cd ../scripts/stores
-          python3 play_upload.py ../../mobile/build/app/outputs/bundle/release/app-release.aab internal draft "${{ needs.checks.outputs.name }} (${{ needs.checks.outputs.build }})"
+          python3 play_upload.py ../../mobile/build/app/outputs/bundle/release/app-release.aab internal completed "${{ needs.checks.outputs.name }} (${{ needs.checks.outputs.build }})"
 
   ios:
     needs: checks

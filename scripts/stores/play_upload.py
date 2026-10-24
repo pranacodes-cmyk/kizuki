@@ -2,7 +2,7 @@
 """Upload an Android App Bundle to a Google Play track.
 
 Usage: GOOGLE_PLAY_SERVICE_ACCOUNT_JSON=... python3 scripts/stores/play_upload.py app.aab [track] [status] [release-name]
-Defaults: track=internal, status=draft (a never-published app only accepts draft releases).
+Defaults: track=internal, status=completed (released to testers right away; pass draft to hold it).
 Prints the version code Play recorded.
 """
 import sys
@@ -13,7 +13,7 @@ from common import PLAY_UPLOAD, play
 def main():
     aab = sys.argv[1]
     track = sys.argv[2] if len(sys.argv) > 2 else "internal"
-    status = sys.argv[3] if len(sys.argv) > 3 else "draft"
+    status = sys.argv[3] if len(sys.argv) > 3 else "completed"
     name = sys.argv[4] if len(sys.argv) > 4 else None
     edit = play("POST", "/edits", {})["id"]
     with open(aab, "rb") as f:
