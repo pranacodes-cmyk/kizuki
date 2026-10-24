@@ -159,7 +159,10 @@ echo "screen: ${W}x${H}"
   done ) &
 SHOT_PID=$!
 
+# The emulator has no Play billing: the flow test uses the documented store stand-in
+# (purchases simulated); the release APK launch check above runs the real store code.
 flutter drive --profile --no-pub \
+  --dart-define=KIZUKI_SIMULATE_PURCHASES=true \
   --driver=test_driver/integration_test.dart \
   --target=integration_test/app_flow_test.dart \
   -d "$DEVICE" 2>&1 | tee "$OUT/flow/drive.log"
