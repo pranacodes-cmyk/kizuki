@@ -1,0 +1,19 @@
+{
+ "videoId": "EtZpqlb_tUk",
+ "ids": [
+  "EtZpqlb_tUk-637"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "EtZpqlb_tUk-637": {
+   "id": "EtZpqlb_tUk-637",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, friendly farewell phrasing suitable for beginners, though visual face is covered."
+  }
+ }
+}

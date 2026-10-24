@@ -2,157 +2,169 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 546.5,
-   "end": 603.0,
-   "title": "A Takoyaki Disaster",
-   "level": "N4",
+   "start": 540.0,
+   "end": 602.6,
+   "title": "Is This Takoyaki Even Right?",
+   "level": "N3",
    "topics": [
     "food",
-    "daily",
-    "comedy"
+    "fun"
    ],
    "grammar": [
     "〜につれて — as X happens, Y happens",
-    "〜たことない — have never done"
+    "〜たことがない — have never done"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 546.8,
-     "end": 549.0,
+     "start": 540.3,
+     "end": 542.5,
+     "ja": "これ正解なの？",
+     "en": "Is this right?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 546.7,
+     "end": 548.8,
      "ja": "大失敗やな。",
-     "en": "It's a huge failure.",
+     "en": "It's a complete failure.",
      "speaker": "Man"
     },
     {
      "start": 549.8,
-     "end": 551.5,
+     "end": 551.3,
      "ja": "そうよね。",
      "en": "Right?",
      "speaker": "Woman"
     },
     {
      "start": 552.2,
-     "end": 558.2,
+     "end": 557.3,
      "ja": "こっから焼けていくにつれてうまく焼けてくれるの？",
-     "en": "As it cooks from here on, will it turn out okay?",
+     "en": "Will it turn out nicely as it keeps cooking from here?",
      "speaker": "Woman"
     },
     {
-     "start": 558.7,
-     "end": 602.5,
+     "start": 558.0,
+     "end": 602.3,
      "ja": "私たこ焼きやったことないからさ…",
-     "en": "I've never made takoyaki before, you see...",
+     "en": "I've never made takoyaki before, so...",
      "speaker": "Woman"
     }
    ]
   },
   {
    "start": 633.2,
-   "end": 647.2,
-   "title": "Figuring Out What Went Wrong",
+   "end": 648.0,
+   "title": "Analyzing the Takoyaki Failure",
    "level": "N3",
    "topics": [
     "food",
     "daily"
    ],
    "grammar": [
-    "〜たらよかった — should have",
+    "〜てしまう — unintentional action/regret",
     "〜といけない — must not / bad if"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 633.5,
-     "end": 636.5,
-     "ja": "油が足らなかったんやなー。",
+     "start": 633.8,
+     "end": 636.2,
+     "ja": "油が足らんかったんやな。",
      "en": "There wasn't enough oil, huh.",
      "speaker": "Man"
     },
     {
-     "start": 636.8,
-     "end": 638.2,
-     "ja": "多分ね〜。",
+     "start": 636.6,
+     "end": 638.3,
+     "ja": "多分ねー。",
      "en": "Probably.",
      "speaker": "Woman"
     },
     {
-     "start": 638.8,
-     "end": 641.0,
+     "start": 639.0,
+     "end": 641.6,
      "ja": "あと火を止めちゃったのよ。",
-     "en": "Also, I ended up turning off the heat.",
+     "en": "Also, I turned off the heat.",
      "speaker": "Man"
     },
     {
-     "start": 641.8,
-     "end": 644.2,
+     "start": 641.7,
+     "end": 642.9,
+     "ja": "あー。",
+     "en": "Ah.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 643.0,
+     "end": 645.0,
      "ja": "焦げるといけないからって。",
-     "en": "Thinking it shouldn't burn.",
+     "en": "Because I didn't want it to burn.",
      "speaker": "Man"
     },
     {
-     "start": 644.2,
-     "end": 645.3,
-     "ja": "うんうん。",
+     "start": 645.0,
+     "end": 646.2,
+     "ja": "うん、うん。",
      "en": "Yeah, yeah.",
      "speaker": "Woman"
     },
     {
-     "start": 645.3,
-     "end": 646.8,
+     "start": 646.3,
+     "end": 647.8,
      "ja": "これどうしよ。",
-     "en": "What do we do with this?",
+     "en": "What should we do with this?",
      "speaker": "Woman"
     }
    ]
   },
   {
-   "start": 652.5,
-   "end": 706.5,
-   "title": "Claiming Credit for the Only Good One",
+   "start": 652.4,
+   "end": 707.5,
+   "title": "One Single Success",
    "level": "N4",
    "topics": [
     "food",
-    "fun",
-    "daily"
+    "fun"
    ],
    "grammar": [
     "〜になる — to become",
-    "〜やつ — the thing / one"
+    "〜やん — isn't it / Kansai copula"
    ],
    "quality": 4,
    "lines": [
     {
      "start": 652.8,
-     "end": 655.8,
-     "ja": "これ凄い綺麗に丸くなった。",
-     "en": "This one became really nicely round.",
+     "end": 655.6,
+     "ja": "これすごい綺麗に丸くなった。",
+     "en": "This one turned into a really nice round ball.",
      "speaker": "Woman"
     },
     {
      "start": 656.0,
      "end": 657.6,
      "ja": "ほんとや。",
-     "en": "That's true.",
+     "en": "True.",
      "speaker": "Man"
     },
     {
-     "start": 657.8,
+     "start": 658.0,
      "end": 659.8,
      "ja": "これだけやん。",
-     "en": "It's only this one though.",
+     "en": "Only this one though.",
      "speaker": "Man"
     },
     {
-     "start": 659.8,
-     "end": 701.8,
-     "ja": "そうね〜。",
-     "en": "Yeah, true...",
+     "start": 670.0,
+     "end": 701.5,
+     "ja": "そうねー。",
+     "en": "Yeah.",
      "speaker": "Woman"
     },
     {
-     "start": 703.2,
-     "end": 706.0,
+     "start": 703.5,
+     "end": 706.8,
      "ja": "それ私が担当したやつ。",
      "en": "That's the one I made.",
      "speaker": "Woman"
@@ -164,5 +176,6 @@
  "pickTopics": [
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

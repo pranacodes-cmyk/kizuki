@@ -1,0 +1,21 @@
+{
+ "videoId": "VDtCA2GPw4k",
+ "ids": [
+  "VDtCA2GPw4k-226"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "VDtCA2GPw4k-226": {
+   "id": "VDtCA2GPw4k-226",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "starts mid-sentence"
+   ],
+   "why": "Clear speech, but standard stage presentation lacks beginner visual engagement."
+  }
+ }
+}

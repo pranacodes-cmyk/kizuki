@@ -1,0 +1,30 @@
+{
+ "videoId": "L6MYKz-1SFM",
+ "ids": [
+  "L6MYKz-1SFM-118",
+  "L6MYKz-1SFM-47"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "L6MYKz-1SFM-47": {
+   "id": "L6MYKz-1SFM-47",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear instructional classroom setting explaining bento hygiene rules."
+  },
+  "L6MYKz-1SFM-118": {
+   "id": "L6MYKz-1SFM-118",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute visual chart explaining seasonal food vocabulary clearly."
+  }
+ }
+}

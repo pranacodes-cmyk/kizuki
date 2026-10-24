@@ -1,0 +1,19 @@
+{
+ "videoId": "xuc0YWZW8mU",
+ "ids": [
+  "xuc0YWZW8mU-324"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "xuc0YWZW8mU-324": {
+   "id": "xuc0YWZW8mU-324",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, very slow narration with matching illustrated storybook visuals."
+  }
+ }
+}

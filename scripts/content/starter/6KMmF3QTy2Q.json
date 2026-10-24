@@ -1,0 +1,19 @@
+{
+ "videoId": "6KMmF3QTy2Q",
+ "ids": [
+  "6KMmF3QTy2Q-25"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "6KMmF3QTy2Q-25": {
+   "id": "6KMmF3QTy2Q-25",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear slow narration about daily routine and Japanese cultural customs."
+  }
+ }
+}

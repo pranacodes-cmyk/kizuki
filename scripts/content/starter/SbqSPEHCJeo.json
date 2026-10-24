@@ -1,0 +1,30 @@
+{
+ "videoId": "SbqSPEHCJeo",
+ "ids": [
+  "SbqSPEHCJeo-10",
+  "SbqSPEHCJeo-209"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "SbqSPEHCJeo-10": {
+   "id": "SbqSPEHCJeo-10",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Engaging intro to a wake-up prank with clear, subtitled speech."
+  },
+  "SbqSPEHCJeo-209": {
+   "id": "SbqSPEHCJeo-209",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Humorous hotel wake-up interaction featuring common, polite morning phrases."
+  }
+ }
+}

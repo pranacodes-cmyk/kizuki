@@ -1,0 +1,19 @@
+{
+ "videoId": "LXXZc3yAsmM",
+ "ids": [
+  "LXXZc3yAsmM-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "LXXZc3yAsmM-0": {
+   "id": "LXXZc3yAsmM-0",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Natural reunion dialogue with common expressions and clear romantic appeal."
+  }
+ }
+}

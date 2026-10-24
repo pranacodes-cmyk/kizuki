@@ -2,221 +2,301 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 32.2,
-   "end": 47.3,
-   "title": "I Asked for a Size Large",
+   "start": 31.8,
+   "end": 56.6,
+   "title": "Why Did You Bring an XS?",
    "level": "N4",
    "topics": [
     "comedy",
     "fun"
    ],
    "grammar": [
-    "〜てくれ・〜てください — requesting an action",
-    "〜やから — because (Kansai dialect)"
+    "〜やから — because (Kansai dialect)",
+    "〜て — quoting a request or instruction",
+    "〜って言うから — because (you) said that..."
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 32.4,
-     "end": 34.5,
-     "ja": "いや、俺言うたよな？",
+     "start": 32.0,
+     "end": 33.7,
+     "ja": "いや、俺言ったよな？",
      "en": "Hey, I told you, right?",
      "speaker": "Customer"
     },
     {
-     "start": 34.5,
-     "end": 35.3,
+     "start": 33.8,
+     "end": 34.6,
      "ja": "はい。",
      "en": "Yes.",
      "speaker": "Clerk"
     },
     {
-     "start": 35.3,
-     "end": 37.4,
-     "ja": "普段の服、Lやから、",
-     "en": "My normal clothes are size L,",
+     "start": 34.8,
+     "end": 36.4,
+     "ja": "普段の服 L やから、",
+     "en": "I usually wear an L,",
      "speaker": "Customer"
     },
     {
-     "start": 37.4,
-     "end": 38.0,
+     "start": 36.5,
+     "end": 37.1,
      "ja": "はい。",
      "en": "Yes.",
      "speaker": "Clerk"
     },
     {
-     "start": 38.0,
-     "end": 40.5,
-     "ja": "Lサイズなんを持ってきてくださーいって。",
-     "en": "so please bring me a size L.",
+     "start": 37.2,
+     "end": 39.8,
+     "ja": "L サイズのを持ってきてくださいて。",
+     "en": "so please bring an L size.",
      "speaker": "Customer"
     },
     {
-     "start": 40.5,
-     "end": 41.4,
+     "start": 40.0,
+     "end": 40.8,
      "ja": "はい。",
      "en": "Yes.",
      "speaker": "Clerk"
     },
     {
-     "start": 41.4,
-     "end": 43.4,
+     "start": 41.1,
+     "end": 43.1,
      "ja": "お前が持ってきたこれ何？",
      "en": "What is this that you brought?",
      "speaker": "Customer"
     },
     {
-     "start": 43.4,
-     "end": 45.3,
-     "ja": "XSです。",
-     "en": "It's XS.",
+     "start": 43.2,
+     "end": 44.8,
+     "ja": "XS です。",
+     "en": "It's an XS.",
      "speaker": "Clerk"
     },
     {
-     "start": 45.3,
+     "start": 44.9,
      "end": 46.4,
      "ja": "いや、それ何でなん？",
-     "en": "Why on earth is that?",
+     "en": "Why on earth would you do that?",
      "speaker": "Customer"
     },
     {
-     "start": 46.4,
-     "end": 47.3,
+     "start": 46.5,
+     "end": 47.4,
      "ja": "すいません。",
      "en": "I'm sorry.",
      "speaker": "Clerk"
-    }
-   ]
-  },
-  {
-   "start": 54.0,
-   "end": 74.0,
-   "title": "Skipping Two Sizes Down",
-   "level": "N3",
-   "topics": [
-    "comedy",
-    "fun"
-   ],
-   "grammar": [
-    "〜つもりで — with the intention of",
-    "〜んだと思います — I think that (explanatory)"
-   ],
-   "quality": 5,
-   "lines": [
+    },
     {
-     "start": 54.2,
-     "end": 56.2,
-     "ja": "何でXSなん？",
-     "en": "Why is it XS?",
+     "start": 47.5,
+     "end": 50.8,
+     "ja": "いや、何かウェットスーツって、結構きついんですよって言うから、",
+     "en": "You told me wetsuits are pretty tight,",
      "speaker": "Customer"
     },
     {
-     "start": 56.2,
-     "end": 60.0,
-     "ja": "いや、あの、僕もLのつもりで持ってきたんですけど、",
-     "en": "Well, um, I intended to bring an L, but...",
-     "speaker": "Clerk"
-    },
-    {
-     "start": 60.0,
-     "end": 63.2,
-     "ja": "多分バックヤードでなんか取り違えたんだと思います。すいません。",
-     "en": "I think I mixed it up in the backroom. I'm sorry.",
-     "speaker": "Clerk"
-    },
-    {
-     "start": 63.2,
-     "end": 65.1,
-     "ja": "いや、分かるやん。",
-     "en": "Hey, you should notice that.",
-     "speaker": "Customer"
-    },
-    {
-     "start": 65.1,
-     "end": 68.5,
-     "ja": "それ、LとMを間違えたんなら分かるけど、",
-     "en": "If you mixed up L and M, I'd understand, but...",
-     "speaker": "Customer"
-    },
-    {
-     "start": 68.5,
-     "end": 69.3,
+     "start": 50.9,
+     "end": 51.5,
      "ja": "はい。",
      "en": "Yes.",
      "speaker": "Clerk"
     },
     {
-     "start": 69.3,
-     "end": 72.7,
-     "ja": "XSやで？これ2個行ってんのよ。",
-     "en": "It's XS! You jumped down two sizes!",
+     "start": 51.6,
+     "end": 54.0,
+     "ja": "あ、そんなもんなんかなって言って着たやん。",
+     "en": "so I thought, 'Oh, I guess that's how it is,' and put it on.",
      "speaker": "Customer"
     },
     {
-     "start": 72.7,
-     "end": 74.0,
-     "ja": "なあ。申し訳ございません。",
-     "en": "Right? / I am truly sorry.",
+     "start": 54.1,
+     "end": 54.8,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 54.9,
+     "end": 56.3,
+     "ja": "何で XS なん？",
+     "en": "Why is it an XS?!",
      "speaker": "Customer"
     }
    ]
   },
   {
-   "start": 736.8,
-   "end": 757.2,
-   "title": "Adrenaline Numbed the Pain",
+   "start": 381.8,
+   "end": 405.3,
+   "title": "Testing Material Before the Contest",
    "level": "N3",
    "topics": [
     "comedy",
-    "fun"
+    "work"
    ],
    "grammar": [
-    "〜てたのかな — wondering about past continuous",
-    "〜っていう — called / describing a sound"
+    "〜までに — before / by the time",
+    "〜たり〜たり — doing things like A and B",
+    "〜たまま — remaining in the state of"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 737.3,
-     "end": 740.5,
-     "ja": "めちゃくちゃ痛かったで。",
-     "en": "That hurt like crazy.",
+     "start": 382.0,
+     "end": 384.2,
+     "ja": "確か、あの、キングオブコントの決勝",
+     "en": "If I remember correctly, before heading",
      "speaker": "Yamauchi"
     },
     {
-     "start": 741.5,
-     "end": 744.2,
-     "ja": "「キングオブコント」のとき、麻痺してたのかな。",
-     "en": "Maybe I was numb back during King of Conte.",
+     "start": 384.3,
+     "end": 387.8,
+     "ja": "行くまでに、色んな場所でやっぱネタかけていくんすけど、",
+     "en": "to the King of Conte finals, we tested this bit in various places, but...",
      "speaker": "Yamauchi"
     },
     {
-     "start": 744.2,
-     "end": 748.3,
-     "ja": "やっぱアドレナリン出てるから、多分痛くなかったんや。",
-     "en": "Adrenaline was pumping, so it probably didn't hurt.",
-     "speaker": "Hiraishi"
+     "start": 388.0,
+     "end": 391.8,
+     "ja": "あの、ウケたりウケへんかったりがすごかったんすよね。",
+     "en": "whether it landed or bombed varied wildly.",
+     "speaker": "Yamauchi"
     },
     {
-     "start": 748.3,
-     "end": 749.2,
+     "start": 392.0,
+     "end": 395.0,
+     "ja": "この場所ではウケる、この場所ではウケない。",
+     "en": "It worked in this place, but not in that place.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 395.1,
+     "end": 395.8,
+     "ja": "はい。",
+     "en": "Right.",
+     "speaker": "Hamai"
+    },
+    {
+     "start": 396.0,
+     "end": 398.0,
+     "ja": "で、そのウケる時とウケない時の、",
+     "en": "And between the times it landed and didn't,",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 398.1,
+     "end": 401.1,
+     "ja": "何が違ってそうなってんのか、僕ら分からなかったから、",
+     "en": "we couldn't figure out what difference caused that, so...",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 401.3,
+     "end": 402.0,
      "ja": "うん。",
      "en": "Yeah.",
+     "speaker": "Hamai"
+    },
+    {
+     "start": 402.1,
+     "end": 404.5,
+     "ja": "不安なまま決勝に臨んだんですよね。",
+     "en": "we went into the finals feeling anxious.",
      "speaker": "Yamauchi"
     },
     {
-     "start": 749.2,
-     "end": 753.3,
-     "ja": "あんときだって、「バッ、バーン」っていう音の中に、",
-     "en": "Even back then, amid the loud rustling sounds,",
-     "speaker": "Hiraishi"
+     "start": 404.7,
+     "end": 405.2,
+     "ja": "そう。",
+     "en": "Exactly.",
+     "speaker": "Hamai"
+    }
+   ]
+  },
+  {
+   "start": 464.0,
+   "end": 484.5,
+   "title": "Adrenaline Numbed the Pain Back Then",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "daily"
+   ],
+   "grammar": [
+    "〜もん — because / indicating reason",
+    "〜てた — was doing (continuous past)",
+    "〜やろ — right? (Kansai dialect)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 464.2,
+     "end": 467.8,
+     "ja": "やっぱアドレナリン出てるから、多分痛くなかったんや。",
+     "en": "You had adrenaline pumping, so it probably didn't hurt then.",
+     "speaker": "Yamauchi"
     },
     {
-     "start": 753.3,
-     "end": 757.0,
-     "ja": "「ゴッ」「ゴッ」っていう骨の音してたもん、あんとき。",
-     "en": "you could hear bone crack sounds like \"clunk, clunk\".",
-     "speaker": "Hiraishi"
+     "start": 468.0,
+     "end": 468.9,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Hamai"
+    },
+    {
+     "start": 469.1,
+     "end": 472.5,
+     "ja": "あん時だって「バッ！バーン！」っていう音の中に、",
+     "en": "Even then, amidst all the slamming noises,",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 472.6,
+     "end": 473.3,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Hamai"
+    },
+    {
+     "start": 473.5,
+     "end": 476.3,
+     "ja": "「ゴッ」「ゴッ」っていう骨の音してたもん、あん時。",
+     "en": "you could hear 'thud, thud' sounds from your bones.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 476.5,
+     "end": 477.8,
+     "ja": "それでも痛くなかったんやろ？",
+     "en": "Even so, it didn't hurt?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 478.0,
+     "end": 479.0,
+     "ja": "全然痛くなかった。",
+     "en": "It didn't hurt at all.",
+     "speaker": "Hamai"
+    },
+    {
+     "start": 479.2,
+     "end": 480.2,
+     "ja": "今痛かった？",
+     "en": "Did it hurt just now?",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 480.3,
+     "end": 482.0,
+     "ja": "今、めちゃくちゃ痛かった。",
+     "en": "Just now, it hurt insanely bad.",
+     "speaker": "Hamai"
+    },
+    {
+     "start": 482.3,
+     "end": 484.1,
+     "ja": "痛くて寒かった。",
+     "en": "It was painful and freezing.",
+     "speaker": "Hamai"
     }
    ]
   }
@@ -225,5 +305,6 @@
  "pickTopics": [
   "comedy"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

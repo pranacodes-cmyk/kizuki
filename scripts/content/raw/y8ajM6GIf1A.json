@@ -2,144 +2,177 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 45.0,
-   "end": 56.7,
-   "title": "Buying Pacifiers for the Baby",
+   "start": 44.2,
+   "end": 56.8,
+   "title": "Buying New Pacifiers for Baby",
+   "level": "N3",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜て使ってる — continuous use",
+    "〜と思う — thinking that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 44.2,
+     "end": 46.0,
+     "ja": "これは、",
+     "en": "This is,",
+     "speaker": "Mother"
+    },
+    {
+     "start": 46.0,
+     "end": 48.8,
+     "ja": "サイズ２で、６ヶ月からなんですけど、",
+     "en": "size two, and it's for six months and older, but",
+     "speaker": "Mother"
+    },
+    {
+     "start": 48.8,
+     "end": 51.2,
+     "ja": "エレアが今使ってるものは、",
+     "en": "the one Ellea is currently using",
+     "speaker": "Mother"
+    },
+    {
+     "start": 51.2,
+     "end": 53.5,
+     "ja": "３ヶ月から１８ヶ月のものなので、",
+     "en": "is for 3 to 18 months, so",
+     "speaker": "Mother"
+    },
+    {
+     "start": 53.5,
+     "end": 55.5,
+     "ja": "多分これでもいけると思って買いました。",
+     "en": "I thought this would be fine too, so I bought it.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 55.5,
+     "end": 56.8,
+     "ja": "あ、起きた！",
+     "en": "Ah, she woke up!",
+     "speaker": "Mother"
+    }
+   ]
+  },
+  {
+   "start": 459.8,
+   "end": 476.5,
+   "title": "Baby Reaching for the Cup",
    "level": "N4",
    "topics": [
     "family",
     "daily"
    ],
    "grammar": [
-    "〜なんですけど — but / however",
-    "〜ので — because / since",
-    "〜と思う — to think that"
+    "〜てから — after doing"
    ],
-   "quality": 5,
+   "quality": 4,
    "lines": [
     {
-     "start": 45.4,
-     "end": 48.6,
-     "ja": "これはサイズ２で、６か月からなんですけど、",
-     "en": "This is size two, for six months and up, but",
-     "speaker": "Mother"
-    },
-    {
-     "start": 48.8,
-     "end": 53.6,
-     "ja": "エレアが今使っているものは、３か月から１８か月のものなので、",
-     "en": "since the one Ellea uses right now is for 3 to 18 months,",
-     "speaker": "Mother"
-    },
-    {
-     "start": 53.8,
-     "end": 56.5,
-     "ja": "多分これでもいけると思って買いました。",
-     "en": "I thought this would work too, so I bought it.",
-     "speaker": "Mother"
-    }
-   ]
-  },
-  {
-   "start": 739.0,
-   "end": 756.8,
-   "title": "Baby Wants What Mom Is Having",
-   "level": "N5",
-   "topics": [
-    "family",
-    "daily"
-   ],
-   "grammar": [
-    "〜てから — after doing",
-    "もう〜 — already"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 739.7,
-     "end": 741.8,
+     "start": 460.0,
+     "end": 461.8,
      "ja": "コーヒーほしいの？",
      "en": "Do you want coffee?",
      "speaker": "Mother"
     },
     {
-     "start": 742.2,
-     "end": 743.7,
+     "start": 461.8,
+     "end": 463.2,
      "ja": "ほら。",
      "en": "Look.",
      "speaker": "Mother"
     },
     {
-     "start": 744.6,
-     "end": 746.5,
-     "ja": "怖っ、怖っ、怖っ。",
-     "en": "Scary, scary, scary!",
+     "start": 464.4,
+     "end": 466.0,
+     "ja": "来い来い来い。",
+     "en": "Come, come, come.",
      "speaker": "Mother"
     },
     {
-     "start": 746.7,
-     "end": 749.7,
-     "ja": "すごいエレちゃん、もう、もう準備満タンやね。",
-     "en": "Ellea, you're totally ready to eat already, huh?",
+     "start": 466.0,
+     "end": 468.8,
+     "ja": "すごいエレちゃん、もう準備万端やん。",
+     "en": "Amazing, Ellea, you're totally ready to eat.",
      "speaker": "Mother"
     },
     {
-     "start": 753.3,
-     "end": 754.6,
+     "start": 472.8,
+     "end": 474.0,
      "ja": "はいはい。",
-     "en": "There, there.",
+     "en": "Alright, alright.",
      "speaker": "Mother"
     },
     {
-     "start": 754.7,
-     "end": 756.4,
-     "ja": "もうちょっと待ってからね。",
-     "en": "Wait a little longer, okay?",
+     "start": 474.0,
+     "end": 476.2,
+     "ja": "もうちょっと、してからね。",
+     "en": "Wait a little bit longer, okay?",
      "speaker": "Mother"
     }
    ]
   },
   {
-   "start": 837.2,
-   "end": 853.0,
-   "title": "Waiting in Line on Pi Day",
+   "start": 574.8,
+   "end": 596.2,
+   "title": "Tasting Takeout Pizza at Home",
    "level": "N4",
    "topics": [
     "food",
     "daily"
    ],
    "grammar": [
-    "〜ないと — unless / have to",
-    "〜んじゃないかなと思う — I think it might be"
+    "〜てもらう — have someone do",
+    "〜から — starting from"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 837.7,
-     "end": 841.5,
-     "ja": "今日は300円で、あの、ピザが食べれる日なんですけど、",
-     "en": "Today is a day when you can get pizza for around 300 yen,",
+     "start": 575.0,
+     "end": 576.5,
+     "ja": "食べまーす。",
+     "en": "Time to eat!",
      "speaker": "Mother"
     },
     {
-     "start": 842.5,
-     "end": 844.5,
-     "ja": "パイ、パイデイっていう。",
-     "en": "called Pi Day.",
+     "start": 577.2,
+     "end": 579.0,
+     "ja": "そう、これ半分が、",
+     "en": "Yeah, for this half,",
      "speaker": "Mother"
     },
     {
-     "start": 844.7,
-     "end": 846.4,
-     "ja": "すごい人が並んでます。",
-     "en": "There are so many people in line.",
+     "start": 579.0,
+     "end": 581.3,
+     "ja": "こっちが半分がホワイトソースで、",
+     "en": "this half is white sauce, and",
      "speaker": "Mother"
     },
     {
-     "start": 847.3,
-     "end": 852.7,
-     "ja": "多分1時間半以上並ばないと、3ドルでピザは食べれないんじゃないかなと思います。",
-     "en": "I think we probably have to wait for over an hour and a half to get the $3 pizza.",
+     "start": 581.3,
+     "end": 583.8,
+     "ja": "半分がトマトにしてもらいました。",
+     "en": "I had them make the other half tomato sauce.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 584.5,
+     "end": 586.5,
+     "ja": "ホワイトソースから食べよ。",
+     "en": "I'll start with the white sauce.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 593.8,
+     "end": 595.8,
+     "ja": "めっちゃおいしい。",
+     "en": "It's so good.",
      "speaker": "Mother"
     }
    ]
@@ -149,5 +182,6 @@
  "pickTopics": [
   "family"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

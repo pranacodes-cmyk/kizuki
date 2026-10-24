@@ -1,0 +1,30 @@
+{
+ "videoId": "H0GGtEiWjz4",
+ "ids": [
+  "H0GGtEiWjz4-14",
+  "H0GGtEiWjz4-232"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "H0GGtEiWjz4-232": {
+   "id": "H0GGtEiWjz4-232",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Relatable family dialogue about pocket money, though casual dialect is used."
+  },
+  "H0GGtEiWjz4-14": {
+   "id": "H0GGtEiWjz4-14",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Amusing household exchange about basketball shoes featuring informal regional phrasing."
+  }
+ }
+}

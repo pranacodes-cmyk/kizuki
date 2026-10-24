@@ -22,17 +22,20 @@ String playerErrorMessage(YoutubeError e) => switch (e) {
 String watchUrl(String videoId, double t) => 'https://www.youtube.com/watch?v=$videoId&t=${t.floor()}s';
 
 /// One clip of a YouTube video through the official IFrame player (youtube_player_iframe).
-/// Created only for the active feed item; inactive items show the thumbnail. Loops
-/// clip.start → clip.end (or a single line). Mirrors ClipPlayer.tsx.
+/// Created for the active feed item and, cued but never playing, for the next one (`warm`), so a
+/// swipe starts at once; other items show the thumbnail. Loops clip.start → clip.end (or a
+/// single line). Mirrors ClipPlayer.tsx.
 class ClipPlayer extends StatefulWidget {
   final m.Clip clip;
   final bool active;
+  /// Next clip in the feed: load the player and cue the clip (no playback) ahead of the swipe.
+  final bool warm;
   final double rate;
   final ValueChanged<double> onTime;
   final ValueChanged<bool> onPlayingChange;
   final VoidCallback onLoop;
   final (double, double)? loopRange;
-  const ClipPlayer({super.key, required this.clip, required this.active, required this.rate, required this.onTime, required this.onPlayingChange, required this.onLoop, this.loopRange});
+  const ClipPlayer({super.key, required this.clip, required this.active, this.warm = false, required this.rate, required this.onTime, required this.onPlayingChange, required this.onLoop, this.loopRange});
   @override
   State<ClipPlayer> createState() => ClipPlayerState();
 }
@@ -43,7 +46,14 @@ class ClipPlayerState extends State<ClipPlayer> {
   StreamSubscription<YoutubeVideoState>? _timeSub;
   PlayerState _state = PlayerState.unStarted;
   bool _ready = false;
+  /// pause() asked before the player could take commands: pause as soon as it starts.
+  bool _wantPause = false;
   bool _tapped = false;
+  /// The player has finished loading or cueing the clip and can be told to play.
+  bool _loaded = false;
+  /// Still not playing a while after becoming active: offer Try again / Watch on YouTube.
+  bool _slow = false;
+  Timer? _slowTimer;
   String? _error;
   double _time = 0;
   late PlaybackLoopGuard _loop;
@@ -53,15 +63,27 @@ class ClipPlayerState extends State<ClipPlayer> {
   void initState() {
     super.initState();
     _time = widget.clip.start;
-    if (widget.active) _create();
+    if (widget.active || widget.warm) _create();
   }
+
+  bool get _wanted => widget.active || widget.warm;
 
   @override
   void didUpdateWidget(covariant ClipPlayer oldWidget) {
     super.didUpdateWidget(oldWidget);
-    if (oldWidget.active != widget.active || oldWidget.clip.id != widget.clip.id) {
+    if (oldWidget.clip.id != widget.clip.id) {
       _destroy();
-      if (widget.active) _create();
+      if (_wanted) _create();
+    } else if (oldWidget.active != widget.active || oldWidget.warm != widget.warm) {
+      if (!_wanted) {
+        _destroy();
+      } else if (_c == null) {
+        _create();
+      } else if (widget.active && !oldWidget.active) {
+        _start(); // the warmed-up next clip just became the one on screen
+      } else if (!widget.active && oldWidget.active) {
+        _park(); // swiped back past it: keep it loaded, paused at its start
+      }
     }
     if (oldWidget.rate != widget.rate && _ready) _c?.setPlaybackRate(widget.rate);
   }
@@ -69,13 +91,25 @@ class ClipPlayerState extends State<ClipPlayer> {
   @override
   void dispose() {
     _destroy(notify: false);
+    _slowTimer?.cancel();
     super.dispose();
+  }
+
+  void _watchSlow() {
+    _slowTimer?.cancel();
+    _slow = false;
+    if (!widget.active) return;
+    _slowTimer = Timer(const Duration(seconds: 9), () {
+      if (mounted && widget.active && !_ready && _error == null) setState(() => _slow = true);
+    });
   }
 
   void _create() {
     final clip = widget.clip;
     _error = null;
     _ready = false;
+    _loaded = false;
+    _wantPause = false;
     _tapped = false;
     _time = clip.start;
     _loop = PlaybackLoopGuard(clip.start);
@@ -96,26 +130,58 @@ class ClipPlayerState extends State<ClipPlayer> {
     _c = c;
     _valueSub = c.stream.listen((v) { if (identical(_c, c)) _onValue(v); });
     _timeSub = c.videoStateStream.listen((v) { if (identical(_c, c)) _onPosition(v); });
+    _watchSlow();
     unawaited(_initialize(c, clip));
   }
 
   Future<void> _initialize(YoutubePlayerController c, m.Clip clip) async {
     try {
-      // loadVideoById waits for the IFrame ready signal. Then explicitly position
-      // the loaded video, matching web onReady instead of trusting startSeconds.
-      await c.loadVideoById(videoId: clip.videoId, startSeconds: clip.start, endSeconds: clip.end + 1);
+      // Both wait for the IFrame ready signal. The active clip loads and plays; the next clip
+      // is only cued (no playback, no sound) so its player is ready when the learner swipes.
+      if (widget.active) {
+        await c.loadVideoById(videoId: clip.videoId, startSeconds: clip.start, endSeconds: clip.end + 1);
+      } else {
+        await c.cueVideoById(videoId: clip.videoId, startSeconds: clip.start, endSeconds: clip.end + 1);
+      }
       if (!mounted || !identical(_c, c)) return;
-      _loop.beginSeek(clip.start);
-      await c.seekTo(seconds: clip.start, allowSeekAhead: true);
-      if (!mounted || !identical(_c, c)) return;
-      await c.setPlaybackRate(widget.rate);
-      await c.playVideo();
+      _loaded = true;
+      if (widget.active) await _play(c, clip);
     } catch (_) {
       if (mounted && identical(_c, c)) {
         widget.onPlayingChange(false);
         setState(() => _error = "This clip couldn't load. Check your connection.");
       }
     }
+  }
+
+  /// Position the loaded video explicitly (matching web onReady instead of trusting
+  /// startSeconds) and play it.
+  Future<void> _play(YoutubePlayerController c, m.Clip clip) async {
+    _loop.beginSeek(clip.start);
+    await c.seekTo(seconds: clip.start, allowSeekAhead: true);
+    if (!mounted || !identical(_c, c) || !widget.active) return;
+    await c.setPlaybackRate(widget.rate);
+    if (_wantPause) return;
+    await c.playVideo();
+  }
+
+  /// A warmed-up clip became active: start it now (or as soon as its cue finishes).
+  void _start() {
+    final c = _c;
+    if (c == null) return;
+    _loop = PlaybackLoopGuard(widget.clip.start);
+    _startup = PlaybackStartGuard();
+    _tapped = false;
+    _watchSlow();
+    if (_loaded) unawaited(_play(c, widget.clip).catchError((_) {}));
+  }
+
+  /// No longer on screen but still the next clip: pause and keep it loaded.
+  void _park() {
+    _slowTimer?.cancel();
+    _slow = false;
+    if (_ready) _c?.pauseVideo();
+    widget.onPlayingChange(false);
   }
 
   void _destroy({bool notify = true}) {
@@ -126,7 +192,11 @@ class ClipPlayerState extends State<ClipPlayer> {
     final c = _c;
     _c = null;
     if (c != null) unawaited(c.close());
+    _slowTimer?.cancel();
+    _slow = false;
     _ready = false;
+    _loaded = false;
+    _wantPause = false;
     _state = PlayerState.unStarted;
     if (notify) widget.onPlayingChange(false);
   }
@@ -152,8 +222,18 @@ class ClipPlayerState extends State<ClipPlayer> {
       setState(() {
         _state = st;
         if (st == PlayerState.playing || st == PlayerState.paused || st == PlayerState.buffering) _ready = true;
+        if (st == PlayerState.playing) _slow = false;
       });
+      // The next clip only waits, cued; it never plays or reports playback.
+      if (!widget.active) {
+        if (st == PlayerState.playing || st == PlayerState.buffering) _c?.pauseVideo();
+        return;
+      }
       if (!wasReady && _ready) _c?.setPlaybackRate(widget.rate);
+      if (_wantPause && (st == PlayerState.playing || st == PlayerState.buffering)) {
+        _wantPause = false;
+        _c?.pauseVideo();
+      }
       // Hide YouTube's own captions: our transcript is the subtitle. enableCaption=false
       // is ignored when the viewer/channel has captions on, so unload the module.
       if (st == PlayerState.playing || st == PlayerState.buffering) _hideYouTubeCaptions();
@@ -178,7 +258,7 @@ class ClipPlayerState extends State<ClipPlayer> {
   }
 
   void _onPosition(YoutubeVideoState s) {
-    if (!mounted || _error != null) return;
+    if (!mounted || _error != null || !widget.active) return;
     final t = s.position.inMilliseconds / 1000;
     _time = t;
     final c = widget.clip;
@@ -208,8 +288,21 @@ class ClipPlayerState extends State<ClipPlayer> {
   }
 
   // ---- handle used by ClipView ----
-  void play() => _c?.playVideo();
-  void pause() => _c?.pauseVideo();
+  void play() {
+    _wantPause = false;
+    _c?.playVideo();
+  }
+
+  /// Safe before the player is ready (e.g. the tour pausing the first clip): it then pauses
+  /// the moment playback starts instead of calling into a player that can't take commands yet.
+  void pause() {
+    if (!_ready) {
+      _wantPause = true;
+      return;
+    }
+    _c?.pauseVideo();
+  }
+
   void toggle() => _state == PlayerState.playing ? pause() : play();
   void seek(double t) {
     _seekTo(t);
@@ -266,6 +359,28 @@ class ClipPlayerState extends State<ClipPlayer> {
                           : const Icon(LucideIcons.play, size: 28, color: T.foreground),
                     ),
                   ),
+                  // Slow network: say so and offer a fresh start instead of an endless spinner.
+                  if (widget.active && _slow && !_ready)
+                    Positioned(
+                      left: 0,
+                      right: 0,
+                      bottom: 12,
+                      child: Center(
+                        child: Press(
+                          onTap: _retry,
+                          child: Container(
+                            key: const ValueKey('player-slow'),
+                            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+                            decoration: BoxDecoration(color: T.stage.withValues(alpha: 0.85), borderRadius: BorderRadius.circular(99)),
+                            child: Row(mainAxisSize: MainAxisSize.min, children: [
+                              const Icon(LucideIcons.rotateCw, size: 15),
+                              const SizedBox(width: 8),
+                              Text('Slow connection · Tap to retry', style: txt(13, w: FontWeight.w800)),
+                            ]),
+                          ),
+                        ),
+                      ),
+                    ),
                 ]),
               ),
             ),

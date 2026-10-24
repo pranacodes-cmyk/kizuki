@@ -1,0 +1,30 @@
+{
+ "videoId": "243ghJ3wBZk",
+ "ids": [
+  "243ghJ3wBZk-162",
+  "243ghJ3wBZk-183"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "243ghJ3wBZk-162": {
+   "id": "243ghJ3wBZk-162",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear travel phrase with polite and casual comparisons."
+  },
+  "243ghJ3wBZk-183": {
+   "id": "243ghJ3wBZk-183",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Standard outro segment with channel subscribe call to action."
+  }
+ }
+}

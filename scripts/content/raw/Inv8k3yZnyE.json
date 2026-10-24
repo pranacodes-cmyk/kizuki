@@ -3,127 +3,137 @@
  "clips": [
   {
    "start": 0.6,
-   "end": 22.8,
-   "title": "How to Board a Tram with an IC Card",
+   "end": 11.5,
+   "title": "How to Ride the Tram Using an IC Card",
    "level": "N4",
    "topics": [
     "travel",
     "daily"
    ],
    "grammar": [
-    "〜ていく — will go on to do",
-    "〜と思う — thinking of doing"
+    "〜方 — how to do",
+    "〜ていく — to start doing / proceed to do",
+    "〜と思う — to think / plan to"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
      "start": 0.6,
-     "end": 2.5,
-     "ja": "どうもお疲れ様です。",
-     "en": "Hello everyone.",
-     "speaker": "Narrator"
+     "end": 3.8,
+     "ja": "どうも、お疲れ様です。隼です。",
+     "en": "Hello, thank you for your hard work. I'm Hayabusa.",
+     "speaker": "Hayabusa"
     },
     {
-     "start": 2.5,
-     "end": 4.1,
-     "ja": "隼さんです。",
-     "en": "It's Hayabusa-san.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 4.1,
-     "end": 7.5,
-     "ja": "今日は交通系ICカードを使っての",
+     "start": 3.9,
+     "end": 7.4,
+     "ja": "今日は、えー、鉄道系ICカードを使っての",
      "en": "Today, using a transit IC card,",
-     "speaker": "Narrator"
+     "speaker": "Hayabusa"
     },
     {
-     "start": 7.5,
-     "end": 11.8,
+     "start": 7.4,
+     "end": 11.3,
      "ja": "路面電車の乗り方を説明していきたいと思います。",
-     "en": "I'd like to explain how to ride the streetcar.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 12.3,
-     "end": 17.5,
-     "ja": "で、乗る時はタッチも不要。",
-     "en": "And when you board, no tapping is needed.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 17.8,
-     "end": 22.4,
-     "ja": "そのまま席に着いて目的地まで移動します。",
-     "en": "Just take a seat and ride to your destination.",
-     "speaker": "Narrator"
+     "en": "I'd like to explain how to ride the tram.",
+     "speaker": "Hayabusa"
     }
    ]
   },
   {
-   "start": 117.5,
-   "end": 135.8,
-   "title": "How to Get Off the Tram",
+   "start": 12.2,
+   "end": 23.5,
+   "title": "Boarding Without Touching the Card",
    "level": "N4",
    "topics": [
     "travel",
     "daily"
    ],
    "grammar": [
-    "〜なんですが — as for / softening topic",
-    "〜ているので — because state is ongoing",
-    "〜通り — just like / as"
+    "〜とき — when",
+    "そのまま — as it is / straight away"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 117.8,
-     "end": 119.7,
+     "start": 12.5,
+     "end": 14.2,
+     "ja": "で、乗るときは、えー、",
+     "en": "And when boarding, uh...",
+     "speaker": "Hayabusa"
+    },
+    {
+     "start": 14.5,
+     "end": 17.2,
+     "ja": "タッチも不要。",
+     "en": "No need to tap.",
+     "speaker": "Hayabusa"
+    },
+    {
+     "start": 18.0,
+     "end": 19.9,
+     "ja": "そのまま席に着いて、",
+     "en": "Just take a seat,",
+     "speaker": "Hayabusa"
+    },
+    {
+     "start": 20.0,
+     "end": 23.2,
+     "ja": "目的地まで移動します。",
+     "en": "and travel to your destination.",
+     "speaker": "Hayabusa"
+    }
+   ]
+  },
+  {
+   "start": 77.5,
+   "end": 91.0,
+   "title": "How to Pay and Alight from the Tram",
+   "level": "N3",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜通り — as / according to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 77.6,
+     "end": 19.8,
      "ja": "降り方なんですが、",
-     "en": "As for getting off,",
-     "speaker": "Narrator"
+     "en": "As for how to get off,",
+     "speaker": "Hayabusa"
     },
     {
-     "start": 119.8,
-     "end": 123.6,
-     "ja": "乗務員さんがカードリーダーを持っているので、",
-     "en": "the crew member holds a card reader,",
-     "speaker": "Narrator"
+     "start": 79.9,
+     "end": 83.0,
+     "ja": "えー、乗務員さんがカードリーダーを持っているので、",
+     "en": "the crew member holds a card reader, so",
+     "speaker": "Hayabusa"
     },
     {
-     "start": 123.7,
-     "end": 126.5,
+     "start": 83.1,
+     "end": 86.5,
      "ja": "そこにタッチして降りる方式。",
-     "en": "so you tap it there to exit.",
-     "speaker": "Narrator"
+     "en": "it's a system where you tap it there and alight.",
+     "speaker": "Hayabusa"
     },
     {
-     "start": 126.7,
-     "end": 128.6,
-     "ja": "ま、ここに書いてある通り。",
-     "en": "Well, just as it says right here.",
-     "speaker": "Narrator"
+     "start": 87.0,
+     "end": 88.5,
+     "ja": "ま、ここに書かれてる通り。",
+     "en": "Well, just as written here.",
+     "speaker": "Hayabusa"
     },
     {
-     "start": 128.7,
-     "end": 130.8,
+     "start": 88.6,
+     "end": 90.7,
      "ja": "で、タッチして降ります。",
-     "en": "So you tap and get off.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 131.3,
-     "end": 133.0,
-     "ja": "いかがだったでしょうか？",
-     "en": "How was that?",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 133.2,
-     "end": 135.5,
-     "ja": "ご視聴ありがとうございました。",
-     "en": "Thank you for watching.",
-     "speaker": "Narrator"
+     "en": "And then you tap and get off.",
+     "speaker": "Hayabusa"
     }
    ]
   }
@@ -132,5 +142,6 @@
  "pickTopics": [
   "travel"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

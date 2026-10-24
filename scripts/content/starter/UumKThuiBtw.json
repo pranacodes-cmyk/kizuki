@@ -1,0 +1,19 @@
+{
+ "videoId": "UumKThuiBtw",
+ "ids": [
+  "UumKThuiBtw-102"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "UumKThuiBtw-102": {
+   "id": "UumKThuiBtw-102",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous skit with clear gestures and engaging natural comedy."
+  }
+ }
+}

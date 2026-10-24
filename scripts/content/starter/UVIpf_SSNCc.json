@@ -1,0 +1,30 @@
+{
+ "videoId": "UVIpf_SSNCc",
+ "ids": [
+  "UVIpf_SSNCc-109",
+  "UVIpf_SSNCc-198"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "UVIpf_SSNCc-198": {
+   "id": "UVIpf_SSNCc-198",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Relatable office comedy featuring short, everyday Japanese phrases."
+  },
+  "UVIpf_SSNCc-109": {
+   "id": "UVIpf_SSNCc-109",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Fun doll skit demonstrating practical business etiquette with clear dialogue."
+  }
+ }
+}

@@ -2,44 +2,59 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 13.6,
-   "end": 28.5,
-   "title": "Summer Vacation Begins",
-   "level": "N4",
+   "start": 7.8,
+   "end": 28.8,
+   "title": "Waking Up on Summer Vacation",
+   "level": "N5",
    "topics": [
     "daily",
+    "family",
     "anime"
    ],
    "grammar": [
-    "〜から — because",
-    "〜ちゃって — unintentionally did"
+    "〜てよ — casual request/plea",
+    "〜からって — just because"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 13.9,
-     "end": 18.7,
-     "ja": "後でやるから、もう少し寝かせてよ。",
-     "en": "I'll do it later, so let me sleep a little longer.",
-     "speaker": "Shimajiro"
-    },
-    {
-     "start": 19.3,
-     "end": 23.2,
-     "ja": "もう、夏休みだからって、すっかり怠けちゃって。",
-     "en": "Geez, just because it's summer vacation, you've gotten so lazy.",
+     "start": 7.9,
+     "end": 10.5,
+     "ja": "しまじろう、しまじろうったら。いつまで寝てるの？",
+     "en": "Shimajiro, oh Shimajiro. How long are you going to sleep?",
      "speaker": "Mother"
     },
     {
-     "start": 24.3,
-     "end": 26.6,
-     "ja": "夏休み？",
-     "en": "Summer vacation?",
+     "start": 10.6,
+     "end": 13.4,
+     "ja": "約束したでしょ、お庭の草むしり手伝うって。",
+     "en": "You promised to help weed the garden, remember?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 14.3,
+     "end": 18.5,
+     "ja": "うーん、後でやるから、もう少し寝かせてよ。",
+     "en": "Ugh, I'll do it later, let me sleep a little more.",
      "speaker": "Shimajiro"
     },
     {
-     "start": 26.8,
-     "end": 28.3,
+     "start": 18.9,
+     "end": 23.4,
+     "ja": "もう、夏休みだからって、すっかりだらけちゃって。",
+     "en": "Honestly, just because it's summer vacation, you've gotten completely lazy.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 24.0,
+     "end": 25.8,
+     "ja": "ん？夏休み？",
+     "en": "Huh? Summer vacation?",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 26.7,
+     "end": 28.6,
      "ja": "そうだ、夏休みだ！",
      "en": "That's right, it's summer vacation!",
      "speaker": "Shimajiro"
@@ -47,99 +62,121 @@
    ]
   },
   {
-   "start": 919.4,
-   "end": 935.5,
-   "title": "Expressing Gratitude",
+   "start": 1132.4,
+   "end": 1147.0,
+   "title": "The Meaning of Gratitude",
    "level": "N4",
    "topics": [
     "school",
-    "daily"
+    "daily",
+    "friends"
    ],
    "grammar": [
-    "〜なくちゃ — must do",
-    "〜なら — if",
-    "〜って言う — to say that"
+    "〜というのは — defining a concept",
+    "〜て構わない — it doesn't matter / is fine if"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 919.7,
-     "end": 922.2,
-     "ja": "へえ、おじいちゃんとおばあちゃんに？",
-     "en": "Huh, to your grandpa and grandma?",
-     "speaker": "Dog Boy"
+     "start": 1132.6,
+     "end": 1137.7,
+     "ja": "お礼というのは、「ありがとう」っていう気持ちを相手に伝えることなのよ。",
+     "en": "Showing gratitude means conveying your feelings of thanks to the other person.",
+     "speaker": "Teacher"
     },
     {
-     "start": 922.7,
-     "end": 925.8,
-     "ja": "そうなんだ。どんなお礼がいいか考えなくっちゃ。",
-     "en": "Yeah. I have to think about what kind of thank-you would be good.",
+     "start": 1138.0,
+     "end": 1141.4,
+     "ja": "どう伝えるかは、それぞれのやり方で構わないの。",
+     "en": "As for how you convey it, any way that suits each person is fine.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 1141.7,
+     "end": 1144.7,
+     "ja": "大切なのは、気持ちがこもっていることよ。",
+     "en": "What is important is that your heart is in it.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 1145.0,
+     "end": 1146.8,
+     "ja": "気持ち…",
+     "en": "Your heart...",
      "speaker": "Shimajiro"
-    },
-    {
-     "start": 926.3,
-     "end": 930.3,
-     "ja": "ええ、簡単よ。みみりんなら「ありがとう」って言うわ。",
-     "en": "Eh, it's simple. If it were Mimirin, I'd say 'thank you.'",
-     "speaker": "Mimirin"
-    },
-    {
-     "start": 930.6,
-     "end": 931.7,
-     "ja": "ありがとう？",
-     "en": "Thank you?",
-     "speaker": "Shimajiro"
-    },
-    {
-     "start": 932.1,
-     "end": 935.4,
-     "ja": "うん、だってお礼って「ありがとう」って言うことでしょ？",
-     "en": "Yeah, because giving thanks means saying 'thank you,' right?",
-     "speaker": "Mimirin"
     }
    ]
   },
   {
-   "start": 2406.8,
-   "end": 2420.7,
-   "title": "A Secret About a Birthday",
-   "level": "N5",
+   "start": 1640.2,
+   "end": 1665.9,
+   "title": "Planning a Secret Birthday Party",
+   "level": "N4",
    "topics": [
     "family",
-    "daily"
+    "daily",
+    "food"
    ],
    "grammar": [
-    "もうすぐ — soon",
-    "〜ね — seeking agreement"
+    "〜し — listing reasons",
+    "〜なさい — firm imperative command"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 2407.1,
-     "end": 2410.2,
-     "ja": "ねえ、お母さん、もうすぐだよ。",
-     "en": "Hey, Mom, it's almost time.",
+     "start": 1640.4,
+     "end": 1642.2,
+     "ja": "さあ、作戦会議だ。",
+     "en": "Alright, time for our strategy meeting.",
+     "speaker": "Father"
+    },
+    {
+     "start": 1642.4,
+     "end": 1646.1,
+     "ja": "プレゼントは買ったし、あとはお誕生日会だね！",
+     "en": "We bought the present, so next is the birthday party!",
      "speaker": "Shimajiro"
     },
     {
-     "start": 2411.3,
-     "end": 2413.0,
-     "ja": "本当、もうすぐね。",
-     "en": "Really, almost time.",
+     "start": 1646.4,
+     "end": 1649.7,
+     "ja": "それが、その日の朝、お仕事が入ってるのよ。",
+     "en": "The thing is, I have work scheduled that morning.",
      "speaker": "Mother"
     },
     {
-     "start": 2413.4,
-     "end": 2415.5,
-     "ja": "何？ もうすぐ？",
-     "en": "What? Almost time?",
-     "speaker": "Hana"
+     "start": 1650.0,
+     "end": 1653.1,
+     "ja": "僕とお父さんで準備はできるよ！",
+     "en": "Dad and I can do the preparations!",
+     "speaker": "Shimajiro"
     },
     {
-     "start": 2417.0,
-     "end": 2420.2,
-     "ja": "あー、えっと、おやつの時間かな。",
-     "en": "Ah, um, snack time, I guess.",
+     "start": 1653.4,
+     "end": 1657.2,
+     "ja": "はなちゃんは一緒に連れていくから、あとお願いね。",
+     "en": "I'll take Hana-chan with me, so I leave the rest to you.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 1657.6,
+     "end": 1661.0,
+     "ja": "あっ、でも、ケーキを焼いている時間がないか…",
+     "en": "Ah, but there might not be time to bake a cake...",
+     "speaker": "Mother"
+    },
+    {
+     "start": 1661.3,
+     "end": 1663.3,
+     "ja": "お父さんに任せなさい！",
+     "en": "Leave it to Dad!",
+     "speaker": "Father"
+    },
+    {
+     "start": 1663.5,
+     "end": 1665.9,
+     "ja": "え？お父さん、ケーキ作れるの？",
+     "en": "Huh? Dad, you know how to make a cake?",
      "speaker": "Shimajiro"
     }
    ]
@@ -149,5 +186,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

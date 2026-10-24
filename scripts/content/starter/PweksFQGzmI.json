@@ -1,0 +1,19 @@
+{
+ "videoId": "PweksFQGzmI",
+ "ids": [
+  "PweksFQGzmI-23"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "PweksFQGzmI-23": {
+   "id": "PweksFQGzmI-23",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear speech and simple actions depicting a morning routine."
+  }
+ }
+}

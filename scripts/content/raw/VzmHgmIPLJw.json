@@ -2,171 +2,143 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 9.8,
-   "end": 23.5,
-   "title": "Cramming for Today's College Exam",
+   "start": 37.0,
+   "end": 60.5,
+   "title": "Studying Alone for College Exams",
    "level": "N3",
    "topics": [
     "school",
     "daily"
    ],
    "grammar": [
-    "〜しかない — only / nothing but",
-    "〜んじゃないか — isn't it / I suppose"
+    "〜ようと思う — intend to do",
+    "〜しかない — have no choice but to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 9.8,
-     "end": 13.2,
-     "ja": "今日のテストはね、結構難しいような内容なんですけど、",
-     "en": "Today's test content is quite difficult,",
+     "start": 37.0,
+     "end": 40.5,
+     "ja": "じゃ、そろそろ準備して大学行こうかなと思います。",
+     "en": "Well, I think I'll get ready and head to university now.",
      "speaker": "Parker"
     },
     {
-     "start": 13.3,
-     "end": 15.8,
-     "ja": "逆にそれしかテストがないので、今日。",
-     "en": "but on the other hand, that's the only test I have today.",
+     "start": 40.8,
+     "end": 46.8,
+     "ja": "ま、テストというか、まだ8時58分ですから、テスト1時20分からやから、全然時間あるんだけど。",
+     "en": "Well, it's only 8:58 and the exam isn't until 1:20, so I have plenty of time.",
      "speaker": "Parker"
     },
     {
-     "start": 15.9,
-     "end": 18.9,
-     "ja": "まぁあと2、3時間、その勉強にあてられるってことで、",
-     "en": "So I can devote another two or three hours to studying for it.",
+     "start": 47.0,
+     "end": 53.5,
+     "ja": "別に今日だけじゃなくて明日とかね、明後日以降のテスト勉強なんかもしたいから。",
+     "en": "I want to study not just for today's test, but also for tomorrow's and the ones after.",
      "speaker": "Parker"
     },
     {
-     "start": 19.0,
-     "end": 23.5,
-     "ja": "まぁそこまで頑張ったらね、単位は取れるんじゃないかなと思いますね。",
-     "en": "I think if I work that hard, I should be able to get the credit.",
+     "start": 53.8,
+     "end": 59.8,
+     "ja": "大学に友達がいないとね、自分で勉強するしかないんですよ。過去問とか手に入らないから。",
+     "en": "When you have no friends in college, you have to study on your own since you can't get past exams.",
      "speaker": "Parker"
     }
    ]
   },
   {
-   "start": 121.0,
-   "end": 136.1,
-   "title": "150-Yen Ramen at the Cafeteria",
-   "level": "N3",
+   "start": 115.0,
+   "end": 129.5,
+   "title": "Cheap Cafeteria Ramen",
+   "level": "N4",
    "topics": [
     "food",
     "school"
    ],
    "grammar": [
-    "〜ていた — was doing",
-    "〜と同じような — similar to / just like"
+    "〜ため（に） — in order to",
+    "〜られる — potential form"
    ],
    "quality": 5,
    "lines": [
     {
+     "start": 115.0,
+     "end": 118.5,
+     "ja": "早く来た目的っていうのは勉強するためだけじゃなくて、",
+     "en": "The reason I came early wasn't just to study;",
+     "speaker": "Parker"
+    },
+    {
+     "start": 118.8,
+     "end": 121.2,
+     "ja": "ちょっとね、一個気になってることがあるんですよ。",
+     "en": "there's one thing I was really curious about.",
+     "speaker": "Parker"
+    },
+    {
      "start": 121.3,
-     "end": 124.0,
-     "ja": "まぁこちらなんですけれども、ラーメン。",
-     "en": "Well, this is it: ramen.",
+     "end": 123.8,
+     "ja": "ま、こちらなんですけれども、ラーメン。",
+     "en": "Well, it's this: ramen.",
      "speaker": "Parker"
     },
     {
-     "start": 124.1,
-     "end": 127.2,
-     "ja": "150円でラーメンが食べられるっていう、そういう期間限定のね、",
-     "en": "They were running a limited-time deal where you can get ramen for 150 yen,",
-     "speaker": "Parker"
-    },
-    {
-     "start": 127.3,
-     "end": 130.0,
-     "ja": "キャンペーンやってたんで、ちょっと気になったから来ました。",
-     "en": "so I got curious and came to try it.",
-     "speaker": "Parker"
-    },
-    {
-     "start": 130.1,
-     "end": 131.5,
-     "ja": "で、これ頂くんですけれども、",
-     "en": "Now, having tried some of it,",
-     "speaker": "Parker"
-    },
-    {
-     "start": 131.6,
-     "end": 133.8,
-     "ja": "まぁ味はね、普通のサッポロ一番とかそういうね、",
-     "en": "well, the taste is like regular Sapporo Ichiban,",
-     "speaker": "Parker"
-    },
-    {
-     "start": 133.9,
-     "end": 136.1,
-     "ja": "即席ラーメンと同じような味ですね。",
-     "en": "pretty much like instant ramen.",
+     "start": 123.8,
+     "end": 129.5,
+     "ja": "150円でラーメンが食べられるっていう、期間限定のキャンペーンやってたんで、気になって来ました。",
+     "en": "They had a limited-time deal where you could get ramen for 150 yen, so I came to check it out.",
      "speaker": "Parker"
     }
    ]
   },
   {
-   "start": 297.6,
-   "end": 316.0,
-   "title": "Starting Laundry and Gearing Up",
+   "start": 317.0,
+   "end": 335.0,
+   "title": "Eating Hayashi Rice Before the Dentist",
    "level": "N3",
    "topics": [
-    "daily",
-    "fun"
+    "food",
+    "daily"
    ],
    "grammar": [
-    "〜とく — do in advance",
-    "〜ようと思う — intend to / thinking of"
+    "〜より — rather than / more than",
+    "〜たら — when / if"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 297.8,
-     "end": 300.8,
-     "ja": "今からちょっとお腹減ったんで、スーパーで買い物してこようかと思うんですけど、",
-     "en": "I'm hungry now, so I'm thinking of going shopping at the supermarket,",
+     "start": 317.0,
+     "end": 320.5,
+     "ja": "まあ何をね、買ってきたかって言うと、こういうやつですね。",
+     "en": "So, as for what I bought, it's this sort of thing.",
      "speaker": "Parker"
     },
     {
-     "start": 300.9,
-     "end": 303.4,
-     "ja": "その前にこれね、洗濯物だけ回しとこうかなと思います。",
-     "en": "but before that, I think I'll start the laundry.",
+     "start": 320.6,
+     "end": 323.5,
+     "ja": "カレーライスよりもね、ハヤシライス派なんで。",
+     "en": "I'm more of a hayashi rice person than curry rice.",
      "speaker": "Parker"
     },
     {
-     "start": 303.5,
-     "end": 306.1,
-     "ja": "帰ってきたらね、多分ちょうどいい時間だと思うんで。",
-     "en": "Because by the time I get back, it should be done just in time.",
+     "start": 324.0,
+     "end": 328.0,
+     "ja": "あとね、歯の矯正してたらこういう着色物っていうのは食べられないんですけど、",
+     "en": "Also, with braces, you're not supposed to eat food that stains like this,",
      "speaker": "Parker"
     },
     {
-     "start": 306.4,
-     "end": 308.5,
-     "ja": "新しく買ったユニクロの新兵器、",
-     "en": "This new weapon I bought at Uniqlo,",
+     "start": 328.5,
+     "end": 331.0,
+     "ja": "明後日歯医者に行って交換するから、",
+     "en": "but I'm going to the dentist the day after tomorrow to get them swapped,",
      "speaker": "Parker"
     },
     {
-     "start": 308.6,
-     "end": 311.4,
-     "ja": "ウルトラダウンとかよく分からんダウンをね、",
-     "en": "this Ultra Light Down or whatever kind of down it is,",
-     "speaker": "Parker"
-    },
-    {
-     "start": 311.5,
-     "end": 314.6,
-     "ja": "これを着て完全防寒対策ということで。",
-     "en": "I'll wear this to be fully protected against the cold.",
-     "speaker": "Parker"
-    },
-    {
-     "start": 314.7,
-     "end": 315.9,
-     "ja": "まだタグ付いてんな。",
-     "en": "Wait, the tag is still on.",
+     "start": 331.2,
+     "end": 335.0,
+     "ja": "まあそういう歯医者の日が近づいた時だけね、食べられるんですよね。",
+     "en": "so I can only eat this right before a dentist appointment.",
      "speaker": "Parker"
     }
    ]
@@ -176,5 +148,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

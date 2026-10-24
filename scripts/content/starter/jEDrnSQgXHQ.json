@@ -1,0 +1,30 @@
+{
+ "videoId": "jEDrnSQgXHQ",
+ "ids": [
+  "jEDrnSQgXHQ-123",
+  "jEDrnSQgXHQ-5"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "jEDrnSQgXHQ-123": {
+   "id": "jEDrnSQgXHQ-123",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear speech about Disney, but visual is just plain text."
+  },
+  "jEDrnSQgXHQ-5": {
+   "id": "jEDrnSQgXHQ-5",
+   "appeal": 3,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple beginner introduction, but only displays static Japanese text."
+  }
+ }
+}

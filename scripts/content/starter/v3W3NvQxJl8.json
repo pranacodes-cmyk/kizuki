@@ -1,0 +1,30 @@
+{
+ "videoId": "v3W3NvQxJl8",
+ "ids": [
+  "v3W3NvQxJl8-437",
+  "v3W3NvQxJl8-504"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "v3W3NvQxJl8-437": {
+   "id": "v3W3NvQxJl8-437",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear spoken example of Japanese conversational fillers."
+  },
+  "v3W3NvQxJl8-504": {
+   "id": "v3W3NvQxJl8-504",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Natural, accessible demonstration of casual Japanese filler particles."
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "videoId": "0dBf_DAXNuc",
+ "ids": [
+  "0dBf_DAXNuc-151",
+  "0dBf_DAXNuc-6"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "0dBf_DAXNuc-6": {
+   "id": "0dBf_DAXNuc-6",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear daily greetings taught using basic flashcard slides."
+  },
+  "0dBf_DAXNuc-151": {
+   "id": "0dBf_DAXNuc-151",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Practical dining phrases presented clearly with minimal graphics."
+  }
+ }
+}

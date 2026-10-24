@@ -1,0 +1,30 @@
+{
+ "videoId": "ZmczD3Q44w8",
+ "ids": [
+  "ZmczD3Q44w8-129",
+  "ZmczD3Q44w8-27"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "ZmczD3Q44w8-27": {
+   "id": "ZmczD3Q44w8-27",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple beginner travel vlog with clear voiceover and pleasant scenery."
+  },
+  "ZmczD3Q44w8-129": {
+   "id": "ZmczD3Q44w8-129",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Engaging scenic walk with great views and easy Japanese narration."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "PQNeuKJ9ibE",
+ "ids": [
+  "PQNeuKJ9ibE-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "PQNeuKJ9ibE-0": {
+   "id": "PQNeuKJ9ibE-0",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Energetic greeting and introduction to convenience store snacks."
+  }
+ }
+}

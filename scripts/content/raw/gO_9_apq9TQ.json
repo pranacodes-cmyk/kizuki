@@ -3,74 +3,73 @@
  "clips": [
   {
    "start": 46.2,
-   "end": 59.9,
-   "title": "Save the World with Dance",
-   "level": "N3",
+   "end": 60.0,
+   "title": "Welcome to the Valley of Time",
+   "level": "N4",
    "topics": [
-    "anime",
-    "fun"
+    "anime"
    ],
    "grammar": [
-    "〜てほしい — want someone to do",
-    "〜じゃ — assertion / copula (dialect/elderly)"
+    "〜てくる — arrived after doing",
+    "〜てほしい — want someone to do"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 46.4,
+     "start": 46.5,
      "end": 48.0,
-     "ja": "ここは「時の谷」。",
+     "ja": "ここは時の谷。",
      "en": "This is the Valley of Time.",
-     "speaker": "Pokkon"
+     "speaker": "Pokon"
     },
     {
-     "start": 48.1,
+     "start": 48.0,
      "end": 50.8,
      "ja": "お前は時空をスライドしてやってきた。",
-     "en": "You slid through spacetime to get here.",
-     "speaker": "Pokkon"
+     "en": "You slid through space-time and ended up here.",
+     "speaker": "Pokon"
     },
     {
-     "start": 51.1,
+     "start": 50.8,
      "end": 53.0,
-     "ja": "「時の欠片」を集めて、",
-     "en": "Gather the fragments of time,",
+     "ja": "四枚の欠片を集めて、",
+     "en": "Collect the four fragments,",
      "speaker": "Elder"
     },
     {
-     "start": 53.1,
-     "end": 55.4,
-     "ja": "君たちに世界を救ってほしい。",
-     "en": "and we want you to save the world.",
+     "start": 53.0,
+     "end": 55.7,
+     "ja": "君達に世界を救ってほしい。",
+     "en": "and save the world for us.",
      "speaker": "Elder"
     },
     {
-     "start": 55.6,
-     "end": 56.4,
+     "start": 55.8,
+     "end": 56.8,
      "ja": "どうやって？",
      "en": "How?",
      "speaker": "Isumi"
     },
     {
-     "start": 56.5,
-     "end": 57.7,
+     "start": 57.0,
+     "end": 58.6,
      "ja": "ダンスじゃ！",
-     "en": "With dance!",
+     "en": "By dancing!",
      "speaker": "Elder"
     },
     {
      "start": 58.7,
-     "end": 59.8,
+     "end": 59.9,
      "ja": "ダンス！？",
-     "en": "Dance!?",
+     "en": "Dancing!?",
      "speaker": "Girls"
     }
    ]
   },
   {
-   "start": 103.5,
+   "start": 104.2,
    "end": 112.5,
-   "title": "Do You Want to Redo the Race?",
+   "title": "Regret over the Track Race",
    "level": "N3",
    "topics": [
     "anime",
@@ -78,38 +77,82 @@
     "school"
    ],
    "grammar": [
-    "〜たら — if/when",
-    "〜たくない — don't you want to"
+    "〜たら — if / when",
+    "〜たくない — don't want to"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 104.1,
-     "end": 106.1,
-     "ja": "足が万全やったら、",
-     "en": "If my foot had been fine,",
-     "speaker": "Isumi"
-    },
-    {
-     "start": 106.1,
-     "end": 108.1,
-     "ja": "絶対に私勝っちょった！",
-     "en": "I definitely would have won!",
+     "start": 104.5,
+     "end": 108.0,
+     "ja": "足が万全やったら、絶対に私が勝っちょった！",
+     "en": "If my leg had been fine, I definitely would have won!",
      "speaker": "Isumi"
     },
     {
      "start": 108.3,
-     "end": 109.1,
+     "end": 109.2,
      "ja": "これ…",
      "en": "This is...",
      "speaker": "Isumi"
     },
     {
-     "start": 109.9,
-     "end": 112.4,
+     "start": 109.8,
+     "end": 112.1,
      "ja": "このレース、やり直したくない？",
      "en": "Don't you want to redo this race?",
+     "speaker": "Pokon"
+    }
+   ]
+  },
+  {
+   "start": 122.2,
+   "end": 136.6,
+   "title": "Nobody Runs for You",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜ないで — without doing",
+    "〜られる — potential form"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 122.5,
+     "end": 125.6,
+     "ja": "あなたが走らないで、誰が走るの？",
+     "en": "If you don't run, who will?",
+     "speaker": "Konatsu"
+    },
+    {
+     "start": 126.0,
+     "end": 128.8,
+     "ja": "自分を変えられるのは、自分だけだぞ。",
+     "en": "The only one who can change you is yourself.",
+     "speaker": "Pokon"
+    },
+    {
+     "start": 129.5,
+     "end": 131.7,
+     "ja": "いっけー！",
+     "en": "Go!",
      "speaker": "Aoi"
+    },
+    {
+     "start": 132.3,
+     "end": 134.1,
+     "ja": "もう逃げん気！",
+     "en": "I won't run away anymore!",
+     "speaker": "Isumi"
+    },
+    {
+     "start": 134.3,
+     "end": 136.2,
+     "ja": "私は、私から！",
+     "en": "Not from myself!",
+     "speaker": "Isumi"
     }
    ]
   }
@@ -118,5 +161,6 @@
  "pickTopics": [
   "anime"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

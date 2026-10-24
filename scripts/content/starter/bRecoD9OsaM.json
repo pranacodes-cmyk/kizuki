@@ -1,0 +1,19 @@
+{
+ "videoId": "bRecoD9OsaM",
+ "ids": [
+  "bRecoD9OsaM-24"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "bRecoD9OsaM-24": {
+   "id": "bRecoD9OsaM-24",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear demonstration of basic vocabulary with matching physical actions."
+  }
+ }
+}

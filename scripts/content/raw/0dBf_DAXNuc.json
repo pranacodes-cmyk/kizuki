@@ -2,57 +2,57 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 5.8,
-   "end": 22.8,
-   "title": "Essential Daily Greetings",
+   "start": 5.5,
+   "end": 22.9,
+   "title": "Basic Japanese Greetings",
    "level": "N5",
    "topics": [
     "daily",
     "culture"
    ],
    "grammar": [
-    "挨拶 — greetings"
+    "ございます — polite form of ある"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 6.0,
-     "end": 7.5,
+     "start": 5.8,
+     "end": 7.6,
      "ja": "おはようございます。",
      "en": "Good morning.",
      "speaker": "Narrator"
     },
     {
-     "start": 8.6,
-     "end": 10.0,
+     "start": 8.8,
+     "end": 10.6,
      "ja": "おはようございます。",
      "en": "Good morning.",
      "speaker": "Narrator"
     },
     {
-     "start": 12.1,
-     "end": 13.3,
+     "start": 12.0,
+     "end": 13.6,
      "ja": "こんにちは。",
      "en": "Hello.",
      "speaker": "Narrator"
     },
     {
-     "start": 14.7,
-     "end": 15.9,
+     "start": 14.8,
+     "end": 16.4,
      "ja": "こんにちは。",
      "en": "Hello.",
      "speaker": "Narrator"
     },
     {
-     "start": 18.0,
-     "end": 19.3,
+     "start": 17.8,
+     "end": 19.5,
      "ja": "こんばんは。",
      "en": "Good evening.",
      "speaker": "Narrator"
     },
     {
-     "start": 20.8,
-     "end": 22.0,
+     "start": 20.7,
+     "end": 22.4,
      "ja": "こんばんは。",
      "en": "Good evening.",
      "speaker": "Narrator"
@@ -60,9 +60,9 @@
    ]
   },
   {
-   "start": 151.2,
-   "end": 209.0,
-   "title": "Phrases for Ordering and Meals",
+   "start": 157.0,
+   "end": 218.6,
+   "title": "Meal Etiquette and Asking for the Restroom",
    "level": "N5",
    "topics": [
     "food",
@@ -70,58 +70,57 @@
     "travel"
    ],
    "grammar": [
-    "〜をお願いします — please give me / I'd like ~",
-    "〜でした — polite past tense of です"
+    "〜ですか — question marker"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 151.5,
-     "end": 153.6,
-     "ja": "これをお願いします。",
-     "en": "I'd like this, please.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 154.4,
-     "end": 156.5,
-     "ja": "これをお願いします。",
-     "en": "I'd like this, please.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 157.6,
+     "start": 157.4,
      "end": 159.0,
      "ja": "いただきます。",
      "en": "Let's eat.",
      "speaker": "Narrator"
     },
     {
-     "start": 160.3,
-     "end": 161.7,
+     "start": 160.4,
+     "end": 162.0,
      "ja": "いただきます。",
      "en": "Let's eat.",
      "speaker": "Narrator"
     },
     {
-     "start": 163.5,
-     "end": 165.3,
+     "start": 163.4,
+     "end": 165.4,
      "ja": "ごちそうさまでした。",
      "en": "Thank you for the meal.",
      "speaker": "Narrator"
     },
     {
-     "start": 166.5,
-     "end": 168.4,
+     "start": 166.8,
+     "end": 168.8,
      "ja": "ごちそうさまでした。",
      "en": "Thank you for the meal.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 172.9,
+     "end": 174.9,
+     "ja": "トイレはどこですか？",
+     "en": "Where is the restroom?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 175.9,
+     "end": 178.0,
+     "ja": "トイレはどこですか？",
+     "en": "Where is the restroom?",
      "speaker": "Narrator"
     }
    ]
   },
   {
    "start": 230.5,
-   "end": 248.2,
+   "end": 248.6,
    "title": "Useful Phrases for Shopping",
    "level": "N5",
    "topics": [
@@ -129,29 +128,28 @@
     "daily"
    ],
    "grammar": [
-    "〜ですか — question particle",
-    "〜てください — please do ~",
-    "〜をください — please give me ~"
+    "〜てください — please do",
+    "〜をください — please give me"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 230.8,
-     "end": 232.4,
+     "end": 232.7,
      "ja": "いくらですか？",
      "en": "How much is it?",
      "speaker": "Narrator"
     },
     {
-     "start": 233.8,
-     "end": 235.4,
+     "start": 233.9,
+     "end": 235.8,
      "ja": "いくらですか？",
      "en": "How much is it?",
      "speaker": "Narrator"
     },
     {
      "start": 237.0,
-     "end": 239.0,
+     "end": 239.1,
      "ja": "これを見せてください。",
      "en": "Please show me this.",
      "speaker": "Narrator"
@@ -164,17 +162,17 @@
      "speaker": "Narrator"
     },
     {
-     "start": 243.0,
-     "end": 244.7,
+     "start": 243.2,
+     "end": 245.1,
      "ja": "これをください。",
-     "en": "I'll take this, please.",
+     "en": "I'll take this.",
      "speaker": "Narrator"
     },
     {
-     "start": 245.8,
-     "end": 247.6,
+     "start": 246.2,
+     "end": 248.1,
      "ja": "これをください。",
-     "en": "I'll take this, please.",
+     "en": "I'll take this.",
      "speaker": "Narrator"
     }
    ]
@@ -184,5 +182,6 @@
  "pickTopics": [
   "travel"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

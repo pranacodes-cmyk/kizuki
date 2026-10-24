@@ -1,0 +1,19 @@
+{
+ "videoId": "QK400iXefwg",
+ "ids": [
+  "QK400iXefwg-282"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "QK400iXefwg-282": {
+   "id": "QK400iXefwg-282",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Encouraging street interview with friendly advice about learning Japanese."
+  }
+ }
+}

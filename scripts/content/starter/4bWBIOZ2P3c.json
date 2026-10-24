@@ -1,0 +1,19 @@
+{
+ "videoId": "4bWBIOZ2P3c",
+ "ids": [
+  "4bWBIOZ2P3c-14"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "4bWBIOZ2P3c-14": {
+   "id": "4bWBIOZ2P3c-14",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Natural street interview with clear conversational Japanese."
+  }
+ }
+}

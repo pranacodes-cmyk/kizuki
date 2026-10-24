@@ -1,0 +1,30 @@
+{
+ "videoId": "saW4hpCjQoU",
+ "ids": [
+  "saW4hpCjQoU-131",
+  "saW4hpCjQoU-512"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "saW4hpCjQoU-131": {
+   "id": "saW4hpCjQoU-131",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear monologue introducing plans in Omotesando with good everyday vocabulary."
+  },
+  "saW4hpCjQoU-512": {
+   "id": "saW4hpCjQoU-512",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple shopping phrases and clear pronunciation suitable for beginners."
+  }
+ }
+}

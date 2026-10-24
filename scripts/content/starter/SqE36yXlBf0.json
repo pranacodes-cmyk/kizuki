@@ -1,0 +1,19 @@
+{
+ "videoId": "SqE36yXlBf0",
+ "ids": [
+  "SqE36yXlBf0-15"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "SqE36yXlBf0-15": {
+   "id": "SqE36yXlBf0-15",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear and friendly talking-head vlog, spoken slowly and naturally."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "hU7KZxdjxEE",
+ "ids": [
+  "hU7KZxdjxEE-126"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "hU7KZxdjxEE-126": {
+   "id": "hU7KZxdjxEE-126",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Friendly remote greeting with simple conversational expressions and good energy."
+  }
+ }
+}

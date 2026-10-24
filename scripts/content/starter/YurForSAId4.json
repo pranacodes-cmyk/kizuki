@@ -1,0 +1,19 @@
+{
+ "videoId": "YurForSAId4",
+ "ids": [
+  "YurForSAId4-108"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "YurForSAId4-108": {
+   "id": "YurForSAId4-108",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Practical restaurant greeting dialogue with clear, simple audio and helpful visuals."
+  }
+ }
+}

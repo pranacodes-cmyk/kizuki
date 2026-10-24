@@ -1,0 +1,30 @@
+{
+ "videoId": "lo4UGuaZHM0",
+ "ids": [
+  "lo4UGuaZHM0-56",
+  "lo4UGuaZHM0-91"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "lo4UGuaZHM0-56": {
+   "id": "lo4UGuaZHM0-56",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Friendly conversational exchange featuring common food vocabulary."
+  },
+  "lo4UGuaZHM0-91": {
+   "id": "lo4UGuaZHM0-91",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Warm dialogue about home cooking and tasty dishes."
+  }
+ }
+}

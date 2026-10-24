@@ -1,0 +1,30 @@
+{
+ "videoId": "xxIPdeVmuKc",
+ "ids": [
+  "xxIPdeVmuKc-1720",
+  "xxIPdeVmuKc-497"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "xxIPdeVmuKc-497": {
+   "id": "xxIPdeVmuKc-497",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Energetic character debut with expressive animation and clear comedic delivery."
+  },
+  "xxIPdeVmuKc-1720": {
+   "id": "xxIPdeVmuKc-1720",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Charming narrative with a funny punchline, supported by clear visual cues."
+  }
+ }
+}

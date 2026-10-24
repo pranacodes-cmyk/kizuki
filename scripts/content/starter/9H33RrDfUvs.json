@@ -1,0 +1,19 @@
+{
+ "videoId": "9H33RrDfUvs",
+ "ids": [
+  "9H33RrDfUvs-16"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "9H33RrDfUvs-16": {
+   "id": "9H33RrDfUvs-16",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, accessible narration introducing traditional New Year dishes with helpful photos."
+  }
+ }
+}

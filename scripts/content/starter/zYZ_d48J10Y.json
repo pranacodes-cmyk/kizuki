@@ -1,0 +1,19 @@
+{
+ "videoId": "zYZ_d48J10Y",
+ "ids": [
+  "zYZ_d48J10Y-167"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "zYZ_d48J10Y-167": {
+   "id": "zYZ_d48J10Y-167",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Practical daily Japanese with clear first-person train ticket gate visuals."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "-hVLy0L76uc",
+ "ids": [
+  "-hVLy0L76uc-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "-hVLy0L76uc-0": {
+   "id": "-hVLy0L76uc-0",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Friendly introduction and clear natural Japanese about visiting a ramen shop."
+  }
+ }
+}

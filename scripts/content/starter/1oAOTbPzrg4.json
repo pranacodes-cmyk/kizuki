@@ -1,0 +1,30 @@
+{
+ "videoId": "1oAOTbPzrg4",
+ "ids": [
+  "1oAOTbPzrg4-34",
+  "1oAOTbPzrg4-4"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "1oAOTbPzrg4-34": {
+   "id": "1oAOTbPzrg4-34",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear beginner ordering phrase with simple visuals and captions."
+  },
+  "1oAOTbPzrg4-4": {
+   "id": "1oAOTbPzrg4-4",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear practical greeting phrases but uses static illustrated slides."
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "videoId": "n7EWmHcf1q8",
+ "ids": [
+  "n7EWmHcf1q8-10",
+  "n7EWmHcf1q8-216"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "n7EWmHcf1q8-10": {
+   "id": "n7EWmHcf1q8-10",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Lively introduction to sightseeing in Asakusa with clear casual speech."
+  },
+  "n7EWmHcf1q8-216": {
+   "id": "n7EWmHcf1q8-216",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 2,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Practical ordering conversation, though the camera framing is awkward."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "KzZV3QmY1v0",
+ "ids": [
+  "KzZV3QmY1v0-11"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "KzZV3QmY1v0-11": {
+   "id": "KzZV3QmY1v0-11",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear speech and demonstration, though mundane everyday product review."
+  }
+ }
+}

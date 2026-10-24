@@ -2,193 +2,138 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 91.5,
-   "end": 143.0,
-   "title": "Splurging on a Dream Kettle",
+   "start": 129.5,
+   "end": 141.5,
+   "title": "Old Schedule Notebooks",
    "level": "N3",
    "topics": [
     "daily",
-    "food"
+    "fun"
    ],
    "grammar": [
-    "〜てた — continuous past",
-    "〜ちゃう — to do completely/regret"
+    "〜てある — resultant state",
+    "〜とかって — quoting casually"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 91.8,
-     "end": 93.8,
-     "ja": "もう長年、なんか多分",
-     "en": "For many years, maybe",
-     "speaker": "Woman"
+     "start": 129.8,
+     "end": 134.0,
+     "ja": "なんかその時の、今年の気分が貼ってあるんですよね。",
+     "en": "It has whatever mood I was in that year pasted onto it.",
+     "speaker": "Harumi"
     },
     {
-     "start": 93.8,
-     "end": 96.0,
-     "ja": "七、八年ずっと恋焦がれてた",
-     "en": "seven or eight years, I had longed for",
-     "speaker": "Woman"
+     "start": 134.4,
+     "end": 137.0,
+     "ja": "だから、数年前のこれとか見ると、",
+     "en": "So when I look at this one from a few years ago,",
+     "speaker": "Harumi"
     },
     {
-     "start": 96.0,
-     "end": 97.4,
-     "ja": "やかんなんだけど、",
-     "en": "this kettle,",
-     "speaker": "Woman"
+     "start": 137.0,
+     "end": 139.6,
+     "ja": "「あ、こういう気分だったんだな」とかって分かって、",
+     "en": "I can tell, \"Ah, that's how I was feeling,\" and",
+     "speaker": "Harumi"
     },
     {
-     "start": 97.4,
-     "end": 100.2,
-     "ja": "いいお値段で、ずっと悩んでたんだけど、",
-     "en": "and it was pricey so I agonized over it for a while,",
-     "speaker": "Woman"
-    },
-    {
-     "start": 100.2,
-     "end": 102.5,
-     "ja": "「いいや！えい！」って買っちゃいました。",
-     "en": "but then went, \"Whatever! Go for it!\" and bought it.",
-     "speaker": "Woman"
+     "start": 139.7,
+     "end": 141.2,
+     "ja": "面白いです。",
+     "en": "it's really interesting.",
+     "speaker": "Harumi"
     }
    ]
   },
   {
-   "start": 307.0,
-   "end": 328.0,
-   "title": "Efficient Kitchen Counter Workflow",
+   "start": 382.4,
+   "end": 393.5,
+   "title": "Hanging Baskets in the Kitchen",
    "level": "N3",
    "topics": [
-    "daily",
-    "food"
+    "daily"
    ],
    "grammar": [
-    "〜じゃないですか — isn't it / as you know",
-    "〜とく — to do in advance/leave as is"
+    "〜たら — once / when",
+    "〜ながら — while doing",
+    "〜かな — wondering / I guess"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 307.2,
-     "end": 309.5,
-     "ja": "ちょっと使って、まだ使いたいこと、",
-     "en": "You know how there are lots of times when you use something",
-     "speaker": "Woman"
+     "start": 382.7,
+     "end": 384.9,
+     "ja": "洗って、水がある程度切れたら、",
+     "en": "Once I wash them and the water has drained to some extent,",
+     "speaker": "Harumi"
     },
     {
-     "start": 309.5,
-     "end": 311.4,
-     "ja": "いっぱいあるじゃないですか。",
-     "en": "and want to keep using it?",
-     "speaker": "Woman"
+     "start": 384.9,
+     "end": 387.4,
+     "ja": "もうここで乾かしながらストックしてるから、",
+     "en": "I just store them here while letting them dry,",
+     "speaker": "Harumi"
     },
     {
-     "start": 311.4,
-     "end": 313.7,
-     "ja": "で、全部終わったときは",
-     "en": "So when I'm completely done,",
-     "speaker": "Woman"
+     "start": 387.4,
+     "end": 389.8,
+     "ja": "上ってホコリあんま立たないんですよね。",
+     "en": "and dust doesn't really build up high, you know.",
+     "speaker": "Harumi"
     },
     {
-     "start": 313.7,
-     "end": 316.0,
-     "ja": "ここに洗剤が入ってあって、",
-     "en": "there's soapy water in here,",
-     "speaker": "Woman"
-    },
-    {
-     "start": 316.0,
-     "end": 319.4,
-     "ja": "もう全部終わったやつはこっちに入れるんですよ。",
-     "en": "and the ones I'm completely finished with go in here.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 319.4,
-     "end": 322.5,
-     "ja": "で、すぐ使いたいときはここに入れといて、",
-     "en": "When I want to use it again soon, I keep it here,",
-     "speaker": "Woman"
-    },
-    {
-     "start": 322.5,
-     "end": 326.5,
-     "ja": "さっと水で流して、次切ってとか、",
-     "en": "quickly rinse it with water, then chop the next thing,",
-     "speaker": "Woman"
-    },
-    {
-     "start": 326.5,
-     "end": 327.8,
-     "ja": "炒めたりとか。",
-     "en": "or stir-fry.",
-     "speaker": "Woman"
+     "start": 389.9,
+     "end": 393.0,
+     "ja": "それで、どんどんカゴが上に行ってるのかな。",
+     "en": "Maybe that's why more and more baskets have ended up going up high.",
+     "speaker": "Harumi"
     }
    ]
   },
   {
-   "start": 729.8,
-   "end": 747.5,
-   "title": "The Freedom of Chinese Tea",
+   "start": 453.5,
+   "end": 467.5,
+   "title": "Freedom of Chinese Tea",
    "level": "N3",
    "topics": [
     "culture",
     "daily"
    ],
    "grammar": [
-    "〜ばいい — should / it's fine if",
-    "〜と違って — unlike / different from"
+    "〜ばいい — fine as long as",
+    "〜と違って — unlike / different from",
+    "〜やすい — easy to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 730.3,
-     "end": 733.4,
-     "ja": "まだまだ何もできないんだけど、",
-     "en": "I still can't do it very properly, but",
-     "speaker": "Woman"
+     "start": 453.7,
+     "end": 457.7,
+     "ja": "なんか、綺麗であればいいみたいな考え方の人も多いし、",
+     "en": "Many people feel like as long as it's beautiful, it's fine,",
+     "speaker": "Harumi"
     },
     {
-     "start": 733.4,
-     "end": 736.0,
-     "ja": "なんか、綺麗であればいいみたいな",
-     "en": "there are many people who feel like as long as it's nice, it's fine,",
-     "speaker": "Woman"
+     "start": 458.1,
+     "end": 461.2,
+     "ja": "こういうやり方っていう人もいるし、色んな人がいて。",
+     "en": "while others say \"this is how to do it\"; there are all kinds of people.",
+     "speaker": "Harumi"
     },
     {
-     "start": 736.0,
-     "end": 737.9,
-     "ja": "考え方の人も多いし、",
-     "en": "while others say,",
-     "speaker": "Woman"
-    },
-    {
-     "start": 737.9,
-     "end": 739.9,
-     "ja": "「こういうやり方」っていう人もいるし、",
-     "en": "\"This is the right way,\" so there are all kinds of people.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 739.9,
-     "end": 741.0,
-     "ja": "色んな人がいて。",
-     "en": "And unlike Japanese tea ceremony,",
-     "speaker": "Woman"
-    },
-    {
-     "start": 741.0,
-     "end": 744.0,
+     "start": 461.3,
+     "end": 464.5,
      "ja": "でも全然、日本の茶道と違って自由だから、",
-     "en": "it's totally free-form,",
-     "speaker": "Woman"
+     "en": "But unlike Japanese tea ceremony, it's completely free,",
+     "speaker": "Harumi"
     },
     {
-     "start": 744.8,
-     "end": 747.0,
+     "start": 464.5,
+     "end": 467.0,
      "ja": "それでなんか、入りやすかった。",
-     "en": "which made it really easy for me to get into.",
-     "speaker": "Woman"
+     "en": "so that made it really easy to get into.",
+     "speaker": "Harumi"
     }
    ]
   }
@@ -197,5 +142,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

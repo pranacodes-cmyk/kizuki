@@ -1,0 +1,19 @@
+{
+ "videoId": "Q5aDPAorTq8",
+ "ids": [
+  "Q5aDPAorTq8-607"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Q5aDPAorTq8-607": {
+   "id": "Q5aDPAorTq8-607",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Lighthearted talk show interaction with clear conversational Japanese."
+  }
+ }
+}

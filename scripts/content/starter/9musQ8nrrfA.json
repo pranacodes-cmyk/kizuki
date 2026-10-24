@@ -1,0 +1,19 @@
+{
+ "videoId": "9musQ8nrrfA",
+ "ids": [
+  "9musQ8nrrfA-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "9musQ8nrrfA-0": {
+   "id": "9musQ8nrrfA-0",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, gentle spoken Japanese about cherry blossoms with simple vocabulary."
+  }
+ }
+}

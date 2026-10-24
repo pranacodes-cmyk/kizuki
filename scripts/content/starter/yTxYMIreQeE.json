@@ -1,0 +1,30 @@
+{
+ "videoId": "yTxYMIreQeE",
+ "ids": [
+  "yTxYMIreQeE-16",
+  "yTxYMIreQeE-813"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "yTxYMIreQeE-16": {
+   "id": "yTxYMIreQeE-16",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Friendly greeting and clear everyday speech suitable for beginners."
+  },
+  "yTxYMIreQeE-813": {
+   "id": "yTxYMIreQeE-813",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Casual conversation about heading to lunch with minor background chatter."
+  }
+ }
+}

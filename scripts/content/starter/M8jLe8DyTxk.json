@@ -1,0 +1,30 @@
+{
+ "videoId": "M8jLe8DyTxk",
+ "ids": [
+  "M8jLe8DyTxk-1023",
+  "M8jLe8DyTxk-727"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "M8jLe8DyTxk-1023": {
+   "id": "M8jLe8DyTxk-1023",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Cute everyday interaction, but includes fast colloquial speech and toddler murmurs."
+  },
+  "M8jLe8DyTxk-727": {
+   "id": "M8jLe8DyTxk-727",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple vocabulary, but speaker is off-camera showing only the floor."
+  }
+ }
+}

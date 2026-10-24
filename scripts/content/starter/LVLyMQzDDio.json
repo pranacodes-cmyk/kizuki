@@ -1,0 +1,30 @@
+{
+ "videoId": "LVLyMQzDDio",
+ "ids": [
+  "LVLyMQzDDio-115",
+  "LVLyMQzDDio-54"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "LVLyMQzDDio-115": {
+   "id": "LVLyMQzDDio-115",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute dog clearly repeating basic request vocabulary with owner."
+  },
+  "LVLyMQzDDio-54": {
+   "id": "LVLyMQzDDio-54",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Adorably demonstrates practical beginner words like want and food."
+  }
+ }
+}

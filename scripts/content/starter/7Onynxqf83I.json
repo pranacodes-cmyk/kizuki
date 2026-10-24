@@ -1,0 +1,30 @@
+{
+ "videoId": "7Onynxqf83I",
+ "ids": [
+  "7Onynxqf83I-175",
+  "7Onynxqf83I-5"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "7Onynxqf83I-5": {
+   "id": "7Onynxqf83I-5",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Practical travel dialogue with clear pronunciation and helpful subtitles."
+  },
+  "7Onynxqf83I-175": {
+   "id": "7Onynxqf83I-175",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple bakery interaction using essential beginner vocabulary and clear delivery."
+  }
+ }
+}

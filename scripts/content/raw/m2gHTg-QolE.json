@@ -2,9 +2,9 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 5.8,
-   "end": 24.4,
-   "title": "Getting Ready for School",
+   "start": 6.0,
+   "end": 20.6,
+   "title": "Getting Ready Before School Starts",
    "level": "N4",
    "topics": [
     "daily",
@@ -12,128 +12,133 @@
    ],
    "grammar": [
     "〜てみる — try doing",
-    "〜ていく — to go on doing",
-    "〜ので — because / since"
+    "〜くらい — approximately"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 6.0,
-     "end": 7.1,
+     "start": 6.1,
+     "end": 7.3,
      "ja": "こんにちは。",
      "en": "Hello everyone.",
      "speaker": "Takara"
     },
     {
-     "start": 7.2,
-     "end": 10.0,
+     "start": 7.3,
+     "end": 10.7,
      "ja": "今回もまた学校のある日のVlogを撮ってみたので、",
-     "en": "I filmed another vlog of a school day,",
+     "en": "I filmed another vlog on a school day,",
      "speaker": "Takara"
     },
     {
-     "start": 10.0,
-     "end": 12.0,
+     "start": 10.8,
+     "end": 12.4,
      "ja": "よかったら見ていってください。",
-     "en": "so please check it out if you'd like.",
+     "en": "so please watch and enjoy it.",
      "speaker": "Takara"
     },
     {
-     "start": 12.8,
-     "end": 18.5,
-     "ja": "毎朝学校が始まる30分くらい前に起きて、準備をします。",
-     "en": "Every morning I wake up about 30 minutes before school starts and get ready.",
+     "start": 13.0,
+     "end": 18.2,
+     "ja": "毎朝学校が始まる30分前くらいに起きて、えー準備をします。",
+     "en": "I wake up about 30 minutes before school starts every morning to get ready.",
      "speaker": "Takara"
     },
     {
-     "start": 18.8,
-     "end": 20.5,
+     "start": 18.5,
+     "end": 20.4,
      "ja": "本当に顔やばい。",
-     "en": "My face really looks awful.",
-     "speaker": "Takara"
-    },
-    {
-     "start": 20.8,
-     "end": 24.0,
-     "ja": "1時間目が体育なので、体操着着てます。",
-     "en": "I have PE first period, so I'm wearing gym clothes.",
+     "en": "My face really looks crazy.",
      "speaker": "Takara"
     }
    ]
   },
   {
-   "start": 512.7,
-   "end": 527.3,
-   "title": "Favorite Subject Art Class",
+   "start": 513.0,
+   "end": 527.0,
+   "title": "My Favorite Subject: Art Class",
    "level": "N3",
-   "topics": [
-    "school"
-   ],
-   "grammar": [
-    "〜と思う — to think that",
-    "〜てある — state resulting from an action",
-    "〜たり〜たり — doing things like"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 513.0,
-     "end": 518.0,
-     "ja": "あんまり興味ないと思うんですけど、一応美術が一番の得意科目です。",
-     "en": "I doubt anyone cares, but art is actually my best subject.",
-     "speaker": "Takara"
-    },
-    {
-     "start": 518.4,
-     "end": 522.3,
-     "ja": "こんな感じで私たちが作った作品が飾ってあったりしていて、",
-     "en": "The pieces we made are displayed like this on the walls,",
-     "speaker": "Takara"
-    },
-    {
-     "start": 522.5,
-     "end": 526.8,
-     "ja": "美術室の空間がすごく好きです。",
-     "en": "and I really love the atmosphere in the art room.",
-     "speaker": "Takara"
-    }
-   ]
-  },
-  {
-   "start": 922.6,
-   "end": 933.4,
-   "title": "Mandatory Study Time at the Dorm",
-   "level": "N4",
    "topics": [
     "school",
     "daily"
    ],
    "grammar": [
-    "〜っていう — called / which is",
-    "〜なきゃいけない — must / have to",
-    "〜ので — because / since"
+    "〜と思う — think that",
+    "〜たり〜たり — doing things like"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 923.0,
-     "end": 926.3,
-     "ja": "寮生は必ずスタディタイムっていうのがあって、",
-     "en": "Boarding students always have what is called study time,",
+     "start": 513.2,
+     "end": 517.7,
+     "ja": "あんまり興味ないと思うんですけど、一応美術が一番の得意科目です。",
+     "en": "You probably don't care, but art is actually my best subject.",
      "speaker": "Takara"
     },
     {
-     "start": 926.5,
-     "end": 929.8,
-     "ja": "2時間ドアを開けて勉強しなきゃいけないので、",
-     "en": "and we have to keep our doors open and study for two hours,",
+     "start": 518.3,
+     "end": 522.0,
+     "ja": "こんな感じで私達が作った作品が飾ってあったりしていて、",
+     "en": "Pieces we made are displayed on the wall like this,",
      "speaker": "Takara"
     },
     {
-     "start": 929.9,
-     "end": 933.0,
-     "ja": "こんな感じで今日も宿題をやりました。",
-     "en": "so like this, I did my homework today too.",
+     "start": 522.1,
+     "end": 526.5,
+     "ja": "えー美術室の空間がすごく好きです。",
+     "en": "and I really love the atmosphere of the art room.",
+     "speaker": "Takara"
+    }
+   ]
+  },
+  {
+   "start": 573.6,
+   "end": 590.0,
+   "title": "Wrapping Up the Vlog",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "fun"
+   ],
+   "grammar": [
+    "〜ていただく — receive the favor of",
+    "〜てもらえたら — if you could do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 573.8,
+     "end": 577.0,
+     "ja": "今日も動画を見ていただいてありがとうございます。",
+     "en": "Thank you so much for watching today's video as well.",
+     "speaker": "Takara"
+    },
+    {
+     "start": 577.2,
+     "end": 580.8,
+     "ja": "もし動画が気に入ってもらえたら、いいねとチャンネル登録と、",
+     "en": "If you enjoyed the video, please like and subscribe,",
+     "speaker": "Takara"
+    },
+    {
+     "start": 581.0,
+     "end": 584.8,
+     "ja": "あとコメントも見てるので、ぜひ書いてくださーい。",
+     "en": "and I also read comments, so please leave some below!",
+     "speaker": "Takara"
+    },
+    {
+     "start": 585.0,
+     "end": 587.8,
+     "ja": "あとInstagramのフォローもお願いしまーす。",
+     "en": "Also, please follow my Instagram.",
+     "speaker": "Takara"
+    },
+    {
+     "start": 588.0,
+     "end": 589.8,
+     "ja": "バイバーイ。",
+     "en": "Bye-bye!",
      "speaker": "Takara"
     }
    ]
@@ -143,5 +148,6 @@
  "pickTopics": [
   "school"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

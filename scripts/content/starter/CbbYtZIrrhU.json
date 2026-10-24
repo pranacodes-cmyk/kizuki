@@ -1,0 +1,19 @@
+{
+ "videoId": "CbbYtZIrrhU",
+ "ids": [
+  "CbbYtZIrrhU-7"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "CbbYtZIrrhU-7": {
+   "id": "CbbYtZIrrhU-7",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Pleasant and casual chat while drinking boba tea."
+  }
+ }
+}

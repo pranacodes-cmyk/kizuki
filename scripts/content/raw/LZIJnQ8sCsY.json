@@ -2,137 +2,127 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 35.0,
-   "end": 48.6,
-   "title": "The Ice Cream Is Melting",
-   "level": "N3",
+   "start": 34.8,
+   "end": 49.0,
+   "title": "My Ice Cream Is Melting!",
+   "level": "N4",
    "topics": [
     "anime",
-    "comedy",
-    "food"
+    "comedy"
    ],
    "grammar": [
-    "〜ちゃう — contraction of 〜てしまう",
-    "〜てんだ — contraction of 〜ているんだ",
-    "〜なんか — something like / things like"
+    "〜てんだ — contracting ているんだ",
+    "〜なんか — dismissive particle"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 35.3,
-     "end": 36.8,
-     "ja": "あ？なんだよ？",
+     "start": 35.0,
+     "end": 36.5,
+     "ja": "あ？なんだよ。",
      "en": "Huh? What is it?",
-     "speaker": "Man"
+     "speaker": "Neighbor"
     },
     {
-     "start": 37.3,
+     "start": 37.4,
      "end": 39.8,
      "ja": "アイス溶けちゃうにゃ。",
-     "en": "The ice cream is gonna melt, nya.",
+     "en": "My ice cream is gonna melt, nya.",
      "speaker": "Yani Neko"
     },
     {
-     "start": 40.3,
+     "start": 40.2,
      "end": 42.4,
      "ja": "馬鹿野郎！説教してんだぞ！",
-     "en": "Idiot! I'm lecturing you here!",
-     "speaker": "Man"
+     "en": "You idiot! I'm scolding you here!",
+     "speaker": "Neighbor"
     },
     {
-     "start": 42.4,
-     "end": 44.8,
+     "start": 42.6,
+     "end": 44.9,
      "ja": "アイスなんかより気にすることがあるだろう！",
-     "en": "There are more important things to care about than ice cream!",
-     "speaker": "Man"
+     "en": "You have more important things to worry about than ice cream!",
+     "speaker": "Neighbor"
     },
     {
-     "start": 44.8,
-     "end": 48.3,
+     "start": 45.1,
+     "end": 48.7,
      "ja": "常識！所作！思いやり！美意識！世界平和！",
      "en": "Common sense! Manners! Consideration! Aesthetics! World peace!",
-     "speaker": "Man"
+     "speaker": "Neighbor"
     }
    ]
   },
   {
-   "start": 112.5,
-   "end": 137.8,
-   "title": "Don't Take a Smoke Break",
+   "start": 111.8,
+   "end": 138.0,
+   "title": "Taking a Smoke Break",
    "level": "N3",
    "topics": [
     "anime",
     "comedy"
    ],
    "grammar": [
-    "〜ていい — permission (it is okay to)",
-    "〜みてえ — colloquial form of 〜みたい (looks like)",
-    "〜終わったら — after finishing doing"
+    "〜ていい — permission",
+    "〜終わったら — when finished doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 112.8,
-     "end": 115.0,
-     "ja": "あーもう悪かった！悪かったよ！",
-     "en": "Ah, fine, I'm sorry! I'm sorry!",
-     "speaker": "Man"
+     "start": 112.0,
+     "end": 114.5,
+     "ja": "あーもう悪かった、悪かったよ！",
+     "en": "Ah, fine, my bad, I'm sorry!",
+     "speaker": "Neighbor"
     },
     {
-     "start": 115.0,
-     "end": 117.2,
-     "ja": "さ、食っていいから。ほら、食え！",
-     "en": "Go ahead, you can eat it. Here, eat!",
-     "speaker": "Man"
+     "start": 114.7,
+     "end": 117.0,
+     "ja": "先食っていいから、ほら食え！",
+     "en": "You can eat it first, go ahead, eat!",
+     "speaker": "Neighbor"
     },
     {
-     "start": 117.8,
-     "end": 119.0,
-     "ja": "にゃ…",
-     "en": "Nya...",
-     "speaker": "Yani Neko"
+     "start": 118.7,
+     "end": 121.8,
+     "ja": "なんだよ、俺が悪いことしたみてぇじゃねぇか。",
+     "en": "What the heck, you're making it look like I did something bad.",
+     "speaker": "Neighbor"
     },
     {
-     "start": 119.2,
-     "end": 122.2,
-     "ja": "なんだよ、俺が悪いことしたみてえじゃねえか。",
-     "en": "What, now you're making it look like I'm the bad guy.",
-     "speaker": "Man"
-    },
-    {
-     "start": 122.5,
-     "end": 123.3,
-     "ja": "にゃ。",
+     "start": 122.1,
+     "end": 122.8,
+     "ja": "にゃあ。",
      "en": "Nya.",
      "speaker": "Yani Neko"
     },
     {
-     "start": 123.4,
-     "end": 126.3,
-     "ja": "「にゃ」じゃねえよ！泣きたいのはこっちだよ！",
-     "en": "Don't 'nya' me! I'm the one who wants to cry!",
-     "speaker": "Man"
+     "start": 123.0,
+     "end": 126.1,
+     "ja": "「にゃあ」じゃねぇよ、泣きたいのはこっちだよ。",
+     "en": "Don't 'nya' me! I'm the one who wants to cry here.",
+     "speaker": "Neighbor"
     },
     {
-     "start": 127.0,
-     "end": 130.4,
-     "ja": "それ食い終わったら、ちゃんと俺の話も聞けよ。",
-     "en": "Once you finish eating that, you better listen to what I have to say.",
-     "speaker": "Man"
+     "start": 126.8,
+     "end": 129.8,
+     "ja": "それ食い終わったらちゃんと俺の話も聞けよ。",
+     "en": "Once you finish that, listen to what I have to say properly.",
+     "speaker": "Neighbor"
     },
     {
-     "start": 131.0,
-     "end": 132.0,
-     "ja": "にゃ。",
-     "en": "Nya.",
+     "start": 130.8,
+     "end": 131.7,
+     "ja": "にゃん。",
+     "en": "Nyan.",
      "speaker": "Yani Neko"
     },
     {
-     "start": 134.8,
-     "end": 137.5,
-     "ja": "タバコ休憩挟んでんじゃねえ！",
-     "en": "Don't squeeze in a smoke break!",
-     "speaker": "Man"
+     "start": 134.6,
+     "end": 137.8,
+     "ja": "タバコ休憩挟んでんじゃねぇ！",
+     "en": "Don't sneak in a cigarette break!",
+     "speaker": "Neighbor"
     }
    ]
   }
@@ -142,5 +132,6 @@
   "anime",
   "comedy"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

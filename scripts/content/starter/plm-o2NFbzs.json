@@ -1,0 +1,30 @@
+{
+ "videoId": "plm-o2NFbzs",
+ "ids": [
+  "plm-o2NFbzs-265",
+  "plm-o2NFbzs-431"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "plm-o2NFbzs-265": {
+   "id": "plm-o2NFbzs-265",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear demonstration of ramen noodles with natural spoken food vocabulary."
+  },
+  "plm-o2NFbzs-431": {
+   "id": "plm-o2NFbzs-431",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Energetic presentation showing gyoza up close with comprehensible expressions."
+  }
+ }
+}

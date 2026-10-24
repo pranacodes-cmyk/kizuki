@@ -1,0 +1,30 @@
+{
+ "videoId": "Bu9P2ThVq3c",
+ "ids": [
+  "Bu9P2ThVq3c-0",
+  "Bu9P2ThVq3c-152"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Bu9P2ThVq3c-0": {
+   "id": "Bu9P2ThVq3c-0",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Casual mirror vlog intro; speech is natural but somewhat fast for beginners."
+  },
+  "Bu9P2ThVq3c-152": {
+   "id": "Bu9P2ThVq3c-152",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear visual display of an antique vase, though speech is moderately fast."
+  }
+ }
+}

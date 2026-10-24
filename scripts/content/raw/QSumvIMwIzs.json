@@ -2,8 +2,8 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 20.5,
-   "end": 44.2,
+   "start": 20.8,
+   "end": 43.8,
    "title": "Summer or Winter?",
    "level": "N5",
    "topics": [
@@ -11,183 +11,211 @@
     "culture"
    ],
    "grammar": [
-    "〜と〜とどちらの方 — which of the two",
-    "〜の方 — alternative in comparison"
+    "〜のほうが — preferring one option",
+    "どちら — which (of two)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 20.7,
-     "end": 24.0,
-     "ja": "まず、夏と冬。",
-     "en": "First, summer and winter.",
+     "start": 20.8,
+     "end": 22.0,
+     "ja": "まず、",
+     "en": "First,",
      "speaker": "Shun"
     },
     {
-     "start": 24.5,
+     "start": 22.0,
+     "end": 24.5,
+     "ja": "夏と冬、",
+     "en": "summer and winter,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 24.7,
      "end": 29.8,
      "ja": "夏と冬とどちらの方が好きですか？",
-     "en": "Which do you prefer, summer or winter?",
+     "en": "between summer and winter, which do you like better?",
      "speaker": "Shun"
     },
     {
-     "start": 30.3,
-     "end": 33.0,
+     "start": 30.4,
+     "end": 33.3,
      "ja": "夏の方が好きですか？",
-     "en": "Do you like summer more?",
+     "en": "Do you like summer better?",
      "speaker": "Shun"
     },
     {
-     "start": 33.4,
-     "end": 36.0,
+     "start": 33.7,
+     "end": 36.3,
      "ja": "冬の方が好きですか？",
-     "en": "Do you like winter more?",
+     "en": "Do you like winter better?",
      "speaker": "Shun"
     },
     {
      "start": 36.5,
-     "end": 40.0,
-     "ja": "私は個人的に、",
-     "en": "Personally,",
+     "end": 40.5,
+     "ja": "私は個人的に",
+     "en": "Personally, I",
      "speaker": "Shun"
     },
     {
-     "start": 40.5,
-     "end": 43.8,
+     "start": 40.8,
+     "end": 43.4,
      "ja": "冬の方が好きです。",
-     "en": "I like winter better.",
+     "en": "like winter better.",
      "speaker": "Shun"
     }
    ]
   },
   {
-   "start": 614.5,
-   "end": 641.5,
-   "title": "Living in Nagoya",
+   "start": 223.8,
+   "end": 254.2,
+   "title": "Snow in Hokkaido and Aomori",
    "level": "N5",
    "topics": [
-    "daily",
-    "travel"
-   ],
-   "grammar": [
-    "〜より — compared to",
-    "〜すぎる — too much"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 614.8,
-     "end": 617.8,
-     "ja": "今も私は都会に住んでいます。",
-     "en": "Even now, I live in a big city.",
-     "speaker": "Shun"
-    },
-    {
-     "start": 618.2,
-     "end": 620.2,
-     "ja": "名古屋に住んでます。",
-     "en": "I live in Nagoya.",
-     "speaker": "Shun"
-    },
-    {
-     "start": 620.5,
-     "end": 624.8,
-     "ja": "名古屋は都会ですね。大きい街だと思います。",
-     "en": "Nagoya is a big city. I think it's a large city.",
-     "speaker": "Shun"
-    },
-    {
-     "start": 625.0,
-     "end": 627.5,
-     "ja": "でも、あの、まあ、",
-     "en": "But, well,",
-     "speaker": "Shun"
-    },
-    {
-     "start": 627.7,
-     "end": 632.8,
-     "ja": "名古屋の方が大阪より小さいです。",
-     "en": "Nagoya is smaller than Osaka.",
-     "speaker": "Shun"
-    },
-    {
-     "start": 633.0,
-     "end": 635.8,
-     "ja": "もちろん東京より小さいです。",
-     "en": "Of course, it's smaller than Tokyo.",
-     "speaker": "Shun"
-    },
-    {
-     "start": 636.0,
-     "end": 638.2,
-     "ja": "そう、だから大きすぎません。",
-     "en": "Right, so it's not too big.",
-     "speaker": "Shun"
-    },
-    {
-     "start": 638.6,
-     "end": 640.8,
-     "ja": "うん、でも小さくないです。",
-     "en": "Yeah, but it's not small either.",
-     "speaker": "Shun"
-    }
-   ]
-  },
-  {
-   "start": 907.0,
-   "end": 933.2,
-   "title": "Nintendo Switch or PS5?",
-   "level": "N5",
-   "topics": [
-    "fun",
+    "travel",
     "daily"
    ],
    "grammar": [
-    "〜と思う — to think that",
-    "〜たことがある — to have experienced"
+    "一番〜 — the most / -est",
+    "〜より — compared to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 907.4,
-     "end": 912.0,
-     "ja": "任天堂スイッチとプレイステーション5と、",
-     "en": "Between the Nintendo Switch and the PlayStation 5,",
+     "start": 223.8,
+     "end": 227.3,
+     "ja": "もちろん、北海道の冬は、",
+     "en": "Of course, Hokkaido's winter",
      "speaker": "Shun"
     },
     {
-     "start": 912.3,
-     "end": 915.5,
-     "ja": "どっちの方が楽しいと思いますか？",
-     "en": "which do you think is more fun?",
+     "start": 227.5,
+     "end": 233.3,
+     "ja": "北海道と東京と沖縄の中で一番寒いです。",
+     "en": "is the coldest among Hokkaido, Tokyo, and Okinawa.",
      "speaker": "Shun"
     },
     {
-     "start": 915.7,
-     "end": 917.5,
-     "ja": "好きですか？",
-     "en": "Which do you prefer?",
+     "start": 233.8,
+     "end": 237.5,
+     "ja": "雪が一番たくさん降ります。",
+     "en": "It snows the most there.",
      "speaker": "Shun"
     },
     {
-     "start": 918.0,
-     "end": 922.5,
-     "ja": "うん、難しいね。難しい。",
-     "en": "Yeah, that's difficult. It's tough.",
+     "start": 238.2,
+     "end": 241.8,
+     "ja": "あ、うーん、でも多分、",
+     "en": "Oh, hmm, but maybe...",
      "speaker": "Shun"
     },
     {
-     "start": 923.0,
-     "end": 926.5,
-     "ja": "実は、あの、私はあまり",
-     "en": "Actually, well, I haven't really",
+     "start": 242.1,
+     "end": 245.0,
+     "ja": "青森、知ってますか？青森。",
+     "en": "Do you know Aomori? Aomori.",
      "speaker": "Shun"
     },
     {
-     "start": 926.7,
-     "end": 932.5,
-     "ja": "プレイステーション5をしたことがありません。",
-     "en": "played the PlayStation 5 much.",
+     "start": 245.3,
+     "end": 248.5,
+     "ja": "青森の方が北海道より",
+     "en": "I think it snows more in Aomori",
+     "speaker": "Shun"
+    },
+    {
+     "start": 248.5,
+     "end": 252.0,
+     "ja": "たくさん雪が降ると思います。",
+     "en": "than in Hokkaido.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 252.5,
+     "end": 253.9,
+     "ja": "知っていましたか？",
+     "en": "Did you know that?",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 353.3,
+   "end": 423.8,
+   "title": "Living in the City vs. Countryside",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "culture"
+   ],
+   "grammar": [
+    "どっち — which (casual)",
+    "〜たい — want to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 353.3,
+     "end": 356.0,
+     "ja": "都会と田舎と",
+     "en": "Between the city and the countryside,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 356.2,
+     "end": 360.0,
+     "ja": "どっちの方が好きですか？",
+     "en": "which do you like better?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 401.3,
+     "end": 404.3,
+     "ja": "どっちに住みたいですか？",
+     "en": "Which one do you want to live in?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 404.9,
+     "end": 406.8,
+     "ja": "難しいですね。",
+     "en": "That's a tough one, isn't it?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 406.9,
+     "end": 409.0,
+     "ja": "両方いいですよね。",
+     "en": "Both are great, right?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 409.5,
+     "end": 412.0,
+     "ja": "うん、難しい。",
+     "en": "Yeah, it's hard.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 412.4,
+     "end": 414.2,
+     "ja": "そうだな。",
+     "en": "Let's see...",
+     "speaker": "Shun"
+    },
+    {
+     "start": 414.6,
+     "end": 418.5,
+     "ja": "都会の方が田舎より",
+     "en": "In the city, compared to the countryside,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 418.5,
+     "end": 423.2,
+     "ja": "たくさんすることがありますよね。",
+     "en": "there are lots of things to do, right?",
      "speaker": "Shun"
     }
    ]
@@ -197,5 +225,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -1,0 +1,19 @@
+{
+ "videoId": "NzjRIoHcRAM",
+ "ids": [
+  "NzjRIoHcRAM-6"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "NzjRIoHcRAM-6": {
+   "id": "NzjRIoHcRAM-6",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear standard vlog greeting, though visuals remain static logo slides."
+  }
+ }
+}

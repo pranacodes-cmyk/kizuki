@@ -1,0 +1,19 @@
+{
+ "videoId": "6yD8rd7ymRY",
+ "ids": [
+  "6yD8rd7ymRY-804"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "6yD8rd7ymRY-804": {
+   "id": "6yD8rd7ymRY-804",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Cute children's animation with clear voices discussing an outing to the pool."
+  }
+ }
+}

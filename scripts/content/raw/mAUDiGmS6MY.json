@@ -2,9 +2,9 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 3.8,
-   "end": 25.1,
-   "title": "Introducing Italian Rice Balls",
+   "start": 4.0,
+   "end": 24.5,
+   "title": "Italian Rice Balls?",
    "level": "N5",
    "topics": [
     "food",
@@ -18,35 +18,35 @@
    "lines": [
     {
      "start": 4.2,
-     "end": 7.4,
+     "end": 7.5,
      "ja": "私は吉田です。",
-     "en": "I am Yoshida.",
+     "en": "I'm Yoshida.",
      "speaker": "Yoshida"
     },
     {
      "start": 8.5,
-     "end": 12.4,
+     "end": 11.8,
      "ja": "これはスップリです。",
      "en": "This is supplì.",
      "speaker": "Yoshida"
     },
     {
-     "start": 12.8,
-     "end": 16.0,
+     "start": 12.5,
+     "end": 15.8,
      "ja": "イタリアのおにぎりです。",
      "en": "It's an Italian rice ball.",
      "speaker": "Yoshida"
     },
     {
-     "start": 16.5,
-     "end": 19.5,
+     "start": 16.8,
+     "end": 19.8,
      "ja": "イタリアのおにぎりです。",
      "en": "It's an Italian rice ball.",
      "speaker": "Yoshida"
     },
     {
-     "start": 20.6,
-     "end": 24.6,
+     "start": 20.5,
+     "end": 24.0,
      "ja": "これが、おにぎり？",
      "en": "This is a rice ball?",
      "speaker": "Yoshida"
@@ -54,103 +54,112 @@
    ]
   },
   {
-   "start": 25.4,
-   "end": 43.8,
-   "title": "Ingredients for Supplì",
+   "start": 142.5,
+   "end": 205.0,
+   "title": "Cooking the Rice and Onions",
    "level": "N5",
    "topics": [
-    "food"
+    "food",
+    "daily"
    ],
    "grammar": [
-    "〜の〜 — noun modifier",
-    "もう〜ました — already did"
+    "〜を入れます — put in",
+    "〜て〜ます — te-form for sequence"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 25.8,
-     "end": 30.2,
-     "ja": "イタリアのおにぎりの材料です。",
-     "en": "These are the ingredients for the Italian rice balls.",
+     "start": 142.8,
+     "end": 145.0,
+     "ja": "オリーブオイルを入れます。",
+     "en": "I put in olive oil.",
      "speaker": "Yoshida"
     },
     {
-     "start": 31.4,
-     "end": 34.3,
-     "ja": "これが米です。",
-     "en": "This is rice.",
+     "start": 145.3,
+     "end": 148.0,
+     "ja": "玉ねぎを入れます。",
+     "en": "I put in onions.",
      "speaker": "Yoshida"
     },
     {
-     "start": 35.8,
-     "end": 37.8,
-     "ja": "トマトピューレです。",
-     "en": "This is tomato purée.",
+     "start": 151.8,
+     "end": 154.8,
+     "ja": "玉ねぎを炒めました。",
+     "en": "I fried the onions.",
      "speaker": "Yoshida"
     },
     {
-     "start": 38.5,
-     "end": 40.2,
-     "ja": "玉ねぎです。",
-     "en": "This is onion.",
+     "start": 155.3,
+     "end": 159.5,
+     "ja": "ここに、この米を入れます。",
+     "en": "Here, I put in this rice.",
      "speaker": "Yoshida"
     },
     {
-     "start": 40.9,
-     "end": 42.8,
-     "ja": "もう切りました。",
-     "en": "I've already chopped it.",
+     "start": 200.3,
+     "end": 204.5,
+     "ja": "米を入れて混ぜます。",
+     "en": "I put in the rice and mix it.",
      "speaker": "Yoshida"
     }
    ]
   },
   {
-   "start": 527.5,
-   "end": 549.5,
-   "title": "Tasting the Finished Supplì",
+   "start": 334.0,
+   "end": 403.5,
+   "title": "Shaping the Rice Balls",
    "level": "N5",
    "topics": [
-    "food"
+    "food",
+    "daily"
    ],
    "grammar": [
-    "〜を〜ます — direct object marker",
-    "〜も — also"
+    "〜の上に — on top of",
+    "〜ています — ongoing action"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 528.0,
-     "end": 529.3,
-     "ja": "うん。",
-     "en": "Mm.",
+     "start": 334.3,
+     "end": 340.5,
+     "ja": "ご飯の上にチーズを乗せます。",
+     "en": "I place cheese on top of the rice.",
      "speaker": "Yoshida"
     },
     {
-     "start": 529.8,
-     "end": 533.5,
-     "ja": "おにぎりをちょっと食べます。",
-     "en": "I'll take a little bite of the rice ball.",
+     "start": 342.8,
+     "end": 348.5,
+     "ja": "そして、ご飯を握ります。",
+     "en": "And then I shape the rice.",
      "speaker": "Yoshida"
     },
     {
-     "start": 539.7,
-     "end": 541.2,
-     "ja": "美味しい！",
-     "en": "It's delicious!",
+     "start": 351.0,
+     "end": 355.0,
+     "ja": "おにぎりを作っています。",
+     "en": "I am making rice balls.",
      "speaker": "Yoshida"
     },
     {
-     "start": 541.5,
-     "end": 544.8,
-     "ja": "イタリアのおにぎりも美味しいです。",
-     "en": "Italian rice balls are also delicious.",
+     "start": 356.5,
+     "end": 358.5,
+     "ja": "握りました。",
+     "en": "I shaped it.",
      "speaker": "Yoshida"
     },
     {
-     "start": 545.3,
-     "end": 548.8,
-     "ja": "イタリアのおにぎりも美味しいです。",
-     "en": "Italian rice balls are delicious too.",
+     "start": 359.0,
+     "end": 400.5,
+     "ja": "できました。",
+     "en": "It's done.",
+     "speaker": "Yoshida"
+    },
+    {
+     "start": 401.2,
+     "end": 403.0,
+     "ja": "ここに置きます。",
+     "en": "I place it here.",
      "speaker": "Yoshida"
     }
    ]
@@ -160,5 +169,6 @@
  "pickTopics": [
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -1,0 +1,19 @@
+{
+ "videoId": "s6LxVBYmRdU",
+ "ids": [
+  "s6LxVBYmRdU-207"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "s6LxVBYmRdU-207": {
+   "id": "s6LxVBYmRdU-207",
+   "appeal": 7,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute cat interaction using simple, repetitive everyday words."
+  }
+ }
+}

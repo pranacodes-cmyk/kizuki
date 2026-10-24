@@ -1,0 +1,30 @@
+{
+ "videoId": "hQSrFEImMCk",
+ "ids": [
+  "hQSrFEImMCk-1167",
+  "hQSrFEImMCk-42"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "hQSrFEImMCk-1167": {
+   "id": "hQSrFEImMCk-1167",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Standard, clear YouTube closing phrases that are easy to follow."
+  },
+  "hQSrFEImMCk-42": {
+   "id": "hQSrFEImMCk-42",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Energetic food tasting intro with appealing snack close-ups."
+  }
+ }
+}

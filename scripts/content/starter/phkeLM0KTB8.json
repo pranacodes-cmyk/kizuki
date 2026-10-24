@@ -1,0 +1,19 @@
+{
+ "videoId": "phkeLM0KTB8",
+ "ids": [
+  "phkeLM0KTB8-44"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "phkeLM0KTB8-44": {
+   "id": "phkeLM0KTB8-44",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear beginner dialogues asking age, displayed via text bubble graphics."
+  }
+ }
+}

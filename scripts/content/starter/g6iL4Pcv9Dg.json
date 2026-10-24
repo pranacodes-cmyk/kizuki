@@ -1,0 +1,19 @@
+{
+ "videoId": "g6iL4Pcv9Dg",
+ "ids": [
+  "g6iL4Pcv9Dg-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "g6iL4Pcv9Dg-0": {
+   "id": "g6iL4Pcv9Dg-0",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear standard narration introducing a PS5 unboxing over mostly static images."
+  }
+ }
+}

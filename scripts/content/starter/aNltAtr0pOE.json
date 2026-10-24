@@ -1,0 +1,19 @@
+{
+ "videoId": "aNltAtr0pOE",
+ "ids": [
+  "aNltAtr0pOE-310"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "aNltAtr0pOE-310": {
+   "id": "aNltAtr0pOE-310",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear slow narration with scenic views, though visuals don't match story."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "RSwMJ-2THYM",
+ "ids": [
+  "RSwMJ-2THYM-145"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "RSwMJ-2THYM-145": {
+   "id": "RSwMJ-2THYM-145",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, slow beginner vocabulary with cute socks visuals."
+  }
+ }
+}

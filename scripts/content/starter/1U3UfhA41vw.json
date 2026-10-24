@@ -1,0 +1,19 @@
+{
+ "videoId": "1U3UfhA41vw",
+ "ids": [
+  "1U3UfhA41vw-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "1U3UfhA41vw-0": {
+   "id": "1U3UfhA41vw-0",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous bizarre 3D animation with clear conversational Japanese dialogue."
+  }
+ }
+}

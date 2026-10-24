@@ -1,69 +1,84 @@
 {
- "speech": "some",
+ "speech": "clear",
  "clips": [
   {
-   "start": 600.5,
-   "end": 612.8,
-   "title": "Morning Request for Chocolate Bread",
+   "start": 36.3,
+   "end": 44.2,
+   "title": "Where Did You Buy the Train?",
    "level": "N5",
    "topics": [
-    "daily",
     "family",
-    "food"
+    "daily"
    ],
    "grammar": [
-    "おいで — come here",
-    "〜がいい — to prefer/want something"
+    "どこから — from where"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 601.0,
-     "end": 602.3,
-     "ja": "おはよう。",
+     "start": 36.7,
+     "end": 40.3,
+     "ja": "この電車、どこから乗って、買ったっけ？",
+     "en": "Where did I ride this train and buy it?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 41.5,
+     "end": 43.6,
+     "ja": "トイザらスにあったっけ？",
+     "en": "Was it at Toys \"R\" Us?",
+     "speaker": "Mother"
+    }
+   ]
+  },
+  {
+   "start": 360.5,
+   "end": 372.2,
+   "title": "Good Morning and Breakfast Choice",
+   "level": "N5",
+   "topics": [
+    "family",
+    "daily"
+   ],
+   "grammar": [
+    "〜がいい — prefer / want",
+    "〜でいい — fine with ~"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 361.0,
+     "end": 362.4,
+     "ja": "おはよ。",
      "en": "Good morning.",
      "speaker": "Mother"
     },
     {
-     "start": 603.5,
-     "end": 604.6,
+     "start": 363.6,
+     "end": 364.6,
      "ja": "おいで。",
      "en": "Come here.",
      "speaker": "Mother"
     },
     {
-     "start": 606.5,
-     "end": 607.4,
-     "ja": "ん？",
-     "en": "Hm?",
-     "speaker": "Mother"
-    },
-    {
-     "start": 607.5,
-     "end": 608.8,
+     "start": 367.7,
+     "end": 369.3,
      "ja": "チョコパン。",
      "en": "Chocolate bread.",
      "speaker": "Boy"
     },
     {
-     "start": 608.9,
-     "end": 610.5,
+     "start": 369.8,
+     "end": 371.1,
      "ja": "チョコパンがいい？",
-     "en": "Do you want chocolate bread?",
+     "en": "You want chocolate bread?",
      "speaker": "Mother"
     },
     {
-     "start": 610.6,
-     "end": 611.2,
-     "ja": "うん。",
-     "en": "Yeah.",
-     "speaker": "Boy"
-    },
-    {
-     "start": 611.3,
-     "end": 612.3,
-     "ja": "いいよ。",
-     "en": "Sure.",
+     "start": 371.2,
+     "end": 372.1,
+     "ja": "うん、いいよ。",
+     "en": "Yeah, sure.",
      "speaker": "Mother"
     }
    ]
@@ -73,5 +88,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

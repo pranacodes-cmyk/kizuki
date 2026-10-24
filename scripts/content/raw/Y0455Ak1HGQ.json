@@ -2,9 +2,83 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 105.7,
-   "end": 121.2,
-   "title": "First Hypnosis Test",
+   "start": 24.5,
+   "end": 47.6,
+   "title": "Practicing Pretending to Be Hypnotized",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜たら — if/when conditional",
+    "〜フリをする — pretending to",
+    "〜しかない — have no choice but to"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 24.5,
+     "end": 30.1,
+     "ja": "ちょっといきなりやけどね、たまにあのバラエティとかでさ、あの催眠術にかけられる企画やってたりするやんか。",
+     "en": "Out of the blue, but you know how variety shows sometimes have segments where people get hypnotized?",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 30.1,
+     "end": 31.3,
+     "ja": "ああ、はいはいはい。",
+     "en": "Ah, right, right.",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 31.3,
+     "end": 35.1,
+     "ja": "でもあんなんてね、こう、かからんかったら、やっぱめっちゃ変な空気なると思うねんな。",
+     "en": "Well, if you don't fall under it, it gets super awkward, doesn't it?",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 35.1,
+     "end": 37.0,
+     "ja": "まあ、まあなるやろうね、それはな。",
+     "en": "Well, yeah, it definitely would.",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 37.0,
+     "end": 39.8,
+     "ja": "だからそういう時は、かかったフリをするしかないと思うんよ。",
+     "en": "So in times like that, I think you just have to pretend to be hypnotized.",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 40.0,
+     "end": 42.6,
+     "ja": "まあ、難しいけどそうするしかないんかなとはね。",
+     "en": "Yeah, it's hard, but I guess you have no choice.",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 42.6,
+     "end": 45.4,
+     "ja": "今日はね、ちょっとあのかかったフリする練習しとこ。",
+     "en": "Let's practice pretending to be hypnotized today.",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 45.4,
+     "end": 47.6,
+     "ja": "あんま人前ではどうかな、それは。",
+     "en": "I'm not sure about doing that in front of an audience, though.",
+     "speaker": "Akagi"
+    }
+   ]
+  },
+  {
+   "start": 106.0,
+   "end": 125.8,
+   "title": "My Fist Won't Open!",
    "level": "N4",
    "topics": [
     "comedy",
@@ -14,166 +88,135 @@
     "〜と — when/if (conditional)",
     "〜なくなる — become unable to"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 106.3,
-     "end": 109.9,
-     "ja": "ではですね、今から３つ数えると、その手が開かなくなります。",
-     "en": "Well then, when I count to three from now, that hand won't open anymore.",
+     "start": 106.0,
+     "end": 109.3,
+     "ja": "ではですね、今から3つ数えると、その手が開かなくなります。",
+     "en": "Alright, when I count to three, your hand won't be able to open.",
      "speaker": "Kimura Band"
     },
     {
-     "start": 109.9,
-     "end": 111.4,
-     "ja": "それではいきましょう。３",
-     "en": "Let's begin. Three,",
-     "speaker": "Kimura Band"
-    },
-    {
-     "start": 111.4,
-     "end": 113.4,
-     "ja": "２、１、はい！",
-     "en": "two, one, now!",
-     "speaker": "Kimura Band"
-    },
-    {
-     "start": 114.3,
-     "end": 116.7,
-     "ja": "石のように固くなって開かない！",
-     "en": "It's hard as a stone and won't open!",
+     "start": 109.4,
+     "end": 110.5,
+     "ja": "その手が、はい。",
+     "en": "That hand, got it.",
      "speaker": "Akagi"
     },
     {
-     "start": 116.7,
-     "end": 117.8,
-     "ja": "さあ、開きますか？",
-     "en": "Now, does it open?",
+     "start": 110.5,
+     "end": 113.0,
+     "ja": "それではいきましょう。3、2、1、はい！",
+     "en": "Here we go. Three, two, one, ha!",
      "speaker": "Kimura Band"
     },
     {
-     "start": 117.8,
-     "end": 120.7,
+     "start": 113.5,
+     "end": 116.4,
+     "ja": "石のように硬くなって開かない！",
+     "en": "It's hard as a rock and won't open!",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 116.5,
+     "end": 117.6,
+     "ja": "さあ、開きますか？",
+     "en": "Now then, does it open?",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 117.7,
+     "end": 120.3,
      "ja": "開きません！ありがとうございます！",
-     "en": "It doesn't open! Thank you very much!",
+     "en": "It won't open! Thank you very much!",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 120.4,
+     "end": 122.0,
+     "ja": "さあ、これが1つ目の…",
+     "en": "So that's the first...",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 122.0,
+     "end": 125.8,
+     "ja": "やられたぜ！見てください、もうここがきっちり締まっております！",
+     "en": "He got me! Look, it's clenched tight right here!",
      "speaker": "Akagi"
     }
    ]
   },
   {
-   "start": 133.0,
-   "end": 147.2,
-   "title": "Stuck to the Cheek",
+   "start": 156.2,
+   "end": 218.4,
+   "title": "You Think I Am Hiroshi Abe",
    "level": "N4",
    "topics": [
     "comedy",
     "fun"
    ],
    "grammar": [
-    "〜と — when/if",
-    "〜たらいい — it would be good if"
+    "〜と思い込む — assume/be convinced that",
+    "〜まま — leaving as is / continuing as-is"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 133.4,
-     "end": 136.0,
-     "ja": "今から３つ数えると、その手が離れなくなります。",
-     "en": "When I count to three from now, that hand won't detach.",
+     "start": 156.2,
+     "end": 201.0,
+     "ja": "ではですね、3つ数えると、次は私のことを阿部寛だと思い込みます。",
+     "en": "Now then, when I count to three, you will believe I am Hiroshi Abe.",
      "speaker": "Kimura Band"
     },
     {
-     "start": 136.3,
-     "end": 139.1,
-     "ja": "それではいきましょう。３、２、１、はい！",
-     "en": "Let's go. Three, two, one, now!",
-     "speaker": "Kimura Band"
-    },
-    {
-     "start": 139.4,
-     "end": 140.7,
-     "ja": "さあ、離れますか？",
-     "en": "Now, does it come off?",
-     "speaker": "Kimura Band"
-    },
-    {
-     "start": 141.0,
-     "end": 144.1,
-     "ja": "離れたらいいんやけど…！",
-     "en": "I wish it would come off, but...!",
+     "start": 201.1,
+     "end": 202.0,
+     "ja": "阿部寛。",
+     "en": "Hiroshi Abe.",
      "speaker": "Akagi"
     },
     {
-     "start": 144.1,
-     "end": 147.1,
-     "ja": "さあ、これで２つ目の催眠にかかりました！",
-     "en": "And now, he has fallen under the second hypnosis!",
-     "speaker": "Kimura Band"
-    }
-   ]
-  },
-  {
-   "start": 224.2,
-   "end": 245.8,
-   "title": "Two Eyes Becoming One",
-   "level": "N3",
-   "topics": [
-    "comedy",
-    "fun"
-   ],
-   "grammar": [
-    "〜ていく — gradual change",
-    "〜になる — to become"
-   ],
-   "quality": 4,
-   "lines": [
-    {
-     "start": 224.9,
-     "end": 227.4,
-     "ja": "左右の目がぐーっと近づいて、",
-     "en": "Your left and right eyes draw closer together,",
+     "start": 202.0,
+     "end": 204.8,
+     "ja": "それではいきましょう。3、2、1、はい！",
+     "en": "Here we go. Three, two, one, ha!",
      "speaker": "Kimura Band"
     },
     {
-     "start": 227.4,
-     "end": 230.1,
-     "ja": "大きなひとつの目になる。これでいきましょう。",
-     "en": "and become one big eye. Let's go with this.",
-     "speaker": "Kimura Band"
-    },
-    {
-     "start": 230.7,
-     "end": 234.9,
-     "ja": "それではいきます。３、２、１、はい！",
-     "en": "Here we go. Three, two, one, now!",
-     "speaker": "Kimura Band"
-    },
-    {
-     "start": 237.4,
-     "end": 240.2,
-     "ja": "どうですか？ひとつになりましたか？",
-     "en": "How is it? Did they become one?",
-     "speaker": "Kimura Band"
-    },
-    {
-     "start": 240.2,
-     "end": 242.0,
-     "ja": "ひとつになりました。",
-     "en": "They became one.",
+     "start": 206.0,
+     "end": 208.5,
+     "ja": "阿部寛だー！",
+     "en": "It's Hiroshi Abe!",
      "speaker": "Akagi"
     },
     {
-     "start": 242.4,
-     "end": 243.6,
+     "start": 209.0,
+     "end": 210.0,
      "ja": "ごきげんよう。",
-     "en": "Good day.",
+     "en": "Good day to you.",
      "speaker": "Kimura Band"
     },
     {
-     "start": 243.6,
-     "end": 245.4,
-     "ja": "「ごきげんよう」って何ですか？",
-     "en": "What is with that \"Good day\"?",
+     "start": 210.2,
+     "end": 212.3,
+     "ja": "ごきげんよう。",
+     "en": "Good day to you.",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 212.5,
+     "end": 215.5,
+     "ja": "では、このまま次の催眠にいきましょう。",
+     "en": "Now then, let's move on to the next hypnosis as is.",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 215.6,
+     "end": 218.2,
+     "ja": "え、ごきげんようって何ですか？",
+     "en": "Wait, what's with 'good day'?",
      "speaker": "Akagi"
     }
    ]
@@ -183,5 +226,6 @@
  "pickTopics": [
   "comedy"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -1,0 +1,19 @@
+{
+ "videoId": "iIF5yJ61ZPg",
+ "ids": [
+  "iIF5yJ61ZPg-155"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "iIF5yJ61ZPg-155": {
+   "id": "iIF5yJ61ZPg-155",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear and simple pronunciation, but presented as a static vocabulary slide."
+  }
+ }
+}

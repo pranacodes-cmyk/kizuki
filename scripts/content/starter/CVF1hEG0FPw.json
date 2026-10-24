@@ -1,0 +1,30 @@
+{
+ "videoId": "CVF1hEG0FPw",
+ "ids": [
+  "CVF1hEG0FPw-13",
+  "CVF1hEG0FPw-398"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "CVF1hEG0FPw-398": {
+   "id": "CVF1hEG0FPw-398",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Casual morning vlog clip with clear speech and simple vocabulary."
+  },
+  "CVF1hEG0FPw-13": {
+   "id": "CVF1hEG0FPw-13",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Engaging travel vlog greeting introduces travel plans in natural Japanese."
+  }
+ }
+}

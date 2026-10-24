@@ -1,0 +1,19 @@
+{
+ "videoId": "N_hR2D1npBs",
+ "ids": [
+  "N_hR2D1npBs-49"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "N_hR2D1npBs-49": {
+   "id": "N_hR2D1npBs-49",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [],
+   "why": "Fast Kansai dialect stand-up storytelling about a musical performance."
+  }
+ }
+}

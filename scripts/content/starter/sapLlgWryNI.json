@@ -1,0 +1,30 @@
+{
+ "videoId": "sapLlgWryNI",
+ "ids": [
+  "sapLlgWryNI-27",
+  "sapLlgWryNI-43"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "sapLlgWryNI-43": {
+   "id": "sapLlgWryNI-43",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Engaging street interview with clear dialogue and subtitles."
+  },
+  "sapLlgWryNI-27": {
+   "id": "sapLlgWryNI-27",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Casual street interview format with natural conversational Japanese."
+  }
+ }
+}

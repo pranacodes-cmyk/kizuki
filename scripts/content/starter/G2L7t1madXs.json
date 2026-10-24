@@ -1,0 +1,19 @@
+{
+ "videoId": "G2L7t1madXs",
+ "ids": [
+  "G2L7t1madXs-6"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "G2L7t1madXs-6": {
+   "id": "G2L7t1madXs-6",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear slow beginner dialogue with helpful subtitles and pleasant illustration."
+  }
+ }
+}

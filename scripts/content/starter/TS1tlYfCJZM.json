@@ -1,0 +1,19 @@
+{
+ "videoId": "TS1tlYfCJZM",
+ "ids": [
+  "TS1tlYfCJZM-120"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "TS1tlYfCJZM-120": {
+   "id": "TS1tlYfCJZM-120",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Relatable comedic chat about food prices, though speech is casual and colloquial."
+  }
+ }
+}

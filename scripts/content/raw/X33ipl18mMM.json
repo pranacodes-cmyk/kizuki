@@ -1,108 +1,114 @@
 {
- "speech": "clear",
+ "speech": "some",
  "clips": [
   {
-   "start": 13.3,
-   "end": 24.8,
-   "title": "Explaining the Street Talk Project",
+   "start": 13.2,
+   "end": 24.5,
+   "title": "Explaining the Street Dice Mission",
    "level": "N3",
    "topics": [
-    "fun",
-    "comedy"
+    "comedy",
+    "fun"
    ],
    "grammar": [
-    "〜ていく/〜て出る — verb conjunction",
-    "〜なきゃいけない — must do"
+    "〜なきゃいけない — must / have to",
+    "〜ていう — called / that says"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 13.3,
-     "end": 15.5,
-     "ja": "色んな人と街に出て、",
-     "en": "We head out to the streets with different people,",
-     "speaker": "Nagai"
+     "start": 13.4,
+     "end": 15.3,
+     "ja": "いろんな人と街に出て、",
+     "en": "Going out into town with various people,",
+     "speaker": "永井"
     },
     {
-     "start": 15.6,
-     "end": 17.3,
-     "ja": "あの、お話をして、",
-     "en": "chat with them,",
-     "speaker": "Nagai"
+     "start": 15.3,
+     "end": 17.6,
+     "ja": "あの、お話をして、それで、",
+     "en": "having conversations, and then,",
+     "speaker": "永井"
     },
     {
-     "start": 17.4,
-     "end": 19.4,
-     "ja": "それで、あの、サイコロの目を",
-     "en": "and then whatever shows on the dice roll,",
-     "speaker": "Nagai"
+     "start": 17.6,
+     "end": 20.8,
+     "ja": "あの、サイコロの目を必ずミッションで、",
+     "en": "we always have to do a mission based on the roll of the dice,",
+     "speaker": "永井"
     },
     {
-     "start": 19.5,
-     "end": 21.0,
-     "ja": "必ずミッションで、",
-     "en": "we must fulfill as a mission,",
-     "speaker": "Nagai"
-    },
-    {
-     "start": 21.1,
-     "end": 23.0,
-     "ja": "その人と話さなきゃいけないという",
-     "en": "doing it while talking to that person,",
-     "speaker": "Nagai"
-    },
-    {
-     "start": 23.1,
-     "end": 24.8,
-     "ja": "企画をやってるんですけど、",
-     "en": "that's the project we're doing.",
-     "speaker": "Nagai"
+     "start": 20.8,
+     "end": 24.2,
+     "ja": "その人と話さなきゃいけないっていう企画をやってるんですけど、",
+     "en": "and talk to that person—that's the project we're doing,",
+     "speaker": "永井"
     }
    ]
   },
   {
    "start": 235.5,
-   "end": 251.5,
-   "title": "Foreigners Are So Friendly",
+   "end": 251.8,
+   "title": "Reflecting on the Friendly Encounter",
    "level": "N3",
    "topics": [
-    "daily",
     "comedy",
     "culture"
    ],
    "grammar": [
-    "〜というのは — speaking of / as for",
-    "〜てくれる — to do for someone"
+    "〜なんて — things like / such as",
+    "〜てくれる — to do as a favor"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 235.7,
-     "end": 237.3,
+     "start": 235.8,
+     "end": 237.4,
      "ja": "急に来たよ。",
-     "en": "That came out of nowhere!",
-     "speaker": "Nagai"
+     "en": "That came out of nowhere.",
+     "speaker": "永井"
     },
     {
-     "start": 237.5,
-     "end": 242.5,
-     "ja": "やっぱね、外国の人っていうのは、やっぱ気さくですね。",
-     "en": "As expected, foreigners really are open and friendly.",
-     "speaker": "Nagai"
+     "start": 237.8,
+     "end": 239.2,
+     "ja": "やっぱね、",
+     "en": "You know,",
+     "speaker": "永井"
     },
     {
-     "start": 243.5,
-     "end": 248.0,
-     "ja": "ひざ枕なんて、こんな秋葉原の真昼間からさせてくれませんよ。",
-     "en": "Nobody would usually let you use their lap as a pillow in broad daylight in Akihabara.",
-     "speaker": "Nagai"
+     "start": 239.2,
+     "end": 243.3,
+     "ja": "外国の人っていうのは、やっぱ気さくですね。",
+     "en": "foreigners really are so friendly and open.",
+     "speaker": "永井"
     },
     {
-     "start": 248.3,
+     "start": 243.4,
+     "end": 246.0,
+     "ja": "膝枕なんてこんな秋葉原の",
+     "en": "A lap pillow, right in the middle of",
+     "speaker": "永井"
+    },
+    {
+     "start": 246.0,
+     "end": 248.4,
+     "ja": "真っ昼間からさせてくれませんよ。",
+     "en": "broad daylight in Akihabara, nobody lets you do that!",
+     "speaker": "永井"
+    },
+    {
+     "start": 248.5,
+     "end": 250.5,
+     "ja": "それをさ、させてくれたよ、ミカライ。",
+     "en": "And yet he let me do it! Mikarai,",
+     "speaker": "永井"
+    },
+    {
+     "start": 250.5,
      "end": 251.5,
-     "ja": "それをさせてくれたミカライ、サンキュー！",
-     "en": "Nikolai, who let me do that, thank you!",
-     "speaker": "Nagai"
+     "ja": "サンキュー！",
+     "en": "thank you!",
+     "speaker": "永井"
     }
    ]
   }
@@ -111,5 +117,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

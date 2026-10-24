@@ -1,0 +1,19 @@
+{
+ "videoId": "qER-uSRCW_E",
+ "ids": [
+  "qER-uSRCW_E-9"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "qER-uSRCW_E-9": {
+   "id": "qER-uSRCW_E-9",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear, simple lines set in a cinematic youth drama."
+  }
+ }
+}

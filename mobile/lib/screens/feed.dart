@@ -83,7 +83,8 @@ class _FeedState extends State<_Feed> {
         if (lockedFrom != null && i >= lockedFrom!) return const _LimitCard();
         final clip = widget.content.byId[order[i]];
         if (clip == null) return const SizedBox.expand();
-        return ClipView(key: ValueKey(clip.id), clip: clip, content: widget.content, active: i == active, tourTargets: true, inFeed: true);
+        // The clip below is warmed up (player loaded, clip cued) so the next swipe starts fast.
+        return ClipView(key: ValueKey(clip.id), clip: clip, content: widget.content, active: i == active, warm: i == active + 1, tourTargets: true, inFeed: true);
       },
     );
   }

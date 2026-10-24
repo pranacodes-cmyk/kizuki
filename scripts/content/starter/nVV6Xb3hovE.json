@@ -1,0 +1,19 @@
+{
+ "videoId": "nVV6Xb3hovE",
+ "ids": [
+  "nVV6Xb3hovE-10"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "nVV6Xb3hovE-10": {
+   "id": "nVV6Xb3hovE-10",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear and polite introduction, though the visuals are just hands."
+  }
+ }
+}

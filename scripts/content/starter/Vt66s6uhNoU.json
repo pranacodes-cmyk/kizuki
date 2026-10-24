@@ -1,0 +1,30 @@
+{
+ "videoId": "Vt66s6uhNoU",
+ "ids": [
+  "Vt66s6uhNoU-41",
+  "Vt66s6uhNoU-462"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Vt66s6uhNoU-462": {
+   "id": "Vt66s6uhNoU-462",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute capybara graphic and simple, slow speech about hot springs."
+  },
+  "Vt66s6uhNoU-41": {
+   "id": "Vt66s6uhNoU-41",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear pronunciation and short sentences, though visually static illustration."
+  }
+ }
+}

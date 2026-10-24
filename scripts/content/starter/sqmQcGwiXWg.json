@@ -1,0 +1,19 @@
+{
+ "videoId": "sqmQcGwiXWg",
+ "ids": [
+  "sqmQcGwiXWg-525"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "sqmQcGwiXWg-525": {
+   "id": "sqmQcGwiXWg-525",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Engaging and clear street interview discussing Detective Conan."
+  }
+ }
+}

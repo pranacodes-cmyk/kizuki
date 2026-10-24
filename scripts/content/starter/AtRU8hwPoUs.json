@@ -1,0 +1,19 @@
+{
+ "videoId": "AtRU8hwPoUs",
+ "ids": [
+  "AtRU8hwPoUs-733"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "AtRU8hwPoUs-733": {
+   "id": "AtRU8hwPoUs-733",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear and slow repetition for learners, but a basic talking-head setup."
+  }
+ }
+}

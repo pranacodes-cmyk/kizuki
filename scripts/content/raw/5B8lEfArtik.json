@@ -4,15 +4,16 @@
   {
    "start": 12.3,
    "end": 34.5,
-   "title": "Have You Ever Traveled to Japan Alone?",
-   "level": "N5",
+   "title": "Traveling to Japan Alone",
+   "level": "N4",
    "topics": [
     "travel",
     "culture"
    ],
    "grammar": [
-    "〜たことがある — have experienced doing",
-    "〜のに — for the purpose of"
+    "〜たことがある — have experienced",
+    "〜のに — for the purpose of",
+    "〜と思う — think that"
    ],
    "quality": 5,
    "lines": [
@@ -24,7 +25,7 @@
      "speaker": "Mei"
     },
     {
-     "start": 20.5,
+     "start": 20.2,
      "end": 24.5,
      "ja": "または行く予定はありますか？",
      "en": "Or do you have plans to go?",
@@ -32,62 +33,69 @@
     },
     {
      "start": 25.5,
+     "end": 29.5,
+     "ja": "日本は一人で行くのにいい場所、",
+     "en": "Do you think Japan is a good place,",
+     "speaker": "Mei"
+    },
+    {
+     "start": 30.0,
      "end": 34.0,
-     "ja": "日本は一人で行くのにいい場所、いい国だと思いますか？",
-     "en": "Do you think Japan is a good place, a good country to visit alone?",
+     "ja": "いい国だと思いますか？",
+     "en": "a good country to go by yourself?",
      "speaker": "Mei"
     }
    ]
   },
   {
    "start": 151.8,
-   "end": 211.5,
-   "title": "Learning the Word Hitoritabi",
-   "level": "N4",
+   "end": 211.8,
+   "title": "The Meaning of Hitoritabi",
+   "level": "N5",
    "topics": [
     "travel",
-    "culture"
+    "daily"
    ],
    "grammar": [
-    "〜と言う — to be called",
-    "〜とか言う — to say things like"
+    "〜と言う — called / to say",
+    "〜とか — things like / or"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 152.0,
+     "start": 151.8,
      "end": 156.5,
      "ja": "ちなみに一人で旅行に行くことを",
-     "en": "By the way, traveling alone...",
+     "en": "By the way, traveling alone",
      "speaker": "Mei"
     },
     {
      "start": 156.8,
      "end": 202.5,
-     "ja": "「一人旅」「一人旅」と言います。",
-     "en": "...is called \"hitoritabi\".",
+     "ja": "「ひとり旅」、「ひとり旅」と言います。",
+     "en": "is called \"hitoritabi\", \"hitoritabi\".",
      "speaker": "Mei"
     },
     {
      "start": 203.0,
-     "end": 206.8,
-     "ja": "「一人旅をする」とか言います。",
-     "en": "You say things like \"hitoritabi o suru\".",
+     "end": 207.0,
+     "ja": "「ひとり旅をする」とか言います。",
+     "en": "You can say things like \"to go on a solo trip\".",
      "speaker": "Mei"
     },
     {
-     "start": 208.0,
-     "end": 211.0,
-     "ja": "日本に一人旅をする。",
-     "en": "For example, \"to travel alone to Japan\".",
+     "start": 207.8,
+     "end": 211.5,
+     "ja": "日本にひとり旅をする。",
+     "en": "Take a solo trip to Japan.",
      "speaker": "Mei"
     }
    ]
   },
   {
-   "start": 728.5,
-   "end": 753.5,
-   "title": "What Does Oshikatsu Mean?",
+   "start": 728.8,
+   "end": 751.5,
+   "title": "What Is Oshikatsu?",
    "level": "N3",
    "topics": [
     "culture",
@@ -95,37 +103,44 @@
     "fun"
    ],
    "grammar": [
-    "〜に行く — to go do something",
-    "〜たりする — doing things like..."
+    "〜って — topic marker / quoting",
+    "〜たりする — doing things like"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 729.0,
-     "end": 737.8,
-     "ja": "なんか日本は、最近「推し活」って流行ってますよね。",
-     "en": "\"Oshikatsu\" has been popular in Japan lately, hasn't it?",
+     "start": 728.8,
+     "end": 734.5,
+     "ja": "なんか日本は、最近「推し活」、",
+     "en": "In Japan, recently \"oshikatsu\",",
      "speaker": "Mei"
     },
     {
-     "start": 738.2,
-     "end": 742.5,
-     "ja": "なんかあの好きな、えっと、何でもいいんですけど、",
-     "en": "Like, a favorite... well, anything is fine, but...",
+     "start": 734.8,
+     "end": 738.8,
+     "ja": "「推し活」って流行ってますよね。",
+     "en": "\"oshikatsu\" has been trendy, hasn't it?",
      "speaker": "Mei"
     },
     {
-     "start": 742.8,
-     "end": 751.0,
-     "ja": "好きな漫画のキャラクターとか、好きなアイドルとかに会いに行ったりすること、",
-     "en": "...it means going to see your favorite manga character, idol, or the like.",
+     "start": 739.2,
+     "end": 742.0,
+     "ja": "なんかあの好きな... えっと、",
+     "en": "Like, supporting someone you like... well,",
      "speaker": "Mei"
     },
     {
-     "start": 751.3,
-     "end": 753.0,
-     "ja": "あの、まぁ、何でもいいんですけど、",
-     "en": "Well, anything works, really.",
+     "start": 742.2,
+     "end": 745.8,
+     "ja": "なんでもいいんですけど、好きな漫画のキャラクターとか、",
+     "en": "anything is fine, like your favorite manga character,",
+     "speaker": "Mei"
+    },
+    {
+     "start": 746.0,
+     "end": 751.2,
+     "ja": "好きなアイドルとかに会いに行ったりすること、",
+     "en": "or going to see your favorite idol...",
      "speaker": "Mei"
     }
    ]
@@ -135,5 +150,6 @@
  "pickTopics": [
   "travel"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -1,0 +1,19 @@
+{
+ "videoId": "WzLNtegoIG0",
+ "ids": [
+  "WzLNtegoIG0-106"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "WzLNtegoIG0-106": {
+   "id": "WzLNtegoIG0-106",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute dog interaction with simple, repeated everyday Japanese words."
+  }
+ }
+}

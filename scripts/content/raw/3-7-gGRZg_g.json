@@ -2,134 +2,148 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 11.5,
-   "end": 22.8,
-   "title": "All-You-Can-Eat Ramen Buffet",
-   "level": "N4",
-   "topics": [
-    "food",
-    "travel"
-   ],
-   "grammar": [
-    "〜にあります — to be located at",
-    "〜にお邪魔する — to visit (polite)"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 11.7,
-     "end": 14.1,
-     "ja": "というわけで、今日は浅草にあります、",
-     "en": "And so, today we are in Asakusa,",
-     "speaker": "Haiji"
-    },
-    {
-     "start": 14.2,
-     "end": 16.1,
-     "ja": "なんとこちら、ラーメン…",
-     "en": "at none other than this ramen...",
-     "speaker": "Haiji"
-    },
-    {
-     "start": 16.2,
-     "end": 18.7,
-     "ja": "ペロン！食べ放題のお店！",
-     "en": "Ta-da! An all-you-can-eat restaurant!",
-     "speaker": "Haiji"
-    },
-    {
-     "start": 18.9,
-     "end": 22.4,
-     "ja": "ラーメンビュッフェ豚さんにお邪魔しております！",
-     "en": "We are visiting the Ramen Buffet Buta-san!",
-     "speaker": "Haiji"
-    }
-   ]
-  },
-  {
-   "start": 139.5,
-   "end": 153.0,
-   "title": "Tasting the Tonkotsu Broth",
+   "start": 36.7,
+   "end": 48.2,
+   "title": "Checking Out an All-You-Can-Eat Ramen Shop",
    "level": "N4",
    "topics": [
     "food",
     "fun"
    ],
    "grammar": [
-    "〜てみる — try doing something",
-    "〜め — on the ... side / somewhat"
+    "〜てみる — to try doing",
+    "〜ないんですか — negative question confirming info"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 139.7,
+     "start": 36.8,
+     "end": 39.0,
+     "ja": "ラーメン食べ放題、珍しいですよね？",
+     "en": "All-you-can-eat ramen is pretty rare, isn't it?",
+     "speaker": "Haiji"
+    },
+    {
+     "start": 39.0,
+     "end": 40.1,
+     "ja": "珍しい。",
+     "en": "It is rare.",
+     "speaker": "Takenaga"
+    },
+    {
+     "start": 40.2,
+     "end": 42.4,
+     "ja": "初めて見ました、僕、はっきり言って。",
+     "en": "To be honest, it's the first time I've ever seen one.",
+     "speaker": "Haiji"
+    },
+    {
+     "start": 42.5,
+     "end": 44.2,
+     "ja": "なので、どんなお店か分かんないんで、",
+     "en": "So, since we don't know what kind of shop it is,",
+     "speaker": "Haiji"
+    },
+    {
+     "start": 44.3,
+     "end": 46.4,
+     "ja": "早速、システムだけでもチェックしに行きましょう！",
+     "en": "let's go check out at least their system right away!",
+     "speaker": "Haiji"
+    },
+    {
+     "start": 46.5,
+     "end": 48.0,
+     "ja": "食べないんですか？",
+     "en": "You're not going to eat?",
+     "speaker": "Takenaga"
+    }
+   ]
+  },
+  {
+   "start": 139.7,
+   "end": 153.3,
+   "title": "Tasting the Tonkotsu Broth",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜てみる — to try doing",
+    "〜め — somewhat / -ish"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 140.0,
      "end": 141.8,
      "ja": "スープから飲んでみましょう。",
-     "en": "Let's try tasting the soup first.",
+     "en": "Let's try drinking the soup first.",
      "speaker": "Haiji"
     },
     {
      "start": 142.0,
-     "end": 143.0,
+     "end": 142.8,
      "ja": "よいしょ。",
      "en": "Here we go.",
      "speaker": "Haiji"
     },
     {
-     "start": 143.2,
-     "end": 144.5,
+     "start": 143.1,
+     "end": 144.2,
      "ja": "いただきます。",
-     "en": "Bon appetit.",
+     "en": "Bon appétit.",
      "speaker": "Haiji"
     },
     {
-     "start": 146.3,
-     "end": 147.9,
+     "start": 146.1,
+     "end": 147.8,
      "ja": "あ、濃いめの豚骨スープ。",
-     "en": "Oh, it's quite a rich tonkotsu broth.",
+     "en": "Ah, it's a rich tonkotsu broth.",
      "speaker": "Haiji"
     },
     {
      "start": 148.0,
-     "end": 149.2,
-     "ja": "結構濃いっすね。",
-     "en": "It's pretty rich, isn't it?",
-     "speaker": "Friend"
+     "end": 149.8,
+     "ja": "結構濃厚っすよね、豚骨。",
+     "en": "It's quite rich, isn't it, the pork bone?",
+     "speaker": "Takenaga"
     },
     {
-     "start": 149.3,
-     "end": 149.9,
+     "start": 149.9,
+     "end": 150.4,
      "ja": "ね。",
      "en": "Yeah.",
      "speaker": "Haiji"
     },
     {
-     "start": 150.0,
-     "end": 151.1,
-     "ja": "いいね、これ。",
-     "en": "This is good.",
-     "speaker": "Friend"
+     "start": 150.5,
+     "end": 151.3,
+     "ja": "いいね。",
+     "en": "Nice.",
+     "speaker": "Takenaga"
     },
     {
-     "start": 151.2,
-     "end": 152.4,
-     "ja": "普通に美味しいですね。",
-     "en": "It's actually really tasty.",
-     "speaker": "Friend"
-    },
-    {
-     "start": 152.5,
-     "end": 153.0,
-     "ja": "美味しいね。",
-     "en": "It is good.",
+     "start": 151.4,
+     "end": 152.3,
+     "ja": "普通に美味しいですよ。",
+     "en": "It's genuinely tasty.",
      "speaker": "Haiji"
+    },
+    {
+     "start": 152.4,
+     "end": 153.2,
+     "ja": "美味しいね。",
+     "en": "It's good.",
+     "speaker": "Takenaga"
     }
    ]
   },
   {
    "start": 328.0,
    "end": 341.2,
-   "title": "Ramen as the Main and the Closer",
+   "title": "Ramen for the Finale?",
    "level": "N3",
    "topics": [
     "food",
@@ -137,57 +151,63 @@
     "friends"
    ],
    "grammar": [
-    "結構〜 — quite / considerably",
-    "〜をおかずに — having ... as a side dish",
-    "流石 — as expected / true to form"
+    "〜をおかずに — as a side dish to",
+    "流石 — as expected of"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 328.5,
-     "end": 330.2,
-     "ja": "もう結構俺ら経ってる？",
-     "en": "Has a lot of time passed for us already?",
+     "end": 329.4,
+     "ja": "うーん。",
+     "en": "Mmm.",
      "speaker": "Haiji"
     },
     {
-     "start": 330.3,
-     "end": 331.8,
-     "ja": "30分くらい経ってる。",
-     "en": "About 30 minutes have passed.",
-     "speaker": "Friend 1"
+     "start": 329.5,
+     "end": 330.8,
+     "ja": "もう結構俺ら経ってる？",
+     "en": "Has a lot of time passed for us already?",
+     "speaker": "Takenaga"
     },
     {
-     "start": 331.9,
-     "end": 333.1,
+     "start": 331.0,
+     "end": 332.4,
+     "ja": "30分ぐらい経ってる？",
+     "en": "Has it been about 30 minutes?",
+     "speaker": "Haiji"
+    },
+    {
+     "start": 332.5,
+     "end": 333.4,
      "ja": "経ってるよね、絶対。",
      "en": "It definitely has.",
-     "speaker": "Friend 2"
+     "speaker": "Takenaga"
     },
     {
-     "start": 333.3,
-     "end": 335.6,
+     "start": 333.5,
+     "end": 335.3,
      "ja": "シメのラーメン行きますか？シメのラーメン。",
-     "en": "Should we get the finale ramen? A closing ramen.",
-     "speaker": "Friend 1"
+     "en": "Shall we go for the finale ramen? The closing ramen.",
+     "speaker": "Takenaga"
     },
     {
      "start": 335.8,
-     "end": 338.3,
+     "end": 338.2,
      "ja": "ラーメンをおかずに食べて、シメにラーメン食べる？",
-     "en": "You ate ramen as a side dish and now you're ending on ramen?",
+     "en": "We ate ramen as a side dish, and now eat ramen for the finish?",
      "speaker": "Haiji"
     },
     {
      "start": 338.4,
      "end": 339.8,
-     "ja": "シメにラーメン、戻れる。",
-     "en": "Finishing with ramen, back to the start.",
-     "speaker": "Friend 1"
+     "ja": "シメにラーメン。",
+     "en": "Ramen for the finale.",
+     "speaker": "Takenaga"
     },
     {
      "start": 339.9,
-     "end": 340.9,
+     "end": 341.0,
      "ja": "流石だね。",
      "en": "Impressive as always.",
      "speaker": "Haiji"
@@ -200,5 +220,6 @@
   "food",
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

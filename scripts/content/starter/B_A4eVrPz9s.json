@@ -1,0 +1,32 @@
+{
+ "videoId": "B_A4eVrPz9s",
+ "ids": [
+  "B_A4eVrPz9s-73",
+  "B_A4eVrPz9s-861"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "B_A4eVrPz9s-861": {
+   "id": "B_A4eVrPz9s-861",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "end screen banner"
+   ],
+   "why": "Cute toddler interaction with parents, though child speech is slightly unclear."
+  },
+  "B_A4eVrPz9s-73": {
+   "id": "B_A4eVrPz9s-73",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Relatable, natural conversation about parenting with clear audio and photo insert."
+  }
+ }
+}

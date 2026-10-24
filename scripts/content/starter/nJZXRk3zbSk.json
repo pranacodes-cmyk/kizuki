@@ -1,0 +1,30 @@
+{
+ "videoId": "nJZXRk3zbSk",
+ "ids": [
+  "nJZXRk3zbSk-144",
+  "nJZXRk3zbSk-27"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "nJZXRk3zbSk-27": {
+   "id": "nJZXRk3zbSk-27",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear vocabulary about bento food accompanied by static slide visuals."
+  },
+  "nJZXRk3zbSk-144": {
+   "id": "nJZXRk3zbSk-144",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Calm narration about evening blossoms, but visually static for beginners."
+  }
+ }
+}

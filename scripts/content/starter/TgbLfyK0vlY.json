@@ -1,0 +1,30 @@
+{
+ "videoId": "TgbLfyK0vlY",
+ "ids": [
+  "TgbLfyK0vlY-202",
+  "TgbLfyK0vlY-6"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "TgbLfyK0vlY-6": {
+   "id": "TgbLfyK0vlY-6",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous anime interaction with expressive delivery and simple premise."
+  },
+  "TgbLfyK0vlY-202": {
+   "id": "TgbLfyK0vlY-202",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Interactive quiz with clear, slow enunciation suited for beginners."
+  }
+ }
+}

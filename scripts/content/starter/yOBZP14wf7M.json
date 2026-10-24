@@ -1,0 +1,19 @@
+{
+ "videoId": "yOBZP14wf7M",
+ "ids": [
+  "yOBZP14wf7M-21"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "yOBZP14wf7M-21": {
+   "id": "yOBZP14wf7M-21",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear beginner questions, though the visual is a static slide."
+  }
+ }
+}

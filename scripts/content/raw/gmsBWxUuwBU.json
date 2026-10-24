@@ -1,47 +1,10 @@
 {
- "speech": "some",
- "clips": [
-  {
-   "start": 831.0,
-   "end": 842.2,
-   "title": "Looking at the Mini Sushi",
-   "level": "N4",
-   "topics": [
-    "food",
-    "daily"
-   ],
-   "grammar": [
-    "〜みたい — looks like / resembles"
-   ],
-   "quality": 3,
-   "lines": [
-    {
-     "start": 831.4,
-     "end": 836.5,
-     "ja": "えんがわ、カニ、赤貝、ほっき貝。",
-     "en": "Fluke fin, crab, red clam, surf clam.",
-     "speaker": "A"
-    },
-    {
-     "start": 838.6,
-     "end": 840.4,
-     "ja": "おままごとのお寿司みたい。",
-     "en": "It looks like play-doh sushi.",
-     "speaker": "B"
-    },
-    {
-     "start": 840.6,
-     "end": 841.6,
-     "ja": "うん。",
-     "en": "Yeah.",
-     "speaker": "A"
-    }
-   ]
-  }
- ],
+ "speech": "none",
+ "clips": [],
  "videoId": "gmsBWxUuwBU",
  "pickTopics": [
   "school"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

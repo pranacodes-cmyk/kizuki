@@ -1,0 +1,19 @@
+{
+ "videoId": "is4BOvzT2VE",
+ "ids": [
+  "is4BOvzT2VE-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "is4BOvzT2VE-0": {
+   "id": "is4BOvzT2VE-0",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Enthusiastic kids quiz intro with clear voiceover and colorful visuals."
+  }
+ }
+}

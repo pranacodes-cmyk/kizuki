@@ -63,7 +63,7 @@ class _SavedWordSheetState extends State<SavedWordSheet> {
     final clip = content?.byId[w.clipId];
     final level = wordLevel(status: w.status, card: w.card);
     final now = DateTime.now().millisecondsSinceEpoch;
-    final review = level >= 1 && level <= 4 ? (w.card.due <= now ? 'Review now' : 'Next review in ${formatInterval(w.card.due - now)}') : null;
+    final review = level >= 1 && level <= 4 ? (w.card.due <= now ? 'Practice now' : 'Next practice ${formatWhen(w.card.due - now)}') : null;
     void close() => Navigator.of(context).pop();
 
     return SingleChildScrollView(

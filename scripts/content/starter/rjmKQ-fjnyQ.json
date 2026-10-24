@@ -1,0 +1,19 @@
+{
+ "videoId": "rjmKQ-fjnyQ",
+ "ids": [
+  "rjmKQ-fjnyQ-165"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "rjmKQ-fjnyQ-165": {
+   "id": "rjmKQ-fjnyQ-165",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear beginner Japanese introducing cherry blossoms in a scenic park."
+  }
+ }
+}

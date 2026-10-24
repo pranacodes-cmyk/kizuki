@@ -3,106 +3,104 @@
  "clips": [
   {
    "start": 1.0,
-   "end": 11.8,
-   "title": "Welcome to Hotel Japanese Lesson",
-   "level": "N4",
+   "end": 11.9,
+   "title": "Introduction to Hotel Phrases",
+   "level": "N5",
    "topics": [
     "travel",
-    "culture"
+    "school"
    ],
    "grammar": [
-    "〜ましょう — let's"
+    "〜ましょう — let's do"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 1.3,
-     "end": 4.7,
-     "ja": "皆さんこんにちは。日本語教師の未来です。",
-     "en": "Hello everyone. I'm Mirai, a Japanese teacher.",
+     "end": 4.6,
+     "ja": "皆さんこんにちは、日本語教師の未来です。",
+     "en": "Hello everyone, I'm Mirai, a Japanese teacher.",
      "speaker": "Mirai"
     },
     {
-     "start": 5.1,
-     "end": 11.3,
+     "start": 5.4,
+     "end": 11.4,
      "ja": "今日は一緒に旅行で役立つ、ホテルで使う日本語を練習しましょう。",
-     "en": "Today, let's practice Japanese phrases useful for travel to use at hotels.",
+     "en": "Today, let's practice Japanese useful for travel at a hotel together.",
      "speaker": "Mirai"
     }
    ]
   },
   {
-   "start": 1102.8,
-   "end": 1120.5,
-   "title": "Asking for Restaurant Recommendations",
+   "start": 17.8,
+   "end": 33.6,
+   "title": "Reserving a Room for the Weekend",
+   "level": "N5",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "〜たいのですが — I'd like to (softening)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 18.2,
+     "end": 23.8,
+     "ja": "来週の金曜日と土曜日に部屋を予約したいのですが。",
+     "en": "I'd like to reserve a room for next Friday and Saturday.",
+     "speaker": "Mirai"
+    },
+    {
+     "start": 27.4,
+     "end": 33.0,
+     "ja": "来週の金曜日と土曜日に部屋を予約したいのですが。",
+     "en": "I'd like to reserve a room for next Friday and Saturday.",
+     "speaker": "Mirai"
+    }
+   ]
+  },
+  {
+   "start": 737.4,
+   "end": 761.3,
+   "title": "Lesson Wrap-up and Farewell",
    "level": "N4",
    "topics": [
     "travel",
-    "food"
+    "school"
    ],
    "grammar": [
-    "〜ていただきたい — would like someone to do",
-    "〜のですが — softening sentence end"
+    "〜たら — if / when",
+    "〜ましょう — let's do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1103.2,
-     "end": 1110.2,
-     "ja": "素敵なレストランを教えていただきたいのですが。",
-     "en": "I'm wondering if you could recommend a nice restaurant.",
-     "speaker": "Mirai"
-    },
-    {
-     "start": 1112.7,
-     "end": 1119.8,
-     "ja": "素敵なレストランを教えていただきたいのですが。",
-     "en": "I'm wondering if you could recommend a nice restaurant.",
-     "speaker": "Mirai"
-    }
-   ]
-  },
-  {
-   "start": 1217.5,
-   "end": 1241.5,
-   "title": "Wrapping Up the Lesson",
-   "level": "N4",
-   "topics": [
-    "culture",
-    "daily"
-   ],
-   "grammar": [
-    "〜たら — if/when",
-    "〜ましょう — let's"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 1218.0,
-     "end": 1220.4,
+     "start": 737.8,
+     "end": 740.6,
      "ja": "今日のレッスンはここまでです。",
      "en": "That's all for today's lesson.",
      "speaker": "Mirai"
     },
     {
-     "start": 1220.9,
-     "end": 1225.0,
+     "start": 740.9,
+     "end": 744.8,
      "ja": "ホテルで使う日本語、分かりましたか？",
      "en": "Did you understand the Japanese used at hotels?",
      "speaker": "Mirai"
     },
     {
-     "start": 1229.4,
-     "end": 1235.8,
-     "ja": "このレッスンが役に立ったと思ったら、いいねとチャンネル登録をお願いします。",
-     "en": "If you thought this lesson was helpful, please like and subscribe to the channel.",
+     "start": 749.7,
+     "end": 755.9,
+     "ja": "このレッスンが役に立ったと思ったら、「いいね」とチャンネル登録をお願いします。",
+     "en": "If you found this lesson helpful, please like and subscribe to the channel.",
      "speaker": "Mirai"
     },
     {
-     "start": 1236.8,
-     "end": 1240.8,
-     "ja": "ではまた、次のレッスンでお会いしましょう。",
-     "en": "See you again in the next lesson.",
+     "start": 757.0,
+     "end": 760.8,
+     "ja": "ではまた次のレッスンでお会いしましょう。",
+     "en": "Well then, let's meet again in the next lesson.",
      "speaker": "Mirai"
     }
    ]
@@ -112,5 +110,6 @@
  "pickTopics": [
   "travel"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

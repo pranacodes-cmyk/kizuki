@@ -1,0 +1,19 @@
+{
+ "videoId": "gdDlz6SaT4Q",
+ "ids": [
+  "gdDlz6SaT4Q-87"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "gdDlz6SaT4Q-87": {
+   "id": "gdDlz6SaT4Q-87",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Casual teenage conversation showing cute keychains on a bus."
+  }
+ }
+}

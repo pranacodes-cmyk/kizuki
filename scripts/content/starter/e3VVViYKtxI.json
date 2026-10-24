@@ -1,0 +1,19 @@
+{
+ "videoId": "e3VVViYKtxI",
+ "ids": [
+  "e3VVViYKtxI-442"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "e3VVViYKtxI-442": {
+   "id": "e3VVViYKtxI-442",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear audio and repetitive, simple vocabulary suitable for beginners."
+  }
+ }
+}

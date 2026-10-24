@@ -1,0 +1,30 @@
+{
+ "videoId": "fr0BHb2V55w",
+ "ids": [
+  "fr0BHb2V55w-655",
+  "fr0BHb2V55w-794"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "fr0BHb2V55w-794": {
+   "id": "fr0BHb2V55w-794",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Practical daily transaction dialogue with natural pacing and clear audio."
+  },
+  "fr0BHb2V55w-655": {
+   "id": "fr0BHb2V55w-655",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Realistic cafe ordering interaction with menu context and polite phrases."
+  }
+ }
+}

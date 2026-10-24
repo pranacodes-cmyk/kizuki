@@ -1,0 +1,19 @@
+{
+ "videoId": "YOcEPbzi8Wo",
+ "ids": [
+  "YOcEPbzi8Wo-27"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "YOcEPbzi8Wo-27": {
+   "id": "YOcEPbzi8Wo-27",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, relaxed conversation using simple daily vocabulary about a scenic trip."
+  }
+ }
+}

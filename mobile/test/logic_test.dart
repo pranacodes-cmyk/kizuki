@@ -59,14 +59,25 @@ void main() {
       expect(clipWindowAvailable(231.6, 247.4, 301), true);
       expect(clipWindowAvailable(303.1, 316.8, 0), true);
     });
-    test('every onboarding preview starts with the same showcase without duplicates', () {
-      for (final order in [['a-1', '0dBf_DAXNuc-6'], ['b-1', 'a-1']]) {
-        final result = onboardingFeedOrder(order, ['0dBf_DAXNuc-6', ...order]);
-        expect(result.first, '0dBf_DAXNuc-6');
-        expect(result.where((id) => id == '0dBf_DAXNuc-6').length, 1);
-        expect(result.skip(1).toList(), order.where((id) => id != '0dBf_DAXNuc-6').toList());
-      }
-      expect(onboardingFeedOrder(['a-1'], ['a-1']), ['a-1']);
+    group('starter feed', () {
+      const starter = <StarterClip>[(id: '0dBf_DAXNuc-6', level: 'N5'), (id: 's-2', level: 'N5'), (id: 's-3', level: 'N4'), (id: 'gone-1', level: 'N5')];
+      final personal = ['p-1', 's-3', 'p-2', '0dBf_DAXNuc-6', 's-2'];
+      test('everyone starts with the curated clips in order, then their personal feed without repeats', () {
+        expect(starterFeedOrder(personal, starter), ['0dBf_DAXNuc-6', 's-2', 's-3', 'p-1', 'p-2']);
+      });
+      test('watched starter clips leave the lead (personal ranking places them); missing ones are ignored', () {
+        expect(starterFeedOrder(personal, starter, seen: {'0dBf_DAXNuc-6': 1}, watched: 1), ['s-2', 's-3', 'p-1', 'p-2', '0dBf_DAXNuc-6']);
+      });
+      test('advanced learners skip starters more than two levels easier', () {
+        expect(starterFeedOrder(personal, starter, jlpt: 'N3'), ['0dBf_DAXNuc-6', 's-2', 's-3', 'p-1', 'p-2']);
+        expect(starterFeedOrder(personal, starter, jlpt: 'N2'), ['s-3', 'p-1', 'p-2', '0dBf_DAXNuc-6', 's-2']);
+        expect(starterFeedOrder(personal, starter, jlpt: 'N1'), personal);
+      });
+      test('after 60 watched clips the feed is fully personal', () {
+        expect(starterWatchLimit, 60);
+        expect(starterFeedOrder(personal, starter, watched: 59).first, '0dBf_DAXNuc-6');
+        expect(starterFeedOrder(personal, starter, watched: 60), personal);
+      });
     });
     test('hashes like the web client', () {
       expect(fnv1a('a'), 3826002220);
@@ -142,6 +153,18 @@ void main() {
       expect(formatInterval(60 * dayMs), '2mo');
       expect(nextIntervalLabel(newCard(now), 'again', now), '1m');
       expect(nextIntervalLabel(newCard(now), 'good', now), '10m');
+    });
+    test('says when a word comes back in plain words (no "10m" codes)', () {
+      expect(formatWhen(0), 'now');
+      expect(formatWhen(-5000), 'now');
+      expect(formatWhen(30000), 'in under a minute');
+      expect(formatWhen(minuteMs), 'in 1 minute');
+      expect(formatWhen(10 * minuteMs), 'in 10 minutes');
+      expect(formatWhen(3 * 3600000), 'in 3 hours');
+      expect(formatWhen(dayMs), 'tomorrow');
+      expect(formatWhen(3 * dayMs), 'in 3 days');
+      expect(formatWhen(60 * dayMs), 'in 2 months');
+      expect(formatWhen(400 * dayMs), 'in 1 year');
     });
     test('words become known automatically after 21 days interval', () {
       final c = newCard(now).copyWith(state: 'review', interval: 21);

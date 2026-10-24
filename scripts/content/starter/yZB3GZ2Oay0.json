@@ -1,0 +1,19 @@
+{
+ "videoId": "yZB3GZ2Oay0",
+ "ids": [
+  "yZB3GZ2Oay0-35"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "yZB3GZ2Oay0-35": {
+   "id": "yZB3GZ2Oay0-35",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute storybook opening with clear, gentle narration and simple phrasing."
+  }
+ }
+}

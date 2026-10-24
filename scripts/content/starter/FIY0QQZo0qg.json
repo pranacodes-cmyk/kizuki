@@ -1,0 +1,30 @@
+{
+ "videoId": "FIY0QQZo0qg",
+ "ids": [
+  "FIY0QQZo0qg-105",
+  "FIY0QQZo0qg-23"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "FIY0QQZo0qg-105": {
+   "id": "FIY0QQZo0qg-105",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear family vocabulary presentation, but static slide format lacks excitement."
+  },
+  "FIY0QQZo0qg-23": {
+   "id": "FIY0QQZo0qg-23",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple vocabulary with clear pronunciation, though repetitive and visually basic."
+  }
+ }
+}

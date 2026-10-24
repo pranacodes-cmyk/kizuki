@@ -1,0 +1,19 @@
+{
+ "videoId": "FH-B7Y4-BcA",
+ "ids": [
+  "FH-B7Y4-BcA-410"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "FH-B7Y4-BcA-410": {
+   "id": "FH-B7Y4-BcA-410",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Natural casual conversation about lunch plans with clear visual context."
+  }
+ }
+}

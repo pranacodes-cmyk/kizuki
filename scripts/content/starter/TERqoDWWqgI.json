@@ -1,0 +1,32 @@
+{
+ "videoId": "TERqoDWWqgI",
+ "ids": [
+  "TERqoDWWqgI-128",
+  "TERqoDWWqgI-74"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "TERqoDWWqgI-74": {
+   "id": "TERqoDWWqgI-74",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "starts mid-sentence"
+   ],
+   "why": "Clear conversation before the match, but starts slightly abruptly."
+  },
+  "TERqoDWWqgI-128": {
+   "id": "TERqoDWWqgI-128",
+   "appeal": 4,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [],
+   "why": "Topic announcement with formal debate terminology and fast narration."
+  }
+ }
+}

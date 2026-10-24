@@ -1,0 +1,30 @@
+{
+ "videoId": "M8T2nuCCfHY",
+ "ids": [
+  "M8T2nuCCfHY-189",
+  "M8T2nuCCfHY-846"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "M8T2nuCCfHY-189": {
+   "id": "M8T2nuCCfHY-189",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Cozy home cooking showcase with authentic family conversation."
+  },
+  "M8T2nuCCfHY-846": {
+   "id": "M8T2nuCCfHY-846",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Charming moment sharing Japanese dango sweets together."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "BndVbfCWSXs",
+ "ids": [
+  "BndVbfCWSXs-23"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "BndVbfCWSXs-23": {
+   "id": "BndVbfCWSXs-23",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear and simple speech, but a dry slide presentation."
+  }
+ }
+}

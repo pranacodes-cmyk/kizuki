@@ -2,60 +2,92 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 7.0,
+   "start": 6.7,
    "end": 22.8,
-   "title": "The Final Battle Begins Tonight",
+   "title": "The Final Battle",
    "level": "N3",
    "topics": [
     "anime"
    ],
    "grammar": [
-    "という — called / that says",
-    "かもしれない — might / perhaps"
+    "〜という — called / that",
+    "〜かもしれない — might / perhaps"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 7.3,
-     "end": 11.8,
+     "start": 6.9,
+     "end": 12.2,
      "ja": "最終局面という言葉が何度も頭をよぎる。",
-     "en": "The words 'final phase' cross my mind again and again.",
+     "en": "The words \"final phase\" cross my mind time and time again.",
      "speaker": "Narrator"
     },
     {
-     "start": 18.5,
+     "start": 18.4,
      "end": 22.4,
      "ja": "この長い戦いが今夜終わるかもしれない。",
-     "en": "This long battle might finally end tonight.",
+     "en": "This long battle might come to an end tonight.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 111.3,
-   "end": 118.5,
-   "title": "Time for the Banquet",
-   "level": "N4",
+   "start": 37.8,
+   "end": 53.6,
+   "title": "A Long-Awaited Reunion",
+   "level": "N5",
    "topics": [
-    "anime"
+    "anime",
+    "friends"
    ],
    "grammar": [
-    "〜ようか — shall we (volitional)"
+    "〜ね — isn't it? / right?",
+    "久しぶり — long time no see"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 111.8,
-     "end": 114.5,
+     "start": 38.1,
+     "end": 40.7,
+     "ja": "いい夜だね。",
+     "en": "It's a nice night, isn't it?",
+     "speaker": "Doma"
+    },
+    {
+     "start": 48.9,
+     "end": 53.3,
+     "ja": "久しぶりだなあ、善逸。",
+     "en": "Long time no see, Zenitsu.",
+     "speaker": "Kaigaku"
+    }
+   ]
+  },
+  {
+   "start": 71.6,
+   "end": 78.6,
+   "title": "Banquet Time",
+   "level": "N5",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜ようか — shall we",
+    "〜の時間 — time for..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 72.0,
+     "end": 74.4,
      "ja": "さあ、始めようか。",
-     "en": "Now then, shall we begin?",
+     "en": "Well, shall we begin?",
      "speaker": "Akaza"
     },
     {
-     "start": 115.3,
-     "end": 117.8,
+     "start": 75.6,
+     "end": 77.8,
      "ja": "宴の時間だ。",
-     "en": "It is time for the banquet.",
+     "en": "It's time for a banquet.",
      "speaker": "Akaza"
     }
    ]
@@ -65,5 +97,6 @@
  "pickTopics": [
   "anime"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -1,0 +1,19 @@
+{
+ "videoId": "Js8bzs79WDw",
+ "ids": [
+  "Js8bzs79WDw-246"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Js8bzs79WDw-246": {
+   "id": "Js8bzs79WDw-246",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple conversational question about what to eat with helpful visual context."
+  }
+ }
+}

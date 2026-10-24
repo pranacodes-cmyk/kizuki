@@ -2,99 +2,60 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 12.0,
-   "end": 22.5,
-   "title": "After-School Vlog Introduction",
-   "level": "N4",
+   "start": 188.3,
+   "end": 200.0,
+   "title": "Explaining the Afternoon Tea Menu",
+   "level": "N3",
    "topics": [
-    "daily",
-    "school"
+    "food"
    ],
    "grammar": [
-    "〜たいと思う — express desire/intention",
-    "そろそろ — about time"
+    "〜でございます — polite form of です",
+    "〜をした — having the shape/form of"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 12.8,
-     "end": 15.0,
-     "ja": "皆さんこんにちは、つきです。",
-     "en": "Hello everyone, I'm Tsuki.",
-     "speaker": "Tsuki"
+     "start": 188.6,
+     "end": 190.4,
+     "ja": "こちら下の列がスイーツ、",
+     "en": "Here, the bottom row is sweets,",
+     "speaker": "Server"
     },
     {
-     "start": 15.7,
-     "end": 18.9,
-     "ja": "今回は放課後を撮っていきたいと思います。",
-     "en": "This time, I'd like to film my after-school routine.",
-     "speaker": "Tsuki"
+     "start": 190.5,
+     "end": 192.3,
+     "ja": "上がセイボリーでございます。",
+     "en": "and the top row is savory items.",
+     "speaker": "Server"
     },
     {
-     "start": 19.8,
-     "end": 21.8,
-     "ja": "そろそろブレザーの季節。",
-     "en": "It's almost blazer season.",
-     "speaker": "Tsuki"
+     "start": 192.5,
+     "end": 195.4,
+     "ja": "こちらアップルの形をしたものがニューヨークアップル、",
+     "en": "This apple-shaped one is the New York Apple,",
+     "speaker": "Server"
+    },
+    {
+     "start": 195.5,
+     "end": 196.8,
+     "ja": "こちらがチーズケーキ、",
+     "en": "this one is cheesecake,",
+     "speaker": "Server"
+    },
+    {
+     "start": 196.9,
+     "end": 199.5,
+     "ja": "こちらがブルーベリーのタルトレットでございます。",
+     "en": "and this is the blueberry tartlet.",
+     "speaker": "Server"
     }
    ]
   },
   {
-   "start": 188.7,
-   "end": 214.5,
-   "title": "Chatting in the Taxi",
-   "level": "N4",
-   "topics": [
-    "friends",
-    "daily"
-   ],
-   "grammar": [
-    "〜たい — want to",
-    "〜から — because / since"
-   ],
-   "quality": 4,
-   "lines": [
-    {
-     "start": 203.2,
-     "end": 204.6,
-     "ja": "これ切り取る？",
-     "en": "Should we crop this?",
-     "speaker": "Friend"
-    },
-    {
-     "start": 205.5,
-     "end": 206.9,
-     "ja": "ワンチャン？",
-     "en": "Maybe?",
-     "speaker": "Tsuki"
-    },
-    {
-     "start": 209.1,
-     "end": 210.4,
-     "ja": "でもね、",
-     "en": "But you know,",
-     "speaker": "Friend"
-    },
-    {
-     "start": 210.4,
-     "end": 211.7,
-     "ja": "顔が綺麗だからね、",
-     "en": "since your face looks pretty,",
-     "speaker": "Friend"
-    },
-    {
-     "start": 211.7,
-     "end": 213.9,
-     "ja": "顔も映したいものだよね。",
-     "en": "we'd want to show your face too, right?",
-     "speaker": "Friend"
-    }
-   ]
-  },
-  {
-   "start": 894.7,
-   "end": 911.9,
-   "title": "Heading Home at 10 PM",
+   "start": 534.3,
+   "end": 551.1,
+   "title": "Heading Home Before Curfew",
    "level": "N4",
    "topics": [
     "daily",
@@ -102,43 +63,88 @@
    ],
    "grammar": [
     "〜ないといけない — have to / must",
-    "〜たらいいなと思う — hope/wish that"
+    "〜たらいいな — I hope / it would be nice if",
+    "〜てから — after doing"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 895.0,
-     "end": 897.4,
-     "ja": "今は10時です。",
-     "en": "It's 10 o'clock now.",
+     "start": 534.6,
+     "end": 537.2,
+     "ja": "今は、10時です。",
+     "en": "It is currently 10 o'clock.",
      "speaker": "Tsuki"
     },
     {
-     "start": 898.7,
-     "end": 901.8,
-     "ja": "まだ18歳になってないので、",
+     "start": 539.8,
+     "end": 542.5,
+     "ja": "まだ、18歳になってないので、",
      "en": "Since I'm not 18 yet,",
      "speaker": "Tsuki"
     },
     {
-     "start": 902.9,
-     "end": 905.8,
+     "start": 543.1,
+     "end": 545.7,
      "ja": "10時に帰らないといけないので、",
-     "en": "I have to head home by 10 o'clock.",
+     "en": "I have to head home by 10,",
      "speaker": "Tsuki"
     },
     {
-     "start": 906.5,
-     "end": 908.7,
-     "ja": "残りは、おうちに帰ってから、",
-     "en": "As for the rest, once I get back home,",
+     "start": 546.1,
+     "end": 550.6,
+     "ja": "残りは、お家に帰ってから勉強できたらいいなと思ってます。",
+     "en": "so I hope I can do the rest of my studying after getting home.",
+     "speaker": "Tsuki"
+    }
+   ]
+  },
+  {
+   "start": 599.0,
+   "end": 611.2,
+   "title": "Video Outro and Goodbye",
+   "level": "N5",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜てくれる — to do for someone",
+    "〜てね — casual request"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 599.2,
+     "end": 601.2,
+     "ja": "最後まで動画を見てくれて、",
+     "en": "Thank you for watching the video",
      "speaker": "Tsuki"
     },
     {
-     "start": 908.7,
-     "end": 911.3,
-     "ja": "勉強できたらいいなと思ってます。",
-     "en": "I hope I can study a bit more.",
+     "start": 601.3,
+     "end": 602.8,
+     "ja": "ありがとうございました！",
+     "en": "all the way to the end!",
+     "speaker": "Tsuki"
+    },
+    {
+     "start": 603.1,
+     "end": 605.3,
+     "ja": "次回の動画も見てねー。",
+     "en": "Please watch the next video too.",
+     "speaker": "Tsuki"
+    },
+    {
+     "start": 605.6,
+     "end": 608.6,
+     "ja": "チャンネル登録、グッドボタン、コメント、待ってます！",
+     "en": "I'm waiting for your subscriptions, likes, and comments!",
+     "speaker": "Tsuki"
+    },
+    {
+     "start": 609.5,
+     "end": 610.8,
+     "ja": "バイバーイ！",
+     "en": "Bye-bye!",
      "speaker": "Tsuki"
     }
    ]
@@ -148,5 +154,6 @@
  "pickTopics": [
   "school"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

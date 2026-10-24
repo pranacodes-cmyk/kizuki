@@ -2,189 +2,159 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 9.3,
-   "end": 36.7,
-   "title": "Deciding on a Night Walk in Shibuya",
-   "level": "N3",
+   "start": 9.2,
+   "end": 36.4,
+   "title": "Planning a Night Walk in Shibuya",
+   "level": "N4",
    "topics": [
     "daily",
-    "fun",
     "travel"
    ],
    "grammar": [
-    "〜ながら — doing while",
-    "〜ようと思う — thinking of doing",
-    "〜てくる — do and come back"
+    "〜ようと思う — expressing intention",
+    "〜けど — but / although"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 9.5,
-     "end": 13.0,
-     "ja": "昨日から、あの夜のね散歩を始めたんですけど、",
-     "en": "Since yesterday, I started going on night walks,",
+     "start": 9.3,
+     "end": 13.7,
+     "ja": "昨日からあの、夜のね、散歩を始めたんですけど、",
+     "en": "I started taking night walks yesterday,",
      "speaker": "Hikakin"
     },
     {
-     "start": 13.3,
-     "end": 15.5,
-     "ja": "こうやっぱりね、普段見ないこう景色とか",
-     "en": "and as you'd expect, taking in sights you don't usually see",
-     "speaker": "Hikakin"
-    },
-    {
-     "start": 15.5,
+     "start": 13.7,
      "end": 18.5,
-     "ja": "街を見ながら散歩するのって結構楽しいんですよ。",
-     "en": "and walking through the city is actually pretty fun.",
+     "ja": "こう、やっぱりね、普段見ないこう景色とか街を見ながら散歩するのって結構楽しいんですよ。",
+     "en": "and taking a walk while looking at scenery and streets you don't usually see is actually really fun.",
      "speaker": "Hikakin"
     },
     {
-     "start": 18.8,
-     "end": 22.3,
+     "start": 18.5,
+     "end": 22.4,
      "ja": "今日はあえてなんかこう撮影しながら散歩しようかなと思って、",
-     "en": "Today I thought I'd film while walking,",
+     "en": "Today, I thought I'd film while taking a walk,",
      "speaker": "Hikakin"
     },
     {
-     "start": 22.5,
-     "end": 24.8,
-     "ja": "どこ行こうかなと思ったんですけど、",
-     "en": "and while I wondered where to go,",
+     "start": 22.4,
+     "end": 26.5,
+     "ja": "どこ行こうかなと思ったんですけど、渋谷でも行こうかなと。",
+     "en": "and wondered where to go, thinking maybe Shibuya.",
      "speaker": "Hikakin"
     },
     {
-     "start": 24.9,
-     "end": 26.8,
-     "ja": "渋谷でも行こうかなと。",
-     "en": "I figured I might head to Shibuya.",
+     "start": 26.8,
+     "end": 30.9,
+     "ja": "とはいえ家からは遠いので、タクシーで渋谷行って、",
+     "en": "That said, it's far from home, so I'll take a taxi to Shibuya,",
      "speaker": "Hikakin"
     },
     {
-     "start": 27.0,
-     "end": 29.0,
-     "ja": "とはいえ家からは遠いので、",
-     "en": "That said, it's far from home,",
-     "speaker": "Hikakin"
-    },
-    {
-     "start": 29.1,
-     "end": 31.0,
-     "ja": "タクシーで渋谷行って、",
-     "en": "so I'll take a cab to Shibuya,",
-     "speaker": "Hikakin"
-    },
-    {
-     "start": 31.3,
-     "end": 33.3,
-     "ja": "散歩１時間ぐらいして、",
-     "en": "walk around for about an hour,",
-     "speaker": "Hikakin"
-    },
-    {
-     "start": 33.5,
-     "end": 36.4,
-     "ja": "タクシーでまた帰ってこようかなと思います。",
-     "en": "and take a cab back home.",
+     "start": 31.2,
+     "end": 36.1,
+     "ja": "散歩１時間ぐらいして、タクシーでまた帰ってこようかなと思います。",
+     "en": "walk for about an hour, and then come back by taxi.",
      "speaker": "Hikakin"
     }
    ]
   },
   {
    "start": 37.0,
-   "end": 54.5,
-   "title": "Ziploc Wallet and Sauna Suit",
-   "level": "N3",
+   "end": 54.8,
+   "title": "Sauna Suit and Ziploc Wallet",
+   "level": "N4",
    "topics": [
     "daily",
-    "comedy",
-    "sports"
+    "sports",
+    "fun"
    ],
    "grammar": [
-    "〜ために — in order to / for",
-    "〜やつ — thing/one",
+    "〜のために — for the purpose / in preparation of",
     "〜だけで — just by doing"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 37.2,
-     "end": 41.5,
-     "ja": "で、なんかあった時のためにね、１万円くらい持ってこうと思うんですけど、",
-     "en": "And just in case anything happens, I'll take about 10,000 yen with me,",
+     "end": 41.2,
+     "ja": "で、えーなんかあった時のためにね、えー１万円ぐらい持ってこうと思うんですけど、",
+     "en": "And just in case something happens, I'm thinking of bringing about 10,000 yen,",
      "speaker": "Hikakin"
     },
     {
-     "start": 41.8,
-     "end": 45.8,
+     "start": 41.4,
+     "end": 46.3,
      "ja": "汗かくから、ジップロックに入れました。",
-     "en": "and since I'll sweat, I put it in a Ziploc bag.",
+     "en": "but since I'll be sweating, I put it in a Ziploc bag.",
      "speaker": "Hikakin"
     },
     {
      "start": 47.0,
      "end": 50.5,
-     "ja": "今着てんのこれサウナスーツって言って、めっちゃ汗かくやつなんですよ。",
-     "en": "What I'm wearing now is a sauna suit, which makes you sweat a ton.",
+     "ja": "そう、今着てんのこれサウナスーツって言って、あの、めっちゃ汗かくやつなんですよ。",
+     "en": "Yeah, what I'm wearing now is called a sauna suit, and it makes you sweat like crazy.",
      "speaker": "Hikakin"
     },
     {
-     "start": 51.0,
-     "end": 54.2,
-     "ja": "歩いてるだけで汗だくだくになるんで、頑張ります。",
-     "en": "Just walking makes you drenched in sweat, so I'll do my best.",
+     "start": 50.9,
+     "end": 54.5,
+     "ja": "そう、歩いてるだけで汗ダックダクになるんで、頑張ります。ゴー！",
+     "en": "Yeah, just walking makes you dripping with sweat, so I'll do my best. Go!",
      "speaker": "Hikakin"
     }
    ]
   },
   {
-   "start": 821.5,
-   "end": 834.0,
-   "title": "Showing Off the Workout Gear",
-   "level": "N4",
+   "start": 839.8,
+   "end": 853.8,
+   "title": "Paying with a Ziploc at the Store",
+   "level": "N3",
    "topics": [
     "daily",
-    "sports"
+    "comedy",
+    "fun"
    ],
    "grammar": [
-    "〜てても — even if doing",
-    "〜し — listing reasons"
+    "〜みたいな — like / similar to",
+    "〜てみる — seeing someone do ~"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 821.8,
-     "end": 823.8,
-     "ja": "ほらほら、こんな感じ。",
-     "en": "Look, look, it looks like this.",
+     "start": 840.0,
+     "end": 842.5,
+     "ja": "もうチャリチャリ言ってるよ。",
+     "en": "It's already jingling.",
      "speaker": "Hikakin"
     },
     {
-     "start": 824.0,
-     "end": 825.8,
-     "ja": "なかなかね、いいんだよ。",
-     "en": "It's actually really nice.",
+     "start": 842.7,
+     "end": 846.4,
+     "ja": "コンビニでね、このジップロックからお金払うの見て店員さんが、",
+     "en": "At the convenience store, when the clerk saw me pay from this Ziploc bag,",
      "speaker": "Hikakin"
     },
     {
-     "start": 826.0,
-     "end": 828.4,
-     "ja": "あの、ちゃんとね、ポッケにこうチャックが付いてて、",
-     "en": "See, the pockets properly have zippers on them,",
+     "start": 846.7,
+     "end": 847.6,
+     "ja": "「ん？」",
+     "en": "he was like, \"Huh?\"",
      "speaker": "Hikakin"
     },
     {
-     "start": 828.6,
-     "end": 830.8,
-     "ja": "なんかこうイヤホンとか入れてても、",
-     "en": "so even if you put earphones or whatever inside,",
+     "start": 847.9,
+     "end": 851.3,
+     "ja": "「なんだこの人」みたいな感じでしたけどね。",
+     "en": "It felt like he was thinking, \"Who is this guy?\"",
      "speaker": "Hikakin"
     },
     {
-     "start": 831.0,
-     "end": 833.5,
-     "ja": "走ってても落ちないしね。すごい良いんだよ。",
-     "en": "they won't fall out even if you run. It's really great.",
+     "start": 851.4,
+     "end": 853.5,
+     "ja": "いや、楽しかったね！",
+     "en": "But man, that was fun!",
      "speaker": "Hikakin"
     }
    ]
@@ -195,5 +165,6 @@
   "travel",
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

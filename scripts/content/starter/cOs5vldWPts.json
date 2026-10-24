@@ -1,0 +1,19 @@
+{
+ "videoId": "cOs5vldWPts",
+ "ids": [
+  "cOs5vldWPts-12"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "cOs5vldWPts-12": {
+   "id": "cOs5vldWPts-12",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear audio with furigana, but visually dry and static."
+  }
+ }
+}

@@ -2,136 +2,142 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 40.5,
-   "end": 53.6,
-   "title": "Tasting the Sakura Bun with Mochi",
+   "start": 23.8,
+   "end": 36.5,
+   "title": "Heating Up a Sakura Steamed Bun",
    "level": "N4",
    "topics": [
     "food",
     "fun"
    ],
    "grammar": [
-    "〜が入ってる — containing / inside",
-    "〜てて — state and connection"
+    "〜てな — casual explanation of action",
+    "〜やで — Kansai dialect assertion"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 40.8,
-     "end": 44.0,
-     "ja": "おー！餅が入ってるで！",
+     "start": 24.0,
+     "end": 27.2,
+     "ja": "これな、ファミマの新商品のさくらあんまん。",
+     "en": "This is FamilyMart's new product, the sakura bean-paste bun.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 27.4,
+     "end": 30.7,
+     "ja": "２軒目でやっとゲットの貴重品！",
+     "en": "A rare find that I finally got at the second store!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 31.0,
+     "end": 34.2,
+     "ja": "秘密兵器で、ちょっと温めてな。",
+     "en": "I'll warm it up a bit with a secret weapon.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 34.5,
+     "end": 36.3,
+     "ja": "ホッカホカやで！",
+     "en": "It's piping hot!",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 40.5,
+   "end": 54.0,
+   "title": "Tasting the Sakura Anman",
+   "level": "N4",
+   "topics": [
+    "food"
+   ],
+   "grammar": [
+    "〜ている — expressing state or condition",
+    "〜が利く — to have an effective touch or flavor"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 41.0,
+     "end": 44.5,
+     "ja": "おお！餅が入ってるで！",
      "en": "Oh! There's mochi inside!",
      "speaker": "Narrator"
     },
     {
      "start": 46.8,
      "end": 48.0,
-     "ja": "うまい！",
+     "ja": "美味い！",
      "en": "Delicious!",
      "speaker": "Narrator"
     },
     {
      "start": 48.2,
-     "end": 53.3,
-     "ja": "こしあんに桜の風味と塩気が効いてて、めっちゃ美味いで！",
-     "en": "The smooth bean paste with sakura flavor and saltiness is super good!",
+     "end": 51.5,
+     "ja": "こしあんに、桜の風味と塩気が利いてて、",
+     "en": "With smooth bean paste plus sakura flavor and a touch of salt,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 51.6,
+     "end": 53.7,
+     "ja": "めっちゃ美味いで！",
+     "en": "it's super tasty!",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 144.5,
-   "end": 202.5,
-   "title": "Fermented Butter in the Tart Crust",
-   "level": "N3",
-   "topics": [
-    "food"
-   ],
-   "grammar": [
-    "〜んだよな — explanatory sentence ending",
-    "〜だけ — only / solely",
-    "〜ができる / できない — potential verb"
-   ],
-   "quality": 4,
-   "lines": [
-    {
-     "start": 144.8,
-     "end": 148.8,
-     "ja": "工場生産ではマーガリンやショートニングを使うんだよな。",
-     "en": "In factory production, they usually use margarine or shortening.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 149.0,
-     "end": 152.5,
-     "ja": "だけどロピアさんは昔から発酵バターを使ってるんだよな。",
-     "en": "But Ropia has always used fermented butter.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 153.0,
-     "end": 156.8,
-     "ja": "発酵バターだけのタルトの技術は他では真似ができないからな。",
-     "en": "Tart techniques using only fermented butter can't be imitated elsewhere.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 159.0,
-     "end": 201.8,
-     "ja": "おお！タルトがうまい！",
-     "en": "Oh! The tart is delicious!",
-     "speaker": "Narrator"
-    }
-   ]
-  },
-  {
-   "start": 215.5,
+   "start": 215.3,
    "end": 229.5,
-   "title": "Cute Easter Chick Cream Puff Parfait",
+   "title": "Cute Easter Chick Cream Puff",
    "level": "N4",
    "topics": [
     "food",
     "fun"
    ],
    "grammar": [
-    "〜のは — nominalizing clause",
-    "丸ごと — whole / entirely"
+    "〜てる — contraction of 〜ている",
+    "〜だな — casual statement of impression"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 216.0,
-     "end": 218.4,
+     "start": 215.6,
+     "end": 218.0,
      "ja": "出たー！イースタースイーツ！",
      "en": "Here it is! An Easter dessert!",
      "speaker": "Narrator"
     },
     {
      "start": 218.5,
-     "end": 220.8,
+     "end": 221.2,
      "ja": "これはめっちゃ可愛いな！",
-     "en": "This is super cute!",
+     "en": "This is so cute!",
      "speaker": "Narrator"
     },
     {
-     "start": 221.5,
-     "end": 224.0,
-     "ja": "作ってるのはこれまたロピアさん。",
-     "en": "And once again, it's made by Ropia.",
+     "start": 221.7,
+     "end": 224.5,
+     "ja": "作ってるのは、これまたロピアさん。",
+     "en": "The maker is Ropia once again.",
      "speaker": "Narrator"
     },
     {
-     "start": 224.2,
-     "end": 226.8,
-     "ja": "これは見事なシュークリームだな！",
-     "en": "This is quite an impressive cream puff!",
+     "start": 224.7,
+     "end": 227.1,
+     "ja": "これは見事なシュークリームだな。",
+     "en": "This is a magnificent cream puff.",
      "speaker": "Narrator"
     },
     {
-     "start": 227.0,
-     "end": 229.0,
+     "start": 227.3,
+     "end": 229.2,
      "ja": "丸ごとシュークリームやで！",
-     "en": "It's a whole cream puff!",
+     "en": "It's an entire cream puff!",
      "speaker": "Narrator"
     }
    ]
@@ -141,5 +147,6 @@
  "pickTopics": [
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

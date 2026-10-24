@@ -2,75 +2,68 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 46.5,
-   "end": 56.3,
-   "title": "Used to the Heat in the Meeting Room",
+   "start": 110.8,
+   "end": 119.5,
+   "title": "Getting Used to a Busy Office",
    "level": "N4",
    "topics": [
     "work",
     "daily"
    ],
    "grammar": [
-    "〜さ — -ness (noun form)",
+    "〜さ — nominalizing adjectives",
     "〜に慣れる — get used to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 46.8,
-     "end": 49.0,
-     "ja": "会議室が暑いでしょう。",
-     "en": "The meeting room must be hot, right?",
-     "speaker": "Taguchi-san"
+     "start": 111.2,
+     "end": 114.0,
+     "ja": "忙しいでしょう、このオフィス。",
+     "en": "This office is busy, isn't it?",
+     "speaker": "Taguchi"
     },
     {
-     "start": 49.1,
-     "end": 50.5,
-     "ja": "すみませんね。",
-     "en": "Sorry about that.",
-     "speaker": "Taguchi-san"
-    },
-    {
-     "start": 51.8,
-     "end": 55.7,
-     "ja": "まあ、会議室の暑さにはもう慣れましたから。",
-     "en": "Well, I've already gotten used to the heat in the meeting room.",
+     "start": 115.5,
+     "end": 119.0,
+     "ja": "まあ、このオフィスの忙しさにはもう慣れましたから。",
+     "en": "Well, I've already gotten used to how busy this office is.",
      "speaker": "Colleague"
     }
    ]
   },
   {
-   "start": 121.5,
-   "end": 133.0,
-   "title": "Getting Used to the Huge Office",
+   "start": 121.8,
+   "end": 133.3,
+   "title": "A Spacious Office",
    "level": "N4",
    "topics": [
     "work",
     "daily"
    ],
    "grammar": [
-    "〜さ — -ness (noun form)",
-    "〜なくなる — to become no longer"
+    "〜さ — nominalizing adjectives",
+    "〜に慣れる — get used to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 122.0,
-     "end": 124.5,
+     "start": 122.2,
+     "end": 124.3,
      "ja": "広いでしょう、この会社。",
-     "en": "It's big, isn't it, this company?",
-     "speaker": "Taguchi-san"
+     "en": "This company is spacious, isn't it?",
+     "speaker": "Taguchi"
     },
     {
-     "start": 124.7,
-     "end": 126.7,
+     "start": 124.5,
+     "end": 126.3,
      "ja": "分からなくなりません？",
      "en": "Don't you get lost?",
-     "speaker": "Taguchi-san"
+     "speaker": "Taguchi"
     },
     {
-     "start": 128.5,
-     "end": 132.5,
+     "start": 129.0,
+     "end": 132.9,
      "ja": "まあ、この会社の広さにはもう慣れましたから。",
      "en": "Well, I've already gotten used to how big this company is.",
      "speaker": "Colleague"
@@ -79,38 +72,39 @@
   },
   {
    "start": 134.8,
-   "end": 145.8,
-   "title": "Getting Used to an Unfriendly App",
+   "end": 146.3,
+   "title": "Getting Used to a Clunky App",
    "level": "N4",
    "topics": [
     "work",
     "daily"
    ],
    "grammar": [
-    "〜にくい — difficult to do",
-    "〜さ — -ness (noun form)"
+    "〜にくい — hard to do",
+    "〜さ — nominalizing adjectives",
+    "〜に慣れる — get used to"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 135.3,
-     "end": 137.7,
+     "end": 137.8,
      "ja": "このアプリ、ちょっと使いにくいでしょう？",
-     "en": "This app is a bit hard to use, right?",
-     "speaker": "Taguchi-san"
+     "en": "This app is a bit difficult to use, isn't it?",
+     "speaker": "Taguchi"
     },
     {
-     "start": 137.8,
-     "end": 139.1,
+     "start": 138.0,
+     "end": 139.4,
      "ja": "すみませんね。",
      "en": "Sorry about that.",
-     "speaker": "Taguchi-san"
+     "speaker": "Taguchi"
     },
     {
-     "start": 141.2,
-     "end": 145.3,
+     "start": 141.5,
+     "end": 145.9,
      "ja": "まあ、このアプリの使いにくさにはもう慣れましたから。",
-     "en": "Well, I've already gotten used to how hard this app is to use.",
+     "en": "Well, I've already gotten used to how difficult this app is to use.",
      "speaker": "Colleague"
     }
    ]
@@ -120,5 +114,6 @@
  "pickTopics": [
   "work"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

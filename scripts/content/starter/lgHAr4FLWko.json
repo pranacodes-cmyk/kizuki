@@ -1,0 +1,19 @@
+{
+ "videoId": "lgHAr4FLWko",
+ "ids": [
+  "lgHAr4FLWko-224"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "lgHAr4FLWko-224": {
+   "id": "lgHAr4FLWko-224",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute cat interaction with very simple, everyday spoken phrases."
+  }
+ }
+}

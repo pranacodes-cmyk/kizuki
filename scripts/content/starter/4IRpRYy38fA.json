@@ -1,0 +1,21 @@
+{
+ "videoId": "4IRpRYy38fA",
+ "ids": [
+  "4IRpRYy38fA-116"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "4IRpRYy38fA-116": {
+   "id": "4IRpRYy38fA-116",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "unsafe content"
+   ],
+   "why": "Dramatic anime scene with gruff dialogue and injured character."
+  }
+ }
+}

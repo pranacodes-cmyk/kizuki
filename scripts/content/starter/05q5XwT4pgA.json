@@ -1,0 +1,30 @@
+{
+ "videoId": "05q5XwT4pgA",
+ "ids": [
+  "05q5XwT4pgA-46",
+  "05q5XwT4pgA-461"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "05q5XwT4pgA-461": {
+   "id": "05q5XwT4pgA-461",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear voiceover but mostly static video showing drinks on a table."
+  },
+  "05q5XwT4pgA-46": {
+   "id": "05q5XwT4pgA-46",
+   "appeal": 7,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Lively theme park vlog clip with fun, casual everyday language."
+  }
+ }
+}

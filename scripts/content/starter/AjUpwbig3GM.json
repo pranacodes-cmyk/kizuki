@@ -1,0 +1,19 @@
+{
+ "videoId": "AjUpwbig3GM",
+ "ids": [
+  "AjUpwbig3GM-221"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "AjUpwbig3GM-221": {
+   "id": "AjUpwbig3GM-221",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute dog reward scene with clear, simple, and repetitive vocabulary."
+  }
+ }
+}

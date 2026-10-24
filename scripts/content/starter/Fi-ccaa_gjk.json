@@ -1,0 +1,30 @@
+{
+ "videoId": "Fi-ccaa_gjk",
+ "ids": [
+  "Fi-ccaa_gjk-0",
+  "Fi-ccaa_gjk-19"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Fi-ccaa_gjk-0": {
+   "id": "Fi-ccaa_gjk-0",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple animal quiz with clear voiceover and cute cats."
+  },
+  "Fi-ccaa_gjk-19": {
+   "id": "Fi-ccaa_gjk-19",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Repetitive, beginner-friendly format teaching basic animal names clearly."
+  }
+ }
+}

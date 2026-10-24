@@ -2,54 +2,53 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 2.8,
-   "end": 17.2,
-   "title": "The Most Effective Massage Treatment",
+   "start": 0.0,
+   "end": 16.8,
+   "title": "A Tongue Twister at the Massage",
    "level": "N3",
    "topics": [
     "daily",
-    "fun"
+    "comedy"
    ],
    "grammar": [
-    "〜てもらう — have someone do something",
-    "〜時に — when doing",
-    "〜っていう — called / that is"
+    "〜てもらう — to have someone do something",
+    "〜時に — when doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 2.8,
-     "end": 6.2,
-     "ja": "一番効果があった施術があったんですけど、",
-     "en": "There was a treatment that was the most effective,",
+     "start": 0.0,
+     "end": 2.0,
+     "ja": "ちょっと聞いてください。そう、効果...",
+     "en": "Please listen to this. So, the effect...",
      "speaker": "Girl"
     },
     {
-     "start": 6.2,
-     "end": 8.5,
-     "ja": "それがなんか、その後に来た、",
-     "en": "and that was, like, what came after that,",
+     "start": 2.0,
+     "end": 5.8,
+     "ja": "それでその平泳ぎが終わって、一番効果があった施術があったんですけど、",
+     "en": "And after that breaststroke stretch ended, there was a treatment that was the most effective,",
      "speaker": "Girl"
     },
     {
-     "start": 8.5,
-     "end": 10.7,
-     "ja": "自分でストレッチをする時に、",
-     "en": "when you do stretches yourself,",
+     "start": 5.8,
+     "end": 10.3,
+     "ja": "それが、なんかその後に来た、自分でストレッチをする時に、",
+     "en": "and what came next was when I did stretches on my own,",
      "speaker": "Girl"
     },
     {
-     "start": 10.7,
-     "end": 13.7,
-     "ja": "マッサージ師さんに補助をしてもらうっていう施術で、",
-     "en": "having the massage therapist assist you with the treatment...",
+     "start": 10.3,
+     "end": 13.0,
+     "ja": "マッサージ師さんに補助をしてもらうっていう、",
+     "en": "having the massage therapist assist me...",
      "speaker": "Girl"
     },
     {
-     "start": 13.7,
-     "end": 17.2,
-     "ja": "せづ…施術、施術、施術、施術で！",
-     "en": "treat... treatment, treatment, treat... treatment!",
+     "start": 13.0,
+     "end": 16.8,
+     "ja": "せづちゅで、せ、施術、せづつ、せづ、施術で！",
+     "en": "a tweatment... trea— treatment, tweat— trea— treatment!",
      "speaker": "Girl"
     }
    ]
@@ -60,5 +59,6 @@
   "fun",
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

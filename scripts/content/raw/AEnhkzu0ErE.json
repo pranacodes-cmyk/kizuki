@@ -2,203 +2,279 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 336.0,
-   "end": 347.0,
-   "title": "Finding Out They Are the Same Age",
+   "start": 24.5,
+   "end": 47.7,
+   "title": "How Far Have You Gotten?",
    "level": "N4",
    "topics": [
-    "friends",
-    "comedy",
-    "daily"
+    "daily",
+    "comedy"
    ],
    "grammar": [
-    "〜やん — isn't it / you know (Kansai dialect)",
-    "〜たら — conditional if/then"
+    "〜てしまう — accidental action",
+    "〜ですよね — seeking agreement"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 336.1,
-     "end": 337.7,
-     "ja": "え、ごめん。何歳？",
-     "en": "Uh, sorry, how old are you?",
-     "speaker": "Suzuki"
+     "start": 24.8,
+     "end": 26.2,
+     "ja": "どこまで行きました？",
+     "en": "How far have you gotten?",
+     "speaker": "Goto"
     },
     {
-     "start": 338.0,
-     "end": 339.1,
+     "start": 26.4,
+     "end": 27.2,
+     "ja": "はい？",
+     "en": "Pardon?",
+     "speaker": "Fukutoku"
+    },
+    {
+     "start": 27.3,
+     "end": 28.6,
+     "ja": "どこまで行きました？",
+     "en": "How far have you gotten?",
+     "speaker": "Goto"
+    },
+    {
+     "start": 29.1,
+     "end": 30.9,
+     "ja": "Ｓ字クランク行きました。",
+     "en": "I reached the S-curve crank.",
+     "speaker": "Goto"
+    },
+    {
+     "start": 31.0,
+     "end": 33.3,
+     "ja": "ああ、あ、ええと、まだです。",
+     "en": "Ah, oh, um, not yet.",
+     "speaker": "Fukutoku"
+    },
+    {
+     "start": 33.5,
+     "end": 34.8,
+     "ja": "あ、まだですか。へえ。",
+     "en": "Oh, not yet? I see.",
+     "speaker": "Goto"
+    },
+    {
+     "start": 35.8,
+     "end": 41.5,
+     "ja": "いや、僕も１回そのミスって脱輪して。",
+     "en": "Yeah, I also made a mistake once and ran off the curb.",
+     "speaker": "Goto"
+    },
+    {
+     "start": 42.1,
+     "end": 42.9,
+     "ja": "はい。",
+     "en": "Yeah.",
+     "speaker": "Fukutoku"
+    },
+    {
+     "start": 43.1,
+     "end": 44.2,
+     "ja": "嫌ですよね。",
+     "en": "It sucks, doesn't it?",
+     "speaker": "Goto"
+    },
+    {
+     "start": 44.5,
+     "end": 47.1,
+     "ja": "いや、そうなんすよ。ムズいっすよね。",
+     "en": "Yeah, exactly. It's difficult.",
+     "speaker": "Fukutoku"
+    }
+   ]
+  },
+  {
+   "start": 336.0,
+   "end": 352.5,
+   "title": "Realizing They Are in the Same Grade",
+   "level": "N4",
+   "topics": [
+    "friends",
+    "school",
+    "comedy"
+   ],
+   "grammar": [
+    "〜やん — isn't it / right (Kansai)",
+    "〜たら — conditional if/when"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 336.3,
+     "end": 338.1,
+     "ja": "え、ごめんなさい、何歳？",
+     "en": "Uh, sorry, how old are you?",
+     "speaker": "Goto"
+    },
+    {
+     "start": 338.2,
+     "end": 339.4,
      "ja": "大学生です。",
      "en": "I'm a college student.",
-     "speaker": "Sho"
+     "speaker": "Fukutoku"
     },
     {
-     "start": 339.5,
-     "end": 340.4,
-     "ja": "えっ、大学…",
-     "en": "Uh, what year...?",
-     "speaker": "Suzuki"
+     "start": 339.6,
+     "end": 340.7,
+     "ja": "え、大学...",
+     "en": "Uh, college...",
+     "speaker": "Goto"
     },
     {
-     "start": 340.7,
-     "end": 341.7,
+     "start": 340.8,
+     "end": 342.0,
      "ja": "あ、１年です。",
-     "en": "Oh, a freshman.",
-     "speaker": "Sho"
+     "en": "Ah, first year.",
+     "speaker": "Fukutoku"
     },
     {
-     "start": 341.8,
-     "end": 343.0,
+     "start": 342.1,
+     "end": 343.6,
      "ja": "え、一緒やん！",
-     "en": "Hey, we're the same!",
-     "speaker": "Suzuki"
+     "en": "Whoa, we're the same!",
+     "speaker": "Goto"
     },
     {
-     "start": 343.3,
-     "end": 344.2,
+     "start": 343.7,
+     "end": 344.8,
      "ja": "あ、そうなんですか。",
      "en": "Oh, really?",
-     "speaker": "Sho"
+     "speaker": "Fukutoku"
     },
     {
-     "start": 344.2,
-     "end": 345.6,
-     "ja": "一緒やん、それやったら！",
-     "en": "We're the same then!",
-     "speaker": "Suzuki"
+     "start": 344.9,
+     "end": 346.7,
+     "ja": "え、一緒やん、それやったら！",
+     "en": "Wait, we're the same then!",
+     "speaker": "Goto"
     },
     {
-     "start": 345.8,
-     "end": 346.9,
+     "start": 346.8,
+     "end": 348.3,
      "ja": "え、めっちゃ嬉しい！",
      "en": "Man, I'm so happy!",
-     "speaker": "Suzuki"
+     "speaker": "Goto"
+    },
+    {
+     "start": 348.4,
+     "end": 349.7,
+     "ja": "あ、そうなんや。",
+     "en": "Oh, is that so.",
+     "speaker": "Goto"
+    },
+    {
+     "start": 349.8,
+     "end": 352.0,
+     "ja": "逆に、なんで１人で来たんですか？",
+     "en": "On the flip side, why did you come alone?",
+     "speaker": "Fukutoku"
     }
    ]
   },
   {
-   "start": 421.0,
-   "end": 434.5,
-   "title": "Banning Polite Speech Between Peers",
-   "level": "N4",
-   "topics": [
-    "friends",
-    "comedy",
-    "daily"
-   ],
-   "grammar": [
-    "〜よう — let's (volitional form)",
-    "〜すぎる — too much / excessively"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 421.1,
-     "end": 423.1,
-     "ja": "いや、敬語やめようや！",
-     "en": "Hey, let's stop using polite speech!",
-     "speaker": "Suzuki"
-    },
-    {
-     "start": 423.3,
-     "end": 425.5,
-     "ja": "敬語やめようや、だってそんな、せっかく…",
-     "en": "Let's drop the honorifics, since we're...",
-     "speaker": "Suzuki"
-    },
-    {
-     "start": 425.5,
-     "end": 426.7,
-     "ja": "ええー。",
-     "en": "Ehhh...",
-     "speaker": "Sho"
-    },
-    {
-     "start": 427.0,
-     "end": 429.0,
-     "ja": "はい、敬語なし！敬語禁止！",
-     "en": "All right, no polite talk! Honorifics are banned!",
-     "speaker": "Suzuki"
-    },
-    {
-     "start": 429.1,
-     "end": 430.4,
-     "ja": "ええー。",
-     "en": "Ehhh...",
-     "speaker": "Sho"
-    },
-    {
-     "start": 431.0,
-     "end": 433.8,
-     "ja": "いや、大人しすぎるって、自分！",
-     "en": "Man, you're way too quiet!",
-     "speaker": "Suzuki"
-    }
-   ]
-  },
-  {
-   "start": 623.8,
-   "end": 635.0,
-   "title": "Asking to Grab a Meal Together",
+   "start": 627.5,
+   "end": 649.0,
+   "title": "Inviting Someone for a Meal",
    "level": "N5",
    "topics": [
-    "friends",
     "food",
-    "daily"
+    "friends",
+    "comedy"
    ],
    "grammar": [
-    "もう — already",
-    "〜で — indicates means or manner (e.g. 二人で)"
+    "〜から — starting point",
+    "〜終わった — finished doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 624.0,
-     "end": 625.6,
-     "ja": "今日もう終わり？しょうちゃん。",
-     "en": "Are you done for today, Sho-chan?",
-     "speaker": "Suzuki"
-    },
-    {
-     "start": 625.8,
-     "end": 626.5,
-     "ja": "終わり。",
-     "en": "Done.",
-     "speaker": "Sho"
-    },
-    {
-     "start": 626.6,
-     "end": 627.2,
-     "ja": "ほんま？",
-     "en": "Really?",
-     "speaker": "Suzuki"
-    },
-    {
-     "start": 627.3,
-     "end": 628.0,
-     "ja": "うん。",
-     "en": "Yeah.",
-     "speaker": "Sho"
-    },
-    {
-     "start": 628.7,
-     "end": 630.8,
+     "start": 628.0,
+     "end": 630.9,
      "ja": "え、飯行く？今から。",
-     "en": "Hey, want to grab food? Right now.",
-     "speaker": "Suzuki"
+     "en": "Hey, wanna grab food? Right now.",
+     "speaker": "Goto"
     },
     {
-     "start": 631.2,
+     "start": 631.1,
      "end": 632.4,
      "ja": "今から？",
      "en": "Right now?",
-     "speaker": "Sho"
+     "speaker": "Fukutoku"
     },
     {
      "start": 632.5,
-     "end": 634.0,
-     "ja": "うん、二人で。",
+     "end": 633.8,
+     "ja": "うん、２人で。",
      "en": "Yeah, the two of us.",
-     "speaker": "Suzuki"
+     "speaker": "Goto"
+    },
+    {
+     "start": 637.0,
+     "end": 638.4,
+     "ja": "今からか...",
+     "en": "Right now, huh...",
+     "speaker": "Fukutoku"
+    },
+    {
+     "start": 638.5,
+     "end": 639.2,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Goto"
+    },
+    {
+     "start": 639.3,
+     "end": 640.4,
+     "ja": "今から...",
+     "en": "Right now...",
+     "speaker": "Fukutoku"
+    },
+    {
+     "start": 640.5,
+     "end": 641.4,
+     "ja": "２人で。",
+     "en": "The two of us.",
+     "speaker": "Goto"
+    },
+    {
+     "start": 642.5,
+     "end": 643.8,
+     "ja": "お疲れ！",
+     "en": "Good work!",
+     "speaker": "Friend"
+    },
+    {
+     "start": 644.0,
+     "end": 644.8,
+     "ja": "お疲れ。",
+     "en": "Hey, good work.",
+     "speaker": "Fukutoku"
+    },
+    {
+     "start": 645.0,
+     "end": 646.0,
+     "ja": "終わった、終わった。",
+     "en": "Done, all done.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 646.1,
+     "end": 646.8,
+     "ja": "出た？",
+     "en": "You finished?",
+     "speaker": "Fukutoku"
+    },
+    {
+     "start": 646.9,
+     "end": 648.5,
+     "ja": "シミュレーター結構面白い。",
+     "en": "The simulator is actually pretty fun.",
+     "speaker": "Friend"
     }
    ]
   }
@@ -208,5 +284,6 @@
   "fun",
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

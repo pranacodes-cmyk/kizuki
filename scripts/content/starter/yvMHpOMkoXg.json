@@ -1,0 +1,30 @@
+{
+ "videoId": "yvMHpOMkoXg",
+ "ids": [
+  "yvMHpOMkoXg-437",
+  "yvMHpOMkoXg-488"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "yvMHpOMkoXg-437": {
+   "id": "yvMHpOMkoXg-437",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Charming real-life interaction as the husband gets caught on camera."
+  },
+  "yvMHpOMkoXg-488": {
+   "id": "yvMHpOMkoXg-488",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Natural dinner conversation discussing food flavours at the table."
+  }
+ }
+}

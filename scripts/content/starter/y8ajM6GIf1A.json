@@ -1,0 +1,30 @@
+{
+ "videoId": "y8ajM6GIf1A",
+ "ids": [
+  "y8ajM6GIf1A-739",
+  "y8ajM6GIf1A-837"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "y8ajM6GIf1A-739": {
+   "id": "y8ajM6GIf1A-739",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute baby interaction with clear, gentle, and simple Japanese phrases."
+  },
+  "y8ajM6GIf1A-837": {
+   "id": "y8ajM6GIf1A-837",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Outdoor vlog format with somewhat muffled speech behind a face mask."
+  }
+ }
+}

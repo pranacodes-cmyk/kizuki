@@ -2,271 +2,230 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 37.0,
-   "end": 59.8,
-   "title": "You Love Clothes That Much?",
+   "start": 41.6,
+   "end": 62.3,
+   "title": "You Really Love Clothes",
    "level": "N3",
    "topics": [
+    "fun",
     "comedy",
-    "friends",
-    "fun"
+    "friends"
    ],
    "grammar": [
-    "〜のに — even though / despite",
+    "〜やのに — even though (dialect)",
     "〜かと思った — thought that..."
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 37.2,
-     "end": 39.8,
-     "ja": "ごめんごめん。ごめん遅れちゃって。",
-     "en": "Sorry, sorry. Sorry I'm late.",
-     "speaker": "Shimasa"
-    },
-    {
-     "start": 40.8,
-     "end": 44.5,
-     "ja": "おい、お前めっちゃ服好きやな！",
-     "en": "Hey, you really love clothes!",
+     "start": 41.8,
+     "end": 44.8,
+     "ja": "お、お前、めっちゃ服好きやな！",
+     "en": "Whoa, you really love clothes, don't you?!",
      "speaker": "Yashiki"
     },
     {
-     "start": 45.0,
-     "end": 46.0,
+     "start": 45.2,
+     "end": 45.8,
      "ja": "ん？",
      "en": "Huh?",
      "speaker": "Shimasa"
     },
     {
-     "start": 46.0,
-     "end": 47.9,
-     "ja": "え、お前めっちゃ服好きやん！",
-     "en": "Whoa, you're crazy about clothes!",
+     "start": 45.9,
+     "end": 48.0,
+     "ja": "え、お前、めっちゃ服好きやん！",
+     "en": "Man, you're super into fashion!",
      "speaker": "Yashiki"
     },
     {
-     "start": 48.0,
+     "start": 48.1,
      "end": 49.0,
-     "ja": "何何何？",
-     "en": "What, what, what?",
+     "ja": "何？何？",
+     "en": "What? What is it?",
      "speaker": "Shimasa"
     },
     {
      "start": 49.0,
-     "end": 51.5,
-     "ja": "いや知らんかったわ、俺私服見たの初めてやから。",
-     "en": "I had no idea, this is the first time seeing you in civilian clothes.",
+     "end": 51.6,
+     "ja": "知らんかった！俺、私服見たの初めてやから。",
+     "en": "I had no idea! This is my first time seeing your plain clothes.",
      "speaker": "Yashiki"
     },
     {
      "start": 51.6,
-     "end": 54.2,
-     "ja": "お前自衛隊やのにめちゃくちゃ服好きやんけ！",
-     "en": "You're in the JSDF, yet you're so into fashion!",
+     "end": 54.3,
+     "ja": "自衛隊やのに、めちゃくちゃ服好きやんけ！",
+     "en": "You're in the Self-Defense Forces, but you're so into clothes!",
      "speaker": "Yashiki"
     },
     {
-     "start": 54.3,
-     "end": 55.5,
-     "ja": "ああ、マジで？",
-     "en": "Oh, really?",
+     "start": 54.4,
+     "end": 55.7,
+     "ja": "ああ、まあな。",
+     "en": "Well, yeah, I guess.",
      "speaker": "Shimasa"
     },
     {
-     "start": 55.6,
-     "end": 58.4,
-     "ja": "最初入ってきたとき堂本剛入ってきたかと思ったわ！",
+     "start": 55.8,
+     "end": 58.2,
+     "ja": "最初入ってきた時、堂本剛入ってきたかと思ったわ！",
      "en": "When you walked in, I thought Tsuyoshi Domoto had arrived!",
      "speaker": "Yashiki"
     },
     {
-     "start": 58.4,
-     "end": 59.5,
-     "ja": "堂本剛じゃねえよ！",
-     "en": "I'm not Tsuyoshi Domoto!",
+     "start": 58.2,
+     "end": 59.8,
+     "ja": "堂本剛じゃねえよ。",
+     "en": "I'm not Tsuyoshi Domoto.",
      "speaker": "Shimasa"
+    },
+    {
+     "start": 59.8,
+     "end": 62.0,
+     "ja": "すげえ！服好きやな、お前！",
+     "en": "Incredible! You really love clothes!",
+     "speaker": "Yashiki"
     }
    ]
   },
   {
-   "start": 149.0,
-   "end": 216.0,
-   "title": "Fashion Monster of the JSDF",
+   "start": 203.8,
+   "end": 222.8,
+   "title": "Fashion Monster of the SDF",
    "level": "N3",
    "topics": [
     "comedy",
-    "friends",
-    "work"
+    "work",
+    "fun"
    ],
    "grammar": [
-    "〜てんの — asking about ongoing state (Kansai)",
-    "〜の後 — after doing something"
+    "〜て、〜ています — listing actions / ongoing state",
+    "〜やんけ — emphatic colloquial particle (dialect)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 149.0,
-     "end": 150.0,
-     "ja": "レディース！？",
-     "en": "Women's?!",
+     "start": 204.0,
+     "end": 205.4,
+     "ja": "訓練の後！？",
+     "en": "After training!?",
      "speaker": "Yashiki"
     },
     {
-     "start": 150.2,
-     "end": 153.0,
-     "ja": "自衛隊やのにレディース着てんの？お前！",
-     "en": "You're in the JSDF and you wear women's clothes?!",
-     "speaker": "Yashiki"
-    },
-    {
-     "start": 153.2,
-     "end": 155.2,
-     "ja": "まあこのジャケットは自分で作った。",
-     "en": "Well, I made this jacket myself.",
+     "start": 205.5,
+     "end": 206.3,
+     "ja": "うん。",
+     "en": "Yeah.",
      "speaker": "Shimasa"
     },
     {
-     "start": 155.3,
-     "end": 156.5,
-     "ja": "作った！？",
-     "en": "You made it?!",
+     "start": 206.4,
+     "end": 207.7,
+     "ja": "くたくたやで！",
+     "en": "You must be exhausted!",
      "speaker": "Yashiki"
     },
     {
-     "start": 156.6,
-     "end": 159.0,
-     "ja": "自衛隊やのに服作ったん！？",
-     "en": "You're in the JSDF and made your own clothes?!",
-     "speaker": "Yashiki"
-    },
-    {
-     "start": 159.2,
-     "end": 200.8,
-     "ja": "ああ、まあ普通に。",
-     "en": "Yeah, naturally.",
+     "start": 208.5,
+     "end": 211.2,
+     "ja": "いや俺、昼間大砲撃って、夜はミシン打ってます。",
+     "en": "Well, I fire cannons during the day and run a sewing machine at night.",
      "speaker": "Shimasa"
     },
     {
-     "start": 200.9,
-     "end": 203.0,
-     "ja": "いつ？いついつ？そんな時間ないやん俺ら！",
-     "en": "When? When, when? We don't have that kind of time!",
+     "start": 211.3,
+     "end": 215.0,
+     "ja": "おーい！自衛隊界のファッションモンスターやんけ、お前！",
+     "en": "Whoa! You're like the fashion monster of the Self-Defense Forces!",
      "speaker": "Yashiki"
     },
     {
-     "start": 203.2,
-     "end": 204.5,
-     "ja": "いや、普通に訓練の後。",
-     "en": "Well, just after training.",
+     "start": 215.1,
+     "end": 216.8,
+     "ja": "ファッションモンスターなの？俺、自衛隊の。",
+     "en": "I'm a fashion monster? In the SDF?",
      "speaker": "Shimasa"
     },
     {
-     "start": 204.6,
-     "end": 207.5,
-     "ja": "訓練の後！？くたくたやで！くたくたやで！",
-     "en": "After training?! You're exhausted! Utterly exhausted!",
+     "start": 216.8,
+     "end": 218.5,
+     "ja": "ファッションモンスターや！",
+     "en": "A fashion monster, totally!",
      "speaker": "Yashiki"
     },
     {
-     "start": 208.0,
-     "end": 211.0,
-     "ja": "いや俺、昼間大砲撃って、夜はミシン撃ってます。",
-     "en": "Well, in the daytime I fire cannons, at night I fire up the sewing machine.",
-     "speaker": "Shimasa"
-    },
-    {
-     "start": 211.2,
-     "end": 215.5,
-     "ja": "おーい！自衛隊界のファッションモンスターやんけお前！",
-     "en": "Hey! You're the fashion monster of the JSDF!",
+     "start": 218.8,
+     "end": 222.5,
+     "ja": "え、何で？逆に。じゃあ何で自衛隊なったん？こんな服好きで。",
+     "en": "Wait, why then? Why'd you join the SDF if you love clothes this much?",
      "speaker": "Yashiki"
     }
    ]
   },
   {
-   "start": 413.0,
-   "end": 440.0,
+   "start": 261.0,
+   "end": 280.8,
    "title": "Liking Clothes Doesn't Make You Stylish",
    "level": "N3",
    "topics": [
     "comedy",
+    "fun",
     "friends"
    ],
    "grammar": [
     "〜からって — just because...",
-    "わけじゃない / わけちゃう — doesn't mean that..."
+    "〜わけちゃう — it doesn't mean that (dialect for わけじゃない)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 413.2,
-     "end": 415.5,
-     "ja": "お前おしゃれではないぞ！",
-     "en": "You are not fashionable!",
-     "speaker": "Yashiki"
-    },
-    {
-     "start": 416.0,
-     "end": 416.9,
-     "ja": "ん？",
-     "en": "Huh?",
+     "start": 261.2,
+     "end": 264.0,
+     "ja": "いや、俺、服好きよ。ってことはオシャレじゃん。",
+     "en": "Well, I love clothes. Which means I'm stylish.",
      "speaker": "Shimasa"
     },
     {
-     "start": 417.0,
-     "end": 420.5,
-     "ja": "お前おしゃれではないぞ、服好きなだけ！",
-     "en": "You're not stylish, you just like clothes!",
+     "start": 264.2,
+     "end": 266.5,
+     "ja": "全然違うわ！バカ、お前！",
+     "en": "That's totally different, you idiot!",
      "speaker": "Yashiki"
     },
     {
-     "start": 421.0,
-     "end": 423.7,
-     "ja": "いや俺服好きよ。ってことはおしゃれじゃん。",
-     "en": "Well, I like clothes. That means I'm stylish.",
-     "speaker": "Shimasa"
-    },
-    {
-     "start": 424.0,
-     "end": 426.5,
-     "ja": "全然違うわ、バカお前！",
-     "en": "Totally different, you idiot!",
+     "start": 266.6,
+     "end": 269.6,
+     "ja": "お前、じゃあ漫画好きやからって絵上手いわけちゃうやろ？",
+     "en": "Just because you love manga doesn't mean you're good at drawing, right?",
      "speaker": "Yashiki"
     },
     {
-     "start": 426.7,
-     "end": 429.5,
-     "ja": "お前じゃあ漫画好きやからって絵うまいわけちゃうやろ？",
-     "en": "Just because you like manga doesn't mean you're good at drawing, right?",
+     "start": 269.7,
+     "end": 271.9,
+     "ja": "歌好きやからって歌上手いわけちゃうやろ？",
+     "en": "Just because you love singing doesn't mean you're good at it, right?",
      "speaker": "Yashiki"
     },
     {
-     "start": 429.6,
-     "end": 432.0,
-     "ja": "歌好きやからって歌うまいわけちゃうやろ？",
-     "en": "Just because you like singing doesn't mean you're good at it, right?",
+     "start": 272.0,
+     "end": 275.3,
+     "ja": "それと一緒で、服好きやからってオシャレではないねん！",
+     "en": "It's the same thing! Liking clothes doesn't make you stylish!",
      "speaker": "Yashiki"
     },
     {
-     "start": 432.1,
-     "end": 435.5,
-     "ja": "それと一緒で、服好きやからっておしゃれではないねん！",
-     "en": "Same thing, liking clothes doesn't mean you're fashionable!",
+     "start": 275.4,
+     "end": 277.0,
+     "ja": "お前の格好、アホみたいやで！",
+     "en": "Your outfit looks ridiculous!",
      "speaker": "Yashiki"
     },
     {
-     "start": 435.6,
-     "end": 437.3,
-     "ja": "お前の格好、アホみたいやで。",
-     "en": "Your outfit looks ridiculous.",
-     "speaker": "Yashiki"
-    },
-    {
-     "start": 437.5,
-     "end": 439.5,
-     "ja": "おしゃれな奴はクリームをかぶりません！",
-     "en": "A stylish guy doesn't wear a cap that says \"CREAM\"!",
+     "start": 277.2,
+     "end": 280.4,
+     "ja": "オシャレなやつはCREAMを被りません！",
+     "en": "Stylish guys don't wear a cap that says 'CREAM'!",
      "speaker": "Yashiki"
     }
    ]
@@ -276,5 +235,6 @@
  "pickTopics": [
   "comedy"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

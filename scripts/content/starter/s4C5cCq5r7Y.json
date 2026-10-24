@@ -1,0 +1,32 @@
+{
+ "videoId": "s4C5cCq5r7Y",
+ "ids": [
+  "s4C5cCq5r7Y-33",
+  "s4C5cCq5r7Y-60"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "s4C5cCq5r7Y-33": {
+   "id": "s4C5cCq5r7Y-33",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Calm morning routine with clear greeting and everyday food vocabulary."
+  },
+  "s4C5cCq5r7Y-60": {
+   "id": "s4C5cCq5r7Y-60",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "vacuum noise"
+   ],
+   "why": "Vacuum cleaner sound creates mild background interference during the explanation."
+  }
+ }
+}

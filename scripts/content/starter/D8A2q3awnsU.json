@@ -1,0 +1,19 @@
+{
+ "videoId": "D8A2q3awnsU",
+ "ids": [
+  "D8A2q3awnsU-64"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "D8A2q3awnsU-64": {
+   "id": "D8A2q3awnsU-64",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Relatable street responses with common vocabulary and good subtitles."
+  }
+ }
+}

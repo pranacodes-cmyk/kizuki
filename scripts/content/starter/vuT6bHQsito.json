@@ -1,0 +1,19 @@
+{
+ "videoId": "vuT6bHQsito",
+ "ids": [
+  "vuT6bHQsito-5"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "vuT6bHQsito-5": {
+   "id": "vuT6bHQsito-5",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear self-introduction and standard greeting suitable for beginners."
+  }
+ }
+}

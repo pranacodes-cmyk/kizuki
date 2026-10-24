@@ -1,0 +1,19 @@
+{
+ "videoId": "_4GEMDIntxs",
+ "ids": [
+  "_4GEMDIntxs-361"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "_4GEMDIntxs-361": {
+   "id": "_4GEMDIntxs-361",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, essential travel dialogue roleplayed with helpful visual illustrations."
+  }
+ }
+}

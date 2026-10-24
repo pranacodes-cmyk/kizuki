@@ -1,0 +1,30 @@
+{
+ "videoId": "85bkMU2vu2I",
+ "ids": [
+  "85bkMU2vu2I-198",
+  "85bkMU2vu2I-640"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "85bkMU2vu2I-198": {
+   "id": "85bkMU2vu2I-198",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple Japanese story told slowly with helpful visual aids."
+  },
+  "85bkMU2vu2I-640": {
+   "id": "85bkMU2vu2I-640",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Educational punchline clarifying a common linguistic misunderstanding clearly."
+  }
+ }
+}

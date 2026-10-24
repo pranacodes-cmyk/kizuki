@@ -1,0 +1,30 @@
+{
+ "videoId": "OBy8B1q03LY",
+ "ids": [
+  "OBy8B1q03LY-20",
+  "OBy8B1q03LY-509"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "OBy8B1q03LY-509": {
+   "id": "OBy8B1q03LY-509",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Charming fast food scene with clear visuals matching the casual narration."
+  },
+  "OBy8B1q03LY-20": {
+   "id": "OBy8B1q03LY-20",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Fun travel vlog moment discussing an outfit mishap in Tokyo."
+  }
+ }
+}

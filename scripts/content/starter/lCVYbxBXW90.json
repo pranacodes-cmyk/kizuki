@@ -1,0 +1,19 @@
+{
+ "videoId": "lCVYbxBXW90",
+ "ids": [
+  "lCVYbxBXW90-1"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "lCVYbxBXW90-1": {
+   "id": "lCVYbxBXW90-1",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear self-introduction and everyday street footage entering a shop in Kyoto."
+  }
+ }
+}

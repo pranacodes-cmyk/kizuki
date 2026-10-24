@@ -1,0 +1,19 @@
+{
+ "videoId": "JON7pEqfqnA",
+ "ids": [
+  "JON7pEqfqnA-744"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "JON7pEqfqnA-744": {
+   "id": "JON7pEqfqnA-744",
+   "appeal": 3,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Generic board game channel outro with static box view."
+  }
+ }
+}

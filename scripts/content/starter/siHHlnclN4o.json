@@ -1,0 +1,30 @@
+{
+ "videoId": "siHHlnclN4o",
+ "ids": [
+  "siHHlnclN4o-128",
+  "siHHlnclN4o-35"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "siHHlnclN4o-128": {
+   "id": "siHHlnclN4o-128",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear instructional narration paired with practical step-by-step photos."
+  },
+  "siHHlnclN4o-35": {
+   "id": "siHHlnclN4o-35",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute mascot explains routes slowly and clearly over a map graphic."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "S-I1m6K-oKY",
+ "ids": [
+  "S-I1m6K-oKY-26"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "S-I1m6K-oKY-26": {
+   "id": "S-I1m6K-oKY-26",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear stage dialogue with accessible travel vocabulary and good pacing."
+  }
+ }
+}

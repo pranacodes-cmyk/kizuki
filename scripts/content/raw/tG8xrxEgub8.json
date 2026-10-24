@@ -2,160 +2,133 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 3.2,
-   "end": 13.0,
-   "title": "What Is Expected of an Idol",
+   "start": 3.5,
+   "end": 13.2,
+   "title": "Idol Image and Aspiration",
    "level": "N3",
    "topics": [
-    "work",
-    "culture"
+    "culture",
+    "work"
    ],
    "grammar": [
-    "〜が求められる — passive form",
-    "〜はずだ — should be / bound to"
+    "〜が求められる — passive requirement",
+    "〜はずだ — should / expected to",
+    "〜に憧れる — to admire / yearn for"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 3.4,
-     "end": 5.4,
+     "start": 3.7,
+     "end": 5.7,
      "ja": "アイドルには清廉性が求められる、",
-     "en": "Purity is expected of an idol.",
+     "en": "Idols are expected to maintain an upright image,",
      "speaker": "Lawyer"
     },
     {
-     "start": 5.5,
+     "start": 5.7,
      "end": 7.8,
      "ja": "そういう仕事だと分かっていたはずですよね？",
-     "en": "You must have known that's what the job is, right?",
+     "en": "you must have known that's the job, right?",
      "speaker": "Lawyer"
     },
     {
-     "start": 7.9,
-     "end": 8.7,
+     "start": 8.0,
+     "end": 8.8,
      "ja": "はい。",
      "en": "Yes.",
-     "speaker": "Female Defendant"
+     "speaker": "Miku"
     },
     {
-     "start": 9.8,
-     "end": 12.8,
-     "ja": "子供の頃から、アイドルに憧れていました。",
+     "start": 9.9,
+     "end": 13.0,
+     "ja": "子どもの頃からアイドルに憧れていました。",
      "en": "Ever since I was a child, I dreamed of being an idol.",
-     "speaker": "Female Defendant"
+     "speaker": "Miku"
     }
    ]
   },
   {
    "start": 15.0,
    "end": 25.5,
-   "title": "Idol Rules and Contract",
+   "title": "Strict Rules for an Idol",
    "level": "N3",
    "topics": [
     "work",
     "daily"
    ],
    "grammar": [
-    "〜禁止 — prohibited / forbidden",
-    "できるだけ — as much as possible",
-    "〜てきた — have done up to now"
+    "〜禁止 — forbidden / banned",
+    "〜てた — was doing (casual 〜ていた)",
+    "〜って — quoting marker"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 15.0,
-     "end": 16.1,
-     "ja": "夜更かし禁止、",
-     "en": "No staying up late.",
-     "speaker": "Manager"
-    },
-    {
-     "start": 16.1,
-     "end": 18.0,
-     "ja": "外での飲み会とアルコールも禁止、",
-     "en": "No drinking parties outside and no alcohol.",
-     "speaker": "Manager"
-    },
-    {
-     "start": 18.0,
-     "end": 19.4,
-     "ja": "ＳＮＳは２４時まで、",
-     "en": "Social media only until midnight.",
-     "speaker": "Manager"
-    },
-    {
-     "start": 19.4,
+     "start": 15.2,
      "end": 20.7,
-     "ja": "配信はできるだけする。",
-     "en": "Livestream as much as you can.",
-     "speaker": "Manager"
+     "ja": "夜更かし禁止、外での飲み会とアルコールも禁止、SNSは24時まで、配信はできるだけする。",
+     "en": "No staying up late, no drinking parties or alcohol outside, social media cutoff at midnight, stream as much as possible.",
+     "speaker": "Staff"
     },
     {
-     "start": 20.8,
-     "end": 21.4,
+     "start": 21.0,
+     "end": 21.5,
      "ja": "はい。",
-     "en": "Understood.",
-     "speaker": "Idol"
+     "en": "Yes.",
+     "speaker": "Miku"
     },
     {
-     "start": 21.5,
-     "end": 23.2,
-     "ja": "オーディションの時言ってたよね。",
-     "en": "You told us during your audition, right?",
-     "speaker": "Producer"
-    },
-    {
-     "start": 23.2,
-     "end": 25.5,
-     "ja": "子供の頃から、アイドルに憧れてきたって。",
-     "en": "That you'd dreamed of being an idol since you were a kid.",
+     "start": 21.6,
+     "end": 25.4,
+     "ja": "オーディションの時言ってたよね？子どもの頃からアイドルに憧れてきたって。",
+     "en": "You said it during your audition, right? That you've looked up to idols since you were a kid.",
      "speaker": "Producer"
     }
    ]
   },
   {
-   "start": 113.8,
-   "end": 123.2,
+   "start": 73.8,
+   "end": 83.6,
    "title": "What Are You Fighting Against?",
    "level": "N3",
    "topics": [
     "romance",
-    "friends"
+    "work"
    ],
    "grammar": [
-    "〜ばいい — should just / can just",
-    "〜てんの — contraction of 〜ているの",
-    "〜のが嫌 — dislike doing something"
+    "〜んだよ — emphatic explanation",
+    "〜ばいいじゃん — why not just... / casual suggestion",
+    "〜てんの — casual contraction of 〜ているの"
    ],
-   "quality": 5,
+   "quality": 4,
    "lines": [
     {
-     "start": 113.8,
-     "end": 115.9,
+     "start": 74.0,
+     "end": 75.9,
      "ja": "賠償金、どうやって払うんだよ！",
-     "en": "The damages! How are you going to pay them?!",
-     "speaker": "Man"
+     "en": "How are you going to pay the damages?!",
+     "speaker": "Boyfriend"
     },
     {
-     "start": 116.0,
-     "end": 117.3,
+     "start": 76.1,
+     "end": 77.6,
      "ja": "いつか返せばいいじゃん！",
      "en": "I can just pay it back someday!",
-     "speaker": "Woman"
+     "speaker": "Miku"
     },
     {
-     "start": 117.5,
-     "end": 119.8,
+     "start": 77.8,
+     "end": 80.0,
      "ja": "お前はさ、何と戦ってんの？",
-     "en": "What on earth are you fighting against?",
-     "speaker": "Man"
+     "en": "Tell me, what are you even fighting against?",
+     "speaker": "Boyfriend"
     },
     {
-     "start": 120.1,
-     "end": 123.0,
+     "start": 80.4,
+     "end": 83.4,
      "ja": "もう、自分の気持ちに嘘をつくのが嫌だったからです。",
-     "en": "Because I was sick of lying to my own feelings.",
-     "speaker": "Woman"
+     "en": "It's because I was tired of lying to my own feelings.",
+     "speaker": "Miku"
     }
    ]
   }
@@ -164,5 +137,6 @@
  "pickTopics": [
   "romance"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

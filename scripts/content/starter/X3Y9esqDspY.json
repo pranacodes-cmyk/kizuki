@@ -1,0 +1,19 @@
+{
+ "videoId": "X3Y9esqDspY",
+ "ids": [
+  "X3Y9esqDspY-11"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "X3Y9esqDspY-11": {
+   "id": "X3Y9esqDspY-11",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Charming chibi animation with clear dialogue and conversational flow."
+  }
+ }
+}

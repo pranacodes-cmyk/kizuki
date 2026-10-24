@@ -2,220 +2,234 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 27.2,
-   "end": 44.2,
-   "title": "Inviting the Dogs for a Walk",
+   "start": 27.0,
+   "end": 44.5,
+   "title": "Asking the Dogs to Go for a Walk",
    "level": "N5",
    "topics": [
     "animals",
     "daily"
    ],
    "grammar": [
-    "〜に行く — to go to do (purpose)",
+    "〜に行く — go to do",
     "〜ね — seeking agreement"
    ],
-   "quality": 5,
+   "quality": 4,
    "lines": [
     {
-     "start": 27.5,
-     "end": 29.0,
-     "ja": "リキ？",
-     "en": "Riki?",
+     "start": 27.4,
+     "end": 28.5,
+     "ja": "リキ。",
+     "en": "Riki.",
      "speaker": "Man"
     },
     {
-     "start": 29.8,
-     "end": 32.0,
+     "start": 29.5,
+     "end": 31.4,
      "ja": "山に散歩行く？",
      "en": "Wanna go for a walk in the mountains?",
      "speaker": "Man"
     },
     {
-     "start": 33.2,
-     "end": 34.5,
-     "ja": "ねえ？",
-     "en": "Huh?",
+     "start": 33.0,
+     "end": 34.0,
+     "ja": "ねえ。",
+     "en": "Hey.",
      "speaker": "Man"
     },
     {
-     "start": 35.8,
-     "end": 38.0,
+     "start": 35.4,
+     "end": 37.4,
      "ja": "山に散歩行く？",
      "en": "Wanna go for a walk in the mountains?",
      "speaker": "Man"
     },
     {
-     "start": 38.8,
-     "end": 40.2,
+     "start": 38.2,
+     "end": 39.3,
      "ja": "行こ。",
      "en": "Let's go.",
      "speaker": "Man"
     },
     {
-     "start": 41.8,
-     "end": 43.7,
-     "ja": "あら嬉しいね、リコ。",
-     "en": "Aw, you're so happy, aren't you, Riko?",
+     "start": 41.2,
+     "end": 43.0,
+     "ja": "あれ、嬉しいね、リコ。",
+     "en": "Oh, you're so happy, Riko.",
+     "speaker": "Man"
+    },
+    {
+     "start": 43.0,
+     "end": 44.0,
+     "ja": "行くよ〜",
+     "en": "Here we go~",
      "speaker": "Man"
     }
    ]
   },
   {
-   "start": 448.0,
-   "end": 508.5,
-   "title": "Checking on the Rescued Kitten",
+   "start": 277.8,
+   "end": 299.0,
+   "title": "Showing the Rescued Kitten",
    "level": "N4",
    "topics": [
     "animals",
     "daily"
    ],
    "grammar": [
-    "〜てあげる — doing something for someone",
-    "〜と思う — to think that"
+    "〜とる — ongoing state (dialect for 〜ている)",
+    "〜けど — although / but"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 448.2,
-     "end": 450.4,
+     "start": 278.0,
+     "end": 279.0,
+     "ja": "ほら。",
+     "en": "Look.",
+     "speaker": "Man"
+    },
+    {
+     "start": 279.1,
+     "end": 281.4,
+     "ja": "にゃあにゃあ。かわいいね〜。",
+     "en": "Meow meow. So cute!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 281.4,
+     "end": 282.9,
+     "ja": "どこにおったん？",
+     "en": "Where was it?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 283.0,
+     "end": 285.0,
+     "ja": "向こう、茂みのところ。",
+     "en": "Over there, in the bushes.",
+     "speaker": "Man"
+    },
+    {
+     "start": 285.3,
+     "end": 287.3,
+     "ja": "リコ、ほら。",
+     "en": "Riko, look.",
+     "speaker": "Man"
+    },
+    {
+     "start": 288.0,
+     "end": 290.5,
      "ja": "なんかちょっと震えとる。濡れとる。",
      "en": "It's shivering a bit. It's wet.",
      "speaker": "Man"
     },
     {
-     "start": 450.4,
-     "end": 451.5,
+     "start": 290.6,
+     "end": 292.0,
      "ja": "濡れとるね。",
      "en": "It is wet.",
      "speaker": "Woman"
     },
     {
-     "start": 451.5,
-     "end": 453.0,
-     "ja": "うん。綺麗よ、まだね。",
-     "en": "Yeah. Still clean, though.",
+     "start": 292.0,
+     "end": 293.4,
+     "ja": "きれいよ、まだね。",
+     "en": "It's still pretty clean though.",
      "speaker": "Man"
     },
     {
-     "start": 453.0,
-     "end": 453.9,
+     "start": 293.4,
+     "end": 294.6,
      "ja": "そうね。",
      "en": "Yeah.",
      "speaker": "Woman"
     },
     {
-     "start": 454.0,
-     "end": 456.5,
-     "ja": "ただちょっと泥とか付いとったけどね。",
-     "en": "Though it had a bit of mud on it.",
+     "start": 294.7,
+     "end": 298.2,
+     "ja": "ただちょっと泥とかついとったけどね。",
+     "en": "Though it had some mud on it.",
      "speaker": "Man"
-    },
-    {
-     "start": 456.5,
-     "end": 457.9,
-     "ja": "うん、うん、うん。",
-     "en": "Yeah, yeah, yeah.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 500.0,
-     "end": 502.0,
-     "ja": "濡れとる。ねえ。",
-     "en": "It's wet, isn't it?",
-     "speaker": "Man"
-    },
-    {
-     "start": 502.8,
-     "end": 505.8,
-     "ja": "リキとかのタオル持ってきてると思うからさ、後で...",
-     "en": "I think I brought a towel for Riki and the others, so later...",
-     "speaker": "Woman"
-    },
-    {
-     "start": 505.9,
-     "end": 507.0,
-     "ja": "後でね。",
-     "en": "Later, right.",
-     "speaker": "Man"
-    },
-    {
-     "start": 507.1,
-     "end": 508.5,
-     "ja": "うん、後で拭いてあげよう。",
-     "en": "Yeah, let's dry it off later.",
-     "speaker": "Woman"
     }
    ]
   },
   {
-   "start": 508.5,
-   "end": 528.5,
-   "title": "Introducing the Kitten to the Dog",
+   "start": 307.0,
+   "end": 328.0,
+   "title": "Introducing the Kitten to the Dogs",
    "level": "N4",
    "topics": [
     "animals",
     "daily"
    ],
    "grammar": [
-    "どうする — what should we do",
-    "こんな〜 — such / this kind of"
+    "どうする — what to do",
+    "〜やん — isn't it (dialect)"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 508.5,
-     "end": 510.0,
-     "ja": "え、これちょっと待って、どうする？",
-     "en": "Wait a second, what do we do?",
+     "start": 307.4,
+     "end": 309.2,
+     "ja": "猫ちゃん、これどうする？",
+     "en": "What should we do with this kitty?",
      "speaker": "Man"
     },
     {
-     "start": 510.0,
-     "end": 512.3,
-     "ja": "お前どうしたの？こんなところで。",
-     "en": "What happened to you, in a place like this?",
+     "start": 309.5,
+     "end": 312.1,
+     "ja": "え？お前どうしたの、こんなとこで？",
+     "en": "Huh? What happened to you in a place like this?",
      "speaker": "Man"
     },
     {
-     "start": 512.3,
-     "end": 513.3,
-     "ja": "震えとるやん。",
+     "start": 312.3,
+     "end": 313.5,
+     "ja": "震えちょうやん。",
      "en": "It's shivering.",
      "speaker": "Woman"
     },
     {
-     "start": 513.3,
-     "end": 515.5,
-     "ja": "やばいよ、寒いよ。",
-     "en": "This is bad, it's cold.",
+     "start": 313.6,
+     "end": 315.5,
+     "ja": "やばいよ。寒いよ。",
+     "en": "It's bad. It must be cold.",
      "speaker": "Man"
     },
     {
-     "start": 518.5,
-     "end": 520.5,
-     "ja": "リキ...リキ何しよる？",
-     "en": "Riki... what is Riki doing?",
+     "start": 317.8,
+     "end": 320.0,
+     "ja": "リキ、リキ何しよる？",
+     "en": "Riki, what are you doing, Riki?",
      "speaker": "Woman"
     },
     {
-     "start": 520.8,
-     "end": 522.5,
+     "start": 320.4,
+     "end": 322.5,
      "ja": "リコ。リコ。",
      "en": "Riko. Riko.",
      "speaker": "Woman"
     },
     {
-     "start": 523.0,
-     "end": 525.0,
-     "ja": "リコ、ほら。赤ちゃんよ、ほら。",
-     "en": "Riko, look. It's a baby, look.",
+     "start": 322.8,
+     "end": 324.0,
+     "ja": "リコ、ほら。",
+     "en": "Riko, look.",
+     "speaker": "Man"
+    },
+    {
+     "start": 324.0,
+     "end": 325.8,
+     "ja": "赤ちゃんよ、ほら。",
+     "en": "It's a baby, look.",
      "speaker": "Woman"
     },
     {
-     "start": 526.5,
-     "end": 528.2,
+     "start": 326.0,
+     "end": 327.7,
      "ja": "リコ、見て。ほら。",
-     "en": "Riko, look. Look.",
+     "en": "Riko, look. Here.",
      "speaker": "Man"
     }
    ]
@@ -225,5 +239,6 @@
  "pickTopics": [
   "animals"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

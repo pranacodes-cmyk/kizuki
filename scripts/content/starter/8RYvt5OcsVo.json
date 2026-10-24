@@ -1,0 +1,30 @@
+{
+ "videoId": "8RYvt5OcsVo",
+ "ids": [
+  "8RYvt5OcsVo-27",
+  "8RYvt5OcsVo-51"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "8RYvt5OcsVo-27": {
+   "id": "8RYvt5OcsVo-27",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Lively street food ordering scene with casual conversational exchanges."
+  },
+  "8RYvt5OcsVo-51": {
+   "id": "8RYvt5OcsVo-51",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous banter about price and food prep keeps it entertaining."
+  }
+ }
+}

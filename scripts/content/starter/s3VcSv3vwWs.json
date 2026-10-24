@@ -1,0 +1,19 @@
+{
+ "videoId": "s3VcSv3vwWs",
+ "ids": [
+  "s3VcSv3vwWs-431"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "s3VcSv3vwWs-431": {
+   "id": "s3VcSv3vwWs-431",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute Peppa Pig interaction with clear, basic Japanese instructions."
+  }
+ }
+}

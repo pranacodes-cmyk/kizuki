@@ -2,129 +2,177 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 141.9,
-   "end": 156.4,
-   "title": "The First Habit: Making the Bed",
-   "level": "N3",
+   "start": 147.9,
+   "end": 169.5,
+   "title": "The Power of Making Your Bed",
+   "level": "N4",
    "topics": [
     "daily"
    ],
    "grammar": [
-    "〜てから — after doing",
-    "〜によって — by means of / depending on"
+    "〜から — starting from",
+    "〜によって/〜ことで — by doing / through"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 142.2,
-     "end": 145.4,
-     "ja": "第1の習慣が主体的であるです。",
-     "en": "The first habit is being proactive.",
-     "speaker": "Host"
+     "start": 148.2,
+     "end": 150.3,
+     "ja": "まずはカーテンを開けて",
+     "en": "First, open the curtains,",
+     "speaker": "Narrator"
     },
     {
-     "start": 145.7,
-     "end": 148.0,
-     "ja": "具体的にはベッドメイキングとアファメーションを行います。",
-     "en": "Specifically, this involves making the bed and doing affirmations.",
-     "speaker": "Host"
+     "start": 150.3,
+     "end": 152.0,
+     "ja": "ベッドメイキングから始めます。",
+     "en": "and start by making the bed.",
+     "speaker": "Narrator"
     },
     {
-     "start": 148.3,
-     "end": 151.7,
-     "ja": "まずはカーテンを開けてベッドメイキングから始めます。",
-     "en": "First, I open the curtains and start by making the bed.",
-     "speaker": "Host"
+     "start": 152.0,
+     "end": 154.5,
+     "ja": "まあ、せいぜい15秒ぐらいしか",
+     "en": "Well, it only takes about 15 seconds",
+     "speaker": "Narrator"
     },
     {
-     "start": 151.9,
-     "end": 155.9,
-     "ja": "まあせいぜい15秒ぐらいしかかからないんですけど。",
-     "en": "Well, it only takes about 15 seconds at most, though.",
-     "speaker": "Host"
+     "start": 154.5,
+     "end": 156.0,
+     "ja": "かからないんですけど、",
+     "en": "at most, but",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 156.0,
+     "end": 158.5,
+     "ja": "ベッドメイキングは一日の始まりに",
+     "en": "making the bed at the start of the day",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 158.5,
+     "end": 160.7,
+     "ja": "小さな達成感を得られることで",
+     "en": "gives you a small sense of accomplishment,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 160.7,
+     "end": 163.5,
+     "ja": "ストレスを軽減する効果があるそうです。",
+     "en": "which apparently helps reduce stress.",
+     "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 319.5,
-   "end": 331.6,
-   "title": "Benefits of Drinking Plain Hot Water",
+   "start": 320.0,
+   "end": 332.2,
+   "title": "Health Benefits of Hot Water",
    "level": "N3",
    "topics": [
     "daily",
     "food"
    ],
    "grammar": [
-    "〜ことによって — by doing",
-    "〜ながら — while doing"
+    "〜によって/〜ことで — through / by doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 319.8,
-     "end": 322.2,
-     "ja": "まず温かい白湯を準備しましょう。",
-     "en": "First, let's prepare some warm plain hot water.",
-     "speaker": "Host"
+     "start": 320.3,
+     "end": 322.8,
+     "ja": "まず、温かい白湯を準備しましょう。",
+     "en": "First, let's prepare some warm boiled water.",
+     "speaker": "Narrator"
     },
     {
-     "start": 322.5,
-     "end": 326.1,
-     "ja": "内臓がゆっくりと目覚め、消化機能が活性化されます。",
-     "en": "Internal organs gently wake up, and digestive function is activated.",
-     "speaker": "Host"
+     "start": 322.8,
+     "end": 325.2,
+     "ja": "内臓がゆっくりと目覚め、",
+     "en": "Your internal organs gently wake up,",
+     "speaker": "Narrator"
     },
     {
-     "start": 326.4,
-     "end": 331.1,
-     "ja": "白湯を飲むことでダイエットにも役立つ基礎代謝の向上、",
-     "en": "Drinking hot water helps with dieting by boosting basal metabolism,",
-     "speaker": "Host"
+     "start": 325.2,
+     "end": 327.3,
+     "ja": "消化機能が活性化されます。",
+     "en": "and your digestive function is activated.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 327.3,
+     "end": 329.0,
+     "ja": "白湯を飲むことで、",
+     "en": "By drinking warm water,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 329.0,
+     "end": 331.9,
+     "ja": "ダイエットにも役立つ基礎代謝の向上、",
+     "en": "it improves basal metabolism, which helps with dieting,",
+     "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 827.7,
-   "end": 841.4,
-   "title": "No Excuses for Morning Study",
+   "start": 622.6,
+   "end": 639.2,
+   "title": "Practicing Journaling",
    "level": "N3",
    "topics": [
     "daily",
-    "school"
+    "culture"
    ],
    "grammar": [
-    "〜から — because",
-    "〜ましょう — let's"
+    "〜ていく — to keep doing / proceed doing",
+    "〜と言われている — it is said that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 828.0,
-     "end": 830.8,
-     "ja": "朝時間がないから自己研鑽できない？",
-     "en": "\"You don't have time in the morning, so you can't improve yourself?\"",
-     "speaker": "Host"
+     "start": 622.9,
+     "end": 624.4,
+     "ja": "家に帰ったら、",
+     "en": "Once I get home,",
+     "speaker": "Narrator"
     },
     {
-     "start": 830.9,
-     "end": 833.0,
-     "ja": "いやいやいやいや、それは言い訳です。",
-     "en": "No, no, no, that's just an excuse.",
-     "speaker": "Host"
+     "start": 624.4,
+     "end": 628.4,
+     "ja": "第4、5、6の習慣をまとめて行います。",
+     "en": "I practice habits 4, 5, and 6 together.",
+     "speaker": "Narrator"
     },
     {
-     "start": 833.3,
-     "end": 836.4,
-     "ja": "なので、皆さん、しっかり朝の時間を作りましょう。",
-     "en": "So everyone, let's make sure to create that morning time.",
-     "speaker": "Host"
+     "start": 628.4,
+     "end": 632.7,
+     "ja": "ここで行うのが、最強の習慣ジャーナリングです。",
+     "en": "What I do here is the ultimate habit: journaling.",
+     "speaker": "Narrator"
     },
     {
-     "start": 836.7,
-     "end": 840.9,
-     "ja": "お子さんがいて結構忙しい方もいると思うんですけど。",
-     "en": "I think there are people who are quite busy with kids, though.",
-     "speaker": "Host"
+     "start": 632.7,
+     "end": 635.8,
+     "ja": "ジャーナリングは、5分〜10分くらいかけて",
+     "en": "Journaling takes about 5 to 10 minutes,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 635.8,
+     "end": 637.7,
+     "ja": "頭に思いついたものを自由に書いていくもので、",
+     "en": "freely writing down whatever comes to mind,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 637.7,
+     "end": 639.0,
+     "ja": "書く瞑想と言われています。",
+     "en": "and it's called 'written meditation.'",
+     "speaker": "Narrator"
     }
    ]
   }
@@ -133,5 +181,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -1,0 +1,30 @@
+{
+ "videoId": "C-3u4RGslhE",
+ "ids": [
+  "C-3u4RGslhE-122",
+  "C-3u4RGslhE-175"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "C-3u4RGslhE-122": {
+   "id": "C-3u4RGslhE-122",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear practical dining vocabulary supported by text and avatar."
+  },
+  "C-3u4RGslhE-175": {
+   "id": "C-3u4RGslhE-175",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear ryokan dialogue with slightly longer sentences for beginners."
+  }
+ }
+}

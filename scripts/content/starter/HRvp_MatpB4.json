@@ -1,0 +1,30 @@
+{
+ "videoId": "HRvp_MatpB4",
+ "ids": [
+  "HRvp_MatpB4-111",
+  "HRvp_MatpB4-130"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "HRvp_MatpB4-111": {
+   "id": "HRvp_MatpB4-111",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous, relatable convenience store exchange with clear voices."
+  },
+  "HRvp_MatpB4-130": {
+   "id": "HRvp_MatpB4-130",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Comedic internal monologue, but visually static on the floor."
+  }
+ }
+}

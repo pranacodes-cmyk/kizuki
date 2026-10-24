@@ -1,0 +1,30 @@
+{
+ "videoId": "sXrS9oKV1Dc",
+ "ids": [
+  "sXrS9oKV1Dc-45",
+  "sXrS9oKV1Dc-72"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "sXrS9oKV1Dc-45": {
+   "id": "sXrS9oKV1Dc-45",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Fun interactive wordplay game with clear narration and colorful graphics."
+  },
+  "sXrS9oKV1Dc-72": {
+   "id": "sXrS9oKV1Dc-72",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute interactive riddle game with simple vocabulary and clear audio."
+  }
+ }
+}

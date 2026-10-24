@@ -1,0 +1,30 @@
+{
+ "videoId": "sc0PAgZoE50",
+ "ids": [
+  "sc0PAgZoE50-704",
+  "sc0PAgZoE50-741"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "sc0PAgZoE50-741": {
+   "id": "sc0PAgZoE50-741",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous Death Note quote during a casual phone call."
+  },
+  "sc0PAgZoE50-704": {
+   "id": "sc0PAgZoE50-704",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Natural banter about study hours featuring an anime catchphrase."
+  }
+ }
+}

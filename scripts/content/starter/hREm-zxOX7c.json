@@ -1,0 +1,19 @@
+{
+ "videoId": "hREm-zxOX7c",
+ "ids": [
+  "hREm-zxOX7c-702"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "hREm-zxOX7c-702": {
+   "id": "hREm-zxOX7c-702",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear presentation of everyday breakfast vocabulary and greeting."
+  }
+ }
+}

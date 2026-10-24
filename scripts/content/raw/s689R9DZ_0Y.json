@@ -2,8 +2,8 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 5.3,
-   "end": 18.8,
+   "start": 5.4,
+   "end": 19.3,
    "title": "Why Are We on a Date?",
    "level": "N3",
    "topics": [
@@ -13,35 +13,34 @@
    ],
    "grammar": [
     "〜んだろう — wondering to oneself",
-    "〜から — giving a reason",
-    "〜し — listing reasons / trailing off"
+    "〜から — stating a reason"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 5.6,
-     "end": 9.5,
+     "end": 9.1,
      "ja": "どうして僕は赤城とデートしてるんだろうな。",
-     "en": "Why am I on a date with Akagi anyway?",
+     "en": "Why am I on a date with Akagi?",
      "speaker": "Sakuta"
     },
     {
-     "start": 10.0,
-     "end": 12.8,
+     "start": 9.7,
+     "end": 13.2,
      "ja": "梓川君が私の誘いを断らなかったから。",
      "en": "Because you didn't turn down my invitation, Azusagawa-kun.",
      "speaker": "Akagi"
     },
     {
-     "start": 13.1,
-     "end": 15.5,
+     "start": 13.5,
+     "end": 15.9,
      "ja": "赤城だから断らなかったんだよ。",
-     "en": "I only said yes because it was you, Akagi.",
+     "en": "I didn't turn it down because it was you, Akagi.",
      "speaker": "Sakuta"
     },
     {
-     "start": 15.8,
-     "end": 18.5,
+     "start": 16.3,
+     "end": 18.9,
      "ja": "例の夢のこと気にしてるんだろうし。",
      "en": "And you're probably worried about that dream, too.",
      "speaker": "Sakuta"
@@ -50,30 +49,29 @@
   },
   {
    "start": 29.8,
-   "end": 49.3,
-   "title": "A Dream Everyone Shared",
+   "end": 50.2,
+   "title": "Everyone Had the Same Dream",
    "level": "N3",
    "topics": [
     "anime",
     "daily"
    ],
    "grammar": [
-    "〜ような — like / similar to",
     "〜通りに — just as / according to",
-    "〜はず — should be / expected to"
+    "〜はず — expected to / ought to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 29.9,
-     "end": 33.7,
-     "ja": "ここにいるみんなも同じような夢を見たんだね。",
-     "en": "Everyone here must have had a similar dream.",
+     "start": 30.0,
+     "end": 33.4,
+     "ja": "ここにいるみんなも、同じような夢を見たんだね。",
+     "en": "Everyone here must have had a similar dream too, huh.",
      "speaker": "Akagi"
     },
     {
-     "start": 33.9,
-     "end": 37.6,
+     "start": 34.0,
+     "end": 37.4,
      "ja": "桜島麻衣が霧島透子だってカミングアウトする夢。",
      "en": "A dream where Mai Sakurajima comes out as Touko Kirishima.",
      "speaker": "Akagi"
@@ -81,58 +79,64 @@
     {
      "start": 38.0,
      "end": 41.8,
-     "ja": "みんな『夢見る』に書かれた通りになることを望んでるんだな。",
-     "en": "Everyone hopes it comes true just like it said on Yumemiru, huh.",
+     "ja": "みんな、夢見るに書かれた通りになることを望んでるんだな。",
+     "en": "Everyone hopes things turn out just as written on #Yumemiru, huh.",
      "speaker": "Sakuta"
     },
     {
      "start": 43.0,
-     "end": 49.0,
-     "ja": "まあでも、麻衣さんがステージでちゃんと否定してくれるはずだから、そんな騒ぎも今日で終わりってことだな。",
-     "en": "Well, Mai-san will surely deny it on stage, so this whole commotion should end today.",
+     "end": 47.2,
+     "ja": "まあでも、麻衣さんがステージでちゃんと否定してくれるはずだから、",
+     "en": "Well, but Mai-san is supposed to deny it on stage, so...",
+     "speaker": "Sakuta"
+    },
+    {
+     "start": 47.3,
+     "end": 49.8,
+     "ja": "そんな騒ぎも今日で終わりってことだな。",
+     "en": "this whole commotion should end today.",
      "speaker": "Sakuta"
     }
    ]
   },
   {
-   "start": 338.2,
-   "end": 354.5,
-   "title": "Authorized Personnel Only",
+   "start": 338.0,
+   "end": 355.7,
+   "title": "Rushing into the Dressing Room",
    "level": "N4",
    "topics": [
     "anime",
     "daily"
    ],
    "grammar": [
-    "〜以外 — other than / except",
-    "〜てして — polite trailing justification",
-    "〜んですか — asking for explanation"
+    "〜以外 — other than / except for",
+    "どうしたの — what happened?"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 338.4,
-     "end": 340.5,
+     "start": 338.3,
+     "end": 340.7,
      "ja": "関係者以外立ち入り禁止です。",
      "en": "Authorized personnel only.",
      "speaker": "Guard"
     },
     {
      "start": 340.8,
-     "end": 343.1,
+     "end": 343.3,
      "ja": "僕も一応関係者でして…",
-     "en": "I'm technically an insider too...",
+     "en": "I'm sort of authorized too...",
      "speaker": "Sakuta"
     },
     {
-     "start": 343.3,
-     "end": 344.6,
-     "ja": "あ、花輪さん！",
-     "en": "Ah, Hanawa-san!",
+     "start": 343.5,
+     "end": 345.0,
+     "ja": "花輪さん！",
+     "en": "Hanawa-san!",
      "speaker": "Sakuta"
     },
     {
-     "start": 345.9,
+     "start": 345.6,
      "end": 347.1,
      "ja": "どうしたんですか？",
      "en": "What's the matter?",
@@ -146,31 +150,31 @@
      "speaker": "Sakuta"
     },
     {
-     "start": 349.8,
-     "end": 351.0,
+     "start": 350.0,
+     "end": 351.2,
      "ja": "麻衣さん！",
      "en": "Mai-san!",
      "speaker": "Sakuta"
     },
     {
-     "start": 351.2,
-     "end": 352.1,
+     "start": 351.4,
+     "end": 352.3,
      "ja": "咲太？",
      "en": "Sakuta?",
      "speaker": "Mai"
     },
     {
-     "start": 352.2,
-     "end": 353.5,
-     "ja": "なんともないですか？",
-     "en": "Are you all right?",
+     "start": 352.5,
+     "end": 353.7,
+     "ja": "何ともないですか？",
+     "en": "Are you alright?",
      "speaker": "Sakuta"
     },
     {
-     "start": 353.6,
-     "end": 354.3,
-     "ja": "どうしたのよ。",
-     "en": "What's going on?",
+     "start": 353.9,
+     "end": 355.3,
+     "ja": "どうしたのよ？",
+     "en": "What's wrong?",
      "speaker": "Mai"
     }
    ]
@@ -180,5 +184,6 @@
  "pickTopics": [
   "anime"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -1,0 +1,19 @@
+{
+ "videoId": "8bZIk8S2RhU",
+ "ids": [
+  "8bZIk8S2RhU-222"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "8bZIk8S2RhU-222": {
+   "id": "8bZIk8S2RhU-222",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Very clear and simple repetition, though visual slides are static."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "i2D7arFGfL8",
+ "ids": [
+  "i2D7arFGfL8-20"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "i2D7arFGfL8-20": {
+   "id": "i2D7arFGfL8-20",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Relatable student banter, clear speech, but slightly fast for absolute beginners."
+  }
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "videoId": "dVCj33Lm4Tg",
+ "ids": [
+  "dVCj33Lm4Tg-18"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "dVCj33Lm4Tg-18": {
+   "id": "dVCj33Lm4Tg-18",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [
+    "static image"
+   ],
+   "why": "Clear beginner introduction speech, but visually static graphic slide."
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "videoId": "DiFJBm2J_FU",
+ "ids": [
+  "DiFJBm2J_FU-15",
+  "DiFJBm2J_FU-74"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "DiFJBm2J_FU-74": {
+   "id": "DiFJBm2J_FU-74",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple, slow dialogue from a stage play depicting clear everyday concepts."
+  },
+  "DiFJBm2J_FU-15": {
+   "id": "DiFJBm2J_FU-15",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [
+    "starts mid-sentence"
+   ],
+   "why": "Helpful beginner vocabulary cut off slightly at the beginning."
+  }
+ }
+}

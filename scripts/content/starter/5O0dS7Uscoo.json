@@ -1,0 +1,21 @@
+{
+ "videoId": "5O0dS7Uscoo",
+ "ids": [
+  "5O0dS7Uscoo-325"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "5O0dS7Uscoo-325": {
+   "id": "5O0dS7Uscoo-325",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Casual street interview with overlapping dialogue and background music."
+  }
+ }
+}

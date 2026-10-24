@@ -1,0 +1,19 @@
+{
+ "videoId": "7drGlBwxlZg",
+ "ids": [
+  "7drGlBwxlZg-14"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "7drGlBwxlZg-14": {
+   "id": "7drGlBwxlZg-14",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Practical real-life restaurant interactions with helpful on-screen subtitles."
+  }
+ }
+}

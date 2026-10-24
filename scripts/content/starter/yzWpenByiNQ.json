@@ -1,0 +1,32 @@
+{
+ "videoId": "yzWpenByiNQ",
+ "ids": [
+  "yzWpenByiNQ-153",
+  "yzWpenByiNQ-202"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "yzWpenByiNQ-153": {
+   "id": "yzWpenByiNQ-153",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "background noise"
+   ],
+   "why": "Casual cooking scene with clear food visuals and everyday vocabulary."
+  },
+  "yzWpenByiNQ-202": {
+   "id": "yzWpenByiNQ-202",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Engaging mukbang scene with clear and relatable casual dining dialogue."
+  }
+ }
+}

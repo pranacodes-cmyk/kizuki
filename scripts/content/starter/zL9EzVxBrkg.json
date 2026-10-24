@@ -1,0 +1,30 @@
+{
+ "videoId": "zL9EzVxBrkg",
+ "ids": [
+  "zL9EzVxBrkg-13",
+  "zL9EzVxBrkg-720"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "zL9EzVxBrkg-13": {
+   "id": "zL9EzVxBrkg-13",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear vlog greeting introducing street interview challenges."
+  },
+  "zL9EzVxBrkg-720": {
+   "id": "zL9EzVxBrkg-720",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Standard channel outro asking viewers to leave questions in comments."
+  }
+ }
+}

@@ -2,142 +2,128 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 21.3,
-   "end": 35.5,
-   "title": "Starting the Remote Workday",
+   "start": 21.0,
+   "end": 35.8,
+   "title": "Starting the Remote Work Day",
    "level": "N3",
    "topics": [
     "work",
     "daily"
    ],
    "grammar": [
-    "〜系 — related to / type of",
-    "〜たり〜たり — doing things like"
+    "〜たいので — because I want to...",
+    "〜たり — doing things like..."
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 21.5,
-     "end": 24.3,
+     "start": 21.2,
+     "end": 23.7,
      "ja": "私の会社では9時半が始業です。",
      "en": "At my company, work starts at 9:30.",
      "speaker": "Narrator"
     },
     {
-     "start": 24.5,
-     "end": 28.5,
+     "start": 23.9,
+     "end": 28.2,
      "ja": "午前中は一人で集中をしたいので、作業系の仕事を入れています。",
-     "en": "I want to focus on my own in the morning, so I schedule hands-on tasks.",
+     "en": "I schedule task-based work in the morning since I like to focus on my own.",
      "speaker": "Narrator"
     },
     {
-     "start": 28.8,
-     "end": 31.5,
-     "ja": "私のメインの仕事はプロジェクトマネジメントなので、",
-     "en": "My main job is project management,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 31.5,
+     "start": 28.5,
      "end": 35.5,
-     "ja": "チームのみんなにSlackで連絡したり、仕様を考えるなどの作業がメインです。",
-     "en": "so contacting the team on Slack and drafting specifications make up most of my work.",
+     "ja": "私のメインの仕事はプロジェクトマネジメントなので、チームのみんなにSlackで連絡したり、仕様を考えるなどの作業がメインです。",
+     "en": "Since my main role is project management, my work mostly involves messaging the team on Slack and thinking about specifications.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 133.0,
-   "end": 143.5,
-   "title": "Balancing Work and Housework",
+   "start": 93.2,
+   "end": 103.5,
+   "title": "Lunch Break Rule While Working from Home",
    "level": "N3",
    "topics": [
     "work",
     "daily"
    ],
    "grammar": [
-    "〜を意識している — being conscious of",
-    "〜と決めている — having decided to"
+    "〜ことを意識する — be mindful of doing",
+    "〜と決めている — make it a rule to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 133.2,
-     "end": 137.0,
+     "start": 93.2,
+     "end": 97.0,
      "ja": "ランチは軽めに食べて、しっかり休憩を取ることを意識しています。",
-     "en": "I make a point of keeping lunch light and taking a proper break.",
+     "en": "I make a point to eat a light lunch and take a proper break.",
      "speaker": "Narrator"
     },
     {
-     "start": 137.3,
-     "end": 140.2,
+     "start": 97.3,
+     "end": 100.2,
      "ja": "リモートワーク中には家事をするとかなり疲れるので、",
-     "en": "Doing chores while working remotely really tires me out,",
+     "en": "Doing chores while working remotely really tires me out, so...",
      "speaker": "Narrator"
     },
     {
-     "start": 140.4,
-     "end": 143.5,
+     "start": 100.4,
+     "end": 103.2,
      "ja": "勤務中は家事をしないと決めています。",
-     "en": "so I've decided not to do chores during work hours.",
+     "en": "I make it a rule not to do any chores during work hours.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 622.5,
-   "end": 644.0,
-   "title": "Reading on Kindle Before Bed",
+   "start": 387.2,
+   "end": 404.0,
+   "title": "Making Time for Night Reading",
    "level": "N3",
    "topics": [
     "daily",
     "fun"
    ],
    "grammar": [
-    "〜前に — before doing",
-    "〜ようにしている — making an effort to"
+    "〜ようにしている — make an effort to",
+    "〜ので — because"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 622.7,
-     "end": 626.7,
-     "ja": "はい、寝る前にKindleで読書をしていきます。",
-     "en": "Okay, before going to sleep, I'll read on my Kindle.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 627.5,
-     "end": 630.8,
+     "start": 387.4,
+     "end": 389.7,
      "ja": "アウトプットはすごい得意なんですけど、",
-     "en": "I'm really good at output,",
+     "en": "I'm really good at output, but...",
      "speaker": "Narrator"
     },
     {
-     "start": 630.9,
-     "end": 632.4,
-     "ja": "インプットが苦手で、",
-     "en": "but not very good at input,",
+     "start": 389.9,
+     "end": 391.9,
+     "ja": "インプットが苦手なので、",
+     "en": "since I struggle with input,",
      "speaker": "Narrator"
     },
     {
-     "start": 632.6,
-     "end": 637.0,
+     "start": 392.1,
+     "end": 396.7,
      "ja": "意識して1日30分は読書の時間を取るようにしています。",
-     "en": "so I consciously try to spend at least 30 minutes reading each day.",
+     "en": "I consciously try to set aside 30 minutes each day for reading.",
      "speaker": "Narrator"
     },
     {
-     "start": 637.5,
-     "end": 641.2,
-     "ja": "Kindle Paperwhiteはブルーライトカットなので、",
+     "start": 397.1,
+     "end": 400.3,
+     "ja": "Kindle Paperwhiteはブルーライトをカットなので、",
      "en": "The Kindle Paperwhite blocks blue light,",
      "speaker": "Narrator"
     },
     {
-     "start": 641.3,
-     "end": 644.0,
-     "ja": "目にも優しいのでオススメです。",
+     "start": 400.5,
+     "end": 403.7,
+     "ja": "目にも優しいのでおすすめです。",
      "en": "so it's gentle on your eyes and I really recommend it.",
      "speaker": "Narrator"
     }
@@ -148,5 +134,6 @@
  "pickTopics": [
   "work"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

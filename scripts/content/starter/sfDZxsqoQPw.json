@@ -1,0 +1,19 @@
+{
+ "videoId": "sfDZxsqoQPw",
+ "ids": [
+  "sfDZxsqoQPw-81"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "sfDZxsqoQPw-81": {
+   "id": "sfDZxsqoQPw-81",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear slow audio with furigana, but static presentation slide format."
+  }
+ }
+}

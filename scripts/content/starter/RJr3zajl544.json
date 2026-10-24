@@ -1,0 +1,30 @@
+{
+ "videoId": "RJr3zajl544",
+ "ids": [
+  "RJr3zajl544-27",
+  "RJr3zajl544-68"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "RJr3zajl544-68": {
+   "id": "RJr3zajl544-68",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear slow NHK audio over a static article slide."
+  },
+  "RJr3zajl544-27": {
+   "id": "RJr3zajl544-27",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear beginner-friendly NHK news audio over a still screen capture."
+  }
+ }
+}

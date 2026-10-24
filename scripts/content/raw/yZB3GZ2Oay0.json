@@ -3,107 +3,114 @@
  "clips": [
   {
    "start": 35.0,
-   "end": 49.0,
+   "end": 46.5,
    "title": "Once Upon a Time",
    "level": "N5",
    "topics": [
     "anime",
-    "animals",
-    "friends"
+    "animals"
    ],
    "grammar": [
-    "おりました — humble polite form of いました",
-    "〜ぼう — casual volitional (let's)"
+    "〜う／〜よう — let's ... (volitional)"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 35.4,
-     "end": 38.1,
+     "end": 37.8,
      "ja": "昔々あるところに、",
      "en": "Once upon a time, in a certain place,",
      "speaker": "Narrator"
     },
     {
-     "start": 38.1,
-     "end": 40.3,
+     "start": 37.8,
+     "end": 40.4,
      "ja": "タヌキとキツネがおりました。",
      "en": "there lived a tanuki and a fox.",
      "speaker": "Narrator"
     },
     {
-     "start": 44.8,
-     "end": 46.2,
+     "start": 44.2,
+     "end": 45.8,
      "ja": "遊ぼ。",
      "en": "Let's play.",
      "speaker": "Kitsune"
-    },
-    {
-     "start": 46.4,
-     "end": 48.5,
-     "ja": "う〜ん…",
-     "en": "Mmm...",
-     "speaker": "Tanuki"
     }
    ]
   },
   {
    "start": 102.5,
-   "end": 133.8,
-   "title": "Saying Hello to Friends",
+   "end": 118.5,
+   "title": "Greeting the Animals",
    "level": "N5",
    "topics": [
-    "anime",
     "animals",
+    "anime",
     "daily"
    ],
    "grammar": [
-    "〜さん — polite title suffix (Mr./Ms.)",
-    "〜と一緒に — together with",
-    "〜ています — ongoing state/action"
+    "〜さん — polite suffix"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 102.8,
-     "end": 105.1,
-     "ja": "オオカミさん、こんにちは！",
-     "en": "Hello, Mr. Wolf!",
+     "start": 103.0,
+     "end": 105.4,
+     "ja": "オオカミさん、こんにちは。",
+     "en": "Hello, Mr. Wolf.",
      "speaker": "Narrator"
     },
     {
-     "start": 106.6,
-     "end": 109.1,
-     "ja": "ウサギさん、こんにちは！",
-     "en": "Hello, Mr. Rabbit!",
+     "start": 106.8,
+     "end": 109.2,
+     "ja": "ウサギさん、こんにちは。",
+     "en": "Hello, Mr. Rabbit.",
      "speaker": "Narrator"
     },
     {
-     "start": 110.0,
-     "end": 114.3,
-     "ja": "鳥さん、オコジョさん、龍さん、こんにちは！",
-     "en": "Hello, Mr. Bird, Mr. Ermine, and Mr. Dragon!",
+     "start": 109.8,
+     "end": 114.2,
+     "ja": "鳥さん、オコジョさん、龍さん、こんにちは。",
+     "en": "Hello, Bird, Stoat, and Dragon.",
      "speaker": "Narrator"
     },
     {
      "start": 115.8,
      "end": 118.0,
-     "ja": "クマさん、こんにちは！",
-     "en": "Hello, Mr. Bear!",
+     "ja": "クマさん、こんにちは。",
+     "en": "Hello, Mr. Bear.",
      "speaker": "Narrator"
-    },
+    }
+   ]
+  },
+  {
+   "start": 126.7,
+   "end": 134.0,
+   "title": "A Carefree Daily Life",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "daily",
+    "animals"
+   ],
+   "grammar": [
+    "〜と一緒に — together with",
+    "〜ている — ongoing state / progressive"
+   ],
+   "quality": 5,
+   "lines": [
     {
-     "start": 126.6,
-     "end": 129.8,
+     "start": 127.1,
+     "end": 130.1,
      "ja": "今日もたくさんの仲間たちと一緒に、",
-     "en": "Today again, together with their many friends,",
+     "en": "Today as well, together with their many friends,",
      "speaker": "Narrator"
     },
     {
-     "start": 129.8,
-     "end": 133.4,
+     "start": 130.1,
+     "end": 133.8,
      "ja": "のびのび愉快な毎日を過ごしています。",
-     "en": "they spend their carefree and cheerful days.",
+     "en": "they spend carefree and pleasant days.",
      "speaker": "Narrator"
     }
    ]
@@ -113,5 +120,6 @@
  "pickTopics": [
   "anime"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

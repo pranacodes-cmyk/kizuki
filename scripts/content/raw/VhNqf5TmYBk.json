@@ -2,192 +2,188 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 16.0,
+   "start": 16.5,
    "end": 39.0,
-   "title": "The Tsugaru Tamenobu Origin Theory",
+   "title": "The Tsugaru Tamenobu Theory",
    "level": "N2",
    "topics": [
     "culture",
     "travel"
    ],
    "grammar": [
-    "〜とされる — it is said that",
-    "〜たところ — when/upon doing"
+    "〜として — as / in the role of",
+    "〜させる — causative form",
+    "〜とされる — is considered to be"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 16.5,
-     "end": 20.8,
-     "ja": "津軽藩初代藩主、津軽為信が",
-     "en": "The first lord of the Tsugaru Domain, Tsugaru Tamenobu,",
+     "start": 16.8,
+     "end": 19.4,
+     "ja": "津軽藩初代藩主、",
+     "en": "The first feudal lord of the Tsugaru Domain,",
      "speaker": "Narrator"
     },
     {
-     "start": 21.0,
-     "end": 26.2,
-     "ja": "京都でお国自慢の一つとして大きな灯籠を作らせ、",
-     "en": "had large lanterns made in Kyoto to boast of his home province,",
+     "start": 19.4,
+     "end": 23.7,
+     "ja": "津軽為信が京都でお国自慢の一つとして",
+     "en": "Tsugaru Tamenobu, as a way to boast of his home region in Kyoto,",
      "speaker": "Narrator"
     },
     {
-     "start": 26.3,
-     "end": 29.5,
+     "start": 23.7,
+     "end": 26.5,
+     "ja": "大きな灯籠を作らせ、",
+     "en": "had large lanterns constructed,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 26.5,
+     "end": 29.8,
      "ja": "賑やかに京の都を練り歩いたところ、",
-     "en": "and paraded boisterously through the capital,",
+     "en": "and paraded boisterously through the capital of Kyoto,",
      "speaker": "Narrator"
     },
     {
-     "start": 29.6,
-     "end": 33.6,
+     "start": 29.8,
+     "end": 33.4,
      "ja": "「津軽の大灯籠」などと大評判になり、",
-     "en": "which gained great acclaim as the \"Great Lanterns of Tsugaru,\" and",
+     "en": "gaining great fame as the Great Lanterns of Tsugaru,",
      "speaker": "Narrator"
     },
     {
-     "start": 33.7,
-     "end": 37.1,
+     "start": 33.4,
+     "end": 36.9,
      "ja": "これが津軽でも行われるようになったとされる、",
-     "en": "leading to it allegedly being held in Tsugaru as well:",
+     "en": "which was then allegedly carried on in Tsugaru, according to",
      "speaker": "Narrator"
     },
     {
-     "start": 37.2,
-     "end": 38.8,
-     "ja": "「津軽為信説」。",
-     "en": "the \"Tsugaru Tamenobu theory.\"",
+     "start": 36.9,
+     "end": 38.6,
+     "ja": "津軽為信説。",
+     "en": "the Tsugaru Tamenobu theory.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 40.6,
-   "end": 64.6,
-   "title": "The Folkloric Origin Theory",
+   "start": 41.0,
+   "end": 104.5,
+   "title": "The Nemuri-nagashi Folklore Theory",
    "level": "N2",
    "topics": [
     "culture",
-    "travel"
+    "daily"
    ],
    "grammar": [
     "〜られる — passive voice",
-    "〜とされる — it is considered that"
+    "〜ため — in order to",
+    "〜とされる — is considered to be"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 41.0,
-     "end": 44.5,
+     "start": 41.2,
+     "end": 45.3,
      "ja": "過酷な農作業を強いられる夏場、",
-     "en": "In the summer, when people were forced to do harsh farm work,",
+     "en": "In summer, when people are forced into grueling farm labor,",
      "speaker": "Narrator"
     },
     {
-     "start": 44.7,
-     "end": 46.8,
-     "ja": "睡魔を追い払うため、",
-     "en": "to drive away sleepiness,",
+     "start": 45.3,
+     "end": 50.8,
+     "ja": "睡魔を追い払うため灯籠を川や海に流すという七夕行事、",
+     "en": "the Tanabata ritual of floating lanterns down rivers or the sea to ward off sleepiness,",
      "speaker": "Narrator"
     },
     {
-     "start": 47.0,
-     "end": 52.8,
-     "ja": "灯籠を川や海に流すという七夕行事「眠り流し」が、",
-     "en": "the Tanabata ritual of \"Nemuri-nagashi,\" floating lanterns down rivers and seas,",
+     "start": 50.8,
+     "end": 53.9,
+     "ja": "「眠り流し」が時を経て、",
+     "en": "\"nemuri-nagashi,\" over time,",
      "speaker": "Narrator"
     },
     {
-     "start": 53.0,
-     "end": 56.6,
-     "ja": "時を経てねぶた祭りの起源になったのではという、",
-     "en": "is believed by some to have evolved over time into the origin of the festival:",
+     "start": 53.9,
+     "end": 59.5,
+     "ja": "ねぶた祭の起源になったのではという民俗学説。",
+     "en": "is believed by folklorists to have become the origin of the Nebuta Festival.",
      "speaker": "Narrator"
     },
     {
-     "start": 56.7,
-     "end": 58.7,
-     "ja": "「民俗学説」。",
-     "en": "the \"folkloric theory.\"",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 59.3,
-     "end": 61.7,
+     "start": 59.8,
+     "end": 61.8,
      "ja": "最近はこの民俗学説が",
-     "en": "Recently, this folkloric theory",
+     "en": "Recently, this folklore theory",
      "speaker": "Narrator"
     },
     {
      "start": 61.8,
-     "end": 64.2,
+     "end": 64.1,
      "ja": "最も有力だとされています。",
-     "en": "is considered the most convincing.",
+     "en": "is considered the most plausible.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 105.5,
-   "end": 131.0,
-   "title": "The People's Prayers and Passion",
+   "start": 106.5,
+   "end": 131.5,
+   "title": "Wishes Behind the Nebuta Festival",
    "level": "N2",
    "topics": [
     "culture",
-    "travel"
+    "fun"
    ],
    "grammar": [
-    "〜に違いない — must be / undoubtedly",
-    "〜と言える — it can be said that"
+    "〜に違いない — must be / no doubt that",
+    "〜ように — like / similar to",
+    "〜と言える — can be said that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 106.0,
-     "end": 110.8,
-     "ja": "このように、ねぶた祭りの由来には諸説ありますが、",
-     "en": "Thus, although there are various theories about the origins of the Nebuta Festival,",
+     "start": 106.7,
+     "end": 111.3,
+     "ja": "このように、ねぶた祭の由来には諸説ありますが、",
+     "en": "Thus, while there are various theories about the festival's origin,",
      "speaker": "Narrator"
     },
     {
-     "start": 110.9,
-     "end": 112.5,
-     "ja": "いずれにせよ、",
-     "en": "in any case,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 112.6,
-     "end": 116.3,
-     "ja": "五穀豊穣や無病息災などを願う、",
-     "en": "wishing for bountiful harvests and good health,",
+     "start": 111.3,
+     "end": 116.4,
+     "ja": "いずれにせよ、五穀豊穣や無病息災などを願う",
+     "en": "in any case, wishing for bountiful harvests and good health,",
      "speaker": "Narrator"
     },
     {
      "start": 116.4,
-     "end": 120.2,
+     "end": 120.3,
      "ja": "人々の祈りから生まれたものに違いありません。",
-     "en": "it was undoubtedly born from the prayers of the people.",
+     "en": "it undoubtedly arose from people's prayers.",
      "speaker": "Narrator"
     },
     {
-     "start": 120.4,
-     "end": 124.5,
-     "ja": "そこにねぶたを愛する人々の情熱が加わり、",
-     "en": "With the added passion of the people who love Nebuta,",
+     "start": 120.3,
+     "end": 125.0,
+     "ja": "そこに、ねぶたを愛する人々の情熱が加わり、",
+     "en": "Coupled with the passion of people who love Nebuta,",
      "speaker": "Narrator"
     },
     {
-     "start": 124.6,
-     "end": 127.8,
-     "ja": "現在のような盛大なねぶた祭りに発展、",
-     "en": "it progressed and evolved into the grand festival",
+     "start": 125.0,
+     "end": 127.7,
+     "ja": "現在のような盛大なねぶた祭に",
+     "en": "into the grand festival we see today,",
      "speaker": "Narrator"
     },
     {
-     "start": 127.9,
-     "end": 130.6,
-     "ja": "進歩を遂げたのだと言えるでしょう。",
-     "en": "that we see today.",
+     "start": 127.7,
+     "end": 131.0,
+     "ja": "発展進歩を遂げたのだと言えるでしょう。",
+     "en": "it can truly be said to have developed and progressed.",
      "speaker": "Narrator"
     }
    ]
@@ -197,5 +193,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

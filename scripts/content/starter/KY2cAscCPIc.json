@@ -1,0 +1,19 @@
+{
+ "videoId": "KY2cAscCPIc",
+ "ids": [
+  "KY2cAscCPIc-833"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "KY2cAscCPIc-833": {
+   "id": "KY2cAscCPIc-833",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear and accessible beginner conversation about traveling to Spain."
+  }
+ }
+}

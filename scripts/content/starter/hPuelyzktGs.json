@@ -1,0 +1,19 @@
+{
+ "videoId": "hPuelyzktGs",
+ "ids": [
+  "hPuelyzktGs-53"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "hPuelyzktGs-53": {
+   "id": "hPuelyzktGs-53",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, accessible explanation showing a mikan slice with helpful vocabulary."
+  }
+ }
+}

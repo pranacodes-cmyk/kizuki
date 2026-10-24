@@ -1,0 +1,19 @@
+{
+ "videoId": "kXYRkH9Ypx0",
+ "ids": [
+  "kXYRkH9Ypx0-56"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "kXYRkH9Ypx0-56": {
+   "id": "kXYRkH9Ypx0-56",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Casual street interview about YouTubers with clear Japanese subtitles."
+  }
+ }
+}

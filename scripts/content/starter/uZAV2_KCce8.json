@@ -1,0 +1,32 @@
+{
+ "videoId": "uZAV2_KCce8",
+ "ids": [
+  "uZAV2_KCce8-221",
+  "uZAV2_KCce8-9"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "uZAV2_KCce8-221": {
+   "id": "uZAV2_KCce8-221",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "starts mid-sentence"
+   ],
+   "why": "Casual travel vlog clip featuring conversational Japanese about food plans."
+  },
+  "uZAV2_KCce8-9": {
+   "id": "uZAV2_KCce8-9",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Lively greeting and simple introductory vocabulary ideal for beginners."
+  }
+ }
+}

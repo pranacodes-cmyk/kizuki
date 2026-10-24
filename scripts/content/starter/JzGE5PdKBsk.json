@@ -1,0 +1,30 @@
+{
+ "videoId": "JzGE5PdKBsk",
+ "ids": [
+  "JzGE5PdKBsk-275",
+  "JzGE5PdKBsk-707"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "JzGE5PdKBsk-707": {
+   "id": "JzGE5PdKBsk-707",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear everyday conversational Japanese while traveling."
+  },
+  "JzGE5PdKBsk-275": {
+   "id": "JzGE5PdKBsk-275",
+   "appeal": 7,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Fun dining scene with common celebratory phrases."
+  }
+ }
+}

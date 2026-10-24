@@ -1,0 +1,19 @@
+{
+ "videoId": "S1Xjc3z_k2s",
+ "ids": [
+  "S1Xjc3z_k2s-227"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "S1Xjc3z_k2s-227": {
+   "id": "S1Xjc3z_k2s-227",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Fun roleplay contrasting polite and casual speech styles clearly."
+  }
+ }
+}

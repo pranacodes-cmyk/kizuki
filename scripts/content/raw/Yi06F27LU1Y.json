@@ -4,166 +4,157 @@
   {
    "start": 32.5,
    "end": 48.0,
-   "title": "Enjoying Izakaya Food at Home",
+   "title": "Creating an Izakaya at Home",
    "level": "N3",
    "topics": [
     "food",
     "daily"
    ],
    "grammar": [
-    "〜に行く — go to do something",
-    "〜っぽい — -like, resembling",
-    "〜たり〜たりする — doing things like"
+    "〜っぽい — resembling / -like",
+    "〜たり〜たりする — doing various things like"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 32.8,
-     "end": 36.4,
-     "ja": "外でご飯食べに行くのが好きなんですけれども、",
-     "en": "I really like going out to eat, but...",
-     "speaker": "Kanako"
+     "end": 36.5,
+     "ja": "ま、外でご飯食べに行くのが好きなんですけれども、",
+     "en": "Well, I love going out to eat, but",
+     "speaker": "Woman"
     },
     {
-     "start": 36.5,
-     "end": 40.4,
+     "start": 36.6,
+     "end": 39.5,
      "ja": "ま、今はそれがなかなかできないので、",
-     "en": "well, since that isn't really possible right now,",
-     "speaker": "Kanako"
+     "en": "since that's not really easy to do right now,",
+     "speaker": "Woman"
     },
     {
-     "start": 40.5,
-     "end": 44.0,
+     "start": 39.8,
+     "end": 43.4,
      "ja": "ま、家で居酒屋っぽいメニューにしたりとか、",
-     "en": "I make izakaya-style menus at home,",
-     "speaker": "Kanako"
+     "en": "I enjoy making pub-style dishes at home,",
+     "speaker": "Woman"
     },
     {
-     "start": 44.1,
+     "start": 43.7,
      "end": 47.7,
-     "ja": "お店っぽいメニューにしたりして楽しんでます。",
-     "en": "or cook restaurant-like dishes and enjoy them.",
-     "speaker": "Kanako"
+     "ja": "ま、お店っぽいメニューにしたりして楽しんでます。",
+     "en": "or cooking dishes you might find in a restaurant.",
+     "speaker": "Woman"
     }
    ]
   },
   {
-   "start": 113.1,
-   "end": 135.5,
-   "title": "Tips on Prepping Dried Wheat Gluten",
+   "start": 208.2,
+   "end": 229.2,
+   "title": "Inspiration from the Greengrocer",
    "level": "N3",
    "topics": [
     "food",
     "daily"
    ],
    "grammar": [
-    "〜たら — when / after doing",
-    "〜ちゃう — do completely / accidentally",
-    "〜ように — so that / in order to"
+    "〜てくれる — to do someone a favor",
+    "〜にする — to decide on / make into"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 113.3,
-     "end": 118.0,
-     "ja": "お麩はすぐ水を吸うので、もう柔らかくなったら、",
-     "en": "Fu absorbs water quickly, so once it becomes soft,",
-     "speaker": "Kanako"
+     "start": 208.5,
+     "end": 212.0,
+     "ja": "三つ葉とちくわと塩昆布の和え物は、",
+     "en": "For this tossed mitsuba, chikuwa, and salted kelp,",
+     "speaker": "Woman"
     },
     {
-     "start": 118.1,
-     "end": 120.1,
-     "ja": "もう軽くこう水を絞ります。",
-     "en": "I lightly squeeze out the water like this.",
-     "speaker": "Kanako"
+     "start": 212.3,
+     "end": 215.0,
+     "ja": "ま、きっかけが八百屋のおじさんが、",
+     "en": "it started when the man at the greengrocer's",
+     "speaker": "Woman"
     },
     {
-     "start": 120.2,
-     "end": 124.7,
-     "ja": "あんまり強くやると形が崩れちゃうので、まあちょっと軽めに。",
-     "en": "If you squeeze too hard, it will lose its shape, so keep it gentle.",
-     "speaker": "Kanako"
+     "start": 215.4,
+     "end": 219.7,
+     "ja": "ま、三つ葉「3束で100円でいいよ」って言ってくれたのがきっかけで、",
+     "en": "told me, 'You can have three bunches of mitsuba for 100 yen,'",
+     "speaker": "Woman"
     },
     {
-     "start": 125.5,
-     "end": 129.0,
-     "ja": "でも、まあそんなに水分は残らないように、",
-     "en": "Still, so that too much moisture isn't left behind,",
-     "speaker": "Kanako"
+     "start": 219.9,
+     "end": 222.6,
+     "ja": "で、そのおじさんが「おひたしにすると美味しいから、",
+     "en": "and said, 'It's delicious blanched,",
+     "speaker": "Woman"
     },
     {
-     "start": 129.1,
-     "end": 131.5,
-     "ja": "ちょっと加減があるんですけど、",
-     "en": "it takes a bit of fine-tuning,",
-     "speaker": "Kanako"
+     "start": 222.7,
+     "end": 226.1,
+     "ja": "すぐこうたくさんの量を消費できるから」っていうので、",
+     "en": "and that way you can easily use up a lot of it.'",
+     "speaker": "Woman"
     },
     {
-     "start": 132.4,
-     "end": 135.3,
-     "ja": "耳たぶぐらいの柔らかさですかね。",
-     "en": "about as soft as an earlobe, I'd say.",
-     "speaker": "Kanako"
+     "start": 226.3,
+     "end": 228.6,
+     "ja": "で、そっから考えたレシピで、",
+     "en": "So that's how I came up with this recipe.",
+     "speaker": "Woman"
     }
    ]
   },
   {
-   "start": 900.8,
-   "end": 924.2,
-   "title": "How I Decide Dinner Menus",
+   "start": 501.5,
+   "end": 515.5,
+   "title": "Dinner for the Family, Drinks for Me",
    "level": "N3",
    "topics": [
     "food",
-    "daily"
+    "daily",
+    "family"
    ],
    "grammar": [
-    "〜方 — way of doing",
-    "〜よりも — rather than",
-    "〜うと思う — intend / think to do"
+    "〜ておく (とく) — do beforehand / leave as is",
+    "〜たりする — do things like"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 901.0,
-     "end": 903.4,
-     "ja": "メニューの決め方は、",
-     "en": "As for how I decide on the menu,",
-     "speaker": "Kanako"
+     "start": 501.8,
+     "end": 504.6,
+     "ja": "夕飯は、家族はご飯とお味噌汁と",
+     "en": "For dinner, my family eats rice and miso soup",
+     "speaker": "Woman"
     },
     {
-     "start": 903.5,
-     "end": 907.4,
-     "ja": "家族が何を食べたいよりも、まず",
-     "en": "rather than what my family wants to eat, first",
-     "speaker": "Kanako"
+     "start": 504.7,
+     "end": 507.0,
+     "ja": "このおかずを食べるんですけれど、",
+     "en": "along with these side dishes, but",
+     "speaker": "Woman"
     },
     {
-     "start": 907.5,
-     "end": 912.3,
-     "ja": "「今日私何食べたい？」っていうところから献立を考えることが多いです。",
-     "en": "I often plan the meal starting from, 'What do I feel like eating today?'",
-     "speaker": "Kanako"
+     "start": 507.3,
+     "end": 509.8,
+     "ja": "私の場合はこれはつまみにして、",
+     "en": "in my case, I treat them as snacks with drinks,",
+     "speaker": "Woman"
     },
     {
-     "start": 912.6,
-     "end": 916.8,
-     "ja": "ご飯は全部頑張って作ろうって最近は思ってなくて、",
-     "en": "Lately I don't push myself to make every single dish from scratch,",
-     "speaker": "Kanako"
+     "start": 509.9,
+     "end": 512.2,
+     "ja": "ご飯とお味噌汁はやめといて、",
+     "en": "skip the rice and miso soup,",
+     "speaker": "Woman"
     },
     {
-     "start": 917.0,
-     "end": 920.0,
-     "ja": "まあ仕事も忙しかったりするので、",
-     "en": "since work can be quite busy too,",
-     "speaker": "Kanako"
-    },
-    {
-     "start": 920.1,
-     "end": 923.9,
-     "ja": "まあそういう時は自分でちょっと作って、なんて言うか、",
-     "en": "so at times like that, I just make a little bit myself, and...",
-     "speaker": "Kanako"
+     "start": 512.3,
+     "end": 515.1,
+     "ja": "ビールとか焼酎を飲んだりします。",
+     "en": "and drink beer or shochu instead.",
+     "speaker": "Woman"
     }
    ]
   }
@@ -172,5 +163,6 @@
  "pickTopics": [
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

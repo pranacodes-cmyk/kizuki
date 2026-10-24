@@ -1,0 +1,30 @@
+{
+ "videoId": "cvZPEXFUklo",
+ "ids": [
+  "cvZPEXFUklo-204",
+  "cvZPEXFUklo-339"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "cvZPEXFUklo-339": {
+   "id": "cvZPEXFUklo-339",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Interesting cultural tidbit delivered clearly at a beginner-friendly pace."
+  },
+  "cvZPEXFUklo-204": {
+   "id": "cvZPEXFUklo-204",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Helpful loanword explanation, clear delivery, simple background."
+  }
+ }
+}

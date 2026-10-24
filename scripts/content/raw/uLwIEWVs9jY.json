@@ -3,133 +3,140 @@
  "clips": [
   {
    "start": 11.8,
-   "end": 28.9,
-   "title": "A Great Plan to Betray",
+   "end": 30.5,
+   "title": "Buriburizaemon's Master Plan",
    "level": "N3",
    "topics": [
     "anime",
-    "comedy"
+    "comedy",
+    "fun"
    ],
    "grammar": [
-    "〜だけでは — with only...",
-    "〜よう (volitional) — let's..."
+    "〜てはだめ — cannot / must not",
+    "〜よう — volitional form (let's)"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 12.0,
-     "end": 13.8,
+     "end": 14.1,
      "ja": "私に良い作戦がある。",
      "en": "I have a great plan.",
-     "speaker": "ぶりぶりざえもん"
+     "speaker": "Buriburizaemon"
     },
     {
-     "start": 13.9,
-     "end": 14.8,
+     "start": 14.2,
+     "end": 15.1,
      "ja": "何？",
      "en": "What is it?",
-     "speaker": "アクション仮面＆カンタムロボ"
+     "speaker": "Action Kamen & Kantam Robo"
     },
     {
-     "start": 15.1,
-     "end": 17.0,
-     "ja": "私一人だけではダメだ。",
+     "start": 15.4,
+     "end": 17.3,
+     "ja": "私一人だけではだめだ。",
      "en": "I can't do it alone.",
-     "speaker": "ぶりぶりざえもん"
+     "speaker": "Buriburizaemon"
     },
     {
-     "start": 17.0,
-     "end": 18.8,
-     "ja": "3人そろって…",
-     "en": "All three of us together...",
-     "speaker": "ぶりぶりざえもん"
+     "start": 17.4,
+     "end": 18.9,
+     "ja": "３人揃って…",
+     "en": "The three of us together...",
+     "speaker": "Buriburizaemon"
     },
     {
-     "start": 18.9,
-     "end": 19.9,
+     "start": 19.0,
+     "end": 19.7,
      "ja": "ん？",
-     "en": "Hm?",
-     "speaker": "アクション仮面＆カンタムロボ"
+     "en": "Yeah?",
+     "speaker": "Action Kamen & Kantam Robo"
     },
     {
-     "start": 20.0,
-     "end": 23.8,
-     "ja": "しんのすけを裏切り、相手側に寝返ろう。",
-     "en": "Let's betray Shinnosuke and switch to the enemy's side.",
-     "speaker": "ぶりぶりざえもん"
+     "start": 19.9,
+     "end": 23.2,
+     "ja": "しんのすけを裏切り相手側に寝返ろう。",
+     "en": "Let's betray Shinnosuke and defect to the enemy's side.",
+     "speaker": "Buriburizaemon"
     },
     {
-     "start": 25.8,
-     "end": 26.8,
-     "ja": "痛い！",
-     "en": "Ouch!",
-     "speaker": "ぶりぶりざえもん"
+     "start": 25.6,
+     "end": 28.0,
+     "ja": "痛い！冗談だ！アメリカンジョーク！",
+     "en": "Ouch! It's a joke! An American joke!",
+     "speaker": "Buriburizaemon"
     },
     {
-     "start": 26.8,
-     "end": 28.6,
-     "ja": "冗談！アメリカンジョーク！",
-     "en": "Just kidding! It's an American joke!",
-     "speaker": "ぶりぶりざえもん"
+     "start": 28.6,
+     "end": 30.1,
+     "ja": "あ、いいこと思いついた！",
+     "en": "Ah, I just had a great idea!",
+     "speaker": "Buriburizaemon"
     }
    ]
   },
   {
    "start": 37.4,
-   "end": 50.4,
-   "title": "Who Are You Calling a Coward?",
+   "end": 49.8,
+   "title": "Calling Me a Coward?",
    "level": "N3",
    "topics": [
     "anime",
     "comedy"
    ],
    "grammar": [
-    "〜と言われている — is said to be...",
-    "〜に向かって — towards / to",
+    "〜と言われている — is said to be",
     "〜しかない — have no choice but to"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 37.7,
-     "end": 39.8,
+     "end": 39.5,
      "ja": "臆病者だと？",
      "en": "A coward, you say?",
-     "speaker": "ぶりぶりざえもん"
+     "speaker": "Buriburizaemon"
     },
     {
-     "start": 40.0,
-     "end": 44.7,
-     "ja": "素手で戦ったら世界最強と言われているこの私に向かって臆病者だと？",
-     "en": "Calling me a coward, when I'm said to be the world's strongest in bare-handed combat?",
-     "speaker": "ぶりぶりざえもん"
+     "start": 39.7,
+     "end": 42.8,
+     "ja": "素手で戦ったら世界最強と言われている",
+     "en": "Said to be the strongest in the world in bare-handed combat,",
+     "speaker": "Buriburizaemon"
     },
     {
-     "start": 44.8,
-     "end": 46.3,
-     "ja": "ふざけるなタコ！",
+     "start": 42.9,
+     "end": 45.3,
+     "ja": "この私に向かって臆病者だと？",
+     "en": "you're calling someone like me a coward?",
+     "speaker": "Buriburizaemon"
+    },
+    {
+     "start": 45.4,
+     "end": 46.8,
+     "ja": "ふざけるな、タコ！",
      "en": "Don't mess with me, you jerk!",
-     "speaker": "ぶりぶりざえもん"
+     "speaker": "Buriburizaemon"
     },
     {
-     "start": 46.3,
-     "end": 49.0,
-     "ja": "この状況だと対決するしかねえだろボケ！",
-     "en": "In this situation, I've got no choice but to fight, idiot!",
-     "speaker": "ぶりぶりざえもん"
+     "start": 46.9,
+     "end": 48.7,
+     "ja": "この状況だと対決するしかねえだろ、ボケ！",
+     "en": "In this situation, I have no choice but to fight, idiot!",
+     "speaker": "Buriburizaemon"
     },
     {
-     "start": 49.0,
-     "end": 50.1,
+     "start": 48.8,
+     "end": 49.7,
      "ja": "勝負！",
-     "en": "Bring it on!",
-     "speaker": "ぶりぶりざえもん"
+     "en": "Let's settle this!",
+     "speaker": "Buriburizaemon"
     }
    ]
   },
   {
-   "start": 116.3,
-   "end": 127.0,
+   "start": 116.0,
+   "end": 127.4,
    "title": "30th Anniversary Blu-ray Announcement",
    "level": "N4",
    "topics": [
@@ -137,38 +144,45 @@
     "fun"
    ],
    "grammar": [
-    "〜かける — take (time)",
-    "〜ていく — will continue to / go on doing"
+    "〜ていく — to do continuously over time",
+    "〜ない？ — isn't it? (seeking agreement)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 116.6,
-     "end": 120.0,
-     "ja": "映画30周年記念！歴代ブルーレイが発売だゾ！",
-     "en": "Celebrating 30 years of movies! The classic films are out on Blu-ray!",
-     "speaker": "しんのすけ"
+     "start": 116.2,
+     "end": 119.9,
+     "ja": "映画30周年記念！一気にブルーレイが発売だゾ！",
+     "en": "30th movie anniversary! All the Blu-rays are coming out at once!",
+     "speaker": "Shinnosuke"
     },
     {
      "start": 120.1,
-     "end": 121.9,
-     "ja": "懐かしいですなぁ。",
-     "en": "How nostalgic.",
-     "speaker": "ぶりぶりざえもん"
+     "end": 121.7,
+     "ja": "懐かしいですね〜。",
+     "en": "Brings back memories, doesn't it?",
+     "speaker": "Hiroshi"
     },
     {
-     "start": 122.0,
-     "end": 124.4,
-     "ja": "この頃のオラ、ちょっと幼くない？",
-     "en": "Don't I look a little childish back then?",
-     "speaker": "しんのすけ"
+     "start": 121.9,
+     "end": 124.3,
+     "ja": "この頃のオラ、ちょっとおっかなくない？",
+     "en": "Doesn't the old me look a bit scary?",
+     "speaker": "Shinnosuke"
     },
     {
-     "start": 124.6,
-     "end": 126.7,
-     "ja": "1年かけて発売していくゾ！",
+     "start": 124.4,
+     "end": 125.0,
+     "ja": "ああ！",
+     "en": "Yeah!",
+     "speaker": "Hiroshi"
+    },
+    {
+     "start": 125.2,
+     "end": 127.2,
+     "ja": "１年かけて発売していくぞ！",
      "en": "They'll be released over the course of a year!",
-     "speaker": "しんのすけ"
+     "speaker": "Hiroshi"
     }
    ]
   }
@@ -179,5 +193,6 @@
   "family",
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

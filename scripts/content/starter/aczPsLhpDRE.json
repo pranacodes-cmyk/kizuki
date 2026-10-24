@@ -1,0 +1,19 @@
+{
+ "videoId": "aczPsLhpDRE",
+ "ids": [
+  "aczPsLhpDRE-34"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "aczPsLhpDRE-34": {
+   "id": "aczPsLhpDRE-34",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear cultural explanation of itadakimasu, but visually plain talking head."
+  }
+ }
+}

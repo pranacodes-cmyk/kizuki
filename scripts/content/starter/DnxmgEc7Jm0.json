@@ -1,0 +1,19 @@
+{
+ "videoId": "DnxmgEc7Jm0",
+ "ids": [
+  "DnxmgEc7Jm0-217"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "DnxmgEc7Jm0-217": {
+   "id": "DnxmgEc7Jm0-217",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, slow demonstration of colors on a handcrafted handkerchief."
+  }
+ }
+}

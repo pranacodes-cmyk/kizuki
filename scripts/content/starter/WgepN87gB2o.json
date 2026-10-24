@@ -1,0 +1,21 @@
+{
+ "videoId": "WgepN87gB2o",
+ "ids": [
+  "WgepN87gB2o-106"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "WgepN87gB2o-106": {
+   "id": "WgepN87gB2o-106",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Playful family moment with simple conversational phrases and clear captions."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "viWW5zp0YqA",
+ "ids": [
+  "viWW5zp0YqA-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "viWW5zp0YqA-0": {
+   "id": "viWW5zp0YqA-0",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous anime interaction with clear voice acting and matching visuals."
+  }
+ }
+}

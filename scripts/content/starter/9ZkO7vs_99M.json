@@ -1,0 +1,30 @@
+{
+ "videoId": "9ZkO7vs_99M",
+ "ids": [
+  "9ZkO7vs_99M-10",
+  "9ZkO7vs_99M-153"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "9ZkO7vs_99M-153": {
+   "id": "9ZkO7vs_99M-153",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Useful real-life interaction asking station staff directions."
+  },
+  "9ZkO7vs_99M-10": {
+   "id": "9ZkO7vs_99M-10",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Helpful everyday Japanese asking a stranger for train assistance."
+  }
+ }
+}

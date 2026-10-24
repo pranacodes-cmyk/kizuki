@@ -1,0 +1,19 @@
+{
+ "videoId": "frfCHQDQ3MU",
+ "ids": [
+  "frfCHQDQ3MU-121"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "frfCHQDQ3MU-121": {
+   "id": "frfCHQDQ3MU-121",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Cute anime scene, fairly clear dialogue for anime learners."
+  }
+ }
+}

@@ -2,229 +2,237 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 25.8,
-   "end": 52.0,
+   "start": 25.3,
+   "end": 51.8,
    "title": "Ichiro's Retirement Press Conference",
    "level": "N3",
    "topics": [
+    "fun",
     "comedy",
-    "sports",
-    "fun"
+    "sports"
    ],
    "grammar": [
-    "〜にあたって — on the occasion of / when",
-    "〜はずがない — cannot be / no way that"
+    "〜にあたって — on the occasion of",
+    "〜はずがない — cannot possibly / no way that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 26.0,
-     "end": 28.5,
-     "ja": "ちょっと唐突やけどね、俺イチローがめちゃくちゃ好きでね。",
+     "start": 25.5,
+     "end": 28.0,
+     "ja": "ちょっと突然やけどね、あの俺イチローがめちゃくちゃ好きでね。",
      "en": "This is a bit sudden, but I really love Ichiro.",
      "speaker": "Akagi"
     },
     {
-     "start": 28.5,
-     "end": 29.5,
+     "start": 28.1,
+     "end": 29.0,
      "ja": "あ、好きね。",
-     "en": "Ah, you like him.",
+     "en": "Ah, you do.",
      "speaker": "Kimura Band"
     },
     {
-     "start": 29.5,
+     "start": 29.0,
      "end": 32.0,
-     "ja": "今でもたまにね、イチローの引退会見を見るんよ。",
+     "ja": "今でもたまにね、あのイチローのさ、引退会見を見るんよ。",
      "en": "Even now, I sometimes watch Ichiro's retirement press conference.",
      "speaker": "Akagi"
     },
     {
      "start": 32.0,
-     "end": 33.0,
+     "end": 33.2,
      "ja": "あ、引退会見。",
-     "en": "Ah, retirement press conference.",
+     "en": "Oh, the retirement press conference.",
      "speaker": "Kimura Band"
     },
     {
-     "start": 33.0,
-     "end": 34.8,
+     "start": 33.3,
+     "end": 35.3,
      "ja": "そう、めちゃくちゃかっこよくてさ、それが。",
-     "en": "Yeah, and it's just so incredibly cool.",
+     "en": "Yeah, it was just so cool.",
      "speaker": "Akagi"
     },
     {
-     "start": 35.3,
-     "end": 41.2,
-     "ja": "記者の人から「引退されるにあたって後悔されていることはありませんか？」って聞かれてね。",
-     "en": "A reporter asked him, \"As you retire, is there anything you regret?\"",
+     "start": 35.4,
+     "end": 36.4,
+     "ja": "へえー。",
+     "en": "Huh.",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 36.5,
+     "end": 42.5,
+     "ja": "その中でもね、イチローが記者の人から、「引退されるにあたって後悔されていることはありませんか？」って聞かれてね。",
+     "en": "During it, Ichiro was asked by a reporter, 'As you retire, is there anything you regret?'",
      "speaker": "Akagi"
     },
     {
-     "start": 41.2,
-     "end": 42.0,
+     "start": 42.5,
+     "end": 43.7,
      "ja": "ほうほう。",
      "en": "Uh-huh.",
      "speaker": "Kimura Band"
     },
     {
-     "start": 43.3,
-     "end": 46.5,
-     "ja": "えー、後悔は…ありません。",
-     "en": "Um... regrets? I have none.",
+     "start": 43.8,
+     "end": 47.0,
+     "ja": "「えー、後悔は...ありません。",
+     "en": "'Uh, regrets... I have none.",
      "speaker": "Akagi"
     },
     {
-     "start": 47.0,
+     "start": 47.3,
      "end": 51.5,
-     "ja": "えー、後悔なんてあるはずが…ないじゃないですか。",
-     "en": "Um, there's no way I could possibly have regrets, right?",
+     "ja": "後悔なんてあるはずが...ないじゃないですか。」",
+     "en": "How could I possibly have any regrets?'",
      "speaker": "Akagi"
     }
    ]
   },
   {
-   "start": 119.3,
-   "end": 153.0,
-   "title": "Practicing the Retirement Press Conference",
-   "level": "N3",
-   "topics": [
-    "comedy",
-    "fun"
-   ],
-   "grammar": [
-    "〜はずがない — cannot be / no way that",
-    "〜のに — even though / despite"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 119.5,
-     "end": 120.3,
-     "ja": "はい！",
-     "en": "Yes!",
-     "speaker": "Kimura Band"
-    },
-    {
-     "start": 120.3,
-     "end": 121.2,
-     "ja": "あ、どうぞ。",
-     "en": "Ah, go ahead.",
-     "speaker": "Akagi"
-    },
-    {
-     "start": 121.3,
-     "end": 125.8,
-     "ja": "赤木さんが芸人を引退する理由を教えてください。",
-     "en": "Please tell us why you are retiring from comedy, Akagi-san.",
-     "speaker": "Kimura Band"
-    },
-    {
-     "start": 127.5,
-     "end": 132.5,
-     "ja": "えー、理由は…ありません。",
-     "en": "Um, as for a reason... there is none.",
-     "speaker": "Akagi"
-    },
-    {
-     "start": 133.8,
-     "end": 138.8,
-     "ja": "理由なんてあるはずが、ないじゃないですか。",
-     "en": "There's no way there could be a reason, right?",
-     "speaker": "Akagi"
-    },
-    {
-     "start": 140.0,
-     "end": 143.0,
-     "ja": "えっと、理由がないのに引退されるんですか？",
-     "en": "Um, you're retiring even though there's no reason?",
-     "speaker": "Kimura Band"
-    },
-    {
-     "start": 143.3,
-     "end": 146.0,
-     "ja": "えー、引退はしません。",
-     "en": "Um... I'm not retiring.",
-     "speaker": "Akagi"
-    },
-    {
-     "start": 146.5,
-     "end": 150.0,
-     "ja": "引退なんてするはずがないじゃないですか。",
-     "en": "There's no way I would retire, right?",
-     "speaker": "Akagi"
-    },
-    {
-     "start": 150.8,
-     "end": 152.8,
-     "ja": "では、これは何の時間でしょうか？",
-     "en": "Then what is this time for?!",
-     "speaker": "Kimura Band"
-    }
-   ]
-  },
-  {
-   "start": 217.2,
-   "end": 240.2,
-   "title": "Trapped in the Hall",
+   "start": 111.2,
+   "end": 139.5,
+   "title": "Practicing a Retirement Press Conference",
    "level": "N4",
    "topics": [
     "comedy",
     "fun"
    ],
    "grammar": [
-    "〜つもり — intention / plan",
-    "〜てもらう — have someone do"
+    "〜ていただく — to have someone do",
+    "〜はずがない — cannot possibly / no way that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 217.4,
-     "end": 219.5,
-     "ja": "あれ？開かない！",
-     "en": "Huh? It won't open!",
-     "speaker": "Kimura Band"
-    },
-    {
-     "start": 219.8,
-     "end": 223.5,
-     "ja": "おい、お前！どういうつもりだよ！？",
-     "en": "Hey, you! What are you planning!?",
-     "speaker": "Kimura Band"
-    },
-    {
-     "start": 224.2,
-     "end": 226.5,
-     "ja": "教えません。",
-     "en": "I won't tell you.",
+     "start": 111.5,
+     "end": 114.2,
+     "ja": "えー、引退します。",
+     "en": "Uh, I am retiring.",
      "speaker": "Akagi"
     },
     {
-     "start": 227.3,
-     "end": 231.2,
-     "ja": "あなたにはここで…死んでもらいます。",
-     "en": "I will have you... die right here.",
+     "start": 115.5,
+     "end": 119.4,
+     "ja": "お集まりいただきありがとうございます。何か質問があればお願いします。",
+     "en": "Thank you for gathering. If you have any questions, please go ahead.",
      "speaker": "Akagi"
     },
     {
-     "start": 236.2,
-     "end": 237.2,
-     "ja": "ごめん、間違えた。",
-     "en": "Sorry, my bad.",
+     "start": 119.5,
+     "end": 120.5,
+     "ja": "はい！",
+     "en": "Yes!",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 120.6,
+     "end": 121.4,
+     "ja": "どうぞ。",
+     "en": "Go ahead.",
      "speaker": "Akagi"
     },
     {
-     "start": 237.2,
-     "end": 238.2,
-     "ja": "だよね！",
-     "en": "I knew it!",
+     "start": 121.5,
+     "end": 126.5,
+     "ja": "では、赤木さんが芸人を引退する理由を教えてください。",
+     "en": "Then, please tell us the reason why you are retiring from comedy, Mr. Akagi.",
      "speaker": "Kimura Band"
     },
     {
-     "start": 238.2,
-     "end": 240.0,
-     "ja": "どうもありがとうございました！",
-     "en": "Thank you very much!",
+     "start": 128.0,
+     "end": 132.3,
+     "ja": "理由はありません。",
+     "en": "There is no reason.",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 133.5,
+     "end": 138.8,
+     "ja": "理由なんてあるはずがないじゃないですか。",
+     "en": "How could there possibly be a reason?",
+     "speaker": "Akagi"
+    }
+   ]
+  },
+  {
+   "start": 139.8,
+   "end": 206.3,
+   "title": "You Can't Leave",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜のに — even though",
+    "〜はずがない — cannot possibly / no way that",
+    "〜ていただく — to humbly be allowed to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 140.1,
+     "end": 143.0,
+     "ja": "理由がないのに引退されるんですか？",
+     "en": "You're retiring even though there's no reason?",
      "speaker": "Kimura Band"
+    },
+    {
+     "start": 143.3,
+     "end": 145.5,
+     "ja": "引退はしません。",
+     "en": "I am not retiring.",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 146.3,
+     "end": 149.9,
+     "ja": "引退なんてするはずがないじゃないですか。",
+     "en": "How could I possibly retire?",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 150.8,
+     "end": 153.9,
+     "ja": "では、これは何の時間でしょうか？",
+     "en": "Then what kind of time is this?",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 154.6,
+     "end": 156.5,
+     "ja": "分かりません。",
+     "en": "I don't know.",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 156.6,
+     "end": 159.2,
+     "ja": "分かるはずがないじゃないですか。",
+     "en": "How could I possibly know?",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 159.3,
+     "end": 162.0,
+     "ja": "分かりました。ではあの、帰らせていただきます。",
+     "en": "Understood. Well then, I will be leaving.",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 162.0,
+     "end": 163.5,
+     "ja": "帰れません。",
+     "en": "You can't leave.",
+     "speaker": "Akagi"
+    },
+    {
+     "start": 163.6,
+     "end": 205.9,
+     "ja": "帰れるはずがないじゃないですか。",
+     "en": "How could you possibly leave?",
+     "speaker": "Akagi"
     }
    ]
   }
@@ -233,5 +241,6 @@
  "pickTopics": [
   "comedy"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

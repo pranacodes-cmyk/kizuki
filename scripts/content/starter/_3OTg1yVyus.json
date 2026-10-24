@@ -1,0 +1,22 @@
+{
+ "videoId": "_3OTg1yVyus",
+ "ids": [
+  "_3OTg1yVyus-145"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "_3OTg1yVyus-145": {
+   "id": "_3OTg1yVyus-145",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "speech overlaps",
+    "background noise"
+   ],
+   "why": "Lively street banter, though slightly fast and chaotic with overlapping speech."
+  }
+ }
+}

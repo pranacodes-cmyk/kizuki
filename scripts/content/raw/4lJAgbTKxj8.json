@@ -2,180 +2,221 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 58.0,
-   "end": 74.0,
-   "title": "Merits of Going to a Club",
-   "level": "N4",
+   "start": 9.3,
+   "end": 36.8,
+   "title": "What's Today's Video About?",
+   "level": "N3",
    "topics": [
-    "friends",
+    "daily",
     "fun"
    ],
    "grammar": [
+    "〜てみる — trying to do",
+    "〜たい — wanting to do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 9.5,
+     "end": 11.2,
+     "ja": "ということで、今日のテーマは？",
+     "en": "So, what is today's theme?",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 11.8,
+     "end": 18.5,
+     "ja": "今日はまたまた外のロケで、クラブの印象を色んな人に聞きましたっていう。",
+     "en": "Today once again we went on location outside and asked various people about their impressions of clubs.",
+     "speaker": "Dan"
+    },
+    {
+     "start": 19.0,
+     "end": 23.5,
+     "ja": "いいですね、それ。自分は働いてるんで、聞いてみたいです。",
+     "en": "That's good. I work there, so I'd like to hear what they say.",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 23.7,
+     "end": 27.2,
+     "ja": "ダンさんの方でDMがきているやつですよね？",
+     "en": "That's the topic you've been getting DMs about, Dan?",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 27.4,
+     "end": 28.8,
+     "ja": "そうだね。",
+     "en": "Yeah.",
+     "speaker": "Dan"
+    },
+    {
+     "start": 29.2,
+     "end": 35.6,
+     "ja": "偏見ある人とかにも聞いて、正していきたいなと。",
+     "en": "We want to ask people who have prejudices too, and correct them.",
+     "speaker": "Dan"
+    },
+    {
+     "start": 35.8,
+     "end": 36.8,
+     "ja": "そういうこと！",
+     "en": "That's right!",
+     "speaker": "Satoshi"
+    }
+   ]
+  },
+  {
+   "start": 103.0,
+   "end": 126.8,
+   "title": "Perks of Making Friends with Club Staff",
+   "level": "N3",
+   "topics": [
+    "fun",
+    "friends"
+   ],
+   "grammar": [
     "〜たら — if/when",
-    "〜てもらう — receive a favor"
+    "〜てもらう — receiving a favor"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 103.2,
+     "end": 107.5,
+     "ja": "え、じゃ例えば具体的に言えば、何がいい、メリットを教えてもらってもいいですか？",
+     "en": "So for example, concretely speaking, what is good? Could you tell us some merits?",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 108.5,
+     "end": 113.0,
+     "ja": "まあちょっとスタッフと仲良くなったら、飲み物は出してもらったり。",
+     "en": "Well, if you get on good terms with the staff, they might give you drinks.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 113.6,
+     "end": 114.8,
+     "ja": "へー！そういう特典がある。",
+     "en": "Heh! There are perks like that.",
+     "speaker": "Dan"
+    },
+    {
+     "start": 114.9,
+     "end": 116.2,
+     "ja": "タダでもらえるってこと？",
+     "en": "Meaning you get them for free?",
+     "speaker": "Satoshi"
+    },
+    {
+     "start": 116.4,
+     "end": 119.5,
+     "ja": "ま、タダでもらったりもあったり、お金払ったりとかも。",
+     "en": "Well, you might get them for free, or you pay for them.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 120.0,
+     "end": 122.5,
+     "ja": "安く入れたりもできるよね。",
+     "en": "You can also get in cheaper, right?",
+     "speaker": "Dan"
+    },
+    {
+     "start": 122.7,
+     "end": 125.4,
+     "ja": "安く入れたり、サービスしてもらえる。",
+     "en": "Get in cheaper, or get special service.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 125.6,
+     "end": 126.8,
+     "ja": "あー、それいいですね。",
+     "en": "Ah, that's nice.",
+     "speaker": "Dan"
+    }
+   ]
+  },
+  {
+   "start": 826.2,
+   "end": 858.8,
+   "title": "Differences Between Nightclubs in Tokyo",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜方 — way / alternative",
+    "慣れる — getting used to"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 58.2,
-     "end": 59.8,
-     "ja": "クラブの印象どうですか？",
+     "start": 826.5,
+     "end": 828.5,
+     "ja": "クラブの印象ってどんな感じですか？",
      "en": "What's your impression of clubs?",
      "speaker": "Satoshi"
     },
     {
-     "start": 60.0,
-     "end": 62.4,
-     "ja": "いいですね！いいところっすよ。",
-     "en": "They're great! It's a nice place.",
-     "speaker": "Interviewee"
+     "start": 828.8,
+     "end": 831.5,
+     "ja": "クラブの印象… どこのクラブですか？",
+     "en": "Impression of clubs... Which club?",
+     "speaker": "Guest"
     },
     {
-     "start": 62.9,
-     "end": 67.9,
-     "ja": "具体的に何がいいか、メリットを教えてください。",
-     "en": "Specifically, what's good about them? Please tell us the merits.",
+     "start": 831.7,
+     "end": 834.5,
+     "ja": "全般的にって言った方がいいですかね。",
+     "en": "Maybe we should say in general.",
      "speaker": "Satoshi"
     },
     {
-     "start": 68.6,
-     "end": 73.5,
-     "ja": "ちょっとスタッフと仲良くなったら、飲み物は出してもらったり。",
-     "en": "If you get a bit friendly with the staff, they might buy you drinks.",
-     "speaker": "Interviewee"
-    }
-   ]
-  },
-  {
-   "start": 510.6,
-   "end": 526.4,
-   "title": "Asking Girls About Nightclubs",
-   "level": "N4",
-   "topics": [
-    "culture",
-    "friends"
-   ],
-   "grammar": [
-    "〜てほしい — wanting someone/something to do",
-    "〜たい — wanting to do"
-   ],
-   "quality": 4,
-   "lines": [
-    {
-     "start": 510.8,
-     "end": 512.4,
-     "ja": "クラブについてどう思われます？",
-     "en": "What do you think about clubs?",
-     "speaker": "Satoshi"
+     "start": 836.5,
+     "end": 840.0,
+     "ja": "僕、渋谷と六本木ちょいちょい行くんすけど、",
+     "en": "I go to Shibuya and Roppongi from time to time, but...",
+     "speaker": "Guest"
     },
     {
-     "start": 512.7,
-     "end": 514.8,
-     "ja": "早く再開してほしい！",
-     "en": "I want them to reopen soon!",
-     "speaker": "Girl 1"
+     "start": 843.8,
+     "end": 847.8,
+     "ja": "渋谷の方がちょっと素人が多い。",
+     "en": "Shibuya has a bit more amateurs.",
+     "speaker": "Guest"
     },
     {
-     "start": 516.4,
-     "end": 518.3,
-     "ja": "早く再開してほしい？",
-     "en": "You want them to reopen soon?",
+     "start": 848.0,
+     "end": 849.6,
+     "ja": "あー、なるほど。",
+     "en": "Ah, I see.",
      "speaker": "Dan"
     },
     {
-     "start": 518.8,
-     "end": 521.1,
-     "ja": "どういうとこがいいんですか？クラブの。",
-     "en": "What do you like about them? Nightclubs.",
+     "start": 849.8,
+     "end": 854.0,
+     "ja": "遊び慣れてない子が多いですかね。",
+     "en": "There are more people who aren't used to partying.",
+     "speaker": "Guest"
+    },
+    {
+     "start": 854.3,
+     "end": 856.2,
+     "ja": "なるほど。それは女の子が？",
+     "en": "I see. You mean the girls?",
      "speaker": "Satoshi"
     },
     {
-     "start": 521.5,
-     "end": 524.4,
-     "ja": "パーッと飲もうって時に飲める！",
-     "en": "You can drink when you want to party hard!",
-     "speaker": "Girl 2"
-    },
-    {
-     "start": 524.6,
-     "end": 526.3,
-     "ja": "あー、はっちゃけられるっていう。",
-     "en": "Ah, being able to go wild.",
-     "speaker": "Satoshi"
-    }
-   ]
-  },
-  {
-   "start": 921.2,
-   "end": 949.7,
-   "title": "Merits of Going to Clubs",
-   "level": "N3",
-   "topics": [
-    "friends",
-    "fun",
-    "culture"
-   ],
-   "grammar": [
-    "〜たことがある — have experienced doing",
-    "〜た方がいい — had better / it is better to"
-   ],
-   "quality": 4,
-   "lines": [
-    {
-     "start": 921.5,
-     "end": 925.3,
-     "ja": "クラブ行ったことありますよね、もちろん？",
-     "en": "You've been to clubs, of course?",
-     "speaker": "Satoshi"
-    },
-    {
-     "start": 926.3,
-     "end": 928.3,
-     "ja": "そのときのメリットは？",
-     "en": "What are the merits from that?",
-     "speaker": "Satoshi"
-    },
-    {
-     "start": 935.9,
-     "end": 937.5,
-     "ja": "例えば知り合いが増えたりとか？",
-     "en": "For example, meeting more people?",
-     "speaker": "Satoshi"
-    },
-    {
-     "start": 937.6,
-     "end": 939.0,
-     "ja": "それもありますよね。",
-     "en": "That happens too, right?",
-     "speaker": "Dan"
-    },
-    {
-     "start": 939.5,
-     "end": 941.3,
-     "ja": "友達が増える。",
-     "en": "You make more friends.",
-     "speaker": "Interviewee"
-    },
-    {
-     "start": 941.4,
-     "end": 943.0,
-     "ja": "増えた方が楽しいもんね。",
-     "en": "It's more fun when you have more friends.",
-     "speaker": "Dan"
-    },
-    {
-     "start": 943.2,
-     "end": 946.7,
-     "ja": "いろんな人脈が増えるっていう。",
-     "en": "Like expanding various personal connections.",
-     "speaker": "Satoshi"
-    },
-    {
-     "start": 946.9,
-     "end": 949.5,
-     "ja": "仕事とかもね、広がっちゃうしね。",
-     "en": "And it can even expand your work opportunities.",
-     "speaker": "Dan"
+     "start": 856.5,
+     "end": 858.5,
+     "ja": "僕の印象ですけど。",
+     "en": "Just my impression, though.",
+     "speaker": "Guest"
     }
    ]
   }
@@ -184,5 +225,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -1,0 +1,30 @@
+{
+ "videoId": "vvOd3XVj9ik",
+ "ids": [
+  "vvOd3XVj9ik-10",
+  "vvOd3XVj9ik-301"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "vvOd3XVj9ik-10": {
+   "id": "vvOd3XVj9ik-10",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple casual dialogue introducing food dish clearly."
+  },
+  "vvOd3XVj9ik-301": {
+   "id": "vvOd3XVj9ik-301",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Energetic presentation of omurice with simple greetings."
+  }
+ }
+}

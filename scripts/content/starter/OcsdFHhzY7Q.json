@@ -1,0 +1,30 @@
+{
+ "videoId": "OcsdFHhzY7Q",
+ "ids": [
+  "OcsdFHhzY7Q-0",
+  "OcsdFHhzY7Q-475"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "OcsdFHhzY7Q-0": {
+   "id": "OcsdFHhzY7Q-0",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute origami fox intro with clear, beginner-friendly Japanese speech."
+  },
+  "OcsdFHhzY7Q-475": {
+   "id": "OcsdFHhzY7Q-475",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Specific procedural folding step with slightly more complex conversational grammar."
+  }
+ }
+}

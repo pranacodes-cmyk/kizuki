@@ -1,0 +1,30 @@
+{
+ "videoId": "T_9bCuQ2iFY",
+ "ids": [
+  "T_9bCuQ2iFY-0",
+  "T_9bCuQ2iFY-25"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "T_9bCuQ2iFY-25": {
+   "id": "T_9bCuQ2iFY-25",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple everyday food vocabulary with clear slides and slow audio."
+  },
+  "T_9bCuQ2iFY-0": {
+   "id": "T_9bCuQ2iFY-0",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Gentle morning greeting and simple weather terms for absolute beginners."
+  }
+ }
+}

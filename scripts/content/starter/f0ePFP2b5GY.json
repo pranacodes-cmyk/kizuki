@@ -1,0 +1,19 @@
+{
+ "videoId": "f0ePFP2b5GY",
+ "ids": [
+  "f0ePFP2b5GY-107"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "f0ePFP2b5GY-107": {
+   "id": "f0ePFP2b5GY-107",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear voiceover listing everyday food dishes in a familiar restaurant setting."
+  }
+ }
+}

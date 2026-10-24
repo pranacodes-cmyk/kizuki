@@ -2,152 +2,133 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 198.0,
-   "end": 212.0,
-   "title": "Drinking Wine",
+   "start": 38.7,
+   "end": 61.0,
+   "title": "An Online Japanese Teacher",
    "level": "N5",
    "topics": [
-    "food",
-    "daily",
-    "friends"
-   ],
-   "grammar": [
-    "〜を飲みました — drank something",
-    "〜と言いました — said that"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 198.3,
-     "end": 202.4,
-     "ja": "日本のワインを飲みました。",
-     "en": "I drank Japanese wine.",
-     "speaker": "Maria"
-    },
-    {
-     "start": 204.0,
-     "end": 206.4,
-     "ja": "マリアさんは、",
-     "en": "Maria said,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 206.4,
-     "end": 210.0,
-     "ja": "「日本のワインを飲みました」",
-     "en": "\"I drank Japanese wine,\"",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 210.0,
-     "end": 211.5,
-     "ja": "と言いました。",
-     "en": "she said.",
-     "speaker": "Narrator"
-    }
-   ]
-  },
-  {
-   "start": 310.8,
-   "end": 337.8,
-   "title": "Asking Where She Drank Wine",
-   "level": "N5",
-   "topics": [
-    "food",
-    "friends"
-   ],
-   "grammar": [
-    "〜で — at (location of action)",
-    "〜じゃない — is not"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 311.2,
-     "end": 315.6,
-     "ja": "どこで飲んだんですか？",
-     "en": "Where did you drink it?",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 315.6,
-     "end": 321.4,
-     "ja": "どこで二本のワインを飲みましたか？",
-     "en": "Where did you drink two bottles of wine?",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 322.2,
-     "end": 324.7,
-     "ja": "バーですか？",
-     "en": "At a bar?",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 326.1,
-     "end": 330.1,
-     "ja": "バーでワインを飲みましたか？",
-     "en": "Did you drink wine at a bar?",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 332.0,
-     "end": 334.6,
-     "ja": "マリアさんは言いました。",
-     "en": "Maria said,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 334.6,
-     "end": 337.4,
-     "ja": "「バーじゃないです」",
-     "en": "\"It wasn't a bar.\"",
-     "speaker": "Maria"
-    }
-   ]
-  },
-  {
-   "start": 640.4,
-   "end": 653.6,
-   "title": "The Meaning of Nihon",
-   "level": "N5",
-   "topics": [
-    "culture",
+    "work",
+    "school",
     "daily"
    ],
    "grammar": [
-    "〜じゃない — is not",
-    "〜の〜 — possessive / noun modifier"
+    "〜ています — ongoing action / state",
+    "の — noun modifier"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 640.7,
-     "end": 643.3,
-     "ja": "日本のワインです。",
-     "en": "It's Japanese wine.",
-     "speaker": "Narrator"
+     "start": 39.0,
+     "end": 46.2,
+     "ja": "僕はオンラインの日本語の先生です。",
+     "en": "I am an online Japanese teacher.",
+     "speaker": "Speaker"
     },
     {
-     "start": 644.2,
-     "end": 646.6,
-     "ja": "日本のワインです。",
-     "en": "It's wine from Japan.",
-     "speaker": "Narrator"
+     "start": 47.0,
+     "end": 52.5,
+     "ja": "僕はオンラインの日本語の先生です。",
+     "en": "I am an online Japanese teacher.",
+     "speaker": "Speaker"
     },
     {
-     "start": 648.2,
-     "end": 650.6,
-     "ja": "二本じゃないです。",
-     "en": "It wasn't two bottles.",
-     "speaker": "Narrator"
+     "start": 53.4,
+     "end": 60.5,
+     "ja": "僕はオンラインで日本語のレッスンをしています。",
+     "en": "I teach Japanese lessons online.",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 144.0,
+   "end": 212.0,
+   "title": "Maria Drinks Wine",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "food",
+    "fun"
+   ],
+   "grammar": [
+    "〜ました — past polite form",
+    "〜と言う — to say that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 144.5,
+     "end": 152.5,
+     "ja": "マリアさんとワイン、ワインの話をしました。",
+     "en": "I talked about wine with Maria.",
+     "speaker": "Speaker"
     },
     {
-     "start": 651.4,
-     "end": 653.1,
-     "ja": "日本です。",
-     "en": "It was Japan.",
-     "speaker": "Narrator"
+     "start": 154.0,
+     "end": 202.0,
+     "ja": "マリアさんは言いました。「日本のワインを飲みました。」",
+     "en": "Maria said, \"I drank Nihon no wine.\"",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 203.4,
+     "end": 211.5,
+     "ja": "マリアさんは「日本のワインを飲みました」と言いました。",
+     "en": "Maria said that she drank \"Nihon no wine.\"",
+     "speaker": "Speaker"
+    }
+   ]
+  },
+  {
+   "start": 629.8,
+   "end": 702.0,
+   "title": "Japanese Wine vs Two Bottles",
+   "level": "N5",
+   "topics": [
+    "fun",
+    "comedy",
+    "food"
+   ],
+   "grammar": [
+    "じゃない — negative copula",
+    "〜ました — past polite form"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 630.0,
+     "end": 633.2,
+     "ja": "でも、僕は分かりました。",
+     "en": "But then, I understood.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 634.5,
+     "end": 639.0,
+     "ja": "２本のワインじゃないです。",
+     "en": "It wasn't two bottles of wine.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 640.5,
+     "end": 646.0,
+     "ja": "日本のワインです。日本のワインです。",
+     "en": "It was Japanese wine. Japanese wine.",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 647.5,
+     "end": 653.0,
+     "ja": "「２本」じゃないです。「日本」です。",
+     "en": "It wasn't \"two bottles.\" It was \"Japan.\"",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 654.5,
+     "end": 701.0,
+     "ja": "マリアさんは、日本のワインを飲みました。",
+     "en": "Maria drank Japanese wine.",
+     "speaker": "Speaker"
     }
    ]
   }
@@ -157,5 +138,6 @@
   "daily",
   "school"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

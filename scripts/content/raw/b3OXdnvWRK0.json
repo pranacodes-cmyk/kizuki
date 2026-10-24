@@ -3,8 +3,8 @@
  "clips": [
   {
    "start": 207.2,
-   "end": 218.5,
-   "title": "Morning in the Classroom",
+   "end": 218.8,
+   "title": "Right Before Class Starts",
    "level": "N5",
    "topics": [
     "school",
@@ -12,180 +12,158 @@
     "friends"
    ],
    "grammar": [
-    "〜へん — Kansai dialect negation",
-    "〜ます — polite form"
+    "〜へん — Kansai dialect negative",
+    "〜くらい — about / approximately"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 207.5,
-     "end": 208.8,
+     "start": 207.4,
+     "end": 209.0,
      "ja": "おはようございます。",
      "en": "Good morning.",
-     "speaker": "Girl A"
+     "speaker": "A"
     },
     {
-     "start": 208.9,
-     "end": 210.5,
+     "start": 209.3,
+     "end": 211.0,
      "ja": "みんな来えへんな。",
-     "en": "Nobody's showing up yet, huh?",
-     "speaker": "Girl B"
+     "en": "Nobody's showing up, huh.",
+     "speaker": "B"
     },
     {
-     "start": 210.8,
-     "end": 213.2,
-     "ja": "あと、あと７分ぐらいやで。",
-     "en": "There's only about seven minutes left.",
-     "speaker": "Girl A"
+     "start": 211.3,
+     "end": 214.2,
+     "ja": "あと、あと７分ぐらいで…",
+     "en": "In about, about seven minutes...",
+     "speaker": "A"
     },
     {
-     "start": 215.3,
+     "start": 215.0,
      "end": 216.3,
      "ja": "授業始まります。",
      "en": "Class is starting.",
-     "speaker": "Girl A"
+     "speaker": "A"
     },
     {
-     "start": 216.4,
-     "end": 217.5,
-     "ja": "頑張りまーす。",
+     "start": 216.5,
+     "end": 218.2,
+     "ja": "頑張りまーす！",
      "en": "Let's do our best!",
-     "speaker": "Girl B"
-    },
-    {
-     "start": 217.6,
-     "end": 218.5,
-     "ja": "頑張ります。",
-     "en": "I'll do my best.",
-     "speaker": "Girl A"
+     "speaker": "A"
     }
    ]
   },
   {
-   "start": 519.0,
-   "end": 529.5,
-   "title": "Caught on Camera on the Walk Home",
+   "start": 243.8,
+   "end": 258.2,
+   "title": "Studying Delish Kitchen in Class",
+   "level": "N4",
+   "topics": [
+    "school",
+    "comedy",
+    "friends"
+   ],
+   "grammar": [
+    "〜てんの — Kansai casual explanatory question",
+    "めっちゃ — very / super"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 244.0,
+     "end": 246.0,
+     "ja": "見て、姉さんめっちゃかっこいいで。",
+     "en": "Look, she looks so cool.",
+     "speaker": "A"
+    },
+    {
+     "start": 246.1,
+     "end": 247.8,
+     "ja": "うわ、かっこいい！",
+     "en": "Whoa, so cool!",
+     "speaker": "B"
+    },
+    {
+     "start": 250.8,
+     "end": 253.0,
+     "ja": "めっちゃかっこいい、姉さん。",
+     "en": "So cool, Ne-san.",
+     "speaker": "A"
+    },
+    {
+     "start": 254.5,
+     "end": 257.8,
+     "ja": "DELISH KITCHEN 勉強してんの？",
+     "en": "Are you studying on Delish Kitchen?",
+     "speaker": "B"
+    }
+   ]
+  },
+  {
+   "start": 518.5,
+   "end": 538.2,
+   "title": "Complimenting Marina on the Way Home",
    "level": "N4",
    "topics": [
     "friends",
     "school",
-    "daily"
+    "fun"
    ],
    "grammar": [
-    "〜んかった — colloquial past negative",
-    "〜とった — colloquial / dialect progressive form"
+    "〜やん — Kansai dialect tag question",
+    "〜たいと思います — I would like to do"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 519.4,
+     "start": 518.8,
      "end": 520.5,
-     "ja": "びっくりした！",
+     "ja": "びっくりしたー。",
      "en": "You startled me!",
-     "speaker": "Friend"
+     "speaker": "A"
     },
     {
      "start": 520.6,
-     "end": 522.2,
+     "end": 522.0,
      "ja": "全然気づかんかった。",
      "en": "I didn't notice at all.",
-     "speaker": "Friend"
+     "speaker": "A"
     },
     {
-     "start": 522.8,
-     "end": 524.0,
+     "start": 522.3,
+     "end": 523.7,
      "ja": "かわいいよ。",
      "en": "You look cute.",
-     "speaker": "Marina"
+     "speaker": "B"
     },
     {
-     "start": 524.1,
+     "start": 523.8,
      "end": 526.5,
-     "ja": "まりなちゃんのYouTube出るの嬉しい！",
-     "en": "I'm so happy to be on Marina's YouTube!",
-     "speaker": "Friend"
+     "ja": "まりなちゃんのYouTubeデビュー、うれしい！",
+     "en": "I'm so happy for Marina's YouTube debut!",
+     "speaker": "A"
     },
     {
-     "start": 526.9,
-     "end": 529.0,
-     "ja": "もう前も映っとったよ！",
-     "en": "You were already on it earlier too!",
-     "speaker": "Marina"
-    }
-   ]
-  },
-  {
-   "start": 545.0,
-   "end": 607.0,
-   "title": "Compliments from a Best Friend",
-   "level": "N3",
-   "topics": [
-    "friends",
-    "daily",
-    "school"
-   ],
-   "grammar": [
-    "〜てくれる — to do something for someone",
-    "〜ていく — to continue doing into the future",
-    "〜てあげる — to do something for someone"
-   ],
-   "quality": 4,
-   "lines": [
-    {
-     "start": 545.2,
-     "end": 548.8,
-     "ja": "えっと、まりなは、まずあの、すぐツッコんでくれるね。",
-     "en": "Well, first of all, Marina always plays the straight man right away.",
-     "speaker": "Akane"
+     "start": 527.0,
+     "end": 529.2,
+     "ja": "前も映っとったやん、いっぱい。",
+     "en": "You were in it a lot before too, though!",
+     "speaker": "B"
     },
     {
-     "start": 548.9,
-     "end": 549.8,
-     "ja": "はい。",
-     "en": "Yes.",
-     "speaker": "Marina"
+     "start": 530.8,
+     "end": 535.8,
+     "ja": "自主的に、まりなのいいところを説明したいと思います！",
+     "en": "On my own initiative, I'd like to share Marina's good qualities!",
+     "speaker": "A"
     },
     {
-     "start": 555.2,
-     "end": 558.2,
-     "ja": "あと、すごいいいのが、要領がいいなって思います。",
-     "en": "Also, what's really great is that she's so efficient.",
-     "speaker": "Akane"
-    },
-    {
-     "start": 558.3,
-     "end": 559.6,
-     "ja": "時間の使い方が上手い。",
-     "en": "She manages her time really well.",
-     "speaker": "Akane"
-    },
-    {
-     "start": 559.7,
-     "end": 600.6,
-     "ja": "ありがとうございます。",
-     "en": "Thank you so much.",
-     "speaker": "Marina"
-    },
-    {
-     "start": 600.7,
-     "end": 602.1,
-     "ja": "素敵な女性です。",
-     "en": "She's a wonderful girl.",
-     "speaker": "Akane"
-    },
-    {
-     "start": 602.2,
-     "end": 604.6,
-     "ja": "これからももっと素敵な人になっていくと思うので。",
-     "en": "I think she'll become an even more wonderful person from now on.",
-     "speaker": "Akane"
-    },
-    {
-     "start": 604.7,
-     "end": 606.6,
-     "ja": "みんなまりなちゃんを応援してあげて！",
-     "en": "Everyone, please support Marina-chan!",
-     "speaker": "Akane"
+     "start": 536.1,
+     "end": 537.8,
+     "ja": "やったー、ありがとう！",
+     "en": "Yay, thank you!",
+     "speaker": "B"
     }
    ]
   }
@@ -194,5 +172,6 @@
  "pickTopics": [
   "school"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

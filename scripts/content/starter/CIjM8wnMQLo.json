@@ -1,0 +1,19 @@
+{
+ "videoId": "CIjM8wnMQLo",
+ "ids": [
+  "CIjM8wnMQLo-152"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "CIjM8wnMQLo-152": {
+   "id": "CIjM8wnMQLo-152",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous theater sketch with clear sibling dialogue during class observation."
+  }
+ }
+}

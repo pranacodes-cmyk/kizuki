@@ -1,0 +1,30 @@
+{
+ "videoId": "418j00D3moU",
+ "ids": [
+  "418j00D3moU-21",
+  "418j00D3moU-296"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "418j00D3moU-296": {
+   "id": "418j00D3moU-296",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute mother-son moment with natural, practical daily expressions."
+  },
+  "418j00D3moU-21": {
+   "id": "418j00D3moU-21",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple breakfast conversation with useful everyday food vocabulary."
+  }
+ }
+}

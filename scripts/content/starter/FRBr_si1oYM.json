@@ -1,0 +1,19 @@
+{
+ "videoId": "FRBr_si1oYM",
+ "ids": [
+  "FRBr_si1oYM-24"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "FRBr_si1oYM-24": {
+   "id": "FRBr_si1oYM-24",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Cute animated dialogue between student and teacher with clear audio."
+  }
+ }
+}

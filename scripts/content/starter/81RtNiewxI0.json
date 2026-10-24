@@ -1,0 +1,30 @@
+{
+ "videoId": "81RtNiewxI0",
+ "ids": [
+  "81RtNiewxI0-303",
+  "81RtNiewxI0-36"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "81RtNiewxI0-303": {
+   "id": "81RtNiewxI0-303",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Expressive comedic punchline delivered with entertaining theatrical acting."
+  },
+  "81RtNiewxI0-36": {
+   "id": "81RtNiewxI0-36",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Performer speaks very slowly using simplified Japanese tailored for beginners."
+  }
+ }
+}

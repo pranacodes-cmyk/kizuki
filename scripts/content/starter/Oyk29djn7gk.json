@@ -1,0 +1,19 @@
+{
+ "videoId": "Oyk29djn7gk",
+ "ids": [
+  "Oyk29djn7gk-67"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Oyk29djn7gk-67": {
+   "id": "Oyk29djn7gk-67",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, slow beginner vocabulary with helpful visual gestures."
+  }
+ }
+}

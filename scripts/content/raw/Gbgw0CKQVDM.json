@@ -3,71 +3,86 @@
  "clips": [
   {
    "start": 23.0,
-   "end": 41.0,
-   "title": "Traditional Japanese Clothes",
+   "end": 54.0,
+   "title": "Differences Between Kimono and Yukata",
    "level": "N5",
    "topics": [
     "culture"
    ],
    "grammar": [
-    "〜的 — adjectival suffix (-ical/-ive)"
+    "〜ものです — something that is (characteristic/definition)",
+    "〜で — indicates the setting/occasion"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 23.3,
-     "end": 30.0,
+     "start": 23.2,
+     "end": 29.8,
      "ja": "和服は日本の伝統的な服です。",
      "en": "Wafuku is traditional Japanese clothing.",
      "speaker": "Koko"
     },
     {
-     "start": 30.8,
+     "start": 30.3,
      "end": 36.8,
      "ja": "今日は代表的な２つを紹介します。",
-     "en": "Today, I'll introduce two representative examples.",
+     "en": "Today, I will introduce two typical types.",
      "speaker": "Koko"
     },
     {
-     "start": 37.3,
-     "end": 40.5,
+     "start": 37.0,
+     "end": 40.8,
      "ja": "着物と浴衣です。",
-     "en": "Kimono and yukata.",
+     "en": "They are kimono and yukata.",
+     "speaker": "Koko"
+    },
+    {
+     "start": 41.1,
+     "end": 46.9,
+     "ja": "着物はフォーマルなシーンで着るものです。",
+     "en": "A kimono is something worn for formal occasions.",
+     "speaker": "Koko"
+    },
+    {
+     "start": 47.2,
+     "end": 53.7,
+     "ja": "浴衣はカジュアルなシーンで着ます。",
+     "en": "Yukata is worn on casual occasions.",
      "speaker": "Koko"
     }
    ]
   },
   {
-   "start": 119.5,
-   "end": 141.8,
-   "title": "Why People Wear Yukata in Summer",
+   "start": 119.3,
+   "end": 142.0,
+   "title": "History and Comfort of Yukata",
    "level": "N4",
    "topics": [
     "culture"
    ],
    "grammar": [
     "〜として — as / in the role of",
-    "〜ことが多い — often do / it is common to"
+    "〜ことが多い — often do / frequently occurs"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 119.5,
-     "end": 126.5,
+     "end": 126.8,
      "ja": "浴衣は元々下着として使われていたので、",
-     "en": "Yukata was originally used as underwear, so...",
+     "en": "Because yukata was originally used as undergarments,",
      "speaker": "Koko"
     },
     {
      "start": 127.0,
-     "end": 132.8,
-     "ja": "通気性が良く、着心地がいいです。",
-     "en": "...it has good breathability and is comfortable to wear.",
+     "end": 133.1,
+     "ja": "通気性がよく、着心地がいいです。",
+     "en": "it is breathable and comfortable to wear.",
      "speaker": "Koko"
     },
     {
      "start": 133.3,
-     "end": 141.5,
+     "end": 141.6,
      "ja": "夏の花火大会や盆踊りに着ることが多いです。",
      "en": "It is often worn to summer fireworks festivals and Bon Odori dances.",
      "speaker": "Koko"
@@ -75,38 +90,47 @@
    ]
   },
   {
-   "start": 334.0,
-   "end": 357.5,
-   "title": "How to Properly Fold the Collar",
+   "start": 302.8,
+   "end": 334.0,
+   "title": "Introducing Casual Jinbei",
    "level": "N4",
    "topics": [
-    "culture"
+    "culture",
+    "daily"
    ],
    "grammar": [
-    "〜時に — when doing",
-    "〜よね — isn't it / right?"
+    "〜たい — want to",
+    "〜のように — like / in the manner of",
+    "〜(ら)れる — potential form"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 334.0,
-     "end": 341.5,
-     "ja": "和服を着る時に注意する点は、襟の方向です。",
-     "en": "The point to be careful about when wearing wafuku is the collar direction.",
+     "start": 303.0,
+     "end": 312.2,
+     "ja": "もっと気軽に和服を楽しみたい人は甚平がおすすめです。",
+     "en": "For people who want to enjoy Japanese clothing more casually, jinbei is recommended.",
      "speaker": "Koko"
     },
     {
-     "start": 342.0,
-     "end": 348.0,
-     "ja": "着物は襟を重ねて着ますよね。",
-     "en": "Kimono are worn by overlapping the collar, right?",
+     "start": 312.5,
+     "end": 320.3,
+     "ja": "甚平はトップスとボトムスに分かれていて、",
+     "en": "Jinbei is separated into a top and bottom,",
      "speaker": "Koko"
     },
     {
-     "start": 348.5,
-     "end": 357.2,
-     "ja": "その時、右手が襟の中に入るのが正しい方向です。",
-     "en": "At that time, having the right hand slide into the collar is the correct direction.",
+     "start": 320.5,
+     "end": 324.8,
+     "ja": "洋服のように着られます。",
+     "en": "so it can be worn just like Western clothing.",
+     "speaker": "Koko"
+    },
+    {
+     "start": 325.0,
+     "end": 333.8,
+     "ja": "夏のカジュアルなシーンで男性や子どもが着ることが多いです。",
+     "en": "Men and children often wear it in casual summer settings.",
      "speaker": "Koko"
     }
    ]
@@ -116,5 +140,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

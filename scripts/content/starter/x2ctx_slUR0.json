@@ -1,0 +1,19 @@
+{
+ "videoId": "x2ctx_slUR0",
+ "ids": [
+  "x2ctx_slUR0-219"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "x2ctx_slUR0-219": {
+   "id": "x2ctx_slUR0-219",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Fun family moment with clear, simple everyday Japanese phrases."
+  }
+ }
+}

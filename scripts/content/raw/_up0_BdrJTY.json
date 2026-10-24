@@ -2,159 +2,216 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 147.0,
-   "end": 156.0,
-   "title": "Trying a New Starbucks Drink",
-   "level": "N3",
-   "topics": [
-    "food",
-    "daily",
-    "travel"
-   ],
-   "grammar": [
-    "〜そう — looks like",
-    "〜なので — because/since"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 147.3,
-     "end": 150.3,
-     "ja": "結構甘そうな和三盆ほうじ茶ティーラテ、",
-     "en": "This Wasanbon hojicha tea latte looked quite sweet,",
-     "speaker": "Yui"
-    },
-    {
-     "start": 150.3,
-     "end": 155.5,
-     "ja": "無脂肪乳、ライトシロップ、氷少なめでちょうどよかった。",
-     "en": "so ordering it with nonfat milk, light syrup, and less ice made it just right.",
-     "speaker": "Yui"
-    }
-   ]
-  },
-  {
-   "start": 210.6,
-   "end": 231.2,
-   "title": "Resting at the Hotel Before the Meetup",
+   "start": 210.8,
+   "end": 234.8,
+   "title": "Taking a Quick Rest at the Hotel",
    "level": "N4",
    "topics": [
-    "daily",
-    "travel"
-   ],
-   "grammar": [
-    "〜に向けて — heading towards / in preparation for",
-    "〜たいと思います — I would like to"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 210.9,
-     "end": 212.8,
-     "ja": "お部屋に着きました。",
-     "en": "I've arrived in my room.",
-     "speaker": "Yui"
-    },
-    {
-     "start": 213.5,
-     "end": 216.0,
-     "ja": "今、４時４５分。",
-     "en": "It's 4:45 PM right now.",
-     "speaker": "Yui"
-    },
-    {
-     "start": 217.1,
-     "end": 222.0,
-     "ja": "７時のオフ会に向けて上野に泊まって、",
-     "en": "I'm staying in Ueno for the 7:00 PM meetup,",
-     "speaker": "Yui"
-    },
-    {
-     "start": 223.2,
-     "end": 225.8,
-     "ja": "７時からオフ会が新宿であるので、",
-     "en": "and since the meetup starts in Shinjuku at 7:00,",
-     "speaker": "Yui"
-    },
-    {
-     "start": 225.8,
-     "end": 230.7,
-     "ja": "それまではお部屋でゆっくりしたいと思います。",
-     "en": "I'd like to relax in my room until then.",
-     "speaker": "Yui"
-    }
-   ]
-  },
-  {
-   "start": 807.6,
-   "end": 825.8,
-   "title": "Reuniting with Family in the Car",
-   "level": "N4",
-   "topics": [
-    "family",
+    "travel",
     "daily"
    ],
    "grammar": [
-    "〜てくれてありがとう — thank you for doing",
-    "〜てよかった — glad that"
+    "〜に向けて — in preparation for",
+    "〜たい — want to",
+    "〜よう — volitional form"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 808.0,
-     "end": 810.1,
-     "ja": "お迎えありがとうございます。",
-     "en": "Thank you for picking me up.",
-     "speaker": "Yui"
+     "start": 211.1,
+     "end": 213.0,
+     "ja": "お部屋に着きました。",
+     "en": "I've arrived at my room.",
+     "speaker": "Woman"
     },
     {
-     "start": 810.2,
-     "end": 811.0,
-     "ja": "はい。",
-     "en": "Sure.",
+     "start": 213.5,
+     "end": 215.8,
+     "ja": "今4時45分。",
+     "en": "It's 4:45 PM right now.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 217.3,
+     "end": 219.4,
+     "ja": "7時のオフ会に向けて、",
+     "en": "Before the meetup at 7:00,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 220.1,
+     "end": 222.2,
+     "ja": "上野に泊まって、",
+     "en": "I'm staying in Ueno,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 222.8,
+     "end": 225.8,
+     "ja": "7時からオフ会が新宿であるので、",
+     "en": "and since the meetup is in Shinjuku from 7,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 226.2,
+     "end": 228.0,
+     "ja": "それまではお部屋で",
+     "en": "until then, in my room,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 228.2,
+     "end": 230.5,
+     "ja": "ゆっくりしたいと思います。",
+     "en": "I'd like to relax.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 231.2,
+     "end": 232.7,
+     "ja": "結構疲れた。",
+     "en": "I'm pretty tired.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 233.0,
+     "end": 234.4,
+     "ja": "がっつり寝よう。",
+     "en": "I'm going to take a solid nap.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 308.5,
+   "end": 324.5,
+   "title": "Touching up Makeup Before Heading Out",
+   "level": "N4",
+   "topics": [
+    "daily"
+   ],
+   "grammar": [
+    "〜て — sequential actions",
+    "〜直す — to redo / touch up",
+    "〜なんで — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 309.0,
+     "end": 310.6,
+     "ja": "30分ぐらい",
+     "en": "For about 30 minutes,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 311.0,
+     "end": 312.7,
+     "ja": "じっくり寝て、",
+     "en": "I'll get a good sleep,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 313.3,
+     "end": 315.5,
+     "ja": "6時にロビー集合なんで、",
+     "en": "and since we're meeting in the lobby at 6:00,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 315.8,
+     "end": 317.0,
+     "ja": "ちょっとだけね、",
+     "en": "just a little bit,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 317.2,
+     "end": 318.8,
+     "ja": "お化粧だけ直して、",
+     "en": "I'll just touch up my makeup,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 319.3,
+     "end": 323.0,
+     "ja": "リップちょっと濃いめにするぐらい。",
+     "en": "like putting on slightly darker lipstick.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 554.8,
+   "end": 577.8,
+   "title": "Dinner and Chatting with Husband",
+   "level": "N4",
+   "topics": [
+    "family",
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜じゃん — isn't it? (confirmation)",
+    "〜たいなと思って — thinking that I'd like to..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 555.1,
+     "end": 558.0,
+     "ja": "お風呂入って化粧も落として、さっぱり！",
+     "en": "Took a bath, washed off my makeup, so refreshed!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 558.2,
+     "end": 561.0,
+     "ja": "メイクも落として、すごいすっきりな感じ。",
+     "en": "Got my makeup off, feeling completely fresh.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 564.0,
+     "end": 566.0,
+     "ja": "あれさ、鮭冷凍してくれたじゃん。",
+     "en": "You know how you froze that salmon?",
      "speaker": "Husband"
     },
     {
-     "start": 811.8,
-     "end": 813.0,
-     "ja": "ありがとう。",
-     "en": "Thank you.",
-     "speaker": "Yui"
-    },
-    {
-     "start": 815.4,
-     "end": 816.9,
-     "ja": "楽しかった？",
-     "en": "Did you have fun?",
-     "speaker": "Yui"
-    },
-    {
-     "start": 817.0,
-     "end": 817.8,
+     "start": 566.1,
+     "end": 566.9,
      "ja": "うん。",
      "en": "Yeah.",
-     "speaker": "Child"
+     "speaker": "Woman"
     },
     {
-     "start": 818.1,
-     "end": 820.7,
-     "ja": "それぞれ楽しんで合流して、",
-     "en": "We all had our own fun and then met back up,",
-     "speaker": "Yui"
+     "start": 567.0,
+     "end": 570.5,
+     "ja": "あれさ、水曜日の朝、鮭茶漬け食べたいなと思って。",
+     "en": "I was thinking I'd like salmon ochazuke on Wednesday morning.",
+     "speaker": "Husband"
     },
     {
-     "start": 821.1,
-     "end": 822.8,
-     "ja": "最高だね。",
-     "en": "it's the best, isn't it?",
-     "speaker": "Yui"
+     "start": 570.8,
+     "end": 572.4,
+     "ja": "あ、そうなんだ。オッケー。",
+     "en": "Oh, really? Okay.",
+     "speaker": "Woman"
     },
     {
-     "start": 823.9,
-     "end": 825.5,
-     "ja": "会いたかったわ。",
-     "en": "I missed you guys.",
-     "speaker": "Yui"
+     "start": 574.0,
+     "end": 576.5,
+     "ja": "ぶりも美味しいね。",
+     "en": "The yellowtail is delicious too.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 576.6,
+     "end": 577.3,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Husband"
     }
    ]
   }
@@ -163,5 +220,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

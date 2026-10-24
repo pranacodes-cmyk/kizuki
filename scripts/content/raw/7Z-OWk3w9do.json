@@ -2,147 +2,193 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 23.3,
-   "end": 34.8,
-   "title": "Watching Hana-chan",
+   "start": 40.0,
+   "end": 52.0,
+   "title": "Don't Take My Toys",
    "level": "N5",
    "topics": [
     "family",
-    "daily",
-    "anime"
+    "daily"
    ],
    "grammar": [
-    "〜てくる — go and do",
-    "〜てね — please do"
+    "〜ないで — please don't",
+    "〜てあげる — to do something for someone"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 23.6,
-     "end": 26.5,
-     "ja": "しまじろう、ちょっと2階でアイロンかけてくるから",
-     "en": "Shimajiro, I'm going upstairs to iron for a bit,",
-     "speaker": "Mother"
+     "start": 40.2,
+     "end": 41.4,
+     "ja": "はなちゃん。",
+     "en": "Hana-chan.",
+     "speaker": "しまじろう"
     },
     {
-     "start": 26.5,
-     "end": 28.0,
-     "ja": "はなちゃん見ててね。",
-     "en": "so watch Hana-chan, okay?",
-     "speaker": "Mother"
+     "start": 41.6,
+     "end": 43.1,
+     "ja": "これはお兄ちゃんの。",
+     "en": "This is mine.",
+     "speaker": "しまじろう"
     },
     {
-     "start": 28.3,
-     "end": 29.8,
-     "ja": "うん、分かった！",
-     "en": "Yeah, got it!",
-     "speaker": "Shimajiro"
+     "start": 43.3,
+     "end": 44.8,
+     "ja": "はなちゃんのはそっち！",
+     "en": "Yours is over there!",
+     "speaker": "しまじろう"
     },
     {
-     "start": 31.0,
-     "end": 34.6,
-     "ja": "出た！正義のヒーロー、しまじろう号で出発！",
-     "en": "Here he comes! The hero of justice sets off in the Shimajiro-go!",
-     "speaker": "Shimajiro"
+     "start": 45.0,
+     "end": 47.4,
+     "ja": "もう、勝手に取らないでって言ってるでしょ！",
+     "en": "I told you not to just take things without asking!",
+     "speaker": "しまじろう"
+    },
+    {
+     "start": 49.0,
+     "end": 51.7,
+     "ja": "後で貸してあげるからさ。",
+     "en": "I'll let you play with it later, okay?",
+     "speaker": "しまじろう"
     }
    ]
   },
   {
-   "start": 427.6,
-   "end": 444.6,
-   "title": "Wilted Flowers at the Florist",
+   "start": 36.4,
+   "end": 59.7,
+   "title": "Making Pressed Flowers",
    "level": "N4",
    "topics": [
-    "daily",
-    "friends",
-    "anime"
-   ],
-   "grammar": [
-    "〜んだって — hearsay / I heard that",
-    "〜てない — not doing"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 427.7,
-     "end": 432.2,
-     "ja": "ねえ、みみりん。お花屋さんって、枯れた花はどうするの？",
-     "en": "Hey, Mimirin. What does a flower shop do with withered flowers?",
-     "speaker": "Nyakkii"
-    },
-    {
-     "start": 433.0,
-     "end": 436.5,
-     "ja": "もったいないけど、捨てちゃうんだって。",
-     "en": "It's a waste, but I heard they just throw them away.",
-     "speaker": "Mimirin"
-    },
-    {
-     "start": 436.9,
-     "end": 439.4,
-     "ja": "ふーん、何だか可哀想。",
-     "en": "Hmm, that kind of seems sad.",
-     "speaker": "Nyakkii"
-    },
-    {
-     "start": 441.2,
-     "end": 442.2,
-     "ja": "えっ、何？",
-     "en": "Huh? What?",
-     "speaker": "Nyakkii"
-    },
-    {
-     "start": 442.4,
-     "end": 444.3,
-     "ja": "みみりん、何も言ってないわよ。",
-     "en": "Mimirin didn't say anything.",
-     "speaker": "Mimirin"
-    }
-   ]
-  },
-  {
-   "start": 1045.7,
-   "end": 1058.0,
-   "title": "The Cherry Blossom Front",
-   "level": "N4",
-   "topics": [
-    "daily",
     "family",
-    "anime"
+    "daily"
    ],
    "grammar": [
-    "〜ほど — the more... the more...",
-    "〜ば — conditional if"
+    "〜みたい — seems like / looks like",
+    "〜気味 — slight tendency / a touch of"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1045.7,
-     "end": 1047.8,
+     "start": 516.6,
+     "end": 519.0,
+     "ja": "あとは重い本を載せて、と。",
+     "en": "And now we put a heavy book on top.",
+     "speaker": "しまじろう"
+    },
+    {
+     "start": 519.4,
+     "end": 521.8,
+     "ja": "なるほど、押し花か。",
+     "en": "I see, pressed flowers.",
+     "speaker": "お父さん"
+    },
+    {
+     "start": 522.0,
+     "end": 525.0,
+     "ja": "今日は桜の花で遊んできたみたいだね。",
+     "en": "Looks like you had fun playing with cherry blossoms today.",
+     "speaker": "お父さん"
+    },
+    {
+     "start": 525.2,
+     "end": 527.8,
+     "ja": "うん！すっごく面白かったんだ！",
+     "en": "Yeah! It was super fun!",
+     "speaker": "しまじろう"
+    },
+    {
+     "start": 528.0,
+     "end": 530.5,
+     "ja": "ひらひらと、はなちゃんも…",
+     "en": "Flutter flutter, Hana-chan too...",
+     "speaker": "はなちゃん"
+    },
+    {
+     "start": 532.6,
+     "end": 534.0,
+     "ja": "はなちゃん？",
+     "en": "Hana-chan?",
+     "speaker": "お母さん"
+    },
+    {
+     "start": 534.1,
+     "end": 537.0,
+     "ja": "今日は風邪気味だから、お外には出られないわ。",
+     "en": "You have a bit of a cold today, so you can't go outside.",
+     "speaker": "お母さん"
+    },
+    {
+     "start": 537.2,
+     "end": 539.2,
+     "ja": "嫌！遊ぶ！",
+     "en": "No! I want to play!",
+     "speaker": "はなちゃん"
+    }
+   ]
+  },
+  {
+   "start": 643.5,
+   "end": 663.5,
+   "title": "The Cherry Blossom Front",
+   "level": "N3",
+   "topics": [
+    "family",
+    "culture"
+   ],
+   "grammar": [
+    "〜によって — depending on",
+    "〜ほど — the more... the more..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 643.7,
+     "end": 645.5,
+     "ja": "うわあ、本当だ！",
+     "en": "Whoa, it's true!",
+     "speaker": "しまじろう"
+    },
+    {
+     "start": 645.7,
+     "end": 647.7,
      "ja": "桜前線って言ってね、",
-     "en": "It's called the cherry blossom front, you see.",
-     "speaker": "Father"
+     "en": "It's called the cherry blossom front,",
+     "speaker": "お父さん"
     },
     {
-     "start": 1047.8,
-     "end": 1051.1,
+     "start": 647.9,
+     "end": 650.8,
      "ja": "桜は場所によって咲く時期が違うんだ。",
-     "en": "Cherry blossoms bloom at different times depending on the location.",
-     "speaker": "Father"
+     "en": "cherry blossoms bloom at different times depending on the place.",
+     "speaker": "お父さん"
     },
     {
-     "start": 1051.4,
-     "end": 1054.4,
-     "ja": "北の寒いところほど遅く咲くんだよ。",
-     "en": "The colder and further north it is, the later they bloom.",
-     "speaker": "Father"
+     "start": 651.2,
+     "end": 654.2,
+     "ja": "北の寒い所ほど遅く咲くんだよ。",
+     "en": "The colder it is in the north, the later they bloom.",
+     "speaker": "お父さん"
     },
     {
-     "start": 1054.9,
-     "end": 1057.6,
-     "ja": "だから、北の方へ行けばまだ咲いているかもしれない。",
-     "en": "So, if we go north, they might still be blooming.",
-     "speaker": "Father"
+     "start": 654.6,
+     "end": 658.5,
+     "ja": "だから北の方へ行けば、まだ咲いているかもしれない。",
+     "en": "So if we go north, they might still be blooming.",
+     "speaker": "お父さん"
+    },
+    {
+     "start": 658.9,
+     "end": 661.7,
+     "ja": "よし、明日みんなで行ってみるか！",
+     "en": "All right, shall we all go together tomorrow?",
+     "speaker": "お父さん"
+    },
+    {
+     "start": 662.0,
+     "end": 663.2,
+     "ja": "うん！",
+     "en": "Yeah!",
+     "speaker": "しまじろう"
     }
    ]
   }
@@ -151,5 +197,6 @@
  "pickTopics": [
   "family"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

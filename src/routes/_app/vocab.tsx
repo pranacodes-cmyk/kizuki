@@ -78,7 +78,7 @@ function Vocab() {
         <div className="flex items-start justify-between">
           <div>
             <p className="text-[3.25rem] font-black leading-none tabular">{counts.known}</p>
-            <p className="mt-1 text-[1rem] font-extrabold text-muted-foreground">Words mastered</p>
+            <p className="mt-1 text-[1rem] font-extrabold text-muted-foreground">Words you know</p>
           </div>
           <Mascot pose="read" className="-mt-1 h-20 w-20" />
         </div>
@@ -88,7 +88,7 @@ function Vocab() {
           ) : (
             <div className="rounded-2xl bg-surface px-4 py-3.5 text-center">
               <p className="text-[1rem] font-extrabold">{counts.saved ? "Done reviewing for today 🎉" : "Tap words in clips to save them"}</p>
-              <p className="text-[0.8125rem] text-muted-foreground">{counts.saved ? `${counts.learning} learning · ${counts.known} mastered` : "They'll show up here, ready to review."}</p>
+              <p className="text-[0.8125rem] text-muted-foreground">{counts.saved ? `${counts.learning} learning · ${counts.known} known` : "They'll show up here, ready to review."}</p>
               {counts.learning > 0 && <button onClick={() => navigate({ to: "/review", search: { deck: "words", mode: "extra" } })} className="press mt-2 text-[0.875rem] font-extrabold text-primary">Keep studying</button>}
             </div>
           )}
@@ -97,8 +97,8 @@ function Vocab() {
         <p className="mb-2 mt-6 text-[0.8125rem] font-black uppercase tracking-[0.12em] text-muted-foreground">Decks</p>
         <div className="space-y-2">
           <DeckRow icon="🔖" title="Your words" sub={`${counts.saved} saved from clips`} badge={counts.due} onClick={() => counts.due > 0 ? navigate({ to: "/review", search: { deck: "words" } }) : undefined} />
-          <DeckRow icon="あ" title="Hiragana" sub={`${kanaLearned(HIRA, kana)} / ${HIRA.length} learned`} badge={hiraDue} onClick={() => navigate({ to: "/review", search: { deck: "hiragana" } })} />
-          <DeckRow icon="ア" title="Katakana" sub={`${kanaLearned(KATA, kana)} / ${KATA.length} learned`} badge={kataDue} onClick={() => navigate({ to: "/review", search: { deck: "katakana" } })} />
+          <DeckRow icon="あ" title="Hiragana" sub={`${kanaLearned(HIRA, kana)} / ${HIRA.length} known`} badge={hiraDue} onClick={() => navigate({ to: "/review", search: { deck: "hiragana" } })} />
+          <DeckRow icon="ア" title="Katakana" sub={`${kanaLearned(KATA, kana)} / ${KATA.length} known`} badge={kataDue} onClick={() => navigate({ to: "/review", search: { deck: "katakana" } })} />
         </div>
 
         <label className="mt-6 flex h-12 items-center gap-2 rounded-2xl border-2 border-border bg-surface px-3 focus-within:border-primary">
@@ -107,7 +107,7 @@ function Vocab() {
           {text && <button aria-label="Clear" onClick={() => setText("")}><X className="h-5 w-5 text-faint" /></button>}
         </label>
         <div className="mt-2.5 flex gap-2 overflow-x-auto no-scrollbar">
-          {([["all", `All ${counts.saved}`], ["due", `To Review ${counts.due}`], ["known", `Mastered ${counts.known}`]] as const).map(([f, l]) => (
+          {([["all", `All ${counts.saved}`], ["due", `To Review ${counts.due}`], ["known", `Known ${counts.known}`]] as const).map(([f, l]) => (
             <Chip key={f} active={filter === f} onClick={() => setFilter(f)}>{l}</Chip>
           ))}
         </div>

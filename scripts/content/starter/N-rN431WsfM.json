@@ -1,0 +1,30 @@
+{
+ "videoId": "N-rN431WsfM",
+ "ids": [
+  "N-rN431WsfM-107",
+  "N-rN431WsfM-23"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "N-rN431WsfM-23": {
+   "id": "N-rN431WsfM-23",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear synthetic voice explaining pot size, somewhat mundane product review."
+  },
+  "N-rN431WsfM-107": {
+   "id": "N-rN431WsfM-107",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Appealing food visuals and clear narration about everyday cooking."
+  }
+ }
+}

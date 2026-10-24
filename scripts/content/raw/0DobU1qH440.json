@@ -2,51 +2,37 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 2.5,
-   "end": 19.0,
-   "title": "A Brand New Battle Begins",
+   "start": 2.6,
+   "end": 18.0,
+   "title": "The Final Chapter Begins",
    "level": "N3",
    "topics": [
     "anime",
     "school"
    ],
    "grammar": [
-    "〜かける — dedicate / stake",
-    "〜として — as / in the role of"
+    "〜を懸ける — to stake on / dedicate to",
+    "いよいよ — finally / at last"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 2.7,
-     "end": 5.7,
-     "ja": "戦車道に青春をかける女子高生たちを描いた、",
-     "en": "Depicting high school girls dedicating their youth to Senshado,",
+     "start": 2.8,
+     "end": 8.6,
+     "ja": "戦車道に青春を懸ける女子高生たちを描いた、『ガールズ＆パンツァー』。",
+     "en": "Girls und Panzer, which depicts high school girls dedicating their youth to Sensha-do.",
      "speaker": "Narrator"
     },
     {
-     "start": 5.8,
-     "end": 8.5,
-     "ja": "『ガールズ＆パンツァー』。",
-     "en": "\"Girls und Panzer.\"",
+     "start": 9.2,
+     "end": 14.8,
+     "ja": "鉄の乙女たちの最後の戦いが、全６話の完全新作OVAシリーズとして、",
+     "en": "The final battle of the iron maidens, as an all-new 6-episode OVA series,",
      "speaker": "Narrator"
     },
     {
-     "start": 8.9,
-     "end": 11.8,
-     "ja": "鉄の乙女たちの最後の戦いが、",
-     "en": "The final battle of the iron maidens,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 11.9,
-     "end": 15.6,
-     "ja": "全６話の完全新作OVAシリーズとして、",
-     "en": "as a completely new 6-episode OVA series,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 15.8,
-     "end": 18.7,
+     "start": 15.3,
+     "end": 17.8,
      "ja": "この冬、いよいよ始まります！",
      "en": "is finally starting this winter!",
      "speaker": "Narrator"
@@ -54,126 +40,115 @@
    ]
   },
   {
-   "start": 32.5,
-   "end": 50.0,
-   "title": "Who Are BC Freedom Academy?",
+   "start": 38.0,
+   "end": 50.3,
+   "title": "Infighting at BC Freedom High School",
    "level": "N3",
    "topics": [
     "anime",
-    "comedy"
+    "comedy",
+    "school"
    ],
    "grammar": [
-    "〜だっけ — recall question",
-    "〜なきゃいけない — must / have to"
+    "〜だっけ — casual recall question",
+    "〜なきゃいけない — must / have to",
+    "〜そう — looks like / seems"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 32.8,
-     "end": 35.0,
-     "ja": "１回戦はBC自由学園。",
-     "en": "Our first-round opponent is BC Freedom High School.",
-     "speaker": "Saori"
-    },
-    {
-     "start": 35.3,
-     "end": 36.5,
-     "ja": "よし！やった！",
-     "en": "All right! Yes!",
-     "speaker": "Yukari"
-    },
-    {
-     "start": 36.6,
-     "end": 38.0,
-     "ja": "そりゃ助かるなあ。",
-     "en": "That's a relief.",
-     "speaker": "Sodoko"
-    },
-    {
-     "start": 38.1,
-     "end": 39.9,
+     "start": 38.2,
+     "end": 39.8,
      "ja": "どんな学校だっけ？",
      "en": "What kind of school were they again?",
-     "speaker": "Hana"
+     "speaker": "Girl A"
     },
     {
-     "start": 40.2,
-     "end": 42.8,
+     "start": 39.9,
+     "end": 42.6,
      "ja": "どうして私が頭を下げなきゃいけないの？",
-     "en": "Why should I have to bow my head?",
+     "en": "Why do I have to bow down to you?",
      "speaker": "Marie"
     },
     {
-     "start": 43.0,
-     "end": 44.7,
-     "ja": "マリー様に盾突く気か！",
-     "en": "Are you planning to defy Lady Marie?!",
-     "speaker": "Oshida"
+     "start": 42.9,
+     "end": 44.5,
+     "ja": "マリー様に盾突く気か？",
+     "en": "Do you intend to defy Lady Marie?",
+     "speaker": "Girl B"
     },
     {
-     "start": 44.8,
-     "end": 46.3,
+     "start": 44.6,
+     "end": 46.1,
      "ja": "同じエスカレーター組だろうが！",
-     "en": "We're both escalator students, aren't we?!",
-     "speaker": "Ando"
+     "en": "Aren't we all from the internal advancement track?!",
+     "speaker": "Girl C"
     },
     {
-     "start": 46.4,
-     "end": 48.0,
+     "start": 46.2,
+     "end": 47.9,
      "ja": "汚れ仕事はお前らの仕事だ！",
-     "en": "The dirty work is your job!",
-     "speaker": "Oshida"
+     "en": "Dirty work is a job for you lot!",
+     "speaker": "Girl B"
     },
     {
-     "start": 48.3,
-     "end": 49.8,
-     "ja": "ケーキ、おいしそう。",
+     "start": 48.4,
+     "end": 49.9,
+     "ja": "ケーキ、美味しそう。",
      "en": "The cake looks delicious.",
      "speaker": "Marie"
     }
    ]
   },
   {
-   "start": 115.5,
-   "end": 129.0,
-   "title": "Staking Ooarai's Fate",
+   "start": 51.0,
+   "end": 107.5,
+   "title": "Battle Against BC Freedom",
    "level": "N3",
    "topics": [
-    "anime"
+    "anime",
+    "sports"
    ],
    "grammar": [
-    "〜をかける — staking / risking",
-    "〜が始まる — ... begins"
+    "〜に向かって — heading towards",
+    "〜て大丈夫 — is it okay to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 116.0,
-     "end": 119.4,
-     "ja": "私たち大洗女子学園みんなの運命を懸けた、",
-     "en": "Staking the fate of everyone at Ooarai Girls' Academy,",
-     "speaker": "Miho"
+     "start": 51.2,
+     "end": 55.0,
+     "ja": "相手のBC自由学園は、機動力の高いチームです。",
+     "en": "Our opponent, BC Freedom Academy, is a team with high mobility.",
+     "speaker": "Yukari"
     },
     {
-     "start": 119.5,
-     "end": 121.8,
-     "ja": "最後の戦いが始まります！",
-     "en": "the final battle begins!",
-     "speaker": "Miho"
+     "start": 55.4,
+     "end": 58.7,
+     "ja": "こちらアヒル、南に向かってソミュア４両激走中。",
+     "en": "This is Duck Team. Four Somua tanks are racing south.",
+     "speaker": "Noriko"
     },
     {
-     "start": 122.0,
-     "end": 125.1,
-     "ja": "『ガールズ＆パンツァー 最終章』第１話、",
-     "en": "\"Girls und Panzer das Finale: Part 1\",",
-     "speaker": "Miho"
+     "start": 59.5,
+     "end": 101.7,
+     "ja": "グリッドJ5、レベル４にアンノン。",
+     "en": "Grid J-5, unknown at level 4.",
+     "speaker": "Erwin"
     },
     {
-     "start": 125.2,
-     "end": 128.5,
-     "ja": "12月９日劇場上映！",
-     "en": "in theaters December 9th!",
-     "speaker": "Miho"
+     "start": 101.9,
+     "end": 103.9,
+     "ja": "引き返さなくて大丈夫なんですか？",
+     "en": "Are you sure it's okay not to turn back?",
+     "speaker": "Girl A"
+    },
+    {
+     "start": 104.3,
+     "end": 107.3,
+     "ja": "一抹の不安はあるが、うちの部下は強いわよ。",
+     "en": "I have a slight worry, but my subordinates are strong.",
+     "speaker": "El"
     }
    ]
   }
@@ -182,5 +157,6 @@
  "pickTopics": [
   "anime"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

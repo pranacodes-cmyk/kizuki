@@ -2,95 +2,130 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 1.1,
-   "end": 14.6,
-   "title": "What Downtime Really Means",
-   "level": "N2",
+   "start": 1.0,
+   "end": 15.2,
+   "title": "Downtime Is a Transformation",
+   "level": "N3",
    "topics": [
-    "daily",
-    "culture"
+    "culture",
+    "daily"
    ],
    "grammar": [
-    "〜ための — in order to",
-    "〜ば — conditional if"
+    "〜ための — for the purpose of",
+    "〜ば — if"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1.4,
-     "end": 6.8,
-     "ja": "ダウンタイムは、サナギが殻を破って蝶に生まれ変わるための、大事な時間。",
-     "en": "Downtime is the precious time for a chrysalis to break out of its cocoon and transform into a butterfly.",
+     "start": 1.3,
+     "end": 4.5,
+     "ja": "ダウンタイムは、蛹が殻を破って",
+     "en": "Downtime is like a pupa breaking its cocoon,",
      "speaker": "Narrator"
     },
     {
-     "start": 7.8,
-     "end": 14.0,
-     "ja": "それを乗り切れば、別人へ生まれ変わる。",
-     "en": "If you push through it, you will be reborn as someone completely new.",
+     "start": 4.6,
+     "end": 8.2,
+     "ja": "蝶に生まれ変わるための大事な時間。",
+     "en": "a precious time to be reborn as a butterfly.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 9.3,
+     "end": 11.5,
+     "ja": "それを乗り切れば、",
+     "en": "If you push through that,",
+     "speaker": "Doctor"
+    },
+    {
+     "start": 12.8,
+     "end": 14.8,
+     "ja": "別人に生まれ変わる。",
+     "en": "you will be reborn as a completely new person.",
      "speaker": "Narrator"
     }
    ]
   },
   {
    "start": 18.0,
-   "end": 24.5,
-   "title": "Operated Everywhere",
+   "end": 27.5,
+   "title": "Every Part Has Seen the Scalpel",
    "level": "N3",
    "topics": [
-    "daily",
-    "culture"
+    "work",
+    "daily"
    ],
    "grammar": [
-    "〜てる — ongoing state / progressive",
-    "〜ほうが — comparison (it is more...)"
+    "〜てる — current state",
+    "〜方が — more / comparative"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
      "start": 18.2,
-     "end": 21.0,
+     "end": 21.2,
      "ja": "目、鼻、顎、全部メス入ってる。",
-     "en": "Eyes, nose, jaw—they've all had surgery.",
-     "speaker": "Surgeon"
+     "en": "Eyes, nose, jaw—every part has seen the scalpel.",
+     "speaker": "Doctor"
     },
     {
-     "start": 21.3,
-     "end": 24.4,
+     "start": 21.4,
+     "end": 24.6,
      "ja": "天然な場所探す方が難しいんだけど。",
-     "en": "It's harder to find parts that are actually natural.",
-     "speaker": "Surgeon"
+     "en": "It's actually harder to find a part that's natural.",
+     "speaker": "Doctor"
+    },
+    {
+     "start": 25.1,
+     "end": 27.2,
+     "ja": "神の手のお出ましだよ。",
+     "en": "Here comes the \"God's Hand.\"",
+     "speaker": "Man"
     }
    ]
   },
   {
    "start": 107.0,
-   "end": 115.5,
-   "title": "Nobody in This World Is Healthy",
+   "end": 117.0,
+   "title": "I Cannot Cut Someone Who Isn't Sick",
    "level": "N3",
    "topics": [
-    "daily",
-    "culture"
+    "work",
+    "daily"
    ],
    "grammar": [
-    "〜でもない — not even / not at all",
-    "〜なんて — emphasizing disdain or disbelief"
+    "〜られない — potential negative / unable to",
+    "〜なんて — such a thing as / like"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 107.3,
-     "end": 111.0,
-     "ja": "私は医者です。病気でもない人にメスはいれられない。",
-     "en": "I am a doctor. I cannot perform surgery on someone who isn't sick.",
-     "speaker": "Doctor"
+     "end": 108.6,
+     "ja": "私は医者です。",
+     "en": "I am a doctor.",
+     "speaker": "Doctor A"
     },
     {
-     "start": 111.3,
-     "end": 114.9,
-     "ja": "この世界に病気じゃない人なんていないから。",
-     "en": "Because in this world, there is no such person who isn't sick.",
-     "speaker": "Clinic Director"
+     "start": 108.7,
+     "end": 111.0,
+     "ja": "病気でもない人にメスは入れられない。",
+     "en": "I can't take a scalpel to someone who isn't even sick.",
+     "speaker": "Doctor A"
+    },
+    {
+     "start": 111.2,
+     "end": 114.3,
+     "ja": "この世界に、病気じゃない人なんていないから。",
+     "en": "In this world, nobody is completely well.",
+     "speaker": "Doctor B"
+    },
+    {
+     "start": 114.7,
+     "end": 116.8,
+     "ja": "何でこんなことが許されんの？",
+     "en": "Why is this kind of thing allowed?",
+     "speaker": "Woman"
     }
    ]
   }
@@ -99,5 +134,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

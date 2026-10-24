@@ -1,0 +1,19 @@
+{
+ "videoId": "R4ItsOBPuJc",
+ "ids": [
+  "R4ItsOBPuJc-725"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "R4ItsOBPuJc-725": {
+   "id": "R4ItsOBPuJc-725",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Hilarious joke question with fun visual crab gestures and clear audio."
+  }
+ }
+}

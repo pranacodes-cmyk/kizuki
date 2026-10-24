@@ -1,0 +1,19 @@
+{
+ "videoId": "i5z6ffIWxLE",
+ "ids": [
+  "i5z6ffIWxLE-1136"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "i5z6ffIWxLE-1136": {
+   "id": "i5z6ffIWxLE-1136",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous anecdote on stage with clear, conversational Japanese delivery."
+  }
+ }
+}

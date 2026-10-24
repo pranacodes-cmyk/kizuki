@@ -1,0 +1,32 @@
+{
+ "videoId": "pKFRW3_tpFY",
+ "ids": [
+  "pKFRW3_tpFY-467",
+  "pKFRW3_tpFY-504"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "pKFRW3_tpFY-504": {
+   "id": "pKFRW3_tpFY-504",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Funny Frieza cosplayer explains why he volunteers to pick up trash."
+  },
+  "pKFRW3_tpFY-467": {
+   "id": "pKFRW3_tpFY-467",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Relatable topic, but overlapping speech and fast banter make comprehension tricky."
+  }
+ }
+}

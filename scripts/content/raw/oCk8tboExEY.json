@@ -1,80 +1,79 @@
 {
- "speech": "some",
+ "speech": "clear",
  "clips": [
   {
-   "start": 44.5,
-   "end": 56.5,
-   "title": "Is Something Wrong with Me?",
-   "level": "N3",
+   "start": 37.2,
+   "end": 48.2,
+   "title": "Kiki Talks to Jiji",
+   "level": "N4",
    "topics": [
     "anime",
-    "daily"
+    "daily",
+    "animals"
    ],
    "grammar": [
-    "〜って — as for / speaking of",
-    "〜ちゃう — to do completely / regretfully",
-    "〜みたい — seems like"
+    "〜てどうかしてる — something is wrong with",
+    "〜を探す — look for"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 45.0,
-     "end": 47.8,
-     "ja": "ジジ、私ってどうかしてる？",
-     "en": "Jiji, is something wrong with me?",
-     "speaker": "Kiki"
+     "start": 37.6,
+     "end": 40.2,
+     "ja": "ねえ、他の町探す？",
+     "en": "Hey, should we look for another town?",
+     "speaker": "Jiji"
     },
     {
-     "start": 52.5,
-     "end": 55.8,
-     "ja": "素直で明るいキキはどこかへ行っちゃったみたい。",
-     "en": "It seems the honest, cheerful Kiki has gone somewhere.",
-     "speaker": "Narrator"
+     "start": 44.8,
+     "end": 47.7,
+     "ja": "ジジ、私ってどうかしてる？",
+     "en": "Jiji, is there something wrong with me?",
+     "speaker": "Kiki"
     }
    ]
   },
   {
    "start": 113.5,
-   "end": 21.5,
-   "title": "I'm Doing Well",
-   "level": "N4",
+   "end": 121.5,
+   "title": "A Letter to Mom and Dad",
+   "level": "N5",
    "topics": [
     "anime",
     "family",
     "daily"
    ],
    "grammar": [
-    "お〜 — polite honorific prefix",
-    "〜たり — doing things like",
+    "〜たり〜たり — doing things like",
     "〜けれど — although / but"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 113.8,
-     "end": 116.1,
+     "end": 115.5,
      "ja": "お父さん、お母さん、",
      "en": "Dad, Mom,",
      "speaker": "Kiki"
     },
     {
-     "start": 116.2,
-     "end": 117.6,
+     "start": 116.4,
+     "end": 117.7,
      "ja": "お元気ですか？",
-     "en": "How are you doing?",
+     "en": "how are you doing?",
      "speaker": "Kiki"
     },
     {
-     "start": 117.7,
-     "end": 119.4,
+     "start": 117.8,
+     "end": 119.5,
      "ja": "落ち込んだりもしたけれど、",
-     "en": "I've had my down moments, but",
+     "en": "I've had my down times, but",
      "speaker": "Kiki"
     },
     {
-     "start": 119.5,
-     "end": 21.1,
-     "ja": "私は元気です。",
+     "start": 119.6,
+     "end": 121.1,
+     "ja": "私、元気です。",
      "en": "I'm doing well.",
      "speaker": "Kiki"
     }
@@ -85,5 +84,6 @@
  "pickTopics": [
   "anime"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

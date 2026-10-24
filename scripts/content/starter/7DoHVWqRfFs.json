@@ -1,0 +1,32 @@
+{
+ "videoId": "7DoHVWqRfFs",
+ "ids": [
+  "7DoHVWqRfFs-208",
+  "7DoHVWqRfFs-522"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "7DoHVWqRfFs-522": {
+   "id": "7DoHVWqRfFs-522",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear speech and simple weather vocabulary during a casual morning walk."
+  },
+  "7DoHVWqRfFs-208": {
+   "id": "7DoHVWqRfFs-208",
+   "appeal": 4,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "starts mid-sentence"
+   ],
+   "why": "Incoherent speech clips with ambient street noise and minimal dialogue."
+  }
+ }
+}

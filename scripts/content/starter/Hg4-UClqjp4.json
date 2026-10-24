@@ -1,0 +1,19 @@
+{
+ "videoId": "Hg4-UClqjp4",
+ "ids": [
+  "Hg4-UClqjp4-5"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Hg4-UClqjp4-5": {
+   "id": "Hg4-UClqjp4-5",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Friendly introduction to cooking gyudon delivered clearly at an accessible pace."
+  }
+ }
+}

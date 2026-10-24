@@ -1,0 +1,19 @@
+{
+ "videoId": "cvH3kdl1JxE",
+ "ids": [
+  "cvH3kdl1JxE-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "cvH3kdl1JxE-0": {
+   "id": "cvH3kdl1JxE-0",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Friendly beach dialogue with clear, simple conversational Japanese."
+  }
+ }
+}

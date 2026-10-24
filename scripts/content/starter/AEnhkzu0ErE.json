@@ -1,0 +1,30 @@
+{
+ "videoId": "AEnhkzu0ErE",
+ "ids": [
+  "AEnhkzu0ErE-421",
+  "AEnhkzu0ErE-624"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "AEnhkzu0ErE-624": {
+   "id": "AEnhkzu0ErE-624",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple casual invitation phrases in a natural everyday conversation."
+  },
+  "AEnhkzu0ErE-421": {
+   "id": "AEnhkzu0ErE-421",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Engaging cultural dynamic about dropping keigo, though dialogue is fast."
+  }
+ }
+}

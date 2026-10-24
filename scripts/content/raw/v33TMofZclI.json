@@ -4,257 +4,204 @@
   {
    "start": 29.8,
    "end": 44.8,
-   "title": "A Questionable Moving Company",
-   "level": "N3",
+   "title": "Regaining Trust and Confidence",
+   "level": "N4",
    "topics": [
     "comedy",
     "fun"
    ],
    "grammar": [
-    "命令形 (動詞) — imperative form",
-    "〜ちゃう/じゃう — unintended action / regret"
+    "〜てしまう — accidental action or regret",
+    "〜を取り戻す — to regain"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 29.8,
-     "end": 32.4,
-     "ja": "信用と信頼を取り戻せ。",
-     "en": "\"Regain trust and reliability.\"",
-     "speaker": "Kimura"
+     "end": 30.5,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Customer"
     },
     {
-     "start": 32.7,
-     "end": 35.3,
-     "ja": "アウト引越センターの木村です。",
-     "en": "I'm Kimura from Out Moving Center.",
-     "speaker": "Kimura"
+     "start": 30.6,
+     "end": 35.0,
+     "ja": "信用と信頼を取り戻せ。アウト引越センターの木村です。",
+     "en": "Regain trust and confidence. I'm Kimura from Out Moving Center.",
+     "speaker": "Mover"
     },
     {
      "start": 35.4,
-     "end": 37.8,
-     "ja": "いや、どんなキャッチフレーズだよ、おい。",
-     "en": "What kind of catchphrase is that?!",
+     "end": 38.0,
+     "ja": "いや、どんなキャッチフレーズだよ、おい！",
+     "en": "Wait, what kind of catchphrase is that?!",
      "speaker": "Customer"
     },
     {
-     "start": 38.7,
-     "end": 40.1,
-     "ja": "え、信用ないの？",
-     "en": "Wait, do you have no trust?",
-     "speaker": "Customer"
-    },
-    {
-     "start": 40.2,
-     "end": 41.8,
-     "ja": "まあ、そうですね。",
-     "en": "Well, pretty much.",
-     "speaker": "Kimura"
-    },
-    {
-     "start": 42.0,
-     "end": 44.8,
-     "ja": "信用ないとこ頼んじゃったよ、おい。",
-     "en": "I went and hired a company nobody trusts!",
-     "speaker": "Customer"
-    }
-   ]
-  },
-  {
-   "start": 30.8,
-   "end": 53.0,
-   "title": "Move Your Hands, Not Your Mouth",
-   "level": "N4",
-   "topics": [
-    "comedy",
-    "fun",
-    "daily"
-   ],
-   "grammar": [
-    "〜ば — conditional if",
-    "受身形 (〜れる) — passive voice",
-    "〜てくれ — casual request"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 30.8,
-     "end": 32.5,
-     "ja": "俺が物を運ぶ。",
-     "en": "I carry the items.",
-     "speaker": "Kimura"
-    },
-    {
-     "start": 32.6,
-     "end": 33.3,
-     "ja": "おう。",
-     "en": "Yeah.",
-     "speaker": "Customer"
-    },
-    {
-     "start": 33.4,
-     "end": 35.0,
-     "ja": "そうすれば、物は運ばれる。",
-     "en": "When I do that, the items get carried.",
-     "speaker": "Kimura"
-    },
-    {
-     "start": 35.1,
-     "end": 35.7,
-     "ja": "おう。",
-     "en": "Yeah.",
-     "speaker": "Customer"
-    },
-    {
-     "start": 35.8,
-     "end": 37.0,
-     "ja": "それが引越しです。",
-     "en": "That is what moving is.",
-     "speaker": "Kimura"
-    },
-    {
-     "start": 37.1,
+     "start": 38.5,
      "end": 40.0,
-     "ja": "いや、でしょうね。引越し業者だもんね。",
-     "en": "Well, obviously. You are a mover after all.",
+     "ja": "え、信用ないの？",
+     "en": "Wait, you have no trust?",
      "speaker": "Customer"
     },
     {
      "start": 40.1,
-     "end": 42.5,
-     "ja": "物が運ばれた場所に、あんたは住めばいい。",
-     "en": "You just live in the place where the items were carried.",
-     "speaker": "Kimura"
+     "end": 41.5,
+     "ja": "まあ、そうですね。",
+     "en": "Well, pretty much.",
+     "speaker": "Mover"
     },
     {
-     "start": 42.6,
-     "end": 44.8,
-     "ja": "住むよ。それが引越しだもん。",
-     "en": "I will! That's what moving is!",
-     "speaker": "Customer"
-    },
-    {
-     "start": 45.3,
-     "end": 46.3,
-     "ja": "どうします？",
-     "en": "What shall we do?",
-     "speaker": "Kimura"
-    },
-    {
-     "start": 46.4,
-     "end": 48.5,
-     "ja": "もうちょっと口を動かしますか？",
-     "en": "Should we move our mouths a bit more?",
-     "speaker": "Kimura"
-    },
-    {
-     "start": 48.6,
-     "end": 50.0,
-     "ja": "それとも、手を動か…",
-     "en": "Or move our...",
-     "speaker": "Kimura"
-    },
-    {
-     "start": 49.4,
-     "end": 51.3,
-     "ja": "手動かしてくれよ！",
-     "en": "Move your hands!",
-     "speaker": "Customer"
-    },
-    {
-     "start": 51.4,
-     "end": 53.0,
-     "ja": "手動かしてくんない？",
-     "en": "Could you move your hands, please?",
+     "start": 41.8,
+     "end": 44.5,
+     "ja": "信用ない所頼んじゃったよ、おい！",
+     "en": "Hey, I hired someone with no trust!",
      "speaker": "Customer"
     }
    ]
   },
   {
-   "start": 754.5,
-   "end": 776.8,
-   "title": "Women Are Like Cups",
+   "start": 344.8,
+   "end": 357.2,
+   "title": "Luggage Is the Grime of Life",
    "level": "N3",
    "topics": [
     "comedy",
-    "romance",
-    "fun"
+    "daily"
    ],
    "grammar": [
-    "〜みたいな — like / similar to",
-    "〜なきゃ — must / if not",
-    "〜ちまう — casual form of 〜てしまう"
+    "〜ば〜ほど — the more... the more...",
+    "〜みたいなもの — something like / akin to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 754.6,
-     "end": 755.7,
-     "ja": "いいですか。",
-     "en": "Listen to me.",
-     "speaker": "Kimura"
+     "start": 345.1,
+     "end": 346.0,
+     "ja": "いいですか？",
+     "en": "Listen here.",
+     "speaker": "Mover"
     },
     {
-     "start": 755.8,
-     "end": 756.6,
-     "ja": "なんだよ。",
+     "start": 346.1,
+     "end": 347.0,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 347.1,
+     "end": 349.5,
+     "ja": "荷物っていうのは、人生の垢みたいなもんです。",
+     "en": "Belongings are like the grime of life.",
+     "speaker": "Mover"
+    },
+    {
+     "start": 349.6,
+     "end": 350.5,
+     "ja": "垢？",
+     "en": "Grime?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 350.6,
+     "end": 353.4,
+     "ja": "増えれば増えるほど、身動きが取れなくなっていく。",
+     "en": "The more it piles up, the less you can move around.",
+     "speaker": "Mover"
+    },
+    {
+     "start": 353.7,
+     "end": 356.5,
+     "ja": "だから、こういう機会に減らしといたほうがいいんです。",
+     "en": "So it's better to reduce it on occasions like this.",
+     "speaker": "Mover"
+    }
+   ]
+  },
+  {
+   "start": 474.3,
+   "end": 497.0,
+   "title": "Women Are Like Cups",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "comedy"
+   ],
+   "grammar": [
+    "〜なきゃ — must / unless",
+    "〜ちまう — end up doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 474.5,
+     "end": 475.6,
+     "ja": "いいですか？",
+     "en": "Listen.",
+     "speaker": "Mover"
+    },
+    {
+     "start": 475.8,
+     "end": 476.9,
+     "ja": "何だよ？",
      "en": "What?",
      "speaker": "Customer"
     },
     {
-     "start": 756.7,
-     "end": 759.0,
-     "ja": "女ってのはコップみたいなもんです。",
-     "en": "Women are like cups.",
-     "speaker": "Kimura"
+     "start": 477.0,
+     "end": 479.0,
+     "ja": "女ってのは、コップみたいなもんです。",
+     "en": "A woman is like a cup.",
+     "speaker": "Mover"
     },
     {
-     "start": 759.2,
-     "end": 760.3,
+     "start": 479.2,
+     "end": 480.5,
      "ja": "コップ？",
-     "en": "Cups?",
+     "en": "A cup?",
      "speaker": "Customer"
     },
     {
-     "start": 760.6,
-     "end": 764.1,
-     "ja": "寂しさがコップにいっぱいになったら、涙があふれ出す。",
-     "en": "When loneliness fills up the cup, tears spill out.",
-     "speaker": "Kimura"
+     "start": 481.0,
+     "end": 484.5,
+     "ja": "寂しさがコップにいっぱいになったら、涙が溢れ出す。",
+     "en": "When sadness fills the cup, tears overflow.",
+     "speaker": "Mover"
     },
     {
-     "start": 764.9,
-     "end": 767.9,
+     "start": 485.1,
+     "end": 487.6,
      "ja": "丁寧に扱わなきゃ、すぐに割れちまう。",
-     "en": "Handle them gently, or they break right away.",
-     "speaker": "Kimura"
+     "en": "If you don't handle it gently, it breaks right away.",
+     "speaker": "Mover"
     },
     {
-     "start": 768.0,
-     "end": 769.9,
-     "ja": "じゃあどうしたらいいか分かります？",
+     "start": 488.0,
+     "end": 490.0,
+     "ja": "じゃあ、どうしたらいいか分かります？",
      "en": "So do you know what you should do?",
-     "speaker": "Kimura"
+     "speaker": "Mover"
     },
     {
-     "start": 770.0,
-     "end": 771.2,
+     "start": 490.1,
+     "end": 491.3,
      "ja": "いや、分かんない。",
-     "en": "No, I don't.",
+     "en": "No, I don't know.",
      "speaker": "Customer"
     },
     {
-     "start": 772.4,
-     "end": 774.8,
+     "start": 492.4,
+     "end": 494.8,
      "ja": "ステンレスみたいな強い女を探すんです。",
-     "en": "You look for a strong woman, like stainless steel.",
-     "speaker": "Kimura"
+     "en": "You look for a tough woman, like stainless steel.",
+     "speaker": "Mover"
     },
     {
-     "start": 774.9,
-     "end": 776.8,
+     "start": 495.1,
+     "end": 496.8,
      "ja": "クソみたいな話だな！",
-     "en": "What a garbage piece of advice!",
+     "en": "What a ridiculous piece of advice!",
      "speaker": "Customer"
     }
    ]
@@ -264,5 +211,6 @@
  "pickTopics": [
   "comedy"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -2,208 +2,244 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 501.9,
-   "end": 513.6,
-   "title": "Recommending Instant Yakisoba",
+   "start": 405.5,
+   "end": 424.5,
+   "title": "Hot Pan Burned Her Elbow",
    "level": "N4",
    "topics": [
+    "family",
     "food",
     "daily"
    ],
    "grammar": [
-    "〜たよ — past reporting",
-    "一番〜 — the most"
+    "〜と — listing particles (and)",
+    "〜やろ — right? / don't you? (dialect)"
    ],
-   "quality": 5,
+   "quality": 4,
    "lines": [
     {
-     "start": 502.1,
-     "end": 504.0,
-     "ja": "あ、これ美味かったよ。",
-     "en": "Ah, this was delicious.",
+     "start": 405.7,
+     "end": 407.2,
+     "ja": "今日の昼ご飯は、",
+     "en": "Today's lunch is",
      "speaker": "Husband"
     },
     {
-     "start": 504.0,
-     "end": 507.8,
-     "ja": "日清の太麺焼そば、濃厚甘口ソース。",
-     "en": "Nissin thick-noodle yakisoba, rich sweet sauce.",
+     "start": 407.3,
+     "end": 408.7,
+     "ja": "冷やしトマトと、",
+     "en": "chilled tomatoes,",
      "speaker": "Husband"
     },
     {
-     "start": 508.0,
-     "end": 510.0,
-     "ja": "もっちりストレート麺。",
-     "en": "Chewy straight noodles.",
+     "start": 408.8,
+     "end": 410.0,
+     "ja": "カニカマサラダと、",
+     "en": "crab stick salad, and...",
      "speaker": "Husband"
     },
     {
-     "start": 510.0,
-     "end": 513.3,
-     "ja": "これが一番美味しいよね、焼そばね。",
-     "en": "This is the tastiest one for yakisoba, right?",
+     "start": 410.0,
+     "end": 412.3,
+     "ja": "熱っつ！熱っつ、パパ！",
+     "en": "Hot! That's hot, Papa!",
+     "speaker": "Wife"
+    },
+    {
+     "start": 413.6,
+     "end": 415.2,
+     "ja": "焼きそばです。",
+     "en": "yakisoba.",
      "speaker": "Husband"
+    },
+    {
+     "start": 415.6,
+     "end": 417.0,
+     "ja": "いただきます。",
+     "en": "Let's eat.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 417.2,
+     "end": 419.0,
+     "ja": "熱かった、ヒジ〜！",
+     "en": "My elbow got burned!",
+     "speaker": "Wife"
+    },
+    {
+     "start": 420.0,
+     "end": 424.0,
+     "ja": "普通「ヒジ大丈夫か？」とか言うやろ？",
+     "en": "Normally, you'd ask if my elbow is okay, wouldn't you?",
+     "speaker": "Wife"
     }
    ]
   },
   {
-   "start": 1141.2,
-   "end": 1158.1,
-   "title": "You Said You Did Not Want Cake",
-   "level": "N3",
+   "start": 702.3,
+   "end": 719.5,
+   "title": "Do You Want Some Cake After All?",
+   "level": "N4",
    "topics": [
     "family",
-    "food",
-    "comedy"
+    "daily",
+    "food"
    ],
    "grammar": [
-    "〜ん？ — explanatory question",
-    "〜じゃん — isn't it / you always"
+    "〜じゃん — isn't it / you always...",
+    "〜抜きで — without / leaving out"
    ],
-   "quality": 5,
+   "quality": 4,
    "lines": [
     {
-     "start": 1141.5,
-     "end": 1143.6,
-     "ja": "ちょっと待って、パパ何それ？冗談抜きで。",
-     "en": "Wait a second, what's that, honey? No kidding.",
-     "speaker": "Wife"
-    },
-    {
-     "start": 1144.2,
-     "end": 1146.3,
-     "ja": "食べるん、ケーキ？",
-     "en": "You're eating cake?",
-     "speaker": "Wife"
-    },
-    {
-     "start": 1146.7,
-     "end": 1147.8,
-     "ja": "食べるの？",
-     "en": "Are you having some?",
-     "speaker": "Wife"
-    },
-    {
-     "start": 1148.0,
-     "end": 1148.8,
-     "ja": "うん。",
-     "en": "Yeah.",
+     "start": 702.5,
+     "end": 704.5,
+     "ja": "ちょ、ちょ、ちょ、冗談抜きで。",
+     "en": "Wait, wait, wait, no joking.",
      "speaker": "Husband"
     },
     {
-     "start": 1149.0,
-     "end": 1151.5,
-     "ja": "嘘でしょ？いつもそうじゃん、もう。",
-     "en": "Are you serious? You're always like this, honestly.",
+     "start": 705.0,
+     "end": 706.5,
+     "ja": "食べるん、ケーキ？",
+     "en": "Are you going to eat the cake?",
      "speaker": "Wife"
     },
     {
-     "start": 1151.8,
-     "end": 1155.2,
-     "ja": "なんでいつも要らんって言うんよ、買うときに。",
+     "start": 706.8,
+     "end": 707.8,
+     "ja": "食べるよ。",
+     "en": "Yeah, I am.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 709.0,
+     "end": 711.2,
+     "ja": "いつもそうじゃん、もう。",
+     "en": "You're always like this, really.",
+     "speaker": "Wife"
+    },
+    {
+     "start": 711.5,
+     "end": 714.8,
+     "ja": "なんでいつも要らんって言うんよ、買う時に。",
      "en": "Why do you always say you don't want any when we buy it?",
      "speaker": "Wife"
     },
     {
-     "start": 1155.6,
-     "end": 1157.8,
-     "ja": "ちょっとで、本当に。",
+     "start": 715.3,
+     "end": 717.5,
+     "ja": "ちょっとで、ホントに。",
      "en": "Just a little, really.",
      "speaker": "Husband"
     }
    ]
   },
   {
-   "start": 1304.8,
-   "end": 1325.5,
+   "start": 785.3,
+   "end": 806.2,
    "title": "Do You Want a Bite of Ice Cream?",
-   "level": "N3",
+   "level": "N5",
    "topics": [
     "family",
-    "comedy",
+    "fun",
     "food"
    ],
    "grammar": [
-    "〜て — casual assertion/insistence",
-    "〜けん — because (dialect)"
+    "〜て — casual assertion / emphasis",
+    "〜じゃない — isn't it / not"
    ],
-   "quality": 5,
+   "quality": 4,
    "lines": [
     {
-     "start": 1305.1,
-     "end": 1306.2,
+     "start": 785.5,
+     "end": 786.5,
      "ja": "一口いる？",
      "en": "Do you want a bite?",
      "speaker": "Wife"
     },
     {
-     "start": 1306.4,
-     "end": 1307.4,
+     "start": 786.5,
+     "end": 787.5,
      "ja": "いらんて！",
-     "en": "I told you I don't!",
+     "en": "I said I don't!",
      "speaker": "Husband"
     },
     {
-     "start": 1307.5,
-     "end": 1310.0,
-     "ja": "あはははは！あげんしい笑",
-     "en": "Hahaha! Then have some, silly.",
+     "start": 787.5,
+     "end": 790.0,
+     "ja": "あはははは！あげんしいよ。",
+     "en": "Hahaha! I'll give you some.",
      "speaker": "Wife"
     },
     {
-     "start": 1310.2,
-     "end": 1312.7,
-     "ja": "あげんしいよ笑",
-     "en": "I'll give you some!",
+     "start": 790.0,
+     "end": 791.0,
+     "ja": "ええって。",
+     "en": "I'm fine.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 792.3,
+     "end": 794.5,
+     "ja": "ホントにあげん。",
+     "en": "I'll really give you some.",
      "speaker": "Wife"
     },
     {
-     "start": 1313.0,
-     "end": 1315.5,
-     "ja": "わたし意地悪やけん、ホントにあげん笑",
-     "en": "I'm mean, so I really won't give you any, haha.",
-     "speaker": "Wife"
-    },
-    {
-     "start": 1315.8,
-     "end": 1317.2,
+     "start": 795.5,
+     "end": 797.2,
      "ja": "あげようか？一口？",
-     "en": "Should I give you a bite?",
+     "en": "Shall I give you some? A bite?",
      "speaker": "Wife"
     },
     {
-     "start": 1317.3,
-     "end": 1318.2,
+     "start": 797.3,
+     "end": 798.0,
      "ja": "いらん！",
-     "en": "No!",
+     "en": "I don't need it!",
      "speaker": "Husband"
     },
     {
-     "start": 1318.4,
-     "end": 1320.5,
-     "ja": "ホント？ラストチャンス。",
-     "en": "Really? Last chance.",
+     "start": 798.0,
+     "end": 798.8,
+     "ja": "ホント？",
+     "en": "Really?",
      "speaker": "Wife"
     },
     {
-     "start": 1320.8,
-     "end": 1322.0,
+     "start": 799.0,
+     "end": 800.0,
+     "ja": "ラストチャンス。",
+     "en": "Last chance.",
+     "speaker": "Husband"
+    },
+    {
+     "start": 800.5,
+     "end": 801.8,
      "ja": "一口いらん？",
      "en": "You don't want a bite?",
      "speaker": "Wife"
     },
     {
-     "start": 1322.1,
-     "end": 1323.0,
+     "start": 801.8,
+     "end": 802.8,
      "ja": "いる！",
      "en": "I do!",
      "speaker": "Husband"
     },
     {
-     "start": 1323.2,
-     "end": 1325.2,
-     "ja": "ホント素直じゃない笑",
-     "en": "You really aren't honest with yourself, haha.",
+     "start": 803.0,
+     "end": 804.3,
+     "ja": "あはははは！",
+     "en": "Ahahaha!",
+     "speaker": "Wife"
+    },
+    {
+     "start": 804.5,
+     "end": 806.0,
+     "ja": "ホント素直じゃない。",
+     "en": "You're really not honest.",
      "speaker": "Wife"
     }
    ]
@@ -213,5 +249,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

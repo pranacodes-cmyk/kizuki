@@ -100,7 +100,7 @@ class _WordLevelSheet extends StatelessWidget {
     if (w == null) return const SizedBox.shrink();
     final current = wordLevel(status: w.status, card: w.card);
     final now = DateTime.now().millisecondsSinceEpoch;
-    final review = current >= 1 && current <= 4 ? (w.card.due <= now ? 'Next review: now' : 'Next review: in ${formatInterval(w.card.due - now)}') : null;
+    final review = current >= 1 && current <= 4 ? 'Next practice: ${formatWhen(w.card.due - now)}' : null;
     return SingleChildScrollView(
       padding: const EdgeInsets.fromLTRB(20, 8, 20, 12),
       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [

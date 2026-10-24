@@ -2,226 +2,238 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 34.2,
-   "end": 50.6,
+   "start": 25.5,
+   "end": 50.4,
    "title": "What Kind of Anime Is This?",
    "level": "N4",
    "topics": [
     "anime",
-    "comedy",
-    "animals"
+    "animals",
+    "comedy"
    ],
    "grammar": [
     "〜たり〜たりする — doing things like A and B",
-    "〜じゃない — tag question / right?"
+    "〜じゃない — isn't it?"
    ],
    "quality": 5,
    "lines": [
     {
+     "start": 25.8,
+     "end": 27.0,
+     "ja": "ちょうだい。",
+     "en": "Give me some.",
+     "speaker": "Tsushima"
+    },
+    {
+     "start": 27.1,
+     "end": 29.8,
+     "ja": "だめだめ、それはパン！",
+     "en": "No, no! That's bread!",
+     "speaker": "Grandpa"
+    },
+    {
+     "start": 30.3,
+     "end": 33.6,
+     "ja": "こうしておじいちゃんちに住みついた俺が、",
+     "en": "And so, having moved in with Grandpa,",
+     "speaker": "Tsushima"
+    },
+    {
      "start": 34.5,
-     "end": 36.5,
+     "end": 37.0,
      "ja": "おじいちゃんや仲間たちと",
-     "en": "With Grandpa and my friends,",
-     "speaker": "つしま"
+     "en": "living every day sleeping, waking up,",
+     "speaker": "Tsushima"
     },
     {
-     "start": 36.6,
+     "start": 37.0,
      "end": 40.0,
-     "ja": "寝たり、起きたり、食べたりする毎日を描いた、",
-     "en": "it depicts daily life sleeping, waking up, and eating...",
-     "speaker": "つしま"
+     "ja": "寝たり起きたり食べたりする毎日を描いた、",
+     "en": "and eating with Grandpa and the others...",
+     "speaker": "Tsushima"
     },
     {
-     "start": 40.1,
-     "end": 41.8,
+     "start": 40.3,
+     "end": 42.0,
      "ja": "アクションアニメだよ。",
      "en": "It's an action anime.",
-     "speaker": "つしま"
+     "speaker": "Tsushima"
     },
     {
      "start": 42.3,
      "end": 44.0,
-     "ja": "アクションじゃないよね。",
+     "ja": "アクションじゃないよね？",
      "en": "It's not an action anime, is it?",
-     "speaker": "おじいちゃん"
+     "speaker": "Grandpa"
     },
     {
      "start": 44.3,
-     "end": 46.0,
+     "end": 45.7,
      "ja": "じゃあ、サスペンスで。",
-     "en": "Then let's call it suspense.",
-     "speaker": "ちゃー"
+     "en": "Suspense, then.",
+     "speaker": "Chaa"
     },
     {
-     "start": 46.1,
-     "end": 46.9,
+     "start": 45.8,
+     "end": 46.8,
      "ja": "いやいや。",
      "en": "No, no.",
-     "speaker": "おじいちゃん"
+     "speaker": "Grandpa"
     },
     {
-     "start": 47.1,
-     "end": 48.3,
+     "start": 47.0,
+     "end": 48.0,
      "ja": "ホラー？",
      "en": "Horror?",
-     "speaker": "ズン姐さん"
+     "speaker": "Cat"
     },
     {
-     "start": 48.5,
-     "end": 50.2,
+     "start": 48.4,
+     "end": 50.0,
      "ja": "感動作だ。",
-     "en": "It's a heartwarming tearjerker.",
-     "speaker": "オサム"
+     "en": "It's a tear-jerker.",
+     "speaker": "Tsushima"
     }
    ]
   },
   {
-   "start": 52.4,
-   "end": 117.8,
-   "title": "The Neighborhood Boss Cat",
-   "level": "N4",
+   "start": 52.0,
+   "end": 77.5,
+   "title": "Look at That Huge Boss Cat!",
+   "level": "N3",
    "topics": [
+    "anime",
     "animals",
-    "daily",
     "comedy"
    ],
    "grammar": [
-    "〜ねえ — seeking agreement / exclamation",
-    "〜風に — in such a manner",
-    "〜こと多い — happens often"
+    "〜風に — in the manner of",
+    "〜ことが多い — often happens"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 52.8,
-     "end": 55.2,
-     "ja": "わあ、でっかい猫！",
+     "start": 52.6,
+     "end": 54.9,
+     "ja": "わぁ、でっかい猫！",
      "en": "Whoa, look at that huge cat!",
-     "speaker": "女の子"
+     "speaker": "Girl"
     },
     {
-     "start": 55.6,
-     "end": 57.0,
-     "ja": "でっかいねえ。",
-     "en": "He sure is big.",
-     "speaker": "父親"
+     "start": 55.4,
+     "end": 58.7,
+     "ja": "でっかいねぇ。あれはボス猫だね。",
+     "en": "He sure is big. That's a boss cat, for sure.",
+     "speaker": "Man"
     },
     {
-     "start": 57.1,
-     "end": 59.0,
-     "ja": "あれはボス猫だね。",
-     "en": "That must be the boss cat.",
-     "speaker": "父親"
-    },
-    {
-     "start": 59.2,
-     "end": 61.0,
+     "start": 59.1,
+     "end": 61.3,
      "ja": "俺、人間から…",
-     "en": "From humans, I...",
-     "speaker": "つしま"
+     "en": "People often...",
+     "speaker": "Tsushima"
     },
     {
-     "start": 62.0,
-     "end": 63.5,
-     "ja": "あ、ちわ親方！",
-     "en": "Hey, 'sup, Boss!",
-     "speaker": "男の子"
+     "start": 61.9,
+     "end": 63.8,
+     "ja": "あ、こんにちは、親方！",
+     "en": "Hey, hello there, Boss!",
+     "speaker": "Boy"
     },
     {
-     "start": 63.7,
+     "start": 64.0,
      "end": 66.0,
-     "ja": "いつも恰幅がいいねえ！",
-     "en": "Looking mighty plump as always!",
-     "speaker": "男の子"
+     "ja": "いつもかっぷくがいいね！",
+     "en": "Looking hefty as always!",
+     "speaker": "Boy"
     },
     {
-     "start": 66.4,
-     "end": 68.5,
+     "start": 66.5,
+     "end": 68.6,
      "ja": "結構、見た目で…",
-     "en": "Mainly based on my looks...",
-     "speaker": "つしま"
+     "en": "Based on how I look...",
+     "speaker": "Tsushima"
     },
     {
-     "start": 69.5,
+     "start": 69.4,
      "end": 70.8,
      "ja": "あ、親分！",
-     "en": "Ah, Chief!",
-     "speaker": "女子高生A"
+     "en": "Oh, it's the Boss!",
+     "speaker": "Schoolgirl"
     },
     {
-     "start": 71.0,
-     "end": 73.6,
+     "start": 70.9,
+     "end": 73.8,
      "ja": "本当だ、親分ー！",
-     "en": "It really is! Chief!",
-     "speaker": "女子高生B"
+     "en": "It really is! Boss!",
+     "speaker": "Schoolgirl 2"
     },
     {
      "start": 74.0,
-     "end": 77.4,
+     "end": 77.2,
      "ja": "こんな風に呼ばれること多いんだけど、",
-     "en": "I get called things like that a lot, but...",
-     "speaker": "つしま"
+     "en": "get called things like that a lot, but...",
+     "speaker": "Tsushima"
     }
    ]
   },
   {
-   "start": 118.5,
-   "end": 134.9,
-   "title": "A Softie on the Inside",
-   "level": "N4",
+   "start": 78.5,
+   "end": 95.0,
+   "title": "Hold Me",
+   "level": "N3",
    "topics": [
+    "anime",
     "animals",
-    "daily",
     "comedy"
    ],
    "grammar": [
     "〜たくなる — come to want to do",
-    "〜じゃん — isn't it / aren't you",
-    "〜しかいない — there is only / have only"
+    "〜くらいしか〜ない — only / nothing other than"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 119.0,
-     "end": 120.5,
-     "ja": "痛てて…",
-     "en": "Ow, ow, ow...",
-     "speaker": "おじいちゃん"
+     "start": 78.8,
+     "end": 80.2,
+     "ja": "あ、痛てて！",
+     "en": "Ow, ow, ow!",
+     "speaker": "Grandpa"
     },
     {
-     "start": 120.8,
-     "end": 124.0,
+     "start": 80.6,
+     "end": 83.6,
      "ja": "実は全然そんな柄じゃないんだよね。",
-     "en": "Actually, I'm not that kind of character at all.",
-     "speaker": "つしま"
+     "en": "Truth is, I'm not that kind of character at all.",
+     "speaker": "Tsushima"
     },
     {
-     "start": 124.2,
-     "end": 125.4,
+     "start": 84.0,
+     "end": 85.0,
      "ja": "抱っこ。",
      "en": "Hold me.",
-     "speaker": "つしま"
+     "speaker": "Tsushima"
     },
     {
-     "start": 125.8,
-     "end": 129.4,
-     "ja": "急にものすごく甘えたくなっちゃったの？",
-     "en": "Did you suddenly just want to be pampered like crazy?",
-     "speaker": "おじいちゃん"
+     "start": 85.6,
+     "end": 89.0,
+     "ja": "えへへ、急にものすごく甘えたくなっちゃったの？",
+     "en": "Hehe, did you suddenly want to be pampered?",
+     "speaker": "Grandpa"
     },
     {
-     "start": 129.6,
-     "end": 131.4,
+     "start": 89.5,
+     "end": 91.0,
      "ja": "赤ちゃんじゃん。",
-     "en": "You're such a baby.",
-     "speaker": "おじいちゃん"
+     "en": "You're like a baby.",
+     "speaker": "Grandpa"
     },
     {
-     "start": 131.8,
-     "end": 134.4,
+     "start": 91.5,
+     "end": 94.4,
      "ja": "手下、こいつぐらいしかいないし。",
-     "en": "Besides, this guy is pretty much my only minion.",
-     "speaker": "つしま"
+     "en": "Besides, he's pretty much the only minion I have.",
+     "speaker": "Tsushima"
     }
    ]
   }
@@ -232,5 +244,6 @@
   "animals",
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

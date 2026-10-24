@@ -2,48 +2,47 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 27.7,
-   "end": 42.8,
-   "title": "Steve's First Day at the Ramen Shop",
-   "level": "N4",
+   "start": 27.8,
+   "end": 42.7,
+   "title": "Meeting the Ramen Chef",
+   "level": "N5",
    "topics": [
     "work",
-    "food",
-    "comedy"
+    "food"
    ],
    "grammar": [
-    "〜と申します — humble introduction",
-    "〜たことがない — have never done",
+    "〜と言う — to be called",
+    "〜たことがある — past experience",
     "〜てください — please do"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 28.0,
-     "end": 29.8,
-     "ja": "石沢さん、スティーブと申します。",
+     "end": 30.4,
+     "ja": "石澤さん、スティーブと言います。",
      "en": "Ishizawa-san, my name is Steve.",
      "speaker": "Steve"
     },
     {
-     "start": 30.0,
-     "end": 31.2,
-     "ja": "石沢と言います。",
-     "en": "I'm Ishizawa.",
+     "start": 30.5,
+     "end": 31.6,
+     "ja": "石澤と言います。",
+     "en": "My name is Ishizawa.",
      "speaker": "Ishizawa"
     },
     {
-     "start": 31.3,
-     "end": 32.3,
+     "start": 31.7,
+     "end": 32.4,
      "ja": "よろしくお願いします。",
      "en": "Nice to meet you.",
      "speaker": "Steve"
     },
     {
      "start": 32.4,
-     "end": 33.3,
-     "ja": "よろしくお願いします、どうぞ。",
-     "en": "Nice to meet you too, welcome.",
+     "end": 33.2,
+     "ja": "よろしくお願いします。",
+     "en": "Nice to meet you.",
      "speaker": "Ishizawa"
     },
     {
@@ -54,167 +53,180 @@
      "speaker": "Steve"
     },
     {
-     "start": 35.3,
-     "end": 38.3,
+     "start": 35.1,
+     "end": 38.5,
      "ja": "全く詳しくないです。全く知らないです。教えてください。",
-     "en": "I know nothing about it at all. Please teach me!",
+     "en": "I have absolutely no idea how... Please teach me!",
      "speaker": "Steve"
     },
     {
-     "start": 38.4,
-     "end": 40.9,
+     "start": 38.6,
+     "end": 40.8,
      "ja": "はい、私に任せてください。バッチリです。",
-     "en": "Sure, leave it to me. We'll do great.",
+     "en": "Leave it to me! I'll teach you everything.",
      "speaker": "Ishizawa"
     },
     {
-     "start": 41.0,
-     "end": 41.8,
+     "start": 40.9,
+     "end": 42.5,
      "ja": "よろしくお願いします！",
      "en": "Thank you!",
      "speaker": "Steve"
-    },
-    {
-     "start": 41.9,
-     "end": 42.6,
-     "ja": "よろしくお願いします。",
-     "en": "Let's do this.",
-     "speaker": "Ishizawa"
     }
    ]
   },
   {
-   "start": 552.3,
-   "end": 602.5,
-   "title": "Serving Ramen to a Customer",
+   "start": 278.8,
+   "end": 296.0,
+   "title": "Steve Almost Gets Fired",
    "level": "N4",
    "topics": [
-    "food",
     "work",
-    "daily"
+    "food",
+    "comedy"
    ],
    "grammar": [
-    "お待たせしました — sorry to keep you waiting",
-    "〜ので — because / since",
-    "召し上がる — honorific eat"
+    "〜てから — after doing",
+    "〜そう — looks like / about to",
+    "〜も — as much as / even"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 552.5,
-     "end": 554.6,
-     "ja": "お待たせしました！",
-     "en": "Sorry to keep you waiting!",
+     "start": 279.0,
+     "end": 281.2,
+     "ja": "もやしを入れます。",
+     "en": "Here come the sprouts!",
      "speaker": "Steve"
     },
     {
-     "start": 554.9,
-     "end": 557.6,
-     "ja": "熱いですので、あの、気をつけてください。",
-     "en": "It's very hot, so please be careful.",
+     "start": 281.4,
+     "end": 283.0,
+     "ja": "あ、あ、ちょっと温めてから！",
+     "en": "Wait, wait! You gotta warm them first!",
+     "speaker": "Ishizawa"
+    },
+    {
+     "start": 283.1,
+     "end": 285.0,
+     "ja": "あ、ごめんなさい！はい！",
+     "en": "Ah, I'm sorry! Yes!",
      "speaker": "Steve"
     },
     {
-     "start": 557.8,
-     "end": 559.3,
-     "ja": "召し上がってください。",
-     "en": "Please enjoy your meal.",
+     "start": 285.1,
+     "end": 286.5,
+     "ja": "失敗でした。",
+     "en": "I messed up.",
      "speaker": "Steve"
     },
     {
-     "start": 559.4,
-     "end": 561.0,
-     "ja": "ごゆっくりどうぞ。",
-     "en": "Take your time.",
+     "start": 286.6,
+     "end": 288.5,
+     "ja": "あ、ゆっくりでいいから。",
+     "en": "Take your time, it's fine.",
+     "speaker": "Ishizawa"
+    },
+    {
+     "start": 288.5,
+     "end": 289.8,
+     "ja": "はい、ごめんなさい。",
+     "en": "Yes, I'm sorry.",
      "speaker": "Steve"
     },
     {
-     "start": 561.1,
-     "end": 562.3,
-     "ja": "どうも。",
-     "en": "Thanks.",
-     "speaker": "Customer"
+     "start": 290.0,
+     "end": 292.5,
+     "ja": "もうクビになりそうですね。",
+     "en": "Looks like I'm about to get fired already.",
+     "speaker": "Steve"
+    },
+    {
+     "start": 293.0,
+     "end": 295.2,
+     "ja": "10分も持たないです。",
+     "en": "I haven't even lasted ten minutes!",
+     "speaker": "Steve"
     }
    ]
   },
   {
-   "start": 628.8,
-   "end": 647.0,
-   "title": "The Owner Tastes the Ramen",
+   "start": 388.5,
+   "end": 407.0,
+   "title": "The Owner's Honest Review",
    "level": "N3",
    "topics": [
     "food",
-    "work",
     "comedy"
    ],
    "grammar": [
     "〜じゃダメ — no good like this",
-    "〜られない — potential negative",
-    "〜よう — volitional let's"
+    "〜られない — potential negative / cannot",
+    "〜に戻る — return to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 629.0,
-     "end": 629.9,
+     "start": 388.8,
+     "end": 389.8,
      "ja": "スティーブ。",
      "en": "Steve.",
      "speaker": "Owner"
     },
     {
-     "start": 630.0,
-     "end": 630.7,
+     "start": 389.9,
+     "end": 390.6,
      "ja": "はい。",
-     "en": "Yes?",
+     "en": "Yes.",
      "speaker": "Steve"
     },
     {
-     "start": 630.7,
-     "end": 632.5,
+     "start": 390.7,
+     "end": 392.4,
      "ja": "これじゃダメだよ！",
      "en": "This is terrible!",
      "speaker": "Owner"
     },
     {
-     "start": 634.5,
-     "end": 636.0,
-     "ja": "美味しくないよ！",
-     "en": "It's not good at all!",
+     "start": 394.2,
+     "end": 396.0,
+     "ja": "美味しくないよ。",
+     "en": "It's not good.",
      "speaker": "Owner"
     },
     {
-     "start": 636.8,
-     "end": 638.1,
-     "ja": "失敗ですか？",
-     "en": "Did I fail?",
+     "start": 396.2,
+     "end": 398.0,
+     "ja": "あー、失敗ですか？",
+     "en": "Ah, did I fail?",
      "speaker": "Steve"
     },
     {
-     "start": 638.3,
-     "end": 640.9,
-     "ja": "これじゃ俺の看板上げらんないな。",
-     "en": "I can't put my shop's name on this.",
+     "start": 398.3,
+     "end": 401.0,
+     "ja": "これじゃあ俺の看板上げらんないなー。",
+     "en": "I can't put my restaurant's sign on something like this.",
      "speaker": "Owner"
     },
     {
-     "start": 641.0,
-     "end": 642.9,
+     "start": 401.1,
+     "end": 403.0,
      "ja": "ごめんなさい！できなくて。",
-     "en": "I'm sorry! I couldn't do it.",
+     "en": "I'm sorry I couldn't do it!",
      "speaker": "Steve"
     },
     {
-     "start": 643.1,
-     "end": 644.4,
-     "ja": "もうちょっと修行しよう。",
-     "en": "You need to train a bit more.",
+     "start": 403.2,
+     "end": 404.2,
+     "ja": "うん、修行しよう。",
+     "en": "Yeah, you need more training.",
      "speaker": "Owner"
     },
     {
-     "start": 644.5,
-     "end": 646.5,
+     "start": 404.3,
+     "end": 406.5,
      "ja": "車の仕事に戻ります！",
-     "en": "I'll go back to working on cars!",
+     "en": "I'm going back to my car job!",
      "speaker": "Steve"
     }
    ]
@@ -224,5 +236,6 @@
  "pickTopics": [
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

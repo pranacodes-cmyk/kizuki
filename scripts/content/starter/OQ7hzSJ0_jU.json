@@ -1,0 +1,19 @@
+{
+ "videoId": "OQ7hzSJ0_jU",
+ "ids": [
+  "OQ7hzSJ0_jU-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "OQ7hzSJ0_jU-0": {
+   "id": "OQ7hzSJ0_jU-0",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [],
+   "why": "Speech is too fast and filled with smartphone tech jargon."
+  }
+ }
+}

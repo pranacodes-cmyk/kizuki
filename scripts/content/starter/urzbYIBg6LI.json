@@ -1,0 +1,21 @@
+{
+ "videoId": "urzbYIBg6LI",
+ "ids": [
+  "urzbYIBg6LI-16"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "urzbYIBg6LI-16": {
+   "id": "urzbYIBg6LI-16",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Friendly daily routine chat and cafe scene with basic everyday vocabulary."
+  }
+ }
+}

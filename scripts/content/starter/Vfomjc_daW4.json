@@ -1,0 +1,30 @@
+{
+ "videoId": "Vfomjc_daW4",
+ "ids": [
+  "Vfomjc_daW4-29",
+  "Vfomjc_daW4-56"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Vfomjc_daW4-29": {
+   "id": "Vfomjc_daW4-29",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear food description with slow, accessible narration."
+  },
+  "Vfomjc_daW4-56": {
+   "id": "Vfomjc_daW4-56",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple sentences describing a museum visit with clear pacing."
+  }
+ }
+}

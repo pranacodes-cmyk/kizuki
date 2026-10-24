@@ -2,165 +2,108 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 121.7,
-   "end": 152.9,
-   "title": "When Good Weather Brings Joy",
+   "start": 103.7,
+   "end": 121.8,
+   "title": "Eating With Others Makes Me Happy",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "friends"
+   ],
+   "grammar": [
+    "〜より — more than",
+    "〜と — when/if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 104.3,
+     "end": 111.3,
+     "ja": "美味しいご飯を食べている時に、僕は嬉しい気持ちになります。",
+     "en": "When I'm eating delicious food, I feel happy.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 112.3,
+     "end": 121.2,
+     "ja": "一人で食べるよりも、誰かと一緒にご飯を食べると、嬉しい気持ちになります。",
+     "en": "Rather than eating alone, eating with someone makes me feel happy.",
+     "speaker": "Yuta"
+    }
+   ]
+  },
+  {
+   "start": 242.0,
+   "end": 260.6,
+   "title": "Rain Makes Me Feel Sad",
    "level": "N5",
    "topics": [
     "daily"
    ],
    "grammar": [
-    "〜時 — when/at the time",
-    "〜が好き — like something",
-    "〜と — whenever/conditional"
+    "〜と — whenever/when",
+    "〜が好き — to like something"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 122.2,
-     "end": 128.5,
-     "ja": "2つ目の嬉しい時は、天気がいい時です。",
-     "en": "The second time is when the weather is good.",
+     "start": 242.6,
+     "end": 250.6,
+     "ja": "僕は、雨が降ると悲しいです。雨が降ると悲しくなります。",
+     "en": "When it rains, I feel sad. When it rains, I become sad.",
      "speaker": "Yuta"
     },
     {
-     "start": 129.5,
-     "end": 136.6,
-     "ja": "天気がいい時、天気が晴れの時に、",
-     "en": "When the weather is good, when it's sunny,",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 134.0,
-     "end": 136.6,
-     "ja": "嬉しい気持ちになります。",
-     "en": "I feel happy.",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 137.4,
-     "end": 142.6,
-     "ja": "僕は晴れが好きです。晴れが好き。",
+     "start": 251.5,
+     "end": 255.8,
+     "ja": "僕は、晴れが好きです。晴れが好き。",
      "en": "I like sunny weather. I like sunshine.",
      "speaker": "Yuta"
     },
     {
-     "start": 143.2,
-     "end": 149.2,
-     "ja": "だから、朝起きて、カーテンを開けて、",
-     "en": "So when I wake up in the morning and open the curtains,",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 149.3,
-     "end": 152.4,
-     "ja": "晴れだととっても嬉しいです。",
-     "en": "if it's sunny, I'm very happy.",
+     "start": 256.7,
+     "end": 260.2,
+     "ja": "だから、雨が降ると悲しくなります。",
+     "en": "So when it rains, I feel sad.",
      "speaker": "Yuta"
     }
    ]
   },
   {
-   "start": 301.7,
-   "end": 322.6,
-   "title": "What Happens When We Feel Sad",
+   "start": 535.1,
+   "end": 558.8,
+   "title": "My Dog Is Afraid of Thunder",
    "level": "N5",
    "topics": [
+    "animals",
     "daily"
    ],
    "grammar": [
-    "〜時 — when/at the time",
-    "〜から — from",
-    "〜も — also/as well"
+    "〜は〜が怖い — to be afraid of",
+    "〜くない — negative of i-adjective"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 302.0,
-     "end": 305.2,
-     "ja": "悲しい時、人は泣きます。",
-     "en": "When people are sad, they cry.",
+     "start": 535.4,
+     "end": 546.0,
+     "ja": "僕の犬、僕の犬は雷が怖いです。僕の犬は雷が怖いです。",
+     "en": "My dog is afraid of thunder. My dog is afraid of thunder.",
      "speaker": "Yuta"
     },
     {
-     "start": 305.4,
-     "end": 309.4,
-     "ja": "人は、うー、泣きます。",
-     "en": "People go 'boo-hoo' and cry.",
+     "start": 547.4,
+     "end": 552.8,
+     "ja": "僕は雷が怖くないです。雷は怖くない。",
+     "en": "I'm not afraid of thunder. Thunder isn't scary to me.",
      "speaker": "Yuta"
     },
     {
-     "start": 310.2,
-     "end": 313.2,
-     "ja": "目から涙が出ます。",
-     "en": "Tears come out of their eyes.",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 313.8,
-     "end": 317.0,
-     "ja": "目から涙が出ます。",
-     "en": "Tears come out of their eyes.",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 317.5,
-     "end": 322.1,
-     "ja": "あと、鼻水、鼻水も出ます。",
-     "en": "Also, runny nose... a runny nose also comes out.",
-     "speaker": "Yuta"
-    }
-   ]
-  },
-  {
-   "start": 409.8,
-   "end": 431.1,
-   "title": "Looking Forward to the Weekend",
-   "level": "N5",
-   "topics": [
-    "daily",
-    "fun"
-   ],
-   "grammar": [
-    "〜は — topic marker",
-    "〜にする — to do something",
-    "〜よう — let's / volitional"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 410.5,
-     "end": 415.0,
-     "ja": "土曜日と日曜日は休みです。",
-     "en": "Saturday and Sunday are days off.",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 415.5,
-     "end": 420.0,
-     "ja": "土曜日と日曜日は休みの日常です。",
-     "en": "Saturday and Sunday are holidays.",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 420.6,
-     "end": 423.8,
-     "ja": "だから、金曜日の夕方は、",
-     "en": "So, on Friday evenings,",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 424.2,
-     "end": 427.6,
-     "ja": "「土曜日と日曜日何しようかな」",
-     "en": "'I wonder what I should do on Saturday and Sunday,'",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 427.7,
-     "end": 430.6,
-     "ja": "っていう風に楽しみな気持ちになります。",
-     "en": "is how I feel excited.",
+     "start": 553.3,
+     "end": 558.1,
+     "ja": "でも、僕の犬は雷が怖いです。",
+     "en": "But my dog is scared of thunder.",
      "speaker": "Yuta"
     }
    ]
@@ -170,5 +113,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

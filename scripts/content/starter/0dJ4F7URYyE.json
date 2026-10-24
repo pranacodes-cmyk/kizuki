@@ -1,0 +1,21 @@
+{
+ "videoId": "0dJ4F7URYyE",
+ "ids": [
+  "0dJ4F7URYyE-720"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "0dJ4F7URYyE-720": {
+   "id": "0dJ4F7URYyE-720",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Cute food presentation and easy conversational vocabulary, slightly muffled speech."
+  }
+ }
+}

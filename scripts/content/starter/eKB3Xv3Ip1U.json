@@ -1,0 +1,21 @@
+{
+ "videoId": "eKB3Xv3Ip1U",
+ "ids": [
+  "eKB3Xv3Ip1U-223"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "eKB3Xv3Ip1U-223": {
+   "id": "eKB3Xv3Ip1U-223",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [
+    "fast speech"
+   ],
+   "why": "Lively comedy routine conclusion, but rapid dialogue is tricky for beginners."
+  }
+ }
+}

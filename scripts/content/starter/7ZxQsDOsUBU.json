@@ -1,0 +1,19 @@
+{
+ "videoId": "7ZxQsDOsUBU",
+ "ids": [
+  "7ZxQsDOsUBU-799"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "7ZxQsDOsUBU-799": {
+   "id": "7ZxQsDOsUBU-799",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear introductions and natural street fashion conversation for beginners."
+  }
+ }
+}

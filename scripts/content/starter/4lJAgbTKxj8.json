@@ -1,0 +1,32 @@
+{
+ "videoId": "4lJAgbTKxj8",
+ "ids": [
+  "4lJAgbTKxj8-510",
+  "4lJAgbTKxj8-58"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "4lJAgbTKxj8-58": {
+   "id": "4lJAgbTKxj8-58",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "muffled speech"
+   ],
+   "why": "Casual street chat with on-screen text."
+  },
+  "4lJAgbTKxj8-510": {
+   "id": "4lJAgbTKxj8-510",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Energetic street interview featuring natural Japanese dialogue."
+  }
+ }
+}

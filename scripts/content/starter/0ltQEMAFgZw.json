@@ -1,0 +1,21 @@
+{
+ "videoId": "0ltQEMAFgZw",
+ "ids": [
+  "0ltQEMAFgZw-82"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "0ltQEMAFgZw-82": {
+   "id": "0ltQEMAFgZw-82",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Funny anecdote, but rapid overlapping speech is tricky for beginners."
+  }
+ }
+}

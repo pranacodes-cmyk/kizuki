@@ -1,0 +1,21 @@
+{
+ "videoId": "tWXlB2Uyh2k",
+ "ids": [
+  "tWXlB2Uyh2k-146"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "tWXlB2Uyh2k-146": {
+   "id": "tWXlB2Uyh2k-146",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Lively street food tasting with casual, conversational Japanese."
+  }
+ }
+}

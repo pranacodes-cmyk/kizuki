@@ -1,0 +1,30 @@
+{
+ "videoId": "VcVxB76sgeM",
+ "ids": [
+  "VcVxB76sgeM-193",
+  "VcVxB76sgeM-308"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "VcVxB76sgeM-308": {
+   "id": "VcVxB76sgeM-308",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Talking head explaining roleplay phrases with conversational Japanese pacing."
+  },
+  "VcVxB76sgeM-193": {
+   "id": "VcVxB76sgeM-193",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear introduction of three essential travel phrases with text overlays."
+  }
+ }
+}

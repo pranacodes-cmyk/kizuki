@@ -2,133 +2,130 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 147.8,
-   "end": 213.5,
+   "start": 148.0,
+   "end": 221.8,
    "title": "Meeting the Wolf in the Forest",
    "level": "N5",
    "topics": [
-    "anime",
     "animals",
-    "culture"
+    "daily"
    ],
    "grammar": [
-    "〜に会う — meet someone",
-    "〜へ行く — go to"
+    "〜へ行く — movement towards a destination",
+    "〜に会う — to meet someone"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 148.3,
-     "end": 154.5,
+     "start": 148.2,
+     "end": 155.2,
      "ja": "森で、おおかみに会いました。",
-     "en": "In the forest, she met a wolf.",
-     "speaker": "Narrator"
+     "en": "She met a wolf in the forest.",
+     "speaker": "Tomo"
     },
     {
-     "start": 159.2,
-     "end": 202.8,
+     "start": 158.2,
+     "end": 203.5,
      "ja": "「どこへ行くの？」",
-     "en": "\"Where are you going?\"",
-     "speaker": "おおかみ"
+     "en": "Where are you going?",
+     "speaker": "Wolf"
     },
     {
-     "start": 206.8,
-     "end": 211.5,
+     "start": 206.5,
+     "end": 212.2,
      "ja": "「おばあさんの家です。」",
-     "en": "\"To grandmother's house.\"",
-     "speaker": "赤ずきん"
+     "en": "To my grandmother's house.",
+     "speaker": "Little Red Riding Hood"
+    },
+    {
+     "start": 214.5,
+     "end": 221.2,
+     "ja": "「あそこに、花があるよ。」",
+     "en": "There are flowers over there.",
+     "speaker": "Wolf"
     }
    ]
   },
   {
-   "start": 439.5,
-   "end": 513.8,
+   "start": 439.0,
+   "end": 514.0,
    "title": "Why Are Your Eyes So Big?",
    "level": "N5",
    "topics": [
-    "anime",
     "animals",
-    "culture"
+    "daily"
    ],
    "grammar": [
     "どうして — why",
-    "〜ため — in order to / for the purpose of"
+    "〜ため（に） — in order to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 440.0,
-     "end": 445.3,
+     "start": 439.5,
+     "end": 446.5,
      "ja": "「どうして目が大きいの？」",
-     "en": "\"Why are your eyes so big?\"",
-     "speaker": "赤ずきん"
+     "en": "Why are your eyes so big?",
+     "speaker": "Little Red Riding Hood"
     },
     {
-     "start": 450.1,
-     "end": 453.9,
+     "start": 449.8,
+     "end": 455.0,
      "ja": "「よく見るためだよ。」",
-     "en": "\"All the better to see you with.\"",
-     "speaker": "おおかみ"
+     "en": "All the better to see you with.",
+     "speaker": "Wolf"
     },
     {
-     "start": 498.5,
-     "end": 503.9,
+     "start": 459.2,
+     "end": 505.5,
      "ja": "「どうして口が大きいの？」",
-     "en": "\"Why is your mouth so big?\"",
-     "speaker": "赤ずきん"
+     "en": "Why is your mouth so big?",
+     "speaker": "Little Red Riding Hood"
     },
     {
-     "start": 508.2,
-     "end": 513.0,
+     "start": 507.8,
+     "end": 513.5,
      "ja": "「おまえを食べるためだよ！」",
-     "en": "\"All the better to eat you with!\"",
-     "speaker": "おおかみ"
+     "en": "All the better to eat you with!",
+     "speaker": "Wolf"
     }
    ]
   },
   {
    "start": 628.0,
-   "end": 658.5,
-   "title": "A Peaceful Ending",
+   "end": 655.0,
+   "title": "The Wolf Apologizes",
    "level": "N5",
    "topics": [
-    "food",
     "animals",
-    "culture"
+    "food"
    ],
    "grammar": [
-    "いっしょに — together",
-    "〜へ帰る — return to"
+    "〜へ帰る — to return to",
+    "いっしょに — together"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 628.6,
-     "end": 631.7,
+     "start": 628.5,
+     "end": 633.0,
      "ja": "「ごめんなさい。」",
-     "en": "\"I am sorry.\"",
-     "speaker": "おおかみ"
+     "en": "I'm sorry.",
+     "speaker": "Wolf"
     },
     {
-     "start": 634.9,
-     "end": 640.8,
+     "start": 634.8,
+     "end": 642.0,
      "ja": "おおかみは、森へ帰りました。",
      "en": "The wolf returned to the forest.",
-     "speaker": "Narrator"
+     "speaker": "Tomo"
     },
     {
-     "start": 646.4,
-     "end": 655.2,
+     "start": 646.2,
+     "end": 654.5,
      "ja": "二人は、いっしょにパンを食べました。",
-     "en": "The two of them ate bread together.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 657.0,
-     "end": 658.5,
-     "ja": "おしまい。",
-     "en": "The end.",
-     "speaker": "Narrator"
+     "en": "The two ate the bread together.",
+     "speaker": "Tomo"
     }
    ]
   }
@@ -137,5 +134,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

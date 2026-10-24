@@ -1,0 +1,30 @@
+{
+ "videoId": "2GU12K_YHnA",
+ "ids": [
+  "2GU12K_YHnA-239",
+  "2GU12K_YHnA-44"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "2GU12K_YHnA-44": {
+   "id": "2GU12K_YHnA-44",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, simple restaurant dialogue suitable for beginners."
+  },
+  "2GU12K_YHnA-239": {
+   "id": "2GU12K_YHnA-239",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Practical ordering and payment conversation with clear audio."
+  }
+ }
+}

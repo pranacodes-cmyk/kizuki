@@ -1,0 +1,19 @@
+{
+ "videoId": "E454yHYH_vw",
+ "ids": [
+  "E454yHYH_vw-13"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "E454yHYH_vw-13": {
+   "id": "E454yHYH_vw-13",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Cute anime scene, but colloquial phrasing may challenge complete beginners."
+  }
+ }
+}

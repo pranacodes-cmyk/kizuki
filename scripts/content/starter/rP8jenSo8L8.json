@@ -1,0 +1,19 @@
+{
+ "videoId": "rP8jenSo8L8",
+ "ids": [
+  "rP8jenSo8L8-11"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "rP8jenSo8L8-11": {
+   "id": "rP8jenSo8L8-11",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, simple beginner vocabulary paired with helpful visual context."
+  }
+ }
+}

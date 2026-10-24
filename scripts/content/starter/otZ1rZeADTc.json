@@ -1,0 +1,19 @@
+{
+ "videoId": "otZ1rZeADTc",
+ "ids": [
+  "otZ1rZeADTc-358"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "otZ1rZeADTc-358": {
+   "id": "otZ1rZeADTc-358",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Heartwarming dining conversation with common everyday vocabulary."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "zPRgZwimbns",
+ "ids": [
+  "zPRgZwimbns-10"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "zPRgZwimbns-10": {
+   "id": "zPRgZwimbns-10",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute dog host speaks slow, clear Japanese for beginners."
+  }
+ }
+}

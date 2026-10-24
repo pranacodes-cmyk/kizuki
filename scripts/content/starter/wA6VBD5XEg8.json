@@ -1,0 +1,19 @@
+{
+ "videoId": "wA6VBD5XEg8",
+ "ids": [
+  "wA6VBD5XEg8-391"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "wA6VBD5XEg8-391": {
+   "id": "wA6VBD5XEg8-391",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple everyday food discussion with clear dialogue and engaging street atmosphere."
+  }
+ }
+}

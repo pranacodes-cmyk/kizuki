@@ -1,0 +1,19 @@
+{
+ "videoId": "ZlfuBGTK2Xk",
+ "ids": [
+  "ZlfuBGTK2Xk-41"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "ZlfuBGTK2Xk-41": {
+   "id": "ZlfuBGTK2Xk-41",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Engaging simplified rakugo joke with expressive delivery and clear punchline."
+  }
+ }
+}

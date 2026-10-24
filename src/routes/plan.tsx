@@ -30,12 +30,13 @@ function Plan() {
   const profile = useApp((s) => s.profile);
   const seen = useApp((s) => s.seen);
   const feedSeed = useApp((s) => s.feedSeed);
+  const totals = useApp((s) => s.totals);
   const { data } = useContent();
   // A celebration tap in step with the confetti (plan.dart), once.
   const celebrated = useRef(false);
   useEffect(() => { if (!celebrated.current) { celebrated.current = true; haptic("celebrate"); } }, []);
 
-  const first = useMemo(() => (data ? feedOrder(data, { profile, seen, feedSeed }).slice(0, 3).map((id) => data.byId[id]).filter((c): c is NonNullable<typeof c> => !!c) : []), [data, profile, seen, feedSeed]);
+  const first = useMemo(() => (data ? feedOrder(data, { profile, seen, feedSeed, totals }).slice(0, 3).map((id) => data.byId[id]).filter((c): c is NonNullable<typeof c> => !!c) : []), [data, profile, seen, feedSeed, totals]);
   const items = planItems({
     reasonList: profile.reasons, challengeList: profile.challenges, dailyMinutes: profile.dailyMinutes, window: profile.window,
     streakGoal: profile.streakGoal, jlpt: profile.jlpt, clipCount: data ? levelFitCount(data, profile.jlpt) : 0,

@@ -207,8 +207,8 @@ class RankClip {
 /// Score taken off a still-picture clip (more than the whole random jitter range).
 const stillClipPenalty = 6.0;
 
-/// One deliberate first impression; the rest remains personalized.
-const onboardingShowcaseClipId = '0dBf_DAXNuc-6';
+/// The curated starter clips lead the feed until the learner has watched this many clips.
+const starterWatchLimit = 60;
 /// Only yearly simulation has a trial; native dates always come from the store.
 int? simulatedTrialEnd(String plan, int now) => plan == 'yearly' ? now + 7 * dayMs : null;
 String subscriptionPhase(bool active, String? plan, int? trialEndsAt, int now) =>
@@ -216,9 +216,25 @@ String subscriptionPhase(bool active, String? plan, int? trialEndsAt, int now) =
 /// YouTube reports zero until metadata arrives; allow only end-padding tolerance.
 bool clipWindowAvailable(double start, double end, double duration) =>
     duration <= 0 || (start < duration && end <= duration + 0.75);
-List<String> onboardingFeedOrder(List<String> personalized, Iterable<String> available) {
-  if (!available.contains(onboardingShowcaseClipId)) return personalized;
-  return [onboardingShowcaseClipId, ...personalized.where((id) => id != onboardingShowcaseClipId)];
+/// A curated starter clip: id + JLPT level.
+typedef StarterClip = ({String id, String level});
+
+/// Everyone's first clips: the curated starter list in its order (only clips that exist and are
+/// not watched yet), then the personal ranking without them. Learners above N3 skip starters more
+/// than two levels easier than theirs (jlpt null = the onboarding preview: same for everyone).
+/// After [starterWatchLimit] watched clips the feed is fully personal.
+List<String> starterFeedOrder(List<String> personalized, List<StarterClip> starter, {Map<String, int> seen = const {}, int watched = 0, String? jlpt}) {
+  if (watched >= starterWatchLimit) return personalized;
+  final available = personalized.toSet();
+  final lead = <String>[];
+  for (final s in starter) {
+    if (!available.contains(s.id) || (seen[s.id] ?? 0) > 0 || lead.contains(s.id)) continue;
+    if (jlpt != null && jlptIndex(s.level) - jlptIndex(jlpt) < -2) continue;
+    lead.add(s.id);
+  }
+  if (lead.isEmpty) return personalized;
+  final taken = lead.toSet();
+  return [...lead, ...personalized.where((id) => !taken.contains(id))];
 }
 
 double clipScore(RankClip clip, {required List<String> reasonList, required String jlpt, required Map<String, int> seen, required String seed}) {
@@ -357,6 +373,24 @@ String formatInterval(int ms) {
   if (days < 30) return '${days.round()}d';
   if (days < 365) return '${(days / 30).round()}mo';
   return '${(days / 365).toStringAsFixed(1)}y';
+}
+
+/// Plain-English time until the next practice ("now", "in 10 minutes", "tomorrow", "in 3 days")
+/// for learner-facing text — mirrors formatWhen in logic.ts.
+String formatWhen(int ms) {
+  String n(int v, String unit) => 'in $v $unit${v == 1 ? '' : 's'}';
+  if (ms <= 0) return 'now';
+  if (ms < minuteMs) return 'in under a minute';
+  if (ms < 60 * minuteMs) return n((ms / minuteMs).round().clamp(1, 59), 'minute');
+  if (ms < dayMs) {
+    final h = (ms / (60 * minuteMs)).round();
+    return h >= 24 ? 'tomorrow' : n(h, 'hour');
+  }
+  final days = ms / dayMs;
+  if (days < 1.5) return 'tomorrow';
+  if (days < 30) return n(days.round(), 'day');
+  if (days < 365) return n((days / 30).round(), 'month');
+  return n((days / 365).round(), 'year');
 }
 
 String nextIntervalLabel(Card c, String grade, int now) => grade == 'again' ? '1m' : formatInterval(answerCard(c, grade, now).due - now);

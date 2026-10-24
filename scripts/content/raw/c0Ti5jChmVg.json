@@ -2,128 +2,91 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 124.0,
-   "end": 138.8,
-   "title": "Steam Facial Cleansing with a Warm Towel",
-   "level": "N3",
-   "topics": [
-    "daily"
-   ],
-   "grammar": [
-    "〜にしておく — keep in a state beforehand",
-    "〜ようにしている — make an effort to"
-   ],
-   "quality": 4,
-   "lines": [
-    {
-     "start": 124.3,
-     "end": 127.3,
-     "ja": "朝、顔を洗うのを、",
-     "en": "Instead of using water to wash my face in the morning,",
-     "speaker": "Akiyo"
-    },
-    {
-     "start": 127.3,
-     "end": 130.6,
-     "ja": "こう、お湯を沸かしておいて、",
-     "en": "I boil hot water beforehand,",
-     "speaker": "Akiyo"
-    },
-    {
-     "start": 130.6,
-     "end": 133.4,
-     "ja": "タオルで蒸すようにして、",
-     "en": "and steam it with a towel,",
-     "speaker": "Akiyo"
-    },
-    {
-     "start": 133.4,
-     "end": 138.3,
-     "ja": "そのタオルで拭き取るっていうふうにしています。",
-     "en": "and wipe it off with that towel.",
-     "speaker": "Akiyo"
-    }
-   ]
-  },
-  {
-   "start": 241.0,
-   "end": 258.5,
-   "title": "Making Lunchboxes in Fifteen Minutes",
+   "start": 161.0,
+   "end": 178.2,
+   "title": "Making Bento in 15 Minutes",
    "level": "N3",
    "topics": [
     "daily",
     "food"
    ],
    "grammar": [
-    "〜ないので — because / since not",
-    "〜ように — aiming to / so that"
+    "〜ておく — doing in advance",
+    "〜みたい — like / resembling"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 241.2,
-     "end": 245.2,
+     "start": 161.2,
+     "end": 164.8,
      "ja": "なるべく朝はでも時間がないので、",
-     "en": "Since there really isn't much time in the morning,",
-     "speaker": "Akiyo"
+     "en": "Since I don't really have time in the morning,",
+     "speaker": "A"
     },
     {
-     "start": 245.5,
-     "end": 250.7,
-     "ja": "前日の夜に段取りみたいなのをつけておいて、",
-     "en": "I make a rough plan the night before,",
-     "speaker": "Akiyo"
+     "start": 165.0,
+     "end": 168.5,
+     "ja": "前日の夜に段取りみたいなのを",
+     "en": "I roughly plan things out",
+     "speaker": "A"
     },
     {
-     "start": 251.5,
-     "end": 254.4,
-     "ja": "もうパパッと１５分くらいで、",
-     "en": "and try to make it quickly",
-     "speaker": "Akiyo"
+     "start": 168.7,
+     "end": 171.3,
+     "ja": "大体つけておいて、",
+     "en": "the night before,",
+     "speaker": "A"
     },
     {
-     "start": 254.4,
-     "end": 258.0,
+     "start": 171.6,
+     "end": 174.4,
+     "ja": "もうパパッと15分ぐらいで",
+     "en": "and try to whip it up quickly",
+     "speaker": "A"
+    },
+    {
+     "start": 174.5,
+     "end": 177.8,
      "ja": "いつも作るみたいな気持ちでやってます。",
      "en": "in about 15 minutes.",
-     "speaker": "Akiyo"
+     "speaker": "A"
     }
    ]
   },
   {
-   "start": 722.2,
-   "end": 734.5,
-   "title": "Keeping What's in Sight Clean",
+   "start": 442.0,
+   "end": 454.0,
+   "title": "Cleaning What Catches the Eye",
    "level": "N3",
    "topics": [
     "daily"
    ],
    "grammar": [
-    "〜なければ — if not / unless",
-    "〜ても大丈夫 — okay even if"
+    "〜ても — even if",
+    "〜ちゃう — to end up doing"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 722.5,
-     "end": 726.6,
+     "start": 442.2,
+     "end": 446.0,
      "ja": "目に見えなければいいんですよ、汚くても。",
      "en": "If it's not visible, it's fine even if it's dirty.",
-     "speaker": "Akiyo"
+     "speaker": "A"
     },
     {
-     "start": 727.5,
-     "end": 730.5,
+     "start": 447.3,
+     "end": 451.0,
      "ja": "目に入るところは、なんか気になっちゃうんで、",
-     "en": "Things that are in plain sight bother me,",
-     "speaker": "Akiyo"
+     "en": "What enters my sight bothers me,",
+     "speaker": "A"
     },
     {
-     "start": 730.8,
-     "end": 734.0,
-     "ja": "綺麗にしておきたいみたいな。",
-     "en": "so I like to keep them clean.",
-     "speaker": "Akiyo"
+     "start": 451.1,
+     "end": 453.5,
+     "ja": "きれいにしたいみたいな。",
+     "en": "so I want to keep those areas clean.",
+     "speaker": "A"
     }
    ]
   }
@@ -132,5 +95,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

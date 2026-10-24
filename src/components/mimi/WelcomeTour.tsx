@@ -1,28 +1,51 @@
 import { AnimatePresence, motion } from "motion/react";
-import { Bookmark, Pointer, Repeat1, RotateCcw } from "lucide-react";
+import { Pointer } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
-import { useRouterState } from "@tanstack/react-router";
+import { useNavigate, useRouterState } from "@tanstack/react-router";
 
 import { useApp } from "@/lib/store";
-import { TOUR_CONTROLS, TOUR_HAND_TIP_Y, TOUR_LEGEND, TOUR_LEGEND_DELAY_MS, TOUR_MAX_HOLE_HEIGHT, TOUR_STEPS, TOUR_TARGET_WAIT_MS, tourText, type TourStep } from "@/lib/tour";
-import { useTour } from "@/lib/tour-store";
+import { TOUR_HAND_TIP_Y, TOUR_LEGEND, TOUR_LEGEND_DELAY_MS, TOUR_MAX_HOLE_HEIGHT, TOUR_STEPS, TOUR_TARGET_WAIT_MS, TOUR_TIP_EST_HEIGHT, tourText, type TourStep } from "@/lib/tour";
+import { setTourNavigator, useTour } from "@/lib/tour-store";
 import { cn } from "@/lib/utils";
 
 import { Mascot } from "./Mascot";
 
 type Box = { x: number; y: number; w: number; h: number };
 
+/** Visible box of a [data-tour] target inside the tour root: only the part inside every
+ * scrolling / clipping parent counts, so a word scrolled out of the transcript is not a target
+ * (it used to light the video above it). Mirrors TourAnchor.rectOf in tour.dart. */
+function visibleBox(el: HTMLElement, root: DOMRect): Box | null {
+  const r = el.getBoundingClientRect();
+  let left = r.left, top = r.top, right = r.right, bottom = r.bottom;
+  for (let p = el.parentElement; p && p !== document.body; p = p.parentElement) {
+    const cs = getComputedStyle(p);
+    if (cs.overflowX === "visible" && cs.overflowY === "visible") continue;
+    const c = p.getBoundingClientRect();
+    left = Math.max(left, c.left); top = Math.max(top, c.top);
+    right = Math.min(right, c.right); bottom = Math.min(bottom, c.bottom);
+  }
+  if (right - left < 8 || bottom - top < 8) return null;
+  return { x: left - root.left, y: top - root.top, w: right - left, h: bottom - top };
+}
+
 /**
  * The welcome tour overlay. Portals above every screen and sheet (#tour-root), starts on the
- * feed for new learners, follows them to Explore, Vocab and their first review, and
- * spotlights the thing to tap ([data-tour] targets). Mirrors TourHost in
+ * feed for new learners, follows them to Vocab and their first review, spotlights the thing
+ * to tap ([data-tour] targets) and brings them back to the feed. Mirrors TourHost in
  * mobile/lib/widgets/tour.dart.
  */
 export function TourHost() {
   const [root, setRoot] = useState<HTMLElement | null>(null);
   useEffect(() => setRoot(document.getElementById("tour-root")), []);
   const path = useRouterState({ select: (s) => s.location.pathname });
+  // The last step's "Back to videos" opens the feed.
+  const navigate = useNavigate();
+  useEffect(() => {
+    setTourNavigator((to) => void navigate({ to }));
+    return () => setTourNavigator(null);
+  }, [navigate]);
   const index = useTour((s) => s.index);
   const onboarded = useApp((s) => s.onboarded);
   const done = useApp((s) => s.tutorial.feed);
@@ -48,13 +71,14 @@ export function TourHost() {
 
 function TourOverlay({ step, index, root }: { step: TourStep; index: number; root: HTMLElement }) {
   const [hole, setHole] = useState<Box | null>(null);
+  const [handBox, setHandBox] = useState<Box | null>(null);
   const [waitedOut, setWaitedOut] = useState(false);
   const [legendReady, setLegendReady] = useState(false);
   const [size, setSize] = useState({ w: root.clientWidth, h: root.clientHeight });
   const missing = useRef(0);
   const name = useApp((s) => s.profile.name);
   const minutes = useApp((s) => s.profile.dailyMinutes);
-  const { next, skipStep, finish } = useTour.getState();
+  const { advance, finish } = useTour.getState();
 
   const measure = useCallback(() => {
     const box = root.getBoundingClientRect();
@@ -63,17 +87,26 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
     const els = Array.from(document.querySelectorAll<HTMLElement>(`[data-tour="${step.target}"]`));
     let found: Box | null = null;
     for (const el of els.reverse()) {
-      const r = el.getBoundingClientRect();
-      if (r.width < 8 || r.height < 8) continue;
+      const r = visibleBox(el, box);
+      if (!r) continue;
       const pad = 6;
-      const x = Math.max(4, r.left - box.left - pad);
-      const y = Math.max(4, r.top - box.top - pad);
-      const w = Math.min(box.width - 4, r.right - box.left + pad) - x;
-      const full = Math.min(box.height - 4, r.bottom - box.top + pad) - y;
+      const x = Math.max(4, r.x - pad);
+      const y = Math.max(4, r.y - pad);
+      const w = Math.min(box.width - 4, r.x + r.w + pad) - x;
+      const full = Math.min(box.height - 4, r.y + r.h + pad) - y;
       const h = step.fullHole ? full : Math.min(TOUR_MAX_HOLE_HEIGHT, full);
       if (w >= 16 && h >= 16) { found = { x, y, w, h }; break; }
     }
-    setHole((old) => (old && found && old.x === found.x && old.y === found.y && old.w === found.w && old.h === found.h ? old : found));
+    setHole((old) => (sameBox(old, found) ? old : found));
+    // The hand points at handAt when the step lights a bigger card.
+    let hand: Box | null = null;
+    if (found && step.handAt) {
+      for (const el of Array.from(document.querySelectorAll<HTMLElement>(`[data-tour="${step.handAt}"]`)).reverse()) {
+        hand = visibleBox(el, box);
+        if (hand) break;
+      }
+    }
+    setHandBox((old) => (sameBox(old, hand) ? old : hand));
     if (!found) {
       missing.current += 200;
       if (missing.current >= TOUR_TARGET_WAIT_MS) setWaitedOut(true);
@@ -81,7 +114,7 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
       missing.current = 0;
       setWaitedOut(false);
     }
-  }, [root, step.target, step.fullHole]);
+  }, [root, step.target, step.fullHole, step.handAt]);
 
   useEffect(() => {
     measure();
@@ -102,20 +135,22 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
   const kind = waitedOut && step.kind === "action" ? "tap" : step.kind ?? "tap";
   const dim = pass ? 0 : waitingForTarget ? 0.35 : 0.72;
 
+  const handAt = step.handAt ? handBox : h;
+
   const onNext = () => {
     if (step.kind === "legend" && !legendReady) return;
-    if (step.kind === "finish") return finish();
-    if (step.kind === "action") return skipStep();
-    next();
+    advance();
   };
 
-  // Bubble placement: pinned (top = above a bottom sheet, bottom = over the lower part of a
-  // tall card), else under a spotlight in the top half, above one lower down, else centered.
-  const EST_H = 200;
+  // Bubble placement: top = just above the spotlight (a bottom sheet), else pinned to the top;
+  // bottom = over the empty lower part of a tall card; otherwise under a spotlight in the top
+  // half, above one lower down, else centered.
+  const EST_H = TOUR_TIP_EST_HEIGHT;
+  const sat = parseFloat(getComputedStyle(root).getPropertyValue("--sat")) || 0;
   let bubbleStyle: React.CSSProperties | undefined;
   let centered = false;
   if (h && step.place === "top") {
-    bubbleStyle = { top: "calc(var(--sat) + 52px)" };
+    bubbleStyle = h.y - sat - 56 >= EST_H ? { bottom: size.h - h.y + 12 } : { top: "calc(var(--sat) + 52px)" };
   } else if (h && step.place === "bottom") {
     bubbleStyle = { bottom: "calc(var(--sab) + 16px)" };
   } else if (h) {
@@ -153,8 +188,8 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
         {h && <motion.rect initial={false} animate={{ x: h.x, y: h.y, width: h.w, height: h.h }} transition={{ duration: 0.32, ease: [0.22, 1, 0.36, 1] }} rx={18} fill="none" className="stroke-primary" strokeWidth={3} />}
       </svg>
 
-      {step.hand === "tap" && h && action && (
-        <div className="pointer-events-none absolute" style={{ left: h.x + h.w / 2 - 40, top: h.y + h.h * (step.handY ?? TOUR_HAND_TIP_Y) - 40, width: 80, height: 104 }}>
+      {step.hand === "tap" && h && handAt && action && (
+        <div className="pointer-events-none absolute" style={{ left: handAt.x + handAt.w / 2 - 40, top: handAt.y + handAt.h * (step.handY ?? TOUR_HAND_TIP_Y) - 40, width: 80, height: 104 }}>
           <motion.span className="absolute left-1/2 top-[40px] block rounded-full border-[3px] border-primary" style={{ x: "-50%", y: "-50%" }} animate={{ width: [36, 64], height: [36, 64], opacity: [1, 0] }} transition={{ duration: 1.4, repeat: Infinity, ease: "easeOut" }} />
           <motion.span className="absolute left-[34px] top-[34px]" animate={{ y: [0, 8, 0] }} transition={{ duration: 1.4, repeat: Infinity, ease: "easeInOut" }}>
             <Pointer className="h-11 w-11 text-foreground drop-shadow-[0_0_12px_oklch(0_0_0/0.8)]" />
@@ -187,7 +222,7 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
                       <div className="mt-3 space-y-2.5">
                         {TOUR_LEGEND.map((l) => (
                           <div key={l.id} className="flex items-center gap-2">
-                            <span className="flex w-16 shrink-0"><LegendWord look={l.id} /></span>
+                            <span className="flex w-14 shrink-0"><LegendWord look={l.id} /></span>
                             <span className="min-w-0">
                               <span className="block text-[0.875rem] font-black text-background">{l.label}</span>
                               <span className="block text-[0.75rem] font-semibold text-faint">{l.hint}</span>
@@ -197,22 +232,13 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
                       </div>
                       <Pill wide disabled={!legendReady} onClick={onNext}>Got it</Pill>
                     </>
-                  ) : kind === "controls" ? (
-                    <>
-                      <div className="mt-2.5 space-y-2">
-                        {TOUR_CONTROLS.map((c) => (
-                          <div key={c.id} className="flex items-center gap-2.5">
-                            <span className="flex h-[30px] w-9 shrink-0 items-center justify-center rounded-[10px] bg-background/10 text-background"><ControlGlyph id={c.id} /></span>
-                            <span className="min-w-0 text-[0.875rem] font-extrabold text-background">{c.label}</span>
-                          </div>
-                        ))}
-                      </div>
-                      <NextRow label={`${index + 1} of ${TOUR_STEPS.length}`} onNext={onNext} />
-                    </>
                   ) : kind === "finish" ? (
-                    <Pill wide onClick={onNext}>Let's go!</Pill>
+                    <Pill wide onClick={onNext}>{step.button ?? "Let's go!"}</Pill>
                   ) : kind === "action" ? (
                     step.hint && <p className="mt-2.5 flex items-center gap-1.5 text-[0.8125rem] font-black text-primary-deep"><Pointer className="h-4 w-4 shrink-0" />{step.hint}</p>
+                  ) : step.button ? (
+                    // A named button ("Back to the video") gets the full width, so it never squeezes.
+                    <Pill wide onClick={onNext}>{step.button}</Pill>
                   ) : (
                     <NextRow label={`${index + 1} of ${TOUR_STEPS.length}`} onNext={onNext} />
                   )}
@@ -255,24 +281,17 @@ function NextRow({ label, onNext }: { label: string; onNext: () => void }) {
   );
 }
 
-/** A legend sample drawn exactly like a transcript word (Transcript Token): same font,
- * 3px underline in the status colour, green box for the word being said. */
+/** A legend sample drawn exactly like a transcript word (Transcript Token): same font and
+ * 3px underline in the status colour. */
 function LegendWord({ look }: { look: (typeof TOUR_LEGEND)[number]["id"] }) {
   const underline = look === "new" ? "decoration-info" : look === "learning" ? "decoration-learning" : "decoration-transparent";
   return (
-    <span className={cn("rounded-lg px-0.5 leading-tight", look === "speaking" && "outline outline-2 outline-success")}>
+    <span className="px-0.5 leading-tight">
       <span className={cn("font-jp text-[1.3rem] font-bold text-background underline decoration-[3px] underline-offset-[6px]", underline)}>言葉</span>
     </span>
   );
 }
 
-/** The player buttons as they look in the clip controls (ClipView), for the controls step. */
-function ControlGlyph({ id }: { id: (typeof TOUR_CONTROLS)[number]["id"] }) {
-  switch (id) {
-    case "replay": return <RotateCcw className="h-[18px] w-[18px]" />;
-    case "loop": return <Repeat1 className="h-[18px] w-[18px]" />;
-    case "speed": return <span className="text-[0.8125rem] font-black">1×</span>;
-    case "save": return <Bookmark className="h-[18px] w-[18px]" />;
-    default: return <span className="text-[0.875rem] font-black">Aa</span>;
-  }
+function sameBox(a: Box | null, b: Box | null) {
+  return a === b || (!!a && !!b && a.x === b.x && a.y === b.y && a.w === b.w && a.h === b.h);
 }

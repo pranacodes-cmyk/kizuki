@@ -12,7 +12,7 @@ import { POS_NAMES } from "@/components/mimi/WordCard";
 import { Button, Modal, Screen, Sheet } from "@/components/mimi/ui";
 import type { Content } from "@/lib/content";
 import { useContent } from "@/lib/feed";
-import { customStudyKeys, kanaDeck, kanaQueue, newCard, nextIntervalLabel, repeatsSense, ReviewSession, type Card, type Grade } from "@/lib/logic";
+import { customStudyKeys, kanaDeck, kanaQueue, newCard, repeatsSense, ReviewSession, type Card, type Grade } from "@/lib/logic";
 import { haptic } from "@/lib/haptics";
 import { watchUrl } from "@/lib/youtube";
 import { speak } from "@/lib/speech";
@@ -20,6 +20,9 @@ import { dueKeysOf, useApp, wordLites, type SavedWord } from "@/lib/store";
 import { toast } from "@/lib/ui-store";
 import { tourEmit } from "@/lib/tour-store";
 import { cn } from "@/lib/utils";
+
+/** How the review timing works, in plain words (no interval codes) — same text in review.dart. */
+const REVIEW_DONE_NOTE = "Each word comes back right before you'd forget it. Forgotten words come back sooner.";
 
 const searchSchema = z.object({ deck: z.enum(["words", "hiragana", "katakana"]).catch("words"), mode: z.enum(["extra"]).optional() });
 
@@ -111,6 +114,7 @@ function Review() {
           <p className="mt-2 flex items-center gap-1.5 text-[1rem] font-extrabold text-success">
             <Check className="h-5 w-5" strokeWidth={3} /> {finished ? `${sess.answered} card${sess.answered === 1 ? "" : "s"} reviewed` : "Nothing due right now"}
           </p>
+          <p className="mt-2.5 max-w-[300px] text-[0.9375rem] font-semibold leading-snug text-muted-foreground">{REVIEW_DONE_NOTE}</p>
         </div>
         <div className="w-full space-y-3 pb-2">
           <Button onClick={exit}>I'm done for now</Button>
@@ -168,13 +172,14 @@ function Review() {
         {revealed && card && (
           <motion.div key="grade" initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} transition={{ duration: 0.22, ease: "easeOut" }} className="shrink-0 overflow-hidden">
             <div className="px-4 pb-2">
-              {firstTime && <p className="mb-2 text-center text-[0.8125rem] font-bold text-faint">How did you do?</p>}
+              {firstTime && <p className="mb-2 text-center text-[0.8125rem] font-bold text-faint">Did you remember it?</p>}
+              {/* Plain words only — no "1m / 10m" timing codes; the app picks the timing. */}
               <div data-tour="grade" className="grid grid-cols-2 gap-3">
-                <Button variant="ghost" aria-label={`Forgot, next in ${nextIntervalLabel(card, "again", Date.now())}`} onClick={() => answer("again")} className="h-16 flex-col !gap-0 !px-1 items-center justify-center rounded-2xl bg-danger-soft text-danger">
-                  <span className="text-[1.0625rem] font-black">Forgot</span><span className="text-[0.75rem] font-bold opacity-80">{nextIntervalLabel(card, "again", Date.now())}</span>
+                <Button variant="ghost" onClick={() => answer("again")} className="h-[60px] !gap-2 !px-1 items-center justify-center rounded-2xl bg-danger-soft text-danger">
+                  <X className="h-5 w-5 shrink-0" strokeWidth={3} /><span className="truncate text-[1.0625rem] font-black">Forgot</span>
                 </Button>
-                <Button variant="ghost" aria-label={`Remembered, next in ${nextIntervalLabel(card, "good", Date.now())}`} onClick={() => answer("good")} className="h-16 flex-col !gap-0 !px-1 items-center justify-center rounded-2xl bg-success-soft text-success">
-                  <span className="text-[1.0625rem] font-black">Remembered</span><span className="text-[0.75rem] font-bold opacity-80">{nextIntervalLabel(card, "good", Date.now())}</span>
+                <Button variant="ghost" onClick={() => answer("good")} className="h-[60px] !gap-2 !px-1 items-center justify-center rounded-2xl bg-success-soft text-success">
+                  <Check className="h-5 w-5 shrink-0" strokeWidth={3} /><span className="truncate text-[1.0625rem] font-black">Remembered</span>
                 </Button>
               </div>
             </div>

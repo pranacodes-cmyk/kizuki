@@ -1,0 +1,19 @@
+{
+ "videoId": "2leqsN0McsE",
+ "ids": [
+  "2leqsN0McsE-2"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "2leqsN0McsE-2": {
+   "id": "2leqsN0McsE-2",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, slow demonstration where actions directly match simple repetitive vocabulary."
+  }
+ }
+}

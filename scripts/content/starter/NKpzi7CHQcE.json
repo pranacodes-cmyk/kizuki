@@ -1,0 +1,19 @@
+{
+ "videoId": "NKpzi7CHQcE",
+ "ids": [
+  "NKpzi7CHQcE-242"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "NKpzi7CHQcE-242": {
+   "id": "NKpzi7CHQcE-242",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Friendly wrap-up in Harajuku with clear natural Japanese."
+  }
+ }
+}

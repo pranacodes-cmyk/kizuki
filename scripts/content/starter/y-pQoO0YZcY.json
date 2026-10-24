@@ -1,0 +1,19 @@
+{
+ "videoId": "y-pQoO0YZcY",
+ "ids": [
+  "y-pQoO0YZcY-52"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "y-pQoO0YZcY-52": {
+   "id": "y-pQoO0YZcY-52",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear roleplay dialogue with subtitles, useful practical Japanese for beginners."
+  }
+ }
+}

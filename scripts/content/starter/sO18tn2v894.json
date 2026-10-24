@@ -1,0 +1,19 @@
+{
+ "videoId": "sO18tn2v894",
+ "ids": [
+  "sO18tn2v894-27"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "sO18tn2v894-27": {
+   "id": "sO18tn2v894-27",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute dogs reacting to a simple walk invitation with basic Japanese words."
+  }
+ }
+}

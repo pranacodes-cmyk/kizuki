@@ -1,0 +1,19 @@
+{
+ "videoId": "h8aHI9R4p0I",
+ "ids": [
+  "h8aHI9R4p0I-241"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "h8aHI9R4p0I-241": {
+   "id": "h8aHI9R4p0I-241",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute cat interaction with very clear, comprehensible beginner Japanese speech."
+  }
+ }
+}

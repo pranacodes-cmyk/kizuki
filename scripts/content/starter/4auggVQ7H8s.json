@@ -1,0 +1,21 @@
+{
+ "videoId": "4auggVQ7H8s",
+ "ids": [
+  "4auggVQ7H8s-6"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "4auggVQ7H8s-6": {
+   "id": "4auggVQ7H8s-6",
+   "appeal": 4,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "intro bumper"
+   ],
+   "why": "Includes title card bumper and transitions into English host commentary."
+  }
+ }
+}

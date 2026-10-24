@@ -2,97 +2,111 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 246.3,
-   "end": 254.8,
-   "title": "Late Check-out Reaction",
-   "level": "N4",
+   "start": 1.0,
+   "end": 19.3,
+   "title": "Spotting Mount Fuji on the Train",
+   "level": "N3",
    "topics": [
     "travel",
     "fun",
     "friends"
    ],
    "grammar": [
-    "〜時 — time/o'clock",
-    "〜しかない — only"
+    "〜んとちゃう？ — isn't it likely?",
+    "〜ことある — have experienced doing"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 246.6,
-     "end": 247.9,
-     "ja": "チェックアウト何時？",
-     "en": "What time is check-out?",
+     "start": 1.0,
+     "end": 3.7,
+     "ja": "富士山見えるんちゃう？これ。",
+     "en": "Won't we be able to see Mount Fuji from here?",
      "speaker": "A"
     },
     {
-     "start": 248.0,
-     "end": 249.2,
-     "ja": "チェックアウトは11時。",
-     "en": "Check-out is at 11:00.",
+     "start": 4.1,
+     "end": 7.0,
+     "ja": "ガキやん、富士山ごときで興奮して。",
+     "en": "You're like a kid, getting excited over Mount Fuji.",
      "speaker": "B"
     },
     {
-     "start": 249.3,
-     "end": 251.3,
-     "ja": "今11時40分やで。オーマイガー！",
-     "en": "It's 11:40 now. Oh my god!",
+     "start": 7.1,
+     "end": 8.7,
+     "ja": "富士山見えるの？これ。",
+     "en": "Can we see Mount Fuji from here?",
      "speaker": "A"
     },
     {
-     "start": 251.6,
-     "end": 254.4,
-     "ja": "アメリカ人にしか喜ばれへん今のボケ。",
-     "en": "Only Americans would appreciate that joke.",
+     "start": 8.8,
+     "end": 11.2,
+     "ja": "俺２、３回行ったことあるし、別に興味ないしな。",
+     "en": "I've been there two or three times, so I'm not really interested.",
+     "speaker": "B"
+    },
+    {
+     "start": 12.8,
+     "end": 14.1,
+     "ja": "富士山ちゃうん？",
+     "en": "Isn't that Mount Fuji?",
+     "speaker": "B"
+    },
+    {
+     "start": 16.9,
+     "end": 18.9,
+     "ja": "富士山でかっ！",
+     "en": "Mount Fuji is huge!",
      "speaker": "B"
     }
    ]
   },
   {
-   "start": 321.0,
-   "end": 334.0,
-   "title": "Shopping for Underwear",
-   "level": "N4",
+   "start": 321.2,
+   "end": 346.5,
+   "title": "Looking for Underwear at the Mall",
+   "level": "N3",
    "topics": [
     "daily",
-    "friends",
-    "travel"
+    "fun",
+    "friends"
    ],
    "grammar": [
-    "〜から — because",
-    "〜に行こう — let's go do"
+    "〜に行く — go in order to do",
+    "〜しかない — have only / nothing but"
    ],
    "quality": 4,
    "lines": [
     {
      "start": 321.2,
-     "end": 322.4,
-     "ja": "今からどうする？",
-     "en": "What are we doing now?",
+     "end": 322.8,
+     "ja": "え、今からどうする？",
+     "en": "What should we do now?",
      "speaker": "A"
     },
     {
-     "start": 323.0,
-     "end": 326.0,
+     "start": 322.9,
+     "end": 325.5,
      "ja": "替えのパンツないからさ、買いに行こう。",
      "en": "I don't have spare underwear, so let's go buy some.",
      "speaker": "B"
     },
     {
-     "start": 326.1,
-     "end": 327.2,
-     "ja": "買い行くか。",
-     "en": "Let's go buy some.",
+     "start": 325.8,
+     "end": 327.0,
+     "ja": "ああ、買いに行くか。",
+     "en": "Ah, let's go buy some.",
      "speaker": "A"
     },
     {
-     "start": 327.3,
-     "end": 330.3,
-     "ja": "パンツ俺、３着しか持ってなくてさ、足りへんねん。",
-     "en": "I only brought three pairs of underwear, so I'm running short.",
+     "start": 327.2,
+     "end": 330.1,
+     "ja": "パンツ俺、３着しかなくてさ、足りへんねん。",
+     "en": "I only have three pairs of underwear, it's not enough.",
      "speaker": "B"
     },
     {
-     "start": 330.4,
+     "start": 330.2,
      "end": 331.6,
      "ja": "ユニクロとかじゃあかんの？",
      "en": "Is Uniqlo no good?",
@@ -100,97 +114,139 @@
     },
     {
      "start": 331.7,
-     "end": 333.6,
-     "ja": "もっとブランドもんがいいわ。あったやん、あそこに。",
-     "en": "I'd prefer brand-name stuff. Look, there's one over there.",
+     "end": 333.1,
+     "ja": "いや、もっとブランドものがいいわ。",
+     "en": "No, I'd rather have brand-name ones.",
+     "speaker": "B"
+    },
+    {
+     "start": 333.4,
+     "end": 334.8,
+     "ja": "あったやん、ワコール。",
+     "en": "There's one, Wacoal.",
+     "speaker": "B"
+    },
+    {
+     "start": 335.0,
+     "end": 337.0,
+     "ja": "IKKOでもここで買わんぞ。",
+     "en": "Even IKKO wouldn't buy stuff here.",
+     "speaker": "A"
+    },
+    {
+     "start": 337.8,
+     "end": 339.2,
+     "ja": "ワコールやし。",
+     "en": "It's Wacoal.",
+     "speaker": "B"
+    },
+    {
+     "start": 340.2,
+     "end": 342.3,
+     "ja": "ワコール、京都の企業やで。",
+     "en": "Wacoal is a Kyoto company, you know.",
+     "speaker": "B"
+    },
+    {
+     "start": 343.3,
+     "end": 344.2,
+     "ja": "地産地消。",
+     "en": "Local production for local consumption.",
+     "speaker": "B"
+    },
+    {
+     "start": 344.4,
+     "end": 346.0,
+     "ja": "白ブリーフ売ってない？ここ。",
+     "en": "Don't they sell white briefs here?",
      "speaker": "B"
     }
    ]
   },
   {
-   "start": 900.5,
-   "end": 923.0,
-   "title": "Reflecting on the Tokyo Trip",
+   "start": 802.2,
+   "end": 828.6,
+   "title": "Slam Dunk Holy Ground",
    "level": "N3",
    "topics": [
     "travel",
-    "friends",
-    "daily"
+    "anime",
+    "friends"
    ],
    "grammar": [
-    "〜と思う — think that",
-    "〜てみてはどうでしょうか — how about trying to"
+    "〜たいと思います — would like to do",
+    "〜んじゃない？ — isn't it likely?"
    ],
-   "quality": 5,
+   "quality": 4,
    "lines": [
     {
-     "start": 901.0,
-     "end": 903.0,
-     "ja": "多分うすうすみんな気づいてると思うけど、",
-     "en": "I think everyone probably already has an inkling, but...",
+     "start": 802.2,
+     "end": 803.4,
+     "ja": "これどこ来た？",
+     "en": "Where have we arrived?",
      "speaker": "A"
     },
     {
-     "start": 903.2,
-     "end": 905.1,
-     "ja": "前半めっちゃ濃いのに、後半薄い。",
-     "en": "The first half is so detailed, but the second half is so sparse.",
+     "start": 803.8,
+     "end": 807.0,
+     "ja": "俺の人生のバイブル『SLAM DUNK』の聖地ですね。",
+     "en": "The sacred ground of my life's bible, 'SLAM DUNK'.",
+     "speaker": "B"
+    },
+    {
+     "start": 807.1,
+     "end": 809.5,
+     "ja": "オープニングに流れる江ノ電の踏切。",
+     "en": "The Enoden railroad crossing shown in the opening.",
+     "speaker": "B"
+    },
+    {
+     "start": 809.8,
+     "end": 811.8,
+     "ja": "今から写真撮影したいと思います！",
+     "en": "I'd like to take some photos now!",
+     "speaker": "B"
+    },
+    {
+     "start": 812.3,
+     "end": 815.4,
+     "ja": "マジこれを読みに、楽しみにして来ました、江ノ島、僕は。",
+     "en": "Seriously, looking forward to reading this, I came to Enoshima.",
      "speaker": "A"
     },
     {
-     "start": 905.3,
-     "end": 906.9,
-     "ja": "忘れてた、YouTube。",
-     "en": "We totally forgot about YouTube.",
+     "start": 815.9,
+     "end": 817.7,
+     "ja": "『SLAM DUNK』読んでる？読んだ？",
+     "en": "Have you read 'SLAM DUNK'? Did you read it?",
      "speaker": "B"
     },
     {
-     "start": 907.0,
-     "end": 908.2,
-     "ja": "動画撮るの忘れてる。",
-     "en": "We forgot to take videos.",
+     "start": 817.9,
+     "end": 820.3,
+     "ja": "５留してるゴリさんじゃないの？",
+     "en": "Isn't it the Gori-san who was held back 5 years?",
      "speaker": "A"
     },
     {
-     "start": 908.7,
-     "end": 910.4,
-     "ja": "でもいい旅になったんじゃないでしょうか。",
-     "en": "Still, it turned out to be a good trip, didn't it?",
+     "start": 822.8,
+     "end": 824.9,
+     "ja": "分かるかよ！",
+     "en": "How would I know that!",
      "speaker": "B"
     },
     {
-     "start": 910.5,
-     "end": 913.3,
-     "ja": "久しぶりやしね、男3人旅するっていうのも。",
-     "en": "It's been a while since the three of us guys traveled together like this.",
-     "speaker": "B"
-    },
-    {
-     "start": 913.5,
-     "end": 915.2,
-     "ja": "いい旅行になったと思います。",
-     "en": "I think it was a wonderful trip.",
-     "speaker": "B"
-    },
-    {
-     "start": 916.0,
-     "end": 917.4,
-     "ja": "息抜きも大事です。",
-     "en": "Taking a break is important too.",
+     "start": 825.9,
+     "end": 827.2,
+     "ja": "総人のゴリさん。",
+     "en": "Gori-san from the Faculty of Integrated Human Studies.",
      "speaker": "A"
     },
     {
-     "start": 917.5,
-     "end": 920.6,
-     "ja": "たまには気を抜いて遊んでみてはどうでしょうか。",
-     "en": "Why not relax and have some fun once in a while?",
-     "speaker": "B"
-    },
-    {
-     "start": 920.8,
-     "end": 922.7,
-     "ja": "では次回の動画でお会いしましょう。バイバイ！",
-     "en": "See you in our next video. Bye-bye!",
+     "start": 827.3,
+     "end": 828.5,
+     "ja": "違うわ！赤木。",
+     "en": "No! Akagi.",
      "speaker": "B"
     }
    ]
@@ -200,5 +256,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

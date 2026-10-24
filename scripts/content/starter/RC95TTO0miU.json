@@ -1,0 +1,19 @@
+{
+ "videoId": "RC95TTO0miU",
+ "ids": [
+  "RC95TTO0miU-1002"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "RC95TTO0miU-1002": {
+   "id": "RC95TTO0miU-1002",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Friendly YouTube outro featuring simple, familiar parting expressions."
+  }
+ }
+}

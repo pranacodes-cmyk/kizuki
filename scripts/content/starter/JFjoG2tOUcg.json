@@ -1,0 +1,21 @@
+{
+ "videoId": "JFjoG2tOUcg",
+ "ids": [
+  "JFjoG2tOUcg-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "JFjoG2tOUcg-0": {
+   "id": "JFjoG2tOUcg-0",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Lively dining scene with common conversational greeting and toast expressions."
+  }
+ }
+}

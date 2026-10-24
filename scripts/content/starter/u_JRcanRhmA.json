@@ -1,0 +1,19 @@
+{
+ "videoId": "u_JRcanRhmA",
+ "ids": [
+  "u_JRcanRhmA-481"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "u_JRcanRhmA-481": {
+   "id": "u_JRcanRhmA-481",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Fun, clear comparison of regional food textures suitable for beginners."
+  }
+ }
+}

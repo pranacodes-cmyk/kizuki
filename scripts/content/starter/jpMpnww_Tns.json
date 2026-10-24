@@ -1,0 +1,19 @@
+{
+ "videoId": "jpMpnww_Tns",
+ "ids": [
+  "jpMpnww_Tns-415"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "jpMpnww_Tns-415": {
+   "id": "jpMpnww_Tns-415",
+   "appeal": 7,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Fun, natural glimpse into school life with relatable food vocabulary."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "TYHTRihC2hg",
+ "ids": [
+  "TYHTRihC2hg-47"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "TYHTRihC2hg-47": {
+   "id": "TYHTRihC2hg-47",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous pun sketch, though comedy pacing is slightly fast for beginners."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "dMMnNGuDZx4",
+ "ids": [
+  "dMMnNGuDZx4-812"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "dMMnNGuDZx4-812": {
+   "id": "dMMnNGuDZx4-812",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Fun outdoor drinking scene enjoying skewers with casual Japanese."
+  }
+ }
+}

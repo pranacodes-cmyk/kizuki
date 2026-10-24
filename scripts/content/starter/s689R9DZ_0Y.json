@@ -1,0 +1,19 @@
+{
+ "videoId": "s689R9DZ_0Y",
+ "ids": [
+  "s689R9DZ_0Y-338"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "s689R9DZ_0Y-338": {
+   "id": "s689R9DZ_0Y-338",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Natural interaction and distinct delivery, though slightly rushed conversational pacing."
+  }
+ }
+}

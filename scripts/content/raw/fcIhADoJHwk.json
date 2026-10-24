@@ -2,136 +2,98 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 4.5,
-   "end": 22.0,
-   "title": "Trying a New Convenience Store Treat",
+   "start": 4.8,
+   "end": 33.2,
+   "title": "Introducing a 7-Eleven New Sweet",
    "level": "N4",
    "topics": [
     "food",
     "daily"
    ],
    "grammar": [
-    "〜れる — passive voice",
-    "〜をいただく — humble form of receive/eat"
+    "〜れる/〜られる — passive voice",
+    "〜ていただく — humble receiving / eating"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 4.8,
-     "end": 6.6,
+     "start": 5.1,
+     "end": 6.8,
      "ja": "こんばんは。",
      "en": "Good evening.",
-     "speaker": "Komeko"
+     "speaker": "Narrator"
     },
     {
-     "start": 8.2,
-     "end": 10.5,
+     "start": 8.5,
+     "end": 11.0,
      "ja": "今日はセブン-イレブンで",
      "en": "Today, from 7-Eleven,",
-     "speaker": "Komeko"
+     "speaker": "Narrator"
     },
     {
-     "start": 10.7,
-     "end": 15.3,
-     "ja": "２月10日に発売された新商品、",
+     "start": 11.0,
+     "end": 16.5,
+     "ja": "2月10日に発売された新商品、",
      "en": "a new item released on February 10th,",
-     "speaker": "Komeko"
+     "speaker": "Narrator"
     },
     {
-     "start": 17.5,
+     "start": 18.0,
      "end": 21.0,
-     "ja": "コチラをいただきます。",
-     "en": "I'll be trying this one.",
-     "speaker": "Komeko"
+     "ja": "こちらをいただきます。",
+     "en": "I will be having this.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 24.7,
+     "end": 28.0,
+     "ja": "チョコブラウニーサンド パキチョコ、",
+     "en": "Chocolate Brownie Sandwich: Crunchy Choco,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 28.0,
+     "end": 32.5,
+     "ja": "税込194円。",
+     "en": "194 yen including tax.",
+     "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 100.5,
+   "start": 107.5,
    "end": 128.0,
-   "title": "Reviewing the Texture and Taste",
+   "title": "Reviewing the Texture of the Sweet",
    "level": "N3",
    "topics": [
     "food"
    ],
    "grammar": [
-    "〜そうな気がする — to have a feeling that",
-    "〜のような — like / similar to"
+    "〜のような — like / similar to",
+    "〜気がする — to feel like / have a feeling that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 101.0,
-     "end": 106.0,
-     "ja": "正直、好みが分かれそうな気がします。",
-     "en": "Honestly, I feel like people's opinions might be divided.",
-     "speaker": "Komeko"
-    },
-    {
-     "start": 107.5,
+     "start": 108.1,
      "end": 113.8,
      "ja": "チョコブラウニーはソフトクッキーのような食感。",
      "en": "The chocolate brownie has a texture like a soft cookie.",
-     "speaker": "Komeko"
+     "speaker": "Narrator"
     },
     {
-     "start": 116.5,
-     "end": 121.0,
+     "start": 116.8,
+     "end": 121.8,
      "ja": "間のチョコクリームはちょっと固めの食感。",
-     "en": "The chocolate cream in the middle has a slightly firm texture.",
-     "speaker": "Komeko"
+     "en": "The chocolate cream in between has a slightly firm texture.",
+     "speaker": "Narrator"
     },
     {
      "start": 123.0,
      "end": 127.5,
      "ja": "口当たりはバタークリームに近い気がします。",
-     "en": "The mouthfeel feels pretty close to buttercream.",
-     "speaker": "Komeko"
-    }
-   ]
-  },
-  {
-   "start": 231.5,
-   "end": 255.0,
-   "title": "Final Verdict and Finishing Up",
-   "level": "N4",
-   "topics": [
-    "food",
-    "daily"
-   ],
-   "grammar": [
-    "〜てみる — to try doing",
-    "〜てください — please do"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 232.5,
-     "end": 236.5,
-     "ja": "甘党さんには刺さる一品かも。",
-     "en": "It might really hit the spot for people with a sweet tooth.",
-     "speaker": "Komeko"
-    },
-    {
-     "start": 240.0,
-     "end": 244.8,
-     "ja": "気になった方はぜひ召し上がってみてください♪",
-     "en": "If you're interested, please give it a try!",
-     "speaker": "Komeko"
-    },
-    {
-     "start": 248.5,
-     "end": 250.5,
-     "ja": "完食しました！",
-     "en": "I finished it all!",
-     "speaker": "Komeko"
-    },
-    {
-     "start": 252.8,
-     "end": 254.6,
-     "ja": "ごちそうさまでした。",
-     "en": "Thank you for the treat.",
-     "speaker": "Komeko"
+     "en": "The mouthfeel feels close to buttercream.",
+     "speaker": "Narrator"
     }
    ]
   }
@@ -140,5 +102,6 @@
  "pickTopics": [
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

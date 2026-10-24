@@ -1,0 +1,30 @@
+{
+ "videoId": "Fvr4cZCkW6w",
+ "ids": [
+  "Fvr4cZCkW6w-0",
+  "Fvr4cZCkW6w-237"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Fvr4cZCkW6w-237": {
+   "id": "Fvr4cZCkW6w-237",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Practical restaurant ordering dialogue with visual menu context."
+  },
+  "Fvr4cZCkW6w-0": {
+   "id": "Fvr4cZCkW6w-0",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Friendly introduction with clear, standard greeting and basic phrasing."
+  }
+ }
+}

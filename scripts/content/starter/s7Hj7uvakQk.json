@@ -1,0 +1,30 @@
+{
+ "videoId": "s7Hj7uvakQk",
+ "ids": [
+  "s7Hj7uvakQk-512",
+  "s7Hj7uvakQk-806"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "s7Hj7uvakQk-806": {
+   "id": "s7Hj7uvakQk-806",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Sweet and natural sign-off with clear, basic daily vocabulary."
+  },
+  "s7Hj7uvakQk-512": {
+   "id": "s7Hj7uvakQk-512",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear food vocabulary and natural lunch interaction suited for beginners."
+  }
+ }
+}

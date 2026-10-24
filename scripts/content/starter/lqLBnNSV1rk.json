@@ -1,0 +1,21 @@
+{
+ "videoId": "lqLBnNSV1rk",
+ "ids": [
+  "lqLBnNSV1rk-558"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "lqLBnNSV1rk-558": {
+   "id": "lqLBnNSV1rk-558",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Casual conversation while eating sushi, featuring simple food comments but slight mumbling."
+  }
+ }
+}

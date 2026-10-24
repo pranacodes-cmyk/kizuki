@@ -1,0 +1,19 @@
+{
+ "videoId": "c4Pz6mVMXFE",
+ "ids": [
+  "c4Pz6mVMXFE-19"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "c4Pz6mVMXFE-19": {
+   "id": "c4Pz6mVMXFE-19",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear basic color words matched visually with fun animation."
+  }
+ }
+}

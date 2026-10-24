@@ -1,0 +1,19 @@
+{
+ "videoId": "zqVottfovtw",
+ "ids": [
+  "zqVottfovtw-117"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "zqVottfovtw-117": {
+   "id": "zqVottfovtw-117",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear slow Japanese with helpful real-world visuals for beginners."
+  }
+ }
+}

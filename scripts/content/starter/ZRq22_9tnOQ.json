@@ -1,0 +1,19 @@
+{
+ "videoId": "ZRq22_9tnOQ",
+ "ids": [
+  "ZRq22_9tnOQ-472"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "ZRq22_9tnOQ-472": {
+   "id": "ZRq22_9tnOQ-472",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Casual street interview with clear subtitles but fairly fast speech."
+  }
+ }
+}

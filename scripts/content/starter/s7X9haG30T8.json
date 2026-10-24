@@ -1,0 +1,19 @@
+{
+ "videoId": "s7X9haG30T8",
+ "ids": [
+  "s7X9haG30T8-102"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "s7X9haG30T8-102": {
+   "id": "s7X9haG30T8-102",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear narration and everyday street visuals suitable for beginners."
+  }
+ }
+}

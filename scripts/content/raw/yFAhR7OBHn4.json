@@ -2,238 +2,224 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 15.3,
-   "end": 39.8,
-   "title": "Starting the Whirlwind Trip to Osaka",
-   "level": "N3",
+   "start": 7.4,
+   "end": 23.8,
+   "title": "Starting a Quick Trip to Osaka",
+   "level": "N4",
    "topics": [
     "travel",
     "fun"
    ],
    "grammar": [
-    "〜てくる — go and do / come to be",
-    "〜たらいいな — hoping that"
+    "〜てくる — go and come back",
+    "〜ちゃう — to do completely",
+    "〜と思う — to think / plan to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 15.5,
-     "end": 19.3,
+     "start": 7.4,
+     "end": 8.5,
+     "ja": "こんにちは！",
+     "en": "Hello!",
+     "speaker": "Wataamerina"
+    },
+    {
+     "start": 8.5,
+     "end": 10.0,
+     "ja": "わたあめりなと申します。",
+     "en": "My name is Wataamerina.",
+     "speaker": "Wataamerina"
+    },
+    {
+     "start": 10.0,
+     "end": 13.7,
+     "ja": "今回はですね、わたくしの大阪弾丸旅行Vlog、",
+     "en": "This time, in my whirlwind Osaka trip vlog,",
+     "speaker": "Wataamerina"
+    },
+    {
+     "start": 13.7,
+     "end": 15.8,
+     "ja": "ということでですね、この間、",
+     "en": "I recently went on...",
+     "speaker": "Wataamerina"
+    },
+    {
+     "start": 15.8,
+     "end": 19.6,
      "ja": "大阪に一泊二日の弾丸旅行で行ってきましてですね、",
-     "en": "I went on an overnight whirlwind trip to Osaka,",
-     "speaker": "Rina"
+     "en": "a two-day, one-night whirlwind trip to Osaka,",
+     "speaker": "Wataamerina"
     },
     {
-     "start": 19.4,
-     "end": 23.5,
+     "start": 19.6,
+     "end": 23.8,
      "ja": "そちらの様子を今日はお届けしちゃいたいなと思います。",
-     "en": "and today I'd love to share how that went with you all.",
-     "speaker": "Rina"
-    },
-    {
-     "start": 23.9,
-     "end": 26.4,
-     "ja": "なかなかね、旅行することもそんなになくて、",
-     "en": "I don't really travel that much,",
-     "speaker": "Rina"
-    },
-    {
-     "start": 26.5,
-     "end": 28.3,
-     "ja": "新幹線に乗ることもないので、",
-     "en": "nor do I often ride the Shinkansen,",
-     "speaker": "Rina"
-    },
-    {
-     "start": 28.4,
-     "end": 30.8,
-     "ja": "すっごく顔がこわばっていますね。",
-     "en": "so my face is super stiff, isn't it?",
-     "speaker": "Rina"
-    },
-    {
-     "start": 30.9,
-     "end": 33.2,
-     "ja": "こんなこわばるんだったら別に撮らなくてもいいのに",
-     "en": "I'm so stiff you'd think, \"If you're going to freeze up like that,",
-     "speaker": "Rina"
-    },
-    {
-     "start": 33.3,
-     "end": 35.3,
-     "ja": "っていうくらいこわばってるんですけど、",
-     "en": "you don't even have to film yourself,\"",
-     "speaker": "Rina"
-    },
-    {
-     "start": 35.4,
-     "end": 37.8,
-     "ja": "ちょっとね、ぎこちないVLOGになるんですけれども、",
-     "en": "so it'll be a bit of an awkward vlog,",
-     "speaker": "Rina"
-    },
-    {
-     "start": 37.9,
-     "end": 39.8,
-     "ja": "皆さんにお届けできたらいいなと思います。",
-     "en": "but I hope you enjoy watching it anyway.",
-     "speaker": "Rina"
+     "en": "and today I'd love to share how that went!",
+     "speaker": "Wataamerina"
     }
    ]
   },
   {
-   "start": 144.1,
-   "end": 207.3,
-   "title": "Trying Cheese Takoyaki in Osaka",
+   "start": 144.2,
+   "end": 207.4,
+   "title": "Choosing Cheese Takoyaki at Kukuru",
    "level": "N3",
    "topics": [
     "food",
     "travel"
    ],
    "grammar": [
-    "〜かと言うと — as for which / if you ask",
-    "〜っぽい — seems like / -ish",
+    "〜てみる — try doing",
+    "〜っぽい — looks like / seems like",
     "〜ば — conditional if"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 144.3,
-     "end": 146.4,
+     "start": 144.2,
+     "end": 146.9,
      "ja": "結局ですね、どこのたこ焼きにしたかと言いますと、",
-     "en": "In the end, as for which takoyaki shop I chose,",
-     "speaker": "Rina"
+     "en": "So, as for which takoyaki place I ended up choosing,",
+     "speaker": "Wataamerina"
     },
     {
-     "start": 146.5,
-     "end": 148.8,
-     "ja": "「くくる」のたこ焼きにしました！",
-     "en": "I went with takoyaki from Kukuru!",
-     "speaker": "Rina"
+     "start": 146.9,
+     "end": 149.0,
+     "ja": "くくるのたこ焼きにしました！",
+     "en": "I went with Kukuru's takoyaki!",
+     "speaker": "Wataamerina"
     },
     {
-     "start": 148.9,
-     "end": 152.0,
-     "ja": "くくる調べてみたら、東京でも食べれるっぽいんですけど、",
-     "en": "When I looked it up, apparently you can eat it in Tokyo too,",
-     "speaker": "Rina"
+     "start": 149.0,
+     "end": 152.8,
+     "ja": "くくる、調べてみたら、あの東京でも食べれるっぽいんですけど、",
+     "en": "When I looked it up, apparently you can eat at Kukuru in Tokyo too, but...",
+     "speaker": "Wataamerina"
     },
     {
-     "start": 152.1,
-     "end": 155.0,
+     "start": 152.8,
+     "end": 155.3,
      "ja": "ま、私が大阪で食べたたこ焼きはくくるです。",
-     "en": "but anyway, the takoyaki I ate in Osaka was Kukuru.",
-     "speaker": "Rina"
+     "en": "well, the takoyaki I ate in Osaka was from Kukuru.",
+     "speaker": "Wataamerina"
     },
     {
-     "start": 155.1,
-     "end": 158.6,
-     "ja": "王道のたこ焼きじゃなくて、チーズが中に入ってるやつを食べましたね。",
-     "en": "Instead of the classic takoyaki, I got one filled with cheese.",
-     "speaker": "Rina"
+     "start": 155.3,
+     "end": 158.3,
+     "ja": "王道のたこ焼きじゃなくて、なんかチーズが中に入ってるやつを食べましたね。",
+     "en": "Instead of the classic ones, I had one filled with cheese.",
+     "speaker": "Wataamerina"
     },
     {
-     "start": 158.7,
-     "end": 201.0,
+     "start": 158.3,
+     "end": 200.6,
      "ja": "あの私はあんまりうまく伸ばせなかったんですけど、",
-     "en": "I couldn't really stretch it that well myself,",
-     "speaker": "Rina"
+     "en": "I wasn't able to stretch it that well, but...",
+     "speaker": "Wataamerina"
     },
     {
-     "start": 201.1,
-     "end": 203.2,
+     "start": 200.6,
+     "end": 203.3,
      "ja": "「頑張ってチーズ伸ばせば40cm伸びますよ」みたいな、",
-     "en": "but there was a ruler to measure the stretched cheese,",
-     "speaker": "Rina"
+     "en": "they had something like, 'If you try your best, the cheese stretches 40 cm,'",
+     "speaker": "Wataamerina"
     },
     {
      "start": 203.3,
-     "end": 206.0,
-     "ja": "伸ばしたチーズを測る定規みたいのが置いてありましたね。",
-     "en": "saying stuff like, \"If you try hard, it can stretch 40 cm!\"",
-     "speaker": "Rina"
+     "end": 206.1,
+     "ja": "なんか伸ばしたチーズを測る定規みたいのが置いてありましたね。",
+     "en": "and there was a ruler to measure the stretched cheese.",
+     "speaker": "Wataamerina"
     },
     {
      "start": 206.1,
-     "end": 207.3,
+     "end": 207.4,
      "ja": "全く使わなかったけど。",
-     "en": "Not that I used it at all, though.",
-     "speaker": "Rina"
+     "en": "Even though I didn't use it at all.",
+     "speaker": "Wataamerina"
     }
    ]
   },
   {
-   "start": 501.9,
-   "end": 530.8,
-   "title": "Souvenir Dilemma at Rikuro-ojisan",
+   "start": 491.2,
+   "end": 515.8,
+   "title": "Souvenir Dilemma at Rikuro Ojisan",
    "level": "N3",
    "topics": [
     "travel",
-    "food",
-    "friends"
+    "food"
    ],
    "grammar": [
-    "〜てしまう — end up doing (unintended outcome)",
+    "〜てしまう — to end up doing",
     "〜ないといけない — have to / must do",
-    "〜させていただく — humbly do something"
+    "〜て帰る — do and go home"
    ],
    "quality": 5,
    "lines": [
     {
+     "start": 491.2,
+     "end": 495.0,
+     "ja": "ここでね、忘れたくないのがお土産ですね、もちろん！",
+     "en": "And here, what you definitely don't want to forget is souvenirs, of course!",
+     "speaker": "Wataamerina"
+    },
+    {
+     "start": 495.0,
+     "end": 497.5,
+     "ja": "はい、りくろーおじさんの店でございます。",
+     "en": "Yes, this is Rikuro Ojisan's shop.",
+     "speaker": "Wataamerina"
+    },
+    {
+     "start": 497.5,
+     "end": 499.6,
+     "ja": "このチーズケーキが好きで好きで、",
+     "en": "I love love love this cheesecake,",
+     "speaker": "Wataamerina"
+    },
+    {
+     "start": 499.6,
+     "end": 502.1,
+     "ja": "もう言うまでもなくみんな好きですよね。",
+     "en": "and it goes without saying that everybody loves it.",
+     "speaker": "Wataamerina"
+    },
+    {
      "start": 502.1,
-     "end": 505.0,
-     "ja": "こちらでね、自分用のチーズケーキと、",
-     "en": "Here, along with a cheesecake for myself,",
-     "speaker": "Rina"
+     "end": 504.8,
+     "ja": "こちらでね、あの自分用のチーズケーキと、",
+     "en": "Here, I wanted to buy a cheesecake for myself, and...",
+     "speaker": "Wataamerina"
     },
     {
-     "start": 505.1,
-     "end": 508.3,
-     "ja": "友達にもね、本当はチーズケーキ買って帰りたいんですよ。",
-     "en": "I really wanted to buy cheesecake to bring back for my friends too.",
-     "speaker": "Rina"
+     "start": 504.8,
+     "end": 507.8,
+     "ja": "あとね、友達にもね、本当はチーズケーキ買って帰りたいんですよ。",
+     "en": "really, I also wanted to buy a cheesecake to take home for my friend.",
+     "speaker": "Wataamerina"
     },
     {
-     "start": 508.4,
-     "end": 511.4,
-     "ja": "でもチーズケーキを買ってしまうと、賞味期限の問題で、",
-     "en": "However, if I buy cheesecake, due to its expiration date,",
-     "speaker": "Rina"
+     "start": 507.8,
+     "end": 511.2,
+     "ja": "で、チーズケーキを買ってしまうと、あの賞味期限の問題で、",
+     "en": "But if I buy a cheesecake, due to the expiration date,",
+     "speaker": "Wataamerina"
     },
     {
-     "start": 511.5,
-     "end": 514.8,
+     "start": 511.2,
+     "end": 514.3,
      "ja": "3日以内に友達に会わないといけないというミッションが発生するんですね。",
-     "en": "it triggers a mission where I have to see them within three days.",
-     "speaker": "Rina"
+     "en": "the mission to meet my friend within three days arises.",
+     "speaker": "Wataamerina"
     },
     {
-     "start": 514.9,
-     "end": 519.3,
-     "ja": "なんで難しいので、チーズケーキは今回諦めさせていただいて、",
-     "en": "Since that's tricky, I decided to pass on the cheesecake this time,",
-     "speaker": "Rina"
-    },
-    {
-     "start": 519.4,
-     "end": 524.3,
-     "ja": "その代わりにチーズケーキ以外のおすすめ商品である「薪パイ」っていう、",
-     "en": "and instead go for another recommended item called \"Maki Pie,\"",
-     "speaker": "Rina"
-    },
-    {
-     "start": 524.4,
-     "end": 527.3,
-     "ja": "パイが巻いてある薪みたいな形のパイ、",
-     "en": "which is a rolled pie shaped like firewood,",
-     "speaker": "Rina"
-    },
-    {
-     "start": 527.4,
-     "end": 530.8,
-     "ja": "そちらを買って友達に配りたいなと思いました。",
-     "en": "and hand those out to my friends.",
-     "speaker": "Rina"
+     "start": 514.3,
+     "end": 515.8,
+     "ja": "なんで難しいので、",
+     "en": "So since that's difficult...",
+     "speaker": "Wataamerina"
     }
    ]
   }
@@ -242,5 +228,6 @@
  "pickTopics": [
   "travel"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -2,207 +2,156 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 40.5,
-   "end": 55.5,
-   "title": "A Suspicious Baseball Swing",
+   "start": 28.8,
+   "end": 45.6,
+   "title": "Questioned by the Police",
    "level": "N3",
    "topics": [
     "comedy",
-    "fun"
+    "daily"
    ],
    "grammar": [
-    "〜て通報が入る — received a report that...",
-    "〜たはった — Kansai honorific past form"
+    "〜てんねん — Kansai-ben explanatory emphasis",
+    "〜てもらう — to receive the favor of doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 40.7,
-     "end": 43.4,
-     "ja": "え、ちょっとおばさんが素振りしてるって通報入ったからね。",
-     "en": "Well, we got a report that a middle-aged woman was practicing her swing.",
-     "speaker": "Officer"
+     "start": 29.0,
+     "end": 30.8,
+     "ja": "お母さん、今何したったんかな？",
+     "en": "Ma'am, what were you just doing?",
+     "speaker": "竹内"
     },
     {
-     "start": 43.5,
-     "end": 45.2,
+     "start": 30.9,
+     "end": 33.5,
+     "ja": "何してるって、そんなんもう別に、よろしいやん。",
+     "en": "What am I doing? That's really none of your business.",
+     "speaker": "ますみ"
+    },
+    {
+     "start": 33.7,
+     "end": 35.3,
+     "ja": "あの、この辺住んであるの？",
+     "en": "Um, do you live around here?",
+     "speaker": "竹内"
+    },
+    {
+     "start": 35.3,
+     "end": 37.3,
+     "ja": "そんなん言わんで必要ないやろ。",
+     "en": "There's no need for me to tell you that.",
+     "speaker": "ますみ"
+    },
+    {
+     "start": 37.3,
+     "end": 38.8,
+     "ja": "お名前教えてもらってええかな？",
+     "en": "Could you tell me your name?",
+     "speaker": "竹内"
+    },
+    {
+     "start": 38.9,
+     "end": 40.0,
+     "ja": "職質？",
+     "en": "Police questioning?",
+     "speaker": "ますみ"
+    },
+    {
+     "start": 40.3,
+     "end": 43.2,
+     "ja": "おばさんが素振りしてるって通報入ったからね。",
+     "en": "We got a report that a middle-aged woman was practicing baseball swings.",
+     "speaker": "竹内"
+    },
+    {
+     "start": 43.3,
+     "end": 45.3,
      "ja": "何の通報やの、それ。",
-     "en": "What kind of report is that?",
-     "speaker": "Auntie"
-    },
-    {
-     "start": 45.3,
-     "end": 47.0,
-     "ja": "珍しいおばさんの通報。",
-     "en": "A report about an unusual lady.",
-     "speaker": "Officer"
-    },
-    {
-     "start": 47.1,
-     "end": 48.0,
-     "ja": "ええがな！",
-     "en": "So what! Leave me be!",
-     "speaker": "Auntie"
-    },
-    {
-     "start": 48.1,
-     "end": 49.9,
-     "ja": "いや、おじさんは素振りな、するやん。",
-     "en": "Well, old guys practice their swings all the time, right?",
-     "speaker": "Officer"
-    },
-    {
-     "start": 50.0,
-     "end": 53.0,
-     "ja": "おばさんの素振り誰も見たことないから不安になりはったん、近所の人。",
-     "en": "Nobody's ever seen a woman practicing her swing, so the neighbors got worried.",
-     "speaker": "Officer"
-    },
-    {
-     "start": 53.1,
-     "end": 54.7,
-     "ja": "ほっといてくれたらええやんか。",
-     "en": "Why couldn't they just leave me alone?",
-     "speaker": "Auntie"
-    },
-    {
-     "start": 54.8,
-     "end": 55.5,
-     "ja": "あかんやろ言うて。",
-     "en": "They can't just do that.",
-     "speaker": "Officer"
+     "en": "What kind of report is that?!",
+     "speaker": "ますみ"
     }
    ]
   },
   {
-   "start": 135.2,
-   "end": 149.5,
-   "title": "Imitating Famous Batting Stances",
+   "start": 215.5,
+   "end": 235.8,
+   "title": "One Last Home Run",
    "level": "N3",
    "topics": [
     "comedy",
     "sports"
    ],
    "grammar": [
-    "〜たらあかん — must not do",
-    "〜やろ — Kansai dialect confirmation / right?"
+    "〜たら — if / when",
+    "〜ておく — to do in advance / intentionally",
+    "〜たい — want to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 135.4,
-     "end": 138.8,
-     "ja": "お母さん、種田をしたらあかん。おばさんの種田初めて見た。",
-     "en": "Ma'am, you shouldn't do the Taneda stance. First time I've seen an auntie do Taneda.",
-     "speaker": "Officer"
+     "start": 215.8,
+     "end": 219.5,
+     "ja": "ほんならお母さん、帰るんやったら最後ホームラン一本だけ打って、ほんで帰ってください。",
+     "en": "Well then, if you're heading home, hit just one last home run and then leave.",
+     "speaker": "竹内"
     },
     {
-     "start": 139.1,
-     "end": 142.5,
-     "ja": "おばさんが種田やってんの。小笠原したらあかん！",
-     "en": "An auntie doing Taneda... Don't do Ogasawara!",
-     "speaker": "Officer"
-    },
-    {
-     "start": 143.2,
-     "end": 144.5,
-     "ja": "お母さん、お母さん！",
-     "en": "Ma'am! Ma'am!",
-     "speaker": "Officer"
-    },
-    {
-     "start": 144.6,
-     "end": 146.5,
-     "ja": "小笠原は左打ちやろ？",
-     "en": "Ogasawara bats left-handed, right?",
-     "speaker": "Officer"
-    },
-    {
-     "start": 146.6,
-     "end": 147.6,
-     "ja": "こっちか！",
-     "en": "Oh, this side!",
-     "speaker": "Auntie"
-    },
-    {
-     "start": 147.7,
-     "end": 148.8,
-     "ja": "こっちやろ。",
-     "en": "It's this side, right?",
-     "speaker": "Officer"
-    }
-   ]
-  },
-  {
-   "start": 215.3,
-   "end": 235.8,
-   "title": "Hit a Home Run and Leave",
-   "level": "N3",
-   "topics": [
-    "comedy",
-    "fun"
-   ],
-   "grammar": [
-    "〜んやったら — if (Kansai dialect)",
-    "〜といたげる — Kansai form of 〜ておいてあげる"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 215.5,
-     "end": 219.2,
-     "ja": "じゃ、お母さん、ほら、もう帰るんやったら最後ホームラン1本だけ打って、ほんで帰ってください。",
-     "en": "Alright ma'am, if you're heading home, just hit one home run and go.",
-     "speaker": "Officer"
-    },
-    {
-     "start": 219.3,
+     "start": 219.5,
      "end": 221.0,
      "ja": "ま、ホームランは打ちたいわ。",
      "en": "Well, I do want to hit a home run.",
-     "speaker": "Auntie"
+     "speaker": "ますみ"
     },
     {
-     "start": 221.1,
-     "end": 222.1,
-     "ja": "はい、もう見といたげるから、はい。",
-     "en": "Yeah, I'll watch you, go ahead.",
-     "speaker": "Officer"
+     "start": 221.0,
+     "end": 222.0,
+     "ja": "見といたげるから。",
+     "en": "I'll watch you.",
+     "speaker": "竹内"
     },
     {
-     "start": 222.2,
-     "end": 223.7,
-     "ja": "ホームラン打ってすっとしたいもんね。",
-     "en": "Hitting a home run will make me feel refreshed.",
-     "speaker": "Auntie"
+     "start": 222.0,
+     "end": 223.5,
+     "ja": "ホームラン打ってすっとしたいもんな。",
+     "en": "Hitting a home run feels so refreshing, after all.",
+     "speaker": "ますみ"
     },
     {
-     "start": 223.8,
-     "end": 226.3,
-     "ja": "はい、お母さん、これ最後やで、これ最後やで。",
-     "en": "Alright ma'am, this is the last one, the last one.",
-     "speaker": "Officer"
+     "start": 223.5,
+     "end": 225.5,
+     "ja": "これ最後やで。これ最後やで。",
+     "en": "This is the last one, okay? The last one.",
+     "speaker": "竹内"
     },
     {
-     "start": 227.1,
-     "end": 230.1,
-     "ja": "はい、ホームランや。オッケーオッケー、あ、バット投げて、ええやんか。",
-     "en": "Yes, home run! Okay, tossing the bat, nice!",
-     "speaker": "Officer"
+     "start": 227.2,
+     "end": 228.6,
+     "ja": "はい、ホームランや。",
+     "en": "Yes, home run!",
+     "speaker": "竹内"
+    },
+    {
+     "start": 228.8,
+     "end": 230.3,
+     "ja": "バット投げてええやんか。",
+     "en": "Nice bat flip!",
+     "speaker": "竹内"
     },
     {
      "start": 230.5,
      "end": 231.8,
      "ja": "なあ、お母さん。",
      "en": "Hey, ma'am...",
-     "speaker": "Officer"
+     "speaker": "竹内"
     },
     {
-     "start": 233.1,
-     "end": 235.3,
+     "start": 233.0,
+     "end": 235.5,
      "ja": "お母さん、これ盗難車やんか、これ！",
-     "en": "Ma'am, this bicycle is stolen property!",
-     "speaker": "Officer"
+     "en": "Ma'am, this bicycle is stolen!",
+     "speaker": "竹内"
     }
    ]
   }
@@ -211,5 +160,6 @@
  "pickTopics": [
   "comedy"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

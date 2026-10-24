@@ -3,88 +3,82 @@
  "clips": [
   {
    "start": 8.5,
-   "end": 24.3,
-   "title": "Changing the Dinner Plan",
-   "level": "N3",
+   "end": 24.5,
+   "title": "Looking for Another Restaurant",
+   "level": "N4",
    "topics": [
     "friends",
-    "food",
+    "daily",
     "comedy"
    ],
    "grammar": [
-    "〜てくる — will come (action direction)",
-    "〜てみる — try doing something"
+    "〜てくる — do and come / progressive change",
+    "〜たら — when / if conditional",
+    "〜ちゃう — isn't it / wouldn't it be"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 8.8,
      "end": 11.2,
-     "ja": "おい、おいおいおい、みんなまだ？",
-     "en": "Hey, hey, where is everyone?",
+     "ja": "おい、おいおいおい。みんなまだ？",
+     "en": "Hey, hey hey hey. Is everyone not here yet?",
      "speaker": "Yamauchi"
     },
     {
-     "start": 11.3,
-     "end": 13.2,
-     "ja": "おう、なんかちょっと遅れてくるって。",
-     "en": "Yeah, they said they'd be a bit late.",
+     "start": 11.4,
+     "end": 13.1,
+     "ja": "おー、なんかちょっと遅れて来るって。",
+     "en": "Yeah, apparently they'll be a bit late.",
      "speaker": "Hamaie"
     },
     {
      "start": 13.3,
-     "end": 14.1,
-     "ja": "あ、ほんま？",
-     "en": "Oh, really?",
+     "end": 17.7,
+     "ja": "あ、ほんま？ なんかさ、俺あの行こうや言うてた店がさ、今聞いたらもう満席でさ。",
+     "en": "Oh, really? So the place I suggested we go to is completely full right now.",
      "speaker": "Yamauchi"
     },
     {
-     "start": 14.2,
-     "end": 18.0,
-     "ja": "なんかさ、俺、あの行こや言うてた店がさ、今聞いたらもう満席でさ。",
-     "en": "Well, that place I said we should go to... I just checked and it's already full.",
-     "speaker": "Yamauchi"
-    },
-    {
-     "start": 18.1,
-     "end": 18.9,
+     "start": 17.8,
+     "end": 18.7,
      "ja": "あ、そう。",
-     "en": "Oh, really.",
+     "en": "Oh, really?",
      "speaker": "Hamaie"
     },
     {
-     "start": 19.0,
-     "end": 20.3,
+     "start": 18.8,
+     "end": 20.2,
      "ja": "他の店でもええかな？",
-     "en": "Is it okay if we go somewhere else?",
+     "en": "Is another place okay?",
      "speaker": "Yamauchi"
     },
     {
-     "start": 20.4,
-     "end": 21.7,
-     "ja": "ま、どこでもええんちゃう。",
-     "en": "Well, anywhere's fine, isn't it?",
+     "start": 20.3,
+     "end": 21.6,
+     "ja": "ま、どこでもええんちゃう？",
+     "en": "Well, anywhere is fine, isn't it?",
      "speaker": "Hamaie"
     },
     {
-     "start": 21.8,
-     "end": 23.2,
-     "ja": "ええ？適当に聞いてみるわ。",
-     "en": "Yeah? I'll call around and ask somewhere.",
+     "start": 21.7,
+     "end": 23.3,
+     "ja": "ええ？ ちょ、適当に聞いてみるわ。",
+     "en": "Okay? I'll call around randomly.",
      "speaker": "Yamauchi"
     },
     {
-     "start": 23.3,
-     "end": 24.0,
+     "start": 23.4,
+     "end": 24.2,
      "ja": "はいはい。",
-     "en": "Sure, go ahead.",
+     "en": "Sure, sure.",
      "speaker": "Hamaie"
     }
    ]
   },
   {
-   "start": 36.2,
-   "end": 57.2,
+   "start": 29.5,
+   "end": 46.5,
    "title": "Calling to Make a Reservation",
    "level": "N4",
    "topics": [
@@ -93,152 +87,153 @@
     "comedy"
    ],
    "grammar": [
-    "〜たいんですけど — expressing desire softly",
-    "〜てます — ongoing state"
+    "〜たいんですけど — expressing desire with softener",
+    "〜ないで — without doing / don't do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 36.5,
-     "end": 37.5,
+     "start": 30.0,
+     "end": 33.0,
+     "ja": "あ、すいません。もしもし、山内です。",
+     "en": "Ah, excuse me. Hello, this is Yamauchi.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 33.3,
+     "end": 35.3,
+     "ja": "いや、名前言わんでええやろ。",
+     "en": "No, you don't need to give your name yet.",
+     "speaker": "Hamaie"
+    },
+    {
+     "start": 35.6,
+     "end": 36.8,
      "ja": "はい、すいません。",
      "en": "Yes, excuse me.",
      "speaker": "Yamauchi"
     },
     {
-     "start": 37.7,
-     "end": 41.0,
-     "ja": "あ、あの、今から行きたいんですけど、行けますかね？",
-     "en": "Um, we'd like to come over now. Would that be possible?",
+     "start": 37.2,
+     "end": 40.8,
+     "ja": "あ、あの、今から行きたいんですけど行けますかね？",
+     "en": "Um, we'd like to come now. Is there space?",
      "speaker": "Yamauchi"
     },
     {
-     "start": 41.2,
-     "end": 42.8,
-     "ja": "えっとー",
-     "en": "Let's see...",
+     "start": 41.4,
+     "end": 42.4,
+     "ja": "えっと…",
+     "en": "Uh...",
      "speaker": "Yamauchi"
     },
     {
-     "start": 43.0,
-     "end": 44.2,
+     "start": 42.8,
+     "end": 43.8,
      "ja": "５、５人。",
-     "en": "Five, five people.",
+     "en": "Fi... five people.",
      "speaker": "Hamaie"
     },
     {
      "start": 44.3,
-     "end": 46.8,
-     "ja": "５、５人です。はい。",
-     "en": "Five, five people. Yes.",
+     "end": 46.2,
+     "ja": "５人です。はい。",
+     "en": "Five people. Yes.",
      "speaker": "Yamauchi"
-    },
-    {
-     "start": 48.3,
-     "end": 51.0,
-     "ja": "あ、大学生です。はい。",
-     "en": "Ah, we're college students. Yes.",
-     "speaker": "Yamauchi"
-    },
-    {
-     "start": 52.1,
-     "end": 54.2,
-     "ja": "あ、二十歳は超えてます。はい。",
-     "en": "Ah, we're over twenty. Yes.",
-     "speaker": "Yamauchi"
-    },
-    {
-     "start": 54.6,
-     "end": 56.8,
-     "ja": "厳しいな、やっぱ最近。",
-     "en": "They're pretty strict nowadays, huh?",
-     "speaker": "Hamaie"
     }
    ]
   },
   {
-   "start": 515.5,
-   "end": 532.2,
+   "start": 315.2,
+   "end": 332.6,
    "title": "Looking Back at an Old Skit",
    "level": "N3",
    "topics": [
     "comedy",
-    "work"
+    "fun",
+    "culture"
    ],
    "grammar": [
-    "〜ぶりに — for the first time in (time)",
-    "〜てた — colloquial past progressive"
+    "〜ぶりに — after a lapse of time",
+    "〜んです — explanatory / background emphasis"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 515.8,
-     "end": 516.8,
+     "start": 315.4,
+     "end": 316.5,
      "ja": "お疲れ様でした。",
-     "en": "Good job today.",
+     "en": "Good work.",
      "speaker": "Hamaie"
     },
     {
-     "start": 516.9,
-     "end": 517.8,
+     "start": 316.6,
+     "end": 317.5,
      "ja": "お疲れ様でした。",
-     "en": "Good job.",
+     "en": "Good work.",
      "speaker": "Yamauchi"
     },
     {
-     "start": 517.9,
-     "end": 519.0,
+     "start": 317.6,
+     "end": 318.7,
      "ja": "懐かしいね。",
-     "en": "Brings back memories, doesn't it?",
+     "en": "Brings back memories.",
      "speaker": "Hamaie"
     },
     {
-     "start": 519.1,
-     "end": 520.2,
+     "start": 318.8,
+     "end": 320.0,
      "ja": "７年前ですよ。",
      "en": "That was seven years ago.",
      "speaker": "Yamauchi"
     },
     {
-     "start": 520.3,
-     "end": 521.4,
+     "start": 320.2,
+     "end": 321.7,
      "ja": "７年前のコント。",
      "en": "A skit from seven years ago.",
      "speaker": "Hamaie"
     },
     {
-     "start": 521.5,
-     "end": 522.2,
+     "start": 321.8,
+     "end": 322.3,
      "ja": "はい。",
-     "en": "Yeah.",
+     "en": "Yes.",
      "speaker": "Yamauchi"
     },
     {
-     "start": 522.3,
-     "end": 527.4,
-     "ja": "いや、久しぶりに見返したんですけど、キングオブコントの、７年前の準決勝で。",
-     "en": "I watched it again after so long, and it was in the King of Conte semifinals seven years ago.",
+     "start": 322.4,
+     "end": 327.3,
+     "ja": "いや、久しぶりに見返したんですけど、キングオブコントの７年前の、",
+     "en": "Well, I watched it again after a long time, but seven years ago in King of Conte...",
      "speaker": "Yamauchi"
     },
     {
-     "start": 528.1,
-     "end": 529.8,
+     "start": 327.4,
+     "end": 328.7,
+     "ja": "準決勝でやってます。",
+     "en": "We did this in the semifinals.",
+     "speaker": "Yamauchi"
+    },
+    {
+     "start": 328.8,
+     "end": 330.1,
      "ja": "あ、でやってたやつか。",
-     "en": "Ah, so that's where we did it.",
+     "en": "Oh, that's the one we performed there?",
      "speaker": "Hamaie"
     },
     {
-     "start": 529.9,
-     "end": 530.8,
+     "start": 330.2,
+     "end": 331.0,
      "ja": "やってます。",
-     "en": "Yeah, we did.",
+     "en": "We performed it.",
      "speaker": "Yamauchi"
     },
     {
-     "start": 530.9,
-     "end": 531.9,
+     "start": 331.1,
+     "end": 332.2,
      "ja": "いや、すごいね。",
-     "en": "Man, that's wild.",
+     "en": "Wow, that's amazing.",
      "speaker": "Hamaie"
     }
    ]
@@ -248,5 +243,6 @@
  "pickTopics": [
   "comedy"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

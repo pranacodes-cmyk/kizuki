@@ -1,0 +1,21 @@
+{
+ "videoId": "tsOdpz3RoNE",
+ "ids": [
+  "tsOdpz3RoNE-614"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "tsOdpz3RoNE-614": {
+   "id": "tsOdpz3RoNE-614",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [
+    "static slide"
+   ],
+   "why": "Very clear and simple sentences, but visually dry and static."
+  }
+ }
+}

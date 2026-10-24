@@ -2,216 +2,172 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 18.7,
-   "end": 37.0,
-   "title": "A Baseball Manga Scene",
-   "level": "N3",
-   "topics": [
-    "comedy",
-    "sports",
-    "anime"
-   ],
-   "grammar": [
-    "〜っていう — called / named",
-    "〜やんか — you know ... (Kansai dialect confirmation)"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 19.0,
-     "end": 20.8,
-     "ja": "あの、ちょっといきなりやけどね、",
-     "en": "Um, this is a bit sudden, but...",
-     "speaker": "Akagi"
-    },
-    {
-     "start": 20.8,
-     "end": 21.6,
-     "ja": "はいはい。",
-     "en": "Yeah, yeah.",
-     "speaker": "Kimura"
-    },
-    {
-     "start": 21.6,
-     "end": 24.4,
-     "ja": "あの『ダイナマイトストレート』っていう野球漫画あるやんか。",
-     "en": "You know that baseball manga called \"Dynamite Straight\"?",
-     "speaker": "Akagi"
-    },
-    {
-     "start": 24.4,
-     "end": 25.8,
-     "ja": "『ダイナマイトストレート』？",
-     "en": "\"Dynamite Straight\"?",
-     "speaker": "Kimura"
-    },
-    {
-     "start": 25.8,
-     "end": 28.0,
-     "ja": "うん。あれね、俺めっちゃ好きでさ。",
-     "en": "Yeah. I really love that one.",
-     "speaker": "Akagi"
-    },
-    {
-     "start": 28.0,
-     "end": 29.7,
-     "ja": "あ、俺それ知らんわ、多分。",
-     "en": "Ah, I probably don't know it.",
-     "speaker": "Kimura"
-    },
-    {
-     "start": 29.7,
-     "end": 33.7,
-     "ja": "漫画の中でもね、甲子園の決勝のシーンがもうめっちゃ好きやからね、",
-     "en": "Out of the whole manga, I really love the Koshien final scene,",
-     "speaker": "Akagi"
-    },
-    {
-     "start": 33.7,
-     "end": 34.7,
-     "ja": "ああ、そうなんや。",
-     "en": "Ah, is that so?",
-     "speaker": "Kimura"
-    },
-    {
-     "start": 34.7,
-     "end": 36.6,
-     "ja": "今日ちょっとね、2人でその感じやってみよう。",
-     "en": "Let's try acting that out together today.",
-     "speaker": "Akagi"
-    }
-   ]
-  },
-  {
-   "start": 124.7,
-   "end": 137.3,
-   "title": "Where Is Junki Going?",
+   "start": 19.8,
+   "end": 35.8,
+   "title": "Talking About a Baseball Manga",
    "level": "N3",
    "topics": [
     "comedy",
     "sports"
    ],
    "grammar": [
-    "〜しか…ない — only / nothing but",
-    "〜じゃないと — unless / if it's not"
+    "〜やんか — isn't it / you know (Kansai dialect)",
+    "〜てみよう — let's try doing"
    ],
-   "quality": 5,
+   "quality": 4,
    "lines": [
     {
-     "start": 125.0,
-     "end": 126.5,
-     "ja": "なんでジュンキが出てないんすか？",
-     "en": "Why isn't Junki playing?",
+     "start": 20.3,
+     "end": 23.7,
+     "ja": "あのダイナマイトストレートっていう",
+     "en": "You know that baseball manga called",
      "speaker": "Akagi"
     },
     {
-     "start": 126.5,
-     "end": 128.8,
-     "ja": "いや、ジュンキは出てる。ジュンキしか出ないですから。",
-     "en": "No, Junki is playing. Only Junki plays.",
-     "speaker": "Kimura"
-    },
-    {
-     "start": 128.8,
-     "end": 131.0,
-     "ja": "ジュンキじゃないと、本気の球投げられないっすよ！",
-     "en": "If it's not Junki, I can't throw my serious pitches!",
+     "start": 23.7,
+     "end": 24.9,
+     "ja": "野球漫画あるやんか。",
+     "en": "\"Dynamite Straight\"?",
      "speaker": "Akagi"
     },
     {
-     "start": 131.0,
-     "end": 132.4,
-     "ja": "ジュンキは出すって言ってるやんか、そしたら。",
-     "en": "I'm telling you Junki will play, then!",
-     "speaker": "Kimura"
+     "start": 24.9,
+     "end": 26.3,
+     "ja": "ダイナマイトストレート？",
+     "en": "\"Dynamite Straight\"?",
+     "speaker": "Kimura Band"
     },
     {
-     "start": 132.4,
-     "end": 133.8,
-     "ja": "ちょっと待てよ、ジュンキ！",
-     "en": "Wait up, Junki!",
+     "start": 26.3,
+     "end": 28.0,
+     "ja": "あれね、俺めっちゃ好きでさ。",
+     "en": "I really love that one, you know.",
      "speaker": "Akagi"
     },
     {
-     "start": 133.8,
-     "end": 134.8,
-     "ja": "ジュンキ、",
-     "en": "Junki,",
-     "speaker": "Kimura"
+     "start": 28.0,
+     "end": 29.8,
+     "ja": "あ、俺それ知らんわ、多分。",
+     "en": "Ah, I don't think I know that one.",
+     "speaker": "Kimura Band"
     },
     {
-     "start": 134.8,
-     "end": 135.8,
-     "ja": "どこ行くんだよ！",
-     "en": "Where are you going?!",
+     "start": 29.8,
+     "end": 33.7,
+     "ja": "甲子園の決勝のシーンがもうめっちゃ好きやからね。",
+     "en": "I especially love the scene at the Koshien finals.",
      "speaker": "Akagi"
     },
     {
-     "start": 135.8,
-     "end": 136.8,
-     "ja": "ジュンキー！",
-     "en": "Junki-!",
-     "speaker": "Kimura"
+     "start": 33.7,
+     "end": 35.8,
+     "ja": "今日ちょっとね、二人でその感じやってみよう。",
+     "en": "Let's try acting that out together today.",
+     "speaker": "Akagi"
     }
    ]
   },
   {
-   "start": 223.1,
-   "end": 234.3,
-   "title": "Throw the Dynamite Straight!",
+   "start": 39.0,
+   "end": 53.0,
+   "title": "Practicing for the Finals",
    "level": "N4",
    "topics": [
     "comedy",
-    "sports",
-    "fun"
+    "sports"
    ],
    "grammar": [
-    "〜ろ — imperative form",
-    "〜やろ — right? (Kansai dialect confirmation)"
+    "〜だな — isn't it (masculine)",
+    "〜てくれよな — please do (request)"
    ],
-   "quality": 5,
+   "quality": 4,
    "lines": [
     {
-     "start": 223.4,
-     "end": 225.4,
-     "ja": "やった！三振だ！俺たちの勝利！",
-     "en": "Yes! Strikeout! We won!",
+     "start": 39.4,
+     "end": 42.1,
+     "ja": "順平！はい、順平だよ！",
+     "en": "Junpei! Yes, here's Junpei!",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 42.1,
+     "end": 44.3,
+     "ja": "いよいよ明日は決勝だな。",
+     "en": "Tomorrow is finally the finals, isn't it?",
      "speaker": "Akagi"
     },
     {
-     "start": 225.4,
-     "end": 227.5,
-     "ja": "ダイナマイトストレート投げろよ！",
-     "en": "Throw the Dynamite Straight!",
-     "speaker": "Kimura"
+     "start": 44.3,
+     "end": 46.1,
+     "ja": "そうだな、頑張ろう！",
+     "en": "Yeah, let's do our best!",
+     "speaker": "Kimura Band"
     },
     {
-     "start": 227.7,
-     "end": 229.7,
-     "ja": "なんでドラゴンスクリュー投げるんすか？",
-     "en": "Why are you throwing a dragon screw?",
-     "speaker": "Kimura"
-    },
-    {
-     "start": 229.7,
-     "end": 231.4,
-     "ja": "なあ、この漫画めっちゃおもろいやろ？",
-     "en": "Hey, isn't this manga hilarious?",
+     "start": 46.1,
+     "end": 48.4,
+     "ja": "俺のダイナマイトストレート受け取ってくれよな！",
+     "en": "Catch my Dynamite Straight, alright?",
      "speaker": "Akagi"
     },
     {
-     "start": 231.4,
-     "end": 232.8,
-     "ja": "ていうか、面白くない、これ。",
-     "en": "Actually, this isn't funny at all.",
-     "speaker": "Kimura"
+     "start": 48.4,
+     "end": 51.5,
+     "ja": "あぁ、お前のダイナマイトストレートは必ず俺が受け取って…",
+     "en": "Yeah, I'll definitely catch your Dynamite Straight...",
+     "speaker": "Kimura Band"
     },
     {
-     "start": 232.8,
-     "end": 234.0,
-     "ja": "どうもありがとうございました。",
-     "en": "Thank you very much.",
-     "speaker": "Both"
+     "start": 51.5,
+     "end": 53.0,
+     "ja": "監督が呼んでる！",
+     "en": "The coach is calling!",
+     "speaker": "Akagi"
+    }
+   ]
+  },
+  {
+   "start": 100.2,
+   "end": 121.7,
+   "title": "Announcing the Roster",
+   "level": "N3",
+   "topics": [
+    "comedy",
+    "sports"
+   ],
+   "grammar": [
+    "〜しか〜ない — only / nothing but",
+    "〜てもらう — have someone do"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 100.5,
+     "end": 103.2,
+     "ja": "集合！明日のメンバーを発表する！",
+     "en": "Gather 'round! I'll announce tomorrow's roster!",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 104.3,
+     "end": 107.8,
+     "ja": "1番、キャッチャー順平！",
+     "en": "Number 1, catcher Junpei!",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 109.8,
+     "end": 113.8,
+     "ja": "監督、順平の名前しか覚えてなくて、",
+     "en": "Right now, the coach only remembers Junpei's name...",
+     "speaker": "Kimura Band"
+    },
+    {
+     "start": 117.8,
+     "end": 121.7,
+     "ja": "2番以降は好きな人が打って、好きな人が守ってもらう！",
+     "en": "From number 2 onwards, whoever wants to bat can bat, and whoever wants to field can field!",
+     "speaker": "Kimura Band"
     }
    ]
   }
@@ -220,5 +176,6 @@
  "pickTopics": [
   "comedy"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

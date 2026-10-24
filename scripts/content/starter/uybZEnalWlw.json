@@ -1,0 +1,30 @@
+{
+ "videoId": "uybZEnalWlw",
+ "ids": [
+  "uybZEnalWlw-203",
+  "uybZEnalWlw-39"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "uybZEnalWlw-203": {
+   "id": "uybZEnalWlw-203",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Relatable beachside vlog with simple, beginner-friendly vocabulary."
+  },
+  "uybZEnalWlw-39": {
+   "id": "uybZEnalWlw-39",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Everyday university routine narrated with basic daily phrases."
+  }
+ }
+}

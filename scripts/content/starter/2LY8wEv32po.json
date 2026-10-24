@@ -1,0 +1,19 @@
+{
+ "videoId": "2LY8wEv32po",
+ "ids": [
+  "2LY8wEv32po-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "2LY8wEv32po-0": {
+   "id": "2LY8wEv32po-0",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Friendly beach greeting with clear, simple Japanese and engaging visuals."
+  }
+ }
+}

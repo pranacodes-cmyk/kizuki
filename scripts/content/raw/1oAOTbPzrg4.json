@@ -2,9 +2,55 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 4.5,
-   "end": 25.5,
-   "title": "Arriving at the Restaurant",
+   "start": 4.2,
+   "end": 24.8,
+   "title": "Arriving with a Reservation",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜ている — ongoing state / progressive",
+    "〜様 — polite suffix for people"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 4.5,
+     "end": 6.6,
+     "ja": "いらっしゃいませ。",
+     "en": "Welcome.",
+     "speaker": "Waitress"
+    },
+    {
+     "start": 8.6,
+     "end": 13.5,
+     "ja": "12時半に予約している田中です。",
+     "en": "I have a reservation for 12:30. I'm Tanaka.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 15.3,
+     "end": 19.3,
+     "ja": "田中様、お待ちしておりました。",
+     "en": "Ms. Tanaka, we've been expecting you.",
+     "speaker": "Waitress"
+    },
+    {
+     "start": 21.4,
+     "end": 24.0,
+     "ja": "こちらへどうぞ。",
+     "en": "Right this way.",
+     "speaker": "Waitress"
+    }
+   ]
+  },
+  {
+   "start": 225.5,
+   "end": 258.5,
+   "title": "Arriving without a Reservation",
    "level": "N4",
    "topics": [
     "food",
@@ -12,136 +58,104 @@
     "travel"
    ],
    "grammar": [
-    "〜ている — ongoing action / state",
-    "お〜する — humble action"
+    "〜なさる — honorific form of する",
+    "〜なら — conditional (if / as for)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 4.8,
-     "end": 6.8,
+     "start": 225.9,
+     "end": 228.1,
      "ja": "いらっしゃいませ。",
      "en": "Welcome.",
-     "speaker": "Server"
+     "speaker": "Waiter"
     },
     {
-     "start": 9.2,
-     "end": 13.8,
-     "ja": "12時半に予約している田中です。",
-     "en": "I'm Tanaka, I have a reservation for 12:30.",
-     "speaker": "Tanaka"
+     "start": 229.8,
+     "end": 233.3,
+     "ja": "ご予約なさっていますか？",
+     "en": "Do you have a reservation?",
+     "speaker": "Waiter"
     },
     {
-     "start": 15.6,
-     "end": 18.9,
-     "ja": "田中様、お待ちしておりました。",
-     "en": "Ms. Tanaka, we've been expecting you.",
-     "speaker": "Server"
+     "start": 235.6,
+     "end": 239.0,
+     "ja": "いいえ、あいていますか？",
+     "en": "No. Do you have a table available?",
+     "speaker": "Customer"
     },
     {
-     "start": 21.6,
-     "end": 24.2,
-     "ja": "こちらへどうぞ。",
-     "en": "Right this way, please.",
-     "speaker": "Server"
+     "start": 241.8,
+     "end": 246.0,
+     "ja": "外のお席ならご用意できます。",
+     "en": "We can prepare a table outside for you.",
+     "speaker": "Waiter"
+    },
+    {
+     "start": 247.9,
+     "end": 251.3,
+     "ja": "では、それでお願します。",
+     "en": "Then that will be fine, please.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 253.6,
+     "end": 257.9,
+     "ja": "かしこまりました。ご案内いたします。",
+     "en": "Certainly. Please follow me.",
+     "speaker": "Waiter"
     }
    ]
   },
   {
-   "start": 33.6,
-   "end": 49.3,
-   "title": "Ordering Lunch Sets",
+   "start": 310.8,
+   "end": 341.8,
+   "title": "Ordering Dessert and Drinks",
    "level": "N5",
    "topics": [
     "food",
     "daily"
    ],
    "grammar": [
-    "〜をお願いします — please give me ~",
-    "かしこまりました — certainly / understood"
+    "〜と — and (connecting nouns)",
+    "〜お願いします — please give me..."
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 33.9,
-     "end": 35.8,
-     "ja": "すみません。",
-     "en": "Excuse me.",
-     "speaker": "Customer 1"
-    },
-    {
-     "start": 38.3,
-     "end": 42.6,
-     "ja": "Aセットを２つ、お願いします。",
-     "en": "Two Set A's, please.",
-     "speaker": "Customer 2"
-    },
-    {
-     "start": 44.9,
-     "end": 47.7,
-     "ja": "かしこまりました。",
-     "en": "Certainly.",
-     "speaker": "Server"
-    }
-   ]
-  },
-  {
-   "start": 224.5,
-   "end": 258.9,
-   "title": "Checking for Table Availability",
-   "level": "N4",
-   "topics": [
-    "food",
-    "travel",
-    "daily"
-   ],
-   "grammar": [
-    "ご〜なさる — honorific action",
-    "〜なら — conditional 'if'"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 224.9,
-     "end": 227.1,
-     "ja": "いらっしゃいませ。",
-     "en": "Welcome.",
-     "speaker": "Staff"
-    },
-    {
-     "start": 229.4,
-     "end": 233.1,
-     "ja": "ご予約なさっていますか？",
-     "en": "Do you have a reservation?",
-     "speaker": "Staff"
-    },
-    {
-     "start": 235.6,
-     "end": 238.4,
-     "ja": "いいえ、空いていますか？",
-     "en": "No. Is there a table available?",
+     "start": 311.2,
+     "end": 317.0,
+     "ja": "タルト一つと、チーズケーキ一つお願いします。",
+     "en": "One tart and one cheesecake, please.",
      "speaker": "Customer"
     },
     {
-     "start": 241.6,
-     "end": 245.8,
-     "ja": "外のお席ならご用意できます。",
-     "en": "If outdoor seating is fine, we can prepare a table for you.",
-     "speaker": "Staff"
+     "start": 319.2,
+     "end": 322.8,
+     "ja": "お飲み物は何になさいますか？",
+     "en": "What would you like to drink?",
+     "speaker": "Waiter"
     },
     {
-     "start": 247.9,
-     "end": 251.4,
-     "ja": "では、それでお願します。",
-     "en": "Well then, that works for us.",
+     "start": 324.9,
+     "end": 328.8,
+     "ja": "ウーロン茶、二つお願いします。",
+     "en": "Two oolong teas, please.",
      "speaker": "Customer"
     },
     {
-     "start": 253.9,
-     "end": 258.1,
-     "ja": "かしこまりました。ご案内いたします。",
-     "en": "Certainly. I will show you to your table.",
-     "speaker": "Staff"
+     "start": 331.7,
+     "end": 336.2,
+     "ja": "他に何かご注文はございますか？",
+     "en": "Could I get you anything else?",
+     "speaker": "Waiter"
+    },
+    {
+     "start": 338.2,
+     "end": 341.2,
+     "ja": "いいえ、大丈夫です。",
+     "en": "No, thank you.",
+     "speaker": "Customer"
     }
    ]
   }
@@ -150,5 +164,6 @@
  "pickTopics": [
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

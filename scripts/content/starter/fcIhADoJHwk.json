@@ -1,0 +1,19 @@
+{
+ "videoId": "fcIhADoJHwk",
+ "ids": [
+  "fcIhADoJHwk-4"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "fcIhADoJHwk-4": {
+   "id": "fcIhADoJHwk-4",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear narration and subtitles introducing a convenience store sweet."
+  }
+ }
+}

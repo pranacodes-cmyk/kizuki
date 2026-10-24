@@ -1,0 +1,19 @@
+{
+ "videoId": "uqKtyV38bJw",
+ "ids": [
+  "uqKtyV38bJw-29"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "uqKtyV38bJw-29": {
+   "id": "uqKtyV38bJw-29",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear beginner audio but visually static multiple-choice quiz graphic."
+  }
+ }
+}

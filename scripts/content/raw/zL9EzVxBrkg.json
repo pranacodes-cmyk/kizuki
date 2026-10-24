@@ -3,52 +3,52 @@
  "clips": [
   {
    "start": 13.0,
-   "end": 27.2,
-   "title": "Overcoming Fear of Approaching People",
+   "end": 27.0,
+   "title": "Making This Video Was Tough",
    "level": "N3",
    "topics": [
     "daily",
     "fun"
    ],
    "grammar": [
-    "〜てみる — as it appears / looks",
-    "〜のが — nominalizing verb"
+    "〜が苦手 — bad at / weak with",
+    "〜くて — connective form of i-adjective"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 13.3,
-     "end": 15.2,
-     "ja": "皆さん、こんにちは。",
+     "start": 13.2,
+     "end": 15.0,
+     "ja": "皆さんこんにちは。",
      "en": "Hello, everyone.",
      "speaker": "Speaker"
     },
     {
-     "start": 15.4,
-     "end": 19.1,
-     "ja": "えー今日の動画は、まぁめちゃくちゃ頑張って作りました。",
-     "en": "I really worked super hard to make today's video.",
+     "start": 15.0,
+     "end": 19.3,
+     "ja": "えー、今日の動画は、ま、めちゃくちゃ頑張って作りました。",
+     "en": "So, for today's video, well, I tried really, really hard making it.",
      "speaker": "Speaker"
     },
     {
      "start": 19.3,
      "end": 21.0,
      "ja": "編集とかじゃなくて、",
-     "en": "Not in terms of editing or anything,",
+     "en": "Not in terms of editing, but...",
      "speaker": "Speaker"
     },
     {
-     "start": 21.1,
-     "end": 23.8,
-     "ja": "まぁ私こう見えて結構人が苦手で、",
-     "en": "even if I might not look it, I'm actually pretty bad with people,",
+     "start": 21.0,
+     "end": 24.0,
+     "ja": "私、こう見えて結構人が苦手で、",
+     "en": "Despite how I might look, I'm pretty uncomfortable around people,",
      "speaker": "Speaker"
     },
     {
-     "start": 23.8,
-     "end": 27.0,
+     "start": 24.0,
+     "end": 26.6,
      "ja": "あの、アプローチするのがめちゃくちゃ怖いんですね。",
-     "en": "and approaching strangers is super terrifying for me.",
+     "en": "and, you know, approaching them is super terrifying for me.",
      "speaker": "Speaker"
     }
    ]
@@ -56,82 +56,89 @@
   {
    "start": 128.0,
    "end": 137.0,
-   "title": "Street Interviews in Barcelona",
+   "title": "Ready to Interview Barcelona Locals",
    "level": "N4",
    "topics": [
     "travel",
-    "culture"
+    "fun"
    ],
    "grammar": [
-    "〜ている — ongoing state",
-    "〜たいと思う — to want to do"
+    "〜に来ている — have come to",
+    "〜たいと思います — would like to"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 128.0,
-     "end": 130.5,
-     "ja": "どうも皆さん、こんにちは。",
-     "en": "Hello everyone!",
+     "end": 129.8,
+     "ja": "どうも皆さんこんにちは。",
+     "en": "Hello, everyone.",
      "speaker": "Speaker"
     },
     {
-     "start": 130.5,
-     "end": 133.8,
-     "ja": "今、バルセロナの一番忙しいグラシア通りに来てるんですけど、",
-     "en": "Right now I'm on Passeig de Gràcia, the busiest street in Barcelona,",
+     "start": 129.8,
+     "end": 134.0,
+     "ja": "今、バルセロナの一番忙しい、えー、グラシア通りに来てるんですけど、",
+     "en": "Right now, I'm on Passeig de Gràcia, the busiest street in Barcelona, and...",
      "speaker": "Speaker"
     },
     {
-     "start": 133.8,
+     "start": 134.0,
      "end": 136.8,
      "ja": "これから市民の皆んなにインタビューしたいと思います。",
-     "en": "and now I'd like to interview some of the locals.",
+     "en": "I'd like to interview local citizens now.",
      "speaker": "Speaker"
     }
    ]
   },
   {
-   "start": 720.2,
-   "end": 734.0,
-   "title": "Call for Questions in the Comments",
+   "start": 702.5,
+   "end": 720.5,
+   "title": "Overcoming Shyness on the Street",
    "level": "N3",
    "topics": [
-    "fun",
+    "culture",
     "daily"
    ],
    "grammar": [
-    "〜てほしい — wanting someone to do something",
-    "〜たら — if / when conditional"
+    "〜かと思った — thought that",
+    "〜ずに — without doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 720.2,
-     "end": 723.0,
-     "ja": "そこで皆さんに、まぁコメントとして、",
-     "en": "So, in the comments,",
+     "start": 702.5,
+     "end": 705.0,
+     "ja": "はい。え、いかがでしたか？",
+     "en": "All right. Well, how was that?",
      "speaker": "Speaker"
     },
     {
-     "start": 723.0,
-     "end": 728.0,
-     "ja": "次の街頭インタビューの動画で、その市民に聞いてほしいことあったらぜひ書いてください。",
-     "en": "if there's anything you'd like me to ask the locals in the next street interview video, please write it down!",
+     "start": 705.0,
+     "end": 708.0,
+     "ja": "ご覧の通りね、なかなか、あの、人って、",
+     "en": "As you saw, well, people really...",
      "speaker": "Speaker"
     },
     {
-     "start": 728.4,
-     "end": 732.5,
-     "ja": "はい、では皆さんのコメントと「いいね」、チャンネル登録お待ちしてます。",
-     "en": "Well then, I look forward to your comments, likes, and channel subscriptions!",
+     "start": 708.0,
+     "end": 712.5,
+     "ja": "やっぱりスペインだからみんな「うん、どんどん聞いて聞いて」っていう感じかと思ったんですけど、",
+     "en": "Since it's Spain, I thought everyone would be like, 'Sure, go ahead and ask!' but...",
      "speaker": "Speaker"
     },
     {
-     "start": 732.8,
-     "end": 733.8,
-     "ja": "アディオス！",
-     "en": "Adios!",
+     "start": 712.5,
+     "end": 716.0,
+     "ja": "多くの人にアプローチすることができなかったんですけど、",
+     "en": "I wasn't able to approach that many people, but...",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 716.0,
+     "end": 720.2,
+     "ja": "あの、諦めずにね、これからもこういうシリーズ出していこうかなと思います。",
+     "en": "without giving up, I think I'd like to keep releasing this kind of series.",
      "speaker": "Speaker"
     }
    ]
@@ -141,5 +148,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

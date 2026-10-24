@@ -2,8 +2,8 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 4.9,
-   "end": 26.5,
+   "start": 15.8,
+   "end": 40.0,
    "title": "Getting Hungry Late at Night",
    "level": "N5",
    "topics": [
@@ -11,177 +11,149 @@
     "food"
    ],
    "grammar": [
-    "〜たいと思う — thinking of wanting to do",
-    "〜て — connecting verbs (te-form)"
+    "〜たいと思います — thinking of wanting to do",
+    "〜ので — because / since"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 5.1,
-     "end": 11.0,
-     "ja": "今、時間は夜の9時49分です。",
-     "en": "Right now, the time is 9:49 PM.",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 11.8,
-     "end": 15.8,
-     "ja": "夜の9時49分です。",
-     "en": "It is 9:49 PM.",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 16.2,
-     "end": 19.8,
+     "start": 16.0,
+     "end": 19.9,
      "ja": "ちょっとお腹が空きました。",
-     "en": "I've gotten a little hungry.",
+     "en": "I got a little hungry.",
      "speaker": "Yuta"
     },
     {
-     "start": 20.1,
-     "end": 25.8,
+     "start": 20.3,
+     "end": 26.2,
      "ja": "コンビニに行って少しご飯を買いたいと思います。",
-     "en": "I think I'll go to the convenience store and buy some food.",
+     "en": "I think I'll go to the convenience store and buy a little food.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 26.4,
+     "end": 33.1,
+     "ja": "夜にご飯を食べるのはあんまり健康に良くないと思うんですけど、",
+     "en": "I don't think eating at night is very good for your health, but...",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 33.5,
+     "end": 37.8,
+     "ja": "ちょっとお腹が空いたのでコンビニに行きましょう。",
+     "en": "I'm a bit hungry, so let's go to the convenience store.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 38.2,
+     "end": 39.8,
+     "ja": "それじゃあ、レッツゴー！",
+     "en": "Well then, let's go!",
      "speaker": "Yuta"
     }
    ]
   },
   {
-   "start": 122.5,
-   "end": 150.6,
-   "title": "What I Bought at the Convenience Store",
+   "start": 77.2,
+   "end": 98.6,
+   "title": "Bought an Onigiri from the Conbini",
    "level": "N5",
    "topics": [
     "food",
-    "culture"
+    "daily"
    ],
    "grammar": [
-    "〜つ目 — counter suffix for ordinal numbers",
-    "の — noun modification particle"
+    "〜てきました — went and came back doing",
+    "〜つ目 — counter for ordinal numbers"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 122.8,
-     "end": 125.8,
-     "ja": "２つのものを買いました。",
-     "en": "I bought two things.",
+     "start": 77.5,
+     "end": 83.0,
+     "ja": "はい、コンビニに行ってご飯を買ってきましたー。",
+     "en": "All right, I went to the convenience store and bought some food.",
      "speaker": "Yuta"
     },
     {
-     "start": 126.3,
-     "end": 130.0,
-     "ja": "１つ目は、おにぎりです。",
+     "start": 83.3,
+     "end": 86.4,
+     "ja": "2つのものを買いました。",
+     "en": "I bought two items.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 86.8,
+     "end": 90.3,
+     "ja": "1つ目はおにぎりです。",
      "en": "The first one is an onigiri.",
      "speaker": "Yuta"
     },
     {
-     "start": 130.3,
-     "end": 132.0,
+     "start": 90.6,
+     "end": 92.4,
      "ja": "おにぎり。",
-     "en": "An onigiri.",
+     "en": "Rice ball.",
      "speaker": "Yuta"
     },
     {
-     "start": 132.4,
-     "end": 135.8,
-     "ja": "これは、梅おにぎりです。",
+     "start": 92.6,
+     "end": 95.8,
+     "ja": "これは梅おにぎりです。",
      "en": "This is a pickled plum onigiri.",
      "speaker": "Yuta"
     },
     {
-     "start": 136.1,
-     "end": 138.2,
+     "start": 96.0,
+     "end": 98.2,
      "ja": "梅おにぎりです。",
      "en": "It's a pickled plum onigiri.",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 138.8,
-     "end": 143.0,
-     "ja": "２つ目は、味噌汁です。",
-     "en": "The second one is miso soup.",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 143.3,
-     "end": 145.0,
-     "ja": "味噌汁。",
-     "en": "Miso soup.",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 145.3,
-     "end": 150.0,
-     "ja": "これは、長ねぎの味噌汁です。",
-     "en": "This is green onion miso soup.",
      "speaker": "Yuta"
     }
    ]
   },
   {
-   "start": 411.3,
-   "end": 436.0,
-   "title": "Why Japanese Convenience Stores Are Great",
+   "start": 251.5,
+   "end": 282.2,
+   "title": "Why Japanese Convenience Stores Are Useful",
    "level": "N4",
    "topics": [
-    "daily",
-    "culture"
+    "culture",
+    "daily"
    ],
    "grammar": [
-    "〜でも — even / whether or not",
-    "〜ができる — can do / ability",
-    "〜とき — when / at the time of"
+    "〜でも — even if / whether ... or",
+    "〜時 — when / at the time of",
+    "〜と思います — I think that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 411.7,
-     "end": 415.0,
-     "ja": "日本のコンビニは24時間、",
-     "en": "Convenience stores in Japan are...",
+     "start": 251.8,
+     "end": 258.8,
+     "ja": "日本のコンビニは24時間いつでも開いています。",
+     "en": "Convenience stores in Japan are open 24 hours, anytime.",
      "speaker": "Yuta"
     },
     {
-     "start": 415.2,
-     "end": 418.5,
-     "ja": "いつでも開いています。",
-     "en": "...open anytime, 24 hours a day.",
+     "start": 259.5,
+     "end": 268.0,
+     "ja": "朝でも夜でもお昼でも、いつでもコンビニで買い物ができます。",
+     "en": "Whether morning, night, or afternoon, you can shop at a convenience store anytime.",
      "speaker": "Yuta"
     },
     {
-     "start": 419.8,
-     "end": 422.5,
-     "ja": "朝でも、夜でも、",
-     "en": "Whether it's morning or night,",
+     "start": 268.5,
+     "end": 275.5,
+     "ja": "だから夜にお腹が空いた時、でも家に何もない時は、",
+     "en": "So when you get hungry at night, but there is nothing at home,",
      "speaker": "Yuta"
     },
     {
-     "start": 422.7,
-     "end": 425.5,
-     "ja": "お昼でも、いつでもコンビニで",
-     "en": "or afternoon, anytime at a convenience store...",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 425.7,
-     "end": 428.0,
-     "ja": "買い物ができます。",
-     "en": "...you can go shopping.",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 428.4,
-     "end": 431.8,
-     "ja": "だから、夜にお腹が空いたとき、",
-     "en": "So when you get hungry at night,",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 432.1,
-     "end": 435.4,
-     "ja": "でも家に何もないときは、",
-     "en": "yet there's nothing at home,",
+     "start": 275.8,
+     "end": 281.8,
+     "ja": "コンビニに行って少し買い物をする人はとても多いと思います。",
+     "en": "I think there are a lot of people who go to the convenience store and do a bit of shopping.",
      "speaker": "Yuta"
     }
    ]
@@ -192,5 +164,6 @@
   "daily",
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

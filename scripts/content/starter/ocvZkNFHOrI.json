@@ -1,0 +1,19 @@
+{
+ "videoId": "ocvZkNFHOrI",
+ "ids": [
+  "ocvZkNFHOrI-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "ocvZkNFHOrI-0": {
+   "id": "ocvZkNFHOrI-0",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Standard board game unboxing intro spoken at moderate conversational speed."
+  }
+ }
+}

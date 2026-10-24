@@ -1,0 +1,19 @@
+{
+ "videoId": "b3OXdnvWRK0",
+ "ids": [
+  "b3OXdnvWRK0-207"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "b3OXdnvWRK0-207": {
+   "id": "b3OXdnvWRK0-207",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Cheerful classroom morning greeting with familiar phrases and natural student vibe."
+  }
+ }
+}

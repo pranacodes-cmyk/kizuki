@@ -1,0 +1,19 @@
+{
+ "videoId": "-e_uejZwX7U",
+ "ids": [
+  "-e_uejZwX7U-39"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "-e_uejZwX7U-39": {
+   "id": "-e_uejZwX7U-39",
+   "appeal": 3,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Very clear, slow reading pace, but visual is just website text."
+  }
+ }
+}

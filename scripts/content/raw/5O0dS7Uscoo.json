@@ -2,13 +2,13 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 323.5,
-   "end": 339.5,
-   "title": "Asking Young People About Voting",
+   "start": 325.5,
+   "end": 356.5,
+   "title": "Why Young People Do Not Vote",
    "level": "N4",
    "topics": [
-    "daily",
-    "culture"
+    "culture",
+    "daily"
    ],
    "grammar": [
     "〜たことがある — have experienced doing",
@@ -17,125 +17,212 @@
    "quality": 4,
    "lines": [
     {
-     "start": 325.2,
-     "end": 326.8,
+     "start": 325.5,
+     "end": 327.5,
      "ja": "選挙は行ったことありますか？",
-     "en": "Have you ever voted in an election?",
+     "en": "Have you ever been to vote?",
      "speaker": "Interviewer"
     },
     {
-     "start": 326.8,
-     "end": 328.0,
+     "start": 327.5,
+     "end": 328.5,
      "ja": "ないです。",
      "en": "No, I haven't.",
-     "speaker": "Young Woman"
+     "speaker": "Woman A"
     },
     {
-     "start": 328.0,
-     "end": 329.1,
+     "start": 328.5,
+     "end": 329.8,
      "ja": "あ、ないですか？",
      "en": "Oh, you haven't?",
      "speaker": "Interviewer"
     },
     {
-     "start": 329.1,
-     "end": 330.6,
-     "ja": "ない理由とかって？",
-     "en": "What is the reason for not going?",
+     "start": 329.8,
+     "end": 331.5,
+     "ja": "ない理由はまあ、いっぱい。",
+     "en": "Well, there are plenty of reasons why not.",
+     "speaker": "Woman A"
+    },
+    {
+     "start": 331.5,
+     "end": 332.8,
+     "ja": "いっぱいありますか？",
+     "en": "There are plenty?",
      "speaker": "Interviewer"
     },
     {
-     "start": 330.6,
-     "end": 331.6,
-     "ja": "いっぱい。",
-     "en": "There are plenty.",
-     "speaker": "Young Woman"
+     "start": 333.7,
+     "end": 335.3,
+     "ja": "理由を書くね。",
+     "en": "I'll write down the reasons.",
+     "speaker": "Woman A"
     },
     {
-     "start": 331.6,
-     "end": 332.6,
-     "ja": "いっぱいありますか。",
-     "en": "Plenty, you say?",
-     "speaker": "Interviewer"
-    },
-    {
-     "start": 333.6,
-     "end": 335.6,
-     "ja": "理由を書いて…",
-     "en": "Write down the reasons...",
-     "speaker": "Young Woman"
-    },
-    {
-     "start": 335.6,
-     "end": 338.8,
+     "start": 335.4,
+     "end": 337.3,
      "ja": "お姉さんの回答を見てみましょう。せーの！",
-     "en": "Let's take a look at her answer. Ready, set...",
+     "en": "Let's see her answer. Ready, set, go!",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 337.3,
+     "end": 340.4,
+     "ja": "ドゥルドゥルドゥル…チン！",
+     "en": "Drumroll... ding!",
+     "speaker": "Woman A"
+    },
+    {
+     "start": 343.8,
+     "end": 347.3,
+     "ja": "日時、場所、やり方も何も分からない。",
+     "en": "Date and time, location, and I don't know the procedure at all.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 348.3,
+     "end": 351.5,
+     "ja": "ただ馬鹿なだけかもしれないけど、いつあるとか…",
+     "en": "Maybe I'm just being stupid, but like when it takes place...",
+     "speaker": "Woman A"
+    },
+    {
+     "start": 351.7,
+     "end": 353.6,
+     "ja": "確かに。全然分からない。",
+     "en": "Totally. I have no idea at all.",
+     "speaker": "Woman B"
+    },
+    {
+     "start": 353.6,
+     "end": 354.8,
+     "ja": "何も分からん。",
+     "en": "I don't know anything.",
+     "speaker": "Woman A"
+    },
+    {
+     "start": 355.0,
+     "end": 356.5,
+     "ja": "日時も分かりません。",
+     "en": "You don't know the date and time either.",
      "speaker": "Interviewer"
     }
    ]
   },
   {
-   "start": 343.8,
-   "end": 357.2,
-   "title": "Reasons for Not Voting",
+   "start": 401.8,
+   "end": 418.5,
+   "title": "Social Media Ads for Elections",
    "level": "N3",
    "topics": [
-    "daily",
-    "culture"
+    "culture",
+    "daily"
    ],
    "grammar": [
-    "〜かも知れない — might be",
-    "〜と分からない — don't know unless..."
+    "〜たら — if / when",
+    "〜やすい — easy to do"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 344.1,
-     "end": 345.0,
-     "ja": "1、日時。",
-     "en": "One, the date and time.",
+     "start": 402.0,
+     "end": 403.4,
+     "ja": "広告に、ね？",
+     "en": "In advertisements, right?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 404.2,
+     "end": 405.7,
+     "ja": "選挙のさ、",
+     "en": "About the election,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 406.0,
+     "end": 411.0,
+     "ja": "今年は何月何日、ここで何時から何時まで、みたいなのを書いたら、",
+     "en": "if they wrote like 'this year on this date, here, from what time to what time,'",
+     "speaker": "Woman"
+    },
+    {
+     "start": 411.4,
+     "end": 414.0,
+     "ja": "なんかそう、広告で出てきたら分かりやすいし、",
+     "en": "like, if it popped up in ads, it would be easy to understand,",
+     "speaker": "Woman"
+    },
+    {
+     "start": 414.2,
+     "end": 416.0,
+     "ja": "絶対行くね、それ見たら。",
+     "en": "and I'd definitely go if I saw that.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 416.2,
+     "end": 418.2,
+     "ja": "流石です。ありがとうございます。",
+     "en": "That makes total sense. Thank you!",
+     "speaker": "Interviewer"
+    }
+   ]
+  },
+  {
+   "start": 440.5,
+   "end": 500.8,
+   "title": "Voting Through Twitter",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜ようにする — to make it so that",
+    "〜んじゃないか — I suspect / think that"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 440.8,
+     "end": 443.7,
+     "ja": "こういった解決策とかあったら教えてください。",
+     "en": "If you have any solutions like that, please let us know.",
      "speaker": "Interviewer"
     },
     {
-     "start": 345.0,
-     "end": 345.9,
-     "ja": "2、場所。",
-     "en": "Two, the location.",
-     "speaker": "Interviewer"
+     "start": 443.8,
+     "end": 447.5,
+     "ja": "やっぱり若者はハガキとかで来ても見ないんで、",
+     "en": "After all, young people don't look at postcards even if they arrive,",
+     "speaker": "Woman"
     },
     {
-     "start": 345.9,
-     "end": 347.8,
-     "ja": "3、やり方も何にも分からない。",
-     "en": "Three, not knowing how it works or anything.",
-     "speaker": "Interviewer"
+     "start": 448.0,
+     "end": 451.0,
+     "ja": "そう、Twitterで投票できるようにしたりとか、",
+     "en": "so making it possible to vote on Twitter or something,",
+     "speaker": "Woman"
     },
     {
-     "start": 348.4,
-     "end": 351.4,
-     "ja": "まあ、ただバカなだけかもしれないけど。",
-     "en": "Well, maybe it's just that I'm dumb, but...",
-     "speaker": "Young Woman"
+     "start": 451.3,
+     "end": 455.8,
+     "ja": "そういう若者が見やすい場所でできるようにしたら、",
+     "en": "if they made it doable in places easy for young people to see,",
+     "speaker": "Woman"
     },
     {
-     "start": 351.4,
-     "end": 354.2,
-     "ja": "何にも、いつあるとか全然分からない。",
-     "en": "I don't know anything about when it takes place at all.",
-     "speaker": "Young Woman"
+     "start": 456.2,
+     "end": 459.2,
+     "ja": "結構してくれる人も増えるんじゃないかなと思います。",
+     "en": "I think the number of people who do it would increase quite a bit.",
+     "speaker": "Woman"
     },
     {
-     "start": 354.2,
-     "end": 355.3,
-     "ja": "何にも分からん。",
-     "en": "I don't know anything.",
-     "speaker": "Friend"
-    },
-    {
-     "start": 355.3,
-     "end": 357.0,
-     "ja": "日時も分かりません。",
-     "en": "You don't know the date and time either.",
+     "start": 459.4,
+     "end": 500.6,
+     "ja": "ありがとうございます。",
+     "en": "Thank you very much.",
      "speaker": "Interviewer"
     }
    ]
@@ -145,5 +232,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

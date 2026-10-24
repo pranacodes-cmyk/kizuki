@@ -1,0 +1,30 @@
+{
+ "videoId": "5yjuDzMivSo",
+ "ids": [
+  "5yjuDzMivSo-13",
+  "5yjuDzMivSo-313"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "5yjuDzMivSo-13": {
+   "id": "5yjuDzMivSo-13",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Fun, simple greetings spoken slowly by players."
+  },
+  "5yjuDzMivSo-313": {
+   "id": "5yjuDzMivSo-313",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous interactions with clear polite greetings and laughter."
+  }
+ }
+}

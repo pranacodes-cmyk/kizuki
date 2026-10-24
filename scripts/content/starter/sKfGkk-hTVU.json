@@ -1,0 +1,19 @@
+{
+ "videoId": "sKfGkk-hTVU",
+ "ids": [
+  "sKfGkk-hTVU-21"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "sKfGkk-hTVU-21": {
+   "id": "sKfGkk-hTVU-21",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Baseball player responds with simple Japanese phrases and laughs."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "buknUBZyBOM",
+ "ids": [
+  "buknUBZyBOM-200"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "buknUBZyBOM-200": {
+   "id": "buknUBZyBOM-200",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Everyday cafe order decision with simple, repeated vocabulary."
+  }
+ }
+}

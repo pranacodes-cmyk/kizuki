@@ -1,0 +1,19 @@
+{
+ "videoId": "2Bc2nqK7ih0",
+ "ids": [
+  "2Bc2nqK7ih0-205"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "2Bc2nqK7ih0-205": {
+   "id": "2Bc2nqK7ih0-205",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Natural casual gamer chat, but spoken quickly with casual grammar."
+  }
+ }
+}

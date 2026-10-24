@@ -2,69 +2,63 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 6.3,
-   "end": 23.5,
+   "start": 6.1,
+   "end": 24.3,
    "title": "Last Day as a Japanese Teacher",
-   "level": "N4",
+   "level": "N3",
    "topics": [
     "work",
-    "daily",
-    "school"
+    "school",
+    "daily"
    ],
    "grammar": [
     "〜くらい — approximately",
-    "〜ていました — ongoing past action"
+    "〜ていた — past progressive",
+    "〜なので — because/since"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 6.6,
-     "end": 8.7,
-     "ja": "大家好、我是shajiです。",
+     "start": 6.4,
+     "end": 8.0,
+     "ja": "皆さんこんにちは、シャジーです。",
      "en": "Hello everyone, I'm Shaji.",
      "speaker": "Narrator"
     },
     {
-     "start": 9.0,
-     "end": 12.0,
-     "ja": "今日は5年くらい勤めた",
-     "en": "Today, from the Japanese language school",
+     "start": 8.5,
+     "end": 11.2,
+     "ja": "今日は５年くらい勤めた",
+     "en": "Today, I will show you a vlog",
      "speaker": "Narrator"
     },
     {
-     "start": 12.0,
-     "end": 16.0,
+     "start": 11.2,
+     "end": 15.6,
      "ja": "日本語学校の出勤最終日のVlogをお届けします。",
-     "en": "where I worked for about five years, I'm bringing you a vlog of my last day of work.",
+     "en": "of my last day of commuting to the Japanese language school where I worked for about 5 years.",
      "speaker": "Narrator"
     },
     {
      "start": 16.3,
-     "end": 18.7,
-     "ja": "私は非常勤だったので",
-     "en": "Because I was a part-time teacher,",
+     "end": 19.8,
+     "ja": "私は非常勤だったので、毎日ではないですが、",
+     "en": "Since I was part-time, I didn't go every day,",
      "speaker": "Narrator"
     },
     {
-     "start": 18.7,
-     "end": 20.3,
-     "ja": "毎日ではないですが、",
-     "en": "it wasn't every day,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 20.3,
-     "end": 23.0,
-     "ja": "多い時は週4回出勤していました。",
-     "en": "but when it was busy, I worked four days a week.",
+     "start": 20.2,
+     "end": 24.0,
+     "ja": "多い時は週４回出勤していました。",
+     "en": "but when it was busy, I worked about four times a week.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 30.6,
-   "end": 44.1,
-   "title": "Commuting While Pregnant",
+   "start": 30.5,
+   "end": 44.8,
+   "title": "Changes During Pregnancy",
    "level": "N3",
    "topics": [
     "work",
@@ -72,36 +66,37 @@
    ],
    "grammar": [
     "〜てから — after doing",
-    "〜させてもらう — to be allowed to do"
+    "〜させてもらう — to be allowed to do",
+    "〜ではなく — not A, but B"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
      "start": 30.8,
      "end": 33.1,
      "ja": "妊娠してからは授業ではなく、",
-     "en": "After getting pregnant, instead of teaching classes,",
+     "en": "Since getting pregnant, instead of teaching classes,",
      "speaker": "Narrator"
     },
     {
-     "start": 33.1,
-     "end": 36.8,
+     "start": 33.4,
+     "end": 36.6,
      "ja": "教務事務のお手伝いとして出勤していて、",
-     "en": "I went in to help with administrative work,",
+     "en": "I came to work to help with academic administrative tasks,",
      "speaker": "Narrator"
     },
     {
-     "start": 37.0,
-     "end": 41.5,
+     "start": 36.8,
+     "end": 40.5,
      "ja": "ラッシュの時間を避けて出勤させてもらっていたので、",
-     "en": "and since they let me avoid the rush hour commute,",
+     "en": "and since they allowed me to commute avoiding rush hours,",
      "speaker": "Narrator"
     },
     {
-     "start": 41.5,
-     "end": 43.6,
+     "start": 40.7,
+     "end": 44.5,
      "ja": "出勤時間は大体座れていました。",
-     "en": "I was usually able to get a seat on my way to work.",
+     "en": "I was generally able to sit during my commute.",
      "speaker": "Narrator"
     }
    ]
@@ -109,44 +104,45 @@
   {
    "start": 338.2,
    "end": 353.4,
-   "title": "Memories of Teaching",
+   "title": "Looking Back on 5 Years of Teaching",
    "level": "N3",
    "topics": [
     "work",
     "school"
    ],
    "grammar": [
-    "〜てすぐ — immediately after doing",
-    "〜ていただく — to humbly receive an action"
+    "〜てすぐ — right after",
+    "〜くらい — about/around",
+    "〜つつ — while doing"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 338.4,
-     "end": 341.1,
-     "ja": "養成講座を出てすぐから",
-     "en": "Right after finishing the teacher training course,",
+     "start": 338.5,
+     "end": 341.2,
+     "ja": "養成講座を出てすぐから、",
+     "en": "Right after finishing the training course,",
      "speaker": "Narrator"
     },
     {
-     "start": 341.1,
-     "end": 344.0,
-     "ja": "大体5年くらいお世話になった日本語学校でしたが、",
-     "en": "I was indebted to this Japanese language school for about 5 years, and",
+     "start": 341.2,
+     "end": 344.4,
+     "ja": "大体５年くらいお世話になった日本語学校でしたが、",
+     "en": "I worked at this Japanese language school for about five years,",
      "speaker": "Narrator"
     },
     {
      "start": 344.8,
-     "end": 349.4,
-     "ja": "こんなに素敵な職場なかなかないなと思いつつ、",
-     "en": "feeling that a wonderful workplace like this is quite rare,",
+     "end": 348.6,
+     "ja": "こんなに素敵な職場なかなか無いなと思い討つ、",
+     "en": "and while thinking that it's rare to find such a wonderful workplace,",
      "speaker": "Narrator"
     },
     {
-     "start": 349.4,
-     "end": 352.9,
+     "start": 349.0,
+     "end": 353.1,
      "ja": "楽しい日本語教師生活を送らせていただきました。",
-     "en": "I was able to lead a truly enjoyable life as a Japanese language teacher.",
+     "en": "I was able to enjoy a fulfilling life as a Japanese teacher.",
      "speaker": "Narrator"
     }
    ]
@@ -156,5 +152,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

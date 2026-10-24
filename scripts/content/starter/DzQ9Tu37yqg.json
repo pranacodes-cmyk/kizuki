@@ -1,0 +1,19 @@
+{
+ "videoId": "DzQ9Tu37yqg",
+ "ids": [
+  "DzQ9Tu37yqg-376"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "DzQ9Tu37yqg-376": {
+   "id": "DzQ9Tu37yqg-376",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Charming cultural moment at dinner, though voiceover narration is moderately fast."
+  }
+ }
+}

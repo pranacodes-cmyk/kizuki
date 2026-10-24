@@ -1,0 +1,30 @@
+{
+ "videoId": "HBLhxucyJu8",
+ "ids": [
+  "HBLhxucyJu8-625",
+  "HBLhxucyJu8-8"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "HBLhxucyJu8-8": {
+   "id": "HBLhxucyJu8-8",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear audio and entertaining cooking show intro suitable for beginners."
+  },
+  "HBLhxucyJu8-625": {
+   "id": "HBLhxucyJu8-625",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Lively and expressive reaction, though delivery is slightly frantic."
+  }
+ }
+}

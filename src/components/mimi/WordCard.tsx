@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Check, MessageCircleQuestion, Plus, RotateCcw, Volume2 } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import type { AskContext } from "@/lib/ask";
 import type { Clip, ClipNotes, Content, DictEntry, Word } from "@/lib/content";
@@ -8,7 +8,7 @@ import { glossOf, thumbOf } from "@/lib/content";
 import { clipsWithWord, wordKeyOf, wordLevel } from "@/lib/logic";
 import { speak } from "@/lib/speech";
 import { useApp, type WordInput } from "@/lib/store";
-import { tourEmit } from "@/lib/tour-store";
+import { tourEmit, useTour } from "@/lib/tour-store";
 import { cn } from "@/lib/utils";
 
 import { AskSheet } from "./AskSheet";
@@ -56,6 +56,14 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
   const lineNote = notes?.l[String(line)];
   const others = useMemo(() => (open && key ? clipsWithWord(content.clips, key, clip.id, jlpt) : []), [open, key, content.clips, clip.id, jlpt]);
   const [asking, setAsking] = useState(false);
+  // The tour's "Back to the video" closes Ask Kizuki too (ClipView closes the card).
+  const closeSignal = useTour((s) => s.closeSignal);
+  const seenClose = useRef(closeSignal);
+  useEffect(() => {
+    if (closeSignal === seenClose.current) return;
+    seenClose.current = closeSignal;
+    setAsking(false);
+  }, [closeSignal]);
   // What the tutor needs to know about this word and its line — mirrors _askContext() in word_card.dart.
   const askCtx = useMemo((): AskContext | null => {
     const l = clip.lines[line];

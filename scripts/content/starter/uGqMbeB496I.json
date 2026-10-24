@@ -1,0 +1,32 @@
+{
+ "videoId": "uGqMbeB496I",
+ "ids": [
+  "uGqMbeB496I-725",
+  "uGqMbeB496I-784"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "uGqMbeB496I-784": {
+   "id": "uGqMbeB496I-784",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Charming and simple dialogue about what gives him purpose."
+  },
+  "uGqMbeB496I-725": {
+   "id": "uGqMbeB496I-725",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Fast conversational banter with laughter overlapping the speech."
+  }
+ }
+}

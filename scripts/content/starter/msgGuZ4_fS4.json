@@ -1,0 +1,30 @@
+{
+ "videoId": "msgGuZ4_fS4",
+ "ids": [
+  "msgGuZ4_fS4-429",
+  "msgGuZ4_fS4-466"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "msgGuZ4_fS4-429": {
+   "id": "msgGuZ4_fS4-429",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear, accessible dialogue discussing the particle 'ne' with monkey visuals."
+  },
+  "msgGuZ4_fS4-466": {
+   "id": "msgGuZ4_fS4-466",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Calm, thoughtful narration about friendship over simple slideshow photos."
+  }
+ }
+}

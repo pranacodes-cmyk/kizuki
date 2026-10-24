@@ -1,0 +1,30 @@
+{
+ "videoId": "tupRbmVM9Wc",
+ "ids": [
+  "tupRbmVM9Wc-40",
+  "tupRbmVM9Wc-820"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "tupRbmVM9Wc-820": {
+   "id": "tupRbmVM9Wc-820",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear bedtime routine explanation reinforced by visual alarm graphics."
+  },
+  "tupRbmVM9Wc-40": {
+   "id": "tupRbmVM9Wc-40",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Everyday grooming actions demonstrated clearly with helpful illustrated overlays."
+  }
+ }
+}

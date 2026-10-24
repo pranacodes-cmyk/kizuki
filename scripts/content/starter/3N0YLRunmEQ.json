@@ -1,0 +1,30 @@
+{
+ "videoId": "3N0YLRunmEQ",
+ "ids": [
+  "3N0YLRunmEQ-48",
+  "3N0YLRunmEQ-92"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "3N0YLRunmEQ-48": {
+   "id": "3N0YLRunmEQ-48",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Wholesome scene featuring basic vocabulary and clear daily phrases."
+  },
+  "3N0YLRunmEQ-92": {
+   "id": "3N0YLRunmEQ-92",
+   "appeal": 7,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute playful interaction with simple, highly contextualized conversational speech."
+  }
+ }
+}

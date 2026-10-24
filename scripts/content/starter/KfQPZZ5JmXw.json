@@ -1,0 +1,30 @@
+{
+ "videoId": "KfQPZZ5JmXw",
+ "ids": [
+  "KfQPZZ5JmXw-0",
+  "KfQPZZ5JmXw-35"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "KfQPZZ5JmXw-0": {
+   "id": "KfQPZZ5JmXw-0",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear synthetic voiceover over static slides explaining NHK Easy Japanese news."
+  },
+  "KfQPZZ5JmXw-35": {
+   "id": "KfQPZZ5JmXw-35",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Informative yet dry presentation using static promotional images and robotic narration."
+  }
+ }
+}

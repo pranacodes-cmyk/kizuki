@@ -2,222 +2,272 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 6.3,
+   "start": 0.3,
    "end": 21.8,
-   "title": "Solving Problems on the Streets of Shibuya",
-   "level": "N4",
+   "title": "Solving People's Problems in Shibuya",
+   "level": "N3",
    "topics": [
     "fun",
-    "friends"
+    "daily",
+    "culture"
    ],
    "grammar": [
-    "〜ていく — ongoing change/progression",
-    "〜と思う — to think that"
+    "〜ていく — action progressing over time",
+    "〜と思います — I think that..."
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 6.3,
+     "start": 0.3,
+     "end": 1.8,
+     "ja": "どうも！しんです！",
+     "en": "Hello! I'm Shin!",
+     "speaker": "Shin"
+    },
+    {
+     "start": 1.9,
+     "end": 3.0,
+     "ja": "きょんです！",
+     "en": "I'm Kyon!",
+     "speaker": "Kyon"
+    },
+    {
+     "start": 3.2,
+     "end": 5.8,
+     "ja": "しんきょんチャンネルです！",
+     "en": "It's the Shin-Kyon Channel!",
+     "speaker": "Both"
+    },
+    {
+     "start": 6.0,
      "end": 10.5,
-     "ja": "今日はね、街中の皆さんのお悩みをね、１つずつ解決していくというところで、",
-     "en": "Today, we're going to solve people's problems on the street one by one, and...",
+     "ja": "今日はね、街中のみなさんのお悩みをね、ひとつずつ解決していくというところで。",
+     "en": "Today, we're going to solve people's problems on the street one by one.",
      "speaker": "Shin"
     },
     {
      "start": 10.6,
-     "end": 11.8,
+     "end": 11.5,
      "ja": "解決します！",
-     "en": "We will solve them!",
+     "en": "We'll solve them!",
      "speaker": "Kyon"
     },
     {
-     "start": 11.9,
-     "end": 13.4,
-     "ja": "今日は渋谷にやって参りました！",
+     "start": 11.6,
+     "end": 13.5,
+     "ja": "今日は渋谷にやってまいりました！",
      "en": "Today we've come to Shibuya!",
      "speaker": "Shin"
     },
     {
-     "start": 13.5,
-     "end": 15.3,
-     "ja": "よっ！",
-     "en": "Yay!",
+     "start": 14.5,
+     "end": 15.5,
+     "ja": "ホームタウン！",
+     "en": "Our hometown!",
      "speaker": "Kyon"
     },
     {
-     "start": 15.4,
-     "end": 16.5,
+     "start": 15.6,
+     "end": 16.4,
      "ja": "ホームタウン。",
      "en": "Hometown.",
+     "speaker": "Shin"
+    },
+    {
+     "start": 16.5,
+     "end": 20.5,
+     "ja": "まあいろんなお悩み出てくると思いますが、全部解決します！",
+     "en": "I'm sure all kinds of worries will come up, but we'll solve them all!",
      "speaker": "Kyon"
     },
     {
-     "start": 16.7,
-     "end": 21.5,
-     "ja": "まあいろんなお悩み出てくると思いますが、全部解決します！",
-     "en": "Well, I'm sure all kinds of worries will come up, but we'll solve them all!",
-     "speaker": "Kyon"
+     "start": 20.6,
+     "end": 21.7,
+     "ja": "ガッチョ！ガッチャ！",
+     "en": "Gotcha! Gotcha!",
+     "speaker": "Both"
     }
    ]
   },
   {
-   "start": 307.7,
-   "end": 326.0,
-   "title": "Can We Get into the Starbucks?",
-   "level": "N3",
+   "start": 202.8,
+   "end": 228.0,
+   "title": "Meeting Up for a Solo Travel Event",
+   "level": "N4",
    "topics": [
     "travel",
-    "daily"
+    "fun",
+    "friends"
    ],
    "grammar": [
-    "〜じゃないですか — isn't it / as you know",
-    "〜ておく/配ってて — ongoing state"
+    "〜たいけど — want to do... but",
+    "〜ことがある — have the experience of"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 307.7,
-     "end": 310.5,
-     "ja": "中目黒は、なんかスタバのカフェあるじゃないですか？",
-     "en": "Nakameguro has that Starbucks cafe, right?",
+     "start": 202.8,
+     "end": 204.0,
+     "ja": "これからスノボーですか？",
+     "en": "Are you going snowboarding now?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 204.2,
+     "end": 206.5,
+     "ja": "いや、これからあの、イベントで、",
+     "en": "No, I'm holding an event...",
      "speaker": "Woman"
     },
     {
-     "start": 310.8,
-     "end": 312.4,
-     "ja": "あー、はいはいはい。",
-     "en": "Ah, yeah yeah yeah.",
-     "speaker": "Shin"
+     "start": 206.8,
+     "end": 210.8,
+     "ja": "一人旅したいけど勇気が出ない人っていうイベントをやるんですよ。",
+     "en": "An event for people who want to travel alone but don't have the courage.",
+     "speaker": "Woman"
     },
     {
-     "start": 312.5,
-     "end": 313.8,
-     "ja": "リザーブの。",
-     "en": "The Reserve one.",
-     "speaker": "Kyon"
+     "start": 214.0,
+     "end": 216.5,
+     "ja": "実際に、行ったことはない？一人旅。",
+     "en": "Have you ever actually gone on a solo trip?",
+     "speaker": "Interviewer"
     },
     {
-     "start": 313.9,
-     "end": 315.5,
-     "ja": "めちゃめちゃオシャレです。",
-     "en": "It's super stylish.",
-     "speaker": "Shin"
+     "start": 216.8,
+     "end": 218.0,
+     "ja": "私はあります。",
+     "en": "I have.",
+     "speaker": "Woman"
     },
     {
-     "start": 316.8,
-     "end": 318.8,
-     "ja": "整理券配ってて…",
-     "en": "They hand out numbered tickets...",
-     "speaker": "Shin"
+     "start": 220.8,
+     "end": 221.9,
+     "ja": "私が企画したんで。",
+     "en": "Because I'm the one who organized it.",
+     "speaker": "Woman"
     },
     {
-     "start": 319.4,
-     "end": 321.0,
-     "ja": "マジで２時間待ちとか。",
-     "en": "Seriously, like a two-hour wait.",
-     "speaker": "Kyon"
+     "start": 222.0,
+     "end": 223.4,
+     "ja": "え、誰か待ってるんですか？",
+     "en": "Wait, are you waiting for someone?",
+     "speaker": "Interviewer"
     },
     {
-     "start": 321.1,
-     "end": 322.0,
-     "ja": "今日入れます？",
-     "en": "Can we get in today?",
-     "speaker": "Man"
-    },
-    {
-     "start": 322.1,
-     "end": 323.4,
-     "ja": "今日入れませんｗ",
-     "en": "You can't get in today lol.",
-     "speaker": "Kyon"
-    },
-    {
-     "start": 323.7,
-     "end": 325.5,
-     "ja": "今日は土曜日で入れませんｗ",
-     "en": "It's Saturday, so you won't get in lol.",
-     "speaker": "Kyon"
+     "start": 223.5,
+     "end": 227.6,
+     "ja": "そう、今待ってるんですけど、外国人の人で携帯持ってなくて。",
+     "en": "Yeah, I'm waiting right now, but he's a foreigner and doesn't have a phone.",
+     "speaker": "Woman"
     }
    ]
   },
   {
-   "start": 355.3,
-   "end": 372.5,
-   "title": "Where Do You Work Part-Time?",
+   "start": 345.0,
+   "end": 412.0,
+   "title": "A High Schooler's Part-Time Job",
    "level": "N4",
    "topics": [
     "work",
-    "daily",
-    "fun"
+    "school",
+    "daily"
    ],
    "grammar": [
-    "〜ている — ongoing state",
-    "〜た方がいい — had better / should",
-    "〜て言われて — passive speech reporting"
+    "〜たい — want to do",
+    "〜た方がいい — it's better to..."
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 355.3,
-     "end": 357.0,
-     "ja": "バイトしてる？何してる？",
-     "en": "Do you work part-time? Where at?",
-     "speaker": "Shin"
-    },
-    {
-     "start": 357.1,
-     "end": 358.3,
-     "ja": "飲食店です。",
-     "en": "In food service.",
+     "start": 345.0,
+     "end": 346.5,
+     "ja": "貯金をしたいです！",
+     "en": "I want to save money!",
      "speaker": "Girl"
     },
     {
-     "start": 358.4,
-     "end": 359.2,
-     "ja": "マック？",
-     "en": "McDonald's?",
-     "speaker": "Shin"
+     "start": 346.8,
+     "end": 349.5,
+     "ja": "貯金したいの、この年で？",
+     "en": "You want to save money at your age?",
+     "speaker": "Interviewer"
     },
     {
-     "start": 359.3,
-     "end": 400.6,
+     "start": 351.0,
+     "end": 353.5,
+     "ja": "結構堅実やな。",
+     "en": "That's pretty practical.",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 354.0,
+     "end": 355.1,
+     "ja": "バイトしてるんですけど...",
+     "en": "I work a part-time job, though...",
+     "speaker": "Girl"
+    },
+    {
+     "start": 355.2,
+     "end": 356.9,
+     "ja": "バイトしてる？何してる？",
+     "en": "You work? What do you do?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 357.0,
+     "end": 358.0,
+     "ja": "飲食店...",
+     "en": "Food service...",
+     "speaker": "Girl"
+    },
+    {
+     "start": 358.1,
+     "end": 359.0,
+     "ja": "マック？",
+     "en": "McDonald's?",
+     "speaker": "Interviewer"
+    },
+    {
+     "start": 359.1,
+     "end": 360.5,
      "ja": "あー、近いです！",
      "en": "Ah, close!",
      "speaker": "Girl"
     },
     {
-     "start": 401.8,
-     "end": 402.9,
-     "ja": "モス？",
-     "en": "Mos?",
-     "speaker": "Shin"
+     "start": 402.5,
+     "end": 403.4,
+     "ja": "モスバーガー？",
+     "en": "Mos Burger?",
+     "speaker": "Interviewer"
     },
     {
-     "start": 403.0,
-     "end": 404.9,
-     "ja": "あー、モスバーガー。",
-     "en": "Ah, Mos Burger.",
+     "start": 403.5,
+     "end": 404.5,
+     "ja": "モス！",
+     "en": "Mos!",
      "speaker": "Girl"
     },
     {
      "start": 405.0,
-     "end": 406.9,
-     "ja": "モス！マック惜しかった。",
-     "en": "Mos! McDonald's was close.",
-     "speaker": "Shin"
+     "end": 406.8,
+     "ja": "モス！マック惜しかった！",
+     "en": "Mos! McDonald's was close!",
+     "speaker": "Interviewer"
     },
     {
      "start": 407.0,
      "end": 408.8,
-     "ja": "マックも迷いました最初。",
-     "en": "I was considering McDonald's at first too.",
+     "ja": "マックも迷いました、最初。",
+     "en": "I considered McDonald's too at first.",
      "speaker": "Girl"
     },
     {
-     "start": 408.9,
-     "end": 412.3,
-     "ja": "友達にマックで働いてる子がいて、やめた方がいいって言われてｗ",
-     "en": "I had a friend working at Mac, and she told me I shouldn't lol.",
+     "start": 409.0,
+     "end": 411.8,
+     "ja": "友達にマックで働いてる子がいて、「やめた方がいい」って言われて。",
+     "en": "A friend who works at McDonald's told me, \"You shouldn't.\"",
      "speaker": "Girl"
     }
    ]
@@ -227,5 +277,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

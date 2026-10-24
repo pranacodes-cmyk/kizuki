@@ -1,0 +1,19 @@
+{
+ "videoId": "lV--GlAQrbw",
+ "ids": [
+  "lV--GlAQrbw-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "lV--GlAQrbw-0": {
+   "id": "lV--GlAQrbw-0",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Friendly introduction featuring very simple, accessible Japanese phrases."
+  }
+ }
+}

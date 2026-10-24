@@ -2,239 +2,286 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 144.9,
-   "end": 158.4,
-   "title": "Street Interview Hesitation",
-   "level": "N4",
-   "topics": [
-    "fun",
-    "comedy",
-    "daily"
-   ],
-   "grammar": [
-    "〜割には — despite / although",
-    "〜てくる — start to / come to"
-   ],
-   "quality": 4,
-   "lines": [
-    {
-     "start": 145.2,
-     "end": 146.4,
-     "ja": "インタビューされますか？",
-     "en": "Would you like to be interviewed?",
-     "speaker": "Host 1"
-    },
-    {
-     "start": 146.6,
-     "end": 147.8,
-     "ja": "えっ、いや、怖い。",
-     "en": "Huh, no, it's scary.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 148.0,
-     "end": 149.0,
-     "ja": "怖い？",
-     "en": "Scary?",
-     "speaker": "Host 1"
-    },
-    {
-     "start": 149.1,
-     "end": 151.1,
-     "ja": "でも近づいてきたよ。",
-     "en": "Yet you walked over to us.",
-     "speaker": "Host 2"
-    },
-    {
-     "start": 151.2,
-     "end": 153.2,
-     "ja": "「怖い」って言う割には近づいてきてた。",
-     "en": "For someone saying it's scary, you kept getting closer.",
-     "speaker": "Host 1"
-    },
-    {
-     "start": 153.7,
-     "end": 155.1,
-     "ja": "怖いけど、",
-     "en": "It's scary, but...",
-     "speaker": "Host 2"
-    },
-    {
-     "start": 155.2,
-     "end": 156.4,
-     "ja": "怖いけどやっちゃうよ。",
-     "en": "It's scary, but you're doing it anyway.",
-     "speaker": "Host 1"
-    },
-    {
-     "start": 156.5,
-     "end": 157.9,
-     "ja": "その行動が一番怖い！",
-     "en": "That behavior is the scariest of all!",
-     "speaker": "Host 2"
-    }
-   ]
-  },
-  {
-   "start": 331.4,
-   "end": 353.1,
-   "title": "Sudden Minimalist Ex-Boyfriend",
+   "start": 211.5,
+   "end": 229.0,
+   "title": "My Ex Became a Minimalist",
    "level": "N3",
    "topics": [
-    "comedy",
     "romance",
-    "friends"
+    "comedy"
    ],
    "grammar": [
-    "急に — suddenly",
-    "〜始める — start doing",
-    "〜だけ — only / just"
+    "〜始める — to start doing",
+    "〜目指す — aiming for"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 331.9,
-     "end": 334.3,
+     "start": 211.8,
+     "end": 214.2,
      "ja": "急にミニマリストになりました。",
      "en": "He suddenly became a minimalist.",
-     "speaker": "Woman"
+     "speaker": "Girl"
     },
     {
-     "start": 334.4,
-     "end": 336.2,
+     "start": 214.2,
+     "end": 215.8,
+     "ja": "何も無くなった？周りから。",
+     "en": "Everything vanished from around him?",
+     "speaker": "Ryu"
+    },
+    {
+     "start": 215.8,
+     "end": 217.8,
      "ja": "急に片付け始めた？",
      "en": "He suddenly started clearing things out?",
-     "speaker": "Host 2"
+     "speaker": "Shion"
     },
     {
-     "start": 337.8,
-     "end": 339.1,
+     "start": 217.8,
+     "end": 219.1,
      "ja": "家が布団だけになった。",
-     "en": "His apartment ended up with only a futon.",
-     "speaker": "Woman"
+     "en": "His place was left with just a futon.",
+     "speaker": "Girl"
     },
     {
-     "start": 339.2,
-     "end": 340.2,
+     "start": 219.1,
+     "end": 220.3,
      "ja": "理由聞いた？",
-     "en": "Did you ask the reason?",
-     "speaker": "Host 2"
+     "en": "Did you ask why?",
+     "speaker": "Shion"
     },
     {
-     "start": 341.0,
-     "end": 342.3,
+     "start": 220.3,
+     "end": 222.1,
+     "ja": "家が布団だけになった？差し押さえ？",
+     "en": "Only a futon left in his home? Foreclosure?",
+     "speaker": "Ryu"
+    },
+    {
+     "start": 222.1,
+     "end": 223.7,
      "ja": "差し押さえ？",
      "en": "Foreclosure?",
-     "speaker": "Host 1"
+     "speaker": "Shion"
     },
     {
-     "start": 344.2,
-     "end": 346.0,
+     "start": 223.7,
+     "end": 225.3,
+     "ja": "ミニマリスト目指してた。",
+     "en": "He was aiming to be a minimalist.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 225.3,
+     "end": 227.3,
      "ja": "ミニマリスト目指して布団だけにしたの？",
-     "en": "He aimed to be a minimalist and ended up with just a futon?",
-     "speaker": "Host 1"
+     "en": "He aimed to be a minimalist and kept just a futon?",
+     "speaker": "Shion"
     },
     {
-     "start": 346.9,
-     "end": 348.6,
-     "ja": "下手くそだね、ミニマリストが。",
-     "en": "He's really bad at being a minimalist.",
-     "speaker": "Host 2"
-    },
-    {
-     "start": 349.5,
-     "end": 351.4,
-     "ja": "もっといい感じにできなかった？",
-     "en": "Couldn't he have done it a bit better?",
-     "speaker": "Host 1"
+     "start": 227.3,
+     "end": 229.0,
+     "ja": "それ下手くそだね。",
+     "en": "He's really bad at it, then.",
+     "speaker": "Ryu"
     }
    ]
   },
   {
-   "start": 1211.3,
-   "end": 1228.6,
-   "title": "Visiting Kabukicho for Dinner",
-   "level": "N4",
+   "start": 581.5,
+   "end": 598.5,
+   "title": "He Won't Let Me Spend Money",
+   "level": "N3",
    "topics": [
-    "daily",
-    "food",
-    "fun"
+    "romance",
+    "work",
+    "comedy"
    ],
    "grammar": [
-    "〜てました — was doing",
-    "なんのために — for what purpose"
+    "〜ようと思う — intend to do",
+    "〜じゃないですか — isn't it the case that..."
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 1211.5,
-     "end": 1212.9,
-     "ja": "担当さんいますか？",
-     "en": "Do you have a regular host?",
-     "speaker": "Host 2"
+     "start": 581.8,
+     "end": 583.0,
+     "ja": "優しすぎるんだ。",
+     "en": "So he's too nice.",
+     "speaker": "Shion"
     },
     {
-     "start": 1213.2,
-     "end": 1213.9,
-     "ja": "はい。",
-     "en": "Yes.",
-     "speaker": "Girl 1"
+     "start": 583.0,
+     "end": 584.5,
+     "ja": "何も言ってこない。",
+     "en": "He doesn't ask for anything.",
+     "speaker": "Girl"
     },
     {
-     "start": 1214.1,
-     "end": 1215.1,
-     "ja": "いる？二人とも？",
-     "en": "You have one? Both of you?",
-     "speaker": "Host 1"
+     "start": 584.5,
+     "end": 586.5,
+     "ja": "ちょっと言われたいみたいな？怒られたいみたいな？",
+     "en": "You want him to demand something? Or scold you?",
+     "speaker": "Shion"
     },
     {
-     "start": 1215.3,
-     "end": 1216.5,
-     "ja": "私はいません。",
-     "en": "I don't.",
-     "speaker": "Girl 2"
+     "start": 586.5,
+     "end": 587.8,
+     "ja": "ちょっと何か言われたいんだ。",
+     "en": "You want him to say something to you.",
+     "speaker": "Ryu"
     },
     {
-     "start": 1216.7,
-     "end": 1217.7,
-     "ja": "いないの？",
-     "en": "You don't?",
-     "speaker": "Host 2"
+     "start": 587.8,
+     "end": 590.1,
+     "ja": "ボトルを下ろそうと思ってお金を持っていくじゃないですか。",
+     "en": "Like, I bring money planning to order a bottle, right?",
+     "speaker": "Girl"
     },
     {
-     "start": 1218.1,
-     "end": 1220.0,
-     "ja": "なんで歌舞伎町にいるんすか？",
-     "en": "Why are you in Kabukicho, then?",
-     "speaker": "Host 1"
+     "start": 590.1,
+     "end": 591.8,
+     "ja": "２分の１に抑えられて、",
+     "en": "He cuts it down by half,",
+     "speaker": "Girl"
     },
     {
-     "start": 1221.1,
-     "end": 1222.4,
-     "ja": "なんのために来てる？",
-     "en": "What did you come here for?",
-     "speaker": "Host 1"
+     "start": 591.8,
+     "end": 594.2,
+     "ja": "何も下ろされんと終わっちゃいます。",
+     "en": "and it ends without ordering anything.",
+     "speaker": "Girl"
     },
     {
-     "start": 1222.5,
-     "end": 1224.2,
-     "ja": "ご飯食べてました。",
-     "en": "We were eating dinner.",
-     "speaker": "Girl 2"
+     "start": 594.2,
+     "end": 595.3,
+     "ja": "一緒じゃん、俺と。",
+     "en": "He's just like me.",
+     "speaker": "Ryu"
     },
     {
-     "start": 1224.4,
-     "end": 1225.4,
-     "ja": "歌舞伎町に？",
-     "en": "In Kabukicho?",
-     "speaker": "Host 1"
+     "start": 595.3,
+     "end": 596.5,
+     "ja": "え？何が？",
+     "en": "Huh? How?",
+     "speaker": "Shion"
     },
     {
-     "start": 1225.5,
-     "end": 1228.4,
-     "ja": "担当いる人にご飯を奢ってもらって？",
-     "en": "Getting treated to food by someone with a host?",
-     "speaker": "Host 2"
+     "start": 596.5,
+     "end": 598.2,
+     "ja": "全くスタンスが違う。",
+     "en": "Your stance is completely different.",
+     "speaker": "Shion"
+    }
+   ]
+  },
+  {
+   "start": 748.5,
+   "end": 775.5,
+   "title": "He Showed Up with Other Customers",
+   "level": "N3",
+   "topics": [
+    "romance",
+    "comedy",
+    "culture"
+   ],
+   "grammar": [
+    "〜て連れてくる — bring someone along",
+    "〜すぎる — too much / overly"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 748.8,
+     "end": 751.2,
+     "ja": "アフターに被り連れて来られた。",
+     "en": "He brought his other clients to our after-party.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 751.2,
+     "end": 753.5,
+     "ja": "うぜえ！そいつめっちゃうぜえ！",
+     "en": "Annoying! That guy is so annoying!",
+     "speaker": "Ryu"
+    },
+    {
+     "start": 753.5,
+     "end": 755.3,
+     "ja": "何だそいつ。",
+     "en": "What's with that guy?",
+     "speaker": "Shion"
+    },
+    {
+     "start": 755.3,
+     "end": 757.8,
+     "ja": "かっけえな、なんか逆に。",
+     "en": "In a way, that's kind of cool.",
+     "speaker": "Ryu"
+    },
+    {
+     "start": 757.8,
+     "end": 760.0,
+     "ja": "アフターどこ？バー？",
+     "en": "Where was the after-party? A bar?",
+     "speaker": "Shion"
+    },
+    {
+     "start": 760.0,
+     "end": 761.5,
+     "ja": "バーで待っててって言われて、",
+     "en": "He told me to wait at a bar,",
+     "speaker": "Girl"
+    },
+    {
+     "start": 761.5,
+     "end": 764.0,
+     "ja": "２時間後くらいに両腕に被り連れて…",
+     "en": "and two hours later he brought other girls on each arm...",
+     "speaker": "Girl"
+    },
+    {
+     "start": 764.0,
+     "end": 765.8,
+     "ja": "両腕に！？",
+     "en": "On both arms?!",
+     "speaker": "Ryu"
+    },
+    {
+     "start": 765.8,
+     "end": 768.0,
+     "ja": "すげえ！かっけえ！",
+     "en": "Incredible! That's so cool!",
+     "speaker": "Shion"
+    },
+    {
+     "start": 768.0,
+     "end": 770.0,
+     "ja": "カリスマすぎる。",
+     "en": "He's way too charismatic.",
+     "speaker": "Ryu"
+    },
+    {
+     "start": 770.0,
+     "end": 772.0,
+     "ja": "それ何て言うの？一言目。",
+     "en": "What did he say first?",
+     "speaker": "Shion"
+    },
+    {
+     "start": 772.0,
+     "end": 773.6,
+     "ja": "「お待たせ」。",
+     "en": "\"Sorry to keep you waiting.\"",
+     "speaker": "Girl"
+    },
+    {
+     "start": 773.6,
+     "end": 775.2,
+     "ja": "かっけえ！やばすぎだろ！",
+     "en": "So cool! That's insane!",
+     "speaker": "Ryu"
     }
    ]
   }
@@ -243,5 +290,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -2,145 +2,152 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 28.5,
-   "end": 44.0,
-   "title": "The Origin of Gion Matsuri",
+   "start": 28.8,
+   "end": 44.5,
+   "title": "The Origins of Gion Matsuri",
    "level": "N3",
    "topics": [
     "culture",
     "travel"
    ],
    "grammar": [
-    "〜ほど — about / approximately",
-    "〜始める — to begin to do"
+    "〜ほど — approximately",
+    "〜を願って — praying for",
+    "〜始める — begin to do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 28.8,
-     "end": 33.3,
+     "start": 28.9,
+     "end": 33.2,
      "ja": "祇園祭は、今から1150年ほど前、",
-     "en": "The Gion Festival began about 1,150 years ago,",
-     "speaker": "若村亮"
+     "en": "The Gion Matsuri began about 1,150 years ago,",
+     "speaker": "Ryo"
     },
     {
      "start": 33.4,
-     "end": 38.0,
+     "end": 37.8,
      "ja": "平安の初めに全国的に病がはやり、",
-     "en": "in the early Heian period when plagues spread across the country,",
-     "speaker": "若村亮"
+     "en": "at the beginning of the Heian period when plagues spread across the country,",
+     "speaker": "Ryo"
     },
     {
-     "start": 38.1,
-     "end": 43.6,
-     "ja": "その病退散を願って行われ始めた伝統の祭りです。",
-     "en": "as a traditional festival held to pray for warding off disease.",
-     "speaker": "若村亮"
+     "start": 38.2,
+     "end": 42.0,
+     "ja": "その病退散を願って行われ始めた",
+     "en": "and it began as a prayer to ward off disease.",
+     "speaker": "Ryo"
+    },
+    {
+     "start": 42.2,
+     "end": 44.3,
+     "ja": "伝統の祭りです。",
+     "en": "It is a traditional festival.",
+     "speaker": "Ryo"
     }
    ]
   },
   {
-   "start": 114.5,
-   "end": 137.2,
-   "title": "Evolution of the Floats",
+   "start": 145.8,
+   "end": 208.5,
+   "title": "Preparations for the Festival",
    "level": "N3",
    "topics": [
     "culture",
     "travel"
    ],
    "grammar": [
-    "〜ようになる — to reach the point where",
-    "〜と称される — to be referred to as"
+    "〜あたり — around / approximately",
+    "〜ていく — gradual progression"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 114.7,
-     "end": 116.8,
-     "ja": "室町の頃から、",
-     "en": "From around the Muromachi period,",
-     "speaker": "若村亮"
+     "start": 146.0,
+     "end": 148.5,
+     "ja": "7月1日は切符入り。",
+     "en": "July 1st marks Kippu-iri.",
+     "speaker": "Ryo"
     },
     {
-     "start": 116.9,
-     "end": 122.2,
-     "ja": "大きな山や鉾が登場するようになって、更に",
-     "en": "large yama and hoko floats began to appear, and further,",
-     "speaker": "若村亮"
+     "start": 149.0,
+     "end": 155.7,
+     "ja": "祇園祭の無事を願って、各山鉾の町内で神事が執り行われ、",
+     "en": "Rituals are held in each float's neighborhood to pray for a safe festival,",
+     "speaker": "Ryo"
     },
     {
-     "start": 122.3,
-     "end": 127.3,
-     "ja": "その飾りは絢爛豪華に輝くようになりまして、",
-     "en": "their decorations became gorgeously brilliant,",
-     "speaker": "若村亮"
+     "start": 156.0,
+     "end": 159.0,
+     "ja": "7月10日あたりからは前祭を担当する",
+     "en": "and around July 10th, the assembly of the floats",
+     "speaker": "Ryo"
     },
     {
-     "start": 127.4,
-     "end": 134.0,
-     "ja": "現在のような動く美術館と称される山や鉾が巡行する",
-     "en": "and it developed into a grand festival where floats, called 'moving art museums,' parade,",
-     "speaker": "若村亮"
+     "start": 159.3,
+     "end": 204.1,
+     "ja": "山鉾の組み立て、山鉾建てが始まって、町中に",
+     "en": "for the Saki Matsuri begins, and throughout the town,",
+     "speaker": "Ryo"
     },
     {
-     "start": 134.1,
-     "end": 136.9,
-     "ja": "大きな祭りへと発展していきました。",
-     "en": "just as they do today.",
-     "speaker": "若村亮"
+     "start": 204.3,
+     "end": 208.0,
+     "ja": "大きな山や鉾が登場していきます。",
+     "en": "large Yama and Hoko floats start to appear.",
+     "speaker": "Ryo"
     }
    ]
   },
   {
-   "start": 306.6,
-   "end": 328.6,
-   "title": "Purifying the Streets for the Deities",
-   "level": "N3",
+   "start": 209.5,
+   "end": 231.5,
+   "title": "The Grand Procession of Floats",
+   "level": "N2",
    "topics": [
     "culture",
     "travel"
    ],
    "grammar": [
-    "〜にかけて — spanning across / over",
-    "お〜になる — honorific verb form",
-    "〜ということ — it means that"
+    "〜を先頭に — led by / headed by",
+    "〜を祓う — to purify / drive away"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 306.9,
-     "end": 310.8,
-     "ja": "7月17日の山鉾巡行は町を清め、",
-     "en": "The float procession on July 17th purifies the town,",
-     "speaker": "若村亮"
+     "start": 209.8,
+     "end": 212.3,
+     "ja": "そして宵山を迎え、いよいよ",
+     "en": "Then, after the Yoiyama eve, finally",
+     "speaker": "Ryo"
     },
     {
-     "start": 310.9,
-     "end": 316.6,
-     "ja": "その後に、夕方から夜にかけて八坂神社から神輿が出て、",
-     "en": "and afterward, from evening into the night, portable shrines depart Yasaka Shrine,",
-     "speaker": "若村亮"
+     "start": 212.5,
+     "end": 217.3,
+     "ja": "7月17日、前祭山鉾巡行が行われ、",
+     "en": "on July 17th, the Saki Matsuri Yamaboko procession takes place,",
+     "speaker": "Ryo"
     },
     {
-     "start": 316.7,
-     "end": 320.5,
-     "ja": "神様が京都の町にお出ましになります。",
-     "en": "and the deities venture out into the city of Kyoto.",
-     "speaker": "若村亮"
+     "start": 217.7,
+     "end": 219.7,
+     "ja": "長刀鉾を先頭に",
+     "en": "and led by the Naginata-hoko float,",
+     "speaker": "Ryo"
     },
     {
-     "start": 320.6,
-     "end": 324.4,
-     "ja": "そのために山鉾巡行によって京の町を清め、",
-     "en": "For that purpose, the city is purified by the float procession,",
-     "speaker": "若村亮"
+     "start": 220.1,
+     "end": 224.4,
+     "ja": "23基の山鉾が都大路を巡行し、",
+     "en": "23 floats parade through the main avenues of the city,",
+     "speaker": "Ryo"
     },
     {
-     "start": 324.5,
-     "end": 328.0,
-     "ja": "神様をお迎えしているということなんです。",
-     "en": "meaning they are welcoming the deities.",
-     "speaker": "若村亮"
+     "start": 225.0,
+     "end": 230.9,
+     "ja": "町の中の悪い病をもたらす神々を祓い清めます。",
+     "en": "purifying the town by expelling spirits that bring pestilence.",
+     "speaker": "Ryo"
     }
    ]
   }
@@ -149,5 +156,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

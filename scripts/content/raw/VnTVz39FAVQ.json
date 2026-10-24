@@ -2,9 +2,9 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 41.3,
-   "end": 60.2,
-   "title": "How to Buy a Train Ticket",
+   "start": 41.2,
+   "end": 60.6,
+   "title": "How to Buy a Train Ticket in Japan",
    "level": "N5",
    "topics": [
     "travel",
@@ -12,182 +12,198 @@
    ],
    "grammar": [
     "〜てください — please do",
-    "〜ので — because / since"
+    "〜になる — to become / turn into"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 41.5,
-     "end": 45.5,
+     "start": 41.4,
+     "end": 45.3,
      "ja": "券売機の上の路線図で行きたい駅を見てください。",
-     "en": "Please check your destination station on the route map above the ticket machine.",
+     "en": "Look at the station you want to go to on the route map above the ticket machine.",
      "speaker": "Akane"
     },
     {
-     "start": 45.8,
+     "start": 45.6,
      "end": 48.8,
      "ja": "その駅の下の数字を見てください。",
-     "en": "Look at the number below that station.",
+     "en": "Look at the number underneath that station.",
      "speaker": "Akane"
     },
     {
-     "start": 49.0,
-     "end": 51.5,
-     "ja": "この数字が値段になるので、",
-     "en": "This number will be the fare, so",
+     "start": 49.2,
+     "end": 54.0,
+     "ja": "この数字が値段になるので、この数字と同じ値段を選びます。",
+     "en": "This number is the price, so select the button with that same price.",
      "speaker": "Akane"
     },
     {
-     "start": 51.5,
-     "end": 54.6,
-     "ja": "この数字と同じ値段を選びます。",
-     "en": "select the same price as this number.",
-     "speaker": "Akane"
-    },
-    {
-     "start": 55.2,
+     "start": 54.8,
      "end": 57.2,
      "ja": "お金を投入します。",
-     "en": "Insert the money.",
+     "en": "Insert your money.",
      "speaker": "Akane"
     },
     {
-     "start": 57.5,
-     "end": 59.8,
+     "start": 57.6,
+     "end": 60.2,
      "ja": "投入は「入れる」の意味です。",
-     "en": "'Tōnyū' means 'to put in'.",
+     "en": "\"Tōnyū\" means to insert.",
      "speaker": "Akane"
     }
    ]
   },
   {
-   "start": 138.5,
-   "end": 155.8,
-   "title": "Vocabulary on the Train",
-   "level": "N4",
-   "topics": [
-    "travel",
-    "daily"
-   ],
-   "grammar": [
-    "〜と言います — is called",
-    "お〜ください — respectful request"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 139.0,
-     "end": 142.5,
-     "ja": "この黒いのは吊り革と言います。",
-     "en": "This black handle is called a 'tsurikawa' (hanging strap).",
-     "speaker": "Akane"
-    },
-    {
-     "start": 142.6,
-     "end": 144.0,
-     "ja": "吊り革。",
-     "en": "Tsurikawa.",
-     "speaker": "Akane"
-    },
-    {
-     "start": 144.3,
-     "end": 148.4,
-     "ja": "そしてこちらの棒は手すりと言います。",
-     "en": "And this bar is called a 'tesuri' (handrail).",
-     "speaker": "Akane"
-    },
-    {
-     "start": 148.8,
-     "end": 150.0,
-     "ja": "よくアナウンスで、",
-     "en": "You often hear in train announcements,",
-     "speaker": "Akane"
-    },
-    {
-     "start": 150.0,
-     "end": 155.5,
-     "ja": "「吊り革や手すりにおつかまりください」と聞きます。",
-     "en": "'Please hold on to the straps or handrails.'",
-     "speaker": "Akane"
-    }
-   ]
-  },
-  {
-   "start": 821.0,
-   "end": 840.8,
-   "title": "Ordering a Pudding Set at a Cafe",
+   "start": 440.5,
+   "end": 466.0,
+   "title": "Eating Ramen and Explaining Utensils",
    "level": "N5",
    "topics": [
     "food",
-    "daily"
+    "daily",
+    "culture"
    ],
    "grammar": [
-    "〜でお願いします — please give me ~",
-    "どちらになさいますか — which would you like (polite)"
+    "名詞＋で — means/tool particle",
+    "〜てます — ongoing state (contraction of 〜ています)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 821.2,
-     "end": 822.8,
+     "start": 440.8,
+     "end": 443.2,
+     "ja": "これは割り箸です。",
+     "en": "These are disposable chopsticks.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 443.5,
+     "end": 445.7,
+     "ja": "割り箸。割り箸。",
+     "en": "Waribashi. Waribashi.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 446.5,
+     "end": 449.5,
+     "ja": "割り箸でラーメンを食べます。",
+     "en": "You eat ramen with disposable chopsticks.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 449.8,
+     "end": 453.2,
+     "ja": "この「で」は〜を使ってですね。",
+     "en": "This \"de\" means \"using something,\" right?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 453.3,
+     "end": 457.5,
+     "ja": "例えば、フォークで食べます、スプーンで飲みます。",
+     "en": "For example, eat with a fork, drink with a spoon.",
+     "speaker": "Akane"
+    },
+    {
+     "start": 457.8,
+     "end": 459.0,
+     "ja": "いただきます。",
+     "en": "Let's eat!",
+     "speaker": "Akane"
+    },
+    {
+     "start": 460.0,
+     "end": 461.3,
+     "ja": "おいしい！",
+     "en": "Delicious!",
+     "speaker": "Akane"
+    },
+    {
+     "start": 461.5,
+     "end": 463.3,
+     "ja": "これ、よくラーメンに入ってますね。",
+     "en": "This is often in ramen, isn't it?",
+     "speaker": "Akane"
+    },
+    {
+     "start": 463.7,
+     "end": 465.6,
+     "ja": "これはメンマです。メンマ。",
+     "en": "This is menma. Menma.",
+     "speaker": "Akane"
+    }
+   ]
+  },
+  {
+   "start": 501.0,
+   "end": 521.0,
+   "title": "Ordering a Set at a Retro Cafe",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜でお願いします — ...please (ordering)",
+    "どちらになさいますか — which would you like (honorific)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 501.3,
+     "end": 502.5,
      "ja": "はい、お願いします。",
-     "en": "Yes, I'm ready to order.",
+     "en": "Yes, please.",
      "speaker": "Akane"
     },
     {
-     "start": 823.2,
-     "end": 825.8,
-     "ja": "プリンのドリンクセットで、",
-     "en": "With the pudding drink set,",
+     "start": 503.0,
+     "end": 508.5,
+     "ja": "えっと、プリンのドリンクセットで、カフェオレでお願いします。",
+     "en": "Um, I'd like the pudding drink set with a café au lait, please.",
      "speaker": "Akane"
     },
     {
-     "start": 826.5,
-     "end": 828.8,
-     "ja": "カフェオレでお願いします。",
-     "en": "I'd like a café au lait, please.",
-     "speaker": "Akane"
-    },
-    {
-     "start": 829.0,
-     "end": 831.5,
+     "start": 509.0,
+     "end": 511.9,
      "ja": "カフェオレ、ホットとアイスどちらになさいますか？",
-     "en": "For the café au lait, would you like hot or iced?",
-     "speaker": "Clerk"
+     "en": "For the café au lait, would you like it hot or iced?",
+     "speaker": "Staff"
     },
     {
-     "start": 831.8,
-     "end": 833.6,
+     "start": 512.0,
+     "end": 513.7,
      "ja": "ホットでお願いします。",
      "en": "Hot, please.",
      "speaker": "Akane"
     },
     {
-     "start": 834.0,
-     "end": 837.0,
-     "ja": "プリンとホットオレのセットがおひとつでおまちがいないですか？",
-     "en": "Just to confirm, that's one pudding and hot café au lait set?",
-     "speaker": "Clerk"
+     "start": 514.0,
+     "end": 517.0,
+     "ja": "プリンとホットオレのセットがおひとつでお間違いがないですか？",
+     "en": "One pudding and hot café au lait set, is that correct?",
+     "speaker": "Staff"
     },
     {
-     "start": 837.1,
-     "end": 837.7,
+     "start": 517.0,
+     "end": 517.7,
      "ja": "はい。",
      "en": "Yes.",
      "speaker": "Akane"
     },
     {
-     "start": 838.0,
-     "end": 840.2,
-     "ja": "950円先払いになります。",
-     "en": "That will be 950 yen paid upfront.",
-     "speaker": "Clerk"
+     "start": 517.8,
+     "end": 520.2,
+     "ja": "950円、先払いになります。",
+     "en": "That'll be 950 yen, payable in advance.",
+     "speaker": "Staff"
     },
     {
-     "start": 840.2,
-     "end": 840.7,
+     "start": 520.2,
+     "end": 520.8,
      "ja": "はい。",
-     "en": "Sure.",
+     "en": "Okay.",
      "speaker": "Akane"
     }
    ]
@@ -197,5 +213,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

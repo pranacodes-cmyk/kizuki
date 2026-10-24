@@ -4,57 +4,50 @@
   {
    "start": 3.5,
    "end": 18.5,
-   "title": "A Boy on Every Checkout Card",
+   "title": "Whisper of the Heart",
    "level": "N4",
    "topics": [
     "anime",
-    "school",
-    "romance"
+    "romance",
+    "school"
    ],
    "grammar": [
-    "〜より先に — ahead of / before",
+    "〜より — compared to",
     "〜たい — want to do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 3.7,
+     "start": 3.8,
      "end": 5.1,
-     "ja": "天沢聖司…",
-     "en": "Seiji Amasawa...",
+     "ja": "天沢聖司。",
+     "en": "Seiji Amasawa.",
      "speaker": "Shizuku"
     },
     {
-     "start": 5.2,
-     "end": 7.0,
+     "start": 5.1,
+     "end": 7.1,
      "ja": "みんな私より先に借りてる。",
-     "en": "He checked out all of them before me.",
+     "en": "He's checked out every single book before me.",
      "speaker": "Shizuku"
     },
     {
-     "start": 7.1,
-     "end": 10.8,
-     "ja": "雫にもようやく、春が来たんですねー。",
-     "en": "Spring has finally arrived for Shizuku, huh?",
+     "start": 7.2,
+     "end": 10.5,
+     "ja": "雫にもようやく春が来たんですね。",
+     "en": "Spring has finally come for Shizuku, too, hasn't it?",
      "speaker": "Friend"
     },
     {
-     "start": 11.2,
-     "end": 13.2,
-     "ja": "月島、ちょっといいかな？",
-     "en": "Tsukishima, got a minute?",
-     "speaker": "Seiji"
+     "start": 11.3,
+     "end": 13.8,
+     "ja": "月島、ちょっといいかな。",
+     "en": "Tsukishima, you got a second?",
+     "speaker": "Sugimura"
     },
     {
-     "start": 13.3,
-     "end": 14.5,
-     "ja": "えっ？",
-     "en": "Huh?",
-     "speaker": "Shizuku"
-    },
-    {
-     "start": 15.0,
-     "end": 18.0,
+     "start": 15.3,
+     "end": 18.2,
      "ja": "俺さ、バイオリン作りになりたいんだ。",
      "en": "You know, I want to become a violin maker.",
      "speaker": "Seiji"
@@ -63,9 +56,9 @@
   },
   {
    "start": 44.8,
-   "end": 58.2,
-   "title": "Summer at the Old Estate",
-   "level": "N4",
+   "end": 57.6,
+   "title": "Summer at the Old Mansion",
+   "level": "N3",
    "topics": [
     "anime",
     "daily",
@@ -73,68 +66,62 @@
    ],
    "grammar": [
     "〜だけ — only / just",
-    "〜って — hearsay / quotation"
+    "〜ていた — past progressive",
+    "〜って — quoting / hearsay"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 45.3,
-     "end": 51.5,
-     "ja": "僕はあの年の夏、母の育った古い屋敷で、一週間だけ過ごした。",
-     "en": "That summer, I spent just one week at the old estate where my mother grew up.",
+     "start": 45.1,
+     "end": 51.3,
+     "ja": "僕はあの年の夏、母の育った古い屋敷で、１週間だけ過ごした。",
+     "en": "That summer, I spent just one week at the old mansion where my mother grew up.",
      "speaker": "Sho"
     },
     {
-     "start": 51.8,
-     "end": 57.8,
+     "start": 51.5,
+     "end": 57.2,
      "ja": "母が言っていたんだ。この家の庭で、小人を見たって。",
-     "en": "My mother used to say she saw a borrower in this garden.",
+     "en": "My mother used to say she saw a tiny person in the garden of this house.",
      "speaker": "Sho"
     }
    ]
   },
   {
-   "start": 101.5,
-   "end": 113.6,
-   "title": "Life of a Borrower",
+   "start": 109.5,
+   "end": 120.8,
+   "title": "Borrowers Must Never Be Seen",
    "level": "N3",
    "topics": [
     "anime",
-    "daily"
+    "romance"
    ],
    "grammar": [
-    "〜ように — so that / in order to",
-    "〜てくる — do and return / ongoing habit",
-    "〜てきた — have been doing up to now"
+    "〜という — called / named",
+    "〜てはいけない — must not",
+    "〜たらと思う — wish that / hope that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 101.8,
-     "end": 106.3,
-     "ja": "人間の家から気づかれないように、少しずつ必要なものを借りてくるの。",
-     "en": "We borrow what we need little by little from human houses without being noticed.",
-     "speaker": "Arrietty"
-    },
-    {
-     "start": 106.5,
-     "end": 109.8,
-     "ja": "お父さんのおじいちゃんの頃から、そうやって暮らしてきたわ。",
-     "en": "We've lived like that ever since my father's grandfather's time.",
-     "speaker": "Arrietty"
-    },
-    {
-     "start": 110.0,
-     "end": 111.8,
-     "ja": "僕、翔って言うんだ。",
-     "en": "I'm Sho.",
+     "start": 109.7,
+     "end": 113.3,
+     "ja": "僕、翔っていうんだ。君の名前は？",
+     "en": "I'm Sho. What's your name?",
      "speaker": "Sho"
     },
     {
-     "start": 112.0,
-     "end": 113.3,
-     "ja": "君の名前は？",
-     "en": "What's your name?",
+     "start": 113.5,
+     "end": 116.8,
+     "ja": "借りぐらしは人間に見つかっちゃいけないの。",
+     "en": "Borrowers must never be seen by humans.",
+     "speaker": "Arrietty"
+    },
+    {
+     "start": 117.0,
+     "end": 120.7,
+     "ja": "君を見たとき、守ってあげられたらと思ったんだけど。",
+     "en": "When I saw you, I thought I could protect you, but...",
      "speaker": "Sho"
     }
    ]
@@ -144,5 +131,6 @@
  "pickTopics": [
   "anime"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -1,0 +1,19 @@
+{
+ "videoId": "q3-_7tao9oQ",
+ "ids": [
+  "q3-_7tao9oQ-724"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "q3-_7tao9oQ-724": {
+   "id": "q3-_7tao9oQ-724",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Helpful store phrase explanation with clear speech and useful graphic."
+  }
+ }
+}

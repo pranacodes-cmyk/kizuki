@@ -1,0 +1,30 @@
+{
+ "videoId": "JCxLJmrTKGw",
+ "ids": [
+  "JCxLJmrTKGw-12",
+  "JCxLJmrTKGw-387"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "JCxLJmrTKGw-387": {
+   "id": "JCxLJmrTKGw-387",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Engaging visual demonstration of a hair clip with natural casual Japanese."
+  },
+  "JCxLJmrTKGw-12": {
+   "id": "JCxLJmrTKGw-12",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Relatable shopping haul discussion with clear speech and visible receipt numbers."
+  }
+ }
+}

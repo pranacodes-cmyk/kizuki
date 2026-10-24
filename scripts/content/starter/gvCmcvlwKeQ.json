@@ -1,0 +1,19 @@
+{
+ "videoId": "gvCmcvlwKeQ",
+ "ids": [
+  "gvCmcvlwKeQ-1369"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "gvCmcvlwKeQ-1369": {
+   "id": "gvCmcvlwKeQ-1369",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Pleasant dining scene with clear, simple conversational Japanese phrases."
+  }
+ }
+}

@@ -2,191 +2,221 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 515.9,
-   "end": 529.7,
-   "title": "Watching a Child Grow Up",
+   "start": 316.2,
+   "end": 328.3,
+   "title": "A Parent's Joy and Reality",
    "level": "N3",
    "topics": [
     "family",
     "daily"
    ],
    "grammar": [
-    "〜ようになる — to reach the point where",
-    "〜ごとに — every time / each"
+    "〜ようになる — to come to be able to",
+    "〜ごとに — with each / every time"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 516.2,
-     "end": 519.2,
-     "ja": "娘がずりばいできるようになったんですよね。",
-     "en": "My daughter has become able to crawl on her belly.",
-     "speaker": "Yuumogu"
+     "start": 316.3,
+     "end": 318.9,
+     "ja": "娘がずり這いできるようになったんですよね。",
+     "en": "My daughter learned how to crawl on her belly.",
+     "speaker": "Host"
     },
     {
-     "start": 519.3,
-     "end": 521.1,
-     "ja": "可愛いなあ。",
-     "en": "So cute.",
-     "speaker": "Yuumogu"
+     "start": 318.9,
+     "end": 320.1,
+     "ja": "可愛いな！",
+     "en": "So cute!",
+     "speaker": "Host"
     },
     {
-     "start": 521.2,
-     "end": 522.9,
-     "ja": "でも目離せないんだ。",
-     "en": "Though I can't take my eyes off her.",
-     "speaker": "Yuumogu"
+     "start": 320.1,
+     "end": 321.7,
+     "ja": "でも、目離せないんだ！",
+     "en": "But I can't take my eyes off her!",
+     "speaker": "Host"
     },
     {
-     "start": 523.0,
-     "end": 524.3,
-     "ja": "結構子どもあるあるなのが、",
-     "en": "A common thing with kids is,",
-     "speaker": "Yuumogu"
+     "start": 321.7,
+     "end": 323.7,
+     "ja": "結構、子供あるあるなのが、",
+     "en": "A classic thing with kids is,",
+     "speaker": "Host"
     },
     {
-     "start": 524.3,
-     "end": 526.4,
+     "start": 323.7,
+     "end": 325.9,
      "ja": "成長すんのはめちゃくちゃ嬉しいんだけど、",
-     "en": "while I'm super happy that she's growing,",
-     "speaker": "Yuumogu"
+     "en": "you're super happy that they're growing,",
+     "speaker": "Host"
     },
     {
-     "start": 526.4,
-     "end": 529.2,
+     "start": 325.9,
+     "end": 328.1,
      "ja": "成長するごとに親がやることが増えます。",
-     "en": "each time she grows, there's more work for the parents.",
-     "speaker": "Yuumogu"
+     "en": "but with every bit of growth, there's more for the parents to do.",
+     "speaker": "Host"
     }
    ]
   },
   {
-   "start": 896.7,
-   "end": 913.0,
-   "title": "Tasting Lady Borden Nutty Lovers",
+   "start": 537.0,
+   "end": 553.0,
+   "title": "Blown Away by Lady Borden Ice Cream",
    "level": "N3",
    "topics": [
-    "food"
+    "food",
+    "fun"
    ],
    "grammar": [
-    "〜より — rather than / instead of",
-    "〜っぽい — -ish / like"
+    "〜より — rather than",
+    "〜っぽい — like / -ish"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 897.0,
-     "end": 898.3,
+     "start": 537.2,
+     "end": 538.1,
      "ja": "神やん！",
-     "en": "This is divine!",
-     "speaker": "Yuumogu"
+     "en": "It's divine!",
+     "speaker": "Host"
     },
     {
-     "start": 898.3,
-     "end": 900.2,
+     "start": 538.1,
+     "end": 539.6,
      "ja": "めちゃくちゃ美味しいんだけど！",
-     "en": "It's so delicious!",
-     "speaker": "Yuumogu"
+     "en": "This is ridiculously delicious!",
+     "speaker": "Host"
     },
     {
-     "start": 900.2,
-     "end": 903.0,
-     "ja": "今出てるコンビニ ice で一番好き！",
+     "start": 539.6,
+     "end": 540.6,
+     "ja": "何これ？",
+     "en": "What is this?",
+     "speaker": "Host"
+    },
+    {
+     "start": 540.6,
+     "end": 542.4,
+     "ja": "今出てるコンビニ・アイスで一番好き！",
      "en": "This is my favorite convenience store ice cream out right now!",
-     "speaker": "Yuumogu"
+     "speaker": "Host"
     },
     {
-     "start": 903.0,
-     "end": 905.0,
+     "start": 542.4,
+     "end": 543.2,
+     "ja": "あのね、",
+     "en": "You know,",
+     "speaker": "Host"
+    },
+    {
+     "start": 543.2,
+     "end": 545.1,
      "ja": "ナッツが入ってるどうこうっていうより、",
-     "en": "Rather than whether there are nuts inside,",
-     "speaker": "Yuumogu"
+     "en": "more than just having nuts or whatever,",
+     "speaker": "Host"
     },
     {
-     "start": 905.0,
-     "end": 906.9,
+     "start": 545.1,
+     "end": 546.8,
      "ja": "アイス自体めっちゃ美味しいわ！",
-     "en": "the ice cream itself is super delicious!",
-     "speaker": "Yuumogu"
+     "en": "the ice cream itself is so good!",
+     "speaker": "Host"
     },
     {
-     "start": 907.0,
-     "end": 908.6,
-     "ja": "ヘーゼルナッツアイスっぽい！",
-     "en": "It tastes like hazelnut ice cream!",
-     "speaker": "Yuumogu"
+     "start": 546.8,
+     "end": 548.3,
+     "ja": "ヘーゼルナッツ・アイスっぽい！",
+     "en": "It's like hazelnut ice cream!",
+     "speaker": "Host"
     },
     {
-     "start": 908.6,
-     "end": 910.1,
-     "ja": "で、ナッツの味もするし、",
-     "en": "And you can taste the nuts too,",
-     "speaker": "Yuumogu"
+     "start": 548.3,
+     "end": 551.2,
+     "ja": "で、ナッツの味もするし、確かに香ばしい感じもする！",
+     "en": "And you taste the nuts, and it definitely feels fragrant!",
+     "speaker": "Host"
     },
     {
-     "start": 910.1,
-     "end": 912.5,
-     "ja": "確かに香ばしい感じもする！",
-     "en": "and it definitely has that roasted aroma!",
-     "speaker": "Yuumogu"
+     "start": 551.2,
+     "end": 552.7,
+     "ja": "香りもいいわ！",
+     "en": "The aroma is great, too!",
+     "speaker": "Host"
     }
    ]
   },
   {
-   "start": 1113.8,
-   "end": 1128.5,
-   "title": "Frozen Shirokuma Warabimochi Review",
+   "start": 632.1,
+   "end": 651.1,
+   "title": "Uncovering the Core of Shirokuma Ice",
    "level": "N3",
    "topics": [
-    "food"
+    "food",
+    "fun"
    ],
    "grammar": [
-    "〜てた — was doing (casual 〜ていた)",
-    "〜てくる — start to / come to be"
+    "〜たら — when / after",
+    "〜てくる — begin to / come to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1114.7,
-     "end": 1116.5,
-     "ja": "柔らか！",
-     "en": "It's so soft!",
-     "speaker": "Yuumogu"
+     "start": 632.4,
+     "end": 633.8,
+     "ja": "美味しい！",
+     "en": "Delicious!",
+     "speaker": "Host"
     },
     {
-     "start": 1116.5,
-     "end": 1118.2,
-     "ja": "これ、冷凍されてたの？",
-     "en": "Was this really frozen?",
-     "speaker": "Yuumogu"
+     "start": 633.8,
+     "end": 635.4,
+     "ja": "めちゃくちゃ美味しいぞ！",
+     "en": "This is insanely good!",
+     "speaker": "Host"
     },
     {
-     "start": 1118.6,
-     "end": 1120.3,
-     "ja": "いや、ちょっと待って。ここ見せたいな。",
-     "en": "Wait a second. I want to show you this part.",
-     "speaker": "Yuumogu"
+     "start": 635.4,
+     "end": 637.2,
+     "ja": "めっちゃきな粉の味するやん！",
+     "en": "It tastes so much like roasted soybean flour!",
+     "speaker": "Host"
     },
     {
-     "start": 1120.4,
-     "end": 1122.9,
-     "ja": "こんな感じで溢れ出てきてるんですよ。",
-     "en": "It's overflowing like this.",
-     "speaker": "Yuumogu"
+     "start": 641.5,
+     "end": 642.4,
+     "ja": "でね、",
+     "en": "And you know,",
+     "speaker": "Host"
     },
     {
-     "start": 1123.0,
-     "end": 1125.0,
-     "ja": "わらび餅、超美味しい！",
-     "en": "The warabimochi is super delicious!",
-     "speaker": "Yuumogu"
+     "start": 642.4,
+     "end": 644.2,
+     "ja": "今、中まで結構ほじくったら、",
+     "en": "just now when I dug deep into the center,",
+     "speaker": "Host"
     },
     {
-     "start": 1125.0,
-     "end": 1128.0,
-     "ja": "とろける感じじゃなくて、しっかり弾力はあるんだけど、",
-     "en": "It's not melting, it has a good chew to it, but",
-     "speaker": "Yuumogu"
+     "start": 644.2,
+     "end": 646.8,
+     "ja": "真ん中から練乳ソースがトローッてしてきた！",
+     "en": "the condensed milk sauce came oozing out from the middle!",
+     "speaker": "Host"
+    },
+    {
+     "start": 646.8,
+     "end": 649.0,
+     "ja": "でも練乳だけじゃなくて、これ黒蜜かな？",
+     "en": "But not just condensed milk—is this black honey?",
+     "speaker": "Host"
+    },
+    {
+     "start": 649.0,
+     "end": 650.8,
+     "ja": "黒蜜ソースも入ってるっぽい！",
+     "en": "It seems like there's brown sugar syrup in it, too!",
+     "speaker": "Host"
     }
    ]
   }
@@ -195,5 +225,6 @@
  "pickTopics": [
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

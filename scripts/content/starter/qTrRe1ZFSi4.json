@@ -1,0 +1,19 @@
+{
+ "videoId": "qTrRe1ZFSi4",
+ "ids": [
+  "qTrRe1ZFSi4-67"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "qTrRe1ZFSi4-67": {
+   "id": "qTrRe1ZFSi4-67",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear narration about travel times accompanied by transit footage."
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "videoId": "m4Dt_mIck5w",
+ "ids": [
+  "m4Dt_mIck5w-1",
+  "m4Dt_mIck5w-740"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "m4Dt_mIck5w-1": {
+   "id": "m4Dt_mIck5w-1",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Relatable casual morning vlog opening with natural conversational tone."
+  },
+  "m4Dt_mIck5w-740": {
+   "id": "m4Dt_mIck5w-740",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear question about daily school routines spoken directly to the viewer."
+  }
+ }
+}

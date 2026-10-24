@@ -1,0 +1,30 @@
+{
+ "videoId": "i6d3K6ln-d4",
+ "ids": [
+  "i6d3K6ln-d4-36",
+  "i6d3K6ln-d4-6"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "i6d3K6ln-d4-6": {
+   "id": "i6d3K6ln-d4-6",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Cute animation with simple, relatable vocabulary and clear speech."
+  },
+  "i6d3K6ln-d4-36": {
+   "id": "i6d3K6ln-d4-36",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Funny interaction with repeated Sphinx loanword, easy to follow."
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "videoId": "xWd33E2f7to",
+ "ids": [
+  "xWd33E2f7to-197",
+  "xWd33E2f7to-503"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "xWd33E2f7to-197": {
+   "id": "xWd33E2f7to-197",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute cat interaction featuring simple, gentle, repetitive phrases for beginners."
+  },
+  "xWd33E2f7to-503": {
+   "id": "xWd33E2f7to-503",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Engaging pet scene with natural, everyday casual Japanese speech."
+  }
+ }
+}

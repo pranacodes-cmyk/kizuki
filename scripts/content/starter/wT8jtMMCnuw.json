@@ -1,0 +1,30 @@
+{
+ "videoId": "wT8jtMMCnuw",
+ "ids": [
+  "wT8jtMMCnuw-49",
+  "wT8jtMMCnuw-7"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "wT8jtMMCnuw-7": {
+   "id": "wT8jtMMCnuw-7",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Basic conversational Japanese spoken slowly in an understandable classroom roleplay."
+  },
+  "wT8jtMMCnuw-49": {
+   "id": "wT8jtMMCnuw-49",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Practical restaurant greeting vocabulary that beginners can easily recognize and follow."
+  }
+ }
+}

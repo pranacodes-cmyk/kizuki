@@ -24,7 +24,7 @@ export const FOLLOW_PAUSE_MS = 4000;
 const fmt = (s: number) => `${Math.floor(Math.max(0, s) / 60)}:${String(Math.floor(Math.max(0, s) % 60)).padStart(2, "0")}`;
 
 /** One clip: official YouTube player + controls + interactive transcript + word card. */
-export function ClipView({ clip, content, active, bottomInset = 96, tourTargets = false, inFeed = false }: { clip: Clip; content: Content; active: boolean; bottomInset?: number; /** Only the feed's active clip carries the welcome-tour spotlight targets. */ tourTargets?: boolean; /** Feed: a vertical swipe ANYWHERE changes clips (TikTok rule), so the transcript never takes drags — it only follows the spoken line. The stand-alone clip page scrolls freely. */ inFeed?: boolean }) {
+export function ClipView({ clip, content, active, warm = false, bottomInset = 96, tourTargets = false, inFeed = false }: { clip: Clip; content: Content; active: boolean; /** The next clip in the feed: its player loads and cues ahead of the swipe (never plays). */ warm?: boolean; bottomInset?: number; /** Only the feed's active clip carries the welcome-tour spotlight targets. */ tourTargets?: boolean; /** Feed: a vertical swipe ANYWHERE changes clips (TikTok rule), so the transcript never takes drags — it only follows the spoken line. The stand-alone clip page scrolls freely. */ inFeed?: boolean }) {
   const player = useRef<ClipPlayerHandle>(null);
   const scroller = useRef<HTMLDivElement>(null);
   const [time, setTime] = useState(clip.start);
@@ -101,13 +101,29 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
   // A manual transcript scroll pauses auto-follow for a moment (clip page only).
   const markUserScroll = () => { userScrollAt.current = Date.now(); };
 
-  // Welcome tour: hold the clip still while it asks you to tap a word in it.
+  // Welcome tour: hold the clip still while it asks you to tap a word in it, with that word's
+  // line in view (a word scrolled out of the transcript can't be spotlit).
   const tourStepId = useTour((s) => (s.index == null ? null : s.index));
   const tourOn = active && tourTargets;
   useEffect(() => {
     if (!tourOn || tourStepId == null) return;
-    if (TOUR_STEPS[tourStepId]?.id === "tapWord") player.current?.pause();
+    if (TOUR_STEPS[tourStepId]?.id !== "tapWord") return;
+    player.current?.pause();
+    const id = requestAnimationFrame(() => {
+      const box = scroller.current;
+      const line = box?.querySelector<HTMLElement>('[data-tour="word"]')?.closest<HTMLElement>("[data-line]");
+      if (box && line) box.scrollTo({ top: Math.max(0, line.offsetTop - box.clientHeight * 0.25), behavior: "smooth" });
+    });
+    return () => cancelAnimationFrame(id);
   }, [tourOn, tourStepId]);
+  // The tour's "Back to the video" closes the word card (and its Ask Kizuki) for the learner.
+  const closeSignal = useTour((s) => s.closeSignal);
+  const seenClose = useRef(closeSignal);
+  useEffect(() => {
+    if (closeSignal === seenClose.current) return;
+    seenClose.current = closeSignal;
+    setCardOpen(false);
+  }, [closeSignal]);
 
   const statusOf = useCallback((w: Word): TokenStatus => tokenStatus({ words } as never, wordKeyOf(w.d, w.b || w.s)), [words]);
   const levelOf = useCallback((w: Word) => tokenLevel({ words } as never, wordKeyOf(w.d, w.b || w.s)), [words]);
@@ -165,6 +181,7 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
         ref={player}
         clip={clip}
         active={active}
+        warm={warm}
         rate={rate}
         onTime={onTime}
         onPlayingChange={setPlaying}
@@ -174,7 +191,7 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
       </div>
       <div className="h-[3px] w-full bg-surface-2"><div className="h-full bg-primary transition-[width] duration-100" style={{ width: `${(rel / dur) * 100}%` }} /></div>
 
-      <div data-tour={tour("controls")} className="flex items-center gap-1 px-2 pt-1.5">
+      <div className="flex items-center gap-1 px-2 pt-1.5">
         <button aria-label={playing ? "Pause" : "Play"} onClick={() => player.current?.toggle()} className="press flex h-10 w-10 items-center justify-center rounded-full">
           {playing ? <Pause className="h-5 w-5 fill-current" /> : <Play className="h-5 w-5 fill-current" />}
         </button>
@@ -184,7 +201,7 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
         <button aria-label="Loop line" onClick={() => setLoopLine(loopLine != null ? null : Math.max(0, current))} className={cn("press flex h-10 w-10 items-center justify-center rounded-full", loopLine != null ? "text-primary" : "text-muted-foreground")}><Repeat1 className="h-[18px] w-[18px]" /></button>
         <button aria-label="Playback speed" onClick={() => setRate(SPEEDS[(SPEEDS.indexOf(rate as 1) + 1) % SPEEDS.length] ?? 1)} className={cn("press h-8 min-w-11 rounded-full px-2 text-[0.8125rem] font-black tabular", rate !== 1 ? "bg-primary/15 text-primary" : "text-muted-foreground")}>{rate}×</button>
         <button aria-label={savedClip ? "Unsave clip" : "Save clip"} onClick={() => { useApp.getState().toggleSavedClip(clip.id); if (!savedClip) haptic("light"); if (!savedClip) toast({ icon: "🔖", title: "Clip saved", description: "Find it in Profile → Saved" }); }} className={cn("press flex h-10 w-10 items-center justify-center rounded-full", savedClip ? "text-primary" : "text-muted-foreground")}><Bookmark className={cn("h-[18px] w-[18px]", savedClip && "fill-current")} /></button>
-        {/* "Aa", like the Display sheet's name (the welcome tour points at it by that name). */}
+        {/* "Aa", like the Display sheet's name. */}
         <button aria-label="Display options" onClick={() => setDisplay(true)} className="press flex h-10 w-10 items-center justify-center rounded-full text-[0.9375rem] font-black text-muted-foreground">Aa</button>
       </div>
 
@@ -198,9 +215,7 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
             {video.channel} · Watch on YouTube
           </a>
         )}
-        <div data-tour={tour("transcript")}>
         <Transcript clip={clip} time={time} settings={settings} statusOf={statusOf} levelOf={levelOf} selected={cardOpen ? sel : null} onWord={onWord} onLine={seekLine} onLineMenu={(li) => { setMenuLine(li); setMenuOpen(true); }} tourWord={tourWord} />
-        </div>
         {unknown.length > 0 && (
           <div className="px-4 pb-4">
             <button

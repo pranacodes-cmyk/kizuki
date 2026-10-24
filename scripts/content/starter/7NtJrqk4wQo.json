@@ -1,0 +1,30 @@
+{
+ "videoId": "7NtJrqk4wQo",
+ "ids": [
+  "7NtJrqk4wQo-206",
+  "7NtJrqk4wQo-245"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "7NtJrqk4wQo-206": {
+   "id": "7NtJrqk4wQo-206",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Friendly street interview with simple, relatable vocabulary and helpful captions."
+  },
+  "7NtJrqk4wQo-245": {
+   "id": "7NtJrqk4wQo-245",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Lively street discussion about hair, though slightly fast and casual."
+  }
+ }
+}

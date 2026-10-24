@@ -1,0 +1,19 @@
+{
+ "videoId": "VVuEKeOHr14",
+ "ids": [
+  "VVuEKeOHr14-11"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "VVuEKeOHr14-11": {
+   "id": "VVuEKeOHr14-11",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear everyday food vocabulary and natural narration at an accessible pace."
+  }
+ }
+}

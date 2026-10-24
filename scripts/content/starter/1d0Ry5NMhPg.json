@@ -1,0 +1,19 @@
+{
+ "videoId": "1d0Ry5NMhPg",
+ "ids": [
+  "1d0Ry5NMhPg-73"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "1d0Ry5NMhPg-73": {
+   "id": "1d0Ry5NMhPg-73",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Lively dialogue in a car about promoting the channel to youth."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "5WOH6-ibcMU",
+ "ids": [
+  "5WOH6-ibcMU-375"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "5WOH6-ibcMU-375": {
+   "id": "5WOH6-ibcMU-375",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear demonstration of buying milk with slow, accessible Japanese speech."
+  }
+ }
+}

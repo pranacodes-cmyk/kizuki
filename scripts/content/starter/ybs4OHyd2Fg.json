@@ -1,0 +1,30 @@
+{
+ "videoId": "ybs4OHyd2Fg",
+ "ids": [
+  "ybs4OHyd2Fg-125",
+  "ybs4OHyd2Fg-278"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "ybs4OHyd2Fg-278": {
+   "id": "ybs4OHyd2Fg-278",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear beginner restaurant phrase, but static slide visual."
+  },
+  "ybs4OHyd2Fg-125": {
+   "id": "ybs4OHyd2Fg-125",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Useful direction inquiry phrase with clear speech, static visual."
+  }
+ }
+}

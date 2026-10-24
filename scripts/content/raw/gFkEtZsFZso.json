@@ -2,60 +2,66 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 7.2,
-   "end": 32.8,
-   "title": "A Divine Mission for the Chojin",
+   "start": 7.0,
+   "end": 33.3,
+   "title": "The Purpose of the Chojin",
    "level": "N1",
    "topics": [
     "anime"
    ],
    "grammar": [
     "何ゆえ — why / for what reason",
-    "〜ため — in order to / for the sake of",
-    "〜しもの — that which was (classical past/perfective)"
+    "〜ために — in order to"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 7.2,
-     "end": 10.5,
+     "end": 10.0,
      "ja": "全宇宙の超人たちよ。",
      "en": "Chojin of the entire universe.",
      "speaker": "Narrator"
     },
     {
-     "start": 10.8,
-     "end": 16.5,
-     "ja": "お前たちは何ゆえ、比類なき力と戦闘能力を身につけ、",
-     "en": "Do you know why you were endowed with peerless strength and combat abilities,",
+     "start": 10.6,
+     "end": 15.5,
+     "ja": "お前たちは何ゆえ比類なき力と戦闘能力を身につけ、",
+     "en": "Do you understand why you were endowed with peerless strength and combat ability,",
      "speaker": "Narrator"
     },
     {
-     "start": 16.7,
-     "end": 20.8,
+     "start": 16.2,
+     "end": 19.8,
      "ja": "この世に生を受けたか分かっているか。",
-     "en": "and given life in this world?",
+     "en": "and brought into this world?",
      "speaker": "Narrator"
     },
     {
-     "start": 21.2,
-     "end": 25.5,
+     "start": 20.7,
+     "end": 24.3,
      "ja": "それは、その力を宇宙の平和のため、",
-     "en": "It is because that power, for the sake of universal peace,",
+     "en": "It is so that power may be used for the peace of the universe,",
      "speaker": "Narrator"
     },
     {
-     "start": 25.7,
-     "end": 32.5,
-     "ja": "人間たちをあらゆる外敵や災いから守るため、神から与えられしものだ。",
-     "en": "and to protect humankind from all external foes and disasters, was bestowed upon you by God.",
+     "start": 24.5,
+     "end": 29.5,
+     "ja": "人間たちをあらゆる外敵や災いから守るために、",
+     "en": "and to protect humankind from all external foes and disasters,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 29.6,
+     "end": 33.0,
+     "ja": "神から与えられしものだ。",
+     "en": "granted to you by God.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 200.0,
-   "end": 221.0,
+   "start": 199.5,
+   "end": 220.8,
    "title": "Terryman Saves the Day",
    "level": "N3",
    "topics": [
@@ -64,57 +70,64 @@
     "animals"
    ],
    "grammar": [
-    "〜なきゃ — must do (colloquial contraction of なければ)",
-    "〜たら — if / when (conditional)",
-    "さすが — as expected of / truly"
+    "〜なきゃ — must / have to",
+    "〜たら — if / when",
+    "さすが — as expected of"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 200.0,
-     "end": 204.3,
+     "start": 199.8,
+     "end": 203.7,
      "ja": "ボーイ、犬にはちゃんと首輪とリードをつけてなきゃな。",
-     "en": "Boy, you've got to make sure your dog has a collar and leash on.",
+     "en": "Boy, you've got to keep a collar and leash on your dog.",
      "speaker": "Terryman"
     },
     {
-     "start": 204.6,
-     "end": 208.0,
-     "ja": "今度こんなことしたら、お尻ペンペンだぞ。",
-     "en": "If you do this again, you're getting a spanking!",
+     "start": 204.7,
+     "end": 207.5,
+     "ja": "今度こんなことをしたら、お尻ペンペンだぞ。",
+     "en": "If you do this again, you're getting a spanking.",
      "speaker": "Terryman"
     },
     {
-     "start": 208.3,
-     "end": 211.2,
-     "ja": "ご…ごめんよ、テリーマン！",
-     "en": "I-I'm sorry, Terryman!",
+     "start": 208.5,
+     "end": 210.9,
+     "ja": "ご…ごめんよ、テリーマン。",
+     "en": "I-I'm sorry, Terryman.",
      "speaker": "Boy"
     },
     {
-     "start": 212.0,
+     "start": 212.3,
      "end": 214.0,
      "ja": "よし、いい子だ。",
-     "en": "There's a good boy.",
+     "en": "Alright, good boy.",
      "speaker": "Terryman"
     },
     {
      "start": 214.3,
-     "end": 216.2,
+     "end": 216.0,
      "ja": "さすが超人だ！",
-     "en": "As expected of a Chojin!",
-     "speaker": "Man 1"
+     "en": "That's a Chojin for you!",
+     "speaker": "Man"
     },
     {
-     "start": 216.3,
-     "end": 219.3,
-     "ja": "すげえ！傷一つねえんだからな！",
-     "en": "Amazing! He doesn't even have a single scratch!",
-     "speaker": "Man 2"
+     "start": 216.1,
+     "end": 217.1,
+     "ja": "すげえ！",
+     "en": "Awesome!",
+     "speaker": "Spectator"
     },
     {
-     "start": 219.4,
-     "end": 220.8,
+     "start": 217.1,
+     "end": 219.2,
+     "ja": "傷一つねえんだからな！",
+     "en": "He doesn't have a single scratch on him!",
+     "speaker": "Spectator"
+    },
+    {
+     "start": 219.3,
+     "end": 220.5,
      "ja": "素敵！",
      "en": "So wonderful!",
      "speaker": "Woman"
@@ -126,5 +139,6 @@
  "pickTopics": [
   "anime"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

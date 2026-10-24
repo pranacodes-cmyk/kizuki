@@ -1,0 +1,30 @@
+{
+ "videoId": "sBVojoUqPfE",
+ "ids": [
+  "sBVojoUqPfE-223",
+  "sBVojoUqPfE-53"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "sBVojoUqPfE-223": {
+   "id": "sBVojoUqPfE-223",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear beginner food vocabulary paired with charming illustrations."
+  },
+  "sBVojoUqPfE-53": {
+   "id": "sBVojoUqPfE-53",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple family dialogue spoken clearly at a friendly pace."
+  }
+ }
+}

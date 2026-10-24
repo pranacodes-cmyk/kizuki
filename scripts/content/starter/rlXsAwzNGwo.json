@@ -1,0 +1,19 @@
+{
+ "videoId": "rlXsAwzNGwo",
+ "ids": [
+  "rlXsAwzNGwo-55"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "rlXsAwzNGwo-55": {
+   "id": "rlXsAwzNGwo-55",
+   "appeal": 7,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Fun street interview about spicy food with energetic idols."
+  }
+ }
+}

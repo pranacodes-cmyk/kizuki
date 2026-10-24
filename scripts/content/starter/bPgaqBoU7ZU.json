@@ -1,0 +1,19 @@
+{
+ "videoId": "bPgaqBoU7ZU",
+ "ids": [
+  "bPgaqBoU7ZU-794"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "bPgaqBoU7ZU-794": {
+   "id": "bPgaqBoU7ZU-794",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear demonstration of smartwatch features with natural spoken commentary."
+  }
+ }
+}

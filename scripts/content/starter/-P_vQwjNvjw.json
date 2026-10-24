@@ -1,0 +1,30 @@
+{
+ "videoId": "-P_vQwjNvjw",
+ "ids": [
+  "-P_vQwjNvjw-181",
+  "-P_vQwjNvjw-776"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "-P_vQwjNvjw-181": {
+   "id": "-P_vQwjNvjw-181",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Casual morning banter, but speech is somewhat mumbled."
+  },
+  "-P_vQwjNvjw-776": {
+   "id": "-P_vQwjNvjw-776",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Amusing prank reaction, though speech is groggy and fast."
+  }
+ }
+}

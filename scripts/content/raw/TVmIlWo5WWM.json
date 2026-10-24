@@ -2,110 +2,132 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 212.8,
-   "end": 222.5,
-   "title": "An Invitation to a Special Island",
+   "start": 129.5,
+   "end": 139.5,
+   "title": "Watching Fireworks Together",
    "level": "N5",
    "topics": [
     "anime",
-    "travel"
+    "friends"
    ],
    "grammar": [
-    "〜を手にする — to get hold of / obtain",
-    "ご〜 — honorific prefix"
-   ],
-   "quality": 4,
-   "lines": [
-    {
-     "start": 213.2,
-     "end": 215.8,
-     "ja": "このチラシを手にしたあなた。",
-     "en": "You, who have received this flyer.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 219.4,
-     "end": 221.8,
-     "ja": "特別な島へご招待！",
-     "en": "You are invited to a special island!",
-     "speaker": "Narrator"
-    }
-   ]
-  },
-  {
-   "start": 229.4,
-   "end": 242.8,
-   "title": "Welcome to the Island",
-   "level": "N4",
-   "topics": [
-    "anime",
-    "food",
-    "fun"
-   ],
-   "grammar": [
-    "〜すぎる — too much / excessively",
-    "〜ちゃう — to end up doing"
+    "〜る／〜える — potential form",
+    "〜けど — but / although"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 229.6,
-     "end": 233.0,
-     "ja": "すごいすごい、歓迎ムードだね！",
-     "en": "Wow, they're really in a welcoming mood!",
+     "start": 129.8,
+     "end": 133.3,
+     "ja": "いつでも毎日、ずっと会えるけどね。",
+     "en": "Though we can see each other every single day anyway.",
      "speaker": "Hachiware"
     },
     {
-     "start": 234.3,
-     "end": 237.6,
+     "start": 133.4,
+     "end": 134.5,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Chiikawa"
+    },
+    {
+     "start": 136.5,
+     "end": 138.4,
+     "ja": "見て！すごいよ！",
+     "en": "Look! It's amazing!",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 138.5,
+     "end": 139.5,
+     "ja": "わあ！",
+     "en": "Whoa!",
+     "speaker": "Chiikawa"
+    }
+   ]
+  },
+  {
+   "start": 230.0,
+   "end": 243.0,
+   "title": "Enjoying the Island Festival",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "travel",
+    "food"
+   ],
+   "grammar": [
+    "〜すぎる — too much / excessively",
+    "〜ちゃう — to end up doing accidentally"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 230.6,
+     "end": 233.2,
+     "ja": "すごい、すごい！歓迎ムードだね！",
+     "en": "Wow, wow! They're really rolling out the welcome mat!",
+     "speaker": "Hachiware"
+    },
+    {
+     "start": 234.8,
+     "end": 238.8,
      "ja": "ついつい、楽しくなりすぎちゃうんですね。",
-     "en": "You end up having too much fun before you know it.",
+     "en": "You can't help but end up having way too much fun, can you?",
      "speaker": "Rakko"
     },
     {
-     "start": 238.8,
-     "end": 242.3,
-     "ja": "さらにうまいものが追加されたぁ！",
+     "start": 239.2,
+     "end": 242.4,
+     "ja": "さらに美味いものが追加されたー！",
      "en": "Even more delicious treats have been added!",
      "speaker": "Momonga"
     }
    ]
   },
   {
-   "start": 244.6,
-   "end": 256.0,
-   "title": "A Suspicious Mystery on the Island",
-   "level": "N3",
+   "start": 245.0,
+   "end": 255.5,
+   "title": "A Suspicious Island Secret",
+   "level": "N2",
    "topics": [
     "anime",
-    "travel"
+    "fun"
    ],
    "grammar": [
-    "気配がする — to sense a sign of",
-    "次々 — one after another"
+    "〜がする — to sense / feel",
+    "〜てある / 〜ている — ongoing state",
+    "受身形 — passive voice"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 244.9,
-     "end": 247.0,
+     "start": 245.4,
+     "end": 247.2,
      "ja": "怪しい気配がする。",
      "en": "I sense something suspicious.",
-     "speaker": "Rakko"
+     "speaker": "Armored Guy"
     },
     {
-     "start": 247.3,
-     "end": 251.6,
-     "ja": "島の住民が次々さらわれて、行方不明になってる？",
-     "en": "The islanders are being abducted one after another and going missing?",
+     "start": 247.6,
+     "end": 249.9,
+     "ja": "島の住民が次々さらわれて…",
+     "en": "The island residents are being abducted one after another...",
+     "speaker": "Armored Guy"
+    },
+    {
+     "start": 250.2,
+     "end": 252.0,
+     "ja": "行方不明になってる？",
+     "en": "They've gone missing?",
      "speaker": "Hachiware"
     },
     {
-     "start": 251.9,
-     "end": 255.4,
-     "ja": "このメンバーで、あれを討伐するのか。",
-     "en": "Are we going to subjugate that thing with this group?",
-     "speaker": "Rakko"
+     "start": 252.2,
+     "end": 255.0,
+     "ja": "このメンバーで、あれを討伐するのか？",
+     "en": "Is this crew really going to subjugate that monster?",
+     "speaker": "Armored Guy"
     }
    ]
   }
@@ -114,5 +136,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

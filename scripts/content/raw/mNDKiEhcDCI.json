@@ -2,82 +2,125 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 12.8,
-   "end": 30.5,
-   "title": "Trying the Lottery",
-   "level": "N4",
+   "start": 2.8,
+   "end": 31.0,
+   "title": "Playing the Lottery at the Convenience Store",
+   "level": "N5",
    "topics": [
     "daily",
+    "fun",
     "comedy"
    ],
    "grammar": [
-    "〜です — polite copula (is/am/are)",
-    "〜で — indicates means or method"
+    "〜てる — ongoing action",
+    "〜で — method/means"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 13.0,
-     "end": 14.5,
-     "ja": "750円です。",
-     "en": "That will be 750 yen.",
-     "speaker": "Clerk"
-    },
-    {
-     "start": 14.6,
-     "end": 15.6,
-     "ja": "お支払いは？",
-     "en": "How would you like to pay?",
-     "speaker": "Clerk"
-    },
-    {
-     "start": 15.7,
-     "end": 17.0,
-     "ja": "電子マネーで。",
-     "en": "With electronic money.",
+     "start": 2.8,
+     "end": 3.9,
+     "ja": "あ、すいません！",
+     "en": "Excuse me!",
      "speaker": "Customer"
     },
     {
-     "start": 17.1,
-     "end": 17.9,
-     "ja": "はい。",
-     "en": "Understood.",
+     "start": 4.2,
+     "end": 5.0,
+     "ja": "いらっしゃいませ。",
+     "en": "Welcome.",
      "speaker": "Clerk"
     },
     {
-     "start": 24.3,
-     "end": 25.5,
+     "start": 5.0,
+     "end": 7.4,
+     "ja": "あの、ここ、ハムスターアイドル烈伝のるんるんくじやってる？",
+     "en": "Um, do you have the Hamster Idol Legend lottery here?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 7.5,
+     "end": 8.8,
+     "ja": "あ、はい、やってます。",
+     "en": "Oh, yes, we do.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 9.0,
+     "end": 10.0,
+     "ja": "じゃあ、1回！",
+     "en": "One ticket then, please!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 10.1,
+     "end": 10.9,
+     "ja": "はい。",
+     "en": "Sure.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 12.8,
+     "end": 15.0,
+     "ja": "750円です。お支払いは？",
+     "en": "That'll be 750 yen. How would you like to pay?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 15.1,
+     "end": 16.2,
+     "ja": "電子マネーで！",
+     "en": "With electronic money!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 16.3,
+     "end": 17.0,
+     "ja": "はい。",
+     "en": "All right.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 22.5,
+     "end": 23.8,
+     "ja": "はっ！",
+     "en": "Ha!",
+     "speaker": "Customer"
+    },
+    {
+     "start": 24.0,
+     "end": 25.2,
      "ja": "G！",
      "en": "G!",
      "speaker": "Customer"
     },
     {
-     "start": 25.6,
-     "end": 26.6,
+     "start": 25.5,
+     "end": 26.5,
      "ja": "あ、G。",
      "en": "Ah, G.",
      "speaker": "Clerk"
     },
     {
-     "start": 26.9,
-     "end": 27.6,
+     "start": 26.6,
+     "end": 27.4,
      "ja": "はい。",
-     "en": "Right.",
-     "speaker": "Clerk"
+     "en": "Yes.",
+     "speaker": "Customer"
     },
     {
-     "start": 27.7,
-     "end": 30.2,
-     "ja": "G賞は烈伝ハンドタオルです。",
-     "en": "Prize G is a Retsuden hand towel.",
+     "start": 27.5,
+     "end": 30.5,
+     "ja": "G賞は、烈伝ハンドタオルです。",
+     "en": "Prize G is a Legend hand towel.",
      "speaker": "Clerk"
     }
    ]
   },
   {
-   "start": 212.8,
-   "end": 226.7,
-   "title": "She Loves the Character Too",
+   "start": 131.8,
+   "end": 151.0,
+   "title": "I Want the Legend Prize",
    "level": "N4",
    "topics": [
     "anime",
@@ -85,104 +128,146 @@
     "comedy"
    ],
    "grammar": [
-    "〜ですよね — seeking agreement",
-    "〜も — also/too"
+    "〜たい — expressing desire",
+    "〜ために — in order to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 213.1,
-     "end": 214.3,
-     "ja": "B！",
-     "en": "B!",
+     "start": 131.8,
+     "end": 136.5,
+     "ja": "僕が欲しいのはA賞のキンちゃんのぬいぐるみなんです！",
+     "en": "What I want is Prize A, the Kin-chan plushie!",
      "speaker": "Customer"
     },
     {
-     "start": 214.4,
-     "end": 216.4,
-     "ja": "ハムムのぬいぐるみです！",
-     "en": "It's the Hamumu plushie!",
+     "start": 136.6,
+     "end": 137.5,
+     "ja": "はい。",
+     "en": "Yes.",
      "speaker": "Clerk"
     },
     {
-     "start": 217.3,
-     "end": 220.0,
-     "ja": "すごい！いいな、ハムムのぬいぐるみ。",
-     "en": "Amazing! So jealous, a Hamumu plushie.",
-     "speaker": "Clerk"
+     "start": 137.6,
+     "end": 142.0,
+     "ja": "それを手に入れるためだったら、いくらだってお金を注ぎ込む覚悟で来ました！",
+     "en": "If it's to get that, I came prepared to pour in any amount of money!",
+     "speaker": "Customer"
     },
     {
-     "start": 220.1,
-     "end": 224.2,
-     "ja": "実は私もハムスターアイドル烈伝大好きで、",
-     "en": "Actually, I also love Hamster Idol Retsuden,",
-     "speaker": "Clerk"
+     "start": 142.1,
+     "end": 145.0,
+     "ja": "この場合はその限りではない！",
+     "en": "In this case, that does not apply!",
+     "speaker": "Customer"
     },
     {
-     "start": 224.3,
-     "end": 226.4,
-     "ja": "ハムム可愛いですよね！",
-     "en": "and Hamumu is so cute, right!",
+     "start": 146.0,
+     "end": 148.0,
+     "ja": "多めに入れてますね？",
+     "en": "You put in more of them, didn't you?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 148.1,
+     "end": 150.5,
+     "ja": "多めに入れるとかはできないので、やってないです。",
+     "en": "We can't do things like add extra, so we haven't.",
      "speaker": "Clerk"
     }
    ]
   },
   {
-   "start": 589.6,
-   "end": 611.8,
-   "title": "Calling the Police on the Lottery",
-   "level": "N4",
+   "start": 303.0,
+   "end": 326.0,
+   "title": "I Live Upstairs",
+   "level": "N5",
    "topics": [
-    "comedy",
-    "daily"
+    "daily",
+    "comedy"
    ],
    "grammar": [
-    "〜てます — ongoing action (contracted form)",
-    "〜んです — explanatory tone"
+    "〜てくる — go and come back",
+    "〜ので / 〜んで — because/since"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 589.8,
-     "end": 591.7,
-     "ja": "警察案件です！",
-     "en": "This is a matter for the police!",
+     "start": 303.0,
+     "end": 304.5,
+     "ja": "お金取ってきます！",
+     "en": "I'll go get some money!",
      "speaker": "Customer"
     },
     {
-     "start": 601.4,
-     "end": 602.8,
-     "ja": "はい、電話します。",
-     "en": "Yes, I'm calling them.",
+     "start": 304.6,
+     "end": 306.0,
+     "ja": "お金取ってくるって…え、ちょっと！",
+     "en": "Go get money...? Wait a second!",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 306.5,
+     "end": 309.0,
+     "ja": "まだハンドタオルとか渡してないのに…",
+     "en": "I haven't even handed him his hand towel yet...",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 309.1,
+     "end": 311.0,
+     "ja": "ちゃんと戻ってくるのかな、あの人…",
+     "en": "Is that person really going to come back...?",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 312.0,
+     "end": 313.2,
+     "ja": "早っ！",
+     "en": "That was fast!",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 313.5,
+     "end": 317.0,
+     "ja": "あ、僕、このビルの上に住んでるんで、はい。",
+     "en": "Oh, I live right above this building, yes.",
      "speaker": "Customer"
     },
     {
-     "start": 603.2,
-     "end": 605.3,
-     "ja": "あ、もしもし、警察ですか？",
-     "en": "Ah, hello, is this the police?",
+     "start": 317.1,
+     "end": 318.0,
+     "ja": "そうですか。",
+     "en": "I see.",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 318.1,
+     "end": 319.5,
+     "ja": "めちゃ近いんで、はい。",
+     "en": "It's super close, yeah.",
      "speaker": "Customer"
     },
     {
-     "start": 605.4,
-     "end": 608.2,
-     "ja": "あの今、コンビニでルンルンくじ引いてるんですけど、",
-     "en": "Um, right now I'm doing the Run-run lottery at a convenience store,",
+     "start": 320.0,
+     "end": 321.2,
+     "ja": "じゃ、1回！",
+     "en": "Well then, one ticket!",
      "speaker": "Customer"
     },
     {
-     "start": 608.3,
-     "end": 610.1,
-     "ja": "このお店やってまして。",
-     "en": "and this shop is pulling a scam.",
-     "speaker": "Customer"
+     "start": 321.3,
+     "end": 322.0,
+     "ja": "はい。",
+     "en": "Sure.",
+     "speaker": "Clerk"
     },
     {
-     "start": 610.2,
-     "end": 611.4,
-     "ja": "はい、そうなんです！",
-     "en": "Yes, that's right!",
-     "speaker": "Customer"
+     "start": 323.5,
+     "end": 325.5,
+     "ja": "750円です。",
+     "en": "That'll be 750 yen.",
+     "speaker": "Clerk"
     }
    ]
   }
@@ -191,5 +276,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

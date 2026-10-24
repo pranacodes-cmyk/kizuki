@@ -1,0 +1,19 @@
+{
+ "videoId": "7jgGYgNmLto",
+ "ids": [
+  "7jgGYgNmLto-28"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "7jgGYgNmLto-28": {
+   "id": "7jgGYgNmLto-28",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear and polite beginner-friendly greetings in an authentic setting."
+  }
+ }
+}

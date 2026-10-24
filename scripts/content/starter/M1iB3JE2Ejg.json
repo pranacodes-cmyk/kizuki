@@ -1,0 +1,19 @@
+{
+ "videoId": "M1iB3JE2Ejg",
+ "ids": [
+  "M1iB3JE2Ejg-122"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "M1iB3JE2Ejg-122": {
+   "id": "M1iB3JE2Ejg-122",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear everyday questions and polite requests in clean cartoon dialogue."
+  }
+ }
+}

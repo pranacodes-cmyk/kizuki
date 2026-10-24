@@ -1,0 +1,30 @@
+{
+ "videoId": "ahY3uIYjX6Q",
+ "ids": [
+  "ahY3uIYjX6Q-112",
+  "ahY3uIYjX6Q-38"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "ahY3uIYjX6Q-38": {
+   "id": "ahY3uIYjX6Q-38",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, practical cafe roleplay for beginners."
+  },
+  "ahY3uIYjX6Q-112": {
+   "id": "ahY3uIYjX6Q-112",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple ordering dialogue with clear pronunciation."
+  }
+ }
+}

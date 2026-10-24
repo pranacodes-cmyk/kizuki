@@ -2,155 +2,122 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 34.5,
-   "end": 59.8,
-   "title": "Choosing Your Ramen Soup and Toppings",
-   "level": "N3",
+   "start": 45.0,
+   "end": 60.3,
+   "title": "Choosing Your Ramen",
+   "level": "N4",
    "topics": [
-    "food"
+    "food",
+    "daily"
    ],
    "grammar": [
-    "〜がございます — polite form of ある",
-    "〜ていただく — to have someone do"
+    "〜ていただく — receiving a favor / having someone do",
+    "〜から — from / after"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 34.6,
-     "end": 37.0,
-     "ja": "この表参道じゃんがら２階にはですね、",
-     "en": "Here on the second floor of Omotesando Jangara,",
+     "start": 45.3,
+     "end": 49.5,
+     "ja": "この７種類のスープがございますので、まずお好みでどれかのスープを選んでいただくんです。",
+     "en": "We offer seven types of soup, so first you choose whichever soup you prefer.",
      "speaker": "Staff"
     },
     {
-     "start": 37.0,
-     "end": 38.6,
-     "ja": "７種類のスープがございまして。",
-     "en": "we offer seven types of soup.",
-     "speaker": "Staff"
-    },
-    {
-     "start": 38.6,
-     "end": 39.8,
-     "ja": "７種類、はい。",
-     "en": "Seven types, okay.",
-     "speaker": "Steve"
-    },
-    {
-     "start": 40.0,
-     "end": 44.8,
-     "ja": "じゃんがらというのは、豚骨でも東京風であっさりマイルドなスープで。",
-     "en": "Jangara is a pork bone broth, but Tokyo-style: light and mild.",
-     "speaker": "Staff"
-    },
-    {
-     "start": 45.2,
-     "end": 49.3,
-     "ja": "７種類のスープがございますので、まずお好みでどれかスープを選んでいただいて。",
-     "en": "Since there are seven varieties, first you choose your preferred soup.",
-     "speaker": "Staff"
-    },
-    {
-     "start": 49.6,
-     "end": 51.4,
+     "start": 49.8,
+     "end": 51.5,
      "ja": "まずスープを選ぶことですね。",
-     "en": "First choose the soup, right.",
+     "en": "So first you choose the soup.",
      "speaker": "Steve"
     },
     {
-     "start": 51.5,
-     "end": 55.4,
-     "ja": "そうです。味玉、それから明太子、それから角肉。",
-     "en": "That's right. Seasoned egg, then cod roe, and braised pork.",
+     "start": 51.7,
+     "end": 55.6,
+     "ja": "そうです。味玉子、それから明太子、それから角肉。",
+     "en": "That's right. Seasoned egg, spicy cod roe, and braised pork belly.",
      "speaker": "Staff"
     },
     {
-     "start": 55.6,
-     "end": 57.5,
-     "ja": "この全部入ったのが「全部入り」。",
-     "en": "The bowl with all of them is 'Zenbu-iri' (The Works).",
-     "speaker": "Staff"
-    },
-    {
-     "start": 57.5,
-     "end": 59.5,
-     "ja": "ま、当店ナンバーワンのメニューになります。",
-     "en": "It's our number one menu item.",
+     "start": 55.8,
+     "end": 59.9,
+     "ja": "これ全部入ったのが、この「全部入り」。まあ当然ナンバーワンのメニューなんですけども。",
+     "en": "With all of these included, that's the 'Everything'. Naturally, it's our number one menu item.",
      "speaker": "Staff"
     }
    ]
   },
   {
-   "start": 123.8,
-   "end": 134.8,
-   "title": "Freshly Cooked Gyoza Arrives",
+   "start": 124.5,
+   "end": 138.3,
+   "title": "The Gyoza Arrives",
    "level": "N4",
    "topics": [
-    "food"
+    "food",
+    "daily"
    ],
    "grammar": [
     "〜そうだ — looks like / seems like",
-    "〜けど — although / but"
+    "〜てみる — try doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 124.0,
-     "end": 126.1,
-     "ja": "はい、餃子ちゃんできました！",
-     "en": "Here are your gyoza!",
+     "start": 124.8,
+     "end": 126.3,
+     "ja": "はい、餃子ちゃん出来ましたー！",
+     "en": "Here are the gyoza!",
      "speaker": "Staff"
     },
     {
-     "start": 126.3,
-     "end": 127.3,
-     "ja": "おー！",
-     "en": "Ooh!",
+     "start": 126.5,
+     "end": 128.8,
+     "ja": "おー！美味しそうだねー！",
+     "en": "Oh! That looks delicious!",
      "speaker": "Steve"
     },
     {
-     "start": 127.5,
-     "end": 129.0,
-     "ja": "美味しそうだね！",
-     "en": "Those look delicious!",
-     "speaker": "Steve"
-    },
-    {
-     "start": 129.3,
-     "end": 131.6,
+     "start": 129.5,
+     "end": 131.7,
      "ja": "一口餃子で小ぶりなんですけど、",
-     "en": "They are bite-sized and small,",
+     "en": "They're bite-sized and small,",
      "speaker": "Staff"
     },
     {
-     "start": 131.6,
+     "start": 132.0,
      "end": 134.1,
      "ja": "パリッとした感じで中がジューシーですから。",
-     "en": "but they're crispy on the outside and juicy inside.",
+     "en": "crispy on the outside and juicy on the inside.",
      "speaker": "Staff"
+    },
+    {
+     "start": 134.3,
+     "end": 138.0,
+     "ja": "よし、さて、じゃあこれ、餃子食べてみよう。",
+     "en": "Alright, let's try these gyoza.",
+     "speaker": "Steve"
     }
    ]
   },
   {
    "start": 501.8,
-   "end": 532.5,
-   "title": "Pioneering Tonkotsu Ramen in Tokyo",
+   "end": 531.5,
+   "title": "History of Tonkotsu in Tokyo",
    "level": "N3",
    "topics": [
     "food",
     "culture"
    ],
    "grammar": [
-    "〜てみる / 〜ようと思う — intend to do",
-    "〜前 — before / ago"
+    "〜ようと思う — expressing intention",
+    "〜と言える — can be said that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 502.1,
-     "end": 505.5,
-     "ja": "３０年前に東京にとんこつラーメンがなかったんですよ。",
-     "en": "Thirty years ago, there was no tonkotsu ramen in Tokyo.",
+     "start": 502.2,
+     "end": 505.8,
+     "ja": "30年前に東京に豚骨ラーメンが無かったんですよ。",
+     "en": "30 years ago, there was no tonkotsu ramen in Tokyo.",
      "speaker": "Staff"
     },
     {
@@ -161,43 +128,29 @@
      "speaker": "Steve"
     },
     {
-     "start": 507.4,
-     "end": 510.3,
-     "ja": "で、私たちは九州出身のメンバーが多くてですね、",
-     "en": "And many of our staff members were from Kyushu,",
+     "start": 507.2,
+     "end": 516.1,
+     "ja": "私たちは九州出身のメンバーが多くてですね、東京に美味しいラーメンを作ろうと思って、みんなで豚骨ラーメンを出したんですけど。",
+     "en": "Many of us were from Kyushu, so we wanted to make delicious ramen in Tokyo and opened a tonkotsu ramen shop together.",
      "speaker": "Staff"
     },
     {
-     "start": 510.5,
-     "end": 513.3,
-     "ja": "東京に美味しいラーメンを作ろうと思い立って、",
-     "en": "so we decided to make delicious ramen in Tokyo,",
-     "speaker": "Staff"
-    },
-    {
-     "start": 513.5,
-     "end": 516.0,
-     "ja": "みんなでその、とんこつラーメンを出したんですけど。",
-     "en": "and together we started serving tonkotsu ramen.",
-     "speaker": "Staff"
-    },
-    {
-     "start": 516.0,
-     "end": 516.6,
+     "start": 516.3,
+     "end": 517.2,
      "ja": "はい。",
-     "en": "Yes.",
+     "en": "Right.",
      "speaker": "Steve"
     },
     {
-     "start": 516.8,
+     "start": 517.3,
      "end": 522.6,
-     "ja": "ま、その東京でとんこつラーメンを広めた先駆者というのが九州じゃんがらなんですね。",
-     "en": "So Kyushu Jangara was the pioneer that popularized tonkotsu ramen in Tokyo.",
+     "ja": "東京で豚骨ラーメンを広めた先駆者と言えるのが九州じゃんがらなんですね。",
+     "en": "You could say Kyushu Jangara was the pioneer in popularizing tonkotsu ramen in Tokyo.",
      "speaker": "Staff"
     },
     {
      "start": 522.8,
-     "end": 523.5,
+     "end": 523.6,
      "ja": "はい。",
      "en": "Yes.",
      "speaker": "Steve"
@@ -205,37 +158,30 @@
     {
      "start": 523.8,
      "end": 525.2,
-     "ja": "秋葉原が本店になります。",
-     "en": "Our original main branch is in Akihabara.",
+     "ja": "秋葉原が本店なんです。",
+     "en": "Akihabara is the main branch.",
      "speaker": "Staff"
     },
     {
      "start": 525.4,
-     "end": 526.6,
+     "end": 526.4,
      "ja": "秋葉原が本店、はい。",
-     "en": "Akihabara is the main branch, right.",
+     "en": "Akihabara is the main branch, okay.",
      "speaker": "Steve"
     },
     {
-     "start": 526.8,
-     "end": 529.6,
-     "ja": "そこが３０周年、で、この原宿は２８年目です。",
-     "en": "That one is 30 years old, and here in Harajuku it's our 28th year.",
+     "start": 526.5,
+     "end": 529.5,
+     "ja": "そこが30周年で、この原宿は28年なんです。",
+     "en": "That location has been around for 30 years, and here in Harajuku for 28 years.",
      "speaker": "Staff"
     },
     {
-     "start": 529.8,
-     "end": 531.6,
-     "ja": "もう２８年目なんですか原宿では？",
-     "en": "Already 28 years here in Harajuku?",
+     "start": 529.7,
+     "end": 531.2,
+     "ja": "もう28年なんですか、原宿は！",
+     "en": "Harajuku has already been here for 28 years?!",
      "speaker": "Steve"
-    },
-    {
-     "start": 531.8,
-     "end": 532.4,
-     "ja": "原宿では、はい。",
-     "en": "In Harajuku, yes.",
-     "speaker": "Staff"
     }
    ]
   }
@@ -244,5 +190,6 @@
  "pickTopics": [
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -1,0 +1,32 @@
+{
+ "videoId": "zRhOTFo42rE",
+ "ids": [
+  "zRhOTFo42rE-1122",
+  "zRhOTFo42rE-418"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "zRhOTFo42rE-1122": {
+   "id": "zRhOTFo42rE-1122",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear demonstration of phone features with clear, steady Japanese speech."
+  },
+  "zRhOTFo42rE-418": {
+   "id": "zRhOTFo42rE-418",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "ad / sponsor"
+   ],
+   "why": "Sponsored case demo with clear speech and easy-to-follow visual actions."
+  }
+ }
+}

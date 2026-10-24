@@ -1,0 +1,19 @@
+{
+ "videoId": "qgRBThjSvdw",
+ "ids": [
+  "qgRBThjSvdw-106"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "qgRBThjSvdw-106": {
+   "id": "qgRBThjSvdw-106",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Natural banter with helpful on-screen vocabulary aids comprehension."
+  }
+ }
+}

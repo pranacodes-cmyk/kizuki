@@ -1,0 +1,32 @@
+{
+ "videoId": "wnBiNFy5-rQ",
+ "ids": [
+  "wnBiNFy5-rQ-201",
+  "wnBiNFy5-rQ-329"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "wnBiNFy5-rQ-201": {
+   "id": "wnBiNFy5-rQ-201",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "starts mid-sentence"
+   ],
+   "why": "Useful vocabulary, but starts mid-sentence and somewhat fast for beginners."
+  },
+  "wnBiNFy5-rQ-329": {
+   "id": "wnBiNFy5-rQ-329",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Practical cashier interaction with clear numbers and realistic polite phrases."
+  }
+ }
+}

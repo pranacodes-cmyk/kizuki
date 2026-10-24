@@ -2,131 +2,141 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 31.2,
-   "end": 57.2,
-   "title": "Breaking Open the Cheese Steamed Bun",
+   "start": 4.5,
+   "end": 30.0,
+   "title": "Reviewing a New Steamed Bun from FamilyMart",
    "level": "N4",
    "topics": [
     "food",
     "daily"
    ],
    "grammar": [
-    "〜てみる — to try doing",
-    "〜ている — ongoing state"
+    "〜てくる — to go and do something and come back"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 31.6,
-     "end": 37.0,
-     "ja": "中華まんの色はチーズをイメージしているのか、黄色。",
-     "en": "The color of the steamed bun is yellow, maybe mimicking cheese.",
-     "speaker": "Narrator"
+     "start": 4.7,
+     "end": 6.3,
+     "ja": "こんばんは。",
+     "en": "Good evening.",
+     "speaker": "Komeko"
     },
     {
-     "start": 38.8,
-     "end": 42.3,
-     "ja": "早速半分に割ってみます。",
-     "en": "Let's split it in half right away.",
-     "speaker": "Narrator"
+     "start": 7.6,
+     "end": 13.0,
+     "ja": "今日はファミリーマートで中華まんを買ってきました！",
+     "en": "Today I bought a steamed bun from FamilyMart!",
+     "speaker": "Komeko"
     },
     {
-     "start": 44.6,
-     "end": 48.2,
-     "ja": "ビヨ〜ンと伸びるチーズ。",
-     "en": "The cheese stretches right out.",
-     "speaker": "Narrator"
+     "start": 15.6,
+     "end": 19.3,
+     "ja": "9月29日（火）発売、",
+     "en": "Released on Tuesday, September 29th,",
+     "speaker": "Komeko"
     },
     {
-     "start": 49.8,
-     "end": 56.5,
-     "ja": "国産黒豚100%の肉ダネも詰まっています。",
-     "en": "It's also stuffed with meat filling made from 100% domestic Berkshire pork.",
-     "speaker": "Narrator"
+     "start": 19.8,
+     "end": 25.5,
+     "ja": "極旨黒豚まんチーズ、税込250円。",
+     "en": "Gokuuma Kurobutaman Cheese, 250 yen including tax.",
+     "speaker": "Komeko"
+    },
+    {
+     "start": 27.5,
+     "end": 29.5,
+     "ja": "いただきます。",
+     "en": "Let's eat.",
+     "speaker": "Komeko"
     }
    ]
   },
   {
-   "start": 120.5,
-   "end": 142.5,
-   "title": "Reviewing the Pork and Cheese Flavor",
-   "level": "N3",
+   "start": 31.3,
+   "end": 57.0,
+   "title": "Splitting the Cheese Bun in Half",
+   "level": "N4",
    "topics": [
-    "food",
-    "daily"
+    "food"
    ],
    "grammar": [
-    "〜ている — ongoing state",
-    "〜くて — connecting i-adjectives"
+    "〜てみる — to try doing something",
+    "〜ている — ongoing state or result"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 120.8,
-     "end": 126.0,
-     "ja": "正直、チーズと黒豚が合っていない印象。",
-     "en": "To be honest, the cheese and Berkshire pork don't feel like a great match.",
-     "speaker": "Narrator"
+     "start": 31.7,
+     "end": 37.0,
+     "ja": "中華まんの色はチーズをイメージしているのか黄色。",
+     "en": "The color of the bun is yellow, perhaps inspired by cheese.",
+     "speaker": "Komeko"
     },
     {
-     "start": 127.8,
+     "start": 38.6,
+     "end": 42.0,
+     "ja": "早速半分に割ってみます。",
+     "en": "Let's break it in half right away.",
+     "speaker": "Komeko"
+    },
+    {
+     "start": 44.7,
+     "end": 48.0,
+     "ja": "ビヨーンと伸びるチーズ。",
+     "en": "The cheese stretches right out.",
+     "speaker": "Komeko"
+    },
+    {
+     "start": 49.5,
+     "end": 56.4,
+     "ja": "国産黒豚100%の肉ダネも詰まっています。",
+     "en": "It's also packed with 100% domestic Berkshire pork filling.",
+     "speaker": "Komeko"
+    }
+   ]
+  },
+  {
+   "start": 126.8,
+   "end": 154.5,
+   "title": "Tasting the Pork and Cheese Filling",
+   "level": "N3",
+   "topics": [
+    "food"
+   ],
+   "grammar": [
+    "〜ていて — expressing state and continuing",
+    "〜のは — nominalising with の"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 127.3,
      "end": 135.0,
      "ja": "黒豚はゴロッと肉々しくて、脂身も感じてジューシー。",
-     "en": "The Berkshire pork has chunky, meaty bites and fatty juiciness.",
-     "speaker": "Narrator"
+     "en": "The pork is chunky and meaty, with fatty parts making it juicy.",
+     "speaker": "Komeko"
     },
     {
      "start": 136.5,
-     "end": 142.0,
+     "end": 142.3,
      "ja": "胡椒が利いていて、少しスパイシーな味わいです。",
-     "en": "The pepper comes through, giving it a slightly spicy taste.",
-     "speaker": "Narrator"
-    }
-   ]
-  },
-  {
-   "start": 208.5,
-   "end": 232.8,
-   "title": "Final Verdict on the Cheese Pork Bun",
-   "level": "N3",
-   "topics": [
-    "food",
-    "daily"
-   ],
-   "grammar": [
-    "〜と — conditional (when/if)",
-    "〜てみる — to try doing",
-    "召し上がる — honorific for eat"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 209.2,
-     "end": 214.0,
-     "ja": "チーズも肉ダネも単体だと美味しいのですが、",
-     "en": "Both the cheese and the meat filling are tasty on their own, but...",
-     "speaker": "Narrator"
+     "en": "The pepper comes through, giving it a slightly spicy flavor.",
+     "speaker": "Komeko"
     },
     {
-     "start": 215.0,
-     "end": 220.0,
-     "ja": "一緒に食べると何となく合わない感じがします。",
-     "en": "When eaten together, it somehow feels like they don't quite go.",
-     "speaker": "Narrator"
+     "start": 144.0,
+     "end": 147.5,
+     "ja": "チーズのお味はシンプル。",
+     "en": "The taste of the cheese is simple.",
+     "speaker": "Komeko"
     },
     {
-     "start": 222.0,
-     "end": 226.5,
-     "ja": "黒豚まん自体は美味しいので、",
-     "en": "The Berkshire pork bun itself is delicious, so...",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 227.5,
-     "end": 232.3,
-     "ja": "気になった方はぜひ召し上がってみてください♪",
-     "en": "If you're curious, definitely give it a try!",
-     "speaker": "Narrator"
+     "start": 149.0,
+     "end": 154.0,
+     "ja": "伸びるチーズを使用しているのはポイントが高いです。",
+     "en": "Using stretchy cheese is a big plus.",
+     "speaker": "Komeko"
     }
    ]
   }
@@ -135,5 +145,6 @@
  "pickTopics": [
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

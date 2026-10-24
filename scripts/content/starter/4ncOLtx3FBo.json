@@ -1,0 +1,19 @@
+{
+ "videoId": "4ncOLtx3FBo",
+ "ids": [
+  "4ncOLtx3FBo-111"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "4ncOLtx3FBo-111": {
+   "id": "4ncOLtx3FBo-111",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Friendly street banter with natural, easy conversational Japanese."
+  }
+ }
+}

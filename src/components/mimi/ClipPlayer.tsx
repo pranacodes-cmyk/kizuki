@@ -18,6 +18,8 @@ export type ClipPlayerHandle = {
 type Props = {
   clip: Clip;
   active: boolean;
+  /** Next clip in the feed: load the player and cue the clip (never plays) ahead of the swipe. */
+  warm?: boolean;
   rate: number;
   /** Absolute video time, ~10×/s while mounted. */
   onTime: (t: number) => void;
@@ -28,12 +30,20 @@ type Props = {
 };
 
 /**
- * One clip of a YouTube video through the official IFrame player. Mounted only for the active
- * feed item; inactive items show the YouTube thumbnail. Loops clip.start → clip.end.
+ * One clip of a YouTube video through the official IFrame player. Created for the active feed
+ * item and, cued but never playing, for the next one (`warm`) so a swipe starts at once; other
+ * items show the YouTube thumbnail. Loops clip.start → clip.end. Mirrors clip_player.dart.
  */
-export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlayer({ clip, active, rate, onTime, onPlayingChange, onLoop, loopRange }, ref) {
+export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlayer({ clip, active, warm = false, rate, onTime, onPlayingChange, onLoop, loopRange }, ref) {
+  const wanted = active || warm;
+  const activeRef = useRef(active);
+  activeRef.current = active;
   const host = useRef<HTMLDivElement>(null);
   const player = useRef<YTPlayer | null>(null);
+  /** The IFrame player only takes commands after onReady. */
+  const apiReady = useRef(false);
+  /** pause() asked before onReady: pause as soon as playback starts (mirrors clip_player.dart). */
+  const wantPause = useRef(false);
   const loop = useRef(new PlaybackLoopGuard(clip.start));
   const startup = useRef(new PlaybackStartGuard());
   const [ready, setReady] = useState(false);
@@ -41,36 +51,48 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
   const [error, setError] = useState<string | null>(null);
   const [attempt, setAttempt] = useState(0);
   const [tapped, setTapped] = useState(false);
+  /** Still not playing a while after becoming active: offer a retry instead of an endless spinner. */
+  const [slow, setSlow] = useState(false);
   const cb = useRef({ onTime, onPlayingChange, onLoop, loopRange, clip });
   cb.current = { onTime, onPlayingChange, onLoop, loopRange, clip };
 
+  const live = () => (apiReady.current ? player.current : null);
   useImperativeHandle(ref, () => ({
-    play: () => player.current?.playVideo(),
-    pause: () => player.current?.pauseVideo(),
+    play: () => {
+      wantPause.current = false;
+      live()?.playVideo();
+    },
+    pause: () => {
+      const p = live();
+      if (p) p.pauseVideo();
+      else wantPause.current = true;
+    },
     toggle: () => {
-      const p = player.current;
+      const p = live();
       if (!p) return;
       if (p.getPlayerState() === YT_STATE.PLAYING) p.pauseVideo();
       else p.playVideo();
     },
     seek: (t: number) => {
-      const p = player.current;
+      const p = live();
       if (!p) return;
       loop.current.beginSeek(t);
       p.seekTo(t, true);
       p.playVideo();
     },
-    time: () => player.current?.getCurrentTime() ?? clip.start,
+    time: () => live()?.getCurrentTime() ?? clip.start,
   }), [clip.start]);
 
-  // Create / destroy the player with the active state.
+  // Create / destroy the player: for the active clip and the warmed-up next one.
   useEffect(() => {
-    if (!active || !host.current) return;
+    if (!wanted || !host.current) return;
     let cancelled = false;
     setError(null);
     setReady(false);
     setTapped(false);
     setState(YT_STATE.UNSTARTED);
+    apiReady.current = false;
+    wantPause.current = false;
     loop.current = new PlaybackLoopGuard(clip.start);
     startup.current = new PlaybackStartGuard();
     const mount = document.createElement("div");
@@ -84,15 +106,18 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
           height: "100%",
           host: "https://www.youtube-nocookie.com",
           playerVars: {
-            start: Math.floor(clip.start), end: Math.ceil(clip.end) + 1, autoplay: 1, controls: 0, playsinline: 1,
+            // The next clip is only cued at its start (autoplay 0): no playback, no sound.
+            start: Math.floor(clip.start), end: Math.ceil(clip.end) + 1, autoplay: activeRef.current ? 1 : 0, controls: 0, playsinline: 1,
             rel: 0, modestbranding: 1, iv_load_policy: 3, cc_load_policy: 0, disablekb: 1, fs: 0, enablejsapi: 1,
             origin: window.location.origin,
           },
           events: {
             onReady: (e) => {
               if (cancelled) return;
+              apiReady.current = true;
               setReady(true);
               e.target.setPlaybackRate(rate);
+              if (!activeRef.current) return; // warmed up: stays cued until it becomes active
               // Some players ignore playerVars.start: position once, never every tick.
               loop.current.beginSeek(clip.start);
               e.target.seekTo(clip.start, true);
@@ -101,6 +126,15 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
             onStateChange: (e) => {
               if (cancelled) return;
               setState(e.data);
+              // The next clip only waits, cued; it never plays or reports playback.
+              if (!activeRef.current) {
+                if (e.data === YT_STATE.PLAYING || e.data === YT_STATE.BUFFERING) e.target.pauseVideo();
+                return;
+              }
+              if (wantPause.current && (e.data === YT_STATE.PLAYING || e.data === YT_STATE.BUFFERING)) {
+                wantPause.current = false;
+                e.target.pauseVideo();
+              }
               // Hide YouTube's own captions (cc_load_policy is ignored when the viewer has CC on).
               if (e.data === YT_STATE.PLAYING || e.data === YT_STATE.BUFFERING) {
                 const t = e.target as unknown as { unloadModule?: (m: string) => void; setOption?: (m: string, k: string, v: unknown) => void };
@@ -136,15 +170,45 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
       cb.current.onPlayingChange(false);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [active, clip.videoId, clip.start, attempt]);
+  }, [wanted, clip.videoId, clip.start, attempt]);
+
+  // A warmed-up clip becomes active: start it now. Swiped back past it: pause, stay loaded.
+  const wasActive = useRef(active);
+  useEffect(() => {
+    if (wasActive.current === active) return;
+    wasActive.current = active;
+    const p = live();
+    if (!p) return; // still loading: onReady starts it (activeRef)
+    if (active) {
+      loop.current = new PlaybackLoopGuard(clip.start);
+      startup.current = new PlaybackStartGuard();
+      setTapped(false);
+      loop.current.beginSeek(clip.start);
+      p.setPlaybackRate(rate);
+      p.seekTo(clip.start, true);
+      if (!wantPause.current) p.playVideo();
+    } else {
+      p.pauseVideo();
+      cb.current.onPlayingChange(false);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [active]);
+
+  // Slow network: after 9 s without playback, say so and offer a fresh start.
+  useEffect(() => {
+    setSlow(false);
+    if (!active || error || state === YT_STATE.PLAYING) return;
+    const id = setTimeout(() => setSlow(true), 9000);
+    return () => clearTimeout(id);
+  }, [active, error, state === YT_STATE.PLAYING, attempt]);
 
   useEffect(() => {
     if (ready) player.current?.setPlaybackRate(rate);
   }, [rate, ready]);
 
-  // Time polling + clip / line looping.
+  // Time polling + clip / line looping (the on-screen clip only).
   useEffect(() => {
-    if (!ready || error) return;
+    if (!ready || error || !active) return;
     const id = setInterval(() => {
       const p = player.current;
       if (!p) return;
@@ -175,7 +239,7 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
       cb.current.onTime(Math.max(c.start, Math.min(c.end, t)));
     }, 100);
     return () => clearInterval(id);
-  }, [ready, error]);
+  }, [ready, error, active]);
 
   // Thumbnail until playback starts; after one tap it steps aside so YouTube's own play button is reachable.
   const showThumb = !active || (!tapped && (!ready || state === YT_STATE.UNSTARTED || state === YT_STATE.CUED));
@@ -186,13 +250,23 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
       {showThumb && !error && (
         <button
           aria-label="Play clip"
-          onClick={() => { setTapped(true); player.current?.playVideo(); }}
+          // Before onReady the player can't take commands; onReady starts playback itself.
+          onClick={() => { setTapped(true); wantPause.current = false; live()?.playVideo(); }}
           className="absolute inset-0 flex items-center justify-center bg-cover bg-center"
           style={{ backgroundImage: `url(${thumbOf(clip.videoId)})` }}
         >
           <span className="flex h-14 w-14 items-center justify-center rounded-full bg-stage/70">
-            {active && !ready ? <Loader2 className="h-7 w-7 animate-spin" /> : <Play className="ml-1 h-7 w-7 fill-current" />}
+            {active && (!ready || state === YT_STATE.BUFFERING) ? <Loader2 className="h-7 w-7 animate-spin" /> : <Play className="ml-1 h-7 w-7 fill-current" />}
           </span>
+        </button>
+      )}
+      {/* Slow network: say so and offer a fresh start instead of an endless spinner. */}
+      {active && slow && showThumb && !error && (
+        <button
+          onClick={() => setAttempt((a) => a + 1)}
+          className="press absolute bottom-3 left-1/2 inline-flex -translate-x-1/2 items-center gap-2 rounded-full bg-stage/85 px-3.5 py-2 text-[0.8125rem] font-extrabold"
+        >
+          <RotateCw className="h-[15px] w-[15px]" /> Slow connection · Tap to retry
         </button>
       )}
       {error && (

@@ -1,0 +1,30 @@
+{
+ "videoId": "oMwhY0XJgzY",
+ "ids": [
+  "oMwhY0XJgzY-106",
+  "oMwhY0XJgzY-417"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "oMwhY0XJgzY-417": {
+   "id": "oMwhY0XJgzY-417",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Charming punchline with clear, expressive dialogue suitable for beginners."
+  },
+  "oMwhY0XJgzY-106": {
+   "id": "oMwhY0XJgzY-106",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Excited transformation scene featuring screaming and basic body vocabulary."
+  }
+ }
+}

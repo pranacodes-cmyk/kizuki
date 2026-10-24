@@ -1,0 +1,30 @@
+{
+ "videoId": "NpEktEkbjJs",
+ "ids": [
+  "NpEktEkbjJs-133",
+  "NpEktEkbjJs-839"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "NpEktEkbjJs-133": {
+   "id": "NpEktEkbjJs-133",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Lively road trip banter guessing the destination with natural casual Japanese."
+  },
+  "NpEktEkbjJs-839": {
+   "id": "NpEktEkbjJs-839",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Exciting and relatable birthday present reveal with simple, emotional expressions."
+  }
+ }
+}

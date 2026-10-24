@@ -1,0 +1,19 @@
+{
+ "videoId": "TVmIlWo5WWM",
+ "ids": [
+  "TVmIlWo5WWM-229"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "TVmIlWo5WWM-229": {
+   "id": "TVmIlWo5WWM-229",
+   "appeal": 7,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Cute and colorful animation with brief, cheerful conversational lines."
+  }
+ }
+}

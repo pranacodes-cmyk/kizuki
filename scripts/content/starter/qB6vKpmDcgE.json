@@ -1,0 +1,19 @@
+{
+ "videoId": "qB6vKpmDcgE",
+ "ids": [
+  "qB6vKpmDcgE-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "qB6vKpmDcgE-0": {
+   "id": "qB6vKpmDcgE-0",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Friendly couple introduces their Tokyo trip with cheerful, everyday greetings."
+  }
+ }
+}

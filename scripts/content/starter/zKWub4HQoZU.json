@@ -1,0 +1,21 @@
+{
+ "videoId": "zKWub4HQoZU",
+ "ids": [
+  "zKWub4HQoZU-115"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "zKWub4HQoZU-115": {
+   "id": "zKWub4HQoZU-115",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [
+    "fast speech"
+   ],
+   "why": "Fast Kansai comedy banter is tough for complete beginners to follow."
+  }
+ }
+}

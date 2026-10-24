@@ -3,7 +3,7 @@
  "clips": [
   {
    "start": 0.0,
-   "end": 15.2,
+   "end": 14.8,
    "title": "Japanese Heritage Night at Angel Stadium",
    "level": "N3",
    "topics": [
@@ -11,125 +11,83 @@
     "culture"
    ],
    "grammar": [
-    "〜たり〜たり — doing things like",
-    "受身形 — passive voice"
+    "〜となる — to become",
+    "〜ていた — past continuous"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 0.1,
-     "end": 1.8,
-     "ja": "エンゼルスタジアムで",
-     "en": "At Angel Stadium,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 1.8,
-     "end": 3.4,
-     "ja": "ジャパニーズヘリテージナイトが開催され、",
-     "en": "Japanese Heritage Night was held,",
+     "start": 0.0,
+     "end": 3.5,
+     "ja": "エンゼルスタジアムでジャパニーズヘリテージナイトが開催され、",
+     "en": "Japanese Heritage Night was held at Angel Stadium,",
      "speaker": "Narrator"
     },
     {
      "start": 3.5,
-     "end": 6.3,
-     "ja": "エンゼルスで日本人初の選手となった",
-     "en": "and the first Japanese player for the Angels,",
+     "end": 9.1,
+     "ja": "エンゼルスで日本人初の選手となった長谷川滋利氏が招待されインタビューを受け、",
+     "en": "and Shigetoshi Hasegawa, the first Japanese player for the Angels, was invited for an interview,",
      "speaker": "Narrator"
     },
     {
-     "start": 6.3,
-     "end": 9.2,
-     "ja": "長谷川滋利氏が招待されインタビューを受け、",
-     "en": "Shigetoshi Hasegawa, was invited for an interview.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 9.4,
-     "end": 12.3,
-     "ja": "引退後の生活や趣味が高じて",
-     "en": "He spoke about his post-retirement life, turning a hobby",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 12.3,
-     "end": 15.0,
-     "ja": "プロゴルファーとなったことなどを得意の英語で話していました。",
-     "en": "into becoming a pro golfer, and more in his fluent English.",
+     "start": 9.1,
+     "end": 14.6,
+     "ja": "引退後の生活や、趣味が高じてプロゴルファーとなったことなどを得意の英語で話していました。",
+     "en": "where he spoke in fluent English about his post-retirement life and how his hobby led him to become a pro golfer.",
      "speaker": "Narrator"
     }
    ]
   },
   {
    "start": 215.5,
-   "end": 240.2,
-   "title": "Hasegawa's Life After Baseball",
+   "end": 239.5,
+   "title": "Hasegawa's Fulfilling Life After Baseball",
    "level": "N2",
    "topics": [
     "sports",
     "daily"
    ],
    "grammar": [
-    "〜たり — doing things like",
-    "〜だけでなく — not only... but also",
-    "〜ことがある — have the experience of"
+    "〜たり〜たり — doing things like... and...",
+    "〜てくる — indicates an impression/change developing",
+    "〜たことがある — to have the experience of"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
      "start": 215.8,
-     "end": 218.4,
-     "ja": "日本では解説者として出演したり、",
-     "en": "In Japan, he appears as a commentator,",
+     "end": 223.0,
+     "ja": "日本では解説者として出演したり、プロとしてゴルフにも挑戦し、充実した生活を過ごしていることが伝わってきますね。",
+     "en": "You can tell he is living a fulfilling life, appearing as a commentator in Japan and taking on pro golf.",
      "speaker": "Narrator"
     },
     {
-     "start": 218.4,
-     "end": 220.9,
-     "ja": "プロとしてゴルフにも挑戦し、",
-     "en": "takes on golf as a professional,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 220.9,
-     "end": 223.2,
-     "ja": "充実した生活を過ごしていることが伝わってきますね。",
-     "en": "and you can really tell he is living a fulfilling life.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 223.4,
+     "start": 223.0,
      "end": 227.4,
      "ja": "所属しているゴルフクラブがアナハイムと同じオレンジ郡にあり、",
-     "en": "The golf club he belongs to is in Orange County, just like Anaheim,",
+     "en": "The golf club he belongs to is located in Orange County, just like Anaheim,",
      "speaker": "Narrator"
     },
     {
      "start": 227.4,
-     "end": 229.8,
-     "ja": "プホルス氏やアレナド選手も所属しており、",
-     "en": "where Pujols and Arenado are also members,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 229.8,
      "end": 232.4,
-     "ja": "オフには一緒に回ったことがあるようです。",
-     "en": "and it seems they have played rounds together during the off-season.",
+     "ja": "プホルス氏やアレナド選手も所属しており、オフには一緒に回ったことがあるようです。",
+     "en": "and with Pujols and Arenado also members there, he seems to have played rounds with them in the off-season.",
      "speaker": "Narrator"
     },
     {
-     "start": 232.6,
-     "end": 237.3,
+     "start": 232.4,
+     "end": 236.6,
      "ja": "野球だけでなく引退後も様々な分野で活躍する長谷川滋利さん。",
-     "en": "Active in various fields even after baseball, Shigetoshi Hasegawa.",
+     "en": "Shigetoshi Hasegawa continues to thrive in various fields beyond baseball after retiring.",
      "speaker": "Narrator"
     },
     {
-     "start": 237.4,
-     "end": 240.0,
+     "start": 236.6,
+     "end": 239.5,
      "ja": "また英語でのインタビューを聞きたいですね。",
-     "en": "We'd love to hear another interview in English again.",
+     "en": "We'd love to hear another English interview from him.",
      "speaker": "Narrator"
     }
    ]
@@ -139,5 +97,6 @@
  "pickTopics": [
   "sports"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

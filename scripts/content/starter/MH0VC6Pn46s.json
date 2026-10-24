@@ -1,0 +1,21 @@
+{
+ "videoId": "MH0VC6Pn46s",
+ "ids": [
+  "MH0VC6Pn46s-1037"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "MH0VC6Pn46s-1037": {
+   "id": "MH0VC6Pn46s-1037",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "generic outro"
+   ],
+   "why": "Standard YouTube outro asking for likes; unengaging for beginners."
+  }
+ }
+}

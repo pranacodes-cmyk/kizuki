@@ -2,184 +2,229 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 134.8,
-   "end": 154.2,
-   "title": "Welcome to Nekoya Inn",
-   "level": "N5",
+   "start": 95.0,
+   "end": 125.6,
+   "title": "Arriving at the Mysterious Inn",
+   "level": "N4",
    "topics": [
     "travel",
-    "culture",
-    "animals"
+    "culture"
    ],
    "grammar": [
-    "〜へようこそ — welcome to ~",
     "〜たい — wanting to do something",
-    "〜ています — progressive/state"
+    "〜んです — explanatory emphasis"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 135.2,
-     "end": 137.9,
+     "start": 95.2,
+     "end": 98.2,
      "ja": "猫屋旅館へようこそ。",
      "en": "Welcome to the Nekoya Inn.",
      "speaker": "Innkeeper"
     },
     {
-     "start": 138.5,
-     "end": 141.6,
+     "start": 98.4,
+     "end": 102.2,
      "ja": "私はここの主人ですよ。",
-     "en": "I am the master of this inn.",
+     "en": "I am the owner here.",
      "speaker": "Innkeeper"
     },
     {
-     "start": 142.1,
-     "end": 144.1,
+     "start": 102.5,
+     "end": 104.7,
      "ja": "こ、こんばんは。",
-     "en": "G-Good evening.",
-     "speaker": "Saburou"
+     "en": "G-good evening.",
+     "speaker": "Saburo"
     },
     {
-     "start": 144.5,
-     "end": 148.0,
-     "ja": "あの、今晩泊まりたいんですけど。",
-     "en": "Um, I would like to stay the night...",
-     "speaker": "Saburou"
+     "start": 104.8,
+     "end": 108.6,
+     "ja": "あの、今晩泊まりたいんですけど…",
+     "en": "Um, I would like to stay tonight, but...",
+     "speaker": "Saburo"
     },
     {
-     "start": 148.7,
-     "end": 153.5,
-     "ja": "どうぞ。部屋は空いていますよ。",
-     "en": "Please, do. We have rooms available.",
+     "start": 108.8,
+     "end": 114.7,
+     "ja": "ふふふ。どうぞ、部屋は空いていますよ。",
+     "en": "Hehehe. Please, we have rooms available.",
+     "speaker": "Innkeeper"
+    },
+    {
+     "start": 114.9,
+     "end": 117.8,
+     "ja": "あー、よかった！",
+     "en": "Ah, what a relief!",
+     "speaker": "Saburo"
+    },
+    {
+     "start": 118.0,
+     "end": 121.2,
+     "ja": "さあさあ、どうぞどうぞ。",
+     "en": "Come now, right this way.",
+     "speaker": "Innkeeper"
+    },
+    {
+     "start": 121.4,
+     "end": 125.0,
+     "ja": "お部屋まで案内しますよ。",
+     "en": "I'll guide you to your room.",
      "speaker": "Innkeeper"
     }
    ]
   },
   {
-   "start": 329.8,
-   "end": 352.0,
-   "title": "You Must Not Go in That Hot Spring!",
-   "level": "N4",
+   "start": 132.3,
+   "end": 164.2,
+   "title": "An Invitation to the Hot Spring",
+   "level": "N5",
    "topics": [
-    "anime",
-    "fun",
-    "animals"
+    "travel",
+    "culture",
+    "daily"
    ],
    "grammar": [
-    "〜てはいけません — must not do",
-    "〜てはだめ — cannot / must not do",
-    "〜です — polite copula"
+    "〜はいかがですか — how about...",
+    "〜から — because / so"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 330.3,
-     "end": 333.6,
+     "start": 132.6,
+     "end": 136.2,
+     "ja": "こちらがお客さまのお部屋です。",
+     "en": "Here is your room, sir.",
+     "speaker": "Innkeeper"
+    },
+    {
+     "start": 136.6,
+     "end": 139.3,
+     "ja": "わあ、いい部屋だ！",
+     "en": "Wow, what a nice room!",
+     "speaker": "Saburo"
+    },
+    {
+     "start": 139.6,
+     "end": 142.6,
+     "ja": "食事を用意しますから、",
+     "en": "I will prepare your meal, so...",
+     "speaker": "Innkeeper"
+    },
+    {
+     "start": 142.8,
+     "end": 146.5,
+     "ja": "その前にお風呂はいかがですか？",
+     "en": "...how about a bath before that?",
+     "speaker": "Innkeeper"
+    },
+    {
+     "start": 146.9,
+     "end": 151.3,
+     "ja": "温かい温泉、最高ですよ。",
+     "en": "A warm hot spring is the best.",
+     "speaker": "Innkeeper"
+    },
+    {
+     "start": 152.0,
+     "end": 156.0,
+     "ja": "え、温泉？すぐ入りたいです！",
+     "en": "Eh, hot spring? I want to get in right away!",
+     "speaker": "Saburo"
+    },
+    {
+     "start": 156.5,
+     "end": 159.8,
+     "ja": "さあさあ、どうぞどうぞ。",
+     "en": "Come now, right this way.",
+     "speaker": "Innkeeper"
+    },
+    {
+     "start": 160.0,
+     "end": 163.6,
+     "ja": "この奥にありますから。",
+     "en": "It is further inside.",
+     "speaker": "Innkeeper"
+    }
+   ]
+  },
+  {
+   "start": 202.4,
+   "end": 232.4,
+   "title": "You Must Not Enter the Bath!",
+   "level": "N5",
+   "topics": [
+    "animals",
+    "culture"
+   ],
+   "grammar": [
+    "〜てはいけません — must not do",
+    "〜てはダメ — must not do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 202.7,
+     "end": 206.5,
+     "ja": "ちょっと待ってください！",
+     "en": "Please wait a moment!",
+     "speaker": "Mike"
+    },
+    {
+     "start": 206.8,
+     "end": 209.2,
+     "ja": "え、ええーっ！？",
+     "en": "Eh, whaaat!?",
+     "speaker": "Saburo"
+    },
+    {
+     "start": 209.8,
+     "end": 213.7,
      "ja": "あの、この温泉に入ってはいけません！",
-     "en": "Um, you must not get into this hot spring!",
+     "en": "Um, you must not enter this hot spring!",
      "speaker": "Mike"
     },
     {
-     "start": 333.9,
-     "end": 336.5,
-     "ja": "ご飯も食べてはだめ！",
-     "en": "You can't eat the food either!",
+     "start": 213.9,
+     "end": 216.8,
+     "ja": "ご飯も食べてはダメ！",
+     "en": "You must not eat the food either!",
      "speaker": "Mike"
     },
     {
-     "start": 336.7,
-     "end": 338.4,
-     "ja": "え？どうして？",
-     "en": "Eh? Why?",
-     "speaker": "Saburou"
+     "start": 217.0,
+     "end": 218.8,
+     "ja": "え、どうして？",
+     "en": "Eh, why?",
+     "speaker": "Saburo"
     },
     {
-     "start": 338.7,
-     "end": 341.7,
-     "ja": "だめだめ！絶対だめにゃ！",
-     "en": "No, no! Absolutely not, meow!",
+     "start": 219.0,
+     "end": 223.2,
+     "ja": "ダメダメ！絶対ダメにゃ！",
+     "en": "No, no! Absolutely not, nya!",
      "speaker": "Mike"
     },
     {
-     "start": 342.3,
-     "end": 344.2,
-     "ja": "だめ…にゃ？",
-     "en": "Not... meow?",
-     "speaker": "Saburou"
+     "start": 223.6,
+     "end": 225.5,
+     "ja": "ダメ、にゃ？",
+     "en": "'Not, nya'?",
+     "speaker": "Narrator"
     },
     {
-     "start": 345.0,
-     "end": 348.5,
-     "ja": "三郎さん、分からにゃい？",
+     "start": 225.8,
+     "end": 228.8,
+     "ja": "三郎さん、わからにゃい？",
      "en": "Saburo-san, don't you recognize me?",
      "speaker": "Mike"
     },
     {
-     "start": 348.9,
-     "end": 351.4,
+     "start": 229.0,
+     "end": 231.8,
      "ja": "私はミケですよ！",
-     "en": "I am Mike!",
+     "en": "I'm Mike!",
      "speaker": "Mike"
-    }
-   ]
-  },
-  {
-   "start": 536.5,
-   "end": 552.9,
-   "title": "Escape Before They Find You",
-   "level": "N4",
-   "topics": [
-    "anime",
-    "fun",
-    "friends"
-   ],
-   "grammar": [
-    "〜前に — before doing",
-    "〜てください — please do"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 536.9,
-     "end": 540.3,
-     "ja": "ちょっとちょっと、時間がにゃいですよ！",
-     "en": "Wait, wait, there's no time!",
-     "speaker": "Mike"
-    },
-    {
-     "start": 540.5,
-     "end": 543.5,
-     "ja": "みんなに見つかる前に逃げてください！",
-     "en": "Please escape before everyone finds you!",
-     "speaker": "Mike"
-    },
-    {
-     "start": 543.6,
-     "end": 544.7,
-     "ja": "早く！",
-     "en": "Hurry!",
-     "speaker": "Mike"
-    },
-    {
-     "start": 545.4,
-     "end": 547.0,
-     "ja": "ありがとう、ミケ。",
-     "en": "Thank you, Mike.",
-     "speaker": "Saburou"
-    },
-    {
-     "start": 547.5,
-     "end": 549.1,
-     "ja": "元気でな！",
-     "en": "Take care!",
-     "speaker": "Saburou"
-    },
-    {
-     "start": 549.6,
-     "end": 552.4,
-     "ja": "三郎は旅館の外へ走りました。",
-     "en": "Saburo ran outside the inn.",
-     "speaker": "Narrator"
     }
    ]
   }
@@ -189,5 +234,6 @@
   "animals",
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

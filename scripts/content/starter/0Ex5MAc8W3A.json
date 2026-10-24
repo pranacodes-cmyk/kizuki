@@ -1,0 +1,30 @@
+{
+ "videoId": "0Ex5MAc8W3A",
+ "ids": [
+  "0Ex5MAc8W3A-558",
+  "0Ex5MAc8W3A-84"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "0Ex5MAc8W3A-558": {
+   "id": "0Ex5MAc8W3A-558",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear cooking voiceover with visible steps matching spoken ingredients."
+  },
+  "0Ex5MAc8W3A-84": {
+   "id": "0Ex5MAc8W3A-84",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Calm narration clearly describing vegetable prep shown on screen."
+  }
+ }
+}

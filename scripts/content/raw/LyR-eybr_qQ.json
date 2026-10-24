@@ -3,156 +3,142 @@
  "clips": [
   {
    "start": 7.0,
-   "end": 21.0,
-   "title": "Overslept and Eating Breakfast in a Rush",
+   "end": 22.0,
+   "title": "Waking Up Late and Rushing to School",
    "level": "N4",
    "topics": [
     "daily",
-    "food"
+    "school"
    ],
    "grammar": [
-    "〜けど — but / although",
-    "〜なきゃ — must do (casual)"
+    "〜んじゃない — isn't it / questioning assumption",
+    "〜と思う — to think that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 7.3,
-     "end": 10.3,
+     "start": 7.4,
+     "end": 10.9,
      "ja": "それじゃあ、今から朝ご飯食べるんですけど、",
-     "en": "Well, I'm going to eat breakfast now, but",
+     "en": "Well then, I'm going to eat breakfast now, but...",
      "speaker": "Parker"
     },
     {
-     "start": 10.3,
-     "end": 12.8,
+     "start": 10.9,
+     "end": 13.0,
      "ja": "さすがに10時起きはまずいな。",
-     "en": "waking up at 10:00 is definitely bad.",
+     "en": "Waking up at 10 AM is really bad.",
      "speaker": "Parker"
     },
     {
      "start": 13.0,
-     "end": 16.0,
-     "ja": "あと10分くらいで家出なあかん。",
+     "end": 15.1,
+     "ja": "あと10分ぐらいで家出なあかん。",
      "en": "I have to leave the house in about 10 minutes.",
      "speaker": "Parker"
     },
     {
-     "start": 16.8,
-     "end": 18.7,
+     "start": 17.0,
+     "end": 19.1,
      "ja": "普通に朝活しようと思ってたんやけど、",
-     "en": "I was planning to do a morning routine, but",
+     "en": "I was planning to have a productive morning routine,",
      "speaker": "Parker"
     },
     {
-     "start": 18.7,
-     "end": 20.8,
+     "start": 19.1,
+     "end": 21.6,
      "ja": "まさかこんな時間になってるとは思いもよらなかったな。",
-     "en": "I never imagined it would already be this late.",
+     "en": "but I never imagined it would be this late.",
      "speaker": "Parker"
     }
    ]
   },
   {
-   "start": 110.0,
-   "end": 124.5,
-   "title": "Submitting CAD Drawing to the Professor",
-   "level": "N3",
+   "start": 136.6,
+   "end": 146.4,
+   "title": "Dreaming of Yakiniku Lunch",
+   "level": "N4",
    "topics": [
+    "food",
     "school",
     "daily"
    ],
    "grammar": [
-    "〜たら — when / if",
-    "〜ていただく — humbly receive an action"
+    "〜から — because / reason",
+    "〜と思う — thinking of doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 110.2,
-     "end": 113.8,
-     "ja": "一応提出するときに先生に",
-     "en": "When submitting it, I asked the teacher,",
+     "start": 137.0,
+     "end": 140.2,
+     "ja": "僕の大学の近くに焼肉屋があるから、",
+     "en": "There's a yakiniku restaurant near my university,",
      "speaker": "Parker"
     },
     {
-     "start": 113.8,
-     "end": 116.1,
-     "ja": "「数字がずれてるんですけど大丈夫ですか？」って聞いたら、",
-     "en": "\"The numbers are off, is that okay?\"",
+     "start": 140.2,
+     "end": 141.6,
+     "ja": "前一回やったんですけど、",
+     "en": "so I went there once before,",
      "speaker": "Parker"
     },
     {
-     "start": 116.1,
-     "end": 118.2,
-     "ja": "「まあ、これはこれでいいです」って言われたんで、",
-     "en": "and he said, \"Well, this is fine as is,\"",
+     "start": 141.6,
+     "end": 143.7,
+     "ja": "だからまた昼休みに焼肉行きたいと思うんですけど、",
+     "en": "and I'd love to go for yakiniku during lunch break again,",
      "speaker": "Parker"
     },
     {
-     "start": 118.2,
-     "end": 120.4,
-     "ja": "ありがたくそのまま提出させていただきました。",
-     "en": "so I gratefully submitted it as it was.",
-     "speaker": "Parker"
-    },
-    {
-     "start": 120.8,
-     "end": 124.3,
-     "ja": "非常に優しい先生だったんでよかったんですけれども。",
-     "en": "He was a very kind teacher, so it worked out.",
+     "start": 143.7,
+     "end": 146.0,
+     "ja": "それの一個欠点は、確実に遅刻するってことなんですよ。",
+     "en": "but the one downside is that I'll definitely be late.",
      "speaker": "Parker"
     }
    ]
   },
   {
-   "start": 319.2,
-   "end": 330.1,
-   "title": "Finding Leftover Yakisoba Noodles",
-   "level": "N4",
+   "start": 223.5,
+   "end": 236.4,
+   "title": "Struggling in Electrical Circuits Class",
+   "level": "N3",
    "topics": [
-    "food",
-    "daily"
+    "school"
    ],
    "grammar": [
-    "〜ようと思う — thinking of doing",
-    "〜ていた — past continuous / state"
+    "〜ばっかり — nothing but / only",
+    "〜ていく — ongoing process continuing into the future"
    ],
-   "quality": 5,
+   "quality": 4,
    "lines": [
     {
-     "start": 319.4,
-     "end": 322.2,
-     "ja": "スーパー寄ろうと思ってたんですけど、",
-     "en": "I was thinking of stopping by the supermarket, but",
+     "start": 223.9,
+     "end": 228.1,
+     "ja": "電位回路ということで、こればっかりは手も足も出ない。",
+     "en": "This is electrical circuits, and I'm completely helpless here.",
      "speaker": "Parker"
     },
     {
-     "start": 322.2,
-     "end": 324.5,
-     "ja": "確か冷蔵庫に焼きそばが…",
-     "en": "I'm pretty sure there's yakisoba in the fridge...",
+     "start": 228.1,
+     "end": 230.8,
+     "ja": "ため息しか出ないような授業なんですけど、",
+     "en": "It's the kind of class that just makes me sigh,",
      "speaker": "Parker"
     },
     {
-     "start": 324.5,
-     "end": 327.3,
-     "ja": "この前生配信で焼きそば作ったんですけど、",
-     "en": "I made yakisoba on a livestream the other day,",
+     "start": 230.8,
+     "end": 233.1,
+     "ja": "聞いても聞いても分かるところが増えていかない、",
+     "en": "and no matter how much I listen, I don't understand any more than before.",
      "speaker": "Parker"
     },
     {
-     "start": 327.3,
-     "end": 328.7,
-     "ja": "それの残りの焼きそば麺が残ってたんで、",
-     "en": "and the leftover noodles from that were still there,",
-     "speaker": "Parker"
-    },
-    {
-     "start": 328.7,
-     "end": 330.0,
-     "ja": "それを食べようかなと思います。",
-     "en": "so I think I'll eat that.",
+     "start": 233.1,
+     "end": 236.0,
+     "ja": "分からないことばっか増えていくっていう恐ろしい授業ですね。",
+     "en": "It's a terrifying class where only the things I don't get keep piling up.",
      "speaker": "Parker"
     }
    ]
@@ -162,5 +148,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -1,0 +1,21 @@
+{
+ "videoId": "_xolDF4eO9g",
+ "ids": [
+  "_xolDF4eO9g-16"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "_xolDF4eO9g-16": {
+   "id": "_xolDF4eO9g-16",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 2,
+   "english": false,
+   "issues": [
+    "fast speech"
+   ],
+   "why": "Humorous variety debate, but rapid dialogue is challenging for beginners."
+  }
+ }
+}

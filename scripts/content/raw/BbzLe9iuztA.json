@@ -2,123 +2,145 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 103.3,
-   "end": 113.6,
-   "title": "Running in Marathon Season",
+   "start": 63.3,
+   "end": 72.7,
+   "title": "Marathon Season",
    "level": "N3",
    "topics": [
     "sports",
     "daily"
    ],
    "grammar": [
-    "〜くらい — about / around",
-    "〜ので — because"
+    "〜ので — because / since",
+    "〜っていう — that kind of feeling"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 103.6,
-     "end": 107.0,
-     "ja": "10月ぐらいから3月ぐらいまでって、",
-     "en": "Around October through March",
-     "speaker": "Woman"
+     "start": 63.3,
+     "end": 67.6,
+     "ja": "10月ぐらいから3月ぐらいまでってマラソンのシーズンなので、",
+     "en": "Since October to around March is the marathon season,",
+     "speaker": "Miyako"
     },
     {
-     "start": 107.0,
-     "end": 108.6,
-     "ja": "マラソンのシーズンなので、",
-     "en": "is the marathon season,",
-     "speaker": "Woman"
-    },
-    {
-     "start": 108.6,
-     "end": 113.1,
-     "ja": "その中で、1回か2回はフルの大会に出るっていう感じですね。",
-     "en": "so during that time, I participate in a full marathon once or twice.",
-     "speaker": "Woman"
+     "start": 67.8,
+     "end": 72.5,
+     "ja": "その中で1回か2回はフルの大会に出るっていう感じですね。",
+     "en": "I enter a full marathon race once or twice during that period.",
+     "speaker": "Miyako"
     }
    ]
   },
   {
-   "start": 151.3,
-   "end": 164.2,
-   "title": "Getting Dressed Even on Days Off",
-   "level": "N3",
+   "start": 111.2,
+   "end": 123.0,
+   "title": "Getting Dressed in the Morning",
+   "level": "N4",
    "topics": [
     "daily",
     "work"
    ],
    "grammar": [
-    "〜ので — because",
-    "〜てから — after doing"
+    "〜てから — after doing",
+    "〜たり〜たりする — doing things like A and B"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 151.6,
-     "end": 154.5,
+     "start": 111.2,
+     "end": 114.7,
      "ja": "お休みの日もパジャマで仕事はしないので、",
-     "en": "Even on my days off, I don't work in pajamas,",
-     "speaker": "Woman"
+     "en": "I don't work in pajamas even on my days off,",
+     "speaker": "Miyako"
     },
     {
-     "start": 154.5,
-     "end": 156.4,
-     "ja": "まあ、とりあえず朝起きたら、",
-     "en": "so once I wake up in the morning,",
-     "speaker": "Woman"
+     "start": 114.8,
+     "end": 117.8,
+     "ja": "ま、とりあえず朝起きたらやっぱり着替えて、",
+     "en": "so once I get up in the morning, I always get dressed,",
+     "speaker": "Miyako"
     },
     {
-     "start": 156.4,
-     "end": 160.0,
-     "ja": "やっぱり着替えて、あの、メイクとかはして、",
-     "en": "I always get dressed and put on some makeup,",
-     "speaker": "Woman"
+     "start": 117.8,
+     "end": 119.8,
+     "ja": "あの、メイクとかはして、",
+     "en": "put on some makeup,",
+     "speaker": "Miyako"
     },
     {
-     "start": 160.0,
-     "end": 163.7,
-     "ja": "それから、家事だったり仕事だったりはするので。",
-     "en": "and then I move on to housework or work.",
-     "speaker": "Woman"
+     "start": 119.8,
+     "end": 123.0,
+     "ja": "それから家事だったり仕事だったりはするので、",
+     "en": "and then I start on either chores or work.",
+     "speaker": "Miyako"
     }
    ]
   },
   {
-   "start": 438.3,
-   "end": 449.6,
-   "title": "Carrying Handmade Bookmarks",
+   "start": 330.8,
+   "end": 350.5,
+   "title": "The Basics of Proofreading",
    "level": "N3",
    "topics": [
-    "daily",
+    "work",
     "culture"
    ],
    "grammar": [
-    "〜ている時 — when doing",
-    "〜ことがある — there are times when"
+    "〜前に — before doing",
+    "〜か — whether or not",
+    "〜ば — conditional if"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 438.6,
-     "end": 441.8,
-     "ja": "あとは、あの、前に自分で作ったしおり。",
-     "en": "And also, these bookmarks I made myself before.",
-     "speaker": "Woman"
+     "start": 330.8,
+     "end": 332.3,
+     "ja": "本になる前に、",
+     "en": "Before it becomes a book,",
+     "speaker": "Miyako"
     },
     {
-     "start": 441.8,
-     "end": 447.3,
-     "ja": "結構、本を読んでる時に、あの、しおりが入ってないことってあるので、",
-     "en": "Quite often when reading a book, there isn't a bookmark included,",
-     "speaker": "Woman"
+     "start": 332.4,
+     "end": 335.8,
+     "ja": "あの、一度こうやって試し刷りをして、",
+     "en": "we do a trial print like this,",
+     "speaker": "Miyako"
     },
     {
-     "start": 447.3,
-     "end": 449.1,
-     "ja": "常に何枚か入れています。",
-     "en": "so I always keep a few of them tucked inside.",
-     "speaker": "Woman"
+     "start": 335.9,
+     "end": 338.4,
+     "ja": "誤字脱字がないかとか、",
+     "en": "checking for typos or omissions,",
+     "speaker": "Miyako"
+    },
+    {
+     "start": 338.5,
+     "end": 341.6,
+     "ja": "あの、漢字の誤変換がないかとか、",
+     "en": "or incorrect kanji conversions,",
+     "speaker": "Miyako"
+    },
+    {
+     "start": 341.8,
+     "end": 344.8,
+     "ja": "もっと適切な言葉が他にあると思えば、",
+     "en": "and if I think there's a more suitable word,",
+     "speaker": "Miyako"
+    },
+    {
+     "start": 345.0,
+     "end": 347.4,
+     "ja": "それに変えますかっていうような",
+     "en": "I'll ask or make suggestions like,",
+     "speaker": "Miyako"
+    },
+    {
+     "start": 347.5,
+     "end": 350.2,
+     "ja": "お尋ねとか提案もしますし、",
+     "en": "\"Would you like to change it to this?\"",
+     "speaker": "Miyako"
     }
    ]
   }
@@ -127,5 +149,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

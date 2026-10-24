@@ -2,144 +2,216 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 334.8,
-   "end": 344.2,
-   "title": "Strolling Down Omoide Yokocho",
+   "start": 516.3,
+   "end": 536.0,
+   "title": "Learning Japanese Vocabulary over Beer",
    "level": "N4",
    "topics": [
-    "travel",
     "food",
-    "friends"
+    "friends",
+    "daily"
    ],
    "grammar": [
-    "〜でしょう — right? / isn't it?"
+    "〜じゃん — isn't it / right?",
+    "〜みたい — looks like / similar to"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 334.9,
-     "end": 337.0,
-     "ja": "お前、ここエモいでしょう？",
-     "en": "Doesn't this place feel nostalgic?",
-     "speaker": "A"
+     "start": 516.8,
+     "end": 519.3,
+     "ja": "この単語、最近わかるわ。",
+     "en": "I've started to understand this word recently.",
+     "speaker": "Hojin"
     },
     {
-     "start": 337.2,
-     "end": 339.4,
-     "ja": "エモいだろう、ここ？ほらほらほら！",
-     "en": "It feels nostalgic here, doesn't it? Look, look, look!",
-     "speaker": "A"
+     "start": 519.4,
+     "end": 520.1,
+     "ja": "何？",
+     "en": "Which one?",
+     "speaker": "Jintaro"
     },
     {
-     "start": 339.7,
-     "end": 341.9,
-     "ja": "ザ・日本ね！ザ・日本！",
-     "en": "The classic Japan! Classic Japan!",
-     "speaker": "A"
+     "start": 520.1,
+     "end": 521.8,
+     "ja": "売り切れ。",
+     "en": "\"Sold out\" (urikire).",
+     "speaker": "Hojin"
     },
     {
-     "start": 342.2,
-     "end": 344.0,
-     "ja": "ここ全部居酒屋！",
-     "en": "All of these are izakayas!",
-     "speaker": "A"
+     "start": 523.0,
+     "end": 524.2,
+     "ja": "なんか可愛いじゃん。",
+     "en": "It sounds kinda cute, doesn't it?",
+     "speaker": "Hojin"
+    },
+    {
+     "start": 524.3,
+     "end": 527.2,
+     "ja": "韓国語は「プムジョル」だからさ。",
+     "en": "Because in Korean it's \"pumjeol\".",
+     "speaker": "Hojin"
+    },
+    {
+     "start": 527.6,
+     "end": 529.4,
+     "ja": "ハードハードじゃん。",
+     "en": "It sounds really harsh.",
+     "speaker": "Jintaro"
+    },
+    {
+     "start": 529.5,
+     "end": 530.8,
+     "ja": "ハードハードだね。",
+     "en": "Yeah, it sounds harsh.",
+     "speaker": "Hojin"
+    },
+    {
+     "start": 530.9,
+     "end": 534.6,
+     "ja": "「売り切れ」はなんかウキキみたいじゃん。",
+     "en": "\"Urikire\" sounds like monkey chatter, like \"ukiki\".",
+     "speaker": "Hojin"
+    },
+    {
+     "start": 535.8,
+     "end": 536.7,
+     "ja": "そうだね。",
+     "en": "That's true.",
+     "speaker": "Jintaro"
     }
    ]
   },
   {
-   "start": 820.0,
-   "end": 841.4,
-   "title": "Tasting Grilled Negi Skewers",
-   "level": "N5",
+   "start": 615.4,
+   "end": 637.2,
+   "title": "Why Aren't You Wearing Black?",
+   "level": "N4",
    "topics": [
-    "food",
-    "friends"
+    "friends",
+    "daily"
    ],
    "grammar": [
-    "〜が好き — to like something",
-    "〜くない — negative adjective (isn't ...)"
+    "〜じゃん — isn't it / right?",
+    "〜も似合う — also looks good on (you)"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 820.1,
-     "end": 822.4,
-     "ja": "私の好きな野菜、ネギ！",
-     "en": "My favorite vegetable: green onions!",
-     "speaker": "A"
+     "start": 616.2,
+     "end": 618.5,
+     "ja": "お前いつもさ、",
+     "en": "You always, you know...",
+     "speaker": "Hojin"
     },
     {
-     "start": 822.5,
-     "end": 823.7,
-     "ja": "ネギ！",
-     "en": "Green onions!",
-     "speaker": "B"
+     "start": 618.6,
+     "end": 621.1,
+     "ja": "黒とかの服を着るじゃん。",
+     "en": "...wear black clothes and stuff, right?",
+     "speaker": "Hojin"
     },
     {
-     "start": 837.2,
-     "end": 838.7,
-     "ja": "うわ、うまい！",
-     "en": "Wow, so good!",
-     "speaker": "B"
+     "start": 625.9,
+     "end": 627.8,
+     "ja": "黒が一番好きだね。",
+     "en": "Yeah, I like black the best.",
+     "speaker": "Jintaro"
     },
     {
-     "start": 838.9,
-     "end": 840.4,
-     "ja": "熱くない？",
-     "en": "Isn't it hot?",
-     "speaker": "A"
+     "start": 628.5,
+     "end": 630.7,
+     "ja": "今日は何でこれ？ 明るいな。",
+     "en": "Why this today? It's so bright.",
+     "speaker": "Hojin"
+    },
+    {
+     "start": 631.0,
+     "end": 632.7,
+     "ja": "でも可愛いね、この服。",
+     "en": "But it's cute, these clothes.",
+     "speaker": "Hojin"
+    },
+    {
+     "start": 633.7,
+     "end": 635.8,
+     "ja": "この色も似合うね。",
+     "en": "This color suits you too.",
+     "speaker": "Hojin"
+    },
+    {
+     "start": 636.0,
+     "end": 637.0,
+     "ja": "そう？",
+     "en": "Really?",
+     "speaker": "Jintaro"
     }
    ]
   },
   {
-   "start": 854.9,
-   "end": 868.9,
-   "title": "Surprised by How Sweet It Is",
-   "level": "N5",
+   "start": 919.2,
+   "end": 937.8,
+   "title": "Keychain from a Fan",
+   "level": "N4",
    "topics": [
-    "food",
-    "friends"
+    "friends",
+    "anime",
+    "culture"
    ],
    "grammar": [
-    "〜い — i-adjective exclamation",
-    "〜じゃん — isn't it?"
+    "〜から — from",
+    "〜てもらう — receive a favor / gift from someone"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 855.2,
-     "end": 856.7,
-     "ja": "あ、うまい！",
-     "en": "Ah, delicious!",
-     "speaker": "B"
+     "start": 919.5,
+     "end": 921.2,
+     "ja": "私のカバン見た？",
+     "en": "Did you see my bag?",
+     "speaker": "Hojin"
     },
     {
-     "start": 856.8,
-     "end": 857.7,
-     "ja": "甘い！",
-     "en": "It's sweet!",
-     "speaker": "A"
+     "start": 923.3,
+     "end": 924.1,
+     "ja": "何？",
+     "en": "What?",
+     "speaker": "Jintaro"
     },
     {
-     "start": 857.9,
-     "end": 859.1,
-     "ja": "甘い！",
-     "en": "It's sweet!",
-     "speaker": "B"
+     "start": 924.1,
+     "end": 925.3,
+     "ja": "カバン。",
+     "en": "My bag.",
+     "speaker": "Hojin"
     },
     {
-     "start": 859.2,
-     "end": 861.3,
-     "ja": "めっちゃ甘い、甘い。",
-     "en": "It's super sweet, really sweet.",
-     "speaker": "A"
+     "start": 925.7,
+     "end": 930.9,
+     "ja": "ファンからもらったアーニャのキーリング。",
+     "en": "The Anya keychain I received from a fan.",
+     "speaker": "Hojin"
     },
     {
-     "start": 861.4,
-     "end": 862.9,
-     "ja": "じゃ、乾杯しよう！",
-     "en": "Well, let's cheers!",
-     "speaker": "A"
+     "start": 931.8,
+     "end": 933.4,
+     "ja": "それ偉いな。",
+     "en": "That's admirable of you to use it.",
+     "speaker": "Jintaro"
+    },
+    {
+     "start": 934.3,
+     "end": 937.2,
+     "ja": "そのファン、今絶対見てると思うよ。",
+     "en": "I'm sure that fan is watching right now.",
+     "speaker": "Jintaro"
+    },
+    {
+     "start": 937.0,
+     "end": 938.1,
+     "ja": "ありがとうございます。",
+     "en": "Thank you so much.",
+     "speaker": "Hojin"
     }
    ]
   }
@@ -148,5 +220,6 @@
  "pickTopics": [
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

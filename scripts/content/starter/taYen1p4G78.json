@@ -1,0 +1,19 @@
+{
+ "videoId": "taYen1p4G78",
+ "ids": [
+  "taYen1p4G78-120"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "taYen1p4G78-120": {
+   "id": "taYen1p4G78-120",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear narration with cute, simple animation suitable for beginners."
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "videoId": "iwXT0U7ESys",
+ "ids": [
+  "iwXT0U7ESys-153",
+  "iwXT0U7ESys-36"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "iwXT0U7ESys-153": {
+   "id": "iwXT0U7ESys-153",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Lively flea market scene with clear, simple Japanese and engaging visuals."
+  },
+  "iwXT0U7ESys-36": {
+   "id": "iwXT0U7ESys-36",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Interesting cultural look at automated bike parking with clear narration."
+  }
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "videoId": "J2_9yQ0Lfno",
+ "ids": [
+  "J2_9yQ0Lfno-745"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "J2_9yQ0Lfno-745": {
+   "id": "J2_9yQ0Lfno-745",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "ad / sponsor"
+   ],
+   "why": "Standard outro and subscribe request over historical site images."
+  }
+ }
+}

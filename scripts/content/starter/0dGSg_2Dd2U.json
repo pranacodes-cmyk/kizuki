@@ -1,0 +1,30 @@
+{
+ "videoId": "0dGSg_2Dd2U",
+ "ids": [
+  "0dGSg_2Dd2U-12",
+  "0dGSg_2Dd2U-126"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "0dGSg_2Dd2U-12": {
+   "id": "0dGSg_2Dd2U-12",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear slow introduction to travel recommendations with helpful graphics."
+  },
+  "0dGSg_2Dd2U-126": {
+   "id": "0dGSg_2Dd2U-126",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Engaging b-roll of famous travel spots paired with slow, clear speech."
+  }
+ }
+}

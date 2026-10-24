@@ -1,0 +1,19 @@
+{
+ "videoId": "w9rtg9uUcpA",
+ "ids": [
+  "w9rtg9uUcpA-294"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "w9rtg9uUcpA-294": {
+   "id": "w9rtg9uUcpA-294",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear explanation of how the film blocks bacteria with visual demonstration."
+  }
+ }
+}

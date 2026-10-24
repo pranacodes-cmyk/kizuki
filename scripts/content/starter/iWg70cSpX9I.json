@@ -1,0 +1,30 @@
+{
+ "videoId": "iWg70cSpX9I",
+ "ids": [
+  "iWg70cSpX9I-435",
+  "iWg70cSpX9I-483"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "iWg70cSpX9I-435": {
+   "id": "iWg70cSpX9I-435",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear vocabulary review with visual cues, easy for beginners."
+  },
+  "iWg70cSpX9I-483": {
+   "id": "iWg70cSpX9I-483",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Engaging, relatable question delivered in very clear, simple Japanese."
+  }
+ }
+}

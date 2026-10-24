@@ -2,13 +2,13 @@
 import { describe, expect, it } from "vitest";
 
 import {
-  purchaseNeedsAccount, ReviewSession, SUPPORT_TOPICS, supportMessageError, answerCard, bestStreak, clipScore, currentStreak, dayKey, dayMs, fnv1a, formatInterval, goalDateLabel,
+  purchaseNeedsAccount, ReviewSession, SUPPORT_TOPICS, supportMessageError, answerCard, bestStreak, clipScore, currentStreak, dayKey, dayMs, fnv1a, formatInterval, formatWhen, goalDateLabel,
   heatLevel, heatmapWeeks, kanaDeck, levelToJlpt, mergeActivity, mergeByUpdatedAt, minuteMs, minutesLeft, newCard,
   newlyUnlocked, nextIntervalLabel, normalizeQuery, planItems, rankFeed, recommendedMinutes, toKatakana, wordStatus, wordsPerMonth,
   searchClips, clipWordKeys, wordKeyOf, dueWordKeys, wordCounts, mergeState, canWatchClip, clipsWithWord, kanaQueue, kanaLearned, customStudyKeys,
   asksToday, canAsk, asksLeft, cleanQuestion, askHistory, type AskTurn,
   wordLevel, cardAtLevel, withWordLevel, WORD_LEVELS, repeatsSense, pickTourWord,
-  type RankClip, onboardingFeedOrder, clipWindowAvailable, simulatedTrialEnd, subscriptionPhase,
+  type RankClip, starterFeedOrder, STARTER_WATCH_LIMIT, type StarterClip, clipWindowAvailable, simulatedTrialEnd, subscriptionPhase,
 } from "./logic";
 
 const NOW = 1_800_000_000_000;
@@ -66,14 +66,25 @@ describe("feed ranking", () => {
     expect(clipWindowAvailable(231.6, 247.4, 301)).toBe(true);
     expect(clipWindowAvailable(303.1, 316.8, 0)).toBe(true);
   });
-  it("every onboarding preview starts with the same showcase without duplicates", () => {
-    for (const order of [["a-1", "0dBf_DAXNuc-6"], ["b-1", "a-1"]]) {
-      const result = onboardingFeedOrder(order, ["0dBf_DAXNuc-6", ...order]);
-      expect(result[0]).toBe("0dBf_DAXNuc-6");
-      expect(result.filter((id) => id === "0dBf_DAXNuc-6")).toHaveLength(1);
-      expect(result.slice(1)).toEqual(order.filter((id) => id !== "0dBf_DAXNuc-6"));
-    }
-    expect(onboardingFeedOrder(["a-1"], ["a-1"])).toEqual(["a-1"]);
+  describe("starter feed", () => {
+    const starter: StarterClip[] = [{ id: "0dBf_DAXNuc-6", level: "N5" }, { id: "s-2", level: "N5" }, { id: "s-3", level: "N4" }, { id: "gone-1", level: "N5" }];
+    const personal = ["p-1", "s-3", "p-2", "0dBf_DAXNuc-6", "s-2"];
+    it("everyone starts with the curated clips in order, then their personal feed without repeats", () => {
+      expect(starterFeedOrder(personal, starter)).toEqual(["0dBf_DAXNuc-6", "s-2", "s-3", "p-1", "p-2"]);
+    });
+    it("watched starter clips leave the lead (personal ranking places them); missing ones are ignored", () => {
+      expect(starterFeedOrder(personal, starter, { seen: { "0dBf_DAXNuc-6": 1 }, watched: 1 })).toEqual(["s-2", "s-3", "p-1", "p-2", "0dBf_DAXNuc-6"]);
+    });
+    it("advanced learners skip starters more than two levels easier", () => {
+      expect(starterFeedOrder(personal, starter, { jlpt: "N3" })).toEqual(["0dBf_DAXNuc-6", "s-2", "s-3", "p-1", "p-2"]);
+      expect(starterFeedOrder(personal, starter, { jlpt: "N2" })).toEqual(["s-3", "p-1", "p-2", "0dBf_DAXNuc-6", "s-2"]);
+      expect(starterFeedOrder(personal, starter, { jlpt: "N1" })).toEqual(personal);
+    });
+    it("after 60 watched clips the feed is fully personal", () => {
+      expect(STARTER_WATCH_LIMIT).toBe(60);
+      expect(starterFeedOrder(personal, starter, { watched: 59 })[0]).toBe("0dBf_DAXNuc-6");
+      expect(starterFeedOrder(personal, starter, { watched: 60 })).toEqual(personal);
+    });
   });
   it("hashes like the Dart client", () => {
     expect(fnv1a("a")).toBe(3826002220);
@@ -145,6 +156,18 @@ describe("spaced repetition", () => {
     expect(formatInterval(60 * dayMs)).toBe("2mo");
     expect(nextIntervalLabel(newCard(NOW), "again", NOW)).toBe("1m");
     expect(nextIntervalLabel(newCard(NOW), "good", NOW)).toBe("10m");
+  });
+  it('says when a word comes back in plain words (no "10m" codes)', () => {
+    expect(formatWhen(0)).toBe("now");
+    expect(formatWhen(-5000)).toBe("now");
+    expect(formatWhen(30_000)).toBe("in under a minute");
+    expect(formatWhen(minuteMs)).toBe("in 1 minute");
+    expect(formatWhen(10 * minuteMs)).toBe("in 10 minutes");
+    expect(formatWhen(3 * 3600_000)).toBe("in 3 hours");
+    expect(formatWhen(dayMs)).toBe("tomorrow");
+    expect(formatWhen(3 * dayMs)).toBe("in 3 days");
+    expect(formatWhen(60 * dayMs)).toBe("in 2 months");
+    expect(formatWhen(400 * dayMs)).toBe("in 1 year");
   });
   it("words become known automatically after 21 days interval", () => {
     const c = { ...newCard(NOW), state: "review" as const, interval: 21 };

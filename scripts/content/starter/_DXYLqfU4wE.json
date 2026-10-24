@@ -1,0 +1,19 @@
+{
+ "videoId": "_DXYLqfU4wE",
+ "ids": [
+  "_DXYLqfU4wE-219"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "_DXYLqfU4wE-219": {
+   "id": "_DXYLqfU4wE-219",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Relatable ice cream tasting moment with natural conversational Japanese."
+  }
+ }
+}

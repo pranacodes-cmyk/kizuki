@@ -1,0 +1,30 @@
+{
+ "videoId": "VNJt72OD4ps",
+ "ids": [
+  "VNJt72OD4ps-116",
+  "VNJt72OD4ps-374"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "VNJt72OD4ps-374": {
+   "id": "VNJt72OD4ps-374",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear audio and simple sentences about seasons with pleasant visuals."
+  },
+  "VNJt72OD4ps-116": {
+   "id": "VNJt72OD4ps-116",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Slow, clear beginner speech discussing foreign languages on text slides."
+  }
+ }
+}

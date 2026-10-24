@@ -1,0 +1,30 @@
+{
+ "videoId": "VEWu8O8zdZ8",
+ "ids": [
+  "VEWu8O8zdZ8-421",
+  "VEWu8O8zdZ8-716"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "VEWu8O8zdZ8-716": {
+   "id": "VEWu8O8zdZ8-716",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Fun cultural setting with clear, simple beginner phrases."
+  },
+  "VEWu8O8zdZ8-421": {
+   "id": "VEWu8O8zdZ8-421",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Lively iconic Shibuya scene with accessible everyday Japanese."
+  }
+ }
+}

@@ -2,122 +2,124 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 8.8,
-   "end": 26.2,
+   "start": 9.3,
+   "end": 26.5,
    "title": "Black Diamonds of the Past",
    "level": "N3",
    "topics": [
-    "culture",
-    "daily"
+    "anime",
+    "culture"
    ],
    "grammar": [
-    "〜ていた — past continuous/state",
-    "〜と呼ばれる — to be called"
+    "〜ていた — past ongoing state",
+    "〜と呼ばれる — passive calling"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 9.0,
-     "end": 12.7,
+     "start": 9.5,
+     "end": 12.6,
      "ja": "昔この地域は石炭で栄えていたんだよ。",
-     "en": "In the past, this region flourished from coal.",
-     "speaker": "Farmer"
+     "en": "In the past, this region flourished with coal.",
+     "speaker": "Man"
     },
     {
-     "start": 12.9,
-     "end": 15.3,
+     "start": 12.8,
+     "end": 16.0,
      "ja": "石炭は黒いダイヤと呼ばれていたんだよ！",
-     "en": "Coal was called 'black diamonds'!",
-     "speaker": "Farmer"
+     "en": "Coal was called black diamonds!",
+     "speaker": "Man"
     },
     {
-     "start": 21.8,
-     "end": 25.8,
+     "start": 21.6,
+     "end": 26.2,
      "ja": "石炭運搬、そして地域住民の足として活躍。",
-     "en": "It served to transport coal, and as vital transit for local residents.",
+     "en": "It served to transport coal and as transport for local residents.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 29.5,
+   "start": 29.2,
    "end": 51.5,
    "title": "Times Change to Red Diamonds",
    "level": "N4",
    "topics": [
-    "daily",
+    "anime",
     "food"
    ],
    "grammar": [
     "〜になる — to become",
-    "〜なら — if it's the case that"
+    "〜なら — if it is / hypothetical"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 29.8,
+     "start": 29.5,
      "end": 31.7,
      "ja": "時代は変わり。",
      "en": "Times changed.",
      "speaker": "Narrator"
     },
     {
-     "start": 32.4,
-     "end": 35.3,
+     "start": 32.2,
+     "end": 35.0,
      "ja": "今この地域はリンゴの生産地になったのさ！",
      "en": "Now this region has become an apple-producing area!",
-     "speaker": "Farmer"
+     "speaker": "Man"
     },
     {
-     "start": 35.4,
-     "end": 37.4,
+     "start": 35.2,
+     "end": 37.0,
      "ja": "赤いダイヤだよ！！",
-     "en": "They are red diamonds!!",
-     "speaker": "Farmer"
+     "en": "Red diamonds!!",
+     "speaker": "Man"
     },
     {
-     "start": 47.4,
-     "end": 50.7,
+     "start": 47.5,
+     "end": 51.2,
      "ja": "お前なら、どっちの時代に幸せを感じる？",
-     "en": "Which era would make you feel happier?",
-     "speaker": "Farmer"
+     "en": "If it were you, in which era would you feel happiness?",
+     "speaker": "Man"
     }
    ]
   },
   {
-   "start": 102.0,
+   "start": 102.3,
    "end": 115.0,
-   "title": "Caught Red-Handed",
-   "level": "N4",
+   "title": "Catching the Apple Thief",
+   "level": "N3",
    "topics": [
+    "anime",
     "comedy",
     "animals"
    ],
    "grammar": [
-    "〜な — do not (prohibition)"
+    "やっぱり — as expected",
+    "〜な — strong prohibition"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 102.5,
-     "end": 105.1,
+     "start": 102.6,
+     "end": 105.4,
      "ja": "犯人は？…お前か！！",
-     "en": "The culprit is...? You?!",
-     "speaker": "Farmer"
+     "en": "Who's the culprit?... It's you?!",
+     "speaker": "Man"
     },
     {
-     "start": 107.9,
-     "end": 109.9,
+     "start": 107.4,
+     "end": 109.5,
      "ja": "やっぱり黒だ！",
-     "en": "He really is guilty!",
-     "speaker": "Farmer"
+     "en": "You're definitely guilty!",
+     "speaker": "Man"
     },
     {
-     "start": 112.0,
-     "end": 114.4,
+     "start": 111.8,
+     "end": 114.5,
      "ja": "畑荒らすな！！",
-     "en": "Don't ruin the fields!!",
-     "speaker": "Farmer"
+     "en": "Don't ruin my fields!!",
+     "speaker": "Man"
     }
    ]
   }
@@ -126,5 +128,6 @@
  "pickTopics": [
   "anime"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

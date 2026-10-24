@@ -1,0 +1,30 @@
+{
+ "videoId": "LyR-eybr_qQ",
+ "ids": [
+  "LyR-eybr_qQ-319",
+  "LyR-eybr_qQ-7"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "LyR-eybr_qQ-7": {
+   "id": "LyR-eybr_qQ-7",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Relatable morning routine clip with clear, casual daily speech."
+  },
+  "LyR-eybr_qQ-319": {
+   "id": "LyR-eybr_qQ-319",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Everyday domestic scene showing simple fridge cooking routine."
+  }
+ }
+}

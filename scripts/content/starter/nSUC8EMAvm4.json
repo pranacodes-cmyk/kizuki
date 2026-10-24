@@ -1,0 +1,19 @@
+{
+ "videoId": "nSUC8EMAvm4",
+ "ids": [
+  "nSUC8EMAvm4-614"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "nSUC8EMAvm4-614": {
+   "id": "nSUC8EMAvm4-614",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Scenic Kyoto temple views paired with simple, relatable Japanese commentary."
+  }
+ }
+}

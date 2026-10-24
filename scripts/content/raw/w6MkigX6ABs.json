@@ -10,136 +10,175 @@
     "anime"
    ],
    "grammar": [
-    "〜かの如く — as if",
-    "〜において — in / within",
-    "〜ようとする — be about to"
+    "かの如く — as if",
+    "〜ようとする — about to do"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 1.0,
-     "end": 2.5,
-     "ja": "ＤＭＭＯーＲＰＧ。",
+     "end": 2.8,
+     "ja": "DMMO-RPG。",
      "en": "DMMO-RPG.",
      "speaker": "Narrator"
     },
     {
-     "start": 3.2,
-     "end": 8.5,
-     "ja": "仮想世界で現実にいるかの如く遊べる体験型ゲームのことである。",
-     "en": "It refers to experiential games where one can play in a virtual world as if it were reality.",
+     "start": 3.4,
+     "end": 6.0,
+     "ja": "仮想世界で現実にいるかの如く遊べる",
+     "en": "An experiential game where you can play in a virtual world as if in reality.",
      "speaker": "Narrator"
     },
     {
-     "start": 9.3,
-     "end": 10.8,
+     "start": 6.0,
+     "end": 8.0,
+     "ja": "体験型ゲームのことである。",
+     "en": "That is what it refers to.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 9.2,
+     "end": 10.6,
      "ja": "ユグドラシル。",
      "en": "Yggdrasil.",
      "speaker": "Narrator"
     },
     {
-     "start": 11.8,
-     "end": 19.2,
-     "ja": "西暦2126年に発売されたそのタイトルは、日本国内において爆発的な人気を博した。",
-     "en": "Released in the year 2126, that title achieved explosive popularity within Japan.",
+     "start": 11.5,
+     "end": 14.8,
+     "ja": "西暦２１２６年に発売されたそのタイトルは、",
+     "en": "Released in the year 2126, that title",
      "speaker": "Narrator"
     },
     {
-     "start": 20.5,
-     "end": 25.4,
-     "ja": "それから12年、ユグドラシルは最後の時を迎えようとしていた。",
-     "en": "Twelve years since then, Yggdrasil was about to welcome its final moments.",
+     "start": 15.0,
+     "end": 19.4,
+     "ja": "日本国内において爆発的な人気を博した。",
+     "en": "achieved explosive popularity within Japan.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 20.3,
+     "end": 22.0,
+     "ja": "それから１２年。",
+     "en": "Twelve years after that,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 22.3,
+     "end": 25.0,
+     "ja": "ユグドラシルは、最後の時を迎えようとしていた。",
+     "en": "Yggdrasil was about to meet its final moments.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 240.6,
-   "end": 254.0,
-   "title": "I Must Become Stronger",
-   "level": "N3",
-   "topics": [
-    "anime"
-   ],
-   "grammar": [
-    "〜かどうか — whether or not",
-    "〜次第 — depending on",
-    "〜なければならない — must"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 240.8,
-     "end": 242.8,
-     "ja": "なあ、俺たちは強いのか？",
-     "en": "Hey, are we strong?",
-     "speaker": "Brain"
-    },
-    {
-     "start": 243.2,
-     "end": 245.9,
-     "ja": "そこから何かを掴み取るかどうかはお前次第だ。",
-     "en": "Whether you take something away from that is up to you.",
-     "speaker": "Gazef"
-    },
-    {
-     "start": 246.0,
-     "end": 248.8,
-     "ja": "俺は強くならなければならないのです。",
-     "en": "I must become stronger.",
-     "speaker": "Climb"
-    },
-    {
-     "start": 248.9,
-     "end": 251.0,
-     "ja": "ラナー様をお守りするために。",
-     "en": "In order to protect Lady Renner.",
-     "speaker": "Climb"
-    },
-    {
-     "start": 251.3,
-     "end": 253.6,
-     "ja": "問題ない。一撃だ。",
-     "en": "No problem. Just one blow.",
-     "speaker": "Sebas"
-    }
-   ]
-  },
-  {
-   "start": 335.1,
+   "start": 335.2,
    "end": 351.2,
-   "title": "A Battle for Humanity's Survival",
+   "title": "A Fight for Humanity's Survival",
    "level": "N2",
    "topics": [
     "anime"
    ],
    "grammar": [
-    "〜のための — for / in order to",
-    "〜という — called / that is",
-    "〜をかけた — putting ... on the line"
+    "〜のための — for the sake of",
+    "〜を懸けた — with something at stake"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 335.3,
-     "end": 343.5,
-     "ja": "我々の目的は、帝国、王国、法国、対アインズ・ウール・ゴウンのための大連合の設立だ。",
-     "en": "Our objective is the establishment of a grand alliance between the Empire, Kingdom, and Theocracy against Ainz Ooal Gown.",
+     "start": 335.5,
+     "end": 336.8,
+     "ja": "我々の目的は、",
+     "en": "Our objective is",
      "speaker": "Man"
     },
     {
-     "start": 343.8,
-     "end": 346.6,
+     "start": 337.0,
+     "end": 339.2,
+     "ja": "帝国、王国、法国、",
+     "en": "the Empire, Kingdom, Theocracy,",
+     "speaker": "Man"
+    },
+    {
+     "start": 339.7,
+     "end": 341.8,
+     "ja": "対アインズ・ウール・ゴウンのための",
+     "en": "the formation of a grand alliance",
+     "speaker": "Man"
+    },
+    {
+     "start": 341.8,
+     "end": 343.8,
+     "ja": "大連合の設立だ。",
+     "en": "to oppose Ainz Ooal Gown.",
+     "speaker": "Man"
+    },
+    {
+     "start": 344.2,
+     "end": 346.5,
      "ja": "これは国家間の争いではない。",
-     "en": "This is not a dispute between nations.",
+     "en": "This is not a conflict between nations.",
      "speaker": "Man"
     },
     {
-     "start": 346.7,
-     "end": 351.1,
-     "ja": "人という種族の存続をかけた、未来を守る戦いだ。",
-     "en": "It is a battle to protect the future, with the survival of humanity on the line.",
+     "start": 346.8,
+     "end": 348.9,
+     "ja": "人という種族の存続を懸けた、",
+     "en": "With the very survival of humanity at stake,",
      "speaker": "Man"
+    },
+    {
+     "start": 349.1,
+     "end": 350.8,
+     "ja": "未来を守る戦いだ。",
+     "en": "it is a battle to protect the future.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 501.8,
+   "end": 513.8,
+   "title": "Declaration of the Sorcerer Kingdom",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜が来た — the time has come",
+    "〜を宣言する — to declare"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 502.1,
+     "end": 505.0,
+     "ja": "ついにナザリックが表に出る時が来た。",
+     "en": "The time has finally come for Nazarick to step out into the open.",
+     "speaker": "Ainz"
+    },
+    {
+     "start": 506.6,
+     "end": 508.6,
+     "ja": "私はここに、",
+     "en": "I hereby...",
+     "speaker": "Ainz"
+    },
+    {
+     "start": 508.9,
+     "end": 511.9,
+     "ja": "アインズ・ウール・ゴウン魔導国建国を",
+     "en": "...the founding of the Sorcerer Kingdom of Ainz Ooal Gown...",
+     "speaker": "Ainz"
+    },
+    {
+     "start": 512.1,
+     "end": 513.5,
+     "ja": "宣言する！",
+     "en": "...declare!",
+     "speaker": "Ainz"
     }
    ]
   }
@@ -148,5 +187,6 @@
  "pickTopics": [
   "anime"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

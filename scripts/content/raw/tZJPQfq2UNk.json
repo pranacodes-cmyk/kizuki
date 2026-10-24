@@ -2,142 +2,189 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 37.5,
-   "end": 54.9,
-   "title": "Caught Badmouthing the Prince",
-   "level": "N2",
+   "start": 12.0,
+   "end": 26.5,
+   "title": "Erika's Dilemma",
+   "level": "N3",
    "topics": [
     "anime",
-    "comedy",
-    "school"
+    "school",
+    "romance"
    ],
    "grammar": [
-    "〜とは — expressing surprise or indignation",
-    "〜んじゃないか — asking for confirmation or speculating"
+    "〜そうになる — almost did",
+    "〜はずだった — was supposed to be"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 37.7,
-     "end": 40.5,
-     "ja": "へえー、誰が最低ゲスだって？",
-     "en": "Oh? Who did you say was the lowest scum?",
-     "speaker": "Kyouya"
-    },
-    {
-     "start": 40.8,
-     "end": 42.4,
-     "ja": "きょ、恭也くん！？",
-     "en": "Ky-Kyouya-kun?!",
+     "start": 12.3,
+     "end": 14.1,
+     "ja": "友達についた、",
+     "en": "To my friends, I lied...",
      "speaker": "Erika"
     },
     {
-     "start": 42.5,
+     "start": 14.1,
+     "end": 16.2,
+     "ja": "彼氏がいるという嘘がバレそうになった私、",
+     "en": "...about having a boyfriend, and when it was about to be exposed, I, Erika Shinohara...",
+     "speaker": "Erika"
+    },
+    {
+     "start": 16.3,
+     "end": 17.5,
+     "ja": "篠原エリカ。",
+     "en": "...Erika Shinohara.",
+     "speaker": "Erika"
+    },
+    {
+     "start": 17.6,
+     "end": 21.0,
+     "ja": "そんな私の大ピンチを救ってくれたのは、",
+     "en": "The one who saved me from that huge pinch was...",
+     "speaker": "Erika"
+    },
+    {
+     "start": 21.1,
+     "end": 23.3,
+     "ja": "超イケメンで紳士な学校の王子様…",
+     "en": "...the super handsome, gentlemanly school prince...",
+     "speaker": "Erika"
+    },
+    {
+     "start": 23.5,
+     "end": 26.0,
+     "ja": "…のはずだったのになあ。",
+     "en": "...or at least, that's what he was supposed to be.",
+     "speaker": "Erika"
+    }
+   ]
+  },
+  {
+   "start": 37.8,
+   "end": 58.2,
+   "title": "The Black Prince",
+   "level": "N3",
+   "topics": [
+    "anime",
+    "school",
+    "comedy"
+   ],
+   "grammar": [
+    "〜だって — quoting speech",
+    "〜に対する — toward / regarding",
+    "〜みたいだ — seems like"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 37.9,
+     "end": 40.9,
+     "ja": "へえ、誰が最低下劣だって？",
+     "en": "Heh, who did you say was the lowest scum?",
+     "speaker": "Kyouya"
+    },
+    {
+     "start": 41.0,
+     "end": 42.5,
+     "ja": "きょ、恭也くん？！",
+     "en": "Kyo... Kyouya?!",
+     "speaker": "Erika"
+    },
+    {
+     "start": 42.6,
      "end": 46.8,
      "ja": "陰でコソコソと人を貶めるとは、いいご身分になったもんだな。",
-     "en": "Sneaking around badmouthing someone behind their back... quite full of yourself, aren't you?",
+     "en": "Talking trash behind my back... you sure think highly of yourself.",
      "speaker": "Kyouya"
     },
     {
-     "start": 46.9,
+     "start": 47.0,
      "end": 49.0,
-     "ja": "そ、そんなことしてないよ！",
-     "en": "I-I didn't do anything like that!",
+     "ja": "そ、そんなことしてないよ？",
+     "en": "I-I'm not doing that!",
      "speaker": "Erika"
     },
     {
-     "start": 49.1,
-     "end": 51.3,
+     "start": 49.2,
+     "end": 51.5,
      "ja": "この状況でも嘘をつくとはな。",
-     "en": "To think you'd still lie in a situation like this.",
+     "en": "Still lying even in this situation, huh?",
      "speaker": "Kyouya"
     },
     {
-     "start": 51.5,
+     "start": 51.7,
      "end": 54.7,
-     "ja": "ご主人様に対する礼儀がなってないんじゃないか？",
-     "en": "Aren't you lacking proper manners toward your master?",
+     "ja": "ご主人様に対する礼儀がなっていないんじゃないか？",
+     "en": "Don't you lack respect toward your master?",
+     "speaker": "Kyouya"
+    },
+    {
+     "start": 55.2,
+     "end": 58.0,
+     "ja": "まだお前にはしつけが必要みたいだな。",
+     "en": "Looks like you still need some training.",
      "speaker": "Kyouya"
     }
    ]
   },
   {
-   "start": 104.9,
-   "end": 118.0,
-   "title": "Spin Three Times and Bark",
+   "start": 73.2,
+   "end": 86.8,
+   "title": "Bark Like a Dog",
    "level": "N3",
    "topics": [
     "anime",
-    "comedy",
-    "romance"
+    "school",
+    "comedy"
    ],
    "grammar": [
-    "〜てやる — to do something for someone",
-    "〜てろ — imperative of doing continuously"
+    "〜てろ — imperative form of 〜ている",
+    "〜なんて — things like / expressing doubt"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 105.1,
-     "end": 106.1,
-     "ja": "エリカ。",
-     "en": "Erika.",
-     "speaker": "Kyouya"
-    },
-    {
-     "start": 106.1,
-     "end": 107.1,
-     "ja": "えっ、何？",
-     "en": "Huh, what?",
+     "start": 73.3,
+     "end": 75.2,
+     "ja": "畜生、いつか見てろよ…",
+     "en": "Damn it, just you wait...",
      "speaker": "Erika"
     },
     {
-     "start": 107.2,
-     "end": 108.6,
-     "ja": "３回回ってワン。",
-     "en": "Spin three times and bark.",
-     "speaker": "Kyouya"
-    },
-    {
-     "start": 108.6,
-     "end": 109.5,
-     "ja": "え？",
-     "en": "Huh?",
-     "speaker": "Erika"
-    },
-    {
-     "start": 109.6,
-     "end": 111.4,
-     "ja": "これだけで許してやろうっていうんだ。",
-     "en": "I'm offering to forgive you with just that.",
-     "speaker": "Kyouya"
-    },
-    {
-     "start": 111.6,
-     "end": 113.1,
-     "ja": "至極良心的だろ。",
-     "en": "Quite generous of me, isn't it?",
-     "speaker": "Kyouya"
-    },
-    {
-     "start": 113.2,
-     "end": 115.3,
-     "ja": "くっ…いつか見てろよ…",
-     "en": "Ugh... just you wait...",
-     "speaker": "Erika"
-    },
-    {
-     "start": 115.4,
-     "end": 116.6,
+     "start": 75.4,
+     "end": 76.6,
      "ja": "何か言ったか？",
      "en": "Did you say something?",
      "speaker": "Kyouya"
     },
     {
-     "start": 116.7,
-     "end": 117.7,
-     "ja": "何でもないです！",
-     "en": "Nothing at all!",
+     "start": 76.7,
+     "end": 78.2,
+     "ja": "何でもないです。",
+     "en": "It's nothing!",
+     "speaker": "Erika"
+    },
+    {
+     "start": 78.6,
+     "end": 82.4,
+     "ja": "こんなことで本物の彼氏なんてできるのかな…",
+     "en": "Can I really get a real boyfriend like this...?",
+     "speaker": "Erika"
+    },
+    {
+     "start": 82.6,
+     "end": 83.8,
+     "ja": "エリカ。",
+     "en": "Erika.",
+     "speaker": "Kyouya"
+    },
+    {
+     "start": 84.0,
+     "end": 86.4,
+     "ja": "くっ…ワン！",
+     "en": "Ugh... Woof!",
      "speaker": "Erika"
     }
    ]
@@ -148,5 +195,6 @@
   "anime",
   "romance"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -2,73 +2,66 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 141.0,
-   "end": 158.2,
-   "title": "Morning Sports Routine",
+   "start": 140.5,
+   "end": 159.5,
+   "title": "What Sports Do You Do Every Morning?",
    "level": "N4",
    "topics": [
-    "sports",
     "daily",
+    "sports",
     "comedy"
    ],
    "grammar": [
-    "〜ている — ongoing action",
+    "〜てる — ongoing action",
     "〜から — and then / after"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 141.3,
-     "end": 143.0,
+     "start": 140.7,
+     "end": 142.5,
      "ja": "何かスポーツやってるんですか？",
      "en": "Do you do any sports?",
      "speaker": "Nagai"
     },
     {
-     "start": 143.0,
-     "end": 144.7,
+     "start": 142.6,
+     "end": 144.3,
      "ja": "スポーツはもう毎朝やってます。",
      "en": "I do sports every morning.",
      "speaker": "Yashima"
     },
     {
-     "start": 144.7,
-     "end": 146.0,
-     "ja": "何やってるんですか、スポーツ？",
+     "start": 144.4,
+     "end": 145.7,
+     "ja": "何やってるんですか？スポーツ。",
      "en": "What kind of sports do you do?",
      "speaker": "Nagai"
     },
     {
-     "start": 146.0,
+     "start": 145.8,
      "end": 148.3,
      "ja": "自転車、ランニング、それからちょっとストレッチ。",
-     "en": "Cycling, running, and then some stretching.",
+     "en": "Biking, running, and then some stretching.",
      "speaker": "Yashima"
     },
     {
-     "start": 148.3,
+     "start": 148.4,
      "end": 151.0,
-     "ja": "自転車、ランニング、ストレッチ？！",
-     "en": "Cycling, running, stretching?!",
+     "ja": "自転車、ランニング、ストレッチ！？",
+     "en": "Biking, running, stretching?!",
      "speaker": "Nagai"
     },
     {
-     "start": 151.0,
-     "end": 152.5,
-     "ja": "どっしゃー！",
-     "en": "Whoa!",
-     "speaker": "Nagai"
-    },
-    {
-     "start": 153.2,
+     "start": 153.4,
      "end": 155.6,
-     "ja": "ちょっと、みんなびっくりしてるよ。",
-     "en": "Hey, you're startling everyone.",
+     "ja": "ちょっと！みんなびっくりしてるよ。",
+     "en": "Hold on! You're startling everyone.",
      "speaker": "Yashima"
     },
     {
-     "start": 155.6,
-     "end": 158.0,
+     "start": 155.7,
+     "end": 158.8,
      "ja": "僕が一番びっくりしてますよ、八島さん。",
      "en": "I'm the one who's most surprised, Yashima-san!",
      "speaker": "Nagai"
@@ -76,170 +69,140 @@
    ]
   },
   {
-   "start": 253.2,
-   "end": 313.0,
-   "title": "Rock-Paper-Scissors and a Forehead Flick",
+   "start": 161.3,
+   "end": 175.8,
+   "title": "Guessing Yashima-san's Age",
    "level": "N4",
    "topics": [
-    "fun",
-    "comedy",
-    "culture"
+    "daily",
+    "comedy"
    ],
    "grammar": [
-    "〜た方 — the one who (did/does)",
-    "〜てよ — imperative / request"
+    "〜によると — according to",
+    "じゃないですか — isn't it?"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 253.6,
-     "end": 255.6,
-     "ja": "最後にじゃんけんをして、",
-     "en": "Finally, let's play rock-paper-scissors,",
+     "start": 161.5,
+     "end": 163.2,
+     "ja": "でもお年、あれですよね？",
+     "en": "And regarding your age...",
      "speaker": "Nagai"
     },
     {
-     "start": 255.6,
-     "end": 257.6,
-     "ja": "負けた方がデコピン。",
-     "en": "and the loser gets a forehead flick.",
+     "start": 163.4,
+     "end": 167.4,
+     "ja": "多分僕の見た目によりますと、えー、40…",
+     "en": "Judging by how you look to me, maybe 40...",
      "speaker": "Nagai"
     },
     {
-     "start": 257.6,
-     "end": 258.8,
-     "ja": "デコピンね。",
-     "en": "A forehead flick, got it.",
+     "start": 167.6,
+     "end": 169.6,
+     "ja": "42、いいんじゃないですか？",
+     "en": "42, right?",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 169.8,
+     "end": 171.1,
+     "ja": "冗談じゃないよ。",
+     "en": "You've got to be kidding.",
      "speaker": "Yashima"
     },
     {
-     "start": 258.8,
-     "end": 300.6,
-     "ja": "最初はグー、じゃんけんぽん！",
-     "en": "First comes rock, rock-paper-scissors!",
+     "start": 171.2,
+     "end": 172.2,
+     "ja": "何歳ですか？",
+     "en": "How old are you?",
      "speaker": "Nagai"
     },
     {
-     "start": 300.6,
-     "end": 302.5,
-     "ja": "あいこでしょ！あーっしょ！",
-     "en": "It's a tie, shoot! Shoot!",
-     "speaker": "Nagai"
-    },
-    {
-     "start": 303.4,
-     "end": 305.7,
-     "ja": "痛ーっ！",
-     "en": "Ouch!",
-     "speaker": "Nagai"
-    },
-    {
-     "start": 305.7,
-     "end": 307.7,
-     "ja": "いたたたたたたた！",
-     "en": "Ow ow ow ow ow ow!",
-     "speaker": "Nagai"
-    },
-    {
-     "start": 308.5,
-     "end": 309.8,
-     "ja": "もういいよ。",
-     "en": "Alright, that's enough.",
+     "start": 172.3,
+     "end": 173.5,
+     "ja": "64だよ。",
+     "en": "I'm 64.",
      "speaker": "Yashima"
     },
     {
-     "start": 309.8,
-     "end": 311.8,
-     "ja": "体張って頑張ってよ！",
-     "en": "Keep giving it your all physically!",
-     "speaker": "Yashima"
-    },
-    {
-     "start": 311.8,
-     "end": 312.8,
-     "ja": "ありがとうございます！",
-     "en": "Thank you very much!",
+     "start": 173.6,
+     "end": 175.5,
+     "ja": "64！？",
+     "en": "Sixty-four?!",
      "speaker": "Nagai"
     }
    ]
   },
   {
-   "start": 315.5,
-   "end": 333.5,
-   "title": "Official Friendship Certificate",
+   "start": 184.2,
+   "end": 203.2,
+   "title": "Rock-Paper-Scissors with a Forehead Flick",
    "level": "N4",
    "topics": [
-    "friends",
     "fun",
     "comedy"
    ],
    "grammar": [
-    "〜になる — to become",
-    "〜て言う — to say that ..."
+    "〜方 — the one who (does)",
+    "〜て — connecting actions"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 316.0,
-     "end": 317.8,
-     "ja": "街ぶらトーク会員証。",
-     "en": "Town Stroll Talk membership card.",
+     "start": 184.4,
+     "end": 186.0,
+     "ja": "すいません八島さん、ありがとうございます。",
+     "en": "Excuse me Yashima-san, thank you very much.",
      "speaker": "Nagai"
     },
     {
-     "start": 317.8,
-     "end": 320.0,
-     "ja": "お友達ナンバー005。",
-     "en": "Friend number 005.",
-     "speaker": "Nagai"
-    },
-    {
-     "start": 320.0,
-     "end": 322.5,
-     "ja": "あなたは芸人・永井佑一郎と",
-     "en": "You and comedian Yuichiro Nagai",
-     "speaker": "Nagai"
-    },
-    {
-     "start": 322.5,
-     "end": 323.7,
-     "ja": "お友達になりました。",
-     "en": "have become friends.",
-     "speaker": "Nagai"
-    },
-    {
-     "start": 323.7,
-     "end": 325.0,
-     "ja": "今後ともよろしくお願いします！",
-     "en": "Looking forward to continuing our friendship!",
-     "speaker": "Nagai"
-    },
-    {
-     "start": 325.0,
-     "end": 326.2,
-     "ja": "はい、分かりました。",
-     "en": "Yes, understood.",
+     "start": 186.0,
+     "end": 187.3,
+     "ja": "こちらの人は何なの？",
+     "en": "Who is this person here?",
      "speaker": "Yashima"
     },
     {
-     "start": 326.2,
-     "end": 328.5,
-     "ja": "「永井佑一郎とお友達になりました」って言ってください。",
-     "en": "Please say, 'I became friends with Yuichiro Nagai.'",
+     "start": 187.3,
+     "end": 188.5,
+     "ja": "こっちはスタッフなんですけど。",
+     "en": "He's part of the crew.",
      "speaker": "Nagai"
     },
     {
-     "start": 328.5,
-     "end": 331.2,
-     "ja": "永井佑一郎君とお友達になりました！",
-     "en": "I became friends with Yuichiro Nagai-kun!",
+     "start": 188.7,
+     "end": 191.2,
+     "ja": "スタッフ？ちょっと大変だね。",
+     "en": "Crew? That must be tough.",
      "speaker": "Yashima"
     },
     {
-     "start": 331.2,
-     "end": 333.2,
-     "ja": "ありがとうございます！",
-     "en": "Thank you so much!",
+     "start": 191.3,
+     "end": 193.3,
+     "ja": "「大変だね」じゃないですよ。",
+     "en": "Don't just say 'it must be tough'!",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 193.4,
+     "end": 197.6,
+     "ja": "八島さん、最後にじゃんけんをして、負けた方がデコピン。",
+     "en": "Yashima-san, let's play rock-paper-scissors, loser gets a forehead flick.",
+     "speaker": "Nagai"
+    },
+    {
+     "start": 197.7,
+     "end": 198.8,
+     "ja": "デコピンね。",
+     "en": "A forehead flick, got it.",
+     "speaker": "Yashima"
+    },
+    {
+     "start": 198.9,
+     "end": 202.8,
+     "ja": "最初はグー、じゃんけんぽん！あいこでしょ！あー、しょ！",
+     "en": "First is rock, rock-paper-scissors! Tie! Again!",
      "speaker": "Nagai"
     }
    ]
@@ -249,5 +212,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -2,166 +2,163 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 23.0,
-   "end": 48.8,
-   "title": "Living in Osaka and Nagoya",
-   "level": "N5",
-   "topics": [
-    "travel",
-    "daily"
-   ],
-   "grammar": [
-    "〜にいる — to be at/in",
-    "〜ていた — past progressive/state",
-    "〜が好き — to like"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 23.0,
-     "end": 27.5,
-     "ja": "はい、今、私は名古屋にいます。",
-     "en": "Yes, right now I'm in Nagoya.",
-     "speaker": "Shun"
-    },
-    {
-     "start": 28.5,
-     "end": 32.8,
-     "ja": "去年、大阪にいました。",
-     "en": "Last year, I was in Osaka.",
-     "speaker": "Shun"
-    },
-    {
-     "start": 33.0,
-     "end": 36.5,
-     "ja": "大阪に住んでいました。",
-     "en": "I lived in Osaka.",
-     "speaker": "Shun"
-    },
-    {
-     "start": 37.0,
-     "end": 43.5,
-     "ja": "大阪はとてもきれいな街でした。",
-     "en": "Osaka was a very pretty city.",
-     "speaker": "Shun"
-    },
-    {
-     "start": 44.0,
-     "end": 48.5,
-     "ja": "私は大阪が大好きです。",
-     "en": "I love Osaka.",
-     "speaker": "Shun"
-    }
-   ]
-  },
-  {
-   "start": 623.5,
-   "end": 653.0,
-   "title": "Moving from Osaka to Nagoya",
+   "start": 383.0,
+   "end": 407.8,
+   "title": "Moving From Osaka to Nagoya",
    "level": "N5",
    "topics": [
     "daily",
     "travel"
    ],
    "grammar": [
-    "〜から〜に — from ... to ...",
-    "〜にある — to be located in",
-    "〜ている — ongoing state"
+    "〜から〜に — from... to...",
+    "〜ています — state of being"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 623.8,
-     "end": 629.8,
-     "ja": "でも、去年、大阪から名古屋に来ました。",
-     "en": "But last year, I came from Osaka to Nagoya.",
+     "start": 383.2,
+     "end": 384.3,
+     "ja": "でも、",
+     "en": "However,",
      "speaker": "Shun"
     },
     {
-     "start": 630.2,
-     "end": 633.0,
+     "start": 384.4,
+     "end": 390.2,
+     "ja": "去年、大阪から名古屋に来ました。",
+     "en": "last year I came to Nagoya from Osaka.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 390.8,
+     "end": 392.5,
      "ja": "引っ越しました。",
      "en": "I moved.",
      "speaker": "Shun"
     },
     {
-     "start": 633.0,
-     "end": 638.2,
+     "start": 393.1,
+     "end": 397.8,
      "ja": "大阪から名古屋に引っ越しました。",
      "en": "I moved from Osaka to Nagoya.",
      "speaker": "Shun"
     },
     {
-     "start": 639.0,
-     "end": 644.2,
+     "start": 398.8,
+     "end": 403.8,
      "ja": "そう、名古屋に私のアパートがあります。",
-     "en": "Right, my apartment is in Nagoya.",
+     "en": "Yes, I have an apartment in Nagoya.",
      "speaker": "Shun"
     },
     {
-     "start": 644.3,
-     "end": 647.5,
+     "start": 404.2,
+     "end": 407.4,
      "ja": "今、私は名古屋に住んでいます。",
-     "en": "Now, I live in Nagoya.",
-     "speaker": "Shun"
-    },
-    {
-     "start": 647.8,
-     "end": 652.5,
-     "ja": "名古屋でアパートを借りています。",
-     "en": "I'm renting an apartment in Nagoya.",
+     "en": "Right now, I live in Nagoya.",
      "speaker": "Shun"
     }
    ]
   },
   {
-   "start": 1221.5,
-   "end": 1246.5,
-   "title": "Morning Routine",
+   "start": 655.8,
+   "end": 676.2,
+   "title": "Tacos Made by My Wife",
+   "level": "N5",
+   "topics": [
+    "food",
+    "family"
+   ],
+   "grammar": [
+    "時々 — frequency adverb (sometimes)",
+    "〜が好き — to like something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 656.0,
+     "end": 663.5,
+     "ja": "んー、時々、あ、時々妻はタコスを作ります。",
+     "en": "Hmm, sometimes, ah, sometimes my wife makes tacos.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 663.9,
+     "end": 667.5,
+     "ja": "妻のタコスは美味しいです。",
+     "en": "My wife's tacos are delicious.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 668.0,
+     "end": 671.8,
+     "ja": "本当に美味しいですよ。はい。",
+     "en": "They are really delicious. Yes.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 672.1,
+     "end": 675.8,
+     "ja": "妻の料理が大好きです。",
+     "en": "I love my wife's cooking.",
+     "speaker": "Shun"
+    }
+   ]
+  },
+  {
+   "start": 742.5,
+   "end": 766.4,
+   "title": "My Morning Routine",
    "level": "N5",
    "topics": [
     "daily"
    ],
    "grammar": [
-    "〜て — connecting successive actions",
-    "〜に — time marker",
-    "〜を — direct object marker"
+    "〜て — connecting actions in sequence",
+    "〜に — time marker"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1222.0,
-     "end": 1226.2,
+     "start": 742.8,
+     "end": 746.5,
      "ja": "朝はたいてい7時に起きて、",
-     "en": "In the morning, I usually wake up at seven,",
+     "en": "In the morning, I usually wake up at 7 o'clock,",
      "speaker": "Shun"
     },
     {
-     "start": 1226.5,
-     "end": 1229.2,
+     "start": 746.8,
+     "end": 749.2,
      "ja": "顔を洗って、",
      "en": "wash my face,",
      "speaker": "Shun"
     },
     {
-     "start": 1229.8,
-     "end": 1237.5,
-     "ja": "コーヒー、コーヒーを飲んで、仕事をします。",
-     "en": "drink coffee, and work.",
+     "start": 749.8,
+     "end": 754.5,
+     "ja": "コーヒー、コーヒーを、コーヒーを飲んで、",
+     "en": "coffee, coffee, drink coffee,",
      "speaker": "Shun"
     },
     {
-     "start": 1237.8,
-     "end": 1241.2,
-     "ja": "ちょっと仕事をして、",
-     "en": "After working for a bit,",
+     "start": 754.8,
+     "end": 757.6,
+     "ja": "ええ、仕事をします。",
+     "en": "and then do some work.",
      "speaker": "Shun"
     },
     {
-     "start": 1241.5,
-     "end": 1246.0,
+     "start": 758.0,
+     "end": 761.2,
+     "ja": "ちょっと、ちょっと仕事をして、",
+     "en": "After doing a little bit of work,",
+     "speaker": "Shun"
+    },
+    {
+     "start": 761.7,
+     "end": 765.8,
      "ja": "朝ごはんを作って食べます。",
-     "en": "I make and eat breakfast.",
+     "en": "I make breakfast and eat.",
      "speaker": "Shun"
     }
    ]
@@ -171,5 +168,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

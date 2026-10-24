@@ -1,0 +1,30 @@
+{
+ "videoId": "nP-cKgXQu1M",
+ "ids": [
+  "nP-cKgXQu1M-308",
+  "nP-cKgXQu1M-364"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "nP-cKgXQu1M-308": {
+   "id": "nP-cKgXQu1M-308",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute dog interaction featuring clear repetition of simple Japanese words."
+  },
+  "nP-cKgXQu1M-364": {
+   "id": "nP-cKgXQu1M-364",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Fun, simple clip highlighting common vocabulary like snacks and walks."
+  }
+ }
+}

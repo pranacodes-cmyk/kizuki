@@ -1,0 +1,19 @@
+{
+ "videoId": "xLv91OPJ81Q",
+ "ids": [
+  "xLv91OPJ81Q-109"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "xLv91OPJ81Q-109": {
+   "id": "xLv91OPJ81Q-109",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Relatable and simple street interview about favorite sushi toppings."
+  }
+ }
+}

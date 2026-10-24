@@ -1,0 +1,19 @@
+{
+ "videoId": "nvhnBEWeH1E",
+ "ids": [
+  "nvhnBEWeH1E-651"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "nvhnBEWeH1E-651": {
+   "id": "nvhnBEWeH1E-651",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Practical roleplay skit with clear restaurant dialogue and helpful subtitles."
+  }
+ }
+}

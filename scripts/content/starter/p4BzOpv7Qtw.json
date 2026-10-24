@@ -1,0 +1,19 @@
+{
+ "videoId": "p4BzOpv7Qtw",
+ "ids": [
+  "p4BzOpv7Qtw-617"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "p4BzOpv7Qtw-617": {
+   "id": "p4BzOpv7Qtw-617",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear slow speech and relatable topic with helpful bento visuals."
+  }
+ }
+}

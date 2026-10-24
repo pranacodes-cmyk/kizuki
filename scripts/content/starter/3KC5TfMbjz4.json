@@ -1,0 +1,19 @@
+{
+ "videoId": "3KC5TfMbjz4",
+ "ids": [
+  "3KC5TfMbjz4-4"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "3KC5TfMbjz4-4": {
+   "id": "3KC5TfMbjz4-4",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear beginner self-introduction paired with cinematic, scenic visuals."
+  }
+ }
+}

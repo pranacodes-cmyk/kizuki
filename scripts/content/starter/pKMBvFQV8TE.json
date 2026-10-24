@@ -1,0 +1,21 @@
+{
+ "videoId": "pKMBvFQV8TE",
+ "ids": [
+  "pKMBvFQV8TE-2"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "pKMBvFQV8TE-2": {
+   "id": "pKMBvFQV8TE-2",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "starts mid-sentence"
+   ],
+   "why": "Cute anime scene, but stylized character voices can challenge early learners."
+  }
+ }
+}

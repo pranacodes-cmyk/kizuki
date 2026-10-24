@@ -1,0 +1,19 @@
+{
+ "videoId": "ieHNKaG1KfA",
+ "ids": [
+  "ieHNKaG1KfA-821"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "ieHNKaG1KfA-821": {
+   "id": "ieHNKaG1KfA-821",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Energetic visual demonstration of workout clothing with clear speech."
+  }
+ }
+}

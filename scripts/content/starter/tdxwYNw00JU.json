@@ -1,0 +1,19 @@
+{
+ "videoId": "tdxwYNw00JU",
+ "ids": [
+  "tdxwYNw00JU-50"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "tdxwYNw00JU-50": {
+   "id": "tdxwYNw00JU-50",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Friendly self-introductions with clear Japanese and helpful text overlays."
+  }
+ }
+}

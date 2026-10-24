@@ -1,0 +1,19 @@
+{
+ "videoId": "CHAyanyBbmo",
+ "ids": [
+  "CHAyanyBbmo-252"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "CHAyanyBbmo-252": {
+   "id": "CHAyanyBbmo-252",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Synthetic gaming guide dialogue with static menu visuals."
+  }
+ }
+}

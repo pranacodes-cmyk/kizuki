@@ -1,0 +1,21 @@
+{
+ "videoId": "E8kDNoWAeSk",
+ "ids": [
+  "E8kDNoWAeSk-2"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "E8kDNoWAeSk-2": {
+   "id": "E8kDNoWAeSk-2",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [
+    "starts mid-sentence"
+   ],
+   "why": "Fast casual Japanese with stumbles, making it difficult for beginners."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "-tUulrroh6A",
+ "ids": [
+  "-tUulrroh6A-28"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "-tUulrroh6A-28": {
+   "id": "-tUulrroh6A-28",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear speech with an intriguing dramatic scenario."
+  }
+ }
+}

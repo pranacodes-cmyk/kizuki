@@ -2,173 +2,166 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 21.0,
-   "end": 35.8,
-   "title": "Pronunciation of Okinawan Place Names",
-   "level": "N3",
+   "start": 12.5,
+   "end": 21.0,
+   "title": "Tonsoku or Tebichi?",
+   "level": "N4",
    "topics": [
     "travel",
+    "food",
     "daily"
    ],
    "grammar": [
-    "〜かわからない — don't know whether",
-    "〜て言う — to say that"
+    "〜たら — when/if",
+    "〜かな — I wonder"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 21.3,
-     "end": 23.4,
-     "ja": "屋嘉を左方向です。",
-     "en": "Turn left at Yaka.",
-     "speaker": "Navi"
+     "start": 12.8,
+     "end": 15.3,
+     "ja": "もう少ししたらあの、冷凍の自販機が出てくる。",
+     "en": "In a little bit, that frozen vending machine will show up.",
+     "speaker": "Husband"
     },
     {
-     "start": 23.5,
-     "end": 26.6,
-     "ja": "およそ300メートル先、屋嘉を左方向です。",
-     "en": "In about 300 meters, turn left at Yaka.",
-     "speaker": "Navi"
+     "start": 15.6,
+     "end": 16.6,
+     "ja": "ああ、豚足？",
+     "en": "Oh, pig's feet?",
+     "speaker": "Wife"
     },
     {
-     "start": 26.8,
-     "end": 28.5,
-     "ja": "どっちの発音かわからへんね。",
-     "en": "I don't know which pronunciation is right.",
-     "speaker": "Woman"
+     "start": 16.8,
+     "end": 18.0,
+     "ja": "豚足やったかな。",
+     "en": "Was it pig's feet, I wonder?",
+     "speaker": "Husband"
     },
     {
-     "start": 28.6,
-     "end": 30.5,
-     "ja": "屋嘉をって言ってたな。",
-     "en": "It said 'Yakao'.",
-     "speaker": "Woman"
+     "start": 18.2,
+     "end": 19.0,
+     "ja": "てびちや！",
+     "en": "It's tebichi!",
+     "speaker": "Wife"
     },
     {
-     "start": 30.8,
-     "end": 32.1,
-     "ja": "次の信号左や。",
-     "en": "Left at the next traffic light.",
-     "speaker": "Man"
+     "start": 19.1,
+     "end": 19.7,
+     "ja": "てびちか。",
+     "en": "Ah, tebichi.",
+     "speaker": "Husband"
     },
     {
-     "start": 32.2,
-     "end": 34.0,
-     "ja": "そこも多分通ったことあるで。",
-     "en": "We've probably passed through there too.",
-     "speaker": "Man"
+     "start": 19.8,
+     "end": 20.4,
+     "ja": "てびちや！",
+     "en": "Tebichi!",
+     "speaker": "Wife"
     },
     {
-     "start": 34.1,
-     "end": 35.5,
-     "ja": "うん、絶対あるよ。",
-     "en": "Yeah, definitely.",
-     "speaker": "Woman"
+     "start": 20.5,
+     "end": 21.0,
+     "ja": "てびちか。",
+     "en": "Right, tebichi.",
+     "speaker": "Husband"
     }
    ]
   },
   {
-   "start": 414.8,
-   "end": 432.2,
-   "title": "A Strong Aroma of Guava",
+   "start": 197.0,
+   "end": 217.5,
+   "title": "Arriving at Haneji no Eki",
    "level": "N3",
    "topics": [
-    "food",
-    "daily",
     "travel"
    ],
    "grammar": [
-    "〜みたい — looks like / seems like",
-    "〜代わりになる — to serve as a substitute for"
+    "〜たことがある — have experienced doing",
+    "〜が見える — can be seen / visible"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 415.1,
-     "end": 417.4,
-     "ja": "グァバだってよ。あんな香んねんな。",
-     "en": "It was guava! It smells that strong, huh?",
-     "speaker": "Man"
+     "start": 197.3,
+     "end": 202.0,
+     "ja": "沖縄県北部名護市にある羽地の駅に到着しました。",
+     "en": "We arrived at Haneji no Eki in Nago City, northern Okinawa.",
+     "speaker": "Narrator"
     },
     {
-     "start": 420.5,
-     "end": 422.3,
-     "ja": "あんなレジ前にあるのにね。",
-     "en": "Even though it was just in front of the cash register.",
-     "speaker": "Woman"
+     "start": 202.7,
+     "end": 209.8,
+     "ja": "何度か訪問したことがあるのですが、初めて２階に展望台があることを知りました。",
+     "en": "Although I've visited several times, I learned for the first time that there is an observation deck on the second floor.",
+     "speaker": "Narrator"
     },
     {
-     "start": 422.6,
-     "end": 425.9,
-     "ja": "もう売り場全体に、あの匂い。",
-     "en": "That smell filled the whole sales floor.",
-     "speaker": "Man"
+     "start": 210.8,
+     "end": 213.0,
+     "ja": "階段を上ると、",
+     "en": "When you go up the stairs,",
+     "speaker": "Narrator"
     },
     {
-     "start": 426.0,
-     "end": 427.3,
-     "ja": "お犬様だ。",
-     "en": "Look, a doggie.",
-     "speaker": "Man"
-    },
-    {
-     "start": 427.7,
-     "end": 428.7,
-     "ja": "ほら。",
-     "en": "Look.",
-     "speaker": "Man"
-    },
-    {
-     "start": 428.8,
-     "end": 431.9,
-     "ja": "ほんとだ。ふわふわお犬様。",
-     "en": "You're right. A fluffy doggie.",
-     "speaker": "Woman"
+     "start": 213.3,
+     "end": 217.0,
+     "ja": "羽地内海と小さな島々が見えます。",
+     "en": "you can see the Haneji Inland Sea and small islands.",
+     "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 749.8,
-   "end": 760.6,
-   "title": "Checking the Unmanned Fruit Stand",
+   "start": 604.0,
+   "end": 626.5,
+   "title": "Thank You for Watching",
    "level": "N3",
    "topics": [
-    "travel",
-    "daily"
+    "daily",
+    "culture"
    ],
    "grammar": [
-    "〜たら — if / when",
-    "〜て話や — apparently..."
+    "ご〜いただく — humble honorific form of receiving an action",
+    "〜ていただく — to have someone do something",
+    "〜なく — without doing"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 750.1,
-     "end": 751.7,
-     "ja": "これこれ。ここの角やで。",
-     "en": "This is it, this corner right here.",
-     "speaker": "Man"
+     "start": 604.2,
+     "end": 608.0,
+     "ja": "最後まで動画をご視聴いただきありがとうございました。",
+     "en": "Thank you very much for watching the video until the end.",
+     "speaker": "Narrator"
     },
     {
-     "start": 751.8,
-     "end": 754.2,
-     "ja": "で、ここにのぼりが出てたらって話やから。",
-     "en": "And the story was that if there's a banner up here...",
-     "speaker": "Man"
+     "start": 608.5,
+     "end": 610.8,
+     "ja": "今日の動画はいかがでしたでしょうか？",
+     "en": "How did you like today's video?",
+     "speaker": "Narrator"
     },
     {
-     "start": 754.3,
-     "end": 755.7,
-     "ja": "そうね。",
-     "en": "Right.",
-     "speaker": "Woman"
+     "start": 611.0,
+     "end": 615.5,
+     "ja": "動画を見た感想やコメント、グッドやいいねをいただけると励みになります。",
+     "en": "It encourages us if you leave your thoughts, comments, or a thumbs-up after watching.",
+     "speaker": "Narrator"
     },
     {
-     "start": 758.8,
-     "end": 760.3,
-     "ja": "何もないっしょ？",
-     "en": "There's nothing, right?",
-     "speaker": "Man"
+     "start": 616.0,
+     "end": 620.5,
+     "ja": "チャンネル登録や通知設定をして次回の動画もお見逃しなく！",
+     "en": "Please subscribe and turn on notifications so you don't miss the next video!",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 621.0,
+     "end": 626.3,
+     "ja": "そしてこれからも食いしん坊ともちんのグルメ旅、応援よろしくお願いいたします。",
+     "en": "And please continue to support Foodie Tomochin's gourmet trips!",
+     "speaker": "Narrator"
     }
    ]
   }
@@ -177,5 +170,6 @@
  "pickTopics": [
   "travel"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

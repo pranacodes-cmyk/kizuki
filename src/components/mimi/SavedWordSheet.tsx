@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { ChevronRight, Trash2, Volume2 } from "lucide-react";
 
 import type { Clip, Content } from "@/lib/content";
-import { formatInterval, repeatsSense, wordLevel } from "@/lib/logic";
+import { formatWhen, repeatsSense, wordLevel } from "@/lib/logic";
 import { speak } from "@/lib/speech";
 import { useApp, type SavedWord } from "@/lib/store";
 import { cn } from "@/lib/utils";
@@ -30,7 +30,7 @@ export function SavedWordSheet({ word, content, open, onClose }: { word: SavedWo
   const clip = content?.byId[w.clipId];
   const level = wordLevel(w);
   const now = Date.now();
-  const review = level >= 1 && level <= 4 ? (w.card.due <= now ? "Review now" : `Next review in ${formatInterval(w.card.due - now)}`) : null;
+  const review = level >= 1 && level <= 4 ? (w.card.due <= now ? "Practice now" : `Next practice ${formatWhen(w.card.due - now)}`) : null;
 
   return (
     <Sheet open={open} onClose={onClose} maxHeight="88%">

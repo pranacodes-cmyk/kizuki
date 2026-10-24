@@ -1,0 +1,30 @@
+{
+ "videoId": "z9CoofBvkY0",
+ "ids": [
+  "z9CoofBvkY0-1041",
+  "z9CoofBvkY0-811"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "z9CoofBvkY0-811": {
+   "id": "z9CoofBvkY0-811",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Practical convenience store dialogue with clear pronunciation and subtitles."
+  },
+  "z9CoofBvkY0-1041": {
+   "id": "z9CoofBvkY0-1041",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Useful everyday directions dialogue with clear pacing but static visuals."
+  }
+ }
+}

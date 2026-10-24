@@ -1,0 +1,30 @@
+{
+ "videoId": "yPbPfC1d0II",
+ "ids": [
+  "yPbPfC1d0II-18",
+  "yPbPfC1d0II-92"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "yPbPfC1d0II-18": {
+   "id": "yPbPfC1d0II-18",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Natural neighborhood encounter with clear beginner dialogue."
+  },
+  "yPbPfC1d0II-92": {
+   "id": "yPbPfC1d0II-92",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear speech explaining cultural differences, though visually static."
+  }
+ }
+}

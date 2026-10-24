@@ -2,105 +2,106 @@
  "speech": "some",
  "clips": [
   {
-   "start": 702.2,
-   "end": 715.0,
+   "start": 702.3,
+   "end": 715.3,
    "title": "Traditional Japanese Breakfast",
    "level": "N5",
    "topics": [
     "food",
-    "daily"
+    "daily",
+    "culture"
    ],
    "grammar": [
-    "と — and (listing items)"
+    "〜と — and (listing nouns)"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 702.6,
-     "end": 704.1,
+     "start": 702.5,
+     "end": 704.0,
      "ja": "卵焼きと、",
-     "en": "Tamagoyaki,",
-     "speaker": "Girl"
+     "en": "Rolled omelet,",
+     "speaker": "Mahina"
     },
     {
-     "start": 704.2,
-     "end": 705.4,
+     "start": 704.0,
+     "end": 705.2,
      "ja": "ご飯と、",
      "en": "rice,",
-     "speaker": "Girl"
+     "speaker": "Mahina"
     },
     {
-     "start": 705.5,
-     "end": 707.0,
+     "start": 705.2,
+     "end": 706.8,
      "ja": "お吸い物と、",
      "en": "clear soup,",
-     "speaker": "Girl"
+     "speaker": "Mahina"
     },
     {
-     "start": 707.2,
-     "end": 708.8,
+     "start": 706.9,
+     "end": 708.3,
      "ja": "納豆。",
-     "en": "and natto.",
-     "speaker": "Girl"
+     "en": "natto.",
+     "speaker": "Mahina"
     },
     {
-     "start": 709.7,
-     "end": 711.4,
+     "start": 709.8,
+     "end": 712.0,
      "ja": "納豆ご飯。",
-     "en": "Natto on rice.",
-     "speaker": "Girl"
+     "en": "Natto over rice.",
+     "speaker": "Mahina"
     },
     {
      "start": 713.0,
-     "end": 714.5,
-     "ja": "いただきます。",
-     "en": "Let's eat.",
-     "speaker": "Girl"
+     "end": 714.8,
+     "ja": "いただきます！",
+     "en": "Let's eat!",
+     "speaker": "Mahina"
     }
    ]
   },
   {
-   "start": 719.1,
-   "end": 727.8,
-   "title": "Biking Home with Friends",
-   "level": "N5",
+   "start": 918.5,
+   "end": 927.8,
+   "title": "Riding Bikes After School",
+   "level": "N4",
    "topics": [
     "friends",
     "fun",
     "daily"
    ],
    "grammar": [
-    "〜ないで — don't (negative request)"
+    "〜ないで — don't do (negative request)"
    ],
    "quality": 3,
    "lines": [
     {
-     "start": 719.3,
-     "end": 721.8,
-     "ja": "いやー！止まんないでよ！",
-     "en": "No! Don't stop!",
-     "speaker": "Friend"
-    },
-    {
-     "start": 722.1,
-     "end": 723.6,
-     "ja": "止まんないで！",
+     "start": 918.8,
+     "end": 921.0,
+     "ja": "止まんないでよ！",
      "en": "Don't stop!",
-     "speaker": "Friend"
-    },
-    {
-     "start": 723.8,
-     "end": 725.1,
-     "ja": "うるさい！",
-     "en": "Shut up!",
      "speaker": "Girl"
     },
     {
-     "start": 725.8,
-     "end": 727.3,
-     "ja": "あー面白い！",
-     "en": "Ah, that's hilarious!",
+     "start": 921.3,
+     "end": 923.0,
+     "ja": "止まんないで！",
+     "en": "Don't stop!",
+     "speaker": "Girl"
+    },
+    {
+     "start": 923.2,
+     "end": 924.5,
+     "ja": "うるさい！",
+     "en": "Shut up!",
      "speaker": "Friend"
+    },
+    {
+     "start": 925.8,
+     "end": 927.3,
+     "ja": "あー、面白い！",
+     "en": "Ah, that's hilarious!",
+     "speaker": "Girl"
     }
    ]
   }
@@ -109,5 +110,6 @@
  "pickTopics": [
   "school"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

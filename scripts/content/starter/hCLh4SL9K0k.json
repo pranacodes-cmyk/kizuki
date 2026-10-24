@@ -1,0 +1,19 @@
+{
+ "videoId": "hCLh4SL9K0k",
+ "ids": [
+  "hCLh4SL9K0k-321"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "hCLh4SL9K0k-321": {
+   "id": "hCLh4SL9K0k-321",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Casual friend banter, though fast Kansai dialect is tricky for beginners."
+  }
+ }
+}

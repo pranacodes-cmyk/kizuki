@@ -1,0 +1,30 @@
+{
+ "videoId": "9903wxInbYw",
+ "ids": [
+  "9903wxInbYw-211",
+  "9903wxInbYw-264"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "9903wxInbYw-264": {
+   "id": "9903wxInbYw-264",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear examples of student introductions with text support."
+  },
+  "9903wxInbYw-211": {
+   "id": "9903wxInbYw-211",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple, natural conversational exchange introducing name and country."
+  }
+ }
+}

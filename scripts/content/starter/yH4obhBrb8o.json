@@ -1,0 +1,19 @@
+{
+ "videoId": "yH4obhBrb8o",
+ "ids": [
+  "yH4obhBrb8o-8"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "yH4obhBrb8o-8": {
+   "id": "yH4obhBrb8o-8",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Wholesome, relaxed anime scene featuring simple everyday vocabulary."
+  }
+ }
+}

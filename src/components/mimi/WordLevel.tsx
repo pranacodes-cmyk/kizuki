@@ -1,7 +1,7 @@
 import { BookOpen, Check, ChevronDown, Trash2, X } from "lucide-react";
 import { useState } from "react";
 
-import { formatInterval, WORD_LEVELS, wordLevel, wordLevelInfo } from "@/lib/logic";
+import { formatWhen, WORD_LEVELS, wordLevel, wordLevelInfo } from "@/lib/logic";
 import { useApp } from "@/lib/store";
 import { cn } from "@/lib/utils";
 
@@ -58,7 +58,7 @@ export function WordLevelSheet({ open, onClose, wordKey, word, onRemoved }: { op
   if (!w) return null;
   const current = wordLevel(w);
   const now = Date.now();
-  const review = current >= 1 && current <= 4 ? (w.card.due <= now ? "Next review: now" : `Next review: in ${formatInterval(w.card.due - now)}`) : null;
+  const review = current >= 1 && current <= 4 ? `Next practice: ${formatWhen(w.card.due - now)}` : null;
   return (
     <Sheet open={open} onClose={onClose} maxHeight="80%">
       <div className="overflow-y-auto px-5 pb-3 pt-2 no-scrollbar">

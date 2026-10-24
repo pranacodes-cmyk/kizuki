@@ -1,0 +1,21 @@
+{
+ "videoId": "3KR8_igDs1Y",
+ "ids": [
+  "3KR8_igDs1Y-34"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "3KR8_igDs1Y-34": {
+   "id": "3KR8_igDs1Y-34",
+   "appeal": 7,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "choppy dialogue"
+   ],
+   "why": "Dramatic anime scenes with fast trailer dialogue cuts."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "pwIkbV1wAv8",
+ "ids": [
+  "pwIkbV1wAv8-820"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "pwIkbV1wAv8-820": {
+   "id": "pwIkbV1wAv8-820",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear and simple cultural explanation, but visual presentation is mostly static slides."
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "videoId": "Dn74ZJhly3E",
+ "ids": [
+  "Dn74ZJhly3E-42",
+  "Dn74ZJhly3E-429"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Dn74ZJhly3E-42": {
+   "id": "Dn74ZJhly3E-42",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple vocabulary and energetic delivery suitable for beginners."
+  },
+  "Dn74ZJhly3E-429": {
+   "id": "Dn74ZJhly3E-429",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Natural review with slightly faster colloquial phrasing."
+  }
+ }
+}

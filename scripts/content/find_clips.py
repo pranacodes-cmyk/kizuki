@@ -41,7 +41,7 @@ For every moment return:
 
 Also return "speech": "clear" | "some" | "none" for the video overall.
 If there is no clear Japanese speech, return "clips": [].
-
+{length}
 Respond with JSON only, no markdown:
 {{"speech": "...", "clips": [{{"start": 0.0, "end": 0.0, "title": "...", "level": "N5", "topics": [], "grammar": [], "quality": 5, "lines": [{{"start": 0.0, "end": 0.0, "ja": "...", "en": "...", "speaker": "A"}}]}}]}}
 """
@@ -58,12 +58,26 @@ def load_picks():
     return picks
 
 
+LENGTH_HINT = """
+IMPORTANT TIMING: this video is exactly {dur:.1f} seconds long ({mm}:{ss:02d}). Every start/end must be
+seconds from the start of THIS video and lie between 0 and {dur:.1f}. Read times from the actual
+playback position; never estimate or stretch them.
+"""
+
+
+def length_hint(vid):
+    """Real length from the official-player library check (verify_library.py), when known."""
+    f = os.path.join(ROOT, "playable.json")
+    d = (json.load(open(f)).get(vid) or {}).get("duration") if os.path.exists(f) else None
+    return LENGTH_HINT.format(dur=d, mm=int(d) // 60, ss=int(d) % 60) if d else ""
+
+
 def call(vid, n):
     body = {
         "model": MODEL,
         "messages": [{"role": "user", "content": [
             {"type": "video_url", "video_url": {"url": f"https://www.youtube.com/watch?v={vid}"}},
-            {"type": "text", "text": PROMPT.format(n=n, topics=", ".join(TOPICS))},
+            {"type": "text", "text": PROMPT.format(n=n, topics=", ".join(TOPICS), length=length_hint(vid))},
         ]}],
     }
     req = urllib.request.Request(URL, data=json.dumps(body).encode(), headers={
@@ -84,10 +98,13 @@ def parse(text):
     return json.loads(text[start:end + 1])
 
 
+FORCE = set()  # --regenerate: re-run these even when cached (stretched timelines)
+
+
 def work(item):
     vid, topics = item
     out = os.path.join(RAW, f"{vid}.json")
-    if os.path.exists(out):
+    if os.path.exists(out) and vid not in FORCE:
         return vid, "cached"
     last = None
     for attempt in range(3):
@@ -98,6 +115,8 @@ def work(item):
             data["videoId"] = vid
             data["pickTopics"] = topics
             data["model"] = MODEL
+            if vid in FORCE:
+                data["regenerated"] = "real-length hint (verify_library.py)"
             json.dump(data, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
             return vid, f"ok {len(data.get('clips', []))} clips"
         except urllib.error.HTTPError as e:
@@ -115,12 +134,17 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only")
     ap.add_argument("--workers", type=int, default=8)
+    ap.add_argument("--regenerate", help="JSON list of video ids to re-run with their real length")
     a = ap.parse_args()
+    if a.regenerate:
+        FORCE.update(json.load(open(a.regenerate)))
     os.makedirs(RAW, exist_ok=True)
     picks = load_picks()
     if a.only:
         want = set(a.only.split(","))
         picks = [p for p in picks if p[0] in want]
+    if FORCE:
+        picks = [p for p in picks if p[0] in FORCE]
     with cf.ThreadPoolExecutor(a.workers) as ex:
         for vid, status in ex.map(work, picks):
             print(vid, status, flush=True)

@@ -1,0 +1,30 @@
+{
+ "videoId": "bon-SsTjhNU",
+ "ids": [
+  "bon-SsTjhNU-10",
+  "bon-SsTjhNU-398"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "bon-SsTjhNU-10": {
+   "id": "bon-SsTjhNU-10",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, slow vocabulary introduction pointing directly to ingredients."
+  },
+  "bon-SsTjhNU-398": {
+   "id": "bon-SsTjhNU-398",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Appetizing dish presentation accompanied by simple, encouraging spoken Japanese."
+  }
+ }
+}

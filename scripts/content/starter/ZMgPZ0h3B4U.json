@@ -1,0 +1,19 @@
+{
+ "videoId": "ZMgPZ0h3B4U",
+ "ids": [
+  "ZMgPZ0h3B4U-55"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "ZMgPZ0h3B4U-55": {
+   "id": "ZMgPZ0h3B4U-55",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple everyday phrases shown with cute animated gameplay visuals."
+  }
+ }
+}

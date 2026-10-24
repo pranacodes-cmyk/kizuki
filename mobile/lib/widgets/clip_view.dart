@@ -45,7 +45,9 @@ class ClipView extends StatefulWidget {
   /// transcript never takes drags there — it only follows the spoken line by itself.
   /// On the stand-alone clip page the learner can scroll it freely.
   final bool inFeed;
-  const ClipView({super.key, required this.clip, required this.content, required this.active, this.bottomInset = 96, this.tourTargets = false, this.inFeed = false});
+  /// The next clip in the feed: its player loads and cues ahead of the swipe (never plays).
+  final bool warm;
+  const ClipView({super.key, required this.clip, required this.content, required this.active, this.bottomInset = 96, this.tourTargets = false, this.inFeed = false, this.warm = false});
   @override
   State<ClipView> createState() => _ClipViewState();
 }
@@ -77,9 +79,16 @@ class _ClipViewState extends State<ClipView> {
     Tour.I.addListener(_onTour);
   }
 
-  /// Welcome tour: hold the clip still while it asks you to tap a word in it.
+  /// Welcome tour: hold the clip still while it asks you to tap a word in it, with that word's
+  /// line in view (a word scrolled out of the transcript can't be spotlit).
   void _onTour() {
-    if (widget.active && widget.tourTargets && Tour.I.step?.id == 'tapWord') _player.currentState?.pause();
+    if (!(widget.active && widget.tourTargets && Tour.I.step?.id == 'tapWord')) return;
+    _player.currentState?.pause();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      final w = _tourWord(context.read<AppState>(), activeLineIndex(widget.clip, time));
+      if (w != null) _followLine(w.$1, force: true);
+    });
   }
 
   @override
@@ -160,9 +169,9 @@ class _ClipViewState extends State<ClipView> {
 
   /// Keep the spoken line in view by scrolling ONLY this transcript. (Scrollable.ensureVisible
   /// also scrolled the feed's PageView, so the whole screen wobbled and swipes misfired.)
-  void _followLine(int i) {
+  void _followLine(int i, {bool force = false}) {
     if (i >= _lineKeys.length || !_scroll.hasClients) return;
-    if (DateTime.now().millisecondsSinceEpoch - _userScrollAt < transcriptFollowPauseMs) return;
+    if (!force && DateTime.now().millisecondsSinceEpoch - _userScrollAt < transcriptFollowPauseMs) return;
     final box = _lineKeys[i].currentContext?.findRenderObject();
     if (box is! RenderBox || !box.attached) return;
     final viewport = RenderAbstractViewport.maybeOf(box);
@@ -253,7 +262,7 @@ class _ClipViewState extends State<ClipView> {
         TourAnchor(
           id: 'player',
           enabled: tourOn,
-          child: ClipPlayer(key: _player, clip: clip, active: widget.active, rate: rate, onTime: _onTime, onPlayingChange: _onPlaying, onLoop: _markWatched, loopRange: loopRange),
+          child: ClipPlayer(key: _player, clip: clip, active: widget.active, warm: widget.warm, rate: rate, onTime: _onTime, onPlayingChange: _onPlaying, onLoop: _markWatched, loopRange: loopRange),
         ),
         SizedBox(
           height: 3,
@@ -267,10 +276,7 @@ class _ClipViewState extends State<ClipView> {
             ],
           ),
         ),
-        TourAnchor(
-          id: 'controls',
-          enabled: tourOn,
-          child: Padding(
+        Padding(
           padding: const EdgeInsets.fromLTRB(8, 6, 8, 0),
           child: Row(
             children: [
@@ -318,7 +324,7 @@ class _ClipViewState extends State<ClipView> {
                   if (!savedClip) toast('Clip saved', description: 'Find it in Profile → Saved', icon: '🔖');
                 },
               ),
-              // "Aa", like the Display sheet's name (the welcome tour points at it by that name).
+              // "Aa", like the Display sheet's name.
               Semantics(
                 button: true,
                 label: 'Display options',
@@ -329,7 +335,6 @@ class _ClipViewState extends State<ClipView> {
               ),
             ],
           ),
-        ),
         ),
         Expanded(
           child: NotificationListener<ScrollNotification>(
@@ -379,10 +384,7 @@ class _ClipViewState extends State<ClipView> {
                       ),
                     ),
                   ),
-                TourAnchor(
-                  id: 'transcript',
-                  enabled: tourOn,
-                  child: Transcript(
+                Transcript(
                   clip: clip,
                   tourWord: tourWord,
                   time: time,
@@ -402,7 +404,6 @@ class _ClipViewState extends State<ClipView> {
                     onLoop: () => setState(() => loopLine = loopLine == li ? null : li),
                     looping: loopLine == li,
                   ),
-                ),
                 ),
                 if (unknown.isNotEmpty)
                   Padding(

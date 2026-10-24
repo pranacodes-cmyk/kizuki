@@ -2,85 +2,146 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 3.4,
-   "end": 28.3,
-   "title": "A Street Interview Project in Shibuya",
+   "start": 11.2,
+   "end": 43.0,
+   "title": "Conducting Street Interviews in Shibuya",
    "level": "N3",
    "topics": [
-    "fun",
+    "culture",
     "daily"
    ],
    "grammar": [
-    "〜たいと思う — thinking of doing",
-    "〜てまいる — humble action directed towards speaker",
-    "〜んですけれど — explanatory background"
+    "〜と言うと — speaking of / if you ask",
+    "〜て参る — humble form of 〜て来る",
+    "〜ために — in order to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 3.7,
-     "end": 10.9,
-     "ja": "本日はですね、新作のご紹介とは別の、企画の動画をお送りしたいと思ってます。",
-     "en": "Today, separate from our new product showcases, I'd like to bring you a special project video.",
+     "start": 11.5,
+     "end": 13.7,
+     "ja": "で、どんな企画かと言いますと、",
+     "en": "Now, as for what kind of project this is,",
      "speaker": "Host"
     },
     {
-     "start": 11.2,
-     "end": 20.0,
-     "ja": "で、どんな企画かと言いますと、先日、渋谷駅周辺にいる若者大体30人ぐらいに街頭インタビューをしてまいりました。",
-     "en": "As for what kind of project, the other day we conducted street interviews with about 30 young people around Shibuya Station.",
+     "start": 13.8,
+     "end": 20.4,
+     "ja": "先日渋谷駅周辺にいる若者大体30人ぐらいに街頭インタビューをして参りました。",
+     "en": "the other day we conducted street interviews with about 30 young people around Shibuya Station.",
      "speaker": "Host"
     },
     {
-     "start": 20.3,
-     "end": 27.8,
-     "ja": "で、その内容なんですけれども、「好きなファッションタレントいますか？」という内容で、街頭インタビューをしてきました。",
-     "en": "And as for the topic, we went and interviewed people asking, 'Do you have a favorite fashion celebrity?'",
+     "start": 20.6,
+     "end": 27.7,
+     "ja": "で、その内容なんですけれども、「好きなファッションタレントいますか？」という内容で街頭インタビューをしてきました。",
+     "en": "As for the question, we interviewed them asking, \"Do you have a favorite fashion celebrity?\"",
+     "speaker": "Host"
+    },
+    {
+     "start": 28.1,
+     "end": 34.0,
+     "ja": "今の若い子たちがどんなところからファッションの情報を得ているのか、",
+     "en": "Where young people these days get their fashion information from,",
+     "speaker": "Host"
+    },
+    {
+     "start": 34.4,
+     "end": 42.5,
+     "ja": "あとは、どんな人のファッションを参考にしているのかっていうのをちょっと調べるために街頭インタビューをしてきました。",
+     "en": "and whose fashion they use as a reference—we conducted street interviews to investigate those things.",
      "speaker": "Host"
     }
    ]
   },
   {
-   "start": 302.2,
-   "end": 324.0,
-   "title": "Who Do Young People Look Up to?",
+   "start": 301.0,
+   "end": 323.6,
+   "title": "Survey Results: Who Inspires Fashion?",
    "level": "N3",
    "topics": [
-    "fun",
+    "culture",
     "daily"
    ],
    "grammar": [
-    "〜てしまう — expressing regret or completion",
-    "〜たり〜たり — listing representative actions/examples"
+    "〜てしまう — expressing an unintentional outcome",
+    "〜たり〜たり — listing actions or examples",
+    "〜ような — like / similar to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 302.4,
-     "end": 307.2,
-     "ja": "ということで、かなり短いインタビュー動画になってしまったんですけれども、",
-     "en": "So, it turned into quite a short interview video, but...",
+     "start": 301.3,
+     "end": 307.4,
+     "ja": "はい。ということで、かなり短いインタビュー動画になってしまったんですけれども、",
+     "en": "All right. So, it ended up being a rather short interview clip, but",
      "speaker": "Host"
     },
     {
-     "start": 307.6,
-     "end": 313.2,
-     "ja": "大体YouTuberの方を参考にしている方がやっぱり多かったですね。",
-     "en": "Overall, it seemed that most people take inspiration from YouTubers.",
+     "start": 307.7,
+     "end": 313.0,
+     "ja": "大体YouTuberの方を参考にしてる方がやっぱり多かったですね。",
+     "en": "overall, as expected, a lot of people refer to YouTubers.",
      "speaker": "Host"
     },
     {
-     "start": 313.6,
-     "end": 315.7,
-     "ja": "で、その次に芸能人の方。",
-     "en": "And next up were traditional celebrities.",
+     "start": 313.3,
+     "end": 315.9,
+     "ja": "で、その次に芸能人の方、",
+     "en": "After that came mainstream celebrities,",
      "speaker": "Host"
     },
     {
-     "start": 315.8,
-     "end": 323.5,
-     "ja": "あとはTikTokerだったりインフルエンサーのファッションが好き、あとは参考にしてるっていうような集計になりました。",
-     "en": "The results also showed people liking and referencing fashion from TikTokers and influencers.",
+     "start": 316.2,
+     "end": 323.2,
+     "ja": "で、あとはTikTokerだったりインフルエンサーのファッションが好き、あと参考にしてるっていうような集計になりました。",
+     "en": "and then people liking or referencing the fashion of TikTokers and influencers. That was the tally.",
+     "speaker": "Host"
+    }
+   ]
+  },
+  {
+   "start": 323.6,
+   "end": 349.8,
+   "title": "Who Do You Look Up to for Fashion?",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "daily"
+   ],
+   "grammar": [
+    "〜てくださる — someone kindly does something",
+    "〜ていただく — to have someone do something",
+    "〜ばいいなと思う — I hope that / it would be nice if"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 323.9,
+     "end": 330.0,
+     "ja": "はい。で、今回動画を見てくださった方、もし参考にしている人がいれば、",
+     "en": "Yes. And for those watching this video, if there's someone you look to for inspiration,",
+     "speaker": "Host"
+    },
+    {
+     "start": 330.1,
+     "end": 338.1,
+     "ja": "芸能人だったり、あとはYouTuber、インフルエンサーだったり、ファッションを参考にしてる方がいれば、是非コメント欄で教えていただきたいです。",
+     "en": "whether it's a celebrity, YouTuber, or influencer you look up to for fashion, please let us know in the comments.",
+     "speaker": "Host"
+    },
+    {
+     "start": 338.8,
+     "end": 345.3,
+     "ja": "で、今後ROOPTOKYOのチャンネルで紹介していく洋服だったりとかアイテムの",
+     "en": "We hope this will be helpful when choosing clothing and items",
+     "speaker": "Host"
+    },
+    {
+     "start": 345.4,
+     "end": 349.4,
+     "ja": "参考になればいいなと思いますので、是非コメントをお願いいたします。",
+     "en": "to showcase on the ROOPTOKYO channel in the future, so please leave a comment.",
      "speaker": "Host"
     }
    ]
@@ -90,5 +151,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

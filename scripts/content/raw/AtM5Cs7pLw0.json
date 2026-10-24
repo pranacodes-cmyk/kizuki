@@ -2,144 +2,145 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 836.5,
-   "end": 857.0,
-   "title": "Dinner with the Pressure Cooker",
-   "level": "N4",
-   "topics": [
-    "food",
-    "daily"
-   ],
-   "grammar": [
-    "〜ている — ongoing action / state",
-    "〜ので — because / since"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 836.7,
-     "end": 841.2,
-     "ja": "今日はホテル無水カレーを作って今保温しています。",
-     "en": "Today I made waterless hotel curry, and it's keeping warm now.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 841.5,
-     "end": 844.8,
-     "ja": "保温していて もうここから",
-     "en": "While keeping it warm, from here...",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 845.3,
-     "end": 847.3,
-     "ja": "娘と夫はカレーを食べました。",
-     "en": "my daughter and husband ate curry.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 847.5,
-     "end": 851.0,
-     "ja": "ホカホカ熱々で食べられるので便利です。",
-     "en": "It's so convenient because you can eat it piping hot.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 851.5,
-     "end": 856.5,
-     "ja": "暑くなるので、この火を使わないで作れるのがいいですね。",
-     "en": "Since it gets hot, it's great being able to cook without using fire.",
-     "speaker": "Narrator"
-    }
-   ]
-  },
-  {
-   "start": 1006.0,
-   "end": 1028.0,
-   "title": "Prepping Fresh Vegetables",
-   "level": "N4",
-   "topics": [
-    "food",
-    "daily"
-   ],
-   "grammar": [
-    "〜ようにしている — making an effort to",
-    "〜ておく — doing something in preparation"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 1006.5,
-     "end": 1011.8,
-     "ja": "野菜はこんな風に用意をしているので、すぐ使えます。",
-     "en": "I prep the vegetables like this in advance, so they're ready to use right away.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 1012.2,
-     "end": 1016.2,
-     "ja": "ま、これは ま、２、３日で使い切るようにしています。",
-     "en": "Well, I make sure to use these up within two or three days.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 1018.2,
-     "end": 1022.2,
-     "ja": "ご近所の方からサニーレタスもらって、",
-     "en": "I got some red leaf lettuce from a neighbor,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 1022.7,
-     "end": 1027.5,
-     "ja": "あと いつも通り、この水菜はお気に入りです。",
-     "en": "and as always, this mizuna is my favorite.",
-     "speaker": "Narrator"
-    }
-   ]
-  },
-  {
-   "start": 1321.0,
-   "end": 1337.5,
-   "title": "Daughter's Cozy Lounging Nook",
+   "start": 516.2,
+   "end": 531.0,
+   "title": "Keeping the Curry Warm",
    "level": "N4",
    "topics": [
     "daily",
-    "family"
+    "food"
    ],
    "grammar": [
-    "〜にする — to turn into / make into",
-    "〜まで — until"
+    "〜ている — ongoing state",
+    "〜ので — because / so"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1321.5,
-     "end": 1325.8,
-     "ja": "ここの下がもうゴロゴロベッドにしたので、",
-     "en": "We turned the space down here into a lounging bed, so...",
-     "speaker": "Mother"
+     "start": 516.5,
+     "end": 521.2,
+     "ja": "今日はホテル無水カレーを作って、今保温しています。",
+     "en": "Today I made waterless hotel curry, and I'm keeping it warm right now.",
+     "speaker": "Narrator"
     },
     {
-     "start": 1327.5,
-     "end": 1330.3,
-     "ja": "どうですか？ここ気持ちいいですか？",
-     "en": "How is it? Is it comfy here?",
-     "speaker": "Mother"
+     "start": 521.4,
+     "end": 524.2,
+     "ja": "保温していて、もうここから...",
+     "en": "It's kept warm, so straight from here...",
+     "speaker": "Narrator"
     },
     {
-     "start": 1330.6,
-     "end": 1331.5,
+     "start": 526.0,
+     "end": 530.5,
+     "ja": "ホカホカ熱々で食べられるので便利です。",
+     "en": "It's so convenient because we can eat it piping hot.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 593.3,
+   "end": 603.0,
+   "title": "Can You Eat Two Pieces?",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family",
+    "food"
+   ],
+   "grammar": [
+    "〜れる — can do (potential form)",
+    "〜でいい — fine with / okay with"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 593.6,
+     "end": 597.3,
+     "ja": "２つ食べ... あ、２つ食べれる？１個でいい？",
+     "en": "Can you eat two... oh, can you eat two? Is one fine?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 597.5,
+     "end": 598.5,
+     "ja": "これ？",
+     "en": "This?",
+     "speaker": "Man"
+    },
+    {
+     "start": 598.6,
+     "end": 599.2,
      "ja": "うん。",
      "en": "Yeah.",
-     "speaker": "Daughter"
+     "speaker": "Woman"
     },
     {
-     "start": 1332.8,
-     "end": 1337.0,
-     "ja": "ちょっと寝る時間までこんな風に我が家は過ごしています。",
-     "en": "Until bedtime, our family spends our time like this.",
-     "speaker": "Mother"
+     "start": 599.4,
+     "end": 601.0,
+     "ja": "あ、２つ食べれるよ。",
+     "en": "Ah, I can eat two.",
+     "speaker": "Man"
+    },
+    {
+     "start": 601.1,
+     "end": 602.0,
+     "ja": "食べれる？",
+     "en": "You can?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 602.1,
+     "end": 602.7,
+     "ja": "うん。",
+     "en": "Yeah.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 721.8,
+   "end": 743.5,
+   "title": "Kitchen Reset After Dinner",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food"
+   ],
+   "grammar": [
+    "〜が終わり — after finishing",
+    "〜たので — because / since"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 722.2,
+     "end": 725.0,
+     "ja": "はい、今８時半です。",
+     "en": "All right, it's 8:30 PM now.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 725.5,
+     "end": 731.5,
+     "ja": "夕食が終わり、キッチンリセットが終わりました。",
+     "en": "Dinner is over, and I finished resetting the kitchen.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 733.0,
+     "end": 735.4,
+     "ja": "手洗いのもの...",
+     "en": "The hand-washed items...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 735.6,
+     "end": 743.0,
+     "ja": "あと、今日は無水ホテルカレーを作ったので、これだけ作り置きで保存容器に入れました。",
+     "en": "Also, since I made waterless hotel curry today, I put this much into storage containers as meal prep.",
+     "speaker": "Narrator"
     }
    ]
   }
@@ -148,5 +149,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

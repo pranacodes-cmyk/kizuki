@@ -2,101 +2,129 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 1.6,
-   "end": 8.2,
-   "title": "Thinking of Getting a Pet",
+   "start": 21.8,
+   "end": 36.2,
+   "title": "The Apprenticeship",
    "level": "N3",
    "topics": [
-    "friends",
-    "daily",
-    "animals"
+    "work",
+    "fun"
    ],
    "grammar": [
-    "〜やけど — Kansai form of ~but",
-    "〜てくれる — doing something for someone's benefit"
+    "〜てほしい — wanting someone to do something",
+    "〜続ける — to continue doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1.8,
-     "end": 4.6,
-     "ja": "いきなりやけど俺、ちょっともうペット飼いたいな思て。",
-     "en": "Out of nowhere, but I've been thinking I'd like to get a pet.",
-     "speaker": "Friend"
+     "start": 21.9,
+     "end": 23.3,
+     "ja": "弟子にしてください。",
+     "en": "Please make me your apprentice.",
+     "speaker": "Tokunaga"
     },
     {
-     "start": 5.0,
-     "end": 8.0,
-     "ja": "一人暮らしの寂しさとか紛らわしてくれるやんか。",
-     "en": "It takes your mind off the loneliness of living alone, you know?",
-     "speaker": "Friend"
+     "start": 23.5,
+     "end": 28.5,
+     "ja": "ただ、がむしゃらに迷い続ける、若手芸人・徳永。",
+     "en": "Tokunaga, a young comedian blindly struggling along his path.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 28.8,
+     "end": 31.0,
+     "ja": "俺の、伝記を作ってほしいねん。",
+     "en": "I want you to write my biography.",
+     "speaker": "Kamiya"
+    },
+    {
+     "start": 31.2,
+     "end": 36.0,
+     "ja": "決して周りに媚びない、型破りな先輩芸人・神谷。",
+     "en": "Kamiya, an unconventional senior comedian who never sucks up to anyone.",
+     "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 50.7,
-   "end": 57.0,
-   "title": "Is This Supposed to Be Funny?",
-   "level": "N3",
+   "start": 37.8,
+   "end": 49.0,
+   "title": "Unique Brand of Comedy",
+   "level": "N2",
    "topics": [
-    "friends",
-    "comedy"
+    "work",
+    "friends"
    ],
    "grammar": [
-    "〜てました — was doing (polite)",
-    "〜ても — even if / no matter what"
+    "〜にしか…ない — only, unique to",
+    "〜節がある — to have a tendency to"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 50.9,
-     "end": 54.4,
-     "ja": "人の真似すんの死んでも嫌やって言うてましたよね？",
-     "en": "You told me you'd rather die than copy someone else, right?",
-     "speaker": "Tokunaga"
+     "start": 38.0,
+     "end": 40.5,
+     "ja": "それは個性とは言われへん。もう吠えやで。",
+     "en": "You can't call that originality. It's just barking.",
+     "speaker": "Kamiya"
     },
     {
-     "start": 54.8,
-     "end": 56.8,
-     "ja": "これも面白いんですか？",
-     "en": "Is this supposed to be funny too?",
+     "start": 40.8,
+     "end": 44.2,
+     "ja": "お前にしか作られへん笑いが、絶対あるんやで。",
+     "en": "There's definitely a comedy that only you can create.",
+     "speaker": "Kamiya"
+    },
+    {
+     "start": 44.5,
+     "end": 48.8,
+     "ja": "この人が全ての答えを持っていると思い込んでいる節が、僕にはあった。",
+     "en": "There was a part of me that assumed this man had all the answers.",
      "speaker": "Tokunaga"
     }
    ]
   },
   {
-   "start": 130.2,
-   "end": 144.8,
-   "title": "There Is No Bad Ending",
+   "start": 130.0,
+   "end": 144.5,
+   "title": "There Is No Bad End",
    "level": "N3",
    "topics": [
-    "culture"
+    "culture",
+    "daily"
    ],
    "grammar": [
     "〜限り — as long as",
-    "まだまだ — still far from / still"
+    "まだまだ — still far from, not yet"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 130.5,
-     "end": 133.7,
-     "ja": "生きている限り、バッドエンドはない。",
-     "en": "As long as you're alive, there is no bad ending.",
+     "start": 130.4,
+     "end": 132.4,
+     "ja": "生きている限り、",
+     "en": "As long as we're alive,",
      "speaker": "Tokunaga"
     },
     {
-     "start": 135.7,
-     "end": 138.8,
-     "ja": "僕たちはまだまだ途中だ。",
-     "en": "We are still on our way.",
+     "start": 132.8,
+     "end": 135.0,
+     "ja": "バッドエンドはない。",
+     "en": "there's no such thing as a bad ending.",
      "speaker": "Tokunaga"
     },
     {
-     "start": 142.5,
-     "end": 144.5,
+     "start": 136.2,
+     "end": 139.0,
+     "ja": "僕たちは、まだまだ途中だ。",
+     "en": "We're still midway on our journey.",
+     "speaker": "Tokunaga"
+    },
+    {
+     "start": 142.8,
+     "end": 144.2,
      "ja": "火花。",
-     "en": "Sparks.",
+     "en": "Hibana: Spark.",
      "speaker": "Tokunaga"
     }
    ]
@@ -106,5 +134,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

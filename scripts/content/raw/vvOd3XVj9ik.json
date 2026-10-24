@@ -3,16 +3,16 @@
  "clips": [
   {
    "start": 10.5,
-   "end": 29.3,
-   "title": "What Are You Eating?",
+   "end": 29.5,
+   "title": "Mari Introduces Her Ramen",
    "level": "N5",
    "topics": [
     "food",
-    "friends"
+    "fun"
    ],
    "grammar": [
-    "〜を食べます — eat ~",
-    "〜も — also"
+    "何を〜ますか — asking what someone does",
+    "〜も — also / too"
    ],
    "quality": 4,
    "lines": [
@@ -20,61 +20,61 @@
      "start": 10.8,
      "end": 13.5,
      "ja": "はい、マリさん。何を食べますか？",
-     "en": "All right, Mari. What are you eating?",
+     "en": "Alright, Mari-san. What are you having?",
      "speaker": "Cameraman"
     },
     {
-     "start": 13.8,
-     "end": 15.5,
+     "start": 14.0,
+     "end": 15.4,
      "ja": "ベジリッチです。",
-     "en": "It's Vege Rich.",
+     "en": "Vege Rich.",
      "speaker": "Mari"
     },
     {
-     "start": 15.6,
-     "end": 17.0,
-     "ja": "ベジリッチです？",
-     "en": "Vege Rich?",
+     "start": 15.7,
+     "end": 17.2,
+     "ja": "ベジリッチです。",
+     "en": "Vege Rich.",
      "speaker": "Cameraman"
     },
     {
-     "start": 17.0,
-     "end": 18.5,
+     "start": 17.3,
+     "end": 18.7,
      "ja": "はい、ベジリッチです。",
      "en": "Yes, Vege Rich.",
      "speaker": "Mari"
     },
     {
-     "start": 20.0,
-     "end": 22.8,
+     "start": 20.3,
+     "end": 23.0,
      "ja": "はい、マリです。これはベジリッチです。",
      "en": "Yes, I'm Mari. This is Vege Rich.",
      "speaker": "Mari"
     },
     {
-     "start": 23.0,
-     "end": 24.5,
+     "start": 23.2,
+     "end": 25.0,
      "ja": "はい。あれ、左利きですか？",
-     "en": "Okay. Wait, are you left-handed?",
+     "en": "Yes. Oh, are you left-handed?",
      "speaker": "Cameraman"
     },
     {
-     "start": 24.6,
-     "end": 25.5,
+     "start": 25.2,
+     "end": 26.0,
      "ja": "はい。",
      "en": "Yes.",
      "speaker": "Mari"
     },
     {
-     "start": 25.8,
-     "end": 27.4,
+     "start": 26.1,
+     "end": 27.5,
      "ja": "左もいいです。",
-     "en": "Left is fine too.",
+     "en": "Left works too.",
      "speaker": "Mari"
     },
     {
      "start": 27.6,
-     "end": 29.0,
+     "end": 29.2,
      "ja": "右も使えます？",
      "en": "Can you use your right hand too?",
      "speaker": "Cameraman"
@@ -83,104 +83,119 @@
   },
   {
    "start": 131.5,
-   "end": 143.5,
-   "title": "Trying Mutton Miso Cutlet",
-   "level": "N5",
-   "topics": [
-    "food"
-   ],
-   "grammar": [
-    "〜は何ですか — what is ~?",
-    "〜そう — looks like"
-   ],
-   "quality": 4,
-   "lines": [
-    {
-     "start": 132.0,
-     "end": 133.2,
-     "ja": "それは何ですか？",
-     "en": "What is that?",
-     "speaker": "Cameraman"
-    },
-    {
-     "start": 133.3,
-     "end": 135.5,
-     "ja": "これはヤギ味噌カツです。",
-     "en": "This is mutton miso cutlet.",
-     "speaker": "Mari"
-    },
-    {
-     "start": 137.0,
-     "end": 139.0,
-     "ja": "あ、美味しそうですね。いいね。",
-     "en": "Oh, that looks delicious. Nice.",
-     "speaker": "Cameraman"
-    },
-    {
-     "start": 139.1,
-     "end": 140.5,
-     "ja": "いいスマイルですね。",
-     "en": "Nice smile.",
-     "speaker": "Cameraman"
-    },
-    {
-     "start": 140.6,
-     "end": 142.5,
-     "ja": "美味しいです。イエーイ！",
-     "en": "It's delicious. Yay!",
-     "speaker": "Mari"
-    }
-   ]
-  },
-  {
-   "start": 301.5,
-   "end": 314.0,
-   "title": "Aki Bay Special Omurice",
+   "end": 143.0,
+   "title": "Tasting Mutton Miso Cutlet",
    "level": "N5",
    "topics": [
     "food",
     "fun"
    ],
    "grammar": [
-    "〜です — polite copula",
-    "いただきます — expression before eating"
+    "これ・それ — demonstratives this/that",
+    "〜そう — looks like"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 301.8,
-     "end": 303.0,
-     "ja": "はい、ジョーさん。",
-     "en": "All right, Joh.",
+     "start": 131.8,
+     "end": 133.0,
+     "ja": "それは何ですか？",
+     "en": "What is that?",
      "speaker": "Cameraman"
     },
     {
-     "start": 303.1,
+     "start": 133.2,
+     "end": 135.5,
+     "ja": "これはヤギ味噌カツです。",
+     "en": "This is mutton miso cutlet.",
+     "speaker": "Mari"
+    },
+    {
+     "start": 135.7,
+     "end": 136.6,
+     "ja": "はい。",
+     "en": "Okay.",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 137.0,
+     "end": 140.3,
+     "ja": "あ、美味しそうですね。いいスマイルですね。",
+     "en": "Oh, that looks delicious. Great smile!",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 140.5,
+     "end": 142.5,
+     "ja": "美味しいです。イエイ！",
+     "en": "It's delicious. Yay!",
+     "speaker": "Mari"
+    }
+   ]
+  },
+  {
+   "start": 301.8,
+   "end": 314.5,
+   "title": "Joe Tries the Omurice",
+   "level": "N5",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "いただきます — phrase said before eating",
+    "〜です — polite copula to be"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 302.0,
+     "end": 303.1,
+     "ja": "はい。ジョーさん。",
+     "en": "Alright. Joe-san.",
+     "speaker": "Cameraman"
+    },
+    {
+     "start": 303.2,
+     "end": 304.3,
+     "ja": "ジョーです。",
+     "en": "I'm Joe.",
+     "speaker": "Joe"
+    },
+    {
+     "start": 304.4,
      "end": 306.0,
-     "ja": "ジョーです！オムライスでーす！",
-     "en": "I'm Joh! Here is omurice!",
-     "speaker": "Joh"
+     "ja": "オムライスでーす！",
+     "en": "Here's omurice!",
+     "speaker": "Joe"
     },
     {
      "start": 306.1,
-     "end": 308.0,
-     "ja": "オムライス！",
-     "en": "Omurice!",
-     "speaker": "Cameraman"
+     "end": 307.5,
+     "ja": "デデーン！",
+     "en": "Ta-da!",
+     "speaker": "Joe"
     },
     {
-     "start": 308.2,
-     "end": 309.5,
-     "ja": "いただきまーす！",
-     "en": "Let's eat!",
-     "speaker": "Joh"
+     "start": 308.0,
+     "end": 309.4,
+     "ja": "いただきます。",
+     "en": "Let's dig in.",
+     "speaker": "Joe"
     },
     {
      "start": 309.6,
-     "end": 313.2,
-     "ja": "オムライスです。秋平特製オムライスです。",
-     "en": "It's omurice. Aki Bay's special omurice.",
-     "speaker": "Joh"
+     "end": 310.8,
+     "ja": "オムライスです。",
+     "en": "It's omurice.",
+     "speaker": "Joe"
+    },
+    {
+     "start": 311.0,
+     "end": 313.8,
+     "ja": "秋平特製オムライスです。",
+     "en": "It's Aki Bay's special omurice.",
+     "speaker": "Joe"
     }
    ]
   }
@@ -189,5 +204,6 @@
  "pickTopics": [
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

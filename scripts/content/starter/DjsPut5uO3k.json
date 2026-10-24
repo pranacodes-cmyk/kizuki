@@ -1,0 +1,21 @@
+{
+ "videoId": "DjsPut5uO3k",
+ "ids": [
+  "DjsPut5uO3k-46"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "DjsPut5uO3k-46": {
+   "id": "DjsPut5uO3k-46",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "loud music"
+   ],
+   "why": "Cute fantasy visuals with simple dialogue, though music slightly obscures voices."
+  }
+ }
+}

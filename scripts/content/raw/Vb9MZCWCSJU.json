@@ -2,291 +2,251 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 700.3,
-   "end": 718.6,
-   "title": "What's Your Real Name?",
+   "start": 23.5,
+   "end": 41.5,
+   "title": "A Hidden Gem Bar",
+   "level": "N3",
+   "topics": [
+    "food",
+    "daily"
+   ],
+   "grammar": [
+    "〜と思ってんの — thinking that",
+    "〜じゃない — isn't it / aren't there",
+    "〜もんで — because / the thing is"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 23.5,
+     "end": 27.2,
+     "ja": "俺はさ、このバー、本当穴場だと思ってんのよ。",
+     "en": "I really think this bar is a hidden gem.",
+     "speaker": "Man"
+    },
+    {
+     "start": 28.0,
+     "end": 31.5,
+     "ja": "都内でさ、こんな静かにお酒飲めるとこないじゃない。",
+     "en": "In Tokyo, there really aren't places where you can drink so quietly.",
+     "speaker": "Man"
+    },
+    {
+     "start": 32.0,
+     "end": 35.7,
+     "ja": "いや、だから本当俺、この店誰にも教えたくないんだよね。",
+     "en": "So I really don't want to tell anyone about this place.",
+     "speaker": "Man"
+    },
+    {
+     "start": 36.5,
+     "end": 41.2,
+     "ja": "まあ、俺は相変わらず、一人で酒を飲むのが好きなもんでね。",
+     "en": "Well, as usual, I just happen to like drinking alone.",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 700.0,
+   "end": 722.5,
+   "title": "Introducing Names at the Bar",
    "level": "N4",
    "topics": [
     "comedy",
     "friends"
    ],
    "grammar": [
-    "〜ていいですか — may I / is it okay to do?",
-    "〜だけど — but / although"
+    "〜ていいですか — may I do?",
+    "〜って言います — my name is...",
+    "〜たらよかった — wish it had been..."
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 700.7,
-     "end": 702.4,
+     "start": 700.0,
+     "end": 702.1,
      "ja": "お名前聞いていいですか？",
      "en": "May I ask your name?",
      "speaker": "Woman"
     },
     {
-     "start": 702.6,
-     "end": 704.4,
-     "ja": "自分、あの西田と言います。",
-     "en": "My name is Nishida.",
+     "start": 702.3,
+     "end": 704.0,
+     "ja": "あ、自分あの、西田って言います。",
+     "en": "Ah, I'm Nishida.",
      "speaker": "Man"
     },
     {
-     "start": 704.5,
-     "end": 705.5,
+     "start": 704.1,
+     "end": 704.9,
      "ja": "珍しい。",
-     "en": "That's uncommon.",
+     "en": "That's unusual.",
      "speaker": "Woman"
     },
     {
-     "start": 705.6,
-     "end": 707.0,
-     "ja": "珍しくないです、そんな。",
-     "en": "It's really not uncommon.",
+     "start": 705.0,
+     "end": 708.0,
+     "ja": "珍しくないです、そんな。敏行とかいますし。",
+     "en": "It's not that unusual. There's Toshiyuki and all.",
      "speaker": "Man"
     },
     {
-     "start": 709.6,
-     "end": 710.6,
-     "ja": "お名前なんていう…？",
-     "en": "And what is your name...?",
-     "speaker": "Man"
-    },
-    {
-     "start": 710.7,
-     "end": 712.3,
-     "ja": "真似田聖子です。",
-     "en": "I'm Seiko Maneda.",
+     "start": 708.1,
+     "end": 709.6,
+     "ja": "あ、そうなんだ。へえ。",
+     "en": "Oh, I see. Huh.",
      "speaker": "Woman"
     },
     {
-     "start": 712.5,
-     "end": 713.6,
-     "ja": "真似田聖子？",
-     "en": "Seiko Maneda?",
+     "start": 709.7,
+     "end": 711.2,
+     "ja": "え、お名前なんて言うんですか？",
+     "en": "What is your name?",
      "speaker": "Man"
     },
     {
-     "start": 713.7,
-     "end": 714.4,
-     "ja": "はい。",
-     "en": "Yes.",
+     "start": 711.3,
+     "end": 712.6,
+     "ja": "あ、真似田聖子です。",
+     "en": "Ah, I'm Maneda Seiko.",
      "speaker": "Woman"
     },
     {
-     "start": 714.5,
-     "end": 715.4,
-     "ja": "本名で？",
-     "en": "Your real name?",
+     "start": 712.7,
+     "end": 714.3,
+     "ja": "真似田聖子？本名で？",
+     "en": "Maneda Seiko? That's your real name?",
      "speaker": "Man"
     },
     {
-     "start": 715.5,
-     "end": 716.3,
+     "start": 714.4,
+     "end": 715.3,
      "ja": "本名で。",
-     "en": "My real name.",
+     "en": "Real name.",
      "speaker": "Woman"
     },
     {
-     "start": 716.4,
+     "start": 715.4,
      "end": 717.3,
-     "ja": "真似田聖子？",
-     "en": "Seiko Maneda?",
+     "ja": "本名で！？真似田聖子？マジっすか？",
+     "en": "Real name?! Maneda Seiko? Seriously?",
      "speaker": "Man"
     },
     {
      "start": 717.4,
-     "end": 718.1,
-     "ja": "はい。",
-     "en": "Yes.",
+     "end": 718.9,
+     "ja": "真似してないんですけどね。",
+     "en": "Even though I'm not imitating her.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 719.0,
+     "end": 720.1,
+     "ja": "真似してないのに！？",
+     "en": "Even though you're not imitating?!",
+     "speaker": "Man"
+    },
+    {
+     "start": 720.2,
+     "end": 722.5,
+     "ja": "松田だったらよかったなってすごい思います。",
+     "en": "I really wish it had been Matsuda.",
      "speaker": "Woman"
     }
    ]
   },
   {
-   "start": 726.0,
-   "end": 745.2,
+   "start": 725.8,
+   "end": 751.5,
    "title": "Living in a Camper Van",
-   "level": "N3",
-   "topics": [
-    "comedy",
-    "travel"
-   ],
-   "grammar": [
-    "〜なんですよ — explanatory emphasis",
-    "〜じゃないですか — isn't it / as you know"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 726.4,
-     "end": 727.6,
-     "ja": "どこ住んでるんですか？",
-     "en": "Where do you live?",
-     "speaker": "Man"
-    },
-    {
-     "start": 727.7,
-     "end": 729.2,
-     "ja": "私今キャンピングカーなんですよ。",
-     "en": "I live in a camper van right now.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 729.3,
-     "end": 730.4,
-     "ja": "おお、おもしろ！",
-     "en": "Oh, that's hilarious!",
-     "speaker": "Man"
-    },
-    {
-     "start": 730.7,
-     "end": 731.8,
-     "ja": "キャンピングカー？",
-     "en": "A camper van?",
-     "speaker": "Man"
-    },
-    {
-     "start": 731.9,
-     "end": 733.1,
-     "ja": "住所ないんです。",
-     "en": "I don't have an address.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 733.2,
-     "end": 734.5,
-     "ja": "住所ないの？大人なのに？",
-     "en": "No address? Even though you're an adult?",
-     "speaker": "Man"
-    },
-    {
-     "start": 734.6,
-     "end": 735.3,
-     "ja": "はい。",
-     "en": "Yes.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 736.0,
-     "end": 738.4,
-     "ja": "デイリーヤマザキの駐車場止めてて。",
-     "en": "I park it at a Daily Yamazaki convenience store.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 738.5,
-     "end": 741.7,
-     "ja": "場所おもしろ！デイリーヤマザキの駐車場？",
-     "en": "That location is hilarious! Daily Yamazaki's parking lot?",
-     "speaker": "Man"
-    },
-    {
-     "start": 741.8,
-     "end": 742.6,
-     "ja": "なんで？",
-     "en": "Why?",
-     "speaker": "Man"
-    },
-    {
-     "start": 742.7,
-     "end": 744.4,
-     "ja": "いや、焼きたてパン売ってるじゃないですか。",
-     "en": "Well, they sell freshly baked bread, you know.",
-     "speaker": "Woman"
-    }
-   ]
-  },
-  {
-   "start": 923.6,
-   "end": 953.5,
-   "title": "Do You Believe in God?",
    "level": "N3",
    "topics": [
     "comedy",
     "daily"
    ],
    "grammar": [
-    "〜たら — if / when",
-    "〜たり — listing actions or conditions"
+    "〜のに — even though / despite",
+    "〜じゃないですか — don't you know / isn't it the case that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 923.7,
-     "end": 925.7,
-     "ja": "悩みとかあったらいつでも連絡してください。",
-     "en": "If you have any worries, feel free to contact me anytime.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 926.0,
-     "end": 927.4,
-     "ja": "はい、ありがとうございます。",
-     "en": "Yes, thank you.",
+     "start": 725.8,
+     "end": 727.4,
+     "ja": "じゃあどこ住んでるんですか？",
+     "en": "So where do you live?",
      "speaker": "Man"
     },
     {
-     "start": 927.6,
-     "end": 929.9,
-     "ja": "不安なこととかあったらいつでも連絡してください。",
-     "en": "If you feel anxious about anything, contact me anytime.",
+     "start": 727.5,
+     "end": 729.8,
+     "ja": "私、今キャンピングカーなんですよ。",
+     "en": "Right now, I'm in a camper van.",
      "speaker": "Woman"
     },
     {
-     "start": 930.2,
-     "end": 931.2,
-     "ja": "あざっす。",
-     "en": "Thanks.",
+     "start": 730.0,
+     "end": 733.4,
+     "ja": "おお、面白っ！キャンピングカー？住所ないの？",
+     "en": "Oh, hilarious! A camper van? You have no address?",
      "speaker": "Man"
     },
     {
-     "start": 931.7,
-     "end": 934.3,
-     "ja": "嫌なこととかあったらいつでも連絡してください。",
-     "en": "If anything bad happens, contact me anytime.",
+     "start": 733.5,
+     "end": 734.4,
+     "ja": "はい。",
+     "en": "Yes.",
      "speaker": "Woman"
     },
     {
-     "start": 934.5,
-     "end": 935.5,
-     "ja": "あざっす。",
-     "en": "Thanks.",
+     "start": 735.3,
+     "end": 737.7,
+     "ja": "でも基本的にはデイリーヤマザキの駐車場止めてて。",
+     "en": "Though basically I park in a Daily Yamazaki parking lot.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 737.8,
+     "end": 741.2,
+     "ja": "場所面白っ！デイリーヤマザキの駐車場？なんで？",
+     "en": "Funny location! A Daily Yamazaki parking lot? Why?",
      "speaker": "Man"
     },
     {
-     "start": 936.4,
-     "end": 939.1,
-     "ja": "人生に陰りが見えたらいつでも連絡してください。",
-     "en": "If you see a shadow fall over your life, contact me anytime.",
+     "start": 741.8,
+     "end": 744.0,
+     "ja": "いや、あったけえパン売ってるじゃないですか。",
+     "en": "Well, don't they sell warm bread?",
      "speaker": "Woman"
     },
     {
-     "start": 940.3,
-     "end": 943.4,
-     "ja": "闇に包まれて無理だなと思った時も連絡してください。",
-     "en": "When you're enveloped in darkness and feel like giving up, contact me too.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 945.1,
-     "end": 948.5,
-     "ja": "前途多難だなと感じた時は連絡してください。",
-     "en": "When you feel like tough times lie ahead, please contact me.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 949.8,
-     "end": 952.3,
-     "ja": "ちなみに、神様って信じます？",
-     "en": "By the way, do you believe in God?",
-     "speaker": "Woman"
-    },
-    {
-     "start": 952.4,
-     "end": 953.5,
-     "ja": "あ、最悪だ！",
-     "en": "Oh, this is the worst!",
+     "start": 744.2,
+     "end": 746.0,
+     "ja": "理由面白っ！え？",
+     "en": "Funny reason! What?",
      "speaker": "Man"
+    },
+    {
+     "start": 746.1,
+     "end": 747.3,
+     "ja": "できたてのパンが買えるんで。",
+     "en": "Because I can buy freshly baked bread.",
+     "speaker": "Woman"
+    },
+    {
+     "start": 747.4,
+     "end": 748.8,
+     "ja": "パン屋だったらどこでもいいのに。",
+     "en": "Any bakery would do!",
+     "speaker": "Man"
+    },
+    {
+     "start": 748.9,
+     "end": 751.2,
+     "ja": "やっぱいい匂いすんなーみたいなんで。",
+     "en": "Just like, \"Oh, it smells nice,\" you know.",
+     "speaker": "Woman"
     }
    ]
   }
@@ -295,5 +255,6 @@
  "pickTopics": [
   "comedy"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

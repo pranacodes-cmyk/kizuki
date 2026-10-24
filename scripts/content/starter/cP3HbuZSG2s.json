@@ -1,0 +1,21 @@
+{
+ "videoId": "cP3HbuZSG2s",
+ "ids": [
+  "cP3HbuZSG2s-344"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "cP3HbuZSG2s-344": {
+   "id": "cP3HbuZSG2s-344",
+   "appeal": 6,
+   "clarity": 2,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Fun school game, but noisy shouting and overlapping speech."
+  }
+ }
+}

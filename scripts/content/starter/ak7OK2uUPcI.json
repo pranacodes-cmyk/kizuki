@@ -1,0 +1,19 @@
+{
+ "videoId": "ak7OK2uUPcI",
+ "ids": [
+  "ak7OK2uUPcI-21"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "ak7OK2uUPcI-21": {
+   "id": "ak7OK2uUPcI-21",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Friendly vlog greeting and daily life conversation at a natural pace."
+  }
+ }
+}

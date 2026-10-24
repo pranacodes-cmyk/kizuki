@@ -181,7 +181,14 @@ class _KizukiAppState extends State<KizukiApp> {
       builder: (context, child) => Stack(children: [
         child ?? const SizedBox(),
         // Above every route and sheet, so it can follow the learner and spotlight cards.
-        Positioned.fill(child: TourHost(path: _path)),
+        Positioned.fill(
+          child: TourHost(
+            path: _path,
+            go: (p) => router.go(p),
+            // Word card + Ask Kizuki are sheets on the root navigator (showMimiSheet).
+            closeSheets: () => router.routerDelegate.navigatorKey.currentState?.popUntil((r) => r is! PopupRoute),
+          ),
+        ),
         const Positioned.fill(child: ToastLayer()),
         // Cold-start splash above everything; it removes itself after ~1.6 s.
         const Positioned.fill(child: SplashOverlay()),

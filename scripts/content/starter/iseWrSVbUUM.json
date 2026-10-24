@@ -1,0 +1,19 @@
+{
+ "videoId": "iseWrSVbUUM",
+ "ids": [
+  "iseWrSVbUUM-215"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "iseWrSVbUUM-215": {
+   "id": "iseWrSVbUUM-215",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Cute child reporter asks a clear question at a press event."
+  }
+ }
+}

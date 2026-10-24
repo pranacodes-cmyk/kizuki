@@ -1,0 +1,30 @@
+{
+ "videoId": "mAEwDxoF7Hk",
+ "ids": [
+  "mAEwDxoF7Hk-13",
+  "mAEwDxoF7Hk-64"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "mAEwDxoF7Hk-13": {
+   "id": "mAEwDxoF7Hk-13",
+   "appeal": 4,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Dry software tutorial using synthetic voice over desktop UI menus."
+  },
+  "mAEwDxoF7Hk-64": {
+   "id": "mAEwDxoF7Hk-64",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Strategy game tutorial showing unit controls with clear synthetic narration."
+  }
+ }
+}

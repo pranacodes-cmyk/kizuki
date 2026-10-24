@@ -1,0 +1,30 @@
+{
+ "videoId": "-NNiUpDz9nA",
+ "ids": [
+  "-NNiUpDz9nA-12",
+  "-NNiUpDz9nA-58"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "-NNiUpDz9nA-12": {
+   "id": "-NNiUpDz9nA-12",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, slow emergency dialogue acted out naturally for beginners."
+  },
+  "-NNiUpDz9nA-58": {
+   "id": "-NNiUpDz9nA-58",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Very clear, simple questions and answers about time and symptoms."
+  }
+ }
+}

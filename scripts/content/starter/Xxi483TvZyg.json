@@ -1,0 +1,19 @@
+{
+ "videoId": "Xxi483TvZyg",
+ "ids": [
+  "Xxi483TvZyg-29"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Xxi483TvZyg-29": {
+   "id": "Xxi483TvZyg-29",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous failed baking attempt with casual, accessible spoken Japanese."
+  }
+ }
+}

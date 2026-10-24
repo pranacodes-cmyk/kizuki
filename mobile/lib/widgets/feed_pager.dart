@@ -93,6 +93,8 @@ class _FeedPagerState extends State<FeedPager> {
           controller: _pages,
           scrollDirection: Axis.vertical,
           pageSnapping: false,
+          // Keep the next page built off-screen so its player can warm up before the swipe.
+          allowImplicitScrolling: true,
           physics: FeedPagePhysics(basePage: () => _base, count: widget.itemCount),
           itemCount: widget.itemCount,
           itemBuilder: widget.itemBuilder,

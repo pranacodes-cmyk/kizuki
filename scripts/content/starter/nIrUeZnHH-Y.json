@@ -1,0 +1,21 @@
+{
+ "videoId": "nIrUeZnHH-Y",
+ "ids": [
+  "nIrUeZnHH-Y-10"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "nIrUeZnHH-Y-10": {
+   "id": "nIrUeZnHH-Y-10",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "sad topic"
+   ],
+   "why": "Dramatic movie dialogue with natural coastal visuals and moderate speech pace."
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "videoId": "xI8EDxU4Q6g",
+ "ids": [
+  "xI8EDxU4Q6g-17",
+  "xI8EDxU4Q6g-516"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "xI8EDxU4Q6g-516": {
+   "id": "xI8EDxU4Q6g-516",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Relatable dialogue roleplay about cats showing natural conversational agreement."
+  },
+  "xI8EDxU4Q6g-17": {
+   "id": "xI8EDxU4Q6g-17",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear explanation introducing two contrasting Japanese conversational response styles."
+  }
+ }
+}

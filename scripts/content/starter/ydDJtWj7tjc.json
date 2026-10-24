@@ -1,0 +1,19 @@
+{
+ "videoId": "ydDJtWj7tjc",
+ "ids": [
+  "ydDJtWj7tjc-21"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "ydDJtWj7tjc-21": {
+   "id": "ydDJtWj7tjc-21",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear, friendly narration introducing cute handmade crafts and a vlog."
+  }
+ }
+}

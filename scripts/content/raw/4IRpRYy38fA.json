@@ -2,165 +2,98 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 115.8,
-   "end": 129.2,
-   "title": "Contact the Karate Dojo",
-   "level": "N4",
+   "start": 116.2,
+   "end": 129.5,
+   "title": "Karate or Kung Fu?",
+   "level": "N3",
    "topics": [
     "anime",
     "comedy"
    ],
    "grammar": [
-    "〜てくれ — please do"
+    "〜てくれ — informal request / command",
+    "私の名は〜 — formal self-introduction"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 116.0,
-     "end": 117.4,
+     "start": 116.4,
+     "end": 117.5,
      "ja": "後ろだけ！？",
-     "en": "Just the rear wheel!?",
+     "en": "Just the rear wheel?!",
      "speaker": "Biker"
     },
     {
      "start": 117.8,
-     "end": 118.8,
-     "ja": "すまぬ。",
-     "en": "Forgive me.",
+     "end": 120.6,
+     "ja": "すまぬ！私の名は烈！",
+     "en": "Forgive me! My name is Retsu!",
      "speaker": "Retsu"
     },
     {
-     "start": 118.9,
-     "end": 120.3,
-     "ja": "私の名は烈。",
-     "en": "My name is Retsu.",
-     "speaker": "Retsu"
-    },
-    {
-     "start": 120.5,
-     "end": 122.8,
+     "start": 120.8,
+     "end": 123.2,
      "ja": "空手道神心会へ連絡をくれ！",
-     "en": "Contact the Shinshinkai Karate dojo!",
+     "en": "Contact the Shinshinkai Karate School!",
      "speaker": "Retsu"
     },
     {
      "start": 125.5,
-     "end": 127.3,
-     "ja": "か…空手？",
-     "en": "Ka... Karate?",
-     "speaker": "Biker"
-    },
-    {
-     "start": 127.8,
-     "end": 129.0,
-     "ja": "カンフー？",
-     "en": "Kung fu?",
+     "end": 129.2,
+     "ja": "か…空手？カンフー？",
+     "en": "Ka... Karate? Kung Fu?",
      "speaker": "Biker"
     }
    ]
   },
   {
    "start": 132.2,
-   "end": 154.8,
-   "title": "Running Across the Water",
+   "end": 148.0,
+   "title": "Crossing the River on Foot",
    "level": "N3",
    "topics": [
-    "anime",
-    "sports"
+    "anime"
    ],
    "grammar": [
-    "〜ば — if/when",
-    "〜にして — in terms of",
-    "〜なら — if it's"
+    "〜ば — conditional (if / once)",
+    "やむを得ない — cannot be helped / no choice",
+    "〜にして — in terms of"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 132.4,
-     "end": 134.8,
+     "start": 132.6,
+     "end": 135.1,
      "ja": "ここを越えれば目的地。",
-     "en": "If I cross here, I'll reach my destination.",
+     "en": "Once I cross here, I'll be at my destination.",
      "speaker": "Retsu"
     },
     {
-     "start": 135.4,
-     "end": 137.8,
-     "ja": "橋までは１キロメートル。",
-     "en": "It's one kilometer to the bridge.",
+     "start": 135.5,
+     "end": 137.7,
+     "ja": "橋までは1キロメートル。",
+     "en": "The bridge is one kilometer away.",
      "speaker": "Retsu"
     },
     {
-     "start": 140.7,
-     "end": 142.3,
+     "start": 140.4,
+     "end": 142.0,
      "ja": "やむを得ない。",
      "en": "I have no choice.",
      "speaker": "Retsu"
     },
     {
-     "start": 143.1,
-     "end": 144.7,
+     "start": 142.9,
+     "end": 144.5,
      "ja": "距離10メートル。",
-     "en": "A distance of ten meters.",
+     "en": "Distance: ten meters.",
      "speaker": "Retsu"
     },
     {
-     "start": 145.1,
-     "end": 147.8,
+     "start": 144.9,
+     "end": 147.7,
      "ja": "歩数にして700から800歩。",
-     "en": "In terms of steps, 700 to 800 steps.",
-     "speaker": "Retsu"
-    },
-    {
-     "start": 152.2,
-     "end": 154.6,
-     "ja": "問題ない。15メートルまでなら！",
-     "en": "No problem, as long as it's within 15 meters!",
-     "speaker": "Retsu"
-    }
-   ]
-  },
-  {
-   "start": 204.5,
-   "end": 234.8,
-   "title": "He's Crossing the River",
-   "level": "N3",
-   "topics": [
-    "anime",
-    "comedy"
-   ],
-   "grammar": [
-    "〜ても — even if",
-    "〜ておる — ongoing action (humble/archaic)",
-    "さすがに — as expected / after all"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 205.0,
-     "end": 207.5,
-     "ja": "渡ってるよ、川…",
-     "en": "He's crossing it... the river...",
-     "speaker": "Fisherman"
-    },
-    {
-     "start": 216.0,
-     "end": 219.4,
-     "ja": "２人だと、さすがに沈むな。",
-     "en": "With two people, we really do sink.",
-     "speaker": "Retsu"
-    },
-    {
-     "start": 221.0,
-     "end": 224.4,
-     "ja": "信じねえだろうなあ、人に言っても。",
-     "en": "Nobody will believe it, even if I tell them.",
-     "speaker": "Fisherman"
-    },
-    {
-     "start": 232.0,
-     "end": 234.2,
-     "ja": "すまぬ！お騒がせした！",
-     "en": "Forgive me! Sorry for the trouble!",
+     "en": "In steps: 700 to 800.",
      "speaker": "Retsu"
     }
    ]
@@ -171,5 +104,6 @@
   "anime",
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

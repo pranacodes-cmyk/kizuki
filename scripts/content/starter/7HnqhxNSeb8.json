@@ -1,0 +1,30 @@
+{
+ "videoId": "7HnqhxNSeb8",
+ "ids": [
+  "7HnqhxNSeb8-36",
+  "7HnqhxNSeb8-8"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "7HnqhxNSeb8-8": {
+   "id": "7HnqhxNSeb8-8",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Natural casual dialogue about dinner plans between two comedians."
+  },
+  "7HnqhxNSeb8-36": {
+   "id": "7HnqhxNSeb8-36",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous phone reservation sketch with clear, realistic interaction."
+  }
+ }
+}

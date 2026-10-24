@@ -2,105 +2,127 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 235.0,
+   "start": 14.7,
+   "end": 28.0,
+   "title": "Going for a Walk in Unsettled Weather",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "〜たり〜たり — doing things like A and B",
+    "〜てくる — go and do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 15.1,
+     "end": 17.0,
+     "ja": "皆さん、こんにちは。",
+     "en": "Hello everyone.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 18.0,
+     "end": 23.2,
+     "ja": "今日は雨が降ったり止んだり落ち着かない天気ですが、",
+     "en": "The weather is unsettled today with rain starting and stopping, but...",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 23.9,
+     "end": 27.4,
+     "ja": "近くの公園と神社を散歩してきます。",
+     "en": "...we're going to take a walk around a nearby park and shrine.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 234.5,
    "end": 252.5,
-   "title": "Trying Hokkaido Soft Serve",
+   "title": "Trying Hokkaido Soft-Serve Ice Cream",
    "level": "N4",
    "topics": [
     "food",
     "travel"
    ],
    "grammar": [
-    "〜ば — conditional (if)",
-    "〜てほしい — wanting someone to do something"
+    "〜ことがある — to happen to/if it occurs",
+    "〜てほしい — wanting someone to do"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 235.3,
-     "end": 239.1,
+     "end": 238.9,
      "ja": "サブレとソフトクリームを買いました。",
-     "en": "I bought a sable cookie and soft serve ice cream.",
+     "en": "We bought a sable cookie and soft-serve ice cream.",
      "speaker": "Narrator"
     },
     {
      "start": 240.8,
-     "end": 244.2,
+     "end": 243.9,
      "ja": "とっても濃厚で美味しかったです。",
-     "en": "It was very rich and delicious.",
+     "en": "It was really rich and delicious.",
      "speaker": "Narrator"
     },
     {
      "start": 246.3,
-     "end": 252.3,
-     "ja": "もし北海道に来ることがあれば、絶対にソフトクリームを食べてほしいです。",
-     "en": "If you ever come to Hokkaido, you should definitely try the soft serve.",
-     "speaker": "Narrator"
-    }
-   ]
-  },
-  {
-   "start": 307.2,
-   "end": 323.0,
-   "title": "Wild Squirrels in the Park",
-   "level": "N3",
-   "topics": [
-    "animals",
-    "travel"
-   ],
-   "grammar": [
-    "〜より — comparison (more than)"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 307.5,
-     "end": 313.6,
-     "ja": "公園内にはたくさんの野生のエゾリスがいます。",
-     "en": "There are many wild Hokkaido squirrels in the park.",
+     "end": 248.5,
+     "ja": "もし北海道に来ることがあれば、",
+     "en": "If you ever come to Hokkaido,",
      "speaker": "Narrator"
     },
     {
-     "start": 314.0,
-     "end": 322.7,
-     "ja": "エゾリスは北海道に生息するリスで、体長は25cm前後と、ニホンリスより大きめです。",
-     "en": "Ezo squirrels are native to Hokkaido and are around 25 cm long, larger than Japanese squirrels.",
+     "start": 249.0,
+     "end": 251.9,
+     "ja": "絶対にソフトクリームを食べてほしいです。",
+     "en": "I definitely want you to try the soft-serve ice cream.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 358.8,
-   "end": 412.3,
-   "title": "How to Pray at a Shrine",
+   "start": 353.0,
+   "end": 412.0,
+   "title": "How to Pray at a Shinto Shrine",
    "level": "N4",
    "topics": [
     "culture",
     "travel"
    ],
    "grammar": [
-    "〜たら — after doing / conditional",
-    "〜てる — ongoing action"
+    "せっかく〜ので — since / given the rare chance",
+    "〜たら — conditional when/after"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 359.2,
-     "end": 403.8,
-     "ja": "お賽銭を投げたら、まずは、二礼二拍手。",
-     "en": "After tossing in your offering, first bow twice and clap twice.",
+     "start": 353.4,
+     "end": 356.4,
+     "ja": "せっかく来たのでお参りしてきます。",
+     "en": "Since we came all the way here, we're going to pray.",
      "speaker": "Narrator"
     },
     {
-     "start": 404.4,
-     "end": 407.7,
-     "ja": "何をお祈りしてるんでしょうか？",
-     "en": "I wonder what she's praying for?",
+     "start": 359.0,
+     "end": 403.3,
+     "ja": "お賽銭を投げたら、まずは二礼二拍手。",
+     "en": "After throwing in the offering, first bow twice and clap twice.",
      "speaker": "Narrator"
     },
     {
-     "start": 408.8,
-     "end": 411.8,
+     "start": 404.2,
+     "end": 407.0,
+     "ja": "何をお祈りしているんでしょうか？",
+     "en": "I wonder what she is praying for?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 408.9,
+     "end": 411.4,
      "ja": "そして最後に一礼します。",
      "en": "And finally, bow once.",
      "speaker": "Narrator"
@@ -112,5 +134,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -2,229 +2,272 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 20.1,
-   "end": 34.0,
-   "title": "Thirsty on a Sunny Day",
+   "start": 20.5,
+   "end": 34.5,
+   "title": "A Sunny Day in Shibuya",
    "level": "N4",
    "topics": [
-    "daily",
-    "friends"
+    "friends",
+    "daily"
    ],
    "grammar": [
     "〜日和 — ideal weather for",
-    "〜ね — seeking agreement"
+    "〜っす — informal です"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 20.1,
-     "end": 21.8,
-     "ja": "暑いっすね！今日。",
-     "en": "It's so hot today!",
+     "start": 20.7,
+     "end": 22.3,
+     "ja": "暑いっすね！今日",
+     "en": "It's hot today, isn't it!",
      "speaker": "Manager"
     },
     {
-     "start": 21.8,
-     "end": 23.2,
-     "ja": "暑いね。",
-     "en": "It is hot.",
-     "speaker": "Man 1"
+     "start": 22.3,
+     "end": 23.3,
+     "ja": "アツい、暑い。",
+     "en": "Hot, it's hot.",
+     "speaker": "Fujii"
     },
     {
-     "start": 23.2,
-     "end": 26.3,
+     "start": 23.3,
+     "end": 25.8,
      "ja": "今日、凄いピーカン晴れで撮影日和ですよね！",
-     "en": "It's totally clear today, perfect weather for filming!",
+     "en": "It's completely clear today, a perfect day for shooting!",
      "speaker": "Manager"
     },
     {
      "start": 25.8,
-     "end": 27.2,
+     "end": 26.9,
      "ja": "そうですね〜。",
-     "en": "It really is.",
-     "speaker": "Man 2"
+     "en": "It sure is.",
+     "speaker": "Kubo"
     },
     {
-     "start": 27.2,
-     "end": 29.3,
-     "ja": "すげえ、なんか喉渇いたっすよね...",
-     "en": "I'm really kind of thirsty...",
+     "start": 26.9,
+     "end": 28.4,
+     "ja": "すげえ、なんか喉渇いたっすよね…。",
+     "en": "I'm super thirsty...",
      "speaker": "Manager"
     },
     {
-     "start": 28.5,
-     "end": 30.3,
-     "ja": "喉渇いたな〜。",
-     "en": "I'm thirsty too.",
-     "speaker": "Man 1"
-    },
-    {
-     "start": 29.5,
-     "end": 31.0,
+     "start": 28.4,
+     "end": 29.2,
      "ja": "カラカラですよ。",
-     "en": "I'm parched.",
-     "speaker": "Man 2"
+     "en": "Parched.",
+     "speaker": "Kubo"
     },
     {
-     "start": 30.8,
-     "end": 33.8,
-     "ja": "マネージャーさ〜、ちょっと喉渇いたな？",
-     "en": "Hey manager, aren't you a bit thirsty?",
-     "speaker": "Man 1"
+     "start": 29.2,
+     "end": 30.4,
+     "ja": "喉渇いたな〜。",
+     "en": "My throat is dry.",
+     "speaker": "Fujii"
+    },
+    {
+     "start": 30.4,
+     "end": 31.2,
+     "ja": "マネージャーさ〜。",
+     "en": "Hey, Manager...",
+     "speaker": "Fujii"
+    },
+    {
+     "start": 31.2,
+     "end": 31.9,
+     "ja": "はい。",
+     "en": "Yes?",
+     "speaker": "Manager"
+    },
+    {
+     "start": 31.9,
+     "end": 33.4,
+     "ja": "ちょっと、喉渇いたな〜。",
+     "en": "I'm kind of thirsty...",
+     "speaker": "Fujii"
+    },
+    {
+     "start": 33.4,
+     "end": 34.3,
+     "ja": "じゃあ…。",
+     "en": "Well then...",
+     "speaker": "Manager"
     }
    ]
   },
   {
-   "start": 427.4,
-   "end": 451.5,
-   "title": "Strolling into Center Gai",
-   "level": "N4",
+   "start": 427.0,
+   "end": 445.8,
+   "title": "Walking Around Shibuya",
+   "level": "N3",
    "topics": [
     "travel",
-    "daily",
-    "fun"
+    "friends",
+    "daily"
    ],
    "grammar": [
-    "〜て歩く — walk around doing something",
-    "〜たい — want to"
+    "〜てみる / 〜て歩く — wander around doing",
+    "あんまり〜ない — not very much"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 427.4,
-     "end": 430.2,
+     "start": 427.2,
+     "end": 430.0,
      "ja": "じゃあ、テキトーにブラブラ渋谷を歩きますか！",
-     "en": "Alright, shall we casually stroll around Shibuya?",
+     "en": "Well then, shall we wander around Shibuya?",
      "speaker": "Manager"
     },
     {
-     "start": 430.2,
-     "end": 431.6,
+     "start": 430.0,
+     "end": 431.5,
      "ja": "そうだね〜！",
      "en": "Sounds good!",
-     "speaker": "Man 1"
+     "speaker": "Fujii"
     },
     {
-     "start": 431.6,
+     "start": 431.5,
      "end": 433.2,
-     "ja": "なんか、行きたい所あります？",
+     "ja": "なんか、行きたい所あります？？",
      "en": "Is there anywhere you want to go?",
      "speaker": "Manager"
     },
     {
-     "start": 433.4,
-     "end": 437.0,
-     "ja": "そうだね〜。渋谷ってあんまり来ないんですよね。",
-     "en": "Well, I don't really come to Shibuya that often.",
-     "speaker": "Man 1"
+     "start": 433.2,
+     "end": 437.4,
+     "ja": "渋谷ってあんまり来ないんですよね。",
+     "en": "I don't really come to Shibuya that often.",
+     "speaker": "Kubo"
     },
     {
-     "start": 438.0,
+     "start": 437.4,
      "end": 441.2,
-     "ja": "でも広海さん、たまに駒野さんとかと、渋谷来てないですか？",
-     "en": "But Hiromi, don't you sometimes come to Shibuya with Komano and others?",
+     "ja": "でも、浩海さん、たまに駒野さんとかと、渋谷来てないですか？",
+     "en": "Wait, Hiromi-san, don't you visit Shibuya sometimes with Komano-san and others?",
      "speaker": "Manager"
     },
     {
      "start": 441.2,
-     "end": 442.8,
+     "end": 443.0,
      "ja": "あ、自分は来てないですね。",
-     "en": "Ah, no, I haven't been.",
-     "speaker": "Man 2"
+     "en": "Ah, no, I haven't.",
+     "speaker": "Kubo"
     },
     {
      "start": 443.0,
-     "end": 444.8,
+     "end": 444.2,
      "ja": "別のチャンネルですかね？？",
-     "en": "Maybe that was a different channel?",
+     "en": "Was that on another channel?",
      "speaker": "Manager"
     },
     {
-     "start": 444.8,
-     "end": 445.9,
+     "start": 444.2,
+     "end": 445.5,
      "ja": "そうですね！はい。",
-     "en": "Yeah, exactly.",
-     "speaker": "Man 2"
-    },
-    {
-     "start": 446.8,
-     "end": 451.0,
-     "ja": "センター街だ！センター街入ります！",
-     "en": "Center Gai! Let's head into Center Gai!",
-     "speaker": "Man 1"
+     "en": "Yeah, that's right.",
+     "speaker": "Kubo"
     }
    ]
   },
   {
-   "start": 621.8,
-   "end": 644.0,
-   "title": "Falling in Love with Cats",
+   "start": 381.0,
+   "end": 403.5,
+   "title": "Hardcore Cat Lovers",
    "level": "N3",
    "topics": [
     "animals",
+    "friends",
     "fun"
    ],
    "grammar": [
-    "〜になっちゃう — end up becoming",
-    "〜派 — belonging to a faction/preference"
+    "〜ちゃって / 〜ちゃう — ended up doing",
+    "〜派 — person who prefers (type)"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 621.8,
-     "end": 624.4,
-     "ja": "冒頭から、ちょっとメロメロになっちゃって。",
-     "en": "Right from the start, you both got totally smitten.",
+     "start": 381.1,
+     "end": 384.0,
+     "ja": "いや、もう冒頭から、ちょっとメロメロになっちゃって。",
+     "en": "Man, right from the start I'm already totally smitten.",
      "speaker": "Manager"
     },
     {
-     "start": 624.4,
-     "end": 625.5,
-     "ja": "本当ですよ。",
-     "en": "Totally.",
-     "speaker": "Man 2"
+     "start": 384.0,
+     "end": 385.2,
+     "ja": "本当ですよ！",
+     "en": "Totally!",
+     "speaker": "Kubo"
     },
     {
-     "start": 625.5,
-     "end": 630.2,
-     "ja": "声がもう、デレデレしちゃったんですけど、どうですか？２人とも猫は？",
-     "en": "Your voices got completely soppy. How do you both like cats?",
+     "start": 385.2,
+     "end": 388.0,
+     "ja": "ちょっともう声が、本当デレデレしちゃったんですけど。",
+     "en": "My voice got completely soppy, but...",
      "speaker": "Manager"
     },
     {
-     "start": 630.5,
-     "end": 633.5,
-     "ja": "ガチの猫好きなんで、ヤバいっすね。",
-     "en": "I'm genuinely a cat lover, so this is incredible.",
-     "speaker": "Man 2"
+     "start": 388.0,
+     "end": 390.0,
+     "ja": "どうですか？２人とも猫は？",
+     "en": "How about you two? How are you with cats?",
+     "speaker": "Manager"
     },
     {
-     "start": 634.7,
-     "end": 636.7,
-     "ja": "可愛いよね？一生、居れますもんね。",
-     "en": "Aren't they cute? You could stay here forever.",
-     "speaker": "Man 1"
+     "start": 390.0,
+     "end": 392.4,
+     "ja": "ガチの猫好きなんで。",
+     "en": "I'm a hardcore cat lover.",
+     "speaker": "Kubo"
     },
     {
-     "start": 636.7,
-     "end": 638.5,
+     "start": 392.4,
+     "end": 393.0,
+     "ja": "はい。",
+     "en": "Right.",
+     "speaker": "Manager"
+    },
+    {
+     "start": 393.0,
+     "end": 394.8,
+     "ja": "ヤバいっすねぇ。",
+     "en": "This is amazing.",
+     "speaker": "Kubo"
+    },
+    {
+     "start": 394.8,
+     "end": 396.0,
+     "ja": "可愛いよね？",
+     "en": "Cute, aren't they?",
+     "speaker": "Fujii"
+    },
+    {
+     "start": 396.0,
+     "end": 397.3,
+     "ja": "一生、居れますもん。",
+     "en": "I could honestly stay here forever.",
+     "speaker": "Kubo"
+    },
+    {
+     "start": 397.3,
+     "end": 398.8,
      "ja": "間違いないですね。",
      "en": "No doubt about that.",
      "speaker": "Manager"
     },
     {
-     "start": 638.5,
-     "end": 641.8,
+     "start": 398.8,
+     "end": 401.8,
      "ja": "学さんも「犬派」ですけど、たまには「猫」も良いですよね？",
-     "en": "Manabu, you're a dog person, but cats are nice once in a while too, right?",
+     "en": "Gaku-san is a dog person, but cats are nice once in a while too, right?",
      "speaker": "Manager"
     },
     {
-     "start": 641.8,
-     "end": 644.0,
+     "start": 401.8,
+     "end": 403.2,
      "ja": "そうだね！猫もイイね〜！",
      "en": "Yeah! Cats are great too!",
-     "speaker": "Man 1"
+     "speaker": "Fujii"
     }
    ]
   }
@@ -233,5 +276,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

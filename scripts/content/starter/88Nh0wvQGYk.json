@@ -1,0 +1,30 @@
+{
+ "videoId": "88Nh0wvQGYk",
+ "ids": [
+  "88Nh0wvQGYk-239",
+  "88Nh0wvQGYk-87"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "88Nh0wvQGYk-87": {
+   "id": "88Nh0wvQGYk-87",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Fun street interview guessing game with accessible vocabulary."
+  },
+  "88Nh0wvQGYk-239": {
+   "id": "88Nh0wvQGYk-239",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous reactions make the loanword challenge enjoyable to follow."
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "videoId": "ackXOQLzL_I",
+ "ids": [
+  "ackXOQLzL_I-316",
+  "ackXOQLzL_I-92"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "ackXOQLzL_I-316": {
+   "id": "ackXOQLzL_I-316",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute dog reaction to simple phrase 'oyatsu taberu'."
+  },
+  "ackXOQLzL_I-92": {
+   "id": "ackXOQLzL_I-92",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear speech introducing bed, but background music slightly distracting."
+  }
+ }
+}

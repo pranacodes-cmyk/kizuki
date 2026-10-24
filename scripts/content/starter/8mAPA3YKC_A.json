@@ -1,0 +1,19 @@
+{
+ "videoId": "8mAPA3YKC_A",
+ "ids": [
+  "8mAPA3YKC_A-129"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "8mAPA3YKC_A-129": {
+   "id": "8mAPA3YKC_A-129",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear speech explaining common Japanese religious traditions during holidays."
+  }
+ }
+}

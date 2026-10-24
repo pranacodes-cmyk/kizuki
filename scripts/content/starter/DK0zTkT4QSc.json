@@ -1,0 +1,21 @@
+{
+ "videoId": "DK0zTkT4QSc",
+ "ids": [
+  "DK0zTkT4QSc-232"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "DK0zTkT4QSc-232": {
+   "id": "DK0zTkT4QSc-232",
+   "appeal": 7,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "background music"
+   ],
+   "why": "Humorous wish on a shooting star with simple vocabulary."
+  }
+ }
+}

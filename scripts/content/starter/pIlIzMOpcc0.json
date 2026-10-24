@@ -1,0 +1,32 @@
+{
+ "videoId": "pIlIzMOpcc0",
+ "ids": [
+  "pIlIzMOpcc0-226",
+  "pIlIzMOpcc0-838"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "pIlIzMOpcc0-226": {
+   "id": "pIlIzMOpcc0-226",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Lively dining scene with clear pronunciation of food terms."
+  },
+  "pIlIzMOpcc0-838": {
+   "id": "pIlIzMOpcc0-838",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Casual conversation at poolside with natural but slightly muffled audio."
+  }
+ }
+}

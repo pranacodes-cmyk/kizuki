@@ -1,0 +1,30 @@
+{
+ "videoId": "-7wkawvHU8Q",
+ "ids": [
+  "-7wkawvHU8Q-10",
+  "-7wkawvHU8Q-666"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "-7wkawvHU8Q-666": {
+   "id": "-7wkawvHU8Q-666",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Warm closing remarks with clear speech and friendly delivery."
+  },
+  "-7wkawvHU8Q-10": {
+   "id": "-7wkawvHU8Q-10",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Friendly introductory greeting, though the face mask limits visual cues."
+  }
+ }
+}

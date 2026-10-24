@@ -1,0 +1,19 @@
+{
+ "videoId": "2T0t10fyk60",
+ "ids": [
+  "2T0t10fyk60-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "2T0t10fyk60-0": {
+   "id": "2T0t10fyk60-0",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Friendly introduction discussing learning Japanese through drama and anime."
+  }
+ }
+}

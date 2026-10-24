@@ -1,0 +1,21 @@
+{
+ "videoId": "GXuT_mCprxk",
+ "ids": [
+  "GXuT_mCprxk-34"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "GXuT_mCprxk-34": {
+   "id": "GXuT_mCprxk-34",
+   "appeal": 4,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [
+    "unsafe content"
+   ],
+   "why": "Crude jokes and chaotic streamer banter unsuitable for beginners."
+  }
+ }
+}

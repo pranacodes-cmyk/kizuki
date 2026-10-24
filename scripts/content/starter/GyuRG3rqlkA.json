@@ -1,0 +1,21 @@
+{
+ "videoId": "GyuRG3rqlkA",
+ "ids": [
+  "GyuRG3rqlkA-5"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "GyuRG3rqlkA-5": {
+   "id": "GyuRG3rqlkA-5",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "sad topic"
+   ],
+   "why": "Clear voiceover and comic visuals, though dialogue is slightly fast."
+  }
+ }
+}

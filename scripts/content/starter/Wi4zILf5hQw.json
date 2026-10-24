@@ -1,0 +1,19 @@
+{
+ "videoId": "Wi4zILf5hQw",
+ "ids": [
+  "Wi4zILf5hQw-313"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Wi4zILf5hQw-313": {
+   "id": "Wi4zILf5hQw-313",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, slow spoken Japanese with helpful subtitles about hotel preferences."
+  }
+ }
+}

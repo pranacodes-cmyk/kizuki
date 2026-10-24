@@ -1,0 +1,30 @@
+{
+ "videoId": "jTzIwucqHnQ",
+ "ids": [
+  "jTzIwucqHnQ-1",
+  "jTzIwucqHnQ-101"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "jTzIwucqHnQ-101": {
+   "id": "jTzIwucqHnQ-101",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Warm family meal scene teaching everyday polite phrases."
+  },
+  "jTzIwucqHnQ-1": {
+   "id": "jTzIwucqHnQ-1",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute interaction with simple, clear beginner vocabulary."
+  }
+ }
+}

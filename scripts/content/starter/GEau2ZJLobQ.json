@@ -1,0 +1,30 @@
+{
+ "videoId": "GEau2ZJLobQ",
+ "ids": [
+  "GEau2ZJLobQ-134",
+  "GEau2ZJLobQ-244"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "GEau2ZJLobQ-244": {
+   "id": "GEau2ZJLobQ-244",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Teacher explains warm-up stretch clearly, though visual angle is distant."
+  },
+  "GEau2ZJLobQ-134": {
+   "id": "GEau2ZJLobQ-134",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Polite greeting exchange, but speech slightly muffled behind masks."
+  }
+ }
+}

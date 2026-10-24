@@ -1,0 +1,30 @@
+{
+ "videoId": "SRAqvpMVjZ0",
+ "ids": [
+  "SRAqvpMVjZ0-117",
+  "SRAqvpMVjZ0-139"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "SRAqvpMVjZ0-139": {
+   "id": "SRAqvpMVjZ0-139",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear food vocabulary, but uses a static illustrated slide."
+  },
+  "SRAqvpMVjZ0-117": {
+   "id": "SRAqvpMVjZ0-117",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Good cultural phrase practice paired with simple static graphics."
+  }
+ }
+}

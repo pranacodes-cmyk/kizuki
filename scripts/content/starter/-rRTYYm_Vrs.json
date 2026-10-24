@@ -1,0 +1,19 @@
+{
+ "videoId": "-rRTYYm_Vrs",
+ "ids": [
+  "-rRTYYm_Vrs-209"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "-rRTYYm_Vrs-209": {
+   "id": "-rRTYYm_Vrs-209",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear travel tip with helpful visual demonstration of metro doors."
+  }
+ }
+}

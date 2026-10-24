@@ -1,0 +1,19 @@
+{
+ "videoId": "-M5HGD6fhy4",
+ "ids": [
+  "-M5HGD6fhy4-232"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "-M5HGD6fhy4-232": {
+   "id": "-M5HGD6fhy4-232",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute cozy animation with clear, simple conversational Japanese."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "G8j71r10e9Y",
+ "ids": [
+  "G8j71r10e9Y-27"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "G8j71r10e9Y-27": {
+   "id": "G8j71r10e9Y-27",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear and slow reading practice, but visual is just a webpage."
+  }
+ }
+}

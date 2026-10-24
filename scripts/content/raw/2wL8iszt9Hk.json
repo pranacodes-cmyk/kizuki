@@ -3,200 +3,186 @@
  "clips": [
   {
    "start": 18.0,
-   "end": 42.0,
-   "title": "Emergency Landing at Haneda",
-   "level": "N4",
+   "end": 41.5,
+   "title": "Breaking News at Haneda Airport",
+   "level": "N3",
    "topics": [
     "daily",
     "travel"
    ],
    "grammar": [
-    "〜ています — ongoing action/state",
-    "〜そうです — hearsay / seems like"
+    "〜そうだ — I heard that",
+    "〜ていらっしゃる — honorific ongoing action"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 18.5,
-     "end": 21.3,
+     "start": 18.2,
+     "end": 21.0,
      "ja": "悠々人テレビ、お昼のニュースです。",
      "en": "This is Yuyujin TV's midday news.",
      "speaker": "Reporter"
     },
     {
-     "start": 21.6,
-     "end": 23.9,
+     "start": 21.4,
+     "end": 24.3,
      "ja": "今、羽田空港に来ています。",
-     "en": "I am currently at Haneda Airport.",
+     "en": "I am currently here at Haneda Airport.",
      "speaker": "Reporter"
     },
     {
-     "start": 24.3,
-     "end": 28.5,
-     "ja": "XY234便が無事着陸しました。",
+     "start": 24.7,
+     "end": 28.9,
+     "ja": "ＸＹ２３４便が無事、着陸しました。",
      "en": "Flight XY234 has landed safely.",
      "speaker": "Reporter"
     },
     {
-     "start": 28.9,
-     "end": 33.1,
+     "start": 29.3,
+     "end": 33.2,
      "ja": "飛行中にトラブルがあったそうですが…",
-     "en": "There was reportedly trouble during the flight, but...",
+     "en": "We heard there was trouble during the flight...",
      "speaker": "Reporter"
     },
     {
-     "start": 33.5,
+     "start": 33.4,
      "end": 38.6,
-     "ja": "あ、乗客が脱出シューターを使って怪我無く出てきていらっしゃいます。",
-     "en": "Ah, the passengers are coming out uninjured using the emergency slide.",
+     "ja": "あ、乗客が脱出シューターを使って機外に出てきていらっしゃいます。",
+     "en": "Ah, the passengers are coming out of the plane using the evacuation slide.",
      "speaker": "Reporter"
     },
     {
-     "start": 39.0,
-     "end": 41.5,
+     "start": 38.9,
+     "end": 41.3,
      "ja": "乗客、乗員、皆さんご無事です。",
-     "en": "All passengers and crew are safe.",
+     "en": "The passengers and crew are all safe.",
      "speaker": "Reporter"
     }
    ]
   },
   {
-   "start": 43.1,
-   "end": 64.0,
-   "title": "Interviewing Surprised Passengers",
-   "level": "N5",
+   "start": 42.8,
+   "end": 102.2,
+   "title": "Asking the Shocked Passengers",
+   "level": "N4",
    "topics": [
-    "daily",
-    "travel"
+    "travel",
+    "fun"
    ],
    "grammar": [
-    "〜よ — providing new information / emphasis",
-    "どうして〜ですか — asking why"
+    "〜んです — explaining reason / asking for explanation",
+    "どうして〜か — why..."
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 43.5,
-     "end": 45.4,
+     "start": 43.1,
+     "end": 44.9,
      "ja": "ちょっとよろしいですか？",
      "en": "Excuse me, do you have a moment?",
      "speaker": "Reporter"
     },
     {
-     "start": 45.7,
-     "end": 47.3,
-     "ja": "皆さん大丈夫ですか？",
+     "start": 45.1,
+     "end": 47.0,
+     "ja": "皆さん、大丈夫ですか？",
      "en": "Is everyone all right?",
      "speaker": "Reporter"
     },
     {
-     "start": 47.6,
-     "end": 49.8,
+     "start": 47.3,
+     "end": 49.7,
      "ja": "いやー、びっくりしました！",
-     "en": "Oh man, we were startled!",
-     "speaker": "Passenger A"
+     "en": "Oh man, we were so shocked!",
+     "speaker": "Passenger 1"
     },
     {
-     "start": 50.1,
+     "start": 50.0,
      "end": 52.8,
      "ja": "本当にびっくりしました！",
      "en": "We were really surprised!",
-     "speaker": "Passenger B"
+     "speaker": "Passenger 2"
     },
     {
-     "start": 53.1,
-     "end": 55.4,
-     "ja": "びっくりびっくりですよ！",
-     "en": "It was so shocking!",
-     "speaker": "Passenger C"
+     "start": 53.0,
+     "end": 55.7,
+     "ja": "びっくり、びっくりですよ！",
+     "en": "Surprised, so surprised!",
+     "speaker": "Passenger 3"
     },
     {
-     "start": 56.4,
-     "end": 58.7,
+     "start": 56.2,
+     "end": 59.0,
      "ja": "どうしてびっくりしたんですか？",
-     "en": "Why were you startled?",
+     "en": "Why were you so surprised?",
      "speaker": "Reporter"
     },
     {
      "start": 59.2,
-     "end": 63.5,
-     "ja": "いろいろ大変だったんですよ。",
-     "en": "Lots of crazy things happened, you see.",
-     "speaker": "Passenger A"
+     "end": 62.0,
+     "ja": "色々大変だったんですよ。",
+     "en": "It was quite an ordeal, you see.",
+     "speaker": "Passenger 1"
     }
    ]
   },
   {
-   "start": 308.5,
-   "end": 336.5,
-   "title": "What Do You Want to Do Most?",
+   "start": 307.5,
+   "end": 329.5,
+   "title": "What Do You Want to Do Right Now?",
    "level": "N5",
    "topics": [
     "daily",
     "food",
-    "family"
+    "romance"
    ],
    "grammar": [
-    "〜たい — wanting to do something",
-    "〜に会う — meet someone"
+    "〜たい — want to do",
+    "一番 — the most / best"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 308.8,
-     "end": 310.8,
-     "ja": "最後に一ついいですか？",
-     "en": "May I ask one last thing?",
+     "start": 308.0,
+     "end": 310.5,
+     "ja": "最後に一つ、いいですか？",
+     "en": "One last question, may I?",
      "speaker": "Reporter"
     },
     {
-     "start": 311.5,
-     "end": 314.1,
+     "start": 311.0,
+     "end": 313.8,
      "ja": "今、一番したいことは何ですか？",
      "en": "What is the thing you want to do most right now?",
      "speaker": "Reporter"
     },
     {
-     "start": 314.6,
-     "end": 317.3,
+     "start": 314.2,
+     "end": 316.7,
      "ja": "私は家族に会いたいです。",
      "en": "I want to see my family.",
-     "speaker": "Passenger A"
+     "speaker": "Passenger 1"
     },
     {
-     "start": 317.7,
-     "end": 320.6,
+     "start": 317.1,
+     "end": 319.8,
      "ja": "私はラーメンが食べたいです。",
      "en": "I want to eat ramen.",
-     "speaker": "Passenger B"
+     "speaker": "Passenger 2"
     },
     {
-     "start": 321.7,
-     "end": 325.2,
-     "ja": "私は恋人に告白します！",
-     "en": "I'm going to confess to my crush!",
-     "speaker": "Passenger C"
+     "start": 321.0,
+     "end": 324.7,
+     "ja": "私は、恋人に告白します！",
+     "en": "I'm going to confess my feelings to my sweetheart!",
+     "speaker": "Passenger 3"
     },
     {
-     "start": 325.4,
-     "end": 329.1,
-     "ja": "ヒューヒュー！頑張ってね！",
-     "en": "Woo-hoo! Good luck!",
+     "start": 325.2,
+     "end": 329.2,
+     "ja": "ヒューヒュー！頑張ってね！ヒューヒュー！頑張ってね！",
+     "en": "Woohoo! Good luck! Woohoo! Good luck!",
      "speaker": "Crowd"
-    },
-    {
-     "start": 330.6,
-     "end": 333.1,
-     "ja": "皆さん、お時間ありがとうございました。",
-     "en": "Everyone, thank you for your time.",
-     "speaker": "Reporter"
-    },
-    {
-     "start": 333.9,
-     "end": 336.0,
-     "ja": "これで中継を終わります。",
-     "en": "This concludes our live broadcast.",
-     "speaker": "Reporter"
     }
    ]
   }
@@ -205,5 +191,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

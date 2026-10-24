@@ -2,196 +2,254 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 10.74,
-   "end": 26.6,
-   "title": "Showing Off Drawings",
-   "level": "N5",
+   "start": 69.8,
+   "end": 78.5,
+   "title": "What Do You Think of My Drawing?",
+   "level": "N4",
    "topics": [
     "friends",
+    "school",
     "anime"
    ],
    "grammar": [
-    "〜も — also",
-    "〜でしょ — right? / isn't it?"
+    "〜ちゃう — to end up doing",
+    "〜じゃない — isn't it / right?"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 10.94,
-     "end": 13.06,
-     "ja": "私 も描けた。",
-     "en": "I finished drawing too.",
-     "speaker": "Nyakkii"
+     "start": 70.0,
+     "end": 71.4,
+     "ja": "どうしたの？",
+     "en": "What's wrong?",
+     "speaker": "Tamako"
     },
     {
-     "start": 13.24,
-     "end": 14.16,
-     "ja": "ほら！",
-     "en": "Look!",
-     "speaker": "Nyakkii"
+     "start": 71.4,
+     "end": 73.0,
+     "ja": "考え込んじゃって。",
+     "en": "Lost in thought like that?",
+     "speaker": "Tamako"
     },
     {
-     "start": 14.64,
-     "end": 16.78,
-     "ja": "それ、ポン太郎でしょ？",
-     "en": "That's Pontaro, right?",
-     "speaker": "Torippi"
+     "start": 73.1,
+     "end": 76.0,
+     "ja": "ねえ、とりっぴいの絵どう思う？",
+     "en": "Hey, what do you think of my drawing?",
+     "speaker": "Torippii"
     },
     {
-     "start": 16.78,
-     "end": 18.78,
-     "ja": "偉そうな感じがそっくり！",
-     "en": "His arrogant vibe looks just like him!",
-     "speaker": "Torippi"
+     "start": 76.2,
+     "end": 77.5,
+     "ja": "ん？",
+     "en": "Hmm?",
+     "speaker": "Tamako"
     },
     {
-     "start": 19.08,
-     "end": 20.36,
-     "ja": "僕のも見て。",
-     "en": "Look at mine too.",
-     "speaker": "Shimajiro"
+     "start": 77.8,
+     "end": 79.9,
+     "ja": "あら、面白い絵じゃない。",
+     "en": "Oh, isn't it an interesting drawing?",
+     "speaker": "Tamako"
     },
     {
-     "start": 21.0,
-     "end": 22.84,
-     "ja": "うわあ、飛行機！",
-     "en": "Wow, an airplane!",
-     "speaker": "Mimirin"
+     "start": 80.8,
+     "end": 82.0,
+     "ja": "そう？",
+     "en": "Really?",
+     "speaker": "Torippii"
     },
     {
-     "start": 23.08,
-     "end": 24.62,
-     "ja": "かっこいいでしょ？",
-     "en": "Cool, isn't it?",
-     "speaker": "Shimajiro"
+     "start": 82.2,
+     "end": 84.7,
+     "ja": "でも、何の絵だか分かる？",
+     "en": "But do you know what it's a drawing of?",
+     "speaker": "Torippii"
     },
     {
-     "start": 24.84,
-     "end": 26.46,
-     "ja": "とりっぴいもできてるよ。",
-     "en": "Torippi's is ready too.",
-     "speaker": "Torippi"
+     "start": 85.2,
+     "end": 86.6,
+     "ja": "うーん。",
+     "en": "Hmm...",
+     "speaker": "Tamako"
+    },
+    {
+     "start": 86.7,
+     "end": 89.2,
+     "ja": "ひょっとして、しまじろう君じゃない？",
+     "en": "Could it be Shimajiro?",
+     "speaker": "Tamako"
+    },
+    {
+     "start": 89.2,
+     "end": 90.5,
+     "ja": "当たり！",
+     "en": "Bingo!",
+     "speaker": "Torippii"
+    },
+    {
+     "start": 90.6,
+     "end": 92.5,
+     "ja": "どうして分かったの？",
+     "en": "How did you know?",
+     "speaker": "Torippii"
+    },
+    {
+     "start": 93.4,
+     "end": 96.0,
+     "ja": "一応絵のプロですもの。",
+     "en": "I am a professional artist, after all.",
+     "speaker": "Tamako"
+    },
+    {
+     "start": 96.1,
+     "end": 98.4,
+     "ja": "この絵、結構芸術的よ。",
+     "en": "This drawing is quite artistic, you know.",
+     "speaker": "Tamako"
     }
    ]
   },
   {
-   "start": 707.02,
-   "end": 724.88,
-   "title": "Apology and Giving a Drawing",
+   "start": 427.0,
+   "end": 445.0,
+   "title": "Shimajiro Apologizes to Torippii",
    "level": "N4",
    "topics": [
     "friends",
+    "daily",
     "anime"
    ],
    "grammar": [
-    "〜ちゃう — do completely / inadvertently",
-    "〜てもいい — may / can",
-    "〜ようになる — become able to"
+    "〜ちゃう — regrettably did",
+    "〜てもいい — permission to do",
+    "〜ようになる — come to be able to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 707.42,
-     "end": 709.0,
+     "start": 427.4,
+     "end": 429.3,
      "ja": "とりっぴい、ごめんね。",
-     "en": "Torippi, I'm sorry.",
+     "en": "Torippii, I'm sorry.",
      "speaker": "Shimajiro"
     },
     {
-     "start": 709.34,
-     "end": 711.96,
-     "ja": "僕、さっきひどいこと言っちゃって。",
+     "start": 429.4,
+     "end": 432.1,
+     "ja": "僕さっきひどいこと言っちゃって。",
      "en": "I said something awful earlier.",
      "speaker": "Shimajiro"
     },
     {
-     "start": 712.42,
-     "end": 714.48,
-     "ja": "あの絵、もらってもいいかな？",
+     "start": 432.1,
+     "end": 434.3,
+     "ja": "あの絵もらってもいいかな？",
      "en": "Can I have that drawing?",
      "speaker": "Shimajiro"
     },
     {
-     "start": 714.68,
-     "end": 715.76,
-     "ja": "いいとも！",
-     "en": "Sure thing!",
-     "speaker": "Torippi"
+     "start": 434.3,
+     "end": 437.0,
+     "ja": "いいとも！あげる友！",
+     "en": "Sure thing, pal! It's yours!",
+     "speaker": "Torippii"
     },
     {
-     "start": 715.76,
-     "end": 717.38,
-     "ja": "あげる友！",
-     "en": "I'll give it to you!",
-     "speaker": "Torippi"
-    },
-    {
-     "start": 717.76,
-     "end": 718.74,
+     "start": 438.2,
+     "end": 439.0,
      "ja": "はい。",
      "en": "Here.",
-     "speaker": "Torippi"
+     "speaker": "Torippii"
     },
     {
-     "start": 718.74,
-     "end": 720.0,
+     "start": 439.0,
+     "end": 440.4,
      "ja": "ありがとう！",
      "en": "Thank you!",
      "speaker": "Shimajiro"
     },
     {
-     "start": 720.52,
-     "end": 724.68,
-     "ja": "しまじろうも、やっと芸術が分かるようになったんだね。",
-     "en": "So you've finally come to understand art too, Shimajiro.",
-     "speaker": "Torippi"
+     "start": 440.5,
+     "end": 444.6,
+     "ja": "しまじろうもやっと芸術が分かるようになったんだね。",
+     "en": "Shimajiro finally understands art too, huh!",
+     "speaker": "Torippii"
     }
    ]
   },
   {
-   "start": 1540.32,
-   "end": 1558.08,
-   "title": "Communicating Without Words",
+   "start": 699.2,
+   "end": 718.2,
+   "title": "A Foreigner at the Park",
    "level": "N4",
    "topics": [
     "friends",
-    "culture",
+    "daily",
     "anime"
    ],
    "grammar": [
-    "〜なくても — even if not",
-    "〜たい — want to",
-    "〜もん — because (casual)"
+    "〜てみたい — want to try doing",
+    "〜しか〜ない — only / nothing but",
+    "〜てみよう — let's try doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1540.52,
-     "end": 1545.2,
-     "ja": "言葉は分からなくても結構外国の人とお話しできるのね。",
-     "en": "Even without knowing the language, you can still talk with people from abroad quite well.",
+     "start": 639.5,
+     "end": 643.5,
+     "ja": "あのね、公園に外国の人がいるんだけど…",
+     "en": "Um, there's a foreigner at the park...",
      "speaker": "Mimirin"
     },
     {
-     "start": 1545.54,
-     "end": 1549.46,
-     "ja": "これからも色んな国の人と友達になりたいね。",
-     "en": "I want to become friends with people from many countries from now on too.",
-     "speaker": "Nyakkii"
-    },
-    {
-     "start": 1549.62,
-     "end": 1551.98,
-     "ja": "友達を作るの楽しいもんね。",
-     "en": "Making friends is fun after all, isn't it?",
+     "start": 644.2,
+     "end": 647.3,
+     "ja": "僕、外国の人とお話ししてみたいなあ！",
+     "en": "I'd love to try talking to a foreigner!",
      "speaker": "Shimajiro"
     },
     {
-     "start": 1556.16,
-     "end": 1557.88,
-     "ja": "グレート！",
-     "en": "Great!",
-     "speaker": "All"
+     "start": 647.3,
+     "end": 648.5,
+     "ja": "私も！",
+     "en": "Me too!",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 648.5,
+     "end": 651.1,
+     "ja": "何か困っているみたいなんだけど、",
+     "en": "He seems to be in trouble with something,",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 651.2,
+     "end": 653.4,
+     "ja": "英語しか喋れないの。",
+     "en": "but he only speaks English.",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 653.4,
+     "end": 655.1,
+     "ja": "そんなの平気平気！",
+     "en": "That's no problem at all!",
+     "speaker": "Torippii"
+    },
+    {
+     "start": 655.2,
+     "end": 656.5,
+     "ja": "何とかなるよ！",
+     "en": "It'll work out somehow!",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 656.5,
+     "end": 658.0,
+     "ja": "行ってみようよ！",
+     "en": "Let's go see!",
+     "speaker": "Torippii"
     }
    ]
   }
@@ -200,5 +258,6 @@
  "pickTopics": [
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

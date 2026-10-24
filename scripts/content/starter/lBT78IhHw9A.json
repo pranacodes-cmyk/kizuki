@@ -1,0 +1,32 @@
+{
+ "videoId": "lBT78IhHw9A",
+ "ids": [
+  "lBT78IhHw9A-147",
+  "lBT78IhHw9A-53"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "lBT78IhHw9A-53": {
+   "id": "lBT78IhHw9A-53",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear, slow delivery with visual aids explaining vocabulary."
+  },
+  "lBT78IhHw9A-147": {
+   "id": "lBT78IhHw9A-147",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [
+    "starts mid-sentence"
+   ],
+   "why": "Starts mid-thought, but clear and easy to follow."
+  }
+ }
+}

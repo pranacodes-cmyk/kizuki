@@ -2,114 +2,143 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 2.8,
+   "start": 3.0,
    "end": 11.2,
-   "title": "The Cyborg Look-Alike",
+   "title": "A Cyborg Looking Just Like Her",
    "level": "N3",
    "topics": [
     "romance",
-    "fun"
+    "daily"
    ],
    "grammar": [
-    "〜と同じ — the same as",
-    "〜のは〜だ — what ... is ... (cleft sentence)"
+    "〜たのは — what/who did ... is",
+    "〜と同じ — the same as"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 3.0,
-     "end": 8.7,
-     "ja": "目の前に突然現れたのは、僕が一目惚れした女性と同じ姿の、",
-     "en": "Suddenly appearing before my eyes was someone who looked just like the woman I fell for at first sight:",
-     "speaker": "Jiro"
+     "start": 3.2,
+     "end": 5.1,
+     "ja": "目の前に突然現れたのは、",
+     "en": "What suddenly appeared before my eyes,",
+     "speaker": "Male"
     },
     {
-     "start": 9.5,
-     "end": 10.8,
+     "start": 5.1,
+     "end": 7.1,
+     "ja": "僕が一目惚れした女性と",
+     "en": "was a cyborg...",
+     "speaker": "Male"
+    },
+    {
+     "start": 7.1,
+     "end": 8.8,
+     "ja": "同じ姿の、",
+     "en": "...sharing the exact appearance...",
+     "speaker": "Male"
+    },
+    {
+     "start": 9.6,
+     "end": 11.0,
      "ja": "サイボーグ。",
-     "en": "A cyborg.",
-     "speaker": "Jiro"
+     "en": "...of the girl I fell in love with at first sight.",
+     "speaker": "Male"
     }
    ]
   },
   {
-   "start": 54.8,
-   "end": 104.0,
-   "title": "Starting to Fall in Love",
+   "start": 109.4,
+   "end": 117.5,
+   "title": "Never Appear Before Me Again",
    "level": "N3",
    "topics": [
-    "romance"
+    "romance",
+    "friends"
    ],
    "grammar": [
-    "〜と思う — to think that",
-    "〜始める — to begin doing"
+    "〜になる — become / come to be",
+    "二度と〜な — never do ... again (prohibition)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 55.2,
-     "end": 59.5,
-     "ja": "心が通い合っていると思うのは、僕の錯覚なんだろうか。",
-     "en": "Was thinking that our hearts were connected just my imagination?",
-     "speaker": "Jiro"
+     "start": 109.6,
+     "end": 112.7,
+     "ja": "僕ひとりがこんな気持ちでいるのは、すごく嫌なんだ。",
+     "en": "I hate that I'm the only one feeling this way.",
+     "speaker": "Male"
     },
     {
-     "start": 59.9,
-     "end": 103.6,
-     "ja": "僕は間違いなく、彼女のことを好きになり始めていた。",
-     "en": "Without a doubt, I was beginning to fall in love with her.",
-     "speaker": "Jiro"
+     "start": 113.1,
+     "end": 114.5,
+     "ja": "君が嫌いになった！",
+     "en": "I hate you now!",
+     "speaker": "Male"
+    },
+    {
+     "start": 114.6,
+     "end": 116.3,
+     "ja": "二度と僕の前に現れるな！",
+     "en": "Never appear in front of me again!",
+     "speaker": "Male"
+    },
+    {
+     "start": 116.6,
+     "end": 117.3,
+     "ja": "バカ。",
+     "en": "Idiot.",
+     "speaker": "Female"
     }
    ]
   },
   {
-   "start": 125.8,
-   "end": 137.0,
-   "title": "Love or Programming?",
+   "start": 121.8,
+   "end": 137.2,
+   "title": "Love or Just a Program",
    "level": "N3",
    "topics": [
     "romance"
    ],
    "grammar": [
-    "〜なのか — whether it is ...",
-    "その〜 — that ..."
+    "実は〜 — actually / in reality",
+    "〜なのか — is it ...?"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 126.1,
-     "end": 127.4,
+     "start": 122.0,
+     "end": 124.5,
+     "ja": "実は私、すごく遠い未来から来たの。",
+     "en": "Actually, I came from the very distant future.",
+     "speaker": "Female"
+    },
+    {
+     "start": 126.4,
+     "end": 127.7,
      "ja": "その涙は、",
      "en": "Are those tears,",
-     "speaker": "Narrator"
+     "speaker": "Male"
     },
     {
-     "start": 127.9,
-     "end": 129.4,
+     "start": 128.4,
+     "end": 129.8,
      "ja": "その微笑みは、",
-     "en": "is that smile,",
-     "speaker": "Narrator"
+     "en": "that smile,",
+     "speaker": "Male"
     },
     {
-     "start": 129.9,
-     "end": 131.4,
-     "ja": "その勇気は、",
-     "en": "is that courage,",
-     "speaker": "Narrator"
+     "start": 130.2,
+     "end": 133.0,
+     "ja": "その勇気は、愛なのか、",
+     "en": "and that courage... love?",
+     "speaker": "Male"
     },
     {
-     "start": 132.3,
-     "end": 133.8,
-     "ja": "愛なのか、",
-     "en": "love,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 134.8,
-     "end": 136.6,
+     "start": 135.0,
+     "end": 136.8,
      "ja": "プログラムなのか。",
-     "en": "or programming?",
-     "speaker": "Narrator"
+     "en": "Or are they a program?",
+     "speaker": "Male"
     }
    ]
   }
@@ -118,5 +147,6 @@
  "pickTopics": [
   "romance"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

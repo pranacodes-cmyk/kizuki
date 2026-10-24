@@ -2,164 +2,237 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 28.8,
-   "end": 47.0,
-   "title": "This Is Supposed to Be Cheesecake",
+   "start": 29.2,
+   "end": 48.0,
+   "title": "Showing Leftover Cheesecake",
    "level": "N4",
    "topics": [
     "food",
     "daily",
-    "comedy"
+    "fun"
    ],
    "grammar": [
-    "一応 — for now / more or less",
-    "〜直後 — immediately after"
+    "〜た直後 — immediately after",
+    "〜たのが — the one that did"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 29.0,
-     "end": 32.4,
+     "start": 29.5,
+     "end": 32.2,
      "ja": "え、これは、あの、一応チーズケーキです。",
-     "en": "Um, this is... basically cheesecake.",
+     "en": "Well, this is technically a cheesecake.",
      "speaker": "Speaker"
     },
     {
      "start": 32.5,
-     "end": 36.5,
+     "end": 33.6,
+     "ja": "一応…",
+     "en": "Technically...",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 34.0,
+     "end": 36.8,
      "ja": "一応チーズケーキを作ったんですけど、はい。",
-     "en": "Well, I made cheesecake, yeah.",
+     "en": "I did bake a cheesecake, basically, yeah.",
      "speaker": "Speaker"
     },
     {
-     "start": 36.8,
-     "end": 40.8,
-     "ja": "昨日作って、作った直後にちょっと食べました。",
-     "en": "I made it yesterday and ate a bit right after making it.",
+     "start": 37.0,
+     "end": 40.5,
+     "ja": "え、昨日作って、作った直後にちょっと食べました。",
+     "en": "I made it yesterday and ate a little right after making it.",
      "speaker": "Speaker"
     },
     {
-     "start": 41.0,
-     "end": 44.7,
-     "ja": "で、一日今置いたのが、この残骸です。",
-     "en": "And after letting it sit for a day, this is what's left.",
+     "start": 40.8,
+     "end": 44.4,
+     "ja": "で、一日今置いたのがこの残骸です。",
+     "en": "And these are the remains after letting it sit for a day.",
      "speaker": "Speaker"
     },
     {
      "start": 44.8,
-     "end": 46.8,
+     "end": 46.2,
      "ja": "いや、でもね、美味しかった！",
-     "en": "No, but seriously, it was delicious!",
+     "en": "No, but really, it was delicious!",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 46.4,
+     "end": 47.7,
+     "ja": "え、まじまじまじ。",
+     "en": "Seriously, seriously, for real.",
      "speaker": "Speaker"
     }
    ]
   },
   {
-   "start": 337.0,
-   "end": 353.0,
-   "title": "Morning Skincare Routine",
+   "start": 217.3,
+   "end": 242.4,
+   "title": "Tasting the Cheesecake the Next Day",
    "level": "N4",
    "topics": [
+    "food",
     "daily"
    ],
    "grammar": [
-    "〜ておく — doing something in advance",
-    "〜かも — might / maybe"
+    "〜気がする — to have a feeling that",
+    "〜てある・〜てる — state resulting from action"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 337.3,
-     "end": 340.0,
-     "ja": "じゃ、ちょっと化粧水でも塗っとくか、一応！",
-     "en": "Alright, maybe I'll put on some lotion for now!",
+     "start": 217.5,
+     "end": 218.8,
+     "ja": "いただきます。",
+     "en": "Bon appétit.",
      "speaker": "Speaker"
     },
     {
-     "start": 340.2,
-     "end": 343.0,
-     "ja": "夜が結構なんか、がっつり美容液とか塗るんで、",
-     "en": "Since I apply a lot of serum and stuff at night,",
+     "start": 219.0,
+     "end": 220.3,
+     "ja": "昨日も美味しかったけど、",
+     "en": "It was delicious yesterday too, but",
      "speaker": "Speaker"
     },
     {
-     "start": 343.1,
-     "end": 345.0,
-     "ja": "朝は、化粧水とか、",
-     "en": "in the morning it's just toner,",
+     "start": 220.4,
+     "end": 223.8,
+     "ja": "昨日から一日置いてるから、多分さらに美味しい気がする。",
+     "en": "since it sat for a day since yesterday, I feel like it's even tastier.",
      "speaker": "Speaker"
     },
     {
-     "start": 345.1,
-     "end": 348.3,
-     "ja": "化粧水と普通に乳液、クリームだけですね。",
-     "en": "toner and just normal moisturizer and cream.",
+     "start": 224.3,
+     "end": 226.7,
+     "ja": "昨日はマジで、もう出来立てを食べた。",
+     "en": "Yesterday, seriously, I ate it fresh out of the oven.",
      "speaker": "Speaker"
     },
     {
-     "start": 348.4,
-     "end": 350.0,
-     "ja": "で、キールズ。",
-     "en": "And Kiehl's.",
+     "start": 226.8,
+     "end": 228.6,
+     "ja": "あの、ガチの熱々を食べた。",
+     "en": "Like, I ate it while it was piping hot.",
      "speaker": "Speaker"
     },
     {
-     "start": 350.1,
-     "end": 352.6,
-     "ja": "めっちゃキールズ使ってるかも、普段。",
-     "en": "I think I usually use a lot of Kiehl's.",
+     "start": 228.9,
+     "end": 231.2,
+     "ja": "あ、すごい見て！なんか、ずっしりしてる！",
+     "en": "Oh, wow, look! It's so dense!",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 231.4,
+     "end": 232.8,
+     "ja": "それが普通なんかな？",
+     "en": "I wonder if that's normal?",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 237.8,
+     "end": 239.5,
+     "ja": "めっちゃ美味しい！",
+     "en": "It's so good!",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 240.0,
+     "end": 241.9,
+     "ja": "これほんまに美味しい！",
+     "en": "This is truly delicious!",
      "speaker": "Speaker"
     }
    ]
   },
   {
-   "start": 408.5,
-   "end": 426.5,
-   "title": "Bleaching My Eyebrows",
-   "level": "N3",
+   "start": 603.0,
+   "end": 622.0,
+   "title": "Next Anime on the Watchlist",
+   "level": "N4",
    "topics": [
-    "daily"
+    "anime",
+    "daily",
+    "fun"
    ],
    "grammar": [
-    "〜とは別に — separately from",
-    "〜てくる — start to / come to be",
-    "〜たいと思う — thinking of wanting to do"
+    "〜終わる — finish doing",
+    "〜てみたい — want to try doing",
+    "〜てくれる — do something for me"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 408.8,
-     "end": 410.5,
-     "ja": "ちょっといきなりなんですけど、",
-     "en": "This is kind of out of nowhere, but...",
+     "start": 603.2,
+     "end": 604.7,
+     "ja": "あれを見たいんですよ。",
+     "en": "I really want to watch that one.",
      "speaker": "Speaker"
     },
     {
-     "start": 410.6,
-     "end": 413.5,
-     "ja": "うち、眉毛、今アートメイクしてるんですけど、",
-     "en": "I have microbladed eyebrows right now, but...",
+     "start": 604.8,
+     "end": 606.2,
+     "ja": "約束のネバーランド。",
+     "en": "The Promised Neverland.",
      "speaker": "Speaker"
     },
     {
-     "start": 413.6,
-     "end": 417.6,
-     "ja": "アートメイクとは別に自分の元のさ、眉毛がめっちゃ生えてきてて、",
-     "en": "besides the microblading, my natural brow hair has been growing back like crazy,",
+     "start": 606.3,
+     "end": 608.2,
+     "ja": "進撃の巨人をもう見終わって、",
+     "en": "I finished watching Attack on Titan,",
      "speaker": "Speaker"
     },
     {
-     "start": 417.7,
-     "end": 422.0,
-     "ja": "ちょっと全体的に眉毛、脱色したいなってずっと想ってたんですけど、",
-     "en": "and I've been thinking for a while that I want to bleach my eyebrows,",
+     "start": 608.5,
+     "end": 610.0,
+     "ja": "もう漫画も見終わって、",
+     "en": "and finished reading the manga too,",
      "speaker": "Speaker"
     },
     {
-     "start": 422.2,
-     "end": 425.8,
-     "ja": "ずっとめんどくさくて、眉毛の脱色すんの。",
-     "en": "but I was always too lazy to actually bleach them.",
+     "start": 610.1,
+     "end": 611.5,
+     "ja": "電子でも見て、",
+     "en": "read it digitally too,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 611.8,
+     "end": 613.5,
+     "ja": "で、次何か見たいなと思って、",
+     "en": "and I wanted to watch something next, so",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 613.6,
+     "end": 615.1,
+     "ja": "約束のネバーランドをね、",
+     "en": "The Promised Neverland,",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 615.3,
+     "end": 617.4,
+     "ja": "ちょっと見てみたいなと思います！",
+     "en": "I think I want to check it out!",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 619.0,
+     "end": 620.8,
+     "ja": "ありがとう！今日も見てくれて！",
+     "en": "Thank you for watching today as well!",
+     "speaker": "Speaker"
+    },
+    {
+     "start": 620.9,
+     "end": 621.8,
+     "ja": "バイバーイ！",
+     "en": "Bye-bye!",
      "speaker": "Speaker"
     }
    ]
@@ -169,5 +242,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

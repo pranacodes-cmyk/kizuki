@@ -2,95 +2,169 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 40.7,
-   "end": 52.8,
-   "title": "Rushing to Work in the Morning",
+   "start": 39.498,
+   "end": 4017.8,
+   "title": "Leaving Home for Work",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜そうだ — looks like / seems like",
+    "〜ないで — without doing",
+    "〜なさい — polite command"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 3950.0,
+     "end": 3954.6,
+     "ja": "今日も会社に遅れそうだ。急いで行かないと！",
+     "en": "I might be late for work again today. I have to hurry!",
+     "speaker": "Shōta"
+    },
+    {
+     "start": 3955.3,
+     "end": 3959.3,
+     "ja": "翔太、朝ご飯を食べないで大丈夫なの？",
+     "en": "Shōta, is it okay to skip breakfast?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 4000.0,
+     "end": 4002.8,
+     "ja": "コーヒーだけ飲んだから平気だよ。",
+     "en": "I just had coffee, so I'll be fine.",
+     "speaker": "Shōta"
+    },
+    {
+     "start": 4003.5,
+     "end": 4008.8,
+     "ja": "それじゃ体に悪いわ。せめてパンを持っていきなさい。",
+     "en": "That's bad for your health. At least take some bread with you.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 4009.3,
+     "end": 4013.2,
+     "ja": "わかった。ありがとう。じゃあ、行ってきます！",
+     "en": "Alright. Thanks. I'm off then!",
+     "speaker": "Shōta"
+    },
+    {
+     "start": 4014.0,
+     "end": 4017.3,
+     "ja": "行ってらっしゃい、気をつけてね。",
+     "en": "Take care, have a good day.",
+     "speaker": "Mother"
+    }
+   ]
+  },
+  {
+   "start": 4018.0,
+   "end": 4044.6,
+   "title": "Morning Commute with Senior Colleague",
    "level": "N4",
    "topics": [
     "work",
     "daily"
    ],
    "grammar": [
-    "〜そうだ — looks like / seems like",
-    "〜ないと — must do (short for ないといけない)"
+    "〜そう — looks like / seems",
+    "〜すぎる — to overdo / do excessively",
+    "〜から — because / so"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 40.7,
-     "end": 44.8,
-     "ja": "今日も会社に遅れそうだ。",
-     "en": "Looks like I'll be late for work again today.",
+     "start": 4018.3,
+     "end": 4022.6,
+     "ja": "おっ、翔太くん！朝から眠そうな顔をしてるな。",
+     "en": "Oh, Shōta! You look sleepy this morning.",
+     "speaker": "Satō"
+    },
+    {
+     "start": 4023.2,
+     "end": 4028.4,
+     "ja": "佐藤先輩…。昨日、遅くまで資料を作っていました。",
+     "en": "Sato-senpai… I was making documents until late last night.",
      "speaker": "Shōta"
     },
     {
-     "start": 44.8,
-     "end": 52.1,
-     "ja": "急いで行かないと！",
-     "en": "I've got to hurry!",
+     "start": 4029.0,
+     "end": 4034.5,
+     "ja": "大変だな。でも頑張りすぎると体を壊すぞ。",
+     "en": "That's tough. But if you push too hard, you'll hurt your health.",
+     "speaker": "Satō"
+    },
+    {
+     "start": 4035.0,
+     "end": 4039.5,
+     "ja": "はい…。でも今日の会議は失敗できません。",
+     "en": "Yes… but today's meeting cannot fail.",
      "speaker": "Shōta"
+    },
+    {
+     "start": 4040.2,
+     "end": 4044.2,
+     "ja": "大丈夫。君の努力は必ず伝わるから。",
+     "en": "It's okay. Your effort will definitely be seen.",
+     "speaker": "Satō"
     }
    ]
   },
   {
-   "start": 432.5,
-   "end": 445.6,
-   "title": "Encouragement on the Commute",
+   "start": 4402.0,
+   "end": 4427.3,
+   "title": "Friday Night Drinks at the Pub",
    "level": "N4",
    "topics": [
+    "food",
     "work",
     "friends"
    ],
    "grammar": [
-    "〜すぎる — to do too much",
-    "〜と — if / when"
+    "〜ほうがいい — better to",
+    "〜そうだ — looks like / seems",
+    "〜よう — volitional form (let's do)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 432.7,
-     "end": 434.6,
-     "ja": "大変だな。",
-     "en": "That must be tough.",
+     "start": 4402.2,
+     "end": 4408.2,
+     "ja": "わあ、人が多いですね。やっぱり金曜日の夜は混みますね。",
+     "en": "Wow, there are so many people. As expected, Friday nights are crowded.",
+     "speaker": "Shōta"
+    },
+    {
+     "start": 4409.0,
+     "end": 4413.8,
+     "ja": "そうだな。でも賑やかなほうが気楽でいいだろう？",
+     "en": "Yeah. But a lively place makes it more relaxing, right?",
      "speaker": "Satō"
     },
     {
-     "start": 434.6,
-     "end": 445.2,
-     "ja": "でも頑張りすぎると体を壊すぞ。",
-     "en": "But if you push yourself too hard, you'll ruin your health.",
-     "speaker": "Satō"
-    }
-   ]
-  },
-  {
-   "start": 2849.6,
-   "end": 2862.0,
-   "title": "A Senior's True Joy",
-   "level": "N3",
-   "topics": [
-    "work",
-    "friends"
-   ],
-   "grammar": [
-    "〜こそ — precisely / indeed (emphasis)",
-    "〜のを見る — seeing / watching doing"
-   ],
-   "quality": 5,
-   "lines": [
+     "start": 4414.2,
+     "end": 4418.0,
+     "ja": "そうですね。仕事の緊張も少し溶けそうです。",
+     "en": "That's true. It feels like today's work tension will melt away.",
+     "speaker": "Shōta"
+    },
     {
-     "start": 2849.9,
-     "end": 2854.7,
-     "ja": "こちらこそ。",
-     "en": "Likewise.",
+     "start": 4418.5,
+     "end": 4421.8,
+     "ja": "じゃあ、まずはビールで乾杯しようか。",
+     "en": "Well then, let's start with a beer and toast.",
      "speaker": "Satō"
     },
     {
-     "start": 2854.7,
-     "end": 2861.5,
-     "ja": "後輩が頑張る姿を見るのは嬉しいんだよ。",
-     "en": "Seeing a junior work hard makes me happy.",
-     "speaker": "Satō"
+     "start": 4422.2,
+     "end": 4426.8,
+     "ja": "はい、先輩。今日一日、本当にありがとうございました！",
+     "en": "Yes, senpai. Thank you so much for today!",
+     "speaker": "Shōta"
     }
    ]
   }
@@ -99,5 +173,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

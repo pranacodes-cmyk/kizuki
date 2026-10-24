@@ -1,0 +1,19 @@
+{
+ "videoId": "WXbhfbd-n6g",
+ "ids": [
+  "WXbhfbd-n6g-578"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "WXbhfbd-n6g-578": {
+   "id": "WXbhfbd-n6g-578",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Practical and clear real-world ordering dialogue at an izakaya."
+  }
+ }
+}

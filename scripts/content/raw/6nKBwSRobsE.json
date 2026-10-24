@@ -2,84 +2,82 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 404.5,
-   "end": 414.5,
-   "title": "Waking Up Early and Brain Function",
+   "start": 244.8,
+   "end": 254.9,
+   "title": "My Brain Works Best in the Morning",
    "level": "N3",
    "topics": [
     "daily",
     "work"
    ],
    "grammar": [
-    "〜ちゃう — inadvertent action",
-    "〜ようとする — try to do",
-    "〜んです — explanatory tone"
+    "〜ちゃう — unintentional action",
+    "〜てはいけない/〜なくて — not doing..."
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 405.0,
-     "end": 408.2,
-     "ja": "朝は本当に起き… 目が覚めちゃうので、",
-     "en": "In the morning, I really just naturally wake up,",
+     "start": 244.9,
+     "end": 248.5,
+     "ja": "朝は本当に起き、目が覚めちゃうので、",
+     "en": "In the morning, my eyes just open naturally,",
      "speaker": "Kaoru"
     },
     {
-     "start": 408.3,
-     "end": 411.2,
-     "ja": "あんまり頑張って早起きしようって感じでもなくて、",
+     "start": 248.7,
+     "end": 251.3,
+     "ja": "あんまり頑張って早起きしようって感じではなくて、",
      "en": "so it's not like I'm forcing myself to wake up early,",
      "speaker": "Kaoru"
     },
     {
-     "start": 411.3,
-     "end": 414.0,
+     "start": 251.7,
+     "end": 254.4,
      "ja": "頭がすごく働くんです。",
-     "en": "and my mind works really well.",
+     "en": "my brain just works really well.",
      "speaker": "Kaoru"
     }
    ]
   },
   {
-   "start": 434.0,
-   "end": 445.8,
-   "title": "Getting Work Done in the Morning",
+   "start": 274.2,
+   "end": 286.0,
+   "title": "Getting Brainwork Done Early",
    "level": "N3",
    "topics": [
     "daily",
     "work"
    ],
    "grammar": [
-    "〜たくて — wanting to do (connecting)",
-    "〜ちゃう — unintentionally / cannot help",
+    "〜たくて — wanting to do...",
     "〜と — conditional when/if"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 434.2,
-     "end": 437.0,
+     "start": 274.5,
+     "end": 277.0,
      "ja": "なんかその頭が働く時間に、",
-     "en": "During those hours when my head is clear,",
+     "en": "During those hours when my mind is sharp,",
      "speaker": "Kaoru"
     },
     {
-     "start": 437.1,
-     "end": 440.8,
-     "ja": "とにかく頭を使う仕事を終わらせたくて、",
-     "en": "I really want to get brain-heavy work out of the way,",
+     "start": 277.3,
+     "end": 280.4,
+     "ja": "とにかく頭を使う仕事を終わらせたくて。",
+     "en": "I just want to get through all the deep-thinking work.",
      "speaker": "Kaoru"
     },
     {
-     "start": 441.2,
-     "end": 443.1,
+     "start": 281.7,
+     "end": 283.8,
      "ja": "気になっちゃうんですよね、",
-     "en": "because I keep worrying about it,",
+     "en": "It ends up on my mind, you see,",
      "speaker": "Kaoru"
     },
     {
-     "start": 443.2,
-     "end": 445.3,
+     "start": 284.0,
+     "end": 285.6,
      "ja": "仕事とかあると。",
      "en": "whenever I have work pending.",
      "speaker": "Kaoru"
@@ -87,61 +85,46 @@
    ]
   },
   {
-   "start": 499.8,
-   "end": 525.5,
-   "title": "Organizing Books by Category",
+   "start": 300.0,
+   "end": 316.0,
+   "title": "Organising the Bookshelf by Zone",
    "level": "N3",
    "topics": [
     "daily",
     "culture"
    ],
    "grammar": [
-    "〜かけ — unfinished action",
-    "〜たり〜たり — doing things like",
-    "〜みたい — like / as if"
+    "〜かけ — partially done",
+    "〜たり〜たり — listing actions"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 499.9,
-     "end": 503.2,
+     "start": 300.3,
+     "end": 303.7,
      "ja": "ここが読みかけの本のコーナーで、",
-     "en": "This is the section for books I'm currently reading,",
+     "en": "This is the corner for books I'm currently reading,",
      "speaker": "Kaoru"
     },
     {
-     "start": 503.3,
-     "end": 506.5,
-     "ja": "ここが未読の本のコーナーです。",
-     "en": "and this is the section for unread books.",
+     "start": 304.0,
+     "end": 307.2,
+     "ja": "ここが未読の本のコーナーで、",
+     "en": "and this is the unread books corner.",
      "speaker": "Kaoru"
     },
     {
-     "start": 506.6,
-     "end": 511.7,
-     "ja": "「あっ、これなんかちょっと今気分じゃない」みたいなの抜いたりとか そういう風にして、",
-     "en": "I'll take out ones thinking, 'Ah, I'm not really in the mood for this right now,'",
+     "start": 307.8,
+     "end": 312.0,
+     "ja": "あ、これなんかちょっと今気分じゃないみたいなのを抜いたりとかして、",
+     "en": "I pull out ones like, 'Oh, I'm not in the mood for this right now,'",
      "speaker": "Kaoru"
     },
     {
-     "start": 512.0,
-     "end": 516.0,
-     "ja": "で、気に入ったらなんかまたここに追加したりとか。",
-     "en": "and if I like a book, I might add it back here.",
-     "speaker": "Kaoru"
-    },
-    {
-     "start": 516.1,
-     "end": 520.5,
-     "ja": "なんかその作業が、なんか自分のこう成長がわかるみたいな、",
-     "en": "That process lets me see my own personal growth,",
-     "speaker": "Kaoru"
-    },
-    {
-     "start": 521.0,
-     "end": 525.0,
-     "ja": "とか気分とか、そういう大事な時間ですけど。",
-     "en": "and how my mood is—it's an important time for me.",
+     "start": 312.8,
+     "end": 315.5,
+     "ja": "で、気に入ったらなんかまたここに追加したりとか、",
+     "en": "and then if I like one, I'll add it back over here.",
      "speaker": "Kaoru"
     }
    ]
@@ -151,5 +134,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

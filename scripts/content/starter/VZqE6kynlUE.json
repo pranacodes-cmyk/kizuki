@@ -1,0 +1,30 @@
+{
+ "videoId": "VZqE6kynlUE",
+ "ids": [
+  "VZqE6kynlUE-21",
+  "VZqE6kynlUE-603"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "VZqE6kynlUE-603": {
+   "id": "VZqE6kynlUE-603",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [],
+   "why": "Funny anecdote about cheesy pickup line, but speech is quite fast."
+  },
+  "VZqE6kynlUE-21": {
+   "id": "VZqE6kynlUE-21",
+   "appeal": 4,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Standard topic explanation with static visuals."
+  }
+ }
+}

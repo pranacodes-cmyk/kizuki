@@ -1,0 +1,30 @@
+{
+ "videoId": "zlcG1BeYB8U",
+ "ids": [
+  "zlcG1BeYB8U-504",
+  "zlcG1BeYB8U-664"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "zlcG1BeYB8U-664": {
+   "id": "zlcG1BeYB8U-664",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Appealing food visuals paired with clear, accessible vocabulary."
+  },
+  "zlcG1BeYB8U-504": {
+   "id": "zlcG1BeYB8U-504",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Interesting local dish with clear narration, though slightly fast."
+  }
+ }
+}

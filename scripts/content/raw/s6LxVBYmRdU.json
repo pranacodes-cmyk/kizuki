@@ -2,199 +2,180 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 44.5,
-   "end": 62.0,
+   "start": 44.2,
+   "end": 64.5,
    "title": "What Does Hisashiburi Mean?",
    "level": "N4",
    "topics": [
+    "daily",
     "family",
-    "daily"
+    "fun"
    ],
    "grammar": [
-    "って — casual topic/definition marker",
-    "〜た時 — when doing something"
+    "〜ってなぁに — what does ... mean?",
+    "しか〜ない — only / nothing but"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 45.2,
-     "end": 47.0,
-     "ja": "「ひさしぶり〜」ってなぁに〜？",
-     "en": "What does 'hisashiburi' mean?",
-     "speaker": "Child"
+     "start": 44.4,
+     "end": 46.9,
+     "ja": "ひさしぶり〜ってなぁに〜？",
+     "en": "What does \"hisashiburi\" mean?",
+     "speaker": "Son"
     },
     {
-     "start": 47.4,
-     "end": 48.7,
-     "ja": "「久しぶり」？",
-     "en": "'Hisashiburi'?",
-     "speaker": "Mom"
+     "start": 47.3,
+     "end": 48.8,
+     "ja": "久しぶり？",
+     "en": "\"Hisashiburi\"?",
+     "speaker": "Mother"
     },
     {
-     "start": 49.3,
-     "end": 51.7,
-     "ja": "「久しぶり」ってあれじゃん。えっとね…",
-     "en": "'Hisashiburi' is that thing, you know. Well...",
-     "speaker": "Mom"
+     "start": 49.0,
+     "end": 52.0,
+     "ja": "久しぶりって、あれじゃん。えっとね、",
+     "en": "You know what it means... Well, um...",
+     "speaker": "Mother"
     },
     {
-     "start": 51.8,
-     "end": 52.8,
+     "start": 52.1,
+     "end": 53.0,
      "ja": "バイバイ？",
      "en": "Bye-bye?",
-     "speaker": "Child"
+     "speaker": "Son"
     },
     {
-     "start": 53.0,
-     "end": 55.4,
-     "ja": "ううん、違う。えっと…",
-     "en": "No, it's not. Well...",
-     "speaker": "Mom"
+     "start": 53.1,
+     "end": 55.0,
+     "ja": "ううん、違う。えっと、",
+     "en": "No, that's not it. Um...",
+     "speaker": "Mother"
     },
     {
-     "start": 55.4,
-     "end": 58.1,
+     "start": 55.2,
+     "end": 57.8,
      "ja": "たまにしか会えない人に会った時に言うの。",
-     "en": "You say it when you meet someone you rarely see.",
-     "speaker": "Dad"
+     "en": "You say it when you see someone you rarely get to see.",
+     "speaker": "Father"
     },
     {
-     "start": 58.1,
+     "start": 58.0,
      "end": 59.3,
-     "ja": "うん、そう！",
-     "en": "Yeah, that's right!",
-     "speaker": "Mom"
+     "ja": "うん。そう！",
+     "en": "Yeah. Exactly!",
+     "speaker": "Mother"
     },
     {
-     "start": 59.3,
-     "end": 61.8,
-     "ja": "すーえーとかたまにしか来ないでしょう？",
-     "en": "Like Sue, she only comes once in a while, right?",
-     "speaker": "Mom"
+     "start": 59.4,
+     "end": 62.0,
+     "ja": "すーえーとか、たまにしか来ないでしょ？",
+     "en": "Like Sue, she only comes by once in a while, right?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 62.1,
+     "end": 64.2,
+     "ja": "よし、すーえーに今度「久しぶり」って言ってみ。",
+     "en": "Alright, try saying \"hisashiburi\" to Sue next time.",
+     "speaker": "Father"
     }
    ]
   },
   {
-   "start": 207.3,
-   "end": 220.5,
-   "title": "Basking in the Sun",
+   "start": 206.5,
+   "end": 220.0,
+   "title": "Sunbathing Cat",
    "level": "N5",
    "topics": [
     "animals",
     "daily"
    ],
    "grammar": [
-    "〜ね — sentence-ending agreement particle"
+    "〜ね — seeking agreement",
+    "邪魔 — in the way / bother"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 207.6,
-     "end": 208.5,
+     "start": 206.8,
+     "end": 207.8,
      "ja": "ベニ。",
      "en": "Beni.",
-     "speaker": "Mom"
+     "speaker": "Mother"
     },
     {
-     "start": 209.6,
-     "end": 211.5,
+     "start": 209.8,
+     "end": 211.2,
      "ja": "日向ぼっこ？",
      "en": "Sunbathing?",
-     "speaker": "Mom"
+     "speaker": "Mother"
     },
     {
-     "start": 212.1,
-     "end": 214.7,
-     "ja": "あ、気持ちいい。あったかい、ベニ。",
-     "en": "Ah, feels nice. You're warm, Beni.",
-     "speaker": "Mom"
+     "start": 212.3,
+     "end": 214.6,
+     "ja": "あ、気持ち、あったかい、ベニ。",
+     "en": "Aw, you're nice and warm, Beni.",
+     "speaker": "Mother"
     },
     {
-     "start": 215.1,
-     "end": 217.6,
-     "ja": "気持ちいいね。あ、ごめんごめん。邪魔？",
-     "en": "Feels good, doesn't it? Ah, sorry, sorry. Am I in the way?",
-     "speaker": "Mom"
+     "start": 215.2,
+     "end": 216.8,
+     "ja": "気持ちいいね。",
+     "en": "Feels good, doesn't it?",
+     "speaker": "Mother"
     },
     {
-     "start": 217.7,
-     "end": 219.0,
-     "ja": "ごめんごめん。",
-     "en": "Sorry, sorry.",
-     "speaker": "Mom"
+     "start": 217.0,
+     "end": 219.8,
+     "ja": "あ、ごめんごめん。邪魔？ごめんごめん。",
+     "en": "Oh, sorry, sorry. Am I in your way? Sorry, sorry.",
+     "speaker": "Mother"
     }
    ]
   },
   {
-   "start": 401.3,
-   "end": 434.9,
-   "title": "Bakery Haul",
+   "start": 400.8,
+   "end": 421.2,
+   "title": "Checking the Bakery Haul",
    "level": "N4",
    "topics": [
     "food",
     "daily"
    ],
    "grammar": [
-    "〜に — recipient marker",
-    "〜みたい — looks like / similar to"
+    "〜そう — looks like / seems",
+    "〜みたいな — like / similar to"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 401.6,
-     "end": 404.7,
-     "ja": "美味しそう。ばあばにあげます。",
+     "start": 401.2,
+     "end": 404.6,
+     "ja": "美味しそう。ババにあげます。",
      "en": "Looks delicious. I'll give this to Grandma.",
-     "speaker": "Mom"
+     "speaker": "Mother"
     },
     {
-     "start": 406.3,
-     "end": 409.7,
+     "start": 406.2,
+     "end": 409.5,
      "ja": "サーモンとほうれん草のやつ。",
-     "en": "Salmon and spinach.",
-     "speaker": "Mom"
+     "en": "The salmon and spinach one.",
+     "speaker": "Mother"
     },
     {
-     "start": 410.5,
-     "end": 415.7,
-     "ja": "ふーん。これはカニクリームコロッケバジルソースサンドみたいな。",
-     "en": "Hmm. This is like a crab cream croquette sandwich with basil sauce.",
-     "speaker": "Mom"
+     "start": 410.7,
+     "end": 415.6,
+     "ja": "これはカニクリームコロッケ、バジルソースサンドみたいな。",
+     "en": "This is like a crab cream croquette with basil sauce sandwich.",
+     "speaker": "Mother"
     },
     {
-     "start": 416.3,
-     "end": 419.0,
-     "ja": "海老とアボカドのパン。",
-     "en": "Shrimp and avocado bread.",
-     "speaker": "Mom"
-    },
-    {
-     "start": 419.5,
-     "end": 421.3,
-     "ja": "もう絶対美味しいやつ。",
-     "en": "This is definitely delicious.",
-     "speaker": "Mom"
-    },
-    {
-     "start": 423.8,
-     "end": 427.2,
-     "ja": "えっと、イベリコ豚とチーズの…",
-     "en": "Um, Iberian pork and cheese...",
-     "speaker": "Mom"
-    },
-    {
-     "start": 427.6,
-     "end": 432.4,
-     "ja": "きんぴらとお肉が入ったサンドみたいな。",
-     "en": "Like a sandwich with kinpira and meat.",
-     "speaker": "Mom"
-    },
-    {
-     "start": 432.7,
-     "end": 434.7,
-     "ja": "で、これ最後、おやつ系。",
-     "en": "And finally, this sweet treat.",
-     "speaker": "Mom"
+     "start": 416.0,
+     "end": 420.7,
+     "ja": "海老とアボカドのパン。もう絶対美味しいやつ。",
+     "en": "Shrimp and avocado bread. That's definitely going to be good.",
+     "speaker": "Mother"
     }
    ]
   }
@@ -203,5 +184,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

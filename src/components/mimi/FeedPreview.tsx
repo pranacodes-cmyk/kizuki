@@ -2,15 +2,14 @@
 import { Bookmark, Flame, Play, Search, User } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 
-import { feedOrder, useContent } from "@/lib/feed";
+import { previewOrder, useContent } from "@/lib/feed";
 import { useFeedPager } from "@/lib/feed-pager";
 import { useApp } from "@/lib/store";
-import { onboardingFeedOrder } from "@/lib/logic";
 import { ClipView } from "./ClipView";
 
 export function FeedPreview() {
   const { data, error } = useContent();
-  const clips = useMemo(() => data ? onboardingFeedOrder(feedOrder(data, useApp.getState()), Object.keys(data.byId)).slice(0, 12)
+  const clips = useMemo(() => data ? previewOrder(data, useApp.getState()).slice(0, 12)
     .flatMap((id) => data.byId[id] ? [data.byId[id]] : []) : [], [data]);
   const frame = useRef<HTMLDivElement>(null);
   const box = useRef<HTMLDivElement>(null);

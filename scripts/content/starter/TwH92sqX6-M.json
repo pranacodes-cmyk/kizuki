@@ -1,0 +1,30 @@
+{
+ "videoId": "TwH92sqX6-M",
+ "ids": [
+  "TwH92sqX6-M-154",
+  "TwH92sqX6-M-909"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "TwH92sqX6-M-154": {
+   "id": "TwH92sqX6-M-154",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Fun travel moment with Christmas tree, though walking audio has mild rustle."
+  },
+  "TwH92sqX6-M-909": {
+   "id": "TwH92sqX6-M-909",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Appealing food content with clear conversational dining expressions."
+  }
+ }
+}

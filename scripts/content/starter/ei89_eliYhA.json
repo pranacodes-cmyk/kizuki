@@ -1,0 +1,19 @@
+{
+ "videoId": "ei89_eliYhA",
+ "ids": [
+  "ei89_eliYhA-25"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "ei89_eliYhA-25": {
+   "id": "ei89_eliYhA-25",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous and culturally interesting discussion about a unique Japanese surname."
+  }
+ }
+}

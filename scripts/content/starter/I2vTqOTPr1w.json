@@ -1,0 +1,30 @@
+{
+ "videoId": "I2vTqOTPr1w",
+ "ids": [
+  "I2vTqOTPr1w-146",
+  "I2vTqOTPr1w-416"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "I2vTqOTPr1w-146": {
+   "id": "I2vTqOTPr1w-146",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Casual friendly chat about lunch, natural and relatable context."
+  },
+  "I2vTqOTPr1w-416": {
+   "id": "I2vTqOTPr1w-416",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Cute conversation enjoying matcha drinks outdoors, accessible everyday Japanese."
+  }
+ }
+}

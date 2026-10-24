@@ -1,0 +1,30 @@
+{
+ "videoId": "Ux1XA5hE4CI",
+ "ids": [
+  "Ux1XA5hE4CI-109",
+  "Ux1XA5hE4CI-29"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Ux1XA5hE4CI-109": {
+   "id": "Ux1XA5hE4CI-109",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear audio over a plain, static chalkboard slide."
+  },
+  "Ux1XA5hE4CI-29": {
+   "id": "Ux1XA5hE4CI-29",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Simple spoken narration introducing the story over a static slide."
+  }
+ }
+}

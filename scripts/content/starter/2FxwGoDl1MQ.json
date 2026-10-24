@@ -1,0 +1,19 @@
+{
+ "videoId": "2FxwGoDl1MQ",
+ "ids": [
+  "2FxwGoDl1MQ-262"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "2FxwGoDl1MQ-262": {
+   "id": "2FxwGoDl1MQ-262",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear voiceover concluding a ramen meal with common dining phrases."
+  }
+ }
+}

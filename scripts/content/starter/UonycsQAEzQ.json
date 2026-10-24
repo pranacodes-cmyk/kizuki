@@ -1,0 +1,30 @@
+{
+ "videoId": "UonycsQAEzQ",
+ "ids": [
+  "UonycsQAEzQ-169",
+  "UonycsQAEzQ-19"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "UonycsQAEzQ-19": {
+   "id": "UonycsQAEzQ-19",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple vocabulary and cute discussion about a dog toy present."
+  },
+  "UonycsQAEzQ-169": {
+   "id": "UonycsQAEzQ-169",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous dog interaction with toy repeating speech in funny pitch."
+  }
+ }
+}

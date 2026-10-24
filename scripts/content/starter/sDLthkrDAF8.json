@@ -1,0 +1,34 @@
+{
+ "videoId": "sDLthkrDAF8",
+ "ids": [
+  "sDLthkrDAF8-1141",
+  "sDLthkrDAF8-502"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "sDLthkrDAF8-502": {
+   "id": "sDLthkrDAF8-502",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "loud music"
+   ],
+   "why": "Everyday food recommendation, but background music has distracting vocals."
+  },
+  "sDLthkrDAF8-1141": {
+   "id": "sDLthkrDAF8-1141",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "loud music"
+   ],
+   "why": "Cute natural couple banter over dessert, though background music is loud."
+  }
+ }
+}

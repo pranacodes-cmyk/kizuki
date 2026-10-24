@@ -2,197 +2,169 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 421.5,
-   "end": 447.8,
-   "title": "Confirming the Caller and Colleague",
+   "start": 214.0,
+   "end": 237.7,
+   "title": "Basic Flow of a Business Phone Call",
+   "level": "N4",
+   "topics": [
+    "work"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜たら — when / after"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 214.4,
+     "end": 218.2,
+     "ja": "まずは挨拶して、自分から名前を言います。",
+     "en": "First, greet them and state your own name.",
+     "speaker": "手塚"
+    },
+    {
+     "start": 219.5,
+     "end": 222.2,
+     "ja": "相手が名前を言います。",
+     "en": "The other person will give their name.",
+     "speaker": "手塚"
+    },
+    {
+     "start": 223.0,
+     "end": 227.2,
+     "ja": "そして、誰に電話したいのか相手が言いますから、",
+     "en": "Then, they will say who they want to talk to,",
+     "speaker": "手塚"
+    },
+    {
+     "start": 227.3,
+     "end": 230.3,
+     "ja": "その人に電話をつなぎます。",
+     "en": "so transfer the call to that person.",
+     "speaker": "手塚"
+    },
+    {
+     "start": 231.2,
+     "end": 234.6,
+     "ja": "話が終わったら、相手が電話を切ってから、",
+     "en": "Once the conversation is over, wait for them to hang up,",
+     "speaker": "手塚"
+    },
+    {
+     "start": 234.7,
+     "end": 237.2,
+     "ja": "自分も電話を切ります。",
+     "en": "and then hang up yourself.",
+     "speaker": "手塚"
+    }
+   ]
+  },
+  {
+   "start": 390.5,
+   "end": 411.8,
+   "title": "Taking a Phone Call Politely",
    "level": "N3",
    "topics": [
     "work"
    ],
    "grammar": [
     "〜と申します — my name is (humble)",
-    "〜でいらっしゃいます — to be (honorific)"
+    "〜でいらっしゃいます — to be (respectful)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 421.9,
-     "end": 423.8,
-     "ja": "K社の石井と申します。",
-     "en": "This is Ishii from K Company.",
-     "speaker": "Caller"
+     "start": 390.8,
+     "end": 394.0,
+     "ja": "お電話ありがとうございます。メッシュ社の王でございます。",
+     "en": "Thank you for calling. This is Wang from Mesh.",
+     "speaker": "王"
     },
     {
-     "start": 423.8,
-     "end": 425.2,
-     "ja": "いつもお世話になっております。",
-     "en": "Thank you as always for your business.",
-     "speaker": "Caller"
+     "start": 394.4,
+     "end": 398.2,
+     "ja": "Ｎ株式会社の石田と申します。いつもお世話になっております。",
+     "en": "This is Ishida from N Corporation. Thank you for your continued support.",
+     "speaker": "石田"
     },
     {
-     "start": 425.7,
-     "end": 428.1,
-     "ja": "N社の石井様でいらっしゃいますね。",
-     "en": "Mr. Ishii from N Company, is that correct?",
-     "speaker": "Tezuka"
-    },
-    {
-     "start": 428.1,
-     "end": 430.4,
-     "ja": "いつもお世話になっております。",
-     "en": "Thank you as always for your support.",
-     "speaker": "Tezuka"
-    },
-    {
-     "start": 441.7,
-     "end": 444.6,
-     "ja": "情報システム課の安田様はいらっしゃいますか？",
-     "en": "Is Mr. Yasuda from the IT Systems Department available?",
-     "speaker": "Caller"
-    },
-    {
-     "start": 444.8,
-     "end": 447.3,
-     "ja": "情報システム課の安田ですね。",
-     "en": "Yasuda from the IT Systems Department, right?",
-     "speaker": "Tezuka"
-    }
-   ]
-  },
-  {
-   "start": 630.9,
-   "end": 651.9,
-   "title": "Role-Play: Taking a Business Call",
-   "level": "N3",
-   "topics": [
-    "work"
-   ],
-   "grammar": [
-    "〜でございます — polite form of です",
-    "〜ていただけますでしょうか — could you please"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 631.1,
-     "end": 632.7,
-     "ja": "お電話ありがとうございます。",
-     "en": "Thank you for calling.",
-     "speaker": "Wang"
-    },
-    {
-     "start": 632.7,
-     "end": 634.6,
-     "ja": "メッシュ社の王でございます。",
-     "en": "This is Wang from Mesh Company.",
-     "speaker": "Wang"
-    },
-    {
-     "start": 634.6,
-     "end": 636.5,
-     "ja": "N株式会社の石田と申します。",
-     "en": "My name is Ishida from N Corporation.",
-     "speaker": "Caller"
-    },
-    {
-     "start": 636.8,
-     "end": 638.4,
-     "ja": "いつもお世話になっております。",
-     "en": "Thank you as always for your support.",
-     "speaker": "Caller"
-    },
-    {
-     "start": 638.6,
-     "end": 641.7,
-     "ja": "N株式会社の石田様でいらっしゃいますね。",
+     "start": 398.5,
+     "end": 401.3,
+     "ja": "Ｎ株式会社の石田様でいらっしゃいますね。",
      "en": "Mr. Ishida from N Corporation, right?",
-     "speaker": "Wang"
+     "speaker": "王"
     },
     {
-     "start": 642.0,
-     "end": 643.5,
+     "start": 401.5,
+     "end": 403.5,
      "ja": "いつもお世話になっております。",
-     "en": "Thank you as always for your support.",
-     "speaker": "Wang"
+     "en": "Thank you for your continued support.",
+     "speaker": "王"
     },
     {
-     "start": 644.2,
-     "end": 646.6,
+     "start": 404.0,
+     "end": 406.4,
      "ja": "総務部の井上様はいらっしゃいますか？",
-     "en": "Is Mr. Inoue from the General Affairs Department there?",
-     "speaker": "Caller"
+     "en": "Is Mr. Inoue from General Affairs available?",
+     "speaker": "石田"
     },
     {
-     "start": 646.9,
-     "end": 648.7,
+     "start": 406.7,
+     "end": 408.8,
      "ja": "総務部の井上ですね。",
-     "en": "Inoue from General Affairs, right?",
-     "speaker": "Wang"
+     "en": "Mr. Inoue of General Affairs, certainly.",
+     "speaker": "王"
     },
     {
-     "start": 649.0,
-     "end": 651.4,
+     "start": 409.0,
+     "end": 411.5,
      "ja": "少々お待ちいただけますでしょうか。",
-     "en": "Could you please hold on for a moment?",
-     "speaker": "Wang"
+     "en": "Could you please hold for a moment?",
+     "speaker": "王"
     }
    ]
   },
   {
-   "start": 707.9,
-   "end": 728.3,
-   "title": "Role-Play: Colleague Stepped Away",
+   "start": 427.3,
+   "end": 443.0,
+   "title": "When the Colleague Is Away from Their Desk",
    "level": "N3",
    "topics": [
     "work"
    ],
    "grammar": [
-    "〜ております — humble progressive",
-    "〜ましょうか — shall I"
+    "〜ております — humble ongoing state",
+    "〜ましょうか — shall I / how should we"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 708.2,
-     "end": 712.9,
+     "start": 427.6,
+     "end": 433.2,
      "ja": "恐れ入りますが、確認いたしますので、少々お待ちいただけますでしょうか。",
-     "en": "I'm sorry, let me check, so could you please wait for a moment?",
-     "speaker": "Wang"
+     "en": "Pardon me, I will check, so could you please wait a moment?",
+     "speaker": "王"
     },
     {
-     "start": 713.8,
-     "end": 717.3,
+     "start": 433.7,
+     "end": 437.3,
      "ja": "申し訳ございません。ただいま席を外しております。",
-     "en": "I'm very sorry. He is away from his desk right now.",
-     "speaker": "Wang"
+     "en": "I am very sorry. He is currently away from his desk.",
+     "speaker": "王"
     },
     {
-     "start": 717.8,
-     "end": 720.0,
-     "ja": "いかがいたしましょうか？",
-     "en": "What would you like to do?",
-     "speaker": "Wang"
+     "start": 437.6,
+     "end": 439.7,
+     "ja": "いかがいたしましょうか。",
+     "en": "How would you like to proceed?",
+     "speaker": "王"
     },
     {
-     "start": 721.2,
-     "end": 723.1,
+     "start": 440.4,
+     "end": 442.5,
      "ja": "じゃあ、また掛け直します。",
-     "en": "Well then, I will call again later.",
-     "speaker": "Caller"
-    },
-    {
-     "start": 723.7,
-     "end": 726.0,
-     "ja": "総務部の王様はいらっしゃいますか？",
-     "en": "Is Mr. Wang from the General Affairs Department there?",
-     "speaker": "Caller"
-    },
-    {
-     "start": 726.2,
-     "end": 727.8,
-     "ja": "あ、私でございます。",
-     "en": "Ah, that is me speaking.",
-     "speaker": "Wang"
+     "en": "Well then, I will call back later.",
+     "speaker": "石田"
     }
    ]
   }
@@ -201,5 +173,6 @@
  "pickTopics": [
   "work"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

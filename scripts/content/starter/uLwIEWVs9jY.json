@@ -1,0 +1,32 @@
+{
+ "videoId": "uLwIEWVs9jY",
+ "ids": [
+  "uLwIEWVs9jY-116",
+  "uLwIEWVs9jY-12"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "uLwIEWVs9jY-12": {
+   "id": "uLwIEWVs9jY-12",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous anime dialogue with clear voices and lively visuals."
+  },
+  "uLwIEWVs9jY-116": {
+   "id": "uLwIEWVs9jY-116",
+   "appeal": 4,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "ad / sponsor"
+   ],
+   "why": "Commercial trailer style with promotional voiceover and fast transitions."
+  }
+ }
+}

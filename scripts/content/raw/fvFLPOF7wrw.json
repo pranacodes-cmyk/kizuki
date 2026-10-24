@@ -2,46 +2,69 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 57.8,
-   "end": 70.0,
-   "title": "Listening and Learning While Doing Chores",
+   "start": 57.6,
+   "end": 70.3,
+   "title": "Listening to Info While Doing Chores",
    "level": "N3",
    "topics": [
     "daily",
     "work"
    ],
    "grammar": [
-    "〜たりしている — doing things like",
-    "〜ないと — must / unless"
+    "〜たり〜たりする — doing things like",
+    "〜ながら — while doing"
    ],
    "quality": 4,
    "lines": [
     {
      "start": 58.0,
-     "end": 60.5,
-     "ja": "今YouTubeとかも自分で始めたりしてるので",
-     "en": "I've started doing YouTube and stuff myself now,",
+     "end": 61.2,
+     "ja": "今YouTubeとかも自分でも始めたりしてるので、",
+     "en": "I've started doing YouTube and such myself recently,",
      "speaker": "Woman"
     },
     {
-     "start": 60.7,
-     "end": 64.0,
-     "ja": "その情報を入れていかないとどんどん出ていくばかりで",
-     "en": "so unless I keep taking in information, it just keeps going out.",
+     "start": 61.2,
+     "end": 64.6,
+     "ja": "情報を入れていかないとどんどん出ていくばかりで、",
+     "en": "so if I don't take in new information, it just drains away constantly.",
      "speaker": "Woman"
     },
     {
-     "start": 64.5,
-     "end": 66.8,
-     "ja": "ながらでインプットして",
-     "en": "So while doing other things I take in information",
+     "start": 64.6,
+     "end": 68.3,
+     "ja": "「ながら」でインプットして、",
+     "en": "So while multitasking, I take in information",
      "speaker": "Woman"
     },
     {
-     "start": 66.8,
-     "end": 69.5,
-     "ja": "何かこう自分なりの気づきを見つけて、みたいな。",
-     "en": "and kind of find my own insights that way.",
+     "start": 68.3,
+     "end": 70.0,
+     "ja": "自分なりの気づきを見つけて、みたいな。",
+     "en": "and look for insights of my own.",
+     "speaker": "Woman"
+    }
+   ]
+  },
+  {
+   "start": 334.8,
+   "end": 348.0,
+   "title": "Waking Up the Kids",
+   "level": "N5",
+   "topics": [
+    "daily",
+    "family"
+   ],
+   "grammar": [
+    "〜だよ — informal declarative/reminder"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 335.2,
+     "end": 338.2,
+     "ja": "朝だよ。",
+     "en": "It's morning.",
      "speaker": "Woman"
     }
    ]
@@ -49,36 +72,36 @@
   {
    "start": 539.8,
    "end": 548.0,
-   "title": "Organizing Dishes in the Kitchen",
-   "level": "N4",
+   "title": "Organizing Dishes in File Boxes",
+   "level": "N3",
    "topics": [
     "daily"
    ],
    "grammar": [
     "〜用 — for the use of",
-    "一番〜 — most / -est"
+    "〜みたい — like / such as"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 540.0,
+     "start": 540.3,
      "end": 543.5,
-     "ja": "手前は割と来客用みたいな感じで",
-     "en": "The front is sort of for guests, and",
+     "ja": "普段用と来客用みたいな感じで、",
+     "en": "It's split like daily use and for guests,",
      "speaker": "Woman"
     },
     {
      "start": 543.5,
      "end": 546.0,
-     "ja": "まあこの辺が一番よく使いますかね。",
-     "en": "well, this area is what gets used the most.",
+     "ja": "この辺が一番よく使いますかね。",
+     "en": "and this area gets used the most.",
      "speaker": "Woman"
     },
     {
      "start": 546.0,
      "end": 547.8,
-     "ja": "あとまあ、子供のやつもよく使いますね。",
-     "en": "Also, the kids' dishes get used a lot too.",
+     "ja": "子供のやつもよく使いますね。",
+     "en": "The kids' stuff gets used often too.",
      "speaker": "Woman"
     }
    ]
@@ -88,5 +111,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

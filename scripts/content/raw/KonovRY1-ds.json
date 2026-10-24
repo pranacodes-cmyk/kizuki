@@ -2,155 +2,183 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 19.0,
-   "end": 44.8,
-   "title": "The Invitation to Keishunkai",
+   "start": 19.1,
+   "end": 44.4,
+   "title": "Candidates for the Head of the Family",
    "level": "N3",
    "topics": [
     "anime",
     "family"
    ],
    "grammar": [
-    "ということは — that means that",
-    "つもりだ — intention"
+    "〜ということは — that means...",
+    "〜つもりだ — intend to / plan to"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 19.2,
-     "end": 22.5,
+     "start": 19.4,
+     "end": 22.0,
      "ja": "招待状が届いたということは、",
-     "en": "The fact that this invitation has arrived...",
+     "en": "The fact that an invitation arrived means...",
      "speaker": "Miyuki"
     },
     {
-     "start": 22.7,
-     "end": 28.0,
-     "ja": "おば様はついに、次期当主を指名するつもりなのだ。",
-     "en": "means that Auntie finally intends to designate the next head of the family.",
+     "start": 22.4,
+     "end": 24.1,
+     "ja": "伯母様はついに、",
+     "en": "...that Auntie is finally...",
      "speaker": "Miyuki"
     },
     {
-     "start": 29.6,
-     "end": 32.4,
-     "ja": "当主候補は、私、",
-     "en": "The candidates for family head are me,",
+     "start": 24.6,
+     "end": 28.1,
+     "ja": "次期当主を指名するつもりなのだわ。",
+     "en": "...planning to name the next head of the family.",
      "speaker": "Miyuki"
     },
     {
-     "start": 33.2,
-     "end": 35.3,
-     "ja": "柴田勝成さん、",
-     "en": "Katsushige Shibata-san,",
+     "start": 29.0,
+     "end": 30.8,
+     "ja": "当主候補は、",
+     "en": "The candidates for head are...",
      "speaker": "Miyuki"
     },
     {
-     "start": 35.7,
-     "end": 37.4,
+     "start": 31.6,
+     "end": 32.8,
+     "ja": "私、",
+     "en": "...myself,",
+     "speaker": "Miyuki"
+    },
+    {
+     "start": 33.3,
+     "end": 35.4,
+     "ja": "新発田勝成さん、",
+     "en": "Katsushige Shibata,",
+     "speaker": "Miyuki"
+    },
+    {
+     "start": 35.8,
+     "end": 37.6,
      "ja": "津久葉夕歌さん、",
-     "en": "Yuuka Tsukuba-san,",
+     "en": "Yuka Tsukuba,",
      "speaker": "Miyuki"
     },
     {
-     "start": 37.7,
+     "start": 38.0,
      "end": 39.5,
      "ja": "文弥君。",
      "en": "and Fumiya-kun.",
      "speaker": "Miyuki"
     },
     {
-     "start": 40.8,
-     "end": 44.5,
-     "ja": "そして、指名されるのは恐らく私。",
-     "en": "And the one who will be chosen is probably me.",
+     "start": 41.4,
+     "end": 44.2,
+     "ja": "そして指名されるのはおそらく私。",
+     "en": "And the one chosen will likely be me.",
      "speaker": "Miyuki"
     }
    ]
   },
   {
-   "start": 48.7,
-   "end": 104.0,
-   "title": "The Duty of the Family Head",
+   "start": 48.6,
+   "end": 63.5,
+   "title": "The Duty of Becoming Family Head",
    "level": "N3",
    "topics": [
     "anime",
-    "family",
     "romance"
    ],
    "grammar": [
     "〜ば — conditional (if / when)",
-    "〜ことになる — to end up / be decided that"
+    "〜ことになる — to end up doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 49.0,
+     "start": 48.9,
      "end": 52.4,
      "ja": "当主になれば結婚することを求められる。",
-     "en": "Becoming the family head means being required to marry.",
+     "en": "If I become head, I will be expected to marry.",
      "speaker": "Miyuki"
     },
     {
-     "start": 52.7,
+     "start": 52.8,
      "end": 55.2,
      "ja": "独身でいることは許されない。",
-     "en": "Remaining unmarried will not be permitted.",
+     "en": "Remaining single will not be permitted.",
      "speaker": "Miyuki"
     },
     {
      "start": 55.7,
-     "end": 60.2,
-     "ja": "だから私は、お兄様でない誰かと結婚して、",
-     "en": "So I would have to marry someone other than Onii-sama,",
+     "end": 57.3,
+     "ja": "だから私は、",
+     "en": "Therefore, I...",
      "speaker": "Miyuki"
     },
     {
-     "start": 60.5,
-     "end": 63.5,
+     "start": 57.8,
+     "end": 60.5,
+     "ja": "お兄様でない誰かと結婚して、",
+     "en": "...will marry someone other than my brother,",
+     "speaker": "Miyuki"
+    },
+    {
+     "start": 60.7,
+     "end": 63.3,
      "ja": "その人の子供を産むことになる。",
-     "en": "and give birth to that person's children.",
+     "en": "and end up bearing that person's child.",
      "speaker": "Miyuki"
     }
    ]
   },
   {
-   "start": 104.2,
-   "end": 118.6,
-   "title": "Inner Conflict",
-   "level": "N4",
+   "start": 64.0,
+   "end": 78.6,
+   "title": "Can You Truly Accept It?",
+   "level": "N3",
    "topics": [
-    "anime"
+    "anime",
+    "daily"
    ],
    "grammar": [
-    "仕方がない — cannot be helped",
-    "〜ことができる — can do"
+    "仕方がない — it cannot be helped",
+    "〜こともできない — cannot even do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 104.4,
-     "end": 107.4,
-     "ja": "そうよ。これは仕方のないこと。",
-     "en": "That's right. This can't be helped.",
+     "start": 64.3,
+     "end": 65.4,
+     "ja": "そうよ。",
+     "en": "That's right.",
      "speaker": "Miyuki"
     },
     {
-     "start": 107.7,
-     "end": 110.5,
+     "start": 65.8,
+     "end": 68.0,
+     "ja": "これは仕方がないことだわ。",
+     "en": "This can't be helped.",
+     "speaker": "Miyuki"
+    },
+    {
+     "start": 68.4,
+     "end": 71.2,
      "ja": "私にはどうすることもできない。",
      "en": "There is nothing I can do about it.",
      "speaker": "Miyuki"
     },
     {
-     "start": 113.8,
-     "end": 116.1,
+     "start": 73.9,
+     "end": 76.1,
      "ja": "本当に仕方のないこと？",
      "en": "Can it really not be helped?",
      "speaker": "Miyuki"
     },
     {
-     "start": 116.2,
-     "end": 118.4,
+     "start": 76.3,
+     "end": 78.4,
      "ja": "本当にそれで納得できるの？",
      "en": "Can you truly accept that?",
      "speaker": "Miyuki"
@@ -162,5 +190,6 @@
  "pickTopics": [
   "anime"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -1,0 +1,21 @@
+{
+ "videoId": "0lyUiEwJoF4",
+ "ids": [
+  "0lyUiEwJoF4-318"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "0lyUiEwJoF4-318": {
+   "id": "0lyUiEwJoF4-318",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "starts mid-sentence"
+   ],
+   "why": "Cute vintage toy display, but speech starts mid-sentence and is casual."
+  }
+ }
+}

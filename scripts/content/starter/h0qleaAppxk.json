@@ -1,0 +1,19 @@
+{
+ "videoId": "h0qleaAppxk",
+ "ids": [
+  "h0qleaAppxk-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "h0qleaAppxk-0": {
+   "id": "h0qleaAppxk-0",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Lively mascot introduction to a trick quiz game."
+  }
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "videoId": "0TCUTA3AjyA",
+ "ids": [
+  "0TCUTA3AjyA-26",
+  "0TCUTA3AjyA-42"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "0TCUTA3AjyA-42": {
+   "id": "0TCUTA3AjyA-42",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "static visual"
+   ],
+   "why": "Lively voice acting over a static anime character card."
+  },
+  "0TCUTA3AjyA-26": {
+   "id": "0TCUTA3AjyA-26",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "static visual"
+   ],
+   "why": "Upbeat anime dialogue paired with mostly still promotional graphics."
+  }
+ }
+}

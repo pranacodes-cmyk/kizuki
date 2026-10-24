@@ -1,0 +1,19 @@
+{
+ "videoId": "DQ3wLEc8MrE",
+ "ids": [
+  "DQ3wLEc8MrE-7"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "DQ3wLEc8MrE-7": {
+   "id": "DQ3wLEc8MrE-7",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Warm, clearly spoken introduction to cooking a classic Japanese dish."
+  }
+ }
+}

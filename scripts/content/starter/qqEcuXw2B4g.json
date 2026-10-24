@@ -1,0 +1,21 @@
+{
+ "videoId": "qqEcuXw2B4g",
+ "ids": [
+  "qqEcuXw2B4g-114"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "qqEcuXw2B4g-114": {
+   "id": "qqEcuXw2B4g-114",
+   "appeal": 4,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "unsafe content"
+   ],
+   "why": "Unsettling topic discussing chain mail curses and online horror legends."
+  }
+ }
+}

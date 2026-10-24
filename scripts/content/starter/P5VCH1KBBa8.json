@@ -1,0 +1,19 @@
+{
+ "videoId": "P5VCH1KBBa8",
+ "ids": [
+  "P5VCH1KBBa8-38"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "P5VCH1KBBa8-38": {
+   "id": "P5VCH1KBBa8-38",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Energetic and humorous anecdote, though spoken quite rapidly for beginners."
+  }
+ }
+}

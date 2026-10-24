@@ -1,0 +1,19 @@
+{
+ "videoId": "qQPVHX0Ae4c",
+ "ids": [
+  "qQPVHX0Ae4c-74"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "qQPVHX0Ae4c-74": {
+   "id": "qQPVHX0Ae4c-74",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Friendly radio chat, but static graphic offers no visual appeal."
+  }
+ }
+}

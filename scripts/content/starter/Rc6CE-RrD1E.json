@@ -1,0 +1,30 @@
+{
+ "videoId": "Rc6CE-RrD1E",
+ "ids": [
+  "Rc6CE-RrD1E-12",
+  "Rc6CE-RrD1E-37"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Rc6CE-RrD1E-37": {
+   "id": "Rc6CE-RrD1E-37",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear beginner routine vocabulary with matching animation."
+  },
+  "Rc6CE-RrD1E-12": {
+   "id": "Rc6CE-RrD1E-12",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Standard self-introduction with simple, clear speech and visuals."
+  }
+ }
+}

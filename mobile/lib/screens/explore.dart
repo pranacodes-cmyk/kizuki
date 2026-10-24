@@ -8,7 +8,6 @@ import '../theme/tokens.dart';
 import '../widgets/clip_card.dart';
 import '../widgets/common.dart';
 import '../widgets/feed_header.dart';
-import '../widgets/tour.dart';
 import '../widgets/ui.dart';
 
 const _sections = [
@@ -79,9 +78,7 @@ class _ExploreState extends State<_Explore> {
       Padding(
         padding: const EdgeInsets.fromLTRB(16, 8, 16, 0),
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          TourAnchor(
-            id: 'exploreSearch',
-            child: TextField(
+          TextField(
             controller: _text,
             focusNode: _focus,
             maxLength: 60,
@@ -111,7 +108,6 @@ class _ExploreState extends State<_Explore> {
               enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(16), borderSide: const BorderSide(color: T.border, width: 2)),
               focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(16), borderSide: const BorderSide(color: T.primary, width: 2)),
             ),
-          ),
           ),
           const SizedBox(height: 10),
           SingleChildScrollView(

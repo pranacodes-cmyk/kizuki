@@ -1,0 +1,19 @@
+{
+ "videoId": "dzxiUDn0Nfs",
+ "ids": [
+  "dzxiUDn0Nfs-162"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "dzxiUDn0Nfs-162": {
+   "id": "dzxiUDn0Nfs-162",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Helpful conversational advice spoken clearly, but paired with a static image."
+  }
+ }
+}

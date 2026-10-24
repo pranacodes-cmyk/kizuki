@@ -1,0 +1,19 @@
+{
+ "videoId": "TLjIp1WhJ3c",
+ "ids": [
+  "TLjIp1WhJ3c-55"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "TLjIp1WhJ3c-55": {
+   "id": "TLjIp1WhJ3c-55",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear location guide with visuals, though speech pace is moderately brisk."
+  }
+ }
+}

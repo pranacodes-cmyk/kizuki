@@ -1,0 +1,19 @@
+{
+ "videoId": "GWY_V6jyI0w",
+ "ids": [
+  "GWY_V6jyI0w-218"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "GWY_V6jyI0w-218": {
+   "id": "GWY_V6jyI0w-218",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear slow travel roleplay using simple phrases over static stock photos."
+  }
+ }
+}

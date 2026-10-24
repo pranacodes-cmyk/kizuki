@@ -1,0 +1,19 @@
+{
+ "videoId": "HNNSG6g68gs",
+ "ids": [
+  "HNNSG6g68gs-43"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "HNNSG6g68gs-43": {
+   "id": "HNNSG6g68gs-43",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear beginner-friendly vocabulary introducing birds with matching visuals."
+  }
+ }
+}

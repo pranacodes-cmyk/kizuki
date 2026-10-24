@@ -1,0 +1,21 @@
+{
+ "videoId": "jMW-PK281kE",
+ "ids": [
+  "jMW-PK281kE-236"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "jMW-PK281kE-236": {
+   "id": "jMW-PK281kE-236",
+   "appeal": 3,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [
+    "ad / sponsor"
+   ],
+   "why": "Contains a channel subscription plug and abrupt transition between topics."
+  }
+ }
+}

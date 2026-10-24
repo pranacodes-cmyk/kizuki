@@ -1,0 +1,19 @@
+{
+ "videoId": "7gZHuFtuzdg",
+ "ids": [
+  "7gZHuFtuzdg-141"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "7gZHuFtuzdg-141": {
+   "id": "7gZHuFtuzdg-141",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Engaging cultural banter listing familiar holidays, though slightly rapid conversational speech."
+  }
+ }
+}

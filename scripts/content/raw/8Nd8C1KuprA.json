@@ -2,62 +2,9 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 107.5,
-   "end": 121.0,
+   "start": 67.3,
+   "end": 81.0,
    "title": "Being Seated at a Restaurant",
-   "level": "N5",
-   "topics": [
-    "food",
-    "daily",
-    "travel"
-   ],
-   "grammar": [
-    "ご〜いたす — humble polite action",
-    "〜たら — when/if conditional"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 107.8,
-     "end": 109.6,
-     "ja": "いらっしゃいませ。",
-     "en": "Welcome.",
-     "speaker": "Staff"
-    },
-    {
-     "start": 109.9,
-     "end": 111.4,
-     "ja": "何名様ですか？",
-     "en": "How many people?",
-     "speaker": "Staff"
-    },
-    {
-     "start": 111.7,
-     "end": 113.2,
-     "ja": "二人です。",
-     "en": "Two people.",
-     "speaker": "Customer"
-    },
-    {
-     "start": 113.4,
-     "end": 115.0,
-     "ja": "ご案内いたします。",
-     "en": "Right this way, please.",
-     "speaker": "Staff"
-    },
-    {
-     "start": 116.0,
-     "end": 120.5,
-     "ja": "ご注文お決まりになりましたら、こちらのベルでお呼びください。",
-     "en": "When you have decided on your order, please call me with this bell.",
-     "speaker": "Staff"
-    }
-   ]
-  },
-  {
-   "start": 122.5,
-   "end": 143.8,
-   "title": "Ordering Food and Drinks",
    "level": "N4",
    "topics": [
     "food",
@@ -65,64 +12,109 @@
     "travel"
    ],
    "grammar": [
-    "〜をお願いします — please give me...",
-    "いかがなさいますか — polite what will you do/have",
-    "お持ちいたしましょうか — shall I bring (humble)"
+    "お〜になる — honorific verb form",
+    "〜たら — when / if conditional"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 122.8,
-     "end": 124.5,
+     "start": 67.7,
+     "end": 69.3,
+     "ja": "いらっしゃいませ。",
+     "en": "Welcome.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 69.6,
+     "end": 71.2,
+     "ja": "何名様ですか？",
+     "en": "How many people in your party?",
+     "speaker": "Staff"
+    },
+    {
+     "start": 71.8,
+     "end": 73.0,
+     "ja": "二人です。",
+     "en": "Two people.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 73.4,
+     "end": 75.0,
+     "ja": "ご案内いたします。",
+     "en": "Right this way, please.",
+     "speaker": "Staff"
+    },
+    {
+     "start": 76.0,
+     "end": 80.5,
+     "ja": "ご注文お決まりになりましたら、こちらのベルでお呼びください。",
+     "en": "Once you have decided on your order, please call us with this bell.",
+     "speaker": "Staff"
+    }
+   ]
+  },
+  {
+   "start": 82.5,
+   "end": 104.0,
+   "title": "Ordering Food and Drinks (Slow)",
+   "level": "N4",
+   "topics": [
+    "food",
+    "daily",
+    "travel"
+   ],
+   "grammar": [
+    "お〜いたす — humble verb form",
+    "〜でお願いします — please make it..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 82.9,
+     "end": 84.2,
      "ja": "お伺いいたします。",
      "en": "May I take your order?",
      "speaker": "Staff"
     },
     {
-     "start": 124.8,
-     "end": 127.1,
-     "ja": "天ぷらそばひとつと",
-     "en": "One tempura soba and",
+     "start": 84.7,
+     "end": 89.5,
+     "ja": "天ぷらそばひとつと、カレーうどんひとつお願いします。",
+     "en": "One tempura soba and one curry udon, please.",
      "speaker": "Customer"
     },
     {
-     "start": 127.2,
-     "end": 129.5,
-     "ja": "カレーうどんひとつお願いします。",
-     "en": "one curry udon, please.",
-     "speaker": "Customer"
-    },
-    {
-     "start": 129.9,
-     "end": 132.4,
+     "start": 90.0,
+     "end": 92.4,
      "ja": "お飲み物はいかがなさいますか？",
-     "en": "What would you like to drink?",
+     "en": "Would you like anything to drink?",
      "speaker": "Staff"
     },
     {
-     "start": 132.7,
-     "end": 135.2,
+     "start": 92.8,
+     "end": 95.3,
      "ja": "オレンジジュースとホットコーヒーで。",
-     "en": "An orange juice and a hot coffee, please.",
+     "en": "An orange juice and a hot coffee.",
      "speaker": "Customer"
     },
     {
-     "start": 135.7,
-     "end": 138.9,
+     "start": 95.8,
+     "end": 98.6,
      "ja": "お飲み物はいつ頃お持ちいたしましょうか？",
-     "en": "When would you like your drinks served?",
+     "en": "When would you like your drinks brought out?",
      "speaker": "Staff"
     },
     {
-     "start": 139.2,
-     "end": 141.3,
+     "start": 99.1,
+     "end": 101.2,
      "ja": "食後でお願いします。",
      "en": "After the meal, please.",
      "speaker": "Customer"
     },
     {
-     "start": 141.6,
-     "end": 143.3,
+     "start": 101.8,
+     "end": 103.4,
      "ja": "かしこまりました。",
      "en": "Certainly.",
      "speaker": "Staff"
@@ -130,9 +122,9 @@
    ]
   },
   {
-   "start": 203.2,
-   "end": 231.8,
-   "title": "When to Ask for Your Drinks",
+   "start": 177.0,
+   "end": 195.8,
+   "title": "Ordering Food at Natural Speed",
    "level": "N4",
    "topics": [
     "food",
@@ -140,73 +132,59 @@
     "travel"
    ],
    "grammar": [
-    "〜てほしい — wanting someone to do something",
-    "〜とき — when..."
+    "いかがなさいますか — what would you like to do (honorific)",
+    "お〜いたす — humble verb form"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 203.5,
-     "end": 206.5,
-     "ja": "食事の前に持ってきてほしいときは、",
-     "en": "When you want them brought before the meal,",
-     "speaker": "Narrator"
+     "start": 177.4,
+     "end": 178.8,
+     "ja": "お伺いいたします。",
+     "en": "May I take your order?",
+     "speaker": "Staff"
     },
     {
-     "start": 206.8,
-     "end": 209.5,
-     "ja": "最初でお願いします。",
-     "en": "\"Before the meal, please.\"",
-     "speaker": "Narrator"
+     "start": 179.2,
+     "end": 183.5,
+     "ja": "天ぷらそばひとつと、カレーうどんひとつお願いします。",
+     "en": "One tempura soba and one curry udon, please.",
+     "speaker": "Customer"
     },
     {
-     "start": 210.0,
-     "end": 212.3,
-     "ja": "最初でお願いします。",
-     "en": "\"Before the meal, please.\"",
-     "speaker": "Narrator"
+     "start": 184.0,
+     "end": 186.0,
+     "ja": "お飲み物はいかがなさいますか？",
+     "en": "Would you like anything to drink?",
+     "speaker": "Staff"
     },
     {
-     "start": 213.2,
-     "end": 216.4,
-     "ja": "食事と同時に持ってきてほしいときは、",
-     "en": "When you want them brought with the meal,",
-     "speaker": "Narrator"
+     "start": 186.4,
+     "end": 188.5,
+     "ja": "オレンジジュースとホットコーヒーで。",
+     "en": "An orange juice and a hot coffee.",
+     "speaker": "Customer"
     },
     {
-     "start": 216.8,
-     "end": 219.3,
-     "ja": "一緒でお願いします。",
-     "en": "\"Together, please.\"",
-     "speaker": "Narrator"
+     "start": 188.9,
+     "end": 191.4,
+     "ja": "お飲み物はいつ頃お持ちいたしましょうか？",
+     "en": "When would you like your drinks brought out?",
+     "speaker": "Staff"
     },
     {
-     "start": 219.8,
-     "end": 222.1,
-     "ja": "一緒でお願いします。",
-     "en": "\"Together, please.\"",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 222.8,
-     "end": 225.8,
-     "ja": "食事のあとに持ってきてほしいときは、",
-     "en": "When you want them brought after the meal,",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 226.3,
-     "end": 228.7,
+     "start": 191.8,
+     "end": 193.3,
      "ja": "食後でお願いします。",
-     "en": "\"After the meal, please.\"",
-     "speaker": "Narrator"
+     "en": "After the meal, please.",
+     "speaker": "Customer"
     },
     {
-     "start": 229.1,
-     "end": 231.3,
-     "ja": "食後でお願いします。",
-     "en": "\"After the meal, please.\"",
-     "speaker": "Narrator"
+     "start": 193.8,
+     "end": 195.2,
+     "ja": "かしこまりました。",
+     "en": "Certainly.",
+     "speaker": "Staff"
     }
    ]
   }
@@ -215,5 +193,6 @@
  "pickTopics": [
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -1,0 +1,30 @@
+{
+ "videoId": "CNesZjWA1Ec",
+ "ids": [
+  "CNesZjWA1Ec-281",
+  "CNesZjWA1Ec-81"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "CNesZjWA1Ec-281": {
+   "id": "CNesZjWA1Ec-281",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear speech about Japanese food culture with static illustrated visual."
+  },
+  "CNesZjWA1Ec-81": {
+   "id": "CNesZjWA1Ec-81",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Relatable morning discussion, clean audio, but mostly text-based graphics."
+  }
+ }
+}

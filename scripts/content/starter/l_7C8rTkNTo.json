@@ -1,0 +1,21 @@
+{
+ "videoId": "l_7C8rTkNTo",
+ "ids": [
+  "l_7C8rTkNTo-521"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "l_7C8rTkNTo-521": {
+   "id": "l_7C8rTkNTo-521",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "background noise"
+   ],
+   "why": "Lively dining conversation featuring simple everyday food expressions."
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "videoId": "5tsheY65PJ4",
+ "ids": [
+  "5tsheY65PJ4-110",
+  "5tsheY65PJ4-141"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "5tsheY65PJ4-110": {
+   "id": "5tsheY65PJ4-110",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous office interaction with clear back-and-forth dialogue."
+  },
+  "5tsheY65PJ4-141": {
+   "id": "5tsheY65PJ4-141",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 2,
+   "english": false,
+   "issues": [],
+   "why": "Fast dialogue with specialized slang about social posturing."
+  }
+ }
+}

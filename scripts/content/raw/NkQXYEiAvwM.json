@@ -2,166 +2,170 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 28.0,
-   "end": 52.5,
-   "title": "Walking with an Umbrella in the Rain",
+   "start": 103.8,
+   "end": 122.8,
+   "title": "Getting a Fresh Haircut",
    "level": "N4",
    "topics": [
     "daily"
    ],
    "grammar": [
-    "〜ながら — while doing",
-    "〜てしまう — unintentional action",
-    "〜たら — if / when"
+    "〜てくる — to do and come back",
+    "〜てもらう — to have someone do something"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 28.3,
-     "end": 30.2,
-     "ja": "雨が降っています。",
-     "en": "It is raining.",
+     "start": 104.1,
+     "end": 109.1,
+     "ja": "はい、今、床屋に行って、髪の毛を切ってきました。",
+     "en": "Alright, I just went to the barber shop and got my hair cut.",
      "speaker": "Ken"
     },
     {
-     "start": 30.9,
-     "end": 36.5,
-     "ja": "今日は雨が降っているので、傘を差しながら歩きます。",
-     "en": "Since it's raining today, I will walk while holding an umbrella.",
+     "start": 109.6,
+     "end": 114.6,
+     "ja": "だいぶ短くなりましたね。特に後ろ。",
+     "en": "It got quite a bit shorter. Especially in the back.",
      "speaker": "Ken"
     },
     {
-     "start": 37.0,
-     "end": 42.5,
-     "ja": "傘がなかったら、カメラが濡れてしまいますからね。",
-     "en": "If I didn't have an umbrella, the camera would get wet.",
+     "start": 115.0,
+     "end": 120.0,
+     "ja": "後ろがめっちゃ長かったので、後ろをたくさん切ってもらいました。",
+     "en": "The back was super long, so I had them cut a lot off the back.",
      "speaker": "Ken"
     },
     {
-     "start": 43.0,
-     "end": 46.5,
-     "ja": "カメラが濡れると、壊れますよ。",
-     "en": "If the camera gets wet, it will break.",
-     "speaker": "Ken"
-    },
-    {
-     "start": 47.0,
-     "end": 52.0,
-     "ja": "だから、今日は傘を差しながら歩きます。",
-     "en": "So today, I will walk while holding an umbrella.",
+     "start": 120.8,
+     "end": 122.3,
+     "ja": "さっぱりしました！",
+     "en": "I feel refreshed!",
      "speaker": "Ken"
     }
    ]
   },
   {
-   "start": 300.4,
-   "end": 329.8,
-   "title": "Explaining Japanese Rain Onomatopoeia",
+   "start": 180.2,
+   "end": 209.4,
+   "title": "Rain Expressions in Japanese",
    "level": "N4",
    "topics": [
-    "culture",
     "daily"
    ],
    "grammar": [
-    "〜の意味は〜です — the meaning of ... is ...",
-    "〜けど — but / although",
-    "〜ている — ongoing state / action"
+    "〜ている — ongoing action",
+    "〜けど — but / although"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 300.6,
-     "end": 304.0,
+     "start": 180.5,
+     "end": 184.0,
      "ja": "さっきはザーザー降りでしたね。",
-     "en": "Earlier it was pouring rain, wasn't it?",
+     "en": "A little while ago it was pouring rain.",
      "speaker": "Ken"
     },
     {
-     "start": 304.5,
-     "end": 308.5,
-     "ja": "「雨がザーザー」の意味は、強い雨の意味です。",
-     "en": "The meaning of 'zaazaa rain' is heavy rain.",
+     "start": 184.5,
+     "end": 188.5,
+     "ja": "「雨がザーザー」の意味は強い雨の意味です。",
+     "en": "\"Ame ga zaazaa\" means heavy rain.",
      "speaker": "Ken"
     },
     {
-     "start": 308.7,
-     "end": 311.8,
+     "start": 188.8,
+     "end": 191.7,
      "ja": "強い雨が降っているの意味です。",
      "en": "It means heavy rain is falling.",
      "speaker": "Ken"
     },
     {
-     "start": 312.3,
-     "end": 319.0,
-     "ja": "さっきは雨がザーザーでしたけど、今はポツポツだけですね。",
-     "en": "Earlier it was pouring, but now it's just sprinkling.",
+     "start": 192.3,
+     "end": 196.0,
+     "ja": "さっきは雨がザーザーでしたけど、",
+     "en": "Earlier it was pouring, but...",
      "speaker": "Ken"
     },
     {
-     "start": 320.6,
-     "end": 325.5,
-     "ja": "「雨がポツポツ」は、雨がちょっとだけ降っています、",
-     "en": "'Potsupotsu rain' means rain is falling just a little bit,",
+     "start": 196.1,
+     "end": 199.5,
+     "ja": "今はポツポツだけですね。",
+     "en": "now it's just sprinkling.",
      "speaker": "Ken"
     },
     {
-     "start": 325.7,
-     "end": 329.4,
+     "start": 200.5,
+     "end": 205.5,
+     "ja": "「雨がポツポツ」は雨がちょっとだけ降っています、",
+     "en": "\"Ame ga potsupotsu\" means it's only raining a little bit,",
+     "speaker": "Ken"
+    },
+    {
+     "start": 205.8,
+     "end": 208.9,
      "ja": "弱い雨が降っていますの意味です。",
-     "en": "it means light rain is falling.",
+     "en": "meaning light rain is falling.",
      "speaker": "Ken"
     }
    ]
   },
   {
-   "start": 910.5,
-   "end": 934.0,
-   "title": "Getting Hungry on a Cold, Rainy Day",
+   "start": 431.5,
+   "end": 456.6,
+   "title": "Unexpected Retro Game Finds",
    "level": "N4",
    "topics": [
-    "food",
-    "daily"
+    "daily",
+    "fun"
    ],
    "grammar": [
-    "〜てくる — become / start to",
-    "〜たい — want to do",
-    "〜時 — when / at the time of"
+    "〜つもり — intention",
+    "〜たら — conditional when",
+    "〜てしまう — unintentional action"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 910.8,
-     "end": 912.8,
-     "ja": "今、何時ですか？",
-     "en": "What time is it now?",
+     "start": 431.8,
+     "end": 434.3,
+     "ja": "これね、懐かしいもの。",
+     "en": "Look at these nostalgic items.",
      "speaker": "Ken"
     },
     {
-     "start": 913.2,
-     "end": 916.0,
-     "ja": "おっ、もう１２時半です。",
-     "en": "Oh, it's already 12:30.",
+     "start": 434.8,
+     "end": 438.5,
+     "ja": "僕は買うつもりはなかったですよ！",
+     "en": "I didn't intend to buy them!",
      "speaker": "Ken"
     },
     {
-     "start": 916.3,
-     "end": 919.4,
-     "ja": "お腹がすいてきましたね。",
-     "en": "I'm getting hungry.",
+     "start": 439.8,
+     "end": 442.0,
+     "ja": "買うつもりはなかったです。",
+     "en": "I had no intention of buying them.",
      "speaker": "Ken"
     },
     {
-     "start": 921.5,
-     "end": 928.0,
-     "ja": "今日はちょっと寒いので、温かいものが食べたいです。",
-     "en": "It's a bit cold today, so I want to eat something warm.",
+     "start": 442.4,
+     "end": 447.2,
+     "ja": "でも、お店に行って、中古のものを見ていたら、",
+     "en": "But when I went into the store and looked at the second-hand items,",
      "speaker": "Ken"
     },
     {
-     "start": 928.7,
-     "end": 933.5,
-     "ja": "皆さんは寒い時、どんな食べ物が食べたいですか？",
-     "en": "When it's cold, what kind of food do you want to eat?",
+     "start": 447.6,
+     "end": 451.5,
+     "ja": "「あ〜、懐かしい！」と思いました。",
+     "en": "I thought, \"Ah, how nostalgic!\"",
+     "speaker": "Ken"
+    },
+    {
+     "start": 452.0,
+     "end": 456.1,
+     "ja": "昔の古いゲームを買ってしまいました。",
+     "en": "I ended up buying these old, retro games.",
      "speaker": "Ken"
     }
    ]
@@ -172,5 +176,6 @@
   "daily",
   "travel"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

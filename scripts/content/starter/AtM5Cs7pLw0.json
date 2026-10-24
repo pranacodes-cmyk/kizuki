@@ -1,0 +1,19 @@
+{
+ "videoId": "AtM5Cs7pLw0",
+ "ids": [
+  "AtM5Cs7pLw0-836"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "AtM5Cs7pLw0-836": {
+   "id": "AtM5Cs7pLw0-836",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear narration with relatable cooking visuals and everyday home vocabulary."
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "videoId": "24I5BCAbBho",
+ "ids": [
+  "24I5BCAbBho-11",
+  "24I5BCAbBho-36"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "24I5BCAbBho-36": {
+   "id": "24I5BCAbBho-36",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Cute parrot responding with standard daily farewell phrases."
+  },
+  "24I5BCAbBho-11": {
+   "id": "24I5BCAbBho-11",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Charming clip practicing basic name introductions with a parrot."
+  }
+ }
+}

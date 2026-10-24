@@ -2,212 +2,150 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 40.8,
-   "end": 57.5,
-   "title": "Suited for a Bungee Jump Attendant",
+   "start": 40.2,
+   "end": 68.0,
+   "title": "The Best Bungee Jump Attendant",
    "level": "N3",
    "topics": [
     "comedy",
-    "work"
+    "work",
+    "fun"
    ],
    "grammar": [
-    "〜による — depending on / by means of",
-    "〜と言う — to say that"
+    "〜に向いている — suitable for",
+    "〜んですって — hearsay / I heard that",
+    "〜ことができる — able to do"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 41.3,
-     "end": 42.4,
-     "ja": "私、思うんです。",
-     "en": "I've been thinking.",
+     "start": 40.6,
+     "end": 42.2,
+     "ja": "そんなことよりですね、私思うんです。",
+     "en": "More importantly, I've been thinking.",
      "speaker": "Watanabe"
     },
     {
-     "start": 42.6,
-     "end": 43.6,
-     "ja": "私ですね、",
-     "en": "You see,",
+     "start": 42.5,
+     "end": 46.0,
+     "ja": "私ですね、バンジージャンプの係員に向いてるなと思うんです。",
+     "en": "I think I'm really suited to be a bungee jump attendant.",
      "speaker": "Watanabe"
     },
     {
-     "start": 43.9,
-     "end": 46.8,
-     "ja": "バンジージャンプの係員に向いてるなと思うんです。",
-     "en": "I think I'd make a great bungee jump attendant.",
-     "speaker": "Watanabe"
-    },
-    {
-     "start": 46.9,
-     "end": 47.7,
-     "ja": "係員？なんで？",
+     "start": 46.1,
+     "end": 47.3,
+     "ja": "係員？何で？",
      "en": "An attendant? Why?",
      "speaker": "Kobashi"
     },
     {
-     "start": 47.8,
-     "end": 49.0,
-     "ja": "聞いた話なんですけど、",
-     "en": "Well, from what I've heard,",
+     "start": 47.4,
+     "end": 52.5,
+     "ja": "聞いた話なんですけど、あの仕事の一番大変なのって、スケジュール通りに飛ばしていくことなんですって。",
+     "en": "From what I've heard, the hardest part of that job is getting people to jump on schedule.",
      "speaker": "Watanabe"
     },
     {
-     "start": 49.1,
-     "end": 50.3,
-     "ja": "あの仕事の一番大変なのって、",
-     "en": "the hardest part of that job",
-     "speaker": "Watanabe"
-    },
-    {
-     "start": 50.4,
-     "end": 52.8,
-     "ja": "スケジュール通りに飛ばしていくことらしいんですよ。",
-     "en": "is keeping people jumping right on schedule.",
-     "speaker": "Watanabe"
-    },
-    {
-     "start": 52.9,
+     "start": 52.6,
      "end": 53.6,
-     "ja": "あ、そうなの？",
+     "ja": "あ、そうなんだ。",
      "en": "Oh, really?",
      "speaker": "Kobashi"
     },
     {
      "start": 53.7,
-     "end": 55.4,
-     "ja": "いざとなると、やっぱ「怖い」とかね、",
-     "en": "When the moment comes, a lot of people say 'I'm scared'",
+     "end": 55.7,
+     "ja": "いざとなるとやっぱ怖いとかね、無理とかって言い出す人が多いらしくて。",
+     "en": "Apparently, when the moment comes, a lot of people start saying they're scared or they can't do it.",
      "speaker": "Watanabe"
     },
     {
-     "start": 55.5,
-     "end": 57.3,
-     "ja": "「無理」とかって言い出す人が多いらしい。",
-     "en": "or 'I can't do it.'",
+     "start": 55.8,
+     "end": 57.6,
+     "ja": "後ろ予約詰まってるのに。",
+     "en": "Even though reservations are backed up behind them.",
+     "speaker": "Kobashi"
+    },
+    {
+     "start": 57.7,
+     "end": 61.5,
+     "ja": "そう。その点私、気迫の人間ですから。人を鼓舞するのが得意。",
+     "en": "Exactly. In that regard, I'm a man of spirit. I'm good at inspiring people.",
+     "speaker": "Watanabe"
+    },
+    {
+     "start": 61.6,
+     "end": 67.5,
+     "ja": "怖がっている人でも勇気づけ、時間通り飛ばすことができる。それがこの私、オンタイム渡辺。",
+     "en": "Even if someone is scared, I can encourage them and make them jump on time. That's me: On-Time Watanabe.",
      "speaker": "Watanabe"
     }
    ]
   },
   {
-   "start": 57.5,
-   "end": 72.8,
-   "title": "On-Time Watanabe",
+   "start": 227.2,
+   "end": 249.0,
+   "title": "Reason Is Man's Greatest Weapon",
    "level": "N2",
    "topics": [
     "comedy",
-    "work"
-   ],
-   "grammar": [
-    "〜通りに — in accordance with",
-    "〜のこと — matters concerning"
-   ],
-   "quality": 4,
-   "lines": [
-    {
-     "start": 57.8,
-     "end": 60.1,
-     "ja": "その点、私、気迫の人間ですから。",
-     "en": "On that note, I'm a man of intense spirit.",
-     "speaker": "Watanabe"
-    },
-    {
-     "start": 60.2,
-     "end": 62.0,
-     "ja": "人を鼓舞するのが得意。",
-     "en": "I'm great at inspiring people.",
-     "speaker": "Watanabe"
-    },
-    {
-     "start": 62.1,
-     "end": 64.6,
-     "ja": "怖がっている人でも、勇気づけ、",
-     "en": "Even when someone is scared, I can encourage them,",
-     "speaker": "Watanabe"
-    },
-    {
-     "start": 64.7,
-     "end": 67.4,
-     "ja": "時間通り飛ばすことができる！",
-     "en": "and make them jump right on schedule!",
-     "speaker": "Watanabe"
-    },
-    {
-     "start": 67.5,
-     "end": 68.8,
-     "ja": "それがこの私、",
-     "en": "That person is me:",
-     "speaker": "Watanabe"
-    },
-    {
-     "start": 68.9,
-     "end": 70.8,
-     "ja": "オンタイム渡辺！",
-     "en": "On-Time Watanabe!",
-     "speaker": "Watanabe"
-    },
-    {
-     "start": 71.0,
-     "end": 72.4,
-     "ja": "いつのまにか改名してる。",
-     "en": "You changed your name without telling me.",
-     "speaker": "Kobashi"
-    }
-   ]
-  },
-  {
-   "start": 227.6,
-   "end": 249.2,
-   "title": "Human Reason and Fear",
-   "level": "N1",
-   "topics": [
-    "comedy"
+    "fun"
    ],
    "grammar": [
     "〜に勝る — to surpass",
-    "〜ば〜ほど — the more... the more"
+    "〜ば — conditional if",
+    "〜ものですか — rhetorical question"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 228.3,
-     "end": 230.1,
-     "ja": "いいですか？理性。",
-     "en": "Listen carefully. Reason.",
+     "start": 227.6,
+     "end": 228.4,
+     "ja": "いいですか？",
+     "en": "Are you listening?",
      "speaker": "Watanabe"
     },
     {
-     "start": 230.7,
-     "end": 233.9,
-     "ja": "それは、人間が動物に勝る唯一の武器！",
-     "en": "That is the only weapon humans possess over animals!",
+     "start": 228.5,
+     "end": 232.3,
+     "ja": "理性、それは人間が動物に勝る唯一の武器。",
+     "en": "Reason: that is the only weapon where humans surpass animals.",
      "speaker": "Watanabe"
     },
     {
-     "start": 238.1,
-     "end": 241.8,
+     "start": 232.4,
+     "end": 234.0,
+     "ja": "え、浮いてない？",
+     "en": "Wait, aren't you out of touch?",
+     "speaker": "Kobashi"
+    },
+    {
+     "start": 236.8,
+     "end": 240.8,
      "ja": "理性が強ければ、生物として優秀だということです。",
-     "en": "Having strong reason means being superior as a living creature.",
+     "en": "If your reason is strong, that means you are superior as a living creature.",
      "speaker": "Watanabe"
     },
     {
-     "start": 242.4,
-     "end": 246.5,
+     "start": 241.8,
+     "end": 245.8,
      "ja": "あなたの理性は、この程度の恐怖に負けるもんなんですか？",
-     "en": "Is your reason really something that would lose to this level of fear?",
+     "en": "Is your reason really something that gives in to this level of fear?",
      "speaker": "Watanabe"
     },
     {
-     "start": 246.9,
-     "end": 248.6,
-     "ja": "その程度のものなんですか！？",
-     "en": "Is it really only that weak?!",
+     "start": 246.3,
+     "end": 247.8,
+     "ja": "その程度のもんなんですか？",
+     "en": "Is it really only that much?",
      "speaker": "Watanabe"
     },
     {
-     "start": 248.8,
-     "end": 249.2,
-     "ja": "違います。",
-     "en": "No, it's not.",
+     "start": 247.9,
+     "end": 248.9,
+     "ja": "ち、違います。",
+     "en": "N-no, it's not.",
      "speaker": "Kobashi"
     }
    ]
@@ -217,5 +155,6 @@
  "pickTopics": [
   "comedy"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

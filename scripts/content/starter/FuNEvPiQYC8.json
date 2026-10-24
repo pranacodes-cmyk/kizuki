@@ -1,0 +1,19 @@
+{
+ "videoId": "FuNEvPiQYC8",
+ "ids": [
+  "FuNEvPiQYC8-34"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "FuNEvPiQYC8-34": {
+   "id": "FuNEvPiQYC8-34",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear everyday dialogue between cute characters explaining an errand."
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "videoId": "y_nL5JjMYyY",
+ "ids": [
+  "y_nL5JjMYyY-161",
+  "y_nL5JjMYyY-212"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "y_nL5JjMYyY-212": {
+   "id": "y_nL5JjMYyY-212",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Humorous stage skit using clear vocabulary about cats and dogs."
+  },
+  "y_nL5JjMYyY-161": {
+   "id": "y_nL5JjMYyY-161",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Funny comedy skit with basic animal vocabulary, though delivery is shouty."
+  }
+ }
+}

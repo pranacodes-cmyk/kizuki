@@ -2,116 +2,116 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 232.4,
-   "end": 302.3,
-   "title": "King Enma Sends Them to Hell",
+   "start": 64.5,
+   "end": 94.5,
+   "title": "Introducing the Three Men",
    "level": "N5",
    "topics": [
     "culture",
     "fun"
    ],
    "grammar": [
-    "〜を見て — seeing / looking at",
-    "〜へ行く — going towards a place"
+    "目 — ordinal number suffix",
+    "〜をする人 — a person who does ..."
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 232.4,
-     "end": 242.5,
-     "ja": "えんまさまは、あの世の王さまです。",
-     "en": "King Enma is the king of the afterlife.",
+     "start": 64.8,
+     "end": 73.5,
+     "ja": "１人目は山伏です。",
+     "en": "The first one was an ascetic mountain monk.",
      "speaker": "Narrator"
     },
     {
-     "start": 243.3,
-     "end": 253.0,
-     "ja": "えんまさまは三人を見て言いました。",
-     "en": "King Enma looked at the three men and said:",
+     "start": 75.5,
+     "end": 84.5,
+     "ja": "山で修行をする人です。",
+     "en": "He was a person who trained in the mountains.",
      "speaker": "Narrator"
     },
     {
-     "start": 253.8,
-     "end": 301.8,
-     "ja": "「お前たちは、地獄へ行け。」",
-     "en": "\"You guys, go to hell.\"",
-     "speaker": "King Enma"
+     "start": 86.0,
+     "end": 94.0,
+     "ja": "２人目は軽業師です。",
+     "en": "The second one was an acrobat.",
+     "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 426.5,
-   "end": 456.5,
-   "title": "Enjoying the Boiling Cauldron",
+   "start": 200.0,
+   "end": 233.0,
+   "title": "Thrown into the Boiling Cauldron",
    "level": "N5",
    "topics": [
-    "culture",
+    "anime",
     "fun"
    ],
    "grammar": [
-    "〜そうに — doing (in a manner that seems)",
-    "〜を洗う — to wash (object)"
+    "〜ています — ongoing action / state",
+    "〜に入る — to enter into"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 426.5,
-     "end": 434.5,
-     "ja": "「これは、いいお風呂だ。」",
-     "en": "\"This is a nice bath.\"",
-     "speaker": "Acrobat"
-    },
-    {
-     "start": 435.5,
-     "end": 448.5,
-     "ja": "三人は気持ちよさそうに体を洗いました。",
-     "en": "The three washed themselves looking so comfortable.",
+     "start": 200.5,
+     "end": 210.5,
+     "ja": "中では、熱いお湯がぐつぐつわいています。",
+     "en": "Inside, boiling hot water was bubbling away.",
      "speaker": "Narrator"
     },
     {
-     "start": 449.0,
-     "end": 456.5,
-     "ja": "鬼たちはびっくりです。",
-     "en": "The demons were astonished.",
+     "start": 211.5,
+     "end": 218.0,
+     "ja": "「さあ、入れ。」",
+     "en": "\"Now, get in.\"",
+     "speaker": "Demon"
+    },
+    {
+     "start": 219.0,
+     "end": 232.5,
+     "ja": "３人は、どぼんと釜に入りました。",
+     "en": "The three splashed right into the cauldron.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 728.5,
-   "end": 759.5,
-   "title": "The Dentist Checks the Demon's Cavity",
-   "level": "N4",
+   "start": 501.0,
+   "end": 529.0,
+   "title": "The Demon Sneezes Them Out",
+   "level": "N5",
    "topics": [
-    "fun",
+    "anime",
     "comedy"
    ],
    "grammar": [
-    "〜の出番 — one's turn to act",
-    "〜と — when / upon doing"
+    "もう〜だ — expressing a limit / no longer",
+    "〜をする — to perform an action (e.g. to sneeze)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 728.5,
-     "end": 738.0,
-     "ja": "今度は歯医者の出番です。",
-     "en": "Now it was the dentist's turn.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 738.5,
-     "end": 751.5,
-     "ja": "歯医者が鬼の虫歯をさわると、鬼は大声を出しました。",
-     "en": "When the dentist touched the demon's cavity, the demon let out a loud cry.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 752.3,
-     "end": 758.8,
-     "ja": "「いたたたた。」",
-     "en": "\"Ouch, ouch, ouch!\"",
+     "start": 501.5,
+     "end": 506.2,
+     "ja": "「もう、だめだ。」",
+     "en": "\"I can't take it anymore!\"",
      "speaker": "Demon"
+    },
+    {
+     "start": 507.2,
+     "end": 516.2,
+     "ja": "鬼は大きなくしゃみをしました。",
+     "en": "The demon let out a huge sneeze.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 518.0,
+     "end": 528.5,
+     "ja": "３人は、ぽーんと外へ飛び出しました。",
+     "en": "The three were flung flying outside.",
+     "speaker": "Narrator"
     }
    ]
   }
@@ -120,5 +120,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

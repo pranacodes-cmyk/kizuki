@@ -1,0 +1,19 @@
+{
+ "videoId": "a8w2HiqgHLQ",
+ "ids": [
+  "a8w2HiqgHLQ-4"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "a8w2HiqgHLQ-4": {
+   "id": "a8w2HiqgHLQ-4",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [],
+   "why": "Humorous VTuber scenario with fast, dramatic announcer narration."
+  }
+ }
+}

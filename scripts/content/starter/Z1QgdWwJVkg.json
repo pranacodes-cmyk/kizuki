@@ -1,0 +1,32 @@
+{
+ "videoId": "Z1QgdWwJVkg",
+ "ids": [
+  "Z1QgdWwJVkg-62",
+  "Z1QgdWwJVkg-627"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Z1QgdWwJVkg-62": {
+   "id": "Z1QgdWwJVkg-62",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear Japanese narration introducing convenience store bread packaging."
+  },
+  "Z1QgdWwJVkg-627": {
+   "id": "Z1QgdWwJVkg-627",
+   "appeal": 4,
+   "clarity": 3,
+   "picture": 2,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "starts mid-sentence"
+   ],
+   "why": "Static background does not visually match the spoken food comparison."
+  }
+ }
+}

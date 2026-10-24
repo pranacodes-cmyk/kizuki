@@ -1,0 +1,19 @@
+{
+ "videoId": "vzKUUJJxwBU",
+ "ids": [
+  "vzKUUJJxwBU-5"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "vzKUUJJxwBU-5": {
+   "id": "vzKUUJJxwBU-5",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear unboxing demonstration with articulate, standard-paced narration."
+  }
+ }
+}

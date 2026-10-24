@@ -1,0 +1,19 @@
+{
+ "videoId": "0ycXiWFBCBE",
+ "ids": [
+  "0ycXiWFBCBE-709"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "0ycXiWFBCBE-709": {
+   "id": "0ycXiWFBCBE-709",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Appetizing food scene with clear explanations of Japanese dining utensils."
+  }
+ }
+}

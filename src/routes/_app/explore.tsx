@@ -65,7 +65,7 @@ function Explore() {
     <div className="absolute inset-0 flex flex-col bg-background pt-[calc(var(--sat)+6px)]">
       <FeedHeader tab="explore" />
       <div className="px-4 pt-2">
-        <label data-tour="exploreSearch" className="flex h-12 items-center gap-2 rounded-2xl border-2 border-border bg-surface px-3 focus-within:border-primary">
+        <label className="flex h-12 items-center gap-2 rounded-2xl border-2 border-border bg-surface px-3 focus-within:border-primary">
           <Search className="h-5 w-5 text-faint" />
           <input
             value={text}

@@ -1,0 +1,30 @@
+{
+ "videoId": "CkLPjCrUDMw",
+ "ids": [
+  "CkLPjCrUDMw-19",
+  "CkLPjCrUDMw-424"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "CkLPjCrUDMw-424": {
+   "id": "CkLPjCrUDMw-424",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Practical, real-world dialogue ordering food at a shop."
+  },
+  "CkLPjCrUDMw-19": {
+   "id": "CkLPjCrUDMw-19",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple beginner narration accompanied by pleasant scenery."
+  }
+ }
+}

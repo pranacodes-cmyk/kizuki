@@ -1,0 +1,30 @@
+{
+ "videoId": "boJH3H7o25Q",
+ "ids": [
+  "boJH3H7o25Q-141",
+  "boJH3H7o25Q-42"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "boJH3H7o25Q-141": {
+   "id": "boJH3H7o25Q-141",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Practical station safety rule explained clearly with slow speech and helpful visuals."
+  },
+  "boJH3H7o25Q-42": {
+   "id": "boJH3H7o25Q-42",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear real-world guide to buying tickets with easy, natural dialogue."
+  }
+ }
+}

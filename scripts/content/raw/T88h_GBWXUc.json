@@ -2,85 +2,157 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 31.8,
-   "end": 40.0,
-   "title": "I'll Go to the Audition Instead",
-   "level": "N4",
+   "start": 19.8,
+   "end": 32.0,
+   "title": "Mass Memory Loss",
+   "level": "N3",
    "topics": [
-    "work",
-    "comedy"
+    "culture",
+    "fun"
    ],
    "grammar": [
-    "〜ですから — because / given that",
-    "〜おうか — shall I / offering to do something",
-    "代わりに — instead of / in place of"
+    "〜に関する — concerning / regarding",
+    "〜た — past tense"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 32.0,
-     "end": 34.8,
-     "ja": "お願いしますよ、大事なオーディションなんですから。",
-     "en": "Come on, please, it's an important audition.",
-     "speaker": "Young Man"
+     "start": 20.1,
+     "end": 22.4,
+     "ja": "彼を知らない日本人はいない。",
+     "en": "There is no Japanese person who doesn't know him.",
+     "speaker": "Narrator"
     },
     {
-     "start": 35.0,
-     "end": 36.4,
-     "ja": "私が行こうか。",
-     "en": "Shall I go?",
-     "speaker": "Gen"
+     "start": 22.6,
+     "end": 24.3,
+     "ja": "知らない、知らない。",
+     "en": "Never heard of him, don't know him.",
+     "speaker": "Woman"
     },
     {
-     "start": 36.4,
-     "end": 37.2,
-     "ja": "は？",
-     "en": "Huh?",
-     "speaker": "Young Man"
+     "start": 24.9,
+     "end": 26.5,
+     "ja": "日本人の頭脳から、",
+     "en": "From the minds of the Japanese people,",
+     "speaker": "Narrator"
     },
     {
-     "start": 37.3,
-     "end": 40.0,
-     "ja": "そのオーディション、代わりに行こうか。",
-     "en": "Shall I go to that audition instead?",
+     "start": 26.6,
+     "end": 29.5,
+     "ja": "高瀬川玄に関する記憶が消えた。",
+     "en": "all memories of Gen Takasegawa vanished.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 29.8,
+     "end": 31.8,
+     "ja": "集団記憶喪失？",
+     "en": "Mass amnesia?",
      "speaker": "Gen"
     }
    ]
   },
   {
-   "start": 125.5,
-   "end": 133.4,
-   "title": "A Great Actor Nobody Knows",
-   "level": "N3",
+   "start": 31.6,
+   "end": 40.3,
+   "title": "Shall I Go to the Audition?",
+   "level": "N4",
    "topics": [
     "work",
-    "culture"
+    "daily"
    ],
    "grammar": [
-    "〜なんて — things like / such as",
-    "〜てる — resultant state"
+    "〜んですから — explaining a reason",
+    "〜（よ）うか — shall I...?"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 125.7,
-     "end": 129.0,
-     "ja": "いないでしょ、芝居ができて誰も知らない俳優なんて。",
-     "en": "There's no such thing as an actor who can act and nobody knows.",
+     "start": 31.8,
+     "end": 33.0,
+     "ja": "お願いしますよ。",
+     "en": "Please, I'm begging you.",
      "speaker": "Man"
     },
     {
-     "start": 129.2,
-     "end": 130.3,
+     "start": 33.1,
+     "end": 34.9,
+     "ja": "大事なオーディションなんですから。",
+     "en": "It's an important audition.",
+     "speaker": "Man"
+    },
+    {
+     "start": 35.0,
+     "end": 36.2,
+     "ja": "私が行こうか。",
+     "en": "Shall I go?",
+     "speaker": "Gen"
+    },
+    {
+     "start": 36.3,
+     "end": 37.0,
+     "ja": "は？",
+     "en": "Huh?",
+     "speaker": "Man"
+    },
+    {
+     "start": 37.1,
+     "end": 38.2,
+     "ja": "そのオーディション、",
+     "en": "That audition...",
+     "speaker": "Gen"
+    },
+    {
+     "start": 38.3,
+     "end": 40.0,
+     "ja": "代わりに行こうか。",
+     "en": "Shall I go in your place?",
+     "speaker": "Gen"
+    }
+   ]
+  },
+  {
+   "start": 125.6,
+   "end": 133.7,
+   "title": "A Great Actor Nobody Knows",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "work"
+   ],
+   "grammar": [
+    "〜なんて — things like / such as",
+    "〜てる — ongoing state"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 125.8,
+     "end": 126.9,
+     "ja": "いないでしょ、",
+     "en": "There's no way,",
+     "speaker": "Man"
+    },
+    {
+     "start": 127.0,
+     "end": 129.2,
+     "ja": "芝居ができて誰も知らない俳優なんて。",
+     "en": "an actor who can act but nobody knows.",
+     "speaker": "Man"
+    },
+    {
+     "start": 129.7,
+     "end": 130.5,
      "ja": "いる。",
      "en": "There is.",
      "speaker": "Gen"
     },
     {
-     "start": 130.7,
+     "start": 130.8,
      "end": 133.4,
-     "ja": "日本人の99%が忘れてる。",
-     "en": "Ninety-nine percent of Japanese people have forgotten him.",
+     "ja": "日本人の99％が忘れてる。",
+     "en": "99% of Japanese people have forgotten him.",
      "speaker": "Gen"
     }
    ]
@@ -90,5 +162,6 @@
  "pickTopics": [
   "culture"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

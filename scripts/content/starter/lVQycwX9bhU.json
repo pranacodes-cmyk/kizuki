@@ -1,0 +1,30 @@
+{
+ "videoId": "lVQycwX9bhU",
+ "ids": [
+  "lVQycwX9bhU-23",
+  "lVQycwX9bhU-243"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "lVQycwX9bhU-243": {
+   "id": "lVQycwX9bhU-243",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear travel dialogue with helpful subtitles and static anime art."
+  },
+  "lVQycwX9bhU-23": {
+   "id": "lVQycwX9bhU-23",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Practical shopping interaction spoken slowly with clear text."
+  }
+ }
+}

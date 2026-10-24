@@ -1,0 +1,19 @@
+{
+ "videoId": "FFj2DwhdCiY",
+ "ids": [
+  "FFj2DwhdCiY-234"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "FFj2DwhdCiY-234": {
+   "id": "FFj2DwhdCiY-234",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Lively host provides clear spoken explanation and gestures for children."
+  }
+ }
+}

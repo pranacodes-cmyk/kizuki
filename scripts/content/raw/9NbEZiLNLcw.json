@@ -2,186 +2,162 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 48.0,
-   "end": 64.0,
-   "title": "Meeting for the First Time",
+   "start": 331.0,
+   "end": 348.2,
+   "title": "Tamasaburos Mom Brings Donuts",
    "level": "N5",
    "topics": [
-    "friends",
-    "anime"
+    "food",
+    "family",
+    "friends"
    ],
    "grammar": [
-    "〜ないの — asking a question seeking confirmation",
-    "〜られない — potential negative form"
+    "〜ようと思う — thinking of doing",
+    "〜てもらう — to have someone do something"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 48.4,
-     "end": 50.8,
-     "ja": "君、僕を知らないの？",
-     "en": "Don't you know who I am?",
+     "start": 331.0,
+     "end": 334.8,
+     "ja": "あ！たまさぶろうくんのお母さん！こんにちは！",
+     "en": "Ah! Tamasaburo's mom! Hello!",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 335.3,
+     "end": 337.5,
+     "ja": "こんにちは、しまじろうくん。",
+     "en": "Hello, Shimajiro.",
+     "speaker": "Mom"
+    },
+    {
+     "start": 338.0,
+     "end": 340.0,
+     "ja": "ママ、どうしたの？",
+     "en": "Mom, what's up?",
      "speaker": "Tamasaburo"
     },
     {
-     "start": 51.0,
-     "end": 52.8,
-     "ja": "当たり前ではないかな？",
-     "en": "Isn't that obvious?",
-     "speaker": "Pontaro"
+     "start": 340.2,
+     "end": 344.2,
+     "ja": "ドーナツを作ったから、みんなに食べてもらおうと思って。",
+     "en": "I made donuts, so I thought everyone could have some.",
+     "speaker": "Mom"
     },
     {
-     "start": 53.0,
-     "end": 55.4,
-     "ja": "今日初めて会ったのだよ。",
-     "en": "We only met for the first time today.",
-     "speaker": "Pontaro"
+     "start": 344.4,
+     "end": 346.4,
+     "ja": "僕、ドーナツ大好き！",
+     "en": "I love donuts!",
+     "speaker": "Shimajiro"
     },
     {
-     "start": 55.6,
-     "end": 58.7,
-     "ja": "悪いけど、君とは友達になれないね。",
-     "en": "Sorry, but I can't be friends with you.",
-     "speaker": "Tamasaburo"
-    },
-    {
-     "start": 58.9,
-     "end": 60.1,
-     "ja": "ええっ！？",
-     "en": "What?!",
-     "speaker": "Friends"
-    },
-    {
-     "start": 60.1,
-     "end": 61.3,
-     "ja": "なんと！",
-     "en": "Good grief!",
-     "speaker": "Butler"
-    },
-    {
-     "start": 61.4,
-     "end": 63.6,
-     "ja": "どういうことなのだ？",
-     "en": "What does that mean?",
-     "speaker": "Pontaro"
+     "start": 346.5,
+     "end": 347.9,
+     "ja": "それはよかったわ。",
+     "en": "I'm glad to hear that.",
+     "speaker": "Mom"
     }
    ]
   },
   {
-   "start": 1024.2,
-   "end": 1040.5,
-   "title": "Apologizing Isn't Easy",
+   "start": 1208.5,
+   "end": 1227.5,
+   "title": "Consulting Mr. Gaogao on the Phone",
    "level": "N4",
    "topics": [
-    "family",
-    "daily"
+    "anime",
+    "daily",
+    "friends"
    ],
    "grammar": [
-    "〜てほしい — wanting someone to do something",
-    "〜んだから — giving a reason/explanation"
+    "〜ちゃう — to do accidentally",
+    "〜ないんです — explanatory negative",
+    "どうしても — no matter what"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1024.3,
-     "end": 1026.0,
-     "ja": "わざとじゃないんだよ。",
-     "en": "I didn't do it on purpose.",
+     "start": 1208.8,
+     "end": 1214.8,
+     "ja": "はい、こちらはガオガオさんのもしもし相談室だよ。君の悩みは何かな？",
+     "en": "Yes, this is Mr. Gaogao's consultation hotline. What seems to be the problem?",
+     "speaker": "Gaogao"
+    },
+    {
+     "start": 1215.4,
+     "end": 1220.8,
+     "ja": "僕、はなちゃんのおもちゃを壊しちゃったんだけど、どうしてもごめんって言えないんです。",
+     "en": "I accidentally broke Hana's toy, but I just can't bring myself to say sorry.",
      "speaker": "Shimajiro"
     },
     {
-     "start": 1026.0,
-     "end": 1028.1,
-     "ja": "それは分かったけど…",
-     "en": "I understand that, but...",
-     "speaker": "Mother"
+     "start": 1221.2,
+     "end": 1223.9,
+     "ja": "ふむふむ、それはどうしてかな？",
+     "en": "I see, and why is that?",
+     "speaker": "Gaogao"
     },
     {
-     "start": 1028.4,
-     "end": 1030.5,
-     "ja": "僕、「ごめんね」なんて言わないよ！",
-     "en": "I'm not going to say \"I'm sorry\"!",
+     "start": 1224.2,
+     "end": 1226.8,
+     "ja": "だって、わざとじゃないんです！",
+     "en": "Because I didn't do it on purpose!",
      "speaker": "Shimajiro"
-    },
-    {
-     "start": 1030.7,
-     "end": 1033.4,
-     "ja": "転んだら壊れちゃったんだからさ！",
-     "en": "Because it just broke when I fell!",
-     "speaker": "Shimajiro"
-    },
-    {
-     "start": 1033.7,
-     "end": 1036.7,
-     "ja": "しまじろうの気持ちはよく分かるわ。",
-     "en": "I understand your feelings very well, Shimajiro.",
-     "speaker": "Mother"
-    },
-    {
-     "start": 1037.0,
-     "end": 1040.2,
-     "ja": "でも、はなちゃんの悲しい気持ちも分かってほしいの。",
-     "en": "But I also want you to understand Hana's sad feelings.",
-     "speaker": "Mother"
     }
    ]
   },
   {
    "start": 1525.4,
-   "end": 1542.4,
-   "title": "Sincere Apology to Hana",
+   "end": 1543.4,
+   "title": "Shimajiro Apologizes to Hana",
    "level": "N5",
    "topics": [
     "family",
-    "daily"
+    "anime",
+    "friends"
    ],
    "grammar": [
-    "〜てごめんね — apologizing for an action",
-    "もう〜ない — not anymore / won't ever again"
+    "〜てごめん — sorry for doing",
+    "絶対に〜ない — definitely will not"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1525.6,
-     "end": 1526.8,
-     "ja": "はなちゃん、",
-     "en": "Hana-chan,",
+     "start": 1525.7,
+     "end": 1529.9,
+     "ja": "はなちゃん、大切なおもちゃを壊しちゃってごめんね。",
+     "en": "Hana, I'm sorry for breaking your precious toy.",
      "speaker": "Shimajiro"
     },
     {
-     "start": 1527.0,
-     "end": 1529.7,
-     "ja": "大切なおもちゃを壊しちゃってごめんね。",
-     "en": "I'm sorry for breaking your precious toy.",
-     "speaker": "Shimajiro"
-    },
-    {
-     "start": 1530.1,
-     "end": 1531.7,
+     "start": 1530.6,
+     "end": 1532.3,
      "ja": "お兄たん…",
      "en": "Big brother...",
      "speaker": "Hana"
     },
     {
-     "start": 1533.0,
-     "end": 1535.4,
-     "ja": "もう絶対にあんなことしないからね。",
-     "en": "I'll never do something like that again.",
-     "speaker": "Shimajiro"
-    },
-    {
-     "start": 1535.7,
+     "start": 1532.8,
      "end": 1538.1,
-     "ja": "本当に、本当にごめん！",
-     "en": "I'm really, really sorry!",
+     "ja": "もう絶対にあんなことしないからね。本当に、本当にごめん！",
+     "en": "I'll never do anything like that again. I'm really, really sorry!",
      "speaker": "Shimajiro"
     },
     {
-     "start": 1539.0,
-     "end": 1541.2,
+     "start": 1538.7,
+     "end": 1541.1,
      "ja": "お兄たん、大好き！",
-     "en": "I love you, big brother!",
+     "en": "Big brother, I love you!",
      "speaker": "Hana"
+    },
+    {
+     "start": 1541.4,
+     "end": 1542.9,
+     "ja": "はなちゃん！",
+     "en": "Hana!",
+     "speaker": "Shimajiro"
     }
    ]
   }
@@ -190,5 +166,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

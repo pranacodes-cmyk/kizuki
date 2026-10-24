@@ -1,0 +1,30 @@
+{
+ "videoId": "pyIX6v8r1os",
+ "ids": [
+  "pyIX6v8r1os-1090",
+  "pyIX6v8r1os-915"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "pyIX6v8r1os-1090": {
+   "id": "pyIX6v8r1os-1090",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Charming family interaction featuring simple, clear, and repetitive vocabulary."
+  },
+  "pyIX6v8r1os-915": {
+   "id": "pyIX6v8r1os-915",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Quirky street scene with a wheeled stump, though dialogue is muffled."
+  }
+ }
+}

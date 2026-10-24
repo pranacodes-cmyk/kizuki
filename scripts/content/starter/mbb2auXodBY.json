@@ -1,0 +1,30 @@
+{
+ "videoId": "mbb2auXodBY",
+ "ids": [
+  "mbb2auXodBY-0",
+  "mbb2auXodBY-20"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "mbb2auXodBY-0": {
+   "id": "mbb2auXodBY-0",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple repetitive lines and clear pronunciation suitable for early learners."
+  },
+  "mbb2auXodBY-20": {
+   "id": "mbb2auXodBY-20",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous urban legend parody with repetitive structure but slightly harder vocabulary."
+  }
+ }
+}

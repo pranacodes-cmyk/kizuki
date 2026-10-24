@@ -1,0 +1,21 @@
+{
+ "videoId": "6w_ebGHzfcc",
+ "ids": [
+  "6w_ebGHzfcc-556"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "6w_ebGHzfcc-556": {
+   "id": "6w_ebGHzfcc-556",
+   "appeal": 3,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "ad / sponsor"
+   ],
+   "why": "Standard YouTube outro asking for likes and subscribes."
+  }
+ }
+}

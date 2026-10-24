@@ -1,0 +1,30 @@
+{
+ "videoId": "e6U6cA4NjpY",
+ "ids": [
+  "e6U6cA4NjpY-294",
+  "e6U6cA4NjpY-81"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "e6U6cA4NjpY-81": {
+   "id": "e6U6cA4NjpY-81",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Practical ordering dialogue, but visual is just a static menu."
+  },
+  "e6U6cA4NjpY-294": {
+   "id": "e6U6cA4NjpY-294",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 2,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Useful counters explanation, but video only shows walking on pavement."
+  }
+ }
+}

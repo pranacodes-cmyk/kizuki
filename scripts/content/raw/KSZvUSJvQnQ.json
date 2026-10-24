@@ -2,107 +2,143 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 256.3,
-   "end": 305.2,
-   "title": "A New Mission and Senior Disciple",
+   "start": 256.5,
+   "end": 265.1,
+   "title": "Meeting the Senior Apprentice",
    "level": "N4",
    "topics": [
     "anime",
     "friends"
    ],
    "grammar": [
-    "〜だ — plain copula assertion",
-    "〜が — subject marker"
+    "名詞＋だ — assertive copula",
+    "これ — demonstrative pronoun"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 256.6,
-     "end": 257.6,
+     "start": 256.8,
+     "end": 257.9,
      "ja": "シャオヘイ。",
      "en": "Xiaohei.",
      "speaker": "Wuxian"
     },
     {
-     "start": 257.8,
-     "end": 258.7,
-     "ja": "師匠！",
-     "en": "Master!",
+     "start": 258.0,
+     "end": 258.9,
+     "ja": "師匠。",
+     "en": "Master.",
      "speaker": "Xiaohei"
     },
     {
-     "start": 258.9,
+     "start": 259.0,
      "end": 260.4,
      "ja": "新しい任務だ。",
-     "en": "You have a new mission.",
+     "en": "It's a new mission.",
      "speaker": "Wuxian"
     },
     {
-     "start": 260.8,
-     "end": 262.5,
+     "start": 260.6,
+     "end": 262.7,
      "ja": "姉弟子のルーイエ。",
-     "en": "This is your senior disciple, Luoyi.",
+     "en": "Your senior apprentice, Luye.",
      "speaker": "Wuxian"
     },
     {
-     "start": 263.2,
-     "end": 264.8,
+     "start": 263.1,
+     "end": 264.7,
      "ja": "これが弟弟子？",
-     "en": "This is the junior disciple?",
-     "speaker": "Luoyi"
+     "en": "This is the junior apprentice?",
+     "speaker": "Luye"
     }
    ]
   },
   {
-   "start": 328.7,
-   "end": 340.6,
-   "title": "Finding the True Culprit",
+   "start": 323.8,
+   "end": 335.0,
+   "title": "A Serious Mission",
    "level": "N3",
    "topics": [
-    "anime",
-    "friends"
+    "anime"
    ],
    "grammar": [
-    "〜とは — unexpected event marker",
-    "〜のようだ — looks like / seems like",
-    "〜ばいい — what should one do"
+    "〜とは — to think that...",
+    "〜ようだ — it seems that..."
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 329.0,
-     "end": 330.8,
-     "ja": "ナタ様も来るとは。",
-     "en": "To think that Lord Nezha would come too.",
+     "start": 324.0,
+     "end": 326.2,
+     "ja": "この状況、どう対処する？",
+     "en": "How will you handle this situation?",
+     "speaker": "Man"
+    },
+    {
+     "start": 328.7,
+     "end": 330.1,
+     "ja": "あなた様も来るとは。",
+     "en": "To think that you would come as well.",
      "speaker": "Spirit"
     },
     {
-     "start": 331.0,
-     "end": 333.0,
+     "start": 330.8,
+     "end": 332.6,
      "ja": "重大な任務のようですね。",
      "en": "It seems to be a major mission.",
      "speaker": "Boy"
     },
     {
-     "start": 333.3,
-     "end": 335.0,
+     "start": 333.1,
+     "end": 334.6,
      "ja": "厳しく鍛えたんだな。",
-     "en": "You really trained him strictly.",
-     "speaker": "Luoyi"
-    },
+     "en": "You trained him strictly, didn't you?",
+     "speaker": "Boy"
+    }
+   ]
+  },
+  {
+   "start": 335.5,
+   "end": 351.2,
+   "title": "Tracking Down the Culprit",
+   "level": "N3",
+   "topics": [
+    "anime"
+   ],
+   "grammar": [
+    "〜たい — want to",
+    "〜ばいい — should do",
+    "〜だけで — just by / merely"
+   ],
+   "quality": 5,
+   "lines": [
     {
-     "start": 335.9,
+     "start": 335.8,
      "end": 337.8,
-     "ja": "真犯人を探したいでしょ。",
+     "ja": "真犯人を探したいでしょ？",
      "en": "You want to find the real culprit, right?",
-     "speaker": "Luoyi"
+     "speaker": "Luye"
     },
     {
-     "start": 338.0,
-     "end": 340.2,
-     "ja": "分かった。どうすればいい？",
-     "en": "Got it. What should I do?",
+     "start": 338.2,
+     "end": 340.4,
+     "ja": "わかった。どうすればいい？",
+     "en": "Understood. What should I do?",
      "speaker": "Xiaohei"
+    },
+    {
+     "start": 341.5,
+     "end": 344.6,
+     "ja": "気づいてないだけで、今の方が深刻よ。",
+     "en": "You just haven't noticed, but things are more serious now.",
+     "speaker": "Luye"
+    },
+    {
+     "start": 349.7,
+     "end": 350.8,
+     "ja": "慎重にな。",
+     "en": "Be careful.",
+     "speaker": "Wuxian"
     }
    ]
   }
@@ -111,5 +147,6 @@
  "pickTopics": [
   "anime"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

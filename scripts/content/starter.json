@@ -1,0 +1,384 @@
+{
+ "_about": "Curated starter feed (scripts/content/pick_starter.py). First id = onboarding showcase. Do not hand-edit; re-run the script.",
+ "ids": [
+  "0dBf_DAXNuc-6",
+  "1t12BjgS9D8-341",
+  "2LY8wEv32po-0",
+  "3KC5TfMbjz4-4",
+  "3N0YLRunmEQ-48",
+  "5WOH6-ibcMU-375",
+  "AjUpwbig3GM-221",
+  "OcsdFHhzY7Q-0",
+  "LVLyMQzDDio-54",
+  "PweksFQGzmI-23",
+  "VCGUxaMyIY0-39",
+  "RSwMJ-2THYM-145",
+  "Vfomjc_daW4-29",
+  "ZMgPZ0h3B4U-55",
+  "ZlfuBGTK2Xk-41",
+  "ZmczD3Q44w8-129",
+  "ackXOQLzL_I-316",
+  "gih0zDt7jCQ-14",
+  "h8aHI9R4p0I-241",
+  "jTzIwucqHnQ-1",
+  "hREm-zxOX7c-702",
+  "kNF7V_PLxrQ-17",
+  "lZifLIXWOPU-588",
+  "pyIX6v8r1os-1090",
+  "nP-cKgXQu1M-308",
+  "rjmKQ-fjnyQ-165",
+  "s7Hj7uvakQk-512",
+  "sO18tn2v894-27",
+  "tupRbmVM9Wc-40",
+  "xWd33E2f7to-197",
+  "yYXTI4Wu4Lk-3",
+  "yZB3GZ2Oay0-35",
+  "-57IhTP5_uU-18",
+  "0ycXiWFBCBE-709",
+  "7jgGYgNmLto-28",
+  "Bi8p5FW8_Mc-605",
+  "C3oPjuudXas-807",
+  "GNmpY9m4SCo-113",
+  "Ed1kdG_-VAw-235",
+  "NpEktEkbjJs-839",
+  "Q_HfTEbeXkk-3",
+  "UVIpf_SSNCc-109",
+  "cvH3kdl1JxE-0",
+  "f6zVUp55O8Q-14",
+  "7Onynxqf83I-175",
+  "iwXT0U7ESys-153",
+  "nSUC8EMAvm4-614",
+  "zlcG1BeYB8U-664"
+ ],
+ "notes": {
+  "1t12BjgS9D8-341": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "See You Later, Haruto!",
+   "channel": "Sakura Family Japanese",
+   "why": "Clear common daily departure greetings with cute matching animation."
+  },
+  "2LY8wEv32po-0": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Greetings From the Beach",
+   "channel": "Japanese with Shun",
+   "why": "Friendly beach greeting with clear, simple Japanese and engaging visuals."
+  },
+  "3KC5TfMbjz4-4": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Nice to Meet You, Karatsu",
+   "channel": "東映映画チャンネル",
+   "why": "Clear beginner self-introduction paired with cinematic, scenic visuals."
+  },
+  "3N0YLRunmEQ-48": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Crossing the Shark-Infested Street",
+   "channel": "Crunchyroll",
+   "why": "Wholesome scene featuring basic vocabulary and clear daily phrases."
+  },
+  "5WOH6-ibcMU-375": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Buying Milk from a Vending Machine",
+   "channel": "Natural Japanese (NIJ)",
+   "why": "Clear demonstration of buying milk with slow, accessible Japanese speech."
+  },
+  "AjUpwbig3GM-221": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Reward Apple After Washing Paws",
+   "channel": "アメリカ暮らしのプレッツェル",
+   "why": "Cute dog reward scene with clear, simple, and repetitive vocabulary."
+  },
+  "OcsdFHhzY7Q-0": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Making a Fox Origami",
+   "channel": "Japanese Ammo with Misa",
+   "why": "Cute origami fox intro with clear, beginner-friendly Japanese speech."
+  },
+  "LVLyMQzDDio-54": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "What Do You Want?",
+   "channel": "maho",
+   "why": "Adorably demonstrates practical beginner words like want and food."
+  },
+  "PweksFQGzmI-23": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Morning Routine and Sunlight",
+   "channel": "Japanese in Japan",
+   "why": "Clear speech and simple actions depicting a morning routine."
+  },
+  "VCGUxaMyIY0-39": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Spring in Azumino",
+   "channel": "Natural Japanese with Yuka",
+   "why": "Scenic spring views with clear, learner-paced Japanese speech."
+  },
+  "RSwMJ-2THYM-145": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Entering Donki and Grabbing a Basket",
+   "channel": "JapaHacks",
+   "why": "Clear, slow beginner vocabulary with cute socks visuals."
+  },
+  "Vfomjc_daW4-29": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Enjoying Pasta on the Terrace",
+   "channel": "mari-de-kathy",
+   "why": "Clear food description with slow, accessible narration."
+  },
+  "ZMgPZ0h3B4U-55": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Feeding a Hungry Mii",
+   "channel": "Nintendo 公式チャンネル",
+   "why": "Simple everyday phrases shown with cute animated gameplay visuals."
+  },
+  "ZlfuBGTK2Xk-41": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "The Art Museum Mirror",
+   "channel": "やさしい日本語落語普及委員会",
+   "why": "Engaging simplified rakugo joke with expressive delivery and clear punchline."
+  },
+  "ZmczD3Q44w8-129": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Walking up to the Mountain Restaurant",
+   "channel": "Nozomi Sensei Abroad | Japanese Listening",
+   "why": "Engaging scenic walk with great views and easy Japanese narration."
+  },
+  "ackXOQLzL_I-316": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "The Magic Word to Wake Up",
+   "channel": "福来ちゃんねる",
+   "why": "Cute dog reaction to simple phrase 'oyatsu taberu'."
+  },
+  "gih0zDt7jCQ-14": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Today's Schedule in Tokyo",
+   "channel": "Speak Japanese Naturally",
+   "why": "Clear itinerary overview with slow speech and matching scenic visuals."
+  },
+  "h8aHI9R4p0I-241": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Offering Curry Udon to the Cat",
+   "channel": "Natural Japanese (NIJ)",
+   "why": "Cute cat interaction with very clear, comprehensible beginner Japanese speech."
+  },
+  "jTzIwucqHnQ-1": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Rice Ball for the Baby",
+   "channel": "Sakura Family Japanese",
+   "why": "Cute interaction with simple, clear beginner vocabulary."
+  },
+  "hREm-zxOX7c-702": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Traditional Japanese Breakfast",
+   "channel": "mahina マヒナ",
+   "why": "Clear presentation of everyday breakfast vocabulary and greeting."
+  },
+  "kNF7V_PLxrQ-17": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Ryoku Loves to Sleep",
+   "channel": "お茶犬【公式】",
+   "why": "Gentle, clear narration with cute visuals of sleeping puppy."
+  },
+  "lZifLIXWOPU-588": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Talking to the Goats",
+   "channel": "けんさんおかえり Japanese",
+   "why": "Cute interaction with goats using simple, repetitive vocabulary."
+  },
+  "pyIX6v8r1os-1090": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Curious About the Shopping Bag",
+   "channel": "ヒゲとわたし",
+   "why": "Charming family interaction featuring simple, clear, and repetitive vocabulary."
+  },
+  "nP-cKgXQu1M-308": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Tell Us What You Want, Joy",
+   "channel": "ジョイ家",
+   "why": "Cute dog interaction featuring clear repetition of simple Japanese words."
+  },
+  "rjmKQ-fjnyQ-165": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Looking at Cherry Blossoms",
+   "channel": "Nihongo-Learning",
+   "why": "Clear beginner Japanese introducing cherry blossoms in a scenic park."
+  },
+  "s7Hj7uvakQk-512": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Lunchtime with Baby",
+   "channel": "macoto channel",
+   "why": "Clear food vocabulary and natural lunch interaction suited for beginners."
+  },
+  "sO18tn2v894-27": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Inviting the Dogs for a Walk",
+   "channel": "R村の柴ねこ",
+   "why": "Cute dogs reacting to a simple walk invitation with basic Japanese words."
+  },
+  "tupRbmVM9Wc-40": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Doing Hair and Putting on Contacts",
+   "channel": "Daily Japanese with Naoko",
+   "why": "Everyday grooming actions demonstrated clearly with helpful illustrated overlays."
+  },
+  "xWd33E2f7to-197": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Offering a Snack to Pu-chan",
+   "channel": "channel kie",
+   "why": "Cute cat interaction featuring simple, gentle, repetitive phrases for beginners."
+  },
+  "yYXTI4Wu4Lk-3": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Fast Food and Mos Burger",
+   "channel": "けんさんおかえり Japanese",
+   "why": "Friendly introduction with clear, slow speech and relevant outdoor visuals."
+  },
+  "yZB3GZ2Oay0-35": {
+   "score": 17.7,
+   "level": "N5",
+   "title": "Once Upon a Time",
+   "channel": "タヌキとキツネ【公式】",
+   "why": "Cute storybook opening with clear, gentle narration and simple phrasing."
+  },
+  "-57IhTP5_uU-18": {
+   "score": 17.3,
+   "level": "N4",
+   "title": "Greeting in Kyoto Dialect",
+   "channel": "日本語の森",
+   "why": "Friendly greeting and traditional Kyoto street scenery with subtitles."
+  },
+  "0ycXiWFBCBE-709": {
+   "score": 17.3,
+   "level": "N4",
+   "title": "Special Miso Ramen Toppings",
+   "channel": "Learn Japanese with Shufu",
+   "why": "Appetizing food scene with clear explanations of Japanese dining utensils."
+  },
+  "7jgGYgNmLto-28": {
+   "score": 17.3,
+   "level": "N4",
+   "title": "Steve's First Day at the Ramen Shop",
+   "channel": "スティーブ的視点 Steve's POV",
+   "why": "Clear and polite beginner-friendly greetings in an authentic setting."
+  },
+  "Bi8p5FW8_Mc-605": {
+   "score": 17.3,
+   "level": "N4",
+   "title": "Guessing Age at the Bar",
+   "channel": "よきき",
+   "why": "Relatable casual izakaya chat discussing age with simple, practical vocabulary."
+  },
+  "C3oPjuudXas-807": {
+   "score": 17.3,
+   "level": "N4",
+   "title": "The Meaning of Koromo in Cooking",
+   "channel": "Speak Japanese Naturally",
+   "why": "Clear, engaging cooking demonstration explaining a culturally interesting food term simply."
+  },
+  "GNmpY9m4SCo-113": {
+   "score": 17.3,
+   "level": "N4",
+   "title": "I Had Down Times, But I am Doing Fine",
+   "channel": "東宝MOVIEチャンネル",
+   "why": "Heartwarming classic dialogue with clear, accessible expressions for beginners."
+  },
+  "Ed1kdG_-VAw-235": {
+   "score": 17.3,
+   "level": "N4",
+   "title": "Trying Hokkaido Soft Serve",
+   "channel": "にほんごザッツ談 - Nihongo That's Dan",
+   "why": "Appealing food clip with clear narration and vocabulary overlays."
+  },
+  "NpEktEkbjJs-839": {
+   "score": 17.3,
+   "level": "N4",
+   "title": "Surprise Birthday Present",
+   "channel": "YoshidaAkari",
+   "why": "Exciting and relatable birthday present reveal with simple, emotional expressions."
+  },
+  "Q_HfTEbeXkk-3": {
+   "score": 17.3,
+   "level": "N4",
+   "title": "Shouting in Harajuku in the Morning",
+   "channel": "にこちゃん放送局",
+   "why": "Lively vlog street walking scene with simple, repetitive vocabulary for beginners."
+  },
+  "UVIpf_SSNCc-109": {
+   "score": 17.3,
+   "level": "N4",
+   "title": "Business Card Etiquette Training",
+   "channel": "現実を生きるリカちゃんねる",
+   "why": "Fun doll skit demonstrating practical business etiquette with clear dialogue."
+  },
+  "cvH3kdl1JxE-0": {
+   "score": 17.3,
+   "level": "N4",
+   "title": "Do You Lounge Around on the Sofa?",
+   "channel": "Miku Real Japanese",
+   "why": "Friendly beach dialogue with clear, simple conversational Japanese."
+  },
+  "f6zVUp55O8Q-14": {
+   "score": 17.3,
+   "level": "N4",
+   "title": "Wearing Kimonos in Asakusa",
+   "channel": "のがちゃんねる/nogachannel",
+   "why": "Clear greeting and basic vocabulary in charming kimono attire."
+  },
+  "7Onynxqf83I-175": {
+   "score": 17.1,
+   "level": "N5",
+   "title": "Asking About Melon Bread",
+   "channel": "Slow Japanese Café",
+   "why": "Simple bakery interaction using essential beginner vocabulary and clear delivery."
+  },
+  "iwXT0U7ESys-153": {
+   "score": 17.3,
+   "level": "N4",
+   "title": "Bargains at a Flea Market",
+   "channel": "Japanese by Yu - INARIS",
+   "why": "Lively flea market scene with clear, simple Japanese and engaging visuals."
+  },
+  "nSUC8EMAvm4-614": {
+   "score": 17.3,
+   "level": "N4",
+   "title": "Too Hungry to Sightsee",
+   "channel": "Japanese with Shun",
+   "why": "Scenic Kyoto temple views paired with simple, relatable Japanese commentary."
+  },
+  "zlcG1BeYB8U-664": {
+   "score": 17.3,
+   "level": "N4",
+   "title": "Ramen and Yakitori Dinner",
+   "channel": "もちはむの小屋🐹世界二周",
+   "why": "Appealing food visuals paired with clear, accessible vocabulary."
+  }
+ }
+}

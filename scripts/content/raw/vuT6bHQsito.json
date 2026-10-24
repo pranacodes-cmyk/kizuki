@@ -3,151 +3,158 @@
  "clips": [
   {
    "start": 5.4,
-   "end": 16.9,
-   "title": "A Casual Night Walk in Ueno",
+   "end": 16.8,
+   "title": "Evening Walk in Ueno",
    "level": "N4",
    "topics": [
     "travel",
     "daily"
    ],
    "grammar": [
-    "〜たりする — doing things like",
-    "〜たいと思う — thinking of doing"
+    "〜と申します — humble self-introduction",
+    "〜たいと思います — expressing intention"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 5.4,
-     "end": 6.6,
+     "start": 5.5,
+     "end": 7.1,
      "ja": "どうも皆さんこんばんは。",
-     "en": "Good evening, everyone.",
+     "en": "Hello everyone, good evening.",
      "speaker": "Fuya Rokuya"
     },
     {
-     "start": 6.6,
-     "end": 8.5,
+     "start": 7.1,
+     "end": 8.9,
      "ja": "不夜ロクヤと申します。",
      "en": "My name is Fuya Rokuya.",
      "speaker": "Fuya Rokuya"
     },
     {
-     "start": 8.7,
-     "end": 10.8,
+     "start": 8.9,
+     "end": 11.0,
      "ja": "本日は上野にやってきました。",
-     "en": "Today, I've come to Ueno.",
+     "en": "Today I've come to Ueno.",
      "speaker": "Fuya Rokuya"
     },
     {
-     "start": 11.0,
-     "end": 13.2,
+     "start": 11.1,
+     "end": 13.5,
      "ja": "普段からうろついたりしてるのですが、",
-     "en": "I usually wander around here, but...",
+     "en": "I usually wander around here, but",
      "speaker": "Fuya Rokuya"
     },
     {
-     "start": 13.4,
-     "end": 16.4,
+     "start": 13.6,
+     "end": 16.5,
      "ja": "今回はゆる〜くお散歩したいと思います！",
-     "en": "this time I'd like to take a leisurely stroll!",
+     "en": "today I'd like to take a nice, relaxed stroll!",
      "speaker": "Fuya Rokuya"
     }
    ]
   },
   {
-   "start": 39.5,
+   "start": 35.0,
    "end": 53.0,
-   "title": "The Mysterious Gelato Shop",
+   "title": "The Elusive Gelato Shop",
+   "level": "N3",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "grammar": [
+    "〜たら — when / if conditional",
+    "〜次第で — depending on",
+    "〜しか…ない — only / nothing but"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 35.3,
+     "end": 39.2,
+     "ja": "夜上野に来たらまず湯島に向かってやるべきことがあります。",
+     "en": "When you come to Ueno at night, there's something you must do first in Yushima.",
+     "speaker": "Fuya Rokuya"
+    },
+    {
+     "start": 39.4,
+     "end": 43.6,
+     "ja": "歓楽街を抜けた先においしいジェラート屋さんがあるんですけど、",
+     "en": "Just past the entertainment district, there's a delicious gelato shop, but...",
+     "speaker": "Fuya Rokuya"
+    },
+    {
+     "start": 43.7,
+     "end": 46.3,
+     "ja": "お店が開いているかは結構運次第で…",
+     "en": "Whether it's open or not is pretty much down to luck...",
+     "speaker": "Fuya Rokuya"
+    },
+    {
+     "start": 46.4,
+     "end": 50.4,
+     "ja": "18〜19時あたりに開いたと思えば1時間ちょっとで閉まっちゃうんですよ。",
+     "en": "Just when you think it opened around 6 or 7 PM, it closes in just over an hour.",
+     "speaker": "Fuya Rokuya"
+    },
+    {
+     "start": 50.5,
+     "end": 52.8,
+     "ja": "不夜はまだ2回しか行ったことがありません。",
+     "en": "I've still only been able to go twice.",
+     "speaker": "Fuya Rokuya"
+    }
+   ]
+  },
+  {
+   "start": 56.0,
+   "end": 11.8,
+   "title": "Drinks and Beef Stew in an Izakaya",
    "level": "N3",
    "topics": [
     "food",
     "daily"
    ],
    "grammar": [
-    "〜次第 — depending on",
-    "〜ちゃう — to do completely / end up doing",
-    "〜しか〜ない — only"
+    "〜てくる — start to / become",
+    "〜ので — because / since",
+    "〜くらい — to the extent that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 39.7,
-     "end": 43.7,
-     "ja": "歓楽街を抜けた先においしいジェラート屋さんがあるんですけど、",
-     "en": "Past the entertainment district, there's a delicious gelato shop, but...",
+     "start": 56.3,
+     "end": 58.6,
+     "ja": "雨が降ってきたのでお店に入りました。",
+     "en": "It started raining, so I stepped into a restaurant.",
      "speaker": "Fuya Rokuya"
     },
     {
-     "start": 43.9,
-     "end": 46.3,
-     "ja": "お店が開いているかは結構運次第で…",
-     "en": "whether it's open depends quite a bit on luck...",
+     "start": 58.8,
+     "end": 60.8,
+     "ja": "いつもの如くウーロンハイです。",
+     "en": "As usual, I got an oolong high.",
      "speaker": "Fuya Rokuya"
     },
     {
-     "start": 46.4,
-     "end": 49.0,
-     "ja": "１８〜１９時あたりに開いたと思えば、",
-     "en": "Just when you think it opened around 6 or 7 PM,",
+     "start": 63.0,
+     "end": 65.1,
+     "ja": "牛すじ煮込みを頼みました〜。",
+     "en": "I ordered the simmered beef tendon.",
      "speaker": "Fuya Rokuya"
     },
     {
-     "start": 49.1,
-     "end": 50.8,
-     "ja": "１時間ちょっとで閉まっちゃうんですよ。",
-     "en": "it closes down after just an hour or so.",
+     "start": 65.2,
+     "end": 67.2,
+     "ja": "生姜が効いててうまい！",
+     "en": "The ginger really kicks in, it's delicious!",
      "speaker": "Fuya Rokuya"
     },
     {
-     "start": 51.0,
-     "end": 52.8,
-     "ja": "不夜はまだ２回しか行ったことがありません。",
-     "en": "Fuya has only been there twice so far.",
-     "speaker": "Fuya Rokuya"
-    }
-   ]
-  },
-  {
-   "start": 158.0,
-   "end": 211.5,
-   "title": "Reflecting on My First Vlog",
-   "level": "N3",
-   "topics": [
-    "fun",
-    "daily"
-   ],
-   "grammar": [
-    "〜すぎる — too much / excessively",
-    "〜た方がいい — had better / should",
-    "〜てしまう — end up doing"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 158.2,
-     "end": 161.3,
-     "ja": "いや〜、初めてVlog撮影したんですけども、",
-     "en": "Well, this was my first time shooting a vlog,",
-     "speaker": "Fuya Rokuya"
-    },
-    {
-     "start": 161.6,
-     "end": 164.5,
-     "ja": "慣れてなさすぎて全然上手くいきませんでしたね。",
-     "en": "and I'm so unused to it that it didn't go well at all.",
-     "speaker": "Fuya Rokuya"
-    },
-    {
-     "start": 164.9,
-     "end": 168.2,
-     "ja": "本当はアクスタとか持ってきた方が良かったんだろうなって思ったんですけど、",
-     "en": "I thought it would've been better to bring acrylic stands or something, but...",
-     "speaker": "Fuya Rokuya"
-    },
-    {
-     "start": 168.3,
-     "end": 171.0,
-     "ja": "持ち歩く習慣がなさすぎて普通に忘れてきてしまいました。",
-     "en": "I don't have the habit of carrying them around, so I just totally forgot them.",
+     "start": 67.3,
+     "end": 71.4,
+     "ja": "信じられないくらいミスチルが流れてて動画撮影の限界を感じました。",
+     "en": "So much Mr. Children was playing that I reached the limit of filming a video.",
      "speaker": "Fuya Rokuya"
     }
    ]
@@ -157,5 +164,6 @@
  "pickTopics": [
   "travel"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -2,151 +2,138 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 759.5,
-   "end": 814.5,
-   "title": "Checking the Taste of the Dishes",
-   "level": "N3",
+   "start": 525.8,
+   "end": 541.4,
+   "title": "The Hardest Part of Starting a Restaurant",
+   "level": "N2",
    "topics": [
-    "food",
-    "work"
+    "work",
+    "food"
    ],
    "grammar": [
-    "〜かどうか — whether or not",
-    "〜かもしれない — might / perhaps"
+    "〜ばっかり — nothing but",
+    "〜ないと — must / unless"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 759.8,
-     "end": 802.4,
-     "ja": "同じ味かどうかというのを確認してます。",
-     "en": "I check whether the taste is consistent.",
+     "start": 526.1,
+     "end": 528.3,
+     "ja": "大変で難しいことばっかりでしたね。",
+     "en": "It was just one tough and difficult thing after another.",
      "speaker": "Yuka"
     },
     {
-     "start": 802.4,
-     "end": 804.0,
-     "ja": "あと温度とか、",
-     "en": "Also the temperature,",
+     "start": 528.4,
+     "end": 533.9,
+     "ja": "物件のあの価格と、実際にこう売り上げられる金額っていうのを計算しないと赤字になっちゃうので、",
+     "en": "If you don't calculate the property costs against the revenue you can actually generate, you'll end up in the red,",
      "speaker": "Yuka"
     },
     {
-     "start": 804.0,
-     "end": 806.5,
-     "ja": "ちゃんとお客さんに出せる状態かっていうのを、",
-     "en": "and whether it's in a state ready to serve to customers,",
+     "start": 534.0,
+     "end": 538.7,
+     "ja": "それをどうやったら黒字でビジネスとして続けられるかっていうところを考えるのが、",
+     "en": "so figuring out how to keep it in the black and sustain it as a business",
      "speaker": "Yuka"
     },
     {
-     "start": 806.5,
-     "end": 808.5,
-     "ja": "いつも全部食べて味見してます。",
-     "en": "I always taste everything by eating it.",
-     "speaker": "Yuka"
-    },
-    {
-     "start": 809.7,
-     "end": 811.3,
-     "ja": "ここにあるのだったら、",
-     "en": "Out of what's here,",
-     "speaker": "Yuka"
-    },
-    {
-     "start": 811.3,
-     "end": 814.0,
-     "ja": "この燻製のポテサラは一番好きかもしれない。",
-     "en": "I might like this smoked potato salad the best.",
+     "start": 538.8,
+     "end": 541.0,
+     "ja": "すっごい大変でした。",
+     "en": "was really tough.",
      "speaker": "Yuka"
     }
    ]
   },
   {
-   "start": 1004.8,
-   "end": 1019.8,
-   "title": "From Nursery Nutritionist to Izakaya",
+   "start": 609.1,
+   "end": 620.0,
+   "title": "Cooking for Children vs Adults",
    "level": "N3",
    "topics": [
     "work",
     "food"
    ],
    "grammar": [
-    "〜ないと — must / unless",
-    "〜てもらう — to have someone do something"
+    "〜ないと — unless / have to",
+    "〜てもらう — have someone do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1005.1,
-     "end": 1007.8,
-     "ja": "この前、私、保育園の栄養士でした。",
-     "en": "Before this, I was a nutritionist at a nursery school.",
+     "start": 609.4,
+     "end": 612.7,
+     "ja": "子どもの時は、もう薄味、薄味だったけど、",
+     "en": "For kids, the seasoning had to be really light,",
      "speaker": "Staff"
     },
     {
-     "start": 1009.5,
-     "end": 1012.7,
-     "ja": "子供の時は、もう薄味、薄味だったけど、",
-     "en": "For children, it was very mildly seasoned, but",
-     "speaker": "Staff"
-    },
-    {
-     "start": 1012.8,
-     "end": 1015.7,
+     "start": 613.0,
+     "end": 615.5,
      "ja": "やっぱり大人で、今度ここだとお酒も飲むから、",
-     "en": "for adults, especially here where people drink alcohol,",
+     "en": "but for adults, especially here where people drink alcohol,",
      "speaker": "Staff"
     },
     {
-     "start": 1015.7,
-     "end": 1019.4,
-     "ja": "お酒に合う料理を作らないと、美味しいなと思ってもらえないので。",
-     "en": "if we don't make food that pairs with alcohol, they won't think it's tasty.",
+     "start": 615.6,
+     "end": 619.5,
+     "ja": "お酒に合う料理を作らないと美味しいなと思ってもらえないので。",
+     "en": "if you don't make food that pairs well with drinks, they won't think it's delicious.",
      "speaker": "Staff"
     }
    ]
   },
   {
-   "start": 1344.8,
-   "end": 1354.4,
-   "title": "Customer's Favorite Dish",
+   "start": 698.0,
+   "end": 708.2,
+   "title": "A Pre-Shift Beer for Energy",
    "level": "N4",
    "topics": [
-    "food",
-    "daily"
+    "work",
+    "fun",
+    "food"
    ],
    "grammar": [
-    "一番〜 — the most / best",
-    "〜んで — because / since (colloquial)"
+    "〜ちゃう — do completely / unintentionally",
+    "〜ましょう — let's"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1345.3,
-     "end": 1347.3,
-     "ja": "そうですね。多い時、月２回ぐらい。",
-     "en": "Yeah. When it's often, about twice a month.",
-     "speaker": "Customer"
+     "start": 698.2,
+     "end": 700.1,
+     "ja": "じゃあ、営業前ビール飲んじゃいましょう。",
+     "en": "Well then, let's have a beer before opening.",
+     "speaker": "Yuka"
     },
     {
-     "start": 1348.8,
-     "end": 1350.4,
-     "ja": "一番好きな料理は、土鍋ご飯。",
-     "en": "My favorite dish is the clay pot rice.",
-     "speaker": "Customer"
+     "start": 700.2,
+     "end": 701.8,
+     "ja": "はい！飲みましょう！",
+     "en": "Yes! Let's drink!",
+     "speaker": "Staff"
     },
     {
-     "start": 1350.4,
-     "end": 1352.3,
-     "ja": "毎回種類が違うんで、",
-     "en": "The variety is different every time,",
-     "speaker": "Customer"
+     "start": 702.1,
+     "end": 703.8,
+     "ja": "エナジードリンクなんで。",
+     "en": "It's our energy drink, after all.",
+     "speaker": "Yuka"
     },
     {
-     "start": 1352.3,
-     "end": 1354.0,
-     "ja": "すごい美味しいです。",
-     "en": "so it's really delicious.",
-     "speaker": "Customer"
+     "start": 705.2,
+     "end": 706.7,
+     "ja": "今日も頑張りましょう！",
+     "en": "Let's do our best today too!",
+     "speaker": "Yuka"
+    },
+    {
+     "start": 706.8,
+     "end": 708.0,
+     "ja": "はい！お疲れ様です！",
+     "en": "Cheers, everyone!",
+     "speaker": "Staff"
     }
    ]
   }
@@ -155,5 +142,6 @@
  "pickTopics": [
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

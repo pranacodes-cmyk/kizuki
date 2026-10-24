@@ -1,0 +1,19 @@
+{
+ "videoId": "gHezMlReAH8",
+ "ids": [
+  "gHezMlReAH8-2208"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "gHezMlReAH8-2208": {
+   "id": "gHezMlReAH8-2208",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear and simple dialogue about pets, paced well for beginners."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "I46YFhlloqw",
+ "ids": [
+  "I46YFhlloqw-52"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "I46YFhlloqw-52": {
+   "id": "I46YFhlloqw-52",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [],
+   "why": "Colloquial and aggressive stage scolding is difficult for beginners to follow."
+  }
+ }
+}

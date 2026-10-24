@@ -1,0 +1,19 @@
+{
+ "videoId": "iF_kS5OZ7S4",
+ "ids": [
+  "iF_kS5OZ7S4-1"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "iF_kS5OZ7S4-1": {
+   "id": "iF_kS5OZ7S4-1",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Friendly host introduces onigiri with slow, clear Japanese."
+  }
+ }
+}

@@ -1,167 +1,189 @@
 {
- "speech": "some",
+ "speech": "clear",
  "clips": [
   {
-   "start": 421.0,
-   "end": 432.0,
-   "title": "Crossing Shibuya Scramble",
+   "start": 81.8,
+   "end": 93.5,
+   "title": "Japanese Phrases with a Tourist",
    "level": "N5",
    "topics": [
     "travel",
     "fun"
    ],
    "grammar": [
-    "〜ましょう — let's / shall we",
-    "〜ですね — confirming / seeking agreement"
+    "〜ですか — question particle",
+    "どうぞよろしく — please treat me favorably / nice to meet you"
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 421.5,
-     "end": 423.5,
-     "ja": "スクランブルです！",
-     "en": "It's the scramble crossing!",
-     "speaker": "Mochi"
+     "start": 82.0,
+     "end": 84.4,
+     "ja": "おはようございます。お元気ですか？",
+     "en": "Good morning. How are you?",
+     "speaker": "Joe"
     },
     {
-     "start": 424.1,
-     "end": 425.5,
-     "ja": "おいで！",
-     "en": "Come on!",
-     "speaker": "Mochi"
+     "start": 85.2,
+     "end": 86.9,
+     "ja": "名前はジョーです。",
+     "en": "My name is Joe.",
+     "speaker": "Joe"
     },
     {
-     "start": 426.0,
-     "end": 428.4,
-     "ja": "今日は人が少ないですね。",
-     "en": "There aren't many people today.",
-     "speaker": "Mochi"
+     "start": 87.3,
+     "end": 88.9,
+     "ja": "名前は何ですか？",
+     "en": "What's your name?",
+     "speaker": "Joe"
     },
     {
-     "start": 428.8,
-     "end": 431.3,
-     "ja": "次は誰にインタビューしましょう？",
-     "en": "Who should we interview next?",
+     "start": 89.1,
+     "end": 90.4,
+     "ja": "どうぞよろしく。",
+     "en": "Nice to meet you.",
+     "speaker": "Joe"
+    },
+    {
+     "start": 90.6,
+     "end": 93.0,
+     "ja": "ありがとうございました！",
+     "en": "Thank you very much!",
      "speaker": "Mochi"
     }
    ]
   },
   {
-   "start": 603.0,
-   "end": 634.0,
-   "title": "You Can Speak Japanese?",
+   "start": 363.0,
+   "end": 393.5,
+   "title": "How Long Have You Studied Japanese?",
    "level": "N4",
    "topics": [
-    "friends",
-    "school",
-    "fun"
+    "travel",
+    "culture",
+    "friends"
    ],
    "grammar": [
-    "〜ていた — past continuous action",
-    "〜くらい — approximately / about",
-    "〜れる/〜られる — potential form"
+    "〜れる/〜られる — potential form",
+    "〜ていた — past continuous / past habit",
+    "〜くらい — approximately / about"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 603.2,
-     "end": 605.4,
+     "start": 363.2,
+     "end": 365.0,
      "ja": "え？！日本語話せるんですか？",
      "en": "Wait, you can speak Japanese?",
      "speaker": "Mochi"
     },
     {
-     "start": 605.6,
-     "end": 606.9,
+     "start": 365.2,
+     "end": 366.5,
      "ja": "少しだけ。",
      "en": "A little bit.",
      "speaker": "Tim"
     },
     {
-     "start": 607.1,
-     "end": 608.7,
-     "ja": "めっちゃうまい！",
+     "start": 366.8,
+     "end": 368.4,
+     "ja": "めっちゃ上手い！",
      "en": "Very good!",
      "speaker": "Mochi"
     },
     {
-     "start": 608.9,
-     "end": 611.2,
+     "start": 368.7,
+     "end": 371.2,
      "ja": "どれくらい日本語勉強してたんですか？",
      "en": "About how long have you studied Japanese?",
      "speaker": "Mochi"
     },
     {
-     "start": 611.4,
-     "end": 621.8,
-     "ja": "まあ、まずは11歳の時、まあ、少し日本語を勉強していたけど、",
-     "en": "Well, first when I was 11 years old, I studied Japanese a bit, but",
+     "start": 371.4,
+     "end": 375.5,
+     "ja": "まずは11歳のとき、",
+     "en": "First, when I was 11 years old,",
      "speaker": "Tim"
     },
     {
-     "start": 622.3,
-     "end": 631.2,
-     "ja": "まあ、大学の頃にも、もう３年くらい勉強していた。",
-     "en": "also when I was in university, I studied for about 3 years.",
+     "start": 375.8,
+     "end": 381.0,
+     "ja": "少し日本語を勉強していたけど、",
+     "en": "I used to study Japanese a bit, but",
      "speaker": "Tim"
     },
     {
-     "start": 631.4,
-     "end": 633.4,
-     "ja": "多分５年くらい？",
-     "en": "Maybe around 5 years in total?",
+     "start": 383.0,
+     "end": 390.5,
+     "ja": "大学の頃にも3年くらい勉強していた。",
+     "en": "also when I was a university student, I studied about 3 years.",
+     "speaker": "Tim"
+    },
+    {
+     "start": 390.8,
+     "end": 393.0,
+     "ja": "多分5年くらい？",
+     "en": "Maybe like 5 years in total?",
      "speaker": "Tim"
     }
    ]
   },
   {
-   "start": 716.0,
-   "end": 733.0,
-   "title": "Finding a Gachapon Shop",
-   "level": "N5",
+   "start": 453.0,
+   "end": 474.0,
+   "title": "Reflecting on Street Interviews",
+   "level": "N3",
    "topics": [
-    "travel",
+    "daily",
     "fun"
    ],
    "grammar": [
-    "〜ました — polite past tense",
-    "〜もある — also exists"
+    "〜ので — because / since",
+    "〜か〜ないか — whether or not",
+    "〜て嬉しかった — glad that..."
    ],
-   "quality": 4,
+   "quality": 5,
    "lines": [
     {
-     "start": 716.2,
-     "end": 718.5,
-     "ja": "新しい店を見つけました。",
-     "en": "I found a new shop.",
+     "start": 453.3,
+     "end": 456.2,
+     "ja": "さてみんな！私のインタビュー動画はどうでしたか？",
+     "en": "Alright guys! How was my interview video?",
      "speaker": "Mochi"
     },
     {
-     "start": 719.7,
-     "end": 722.2,
-     "ja": "ガチャポンの店です！",
-     "en": "It's a gachapon shop!",
+     "start": 456.5,
+     "end": 460.8,
+     "ja": "初めてのインタビューで、私めちゃくちゃ恥ずかしがり屋なので、",
+     "en": "It was my first time interviewing, and I'm a really shy person so,",
      "speaker": "Mochi"
     },
     {
-     "start": 724.4,
-     "end": 726.2,
-     "ja": "すごい、全部…",
-     "en": "Wow, all of this...",
+     "start": 461.0,
+     "end": 464.5,
+     "ja": "インタビューするかしないか毎回10分くらいかかった。",
+     "en": "it took like 10 minutes each time whether to go or not.",
      "speaker": "Mochi"
     },
     {
-     "start": 726.4,
-     "end": 728.4,
-     "ja": "こっちも全部！",
-     "en": "This side too, all of it!",
+     "start": 465.3,
+     "end": 467.3,
+     "ja": "ベストは尽くしました。",
+     "en": "I did my best!",
      "speaker": "Mochi"
     },
     {
-     "start": 730.8,
-     "end": 732.6,
-     "ja": "ハッピーターンある！",
-     "en": "They have Happy Turn!",
+     "start": 467.6,
+     "end": 471.5,
+     "ja": "でも素敵な人たちに出会えて嬉しかったです。",
+     "en": "But I was really happy to meet all of those people.",
+     "speaker": "Mochi"
+    },
+    {
+     "start": 471.8,
+     "end": 473.6,
+     "ja": "みんな優しかったです。",
+     "en": "Everyone was very kind.",
      "speaker": "Mochi"
     }
    ]
@@ -171,5 +193,6 @@
  "pickTopics": [
   "travel"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

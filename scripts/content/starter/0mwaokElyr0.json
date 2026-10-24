@@ -1,0 +1,19 @@
+{
+ "videoId": "0mwaokElyr0",
+ "ids": [
+  "0mwaokElyr0-133"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "0mwaokElyr0-133": {
+   "id": "0mwaokElyr0-133",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute puppet interaction clearly teaching a standard phone greeting."
+  }
+ }
+}

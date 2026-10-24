@@ -1,0 +1,30 @@
+{
+ "videoId": "v3R01UzXzgU",
+ "ids": [
+  "v3R01UzXzgU-17",
+  "v3R01UzXzgU-38"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "v3R01UzXzgU-17": {
+   "id": "v3R01UzXzgU-17",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple beginner cafe dialogue with clear audio and subtitles."
+  },
+  "v3R01UzXzgU-38": {
+   "id": "v3R01UzXzgU-38",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Useful restaurant ordering phrases delivered clearly with visual support."
+  }
+ }
+}

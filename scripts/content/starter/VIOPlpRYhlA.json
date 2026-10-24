@@ -1,0 +1,19 @@
+{
+ "videoId": "VIOPlpRYhlA",
+ "ids": [
+  "VIOPlpRYhlA-49"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "VIOPlpRYhlA-49": {
+   "id": "VIOPlpRYhlA-49",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear slow reading, but visuals are static screen text."
+  }
+ }
+}

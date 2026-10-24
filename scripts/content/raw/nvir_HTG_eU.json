@@ -2,248 +2,241 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 249.0,
-   "end": 313.5,
-   "title": "Private Property vs Vacant Lot",
+   "start": 65.0,
+   "end": 20.8,
+   "title": "It is Not the Same Thing",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "fun"
+   ],
+   "grammar": [
+    "〜じゃないですか — isn't it / aren't we?",
+    "〜たことない — have never done"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 65.1,
+     "end": 65.8,
+     "ja": "何してんすか？",
+     "en": "What are you doing?",
+     "speaker": "Man"
+    },
+    {
+     "start": 65.9,
+     "end": 66.6,
+     "ja": "何ですか？",
+     "en": "What is it?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 66.7,
+     "end": 68.6,
+     "ja": "何ですかじゃなくて、何してんすか？",
+     "en": "Not \"what is it\", what are you doing?",
+     "speaker": "Man"
+    },
+    {
+     "start": 68.7,
+     "end": 70.8,
+     "ja": "あなたは何してたんですか？",
+     "en": "What were you doing?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 71.0,
+     "end": 73.3,
+     "ja": "自分はほら、あの…立ちションですけど。",
+     "en": "Well, I was... peeing standing up.",
+     "speaker": "Man"
+    },
+    {
+     "start": 73.4,
+     "end": 74.6,
+     "ja": "一緒じゃないですか。",
+     "en": "Isn't that the same as me?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 74.8,
+     "end": 76.6,
+     "ja": "一緒じゃないですよ！",
+     "en": "It's not the same at all!",
+     "speaker": "Man"
+    },
+    {
+     "start": 76.8,
+     "end": 20.3,
+     "ja": "女の立ちション見たことないですもん！",
+     "en": "I've never seen a woman pee standing up!",
+     "speaker": "Man"
+    }
+   ]
+  },
+  {
+   "start": 199.0,
+   "end": 217.2,
+   "title": "We Are Both Criminals",
    "level": "N3",
    "topics": [
     "comedy",
     "fun"
    ],
    "grammar": [
-    "〜に決まっている — must be / bound to be",
-    "〜てんだから — since / because (colloquial 〜ているのだから)"
+    "〜わけですから — since it means that",
+    "〜って言った — said that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 249.2,
-     "end": 252.5,
-     "ja": "それに、あなたが悪いことをしてるんですよ。",
-     "en": "Besides, you're the one doing something bad.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 253.0,
-     "end": 255.7,
-     "ja": "いや、お互い立ちションしてんだから、お互い悪いでしょう。",
-     "en": "No, we're both peeing outside, so we're both in the wrong.",
+     "start": 199.2,
+     "end": 200.9,
+     "ja": "ほら見てください、あそこ。ほら。",
+     "en": "Look over there. Look.",
      "speaker": "Man"
     },
     {
-     "start": 255.8,
-     "end": 257.0,
-     "ja": "あなたが悪いことしてます。",
-     "en": "You're doing something bad.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 257.0,
-     "end": 257.8,
-     "ja": "は？",
-     "en": "Huh?",
+     "start": 201.1,
+     "end": 202.8,
+     "ja": "あそこ監視カメラありますよ。",
+     "en": "There's a security camera over there.",
      "speaker": "Man"
     },
     {
-     "start": 257.9,
-     "end": 260.6,
-     "ja": "あなたが立ちションしたのは、私有地。",
-     "en": "Where you peed is private property.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 260.9,
-     "end": 261.7,
-     "ja": "え？",
-     "en": "What?",
+     "start": 203.0,
+     "end": 205.3,
+     "ja": "これで、もう２人とも撮られてるわけですからね。",
+     "en": "Which means both of us have been caught on camera now.",
      "speaker": "Man"
     },
     {
-     "start": 261.8,
-     "end": 265.0,
-     "ja": "私が立ちションしたのは、ギリ空き地。",
-     "en": "Where I peed is barely a vacant lot.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 266.0,
-     "end": 270.5,
-     "ja": "私有地の男の立ちションと、空き地の女の立ちション、どっちがやばいと思いますか？",
-     "en": "A guy peeing on private property vs a girl peeing in a vacant lot—which do you think is worse?",
-     "speaker": "Woman"
-    },
-    {
-     "start": 271.0,
-     "end": 273.0,
-     "ja": "女の立ちションに決まってんだろ！",
-     "en": "A woman peeing outside, obviously!",
+     "start": 205.5,
+     "end": 207.1,
+     "ja": "はい、あなたも犯罪者！",
+     "en": "So, you're a criminal too!",
      "speaker": "Man"
+    },
+    {
+     "start": 207.4,
+     "end": 209.3,
+     "ja": "はい、これで俺も犯罪者、あなたも犯罪者。",
+     "en": "Yup, now I'm a criminal, and you're a criminal.",
+     "speaker": "Man"
+    },
+    {
+     "start": 209.5,
+     "end": 210.2,
+     "ja": "犯罪者？",
+     "en": "A criminal?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 210.3,
+     "end": 211.2,
+     "ja": "犯罪者です。",
+     "en": "Yes, a criminal.",
+     "speaker": "Man"
+    },
+    {
+     "start": 211.3,
+     "end": 212.5,
+     "ja": "犯罪者って言ったんですか？",
+     "en": "Did you just say criminal?",
+     "speaker": "Woman"
+    },
+    {
+     "start": 212.6,
+     "end": 213.2,
+     "ja": "はい。",
+     "en": "Yes.",
+     "speaker": "Man"
+    },
+    {
+     "start": 213.4,
+     "end": 214.6,
+     "ja": "逆です！",
+     "en": "It's the opposite!",
+     "speaker": "Woman"
+    },
+    {
+     "start": 214.8,
+     "end": 215.7,
+     "ja": "逆って何だよ？",
+     "en": "What do you mean opposite?",
+     "speaker": "Man"
+    },
+    {
+     "start": 215.9,
+     "end": 216.9,
+     "ja": "正義です！",
+     "en": "It's justice!",
+     "speaker": "Woman"
     }
    ]
   },
   {
-   "start": 525.4,
-   "end": 544.8,
-   "title": "The Special Apple",
-   "level": "N4",
+   "start": 345.0,
+   "end": 362.0,
+   "title": "Magical Apple Juice",
+   "level": "N3",
    "topics": [
     "comedy",
     "fun"
    ],
    "grammar": [
-    "〜てみる — try doing",
-    "〜と — conditional (if / when)"
+    "〜てできた — came into being by doing",
+    "〜なきゃいけない — must do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 525.5,
-     "end": 527.7,
-     "ja": "これに気づいてから、私、実験してみたんです。",
-     "en": "After realizing this, I conducted an experiment.",
+     "start": 345.4,
+     "end": 347.3,
+     "ja": "で、そのリンゴを搾ってできたのがこのリンゴジュースです。",
+     "en": "And squeezing that apple made this apple juice.",
      "speaker": "Woman"
     },
     {
-     "start": 528.8,
-     "end": 531.4,
-     "ja": "自分の庭で、私のおしっこで育てたリンゴです。",
-     "en": "It's an apple grown in my yard with my pee.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 531.6,
-     "end": 533.6,
-     "ja": "おお、でかいでかいでかい！",
-     "en": "Whoa, that's huge, huge, huge!",
+     "start": 347.4,
+     "end": 349.5,
+     "ja": "もうほぼおしっこじゃねえか！",
+     "en": "That's basically just pee!",
      "speaker": "Man"
     },
     {
-     "start": 533.8,
-     "end": 535.8,
-     "ja": "普通のやつよりはるかにでかい！",
-     "en": "It's way bigger than a normal one!",
+     "start": 350.0,
+     "end": 353.8,
+     "ja": "おしっこで育ったリンゴを搾った汁、もうおしっこだよ、ほぼ！",
+     "en": "Juice from an apple grown on pee is pretty much pee itself!",
      "speaker": "Man"
     },
     {
-     "start": 536.0,
-     "end": 536.9,
-     "ja": "いいでしょう？",
-     "en": "Impressive, right?",
+     "start": 354.2,
+     "end": 355.6,
+     "ja": "飲んでください、これ。",
+     "en": "Please drink it.",
      "speaker": "Woman"
     },
     {
-     "start": 537.0,
-     "end": 538.7,
-     "ja": "なんで俺に持たせようとするんだよ。",
-     "en": "Why are you trying to hand it to me?!",
+     "start": 356.1,
+     "end": 357.2,
+     "ja": "飲まなきゃいけないの、これ？",
+     "en": "Do I really have to drink this?",
      "speaker": "Man"
     },
     {
-     "start": 538.8,
-     "end": 539.6,
-     "ja": "持ってください。",
-     "en": "Please take it.",
+     "start": 357.3,
+     "end": 359.7,
+     "ja": "飲んでくださいよ、ほら。６歳若返るんですよ。",
+     "en": "Please drink it, look! You'll rejuvenate six years.",
      "speaker": "Woman"
     },
     {
-     "start": 539.7,
-     "end": 540.7,
-     "ja": "気持ち悪い、なんか。",
-     "en": "That feels kinda gross.",
-     "speaker": "Man"
-    },
-    {
-     "start": 540.8,
-     "end": 542.8,
-     "ja": "かじると記憶力上がるんですよ。",
-     "en": "If you take a bite, your memory improves.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 542.9,
-     "end": 544.5,
-     "ja": "なんで効能があんだよ！",
+     "start": 360.0,
+     "end": 361.6,
+     "ja": "何で効能あんだよ、お前！",
      "en": "Why does it have medicinal effects?!",
-     "speaker": "Man"
-    }
-   ]
-  },
-  {
-   "start": 615.8,
-   "end": 634.0,
-   "title": "The Chosen One",
-   "level": "N4",
-   "topics": [
-    "comedy",
-    "fun"
-   ],
-   "grammar": [
-    "〜んですって — hearsay (I was told that...)",
-    "〜なきゃいけない — must / have to"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 616.0,
-     "end": 617.0,
-     "ja": "ほらほらほら、見て。",
-     "en": "Look, look, look, see?",
-     "speaker": "Woman"
-    },
-    {
-     "start": 617.1,
-     "end": 617.8,
-     "ja": "え？",
-     "en": "Huh?",
-     "speaker": "Man"
-    },
-    {
-     "start": 617.8,
-     "end": 618.3,
-     "ja": "ほら。",
-     "en": "Look.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 618.3,
-     "end": 619.4,
-     "ja": "なんすか、そのマーク。",
-     "en": "What's that mark?",
-     "speaker": "Man"
-    },
-    {
-     "start": 619.5,
-     "end": 621.8,
-     "ja": "これ、私、生まれつきあったんですって。",
-     "en": "Apparently, I've had this since birth.",
-     "speaker": "Woman"
-    },
-    {
-     "start": 622.4,
-     "end": 623.2,
-     "ja": "は？",
-     "en": "What?",
-     "speaker": "Man"
-    },
-    {
-     "start": 623.3,
-     "end": 625.8,
-     "ja": "私は、選ばれた人間なんです！",
-     "en": "I am the chosen one!",
-     "speaker": "Woman"
-    },
-    {
-     "start": 627.0,
-     "end": 631.6,
-     "ja": "きっと、この力を使って、この地球を守らなきゃいけないんです！",
-     "en": "I surely must use this power to protect the Earth!",
-     "speaker": "Woman"
-    },
-    {
-     "start": 632.2,
-     "end": 633.6,
-     "ja": "変な能力者だ。",
-     "en": "What a weird superhero.",
      "speaker": "Man"
     }
    ]
@@ -253,5 +246,6 @@
  "pickTopics": [
   "comedy"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

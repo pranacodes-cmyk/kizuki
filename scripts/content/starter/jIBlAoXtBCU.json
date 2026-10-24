@@ -1,0 +1,19 @@
+{
+ "videoId": "jIBlAoXtBCU",
+ "ids": [
+  "jIBlAoXtBCU-127"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "jIBlAoXtBCU-127": {
+   "id": "jIBlAoXtBCU-127",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Calm morning routine clip with clear, simple daily life narration."
+  }
+ }
+}

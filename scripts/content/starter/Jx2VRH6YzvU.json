@@ -1,0 +1,19 @@
+{
+ "videoId": "Jx2VRH6YzvU",
+ "ids": [
+  "Jx2VRH6YzvU-10"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Jx2VRH6YzvU-10": {
+   "id": "Jx2VRH6YzvU-10",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear slow audio, but static visual and dry political topic."
+  }
+ }
+}

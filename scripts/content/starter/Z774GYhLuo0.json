@@ -1,0 +1,19 @@
+{
+ "videoId": "Z774GYhLuo0",
+ "ids": [
+  "Z774GYhLuo0-22"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Z774GYhLuo0-22": {
+   "id": "Z774GYhLuo0-22",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Friendly birthday exchange with familiar vocabulary like congratulations and age."
+  }
+ }
+}

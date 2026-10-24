@@ -1,0 +1,19 @@
+{
+ "videoId": "qPxbcJM93H4",
+ "ids": [
+  "qPxbcJM93H4-15"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "qPxbcJM93H4-15": {
+   "id": "qPxbcJM93H4-15",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Energetic street introduction with clear speech and friendly hosts."
+  }
+ }
+}

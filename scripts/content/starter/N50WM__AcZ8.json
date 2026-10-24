@@ -1,0 +1,19 @@
+{
+ "videoId": "N50WM__AcZ8",
+ "ids": [
+  "N50WM__AcZ8-8"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "N50WM__AcZ8-8": {
+   "id": "N50WM__AcZ8-8",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [],
+   "why": "Cute comedic anime scene, though speech is rapid and colloquial."
+  }
+ }
+}

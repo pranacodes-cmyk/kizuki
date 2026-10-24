@@ -1,0 +1,19 @@
+{
+ "videoId": "2aj3rJ7P7tg",
+ "ids": [
+  "2aj3rJ7P7tg-403"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "2aj3rJ7P7tg-403": {
+   "id": "2aj3rJ7P7tg-403",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Appealing food clip with clear narration and everyday travel vocabulary."
+  }
+ }
+}

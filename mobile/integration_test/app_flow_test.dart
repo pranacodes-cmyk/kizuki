@@ -176,7 +176,7 @@ void main() {
 
     // ---- Vocab → Review --------------------------------------------------------------
     await tester.tap(find.byKey(const ValueKey('tab-Vocab')), warnIfMissed: false);
-    await waitFor(find.text('Words mastered'), what: 'vocab screen');
+    await waitFor(find.text('Words you know'), what: 'vocab screen');
     await shot('15_vocab');
     await tapText('to review', contains: true, after: 1800);
     await shot('16_review');
@@ -226,38 +226,31 @@ void main() {
     await tapText('Replay the welcome tour', after: 2500);
     await atStep('hello', '21_tour_hello');
     expect(find.textContaining('Hi Mohit!'), findsOneWidget);
-    await tapText('Next');
-    await atStep('clip', '22_tour_clip');
-    await tapText('Next');
-    await atStep('subs', '23_tour_subs');
-    await tapText('Next');
-    await atStep('tapWord', '24_tour_tap_word');
+    await tapText('Show me');
+    await atStep('tapWord', '22_tour_tap_word');
     await tapAnchor('word');
-    await atStep('meaning', '25_tour_meaning');
+    await atStep('meaning', '23_tour_meaning');
     await tapAnchor('cardExplain');
-    await atStep('explain', '26_tour_explain');
-    await tester.tapAt(const Offset(40, 60)); // tap above the card
-    await atStep('legend', '27_tour_legend');
+    await atStep('askOpen', '24_tour_explain');
+    await tapAnchor('askButton');
+    await atStep('askInfo', '25_tour_ask');
+    // The tour closes Ask Kizuki and the word card itself.
+    await tapText('Back to the video');
+    await atStep('legend', '26_tour_legend');
     await wait(tourLegendDelayMs);
     await tapText('Got it');
-    await atStep('controls', '28_tour_controls');
-    await tapText('Next');
-    await atStep('swipe', '29_tour_swipe');
+    await atStep('swipe', '27_tour_swipe');
     debugPrint('E2E_SWIPE up');
-    await atStep('explore', '30_tour_explore');
-    await tapAnchor('exploreTab');
-    await atStep('search', '31_tour_search');
-    await tapText('Next');
-    await atStep('vocabTab', '32_tour_vocab_tab');
+    await atStep('vocabTab', '28_tour_vocab_tab');
     await tapAnchor('vocabTab');
-    await atStep('review', '33_tour_review');
+    await atStep('review', '29_tour_review');
     await tapAnchor('reviewButton');
-    await atStep('reveal', '34_tour_reveal');
+    await atStep('reveal', '30_tour_reveal');
     await tapAnchor('reviewCard');
-    await atStep('grade', '35_tour_grade');
-    await tapText('Good');
-    await atStep('done', '36_tour_done');
-    await tapText("Let's go!", after: 1200);
+    await atStep('grade', '31_tour_grade');
+    await tapText('Remembered');
+    await atStep('done', '32_tour_done');
+    await tapText('Back to videos', after: 1500);
     expect(Tour.I.running, isFalse);
     expect(state().tutorialFeed, isTrue);
 

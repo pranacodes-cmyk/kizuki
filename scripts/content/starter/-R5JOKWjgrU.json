@@ -1,0 +1,19 @@
+{
+ "videoId": "-R5JOKWjgrU",
+ "ids": [
+  "-R5JOKWjgrU-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "-R5JOKWjgrU-0": {
+   "id": "-R5JOKWjgrU-0",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous mini-game reaction with simple, repetitive vocabulary."
+  }
+ }
+}

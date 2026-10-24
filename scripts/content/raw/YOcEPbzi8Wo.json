@@ -3,234 +3,220 @@
  "clips": [
   {
    "start": 27.0,
-   "end": 46.0,
-   "title": "Driving to Korankei for the Foliage",
-   "level": "N5",
+   "end": 57.8,
+   "title": "Heading to See Autumn Leaves",
+   "level": "N4",
    "topics": [
     "travel",
     "daily"
    ],
    "grammar": [
     "〜という — called / named",
-    "〜ね — seeking agreement"
+    "〜に行く — to go to do something"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 27.0,
-     "end": 29.2,
-     "ja": "いやーきれいだね、今日はね。",
-     "en": "Man, it's so beautiful today, isn't it?",
-     "speaker": "A"
+     "start": 27.2,
+     "end": 29.5,
+     "ja": "いやー、綺麗だね。今日はね。",
+     "en": "Man, it's pretty today, isn't it?",
+     "speaker": "Yuki"
     },
     {
      "start": 29.5,
-     "end": 32.0,
+     "end": 32.2,
      "ja": "綺麗な日ですねー。",
-     "en": "It really is a beautiful day.",
-     "speaker": "B"
+     "en": "It's a beautiful day.",
+     "speaker": "Shun"
     },
     {
-     "start": 32.2,
-     "end": 34.6,
-     "ja": "今日は、めちゃくちゃ綺麗。",
-     "en": "Today is incredibly beautiful.",
-     "speaker": "A"
+     "start": 33.0,
+     "end": 35.0,
+     "ja": "めちゃくちゃ綺麗。",
+     "en": "So very pretty.",
+     "speaker": "Yuki"
     },
     {
-     "start": 34.8,
+     "start": 35.0,
      "end": 39.8,
      "ja": "愛知県の香嵐渓というところに行きます。",
      "en": "We're going to a place called Korankei in Aichi Prefecture.",
-     "speaker": "A"
+     "speaker": "Yuki"
     },
     {
-     "start": 40.0,
-     "end": 41.2,
-     "ja": "うん。",
-     "en": "Yeah.",
-     "speaker": "B"
-    },
-    {
-     "start": 41.4,
-     "end": 44.0,
+     "start": 41.2,
+     "end": 43.9,
      "ja": "自然が綺麗なところです。",
-     "en": "It's a place with beautiful nature.",
-     "speaker": "A"
+     "en": "It's a place where nature is beautiful.",
+     "speaker": "Yuki"
     },
     {
      "start": 44.2,
-     "end": 45.8,
+     "end": 46.0,
      "ja": "うん、綺麗だね。",
      "en": "Yeah, it's pretty.",
-     "speaker": "B"
+     "speaker": "Shun"
+    },
+    {
+     "start": 46.1,
+     "end": 48.0,
+     "ja": "もう紅葉ですよね。",
+     "en": "It's already autumn foliage season, right?",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 48.0,
+     "end": 51.4,
+     "ja": "ねー、今は紅葉の季節ですねー。",
+     "en": "Yeah, it's the autumn foliage season right now.",
+     "speaker": "Shun"
+    },
+    {
+     "start": 52.0,
+     "end": 54.9,
+     "ja": "よく行きますか？紅葉を見に行きますか？",
+     "en": "Do you go often? Do you go to see the autumn leaves?",
+     "speaker": "Shun"
+    },
+    {
+     "start": 55.0,
+     "end": 57.5,
+     "ja": "紅葉、時々見に行きます。",
+     "en": "I sometimes go to see the autumn leaves.",
+     "speaker": "Yuki"
     }
    ]
   },
   {
-   "start": 700.0,
-   "end": 724.8,
-   "title": "Different at Home vs Outside",
+   "start": 236.5,
+   "end": 303.5,
+   "title": "Why Are You So Positive?",
    "level": "N4",
    "topics": [
-    "daily",
-    "friends"
+    "friends",
+    "daily"
    ],
    "grammar": [
-    "〜時 — when / at the time of",
-    "〜と — whenever / when"
+    "〜と思う — to think that",
+    "〜になる — to become"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 700.2,
-     "end": 702.8,
-     "ja": "僕は家にいる時と",
-     "en": "When I'm at home versus...",
-     "speaker": "A"
+     "start": 236.7,
+     "end": 240.0,
+     "ja": "シュンさんはどうしてそんなにポジティブなのか。",
+     "en": "Why is Shun so positive?",
+     "speaker": "Yuki"
     },
     {
-     "start": 703.0,
-     "end": 704.2,
-     "ja": "はいはい。",
-     "en": "Uh-huh.",
-     "speaker": "B"
+     "start": 240.1,
+     "end": 243.7,
+     "ja": "ねー、そうよく言われますね、うん。",
+     "en": "Right, people often tell me that.",
+     "speaker": "Shun"
     },
     {
-     "start": 704.4,
-     "end": 708.5,
-     "ja": "外にいる時、少し違います。",
-     "en": "...when I'm outside, I'm a bit different.",
-     "speaker": "A"
+     "start": 246.0,
+     "end": 249.5,
+     "ja": "えーっと、子供の時から明るかったですか？",
+     "en": "Um, were you cheerful since you were a child?",
+     "speaker": "Yuki"
     },
     {
-     "start": 708.8,
-     "end": 711.0,
-     "ja": "おおー、そうですか。",
-     "en": "Oh, is that so?",
-     "speaker": "B"
+     "start": 249.8,
+     "end": 253.9,
+     "ja": "はい、多分子供の時から明るかったと思いますよ。",
+     "en": "Yes, I think I was cheerful since childhood.",
+     "speaker": "Shun"
     },
     {
-     "start": 711.2,
-     "end": 715.0,
-     "ja": "家にいるとほとんど話しません。",
-     "en": "When I'm at home, I barely talk.",
-     "speaker": "A"
+     "start": 255.2,
+     "end": 301.0,
+     "ja": "でもなんか大人になって、もうもっともっと明るくなりました。",
+     "en": "But after becoming an adult, I became even more cheerful.",
+     "speaker": "Shun"
     },
     {
-     "start": 716.4,
-     "end": 717.8,
-     "ja": "もっと静かです。",
-     "en": "I'm much quieter.",
-     "speaker": "A"
-    },
-    {
-     "start": 718.0,
-     "end": 719.4,
-     "ja": "もっと静か？",
-     "en": "Even quieter?",
-     "speaker": "B"
-    },
-    {
-     "start": 719.5,
-     "end": 720.2,
-     "ja": "はい。",
-     "en": "Yes.",
-     "speaker": "A"
-    },
-    {
-     "start": 720.4,
-     "end": 721.8,
-     "ja": "へー、いつも静かだけど。",
-     "en": "Huh, but you're always quiet already.",
-     "speaker": "B"
-    },
-    {
-     "start": 722.0,
-     "end": 723.0,
-     "ja": "はい、もっと静か。",
-     "en": "Yes, even quieter.",
-     "speaker": "A"
-    },
-    {
-     "start": 723.2,
-     "end": 724.8,
-     "ja": "もっと静か？すごいな。",
-     "en": "Even quieter? Wow.",
-     "speaker": "B"
+     "start": 301.2,
+     "end": 303.0,
+     "ja": "あ、そうなんだ。",
+     "en": "Oh, really?",
+     "speaker": "Yuki"
     }
    ]
   },
   {
-   "start": 1115.5,
-   "end": 1140.0,
-   "title": "My Mom Loves Hiking Mountains",
+   "start": 715.5,
+   "end": 740.0,
+   "title": "Climbing Mountains in Her Sixties",
    "level": "N4",
    "topics": [
     "family",
     "sports"
    ],
    "grammar": [
-    "〜ている — ongoing action",
-    "〜みたい — like / resembling"
+    "〜みたいな — like / similar to",
+    "〜が好き — to like / to be fond of"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1115.8,
-     "end": 1118.0,
+     "start": 715.5,
+     "end": 717.8,
      "ja": "お母さんは山に登っていましたね。",
-     "en": "Your mother climbed mountains, right?",
-     "speaker": "A"
+     "en": "Your mother climbs mountains, doesn't she?",
+     "speaker": "Yuki"
     },
     {
-     "start": 1118.2,
-     "end": 1119.6,
+     "start": 717.9,
+     "end": 719.4,
      "ja": "すごいですよ。",
      "en": "She's amazing.",
-     "speaker": "B"
+     "speaker": "Shun"
     },
     {
-     "start": 1120.0,
-     "end": 1122.2,
-     "ja": "うん、今何歳？",
-     "en": "Yeah, how old is she now?",
-     "speaker": "B"
+     "start": 719.9,
+     "end": 721.8,
+     "ja": "うん、今60何歳？",
+     "en": "Yeah, how old is she now, in her 60s?",
+     "speaker": "Yuki"
     },
     {
-     "start": 1122.4,
-     "end": 1125.5,
-     "ja": "忘れた、64歳とか？たぶん。",
-     "en": "I forgot, maybe around 64? Probably.",
-     "speaker": "B"
+     "start": 722.0,
+     "end": 725.2,
+     "ja": "忘れた。64歳とか？多分。",
+     "en": "I forgot. Around 64 or so, maybe.",
+     "speaker": "Shun"
     },
     {
-     "start": 1126.0,
-     "end": 1128.5,
-     "ja": "64歳ぐらいなんですけど、",
-     "en": "She's about 64, but...",
-     "speaker": "B"
+     "start": 725.3,
+     "end": 726.3,
+     "ja": "へえ。",
+     "en": "Oh wow.",
+     "speaker": "Yuki"
     },
     {
-     "start": 1129.0,
-     "end": 1133.2,
-     "ja": "なんかすごいあのー、ハイキングが好きで、",
-     "en": "...she really loves hiking, and...",
-     "speaker": "B"
+     "start": 726.5,
+     "end": 732.3,
+     "ja": "64歳ぐらいなんですけど、なんかすごい、あのー、ハイキングが好きで、",
+     "en": "She's about 64, but she really loves hiking, and...",
+     "speaker": "Shun"
     },
     {
-     "start": 1133.5,
-     "end": 1138.8,
+     "start": 732.4,
+     "end": 733.6,
+     "ja": "すごいな。",
+     "en": "That's amazing.",
+     "speaker": "Yuki"
+    },
+    {
+     "start": 733.8,
+     "end": 739.5,
      "ja": "でも本当に富士山みたいな山を登るんですよ。",
-     "en": "...she actually climbs mountains like Mt. Fuji.",
-     "speaker": "B"
-    },
-    {
-     "start": 1139.0,
-     "end": 1140.0,
-     "ja": "うーん。",
-     "en": "Mm-hmm.",
-     "speaker": "A"
+     "en": "and she really climbs mountains like Mt. Fuji.",
+     "speaker": "Shun"
     }
    ]
   }
@@ -239,5 +225,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

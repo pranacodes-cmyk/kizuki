@@ -1,0 +1,19 @@
+{
+ "videoId": "GNmpY9m4SCo",
+ "ids": [
+  "GNmpY9m4SCo-113"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "GNmpY9m4SCo-113": {
+   "id": "GNmpY9m4SCo-113",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Heartwarming classic dialogue with clear, accessible expressions for beginners."
+  }
+ }
+}

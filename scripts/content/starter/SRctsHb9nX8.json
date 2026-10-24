@@ -1,0 +1,21 @@
+{
+ "videoId": "SRctsHb9nX8",
+ "ids": [
+  "SRctsHb9nX8-195"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "SRctsHb9nX8-195": {
+   "id": "SRctsHb9nX8-195",
+   "appeal": 3,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [
+    "starts mid-sentence"
+   ],
+   "why": "Dry multiple choice format starting without context over static illustration."
+  }
+ }
+}

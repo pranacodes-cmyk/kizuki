@@ -2,43 +2,44 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 0.0,
-   "end": 8.4,
-   "title": "At Last We Meet",
+   "start": 0.3,
+   "end": 8.0,
+   "title": "You Are My Marguerite",
    "level": "N3",
    "topics": [
     "anime"
    ],
    "grammar": [
-    "〜こそ — for sure / precisely",
-    "やっと — finally / at last"
+    "こそ — emphasis",
+    "やっと — finally",
+    "〜合う — mutual action"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 0.0,
-     "end": 2.5,
-     "ja": "あなたこそは、私のマルグリート。",
+     "start": 0.6,
+     "end": 3.2,
+     "ja": "あなたこそは、私のマルグリット。",
      "en": "You are indeed my Marguerite.",
      "speaker": "Girl"
     },
     {
-     "start": 2.6,
-     "end": 4.4,
-     "ja": "マルグリート？",
+     "start": 3.4,
+     "end": 4.5,
+     "ja": "マルグリット？",
      "en": "Marguerite?",
      "speaker": "Madoka"
     },
     {
-     "start": 4.5,
-     "end": 6.6,
-     "ja": "ああ、やっと巡り合えましたわ。",
-     "en": "Ah, at last we meet.",
+     "start": 4.8,
+     "end": 6.8,
+     "ja": "ああ、やっと巡り会えましたわ。",
+     "en": "Ah, we have finally found each other.",
      "speaker": "Girl"
     },
     {
-     "start": 6.7,
-     "end": 8.2,
+     "start": 7.0,
+     "end": 7.9,
      "ja": "あれは何？",
      "en": "What is that?",
      "speaker": "Homura"
@@ -46,93 +47,114 @@
    ]
   },
   {
-   "start": 30.8,
+   "start": 20.8,
    "end": 39.5,
-   "title": "Return Marguerite to Me",
-   "level": "N3",
+   "title": "Answer Me, Homura Akemi!",
+   "level": "N2",
    "topics": [
     "anime"
    ],
    "grammar": [
-    "〜なさい — imperative / command",
-    "〜ていただく — receiving an action",
-    "〜ないで — negative command / request"
+    "なんて〜なの — what a... / how...",
+    "〜なさい — firm command",
+    "〜ていただく — humbly take / have done"
    ],
    "quality": 5,
    "lines": [
     {
+     "start": 21.1,
+     "end": 23.4,
+     "ja": "何が狙い？なぜ私の顔を盗んだ？",
+     "en": "What is your aim? Why did you steal my face?",
+     "speaker": "Homura"
+    },
+    {
+     "start": 24.7,
+     "end": 27.7,
+     "ja": "あなたの愛はなんて無様で茶番なの。",
+     "en": "How pathetic and farcical your love is.",
+     "speaker": "Girl"
+    },
+    {
+     "start": 28.1,
+     "end": 30.6,
+     "ja": "なぜ彼女の選択を否定したのです？",
+     "en": "Why did you deny her choice?",
+     "speaker": "Girl"
+    },
+    {
      "start": 30.8,
-     "end": 33.2,
+     "end": 32.7,
      "ja": "お答えなさい、暁美ほむら！",
      "en": "Answer me, Homura Akemi!",
      "speaker": "Girl"
     },
     {
-     "start": 33.3,
-     "end": 36.4,
-     "ja": "マルグリートを返していただきます。",
-     "en": "I will be taking Marguerite back.",
+     "start": 33.2,
+     "end": 36.5,
+     "ja": "マルグリットを返していただきます。",
+     "en": "I shall be taking Marguerite back.",
      "speaker": "Girl"
     },
     {
-     "start": 36.5,
+     "start": 36.8,
      "end": 39.2,
      "ja": "あの子を勝手な名前で呼ばないで。",
-     "en": "Don't call her by whatever name you please.",
+     "en": "Don't call her by made-up names.",
      "speaker": "Homura"
     }
    ]
   },
   {
    "start": 132.8,
-   "end": 146.2,
-   "title": "Teaming Up with the Devil",
+   "end": 146.0,
+   "title": "Aren't You a Demon?",
    "level": "N3",
    "topics": [
     "anime",
     "friends"
    ],
    "grammar": [
-    "〜続ける — keep doing / continue",
-    "〜てやる — do for someone",
-    "性に合っている — suits one's nature"
+    "〜んでしょ — right? (seeking agreement)",
+    "〜続ける — to continue doing",
+    "〜てやる — to do something for someone"
    ],
-   "quality": 5,
+   "quality": 4,
    "lines": [
     {
-     "start": 132.9,
+     "start": 133.0,
      "end": 134.8,
-     "ja": "あんた悪魔なんでしょ。",
-     "en": "You're a demon, right?",
+     "ja": "あんた悪魔なんでしょ？",
+     "en": "Aren't you a demon?",
      "speaker": "Sayaka"
     },
     {
      "start": 134.9,
-     "end": 138.2,
+     "end": 138.0,
      "ja": "この宇宙で一人だけ、まどかのことを覚え続けてたんでしょ？",
-     "en": "You're the only one in this universe who kept remembering Madoka, aren't you?",
+     "en": "The only one in this universe who kept remembering Madoka, right?",
      "speaker": "Sayaka"
     },
     {
-     "start": 138.3,
-     "end": 140.0,
+     "start": 138.2,
+     "end": 139.7,
      "ja": "頑張って、暁美さん！",
      "en": "Hang in there, Akemi-san!",
      "speaker": "Mami"
     },
     {
-     "start": 140.1,
-     "end": 142.4,
+     "start": 139.9,
+     "end": 142.5,
      "ja": "仕方ないから一緒にやってやるのです！",
-     "en": "Since there's no choice, I'll join in with you!",
+     "en": "I've got no choice, so I'll fight alongside you!",
      "speaker": "Nagisa"
     },
     {
-     "start": 142.5,
-     "end": 145.8,
-     "ja": "私は悪魔につくほうが性に合ってるんでね。",
-     "en": "Siding with the devil suits my nature better, anyway.",
-     "speaker": "Kyoko"
+     "start": 142.8,
+     "end": 145.7,
+     "ja": "私は悪魔につく方が性に合ってるんでね。",
+     "en": "Siding with a demon suits my style anyway.",
+     "speaker": "Kyouko"
     }
    ]
   }
@@ -141,5 +163,6 @@
  "pickTopics": [
   "anime"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

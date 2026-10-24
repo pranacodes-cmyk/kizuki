@@ -1,0 +1,30 @@
+{
+ "videoId": "edm52u4ZjVk",
+ "ids": [
+  "edm52u4ZjVk-492",
+  "edm52u4ZjVk-74"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "edm52u4ZjVk-492": {
+   "id": "edm52u4ZjVk-492",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Fun relatable conversation about convenience store sandwiches spoken clearly."
+  },
+  "edm52u4ZjVk-74": {
+   "id": "edm52u4ZjVk-74",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Very clear, slow, and simple beginner-friendly exchange about Japan."
+  }
+ }
+}

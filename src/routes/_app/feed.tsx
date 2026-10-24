@@ -100,10 +100,11 @@ function Feed() {
       {error && <div className="flex flex-1 items-center"><ErrorState title="Couldn't load clips" body="Check your connection and try again." onRetry={() => void refetch()} /></div>}
       {data && (
         <div ref={scroller} className="min-h-0 flex-1 overflow-y-scroll overscroll-contain no-scrollbar">
+          {/* Active clip ±1 are mounted; the one below is warmed up (player loaded, clip cued). */}
           {order.map((id, i) => (
             <section key={id} data-index={i} className="relative h-full">
               {Math.abs(i - active) <= 1 ? (
-                lockedFrom != null && i >= lockedFrom ? <LimitCard /> : data.byId[id] ? <ClipView clip={data.byId[id]} content={data} active={i === active} tourTargets inFeed /> : null
+                lockedFrom != null && i >= lockedFrom ? <LimitCard /> : data.byId[id] ? <ClipView clip={data.byId[id]} content={data} active={i === active} warm={i === active + 1} tourTargets inFeed /> : null
               ) : null}
             </section>
           ))}

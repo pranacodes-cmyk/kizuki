@@ -1,0 +1,19 @@
+{
+ "videoId": "LOIg2YvLm7I",
+ "ids": [
+  "LOIg2YvLm7I-3"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "LOIg2YvLm7I-3": {
+   "id": "LOIg2YvLm7I-3",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear Japanese narration introducing phrases over scenic nature footage."
+  }
+ }
+}

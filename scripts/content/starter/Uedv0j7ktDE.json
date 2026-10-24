@@ -1,0 +1,19 @@
+{
+ "videoId": "Uedv0j7ktDE",
+ "ids": [
+  "Uedv0j7ktDE-14"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Uedv0j7ktDE-14": {
+   "id": "Uedv0j7ktDE-14",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Calm, clear narration showcasing everyday Japanese home food."
+  }
+ }
+}

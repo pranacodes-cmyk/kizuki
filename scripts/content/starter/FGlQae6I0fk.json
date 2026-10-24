@@ -1,0 +1,21 @@
+{
+ "videoId": "FGlQae6I0fk",
+ "ids": [
+  "FGlQae6I0fk-389"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "FGlQae6I0fk-389": {
+   "id": "FGlQae6I0fk-389",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "overlapping speech"
+   ],
+   "why": "Lively family meal banter with relatable, expressive reactions."
+  }
+ }
+}

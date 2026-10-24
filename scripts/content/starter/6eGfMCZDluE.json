@@ -1,0 +1,30 @@
+{
+ "videoId": "6eGfMCZDluE",
+ "ids": [
+  "6eGfMCZDluE-51",
+  "6eGfMCZDluE-770"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "6eGfMCZDluE-770": {
+   "id": "6eGfMCZDluE-770",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Cute morning routine with clear, friendly casual Japanese."
+  },
+  "6eGfMCZDluE-51": {
+   "id": "6eGfMCZDluE-51",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Relatable travel mishap shared with cheerful, authentic conversational speech."
+  }
+ }
+}

@@ -2,8 +2,8 @@
  "speech": "some",
  "clips": [
   {
-   "start": 849.8,
-   "end": 857.2,
+   "start": 529.5,
+   "end": 542.3,
    "title": "Warning the Cat While Cooking",
    "level": "N5",
    "topics": [
@@ -13,20 +13,20 @@
    ],
    "grammar": [
     "〜てる — ongoing action",
-    "〜から — because / reason"
+    "〜から — because / so"
    ],
    "quality": 4,
    "lines": [
     {
-     "start": 850.4,
-     "end": 852.0,
+     "start": 530.0,
+     "end": 531.5,
      "ja": "もなみちゃん。",
      "en": "Monami-chan.",
      "speaker": "Woman"
     },
     {
-     "start": 852.4,
-     "end": 855.2,
+     "start": 537.0,
+     "end": 541.8,
      "ja": "今お料理してるから危ないよー。",
      "en": "I'm cooking right now, so it's dangerous.",
      "speaker": "Woman"
@@ -38,5 +38,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -1,0 +1,21 @@
+{
+ "videoId": "AOsFg1vOWMQ",
+ "ids": [
+  "AOsFg1vOWMQ-146"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "AOsFg1vOWMQ-146": {
+   "id": "AOsFg1vOWMQ-146",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [
+    "static image"
+   ],
+   "why": "Clear beginner-level speech, but visual is entirely static."
+  }
+ }
+}

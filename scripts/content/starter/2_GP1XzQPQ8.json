@@ -1,0 +1,32 @@
+{
+ "videoId": "2_GP1XzQPQ8",
+ "ids": [
+  "2_GP1XzQPQ8-609",
+  "2_GP1XzQPQ8-757"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "2_GP1XzQPQ8-757": {
+   "id": "2_GP1XzQPQ8-757",
+   "appeal": 7,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute parrot asks for more food with clear, simple daily words."
+  },
+  "2_GP1XzQPQ8-609": {
+   "id": "2_GP1XzQPQ8-609",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Charming goodbye scene, though bird screeching and narration slightly overlap."
+  }
+ }
+}

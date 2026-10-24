@@ -1,0 +1,30 @@
+{
+ "videoId": "n0owerhbTVo",
+ "ids": [
+  "n0owerhbTVo-44",
+  "n0owerhbTVo-9"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "n0owerhbTVo-9": {
+   "id": "n0owerhbTVo-9",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Cute animation with clear informal dialogue, though slightly fast."
+  },
+  "n0owerhbTVo-44": {
+   "id": "n0owerhbTVo-44",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Simple vocabulary, but visuals rely heavily on static portrait icons."
+  }
+ }
+}

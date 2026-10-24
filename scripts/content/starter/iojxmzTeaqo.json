@@ -1,0 +1,19 @@
+{
+ "videoId": "iojxmzTeaqo",
+ "ids": [
+  "iojxmzTeaqo-1218"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "iojxmzTeaqo-1218": {
+   "id": "iojxmzTeaqo-1218",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Standard outro requesting likes and subscriptions rather than teaching content."
+  }
+ }
+}

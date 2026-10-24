@@ -1,0 +1,21 @@
+{
+ "videoId": "ryyvrkLIRY8",
+ "ids": [
+  "ryyvrkLIRY8-13"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "ryyvrkLIRY8-13": {
+   "id": "ryyvrkLIRY8-13",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [
+    "static visual"
+   ],
+   "why": "Clear slow narration with furigana, but visually completely static."
+  }
+ }
+}

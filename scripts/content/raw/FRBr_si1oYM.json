@@ -2,30 +2,30 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 23.7,
-   "end": 36.2,
-   "title": "Why Are You Looking So Down?",
-   "level": "N4",
+   "start": 24.0,
+   "end": 55.2,
+   "title": "Why Are You So Down?",
+   "level": "N3",
    "topics": [
     "anime",
-    "comedy",
-    "daily"
+    "school",
+    "comedy"
    ],
    "grammar": [
-    "〜ている — ongoing state",
-    "〜なくて（なんかない） — emphasis on negation"
+    "〜ものだ — that's just how things are",
+    "〜わけではない — it doesn't mean that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 24.0,
-     "end": 25.0,
-     "ja": "……先生。",
-     "en": "...Teacher.",
+     "start": 24.2,
+     "end": 25.1,
+     "ja": "……先生",
+     "en": "Teacher...",
      "speaker": "Boy"
     },
     {
-     "start": 25.1,
+     "start": 25.2,
      "end": 26.0,
      "ja": "えっ！？",
      "en": "Huh?!",
@@ -35,76 +35,102 @@
      "start": 26.1,
      "end": 28.0,
      "ja": "何をそんなに落ち込んでいるんですか？",
-     "en": "Why are you looking so down?",
+     "en": "Why are you feeling so down?",
      "speaker": "Boy"
     },
     {
-     "start": 28.1,
-     "end": 30.8,
-     "ja": "お、落ち込んでなんかないよ！！",
-     "en": "I-I'm not down at all!!",
+     "start": 28.2,
+     "end": 35.5,
+     "ja": "お、落ち込んでなんかないよ！ただ、今日は大変だったなーって思っていただけで……",
+     "en": "I-I'm not feeling down! I was just thinking today was tough...",
      "speaker": "Teacher"
     },
     {
-     "start": 31.0,
-     "end": 35.8,
-     "ja": "ただ、今日は大変だったなーって思っていただけで……",
-     "en": "I was just thinking today was really tough, that's all...",
+     "start": 36.2,
+     "end": 38.3,
+     "ja": "な、なに？？",
+     "en": "Wh-what??",
      "speaker": "Teacher"
+    },
+    {
+     "start": 40.0,
+     "end": 45.3,
+     "ja": "あぁ～、さっきの絵本の読み聞かせですね、原因は。",
+     "en": "Ah, the cause is that picture book reading from earlier, isn't it?",
+     "speaker": "Boy"
+    },
+    {
+     "start": 46.0,
+     "end": 51.9,
+     "ja": "子供は退屈だと思ったり、興味を惹かれないと、自分が楽しいことをやってしまうものです。",
+     "en": "When kids find something boring or uninteresting, they just do whatever is fun for them.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 52.4,
+     "end": 54.8,
+     "ja": "先生が悪いわけではありませんよ。",
+     "en": "It's not that you're in the wrong, Teacher.",
+     "speaker": "Boy"
     }
    ]
   },
   {
-   "start": 121.5,
+   "start": 112.5,
    "end": 134.5,
-   "title": "Advice From a Mature Kindergarten Boy",
+   "title": "You Will Become a Great Teacher",
    "level": "N3",
    "topics": [
     "anime",
-    "comedy",
     "school"
    ],
    "grammar": [
-    "〜なくていい — do not need to",
-    "〜より〜ほうが — comparison/preference",
-    "〜ようとする — attempt to do"
+    "〜てくださる — do something for us (honorific)",
+    "〜ものだ — natural tendency / how things are"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 122.0,
-     "end": 124.8,
-     "ja": "先生は頑張らなくていいんですよ。",
-     "en": "Teacher, you don't have to push yourself so hard.",
+     "start": 112.7,
+     "end": 116.4,
+     "ja": "先生は、きっといい先生になりますよ。",
+     "en": "I'm sure you will become a great teacher.",
      "speaker": "Boy"
     },
     {
-     "start": 125.0,
-     "end": 127.4,
-     "ja": "子供に何かをさせようとするより、",
-     "en": "Rather than trying to make the kids do something,",
+     "start": 116.8,
+     "end": 120.6,
+     "ja": "だって、こんなに僕らのことを考えてくださるのですから。",
+     "en": "After all, you care about us this much.",
      "speaker": "Boy"
     },
     {
-     "start": 127.5,
-     "end": 129.8,
-     "ja": "子供が今、何をやりたいか、",
-     "en": "thinking about what the kids want to do right now,",
+     "start": 121.0,
+     "end": 125.4,
+     "ja": "先生がちゃんと見てくれているのを、僕らはわかるものなのです。",
+     "en": "Kids can always tell when a teacher is truly watching over them.",
      "speaker": "Boy"
     },
     {
-     "start": 129.9,
+     "start": 125.8,
+     "end": 131.5,
+     "ja": "今は試行錯誤の途中でも、きっと子供に愛されるいい先生になれますよ。",
+     "en": "Even if you're still learning by trial and error, you'll surely become a teacher loved by children.",
+     "speaker": "Boy"
+    },
+    {
+     "start": 132.0,
      "end": 134.0,
-     "ja": "何に興味を持っているかを考えたほうが、きっと有益ですよ。",
-     "en": "and what they're interested in would surely be much more fruitful.",
-     "speaker": "Boy"
+     "ja": "ありがとう……",
+     "en": "Thank you...",
+     "speaker": "Teacher"
     }
    ]
   },
   {
-   "start": 215.0,
-   "end": 240.5,
-   "title": "How Many Lives Has That Kid Lived?",
+   "start": 134.8,
+   "end": 160.5,
+   "title": "How Many Lifetimes Has He Lived?",
    "level": "N3",
    "topics": [
     "anime",
@@ -112,65 +138,65 @@
     "school"
    ],
    "grammar": [
-    "〜てくる — go and do",
-    "〜でいてください — please remain in a state"
+    "〜ていてください — please remain / stay",
+    "〜てくる — go and do something"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 215.2,
-     "end": 217.8,
+     "start": 135.1,
+     "end": 137.8,
      "ja": "やはり、女性の笑顔はいいものですね。",
      "en": "A woman's smile really is a wonderful thing.",
      "speaker": "Boy"
     },
     {
-     "start": 218.0,
-     "end": 219.0,
+     "start": 138.0,
+     "end": 139.0,
      "ja": "えっ！？",
      "en": "Huh?!",
      "speaker": "Teacher"
     },
     {
-     "start": 219.2,
-     "end": 222.0,
+     "start": 139.2,
+     "end": 142.0,
      "ja": "いつまでも笑顔でいてくださいね、先生。",
-     "en": "Please always keep smiling, Teacher.",
+     "en": "Please keep smiling always, Teacher.",
      "speaker": "Boy"
     },
     {
-     "start": 224.8,
-     "end": 226.0,
+     "start": 145.0,
+     "end": 146.0,
      "ja": "おーい！",
      "en": "Hey!",
-     "speaker": "Other Kid"
+     "speaker": "Child"
     },
     {
-     "start": 226.1,
-     "end": 227.8,
-     "ja": "うん、今いくよー！",
-     "en": "Yeah, coming!",
+     "start": 146.2,
+     "end": 147.8,
+     "ja": "うん、今行くよー！",
+     "en": "Yeah, I'm coming!",
      "speaker": "Boy"
     },
     {
-     "start": 228.0,
-     "end": 230.8,
+     "start": 148.0,
+     "end": 150.9,
      "ja": "では僕は校庭で砂遊びしてきますね。",
-     "en": "Well then, I'm off to play in the sandbox in the yard.",
+     "en": "Well, I'm off to play in the sandbox in the schoolyard.",
      "speaker": "Boy"
     },
     {
-     "start": 230.9,
-     "end": 233.5,
-     "ja": "あっ、うん……気をつけてね。",
-     "en": "Ah, okay... be careful.",
+     "start": 151.0,
+     "end": 154.2,
+     "ja": "あ、うん。気をつけてね。",
+     "en": "Ah, okay. Be careful.",
      "speaker": "Teacher"
     },
     {
-     "start": 236.7,
-     "end": 240.0,
+     "start": 156.6,
+     "end": 160.0,
      "ja": "……って、あの子人生何周目！？",
-     "en": "...Wait, how many lives has that kid lived?!",
+     "en": "...Wait, what lifetime is that kid on?!",
      "speaker": "Teacher"
     }
    ]
@@ -180,5 +206,6 @@
  "pickTopics": [
   "anime"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

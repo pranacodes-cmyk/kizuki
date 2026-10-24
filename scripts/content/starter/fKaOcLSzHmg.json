@@ -1,0 +1,19 @@
+{
+ "videoId": "fKaOcLSzHmg",
+ "ids": [
+  "fKaOcLSzHmg-13"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "fKaOcLSzHmg-13": {
+   "id": "fKaOcLSzHmg-13",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Energetic travel vlog intro with simple, natural greetings and clear airport context."
+  }
+ }
+}

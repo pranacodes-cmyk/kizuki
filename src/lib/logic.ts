@@ -146,8 +146,8 @@ export type RankClip = { id: string; videoId: string; level: string; topics: str
 
 /** Score taken off a still-picture clip (more than the whole random jitter range). */
 export const STILL_CLIP_PENALTY = 6;
-/** One deliberate first impression; the rest remains personalized. */
-export const ONBOARDING_SHOWCASE_CLIP_ID = "0dBf_DAXNuc-6";
+/** The curated starter clips lead the feed until the learner has watched this many clips. */
+export const STARTER_WATCH_LIMIT = 60;
 /** Only yearly simulation has a trial; native dates always come from the store. */
 export const simulatedTrialEnd = (plan: string, now: number): number | null => plan === "yearly" ? now + 7 * dayMs : null;
 export const subscriptionPhase = (active: boolean, plan: string | null, trialEndsAt: number | null, now: number) =>
@@ -155,9 +155,28 @@ export const subscriptionPhase = (active: boolean, plan: string | null, trialEnd
 /** YouTube reports zero until metadata arrives; allow only end-padding tolerance. */
 export const clipWindowAvailable = (start: number, end: number, duration: number) =>
   duration <= 0 || (start < duration && end <= duration + 0.75);
-export function onboardingFeedOrder(personalized: string[], available: Iterable<string>): string[] {
-  if (!new Set(available).has(ONBOARDING_SHOWCASE_CLIP_ID)) return personalized;
-  return [ONBOARDING_SHOWCASE_CLIP_ID, ...personalized.filter((id) => id !== ONBOARDING_SHOWCASE_CLIP_ID)];
+/** A curated starter clip: id + JLPT level. */
+export type StarterClip = { id: string; level: string };
+
+/** Everyone's first clips: the curated starter list in its order (only clips that exist and are
+ * not watched yet), then the personal ranking without them. Learners above N3 skip starters more
+ * than two levels easier than theirs (jlpt null = the onboarding preview: same for everyone).
+ * After STARTER_WATCH_LIMIT watched clips the feed is fully personal. Mirrors starterFeedOrder in logic.dart. */
+export function starterFeedOrder(
+  personalized: string[], starter: StarterClip[],
+  { seen = {}, watched = 0, jlpt = null }: { seen?: Record<string, number>; watched?: number; jlpt?: string | null } = {},
+): string[] {
+  if (watched >= STARTER_WATCH_LIMIT) return personalized;
+  const available = new Set(personalized);
+  const lead: string[] = [];
+  for (const s of starter) {
+    if (!available.has(s.id) || (seen[s.id] ?? 0) > 0 || lead.includes(s.id)) continue;
+    if (jlpt != null && jlptIndex(s.level) - jlptIndex(jlpt) < -2) continue;
+    lead.push(s.id);
+  }
+  if (!lead.length) return personalized;
+  const taken = new Set(lead);
+  return [...lead, ...personalized.filter((id) => !taken.has(id))];
 }
 type RankCtx = { reasonList: string[]; jlpt: string; seen: Record<string, number>; seed: string };
 
@@ -250,6 +269,24 @@ export function formatInterval(ms: number) {
   if (days < 30) return `${Math.round(days)}d`;
   if (days < 365) return `${Math.round(days / 30)}mo`;
   return `${(days / 365).toFixed(1)}y`;
+}
+
+/** Plain-English time until the next practice ("now", "in 10 minutes", "tomorrow", "in 3 days")
+ * for learner-facing text — mirrors formatWhen in logic.dart. */
+export function formatWhen(ms: number) {
+  const n = (v: number, unit: string) => `in ${v} ${unit}${v === 1 ? "" : "s"}`;
+  if (ms <= 0) return "now";
+  if (ms < minuteMs) return "in under a minute";
+  if (ms < 60 * minuteMs) return n(Math.min(59, Math.max(1, Math.round(ms / minuteMs))), "minute");
+  if (ms < dayMs) {
+    const h = Math.round(ms / (60 * minuteMs));
+    return h >= 24 ? "tomorrow" : n(h, "hour");
+  }
+  const days = ms / dayMs;
+  if (days < 1.5) return "tomorrow";
+  if (days < 30) return n(Math.round(days), "day");
+  if (days < 365) return n(Math.round(days / 30), "month");
+  return n(Math.round(days / 365), "year");
 }
 
 export const nextIntervalLabel = (c: Card, grade: Grade, now: number) =>

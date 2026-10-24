@@ -1,0 +1,19 @@
+{
+ "videoId": "xMAF-rmOBtk",
+ "ids": [
+  "xMAF-rmOBtk-110"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "xMAF-rmOBtk-110": {
+   "id": "xMAF-rmOBtk-110",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Fun idol group talk with helpful on-screen captions explaining a game."
+  }
+ }
+}

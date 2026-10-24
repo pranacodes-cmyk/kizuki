@@ -1,0 +1,19 @@
+{
+ "videoId": "1sOfS1jjogQ",
+ "ids": [
+  "1sOfS1jjogQ-0"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "1sOfS1jjogQ-0": {
+   "id": "1sOfS1jjogQ-0",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute puppet interaction with clear, simple Japanese dialogue."
+  }
+ }
+}

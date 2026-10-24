@@ -1,0 +1,30 @@
+{
+ "videoId": "nC8H3Cj7TEc",
+ "ids": [
+  "nC8H3Cj7TEc-135",
+  "nC8H3Cj7TEc-537"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "nC8H3Cj7TEc-135": {
+   "id": "nC8H3Cj7TEc-135",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear storytelling performance featuring common polite beginner phrases."
+  },
+  "nC8H3Cj7TEc-537": {
+   "id": "nC8H3Cj7TEc-537",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Engaging storytelling moment with urgent pacing and cat wordplay."
+  }
+ }
+}

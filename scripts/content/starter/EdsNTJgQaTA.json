@@ -1,0 +1,30 @@
+{
+ "videoId": "EdsNTJgQaTA",
+ "ids": [
+  "EdsNTJgQaTA-335",
+  "EdsNTJgQaTA-820"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "EdsNTJgQaTA-820": {
+   "id": "EdsNTJgQaTA-820",
+   "appeal": 7,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Fun food reactions and simple vocabulary in an authentic izakaya setting."
+  },
+  "EdsNTJgQaTA-335": {
+   "id": "EdsNTJgQaTA-335",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Atmospheric alley walk with natural conversational Japanese, though slightly noisy."
+  }
+ }
+}

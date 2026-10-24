@@ -1,0 +1,19 @@
+{
+ "videoId": "3mYJp-GGyVM",
+ "ids": [
+  "3mYJp-GGyVM-174"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "3mYJp-GGyVM-174": {
+   "id": "3mYJp-GGyVM-174",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear audio and text, but static slide presentation lacks engagement."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "XNUZH6S3boQ",
+ "ids": [
+  "XNUZH6S3boQ-7"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "XNUZH6S3boQ-7": {
+   "id": "XNUZH6S3boQ-7",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear beginner introduction featuring a cute cat."
+  }
+ }
+}

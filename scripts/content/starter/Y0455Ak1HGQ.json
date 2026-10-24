@@ -1,0 +1,21 @@
+{
+ "videoId": "Y0455Ak1HGQ",
+ "ids": [
+  "Y0455Ak1HGQ-106"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Y0455Ak1HGQ-106": {
+   "id": "Y0455Ak1HGQ-106",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Rapid comedy banter with overlapping dialogue is difficult for beginners to follow."
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "videoId": "PQ6gyTBbTDM",
+ "ids": [
+  "PQ6gyTBbTDM-101"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "PQ6gyTBbTDM-101": {
+   "id": "PQ6gyTBbTDM-101",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Expressive scene with simple words like oishii and tabetai."
+  }
+ }
+}

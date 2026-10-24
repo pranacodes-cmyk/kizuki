@@ -258,14 +258,39 @@ for (const w of jm.words) {
   for (const k of w.kanji) (byKanji.get(k.text) ?? byKanji.set(k.text, []).get(k.text)!).push(w);
   for (const k of w.kana) (byKana.get(k.text) ?? byKana.set(k.text, []).get(k.text)!).push(w);
 }
-const jlpt = new Map<string, number>();
+/**
+ * JLPT levels (Jonathan Waller's lists via stephenmk/yomitan-jlpt-vocab). Rows are matched by
+ * JMdict id AND by spelling: the id mapping sometimes points a kana-only N5 row at a side entry
+ * (これ N5 → the interjection "hey") while the main entry only carries the N1 row for its rare
+ * kanji spelling (此れ). A word gets the easiest level of any row that names it the way learners
+ * see it. scripts/content/jlpt-fixes.json then sets the textbook level of the few everyday words
+ * Waller placed oddly (greetings such as こんにちは / ありがとう sit in his N3–N2 lists).
+ */
+const jlptById = new Map<string, number>();
+const jlptByKanji = new Map<string, number>();
+const jlptByKana = new Map<string, number>();
+const easier = (m: Map<string, number>, k: string, n: number) => { if (k && (m.get(k) ?? 0) < n) m.set(k, n); };
 for (const n of [5, 4, 3, 2, 1]) {
   const f = path.join(JLPT_DIR, `n${n}.csv`);
   if (!fs.existsSync(f)) continue;
   for (const line of fs.readFileSync(f, "utf8").split("\n").slice(1)) {
-    const id = line.split(",")[0]?.trim();
-    if (id && !jlpt.has(id)) jlpt.set(id, n);
+    const [id, kana, kanji] = line.split(",").map((x) => x?.trim() ?? "");
+    easier(jlptById, id, n);
+    if (kanji) easier(jlptByKanji, kanji, n);
+    else easier(jlptByKana, kana, n);
   }
+}
+const JLPT_FIXES: Record<string, number> = JSON.parse(fs.readFileSync(path.join(HERE, "jlpt-fixes.json"), "utf8")).byShown;
+const jlpt = { has: (id: string) => jlptById.has(id) };
+/** Easiest JLPT level (5 = N5) for an entry shown as `shown`, or null when no list has it. */
+function jlptLevel(w: JmWord, shown: string): number | null {
+  let n = jlptById.get(w.id) ?? 0;
+  const kanaShown = !KANJI.test(shown);
+  for (const k of w.kanji) if (k.text === shown) n = Math.max(n, jlptByKanji.get(k.text) ?? 0);
+  // Kana-only rows name the word as written in kana: only for words learners see in kana.
+  if (kanaShown) for (const k of w.kana) n = Math.max(n, jlptByKana.get(k.text) ?? 0);
+  n = Math.max(n, JLPT_FIXES[shown] ?? 0);
+  return n || null;
 }
 
 const isCommon = (w: JmWord) => w.kanji.some((k) => k.common) || w.kana.some((k) => k.common);
@@ -280,7 +305,32 @@ const KATA_OVERRIDE: Record<string, string> = {
   ワン: "2844785", // a dog's "woof", not "one"
 };
 
-function lookup(base: string, readingHira: string): JmWord | undefined {
+/** JMdict part-of-speech families that fit each tokenizer part of speech (simplePos). */
+const POS_FIT: Record<string, RegExp> = {
+  particle: /^(prt|conj|exp|suf|aux)/,
+  auxiliary: /^(aux|cop|exp|suf|v)/,
+  verb: /^(v1|v2|v4|v5|vk|vn|vr|vs-|vz|aux-v|exp)/, // not "vs" (a noun that takes する: 使用 is not しよう)
+  adjective: /^(adj-i|adj-ix|aux-adj|exp|adv)/, // すごく / うまく have their own adverb entries
+  adverb: /^(adv|exp|int|n|adj-na|adj-no|conj)/,
+  noun: /^(n|pn|adj-na|adj-no|vs|ctr|suf|pref|exp|num|unc)/,
+  pronoun: /^(pn|n|adv)/,
+  interjection: /^(int|exp|conj|adv|n|adj-na|pn)/, // ほんと → 本当
+  conjunction: /^(conj|exp|int|adv|prt)/,
+  adnominal: /^(adj-pn|adj-f|pn|adj-no)/,
+  prefix: /^(pref|n-pref|n)/,
+};
+const allPos = (w: JmWord) => w.sense.flatMap((s) => s.partOfSpeech);
+const fits = (w: JmWord, pos: string) => !POS_FIT[pos] || allPos(w).some((p) => POS_FIT[pos]!.test(p));
+const fitsFirst = (w: JmWord, pos: string) => !!POS_FIT[pos] && firstPos(w).some((p) => POS_FIT[pos]!.test(p));
+const usuallyKana = (w: JmWord) => w.kanji.length === 0 || !!w.sense[0]?.misc.includes("uk");
+
+/**
+ * Dictionary entry for a word as the tokenizer saw it (`pos` = simplePos). Grammar words never
+ * borrow a kanji noun's entry (の is not 野 "field", た is not 田 "rice field", ます is not
+ * 増す "to increase"); kana words prefer entries of the same part of speech
+ * (いっぱい "a lot" over 一敗 "one defeat").
+ */
+function lookup(base: string, readingHira: string, pos = "other", conj = ""): JmWord | undefined {
   const hasKanji = KANJI.test(base);
   const forced = KATA_OVERRIDE[base];
   if (forced) {
@@ -302,14 +352,35 @@ function lookup(base: string, readingHira: string): JmWord | undefined {
     cands = byKana.get(base) ?? [];
     if (!cands.length) cands = byKanji.get(base) ?? [];
   }
+  if (!hasKanji) {
+    const one = [...base].length === 1;
+    // Never a long-vowel mark entry, and a one-kana word is that kana's own entry (こ is not なまこ).
+    cands = cands.filter((w) => w.kana.some((k) => /[^ーｰ]/.test(k.text)) && (!one || w.kana[0]?.text === base || (w.kanji.length === 0 && (w.kana[0]?.text ?? "").startsWith(base) && [...(w.kana[0]?.text ?? "")].length <= 2)));
+    // A long common kana word spelled exactly like an entry is that word even when the
+    // tokenizer splits it oddly (ひらがな, おしぼり); short ones must fit the part of speech.
+    const exact = [...base].length >= 4 ? cands.filter((w) => w.kana[0]?.text === base && isCommon(w)) : [];
+    // Kana words: the entry must be able to be this part of speech; a one-kana word must also
+    // be a word normally written in kana (never 野 / 田 / 胃 / 間 for の / た / い / ま).
+    cands = cands.filter((w) => fits(w, pos) && (!one || usuallyKana(w) || pos === "particle" || pos === "auxiliary"));
+    if (pos === "particle") cands = cands.filter((w) => usuallyKana(w) || allPos(w).some((p) => /^(prt|aux|cop)/.test(p)));
+    // An auxiliary is a grammar ending (だ, ます, た, ない), never a particle (やろ is not や).
+    if (pos === "auxiliary") cands = cands.filter((w) => allPos(w).some((p) => /^(aux|cop|exp)/.test(p)));
+    if (!cands.length) cands = exact;
+  }
   if (!cands.length) return undefined;
   let best: JmWord | undefined; let bestScore = -Infinity;
   cands.forEach((w, i) => {
     let s = 0;
+    if (fitsFirst(w, pos)) s += 4;
+    else if (!fits(w, pos)) s -= 4;
     const kanaHit = w.kana.find((k) => k.text === base || k.text === readingHira || k.text === kata2hira(base));
     if (kanaHit) s += 8;
     if (isCommon(w)) s += 10;
-    if (jlpt.has(w.id)) s += 5;
+    // On a list at all, and easier words first (物 "thing" before 者 "person" for もの).
+    if (jlpt.has(w.id)) s += 2.5 + (jlptById.get(w.id) ?? 0) * 0.6;
+    // Verb class from the tokenizer: いる "to be" (ichidan) is not 要る "to need" (godan).
+    if (conj.startsWith("一段") && firstPos(w).some((p) => p === "v1" || p.startsWith("v1-"))) s += 5;
+    if (conj.startsWith("五段") && firstPos(w).some((p) => p.startsWith("v5"))) s += 5;
     if (!hasKanji && (w.kanji.length === 0 || w.sense[0]?.misc.includes("uk"))) s += 6;
     if (!hasKanji && KATA.test(base) && w.sense[0]?.misc.includes("abbr")) s -= 3; // オウム: the parrot, not the abbreviation
     s -= i * 0.01;
@@ -339,7 +410,8 @@ const CRUDE = /\b(sex\w*|penis|vagina|genital\w*|crotch|breasts?|nipples?|fuck\w
 const cleanSense = (s: JmWord["sense"][number]) => !s.misc.some((m) => BAD_MISC.has(m)) && !s.gloss.some((g) => CRUDE.test(g.text));
 function toEntry(w: JmWord, base: string): DictEntry {
   const kanjiText = w.kanji.find((k) => k.text === base)?.text ?? w.kanji[0]?.text;
-  const usuallyKana = w.sense[0]?.misc.includes("uk") || !kanjiText;
+  // Grammar words and one-kana words are shown in kana (の, ます — never 乃 / 〼).
+  const usuallyKana = w.sense[0]?.misc.includes("uk") || !kanjiText || (!KANJI.test(base) && ([...base].length === 1 || allPos(w).some((p) => /^(prt|aux|cop)/.test(p))));
   const senses = w.sense.filter(cleanSense);
   const ex: { ja: string; en: string }[] = [];
   for (const s of senses) for (const e of s.examples ?? []) {
@@ -349,7 +421,7 @@ function toEntry(w: JmWord, base: string): DictEntry {
   return {
     w: usuallyKana && !KANJI.test(base) ? w.kana[0].text : kanjiText ?? w.kana[0].text,
     r: w.kana[0].text,
-    j: jlpt.get(w.id) ?? null,
+    j: jlptLevel(w, usuallyKana && !KANJI.test(base) ? w.kana[0].text : kanjiText ?? w.kana[0].text),
     c: w.kanji.some((k) => k.common) || w.kana.some((k) => k.common),
     m: (senses.length ? senses : w.sense.slice(0, 1)).slice(0, 4).map((s) => ({
       pos: [...new Set(s.partOfSpeech.map(posLabel).filter(Boolean) as string[])].slice(0, 2),
@@ -430,12 +502,13 @@ for (const f of rawFiles) {
         const prefix = g.parts[0].pos === "接頭詞" ? g.parts[0].surface_form : "";
         const stretched = g.parts.some((p) => LONG_VOWEL.test(p.surface_form)) && g.parts.length > 1;
         const unstretched = surface.replace(/[ーｰ]/g, "");
-        const tries = [...(stretched && unstretched.length >= 2 ? [unstretched] : []), surface, prefix + base, base];
+        // Auxiliaries and one-kana verb stems are looked up by dictionary form (で → だ, まし → ます, し → する).
+        const tries = head.pos === "助動詞" || (head.pos === "動詞" && [...surface].length === 1) ? [base, surface] : [...(stretched && unstretched.length >= 2 ? [unstretched] : []), surface, prefix + base, base];
         let entry: JmWord | undefined; let usedBase = base;
         // numbers have no useful dictionary entry ("5" would look up 五); the Explain tab covers them
         if (!punct && !numeric) for (const tryBase of tries) {
           const baseReading = kata2hira(tokenizer.tokenize(tryBase).map((x) => x.reading ?? x.surface_form).join(""));
-          entry = lookup(tryBase, baseReading);
+          entry = lookup(tryBase, baseReading, simplePos(head), head.conjugated_type ?? "");
           if (entry) { usedBase = tryBase; break; }
         }
         if (entry && !dictOut[entry.id]) dictOut[entry.id] = toEntry(entry, usedBase);
@@ -474,6 +547,11 @@ const stale = new Set<string>();
 // stable, deterministic order: by id
 clips.sort((a, b) => (a.id < b.id ? -1 : 1));
 const CLIPS_PER_PART = 300;
+// Curated first clips for everyone (scripts/content/pick_starter.py); only ids that still exist.
+const starterFile = path.join(HERE, "starter.json");
+const clipIds = new Set(clips.map((c) => c.id));
+const starter: string[] = fs.existsSync(starterFile) ? (JSON.parse(fs.readFileSync(starterFile, "utf8")).ids as string[]).filter((id) => clipIds.has(id)) : [];
+console.log(`starter ${starter.length} clips`);
 const content = { version: 1, generatedAt: new Date().toISOString().slice(0, 10), videos, clips };
 
 for (const dir of OUT_DIRS) {
@@ -487,7 +565,7 @@ for (const dir of OUT_DIRS) {
     parts.push(name);
     fs.writeFileSync(path.join(dir, name), JSON.stringify({ clips: clips.slice(i * CLIPS_PER_PART, (i + 1) * CLIPS_PER_PART) }));
   }
-  fs.writeFileSync(path.join(dir, "content.json"), JSON.stringify({ version: content.version, generatedAt: content.generatedAt, videos, parts }));
+  fs.writeFileSync(path.join(dir, "content.json"), JSON.stringify({ version: content.version, generatedAt: content.generatedAt, videos, parts, starter }));
   fs.writeFileSync(path.join(dir, "dict.json"), JSON.stringify(dictOut));
   for (const c of clips) {
     const ef = path.join(EXPLAIN, `${c.id}.json`);

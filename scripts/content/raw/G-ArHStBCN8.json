@@ -11,21 +11,20 @@
     "food"
    ],
    "grammar": [
-    "〜たら — when / after doing",
-    "〜て — connecting verbs",
-    "〜のが好き — like doing"
+    "〜たら — when/if",
+    "〜のが好き — like doing something"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 23.6,
-     "end": 26.0,
+     "start": 23.5,
+     "end": 26.3,
      "ja": "僕は朝起きたら、",
      "en": "When I wake up in the morning,",
      "speaker": "Yuta"
     },
     {
-     "start": 26.5,
+     "start": 26.8,
      "end": 29.8,
      "ja": "コーヒーを飲みます。",
      "en": "I drink coffee.",
@@ -33,162 +32,126 @@
     },
     {
      "start": 30.6,
-     "end": 32.7,
+     "end": 32.9,
      "ja": "コーヒーを作って、",
      "en": "I make coffee,",
      "speaker": "Yuta"
     },
     {
-     "start": 33.6,
+     "start": 33.3,
      "end": 35.5,
      "ja": "飲みます。",
      "en": "and drink it.",
      "speaker": "Yuta"
     },
     {
-     "start": 37.1,
-     "end": 41.0,
-     "ja": "朝にコーヒーを飲むのが、",
-     "en": "Drinking coffee in the morning",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 41.5,
-     "end": 43.1,
-     "ja": "とても好きです。",
-     "en": "is something I really like.",
+     "start": 37.0,
+     "end": 41.5,
+     "ja": "朝にコーヒーを飲むのがとても好きです。",
+     "en": "I really like drinking coffee in the morning.",
      "speaker": "Yuta"
     }
    ]
   },
   {
-   "start": 120.3,
-   "end": 142.8,
-   "title": "Making Breakfast with Toast and Egg",
+   "start": 103.5,
+   "end": 125.0,
+   "title": "Cooking an Egg",
    "level": "N5",
    "topics": [
-    "food",
-    "daily"
+    "daily",
+    "food"
    ],
    "grammar": [
-    "〜て — connecting actions",
-    "〜と一緒に — together with"
+    "〜も — also",
+    "〜て — connecting actions"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 120.8,
-     "end": 122.5,
-     "ja": "卵を割って、",
-     "en": "I crack an egg,",
+     "start": 103.8,
+     "end": 107.5,
+     "ja": "あとは卵も食べます。",
+     "en": "I also eat eggs.",
      "speaker": "Yuta"
     },
     {
-     "start": 123.6,
-     "end": 125.7,
+     "start": 108.0,
+     "end": 110.6,
+     "ja": "卵も食べます。",
+     "en": "I eat eggs too.",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 112.5,
+     "end": 115.8,
+     "ja": "卵を割って、",
+     "en": "I crack the egg,",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 116.8,
+     "end": 119.5,
+     "ja": "卵を割る？",
+     "en": "Crack the egg?",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 120.3,
+     "end": 122.3,
+     "ja": "卵を割って、",
+     "en": "I crack the egg,",
+     "speaker": "Yuta"
+    },
+    {
+     "start": 123.0,
+     "end": 124.7,
      "ja": "卵を焼きます。",
      "en": "and fry the egg.",
      "speaker": "Yuta"
-    },
-    {
-     "start": 127.0,
-     "end": 129.2,
-     "ja": "卵を焼く。",
-     "en": "Fry the egg.",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 131.6,
-     "end": 135.0,
-     "ja": "卵をパンの上に乗せて、",
-     "en": "I put the egg on top of the bread,",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 135.6,
-     "end": 139.1,
-     "ja": "コーヒーと一緒に食べます。",
-     "en": "and eat it with coffee.",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 140.1,
-     "end": 142.3,
-     "ja": "とても美味しいですね。",
-     "en": "It's very delicious.",
-     "speaker": "Yuta"
     }
    ]
   },
   {
-   "start": 312.2,
-   "end": 341.2,
-   "title": "Cleaning the House After a Walk",
+   "start": 215.7,
+   "end": 232.8,
+   "title": "Going for a Walk",
    "level": "N5",
    "topics": [
     "daily"
    ],
    "grammar": [
-    "〜を使って — using...",
-    "〜と — when / if (natural consequence)",
-    "〜になる — to become"
+    "〜くらい — about/approximate amount",
+    "〜ている時 — when doing something"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 312.8,
-     "end": 315.6,
-     "ja": "次は掃除をします。掃除。",
-     "en": "Next, I clean. Cleaning.",
+     "start": 216.0,
+     "end": 218.4,
+     "ja": "３０分くらい、",
+     "en": "Around 30 minutes,",
      "speaker": "Yuta"
     },
     {
-     "start": 316.5,
-     "end": 320.1,
-     "ja": "家の中を掃除機を使って、",
-     "en": "Inside the house, using a vacuum cleaner,",
+     "start": 219.0,
+     "end": 222.9,
+     "ja": "３０分くらい散歩をします。",
+     "en": "I go for a walk for about 30 minutes.",
      "speaker": "Yuta"
     },
     {
-     "start": 320.6,
-     "end": 322.9,
-     "ja": "きれいにします。",
-     "en": "I make it clean.",
+     "start": 223.8,
+     "end": 227.4,
+     "ja": "外をゆっくり歩きます。",
+     "en": "I take a leisurely walk outside.",
      "speaker": "Yuta"
     },
     {
-     "start": 323.7,
-     "end": 327.3,
-     "ja": "家の中を掃除をします。",
-     "en": "I clean inside the house.",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 329.5,
-     "end": 331.6,
-     "ja": "掃除をすると、",
-     "en": "When I clean,",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 331.8,
-     "end": 335.2,
-     "ja": "家がとてもきれいになります。",
-     "en": "the house becomes very clean.",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 335.8,
-     "end": 338.4,
-     "ja": "家がとてもきれいになって、",
-     "en": "The house becomes very clean,",
-     "speaker": "Yuta"
-    },
-    {
-     "start": 338.7,
-     "end": 340.7,
-     "ja": "嬉しい気持ちになります。",
-     "en": "and it makes me feel happy.",
+     "start": 228.1,
+     "end": 232.5,
+     "ja": "晴れている時はとても気持ちがいいですね。",
+     "en": "When the weather is clear, it feels very nice.",
      "speaker": "Yuta"
     }
    ]
@@ -198,5 +161,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

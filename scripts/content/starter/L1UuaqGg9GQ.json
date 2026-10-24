@@ -1,0 +1,19 @@
+{
+ "videoId": "L1UuaqGg9GQ",
+ "ids": [
+  "L1UuaqGg9GQ-195"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "L1UuaqGg9GQ-195": {
+   "id": "L1UuaqGg9GQ-195",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Clear narration with on-screen text, but visual presentation is static."
+  }
+ }
+}

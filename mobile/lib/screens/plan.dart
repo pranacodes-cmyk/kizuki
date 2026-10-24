@@ -12,8 +12,19 @@ import '../widgets/lively_mascot.dart';
 import '../widgets/ui.dart';
 
 /// Feed order for this learner (shared rankFeed rule) — mirrors src/lib/feed.ts.
-List<String> feedOrder(Content c, AppState s) =>
-    rankFeed(c.rankClips, reasonList: s.profile.reasons, jlpt: s.profile.jlpt, seen: s.seen, seed: s.feedSeed);
+/// For You order: the curated starter clips first (same for everyone, until watched), then the
+/// personal ranking — shared rules starterFeedOrder + rankFeed (mirrors src/lib/feed.ts).
+List<String> feedOrder(Content c, AppState s) => starterFeedOrder(
+      rankFeed(c.rankClips, reasonList: s.profile.reasons, jlpt: s.profile.jlpt, seen: s.seen, seed: s.feedSeed),
+      c.starter,
+      seen: s.seen,
+      watched: s.totalClips,
+      jlpt: s.profile.jlpt,
+    );
+
+/// The onboarding phone preview: the starter clips for everyone, in order (no level or history).
+List<String> previewOrder(Content c, AppState s) =>
+    starterFeedOrder(rankFeed(c.rankClips, reasonList: s.profile.reasons, jlpt: s.profile.jlpt, seen: s.seen, seed: s.feedSeed), c.starter);
 
 int levelFitCount(Content c, String jlpt) => c.clips.where((x) => (jlptIndex(x.level) - jlptIndex(jlpt)).abs() <= 1).length;
 

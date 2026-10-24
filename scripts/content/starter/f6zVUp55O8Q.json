@@ -1,0 +1,30 @@
+{
+ "videoId": "f6zVUp55O8Q",
+ "ids": [
+  "f6zVUp55O8Q-14",
+  "f6zVUp55O8Q-145"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "f6zVUp55O8Q-14": {
+   "id": "f6zVUp55O8Q-14",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear greeting and basic vocabulary in charming kimono attire."
+  },
+  "f6zVUp55O8Q-145": {
+   "id": "f6zVUp55O8Q-145",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 2,
+   "english": false,
+   "issues": [],
+   "why": "Lively cultural interaction, but driver speaks quite rapidly for beginners."
+  }
+ }
+}

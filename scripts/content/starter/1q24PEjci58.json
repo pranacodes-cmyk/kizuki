@@ -1,0 +1,30 @@
+{
+ "videoId": "1q24PEjci58",
+ "ids": [
+  "1q24PEjci58-514",
+  "1q24PEjci58-8"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "1q24PEjci58-8": {
+   "id": "1q24PEjci58-8",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Lively haul video introduction with clear casual Japanese."
+  },
+  "1q24PEjci58-514": {
+   "id": "1q24PEjci58-514",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Standard YouTube closing remarks asking for likes and subscriptions."
+  }
+ }
+}

@@ -2,246 +2,230 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 26.0,
-   "end": 46.0,
-   "title": "Have You Ever Traveled?",
+   "start": 13.2,
+   "end": 34.2,
+   "title": "Planning for Summer Vacation",
    "level": "N4",
    "topics": [
     "travel",
-    "comedy",
-    "daily"
+    "work",
+    "fun"
    ],
    "grammar": [
-    "〜たことがある — have experienced doing",
-    "〜以外 — other than"
+    "〜ようと思う — intending to",
+    "〜たことない — have never experienced"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 26.3,
+     "start": 13.3,
+     "end": 17.6,
+     "ja": "いやー、僕もうすぐ大学夏休みなんすけど、旅行行こうと思ってるんすよ。",
+     "en": "Well, my college summer break is coming up soon, and I'm thinking of traveling.",
+     "speaker": "A"
+    },
+    {
+     "start": 18.0,
+     "end": 19.4,
+     "ja": "あー、いいじゃん旅行。",
+     "en": "Oh, traveling sounds great.",
+     "speaker": "B"
+    },
+    {
+     "start": 19.6,
+     "end": 22.5,
+     "ja": "だからちょっと今のうちにがっつりバイトして金貯めたいんすよねー。",
+     "en": "So while I still can, I want to work a lot of shifts and save up money.",
+     "speaker": "A"
+    },
+    {
+     "start": 22.6,
+     "end": 24.3,
+     "ja": "あー、いいねー。金貯めて旅行。",
+     "en": "Ah, nice. Saving money and traveling.",
+     "speaker": "B"
+    },
+    {
+     "start": 24.4,
+     "end": 25.2,
+     "ja": "いいっしょ。",
+     "en": "Right?",
+     "speaker": "A"
+    },
+    {
+     "start": 25.3,
+     "end": 26.3,
+     "ja": "いいじゃん、旅行。",
+     "en": "Traveling is great.",
+     "speaker": "B"
+    },
+    {
+     "start": 26.4,
      "end": 29.0,
-     "ja": "宮本さん今まで行った旅行先で一番楽しかったとこどこすか？",
-     "en": "Miyamoto-san, what's the most fun place you've ever traveled to?",
-     "speaker": "Kato"
+     "ja": "え、宮本さん今まで行った旅行先で一番楽しかったとこどこすか？",
+     "en": "So Miyamoto-san, what's the most fun travel destination you've ever been to?",
+     "speaker": "A"
     },
     {
-     "start": 29.5,
-     "end": 33.7,
-     "ja": "ああ…俺、旅行行ったことないな。",
+     "start": 29.6,
+     "end": 33.8,
+     "ja": "ああ…俺旅行行ったことないな。",
      "en": "Ah... I've never been on a trip.",
-     "speaker": "Miyamoto"
-    },
-    {
-     "start": 34.0,
-     "end": 34.8,
-     "ja": "え？",
-     "en": "Huh?",
-     "speaker": "Kato"
-    },
-    {
-     "start": 35.0,
-     "end": 37.8,
-     "ja": "あ、ない、ないわ。あ、修学旅行かな？",
-     "en": "Ah, no, never. Oh, maybe a school trip?",
-     "speaker": "Miyamoto"
-    },
-    {
-     "start": 37.9,
-     "end": 40.8,
-     "ja": "修学旅行行ったよ。北海道。北海道良かったよ。",
-     "en": "I went on a school trip to Hokkaido. Hokkaido was great.",
-     "speaker": "Miyamoto"
-    },
-    {
-     "start": 41.0,
-     "end": 43.0,
-     "ja": "それ以外１回もないんすか？",
-     "en": "Not even once besides that?",
-     "speaker": "Kato"
-    },
-    {
-     "start": 43.1,
-     "end": 44.0,
-     "ja": "うん。",
-     "en": "Yeah.",
-     "speaker": "Miyamoto"
-    },
-    {
-     "start": 44.1,
-     "end": 45.5,
-     "ja": "へえー。",
-     "en": "Huh.",
-     "speaker": "Kato"
+     "speaker": "B"
     }
    ]
   },
   {
-   "start": 339.2,
-   "end": 404.0,
+   "start": 134.5,
+   "end": 156.0,
    "title": "Long-Distance Relationship",
    "level": "N3",
    "topics": [
     "romance",
-    "comedy",
-    "friends"
+    "friends",
+    "comedy"
    ],
    "grammar": [
-    "〜ても — even if",
-    "〜しか〜ない — only / nothing but",
-    "命令形 — imperative form (しろ)"
+    "〜同士 — between / fellow",
+    "〜てから — since doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 339.5,
-     "end": 342.3,
-     "ja": "宮本さんどれくらいのペースで彼女と会ってんすか？",
-     "en": "Miyamoto-san, how often do you see your girlfriend?",
-     "speaker": "Kato"
+     "start": 134.7,
+     "end": 136.5,
+     "ja": "え、彼女さん何されてる方なんすか？",
+     "en": "So, what does your girlfriend do?",
+     "speaker": "A"
     },
     {
-     "start": 342.4,
-     "end": 346.5,
-     "ja": "いや…会えても２ヶ月に１回とか？",
-     "en": "Well... at best, maybe once every two months?",
-     "speaker": "Miyamoto"
+     "start": 136.6,
+     "end": 138.0,
+     "ja": "名古屋でフリーター。",
+     "en": "She works part-time in Nagoya.",
+     "speaker": "B"
     },
     {
-     "start": 346.6,
-     "end": 348.8,
-     "ja": "もっと会えますって、絶対に！",
-     "en": "You could definitely see her more than that!",
-     "speaker": "Kato"
+     "start": 138.2,
+     "end": 139.1,
+     "ja": "え？",
+     "en": "Huh?",
+     "speaker": "A"
     },
     {
-     "start": 349.0,
-     "end": 352.0,
-     "ja": "２ヶ月に１回とかしか会ってないんすか？",
-     "en": "You only see each other like once every two months?",
-     "speaker": "Kato"
+     "start": 139.6,
+     "end": 142.5,
+     "ja": "え、フリーター同士で遠距離恋愛してんすか？",
+     "en": "Wait, you're both part-timers doing a long-distance relationship?",
+     "speaker": "A"
     },
     {
-     "start": 352.3,
-     "end": 354.0,
-     "ja": "え、浮気とかしてんすか？",
-     "en": "Wait, are you cheating on her or something?",
-     "speaker": "Kato"
+     "start": 142.8,
+     "end": 144.8,
+     "ja": "ああ、まあそうなるか。",
+     "en": "Ah, yeah, I guess that's how it is.",
+     "speaker": "B"
     },
     {
-     "start": 354.0,
-     "end": 356.0,
-     "ja": "いや、浮気なんて１回もしたことないよ。",
-     "en": "No, I've never cheated on her once.",
-     "speaker": "Miyamoto"
+     "start": 144.9,
+     "end": 148.0,
+     "ja": "え、彼女さんは何すか？名古屋の方すか？",
+     "en": "Wait, is your girlfriend from Nagoya?",
+     "speaker": "A"
     },
     {
-     "start": 356.0,
-     "end": 358.0,
-     "ja": "しろよ、せめて浮気！",
-     "en": "At least cheat on her then!",
-     "speaker": "Kato"
+     "start": 148.1,
+     "end": 150.0,
+     "ja": "んーん、地元一緒。新潟。",
+     "en": "Nope, same hometown. Niigata.",
+     "speaker": "B"
     },
     {
-     "start": 358.1,
-     "end": 360.0,
-     "ja": "いや、俺彼女大好きだもん。",
-     "en": "No, I really love my girlfriend.",
-     "speaker": "Miyamoto"
-    },
-    {
-     "start": 360.0,
-     "end": 361.3,
-     "ja": "じゃあ一緒に住めや！",
-     "en": "Then live together!",
-     "speaker": "Kato"
-    },
-    {
-     "start": 361.4,
-     "end": 363.5,
-     "ja": "いやー、大変っしょ。",
-     "en": "No, that'd be tough.",
-     "speaker": "Miyamoto"
+     "start": 150.1,
+     "end": 155.7,
+     "ja": "あの成人式の時に再会して、なんかそれで意気投合してそっから付き合ってるからちょうど8年。",
+     "en": "We reunited at the Coming of Age Ceremony, hit it off, and have been dating since then, so exactly 8 years.",
+     "speaker": "B"
     }
    ]
   },
   {
    "start": 443.0,
-   "end": 501.2,
-   "title": "Moving In Way Too Fast",
-   "level": "N4",
+   "end": 501.0,
+   "title": "Moving In Together",
+   "level": "N3",
    "topics": [
     "romance",
-    "comedy",
-    "daily"
+    "comedy"
    ],
    "grammar": [
-    "そういや — speaking of which",
-    "〜てまだ〜 — it's only been... since"
+    "〜てまだ — it's only been... since",
+    "それはそれで — in its own way"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 443.3,
-     "end": 445.0,
+     "start": 443.2,
+     "end": 445.3,
      "ja": "あ、そういやお前彼女いるの？",
-     "en": "Oh, speaking of which, do you have a girlfriend?",
-     "speaker": "Miyamoto"
+     "en": "Oh, by the way, do you have a girlfriend?",
+     "speaker": "B"
     },
     {
-     "start": 445.1,
-     "end": 446.5,
+     "start": 445.4,
+     "end": 446.7,
      "ja": "いますよ、そら。",
      "en": "Of course I do.",
-     "speaker": "Kato"
+     "speaker": "A"
     },
     {
-     "start": 446.6,
-     "end": 447.3,
-     "ja": "お、そう。",
-     "en": "Oh, really?",
-     "speaker": "Miyamoto"
+     "start": 446.8,
+     "end": 447.4,
+     "ja": "あ、そう。",
+     "en": "Oh, really.",
+     "speaker": "B"
     },
     {
-     "start": 447.4,
-     "end": 448.5,
+     "start": 447.5,
+     "end": 448.8,
      "ja": "同棲してますよ、俺彼女と。",
-     "en": "I'm living with my girlfriend.",
-     "speaker": "Kato"
+     "en": "I'm living together with my girlfriend.",
+     "speaker": "A"
     },
     {
-     "start": 448.6,
-     "end": 449.4,
-     "ja": "いいね！",
-     "en": "Nice!",
-     "speaker": "Miyamoto"
+     "start": 448.9,
+     "end": 449.7,
+     "ja": "ええっ！",
+     "en": "What?!",
+     "speaker": "B"
     },
     {
-     "start": 449.5,
-     "end": 451.0,
-     "ja": "先輩やないすか！",
-     "en": "Look who's ahead of you!",
-     "speaker": "Kato"
+     "start": 449.8,
+     "end": 451.2,
+     "ja": "先輩やないっすか。",
+     "en": "I beat you to it, didn't I?",
+     "speaker": "A"
     },
     {
-     "start": 453.5,
+     "start": 451.8,
      "end": 456.2,
-     "ja": "付き合ってどれくらいで同棲したの？",
-     "en": "How long after you started dating did you move in together?",
-     "speaker": "Miyamoto"
+     "ja": "えー、どんくらい同棲して…付き合ってどれくらいで同棲したの？",
+     "en": "Whoa, how long have you been... How long after you started dating did you move in together?",
+     "speaker": "B"
     },
     {
      "start": 456.3,
-     "end": 458.0,
-     "ja": "付き合ってまだ３日っす。",
-     "en": "We've only been dating for three days.",
-     "speaker": "Kato"
+     "end": 457.8,
+     "ja": "付き合ってまだ3日です。",
+     "en": "It's only been three days since we started dating.",
+     "speaker": "A"
     },
     {
      "start": 458.5,
-     "end": 500.8,
+     "end": 500.6,
      "ja": "それはそれでどうなの？",
-     "en": "What's up with that, then?",
-     "speaker": "Miyamoto"
+     "en": "Isn't that weird in its own way?",
+     "speaker": "B"
     }
    ]
   }
@@ -250,5 +234,6 @@
  "pickTopics": [
   "comedy"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

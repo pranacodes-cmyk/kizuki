@@ -2,193 +2,179 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 5.1,
-   "end": 19.1,
-   "title": "Favorite YouTubers for Teens",
+   "start": 19.3,
+   "end": 33.8,
+   "title": "Favorite YouTuber: Akari Yoshida",
+   "level": "N3",
+   "topics": [
+    "culture",
+    "fun"
+   ],
+   "grammar": [
+    "〜ので — because / since",
+    "〜やすい — easy to"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 19.3,
+     "end": 20.4,
+     "ja": "あかりん。",
+     "en": "Akarin.",
+     "speaker": "Girl 1"
+    },
+    {
+     "start": 20.4,
+     "end": 22.5,
+     "ja": "NMB48の吉田朱里ちゃん。",
+     "en": "Akari Yoshida from NMB48.",
+     "speaker": "Girl 1"
+    },
+    {
+     "start": 22.5,
+     "end": 26.2,
+     "ja": "メイク動画とかをあげてて、すごい参考になるので。",
+     "en": "She posts makeup videos and they're really helpful.",
+     "speaker": "Girl 2"
+    },
+    {
+     "start": 26.2,
+     "end": 29.8,
+     "ja": "可愛い子がすごい好きなんで、憧れみたいなのがあるんで。",
+     "en": "I love cute girls, so I really look up to her.",
+     "speaker": "Girl 1"
+    },
+    {
+     "start": 29.8,
+     "end": 33.7,
+     "ja": "手の届きやすい安いコスメも使って化粧してるので。",
+     "en": "She uses affordable, accessible cosmetics for makeup, too.",
+     "speaker": "Girl 2"
+    }
+   ]
+  },
+  {
+   "start": 56.2,
+   "end": 10.9,
+   "title": "Nekoten and Tokai On Air",
    "level": "N3",
    "topics": [
     "fun",
     "friends"
    ],
    "grammar": [
-    "〜たり〜たり — doing things like",
-    "〜みたいな — like, similar to"
+    "〜っていう — called / named",
+    "〜たり〜たり — doing things like"
    ],
-   "quality": 5,
+   "quality": 4,
    "lines": [
     {
-     "start": 5.3,
-     "end": 6.8,
-     "ja": "水溜りボンド。",
-     "en": "Mizutamari Bond.",
-     "speaker": "Girl A"
-    },
-    {
-     "start": 6.8,
-     "end": 8.4,
-     "ja": "なんか実験とかしたりして、",
-     "en": "They do experiments and stuff,",
-     "speaker": "Girl A"
-    },
-    {
-     "start": 8.5,
-     "end": 10.9,
-     "ja": "面白いです。お笑いみたいな感じで。",
-     "en": "and it's funny. It feels like comedy.",
-     "speaker": "Girl A"
-    },
-    {
-     "start": 11.0,
-     "end": 13.5,
-     "ja": "ふくれなちゃんが面白い...好き、面白いなと。",
-     "en": "I like Fukurena, she's really funny.",
-     "speaker": "Girl B"
-    },
-    {
-     "start": 13.6,
-     "end": 15.5,
-     "ja": "メイクのとかもあるんですけど、",
-     "en": "She has makeup videos and such, but",
-     "speaker": "Girl B"
-    },
-    {
-     "start": 15.6,
-     "end": 17.5,
-     "ja": "結構その合間合間のお話が面白くて、",
-     "en": "the chit-chat in between is pretty hilarious,",
-     "speaker": "Girl B"
-    },
-    {
-     "start": 17.5,
-     "end": 18.9,
-     "ja": "変顔とかすごかったり。",
-     "en": "and her funny faces are amazing.",
-     "speaker": "Girl B"
-    }
-   ]
-  },
-  {
-   "start": 56.4,
-   "end": 109.8,
-   "title": "Nekoten and Tokai On Air",
-   "level": "N4",
-   "topics": [
-    "fun",
-    "daily"
-   ],
-   "grammar": [
-    "〜たり〜たり — doing things like",
-    "〜だけ — only, just"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 56.7,
+     "start": 56.3,
      "end": 58.7,
      "ja": "えっと、ねこてんっていう人が好きです。",
      "en": "Um, I like this person called Nekoten.",
-     "speaker": "Girl A"
+     "speaker": "Girl 1"
     },
     {
      "start": 58.8,
-     "end": 60.5,
+     "end": 60.6,
      "ja": "私、東海オンエア。",
      "en": "For me, Tokai On Air.",
-     "speaker": "Girl B"
+     "speaker": "Girl 2"
     },
     {
      "start": 60.8,
-     "end": 63.0,
-     "ja": "ただひたすら食べ物食べる動画出したり、",
-     "en": "She posts videos where she just eats food,",
-     "speaker": "Girl A"
+     "end": 63.4,
+     "ja": "ただひたすら食べ物食べる動画だったり、",
+     "en": "Videos where she just eats food, or...",
+     "speaker": "Girl 1"
     },
     {
-     "start": 63.2,
-     "end": 65.8,
-     "ja": "喋るだけの動画出したり、メイク動画出したり、",
-     "en": "videos where she just talks, or makeup videos,",
-     "speaker": "Girl A"
+     "start": 63.4,
+     "end": 66.0,
+     "ja": "喋るだけの動画だったり、メイク動画出したり、",
+     "en": "...videos just talking, or putting out makeup videos...",
+     "speaker": "Girl 1"
     },
     {
      "start": 66.0,
-     "end": 67.5,
+     "end": 67.8,
      "ja": "可愛い人です。",
-     "en": "she's a cute person.",
-     "speaker": "Girl A"
+     "en": "She's just a cute person.",
+     "speaker": "Girl 1"
     },
     {
-     "start": 67.7,
-     "end": 69.5,
+     "start": 67.8,
+     "end": 69.8,
      "ja": "面白いグループYouTuber。",
-     "en": "They're a funny group of YouTubers.",
-     "speaker": "Girl B"
+     "en": "They're a funny YouTuber group.",
+     "speaker": "Girl 2"
     }
    ]
   },
   {
-   "start": 224.0,
-   "end": 243.6,
-   "title": "Charisma Brothers and Joe Vlog",
+   "start": 144.2,
+   "end": 163.7,
+   "title": "Charisma Brothers and Joe Blog",
    "level": "N3",
    "topics": [
     "fun",
-    "sports"
+    "friends"
    ],
    "grammar": [
-    "〜じゃないですか — as you know, right?",
-    "〜てて — casual form of 〜ていて"
+    "〜じゃないですか — isn't it? (seeking agreement)",
+    "〜と思う — to think that"
    ],
-   "quality": 5,
+   "quality": 4,
    "lines": [
     {
-     "start": 224.2,
-     "end": 226.0,
+     "start": 144.3,
+     "end": 146.0,
      "ja": "カリブラをよく見ますね。",
      "en": "I often watch Charisma Brothers.",
-     "speaker": "Guy A"
+     "speaker": "Guy 1"
     },
     {
-     "start": 226.2,
-     "end": 229.4,
-     "ja": "メンバー３人なんですけど、その掛け合いとかもすごく好きで、",
-     "en": "There are three members, and I really like their back-and-forth interactions,",
-     "speaker": "Guy A"
+     "start": 146.1,
+     "end": 149.3,
+     "ja": "メンバー3人なんですけど、その掛け合いとかもすごく好きで、",
+     "en": "There are three members, and I really like their banter,",
+     "speaker": "Guy 1"
     },
     {
-     "start": 229.5,
-     "end": 233.3,
-     "ja": "お酒でオセロとかくだらないとこが好きですね。",
-     "en": "I like the silly things they do, like playing Othello while drinking.",
-     "speaker": "Guy A"
+     "start": 149.4,
+     "end": 154.0,
+     "ja": "お酒でオセロとか、そういうちょっとくだらないとこが好きですね。",
+     "en": "like playing Othello with drinking—I like that kind of silly stuff.",
+     "speaker": "Guy 1"
     },
     {
-     "start": 234.0,
-     "end": 235.5,
+     "start": 154.0,
+     "end": 155.4,
      "ja": "ジョーブログです。",
-     "en": "For me, Joe Vlog.",
-     "speaker": "Guy B"
+     "en": "Joe Blog for me.",
+     "speaker": "Guy 2"
     },
     {
-     "start": 235.7,
-     "end": 237.7,
-     "ja": "色んなとこ行って自分で検証したり、",
-     "en": "He goes to various places to test things out himself,",
-     "speaker": "Guy B"
+     "start": 155.5,
+     "end": 158.2,
+     "ja": "いろんなとこ行って、自分で検証したり、",
+     "en": "Going to all sorts of places and verifying things himself...",
+     "speaker": "Guy 2"
     },
     {
-     "start": 238.0,
-     "end": 240.5,
-     "ja": "今もうボクシングでプロになったじゃないですか。",
-     "en": "and now he's even turned pro in boxing, right?",
-     "speaker": "Guy B"
+     "start": 158.3,
+     "end": 160.8,
+     "ja": "今もボクシングでプロになったじゃないですか。",
+     "en": "Like recently, he even went pro in boxing, right?",
+     "speaker": "Guy 2"
     },
     {
-     "start": 240.7,
-     "end": 243.2,
+     "start": 160.9,
+     "end": 163.6,
      "ja": "そういうの見てて好きだな、面白いなと思って見てます。",
-     "en": "Watching that makes me really like him, so I enjoy watching.",
-     "speaker": "Guy B"
+     "en": "Watching that, I think he's really cool and entertaining to watch.",
+     "speaker": "Guy 2"
     }
    ]
   }
@@ -197,5 +183,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

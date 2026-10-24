@@ -1,0 +1,30 @@
+{
+ "videoId": "dO0rqWQo2Ok",
+ "ids": [
+  "dO0rqWQo2Ok-117",
+  "dO0rqWQo2Ok-7"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "dO0rqWQo2Ok-117": {
+   "id": "dO0rqWQo2Ok-117",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple self-introduction and greeting in a welcoming anime classroom."
+  },
+  "dO0rqWQo2Ok-7": {
+   "id": "dO0rqWQo2Ok-7",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear beginner-friendly self-introduction about entering school in Japan."
+  }
+ }
+}

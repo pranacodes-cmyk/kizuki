@@ -1,0 +1,30 @@
+{
+ "videoId": "gih0zDt7jCQ",
+ "ids": [
+  "gih0zDt7jCQ-14",
+  "gih0zDt7jCQ-811"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "gih0zDt7jCQ-14": {
+   "id": "gih0zDt7jCQ-14",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear itinerary overview with slow speech and matching scenic visuals."
+  },
+  "gih0zDt7jCQ-811": {
+   "id": "gih0zDt7jCQ-811",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Practical ordering dialogue, though visual remains focused on the menu."
+  }
+ }
+}

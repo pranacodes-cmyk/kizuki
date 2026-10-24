@@ -1,6 +1,6 @@
 // Loads the shared clip library + dictionary (public/data, same files bundled in Flutter
 // mobile/assets/data). Written by scripts/content/build.ts — never hand-edit the JSON.
-import type { RankClip } from "./logic";
+import type { RankClip, StarterClip } from "./logic";
 
 export type Word = {
   s: string; r: string; ro: string; b: string; p: string; d: string | null;
@@ -22,6 +22,8 @@ export type Content = {
   clips: Clip[];
   byId: Record<string, Clip>;
   dict: Record<string, DictEntry>;
+  /** Curated first clips for everyone, in order (scripts/content/pick_starter.py). */
+  starter: StarterClip[];
 };
 
 const fetchJson = (u: string) => fetch(u).then((r) => { if (!r.ok) throw new Error(`content ${r.status}`); return r.json(); });
@@ -35,12 +37,15 @@ export function loadContent(): Promise<Content> {
     contentPromise = Promise.all([
       fetchJson("/data/content.json").then(async (m) => ({
         videos: m.videos,
+        starter: (m.starter ?? []) as string[],
         // Clips are sharded (see scripts/content/build.ts); load every part in parallel.
         clips: (await Promise.all((m.parts as string[]).map((p) => fetchJson(`/data/${p}`)))).flatMap((x) => x.clips),
       })),
       fetch("/data/dict.json").then((r) => { if (!r.ok) throw new Error(`dict ${r.status}`); return r.json(); }),
     ]).then(([c, d]) => {
-      loaded = { videos: c.videos, clips: c.clips, byId: Object.fromEntries(c.clips.map((x: Clip) => [x.id, x])), dict: d };
+      const byId: Record<string, Clip> = Object.fromEntries(c.clips.map((x: Clip) => [x.id, x]));
+      const starter = c.starter.filter((id) => byId[id]).map((id) => ({ id, level: byId[id]!.level }));
+      loaded = { videos: c.videos, clips: c.clips, byId, dict: d, starter };
       return loaded;
     }).catch((e) => { contentPromise = null; throw e; });
   }

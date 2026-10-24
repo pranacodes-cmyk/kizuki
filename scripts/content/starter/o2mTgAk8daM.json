@@ -1,0 +1,30 @@
+{
+ "videoId": "o2mTgAk8daM",
+ "ids": [
+  "o2mTgAk8daM-17",
+  "o2mTgAk8daM-54"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "o2mTgAk8daM-54": {
+   "id": "o2mTgAk8daM-54",
+   "appeal": 3,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear and simple speech, but static slides lack visual engagement."
+  },
+  "o2mTgAk8daM-17": {
+   "id": "o2mTgAk8daM-17",
+   "appeal": 3,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Audible dialogue, but presentation is an unengaging text slide."
+  }
+ }
+}

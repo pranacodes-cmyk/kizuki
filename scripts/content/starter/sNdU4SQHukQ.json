@@ -1,0 +1,19 @@
+{
+ "videoId": "sNdU4SQHukQ",
+ "ids": [
+  "sNdU4SQHukQ-518"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "sNdU4SQHukQ-518": {
+   "id": "sNdU4SQHukQ-518",
+   "appeal": 7,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Fun sushi order scene featuring practical everyday casual vocabulary."
+  }
+ }
+}

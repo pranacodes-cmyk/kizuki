@@ -2,257 +2,172 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 1.9,
-   "end": 22.8,
-   "title": "Trying Out a New Casino Game",
-   "level": "N3",
+   "start": 1.7,
+   "end": 20.9,
+   "title": "First Time in Las Vegas",
+   "level": "N4",
    "topics": [
     "travel",
     "fun",
     "comedy"
    ],
    "grammar": [
-    "〜ものだ — expresses a general realization",
-    "〜てみる — to try doing something"
+    "〜てみる — try doing",
+    "〜けど — but / although"
    ],
-   "quality": 5,
+   "quality": 4,
    "lines": [
     {
-     "start": 2.2,
-     "end": 7.0,
-     "ja": "いやあ、初めてラスベガス来たけど、意外と勝てるもんだなあ。",
-     "en": "Man, it's my first time in Las Vegas, but surprisingly you can actually win.",
-     "speaker": "Tourist"
+     "start": 2.0,
+     "end": 4.5,
+     "ja": "いやー 初めてラスベガス来たけど",
+     "en": "Man, it's my first time in Las Vegas,",
+     "speaker": "Player"
     },
     {
-     "start": 9.3,
-     "end": 11.7,
-     "ja": "お？キャニオン？",
-     "en": "Oh? Canyon?",
-     "speaker": "Tourist"
+     "start": 4.5,
+     "end": 7.3,
+     "ja": "意外と勝てるもんだなぁ。",
+     "en": "but surprisingly, I can actually win.",
+     "speaker": "Player"
     },
     {
-     "start": 11.8,
-     "end": 14.5,
-     "ja": "なんだこのゲーム？知らねえなあ。",
+     "start": 8.7,
+     "end": 12.0,
+     "ja": "ん？キャニオン？",
+     "en": "Huh? Canyon?",
+     "speaker": "Player"
+    },
+    {
+     "start": 12.0,
+     "end": 14.7,
+     "ja": "何だこのゲーム？知らねぇな。",
      "en": "What is this game? Never heard of it.",
-     "speaker": "Tourist"
+     "speaker": "Player"
     },
     {
-     "start": 14.9,
-     "end": 16.6,
+     "start": 15.1,
+     "end": 16.9,
      "ja": "Hey, play?",
      "en": "Hey, play?",
      "speaker": "Dealer"
     },
     {
-     "start": 17.4,
-     "end": 20.5,
-     "ja": "まぁポーカーでちょっと勝ったし、やってみっか。",
-     "en": "Well, I won a bit at poker, might as well give it a shot.",
-     "speaker": "Tourist"
-    },
-    {
-     "start": 20.7,
-     "end": 22.3,
-     "ja": "オーケー。プレイ。",
-     "en": "Okay. Play.",
-     "speaker": "Tourist"
+     "start": 18.0,
+     "end": 20.8,
+     "ja": "ポーカーでちょっと勝ったし、やってみっか。",
+     "en": "I won a bit at poker, might as well give it a try.",
+     "speaker": "Player"
     }
    ]
   },
   {
-   "start": 148.6,
-   "end": 208.2,
-   "title": "The Dealer's Nuance",
-   "level": "N3",
+   "start": 118.4,
+   "end": 129.5,
+   "title": "It's That Easy?",
+   "level": "N4",
    "topics": [
-    "comedy",
-    "fun"
+    "fun",
+    "comedy"
    ],
    "grammar": [
-    "〜ということ — that means / it comes down to",
-    "だから〜んだ — that's why... (explanatory)"
+    "〜だけ — only / just",
+    "〜じゃん — isn't it?"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 149.0,
-     "end": 150.3,
-     "ja": "Excuse me.",
-     "en": "Excuse me.",
-     "speaker": "Tourist"
+     "start": 118.7,
+     "end": 120.4,
+     "ja": "勝った！",
+     "en": "I won!",
+     "speaker": "Player"
     },
     {
-     "start": 150.4,
-     "end": 151.3,
+     "start": 120.6,
+     "end": 122.9,
+     "ja": "えー？何これ？",
+     "en": "Huh? What is this?",
+     "speaker": "Player"
+    },
+    {
+     "start": 123.0,
+     "end": 125.6,
+     "ja": "低い数字当てるだけのゲーム？",
+     "en": "Is it just a game where you guess the lower number?",
+     "speaker": "Player"
+    },
+    {
+     "start": 125.6,
+     "end": 127.3,
+     "ja": "めっちゃ簡単じゃん！",
+     "en": "That's super easy!",
+     "speaker": "Player"
+    },
+    {
+     "start": 127.3,
+     "end": 129.2,
+     "ja": "何で誰もやってないの？",
+     "en": "Why is nobody playing this?",
+     "speaker": "Player"
+    }
+   ]
+  },
+  {
+   "start": 149.0,
+   "end": 160.0,
+   "title": "Asking for the Rules",
+   "level": "N4",
+   "topics": [
+    "comedy",
+    "travel"
+   ],
+   "grammar": [
+    "〜てこと — meaning that / does it mean that"
+   ],
+   "quality": 4,
+   "lines": [
+    {
+     "start": 149.3,
+     "end": 150.7,
+     "ja": "Excuse me.",
+     "en": "Excuse me.",
+     "speaker": "Player"
+    },
+    {
+     "start": 150.8,
+     "end": 151.7,
      "ja": "Yes.",
      "en": "Yes.",
      "speaker": "Dealer"
     },
     {
-     "start": 151.4,
-     "end": 153.9,
+     "start": 151.7,
+     "end": 154.0,
      "ja": "This game rule, please.",
-     "en": "This game rule, please.",
-     "speaker": "Tourist"
+     "en": "This game's rules, please.",
+     "speaker": "Player"
     },
     {
-     "start": 154.1,
+     "start": 154.2,
      "end": 155.2,
-     "ja": "Oh, okay.",
-     "en": "Oh, okay.",
+     "ja": "OK.",
+     "en": "OK.",
      "speaker": "Dealer"
     },
     {
      "start": 155.3,
-     "end": 158.2,
+     "end": 157.9,
      "ja": "This game, my nuance.",
      "en": "This game, my nuance.",
      "speaker": "Dealer"
     },
     {
-     "start": 158.3,
+     "start": 158.0,
      "end": 159.8,
-     "ja": "ニュアンス！？",
+     "ja": "ニュアンス？！",
      "en": "Nuance?!",
-     "speaker": "Tourist"
-    },
-    {
-     "start": 159.9,
-     "end": 160.8,
-     "ja": "Yes.",
-     "en": "Yes.",
-     "speaker": "Dealer"
-    },
-    {
-     "start": 160.9,
-     "end": 163.0,
-     "ja": "え、こいつのさじ加減ってこと？",
-     "en": "Wait, so it's entirely up to his discretion?",
-     "speaker": "Tourist"
-    },
-    {
-     "start": 163.1,
-     "end": 164.6,
-     "ja": "My nuance.",
-     "en": "My nuance.",
-     "speaker": "Dealer"
-    },
-    {
-     "start": 164.7,
-     "end": 165.6,
-     "ja": "怖っ！",
-     "en": "Terrifying!",
-     "speaker": "Tourist"
-    },
-    {
-     "start": 165.7,
-     "end": 167.8,
-     "ja": "だから誰もやってないんだ！",
-     "en": "That's why nobody is playing this!",
-     "speaker": "Tourist"
-    }
-   ]
-  },
-  {
-   "start": 253.4,
-   "end": 321.2,
-   "title": "Mistaken Identity",
-   "level": "N3",
-   "topics": [
-    "comedy",
-    "fun"
-   ],
-   "grammar": [
-    "〜じゃねえ — casual contraction of ではない",
-    "〜に見える — to look like / appear as"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 253.7,
-     "end": 255.2,
-     "ja": "なんか助け求めてる！",
-     "en": "He's calling for help!",
-     "speaker": "Tourist"
-    },
-    {
-     "start": 255.4,
-     "end": 258.0,
-     "ja": "Japanese pro canyon player.",
-     "en": "Japanese pro canyon player.",
-     "speaker": "Dealer"
-    },
-    {
-     "start": 258.1,
-     "end": 260.0,
-     "ja": "違う違う違う！",
-     "en": "No, no, no!",
-     "speaker": "Tourist"
-    },
-    {
-     "start": 260.1,
-     "end": 264.0,
-     "ja": "プロじゃねえよ！ただの観光客！",
-     "en": "I'm not a pro! Just a tourist!",
-     "speaker": "Tourist"
-    },
-    {
-     "start": 264.2,
-     "end": 265.7,
-     "ja": "Blue shirt.",
-     "en": "Blue shirt.",
-     "speaker": "Dealer"
-    },
-    {
-     "start": 265.8,
-     "end": 266.6,
-     "ja": "え？",
-     "en": "Huh?",
-     "speaker": "Tourist"
-    },
-    {
-     "start": 266.7,
-     "end": 268.6,
-     "ja": "Junior high school student.",
-     "en": "Junior high school student.",
-     "speaker": "Dealer"
-    },
-    {
-     "start": 268.8,
-     "end": 271.0,
-     "ja": "いや中学生じゃねえから！",
-     "en": "Hey, I'm not a middle schooler!",
-     "speaker": "Tourist"
-    },
-    {
-     "start": 271.1,
-     "end": 274.0,
-     "ja": "え、どんだけ幼く見えてんの？！",
-     "en": "Wait, how young do I look to you?!",
-     "speaker": "Tourist"
-    },
-    {
-     "start": 274.2,
-     "end": 276.0,
-     "ja": "Boyish girl.",
-     "en": "Boyish girl.",
-     "speaker": "Dealer"
-    },
-    {
-     "start": 276.1,
-     "end": 278.0,
-     "ja": "いや男！男！",
-     "en": "No, a guy! A guy!",
-     "speaker": "Tourist"
-    },
-    {
-     "start": 278.1,
-     "end": 280.8,
-     "ja": "え、女子中学生に見えてる？！",
-     "en": "Wait, I look like a middle school girl to you?!",
-     "speaker": "Tourist"
+     "speaker": "Player"
     }
    ]
   }
@@ -261,5 +176,6 @@
  "pickTopics": [
   "comedy"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -1,0 +1,19 @@
+{
+ "videoId": "u5RS51jv27o",
+ "ids": [
+  "u5RS51jv27o-2"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "u5RS51jv27o-2": {
+   "id": "u5RS51jv27o-2",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Simple everyday greetings followed by a clear, expressive reaction."
+  }
+ }
+}

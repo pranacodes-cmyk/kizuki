@@ -2,171 +2,214 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 497.0,
-   "end": 515.5,
-   "title": "Meeting Whisper the Yo-kai",
+   "start": 555.2,
+   "end": 574.0,
+   "title": "Whisper Gives Keita the Yo-kai Watch",
    "level": "N4",
    "topics": [
     "anime",
-    "comedy"
+    "fun"
    ],
    "grammar": [
-    "〜と申します — my name is (humble)",
-    "〜と言ったところ — what you might call"
+    "ならば — if that is the case",
+    "〜ば — conditional form (if/when)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 497.4,
-     "end": 499.7,
-     "ja": "わたくしめはウィスパー！",
-     "en": "My name is Whisper!",
+     "start": 555.4,
+     "end": 557.5,
+     "ja": "あぁ、やはりケータくんには見えませんか。",
+     "en": "Ah, as I thought, you can't see it, Keita-kun?",
      "speaker": "Whisper"
     },
     {
-     "start": 501.1,
-     "end": 502.5,
-     "ja": "うぃっす！",
-     "en": "Whiss!",
+     "start": 558.0,
+     "end": 560.2,
+     "ja": "ならば、これを！",
+     "en": "In that case, take this!",
      "speaker": "Whisper"
     },
     {
-     "start": 507.4,
-     "end": 512.4,
-     "ja": "あなた達人間世界で言うところの、妖怪です！",
-     "en": "In what you in the human world call it, I am a Yo-kai!",
-     "speaker": "Whisper"
-    },
-    {
-     "start": 512.6,
-     "end": 514.8,
-     "ja": "妖怪って、お化け？",
-     "en": "A Yo-kai? You mean a ghost?",
-     "speaker": "Keita"
-    }
-   ]
-  },
-  {
-   "start": 918.5,
-   "end": 932.4,
-   "title": "Introducing the Yo-kai Watch",
-   "level": "N4",
-   "topics": [
-    "anime"
-   ],
-   "grammar": [
-    "〜ならば — if that's the case",
-    "〜ば — if"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 918.6,
-     "end": 919.8,
-     "ja": "ならばこれを！",
-     "en": "Then take this!",
-     "speaker": "Whisper"
-    },
-    {
-     "start": 921.1,
-     "end": 922.3,
+     "start": 560.8,
+     "end": 562.0,
      "ja": "何これ？",
      "en": "What's this?",
      "speaker": "Keita"
     },
     {
-     "start": 922.3,
-     "end": 924.0,
-     "ja": "妖怪ウォッチです！",
-     "en": "It's the Yo-kai Watch!",
+     "start": 562.2,
+     "end": 564.0,
+     "ja": "妖怪ウォッチです。",
+     "en": "It is a Yo-kai Watch.",
      "speaker": "Whisper"
     },
     {
-     "start": 924.3,
-     "end": 925.5,
+     "start": 564.2,
+     "end": 565.5,
      "ja": "妖怪ウォッチ？",
-     "en": "Yo-kai Watch?",
+     "en": "A Yo-kai Watch?",
      "speaker": "Keita"
     },
     {
-     "start": 926.2,
-     "end": 929.1,
-     "ja": "人間と私達妖怪のコミュニケーションツールです！",
-     "en": "It's a communication tool between humans and us Yo-kai!",
+     "start": 565.8,
+     "end": 569.0,
+     "ja": "人間とわたくしたち妖怪のコミュニケーションツールです。",
+     "en": "It is a communication tool between humans and us Yo-kai.",
      "speaker": "Whisper"
     },
     {
-     "start": 929.5,
-     "end": 932.1,
-     "ja": "これを付ければ、喧嘩もきっと治められますよ！",
-     "en": "If you put this on, you'll surely be able to stop their fight!",
+     "start": 569.3,
+     "end": 572.4,
+     "ja": "これをつければ喧嘩もきっと収められますよ。",
+     "en": "If you put this on, you can surely put an end to the quarrel.",
+     "speaker": "Whisper"
+    },
+    {
+     "start": 572.7,
+     "end": 573.7,
+     "ja": "さぁ！",
+     "en": "Here!",
      "speaker": "Whisper"
     }
    ]
   },
   {
-   "start": 1720.0,
-   "end": 1739.5,
-   "title": "Jibanyan Remembers His Past Life",
-   "level": "N4",
+   "start": 634.5,
+   "end": 652.0,
+   "title": "Negotiation or Force",
+   "level": "N3",
    "topics": [
     "anime",
-    "animals"
+    "comedy"
    ],
    "grammar": [
-    "〜てた — was doing (casual 〜ていた)",
-    "〜てもらう — to receive the favor of having someone do"
+    "〜てもらう — receiving a favor/action",
+    "〜てごらんにいれる — humble form of showing/demonstrating"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1720.0,
-     "end": 1723.7,
-     "ja": "俺っちは生きてた頃、エミちゃんって子に飼ってもらってたにゃん。",
-     "en": "When I was alive, I was kept as a pet by a girl named Emi-chan, nyan.",
-     "speaker": "Jibanyan"
-    },
-    {
-     "start": 1724.4,
-     "end": 1729.8,
-     "ja": "今はジバニャンって名前にゃけど、本当は違う名前をつけてもらってたにゃん。",
-     "en": "Now my name is Jibanyan, but actually I had been given a different name, nyan.",
-     "speaker": "Jibanyan"
-    },
-    {
-     "start": 1730.7,
-     "end": 1732.4,
-     "ja": "何という名前です？",
-     "en": "What was the name?",
-     "speaker": "Whisper"
-    },
-    {
-     "start": 1732.5,
-     "end": 1735.6,
-     "ja": "それはもう、素敵かつ格好良く、紳士的な名前にゃん！",
-     "en": "It was truly wonderful, cool, and gentlemanly, nyan!",
-     "speaker": "Jibanyan"
-    },
-    {
-     "start": 1736.2,
-     "end": 1737.7,
-     "ja": "ですからどんなお名前を？",
-     "en": "So, what kind of name was it?",
-     "speaker": "Whisper"
-    },
-    {
-     "start": 1737.9,
-     "end": 1738.7,
-     "ja": "忘れたにゃん！",
-     "en": "I forgot, nyan!",
-     "speaker": "Jibanyan"
-    },
-    {
-     "start": 1738.7,
-     "end": 1739.5,
-     "ja": "忘れたんだ…",
-     "en": "You forgot...",
+     "start": 634.9,
+     "end": 636.6,
+     "ja": "どうしたら出てってもらえる？",
+     "en": "How can we get her to leave?",
      "speaker": "Keita"
+    },
+    {
+     "start": 637.0,
+     "end": 641.0,
+     "ja": "対処法は、交渉、もしくは力ずくですね。",
+     "en": "The solutions are negotiation, or brute force.",
+     "speaker": "Whisper"
+    },
+    {
+     "start": 641.3,
+     "end": 643.0,
+     "ja": "交渉と力ずく？",
+     "en": "Negotiation or brute force?",
+     "speaker": "Keita"
+    },
+    {
+     "start": 643.2,
+     "end": 645.0,
+     "ja": "なら、普通に交渉がいいな。",
+     "en": "Then I'd definitely prefer negotiation.",
+     "speaker": "Keita"
+    },
+    {
+     "start": 645.3,
+     "end": 647.3,
+     "ja": "では、執事のわたくしめが、",
+     "en": "Then, as your butler, allow me",
+     "speaker": "Whisper"
+    },
+    {
+     "start": 647.4,
+     "end": 650.9,
+     "ja": "つるつるーっと滑らかに解決してご覧に入れましょう！",
+     "en": "to smoothly resolve this before your very eyes!",
+     "speaker": "Whisper"
+    },
+    {
+     "start": 651.1,
+     "end": 651.8,
+     "ja": "うん！",
+     "en": "Okay!",
+     "speaker": "Keita"
+    }
+   ]
+  },
+  {
+   "start": 1220.0,
+   "end": 1250.5,
+   "title": "Becoming Friends with Jibanyan",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "friends"
+   ],
+   "grammar": [
+    "〜なんて — expressing surprise or emphasis",
+    "〜よう — volitional form (let's)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1220.4,
+     "end": 1223.6,
+     "ja": "だって、そんなに頑張れるなんてすごいよ！",
+     "en": "Because it's amazing that you can try so hard!",
+     "speaker": "Keita"
+    },
+    {
+     "start": 1224.0,
+     "end": 1227.2,
+     "ja": "それだけご主人のエミちゃんが大好きなんだね。",
+     "en": "It shows just how much you love your owner, Emi-chan.",
+     "speaker": "Keita"
+    },
+    {
+     "start": 1232.0,
+     "end": 1233.5,
+     "ja": "これからは一緒。",
+     "en": "From now on, we're together.",
+     "speaker": "Keita"
+    },
+    {
+     "start": 1233.8,
+     "end": 1235.5,
+     "ja": "俺と友達になろう！",
+     "en": "Let's be friends!",
+     "speaker": "Keita"
+    },
+    {
+     "start": 1236.0,
+     "end": 1237.3,
+     "ja": "にゃん！",
+     "en": "Nyan!",
+     "speaker": "Jibanyan"
+    },
+    {
+     "start": 1241.3,
+     "end": 1242.5,
+     "ja": "これは？",
+     "en": "What's this?",
+     "speaker": "Keita"
+    },
+    {
+     "start": 1243.3,
+     "end": 1245.0,
+     "ja": "妖怪メダル！",
+     "en": "A Yo-kai Medal!",
+     "speaker": "Whisper"
+    },
+    {
+     "start": 1245.4,
+     "end": 1249.2,
+     "ja": "妖怪と友達契約をした証です！",
+     "en": "Proof of forming a friendship pact with a Yo-kai!",
+     "speaker": "Whisper"
     }
    ]
   }
@@ -177,5 +220,6 @@
   "family",
   "fun"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

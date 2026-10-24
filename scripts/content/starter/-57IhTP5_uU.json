@@ -1,0 +1,30 @@
+{
+ "videoId": "-57IhTP5_uU",
+ "ids": [
+  "-57IhTP5_uU-18",
+  "-57IhTP5_uU-251"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "-57IhTP5_uU-18": {
+   "id": "-57IhTP5_uU-18",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Friendly greeting and traditional Kyoto street scenery with subtitles."
+  },
+  "-57IhTP5_uU-251": {
+   "id": "-57IhTP5_uU-251",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Appealing food shot introducing Kyoto cuisine clearly."
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "videoId": "1bORwc3YhGE",
+ "ids": [
+  "1bORwc3YhGE-323",
+  "1bORwc3YhGE-401"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "1bORwc3YhGE-323": {
+   "id": "1bORwc3YhGE-323",
+   "appeal": 7,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Charming family interaction as a child praises home cooking like a restaurant."
+  },
+  "1bORwc3YhGE-401": {
+   "id": "1bORwc3YhGE-401",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute child reaction eating dessert with simple, relatable vocabulary."
+  }
+ }
+}

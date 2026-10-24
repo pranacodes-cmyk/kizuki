@@ -1,0 +1,30 @@
+{
+ "videoId": "VCGUxaMyIY0",
+ "ids": [
+  "VCGUxaMyIY0-216",
+  "VCGUxaMyIY0-39"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "VCGUxaMyIY0-39": {
+   "id": "VCGUxaMyIY0-39",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Scenic spring views with clear, learner-paced Japanese speech."
+  },
+  "VCGUxaMyIY0-216": {
+   "id": "VCGUxaMyIY0-216",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Engaging cultural topic explained with simple vocabulary and great visuals."
+  }
+ }
+}

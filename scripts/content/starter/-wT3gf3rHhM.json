@@ -1,0 +1,30 @@
+{
+ "videoId": "-wT3gf3rHhM",
+ "ids": [
+  "-wT3gf3rHhM-119",
+  "-wT3gf3rHhM-34"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "-wT3gf3rHhM-119": {
+   "id": "-wT3gf3rHhM-119",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Cute cat affection with clear dialogue and charming character interaction."
+  },
+  "-wT3gf3rHhM-34": {
+   "id": "-wT3gf3rHhM-34",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Humorous banter about anime genres with varied expressive voices."
+  }
+ }
+}

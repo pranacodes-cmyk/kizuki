@@ -1,0 +1,19 @@
+{
+ "videoId": "mof4TUv4O8o",
+ "ids": [
+  "mof4TUv4O8o-5"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "mof4TUv4O8o-5": {
+   "id": "mof4TUv4O8o-5",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Friendly introduction spoken clearly and slowly for beginners."
+  }
+ }
+}

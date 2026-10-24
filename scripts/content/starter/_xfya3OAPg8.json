@@ -1,0 +1,19 @@
+{
+ "videoId": "_xfya3OAPg8",
+ "ids": [
+  "_xfya3OAPg8-28"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "_xfya3OAPg8-28": {
+   "id": "_xfya3OAPg8-28",
+   "appeal": 4,
+   "clarity": 4,
+   "picture": 2,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear slow Japanese news reading, but static textbook-style screen recording."
+  }
+ }
+}

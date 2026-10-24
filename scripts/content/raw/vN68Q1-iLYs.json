@@ -2,9 +2,9 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 33.4,
-   "end": 66.2,
-   "title": "Squeeze Sudachi on the Towel",
+   "start": 0.48,
+   "end": 1.18,
+   "title": "Squeezing Citrus on a Hand Towel",
    "level": "N4",
    "topics": [
     "food",
@@ -12,305 +12,274 @@
    ],
    "grammar": [
     "〜てみる — trying to do something",
-    "〜たら — conditional if/when",
-    "〜のあと — after something"
+    "〜た後 — after doing"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 33.7,
-     "end": 34.8,
-     "ja": "すだち？",
-     "en": "Sudachi?",
-     "speaker": "Customer"
-    },
-    {
-     "start": 34.9,
-     "end": 35.8,
-     "ja": "はい。",
-     "en": "Yes.",
-     "speaker": "Chef"
-    },
-    {
-     "start": 36.0,
-     "end": 39.8,
-     "ja": "よかったらすだち、軽くかけてみてください。",
-     "en": "If you'd like, try squeezing a little sudachi on it.",
-     "speaker": "Chef"
-    },
-    {
-     "start": 40.8,
-     "end": 44.5,
-     "ja": "かけてみるって、何にだろう？",
-     "en": "Try squeezing it... on what exactly?",
-     "speaker": "Customer"
-    },
-    {
-     "start": 45.0,
-     "end": 46.5,
-     "ja": "おしぼりに。",
-     "en": "On the hand towel.",
-     "speaker": "Chef"
-    },
-    {
-     "start": 47.4,
-     "end": 49.3,
+     "start": 0.48,
+     "end": 0.5,
      "ja": "おしぼりに？",
-     "en": "On the towel?",
+     "en": "On the hand towel?",
      "speaker": "Customer"
     },
     {
-     "start": 50.0,
-     "end": 52.6,
+     "start": 0.5,
+     "end": 0.53,
      "ja": "最初はおしぼりそのままで。",
-     "en": "At first, just use the towel as is.",
+     "en": "At first, use the hand towel as is.",
      "speaker": "Chef"
     },
     {
-     "start": 53.1,
-     "end": 55.4,
-     "ja": "最初はおしぼりそのまま…",
-     "en": "At first, just use it as is...",
+     "start": 0.53,
+     "end": 0.55,
+     "ja": "最初はおしぼりそのままで？",
+     "en": "At first, as is?",
      "speaker": "Customer"
     },
     {
-     "start": 55.5,
-     "end": 59.8,
-     "ja": "そのあと、よかったらすだち、軽くかけてみてください。",
-     "en": "After that, if you'd like, try squeezing a little sudachi on it.",
+     "start": 0.55,
+     "end": 1.0,
+     "ja": "その後、よかったらスダチ、軽くかけてみてください。",
+     "en": "After that, if you like, try lightly squeezing sudachi citrus on it.",
      "speaker": "Chef"
     },
     {
-     "start": 60.0,
-     "end": 61.6,
+     "start": 1.0,
+     "end": 1.02,
      "ja": "おしぼりに？",
-     "en": "On the towel?",
+     "en": "On the hand towel?",
      "speaker": "Customer"
     },
     {
-     "start": 61.9,
-     "end": 65.8,
-     "ja": "はい。おしぼりに軽くすだちかけてみてください。",
-     "en": "Yes. Please try squeezing a little sudachi on the towel.",
+     "start": 1.02,
+     "end": 1.07,
+     "ja": "はい、おしぼりに軽くスダチかけてみてください。",
+     "en": "Yes, try lightly squeezing sudachi on the hand towel.",
+     "speaker": "Chef"
+    },
+    {
+     "start": 1.07,
+     "end": 1.12,
+     "ja": "かけてから、そのおしぼりでまた拭くでいいのかな？",
+     "en": "After squeezing it on, is it okay to wipe with it again?",
+     "speaker": "Customer"
+    },
+    {
+     "start": 1.12,
+     "end": 1.15,
+     "ja": "スダチ、軽くかけてみてください。",
+     "en": "Try lightly squeezing sudachi on it.",
+     "speaker": "Chef"
+    },
+    {
+     "start": 1.15,
+     "end": 1.18,
+     "ja": "それだけ言わせてください。",
+     "en": "Please just let me say that.",
      "speaker": "Chef"
     }
    ]
   },
   {
-   "start": 221.8,
-   "end": 256.5,
-   "title": "Sudachi with Either Beer",
+   "start": 2.22,
+   "end": 2.59,
+   "title": "Sudachi with Beer Either Way",
    "level": "N3",
    "topics": [
     "food",
     "comedy"
    ],
    "grammar": [
-    "〜にせよ — whether ... or ...",
-    "〜わけだ — that means that / it follows that",
-    "〜の前に — before doing"
+    "〜にせよ — whether or not / either way",
+    "〜てくる — come to / end up with"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 222.0,
-     "end": 223.7,
+     "start": 2.22,
+     "end": 2.24,
      "ja": "あ、すいません、お客さん。",
-     "en": "Oh, excuse me, sir.",
+     "en": "Ah, excuse me, sir.",
      "speaker": "Chef"
     },
     {
-     "start": 223.8,
-     "end": 224.5,
+     "start": 2.24,
+     "end": 2.24,
      "ja": "ん？",
-     "en": "Yeah?",
+     "en": "Hmm?",
      "speaker": "Customer"
     },
     {
-     "start": 224.6,
-     "end": 227.1,
-     "ja": "瓶ビールなんですが、キリンとサッポロがありまして。",
-     "en": "For bottled beer, we have Kirin and Sapporo.",
+     "start": 2.24,
+     "end": 2.27,
+     "ja": "瓶ビールなんですが、キリンとサッポロがありましてね。",
+     "en": "As for bottled beer, we have Kirin and Sapporo.",
      "speaker": "Chef"
     },
     {
-     "start": 227.2,
-     "end": 229.5,
+     "start": 2.27,
+     "end": 2.29,
      "ja": "ああ、そうなんだ。どうしようかな。",
-     "en": "Oh, I see. Which should I get?",
+     "en": "Oh, really? Which should I choose?",
      "speaker": "Customer"
     },
     {
-     "start": 229.7,
-     "end": 232.8,
-     "ja": "で、こちら、すだちになります。",
-     "en": "And here is your sudachi.",
+     "start": 2.29,
+     "end": 2.33,
+     "ja": "で、こちらスダチになります。",
+     "en": "And here is your sudachi citrus.",
      "speaker": "Chef"
     },
     {
-     "start": 233.2,
-     "end": 234.3,
+     "start": 2.33,
+     "end": 2.34,
      "ja": "もう？",
      "en": "Already?",
      "speaker": "Customer"
     },
     {
-     "start": 234.4,
-     "end": 238.4,
-     "ja": "はい、もうです。よかったら軽くかけてみてください。",
-     "en": "Yes, already. If you'd like, please squeeze a bit on.",
+     "start": 2.34,
+     "end": 2.36,
+     "ja": "はい、もうです。",
+     "en": "Yes, already.",
      "speaker": "Chef"
     },
     {
-     "start": 239.0,
-     "end": 242.5,
-     "ja": "これはキリン、サッポロ、どちらにせよ？",
-     "en": "Is this regardless of whether it's Kirin or Sapporo?",
+     "start": 2.36,
+     "end": 2.38,
+     "ja": "よかったら軽くかけてみてください。",
+     "en": "If you like, try squeezing it lightly.",
+     "speaker": "Chef"
+    },
+    {
+     "start": 2.39,
+     "end": 2.42,
+     "ja": "これはキリン、サッポロどちらにせよ？",
+     "en": "Does this apply whether it's Kirin or Sapporo?",
      "speaker": "Customer"
     },
     {
-     "start": 242.6,
-     "end": 245.2,
+     "start": 2.42,
+     "end": 2.45,
      "ja": "キリン、サッポロ、どちらにせよ。",
-     "en": "Regardless of Kirin or Sapporo.",
+     "en": "Whether Kirin or Sapporo, either way.",
      "speaker": "Chef"
     },
     {
-     "start": 246.3,
-     "end": 250.8,
-     "ja": "どっちか選ぶ前に、いずれにせよすだちがついてくるってわけだ。",
-     "en": "So before I even choose one, sudachi comes either way.",
+     "start": 2.46,
+     "end": 2.51,
+     "ja": "どっちか選ぶ前に、いずれにせよスダチがついてくるってわけだ。",
+     "en": "So before I even choose, it comes with sudachi either way.",
      "speaker": "Customer"
     },
     {
-     "start": 251.0,
-     "end": 255.8,
-     "ja": "いずれにせよ、すだち、軽くかけてみてください。",
-     "en": "Either way, please try squeezing a bit of sudachi on.",
+     "start": 2.51,
+     "end": 2.55,
+     "ja": "いずれにせよ、スダチ、軽くかけてみてください。",
+     "en": "Either way, try lightly squeezing the sudachi.",
+     "speaker": "Chef"
+    },
+    {
+     "start": 2.56,
+     "end": 2.58,
+     "ja": "いいね。",
+     "en": "Sounds good.",
+     "speaker": "Customer"
+    },
+    {
+     "start": 2.58,
+     "end": 2.59,
+     "ja": "恐れ入ります。",
+     "en": "Much obliged.",
      "speaker": "Chef"
     }
    ]
   },
   {
-   "start": 805.5,
-   "end": 837.8,
-   "title": "An Unusual Location",
+   "start": 8.43,
+   "end": 9.12,
+   "title": "Breaking the Fourth Wall",
    "level": "N3",
    "topics": [
-    "work",
+    "fun",
     "comedy"
    ],
    "grammar": [
-    "〜なんて — expressing surprise",
-    "〜に向いている — facing toward",
-    "〜言われる — passive voice (people say)"
+    "〜たりする — doing things like",
+    "〜と思って — thinking that"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 805.8,
-     "end": 807.9,
-     "ja": "で、珍しいとこにあるよね。",
-     "en": "Anyway, it's in an unusual location, isn't it?",
+     "start": 8.43,
+     "end": 8.46,
+     "ja": "これ、お昼とかは何やってたりするの？",
+     "en": "What do you usually do here during the daytime?",
      "speaker": "Customer"
     },
     {
-     "start": 808.0,
-     "end": 809.5,
-     "ja": "ああ、よく言われます。",
-     "en": "Ah, people tell me that often.",
+     "start": 8.46,
+     "end": 8.49,
+     "ja": "あ、お昼っていうか、ま、基本終日お笑いライブです。",
+     "en": "Ah, rather than daytime, basically all day it's a comedy show.",
      "speaker": "Chef"
     },
     {
-     "start": 809.6,
-     "end": 812.7,
-     "ja": "駅ビルの7階にこんな店があるなんてね。",
-     "en": "To think there's a shop like this on the 7th floor of a station building.",
+     "start": 8.49,
+     "end": 8.52,
+     "ja": "お笑いライブやってんだ。",
+     "en": "You hold comedy shows?",
      "speaker": "Customer"
     },
     {
-     "start": 812.8,
-     "end": 814.6,
-     "ja": "間借りのもので。",
-     "en": "It's a sublet space, you see.",
+     "start": 8.52,
+     "end": 8.57,
+     "ja": "今日も何人かお客さん、間違ってお笑いライブだと思って来ている感じがあります。",
+     "en": "Today too, it feels like several customers came by mistake thinking it's a comedy show.",
      "speaker": "Chef"
     },
     {
-     "start": 814.7,
-     "end": 815.9,
-     "ja": "あ、間借りなんだ。",
-     "en": "Oh, it's a sublet.",
+     "start": 8.57,
+     "end": 8.58,
+     "ja": "あ、そうなんだ。",
+     "en": "Oh, is that so?",
      "speaker": "Customer"
     },
     {
-     "start": 816.0,
-     "end": 817.3,
-     "ja": "はい、間借りなんですよ。",
-     "en": "Yes, it's a sublet.",
-     "speaker": "Chef"
-    },
-    {
-     "start": 817.4,
-     "end": 818.9,
-     "ja": "で、カウンターもこの1席で。",
-     "en": "And the counter just has this one seat.",
-     "speaker": "Chef"
-    },
-    {
-     "start": 819.0,
-     "end": 820.5,
-     "ja": "そうだよね、これだけだよね。",
-     "en": "Right, this is the only one.",
+     "start": 8.58,
+     "end": 9.0,
+     "ja": "こんにちは。",
+     "en": "Hello.",
      "speaker": "Customer"
     },
     {
-     "start": 820.6,
-     "end": 823.2,
-     "ja": "はい。あとはあっちの席になります、はい。",
-     "en": "Yes. The rest are those seats over there.",
-     "speaker": "Chef"
-    },
-    {
-     "start": 824.8,
-     "end": 828.4,
-     "ja": "え、これ、こっちに向いてるのは、テーブル…席？",
-     "en": "Wait, the ones facing this way are... table seats?",
+     "start": 9.0,
+     "end": 9.02,
+     "ja": "いいお店ですね。",
+     "en": "Nice place you have here.",
      "speaker": "Customer"
     },
     {
-     "start": 828.5,
-     "end": 831.0,
-     "ja": "テーブルないです、もう座席です。",
-     "en": "No tables, just theater seats.",
+     "start": 9.02,
+     "end": 9.04,
+     "ja": "いつもありがとうございます。",
+     "en": "Thank you as always.",
      "speaker": "Chef"
     },
     {
-     "start": 831.1,
-     "end": 832.4,
-     "ja": "あ、座席なんだ。",
-     "en": "Oh, theater seats.",
+     "start": 9.05,
+     "end": 9.08,
+     "ja": "お客さん、すいません。閉店のお時間でして。",
+     "en": "Excuse me, sir. It is closing time.",
+     "speaker": "Chef"
+    },
+    {
+     "start": 9.08,
+     "end": 9.12,
+     "ja": "閉店のお時間？いきなりすぎない？",
+     "en": "Closing time? Isn't that a bit sudden?",
      "speaker": "Customer"
-    },
-    {
-     "start": 832.5,
-     "end": 834.5,
-     "ja": "458席あります。",
-     "en": "We have 458 seats.",
-     "speaker": "Chef"
-    },
-    {
-     "start": 834.6,
-     "end": 835.8,
-     "ja": "あるねぇ！",
-     "en": "That's a lot!",
-     "speaker": "Customer"
-    },
-    {
-     "start": 835.9,
-     "end": 837.3,
-     "ja": "恐れ入ります。",
-     "en": "Thank you very much.",
-     "speaker": "Chef"
     }
    ]
   }
@@ -319,5 +288,6 @@
  "pickTopics": [
   "comedy"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -2,153 +2,181 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 9.5,
+   "start": 6.8,
    "end": 21.8,
    "title": "Trying on a Sweater",
-   "level": "N4",
+   "level": "N3",
    "topics": [
     "anime",
     "daily",
     "comedy"
    ],
    "grammar": [
-    "〜てくる — change of state over time",
-    "〜て重宝する — to come in handy"
+    "〜てくる / 〜なる — expressing change",
+    "〜られる — passive voice"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 9.5,
-     "end": 11.3,
-     "ja": "おー、ええやんけ。",
-     "en": "Oh, lookin' good.",
-     "speaker": "Brown Cat"
+     "start": 6.8,
+     "end": 8.5,
+     "ja": "できましたー！",
+     "en": "All done!",
+     "speaker": "Clerk"
     },
     {
-     "start": 11.3,
-     "end": 14.8,
-     "ja": "これから寒うなるからな、セーターは重宝すんで。",
-     "en": "It's gonna get cold from now on, so a sweater'll come in handy.",
-     "speaker": "Brown Cat"
-    },
-    {
-     "start": 15.0,
-     "end": 17.2,
-     "ja": "とってもお似合いですよ！",
-     "en": "It looks very good on you!",
-     "speaker": "Shop Clerk"
-    },
-    {
-     "start": 17.3,
-     "end": 20.1,
-     "ja": "首のとこ締め付けられてキモいにゃ。",
-     "en": "It's tight around my neck and feels gross, nya.",
+     "start": 8.8,
+     "end": 9.9,
+     "ja": "にゃあ。",
+     "en": "Meow.",
      "speaker": "Yanineko"
     },
     {
-     "start": 20.2,
+     "start": 10.1,
+     "end": 15.0,
+     "ja": "おお、ええやんけ。これから寒うなるからな、セーターは重宝すんで。",
+     "en": "Oh, looks great! It's gonna get cold soon, so a sweater will come in handy.",
+     "speaker": "Friend"
+    },
+    {
+     "start": 15.2,
+     "end": 17.0,
+     "ja": "とってもお似合いですよ！",
+     "en": "It looks so good on you!",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 17.2,
+     "end": 20.0,
+     "ja": "首のとこ締め付けられてキモいにゃ。",
+     "en": "It's choking my neck, it feels gross nya.",
+     "speaker": "Yanineko"
+    },
+    {
+     "start": 20.1,
      "end": 21.8,
      "ja": "慣れや、慣れ。",
-     "en": "You'll get used to it!",
-     "speaker": "Brown Cat"
+     "en": "You'll get used to it.",
+     "speaker": "Friend"
     }
    ]
   },
   {
-   "start": 44.2,
+   "start": 44.0,
    "end": 56.0,
-   "title": "Only Three Hundred Yen",
+   "title": "Thought It Was a Rag",
    "level": "N4",
    "topics": [
     "anime",
     "comedy",
-    "friends"
+    "daily"
    ],
    "grammar": [
     "〜と思って — thinking that...",
-    "〜しかない — have no choice but / only have"
+    "〜しかない — only have / nothing but"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 44.2,
+     "start": 44.0,
      "end": 47.3,
-     "ja": "ご、ごめんなさい！ボロ布だと思って…",
-     "en": "I-I'm sorry! I thought it was a rag...",
-     "speaker": "Shop Clerk"
+     "ja": "ごめんなさい！ボロ布だと思って！",
+     "en": "I'm so sorry! I thought it was a rag!",
+     "speaker": "Clerk"
     },
     {
-     "start": 47.4,
-     "end": 50.0,
+     "start": 47.5,
+     "end": 49.8,
      "ja": "ま、まあ似たようなもんやしな。",
-     "en": "W-Well, it's pretty much the same thing.",
-     "speaker": "Brown Cat"
+     "en": "Well, it basically was one.",
+     "speaker": "Friend"
     },
     {
-     "start": 50.1,
+     "start": 50.0,
      "end": 52.5,
-     "ja": "しゃあない。ヤニねこ、なんか服買うて帰ろ。",
-     "en": "Can't be helped. Yanineko, let's buy some clothes and go home.",
-     "speaker": "Brown Cat"
+     "ja": "しゃあない、ヤニねこ何か服買うて帰ろ。",
+     "en": "Oh well, Yanineko, let's buy some clothes and head home.",
+     "speaker": "Friend"
     },
     {
-     "start": 52.6,
+     "start": 52.8,
      "end": 54.4,
      "ja": "300円しかないにゃ。",
-     "en": "I only have 300 yen, nya.",
+     "en": "I only have 300 yen nya.",
      "speaker": "Yanineko"
     },
     {
-     "start": 54.5,
-     "end": 55.9,
+     "start": 54.6,
+     "end": 56.0,
      "ja": "何しに来たんじゃ！",
      "en": "What did you even come here for?!",
-     "speaker": "Brown Cat"
+     "speaker": "Friend"
     }
    ]
   },
   {
-   "start": 113.5,
-   "end": 125.7,
-   "title": "That's Not Being Clumsy!",
+   "start": 104.5,
+   "end": 126.0,
+   "title": "A Serious Clumsy Mistake",
    "level": "N3",
    "topics": [
     "anime",
     "comedy"
    ],
    "grammar": [
-    "〜てしまう — expressing regret or completion",
-    "〜と認識する — to perceive as..."
+    "〜ちゃう — unintended action",
+    "〜じゃなくて — not A, but B"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 113.5,
+     "start": 104.5,
+     "end": 107.8,
+     "ja": "あぁ…さっき燃やしちゃったかも…",
+     "en": "Ah... I might have burned them earlier...",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 108.0,
+     "end": 109.2,
+     "ja": "なんでやねん！",
+     "en": "Why on earth would you do that?!",
+     "speaker": "Friend"
+    },
+    {
+     "start": 109.4,
+     "end": 112.7,
+     "ja": "ゴミだと思って…あわわわ…",
+     "en": "I thought they were garbage... ah wah wah...",
+     "speaker": "Clerk"
+    },
+    {
+     "start": 113.2,
      "end": 118.0,
      "ja": "臭かったんで、ゴミ箱じゃなくてガソリンで完全に炭にしてしまいました…",
-     "en": "It smelled bad, so instead of the trash bin, I used gasoline to burn it completely to ash...",
-     "speaker": "Shop Clerk"
+     "en": "They smelled bad, so instead of the trash bin, I used gasoline to burn them completely to ashes...",
+     "speaker": "Clerk"
     },
     {
-     "start": 118.1,
-     "end": 120.0,
-     "ja": "イカレとんのか！？",
+     "start": 118.2,
+     "end": 119.7,
+     "ja": "イカれとんのか！",
      "en": "Are you out of your mind?!",
-     "speaker": "Brown Cat"
+     "speaker": "Friend"
     },
     {
-     "start": 120.1,
-     "end": 122.0,
-     "ja": "私、すごーいドジで…",
-     "en": "I'm just super clumsy...",
-     "speaker": "Shop Clerk"
+     "start": 119.9,
+     "end": 121.8,
+     "ja": "私、すごいドジで…",
+     "en": "I'm just really clumsy...",
+     "speaker": "Clerk"
     },
     {
-     "start": 122.1,
-     "end": 125.6,
-     "ja": "お前、人の服にガソリンで火ぃつける行為をドジって認識しとんのか！？",
-     "en": "You consider lighting someone's clothes on fire with gasoline being \"clumsy\"?!",
-     "speaker": "Brown Cat"
+     "start": 122.0,
+     "end": 125.8,
+     "ja": "お前、人の服にガソリンで火付ける行為をドジって認識しとんのか！",
+     "en": "You think torching someone's clothes with gasoline counts as being clumsy?!",
+     "speaker": "Friend"
     }
    ]
   }
@@ -159,5 +187,6 @@
   "fun",
   "animals"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

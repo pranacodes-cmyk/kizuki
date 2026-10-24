@@ -1,0 +1,21 @@
+{
+ "videoId": "SCZczdQNQf8",
+ "ids": [
+  "SCZczdQNQf8-18"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "SCZczdQNQf8-18": {
+   "id": "SCZczdQNQf8-18",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "background noise"
+   ],
+   "why": "Lively street vlog introduction, though speech is relatively fast."
+  }
+ }
+}

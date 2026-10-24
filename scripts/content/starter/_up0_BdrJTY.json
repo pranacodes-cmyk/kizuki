@@ -1,0 +1,21 @@
+{
+ "videoId": "_up0_BdrJTY",
+ "ids": [
+  "_up0_BdrJTY-211"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "_up0_BdrJTY-211": {
+   "id": "_up0_BdrJTY-211",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "starts mid-sentence"
+   ],
+   "why": "Natural casual speech while applying makeup in a hotel room."
+  }
+ }
+}

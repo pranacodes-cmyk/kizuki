@@ -25,6 +25,9 @@ import '../widgets/tour.dart';
 import '../widgets/ui.dart';
 import '../widgets/word_card.dart' show posNames;
 
+/// How the review timing works, in plain words (no interval codes) — same text in review.tsx.
+const reviewDoneNote = "Each word comes back right before you'd forget it. Forgotten words come back sooner.";
+
 /// Flashcard review (words with original clip audio, or kana decks) — mirrors src/routes/review.tsx.
 class ReviewScreen extends StatefulWidget {
   final String deck; // words | hiragana | katakana
@@ -131,6 +134,8 @@ class _ReviewScreenState extends State<ReviewScreen> {
                       const SizedBox(width: 6),
                       Text(finished ? '${sess.answered} card${sess.answered == 1 ? '' : 's'} reviewed' : 'Nothing due right now', style: txt(16, w: FontWeight.w800, c: T.success)),
                     ]),
+                    const SizedBox(height: 10),
+                    Text(reviewDoneNote, textAlign: TextAlign.center, style: txt(15, w: FontWeight.w600, c: T.muted, h: 1.4)),
                   ]),
                 ),
                 Button3D(label: "I'm done for now", onPressed: _exit),
@@ -166,7 +171,6 @@ class _ReviewScreenState extends State<ReviewScreen> {
     final kana = widget.deck != 'words' && id != null ? kanaCards.where((k) => k.id == id).firstOrNull : null;
     final card = _card(app, id);
     final progress = total == 0 ? 1.0 : (sess.answered / (total > sess.answered + sess.queue.length ? total : sess.answered + sess.queue.length)).clamp(0.0, 1.0);
-    final now = DateTime.now().millisecondsSinceEpoch;
 
     // Kiku-style flashcard: the whole card is the one thing to tap (no separate "Show answer").
     Widget front() => Stack(children: [
@@ -339,11 +343,12 @@ class _ReviewScreenState extends State<ReviewScreen> {
                 ? Padding(
                     padding: const EdgeInsets.fromLTRB(16, 0, 16, 8),
                     child: Column(mainAxisSize: MainAxisSize.min, children: [
-                      if (firstTime) Padding(padding: const EdgeInsets.only(bottom: 8), child: Text('How did you do?', style: txt(13, w: FontWeight.w700, c: T.faint))),
+                      if (firstTime) Padding(padding: const EdgeInsets.only(bottom: 8), child: Text('Did you remember it?', style: txt(13, w: FontWeight.w700, c: T.faint))),
+                      // Plain words only — no "1m / 10m" timing codes; the app picks the timing.
                       TourAnchor(id: 'grade', child: Row(children: [
-                        Expanded(child: _GradeBtn(label: 'Forgot', sub: nextIntervalLabel(card, 'again', now), bg: T.dangerSoft, fg: T.danger, onTap: () => _answer('again'))),
+                        Expanded(child: _GradeBtn(label: 'Forgot', icon: LucideIcons.x, bg: T.dangerSoft, fg: T.danger, onTap: () => _answer('again'))),
                         const SizedBox(width: 12),
-                        Expanded(child: _GradeBtn(label: 'Remembered', sub: nextIntervalLabel(card, 'good', now), bg: T.successSoft, fg: T.success, onTap: () => _answer('good'))),
+                        Expanded(child: _GradeBtn(label: 'Remembered', icon: LucideIcons.check, bg: T.successSoft, fg: T.success, onTap: () => _answer('good'))),
                       ])),
                     ]),
                   )
@@ -356,22 +361,25 @@ class _ReviewScreenState extends State<ReviewScreen> {
 }
 
 class _GradeBtn extends StatelessWidget {
-  final String label, sub;
+  final String label;
+  final IconData icon;
   final Color bg, fg;
   final VoidCallback onTap;
-  const _GradeBtn({required this.label, required this.sub, required this.bg, required this.fg, required this.onTap});
+  const _GradeBtn({required this.label, required this.icon, required this.bg, required this.fg, required this.onTap});
   @override
   Widget build(BuildContext context) => Semantics(
         button: true,
-        label: '$label, next in $sub',
+        label: label,
+        excludeSemantics: true,
         child: Press(
           onTap: onTap,
           child: Container(
-            height: 64,
+            height: 60,
             decoration: BoxDecoration(color: bg, borderRadius: BorderRadius.circular(16)),
-            child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-              Text(label, style: txt(17, w: FontWeight.w900, c: fg)),
-              Text(sub, style: txt(12, w: FontWeight.w700, c: fg.withValues(alpha: 0.8))),
+            child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+              Icon(icon, size: 20, color: fg),
+              const SizedBox(width: 8),
+              Flexible(child: Text(label, maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(17, w: FontWeight.w900, c: fg))),
             ]),
           ),
         ),

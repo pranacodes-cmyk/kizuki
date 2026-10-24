@@ -1,0 +1,19 @@
+{
+ "videoId": "1kj4PJntspA",
+ "ids": [
+  "1kj4PJntspA-50"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "1kj4PJntspA-50": {
+   "id": "1kj4PJntspA-50",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Lively office gossip scene with natural conversational Japanese."
+  }
+ }
+}

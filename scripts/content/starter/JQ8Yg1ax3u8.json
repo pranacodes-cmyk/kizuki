@@ -1,0 +1,32 @@
+{
+ "videoId": "JQ8Yg1ax3u8",
+ "ids": [
+  "JQ8Yg1ax3u8-102",
+  "JQ8Yg1ax3u8-29"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "JQ8Yg1ax3u8-102": {
+   "id": "JQ8Yg1ax3u8-102",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Short comedic cartoon with clear, easy dialogue."
+  },
+  "JQ8Yg1ax3u8-29": {
+   "id": "JQ8Yg1ax3u8-29",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [
+    "mostly silent"
+   ],
+   "why": "Educational story segment, but includes an extended silent driving break."
+  }
+ }
+}

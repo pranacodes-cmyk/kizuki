@@ -2,159 +2,226 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 33.8,
-   "end": 45.2,
+   "start": 9.8,
+   "end": 23.0,
+   "title": "We Swapped Bodies?!",
+   "level": "N4",
+   "topics": [
+    "anime",
+    "school",
+    "comedy"
+   ],
+   "grammar": [
+    "〜てもしかして — could it be that...",
+    "〜てる — ongoing state / action",
+    "〜な — negative imperative (don't...)"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 10.1,
+     "end": 11.7,
+     "ja": "これってもしかして…",
+     "en": "Could it be that we're...",
+     "speaker": "Mitsuha"
+    },
+    {
+     "start": 11.8,
+     "end": 13.4,
+     "ja": "俺たちは夢の中で…",
+     "en": "In our dreams, we've...",
+     "speaker": "Taki"
+    },
+    {
+     "start": 13.5,
+     "end": 15.3,
+     "ja": "入れ替わってるー？！",
+     "en": "Swapped bodies?!",
+     "speaker": "Both"
+    },
+    {
+     "start": 15.5,
+     "end": 17.6,
+     "ja": "男子の視線！スカート注意！",
+     "en": "Boys are staring! Watch the skirt!",
+     "speaker": "Mitsuha"
+    },
+    {
+     "start": 17.8,
+     "end": 20.9,
+     "ja": "おい三葉、俺の人間関係変えるなよ！",
+     "en": "Hey Mitsuha, don't go messing with my relationships!",
+     "speaker": "Taki"
+    },
+    {
+     "start": 21.0,
+     "end": 22.8,
+     "ja": "あの女はー！",
+     "en": "That girl...!",
+     "speaker": "Taki"
+    },
+    {
+     "start": 21.0,
+     "end": 22.8,
+     "ja": "あの男はー！",
+     "en": "That guy...!",
+     "speaker": "Mitsuha"
+    }
+   ]
+  },
+  {
+   "start": 34.0,
+   "end": 45.4,
    "title": "It Wasn't a Dream",
    "level": "N4",
    "topics": [
     "anime",
-    "daily"
+    "daily",
+    "friends"
    ],
    "grammar": [
-    "このままだと — if things stay this way",
-    "どう思う — what do you think?",
-    "〜じゃなかった — past negative of だ"
+    "〜だと — conditional if",
+    "〜と思う — to think that",
+    "〜じゃなかった — was not"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 34.2,
-     "end": 36.6,
-     "ja": "このままだと今夜、みんな死ぬ！",
-     "en": "At this rate, everyone will die tonight!",
+     "end": 36.8,
+     "ja": "このままだと今夜、皆死ぬ！",
+     "en": "At this rate, everyone's going to die tonight!",
      "speaker": "Mitsuha"
     },
     {
-     "start": 36.8,
-     "end": 37.6,
-     "ja": "はあ？",
+     "start": 36.9,
+     "end": 38.1,
+     "ja": "はぁ？",
      "en": "Huh?",
      "speaker": "Classmate"
     },
     {
-     "start": 37.8,
-     "end": 39.4,
+     "start": 38.2,
+     "end": 39.8,
      "ja": "お姉ちゃん、変やよ。",
      "en": "Sis, you're acting weird.",
      "speaker": "Yotsuha"
     },
     {
-     "start": 39.8,
-     "end": 42.3,
-     "ja": "どう思います？あいつの話。",
-     "en": "What do you think? About what that guy said.",
-     "speaker": "Friend"
+     "start": 40.0,
+     "end": 42.5,
+     "ja": "どう思います？あいつのお話。",
+     "en": "What do you think of his story?",
+     "speaker": "Teshigawara"
     },
     {
      "start": 42.8,
-     "end": 45.0,
-     "ja": "違う、夢じゃなかった。",
-     "en": "No, it wasn't a dream.",
+     "end": 43.7,
+     "ja": "違う。",
+     "en": "No.",
      "speaker": "Taki"
+    },
+    {
+     "start": 43.8,
+     "end": 45.3,
+     "ja": "夢じゃ…なかった！",
+     "en": "It wasn't... a dream!",
+     "speaker": "Mitsuha"
     }
    ]
   },
   {
-   "start": 107.0,
-   "end": 118.3,
-   "title": "Someone I Must Never Forget",
+   "start": 104.5,
+   "end": 118.5,
+   "title": "The Person I Must Never Forget",
    "level": "N3",
    "topics": [
     "anime",
     "romance"
    ],
    "grammar": [
-    "〜ようと思う — intention / plan to",
-    "どこに〜ても — no matter where",
-    "〜ちゃダメ — must not / shouldn't"
+    "〜ようと思った — intended to do",
+    "〜ても — even if / no matter where",
+    "〜ちゃダメ — must not do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 107.2,
-     "end": 111.8,
-     "ja": "言おうと思ったんだ。お前が世界のどこにいても、必ず会いに行くって。",
-     "en": "I wanted to tell you: wherever you are in the world, I'll definitely come see you.",
-     "speaker": "Taki"
-    },
-    {
-     "start": 112.1,
-     "end": 113.1,
-     "ja": "あの人は誰？",
-     "en": "Who is that person?",
+     "start": 104.7,
+     "end": 106.4,
+     "ja": "あの人の名前が、思い出せない！",
+     "en": "I can't remember his name!",
      "speaker": "Mitsuha"
     },
     {
-     "start": 113.2,
+     "start": 106.5,
+     "end": 107.7,
+     "ja": "これはお前が始めたことや！",
+     "en": "You're the one who started this!",
+     "speaker": "Teshigawara"
+    },
+    {
+     "start": 107.8,
+     "end": 109.0,
+     "ja": "言おうと思ったんだ。",
+     "en": "I wanted to tell you.",
+     "speaker": "Taki"
+    },
+    {
+     "start": 109.1,
+     "end": 110.6,
+     "ja": "お前が世界のどこにいても、",
+     "en": "No matter where you are in the world,",
+     "speaker": "Taki"
+    },
+    {
+     "start": 110.7,
+     "end": 112.2,
+     "ja": "必ず会いに行くって！",
+     "en": "I'll definitely come see you!",
+     "speaker": "Mitsuha"
+    },
+    {
+     "start": 112.3,
+     "end": 113.3,
+     "ja": "あの人は誰？",
+     "en": "Who is he?",
+     "speaker": "Mitsuha"
+    },
+    {
+     "start": 113.4,
      "end": 114.3,
-     "ja": "忘れたくない人。",
-     "en": "Someone I don't want to forget.",
+     "ja": "忘れたくない人！",
+     "en": "Someone I don't want to forget!",
      "speaker": "Taki"
     },
     {
      "start": 114.4,
      "end": 115.3,
-     "ja": "忘れたくなかった人。",
-     "en": "Someone I didn't want to forget.",
+     "ja": "忘れたくなかった人！",
+     "en": "Someone I didn't want to forget!",
      "speaker": "Mitsuha"
     },
     {
      "start": 115.4,
-     "end": 116.4,
+     "end": 116.3,
      "ja": "忘れちゃダメな人！",
      "en": "Someone I must never forget!",
      "speaker": "Taki"
     },
     {
-     "start": 116.5,
-     "end": 117.4,
-     "ja": "君の名前は！",
-     "en": "What is your name?!",
+     "start": 116.4,
+     "end": 117.3,
+     "ja": "君の名前は？",
+     "en": "What is your name?",
      "speaker": "Mitsuha"
     },
     {
-     "start": 117.5,
+     "start": 117.4,
      "end": 118.3,
-     "ja": "名前は…！",
-     "en": "Your name is...!",
+     "ja": "名前は？！",
+     "en": "What's your name?!",
      "speaker": "Taki"
-    }
-   ]
-  },
-  {
-   "start": 123.0,
-   "end": 130.8,
-   "title": "A Truly Beautiful View",
-   "level": "N3",
-   "topics": [
-    "anime"
-   ],
-   "grammar": [
-    "まるで〜のように — just like / as if",
-    "ひたすら — intently / purely"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 123.2,
-     "end": 126.2,
-     "ja": "それは、まるで夢の景色のように、",
-     "en": "It was just like a scenery in a dream,",
-     "speaker": "Taki"
-    },
-    {
-     "start": 126.4,
-     "end": 128.0,
-     "ja": "ただひたすらに、",
-     "en": "simply and truly,",
-     "speaker": "Mitsuha"
-    },
-    {
-     "start": 128.1,
-     "end": 130.5,
-     "ja": "美しい眺めだった。",
-     "en": "a beautiful sight.",
-     "speaker": "Both"
     }
    ]
   }
@@ -163,5 +230,6 @@
  "pickTopics": [
   "anime"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

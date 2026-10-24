@@ -2,125 +2,162 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 13.5,
-   "end": 32.2,
-   "title": "Introducing Top 5 Onsen Inns and Criteria",
+   "start": 13.9,
+   "end": 31.8,
+   "title": "Top 5 Hot Spring Inns Selection Method",
    "level": "N3",
    "topics": [
-    "travel",
-    "culture"
+    "travel"
    ],
    "grammar": [
-    "〜てまいる — humble action directed toward listener",
-    "〜ておる — humble ongoing state"
+    "〜て参る — to do and come/proceed (humble)",
+    "〜ており — continuous state (formal)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 13.8,
-     "end": 15.5,
+     "start": 14.1,
+     "end": 15.6,
      "ja": "Ryoでございます。",
      "en": "I'm Ryo.",
-     "speaker": "Ryo"
+     "speaker": "Narrator"
     },
     {
      "start": 15.7,
-     "end": 21.8,
-     "ja": "今回は今年宿泊した温泉旅館の中から、特に良かった宿5軒を厳選してご紹介してまいります。",
-     "en": "Today, I will carefully select and introduce five of the best onsen ryokan I stayed at this year.",
-     "speaker": "Ryo"
+     "end": 18.7,
+     "ja": "今回は今年宿泊した温泉旅館の中から、",
+     "en": "Today, from among the hot spring inns I stayed at this year,",
+     "speaker": "Narrator"
     },
     {
-     "start": 22.0,
-     "end": 32.0,
-     "ja": "評価は、宿、料理、温泉、接客、サービス、価格、観光、ロケーションの8項目を採点し、総合得点でランク付けしております。",
-     "en": "The evaluation scores eight categories—inn, cuisine, onsen, customer service, service, price, sightseeing, and location—and ranks them by total score.",
-     "speaker": "Ryo"
+     "start": 18.7,
+     "end": 22.0,
+     "ja": "特に良かった宿5軒を厳選してご紹介してまいります。",
+     "en": "I will carefully select and introduce the top 5 inns.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 22.3,
+     "end": 24.8,
+     "ja": "評価は宿、料理、温泉、接客、",
+     "en": "The evaluation covers inn, cuisine, hot springs, service,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 24.9,
+     "end": 27.9,
+     "ja": "サービス、価格、観光、ロケーションの8項目を採点し、",
+     "en": "amenities, price, sightseeing, and location across 8 categories,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 28.0,
+     "end": 31.3,
+     "ja": "総合得点でランク付けしております。",
+     "en": "and ranks them based on their overall score.",
+     "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 544.5,
-   "end": 610.2,
-   "title": "Rank 2: Historic Maruya Ryokan in Yamagata",
-   "level": "N2",
-   "topics": [
-    "travel",
-    "culture"
-   ],
-   "grammar": [
-    "知る人ぞ知る — well known only to those in the know",
-    "〜によって — by means of / due to",
-    "〜ており — conjunctive form of 〜ている"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 544.8,
-     "end": 552.4,
-     "ja": "第2位は、知る人ぞ知る山形の秘湯、肘折温泉にある明治元年創業の老舗、丸屋旅館です。",
-     "en": "In second place is Maruya Ryokan, a historic inn established in the first year of Meiji, located in Hijiori Onsen, a hidden hot spring gem in Yamagata.",
-     "speaker": "Ryo"
-    },
-    {
-     "start": 552.8,
-     "end": 601.8,
-     "ja": "肘折温泉は山形県の静かな山あいに佇む温泉地で、肘折カルデラと呼ばれる窪地の地形に発展した珍しい温泉街です。",
-     "en": "Hijiori Onsen is a hot spring resort nestled quietly in the mountains of Yamagata Prefecture, a unique onsen town that developed in a basin known as the Hijiori Caldera.",
-     "speaker": "Ryo"
-    },
-    {
-     "start": 602.0,
-     "end": 610.0,
-     "ja": "この地熱活動によって湧き出す源泉には豊富な鉱物が含まれており、温泉マニアもうなる本格派の湯を堪能できます。",
-     "en": "The spring water gushing up from this geothermal activity is rich in minerals, letting you enjoy an authentic bath that satisfies even onsen connoisseurs.",
-     "speaker": "Ryo"
-    }
-   ]
-  },
-  {
-   "start": 754.5,
-   "end": 780.5,
-   "title": "Rank 1: Hanare no Yado Kanon in Shiobara",
+   "start": 350.0,
+   "end": 372.0,
+   "title": "Kitanokaze-Saryo in Hakone Sengokuhara",
    "level": "N3",
    "topics": [
-    "travel",
-    "romance"
+    "travel"
    ],
    "grammar": [
-    "〜に面した — facing / bordering",
-    "〜ことに — surprisingly / to one's surprise",
-    "〜なら — conditional 'if it is...'"
+    "〜でも — even",
+    "〜ており — continuous state (formal)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 754.8,
-     "end": 760.6,
-     "ja": "第1位はこちら、私が大好きな塩原温泉にある「離れの宿 楓音」です。",
-     "en": "Number one is this place: Hanare no Yado Kanon, located in Shiobara Onsen, which I absolutely love.",
-     "speaker": "Ryo"
+     "start": 350.3,
+     "end": 352.4,
+     "ja": "夏でも涼しい箱根仙石原に佇む、",
+     "en": "Located in Hakone Sengokuhara, which is cool even in summer,",
+     "speaker": "Narrator"
     },
     {
-     "start": 761.0,
-     "end": 765.8,
-     "ja": "全室が塩原のシンボル箒川に面した特別なロケーション。",
-     "en": "Every room has a special location facing the Hoki River, the symbol of Shiobara.",
-     "speaker": "Ryo"
+     "start": 352.5,
+     "end": 355.6,
+     "ja": "和乃オーベルジュ きたの風茶寮です。",
+     "en": "is the Japanese-style auberge Kitanokaze-Saryo.",
+     "speaker": "Narrator"
     },
     {
-     "start": 766.1,
-     "end": 770.8,
-     "ja": "そして驚くことに、客室はすべて露天風呂付きの離れなんです。",
-     "en": "And remarkably, all guest rooms are detached villas equipped with open-air baths.",
-     "speaker": "Ryo"
+     "start": 358.5,
+     "end": 361.6,
+     "ja": "和モダンの洗練された空間が魅力で、",
+     "en": "Featuring a refined Japanese modern ambiance,",
+     "speaker": "Narrator"
     },
     {
-     "start": 772.0,
-     "end": 780.2,
-     "ja": "館内はおしゃれ空間の連続で、カップルなら自然とロマンチックな雰囲気に包まれると思います。",
-     "en": "The interior is a succession of stylish spaces, creating a naturally romantic atmosphere for couples.",
-     "speaker": "Ryo"
+     "start": 361.7,
+     "end": 366.1,
+     "ja": "近くにはガラスの森美術館など徒歩圏内の観光スポットも充実。",
+     "en": "it offers easy access to nearby attractions like the Venetian Glass Museum.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 366.2,
+     "end": 371.5,
+     "ja": "館内には貸切風呂、熱々の岩盤浴など癒やしの施設が充実しています。",
+     "en": "Inside, relaxing facilities like private baths and hot stone spas abound.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 576.8,
+   "end": 593.7,
+   "title": "Stunning Open-Air Bath and Foot Bath",
+   "level": "N3",
+   "topics": [
+    "travel"
+   ],
+   "grammar": [
+    "〜ながら — while doing",
+    "〜て楽しむ — enjoy doing"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 577.1,
+     "end": 579.8,
+     "ja": "こちらは絶景を眺めながら寛げる足湯。",
+     "en": "Here is a foot bath where you can relax while admiring the superb view.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 580.4,
+     "end": 582.4,
+     "ja": "めちゃめちゃお洒落じゃないですか？",
+     "en": "Isn't it super stylish?",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 582.5,
+     "end": 585.5,
+     "ja": "お庭と景色を一望できる石づくりの大きな露天風呂。",
+     "en": "A large stone open-air bath with a panoramic view of the garden and scenery.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 585.6,
+     "end": 588.6,
+     "ja": "湯煙と雪が舞う景色の中、",
+     "en": "Amidst the drifting steam and dancing snow,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 588.7,
+     "end": 593.2,
+     "ja": "湯船に浮かべた徳利で楽しむ雪見酒。このサービスも無料で楽しめます。",
+     "en": "you can enjoy snow-viewing sake served floating in a flask. This service is also free.",
+     "speaker": "Narrator"
     }
    ]
   }
@@ -129,5 +166,6 @@
  "pickTopics": [
   "travel"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

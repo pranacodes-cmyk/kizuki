@@ -1,0 +1,19 @@
+{
+ "videoId": "8Nd8C1KuprA",
+ "ids": [
+  "8Nd8C1KuprA-107"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "8Nd8C1KuprA-107": {
+   "id": "8Nd8C1KuprA-107",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute animation with clear restaurant phrases and readable text."
+  }
+ }
+}

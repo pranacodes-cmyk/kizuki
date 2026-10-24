@@ -23,6 +23,12 @@ class Tour extends ChangeNotifier {
   /// Called once when the tour ends (finished or skipped).
   VoidCallback? onFinish;
 
+  /// Closes the open word card / Ask Kizuki sheets (set by TourHost: the app pops its sheets).
+  VoidCallback? closeSheets;
+
+  /// Opens a route (set by TourHost: the app's router).
+  ValueChanged<String>? go;
+
   bool get running => _i != null;
   int get index => _i ?? -1;
   TourStep? get step => (_i != null && _i! < tourSteps.length) ? tourSteps[_i!] : null;
@@ -50,6 +56,21 @@ class Tour extends ChangeNotifier {
     s.skipTo != null ? goTo(tourIndexOf(s.skipTo!)) : next();
   }
 
+  /// The learner tapped the tip's button (Next, Back to the video, Back to videos…).
+  void advance() {
+    final s = step;
+    if (s == null) return;
+    if (s.kind == 'finish') {
+      finish();
+      if (s.endRoute != null) go?.call(s.endRoute!);
+      return;
+    }
+    if (s.kind == 'action') return skipStep();
+    // Move first, so the closing sheets' events land on the next step and change nothing.
+    next();
+    if (s.closesSheets) closeSheets?.call();
+  }
+
   void finish() {
     if (_i == null) return;
     _i = null;
@@ -68,10 +89,12 @@ class Tour extends ChangeNotifier {
     final s = step;
     if (s == null) return;
     if (s.kind == 'action' && s.until == e) return next();
-    if (e == TourEvent.askClosed && (s.id == 'askInfo' || s.id == 'askClose')) { goTo(tourIndexOf('askClose')); return; }
-    if (e == TourEvent.cardClosed && ['explain', 'askOpen', 'askInfo', 'askClose'].contains(s.id)) { goTo(tourIndexOf('legend')); return; }
-    // Closed the word card before tapping Explain → carry on after the card steps.
-    if (e == TourEvent.cardClosed && s.target == 'cardExplain') skipStep();
+    // Closed the word card or Ask Kizuki by hand: carry on after the card steps and close the
+    // other card too — never wait for a card that's gone.
+    if ((e == TourEvent.cardClosed || e == TourEvent.askClosed) && tourCardSteps.contains(s.id)) {
+      goTo(tourIndexOf('legend'));
+      closeSheets?.call();
+    }
   }
 
   /// The route changed.
@@ -102,14 +125,20 @@ class TourAnchor extends StatefulWidget {
 
   static final Map<String, List<State>> _live = {};
 
-  /// Rect of the target in [ancestor]'s coordinates, or null when it isn't on screen.
+  /// Visible rect of the target in [ancestor]'s coordinates, or null when it isn't on screen.
+  /// Only the part inside its scroll view counts: a word scrolled out of the transcript is not
+  /// a target (it used to light up the video above it).
   static Rect? rectOf(String id, RenderBox ancestor) {
     final list = _live[id];
     if (list == null) return null;
     for (final s in list.reversed) {
       final box = s.mounted ? s.context.findRenderObject() : null;
       if (box is! RenderBox || !box.attached || !box.hasSize) continue;
-      final r = box.localToGlobal(Offset.zero, ancestor: ancestor) & box.size;
+      var r = box.localToGlobal(Offset.zero, ancestor: ancestor) & box.size;
+      final scroll = Scrollable.maybeOf(s.context)?.context.findRenderObject();
+      if (scroll is RenderBox && scroll.attached && scroll.hasSize) {
+        r = r.intersect(scroll.localToGlobal(Offset.zero, ancestor: ancestor) & scroll.size);
+      }
       if (r.width < 8 || r.height < 8) continue;
       return r;
     }
@@ -152,18 +181,25 @@ class _TourAnchorState extends State<TourAnchor> {
 MascotPose _pose(String p) => MascotPose.values.firstWhere((x) => x.name == p, orElse: () => MascotPose.wave);
 
 /// The tour overlay. Sits above every route and sheet (MaterialApp.builder), starts on the
-/// feed for new learners, follows them to Explore, Vocab and their first review, and
-/// spotlights the thing to tap. Mirrors TourHost in src/components/mimi/WelcomeTour.tsx.
+/// feed for new learners, follows them to Vocab and their first review, spotlights the thing
+/// to tap and brings them back to the feed. Mirrors TourHost in src/components/mimi/WelcomeTour.tsx.
 class TourHost extends StatefulWidget {
   /// Current route path (/feed, /explore, /vocab, /review…).
   final ValueListenable<String> path;
-  const TourHost({super.key, required this.path});
+
+  /// Opens a route (the last step goes back to the feed).
+  final ValueChanged<String>? go;
+
+  /// Closes the open word card / Ask Kizuki sheets ("Back to the video").
+  final VoidCallback? closeSheets;
+  const TourHost({super.key, required this.path, this.go, this.closeSheets});
   @override
   State<TourHost> createState() => _TourHostState();
 }
 
 class _TourHostState extends State<TourHost> with TickerProviderStateMixin {
   Rect? hole;
+  Rect? handHole;
   Timer? _measure;
   int _missingMs = 0;
   bool waitedOut = false;
@@ -183,6 +219,8 @@ class _TourHostState extends State<TourHost> with TickerProviderStateMixin {
     Tour.I.onFinish = () {
       if (mounted) _app.completeTutorial('feed');
     };
+    Tour.I.go = widget.go;
+    Tour.I.closeSheets = widget.closeSheets;
     _lastPath = widget.path.value;
     WidgetsBinding.instance.addPostFrameCallback((_) => _maybeStart());
   }
@@ -194,6 +232,8 @@ class _TourHostState extends State<TourHost> with TickerProviderStateMixin {
       old.path.removeListener(_onPath);
       widget.path.addListener(_onPath);
     }
+    Tour.I.go = widget.go;
+    Tour.I.closeSheets = widget.closeSheets;
   }
 
   @override
@@ -226,6 +266,7 @@ class _TourHostState extends State<TourHost> with TickerProviderStateMixin {
     if (Tour.I.index != _shownIndex) {
       _shownIndex = Tour.I.index;
       hole = null;
+      handHole = null;
       _missingMs = 0;
       waitedOut = false;
       legendReady = false;
@@ -256,6 +297,7 @@ class _TourHostState extends State<TourHost> with TickerProviderStateMixin {
     final me = context.findRenderObject();
     if (s == null || me is! RenderBox || !me.hasSize) return;
     Rect? r;
+    Rect? hr;
     if (s.target != null && _onScreen) {
       r = TourAnchor.rectOf(s.target!, me);
       if (r != null) {
@@ -270,8 +312,14 @@ class _TourHostState extends State<TourHost> with TickerProviderStateMixin {
         _missingMs = 0;
         if (waitedOut) setState(() => waitedOut = false);
       }
+      if (r != null && s.handAt != null) hr = TourAnchor.rectOf(s.handAt!, me);
     }
-    if (r != hole) setState(() => hole = r);
+    if (r != hole || hr != handHole) {
+      setState(() {
+        hole = r;
+        handHole = hr;
+      });
+    }
   }
 
   @override
@@ -292,12 +340,12 @@ class _TourHostState extends State<TourHost> with TickerProviderStateMixin {
     final pass = s.passThrough && !waitedOut;
     final text = tourText(s, name: app.profile.name, minutes: app.profile.dailyMinutes);
     final total = tourSteps.length;
+    // The hand points at handAt when the step lights a bigger card, else at the spotlight.
+    final handRect = s.handAt != null ? handHole : h;
 
     void onNext() {
       if (s.kind == 'legend' && !legendReady) return;
-      if (s.kind == 'finish') return Tour.I.finish();
-      if (s.kind == 'action') return Tour.I.skipStep();
-      Tour.I.next();
+      Tour.I.advance();
     }
 
     final bubble = _Bubble(
@@ -308,16 +356,20 @@ class _TourHostState extends State<TourHost> with TickerProviderStateMixin {
       stepLabel: '${Tour.I.index + 1} of $total',
       kind: waitedOut && s.kind == 'action' ? 'tap' : s.kind,
       hint: s.hint,
+      button: s.button,
       legendReady: legendReady,
       onNext: onNext,
     );
 
-    // Bubble placement: pinned (top = above a bottom sheet, bottom = over the lower part of a
-    // tall card), else under a spotlight in the top half, above one lower down, else centered.
+    // Bubble placement: top = just above the spotlight (a bottom sheet), else pinned to the top;
+    // bottom = over the empty lower part of a tall card; otherwise under a spotlight in the top
+    // half, above one lower down, else centered.
     Widget placed;
-    const estH = 200.0;
+    const estH = tourTipEstHeight;
     if (h != null && s.place == 'top') {
-      placed = Positioned(left: 16, right: 16, top: pad.top + 52, child: bubble);
+      placed = h.top - pad.top - 56 >= estH
+          ? Positioned(left: 16, right: 16, bottom: size.height - h.top + 12, child: bubble)
+          : Positioned(left: 16, right: 16, top: pad.top + 52, child: bubble);
     } else if (h != null && s.place == 'bottom') {
       placed = Positioned(left: 16, right: 16, bottom: pad.bottom + 16, child: bubble);
     } else if (h != null) {
@@ -359,7 +411,7 @@ class _TourHostState extends State<TourHost> with TickerProviderStateMixin {
               ),
             ),
           ),
-          if (s.hand == 'tap' && h != null && action) _TapHand(anim: _hand, at: h, tipY: s.handY ?? tourHandTipY),
+          if (s.hand == 'tap' && h != null && handRect != null && action) _TapHand(anim: _hand, at: handRect, tipY: s.handY ?? tourHandTipY),
           if (s.hand == 'swipe' && !waitedOut) _SwipeHand(anim: _hand, center: Offset(size.width / 2, size.height * 0.62)),
           // Action tips have no buttons: let taps through, so a tip resting on the card never blocks it.
           if (!waitingForTarget) (pass || action ? placedChild(placed) : placed),
@@ -523,15 +575,22 @@ class _Bubble extends StatelessWidget {
   final String stepLabel;
   final String kind;
   final String? hint;
+
+  /// Label of the tip's button (tap / finish steps).
+  final String? button;
   final bool legendReady;
   final VoidCallback onNext;
-  const _Bubble({super.key, required this.pose, required this.text, required this.progress, required this.stepLabel, required this.kind, required this.hint, required this.legendReady, required this.onNext});
+  const _Bubble({super.key, required this.pose, required this.text, required this.progress, required this.stepLabel, required this.kind, required this.hint, this.button, required this.legendReady, required this.onNext});
 
-  Widget _nextRow() => Row(children: [
-        Text(stepLabel, style: txt(12, w: FontWeight.w800, c: T.faint)),
-        const Spacer(),
-        _Pill(label: 'Next', enabled: true, onTap: onNext),
-      ]);
+  /// "Next" sits beside the step count; a named button ("Back to the video") gets the full width,
+  /// so it never squeezes on small phones.
+  Widget _nextRow() => button != null
+      ? _Pill(label: button!, enabled: true, onTap: onNext, wide: true)
+      : Row(children: [
+          Text(stepLabel, style: txt(12, w: FontWeight.w800, c: T.faint)),
+          const Spacer(),
+          _Pill(label: 'Next', enabled: true, onTap: onNext),
+        ]);
 
   @override
   Widget build(BuildContext context) {
@@ -554,7 +613,7 @@ class _Bubble extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(bottom: 10),
               child: Row(children: [
-                SizedBox(width: 64, child: Align(alignment: Alignment.centerLeft, child: LegendWord(look: id))),
+                SizedBox(width: 56, child: Align(alignment: Alignment.centerLeft, child: LegendWord(look: id))),
                 const SizedBox(width: 8),
                 Expanded(
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
@@ -566,22 +625,9 @@ class _Bubble extends StatelessWidget {
             ),
           const SizedBox(height: 4),
           _Pill(label: 'Got it', enabled: legendReady, onTap: onNext, wide: true),
-        ] else if (kind == 'controls') ...[
-          const SizedBox(height: 10),
-          for (final (id, label) in tourControls)
-            Padding(
-              padding: const EdgeInsets.only(bottom: 8),
-              child: Row(children: [
-                Container(width: 36, height: 30, alignment: Alignment.center, decoration: BoxDecoration(color: T.background.withValues(alpha: 0.08), borderRadius: BorderRadius.circular(10)), child: ControlGlyph(id: id, color: T.background)),
-                const SizedBox(width: 10),
-                Expanded(child: Text(label, style: txt(14, w: FontWeight.w800, c: T.background))),
-              ]),
-            ),
-          const SizedBox(height: 2),
-          _nextRow(),
         ] else if (kind == 'finish') ...[
           const SizedBox(height: 12),
-          _Pill(label: "Let's go!", enabled: true, onTap: onNext, wide: true),
+          _Pill(label: button ?? "Let's go!", enabled: true, onTap: onNext, wide: true),
         ] else if (kind == 'action') ...[
           if (hint != null) ...[
             const SizedBox(height: 10),
@@ -611,40 +657,22 @@ class _Bubble extends StatelessWidget {
   }
 }
 
-/// A legend sample drawn exactly like a transcript word (Transcript._Token): same font,
-/// 3px underline in the status colour, green box for the word being said.
+/// A legend sample drawn exactly like a transcript word (Transcript._Token): same font and
+/// 3px underline in the status colour.
 class LegendWord extends StatelessWidget {
-  final String look; // new | learning | known | speaking
+  final String look; // new | learning | known
   const LegendWord({super.key, required this.look});
   @override
   Widget build(BuildContext context) {
     final underline = switch (look) { 'new' => T.info, 'learning' => T.learning, _ => Colors.transparent };
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 2),
-      decoration: BoxDecoration(borderRadius: BorderRadius.circular(8), border: Border.all(color: look == 'speaking' ? T.success : Colors.transparent, width: 2)),
-      child: Container(
-        padding: const EdgeInsets.only(bottom: 3),
-        decoration: BoxDecoration(border: Border(bottom: BorderSide(color: underline, width: 3))),
-        child: Text('言葉', style: jp(20.8, c: T.background, h: 1.25)),
-      ),
+      padding: const EdgeInsets.only(bottom: 3),
+      decoration: BoxDecoration(border: Border(bottom: BorderSide(color: underline, width: 3))),
+      child: Text('言葉', style: jp(20.8, c: T.background, h: 1.25)),
     );
   }
 }
 
-/// The player buttons as they look in the clip controls (ClipView), for the controls step.
-class ControlGlyph extends StatelessWidget {
-  final String id;
-  final Color color;
-  const ControlGlyph({super.key, required this.id, required this.color});
-  @override
-  Widget build(BuildContext context) => switch (id) {
-        'replay' => Icon(LucideIcons.rotateCcw, size: 18, color: color),
-        'loop' => Icon(LucideIcons.repeat1, size: 18, color: color),
-        'speed' => Text('1×', style: txt(13, w: FontWeight.w900, c: color)),
-        'save' => Icon(LucideIcons.bookmark, size: 18, color: color),
-        _ => Text('Aa', style: txt(14, w: FontWeight.w900, c: color)),
-      };
-}
 
 class _Pill extends StatelessWidget {
   final String label;

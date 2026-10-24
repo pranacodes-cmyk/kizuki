@@ -1,0 +1,19 @@
+{
+ "videoId": "eTlZzNMVwAY",
+ "ids": [
+  "eTlZzNMVwAY-427"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "eTlZzNMVwAY-427": {
+   "id": "eTlZzNMVwAY-427",
+   "appeal": 5,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Casual conversation walking through Shibuya, easy everyday phrases used."
+  }
+ }
+}

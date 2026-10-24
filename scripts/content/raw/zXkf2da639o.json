@@ -2,9 +2,55 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 431.5,
-   "end": 455.5,
-   "title": "Buying Train Tickets at the Machine",
+   "start": 50.7,
+   "end": 67.2,
+   "title": "Overview of How to Use the Train",
+   "level": "N4",
+   "topics": [
+    "travel",
+    "daily"
+   ],
+   "grammar": [
+    "〜ていく — action continuing forward",
+    "〜た後で — after doing",
+    "〜てごらん / 〜てください — please do"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 51.1,
+     "end": 54.5,
+     "ja": "鉄道利用の流れを、七つのステップに分けて、",
+     "en": "I will divide the process of using the train into seven steps,",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 54.6,
+     "end": 57.0,
+     "ja": "一つずつ解説していきます。",
+     "en": "and explain them one by one.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 57.3,
+     "end": 61.9,
+     "ja": "乗るまでの手順が多いのですが、乗った後は簡単です。",
+     "en": "There are many steps before boarding, but after you get on, it's simple.",
+     "speaker": "Narrator"
+    },
+    {
+     "start": 62.2,
+     "end": 66.8,
+     "ja": "ずっと使える知識なので、この機会に是非覚えてくださいね。",
+     "en": "It's knowledge you can use forever, so please take this opportunity to learn it.",
+     "speaker": "Narrator"
+    }
+   ]
+  },
+  {
+   "start": 271.5,
+   "end": 292.3,
+   "title": "Inserting Money at the Ticket Machine",
    "level": "N4",
    "topics": [
     "travel",
@@ -12,212 +58,105 @@
    ],
    "grammar": [
     "〜ておく — doing in advance",
+    "〜ば — if/conditional",
     "〜によって — depending on"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 431.8,
-     "end": 434.6,
+     "start": 271.8,
+     "end": 274.6,
      "ja": "まず、券売機にお金を入れます。",
-     "en": "First, insert money into the ticket vending machine.",
+     "en": "First, insert your money into the ticket vending machine.",
      "speaker": "Narrator"
     },
     {
-     "start": 434.9,
-     "end": 438.0,
-     "ja": "10円から500円までの硬貨と、",
-     "en": "If you prepare coins from 10 yen to 500 yen...",
+     "start": 274.9,
+     "end": 280.9,
+     "ja": "10円から500円までの硬貨と、1000円札を用意しておけば安心です。",
+     "en": "You'll be safe if you prepare coins from 10 to 500 yen and 1,000-yen bills.",
      "speaker": "Narrator"
     },
     {
-     "start": 438.0,
-     "end": 441.0,
-     "ja": "1000円札を用意しておけば安心です。",
-     "en": "...and 1,000-yen bills, you will be fine.",
+     "start": 281.2,
+     "end": 286.9,
+     "ja": "続いて、利用する人の、年齢と人数に合ったボタンを選択します。",
+     "en": "Next, select the button matching the age and number of passengers.",
      "speaker": "Narrator"
     },
     {
-     "start": 441.2,
-     "end": 444.2,
-     "ja": "続いて、利用する人の、",
-     "en": "Next, select the button matching...",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 444.2,
-     "end": 447.0,
-     "ja": "年齢と人数に合ったボタンを選択します。",
-     "en": "...the age and number of passengers.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 447.2,
-     "end": 449.8,
-     "ja": "というのも、乗車券の金額は、",
-     "en": "This is because train fares...",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 449.8,
-     "end": 452.0,
-     "ja": "年齢によって変わります。",
-     "en": "...vary depending on age.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 452.2,
-     "end": 455.0,
-     "ja": "それについて、ちょっと解説しますね。",
-     "en": "Let me explain a little bit about that.",
+     "start": 287.1,
+     "end": 291.8,
+     "ja": "というのも、乗車券の金額は、年齢によって変わります。",
+     "en": "This is because ticket prices vary depending on age.",
      "speaker": "Narrator"
     }
    ]
   },
   {
-   "start": 948.5,
-   "end": 1013.5,
-   "title": "Platform Safety and Boarding Etiquette",
+   "start": 588.6,
+   "end": 613.7,
+   "title": "Rules for Boarding the Train",
    "level": "N3",
    "topics": [
     "travel",
+    "culture",
     "daily"
    ],
    "grammar": [
-    "〜ようにする — to make sure to",
+    "〜ないように — in order not to",
     "〜てから — after doing",
     "〜たり〜たりする — doing things like"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 948.8,
-     "end": 952.5,
+     "start": 588.9,
+     "end": 592.5,
      "ja": "安全のため、列車が完全に停止するまで、",
-     "en": "For safety, until the train comes to a complete stop...",
+     "en": "For safety, until the train comes to a complete stop,",
      "speaker": "Narrator"
     },
     {
-     "start": 952.5,
-     "end": 956.0,
+     "start": 592.6,
+     "end": 596.2,
      "ja": "黄色い線や白線を超えないようにしましょう。",
-     "en": "...make sure not to cross the yellow or white line.",
+     "en": "let's make sure not to cross the yellow or white lines.",
      "speaker": "Narrator"
     },
     {
-     "start": 956.5,
-     "end": 958.8,
+     "start": 596.6,
+     "end": 599.0,
      "ja": "鉄道は、降車優先です。",
-     "en": "On railways, passengers getting off have priority.",
+     "en": "On trains, exiting passengers have priority.",
      "speaker": "Narrator"
     },
     {
-     "start": 959.0,
-     "end": 962.3,
+     "start": 599.2,
+     "end": 602.0,
      "ja": "降車が済んでから乗車します。",
-     "en": "Board the train after passengers have finished getting off.",
+     "en": "Board only after people have finished getting off.",
      "speaker": "Narrator"
     },
     {
-     "start": 962.8,
-     "end": 966.5,
+     "start": 602.4,
+     "end": 606.3,
      "ja": "停車時間は短く設定されていることが多いです。",
-     "en": "Stopping times are often set quite short.",
+     "en": "Stop times are often set to be very short.",
      "speaker": "Narrator"
     },
     {
-     "start": 966.8,
-     "end": 970.5,
+     "start": 606.6,
+     "end": 610.1,
      "ja": "乗り遅れたり、列車の出発が遅れたりしないよう、",
-     "en": "To avoid missing your train or delaying its departure...",
+     "en": "To avoid missing the train or delaying its departure,",
      "speaker": "Narrator"
     },
     {
-     "start": 970.5,
-     "end": 973.0,
+     "start": 610.2,
+     "end": 613.2,
      "ja": "なるべく速やかに乗車しましょう。",
-     "en": "...let's board as promptly as possible.",
-     "speaker": "Narrator"
-    }
-   ]
-  },
-  {
-   "start": 1041.0,
-   "end": 1114.8,
-   "title": "Exiting Through the Ticket Gates",
-   "level": "N4",
-   "topics": [
-    "travel",
-    "daily"
-   ],
-   "grammar": [
-    "〜たり〜たりする — doing things like",
-    "〜と同じ — the same as",
-    "〜てみる — try doing"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 1041.3,
-     "end": 1044.0,
-     "ja": "列車を降りたら、いよいよ最後のステップ。",
-     "en": "Once you get off the train, it's finally the last step.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 1044.0,
-     "end": 1046.0,
-     "ja": "改札外に出ます。",
-     "en": "Exit through the ticket gates.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 1046.5,
-     "end": 1050.2,
-     "ja": "改札口は、出口によって分けられていたり、",
-     "en": "Ticket gates may be separated by exit...",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 1050.2,
-     "end": 1054.0,
-     "ja": "別路線への乗り換え専用のものがあったりします。",
-     "en": "...or dedicated exclusively for transfers to other lines.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 1054.2,
-     "end": 1058.8,
-     "ja": "通る前に、その改札口についての案内を確認しましょう。",
-     "en": "Before passing through, check the signs for that ticket gate.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 1059.5,
-     "end": 1064.0,
-     "ja": "改札口の通り方は、改札内に入る時と同じです。",
-     "en": "The way to pass through the ticket gate is the same as when entering.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 1064.8,
-     "end": 1067.8,
-     "ja": "ただし、きっぷが無効となった場合、",
-     "en": "However, if the ticket has expired...",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 1067.8,
-     "end": 1070.0,
-     "ja": "そのきっぷは回収されます。",
-     "en": "...that ticket will be retained.",
-     "speaker": "Narrator"
-    },
-    {
-     "start": 1070.5,
-     "end": 1074.2,
-     "ja": "記念に持ち帰りたい時は、係員に相談してみましょう。",
-     "en": "If you want to keep it as a souvenir, try consulting the station staff.",
+     "en": "let's board as promptly as possible.",
      "speaker": "Narrator"
     }
    ]
@@ -227,5 +166,6 @@
  "pickTopics": [
   "travel"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

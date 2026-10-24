@@ -1,80 +1,108 @@
 {
- "speech": "clear",
+ "speech": "some",
  "clips": [
   {
    "start": 4.8,
    "end": 12.0,
-   "title": "Interviewing Foreigners in Harajuku",
-   "level": "N4",
+   "title": "Interviewing Foreign Visitors in Harajuku",
+   "level": "N5",
    "topics": [
-    "culture",
-    "travel"
+    "daily",
+    "fun"
    ],
    "grammar": [
     "〜てみる — to try doing",
-    "〜ましょう — let's"
+    "〜ましょう — let's do"
    ],
-   "quality": 5,
+   "quality": 4,
    "lines": [
     {
-     "start": 5.1,
-     "end": 9.3,
-     "ja": "それでは今から、外国人の方たちにインタビューをしてみます。",
-     "en": "Well then, I'm going to interview some foreigners now.",
-     "speaker": "Nadeshiko"
+     "start": 4.8,
+     "end": 6.8,
+     "ja": "それでは、今から",
+     "en": "Well then, starting now,",
+     "speaker": "Host"
     },
     {
-     "start": 9.6,
-     "end": 11.0,
+     "start": 6.8,
+     "end": 8.5,
+     "ja": "外国人の方たちに",
+     "en": "with foreign visitors,",
+     "speaker": "Host"
+    },
+    {
+     "start": 8.5,
+     "end": 10.0,
+     "ja": "インタビューをしてみます。",
+     "en": "I'll try doing some interviews.",
+     "speaker": "Host"
+    },
+    {
+     "start": 10.0,
+     "end": 11.3,
      "ja": "行きましょう！",
      "en": "Let's go!",
-     "speaker": "Nadeshiko"
+     "speaker": "Host"
     }
    ]
   },
   {
-   "start": 242.0,
-   "end": 254.0,
-   "title": "Wrapping Up the Harajuku Interviews",
+   "start": 242.4,
+   "end": 253.5,
+   "title": "Wrapping Up the Harajuku Street Interviews",
    "level": "N4",
    "topics": [
     "daily",
-    "culture"
+    "fun"
    ],
    "grammar": [
-    "いかが — polite form of how",
-    "〜ていく — to continue doing",
+    "〜ていく — to continue doing into the future",
+    "〜が — but / although",
     "〜てください — please do"
    ],
-   "quality": 5,
+   "quality": 4,
    "lines": [
     {
-     "start": 242.5,
-     "end": 245.6,
-     "ja": "皆さん、いかがでしたか？今日の原宿は。",
-     "en": "Everyone, how was Harajuku today?",
-     "speaker": "Nadeshiko"
+     "start": 242.6,
+     "end": 244.2,
+     "ja": "皆さん、いかがでしたか？",
+     "en": "Everyone, how was it?",
+     "speaker": "Host"
+    },
+    {
+     "start": 244.2,
+     "end": 245.8,
+     "ja": "今日の原宿は。",
+     "en": "Harajuku today.",
+     "speaker": "Host"
     },
     {
      "start": 246.0,
-     "end": 248.8,
+     "end": 248.5,
      "ja": "楽しいインタビューをこれからも続けていきます。",
-     "en": "I'll keep doing these fun interviews.",
-     "speaker": "Nadeshiko"
+     "en": "I will continue doing fun interviews like this.",
+     "speaker": "Host"
     },
     {
-     "start": 248.9,
-     "end": 251.2,
+     "start": 248.7,
+     "end": 251.1,
      "ja": "今日のところはこれで終わりますが、",
      "en": "That's all for today, but...",
-     "speaker": "Nadeshiko"
+     "speaker": "Host"
     },
     {
-     "start": 251.4,
-     "end": 253.8,
-     "ja": "また見てくださいね！See you!",
-     "en": "Please watch again! See you!",
-     "speaker": "Nadeshiko"
+     "start": 251.1,
+     "end": 252.5,
+     "ja": "また見てくださいね！",
+     "en": "Please watch again!",
+     "speaker": "Host"
+    },
+    {
+     "start": 252.5,
+     "end": 253.4,
+     "ja": "See you!",
+     "en": "See you!",
+     "speaker": "Host"
     }
    ]
   }
@@ -83,5 +111,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

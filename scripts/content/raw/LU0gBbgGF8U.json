@@ -2,8 +2,8 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 5.4,
-   "end": 19.3,
+   "start": 5.2,
+   "end": 18.7,
    "title": "Selected as Test Subject Number One",
    "level": "N3",
    "topics": [
@@ -11,185 +11,178 @@
     "comedy"
    ],
    "grammar": [
-    "〜られる — passive voice",
-    "〜わけだ — that's why / naturally"
+    "〜に選ばれる — passive voice",
+    "〜わけ — reason/explanation"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 5.8,
-     "end": 8.0,
-     "ja": "あなたは被験者１号に選ばれましたー！",
-     "en": "You have been chosen as test subject number one!",
+     "start": 5.2,
+     "end": 7.7,
+     "ja": "あなたは被験者1号に選ばれましたー！",
+     "en": "You have been chosen as Test Subject Number One!",
      "speaker": "Riri"
     },
     {
-     "start": 8.3,
-     "end": 9.8,
-     "ja": "おめでとうございまーす！",
+     "start": 7.8,
+     "end": 9.6,
+     "ja": "おめでとうございます！",
      "en": "Congratulations!",
      "speaker": "Riri"
     },
     {
-     "start": 10.5,
-     "end": 14.0,
-     "ja": "僕はおんずちゃんの恋愛を全力でサポートいたします。",
-     "en": "I will give my all to support your love life, Anzu-chan.",
+     "start": 10.0,
+     "end": 13.6,
+     "ja": "僕は杏子ちゃんの恋愛を全力でサポートいたします。",
+     "en": "I will support Anzu-chan's love life with everything I've got.",
      "speaker": "Riri"
     },
     {
-     "start": 14.3,
-     "end": 17.0,
-     "ja": "そんなわけでそろそろ魔法界へ戻りま…",
-     "en": "So with that, I'll be heading back to the magic realm...",
+     "start": 14.0,
+     "end": 16.9,
+     "ja": "そんなわけで、そろそろ魔法界へ戻り…",
+     "en": "So anyway, it's about time I return to the magic realm—",
      "speaker": "Riri"
     },
     {
-     "start": 17.3,
-     "end": 19.0,
-     "ja": "あたしそんなの関わらないから！",
-     "en": "I'm not getting involved in that!",
+     "start": 17.0,
+     "end": 18.7,
+     "ja": "私、そんなの関わらないから！",
+     "en": "I'm not getting involved in any of that!",
      "speaker": "Anzu"
     }
    ]
   },
   {
-   "start": 45.8,
-   "end": 115.8,
-   "title": "Did You Forget Your Childhood Friend?",
-   "level": "N4",
+   "start": 45.5,
+   "end": 115.5,
+   "title": "Who Is This Tall, Handsome Guy?",
+   "level": "N3",
    "topics": [
     "anime",
-    "school",
-    "comedy"
+    "romance",
+    "school"
    ],
    "grammar": [
-    "〜てんだ — contracting 〜ているんだ",
-    "〜たっけ — asking for confirmation"
+    "〜っけ — confirming forgotten info",
+    "〜なんて — expressing surprise or disbelief"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 46.2,
-     "end": 47.9,
+     "start": 46.0,
+     "end": 47.8,
      "ja": "おはよう、杏子。",
-     "en": "Morning, Anzu.",
-     "speaker": "Junta"
+     "en": "Good morning, Anzu.",
+     "speaker": "Boy"
     },
     {
-     "start": 50.8,
-     "end": 52.3,
-     "ja": "寝坊しなかったか？",
-     "en": "Didn't oversleep, did you?",
-     "speaker": "Junta"
-    },
-    {
-     "start": 52.4,
-     "end": 53.6,
-     "ja": "学校行こう。",
-     "en": "Let's head to school.",
-     "speaker": "Junta"
+     "start": 50.5,
+     "end": 53.3,
+     "ja": "寝坊しなかったか？学校行こう。",
+     "en": "Didn't oversleep? Let's head to school.",
+     "speaker": "Boy"
     },
     {
      "start": 54.8,
-     "end": 57.8,
+     "end": 57.6,
      "ja": "誰？この高身長イケメン。",
-     "en": "Who is this tall, good-looking guy?",
+     "en": "Who is this tall, handsome guy?",
      "speaker": "Anzu"
     },
     {
-     "start": 58.4,
-     "end": 59.9,
+     "start": 58.5,
+     "end": 60.0,
      "ja": "えっとー…",
      "en": "Um...",
      "speaker": "Anzu"
     },
     {
      "start": 60.8,
-     "end": 63.3,
+     "end": 63.0,
      "ja": "どこかでお会いしましたっけ？",
      "en": "Have we met somewhere before?",
      "speaker": "Anzu"
     },
     {
-     "start": 63.5,
+     "start": 63.4,
      "end": 64.3,
      "ja": "え？",
      "en": "Huh?",
-     "speaker": "Junta"
+     "speaker": "Boy"
     },
     {
-     "start": 65.8,
-     "end": 68.8,
-     "ja": "何言ってんだ、寝ぼけてんのか？",
+     "start": 66.3,
+     "end": 68.5,
+     "ja": "何言ってんだ。寝ぼけてんのか？",
      "en": "What are you talking about? Are you still half-asleep?",
-     "speaker": "Junta"
+     "speaker": "Boy"
     },
     {
      "start": 69.5,
      "end": 73.0,
-     "ja": "幼馴染の顔忘れるなんて。",
-     "en": "Forgetting your childhood friend's face...",
-     "speaker": "Junta"
+     "ja": "幼馴染の顔、忘れるなんて。",
+     "en": "Forgetting what your own childhood friend looks like...",
+     "speaker": "Boy"
     },
     {
-     "start": 73.8,
-     "end": 75.5,
+     "start": 74.0,
+     "end": 75.4,
      "ja": "幼馴染！？",
-     "en": "Childhood friend!?",
+     "en": "Childhood friend?!",
      "speaker": "Anzu"
     }
    ]
   },
   {
-   "start": 118.0,
-   "end": 137.0,
-   "title": "Cheap Taste, but Not Bad",
-   "level": "N3",
+   "start": 118.3,
+   "end": 136.8,
+   "title": "Cheap Taste, But Not Bad",
+   "level": "N4",
    "topics": [
     "anime",
     "romance",
-    "comedy"
+    "food"
    ],
    "grammar": [
-    "〜っぽい — -ish / having the quality of",
-    "〜ない — negative adjective form"
+    "〜っぽい — having the quality of",
+    "だが — but/however"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 118.5,
-     "end": 119.5,
+     "end": 119.8,
      "ja": "どう？",
      "en": "How is it?",
      "speaker": "Anzu"
     },
     {
      "start": 121.0,
-     "end": 123.5,
-     "ja": "ずいぶん安っぽい味だな。",
+     "end": 123.7,
+     "ja": "随分安っぽい味だな。",
      "en": "It tastes pretty cheap.",
      "speaker": "Boy"
     },
     {
-     "start": 124.8,
-     "end": 127.5,
+     "start": 125.0,
+     "end": 127.4,
      "ja": "だが、悪くない。",
-     "en": "But... it's not bad.",
+     "en": "Still, it's not bad.",
      "speaker": "Boy"
     },
     {
-     "start": 133.8,
-     "end": 134.8,
+     "start": 133.7,
+     "end": 134.9,
      "ja": "どうした？",
      "en": "What's wrong?",
      "speaker": "Boy"
     },
     {
-     "start": 135.2,
-     "end": 136.8,
+     "start": 135.1,
+     "end": 136.5,
      "ja": "ちょっと正気を…",
-     "en": "Just regaining my senses...",
+     "en": "Just regaining my composure...",
      "speaker": "Anzu"
     }
    ]
@@ -200,5 +193,6 @@
   "anime",
   "romance"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

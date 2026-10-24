@@ -3,6 +3,24 @@
 Flutter (`mobile/`) is the product; the web app is its phone-frame prototype.
 Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com/pranacodes-cmyk/kizuki
 
+## Starter clips, faster video start, word levels + new store build (24 Oct)
+- [ ] Word level badges: find why some easy words show hard levels (おはよう = N2) and fix in the content pipeline; regenerate data for both apps.
+- [ ] Starter feed: pick the 40–50 best opening clips (AI + rules, all checked to really play through the official player); same curated start for everyone in the trial phone preview and the first home feed, then personal ranking. Flutter first, then web, mirrored tests.
+- [ ] Faster video start: measure startup; warm up the next clip in the background, earlier YouTube player loading, clear slow-loading state with Try again / Watch on YouTube. (480p cannot be forced: YouTube's embedded player ignores quality requests.)
+- [ ] Checks (Flutter analyze/tests, web tests, browser walk), then send build to Play internal testing + TestFlight.
+
+## Simple welcome tour + plain review words (24 Oct, from phone screenshots)
+- [x] Tour cut from 19 to 12 do-what-I-point steps, Flutter first then web: no subtitles/green-box step (it lit the video), no button list, no Explore detour.
+- [x] Word card steps light the whole card (meaning stays readable) with the hand on Explain / Ask Kizuki; Ask Kizuki step has a "Back to the video" button that closes both cards itself (no "tap above each card"); closing a card by hand never gets stuck.
+- [x] Spotlights only count the visible part of a target (scrolled-away words never light the video); tour word scrolls into view and the clip pauses.
+- [x] Simple 3-row line legend (blue new · orange saved · no line known); last step "Back to videos" returns to the feed instead of leaving the learner on the review card.
+- [x] Review: Forgot / Remembered with icons, no "1m / 10m" codes; "Did you remember it?"; finished screen explains words come back at the right time; level sheet + saved-word card say "Next practice in 10 minutes".
+- [x] One word-status vocabulary: Learning / Known everywhere (Vocab "Mastered" and kana "learned" renamed).
+- [x] Bug found in the walk: pausing a clip that was still loading crashed the web feed ("Something went wrong") — both players now queue the pause until playback starts; web regression test added.
+- [x] Mirrored tests (tour machine, plain-time wording) + Flutter analyze/tests, web tests/typecheck, browser walk of the whole tour at phone size (412×880), 4/4 repeated starts without errors.
+- [ ] Real-phone check of the new tour + Android emulator tour test: runs in the next store build (none uploaded in this task).
+- [ ] Content check: some dictionary JLPT badges look wrong (おはよう shows N2) — review the JLPT level source.
+
 ## Premium motion + haptics (24 Oct)
 - [x] Living fox: shared mirrored motion math (breathe / float / groove idle, spring entrance, squash-and-stretch hop, tap boop); entrances wait for the splash; reduced motion freezes it. Flutter first, then web.
 - [x] Animated splash in both clients (fox pop, orange "click" ripples, letter-by-letter wordmark, tagline) + native Android/iOS launch screens on pure black with the same-size fox face (no colour jump).

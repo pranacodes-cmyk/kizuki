@@ -1,0 +1,19 @@
+{
+ "videoId": "WVgUjHoVjAg",
+ "ids": [
+  "WVgUjHoVjAg-21"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "WVgUjHoVjAg-21": {
+   "id": "WVgUjHoVjAg-21",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Energetic greeting introducing popular convenience store sweets."
+  }
+ }
+}

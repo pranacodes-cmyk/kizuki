@@ -2,181 +2,217 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 6.0,
-   "end": 20.3,
-   "title": "Master Has Collapsed",
+   "start": 5.4,
+   "end": 28.5,
+   "title": "Falling Asleep Out of Nowhere",
    "level": "N4",
    "topics": [
     "anime",
-    "daily",
     "comedy"
    ],
    "grammar": [
-    "〜しろ — imperative form",
-    "〜ています — ongoing state"
+    "〜てしまう — unintentional action",
+    "〜ている — continuous state"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 6.0,
-     "end": 7.1,
+     "start": 5.7,
+     "end": 6.8,
      "ja": "ま、マスター！",
      "en": "M-Master!",
-     "speaker": "Cu Chulainn"
+     "speaker": "Cú Chulainn"
     },
     {
-     "start": 7.1,
-     "end": 8.8,
-     "ja": "どうした、しっかりしろ！",
+     "start": 7.0,
+     "end": 8.7,
+     "ja": "どうした？しっかりしろ！",
      "en": "What happened? Pull yourself together!",
-     "speaker": "Cu Chulainn"
+     "speaker": "Cú Chulainn"
     },
     {
-     "start": 8.9,
-     "end": 11.0,
-     "ja": "何事ですか、クーフーリンさん？",
-     "en": "What's going on, Mr. Cu Chulainn?",
+     "start": 8.8,
+     "end": 10.7,
+     "ja": "何事ですか？クーフーリンさん。",
+     "en": "What's going on, Mr. Cú Chulainn?",
      "speaker": "Mash"
     },
     {
-     "start": 11.1,
-     "end": 13.2,
-     "ja": "おう、マシュ。マスターが倒れてて…",
-     "en": "Oh, Mash. Master collapsed, and...",
-     "speaker": "Cu Chulainn"
+     "start": 10.8,
+     "end": 12.8,
+     "ja": "おう、マシュ。マスターが倒れてて。",
+     "en": "Oh, Mash. Master has collapsed.",
+     "speaker": "Cú Chulainn"
     },
     {
-     "start": 13.3,
-     "end": 15.6,
-     "ja": "せ、先輩！先輩！",
-     "en": "S-Senpai! Senpai!",
+     "start": 12.9,
+     "end": 15.0,
+     "ja": "先輩！先輩！",
+     "en": "Senpai! Senpai!",
      "speaker": "Mash"
     },
     {
-     "start": 16.8,
+     "start": 17.2,
      "end": 19.5,
-     "ja": "これは…眠っていますね。",
-     "en": "He's... just asleep, isn't he?",
+     "ja": "これは、眠っていますね。",
+     "en": "It seems... he's just asleep.",
      "speaker": "Mash"
     },
     {
-     "start": 19.6,
-     "end": 20.3,
-     "ja": "あ？",
-     "en": "Huh?",
-     "speaker": "Cu Chulainn"
+     "start": 20.4,
+     "end": 24.3,
+     "ja": "先輩は時々電池が切れたように眠ってしまうので。",
+     "en": "Senpai sometimes falls asleep like his battery just ran out.",
+     "speaker": "Mash"
+    },
+    {
+     "start": 24.4,
+     "end": 26.6,
+     "ja": "出会った時も廊下で眠っていました。",
+     "en": "When we first met, he was asleep in the hallway too.",
+     "speaker": "Mash"
+    },
+    {
+     "start": 26.8,
+     "end": 28.1,
+     "ja": "何？赤ん坊？",
+     "en": "What, is he a baby?",
+     "speaker": "Cú Chulainn"
     }
    ]
   },
   {
-   "start": 51.5,
-   "end": 62.5,
-   "title": "Command Order Battle System",
+   "start": 44.5,
+   "end": 61.6,
+   "title": "The Master Asleep on the Battlefield",
    "level": "N3",
    "topics": [
     "anime",
     "comedy"
    ],
    "grammar": [
-    "〜しかない — have no choice but to",
-    "〜なので — because / since"
+    "〜てしまう — doing something completely/regrettably",
+    "〜てもらう — having someone do something",
+    "〜なので — because/since"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 51.8,
-     "end": 53.6,
-     "ja": "ああ、また眠ってる！",
-     "en": "Ah, he fell asleep again!",
+     "start": 44.7,
+     "end": 46.5,
+     "ja": "急だな！",
+     "en": "That was sudden!",
+     "speaker": "Cú Chulainn"
+    },
+    {
+     "start": 45.4,
+     "end": 46.9,
+     "ja": "戦闘を開始します！",
+     "en": "Commencing battle!",
      "speaker": "Mash"
     },
     {
-     "start": 53.8,
-     "end": 55.2,
-     "ja": "嘘だろ！？",
-     "en": "You've got to be kidding me!",
-     "speaker": "Cu Chulainn"
+     "start": 47.0,
+     "end": 48.9,
+     "ja": "そんじゃ指示頼むぜ、マスター！",
+     "en": "Alright, give us our orders, Master!",
+     "speaker": "Cú Chulainn"
     },
     {
-     "start": 55.3,
+     "start": 52.0,
+     "end": 53.6,
+     "ja": "ああ、また眠ってる！",
+     "en": "Ah, he's asleep again!",
+     "speaker": "Mash"
+    },
+    {
+     "start": 53.7,
+     "end": 54.8,
+     "ja": "嘘だろ？",
+     "en": "You've got to be kidding!",
+     "speaker": "Cú Chulainn"
+    },
+    {
+     "start": 54.9,
      "end": 57.2,
      "ja": "しょうがねえ、勝手にやらせてもらうしか…",
-     "en": "No choice then, guess we'll just have to fight on our own—",
-     "speaker": "Cu Chulainn"
+     "en": "Guess we have no choice but to do this our way...",
+     "speaker": "Cú Chulainn"
     },
     {
      "start": 57.3,
+     "end": 58.1,
+     "ja": "ダメです！",
+     "en": "No, you can't!",
+     "speaker": "Mash"
+    },
+    {
+     "start": 58.2,
      "end": 60.0,
-     "ja": "ダメです！コマンドオーダーバトルシステムなので！",
-     "en": "You can't! It's a Command Order Battle System!",
+     "ja": "コマンドオーダーバトルシステムなので！",
+     "en": "Because this is a Command Order Battle System!",
      "speaker": "Mash"
     },
     {
      "start": 60.1,
-     "end": 62.2,
+     "end": 61.3,
      "ja": "なんでそこはメタなんだよ！",
-     "en": "Why are you getting meta about that?!",
-     "speaker": "Cu Chulainn"
+     "en": "Why are you being meta about that?!",
+     "speaker": "Cú Chulainn"
     }
    ]
   },
   {
-   "start": 202.8,
-   "end": 217.0,
-   "title": "Silhouette Quiz",
+   "start": 126.8,
+   "end": 141.0,
+   "title": "Feasting by the Campfire",
    "level": "N4",
    "topics": [
+    "food",
     "anime",
-    "fun",
-    "food"
+    "friends"
    ],
    "grammar": [
-    "〜かな — wondering / questioning",
-    "〜まで — until"
+    "〜っぱ — style/manner of doing",
+    "〜から — because/since",
+    "〜な（禁止） — prohibitive (don't)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 202.8,
-     "end": 204.4,
-     "ja": "シルエットクイズ！",
-     "en": "Silhouette quiz!",
-     "speaker": "Da Vinci"
+     "start": 130.4,
+     "end": 133.0,
+     "ja": "なんだ、お前もいい飲みっぷりだな！",
+     "en": "Hey, you can really drink, can't you!",
+     "speaker": "Cú Chulainn"
     },
     {
-     "start": 204.7,
-     "end": 206.9,
-     "ja": "このシルエットは何でしょう？",
-     "en": "What do you think this silhouette is?",
-     "speaker": "Da Vinci"
+     "start": 134.1,
+     "end": 135.5,
+     "ja": "乾杯！",
+     "en": "Cheers!",
+     "speaker": "Cú Chulainn"
     },
     {
-     "start": 207.4,
-     "end": 210.5,
-     "ja": "うーん、あれかな？それともこれかな？",
-     "en": "Hmm, could it be that? Or maybe this?",
-     "speaker": "Da Vinci"
+     "start": 135.7,
+     "end": 137.9,
+     "ja": "このお魚、とても美味しいですね。",
+     "en": "This fish is really delicious.",
+     "speaker": "Mash"
     },
     {
-     "start": 210.8,
-     "end": 213.0,
-     "ja": "正解発表まで、３、２、１。正解はこちら！",
-     "en": "Answer in 3, 2, 1... Here's the answer!",
-     "speaker": "Da Vinci"
+     "start": 138.0,
+     "end": 139.7,
+     "ja": "おう、たくさん釣ったからどんどん食え！",
+     "en": "Yeah, I caught a bunch, so eat up!",
+     "speaker": "Cú Chulainn"
     },
     {
-     "start": 213.3,
-     "end": 215.3,
-     "ja": "分かったかな？次回もお楽しみに！",
-     "en": "Did you get it? See you next time!",
-     "speaker": "Da Vinci"
-    },
-    {
-     "start": 215.4,
-     "end": 216.8,
-     "ja": "いや、そっちなの！？",
-     "en": "Wait, that's what it was?!",
-     "speaker": "Fujimaru"
+     "start": 139.8,
+     "end": 140.7,
+     "ja": "遠慮すんなよ！",
+     "en": "Don't hold back!",
+     "speaker": "Cú Chulainn"
     }
    ]
   }
@@ -185,5 +221,6 @@
  "pickTopics": [
   "anime"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

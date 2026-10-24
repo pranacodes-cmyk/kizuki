@@ -1,0 +1,19 @@
+{
+ "videoId": "bjWnWc6r0zA",
+ "ids": [
+  "bjWnWc6r0zA-31"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "bjWnWc6r0zA-31": {
+   "id": "bjWnWc6r0zA-31",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [],
+   "why": "Humorous manzai dialogue, but the fast banter is difficult for beginners."
+  }
+ }
+}

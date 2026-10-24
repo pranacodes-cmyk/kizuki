@@ -2,157 +2,147 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 53.0,
-   "end": 88.0,
-   "title": "Self-Introduction and Hobbies",
-   "level": "N5",
+   "start": 11.5,
+   "end": 40.2,
+   "title": "Helping Japanese Learners",
+   "level": "N4",
    "topics": [
     "daily",
-    "culture"
+    "fun"
    ],
    "grammar": [
-    "〜出身 — from (place of origin)",
-    "〜ている — ongoing state / living in",
-    "〜たり〜たりする — doing things like..."
+    "〜たら — conditional if / when",
+    "〜ていく — action continuing into the future",
+    "〜てください — please do"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 53.0,
-     "end": 57.5,
-     "ja": "今日は最初のビデオなので、",
-     "en": "Since this is the first video,",
+     "start": 11.6,
+     "end": 15.8,
+     "ja": "日本語を勉強しているみんなの",
+     "en": "For everyone studying Japanese,",
      "speaker": "Koko"
     },
     {
-     "start": 57.7,
-     "end": 62.8,
-     "ja": "私の自己紹介をします。",
-     "en": "I will introduce myself.",
+     "start": 16.0,
+     "end": 21.8,
+     "ja": "リスニングの練習のお手伝いができたら嬉しいです。",
+     "en": "I'd be glad if I could help with your listening practice.",
      "speaker": "Koko"
     },
     {
-     "start": 63.5,
-     "end": 67.0,
-     "ja": "私は東京出身で、",
-     "en": "I am from Tokyo,",
+     "start": 22.5,
+     "end": 28.8,
+     "ja": "このポッドキャストでは、私の日常の出来事や",
+     "en": "In this podcast, about things in my daily life",
      "speaker": "Koko"
     },
     {
-     "start": 67.2,
-     "end": 71.8,
-     "ja": "今も東京に住んでいます。",
-     "en": "and I still live in Tokyo.",
+     "start": 29.0,
+     "end": 34.0,
+     "ja": "オリジナルのストーリーを話します。",
+     "en": "and original stories, I will talk.",
      "speaker": "Koko"
     },
     {
-     "start": 72.0,
-     "end": 79.0,
-     "ja": "趣味は芸術鑑賞や、ものづくりです。",
-     "en": "My hobbies are art appreciation and crafting things.",
-     "speaker": "Koko"
-    },
-    {
-     "start": 79.5,
-     "end": 83.8,
-     "ja": "休日は美術館に行ったり、",
-     "en": "On days off, I go to art museums,",
-     "speaker": "Koko"
-    },
-    {
-     "start": 84.0,
-     "end": 88.0,
-     "ja": "絵を描いたりしています。",
-     "en": "and draw pictures.",
+     "start": 34.5,
+     "end": 39.8,
+     "ja": "ぜひリスニングの練習に使ってください。",
+     "en": "Please be sure to use it for listening practice.",
      "speaker": "Koko"
     }
    ]
   },
   {
-   "start": 129.5,
-   "end": 153.5,
-   "title": "Favorite Anime Recommendation",
+   "start": 111.8,
+   "end": 142.0,
+   "title": "Hobbies, Art, and Anime",
    "level": "N5",
    "topics": [
+    "daily",
     "anime",
-    "fun"
+    "culture"
    ],
    "grammar": [
-    "一番〜 — the most...",
-    "ぜひ〜てください — please by all means"
+    "〜たり〜たりする — doing things like A and B",
+    "〜が大好き — love / really like",
+    "一番〜 — the most ~"
    ],
    "quality": 5,
    "lines": [
     {
+     "start": 112.0,
+     "end": 118.8,
+     "ja": "趣味は芸術鑑賞や、ものづくりです。",
+     "en": "My hobbies are appreciating art and making things.",
+     "speaker": "Koko"
+    },
+    {
+     "start": 119.5,
+     "end": 127.8,
+     "ja": "休日は美術館に行ったり、絵を描いたりしています。",
+     "en": "On days off, I do things like visiting art museums and painting.",
+     "speaker": "Koko"
+    },
+    {
      "start": 129.5,
-     "end": 133.8,
+     "end": 133.5,
      "ja": "アニメも大好きで、",
      "en": "I also love anime,",
      "speaker": "Koko"
     },
     {
-     "start": 134.0,
+     "start": 133.8,
      "end": 141.5,
-     "ja": "一番好きな作品は進撃の巨人です。",
+     "ja": "一番好きな作品は「進撃の巨人」です。",
      "en": "and my favorite work is Attack on Titan.",
-     "speaker": "Koko"
-    },
-    {
-     "start": 144.2,
-     "end": 149.8,
-     "ja": "あなたの好きなアニメは何ですか？",
-     "en": "What is your favorite anime?",
-     "speaker": "Koko"
-    },
-    {
-     "start": 150.0,
-     "end": 153.2,
-     "ja": "ぜひ教えてください。",
-     "en": "Please let me know!",
      "speaker": "Koko"
     }
    ]
   },
   {
-   "start": 216.0,
+   "start": 215.8,
    "end": 248.5,
    "title": "Favorite Travel Destinations",
    "level": "N5",
    "topics": [
-    "travel"
+    "travel",
+    "daily"
    ],
    "grammar": [
+    "〜てみたい — want to try doing",
     "今まで — until now / so far",
-    "〜てみたい — want to try doing"
+    "特に — especially"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 216.0,
-     "end": 221.0,
+     "end": 221.5,
      "ja": "私は旅行も大好きで、",
      "en": "I also love traveling,",
      "speaker": "Koko"
     },
     {
-     "start": 221.5,
-     "end": 227.5,
+     "start": 222.0,
+     "end": 228.0,
      "ja": "今まで色々な国に行きました。",
-     "en": "and I have been to various countries.",
+     "en": "and I have been to various countries so far.",
      "speaker": "Koko"
     },
     {
      "start": 229.5,
-     "end": 239.0,
+     "end": 239.5,
      "ja": "特に好きな場所は、ベネチアとニューヨークです。",
-     "en": "The places I especially like are Venice and New York.",
+     "en": "My favorite places in particular are Venice and New York.",
      "speaker": "Koko"
     },
     {
      "start": 241.0,
-     "end": 248.0,
-     "ja": "いつか行ってみたい場所は、ブータンです。",
-     "en": "A place I would like to visit someday is Bhutan.",
+     "end": 247.8,
+     "ja": "いつか行ってみたい場所はブータンです。",
+     "en": "A place I want to visit someday is Bhutan.",
      "speaker": "Koko"
     }
    ]
@@ -162,5 +152,6 @@
  "pickTopics": [
   "daily"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

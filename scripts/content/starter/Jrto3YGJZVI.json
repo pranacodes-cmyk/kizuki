@@ -1,0 +1,30 @@
+{
+ "videoId": "Jrto3YGJZVI",
+ "ids": [
+  "Jrto3YGJZVI-185",
+  "Jrto3YGJZVI-521"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "Jrto3YGJZVI-185": {
+   "id": "Jrto3YGJZVI-185",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Engaging search for a popular restaurant with clear narration."
+  },
+  "Jrto3YGJZVI-521": {
+   "id": "Jrto3YGJZVI-521",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Appetizing traditional sweet described clearly with attractive food visuals."
+  }
+ }
+}

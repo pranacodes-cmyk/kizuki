@@ -1,0 +1,19 @@
+{
+ "videoId": "yYXTI4Wu4Lk",
+ "ids": [
+  "yYXTI4Wu4Lk-3"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "yYXTI4Wu4Lk-3": {
+   "id": "yYXTI4Wu4Lk-3",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Friendly introduction with clear, slow speech and relevant outdoor visuals."
+  }
+ }
+}

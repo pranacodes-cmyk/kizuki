@@ -1,0 +1,19 @@
+{
+ "videoId": "VckV81quGsM",
+ "ids": [
+  "VckV81quGsM-601"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "VckV81quGsM-601": {
+   "id": "VckV81quGsM-601",
+   "appeal": 6,
+   "clarity": 3,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Cute interaction with child asking for food; clear simple vocabulary."
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "videoId": "kNF7V_PLxrQ",
+ "ids": [
+  "kNF7V_PLxrQ-17",
+  "kNF7V_PLxrQ-46"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "kNF7V_PLxrQ-17": {
+   "id": "kNF7V_PLxrQ-17",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Gentle, clear narration with cute visuals of sleeping puppy."
+  },
+  "kNF7V_PLxrQ-46": {
+   "id": "kNF7V_PLxrQ-46",
+   "appeal": 7,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Adorable and humorous scene with simple, clear Japanese."
+  }
+ }
+}

@@ -2,67 +2,190 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 18.0,
-   "end": 33.0,
-   "title": "My Brothers Caught Colds",
-   "level": "N4",
-   "topics": [
-    "friends",
-    "daily",
-    "anime"
-   ],
-   "grammar": [
-    "〜ちゃって — unintentionally / expressing regret",
-    "〜んだ — explanatory tone"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 18.2,
-     "end": 22.0,
-     "ja": "それが弟たちが風邪で熱出しちゃって。",
-     "en": "Well, my little brothers caught colds and came down with fevers.",
-     "speaker": "Torippi"
-    },
-    {
-     "start": 22.0,
-     "end": 23.3,
-     "ja": "えーっ！",
-     "en": "What?!",
-     "speaker": "Friends"
-    },
-    {
-     "start": 23.6,
-     "end": 25.4,
-     "ja": "母ちゃん、ずっと付きっきりなんだ。",
-     "en": "Mom has to stay with them the whole time.",
-     "speaker": "Torippi"
-    },
-    {
-     "start": 25.7,
-     "end": 28.5,
-     "ja": "だから、今日は行けないって。",
-     "en": "So she said she can't go today.",
-     "speaker": "Torippi"
-    },
-    {
-     "start": 29.1,
-     "end": 31.0,
-     "ja": "そうなんだ。",
-     "en": "I see.",
-     "speaker": "Mimirin"
-    }
-   ]
-  },
-  {
-   "start": 940.1,
-   "end": 953.5,
-   "title": "Growing Shimeji Mushrooms",
+   "start": 808.5,
+   "end": 834.6,
+   "title": "Identifying Different Mushrooms",
    "level": "N4",
    "topics": [
     "school",
     "daily",
-    "anime"
+    "animals"
+   ],
+   "grammar": [
+    "〜というのは — speaking of / defining something",
+    "〜の通り — just as / exactly"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 808.8,
+     "end": 811.2,
+     "ja": "みんな、これがなんだか知ってるかな？",
+     "en": "Everyone, do you know what this is?",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 811.7,
+     "end": 813.5,
+     "ja": "それはシイタケだぞ！",
+     "en": "That's a shiitake mushroom!",
+     "speaker": "Torippii"
+    },
+    {
+     "start": 813.7,
+     "end": 815.1,
+     "ja": "はい、その通り！",
+     "en": "Yes, that's right!",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 815.3,
+     "end": 816.3,
+     "ja": "じゃあこれは？",
+     "en": "Well then, how about this?",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 816.5,
+     "end": 818.1,
+     "ja": "エノキダケです！",
+     "en": "It's an enoki mushroom!",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 818.3,
+     "end": 819.8,
+     "ja": "よく知ってるわね！",
+     "en": "You know your mushrooms well!",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 820.0,
+     "end": 821.2,
+     "ja": "おいしそう！",
+     "en": "Looks delicious!",
+     "speaker": "Torippii"
+    },
+    {
+     "start": 821.4,
+     "end": 824.7,
+     "ja": "とりっぴいは食べることしか考えてないんだから。",
+     "en": "Torippii only ever thinks about eating.",
+     "speaker": "Shimajiro"
+    },
+    {
+     "start": 825.2,
+     "end": 828.1,
+     "ja": "シイタケやエノキダケ、こういうのを何と言いますか？",
+     "en": "Shiitake and enoki, what do we call these?",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 828.7,
+     "end": 830.0,
+     "ja": "キノコ！",
+     "en": "Mushrooms!",
+     "speaker": "All"
+    },
+    {
+     "start": 830.2,
+     "end": 831.3,
+     "ja": "正解！",
+     "en": "Correct!",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 831.8,
+     "end": 834.3,
+     "ja": "今日は森で色々なキノコを探しましょう！",
+     "en": "Today, let's look for all kinds of mushrooms in the forest!",
+     "speaker": "Teacher"
+    }
+   ]
+  },
+  {
+   "start": 911.3,
+   "end": 932.7,
+   "title": "Warning About Poisonous Mushrooms",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily",
+    "animals"
+   ],
+   "grammar": [
+    "〜たい — wanting to do something",
+    "〜ないで — asking not to do something"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 911.7,
+     "end": 913.3,
+     "ja": "見て！きれい！",
+     "en": "Look! Pretty!",
+     "speaker": "Nyakkii"
+    },
+    {
+     "start": 913.6,
+     "end": 917.1,
+     "ja": "本当だ！真っ赤に白い点々がかわいいね！",
+     "en": "It really is! The white spots on bright red are so cute!",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 917.4,
+     "end": 919.1,
+     "ja": "みみりん、これほしいな！",
+     "en": "Mimirin wants this one!",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 919.3,
+     "end": 921.4,
+     "ja": "待って！触らないで！",
+     "en": "Wait! Don't touch it!",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 921.8,
+     "end": 923.8,
+     "ja": "それは毒キノコよ！",
+     "en": "That's a poisonous mushroom!",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 924.3,
+     "end": 927.0,
+     "ja": "毒のあるキノコもあるの？",
+     "en": "Are there poisonous mushrooms too?",
+     "speaker": "Mimirin"
+    },
+    {
+     "start": 927.5,
+     "end": 928.3,
+     "ja": "そう。",
+     "en": "Yes.",
+     "speaker": "Teacher"
+    },
+    {
+     "start": 928.6,
+     "end": 932.4,
+     "ja": "だから知らないキノコは絶対に触ったり口に入れたりしないこと！",
+     "en": "So never touch or put unfamiliar mushrooms in your mouth!",
+     "speaker": "Teacher"
+    }
+   ]
+  },
+  {
+   "start": 939.8,
+   "end": 953.5,
+   "title": "A Shimeji Growing Kit",
+   "level": "N4",
+   "topics": [
+    "school",
+    "daily",
+    "animals"
    ],
    "grammar": [
     "〜という — called / named",
@@ -71,85 +194,32 @@
    "quality": 5,
    "lines": [
     {
-     "start": 940.4,
-     "end": 944.5,
-     "ja": "これはね、シメジという美味しいキノコの栽培セット。",
+     "start": 940.2,
+     "end": 943.9,
+     "ja": "これはね、シメジというおいしいキノコの栽培セット。",
      "en": "This is a cultivation kit for a delicious mushroom called shimeji.",
      "speaker": "Teacher"
     },
     {
-     "start": 945.0,
+     "start": 944.6,
      "end": 948.3,
-     "ja": "１週間くらいで可愛いシメジが生えてくるんだって。",
-     "en": "They say cute shimeji will start growing in about a week.",
+     "ja": "一週間ぐらいで可愛いシメジが生えてくるんだって。",
+     "en": "They say cute shimeji mushrooms will sprout in about a week.",
      "speaker": "Teacher"
     },
     {
-     "start": 948.5,
-     "end": 950.5,
+     "start": 948.8,
+     "end": 951.0,
      "ja": "育ててみたい人、いますか？",
-     "en": "Is there anyone who wants to try growing it?",
+     "en": "Is there anyone who wants to try growing them?",
      "speaker": "Teacher"
     },
     {
-     "start": 950.8,
-     "end": 953.0,
+     "start": 951.2,
+     "end": 953.3,
      "ja": "はい！僕やってみたい！",
-     "en": "Me! I want to try!",
+     "en": "Yes! I want to try!",
      "speaker": "Shimajiro"
-    }
-   ]
-  },
-  {
-   "start": 1022.0,
-   "end": 1034.7,
-   "title": "Nothing Has Changed",
-   "level": "N4",
-   "topics": [
-    "friends",
-    "daily",
-    "anime"
-   ],
-   "grammar": [
-    "〜ている — ongoing action",
-    "〜のに — even though / despite"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 1022.5,
-     "end": 1024.0,
-     "ja": "どうもうん？",
-     "en": "How is it, huh?",
-     "speaker": "Torippi"
-    },
-    {
-     "start": 1024.9,
-     "end": 1026.8,
-     "ja": "全然変わってないよ。",
-     "en": "It hasn't changed at all.",
-     "speaker": "Nyakkii"
-    },
-    {
-     "start": 1027.3,
-     "end": 1030.0,
-     "ja": "毎日お水あげてるのにどうして？",
-     "en": "We've been watering it every day, so why?",
-     "speaker": "Mimirin"
-    },
-    {
-     "start": 1030.3,
-     "end": 1033.0,
-     "ja": "おーい、何やってるんだ？",
-     "en": "Hey, what are you doing?",
-     "speaker": "Gaogao"
-    },
-    {
-     "start": 1033.2,
-     "end": 1034.6,
-     "ja": "ガオガオさん！",
-     "en": "Mr. Gaogao!",
-     "speaker": "Shimajiro & Friends"
     }
    ]
   }
@@ -159,5 +229,6 @@
   "family",
   "food"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

@@ -3,52 +3,75 @@
  "clips": [
   {
    "start": 6.5,
-   "end": 19.0,
-   "title": "Why I Like Tofu-san",
+   "end": 34.5,
+   "title": "Egg-san's Crush and Her Birthday",
    "level": "N5",
    "topics": [
     "romance",
     "daily"
    ],
    "grammar": [
-    "〜くて / 〜で — and (connecting adjectives)"
+    "〜が好き — to like something/someone",
+    "〜て/〜で — connecting adjectives",
+    "〜ようと思う — thinking of doing"
    ],
    "quality": 5,
    "lines": [
     {
      "start": 6.8,
      "end": 10.8,
-     "ja": "僕は、豆腐さんが好きです。",
+     "ja": "僕は豆腐さんが好きです。",
      "en": "I like Tofu-san.",
      "speaker": "Egg-san"
     },
     {
-     "start": 11.4,
-     "end": 15.3,
-     "ja": "豆腐さんは、明るくて、可愛くて、",
+     "start": 11.7,
+     "end": 16.0,
+     "ja": "豆腐さんは明るくて、可愛くて、",
      "en": "Tofu-san is cheerful, cute,",
      "speaker": "Egg-san"
     },
     {
-     "start": 15.6,
-     "end": 18.5,
+     "start": 16.0,
+     "end": 18.9,
      "ja": "真面目で、親切です。",
      "en": "earnest, and kind.",
+     "speaker": "Egg-san"
+    },
+    {
+     "start": 20.0,
+     "end": 24.7,
+     "ja": "豆腐さんの誕生日は10月2日です。",
+     "en": "Tofu-san's birthday is October 2nd.",
+     "speaker": "Egg-san"
+    },
+    {
+     "start": 25.5,
+     "end": 28.0,
+     "ja": "まだ少し先ですが、",
+     "en": "It's still a little while away, but",
+     "speaker": "Egg-san"
+    },
+    {
+     "start": 28.2,
+     "end": 34.0,
+     "ja": "そろそろ誕生日プレゼントの準備をしようと思います。",
+     "en": "I think I will start preparing a birthday present soon.",
      "speaker": "Egg-san"
     }
    ]
   },
   {
-   "start": 36.0,
-   "end": 56.5,
-   "title": "A Return Birthday Gift",
+   "start": 36.2,
+   "end": 56.8,
+   "title": "The Treasured Ballpoint Pen",
    "level": "N5",
    "topics": [
     "friends",
     "romance"
    ],
    "grammar": [
-    "〜をくれる — to give to me",
+    "〜をくれる — to give (to me)",
     "〜たい — want to do"
    ],
    "quality": 5,
@@ -56,43 +79,50 @@
     {
      "start": 36.5,
      "end": 42.5,
-     "ja": "豆腐さんは、僕の誕生日にボールペンをくれました。",
+     "ja": "豆腐さんは僕の誕生日にボールペンをくれました。",
      "en": "Tofu-san gave me a ballpoint pen for my birthday.",
      "speaker": "Egg-san"
     },
     {
-     "start": 43.5,
-     "end": 47.3,
-     "ja": "そのボールペンは、僕の宝物です。",
+     "start": 43.7,
+     "end": 47.4,
+     "ja": "そのボールペンは僕の宝物です。",
      "en": "That ballpoint pen is my treasure.",
      "speaker": "Egg-san"
     },
     {
      "start": 48.8,
-     "end": 56.0,
-     "ja": "だから、豆腐さんの誕生日には、素敵なプレゼントをあげたいです。",
-     "en": "So for Tofu-san's birthday, I want to give a wonderful gift.",
+     "end": 52.5,
+     "ja": "だから豆腐さんの誕生日には、",
+     "en": "That's why, on Tofu-san's birthday,",
+     "speaker": "Egg-san"
+    },
+    {
+     "start": 52.5,
+     "end": 56.5,
+     "ja": "素敵なプレゼントをあげたいです。",
+     "en": "I want to give her a wonderful present.",
      "speaker": "Egg-san"
     }
    ]
   },
   {
    "start": 120.0,
-   "end": 135.5,
-   "title": "A Musical Birthday Gift",
+   "end": 151.5,
+   "title": "A Special Song for Tofu-san",
    "level": "N5",
    "topics": [
-    "music",
     "romance",
-    "fun"
+    "music"
    ],
    "grammar": [
-    "〜ようと思う — thinking of doing"
+    "〜のために — for the sake of",
+    "〜て — connecting actions"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 120.3,
+     "start": 120.4,
      "end": 123.5,
      "ja": "いいアイデアを思いつきました。",
      "en": "I came up with a good idea.",
@@ -100,16 +130,44 @@
     },
     {
      "start": 124.3,
-     "end": 128.0,
-     "ja": "豆腐さんは、音楽が大好きです。",
+     "end": 127.5,
+     "ja": "豆腐さんは音楽が大好きです。",
      "en": "Tofu-san loves music.",
      "speaker": "Egg-san"
     },
     {
-     "start": 128.8,
+     "start": 128.5,
      "end": 135.0,
-     "ja": "だから、誕生日に歌をプレゼントしようと思います。",
-     "en": "So, I'm thinking of giving the gift of a song for their birthday.",
+     "ja": "だから誕生日に歌をプレゼントしようと思います。",
+     "en": "So I think I will give her a song as a birthday present.",
+     "speaker": "Egg-san"
+    },
+    {
+     "start": 138.5,
+     "end": 141.2,
+     "ja": "僕は歌が下手です。",
+     "en": "I'm bad at singing.",
+     "speaker": "Egg-san"
+    },
+    {
+     "start": 142.5,
+     "end": 145.0,
+     "ja": "でも、豆腐さんのために、",
+     "en": "But for Tofu-san's sake,",
+     "speaker": "Egg-san"
+    },
+    {
+     "start": 145.3,
+     "end": 148.5,
+     "ja": "これから毎日カラオケに行って、",
+     "en": "from now on I'll go to karaoke every day and",
+     "speaker": "Egg-san"
+    },
+    {
+     "start": 148.5,
+     "end": 150.8,
+     "ja": "練習します。",
+     "en": "practice.",
      "speaker": "Egg-san"
     }
    ]
@@ -119,5 +177,6 @@
  "pickTopics": [
   "friends"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

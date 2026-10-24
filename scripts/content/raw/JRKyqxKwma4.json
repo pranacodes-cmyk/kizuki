@@ -2,17 +2,62 @@
  "speech": "clear",
  "clips": [
   {
+   "start": 0.0,
+   "end": 7.0,
+   "title": "You're Incredibly Beautiful",
+   "level": "N4",
+   "topics": [
+    "romance",
+    "school"
+   ],
+   "grammar": [
+    "〜とか — listing examples like...",
+    "〜と思う — to think that..."
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 0.0,
+     "end": 1.2,
+     "ja": "運命とか、",
+     "en": "Things like destiny,",
+     "speaker": "Kohaku"
+    },
+    {
+     "start": 1.3,
+     "end": 2.5,
+     "ja": "一目惚れとか、",
+     "en": "or love at first sight,",
+     "speaker": "Yoi"
+    },
+    {
+     "start": 2.7,
+     "end": 4.2,
+     "ja": "そんなのないと思ってた。",
+     "en": "I thought things like that didn't exist.",
+     "speaker": "Yoi"
+    },
+    {
+     "start": 4.5,
+     "end": 6.9,
+     "ja": "あんた、めちゃくちゃ美しいな。",
+     "en": "You are unbelievably beautiful.",
+     "speaker": "Kohaku"
+    }
+   ]
+  },
+  {
    "start": 21.8,
-   "end": 29.8,
-   "title": "What is Wrong with Being a Prince?",
+   "end": 34.2,
+   "title": "Stop Teasing Me",
    "level": "N3",
    "topics": [
     "romance",
     "school"
    ],
    "grammar": [
-    "〜じゃん — isn't it / why not",
-    "〜てもらう — to have someone do something"
+    "〜ていい — may I ask you to...",
+    "〜し — listing reasons"
    ],
    "quality": 5,
    "lines": [
@@ -24,8 +69,8 @@
      "speaker": "Kohaku"
     },
     {
-     "start": 23.2,
-     "end": 23.9,
+     "start": 23.3,
+     "end": 23.8,
      "ja": "え？",
      "en": "Huh?",
      "speaker": "Yoi"
@@ -33,48 +78,62 @@
     {
      "start": 24.0,
      "end": 25.4,
-     "ja": "めっちゃときめいたし。",
-     "en": "My heart fluttered like crazy.",
+     "ja": "めちゃくちゃときめいたし。",
+     "en": "My heart fluttered so much.",
      "speaker": "Kohaku"
     },
     {
-     "start": 25.4,
-     "end": 27.0,
+     "start": 25.5,
+     "end": 27.2,
      "ja": "からかうのやめてもらっていいですか？",
      "en": "Could you please stop teasing me?",
      "speaker": "Yoi"
     },
     {
-     "start": 27.0,
-     "end": 28.0,
+     "start": 27.2,
+     "end": 28.3,
      "ja": "反応に困るんで。",
      "en": "I don't know how to react.",
      "speaker": "Yoi"
     },
     {
-     "start": 28.0,
-     "end": 29.0,
+     "start": 28.4,
+     "end": 29.3,
      "ja": "かわいい。",
      "en": "Cute.",
      "speaker": "Kohaku"
     },
     {
-     "start": 29.0,
-     "end": 29.6,
+     "start": 29.4,
+     "end": 30.0,
      "ja": "は？",
      "en": "What?",
      "speaker": "Yoi"
+    },
+    {
+     "start": 30.2,
+     "end": 31.7,
+     "ja": "なんか分かんねえけど、",
+     "en": "I don't know why, but",
+     "speaker": "Kohaku"
+    },
+    {
+     "start": 31.8,
+     "end": 34.0,
+     "ja": "すっげえ欲掻き立てられるんだよね。",
+     "en": "you really stir up my desires.",
+     "speaker": "Kohaku"
     }
    ]
   },
   {
-   "start": 43.8,
-   "end": 50.5,
-   "title": "Shall We Try Going Out?",
+   "start": 43.7,
+   "end": 50.7,
+   "title": "Shall We Try Dating?",
    "level": "N4",
    "topics": [
     "romance",
-    "daily"
+    "school"
    ],
    "grammar": [
     "〜てみる — try doing",
@@ -84,21 +143,21 @@
    "lines": [
     {
      "start": 44.0,
-     "end": 45.3,
+     "end": 45.2,
      "ja": "付き合ってみる？",
-     "en": "Wanna try going out?",
+     "en": "Want to try dating?",
      "speaker": "Kohaku"
     },
     {
      "start": 45.5,
-     "end": 47.8,
-     "ja": "そしたら運命かどうか分かるかもよ？",
-     "en": "Then maybe we'll know if it's fate or not.",
+     "end": 47.6,
+     "ja": "そしたら運命かどうか分かるかもよ。",
+     "en": "Then maybe we'll find out if it's destiny.",
      "speaker": "Kohaku"
     },
     {
-     "start": 47.9,
-     "end": 49.0,
+     "start": 48.0,
+     "end": 48.9,
      "ja": "なんて。",
      "en": "Just kidding.",
      "speaker": "Kohaku"
@@ -111,56 +170,12 @@
      "speaker": "Yoi"
     }
    ]
-  },
-  {
-   "start": 104.7,
-   "end": 113.0,
-   "title": "You Make a Face You Never Make Around Me",
-   "level": "N3",
-   "topics": [
-    "romance",
-    "friends"
-   ],
-   "grammar": [
-    "〜ような — like / similar to",
-    "〜がる — show signs of / act like"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 105.0,
-     "end": 107.5,
-     "ja": "あいつといる時の宵ちゃん、俺の前じゃしないような顔してるから。",
-     "en": "When you're with him, you make faces you never make around me.",
-     "speaker": "Kohaku"
-    },
-    {
-     "start": 108.0,
-     "end": 109.8,
-     "ja": "ちゃんと「好き」って言われてないですから！",
-     "en": "You haven't even properly told me you like me!",
-     "speaker": "Yoi"
-    },
-    {
-     "start": 110.0,
-     "end": 111.8,
-     "ja": "本当は迷惑がってるの気づかなくて、",
-     "en": "I didn't realize it was actually bothering you...",
-     "speaker": "Kohaku"
-    },
-    {
-     "start": 111.9,
-     "end": 112.8,
-     "ja": "ごめんね。",
-     "en": "I'm sorry.",
-     "speaker": "Kohaku"
-    }
-   ]
   }
  ],
  "videoId": "JRKyqxKwma4",
  "pickTopics": [
   "romance"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

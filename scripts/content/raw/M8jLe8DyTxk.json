@@ -2,232 +2,211 @@
  "speech": "clear",
  "clips": [
   {
-   "start": 701.0,
-   "end": 716.5,
-   "title": "Playing Together While Prepping Breakfast",
+   "start": 727.5,
+   "end": 736.2,
+   "title": "Toast or Rice for Breakfast?",
    "level": "N5",
    "topics": [
-    "family",
-    "daily"
-   ],
-   "grammar": [
-    "〜てる — ongoing action",
-    "〜よう — let's (volitional form)",
-    "〜の — explanatory / question particle"
-   ],
-   "quality": 5,
-   "lines": [
-    {
-     "start": 701.3,
-     "end": 702.0,
-     "ja": "マミー！",
-     "en": "Mommy!",
-     "speaker": "Child"
-    },
-    {
-     "start": 702.1,
-     "end": 703.1,
-     "ja": "何、何、何？",
-     "en": "What, what, what?",
-     "speaker": "Mom"
-    },
-    {
-     "start": 703.2,
-     "end": 705.4,
-     "ja": "マミー、ご飯の準備してんだよ。",
-     "en": "Mommy's getting breakfast ready.",
-     "speaker": "Mom"
-    },
-    {
-     "start": 705.5,
-     "end": 707.0,
-     "ja": "じゃ、一緒にちょっとだけやろ？",
-     "en": "Then let's do a little bit together, okay?",
-     "speaker": "Mom"
-    },
-    {
-     "start": 707.1,
-     "end": 708.9,
-     "ja": "一緒に全部しよう？",
-     "en": "Let's do all of it together!",
-     "speaker": "Child"
-    },
-    {
-     "start": 709.0,
-     "end": 710.8,
-     "ja": "一緒に全部やるの？",
-     "en": "You want to do all of it together?",
-     "speaker": "Mom"
-    },
-    {
-     "start": 710.9,
-     "end": 712.5,
-     "ja": "マミー、高い。",
-     "en": "Mommy, it's high.",
-     "speaker": "Child"
-    },
-    {
-     "start": 712.6,
-     "end": 714.0,
-     "ja": "高い！本当だ！",
-     "en": "It is high! You're right!",
-     "speaker": "Mom"
-    },
-    {
-     "start": 714.2,
-     "end": 715.0,
-     "ja": "結んで！",
-     "en": "Tie it!",
-     "speaker": "Child"
-    },
-    {
-     "start": 715.1,
-     "end": 716.0,
-     "ja": "結んで？",
-     "en": "Tie it?",
-     "speaker": "Mom"
-    }
-   ]
-  },
-  {
-   "start": 727.2,
-   "end": 738.5,
-   "title": "Deciding What to Have for Breakfast",
-   "level": "N5",
-   "topics": [
+    "daily",
     "food",
-    "family",
-    "daily"
+    "family"
    ],
    "grammar": [
-    "〜かな — I wonder",
-    "それとも — or",
-    "〜てくれる — do for me"
+    "〜がいい — to prefer / want",
+    "〜てくれる — to do for someone"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 727.4,
-     "end": 728.4,
-     "ja": "どうしようかな…",
-     "en": "What should we have...",
-     "speaker": "Mom"
+     "start": 727.6,
+     "end": 728.8,
+     "ja": "どうしようかな。",
+     "en": "I wonder what to make.",
+     "speaker": "Mother"
     },
     {
-     "start": 728.5,
-     "end": 729.7,
+     "start": 728.8,
+     "end": 730.0,
      "ja": "トーストがいい？",
-     "en": "Do you want toast?",
-     "speaker": "Mom"
+     "en": "Would you like toast?",
+     "speaker": "Mother"
     },
     {
-     "start": 729.8,
-     "end": 731.2,
+     "start": 730.0,
+     "end": 731.4,
      "ja": "それともご飯がいい？",
      "en": "Or would you like rice?",
-     "speaker": "Mom"
+     "speaker": "Mother"
     },
     {
-     "start": 731.3,
-     "end": 732.2,
+     "start": 731.4,
+     "end": 732.4,
      "ja": "ご飯。",
      "en": "Rice.",
      "speaker": "Child"
     },
     {
-     "start": 732.3,
-     "end": 734.1,
+     "start": 732.4,
+     "end": 734.2,
      "ja": "ご飯がいい？じゃご飯炊くね。",
      "en": "You want rice? Okay, I'll cook rice.",
-     "speaker": "Mom"
+     "speaker": "Mother"
     },
     {
      "start": 734.2,
-     "end": 736.5,
-     "ja": "じゃ、ご飯洗うのお手伝いしてくれる？",
-     "en": "Then can you help me wash the rice?",
-     "speaker": "Mom"
-    },
-    {
-     "start": 736.6,
-     "end": 737.3,
-     "ja": "うん。",
-     "en": "Yeah.",
-     "speaker": "Child"
-    },
-    {
-     "start": 737.4,
-     "end": 738.2,
-     "ja": "はい。",
-     "en": "Here you go.",
-     "speaker": "Mom"
+     "end": 736.0,
+     "ja": "じゃあご飯洗うの、手伝ってくれる？",
+     "en": "Then, can you help me wash the rice?",
+     "speaker": "Mother"
     }
    ]
   },
   {
-   "start": 1023.5,
-   "end": 1038.2,
-   "title": "Sit Down and Eat First",
+   "start": 741.8,
+   "end": 754.6,
+   "title": "Decorating the Wall or Jumping Rope?",
    "level": "N5",
    "topics": [
-    "food",
+    "daily",
     "family",
-    "daily"
+    "fun"
    ],
    "grammar": [
-    "〜なさい — imperative (parental command)",
-    "〜てから — after doing"
+    "〜のところ — at the place of",
+    "〜して — please do (request)"
    ],
    "quality": 5,
    "lines": [
     {
-     "start": 1023.8,
-     "end": 1025.8,
-     "ja": "座りなさい。Big girlでしょ？",
-     "en": "Sit down. You're a big girl, aren't you?",
-     "speaker": "Mom"
+     "start": 742.0,
+     "end": 743.7,
+     "ja": "どこにデコレーションするの、これ？",
+     "en": "Where are you going to decorate with this?",
+     "speaker": "Mother"
     },
     {
-     "start": 1025.9,
-     "end": 1027.0,
+     "start": 743.7,
+     "end": 745.3,
+     "ja": "カブ！カブ！",
+     "en": "Kabu! Kabu!",
+     "speaker": "Child"
+    },
+    {
+     "start": 745.3,
+     "end": 746.1,
+     "ja": "カブ？",
+     "en": "Kabu?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 746.1,
+     "end": 747.3,
+     "ja": "カブのところ。",
+     "en": "At the 'kabu'.",
+     "speaker": "Child"
+    },
+    {
+     "start": 747.3,
+     "end": 748.3,
+     "ja": "壁？",
+     "en": "The wall?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 748.3,
+     "end": 749.0,
+     "ja": "壁。",
+     "en": "The wall.",
+     "speaker": "Child"
+    },
+    {
+     "start": 749.0,
+     "end": 750.8,
+     "ja": "あ、壁ね。",
+     "en": "Oh, the wall.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 750.8,
+     "end": 752.5,
+     "ja": "マミィ、縄跳びして。",
+     "en": "Mommy, do jump rope.",
+     "speaker": "Child"
+    },
+    {
+     "start": 752.5,
+     "end": 754.0,
+     "ja": "え？縄跳び？",
+     "en": "Huh? Jump rope?",
+     "speaker": "Mother"
+    }
+   ]
+  },
+  {
+   "start": 1024.0,
+   "end": 1037.5,
+   "title": "Eat Properly Before Wandering Around",
+   "level": "N4",
+   "topics": [
+    "daily",
+    "food",
+    "family"
+   ],
+   "grammar": [
+    "〜てから — after doing",
+    "〜なさい — imperative / instruction",
+    "〜てる — ongoing action"
+   ],
+   "quality": 5,
+   "lines": [
+    {
+     "start": 1024.2,
+     "end": 1025.8,
+     "ja": "席、ビッグガールでしょ？",
+     "en": "Sit in your seat, you're a big girl, right?",
+     "speaker": "Mother"
+    },
+    {
+     "start": 1025.8,
+     "end": 1026.9,
      "ja": "No.",
      "en": "No.",
      "speaker": "Child"
     },
     {
-     "start": 1027.3,
-     "end": 1031.6,
-     "ja": "ちゃんと食べて、ごちそうさましてからフラフラしなさい。",
-     "en": "Eat properly, and wander around after you finish eating.",
-     "speaker": "Mom"
+     "start": 1027.0,
+     "end": 1028.8,
+     "ja": "もうちゃんと食べて、",
+     "en": "Eat properly,",
+     "speaker": "Mother"
     },
     {
-     "start": 1031.9,
-     "end": 1032.9,
+     "start": 1028.8,
+     "end": 1031.9,
+     "ja": "ごちそうさましてからフラフラしなさい。",
+     "en": "and wander around after saying thanks for the meal.",
+     "speaker": "Mother"
+    },
+    {
+     "start": 1032.0,
+     "end": 1033.2,
      "ja": "わかった。",
      "en": "Okay.",
      "speaker": "Child"
     },
     {
-     "start": 1033.1,
-     "end": 1034.7,
+     "start": 1033.2,
+     "end": 1034.8,
      "ja": "スープ飲むよ。",
-     "en": "I'm going to drink the soup.",
+     "en": "I'll drink the soup.",
      "speaker": "Child"
     },
     {
      "start": 1034.8,
-     "end": 1035.6,
-     "ja": "ねえ。",
-     "en": "Yeah.",
-     "speaker": "Mom"
-    },
-    {
-     "start": 1035.7,
-     "end": 1037.7,
-     "ja": "おっ、すごい飲んでる。",
-     "en": "Oh, look at you drinking it!",
-     "speaker": "Mom"
+     "end": 1037.0,
+     "ja": "ね。お、すごい飲んでる。",
+     "en": "Yeah. Wow, you're drinking a lot.",
+     "speaker": "Mother"
     }
    ]
   }
@@ -236,5 +215,6 @@
  "pickTopics": [
   "family"
  ],
- "model": "google/gemini-3.8-flash"
+ "model": "google/gemini-3.8-flash",
+ "regenerated": "real-length hint (verify_library.py)"
 }

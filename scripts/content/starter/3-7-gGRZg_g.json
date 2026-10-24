@@ -1,0 +1,32 @@
+{
+ "videoId": "3-7-gGRZg_g",
+ "ids": [
+  "3-7-gGRZg_g-11",
+  "3-7-gGRZg_g-328"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "3-7-gGRZg_g-11": {
+   "id": "3-7-gGRZg_g-11",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 4,
+   "ease": 3,
+   "english": false,
+   "issues": [],
+   "why": "Lively introduction to a unique buffet restaurant with clear visuals."
+  },
+  "3-7-gGRZg_g-328": {
+   "id": "3-7-gGRZg_g-328",
+   "appeal": 5,
+   "clarity": 3,
+   "picture": 3,
+   "ease": 2,
+   "english": false,
+   "issues": [
+    "speech overlaps"
+   ],
+   "why": "Informal restaurant banter with overlapping voices and conversational slang."
+  }
+ }
+}

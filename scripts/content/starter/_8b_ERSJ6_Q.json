@@ -1,0 +1,30 @@
+{
+ "videoId": "_8b_ERSJ6_Q",
+ "ids": [
+  "_8b_ERSJ6_Q-22",
+  "_8b_ERSJ6_Q-51"
+ ],
+ "model": "google/gemini-3.8-flash",
+ "ratings": {
+  "_8b_ERSJ6_Q-22": {
+   "id": "_8b_ERSJ6_Q-22",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Clear introductory dialogue suitable for absolute beginners."
+  },
+  "_8b_ERSJ6_Q-51": {
+   "id": "_8b_ERSJ6_Q-51",
+   "appeal": 6,
+   "clarity": 4,
+   "picture": 3,
+   "ease": 4,
+   "english": false,
+   "issues": [],
+   "why": "Standard classroom self-introduction spoken slowly and clearly."
+  }
+ }
+}
