@@ -31,6 +31,15 @@ echo "device: $DEVICE"
 adb shell getprop ro.build.version.release </dev/null | sed 's/^/android: /'
 
 shot() { adb exec-out screencap -p </dev/null > "$1" 2>/dev/null || true; }
+
+# The emulator runner's own shutdown has hung for ~57 minutes after this script ended (the job
+# then times out and the result is lost). Stop the emulator ourselves once everything is saved.
+stop_emulator() {
+  adb emu kill </dev/null >/dev/null 2>&1 || true
+  sleep 8
+  pkill -9 -f "qemu-system" 2>/dev/null || true
+}
+trap stop_emulator EXIT
 grant() { adb shell pm grant "$PKG" android.permission.POST_NOTIFICATIONS </dev/null >/dev/null 2>&1 || true; }
 
 # Background watcher for system dialogs that would cover the app on a slow CI emulator:

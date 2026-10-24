@@ -46,6 +46,15 @@ class Billing {
   static AppLifecycleListener? _life;
 
   static bool get _mobile => !kIsWeb && (Platform.isAndroid || Platform.isIOS);
+
+  /// A phone without a usable store (emulator, no Play services, purchases turned off) is an
+  /// expected setup, not an app fault: logged as KIZUKI_WARN so crash checks don't trip on it.
+  static bool storeUnavailable(Object e) {
+    final text = e.toString();
+    return text.contains('BILLING_UNAVAILABLE') || text.contains('PurchaseNotAllowedError') || text.contains('Billing is not available') || text.contains('StoreProblemError');
+  }
+
+  static void _log(String what, Object e) => debugPrint('${storeUnavailable(e) ? 'KIZUKI_WARN' : 'KIZUKI_ERROR'} $what: $e');
   static bool get available => _mobile && !simulate;
 
   static Future<void> init({String? userId}) async {
@@ -55,14 +64,14 @@ class Billing {
       await Purchases.configure(cfg);
       ready = true;
     } catch (e) {
-      debugPrint('KIZUKI_ERROR billing init: $e');
+      _log('billing init', e);
       return;
     }
     Purchases.addCustomerInfoUpdateListener(_apply);
     _life ??= AppLifecycleListener(onResume: () => unawaited(refresh()));
     // Status and prices load independently: a price failure never hides a paid subscription.
     unawaited(refresh());
-    unawaited(loadPlans().catchError((Object e) => debugPrint('KIZUKI_ERROR offerings: $e')));
+    unawaited(loadPlans().catchError((Object e) => _log('offerings', e)));
   }
 
   static Future<void> refresh() async {
@@ -70,7 +79,7 @@ class Billing {
     try {
       _apply(await Purchases.getCustomerInfo());
     } catch (e) {
-      debugPrint('KIZUKI_ERROR customer info: $e');
+      _log('customer info', e);
     }
   }
 
@@ -122,7 +131,7 @@ class Billing {
         trialEligible = r[yp.identifier]?.status != IntroEligibilityStatus.introEligibilityStatusIneligible;
       }
     } catch (e) {
-      debugPrint('KIZUKI_ERROR trial eligibility: $e');
+      _log('trial eligibility', e);
     }
   }
 
@@ -132,7 +141,7 @@ class Billing {
       try {
         await loadPlans();
       } catch (e) {
-        debugPrint('KIZUKI_ERROR offerings retry: $e');
+        _log('offerings retry', e);
       }
     }
     final pkg = _packages[plan];
