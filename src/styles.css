@@ -29,6 +29,7 @@
   --color-popover-foreground: var(--foreground);
   --color-primary: var(--primary);
   --color-primary-deep: var(--primary-deep);
+  --color-primary-glow: var(--primary-glow);
   --color-primary-dim: var(--primary-dim);
   --color-primary-dim-foreground: var(--primary-dim-fg);
   --color-primary-foreground: var(--primary-foreground);
@@ -72,6 +73,7 @@
   --faint: oklch(0.556 0 0); /* #737373 */
   --primary: oklch(0.75 0.167 50.5); /* #FF8A3D */
   --primary-deep: oklch(0.606 0.152 48.3); /* #C8601C */
+  --primary-glow: oklch(0.825 0.115 56.4); /* #FFB27A light orange: splash ripples, ring head */
   --primary-dim: oklch(0.339 0.044 51.7); /* #4A3122 */
   --primary-dim-fg: oklch(0.615 0.069 56); /* #A57A5C */
   --primary-foreground: oklch(0.199 0.024 56.9); /* #1E130B */

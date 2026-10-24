@@ -151,6 +151,9 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
 
           {tab === "Explain" && (
             <div className="space-y-3">
+              <div data-tour="askButton"><Button variant="surface" size="md" className="w-full" onClick={() => { setAsking(true); tourEmit("askOpened"); }}>
+                <MessageCircleQuestion className="h-[18px] w-[18px] text-primary" /> Still curious? Ask Kizuki
+              </Button></div>
               <div className="flex gap-3">
                 <Mascot pose="think" className="h-12 w-12 shrink-0" />
                 <div className="rounded-2xl rounded-tl-sm bg-surface-2 px-4 py-3 text-[0.9375rem] leading-relaxed">
@@ -174,9 +177,6 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
                   {lineNote.tip && <p className="mt-1.5 text-[0.875rem]">💡 {lineNote.tip}</p>}
                 </div>
               )}
-              <Button variant="surface" size="md" className="!mt-3.5 w-full" onClick={() => setAsking(true)}>
-                <MessageCircleQuestion className="h-[18px] w-[18px] text-primary" /> Still curious? Ask Kizuki
-              </Button>
             </div>
           )}
 
@@ -234,7 +234,7 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
         </div>
       </div>
     </Sheet>
-    {askCtx && <AskSheet open={open && asking} onClose={() => setAsking(false)} context={askCtx} />}
+    {askCtx && <AskSheet open={open && asking} onClose={() => { setAsking(false); tourEmit("askClosed"); }} context={askCtx} />}
     </>
   );
 }

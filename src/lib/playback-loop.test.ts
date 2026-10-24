@@ -1,7 +1,14 @@
 import { describe, expect, it } from "vitest";
-import { PlaybackLoopGuard } from "./playback-loop";
+import { PlaybackLoopGuard, PlaybackStartGuard } from "./playback-loop";
 
 describe("YouTube asynchronous playback (mirrors Flutter)", () => {
+  it("ignored start corrects once after real early playback, not stale zero events", () => {
+    const guard = new PlaybackStartGuard();
+    for (const t of [0, 0, 0, 0.1]) expect(guard.shouldCorrect(t, 303.1, true)).toBe(false);
+    expect(guard.shouldCorrect(0.4, 303.1, false)).toBe(false);
+    expect(guard.shouldCorrect(0.4, 303.1, true)).toBe(true);
+    for (const t of [0, 1, 2, 303.1]) expect(guard.shouldCorrect(t, 303.1, true)).toBe(false);
+  });
   it("startup zero/early keyframes never trigger a seek for either affected clip", () => {
     for (const start of [142.6, 12.4]) {
       const guard = new PlaybackLoopGuard(start);

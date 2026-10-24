@@ -1,6 +1,7 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { BookOpen, Play, User } from "lucide-react";
 
+import { haptic } from "@/lib/haptics";
 import { countsOf, useApp } from "@/lib/store";
 import { cn } from "@/lib/utils";
 
@@ -21,7 +22,7 @@ export function TabBar() {
           const active = t.match.some((m) => path.startsWith(m));
           const Icon = t.icon;
           return (
-            <Link key={t.to} to={t.to} aria-label={t.label} data-tour={t.label === "Vocab" ? "vocabTab" : undefined} className={cn("relative flex h-12 items-center gap-2 rounded-full px-5 text-[0.875rem] font-extrabold transition-colors", active ? "bg-surface-3 text-foreground" : "text-faint")}>
+            <Link key={t.to} to={t.to} onClick={() => { if (!active) haptic("select"); }} aria-label={t.label} data-tour={t.label === "Vocab" ? "vocabTab" : undefined} className={cn("relative flex h-12 items-center gap-2 rounded-full px-5 text-[0.875rem] font-extrabold transition-colors", active ? "bg-surface-3 text-foreground" : "text-faint")}>
               <Icon className={cn("h-5 w-5", active && t.label === "Feed" && "fill-current")} strokeWidth={2.4} />
               {active && <span>{t.label}</span>}
               {t.label === "Vocab" && due > 0 && (

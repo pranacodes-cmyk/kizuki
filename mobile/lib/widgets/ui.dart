@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 
+import '../services/haptics.dart';
+import '../theme/mascot_motion.dart';
 import '../theme/tokens.dart';
+import 'lively_mascot.dart';
 
 /// Shared UI primitives — mirrored from src/components/mimi/ui.tsx.
 
@@ -98,7 +100,7 @@ class _Button3DState extends State<Button3D> {
       onTapUp: enabled
           ? (_) {
               setState(() => _down = false);
-              HapticFeedback.selectionClick();
+              Haptics.tap();
               widget.onPressed!();
             }
           : null,
@@ -147,7 +149,8 @@ class _PressState extends State<Press> {
       );
 }
 
-/// Onboarding header: back chevron + orange progress with Kizuki riding the end.
+/// Onboarding header: back chevron + orange progress with Kizuki riding the end — he hops
+/// forward (or back) each time the progress changes.
 class ProgressHeader extends StatelessWidget {
   final double progress;
   final VoidCallback? onBack;
@@ -180,7 +183,7 @@ class ProgressHeader extends StatelessWidget {
                   duration: const Duration(milliseconds: 450),
                   curve: Curves.easeOutCubic,
                   left: c.maxWidth * p - 18,
-                  child: const Mascot(MascotPose.face, size: 36),
+                  child: LivelyMascot(MascotPose.face, size: 36, idle: MascotIdle.none, hopKey: progress),
                 ),
               ]),
             );
@@ -238,7 +241,10 @@ class MimiToggle extends StatelessWidget {
   const MimiToggle({super.key, required this.value, required this.onChanged});
   @override
   Widget build(BuildContext context) => GestureDetector(
-        onTap: () => onChanged(!value),
+        onTap: () {
+          Haptics.select();
+          onChanged(!value);
+        },
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 160),
           width: 48,

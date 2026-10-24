@@ -3,17 +3,19 @@ import { ChevronLeft } from "lucide-react";
 import { useEffect, useState, type ButtonHTMLAttributes, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 
+import { haptic } from "@/lib/haptics";
 import { cn } from "@/lib/utils";
 
-import { Mascot } from "./Mascot";
+import { LivelyMascot, Mascot } from "./Mascot";
 
 type BtnProps = ButtonHTMLAttributes<HTMLButtonElement> & { variant?: "primary" | "surface" | "ghost" | "danger" | "success"; size?: "lg" | "md" | "sm" };
 
 /** 3D press button — mirrored by Button3D in mobile/lib/widgets/ui.dart. */
-export function Button({ variant = "primary", size = "lg", className, children, ...rest }: BtnProps) {
+export function Button({ variant = "primary", size = "lg", className, children, onClick, ...rest }: BtnProps) {
   return (
     <button
       {...rest}
+      onClick={onClick ? (e) => { haptic("tap"); onClick(e); } : undefined}
       className={cn(
         "inline-flex select-none items-center justify-center gap-2 rounded-2xl font-extrabold tracking-[0.01em] disabled:cursor-not-allowed",
         size === "lg" && "h-14 w-full px-6 text-[1.0625rem]",
@@ -47,7 +49,8 @@ export function Screen({ children, className, scroll = true }: { children: React
   );
 }
 
-/** Onboarding header: back chevron + orange progress with Kizuki riding the end. */
+/** Onboarding header: back chevron + orange progress with Kizuki riding the end — he hops
+ * forward (or back) each time the progress changes. */
 export function ProgressHeader({ progress, onBack }: { progress: number; onBack?: () => void }) {
   return (
     <div className="flex h-12 shrink-0 items-center gap-3 px-4">
@@ -57,7 +60,7 @@ export function ProgressHeader({ progress, onBack }: { progress: number; onBack?
       <div className="relative h-3.5 flex-1 rounded-full bg-surface-2">
         <motion.div className="absolute inset-y-0 left-0 rounded-full bg-primary" initial={false} animate={{ width: `${Math.max(6, progress * 100)}%` }} transition={{ type: "spring", stiffness: 160, damping: 24 }} />
         <motion.div className="absolute -top-[11px] h-9 w-9" initial={false} animate={{ left: `calc(${Math.max(6, progress * 100)}% - 18px)` }} transition={{ type: "spring", stiffness: 160, damping: 24 }}>
-          <Mascot pose="face" className="h-9 w-9 drop-shadow" />
+          <LivelyMascot pose="face" size={36} idle="none" hopKey={progress} />
         </motion.div>
       </div>
       <div className="w-6" />
@@ -102,7 +105,7 @@ export function Toggle({ checked, onChange, label }: { checked: boolean; onChang
       role="switch"
       aria-checked={checked}
       aria-label={label}
-      onClick={() => onChange(!checked)}
+      onClick={() => { haptic("select"); onChange(!checked); }}
       className={cn("relative h-7 w-12 shrink-0 rounded-full transition-colors", checked ? "bg-success" : "bg-surface-3")}
     >
       <span className={cn("absolute top-0.5 h-6 w-6 rounded-full bg-foreground shadow transition-all", checked ? "left-[22px]" : "left-0.5")} />

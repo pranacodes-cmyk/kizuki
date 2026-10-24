@@ -15,7 +15,7 @@ void main() {
 
   test('the tour covers the whole loop: feed, word card, Explore, Vocab and the first review', () {
     final ids = tourSteps.map((s) => s.id).toList();
-    expect(ids, ['hello', 'clip', 'subs', 'tapWord', 'meaning', 'explain', 'legend', 'controls', 'swipe', 'explore', 'search', 'vocabTab', 'review', 'reveal', 'grade', 'done']);
+    expect(ids, ['hello', 'clip', 'subs', 'tapWord', 'meaning', 'explain', 'askOpen', 'askInfo', 'askClose', 'legend', 'controls', 'swipe', 'explore', 'search', 'vocabTab', 'review', 'reveal', 'grade', 'done']);
     expect(tourSteps.expand((s) => s.screens).toSet(), {'/feed', '/explore', '/vocab', '/review'});
     // Every skipTo points at a real step.
     for (final s in tourSteps.where((s) => s.skipTo != null)) {
@@ -32,6 +32,13 @@ void main() {
     expect(id(), 'meaning');
     Tour.I.emit(TourEvent.explain);
     expect(id(), 'explain');
+    Tour.I.next();
+    expect(id(), 'askOpen');
+    Tour.I.emit(TourEvent.askOpened);
+    expect(id(), 'askInfo');
+    Tour.I.next();
+    Tour.I.emit(TourEvent.askClosed);
+    expect(id(), 'askClose');
     Tour.I.emit(TourEvent.cardClosed);
     expect(id(), 'legend');
   });

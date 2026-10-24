@@ -15,7 +15,7 @@ describe("welcome tour", () => {
   beforeEach(() => t().reset());
 
   it("covers the whole loop: feed, word card, Explore, Vocab and the first review", () => {
-    expect(TOUR_STEPS.map((s) => s.id)).toEqual(["hello", "clip", "subs", "tapWord", "meaning", "explain", "legend", "controls", "swipe", "explore", "search", "vocabTab", "review", "reveal", "grade", "done"]);
+    expect(TOUR_STEPS.map((s) => s.id)).toEqual(["hello", "clip", "subs", "tapWord", "meaning", "explain", "askOpen", "askInfo", "askClose", "legend", "controls", "swipe", "explore", "search", "vocabTab", "review", "reveal", "grade", "done"]);
     expect(new Set(TOUR_STEPS.flatMap((s) => s.screens))).toEqual(new Set(["/feed", "/explore", "/vocab", "/review"]));
     for (const s of TOUR_STEPS) if (s.skipTo) expect(tourIndexOf(s.skipTo)).toBeLessThan(TOUR_STEPS.length);
   });
@@ -29,6 +29,13 @@ describe("welcome tour", () => {
     expect(id()).toBe("meaning");
     t().emit("explain");
     expect(id()).toBe("explain");
+    t().next();
+    expect(id()).toBe("askOpen");
+    t().emit("askOpened");
+    expect(id()).toBe("askInfo");
+    t().next();
+    t().emit("askClosed");
+    expect(id()).toBe("askClose");
     t().emit("cardClosed");
     expect(id()).toBe("legend");
   });

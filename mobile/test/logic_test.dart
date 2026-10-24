@@ -7,6 +7,16 @@ const now = 1800000000000;
 
 void main() {
   group('onboarding rules', () {
+    test('yearly has seven simulated trial days; monthly has none', () {
+      expect(simulatedTrialEnd('yearly', now), now + 7 * dayMs);
+      expect(simulatedTrialEnd('monthly', now), null);
+    });
+    test('subscription status distinguishes yearly trial from paid monthly and free', () {
+      expect(subscriptionPhase(true, 'yearly', now + dayMs, now), 'trial');
+      expect(subscriptionPhase(true, 'monthly', now + dayMs, now), 'active');
+      expect(subscriptionPhase(true, 'yearly', now - 1, now), 'active');
+      expect(subscriptionPhase(false, null, null, now), 'free');
+    });
     test('purchase requires verified login', () {
       expect(purchaseNeedsAccount(true, false), isTrue);
       expect(purchaseNeedsAccount(true, true), isFalse);
@@ -44,6 +54,20 @@ void main() {
   });
 
   group('feed ranking', () {
+    test('weather segment beyond the real 301-second video is unavailable', () {
+      expect(clipWindowAvailable(303.1, 316.8, 301), false);
+      expect(clipWindowAvailable(231.6, 247.4, 301), true);
+      expect(clipWindowAvailable(303.1, 316.8, 0), true);
+    });
+    test('every onboarding preview starts with the same showcase without duplicates', () {
+      for (final order in [['a-1', '0dBf_DAXNuc-6'], ['b-1', 'a-1']]) {
+        final result = onboardingFeedOrder(order, ['0dBf_DAXNuc-6', ...order]);
+        expect(result.first, '0dBf_DAXNuc-6');
+        expect(result.where((id) => id == '0dBf_DAXNuc-6').length, 1);
+        expect(result.skip(1).toList(), order.where((id) => id != '0dBf_DAXNuc-6').toList());
+      }
+      expect(onboardingFeedOrder(['a-1'], ['a-1']), ['a-1']);
+    });
     test('hashes like the web client', () {
       expect(fnv1a('a'), 3826002220);
       expect(fnv1a('mimi:abc-12'), fnv1a('mimi:abc-12'));

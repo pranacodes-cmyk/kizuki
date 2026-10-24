@@ -146,6 +146,19 @@ export type RankClip = { id: string; videoId: string; level: string; topics: str
 
 /** Score taken off a still-picture clip (more than the whole random jitter range). */
 export const STILL_CLIP_PENALTY = 6;
+/** One deliberate first impression; the rest remains personalized. */
+export const ONBOARDING_SHOWCASE_CLIP_ID = "0dBf_DAXNuc-6";
+/** Only yearly simulation has a trial; native dates always come from the store. */
+export const simulatedTrialEnd = (plan: string, now: number): number | null => plan === "yearly" ? now + 7 * dayMs : null;
+export const subscriptionPhase = (active: boolean, plan: string | null, trialEndsAt: number | null, now: number) =>
+  !active ? "free" : plan === "yearly" && trialEndsAt != null && trialEndsAt > now ? "trial" : "active";
+/** YouTube reports zero until metadata arrives; allow only end-padding tolerance. */
+export const clipWindowAvailable = (start: number, end: number, duration: number) =>
+  duration <= 0 || (start < duration && end <= duration + 0.75);
+export function onboardingFeedOrder(personalized: string[], available: Iterable<string>): string[] {
+  if (!new Set(available).has(ONBOARDING_SHOWCASE_CLIP_ID)) return personalized;
+  return [ONBOARDING_SHOWCASE_CLIP_ID, ...personalized.filter((id) => id !== ONBOARDING_SHOWCASE_CLIP_ID)];
+}
 type RankCtx = { reasonList: string[]; jlpt: string; seen: Record<string, number>; seed: string };
 
 export function clipScore(clip: RankClip, { reasonList, jlpt, seen, seed }: RankCtx) {

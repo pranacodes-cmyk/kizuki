@@ -1,3 +1,19 @@
+/// Correct an ignored start only after real out-of-range playback progresses.
+/// A zero/keyframe event alone must never consume the one corrective seek.
+class PlaybackStartGuard {
+  double? _first;
+  bool _corrected = false;
+  bool shouldCorrect(double time, double start, {required bool playing}) {
+    if (_corrected || !playing || !time.isFinite) return false;
+    if (time >= start - 1.5) { _first = null; return false; }
+    final first = _first;
+    if (first == null || time < first) { _first = time; return false; }
+    if (time - first < 0.25) return false;
+    _corrected = true;
+    return true;
+  }
+}
+
 /// YouTube seeks finish asynchronously. Never re-seek stale end timestamps.
 /// Mirrors src/lib/playback-loop.ts (player mechanics, not learner rules).
 class PlaybackLoopGuard {

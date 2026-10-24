@@ -4,8 +4,9 @@ import { Bell, Check, Crown, Lock, Sparkles } from "lucide-react";
 import { useState, type ReactNode } from "react";
 
 import { FeedPreview } from "@/components/mimi/FeedPreview";
-import { Mascot } from "@/components/mimi/Mascot";
+import { LivelyMascot } from "@/components/mimi/Mascot";
 import { Button, ProgressHeader, Screen } from "@/components/mimi/ui";
+import { haptic } from "@/lib/haptics";
 import { PLANS, priceLine, trialTimeline } from "@/lib/paywall";
 import { useApp } from "@/lib/store";
 import { toast } from "@/lib/ui-store";
@@ -44,6 +45,7 @@ function Trial() {
     // The account step is required as soon as the store confirms, even if this screen was left.
     useApp.getState().requirePurchaseAccount();
     setBusy(false);
+    haptic("celebrate");
     toast({ icon: "🎉", title: "Your free week has started", description: "Everything in Kizuki is unlocked." });
     void navigate({ to: "/account", search: { mode: "signin" }, replace: true });
   };
@@ -101,7 +103,7 @@ function StepTry({ trial, onNext }: { trial: boolean; onNext: () => void }) {
         <div className="absolute inset-0 overflow-hidden rounded-[32px] border-[6px] border-surface-3 bg-stage">
           <FeedPreview />
         </div>
-        <Mascot pose="cheer" className="absolute -bottom-3 -right-14 h-24 w-24" />
+        <LivelyMascot pose="cheer" size={96} tappable className="absolute -bottom-3 -right-14" />
       </div>
       <div className="space-y-3 pb-2 pt-6">
         <p className="flex items-center justify-center gap-2 text-[0.9375rem] font-extrabold">
@@ -223,7 +225,7 @@ function StepPlans({
       }
     >
       <div className="flex items-center gap-3 pt-2">
-        <Mascot pose="heart" className="h-16 w-16" />
+        <LivelyMascot pose="heart" size={64} />
         <h1 className="text-[1.5rem] font-black leading-tight">
           Unlock everything in <span className="text-primary">Kizuki</span>
         </h1>
@@ -236,7 +238,7 @@ function StepPlans({
           return (
             <button
               key={id}
-              onClick={() => setPlan(id)}
+              onClick={() => { if (plan !== id) haptic("select"); setPlan(id); }}
               aria-pressed={active}
               className={cn("press relative flex w-full items-center gap-3 rounded-2xl border-2 bg-surface px-4 py-3.5 text-left", active ? "border-primary bg-primary/10" : "border-border")}
             >

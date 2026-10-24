@@ -6,7 +6,8 @@ import { supabase } from "@/integrations/supabase/client";
 import { useSession } from "@/hooks/use-session";
 import { getContent } from "@/lib/content";
 import { downloadText, wordsCsv } from "@/lib/export";
-import { jlptLevels, windowLabel } from "@/lib/logic";
+import { haptic, hapticsOn, setHapticsEnabled } from "@/lib/haptics";
+import { jlptLevels, windowLabel, subscriptionPhase } from "@/lib/logic";
 import { windowOptions } from "@/lib/onboarding";
 import { FREE_DAILY_CLIPS } from "@/lib/paywall";
 import { requestReminderPermission } from "@/lib/reminders";
@@ -44,6 +45,7 @@ function SettingsPage() {
   const s = useApp((x) => x.settings);
   const profile = useApp((x) => x.profile);
   const premium = useApp((x) => x.premium);
+  const phase = subscriptionPhase(premium.active, premium.plan, premium.trialEndsAt, Date.now());
   const { setSettings, setProfile, resetTutorial, cancelPremium, reset } = useApp.getState();
   const [confirm, setConfirm] = useState<null | "delete" | "cancel">(null);
   const [busy, setBusy] = useState(false);
@@ -106,6 +108,14 @@ function SettingsPage() {
           <T k="spacing" label="Space between words" hint="Turn off for natural Japanese text" />
           <T k="highlight" label="Highlight the spoken word" />
           <T k="autoSave" label="Save words I tap" hint="Off: save only with the Save button" />
+          <div className="flex items-center justify-between gap-3 px-4 py-3">
+            <span className="min-w-0"><span className="block text-[0.9375rem] font-bold">Vibration feedback</span><span className="block text-[0.75rem] text-muted-foreground">Gentle taps for buttons and milestones</span></span>
+            <Toggle
+              label="Vibration feedback"
+              checked={hapticsOn(s)}
+              onChange={(v) => { setSettings({ haptics: v }); setHapticsEnabled(v); if (v) haptic("light"); }}
+            />
+          </div>
           <div className="px-4 py-3">
             <p className="text-[0.9375rem] font-bold">Text size</p>
             <div className="mt-2 grid grid-cols-3 gap-1.5">
@@ -164,12 +174,12 @@ function SettingsPage() {
         <Group title="Subscription">
           {premium.active ? (
             <>
-              <div className="px-4 py-3"><p className="text-[0.9375rem] font-bold">Kizuki Premium · {premium.plan === "monthly" ? "Monthly" : "Yearly"}</p><p className="text-[0.8125rem] text-muted-foreground">{premium.trialEndsAt && premium.trialEndsAt > Date.now() ? `Free trial until ${new Date(premium.trialEndsAt).toLocaleDateString()}` : "Active"}</p></div>
+              <div className="px-4 py-3"><p className="text-[0.9375rem] font-bold">Kizuki Premium · {premium.plan === "monthly" ? "Monthly" : "Yearly"}</p><p className="text-[0.8125rem] text-muted-foreground">{phase === 'trial' ? `Premium active · Trial ends ${new Date(premium.trialEndsAt ?? 0).toLocaleDateString()}` : "Premium active"}</p></div>
               <ActionRow label="Manage subscription" onClick={() => setConfirm("cancel")} />
             </>
           ) : (
             <>
-              <ActionRow label="Try Premium free for 7 days" onClick={() => navigate({ to: "/trial" })} />
+              <ActionRow label="View Premium plans" onClick={() => navigate({ to: "/trial" })} />
               {/* Same store restore as the paywall; the web prototype has no store, so it reports none found. */}
               <ActionRow label="Restore purchase" onClick={() => toast({ title: "No subscription found", description: "Use the same store account you bought with." })} />
             </>

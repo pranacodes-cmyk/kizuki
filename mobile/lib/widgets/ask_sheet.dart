@@ -7,16 +7,19 @@ import 'package:provider/provider.dart';
 
 import '../data/ask.dart';
 import '../data/paywall.dart';
+import '../data/tour.dart';
 import '../logic/logic.dart';
 import '../services/ask_service.dart';
 import '../services/sync_service.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import 'ui.dart';
+import 'tour.dart';
 
 /// "Ask Kizuki" chat about a line (and optionally a tapped word) — mirrors AskSheet.tsx.
 Future<void> showAskSheet(BuildContext context, AskContext ctx) =>
-    showMimiSheet<void>(context, (_) => AskSheet(ctx: ctx), maxHeightFactor: 0.92);
+    showMimiSheet<void>(context, (_) => AskSheet(ctx: ctx), maxHeightFactor: 0.92)
+        .whenComplete(() => Tour.I.emit(TourEvent.askClosed));
 
 class AskSheet extends StatefulWidget {
   final AskContext ctx;
@@ -149,7 +152,7 @@ class _AskSheetState extends State<AskSheet> {
       child: SizedBox(
         height: height,
         child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-          Padding(
+          TourAnchor(id: 'askPanel', child: Padding(
             padding: const EdgeInsets.fromLTRB(20, 6, 20, 0),
             child: Row(children: [
               const Mascot(MascotPose.think, size: 44),
@@ -163,7 +166,7 @@ class _AskSheetState extends State<AskSheet> {
                 ]),
               ),
             ]),
-          ),
+          )),
           Container(
             margin: const EdgeInsets.fromLTRB(20, 12, 20, 0),
             padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),

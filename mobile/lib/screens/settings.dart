@@ -10,6 +10,7 @@ import '../data/onboarding.dart';
 import '../logic/logic.dart';
 import '../services/billing.dart';
 import '../services/export_service.dart';
+import '../services/haptics.dart';
 import '../services/notification_service.dart';
 import '../services/sync_service.dart';
 import '../state/app_state.dart';
@@ -94,6 +95,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
     final s = app.settings;
     final p = app.profile;
     final premium = app.premium;
+    final phase = subscriptionPhase(premium.active, premium.plan, premium.trialEndsAt, DateTime.now().millisecondsSinceEpoch);
 
     Widget toggle(String label, bool value, void Function(Settings, bool) set, {String? hint}) => Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
@@ -163,6 +165,11 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 toggle('Space between words', s.spacing, (x, v) => x.spacing = v, hint: 'Turn off for natural Japanese text'),
                 toggle('Highlight the spoken word', s.highlight, (x, v) => x.highlight = v),
                 toggle('Save words I tap', s.autoSave, (x, v) => x.autoSave = v, hint: 'Off: save only with the Save button'),
+                toggle('Vibration feedback', s.haptics, (x, v) {
+                  x.haptics = v;
+                  Haptics.enabled = v;
+                  if (v) Haptics.light(); // a gentle tap to show it's back on
+                }, hint: 'Gentle taps for buttons and milestones'),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
@@ -273,7 +280,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                           Text('Kizuki Premium · ${premium.plan == 'monthly' ? 'Monthly' : 'Yearly'}', style: txt(15, w: FontWeight.w700)),
                           Text(
-                            premium.trialEndsAt != null && premium.trialEndsAt! > DateTime.now().millisecondsSinceEpoch ? 'Free trial until ${DateFormat.yMd().format(DateTime.fromMillisecondsSinceEpoch(premium.trialEndsAt!))}' : 'Active',
+                            phase == 'trial' ? 'Premium active · Trial ends ${DateFormat.yMd().format(DateTime.fromMillisecondsSinceEpoch(premium.trialEndsAt ?? 0))}' : 'Premium active',
                             style: txt(13, w: FontWeight.w400, c: T.muted),
                           ),
                         ]),
@@ -292,7 +299,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       ),
                     ]
                   : [
-                      _ActionRow(label: 'Try Premium free for 7 days', onTap: () => context.push('/trial')),
+                      _ActionRow(label: 'View Premium plans', onTap: () => context.push('/trial')),
                       _ActionRow(label: restoring ? 'Restoring…' : 'Restore purchase', onTap: () => restoring ? null : _restore()),
                     ]),
               _Group(title: 'Account', children: session != null

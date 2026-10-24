@@ -11,11 +11,14 @@ import 'logic/logic.dart';
 import 'router.dart';
 import 'services/attribution.dart';
 import 'services/billing.dart';
+import 'services/haptics.dart';
 import 'services/notification_service.dart';
 import 'services/sync_service.dart';
 import 'state/app_state.dart';
 import 'theme/tokens.dart';
 import 'widgets/common.dart' show ScreenError;
+import 'widgets/lively_mascot.dart' show SplashGate;
+import 'widgets/splash.dart';
 import 'widgets/toast.dart';
 import 'widgets/tracking_explainer.dart';
 import 'widgets/tour.dart';
@@ -57,6 +60,9 @@ Future<void> startApp() async {
   } catch (e) {
     debugPrint('KIZUKI_ERROR state load: $e');
   }
+  Haptics.enabled = app.settings.haptics;
+  // The animated splash covers the first screen; entrances wait until it fades.
+  SplashGate.visible.value = true;
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider.value(value: app),
@@ -116,7 +122,9 @@ class _KizukiAppState extends State<KizukiApp> {
     _syncPath();
     widget.app.addListener(_celebrate);
     widget.app.addListener(_reminders);
+    widget.app.addListener(_haptics);
     _reminders();
+    _haptics();
     // Meta install/open + Apple's tracking question, once the first screen is showing.
     Attribution.explainTracking = () async {
       final ctx = router.routerDelegate.navigatorKey.currentContext;
@@ -131,8 +139,12 @@ class _KizukiAppState extends State<KizukiApp> {
     _path.dispose();
     widget.app.removeListener(_celebrate);
     widget.app.removeListener(_reminders);
+    widget.app.removeListener(_haptics);
     super.dispose();
   }
+
+  /// Settings → Vibration feedback switches every haptic in the app.
+  void _haptics() => Haptics.enabled = widget.app.settings.haptics;
 
   String? _reminderKey;
 
@@ -171,6 +183,8 @@ class _KizukiAppState extends State<KizukiApp> {
         // Above every route and sheet, so it can follow the learner and spotlight cards.
         Positioned.fill(child: TourHost(path: _path)),
         const Positioned.fill(child: ToastLayer()),
+        // Cold-start splash above everything; it removes itself after ~1.6 s.
+        const Positioned.fill(child: SplashOverlay()),
       ]),
     );
   }

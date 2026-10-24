@@ -1,3 +1,17 @@
+/** Mirrors Flutter: correct only demonstrably advancing out-of-range playback. */
+export class PlaybackStartGuard {
+  private first: number | null = null;
+  private corrected = false;
+  shouldCorrect(time: number, start: number, playing: boolean): boolean {
+    if (this.corrected || !playing || !Number.isFinite(time)) return false;
+    if (time >= start - 1.5) { this.first = null; return false; }
+    if (this.first === null || time < this.first) { this.first = time; return false; }
+    if (time - this.first < 0.25) return false;
+    this.corrected = true;
+    return true;
+  }
+}
+
 /** Mirrors Flutter PlaybackLoopGuard: acknowledge asynchronous seeks, not a timer. */
 export class PlaybackLoopGuard {
   private target: number | null;

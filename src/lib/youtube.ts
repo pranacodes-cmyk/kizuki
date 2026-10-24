@@ -8,6 +8,7 @@ export type YTPlayer = {
   seekTo(seconds: number, allowSeekAhead: boolean): void;
   getCurrentTime(): number;
   getPlayerState(): number;
+  getDuration?(): number;
   setPlaybackRate(rate: number): void;
   mute(): void;
   unMute(): void;

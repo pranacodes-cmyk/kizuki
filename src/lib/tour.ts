@@ -4,9 +4,9 @@
 import type { MascotPose } from "@/components/mimi/Mascot";
 
 /** Things the learner does that move an "action" step forward. */
-export type TourEvent = "word" | "explain" | "cardClosed" | "swipe" | "reveal" | "graded";
+export type TourEvent = "word" | "explain" | "cardClosed" | "askOpened" | "askClosed" | "swipe" | "reveal" | "graded";
 
-export type TourTarget = "player" | "transcript" | "word" | "cardExplain" | "card" | "controls" | "exploreTab" | "exploreSearch" | "vocabTab" | "reviewButton" | "reviewCard" | "grade";
+export type TourTarget = "player" | "transcript" | "word" | "cardExplain" | "card" | "askButton" | "askPanel" | "controls" | "exploreTab" | "exploreSearch" | "vocabTab" | "reviewButton" | "reviewCard" | "grade";
 
 export type TourStep = {
   id: string;
@@ -44,7 +44,10 @@ export const TOUR_STEPS: TourStep[] = [
   { id: "subs", screens: ["/feed"], target: "transcript", text: "The subtitles follow along. The word being said gets a green box.", pose: "read" },
   { id: "tapWord", screens: ["/feed"], target: "word", text: "Tap this word to see what it means.", pose: "think", kind: "action", until: "word", hand: "tap", hint: "Tap the highlighted word", skipTo: "legend" },
   { id: "meaning", screens: ["/feed"], target: "cardExplain", text: "That's the meaning. Now tap Explain to see why it's used in this sentence.", pose: "read", kind: "action", until: "explain", hand: "tap", hint: "Tap Explain", skipTo: "legend", place: "top" },
-  { id: "explain", screens: ["/feed"], target: "card", text: "This explains the word in this exact sentence. It's already saved to your Vocab.", pose: "heart", kind: "action", until: "cardClosed", passThrough: true, hint: "Tap above the card to close it", skipTo: "legend", place: "top", fullHole: true },
+  { id: "explain", screens: ["/feed"], target: "card", text: "This explains the word in this exact sentence. It's already saved to your Vocab.", pose: "heart", place: "top", fullHole: true },
+  { id: "askOpen", screens: ["/feed"], target: "askButton", text: "Want to understand more? Tap Ask Kizuki.", pose: "think", kind: "action", until: "askOpened", hand: "tap", hint: "Tap Ask Kizuki", skipTo: "legend", place: "top" },
+  { id: "askInfo", screens: ["/feed"], target: "askPanel", text: "Kizuki already knows this word and sentence. Ask about grammar, meaning or more examples.", pose: "read", place: "bottom" },
+  { id: "askClose", screens: ["/feed"], target: null, text: "You can come back whenever you have a question. Close Ask Kizuki and the word card to continue.", pose: "wave", kind: "action", until: "cardClosed", passThrough: true, hint: "Tap above each card to close it", skipTo: "legend", place: "top" },
   { id: "legend", screens: ["/feed"], target: null, text: "Underlines show what you know.", pose: "think", kind: "legend" },
   { id: "controls", screens: ["/feed"], target: "controls", text: "These buttons help you listen:", pose: "think", kind: "controls" },
   { id: "swipe", screens: ["/feed"], target: null, text: "Swipe up for the next clip.", pose: "cheer", kind: "action", until: "swipe", hand: "swipe", passThrough: true, hint: "Swipe up anywhere" },

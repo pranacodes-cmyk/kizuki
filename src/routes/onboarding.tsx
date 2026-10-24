@@ -3,10 +3,11 @@ import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { Check } from "lucide-react";
 import { useMemo, useState, type ReactNode } from "react";
 
-import { Mascot } from "@/components/mimi/Mascot";
+import { LivelyMascot, Pop } from "@/components/mimi/Mascot";
 import { Button, Pill, ProgressHeader, Screen } from "@/components/mimi/ui";
 import { challengeBenefit, goalDateLabel, levelToJlpt, recommendedMinutes, windowLabel, wordsPerMonth } from "@/lib/logic";
 import { challengeOptions, levelOptions, reasonOptions, sourceOptions, streakOptions, windowOptions } from "@/lib/onboarding";
+import { haptic } from "@/lib/haptics";
 import { requestReminderPermission } from "@/lib/reminders";
 import { useApp } from "@/lib/store";
 import { cn } from "@/lib/utils";
@@ -105,19 +106,24 @@ function Footer({ children }: { children: ReactNode }) {
 function GridCard({ active, emoji, label, onClick }: { active: boolean; emoji: string; label: string; onClick: () => void }) {
   return (
     <button
-      onClick={onClick}
+      onClick={() => { haptic("select"); onClick(); }}
       aria-pressed={active}
       className={cn(
-        "press relative flex h-[104px] flex-col items-center justify-center gap-2 rounded-2xl border-2 bg-surface px-2 text-center",
+        "press relative flex h-[104px] flex-col items-center justify-center gap-2 rounded-2xl border-2 bg-surface px-2 text-center transition-colors duration-150",
         active ? "border-primary bg-primary/10" : "border-border",
       )}
     >
-      {active && (
-        <span className="absolute right-2 top-2 flex h-5 w-5 items-center justify-center rounded-full bg-primary">
-          <Check className="h-3.5 w-3.5 text-primary-foreground" strokeWidth={3.5} />
-        </span>
-      )}
-      <span className="text-[2rem] leading-none">{emoji}</span>
+      {/* The check badge springs in (and shrinks away) instead of blinking (onboarding.dart _GridCard). */}
+      <motion.span
+        aria-hidden
+        initial={false}
+        animate={{ scale: active ? 1 : 0 }}
+        transition={{ duration: 0.26, ease: active ? [0.34, 1.56, 0.64, 1] : [0.32, 0, 0.67, 0] }}
+        className="absolute right-2 top-2 flex h-5 w-5 items-center justify-center rounded-full bg-primary"
+      >
+        <Check className="h-3.5 w-3.5 text-primary-foreground" strokeWidth={3.5} />
+      </motion.span>
+      <Pop active={active} className="text-[2rem] leading-none">{emoji}</Pop>
       <span className="text-[0.9375rem] font-extrabold">{label}</span>
     </button>
   );
@@ -126,11 +132,11 @@ function GridCard({ active, emoji, label, onClick }: { active: boolean; emoji: s
 function ListOption({ active, left, label, hint, onClick }: { active: boolean; left: ReactNode; label: string; hint?: string; onClick: () => void }) {
   return (
     <button
-      onClick={onClick}
+      onClick={() => { haptic("select"); onClick(); }}
       aria-pressed={active}
-      className={cn("press flex w-full items-center gap-4 rounded-2xl border-2 bg-surface px-4 py-3.5 text-left", active ? "border-primary bg-primary/10" : "border-border")}
+      className={cn("press flex w-full items-center gap-4 rounded-2xl border-2 bg-surface px-4 py-3.5 text-left transition-colors duration-150", active ? "border-primary bg-primary/10" : "border-border")}
     >
-      <span className="flex h-10 w-10 shrink-0 items-center justify-center text-[1.6rem]">{left}</span>
+      <span className="flex h-10 w-10 shrink-0 items-center justify-center text-[1.6rem]"><Pop active={active}>{left}</Pop></span>
       <span className="min-w-0 flex-1">
         <span className="block text-[1rem] font-extrabold">{label}</span>
         {hint && <span className="block text-[0.8125rem] text-muted-foreground">{hint}</span>}
@@ -223,7 +229,8 @@ function Method({ onNext }: { onNext: () => void }) {
           </div>
           <div className="flex flex-col items-center gap-1">
             <span className="text-[0.875rem] font-extrabold text-primary">100+ lines</span>
-            <Mascot pose="cheer" className="h-12 w-12" />
+            {/* Rides up with the growing bar, then hops as it lands. */}
+            <LivelyMascot pose="cheer" size={48} hopAfter={1200} />
             <motion.div initial={{ height: 0 }} animate={{ height: 130 }} transition={{ delay: 0.35, duration: 0.8, ease: [0.22, 1, 0.36, 1] }} className="w-20 rounded-t-xl bg-primary" />
             <span className="mt-1 text-[0.8125rem] font-bold text-foreground">With Kizuki</span>
           </div>
@@ -276,7 +283,11 @@ function Slider({ value, min, max, step, onChange, tone }: { value: number; min:
       max={max}
       step={step}
       value={value}
-      onChange={(e) => onChange(Number(e.target.value))}
+      onChange={(e) => {
+        const v = Number(e.target.value);
+        if (v !== value) haptic("tick"); // a soft tick per step, like a picker wheel
+        onChange(v);
+      }}
       className={cn(
         "h-3 w-full cursor-pointer appearance-none rounded-full",
         "[&::-webkit-slider-thumb]:h-8 [&::-webkit-slider-thumb]:w-8 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:border-4 [&::-webkit-slider-thumb]:border-foreground [&::-webkit-slider-thumb]:shadow-lg",
@@ -343,7 +354,7 @@ function Streak({ value, onChange, onNext }: { value: number; onChange: (v: numb
   return (
     <>
       <StepBody>
-        <div className="flex justify-center pt-2"><Mascot pose="brave" className="h-28 w-28" /></div>
+        <div className="flex justify-center pt-2"><LivelyMascot pose="brave" size={112} entrance hopKey={value} tappable /></div>
         <Title title="Make a promise to yourself" subtitle="Pick a streak goal. Kizuki will cheer you on." />
         <div className="mt-5 space-y-3 px-6">
           {streakOptions.map((o) => (

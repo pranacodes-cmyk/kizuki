@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Clip, ClipNotes, Content, Word } from "@/lib/content";
 import { loadNotes } from "@/lib/content";
 import { feedMoving } from "@/lib/feed-motion";
+import { haptic } from "@/lib/haptics";
 import { pickTourWord, wordKeyOf } from "@/lib/logic";
 import { tokenLevel, tokenStatus, useApp, type WordInput } from "@/lib/store";
 import { TOUR_STEPS } from "@/lib/tour";
@@ -112,6 +113,7 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
   const levelOf = useCallback((w: Word) => tokenLevel({ words } as never, wordKeyOf(w.d, w.b || w.s)), [words]);
 
   const onWord = useCallback((li: number, wi: number) => {
+    haptic("select");
     setSel({ line: li, idx: wi });
     setCardOpen(true);
     player.current?.pause();
@@ -181,7 +183,7 @@ export function ClipView({ clip, content, active, bottomInset = 96, tourTargets 
         <button aria-label="Replay line" onClick={() => seekLine(Math.max(0, current))} className="press flex h-10 w-10 items-center justify-center rounded-full text-muted-foreground"><RotateCcw className="h-[18px] w-[18px]" /></button>
         <button aria-label="Loop line" onClick={() => setLoopLine(loopLine != null ? null : Math.max(0, current))} className={cn("press flex h-10 w-10 items-center justify-center rounded-full", loopLine != null ? "text-primary" : "text-muted-foreground")}><Repeat1 className="h-[18px] w-[18px]" /></button>
         <button aria-label="Playback speed" onClick={() => setRate(SPEEDS[(SPEEDS.indexOf(rate as 1) + 1) % SPEEDS.length] ?? 1)} className={cn("press h-8 min-w-11 rounded-full px-2 text-[0.8125rem] font-black tabular", rate !== 1 ? "bg-primary/15 text-primary" : "text-muted-foreground")}>{rate}×</button>
-        <button aria-label={savedClip ? "Unsave clip" : "Save clip"} onClick={() => { useApp.getState().toggleSavedClip(clip.id); if (!savedClip) toast({ icon: "🔖", title: "Clip saved", description: "Find it in Profile → Saved" }); }} className={cn("press flex h-10 w-10 items-center justify-center rounded-full", savedClip ? "text-primary" : "text-muted-foreground")}><Bookmark className={cn("h-[18px] w-[18px]", savedClip && "fill-current")} /></button>
+        <button aria-label={savedClip ? "Unsave clip" : "Save clip"} onClick={() => { useApp.getState().toggleSavedClip(clip.id); if (!savedClip) haptic("light"); if (!savedClip) toast({ icon: "🔖", title: "Clip saved", description: "Find it in Profile → Saved" }); }} className={cn("press flex h-10 w-10 items-center justify-center rounded-full", savedClip ? "text-primary" : "text-muted-foreground")}><Bookmark className={cn("h-[18px] w-[18px]", savedClip && "fill-current")} /></button>
         {/* "Aa", like the Display sheet's name (the welcome tour points at it by that name). */}
         <button aria-label="Display options" onClick={() => setDisplay(true)} className="press flex h-10 w-10 items-center justify-center rounded-full text-[0.9375rem] font-black text-muted-foreground">Aa</button>
       </div>

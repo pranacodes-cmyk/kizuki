@@ -4,7 +4,7 @@ import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 
 import {
-  asksToday, currentStreak, dayKey, dayMs, dueWordKeys, emptyDay, newCard, wordCounts, wordKeyOf, wordLevel, wordStatus, withWordLevel,
+  asksToday, currentStreak, dayKey, dueWordKeys, emptyDay, newCard, wordCounts, wordKeyOf, wordLevel, wordStatus, withWordLevel, simulatedTrialEnd,
   type WordLevel,
   type Card, type DayActivity, type Stats, type WordLite,
 } from "./logic";
@@ -30,6 +30,8 @@ export type Settings = {
   furigana: boolean; romaji: boolean; translation: boolean; spacing: boolean; highlight: boolean; autoSave: boolean;
   textSize: number; speed: number; flashFront: "jp" | "en"; flashFurigana: boolean; flashRomaji: boolean;
   reminders: boolean; reminderFreq: "standard" | "minimal";
+  /** Settings → Vibration feedback (missing in older saved state counts as on — hapticsOn). */
+  haptics: boolean;
 };
 export type HistoryEntry = { clipId: string; at: number };
 
@@ -62,7 +64,7 @@ export const defaultProfile: Profile = {
 };
 export const defaultSettings: Settings = {
   furigana: true, romaji: true, translation: true, spacing: true, highlight: true, autoSave: true, textSize: 1, speed: 1,
-  flashFront: "jp", flashFurigana: false, flashRomaji: false, reminders: true, reminderFreq: "standard",
+  flashFront: "jp", flashFurigana: false, flashRomaji: false, reminders: true, reminderFreq: "standard", haptics: true,
 };
 
 export const initialState = (): PersistedState => ({
@@ -152,7 +154,7 @@ export const useApp = create<AppStore>()(
         confirmPurchaseAccount: () => commit({ purchaseAccountPending: false }),
         startTrial: (plan) => {
           const t = Date.now();
-          commit({ premium: { active: true, plan, since: t, trialEndsAt: t + 7 * dayMs } });
+          commit({ premium: { active: true, plan, since: t, trialEndsAt: simulatedTrialEnd(plan, t) } });
         },
         cancelPremium: () => commit({ premium: { active: false, plan: null, since: null, trialEndsAt: null } }),
         saveWord: (i) => {

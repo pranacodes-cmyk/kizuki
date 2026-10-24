@@ -3,6 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 import { describe, expect, it } from "vitest";
+import exclusions from "../../scripts/content/excluded-clips.json";
 
 type W = { s: string; b: string; p: string; d: string | null };
 type Data = { clips: { id: string; lines: { words: W[] }[] }[] };
@@ -20,6 +21,10 @@ const glossOf = (surface: string) => {
 };
 
 describe("clip word meanings", () => {
+  it("never ships editorially excluded invalid clip windows", () => {
+    expect(content.clips.some((c) => c.id === "-M5HGD6fhy4-303")).toBe(false);
+    expect(content.clips.filter((c) => Object.hasOwn(exclusions, c.id))).toHaveLength(0);
+  });
   it("katakana loanwords get their loanword meaning", () => {
     expect(glossOf("ホテル")).toMatch(/^hotel/);
     expect(glossOf("クラス")).toMatch(/^class/);

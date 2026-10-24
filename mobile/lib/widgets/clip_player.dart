@@ -6,6 +6,7 @@ import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
 import '../data/models.dart' as m;
+import '../logic/logic.dart' show clipWindowAvailable;
 import '../theme/tokens.dart';
 import 'common.dart';
 import 'ui.dart';
@@ -46,7 +47,7 @@ class ClipPlayerState extends State<ClipPlayer> {
   String? _error;
   double _time = 0;
   late PlaybackLoopGuard _loop;
-  bool _startupCorrectionIssued = false;
+  late PlaybackStartGuard _startup;
 
   @override
   void initState() {
@@ -78,12 +79,8 @@ class ClipPlayerState extends State<ClipPlayer> {
     _tapped = false;
     _time = clip.start;
     _loop = PlaybackLoopGuard(clip.start);
-    _startupCorrectionIssued = false;
-    final c = YoutubePlayerController.fromVideoId(
-      videoId: clip.videoId,
-      autoPlay: true,
-      startSeconds: clip.start,
-      endSeconds: clip.end + 1,
+    _startup = PlaybackStartGuard();
+    final c = YoutubePlayerController(
       params: const YoutubePlayerParams(
         showControls: false,
         enableKeyboard: false,
@@ -97,8 +94,28 @@ class ClipPlayerState extends State<ClipPlayer> {
       ),
     );
     _c = c;
-    _valueSub = c.stream.listen(_onValue);
-    _timeSub = c.videoStateStream.listen(_onPosition);
+    _valueSub = c.stream.listen((v) { if (identical(_c, c)) _onValue(v); });
+    _timeSub = c.videoStateStream.listen((v) { if (identical(_c, c)) _onPosition(v); });
+    unawaited(_initialize(c, clip));
+  }
+
+  Future<void> _initialize(YoutubePlayerController c, m.Clip clip) async {
+    try {
+      // loadVideoById waits for the IFrame ready signal. Then explicitly position
+      // the loaded video, matching web onReady instead of trusting startSeconds.
+      await c.loadVideoById(videoId: clip.videoId, startSeconds: clip.start, endSeconds: clip.end + 1);
+      if (!mounted || !identical(_c, c)) return;
+      _loop.beginSeek(clip.start);
+      await c.seekTo(seconds: clip.start, allowSeekAhead: true);
+      if (!mounted || !identical(_c, c)) return;
+      await c.setPlaybackRate(widget.rate);
+      await c.playVideo();
+    } catch (_) {
+      if (mounted && identical(_c, c)) {
+        widget.onPlayingChange(false);
+        setState(() => _error = "This clip couldn't load. Check your connection.");
+      }
+    }
   }
 
   void _destroy({bool notify = true}) {
@@ -116,6 +133,13 @@ class ClipPlayerState extends State<ClipPlayer> {
 
   void _onValue(YoutubePlayerValue v) {
     if (!mounted) return;
+    final duration = v.metaData.duration.inMilliseconds / 1000;
+    if (!clipWindowAvailable(widget.clip.start, widget.clip.end, duration)) {
+      _c?.pauseVideo();
+      widget.onPlayingChange(false);
+      setState(() => _error = 'This clip is no longer available. Choose another clip.');
+      return;
+    }
     if (v.error != YoutubeError.none) {
       setState(() => _error = playerErrorMessage(v.error));
       return;
@@ -154,21 +178,19 @@ class ClipPlayerState extends State<ClipPlayer> {
   }
 
   void _onPosition(YoutubeVideoState s) {
-    if (!mounted) return;
+    if (!mounted || _error != null) return;
     final t = s.position.inMilliseconds / 1000;
     _time = t;
     final c = widget.clip;
     final lr = widget.loopRange;
     final end = lr?.$2 ?? c.end;
     final start = lr?.$1 ?? c.start;
-    // Some players ignore startSeconds. Correct once after play, never every tick.
-    if (_state == PlayerState.playing && !_startupCorrectionIssued) {
-      _startupCorrectionIssued = true;
-      if (t < c.start - 1.5) {
-        _seekTo(c.start);
-        widget.onTime(c.start);
-        return;
-      }
+    // A stale zero event is not proof of playback. Correct once only after
+    // YouTube demonstrably advances outside this clip's time window.
+    if (_startup.shouldCorrect(t, c.start, playing: _state == PlayerState.playing)) {
+      _seekTo(c.start);
+      widget.onTime(c.start);
+      return;
     }
     if (_loop.shouldLoop(t, start, end, playing: _state == PlayerState.playing)) {
       _seekTo(start);

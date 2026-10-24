@@ -49,6 +49,8 @@ export const useTour = create<TourState>((set, get) => ({
     const s = currentStep();
     if (!s) return;
     if (s.kind === "action" && s.until === e) return get().next();
+    if (e === "askClosed" && ["askInfo", "askClose"].includes(s.id)) { get().goTo(tourIndexOf("askClose")); return; }
+    if (e === "cardClosed" && ["explain", "askOpen", "askInfo", "askClose"].includes(s.id)) { get().goTo(tourIndexOf("legend")); return; }
     // Closed the word card before tapping Explain → carry on after the card steps.
     if (e === "cardClosed" && s.target === "cardExplain") get().skipStep();
   },

@@ -207,6 +207,20 @@ class RankClip {
 /// Score taken off a still-picture clip (more than the whole random jitter range).
 const stillClipPenalty = 6.0;
 
+/// One deliberate first impression; the rest remains personalized.
+const onboardingShowcaseClipId = '0dBf_DAXNuc-6';
+/// Only yearly simulation has a trial; native dates always come from the store.
+int? simulatedTrialEnd(String plan, int now) => plan == 'yearly' ? now + 7 * dayMs : null;
+String subscriptionPhase(bool active, String? plan, int? trialEndsAt, int now) =>
+    !active ? 'free' : plan == 'yearly' && trialEndsAt != null && trialEndsAt > now ? 'trial' : 'active';
+/// YouTube reports zero until metadata arrives; allow only end-padding tolerance.
+bool clipWindowAvailable(double start, double end, double duration) =>
+    duration <= 0 || (start < duration && end <= duration + 0.75);
+List<String> onboardingFeedOrder(List<String> personalized, Iterable<String> available) {
+  if (!available.contains(onboardingShowcaseClipId)) return personalized;
+  return [onboardingShowcaseClipId, ...personalized.where((id) => id != onboardingShowcaseClipId)];
+}
+
 double clipScore(RankClip clip, {required List<String> reasonList, required String jlpt, required Map<String, int> seen, required String seed}) {
   final wanted = <String, int>{};
   for (final r in reasonList) {

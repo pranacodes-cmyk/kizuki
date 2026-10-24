@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 
 import '../data/content.dart';
 import '../data/models.dart' as m;
+import '../logic/logic.dart' show onboardingFeedOrder;
 import '../screens/plan.dart' show feedOrder;
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
@@ -31,7 +32,7 @@ class _FeedPreviewState extends State<FeedPreview> {
     super.initState();
     Content.load().then((c) {
       if (!mounted) return;
-      final clips = feedOrder(c, context.read<AppState>()).take(12)
+      final clips = onboardingFeedOrder(feedOrder(c, context.read<AppState>()), c.byId.keys).take(12)
           .map((id) => c.byId[id]).whereType<m.Clip>().toList();
       setState(() { _content = c; _clips = clips; });
     }, onError: (_) {

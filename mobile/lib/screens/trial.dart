@@ -10,10 +10,12 @@ import 'package:provider/provider.dart';
 import '../data/paywall.dart';
 import '../services/attribution.dart';
 import '../services/billing.dart';
+import '../services/haptics.dart';
 import '../services/notification_service.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import '../widgets/feed_preview.dart';
+import '../widgets/lively_mascot.dart';
 import '../widgets/toast.dart';
 import '../widgets/ui.dart';
 
@@ -68,6 +70,7 @@ class _TrialScreenState extends State<TrialScreen> {
       if (!mounted) return;
     }
     setState(() => busy = false);
+    Haptics.celebrate();
     final trial = app.premium.trialEndsAt != null;
     toast(trial ? 'Your free week has started' : 'Welcome to Premium', description: 'Everything in Kizuki is unlocked.', icon: '🎉');
     if (trial) unawaited(NotificationService.requestPermission());
@@ -85,6 +88,7 @@ class _TrialScreenState extends State<TrialScreen> {
       return toast('Couldn\'t reach the store', description: 'Check your connection and try again.', tone: ToastTone.error);
     }
     if (r != StoreResult.done) return toast('No subscription found', description: 'Use the same store account you bought with.');
+    Haptics.success();
     toast('Purchase restored', icon: '🎉');
     context.go('/account?mode=signin');
   }
@@ -199,7 +203,7 @@ class _StepTry extends StatelessWidget {
                       child: const FeedPreview(),
                     ),
                   ),
-                  const Positioned(right: -56, bottom: -12, child: Mascot(MascotPose.cheer, size: 96)),
+                  const Positioned(right: -56, bottom: -12, child: LivelyMascot(MascotPose.cheer, size: 96, tappable: true)),
                 ]),
               ),
             ),
@@ -316,7 +320,7 @@ class _StepPlans extends StatelessWidget {
       body: [
         const SizedBox(height: 8),
         Row(children: [
-          const Mascot(MascotPose.heart, size: 64),
+          const LivelyMascot(MascotPose.heart, size: 64),
           const SizedBox(width: 12),
           Expanded(
             child: Text.rich(
@@ -328,7 +332,10 @@ class _StepPlans extends StatelessWidget {
         // Plans come first so the price is always visible on small phones; perks scroll below.
         const SizedBox(height: 6),
         for (final id in ['yearly', 'monthly'])
-          Padding(padding: const EdgeInsets.only(top: 14), child: _PlanCard(p: plans[id]!, active: plan == id, onTap: () => setPlan(id))),
+          Padding(padding: const EdgeInsets.only(top: 14), child: _PlanCard(p: plans[id]!, active: plan == id, onTap: () {
+            if (plan != id) Haptics.select();
+            setPlan(id);
+          })),
         const SizedBox(height: 20),
         caps('Everything in Premium'),
         const SizedBox(height: 10),

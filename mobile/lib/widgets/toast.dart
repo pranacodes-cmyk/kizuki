@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
+import '../services/haptics.dart';
 import '../theme/tokens.dart';
 import 'ui.dart';
 
@@ -24,6 +25,8 @@ class Toasts extends ChangeNotifier {
 
   void show(String title, {String? description, String? icon, ToastTone tone = ToastTone.normal}) {
     final t = ToastData(_seq++, title, description, icon, tone);
+    if (tone == ToastTone.achievement) Haptics.celebrate();
+    if (tone == ToastTone.error) Haptics.error();
     items.add(t);
     if (items.length > 3) items.removeAt(0);
     notifyListeners();

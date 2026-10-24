@@ -14,6 +14,7 @@ import fs from "node:fs";
 import path from "node:path";
 import kuromoji from "kuromoji";
 import * as wanakana from "wanakana";
+import excludedClips from "./excluded-clips.json";
 
 const ROOT = path.resolve(import.meta.dir, "../..");
 const HERE = import.meta.dir;
@@ -398,6 +399,7 @@ for (const f of rawFiles) {
     if (end - start < 5 || end - start > 45) { dropped++; continue; }
     if (kept.some((k) => start < k.end && end > k.start)) { dropped++; continue; }
     const id = `${v.videoId}-${Math.round(start)}`;
+    if (Object.hasOwn(excludedClips, id)) { dropped++; continue; }
     const proofFile = path.join(PROOF, `${id}.json`);
     if (fs.existsSync(proofFile)) {
       for (const fix of JSON.parse(fs.readFileSync(proofFile, "utf8")).fixes as { line: number; ja: string; en: string }[]) {

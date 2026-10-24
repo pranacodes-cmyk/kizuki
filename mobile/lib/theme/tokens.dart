@@ -11,6 +11,7 @@ class T {
   static const muted = Color(0xFFA3A3A3);
   static const faint = Color(0xFF737373);
   static const primary = Color(0xFFFF8A3D);
+  static const primaryGlow = Color(0xFFFFB27A); // light orange: splash ripples, ring head
   static const primaryDeep = Color(0xFFC8601C);
   static const primaryDim = Color(0xFF4A3122);
   static const primaryDimFg = Color(0xFFA57A5C);

@@ -3,7 +3,7 @@
 // Shown the first time the feed opens, and again after Settings → Replay the welcome tour.
 
 /// Things the learner does that move an "action" step forward (TourEvent in tour.ts).
-enum TourEvent { word, explain, cardClosed, swipe, reveal, graded }
+enum TourEvent { word, explain, cardClosed, askOpened, askClosed, swipe, reveal, graded }
 
 class TourStep {
   final String id;
@@ -61,7 +61,12 @@ const tourSteps = [
   TourStep('meaning', ['/feed'], 'cardExplain', "That's the meaning. Now tap Explain to see why it's used in this sentence.", 'read',
       kind: 'action', until: TourEvent.explain, hand: 'tap', hint: 'Tap Explain', skipTo: 'legend', place: 'top'),
   TourStep('explain', ['/feed'], 'card', "This explains the word in this exact sentence. It's already saved to your Vocab.", 'heart',
-      kind: 'action', until: TourEvent.cardClosed, passThrough: true, hint: 'Tap above the card to close it', skipTo: 'legend', place: 'top', fullHole: true),
+      place: 'top', fullHole: true),
+  TourStep('askOpen', ['/feed'], 'askButton', 'Want to understand more? Tap Ask Kizuki.', 'think',
+      kind: 'action', until: TourEvent.askOpened, hand: 'tap', hint: 'Tap Ask Kizuki', skipTo: 'legend', place: 'top'),
+  TourStep('askInfo', ['/feed'], 'askPanel', 'Kizuki already knows this word and sentence. Ask about grammar, meaning or more examples.', 'read', place: 'bottom'),
+  TourStep('askClose', ['/feed'], null, 'You can come back whenever you have a question. Close Ask Kizuki and the word card to continue.', 'wave',
+      kind: 'action', until: TourEvent.cardClosed, passThrough: true, hint: 'Tap above each card to close it', skipTo: 'legend', place: 'top'),
   TourStep('legend', ['/feed'], null, 'Underlines show what you know.', 'think', kind: 'legend'),
   TourStep('controls', ['/feed'], 'controls', 'These buttons help you listen:', 'think', kind: 'controls'),
   TourStep('swipe', ['/feed'], null, 'Swipe up for the next clip.', 'cheer',

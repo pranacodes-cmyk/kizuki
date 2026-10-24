@@ -7,10 +7,12 @@ import 'package:provider/provider.dart';
 
 import '../data/onboarding.dart';
 import '../logic/logic.dart';
+import '../services/haptics.dart';
 import '../services/notification_service.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import '../widgets/common.dart';
+import '../widgets/lively_mascot.dart';
 import '../widgets/ui.dart';
 
 /// Onboarding questions — mirrors src/routes/onboarding.tsx (same 9 steps and copy).
@@ -173,8 +175,12 @@ class _GridCard extends StatelessWidget {
   const _GridCard({required this.active, required this.emoji, required this.label, required this.onTap});
   @override
   Widget build(BuildContext context) => Press(
-        onTap: onTap,
-        child: Container(
+        onTap: () {
+          Haptics.select();
+          onTap();
+        },
+        child: AnimatedContainer(
+          duration: const Duration(milliseconds: 160),
           padding: const EdgeInsets.symmetric(horizontal: 8),
           decoration: BoxDecoration(
             color: active ? T.primary.withValues(alpha: 0.1) : T.surface,
@@ -189,19 +195,24 @@ class _GridCard extends StatelessWidget {
                 child: ConstrainedBox(
                   constraints: const BoxConstraints(maxWidth: 140),
                   child: Column(mainAxisSize: MainAxisSize.min, children: [
-                    Text(emoji, style: const TextStyle(fontSize: 32)),
+                    Pop(active: active, child: Text(emoji, style: const TextStyle(fontSize: 32))),
                     const SizedBox(height: 8),
                     Text(label, textAlign: TextAlign.center, maxLines: 2, overflow: TextOverflow.ellipsis, style: txt(15, w: FontWeight.w800, h: 1.2)),
                   ]),
                 ),
               ),
             ),
-            if (active)
-              Positioned(
-                right: 8,
-                top: 8,
+            // The check badge springs in (and shrinks away) instead of blinking.
+            Positioned(
+              right: 8,
+              top: 8,
+              child: AnimatedScale(
+                scale: active ? 1 : 0,
+                duration: const Duration(milliseconds: 260),
+                curve: active ? Curves.easeOutBack : Curves.easeInCubic,
                 child: Container(width: 20, height: 20, decoration: const BoxDecoration(color: T.primary, shape: BoxShape.circle), child: const Icon(LucideIcons.check, size: 14, color: T.primaryFg)),
               ),
+            ),
           ]),
         ),
       );
@@ -216,8 +227,12 @@ class _ListOption extends StatelessWidget {
   const _ListOption({required this.active, required this.left, required this.label, this.hint, required this.onTap});
   @override
   Widget build(BuildContext context) => Press(
-        onTap: onTap,
-        child: Container(
+        onTap: () {
+          Haptics.select();
+          onTap();
+        },
+        child: AnimatedContainer(
+          duration: const Duration(milliseconds: 160),
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
           decoration: BoxDecoration(
             color: active ? T.primary.withValues(alpha: 0.1) : T.surface,
@@ -225,7 +240,7 @@ class _ListOption extends StatelessWidget {
             border: Border.all(color: active ? T.primary : T.border, width: 2),
           ),
           child: Row(children: [
-            SizedBox(width: 40, height: 40, child: Center(child: left)),
+            SizedBox(width: 40, height: 40, child: Center(child: Pop(active: active, child: left))),
             const SizedBox(width: 16),
             Expanded(
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
@@ -370,7 +385,8 @@ class _Method extends StatelessWidget {
                       const SizedBox(width: 32),
                       Column(mainAxisAlignment: MainAxisAlignment.end, children: [
                         Text('100+ lines', style: txt(14, w: FontWeight.w800, c: T.primary)),
-                        const Mascot(MascotPose.cheer, size: 48),
+                        // Rides up with the growing bar, then hops as it lands.
+                        const LivelyMascot(MascotPose.cheer, size: 48, hopAfterMs: 1200),
                         _GrowBar(height: 130, color: T.primary, delay: 350),
                         const SizedBox(height: 8),
                         Text('With Kizuki', style: txt(13)),
@@ -462,7 +478,17 @@ class _MimiSlider extends StatelessWidget {
           activeTickMarkColor: Colors.transparent,
           inactiveTickMarkColor: Colors.transparent,
         ),
-        child: Slider(value: value, min: min, max: max, divisions: divisions, onChanged: onChanged),
+        child: Slider(
+          value: value,
+          min: min,
+          max: max,
+          divisions: divisions,
+          onChanged: (v) {
+            // A soft tick per step, like a picker wheel.
+            if (v.round() != value.round()) Haptics.tick();
+            onChanged(v);
+          },
+        ),
       );
 }
 
@@ -579,7 +605,7 @@ class _Streak extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Column(children: [
         _stepBody([
-          const Padding(padding: EdgeInsets.only(top: 8), child: Mascot(MascotPose.brave, size: 112)),
+          Padding(padding: const EdgeInsets.only(top: 8), child: LivelyMascot(MascotPose.brave, size: 112, entrance: true, hopKey: value, tappable: true)),
           const _Title('Make a promise to yourself', subtitle: 'Pick a streak goal. Kizuki will cheer you on.'),
           Padding(
             padding: const EdgeInsets.fromLTRB(24, 20, 24, 0),

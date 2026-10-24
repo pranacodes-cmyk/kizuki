@@ -1,11 +1,12 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { motion } from "motion/react";
-import { useMemo } from "react";
+import { useEffect, useMemo, useRef } from "react";
 
-import { Mascot } from "@/components/mimi/Mascot";
+import { LivelyMascot } from "@/components/mimi/Mascot";
 import { Confetti } from "@/components/mimi/Confetti";
 import { Button, Pill, Screen } from "@/components/mimi/ui";
 import { thumbOf } from "@/lib/content";
+import { haptic } from "@/lib/haptics";
 import { feedOrder, levelFitCount, useContent } from "@/lib/feed";
 import { goalDateLabel, planItems } from "@/lib/logic";
 import { useApp } from "@/lib/store";
@@ -30,6 +31,9 @@ function Plan() {
   const seen = useApp((s) => s.seen);
   const feedSeed = useApp((s) => s.feedSeed);
   const { data } = useContent();
+  // A celebration tap in step with the confetti (plan.dart), once.
+  const celebrated = useRef(false);
+  useEffect(() => { if (!celebrated.current) { celebrated.current = true; haptic("celebrate"); } }, []);
 
   const first = useMemo(() => (data ? feedOrder(data, { profile, seen, feedSeed }).slice(0, 3).map((id) => data.byId[id]).filter((c): c is NonNullable<typeof c> => !!c) : []), [data, profile, seen, feedSeed]);
   const items = planItems({
@@ -42,7 +46,7 @@ function Plan() {
       <Confetti />
       <div className="min-h-0 flex-1 overflow-y-auto pb-6 no-scrollbar">
       <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} className="pt-6 text-center">
-        <Mascot pose="cheer" className="mx-auto h-20 w-20" />
+        <LivelyMascot pose="cheer" size={80} entrance hopAfter={450} tappable className="mx-auto" />
         <h1 className="mt-3 text-[1.625rem] font-black leading-tight">
           {profile.name ? `${profile.name}, your plan is ready!` : "Your plan is ready!"}
         </h1>

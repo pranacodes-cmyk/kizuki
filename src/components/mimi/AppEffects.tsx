@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 
+import { hapticsOn, setHapticsEnabled } from "@/lib/haptics";
 import { newlyUnlocked } from "@/lib/logic";
 import { statsOf, useApp } from "@/lib/store";
 import { startSync } from "@/lib/sync";
@@ -10,6 +11,10 @@ export function AppEffects() {
   useEffect(() => {
     startSync();
   }, []);
+
+  // Settings → Vibration feedback switches every haptic in the app (Haptics.enabled in Flutter).
+  const haptics = useApp((s) => hapticsOn(s.settings));
+  useEffect(() => setHapticsEnabled(haptics), [haptics]);
 
   const totals = useApp((s) => s.totals);
   const words = useApp((s) => s.words);

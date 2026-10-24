@@ -4,9 +4,11 @@ import 'package:provider/provider.dart';
 
 import '../data/content.dart';
 import '../logic/logic.dart';
+import '../services/haptics.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import '../widgets/common.dart';
+import '../widgets/lively_mascot.dart';
 import '../widgets/ui.dart';
 
 /// Feed order for this learner (shared rankFeed rule) — mirrors src/lib/feed.ts.
@@ -15,9 +17,23 @@ List<String> feedOrder(Content c, AppState s) =>
 
 int levelFitCount(Content c, String jlpt) => c.clips.where((x) => (jlptIndex(x.level) - jlptIndex(jlpt)).abs() <= 1).length;
 
-/// "Your plan is ready" — mirrors src/routes/plan.tsx.
-class PlanScreen extends StatelessWidget {
+/// "Your plan is ready" — mirrors src/routes/plan.tsx. Arrives with a celebration tap in step
+/// with the confetti; the fox springs in and cheers.
+class PlanScreen extends StatefulWidget {
   const PlanScreen({super.key});
+  @override
+  State<PlanScreen> createState() => _PlanScreenState();
+}
+
+class _PlanScreenState extends State<PlanScreen> {
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) Haptics.celebrate();
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     final app = context.watch<AppState>();
@@ -39,7 +55,7 @@ class PlanScreen extends StatelessWidget {
             return Column(children: [
               Expanded(
                 child: ListView(padding: const EdgeInsets.fromLTRB(24, 24, 24, 16), children: [
-                  const Center(child: Mascot(MascotPose.cheer, size: 80)),
+                  const Center(child: LivelyMascot(MascotPose.cheer, size: 80, entrance: true, hopAfterMs: 450, tappable: true)),
                   const SizedBox(height: 12),
                   Text(p.name.isNotEmpty ? '${p.name}, your plan is ready!' : 'Your plan is ready!', textAlign: TextAlign.center, style: txt(26, w: FontWeight.w900, h: 1.2)),
                   const SizedBox(height: 12),

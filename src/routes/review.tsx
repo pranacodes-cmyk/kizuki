@@ -6,13 +6,14 @@ import { z } from "zod";
 
 import { Confetti } from "@/components/mimi/Confetti";
 import { ContextPlayer } from "@/components/mimi/ContextPlayer";
-import { Mascot } from "@/components/mimi/Mascot";
+import { LivelyMascot, Mascot } from "@/components/mimi/Mascot";
 import { HighlightedLine } from "@/components/mimi/SavedWordSheet";
 import { POS_NAMES } from "@/components/mimi/WordCard";
 import { Button, Modal, Screen, Sheet } from "@/components/mimi/ui";
 import type { Content } from "@/lib/content";
 import { useContent } from "@/lib/feed";
 import { customStudyKeys, kanaDeck, kanaQueue, newCard, nextIntervalLabel, repeatsSense, ReviewSession, type Card, type Grade } from "@/lib/logic";
+import { haptic } from "@/lib/haptics";
 import { watchUrl } from "@/lib/youtube";
 import { speak } from "@/lib/speech";
 import { dueKeysOf, useApp, wordLites, type SavedWord } from "@/lib/store";
@@ -79,6 +80,8 @@ function Review() {
     if (deck === "words") store.answerWord(id, next);
     else store.answerKana(id, next);
     tourEmit("graded");
+    // Remembered feels like a small win, Forgot stays gentle, the last card celebrates (review.dart).
+    haptic(sess.done ? "celebrate" : g === "again" ? "light" : "success");
     setRevealed(false);
     if (sess.done) {
       store.finishReviewSession();
@@ -103,7 +106,7 @@ function Review() {
       <Screen className="items-center px-6 text-center">
         {finished && <Confetti />}
         <div className="flex flex-1 flex-col items-center justify-center">
-          <Mascot pose={finished ? "brave" : "cheer"} className="h-36 w-36" />
+          <LivelyMascot pose={finished ? "brave" : "cheer"} size={144} entrance hopAfter={400} tappable />
           <h1 className="mt-3 text-[1.75rem] font-black">{finished ? "Well done!" : "All caught up!"}</h1>
           <p className="mt-2 flex items-center gap-1.5 text-[1rem] font-extrabold text-success">
             <Check className="h-5 w-5" strokeWidth={3} /> {finished ? `${sess.answered} card${sess.answered === 1 ? "" : "s"} reviewed` : "Nothing due right now"}

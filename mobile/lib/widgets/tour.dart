@@ -68,6 +68,8 @@ class Tour extends ChangeNotifier {
     final s = step;
     if (s == null) return;
     if (s.kind == 'action' && s.until == e) return next();
+    if (e == TourEvent.askClosed && (s.id == 'askInfo' || s.id == 'askClose')) { goTo(tourIndexOf('askClose')); return; }
+    if (e == TourEvent.cardClosed && ['explain', 'askOpen', 'askInfo', 'askClose'].contains(s.id)) { goTo(tourIndexOf('legend')); return; }
     // Closed the word card before tapping Explain → carry on after the card steps.
     if (e == TourEvent.cardClosed && s.target == 'cardExplain') skipStep();
   }

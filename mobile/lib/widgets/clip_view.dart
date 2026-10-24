@@ -11,6 +11,7 @@ import '../data/content.dart';
 import '../data/models.dart' as m;
 import '../data/tour.dart' show TourEvent;
 import '../logic/logic.dart' show pickTourWord;
+import '../services/haptics.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import 'clip_player.dart';
@@ -185,6 +186,7 @@ class _ClipViewState extends State<ClipView> {
 
   void _onWord(int li, int wi) {
     final app = context.read<AppState>();
+    Haptics.select();
     setState(() => sel = (li, wi));
     _player.currentState?.pause();
     if (app.settings.autoSave) {
@@ -312,6 +314,7 @@ class _ClipViewState extends State<ClipView> {
                 color: savedClip ? T.primary : T.muted,
                 onTap: () {
                   app.toggleSavedClip(clip.id);
+                  if (!savedClip) Haptics.light();
                   if (!savedClip) toast('Clip saved', description: 'Find it in Profile → Saved', icon: '🔖');
                 },
               ),

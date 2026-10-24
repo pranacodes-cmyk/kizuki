@@ -8,12 +8,22 @@ import {
   searchClips, clipWordKeys, wordKeyOf, dueWordKeys, wordCounts, mergeState, canWatchClip, clipsWithWord, kanaQueue, kanaLearned, customStudyKeys,
   asksToday, canAsk, asksLeft, cleanQuestion, askHistory, type AskTurn,
   wordLevel, cardAtLevel, withWordLevel, WORD_LEVELS, repeatsSense, pickTourWord,
-  type RankClip,
+  type RankClip, onboardingFeedOrder, clipWindowAvailable, simulatedTrialEnd, subscriptionPhase,
 } from "./logic";
 
 const NOW = 1_800_000_000_000;
 
 describe("onboarding rules", () => {
+  it("yearly has seven simulated trial days; monthly has none", () => {
+    expect(simulatedTrialEnd('yearly', NOW)).toBe(NOW + 7 * dayMs);
+    expect(simulatedTrialEnd('monthly', NOW)).toBeNull();
+  });
+  it("subscription status distinguishes yearly trial from paid monthly and free", () => {
+    expect(subscriptionPhase(true, 'yearly', NOW + dayMs, NOW)).toBe('trial');
+    expect(subscriptionPhase(true, 'monthly', NOW + dayMs, NOW)).toBe('active');
+    expect(subscriptionPhase(true, 'yearly', NOW - 1, NOW)).toBe('active');
+    expect(subscriptionPhase(false, null, null, NOW)).toBe('free');
+  });
   it("purchase requires verified login", () => {
     expect(purchaseNeedsAccount(true, false)).toBe(true);
     expect(purchaseNeedsAccount(true, true)).toBe(false);
@@ -51,6 +61,20 @@ describe("onboarding rules", () => {
 });
 
 describe("feed ranking", () => {
+  it("weather segment beyond the real 301-second video is unavailable", () => {
+    expect(clipWindowAvailable(303.1, 316.8, 301)).toBe(false);
+    expect(clipWindowAvailable(231.6, 247.4, 301)).toBe(true);
+    expect(clipWindowAvailable(303.1, 316.8, 0)).toBe(true);
+  });
+  it("every onboarding preview starts with the same showcase without duplicates", () => {
+    for (const order of [["a-1", "0dBf_DAXNuc-6"], ["b-1", "a-1"]]) {
+      const result = onboardingFeedOrder(order, ["0dBf_DAXNuc-6", ...order]);
+      expect(result[0]).toBe("0dBf_DAXNuc-6");
+      expect(result.filter((id) => id === "0dBf_DAXNuc-6")).toHaveLength(1);
+      expect(result.slice(1)).toEqual(order.filter((id) => id !== "0dBf_DAXNuc-6"));
+    }
+    expect(onboardingFeedOrder(["a-1"], ["a-1"])).toEqual(["a-1"]);
+  });
   it("hashes like the Dart client", () => {
     expect(fnv1a("a")).toBe(3826002220);
     expect(fnv1a("mimi:abc-12")).toBe(fnv1a("mimi:abc-12"));

@@ -1,8 +1,9 @@
-import { useEffect, useState, type ReactNode } from "react";
-import { AnimatePresence, motion } from "motion/react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
+import { AnimatePresence, motion, useAnimationFrame } from "motion/react";
 import { BatteryFull, Signal, Wifi } from "lucide-react";
 
 import { useHydrated } from "@/hooks/use-hydrated";
+import { SPLASH_FACE, SPLASH_FADE_MS, SPLASH_MS, SPLASH_REDUCED_MS, SPLASH_WORD, splashFrame } from "@/lib/mascot-motion";
 import { useUI } from "@/lib/ui-store";
 import { cn } from "@/lib/utils";
 
@@ -18,7 +19,9 @@ export function AppFrame({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     if (!hydrated) return;
-    const t = setTimeout(() => setSplashDone(true), 1000);
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    // Screens start their entrances as the splash begins to fade, so the two overlap.
+    const t = setTimeout(() => { setSplashDone(true); useUI.getState().setSplashing(false); }, reduced ? SPLASH_REDUCED_MS : SPLASH_MS);
     return () => clearTimeout(t);
   }, [hydrated]);
 
@@ -81,20 +84,74 @@ function StatusBar() {
   );
 }
 
+const EASE_OUT_CUBIC = [0.33, 1, 0.68, 1] as const;
+
+/**
+ * Cold-start splash — mirrors SplashOverlay in mobile/lib/widgets/splash.dart. Starts on the
+ * plain fox face (what the phone's launch screen shows), then plays the shared splashFrame
+ * choreography: squash-and-pop, two orange "click" ripples, the wordmark letter by letter.
+ */
 function Splash() {
+  const reduced = useRef(false);
+  const face = useRef<HTMLDivElement>(null);
+  const glow = useRef<HTMLDivElement>(null);
+  const ripples = useRef<(SVGCircleElement | null)[]>([]);
+  const letters = useRef<(HTMLSpanElement | null)[]>([]);
+  const tagline = useRef<HTMLParagraphElement>(null);
+  const f0 = splashFrame(0, false);
+  useEffect(() => { reduced.current = window.matchMedia("(prefers-reduced-motion: reduce)").matches; }, []);
+  useAnimationFrame((t) => {
+    const f = splashFrame(Math.min(t, reduced.current ? SPLASH_REDUCED_MS : SPLASH_MS), reduced.current);
+    if (face.current) face.current.style.transform = `translateY(${f.faceDy}px) scale(${f.faceSx}, ${f.faceSy})`;
+    if (glow.current) glow.current.style.opacity = String(f.glow);
+    f.ripples.forEach((r, i) => {
+      const el = ripples.current[i];
+      if (!el) return;
+      el.setAttribute("r", String(Math.max(0, r.r)));
+      el.style.opacity = String(r.opacity);
+      el.style.strokeWidth = String(r.width);
+    });
+    f.letters.forEach((l, i) => {
+      const el = letters.current[i];
+      if (!el) return;
+      el.style.transform = `translateY(${l.dy}px)`;
+      el.style.opacity = String(l.opacity);
+    });
+    if (tagline.current) { tagline.current.style.opacity = String(f.tagline); tagline.current.style.transform = `translateY(${f.taglineDy}px)`; }
+  });
   return (
     <motion.div
       initial={{ opacity: 1 }}
       exit={{ opacity: 0, scale: 1.04 }}
-      transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-      className="absolute inset-0 z-[80] flex flex-col items-center justify-center bg-background"
+      transition={{ duration: SPLASH_FADE_MS / 1000, ease: EASE_OUT_CUBIC }}
+      className="absolute inset-0 z-[80] bg-background"
+      aria-hidden
     >
-      <motion.div initial={{ opacity: 0, scale: 0.6, y: 20 }} animate={{ opacity: 1, scale: 1, y: 0 }} transition={{ type: "spring", stiffness: 260, damping: 18 }}>
-        <Mascot pose="face" className="h-28 w-28" />
-      </motion.div>
-      <motion.p initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="mt-4 text-[2.25rem] font-black tracking-tight">
-        kizuki
-      </motion.p>
+      <svg viewBox="0 0 320 320" className="absolute left-1/2 top-1/2 h-[320px] w-[320px] -translate-x-1/2 -translate-y-1/2 overflow-visible">
+        {[0, 1].map((i) => (
+          <circle key={i} ref={(el) => { ripples.current[i] = el; }} cx="160" cy="160" r="0" fill="none" className="stroke-primary-glow" style={{ opacity: 0 }} />
+        ))}
+      </svg>
+      <div
+        ref={glow}
+        className="absolute left-1/2 top-1/2 h-48 w-48 -translate-x-1/2 -translate-y-1/2 rounded-full"
+        style={{ opacity: f0.glow, background: "radial-gradient(closest-side, color-mix(in oklab, var(--primary) 30%, transparent), transparent)" }}
+      />
+      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2" style={{ width: SPLASH_FACE, height: SPLASH_FACE }}>
+        <div ref={face} className="h-full w-full origin-bottom">
+          <Mascot pose="face" className="h-full w-full" />
+        </div>
+      </div>
+      <div className="absolute left-1/2 top-1/2 flex flex-col items-center" style={{ transform: "translate(-50%, calc(-50% + 112px))" }}>
+        <p className="flex text-[2.5rem] font-black leading-none">
+          {SPLASH_WORD.split("").map((ch, i) => (
+            <span key={i} ref={(el) => { letters.current[i] = el; }} className="inline-block" style={{ opacity: 0, transform: `translateY(${f0.letters[i]?.dy ?? 0}px)` }}>{ch}</span>
+          ))}
+        </p>
+        <p ref={tagline} className="mt-2 whitespace-nowrap text-[0.875rem] font-bold text-muted-foreground" style={{ opacity: 0 }}>
+          <span className="font-jp text-primary">気づき</span>&nbsp;&nbsp;·&nbsp;&nbsp;the moment it clicks
+        </p>
+      </div>
     </motion.div>
   );
 }

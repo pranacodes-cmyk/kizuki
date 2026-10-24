@@ -11,12 +11,14 @@ import '../data/content.dart';
 import '../data/models.dart' as m;
 import '../data/tour.dart' show TourEvent;
 import '../logic/logic.dart';
+import '../services/haptics.dart';
 import '../services/tts.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import '../widgets/common.dart';
 import '../widgets/clip_player.dart' show watchUrl;
 import '../widgets/context_player.dart';
+import '../widgets/lively_mascot.dart';
 import '../widgets/saved_word_sheet.dart';
 import '../widgets/toast.dart';
 import '../widgets/tour.dart';
@@ -76,6 +78,8 @@ class _ReviewScreenState extends State<ReviewScreen> {
       app.answerKana(id, next);
     }
     Tour.I.emit(TourEvent.graded);
+    // Remembered feels like a small win, Forgot stays gentle, the last card celebrates.
+    Haptics.play(sess.done ? HapticKind.celebrate : (grade == 'again' ? HapticKind.light : HapticKind.success));
     setState(() {
       revealed = false;
       if (sess.done) {
@@ -118,7 +122,7 @@ class _ReviewScreenState extends State<ReviewScreen> {
               child: Column(children: [
                 Expanded(
                   child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                    Mascot(finished ? MascotPose.brave : MascotPose.cheer, size: 144),
+                    LivelyMascot(finished ? MascotPose.brave : MascotPose.cheer, size: 144, entrance: true, hopAfterMs: 400, tappable: true),
                     const SizedBox(height: 12),
                     Text(finished ? 'Well done!' : 'All caught up!', style: txt(28, w: FontWeight.w900)),
                     const SizedBox(height: 8),

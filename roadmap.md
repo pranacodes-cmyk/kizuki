@@ -3,6 +3,29 @@
 Flutter (`mobile/`) is the product; the web app is its phone-frame prototype.
 Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com/pranacodes-cmyk/kizuki
 
+## Premium motion + haptics (24 Oct)
+- [x] Living fox: shared mirrored motion math (breathe / float / groove idle, spring entrance, squash-and-stretch hop, tap boop); entrances wait for the splash; reduced motion freezes it. Flutter first, then web.
+- [x] Animated splash in both clients (fox pop, orange "click" ripples, letter-by-letter wordmark, tagline) + native Android/iOS launch screens on pure black with the same-size fox face (no colour jump).
+- [x] Plan-building ring: gentle ratchet ticks every 5%, light tap at each step, success the moment it reads 100% with fox cheer + ring pulse; ring head glow; plan screen celebrates with confetti.
+- [x] Onboarding: progress fox hops forward, answer cards pop with check badges, slider ticks, method/streak fox reacts.
+- [x] App-wide semantic haptics (buttons, toggles, tabs, word taps, saves, review grades, paywall, achievements, errors) with Settings → Vibration feedback (default on); mirrored pulse tables + tests.
+- [x] Verified: Flutter analyze clean, 125 Flutter tests; 107 web tests, typecheck + preview build OK; browser walk of splash, welcome, onboarding, building (21 pulses: 16 ticks, 3 steps, success, plan celebration), plan, trial, settings toggle — no page errors.
+- [ ] Real-phone feel check (vibration strength, splash handoff on Android 12+/iOS) in the next store build — none uploaded yet; waits on the user asking for a new Play/TestFlight release.
+
+## Ask Kizuki tour + subscription clarity (24 Oct)
+- [x] Add Ask Kizuki opening, explanation and closing to the word-card tour, Flutter first then web; keep Ask button first in Explain so small phones can reach it; no automatic paid AI request.
+- [x] Subscription settings show Premium active with actual trial end when applicable, never another unconditional trial offer; monthly simulation no longer creates a seven-day trial.
+- [x] 88 web tests pass, preview build OK. Browser walks actual word→Explain→Ask tour at 384×624; simulated monthly checkout persists trialEndsAt=null and settings reads Premium active, yearly reads trial end. Account gate bypassed only in browser verification to inspect settings, not an authenticated store purchase test.
+- [x] Native tests: Flutter SDK now runs here; analyze clean, 125 Flutter tests pass (24 Oct).
+- [ ] Live store offer verification and real purchase: needs a phone with the next store build.
+
+## Clip playback + onboarding showcase (24 Oct)
+- [x] Root cause verified through official embed: weather segment starts at 303.1s but actual source duration is 301s. Exclude invalid segment via content pipeline; both clients now ship 3,036 clips / 1,150 videos.
+- [x] Flutter first, then web: reject clip windows beyond loaded source duration, stop misleading playback; startup correction waits for genuine advancing out-of-range timestamps and ignores stale zero events. Mirrored regression tests added; 86 web tests pass, preview build OK.
+- [x] Every trial preview starts with Essential Daily Greetings (N5, 17s), followed by personalized clips. Official embed playback verified 12.09→14.62→17.13s, active transcript changes Good morning→Hello; 384×624 preview checked, no page errors.
+- [x] Native regression tests pass (125 Flutter tests, 24 Oct).
+- [ ] Physical-phone playback check: needs the next Play/TestFlight build.
+
 ## Launch audit + privacy policy + store update (23 Oct)
 - [x] Flutter SDK running in the sandbox (certificate fix); flutter analyze clean, 99 Flutter tests + 82 web tests pass
 - [x] Sync: a cloud sync started for one account can no longer be merged into or uploaded under another account (both clients, Flutter tests)
@@ -11,9 +34,10 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 - [x] Returning subscribers aren't promised a free week; live prices/eligibility redraw an open paywall
 - [x] Small phones (360×640, large system text): onboarding + paywall buttons pinned, content scrolls with a fade, plans shown before perks; Flutter widget tests + web walk at 360×640 and 384×624
 - [x] New full Privacy Policy (14 sections: data, uses, providers, Meta/ATT, retention, rights, deletion without the app, children, transfers) + Terms contact; same text in both clients (generated + parity test); Help answer for deleting without the app
-- [ ] Store builds: sync to GitHub, Store release workflow → Play internal draft + TestFlight
+- [x] Store builds: GitHub run 40006801363 green (analyze + tests) → Android 1.2.0 (109) rolled out to Play internal testing (replaces 108); iOS 1.2.0 (109) VALID, in TestFlight for the Kizuki team group; new policy live at /privacy (read back)
 - [ ] App Store privacy answers + Play Data safety must match the new policy (by hand in the consoles)
 - [ ] Legal review of the policy by a lawyer (written by me from what the app does; not legal advice)
+- [ ] Real-phone retest of build 109 (Android + iPhone): purchase → account, reminders, small-screen paywall
 
 
 ## Founder model comparison (23 Oct)
@@ -29,23 +53,26 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 - [x] Flutter first: word/meaning/sentence cards; original video opens only on request; Forgot / Remembered choices.
 - [x] Mirror web; Learning / Known / Ignored controls, All / To Review / Mastered tabs, JLPT clip badges; saved SRS thresholds unchanged.
 - [x] 79 existing web tests plus the new familiarity regression test pass (80 total), preview build OK; 384×624 browser flow verifies reveal, zero video iframes before request, optional context sheet and persisted review grading.
-- [ ] Flutter analyze/tests and physical Android/iPhone check: Flutter SDK unavailable here; no new native build uploaded.
+- [x] Flutter analyze/tests pass (24 Oct).
+- [ ] Physical Android/iPhone check: needs the next store build.
 
 ## AMOLED and onboarding polish (23 Oct)
 - [x] Mirror pure-black/neutral-surface/orange tokens, Flutter first, then web.
 - [x] Remove the name question; make categories fully reachable and refine plan celebration/step motion.
 - [x] Require sign-in after purchase/restore, preserve purchase on login, and save owner-only profiles.
 - [x] All 79 web tests pass. At 384×624, all categories reachable; nine questions go directly to building; simulated checkout cannot skip login or reopen feed; verified account reaches feed with Premium retained and profile preferences read back. No browser page errors.
-- [ ] Flutter analyze/tests and physical Android/iPhone checks: Flutter SDK is unavailable here; no new store build/upload requested in this round. Signup trigger is applied but a fresh confirmed-signup test is still pending.
+- [x] Flutter analyze/tests pass (24 Oct).
+- [ ] Physical Android/iPhone checks and a fresh confirmed-signup test: need the next store build and a real new account.
 
 ## Playback restart fix (23 Oct)
 - [x] Remove repeated startup seeks and guard loop/replay seeks until YouTube acknowledges the new position; Flutter first, then web. Allow only a one-time correction if YouTube ignores the requested start.
 - [x] Add 4 mirrored guard tests plus an actual web-player command regression test; all 77 web tests pass, preview build OK.
-- [ ] Flutter tests and real-phone playback retest: Flutter SDK unavailable here; new signed phone build needed. Browser video advances 0→20s without a 1-second restart, but ignores clip-start commands and app timer remains 0:00 in this environment, so correct-range playback is not verified.
+- [x] Flutter tests pass (24 Oct).
+- [ ] Real-phone playback retest: new signed phone build needed. Browser video advances 0→20s without a 1-second restart, but ignores clip-start commands and app timer remains 0:00 in this environment, so correct-range playback is not verified.
 
 ## Production launch round (22 Oct, goal run)
-- [ ] Play: release AAB (versionCode bump) uploaded to the internal track as a draft via the Play API
-- [ ] Apple: macOS GitHub workflow (Flutter iOS build, distribution cert + App Store profile via API) → first TestFlight build
+- [x] Play: release AAB uploaded to the internal track (now 1.2.0 (109))
+- [x] Apple: macOS GitHub workflow → TestFlight build (now 1.2.0 (109))
 - [x] Store listing text (store/listing.json, within every store limit): App Store name, subtitle, 99-char keywords, promo text, description, categories Education/Reference, age rating, support/privacy/marketing URLs, version 1.0.0 — pushed to App Store Connect
 - [x] Google Play listing saved (contact email pranacodes@gmail.com + /support website, text, icon, feature graphic, 6 screenshots); read back from Play
 - [x] Help & support page in both apps (common questions + message form saved to the backend), Profile → Help & feedback, Settings → Help & support + Restore purchase; final Terms/Privacy (draft banner removed, auto-renew terms, AI tutor + help messages in privacy); Terms/Privacy links on the paywall; website tab icon
@@ -55,7 +82,7 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 - [ ] App Store Connect by hand: App Privacy answers, App Review contact (name/phone/email); Play by hand: App content forms (Data safety, content rating, target audience, ads)
 - [x] Store art: Play icon 512, Play feature graphic 1024×500, 6 captioned screenshots each for iPhone 6.9" (1290×2796, uploaded to App Store Connect) and Play (1080×1920); re-render with scripts/stores/screenshots
 - [ ] Meta max setup: SKAdNetwork IDs, privacy manifest, ATT asked after the app opens (iOS), full app-event set (no double counting with RevenueCat), RevenueCat device IDs after ATT
-- [ ] Founder video: UK/US presenter, better script than Kiku's, clear voice + captions (both clients)
+- [x] Founder video: user's own story, captions, in both clients
 - [ ] Full audit of the Flutter app (crashes, logic, performance, UX) + fixes mirrored on web
 
 ## Phone screenshots round 3 (tour + review card, 22 Oct) — no APK this round
@@ -154,9 +181,9 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 ## Store setup
 - [x] Apple bundle identifier com.kizukijapan.app registered (team key)
 - [x] RevenueCat V2 key saved; Android + iOS public SDK keys fetched and saved
-- [ ] Wire RevenueCat + Meta SDK into Flutter (needs Play/App Store product IDs + prices + entitlement name from user)
-- [ ] Privacy policy: mention Meta + RevenueCat, tracking opt-out
+- [x] Wire RevenueCat + Meta SDK into Flutter
+- [x] Privacy policy: mention Meta + RevenueCat, tracking opt-out
 - [x] App Store + Play subscriptions created (yearly 7-day trial, monthly), prices in all countries; RevenueCat entitlement/offering wired
 - [x] RevenueCat SDK in Flutter: live prices, buy, restore, status sync; iOS project created (com.kizukijapan.app)
-- [ ] iOS build/upload needs a macOS GitHub workflow + Apple signing certificate
+- [x] iOS build/upload via macOS GitHub workflow
 - [ ] E2E: emulator has no store account; build E2E APK with --dart-define=KIZUKI_SIMULATE_PURCHASES=true

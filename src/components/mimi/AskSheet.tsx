@@ -105,7 +105,7 @@ function AskChat({ context, onClose }: { context: AskContext; onClose: () => voi
 
   return (
     <div className="flex min-h-0 flex-1 flex-col">
-      <div className="flex items-center gap-3 px-5 pt-1.5">
+      <div data-tour="askPanel" className="flex items-center gap-3 px-5 pt-1.5">
         <Mascot pose="think" className="h-11 w-11 shrink-0" />
         <div className="min-w-0 flex-1">
           <p className="text-[1.125rem] font-black">Ask Kizuki</p>

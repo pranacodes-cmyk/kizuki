@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:provider/provider.dart';
 
+import '../services/haptics.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import 'tour.dart';
@@ -59,7 +60,10 @@ class MimiTabBar extends StatelessWidget {
                     icon: t.$4,
                     active: t.$2.any(path.startsWith),
                     badge: t.$3 == 'Vocab' ? due : 0,
-                    onTap: () => context.go(t.$1),
+                    onTap: () {
+                      if (!t.$2.any(path.startsWith)) Haptics.select();
+                      context.go(t.$1);
+                    },
                   ),
                 ),
             ]),

@@ -260,6 +260,15 @@ class _WordCardState extends State<WordCard> {
       ]);
 
   Widget _explain(m.WordNote? note, m.LineNote? lineNote) => Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        TourAnchor(id: 'askButton', child: Button3D(
+          key: const ValueKey('ask-open'), variant: BtnVariant.surface, height: 48,
+          onPressed: () { showAskSheet(context, _askContext()); Tour.I.emit(TourEvent.askOpened); },
+          child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+            const Icon(LucideIcons.messageCircleQuestion, size: 18, color: T.primary),
+            const SizedBox(width: 8), Text('Still curious? Ask Kizuki', style: txt(15, w: FontWeight.w800)),
+          ]),
+        )),
+        const SizedBox(height: 14),
         Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
           const Mascot(MascotPose.think, size: 48),
           const SizedBox(width: 12),
@@ -297,18 +306,6 @@ class _WordCardState extends State<WordCard> {
               if (lineNote.tip.isNotEmpty) Padding(padding: const EdgeInsets.only(top: 6), child: Text('💡 ${lineNote.tip}', style: txt(14, w: FontWeight.w400))),
             ]),
           ),
-        const SizedBox(height: 14),
-        Button3D(
-          key: const ValueKey('ask-open'),
-          variant: BtnVariant.surface,
-          height: 48,
-          onPressed: () => showAskSheet(context, _askContext()),
-          child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-            const Icon(LucideIcons.messageCircleQuestion, size: 18, color: T.primary),
-            const SizedBox(width: 8),
-            Text('Still curious? Ask Kizuki', style: txt(15, w: FontWeight.w800)),
-          ]),
-        ),
       ]);
 
   Widget _examples(m.DictEntry? entry) {

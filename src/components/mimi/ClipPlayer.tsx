@@ -4,7 +4,8 @@ import { Loader2, Play, RotateCw } from "lucide-react";
 import type { Clip } from "@/lib/content";
 import { thumbOf } from "@/lib/content";
 import { loadYouTubeApi, playerErrorMessage, YT_STATE, type YTPlayer } from "@/lib/youtube";
-import { PlaybackLoopGuard } from "@/lib/playback-loop";
+import { PlaybackLoopGuard, PlaybackStartGuard } from "@/lib/playback-loop";
+import { clipWindowAvailable } from "@/lib/logic";
 
 export type ClipPlayerHandle = {
   play(): void;
@@ -34,6 +35,7 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
   const host = useRef<HTMLDivElement>(null);
   const player = useRef<YTPlayer | null>(null);
   const loop = useRef(new PlaybackLoopGuard(clip.start));
+  const startup = useRef(new PlaybackStartGuard());
   const [ready, setReady] = useState(false);
   const [state, setState] = useState<number>(YT_STATE.UNSTARTED);
   const [error, setError] = useState<string | null>(null);
@@ -65,12 +67,12 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
   useEffect(() => {
     if (!active || !host.current) return;
     let cancelled = false;
-    let startupCorrectionIssued = false;
     setError(null);
     setReady(false);
     setTapped(false);
     setState(YT_STATE.UNSTARTED);
     loop.current = new PlaybackLoopGuard(clip.start);
+    startup.current = new PlaybackStartGuard();
     const mount = document.createElement("div");
     host.current.appendChild(mount);
     loadYouTubeApi()
@@ -106,14 +108,6 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
               }
               cb.current.onPlayingChange(e.data === YT_STATE.PLAYING);
               const { clip: c, loopRange: lr } = cb.current;
-              // A pre-play seek can be ignored; one playing-state correction is enough.
-              if (e.data === YT_STATE.PLAYING && !startupCorrectionIssued) {
-                startupCorrectionIssued = true;
-                if (e.target.getCurrentTime() < c.start - 1.5) {
-                  loop.current.beginSeek(c.start);
-                  e.target.seekTo(c.start, true);
-                }
-              }
               const start = lr?.start ?? c.start;
               const end = lr?.end ?? c.end;
               if (e.data === YT_STATE.ENDED && loop.current.shouldLoop(e.target.getCurrentTime(), start, end, false, true)) {
@@ -122,7 +116,12 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
                 if (!lr) cb.current.onLoop();
               }
             },
-            onError: (e) => setError(playerErrorMessage(e.data)),
+            onError: (e) => {
+              if (cancelled) return;
+              cb.current.onPlayingChange(false);
+              setState(YT_STATE.PAUSED);
+              setError(playerErrorMessage(e.data));
+            },
           },
         });
       })
@@ -145,14 +144,27 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
 
   // Time polling + clip / line looping.
   useEffect(() => {
-    if (!ready) return;
+    if (!ready || error) return;
     const id = setInterval(() => {
       const p = player.current;
       if (!p) return;
       const t = p.getCurrentTime();
       const { clip: c, loopRange: lr } = cb.current;
+      if (!clipWindowAvailable(c.start, c.end, p.getDuration?.() ?? 0)) {
+        p.pauseVideo();
+        cb.current.onPlayingChange(false);
+        setState(YT_STATE.PAUSED);
+        setError("This clip is no longer available. Choose another clip.");
+        return;
+      }
       const end = lr ? lr.end : c.end;
       const start = lr ? lr.start : c.start;
+      if (startup.current.shouldCorrect(t, c.start, p.getPlayerState() === YT_STATE.PLAYING)) {
+        loop.current.beginSeek(c.start);
+        p.seekTo(c.start, true);
+        cb.current.onTime(c.start);
+        return;
+      }
       if (loop.current.shouldLoop(t, start, end, p.getPlayerState() === YT_STATE.PLAYING)) {
         p.seekTo(start, true);
         if (!lr) cb.current.onLoop();
@@ -163,7 +175,7 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
       cb.current.onTime(Math.max(c.start, Math.min(c.end, t)));
     }, 100);
     return () => clearInterval(id);
-  }, [ready]);
+  }, [ready, error]);
 
   // Thumbnail until playback starts; after one tap it steps aside so YouTube's own play button is reachable.
   const showThumb = !active || (!tapped && (!ready || state === YT_STATE.UNSTARTED || state === YT_STATE.CUED));

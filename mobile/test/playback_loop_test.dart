@@ -2,6 +2,17 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mimi/widgets/playback_loop.dart';
 
 void main() {
+  test('ignored start corrects once after real early playback, not stale zero events', () {
+    final guard = PlaybackStartGuard();
+    for (final t in [0.0, 0.0, 0.0, 0.1]) {
+      expect(guard.shouldCorrect(t, 303.1, playing: true), false);
+    }
+    expect(guard.shouldCorrect(0.4, 303.1, playing: false), false);
+    expect(guard.shouldCorrect(0.4, 303.1, playing: true), true);
+    for (final t in [0.0, 1.0, 2.0, 303.1]) {
+      expect(guard.shouldCorrect(t, 303.1, playing: true), false);
+    }
+  });
   test('startup zero/early keyframes never trigger a seek for either affected clip', () {
     for (final start in [142.6, 12.4]) {
       final guard = PlaybackLoopGuard(start);
