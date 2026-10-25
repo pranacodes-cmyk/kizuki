@@ -77,10 +77,20 @@ class _FounderScreenState extends State<FounderScreen> with TickerProviderStateM
         return;
       }
       c.addListener(_onVideo);
+      await c.play();
+      // Swap the poster for the player only once real frames are flowing; otherwise the
+      // empty texture flashes black between the poster and the first decoded frame.
+      final wait = Stopwatch()..start();
+      while (c.value.position <= Duration.zero && wait.elapsed < const Duration(milliseconds: 900)) {
+        await Future<void>.delayed(const Duration(milliseconds: 40));
+      }
+      if (!mounted || _leaving) {
+        await c.dispose();
+        return;
+      }
       _wave.stop();
       _float.stop();
       setState(() => _video = c);
-      await c.play();
     } catch (_) {
       _starting = null;
       await c.dispose().catchError((_) {});

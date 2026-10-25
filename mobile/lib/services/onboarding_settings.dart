@@ -5,12 +5,18 @@ import '../logic/logic.dart';
 import 'config.dart';
 
 /// Public presentation switches (founder screen, its optional server-sent video, native
-/// sign-in); no user data or client write permission. Each value keeps its last valid copy
-/// offline.
+/// sign-in, trial experiment); no user data or client write permission. Each value keeps
+/// its last valid copy offline.
 class OnboardingSettings {
   static bool enabled = true;
   static bool nativeGoogle = false;
   static bool nativeApple = false;
+
+  /// Server trial experiment, last valid value: 0 = direct paywall without trial wording.
+  static int trialDayCount = defaultTrialDays;
+
+  /// Optional server-picked store product for the yearly plan (experiments without a build).
+  static String? yearlyProduct;
 
   /// Server-sent founder video override (null = play the bundled clip).
   static String? videoUrl;
@@ -23,8 +29,11 @@ class OnboardingSettings {
       nativeGoogle = prefs.getBool('native-google-sign-in') ?? nativeGoogle;
       nativeApple = prefs.getBool('native-apple-sign-in') ?? nativeApple;
       videoUrl = founderVideoUrl(prefs.getString('founder-video-url'));
+      final cachedDays = prefs.getInt('trial-days');
+      if (cachedDays != null && cachedDays >= 0 && cachedDays <= 14) trialDayCount = cachedDays;
+      yearlyProduct = _productId(prefs.getString('trial-yearly-product'));
       final response = await http.get(
-        Uri.parse('${AppConfig.supabaseUrl}/rest/v1/onboarding_settings?id=eq.1&select=founder_video_enabled,founder_video_url,native_google_sign_in,native_apple_sign_in'),
+        Uri.parse('${AppConfig.supabaseUrl}/rest/v1/onboarding_settings?id=eq.1&select=founder_video_enabled,founder_video_url,native_google_sign_in,native_apple_sign_in,trial_enabled,trial_days,yearly_product'),
         headers: {'apikey': AppConfig.supabasePublishableKey},
       ).timeout(const Duration(seconds: 2));
       if (response.statusCode != 200) return;
@@ -36,14 +45,29 @@ class OnboardingSettings {
       nativeApple = nativeSignInEnabled(row['native_apple_sign_in'], nativeApple);
       // The server's value wins, including a cleared one (back to the bundled clip).
       videoUrl = founderVideoUrl(row['founder_video_url']);
+      trialDayCount = trialDays(row['trial_enabled'], row['trial_days'], trialDayCount);
+      yearlyProduct = _productId(row['yearly_product']);
       await prefs.setBool('founder-video-enabled', enabled);
       await prefs.setBool('native-google-sign-in', nativeGoogle);
       await prefs.setBool('native-apple-sign-in', nativeApple);
+      await prefs.setInt('trial-days', trialDayCount);
+      if (yearlyProduct == null) {
+        await prefs.remove('trial-yearly-product');
+      } else {
+        await prefs.setString('trial-yearly-product', yearlyProduct!);
+      }
       if (videoUrl == null) {
         await prefs.remove('founder-video-url');
       } else {
         await prefs.setString('founder-video-url', videoUrl!);
       }
     } catch (_) { /* Offline: retain the last valid setting. */ }
+  }
+
+  /// Only a plain store product identifier counts; anything else keeps the default package.
+  static String? _productId(Object? remote) {
+    if (remote is! String) return null;
+    final v = remote.trim();
+    return RegExp(r'^[A-Za-z0-9_.\-]{3,64}$').hasMatch(v) ? v : null;
   }
 }

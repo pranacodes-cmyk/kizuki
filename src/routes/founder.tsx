@@ -35,6 +35,9 @@ function Founder() {
   const [playing, setPlaying] = useState(true);
   const [muted, setMuted] = useState(false);
   const [failed, setFailed] = useState(false);
+  /** True once the video reports real playback; until then the poster stays on top so the
+   * swap from poster to decoded frames never shows a black flash. */
+  const [started, setStarted] = useState(false);
 
   // Start with sound; if the browser blocks that, start muted and offer the sound button.
   useEffect(() => {
@@ -107,6 +110,7 @@ function Founder() {
               onTimeUpdate={(e) => setT(e.currentTarget.currentTime)}
               onLoadedMetadata={(e) => { if (Number.isFinite(e.currentTarget.duration)) setTotal(e.currentTarget.duration); }}
               onPlay={() => setPlaying(true)}
+              onPlaying={() => setStarted(true)}
               onPause={() => setPlaying(false)}
               onEnded={() => setPlaying(false)}
               onError={(e) => {
@@ -144,6 +148,9 @@ function Founder() {
             </span>
           )}
         </button>
+        {!started && !failed && (
+          <img src={FOUNDER_POSTER_URL} alt="" aria-hidden className="pointer-events-none absolute inset-0 h-full w-full bg-stage object-contain" />
+        )}
         {!failed && (
           <button onClick={toggleMute} aria-label={muted ? "Turn sound on" : "Mute"} className="absolute left-4 top-4 flex h-10 items-center justify-center gap-1.5 rounded-full bg-stage/50 px-2.5">
             {muted ? <VolumeX className="h-5 w-5" /> : <Volume2 className="h-5 w-5" />}

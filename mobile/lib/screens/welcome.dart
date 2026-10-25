@@ -12,8 +12,14 @@ class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: SafeArea(
+    // Root screen: a stray back press must not close the app.
+    return PopScope(
+      canPop: false,
+      onPopInvokedWithResult: (didPop, _) {
+        if (!didPop) confirmAppExit(context);
+      },
+      child: Scaffold(
+        body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 24),
           child: Column(children: [
@@ -63,6 +69,7 @@ class WelcomeScreen extends StatelessWidget {
             const SizedBox(height: 8),
           ]),
         ),
+      ),
       ),
     );
   }

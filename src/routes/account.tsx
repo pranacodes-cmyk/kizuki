@@ -9,6 +9,7 @@ import { Button, Screen, TopBar } from "@/components/mimi/ui";
 import { supabase } from "@/lib/backend";
 import { syncNow } from "@/lib/sync";
 import { track } from '@/lib/analytics';
+import { toast } from "@/lib/ui-store";
 import { useApp } from "@/lib/store";
 import { signInProviders } from '@/lib/logic';
 import { ProviderIcon } from '@/components/mimi/ProviderIcon';
@@ -97,6 +98,14 @@ function Account() {
     if (isBridge) { await handoff(); return; }
     await syncNow();
     const s = useApp.getState();
+    // Confirm out loud: silent redirects left users unsure the sign-in worked.
+    if (requiredAccount) {
+      toast({ icon: "🎉", title: "You're all set", description: "Your progress is now saved to your account." });
+    } else {
+      const created = Date.parse(data.user.created_at);
+      const isNew = Number.isFinite(created) && Date.now() - created < 2 * 60 * 1000;
+      toast({ icon: isNew ? "🎉" : "👋", title: isNew ? "Account created" : "Welcome back", description: isNew ? "Let's set up your learning plan." : "Your progress is synced on this device." });
+    }
     if (fromWelcome && !s.onboarded) {
       // Signed in on a fresh device without cloud progress → still needs a plan.
       void navigate({ to: "/onboarding", replace: true });

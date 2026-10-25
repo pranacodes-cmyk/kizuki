@@ -73,8 +73,12 @@ def asc_token():
 
 def asc(method, path, body=None, ok=(200, 201, 204), params=None):
     url = path if path.startswith("http") else ASC + path
-    r = requests.request(method, url, json=body, params=params, timeout=300,
-                         headers={"Authorization": f"Bearer {asc_token()}", "Content-Type": "application/json"})
+    for attempt in range(4):  # Apple's API returns sporadic 5xx; retry with backoff
+        r = requests.request(method, url, json=body, params=params, timeout=300,
+                             headers={"Authorization": f"Bearer {asc_token()}", "Content-Type": "application/json"})
+        if r.status_code < 500:
+            break
+        time.sleep(2 * (attempt + 1))
     if r.status_code not in ok:
         raise RuntimeError(f"ASC {method} {path} -> {r.status_code}: {r.text[:2000]}")
     return r.json() if r.content else None

@@ -10,6 +10,16 @@ void main() {
     expect(onboardingAfterPlan(founderVideoEnabled(false)), '/trial');
     expect(onboardingAfterPlan(founderVideoEnabled(true)), '/founder');
   });
+
+  test('trial experiment: off or 0 days means a direct paywall, invalid keeps the default', () {
+    expect(trialDays(null, null), 7);
+    expect(trialDays(true, 7), 7);
+    expect(trialDays(true, 3), 3);
+    expect(trialDays(false, 7), 0);
+    expect(trialDays(true, 0), 0);
+    expect(trialDays(true, 99), 7);
+    expect(trialDays(true, null, 3), 3);
+  });
   test('missing remote setting keeps last valid choice, default on', () {
     expect(founderVideoEnabled(null), true);
     expect(founderVideoEnabled(null, false), false);

@@ -10,6 +10,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../data/paywall.dart';
 import 'analytics.dart';
+import 'onboarding_settings.dart';
 import '../state/app_state.dart' show Premium;
 
 /// Outcome of a store action, so the paywall never shows the wrong message.
@@ -193,7 +194,20 @@ class Billing {
   /// Swaps the fallback prices for the store's local prices (currency + format per country).
   static Future<void> loadPlans() async {
     final cur = (await Purchases.getOfferings()).current;
-    final y = cur?.annual, m = cur?.monthly;
+    var y = cur?.annual;
+    final m = cur?.monthly;
+    // Server experiment: present a specific store product as the yearly plan (e.g. a 3-day
+    // trial or no-trial variant) without an app build; unknown ids keep the default package.
+    final want = OnboardingSettings.yearlyProduct;
+    if (want != null && cur != null) {
+      for (final p in cur.availablePackages) {
+        // Package ids (yearly_3d / yearly_nt) are shared by Play and App Store; store ids differ.
+        if (p.identifier == want || p.storeProduct.identifier == want) {
+          y = p;
+          break;
+        }
+      }
+    }
     if (y != null) _packages['yearly'] = y;
     if (m != null) _packages['monthly'] = m;
     final next = Map<String, Plan>.of(plans);

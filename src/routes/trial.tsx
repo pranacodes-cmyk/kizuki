@@ -8,11 +8,11 @@ import { LivelyMascot } from "@/components/mimi/Mascot";
 import { Button, ProgressHeader, Screen } from "@/components/mimi/ui";
 import { track } from '@/lib/analytics';
 import { haptic } from "@/lib/haptics";
-import { PLANS, priceLine, trialTimeline } from "@/lib/paywall";
+import { PLANS, priceLine, purchaseToast, trialBadge, trialCta, trialTimeline } from "@/lib/paywall";
 import { useApp } from "@/lib/store";
 import { toast } from "@/lib/ui-store";
 import { cn } from "@/lib/utils";
-import { cachedFounderEnabled } from '@/lib/onboarding-settings';
+import { cachedFounderEnabled, cachedTrialDays, refreshOnboardingSettings } from '@/lib/onboarding-settings';
 
 export const Route = createFileRoute("/trial")({
   head: () => ({
@@ -28,17 +28,18 @@ export const Route = createFileRoute("/trial")({
   component: Trial,
 });
 
-/** The web prototype has no store account, so it is always eligible for the free week. The
- * Android/iPhone app reads eligibility from the store and drops trial promises when false. */
-const TRIAL_ELIGIBLE = true;
-
+/** The web prototype has no store account, so store eligibility never limits the trial here;
+ * the server trial experiment (cached trial days, 0 = direct paywall) still applies. The
+ * Android/iPhone app also reads eligibility from the store and drops trial promises when false. */
 function Trial() {
   const navigate = useNavigate();
   const startTrial = useApp((s) => s.startTrial);
   const [step, setStep] = useState(() => useApp.getState().onboarded ? 2 : 0);
   const [plan, setPlan] = useState<"yearly" | "monthly">("yearly");
   const [busy, setBusy] = useState(false);
-  const trial = TRIAL_ELIGIBLE;
+  const [days, setDays] = useState(cachedTrialDays);
+  useEffect(() => { void refreshOnboardingSettings().then(() => setDays(cachedTrialDays())); }, []);
+  const trial = days > 0;
 
   useEffect(() => track('paywall_viewed'), []);
   useEffect(() => track('paywall_step_viewed', { step_index: step }), [step]);
@@ -52,7 +53,7 @@ function Trial() {
     useApp.getState().requirePurchaseAccount();
     setBusy(false);
     haptic("celebrate");
-    toast({ icon: "🎉", title: "Your free week has started", description: "Everything in Kizuki is unlocked." });
+    toast({ icon: "🎉", title: purchaseToast(days), description: "Everything in Kizuki is unlocked." });
     void navigate({ to: "/account", search: { mode: "signin" }, replace: true });
   };
   const skip = () => {
@@ -73,9 +74,9 @@ function Trial() {
     <Screen scroll={false}>
       <ProgressHeader progress={(9 + step) / 12} onBack={back} />
       <div key={step} className="flex min-h-0 flex-1 flex-col">
-        {step === 0 && <StepTry trial={trial} onNext={() => setStep(trial ? 1 : 2)} />}
-        {step === 1 && <StepRemind onNext={() => setStep(2)} />}
-        {step === 2 && <StepPlans plan={plan} setPlan={(p) => { setPlan(p); track('plan_selected', { plan: p }); }} busy={busy} trialEligible={trial} onStart={start} onSkip={skip} />}
+        {step === 0 && <StepTry days={days} onNext={() => setStep(trial ? 1 : 2)} />}
+        {step === 1 && <StepRemind days={days} onNext={() => setStep(2)} />}
+        {step === 2 && <StepPlans plan={plan} setPlan={(p) => { setPlan(p); track('plan_selected', { plan: p }); }} busy={busy} trialDays={days} onStart={start} onSkip={skip} />}
       </div>
     </Screen>
   );
@@ -92,14 +93,15 @@ function Pinned({ children, footer }: { children: ReactNode; footer: ReactNode }
   );
 }
 
-function StepTry({ trial, onNext }: { trial: boolean; onNext: () => void }) {
+function StepTry({ days, onNext }: { days: number; onNext: () => void }) {
   const onboarded = useApp((s) => s.onboarded);
+  const trial = days > 0;
   return (
     <div className="flex flex-1 flex-col px-6">
       <h1 className="pt-4 text-center text-[1.625rem] font-black leading-tight">
         {trial ? (
           <>
-            Try Kizuki <span className="text-primary">free</span> for 7 days
+            Try Kizuki <span className="text-primary">free</span> for {days} days
           </>
         ) : (
           <>
@@ -118,14 +120,14 @@ function StepTry({ trial, onNext }: { trial: boolean; onNext: () => void }) {
           <Check className="h-5 w-5 text-success" strokeWidth={3} /> {trial ? "No payment due now" : "Cancel anytime"}
         </p>
         <Button onClick={onNext}>{trial ? "Try for $0.00" : "See plans"}</Button>
-        <p className="text-center text-[0.8125rem] text-muted-foreground">{priceLine(PLANS.yearly, trial)}</p>
+        <p className="text-center text-[0.8125rem] text-muted-foreground">{priceLine(PLANS.yearly, days)}</p>
       </div>
     </div>
   );
 }
 
-function StepRemind({ onNext }: { onNext: () => void }) {
-  const items = trialTimeline();
+function StepRemind({ days, onNext }: { days: number; onNext: () => void }) {
+  const items = trialTimeline(days);
   const icons = [Lock, Bell, Crown];
   return (
     <Pinned
@@ -182,30 +184,30 @@ function StepPlans({
   plan,
   setPlan,
   busy,
-  trialEligible,
+  trialDays,
   onStart,
   onSkip,
 }: {
   plan: "yearly" | "monthly";
   setPlan: (p: "yearly" | "monthly") => void;
   busy: boolean;
-  trialEligible: boolean;
+  trialDays: number;
   onStart: () => void;
   onSkip: () => void;
 }) {
-  const trial = plan === "yearly" && trialEligible;
+  const days = plan === "yearly" ? trialDays : 0;
   return (
     <Pinned
       footer={
         <>
           <p className="flex items-center justify-center gap-2 text-[0.875rem] font-extrabold">
-            <Check className="h-4 w-4 text-success" strokeWidth={3} /> {trial ? "7 days free · Cancel anytime" : "No commitment · Cancel anytime"}
+            <Check className="h-4 w-4 text-success" strokeWidth={3} /> {trialBadge(days)}
           </p>
           <Button onClick={onStart} disabled={busy}>
-            {busy ? "Starting…" : trial ? "Start my free week" : "Start learning today"}
+            {busy ? "Starting…" : trialCta(days)}
           </Button>
           <p className="text-center text-[0.75rem] text-faint">
-            {priceLine(PLANS[plan], trialEligible)}. Renews automatically, cancel anytime in your store settings.
+            {priceLine(PLANS[plan], days)}. Renews automatically, cancel anytime in your store settings.
           </p>
           <div className="flex flex-wrap justify-center gap-x-6">
             <button

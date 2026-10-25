@@ -3,7 +3,7 @@ import { describe, expect, it } from "vitest";
 
 import {
   signInProviders, nativeSignInEnabled, signInMethod, localStateFor,
-  founderVideoEnabled, founderVideoUrl, onboardingAfterPlan,
+  founderVideoEnabled, founderVideoUrl, onboardingAfterPlan, trialDays,
   subscriptionAccess, learningPath, purchaseNeedsAccount, ReviewSession, SUPPORT_TOPICS, supportMessageError, answerCard, bestStreak, clipScore, currentStreak, dayKey, dayMs, fnv1a, formatInterval, formatWhen, goalDateLabel,
   heatLevel, heatmapWeeks, kanaDeck, levelToJlpt, mergeActivity, mergeByUpdatedAt, minuteMs, minutesLeft, newCard,
   newlyUnlocked, nextIntervalLabel, normalizeQuery, planItems, rankFeed, recommendedMinutes, toKatakana, wordStatus, wordsPerMonth,
@@ -18,6 +18,16 @@ const NOW = 1_800_000_000_000;
 it('remote off skips founder; on restores it', () => {
   expect(onboardingAfterPlan(founderVideoEnabled(false))).toBe('/trial');
   expect(onboardingAfterPlan(founderVideoEnabled(true))).toBe('/founder');
+});
+
+it('trial experiment: off or 0 days means a direct paywall, invalid keeps the default', () => {
+  expect(trialDays(null, null)).toBe(7);
+  expect(trialDays(true, 7)).toBe(7);
+  expect(trialDays(true, 3)).toBe(3);
+  expect(trialDays(false, 7)).toBe(0);
+  expect(trialDays(true, 0)).toBe(0);
+  expect(trialDays(true, 99)).toBe(7);
+  expect(trialDays(true, null, 3)).toBe(3);
 });
 it('missing remote setting keeps last valid choice, default on', () => {
   expect(founderVideoEnabled(null)).toBe(true);

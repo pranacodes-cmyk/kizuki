@@ -14,6 +14,7 @@ import '../services/analytics.dart';
 import '../services/sync_service.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
+import '../widgets/toast.dart';
 import '../widgets/ui.dart';
 
 /// Save progress / sign in — mirrors src/routes/account.tsx. Sign-in is social only:
@@ -80,10 +81,20 @@ class _AccountScreenState extends State<AccountScreen> {
     try {
       final app = context.read<AppState>();
       final welcome = fromWelcome;
+      final requiredNow = requiredAccount;
       final user = (await Supabase.instance.client.auth.getUser()).user;
       if (user == null || !mounted) return;
       await SyncService.I.syncNow();
       if (!mounted) return;
+      // Confirm out loud: silent redirects left users unsure the sign-in worked.
+      if (requiredNow) {
+        toast("You're all set", description: 'Your progress is now saved to your account.', icon: '🎉');
+      } else {
+        final created = DateTime.tryParse(user.createdAt);
+        final isNew = created != null && DateTime.now().toUtc().difference(created.toUtc()).inMinutes < 2;
+        toast(isNew ? 'Account created' : 'Welcome back',
+            description: isNew ? "Let's set up your learning plan." : 'Your progress is synced on this device.', icon: isNew ? '🎉' : '👋');
+      }
       if (welcome && !app.onboarded) {
         // Signed in on a fresh device without cloud progress → still needs a plan.
         context.go('/onboarding');

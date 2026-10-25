@@ -13,6 +13,7 @@ import '../services/analytics.dart';
 import '../services/billing.dart';
 import '../services/haptics.dart';
 import '../services/notification_service.dart';
+import '../services/onboarding_settings.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import '../widgets/feed_preview.dart';
@@ -38,6 +39,10 @@ class _TrialScreenState extends State<TrialScreen> {
     super.initState();
     if (context.read<AppState>().onboarded) step = 2;
     Analytics.track('paywall_viewed', {'step_index': step});
+    // Pick up a server trial experiment that changed since startup.
+    unawaited(OnboardingSettings.refresh().then((_) {
+      if (mounted) setState(() {});
+    }));
   }
 
   /// Store-verified purchase: the account step is required even if this screen was
@@ -80,7 +85,7 @@ class _TrialScreenState extends State<TrialScreen> {
     setState(() => busy = false);
     Haptics.celebrate();
     final trial = app.premium.trialEndsAt != null;
-    toast(trial ? 'Your free week has started' : 'Welcome to Premium', description: 'Everything in Kizuki is unlocked.', icon: '🎉');
+    toast(purchaseToast(trial ? OnboardingSettings.trialDayCount : 0), description: 'Everything in Kizuki is unlocked.', icon: '🎉');
     if (trial) unawaited(NotificationService.requestPermission());
     context.go('/account?mode=signin');
   }
@@ -112,9 +117,12 @@ class _TrialScreenState extends State<TrialScreen> {
     }
   }
 
+  /// Trial days after the store's eligibility and the server experiment: 0 = direct paywall.
+  static int get _days => Billing.trialEligible ? OnboardingSettings.trialDayCount : 0;
+
   void _back() {
     if (busy) return; // the store sheet is open; leaving now would lose its result
-    if (step == 2 && !Billing.trialEligible) {
+    if (step == 2 && _days == 0) {
       setState(() => step = 0);
     } else if (step > 0) {
       setState(() => step--);
@@ -128,16 +136,17 @@ class _TrialScreenState extends State<TrialScreen> {
         // Live store prices / trial eligibility can arrive while this screen is open.
         valueListenable: Billing.revision,
         builder: (context, _, _) {
-          final trial = Billing.trialEligible;
+          final days = _days;
+          final trial = days > 0;
           final Widget body = switch (step) {
             0 => _StepTry(
-                trial: trial,
+                days: days,
                 onNext: () {
                   if (!trial) Attribution.paywallViewed();
                   setState(() => step = trial ? 1 : 2);
                   Analytics.track('paywall_step_viewed', {'step_index': step});
                 }),
-            1 => _StepRemind(onNext: () {
+            1 => _StepRemind(days: days, onNext: () {
                 Attribution.paywallViewed();
                 setState(() => step = 2);
                 Analytics.track('paywall_step_viewed', {'step_index': step});
@@ -185,18 +194,19 @@ Widget _noPayment([String text = 'No payment due now']) => Row(mainAxisAlignment
     ]);
 
 class _StepTry extends StatelessWidget {
-  /// False for store accounts that already used the free week: no free-trial promises.
-  final bool trial;
+  /// 0 for store accounts that already used the free week or a server direct-paywall
+  /// experiment: no free-trial promises.
+  final int days;
   final VoidCallback onNext;
-  const _StepTry({required this.trial, required this.onNext});
+  const _StepTry({required this.days, required this.onNext});
   @override
   Widget build(BuildContext context) => Padding(
         padding: const EdgeInsets.symmetric(horizontal: 24),
         child: Column(children: [
           const SizedBox(height: 16),
           Text.rich(
-            trial
-                ? TextSpan(children: [const TextSpan(text: 'Try Kizuki '), TextSpan(text: 'free', style: txt(26, w: FontWeight.w900, c: T.primary)), const TextSpan(text: ' for 7 days')])
+            days > 0
+                ? TextSpan(children: [const TextSpan(text: 'Try Kizuki '), TextSpan(text: 'free', style: txt(26, w: FontWeight.w900, c: T.primary)), TextSpan(text: ' for $days days')])
                 : TextSpan(children: [const TextSpan(text: 'Learn with Kizuki '), TextSpan(text: 'Premium', style: txt(26, w: FontWeight.w900, c: T.primary))]),
             textAlign: TextAlign.center,
             style: txt(26, w: FontWeight.w900, h: 1.2),
@@ -222,19 +232,20 @@ class _StepTry extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 24),
-          _noPayment(trial ? 'No payment due now' : 'Cancel anytime'),
+          _noPayment(days > 0 ? 'No payment due now' : 'Cancel anytime'),
           const SizedBox(height: 12),
-          Button3D(label: trial ? r'Try for $0.00' : 'See plans', onPressed: onNext),
+          Button3D(label: days > 0 ? r'Try for $0.00' : 'See plans', onPressed: onNext),
           const SizedBox(height: 12),
-          Text(priceLine(plans['yearly']!, trial: trial), textAlign: TextAlign.center, style: txt(13, w: FontWeight.w400, c: T.muted)),
+          Text(priceLine(plans['yearly']!, days: days), textAlign: TextAlign.center, style: txt(13, w: FontWeight.w400, c: T.muted)),
           const SizedBox(height: 8),
         ]),
       );
 }
 
 class _StepRemind extends StatefulWidget {
+  final int days;
   final VoidCallback onNext;
-  const _StepRemind({required this.onNext});
+  const _StepRemind({required this.days, required this.onNext});
   @override
   State<_StepRemind> createState() => _StepRemindState();
 }
@@ -260,6 +271,7 @@ class _StepRemindState extends State<_StepRemind> with SingleTickerProviderState
   @override
   Widget build(BuildContext context) {
     const icons = [LucideIcons.lock, LucideIcons.bell, LucideIcons.crown];
+    final items = trialTimeline(widget.days);
     return _pinned(
       body: [
         const SizedBox(height: 16),
@@ -282,7 +294,7 @@ class _StepRemindState extends State<_StepRemind> with SingleTickerProviderState
           ]),
         ),
         const SizedBox(height: 32),
-        for (var i = 0; i < trialTimeline.length; i++)
+        for (var i = 0; i < items.length; i++)
           IntrinsicHeight(
             child: Row(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
               Column(children: [
@@ -292,15 +304,15 @@ class _StepRemindState extends State<_StepRemind> with SingleTickerProviderState
                   decoration: BoxDecoration(color: i == 0 ? T.primary : T.surface2, shape: BoxShape.circle),
                   child: Icon(icons[i], size: 20, color: i == 0 ? T.primaryFg : T.foreground),
                 ),
-                if (i < trialTimeline.length - 1) Expanded(child: Container(margin: const EdgeInsets.symmetric(vertical: 4), width: 4, decoration: BoxDecoration(color: T.surface2, borderRadius: BorderRadius.circular(99)))),
+                if (i < items.length - 1) Expanded(child: Container(margin: const EdgeInsets.symmetric(vertical: 4), width: 4, decoration: BoxDecoration(color: T.surface2, borderRadius: BorderRadius.circular(99)))),
               ]),
               const SizedBox(width: 16),
               Expanded(
                 child: Padding(
-                  padding: EdgeInsets.only(bottom: i < trialTimeline.length - 1 ? 24 : 0),
+                  padding: EdgeInsets.only(bottom: i < items.length - 1 ? 24 : 0),
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    Text(trialTimeline[i].$1, style: txt(16, w: FontWeight.w800)),
-                    Text(trialTimeline[i].$2, style: txt(14, w: FontWeight.w400, c: T.muted)),
+                    Text(items[i].$1, style: txt(16, w: FontWeight.w800)),
+                    Text(items[i].$2, style: txt(14, w: FontWeight.w400, c: T.muted)),
                   ]),
                 ),
               ),
@@ -325,7 +337,8 @@ class _StepPlans extends StatelessWidget {
   static const perks = ['Unlimited clips, every level', 'Tap any word for an explanation in context', 'Unlimited questions to Kizuki, your AI tutor', 'Smart reviews with the original audio', 'Hiragana & katakana trainer', 'Streaks, goals and progress stats'];
   @override
   Widget build(BuildContext context) {
-    final trial = plan == 'yearly' && Billing.trialEligible;
+    final days = plan == 'yearly' && Billing.trialEligible ? OnboardingSettings.trialDayCount : 0;
+    final trial = days > 0;
     final link = txt(12, w: FontWeight.w400, c: T.faint).copyWith(decoration: TextDecoration.underline, decorationColor: T.faint);
     final small = TextButton.styleFrom(minimumSize: const Size(44, 40), padding: const EdgeInsets.symmetric(horizontal: 10), tapTargetSize: MaterialTapTargetSize.shrinkWrap);
     return _pinned(
@@ -359,11 +372,11 @@ class _StepPlans extends StatelessWidget {
           ),
       ],
       footer: [
-        _noPayment(trial ? '7 days free · Cancel anytime' : 'No commitment · Cancel anytime'),
+        _noPayment(trialBadge(days)),
         const SizedBox(height: 8),
-        Button3D(label: busy ? 'Starting…' : (trial ? 'Start my free week' : 'Start learning today'), onPressed: busy ? null : onStart),
+        Button3D(label: busy ? 'Starting…' : trialCta(days), onPressed: busy ? null : onStart),
         const SizedBox(height: 8),
-        Text('${priceLine(plans[plan]!, trial: Billing.trialEligible)}. Renews automatically, cancel anytime in your store settings.', textAlign: TextAlign.center, style: txt(12, w: FontWeight.w400, c: T.faint)),
+        Text('${priceLine(plans[plan]!, days: days)}. Renews automatically, cancel anytime in your store settings.', textAlign: TextAlign.center, style: txt(12, w: FontWeight.w400, c: T.faint)),
         // Wrap, not Row: with large system text sizes these lines must flow, never overflow.
         SizedBox(
           width: double.infinity,

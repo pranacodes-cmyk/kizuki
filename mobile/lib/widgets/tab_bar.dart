@@ -15,12 +15,19 @@ class TabShell extends StatelessWidget {
   const TabShell({super.key, required this.child});
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: T.background,
-      body: Stack(children: [
-        Positioned.fill(child: child),
-        const Positioned(left: 0, right: 0, bottom: 0, child: MimiTabBar()),
-      ]),
+    // Every main tab is an app root: a stray back press must not close the app.
+    return PopScope(
+      canPop: false,
+      onPopInvokedWithResult: (didPop, _) {
+        if (!didPop) confirmAppExit(context);
+      },
+      child: Scaffold(
+        backgroundColor: T.background,
+        body: Stack(children: [
+          Positioned.fill(child: child),
+          const Positioned(left: 0, right: 0, bottom: 0, child: MimiTabBar()),
+        ]),
+      ),
     );
   }
 }

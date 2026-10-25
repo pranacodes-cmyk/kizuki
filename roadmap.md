@@ -1,5 +1,11 @@
 # Migration: Lovable Cloud → External Supabase (gcoboyhfhadivheoilxp)
 
+## Requested store release — 2026-10-25
+- [ ] Run current web tests and inspect release preflight.
+- [ ] Sync latest phone changes to GitHub and dispatch Android + iOS release.
+- [ ] Verify Flutter checks and Android emulator E2E.
+- [ ] Confirm Google Play internal and App Store Connect/TestFlight uploads; distinguish upload from public approval.
+
 - [x] Verify external project access via Management API (token EXT_SB_ACCESS_TOKEN)
 - [x] Dump current schema: tables, RLS policies, triggers, functions
 - [x] Recreate schema + RLS + triggers on external project (REST live-test 200)

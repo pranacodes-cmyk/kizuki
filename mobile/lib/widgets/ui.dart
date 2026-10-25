@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 
 import '../services/haptics.dart';
@@ -342,6 +343,27 @@ Future<R?> showMimiModal<R>(BuildContext context, WidgetBuilder builder, {bool d
       child: ScaleTransition(scale: Tween(begin: 0.92, end: 1.0).animate(CurvedAnimation(parent: a, curve: Curves.easeOutBack)), child: child),
     ),
   );
+}
+
+/// Android back on a root screen would otherwise close the app by accident: ask first.
+/// Touches nothing but the window itself — progress, session and subscription stay put.
+Future<void> confirmAppExit(BuildContext context) async {
+  Haptics.light();
+  final leave = await showMimiModal<bool>(
+    context,
+    (ctx) => Column(mainAxisSize: MainAxisSize.min, children: [
+      const Mascot(MascotPose.wave, size: 88),
+      const SizedBox(height: 12),
+      Text('Leaving already?', textAlign: TextAlign.center, style: txt(20, w: FontWeight.w900)),
+      const SizedBox(height: 6),
+      Text('Your words and streak are saved. Kizuki will be right here when you come back.', textAlign: TextAlign.center, style: txt(14, c: T.muted)),
+      const SizedBox(height: 22),
+      Button3D(label: 'Stay', onPressed: () => Navigator.of(ctx).pop(false)),
+      const SizedBox(height: 8),
+      Button3D(label: 'Exit app', variant: BtnVariant.ghost, height: 48, onPressed: () => Navigator.of(ctx).pop(true)),
+    ]),
+  );
+  if (leave == true) await SystemNavigator.pop();
 }
 
 /// Bouncing mascot loader.

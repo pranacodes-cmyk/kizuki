@@ -27,6 +27,16 @@ export const onboardingAfterPlan = (enabled: boolean): '/founder' | '/trial' => 
  * tokens; a missing/invalid value keeps the last valid one. */
 export const nativeSignInEnabled = (remote: unknown, cached = false): boolean => typeof remote === 'boolean' ? remote : cached;
 
+/** Server-sent trial experiment: `false` (or 0 days) = direct paywall with no trial wording;
+ * a plausible day count (1–14) replaces the shipped default; anything missing/invalid keeps
+ * the last valid value. */
+export const DEFAULT_TRIAL_DAYS = 7;
+export const trialDays = (remoteEnabled: unknown, remoteDays: unknown, cached = DEFAULT_TRIAL_DAYS): number => {
+  const days = typeof remoteDays === 'number' && Number.isInteger(remoteDays) ? remoteDays : cached;
+  if (remoteEnabled === false || days <= 0) return 0;
+  return days <= 14 ? days : cached;
+};
+
 /** Phone sign-in never substitutes a browser for the requested native account sheet. */
 export const signInMethod = (provider: string): 'native' | 'unavailable' =>
   provider === 'google' || provider === 'apple' ? 'native' : 'unavailable';

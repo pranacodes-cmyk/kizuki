@@ -32,6 +32,16 @@ String onboardingAfterPlan(bool enabled) => enabled ? '/founder' : '/trial';
 /// tokens; a missing/invalid value keeps the last valid one.
 bool nativeSignInEnabled(Object? remote, [bool cached = false]) => remote is bool ? remote : cached;
 
+/// Server-sent trial experiment: `false` (or 0 days) = direct paywall with no trial wording;
+/// a plausible day count (1–14) replaces the shipped default; anything missing/invalid keeps
+/// the last valid value.
+const defaultTrialDays = 7;
+int trialDays(Object? remoteEnabled, Object? remoteDays, [int cached = defaultTrialDays]) {
+  final days = remoteDays is int ? remoteDays : cached;
+  if (remoteEnabled == false || days <= 0) return 0;
+  return days <= 14 ? days : cached;
+}
+
 /// Phone sign-in never substitutes a browser for the requested native account sheet.
 String signInMethod(String provider) =>
     provider == 'google' || provider == 'apple' ? 'native' : 'unavailable';
