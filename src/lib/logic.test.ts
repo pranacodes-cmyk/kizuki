@@ -3,7 +3,7 @@ import { describe, expect, it } from "vitest";
 
 import {
   signInProviders, nativeSignInEnabled, signInMethod, localStateFor,
-  founderVideoEnabled, onboardingAfterPlan,
+  founderVideoEnabled, founderVideoUrl, onboardingAfterPlan,
   subscriptionAccess, learningPath, purchaseNeedsAccount, ReviewSession, SUPPORT_TOPICS, supportMessageError, answerCard, bestStreak, clipScore, currentStreak, dayKey, dayMs, fnv1a, formatInterval, formatWhen, goalDateLabel,
   heatLevel, heatmapWeeks, kanaDeck, levelToJlpt, mergeActivity, mergeByUpdatedAt, minuteMs, minutesLeft, newCard,
   newlyUnlocked, nextIntervalLabel, normalizeQuery, planItems, rankFeed, recommendedMinutes, toKatakana, wordStatus, wordsPerMonth,
@@ -11,6 +11,7 @@ import {
   asksToday, canAsk, asksLeft, cleanQuestion, askHistory, type AskTurn,
   wordLevel, cardAtLevel, withWordLevel, WORD_LEVELS, repeatsSense, pickTourWord,
   type RankClip, starterFeedOrder, STARTER_WATCH_LIMIT, type StarterClip, clipWindowAvailable, simulatedTrialEnd, subscriptionPhase,
+  contentPackAction, contentPackManifest, contentObjectUrl, notesShard, contentIndexProblem, contentClipProblem, contentDictProblem, contentNotesProblem,
 } from "./logic";
 
 const NOW = 1_800_000_000_000;
@@ -22,6 +23,13 @@ it('missing remote setting keeps last valid choice, default on', () => {
   expect(founderVideoEnabled(null)).toBe(true);
   expect(founderVideoEnabled(null, false)).toBe(false);
   expect(founderVideoEnabled('false', true)).toBe(true);
+});
+it('server founder video url: only a clean https link counts', () => {
+  expect(founderVideoUrl(null)).toBe(null);
+  expect(founderVideoUrl('')).toBe(null);
+  expect(founderVideoUrl(42)).toBe(null);
+  expect(founderVideoUrl('http://insecure.example/x.mp4')).toBe(null);
+  expect(founderVideoUrl('  https://cdn.example.com/hello.mp4  ')).toBe('https://cdn.example.com/hello.mp4');
 });
 
 it('Android offers only Google', () => expect(signInProviders('android')).toEqual(['google']));
@@ -505,5 +513,92 @@ describe("ask kizuki", () => {
     expect(supportMessageError("aiko@example.com", "a".repeat(2000))).toBe(null);
     expect(supportMessageError("aiko@example.com", "a".repeat(2001))).toBe("Keep it under 2000 characters.");
     expect(SUPPORT_TOPICS).toEqual(["subscription", "account", "bug", "content", "feedback", "other"]);
+  });
+});
+
+describe("server content packs", () => {
+  const sha = (c: string) => c.repeat(64 / c.length);
+  const url = "https://cdn.example.com/storage/v1/object/public/content/packs/v2.json";
+  const manifest = {
+    format: 1, version: 2,
+    files: [
+      { name: "content.json", sha256: sha("a"), bytes: 10 },
+      { name: "content-0.json", sha256: sha("b"), bytes: 20 },
+      { name: "dict.json", sha256: sha("c"), bytes: 30 },
+      { name: "notes-0.json", sha256: sha("d"), bytes: 40 },
+    ],
+    notes: ["notes-0.json"],
+  };
+  const index = { version: 2, videos: { v1: { title: "t", channel: "c", channelUrl: "https://youtube.com/@c" } }, parts: ["content-0.json"], starter: ["v1-0"] };
+  const clip = { id: "v1-0", videoId: "v1", title: "Hi", level: "N5", start: 0, end: 4.5, topics: ["daily"], grammar: [], quality: 4, lines: [{ start: 0, end: 2, en: "Hi", words: [{ s: "こんにちは", t0: 0, t1: 1 }] }] };
+
+  it("off switch, a missing link or a pack not newer than the bundle keep the bundled library", () => {
+    expect(contentPackAction(false, 2, url, 1, null)).toBe("bundled");
+    expect(contentPackAction(true, null, url, 1, 2)).toBe("bundled");
+    expect(contentPackAction(true, 2, null, 1, 2)).toBe("bundled");
+    expect(contentPackAction(true, 2, "http://cdn.example.com/v2.json", 1, null)).toBe("bundled");
+    expect(contentPackAction(true, 1, url, 1, null)).toBe("bundled");
+    expect(contentPackAction(true, 2.5, url, 1, null)).toBe("bundled");
+  });
+  it("a newer pack downloads once, then is kept", () => {
+    expect(contentPackAction(true, 2, url, 1, null)).toBe("download");
+    expect(contentPackAction(null, 3, url, 1, 2)).toBe("download");
+    expect(contentPackAction(true, 2, url, 1, 2)).toBe("keep");
+  });
+  it("only a well-formed manifest of the advertised version is trusted", () => {
+    expect(contentPackManifest(manifest, 2)?.files.length).toBe(4);
+    expect(contentPackManifest(manifest, 2)?.notes).toEqual(["notes-0.json"]);
+    expect(contentPackManifest(manifest, 3)).toBe(null);
+    expect(contentPackManifest({ ...manifest, format: 2 }, 2)).toBe(null);
+    expect(contentPackManifest({ ...manifest, files: [...manifest.files, { name: "../x.json", sha256: sha("e"), bytes: 1 }] }, 2)).toBe(null);
+    expect(contentPackManifest({ ...manifest, files: [...manifest.files, { name: "content.json", sha256: sha("e"), bytes: 1 }] }, 2)).toBe(null);
+    expect(contentPackManifest({ ...manifest, files: [{ name: "content.json", sha256: "xyz", bytes: 10 }, ...manifest.files.slice(1)] }, 2)).toBe(null);
+    expect(contentPackManifest({ ...manifest, files: [{ name: "content.json", sha256: sha("a"), bytes: 0 }, ...manifest.files.slice(1)] }, 2)).toBe(null);
+    expect(contentPackManifest({ ...manifest, files: manifest.files.filter((f) => f.name !== "dict.json") }, 2)).toBe(null);
+    expect(contentPackManifest({ ...manifest, notes: ["notes-9.json"] }, 2)).toBe(null);
+    expect(contentPackManifest({ ...manifest, notes: ["dict.json"] }, 2)).toBe(null);
+    expect(contentPackManifest({ format: 1, version: 2, files: manifest.files }, 2)?.notes).toEqual([]);
+  });
+  it("pack files live by checksum next to the manifests", () => {
+    expect(contentObjectUrl(url, sha("ab"))).toBe(`https://cdn.example.com/storage/v1/object/public/content/objects/${sha("ab")}.json.gz`);
+    expect(contentObjectUrl(`${url}?x=1`, sha("f"))).toBe(`https://cdn.example.com/storage/v1/object/public/content/objects/${sha("f")}.json.gz`);
+  });
+  it("a clip's notes always come from the same notes file", () => {
+    expect(notesShard("-3YHidnEqx4-295", 8)).toBe(2);
+    expect(notesShard("abc", 8)).toBe(3);
+    expect(notesShard("zZ_9-1", 8)).toBe(3);
+    expect(notesShard("Kizuki", 3)).toBe(2);
+    expect(notesShard("abc", 0)).toBe(-1);
+  });
+  it("pack index problems", () => {
+    const m = contentPackManifest(manifest, 2)!;
+    expect(contentIndexProblem(index, m)).toBe(null);
+    expect(contentIndexProblem([], m)).toBe("index");
+    expect(contentIndexProblem({ ...index, version: 1 }, m)).toBe("version");
+    expect(contentIndexProblem({ ...index, videos: {} }, m)).toBe("videos");
+    expect(contentIndexProblem({ ...index, videos: { v1: { title: "t" } } }, m)).toBe("videos");
+    expect(contentIndexProblem({ ...index, parts: ["content-1.json"] }, m)).toBe("parts");
+    expect(contentIndexProblem({ ...index, parts: ["notes-0.json"] }, m)).toBe("parts");
+    expect(contentIndexProblem({ ...index, parts: [] }, m)).toBe("parts");
+    expect(contentIndexProblem({ ...index, starter: [1] }, m)).toBe("starter");
+  });
+  it("pack clip problems", () => {
+    const videos = index.videos;
+    expect(contentClipProblem(clip, videos)).toBe(null);
+    expect(contentClipProblem({ ...clip, id: "a/b" }, videos)).toBe("clip");
+    expect(contentClipProblem({ ...clip, topics: [1] }, videos)).toBe("clip");
+    expect(contentClipProblem({ ...clip, videoId: "zz" }, videos)).toBe("video");
+    expect(contentClipProblem({ ...clip, end: 0 }, videos)).toBe("window");
+    expect(contentClipProblem({ ...clip, lines: [] }, videos)).toBe("lines");
+    expect(contentClipProblem({ ...clip, lines: [{ start: 0, end: 2, words: [{ s: "x", t1: 1 }] }] }, videos)).toBe("lines");
+  });
+  it("pack dictionary and notes problems", () => {
+    expect(contentDictProblem({ "1": { w: "猫", r: "ねこ", m: [], ex: [] } })).toBe(null);
+    expect(contentDictProblem({})).toBe("dict");
+    expect(contentDictProblem({ "1": { w: "猫" } })).toBe("dict");
+    expect(contentNotesProblem({ "v1-0": { w: { "0.0": { m: "hello", n: "" } }, l: { "0": { lit: "a", tip: "b" } } } })).toBe(null);
+    expect(contentNotesProblem({ "v1-0": {} })).toBe(null);
+    expect(contentNotesProblem({ "v1-0": { w: { "0.0": { m: 1 } } } })).toBe("notes");
+    expect(contentNotesProblem([])).toBe("notes");
   });
 });

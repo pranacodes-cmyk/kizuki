@@ -9,7 +9,7 @@ import { thumbOf } from "@/lib/content";
 import { haptic } from "@/lib/haptics";
 import { feedOrder, levelFitCount, useContent } from "@/lib/feed";
 import { goalDateLabel, planItems, onboardingAfterPlan } from "@/lib/logic";
-import { refreshOnboardingSettings } from '@/lib/onboarding-settings';
+import { prefetchFounderVideo, refreshOnboardingSettings } from '@/lib/onboarding-settings';
 import { preloadTrial } from '@/lib/trial-preload';
 import { useApp } from "@/lib/store";
 
@@ -34,7 +34,7 @@ function Plan() {
   const feedSeed = useApp((s) => s.feedSeed);
   const totals = useApp((s) => s.totals);
   const { data } = useContent();
-  useEffect(() => { void preloadTrial(); void refreshOnboardingSettings(); }, []);
+  useEffect(() => { void preloadTrial(); void refreshOnboardingSettings(); prefetchFounderVideo(); }, []);
   // A celebration tap in step with the confetti (plan.dart), once.
   const celebrated = useRef(false);
   useEffect(() => { if (!celebrated.current) { celebrated.current = true; haptic("celebrate"); } }, []);

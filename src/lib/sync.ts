@@ -3,7 +3,7 @@
 // on sign-in we pull, merge with mergeState() and push; afterwards changes push debounced.
 import type { Session } from "@supabase/supabase-js";
 
-import { supabase } from "@/integrations/supabase/client";
+import { supabase } from "@/lib/backend";
 
 import { localStateFor, mergeState } from "./logic";
 import { analyticsIdentity } from './analytics';

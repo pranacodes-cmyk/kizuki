@@ -553,7 +553,10 @@ const starterFile = path.join(HERE, "starter.json");
 const clipIds = new Set(clips.map((c) => c.id));
 const starter: string[] = fs.existsSync(starterFile) ? (JSON.parse(fs.readFileSync(starterFile, "utf8")).ids as string[]).filter((id) => clipIds.has(id)) : [];
 console.log(`starter ${starter.length} clips`);
-const content = { version: 1, generatedAt: new Date().toISOString().slice(0, 10), videos, clips };
+// Library version: bump content-version.json for every library that ships as a server pack
+// (scripts/content/publish_pack.ts); apps only take packs newer than their bundled version.
+const CONTENT_VERSION = (JSON.parse(fs.readFileSync(path.join(HERE, "content-version.json"), "utf8")) as { version: number }).version;
+const content = { version: CONTENT_VERSION, generatedAt: new Date().toISOString().slice(0, 10), videos, clips };
 
 for (const dir of OUT_DIRS) {
   if (dir.includes("mobile") && !fs.existsSync(path.join(ROOT, "mobile"))) continue;

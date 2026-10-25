@@ -9,6 +9,7 @@ import { useContent } from "@/lib/feed";
 import { buildingHaptic, haptic } from "@/lib/haptics";
 import { BUILD_DONE_MS, BUILD_MS, RING_PULSE_MS } from "@/lib/mascot-motion";
 import { reviews } from "@/lib/onboarding";
+import { prefetchFounderVideo } from "@/lib/onboarding-settings";
 import { useApp } from "@/lib/store";
 import { cn } from "@/lib/utils";
 
@@ -49,6 +50,7 @@ function Building() {
   const steps = ["Matching clips to your interests…", `Picking scenes at your level (${jlpt})…`, `Fitting it into ${minutes} minutes a day…`, "Setting up your reminders…"];
 
   useEffect(() => {
+    prefetchFounderVideo();
     const t0 = performance.now();
     let raf = 0;
     let leave: ReturnType<typeof setTimeout> | undefined;

@@ -6,6 +6,7 @@ import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:video_player/video_player.dart';
 
 import '../data/onboarding.dart';
+import '../services/founder_video.dart';
 import '../services/onboarding_settings.dart';
 import '../services/trial_preload.dart';
 import '../theme/tokens.dart';
@@ -41,11 +42,17 @@ class _FounderScreenState extends State<FounderScreen> with TickerProviderStateM
   }
 
   Future<void> _checkVideo() async {
+    // Everything at once: the video never waits on the settings round-trip for its first
+    // frame. If the server says the slide is off, we leave and dispose right away.
+    FounderVideo.prefetch();
+    TrialPreload.start(context);
+    unawaited(_initVideo());
     await OnboardingSettings.refresh();
     if (!mounted) return;
-    if (!OnboardingSettings.enabled) { context.go('/trial'); return; }
-    TrialPreload.start(context);
-    await _initVideo();
+    if (!OnboardingSettings.enabled) {
+      _leaving = true;
+      context.go('/trial');
+    }
   }
 
   /// Controller still initializing, so leaving can release it too.
@@ -56,7 +63,11 @@ class _FounderScreenState extends State<FounderScreen> with TickerProviderStateM
   Future<void> _initVideo() => _init = _startVideo();
 
   Future<void> _startVideo() async {
-    final c = VideoPlayerController.asset(founderVideoAsset, videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true));
+    // A downloaded server video wins when present; the bundled clip is the instant default.
+    final f = await FounderVideo.readyFile();
+    final c = f != null
+        ? VideoPlayerController.file(f, videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true))
+        : VideoPlayerController.asset(founderVideoAsset, videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true));
     _starting = c;
     try {
       await c.initialize().timeout(const Duration(seconds: 6));

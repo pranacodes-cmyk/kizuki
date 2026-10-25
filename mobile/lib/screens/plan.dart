@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 
 import '../data/content.dart';
 import '../logic/logic.dart';
+import '../services/founder_video.dart';
 import '../services/haptics.dart';
 import '../services/onboarding_settings.dart';
 import '../services/trial_preload.dart';
@@ -42,6 +43,7 @@ class _PlanScreenState extends State<PlanScreen> {
   @override
   void initState() {
     super.initState();
+    FounderVideo.prefetch();
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (mounted) Haptics.celebrate();
       if (mounted) TrialPreload.start(context);

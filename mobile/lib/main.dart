@@ -13,6 +13,7 @@ import 'services/attribution.dart';
 import 'services/analytics.dart';
 import 'services/auth_links.dart';
 import 'services/billing.dart';
+import 'services/content_pack.dart';
 import 'services/haptics.dart';
 import 'services/notification_service.dart';
 import 'services/onboarding_settings.dart';
@@ -89,7 +90,8 @@ Future<void> startApp() async {
     ],
     child: KizukiApp(app: app),
   ));
-  unawaited(Content.load().then<void>((_) {}, onError: (Object e) => debugPrint('KIZUKI_ERROR content: $e')));
+  // A newer server clip pack (if any) downloads in the background and is used from the next start.
+  unawaited(Content.load().then<void>((_) => ContentPack.scheduleSync(Content.bundledVersion, Content.pack), onError: (Object e) => debugPrint('KIZUKI_ERROR content: $e')));
   unawaited(OnboardingSettings.refresh());
   unawaited(NotificationService.init().catchError((Object e) => debugPrint('KIZUKI_ERROR reminders: $e')));
   unawaited(SyncService.I.boot(app));

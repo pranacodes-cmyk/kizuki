@@ -97,8 +97,11 @@ function Vocab() {
         <p className="mb-2 mt-6 text-[0.8125rem] font-black uppercase tracking-[0.12em] text-muted-foreground">Decks</p>
         <div className="space-y-2">
           <DeckRow icon="🔖" title="Your words" sub={`${counts.saved} saved from clips`} badge={counts.due} onClick={() => counts.due > 0 ? navigate({ to: "/review", search: { deck: "words" } }) : undefined} />
-          <DeckRow icon="あ" title="Hiragana" sub={`${kanaLearned(HIRA, kana)} / ${HIRA.length} known`} badge={hiraDue} onClick={() => navigate({ to: "/review", search: { deck: "hiragana" } })} />
-          <DeckRow icon="ア" title="Katakana" sub={`${kanaLearned(KATA, kana)} / ${KATA.length} known`} badge={kataDue} onClick={() => navigate({ to: "/review", search: { deck: "katakana" } })} />
+          {/* The welcome tour's "kanaDecks" step spotlights both alphabet decks together. */}
+          <div data-tour="kanaDecks" className="space-y-2">
+            <DeckRow icon="あ" title="Hiragana" sub={`${kanaLearned(HIRA, kana)} / ${HIRA.length} known`} badge={hiraDue} onClick={() => navigate({ to: "/review", search: { deck: "hiragana" } })} />
+            <DeckRow icon="ア" title="Katakana" sub={`${kanaLearned(KATA, kana)} / ${KATA.length} known`} badge={kataDue} onClick={() => navigate({ to: "/review", search: { deck: "katakana" } })} />
+          </div>
         </div>
 
         <label className="mt-6 flex h-12 items-center gap-2 rounded-2xl border-2 border-border bg-surface px-3 focus-within:border-primary">

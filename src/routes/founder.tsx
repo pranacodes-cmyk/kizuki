@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import { Mascot } from "@/components/mimi/Mascot";
 import { Button, Screen } from "@/components/mimi/ui";
 import { FOUNDER_POSTER_URL, FOUNDER_SECONDS, FOUNDER_VIDEO_URL, FOUNDER_VIDEO_WEBM_URL, founderLines } from "@/lib/onboarding";
-import { refreshOnboardingSettings } from '@/lib/onboarding-settings';
+import { cachedFounderVideoUrl, refreshOnboardingSettings } from '@/lib/onboarding-settings';
 import { preloadTrial } from '@/lib/trial-preload';
 
 export const Route = createFileRoute("/founder")({
@@ -29,6 +29,7 @@ export const Route = createFileRoute("/founder")({
 function Founder() {
   const navigate = useNavigate();
   const videoRef = useRef<HTMLVideoElement>(null);
+  const remoteVideo = cachedFounderVideoUrl();
   const [t, setT] = useState(0);
   const [total, setTotal] = useState(FOUNDER_SECONDS);
   const [playing, setPlaying] = useState(true);
@@ -40,14 +41,16 @@ function Founder() {
     const v = videoRef.current;
     if (!v) return;
     void preloadTrial();
-    void refreshOnboardingSettings().then((enabled) => {
-      if (!enabled) { v.pause(); void navigate({ to: '/trial', replace: true }); return; }
-      v.muted = false;
-      v.play().catch(() => {
+    // Play immediately; the settings check runs alongside and only ever cuts the slide short
+    // (before, the first frame waited on that network round-trip).
+    v.muted = false;
+    v.play().catch(() => {
       v.muted = true;
       setMuted(true);
       v.play().catch(() => setPlaying(false));
-      });
+    });
+    void refreshOnboardingSettings().then((enabled) => {
+      if (!enabled) { v.pause(); void navigate({ to: '/trial', replace: true }); }
     });
   }, []);
 
@@ -113,7 +116,9 @@ function Founder() {
                 fail();
               }}
             >
-              {/* Approved video includes captions, keeping web and Flutter identical. */}
+              {/* Approved video includes captions, keeping web and Flutter identical. A
+                  server-sent video leads when set; the bundled clip follows if it fails. */}
+              {remoteVideo && <source src={remoteVideo} type="video/mp4" />}
               <source src={FOUNDER_VIDEO_URL} type="video/mp4" />
               <source src={FOUNDER_VIDEO_WEBM_URL} type="video/webm" onError={fail} />
             </video>

@@ -9,6 +9,7 @@ import 'package:provider/provider.dart';
 
 import '../data/content.dart';
 import '../data/onboarding.dart';
+import '../services/founder_video.dart';
 import '../services/haptics.dart';
 import '../state/app_state.dart';
 import '../theme/mascot_motion.dart';
@@ -38,6 +39,7 @@ class _BuildingScreenState extends State<BuildingScreen> with TickerProviderStat
   void initState() {
     super.initState();
     unawaited(Content.load());
+    FounderVideo.prefetch();
     _ticker = createTicker((elapsed) {
       final p = (elapsed.inMilliseconds / buildMs).clamp(0.0, 1.0);
       final eased = 1 - math.pow(1 - p, 2.2);

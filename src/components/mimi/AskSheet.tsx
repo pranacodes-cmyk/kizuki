@@ -6,7 +6,7 @@ import { ArrowUp, CircleAlert, Square } from "lucide-react";
 import { Fragment, useEffect, useMemo, useRef, useState } from "react";
 
 import { track } from '@/lib/analytics';
-import { supabase } from "@/integrations/supabase/client";
+import { supabase } from "@/lib/backend";
 import { ASK_PATH, askErrorText, askGreeting, askSuggestions, type AskContext } from "@/lib/ask";
 import { ASK_MAX_CHARS, askHistory, asksLeft, canAsk, cleanQuestion } from "@/lib/logic";
 import { FREE_DAILY_ASKS } from "@/lib/paywall";

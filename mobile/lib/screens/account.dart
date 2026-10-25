@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 import 'package:go_router/go_router.dart';
+import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:provider/provider.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import '../logic/logic.dart';
@@ -216,9 +217,29 @@ class _AccountScreenState extends State<AccountScreen> {
               child: SingleChildScrollView(
                 padding: const EdgeInsets.symmetric(horizontal: 24),
                 child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-                  Align(child: Mascot(MascotPose.wave, size: 96)),
+                  // Mascot on a soft orange glow, so the screen feels alive, not empty.
+                  Align(
+                    child: Stack(alignment: Alignment.center, children: [
+                      Container(
+                        width: 170,
+                        height: 170,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          gradient: RadialGradient(colors: [T.primary.withValues(alpha: 0.22), T.primary.withValues(alpha: 0)]),
+                        ),
+                      ),
+                      const Mascot(MascotPose.wave, size: 104),
+                    ]),
+                  ),
                   const SizedBox(height: 10),
-                  Text(signin ? 'Welcome back' : 'Save your progress', textAlign: TextAlign.center, style: txt(24, w: FontWeight.w900, h: 1.2)),
+                  Text.rich(
+                    TextSpan(children: [
+                      TextSpan(text: signin ? 'Welcome ' : 'Save your '),
+                      TextSpan(text: signin ? 'back' : 'progress', style: txt(24, w: FontWeight.w900, c: T.primary)),
+                    ]),
+                    textAlign: TextAlign.center,
+                    style: txt(24, w: FontWeight.w900, h: 1.2),
+                  ),
                   const SizedBox(height: 6),
                   Text(signin ? 'Sign in to pick up where you left off.' : 'Keep your words, streak and reviews safe on every device.', textAlign: TextAlign.center, style: txt(15, w: FontWeight.w400, c: T.muted)),
                   const SizedBox(height: 28),
@@ -237,6 +258,12 @@ class _AccountScreenState extends State<AccountScreen> {
                       _providerTile(provider),
                       const SizedBox(height: 12),
                     ],
+                  if (!busy)
+                    Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                      const Icon(LucideIcons.shieldCheck, size: 16, color: T.faint),
+                      const SizedBox(width: 6),
+                      Text('One tap · no passwords · progress stays safe', style: txt(13, w: FontWeight.w700, c: T.faint)),
+                    ]),
                 ]),
               ),
             ),

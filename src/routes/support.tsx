@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { Mascot } from "@/components/mimi/Mascot";
 import { Button, Screen, SectionTitle, TopBar } from "@/components/mimi/ui";
 import { useSession } from "@/hooks/use-session";
-import { supabase } from "@/integrations/supabase/client";
+import { supabase } from "@/lib/backend";
 import { SUPPORT_MESSAGE_MAX, SUPPORT_TOPICS, supportMessageError, type SupportTopic } from "@/lib/logic";
 import { SUPPORT_FAQ, SUPPORT_TOPIC_LABELS } from "@/lib/support";
 import { cn } from "@/lib/utils";

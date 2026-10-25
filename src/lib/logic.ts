@@ -14,6 +14,13 @@ export const jlptLevels = ["N5", "N4", "N3", "N2", "N1"] as const;
 
 export const signInProviders = (platform: string): readonly ("google" | "apple")[] => platform === "android" ? ["google"] : ["google", "apple"];
 export const founderVideoEnabled = (remote: unknown, cached = true): boolean => typeof remote === 'boolean' ? remote : cached;
+
+/** Server-sent founder video override: only a clean https link counts; anything else keeps the bundled clip. */
+export const founderVideoUrl = (remote: unknown): string | null => {
+  if (typeof remote !== "string") return null;
+  const u = remote.trim();
+  return u.startsWith("https://") && u.length > 8 ? u : null;
+};
 export const onboardingAfterPlan = (enabled: boolean): '/founder' | '/trial' => enabled ? '/founder' : '/trial';
 
 /** Remote native sign-in switch: off until the backend accepts this app's own provider
@@ -850,3 +857,119 @@ export function supportMessageError(email: string, message: string): string | nu
 
 /** Completed checkout must be followed by a verified account. */
 export const purchaseNeedsAccount = (pending: boolean, verified: boolean) => pending && !verified;
+
+// ---------------------------------------------------------------------------
+// Server content packs: more clips without an app update. The bundled library always stays
+// the default; a pack is used only after every file was downloaded and verified, from the
+// next app start. Mirrors mobile/lib/logic/logic.dart.
+// ---------------------------------------------------------------------------
+
+export const CONTENT_PACK_FORMAT = 1;
+export const CONTENT_PACK_MAX_FILES = 64;
+export const CONTENT_PACK_MAX_FILE_BYTES = 40_000_000;
+export type ContentPackFile = { name: string; sha256: string; bytes: number };
+export type ContentPackManifest = { version: number; files: ContentPackFile[]; notes: string[] };
+export type ContentPackAction = "bundled" | "keep" | "download";
+
+const PACK_FILE_NAME = /^[a-z0-9][a-z0-9-]{0,40}\.json$/;
+const SHA256_HEX = /^[0-9a-f]{64}$/;
+const CLIP_ID = /^[A-Za-z0-9_-]{1,64}$/;
+type PackField = "format" | "version" | "files" | "name" | "sha256" | "bytes" | "notes" | "videos" | "title" | "channel" | "channelUrl" | "parts" | "starter"
+  | "id" | "level" | "topics" | "grammar" | "quality" | "videoId" | "start" | "end" | "lines" | "words" | "s" | "t0" | "t1" | "w" | "r" | "m" | "ex" | "l" | "n" | "lit" | "tip";
+type PackRecord = { [K in PackField]?: unknown } & Record<string, unknown>;
+const isRecord = (v: unknown): v is PackRecord => typeof v === "object" && v !== null && !Array.isArray(v);
+const isWhole = (v: unknown): v is number => typeof v === "number" && Number.isInteger(v);
+const isNum = (v: unknown): v is number => typeof v === "number" && Number.isFinite(v);
+const hasKey = (o: Record<string, unknown>, k: string) => Object.prototype.hasOwnProperty.call(o, k);
+const allStrings = (v: unknown) => Array.isArray(v) && v.every((x) => typeof x === "string");
+
+/** What to do with the server's content row: stay on the bundled library, keep the pack
+ * already downloaded, or fetch the newer one. Off switch, a missing link or a version that
+ * is not newer than the bundle all mean the bundle. */
+export function contentPackAction(enabled: unknown, version: unknown, url: unknown, bundledVersion: number, activeVersion: number | null): ContentPackAction {
+  if (enabled === false) return "bundled";
+  if (!isWhole(version) || version <= bundledVersion || founderVideoUrl(url) === null) return "bundled";
+  return version === activeVersion ? "keep" : "download";
+}
+
+/** A pack manifest the app can trust, or null: known format, the advertised version, safe
+ * file names, sha-256 checksums, bounded sizes, and the index + dictionary present. */
+export function contentPackManifest(raw: unknown, expectedVersion: number): ContentPackManifest | null {
+  if (!isRecord(raw) || raw.format !== CONTENT_PACK_FORMAT || !isWhole(raw.version) || raw.version !== expectedVersion) return null;
+  const files = raw.files;
+  if (!Array.isArray(files) || files.length < 1 || files.length > CONTENT_PACK_MAX_FILES) return null;
+  const out: ContentPackFile[] = [];
+  const names = new Set<string>();
+  for (const f of files) {
+    if (!isRecord(f)) return null;
+    const { name, sha256, bytes } = f;
+    if (typeof name !== "string" || !PACK_FILE_NAME.test(name) || names.has(name)) return null;
+    if (typeof sha256 !== "string" || !SHA256_HEX.test(sha256)) return null;
+    if (!isWhole(bytes) || bytes < 1 || bytes > CONTENT_PACK_MAX_FILE_BYTES) return null;
+    names.add(name);
+    out.push({ name, sha256, bytes });
+  }
+  if (!names.has("content.json") || !names.has("dict.json")) return null;
+  const notes = raw.notes ?? [];
+  if (!Array.isArray(notes) || notes.length > CONTENT_PACK_MAX_FILES) return null;
+  if (notes.some((n) => typeof n !== "string" || !names.has(n) || n === "content.json" || n === "dict.json") || new Set(notes).size !== notes.length) return null;
+  return { version: raw.version, files: out, notes: notes as string[] };
+}
+
+/** Pack files are stored once by checksum next to the manifests (…/packs/v2.json → …/objects/<sha>.json.gz). */
+export const contentObjectUrl = (manifestUrl: string, sha256: string): string => new URL(`../objects/${sha256}.json.gz`, manifestUrl).href;
+
+/** Which notes file holds a clip's explanations (FNV-1a over UTF-16 code units). */
+export function notesShard(clipId: string, count: number): number {
+  return count < 1 ? -1 : fnv1a(clipId) % count;
+}
+
+/** Problem with a pack's content.json, or null. */
+export function contentIndexProblem(index: unknown, manifest: ContentPackManifest): string | null {
+  if (!isRecord(index)) return "index";
+  if (index.version !== manifest.version) return "version";
+  const videos = index.videos;
+  if (!isRecord(videos) || Object.keys(videos).length === 0) return "videos";
+  for (const v of Object.values(videos)) if (!isRecord(v) || typeof v.title !== "string" || typeof v.channel !== "string" || typeof v.channelUrl !== "string") return "videos";
+  const names = new Set(manifest.files.map((f) => f.name));
+  const parts = index.parts;
+  if (!Array.isArray(parts) || parts.length === 0 || new Set(parts).size !== parts.length) return "parts";
+  for (const p of parts) if (typeof p !== "string" || !names.has(p) || p === "content.json" || p === "dict.json" || manifest.notes.includes(p)) return "parts";
+  if (index.starter != null && !allStrings(index.starter)) return "starter";
+  return null;
+}
+
+/** Problem with one clip of a pack, or null (fields every screen reads). */
+export function contentClipProblem(clip: unknown, videos: Record<string, unknown>): string | null {
+  if (!isRecord(clip) || typeof clip.id !== "string" || !CLIP_ID.test(clip.id) || typeof clip.title !== "string" || typeof clip.level !== "string") return "clip";
+  if (!allStrings(clip.topics) || !allStrings(clip.grammar) || (clip.quality != null && !isNum(clip.quality))) return "clip";
+  if (typeof clip.videoId !== "string" || !hasKey(videos, clip.videoId)) return "video";
+  if (!isNum(clip.start) || !isNum(clip.end) || !(clip.end > clip.start)) return "window";
+  const lines = clip.lines;
+  if (!Array.isArray(lines) || lines.length === 0) return "lines";
+  for (const l of lines) {
+    if (!isRecord(l) || !isNum(l.start) || !isNum(l.end) || !Array.isArray(l.words)) return "lines";
+    for (const w of l.words) if (!isRecord(w) || typeof w.s !== "string" || !isNum(w.t0) || !isNum(w.t1)) return "lines";
+  }
+  return null;
+}
+
+/** Problem with a pack's dictionary, or null. */
+export function contentDictProblem(dict: unknown): string | null {
+  if (!isRecord(dict) || Object.keys(dict).length === 0) return "dict";
+  for (const e of Object.values(dict)) if (!isRecord(e) || typeof e.w !== "string" || typeof e.r !== "string" || !Array.isArray(e.m) || !Array.isArray(e.ex)) return "dict";
+  return null;
+}
+
+/** Problem with a pack's notes file (clip id → explanations), or null. */
+export function contentNotesProblem(shard: unknown): string | null {
+  if (!isRecord(shard)) return "notes";
+  for (const n of Object.values(shard)) {
+    if (!isRecord(n)) return "notes";
+    const w = n.w ?? {}, l = n.l ?? {};
+    if (!isRecord(w) || !isRecord(l)) return "notes";
+    for (const x of Object.values(w)) if (!isRecord(x) || typeof x.m !== "string" || typeof x.n !== "string") return "notes";
+    for (const x of Object.values(l)) if (!isRecord(x) || typeof x.lit !== "string" || typeof x.tip !== "string") return "notes";
+  }
+  return null;
+}

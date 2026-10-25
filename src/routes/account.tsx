@@ -1,14 +1,13 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, ShieldCheck } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { z } from "zod";
 
 import { useSession } from "@/hooks/use-session";
 import { Mascot } from "@/components/mimi/Mascot";
 import { Button, Screen, TopBar } from "@/components/mimi/ui";
-import { supabase } from "@/integrations/supabase/client";
-import { lovable } from "@/integrations/lovable/index";
-import { setSession, syncNow } from "@/lib/sync";
+import { supabase } from "@/lib/backend";
+import { syncNow } from "@/lib/sync";
 import { track } from '@/lib/analytics';
 import { useApp } from "@/lib/store";
 import { signInProviders } from '@/lib/logic';
@@ -133,13 +132,12 @@ function Account() {
     const redirect_uri = isBridge
       ? `${window.location.origin}/account?bridge=1&provider=${p}`
       : window.location.origin;
-    const result = await lovable.auth.signInWithOAuth(p, { redirect_uri });
-    if (result.error) { track('sign_in_failed', { category: 'provider' }); setError(friendly(result.error)); setBusy(false); return; }
-    if (result.redirected) return;
-    const { data } = await supabase.auth.getSession();
-    setSession(data.session);
-    setBusy(false);
-    await finish();
+    const { error: oauthError } = await supabase.auth.signInWithOAuth({
+      provider: p as "google" | "apple",
+      options: { redirectTo: redirect_uri },
+    });
+    if (oauthError) { track('sign_in_failed', { category: 'provider' }); setError(friendly(oauthError)); setBusy(false); return; }
+    // Full-page redirect to the provider; when it returns, the session listener continues.
   };
 
   const later = () => {
@@ -170,8 +168,14 @@ function Account() {
     <Screen>
       {!requiredAccount && !isBridge && <TopBar onBack={() => (fromWelcome ? navigate({ to: "/" }) : navigate({ to: "/trial" }))} />}
       <div className="flex flex-1 flex-col items-center justify-center px-6 text-center">
-        <Mascot pose="wave" className="h-24 w-24" />
-        <h1 className="mt-2.5 text-[1.5rem] font-black leading-tight">{initialMode === "signin" ? "Welcome back" : "Save your progress"}</h1>
+        {/* Mascot on a soft orange glow, so the screen feels alive, not empty. */}
+        <div className="relative">
+          <div aria-hidden className="absolute -inset-8 rounded-full bg-[radial-gradient(circle,var(--primary-dim),transparent_70%)]" />
+          <Mascot pose="wave" className="relative h-[104px] w-[104px]" />
+        </div>
+        <h1 className="mt-2.5 text-[1.5rem] font-black leading-tight">
+          {initialMode === "signin" ? <>Welcome <span className="text-primary">back</span></> : <>Save your <span className="text-primary">progress</span></>}
+        </h1>
         <p className="mt-1.5 text-[0.9375rem] text-muted-foreground">{initialMode === "signin" ? "Sign in to pick up where you left off." : "Keep your words, streak and reviews safe on every device."}</p>
 
         <div className="mt-7 w-full space-y-3">
@@ -181,6 +185,7 @@ function Account() {
             <span className="flex-1 text-left">{busy ? 'Signing in…' : `Continue with ${p === 'google' ? 'Google' : 'Apple'}`}</span>
             <ChevronRight aria-hidden="true" className="h-5 w-5 shrink-0 text-faint" />
           </Button>)}
+          {!busy && <p className="flex items-center justify-center gap-1.5 pt-1 text-[0.8125rem] font-bold text-faint"><ShieldCheck aria-hidden="true" className="h-4 w-4" />One tap · no passwords · progress stays safe</p>}
         </div>
       </div>
 

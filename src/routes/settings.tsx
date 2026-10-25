@@ -3,7 +3,7 @@ import { useState } from "react";
 
 import { Button, Modal, Screen, Toggle, TopBar } from "@/components/mimi/ui";
 import { AnalyticsToggle } from "@/components/mimi/AnalyticsConsent";
-import { supabase } from "@/integrations/supabase/client";
+import { supabase } from "@/lib/backend";
 import { useSession } from "@/hooks/use-session";
 import { getContent } from "@/lib/content";
 import { downloadText, wordsCsv } from "@/lib/export";

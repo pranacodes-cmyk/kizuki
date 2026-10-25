@@ -7,6 +7,7 @@ import { z } from "zod";
 
 import { ASK_MAX_CHARS, ASK_MAX_MESSAGES } from "@/lib/logic";
 import { hasStoreSubscription } from './subscription.server';
+import { BACKEND_PUBLISHABLE_KEY, BACKEND_URL } from "@/lib/backend-config";
 
 import { createLovableAiGatewayRunIdFetch, getLovableAiGatewayRunId, withLovableAiGatewayRunIdHeader } from "./run-id";
 
@@ -64,11 +65,35 @@ function errorText(e: unknown) {
   return "Kizuki couldn't answer that. Please try again.";
 }
 
+type AskSettings = { enabled: boolean; provider: string; model: string };
+
+// Remote kill-switch/provider picker from the project-owned backend (public read-only row).
+// Cached briefly; flipping the row takes effect within a minute, no app build or publish.
+let settingsCache: { at: number; v: AskSettings } | null = null;
+async function askSettings(): Promise<AskSettings> {
+  if (settingsCache && Date.now() - settingsCache.at < 60_000) return settingsCache.v;
+  const fallback: AskSettings = { enabled: true, provider: "lovable", model: MODEL };
+  try {
+    const res = await fetch(`${BACKEND_URL}/rest/v1/ask_settings?id=eq.1&select=enabled,provider,model`, {
+      headers: { apikey: BACKEND_PUBLISHABLE_KEY },
+    });
+    const rows = (await res.json()) as Partial<AskSettings>[];
+    const row = Array.isArray(rows) ? rows[0] : undefined;
+    const v: AskSettings = row && typeof row.enabled === "boolean"
+      ? { enabled: row.enabled, provider: String(row.provider || "lovable"), model: String(row.model || MODEL) }
+      : fallback;
+    settingsCache = { at: Date.now(), v };
+  } catch {
+    settingsCache = { at: Date.now(), v: fallback };
+  }
+  return settingsCache.v;
+}
+
 export async function handleAsk(request: Request): Promise<Response> {
   const apiKey = process.env["LOVABLE_API_KEY"];
-  const sbUrl = process.env["SUPABASE_URL"];
-  const sbKey = process.env["SUPABASE_PUBLISHABLE_KEY"];
-  if (!apiKey || !sbUrl || !sbKey) return json(500, "Ask Kizuki isn't set up yet.");
+  const sbUrl = BACKEND_URL;
+  const sbKey = BACKEND_PUBLISHABLE_KEY;
+  if (!apiKey) return json(500, "Ask Kizuki isn't set up yet.");
 
   // Only signed-in learners can ask (keeps the tutor from being used anonymously).
   const token = request.headers.get("authorization")?.replace(/^Bearer\s+/i, "").trim();
@@ -76,6 +101,8 @@ export async function handleAsk(request: Request): Promise<Response> {
   const auth = createClient(sbUrl, sbKey, { auth: { persistSession: false, autoRefreshToken: false } });
   const { data: user, error: authError } = await auth.auth.getUser(token);
   if (authError || !user?.user) return json(401, "Please sign in again to ask Kizuki.");
+  const settings = await askSettings();
+  if (!settings.enabled) return json(503, "Ask Kizuki is paused for now. Please try again later.");
   const billingKey = process.env['REVENUECAT_V2_SECRET_KEY'];
   if (!billingKey) return json(503, "We couldn't verify your subscription. Please try again.");
   try {
@@ -99,26 +126,31 @@ export async function handleAsk(request: Request): Promise<Response> {
     if (m.role === "user" && (t.trim() === "" || t.length > ASK_MAX_CHARS)) return json(400, `Questions can be up to ${ASK_MAX_CHARS} characters.`);
   }
 
-  return streamAsk(request, body, apiKey);
+  const key = settings.provider === "lovable" ? apiKey : process.env["OPENAI_API_KEY"] ?? "";
+  if (!key) return json(503, "Ask Kizuki is paused for now. Please try again later.");
+  return streamAsk(request, body, key, settings);
 }
 
 /** Stream the tutor's answer for an already validated, authorised request. */
-export async function streamAsk(request: Request, body: AskBody, apiKey: string): Promise<Response> {
+export async function streamAsk(request: Request, body: AskBody, apiKey: string, settings?: AskSettings): Promise<Response> {
+  const viaLovable = !settings || settings.provider === "lovable";
   // History keeps only text: the tutor needs the words, not earlier reasoning.
   const ui: UIMessage[] = body.messages
     .map((m) => ({ id: m.id, role: m.role, parts: [{ type: "text" as const, text: textOf(m).slice(0, 6000) }] }))
     .filter((m) => m.parts[0]?.text.trim() !== "");
   const messages = await convertToModelMessages(ui);
 
-  const runIdFetch = createLovableAiGatewayRunIdFetch(getLovableAiGatewayRunId(request));
-  const provider = createOpenAI({
-    baseURL: GATEWAY_URL,
-    apiKey,
-    headers: { "Lovable-API-Key": apiKey, "X-Lovable-AIG-SDK": "vercel-ai-sdk" },
-    fetch: runIdFetch.fetch,
-  });
+  const runIdFetch = viaLovable ? createLovableAiGatewayRunIdFetch(getLovableAiGatewayRunId(request)) : null;
+  const provider = viaLovable
+    ? createOpenAI({
+        baseURL: GATEWAY_URL,
+        apiKey,
+        headers: { "Lovable-API-Key": apiKey, "X-Lovable-AIG-SDK": "vercel-ai-sdk" },
+        fetch: runIdFetch!.fetch,
+      })
+    : createOpenAI({ apiKey });
   const result = streamText({
-    model: provider.responses(MODEL),
+    model: provider.responses(settings?.model || MODEL),
     instructions: instructions(body.context),
     messages,
     abortSignal: request.signal,
@@ -133,9 +165,6 @@ export async function streamAsk(request: Request, body: AskBody, apiKey: string)
     },
     onError: ({ error }) => console.error("ask: model call failed", error),
   });
-  return withLovableAiGatewayRunIdHeader(
-    result.toUIMessageStreamResponse({ sendReasoning: true, onError: errorText }),
-    runIdFetch,
-    ASK_CORS,
-  );
+  const stream = result.toUIMessageStreamResponse({ sendReasoning: true, onError: errorText, headers: ASK_CORS });
+  return viaLovable && runIdFetch ? withLovableAiGatewayRunIdHeader(stream, runIdFetch, ASK_CORS) : stream;
 }

@@ -18,6 +18,14 @@ const jlptLevels = ['N5', 'N4', 'N3', 'N2', 'N1'];
 
 List<String> signInProviders(String platform) => platform == 'android' ? const ['google'] : const ['google', 'apple'];
 bool founderVideoEnabled(Object? remote, [bool cached = true]) => remote is bool ? remote : cached;
+
+/// Server-sent founder video override: only a clean https link counts; anything else keeps
+/// the bundled clip.
+String? founderVideoUrl(Object? remote) {
+  if (remote is! String) return null;
+  final u = remote.trim();
+  return u.startsWith('https://') && u.length > 8 ? u : null;
+}
 String onboardingAfterPlan(bool enabled) => enabled ? '/founder' : '/trial';
 
 /// Remote native sign-in switch: off until the backend accepts this app's own provider
@@ -1039,3 +1047,140 @@ String? supportMessageError(String email, String message) {
 
 /// A completed purchase requires account verification before learning continues.
 bool purchaseNeedsAccount(bool pending, bool verified) => pending && !verified;
+
+// ---------------------------------------------------------------------------
+// Server content packs: more clips without an app update. The bundled library always stays
+// the default; a pack is used only after every file was downloaded and verified, from the
+// next app start. Mirrors src/lib/logic.ts.
+// ---------------------------------------------------------------------------
+
+const contentPackFormat = 1;
+const contentPackMaxFiles = 64;
+const contentPackMaxFileBytes = 40000000;
+
+class ContentPackFile {
+  final String name, sha256;
+  final int bytes;
+  const ContentPackFile(this.name, this.sha256, this.bytes);
+  Map<String, Object> toJson() => {'name': name, 'sha256': sha256, 'bytes': bytes};
+}
+
+class ContentPackManifest {
+  final int version;
+  final List<ContentPackFile> files;
+  final List<String> notes;
+  const ContentPackManifest(this.version, this.files, this.notes);
+  Map<String, Object> toJson() => {'format': contentPackFormat, 'version': version, 'files': [for (final f in files) f.toJson()], 'notes': notes};
+}
+
+final _packFileName = RegExp(r'^[a-z0-9][a-z0-9-]{0,40}\.json$');
+final _sha256Hex = RegExp(r'^[0-9a-f]{64}$');
+final _clipId = RegExp(r'^[A-Za-z0-9_-]{1,64}$');
+bool _isWhole(Object? v) => v is int || (v is double && v.isFinite && v == v.truncateToDouble());
+bool _isNum(Object? v) => v is num && v.isFinite;
+bool _allStrings(Object? v) => v is List && v.every((x) => x is String);
+
+/// What to do with the server's content row: stay on the bundled library ('bundled'), keep the
+/// pack already downloaded ('keep'), or fetch the newer one ('download'). Off switch, a missing
+/// link or a version that is not newer than the bundle all mean the bundle.
+String contentPackAction(Object? enabled, Object? version, Object? url, int bundledVersion, int? activeVersion) {
+  if (enabled == false) return 'bundled';
+  final v = _isWhole(version) ? (version as num).toInt() : null;
+  if (v == null || v <= bundledVersion || founderVideoUrl(url) == null) return 'bundled';
+  return v == activeVersion ? 'keep' : 'download';
+}
+
+/// A pack manifest the app can trust, or null: known format, the advertised version, safe
+/// file names, sha-256 checksums, bounded sizes, and the index + dictionary present.
+ContentPackManifest? contentPackManifest(Object? raw, int expectedVersion) {
+  if (raw is! Map || raw['format'] != contentPackFormat || !_isWhole(raw['version']) || (raw['version'] as num).toInt() != expectedVersion) return null;
+  final files = raw['files'];
+  if (files is! List || files.isEmpty || files.length > contentPackMaxFiles) return null;
+  final out = <ContentPackFile>[];
+  final names = <String>{};
+  for (final f in files) {
+    if (f is! Map) return null;
+    final name = f['name'], sha = f['sha256'], bytes = f['bytes'];
+    if (name is! String || !_packFileName.hasMatch(name) || names.contains(name)) return null;
+    if (sha is! String || !_sha256Hex.hasMatch(sha)) return null;
+    final size = _isWhole(bytes) ? (bytes as num).toInt() : 0;
+    if (size < 1 || size > contentPackMaxFileBytes) return null;
+    names.add(name);
+    out.add(ContentPackFile(name, sha, size));
+  }
+  if (!names.contains('content.json') || !names.contains('dict.json')) return null;
+  final notes = raw['notes'] ?? const [];
+  if (notes is! List || notes.length > contentPackMaxFiles) return null;
+  if (notes.any((n) => n is! String || !names.contains(n) || n == 'content.json' || n == 'dict.json') || notes.toSet().length != notes.length) return null;
+  return ContentPackManifest(expectedVersion, out, List<String>.from(notes));
+}
+
+/// Pack files are stored once by checksum next to the manifests (`…/packs/v2.json` → `…/objects/<sha>.json.gz`).
+String contentObjectUrl(String manifestUrl, String sha256) => Uri.parse(manifestUrl).resolve('../objects/$sha256.json.gz').toString();
+
+/// Which notes file holds a clip's explanations (FNV-1a over UTF-16 code units).
+int notesShard(String clipId, int count) => count < 1 ? -1 : fnv1a(clipId) % count;
+
+/// Problem with a pack's content.json, or null.
+String? contentIndexProblem(Object? index, ContentPackManifest manifest) {
+  if (index is! Map) return 'index';
+  if (index['version'] != manifest.version) return 'version';
+  final videos = index['videos'];
+  if (videos is! Map || videos.isEmpty) return 'videos';
+  for (final v in videos.values) {
+    if (v is! Map || v['title'] is! String || v['channel'] is! String || v['channelUrl'] is! String) return 'videos';
+  }
+  final names = {for (final f in manifest.files) f.name};
+  final parts = index['parts'];
+  if (parts is! List || parts.isEmpty || parts.toSet().length != parts.length) return 'parts';
+  for (final p in parts) {
+    if (p is! String || !names.contains(p) || p == 'content.json' || p == 'dict.json' || manifest.notes.contains(p)) return 'parts';
+  }
+  if (index['starter'] != null && !_allStrings(index['starter'])) return 'starter';
+  return null;
+}
+
+/// Problem with one clip of a pack, or null (fields every screen reads).
+String? contentClipProblem(Object? clip, Map videos) {
+  if (clip is! Map || clip['id'] is! String || !_clipId.hasMatch(clip['id'] as String) || clip['title'] is! String || clip['level'] is! String) return 'clip';
+  if (!_allStrings(clip['topics']) || !_allStrings(clip['grammar']) || (clip['quality'] != null && !_isNum(clip['quality']))) return 'clip';
+  final videoId = clip['videoId'];
+  if (videoId is! String || !videos.containsKey(videoId)) return 'video';
+  final start = clip['start'], end = clip['end'];
+  if (!_isNum(start) || !_isNum(end) || !((end as num) > (start as num))) return 'window';
+  final lines = clip['lines'];
+  if (lines is! List || lines.isEmpty) return 'lines';
+  for (final l in lines) {
+    if (l is! Map || !_isNum(l['start']) || !_isNum(l['end']) || l['words'] is! List) return 'lines';
+    for (final w in l['words'] as List) {
+      if (w is! Map || w['s'] is! String || !_isNum(w['t0']) || !_isNum(w['t1'])) return 'lines';
+    }
+  }
+  return null;
+}
+
+/// Problem with a pack's dictionary, or null.
+String? contentDictProblem(Object? dict) {
+  if (dict is! Map || dict.isEmpty) return 'dict';
+  for (final e in dict.values) {
+    if (e is! Map || e['w'] is! String || e['r'] is! String || e['m'] is! List || e['ex'] is! List) return 'dict';
+  }
+  return null;
+}
+
+/// Problem with a pack's notes file (clip id → explanations), or null.
+String? contentNotesProblem(Object? shard) {
+  if (shard is! Map) return 'notes';
+  for (final n in shard.values) {
+    if (n is! Map) return 'notes';
+    final w = n['w'] ?? const {}, l = n['l'] ?? const {};
+    if (w is! Map || l is! Map) return 'notes';
+    for (final x in w.values) {
+      if (x is! Map || x['m'] is! String || x['n'] is! String) return 'notes';
+    }
+    for (final x in l.values) {
+      if (x is! Map || x['lit'] is! String || x['tip'] is! String) return 'notes';
+    }
+  }
+  return null;
+}

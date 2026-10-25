@@ -7,6 +7,7 @@ import { LivelyMascot, Pop } from "@/components/mimi/Mascot";
 import { Button, Pill, ProgressHeader, Screen } from "@/components/mimi/ui";
 import { challengeBenefit, goalDateLabel, levelToJlpt, recommendedMinutes, windowLabel, wordsPerMonth } from "@/lib/logic";
 import { challengeOptions, levelOptions, reasonOptions, sourceOptions, streakOptions, windowOptions } from "@/lib/onboarding";
+import { prefetchFounderVideo } from "@/lib/onboarding-settings";
 import { track } from '@/lib/analytics';
 import { haptic } from "@/lib/haptics";
 import { requestReminderPermission } from "@/lib/reminders";
@@ -39,6 +40,8 @@ function Onboarding() {
   const step = STEPS[i] ?? 'reasons';
 
   useEffect(() => track('onboarding_step_viewed', { step, step_index: i }), [step, i]);
+  // Warm the server-sent founder video a few screens before its slide.
+  useEffect(() => prefetchFounderVideo(), []);
   const next = () => {
     track('onboarding_step_completed', { step, step_index: i });
     if (i === STEPS.length - 1) {

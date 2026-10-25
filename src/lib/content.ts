@@ -1,6 +1,8 @@
-// Loads the shared clip library + dictionary (public/data, same files bundled in Flutter
-// mobile/assets/data). Written by scripts/content/build.ts — never hand-edit the JSON.
-import type { RankClip, StarterClip } from "./logic";
+// Loads the shared clip library + dictionary: the bundled files (public/data, same files bundled
+// in Flutter mobile/assets/data, written by scripts/content/build.ts — never hand-edit the JSON),
+// or a newer server pack once it was downloaded and verified (./content-pack.ts).
+import { dropPack, hasStoredPack, packText, storedPack, syncContentPack, type ActivePack } from "./content-pack";
+import { notesShard, type RankClip, type StarterClip } from "./logic";
 
 export type Word = {
   s: string; r: string; ro: string; b: string; p: string; d: string | null;
@@ -26,38 +28,99 @@ export type Content = {
   starter: StarterClip[];
 };
 
+type Index = { version?: number; videos: Record<string, Video>; parts: string[]; starter?: string[] };
+type Source = { index: Index; clips: Clip[]; dict: Record<string, DictEntry> };
+
 const fetchJson = (u: string) => fetch(u).then((r) => { if (!r.ok) throw new Error(`content ${r.status}`); return r.json(); });
 
 let contentPromise: Promise<Content> | null = null;
 let loaded: Content | null = null;
 const notesCache = new Map<string, Promise<ClipNotes>>();
+/** The verified server pack this load reads, or null for the bundled library. */
+let activePack: ActivePack | null = null;
+let syncScheduled = false;
+
+async function fromPack(pack: ActivePack): Promise<Source> {
+  const index = JSON.parse(await packText(pack, "content.json")) as Index;
+  const [parts, dict] = await Promise.all([
+    Promise.all(index.parts.map((p) => packText(pack, p).then((t) => JSON.parse(t) as { clips: Clip[] }))),
+    packText(pack, "dict.json").then((t) => JSON.parse(t) as Record<string, DictEntry>),
+  ]);
+  return { index, clips: parts.flatMap((x) => x.clips), dict };
+}
+
+/** Checks for a newer pack once per page load, after start-up work has settled. */
+function scheduleSync(bundledVersion: number) {
+  if (syncScheduled || typeof window === "undefined") return;
+  syncScheduled = true;
+  window.setTimeout(() => { void syncContentPack(bundledVersion).then((o) => console.info(`[kizuki] content pack ${o}`)); }, 8000);
+}
 
 export function loadContent(): Promise<Content> {
   if (!contentPromise) {
-    contentPromise = Promise.all([
-      fetchJson("/data/content.json").then(async (m) => ({
-        videos: m.videos,
-        starter: (m.starter ?? []) as string[],
+    contentPromise = (async () => {
+      const packed = hasStoredPack();
+      const indexP = fetchJson("/data/content.json") as Promise<Index>;
+      // Without a downloaded pack the bundled dictionary loads alongside the index, as before.
+      const dictP = packed ? null : (fetchJson("/data/dict.json") as Promise<Record<string, DictEntry>>);
+      const index = await indexP;
+      const bundledVersion = Number.isInteger(index.version) ? index.version! : 1;
+      let src: Source | null = null;
+      const pack = packed ? storedPack(bundledVersion) : null;
+      if (pack) {
+        try {
+          src = await fromPack(pack);
+          activePack = pack;
+        } catch {
+          // A pack that does not load is dropped for good; the bundle below takes over.
+          activePack = null;
+          dropPack();
+        }
+      } else if (packed) dropPack();
+      if (!src) {
         // Clips are sharded (see scripts/content/build.ts); load every part in parallel.
-        clips: (await Promise.all((m.parts as string[]).map((p) => fetchJson(`/data/${p}`)))).flatMap((x) => x.clips),
-      })),
-      fetch("/data/dict.json").then((r) => { if (!r.ok) throw new Error(`dict ${r.status}`); return r.json(); }),
-    ]).then(([c, d]) => {
-      const byId: Record<string, Clip> = Object.fromEntries(c.clips.map((x: Clip) => [x.id, x]));
-      const starter = c.starter.filter((id) => byId[id]).map((id) => ({ id, level: byId[id]!.level }));
-      loaded = { videos: c.videos, clips: c.clips, byId, dict: d, starter };
+        const [parts, dict] = await Promise.all([
+          Promise.all(index.parts.map((p) => fetchJson(`/data/${p}`) as Promise<{ clips: Clip[] }>)),
+          dictP ?? (fetchJson("/data/dict.json") as Promise<Record<string, DictEntry>>),
+        ]);
+        src = { index, clips: parts.flatMap((x) => x.clips), dict };
+      }
+      const byId: Record<string, Clip> = Object.fromEntries(src.clips.map((x) => [x.id, x]));
+      const starter = (src.index.starter ?? []).filter((id) => byId[id]).map((id) => ({ id, level: byId[id]!.level }));
+      loaded = { videos: src.index.videos, clips: src.clips, byId, dict: src.dict, starter };
+      scheduleSync(bundledVersion);
       return loaded;
-    }).catch((e) => { contentPromise = null; throw e; });
+    })().catch((e) => { contentPromise = null; throw e; });
   }
   return contentPromise;
 }
 
 export const getContent = () => loaded;
 
+const EMPTY_NOTES: ClipNotes = { w: {}, l: {} };
+/** Pack notes files; the two most recent stay in memory. */
+const shards = new Map<string, Promise<Record<string, ClipNotes> | null>>();
+
+function packShard(pack: ActivePack, name: string): Promise<Record<string, ClipNotes> | null> {
+  const hit = shards.get(name);
+  if (hit) { shards.delete(name); shards.set(name, hit); return hit; }
+  const p = packText(pack, name).then((t) => JSON.parse(t) as Record<string, ClipNotes>).catch(() => null);
+  shards.set(name, p);
+  while (shards.size > 2) shards.delete(shards.keys().next().value!);
+  return p;
+}
+
+const bundledNotes = (clipId: string): Promise<ClipNotes> =>
+  fetch(`/data/explain/${clipId}.json`).then((r) => (r.ok ? r.json() : EMPTY_NOTES)).catch(() => EMPTY_NOTES);
+
 export function loadNotes(clipId: string): Promise<ClipNotes> {
   let p = notesCache.get(clipId);
   if (!p) {
-    p = fetch(`/data/explain/${clipId}.json`).then((r) => (r.ok ? r.json() : { w: {}, l: {} })).catch(() => ({ w: {}, l: {} }));
+    const pack = activePack;
+    const names = pack?.manifest.notes ?? [];
+    p = pack && names.length
+      ? packShard(pack, names[notesShard(clipId, names.length)]!).then((s) => s?.[clipId] ?? bundledNotes(clipId))
+      : bundledNotes(clipId);
     notesCache.set(clipId, p);
   }
   return p;

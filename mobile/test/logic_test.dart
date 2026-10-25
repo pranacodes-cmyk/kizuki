@@ -15,6 +15,13 @@ void main() {
     expect(founderVideoEnabled(null, false), false);
     expect(founderVideoEnabled('false', true), true);
   });
+  test('server founder video url: only a clean https link counts', () {
+    expect(founderVideoUrl(null), null);
+    expect(founderVideoUrl(''), null);
+    expect(founderVideoUrl(42), null);
+    expect(founderVideoUrl('http://insecure.example/x.mp4'), null);
+    expect(founderVideoUrl('  https://cdn.example.com/hello.mp4  '), 'https://cdn.example.com/hello.mp4');
+  });
   test('Android offers only Google', () => expect(signInProviders('android'), ['google']));
   test('iOS offers Google and Apple', () => expect(signInProviders('ios'), ['google', 'apple']));
   test('native sign-in stays off until its remote switch is on', () {
@@ -540,6 +547,98 @@ void main() {
       expect(supportMessageError('aiko@example.com', 'a' * 2000), null);
       expect(supportMessageError('aiko@example.com', 'a' * 2001), 'Keep it under 2000 characters.');
       expect(supportTopics, ['subscription', 'account', 'bug', 'content', 'feedback', 'other']);
+    });
+  });
+
+  group('server content packs', () {
+    String sha(String c) => List.filled(64 ~/ c.length, c).join();
+    const url = 'https://cdn.example.com/storage/v1/object/public/content/packs/v2.json';
+    final files = [
+      {'name': 'content.json', 'sha256': sha('a'), 'bytes': 10},
+      {'name': 'content-0.json', 'sha256': sha('b'), 'bytes': 20},
+      {'name': 'dict.json', 'sha256': sha('c'), 'bytes': 30},
+      {'name': 'notes-0.json', 'sha256': sha('d'), 'bytes': 40},
+    ];
+    final manifest = <String, Object>{'format': 1, 'version': 2, 'files': files, 'notes': ['notes-0.json']};
+    final index = <String, Object>{
+      'version': 2,
+      'videos': {'v1': {'title': 't', 'channel': 'c', 'channelUrl': 'https://youtube.com/@c'}},
+      'parts': ['content-0.json'],
+      'starter': ['v1-0'],
+    };
+    final clip = <String, Object>{
+      'id': 'v1-0', 'videoId': 'v1', 'title': 'Hi', 'level': 'N5', 'start': 0, 'end': 4.5, 'topics': ['daily'], 'grammar': <String>[], 'quality': 4,
+      'lines': [{'start': 0, 'end': 2, 'en': 'Hi', 'words': [{'s': 'こんにちは', 't0': 0, 't1': 1}]}],
+    };
+
+    test('off switch, a missing link or a pack not newer than the bundle keep the bundled library', () {
+      expect(contentPackAction(false, 2, url, 1, null), 'bundled');
+      expect(contentPackAction(true, null, url, 1, 2), 'bundled');
+      expect(contentPackAction(true, 2, null, 1, 2), 'bundled');
+      expect(contentPackAction(true, 2, 'http://cdn.example.com/v2.json', 1, null), 'bundled');
+      expect(contentPackAction(true, 1, url, 1, null), 'bundled');
+      expect(contentPackAction(true, 2.5, url, 1, null), 'bundled');
+    });
+    test('a newer pack downloads once, then is kept', () {
+      expect(contentPackAction(true, 2, url, 1, null), 'download');
+      expect(contentPackAction(null, 3, url, 1, 2), 'download');
+      expect(contentPackAction(true, 2, url, 1, 2), 'keep');
+    });
+    test('only a well-formed manifest of the advertised version is trusted', () {
+      expect(contentPackManifest(manifest, 2)?.files.length, 4);
+      expect(contentPackManifest(manifest, 2)?.notes, ['notes-0.json']);
+      expect(contentPackManifest(manifest, 3), null);
+      expect(contentPackManifest({...manifest, 'format': 2}, 2), null);
+      expect(contentPackManifest({...manifest, 'files': [...files, {'name': '../x.json', 'sha256': sha('e'), 'bytes': 1}]}, 2), null);
+      expect(contentPackManifest({...manifest, 'files': [...files, {'name': 'content.json', 'sha256': sha('e'), 'bytes': 1}]}, 2), null);
+      expect(contentPackManifest({...manifest, 'files': [{'name': 'content.json', 'sha256': 'xyz', 'bytes': 10}, ...files.skip(1)]}, 2), null);
+      expect(contentPackManifest({...manifest, 'files': [{'name': 'content.json', 'sha256': sha('a'), 'bytes': 0}, ...files.skip(1)]}, 2), null);
+      expect(contentPackManifest({...manifest, 'files': files.where((f) => f['name'] != 'dict.json').toList()}, 2), null);
+      expect(contentPackManifest({...manifest, 'notes': ['notes-9.json']}, 2), null);
+      expect(contentPackManifest({...manifest, 'notes': ['dict.json']}, 2), null);
+      expect(contentPackManifest({'format': 1, 'version': 2, 'files': files}, 2)?.notes, <String>[]);
+    });
+    test('pack files live by checksum next to the manifests', () {
+      expect(contentObjectUrl(url, sha('ab')), 'https://cdn.example.com/storage/v1/object/public/content/objects/${sha('ab')}.json.gz');
+      expect(contentObjectUrl('$url?x=1', sha('f')), 'https://cdn.example.com/storage/v1/object/public/content/objects/${sha('f')}.json.gz');
+    });
+    test("a clip's notes always come from the same notes file", () {
+      expect(notesShard('-3YHidnEqx4-295', 8), 2);
+      expect(notesShard('abc', 8), 3);
+      expect(notesShard('zZ_9-1', 8), 3);
+      expect(notesShard('Kizuki', 3), 2);
+      expect(notesShard('abc', 0), -1);
+    });
+    test('pack index problems', () {
+      final m = contentPackManifest(manifest, 2)!;
+      expect(contentIndexProblem(index, m), null);
+      expect(contentIndexProblem(<Object>[], m), 'index');
+      expect(contentIndexProblem({...index, 'version': 1}, m), 'version');
+      expect(contentIndexProblem({...index, 'videos': <String, Object>{}}, m), 'videos');
+      expect(contentIndexProblem({...index, 'videos': {'v1': {'title': 't'}}}, m), 'videos');
+      expect(contentIndexProblem({...index, 'parts': ['content-1.json']}, m), 'parts');
+      expect(contentIndexProblem({...index, 'parts': ['notes-0.json']}, m), 'parts');
+      expect(contentIndexProblem({...index, 'parts': <String>[]}, m), 'parts');
+      expect(contentIndexProblem({...index, 'starter': [1]}, m), 'starter');
+    });
+    test('pack clip problems', () {
+      final videos = index['videos'] as Map;
+      expect(contentClipProblem(clip, videos), null);
+      expect(contentClipProblem({...clip, 'id': 'a/b'}, videos), 'clip');
+      expect(contentClipProblem({...clip, 'topics': [1]}, videos), 'clip');
+      expect(contentClipProblem({...clip, 'videoId': 'zz'}, videos), 'video');
+      expect(contentClipProblem({...clip, 'end': 0}, videos), 'window');
+      expect(contentClipProblem({...clip, 'lines': <Object>[]}, videos), 'lines');
+      expect(contentClipProblem({...clip, 'lines': [{'start': 0, 'end': 2, 'words': [{'s': 'x', 't1': 1}]}]}, videos), 'lines');
+    });
+    test('pack dictionary and notes problems', () {
+      expect(contentDictProblem({'1': {'w': '猫', 'r': 'ねこ', 'm': <Object>[], 'ex': <Object>[]}}), null);
+      expect(contentDictProblem(<String, Object>{}), 'dict');
+      expect(contentDictProblem({'1': {'w': '猫'}}), 'dict');
+      expect(contentNotesProblem({'v1-0': {'w': {'0.0': {'m': 'hello', 'n': ''}}, 'l': {'0': {'lit': 'a', 'tip': 'b'}}}}), null);
+      expect(contentNotesProblem({'v1-0': <String, Object>{}}), null);
+      expect(contentNotesProblem({'v1-0': {'w': {'0.0': {'m': 1}}}}), 'notes');
+      expect(contentNotesProblem(<Object>[]), 'notes');
     });
   });
 }

@@ -7,6 +7,7 @@ import 'package:provider/provider.dart';
 
 import '../data/onboarding.dart';
 import '../logic/logic.dart';
+import '../services/founder_video.dart';
 import '../services/haptics.dart';
 import '../services/analytics.dart';
 import '../services/notification_service.dart';
@@ -32,7 +33,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   int dir = 1;
 
   @override
-  void initState() { super.initState(); Analytics.track('onboarding_step_viewed', {'step': _steps[i], 'step_index': i}); }
+  void initState() { super.initState(); FounderVideo.prefetch(); Analytics.track('onboarding_step_viewed', {'step': _steps[i], 'step_index': i}); }
 
   void next() {
     Analytics.track('onboarding_step_completed', {'step': _steps[i], 'step_index': i});

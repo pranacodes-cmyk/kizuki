@@ -110,9 +110,15 @@ class _VocabScreenState extends State<VocabScreen> {
           const SizedBox(height: 8),
           _DeckRow(icon: '🔖', title: 'Your words', sub: '${counts.saved} saved from clips', badge: counts.due, onTap: counts.due > 0 ? () => context.push('/review?deck=words') : null),
           const SizedBox(height: 8),
-          _DeckRow(icon: 'あ', title: 'Hiragana', sub: '${kanaLearned(_hira, app.kana)} / ${_hira.length} known', badge: hiraDue, onTap: () => context.push('/review?deck=hiragana')),
-          const SizedBox(height: 8),
-          _DeckRow(icon: 'ア', title: 'Katakana', sub: '${kanaLearned(_kata, app.kana)} / ${_kata.length} known', badge: kataDue, onTap: () => context.push('/review?deck=katakana')),
+          // The welcome tour's "kanaDecks" step spotlights both alphabet decks together.
+          TourAnchor(
+            id: 'kanaDecks',
+            child: Column(children: [
+              _DeckRow(icon: 'あ', title: 'Hiragana', sub: '${kanaLearned(_hira, app.kana)} / ${_hira.length} known', badge: hiraDue, onTap: () => context.push('/review?deck=hiragana')),
+              const SizedBox(height: 8),
+              _DeckRow(icon: 'ア', title: 'Katakana', sub: '${kanaLearned(_kata, app.kana)} / ${_kata.length} known', badge: kataDue, onTap: () => context.push('/review?deck=katakana')),
+            ]),
+          ),
           const SizedBox(height: 24),
           TextField(
             controller: _text,
