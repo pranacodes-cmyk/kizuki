@@ -338,7 +338,6 @@ class _StepPlans extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final days = plan == 'yearly' && Billing.trialEligible ? OnboardingSettings.trialDayCount : 0;
-    final trial = days > 0;
     final link = txt(12, w: FontWeight.w400, c: T.faint).copyWith(decoration: TextDecoration.underline, decorationColor: T.faint);
     final small = TextButton.styleFrom(minimumSize: const Size(44, 40), padding: const EdgeInsets.symmetric(horizontal: 10), tapTargetSize: MaterialTapTargetSize.shrinkWrap);
     return _pinned(
