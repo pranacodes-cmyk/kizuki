@@ -10,6 +10,8 @@ class OnboardingBack extends StatelessWidget {
   @override
   Widget build(BuildContext context) => BackButtonListener(
         onBackButtonPressed: () async {
+          // A root-navigator dialog/sheet gets Back first, not the screen below it.
+          if (ModalRoute.of(context)?.isCurrent != true) return false;
           onBack();
           return true;
         },

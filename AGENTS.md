@@ -57,6 +57,6 @@
 - Owner-only public.profiles stores identity display fields and learning preferences alongside learner_state; auth signup creates the row and sync updates it. Why: account profiles remain available across devices without an onboarding name prompt.
 - Haptics go only through the semantic kinds in `src/lib/haptics.ts` / `mobile/lib/services/haptics.dart` (tap, select, tick, light, success, celebrate, error), gated by the persisted `settings.haptics` toggle; mascot/splash motion uses the mirrored curves in `mascot-motion.ts` / `mascot_motion.dart` and freezes under reduced motion. Why: both clients feel identical, and users can turn vibration off in one place.
 - Phones use native Google/Apple signInWithIdToken only (mirrored signInProviders/signInMethod); failures stay in-app, never open a browser. Legacy incoming hand-offs remain readable; web retains browser OAuth. Why: preserve the native journey; verify backend audiences separately.
-- Analytics requires Settings opt-in; no launch overlay. Why: no blocked entry or silent tracking.
+- Analytics requires Settings opt-in, no launch overlay. Why: safe unobstructed entry.
 
 - Backend is the project-owned external Supabase (ref gcoboyhfhadivheoilxp); web uses `src/lib/backend.ts` + `backend-config.ts`, Flutter uses AppConfig (`mobile/lib/services/config.dart`), server routes read those constants, not SUPABASE_* env. Why: founder owns the backend dashboard; no managed-cloud dependency.
