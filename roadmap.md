@@ -7,9 +7,11 @@
 - [x] Confirm Google Play internal and App Store Connect/TestFlight uploads (1.2.0 build 117; Apple VALID; not public review).
 
 ## Reported phone regressions — 2026-10-25
-- [ ] Fix trial preview first-frame blink/black startup in Flutter, then mirror web.
-- [ ] Fix welcome tour card/Skip overlap and clipped copy in Flutter, then mirror web.
-- [ ] Run targeted tests and inspect relevant small-screen flow; report native verification limits honestly.
+- [ ] Fix Android system Back across onboarding without closing the app; add regression coverage.
+- [x] Remove redundant initial seek and poster-over-player transition in Flutter, then mirror web; native startup improvement still needs visual verification.
+- [x] Fix welcome tour card/Skip overlap and clipped copy in Flutter, then mirror web (384×624 and 402×874 web screenshots inspected).
+- [x] Run 164 web tests, Flutter analyze/tests and emulator flow; inspect native kana screenshot (clean) and trial screenshots (still buffering despite passing E2E).
+- [ ] Verify native video first-frame timing: blocked by emulator playback remaining in buffering; explicit play without re-seek added but not yet validated. Do not ship this fix as proven.
 
 - [x] Verify external project access via Management API (token EXT_SB_ACCESS_TOKEN)
 - [x] Dump current schema: tables, RLS policies, triggers, functions

@@ -10,6 +10,7 @@ import 'package:mimi/screens/trial.dart';
 import 'package:mimi/state/app_state.dart';
 import 'package:mimi/widgets/feed_pager.dart';
 import 'package:mimi/widgets/feed_preview.dart';
+import 'package:mimi/widgets/clip_player.dart';
 import 'package:mimi/widgets/tour.dart';
 import 'package:provider/provider.dart';
 import 'package:video_player/video_player.dart';
@@ -86,6 +87,11 @@ void main() {
     await shot('02_onboarding_reasons');
     await tapText('Work', after: 300);
     await tapText('Continue', after: 900);
+    await tester.binding.handlePopRoute();
+    await wait(500);
+    expect(find.text('Why do you want to learn Japanese?'), findsOneWidget);
+    expect(state().profile.reasons, ['work']);
+    await tapText('Continue', after: 900);
     await tapText("I'm new to Japanese", after: 1200);
     await tapText('Understanding natives', after: 300);
     await tapText('Continue', after: 900);
@@ -121,10 +127,25 @@ void main() {
       debugPrint('E2E_INFO founder screen switched off remotely: plan went straight to trial');
     }
     await waitFor(trial, seconds: 20, what: 'trial');
+    // Founder uses go('/trial'), leaving a single page: system Back must still
+    // navigate to the previous onboarding screen, not close the app.
+    await tester.binding.handlePopRoute();
+    await wait(1200);
+    expect(find.byType(TrialScreen), findsNothing);
+    await tapText('Continue', after: 1200);
+    await waitFor(trial, seconds: 20, what: 'trial after Back');
     await shot('08_trial');
     // The phone mockup plays the personal feed demo (it used to be empty).
     await wait(3500);
     await shot('08b_trial_demo');
+    final previewPlayer = find.descendant(of: find.byType(FeedPreview), matching: find.byType(ClipPlayer));
+    await waitUntil(() {
+      final active = previewPlayer.evaluate().where((e) => (e.widget as ClipPlayer).active);
+      if (active.isEmpty) return false;
+      final e = active.first as StatefulElement;
+      return (e.state as ClipPlayerState).time > (e.widget as ClipPlayer).clip.start + 0.5;
+    }, seconds: 25, what: 'trial video actually advancing');
+    await shot('08b_trial_playing_verified');
     final previewPager = find.descendant(of: find.byType(FeedPreview), matching: find.byType(PageView));
     expect(previewPager, findsOneWidget);
     await tester.fling(previewPager, const Offset(0, -200), 1200);

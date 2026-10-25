@@ -15,6 +15,7 @@ import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import '../widgets/common.dart';
 import '../widgets/lively_mascot.dart';
+import '../widgets/onboarding_back.dart';
 import '../widgets/ui.dart';
 
 /// Onboarding questions — mirrors src/routes/onboarding.tsx (same 9 steps and copy).
@@ -51,7 +52,11 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   void back() {
     Analytics.track('onboarding_step_back', {'step': _steps[i]});
     if (i == 0) {
-      context.pop();
+      if (context.canPop()) {
+        context.pop();
+      } else {
+        context.go('/');
+      }
     } else {
       setState(() {
         dir = -1;
@@ -119,11 +124,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       default:
         body = const SizedBox.shrink();
     }
-    return PopScope(
-      canPop: i == 0,
-      onPopInvokedWithResult: (didPop, _) {
-        if (!didPop) back();
-      },
+    return OnboardingBack(
+      onBack: back,
       child: Scaffold(
         body: SafeArea(
           child: Column(children: [

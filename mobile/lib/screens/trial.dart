@@ -18,6 +18,7 @@ import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import '../widgets/feed_preview.dart';
 import '../widgets/lively_mascot.dart';
+import '../widgets/onboarding_back.dart';
 import '../widgets/toast.dart';
 import '../widgets/ui.dart';
 
@@ -127,7 +128,12 @@ class _TrialScreenState extends State<TrialScreen> {
     } else if (step > 0) {
       setState(() => step--);
     } else {
-      context.pop();
+      final app = context.read<AppState>();
+      if (!app.onboarded) {
+        context.go(OnboardingSettings.enabled ? '/founder' : '/plan');
+      } else {
+        confirmAppExit(context);
+      }
     }
   }
 
@@ -153,11 +159,8 @@ class _TrialScreenState extends State<TrialScreen> {
               }),
             _ => _StepPlans(plan: plan, setPlan: (p) { setState(() => plan = p); Analytics.track('plan_selected', {'plan': p}); }, busy: busy, onStart: _start, onSkip: _skip, onRestore: _restore),
           };
-          return PopScope(
-            canPop: step == 0 && !busy,
-            onPopInvokedWithResult: (didPop, _) {
-              if (!didPop) _back();
-            },
+          return OnboardingBack(
+            onBack: _back,
             child: Scaffold(
               body: SafeArea(
                 child: Column(children: [

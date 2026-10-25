@@ -151,7 +151,11 @@ class ClipPlayerState extends State<ClipPlayer> {
       // its first decoded frame and causes a second buffering/black-screen cycle.
       if (widget.active) {
         await c.setPlaybackRate(widget.rate);
-        if (_wantPause) await c.pauseVideo();
+        if (_wantPause) {
+          await c.pauseVideo();
+        } else {
+          await c.playVideo(); // autoplay may be held until the ready command finishes
+        }
       }
     } catch (_) {
       if (mounted && identical(_c, c)) {

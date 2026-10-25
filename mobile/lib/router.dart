@@ -21,6 +21,8 @@ import 'screens/welcome.dart';
 import 'state/app_state.dart';
 import 'logic/logic.dart';
 import 'widgets/tab_bar.dart';
+import 'widgets/onboarding_back.dart';
+import 'widgets/ui.dart' show confirmAppExit;
 
 /// Same paths as the web prototype (src/routes).
 GoRouter buildRouter(AppState app) {
@@ -45,11 +47,22 @@ GoRouter buildRouter(AppState app) {
     routes: [
       GoRoute(path: '/', pageBuilder: (c, s) => fade(s, const WelcomeScreen())),
       GoRoute(path: '/onboarding', pageBuilder: (c, s) => fade(s, const OnboardingScreen())),
-      GoRoute(path: '/building', pageBuilder: (c, s) => fade(s, const BuildingScreen())),
-      GoRoute(path: '/plan', pageBuilder: (c, s) => fade(s, const PlanScreen())),
-      GoRoute(path: '/founder', pageBuilder: (c, s) => fade(s, const FounderScreen())),
+      GoRoute(path: '/building', pageBuilder: (c, s) => fade(s, OnboardingBack(onBack: () => c.canPop() ? c.pop() : c.go('/onboarding'), child: const BuildingScreen()))),
+      GoRoute(path: '/plan', pageBuilder: (c, s) => fade(s, OnboardingBack(onBack: () => c.canPop() ? c.pop() : c.go('/onboarding'), child: const PlanScreen()))),
+      GoRoute(path: '/founder', pageBuilder: (c, s) => fade(s, OnboardingBack(onBack: () => c.canPop() ? c.pop() : c.go('/plan'), child: const FounderScreen()))),
       GoRoute(path: '/trial', builder: (c, s) => const TrialScreen()),
-      GoRoute(path: '/account', builder: (c, s) => AccountScreen(signInMode: s.uri.queryParameters['mode'] == 'signin')),
+      GoRoute(path: '/account', builder: (c, s) => OnboardingBack(
+        onBack: () {
+          if (app.purchaseAccountPending) {
+            confirmAppExit(c);
+          } else if (c.canPop()) {
+            c.pop();
+          } else {
+            c.go(app.onboarded ? '/profile' : '/');
+          }
+        },
+        child: AccountScreen(signInMode: s.uri.queryParameters['mode'] == 'signin'),
+      )),
       ShellRoute(
         builder: (c, s, child) => TabShell(child: child),
         routes: [
