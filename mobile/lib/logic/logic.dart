@@ -24,10 +24,9 @@ String onboardingAfterPlan(bool enabled) => enabled ? '/founder' : '/trial';
 /// tokens; a missing/invalid value keeps the last valid one.
 bool nativeSignInEnabled(Object? remote, [bool cached = false]) => remote is bool ? remote : cached;
 
-/// How a phone sign-in runs: the native account sheet when its switch is on, otherwise
-/// the browser hand-off through the published site (also the fallback when native fails).
-String signInMethod(String provider, {required bool nativeGoogle, required bool nativeApple}) =>
-    (provider == 'google' && nativeGoogle) || (provider == 'apple' && nativeApple) ? 'native' : 'browser';
+/// Phone sign-in never substitutes a browser for the requested native account sheet.
+String signInMethod(String provider) =>
+    provider == 'google' || provider == 'apple' ? 'native' : 'unavailable';
 
 /// Learner progress on a device belongs to the account it last synced with (`owner`).
 /// Progress made before any sign-in (no owner) joins the first account; signing into a

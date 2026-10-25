@@ -5,12 +5,9 @@ import 'package:flutter/foundation.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:url_launcher/url_launcher.dart';
 import '../logic/logic.dart';
 import '../services/auth_links.dart';
-import '../services/config.dart';
 import '../services/native_auth.dart';
-import '../services/onboarding_settings.dart';
 import '../widgets/provider_icon.dart';
 import '../services/analytics.dart';
 import '../services/sync_service.dart';
@@ -19,9 +16,8 @@ import '../theme/tokens.dart';
 import '../widgets/ui.dart';
 
 /// Save progress / sign in — mirrors src/routes/account.tsx. Sign-in is social only:
-/// Google on Android, Google and Apple on iOS. A provider uses its native account sheet
-/// once its remote switch is on; otherwise — and whenever native sign-in fails — the
-/// published site signs in through the browser and hands the session back (kizuki://auth).
+/// Google on Android, Google and Apple on iOS. Always uses the native account sheet;
+/// failures stay here with a retry, never silently launch the browser.
 class AccountScreen extends StatefulWidget {
   final bool signInMode;
   const AccountScreen({super.key, this.signInMode = false});
@@ -42,9 +38,7 @@ String friendlyAuthError(Object err) {
 String get _platform => defaultTargetPlatform == TargetPlatform.android ? 'android' : 'ios';
 
 class _AccountScreenState extends State<AccountScreen> {
-  bool busy = false; // native sheet or restoring the handed-back session
-  bool waiting = false; // browser is open, the learner signs in there
-  String? waitingProvider;
+  bool busy = false; // native sheet or restoring a legacy handed-back session
   String? error;
 
   bool get requiredAccount => context.read<AppState>().purchaseAccountPending;
@@ -110,8 +104,6 @@ class _AccountScreenState extends State<AccountScreen> {
   Future<void> _onHandoff(String sessionJson) async {
     if (!mounted) return;
     setState(() {
-      waiting = false;
-      waitingProvider = null;
       busy = true;
       error = null;
     });
@@ -135,7 +127,6 @@ class _AccountScreenState extends State<AccountScreen> {
     final ok = await SyncService.I.ensureBackend().timeout(const Duration(seconds: 12), onTimeout: () => false);
     if (!ok && mounted) {
       setState(() {
-        waiting = false;
         busy = false;
         error = "You're offline. Check your connection and try again.";
       });
@@ -149,13 +140,10 @@ class _AccountScreenState extends State<AccountScreen> {
     setState(() {
       error = null;
       busy = true;
-      waiting = false;
     });
     if (!await _backend()) return;
-    // Fresh switch values; offline keeps the last valid ones.
-    await OnboardingSettings.refresh().timeout(const Duration(seconds: 3), onTimeout: () {});
     if (!mounted) return;
-    final method = signInMethod(provider, nativeGoogle: OnboardingSettings.nativeGoogle, nativeApple: OnboardingSettings.nativeApple);
+    final method = signInMethod(provider);
     if (method == 'native') {
       try {
         await NativeAuth.signIn(provider);
@@ -167,39 +155,15 @@ class _AccountScreenState extends State<AccountScreen> {
           if (mounted) setState(() => busy = false);
           return;
         }
-        // Any other native failure (provider setup, backend rejected the token): the
-        // browser hand-off still signs the learner in, so they are never stuck here.
-        debugPrint('KIZUKI_WARN native sign-in failed, using browser: $e');
-        Analytics.track('sign_in_failed', {'category': 'native_fallback'});
-      }
-    }
-    if (mounted) await _browser(provider);
-  }
-
-  Future<void> _browser(String provider) async {
-    setState(() {
-      busy = false;
-      waiting = true;
-      waitingProvider = provider;
-      error = null;
-    });
-    final url = Uri.parse('${AppConfig.webOrigin}/account?bridge=1&provider=$provider&platform=$_platform');
-    try {
-      final ok = await launchUrl(url, mode: LaunchMode.externalApplication);
-      if (!ok && mounted) {
-        setState(() {
-          waiting = false;
-          error = "Couldn't open the browser. Please try again.";
-        });
-      }
-    } catch (e) {
-      if (mounted) {
-        setState(() {
-          waiting = false;
+        Analytics.track('sign_in_failed', {'category': 'native'});
+        if (mounted) setState(() {
+          busy = false;
           error = friendlyAuthError(e);
         });
       }
+      return;
     }
+    if (mounted) setState(() { busy = false; error = 'This sign-in method is not available on this device.'; });
   }
 
   void _later() {
@@ -214,74 +178,72 @@ class _AccountScreenState extends State<AccountScreen> {
 
   String _label(String provider) => provider == 'google' ? 'Google' : 'Apple';
 
+  /// Provider tile: rounded icon chip + label + chevron (mirrors account.tsx).
+  Widget _providerTile(String provider) => Semantics(
+        button: true,
+        label: 'Continue with ${_label(provider)}',
+        child: Button3D(
+          key: ValueKey('account-$provider'),
+          onPressed: () => _oauth(provider),
+          variant: BtnVariant.surface,
+          height: 68,
+          child: Row(children: [
+            Container(
+              width: 44,
+              height: 44,
+              decoration: BoxDecoration(color: T.surface3, borderRadius: BorderRadius.circular(12)),
+              alignment: Alignment.center,
+              child: ProviderIcon(provider),
+            ),
+            const SizedBox(width: 14),
+            Expanded(child: Text('Continue with ${_label(provider)}', style: txt(16, w: FontWeight.w800))),
+            const Icon(Icons.chevron_right, color: T.faint),
+          ]),
+        ),
+      );
+
   @override
   Widget build(BuildContext context) {
     final signin = widget.signInMode;
     return Scaffold(
       body: SafeArea(
-        child: CustomScrollView(slivers: [
-          if (!requiredAccount) SliverToBoxAdapter(child: TopBar(onBack: () => context.canPop() ? context.pop() : context.go('/'))),
-          SliverToBoxAdapter(
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 24),
-              child: Column(children: [
-                Mascot(MascotPose.wave, size: 96),
-                const SizedBox(height: 8),
-                Text(signin ? 'Welcome back' : 'Save your progress', textAlign: TextAlign.center, style: txt(24, w: FontWeight.w900, h: 1.2)),
-                const SizedBox(height: 6),
-                Text(signin ? 'Sign in to pick up where you left off.' : 'Keep your words, streak and reviews safe on every device.', textAlign: TextAlign.center, style: txt(15, w: FontWeight.w400, c: T.muted)),
-                const SizedBox(height: 24),
-                if (error != null)
-                  Container(
-                    width: double.infinity,
-                    margin: const EdgeInsets.only(bottom: 12),
-                    padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-                    decoration: BoxDecoration(color: T.dangerSoft, borderRadius: BorderRadius.circular(12)),
-                    child: Text(error!, textAlign: TextAlign.center, style: txt(14, w: FontWeight.w700, c: T.danger)),
-                  ),
-                if (waiting) ...[
-                  Text('Finish signing in with ${_label(waitingProvider ?? 'google')} in your browser — Kizuki opens again as soon as you\u2019re done.',
-                      key: const ValueKey('account-waiting'), textAlign: TextAlign.center, style: txt(15, w: FontWeight.w700, c: T.muted, h: 1.4)),
-                  const SizedBox(height: 16),
-                  Button3D(label: 'Open browser again', onPressed: waitingProvider == null ? null : () => _browser(waitingProvider!), variant: BtnVariant.surface),
-                  const SizedBox(height: 8),
-                  Button3D(
-                    label: 'Cancel',
-                    onPressed: () => setState(() {
-                      waiting = false;
-                      waitingProvider = null;
-                    }),
-                    variant: BtnVariant.ghost,
-                    height: 48,
-                  ),
-                ] else if (busy) ...[
-                  const SizedBox(height: 24),
-                  const CircularProgressIndicator(),
-                ] else ...[
-                  for (final provider in signInProviders(_platform)) ...[
-                    Semantics(button: true, label: 'Continue with ${_label(provider)}', child: Button3D(
-                      key: ValueKey('account-$provider'),
-                      onPressed: () => _oauth(provider), variant: BtnVariant.surface,
-                      child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-                        ProviderIcon(provider), const SizedBox(width: 12),
-                        Text('Continue with ${_label(provider)}', style: txt(17, w: FontWeight.w800)),
-                      ]),
-                    )),
-                    const SizedBox(height: 12),
-                  ],
-                ],
-              ]),
+        child: Column(children: [
+          if (!requiredAccount) Align(alignment: Alignment.centerLeft, child: TopBar(onBack: () => context.canPop() ? context.pop() : context.go('/'))),
+          Expanded(
+            child: Center(
+              child: SingleChildScrollView(
+                padding: const EdgeInsets.symmetric(horizontal: 24),
+                child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+                  Align(child: Mascot(MascotPose.wave, size: 96)),
+                  const SizedBox(height: 10),
+                  Text(signin ? 'Welcome back' : 'Save your progress', textAlign: TextAlign.center, style: txt(24, w: FontWeight.w900, h: 1.2)),
+                  const SizedBox(height: 6),
+                  Text(signin ? 'Sign in to pick up where you left off.' : 'Keep your words, streak and reviews safe on every device.', textAlign: TextAlign.center, style: txt(15, w: FontWeight.w400, c: T.muted)),
+                  const SizedBox(height: 28),
+                  if (error != null)
+                    Container(
+                      width: double.infinity,
+                      margin: const EdgeInsets.only(bottom: 12),
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                      decoration: BoxDecoration(color: T.dangerSoft, borderRadius: BorderRadius.circular(12)),
+                      child: Text(error!, textAlign: TextAlign.center, style: txt(14, w: FontWeight.w700, c: T.danger)),
+                    ),
+                  if (busy)
+                    const Padding(padding: EdgeInsets.symmetric(vertical: 24), child: Center(child: CircularProgressIndicator()))
+                  else
+                    for (final provider in signInProviders(_platform)) ...[
+                      _providerTile(provider),
+                      const SizedBox(height: 12),
+                    ],
+                ]),
+              ),
             ),
           ),
-          SliverFillRemaining(
-            hasScrollBody: false,
-            child: Column(mainAxisAlignment: MainAxisAlignment.end, children: [
-              if (!busy && !waiting) ...[
-                if (!requiredAccount) TextButton(onPressed: _later, child: Text(fromWelcome ? 'Back' : 'Maybe later', style: txt(14, w: FontWeight.w700, c: T.faint))),
-                const SizedBox(height: 8),
-              ],
-            ]),
-          ),
+          if (!busy && !requiredAccount)
+            Padding(
+              padding: const EdgeInsets.only(bottom: 8),
+              child: TextButton(onPressed: _later, child: Text(fromWelcome ? 'Back' : 'Maybe later', style: txt(14, w: FontWeight.w700, c: T.faint))),
+            ),
         ]),
       ),
     );

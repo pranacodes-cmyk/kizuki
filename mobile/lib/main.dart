@@ -26,7 +26,6 @@ import 'widgets/splash.dart';
 import 'widgets/toast.dart';
 import 'widgets/tracking_explainer.dart';
 import 'widgets/tour.dart';
-import 'widgets/analytics_consent.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -221,7 +220,6 @@ class _KizukiAppState extends State<KizukiApp> {
         const Positioned.fill(child: ToastLayer()),
         // Cold-start splash above everything; it removes itself after ~1.6 s.
         const Positioned.fill(child: SplashOverlay()),
-        const AnalyticsConsent(),
       ]),
     );
   }

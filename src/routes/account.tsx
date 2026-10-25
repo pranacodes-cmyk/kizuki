@@ -1,4 +1,5 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { ChevronRight } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { z } from "zod";
 
@@ -168,20 +169,22 @@ function Account() {
   return (
     <Screen>
       {!requiredAccount && !isBridge && <TopBar onBack={() => (fromWelcome ? navigate({ to: "/" }) : navigate({ to: "/trial" }))} />}
-      <div className="flex flex-col items-center px-6 text-center">
+      <div className="flex flex-1 flex-col items-center justify-center px-6 text-center">
         <Mascot pose="wave" className="h-24 w-24" />
-        <h1 className="mt-2 text-[1.5rem] font-black leading-tight">{initialMode === "signin" ? "Welcome back" : "Save your progress"}</h1>
+        <h1 className="mt-2.5 text-[1.5rem] font-black leading-tight">{initialMode === "signin" ? "Welcome back" : "Save your progress"}</h1>
         <p className="mt-1.5 text-[0.9375rem] text-muted-foreground">{initialMode === "signin" ? "Sign in to pick up where you left off." : "Keep your words, streak and reviews safe on every device."}</p>
+
+        <div className="mt-7 w-full space-y-3">
+          {error && <p role="alert" className="rounded-xl bg-danger-soft px-3 py-2 text-center text-[0.875rem] font-bold text-danger">{error}</p>}
+          {signInProviders(device).map((p) => <Button key={p} variant="surface" disabled={busy} onClick={() => void oauth(p)} className="h-[68px] justify-start gap-3.5 px-4 tracking-normal">
+            <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-surface-3"><ProviderIcon provider={p} /></span>
+            <span className="flex-1 text-left">{busy ? 'Signing in…' : `Continue with ${p === 'google' ? 'Google' : 'Apple'}`}</span>
+            <ChevronRight aria-hidden="true" className="h-5 w-5 shrink-0 text-faint" />
+          </Button>)}
+        </div>
       </div>
 
-      <div className="mt-6 space-y-3 px-6">
-        {error && <p role="alert" className="rounded-xl bg-danger-soft px-3 py-2 text-center text-[0.875rem] font-bold text-danger">{error}</p>}
-        {signInProviders(device).map((p) => <Button key={p} variant="surface" disabled={busy} onClick={() => void oauth(p)} className="gap-3 tracking-normal">
-          <ProviderIcon provider={p} />{busy ? 'Signing in…' : `Continue with ${p === 'google' ? 'Google' : 'Apple'}`}
-        </Button>)}
-      </div>
-
-      <div className="mt-auto space-y-1 px-6 pt-6 text-center">
+      <div className="space-y-1 px-6 pt-6 text-center">
         {isBridge ? (
           <p className="text-[0.8125rem] font-bold text-faint">Finish here in your browser — the Kizuki app opens again as soon as you're done.</p>
         ) : (

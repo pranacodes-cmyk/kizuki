@@ -20,10 +20,9 @@ export const onboardingAfterPlan = (enabled: boolean): '/founder' | '/trial' => 
  * tokens; a missing/invalid value keeps the last valid one. */
 export const nativeSignInEnabled = (remote: unknown, cached = false): boolean => typeof remote === 'boolean' ? remote : cached;
 
-/** How a phone sign-in runs: the native account sheet when its switch is on, otherwise the
- * browser hand-off through the published site (also the fallback when native fails). */
-export const signInMethod = (provider: string, f: { nativeGoogle: boolean; nativeApple: boolean }): 'native' | 'browser' =>
-  (provider === 'google' && f.nativeGoogle) || (provider === 'apple' && f.nativeApple) ? 'native' : 'browser';
+/** Phone sign-in never substitutes a browser for the requested native account sheet. */
+export const signInMethod = (provider: string): 'native' | 'unavailable' =>
+  provider === 'google' || provider === 'apple' ? 'native' : 'unavailable';
 
 /** Learner progress on a device belongs to the account it last synced with (`owner`).
  * Progress made before any sign-in (no owner) joins the first account; signing into a

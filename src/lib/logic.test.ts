@@ -32,11 +32,14 @@ it('native sign-in stays off until its remote switch is on', () => {
   expect(nativeSignInEnabled('true', false)).toBe(false);
   expect(nativeSignInEnabled(true, false)).toBe(true);
 });
-it('each provider uses its own switch, otherwise the browser hand-off', () => {
-  expect(signInMethod('google', { nativeGoogle: false, nativeApple: true })).toBe('browser');
-  expect(signInMethod('google', { nativeGoogle: true, nativeApple: false })).toBe('native');
-  expect(signInMethod('apple', { nativeGoogle: true, nativeApple: false })).toBe('browser');
-  expect(signInMethod('apple', { nativeGoogle: false, nativeApple: true })).toBe('native');
+it('Google phone sign-in is native, never browser', () => {
+  expect(signInMethod('google')).toBe('native');
+});
+it('Apple phone sign-in is native, never browser', () => {
+  expect(signInMethod('apple')).toBe('native');
+});
+it('unsupported phone providers cannot open a browser', () => {
+  expect(signInMethod('lovable')).toBe('unavailable');
 });
 it('progress before any sign-in joins the first account', () => {
   const local = { words: { a: 1 }, updatedAt: 5 };

@@ -23,11 +23,14 @@ void main() {
     expect(nativeSignInEnabled('true', false), false);
     expect(nativeSignInEnabled(true, false), true);
   });
-  test('each provider uses its own switch, otherwise the browser hand-off', () {
-    expect(signInMethod('google', nativeGoogle: false, nativeApple: true), 'browser');
-    expect(signInMethod('google', nativeGoogle: true, nativeApple: false), 'native');
-    expect(signInMethod('apple', nativeGoogle: true, nativeApple: false), 'browser');
-    expect(signInMethod('apple', nativeGoogle: false, nativeApple: true), 'native');
+  test('Google phone sign-in is native, never browser', () {
+    expect(signInMethod('google'), 'native');
+  });
+  test('Apple phone sign-in is native, never browser', () {
+    expect(signInMethod('apple'), 'native');
+  });
+  test('unsupported phone providers cannot open a browser', () {
+    expect(signInMethod('lovable'), 'unavailable');
   });
   test('progress before any sign-in joins the first account', () {
     final local = {'words': {'a': 1}, 'updatedAt': 5};

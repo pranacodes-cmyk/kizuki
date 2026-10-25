@@ -16,7 +16,7 @@ class LegalDoc {
 
 const privacyDoc = LegalDoc(
   title: 'Privacy Policy',
-  updated: 'October 24, 2026',
+  updated: 'October 25, 2026',
   intro: 'This Privacy Policy explains how Kizuki (“Kizuki”, “we”, “us”) collects, uses and shares information when you use the Kizuki app for Android and iPhone and the website kiku-clip-word-garden.lovable.app (together, the “Service”). If anything here is unclear, message us and we will explain it.',
   sections: [
     LegalSection('1. The short version', [
@@ -55,7 +55,7 @@ const privacyDoc = LegalDoc(
       '• Apple App Store and Google Play: payments and subscription management.',
       '• RevenueCat: subscription status, receipts, trials and restores.',
       '• Meta Platforms (Facebook SDK and Conversions API): ads measurement, see section 6.',
-      '• PostHog: optional product analytics, only after you choose Allow analytics. It receives timestamped screen visits, tab and control interactions, onboarding and welcome-tour steps, paywall and checkout outcomes, clip and dictionary identifiers, learning activity, review grades, setting choices, subscription status, coarse error categories, device/browser information and an anonymous identifier. After sign-in we associate that identifier with your Kizuki account ID so we can understand journeys across devices. We do not send your name, email, passwords, sign-in tokens, messages, notes, chat questions or answers, card details or purchase receipts. Session replay and screen recording are disabled. These events measure product usage and funnels, not advertising audiences or optimization.',
+      '• PostHog: optional product analytics, only after you turn on Usage analytics in Settings. It receives timestamped screen visits, tab and control interactions, onboarding and welcome-tour steps, paywall and checkout outcomes, clip and dictionary identifiers, learning activity, review grades, setting choices, subscription status, coarse error categories, device/browser information and an anonymous identifier. After sign-in we associate that identifier with your Kizuki account ID so we can understand journeys across devices. We do not send your name, email, passwords, sign-in tokens, messages, notes, chat questions or answers, card details or purchase receipts. Session replay and screen recording are disabled. These events measure product usage and funnels, not advertising audiences or optimization.',
       '• OpenAI, through the Lovable AI Gateway: writes Ask Kizuki answers. We send only your question and the clip sentence, never your name or email.',
       '• YouTube (Google): clips play in YouTube\'s official embedded player, which may collect data under Google\'s Privacy Policy.',
       '• Google: sign-in with Google on the website, if you choose it.',
@@ -70,7 +70,7 @@ const privacyDoc = LegalDoc(
     ]),
     LegalSection('7. Cookies and local storage', [
       'The website keeps your progress and sign-in session in your browser\'s local storage on that device. We do not use advertising cookies. Clips play in YouTube\'s privacy-enhanced mode, but YouTube may set its own cookies when a clip plays.',
-      'Optional PostHog analytics also uses local storage and a mobile device identifier to remember analytics identity. Before analytics starts we offer equally accessible Allow analytics and No thanks choices. Your choice, time and notice version are saved on that device; a withdrawal preserves earlier acceptance evidence. You can change your choice in Settings → Usage analytics. Withdrawal stops future collection and clears analytics identity; it does not automatically erase events already received by PostHog. Contact us for deletion of previously collected analytics. Declining does not restrict Kizuki. Analytics choice is separate from advertising tracking and YouTube\'s player.',
+      'Optional PostHog analytics also uses local storage and a mobile device identifier to remember analytics identity. Analytics stays off unless you explicitly opt in; there is no first-launch analytics popup. You can turn it on or off in Settings → Usage analytics. Your choice, time and notice version are saved on that device; a withdrawal preserves earlier acceptance evidence. Withdrawal stops future collection and clears analytics identity; it does not automatically erase events already received by PostHog. Contact us for deletion of previously collected analytics. Declining does not restrict Kizuki. Analytics choice is separate from advertising tracking and YouTube\'s player.',
     ]),
     LegalSection('8. How long we keep information', [
       '• Account and synced progress: until you delete your account.',

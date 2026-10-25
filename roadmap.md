@@ -3,6 +3,15 @@
 Flutter (`mobile/`) is the product; the web app is its phone-frame prototype.
 Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com/pranacodes-cmyk/kizuki
 
+## Corrections requested 25 Oct
+- [x] Remove unsolicited usage-analytics popup from Flutter and web; optional tracking opt-in remains in Settings. Fresh web launch: 0 dialogs, 0 PostHog requests; privacy copy generated and parity test passes.
+- [x] Restore native-only Google/Apple account code; remove remote-method selection and automatic browser launch. Native failure stays in-app; retain incoming legacy hand-offs. Three supplied IDs already present; previous promise to finish provider setup was incomplete.
+- [x] Start bootstrap and content preparation concurrently, Flutter first then web. Test proves notes prepare while API is pending. Web preview at 384×624 plays to 0:08/0:17 after 10 s, 1 official player, no runtime errors; 0 players before trial.
+- [x] Web: 146 tests pass; latest local preview build OK. No new store build or publication this turn.
+- [ ] Native provider acceptance: own Google/Apple backend audiences/settings cannot be inspected/changed by offered config tools; needs owner Cloud Auth settings read/configuration. No native token exchange verified; do not ship as working native login.
+- [ ] Native checks / trial speed: Flutter SDK absent in this sandbox; Flutter analyze/tests and physical-phone startup/login measurements pending. Concurrent bootstrap is not actual prebuffering; hidden players/downloaded YouTube media remain prohibited.
+- [ ] Android-only release (user, 25 Oct): sync latest code to public GitHub repo with saved token (as before), run Store release with android=true, ios=false.
+
 ## Pre-release deep check + new store build (24 Oct, user request)
 - [x] Flutter analyze error: app_links `getInitialUri` replaced by `getInitialLink` (analyze clean)
 - [x] Stale Flutter Ask tests updated to the Premium-only tutor; leftover "free questions left" footer removed in both clients
@@ -16,8 +25,13 @@ Name: **Kizuki (気づき)** — "the moment it clicks". Public repo: github.com
 - [x] searchClips empty filters identical in both clients (parity tests)
 - [x] Local checks: Flutter analyze clean, 155 Flutter tests, 143 web tests, typecheck, preview build OK
 - [x] iOS App Store profile regenerated with Sign in with Apple (old one was INVALID); GitHub secret updated
-- [ ] GitHub: analyze/tests/APK + Android emulator E2E green on the synced code
-- [ ] Store release: Play internal + TestFlight; publish web (phone app's tutor + sign-in hand-off live there)
+- [x] Emulator E2E found + fixed: first-launch analytics question rendered with fallback text style (yellow underline) — now its own Material layer; E2E answers it, uses the store stand-in (emulator has no Play billing), profile-name stand-in
+- [x] Web published: live /account bridge shows Google only (no email/Lovable) and auto-starts Google login (checked on the live site)
+- [x] Split APK measured: arm64-v8a 54.89 MB, armeabi-v7a 52.56 MB (old universal 93.34 MB)
+- [x] GitHub emulator E2E green (run 40126680392): 48 screenshots, onboarding→founder→trial→account→feed→word→Ask→review→14-step tour→feed swipes, 0.00px wobble, no crash/ANR lines. Emulator cannot play YouTube (stays 0:00, same as the old green run)
+- [x] Store release run 40126691869 green: Play internal 1.2.0 (112) completed; TestFlight 1.2.0 (112) VALID, in beta testing for the Kizuki team group (new signing profile worked)
+- [ ] Real-phone check on build 112 (needs the user's phone): Google sign-in round-trip back into the app, fast swiping, video playback, purchase → account step
+- [ ] Native Google/Apple account sheets: switches stay off until the app's own Google/Apple IDs are accepted by the sign-in backend (needs the Google web client secret + Apple settings from the user); browser hand-off is used meanwhile
 
 ## App size + welcome tour polish (24 Oct)
 - [x] Remote founder screen: public read-only onboarding_settings row, no client writes, default ON, cached offline choice; Flutter first mirrored web checks startup, plan Continue and direct founder entry. Live OFF skips to trial and live ON restores video; tested both and restored ON. 79 tests pass, preview build OK. No app publication or native build performed; installed old apps need the new build once before this flag works.

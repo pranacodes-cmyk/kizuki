@@ -77,10 +77,7 @@ void main() {
     // ---- First launch -------------------------------------------------------------
     await kizuki.startApp();
     await waitFor(find.text('Get started'), seconds: 40, what: 'welcome screen');
-    // A fresh install asks about usage analytics first; it covers the welcome screen.
-    await waitFor(find.text('No thanks'), seconds: 20, what: 'analytics choice');
-    await shot('00_analytics_choice');
-    await tapText('No thanks', after: 900);
+    // Optional analytics is chosen in Settings, never in a launch-blocking popup.
     expect(find.text('Allow analytics'), findsNothing);
     await shot('01_welcome');
 
