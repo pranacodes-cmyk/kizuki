@@ -156,10 +156,12 @@ class _AccountScreenState extends State<AccountScreen> {
           return;
         }
         Analytics.track('sign_in_failed', {'category': 'native'});
-        if (mounted) setState(() {
-          busy = false;
-          error = friendlyAuthError(e);
-        });
+        if (mounted) {
+          setState(() {
+            busy = false;
+            error = friendlyAuthError(e);
+          });
+        }
       }
       return;
     }
