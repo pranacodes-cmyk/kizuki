@@ -96,7 +96,7 @@ const tourSteps = [
       kind: 'action', until: TourEvent.swipe, hand: 'swipe', passThrough: true, hint: 'Swipe up anywhere'),
   TourStep('vocabTab', ['/feed', '/explore'], 'vocabTab', 'Every word you tap is saved in Vocab.', 'heart',
       kind: 'action', untilRoute: '/vocab', hand: 'tap', hint: 'Tap Vocab', skipTo: 'done'),
-  TourStep('kanaDecks', ['/vocab'], 'kanaDecks', "One more thing: these two decks teach the Japanese ABCs. Hiragana あ and Katakana ア are the same sounds, just two ways to write them. Start with Hiragana — it's optional, but it makes reading real Japanese much easier.", 'read', button: 'Got it'),
+  TourStep('kanaDecks', ['/vocab'], 'kanaDecks', "Japanese ABCs\nHiragana あ and Katakana ア write the same sounds in two ways. Start with Hiragana. Both decks are optional.", 'read', button: 'Got it'),
   TourStep('review', ['/vocab'], 'reviewButton', 'Your new word is waiting here. Let\'s practice it once.', 'cheer',
       kind: 'action', untilRoute: '/review', hand: 'tap', hint: 'Tap the orange button', skipTo: 'done'),
   TourStep('reveal', ['/review'], 'reviewCard', 'Do you remember what it means? Tap the card to check.', 'think',

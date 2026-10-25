@@ -1,10 +1,15 @@
 # Migration: Lovable Cloud → External Supabase (gcoboyhfhadivheoilxp)
 
 ## Requested store release — 2026-10-25
-- [ ] Run current web tests and inspect release preflight.
-- [ ] Sync latest phone changes to GitHub and dispatch Android + iOS release.
-- [ ] Verify Flutter checks and Android emulator E2E.
-- [ ] Confirm Google Play internal and App Store Connect/TestFlight uploads; distinguish upload from public approval.
+- [x] Run current web tests and inspect release preflight (164 tests pass; unused Flutter variable removed).
+- [x] Sync latest phone changes to GitHub and dispatch Android + iOS release (466fb0f; store run 40206636934, emulator run 40206637388).
+- [x] Verify Flutter checks and Android emulator E2E (both success).
+- [x] Confirm Google Play internal and App Store Connect/TestFlight uploads (1.2.0 build 117; Apple VALID; not public review).
+
+## Reported phone regressions — 2026-10-25
+- [ ] Fix trial preview first-frame blink/black startup in Flutter, then mirror web.
+- [ ] Fix welcome tour card/Skip overlap and clipped copy in Flutter, then mirror web.
+- [ ] Run targeted tests and inspect relevant small-screen flow; report native verification limits honestly.
 
 - [x] Verify external project access via Management API (token EXT_SB_ACCESS_TOKEN)
 - [x] Dump current schema: tables, RLS policies, triggers, functions

@@ -49,7 +49,6 @@ class ClipPlayerState extends State<ClipPlayer> {
   bool _ready = false;
   /// pause() asked before the player could take commands: pause as soon as it starts.
   bool _wantPause = false;
-  bool _tapped = false;
   /// The player has finished loading or cueing the clip and can be told to play.
   bool _loaded = false;
   /// Still not playing a while after becoming active: offer Try again / Watch on YouTube.
@@ -114,7 +113,6 @@ class ClipPlayerState extends State<ClipPlayer> {
     _ready = false;
     _loaded = false;
     _wantPause = false;
-    _tapped = false;
     _time = clip.start;
     _loop = PlaybackLoopGuard(clip.start);
     _startup = PlaybackStartGuard();
@@ -149,7 +147,12 @@ class ClipPlayerState extends State<ClipPlayer> {
       }
       if (!mounted || !identical(_c, c)) return;
       _loaded = true;
-      if (widget.active) await _play(c, clip);
+      // loadVideoById already starts at startSeconds. Seeking again here interrupts
+      // its first decoded frame and causes a second buffering/black-screen cycle.
+      if (widget.active) {
+        await c.setPlaybackRate(widget.rate);
+        if (_wantPause) await c.pauseVideo();
+      }
     } catch (_) {
       if (mounted && identical(_c, c)) {
         widget.onPlayingChange(false);
@@ -175,7 +178,6 @@ class ClipPlayerState extends State<ClipPlayer> {
     if (c == null) return;
     _loop = PlaybackLoopGuard(widget.clip.start);
     _startup = PlaybackStartGuard();
-    _tapped = false;
     // A pause queued during an earlier activation never blocks this new start.
     _wantPause = false;
     _watchSlow();
@@ -332,7 +334,9 @@ class ClipPlayerState extends State<ClipPlayer> {
   @override
   Widget build(BuildContext context) {
     final c = _c;
-    final showThumb = !widget.active || c == null || (!_tapped && (!_ready || _state == PlayerState.unStarted || _state == PlayerState.cued));
+    // Never cover a mounted official player with our poster. Its own loading/play
+    // UI stays visible, rather than flashing a poster and then revealing buffering.
+    final showThumb = c == null;
     return AspectRatio(
       aspectRatio: 16 / 9,
       child: Container(
@@ -355,7 +359,6 @@ class ClipPlayerState extends State<ClipPlayer> {
               label: 'Play clip',
               child: GestureDetector(
                 onTap: () {
-                  setState(() => _tapped = true);
                   play();
                 },
                 child: Stack(fit: StackFit.expand, children: [

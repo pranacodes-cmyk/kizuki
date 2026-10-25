@@ -366,33 +366,12 @@ class _TourHostState extends State<TourHost> with TickerProviderStateMixin {
       onNext: onNext,
     );
 
-    // Bubble placement: top = just above the spotlight (a bottom sheet), else pinned to the top;
-    // bottom = over the empty lower part of a tall card; otherwise under a spotlight in the top
-    // half, above one lower down, else centered.
-    Widget placed;
-    const estH = tourTipEstHeight;
-    if (s.place == 'top') {
-      placed = Positioned(left: 16, right: 16, top: pad.top + 52, child: bubble);
-    } else if (h != null && (s.kind == 'controls' || s.hand == 'swipe')) {
-      placed = Positioned(left: 16, right: 16, top: h.bottom + 10, child: bubble);
-    } else if (h != null && s.place == 'bottom') {
-      placed = Positioned(left: 16, right: 16, bottom: pad.bottom + 16, child: bubble);
-    } else if (h != null) {
-      final below = h.center.dy < size.height * 0.45;
-      final spaceBelow = size.height - h.bottom - pad.bottom;
-      final spaceAbove = h.top - pad.top - 48;
-      if (below && spaceBelow >= estH) {
-        placed = Positioned(left: 16, right: 16, top: h.bottom + 14, child: bubble);
-      } else if (!below && spaceAbove >= estH) {
-        placed = Positioned(left: 16, right: 16, bottom: size.height - h.top + 14, child: bubble);
-      } else {
-        placed = Positioned(left: 16, right: 16, top: pad.top + 56, child: bubble);
-      }
-    } else if (s.hand == 'swipe' && !waitedOut) {
-      placed = Positioned(left: 16, right: 16, top: size.height * 0.2, child: bubble);
-    } else {
-      placed = Positioned.fill(child: Padding(padding: const EdgeInsets.symmetric(horizontal: 16), child: Center(child: bubble)));
-    }
+    // Lay out the real bubble, not a guessed 150px height. Reserve the Skip row
+    // and constrain long/large-text tips to the free area outside the spotlight.
+    final placed = Positioned.fill(child: CustomSingleChildLayout(
+      delegate: _TourTipLayout(hole: h, top: pad.top + 60, bottom: pad.bottom + 16, place: s.place),
+      child: SingleChildScrollView(child: bubble),
+    ));
 
     return Material(
       type: MaterialType.transparency,
@@ -448,6 +427,41 @@ class _TourHostState extends State<TourHost> with TickerProviderStateMixin {
     }
     return IgnorePointer(child: placed);
   }
+}
+
+class _TourTipLayout extends SingleChildLayoutDelegate {
+  final Rect? hole;
+  final double top, bottom;
+  final String? place;
+  const _TourTipLayout({required this.hole, required this.top, required this.bottom, this.place});
+
+  (double, double, bool) _area(Size size) {
+    final end = math.max(top, size.height - bottom);
+    final h = hole;
+    if (h == null || place == 'bottom') return (top, end, place == 'bottom');
+    final above = math.max(0.0, h.top - 14 - top);
+    final below = math.max(0.0, end - h.bottom - 14);
+    if (above >= below) return (top, top + above, true);
+    return (end - below, end, false);
+  }
+
+  @override
+  BoxConstraints getConstraintsForChild(BoxConstraints constraints) {
+    final (start, end, _) = _area(constraints.biggest);
+    final width = math.max(0.0, constraints.maxWidth - 32);
+    return BoxConstraints(minWidth: width, maxWidth: width, maxHeight: math.max(0.0, end - start));
+  }
+
+  @override
+  Offset getPositionForChild(Size size, Size childSize) {
+    final (start, end, above) = _area(size);
+    final y = hole == null ? start + (end - start - childSize.height) / 2
+        : above ? end - childSize.height : start;
+    return Offset(16, math.max(start, y));
+  }
+
+  @override
+  bool shouldRelayout(covariant _TourTipLayout old) => hole != old.hole || top != old.top || bottom != old.bottom || place != old.place;
 }
 
 /// Absorbs taps everywhere except inside the spotlight, so only the highlighted thing works.

@@ -5,7 +5,7 @@ import { createPortal } from "react-dom";
 import { useNavigate, useRouterState } from "@tanstack/react-router";
 
 import { useApp } from "@/lib/store";
-import { TOUR_HAND_TIP_Y, TOUR_LEGEND, TOUR_LEGEND_DELAY_MS, TOUR_MAX_HOLE_HEIGHT, TOUR_STEPS, TOUR_TARGET_WAIT_MS, TOUR_TIP_EST_HEIGHT, tourText, type TourStep } from "@/lib/tour";
+import { TOUR_HAND_TIP_Y, TOUR_LEGEND, TOUR_LEGEND_DELAY_MS, TOUR_MAX_HOLE_HEIGHT, TOUR_STEPS, TOUR_TARGET_WAIT_MS, tourText, type TourStep } from "@/lib/tour";
 import { setTourNavigator, useTour } from "@/lib/tour-store";
 import { cn } from "@/lib/utils";
 
@@ -143,28 +143,15 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
     advance();
   };
 
-  // Bubble placement: top = just above the spotlight (a bottom sheet), else pinned to the top;
-  // bottom = over the empty lower part of a tall card; otherwise under a spotlight in the top
-  // half, above one lower down, else centered.
-  const EST_H = TOUR_TIP_EST_HEIGHT;
-  let bubbleStyle: React.CSSProperties | undefined;
-  let centered = false;
-  if (step.place === "top") {
-    bubbleStyle = { top: "calc(var(--sat) + 52px)" };
-  } else if (h && (kind === "controls" || step.hand === "swipe")) {
-    bubbleStyle = { top: h.y + h.h + 10 };
-  } else if (h && step.place === "bottom") {
-    bubbleStyle = { bottom: "calc(var(--sab) + 16px)" };
-  } else if (h) {
-    const below = h.y + h.h / 2 < size.h * 0.45;
-    const spaceBelow = size.h - (h.y + h.h);
-    const spaceAbove = h.y - 48;
-    if (below && spaceBelow >= EST_H) bubbleStyle = { top: h.y + h.h + 14 };
-    else if (!below && spaceAbove >= EST_H) bubbleStyle = { bottom: size.h - h.y + 14 };
-    else bubbleStyle = { top: 56 };
-  } else if (step.hand === "swipe" && !waitedOut) {
-    bubbleStyle = { top: size.h * 0.2 };
-  } else centered = true;
+  // Match Flutter: use the available region, never a guessed tip height.
+  const safeTop = 60;
+  const safeEnd = Math.max(safeTop, size.h - 16);
+  const above = h ? Math.max(0, h.y - 14 - safeTop) : 0;
+  const below = h ? Math.max(0, safeEnd - h.y - h.h - 14) : 0;
+  const useAbove = !!h && step.place !== "bottom" && above >= below;
+  const regionTop = h && step.place !== "bottom" && !useAbove ? safeEnd - below : safeTop;
+  const regionEnd = h && step.place !== "bottom" && useAbove ? safeTop + above : safeEnd;
+  const bubbleStyle: React.CSSProperties = { top: regionTop, height: Math.max(0, regionEnd - regionTop) };
 
   return (
     <div role="dialog" aria-label="Welcome tour" className="absolute inset-0 select-none">
@@ -207,18 +194,18 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
       {!waitingForTarget && (
         <div
           // Action tips have no buttons: let taps through, so a tip resting on the card never blocks it.
-          className={cn("absolute inset-x-4", centered && "top-1/2 -translate-y-1/2", pass || action ? "pointer-events-none" : "pointer-events-auto")}
+          className={cn("absolute inset-x-4 flex flex-col", !h ? "justify-center" : useAbove || step.place === "bottom" ? "justify-end" : "justify-start", pass || action ? "pointer-events-none" : "pointer-events-auto")}
           style={bubbleStyle}
         >
           <AnimatePresence mode="wait">
-            <motion.div key={`${step.id}-${waitedOut}`} initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0.95 }} transition={{ duration: 0.25 }}>
+            <motion.div className="min-h-0 overflow-y-auto" key={`${step.id}-${waitedOut}`} initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0.95 }} transition={{ duration: 0.25 }}>
               <div className="flex items-end gap-2">
                 {kind !== "controls" && <Mascot pose={step.pose} className={cn("shrink-0", step.place === "top" ? "h-10 w-10" : "h-12 w-12")} />}
                 <div className="min-w-0 flex-1 rounded-[20px] bg-foreground px-4 pb-3.5 pt-3 shadow-[0_12px_30px_oklch(0_0_0/0.5)]">
                   <div className="h-1 w-full overflow-hidden rounded-full bg-background/10">
                     <div className="h-full rounded-full bg-primary" style={{ width: `${Math.max(5, ((index + 1) / TOUR_STEPS.length) * 100)}%` }} />
                   </div>
-                  <p className="mt-2.5 text-[1rem] font-extrabold leading-snug text-background">{tourText(step, name, minutes)}</p>
+                  <p className="mt-2.5 whitespace-pre-line text-[1rem] font-extrabold leading-snug text-background">{tourText(step, name, minutes)}</p>
                   {kind === "controls" ? (
                     <>
                       <div className="mt-3 space-y-2">

@@ -7,6 +7,7 @@ import { loadYouTubeApi, playerErrorMessage, YT_STATE, type YTPlayer } from "@/l
 import { PlaybackLoopGuard, PlaybackStartGuard } from "@/lib/playback-loop";
 import { track } from '@/lib/analytics';
 import { clipWindowAvailable } from "@/lib/logic";
+import { Button } from "./ui";
 
 export type ClipPlayerHandle = {
   play(): void;
@@ -51,7 +52,6 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
   const [state, setState] = useState<number>(YT_STATE.UNSTARTED);
   const [error, setError] = useState<string | null>(null);
   const [attempt, setAttempt] = useState(0);
-  const [tapped, setTapped] = useState(false);
   /** Still not playing a while after becoming active: offer a retry instead of an endless spinner. */
   const [slow, setSlow] = useState(false);
   const cb = useRef({ onTime, onPlayingChange, onLoop, loopRange, clip });
@@ -92,7 +92,6 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
     let cancelled = false;
     setError(null);
     setReady(false);
-    setTapped(false);
     setState(YT_STATE.UNSTARTED);
     apiReady.current = false;
     wantPause.current = false;
@@ -121,9 +120,8 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
               setReady(true);
               e.target.setPlaybackRate(rate);
               if (!activeRef.current) return; // warmed up: stays cued until it becomes active
-              // Some players ignore playerVars.start: position once, never every tick.
-              loop.current.beginSeek(clip.start);
-              e.target.seekTo(clip.start, true);
+              // playerVars.start already positions the clip. A second seek here
+              // interrupts startup; PlaybackStartGuard handles a genuinely ignored start.
               e.target.playVideo();
             },
             onStateChange: (e) => {
@@ -188,7 +186,6 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
     if (active) {
       loop.current = new PlaybackLoopGuard(clip.start);
       startup.current = new PlaybackStartGuard();
-      setTapped(false);
       loop.current.beginSeek(clip.start);
       p.setPlaybackRate(rate);
       p.seekTo(clip.start, true);
@@ -248,42 +245,36 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
     return () => clearInterval(id);
   }, [ready, error, active]);
 
-  // Thumbnail until playback starts; after one tap it steps aside so YouTube's own play button is reachable.
-  const showThumb = !active || (!tapped && (!ready || state === YT_STATE.UNSTARTED || state === YT_STATE.CUED));
+  // A mounted official player must stay unobstructed, including while buffering.
+  const showThumb = !wanted;
 
   return (
+    <>
     <div className="relative aspect-video w-full overflow-hidden bg-stage">
       <div ref={host} className="absolute inset-0 [&>iframe]:h-full [&>iframe]:w-full" />
       {showThumb && !error && (
-        <button
+        <Button
           aria-label="Play clip"
           // Before onReady the player can't take commands; onReady starts playback itself.
-          onClick={() => { setTapped(true); wantPause.current = false; live()?.playVideo(); }}
+          onClick={() => { wantPause.current = false; live()?.playVideo(); }}
           className="absolute inset-0 flex items-center justify-center bg-cover bg-center"
           style={{ backgroundImage: `url(${thumbOf(clip.videoId)})` }}
         >
           <span className="flex h-14 w-14 items-center justify-center rounded-full bg-stage/70">
             {active && (!ready || state === YT_STATE.BUFFERING) ? <Loader2 className="h-7 w-7 animate-spin" /> : <Play className="ml-1 h-7 w-7 fill-current" />}
           </span>
-        </button>
-      )}
-      {/* Slow network: say so and offer a fresh start instead of an endless spinner. */}
-      {active && slow && showThumb && !error && (
-        <button
-          onClick={() => setAttempt((a) => a + 1)}
-          className="press absolute bottom-3 left-1/2 inline-flex -translate-x-1/2 items-center gap-2 rounded-full bg-stage/85 px-3.5 py-2 text-[0.8125rem] font-extrabold"
-        >
-          <RotateCw className="h-[15px] w-[15px]" /> Slow connection · Tap to retry
-        </button>
+        </Button>
       )}
       {error && (
         <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-stage/90 px-6 text-center">
           <p className="text-[0.9375rem] font-bold">{error}</p>
-          <button onClick={() => setAttempt((a) => a + 1)} className="press inline-flex items-center gap-2 rounded-full bg-surface-2 px-4 py-2 text-[0.875rem] font-extrabold">
+          <Button onClick={() => setAttempt((a) => a + 1)} className="press inline-flex items-center gap-2 rounded-full bg-surface-2 px-4 py-2 text-[0.875rem] font-extrabold">
             <RotateCw className="h-4 w-4" /> Try again
-          </button>
+          </Button>
         </div>
       )}
     </div>
+    {active && slow && !error && <Button onClick={() => setAttempt((a) => a + 1)} size="sm" variant="ghost" className="mt-2"><RotateCw className="h-4 w-4" /> Slow connection · Tap to retry</Button>}
+    </>
   );
 });

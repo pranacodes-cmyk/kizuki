@@ -34,19 +34,19 @@ describe("feed player seek commands", () => {
       vi.runAllTicks();
     });
     act(() => vi.advanceTimersByTime(3000));
-    expect(seekTo).toHaveBeenCalledExactlyOnceWith(142.6, true);
+    expect(seekTo).not.toHaveBeenCalled(); // start is already passed to the official player
     act(() => { time = 142.6; emit?.(1); time = 140; vi.advanceTimersByTime(1000); });
-    expect(seekTo).toHaveBeenCalledTimes(1);
+    expect(seekTo).not.toHaveBeenCalled();
     act(() => { time = 142.6; vi.advanceTimersByTime(100); });
     act(() => { time = 156.6; vi.advanceTimersByTime(100); });
-    expect(seekTo).toHaveBeenCalledTimes(2);
+    expect(seekTo).toHaveBeenCalledTimes(1);
     expect(seekTo).toHaveBeenLastCalledWith(142.6, true);
     act(() => { vi.advanceTimersByTime(3000); emit?.(0); });
-    expect(seekTo).toHaveBeenCalledTimes(2);
+    expect(seekTo).toHaveBeenCalledTimes(1);
     expect(onLoop).toHaveBeenCalledTimes(1);
     act(() => { emit?.(1); time = 142.6; vi.advanceTimersByTime(100); });
     act(() => { time = 156.6; vi.advanceTimersByTime(100); });
-    expect(seekTo).toHaveBeenCalledTimes(3);
+    expect(seekTo).toHaveBeenCalledTimes(2);
     expect(onLoop).toHaveBeenCalledTimes(2);
   });
 
