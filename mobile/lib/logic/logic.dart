@@ -267,6 +267,7 @@ bool subscriptionAccess(bool active, int? expiresAt, int? trialEndsAt, int now) 
 }
 bool learningPath(String path) => !['/account', '/settings', '/support', '/terms', '/privacy', '/trial', '/profile', '/achievements'].contains(path);
 bool onboardingPath(String path) => ['/', '/onboarding', '/building', '/plan', '/founder'].contains(path);
+bool accountNeedsOnboarding(bool fromWelcome, bool onboarded, bool premiumAccess) => fromWelcome && !onboarded && !premiumAccess;
 String subscriptionPhase(bool active, String? plan, int? trialEndsAt, int now) =>
     !active ? 'free' : plan == 'yearly' && trialEndsAt != null && trialEndsAt > now ? 'trial' : 'active';
 /// YouTube reports zero until metadata arrives; allow only end-padding tolerance.

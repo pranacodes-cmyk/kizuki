@@ -30,6 +30,7 @@ class Billing {
   static const simulate = bool.fromEnvironment('KIZUKI_SIMULATE_PURCHASES');
 
   static bool ready = false;
+  static Future<void>? _initializing;
   static final Map<String, Package> _packages = {};
 
   /// Whether this store account can still get the yearly free week (false for returning
@@ -119,7 +120,12 @@ class Billing {
   static void _log(String what, Object e) => debugPrint('${storeUnavailable(e) ? 'KIZUKI_WARN' : 'KIZUKI_ERROR'} $what: $e');
   static bool get available => _mobile && !simulate;
 
-  static Future<void> init({String? userId}) async {
+  static Future<void> init({String? userId}) {
+    if (!available || ready) return Future<void>.value();
+    return _initializing ??= _init(userId: userId).whenComplete(() => _initializing = null);
+  }
+
+  static Future<void> _init({String? userId}) async {
     if (!available || ready) return;
     try {
       final prefs = await SharedPreferences.getInstance();
@@ -146,17 +152,31 @@ class Billing {
     unawaited(loadPlans().catchError((Object e) => _log('offerings', e)));
   }
 
-  static Future<void> refresh() async {
-    if (!ready) return;
+  /// Sign-in cannot navigate until this account's live entitlement has been read.
+  static Future<bool> verifyAccount(String userId) async {
+    if (!available) return true; // explicitly simulated tests only
+    await init();
+    if (!ready) return false;
+    await identify(userId);
+    return refresh();
+  }
+
+  static Future<bool> refresh() async {
+    if (!ready) return false;
     try {
       // Retries an account link that failed earlier (e.g. offline at sign-in). While the
       // store still uses another identity its purchases are not this account's: stay locked.
       await _reconcile();
-      if (_identity != _applied) return;
+      if (_identity != _applied) return false;
+      final checking = _applied;
       await Purchases.invalidateCustomerInfoCache();
-      _apply(await Purchases.getCustomerInfo());
+      final info = await Purchases.getCustomerInfo();
+      if (checking != _identity || checking != _applied) return false;
+      _apply(info);
+      return true;
     } catch (e) {
       _log('customer info', e);
+      return false;
     }
   }
 

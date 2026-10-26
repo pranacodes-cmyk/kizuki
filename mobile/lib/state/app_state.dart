@@ -393,7 +393,9 @@ class AppState extends ChangeNotifier {
 
   /// Replace everything (used by cloud sync after merging).
   void replaceAll(Map<String, dynamic> j) {
+    final devicePremium = premium;
     applyJson(j);
+    premium = devicePremium;
     notifyListeners();
     _prefs?.setString(storageKey, jsonEncode(toJson()));
   }

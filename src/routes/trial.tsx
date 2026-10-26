@@ -1,4 +1,4 @@
-import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
+import { createFileRoute, Link, Navigate, useNavigate } from "@tanstack/react-router";
 import { motion } from "motion/react";
 import { Bell, Check, Crown, Lock, Sparkles } from "lucide-react";
 import { useEffect, useState, type ReactNode } from "react";
@@ -10,6 +10,7 @@ import { track } from '@/lib/analytics';
 import { haptic } from "@/lib/haptics";
 import { PLANS, priceLine, purchaseToast, trialBadge, trialCta, trialTimeline } from "@/lib/paywall";
 import { useApp } from "@/lib/store";
+import { subscriptionAccess } from '@/lib/logic';
 import { toast } from "@/lib/ui-store";
 import { cn } from "@/lib/utils";
 import { cachedFounderEnabled, cachedTrialDays, refreshOnboardingSettings } from '@/lib/onboarding-settings';
@@ -33,6 +34,8 @@ export const Route = createFileRoute("/trial")({
  * Android/iPhone app also reads eligibility from the store and drops trial promises when false. */
 function Trial() {
   const navigate = useNavigate();
+  const premium = useApp((s) => s.premium);
+  const onboarded = useApp((s) => s.onboarded);
   const startTrial = useApp((s) => s.startTrial);
   const [step, setStep] = useState(() => useApp.getState().onboarded ? 2 : 0);
   const [plan, setPlan] = useState<"yearly" | "monthly">("yearly");
@@ -69,6 +72,8 @@ function Trial() {
     else if (useApp.getState().onboarded) window.history.back();
     else void navigate({ to: cachedFounderEnabled() ? "/founder" : "/plan" });
   };
+
+  if (onboarded && subscriptionAccess(premium.active, premium.expiresAt, premium.trialEndsAt, Date.now())) return <Navigate to="/feed" replace />;
 
   return (
     <Screen scroll={false}>

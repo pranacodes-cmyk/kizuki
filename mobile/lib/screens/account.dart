@@ -12,6 +12,7 @@ import '../services/native_auth.dart';
 import '../services/onboarding_settings.dart';
 import '../widgets/provider_icon.dart';
 import '../services/analytics.dart';
+import '../services/billing.dart';
 import '../services/sync_service.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
@@ -95,6 +96,12 @@ class _AccountScreenState extends State<AccountScreen> {
       if (user == null || !mounted) return;
       await SyncService.I.syncNow();
       if (!mounted) return;
+      final verified = await Billing.verifyAccount(user.id).timeout(const Duration(seconds: 20), onTimeout: () => false);
+      if (!mounted) return;
+      if (!verified) {
+        setState(() => error = "Couldn't check your subscription. Check your connection and sign in again.");
+        return;
+      }
       // Confirm out loud: silent redirects left users unsure the sign-in worked.
       if (requiredNow) {
         toast("You're all set", description: 'Your progress is now saved to your account.', icon: '🎉');
@@ -104,7 +111,7 @@ class _AccountScreenState extends State<AccountScreen> {
         toast(isNew ? 'Account created' : 'Welcome back',
             description: isNew ? "Let's set up your learning plan." : 'Your progress is synced on this device.', icon: isNew ? '🎉' : '👋');
       }
-      if (welcome && !app.onboarded) {
+      if (accountNeedsOnboarding(welcome, app.onboarded, subscriptionAccess(app.premium.active, app.premium.expiresAt, app.premium.trialEndsAt, DateTime.now().millisecondsSinceEpoch))) {
         // Signed in on a fresh device without cloud progress → still needs a plan.
         context.go('/onboarding');
         return;

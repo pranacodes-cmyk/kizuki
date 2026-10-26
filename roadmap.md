@@ -1,5 +1,10 @@
 # Migration: Lovable Cloud → External Supabase (gcoboyhfhadivheoilxp)
 
+## Review login paywall regression — 2026-10-26
+- [ ] Wait for account-specific RevenueCat verification before finishing native sign-in; keep verified Premium through learner sync.
+- [ ] Skip acquisition onboarding/paywall for active Premium accounts in both clients; add regression tests and verify review login.
+- [ ] Validate phone checks and deliver corrected Android/iOS release; installed build 121 is not fixed by source edits.
+
 ## Legal policy update — 2026-10-26
 - [x] Update Kizuki Privacy and Terms using Kiku-like structure but verified Kizuki practices; keep the paywall unchanged.
 - [x] Generate matching phone copy, run legal parity tests (2 pass), verify updated local pages and support access; no browser errors, build OK.
@@ -52,4 +57,5 @@
 - [x] Found Google's rule for standard Google sign-in apps: provide a test Google account's email + password + detailed instructions. No app changes made.
 
 - [x] Test Google account signed in to Kizuki; promotional Premium granted in RevenueCat until 31 Dec 2030.
-- [ ] BLOCKED on user: confirm Premium shows on the phone, then paste instructions in Play Console > App content > Sign-in details > Add new instructions, Save, Send for review.
+- [x] Hidden review email sign-in (server switch, currently ON) in Flutter + web; review account review@kizukijapan.com with Premium until 2030; build 121 on Play internal + TestFlight.
+- [ ] BLOCKED on user: fill Play Console Sign-in details with the review account, select build 121, send for review; ask to switch the review sign-in OFF after approval.

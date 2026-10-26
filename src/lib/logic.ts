@@ -206,6 +206,7 @@ export function subscriptionAccess(active: boolean, expiresAt: number | null | u
 }
 export const learningPath = (path: string) => !["/account", "/settings", "/support", "/terms", "/privacy", "/trial", "/profile", "/achievements"].includes(path);
 export const onboardingPath = (path: string) => ["/", "/onboarding", "/building", "/plan", "/founder"].includes(path);
+export const accountNeedsOnboarding = (fromWelcome: boolean, onboarded: boolean, premiumAccess: boolean) => fromWelcome && !onboarded && !premiumAccess;
 export const subscriptionPhase = (active: boolean, plan: string | null, trialEndsAt: number | null, now: number) =>
   !active ? "free" : plan === "yearly" && trialEndsAt != null && trialEndsAt > now ? "trial" : "active";
 /** YouTube reports zero until metadata arrives; allow only end-padding tolerance. */

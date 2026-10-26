@@ -62,6 +62,11 @@ void main() {
     });
   });
   group('onboarding rules', () {
+    test('active Premium login skips acquisition onboarding', () {
+      expect(accountNeedsOnboarding(true, false, subscriptionAccess(true, 1924905600000, null, now)), false);
+      expect(accountNeedsOnboarding(true, false, subscriptionAccess(false, null, null, now)), true);
+      expect(accountNeedsOnboarding(true, false, subscriptionAccess(true, now, null, now)), true);
+    });
     test('expired trial blocks learning at the exact end', () {
       expect(subscriptionAccess(true, null, now, now), false);
       expect(subscriptionAccess(true, null, now - 1, now), false);

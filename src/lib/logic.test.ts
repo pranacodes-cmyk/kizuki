@@ -2,7 +2,7 @@
 import { describe, expect, it } from "vitest";
 
 import {
-  signInProviders, nativeSignInEnabled, signInMethod, localStateFor,
+  signInProviders, nativeSignInEnabled, signInMethod, localStateFor, accountNeedsOnboarding,
   founderVideoEnabled, founderVideoUrl, onboardingAfterPlan, trialDays,
   subscriptionAccess, learningPath, purchaseNeedsAccount, ReviewSession, SUPPORT_TOPICS, supportMessageError, answerCard, bestStreak, clipScore, currentStreak, dayKey, dayMs, fnv1a, formatInterval, formatWhen, goalDateLabel,
   heatLevel, heatmapWeeks, kanaDeck, levelToJlpt, mergeActivity, mergeByUpdatedAt, minuteMs, minutesLeft, newCard,
@@ -73,6 +73,11 @@ it("another account never receives the previous learner's progress", () => {
 });
 
 describe("onboarding rules", () => {
+  it('active Premium login skips acquisition onboarding', () => {
+    expect(accountNeedsOnboarding(true, false, subscriptionAccess(true, 1924905600000, null, NOW))).toBe(false);
+    expect(accountNeedsOnboarding(true, false, subscriptionAccess(false, null, null, NOW))).toBe(true);
+    expect(accountNeedsOnboarding(true, false, subscriptionAccess(true, NOW, null, NOW))).toBe(true);
+  });
   it('expired trial blocks learning at the exact end', () => {
     expect(subscriptionAccess(true, null, NOW, NOW)).toBe(false);
     expect(subscriptionAccess(true, null, NOW - 1, NOW)).toBe(false);

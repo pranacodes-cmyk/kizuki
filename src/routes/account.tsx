@@ -7,11 +7,11 @@ import { useSession } from "@/hooks/use-session";
 import { Mascot } from "@/components/mimi/Mascot";
 import { Button, Screen, TopBar } from "@/components/mimi/ui";
 import { supabase } from "@/lib/backend";
-import { syncNow } from "@/lib/sync";
+import { setSession, syncNow } from "@/lib/sync";
 import { track } from '@/lib/analytics';
 import { toast } from "@/lib/ui-store";
 import { useApp } from "@/lib/store";
-import { signInProviders } from '@/lib/logic';
+import { accountNeedsOnboarding, signInProviders, subscriptionAccess } from '@/lib/logic';
 import { ProviderIcon } from '@/components/mimi/ProviderIcon';
 import { cachedReviewSignIn, refreshOnboardingSettings } from '@/lib/onboarding-settings';
 
@@ -116,7 +116,7 @@ function Account() {
       const isNew = Number.isFinite(created) && Date.now() - created < 2 * 60 * 1000;
       toast({ icon: isNew ? "🎉" : "👋", title: isNew ? "Account created" : "Welcome back", description: isNew ? "Let's set up your learning plan." : "Your progress is synced on this device." });
     }
-    if (fromWelcome && !s.onboarded) {
+    if (accountNeedsOnboarding(fromWelcome, s.onboarded, subscriptionAccess(s.premium.active, s.premium.expiresAt, s.premium.trialEndsAt, Date.now()))) {
       // Signed in on a fresh device without cloud progress → still needs a plan.
       void navigate({ to: "/onboarding", replace: true });
       return;
@@ -165,13 +165,14 @@ function Account() {
     track('sign_in_started', { provider: 'email' });
     setError(null);
     setBusy(true);
-    const { error: authError } = await supabase.auth.signInWithPassword({ email, password: reviewPassword });
+    const { data, error: authError } = await supabase.auth.signInWithPassword({ email, password: reviewPassword });
     if (authError) {
       track('sign_in_failed', { category: 'email' });
       setError(/network|fetch/i.test(authError.message) ? friendly(authError) : "Email or password is incorrect.");
       setBusy(false);
       return;
     }
+    setSession(data.session);
     await finish();
     setBusy(false);
   };
