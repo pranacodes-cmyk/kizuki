@@ -2,8 +2,11 @@
 """Push the store listing (text, category, age rating, screenshots, graphics) to App Store Connect
 and Google Play from store/listing.json + store/screenshots + store/play.
 
-Usage: python3 scripts/stores/push_listing.py [apple|play|all]   (default: all)
-Idempotent: re-running replaces the text and the screenshot sets with the current files.
+Usage: python3 scripts/stores/push_listing.py [apple|play|all] [--text-only]   (default: all)
+--text-only updates names, subtitles, keywords and descriptions but keeps the approved screenshots,
+icon and feature graphic already in the stores (new Apple locales still get the approved screenshots).
+The listing is validated by check_listing.py first; nothing is sent when a check fails.
+Idempotent: re-running replaces the text (and, without --text-only, the screenshot sets) with the current files.
 Things the APIs cannot set (App Privacy answers, review contact, Play Data safety, content rating
 questionnaire) are printed at the end as manual steps.
 """
@@ -14,6 +17,7 @@ from pathlib import Path
 
 import requests
 
+from check_listing import apple_sets, check
 from common import PLAY_UPLOAD, asc, asc_app, play, play_token
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -21,6 +25,7 @@ LISTING = json.loads((ROOT / "store/listing.json").read_text())
 IOS_SHOTS = sorted((ROOT / "store/screenshots/ios").glob("*.png"))
 PLAY_SHOTS = sorted((ROOT / "store/screenshots/play").glob("*.png"))
 manual = []
+TEXT_ONLY = "--text-only" in sys.argv
 
 
 def step(msg):
@@ -42,12 +47,16 @@ def apple():
         manual.append(f"App Store → App Information → Content Rights: answer 'Yes, uses third-party content' ({str(e)[:160]})")
 
     info = next(i for i in asc("GET", f"/v1/apps/{aid}/appInfos")["data"] if (i["attributes"].get("appStoreState") or i["attributes"].get("state")) != "READY_FOR_DISTRIBUTION")
-    for loc in asc("GET", f"/v1/appInfos/{info['id']}/appInfoLocalizations")["data"]:
-        if loc["attributes"]["locale"] != a["locale"]:
-            continue
-        asc("PATCH", f"/v1/appInfoLocalizations/{loc['id']}", {"data": {"type": "appInfoLocalizations", "id": loc["id"], "attributes": {
-            "name": a["name"], "subtitle": a["subtitle"], "privacyPolicyUrl": a["privacyPolicyUrl"]}}})
-        step(f"name/subtitle/privacy URL set for {a['locale']}")
+    info_locs = {l["attributes"]["locale"]: l for l in asc("GET", f"/v1/appInfos/{info['id']}/appInfoLocalizations")["data"]}
+    for s in apple_sets(a):
+        attrs = {"name": s["name"], "subtitle": s["subtitle"], "privacyPolicyUrl": a["privacyPolicyUrl"]}
+        if s["locale"] in info_locs:
+            lid = info_locs[s["locale"]]["id"]
+            asc("PATCH", f"/v1/appInfoLocalizations/{lid}", {"data": {"type": "appInfoLocalizations", "id": lid, "attributes": attrs}})
+        else:
+            asc("POST", "/v1/appInfoLocalizations", {"data": {"type": "appInfoLocalizations", "attributes": {"locale": s["locale"], **attrs},
+                                                             "relationships": {"appInfo": {"data": {"type": "appInfos", "id": info["id"]}}}}})
+        step(f"name/subtitle/privacy URL set for {s['locale']}: {s['name']} — {s['subtitle']}")
     asc("PATCH", f"/v1/appInfos/{info['id']}", {"data": {"type": "appInfos", "id": info["id"], "relationships": {
         "primaryCategory": {"data": {"type": "appCategories", "id": a["primaryCategory"]}},
         "secondaryCategory": {"data": {"type": "appCategories", "id": a["secondaryCategory"]}}}}})
@@ -67,20 +76,23 @@ def apple():
     step(f"version {a['version']} (copyright {a['copyright']})")
     first_release = len(versions) == 1
 
-    locs = asc("GET", f"/v1/appStoreVersions/{ver['id']}/appStoreVersionLocalizations")["data"]
-    loc = next((l for l in locs if l["attributes"]["locale"] == a["locale"]), None)
-    text = {"description": a["description"], "keywords": a["keywords"], "promotionalText": a["promotionalText"],
-            "supportUrl": a["supportUrl"], "marketingUrl": a["marketingUrl"]}
-    if not first_release:
-        text["whatsNew"] = a["whatsNew"]
-    if loc:
-        asc("PATCH", f"/v1/appStoreVersionLocalizations/{loc['id']}", {"data": {"type": "appStoreVersionLocalizations", "id": loc["id"], "attributes": text}})
-    else:
-        loc = asc("POST", "/v1/appStoreVersionLocalizations", {"data": {"type": "appStoreVersionLocalizations", "attributes": {"locale": a["locale"], **text},
-                                                                         "relationships": {"appStoreVersion": {"data": {"type": "appStoreVersions", "id": ver["id"]}}}}})["data"]
-    step("description, keywords, promotional text, support + marketing URLs set")
-
-    _screenshots(loc["id"], "APP_IPHONE_67", IOS_SHOTS)
+    locs = {l["attributes"]["locale"]: l for l in asc("GET", f"/v1/appStoreVersions/{ver['id']}/appStoreVersionLocalizations")["data"]}
+    for s in apple_sets(a):
+        text = {"description": s["description"], "keywords": s["keywords"], "promotionalText": s["promotionalText"],
+                "supportUrl": a["supportUrl"], "marketingUrl": a["marketingUrl"]}
+        if not first_release:
+            text["whatsNew"] = s["whatsNew"]
+        loc = locs.get(s["locale"])
+        if loc:
+            asc("PATCH", f"/v1/appStoreVersionLocalizations/{loc['id']}", {"data": {"type": "appStoreVersionLocalizations", "id": loc["id"], "attributes": text}})
+        else:
+            loc = asc("POST", "/v1/appStoreVersionLocalizations", {"data": {"type": "appStoreVersionLocalizations", "attributes": {"locale": s["locale"], **text},
+                                                                             "relationships": {"appStoreVersion": {"data": {"type": "appStoreVersions", "id": ver["id"]}}}}})["data"]
+        step(f"{s['locale']}: description, keywords ({len(s['keywords'])}/100), promotional text, support + marketing URLs set")
+        if not TEXT_ONLY or not _has_screenshots(loc["id"], "APP_IPHONE_67"):
+            _screenshots(loc["id"], "APP_IPHONE_67", IOS_SHOTS)
+        else:
+            step(f"{s['locale']}: approved screenshots kept")
 
     try:
         asc("GET", f"/v1/appStoreVersions/{ver['id']}/appStoreReviewDetail")
@@ -116,6 +128,12 @@ def _age_rating(info_id, wanted):
     left = [k for k, v in decl["attributes"].items() if v is None and k not in attrs and k not in optional]
     if left:
         manual.append("App Store → Age Rating: answer the remaining new questions: " + ", ".join(sorted(left)))
+
+
+def _has_screenshots(loc_id, display_type):
+    sets = asc("GET", f"/v1/appStoreVersionLocalizations/{loc_id}/appScreenshotSets")["data"]
+    s = next((x for x in sets if x["attributes"]["screenshotDisplayType"] == display_type), None)
+    return bool(s and asc("GET", f"/v1/appScreenshotSets/{s['id']}/appScreenshots")["data"])
 
 
 def _screenshots(loc_id, display_type, files):
@@ -168,13 +186,16 @@ def google():
         if r.status_code != 200:
             raise RuntimeError(f"Play image {kind}/{path.name} -> {r.status_code}: {r.text[:400]}")
 
-    for kind in ("phoneScreenshots", "icon", "featureGraphic"):
-        play("DELETE", f"/edits/{edit}/listings/{lang}/{kind}")
-    upload("icon", ROOT / "store/play/icon-512.png")
-    upload("featureGraphic", ROOT / "store/play/feature-graphic.png")
-    for f in PLAY_SHOTS:
-        upload("phoneScreenshots", f)
-    step(f"icon, feature graphic and {len(PLAY_SHOTS)} phone screenshots uploaded")
+    if TEXT_ONLY:
+        step("approved icon, feature graphic and screenshots kept")
+    else:
+        for kind in ("phoneScreenshots", "icon", "featureGraphic"):
+            play("DELETE", f"/edits/{edit}/listings/{lang}/{kind}")
+        upload("icon", ROOT / "store/play/icon-512.png")
+        upload("featureGraphic", ROOT / "store/play/feature-graphic.png")
+        for f in PLAY_SHOTS:
+            upload("phoneScreenshots", f)
+        step(f"icon, feature graphic and {len(PLAY_SHOTS)} phone screenshots uploaded")
 
     try:
         play("POST", f"/edits/{edit}:commit")
@@ -188,7 +209,16 @@ def google():
 
 
 def main():
-    which = sys.argv[1] if len(sys.argv) > 1 else "all"
+    flags = [x for x in sys.argv[1:] if x.startswith("-")]
+    args = [x for x in sys.argv[1:] if not x.startswith("-")]
+    # Anything unexpected (including --help) prints usage and sends nothing: this script changes live store listings.
+    if any(f != "--text-only" for f in flags) or len(args) > 1 or (args and args[0] not in ("apple", "play", "all")):
+        print(__doc__)
+        raise SystemExit(0 if {"-h", "--help"} & set(flags) else 2)
+    which = args[0] if args else "all"
+    problems = check(LISTING)
+    if problems:
+        raise SystemExit("listing check failed, nothing pushed:\n- " + "\n- ".join(problems))
     failed = []
     for name, fn in (("apple", apple), ("play", google)):
         if which not in ("all", name):
