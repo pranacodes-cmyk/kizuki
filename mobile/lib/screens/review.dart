@@ -108,8 +108,12 @@ class _ReviewScreenState extends State<ReviewScreen> {
       await showMimiModal<void>(context, (_) => const _PlanModal(), dismissible: false);
       app.setPlanModalSeen();
     } else if (finished && app.reviewSessions >= 2 && !app.ratingAsked) {
-      await showMimiModal<void>(context, (_) => const _RateModal());
+      // Store rules: show only the official Apple/Google rating sheet, never our own question first.
       app.setRatingAsked();
+      try {
+        final r = InAppReview.instance;
+        if (await r.isAvailable()) await r.requestReview();
+      } catch (_) {}
     }
     if (mounted) context.go('/vocab');
   }
@@ -553,50 +557,4 @@ class _PlanModalState extends State<_PlanModal> with SingleTickerProviderStateMi
       ),
     ]);
   }
-}
-
-class _RateModal extends StatefulWidget {
-  const _RateModal();
-  @override
-  State<_RateModal> createState() => _RateModalState();
-}
-
-class _RateModalState extends State<_RateModal> {
-  int stars = 5;
-  @override
-  Widget build(BuildContext context) => Column(mainAxisSize: MainAxisSize.min, children: [
-        const Mascot(MascotPose.heart, size: 96),
-        const SizedBox(height: 8),
-        Text('How is Kizuki doing?', style: txt(22, w: FontWeight.w900)),
-        const SizedBox(height: 4),
-        Text('A quick rating helps more learners find us. Thank you!', textAlign: TextAlign.center, style: txt(15, w: FontWeight.w400, c: T.muted)),
-        const SizedBox(height: 16),
-        Row(mainAxisSize: MainAxisSize.min, children: [
-          for (var n = 1; n <= 5; n++)
-            Semantics(
-              button: true,
-              label: '$n stars',
-              child: GestureDetector(
-                onTap: () => setState(() => stars = n),
-                child: Padding(padding: const EdgeInsets.symmetric(horizontal: 3), child: Icon(LucideIcons.star, size: 36, color: n <= stars ? T.gold : T.surface3)),
-              ),
-            ),
-        ]),
-        const SizedBox(height: 20),
-        Button3D(
-          label: 'Rate Kizuki',
-          onPressed: () async {
-            final nav = Navigator.of(context);
-            if (stars >= 4) {
-              try {
-                final r = InAppReview.instance;
-                if (await r.isAvailable()) await r.requestReview();
-              } catch (_) {}
-            }
-            toast('Thanks for rating Kizuki!', icon: '💛');
-            nav.pop();
-          },
-        ),
-        TextButton(onPressed: () => Navigator.of(context).pop(), child: Text('Not now', style: txt(14, w: FontWeight.w700, c: T.muted))),
-      ]);
 }
