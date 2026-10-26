@@ -33,3 +33,6 @@ dist-ssr
 
 # content pipeline dictionary downloads (scripts/content/fetch_dict.sh)
 scripts/content/.dict/
+
+__pycache__/
+*.pyc

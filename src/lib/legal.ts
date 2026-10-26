@@ -10,7 +10,7 @@ export const LEGAL_SUPPORT_URL = "kiku-clip-word-garden.lovable.app/support";
 
 export const PRIVACY: LegalDoc = {
   title: "Privacy Policy",
-  updated: "October 25, 2026",
+  updated: "October 26, 2026",
   intro:
     "This Privacy Policy explains how Kizuki (“Kizuki”, “we”, “us”) collects, uses and shares information when you use the Kizuki app for Android and iPhone and the website kiku-clip-word-garden.lovable.app (together, the “Service”). If anything here is unclear, message us and we will explain it.",
   sections: [
@@ -18,8 +18,8 @@ export const PRIVACY: LegalDoc = {
       h: "1. The short version",
       body: [
         "• We collect only what Kizuki needs to work: your learning progress, your email if you create an account, and basic purchase and app-event data.",
-        "• We never sell your personal information, and there are no ads inside Kizuki.",
-        "• Your progress is saved on your device first. An account adds a private cloud copy that only you can access.",
+        "• We never sell your personal information, and we do not insert our own ads into the learning interface. YouTube may show ads in its player.",
+        "• Your progress is saved on your device first. An account adds a private cloud copy protected by account-specific access controls. Authorized service operations may process this data to run the Service.",
         "• You can delete your account and all synced data at any time in Settings.",
       ],
     },
@@ -28,7 +28,7 @@ export const PRIVACY: LegalDoc = {
       body: [
         "• Learning plan answers: why you are learning, your level, what is hardest for you, where you heard about Kizuki, your daily goal, reminder time and streak goal.",
         "• Learning activity: saved words and notes, word levels, review history and flashcard schedule, clips watched and saved, streaks, study time, achievements and settings.",
-        "• Account details: when you choose Google, Apple or Lovable sign-in, the provider shares your account identifier and available name, email and profile picture with us. Kizuki does not ask for or receive your provider password.",
+        "• Account details: when you choose an available email, Google or Apple sign-in method, the provider shares your account identifier and available name, email and profile picture with us. Kizuki does not ask for or receive your provider password.",
         "• Ask Kizuki questions: the question you type and the clip sentence it is about.",
         "• Help messages: your email address, the topic, your message and your device type.",
       ],
@@ -60,25 +60,25 @@ export const PRIVACY: LegalDoc = {
       h: "5. Who we share information with",
       body: [
         "We share information only with service providers that help us run Kizuki, and only what each one needs:",
-        "• Lovable (Lovable Cloud): hosting, database and sign-in for accounts and synced progress.",
+        "• Our project-owned backend service: account authentication, profiles and synced learning progress. Lovable provides website hosting and the AI Gateway used for tutor requests.",
         "• Apple App Store and Google Play: payments and subscription management.",
         "• RevenueCat: subscription status, receipts, trials and restores.",
         "• Meta Platforms (Facebook SDK and Conversions API): ads measurement, see section 6.",
         "• PostHog: optional product analytics, only after you turn on Usage analytics in Settings. It receives timestamped screen visits, tab and control interactions, onboarding and welcome-tour steps, paywall and checkout outcomes, clip and dictionary identifiers, learning activity, review grades, setting choices, subscription status, coarse error categories, device/browser information and an anonymous identifier. After sign-in we associate that identifier with your Kizuki account ID so we can understand journeys across devices. We do not send your name, email, passwords, sign-in tokens, messages, notes, chat questions or answers, card details or purchase receipts. Session replay and screen recording are disabled. These events measure product usage and funnels, not advertising audiences or optimization.",
-        "• OpenAI, through the Lovable AI Gateway: writes Ask Kizuki answers. We send only your question and the clip sentence, never your name or email.",
-        "• YouTube (Google): clips play in YouTube's official embedded player, which may collect data under Google's Privacy Policy.",
+        "• OpenAI, directly or through the Lovable AI Gateway depending on the active configuration: generates Ask Kizuki answers. We send the conversation text and relevant learning context, such as the clip sentence and word explanations. We do not intentionally attach your account name or email, but information you type yourself is included. Provider processing and security retention are governed by their terms.",
+        "• YouTube (Google): clips play in YouTube's official embedded player. The player may receive your IP address, device/browser information, playback activity and cookies or identifiers. Google may show ads and process this information under its own policy: https://policies.google.com/privacy. YouTube Terms of Service: https://www.youtube.com/t/terms.",
         "• Google: sign-in with Google on the website, if you choose it.",
         "We may also disclose information when the law requires it, to protect the rights and safety of our users or others, or as part of a merger or sale of the Service, in which case we will tell you first.",
-        "We do not sell your personal information. Apart from the ads measurement in section 6, which you can turn off, we do not share it for advertising.",
+        "We do not sell your personal information. Advertising measurement is described in section 6; optional product analytics is a separate choice.",
       ],
     },
     {
       h: "6. Ads measurement and tracking",
       body: [
-        "We advertise Kizuki on Facebook and Instagram. To learn which ads work, the app tells Meta when it is installed or opened and when onboarding is finished, and RevenueCat tells Meta about trial starts, purchases and renewals. Kizuki shows no ads.",
+        "We advertise Kizuki on Facebook and Instagram. To learn which ads work, the app tells Meta when it is installed or opened and when onboarding or the welcome tour is finished, when the paywall is viewed, when checkout is started and when an achievement is unlocked. Event details can include a plan identifier, price and currency, or an achievement identifier. RevenueCat may share trial, purchase and renewal events through its configured Meta integration. The app supplies a Meta anonymous identifier and permitted device identifiers to RevenueCat for attribution. We do not insert our own ads; YouTube may show ads in its player.",
         "• iPhone: we ask with Apple's tracking prompt. If you choose “Ask App Not to Track”, the app does not read your advertising ID and Meta receives these events without it. You can change this anytime in Settings → Privacy & Security → Tracking.",
         "• Android: you can reset or delete your advertising ID in your phone's Settings → Privacy → Ads (or Settings → Google → Ads).",
-        "• Anywhere: send us a message from Help & feedback and we will stop sharing your app events with Meta.",
+        "• For advertising-data questions or an objection to processing, email pranacodes@gmail.com. The Usage analytics toggle controls PostHog only: it is not a switch for Meta or YouTube. Device privacy controls do not necessarily stop all non-advertising-ID event processing. Meta privacy information: https://www.facebook.com/privacy/policy/.",
       ],
     },
     {
@@ -92,24 +92,24 @@ export const PRIVACY: LegalDoc = {
       h: "8. How long we keep information",
       body: [
         "• Account and synced progress: until you delete your account.",
-        "• Ask Kizuki questions: we do not store the text of your questions; our AI provider processes them only to write the answer.",
-        "• Help messages: until your request is resolved and for up to 2 years after, then deleted.",
+        "• Ask Kizuki: the tutor request handler does not save conversations to our learning database and requests that model responses are not stored by OpenAI. Conversation text is still processed by the AI provider and, when used, the AI Gateway; this does not guarantee zero provider logs or zero security retention.",
+        "• Help messages: kept to handle your request and related follow-up, or where necessary for legal or security purposes. Contact us to request deletion; there is no automatic deletion schedule promised here.",
         "• Purchase records: as long as tax and accounting laws require.",
         "• Server logs: a limited time for security and troubleshooting.",
         "• Optional product analytics: retained according to the configured PostHog project retention, until removed under our retention settings or a valid deletion request. Contact us for access or deletion; we do not promise a specific period until project retention is configured.",
-        "• Progress on your device: until you delete the app or its data.",
+        "• Progress on your device: until you clear app or browser data, delete your account through the app, or remove the app where the operating system removes its stored data. Backups may follow your device provider's retention settings.",
       ],
     },
     {
       h: "9. Your choices and rights",
       body: [
-        "• Delete your account: Settings → Delete account permanently removes your account and cloud progress right away.",
-        "• Delete without the app: send a message at kiku-clip-word-garden.lovable.app/support with the topic “Account”, using the email you signed up with. We delete the account and its data within 30 days and confirm by reply.",
+        "• Delete your account: Settings → Delete account requests account deletion and clears local learner state after a successful response. This does not cancel an App Store or Google Play subscription. Purchase, security and legally required records, and provider backups, may be retained separately.",
+        "• Delete without the app: send a message at kiku-clip-word-garden.lovable.app/support with the topic “Account”, using the email you signed up with. You may also email pranacodes@gmail.com. We may need to verify ownership before acting; we aim to handle verified requests within 30 days, subject to legal requirements and permitted extensions. Submission does not automatically delete an account or generate an email reply.",
         "• Export: Settings → Export saved words (.csv) downloads your words as a spreadsheet. For a copy of all your data, send us a message.",
         "• Correct: change your plan, level and settings in the app at any time.",
         "• Withdraw consent: turn off tracking, notifications or reminders in your phone's settings or in Kizuki's Settings.",
-        "Depending on where you live (for example the EU/EEA, UK, Switzerland, California and other US states, Brazil or India), you may have the right to access, correct, delete or port your information, to restrict or object to its use, and to complain to your local data protection authority. We answer requests within 30 days, or sooner if the law requires, and we never treat you differently for using your rights.",
-        "Legal bases (EU/EEA and UK): performing our contract with you (running the Service), our legitimate interests (security, improving Kizuki and measuring our ads), your consent (tracking on iPhone, notifications) and legal obligations.",
+        "Depending on where you live (for example the EU/EEA, UK, Switzerland, California and other US states, Brazil or India), you may have the right to access, correct, delete or port your information, to restrict or object to its use, and to complain to your local data protection authority. We aim to answer verified requests within 30 days, or within the legally applicable period, and we never treat you differently for using your rights.",
+        "Legal bases (EU/EEA and UK): performing our contract with you (running the Service), our legitimate interests (security, improving Kizuki and measuring our ads), your consent (optional product analytics and tracking or notifications where required) and legal obligations.",
       ],
     },
     {
@@ -121,13 +121,13 @@ export const PRIVACY: LegalDoc = {
     {
       h: "11. Security",
       body: [
-        "Data is encrypted in transit (HTTPS). Cloud progress is protected by access rules so each account can read only its own data, and passwords are stored only as secure hashes. No system is perfectly secure, but we work to protect your information and will tell you if a breach affects you.",
+        "Data is encrypted in transit (HTTPS). Cloud progress is protected by account-specific access rules. Authentication is handled by our sign-in provider; we do not receive Google or Apple account passwords. No system is perfectly secure, but we work to protect your information and will tell you if a breach affects you.",
       ],
     },
     {
       h: "12. International transfers",
       body: [
-        "We and our providers may process information in the United States and other countries. Where required, transfers are protected by safeguards such as the European Commission's Standard Contractual Clauses.",
+        "We and our providers may process information in the United States and other countries. Applicable transfer protections depend on the service provider and your jurisdiction. Contact us for information about safeguards applicable to your data.",
       ],
     },
     {
@@ -147,33 +147,23 @@ export const PRIVACY: LegalDoc = {
 
 export const TERMS: LegalDoc = {
   title: "Terms of Service",
-  updated: "October 23, 2026",
-  intro: "These terms apply when you use the Kizuki app and website. By using Kizuki you agree to them.",
+  updated: "October 26, 2026",
+  intro: "These Terms apply to the Kizuki Android and iPhone apps and website, operated by the Kizuki team. By using the Service you agree to these Terms. If you do not agree, do not use the Service. Questions can be sent to pranacodes@gmail.com.",
   sections: [
-    { h: "Using Kizuki", body: ["Kizuki helps you learn Japanese with short clips, transcripts, word explanations and flashcards. Use it for personal, non-commercial learning."] },
-    {
-      h: "Videos",
-      body: ["Clips play through YouTube's official embedded player and remain the property of their creators. YouTube's Terms of Service apply when you watch them. Kizuki does not download or host these videos."],
-    },
-    {
-      h: "Learning content",
-      body: ["Transcripts, translations and explanations are produced with care and AI assistance and may contain mistakes. Dictionary data comes from JMdict (EDRDG, CC BY-SA 4.0); example sentences from Tatoeba (CC BY 2.0 FR)."],
-    },
-    {
-      h: "Subscriptions",
-      body: [
-        "Kizuki Premium is an auto-renewing subscription billed through the App Store or Google Play. The yearly plan starts with a 7-day free trial; the monthly plan is billed right away. Payment is charged to your store account when you confirm (or when the trial ends), and the subscription renews at the same price unless you cancel at least 24 hours before the current period ends. Manage or cancel it anytime in your App Store or Google Play subscriptions; access continues until the end of the paid period. Prices are shown in your local currency before you buy.",
-      ],
-    },
-    {
-      h: "Ask Kizuki",
-      body: ["Answers from the AI tutor are generated automatically and can be wrong. Free accounts get 5 questions a day; Premium is unlimited. Please don't send personal information in your questions."],
-    },
-    { h: "Your account", body: ["You're responsible for keeping your login safe. You can delete your account at any time in Settings, which removes your cloud progress."] },
-    { h: "Privacy", body: ["Our Privacy Policy explains what we collect and how we use it."] },
-    {
-      h: "Contact",
-      body: ["Questions or problems? Open Profile → Help & feedback, visit kiku-clip-word-garden.lovable.app/support, or email pranacodes@gmail.com."],
-    },
+    { h: "1. The Service", body: ["Kizuki is a Japanese-learning service with contextual clips, word definitions, translations, vocabulary tools, spaced-repetition flashcards, progress tracking and an AI tutor. Features, content and availability may change. Learning outcomes or JLPT results are not guaranteed."] },
+    { h: "2. Eligibility", body: ["Kizuki is not directed to children under 13, or under 16 in the EU/EEA and UK. If you are below the age of majority where you live, use the Service only with a parent or guardian's permission. Store purchases must be authorized by the account holder."] },
+    { h: "3. Accounts and security", body: ["Provide accurate account information and keep your sign-in secure. Do not share credentials, impersonate another person or access another learner's data. Your learning progress is associated with your Kizuki account when signed in; use the same account across devices.", "Purchase recognition depends on the store account, the Kizuki account linked through RevenueCat, and the store and subscription provider's restore rules. Use Restore purchase with the original store account. A restore is not a promise that a subscription can be shared with or transferred to any other Kizuki account; contact us if access is attached to an unexpected account."] },
+    { h: "4. Acceptable use", body: ["Use Kizuki for personal, non-commercial learning. Do not use it unlawfully, bypass access controls, disrupt the Service, scrape or redistribute content without permission, exploit the tutor, or infringe intellectual-property rights. Do not send passwords, payment details or sensitive personal information to the AI tutor."] },
+    { h: "5. YouTube content and Premium learning features", body: ["Videos belong to their respective creators and are hosted on YouTube. Kizuki uses YouTube's official embedded player; it does not download, re-host or sell ownership of the videos. Kizuki is not affiliated with or endorsed by YouTube or the featured creators.", "YouTube-related features are subject to YouTube's Terms of Service: https://www.youtube.com/t/terms. Google's Privacy Policy applies to the player: https://policies.google.com/privacy. Standard player functionality, branding and any ads are controlled by YouTube. Do not bypass player restrictions or copy or redistribute videos without permission.", "Kizuki Premium provides our additional language-learning tools: contextual translations and definitions, vocabulary organization, flashcards and review scheduling, learning statistics, progress tracking and Ask Kizuki. The underlying videos remain available separately on YouTube, subject to creator availability and YouTube's rules. Our in-app learning experience requires an active eligible trial or subscription after any onboarding preview; we do not promise a free in-app video feed.", "A subscription does not grant a license to the creators' videos or other third-party content. Videos can be removed, restricted or become unavailable, and the clip library may change. This description is not a representation that YouTube has approved Kizuki or granted special permissions."] },
+    { h: "6. Learning content and intellectual property", body: ["Kizuki's branding, original software and original learning materials are protected by applicable intellectual-property laws. Third-party videos and other licensed material remain subject to their owners' rights. Do not reuse our branding or materials without permission or a valid legal basis.", "Transcripts, translations and explanations may be AI-assisted and contain mistakes. Dictionary data includes JMdict (EDRDG, CC BY-SA 4.0); example sentences include Tatoeba (CC BY 2.0 FR). Applicable third-party licenses continue to apply."] },
+    { h: "7. Subscriptions, prices and trials", body: ["Kizuki Premium is an auto-renewing monthly or yearly subscription purchased through Apple App Store or Google Play. The actual store price in your local currency, billing period and offer terms are shown before purchase. Monthly-equivalent yearly prices are comparisons: the yearly total is billed for the full year.", "Eligible yearly offers may include a 3-day or 7-day free trial, or no trial. The selected store product and your eligibility determine the offer; a trial is not guaranteed for every user. Monthly is billed immediately unless the store explicitly presents an eligible offer. At the end of a free trial, the displayed subscription price is charged automatically unless you cancel in time.", "Apple generally permits only one introductory offer per subscription group for an eligible store account. Choosing a different plan or signing into a different Kizuki account does not guarantee another trial. Google Play eligibility depends on its offer rules. The store's purchase confirmation governs the transaction.", "Payments are charged to your store account. Subscriptions renew automatically unless canceled under the store's rules. For Apple, cancel at least 24 hours before the current trial or billing period ends; renewal may be charged within the final 24 hours. For Google Play, follow the cancellation deadline shown by Google. Any price changes are handled under the store's notice and consent rules."] },
+    { h: "8. Cancellation, refunds and restore", body: ["Manage or cancel your subscription through your App Store or Google Play account settings. Uninstalling Kizuki, signing out or deleting your Kizuki account does not cancel a store subscription. Access usually continues until the paid period ends; a free trial may end immediately after cancellation where the store's rules provide for this.", "Refund requests are handled by Apple or Google under their policies and applicable consumer law. Kizuki does not promise automatic refunds. Restore purchase checks existing store purchases; it does not create a new purchase or a new trial.", "After trial or paid access expires without renewal, learning access is restricted; account, settings, help, legal information and purchase or restore options remain available."] },
+    { h: "9. Ask Kizuki", body: ["The AI tutor requires sign-in and a verified active Premium entitlement. Availability and operational limits may apply. Answers can be incorrect or incomplete and should not be treated as professional advice. We do not promise unlimited availability, a fixed free question allowance or error-free answers."] },
+    { h: "10. Privacy and account deletion", body: ["Our Privacy Policy explains collection, processing, providers and your choices: https://kiku-clip-word-garden.lovable.app/privacy. You may request account deletion from Settings or contact us. Deletion does not automatically remove legally retained store/provider records or cancel subscriptions."] },
+    { h: "11. Availability and disclaimers", body: ["To the extent permitted by law, the Service is provided as available without a guarantee of uninterrupted availability, perfect accuracy or compatibility with every device. Internet access and third-party services are required for video playback, purchases, sync and AI answers. Your mandatory consumer rights are not excluded."] },
+    { h: "12. Liability and consumer rights", body: ["To the extent permitted by applicable law, we are not responsible for indirect or consequential losses from use of the Service. Nothing in these Terms excludes liability that cannot lawfully be excluded, or limits mandatory consumer rights, including rights related to refunds, digital services or data protection."] },
+    { h: "13. Changes and termination", body: ["We may update these Terms and will show the revision date on this page. Material changes will be communicated as appropriate; any legally required notice or consent still applies. We may restrict abusive or unlawful use, subject to applicable law. Store cancellation and refund rules continue to apply separately."] },
+    { h: "14. Apple license and applicable law", body: ["For the iPhone app, Apple's Standard End User License Agreement (EULA) applies to the app license: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/. These Terms describe Kizuki's service and do not replace Apple's purchase conditions or mandatory consumer rights.", "Applicable law and dispute rights depend on your jurisdiction and the applicable store license. These Terms do not require you to waive mandatory protections or bring claims in a foreign court."] },
+    { h: "15. Contact", body: ["For support, subscription-access problems or legal questions, open Profile → Help & feedback, visit https://kiku-clip-word-garden.lovable.app/support, or email pranacodes@gmail.com."] },
   ],
 };

@@ -3,6 +3,8 @@ import { founderVideoEnabled, founderVideoUrl, trialDays as trialDaysRule, DEFAU
 
 let enabled = true;
 let trialDayCount = DEFAULT_TRIAL_DAYS;
+/** Server switch for the store-review email sign-in; off = the form is not rendered at all. */
+let reviewSignIn = false;
 let pending: Promise<boolean> | null = null;
 export function refreshOnboardingSettings(): Promise<boolean> {
   if (pending) return pending;
@@ -12,7 +14,8 @@ export function refreshOnboardingSettings(): Promise<boolean> {
       if (cached === 'true' || cached === 'false') enabled = cached === 'true';
       videoUrl = founderVideoUrl(localStorage.getItem('founder-video-url'));
       trialDayCount = parseTrialDays(localStorage.getItem('trial-days'), trialDayCount);
-      const { data, error } = await supabase.from('onboarding_settings').select('founder_video_enabled,founder_video_url,trial_enabled,trial_days').eq('id', 1).abortSignal(AbortSignal.timeout(2000)).maybeSingle();
+      reviewSignIn = localStorage.getItem('review-sign-in') === 'true';
+      const { data, error } = await supabase.from('onboarding_settings').select('founder_video_enabled,founder_video_url,trial_enabled,trial_days,review_sign_in').eq('id', 1).abortSignal(AbortSignal.timeout(2000)).maybeSingle();
       if (!error && data) {
         enabled = founderVideoEnabled(data.founder_video_enabled, enabled);
         localStorage.setItem('founder-video-enabled', String(enabled));
@@ -22,6 +25,9 @@ export function refreshOnboardingSettings(): Promise<boolean> {
         else localStorage.removeItem('founder-video-url');
         trialDayCount = trialDaysRule(data.trial_enabled, data.trial_days, trialDayCount);
         localStorage.setItem('trial-days', String(trialDayCount));
+        // A missing column or value hides the review form (never shown by accident).
+        reviewSignIn = data.review_sign_in === true;
+        localStorage.setItem('review-sign-in', String(reviewSignIn));
       }
     } catch { /* Offline: retain last valid setting. */ }
     return enabled;
@@ -35,6 +41,7 @@ function parseTrialDays(raw: string | null, cached: number): number {
 }
 
 export const cachedFounderEnabled = () => enabled;
+export const cachedReviewSignIn = () => reviewSignIn;
 
 /** Server trial experiment, last valid value: 0 = direct paywall without trial wording. */
 export const cachedTrialDays = () => trialDayCount;

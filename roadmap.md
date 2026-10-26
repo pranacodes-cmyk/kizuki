@@ -1,5 +1,10 @@
 # Migration: Lovable Cloud → External Supabase (gcoboyhfhadivheoilxp)
 
+## Legal policy update — 2026-10-26
+- [x] Update Kizuki Privacy and Terms using Kiku-like structure but verified Kizuki practices; keep the paywall unchanged.
+- [x] Generate matching phone copy, run legal parity tests (2 pass), verify updated local pages and support access; no browser errors, build OK.
+- [ ] Publish revised web policies and include revised in-app copy in a future phone release. Waiting for explicit publish/release authorization; public website still serves earlier copy.
+
 ## ASO (App Store + Google Play search) — 2026-10-25
 - [x] Research 80 searches on US App Store order + suggestions, US/India Google Play top 10 + installs, competitor titles/subtitles/ratings.
 - [x] Rewrite store/listing.json (en-US + es-MX App Store sets, Play title/short/full); remove false free-tier claim and wrong clip/video counts; original copy, no competitor names.
@@ -42,3 +47,9 @@
 - [ ] GitHub sync + new Android build; device test: Google + Apple native login, sync, Ask
 - [ ] LAST (irreversible): user removes Lovable Cloud via More → Database → Manage → Settings → Remove Database
 - [ ] Note: old 4 test accounts don't carry over; fresh sign-in on new backend
+
+## Play Console "Sign in details" declaration - 2026-10-26
+- [x] Found Google's rule for standard Google sign-in apps: provide a test Google account's email + password + detailed instructions. No app changes made.
+
+- [x] Test Google account signed in to Kizuki; promotional Premium granted in RevenueCat until 31 Dec 2030.
+- [ ] BLOCKED on user: confirm Premium shows on the phone, then paste instructions in Play Console > App content > Sign-in details > Add new instructions, Save, Send for review.

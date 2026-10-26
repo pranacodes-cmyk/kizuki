@@ -13,6 +13,7 @@ import { toast } from "@/lib/ui-store";
 import { useApp } from "@/lib/store";
 import { signInProviders } from '@/lib/logic';
 import { ProviderIcon } from '@/components/mimi/ProviderIcon';
+import { cachedReviewSignIn, refreshOnboardingSettings } from '@/lib/onboarding-settings';
 
 const searchSchema = z.object({
   mode: z.enum(["signup", "signin"]).optional(),
@@ -59,6 +60,15 @@ function Account() {
   const finishing = useRef(false);
   const autoStarted = useRef(false);
   const fromWelcome = initialMode === "signin" && !requiredAccount && !onboarded;
+  // Store-review email sign-in: rendered only while the server switch is on.
+  const [reviewEnabled, setReviewEnabled] = useState(false);
+  const [reviewOpen, setReviewOpen] = useState(false);
+  const [reviewEmail, setReviewEmail] = useState("");
+  const [reviewPassword, setReviewPassword] = useState("");
+  useEffect(() => {
+    setReviewEnabled(cachedReviewSignIn());
+    void refreshOnboardingSettings().then(() => setReviewEnabled(cachedReviewSignIn()));
+  }, []);
 
   /// Session payload handed to the phone app. Built once: right after building it this
   /// page drops its own copy of the session, so the phone's refresh is the only one (a
@@ -149,6 +159,23 @@ function Account() {
     // Full-page redirect to the provider; when it returns, the session listener continues.
   };
 
+  const reviewSignIn = async () => {
+    const email = reviewEmail.trim();
+    if (!email || !reviewPassword) { setError("Enter the email and password."); return; }
+    track('sign_in_started', { provider: 'email' });
+    setError(null);
+    setBusy(true);
+    const { error: authError } = await supabase.auth.signInWithPassword({ email, password: reviewPassword });
+    if (authError) {
+      track('sign_in_failed', { category: 'email' });
+      setError(/network|fetch/i.test(authError.message) ? friendly(authError) : "Email or password is incorrect.");
+      setBusy(false);
+      return;
+    }
+    await finish();
+    setBusy(false);
+  };
+
   const later = () => {
     if (requiredAccount) return;
     if (fromWelcome) { void navigate({ to: "/" }); return; }
@@ -195,6 +222,15 @@ function Account() {
             <ChevronRight aria-hidden="true" className="h-5 w-5 shrink-0 text-faint" />
           </Button>)}
           {!busy && <p className="flex items-center justify-center gap-1.5 pt-1 text-[0.8125rem] font-bold text-faint"><ShieldCheck aria-hidden="true" className="h-4 w-4" />One tap · no passwords · progress stays safe</p>}
+          {!busy && reviewEnabled && (reviewOpen ? (
+            <form className="space-y-2.5 pt-3" onSubmit={(e) => { e.preventDefault(); void reviewSignIn(); }}>
+              <input type="email" autoComplete="username" placeholder="Email" value={reviewEmail} onChange={(e) => setReviewEmail(e.target.value)} className="h-12 w-full rounded-[14px] bg-surface-2 px-4 text-[1rem] font-semibold outline-none" />
+              <input type="password" autoComplete="current-password" placeholder="Password" value={reviewPassword} onChange={(e) => setReviewPassword(e.target.value)} className="h-12 w-full rounded-[14px] bg-surface-2 px-4 text-[1rem] font-semibold outline-none" />
+              <Button type="submit">Sign in</Button>
+            </form>
+          ) : (
+            <button type="button" onClick={() => setReviewOpen(true)} className="w-full pt-3 text-[0.875rem] font-bold text-faint">Sign in with email</button>
+          ))}
         </div>
       </div>
 

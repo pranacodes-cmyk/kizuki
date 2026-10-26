@@ -9,6 +9,7 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 import '../logic/logic.dart';
 import '../services/auth_links.dart';
 import '../services/native_auth.dart';
+import '../services/onboarding_settings.dart';
 import '../widgets/provider_icon.dart';
 import '../services/analytics.dart';
 import '../services/sync_service.dart';
@@ -43,6 +44,11 @@ class _AccountScreenState extends State<AccountScreen> {
   bool busy = false; // native sheet or restoring a legacy handed-back session
   String? error;
 
+  /// Store-review email sign-in: rendered only while the server switch is on.
+  bool reviewOpen = false;
+  final _reviewEmail = TextEditingController();
+  final _reviewPassword = TextEditingController();
+
   bool get requiredAccount => context.read<AppState>().purchaseAccountPending;
   bool get fromWelcome => widget.signInMode && !requiredAccount && !context.read<AppState>().onboarded;
 
@@ -54,6 +60,7 @@ class _AccountScreenState extends State<AccountScreen> {
     SyncService.I.addListener(_autoFinish);
     AuthLinks.I.start();
     AuthLinks.I.onSession = _onHandoff;
+    OnboardingSettings.refresh().then((_) { if (mounted) setState(() {}); });
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _autoFinish();
       final handoff = AuthLinks.I.takePending();
@@ -65,6 +72,8 @@ class _AccountScreenState extends State<AccountScreen> {
   void dispose() {
     SyncService.I.removeListener(_autoFinish);
     if (AuthLinks.I.onSession == _onHandoff) AuthLinks.I.onSession = null;
+    _reviewEmail.dispose();
+    _reviewPassword.dispose();
     super.dispose();
   }
 
@@ -180,6 +189,58 @@ class _AccountScreenState extends State<AccountScreen> {
     if (mounted) setState(() { busy = false; error = 'This sign-in method is not available on this device.'; });
   }
 
+  Future<void> _reviewSignIn() async {
+    final email = _reviewEmail.text.trim();
+    final password = _reviewPassword.text;
+    if (email.isEmpty || password.isEmpty) {
+      setState(() => error = 'Enter the email and password.');
+      return;
+    }
+    Analytics.track('sign_in_started', {'provider': 'email'});
+    FocusScope.of(context).unfocus();
+    setState(() {
+      error = null;
+      busy = true;
+    });
+    if (!await _backend()) return;
+    try {
+      await Supabase.instance.client.auth.signInWithPassword(email: email, password: password);
+      SyncService.I.setSession(Supabase.instance.client.auth.currentSession);
+      if (mounted) await _finish();
+    } catch (e) {
+      Analytics.track('sign_in_failed', {'category': 'email'});
+      if (mounted) {
+        setState(() {
+          busy = false;
+          error = e is AuthException ? 'Email or password is incorrect.' : friendlyAuthError(e);
+        });
+      }
+    }
+  }
+
+  Widget _reviewForm() {
+    if (!reviewOpen) {
+      return TextButton(
+        key: const ValueKey('account-email-toggle'),
+        onPressed: () => setState(() => reviewOpen = true),
+        child: Text('Sign in with email', style: txt(14, w: FontWeight.w700, c: T.faint)),
+      );
+    }
+    InputDecoration deco(String hint) => InputDecoration(
+          hintText: hint,
+          filled: true,
+          fillColor: T.surface2,
+          border: OutlineInputBorder(borderRadius: BorderRadius.circular(14), borderSide: BorderSide.none),
+        );
+    return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+      TextField(key: const ValueKey('account-email'), controller: _reviewEmail, keyboardType: TextInputType.emailAddress, autocorrect: false, style: txt(16, w: FontWeight.w600), decoration: deco('Email')),
+      const SizedBox(height: 10),
+      TextField(key: const ValueKey('account-password'), controller: _reviewPassword, obscureText: true, style: txt(16, w: FontWeight.w600), decoration: deco('Password'), onSubmitted: (_) => _reviewSignIn()),
+      const SizedBox(height: 12),
+      Button3D(key: const ValueKey('account-email-submit'), onPressed: _reviewSignIn, label: 'Sign in'),
+    ]);
+  }
+
   void _later() {
     if (requiredAccount) return;
     if (fromWelcome) {
@@ -275,6 +336,10 @@ class _AccountScreenState extends State<AccountScreen> {
                       const SizedBox(width: 6),
                       Text('One tap · no passwords · progress stays safe', style: txt(13, w: FontWeight.w700, c: T.faint)),
                     ]),
+                  if (!busy && OnboardingSettings.reviewSignIn) ...[
+                    const SizedBox(height: 16),
+                    _reviewForm(),
+                  ],
                 ]),
               ),
             ),

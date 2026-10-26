@@ -12,6 +12,9 @@ class OnboardingSettings {
   static bool nativeGoogle = false;
   static bool nativeApple = false;
 
+  /// Server switch for the store-review email sign-in; off = the form is not rendered at all.
+  static bool reviewSignIn = false;
+
   /// Server trial experiment, last valid value: 0 = direct paywall without trial wording.
   static int trialDayCount = defaultTrialDays;
 
@@ -28,12 +31,13 @@ class OnboardingSettings {
       enabled = prefs.getBool('founder-video-enabled') ?? enabled;
       nativeGoogle = prefs.getBool('native-google-sign-in') ?? nativeGoogle;
       nativeApple = prefs.getBool('native-apple-sign-in') ?? nativeApple;
+      reviewSignIn = prefs.getBool('review-sign-in') ?? reviewSignIn;
       videoUrl = founderVideoUrl(prefs.getString('founder-video-url'));
       final cachedDays = prefs.getInt('trial-days');
       if (cachedDays != null && cachedDays >= 0 && cachedDays <= 14) trialDayCount = cachedDays;
       yearlyProduct = _productId(prefs.getString('trial-yearly-product'));
       final response = await http.get(
-        Uri.parse('${AppConfig.supabaseUrl}/rest/v1/onboarding_settings?id=eq.1&select=founder_video_enabled,founder_video_url,native_google_sign_in,native_apple_sign_in,trial_enabled,trial_days,yearly_product'),
+        Uri.parse('${AppConfig.supabaseUrl}/rest/v1/onboarding_settings?id=eq.1&select=founder_video_enabled,founder_video_url,native_google_sign_in,native_apple_sign_in,review_sign_in,trial_enabled,trial_days,yearly_product'),
         headers: {'apikey': AppConfig.supabasePublishableKey},
       ).timeout(const Duration(seconds: 2));
       if (response.statusCode != 200) return;
@@ -43,6 +47,8 @@ class OnboardingSettings {
       enabled = founderVideoEnabled(row['founder_video_enabled'], enabled);
       nativeGoogle = nativeSignInEnabled(row['native_google_sign_in'], nativeGoogle);
       nativeApple = nativeSignInEnabled(row['native_apple_sign_in'], nativeApple);
+      // A missing column or value hides the review form (never shown by accident).
+      reviewSignIn = row['review_sign_in'] == true;
       // The server's value wins, including a cleared one (back to the bundled clip).
       videoUrl = founderVideoUrl(row['founder_video_url']);
       trialDayCount = trialDays(row['trial_enabled'], row['trial_days'], trialDayCount);
@@ -50,6 +56,7 @@ class OnboardingSettings {
       await prefs.setBool('founder-video-enabled', enabled);
       await prefs.setBool('native-google-sign-in', nativeGoogle);
       await prefs.setBool('native-apple-sign-in', nativeApple);
+      await prefs.setBool('review-sign-in', reviewSignIn);
       await prefs.setInt('trial-days', trialDayCount);
       if (yearlyProduct == null) {
         await prefs.remove('trial-yearly-product');
