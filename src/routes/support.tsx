@@ -8,7 +8,7 @@ import { Button, Screen, SectionTitle, TopBar } from "@/components/mimi/ui";
 import { useSession } from "@/hooks/use-session";
 import { supabase } from "@/lib/backend";
 import { SUPPORT_MESSAGE_MAX, SUPPORT_TOPICS, supportMessageError, type SupportTopic } from "@/lib/logic";
-import { SUPPORT_FAQ, SUPPORT_TOPIC_LABELS } from "@/lib/support";
+import { DELETE_ACCOUNT_COPY, SUPPORT_FAQ, SUPPORT_TOPIC_LABELS } from "@/lib/support";
 import { cn } from "@/lib/utils";
 
 const TITLE = "Help & support — Kizuki";
@@ -98,6 +98,16 @@ function SupportPage() {
               </AnimatePresence>
             </button>
           ))}
+        </div>
+
+        <SectionTitle>{DELETE_ACCOUNT_COPY.title}</SectionTitle>
+        <div className="rounded-[1.25rem] border border-border bg-surface p-4">
+          <p className="text-[0.875rem] leading-relaxed text-muted-foreground">{DELETE_ACCOUNT_COPY.intro}</p>
+          <p className="mt-3 text-[0.875rem] font-extrabold">{DELETE_ACCOUNT_COPY.stepsTitle}</p>
+          <p className="mt-1 text-[0.875rem] leading-relaxed text-muted-foreground">{DELETE_ACCOUNT_COPY.steps}</p>
+          <p className="mt-3 text-[0.875rem] font-extrabold">{DELETE_ACCOUNT_COPY.webTitle}</p>
+          <p className="mt-1 text-[0.875rem] leading-relaxed text-muted-foreground">{DELETE_ACCOUNT_COPY.web}</p>
+          <p className="mt-3 text-[0.75rem] leading-relaxed text-faint">{DELETE_ACCOUNT_COPY.kept}</p>
         </div>
 
         <SectionTitle>Send us a message</SectionTitle>

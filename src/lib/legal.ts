@@ -6,13 +6,19 @@ export type LegalSection = { h: string; body: string[] };
 export type LegalDoc = { title: string; updated: string; intro: string; sections: LegalSection[] };
 
 export const LEGAL_CONTACT_EMAIL = "pranacodes@gmail.com";
-export const LEGAL_SUPPORT_URL = "kiku-clip-word-garden.lovable.app/support";
+export const LEGAL_MARKETING_URL = "https://pranacodes.in/kizuki";
+export const LEGAL_PRIVACY_URL = "https://pranacodes.in/kizuki-privacy";
+export const LEGAL_DELETE_ACCOUNT_URL = "https://pranacodes.in/kizuki-delete-account";
+export const LEGAL_SUPPORT_URL = "https://pranacodes.in/kizuki-support";
+/** The developer name exactly as it appears in the Google Play and App Store listings. Store
+ * reviewers check that policy and account-deletion pages name the same entity as the listing. */
+export const LEGAL_DEVELOPER_NAME = "Prana codes";
 
 export const PRIVACY: LegalDoc = {
   title: "Privacy Policy",
   updated: "October 26, 2026",
   intro:
-    "This Privacy Policy explains how Kizuki (“Kizuki”, “we”, “us”) collects, uses and shares information when you use the Kizuki app for Android and iPhone and the website kiku-clip-word-garden.lovable.app (together, the “Service”). If anything here is unclear, message us and we will explain it.",
+    `This Privacy Policy explains how Kizuki (“Kizuki”, “we”, “us”), an app by ${LEGAL_DEVELOPER_NAME}, collects, uses and shares information when you use the Kizuki app for Android and iPhone and the website https://pranacodes.in/kizuki (together, the “Service”). If anything here is unclear, message us and we will explain it.`,
   sections: [
     {
       h: "1. The short version",
@@ -104,7 +110,7 @@ export const PRIVACY: LegalDoc = {
       h: "9. Your choices and rights",
       body: [
         "• Delete your account: Settings → Delete account requests account deletion and clears local learner state after a successful response. This does not cancel an App Store or Google Play subscription. Purchase, security and legally required records, and provider backups, may be retained separately.",
-        "• Delete without the app: send a message at kiku-clip-word-garden.lovable.app/support with the topic “Account”, using the email you signed up with. You may also email pranacodes@gmail.com. We may need to verify ownership before acting; we aim to handle verified requests within 30 days, subject to legal requirements and permitted extensions. Submission does not automatically delete an account or generate an email reply.",
+        "• Delete without the app: follow the instructions at https://pranacodes.in/kizuki-delete-account, using the email you signed up with. You may also email pranacodes@gmail.com. We may need to verify ownership before acting; we aim to handle verified requests within 30 days, subject to legal requirements and permitted extensions. Submission does not automatically delete an account or generate an email reply.",
         "• Export: Settings → Export saved words (.csv) downloads your words as a spreadsheet. For a copy of all your data, send us a message.",
         "• Correct: change your plan, level and settings in the app at any time.",
         "• Withdraw consent: turn off tracking, notifications or reminders in your phone's settings or in Kizuki's Settings.",
@@ -139,7 +145,7 @@ export const PRIVACY: LegalDoc = {
     {
       h: "14. Contact us",
       body: [
-        "Questions or privacy requests: open Profile → Help & feedback in the app, visit kiku-clip-word-garden.lovable.app/support, or email pranacodes@gmail.com.",
+        "Questions or privacy requests: open Profile → Help & feedback in the app, visit https://pranacodes.in/kizuki-support, or email pranacodes@gmail.com.",
       ],
     },
   ],
@@ -148,7 +154,7 @@ export const PRIVACY: LegalDoc = {
 export const TERMS: LegalDoc = {
   title: "Terms of Service",
   updated: "October 26, 2026",
-  intro: "These Terms apply to the Kizuki Android and iPhone apps and website, operated by the Kizuki team. By using the Service you agree to these Terms. If you do not agree, do not use the Service. Questions can be sent to pranacodes@gmail.com.",
+  intro: `These Terms apply to the Kizuki Android and iPhone apps and website, operated by ${LEGAL_DEVELOPER_NAME}. By using the Service you agree to these Terms. If you do not agree, do not use the Service. Questions can be sent to pranacodes@gmail.com.`,
   sections: [
     { h: "1. The Service", body: ["Kizuki is a Japanese-learning service with contextual clips, word definitions, translations, vocabulary tools, spaced-repetition flashcards, progress tracking and an AI tutor. Features, content and availability may change. Learning outcomes or JLPT results are not guaranteed."] },
     { h: "2. Eligibility", body: ["Kizuki is not directed to children under 13, or under 16 in the EU/EEA and UK. If you are below the age of majority where you live, use the Service only with a parent or guardian's permission. Store purchases must be authorized by the account holder."] },
@@ -159,11 +165,11 @@ export const TERMS: LegalDoc = {
     { h: "7. Subscriptions, prices and trials", body: ["Kizuki Premium is an auto-renewing monthly or yearly subscription purchased through Apple App Store or Google Play. The actual store price in your local currency, billing period and offer terms are shown before purchase. Monthly-equivalent yearly prices are comparisons: the yearly total is billed for the full year.", "Eligible yearly offers may include a 3-day or 7-day free trial, or no trial. The selected store product and your eligibility determine the offer; a trial is not guaranteed for every user. Monthly is billed immediately unless the store explicitly presents an eligible offer. At the end of a free trial, the displayed subscription price is charged automatically unless you cancel in time.", "Apple generally permits only one introductory offer per subscription group for an eligible store account. Choosing a different plan or signing into a different Kizuki account does not guarantee another trial. Google Play eligibility depends on its offer rules. The store's purchase confirmation governs the transaction.", "Payments are charged to your store account. Subscriptions renew automatically unless canceled under the store's rules. For Apple, cancel at least 24 hours before the current trial or billing period ends; renewal may be charged within the final 24 hours. For Google Play, follow the cancellation deadline shown by Google. Any price changes are handled under the store's notice and consent rules."] },
     { h: "8. Cancellation, refunds and restore", body: ["Manage or cancel your subscription through your App Store or Google Play account settings. Uninstalling Kizuki, signing out or deleting your Kizuki account does not cancel a store subscription. Access usually continues until the paid period ends; a free trial may end immediately after cancellation where the store's rules provide for this.", "Refund requests are handled by Apple or Google under their policies and applicable consumer law. Kizuki does not promise automatic refunds. Restore purchase checks existing store purchases; it does not create a new purchase or a new trial.", "After trial or paid access expires without renewal, learning access is restricted; account, settings, help, legal information and purchase or restore options remain available."] },
     { h: "9. Ask Kizuki", body: ["The AI tutor requires sign-in and a verified active Premium entitlement. Availability and operational limits may apply. Answers can be incorrect or incomplete and should not be treated as professional advice. We do not promise unlimited availability, a fixed free question allowance or error-free answers."] },
-    { h: "10. Privacy and account deletion", body: ["Our Privacy Policy explains collection, processing, providers and your choices: https://kiku-clip-word-garden.lovable.app/privacy. You may request account deletion from Settings or contact us. Deletion does not automatically remove legally retained store/provider records or cancel subscriptions."] },
+    { h: "10. Privacy and account deletion", body: ["Our Privacy Policy explains collection, processing, providers and your choices: https://pranacodes.in/kizuki-privacy. You may request account deletion from Settings or contact us. Deletion does not automatically remove legally retained store/provider records or cancel subscriptions."] },
     { h: "11. Availability and disclaimers", body: ["To the extent permitted by law, the Service is provided as available without a guarantee of uninterrupted availability, perfect accuracy or compatibility with every device. Internet access and third-party services are required for video playback, purchases, sync and AI answers. Your mandatory consumer rights are not excluded."] },
     { h: "12. Liability and consumer rights", body: ["To the extent permitted by applicable law, we are not responsible for indirect or consequential losses from use of the Service. Nothing in these Terms excludes liability that cannot lawfully be excluded, or limits mandatory consumer rights, including rights related to refunds, digital services or data protection."] },
     { h: "13. Changes and termination", body: ["We may update these Terms and will show the revision date on this page. Material changes will be communicated as appropriate; any legally required notice or consent still applies. We may restrict abusive or unlawful use, subject to applicable law. Store cancellation and refund rules continue to apply separately."] },
     { h: "14. Apple license and applicable law", body: ["For the iPhone app, Apple's Standard End User License Agreement (EULA) applies to the app license: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/. These Terms describe Kizuki's service and do not replace Apple's purchase conditions or mandatory consumer rights.", "Applicable law and dispute rights depend on your jurisdiction and the applicable store license. These Terms do not require you to waive mandatory protections or bring claims in a foreign court."] },
-    { h: "15. Contact", body: ["For support, subscription-access problems or legal questions, open Profile → Help & feedback, visit https://kiku-clip-word-garden.lovable.app/support, or email pranacodes@gmail.com."] },
+    { h: "15. Contact", body: ["For support, subscription-access problems or legal questions, open Profile → Help & feedback, visit https://pranacodes.in/kizuki-support, or email pranacodes@gmail.com."] },
   ],
 };

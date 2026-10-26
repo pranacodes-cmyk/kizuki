@@ -6,6 +6,7 @@ import { useHydrated } from "@/hooks/use-hydrated";
 import { SPLASH_FACE, SPLASH_FADE_MS, SPLASH_MS, SPLASH_REDUCED_MS, SPLASH_WORD, splashFrame } from "@/lib/mascot-motion";
 import { useUI } from "@/lib/ui-store";
 import { cn } from "@/lib/utils";
+import { StaticRouteContent } from "@/components/mimi/StaticRouteContent";
 import { loadYouTubeApi } from "@/lib/youtube";
 import { refreshOnboardingSettings } from '@/lib/onboarding-settings';
 import { preloadTrial } from '@/lib/trial-preload';
@@ -44,7 +45,7 @@ export function AppFrame({ children }: { children: ReactNode }) {
         )}
       >
         <StatusBar />
-        <div className="absolute inset-0">{hydrated ? children : null}</div>
+        <div className="absolute inset-0">{hydrated ? children : <StaticRouteContent />}</div>
         <div id="overlay-root" className="pointer-events-none absolute inset-0 z-[60]" />
         {/* Welcome tour: above sheets so it can spotlight the word card, below toasts. */}
         <div id="tour-root" className="pointer-events-none absolute inset-0 z-[65]" />

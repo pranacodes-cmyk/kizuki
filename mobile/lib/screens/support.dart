@@ -112,6 +112,24 @@ class _SupportScreenState extends State<SupportScreen> {
                   ],
                 ]),
               ),
+              SectionTitle(deleteAccountCopy.title),
+              Container(
+                padding: const EdgeInsets.all(16),
+                decoration: BoxDecoration(color: T.surface, borderRadius: BorderRadius.circular(T.rXl), border: Border.all(color: T.border)),
+                child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                  Text(deleteAccountCopy.intro, style: txt(14, w: FontWeight.w400, c: T.muted, h: 1.5)),
+                  const SizedBox(height: 12),
+                  Text(deleteAccountCopy.stepsTitle, style: txt(14, w: FontWeight.w800)),
+                  const SizedBox(height: 4),
+                  Text(deleteAccountCopy.steps, style: txt(14, w: FontWeight.w400, c: T.muted, h: 1.5)),
+                  const SizedBox(height: 12),
+                  Text(deleteAccountCopy.webTitle, style: txt(14, w: FontWeight.w800)),
+                  const SizedBox(height: 4),
+                  Text(deleteAccountCopy.web, style: txt(14, w: FontWeight.w400, c: T.muted, h: 1.5)),
+                  const SizedBox(height: 12),
+                  Text(deleteAccountCopy.kept, style: txt(12, w: FontWeight.w400, c: T.faint, h: 1.5)),
+                ]),
+              ),
               const SectionTitle('Send us a message'),
               if (sentTo != null)
                 Container(
