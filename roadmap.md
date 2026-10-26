@@ -1,5 +1,22 @@
 # Migration: Lovable Cloud → External Supabase (gcoboyhfhadivheoilxp)
 
+## ASO (App Store + Google Play search) — 2026-10-25
+- [x] Research 80 searches on US App Store order + suggestions, US/India Google Play top 10 + installs, competitor titles/subtitles/ratings.
+- [x] Rewrite store/listing.json (en-US + es-MX App Store sets, Play title/short/full); remove false free-tier claim and wrong clip/video counts; original copy, no competitor names.
+- [x] Add scripts/stores/check_listing.py (limits, repeats, brands, free-tier, Play title rules) and run it before every push.
+- [x] Deliver keyword spreadsheet + Hinglish ASO playbook PDF in Files (/mnt/documents/aso).
+- [ ] Fix rating prompt in both clients: remove custom stars question, call native review prompt directly after 2 good sessions (Google in-app review rule + Apple 5.6.1). Waiting for user OK.
+- [x] App Store 1.2.0 draft: new en-US + es-MX text and approved screenshots are saved (sent by an accidental run on 25 Oct; not submitted, not public). push_listing.py now refuses --help/unknown args.
+- [x] New listing text pushed to Google Play + App Store 1.2.0 (read back 25 Oct; screenshots kept).
+- [ ] Own domain for Privacy/Terms/Support links (current URL contains a competitor name). Needs user to buy/connect a domain.
+- [ ] Re-check rankings 2–4 weeks after public launch; swap non-ranking keywords. Needs the apps to be public.
+
+
+## Approved store screenshots — 2026-10-25
+- [x] Correct headline clip-count claim to 2,500+ and remove invented exterior video cards; prepare six approved images per store.
+- [x] Upload screenshots only to Google Play and editable App Store version 1.2.0, without changing app binaries or other listing fields.
+- [x] Read back six Google Play screenshots after commit; all six Apple screenshot assets COMPLETE. Apple version not submitted for review.
+
 ## Requested store release — 2026-10-25
 - [x] Run current web tests and inspect release preflight (164 tests pass; unused Flutter variable removed).
 - [x] Sync latest phone changes to GitHub and dispatch Android + iOS release (466fb0f; store run 40206636934, emulator run 40206637388).
@@ -19,7 +36,7 @@
 - [x] Configure auth on external: Google (3 client IDs + secret), Apple (bundle ID), redirects
 - [x] Rewire web app code (src/lib/backend.ts + backend-config.ts; 146/146 tests pass; typecheck clean)
 - [x] Rewire Flutter app config (mobile/lib/services/config.dart)
-- [ ] USER STEP: Google Console → Web client (lp23…) → Authorized redirect URIs → add https://gcoboboyhfhadivheoilxp.supabase.co/auth/v1/callback (website Google login)
+- [ ] USER STEP: Google Console → Web client (lp23…) → Authorized redirect URIs → add https://gcoboyhfhadivheoilxp.supabase.co/auth/v1/callback (website Google login)
 - [ ] OPTIONAL: Apple Services ID + return URL for website Apple login (phone native Apple works without it)
 - [ ] Publish web app (Ask route must verify against external BEFORE new APK ships)
 - [ ] GitHub sync + new Android build; device test: Google + Apple native login, sync, Ask
