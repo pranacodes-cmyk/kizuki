@@ -1,6 +1,6 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { AnimatePresence, motion, useMotionValue, useTransform } from "motion/react";
-import { Check, ChevronRight, Play, Pointer, Star, Volume2, X } from "lucide-react";
+import { Check, ChevronRight, Play, Pointer, Volume2, X } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { z } from "zod";
 
@@ -67,7 +67,7 @@ function Review() {
   const [, force] = useState(0);
   const [revealed, setRevealed] = useState(false);
   const [finished, setFinished] = useState(false);
-  const [modal, setModal] = useState<null | "plan" | "rate">(null);
+  const [modal, setModal] = useState<null | "plan">(null);
 
   const sess = session.current;
   const id = sess.current;
@@ -100,7 +100,8 @@ function Review() {
   const exit = () => {
     const s = useApp.getState();
     if (finished && !s.planModalSeen) return setModal("plan");
-    if (finished && s.reviewSessions >= 2 && !s.ratingAsked) return setModal("rate");
+    // Phones show only the official store rating sheet here (review.dart); the web prototype has no store sheet.
+    if (finished && s.reviewSessions >= 2 && !s.ratingAsked) s.setRatingAsked();
     void navigate({ to: "/vocab" });
   };
 
@@ -127,7 +128,6 @@ function Review() {
           }}>Keep studying</Button>}
         </div>
         <PlanModal open={modal === "plan"} onDone={() => { useApp.getState().setPlanModalSeen(); setModal(null); void navigate({ to: "/vocab" }); }} />
-        <RateModal open={modal === "rate"} onDone={() => { useApp.getState().setRatingAsked(); setModal(null); void navigate({ to: "/vocab" }); }} />
       </Screen>
     );
   }
@@ -313,26 +313,6 @@ function PlanModal({ open, onDone }: { open: boolean; onDone: () => void }) {
         <motion.span className="absolute inset-y-0 left-0 bg-primary" initial={{ width: "0%" }} animate={open ? { width: "100%" } : {}} transition={{ duration: 2.2, ease: "linear" }} onAnimationComplete={() => setReady(true)} />
         <span className="relative">Let's do it!</span>
       </button>
-    </Modal>
-  );
-}
-
-function RateModal({ open, onDone }: { open: boolean; onDone: () => void }) {
-  const [stars, setStars] = useState(5);
-  return (
-    <Modal open={open} onClose={onDone}>
-      <div className="flex flex-col items-center text-center">
-        <Mascot pose="heart" className="h-24 w-24" />
-        <h2 className="mt-2 text-[1.375rem] font-black">How is Kizuki doing?</h2>
-        <p className="mt-1 text-[0.9375rem] text-muted-foreground">A quick rating helps more learners find us. Thank you!</p>
-        <div className="mt-4 flex gap-1.5">
-          {[1, 2, 3, 4, 5].map((n) => (
-            <button key={n} aria-label={`${n} stars`} onClick={() => setStars(n)}><Star className={cn("h-9 w-9", n <= stars ? "fill-gold text-gold" : "text-surface-3")} /></button>
-          ))}
-        </div>
-        <Button className="mt-5" onClick={() => { toast({ icon: "💛", title: "Thanks for rating Kizuki!" }); onDone(); }}>Rate Kizuki</Button>
-        <button onClick={onDone} className="press mt-2 py-2 text-[0.875rem] font-bold text-muted-foreground">Not now</button>
-      </div>
     </Modal>
   );
 }
