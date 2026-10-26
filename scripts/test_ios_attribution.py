@@ -11,6 +11,13 @@ class IOSAttributionStartupTest(unittest.TestCase):
             settings = plistlib.load(source)
         self.assertIs(settings["FacebookAdvertiserIDCollectionEnabled"], False)
 
+    def test_app_privacy_manifest_tracking_is_valid(self):
+        # ITMS-91064: NSPrivacyTracking true needs a non-empty domain list (and vice versa).
+        path = Path(__file__).resolve().parents[1] / "mobile/ios/Runner/PrivacyInfo.xcprivacy"
+        with path.open("rb") as source:
+            manifest = plistlib.load(source)
+        self.assertIs(manifest["NSPrivacyTracking"], bool(manifest["NSPrivacyTrackingDomains"]))
+
 
 if __name__ == "__main__":
     unittest.main()
