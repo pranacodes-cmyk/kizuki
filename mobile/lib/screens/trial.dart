@@ -385,6 +385,9 @@ class _StepPlans extends StatelessWidget {
           child: Wrap(alignment: WrapAlignment.center, spacing: 8, children: [
             TextButton(style: small, onPressed: busy ? null : onRestore, child: Text('Restore purchase', style: txt(13, w: FontWeight.w700, c: T.muted))),
             TextButton(style: small, onPressed: busy ? null : onSkip, child: Text('Not now', style: txt(13, w: FontWeight.w700, c: T.muted))),
+            // Store reviewers finish onboarding, then sign in here; hidden unless the server switch is on.
+            if (OnboardingSettings.reviewSignIn)
+              TextButton(key: const ValueKey('paywall-signin'), style: small, onPressed: busy ? null : () => context.push('/account?mode=signin'), child: Text('I already have an account', style: txt(13, w: FontWeight.w700, c: T.muted))),
           ]),
         ),
         // Store rules: subscription screens link the Terms of Use and Privacy Policy.

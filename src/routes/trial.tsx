@@ -13,7 +13,7 @@ import { useApp } from "@/lib/store";
 import { subscriptionAccess } from '@/lib/logic';
 import { toast } from "@/lib/ui-store";
 import { cn } from "@/lib/utils";
-import { cachedFounderEnabled, cachedTrialDays, refreshOnboardingSettings } from '@/lib/onboarding-settings';
+import { cachedFounderEnabled, cachedReviewSignIn, cachedTrialDays, refreshOnboardingSettings } from '@/lib/onboarding-settings';
 
 export const Route = createFileRoute("/trial")({
   head: () => ({
@@ -41,7 +41,8 @@ function Trial() {
   const [plan, setPlan] = useState<"yearly" | "monthly">("yearly");
   const [busy, setBusy] = useState(false);
   const [days, setDays] = useState(cachedTrialDays);
-  useEffect(() => { void refreshOnboardingSettings().then(() => setDays(cachedTrialDays())); }, []);
+  const [reviewSignIn, setReviewSignIn] = useState(false);
+  useEffect(() => { setReviewSignIn(cachedReviewSignIn()); void refreshOnboardingSettings().then(() => { setDays(cachedTrialDays()); setReviewSignIn(cachedReviewSignIn()); }); }, []);
   const trial = days > 0;
 
   useEffect(() => track('paywall_viewed'), []);
@@ -81,7 +82,7 @@ function Trial() {
       <div key={step} className="flex min-h-0 flex-1 flex-col">
         {step === 0 && <StepTry days={days} onNext={() => setStep(trial ? 1 : 2)} />}
         {step === 1 && <StepRemind days={days} onNext={() => setStep(2)} />}
-        {step === 2 && <StepPlans plan={plan} setPlan={(p) => { setPlan(p); track('plan_selected', { plan: p }); }} busy={busy} trialDays={days} onStart={start} onSkip={skip} />}
+        {step === 2 && <StepPlans plan={plan} setPlan={(p) => { setPlan(p); track('plan_selected', { plan: p }); }} busy={busy} trialDays={days} reviewSignIn={reviewSignIn} onStart={start} onSkip={skip} />}
       </div>
     </Screen>
   );
@@ -190,6 +191,7 @@ function StepPlans({
   setPlan,
   busy,
   trialDays,
+  reviewSignIn,
   onStart,
   onSkip,
 }: {
@@ -197,6 +199,7 @@ function StepPlans({
   setPlan: (p: "yearly" | "monthly") => void;
   busy: boolean;
   trialDays: number;
+  reviewSignIn: boolean;
   onStart: () => void;
   onSkip: () => void;
 }) {
@@ -225,6 +228,12 @@ function StepPlans({
             <button onClick={onSkip} disabled={busy} className="press min-h-10 px-2 text-[0.8125rem] font-bold text-muted-foreground disabled:opacity-50">
               Not now
             </button>
+            {/* Store reviewers finish onboarding, then sign in here; hidden unless the server switch is on. */}
+            {reviewSignIn && (
+              <Link to="/account" search={{ mode: "signin" }} className="press flex min-h-10 items-center px-2 text-[0.8125rem] font-bold text-muted-foreground">
+                I already have an account
+              </Link>
+            )}
           </div>
           {/* Store rules: subscription screens link the Terms of Use and Privacy Policy. */}
           <p className="text-center text-[0.75rem] text-faint">

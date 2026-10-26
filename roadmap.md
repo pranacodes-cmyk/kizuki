@@ -1,9 +1,11 @@
 # Migration: Lovable Cloud → External Supabase (gcoboyhfhadivheoilxp)
 
 ## Review login paywall regression — 2026-10-26
-- [ ] Wait for account-specific RevenueCat verification before finishing native sign-in; keep verified Premium through learner sync.
-- [ ] Skip acquisition onboarding/paywall for active Premium accounts in both clients; add regression tests and verify review login.
-- [ ] Validate phone checks and deliver corrected Android/iOS release; installed build 121 is not fixed by source edits.
+- [x] Wait for account-specific RevenueCat verification before finishing native sign-in; keep verified Premium through learner sync.
+- [x] Skip acquisition onboarding/paywall for active Premium accounts in both clients; add regression tests and verify review login.
+- [x] Build 122 passed phone checks and uploaded to Google Play internal + TestFlight.
+- [x] Paywall "I already have an account" link (review switch only) in Flutter + web; web path paywall → email login → Feed verified.
+- [ ] Install build 122 and verify review email login on a real phone. Waiting for user device check.
 
 ## Legal policy update — 2026-10-26
 - [x] Update Kizuki Privacy and Terms using Kiku-like structure but verified Kizuki practices; keep the paywall unchanged.
