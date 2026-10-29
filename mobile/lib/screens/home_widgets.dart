@@ -56,7 +56,8 @@ class _HomeWidgetsScreenState extends State<HomeWidgetsScreen> {
           if (!mounted) return;
           setState(() => adding = false);
           if (pinned) return;
-          await showMimiModal<void>(context, (_) => Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
+          if (!mounted) return;
+          await showMimiModal<void>(this.context, (sheet) => Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
             Text('Add Kizuki to your screen', style: txt(20, w: FontWeight.w900)), const SizedBox(height: 12),
             Text(Platform.isIOS ? (family == 'lock' ? 'Touch and hold your Lock Screen → Customize → Lock Screen → Add Widgets → Kizuki.' : 'Touch and hold your Home Screen → Edit → Add Widget → Kizuki. Choose a size, then tap Add Widget.') : (family == 'lock' ? 'Lock-screen widgets are supported only on some Android versions and devices. Use your device’s widget picker if available.' : 'Touch and hold your Home Screen → Widgets → Kizuki. Drag a widget onto your screen.'), style: txt(15, c: T.muted)),
             const SizedBox(height: 20), Button3D(label: 'Got it', onPressed: () => Navigator.of(context, rootNavigator: true).pop()),
