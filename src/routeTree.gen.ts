@@ -25,6 +25,7 @@ import { Route as SettingsRouteImport } from './routes/settings'
 import { Route as SupportRouteImport } from './routes/support'
 import { Route as TermsRouteImport } from './routes/terms'
 import { Route as TrialRouteImport } from './routes/trial'
+import { Route as WidgetsRouteImport } from './routes/widgets'
 import { Route as AppExploreRouteImport } from './routes/_app/explore'
 import { Route as AppFeedRouteImport } from './routes/_app/feed'
 import { Route as AppProfileRouteImport } from './routes/_app/profile'
@@ -111,6 +112,11 @@ const TrialRoute = TrialRouteImport.update({
   path: '/trial',
   getParentRoute: () => rootRouteImport,
 } as any)
+const WidgetsRoute = WidgetsRouteImport.update({
+  id: '/widgets',
+  path: '/widgets',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AppExploreRoute = AppExploreRouteImport.update({
   id: '/explore',
   path: '/explore',
@@ -158,6 +164,7 @@ export interface FileRoutesByFullPath {
   '/support': typeof SupportRoute
   '/terms': typeof TermsRoute
   '/trial': typeof TrialRoute
+  '/widgets': typeof WidgetsRoute
   '/explore': typeof AppExploreRoute
   '/feed': typeof AppFeedRoute
   '/profile': typeof AppProfileRoute
@@ -181,6 +188,7 @@ export interface FileRoutesByTo {
   '/support': typeof SupportRoute
   '/terms': typeof TermsRoute
   '/trial': typeof TrialRoute
+  '/widgets': typeof WidgetsRoute
   '/explore': typeof AppExploreRoute
   '/feed': typeof AppFeedRoute
   '/profile': typeof AppProfileRoute
@@ -206,6 +214,7 @@ export interface FileRoutesById {
   '/support': typeof SupportRoute
   '/terms': typeof TermsRoute
   '/trial': typeof TrialRoute
+  '/widgets': typeof WidgetsRoute
   '/_app/explore': typeof AppExploreRoute
   '/_app/feed': typeof AppFeedRoute
   '/_app/profile': typeof AppProfileRoute
@@ -231,6 +240,7 @@ export interface FileRouteTypes {
     | '/support'
     | '/terms'
     | '/trial'
+    | '/widgets'
     | '/explore'
     | '/feed'
     | '/profile'
@@ -254,6 +264,7 @@ export interface FileRouteTypes {
     | '/support'
     | '/terms'
     | '/trial'
+    | '/widgets'
     | '/explore'
     | '/feed'
     | '/profile'
@@ -278,6 +289,7 @@ export interface FileRouteTypes {
     | '/support'
     | '/terms'
     | '/trial'
+    | '/widgets'
     | '/_app/explore'
     | '/_app/feed'
     | '/_app/profile'
@@ -303,6 +315,7 @@ export interface RootRouteChildren {
   SupportRoute: typeof SupportRoute
   TermsRoute: typeof TermsRoute
   TrialRoute: typeof TrialRoute
+  WidgetsRoute: typeof WidgetsRoute
   ClipClipIdRoute: typeof ClipClipIdRoute
   ApiPublicAskRoute: typeof ApiPublicAskRoute
 }
@@ -421,6 +434,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TrialRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/widgets': {
+      id: '/widgets'
+      path: '/widgets'
+      fullPath: '/widgets'
+      preLoaderRoute: typeof WidgetsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/_app/explore': {
       id: '/_app/explore'
       path: '/explore'
@@ -499,6 +519,7 @@ const rootRouteChildren: RootRouteChildren = {
   SupportRoute: SupportRoute,
   TermsRoute: TermsRoute,
   TrialRoute: TrialRoute,
+  WidgetsRoute: WidgetsRoute,
   ClipClipIdRoute: ClipClipIdRoute,
   ApiPublicAskRoute: ApiPublicAskRoute,
 }

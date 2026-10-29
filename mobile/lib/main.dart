@@ -15,6 +15,7 @@ import 'services/auth_links.dart';
 import 'services/billing.dart';
 import 'services/content_pack.dart';
 import 'services/haptics.dart';
+import 'services/home_widgets.dart';
 import 'services/notification_service.dart';
 import 'services/onboarding_settings.dart';
 import 'services/trial_preload.dart';
@@ -70,6 +71,7 @@ Future<void> startApp() async {
     debugPrint('KIZUKI_ERROR state load: $e');
   }
   Haptics.enabled = app.settings.haptics;
+  HomeWidgets.start(app);
   // Analytics never holds up the first frame; setup continues in the background.
   try {
     await Analytics.load().timeout(const Duration(seconds: 2));
@@ -154,6 +156,10 @@ class _KizukiAppState extends State<KizukiApp> {
     widget.app.addListener(_haptics);
     _reminders();
     _haptics();
+    HomeWidgets.onOpen = (p) => router.go(p);
+    final widgetLink = HomeWidgets.pending;
+    HomeWidgets.pending = null;
+    if (widgetLink != null) WidgetsBinding.instance.addPostFrameCallback((_) => router.go(widgetLink));
     // Meta install/open + Apple's tracking question, once the first screen is showing.
     Attribution.explainTracking = () async {
       final ctx = router.routerDelegate.navigatorKey.currentContext;
@@ -170,6 +176,7 @@ class _KizukiAppState extends State<KizukiApp> {
     widget.app.removeListener(_celebrate);
     widget.app.removeListener(_reminders);
     widget.app.removeListener(_haptics);
+    HomeWidgets.dispose();
     super.dispose();
   }
 

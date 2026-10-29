@@ -2,6 +2,28 @@
 // src/lib/logic.test.ts and mobile/test/logic_test.dart). UI code calls these helpers
 // instead of re-deriving rules.
 
+export const WIDGET_SLOT_MS = 2 * 60 * 60 * 1000;
+export type WidgetWord = { key: string; word: string; reading: string; meaning: string; clipId: string; example: string; jlpt: number; due: number; status: string };
+export function widgetWords(publicWords: WidgetWord[], saved: WidgetWord[], level: string, shareSaved: boolean, now: number): WidgetWord[] {
+  const n = Number(level.replace('N', '')) || 5;
+  const eligible = publicWords.filter((w) => w.jlpt >= n && w.word && w.meaning).sort((a, b) => a.key < b.key ? -1 : a.key > b.key ? 1 : 0);
+  const personal = shareSaved ? saved.filter((w) => w.status === 'learning' && w.word && w.meaning).sort((a, b) => a.due - b.due || (a.key < b.key ? -1 : a.key > b.key ? 1 : 0)) : [];
+  const pool = personal.length ? personal : eligible;
+  if (!pool.length) return [];
+  const start = personal.length && (personal[0]?.due ?? Infinity) <= now ? 0 : Math.floor(now / WIDGET_SLOT_MS) % pool.length;
+  return Array.from({ length: Math.min(12, pool.length) }, (_, i) => pool[(start + i) % pool.length]).filter((w): w is WidgetWord => w !== undefined);
+}
+export function widgetDestination(link: string): string | null {
+  try {
+    const uri = new URL(link);
+    if (uri.protocol !== 'kizuki:' || uri.hostname !== 'widget') return null;
+    if (uri.pathname === '/review') return '/review?deck=words';
+    if (uri.pathname !== '/word') return null;
+    const id = uri.searchParams.get('clip');
+    return id && /^[A-Za-z0-9_-]+$/.test(id) ? `/clip/${id}` : '/vocab';
+  } catch { return null; }
+}
+
 // ---------------------------------------------------------------------------
 // Onboarding answers
 // ---------------------------------------------------------------------------
@@ -204,7 +226,7 @@ export function subscriptionAccess(active: boolean, expiresAt: number | null | u
   const end = expiresAt ?? trialEndsAt;
   return active && (end == null || end > now);
 }
-export const learningPath = (path: string) => !["/account", "/settings", "/support", "/terms", "/privacy", "/trial", "/profile", "/achievements"].includes(path);
+export const learningPath = (path: string) => !["/account", "/settings", "/widgets", "/support", "/terms", "/privacy", "/trial", "/profile", "/achievements"].includes(path);
 export const onboardingPath = (path: string) => ["/", "/onboarding", "/building", "/plan", "/founder"].includes(path);
 export const accountNeedsOnboarding = (fromWelcome: boolean, onboarded: boolean, premiumAccess: boolean) => fromWelcome && !onboarded && !premiumAccess;
 export const subscriptionPhase = (active: boolean, plan: string | null, trialEndsAt: number | null, now: number) =>

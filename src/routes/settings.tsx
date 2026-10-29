@@ -103,6 +103,7 @@ function SettingsPage() {
         </Group>
 
         <Group title="Display">
+          <ActionRow label="Home & Lock Screen widgets" onClick={() => void navigate({ to: '/widgets' })} />
           <T k="furigana" label="Show furigana" />
           <T k="romaji" label="Show romaji" />
           <T k="translation" label="Show translation" />

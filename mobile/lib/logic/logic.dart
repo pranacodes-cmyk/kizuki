@@ -6,6 +6,33 @@ import 'dart:math' as math;
 
 import '../data/models.dart';
 
+// Offline widget contract. Never includes notes, identity, tokens or card mutations.
+const widgetSlotMs = 2 * 60 * 60 * 1000;
+class WidgetWord {
+  final String key, word, reading, meaning, clipId, example;
+  final int jlpt, due;
+  final String status;
+  const WidgetWord({required this.key, required this.word, required this.reading, required this.meaning, this.clipId = '', this.example = '', this.jlpt = 5, this.due = 0, this.status = 'public'});
+  Map<String, dynamic> toJson() => {'key': key, 'word': word, 'reading': reading, 'meaning': meaning, 'clipId': clipId, 'example': example};
+}
+List<WidgetWord> widgetWords(List<WidgetWord> publicWords, List<WidgetWord> saved, String level, bool shareSaved, int now) {
+  final n = int.tryParse(level.replaceFirst('N', '')) ?? 5;
+  final eligible = publicWords.where((w) => w.jlpt >= n && w.word.isNotEmpty && w.meaning.isNotEmpty).toList()..sort((a, b) => a.key.compareTo(b.key));
+  final personal = shareSaved ? (saved.where((w) => w.status == 'learning' && w.word.isNotEmpty && w.meaning.isNotEmpty).toList()..sort((a, b) => a.due != b.due ? a.due.compareTo(b.due) : a.key.compareTo(b.key))) : <WidgetWord>[];
+  final pool = personal.isNotEmpty ? personal : eligible;
+  if (pool.isEmpty) return [];
+  final start = personal.isNotEmpty && personal.first.due <= now ? 0 : (now ~/ widgetSlotMs) % pool.length;
+  return List.generate(math.min(12, pool.length), (i) => pool[(start + i) % pool.length]);
+}
+String? widgetDestination(String link) {
+  final uri = Uri.tryParse(link);
+  if (uri == null || uri.scheme != 'kizuki' || uri.host != 'widget') return null;
+  if (uri.path == '/review') return '/review?deck=words';
+  if (uri.path != '/word') return null;
+  final id = uri.queryParameters['clip'];
+  return id != null && RegExp(r'^[A-Za-z0-9_-]+$').hasMatch(id) ? '/clip/$id' : '/vocab';
+}
+
 // ---------------------------------------------------------------------------
 // Onboarding answers
 // ---------------------------------------------------------------------------
@@ -265,7 +292,7 @@ bool subscriptionAccess(bool active, int? expiresAt, int? trialEndsAt, int now) 
   final end = expiresAt ?? trialEndsAt;
   return active && (end == null || end > now);
 }
-bool learningPath(String path) => !['/account', '/settings', '/support', '/terms', '/privacy', '/trial', '/profile', '/achievements'].contains(path);
+bool learningPath(String path) => !['/account', '/settings', '/widgets', '/support', '/terms', '/privacy', '/trial', '/profile', '/achievements'].contains(path);
 bool onboardingPath(String path) => ['/', '/onboarding', '/building', '/plan', '/founder'].contains(path);
 bool accountNeedsOnboarding(bool fromWelcome, bool onboarded, bool premiumAccess) => fromWelcome && !onboarded && !premiumAccess;
 String subscriptionPhase(bool active, String? plan, int? trialEndsAt, int now) =>

@@ -15,6 +15,7 @@ import 'screens/plan.dart';
 import 'screens/profile.dart';
 import 'screens/review.dart';
 import 'screens/settings.dart';
+import 'screens/home_widgets.dart';
 import 'screens/trial.dart';
 import 'screens/vocab.dart';
 import 'screens/welcome.dart';
@@ -83,6 +84,7 @@ GoRouter buildRouter(AppState app) {
         ),
       ),
       GoRoute(path: '/settings', builder: (c, s) => const SettingsScreen()),
+      GoRoute(path: '/widgets', builder: (c, s) => const HomeWidgetsScreen()),
       GoRoute(path: '/history', builder: (c, s) => const HistoryScreen()),
       GoRoute(path: '/saved', builder: (c, s) => const SavedScreen()),
       GoRoute(path: '/achievements', builder: (c, s) => const AchievementsScreen()),

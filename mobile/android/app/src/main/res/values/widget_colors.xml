@@ -1,0 +1,8 @@
+<resources>
+    <!-- Mirrored semantic tokens from Flutter T / web styles.css. -->
+    <color name="widget_surface">#141414</color>
+    <color name="widget_border">#303030</color>
+    <color name="widget_foreground">#EDEDED</color>
+    <color name="widget_primary">#FF8A3D</color>
+    <color name="widget_muted">#A3A3A3</color>
+</resources>

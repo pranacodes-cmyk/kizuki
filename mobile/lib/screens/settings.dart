@@ -160,6 +160,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
               ]),
               _Group(title: 'Display', children: [
+                _ActionRow(label: 'Home & Lock Screen widgets', onTap: () => context.push('/widgets')),
                 toggle('Show furigana', s.furigana, (x, v) => x.furigana = v),
                 toggle('Show romaji', s.romaji, (x, v) => x.romaji = v),
                 toggle('Show translation', s.translation, (x, v) => x.translation = v),

@@ -33,6 +33,7 @@ export type Settings = {
   reminders: boolean; reminderFreq: "standard" | "minimal";
   /** Settings → Vibration feedback (missing in older saved state counts as on — hapticsOn). */
   haptics: boolean;
+  widgetSaved: boolean; widgetReading: boolean; widgetMeaning: boolean;
 };
 export type HistoryEntry = { clipId: string; at: number };
 
@@ -68,6 +69,7 @@ export const defaultProfile: Profile = {
 export const defaultSettings: Settings = {
   furigana: true, romaji: true, translation: true, spacing: true, highlight: true, autoSave: true, textSize: 1, speed: 1,
   flashFront: "jp", flashFurigana: false, flashRomaji: false, reminders: true, reminderFreq: "standard", haptics: true,
+  widgetSaved: false, widgetReading: true, widgetMeaning: true,
 };
 
 export const initialState = (): PersistedState => ({

@@ -87,6 +87,7 @@ flutter:
     - assets/data/explain/
     - assets/mascot/
     - assets/video/
+    - assets/widgets/
 
   fonts:
     - family: Nunito

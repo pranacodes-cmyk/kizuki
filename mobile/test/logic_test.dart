@@ -6,6 +6,41 @@ import 'package:mimi/logic/logic.dart';
 const now = 1800000000000;
 
 void main() {
+  group('native widget rules', () {
+    const beginner = WidgetWord(key: 'b', word: '猫', reading: 'ねこ', meaning: 'cat', jlpt: 5);
+    const advanced = WidgetWord(key: 'a', word: '議論', reading: 'ぎろん', meaning: 'discussion', jlpt: 2);
+    const saved = WidgetWord(key: 'saved', word: '犬', reading: 'いぬ', meaning: 'dog', status: 'learning', due: 1);
+    test('saved learning words are opt-in', () {
+      expect(widgetWords([beginner], [saved], 'N5', false, 0).map((w) => w.key), ['b']);
+      expect(widgetWords([beginner], [saved], 'N5', true, 0).map((w) => w.key), ['saved']);
+    });
+    test('beginner words never use advanced levels', () {
+      expect(widgetWords([beginner, advanced], [], 'N5', false, 0).map((w) => w.key), ['b']);
+      expect(widgetWords([beginner, advanced], [], 'N2', false, 0).map((w) => w.key), ['a', 'b']);
+    });
+    test('known ignored and removed words never enter personal rotation', () {
+      final excluded = [for (final status in ['known', 'ignored', 'removed']) WidgetWord(key: status, word: '犬', reading: 'いぬ', meaning: 'dog', status: status)];
+      expect(widgetWords([beginner], excluded, 'N5', true, 0).map((w) => w.key), ['b']);
+    });
+    test('due words come first without mutating review time', () {
+      const later = WidgetWord(key: 'later', word: '水', reading: 'みず', meaning: 'water', status: 'learning', due: 100);
+      expect(widgetWords([beginner], [later, saved], 'N5', true, 50).map((w) => w.key), ['saved', 'later']);
+      expect(saved.due, 1);
+    });
+    test('public rotation advances by two hours', () {
+      expect(widgetSlotMs, 7200000);
+      expect(widgetWords([beginner, advanced], [], 'N2', false, widgetSlotMs).first.key, 'b');
+    });
+    test('widget links never intercept auth or arbitrary destinations', () {
+      expect(widgetDestination('kizuki://widget/review'), '/review?deck=words');
+      expect(widgetDestination('kizuki://widget/word?clip=abc-1'), '/clip/abc-1');
+      expect(widgetDestination('kizuki://widget/word?clip=../account'), '/vocab');
+      expect(widgetDestination('kizuki://auth?session=private'), null);
+      expect(widgetDestination('https://evil.example/widget/review'), null);
+      expect(learningPath('/widgets'), false);
+      expect(widgetWords([], [], 'N5', true, 0), isEmpty);
+    });
+  });
   test('remote off skips founder; on restores it', () {
     expect(onboardingAfterPlan(founderVideoEnabled(false)), '/trial');
     expect(onboardingAfterPlan(founderVideoEnabled(true)), '/founder');

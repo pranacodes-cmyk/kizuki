@@ -2,6 +2,7 @@
 import { describe, expect, it } from "vitest";
 
 import {
+  widgetWords, widgetDestination, WIDGET_SLOT_MS, type WidgetWord,
   signInProviders, nativeSignInEnabled, signInMethod, localStateFor, accountNeedsOnboarding,
   founderVideoEnabled, founderVideoUrl, onboardingAfterPlan, trialDays,
   subscriptionAccess, learningPath, purchaseNeedsAccount, ReviewSession, SUPPORT_TOPICS, supportMessageError, answerCard, bestStreak, clipScore, currentStreak, dayKey, dayMs, fnv1a, formatInterval, formatWhen, goalDateLabel,
@@ -15,6 +16,41 @@ import {
 } from "./logic";
 
 const NOW = 1_800_000_000_000;
+describe('native widget rules', () => {
+  const base = { clipId: '', example: '', due: 0, status: 'public' };
+  const beginner: WidgetWord = { ...base, key: 'b', word: '猫', reading: 'ねこ', meaning: 'cat', jlpt: 5 };
+  const advanced: WidgetWord = { ...base, key: 'a', word: '議論', reading: 'ぎろん', meaning: 'discussion', jlpt: 2 };
+  const saved: WidgetWord = { ...base, key: 'saved', word: '犬', reading: 'いぬ', meaning: 'dog', jlpt: 5, status: 'learning', due: 1 };
+  it('saved learning words are opt-in', () => {
+    expect(widgetWords([beginner], [saved], 'N5', false, 0).map(w => w.key)).toEqual(['b']);
+    expect(widgetWords([beginner], [saved], 'N5', true, 0).map(w => w.key)).toEqual(['saved']);
+  });
+  it('beginner words never use advanced levels', () => {
+    expect(widgetWords([beginner, advanced], [], 'N5', false, 0).map(w => w.key)).toEqual(['b']);
+    expect(widgetWords([beginner, advanced], [], 'N2', false, 0).map(w => w.key)).toEqual(['a', 'b']);
+  });
+  it('known ignored and removed words never enter personal rotation', () => {
+    expect(widgetWords([beginner], ['known', 'ignored', 'removed'].map(status => ({ ...saved, status })), 'N5', true, 0).map(w => w.key)).toEqual(['b']);
+  });
+  it('due words come first without mutating review time', () => {
+    const later = { ...saved, key: 'later', word: '水', reading: 'みず', meaning: 'water', due: 100 };
+    expect(widgetWords([beginner], [later, saved], 'N5', true, 50).map(w => w.key)).toEqual(['saved', 'later']);
+    expect(saved.due).toBe(1);
+  });
+  it('public rotation advances by two hours', () => {
+    expect(WIDGET_SLOT_MS).toBe(7200000);
+    expect(widgetWords([beginner, advanced], [], 'N2', false, WIDGET_SLOT_MS)[0]?.key).toBe('b');
+  });
+  it('widget links never intercept auth or arbitrary destinations', () => {
+    expect(widgetDestination('kizuki://widget/review')).toBe('/review?deck=words');
+    expect(widgetDestination('kizuki://widget/word?clip=abc-1')).toBe('/clip/abc-1');
+    expect(widgetDestination('kizuki://widget/word?clip=../account')).toBe('/vocab');
+    expect(widgetDestination('kizuki://auth?session=private')).toBe(null);
+    expect(widgetDestination('https://evil.example/widget/review')).toBe(null);
+    expect(learningPath('/widgets')).toBe(false);
+    expect(widgetWords([], [], 'N5', true, 0)).toEqual([]);
+  });
+});
 it('remote off skips founder; on restores it', () => {
   expect(onboardingAfterPlan(founderVideoEnabled(false))).toBe('/trial');
   expect(onboardingAfterPlan(founderVideoEnabled(true))).toBe('/founder');

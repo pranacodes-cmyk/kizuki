@@ -176,6 +176,7 @@ class WordInput {
 class Settings {
   bool furigana, romaji, translation, spacing, highlight, autoSave, flashFurigana, flashRomaji, reminders;
   bool haptics; // Settings → Vibration feedback (missing in older saved state = on)
+  bool widgetSaved, widgetReading, widgetMeaning;
   double textSize; // text scale: 0.85 small · 1 medium · 1.2 large (same as web)
   double speed;
   String flashFront; // jp | en
@@ -195,6 +196,9 @@ class Settings {
     this.reminders = true,
     this.reminderFreq = 'standard',
     this.haptics = true,
+    this.widgetSaved = false,
+    this.widgetReading = true,
+    this.widgetMeaning = true,
   });
   Map<String, dynamic> toJson() => {
         'furigana': furigana,
@@ -211,6 +215,7 @@ class Settings {
         'reminders': reminders,
         'reminderFreq': reminderFreq,
         'haptics': haptics,
+        'widgetSaved': widgetSaved, 'widgetReading': widgetReading, 'widgetMeaning': widgetMeaning,
       };
   factory Settings.fromJson(Map<String, dynamic> j) => Settings(
         furigana: j['furigana'] as bool? ?? true,
@@ -227,6 +232,9 @@ class Settings {
         reminders: j['reminders'] as bool? ?? true,
         reminderFreq: j['reminderFreq'] as String? ?? 'standard',
         haptics: j['haptics'] as bool? ?? true,
+        widgetSaved: j['widgetSaved'] as bool? ?? false,
+        widgetReading: j['widgetReading'] as bool? ?? true,
+        widgetMeaning: j['widgetMeaning'] as bool? ?? true,
       );
 }
 
