@@ -1,4 +1,6 @@
 // Topic labels for clip tags — mirrored in mobile/lib/data/topics.dart.
+import { tr } from "./i18n-core";
+
 export const TOPICS: Record<string, { label: string; emoji: string }> = {
   anime: { label: "Anime", emoji: "🎌" },
   drama: { label: "Drama", emoji: "🎭" },
@@ -24,5 +26,5 @@ export const TOPICS: Record<string, { label: string; emoji: string }> = {
   games: { label: "Games", emoji: "🎮" },
 };
 
-export const topicLabel = (t: string) => TOPICS[t]?.label ?? t.charAt(0).toUpperCase() + t.slice(1);
+export const topicLabel = (t: string) => tr(TOPICS[t]?.label ?? t.charAt(0).toUpperCase() + t.slice(1));
 export const topicEmoji = (t: string) => TOPICS[t]?.emoji ?? "🎬";

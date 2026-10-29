@@ -11,6 +11,7 @@ import { cn } from "@/lib/utils";
 
 import { Mascot } from "./Mascot";
 import { Button } from "./ui";
+import { tr } from "@/lib/i18n";
 
 type Box = { x: number; y: number; w: number; h: number };
 
@@ -154,7 +155,7 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
   const bubbleStyle: React.CSSProperties = { top: regionTop, height: Math.max(0, regionEnd - regionTop) };
 
   return (
-    <div role="dialog" aria-label="Welcome tour" className="absolute inset-0 select-none">
+    <div role="dialog" aria-label={tr("Welcome tour")} className="absolute inset-0 select-none">
       {/* Blocking layer: tap steps advance on any tap; action steps only let the spotlight through. */}
       {!pass && !action && <div className="pointer-events-auto absolute inset-0 cursor-pointer" onClick={waitingForTarget ? undefined : onNext} />}
       {!pass && action && (h ? (
@@ -211,10 +212,10 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
                       <div className="mt-3 space-y-2">
                         {[[Play, "Play / pause"], [RotateCcw, "Replay · loop this line"], [Gauge, "1× · tap to change speed"], [Bookmark, "Save · Profile → Saved"], [Type, "Aa · subtitle display"]].map(([Icon, label]) => {
                           const ControlIcon = Icon as typeof Play;
-                          return <div key={String(label)} className="flex items-center gap-2.5 text-[0.8125rem] font-extrabold text-background"><ControlIcon className="h-[18px] w-[18px] shrink-0 text-primary-deep" /><span>{String(label)}</span></div>;
+                          return <div key={String(label)} className="flex items-center gap-2.5 text-[0.8125rem] font-extrabold text-background"><ControlIcon className="h-[18px] w-[18px] shrink-0 text-primary-deep" /><span>{tr(String(label))}</span></div>;
                         })}
                       </div>
-                      <Pill wide onClick={onNext}>{step.button ?? "Next"}</Pill>
+                      <Pill wide onClick={onNext}>{step.button ? tr(step.button) : tr("Next")}</Pill>
                     </>
                   ) : kind === "legend" ? (
                     <>
@@ -223,23 +224,23 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
                           <div key={l.id} className="flex items-center gap-2">
                             <span className="flex w-14 shrink-0"><LegendWord look={l.id} /></span>
                             <span className="min-w-0">
-                              <span className="block text-[0.875rem] font-black text-background">{l.label}</span>
-                              <span className="block text-[0.75rem] font-semibold text-faint">{l.hint}</span>
+                              <span className="block text-[0.875rem] font-black text-background">{tr(l.label)}</span>
+                              <span className="block text-[0.75rem] font-semibold text-faint">{tr(l.hint)}</span>
                             </span>
                           </div>
                         ))}
                       </div>
-                      <Pill wide disabled={!legendReady} onClick={onNext}>Got it</Pill>
+                      <Pill wide disabled={!legendReady} onClick={onNext}>{tr("Got it")}</Pill>
                     </>
                   ) : kind === "finish" ? (
-                    <Pill wide onClick={onNext}>{step.button ?? "Let's go!"}</Pill>
+                    <Pill wide onClick={onNext}>{step.button ? tr(step.button) : tr("Let's go!")}</Pill>
                   ) : kind === "action" ? (
-                    step.hint && <p className="mt-2.5 flex items-center gap-1.5 text-[0.8125rem] font-black text-primary-deep"><Pointer className="h-4 w-4 shrink-0" />{step.hint}</p>
+                    step.hint && <p className="mt-2.5 flex items-center gap-1.5 text-[0.8125rem] font-black text-primary-deep"><Pointer className="h-4 w-4 shrink-0" />{tr(step.hint)}</p>
                   ) : step.button ? (
                     // A named button ("Back to the video") gets the full width, so it never squeezes.
-                    <Pill wide onClick={onNext}>{step.button}</Pill>
+                    <Pill wide onClick={onNext}>{tr(step.button)}</Pill>
                   ) : (
-                    <NextRow label={`${index + 1} of ${TOUR_STEPS.length}`} onNext={onNext} />
+                    <NextRow label={tr("{n} of {total}", { n: index + 1, total: TOUR_STEPS.length })} onNext={onNext} />
                   )}
                 </div>
               </div>
@@ -252,8 +253,7 @@ function TourOverlay({ step, index, root }: { step: TourStep; index: number; roo
         onClick={(e) => { e.stopPropagation(); finish(); }}
         className="press pointer-events-auto absolute right-4 top-[calc(var(--sat)+8px)] rounded-full border border-border bg-surface-2 px-3.5 py-2 text-[0.8125rem] font-extrabold text-muted-foreground"
       >
-        Skip tour
-      </Button>
+        {tr("Skip tour")}</Button>
     </div>
   );
 }
@@ -275,7 +275,7 @@ function NextRow({ label, onNext }: { label: string; onNext: () => void }) {
     <div className="mt-2.5 flex items-center">
       <span className="text-[0.75rem] font-extrabold text-faint tabular">{label}</span>
       <span className="flex-1" />
-      <Pill onClick={onNext}>Next</Pill>
+      <Pill onClick={onNext}>{tr("Next")}</Pill>
     </div>
   );
 }

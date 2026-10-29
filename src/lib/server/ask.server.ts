@@ -30,6 +30,8 @@ const Body = z.object({
     learnerLevel: z.string().max(4),
     line: z.object({ ja: z.string().min(1).max(500), en: z.string().max(800) }),
     word: z.object({ surface: z.string().max(60), head: z.string().max(60), reading: z.string().max(80), gloss: z.string().max(400) }).nullable(),
+    // App language; older app builds omit it and get English answers.
+    lang: z.enum(["en", "vi", "id", "th", "ko", "pt"]).optional(),
   }),
   messages: z.array(Message).min(1).max(ASK_MAX_MESSAGES),
 });
@@ -41,7 +43,17 @@ const json = (status: number, error: string) =>
 const textOf = (m: z.infer<typeof Message>) =>
   m.parts.filter((p) => p.type === "text" && typeof p.text === "string").map((p) => p.text).join("");
 
+const REPLY_LANGUAGE: Record<string, string> = {
+  en: "English",
+  vi: "Vietnamese",
+  id: "Indonesian",
+  th: "Thai",
+  ko: "Korean",
+  pt: "Brazilian Portuguese",
+};
+
 function instructions(c: AskBody["context"]) {
+  const language = REPLY_LANGUAGE[c.lang ?? "en"] ?? "English";
   const word = c.word
     ? `\nThe learner tapped the word 「${c.word.surface}」 (dictionary form ${c.word.head}${c.word.reading ? `, read ${c.word.reading}` : ""}${c.word.gloss ? `, meaning "${c.word.gloss}"` : ""}).`
     : "";
@@ -50,10 +62,10 @@ The learner (around JLPT ${c.learnerLevel}) is watching a real YouTube clip titl
 「${c.line.ja}」 — "${c.line.en}"${word}
 
 How to answer:
-- Reply in simple, friendly English. Keep it short: 2–5 sentences or up to 4 bullet points, under 130 words.
+- Reply in simple, friendly ${language} (switch only if the learner asks for another language). Keep it short: 2–5 sentences or up to 4 bullet points, under 130 words.
 - Always write Japanese with its kana reading in parentheses after any kanji, e.g. 食べる (たべる).
 - Explain like a patient friend: what it means here, why this form, and when people say it. Use **bold** for the key Japanese bit.
-- For examples, give at most 2 short sentences, each with an English translation.
+- For examples, give at most 2 short sentences, each with a ${language} translation.
 - If unsure (auto-transcripts can mishear), say so briefly.
 - Only help with Japanese language and culture. For anything else, gently steer back to the clip.`;
 }

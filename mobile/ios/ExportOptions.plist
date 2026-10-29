@@ -14,6 +14,8 @@
 	<dict>
 		<key>com.kizukijapan.app</key>
 		<string>Kizuki App Store CI</string>
+		<key>com.kizukijapan.app.widgets</key>
+		<string>Kizuki Widgets App Store CI</string>
 	</dict>
 	<key>uploadSymbols</key>
 	<true/>

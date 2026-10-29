@@ -4,6 +4,7 @@ import { Trophy } from "lucide-react";
 import { goalProgress, minutesLeft } from "@/lib/logic";
 import { todayOf, useApp } from "@/lib/store";
 import { cn } from "@/lib/utils";
+import { tr } from "@/lib/i18n";
 
 /** Daily-goal bar + For You / Explore tabs (top of the Feed). */
 export function FeedHeader({ tab }: { tab: "foryou" | "explore" }) {
@@ -18,13 +19,13 @@ export function FeedHeader({ tab }: { tab: "foryou" | "explore" }) {
           <div className="h-full rounded-full bg-primary transition-[width] duration-700" style={{ width: `${Math.max(3, pct * 100)}%` }} />
         </div>
         <span className={cn("flex items-center gap-1 text-[0.8125rem] font-black tabular", left === 0 ? "text-gold" : "text-muted-foreground")}>
-          {left === 0 ? "Goal done!" : `${left} min left`}
+          {left === 0 ? tr("Goal done!") : tr("{left} min left", { left })}
           <Trophy className={cn("h-4 w-4", left === 0 ? "fill-gold text-gold" : "text-faint")} />
         </span>
       </div>
       <div className="mt-2 flex justify-center gap-8">
-        <HeaderTab to="/feed" active={tab === "foryou"}>For You</HeaderTab>
-        <HeaderTab to="/explore" active={tab === "explore"}>Explore</HeaderTab>
+        <HeaderTab to="/feed" active={tab === "foryou"}>{tr("For You")}</HeaderTab>
+        <HeaderTab to="/explore" active={tab === "explore"}>{tr("Explore")}</HeaderTab>
       </div>
     </div>
   );

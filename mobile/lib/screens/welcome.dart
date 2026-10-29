@@ -5,6 +5,7 @@ import '../theme/mascot_motion.dart';
 import '../theme/tokens.dart';
 import '../widgets/lively_mascot.dart';
 import '../widgets/ui.dart';
+import '../i18n/i18n.dart';
 
 /// Welcome — mirrors src/routes/index.tsx. The fox springs in once the splash fades, floats
 /// with a breathing glow, and hops when tapped.
@@ -33,7 +34,7 @@ class WelcomeScreen extends StatelessWidget {
                   delayMs: 200,
                   dy: 0,
                   child: Text.rich(
-                    TextSpan(children: [TextSpan(text: '気づき', style: jp(14, c: T.primary)), const TextSpan(text: '  ·  the moment it clicks')]),
+                    TextSpan(children: [TextSpan(text: '気づき', style: jp(14, c: T.primary)), TextSpan(text: '  ·  ${tr('the moment it clicks')}')]),
                     style: txt(14, w: FontWeight.w700, c: T.muted),
                   ),
                 ),
@@ -43,10 +44,7 @@ class WelcomeScreen extends StatelessWidget {
                   child: SizedBox(
                     width: 300,
                     child: Text.rich(
-                      TextSpan(children: [
-                        const TextSpan(text: 'Done with textbooks? '),
-                        TextSpan(text: 'Start understanding real Japanese.', style: txt(24, w: FontWeight.w800, c: T.primary, h: 1.2)),
-                      ]),
+                      TextSpan(children: trSpans('Done with textbooks? [Start understanding real Japanese.]', txt(24, w: FontWeight.w800, c: T.primary, h: 1.2))),
                       textAlign: TextAlign.center,
                       style: txt(24, w: FontWeight.w800, h: 1.2),
                     ),
@@ -58,14 +56,14 @@ class WelcomeScreen extends StatelessWidget {
                   dy: 0,
                   child: SizedBox(
                     width: 290,
-                    child: Text('Short clips from anime, dramas and vlogs. Tap any word. Remember it for good.', textAlign: TextAlign.center, style: txt(15, w: FontWeight.w400, c: T.muted)),
+                    child: Text(tr('Short clips from anime, dramas and vlogs. Tap any word. Remember it for good.'), textAlign: TextAlign.center, style: txt(15, w: FontWeight.w400, c: T.muted)),
                   ),
                 ),
               ]),
             ),
-            Button3D(label: 'Get started', onPressed: () => context.push('/onboarding')),
+            Button3D(label: tr('Get started'), onPressed: () => context.push('/onboarding')),
             const SizedBox(height: 8),
-            Button3D(label: 'I already have an account', variant: BtnVariant.ghost, height: 48, onPressed: () => context.push('/account?mode=signin')),
+            Button3D(label: tr('I already have an account'), variant: BtnVariant.ghost, height: 48, onPressed: () => context.push('/account?mode=signin')),
             const SizedBox(height: 8),
           ]),
         ),

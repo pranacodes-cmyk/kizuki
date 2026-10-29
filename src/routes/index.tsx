@@ -2,8 +2,9 @@ import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useEffect } from "react";
 
 import { FadeUp, LivelyMascot } from "@/components/mimi/Mascot";
-import { Button, Screen } from "@/components/mimi/ui";
+import { Button, Hi, Screen } from "@/components/mimi/ui";
 import { useApp } from "@/lib/store";
+import { isLangChosen, tr } from "@/lib/i18n";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -30,35 +31,35 @@ function Welcome() {
       return;
     }
     if (onboarded) void navigate({ to: "/feed", replace: true });
+    // First run: pick the app language before the welcome screen (router.dart does the same).
+    else if (!isLangChosen()) void navigate({ to: "/language", replace: true });
   }, [onboarded, navigate]);
 
   return (
     <Screen scroll={false} className="items-center px-6">
       <div className="flex flex-1 flex-col items-center justify-center text-center">
         {/* Springs in as the splash fades, floats with a breathing glow, hops when tapped (welcome.dart). */}
-        <LivelyMascot pose="listen" size={224} idle="float" entrance tappable halo alt="Kizuki the fox" />
+        <LivelyMascot pose="listen" size={224} idle="float" entrance tappable halo alt={tr("Kizuki the fox")} />
         <FadeUp delay={150} className="mt-2">
           <p className="text-[2.75rem] font-black leading-none tracking-tight">kizuki</p>
         </FadeUp>
         <FadeUp delay={200} dy={0} className="mt-1.5">
           <p className="text-[0.875rem] font-bold text-muted-foreground">
-            <span className="font-jp text-primary">気づき</span>&nbsp;&nbsp;·&nbsp;&nbsp;the moment it clicks
-          </p>
+            <span className="font-jp text-primary">気づき</span>&nbsp;&nbsp;·&nbsp;&nbsp;{tr("the moment it clicks")}</p>
         </FadeUp>
         <FadeUp delay={250} className="mt-3.5">
           <h1 className="max-w-[300px] text-[1.5rem] font-extrabold leading-tight">
-            Done with textbooks? <span className="text-primary">Start understanding real Japanese.</span>
+            <Hi text={tr("Done with textbooks? [Start understanding real Japanese.]")} className="text-primary" />
           </h1>
         </FadeUp>
         <FadeUp delay={350} dy={0} className="mt-3">
-          <p className="max-w-[290px] text-[0.9375rem] text-muted-foreground">Short clips from anime, dramas and vlogs. Tap any word. Remember it for good.</p>
+          <p className="max-w-[290px] text-[0.9375rem] text-muted-foreground">{tr("Short clips from anime, dramas and vlogs. Tap any word. Remember it for good.")}</p>
         </FadeUp>
       </div>
       <div className="w-full space-y-3 pb-2">
-        <Button onClick={() => navigate({ to: "/onboarding" })}>Get started</Button>
+        <Button onClick={() => navigate({ to: "/onboarding" })}>{tr("Get started")}</Button>
         <Button variant="ghost" size="md" className="w-full" onClick={() => navigate({ to: "/account", search: { mode: "signin" } })}>
-          I already have an account
-        </Button>
+          {tr("I already have an account")}</Button>
       </div>
     </Screen>
   );

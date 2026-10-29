@@ -70,9 +70,21 @@ class Billing {
       if (want == _applied) return;
       try {
         if (want != null) {
+          // A purchase made before signing in into an account that already existed stays
+          // on the anonymous store user after logIn. Restoring moves it to this account
+          // (same as the Restore button) so the learner is never sent back to the paywall.
+          final hadAccess = _lastActive;
           final result = await Purchases.logIn(want);
           _applied = want;
-          _apply(result.customerInfo);
+          var info = result.customerInfo;
+          if (hadAccess && !info.entitlements.active.containsKey(entitlement)) {
+            try {
+              info = await Purchases.restorePurchases();
+            } catch (e) {
+              _log('billing transfer', e);
+            }
+          }
+          _apply(info);
         } else {
           final info = await Purchases.logOut();
           _applied = null;
@@ -180,9 +192,13 @@ class Billing {
     }
   }
 
+  /// Whether the last store answer gave access (used to carry a purchase across sign-in).
+  static bool _lastActive = false;
+
   static void _apply(CustomerInfo info) {
     managementUrl = info.managementURL;
     final premium = premiumFrom(info);
+    _lastActive = premium.active;
     _expiry?.cancel();
     onPremium?.call(premium);
     if (premium.active && _awaiting) {
@@ -192,9 +208,13 @@ class Billing {
     final end = premium.expiresAt;
     if (premium.active && end != null) {
       final remaining = end - DateTime.now().millisecondsSinceEpoch;
-      _expiry = Timer(Duration(milliseconds: remaining > 0 ? remaining : 0), () {
-        onPremium?.call(Premium());
-        unawaited(refresh());
+      // At the period end the store usually renews a moment later: ask the store first
+      // instead of locking straight away, and check once more for a late renewal.
+      _expiry = Timer(Duration(milliseconds: remaining > 0 ? remaining : 0), () async {
+        if (!await refresh()) onPremium?.call(Premium());
+        if (!_lastActive) {
+          _expiry = Timer(const Duration(seconds: 45), () => unawaited(refresh()));
+        }
       });
     }
   }

@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
@@ -14,7 +15,9 @@ import 'services/analytics.dart';
 import 'services/auth_links.dart';
 import 'services/billing.dart';
 import 'services/content_pack.dart';
+import 'services/locale_pack.dart';
 import 'services/haptics.dart';
+import 'services/home_widgets.dart';
 import 'services/notification_service.dart';
 import 'services/onboarding_settings.dart';
 import 'services/trial_preload.dart';
@@ -27,6 +30,8 @@ import 'widgets/splash.dart';
 import 'widgets/toast.dart';
 import 'widgets/tracking_explainer.dart';
 import 'widgets/tour.dart';
+import 'i18n/i18n.dart';
+import 'services/error_report.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -42,9 +47,11 @@ void installErrorHandlers() {
     debugPrint('KIZUKI_ERROR ${details.exceptionAsString()}\n${details.stack}');
     previous?.call(details);
     Analytics.track('app_error', {'category': 'flutter_widget'});
+    ErrorReport.send('flutter_widget', details.exception, details.stack);
   };
   PlatformDispatcher.instance.onError = (error, stack) {
     Analytics.track('app_error', {'category': 'uncaught_async'});
+    ErrorReport.send('uncaught_async', error, stack);
     debugPrint('KIZUKI_ERROR $error\n$stack');
     return true;
   };
@@ -61,6 +68,8 @@ Future<void> startApp() async {
     systemNavigationBarIconBrightness: Brightness.light,
   ));
   unawaited(SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]));
+  // The app language is a device choice; read it before the first frame.
+  await I18n.load().timeout(const Duration(seconds: 2), onTimeout: () {});
   final app = AppState();
   try {
     await app.load().timeout(const Duration(seconds: 5));
@@ -70,6 +79,7 @@ Future<void> startApp() async {
     debugPrint('KIZUKI_ERROR state load: $e');
   }
   Haptics.enabled = app.settings.haptics;
+  HomeWidgets.start(app);
   // Analytics never holds up the first frame; setup continues in the background.
   try {
     await Analytics.load().timeout(const Duration(seconds: 2));
@@ -136,7 +146,7 @@ class _KizukiAppState extends State<KizukiApp> {
 
   void _syncPath() {
     final p = topPath(router);
-    if (p != null) { _path.value = p; Analytics.screen(p); }
+    if (p != null) { _path.value = p; ErrorReport.route = p; Analytics.screen(p); }
     final a = widget.app;
     if (a.onboarded && !subscriptionAccess(a.premium.active, a.premium.expiresAt, a.premium.trialEndsAt, DateTime.now().millisecondsSinceEpoch)) {
       Tour.I.reset();
@@ -152,8 +162,15 @@ class _KizukiAppState extends State<KizukiApp> {
     widget.app.addListener(_celebrate);
     widget.app.addListener(_reminders);
     widget.app.addListener(_haptics);
+    widget.app.addListener(_localePack);
+    I18n.lang.addListener(_onLanguage);
     _reminders();
     _haptics();
+    _localePack();
+    HomeWidgets.onOpen = (p) => router.go(p);
+    final widgetLink = HomeWidgets.pending;
+    HomeWidgets.pending = null;
+    if (widgetLink != null) WidgetsBinding.instance.addPostFrameCallback((_) => router.go(widgetLink));
     // Meta install/open + Apple's tracking question, once the first screen is showing.
     Attribution.explainTracking = () async {
       final ctx = router.routerDelegate.navigatorKey.currentContext;
@@ -170,7 +187,43 @@ class _KizukiAppState extends State<KizukiApp> {
     widget.app.removeListener(_celebrate);
     widget.app.removeListener(_reminders);
     widget.app.removeListener(_haptics);
+    widget.app.removeListener(_localePack);
+    I18n.lang.removeListener(_onLanguage);
+    HomeWidgets.dispose();
     super.dispose();
+  }
+
+  /// A new app language redraws every screen (tr() reads the language while building),
+  /// switches the clip library to that language (then redraws again) and reschedules
+  /// reminders so their text follows.
+  void _onLanguage() {
+    _rebuildAll();
+    final code = I18n.lang.value;
+    unawaited(Content.useLanguage(code).then((_) {
+      if (I18n.lang.value == code) _rebuildAll();
+      HomeWidgets.refresh();
+    }));
+    _reminderKey = null;
+    _reminders();
+    _localePack();
+  }
+
+  void _rebuildAll() {
+    void rebuild(Element e) {
+      e.markNeedsBuild();
+      e.visitChildren(rebuild);
+    }
+    if (mounted) {
+      setState(() {});
+      (context as Element).visitChildren(rebuild);
+    }
+  }
+
+  /// The full language pack downloads only once learning access exists (trial or Premium).
+  void _localePack() {
+    final a = widget.app;
+    LocalePacks.schedule(I18n.lang.value, subscriptionAccess(a.premium.active, a.premium.expiresAt, a.premium.trialEndsAt, DateTime.now().millisecondsSinceEpoch),
+        inUse: Content.localeFilesInUse);
   }
 
   /// Settings → Vibration feedback switches every haptic in the app.
@@ -182,7 +235,7 @@ class _KizukiAppState extends State<KizukiApp> {
   void _reminders() {
     final a = widget.app;
     final on = a.onboarded && a.settings.reminders;
-    final key = '$on|${a.profile.window}|${a.profile.dailyMinutes}|${a.settings.reminderFreq}';
+    final key = '$on|${a.profile.window}|${a.profile.dailyMinutes}|${a.settings.reminderFreq}|${I18n.lang.value}';
     if (key == _reminderKey) return;
     _reminderKey = key;
     unawaited(NotificationService.schedule(enabled: on, window: a.profile.window, minutes: a.profile.dailyMinutes, minimal: a.settings.reminderFreq == 'minimal')
@@ -204,8 +257,12 @@ class _KizukiAppState extends State<KizukiApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'Kizuki',
+      title: tr('Kizuki'),
       debugShowCheckedModeBanner: false,
+      // System text (copy/paste menus, screen-reader hints) follows the app language.
+      locale: Locale(I18n.lang.value),
+      supportedLocales: [for (final l in languages) Locale(l.code)],
+      localizationsDelegates: GlobalMaterialLocalizations.delegates,
       theme: buildTheme(),
       routerConfig: router,
       builder: (context, child) => Stack(children: [

@@ -8,6 +8,7 @@ import { useContent } from "@/lib/feed";
 import { canWatchClip } from "@/lib/logic";
 import { FREE_DAILY_CLIPS } from "@/lib/paywall";
 import { todayOf, useApp } from "@/lib/store";
+import { tr } from "@/lib/i18n";
 
 export const Route = createFileRoute("/clip/$clipId")({
   head: () => ({
@@ -38,16 +39,16 @@ function ClipPage() {
     <div className="absolute inset-0 flex flex-col bg-background pt-[calc(var(--sat)+4px)]">
       <TopBar onBack={back} title={clip ? clip.title : ""} />
       {isLoading && <MascotLoader className="flex-1" />}
-      {error && <div className="flex flex-1 items-center"><ErrorState title="Couldn't load this clip" onRetry={() => void refetch()} /></div>}
-      {data && !clip && <div className="flex flex-1 items-center"><ErrorState title="Clip not found" body="It may have been removed from the library." /></div>}
+      {error && <div className="flex flex-1 items-center"><ErrorState title={tr("Couldn't load this clip")} onRetry={() => void refetch()} /></div>}
+      {data && !clip && <div className="flex flex-1 items-center"><ErrorState title={tr("Clip not found")} body={tr("It may have been removed from the library.")} /></div>}
       {clip && data && (allowed || premium ? (
         <div className="min-h-0 flex-1"><ClipView clip={clip} content={data} active bottomInset={24} /></div>
       ) : (
         <div className="flex flex-1 flex-col items-center justify-center px-8 text-center">
           <Mascot pose="heart" className="h-28 w-28" />
-          <h2 className="mt-3 text-[1.375rem] font-black">That's your {FREE_DAILY_CLIPS} free clips for today</h2>
-          <p className="mt-2 text-[0.9375rem] text-muted-foreground">Come back tomorrow, or unlock every clip with a free week of Premium.</p>
-          <div className="mt-6 w-full"><Button onClick={() => navigate({ to: "/trial" })}>Try Premium free</Button></div>
+          <h2 className="mt-3 text-[1.375rem] font-black">{tr("That's your {n} free clips for today", { n: FREE_DAILY_CLIPS })}</h2>
+          <p className="mt-2 text-[0.9375rem] text-muted-foreground">{tr("Come back tomorrow, or unlock every clip with a free week of Premium.")}</p>
+          <div className="mt-6 w-full"><Button onClick={() => navigate({ to: "/trial" })}>{tr("Try Premium free")}</Button></div>
         </div>
       ))}
     </div>

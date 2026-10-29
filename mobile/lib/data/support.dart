@@ -31,6 +31,17 @@ const supportFaq = [
   ),
 ];
 
+/// Account-deletion copy shown as its own section. Mirrors DELETE_ACCOUNT_COPY in src/lib/support.ts.
+const deleteAccountCopy = (
+  title: 'Delete your Kizuki account',
+  intro: 'Kizuki (the Japanese learning app by Prana codes, contact pranacodes@gmail.com) lets you delete your account and all associated data at any time.',
+  stepsTitle: 'In the Kizuki app',
+  steps: 'Open Kizuki → Profile → Settings → Delete account. This permanently deletes your account, saved words, reviews, streak and cloud progress.',
+  webTitle: 'Without the app',
+  web: 'Send us a message below with the topic “Account”, from the email you signed up with, or email pranacodes@gmail.com. We delete your account and data within 30 days of a verified request.',
+  kept: 'Deletion removes your profile, learner progress and support messages. Purchase records stay with your app store (Apple/Google) as required for receipts and refunds.',
+);
+
 const supportTopicLabels = {
   'subscription': 'Subscription',
   'account': 'Account',

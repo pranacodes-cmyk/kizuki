@@ -11,6 +11,7 @@ import { FREE_DAILY_CLIPS } from "@/lib/paywall";
 import { todayOf, useApp } from "@/lib/store";
 import { useFeedPager } from "@/lib/feed-pager";
 import { tourEmit } from "@/lib/tour-store";
+import { tr } from "@/lib/i18n";
 
 /** Wheel distance that counts as "next clip", and the quiet gap that ends one wheel gesture. */
 const WHEEL_STEP_PX = 40;
@@ -96,8 +97,8 @@ function Feed() {
   return (
     <div className="absolute inset-0 flex flex-col bg-background pt-[calc(var(--sat)+6px)]">
       <FeedHeader tab="foryou" />
-      {isLoading && <MascotLoader className="flex-1" label="Finding clips for you…" />}
-      {error && <div className="flex flex-1 items-center"><ErrorState title="Couldn't load clips" body="Check your connection and try again." onRetry={() => void refetch()} /></div>}
+      {isLoading && <MascotLoader className="flex-1" label={tr("Finding clips for you…")} />}
+      {error && <div className="flex flex-1 items-center"><ErrorState title={tr("Couldn't load clips")} body={tr("Check your connection and try again.")} onRetry={() => void refetch()} /></div>}
       {data && (
         <div ref={scroller} className="min-h-0 flex-1 overflow-y-scroll overscroll-contain no-scrollbar">
           {/* Active clip ±1 are mounted; the one below is warmed up (player loaded, clip cued). */}
@@ -119,11 +120,11 @@ function LimitCard() {
   return (
     <div className="flex h-full flex-col items-center justify-center px-8 pb-24 text-center">
       <Mascot pose="heart" className="h-32 w-32" />
-      <h2 className="mt-3 text-[1.5rem] font-black leading-tight">You watched your {FREE_DAILY_CLIPS} free clips today!</h2>
-      <p className="mt-2 text-[0.9375rem] text-muted-foreground">Great work. Review your words now, or unlock unlimited clips with a free week of Premium.</p>
+      <h2 className="mt-3 text-[1.5rem] font-black leading-tight">{tr("You watched your {n} free clips today!", { n: FREE_DAILY_CLIPS })}</h2>
+      <p className="mt-2 text-[0.9375rem] text-muted-foreground">{tr("Great work. Review your words now, or unlock unlimited clips with a free week of Premium.")}</p>
       <div className="mt-6 w-full space-y-3">
-        <Button onClick={() => navigate({ to: "/trial" })}>Try Premium free</Button>
-        <Button variant="surface" onClick={() => navigate({ to: "/vocab" })}>Review my words</Button>
+        <Button onClick={() => navigate({ to: "/trial" })}>{tr("Try Premium free")}</Button>
+        <Button variant="surface" onClick={() => navigate({ to: "/vocab" })}>{tr("Review my words")}</Button>
       </div>
     </div>
   );

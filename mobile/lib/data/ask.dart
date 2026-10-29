@@ -1,6 +1,8 @@
 // "Ask Kizuki" copy + request shape — mirrored from src/lib/ask.ts.
 // The tutor runs on the web app's server (/api/public/ask); both clients post the same body.
 
+import '../i18n/i18n.dart';
+
 class AskWord {
   final String surface, head, reading, gloss;
   const AskWord({required this.surface, required this.head, required this.reading, required this.gloss});
@@ -23,24 +25,24 @@ class AskContext {
 
 /// Quick questions shown before the first message.
 List<String> askSuggestions(bool hasWord) => hasWord
-    ? const ['Why this form here?', 'Give me 2 more examples', 'Is it casual or polite?', 'Break down the whole line']
-    : const ['Break down this line', 'Explain the grammar', 'Say it more politely', 'A similar sentence, please'];
+    ? [tr('Why this form here?'), tr('Give me 2 more examples'), tr('Is it casual or polite?'), tr('Break down the whole line')]
+    : [tr('Break down this line'), tr('Explain the grammar'), tr('Say it more politely'), tr('A similar sentence, please')];
 
 /// First tutor bubble (shown locally, never sent).
 String askGreeting(AskWord? word) => word != null
-    ? 'Ask me anything about **${word.head}** in this line — grammar, nuance, or more examples.'
-    : 'Ask me anything about this line — grammar, nuance, or how to use it yourself.';
+    ? tr('Ask me anything about **{word}** in this line — grammar, nuance, or more examples.', {'word': word.head})
+    : tr('Ask me anything about this line — grammar, nuance, or how to use it yourself.');
 
 /// Path of the tutor endpoint on the web app.
 const askPath = '/api/public/ask';
 
 /// Friendly copy for a failed question, keyed by HTTP status (null = no connection).
 String askErrorText(int? status, [String? serverMessage]) {
-  if (serverMessage != null && serverMessage.isNotEmpty) return serverMessage;
-  if (status == 401) return 'Please sign in again to ask Kizuki.';
-  if (status == 429) return 'Kizuki is busy right now — try again in a moment.';
-  if (status == 402) return 'Ask Kizuki is paused for now. Please try again later.';
-  if (status == 404) return "Ask Kizuki isn't available yet. Please try again later.";
-  if (status == null) return "You're offline. Check your connection and try again.";
-  return "Kizuki couldn't answer that. Please try again.";
+  if (serverMessage != null && serverMessage.isNotEmpty) return tr(serverMessage);
+  if (status == 401) return tr('Please sign in again to ask Kizuki.');
+  if (status == 429) return tr('Kizuki is busy right now — try again in a moment.');
+  if (status == 402) return tr('Ask Kizuki is paused for now. Please try again later.');
+  if (status == 404) return tr("Ask Kizuki isn't available yet. Please try again later.");
+  if (status == null) return tr("You're offline. Check your connection and try again.");
+  return tr("Kizuki couldn't answer that. Please try again.");
 }

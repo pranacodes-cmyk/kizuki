@@ -9,12 +9,13 @@ import '../widgets/clip_card.dart';
 import '../widgets/common.dart';
 import '../widgets/feed_header.dart';
 import '../widgets/ui.dart';
+import '../i18n/i18n.dart';
 
-const _sections = [
-  ('word', '🔍', 'Search a word', 'Find clips with any Japanese word'),
-  ('level', '🎯', 'Difficulty', 'Filter by JLPT level'),
-  ('grammar', '📖', 'Grammar', 'Clips that use a pattern'),
-  ('topic', '🎬', 'Topic', 'Anime, food, travel & more'),
+final _sections = [
+  ('word', '🔍', tr('Search a word'), tr('Find clips with any Japanese word')),
+  ('level', '🎯', tr('Difficulty'), tr('Filter by JLPT level')),
+  ('grammar', '📖', tr('Grammar'), tr('Clips that use a pattern')),
+  ('topic', '🎬', tr('Topic'), tr('Anime, food, travel & more')),
 ];
 
 /// Explore: search by word, JLPT level, topic or grammar — mirrors src/routes/_app/explore.tsx.
@@ -89,13 +90,13 @@ class _ExploreState extends State<_Explore> {
             decoration: InputDecoration(
               counterText: '',
               isDense: true,
-              hintText: 'English, Japanese or romaji',
+              hintText: tr('English, Japanese or romaji'),
               hintStyle: txt(16, w: FontWeight.w700, c: T.faint),
               prefixIcon: const Icon(LucideIcons.search, size: 20, color: T.faint),
               suffixIcon: q.isEmpty
                   ? null
                   : IconButton(
-                      tooltip: 'Clear search',
+                      tooltip: tr('Clear search'),
                       onPressed: () => setState(() {
                         _text.clear();
                         q = '';
@@ -113,17 +114,17 @@ class _ExploreState extends State<_Explore> {
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
             child: Row(children: [
-              MimiChip(active: level != null || panel == 'level', onTap: () => setState(() => panel = panel == 'level' ? null : 'level'), child: Text('🎯 ${level ?? 'Level'}')),
+              MimiChip(active: level != null || panel == 'level', onTap: () => setState(() => panel = panel == 'level' ? null : 'level'), child: Text('🎯 ${level ?? tr('Level')}')),
               const SizedBox(width: 8),
-              MimiChip(active: topic != null || panel == 'topic', onTap: () => setState(() => panel = panel == 'topic' ? null : 'topic'), child: Text(topic != null ? '${topicEmoji(topic!)} ${topicLabel(topic!)}' : '🎬 Topic')),
+              MimiChip(active: topic != null || panel == 'topic', onTap: () => setState(() => panel = panel == 'topic' ? null : 'topic'), child: Text(topic != null ? '${topicEmoji(topic!)} ${topicLabel(topic!)}' : tr('🎬 Topic'))),
               const SizedBox(width: 8),
-              MimiChip(active: grammar != null || panel == 'grammar', onTap: () => setState(() => panel = panel == 'grammar' ? null : 'grammar'), child: Text('📖 ${grammar ?? 'Grammar'}')),
+              MimiChip(active: grammar != null || panel == 'grammar', onTap: () => setState(() => panel = panel == 'grammar' ? null : 'grammar'), child: Text('📖 ${grammar ?? tr('Grammar')}')),
               if (level != null || topic != null || grammar != null) ...[
                 const SizedBox(width: 8),
                 MimiChip(onTap: () => setState(() {
                       level = topic = grammar = null;
                       panel = null;
-                    }), child: const Text('Clear')),
+                    }), child: Text(tr('Clear'))),
               ],
             ]),
           ),
@@ -197,8 +198,8 @@ class _ExploreState extends State<_Explore> {
                   const SizedBox(width: 12),
                   Expanded(
                     child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                      Text('Explore ${content.clips.length} clips', style: txt(20, w: FontWeight.w900)),
-                      Text('Search and filter to find exactly what you want to hear.', style: txt(14, w: FontWeight.w400, c: T.muted)),
+                      Text(tr('Explore {n} clips', {'n': content.clips.length}), style: txt(20, w: FontWeight.w900)),
+                      Text(tr('Search and filter to find exactly what you want to hear.'), style: txt(14, w: FontWeight.w400, c: T.muted)),
                     ]),
                   ),
                 ]),
@@ -217,17 +218,17 @@ class _ExploreState extends State<_Explore> {
                         child: Surface(
                           radius: 16,
                           child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                            Text(s.$2, style: const TextStyle(fontSize: 28)),
+                            Text(tr(s.$2), style: const TextStyle(fontSize: 28)),
                             const SizedBox(height: 8),
-                            Text(s.$3, style: txt(16, w: FontWeight.w800)),
-                            Text(s.$4, maxLines: 2, overflow: TextOverflow.ellipsis, style: txt(13, w: FontWeight.w400, c: T.muted, h: 1.25)),
+                            Text(tr(s.$3), style: txt(16, w: FontWeight.w800)),
+                            Text(tr(s.$4), maxLines: 2, overflow: TextOverflow.ellipsis, style: txt(13, w: FontWeight.w400, c: T.muted, h: 1.25)),
                           ]),
                         ),
                       ),
                   ],
                 ),
                 const SizedBox(height: 24),
-                caps('Popular topics'),
+                caps(tr('Popular topics')),
                 const SizedBox(height: 8),
                 Wrap(spacing: 8, runSpacing: 8, children: [
                   for (final t in topics.take(10)) MimiChip(onTap: () => setState(() => topic = t.key), child: Text('${topicEmoji(t.key)} ${topicLabel(t.key)}')),
@@ -239,12 +240,12 @@ class _ExploreState extends State<_Explore> {
                     child: Column(children: [
                       const Mascot(MascotPose.think, size: 96),
                       const SizedBox(height: 8),
-                      Text('No clips found', style: txt(17, w: FontWeight.w900)),
-                      Text('Try another word or remove a filter.', style: txt(14, w: FontWeight.w400, c: T.muted)),
+                      Text(tr('No clips found'), style: txt(17, w: FontWeight.w900)),
+                      Text(tr('Try another word or remove a filter.'), style: txt(14, w: FontWeight.w400, c: T.muted)),
                     ]),
                   )
                 : Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    Padding(padding: const EdgeInsets.fromLTRB(16, 12, 16, 0), child: Text('${results.length} clip${results.length == 1 ? '' : 's'}', style: txt(13, w: FontWeight.w700, c: T.muted))),
+                    Padding(padding: const EdgeInsets.fromLTRB(16, 12, 16, 0), child: Text(trn(results.length, '{n} clip', '{n} clips'), style: txt(13, w: FontWeight.w700, c: T.muted))),
                     Expanded(child: ClipGrid(content: content, ids: results.take(60).toList(), empty: '', highlight: q.trim(), padding: const EdgeInsets.fromLTRB(16, 8, 16, 112))),
                   ]),
       ),

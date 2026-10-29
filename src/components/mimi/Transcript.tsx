@@ -4,6 +4,7 @@ import { memo } from "react";
 import type { Clip, Word } from "@/lib/content";
 import type { Settings } from "@/lib/store";
 import { cn } from "@/lib/utils";
+import { tr } from "@/lib/i18n";
 
 export type TokenStatus = "new" | "learning" | "known" | "ignored";
 
@@ -67,7 +68,7 @@ export const Transcript = memo(function Transcript({ clip, time, settings, statu
             </div>
             {settings.translation && <p className="mt-1.5 text-muted-foreground" style={{ fontSize: `${0.9375 * scale}rem` }}>{line.en}</p>}
             <button
-              aria-label="Line options"
+              aria-label={tr("Line options")}
               onClick={(e) => { e.stopPropagation(); onLineMenu(li); }}
               className="absolute right-1 top-2 flex h-8 w-8 items-center justify-center rounded-full text-faint hover:text-foreground"
             >

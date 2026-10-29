@@ -5,6 +5,7 @@ import { ClipGrid } from "@/components/mimi/ClipCard";
 import { MascotLoader, Screen, TopBar } from "@/components/mimi/ui";
 import { useContent } from "@/lib/feed";
 import { useApp } from "@/lib/store";
+import { tr } from "@/lib/i18n";
 
 export const Route = createFileRoute("/history")({
   head: () => ({
@@ -27,8 +28,8 @@ function History() {
   const ids = useMemo(() => [...new Set(history.map((h) => h.clipId))], [history]);
   return (
     <Screen>
-      <TopBar title="Watch history" onBack={() => router.history.back()} />
-      {!data ? <MascotLoader className="flex-1" /> : <ClipGrid ids={ids.filter((id) => data.byId[id])} empty="Clips you watch will show up here." />}
+      <TopBar title={tr("Watch history")} onBack={() => router.history.back()} />
+      {!data ? <MascotLoader className="flex-1" /> : <ClipGrid ids={ids.filter((id) => data.byId[id])} empty={tr("Clips you watch will show up here.")} />}
     </Screen>
   );
 }

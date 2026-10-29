@@ -3,6 +3,7 @@ import { useRouter } from "@tanstack/react-router";
 import type { LegalDoc } from "@/lib/legal";
 
 import { Screen, TopBar } from "./ui";
+import { tr } from "@/lib/i18n";
 
 /** Legal page (Privacy / Terms) — layout mirrored by mobile/lib/screens/legal.dart; copy lives
  * in src/lib/legal.ts. Lines starting with "• " render as bullet points. */
@@ -12,7 +13,7 @@ export function LegalPage({ doc }: { doc: LegalDoc }) {
     <Screen>
       <TopBar title={doc.title} onBack={() => (router.history.canGoBack() ? router.history.back() : void router.navigate({ to: "/settings" }))} />
       <article className="px-5 pb-12 pt-2">
-        <p className="text-[0.8125rem] font-bold text-faint">Last updated: {doc.updated}</p>
+        <p className="text-[0.8125rem] font-bold text-faint">{tr("Last updated: {updated}", { updated: doc.updated })}</p>
         <p className="mt-3 text-[0.9375rem] leading-relaxed text-muted-foreground">{doc.intro}</p>
         {doc.sections.map((s) => (
           <section key={s.h} className="mt-7">

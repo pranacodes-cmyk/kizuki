@@ -21,6 +21,7 @@ import '../widgets/lively_mascot.dart';
 import '../widgets/onboarding_back.dart';
 import '../widgets/toast.dart';
 import '../widgets/ui.dart';
+import '../i18n/i18n.dart';
 
 /// 3-step free-trial pitch — mirrors src/routes/trial.tsx. Purchases go through RevenueCat
 /// (services/billing.dart); test builds simulate the store.
@@ -61,7 +62,7 @@ class _TrialScreenState extends State<TrialScreen> {
     } catch (e) {
       debugPrint('KIZUKI_ERROR purchase: $e');
       if (mounted) setState(() => busy = false);
-      toast('Purchase didn\'t go through', description: 'Nothing was charged. Please try again.', tone: ToastTone.error);
+      toast(tr('Purchase didn\'t go through'), description: tr('Nothing was charged. Please try again.'), tone: ToastTone.error);
       return;
     }
     if (r == StoreResult.done) _purchased(app);
@@ -69,13 +70,13 @@ class _TrialScreenState extends State<TrialScreen> {
     if (r == StoreResult.cancelled) return setState(() => busy = false); // closed the store sheet
     if (r == StoreResult.none) {
       setState(() => busy = false);
-      toast('Purchase is pending', description: 'The store is still confirming it. Premium unlocks as soon as it does.');
+      toast(tr('Purchase is pending'), description: tr('The store is still confirming it. Premium unlocks as soon as it does.'));
       return;
     }
     if (r == StoreResult.unavailable) {
       if (!Billing.simulate && !kDebugMode) {
         setState(() => busy = false);
-        toast('Store not available', description: 'Check your connection and store account, then try again.', tone: ToastTone.error);
+        toast(tr('Store not available'), description: tr('Check your connection and store account, then try again.'), tone: ToastTone.error);
         return;
       }
       await Future<void>.delayed(const Duration(milliseconds: 900)); // test builds: store stand-in
@@ -86,7 +87,7 @@ class _TrialScreenState extends State<TrialScreen> {
     setState(() => busy = false);
     Haptics.celebrate();
     final trial = app.premium.trialEndsAt != null;
-    toast(purchaseToast(trial ? OnboardingSettings.trialDayCount : 0), description: 'Everything in Kizuki is unlocked.', icon: '🎉');
+    toast(purchaseToast(trial ? OnboardingSettings.trialDayCount : 0), description: tr('Everything in Kizuki is unlocked.'), icon: '🎉');
     if (trial) unawaited(NotificationService.requestPermission());
     context.go('/account?mode=signin');
   }
@@ -99,11 +100,11 @@ class _TrialScreenState extends State<TrialScreen> {
     if (!mounted) return;
     setState(() => busy = false);
     if (r == StoreResult.unavailable) {
-      return toast('Couldn\'t reach the store', description: 'Check your connection and try again.', tone: ToastTone.error);
+      return toast(tr('Couldn\'t reach the store'), description: tr('Check your connection and try again.'), tone: ToastTone.error);
     }
-    if (r != StoreResult.done) return toast('No subscription found', description: 'Use the same store account you bought with.');
+    if (r != StoreResult.done) return toast(tr('No subscription found'), description: tr('Use the same store account you bought with.'));
     Haptics.success();
-    toast('Purchase restored', icon: '🎉');
+    toast(tr('Purchase restored'), icon: '🎉');
     context.go('/account?mode=signin');
   }
 
@@ -190,10 +191,10 @@ Widget _pinned({required List<Widget> body, required List<Widget> footer, CrossA
       Padding(padding: const EdgeInsets.fromLTRB(24, 8, 24, 8), child: Column(mainAxisSize: MainAxisSize.min, children: footer)),
     ]);
 
-Widget _noPayment([String text = 'No payment due now']) => Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+Widget _noPayment([String? text]) => Row(mainAxisAlignment: MainAxisAlignment.center, children: [
       const Icon(LucideIcons.check, size: 20, color: T.success),
       const SizedBox(width: 8),
-      Flexible(child: Text(text, textAlign: TextAlign.center, style: txt(15, w: FontWeight.w800))),
+      Flexible(child: Text(text ?? tr('No payment due now'), textAlign: TextAlign.center, style: txt(15, w: FontWeight.w800))),
     ]);
 
 class _StepTry extends StatelessWidget {
@@ -209,8 +210,8 @@ class _StepTry extends StatelessWidget {
           const SizedBox(height: 16),
           Text.rich(
             days > 0
-                ? TextSpan(children: [const TextSpan(text: 'Try Kizuki '), TextSpan(text: 'free', style: txt(26, w: FontWeight.w900, c: T.primary)), TextSpan(text: ' for $days days')])
-                : TextSpan(children: [const TextSpan(text: 'Learn with Kizuki '), TextSpan(text: 'Premium', style: txt(26, w: FontWeight.w900, c: T.primary))]),
+                ? TextSpan(children: trSpans('Try Kizuki [free] for {days} days', txt(26, w: FontWeight.w900, c: T.primary), {'days': days}))
+                : TextSpan(children: trSpans('Learn with Kizuki [Premium]', txt(26, w: FontWeight.w900, c: T.primary))),
             textAlign: TextAlign.center,
             style: txt(26, w: FontWeight.w900, h: 1.2),
           ),
@@ -225,7 +226,7 @@ class _StepTry extends StatelessWidget {
                       decoration: BoxDecoration(color: T.stage, borderRadius: BorderRadius.circular(32), border: Border.all(color: T.surface3, width: 6)),
                       clipBehavior: Clip.antiAlias,
                       child: context.watch<AppState>().onboarded
-                          ? Center(child: Text('Renew Premium to keep learning', textAlign: TextAlign.center, style: txt(18, w: FontWeight.w800)))
+                          ? Center(child: Text(tr('Renew Premium to keep learning'), textAlign: TextAlign.center, style: txt(18, w: FontWeight.w800)))
                           : const FeedPreview(),
                     ),
                   ),
@@ -235,9 +236,9 @@ class _StepTry extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 24),
-          _noPayment(days > 0 ? 'No payment due now' : 'Cancel anytime'),
+          _noPayment(days > 0 ? tr('No payment due now') : tr('Cancel anytime')),
           const SizedBox(height: 12),
-          Button3D(label: days > 0 ? r'Try for $0.00' : 'See plans', onPressed: onNext),
+          Button3D(label: days > 0 ? tr('Try for \$0.00') : tr('See plans'), onPressed: onNext),
           const SizedBox(height: 12),
           Text(priceLine(plans['yearly']!, days: days), textAlign: TextAlign.center, style: txt(13, w: FontWeight.w400, c: T.muted)),
           const SizedBox(height: 8),
@@ -278,7 +279,7 @@ class _StepRemindState extends State<_StepRemind> with SingleTickerProviderState
     return _pinned(
       body: [
         const SizedBox(height: 16),
-        Text("We'll remind you before your trial ends", textAlign: TextAlign.center, style: txt(26, w: FontWeight.w900, h: 1.2)),
+        Text(tr("We'll remind you before your trial ends"), textAlign: TextAlign.center, style: txt(26, w: FontWeight.w900, h: 1.2)),
         const SizedBox(height: 28),
         AnimatedBuilder(
           animation: _ring,
@@ -314,8 +315,8 @@ class _StepRemindState extends State<_StepRemind> with SingleTickerProviderState
                 child: Padding(
                   padding: EdgeInsets.only(bottom: i < items.length - 1 ? 24 : 0),
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    Text(items[i].$1, style: txt(16, w: FontWeight.w800)),
-                    Text(items[i].$2, style: txt(14, w: FontWeight.w400, c: T.muted)),
+                    Text(tr(items[i].$1), style: txt(16, w: FontWeight.w800)),
+                    Text(tr(items[i].$2), style: txt(14, w: FontWeight.w400, c: T.muted)),
                   ]),
                 ),
               ),
@@ -325,7 +326,7 @@ class _StepRemindState extends State<_StepRemind> with SingleTickerProviderState
       footer: [
         _noPayment(),
         const SizedBox(height: 12),
-        Button3D(label: 'Continue for free', onPressed: widget.onNext),
+        Button3D(label: tr('Continue for free'), onPressed: widget.onNext),
       ],
     );
   }
@@ -337,7 +338,7 @@ class _StepPlans extends StatelessWidget {
   final bool busy;
   final VoidCallback onStart, onSkip, onRestore;
   const _StepPlans({required this.plan, required this.setPlan, required this.busy, required this.onStart, required this.onSkip, required this.onRestore});
-  static const perks = ['Unlimited clips, every level', 'Tap any word for an explanation in context', 'Unlimited questions to Kizuki, your AI tutor', 'Smart reviews with the original audio', 'Hiragana & katakana trainer', 'Streaks, goals and progress stats'];
+  static List<String> get perks => [tr('Unlimited clips, every level'), tr('Tap any word for an explanation in context'), tr('Unlimited questions to Kizuki, your AI tutor'), tr('Smart reviews with the original audio'), tr('Hiragana & katakana trainer'), tr('Streaks, goals and progress stats')];
   @override
   Widget build(BuildContext context) {
     final days = plan == 'yearly' && Billing.trialEligible ? OnboardingSettings.trialDayCount : 0;
@@ -352,7 +353,7 @@ class _StepPlans extends StatelessWidget {
           const SizedBox(width: 12),
           Expanded(
             child: Text.rich(
-              TextSpan(children: [const TextSpan(text: 'Unlock everything in '), TextSpan(text: 'Kizuki', style: txt(24, w: FontWeight.w900, c: T.primary))]),
+              TextSpan(children: trSpans('Unlock everything in [Kizuki]', txt(24, w: FontWeight.w900, c: T.primary))),
               style: txt(24, w: FontWeight.w900, h: 1.2),
             ),
           ),
@@ -365,7 +366,7 @@ class _StepPlans extends StatelessWidget {
             setPlan(id);
           })),
         const SizedBox(height: 20),
-        caps('Everything in Premium'),
+        caps(tr('Everything in Premium')),
         const SizedBox(height: 10),
         for (final p in perks)
           Padding(
@@ -376,27 +377,27 @@ class _StepPlans extends StatelessWidget {
       footer: [
         _noPayment(trialBadge(days)),
         const SizedBox(height: 8),
-        Button3D(label: busy ? 'Starting…' : trialCta(days), onPressed: busy ? null : onStart),
+        Button3D(label: busy ? tr('Starting…') : trialCta(days), onPressed: busy ? null : onStart),
         const SizedBox(height: 8),
-        Text('${priceLine(plans[plan]!, days: days)}. Renews automatically, cancel anytime in your store settings.', textAlign: TextAlign.center, style: txt(12, w: FontWeight.w400, c: T.faint)),
+        Text(tr('{priceLine}. Renews automatically, cancel anytime in your store settings.', {'priceLine': priceLine(plans[plan]!, days: days)}), textAlign: TextAlign.center, style: txt(12, w: FontWeight.w400, c: T.faint)),
         // Wrap, not Row: with large system text sizes these lines must flow, never overflow.
         SizedBox(
           width: double.infinity,
           child: Wrap(alignment: WrapAlignment.center, spacing: 8, children: [
-            TextButton(style: small, onPressed: busy ? null : onRestore, child: Text('Restore purchase', style: txt(13, w: FontWeight.w700, c: T.muted))),
-            TextButton(style: small, onPressed: busy ? null : onSkip, child: Text('Not now', style: txt(13, w: FontWeight.w700, c: T.muted))),
+            TextButton(style: small, onPressed: busy ? null : onRestore, child: Text(tr('Restore purchase'), style: txt(13, w: FontWeight.w700, c: T.muted))),
+            TextButton(style: small, onPressed: busy ? null : onSkip, child: Text(tr('Not now'), style: txt(13, w: FontWeight.w700, c: T.muted))),
             // Store reviewers finish onboarding, then sign in here; hidden unless the server switch is on.
             if (OnboardingSettings.reviewSignIn)
-              TextButton(key: const ValueKey('paywall-signin'), style: small, onPressed: busy ? null : () => context.push('/account?mode=signin'), child: Text('I already have an account', style: txt(13, w: FontWeight.w700, c: T.muted))),
+              TextButton(key: const ValueKey('paywall-signin'), style: small, onPressed: busy ? null : () => context.push('/account?mode=signin'), child: Text(tr('I already have an account'), style: txt(13, w: FontWeight.w700, c: T.muted))),
           ]),
         ),
         // Store rules: subscription screens link the Terms of Use and Privacy Policy.
         SizedBox(
           width: double.infinity,
           child: Wrap(alignment: WrapAlignment.center, crossAxisAlignment: WrapCrossAlignment.center, children: [
-            GestureDetector(onTap: () => context.push('/terms'), child: Text('Terms of Use', style: link)),
+            GestureDetector(onTap: () => context.push('/terms'), child: Text(tr('Terms of Use'), style: link)),
             Text('  ·  ', style: txt(12, w: FontWeight.w400, c: T.faint)),
-            GestureDetector(onTap: () => context.push('/privacy'), child: Text('Privacy Policy', style: link)),
+            GestureDetector(onTap: () => context.push('/privacy'), child: Text(tr('Privacy Policy'), style: link)),
           ]),
         ),
       ],
@@ -433,13 +434,13 @@ class _PlanCard extends StatelessWidget {
                 const SizedBox(width: 12),
                 Expanded(
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    Text(p.label, style: txt(16, w: FontWeight.w800)),
-                    Text(p.sub, style: txt(13, w: FontWeight.w400, c: T.muted)),
+                    Text(tr(p.label), style: txt(16, w: FontWeight.w800)),
+                    Text(planSub(p), style: txt(13, w: FontWeight.w400, c: T.muted)),
                   ]),
                 ),
                 Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
                   Text(p.perMonth, style: txt(16, w: FontWeight.w900)),
-                  Text('per month', style: txt(11, w: FontWeight.w700, c: T.muted)),
+                  Text(tr('per month'), style: txt(11, w: FontWeight.w700, c: T.muted)),
                 ]),
               ]),
             ),
@@ -450,7 +451,7 @@ class _PlanCard extends StatelessWidget {
                 child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 2),
                   decoration: BoxDecoration(color: T.primary, borderRadius: BorderRadius.circular(99)),
-                  child: Text(p.badge!.toUpperCase(), style: txt(11, w: FontWeight.w900, c: T.primaryFg, ls: 1)),
+                  child: Text(planBadge(p)!.toUpperCase(), style: txt(11, w: FontWeight.w900, c: T.primaryFg, ls: 1)),
                 ),
               ),
           ]),

@@ -9,6 +9,7 @@ import '../theme/tokens.dart';
 import '../widgets/clip_card.dart';
 import '../widgets/common.dart';
 import '../widgets/ui.dart';
+import '../i18n/i18n.dart';
 
 void _back(BuildContext context) => context.canPop() ? context.pop() : context.go('/profile');
 
@@ -22,8 +23,8 @@ class HistoryScreen extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         child: Column(children: [
-          TopBar(title: 'Watch history', onBack: () => _back(context)),
-          Expanded(child: ContentBuilder(builder: (_, c) => ClipGrid(content: c, ids: ids.where((id) => c.byId.containsKey(id)).toList(), empty: 'Clips you watch will show up here.'))),
+          TopBar(title: tr('Watch history'), onBack: () => _back(context)),
+          Expanded(child: ContentBuilder(builder: (_, c) => ClipGrid(content: c, ids: ids.where((id) => c.byId.containsKey(id)).toList(), empty: tr('Clips you watch will show up here.')))),
         ]),
       ),
     );
@@ -39,8 +40,8 @@ class SavedScreen extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         child: Column(children: [
-          TopBar(title: 'Saved clips', onBack: () => _back(context)),
-          Expanded(child: ContentBuilder(builder: (_, c) => ClipGrid(content: c, ids: saved.where((id) => c.byId.containsKey(id)).toList(), empty: 'Tap the bookmark on any clip to save it here.'))),
+          TopBar(title: tr('Saved clips'), onBack: () => _back(context)),
+          Expanded(child: ContentBuilder(builder: (_, c) => ClipGrid(content: c, ids: saved.where((id) => c.byId.containsKey(id)).toList(), empty: tr('Tap the bookmark on any clip to save it here.')))),
         ]),
       ),
     );
@@ -57,8 +58,8 @@ class AchievementsScreen extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         child: Column(children: [
-          TopBar(title: 'Achievements', onBack: () => _back(context)),
-          Padding(padding: const EdgeInsets.fromLTRB(20, 0, 20, 12), child: Text('$unlocked of ${achievements.length} unlocked', style: txt(15, w: FontWeight.w700, c: T.muted))),
+          TopBar(title: tr('Achievements'), onBack: () => _back(context)),
+          Padding(padding: const EdgeInsets.fromLTRB(20, 0, 20, 12), child: Text(tr('{unlocked} of {total} unlocked', {'unlocked': unlocked, 'total': achievements.length}), style: txt(15, w: FontWeight.w700, c: T.muted))),
           Expanded(
             child: GridView.builder(
               padding: const EdgeInsets.fromLTRB(16, 0, 16, 40),
@@ -82,8 +83,8 @@ class AchievementsScreen extends StatelessWidget {
                       if (!done) const Icon(LucideIcons.lock, size: 16, color: T.faint),
                     ]),
                     const SizedBox(height: 8),
-                    Text(a.title, style: txt(15, w: FontWeight.w800)),
-                    Text(a.desc, maxLines: 2, overflow: TextOverflow.ellipsis, style: txt(12, w: FontWeight.w400, c: T.muted)),
+                    Text(tr(a.title), style: txt(15, w: FontWeight.w800)),
+                    Text(tr(a.desc), maxLines: 2, overflow: TextOverflow.ellipsis, style: txt(12, w: FontWeight.w400, c: T.muted)),
                     const Spacer(),
                     if (!done) ...[
                       ClipRRect(borderRadius: BorderRadius.circular(99), child: LinearProgressIndicator(value: v / a.goal, minHeight: 6, backgroundColor: T.surface2, color: T.primary)),

@@ -1,14 +1,16 @@
 import { useQuery } from "@tanstack/react-query";
 
 import { loadContent, rankClips, type Content } from "./content";
-import { jlptIndex, rankFeed, starterFeedOrder } from "./logic";
+import { useLang } from "./i18n";
+import { jlptIndex, rankFeed, starterFeedOrder, type LangCode } from "./logic";
 import type { PersistedState } from "./store";
 
-export const contentQuery = { queryKey: ["content"], queryFn: loadContent, staleTime: Infinity, gcTime: Infinity } as const;
+/** The library in one language (each loaded once). */
+export const contentQuery = (lang: LangCode) => ({ queryKey: ["content", lang], queryFn: () => loadContent(lang), staleTime: Infinity, gcTime: Infinity }) as const;
 
-/** Content library (clips + dictionary), loaded once. */
+/** Content library (clips + dictionary) in the app language. */
 export function useContent() {
-  return useQuery(contentQuery);
+  return useQuery(contentQuery(useLang()));
 }
 
 const personalOrder = (c: Content, s: Pick<PersistedState, "profile" | "seen" | "feedSeed">) =>

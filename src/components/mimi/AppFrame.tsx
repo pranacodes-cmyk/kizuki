@@ -6,11 +6,13 @@ import { useHydrated } from "@/hooks/use-hydrated";
 import { SPLASH_FACE, SPLASH_FADE_MS, SPLASH_MS, SPLASH_REDUCED_MS, SPLASH_WORD, splashFrame } from "@/lib/mascot-motion";
 import { useUI } from "@/lib/ui-store";
 import { cn } from "@/lib/utils";
+import { StaticRouteContent } from "@/components/mimi/StaticRouteContent";
 import { loadYouTubeApi } from "@/lib/youtube";
 import { refreshOnboardingSettings } from '@/lib/onboarding-settings';
 import { preloadTrial } from '@/lib/trial-preload';
 
 import { Mascot } from "./Mascot";
+import { tr, useLang } from "@/lib/i18n";
 
 /**
  * Renders the app inside an Android device frame on desktop, full-bleed on phones.
@@ -18,6 +20,8 @@ import { Mascot } from "./Mascot";
  */
 export function AppFrame({ children }: { children: ReactNode }) {
   const hydrated = useHydrated();
+  // A new app language redraws every screen (tr() reads it while rendering) — main.dart does the same.
+  const lang = useLang();
   const [splashDone, setSplashDone] = useState(false);
 
   useEffect(() => {
@@ -44,7 +48,7 @@ export function AppFrame({ children }: { children: ReactNode }) {
         )}
       >
         <StatusBar />
-        <div className="absolute inset-0">{hydrated ? children : null}</div>
+        <div key={lang} className="absolute inset-0">{hydrated ? children : <StaticRouteContent />}</div>
         <div id="overlay-root" className="pointer-events-none absolute inset-0 z-[60]" />
         {/* Welcome tour: above sheets so it can spotlight the word card, below toasts. */}
         <div id="tour-root" className="pointer-events-none absolute inset-0 z-[65]" />
@@ -58,15 +62,21 @@ export function AppFrame({ children }: { children: ReactNode }) {
 
 function StageBackdrop() { return null; }
 
+/** English during server render + hydration (the language lives in browser storage), then the app language. */
+function useTr() {
+  const hydrated = useHydrated();
+  return (en: string) => (hydrated ? tr(en) : en);
+}
+
 function StageCaption() {
+  const tr = useTr();
   return (
     <div className="pointer-events-none absolute left-10 top-1/2 z-0 hidden w-[300px] -translate-y-1/2 xl:block">
       <Mascot pose="listen" className="mb-4 h-28 w-28" />
-      <p className="text-[2.75rem] font-black leading-none tracking-tight text-foreground">Kizuki</p>
-      <p className="mt-2 text-[1.2rem] font-bold text-primary">Learn Japanese from real clips.</p>
+      <p className="text-[2.75rem] font-black leading-none tracking-tight text-foreground">{tr("Kizuki")}</p>
+      <p className="mt-2 text-[1.2rem] font-bold text-primary">{tr("Learn Japanese from real clips.")}</p>
       <p className="mt-5 text-[0.9375rem] leading-relaxed text-muted-foreground">
-        Short scenes from anime, dramas, vlogs and street interviews — tap any word for its meaning, save it, and review it with the original audio. Interactive Android app prototype.
-      </p>
+        {tr("Short scenes from anime, dramas, vlogs and street interviews — tap any word for its meaning, save it, and review it with the original audio. Interactive Android app prototype.")}</p>
     </div>
   );
 }
@@ -99,6 +109,7 @@ const EASE_OUT_CUBIC = [0.33, 1, 0.68, 1] as const;
  * choreography: squash-and-pop, two orange "click" ripples, the wordmark letter by letter.
  */
 function Splash() {
+  const tr = useTr();
   const reduced = useRef(false);
   const face = useRef<HTMLDivElement>(null);
   const glow = useRef<HTMLDivElement>(null);
@@ -156,8 +167,7 @@ function Splash() {
           ))}
         </p>
         <p ref={tagline} className="mt-2 whitespace-nowrap text-[0.875rem] font-bold text-muted-foreground" style={{ opacity: 0 }}>
-          <span className="font-jp text-primary">気づき</span>&nbsp;&nbsp;·&nbsp;&nbsp;the moment it clicks
-        </p>
+          <span className="font-jp text-primary">気づき</span>&nbsp;&nbsp;·&nbsp;&nbsp;{tr("the moment it clicks")}</p>
       </div>
     </motion.div>
   );
@@ -185,9 +195,9 @@ function Toasts() {
           >
             {t.icon && <span className="text-[1.6rem] leading-none">{t.icon}</span>}
             <span className="min-w-0 flex-1">
-              {t.tone === "achievement" && <span className="block text-[0.6875rem] font-black uppercase tracking-[0.12em] text-gold">Achievement unlocked</span>}
-              <span className="block text-[0.9375rem] font-extrabold">{t.title}</span>
-              {t.description && <span className="mt-0.5 block text-[0.8125rem] text-muted-foreground">{t.description}</span>}
+              {t.tone === "achievement" && <span className="block text-[0.6875rem] font-black uppercase tracking-[0.12em] text-gold">{tr("Achievement unlocked")}</span>}
+              <span className="block text-[0.9375rem] font-extrabold">{tr(t.title)}</span>
+              {t.description && <span className="mt-0.5 block text-[0.8125rem] text-muted-foreground">{tr(t.description)}</span>}
             </span>
           </motion.button>
         ))}

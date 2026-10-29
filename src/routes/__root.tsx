@@ -18,6 +18,8 @@ import { AppFrame } from "@/components/mimi/AppFrame";
 import { Mascot } from "@/components/mimi/Mascot";
 import { useApp } from "@/lib/store";
 import { learningPath, onboardingPath, purchaseNeedsAccount, subscriptionAccess } from "@/lib/logic";
+import { tr, useLang } from "@/lib/i18n";
+import { scheduleLocaleSync } from "@/lib/locale-pack";
 import { useTour } from "@/lib/tour-store";
 import { Button } from "@/components/mimi/ui";
 import { AppEffects } from "@/components/mimi/AppEffects";
@@ -93,7 +95,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "dns-prefetch", href: "https://s.ytimg.com" },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Nunito:wght@400;600;700;800;900&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Nunito:wght@400;600;700;800;900&family=Noto+Sans+Thai:wght@400;600;700;800;900&family=Noto+Sans+KR:wght@400;600;700;800;900&family=Noto+Color+Emoji&display=swap",
       },
       { rel: "stylesheet", href: appCss },
       { rel: "icon", type: "image/png", href: "/favicon.png" },
@@ -155,14 +157,17 @@ function SubscriptionBoundary({ children }: { children: ReactNode }) {
   useEffect(() => {
     if (!access && onboarded) { useTour.getState().reset(); useTour.getState().closeSheets(); }
   }, [access, onboarded]);
+  // The full language pack downloads only once learning access exists (trial or Premium).
+  const lang = useLang();
+  useEffect(() => { scheduleLocaleSync(lang, access); }, [lang, access]);
   if (!blocked) return <>{children}{access && <TourHost />}</>;
   return <div className="absolute inset-0 flex flex-col items-center justify-center bg-background px-6 text-center">
     <Mascot pose="heart" className="h-28 w-28" />
-    <h1 className="mt-4 text-2xl font-black">Keep learning with Premium</h1>
-    <p className="mt-2 text-muted-foreground">Your access has ended. Renew or restore your subscription to continue. Your saved words and progress are safe.</p>
-    <div className="mt-6 w-full"><Button onClick={() => void router.navigate({ to: "/trial" })}>See plans</Button></div>
-    <div className="mt-3 w-full"><Button variant="surface" onClick={() => void router.navigate({ to: "/settings" })}>Settings & restore purchase</Button></div>
-    <Link to="/support" className="mt-5 text-sm text-muted-foreground">Get help</Link>
+    <h1 className="mt-4 text-2xl font-black">{tr("Keep learning with Premium")}</h1>
+    <p className="mt-2 text-muted-foreground">{tr("Your access has ended. Renew or restore your subscription to continue. Your saved words and progress are safe.")}</p>
+    <div className="mt-6 w-full"><Button onClick={() => void router.navigate({ to: "/trial" })}>{tr("See plans")}</Button></div>
+    <div className="mt-3 w-full"><Button variant="surface" onClick={() => void router.navigate({ to: "/settings" })}>{tr("Settings & restore purchase")}</Button></div>
+    <Link to="/support" className="mt-5 text-sm text-muted-foreground">{tr("Get help")}</Link>
   </div>;
 }
 
@@ -173,8 +178,8 @@ function PurchaseAccountBoundary({ children }: { children: ReactNode }) {
   if (!purchaseNeedsAccount(pending, false) || allowed) return children;
   return <div className="flex h-full flex-col items-center justify-center bg-background px-6 text-center">
     <Mascot pose="heart" className="h-24 w-24" />
-    <h1 className="mt-4 text-2xl font-black">Your purchase is saved</h1>
-    <p className="mt-2 text-muted-foreground">Sign in to continue with Kizuki.</p>
-    <Link to="/account" search={{ mode: "signin" }} className="btn-3d mt-6 flex h-14 w-full items-center justify-center rounded-2xl bg-primary font-extrabold text-primary-foreground">Continue to sign in</Link>
+    <h1 className="mt-4 text-2xl font-black">{tr("Your purchase is saved")}</h1>
+    <p className="mt-2 text-muted-foreground">{tr("Sign in to continue with Kizuki.")}</p>
+    <Link to="/account" search={{ mode: "signin" }} className="btn-3d mt-6 flex h-14 w-full items-center justify-center rounded-2xl bg-primary font-extrabold text-primary-foreground">{tr("Continue to sign in")}</Link>
   </div>;
 }

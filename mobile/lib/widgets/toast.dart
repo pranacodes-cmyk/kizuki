@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import '../services/haptics.dart';
 import '../theme/tokens.dart';
 import 'ui.dart';
+import '../i18n/i18n.dart';
 
 /// Top toasts (incl. "Achievement unlocked") — mirrors Toasts in AppFrame.tsx.
 enum ToastTone { normal, achievement, error }
@@ -93,9 +94,9 @@ class _ToastCard extends StatelessWidget {
               if (t.icon != null) Padding(padding: const EdgeInsets.only(right: 12), child: Text(t.icon!, style: const TextStyle(fontSize: 26))),
               Expanded(
                 child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
-                  if (t.tone == ToastTone.achievement) caps('Achievement unlocked', c: T.gold),
-                  Text(t.title, style: txt(15, w: FontWeight.w800)),
-                  if (t.description != null) Text(t.description!, style: txt(13, w: FontWeight.w400, c: T.muted)),
+                  if (t.tone == ToastTone.achievement) caps(tr('Achievement unlocked'), c: T.gold),
+                  Text(tr(t.title), style: txt(15, w: FontWeight.w800)),
+                  if (t.description != null) Text(tr(t.description!), style: txt(13, w: FontWeight.w400, c: T.muted)),
                 ]),
               ),
             ]),

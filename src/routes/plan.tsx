@@ -12,6 +12,7 @@ import { goalDateLabel, planItems, onboardingAfterPlan } from "@/lib/logic";
 import { prefetchFounderVideo, refreshOnboardingSettings } from '@/lib/onboarding-settings';
 import { preloadTrial } from '@/lib/trial-preload';
 import { useApp } from "@/lib/store";
+import { tr } from "@/lib/i18n";
 
 export const Route = createFileRoute("/plan")({
   head: () => ({
@@ -52,9 +53,9 @@ function Plan() {
       <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} className="pt-6 text-center">
         <LivelyMascot pose="cheer" size={80} entrance hopAfter={450} tappable className="mx-auto" />
         <h1 className="mt-3 text-[1.625rem] font-black leading-tight">
-          {profile.name ? `${profile.name}, your plan is ready!` : "Your plan is ready!"}
+          {profile.name ? tr("{name}, your plan is ready!", { name: profile.name }) : tr("Your plan is ready!")}
         </h1>
-        <div className="mt-3 flex justify-center"><Pill tone="success">🇯🇵 Conversational by {goalDateLabel(new Date(), profile.fluencyMonths)}</Pill></div>
+        <div className="mt-3 flex justify-center"><Pill tone="success">{tr("🇯🇵 Conversational by {date}", { date: goalDateLabel(new Date(), profile.fluencyMonths) })}</Pill></div>
       </motion.div>
 
       <div className="mt-6 space-y-3">
@@ -62,8 +63,8 @@ function Plan() {
           <motion.div key={it.title} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 + i * 0.08 }} className="flex items-center gap-4 rounded-2xl bg-surface px-4 py-3.5">
             <span className="text-[1.75rem]">{it.icon}</span>
             <span className="min-w-0">
-              <span className="block text-[1rem] font-extrabold">{it.title}</span>
-              <span className="block text-[0.8125rem] text-muted-foreground">{it.body}</span>
+              <span className="block text-[1rem] font-extrabold">{tr(it.title)}</span>
+              <span className="block text-[0.8125rem] text-muted-foreground">{tr(it.body)}</span>
             </span>
           </motion.div>
         ))}
@@ -71,7 +72,7 @@ function Plan() {
 
       {first.length > 0 && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6 }} className="mt-6">
-          <p className="mb-2 text-[0.8125rem] font-black uppercase tracking-[0.12em] text-muted-foreground">Your first clips</p>
+          <p className="mb-2 text-[0.8125rem] font-black uppercase tracking-[0.12em] text-muted-foreground">{tr("Your first clips")}</p>
           <div className="grid grid-cols-3 gap-2">
             {first.map((c) => (
               <div key={c.id} className="overflow-hidden rounded-xl bg-surface">
@@ -85,7 +86,7 @@ function Plan() {
 
       </div>
       <div className="shrink-0 bg-background pb-2 pt-3">
-        <Button onClick={async () => { const enabled = await refreshOnboardingSettings(); void navigate({ to: onboardingAfterPlan(enabled) }); }}>Continue</Button>
+        <Button onClick={async () => { const enabled = await refreshOnboardingSettings(); void navigate({ to: onboardingAfterPlan(enabled) }); }}>{tr("Continue")}</Button>
       </div>
     </Screen>
   );

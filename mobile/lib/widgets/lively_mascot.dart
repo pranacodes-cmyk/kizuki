@@ -5,6 +5,7 @@ import '../services/haptics.dart';
 import '../theme/mascot_motion.dart';
 import '../theme/tokens.dart';
 import 'ui.dart';
+import '../i18n/i18n.dart';
 
 /// Motion widgets — mirrored from LivelyMascot / Pop / FadeUp in src/components/mimi/Mascot.tsx.
 /// Every frame comes from the shared math in theme/mascot_motion.dart.
@@ -212,7 +213,7 @@ class _LivelyMascotState extends State<LivelyMascot> with SingleTickerProviderSt
     if (widget.tappable) {
       body = Semantics(
         button: true,
-        label: 'Kizuki the fox',
+        label: tr('Kizuki the fox'),
         child: GestureDetector(
           behavior: HitTestBehavior.opaque,
           onTap: () {

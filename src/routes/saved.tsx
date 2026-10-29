@@ -4,6 +4,7 @@ import { ClipGrid } from "@/components/mimi/ClipCard";
 import { MascotLoader, Screen, TopBar } from "@/components/mimi/ui";
 import { useContent } from "@/lib/feed";
 import { useApp } from "@/lib/store";
+import { tr } from "@/lib/i18n";
 
 export const Route = createFileRoute("/saved")({
   head: () => ({
@@ -25,8 +26,8 @@ function Saved() {
   const saved = useApp((s) => s.savedClips);
   return (
     <Screen>
-      <TopBar title="Saved clips" onBack={() => router.history.back()} />
-      {!data ? <MascotLoader className="flex-1" /> : <ClipGrid ids={saved.filter((id) => data.byId[id])} empty="Tap the bookmark on any clip to save it here." />}
+      <TopBar title={tr("Saved clips")} onBack={() => router.history.back()} />
+      {!data ? <MascotLoader className="flex-1" /> : <ClipGrid ids={saved.filter((id) => data.byId[id])} empty={tr("Tap the bookmark on any clip to save it here.")} />}
     </Screen>
   );
 }

@@ -15,6 +15,8 @@
 		5A1C0DE01F00000000000002 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5A1C0DE01F00000000000001 /* PrivacyInfo.xcprivacy */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+        A10000000000000000000001 /* KizukiWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000002; };
+        A10000000000000000000003 /* KizukiWidgets.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A10000000000000000000004; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,7 @@
 			remoteGlobalIDString = 97C146ED1CF9000F007C117D;
 			remoteInfo = Runner;
 		};
+        A1000000000000000000000C /* Widget Proxy */ = {isa = PBXContainerItemProxy; containerPortal = 97C146E61CF9000F007C117D; proxyType = 1; remoteGlobalIDString = A1000000000000000000000E; remoteInfo = KizukiWidgets; };
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +41,7 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+        A1000000000000000000000B /* Embed App Extensions */ = {isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 13; files = (A10000000000000000000003, ); name = "Embed App Extensions"; runOnlyForDeploymentPostprocessing = 0; };
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +61,10 @@
 		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        A10000000000000000000002 /* KizukiWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KizukiWidgets.swift; sourceTree = "<group>"; };
+        A10000000000000000000004 /* KizukiWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KizukiWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+        A10000000000000000000005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        A10000000000000000000006 /* KizukiWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KizukiWidgets.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+        A10000000000000000000009 /* Widget Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -92,6 +101,7 @@
 		97C146E51CF9000F007C117D = {
 			isa = PBXGroup;
 			children = (
+				A10000000000000000000007 /* KizukiWidgets */,
 				9740EEB11CF90186004384FC /* Flutter */,
 				97C146F01CF9000F007C117D /* Runner */,
 				97C146EF1CF9000F007C117D /* Products */,
@@ -102,6 +112,7 @@
 		97C146EF1CF9000F007C117D /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				A10000000000000000000004 /* KizukiWidgets.appex */,
 				97C146EE1CF9000F007C117D /* Runner.app */,
 				331C8081294A63A400263BE5 /* RunnerTests.xctest */,
 			);
@@ -124,6 +135,7 @@
 			path = Runner;
 			sourceTree = "<group>";
 		};
+        A10000000000000000000007 /* KizukiWidgets */ = {isa = PBXGroup; children = (A10000000000000000000002, A10000000000000000000005, A10000000000000000000006, ); path = KizukiWidgets; sourceTree = "<group>"; };
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,17 +165,20 @@
 				97C146EB1CF9000F007C117D /* Frameworks */,
 				97C146EC1CF9000F007C117D /* Resources */,
 				9705A1C41CF9048500538489 /* Embed Frameworks */,
+				A1000000000000000000000B /* Embed App Extensions */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+                A1000000000000000000000D,
 			);
 			name = Runner;
 			productName = Runner;
 			productReference = 97C146EE1CF9000F007C117D /* Runner.app */;
 			productType = "com.apple.product-type.application";
 		};
+        A1000000000000000000000E /* KizukiWidgets */ = {isa = PBXNativeTarget; buildConfigurationList = A1000000000000000000000F; buildPhases = (A10000000000000000000008, A10000000000000000000009, A1000000000000000000000A, ); buildRules = (); dependencies = (); name = KizukiWidgets; productName = KizukiWidgets; productReference = A10000000000000000000004; productType = "com.apple.product-type.app-extension"; };
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,6 +212,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+                A1000000000000000000000E /* KizukiWidgets */,
 				97C146ED1CF9000F007C117D /* Runner */,
 				331C8080294A63A400263BE5 /* RunnerTests */,
 			);
@@ -223,6 +239,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+        A1000000000000000000000A /* Widget Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -277,6 +294,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+        A10000000000000000000008 /* Widget Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001, ); runOnlyForDeploymentPostprocessing = 0; };
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -285,6 +303,7 @@
 			target = 97C146ED1CF9000F007C117D /* Runner */;
 			targetProxy = 331C8085294A63A400263BE5 /* PBXContainerItemProxy */;
 		};
+        A1000000000000000000000D /* Widget Dependency */ = {isa = PBXTargetDependency; target = A1000000000000000000000E; targetProxy = A1000000000000000000000C; };
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -596,6 +615,63 @@
 			};
 			name = Release;
 		};
+        A10000000000000000000010 /* Widget Debug */ = {isa = XCBuildConfiguration; baseConfigurationReference = 9740EEB21CF90195004384FC; buildSettings = {
+            APPLICATION_EXTENSION_API_ONLY = YES;
+            CLANG_ENABLE_MODULES = YES;
+            CODE_SIGN_ENTITLEMENTS = KizukiWidgets/KizukiWidgets.entitlements;
+            CODE_SIGN_STYLE = Automatic;
+            CODE_SIGN_IDENTITY = "Apple Development";
+            DEVELOPMENT_TEAM = NN9Q2FQYGP;
+            
+            CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+            MARKETING_VERSION = "$(FLUTTER_BUILD_NAME)";
+            INFOPLIST_FILE = KizukiWidgets/Info.plist;
+            IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+            LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@executable_path/../../Frameworks", );
+            PRODUCT_BUNDLE_IDENTIFIER = com.kizukijapan.app.widgets;
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SKIP_INSTALL = YES;
+            SWIFT_VERSION = 5.0;
+            TARGETED_DEVICE_FAMILY = 1;
+        }; name = Debug; };
+        A10000000000000000000011 /* Widget Release */ = {isa = XCBuildConfiguration; baseConfigurationReference = 7AFA3C8E1D35360C0083082E; buildSettings = {
+            APPLICATION_EXTENSION_API_ONLY = YES;
+            CLANG_ENABLE_MODULES = YES;
+            CODE_SIGN_ENTITLEMENTS = KizukiWidgets/KizukiWidgets.entitlements;
+            CODE_SIGN_STYLE = Manual;
+            CODE_SIGN_IDENTITY = "iPhone Distribution";
+            DEVELOPMENT_TEAM = NN9Q2FQYGP;
+            PROVISIONING_PROFILE_SPECIFIER = "Kizuki Widgets App Store CI";
+            CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+            MARKETING_VERSION = "$(FLUTTER_BUILD_NAME)";
+            INFOPLIST_FILE = KizukiWidgets/Info.plist;
+            IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+            LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@executable_path/../../Frameworks", );
+            PRODUCT_BUNDLE_IDENTIFIER = com.kizukijapan.app.widgets;
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SKIP_INSTALL = YES;
+            SWIFT_VERSION = 5.0;
+            TARGETED_DEVICE_FAMILY = 1;
+        }; name = Release; };
+        A10000000000000000000012 /* Widget Profile */ = {isa = XCBuildConfiguration; baseConfigurationReference = 7AFA3C8E1D35360C0083082E; buildSettings = {
+            APPLICATION_EXTENSION_API_ONLY = YES;
+            CLANG_ENABLE_MODULES = YES;
+            CODE_SIGN_ENTITLEMENTS = KizukiWidgets/KizukiWidgets.entitlements;
+            CODE_SIGN_STYLE = Manual;
+            CODE_SIGN_IDENTITY = "iPhone Distribution";
+            DEVELOPMENT_TEAM = NN9Q2FQYGP;
+            PROVISIONING_PROFILE_SPECIFIER = "Kizuki Widgets App Store CI";
+            CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+            MARKETING_VERSION = "$(FLUTTER_BUILD_NAME)";
+            INFOPLIST_FILE = KizukiWidgets/Info.plist;
+            IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+            LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@executable_path/../../Frameworks", );
+            PRODUCT_BUNDLE_IDENTIFIER = com.kizukijapan.app.widgets;
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SKIP_INSTALL = YES;
+            SWIFT_VERSION = 5.0;
+            TARGETED_DEVICE_FAMILY = 1;
+        }; name = Profile; };
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -629,6 +705,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+        A1000000000000000000000F /* Widget Configuration */ = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000010, A10000000000000000000011, A10000000000000000000012, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
 /* End XCConfigurationList section */
 	};
 	rootObject = 97C146E61CF9000F007C117D /* Project object */;

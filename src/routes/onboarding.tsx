@@ -13,6 +13,7 @@ import { haptic } from "@/lib/haptics";
 import { requestReminderPermission } from "@/lib/reminders";
 import { useApp } from "@/lib/store";
 import { cn } from "@/lib/utils";
+import { tr } from "@/lib/i18n";
 
 export const Route = createFileRoute("/onboarding")({
   head: () => ({
@@ -93,8 +94,8 @@ function Onboarding() {
 function Title({ title, subtitle, children }: { title: string; subtitle?: string; children?: ReactNode }) {
   return (
     <div className="px-6 pt-4">
-      <h1 className="text-[1.625rem] font-black leading-tight">{title}</h1>
-      {subtitle && <p className="mt-2 text-[0.9375rem] text-muted-foreground">{subtitle}</p>}
+      <h1 className="text-[1.625rem] font-black leading-tight">{tr(title)}</h1>
+      {subtitle && <p className="mt-2 text-[0.9375rem] text-muted-foreground">{tr(subtitle)}</p>}
       {children}
     </div>
   );
@@ -131,7 +132,7 @@ function GridCard({ active, emoji, label, onClick }: { active: boolean; emoji: s
         <Check className="h-3.5 w-3.5 text-primary-foreground" strokeWidth={3.5} />
       </motion.span>
       <Pop active={active} className="text-[2rem] leading-none">{emoji}</Pop>
-      <span className="text-[0.9375rem] font-extrabold">{label}</span>
+      <span className="text-[0.9375rem] font-extrabold">{tr(label)}</span>
     </button>
   );
 }
@@ -145,8 +146,8 @@ function ListOption({ active, left, label, hint, onClick }: { active: boolean; l
     >
       <span className="flex h-10 w-10 shrink-0 items-center justify-center text-[1.6rem]"><Pop active={active}>{left}</Pop></span>
       <span className="min-w-0 flex-1">
-        <span className="block text-[1rem] font-extrabold">{label}</span>
-        {hint && <span className="block text-[0.8125rem] text-muted-foreground">{hint}</span>}
+        <span className="block text-[1rem] font-extrabold">{tr(label)}</span>
+        {hint && <span className="block text-[0.8125rem] text-muted-foreground">{tr(hint)}</span>}
       </span>
     </button>
   );
@@ -157,11 +158,11 @@ const toggle = (list: string[], id: string) => (list.includes(id) ? list.filter(
 function Reasons({ value, onChange, onNext }: { value: string[]; onChange: (v: string[]) => void; onNext: () => void }) {
   return (
     <>
-      <Title title="Why do you want to learn Japanese?" subtitle="Pick all that apply — we'll find clips you'll love." />
+      <Title title={tr("Why do you want to learn Japanese?")} subtitle={tr("Pick all that apply — we'll find clips you'll love.")} />
       <div className="mt-5 grid min-h-0 flex-1 auto-rows-[104px] grid-cols-2 content-start gap-3 overflow-y-auto px-6 pb-6 no-scrollbar">
         {reasonOptions.map((o) => <GridCard key={o.id} active={value.includes(o.id)} emoji={o.emoji} label={o.label} onClick={() => onChange(toggle(value, o.id))} />)}
       </div>
-      <Footer><Button disabled={!value.length} onClick={onNext}>Continue</Button></Footer>
+      <Footer><Button disabled={!value.length} onClick={onNext}>{tr("Continue")}</Button></Footer>
     </>
   );
 }
@@ -170,8 +171,8 @@ function Level({ value, onPick }: { value: number; onPick: (v: number) => void }
   const [picked, setPicked] = useState<number | null>(null);
   return (
     <>
-      <Title title="How much Japanese do you know?" subtitle="We'll match clips to your level.">
-        <Pill className="mt-3">You can change this anytime in settings</Pill>
+      <Title title={tr("How much Japanese do you know?")} subtitle={tr("We'll match clips to your level.")}>
+        <Pill className="mt-3">{tr("You can change this anytime in settings")}</Pill>
       </Title>
       <div className="mt-5 space-y-3 overflow-y-auto px-6 no-scrollbar">
         {levelOptions.map((o, idx) => (
@@ -201,7 +202,7 @@ function Challenges({ value, onChange, onNext }: { value: string[]; onChange: (v
   const last = value[value.length - 1];
   return (
     <>
-      <Title title="What's hardest for you right now?" subtitle="Select all that apply." />
+      <Title title={tr("What's hardest for you right now?")} subtitle={tr("Select all that apply.")} />
       <div className="mt-5 grid min-h-0 flex-1 auto-rows-[104px] grid-cols-2 content-start gap-3 overflow-y-auto px-6 pb-6 no-scrollbar">
         {challengeOptions.map((o) => <GridCard key={o.id} active={value.includes(o.id)} emoji={o.emoji} label={o.label} onClick={() => onChange(toggle(value, o.id))} />)}
       </div>
@@ -215,7 +216,7 @@ function Challenges({ value, onChange, onNext }: { value: string[]; onChange: (v
             )}
           </AnimatePresence>
         </div>
-        <Button disabled={!value.length} onClick={onNext}>Continue</Button>
+        <Button disabled={!value.length} onClick={onNext}>{tr("Continue")}</Button>
       </Footer>
     </>
   );
@@ -225,31 +226,31 @@ function Method({ onNext }: { onNext: () => void }) {
   return (
     <>
       <StepBody>
-      <Title title="Learn the way you learned your first language" subtitle="By listening to real people — not by memorising rules." />
+      <Title title={tr("Learn the way you learned your first language")} subtitle={tr("By listening to real people — not by memorising rules.")} />
       <div className="mx-6 mt-6 rounded-3xl bg-surface p-5">
-        <p className="text-[0.8125rem] font-black uppercase tracking-[0.12em] text-muted-foreground">Real Japanese you hear in 10 minutes</p>
+        <p className="text-[0.8125rem] font-black uppercase tracking-[0.12em] text-muted-foreground">{tr("Real Japanese you hear in 10 minutes")}</p>
         <div className="mt-5 flex h-[230px] items-end justify-center gap-8">
           <div className="flex flex-col items-center gap-2">
-            <span className="text-[0.875rem] font-extrabold text-muted-foreground">~10 lines</span>
+            <span className="text-[0.875rem] font-extrabold text-muted-foreground">{tr("~10 lines")}</span>
             <motion.div initial={{ height: 0 }} animate={{ height: 36 }} transition={{ delay: 0.2, duration: 0.6 }} className="w-20 rounded-t-xl bg-surface-3" />
-            <span className="text-[0.8125rem] font-bold text-muted-foreground">Drill apps</span>
+            <span className="text-[0.8125rem] font-bold text-muted-foreground">{tr("Drill apps")}</span>
           </div>
           <div className="flex flex-col items-center gap-1">
-            <span className="text-[0.875rem] font-extrabold text-primary">100+ lines</span>
+            <span className="text-[0.875rem] font-extrabold text-primary">{tr("100+ lines")}</span>
             {/* Rides up with the growing bar, then hops as it lands. */}
             <LivelyMascot pose="cheer" size={48} hopAfter={1200} />
             <motion.div initial={{ height: 0 }} animate={{ height: 130 }} transition={{ delay: 0.35, duration: 0.8, ease: [0.22, 1, 0.36, 1] }} className="w-20 rounded-t-xl bg-primary" />
-            <span className="mt-1 text-[0.8125rem] font-bold text-foreground">With Kizuki</span>
+            <span className="mt-1 text-[0.8125rem] font-bold text-foreground">{tr("With Kizuki")}</span>
           </div>
         </div>
       </div>
       <div className="mx-6 mt-4 space-y-2.5">
         {["Hear real native speed from day one", "Every word explained in its sentence", "Remember words with the original audio"].map((t) => (
-          <p key={t} className="flex items-center gap-2 text-[0.9375rem] font-bold"><Check className="h-4 w-4 text-success" strokeWidth={3} />{t}</p>
+          <p key={t} className="flex items-center gap-2 text-[0.9375rem] font-bold"><Check className="h-4 w-4 text-success" strokeWidth={3} />{tr(t)}</p>
         ))}
       </div>
       </StepBody>
-      <Footer><Button onClick={onNext}>Continue</Button></Footer>
+      <Footer><Button onClick={onNext}>{tr("Continue")}</Button></Footer>
     </>
   );
 }
@@ -258,7 +259,7 @@ function Source({ onPick }: { value: string; onPick: (v: string) => void }) {
   const [picked, setPicked] = useState<string | null>(null);
   return (
     <>
-      <Title title="Where did you hear about Kizuki?" subtitle="Helps us reach more learners like you." />
+      <Title title={tr("Where did you hear about Kizuki?")} subtitle={tr("Helps us reach more learners like you.")} />
       <div className="mt-5 space-y-2.5 overflow-y-auto px-6 pb-4 no-scrollbar">
         {sourceOptions.map((o) => (
           <ListOption key={o.id} active={picked === o.id} left={o.emoji} label={o.label} onClick={() => { setPicked(o.id); onPick(o.id); }} />
@@ -310,13 +311,13 @@ function Fluency({ months, onChange, onNext }: { months: number; onChange: (v: n
   return (
     <>
       <StepBody>
-      <Title title="When do you want to understand Japanese?" subtitle="Set a goal. We'll keep it realistic." />
-      <div className="mt-4 flex justify-center"><Pill tone="success">🇯🇵 Conversational by {date}</Pill></div>
-      <div className="mt-6"><Ring value={months} max={36} color="stroke-success"><span className="text-[3.25rem] font-black leading-none tabular">{months}</span><span className="text-[1rem] font-bold text-muted-foreground">months</span></Ring></div>
+      <Title title={tr("When do you want to understand Japanese?")} subtitle={tr("Set a goal. We'll keep it realistic.")} />
+      <div className="mt-4 flex justify-center"><Pill tone="success">{tr("🇯🇵 Conversational by {date}", { date })}</Pill></div>
+      <div className="mt-6"><Ring value={months} max={36} color="stroke-success"><span className="text-[3.25rem] font-black leading-none tabular">{months}</span><span className="text-[1rem] font-bold text-muted-foreground">{tr("months")}</span></Ring></div>
       <div className="mt-8 px-8"><Slider value={months} min={3} max={36} step={1} onChange={onChange} tone="success" /></div>
-      <div className="mt-2 flex justify-between px-8 text-[0.75rem] font-bold text-faint"><span>3 months</span><span>3 years</span></div>
+      <div className="mt-2 flex justify-between px-8 text-[0.75rem] font-bold text-faint"><span>{tr("3 months")}</span><span>{tr("3 years")}</span></div>
       </StepBody>
-      <Footer><Button onClick={onNext}>Continue</Button></Footer>
+      <Footer><Button onClick={onNext}>{tr("Continue")}</Button></Footer>
     </>
   );
 }
@@ -326,15 +327,15 @@ function Minutes({ minutes, months, onChange, onNext }: { minutes: number; month
   return (
     <>
       <StepBody>
-      <Title title="How much time can you give each day?" subtitle="Consistency beats intensity. Even 5 minutes works." />
-      <div className="mt-4 flex justify-center"><Pill tone="primary">🧠 About {wordsPerMonth(minutes)} new words a month</Pill></div>
-      <div className="mt-6"><Ring value={minutes} max={60} color="stroke-primary"><span className="text-[3.25rem] font-black leading-none tabular">{minutes}</span><span className="text-[1rem] font-bold text-muted-foreground">minutes</span></Ring></div>
+      <Title title={tr("How much time can you give each day?")} subtitle={tr("Consistency beats intensity. Even 5 minutes works.")} />
+      <div className="mt-4 flex justify-center"><Pill tone="primary">{tr("🧠 About {wordsPerMonth} new words a month", { wordsPerMonth: wordsPerMonth(minutes) })}</Pill></div>
+      <div className="mt-6"><Ring value={minutes} max={60} color="stroke-primary"><span className="text-[3.25rem] font-black leading-none tabular">{minutes}</span><span className="text-[1rem] font-bold text-muted-foreground">{tr("minutes")}</span></Ring></div>
       <div className="mt-8 px-8"><Slider value={minutes} min={5} max={60} step={5} onChange={onChange} tone="primary" /></div>
       <div className="mt-4 flex justify-center px-6 text-center">
-        {minutes >= rec ? <Pill tone="success">✓ Enough to reach your {months}-month goal</Pill> : <Pill>{rec} min/day recommended for {months} months</Pill>}
+        {minutes >= rec ? <Pill tone="success">{tr("✓ Enough to reach your {months}-month goal", { months })}</Pill> : <Pill>{tr("{rec} min/day recommended for {months} months", { rec, months })}</Pill>}
       </div>
       </StepBody>
-      <Footer><Button onClick={onNext}>I'm committed</Button></Footer>
+      <Footer><Button onClick={onNext}>{tr("I'm committed")}</Button></Footer>
     </>
   );
 }
@@ -344,14 +345,14 @@ function Window({ value, minutes, onChange, onNext }: { value: string; minutes: 
   return (
     <>
       <StepBody>
-        <Title title={`When can you spend ${minutes} minutes?`} subtitle="We'll send one friendly reminder so you never break your streak." />
+        <Title title={tr("When can you spend {minutes} minutes?", { minutes })} subtitle={tr("We'll send one friendly reminder so you never break your streak.")} />
         <div className="mt-5 space-y-3 px-6">
           {windowOptions.map((o) => <ListOption key={o.id} active={picked && value === o.id} left={o.emoji} label={o.label} hint={o.hint} onClick={() => { setPicked(true); onChange(o.id); }} />)}
         </div>
       </StepBody>
       <Footer>
-        <p className="text-center text-[0.8125rem] text-muted-foreground">Learners with reminders on are far more likely to keep their streak.</p>
-        <Button disabled={!picked} onClick={onNext}>{picked ? `Remind me ${windowLabel(value)}` : "Pick a time"}</Button>
+        <p className="text-center text-[0.8125rem] text-muted-foreground">{tr("Learners with reminders on are far more likely to keep their streak.")}</p>
+        <Button disabled={!picked} onClick={onNext}>{picked ? tr("Remind me {windowLabel}", { windowLabel: windowLabel(value) }) : tr("Pick a time")}</Button>
       </Footer>
     </>
   );
@@ -362,14 +363,14 @@ function Streak({ value, onChange, onNext }: { value: number; onChange: (v: numb
     <>
       <StepBody>
         <div className="flex justify-center pt-2"><LivelyMascot pose="brave" size={112} entrance hopKey={value} tappable /></div>
-        <Title title="Make a promise to yourself" subtitle="Pick a streak goal. Kizuki will cheer you on." />
+        <Title title={tr("Make a promise to yourself")} subtitle={tr("Pick a streak goal. Kizuki will cheer you on.")} />
         <div className="mt-5 space-y-3 px-6">
           {streakOptions.map((o) => (
-            <ListOption key={o.days} active={value === o.days} left={o.emoji} label={`${o.days}-day streak`} hint={o.label} onClick={() => onChange(o.days)} />
+            <ListOption key={o.days} active={value === o.days} left={o.emoji} label={tr("{days}-day streak", { days: o.days })} hint={o.label} onClick={() => onChange(o.days)} />
           ))}
         </div>
       </StepBody>
-      <Footer><Button onClick={onNext}>Commit to {value} days</Button></Footer>
+      <Footer><Button onClick={onNext}>{tr("Commit to {value} days", { value })}</Button></Footer>
     </>
   );
 }

@@ -13,6 +13,7 @@ import '../widgets/saved_word_sheet.dart';
 import '../widgets/tour.dart';
 import '../widgets/ui.dart';
 import '../widgets/word_level.dart';
+import '../i18n/i18n.dart';
 
 final _hira = kanaDeck('hiragana');
 final _kata = kanaDeck('katakana');
@@ -56,7 +57,7 @@ class _VocabScreenState extends State<VocabScreen> {
       if (filter == 'due' && !(w.status == 'learning' && isDue(w.card, now))) return false;
       if (filter == 'learning' && st != 'learning') return false;
       if (filter == 'known' && st != 'known') return false;
-      if (nq.isNotEmpty && ![w.word, w.reading, w.surface].any((f) => normalizeQuery(f).contains(nq)) && !w.romaji.toLowerCase().contains(nq) && !w.gloss.toLowerCase().contains(nq)) return false;
+      if (nq.isNotEmpty && ![w.word, w.reading, w.surface].any((f) => normalizeQuery(f).contains(nq)) && !w.romaji.toLowerCase().contains(nq) && !w.gloss.toLowerCase().contains(nq) && !w.glossIn(content).toLowerCase().contains(nq)) return false;
       return true;
     }).toList();
     final today = dayKey(DateTime.now());
@@ -65,7 +66,7 @@ class _VocabScreenState extends State<VocabScreen> {
     for (final w in list) {
       final d = DateTime.fromMillisecondsSinceEpoch(w.addedAt);
       final k = dayKey(d);
-      final label = k == today ? 'Today' : (k == yest ? 'Yesterday' : DateFormat('MMM d').format(d));
+      final label = k == today ? tr('Today') : (k == yest ? tr('Yesterday') : DateFormat.MMMd().format(d));
       if (groups.isNotEmpty && groups.last.$1 == label) {
         groups.last.$2.add(w);
       } else {
@@ -84,14 +85,14 @@ class _VocabScreenState extends State<VocabScreen> {
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 Text('${counts.known}', style: txt(52, w: FontWeight.w900, h: 1)),
                 const SizedBox(height: 4),
-                Text('Words you know', style: txt(16, w: FontWeight.w800, c: T.muted)),
+                Text(tr('Words you know'), style: txt(16, w: FontWeight.w800, c: T.muted)),
               ]),
             ),
             const Mascot(MascotPose.read, size: 80),
           ]),
           const SizedBox(height: 16),
           if (counts.due > 0)
-            TourAnchor(id: 'reviewButton', child: Button3D(label: '${counts.due} card${counts.due == 1 ? '' : 's'} to review', onPressed: () => context.push('/review?deck=words')))
+            TourAnchor(id: 'reviewButton', child: Button3D(label: trn(counts.due, '{n} card to review', '{n} cards to review'), onPressed: () => context.push('/review?deck=words')))
           else
             Surface(
               radius: 16,
@@ -99,24 +100,24 @@ class _VocabScreenState extends State<VocabScreen> {
               child: SizedBox(
                 width: double.infinity,
                 child: Column(children: [
-                  Text(counts.saved > 0 ? 'Done reviewing for today 🎉' : 'Tap words in clips to save them', textAlign: TextAlign.center, style: txt(16, w: FontWeight.w800)),
-                  Text(counts.saved > 0 ? '${counts.learning} learning · ${counts.known} known' : "They'll show up here, ready to review.", textAlign: TextAlign.center, style: txt(13, w: FontWeight.w400, c: T.muted)),
-                  if (counts.learning > 0) TextButton(onPressed: () => context.push('/review?deck=words&mode=extra'), child: Text('Keep studying', style: txt(14, w: FontWeight.w800, c: T.primary))),
+                  Text(counts.saved > 0 ? tr('Done reviewing for today 🎉') : tr('Tap words in clips to save them'), textAlign: TextAlign.center, style: txt(16, w: FontWeight.w800)),
+                  Text(counts.saved > 0 ? tr('{learning} learning · {known} known', {'learning': counts.learning, 'known': counts.known}) : tr("They'll show up here, ready to review."), textAlign: TextAlign.center, style: txt(13, w: FontWeight.w400, c: T.muted)),
+                  if (counts.learning > 0) TextButton(onPressed: () => context.push('/review?deck=words&mode=extra'), child: Text(tr('Keep studying'), style: txt(14, w: FontWeight.w800, c: T.primary))),
                 ]),
               ),
             ),
           const SizedBox(height: 24),
-          caps('Decks'),
+          caps(tr('Decks')),
           const SizedBox(height: 8),
-          _DeckRow(icon: '🔖', title: 'Your words', sub: '${counts.saved} saved from clips', badge: counts.due, onTap: counts.due > 0 ? () => context.push('/review?deck=words') : null),
+          _DeckRow(icon: '🔖', title: tr('Your words'), sub: tr('{saved} saved from clips', {'saved': counts.saved}), badge: counts.due, onTap: counts.due > 0 ? () => context.push('/review?deck=words') : null),
           const SizedBox(height: 8),
           // The welcome tour's "kanaDecks" step spotlights both alphabet decks together.
           TourAnchor(
             id: 'kanaDecks',
             child: Column(children: [
-              _DeckRow(icon: 'あ', title: 'Hiragana', sub: '${kanaLearned(_hira, app.kana)} / ${_hira.length} known', badge: hiraDue, onTap: () => context.push('/review?deck=hiragana')),
+              _DeckRow(icon: 'あ', title: tr('Hiragana'), sub: tr('{known} / {total} known', {'known': kanaLearned(_hira, app.kana), 'total': _hira.length}), badge: hiraDue, onTap: () => context.push('/review?deck=hiragana')),
               const SizedBox(height: 8),
-              _DeckRow(icon: 'ア', title: 'Katakana', sub: '${kanaLearned(_kata, app.kana)} / ${_kata.length} known', badge: kataDue, onTap: () => context.push('/review?deck=katakana')),
+              _DeckRow(icon: 'ア', title: tr('Katakana'), sub: tr('{known} / {total} known', {'known': kanaLearned(_kata, app.kana), 'total': _kata.length}), badge: kataDue, onTap: () => context.push('/review?deck=katakana')),
             ]),
           ),
           const SizedBox(height: 24),
@@ -129,10 +130,10 @@ class _VocabScreenState extends State<VocabScreen> {
             decoration: InputDecoration(
               counterText: '',
               isDense: true,
-              hintText: 'Search your words',
+              hintText: tr('Search your words'),
               hintStyle: txt(16, w: FontWeight.w700, c: T.faint),
               prefixIcon: const Icon(LucideIcons.search, size: 20, color: T.faint),
-              suffixIcon: q.isEmpty ? null : IconButton(tooltip: 'Clear', onPressed: () => setState(() {
+              suffixIcon: q.isEmpty ? null : IconButton(tooltip: tr('Clear'), onPressed: () => setState(() {
                     _text.clear();
                     q = '';
                   }), icon: const Icon(LucideIcons.x, size: 20, color: T.faint)),
@@ -147,8 +148,8 @@ class _VocabScreenState extends State<VocabScreen> {
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
             child: Row(children: [
-              for (final f in [('all', 'All ${counts.saved}'), ('due', 'To Review ${counts.due}'), ('known', 'Known ${counts.known}')]) ...[
-                MimiChip(active: filter == f.$1, onTap: () => setState(() => filter = f.$1), child: Text(f.$2)),
+              for (final f in [('all', tr('All {saved}', {'saved': counts.saved})), ('due', tr('To Review {due}', {'due': counts.due})), ('known', tr('Known {known}', {'known': counts.known}))]) ...[
+                MimiChip(active: filter == f.$1, onTap: () => setState(() => filter = f.$1), child: Text(tr(f.$2))),
                 const SizedBox(width: 8),
               ],
             ]),
@@ -160,19 +161,19 @@ class _VocabScreenState extends State<VocabScreen> {
               child: Column(children: [
                 const Mascot(MascotPose.think, size: 80),
                 const SizedBox(height: 8),
-                Text(counts.saved > 0 ? 'No words match.' : 'No words yet — watch a clip and tap any word.', textAlign: TextAlign.center, style: txt(15, w: FontWeight.w700, c: T.muted)),
-                if (counts.saved == 0) Padding(padding: const EdgeInsets.only(top: 12), child: Button3D(label: 'Go to the feed', variant: BtnVariant.surface, height: 48, expand: false, onPressed: () => context.go('/feed'))),
+                Text(counts.saved > 0 ? tr('No words match.') : tr('No words yet — watch a clip and tap any word.'), textAlign: TextAlign.center, style: txt(15, w: FontWeight.w700, c: T.muted)),
+                if (counts.saved == 0) Padding(padding: const EdgeInsets.only(top: 12), child: Button3D(label: tr('Go to the feed'), variant: BtnVariant.surface, height: 48, expand: false, onPressed: () => context.go('/feed'))),
               ]),
             ),
           for (final g in groups) ...[
-            Padding(padding: const EdgeInsets.only(top: 16, bottom: 6), child: Text(g.$1, style: txt(14, w: FontWeight.w800, c: T.muted))),
+            Padding(padding: const EdgeInsets.only(top: 16, bottom: 6), child: Text(tr(g.$1), style: txt(14, w: FontWeight.w800, c: T.muted))),
             Container(
               clipBehavior: Clip.antiAlias,
               decoration: BoxDecoration(color: T.surface, borderRadius: BorderRadius.circular(16)),
               child: Column(children: [
                 for (var i = 0; i < g.$2.length; i++) ...[
                   if (i > 0) const Divider(height: 1, color: T.border),
-                  _WordRow(w: g.$2[i], onOpen: () => showSavedWord(context, g.$2[i], content)),
+                  _WordRow(w: g.$2[i], gloss: g.$2[i].glossIn(content), onOpen: () => showSavedWord(context, g.$2[i], content)),
                 ],
               ]),
             ),
@@ -185,8 +186,9 @@ class _VocabScreenState extends State<VocabScreen> {
 
 class _WordRow extends StatelessWidget {
   final SavedWord w;
+  final String gloss;
   final VoidCallback onOpen;
-  const _WordRow({required this.w, required this.onOpen});
+  const _WordRow({required this.w, required this.gloss, required this.onOpen});
   @override
   Widget build(BuildContext context) {
     final level = wordLevel(status: w.status, card: w.card);
@@ -211,13 +213,13 @@ class _WordRow extends StatelessWidget {
                     overflow: TextOverflow.ellipsis,
                     style: jp(17),
                   ),
-                  Text(w.gloss, maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(13, w: FontWeight.w400, c: T.muted)),
+                  Text(gloss, maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(13, w: FontWeight.w400, c: T.muted)),
                 ]),
               ),
             ]),
           ),
         ),
-        IconButton(tooltip: 'Play ${w.word}', onPressed: () => Tts.speak(w.reading.isNotEmpty ? w.reading : w.word), icon: const Icon(LucideIcons.volume2, size: 16, color: T.faint)),
+        IconButton(tooltip: tr('Play {word}', {'word': w.word}), onPressed: () => Tts.speak(w.reading.isNotEmpty ? w.reading : w.word), icon: const Icon(LucideIcons.volume2, size: 16, color: T.faint)),
       ]),
     );
   }
@@ -239,8 +241,8 @@ class _DeckRow extends StatelessWidget {
             const SizedBox(width: 12),
             Expanded(
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(title, style: txt(16, w: FontWeight.w800)),
-                Text(sub, style: txt(13, w: FontWeight.w400, c: T.muted)),
+                Text(tr(title), style: txt(16, w: FontWeight.w800)),
+                Text(tr(sub), style: txt(13, w: FontWeight.w400, c: T.muted)),
               ]),
             ),
             if (badge > 0)

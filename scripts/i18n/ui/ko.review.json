@@ -1,0 +1,233 @@
+[
+ {
+  "key": "[{word}] here means “[{meaning}]”.",
+  "from": "여기서 [{word}]의 뜻은 “[{meaning}]”예요.",
+  "to": "여기서 [{word}]은(는) “[{meaning}]”라는 뜻이에요.",
+  "why": "Rephrased to avoid awkward particle and copula attachment issues depending on whether the placeholder words end in a vowel or consonant.",
+  "status": "applied"
+ },
+ {
+  "key": "**{surface}** here means **{gloss}**.\nThe sentence above shows the context.",
+  "from": "여기서 **{surface}**의 뜻은 **{gloss}**예요.\n위 문장에서 어떤 맥락으로 쓰였는지 알 수 있어요.",
+  "to": "여기서 **{surface}**은(는) **{gloss}**(이)라는 뜻이에요.\n위 문장에서 맥락을 확인할 수 있어요.",
+  "why": "Added (이) to handle placeholders smoothly regardless of final consonants, and tightened the second sentence for a more natural UI flow.",
+  "status": "applied"
+ },
+ {
+  "key": "Blue line · new word",
+  "from": "파란 밑줄 · 새로운 단어",
+  "to": "파란 밑줄 · 새 단어",
+  "why": "Term sheet consistency: 'New' (in the context of words) is translated as '새 단어'.",
+  "status": "applied"
+ },
+ {
+  "key": "Create a free account from Profile → Save your progress, then sign in with the same account on the new phone. Your words, reviews and streak sync automatically.",
+  "from": "프로필 → 학습 기록 저장에서 무료 계정을 만든 후, 새 휴대폰에서 같은 계정으로 로그인해 주세요. 단어, 복습 기록, 연속 학습 기록이 자동으로 동기화돼요.",
+  "to": "프로필 → 학습 기록 저장에서 무료 계정을 만든 후, 새 휴대폰에서 같은 계정으로 로그인해 주세요. 단어, 복습 기록, 연속 학습일이 자동으로 동기화돼요.",
+  "why": "'Streak' must be translated as '연속 학습일' according to the term sheet.",
+  "status": "applied"
+ },
+ {
+  "key": "Find it in Profile → Saved",
+  "from": "프로필 → 저장에서 확인하세요",
+  "to": "프로필 → 저장한 클립에서 확인하세요",
+  "why": "'Saved' refers to the 'Saved clips' section, which should match the term sheet ('저장한 클립').",
+  "status": "applied"
+ },
+ {
+  "key": "interjection",
+  "from": "감동사",
+  "to": "감탄사",
+  "why": "The standard Korean grammatical term for 'interjection' is 감탄사, whereas 감동사 is a direct loan from Japanese.",
+  "status": "applied"
+ },
+ {
+  "key": "Keep your streak alive 🔥",
+  "from": "연속 학습 기록을 이어 가세요 🔥",
+  "to": "연속 학습일을 이어 가세요 🔥",
+  "why": "Inconsistent terminology; 'Streak' is defined as '연속 학습일' in the term sheet.",
+  "status": "applied"
+ },
+ {
+  "key": "Keep your words, streak and reviews safe on every device.",
+  "from": "어떤 기기에서든 저장한 단어와 연속 학습 기록, 복습 기록을 안전하게 보관해요.",
+  "to": "어떤 기기에서든 저장한 단어, 연속 학습일, 복습 기록을 안전하게 보관해요.",
+  "why": "Inconsistent terminology; updated to use '연속 학습일' to match the term sheet.",
+  "status": "applied"
+ },
+ {
+  "key": "Off: save only with the Save button",
+  "from": "끄기: 저장 버튼을 눌러야 저장",
+  "to": "끄기: 저장 버튼으로만 저장",
+  "why": "Simplified the phrasing to be more concise and closer to 'only with the Save button'.",
+  "status": "applied"
+ },
+ {
+  "key": "Remembered it? Tap Remembered. If not, tap Forgot — the word just comes back sooner.",
+  "from": "기억나면 '기억나요'를, 기억나지 않으면 '잊었어요'를 눌러 주세요. 잊은 단어는 조금 더 빨리 다시 나올 뿐이에요.",
+  "to": "기억나면 '기억나요'를, 기억나지 않으면 '기억 안 나요'를 눌러 주세요. 잊은 단어는 조금 더 빨리 다시 나올 뿐이에요.",
+  "why": "Use '기억 안 나요' for 'Forgot' to match the term sheet.",
+  "status": "applied"
+ },
+ {
+  "key": "Sign in with your Premium account to ask about this line. Your words and streak sync too.",
+  "from": "이 대사에 대해 질문하려면 Premium 계정으로 로그인해 주세요. 저장한 단어와 연속 학습 기록도 동기화돼요.",
+  "to": "이 대사에 대해 질문하려면 Premium 계정으로 로그인해 주세요. 저장한 단어와 연속 학습일도 동기화돼요.",
+  "why": "The term 'Streak' should be translated as '연속 학습일' according to the term sheet.",
+  "status": "applied"
+ },
+ {
+  "key": "Still curious? Ask Kizuki",
+  "from": "더 궁금한가요? Kizuki에게 물어보세요",
+  "to": "더 궁금한가요? Kizuki에게 질문해 보세요",
+  "why": "The term 'Ask Kizuki' should be mapped consistently as 'Kizuki에게 질문하기'.",
+  "status": "applied"
+ },
+ {
+  "key": "Streaks, goals and progress stats",
+  "from": "연속 학습 기록, 목표, 학습 통계",
+  "to": "연속 학습일, 목표, 학습 통계",
+  "why": "The term 'Streak' should be translated as '연속 학습일' according to the term sheet.",
+  "status": "applied"
+ },
+ {
+  "key": "Tap Ask Kizuki",
+  "from": "'Kizuki에게 질문'을 눌러 보세요",
+  "to": "'Kizuki에게 질문하기'를 눌러 보세요",
+  "why": "The term 'Ask Kizuki' should be exactly 'Kizuki에게 질문하기' inside the quotes according to the term sheet.",
+  "status": "applied"
+ },
+ {
+  "key": "Tap Vocab",
+  "from": "'단어'를 눌러 보세요",
+  "to": "'단어장'을 눌러 보세요",
+  "why": "The term 'Vocab' should be translated as '단어장' according to the term sheet.",
+  "status": "applied"
+ },
+ {
+  "key": "This line means: **{en}**",
+  "from": "이 문장의 뜻은 **{en}**예요.",
+  "to": "이 문장의 뜻: **{en}**",
+  "why": "Using '예요' immediately after a placeholder ({en}) can cause grammatical mismatch in Korean (예요 vs 이에요) depending on the ending character; a colon matches the English structure and avoids this issue.",
+  "status": "applied"
+ },
+ {
+  "key": "Your words and streak are saved. Kizuki will be right here when you come back.",
+  "from": "단어와 연속 학습 기록은 저장되어 있어요. 돌아오시면 Kizuki가 여기서 기다리고 있을게요.",
+  "to": "단어와 연속 학습일은 저장되어 있어요. 돌아오시면 Kizuki가 여기서 기다리고 있을게요.",
+  "why": "The term sheet specifies '연속 학습일' for 'Streak'.",
+  "status": "applied"
+ },
+ {
+  "key": "[{word}] here means “[{meaning}]”.",
+  "from": "여기서 [{word}]은(는) “[{meaning}]”라는 뜻이에요.",
+  "to": "여기서 [{word}]은(는) “[{meaning}]”(이)라는 뜻이에요.",
+  "why": "Use (이)라는 so the particle fits meanings ending in a consonant, matching the same pattern in id 33.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Continue to sign in",
+  "from": "로그인으로 계속하기",
+  "to": "로그인하러 가기",
+  "why": "\"로그인으로 계속하기\" is an awkward literal rendering; this is the natural button wording.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "from the address you signed up with, or follow the instructions at",
+  "from": "가입한 이메일 주소로 보내거나, 다음 페이지의 안내를 따라주세요:",
+  "to": "가입한 이메일 주소에서 보내 주시거나, 다음 페이지의 안내를 따라 주세요:",
+  "why": "The source means sending from the signup address, not to it, and 따라 주세요 should be spaced.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "EXAMPLE · NO QUESTION SENT",
+  "from": "예시 · 질문이 전송되지 않았어요",
+  "to": "예시 · 전송된 질문 없음",
+  "why": "This is an uppercase status label, so a short noun phrase reads more naturally than a full sentence.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Learners with reminders on are far more likely to keep their streak.",
+  "from": "학습 알림을 켜면 연속 학습을 이어 갈 가능성이 훨씬 높아져요.",
+  "to": "학습 알림을 켜면 연속 학습일을 이어 갈 가능성이 훨씬 높아져요.",
+  "why": "Use the term-sheet term 연속 학습일 for Streak consistently.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "ichidan verb",
+  "from": "1단 동사",
+  "to": "1단 동사(2그룹)",
+  "why": "Korean learners often know ichidan verbs as 2그룹 동사, so adding it avoids confusion with 1그룹 (godan).",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Hear real native speed from day one",
+  "from": "첫날부터 원어민의 실제 말하기 속도로 들어요",
+  "to": "첫날부터 원어민 속도 그대로 들어요",
+  "why": "The current wording is clunky and literal, and this is more natural.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Only to save your streak",
+  "from": "연속 학습 기록이 끊길 때만",
+  "to": "연속 학습이 끊기기 직전에만",
+  "why": "The current text means 'when the streak breaks'; the option is for reminders sent before the streak is lost.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "One tap · no passwords · progress stays safe",
+  "from": "한 번의 터치로 · 비밀번호 없이 · 학습 기록은 안전하게",
+  "to": "터치 한 번으로 · 비밀번호 없이 · 학습 기록도 안전하게",
+  "why": "'한 번의 터치로' reads as translationese; '터치 한 번으로' is the natural phrasing.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "the moment it clicks",
+  "from": "이해가 반짝이는 순간",
+  "to": "문득 깨닫는 순간",
+  "why": "\"이해가 반짝이는\" sounds awkward; this is a more natural, poetic tagline that matches 気づき.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Still curious? Ask Kizuki",
+  "from": "더 궁금한가요? Kizuki에게 질문해 보세요",
+  "to": "더 궁금한 점이 있나요? Kizuki에게 질문해 보세요",
+  "why": "\"더 궁금한가요?\" sounds unnatural in Korean.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "The whole line",
+  "from": "문장 전체",
+  "to": "대사 전체",
+  "why": "Subtitle lines are called 대사 elsewhere in the app, so this keeps the term consistent.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "This word is a small helper in the sentence — the full line meaning is below.",
+  "from": "문장에서 다른 말의 의미를 돕는 단어예요. 문장 전체의 뜻은 아래에서 확인해 보세요.",
+  "to": "문장 속에서 다른 말을 도와주는 작은 단어예요. 문장 전체의 뜻은 아래에서 확인해 보세요.",
+  "why": "'다른 말의 의미를 돕는' is awkward; the new wording is more natural and keeps the 'small helper' nuance.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Your progress is now saved to your account.",
+  "from": "이제 학습 기록이 계정에 저장됐어요.",
+  "to": "이제 학습 기록이 계정에 저장돼요.",
+  "why": "'이제' combined with the completed past '저장됐어요' sounds unnatural; the present tense matches 'is now saved'.",
+  "status": "applied",
+  "stage": "proof"
+ }
+]

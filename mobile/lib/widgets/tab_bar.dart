@@ -8,6 +8,7 @@ import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import 'tour.dart';
 import 'ui.dart';
+import '../i18n/i18n.dart';
 
 /// Main app shell with the floating bottom navigation pill — mirrors TabBar.tsx.
 class TabShell extends StatelessWidget {
@@ -39,9 +40,9 @@ class MimiTabBar extends StatelessWidget {
     final path = GoRouterState.of(context).uri.path;
     final due = context.select<AppState, int>((a) => a.counts.due);
     final tabs = [
-      ('/feed', ['/feed', '/explore'], 'Feed', LucideIcons.play),
-      ('/vocab', ['/vocab'], 'Vocab', LucideIcons.bookOpen),
-      ('/profile', ['/profile'], 'Profile', LucideIcons.user),
+      ('/feed', ['/feed', '/explore'], tr('Feed'), LucideIcons.play),
+      ('/vocab', ['/vocab'], tr('Vocab'), LucideIcons.bookOpen),
+      ('/profile', ['/profile'], tr('Profile'), LucideIcons.user),
     ];
     return SafeArea(
       top: false,
@@ -105,7 +106,7 @@ class _Tab extends StatelessWidget {
             decoration: BoxDecoration(color: active ? T.surface3 : Colors.transparent, borderRadius: BorderRadius.circular(99)),
             child: Row(children: [
               Icon(icon, size: 20, color: active ? T.foreground : T.faint),
-              if (active) Padding(padding: const EdgeInsets.only(left: 8), child: Text(label, style: txt(14, w: FontWeight.w800))),
+              if (active) Padding(padding: const EdgeInsets.only(left: 8), child: Text(tr(label), style: txt(14, w: FontWeight.w800))),
             ]),
           ),
           if (badge > 0)

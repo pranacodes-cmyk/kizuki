@@ -12,6 +12,7 @@ import '../state/app_state.dart';
 import '../services/analytics.dart';
 import '../theme/tokens.dart';
 import 'ui.dart';
+import '../i18n/i18n.dart';
 
 /// Welcome-tour state: which step is showing (not persisted — a restart replays the tour
 /// from the start until it's finished or skipped). Mirrors useTour in src/lib/tour-store.ts.
@@ -376,7 +377,7 @@ class _TourHostState extends State<TourHost> with TickerProviderStateMixin {
     return Material(
       type: MaterialType.transparency,
       child: Semantics(
-        label: 'Welcome tour',
+        label: tr('Welcome tour'),
         child: Stack(children: [
           // Blocking layer: tap steps advance on any tap; action steps only let the spotlight through.
           if (!pass)
@@ -404,13 +405,13 @@ class _TourHostState extends State<TourHost> with TickerProviderStateMixin {
             right: 16,
             child: Semantics(
               button: true,
-              label: 'Skip tour',
+              label: tr('Skip tour'),
               child: GestureDetector(
                 onTap: Tour.I.finish,
                 child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
                   decoration: BoxDecoration(color: T.surface2, borderRadius: BorderRadius.circular(99), border: Border.all(color: T.border)),
-                  child: Text('Skip tour', style: txt(13, w: FontWeight.w800, c: T.muted)),
+                  child: Text(tr('Skip tour'), style: txt(13, w: FontWeight.w800, c: T.muted)),
                 ),
               ),
             ),
@@ -607,9 +608,9 @@ class _Bubble extends StatelessWidget {
   Widget _nextRow() => button != null
       ? _Pill(label: button!, enabled: true, onTap: onNext, wide: true)
       : Row(children: [
-          Text(stepLabel, style: txt(12, w: FontWeight.w800, c: T.faint)),
+          Text(tr(stepLabel), style: txt(12, w: FontWeight.w800, c: T.faint)),
           const Spacer(),
-          _Pill(label: 'Next', enabled: true, onTap: onNext),
+          _Pill(label: tr('Next'), enabled: true, onTap: onNext),
         ]);
 
   @override
@@ -626,12 +627,12 @@ class _Bubble extends StatelessWidget {
           child: FractionallySizedBox(widthFactor: progress.clamp(0.05, 1.0), child: Container(decoration: BoxDecoration(color: T.primary, borderRadius: BorderRadius.circular(99)))),
         ),
         const SizedBox(height: 10),
-        Text(text, style: txt(16, w: FontWeight.w800, c: T.background, h: 1.35)),
+        Text(tr(text), style: txt(16, w: FontWeight.w800, c: T.background, h: 1.35)),
         if (kind == 'controls') ...[
           const SizedBox(height: 12),
-          for (final item in [(LucideIcons.play, 'Play / pause'), (LucideIcons.rotateCcw, 'Replay · loop this line'), (LucideIcons.gauge, '1× · tap to change speed'), (LucideIcons.bookmark, 'Save · Profile → Saved'), (LucideIcons.type, 'Aa · subtitle display')])
-            Padding(padding: const EdgeInsets.only(bottom: 8), child: Row(children: [Icon(item.$1, size: 18, color: T.primaryDeep), const SizedBox(width: 10), Expanded(child: Text(item.$2, style: txt(13, w: FontWeight.w800, c: T.background)))])),
-          _Pill(label: button ?? 'Next', enabled: true, onTap: onNext, wide: true),
+          for (final item in [(LucideIcons.play, tr('Play / pause')), (LucideIcons.rotateCcw, tr('Replay · loop this line')), (LucideIcons.gauge, tr('1× · tap to change speed')), (LucideIcons.bookmark, tr('Save · Profile → Saved')), (LucideIcons.type, tr('Aa · subtitle display'))])
+            Padding(padding: const EdgeInsets.only(bottom: 8), child: Row(children: [Icon(item.$1, size: 18, color: T.primaryDeep), const SizedBox(width: 10), Expanded(child: Text(tr(item.$2), style: txt(13, w: FontWeight.w800, c: T.background)))])),
+          _Pill(label: button ?? tr('Next'), enabled: true, onTap: onNext, wide: true),
         ] else if (kind == 'legend') ...[
           const SizedBox(height: 12),
           for (final (id, label, hint) in tourLegend)
@@ -642,24 +643,24 @@ class _Bubble extends StatelessWidget {
                 const SizedBox(width: 8),
                 Expanded(
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    Text(label, style: txt(14, w: FontWeight.w900, c: T.background)),
-                    Text(hint, style: txt(12, w: FontWeight.w600, c: T.faint)),
+                    Text(tr(label), style: txt(14, w: FontWeight.w900, c: T.background)),
+                    Text(tr(hint), style: txt(12, w: FontWeight.w600, c: T.faint)),
                   ]),
                 ),
               ]),
             ),
           const SizedBox(height: 4),
-          _Pill(label: 'Got it', enabled: legendReady, onTap: onNext, wide: true),
+          _Pill(label: tr('Got it'), enabled: legendReady, onTap: onNext, wide: true),
         ] else if (kind == 'finish') ...[
           const SizedBox(height: 12),
-          _Pill(label: button ?? "Let's go!", enabled: true, onTap: onNext, wide: true),
+          _Pill(label: button ?? tr("Let's go!"), enabled: true, onTap: onNext, wide: true),
         ] else if (kind == 'action') ...[
           if (hint != null) ...[
             const SizedBox(height: 10),
             Row(children: [
               const Icon(LucideIcons.pointer, size: 16, color: T.primaryDeep),
               const SizedBox(width: 6),
-              Flexible(child: Text(hint!, style: txt(13, w: FontWeight.w900, c: T.primaryDeep))),
+              Flexible(child: Text(tr(hint!), style: txt(13, w: FontWeight.w900, c: T.primaryDeep))),
             ]),
           ],
         ] else ...[
@@ -720,7 +721,7 @@ class _Pill extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 18),
             alignment: Alignment.center,
             decoration: BoxDecoration(color: enabled ? T.primary : T.primaryDimFg.withValues(alpha: 0.4), borderRadius: BorderRadius.circular(14)),
-            child: Text(label, style: txt(15, w: FontWeight.w900, c: T.primaryFg)),
+            child: Text(tr(label), style: txt(15, w: FontWeight.w900, c: T.primaryFg)),
           ),
         ),
       );

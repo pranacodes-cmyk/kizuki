@@ -10,6 +10,7 @@ import '../theme/tokens.dart';
 import 'ask_sheet.dart';
 import 'toast.dart';
 import 'ui.dart';
+import '../i18n/i18n.dart';
 
 const speeds = [1.0, 0.75, 0.5];
 
@@ -34,33 +35,33 @@ Future<void> showLineMenu(BuildContext context, {required m.Clip clip, required 
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
             decoration: BoxDecoration(color: T.primary.withValues(alpha: 0.1), borderRadius: BorderRadius.circular(16)),
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Row(children: [const Icon(LucideIcons.sparkles, size: 14, color: T.primary), const SizedBox(width: 6), caps('Explained', c: T.primary)]),
+              Row(children: [const Icon(LucideIcons.sparkles, size: 14, color: T.primary), const SizedBox(width: 6), caps(tr('Explained'), c: T.primary)]),
               const SizedBox(height: 4),
-              Text.rich(TextSpan(children: [TextSpan(text: 'Literally: ', style: txt(15, w: FontWeight.w400, c: T.muted)), TextSpan(text: n.lit)]), style: txt(15, w: FontWeight.w400)),
+              Text.rich(TextSpan(children: trSpans('Literally: [{lit}]', txt(15, w: FontWeight.w400, c: T.foreground), {'lit': n.lit})), style: txt(15, w: FontWeight.w400, c: T.muted)),
               if (n.tip.isNotEmpty) Padding(padding: const EdgeInsets.only(top: 6), child: Text('💡 ${n.tip}', style: txt(15, w: FontWeight.w400))),
             ]),
           ),
         const SizedBox(height: 16),
-        _MenuRow(key: const ValueKey('line-ask'), icon: LucideIcons.messageCircleQuestion, iconColor: T.primary, label: 'Ask Kizuki about this line', onTap: () {
+        _MenuRow(key: const ValueKey('line-ask'), icon: LucideIcons.messageCircleQuestion, iconColor: T.primary, label: tr('Ask Kizuki about this line'), onTap: () {
           final level = context.read<AppState>().profile.jlpt;
           Navigator.pop(ctx);
           showAskSheet(context, AskContext(clipId: clip.id, title: clip.title, level: clip.level, learnerLevel: level, ja: l.ja, en: l.en));
         }),
-        _MenuRow(icon: LucideIcons.rotateCcw, label: 'Replay this line', onTap: () {
+        _MenuRow(icon: LucideIcons.rotateCcw, label: tr('Replay this line'), onTap: () {
           Navigator.pop(ctx);
           onReplay();
         }),
-        _MenuRow(icon: LucideIcons.repeat1, iconColor: looping ? T.primary : T.muted, label: looping ? 'Stop looping this line' : 'Loop this line', onTap: () {
+        _MenuRow(icon: LucideIcons.repeat1, iconColor: looping ? T.primary : T.muted, label: looping ? tr('Stop looping this line') : tr('Loop this line'), onTap: () {
           Navigator.pop(ctx);
           onLoop();
         }),
-        _MenuRow(icon: LucideIcons.copy, label: 'Copy Japanese', onTap: () async {
+        _MenuRow(icon: LucideIcons.copy, label: tr('Copy Japanese'), onTap: () async {
           Navigator.pop(ctx);
           try {
             await Clipboard.setData(ClipboardData(text: l.ja));
-            toast('Copied', icon: '📋');
+            toast(tr('Copied'), icon: '📋');
           } catch (_) {
-            toast("Couldn't copy", tone: ToastTone.error);
+            toast(tr("Couldn't copy"), tone: ToastTone.error);
           }
         }),
       ]),
@@ -80,7 +81,7 @@ class _MenuRow extends StatelessWidget {
         onTap: onTap,
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 12),
-          child: Row(children: [Icon(icon, size: 20, color: iconColor), const SizedBox(width: 16), Expanded(child: Text(label, style: txt(16, w: FontWeight.w700)))]),
+          child: Row(children: [Icon(icon, size: 20, color: iconColor), const SizedBox(width: 16), Expanded(child: Text(tr(label), style: txt(16, w: FontWeight.w700)))]),
         ),
       );
 }
@@ -114,7 +115,7 @@ class _DisplaySheetState extends State<_DisplaySheet> {
     return SingleChildScrollView(
       padding: const EdgeInsets.fromLTRB(20, 12, 20, 16),
       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        Text('Display', style: txt(18, w: FontWeight.w900)),
+        Text(tr('Display'), style: txt(18, w: FontWeight.w900)),
         const SizedBox(height: 12),
         Container(
           decoration: BoxDecoration(color: T.surface2, borderRadius: BorderRadius.circular(16)),
@@ -124,7 +125,7 @@ class _DisplaySheetState extends State<_DisplaySheet> {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                 child: Row(children: [
-                  Expanded(child: Text(rows[i].$1, style: txt(15, w: FontWeight.w700))),
+                  Expanded(child: Text(tr(rows[i].$1), style: txt(15, w: FontWeight.w700))),
                   Semantics(label: rows[i].$1, toggled: rows[i].$2, child: MimiToggle(value: rows[i].$2, onChanged: (v) => app.setSettings((x) => rows[i].$3(x, v)))),
                 ]),
               ),
@@ -132,15 +133,15 @@ class _DisplaySheetState extends State<_DisplaySheet> {
           ]),
         ),
         const SizedBox(height: 20),
-        caps('Text size'),
+        caps(tr('Text size')),
         const SizedBox(height: 8),
         _Segmented(
-          options: const [(0.85, 'Small'), (1.0, 'Medium'), (1.2, 'Large')],
+          options: [(0.85, tr('Small')), (1.0, tr('Medium')), (1.2, tr('Large'))],
           value: s.textSize,
           onPick: (v) => app.setSettings((x) => x.textSize = v),
         ),
         const SizedBox(height: 20),
-        caps('Speed'),
+        caps(tr('Speed')),
         const SizedBox(height: 8),
         _Segmented(
           options: [for (final sp in speeds) (sp, speedLabel(sp))],
@@ -175,7 +176,7 @@ class _Segmented extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12),
                   border: Border.all(color: value == options[i].$1 ? T.primary : T.border, width: 2),
                 ),
-                child: Text(options[i].$2, style: txt(14, w: FontWeight.w800, c: value == options[i].$1 ? T.primary : T.foreground)),
+                child: Text(tr(options[i].$2), style: txt(14, w: FontWeight.w800, c: value == options[i].$1 ? T.primary : T.foreground)),
               ),
             ),
           ),

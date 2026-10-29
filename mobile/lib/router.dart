@@ -7,6 +7,7 @@ import 'screens/clip_screen.dart';
 import 'screens/explore.dart';
 import 'screens/feed.dart';
 import 'screens/founder.dart';
+import 'screens/language.dart';
 import 'screens/legal.dart';
 import 'screens/support.dart';
 import 'screens/lists.dart';
@@ -15,6 +16,7 @@ import 'screens/plan.dart';
 import 'screens/profile.dart';
 import 'screens/review.dart';
 import 'screens/settings.dart';
+import 'screens/home_widgets.dart';
 import 'screens/trial.dart';
 import 'screens/vocab.dart';
 import 'screens/welcome.dart';
@@ -23,6 +25,7 @@ import 'logic/logic.dart';
 import 'widgets/tab_bar.dart';
 import 'widgets/onboarding_back.dart';
 import 'widgets/ui.dart' show confirmAppExit;
+import 'i18n/i18n.dart';
 
 /// Same paths as the web prototype (src/routes).
 GoRouter buildRouter(AppState app) {
@@ -42,6 +45,8 @@ GoRouter buildRouter(AppState app) {
       if (p == '/trial' && app.onboarded && subscriptionAccess(app.premium.active, app.premium.expiresAt, app.premium.trialEndsAt, DateTime.now().millisecondsSinceEpoch)) return '/feed';
       if ((app.onboarded || !onboardingPath(p)) && learningPath(p) && !subscriptionAccess(app.premium.active, app.premium.expiresAt, app.premium.trialEndsAt, DateTime.now().millisecondsSinceEpoch)) return '/trial';
       if (!app.onboarded && tabs.contains(p)) return '/';
+      // First run: pick the app language before the welcome screen.
+      if (!app.onboarded && !I18n.chosen && p == '/') return '/language';
       if (app.onboarded && p == '/') return '/feed';
       return null;
     },
@@ -83,6 +88,8 @@ GoRouter buildRouter(AppState app) {
         ),
       ),
       GoRoute(path: '/settings', builder: (c, s) => const SettingsScreen()),
+      GoRoute(path: '/language', builder: (c, s) => LanguageScreen(fromSettings: s.uri.queryParameters['from'] == 'settings')),
+      GoRoute(path: '/widgets', builder: (c, s) => const HomeWidgetsScreen()),
       GoRoute(path: '/history', builder: (c, s) => const HistoryScreen()),
       GoRoute(path: '/saved', builder: (c, s) => const SavedScreen()),
       GoRoute(path: '/achievements', builder: (c, s) => const AchievementsScreen()),

@@ -13,6 +13,7 @@ import { haptic } from "@/lib/haptics";
 import { ENTER_MS, HOP_MS, mascotFrame, POP_MS, POP_SCALES, POP_TIMES, type MascotIdle } from "@/lib/mascot-motion";
 import { useUI } from "@/lib/ui-store";
 import { cn } from "@/lib/utils";
+import { tr } from "@/lib/i18n";
 
 export const mascots = { wave, cheer, listen, brave, read, heart, think, face } as const;
 export type MascotPose = keyof typeof mascots;
@@ -118,7 +119,7 @@ export function LivelyMascot({
     return (
       <button
         type="button"
-        aria-label="Kizuki the fox"
+        aria-label={tr("Kizuki the fox")}
         onClick={() => { haptic("light"); st.current.hopRequested = true; }}
         className={cn("relative block shrink-0", className)}
         style={style}

@@ -13,6 +13,7 @@ import '../theme/tokens.dart';
 import '../widgets/common.dart';
 import '../widgets/lively_mascot.dart';
 import '../widgets/ui.dart';
+import '../i18n/i18n.dart';
 
 /// Feed order for this learner (shared rankFeed rule) — mirrors src/lib/feed.ts.
 /// For You order: the curated starter clips first (same for everyone, until watched), then the
@@ -73,9 +74,9 @@ class _PlanScreenState extends State<PlanScreen> {
                 child: ListView(padding: const EdgeInsets.fromLTRB(24, 24, 24, 16), children: [
                   const Center(child: LivelyMascot(MascotPose.cheer, size: 80, entrance: true, hopAfterMs: 450, tappable: true)),
                   const SizedBox(height: 12),
-                  Text(p.name.isNotEmpty ? '${p.name}, your plan is ready!' : 'Your plan is ready!', textAlign: TextAlign.center, style: txt(26, w: FontWeight.w900, h: 1.2)),
+                  Text(p.name.isNotEmpty ? tr('{name}, your plan is ready!', {'name': p.name}) : tr('Your plan is ready!'), textAlign: TextAlign.center, style: txt(26, w: FontWeight.w900, h: 1.2)),
                   const SizedBox(height: 12),
-                  Center(child: Pill('🇯🇵 Conversational by ${goalDateLabel(DateTime.now(), p.fluencyMonths)}', tone: PillTone.success)),
+                  Center(child: Pill(tr('🇯🇵 Conversational by {date}', {'date': goalDateLabel(DateTime.now(), p.fluencyMonths)}), tone: PillTone.success)),
                   const SizedBox(height: 24),
                   for (var i = 0; i < items.length; i++)
                     TweenAnimationBuilder<double>(
@@ -93,8 +94,8 @@ class _PlanScreenState extends State<PlanScreen> {
                             const SizedBox(width: 16),
                             Expanded(
                               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                                Text(items[i].title, style: txt(16, w: FontWeight.w800)),
-                                Text(items[i].body, style: txt(13, w: FontWeight.w400, c: T.muted)),
+                                Text(tr(items[i].title), style: txt(16, w: FontWeight.w800)),
+                                Text(tr(items[i].body), style: txt(13, w: FontWeight.w400, c: T.muted)),
                               ]),
                             ),
                           ]),
@@ -103,7 +104,7 @@ class _PlanScreenState extends State<PlanScreen> {
                     ),
                   if (first.isNotEmpty) ...[
                     const SizedBox(height: 12),
-                    caps('Your first clips'),
+                    caps(tr('Your first clips')),
                     const SizedBox(height: 8),
                     Row(children: [
                       for (final id in feedOrder(content, app).take(3))
@@ -126,7 +127,7 @@ class _PlanScreenState extends State<PlanScreen> {
                   ],
                 ]),
               ),
-              Padding(padding: const EdgeInsets.fromLTRB(24, 0, 24, 8), child: Button3D(label: 'Continue', onPressed: () async {
+              Padding(padding: const EdgeInsets.fromLTRB(24, 0, 24, 8), child: Button3D(label: tr('Continue'), onPressed: () async {
                 await OnboardingSettings.refresh();
                 if (context.mounted) context.push(onboardingAfterPlan(OnboardingSettings.enabled));
               })),

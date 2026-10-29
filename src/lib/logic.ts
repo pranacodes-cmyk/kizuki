@@ -2,6 +2,30 @@
 // src/lib/logic.test.ts and mobile/test/logic_test.dart). UI code calls these helpers
 // instead of re-deriving rules.
 
+import { tr } from "./i18n-core";
+
+export const WIDGET_SLOT_MS = 2 * 60 * 60 * 1000;
+export type WidgetWord = { key: string; word: string; reading: string; meaning: string; clipId: string; example: string; jlpt: number; due: number; status: string };
+export function widgetWords(publicWords: WidgetWord[], saved: WidgetWord[], level: string, shareSaved: boolean, now: number): WidgetWord[] {
+  const n = Number(level.replace('N', '')) || 5;
+  const eligible = publicWords.filter((w) => w.jlpt >= n && w.word && w.meaning).sort((a, b) => a.key < b.key ? -1 : a.key > b.key ? 1 : 0);
+  const personal = shareSaved ? saved.filter((w) => w.status === 'learning' && w.word && w.meaning).sort((a, b) => a.due - b.due || (a.key < b.key ? -1 : a.key > b.key ? 1 : 0)) : [];
+  const pool = personal.length ? personal : eligible;
+  if (!pool.length) return [];
+  const start = personal.length && (personal[0]?.due ?? Infinity) <= now ? 0 : Math.floor(now / WIDGET_SLOT_MS) % pool.length;
+  return Array.from({ length: Math.min(12, pool.length) }, (_, i) => pool[(start + i) % pool.length]).filter((w): w is WidgetWord => w !== undefined);
+}
+export function widgetDestination(link: string): string | null {
+  try {
+    const uri = new URL(link);
+    if (uri.protocol !== 'kizuki:' || uri.hostname !== 'widget') return null;
+    if (uri.pathname === '/review') return '/review?deck=words';
+    if (uri.pathname !== '/word') return null;
+    const id = uri.searchParams.get('clip');
+    return id && /^[A-Za-z0-9_-]+$/.test(id) ? `/clip/${id}` : '/vocab';
+  } catch { return null; }
+}
+
 // ---------------------------------------------------------------------------
 // Onboarding answers
 // ---------------------------------------------------------------------------
@@ -86,7 +110,7 @@ const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep
 /** "Oct 2027" — the month the fluency goal lands on. */
 export function goalDateLabel(now: Date, months: number) {
   const total = now.getMonth() + months;
-  return `${monthNames[total % 12]} ${now.getFullYear() + Math.floor(total / 12)}`;
+  return tr("{month} {year}", { month: tr(monthNames[total % 12] ?? ""), year: now.getFullYear() + Math.floor(total / 12) });
 }
 
 /** Window → reminder hour (local time). */
@@ -101,10 +125,10 @@ export function windowHour(window: string) {
 
 export function windowLabel(window: string) {
   switch (window) {
-    case "morning": return "in the morning";
-    case "afternoon": return "in the afternoon";
-    case "evening": return "in the evening";
-    default: return "at night";
+    case "morning": return tr("in the morning");
+    case "afternoon": return tr("in the afternoon");
+    case "evening": return tr("in the evening");
+    default: return tr("at night");
   }
 }
 
@@ -152,7 +176,7 @@ function challengeItem(challenge: string, streakGoal: number, window: string): P
   switch (challenge) {
     case "listening": return { icon: "👂", title: "Train your ear", body: "Natural-speed Japanese with word-by-word subtitles" };
     case "start": return { icon: "🧭", title: "A clear daily path", body: "Watch → save words → review. That's it." };
-    case "motivation": return { icon: "🔥", title: `A ${streakGoal}-day streak goal`, body: `Friendly reminders ${windowLabel(window)}` };
+    case "motivation": return { icon: "🔥", title: tr("A {n}-day streak goal", { n: streakGoal }), body: tr("Friendly reminders {when}", { when: windowLabel(window) }) };
     case "grammar": return { icon: "🧩", title: "Grammar in context", body: "Every word explained in the sentence you heard" };
     case "speaking": return { icon: "🗣️", title: "Sound like a native", body: "Copy real rhythm and intonation, line by line" };
     default: return { icon: "📚", title: "Words that stick", body: "Smart reviews with the original clip audio" };
@@ -165,11 +189,11 @@ export function planItems(o: {
   streakGoal: number; jlpt: string; clipCount: number;
 }): PlanItem[] {
   return [
-    { icon: "⏰", title: `${o.dailyMinutes}-minute daily sessions`, body: `Bite-sized clips ${windowLabel(o.window)}` },
+    { icon: "⏰", title: tr("{n}-minute daily sessions", { n: o.dailyMinutes }), body: tr("Bite-sized clips {when}", { when: windowLabel(o.window) }) },
     reasonItem(o.reasonList[0] ?? "fun"),
     challengeItem(o.challengeList[0] ?? "listening", o.streakGoal, o.window),
-    { icon: "📈", title: `${wordsPerMonth(o.dailyMinutes)} new words a month`, body: `At ${o.dailyMinutes} minutes a day` },
-    { icon: "🎬", title: `${o.clipCount} clips picked for you`, body: `Matched to your level (${o.jlpt}) and interests` },
+    { icon: "📈", title: tr("{n} new words a month", { n: wordsPerMonth(o.dailyMinutes) }), body: tr("At {n} minutes a day", { n: o.dailyMinutes }) },
+    { icon: "🎬", title: tr("{n} clips picked for you", { n: o.clipCount }), body: tr("Matched to your level ({jlpt}) and interests", { jlpt: o.jlpt }) },
   ];
 }
 
@@ -204,7 +228,7 @@ export function subscriptionAccess(active: boolean, expiresAt: number | null | u
   const end = expiresAt ?? trialEndsAt;
   return active && (end == null || end > now);
 }
-export const learningPath = (path: string) => !["/account", "/settings", "/support", "/terms", "/privacy", "/trial", "/profile", "/achievements"].includes(path);
+export const learningPath = (path: string) => !["/account", "/settings", "/language", "/widgets", "/support", "/terms", "/privacy", "/trial", "/profile", "/achievements"].includes(path);
 export const onboardingPath = (path: string) => ["/", "/onboarding", "/building", "/plan", "/founder"].includes(path);
 export const accountNeedsOnboarding = (fromWelcome: boolean, onboarded: boolean, premiumAccess: boolean) => fromWelcome && !onboarded && !premiumAccess;
 export const subscriptionPhase = (active: boolean, plan: string | null, trialEndsAt: number | null, now: number) =>
@@ -331,19 +355,19 @@ export function formatInterval(ms: number) {
 /** Plain-English time until the next practice ("now", "in 10 minutes", "tomorrow", "in 3 days")
  * for learner-facing text — mirrors formatWhen in logic.dart. */
 export function formatWhen(ms: number) {
-  const n = (v: number, unit: string) => `in ${v} ${unit}${v === 1 ? "" : "s"}`;
-  if (ms <= 0) return "now";
-  if (ms < minuteMs) return "in under a minute";
-  if (ms < 60 * minuteMs) return n(Math.min(59, Math.max(1, Math.round(ms / minuteMs))), "minute");
+  const n = (v: number, one: string, other: string) => tr(v === 1 ? one : other, { n: v });
+  if (ms <= 0) return tr("now");
+  if (ms < minuteMs) return tr("in under a minute");
+  if (ms < 60 * minuteMs) return n(Math.min(59, Math.max(1, Math.round(ms / minuteMs))), "in {n} minute", "in {n} minutes");
   if (ms < dayMs) {
     const h = Math.round(ms / (60 * minuteMs));
-    return h >= 24 ? "tomorrow" : n(h, "hour");
+    return h >= 24 ? tr("tomorrow") : n(h, "in {n} hour", "in {n} hours");
   }
   const days = ms / dayMs;
-  if (days < 1.5) return "tomorrow";
-  if (days < 30) return n(Math.round(days), "day");
-  if (days < 365) return n(Math.round(days / 30), "month");
-  return n(Math.round(days / 365), "year");
+  if (days < 1.5) return tr("tomorrow");
+  if (days < 30) return n(Math.round(days), "in {n} day", "in {n} days");
+  if (days < 365) return n(Math.round(days / 30), "in {n} month", "in {n} months");
+  return n(Math.round(days / 365), "in {n} year", "in {n} years");
 }
 
 export const nextIntervalLabel = (c: Card, grade: Grade, now: number) =>
@@ -435,11 +459,20 @@ export function pickTourWord(lines: { words: { p: string; d: string | null }[] }
 /** True when an in-clip meaning only repeats the dictionary's first sense ("every day" vs
  * "every day; daily"), so a card shows the meaning once. Empty meanings count as repeats. */
 export function repeatsSense(gloss: string, sense: string | null | undefined) {
-  const norm = (x: string) => x.toLowerCase().replace(/\([^)]*\)/g, " ").replace(/[^a-z0-9' ]+/g, " ").replace(/\s+/g, " ").trim();
+  // Letters, marks and digits of every script count (Thai vowels are marks; Vietnamese tones stay).
+  const norm = (x: string) => x.toLowerCase().replace(/\([^)]*\)/g, " ").replace(/[^\p{L}\p{M}\p{N}' ]+/gu, " ").replace(/\s+/g, " ").trim();
   const g = norm(gloss);
   if (!g) return true;
   if (!sense) return false;
   return norm(sense) === g || sense.split(/[;,]/).some((p) => norm(p) === g);
+}
+
+/** Meaning shown for a saved word. It was saved in the app language of that moment (older saves:
+ * English); after a language switch the dictionary's meaning in the current language replaces it,
+ * and without one the saved meaning stays. */
+export function savedGloss(gloss: string, glossLang: string | null | undefined, dictGloss: string | null | undefined, lang: string): string {
+  if ((glossLang || "en") === lang) return gloss;
+  return dictGloss ? dictGloss : gloss;
 }
 
 /** Status + card after the learner picks a level. Picking the level a learning word is
@@ -983,4 +1016,206 @@ export function contentNotesProblem(shard: unknown): string | null {
     for (const x of Object.values(l)) if (!isRecord(x) || typeof x.lit !== "string" || typeof x.tip !== "string") return "notes";
   }
   return null;
+}
+
+// ---------------------------------------------------------------- learner languages
+// The app speaks the learner's language (interface + clip translations + explanations).
+// English is bundled and always the fallback; mirrored in mobile/lib/logic/logic.dart.
+
+export type LangCode = "en" | "vi" | "id" | "th" | "ko" | "pt";
+
+export interface Language {
+  code: LangCode;
+  flag: string;
+  /** Name in the language itself — what the picker shows. */
+  native: string;
+  /** English name, under the native one. */
+  english: string;
+}
+
+export const LANGUAGES: Language[] = [
+  { code: "en", flag: "🇺🇸", native: "English", english: "English" },
+  { code: "vi", flag: "🇻🇳", native: "Tiếng Việt", english: "Vietnamese" },
+  { code: "id", flag: "🇮🇩", native: "Bahasa Indonesia", english: "Indonesian" },
+  { code: "th", flag: "🇹🇭", native: "ภาษาไทย", english: "Thai" },
+  { code: "ko", flag: "🇰🇷", native: "한국어", english: "Korean" },
+  { code: "pt", flag: "🇧🇷", native: "Português (Brasil)", english: "Portuguese (Brazil)" },
+];
+
+export function isLangCode(x: unknown): x is LangCode {
+  return typeof x === "string" && LANGUAGES.some((l) => l.code === x);
+}
+
+/** Language suggested by the phone/browser locale ("vi-VN", "in_ID", "pt-PT"…); English otherwise. */
+export function languageForLocale(tag: string | null | undefined): LangCode {
+  const base = (tag ?? "").toLowerCase().replace(/_/g, "-").split("-")[0];
+  if (base === "in") return "id"; // older Android code for Indonesian
+  return isLangCode(base) ? base : "en";
+}
+
+/** Fills `{name}` placeholders of a translated string; unknown names stay as written. */
+export function fillTemplate(text: string, vars?: Record<string, string | number>): string {
+  if (!vars) return text;
+  return text.replace(/\{(\w+)\}/g, (m, k: string) => (k in vars ? String(vars[k]) : m));
+}
+
+/** Splits text on its [highlighted] part, so each language can place the highlight where its
+ * grammar puts it ("Try Kizuki [free] for 7 days"). Pairs are [text, highlighted]. */
+export function highlightParts(text: string): [string, boolean][] {
+  const out: [string, boolean][] = [];
+  let i = 0;
+  for (const m of text.matchAll(/\[([^[\]]*)\]/g)) {
+    const start = m.index ?? 0;
+    if (start > i) out.push([text.slice(i, start), false]);
+    if (m[1]) out.push([m[1], true]);
+    i = start + m[0].length;
+  }
+  if (i < text.length) out.push([text.slice(i), false]);
+  return out;
+}
+
+/** Files that hold a language pack's explanation notes (clips spread by id). */
+export const LOCALE_NOTE_SHARDS = 32;
+
+export function localeNoteShard(clipId: string): number {
+  return fnv1a(clipId) % LOCALE_NOTE_SHARDS;
+}
+
+/** Fingerprint of a clip's Japanese text + word split. A translation made for other words
+ * (the clip was regenerated) never shows: the clip stays in English until re-translated. */
+export function clipLocaleSig(lines: { ja: string; words: { s: string }[] }[]): string {
+  return fnv1a(lines.map((l) => `${l.ja}|${l.words.map((w) => w.s).join(" ")}`).join("\n")).toString(16).padStart(8, "0");
+}
+
+/** Whether to download a language pack now: a non-English language, learning access (trial or
+ * Premium — nobody downloads before deciding to learn) and a pack newer than the installed one. */
+export function localePackDue(lang: LangCode, hasAccess: boolean, installed: number, latest: number | null): boolean {
+  return lang !== "en" && hasAccess && latest != null && latest > installed;
+}
+
+/** Wait before the next download attempt after `failures` failed ones: 5 s doubling, max 30 min. */
+export function localeRetryDelayMs(failures: number): number {
+  return Math.min(30 * 60_000, 5_000 * 2 ** Math.max(0, Math.min(failures, 20)));
+}
+
+export interface LocalePackFile {
+  name: string;
+  sha256: string;
+  bytes: number;
+}
+
+export interface LocalePackManifest {
+  lang: LangCode;
+  version: number;
+  files: LocalePackFile[];
+}
+
+const LOCALE_FILE = /^(lines|dict|grammar|notes-\d{2})\.json$/;
+
+/** The validated manifest of a language pack, or null: right language and version, every file
+ * named once with a sha-256 and size, all required files present. */
+export function localePackManifest(raw: unknown, lang: LangCode, version: number): LocalePackManifest | null {
+  if (!isRecord(raw) || raw["lang"] !== lang || raw["version"] !== version || !Array.isArray(raw["files"])) return null;
+  const files: LocalePackFile[] = [];
+  const names = new Set<string>();
+  for (const f of raw["files"]) {
+    if (!isRecord(f) || typeof f["name"] !== "string" || !LOCALE_FILE.test(f["name"]) || names.has(f["name"])) return null;
+    if (typeof f["sha256"] !== "string" || !/^[0-9a-f]{64}$/.test(f["sha256"])) return null;
+    if (typeof f["bytes"] !== "number" || !Number.isInteger(f["bytes"]) || f["bytes"] <= 0) return null;
+    names.add(f["name"]);
+    files.push({ name: f["name"], sha256: f["sha256"], bytes: f["bytes"] });
+  }
+  for (const need of ["lines.json", "dict.json", "grammar.json"]) if (!names.has(need)) return null;
+  for (let i = 0; i < LOCALE_NOTE_SHARDS; i++) if (!names.has(`notes-${String(i).padStart(2, "0")}.json`)) return null;
+  return { lang, version, files };
+}
+
+/** Problem with a language pack file's parsed JSON, or null. */
+export function localeFileProblem(name: string, j: unknown): string | null {
+  if (!isRecord(j)) return "shape";
+  const str = (x: unknown) => typeof x === "string";
+  if (name === "lines.json") {
+    for (const v of Object.values(j)) {
+      if (!isRecord(v) || !str(v["s"]) || !str(v["t"]) || !Array.isArray(v["l"]) || !v["l"].every(str)) return "lines";
+    }
+    return Object.keys(j).length ? null : "lines";
+  }
+  if (name === "dict.json") {
+    for (const v of Object.values(j)) {
+      if (!isRecord(v) || !Array.isArray(v["m"]) || !v["m"].every(str) || !Array.isArray(v["ex"]) || !v["ex"].every(str)) return "dict";
+    }
+    return Object.keys(j).length ? null : "dict";
+  }
+  if (name === "grammar.json") {
+    return Object.values(j).every(str) ? null : "grammar";
+  }
+  for (const v of Object.values(j)) {
+    if (!isRecord(v) || !str(v["s"]) || !isRecord(v["w"]) || !isRecord(v["l"])) return "notes";
+    for (const x of Object.values(v["w"])) if (!isRecord(x) || !str(x["m"]) || !str(x["n"])) return "notes";
+    for (const x of Object.values(v["l"])) if (!isRecord(x) || !str(x["lit"]) || !str(x["tip"])) return "notes";
+  }
+  return null;
+}
+
+/** Where a language pack lives, from the public content_settings.locale_packs row:
+ * `{ vi: { v: 3, urls: [primary manifest, mirror manifest] } }`. Null = no pack (English content). */
+export interface LocalePackPointer {
+  version: number;
+  urls: string[];
+}
+
+export function localePackPointer(raw: unknown, lang: LangCode): LocalePackPointer | null {
+  if (lang === "en" || !isRecord(raw)) return null;
+  const e = raw[lang];
+  if (!isRecord(e) || !isWhole(e["v"]) || e["v"] < 1 || !Array.isArray(e["urls"])) return null;
+  const list = e["urls"] as unknown[];
+  if (list.length < 1 || list.length > 3) return null;
+  const urls = list.map((u) => founderVideoUrl(u));
+  return urls.every((u): u is string => u !== null) ? { version: e["v"], urls } : null;
+}
+
+export type LocaleLine = { s: string; t: string; l: string[] };
+export type LocaleEntry = { m: string[]; ex: string[] };
+export type LocaleNote = { s: string; w: Record<string, { m: string; n: string }>; l: Record<string, { lit: string; tip: string }> };
+
+/** A clip in the learner's language: title + line translations only when the pack was made for
+ * exactly this clip (fingerprint and line count), grammar descriptions by their English text.
+ * Anything missing or empty stays English. */
+export function localizeClip<C extends { title: string; grammar: string[]; lines: { en: string; ja: string; words: { s: string }[] }[] }>(
+  clip: C, entry: LocaleLine | undefined, grammar: Record<string, string> | null,
+): C {
+  const g = grammar ? clip.grammar.map((x) => grammar[x] || x) : clip.grammar;
+  const fits = !!entry && entry.s === clipLocaleSig(clip.lines) && entry.l.length === clip.lines.length;
+  if (!fits) return g === clip.grammar ? clip : { ...clip, grammar: g };
+  return {
+    ...clip,
+    title: entry.t.trim() || clip.title,
+    grammar: g,
+    lines: clip.lines.map((l, i) => ({ ...l, en: entry.l[i]?.trim() || l.en })),
+  };
+}
+
+/** A dictionary entry in the learner's language when sense and example counts match. */
+export function localizeEntry<E extends { m: { pos: string[]; g: string }[]; ex: { ja: string; en: string }[] }>(e: E, d: LocaleEntry | undefined): E {
+  if (!d || d.m.length !== e.m.length || d.ex.length !== e.ex.length) return e;
+  return { ...e, m: e.m.map((s, i) => ({ ...s, g: d.m[i]?.trim() || s.g })), ex: e.ex.map((x, i) => ({ ...x, en: d.ex[i]?.trim() || x.en })) };
+}
+
+/** A clip's explanations in the learner's language, only for the clip they were made for. */
+export function localizeNotes(
+  notes: { w: Record<string, { m: string; n: string }>; l: Record<string, { lit: string; tip: string }> },
+  n: LocaleNote | undefined, sig: string,
+): { w: Record<string, { m: string; n: string }>; l: Record<string, { lit: string; tip: string }> } {
+  if (!n || n.s !== sig) return notes;
+  const w: Record<string, { m: string; n: string }> = {};
+  for (const [k, v] of Object.entries(notes.w)) {
+    const t = n.w[k];
+    w[k] = t && t.m.trim() && t.n.trim() ? { m: t.m.trim(), n: t.n.trim() } : v;
+  }
+  const l: Record<string, { lit: string; tip: string }> = {};
+  for (const [k, v] of Object.entries(notes.l)) {
+    const t = n.l[k];
+    l[k] = t ? { lit: v.lit ? t.lit.trim() || v.lit : v.lit, tip: v.tip ? t.tip.trim() || v.tip : v.tip } : v;
+  }
+  return { w, l };
 }

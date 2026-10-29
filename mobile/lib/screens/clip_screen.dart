@@ -9,6 +9,7 @@ import '../theme/tokens.dart';
 import '../widgets/clip_view.dart';
 import '../widgets/common.dart';
 import '../widgets/ui.dart';
+import '../i18n/i18n.dart';
 
 /// A single clip (from Explore, Saved, History, "hear it again") — mirrors src/routes/clip.$clipId.tsx.
 class ClipScreen extends StatefulWidget {
@@ -43,7 +44,7 @@ class _ClipScreenState extends State<ClipScreen> {
             TopBar(onBack: _back, title: clip?.title ?? ''),
             Expanded(
               child: clip == null
-                  ? const ErrorState(title: 'Clip not found', body: 'It may have been removed from the library.')
+                  ? ErrorState(title: tr('Clip not found'), body: tr('It may have been removed from the library.'))
                   : (allowed || premium)
                       ? ClipView(clip: clip, content: content, active: true, bottomInset: 24)
                       : Padding(
@@ -51,11 +52,11 @@ class _ClipScreenState extends State<ClipScreen> {
                           child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
                             const Mascot(MascotPose.heart, size: 112),
                             const SizedBox(height: 12),
-                            Text("That's your $freeDailyClips free clips for today", textAlign: TextAlign.center, style: txt(22, w: FontWeight.w900, h: 1.2)),
+                            Text(tr("That's your {n} free clips for today", {'n': freeDailyClips}), textAlign: TextAlign.center, style: txt(22, w: FontWeight.w900, h: 1.2)),
                             const SizedBox(height: 8),
-                            Text('Come back tomorrow, or unlock every clip with a free week of Premium.', textAlign: TextAlign.center, style: txt(15, w: FontWeight.w400, c: T.muted)),
+                            Text(tr('Come back tomorrow, or unlock every clip with a free week of Premium.'), textAlign: TextAlign.center, style: txt(15, w: FontWeight.w400, c: T.muted)),
                             const SizedBox(height: 24),
-                            Button3D(label: 'Try Premium free', onPressed: () => context.push('/trial')),
+                            Button3D(label: tr('Try Premium free'), onPressed: () => context.push('/trial')),
                           ]),
                         ),
             ),

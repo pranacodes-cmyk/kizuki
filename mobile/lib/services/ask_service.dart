@@ -5,6 +5,7 @@ import 'package:http/http.dart' as http;
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 import '../data/ask.dart';
+import '../i18n/i18n.dart';
 import '../logic/logic.dart';
 import 'config.dart';
 import 'sync_service.dart';
@@ -35,7 +36,7 @@ class AskRequest {
     final req = http.Request('POST', Uri.parse('${AppConfig.apiOrigin}$askPath'))
       ..headers.addAll({'content-type': 'application/json', 'authorization': 'Bearer $token'})
       ..body = jsonEncode({
-        'context': ctx.toJson(),
+        'context': {...ctx.toJson(), 'lang': I18n.lang.value},
         'messages': [
           for (final m in askHistory(history))
             {'id': m.id, 'role': m.role, 'parts': [{'type': 'text', 'text': m.text}]},

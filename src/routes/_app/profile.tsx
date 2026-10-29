@@ -9,6 +9,7 @@ import { useSession } from "@/hooks/use-session";
 import { achievements, dayKey, dayMs, heatLevel, heatmapWeeks, isUnlocked, metricValue } from "@/lib/logic";
 import { statsOf, useApp } from "@/lib/store";
 import { cn } from "@/lib/utils";
+import { tr, trn } from "@/lib/i18n";
 
 export const Route = createFileRoute("/_app/profile")({
   head: () => ({
@@ -42,22 +43,22 @@ function Profile() {
   return (
     <Screen>
       <div className="flex h-12 shrink-0 items-center justify-end px-3">
-        <Link to="/settings" aria-label="Settings" className="press flex h-10 w-10 items-center justify-center rounded-full text-muted-foreground"><Gear className="h-6 w-6" /></Link>
+        <Link to="/settings" aria-label={tr("Settings")} className="press flex h-10 w-10 items-center justify-center rounded-full text-muted-foreground"><Gear className="h-6 w-6" /></Link>
       </div>
       <div className="flex flex-col items-center px-5">
         <div className="flex h-24 w-24 items-center justify-center rounded-full bg-surface"><Mascot pose="face" className="h-20 w-20" /></div>
-        <p className="mt-2 text-[1.5rem] font-black">{name || "Learner"}</p>
+        <p className="mt-2 text-[1.5rem] font-black">{name || tr("Learner")}</p>
         {session?.user.email && <p className="text-[0.8125rem] font-bold text-faint">{session.user.email}</p>}
       </div>
 
       <div className="mx-5 mt-4 grid grid-cols-3 divide-x divide-border rounded-2xl bg-surface py-3">
-        <Stat icon="🔥" value={String(stats.streak)} label="Streak" />
-        <Stat icon="📚" value={String(stats.words)} label="Words" />
-        <Stat icon="⏰" value={fmtTime(stats.seconds)} label="Time" />
+        <Stat icon="🔥" value={String(stats.streak)} label={tr("Streak")} />
+        <Stat icon="📚" value={String(stats.words)} label={tr("Words")} />
+        <Stat icon="⏰" value={fmtTime(stats.seconds)} label={tr("Time")} />
       </div>
 
       <div className="px-5">
-        <SectionTitle>Activity</SectionTitle>
+        <SectionTitle>{tr("Activity")}</SectionTitle>
         <div className="rounded-2xl bg-surface p-3">
           <div className="flex justify-between gap-[3px]">
             {weeks.map((wk, i) => (
@@ -69,10 +70,10 @@ function Profile() {
               </div>
             ))}
           </div>
-          <div className="mt-2 flex items-center justify-end gap-1 text-[0.6875rem] font-bold text-faint">Less {HEAT.map((h) => <span key={h} className={cn("h-2.5 w-2.5 rounded-[2px]", h)} />)} More</div>
+          <div className="mt-2 flex items-center justify-end gap-1 text-[0.6875rem] font-bold text-faint"><span>{tr("Less")}</span>{HEAT.map((h) => <span key={h} className={cn("h-2.5 w-2.5 rounded-[2px]", h)} />)}<span>{tr("More")}</span></div>
         </div>
 
-        <SectionTitle right={<Link to="/achievements" className="flex items-center text-[0.875rem] font-extrabold text-muted-foreground">View all <ChevronRight className="h-4 w-4" /></Link>}>Achievements</SectionTitle>
+        <SectionTitle right={<Link to="/achievements" className="flex items-center text-[0.875rem] font-extrabold text-muted-foreground">{tr("View all")}{" "}<ChevronRight className="h-4 w-4" /></Link>}>{tr("Achievements")}</SectionTitle>
         <div className="flex gap-3 overflow-x-auto pb-1 no-scrollbar">
           {achievements.slice(0, 8).map((a) => {
             const done = isUnlocked(a, stats);
@@ -82,7 +83,7 @@ function Profile() {
                   {a.icon}
                   {!done && <Lock className="absolute -bottom-0.5 -right-0.5 h-5 w-5 rounded-full bg-surface-3 p-1" />}
                 </span>
-                <span className="mt-1.5 line-clamp-2 text-[0.6875rem] font-extrabold leading-tight">{a.title}</span>
+                <span className="mt-1.5 line-clamp-2 text-[0.6875rem] font-extrabold leading-tight">{tr(a.title)}</span>
                 {!done && <span className="text-[0.625rem] font-bold text-faint tabular">{Math.min(metricValue(stats, a.metric), a.goal)}/{a.goal}</span>}
               </div>
             );
@@ -91,14 +92,15 @@ function Profile() {
 
         <div className="mt-5 space-y-2 pb-28">
           {premium.active ? (
-            <Row icon={<Crown className="h-5 w-5 text-gold" />} title="Kizuki Premium" sub={trialDays > 0 ? `Free trial · ${trialDays} day${trialDays === 1 ? "" : "s"} left` : "Active"} onClick={() => navigate({ to: "/settings" })} />
+            <Row icon={<Crown className="h-5 w-5 text-gold" />} title={tr("Kizuki Premium")} sub={trialDays > 0 ? trn(trialDays, "Free trial · {n} day left", "Free trial · {n} days left") : tr("Active")} onClick={() => navigate({ to: "/settings" })} />
           ) : (
-            <Row icon={<Crown className="h-5 w-5 text-gold" />} title="Try Premium free" sub="Unlimited clips for 7 days" onClick={() => navigate({ to: "/trial" })} accent />
+            <Row icon={<Crown className="h-5 w-5 text-gold" />} title={tr("Try Premium free")} sub={tr("Unlimited clips for 7 days")} onClick={() => navigate({ to: "/trial" })} accent />
           )}
-          {!session && <Row icon="☁️" title="Save your progress" sub="Create a free account to sync devices" onClick={() => navigate({ to: "/account", search: { mode: "signup" } })} />}
-          <Row icon="🔖" title="Saved clips" sub="Clips you bookmarked" onClick={() => navigate({ to: "/saved" })} />
-          <Row icon="⏱️" title="Watch history" sub="Everything you've watched" onClick={() => navigate({ to: "/history" })} />
-          <Row icon="💬" title="Help & feedback" sub="Questions, problems or ideas" onClick={() => navigate({ to: "/support" })} />
+          {!session && <Row icon="☁️" title={tr("Save your progress")} sub={tr("Create a free account to sync devices")} onClick={() => navigate({ to: "/account", search: { mode: "signup" } })} />}
+          <Row icon="📱" title={tr("Home & Lock Screen widgets")} sub={tr("A little Japanese.")} onClick={() => navigate({ to: "/widgets" })} />
+          <Row icon="🔖" title={tr("Saved clips")} sub={tr("Clips you bookmarked")} onClick={() => navigate({ to: "/saved" })} />
+          <Row icon="⏱️" title={tr("Watch history")} sub={tr("Everything you've watched")} onClick={() => navigate({ to: "/history" })} />
+          <Row icon="💬" title={tr("Help & feedback")} sub={tr("Questions, problems or ideas")} onClick={() => navigate({ to: "/support" })} />
         </div>
       </div>
     </Screen>

@@ -9,6 +9,7 @@ import '../data/models.dart' as m;
 import '../theme/tokens.dart';
 import 'common.dart';
 import 'ui.dart';
+import '../i18n/i18n.dart';
 
 /// Plays just one line of the original clip (the "original audio" on a flashcard) through
 /// the official YouTube player, visible at ≥200px tall — mirrors ContextPlayer.tsx.
@@ -139,7 +140,7 @@ class _ContextPlayerState extends State<ContextPlayer> {
               if (!started)
                 Semantics(
                   button: true,
-                  label: 'Play the original line',
+                  label: tr('Play the original line'),
                   child: GestureDetector(
                     onTap: _play,
                     child: Stack(fit: StackFit.expand, children: [
@@ -161,14 +162,14 @@ class _ContextPlayerState extends State<ContextPlayer> {
                   bottom: 8,
                   child: Semantics(
                     button: true,
-                    label: 'Replay the original line',
+                    label: tr('Replay the original line'),
                     child: Press(
                       onTap: _play,
                       child: Container(
                         height: 40,
                         padding: const EdgeInsets.symmetric(horizontal: 12),
                         decoration: BoxDecoration(color: T.stage.withValues(alpha: 0.8), borderRadius: BorderRadius.circular(99)),
-                        child: Row(mainAxisSize: MainAxisSize.min, children: [const Icon(LucideIcons.volume2, size: 16), const SizedBox(width: 6), Text('Replay', style: txt(13, w: FontWeight.w800))]),
+                        child: Row(mainAxisSize: MainAxisSize.min, children: [const Icon(LucideIcons.volume2, size: 16), const SizedBox(width: 6), Text(tr('Replay'), style: txt(13, w: FontWeight.w800))]),
                       ),
                     ),
                   ),
@@ -178,7 +179,7 @@ class _ContextPlayerState extends State<ContextPlayer> {
                   color: T.stage.withValues(alpha: 0.85),
                   alignment: Alignment.center,
                   padding: const EdgeInsets.symmetric(horizontal: 16),
-                  child: Text("The original clip isn't available right now.", textAlign: TextAlign.center, style: txt(14, w: FontWeight.w700)),
+                  child: Text(tr("The original clip isn't available right now."), textAlign: TextAlign.center, style: txt(14, w: FontWeight.w700)),
                 ),
             ]),
           ),

@@ -16,6 +16,7 @@ import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import 'ui.dart';
 import 'tour.dart';
+import '../i18n/i18n.dart';
 
 /// "Ask Kizuki" chat about a line (and optionally a tapped word) — mirrors AskSheet.tsx.
 Future<void> showAskSheet(BuildContext context, AskContext ctx) =>
@@ -165,10 +166,10 @@ class _AskSheetState extends State<AskSheet> {
               const SizedBox(width: 12),
               Expanded(
                 child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                  Text('Ask Kizuki', style: txt(18, w: FontWeight.w900)),
+                  Text(tr('Ask Kizuki'), style: txt(18, w: FontWeight.w900)),
                   word != null
-                      ? Text.rich(TextSpan(children: [const TextSpan(text: 'About '), TextSpan(text: word.head, style: jp(13, c: T.foreground)), const TextSpan(text: ' in this line')]), style: txt(13, c: T.muted))
-                      : Text('About this line', style: txt(13, c: T.muted)),
+                      ? Text.rich(TextSpan(children: trSpans('About [{word}] in this line', jp(13, c: T.foreground), {'word': word.head})), style: txt(13, c: T.muted))
+                      : Text(tr('About this line'), style: txt(13, c: T.muted)),
                 ]),
               ),
             ]),
@@ -188,12 +189,12 @@ class _AskSheetState extends State<AskSheet> {
           if (_tourExample) Expanded(child: SingleChildScrollView(
             padding: const EdgeInsets.fromLTRB(20, 14, 20, 12),
             child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-              Text('EXAMPLE · NO QUESTION SENT', style: txt(11, w: FontWeight.w800, c: T.muted)),
+              Text(tr('EXAMPLE · NO QUESTION SENT'), style: txt(11, w: FontWeight.w800, c: T.muted)),
               const SizedBox(height: 10),
-              const _UserBubble(text: 'What does this word mean here?'),
+              _UserBubble(text: tr('What does this word mean here?')),
               _Bubble(text: word != null && word.gloss.isNotEmpty
-                ? '**${word.surface}** here means **${word.gloss}**.\nThe sentence above shows the context.'
-                : widget.ctx.en.isNotEmpty ? 'This line means: **${widget.ctx.en}**' : 'Ask about grammar, meaning or another example from this line.'),
+                ? tr('**{surface}** here means **{gloss}**.\nThe sentence above shows the context.', {'surface': word.surface, 'gloss': word.gloss})
+                : widget.ctx.en.isNotEmpty ? tr('This line means: **{en}**', {'en': widget.ctx.en}) : tr('Ask about grammar, meaning or another example from this line.')),
             ]),
           )) else if (!signedIn) Expanded(child: _locked()) else ...[
             Expanded(
@@ -230,7 +231,7 @@ class _AskSheetState extends State<AskSheet> {
               Padding(
                 padding: const EdgeInsets.fromLTRB(20, 0, 20, 6),
                 child: Text(
-                  'AI answers can be wrong — double-check anything important.',
+                  tr('AI answers can be wrong — double-check anything important.'),
                   textAlign: TextAlign.center,
                   style: txt(11, w: FontWeight.w600, c: T.faint),
                 ),
@@ -262,7 +263,7 @@ class _AskSheetState extends State<AskSheet> {
             decoration: InputDecoration(
               counterText: '',
               isDense: true,
-              hintText: widget.ctx.word != null ? 'Ask about this word…' : 'Ask about this line…',
+              hintText: widget.ctx.word != null ? tr('Ask about this word…') : tr('Ask about this line…'),
               hintStyle: txt(15, w: FontWeight.w500, c: T.faint),
               filled: true,
               fillColor: T.surface2,
@@ -277,7 +278,7 @@ class _AskSheetState extends State<AskSheet> {
         const SizedBox(width: 8),
         Semantics(
           button: true,
-          label: _busy ? 'Stop answer' : 'Send question',
+          label: _busy ? tr('Stop answer') : tr('Send question'),
           child: Press(
             key: ValueKey(_busy ? 'ask-stop' : 'ask-send'),
             onTap: _busy ? _stop : (empty ? null : () => _send(_input.text)),
@@ -298,11 +299,11 @@ class _AskSheetState extends State<AskSheet> {
         padding: const EdgeInsets.fromLTRB(16, 14, 16, 14),
         decoration: BoxDecoration(color: T.primary.withValues(alpha: 0.1), borderRadius: BorderRadius.circular(16)),
         child: Column(children: [
-          Text('Premium is required to ask Kizuki', textAlign: TextAlign.center, style: txt(15, w: FontWeight.w900)),
+          Text(tr('Premium is required to ask Kizuki'), textAlign: TextAlign.center, style: txt(15, w: FontWeight.w900)),
           const SizedBox(height: 2),
-          Text('Premium gives you unlimited answers from Kizuki.', textAlign: TextAlign.center, style: txt(13, w: FontWeight.w500, c: T.muted)),
+          Text(tr('Premium gives you unlimited answers from Kizuki.'), textAlign: TextAlign.center, style: txt(13, w: FontWeight.w500, c: T.muted)),
           const SizedBox(height: 10),
-          Button3D(label: 'See plans', height: 48, onPressed: () => _go('/trial')),
+          Button3D(label: tr('See plans'), height: 48, onPressed: () => _go('/trial')),
         ]),
       );
 
@@ -311,12 +312,12 @@ class _AskSheetState extends State<AskSheet> {
         child: Column(children: [
           const Mascot(MascotPose.wave, size: 96),
           const SizedBox(height: 12),
-          Text('Ask Kizuki anything', textAlign: TextAlign.center, style: txt(20, w: FontWeight.w900)),
+          Text(tr('Ask Kizuki anything'), textAlign: TextAlign.center, style: txt(20, w: FontWeight.w900)),
           const SizedBox(height: 6),
-          Text('Sign in with your Premium account to ask about this line. Your words and streak sync too.',
+          Text(tr('Sign in with your Premium account to ask about this line. Your words and streak sync too.'),
               textAlign: TextAlign.center, style: txt(15, w: FontWeight.w500, c: T.muted, h: 1.4)),
           const SizedBox(height: 16),
-          Button3D(key: const ValueKey('ask-signup'), label: 'Sign in', height: 52, onPressed: () => _go('/account')),
+          Button3D(key: const ValueKey('ask-signup'), label: tr('Sign in'), height: 52, onPressed: () => _go('/account')),
         ]),
       );
 }
@@ -361,7 +362,7 @@ class _Bubble extends StatelessWidget {
                 borderRadius: BorderRadius.only(topLeft: Radius.circular(4), topRight: Radius.circular(16), bottomLeft: Radius.circular(16), bottomRight: Radius.circular(16)),
               ),
               child: thinking
-                  ? Row(mainAxisSize: MainAxisSize.min, children: [const _Dots(), const SizedBox(width: 8), Text('Kizuki is thinking…', style: txt(14, w: FontWeight.w600, c: T.muted))])
+                  ? Row(mainAxisSize: MainAxisSize.min, children: [const _Dots(), const SizedBox(width: 8), Text(tr('Kizuki is thinking…'), style: txt(14, w: FontWeight.w600, c: T.muted))])
                   : askRichText(text, txt(15, w: FontWeight.w500, h: 1.45)),
             ),
           ),
@@ -384,7 +385,7 @@ class _UserBubble extends StatelessWidget {
               color: T.primary,
               borderRadius: BorderRadius.only(topLeft: Radius.circular(16), topRight: Radius.circular(4), bottomLeft: Radius.circular(16), bottomRight: Radius.circular(16)),
             ),
-            child: Text(text, style: txt(15, w: FontWeight.w700, c: T.primaryFg, h: 1.4)),
+            child: Text(tr(text), style: txt(15, w: FontWeight.w700, c: T.primaryFg, h: 1.4)),
           ),
         ),
       );
@@ -402,11 +403,11 @@ class _ErrorBubble extends StatelessWidget {
         child: Row(children: [
           const Icon(LucideIcons.circleAlert, size: 16, color: T.danger),
           const SizedBox(width: 8),
-          Expanded(child: Text(text, style: txt(14, w: FontWeight.w600, h: 1.35))),
+          Expanded(child: Text(tr(text), style: txt(14, w: FontWeight.w600, h: 1.35))),
           Press(
             key: const ValueKey('ask-retry'),
             onTap: onRetry,
-            child: Padding(padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6), child: Text('Try again', style: txt(14, w: FontWeight.w900, c: T.primary))),
+            child: Padding(padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6), child: Text(tr('Try again'), style: txt(14, w: FontWeight.w900, c: T.primary))),
           ),
         ]),
       );

@@ -4,6 +4,8 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../data/content.dart';
+import '../i18n/i18n.dart';
 import '../logic/logic.dart';
 import '../services/attribution.dart';
 import '../services/analytics.dart';
@@ -89,6 +91,8 @@ class SavedWord {
   Card card;
   final int addedAt;
   int updatedAt;
+  /// App language the meaning was saved in (missing on older saves = English).
+  final String? glossLang;
   SavedWord({
     required this.key,
     this.dictId,
@@ -107,8 +111,12 @@ class SavedWord {
     required this.card,
     required this.addedAt,
     required this.updatedAt,
+    this.glossLang,
   });
   WordLite get lite => WordLite(key, status, card, addedAt);
+
+  /// The meaning in the current app language (see savedGloss).
+  String glossIn(Content? c) => savedGloss(gloss, glossLang, dictId == null ? null : c?.dict[dictId]?.gloss, I18n.lang.value);
   Map<String, dynamic> toJson() => {
         'key': key,
         'dictId': dictId,
@@ -127,6 +135,7 @@ class SavedWord {
         'card': card.toJson(),
         'addedAt': addedAt,
         'updatedAt': updatedAt,
+        if (glossLang != null) 'glossLang': glossLang,
       };
   factory SavedWord.fromJson(Map<String, dynamic> j) => SavedWord(
         key: j['key'] as String,
@@ -146,6 +155,7 @@ class SavedWord {
         card: Card.fromJson((j['card'] as Map).cast<String, dynamic>()),
         addedAt: (j['addedAt'] as num? ?? 0).toInt(),
         updatedAt: (j['updatedAt'] as num? ?? 0).toInt(),
+        glossLang: j['glossLang'] as String?,
       );
 }
 
@@ -176,6 +186,7 @@ class WordInput {
 class Settings {
   bool furigana, romaji, translation, spacing, highlight, autoSave, flashFurigana, flashRomaji, reminders;
   bool haptics; // Settings → Vibration feedback (missing in older saved state = on)
+  bool widgetSaved, widgetReading, widgetMeaning;
   double textSize; // text scale: 0.85 small · 1 medium · 1.2 large (same as web)
   double speed;
   String flashFront; // jp | en
@@ -195,6 +206,9 @@ class Settings {
     this.reminders = true,
     this.reminderFreq = 'standard',
     this.haptics = true,
+    this.widgetSaved = false,
+    this.widgetReading = true,
+    this.widgetMeaning = true,
   });
   Map<String, dynamic> toJson() => {
         'furigana': furigana,
@@ -211,6 +225,7 @@ class Settings {
         'reminders': reminders,
         'reminderFreq': reminderFreq,
         'haptics': haptics,
+        'widgetSaved': widgetSaved, 'widgetReading': widgetReading, 'widgetMeaning': widgetMeaning,
       };
   factory Settings.fromJson(Map<String, dynamic> j) => Settings(
         furigana: j['furigana'] as bool? ?? true,
@@ -227,6 +242,9 @@ class Settings {
         reminders: j['reminders'] as bool? ?? true,
         reminderFreq: j['reminderFreq'] as String? ?? 'standard',
         haptics: j['haptics'] as bool? ?? true,
+        widgetSaved: j['widgetSaved'] as bool? ?? false,
+        widgetReading: j['widgetReading'] as bool? ?? true,
+        widgetMeaning: j['widgetMeaning'] as bool? ?? true,
       );
 }
 
@@ -467,6 +485,7 @@ class AppState extends ChangeNotifier {
       card: newCard(t),
       addedAt: t,
       updatedAt: t,
+      glossLang: I18n.lang.value,
     );
     Analytics.track('word_saved', {'clip_id': i.clipId, 'word_id': i.key, 'jlpt': i.jlpt ?? 0});
     activity[today] = todayActivity.add(words: 1);
@@ -497,6 +516,7 @@ class AppState extends ChangeNotifier {
         card: newCard(t),
         addedAt: t,
         updatedAt: t,
+        glossLang: I18n.lang.value,
       );
     }
     _commit();

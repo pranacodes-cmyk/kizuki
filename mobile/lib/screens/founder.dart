@@ -12,6 +12,7 @@ import '../services/trial_preload.dart';
 import '../theme/tokens.dart';
 import '../widgets/common.dart';
 import '../widgets/ui.dart';
+import '../i18n/i18n.dart';
 
 /// The short welcome message before the trial (a presenter from the Kizuki team, with
 /// captions) — mirrors src/routes/founder.tsx. The video ships inside the app, so it plays
@@ -214,7 +215,7 @@ class _FounderScreenState extends State<FounderScreen> with TickerProviderStateM
           child: Column(children: [
             const SizedBox(height: 16),
             Text.rich(
-              TextSpan(children: [const TextSpan(text: 'A quick '), TextSpan(text: 'hello', style: txt(24, w: FontWeight.w900, c: T.primary)), const TextSpan(text: ' before you start')]),
+              TextSpan(children: trSpans('A quick [hello] before you start', txt(24, w: FontWeight.w900, c: T.primary))),
               textAlign: TextAlign.center,
               style: txt(24, w: FontWeight.w900),
             ),
@@ -224,7 +225,7 @@ class _FounderScreenState extends State<FounderScreen> with TickerProviderStateM
                 constraints: const BoxConstraints(maxWidth: 180, maxHeight: 320),
                 child: Semantics(
                 button: true,
-                label: ended ? 'Play again' : (playing ? 'Pause' : 'Play'),
+                label: ended ? tr('Play again') : (playing ? tr('Pause') : tr('Play')),
                 child: GestureDetector(
                   onTap: _toggle,
                   child: ClipRRect(
@@ -261,7 +262,7 @@ class _FounderScreenState extends State<FounderScreen> with TickerProviderStateM
                           top: 16,
                           child: Semantics(
                             button: true,
-                            label: muted ? 'Turn sound on' : 'Mute',
+                            label: muted ? tr('Turn sound on') : tr('Mute'),
                             child: GestureDetector(
                               onTap: _toggleMute,
                               child: Container(
@@ -305,18 +306,18 @@ class _FounderScreenState extends State<FounderScreen> with TickerProviderStateM
               ))),
             ),
             const SizedBox(height: 16),
-            Text('Ten minutes a day. Then it just clicks.', textAlign: TextAlign.center, style: txt(17, w: FontWeight.w900)),
+            Text(tr('Ten minutes a day. Then it just clicks.'), textAlign: TextAlign.center, style: txt(17, w: FontWeight.w900)),
             const SizedBox(height: 12),
             Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
-              for (final item in [(LucideIcons.headphones, 'Real voices'), (LucideIcons.bookOpen, 'Words in context'), (LucideIcons.repeat, 'Lasting recall')])
-                Expanded(child: Column(children: [Icon(item.$1, size: 20, color: T.primary), const SizedBox(height: 6), Text(item.$2, textAlign: TextAlign.center, style: txt(12, c: T.foreground.withValues(alpha: 0.7)))])),
+              for (final item in [(LucideIcons.headphones, tr('Real voices')), (LucideIcons.bookOpen, tr('Words in context')), (LucideIcons.repeat, tr('Lasting recall'))])
+                Expanded(child: Column(children: [Icon(item.$1, size: 20, color: T.primary), const SizedBox(height: 6), Text(tr(item.$2), textAlign: TextAlign.center, style: txt(12, c: T.foreground.withValues(alpha: 0.7)))])),
             ]),
             Padding(
               padding: const EdgeInsets.only(top: 20, bottom: 8),
               child: Row(children: [
                 Ring(value: (1 - t / total).clamp(0.0, 1.0), color: T.primary, size: 56, stroke: 5, child: Text('$left', style: txt(15, w: FontWeight.w900))),
                 const SizedBox(width: 16),
-                Expanded(child: Button3D(label: 'Continue', onPressed: _continue)),
+                Expanded(child: Button3D(label: tr('Continue'), onPressed: _continue)),
               ]),
             ),
           ]),

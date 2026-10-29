@@ -2,6 +2,8 @@
 import { describe, expect, it } from "vitest";
 
 import {
+  LANGUAGES, isLangCode, languageForLocale, fillTemplate, highlightParts, localeNoteShard, clipLocaleSig, localePackDue, localeRetryDelayMs, localePackManifest, localeFileProblem, localePackPointer, localizeClip, localizeEntry, localizeNotes,
+  widgetWords, widgetDestination, WIDGET_SLOT_MS, type WidgetWord,
   signInProviders, nativeSignInEnabled, signInMethod, localStateFor, accountNeedsOnboarding,
   founderVideoEnabled, founderVideoUrl, onboardingAfterPlan, trialDays,
   subscriptionAccess, learningPath, purchaseNeedsAccount, ReviewSession, SUPPORT_TOPICS, supportMessageError, answerCard, bestStreak, clipScore, currentStreak, dayKey, dayMs, fnv1a, formatInterval, formatWhen, goalDateLabel,
@@ -9,12 +11,48 @@ import {
   newlyUnlocked, nextIntervalLabel, normalizeQuery, planItems, rankFeed, recommendedMinutes, toKatakana, wordStatus, wordsPerMonth,
   searchClips, clipWordKeys, wordKeyOf, dueWordKeys, wordCounts, mergeState, canWatchClip, clipsWithWord, kanaQueue, kanaLearned, customStudyKeys,
   asksToday, canAsk, asksLeft, cleanQuestion, askHistory, type AskTurn,
-  wordLevel, cardAtLevel, withWordLevel, WORD_LEVELS, repeatsSense, pickTourWord,
+  wordLevel, cardAtLevel, withWordLevel, WORD_LEVELS, repeatsSense, savedGloss, pickTourWord,
   type RankClip, starterFeedOrder, STARTER_WATCH_LIMIT, type StarterClip, clipWindowAvailable, simulatedTrialEnd, subscriptionPhase,
   contentPackAction, contentPackManifest, contentObjectUrl, notesShard, contentIndexProblem, contentClipProblem, contentDictProblem, contentNotesProblem,
 } from "./logic";
 
 const NOW = 1_800_000_000_000;
+describe('native widget rules', () => {
+  const base = { clipId: '', example: '', due: 0, status: 'public' };
+  const beginner: WidgetWord = { ...base, key: 'b', word: '猫', reading: 'ねこ', meaning: 'cat', jlpt: 5 };
+  const advanced: WidgetWord = { ...base, key: 'a', word: '議論', reading: 'ぎろん', meaning: 'discussion', jlpt: 2 };
+  const saved: WidgetWord = { ...base, key: 'saved', word: '犬', reading: 'いぬ', meaning: 'dog', jlpt: 5, status: 'learning', due: 1 };
+  it('saved learning words are opt-in', () => {
+    expect(widgetWords([beginner], [saved], 'N5', false, 0).map(w => w.key)).toEqual(['b']);
+    expect(widgetWords([beginner], [saved], 'N5', true, 0).map(w => w.key)).toEqual(['saved']);
+  });
+  it('beginner words never use advanced levels', () => {
+    expect(widgetWords([beginner, advanced], [], 'N5', false, 0).map(w => w.key)).toEqual(['b']);
+    expect(widgetWords([beginner, advanced], [], 'N2', false, 0).map(w => w.key)).toEqual(['a', 'b']);
+  });
+  it('known ignored and removed words never enter personal rotation', () => {
+    expect(widgetWords([beginner], ['known', 'ignored', 'removed'].map(status => ({ ...saved, status })), 'N5', true, 0).map(w => w.key)).toEqual(['b']);
+  });
+  it('due words come first without mutating review time', () => {
+    const later = { ...saved, key: 'later', word: '水', reading: 'みず', meaning: 'water', due: 100 };
+    expect(widgetWords([beginner], [later, saved], 'N5', true, 50).map(w => w.key)).toEqual(['saved', 'later']);
+    expect(saved.due).toBe(1);
+  });
+  it('public rotation advances by two hours', () => {
+    expect(WIDGET_SLOT_MS).toBe(7200000);
+    expect(widgetWords([beginner, advanced], [], 'N2', false, WIDGET_SLOT_MS)[0]?.key).toBe('b');
+  });
+  it('widget links never intercept auth or arbitrary destinations', () => {
+    expect(widgetDestination('kizuki://widget/review')).toBe('/review?deck=words');
+    expect(widgetDestination('kizuki://widget/word?clip=abc-1')).toBe('/clip/abc-1');
+    expect(widgetDestination('kizuki://widget/word?clip=../account')).toBe('/vocab');
+    expect(widgetDestination('kizuki://auth?session=private')).toBe(null);
+    expect(widgetDestination('https://evil.example/widget/review')).toBe(null);
+    expect(learningPath('/widgets')).toBe(false);
+    expect(learningPath('/language')).toBe(false);
+    expect(widgetWords([], [], 'N5', true, 0)).toEqual([]);
+  });
+});
 it('remote off skips founder; on restores it', () => {
   expect(onboardingAfterPlan(founderVideoEnabled(false))).toBe('/trial');
   expect(onboardingAfterPlan(founderVideoEnabled(true))).toBe('/founder');
@@ -296,6 +334,20 @@ describe("spaced repetition", () => {
     expect(repeatsSense("", "anything")).toBe(true);
     expect(repeatsSense("ate", "to eat")).toBe(false);
     expect(repeatsSense("the samurai", null)).toBe(false);
+  });
+  it("meanings in other scripts compare by their own letters", () => {
+    expect(repeatsSense("사과", "사과; 능금")).toBe(true);
+    expect(repeatsSense("แอปเปิล", "แอปเปิล; ผลแอปเปิล")).toBe(true);
+    expect(repeatsSense("cá", "cà; cà tím")).toBe(false);
+    expect(repeatsSense("táo", "Táo; quả táo")).toBe(true);
+  });
+  it("a saved word's meaning follows the app language", () => {
+    expect(savedGloss("apple", null, "táo", "vi")).toBe("táo");
+    expect(savedGloss("apple", undefined, "apple; apple tree", "en")).toBe("apple");
+    expect(savedGloss("quả táo này", "vi", "táo", "vi")).toBe("quả táo này");
+    expect(savedGloss("quả táo này", "vi", "사과", "ko")).toBe("사과");
+    expect(savedGloss("apple", "en", "", "vi")).toBe("apple");
+    expect(savedGloss("apple", "en", null, "vi")).toBe("apple");
   });
   it("the tour asks you to tap a new content word, never a filler like ん", () => {
     const w = (p: string, d: string | null = "1") => ({ p, d });
@@ -615,5 +667,105 @@ describe("server content packs", () => {
     expect(contentNotesProblem({ "v1-0": {} })).toBe(null);
     expect(contentNotesProblem({ "v1-0": { w: { "0.0": { m: 1 } } } })).toBe("notes");
     expect(contentNotesProblem([])).toBe("notes");
+  });
+});
+
+describe("learner languages", () => {
+  it("six languages, English first", () => {
+    expect(LANGUAGES.map((l) => l.code)).toEqual(["en", "vi", "id", "th", "ko", "pt"]);
+    expect(isLangCode("vi")).toBe(true);
+    expect(isLangCode("ja")).toBe(false);
+  });
+  it("phone locale picks the language, English otherwise", () => {
+    expect(["vi-VN", "in_ID", "id", "pt-PT", "pt-BR", "ko", "th-TH", "en-GB", "ja-JP", ""].map(languageForLocale)).toEqual(["vi", "id", "id", "pt", "pt", "ko", "th", "en", "en", "en"]);
+    expect(languageForLocale(null)).toBe("en");
+  });
+  it("templates fill named values only", () => {
+    expect(fillTemplate("{n} days left, {name}", { n: 3 })).toBe("3 days left, {name}");
+    expect(highlightParts("Try Kizuki [free] for 7 days")).toEqual([["Try Kizuki ", false], ["free", true], [" for 7 days", false]]);
+    expect(highlightParts("[ทดลองใช้ฟรี] 7 วัน")).toEqual([["ทดลองใช้ฟรี", true], [" 7 วัน", false]]);
+    expect(highlightParts("No highlight")).toEqual([["No highlight", false]]);
+    expect(fillTemplate("Hello")).toBe("Hello");
+  });
+  it("clips spread over 32 note files and carry a text fingerprint", () => {
+    expect(localeNoteShard("3N0YLRunmEQ-48")).toBe(18);
+    expect(localeNoteShard("1t12BjgS9D8-41")).toBe(8);
+    expect(clipLocaleSig([{ ja: "サメに気をつけて。", words: [{ s: "サメ" }, { s: "に" }] }, { ja: "うん！", words: [{ s: "うん" }] }])).toBe("db366650");
+  });
+  it("packs download only for a chosen language with learning access", () => {
+    expect(localePackDue("vi", true, 0, 3)).toBe(true);
+    expect(localePackDue("vi", false, 0, 3)).toBe(false);
+    expect(localePackDue("en", true, 0, 3)).toBe(false);
+    expect(localePackDue("vi", true, 3, 3)).toBe(false);
+    expect(localePackDue("vi", true, 0, null)).toBe(false);
+  });
+  it("failed downloads back off from 5 s to 30 min", () => {
+    expect([0, 1, 3, 10, 30].map(localeRetryDelayMs)).toEqual([5000, 10000, 40000, 1800000, 1800000]);
+  });
+  it("pack manifests need every file once with checksums", () => {
+    const sha = "a".repeat(64);
+    const files = ["lines.json", "dict.json", "grammar.json", ...Array.from({ length: 32 }, (_, i) => `notes-${String(i).padStart(2, "0")}.json`)].map((name) => ({ name, sha256: sha, bytes: 10 }));
+    expect(localePackManifest({ lang: "vi", version: 2, files }, "vi", 2)?.files.length).toBe(35);
+    expect(localePackManifest({ lang: "vi", version: 2, files }, "th", 2)).toBe(null);
+    expect(localePackManifest({ lang: "vi", version: 2, files }, "vi", 3)).toBe(null);
+    expect(localePackManifest({ lang: "vi", version: 2, files: files.slice(1) }, "vi", 2)).toBe(null);
+    expect(localePackManifest({ lang: "vi", version: 2, files: [...files, files[0]] }, "vi", 2)).toBe(null);
+    expect(localePackManifest({ lang: "vi", version: 2, files: [{ ...files[0], sha256: "x" }, ...files.slice(1)] }, "vi", 2)).toBe(null);
+    expect(localePackManifest({ lang: "vi", version: 2, files: [{ ...files[0], bytes: 0 }, ...files.slice(1)] }, "vi", 2)).toBe(null);
+    expect(localePackManifest({ lang: "vi", version: 2, files: [...files, { name: "../x.json", sha256: sha, bytes: 1 }] }, "vi", 2)).toBe(null);
+  });
+  it("pack file problems", () => {
+    expect(localeFileProblem("lines.json", { c1: { s: "db366650", t: "Tiêu đề", l: ["Xin chào"] } })).toBe(null);
+    expect(localeFileProblem("lines.json", {})).toBe("lines");
+    expect(localeFileProblem("lines.json", { c1: { s: "x", t: "a", l: [1] } })).toBe("lines");
+    expect(localeFileProblem("dict.json", { "1": { m: ["mèo"], ex: [] } })).toBe(null);
+    expect(localeFileProblem("dict.json", { "1": { m: "mèo", ex: [] } })).toBe("dict");
+    expect(localeFileProblem("grammar.json", { "past tense": "thì quá khứ" })).toBe(null);
+    expect(localeFileProblem("grammar.json", { a: 1 })).toBe("grammar");
+    expect(localeFileProblem("notes-00.json", { c1: { s: "x", w: { "0.0": { m: "a", n: "b" } }, l: { "0": { lit: "c", tip: "d" } } } })).toBe(null);
+    expect(localeFileProblem("notes-00.json", { c1: { s: "x", w: { "0.0": { m: 1 } }, l: {} } })).toBe("notes");
+    expect(localeFileProblem("notes-00.json", [])).toBe("shape");
+  });
+  const sharkLines = [
+    { ja: "サメに気をつけて。", en: "Watch out for sharks.", words: [{ s: "サメ" }, { s: "に" }] },
+    { ja: "うん！", en: "Yeah!", words: [{ s: "うん" }] },
+  ];
+  const shark = { title: "Shark warning", grammar: ["〜て — request", "plain"], lines: sharkLines };
+  it("pack pointer needs a version and https manifests", () => {
+    const urls = ["https://pub-x.r2.dev/locale/vi/v2.json", "https://b.supabase.co/storage/v1/object/public/content/locale/vi/v2.json"];
+    expect(localePackPointer({ vi: { v: 2, urls } }, "vi")).toEqual({ version: 2, urls });
+    expect(localePackPointer({ vi: { v: 2, urls } }, "th")).toBe(null);
+    expect(localePackPointer({ vi: { v: 2, urls } }, "en")).toBe(null);
+    expect(localePackPointer({ vi: { v: 0, urls } }, "vi")).toBe(null);
+    expect(localePackPointer({ vi: { v: 2, urls: [] } }, "vi")).toBe(null);
+    expect(localePackPointer({ vi: { v: 2, urls: ["http://x.dev/v2.json"] } }, "vi")).toBe(null);
+    expect(localePackPointer({}, "vi")).toBe(null);
+    expect(localePackPointer(null, "vi")).toBe(null);
+  });
+  it("a clip shows its translation only when it was made for this exact clip", () => {
+    const vi = localizeClip(shark, { s: "db366650", t: "Cảnh báo cá mập", l: ["Cẩn thận cá mập nhé.", ""] }, { "〜て — request": "〜て — lời nhờ" });
+    expect(vi.title).toBe("Cảnh báo cá mập");
+    expect(vi.lines.map((l) => l.en)).toEqual(["Cẩn thận cá mập nhé.", "Yeah!"]);
+    expect(vi.lines[0]!.ja).toBe("サメに気をつけて。");
+    expect(vi.grammar).toEqual(["〜て — lời nhờ", "plain"]);
+    const stale = localizeClip(shark, { s: "00000000", t: "Cảnh báo", l: ["A", "B"] }, null);
+    expect(stale.title).toBe("Shark warning");
+    expect(stale.lines.map((l) => l.en)).toEqual(["Watch out for sharks.", "Yeah!"]);
+    expect(localizeClip(shark, { s: "db366650", t: "x", l: ["only one"] }, null).lines[0]!.en).toBe("Watch out for sharks.");
+    expect(localizeClip(shark, undefined, null)).toBe(shark);
+  });
+  it("dictionary entries change only when sense and example counts match", () => {
+    const cat = { w: "猫", m: [{ pos: ["noun"], g: "cat" }], ex: [{ ja: "猫がいる。", en: "There is a cat." }] };
+    expect(localizeEntry(cat, { m: ["con mèo"], ex: ["Có một con mèo."] })).toEqual({ w: "猫", m: [{ pos: ["noun"], g: "con mèo" }], ex: [{ ja: "猫がいる。", en: "Có một con mèo." }] });
+    expect(localizeEntry(cat, { m: ["con mèo", "mèo"], ex: ["Có một con mèo."] })).toBe(cat);
+    expect(localizeEntry(cat, { m: [" "], ex: [""] }).m[0]!.g).toBe("cat");
+  });
+  it("explanations follow the same fingerprint and keep English where none is given", () => {
+    const en = { w: { "0.0": { m: "shark", n: "サメ means shark." }, "0.1": { m: "to", n: "に marks the target." } }, l: { "0": { lit: "Shark to careful.", tip: "" } } };
+    const vi = localizeNotes(en, { s: "db366650", w: { "0.0": { m: "cá mập", n: "サメ nghĩa là cá mập." } }, l: { "0": { lit: "Cá mập thì cẩn thận.", tip: "Mẹo" } } }, "db366650");
+    expect(vi.w["0.0"]).toEqual({ m: "cá mập", n: "サメ nghĩa là cá mập." });
+    expect(vi.w["0.1"]).toEqual({ m: "to", n: "に marks the target." });
+    expect(vi.l["0"]).toEqual({ lit: "Cá mập thì cẩn thận.", tip: "" });
+    expect(localizeNotes(en, { s: "ffffffff", w: {}, l: {} }, "db366650")).toBe(en);
   });
 });

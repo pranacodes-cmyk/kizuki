@@ -31,7 +31,8 @@
 		</dict>
 	</array>
 	<key>FacebookAdvertiserIDCollectionEnabled</key>
-	<true/>
+	<!-- Auto-init must not enable IDFA collection before the runtime ATT decision. -->
+	<false/>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>Your choice helps Kizuki see which of our ads bring new learners, so we spend less on ads and more on new clips. Kizuki works the same either way.</string>
 	<key>SKAdNetworkItems</key>

@@ -1,4 +1,6 @@
 // Topic labels for clip tags — mirrored from src/lib/topics.ts.
+import '../i18n/i18n.dart';
+
 const _topics = {
   'anime': ('Anime', '🎌'),
   'drama': ('Drama', '🎭'),
@@ -24,5 +26,5 @@ const _topics = {
   'games': ('Games', '🎮'),
 };
 
-String topicLabel(String t) => _topics[t]?.$1 ?? (t.isEmpty ? t : '${t[0].toUpperCase()}${t.substring(1)}');
+String topicLabel(String t) => tr(_topics[t]?.$1 ?? (t.isEmpty ? t : '${t[0].toUpperCase()}${t.substring(1)}'));
 String topicEmoji(String t) => _topics[t]?.$2 ?? '🎬';

@@ -5,10 +5,12 @@ import { track } from './analytics';
 import { createJSONStorage, persist } from "zustand/middleware";
 
 import {
-  asksToday, currentStreak, dayKey, dueWordKeys, emptyDay, newCard, wordCounts, wordKeyOf, wordLevel, wordStatus, withWordLevel, simulatedTrialEnd,
+  asksToday, currentStreak, dayKey, dueWordKeys, emptyDay, newCard, savedGloss, wordCounts, wordKeyOf, wordLevel, wordStatus, withWordLevel, simulatedTrialEnd,
   type WordLevel,
   type Card, type DayActivity, type Stats, type WordLite,
 } from "./logic";
+import type { Content } from "./content";
+import { getLang } from "./i18n-core";
 
 export const STORAGE_KEY = "mimi-state-v1";
 
@@ -22,7 +24,15 @@ export type SavedWord = {
   key: string; dictId: string | null; word: string; reading: string; romaji: string; gloss: string; pos: string;
   jlpt: number | null; surface: string; clipId: string; line: number; idx: number; note: string;
   status: WordStatusValue; card: Card; addedAt: number; updatedAt: number;
+  /** App language the meaning was saved in (missing on older saves = English). */
+  glossLang?: string;
 };
+
+/** A saved word's meaning in the current app language (see savedGloss). */
+export function glossIn(w: Pick<SavedWord, "gloss" | "glossLang" | "dictId">, c?: Content | null): string {
+  const e = w.dictId ? c?.dict[w.dictId] : undefined;
+  return savedGloss(w.gloss, w.glossLang, e?.m[0]?.g.split(";")[0]?.trim() ?? null, getLang());
+}
 export type WordInput = {
   dictId: string | null; base: string; word: string; reading: string; romaji: string; gloss: string; pos: string;
   jlpt: number | null; surface: string; clipId: string; line: number; idx: number;
@@ -33,6 +43,7 @@ export type Settings = {
   reminders: boolean; reminderFreq: "standard" | "minimal";
   /** Settings → Vibration feedback (missing in older saved state counts as on — hapticsOn). */
   haptics: boolean;
+  widgetSaved: boolean; widgetReading: boolean; widgetMeaning: boolean;
 };
 export type HistoryEntry = { clipId: string; at: number };
 
@@ -68,6 +79,7 @@ export const defaultProfile: Profile = {
 export const defaultSettings: Settings = {
   furigana: true, romaji: true, translation: true, spacing: true, highlight: true, autoSave: true, textSize: 1, speed: 1,
   flashFront: "jp", flashFurigana: false, flashRomaji: false, reminders: true, reminderFreq: "standard", haptics: true,
+  widgetSaved: false, widgetReading: true, widgetMeaning: true,
 };
 
 export const initialState = (): PersistedState => ({
@@ -140,6 +152,7 @@ const bump = (a: Record<string, DayActivity>, patch: Partial<DayActivity>) => {
 const makeWord = (i: WordInput, status: WordStatusValue, t: number): SavedWord => ({
   key: wordKeyOf(i.dictId, i.base), dictId: i.dictId, word: i.word, reading: i.reading, romaji: i.romaji, gloss: i.gloss, pos: i.pos,
   jlpt: i.jlpt, surface: i.surface, clipId: i.clipId, line: i.line, idx: i.idx, note: "", status, card: newCard(t), addedAt: t, updatedAt: t,
+  glossLang: getLang(),
 });
 
 export const useApp = create<AppStore>()(

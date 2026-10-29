@@ -12,12 +12,13 @@ import '../services/analytics.dart';
 import 'common.dart';
 import 'ui.dart';
 import 'playback_loop.dart';
+import '../i18n/i18n.dart';
 
 /// Learner-facing message for a YouTube player error — same copy as playerErrorMessage() in youtube.ts.
 String playerErrorMessage(YoutubeError e) => switch (e) {
-      YoutubeError.notEmbeddable || YoutubeError.sameAsNotEmbeddable => "The owner doesn't allow this video to play here.",
-      YoutubeError.videoNotFound => 'This video was removed from YouTube.',
-      _ => "This clip couldn't load. Check your connection.",
+      YoutubeError.notEmbeddable || YoutubeError.sameAsNotEmbeddable => tr("The owner doesn't allow this video to play here."),
+      YoutubeError.videoNotFound => tr('This video was removed from YouTube.'),
+      _ => tr("This clip couldn't load. Check your connection."),
     };
 
 String watchUrl(String videoId, double t) => 'https://www.youtube.com/watch?v=$videoId&t=${t.floor()}s';
@@ -360,7 +361,7 @@ class ClipPlayerState extends State<ClipPlayer> {
           if (showThumb && _error == null)
             Semantics(
               button: true,
-              label: 'Play clip',
+              label: tr('Play clip'),
               child: GestureDetector(
                 onTap: () {
                   play();
@@ -393,7 +394,7 @@ class ClipPlayerState extends State<ClipPlayer> {
                             child: Row(mainAxisSize: MainAxisSize.min, children: [
                               const Icon(LucideIcons.rotateCw, size: 15),
                               const SizedBox(width: 8),
-                              Text('Slow connection · Tap to retry', style: txt(13, w: FontWeight.w800)),
+                              Text(tr('Slow connection · Tap to retry'), style: txt(13, w: FontWeight.w800)),
                             ]),
                           ),
                         ),
@@ -414,7 +415,7 @@ class ClipPlayerState extends State<ClipPlayer> {
                   child: Container(
                     padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                     decoration: BoxDecoration(color: T.surface2, borderRadius: BorderRadius.circular(99)),
-                    child: Row(mainAxisSize: MainAxisSize.min, children: [const Icon(LucideIcons.rotateCw, size: 16), const SizedBox(width: 8), Text('Try again', style: txt(14, w: FontWeight.w800))]),
+                    child: Row(mainAxisSize: MainAxisSize.min, children: [const Icon(LucideIcons.rotateCw, size: 16), const SizedBox(width: 8), Text(tr('Try again'), style: txt(14, w: FontWeight.w800))]),
                   ),
                 ),
               ]),

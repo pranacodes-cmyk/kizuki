@@ -22,6 +22,7 @@ import 'tour.dart';
 import 'transcript.dart';
 import 'ui.dart';
 import 'word_card.dart';
+import '../i18n/i18n.dart';
 
 String fmtTime(double s) {
   final v = math.max(0, s).floor();
@@ -78,6 +79,7 @@ class _ClipViewState extends State<ClipView> {
     super.initState();
     if (widget.active) _activate();
     Tour.I.addListener(_onTour);
+    Content.shown.addListener(_onContentLanguage);
   }
 
   /// Welcome tour: hold the clip still while it asks you to tap a word in it, with that word's
@@ -114,11 +116,20 @@ class _ClipViewState extends State<ClipView> {
 
   @override
   void dispose() {
+    Content.shown.removeListener(_onContentLanguage);
     Tour.I.removeListener(_onTour);
     _tick?.cancel();
     _flushWatch(notify: false);
     _scroll.dispose();
     super.dispose();
+  }
+
+  /// The library switched language: the open clip's explanations follow.
+  void _onContentLanguage() {
+    if (!widget.active) return;
+    widget.content.notes(widget.clip.id).then((n) {
+      if (mounted) setState(() => notes = n);
+    });
   }
 
   void _activate() {
@@ -285,7 +296,7 @@ class _ClipViewState extends State<ClipView> {
           padding: const EdgeInsets.fromLTRB(8, 6, 8, 0),
           child: Row(
             children: [
-              _IconBtn(icon: playing ? LucideIcons.pause : LucideIcons.play, label: playing ? 'Pause' : 'Play', color: T.foreground, onTap: () => _player.currentState?.toggle()),
+              _IconBtn(icon: playing ? LucideIcons.pause : LucideIcons.play, label: playing ? tr('Pause') : tr('Play'), color: T.foreground, onTap: () => _player.currentState?.toggle()),
               SizedBox(
                 width: 78,
                 child: Text(
@@ -294,16 +305,16 @@ class _ClipViewState extends State<ClipView> {
                 ),
               ),
               const Spacer(),
-              _IconBtn(icon: LucideIcons.rotateCcw, label: 'Replay line', onTap: () => _seekLine(math.max(0, current))),
+              _IconBtn(icon: LucideIcons.rotateCcw, label: tr('Replay line'), onTap: () => _seekLine(math.max(0, current))),
               _IconBtn(
                 icon: LucideIcons.repeat1,
-                label: 'Loop line',
+                label: tr('Loop line'),
                 color: loopLine != null ? T.primary : T.muted,
                 onTap: () => setState(() => loopLine = loopLine != null ? null : math.max(0, current)),
               ),
               Semantics(
                 button: true,
-                label: 'Playback speed',
+                label: tr('Playback speed'),
                 child: Press(
                   onTap: () => setState(() => rate = speeds[(speeds.indexOf(rate) + 1) % speeds.length]),
                   child: Container(
@@ -321,21 +332,21 @@ class _ClipViewState extends State<ClipView> {
               ),
               _IconBtn(
                 icon: LucideIcons.bookmark,
-                label: savedClip ? 'Unsave clip' : 'Save clip',
+                label: savedClip ? tr('Unsave clip') : tr('Save clip'),
                 color: savedClip ? T.primary : T.muted,
                 onTap: () {
                   app.toggleSavedClip(clip.id);
                   if (!savedClip) Haptics.light();
-                  if (!savedClip) toast('Clip saved', description: 'Find it in Profile → Saved', icon: '🔖');
+                  if (!savedClip) toast(tr('Clip saved'), description: tr('Find it in Profile → Saved'), icon: '🔖');
                 },
               ),
               // "Aa", like the Display sheet's name.
               Semantics(
                 button: true,
-                label: 'Display options',
+                label: tr('Display options'),
                 child: Press(
                   onTap: () => showDisplaySheet(context, rate: () => rate, onRate: (r) => setState(() => rate = r)),
-                  child: SizedBox(width: 40, height: 40, child: Center(child: Text('Aa', style: txt(15, w: FontWeight.w900, c: T.muted)))),
+                  child: SizedBox(width: 40, height: 40, child: Center(child: Text(tr('Aa'), style: txt(15, w: FontWeight.w900, c: T.muted)))),
                 ),
               ),
             ],
@@ -369,7 +380,7 @@ class _ClipViewState extends State<ClipView> {
                         padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
                         decoration: BoxDecoration(color: T.surface2, borderRadius: BorderRadius.circular(6)),
                         child: Text(
-                          'JLPT ${clip.level}',
+                          tr('JLPT {level}', {'level': clip.level}),
                           style: txt(11, w: FontWeight.w900, c: T.muted),
                         ),
                       ),
@@ -382,7 +393,7 @@ class _ClipViewState extends State<ClipView> {
                     child: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16),
                       child: Text(
-                        '${video.channel} · Watch on YouTube',
+                        tr('{channel} · Watch on YouTube', {'channel': video.channel}),
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                         style: txt(12, w: FontWeight.w700, c: T.faint),
@@ -416,7 +427,7 @@ class _ClipViewState extends State<ClipView> {
                     child: Press(
                       onTap: () {
                         app.markKnown(unknown);
-                        toast('${unknown.length} word${unknown.length > 1 ? 's' : ''} marked as known', icon: '✅');
+                        toast(trn(unknown.length, '{n} word marked as known', '{n} words marked as known'), icon: '✅');
                       },
                       child: Container(
                         height: 48,
@@ -431,7 +442,7 @@ class _ClipViewState extends State<ClipView> {
                             const SizedBox(width: 8),
                             Flexible(
                               child: Text(
-                                'Mark remaining ${unknown.length} word${unknown.length > 1 ? 's' : ''} as known',
+                                trn(unknown.length, 'Mark remaining {n} word as known', 'Mark remaining {n} words as known'),
                                 overflow: TextOverflow.ellipsis,
                                 style: txt(15, w: FontWeight.w800, c: T.muted),
                               ),

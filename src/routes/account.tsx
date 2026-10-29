@@ -5,7 +5,7 @@ import { z } from "zod";
 
 import { useSession } from "@/hooks/use-session";
 import { Mascot } from "@/components/mimi/Mascot";
-import { Button, Screen, TopBar } from "@/components/mimi/ui";
+import { Button, Hi, Screen, TopBar } from "@/components/mimi/ui";
 import { supabase } from "@/lib/backend";
 import { setSession, syncNow } from "@/lib/sync";
 import { track } from '@/lib/analytics';
@@ -14,6 +14,7 @@ import { useApp } from "@/lib/store";
 import { accountNeedsOnboarding, signInProviders, subscriptionAccess } from '@/lib/logic';
 import { ProviderIcon } from '@/components/mimi/ProviderIcon';
 import { cachedReviewSignIn, refreshOnboardingSettings } from '@/lib/onboarding-settings';
+import { tr } from "@/lib/i18n";
 
 const searchSchema = z.object({
   mode: z.enum(["signup", "signin"]).optional(),
@@ -78,7 +79,7 @@ function Account() {
     if (!handoffUrl.current) {
       const { data } = await supabase.auth.getSession();
       const s = data.session;
-      if (!s) { setError("Sign-in didn't finish. Please try again."); return false; }
+      if (!s) { setError(tr("Sign-in didn't finish. Please try again.")); return false; }
       const camel = (o: Record<string, unknown>) =>
         Object.fromEntries(Object.entries(o).map(([k, v]) => [k.replace(/_([a-z])/g, (_, c) => c.toUpperCase()), v]));
       const payload = encodeURIComponent(JSON.stringify({
@@ -104,17 +105,17 @@ function Account() {
 
   const finish = async () => {
     const { data, error } = await supabase.auth.getUser();
-    if (error || !data.user) { setError("Please sign in to continue."); return; }
+    if (error || !data.user) { setError(tr("Please sign in to continue.")); return; }
     if (isBridge) { await handoff(); return; }
     await syncNow();
     const s = useApp.getState();
     // Confirm out loud: silent redirects left users unsure the sign-in worked.
     if (requiredAccount) {
-      toast({ icon: "🎉", title: "You're all set", description: "Your progress is now saved to your account." });
+      toast({ icon: "🎉", title: tr("You're all set"), description: tr("Your progress is now saved to your account.") });
     } else {
       const created = Date.parse(data.user.created_at);
       const isNew = Number.isFinite(created) && Date.now() - created < 2 * 60 * 1000;
-      toast({ icon: isNew ? "🎉" : "👋", title: isNew ? "Account created" : "Welcome back", description: isNew ? "Let's set up your learning plan." : "Your progress is synced on this device." });
+      toast({ icon: isNew ? "🎉" : "👋", title: isNew ? tr("Account created") : tr("Welcome back"), description: isNew ? tr("Let's set up your learning plan.") : tr("Your progress is synced on this device.") });
     }
     if (accountNeedsOnboarding(fromWelcome, s.onboarded, subscriptionAccess(s.premium.active, s.premium.expiresAt, s.premium.trialEndsAt, Date.now()))) {
       // Signed in on a fresh device without cloud progress → still needs a plan.
@@ -161,14 +162,14 @@ function Account() {
 
   const reviewSignIn = async () => {
     const email = reviewEmail.trim();
-    if (!email || !reviewPassword) { setError("Enter the email and password."); return; }
+    if (!email || !reviewPassword) { setError(tr("Enter the email and password.")); return; }
     track('sign_in_started', { provider: 'email' });
     setError(null);
     setBusy(true);
     const { data, error: authError } = await supabase.auth.signInWithPassword({ email, password: reviewPassword });
     if (authError) {
       track('sign_in_failed', { category: 'email' });
-      setError(/network|fetch/i.test(authError.message) ? friendly(authError) : "Email or password is incorrect.");
+      setError(/network|fetch/i.test(authError.message) ? friendly(authError) : tr("Email or password is incorrect."));
       setBusy(false);
       return;
     }
@@ -189,13 +190,12 @@ function Account() {
       <Screen className="items-center px-6 text-center">
         <div className="flex flex-1 flex-col items-center justify-center">
           <Mascot pose="heart" className="h-24 w-24" />
-          <h1 className="mt-5 text-[1.5rem] font-black">You're signed in!</h1>
+          <h1 className="mt-5 text-[1.5rem] font-black">{tr("You're signed in!")}</h1>
           <p className="mt-2 max-w-[300px] text-[0.9375rem] text-muted-foreground">
-            You can close this page and return to the Kizuki app — your words, streak and reviews are syncing.
-          </p>
+            {tr("You can close this page and return to the Kizuki app — your words, streak and reviews are syncing.")}</p>
         </div>
         <div className="w-full space-y-3 pb-2">
-          <Button onClick={() => void handoff()}>Return to the app</Button>
+          <Button onClick={() => void handoff()}>{tr("Return to the app")}</Button>
         </div>
       </Screen>
     );
@@ -211,35 +211,35 @@ function Account() {
           <Mascot pose="wave" className="relative h-[104px] w-[104px]" />
         </div>
         <h1 className="mt-2.5 text-[1.5rem] font-black leading-tight">
-          {initialMode === "signin" ? <>Welcome <span className="text-primary">back</span></> : <>Save your <span className="text-primary">progress</span></>}
+          <Hi text={initialMode === "signin" ? tr("Welcome [back]") : tr("Save your [progress]")} className="text-primary" />
         </h1>
-        <p className="mt-1.5 text-[0.9375rem] text-muted-foreground">{initialMode === "signin" ? "Sign in to pick up where you left off." : "Keep your words, streak and reviews safe on every device."}</p>
+        <p className="mt-1.5 text-[0.9375rem] text-muted-foreground">{initialMode === "signin" ? tr("Sign in to pick up where you left off.") : tr("Keep your words, streak and reviews safe on every device.")}</p>
 
         <div className="mt-7 w-full space-y-3">
           {error && <p role="alert" className="rounded-xl bg-danger-soft px-3 py-2 text-center text-[0.875rem] font-bold text-danger">{error}</p>}
           {signInProviders(device).map((p) => <Button key={p} variant="surface" disabled={busy} onClick={() => void oauth(p)} className="h-[68px] justify-start gap-3.5 px-4 tracking-normal">
             <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-surface-3"><ProviderIcon provider={p} /></span>
-            <span className="flex-1 text-left">{busy ? 'Signing in…' : `Continue with ${p === 'google' ? 'Google' : 'Apple'}`}</span>
+            <span className="flex-1 text-left">{busy ? tr("Signing in…") : tr("Continue with {provider}", { provider: p === 'google' ? 'Google' : 'Apple' })}</span>
             <ChevronRight aria-hidden="true" className="h-5 w-5 shrink-0 text-faint" />
           </Button>)}
-          {!busy && <p className="flex items-center justify-center gap-1.5 pt-1 text-[0.8125rem] font-bold text-faint"><ShieldCheck aria-hidden="true" className="h-4 w-4" />One tap · no passwords · progress stays safe</p>}
+          {!busy && <p className="flex items-center justify-center gap-1.5 pt-1 text-[0.8125rem] font-bold text-faint"><ShieldCheck aria-hidden="true" className="h-4 w-4" />{tr("One tap · no passwords · progress stays safe")}</p>}
           {!busy && reviewEnabled && (reviewOpen ? (
             <form className="space-y-2.5 pt-3" onSubmit={(e) => { e.preventDefault(); void reviewSignIn(); }}>
-              <input type="email" autoComplete="username" placeholder="Email" value={reviewEmail} onChange={(e) => setReviewEmail(e.target.value)} className="h-12 w-full rounded-[14px] bg-surface-2 px-4 text-[1rem] font-semibold outline-none" />
-              <input type="password" autoComplete="current-password" placeholder="Password" value={reviewPassword} onChange={(e) => setReviewPassword(e.target.value)} className="h-12 w-full rounded-[14px] bg-surface-2 px-4 text-[1rem] font-semibold outline-none" />
-              <Button type="submit">Sign in</Button>
+              <input type="email" autoComplete="username" placeholder={tr("Email")} value={reviewEmail} onChange={(e) => setReviewEmail(e.target.value)} className="h-12 w-full rounded-[14px] bg-surface-2 px-4 text-[1rem] font-semibold outline-none" />
+              <input type="password" autoComplete="current-password" placeholder={tr("Password")} value={reviewPassword} onChange={(e) => setReviewPassword(e.target.value)} className="h-12 w-full rounded-[14px] bg-surface-2 px-4 text-[1rem] font-semibold outline-none" />
+              <Button type="submit">{tr("Sign in")}</Button>
             </form>
           ) : (
-            <button type="button" onClick={() => setReviewOpen(true)} className="w-full pt-3 text-[0.875rem] font-bold text-faint">Sign in with email</button>
+            <button type="button" onClick={() => setReviewOpen(true)} className="w-full pt-3 text-[0.875rem] font-bold text-faint">{tr("Sign in with email")}</button>
           ))}
         </div>
       </div>
 
       <div className="space-y-1 px-6 pt-6 text-center">
         {isBridge ? (
-          <p className="text-[0.8125rem] font-bold text-faint">Finish here in your browser — the Kizuki app opens again as soon as you're done.</p>
+          <p className="text-[0.8125rem] font-bold text-faint">{tr("Finish here in your browser — the Kizuki app opens again as soon as you're done.")}</p>
         ) : (
-          !requiredAccount && <Button variant="ghost" size="md" onClick={later} className="w-full">{fromWelcome ? "Back" : "Maybe later"}</Button>
+          !requiredAccount && <Button variant="ghost" size="md" onClick={later} className="w-full">{fromWelcome ? tr("Back") : tr("Maybe later")}</Button>
         )}
       </div>
     </Screen>
@@ -261,6 +261,6 @@ function dropBrowserSession() {
 
 function friendly(err: unknown) {
   const msg = err instanceof Error ? err.message : typeof err === "object" && err && "message" in err ? String((err as { message: unknown }).message) : String(err);
-  if (/offline|network/i.test(msg)) return "You're offline. Check your connection and try again.";
-  return msg || "Something went wrong. Please try again.";
+  if (/offline|network/i.test(msg)) return tr("You're offline. Check your connection and try again.");
+  return msg || tr("Something went wrong. Please try again.");
 }

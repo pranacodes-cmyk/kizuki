@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import type { Clip } from "@/lib/content";
 import { thumbOf } from "@/lib/content";
 import { loadYouTubeApi, YT_STATE, type YTPlayer } from "@/lib/youtube";
+import { tr } from "@/lib/i18n";
 
 /**
  * Plays just one line of the original clip (the "original audio" on a flashcard) through the
@@ -79,16 +80,15 @@ export function ContextPlayer({ clip, line, autoplay, replayKey = 0 }: { clip: C
     <div className="relative min-h-[200px] w-full overflow-hidden rounded-2xl bg-stage" style={{ aspectRatio: "16 / 9" }}>
       <div ref={host} className="absolute inset-0 [&>iframe]:h-full [&>iframe]:w-full" />
       {!started && (
-        <button onClick={play} aria-label="Play the original line" className="absolute inset-0 flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: `url(${thumbOf(clip.videoId)})` }}>
+        <button onClick={play} aria-label={tr("Play the original line")} className="absolute inset-0 flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: `url(${thumbOf(clip.videoId)})` }}>
           <span className="flex h-12 w-12 items-center justify-center rounded-full bg-stage/75">{ready ? <Play className="ml-0.5 h-6 w-6 fill-current" /> : <Loader2 className="h-6 w-6 animate-spin" />}</span>
         </button>
       )}
       {started && !playing && !failed && (
-        <button onClick={play} aria-label="Replay the original line" className="absolute bottom-2 right-2 flex h-10 items-center gap-1.5 rounded-full bg-stage/80 px-3 text-[0.8125rem] font-extrabold">
-          <Volume2 className="h-4 w-4" /> Replay
-        </button>
+        <button onClick={play} aria-label={tr("Replay the original line")} className="absolute bottom-2 right-2 flex h-10 items-center gap-1.5 rounded-full bg-stage/80 px-3 text-[0.8125rem] font-extrabold">
+          <Volume2 className="h-4 w-4" /> {" "}{tr("Replay")}</button>
       )}
-      {failed && <div className="absolute inset-0 flex items-center justify-center bg-stage/85 px-4 text-center text-[0.875rem] font-bold">The original clip isn't available right now.</div>}
+      {failed && <div className="absolute inset-0 flex items-center justify-center bg-stage/85 px-4 text-center text-[0.875rem] font-bold">{tr("The original clip isn't available right now.")}</div>}
     </div>
   );
 }

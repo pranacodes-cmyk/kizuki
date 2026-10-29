@@ -1,0 +1,318 @@
+[
+ {
+  "key": "{learning} learning · {known} known",
+  "from": "กำลังเรียนรู้ {learning} คำ · รู้แล้ว {known} คำ",
+  "to": "กำลังเรียน {learning} คำ · รู้แล้ว {known} คำ",
+  "why": "Term sheet specifies 'Learning' as 'กำลังเรียน', not 'กำลังเรียนรู้'.",
+  "status": "applied"
+ },
+ {
+  "key": "Card front",
+  "from": "ด้านหน้าบัตรคำ",
+  "to": "ด้านหน้าแฟลชการ์ด",
+  "why": "Use 'แฟลชการ์ด' for consistency with other parts of the app instead of 'บัตรคำ'.",
+  "status": "applied"
+ },
+ {
+  "key": "Check your connection and store account, then try again.",
+  "from": "ตรวจสอบการเชื่อมต่อและบัญชีร้านแอป แล้วลองอีกครั้ง",
+  "to": "ตรวจสอบการเชื่อมต่อและบัญชีสโตร์ แล้วลองอีกครั้ง",
+  "why": "'บัญชีร้านแอป' sounds unnatural; 'บัญชีสโตร์' is the standard translation for store account in Thai UIs.",
+  "status": "applied"
+ },
+ {
+  "key": "Create a free account from Profile → Save your progress, then sign in with the same account on the new phone. Your words, reviews and streak sync automatically.",
+  "from": "สร้างบัญชีฟรีที่ โปรไฟล์ → บันทึกความคืบหน้า แล้วเข้าสู่ระบบด้วยบัญชีเดิมบนมือถือเครื่องใหม่ คำศัพท์ การทบทวน และจำนวนวันที่เรียนต่อเนื่องจะซิงค์โดยอัตโนมัติ",
+  "to": "สร้างบัญชีฟรีที่ โปรไฟล์ → บันทึกความคืบหน้า แล้วเข้าสู่ระบบด้วยบัญชีเดิมบนมือถือเครื่องใหม่ คำศัพท์ การทบทวน และวันที่เรียนต่อเนื่องจะซิงค์โดยอัตโนมัติ",
+  "why": "Updated to strictly match the term sheet translation for 'Streak' ('วันที่เรียนต่อเนื่อง').",
+  "status": "applied"
+ },
+ {
+  "key": "How does the free trial work?",
+  "from": "การทดลองใช้ฟรีทำงานอย่างไร?",
+  "to": "ช่วงทดลองใช้ฟรีเป็นอย่างไร?",
+  "why": "Direct translation 'ทำงานอย่างไร' is unnatural for referring to a subscription trial in Thai.",
+  "status": "applied"
+ },
+ {
+  "key": "in the morning",
+  "from": "ช่วงเช้าวันนี้",
+  "to": "ช่วงเช้า",
+  "why": "Removed 'วันนี้' (today) to match the English 'in the morning' and stay consistent with the afternoon/evening strings.",
+  "status": "applied"
+ },
+ {
+  "key": "Learners with reminders on are far more likely to keep their streak.",
+  "from": "คนที่เปิดแจ้งเตือนมีโอกาสรักษาสถิติเรียนต่อเนื่องได้มากกว่าเยอะ",
+  "to": "คนที่เปิดแจ้งเตือนมีโอกาสรักษาวันที่เรียนต่อเนื่องได้มากกว่าเยอะ",
+  "why": "Aligns the translation of 'streak' with the term sheet ('วันที่เรียนต่อเนื่อง').",
+  "status": "applied"
+ },
+ {
+  "key": "Let's do it!",
+  "from": "ลงมือกันเลย!",
+  "to": "เริ่มกันเลย!",
+  "why": "'เริ่มกันเลย!' is a more natural and commonly used call to action in apps than 'ลงมือกันเลย!'.",
+  "status": "applied"
+ },
+ {
+  "key": "No thanks",
+  "from": "ไม่ ขอบคุณ",
+  "to": "ไม่เป็นไร",
+  "why": "'ไม่ ขอบคุณ' sounds like a machine translation; 'ไม่เป็นไร' is the standard, natural way to decline in a Thai app UI.",
+  "status": "applied"
+ },
+ {
+  "key": "One short clip saves your streak today.",
+  "from": "ดูคลิปสั้นๆ แค่คลิปเดียว ก็รักษาสถิติเรียนต่อเนื่องของวันนี้ได้",
+  "to": "ดูคลิปสั้นๆ แค่คลิปเดียว ก็รักษาวันที่เรียนต่อเนื่องของวันนี้ได้",
+  "why": "Must use the exact term 'วันที่เรียนต่อเนื่อง' for 'streak' to be consistent with the term sheet.",
+  "status": "applied"
+ },
+ {
+  "key": "Only to save your streak",
+  "from": "เฉพาะเพื่อรักษาสถิติเรียนต่อเนื่อง",
+  "to": "เฉพาะเพื่อรักษาวันที่เรียนต่อเนื่อง",
+  "why": "Must use the exact term 'วันที่เรียนต่อเนื่อง' for 'streak' to match the term sheet.",
+  "status": "applied"
+ },
+ {
+  "key": "Open Kizuki → Profile → Settings → Delete account. This permanently deletes your account, saved words, reviews, streak and cloud progress.",
+  "from": "เปิด Kizuki → โปรไฟล์ → การตั้งค่า → ลบบัญชี บัญชี คำศัพท์ที่บันทึกไว้ ประวัติการทบทวน สถิติเรียนต่อเนื่อง และความคืบหน้าบนคลาวด์จะถูกลบอย่างถาวร",
+  "to": "เปิด Kizuki → โปรไฟล์ → การตั้งค่า → ลบบัญชี บัญชี คำศัพท์ที่บันทึกไว้ ประวัติการทบทวน วันที่เรียนต่อเนื่อง และความคืบหน้าบนคลาวด์จะถูกลบอย่างถาวร",
+  "why": "Must use 'วันที่เรียนต่อเนื่อง' for 'streak' to maintain consistency with the term sheet.",
+  "status": "applied"
+ },
+ {
+  "key": "Open Profile → Settings → Restore purchase, using the same Apple ID or Google account you paid with. If it still shows locked, send us a message below.",
+  "from": "เปิด โปรไฟล์ → การตั้งค่า → กู้คืนการซื้อ โดยใช้ Apple ID หรือบัญชี Google เดียวกับที่ใช้ชำระเงิน หากยังขึ้นว่าล็อกอยู่ ส่งข้อความหาเราได้ด้านล่าง",
+  "to": "เปิดโปรไฟล์ → การตั้งค่า → กู้คืนการซื้อ โดยใช้ Apple ID หรือบัญชี Google เดียวกับที่ใช้ชำระเงิน หากยังขึ้นว่าล็อกอยู่ ส่งข้อความหาเราได้ด้านล่าง",
+  "why": "Removed the unnatural space between the verb 'เปิด' and its object 'โปรไฟล์'.",
+  "status": "applied"
+ },
+ {
+  "key": "Pick a streak goal. Kizuki will cheer you on.",
+  "from": "ตั้งเป้าว่าจะเรียนต่อเนื่องกี่วัน Kizuki จะคอยเป็นกำลังใจให้",
+  "to": "ตั้งเป้าหมายวันที่เรียนต่อเนื่อง Kizuki จะคอยเป็นกำลังใจให้",
+  "why": "Must use the exact term 'วันที่เรียนต่อเนื่อง' for 'streak' to match the term sheet.",
+  "status": "applied"
+ },
+ {
+  "key": "Remembered it? Tap Remembered. If not, tap Forgot — the word just comes back sooner.",
+  "from": "จำได้ไหม? แตะ จำได้ ถ้าจำไม่ได้ ให้แตะ ลืม แล้วคำนี้จะกลับมาให้ทบทวนเร็วขึ้น",
+  "to": "จำได้ไหม? แตะ จำได้ ถ้าจำไม่ได้ ให้แตะ จำไม่ได้ แล้วคำนี้จะกลับมาให้ทบทวนเร็วขึ้น",
+  "why": "Term sheet defines \"Forgot\" as \"จำไม่ได้\", not \"ลืม\".",
+  "status": "applied"
+ },
+ {
+  "key": "Sign in with your Premium account to ask about this line. Your words and streak sync too.",
+  "from": "เข้าสู่ระบบด้วยบัญชี Premium เพื่อถามเกี่ยวกับประโยคนี้ คำศัพท์และสถิติการเรียนต่อเนื่องจะซิงค์ให้ด้วย",
+  "to": "เข้าสู่ระบบด้วยบัญชี Premium เพื่อถามเกี่ยวกับประโยคนี้ คำศัพท์และวันที่เรียนต่อเนื่องจะซิงค์ให้ด้วย",
+  "why": "Term sheet consistency: 'Streak' should be 'วันที่เรียนต่อเนื่อง' instead of 'สถิติการเรียนต่อเนื่อง'.",
+  "status": "applied"
+ },
+ {
+  "key": "Ten Clips",
+  "from": "ครบ 10 คลิป",
+  "to": "10 คลิป",
+  "why": "Badge names should be concise and direct without adding extra words like 'ครบ'.",
+  "status": "applied"
+ },
+ {
+  "key": "Watch → save words → review. That's it.",
+  "from": "ดูคลิป → บันทึกศัพท์ → ทบทวน แค่นี้เลย",
+  "to": "ดูคลิป → บันทึกคำศัพท์ → ทบทวน แค่นี้เลย",
+  "why": "Updated to strictly match the term sheet for 'Save word' (บันทึกคำศัพท์).",
+  "status": "applied"
+ },
+ {
+  "key": "You can close this page and return to the Kizuki app — your words, streak and reviews are syncing.",
+  "from": "ปิดหน้านี้แล้วกลับไปที่แอป Kizuki ได้เลย ระบบกำลังซิงค์คำศัพท์ จำนวนวันที่เรียนต่อเนื่อง และการทบทวนของคุณ",
+  "to": "ปิดหน้านี้แล้วกลับไปที่แอป Kizuki ได้เลย ระบบกำลังซิงค์คำศัพท์ วันที่เรียนต่อเนื่อง และการทบทวนของคุณ",
+  "why": "Changed 'จำนวนวันที่เรียนต่อเนื่อง' to exactly match the term sheet for 'Streak' (วันที่เรียนต่อเนื่อง).",
+  "status": "applied"
+ },
+ {
+  "key": "Your words and streak are saved. Kizuki will be right here when you come back.",
+  "from": "บันทึกคำศัพท์และสถิติเรียนต่อเนื่องของคุณไว้แล้ว Kizuki จะรออยู่ตรงนี้เมื่อคุณกลับมา",
+  "to": "บันทึกคำศัพท์และวันที่เรียนต่อเนื่องของคุณไว้แล้ว Kizuki จะรออยู่ตรงนี้เมื่อคุณกลับมา",
+  "why": "Updated to match the term sheet for 'Streak' (วันที่เรียนต่อเนื่อง).",
+  "status": "applied"
+ },
+ {
+  "key": "auxiliary",
+  "from": "คำอนุเคราะห์",
+  "to": "กริยานุเคราะห์",
+  "why": "\"คำอนุเคราะห์\" is not an established Thai grammar term; use the term-sheet word for auxiliaries (助動詞) to stay consistent.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Delete your account?",
+  "from": "ลบบัญชีของคุณ?",
+  "to": "ต้องการลบบัญชีใช่ไหม?",
+  "why": "A statement with a question mark is unnatural in Thai; a confirmation question needs ใช่ไหม.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Every word you tap is saved in Vocab.",
+  "from": "ทุกคำที่คุณแตะจะบันทึกไว้ในคำศัพท์",
+  "to": "ทุกคำที่คุณแตะจะบันทึกไว้ในแท็บคำศัพท์",
+  "why": "Without 'แท็บ', คำศัพท์ reads as the generic word rather than the Vocab tab.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Furigana on the front",
+  "from": "แสดงฟุริงานะด้านหน้าบัตร",
+  "to": "แสดงฟุริงานะด้านหน้าการ์ด",
+  "why": "Use การ์ด consistently with ชุดการ์ด and other flashcard strings instead of บัตร.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "How does the free trial work?",
+  "from": "ช่วงทดลองใช้ฟรีเป็นอย่างไร?",
+  "to": "ทดลองใช้ฟรีมีรายละเอียดอย่างไร?",
+  "why": "'เป็นอย่างไร' reads like 'how was it'; this asks how the trial works.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "in under a minute",
+  "from": "ในอีกไม่ถึงนาที",
+  "to": "ในอีกไม่ถึง 1 นาที",
+  "why": "Adding the number reads more naturally in Thai.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Keep your streak alive 🔥",
+  "from": "รักษาสถิติเรียนต่อเนื่องไว้ 🔥",
+  "to": "รักษาวันที่เรียนต่อเนื่องไว้ 🔥",
+  "why": "Streak must use the term-sheet wording 'วันที่เรียนต่อเนื่อง'.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Keep your words, streak and reviews safe on every device.",
+  "from": "เก็บคำศัพท์ สถิติเรียนต่อเนื่อง และข้อมูลการทบทวนไว้อย่างปลอดภัย ใช้ได้ทุกอุปกรณ์",
+  "to": "เก็บคำศัพท์ วันที่เรียนต่อเนื่อง และข้อมูลการทบทวนไว้อย่างปลอดภัย ใช้ได้ทุกอุปกรณ์",
+  "why": "Streak must use the term-sheet wording 'วันที่เรียนต่อเนื่อง'.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Kids",
+  "from": "เด็ก",
+  "to": "สำหรับเด็ก",
+  "why": "As a video topic name, 'เด็ก' alone is ambiguous; 'สำหรับเด็ก' reads naturally.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Japanese ABCs\nHiragana あ and Katakana ア write the same sounds in two ways. Start with Hiragana. Both decks are optional.",
+  "from": "พื้นฐานอักษรญี่ปุ่น\nฮิรางานะ あ และคาตากานะ ア ใช้เขียนเสียงเดียวกันด้วยตัวอักษรคนละแบบ เริ่มจากฮิรางานะก่อนก็ได้ ทั้งสองชุดจะเรียนหรือข้ามก็ได้",
+  "to": "พื้นฐานอักษรญี่ปุ่น\nฮิรางานะ あ และคาตากานะ ア ใช้เขียนเสียงเดียวกันด้วยตัวอักษรคนละแบบ แนะนำให้เริ่มจากฮิรางานะ ทั้งสองชุดจะเรียนหรือข้ามก็ได้",
+  "why": "The source recommends starting with Hiragana, and 'ก็ได้' was repeated awkwardly.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Mark remaining {n} word as known",
+  "from": "ตั้งคำที่เหลืออีก {n} คำเป็นรู้แล้ว",
+  "to": "ทำเครื่องหมายคำที่เหลือ {n} คำว่ารู้แล้ว",
+  "why": "'ตั้ง...เป็นรู้แล้ว' sounds machine-like.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Mark remaining {n} words as known",
+  "from": "ตั้งคำที่เหลืออีก {n} คำเป็นรู้แล้ว",
+  "to": "ทำเครื่องหมายคำที่เหลือ {n} คำว่ารู้แล้ว",
+  "why": "'ตั้ง...เป็นรู้แล้ว' sounds machine-like.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "More",
+  "from": "มาก",
+  "to": "เพิ่มเติม",
+  "why": "\"มาก\" means \"a lot\"; in this UI context \"More\" means additional options or info.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Open Kizuki → Profile → Settings → Delete account. This permanently deletes your account, saved words, reviews, streak and cloud progress.",
+  "from": "เปิด Kizuki → โปรไฟล์ → การตั้งค่า → ลบบัญชี บัญชี คำศัพท์ที่บันทึกไว้ ประวัติการทบทวน วันที่เรียนต่อเนื่อง และความคืบหน้าบนคลาวด์จะถูกลบอย่างถาวร",
+  "to": "เปิด Kizuki → โปรไฟล์ → การตั้งค่า → ลบบัญชี ระบบจะลบบัญชี คำศัพท์ที่บันทึกไว้ ประวัติการทบทวน วันที่เรียนต่อเนื่อง และความคืบหน้าบนคลาวด์ของคุณอย่างถาวร",
+  "why": "\"ลบบัญชี บัญชี\" back to back reads like a typo; rephrased so the sentence flows.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Remove from Vocab",
+  "from": "ลบออกจากคลังศัพท์",
+  "to": "ลบออกจากคำศัพท์",
+  "why": "The term sheet uses \"คำศัพท์\" for Vocab, not \"คลังศัพท์\".",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Send another message",
+  "from": "ส่งข้อความอีกครั้ง",
+  "to": "ส่งข้อความใหม่",
+  "why": "\"ส่งข้อความอีกครั้ง\" reads as resending the same message, not sending a new one.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Store not available",
+  "from": "ร้านค้าไม่พร้อมใช้งาน",
+  "to": "สโตร์ไม่พร้อมใช้งาน",
+  "why": "Use the same word for the app store as the other paywall strings (สโตร์).",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Stop looping this line",
+  "from": "หยุดเล่นบรรทัดนี้ซ้ำ",
+  "to": "หยุดเล่นประโยคนี้ซ้ำ",
+  "why": "Other strings call a subtitle line ประโยค, so this should match.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "the moment it clicks",
+  "from": "ชั่วขณะที่เข้าใจ",
+  "to": "วินาทีที่เข้าใจ",
+  "why": "\"ชั่วขณะ\" sounds stiff; \"วินาทีที่เข้าใจ\" is a more natural, punchy tagline.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Touch and hold your Lock Screen → Customize → Lock Screen → Add Widgets → Kizuki.",
+  "from": "แตะหน้าจอล็อคค้างไว้ → ปรับแต่ง → หน้าจอล็อค → เพิ่มวิดเจ็ต → Kizuki",
+  "to": "แตะหน้าจอล็อกค้างไว้ → ปรับแต่ง → หน้าจอล็อก → เพิ่มวิดเจ็ต → Kizuki",
+  "why": "Standard spelling is ล็อก, which also matches ปลดล็อก used elsewhere.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Warm, everyday Japanese from home life",
+  "from": "ภาษาญี่ปุ่นในชีวิตประจำวันที่อบอุ่นจากเรื่องราวในบ้าน",
+  "to": "ภาษาญี่ปุ่นแสนอบอุ่นจากชีวิตประจำวันในบ้าน",
+  "why": "The current wording is clunky and stacks modifiers in a machine-like way.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Your new word is waiting here. Let's practice it once.",
+  "from": "คำศัพท์ใหม่ของคุณรออยู่ตรงนี้ ลองทบทวนสักครั้งกัน",
+  "to": "คำศัพท์ใหม่ของคุณรออยู่ตรงนี้ มาลองทบทวนกันสักครั้ง",
+  "why": "The word order of the invitation is unnatural.",
+  "status": "applied",
+  "stage": "proof"
+ }
+]

@@ -5,15 +5,16 @@ import { useEffect, useState, type ReactNode } from "react";
 
 import { FeedPreview } from "@/components/mimi/FeedPreview";
 import { LivelyMascot } from "@/components/mimi/Mascot";
-import { Button, ProgressHeader, Screen } from "@/components/mimi/ui";
+import { Button, Hi, ProgressHeader, Screen } from "@/components/mimi/ui";
 import { track } from '@/lib/analytics';
 import { haptic } from "@/lib/haptics";
-import { PLANS, priceLine, purchaseToast, trialBadge, trialCta, trialTimeline } from "@/lib/paywall";
+import { PLANS, planBadge, planSub, priceLine, purchaseToast, trialBadge, trialCta, trialTimeline } from "@/lib/paywall";
 import { useApp } from "@/lib/store";
 import { subscriptionAccess } from '@/lib/logic';
 import { toast } from "@/lib/ui-store";
 import { cn } from "@/lib/utils";
 import { cachedFounderEnabled, cachedReviewSignIn, cachedTrialDays, refreshOnboardingSettings } from '@/lib/onboarding-settings';
+import { tr } from "@/lib/i18n";
 
 export const Route = createFileRoute("/trial")({
   head: () => ({
@@ -57,7 +58,7 @@ function Trial() {
     useApp.getState().requirePurchaseAccount();
     setBusy(false);
     haptic("celebrate");
-    toast({ icon: "🎉", title: purchaseToast(days), description: "Everything in Kizuki is unlocked." });
+    toast({ icon: "🎉", title: purchaseToast(days), description: tr("Everything in Kizuki is unlocked.") });
     void navigate({ to: "/account", search: { mode: "signin" }, replace: true });
   };
   const skip = () => {
@@ -107,25 +108,25 @@ function StepTry({ days, onNext }: { days: number; onNext: () => void }) {
       <h1 className="pt-4 text-center text-[1.625rem] font-black leading-tight">
         {trial ? (
           <>
-            Try Kizuki <span className="text-primary">free</span> for {days} days
+            <Hi text={tr("Try Kizuki [free] for {days} days", { days })} className="text-primary" />
           </>
         ) : (
           <>
-            Learn with Kizuki <span className="text-primary">Premium</span>
+            <Hi text={tr("Learn with Kizuki [Premium]")} className="text-primary" />
           </>
         )}
       </h1>
       <div className="relative mx-auto mt-6 w-[230px] flex-1">
         <div className="absolute inset-0 overflow-hidden rounded-[32px] border-[6px] border-surface-3 bg-stage">
-          {onboarded ? <div className="flex h-full items-center justify-center px-4 text-center font-extrabold">Renew Premium to keep learning</div> : <FeedPreview />}
+          {onboarded ? <div className="flex h-full items-center justify-center px-4 text-center font-extrabold">{tr("Renew Premium to keep learning")}</div> : <FeedPreview />}
         </div>
         <LivelyMascot pose="cheer" size={96} tappable className="absolute -bottom-3 -right-14" />
       </div>
       <div className="space-y-3 pb-2 pt-6">
         <p className="flex items-center justify-center gap-2 text-[0.9375rem] font-extrabold">
-          <Check className="h-5 w-5 text-success" strokeWidth={3} /> {trial ? "No payment due now" : "Cancel anytime"}
+          <Check className="h-5 w-5 text-success" strokeWidth={3} /> {trial ? tr("No payment due now") : tr("Cancel anytime")}
         </p>
-        <Button onClick={onNext}>{trial ? "Try for $0.00" : "See plans"}</Button>
+        <Button onClick={onNext}>{trial ? tr("Try for $0.00") : tr("See plans")}</Button>
         <p className="text-center text-[0.8125rem] text-muted-foreground">{priceLine(PLANS.yearly, days)}</p>
       </div>
     </div>
@@ -140,13 +141,12 @@ function StepRemind({ days, onNext }: { days: number; onNext: () => void }) {
       footer={
         <>
           <p className="flex items-center justify-center gap-2 pb-1 text-[0.9375rem] font-extrabold">
-            <Check className="h-5 w-5 text-success" strokeWidth={3} /> No payment due now
-          </p>
-          <Button onClick={onNext}>Continue for free</Button>
+            <Check className="h-5 w-5 text-success" strokeWidth={3} /> {" "}{tr("No payment due now")}</p>
+          <Button onClick={onNext}>{tr("Continue for free")}</Button>
         </>
       }
     >
-      <h1 className="pt-4 text-center text-[1.625rem] font-black leading-tight">We'll remind you before your trial ends</h1>
+      <h1 className="pt-4 text-center text-[1.625rem] font-black leading-tight">{tr("We'll remind you before your trial ends")}</h1>
       <div className="mt-7 flex justify-center">
         <motion.div className="relative" animate={{ rotate: [0, -5, 5, -3, 3, 0] }} transition={{ duration: 1.1, delay: 0.3 }}>
           <Bell className="h-[88px] w-[88px] fill-gold text-gold" strokeWidth={1.5} />
@@ -166,8 +166,8 @@ function StepRemind({ days, onNext }: { days: number; onNext: () => void }) {
                 {!last && <span className="my-1 w-1 flex-1 rounded-full bg-surface-2" />}
               </div>
               <div className={last ? "" : "pb-6"}>
-                <p className="text-[1rem] font-extrabold">{it.title}</p>
-                <p className="text-[0.875rem] text-muted-foreground">{it.body}</p>
+                <p className="text-[1rem] font-extrabold">{tr(it.title)}</p>
+                <p className="text-[0.875rem] text-muted-foreground">{tr(it.body)}</p>
               </div>
             </div>
           );
@@ -212,38 +212,32 @@ function StepPlans({
             <Check className="h-4 w-4 text-success" strokeWidth={3} /> {trialBadge(days)}
           </p>
           <Button onClick={onStart} disabled={busy}>
-            {busy ? "Starting…" : trialCta(days)}
+            {busy ? tr("Starting…") : trialCta(days)}
           </Button>
           <p className="text-center text-[0.75rem] text-faint">
-            {priceLine(PLANS[plan], days)}. Renews automatically, cancel anytime in your store settings.
-          </p>
+            {tr("{priceLine}. Renews automatically, cancel anytime in your store settings.", { priceLine: priceLine(PLANS[plan], days) })}</p>
           <div className="flex flex-wrap justify-center gap-x-6">
             <button
-              onClick={() => toast({ title: "No subscription found", description: "Use the same store account you bought with." })}
+              onClick={() => toast({ title: tr("No subscription found"), description: tr("Use the same store account you bought with.") })}
               disabled={busy}
               className="press min-h-10 px-2 text-[0.8125rem] font-bold text-muted-foreground disabled:opacity-50"
             >
-              Restore purchase
-            </button>
+              {tr("Restore purchase")}</button>
             <button onClick={onSkip} disabled={busy} className="press min-h-10 px-2 text-[0.8125rem] font-bold text-muted-foreground disabled:opacity-50">
-              Not now
-            </button>
+              {tr("Not now")}</button>
             {/* Store reviewers finish onboarding, then sign in here; hidden unless the server switch is on. */}
             {reviewSignIn && (
               <Link to="/account" search={{ mode: "signin" }} className="press flex min-h-10 items-center px-2 text-[0.8125rem] font-bold text-muted-foreground">
-                I already have an account
-              </Link>
+                {tr("I already have an account")}</Link>
             )}
           </div>
           {/* Store rules: subscription screens link the Terms of Use and Privacy Policy. */}
           <p className="text-center text-[0.75rem] text-faint">
             <Link to="/terms" className="underline">
-              Terms of Use
-            </Link>{" "}
+              {tr("Terms of Use")}</Link>{" "}
             ·{" "}
             <Link to="/privacy" className="underline">
-              Privacy Policy
-            </Link>
+              {tr("Privacy Policy")}</Link>
           </p>
         </>
       }
@@ -251,7 +245,7 @@ function StepPlans({
       <div className="flex items-center gap-3 pt-2">
         <LivelyMascot pose="heart" size={64} />
         <h1 className="text-[1.5rem] font-black leading-tight">
-          Unlock everything in <span className="text-primary">Kizuki</span>
+          <Hi text={tr("Unlock everything in [Kizuki]")} className="text-primary" />
         </h1>
       </div>
       {/* Plans come first so the price is always visible on small phones; perks scroll below. */}
@@ -268,30 +262,30 @@ function StepPlans({
             >
               {p.badge && (
                 <span className="absolute -top-3 right-4 rounded-full bg-primary px-2.5 py-0.5 text-[0.6875rem] font-black uppercase tracking-wider text-primary-foreground">
-                  {p.badge}
+                  {planBadge(p)}
                 </span>
               )}
               <span className={cn("flex h-6 w-6 shrink-0 items-center justify-center rounded-full border-2", active ? "border-primary bg-primary" : "border-surface-3")}>
                 {active && <Check className="h-4 w-4 text-primary-foreground" strokeWidth={3.5} />}
               </span>
               <span className="flex-1">
-                <span className="block text-[1rem] font-extrabold">{p.label}</span>
-                <span className="block text-[0.8125rem] text-muted-foreground">{p.sub}</span>
+                <span className="block text-[1rem] font-extrabold">{tr(p.label)}</span>
+                <span className="block text-[0.8125rem] text-muted-foreground">{planSub(p)}</span>
               </span>
               <span className="text-right">
                 <span className="block text-[1rem] font-black tabular">{p.perMonth}</span>
-                <span className="block text-[0.6875rem] font-bold text-muted-foreground">per month</span>
+                <span className="block text-[0.6875rem] font-bold text-muted-foreground">{tr("per month")}</span>
               </span>
             </button>
           );
         })}
       </div>
-      <p className="mt-6 text-[0.6875rem] font-black uppercase tracking-[0.12em] text-muted-foreground">Everything in Premium</p>
+      <p className="mt-6 text-[0.6875rem] font-black uppercase tracking-[0.12em] text-muted-foreground">{tr("Everything in Premium")}</p>
       <div className="mt-2.5 space-y-2">
         {PERKS.map((p) => (
           <p key={p} className="flex items-center gap-2.5 text-[0.9375rem] font-bold">
             <Sparkles className="h-4 w-4 shrink-0 text-gold" />
-            {p}
+            {tr(p)}
           </p>
         ))}
       </div>

@@ -12,6 +12,7 @@ import { useContent } from "@/lib/feed";
 import { jlptLevels, searchClips } from "@/lib/logic";
 import { topicEmoji, topicLabel } from "@/lib/topics";
 import { cn } from "@/lib/utils";
+import { tr, trn } from "@/lib/i18n";
 
 const searchSchema = z.object({
   q: z.string().max(60).optional(),
@@ -70,17 +71,17 @@ function Explore() {
           <input
             value={text}
             onChange={(e) => { setText(e.target.value.slice(0, 60)); set({ q: e.target.value.slice(0, 60) || undefined }); }}
-            placeholder="English, Japanese or romaji"
-            aria-label="Search clips"
+            placeholder={tr("English, Japanese or romaji")}
+            aria-label={tr("Search clips")}
             className="h-full min-w-0 flex-1 bg-transparent text-[1rem] font-bold outline-none placeholder:text-faint"
           />
-          {text && <button aria-label="Clear search" onClick={() => { setText(""); set({ q: undefined }); }}><X className="h-5 w-5 text-faint" /></button>}
+          {text && <button aria-label={tr("Clear search")} onClick={() => { setText(""); set({ q: undefined }); }}><X className="h-5 w-5 text-faint" /></button>}
         </label>
         <div className="mt-2.5 flex gap-2 overflow-x-auto pb-1 no-scrollbar">
-          <Chip active={!!search.level || panel === "level"} onClick={() => setPanel(panel === "level" ? null : "level")}>🎯 {search.level ?? "Level"}</Chip>
-          <Chip active={!!search.topic || panel === "topic"} onClick={() => setPanel(panel === "topic" ? null : "topic")}>{search.topic ? `${topicEmoji(search.topic)} ${topicLabel(search.topic)}` : "🎬 Topic"}</Chip>
-          <Chip active={!!search.grammar || panel === "grammar"} onClick={() => setPanel(panel === "grammar" ? null : "grammar")}>📖 {search.grammar ?? "Grammar"}</Chip>
-          {(search.level || search.topic || search.grammar) && <Chip onClick={() => { set({ level: undefined, topic: undefined, grammar: undefined }); setPanel(null); }}>Clear</Chip>}
+          <Chip active={!!search.level || panel === "level"} onClick={() => setPanel(panel === "level" ? null : "level")}>🎯 {search.level ?? tr("Level")}</Chip>
+          <Chip active={!!search.topic || panel === "topic"} onClick={() => setPanel(panel === "topic" ? null : "topic")}>{search.topic ? `${topicEmoji(search.topic)} ${topicLabel(search.topic)}` : tr("🎬 Topic")}</Chip>
+          <Chip active={!!search.grammar || panel === "grammar"} onClick={() => setPanel(panel === "grammar" ? null : "grammar")}>📖 {search.grammar ?? tr("Grammar")}</Chip>
+          {(search.level || search.topic || search.grammar) && <Chip onClick={() => { set({ level: undefined, topic: undefined, grammar: undefined }); setPanel(null); }}>{tr("Clear")}</Chip>}
         </div>
         {panel === "level" && (
           <div className="mt-2 grid grid-cols-5 gap-2">
@@ -103,26 +104,26 @@ function Explore() {
 
       <div className="min-h-0 flex-1 overflow-y-auto px-4 pb-28 pt-3 no-scrollbar">
         {isLoading && <MascotLoader className="pt-16" />}
-        {error && <ErrorState title="Couldn't load clips" onRetry={() => void refetch()} />}
+        {error && <ErrorState title={tr("Couldn't load clips")} onRetry={() => void refetch()} />}
         {data && !filtering && (
           <>
             <div className="flex items-center gap-3 pb-1 pt-2">
               <Mascot pose="read" className="h-16 w-16" />
               <div>
-                <p className="text-[1.25rem] font-black">Explore {data.clips.length} clips</p>
-                <p className="text-[0.875rem] text-muted-foreground">Search and filter to find exactly what you want to hear.</p>
+                <p className="text-[1.25rem] font-black">{tr("Explore {n} clips", { n: data.clips.length })}</p>
+                <p className="text-[0.875rem] text-muted-foreground">{tr("Search and filter to find exactly what you want to hear.")}</p>
               </div>
             </div>
             <div className="mt-3 grid grid-cols-2 gap-3">
               {SECTIONS.map((s) => (
                 <button key={s.id} onClick={() => (s.id === "word" ? document.querySelector<HTMLInputElement>("input[aria-label='Search clips']")?.focus() : setPanel(s.id))} className="press rounded-2xl bg-surface p-4 text-left">
                   <span className="text-[1.75rem]">{s.icon}</span>
-                  <p className="mt-2 text-[1rem] font-extrabold">{s.title}</p>
-                  <p className="text-[0.8125rem] leading-snug text-muted-foreground">{s.body}</p>
+                  <p className="mt-2 text-[1rem] font-extrabold">{tr(s.title)}</p>
+                  <p className="text-[0.8125rem] leading-snug text-muted-foreground">{tr(s.body)}</p>
                 </button>
               ))}
             </div>
-            <p className="mb-2 mt-6 text-[0.8125rem] font-black uppercase tracking-[0.12em] text-muted-foreground">Popular topics</p>
+            <p className="mb-2 mt-6 text-[0.8125rem] font-black uppercase tracking-[0.12em] text-muted-foreground">{tr("Popular topics")}</p>
             <div className="flex flex-wrap gap-2">
               {topics.slice(0, 10).map(([t]) => <Chip key={t} onClick={() => set({ topic: t })}>{topicEmoji(t)} {topicLabel(t)}</Chip>)}
             </div>
@@ -131,7 +132,7 @@ function Explore() {
         {data && filtering && (
           results.length ? (
             <>
-              <p className="mb-2 text-[0.8125rem] font-bold text-muted-foreground">{results.length} clip{results.length === 1 ? "" : "s"}</p>
+              <p className="mb-2 text-[0.8125rem] font-bold text-muted-foreground">{trn(results.length, "{n} clip", "{n} clips")}</p>
               <div className="grid grid-cols-2 gap-3">
                 {results.slice(0, 60).map((id) => data.byId[id] && <ClipCard key={id} clip={data.byId[id]} highlight={q.trim()} />)}
               </div>
@@ -139,8 +140,8 @@ function Explore() {
           ) : (
             <div className="flex flex-col items-center pt-10 text-center">
               <Mascot pose="think" className="h-24 w-24" />
-              <p className="mt-2 text-[1.0625rem] font-black">No clips found</p>
-              <p className="text-[0.875rem] text-muted-foreground">Try another word or remove a filter.</p>
+              <p className="mt-2 text-[1.0625rem] font-black">{tr("No clips found")}</p>
+              <p className="text-[0.875rem] text-muted-foreground">{tr("Try another word or remove a filter.")}</p>
             </div>
           )
         )}

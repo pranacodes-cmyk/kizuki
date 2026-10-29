@@ -1,0 +1,5450 @@
+[
+ {
+  "key": "[{word}] here means “[{meaning}]”.",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ]
+ },
+ {
+  "key": "{channel} · Watch on YouTube",
+  "files": [
+   "src/routes/review.tsx",
+   "src/components/mimi/ClipView.tsx",
+   "mobile/lib/screens/review.dart",
+   "mobile/lib/widgets/clip_view.dart"
+  ],
+  "note": "Link that opens the clip on YouTube. Keep the brand YouTube."
+ },
+ {
+  "key": "{days} days free, then {price}/month",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ]
+ },
+ {
+  "key": "{days} days free, then {price}/year",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ]
+ },
+ {
+  "key": "{days}-day streak",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "{due} to review",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
+  "key": "{known} / {total} known",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "{learning} learning · {known} known",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "{left} min left",
+  "files": [
+   "src/components/mimi/FeedHeader.tsx",
+   "mobile/lib/widgets/feed_header.dart"
+  ]
+ },
+ {
+  "key": "{minutes} min",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "{minutes} minutes of real Japanese — Kizuki picked new clips for you.",
+  "files": [
+   "mobile/lib/services/notification_service.dart"
+  ]
+ },
+ {
+  "key": "{month} {year}",
+  "files": [
+   "src/lib/logic.ts",
+   "mobile/lib/logic/logic.dart"
+  ],
+  "note": "Calendar heading; {month} is the localized month name. Reorder if the language writes year first."
+ },
+ {
+  "key": "{n} card reviewed",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "{n} card to review",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "{n} cards reviewed",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "{n} cards to review",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "{n} clip",
+  "files": [
+   "src/routes/_app/explore.tsx",
+   "mobile/lib/screens/explore.dart"
+  ]
+ },
+ {
+  "key": "{n} clips",
+  "files": [
+   "src/routes/_app/explore.tsx",
+   "mobile/lib/screens/explore.dart"
+  ]
+ },
+ {
+  "key": "{n} clips picked for you",
+  "files": [
+   "src/lib/logic.ts",
+   "mobile/lib/logic/logic.dart"
+  ]
+ },
+ {
+  "key": "{n} day free · Cancel anytime",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ]
+ },
+ {
+  "key": "{n} days free · Cancel anytime",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ]
+ },
+ {
+  "key": "{n} new words a month",
+  "files": [
+   "src/lib/logic.ts",
+   "mobile/lib/logic/logic.dart"
+  ]
+ },
+ {
+  "key": "{n} of {total}",
+  "files": [
+   "src/components/mimi/WelcomeTour.tsx"
+  ]
+ },
+ {
+  "key": "{n} word marked as known",
+  "files": [
+   "src/components/mimi/ClipView.tsx",
+   "mobile/lib/widgets/clip_view.dart"
+  ]
+ },
+ {
+  "key": "{n} words marked as known",
+  "files": [
+   "src/components/mimi/ClipView.tsx",
+   "mobile/lib/widgets/clip_view.dart"
+  ]
+ },
+ {
+  "key": "{n}-minute daily sessions",
+  "files": [
+   "src/lib/logic.ts",
+   "mobile/lib/logic/logic.dart"
+  ]
+ },
+ {
+  "key": "{name}, your plan is ready!",
+  "files": [
+   "src/routes/plan.tsx",
+   "mobile/lib/screens/plan.dart"
+  ]
+ },
+ {
+  "key": "{price}/month, billed today",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ]
+ },
+ {
+  "key": "{price}/year, billed today",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ]
+ },
+ {
+  "key": "{priceLine}. Renews automatically, cancel anytime in your store settings.",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "{rec} min/day recommended for {months} months",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "{saved} saved from clips",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "{unlocked} of {total} unlocked",
+  "files": [
+   "src/routes/achievements.tsx",
+   "mobile/lib/screens/lists.dart"
+  ]
+ },
+ {
+  "key": "**{surface}** here means **{gloss}**.\nThe sentence above shows the context.",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "~10 lines",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "🇯🇵 Conversational by {date}",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "src/routes/plan.tsx",
+   "mobile/lib/screens/onboarding.dart",
+   "mobile/lib/screens/plan.dart"
+  ]
+ },
+ {
+  "key": "✓ Enough to reach your {months}-month goal",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "🎬 Topic",
+  "files": [
+   "src/routes/_app/explore.tsx",
+   "mobile/lib/screens/explore.dart"
+  ]
+ },
+ {
+  "key": "🧠 About {wordsPerMonth} new words a month",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "1× · tap to change speed",
+  "files": [
+   "mobile/lib/widgets/tour.dart"
+  ]
+ },
+ {
+  "key": "10 PM – 6 AM",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "100+ lines",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "12 – 6 PM",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "12 months · {price}",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ]
+ },
+ {
+  "key": "12 months · $54.99",
+  "files": [
+   "src/lib/paywall.ts"
+  ]
+ },
+ {
+  "key": "3 months",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "3 years",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "6 – 10 PM",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "6 AM – 12 PM",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "A {n}-day streak goal",
+  "files": [
+   "src/lib/logic.ts",
+   "mobile/lib/logic/logic.dart"
+  ]
+ },
+ {
+  "key": "A clear daily path",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "A clip or word",
+  "files": [
+   "src/lib/support.ts"
+  ],
+  "note": "Support topic: a problem with a video clip or a word."
+ },
+ {
+  "key": "A friend",
+  "files": [
+   "src/lib/onboarding.ts"
+  ],
+  "note": "Onboarding answer to 'Where did you hear about Kizuki?'."
+ },
+ {
+  "key": "A friendly nudge each day",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "A little Japanese.",
+  "files": [
+   "src/routes/widgets.tsx"
+  ],
+  "note": "Widget page headline, first line; second line is 'Every time you look.'"
+ },
+ {
+  "key": "A little Japanese.\nEvery time you look.",
+  "files": [
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
+  "key": "A moment of discovery",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
+  "key": "A quick [hello] before you start",
+  "files": [
+   "src/routes/founder.tsx",
+   "mobile/lib/screens/founder.dart"
+  ]
+ },
+ {
+  "key": "A similar sentence, please",
+  "files": [
+   "src/lib/ask.ts",
+   "mobile/lib/data/ask.dart"
+  ]
+ },
+ {
+  "key": "A video won't play",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "Aa",
+  "files": [
+   "src/components/mimi/ClipView.tsx",
+   "mobile/lib/widgets/clip_view.dart"
+  ],
+  "note": "Icon-like label for subtitle display options. Keep exactly \"Aa\"."
+ },
+ {
+  "key": "Aa · subtitle display",
+  "files": [
+   "mobile/lib/widgets/tour.dart"
+  ],
+  "note": "Keep \"Aa\" exactly, translate \"subtitle display\"."
+ },
+ {
+  "key": "About [{word}] in this line",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "About this line",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "Account",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/lib/support.ts",
+   "mobile/lib/screens/settings.dart"
+  ],
+  "note": "Section title / support topic: the learner's account."
+ },
+ {
+  "key": "Account created",
+  "files": [
+   "src/routes/account.tsx",
+   "mobile/lib/screens/account.dart"
+  ]
+ },
+ {
+  "key": "Achievement unlocked",
+  "files": [
+   "src/components/mimi/AppFrame.tsx",
+   "mobile/lib/widgets/toast.dart"
+  ]
+ },
+ {
+  "key": "Achievements",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "src/routes/achievements.tsx",
+   "mobile/lib/screens/lists.dart",
+   "mobile/lib/screens/profile.dart"
+  ]
+ },
+ {
+  "key": "Active",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
+  ],
+  "note": "Subscription status: active."
+ },
+ {
+  "key": "Activity",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
+  ]
+ },
+ {
+  "key": "Add a note — a memory trick, where you heard it…",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ]
+ },
+ {
+  "key": "Add a note…",
+  "files": [
+   "src/components/mimi/SavedWordSheet.tsx",
+   "mobile/lib/widgets/saved_word_sheet.dart"
+  ]
+ },
+ {
+  "key": "Add Kizuki to your screen",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
+  "key": "Add widget",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
+  "key": "adverb",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label in the dictionary."
+ },
+ {
+  "key": "adverb (と)",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label: adverb taking the particle と. Keep と."
+ },
+ {
+  "key": "Afternoon",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "AI answers can be wrong — double-check anything important.",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "All {saved}",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "All caught up!",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "All set — opening your plan",
+  "files": [
+   "src/routes/building.tsx",
+   "mobile/lib/screens/building.dart"
+  ]
+ },
+ {
+  "key": "Allow analytics",
+  "files": [
+   "mobile/lib/widgets/analytics_consent.dart"
+  ]
+ },
+ {
+  "key": "Almost known",
+  "files": [
+   "src/lib/logic.ts"
+  ],
+  "note": "Word level name: remembered for a week or more."
+ },
+ {
+  "key": "Android",
+  "files": [
+   "src/routes/widgets.tsx"
+  ]
+ },
+ {
+  "key": "Animals",
+  "files": [
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "Anime",
+  "files": [
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "Anime & manga",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Anime, food, travel & more",
+  "files": [
+   "mobile/lib/screens/explore.dart"
+  ]
+ },
+ {
+  "key": "Answer your first flashcard",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "App language",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/routes/language.tsx",
+   "mobile/lib/screens/settings.dart",
+   "mobile/lib/screens/language.dart"
+  ]
+ },
+ {
+  "key": "Apple did not return a sign-in token. Please try again.",
+  "files": [
+   "mobile/lib/services/native_auth.dart"
+  ]
+ },
+ {
+  "key": "Apr",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Ask about grammar, meaning or another example from this line.",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "Ask about this line…",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "Ask about this word…",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "Ask Kizuki",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "Ask Kizuki about this line",
+  "files": [
+   "src/components/mimi/ClipSheets.tsx",
+   "mobile/lib/widgets/clip_sheets.dart"
+  ]
+ },
+ {
+  "key": "Ask Kizuki anything",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "Ask Kizuki is paused for now. Please try again later.",
+  "files": [
+   "src/lib/ask.ts",
+   "mobile/lib/data/ask.dart"
+  ]
+ },
+ {
+  "key": "Ask Kizuki isn't available yet. Please try again later.",
+  "files": [
+   "src/lib/ask.ts",
+   "mobile/lib/data/ask.dart"
+  ]
+ },
+ {
+  "key": "Ask me anything about **{word}** in this line — grammar, nuance, or more examples.",
+  "files": [
+   "src/lib/ask.ts",
+   "mobile/lib/data/ask.dart"
+  ]
+ },
+ {
+  "key": "Ask me anything about this line — grammar, nuance, or how to use it yourself.",
+  "files": [
+   "src/lib/ask.ts",
+   "mobile/lib/data/ask.dart"
+  ]
+ },
+ {
+  "key": "At {n} minutes a day",
+  "files": [
+   "src/lib/logic.ts",
+   "mobile/lib/logic/logic.dart"
+  ]
+ },
+ {
+  "key": "at night",
+  "files": [
+   "src/lib/logic.ts",
+   "mobile/lib/logic/logic.dart"
+  ],
+  "note": "Inserted into 'Next practice {when}' as {when}."
+ },
+ {
+  "key": "Aug",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "auxiliary",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label in the dictionary."
+ },
+ {
+  "key": "auxiliary adjective",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label in the dictionary."
+ },
+ {
+  "key": "auxiliary verb",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label in the dictionary."
+ },
+ {
+  "key": "Back",
+  "files": [
+   "src/routes/account.tsx",
+   "src/components/mimi/ui.tsx",
+   "mobile/lib/screens/account.dart"
+  ]
+ },
+ {
+  "key": "Back to the video",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Back to videos",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Billed monthly",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ]
+ },
+ {
+  "key": "Binge Learner",
+  "files": [
+   "src/lib/logic.ts"
+  ],
+  "note": "Playful achievement badge name. Short and fun."
+ },
+ {
+  "key": "Bite-sized clips {when}",
+  "files": [
+   "src/lib/logic.ts",
+   "mobile/lib/logic/logic.dart"
+  ]
+ },
+ {
+  "key": "Blue line · new word",
+  "files": [
+   "src/lib/tour.ts"
+  ],
+  "note": "Legend: words underlined in blue are new."
+ },
+ {
+  "key": "Break down the whole line",
+  "files": [
+   "src/lib/ask.ts",
+   "mobile/lib/data/ask.dart"
+  ]
+ },
+ {
+  "key": "Break down this line",
+  "files": [
+   "src/lib/ask.ts",
+   "mobile/lib/data/ask.dart"
+  ]
+ },
+ {
+  "key": "Building your personal plan",
+  "files": [
+   "src/routes/building.tsx",
+   "mobile/lib/screens/building.dart"
+  ]
+ },
+ {
+  "key": "By listening to real people — not by memorising rules.",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Cancel anytime",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Card front",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ],
+  "note": "Setting: what the flashcard front shows."
+ },
+ {
+  "key": "Casual Japanese the way friends really talk",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Chat naturally with friends",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Check your connection and store account, then try again.",
+  "files": [
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Check your connection and try again.",
+  "files": [
+   "src/routes/_app/feed.tsx",
+   "mobile/lib/screens/settings.dart",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Choose your language",
+  "files": [
+   "src/routes/language.tsx",
+   "mobile/lib/screens/language.dart"
+  ]
+ },
+ {
+  "key": "Clear",
+  "files": [
+   "src/routes/_app/explore.tsx",
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/explore.dart",
+   "mobile/lib/screens/vocab.dart"
+  ],
+  "note": "Clear the search text."
+ },
+ {
+  "key": "Clear search",
+  "files": [
+   "src/routes/_app/explore.tsx",
+   "mobile/lib/screens/explore.dart"
+  ]
+ },
+ {
+  "key": "Clip not found",
+  "files": [
+   "src/routes/clip.$clipId.tsx",
+   "mobile/lib/screens/clip_screen.dart"
+  ]
+ },
+ {
+  "key": "Clip saved",
+  "files": [
+   "src/components/mimi/ClipView.tsx",
+   "mobile/lib/widgets/clip_view.dart"
+  ]
+ },
+ {
+  "key": "Clips that use a pattern",
+  "files": [
+   "mobile/lib/screens/explore.dart"
+  ]
+ },
+ {
+  "key": "Clips you bookmarked",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
+  ]
+ },
+ {
+  "key": "Clips you watch will show up here.",
+  "files": [
+   "src/routes/history.tsx",
+   "mobile/lib/screens/lists.dart"
+  ]
+ },
+ {
+  "key": "Close review",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "Come back tomorrow, or unlock every clip with a free week of Premium.",
+  "files": [
+   "src/routes/clip.$clipId.tsx",
+   "mobile/lib/screens/clip_screen.dart"
+  ]
+ },
+ {
+  "key": "Comedy",
+  "files": [
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "Commit to {value} days",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "common",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ],
+  "note": "Dictionary tag: a commonly used word."
+ },
+ {
+  "key": "Common questions",
+  "files": [
+   "src/routes/support.tsx",
+   "src/components/mimi/StaticRouteContent.tsx",
+   "mobile/lib/screens/support.dart"
+  ]
+ },
+ {
+  "key": "conjunction",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label in the dictionary."
+ },
+ {
+  "key": "Consistency beats intensity. Even 5 minutes works.",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Continue",
+  "files": [
+   "src/routes/founder.tsx",
+   "src/routes/onboarding.tsx",
+   "src/routes/plan.tsx",
+   "src/routes/language.tsx",
+   "mobile/lib/screens/founder.dart",
+   "mobile/lib/screens/onboarding.dart",
+   "mobile/lib/screens/plan.dart",
+   "mobile/lib/screens/language.dart",
+   "mobile/lib/widgets/tracking_explainer.dart"
+  ]
+ },
+ {
+  "key": "Continue for free",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Continue to sign in",
+  "files": [
+   "src/routes/__root.tsx"
+  ]
+ },
+ {
+  "key": "Continue with {provider}",
+  "files": [
+   "src/routes/account.tsx",
+   "mobile/lib/screens/account.dart"
+  ]
+ },
+ {
+  "key": "Copied",
+  "files": [
+   "src/components/mimi/ClipSheets.tsx",
+   "mobile/lib/widgets/clip_sheets.dart"
+  ]
+ },
+ {
+  "key": "copula",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label in the dictionary: copula (だ/です)."
+ },
+ {
+  "key": "Copy Japanese",
+  "files": [
+   "src/components/mimi/ClipSheets.tsx",
+   "mobile/lib/widgets/clip_sheets.dart"
+  ]
+ },
+ {
+  "key": "Copy real rhythm and intonation, line by line",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Couldn't copy",
+  "files": [
+   "src/components/mimi/ClipSheets.tsx",
+   "mobile/lib/widgets/clip_sheets.dart"
+  ]
+ },
+ {
+  "key": "Couldn't delete your account",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Couldn't load clips",
+  "files": [
+   "src/routes/_app/explore.tsx",
+   "src/routes/_app/feed.tsx",
+   "mobile/lib/widgets/common.dart"
+  ]
+ },
+ {
+  "key": "Couldn't load this clip",
+  "files": [
+   "src/routes/clip.$clipId.tsx"
+  ]
+ },
+ {
+  "key": "Couldn't reach the store",
+  "files": [
+   "mobile/lib/screens/settings.dart",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Couldn't send right now. Check your connection and try again.",
+  "files": [
+   "src/routes/support.tsx"
+  ]
+ },
+ {
+  "key": "counter",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label in the dictionary: counter word."
+ },
+ {
+  "key": "Create a free account from Profile → Save your progress, then sign in with the same account on the new phone. Your words, reviews and streak sync automatically.",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "Create a free account to sync devices",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
+  ]
+ },
+ {
+  "key": "Culture",
+  "files": [
+   "src/lib/onboarding.ts",
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "Daily",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ],
+  "note": "Reminder frequency option: a reminder every day."
+ },
+ {
+  "key": "Daily goal",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Daily goal minutes",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Daily life",
+  "files": [
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "Daily reminder",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart",
+   "mobile/lib/services/notification_service.dart"
+  ]
+ },
+ {
+  "key": "Day {n}",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ],
+  "note": "Free-trial timeline step, e.g. Day 5."
+ },
+ {
+  "key": "Dec",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Decks",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ],
+  "note": "Flashcard decks (Hiragana / Katakana)."
+ },
+ {
+  "key": "Definition",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "Delete account",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Delete forever",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Delete your account?",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Delete your Kizuki account",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "Deleting…",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Deletion removes your profile, learner progress and support messages. Purchase records stay with your app store (Apple/Google) as required for receipts and refunds.",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "Did you remember it?",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "Difficulty",
+  "files": [
+   "mobile/lib/screens/explore.dart"
+  ]
+ },
+ {
+  "key": "Display",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/components/mimi/ClipSheets.tsx",
+   "mobile/lib/screens/settings.dart",
+   "mobile/lib/widgets/clip_sheets.dart"
+  ]
+ },
+ {
+  "key": "Display options",
+  "files": [
+   "src/components/mimi/ClipView.tsx",
+   "mobile/lib/widgets/clip_view.dart"
+  ]
+ },
+ {
+  "key": "Do you remember what it means? Tap the card to check.",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Done reviewing for today 🎉",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "Done with textbooks? [Start understanding real Japanese.]",
+  "files": [
+   "src/routes/index.tsx",
+   "mobile/lib/screens/welcome.dart"
+  ]
+ },
+ {
+  "key": "Downloading translations…",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Drama",
+  "files": [
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "Drill apps",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ],
+  "note": "Onboarding answer: apps the learner tried before (gamified drill apps)."
+ },
+ {
+  "key": "Each word comes back right before you'd forget it. Forgotten words come back sooner.",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "Email",
+  "files": [
+   "src/routes/account.tsx",
+   "src/components/mimi/StaticRouteContent.tsx",
+   "mobile/lib/screens/account.dart"
+  ]
+ },
+ {
+  "key": "Email or password is incorrect.",
+  "files": [
+   "src/routes/account.tsx",
+   "mobile/lib/screens/account.dart"
+  ]
+ },
+ {
+  "key": "End simulated plan",
+  "files": [
+   "src/routes/settings.tsx"
+  ]
+ },
+ {
+  "key": "English → Japanese",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "English translation",
+  "files": [
+   "src/components/mimi/ClipSheets.tsx"
+  ]
+ },
+ {
+  "key": "English, Japanese or romaji",
+  "files": [
+   "src/routes/_app/explore.tsx",
+   "mobile/lib/screens/explore.dart"
+  ]
+ },
+ {
+  "key": "Enter the email and password.",
+  "files": [
+   "src/routes/account.tsx"
+  ]
+ },
+ {
+  "key": "Evening",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Every clip plays through YouTube's official player and belongs to its creator. Kizuki adds the Japanese transcript, translations and word explanations.",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "Every time you look.",
+  "files": [
+   "src/routes/widgets.tsx"
+  ],
+  "note": "Widget page headline, second line after 'A little Japanese.'"
+ },
+ {
+  "key": "Every word explained in its sentence",
+  "files": [
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Every word explained in the sentence you heard",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Every word you tap is saved in Vocab.",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Everyday conversations",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Everything in Kizuki is unlocked.",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Everything in Premium",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Everything you've watched",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
+  ]
+ },
+ {
+  "key": "EXAMPLE · NO QUESTION SENT",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "Example sentence",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "Example sentences",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ]
+ },
+ {
+  "key": "Examples",
+  "files": [
+   "src/components/mimi/WordCard.tsx"
+  ],
+  "note": "Word-card tab: example sentences. Short tab label."
+ },
+ {
+  "key": "Examples: Tatoeba (CC BY 2.0 FR) via JMdict.",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ]
+ },
+ {
+  "key": "Exit app",
+  "files": [
+   "mobile/lib/widgets/ui.dart"
+  ],
+  "note": "Button in the exit dialog."
+ },
+ {
+  "key": "Explain",
+  "files": [
+   "src/components/mimi/WordCard.tsx"
+  ],
+  "note": "Word-card tab: an explanation of the word in this clip's context. Short tab label."
+ },
+ {
+  "key": "Explain the grammar",
+  "files": [
+   "src/lib/ask.ts",
+   "mobile/lib/data/ask.dart"
+  ]
+ },
+ {
+  "key": "Explained",
+  "files": [
+   "src/components/mimi/ClipSheets.tsx",
+   "mobile/lib/widgets/clip_sheets.dart"
+  ],
+  "note": "Label: this line has an explanation."
+ },
+ {
+  "key": "Explore",
+  "files": [
+   "src/components/mimi/FeedHeader.tsx",
+   "mobile/lib/widgets/feed_header.dart"
+  ],
+  "note": "Bottom tab bar label: browse clips by topic. Max ~10 characters."
+ },
+ {
+  "key": "Explore {n} clips",
+  "files": [
+   "src/routes/_app/explore.tsx",
+   "mobile/lib/screens/explore.dart"
+  ]
+ },
+ {
+  "key": "Export saved words (.csv)",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "expression",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label in the dictionary: set expression / phrase."
+ },
+ {
+  "key": "Familiar",
+  "files": [
+   "src/lib/logic.ts"
+  ],
+  "note": "Word level name: the learner remembers the word for days."
+ },
+ {
+  "key": "Family",
+  "files": [
+   "src/lib/onboarding.ts",
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "Feb",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Feed",
+  "files": [
+   "mobile/lib/widgets/tab_bar.dart"
+  ],
+  "note": "Bottom tab bar label: the endless video feed. Max ~10 characters."
+ },
+ {
+  "key": "Feelings and sweet talk from romance dramas",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Filter by JLPT level",
+  "files": [
+   "mobile/lib/screens/explore.dart"
+  ]
+ },
+ {
+  "key": "Finally I understand what my favourite anime characters are actually saying.",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Find clips with any Japanese word",
+  "files": [
+   "mobile/lib/screens/explore.dart"
+  ]
+ },
+ {
+  "key": "Find it in Profile → Saved",
+  "files": [
+   "src/components/mimi/ClipView.tsx",
+   "mobile/lib/widgets/clip_view.dart"
+  ]
+ },
+ {
+  "key": "Finding clips for you…",
+  "files": [
+   "src/routes/_app/feed.tsx"
+  ]
+ },
+ {
+  "key": "Finish here in your browser — the Kizuki app opens again as soon as you're done.",
+  "files": [
+   "src/routes/account.tsx"
+  ]
+ },
+ {
+  "key": "First clips translated",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "First Listen",
+  "files": [
+   "src/lib/logic.ts"
+  ],
+  "note": "Achievement badge name (first clip watched)."
+ },
+ {
+  "key": "First Review",
+  "files": [
+   "src/lib/logic.ts"
+  ],
+  "note": "Achievement badge name (first flashcard review)."
+ },
+ {
+  "key": "Fitting it into {minutes} minutes a day…",
+  "files": [
+   "src/routes/building.tsx",
+   "mobile/lib/screens/building.dart"
+  ]
+ },
+ {
+  "key": "Flashcards",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ],
+  "note": "Onboarding answer: methods the learner tried before."
+ },
+ {
+  "key": "Food",
+  "files": [
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "Food, festivals and daily life in Japan",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "For you",
+  "files": [
+   "src/components/mimi/FeedPreview.tsx",
+   "mobile/lib/widgets/feed_preview.dart"
+  ],
+  "note": "Feed header: personalised video feed."
+ },
+ {
+  "key": "For You",
+  "files": [
+   "src/components/mimi/FeedHeader.tsx",
+   "mobile/lib/widgets/feed_header.dart"
+  ],
+  "note": "Feed header: personalised video feed."
+ },
+ {
+  "key": "Forgot",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ],
+  "note": "Flashcard self-grade button: I did not remember the word."
+ },
+ {
+  "key": "FORGOT",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ],
+  "note": "Flashcard result stamp (uppercase): did not remember. Keep uppercase if the script has case."
+ },
+ {
+  "key": "Free trial · {n} day left",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
+  ]
+ },
+ {
+  "key": "Free trial · {n} days left",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
+  ]
+ },
+ {
+  "key": "Friendly reminders {when}",
+  "files": [
+   "src/lib/logic.ts",
+   "mobile/lib/logic/logic.dart"
+  ]
+ },
+ {
+  "key": "Friends",
+  "files": [
+   "src/lib/onboarding.ts",
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "from the address you signed up with, or follow the instructions at",
+  "files": [
+   "src/components/mimi/StaticRouteContent.tsx"
+  ]
+ },
+ {
+  "key": "Fun",
+  "files": [
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "Funny, cute and surprising clips — no textbook",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Furigana (readings above kanji)",
+  "files": [
+   "src/components/mimi/ClipSheets.tsx"
+  ]
+ },
+ {
+  "key": "Furigana on the front",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Games",
+  "files": [
+   "src/lib/topics.ts"
+  ],
+  "note": "Topic name / onboarding answer."
+ },
+ {
+  "key": "Gentle taps for buttons and milestones",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Get help",
+  "files": [
+   "src/routes/__root.tsx"
+  ]
+ },
+ {
+  "key": "Get started",
+  "files": [
+   "src/routes/index.tsx",
+   "mobile/lib/screens/welcome.dart"
+  ]
+ },
+ {
+  "key": "Getting Fluent",
+  "files": [
+   "src/lib/logic.ts"
+  ],
+  "note": "Playful achievement badge name. Short and fun."
+ },
+ {
+  "key": "Give me 2 more examples",
+  "files": [
+   "src/lib/ask.ts",
+   "mobile/lib/data/ask.dart"
+  ]
+ },
+ {
+  "key": "Go back and try again. If it keeps happening, restart Kizuki.",
+  "files": [
+   "mobile/lib/widgets/common.dart"
+  ]
+ },
+ {
+  "key": "Go to the feed",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "Goal done!",
+  "files": [
+   "src/components/mimi/FeedHeader.tsx",
+   "mobile/lib/widgets/feed_header.dart"
+  ]
+ },
+ {
+  "key": "godan verb",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label: Japanese godan (u-) verb. Use the term Japanese teachers use in the target language."
+ },
+ {
+  "key": "Good",
+  "files": [
+   "src/lib/onboarding.ts"
+  ],
+  "note": "Praise after an answer."
+ },
+ {
+  "key": "Google did not return a sign-in token. Please try again.",
+  "files": [
+   "mobile/lib/services/native_auth.dart"
+  ]
+ },
+ {
+  "key": "Google search",
+  "files": [
+   "src/lib/onboarding.ts"
+  ],
+  "note": "Onboarding answer to 'Where did you hear about Kizuki?'."
+ },
+ {
+  "key": "Google sign-in could not initialize.",
+  "files": [
+   "mobile/lib/services/native_auth.dart"
+  ]
+ },
+ {
+  "key": "Got it",
+  "files": [
+   "src/routes/widgets.tsx",
+   "src/components/mimi/WelcomeTour.tsx",
+   "src/lib/tour.ts",
+   "mobile/lib/screens/home_widgets.dart",
+   "mobile/lib/widgets/tour.dart"
+  ]
+ },
+ {
+  "key": "Grammar",
+  "files": [
+   "src/routes/_app/explore.tsx",
+   "src/lib/onboarding.ts",
+   "mobile/lib/screens/explore.dart"
+  ]
+ },
+ {
+  "key": "Grammar in context",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Great",
+  "files": [
+   "src/lib/onboarding.ts"
+  ],
+  "note": "Praise after an answer."
+ },
+ {
+  "key": "Great work. Review your words now, or unlock unlimited clips with a free week of Premium.",
+  "files": [
+   "src/routes/_app/feed.tsx",
+   "mobile/lib/screens/feed.dart"
+  ]
+ },
+ {
+  "key": "Half Hour Hero",
+  "files": [
+   "src/lib/logic.ts"
+  ],
+  "note": "Playful achievement badge name (studied 30 minutes). Short and fun."
+ },
+ {
+  "key": "Hear it in other clips",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ]
+ },
+ {
+  "key": "Hear real native speed from day one",
+  "files": [
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "heard as [{word}]",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ],
+  "note": "Shown under a word: the tapped form as heard in the clip. Keep [ ] around {word}."
+ },
+ {
+  "key": "Hello, thank you, a few basics",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Help",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Help & feedback",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
+  ]
+ },
+ {
+  "key": "Help & support",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/routes/support.tsx",
+   "mobile/lib/screens/settings.dart",
+   "mobile/lib/screens/support.dart"
+  ]
+ },
+ {
+  "key": "Help & support — Kizuki",
+  "files": [
+   "src/components/mimi/StaticRouteContent.tsx"
+  ]
+ },
+ {
+  "key": "Helps us reach more learners like you.",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Here is an example. Your question stays about the word and sentence you just watched.",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Hi{name}! I'll show you how Kizuki works. It takes one minute — just tap what I point at.",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Highlight the spoken word",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/components/mimi/ClipSheets.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Hiragana",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ],
+  "note": "Japanese syllabary. Use the standard term in the target language."
+ },
+ {
+  "key": "Hiragana & katakana trainer",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Home & Lock Screen widgets",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Hour of Power",
+  "files": [
+   "src/lib/logic.ts"
+  ],
+  "note": "Playful achievement badge name (studied 60 minutes). Short and fun."
+ },
+ {
+  "key": "How can we help?",
+  "files": [
+   "src/routes/support.tsx",
+   "mobile/lib/screens/support.dart"
+  ]
+ },
+ {
+  "key": "How do I cancel or change my subscription?",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "How do I delete my account?",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "How do I move my progress to a new phone?",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "How does the free trial work?",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "How much Japanese do you know?",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "How much time can you give each day?",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "How often",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ],
+  "note": "Reminder frequency setting label."
+ },
+ {
+  "key": "How well do you know [{word}]?",
+  "files": [
+   "src/components/mimi/WordLevel.tsx",
+   "mobile/lib/widgets/word_level.dart"
+  ]
+ },
+ {
+  "key": "I already have an account",
+  "files": [
+   "src/routes/index.tsx",
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/welcome.dart",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "I can discuss most things",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "I can have simple chats",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "I can talk about many topics",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "I know it",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ]
+ },
+ {
+  "key": "I know some words",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "I know this word",
+  "files": [
+   "src/components/mimi/WordLevel.tsx",
+   "mobile/lib/widgets/word_level.dart"
+  ]
+ },
+ {
+  "key": "I paid but Premium isn't unlocked",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "I'm committed",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "I'm done for now",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "I'm new to Japanese",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "ichidan verb",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label: Japanese ichidan (ru-) verb. Use the term Japanese teachers use in the target language."
+ },
+ {
+  "key": "Idea",
+  "files": [
+   "src/lib/support.ts"
+  ],
+  "note": "Support topic: an idea / feedback."
+ },
+ {
+  "key": "Ignored",
+  "files": [
+   "src/lib/logic.ts"
+  ],
+  "note": "Word level name: the learner chose to never review or underline this word."
+ },
+ {
+  "key": "in the afternoon",
+  "files": [
+   "src/lib/logic.ts",
+   "mobile/lib/logic/logic.dart"
+  ],
+  "note": "Inserted into 'Next practice {when}' as {when}."
+ },
+ {
+  "key": "in the evening",
+  "files": [
+   "src/lib/logic.ts",
+   "mobile/lib/logic/logic.dart"
+  ],
+  "note": "Inserted into 'Next practice {when}' as {when}."
+ },
+ {
+  "key": "In the Kizuki app",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "in the morning",
+  "files": [
+   "src/lib/logic.ts",
+   "mobile/lib/logic/logic.dart"
+  ],
+  "note": "Inserted into 'Next practice {when}' as {when}: later today, in the morning."
+ },
+ {
+  "key": "In the phone app this opens your App Store or Google Play subscriptions. This preview has no store, so you can end the simulated plan here — you'll go back to {FREE_DAILY_CLIPS} free clips a day and keep your words.",
+  "files": [
+   "src/routes/settings.tsx"
+  ]
+ },
+ {
+  "key": "In this clip",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ]
+ },
+ {
+  "key": "In this clip: [{meaning}]",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "in under a minute",
+  "files": [
+   "src/lib/logic.ts",
+   "mobile/lib/logic/logic.dart"
+  ],
+  "note": "Inserted into 'Next practice {when}' as {when}."
+ },
+ {
+  "key": "Incredible",
+  "files": [
+   "src/lib/onboarding.ts"
+  ],
+  "note": "Praise after an answer."
+ },
+ {
+  "key": "Instagram",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "interjection",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label in the dictionary."
+ },
+ {
+  "key": "Interviews",
+  "files": [
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "intransitive",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label: intransitive verb."
+ },
+ {
+  "key": "Introduce myself, order food",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "iPhone",
+  "files": [
+   "src/routes/widgets.tsx"
+  ]
+ },
+ {
+  "key": "Is it casual or polite?",
+  "files": [
+   "src/lib/ask.ts",
+   "mobile/lib/data/ask.dart"
+  ]
+ },
+ {
+  "key": "It may have been removed from the library.",
+  "files": [
+   "src/routes/clip.$clipId.tsx",
+   "mobile/lib/screens/clip_screen.dart"
+  ]
+ },
+ {
+  "key": "It's that simple. Show up for {minutes} minutes a day and you'll surprise yourself.",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "Jan",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Japanese",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
+  "key": "Japanese → English",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Japanese ABCs\nHiragana あ and Katakana ア write the same sounds in two ways. Start with Hiragana. Both decks are optional.",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Japanese for work",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Japanese level",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "JLPT {level}",
+  "files": [
+   "src/components/mimi/ClipCard.tsx",
+   "src/components/mimi/ClipView.tsx",
+   "mobile/lib/widgets/clip_card.dart",
+   "mobile/lib/widgets/clip_view.dart"
+  ]
+ },
+ {
+  "key": "Jul",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Jun",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Just for fun",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Just saved. Reviews start now",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Katakana",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ],
+  "note": "Japanese syllabary. Use the standard term in the target language."
+ },
+ {
+  "key": "Keep Kizuki Premium, or cancel anytime in your store settings. No surprises.",
+  "files": [
+   "mobile/lib/services/notification_service.dart"
+  ]
+ },
+ {
+  "key": "Keep learning with Premium",
+  "files": [
+   "src/routes/__root.tsx"
+  ]
+ },
+ {
+  "key": "Keep my account",
+  "files": [
+   "src/routes/settings.tsx"
+  ]
+ },
+ {
+  "key": "Keep Premium",
+  "files": [
+   "src/routes/settings.tsx"
+  ],
+  "note": "Button keeping the subscription when the learner considers cancelling."
+ },
+ {
+  "key": "Keep studying",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "Keep this word in my reviews",
+  "files": [
+   "src/components/mimi/WordLevel.tsx",
+   "mobile/lib/widgets/word_level.dart"
+  ]
+ },
+ {
+  "key": "Keep your streak alive 🔥",
+  "files": [
+   "mobile/lib/services/notification_service.dart"
+  ]
+ },
+ {
+  "key": "Keep your words, streak and reviews safe on every device.",
+  "files": [
+   "src/routes/account.tsx",
+   "mobile/lib/screens/account.dart"
+  ]
+ },
+ {
+  "key": "Kids",
+  "files": [
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "Kizuki (the Japanese learning app by Prana codes, contact pranacodes@gmail.com) lets you delete your account and all associated data at any time.",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "Kizuki couldn't answer that. Please try again.",
+  "files": [
+   "src/lib/ask.ts",
+   "mobile/lib/data/ask.dart"
+  ]
+ },
+ {
+  "key": "Kizuki explains Japanese in this language. You can change it anytime in Settings.",
+  "files": [
+   "src/routes/language.tsx",
+   "mobile/lib/screens/language.dart"
+  ]
+ },
+ {
+  "key": "Kizuki is busy right now — try again in a moment.",
+  "files": [
+   "src/lib/ask.ts",
+   "mobile/lib/data/ask.dart"
+  ]
+ },
+ {
+  "key": "Kizuki is the Japanese learning app for Android and iPhone, operated by {LEGAL_DEVELOPER_NAME} ({LEGAL_CONTACT_EMAIL}).",
+  "files": [
+   "src/components/mimi/StaticRouteContent.tsx"
+  ]
+ },
+ {
+  "key": "Kizuki is thinking…",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "Kizuki Premium · {plan}",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Kizuki the fox",
+  "files": [
+   "src/routes/index.tsx",
+   "src/components/mimi/Mascot.tsx",
+   "mobile/lib/widgets/lively_mascot.dart"
+  ],
+  "note": "Alt text for the fox mascot image named Kizuki."
+ },
+ {
+  "key": "Kizuki will show you around on the feed.",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Know 25 words",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Known",
+  "files": [
+   "src/lib/logic.ts"
+  ],
+  "note": "Word level name / button: the learner already knows this word (no more reviews)."
+ },
+ {
+  "key": "Known {known}",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "Large",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/routes/widgets.tsx",
+   "src/components/mimi/ClipSheets.tsx",
+   "mobile/lib/screens/home_widgets.dart",
+   "mobile/lib/screens/settings.dart",
+   "mobile/lib/widgets/clip_sheets.dart"
+  ],
+  "note": "Text size option / home-screen widget size."
+ },
+ {
+  "key": "Last updated: {updated}",
+  "files": [
+   "src/components/mimi/LegalPage.tsx",
+   "src/components/mimi/StaticRouteContent.tsx",
+   "mobile/lib/screens/legal.dart"
+  ]
+ },
+ {
+  "key": "Lasting recall",
+  "files": [
+   "src/routes/founder.tsx",
+   "mobile/lib/screens/founder.dart"
+  ]
+ },
+ {
+  "key": "Learn again",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ],
+  "note": "Flashcard button: put a known word back into learning."
+ },
+ {
+  "key": "Learn Japanese from real clips.",
+  "files": [
+   "src/components/mimi/AppFrame.tsx"
+  ]
+ },
+ {
+  "key": "Learn the way you learned your first language",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Learn with Kizuki [Premium]",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Learner",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
+  ],
+  "note": "Default display name when the learner has no name."
+ },
+ {
+  "key": "Learners with reminders on are far more likely to keep their streak.",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Learning",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/components/mimi/WordLevel.tsx",
+   "mobile/lib/screens/settings.dart",
+   "mobile/lib/widgets/word_level.dart"
+  ],
+  "note": "Word level group name: words the learner is currently learning."
+ },
+ {
+  "key": "Learning that feels like scrolling",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Leave this word out",
+  "files": [
+   "src/components/mimi/WordLevel.tsx",
+   "mobile/lib/widgets/word_level.dart"
+  ]
+ },
+ {
+  "key": "Leaving already?",
+  "files": [
+   "mobile/lib/widgets/ui.dart"
+  ],
+  "note": "Exit dialog title, friendly."
+ },
+ {
+  "key": "Less",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
+  ]
+ },
+ {
+  "key": "Lessons",
+  "files": [
+   "src/lib/topics.ts"
+  ],
+  "note": "Topic name for clips that teach Japanese."
+ },
+ {
+  "key": "Let's do it!",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "Let's go!",
+  "files": [
+   "src/components/mimi/WelcomeTour.tsx",
+   "mobile/lib/widgets/tour.dart"
+  ]
+ },
+ {
+  "key": "Let's set up your learning plan.",
+  "files": [
+   "src/routes/account.tsx",
+   "mobile/lib/screens/account.dart"
+  ]
+ },
+ {
+  "key": "Level",
+  "files": [
+   "src/routes/_app/explore.tsx",
+   "mobile/lib/screens/explore.dart"
+  ],
+  "note": "Japanese (JLPT) level label."
+ },
+ {
+  "key": "Level: {level}",
+  "files": [
+   "src/components/mimi/WordLevel.tsx",
+   "mobile/lib/widgets/word_level.dart"
+  ]
+ },
+ {
+  "key": "Line options",
+  "files": [
+   "src/components/mimi/Transcript.tsx",
+   "mobile/lib/widgets/transcript.dart"
+  ]
+ },
+ {
+  "key": "Literally: [{lit}]",
+  "files": [
+   "src/components/mimi/ClipSheets.tsx",
+   "mobile/lib/widgets/clip_sheets.dart"
+  ],
+  "note": "Literal translation of a line. Keep [ ] around {lit}."
+ },
+ {
+  "key": "Literally: {lit}",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ],
+  "note": "Literal translation of a line."
+ },
+ {
+  "key": "Live the culture",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Loading explanation…",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ]
+ },
+ {
+  "key": "Lock",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ],
+  "note": "Lock-screen widget (short tab label)."
+ },
+ {
+  "key": "Lock-screen widgets are supported only on some Android versions and devices. Use your device’s widget picker if available.",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
+  "key": "Loop line",
+  "files": [
+   "src/components/mimi/ClipView.tsx",
+   "mobile/lib/widgets/clip_view.dart"
+  ]
+ },
+ {
+  "key": "Loop this line",
+  "files": [
+   "src/components/mimi/ClipSheets.tsx",
+   "mobile/lib/widgets/clip_sheets.dart"
+  ]
+ },
+ {
+  "key": "Love, in Japanese",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Make a promise to yourself",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Manage subscription",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Mar",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Mark remaining {n} word as known",
+  "files": [
+   "src/components/mimi/ClipView.tsx",
+   "mobile/lib/widgets/clip_view.dart"
+  ]
+ },
+ {
+  "key": "Mark remaining {n} words as known",
+  "files": [
+   "src/components/mimi/ClipView.tsx",
+   "mobile/lib/widgets/clip_view.dart"
+  ]
+ },
+ {
+  "key": "Matched to your level ({jlpt}) and interests",
+  "files": [
+   "src/lib/logic.ts",
+   "mobile/lib/logic/logic.dart"
+  ]
+ },
+ {
+  "key": "Matching clips to your interests…",
+  "files": [
+   "src/routes/building.tsx",
+   "mobile/lib/screens/building.dart"
+  ]
+ },
+ {
+  "key": "May",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Maybe later",
+  "files": [
+   "src/routes/account.tsx",
+   "mobile/lib/screens/account.dart"
+  ]
+ },
+ {
+  "key": "Meaning",
+  "files": [
+   "src/components/mimi/WordCard.tsx"
+  ],
+  "note": "Word-card tab: dictionary meaning. Short tab label."
+ },
+ {
+  "key": "Medium",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/components/mimi/ClipSheets.tsx",
+   "mobile/lib/screens/settings.dart",
+   "mobile/lib/widgets/clip_sheets.dart"
+  ],
+  "note": "Home-screen widget size."
+ },
+ {
+  "key": "Message",
+  "files": [
+   "src/routes/support.tsx"
+  ]
+ },
+ {
+  "key": "Message sent",
+  "files": [
+   "src/routes/support.tsx",
+   "mobile/lib/screens/support.dart"
+  ]
+ },
+ {
+  "key": "Minimal",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ],
+  "note": "Reminder frequency option: only when the streak is at risk."
+ },
+ {
+  "key": "minutes",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Monthly",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/lib/paywall.ts",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "months",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "More",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
+  ]
+ },
+ {
+  "key": "Morning",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Mount Fuji beside a Japanese lake",
+  "files": [
+   "src/routes/widgets.tsx"
+  ]
+ },
+ {
+  "key": "Music",
+  "files": [
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "Mute",
+  "files": [
+   "src/routes/founder.tsx",
+   "mobile/lib/screens/founder.dart"
+  ],
+  "note": "Mute the video sound."
+ },
+ {
+  "key": "Natural-speed Japanese with word-by-word subtitles",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Never underlined or reviewed",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "New",
+  "files": [
+   "src/lib/logic.ts"
+  ],
+  "note": "Word level name: a word the learner just saved."
+ },
+ {
+  "key": "News",
+  "files": [
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "Next",
+  "files": [
+   "src/components/mimi/WelcomeTour.tsx",
+   "mobile/lib/widgets/tour.dart"
+  ]
+ },
+ {
+  "key": "Next practice {when}",
+  "files": [
+   "src/components/mimi/SavedWordSheet.tsx",
+   "mobile/lib/widgets/saved_word_sheet.dart"
+  ],
+  "note": "{when} is a phrase such as 'tomorrow', 'in 3 days', 'now', 'in the evening'."
+ },
+ {
+  "key": "Next practice: {when}",
+  "files": [
+   "src/components/mimi/WordLevel.tsx",
+   "mobile/lib/widgets/word_level.dart"
+  ],
+  "note": "{when} is a phrase such as 'tomorrow', 'in 3 days', 'now', 'in the evening'."
+ },
+ {
+  "key": "Next word",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
+  "key": "Night",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "No clips found",
+  "files": [
+   "src/routes/_app/explore.tsx",
+   "mobile/lib/screens/explore.dart"
+  ]
+ },
+ {
+  "key": "No commitment · Cancel anytime",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ]
+ },
+ {
+  "key": "No dictionary entry for this word — check the Explain tab.",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ]
+ },
+ {
+  "key": "No line · known word",
+  "files": [
+   "src/lib/tour.ts"
+  ],
+  "note": "Legend: words without an underline are known."
+ },
+ {
+  "key": "No more reviews, no underline",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "No other examples yet for this word.",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ]
+ },
+ {
+  "key": "No payment due now",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "No saved words yet",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "No subscription found",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/settings.dart",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "No thanks",
+  "files": [
+   "mobile/lib/widgets/analytics_consent.dart"
+  ]
+ },
+ {
+  "key": "No words match.",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "No words yet — watch a clip and tap any word.",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "Not now",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Notes",
+  "files": [
+   "src/components/mimi/WordCard.tsx"
+  ],
+  "note": "Word-card tab: the learner's own notes. Short tab label."
+ },
+ {
+  "key": "Nothing due right now",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "Nothing was charged. Please try again.",
+  "files": [
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "noun",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label in the dictionary."
+ },
+ {
+  "key": "Nov",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "now",
+  "files": [
+   "src/lib/logic.ts",
+   "mobile/lib/logic/logic.dart"
+  ],
+  "note": "Inserted into 'Next practice {when}' as {when}: the next review is now."
+ },
+ {
+  "key": "Now tap Explain",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "numeric",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label in the dictionary: numeral."
+ },
+ {
+  "key": "Oct",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Off: save only with the Save button",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "On a Roll",
+  "files": [
+   "src/lib/logic.ts"
+  ],
+  "note": "Playful achievement badge name (3-day streak). Short and fun."
+ },
+ {
+  "key": "One quick question",
+  "files": [
+   "mobile/lib/widgets/tracking_explainer.dart"
+  ]
+ },
+ {
+  "key": "One short clip saves your streak today.",
+  "files": [
+   "mobile/lib/services/notification_service.dart"
+  ]
+ },
+ {
+  "key": "One tap · no passwords · progress stays safe",
+  "files": [
+   "src/routes/account.tsx",
+   "mobile/lib/screens/account.dart"
+  ]
+ },
+ {
+  "key": "One Week Strong",
+  "files": [
+   "src/lib/logic.ts"
+  ],
+  "note": "Playful achievement badge name (7-day streak). Short and fun."
+ },
+ {
+  "key": "Only to save your streak",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Open Kizuki → Profile → Settings → Delete account. This permanently deletes your account, saved words, reviews, streak and cloud progress.",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "Open Profile → Settings → Restore purchase, using the same Apple ID or Google account you paid with. If it still shows locked, send us a message below.",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "Open the clip",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "Opening…",
+  "files": [
+   "mobile/lib/screens/home_widgets.dart"
+  ],
+  "note": "Loading label while opening something."
+ },
+ {
+  "key": "Orange line · saved word",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Other",
+  "files": [
+   "src/lib/support.ts"
+  ],
+  "note": "Support topic: something else."
+ },
+ {
+  "key": "particle",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label in the dictionary."
+ },
+ {
+  "key": "Password",
+  "files": [
+   "src/routes/account.tsx",
+   "mobile/lib/screens/account.dart"
+  ]
+ },
+ {
+  "key": "Pause",
+  "files": [
+   "src/routes/founder.tsx",
+   "src/components/mimi/ClipView.tsx",
+   "mobile/lib/screens/founder.dart",
+   "mobile/lib/widgets/clip_view.dart"
+  ],
+  "note": "Pause button for the video."
+ },
+ {
+  "key": "per month",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Pick a streak goal. Kizuki will cheer you on.",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Pick a time",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Pick all that apply — we'll find clips you'll love.",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Picking scenes at your level ({jlpt})…",
+  "files": [
+   "src/routes/building.tsx",
+   "mobile/lib/screens/building.dart"
+  ]
+ },
+ {
+  "key": "Plan progress",
+  "files": [
+   "src/routes/building.tsx"
+  ]
+ },
+ {
+  "key": "Play",
+  "files": [
+   "src/routes/founder.tsx",
+   "src/components/mimi/ClipView.tsx",
+   "mobile/lib/screens/founder.dart",
+   "mobile/lib/widgets/clip_view.dart"
+  ],
+  "note": "Play button (verb: play the video)."
+ },
+ {
+  "key": "Play {word}",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "Play / pause",
+  "files": [
+   "mobile/lib/widgets/tour.dart"
+  ]
+ },
+ {
+  "key": "Play again",
+  "files": [
+   "src/routes/founder.tsx",
+   "mobile/lib/screens/founder.dart"
+  ]
+ },
+ {
+  "key": "Play clip",
+  "files": [
+   "src/components/mimi/ClipPlayer.tsx",
+   "mobile/lib/widgets/clip_player.dart"
+  ]
+ },
+ {
+  "key": "Play pronunciation",
+  "files": [
+   "src/routes/review.tsx",
+   "src/components/mimi/SavedWordSheet.tsx",
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/screens/review.dart",
+   "mobile/lib/widgets/saved_word_sheet.dart",
+   "mobile/lib/widgets/word_card.dart"
+  ]
+ },
+ {
+  "key": "Play sound",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "Play Store",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Play the original line",
+  "files": [
+   "src/components/mimi/ContextPlayer.tsx",
+   "mobile/lib/widgets/context_player.dart"
+  ]
+ },
+ {
+  "key": "Playback speed",
+  "files": [
+   "src/components/mimi/ClipView.tsx",
+   "mobile/lib/widgets/clip_view.dart"
+  ]
+ },
+ {
+  "key": "Please restart Kizuki.",
+  "files": [
+   "mobile/lib/widgets/common.dart"
+  ]
+ },
+ {
+  "key": "Please sign in again to ask Kizuki.",
+  "files": [
+   "src/lib/ask.ts",
+   "mobile/lib/data/ask.dart"
+  ]
+ },
+ {
+  "key": "Please sign in to continue.",
+  "files": [
+   "src/routes/account.tsx"
+  ]
+ },
+ {
+  "key": "Polite speech and office talk from real dramas",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Popular topics",
+  "files": [
+   "src/routes/_app/explore.tsx",
+   "mobile/lib/screens/explore.dart"
+  ]
+ },
+ {
+  "key": "Practice now",
+  "files": [
+   "src/components/mimi/SavedWordSheet.tsx",
+   "mobile/lib/widgets/saved_word_sheet.dart"
+  ]
+ },
+ {
+  "key": "pre-noun adjective",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label: rentaishi."
+ },
+ {
+  "key": "prefix",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label in the dictionary."
+ },
+ {
+  "key": "Premium active",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ],
+  "note": "Status: the Premium subscription is active."
+ },
+ {
+  "key": "Premium active · Trial ends {date}",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Premium ended (preview)",
+  "files": [
+   "src/routes/settings.tsx"
+  ]
+ },
+ {
+  "key": "Premium ended (test build)",
+  "files": [
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Premium gives you unlimited answers from Kizuki.",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "Premium is required to ask Kizuki",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "Preview of your feed",
+  "files": [
+   "src/components/mimi/FeedPreview.tsx"
+  ]
+ },
+ {
+  "key": "Privacy Policy",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/routes/support.tsx",
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/settings.dart",
+   "mobile/lib/screens/support.dart",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Profile",
+  "files": [
+   "mobile/lib/widgets/tab_bar.dart"
+  ],
+  "note": "Bottom tab bar label. Max ~10 characters."
+ },
+ {
+  "key": "Profile → Settings → Delete account. This permanently removes your account and cloud progress. No longer have the app? Send us a message below with the topic Account, from the email you signed up with, and we will delete your account and data within 30 days.",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "pronoun",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label in the dictionary."
+ },
+ {
+  "key": "Purchase didn't go through",
+  "files": [
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Purchase is pending",
+  "files": [
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Purchase restored",
+  "files": [
+   "mobile/lib/screens/settings.dart",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Questions, problems or ideas",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
+  ]
+ },
+ {
+  "key": "Quick answers first. A real person reads every message.",
+  "files": [
+   "src/routes/support.tsx",
+   "mobile/lib/screens/support.dart"
+  ]
+ },
+ {
+  "key": "Reach a 3-day streak",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Reach a 30-day streak",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Reach a 7-day streak",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Real Japanese from trains, shops and restaurants",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Real Japanese you hear in 10 minutes",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Real Japanese, with subtitles. Tap this word to see what it means.",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Real voices",
+  "files": [
+   "src/routes/founder.tsx",
+   "mobile/lib/screens/founder.dart"
+  ]
+ },
+ {
+  "key": "Recognized",
+  "files": [
+   "src/lib/logic.ts"
+  ],
+  "note": "Word level name: the learner starts to recognise the saved word."
+ },
+ {
+  "key": "Reddit",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Remember it? Tap to reveal",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "Remember words with the original audio",
+  "files": [
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Remembered",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ],
+  "note": "Flashcard self-grade button: I remembered the word."
+ },
+ {
+  "key": "REMEMBERED",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ],
+  "note": "Flashcard result stamp (uppercase): remembered. Keep uppercase if the script has case."
+ },
+ {
+  "key": "Remembered it? Tap Remembered. If not, tap Forgot — the word just comes back sooner.",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Remembering words",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Remind me {windowLabel}",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Reminders",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Remove from Vocab",
+  "files": [
+   "src/components/mimi/SavedWordSheet.tsx",
+   "src/components/mimi/WordLevel.tsx",
+   "mobile/lib/widgets/saved_word_sheet.dart",
+   "mobile/lib/widgets/word_level.dart"
+  ]
+ },
+ {
+  "key": "Renew Premium to keep learning",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Replay",
+  "files": [
+   "src/components/mimi/ContextPlayer.tsx",
+   "mobile/lib/widgets/context_player.dart"
+  ],
+  "note": "Replay the current subtitle line."
+ },
+ {
+  "key": "Replay · loop this line",
+  "files": [
+   "mobile/lib/widgets/tour.dart"
+  ]
+ },
+ {
+  "key": "Replay line",
+  "files": [
+   "src/components/mimi/ClipView.tsx",
+   "mobile/lib/widgets/clip_view.dart"
+  ]
+ },
+ {
+  "key": "Replay the original line",
+  "files": [
+   "src/components/mimi/ContextPlayer.tsx",
+   "mobile/lib/widgets/context_player.dart"
+  ]
+ },
+ {
+  "key": "Replay the welcome tour",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Replay this line",
+  "files": [
+   "src/components/mimi/ClipSheets.tsx",
+   "mobile/lib/widgets/clip_sheets.dart"
+  ]
+ },
+ {
+  "key": "Restore purchase",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/settings.dart",
+   "mobile/lib/screens/trial.dart"
+  ],
+  "note": "App store: restore a previous purchase."
+ },
+ {
+  "key": "Restoring…",
+  "files": [
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Return to the app",
+  "files": [
+   "src/routes/account.tsx"
+  ]
+ },
+ {
+  "key": "Reveal the answer",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "Review daily",
+  "files": [
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "Review my words",
+  "files": [
+   "src/routes/_app/feed.tsx",
+   "mobile/lib/screens/feed.dart"
+  ]
+ },
+ {
+  "key": "Romaji",
+  "files": [
+   "src/components/mimi/ClipSheets.tsx"
+  ],
+  "note": "Romanized Japanese. Use the standard term in the target language."
+ },
+ {
+  "key": "Romaji on the front",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Romance",
+  "files": [
+   "src/lib/onboarding.ts",
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "Save",
+  "files": [
+   "src/routes/language.tsx",
+   "mobile/lib/screens/language.dart"
+  ]
+ },
+ {
+  "key": "Save · Profile → Saved",
+  "files": [
+   "mobile/lib/widgets/tour.dart"
+  ]
+ },
+ {
+  "key": "Save {n}%",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ],
+  "note": "Discount badge on the yearly plan, e.g. Save 58%."
+ },
+ {
+  "key": "Save 10 words",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Save 50 words",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Save 58%",
+  "files": [
+   "src/lib/paywall.ts"
+  ],
+  "note": "Discount badge on the yearly plan."
+ },
+ {
+  "key": "Save clip",
+  "files": [
+   "src/components/mimi/ClipView.tsx",
+   "mobile/lib/widgets/clip_view.dart"
+  ]
+ },
+ {
+  "key": "Save this word to add your own notes.",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ]
+ },
+ {
+  "key": "Save word",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ]
+ },
+ {
+  "key": "Save words",
+  "files": [
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "Save words I tap",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Save your [progress]",
+  "files": [
+   "src/routes/account.tsx"
+  ],
+  "note": "Text inside [ ] is highlighted in orange; keep exactly one [ ] pair around the highlighted word(s)."
+ },
+ {
+  "key": "Save your progress",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
+  ]
+ },
+ {
+  "key": "Saved clips",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "src/routes/saved.tsx",
+   "mobile/lib/screens/lists.dart",
+   "mobile/lib/screens/profile.dart"
+  ]
+ },
+ {
+  "key": "Saved words and review progress will be visible to anyone looking at your screen.",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
+  "key": "Say it more politely",
+  "files": [
+   "src/lib/ask.ts",
+   "mobile/lib/data/ask.dart"
+  ]
+ },
+ {
+  "key": "Scenes from real shows, explained word by word",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "School",
+  "files": [
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "Search a word",
+  "files": [
+   "mobile/lib/screens/explore.dart"
+  ]
+ },
+ {
+  "key": "Search and filter to find exactly what you want to hear.",
+  "files": [
+   "src/routes/_app/explore.tsx",
+   "mobile/lib/screens/explore.dart"
+  ]
+ },
+ {
+  "key": "Search clips",
+  "files": [
+   "src/routes/_app/explore.tsx"
+  ]
+ },
+ {
+  "key": "Search your words",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "See plans",
+  "files": [
+   "src/routes/__root.tsx",
+   "src/routes/trial.tsx",
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/screens/trial.dart",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "Select all that apply.",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Send another message",
+  "files": [
+   "src/routes/support.tsx",
+   "mobile/lib/screens/support.dart"
+  ]
+ },
+ {
+  "key": "Send message",
+  "files": [
+   "src/routes/support.tsx",
+   "mobile/lib/screens/support.dart"
+  ]
+ },
+ {
+  "key": "Send question",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "Send us a message",
+  "files": [
+   "src/routes/support.tsx",
+   "mobile/lib/screens/support.dart"
+  ]
+ },
+ {
+  "key": "Send us a message below with the topic “Account”, from the email you signed up with, or email pranacodes@gmail.com. We delete your account and data within 30 days of a verified request.",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "Sending…",
+  "files": [
+   "src/routes/support.tsx",
+   "mobile/lib/screens/support.dart"
+  ]
+ },
+ {
+  "key": "Sep",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Set a goal. We'll keep it realistic.",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Setting up your reminders…",
+  "files": [
+   "src/routes/building.tsx",
+   "mobile/lib/screens/building.dart"
+  ]
+ },
+ {
+  "key": "Settings",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/profile.dart",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Settings & restore purchase",
+  "files": [
+   "src/routes/__root.tsx"
+  ]
+ },
+ {
+  "key": "Share activity with PostHog. No messages or payment details.",
+  "files": [
+   "src/components/mimi/AnalyticsConsent.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Short clips from anime, dramas and vlogs. Tap any word. Remember it for good.",
+  "files": [
+   "src/routes/index.tsx",
+   "mobile/lib/screens/welcome.dart"
+  ]
+ },
+ {
+  "key": "Short scenes from anime, dramas, vlogs and street interviews — tap any word for its meaning, save it, and review it with the original audio. Interactive Android app prototype.",
+  "files": [
+   "src/components/mimi/AppFrame.tsx"
+  ]
+ },
+ {
+  "key": "Show furigana",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ],
+  "note": "Furigana = small kana readings above kanji. Use the standard term."
+ },
+ {
+  "key": "Show me",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Show meaning",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
+  "key": "Show reading",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
+  "key": "Show romaji",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Show translation",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Sign in",
+  "files": [
+   "src/routes/account.tsx",
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/screens/account.dart",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "Sign in or create an account",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Sign in to continue with Kizuki.",
+  "files": [
+   "src/routes/__root.tsx"
+  ]
+ },
+ {
+  "key": "Sign in to pick up where you left off.",
+  "files": [
+   "src/routes/account.tsx",
+   "mobile/lib/screens/account.dart"
+  ]
+ },
+ {
+  "key": "Sign in with email",
+  "files": [
+   "src/routes/account.tsx",
+   "mobile/lib/screens/account.dart"
+  ]
+ },
+ {
+  "key": "Sign in with your Premium account to ask about this line. Your words and streak sync too.",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "Sign out",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Sign-in didn't finish. Please try again.",
+  "files": [
+   "src/routes/account.tsx"
+  ]
+ },
+ {
+  "key": "Signed in as [{email}]",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Signed out",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Signing in…",
+  "files": [
+   "src/routes/account.tsx"
+  ]
+ },
+ {
+  "key": "Skip tour",
+  "files": [
+   "src/components/mimi/WelcomeTour.tsx",
+   "mobile/lib/widgets/tour.dart"
+  ]
+ },
+ {
+  "key": "Slow connection · Tap to retry",
+  "files": [
+   "src/components/mimi/ClipPlayer.tsx",
+   "mobile/lib/widgets/clip_player.dart"
+  ]
+ },
+ {
+  "key": "Slow down, replay or save a clip.",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Small",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/routes/widgets.tsx",
+   "src/components/mimi/ClipSheets.tsx",
+   "mobile/lib/screens/home_widgets.dart",
+   "mobile/lib/screens/settings.dart",
+   "mobile/lib/widgets/clip_sheets.dart"
+  ],
+  "note": "Home-screen widget size."
+ },
+ {
+  "key": "Smart reviews with the original audio",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Smart reviews with the original clip audio",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Some YouTube videos are blocked in certain countries or by their channel. Swipe to the next clip, check your connection, or tap Watch on YouTube. Tell us which clip and we will replace it.",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "Something broke",
+  "files": [
+   "src/lib/support.ts"
+  ],
+  "note": "Support topic: a bug."
+ },
+ {
+  "key": "Something went wrong here",
+  "files": [
+   "mobile/lib/widgets/common.dart"
+  ]
+ },
+ {
+  "key": "Something went wrong. Please try again.",
+  "files": [
+   "src/routes/account.tsx",
+   "mobile/lib/screens/account.dart"
+  ]
+ },
+ {
+  "key": "Somewhere else",
+  "files": [
+   "src/lib/onboarding.ts"
+  ],
+  "note": "Onboarding answer to 'Where did you hear about Kizuki?'."
+ },
+ {
+  "key": "Sound like a native",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Space between words",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/components/mimi/ClipSheets.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Speaking naturally",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Speed",
+  "files": [
+   "src/components/mimi/ClipSheets.tsx",
+   "mobile/lib/widgets/clip_sheets.dart"
+  ],
+  "note": "Video playback speed."
+ },
+ {
+  "key": "Sports",
+  "files": [
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "Start learning today",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ]
+ },
+ {
+  "key": "Start my free trial",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ]
+ },
+ {
+  "key": "Start my free week",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ]
+ },
+ {
+  "key": "Starting from zero",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Starting to stick",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Starting…",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Stay",
+  "files": [
+   "mobile/lib/widgets/ui.dart"
+  ],
+  "note": "Button in the 'Leaving already?' exit dialog: stay in the app."
+ },
+ {
+  "key": "Staying motivated",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Still curious? Ask Kizuki",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ]
+ },
+ {
+  "key": "Stop answer",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "Stop looping this line",
+  "files": [
+   "src/components/mimi/ClipSheets.tsx",
+   "mobile/lib/widgets/clip_sheets.dart"
+  ]
+ },
+ {
+  "key": "Store not available",
+  "files": [
+   "mobile/lib/screens/trial.dart"
+  ],
+  "note": "The App Store / Google Play billing is not available."
+ },
+ {
+  "key": "Streak",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
+  ],
+  "note": "Stat label: consecutive days studied."
+ },
+ {
+  "key": "Streaks, goals and progress stats",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Study for 30 minutes",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Study for 60 minutes",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Study window [· {when}]",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Subscription",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/lib/support.ts",
+   "mobile/lib/screens/settings.dart"
+  ],
+  "note": "Support topic / section title."
+ },
+ {
+  "key": "Subscriptions are handled by your app store. iPhone: Settings → your name → Subscriptions → Kizuki. Android: Google Play → profile picture → Payments & subscriptions → Subscriptions → Kizuki. Deleting the app doesn't cancel it.",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "suffix",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label in the dictionary."
+ },
+ {
+  "key": "Swipe up anywhere",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Swipe up for the next clip.",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "System widgets are added on your phone, not from this web preview.",
+  "files": [
+   "src/routes/widgets.tsx"
+  ]
+ },
+ {
+  "key": "Talk with family",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Tap any word for an explanation in context",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Tap anywhere on the card",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Tap Ask Kizuki",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Tap it to see what it means",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Tap one of the two buttons",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Tap the bookmark on any clip to save it here.",
+  "files": [
+   "src/routes/saved.tsx",
+   "mobile/lib/screens/lists.dart"
+  ]
+ },
+ {
+  "key": "Tap the highlighted word",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Tap the orange button",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Tap to reveal",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "Tap Vocab",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Tap words in clips to save them",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "Tapping words in real clips is so much better than flashcards from a textbook.",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Tell us what happened or what you would like…",
+  "files": [
+   "src/routes/support.tsx",
+   "mobile/lib/screens/support.dart"
+  ]
+ },
+ {
+  "key": "Ten Clips",
+  "files": [
+   "src/lib/logic.ts"
+  ],
+  "note": "Achievement badge name (watched 10 clips)."
+ },
+ {
+  "key": "Ten minutes a day on the train and my listening is way better.",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Ten minutes a day. Then it just clicks.",
+  "files": [
+   "src/routes/founder.tsx",
+   "mobile/lib/screens/founder.dart"
+  ]
+ },
+ {
+  "key": "Terms of Service",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/routes/support.tsx",
+   "mobile/lib/screens/settings.dart",
+   "mobile/lib/screens/support.dart"
+  ]
+ },
+ {
+  "key": "Terms of Use",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Text size",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/components/mimi/ClipSheets.tsx",
+   "mobile/lib/screens/settings.dart",
+   "mobile/lib/widgets/clip_sheets.dart"
+  ]
+ },
+ {
+  "key": "Thanks! We usually reply within 2 days to {sentTo}.",
+  "files": [
+   "src/routes/support.tsx",
+   "mobile/lib/screens/support.dart"
+  ]
+ },
+ {
+  "key": "That's it: watch, tap new words, practice them. {minutes} minutes a day is all you need!",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "That's what it means. It's saved for you, so you can practice it later.",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "That's your {n} free clips for today",
+  "files": [
+   "src/routes/clip.$clipId.tsx",
+   "mobile/lib/screens/clip_screen.dart"
+  ]
+ },
+ {
+  "key": "The explanations in context are gold. It feels like a tutor sitting next to me.",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "The line under each word tells you:",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "the moment it clicks",
+  "files": [
+   "src/routes/index.tsx",
+   "src/components/mimi/AppFrame.tsx",
+   "mobile/lib/screens/welcome.dart",
+   "mobile/lib/widgets/splash.dart"
+  ],
+  "note": "Brand tagline under the logo 気づき (kizuki = the moment you notice/realise). Short and poetic."
+ },
+ {
+  "key": "The original clip isn't available right now.",
+  "files": [
+   "src/components/mimi/ContextPlayer.tsx",
+   "mobile/lib/widgets/context_player.dart"
+  ]
+ },
+ {
+  "key": "The owner doesn't allow this video to play here.",
+  "files": [
+   "mobile/lib/widgets/clip_player.dart"
+  ]
+ },
+ {
+  "key": "The store is still confirming it. Premium unlocks as soon as it does.",
+  "files": [
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "The whole line",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ]
+ },
+ {
+  "key": "The yearly plan starts with 7 days free. Cancel at least 24 hours before the trial ends and you won't be charged. The monthly plan has no trial.",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "They'll show up here, ready to review.",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "This clip couldn't load. Check your connection.",
+  "files": [
+   "mobile/lib/widgets/clip_player.dart"
+  ]
+ },
+ {
+  "key": "This clip is no longer available. Choose another clip.",
+  "files": [
+   "src/components/mimi/ClipPlayer.tsx"
+  ]
+ },
+ {
+  "key": "This explains the word in this exact sentence. Still have a question?",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "This is how you'll understand Japanese in {months} months",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "This line means: **{en}**",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "This permanently deletes your account and cloud progress. It can't be undone.",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "This sign-in method is not available on this device.",
+  "files": [
+   "mobile/lib/services/native_auth.dart"
+  ]
+ },
+ {
+  "key": "This video was removed from YouTube.",
+  "files": [
+   "mobile/lib/widgets/clip_player.dart"
+  ]
+ },
+ {
+  "key": "This word is a small helper in the sentence — the full line meaning is below.",
+  "files": [
+   "src/components/mimi/WordCard.tsx",
+   "mobile/lib/widgets/word_card.dart"
+  ]
+ },
+ {
+  "key": "TikTok",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Time",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
+  ],
+  "note": "Reminder time setting label."
+ },
+ {
+  "key": "Time for Japanese! 🦊",
+  "files": [
+   "mobile/lib/services/notification_service.dart"
+  ]
+ },
+ {
+  "key": "To Review {due}",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "Today",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "tomorrow",
+  "files": [
+   "src/lib/logic.ts",
+   "mobile/lib/logic/logic.dart"
+  ],
+  "note": "Inserted into 'Next practice {when}' as {when}."
+ },
+ {
+  "key": "Topic",
+  "files": [
+   "mobile/lib/screens/explore.dart"
+  ]
+ },
+ {
+  "key": "Touch and hold your Home Screen → Edit → Add Widget → Kizuki. Choose a size, then tap Add Widget.",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
+  "key": "Touch and hold your Home Screen → Widgets → Kizuki. Drag a widget onto your screen.",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
+  "key": "Touch and hold your Lock Screen → Customize → Lock Screen → Add Widgets → Kizuki.",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
+  "key": "Tour reset",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Train your ear",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "transitive",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label: transitive verb."
+ },
+ {
+  "key": "Translations downloaded",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Travel",
+  "files": [
+   "src/lib/onboarding.ts",
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "Travel with confidence",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Trial reminder",
+  "files": [
+   "mobile/lib/services/notification_service.dart"
+  ]
+ },
+ {
+  "key": "Try a word",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Try again",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "src/components/mimi/ClipPlayer.tsx",
+   "src/components/mimi/ui.tsx",
+   "mobile/lib/widgets/ask_sheet.dart",
+   "mobile/lib/widgets/clip_player.dart",
+   "mobile/lib/widgets/ui.dart"
+  ]
+ },
+ {
+  "key": "Try another word or remove a filter.",
+  "files": [
+   "src/routes/_app/explore.tsx",
+   "mobile/lib/screens/explore.dart"
+  ]
+ },
+ {
+  "key": "Try for $0.00",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ],
+  "note": "Main button that starts the free trial. Local currencies differ, so do NOT write a currency amount: say 'Try for free' naturally."
+ },
+ {
+  "key": "Try Kizuki [free] for {days} days",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Try Premium free",
+  "files": [
+   "src/routes/_app/feed.tsx",
+   "src/routes/_app/profile.tsx",
+   "src/routes/clip.$clipId.tsx",
+   "mobile/lib/screens/clip_screen.dart",
+   "mobile/lib/screens/feed.dart",
+   "mobile/lib/screens/profile.dart"
+  ]
+ },
+ {
+  "key": "Turn off for natural Japanese text",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Turn sound on",
+  "files": [
+   "src/routes/founder.tsx",
+   "mobile/lib/screens/founder.dart"
+  ]
+ },
+ {
+  "key": "Understand anime without subtitles",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Understanding natives",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Unlimited clips for 7 days",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
+  ]
+ },
+ {
+  "key": "Unlimited clips, every level",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Unlimited questions to Kizuki, your AI tutor",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Unlock every clip, word explanation and review.",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ]
+ },
+ {
+  "key": "Unlock everything in [Kizuki]",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Unsave clip",
+  "files": [
+   "src/components/mimi/ClipView.tsx",
+   "mobile/lib/widgets/clip_view.dart"
+  ]
+ },
+ {
+  "key": "Unstoppable",
+  "files": [
+   "src/lib/onboarding.ts",
+   "src/lib/logic.ts"
+  ],
+  "note": "Playful achievement badge name (30-day streak). Short and fun."
+ },
+ {
+  "key": "Usage analytics",
+  "files": [
+   "src/components/mimi/AnalyticsConsent.tsx",
+   "mobile/lib/screens/settings.dart",
+   "mobile/lib/widgets/analytics_consent.dart"
+  ]
+ },
+ {
+  "key": "Use my saved learning words",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
+  "key": "Use the same store account you bought with.",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/settings.dart",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "Vibration feedback",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Videos play through YouTube and belong to their creators. Dictionary data: JMdict (EDRDG), CC BY-SA 4.0. Example sentences: Tatoeba, CC BY 2.0 FR.",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "View all",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
+  ]
+ },
+ {
+  "key": "View Premium plans",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Vlogs",
+  "files": [
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "Vocab",
+  "files": [
+   "mobile/lib/widgets/tab_bar.dart"
+  ],
+  "note": "Bottom tab bar label: the learner's saved words and flashcard reviews. Max ~10 characters."
+ },
+ {
+  "key": "Want to sound natural",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Warm, everyday Japanese from home life",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Watch → save words → review. That's it.",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Watch 10 clips",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Watch 50 clips",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Watch clips",
+  "files": [
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "Watch history",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "src/routes/history.tsx",
+   "mobile/lib/screens/lists.dart",
+   "mobile/lib/screens/profile.dart"
+  ]
+ },
+ {
+  "key": "Watch original",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ],
+  "note": "Open the original video on YouTube."
+ },
+ {
+  "key": "Watch the whole clip",
+  "files": [
+   "src/components/mimi/SavedWordSheet.tsx",
+   "mobile/lib/widgets/saved_word_sheet.dart"
+  ]
+ },
+ {
+  "key": "Watch your first clip",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "We delete your account and data within 30 days of a verified request.",
+  "files": [
+   "src/components/mimi/StaticRouteContent.tsx"
+  ]
+ },
+ {
+  "key": "We'll match clips to your level.",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "We'll remind you before your trial ends",
+  "files": [
+   "src/routes/trial.tsx",
+   "mobile/lib/screens/trial.dart"
+  ]
+ },
+ {
+  "key": "We'll send one friendly reminder so you never break your streak.",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "We'll send you a reminder that your trial is ending.",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ]
+ },
+ {
+  "key": "Welcome [back]",
+  "files": [
+   "src/routes/account.tsx"
+  ],
+  "note": "Text inside [ ] is highlighted in orange; keep exactly one [ ] pair around the highlighted word(s)."
+ },
+ {
+  "key": "Welcome back",
+  "files": [
+   "src/routes/account.tsx",
+   "mobile/lib/screens/account.dart"
+  ]
+ },
+ {
+  "key": "Welcome to Premium",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ]
+ },
+ {
+  "key": "Welcome tour",
+  "files": [
+   "src/components/mimi/WelcomeTour.tsx",
+   "mobile/lib/widgets/tour.dart"
+  ]
+ },
+ {
+  "key": "Well done!",
+  "files": [
+   "src/routes/review.tsx",
+   "mobile/lib/screens/review.dart"
+  ]
+ },
+ {
+  "key": "What does this word mean here?",
+  "files": [
+   "src/components/mimi/AskSheet.tsx",
+   "mobile/lib/widgets/ask_sheet.dart"
+  ]
+ },
+ {
+  "key": "What is it about?",
+  "files": [
+   "src/routes/support.tsx",
+   "mobile/lib/screens/support.dart"
+  ]
+ },
+ {
+  "key": "What's hardest for you right now?",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "When can you spend {minutes} minutes?",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "When do you want to understand Japanese?",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Where did you hear about Kizuki?",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Where do the videos come from?",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "Where to start",
+  "files": [
+   "src/lib/onboarding.ts"
+  ]
+ },
+ {
+  "key": "Where you found it",
+  "files": [
+   "src/components/mimi/SavedWordSheet.tsx",
+   "mobile/lib/widgets/saved_word_sheet.dart"
+  ]
+ },
+ {
+  "key": "Why do you want to learn Japanese?",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Why this form here?",
+  "files": [
+   "src/lib/ask.ts",
+   "mobile/lib/data/ask.dart"
+  ]
+ },
+ {
+  "key": "Wide",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ],
+  "note": "Home-screen widget size (wide 4x2)."
+ },
+ {
+  "key": "Widget preview",
+  "files": [
+   "src/routes/widgets.tsx"
+  ]
+ },
+ {
+  "key": "Widget size",
+  "files": [
+   "src/routes/widgets.tsx"
+  ]
+ },
+ {
+  "key": "Widgets",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
+  "key": "With Kizuki",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "Without the app",
+  "files": [
+   "src/lib/support.ts"
+  ]
+ },
+ {
+  "key": "Word Collector",
+  "files": [
+   "src/lib/logic.ts"
+  ],
+  "note": "Playful achievement badge name (saved 10 words). Short and fun."
+ },
+ {
+  "key": "Word Hoarder",
+  "files": [
+   "src/lib/logic.ts"
+  ],
+  "note": "Playful achievement badge name (saved 50 words). Short and fun."
+ },
+ {
+  "key": "Word level: {level}. Change",
+  "files": [
+   "src/components/mimi/WordLevel.tsx",
+   "mobile/lib/widgets/word_level.dart"
+  ]
+ },
+ {
+  "key": "Words",
+  "files": [
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
+  ],
+  "note": "Stat label: number of words."
+ },
+ {
+  "key": "Words in context",
+  "files": [
+   "src/routes/founder.tsx",
+   "mobile/lib/screens/founder.dart"
+  ]
+ },
+ {
+  "key": "Words that stick",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Words unavailable. Please try again.",
+  "files": [
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
+  "key": "Words you know",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "Work",
+  "files": [
+   "src/lib/onboarding.ts",
+   "src/lib/topics.ts"
+  ]
+ },
+ {
+  "key": "Yearly",
+  "files": [
+   "src/routes/settings.tsx",
+   "src/lib/paywall.ts",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Yesterday",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "You already know it",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "You can change this anytime in settings",
+  "files": [
+   "src/routes/onboarding.tsx",
+   "mobile/lib/screens/onboarding.dart"
+  ]
+ },
+ {
+  "key": "You can close this page and return to the Kizuki app — your words, streak and reviews are syncing.",
+  "files": [
+   "src/routes/account.tsx"
+  ]
+ },
+ {
+  "key": "You remember it for a week or more",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "You remember it for days",
+  "files": [
+   "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "You watched your {n} free clips today!",
+  "files": [
+   "src/routes/_app/feed.tsx",
+   "mobile/lib/screens/feed.dart"
+  ]
+ },
+ {
+  "key": "You're all set",
+  "files": [
+   "src/routes/account.tsx",
+   "mobile/lib/screens/account.dart"
+  ]
+ },
+ {
+  "key": "You're learning it",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "You're offline. Check your connection and try again.",
+  "files": [
+   "src/routes/account.tsx",
+   "src/lib/ask.ts",
+   "mobile/lib/data/ask.dart",
+   "mobile/lib/screens/account.dart"
+  ]
+ },
+ {
+  "key": "You're signed in!",
+  "files": [
+   "src/routes/account.tsx"
+  ]
+ },
+ {
+  "key": "Your access has ended. Renew or restore your subscription to continue. Your saved words and progress are safe.",
+  "files": [
+   "src/routes/__root.tsx"
+  ]
+ },
+ {
+  "key": "Your clips will appear on Home",
+  "files": [
+   "src/components/mimi/FeedPreview.tsx",
+   "mobile/lib/widgets/feed_preview.dart"
+  ]
+ },
+ {
+  "key": "Your data",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Your email",
+  "files": [
+   "src/routes/support.tsx",
+   "mobile/lib/screens/support.dart"
+  ]
+ },
+ {
+  "key": "Your first clips",
+  "files": [
+   "src/routes/plan.tsx",
+   "mobile/lib/screens/plan.dart"
+  ]
+ },
+ {
+  "key": "Your free trial has started",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ]
+ },
+ {
+  "key": "Your free week ends in 2 days",
+  "files": [
+   "mobile/lib/services/notification_service.dart"
+  ]
+ },
+ {
+  "key": "Your iPhone will ask if Kizuki may see which ad brought you here. Allowing it helps us spend less on ads and more on new clips. Kizuki works exactly the same either way.",
+  "files": [
+   "mobile/lib/widgets/tracking_explainer.dart"
+  ]
+ },
+ {
+  "key": "Your new word is waiting here. Let's practice it once.",
+  "files": [
+   "src/lib/tour.ts"
+  ]
+ },
+ {
+  "key": "Your plan is ready!",
+  "files": [
+   "src/routes/plan.tsx",
+   "mobile/lib/screens/plan.dart"
+  ]
+ },
+ {
+  "key": "Your progress is now saved to your account.",
+  "files": [
+   "src/routes/account.tsx",
+   "mobile/lib/screens/account.dart"
+  ]
+ },
+ {
+  "key": "Your progress is synced on this device.",
+  "files": [
+   "src/routes/account.tsx",
+   "mobile/lib/screens/account.dart"
+  ]
+ },
+ {
+  "key": "Your progress stays on this device.",
+  "files": [
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/settings.dart"
+  ]
+ },
+ {
+  "key": "Your purchase is saved",
+  "files": [
+   "src/routes/__root.tsx"
+  ]
+ },
+ {
+  "key": "Your question",
+  "files": [
+   "src/components/mimi/AskSheet.tsx"
+  ]
+ },
+ {
+  "key": "Your subscription starts. Cancel anytime before.",
+  "files": [
+   "src/lib/paywall.ts",
+   "mobile/lib/data/paywall.dart"
+  ]
+ },
+ {
+  "key": "Your words",
+  "files": [
+   "src/routes/_app/vocab.tsx",
+   "mobile/lib/screens/vocab.dart"
+  ]
+ },
+ {
+  "key": "Your words and streak are saved. Kizuki will be right here when you come back.",
+  "files": [
+   "mobile/lib/widgets/ui.dart"
+  ]
+ },
+ {
+  "key": "い-adjective",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label. Keep い."
+ },
+ {
+  "key": "くる verb",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label. Keep くる."
+ },
+ {
+  "key": "する verb",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label. Keep する."
+ },
+ {
+  "key": "な-adjective",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label. Keep な."
+ },
+ {
+  "key": "の-adjective",
+  "files": [
+   "public/data/dict.json"
+  ],
+  "note": "Part-of-speech label. Keep の."
+ }
+]

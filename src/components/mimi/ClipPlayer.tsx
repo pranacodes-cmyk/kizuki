@@ -8,6 +8,7 @@ import { PlaybackLoopGuard, PlaybackStartGuard } from "@/lib/playback-loop";
 import { track } from '@/lib/analytics';
 import { clipWindowAvailable } from "@/lib/logic";
 import { Button } from "./ui";
+import { tr } from "@/lib/i18n";
 
 export type ClipPlayerHandle = {
   play(): void;
@@ -222,7 +223,7 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
         p.pauseVideo();
         cb.current.onPlayingChange(false);
         setState(YT_STATE.PAUSED);
-        setError("This clip is no longer available. Choose another clip.");
+        setError(tr("This clip is no longer available. Choose another clip."));
         return;
       }
       const end = lr ? lr.end : c.end;
@@ -254,7 +255,7 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
       <div ref={host} className="absolute inset-0 [&>iframe]:h-full [&>iframe]:w-full" />
       {showThumb && !error && (
         <Button
-          aria-label="Play clip"
+          aria-label={tr("Play clip")}
           // Before onReady the player can't take commands; onReady starts playback itself.
           onClick={() => { wantPause.current = false; live()?.playVideo(); }}
           className="absolute inset-0 flex items-center justify-center bg-cover bg-center"
@@ -269,12 +270,11 @@ export const ClipPlayer = forwardRef<ClipPlayerHandle, Props>(function ClipPlaye
         <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-stage/90 px-6 text-center">
           <p className="text-[0.9375rem] font-bold">{error}</p>
           <Button onClick={() => setAttempt((a) => a + 1)} className="press inline-flex items-center gap-2 rounded-full bg-surface-2 px-4 py-2 text-[0.875rem] font-extrabold">
-            <RotateCw className="h-4 w-4" /> Try again
-          </Button>
+            <RotateCw className="h-4 w-4" /> {" "}{tr("Try again")}</Button>
         </div>
       )}
     </div>
-    {active && slow && !error && <Button onClick={() => setAttempt((a) => a + 1)} size="sm" variant="ghost" className="mt-2"><RotateCw className="h-4 w-4" /> Slow connection · Tap to retry</Button>}
+    {active && slow && !error && <Button onClick={() => setAttempt((a) => a + 1)} size="sm" variant="ghost" className="mt-2"><RotateCw className="h-4 w-4" /> {" "}{tr("Slow connection · Tap to retry")}</Button>}
     </>
   );
 });

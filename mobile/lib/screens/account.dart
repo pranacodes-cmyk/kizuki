@@ -18,6 +18,7 @@ import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import '../widgets/toast.dart';
 import '../widgets/ui.dart';
+import '../i18n/i18n.dart';
 
 /// Save progress / sign in — mirrors src/routes/account.tsx. Sign-in is social only:
 /// Google on Android, Google and Apple on iOS. Always uses the native account sheet;
@@ -34,9 +35,9 @@ String friendlyAuthError(Object err) {
   final msg = err is AuthException ? err.message : err.toString();
   final m = msg.toLowerCase();
   if (m.contains('socketexception') || m.contains('failed host lookup') || m.contains('clientexception') || m.contains('network')) {
-    return "You're offline. Check your connection and try again.";
+    return tr("You're offline. Check your connection and try again.");
   }
-  return msg.isEmpty ? 'Something went wrong. Please try again.' : msg;
+  return msg.isEmpty ? tr('Something went wrong. Please try again.') : msg;
 }
 
 String get _platform => defaultTargetPlatform == TargetPlatform.android ? 'android' : 'ios';
@@ -104,12 +105,12 @@ class _AccountScreenState extends State<AccountScreen> {
       }
       // Confirm out loud: silent redirects left users unsure the sign-in worked.
       if (requiredNow) {
-        toast("You're all set", description: 'Your progress is now saved to your account.', icon: '🎉');
+        toast(tr("You're all set"), description: tr('Your progress is now saved to your account.'), icon: '🎉');
       } else {
         final created = DateTime.tryParse(user.createdAt);
         final isNew = created != null && DateTime.now().toUtc().difference(created.toUtc()).inMinutes < 2;
-        toast(isNew ? 'Account created' : 'Welcome back',
-            description: isNew ? "Let's set up your learning plan." : 'Your progress is synced on this device.', icon: isNew ? '🎉' : '👋');
+        toast(isNew ? tr('Account created') : tr('Welcome back'),
+            description: isNew ? tr("Let's set up your learning plan.") : tr('Your progress is synced on this device.'), icon: isNew ? '🎉' : '👋');
       }
       if (accountNeedsOnboarding(welcome, app.onboarded, subscriptionAccess(app.premium.active, app.premium.expiresAt, app.premium.trialEndsAt, DateTime.now().millisecondsSinceEpoch))) {
         // Signed in on a fresh device without cloud progress → still needs a plan.
@@ -219,7 +220,7 @@ class _AccountScreenState extends State<AccountScreen> {
       if (mounted) {
         setState(() {
           busy = false;
-          error = e is AuthException ? 'Email or password is incorrect.' : friendlyAuthError(e);
+          error = e is AuthException ? tr('Email or password is incorrect.') : friendlyAuthError(e);
         });
       }
     }
@@ -230,7 +231,7 @@ class _AccountScreenState extends State<AccountScreen> {
       return TextButton(
         key: const ValueKey('account-email-toggle'),
         onPressed: () => setState(() => reviewOpen = true),
-        child: Text('Sign in with email', style: txt(14, w: FontWeight.w700, c: T.faint)),
+        child: Text(tr('Sign in with email'), style: txt(14, w: FontWeight.w700, c: T.faint)),
       );
     }
     InputDecoration deco(String hint) => InputDecoration(
@@ -240,11 +241,11 @@ class _AccountScreenState extends State<AccountScreen> {
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(14), borderSide: BorderSide.none),
         );
     return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-      TextField(key: const ValueKey('account-email'), controller: _reviewEmail, keyboardType: TextInputType.emailAddress, autocorrect: false, style: txt(16, w: FontWeight.w600), decoration: deco('Email')),
+      TextField(key: const ValueKey('account-email'), controller: _reviewEmail, keyboardType: TextInputType.emailAddress, autocorrect: false, style: txt(16, w: FontWeight.w600), decoration: deco(tr('Email'))),
       const SizedBox(height: 10),
-      TextField(key: const ValueKey('account-password'), controller: _reviewPassword, obscureText: true, style: txt(16, w: FontWeight.w600), decoration: deco('Password'), onSubmitted: (_) => _reviewSignIn()),
+      TextField(key: const ValueKey('account-password'), controller: _reviewPassword, obscureText: true, style: txt(16, w: FontWeight.w600), decoration: deco(tr('Password')), onSubmitted: (_) => _reviewSignIn()),
       const SizedBox(height: 12),
-      Button3D(key: const ValueKey('account-email-submit'), onPressed: _reviewSignIn, label: 'Sign in'),
+      Button3D(key: const ValueKey('account-email-submit'), onPressed: _reviewSignIn, label: tr('Sign in')),
     ]);
   }
 
@@ -258,12 +259,12 @@ class _AccountScreenState extends State<AccountScreen> {
     context.go('/feed');
   }
 
-  String _label(String provider) => provider == 'google' ? 'Google' : 'Apple';
+  String _label(String provider) => provider == 'google' ? tr('Google') : tr('Apple');
 
   /// Provider tile: rounded icon chip + label + chevron (mirrors account.tsx).
   Widget _providerTile(String provider) => Semantics(
         button: true,
-        label: 'Continue with ${_label(provider)}',
+        label: tr('Continue with {provider}', {'provider': _label(provider)}),
         child: Button3D(
           key: ValueKey('account-$provider'),
           onPressed: () => _oauth(provider),
@@ -278,7 +279,7 @@ class _AccountScreenState extends State<AccountScreen> {
               child: ProviderIcon(provider),
             ),
             const SizedBox(width: 14),
-            Expanded(child: Text('Continue with ${_label(provider)}', style: txt(16, w: FontWeight.w800))),
+            Expanded(child: Text(tr('Continue with {provider}', {'provider': _label(provider)}), style: txt(16, w: FontWeight.w800))),
             const Icon(Icons.chevron_right, color: T.faint),
           ]),
         ),
@@ -312,15 +313,12 @@ class _AccountScreenState extends State<AccountScreen> {
                   ),
                   const SizedBox(height: 10),
                   Text.rich(
-                    TextSpan(children: [
-                      TextSpan(text: signin ? 'Welcome ' : 'Save your '),
-                      TextSpan(text: signin ? 'back' : 'progress', style: txt(24, w: FontWeight.w900, c: T.primary)),
-                    ]),
+                    TextSpan(children: trSpans(signin ? 'Welcome [back]' : 'Save your [progress]', txt(24, w: FontWeight.w900, c: T.primary))),
                     textAlign: TextAlign.center,
                     style: txt(24, w: FontWeight.w900, h: 1.2),
                   ),
                   const SizedBox(height: 6),
-                  Text(signin ? 'Sign in to pick up where you left off.' : 'Keep your words, streak and reviews safe on every device.', textAlign: TextAlign.center, style: txt(15, w: FontWeight.w400, c: T.muted)),
+                  Text(signin ? tr('Sign in to pick up where you left off.') : tr('Keep your words, streak and reviews safe on every device.'), textAlign: TextAlign.center, style: txt(15, w: FontWeight.w400, c: T.muted)),
                   const SizedBox(height: 28),
                   if (error != null)
                     Container(
@@ -341,7 +339,7 @@ class _AccountScreenState extends State<AccountScreen> {
                     Row(mainAxisAlignment: MainAxisAlignment.center, children: [
                       const Icon(LucideIcons.shieldCheck, size: 16, color: T.faint),
                       const SizedBox(width: 6),
-                      Text('One tap · no passwords · progress stays safe', style: txt(13, w: FontWeight.w700, c: T.faint)),
+                      Text(tr('One tap · no passwords · progress stays safe'), style: txt(13, w: FontWeight.w700, c: T.faint)),
                     ]),
                   if (!busy && OnboardingSettings.reviewSignIn) ...[
                     const SizedBox(height: 16),
@@ -354,7 +352,7 @@ class _AccountScreenState extends State<AccountScreen> {
           if (!busy && !requiredAccount)
             Padding(
               padding: const EdgeInsets.only(bottom: 8),
-              child: TextButton(onPressed: _later, child: Text(fromWelcome ? 'Back' : 'Maybe later', style: txt(14, w: FontWeight.w700, c: T.faint))),
+              child: TextButton(onPressed: _later, child: Text(fromWelcome ? tr('Back') : tr('Maybe later'), style: txt(14, w: FontWeight.w700, c: T.faint))),
             ),
         ]),
       ),

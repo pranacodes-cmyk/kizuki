@@ -17,6 +17,7 @@ import 'common.dart';
 import 'tour.dart';
 import 'ui.dart';
 import 'word_level.dart';
+import '../i18n/i18n.dart';
 
 const posNames = {
   'noun': 'noun', 'verb': 'verb', 'adj': 'adjective', 'i-adj': 'い-adjective', 'na-adj': 'な-adjective', 'adverb': 'adverb', 'particle': 'particle',
@@ -62,7 +63,7 @@ class WordCard extends StatefulWidget {
   State<WordCard> createState() => _WordCardState();
 }
 
-const _tabs = ['Meaning', 'Explain', 'Examples', 'Notes'];
+const _tabs = ['Meaning', 'Explain', 'Examples', 'Notes']; // keys; shown with tr()
 
 class _WordCardState extends State<WordCard> {
   String tab = 'Meaning';
@@ -140,17 +141,17 @@ class _WordCardState extends State<WordCard> {
               const SizedBox(height: 4),
               Wrap(spacing: 6, runSpacing: 4, crossAxisAlignment: WrapCrossAlignment.center, children: [
                 Text(w.ro, style: txt(15, c: T.muted)),
-                if (firstPos != null) _tag(firstPos),
-                if (firstPos == null && w.p != 'other') _tag(posNames[w.p] ?? w.p),
+                if (firstPos != null) _tag(tr(firstPos)),
+                if (firstPos == null && w.p != 'other') _tag(tr(posNames[w.p] ?? w.p)),
                 if (entry?.j != null) _tag('N${entry!.j}', bg: T.successSoft, fg: T.success),
-                if (entry?.c == true) _tag('common', fg: T.muted),
-                if (w.s != head) Text.rich(TextSpan(children: [const TextSpan(text: 'heard as '), TextSpan(text: w.s, style: jp(13, c: T.muted))]), style: txt(13, c: T.faint)),
+                if (entry?.c == true) _tag(tr('common'), fg: T.muted),
+                if (w.s != head) Text.rich(TextSpan(children: trSpans('heard as [{word}]', jp(13, c: T.muted), {'word': w.s})), style: txt(13, c: T.faint)),
               ]),
             ]),
           ),
           Padding(
             padding: const EdgeInsets.only(top: 8),
-            child: _RoundIcon(icon: LucideIcons.volume2, label: 'Play pronunciation', onTap: () => Tts.speak(reading.isNotEmpty ? reading : head)),
+            child: _RoundIcon(icon: LucideIcons.volume2, label: tr('Play pronunciation'), onTap: () => Tts.speak(reading.isNotEmpty ? reading : head)),
           ),
         ]),
       ),
@@ -163,19 +164,19 @@ class _WordCardState extends State<WordCard> {
                   child: Button3D(
                     height: 44,
                     onPressed: () => app.saveWord(_input()),
-                    child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [const Icon(LucideIcons.plus, size: 16), const SizedBox(width: 6), Flexible(child: Text('Save word', maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(15, w: FontWeight.w800, c: T.primaryFg)))]),
+                    child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [const Icon(LucideIcons.plus, size: 16), const SizedBox(width: 6), Flexible(child: Text(tr('Save word'), maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(15, w: FontWeight.w800, c: T.primaryFg)))]),
                   ),
                 ),
                 const SizedBox(width: 8),
-                _Chip(icon: LucideIcons.check, iconColor: T.success, label: 'I know it', onTap: () => app.markKnown([_input()])),
+                _Chip(icon: LucideIcons.check, iconColor: T.success, label: tr('I know it'), onTap: () => app.markKnown([_input()])),
               ])
             : Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
                 Flexible(child: LevelPill(wordKey: key, word: head)),
                 const SizedBox(width: 8),
                 if (level >= 1 && level <= 4)
-                  _Chip(icon: LucideIcons.check, iconColor: T.success, label: 'I know it', onTap: () => app.setWordLevel(key, 5))
+                  _Chip(icon: LucideIcons.check, iconColor: T.success, label: tr('I know it'), onTap: () => app.setWordLevel(key, 5))
                 else
-                  _Chip(icon: LucideIcons.rotateCcw, iconColor: T.primary, label: 'Learn again', onTap: () => app.setWordLevel(key, 1)),
+                  _Chip(icon: LucideIcons.rotateCcw, iconColor: T.primary, label: tr('Learn again'), onTap: () => app.setWordLevel(key, 1)),
               ]),
       ),
       const SizedBox(height: 16),
@@ -201,7 +202,7 @@ class _WordCardState extends State<WordCard> {
                   child: Padding(
                     padding: const EdgeInsets.only(top: 4),
                     child: Column(children: [
-                      Text(t, style: txt(14, w: FontWeight.w800, c: tab == t ? T.foreground : T.faint)),
+                      Text(tr(t), style: txt(14, w: FontWeight.w800, c: tab == t ? T.foreground : T.faint)),
                       const SizedBox(height: 8),
                       Container(height: 3, margin: const EdgeInsets.symmetric(horizontal: 12), decoration: BoxDecoration(color: tab == t ? T.primary : Colors.transparent, borderRadius: BorderRadius.circular(99))),
                     ]),
@@ -238,7 +239,7 @@ class _WordCardState extends State<WordCard> {
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
             decoration: BoxDecoration(color: T.primary.withValues(alpha: 0.1), borderRadius: BorderRadius.circular(16)),
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              caps('In this clip', c: T.primary),
+              caps(tr('In this clip'), c: T.primary),
               const SizedBox(height: 2),
               Text(note.m, style: txt(18, w: FontWeight.w800)),
             ]),
@@ -252,14 +253,14 @@ class _WordCardState extends State<WordCard> {
                 const SizedBox(width: 12),
                 Expanded(
                   child: Text.rich(TextSpan(children: [
-                    if (entry.m[i].pos.isNotEmpty) WidgetSpan(alignment: PlaceholderAlignment.middle, child: Container(margin: const EdgeInsets.only(right: 6), padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 1), decoration: BoxDecoration(color: T.surface2, borderRadius: BorderRadius.circular(4)), child: Text(entry.m[i].pos.first, style: txt(11, w: FontWeight.w800, c: T.muted)))),
+                    if (entry.m[i].pos.isNotEmpty) WidgetSpan(alignment: PlaceholderAlignment.middle, child: Container(margin: const EdgeInsets.only(right: 6), padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 1), decoration: BoxDecoration(color: T.surface2, borderRadius: BorderRadius.circular(4)), child: Text(tr(entry.m[i].pos.first), style: txt(11, w: FontWeight.w800, c: T.muted)))),
                     TextSpan(text: entry.m[i].g),
                   ]), style: txt(15, w: FontWeight.w400, h: 1.35)),
                 ),
               ]),
             )
         else if (note == null || note.m.isEmpty)
-          Text('No dictionary entry for this word — check the Explain tab.', style: txt(15, w: FontWeight.w400, c: T.muted)),
+          Text(tr('No dictionary entry for this word — check the Explain tab.'), style: txt(15, w: FontWeight.w400, c: T.muted)),
       ]);
 
   Widget _explain(m.WordNote? note, m.LineNote? lineNote) => Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
@@ -268,7 +269,7 @@ class _WordCardState extends State<WordCard> {
           onPressed: () { showAskSheet(context, _askContext()); Tour.I.emit(TourEvent.askOpened); },
           child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
             const Icon(LucideIcons.messageCircleQuestion, size: 18, color: T.primary),
-            const SizedBox(width: 8), Text('Still curious? Ask Kizuki', style: txt(15, w: FontWeight.w800)),
+            const SizedBox(width: 8), Text(tr('Still curious? Ask Kizuki'), style: txt(15, w: FontWeight.w800)),
           ]),
         )),
         const SizedBox(height: 14),
@@ -281,16 +282,11 @@ class _WordCardState extends State<WordCard> {
               decoration: const BoxDecoration(color: T.surface2, borderRadius: BorderRadius.only(topLeft: Radius.circular(4), topRight: Radius.circular(16), bottomLeft: Radius.circular(16), bottomRight: Radius.circular(16))),
               child: note != null
                   ? Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                      Text.rich(TextSpan(children: [
-                        TextSpan(text: w.s, style: jp(15, w: FontWeight.w800)),
-                        const TextSpan(text: ' here means '),
-                        TextSpan(text: '“${note.m}”', style: txt(15, w: FontWeight.w800)),
-                        const TextSpan(text: '.'),
-                      ]), style: txt(15, w: FontWeight.w400, h: 1.5)),
+                      Text.rich(TextSpan(children: trSpans('[{word}] here means “[{meaning}]”.', txt(15, w: FontWeight.w800), {'word': w.s, 'meaning': note.m})), style: txt(15, w: FontWeight.w400, h: 1.5)),
                       const SizedBox(height: 6),
                       Text(note.n, style: txt(15, w: FontWeight.w400, h: 1.5)),
                     ])
-                  : Text(widget.notes != null ? 'This word is a small helper in the sentence — the full line meaning is below.' : 'Loading explanation…', style: txt(15, w: FontWeight.w400, h: 1.5, c: widget.notes != null ? T.foreground : T.muted)),
+                  : Text(widget.notes != null ? tr('This word is a small helper in the sentence — the full line meaning is below.') : tr('Loading explanation…'), style: txt(15, w: FontWeight.w400, h: 1.5, c: widget.notes != null ? T.foreground : T.muted)),
             ),
           ),
         ]),
@@ -301,11 +297,11 @@ class _WordCardState extends State<WordCard> {
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
             decoration: BoxDecoration(color: T.surface2.withValues(alpha: 0.6), borderRadius: BorderRadius.circular(16)),
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              caps('The whole line'),
+              caps(tr('The whole line')),
               const SizedBox(height: 4),
               Text(widget.clip.lines[widget.line].ja, style: jp(16)),
               const SizedBox(height: 4),
-              Text('Literally: ${lineNote.lit}', style: txt(14, w: FontWeight.w400, c: T.muted)),
+              Text(tr('Literally: {lit}', {'lit': lineNote.lit}), style: txt(14, w: FontWeight.w400, c: T.muted)),
               if (lineNote.tip.isNotEmpty) Padding(padding: const EdgeInsets.only(top: 6), child: Text('💡 ${lineNote.tip}', style: txt(14, w: FontWeight.w400))),
             ]),
           ),
@@ -315,7 +311,7 @@ class _WordCardState extends State<WordCard> {
     final others = _others ?? const [];
     return Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
       if (others.isNotEmpty) ...[
-        caps('Hear it in other clips'),
+        caps(tr('Hear it in other clips')),
         const SizedBox(height: 8),
         SizedBox(
           height: 112,
@@ -347,7 +343,7 @@ class _WordCardState extends State<WordCard> {
         const SizedBox(height: 16),
       ],
       if (entry != null && entry.ex.isNotEmpty) ...[
-        caps('Example sentences'),
+        caps(tr('Example sentences')),
         const SizedBox(height: 8),
         for (final e in entry.ex)
           Padding(
@@ -371,9 +367,9 @@ class _WordCardState extends State<WordCard> {
               ),
             ),
           ),
-        Text('Examples: Tatoeba (CC BY 2.0 FR) via JMdict.', style: txt(11, w: FontWeight.w400, c: T.faint)),
+        Text(tr('Examples: Tatoeba (CC BY 2.0 FR) via JMdict.'), style: txt(11, w: FontWeight.w400, c: T.faint)),
       ] else if (others.isEmpty)
-        Text('No other examples yet for this word.', style: txt(15, w: FontWeight.w400, c: T.muted)),
+        Text(tr('No other examples yet for this word.'), style: txt(15, w: FontWeight.w400, c: T.muted)),
     ]);
   }
 
@@ -390,7 +386,7 @@ class _WordCardState extends State<WordCard> {
           },
           decoration: InputDecoration(
             counterText: '',
-            hintText: 'Add a note — a memory trick, where you heard it…',
+            hintText: tr('Add a note — a memory trick, where you heard it…'),
             hintStyle: txt(15, w: FontWeight.w400, c: T.faint),
             filled: true,
             fillColor: T.surface2,
@@ -398,7 +394,7 @@ class _WordCardState extends State<WordCard> {
             focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(16), borderSide: const BorderSide(color: T.primary, width: 2)),
           ),
         )
-      : Text('Save this word to add your own notes.', style: txt(15, w: FontWeight.w400, c: T.muted));
+      : Text(tr('Save this word to add your own notes.'), style: txt(15, w: FontWeight.w400, c: T.muted));
 }
 
 class _RoundIcon extends StatelessWidget {
@@ -427,7 +423,7 @@ class _Chip extends StatelessWidget {
           height: 44,
           padding: const EdgeInsets.symmetric(horizontal: 12),
           decoration: BoxDecoration(color: T.surface2, borderRadius: BorderRadius.circular(12)),
-          child: Row(mainAxisSize: MainAxisSize.min, children: [Icon(icon, size: 16, color: iconColor), const SizedBox(width: 6), Text(label, style: txt(14, w: FontWeight.w800))]),
+          child: Row(mainAxisSize: MainAxisSize.min, children: [Icon(icon, size: 16, color: iconColor), const SizedBox(width: 6), Text(tr(label), style: txt(14, w: FontWeight.w800))]),
         ),
       );
 }

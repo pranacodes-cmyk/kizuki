@@ -10,6 +10,7 @@ import '../theme/tokens.dart';
 import 'clip_view.dart';
 import 'feed_pager.dart';
 import 'ui.dart';
+import '../i18n/i18n.dart';
 
 /// The actual personalized home feed, scaled into the trial phone. No animation,
 /// simulated captions, or geometry callbacks: only the settled clip has a player.
@@ -44,7 +45,7 @@ class _FeedPreviewState extends State<FeedPreview> {
     final c = _content;
     if (c == null || _clips.isEmpty) {
       return ColoredBox(color: T.stage, child: Center(child: _failed
-          ? Text('Your clips will appear on Home', textAlign: TextAlign.center, style: txt(13, c: T.muted))
+          ? Text(tr('Your clips will appear on Home'), textAlign: TextAlign.center, style: txt(13, c: T.muted))
           : const CircularProgressIndicator(color: T.primary)));
     }
     return LayoutBuilder(builder: (_, bounds) {
@@ -55,7 +56,7 @@ class _FeedPreviewState extends State<FeedPreview> {
         child: SizedBox(width: 360, height: bounds.maxHeight / scale,
           child: ColoredBox(color: T.background, child: Column(children: [
             Padding(padding: const EdgeInsets.fromLTRB(16, 12, 16, 8), child: Row(children: [
-              Text('For you', style: txt(18, w: FontWeight.w900)),
+              Text(tr('For you'), style: txt(18, w: FontWeight.w900)),
               const Spacer(), const Icon(LucideIcons.flame, color: T.primary, size: 20),
             ])),
             Expanded(child: FeedPager(

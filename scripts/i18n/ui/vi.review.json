@@ -1,0 +1,265 @@
+[
+ {
+  "key": "{days}-day streak",
+  "from": "Chuỗi {days} ngày liên tiếp",
+  "to": "Chuỗi {days} ngày học",
+  "why": "Aligns better with the term sheet translation 'Chuỗi ngày học' for 'Streak'.",
+  "status": "applied"
+ },
+ {
+  "key": "{name}, your plan is ready!",
+  "from": "{name} ơi, kế hoạch học đã sẵn sàng!",
+  "to": "{name} ơi, kế hoạch của bạn đã sẵn sàng!",
+  "why": "'Kế hoạch học' feels slightly abrupt; 'kế hoạch của bạn' (your plan) or 'kế hoạch học tập' sounds more natural.",
+  "status": "applied"
+ },
+ {
+  "key": "{saved} saved from clips",
+  "from": "Đã lưu {saved} từ từ các clip",
+  "to": "Đã lưu {saved} từ trong các clip",
+  "why": "Avoids the repeated syllables 'từ từ' (which also means 'slowly'), making it read much more naturally.",
+  "status": "applied"
+ },
+ {
+  "key": "100+ lines",
+  "from": "Hơn 100 câu",
+  "to": "100+ dòng",
+  "why": "Maintains consistency with the translation of 'lines' as 'dòng' in item 34.",
+  "status": "applied"
+ },
+ {
+  "key": "A {n}-day streak goal",
+  "from": "Mục tiêu học {n} ngày liên tiếp",
+  "to": "Mục tiêu chuỗi {n} ngày học",
+  "why": "Incorporate the official term sheet translation 'Chuỗi ngày học' for 'streak'.",
+  "status": "applied"
+ },
+ {
+  "key": "Active",
+  "from": "Còn hiệu lực",
+  "to": "Đang hoạt động",
+  "why": "Consistent with the term sheet translation for 'Premium active' (Premium đang hoạt động).",
+  "status": "applied"
+ },
+ {
+  "key": "Anime, food, travel & more",
+  "from": "Anime, ẩm thực, du lịch và hơn nữa",
+  "to": "Anime, ẩm thực, du lịch và nhiều hơn nữa",
+  "why": "'và nhiều hơn nữa' sounds more idiomatic for UI categories than 'và hơn nữa'.",
+  "status": "applied"
+ },
+ {
+  "key": "Continue to sign in",
+  "from": "Tiếp tục đăng nhập",
+  "to": "Tiếp tục để đăng nhập",
+  "why": "\"Tiếp tục đăng nhập\" sounds like \"keep signing in\"; \"để\" clarifies the action is to proceed to the sign-in step.",
+  "status": "applied"
+ },
+ {
+  "key": "Daily goal minutes",
+  "from": "Mục tiêu mỗi ngày (phút)",
+  "to": "Mục tiêu hằng ngày (phút)",
+  "why": "Updated to match the term sheet for \"Daily goal\" (Mục tiêu hằng ngày).",
+  "status": "applied"
+ },
+ {
+  "key": "Daily reminder",
+  "from": "Nhắc học mỗi ngày",
+  "to": "Nhắc học hằng ngày",
+  "why": "Changed \"mỗi ngày\" to \"hằng ngày\" to be consistent with other \"Daily\" translations.",
+  "status": "applied"
+ },
+ {
+  "key": "Jan",
+  "from": "Tháng 1",
+  "to": "Thg 1",
+  "why": "Use the abbreviated form 'Thg' to be consistent with other months like 'Thg 6' and 'Thg 7'.",
+  "status": "applied"
+ },
+ {
+  "key": "Japanese ABCs\nHiragana あ and Katakana ア write the same sounds in two ways. Start with Hiragana. Both decks are optional.",
+  "from": "Bảng chữ cái tiếng Nhật\nHiragana あ và katakana ア là hai cách viết cho cùng âm đọc. Hãy bắt đầu với hiragana. Cả hai bộ thẻ đều không bắt buộc.",
+  "to": "Bảng chữ cái tiếng Nhật\nHiragana あ và Katakana ア là hai cách viết cho cùng âm đọc. Hãy bắt đầu với Hiragana. Cả hai bộ thẻ đều không bắt buộc.",
+  "why": "Capitalize 'Hiragana' and 'Katakana' to match the English source text.",
+  "status": "applied"
+ },
+ {
+  "key": "Remembered it? Tap Remembered. If not, tap Forgot — the word just comes back sooner.",
+  "from": "Nhớ từ này? Chạm Nhớ. Nếu không, chạm Quên — từ sẽ xuất hiện lại sớm hơn thôi.",
+  "to": "Nhớ từ này? Chạm Nhớ. Nếu không, chạm Quên rồi — từ sẽ xuất hiện lại sớm hơn thôi.",
+  "why": "Term sheet consistency: 'Forgot' should be translated as 'Quên rồi'.",
+  "status": "applied"
+ },
+ {
+  "key": "Sign in with your Premium account to ask about this line. Your words and streak sync too.",
+  "from": "Đăng nhập bằng tài khoản Premium để hỏi về câu này. Từ đã lưu và chuỗi ngày học cũng sẽ được đồng bộ.",
+  "to": "Đăng nhập bằng tài khoản Premium để hỏi về câu này. Từ vựng và chuỗi ngày học của bạn cũng sẽ được đồng bộ.",
+  "why": "Use 'Từ vựng' to strictly match the term sheet for 'Words'.",
+  "status": "applied"
+ },
+ {
+  "key": "Tour reset",
+  "from": "Đã đặt lại hướng dẫn",
+  "to": "Đặt lại hướng dẫn",
+  "why": "In settings, 'Tour reset' is typically an action button or label, so it should be translated as a command/noun phrase rather than a completed action ('Đã đặt lại').",
+  "status": "applied"
+ },
+ {
+  "key": "Your words",
+  "from": "Từ của bạn",
+  "to": "Từ vựng của bạn",
+  "why": "Aligns better with the term 'Words' ('Từ vựng') for saved vocabulary.",
+  "status": "applied"
+ },
+ {
+  "key": "Your words and streak are saved. Kizuki will be right here when you come back.",
+  "from": "Các từ và chuỗi ngày học của bạn đã được lưu. Kizuki vẫn ở đây chờ bạn quay lại.",
+  "to": "Từ vựng và chuỗi ngày học của bạn đã được lưu. Kizuki vẫn ở đây chờ bạn quay lại.",
+  "why": "Use 'Từ vựng' instead of 'Các từ' to sound more natural and match the term sheet.",
+  "status": "applied"
+ },
+ {
+  "key": "{n} clip",
+  "from": "{n} video ngắn",
+  "to": "{n} clip",
+  "why": "Inconsistent with the plural form and other strings, which use \"clip\" rather than \"video ngắn\".",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Anime",
+  "from": "Hoạt hình Nhật Bản",
+  "to": "Anime",
+  "why": "Topic labels should be short and match \"Anime\" in the topic subtitle; Vietnamese users say \"anime\".",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Anime & manga",
+  "from": "Hoạt hình & truyện tranh Nhật Bản",
+  "to": "Anime & manga",
+  "why": "The current text is long for an answer chip and inconsistent with \"Anime\" elsewhere; \"anime & manga\" is common in Vietnamese.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Blue line · new word",
+  "from": "Gạch dưới màu xanh · từ mới",
+  "to": "Gạch dưới xanh dương · từ mới",
+  "why": "\"Màu xanh\" can mean green or blue, so \"xanh dương\" makes the legend clear.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Explained",
+  "from": "Đã giải thích",
+  "to": "Có giải thích",
+  "why": "The label means the line has an explanation, not that it was already explained.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Get help",
+  "from": "Nhận trợ giúp",
+  "to": "Trợ giúp",
+  "why": "\"Nhận trợ giúp\" sounds machine-translated; \"Trợ giúp\" is the natural button label.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Drama",
+  "from": "Phim truyện",
+  "to": "Phim truyền hình",
+  "why": "\"Drama\" here means Japanese TV dramas, which Vietnamese users call \"phim truyền hình\".",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Mar",
+  "from": "Tháng 3",
+  "to": "Thg 3",
+  "why": "Inconsistent with the other abbreviated months, which use \"Thg\".",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "May",
+  "from": "Tháng 5",
+  "to": "Thg 5",
+  "why": "Inconsistent with the other abbreviated months, which use \"Thg\".",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Leaving already?",
+  "from": "Bạn đi rồi sao?",
+  "to": "Bạn định đi rồi sao?",
+  "why": "The current text reads as \"you've already left?\" instead of \"are you leaving already?\".",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "More",
+  "from": "Nhiều hơn",
+  "to": "Xem thêm",
+  "why": "\"Nhiều hơn\" is a literal rendering; a profile menu link reads naturally as \"Xem thêm\".",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Never underlined or reviewed",
+  "from": "Không bao giờ gạch chân hay ôn lại",
+  "to": "Không gạch chân, không cần ôn lại",
+  "why": "The current text reads like an awkward command; this describes the level naturally and matches item 416.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "One short clip saves your streak today.",
+  "from": "Chỉ một clip ngắn là giữ được chuỗi học hôm nay.",
+  "to": "Chỉ một clip ngắn là giữ được chuỗi ngày học hôm nay.",
+  "why": "Uses the term-sheet term \"chuỗi ngày học\" for Streak.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Scenes from real shows, explained word by word",
+  "from": "Các đoạn trích từ chương trình thực tế, được giải thích từng từ",
+  "to": "Cảnh trích từ phim và chương trình thật, giải thích từng từ",
+  "why": "\"Chương trình thực tế\" means reality show, which distorts \"real shows\".",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Tapping words in real clips is so much better than flashcards from a textbook.",
+  "from": "Chạm vào từ trong clip thực tế để học thích hơn hẳn dùng thẻ từ vựng lấy từ sách giáo khoa.",
+  "to": "Chạm vào từ trong clip thật để học thích hơn hẳn so với thẻ từ vựng trong sách giáo khoa.",
+  "why": "The current sentence is clunky and machine-like, and the comparison lacks \"so với\".",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Tour reset",
+  "from": "Đặt lại hướng dẫn",
+  "to": "Đã đặt lại hướng dẫn",
+  "why": "The source is a confirmation that the tour was reset, but the current text reads like an action button.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Unstoppable",
+  "from": "Không thể cản bước",
+  "to": "Không gì cản nổi",
+  "why": "More natural and punchy as a playful badge name.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Yearly",
+  "from": "Hằng năm",
+  "to": "Theo năm",
+  "why": "'Theo năm' is the standard Vietnamese label for a yearly billing plan; 'Hằng năm' sounds like 'every year'.",
+  "status": "applied",
+  "stage": "proof"
+ }
+]

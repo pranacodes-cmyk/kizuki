@@ -6,6 +6,7 @@ import { previewOrder, useContent } from "@/lib/feed";
 import { useFeedPager } from "@/lib/feed-pager";
 import { useApp } from "@/lib/store";
 import { ClipView } from "./ClipView";
+import { tr } from "@/lib/i18n";
 
 export function FeedPreview() {
   const { data, error } = useContent();
@@ -29,17 +30,17 @@ export function FeedPreview() {
   }, []);
 
   return (
-    <div ref={frame} className="relative h-full w-full overflow-hidden bg-background" aria-label="Preview of your feed">
+    <div ref={frame} className="relative h-full w-full overflow-hidden bg-background" aria-label={tr("Preview of your feed")}>
       <div className="absolute left-0 top-0 flex w-[360px] origin-top-left flex-col" style={{ height: size.height, transform: `scale(${size.scale})` }}>
         <div className="flex shrink-0 items-center justify-between px-4 pb-2 pt-3">
-          <span className="text-[1.125rem] font-black">For you</span><Flame className="h-5 w-5 text-primary" />
+          <span className="text-[1.125rem] font-black">{tr("For you")}</span><Flame className="h-5 w-5 text-primary" />
         </div>
         <div ref={box} className="no-scrollbar min-h-0 flex-1 overflow-y-auto overscroll-contain"
           onWheel={(e) => { if (Math.abs(e.deltaY) > 10) { e.preventDefault(); step(e.deltaY > 0 ? 1 : -1); } }}>
           {data && clips.map((clip, i) => <div key={clip.id} data-preview-clip={clip.id} className="h-full w-full overflow-hidden">
             <ClipView clip={clip} content={data} active={i === active} inFeed bottomInset={12} />
           </div>)}
-          {error && <p className="p-4 text-center text-muted-foreground">Your clips will appear on Home</p>}
+          {error && <p className="p-4 text-center text-muted-foreground">{tr("Your clips will appear on Home")}</p>}
         </div>
         <div className="flex h-12 shrink-0 items-center justify-evenly bg-surface">
           <Play className="h-5 w-5 text-primary" /><Search className="h-5 w-5 text-faint" />

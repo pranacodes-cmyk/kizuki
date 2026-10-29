@@ -10,7 +10,7 @@
  */
 
 @theme inline {
-  --font-sans: "Nunito", "M PLUS Rounded 1c", system-ui, sans-serif;
+  --font-sans: "Nunito", "M PLUS Rounded 1c", "Noto Sans Thai", "Noto Sans KR", system-ui, sans-serif;
   --font-jp: "M PLUS Rounded 1c", "Nunito", sans-serif;
   --radius-sm: 8px;
   --radius-md: 12px;
@@ -153,6 +153,11 @@
   .no-scrollbar {
     scrollbar-width: none;
   }
+}
+
+/* Country flags render as pictures everywhere (Windows has no flag emoji). */
+@utility font-emoji {
+  font-family: "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
 }
 
 @utility tabular {

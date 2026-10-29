@@ -1,3 +1,5 @@
+import '../i18n/i18n.dart';
+
 // Welcome tour — mirrored from src/lib/tour.ts. A short "do what I point at" walk through the
 // whole loop: tap a word → its meaning + Ask Kizuki → swipe → Vocab → first review → back to
 // the videos. Shown the first time the feed opens, and again after Settings → Replay the tour.
@@ -112,7 +114,7 @@ const tourCardSteps = ['meaning', 'askOpen', 'askInfo'];
 
 /// Personal bits in the step text.
 String tourText(TourStep s, {required String name, required int minutes}) =>
-    s.text.replaceAll('{name}', name.trim().isEmpty ? '' : ' ${name.trim()}').replaceAll('{minutes}', '$minutes');
+    tr(s.text).replaceAll('{name}', name.trim().isEmpty ? '' : ' ${name.trim()}').replaceAll('{minutes}', '$minutes');
 
 /// Index of a step id (tourSteps.length when missing, which ends the tour).
 int tourIndexOf(String id) {

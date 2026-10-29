@@ -23,10 +23,8 @@ import '../widgets/lively_mascot.dart';
 import '../widgets/saved_word_sheet.dart';
 import '../widgets/tour.dart';
 import '../widgets/ui.dart';
+import '../i18n/i18n.dart';
 import '../widgets/word_card.dart' show posNames;
-
-/// How the review timing works, in plain words (no interval codes) — same text in review.tsx.
-const reviewDoneNote = "Each word comes back right before you'd forget it. Forgotten words come back sooner.";
 
 /// Flashcard review (words with original clip audio, or kana decks) — mirrors src/routes/review.tsx.
 class ReviewScreen extends StatefulWidget {
@@ -134,22 +132,22 @@ class _ReviewScreenState extends State<ReviewScreen> {
                   child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
                     LivelyMascot(finished ? MascotPose.brave : MascotPose.cheer, size: 144, entrance: true, hopAfterMs: 400, tappable: true),
                     const SizedBox(height: 12),
-                    Text(finished ? 'Well done!' : 'All caught up!', style: txt(28, w: FontWeight.w900)),
+                    Text(finished ? tr('Well done!') : tr('All caught up!'), style: txt(28, w: FontWeight.w900)),
                     const SizedBox(height: 8),
                     Row(mainAxisAlignment: MainAxisAlignment.center, children: [
                       const Icon(LucideIcons.check, size: 20, color: T.success),
                       const SizedBox(width: 6),
-                      Text(finished ? '${sess.answered} card${sess.answered == 1 ? '' : 's'} reviewed' : 'Nothing due right now', style: txt(16, w: FontWeight.w800, c: T.success)),
+                      Text(finished ? trn(sess.answered, '{n} card reviewed', '{n} cards reviewed') : tr('Nothing due right now'), style: txt(16, w: FontWeight.w800, c: T.success)),
                     ]),
                     const SizedBox(height: 10),
-                    Text(reviewDoneNote, textAlign: TextAlign.center, style: txt(15, w: FontWeight.w600, c: T.muted, h: 1.4)),
+                    Text(tr("Each word comes back right before you'd forget it. Forgotten words come back sooner."), textAlign: TextAlign.center, style: txt(15, w: FontWeight.w600, c: T.muted, h: 1.4)),
                   ]),
                 ),
-                Button3D(label: "I'm done for now", onPressed: _exit),
+                Button3D(label: tr("I'm done for now"), onPressed: _exit),
                 if (extraAvail) ...[
                   const SizedBox(height: 12),
                   Button3D(
-                    label: 'Keep studying',
+                    label: tr('Keep studying'),
                     variant: BtnVariant.surface,
                     onPressed: () {
                       if (widget.extra) {
@@ -185,7 +183,7 @@ class _ReviewScreenState extends State<ReviewScreen> {
             child: Center(
               child: Column(mainAxisSize: MainAxisSize.min, children: [
                 if (word != null && settings.flashFront == 'en')
-                  Text(word.gloss, textAlign: TextAlign.center, style: txt(28, w: FontWeight.w900))
+                  Text(word.glossIn(content), textAlign: TextAlign.center, style: txt(28, w: FontWeight.w900))
                 else ...[
                   if (word != null && settings.flashFurigana && word.reading != word.word) Text(word.reading, style: jp(18, c: T.muted)),
                   Text(word?.word ?? kana?.kana ?? '', textAlign: TextAlign.center, style: jp(56, w: FontWeight.w900, h: 1.2)),
@@ -201,7 +199,7 @@ class _ReviewScreenState extends State<ReviewScreen> {
             child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
               const Icon(LucideIcons.pointer, size: 16, color: T.faint),
               const SizedBox(width: 6),
-              Flexible(child: Text(firstTime ? 'Remember it? Tap to reveal' : 'Tap to reveal', textAlign: TextAlign.center, maxLines: 2, style: txt(15, w: FontWeight.w700, c: T.faint))),
+              Flexible(child: Text(firstTime ? tr('Remember it? Tap to reveal') : tr('Tap to reveal'), textAlign: TextAlign.center, maxLines: 2, style: txt(15, w: FontWeight.w700, c: T.faint))),
             ]),
           ),
         ]);
@@ -220,7 +218,8 @@ class _ReviewScreenState extends State<ReviewScreen> {
       final entry = w.dictId != null ? c?.dict[w.dictId] : null;
       final senses = entry == null ? const <m.Sense>[] : entry.m.take(3).toList();
       final pos = senses.isNotEmpty && senses.first.pos.isNotEmpty ? senses.first.pos.first : (posNames[w.pos] ?? (w.pos == 'other' ? null : w.pos));
-      final showClipMeaning = senses.isEmpty ? w.gloss.isNotEmpty : !repeatsSense(w.gloss, senses.first.g);
+      final gloss = w.glossIn(c);
+      final showClipMeaning = senses.isEmpty ? gloss.isNotEmpty : !repeatsSense(gloss, senses.first.g);
       return SingleChildScrollView(
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
@@ -231,18 +230,18 @@ class _ReviewScreenState extends State<ReviewScreen> {
                 const SizedBox(height: 4),
                 Wrap(spacing: 6, runSpacing: 4, crossAxisAlignment: WrapCrossAlignment.center, children: [
                   Text(w.romaji, style: txt(15, c: T.muted)),
-                  if (pos != null) chip(pos, fg: T.foreground),
+                  if (pos != null) chip(tr(pos), fg: T.foreground),
                   if (w.jlpt != null) chip('N${w.jlpt}', bg: T.successSoft, fg: T.success),
                 ]),
               ]),
             ),
             Padding(
               padding: const EdgeInsets.only(top: 8),
-              child: Semantics(button: true, label: 'Play pronunciation', child: Press(onTap: () => Tts.speak(w.reading.isNotEmpty ? w.reading : w.word), child: Container(width: 44, height: 44, decoration: const BoxDecoration(color: T.surface2, shape: BoxShape.circle), child: const Icon(LucideIcons.volume2, size: 20)))),
+              child: Semantics(button: true, label: tr('Play pronunciation'), child: Press(onTap: () => Tts.speak(w.reading.isNotEmpty ? w.reading : w.word), child: Container(width: 44, height: 44, decoration: const BoxDecoration(color: T.surface2, shape: BoxShape.circle), child: const Icon(LucideIcons.volume2, size: 20)))),
             ),
           ]),
           const SizedBox(height: 16),
-          caps('Definition'),
+          caps(tr('Definition')),
           const SizedBox(height: 8),
           if (showClipMeaning)
             Container(
@@ -250,7 +249,7 @@ class _ReviewScreenState extends State<ReviewScreen> {
               margin: const EdgeInsets.only(bottom: 8),
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               decoration: BoxDecoration(color: T.primary.withValues(alpha: 0.1), borderRadius: BorderRadius.circular(12)),
-              child: Text.rich(TextSpan(children: [TextSpan(text: 'In this clip: ', style: txt(14, w: FontWeight.w800, c: T.primary)), TextSpan(text: w.gloss, style: txt(16, w: FontWeight.w800))])),
+              child: Text.rich(TextSpan(children: trSpans('In this clip: [{meaning}]', txt(16, w: FontWeight.w800, c: T.foreground), {'meaning': gloss})), style: txt(14, w: FontWeight.w800, c: T.primary)),
             ),
           for (var i = 0; i < senses.length; i++)
             Padding(
@@ -263,7 +262,7 @@ class _ReviewScreenState extends State<ReviewScreen> {
             ),
           if (clip != null) ...[
             const SizedBox(height: 20),
-            caps('Example sentence'),
+            caps(tr('Example sentence')),
             const SizedBox(height: 8),
             HighlightedLine(clip: clip, line: w.line, idx: w.idx, size: 20),
             if (w.line < clip.lines.length)
@@ -272,17 +271,17 @@ class _ReviewScreenState extends State<ReviewScreen> {
             Button3D(
               variant: BtnVariant.surface,
               height: 48,
-              label: 'Watch original',
+              label: tr('Watch original'),
               onPressed: () => showMimiSheet<void>(context, (_) => SingleChildScrollView(
                 padding: const EdgeInsets.fromLTRB(16, 8, 16, 20),
                 child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                   Text(clip.title, style: txt(18, w: FontWeight.w900)),
                   const SizedBox(height: 12),
                   ContextPlayer(key: ValueKey('ctx-$id-${sess.answered}'), clip: clip, line: w.line, autoplay: true),
-                  TextButton(onPressed: () => launchUrl(Uri.parse(watchUrl(clip.videoId, clip.start)), mode: LaunchMode.externalApplication), child: Text('${c?.videos[clip.videoId]?.channel ?? 'YouTube'} · Watch on YouTube')),
+                  TextButton(onPressed: () => launchUrl(Uri.parse(watchUrl(clip.videoId, clip.start)), mode: LaunchMode.externalApplication), child: Text(tr('{channel} · Watch on YouTube', {'channel': c?.videos[clip.videoId]?.channel ?? tr('YouTube')}))),
                   const SizedBox(height: 12),
                   HighlightedLine(clip: clip, line: w.line, idx: w.idx),
-                  TextButton(onPressed: () { Navigator.of(context).pop(); context.push('/clip/${clip.id}'); }, child: const Text('Open the clip')),
+                  TextButton(onPressed: () { Navigator.of(context).pop(); context.push('/clip/${clip.id}'); }, child: Text(tr('Open the clip'))),
                 ]),
               )),
             ),
@@ -296,7 +295,7 @@ class _ReviewScreenState extends State<ReviewScreen> {
           const SizedBox(height: 16),
           Text(kana?.romaji ?? '', style: txt(32, w: FontWeight.w900, c: T.primary)),
           const SizedBox(height: 20),
-          Semantics(button: true, label: 'Play sound', child: Press(onTap: () => Tts.speak(kana?.kana ?? ''), child: Container(width: 48, height: 48, decoration: const BoxDecoration(color: T.surface2, shape: BoxShape.circle), child: const Icon(LucideIcons.volume2, size: 20)))),
+          Semantics(button: true, label: tr('Play sound'), child: Press(onTap: () => Tts.speak(kana?.kana ?? ''), child: Container(width: 48, height: 48, decoration: const BoxDecoration(color: T.surface2, shape: BoxShape.circle), child: const Icon(LucideIcons.volume2, size: 20)))),
         ]);
 
     return Scaffold(
@@ -306,7 +305,7 @@ class _ReviewScreenState extends State<ReviewScreen> {
             height: 48,
             child: Row(children: [
               const SizedBox(width: 8),
-              IconButton(tooltip: 'Close review', onPressed: () => context.go('/vocab'), icon: const Icon(LucideIcons.x, size: 24, color: T.muted)),
+              IconButton(tooltip: tr('Close review'), onPressed: () => context.go('/vocab'), icon: const Icon(LucideIcons.x, size: 24, color: T.muted)),
               Expanded(
                 child: LayoutBuilder(
                   builder: (_, c) => Container(
@@ -350,12 +349,12 @@ class _ReviewScreenState extends State<ReviewScreen> {
                 ? Padding(
                     padding: const EdgeInsets.fromLTRB(16, 0, 16, 8),
                     child: Column(mainAxisSize: MainAxisSize.min, children: [
-                      if (firstTime) Padding(padding: const EdgeInsets.only(bottom: 8), child: Text('Did you remember it?', style: txt(13, w: FontWeight.w700, c: T.faint))),
+                      if (firstTime) Padding(padding: const EdgeInsets.only(bottom: 8), child: Text(tr('Did you remember it?'), style: txt(13, w: FontWeight.w700, c: T.faint))),
                       // Plain words only — no "1m / 10m" timing codes; the app picks the timing.
                       TourAnchor(id: 'grade', child: Row(children: [
-                        Expanded(child: _GradeBtn(label: 'Forgot', icon: LucideIcons.x, bg: T.dangerSoft, fg: T.danger, onTap: () => _answer('again'))),
+                        Expanded(child: _GradeBtn(label: tr('Forgot'), icon: LucideIcons.x, bg: T.dangerSoft, fg: T.danger, onTap: () => _answer('again'))),
                         const SizedBox(width: 12),
-                        Expanded(child: _GradeBtn(label: 'Remembered', icon: LucideIcons.check, bg: T.successSoft, fg: T.success, onTap: () => _answer('good'))),
+                        Expanded(child: _GradeBtn(label: tr('Remembered'), icon: LucideIcons.check, bg: T.successSoft, fg: T.success, onTap: () => _answer('good'))),
                       ])),
                     ]),
                   )
@@ -386,7 +385,7 @@ class _GradeBtn extends StatelessWidget {
             child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
               Icon(icon, size: 20, color: fg),
               const SizedBox(width: 8),
-              Flexible(child: Text(label, maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(17, w: FontWeight.w900, c: fg))),
+              Flexible(child: Text(tr(label), maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(17, w: FontWeight.w900, c: fg))),
             ]),
           ),
         ),
@@ -440,7 +439,7 @@ class _SwipeCardState extends State<_SwipeCard> with SingleTickerProviderStateMi
     );
     return Semantics(
       button: !widget.revealed,
-      label: widget.revealed ? null : 'Reveal the answer',
+      label: widget.revealed ? null : tr('Reveal the answer'),
       child: GestureDetector(
         behavior: HitTestBehavior.opaque,
         onTap: widget.revealed ? null : widget.onReveal,
@@ -485,8 +484,8 @@ class _SwipeCardState extends State<_SwipeCard> with SingleTickerProviderStateMi
                 },
                 child: face,
               ),
-              Positioned(right: 16, top: 16, child: IgnorePointer(child: Opacity(opacity: good, child: stamp('REMEMBERED', T.success)))),
-              Positioned(left: 16, top: 16, child: IgnorePointer(child: Opacity(opacity: again, child: stamp('FORGOT', T.danger)))),
+              Positioned(right: 16, top: 16, child: IgnorePointer(child: Opacity(opacity: good, child: stamp(tr('REMEMBERED'), T.success)))),
+              Positioned(left: 16, top: 16, child: IgnorePointer(child: Opacity(opacity: again, child: stamp(tr('FORGOT'), T.danger)))),
             ]),
           ),
         ),
@@ -513,7 +512,7 @@ class _PlanModalState extends State<_PlanModal> with SingleTickerProviderStateMi
   Widget build(BuildContext context) {
     final p = context.read<AppState>().profile;
     return Column(mainAxisSize: MainAxisSize.min, children: [
-      Text("This is how you'll understand Japanese in ${p.fluencyMonths} months", textAlign: TextAlign.center, style: txt(22, w: FontWeight.w900, h: 1.2)),
+      Text(tr("This is how you'll understand Japanese in {months} months", {'months': p.fluencyMonths}), textAlign: TextAlign.center, style: txt(22, w: FontWeight.w900, h: 1.2)),
       const SizedBox(height: 20),
       for (var n = 0; n < 3; n++)
         TweenAnimationBuilder<double>(
@@ -529,12 +528,12 @@ class _PlanModalState extends State<_PlanModal> with SingleTickerProviderStateMi
             child: Row(children: [
               Text(const ['▶️', '🔖', '🔁'][n], style: const TextStyle(fontSize: 24)),
               const SizedBox(width: 12),
-              Text(const ['Watch clips', 'Save words', 'Review daily'][n], style: txt(16, w: FontWeight.w800)),
+              Text([tr('Watch clips'), tr('Save words'), tr('Review daily')][n], style: txt(16, w: FontWeight.w800)),
             ]),
           ),
         ),
       const SizedBox(height: 4),
-      Text("It's that simple. Show up for ${p.dailyMinutes} minutes a day and you'll surprise yourself.", textAlign: TextAlign.center, style: txt(15, w: FontWeight.w400, c: T.muted)),
+      Text(tr("It's that simple. Show up for {minutes} minutes a day and you'll surprise yourself.", {'minutes': p.dailyMinutes}), textAlign: TextAlign.center, style: txt(15, w: FontWeight.w400, c: T.muted)),
       const SizedBox(height: 20),
       AnimatedBuilder(
         animation: _fill,
@@ -548,7 +547,7 @@ class _PlanModalState extends State<_PlanModal> with SingleTickerProviderStateMi
               decoration: BoxDecoration(color: T.primaryDim, borderRadius: BorderRadius.circular(16)),
               child: Stack(children: [
                 FractionallySizedBox(widthFactor: _fill.value, child: Container(color: T.primary)),
-                Center(child: Text("Let's do it!", style: txt(17, w: FontWeight.w800, c: T.primaryFg))),
+                Center(child: Text(tr("Let's do it!"), style: txt(17, w: FontWeight.w800, c: T.primaryFg))),
               ]),
             ),
           );

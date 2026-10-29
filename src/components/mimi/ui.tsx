@@ -7,6 +7,8 @@ import { haptic } from "@/lib/haptics";
 import { cn } from "@/lib/utils";
 
 import { LivelyMascot, Mascot } from "./Mascot";
+import { tr } from "@/lib/i18n";
+import { highlightParts } from "@/lib/logic";
 
 type BtnProps = ButtonHTMLAttributes<HTMLButtonElement> & { variant?: "primary" | "surface" | "ghost" | "danger" | "success"; size?: "lg" | "md" | "sm" };
 
@@ -54,7 +56,7 @@ export function Screen({ children, className, scroll = true }: { children: React
 export function ProgressHeader({ progress, onBack }: { progress: number; onBack?: () => void }) {
   return (
     <div className="flex h-12 shrink-0 items-center gap-3 px-4">
-      <button aria-label="Back" onClick={onBack} disabled={!onBack} className="press -ml-1 flex h-10 w-10 items-center justify-center rounded-full text-muted-foreground disabled:opacity-0">
+      <button aria-label={tr("Back")} onClick={onBack} disabled={!onBack} className="press -ml-1 flex h-10 w-10 items-center justify-center rounded-full text-muted-foreground disabled:opacity-0">
         <ChevronLeft className="h-7 w-7" strokeWidth={2.6} />
       </button>
       <div className="relative h-3.5 flex-1 rounded-full bg-surface-2">
@@ -72,13 +74,13 @@ export function TopBar({ title, onBack, right }: { title?: ReactNode; onBack?: (
   return (
     <div className="flex h-12 shrink-0 items-center gap-2 px-3">
       {onBack ? (
-        <button aria-label="Back" onClick={onBack} className="press flex h-10 w-10 items-center justify-center rounded-full text-foreground">
+        <button aria-label={tr("Back")} onClick={onBack} className="press flex h-10 w-10 items-center justify-center rounded-full text-foreground">
           <ChevronLeft className="h-7 w-7" strokeWidth={2.5} />
         </button>
       ) : (
         <div className="w-10" />
       )}
-      <div className="flex-1 truncate text-center text-[1.0625rem] font-extrabold">{title}</div>
+      <div className="flex-1 truncate text-center text-[1.0625rem] font-extrabold">{typeof title === "string" ? tr(title) : title}</div>
       <div className="flex min-w-10 justify-end">{right}</div>
     </div>
   );
@@ -197,6 +199,11 @@ export function SectionTitle({ children, right }: { children: ReactNode; right?:
   );
 }
 
+/** Translated text whose [bracketed] part gets `className` (highlightParts) — trSpans in i18n.dart. */
+export function Hi({ text, className }: { text: string; className?: string }) {
+  return <>{highlightParts(text).map(([t, hi], i) => (hi ? <span key={i} className={className}>{t}</span> : <span key={i}>{t}</span>))}</>;
+}
+
 /** Bouncing mascot loader with an optional caption. */
 export function MascotLoader({ label = "Loading…", className }: { label?: string; className?: string }) {
   return (
@@ -204,7 +211,7 @@ export function MascotLoader({ label = "Loading…", className }: { label?: stri
       <motion.div animate={{ y: [0, -14, 0] }} transition={{ repeat: Infinity, duration: 0.9, ease: "easeInOut" }}>
         <Mascot pose="listen" className="h-24 w-24" />
       </motion.div>
-      <p className="text-[0.9375rem] font-bold text-muted-foreground">{label}</p>
+      <p className="text-[0.9375rem] font-bold text-muted-foreground">{tr(label)}</p>
     </div>
   );
 }
@@ -214,9 +221,9 @@ export function ErrorState({ title = "Something went wrong", body, onRetry }: { 
   return (
     <div className="flex flex-col items-center justify-center gap-2 px-8 text-center">
       <Mascot pose="think" className="h-24 w-24" />
-      <p className="mt-1 text-[1.125rem] font-black">{title}</p>
-      {body && <p className="text-[0.9375rem] text-muted-foreground">{body}</p>}
-      {onRetry && <Button size="md" variant="surface" className="mt-3" onClick={onRetry}>Try again</Button>}
+      <p className="mt-1 text-[1.125rem] font-black">{tr(title)}</p>
+      {body && <p className="text-[0.9375rem] text-muted-foreground">{tr(body)}</p>}
+      {onRetry && <Button size="md" variant="surface" className="mt-3" onClick={onRetry}>{tr("Try again")}</Button>}
     </div>
   );
 }

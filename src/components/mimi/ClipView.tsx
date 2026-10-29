@@ -18,6 +18,7 @@ import { ClipPlayer, type ClipPlayerHandle } from "./ClipPlayer";
 import { DisplaySheet, LineMenu, SPEEDS } from "./ClipSheets";
 import { Transcript, activeLineIndex, type TokenStatus } from "./Transcript";
 import { WordCard, wordInput } from "./WordCard";
+import { tr, trn } from "@/lib/i18n";
 
 /** After the learner scrolls the transcript, auto-follow waits this long (clip_view.dart: transcriptFollowPauseMs). */
 export const FOLLOW_PAUSE_MS = 4000;
@@ -196,38 +197,36 @@ export function ClipView({ clip, content, active, warm = false, bottomInset = 96
       <div className="h-[3px] w-full bg-surface-2"><div className="h-full bg-primary transition-[width] duration-100" style={{ width: `${(rel / dur) * 100}%` }} /></div>
 
       <div data-tour={tour("controls")} className="flex items-center gap-1 px-2 pt-1.5">
-        <button aria-label={playing ? "Pause" : "Play"} onClick={() => player.current?.toggle()} className="press flex h-10 w-10 items-center justify-center rounded-full">
+        <button aria-label={playing ? tr("Pause") : tr("Play")} onClick={() => player.current?.toggle()} className="press flex h-10 w-10 items-center justify-center rounded-full">
           {playing ? <Pause className="h-5 w-5 fill-current" /> : <Play className="h-5 w-5 fill-current" />}
         </button>
         <span className="min-w-[78px] text-[0.8125rem] font-bold text-muted-foreground tabular">{fmt(rel)} / {fmt(dur)}</span>
         <div className="flex-1" />
-        <button aria-label="Replay line" onClick={() => seekLine(Math.max(0, current))} className="press flex h-10 w-10 items-center justify-center rounded-full text-muted-foreground"><RotateCcw className="h-[18px] w-[18px]" /></button>
-        <button aria-label="Loop line" onClick={() => setLoopLine(loopLine != null ? null : Math.max(0, current))} className={cn("press flex h-10 w-10 items-center justify-center rounded-full", loopLine != null ? "text-primary" : "text-muted-foreground")}><Repeat1 className="h-[18px] w-[18px]" /></button>
-        <button aria-label="Playback speed" onClick={() => setRate(SPEEDS[(SPEEDS.indexOf(rate as 1) + 1) % SPEEDS.length] ?? 1)} className={cn("press h-8 min-w-11 rounded-full px-2 text-[0.8125rem] font-black tabular", rate !== 1 ? "bg-primary/15 text-primary" : "text-muted-foreground")}>{rate}×</button>
-        <button aria-label={savedClip ? "Unsave clip" : "Save clip"} onClick={() => { useApp.getState().toggleSavedClip(clip.id); if (!savedClip) haptic("light"); if (!savedClip) toast({ icon: "🔖", title: "Clip saved", description: "Find it in Profile → Saved" }); }} className={cn("press flex h-10 w-10 items-center justify-center rounded-full", savedClip ? "text-primary" : "text-muted-foreground")}><Bookmark className={cn("h-[18px] w-[18px]", savedClip && "fill-current")} /></button>
+        <button aria-label={tr("Replay line")} onClick={() => seekLine(Math.max(0, current))} className="press flex h-10 w-10 items-center justify-center rounded-full text-muted-foreground"><RotateCcw className="h-[18px] w-[18px]" /></button>
+        <button aria-label={tr("Loop line")} onClick={() => setLoopLine(loopLine != null ? null : Math.max(0, current))} className={cn("press flex h-10 w-10 items-center justify-center rounded-full", loopLine != null ? "text-primary" : "text-muted-foreground")}><Repeat1 className="h-[18px] w-[18px]" /></button>
+        <button aria-label={tr("Playback speed")} onClick={() => setRate(SPEEDS[(SPEEDS.indexOf(rate as 1) + 1) % SPEEDS.length] ?? 1)} className={cn("press h-8 min-w-11 rounded-full px-2 text-[0.8125rem] font-black tabular", rate !== 1 ? "bg-primary/15 text-primary" : "text-muted-foreground")}>{rate}×</button>
+        <button aria-label={savedClip ? tr("Unsave clip") : tr("Save clip")} onClick={() => { useApp.getState().toggleSavedClip(clip.id); if (!savedClip) haptic("light"); if (!savedClip) toast({ icon: "🔖", title: tr("Clip saved"), description: tr("Find it in Profile → Saved") }); }} className={cn("press flex h-10 w-10 items-center justify-center rounded-full", savedClip ? "text-primary" : "text-muted-foreground")}><Bookmark className={cn("h-[18px] w-[18px]", savedClip && "fill-current")} /></button>
         {/* "Aa", like the Display sheet's name. */}
-        <button aria-label="Display options" onClick={() => setDisplay(true)} className="press flex h-10 w-10 items-center justify-center rounded-full text-[0.9375rem] font-black text-muted-foreground">Aa</button>
+        <button aria-label={tr("Display options")} onClick={() => setDisplay(true)} className="press flex h-10 w-10 items-center justify-center rounded-full text-[0.9375rem] font-black text-muted-foreground">{tr("Aa")}</button>
       </div>
 
       <div ref={scroller} onWheel={inFeed ? undefined : markUserScroll} onTouchMove={inFeed ? undefined : markUserScroll} className={cn("relative min-h-0 flex-1 no-scrollbar", inFeed ? "overflow-hidden" : "overflow-y-auto overscroll-contain")} style={{ paddingBottom: bottomInset }}>
         <div className="flex items-center gap-2 px-4 pb-1 pt-1">
           <p className="min-w-0 flex-1 truncate text-[0.875rem] font-extrabold">{clip.title}</p>
-          <span className="shrink-0 rounded-md bg-surface-2 px-1.5 py-0.5 text-[0.6875rem] font-black text-muted-foreground">JLPT {clip.level}</span>
+          <span className="shrink-0 rounded-md bg-surface-2 px-1.5 py-0.5 text-[0.6875rem] font-black text-muted-foreground">{tr("JLPT {level}", { level: clip.level })}</span>
         </div>
         {video && (
           <a href={watchUrl(clip.videoId, clip.start)} target="_blank" rel="noreferrer" className="block truncate px-4 text-[0.75rem] font-bold text-faint hover:text-muted-foreground">
-            {video.channel} · Watch on YouTube
-          </a>
+            {tr("{channel} · Watch on YouTube", { channel: video.channel })}</a>
         )}
         <Transcript clip={clip} time={time} settings={settings} statusOf={statusOf} levelOf={levelOf} selected={cardOpen ? sel : null} onWord={onWord} onLine={seekLine} onLineMenu={(li) => { setMenuLine(li); setMenuOpen(true); }} tourWord={tourWord} />
         {unknown.length > 0 && (
           <div className="px-4 pb-4">
             <button
-              onClick={() => { useApp.getState().markKnown(unknown); toast({ icon: "✅", title: `${unknown.length} word${unknown.length > 1 ? "s" : ""} marked as known` }); }}
+              onClick={() => { useApp.getState().markKnown(unknown); toast({ icon: "✅", title: trn(unknown.length, "{n} word marked as known", "{n} words marked as known") }); }}
               className="press flex w-full items-center justify-center gap-2 rounded-2xl border-2 border-border py-3 text-[0.9375rem] font-extrabold text-muted-foreground"
             >
-              <CheckCheck className="h-5 w-5 text-success" /> Mark remaining {unknown.length} word{unknown.length > 1 ? "s" : ""} as known
-            </button>
+              <CheckCheck className="h-5 w-5 text-success" /> {" "}{trn(unknown.length, "Mark remaining {n} word as known", "Mark remaining {n} words as known")}</button>
           </div>
         )}
       </div>

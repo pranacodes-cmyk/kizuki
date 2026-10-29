@@ -6,6 +6,7 @@ import '../data/content.dart';
 import '../logic/logic.dart';
 import '../theme/tokens.dart';
 import 'ui.dart';
+import '../i18n/i18n.dart';
 
 /// Loads the bundled clip library once, with loader + error states.
 class ContentBuilder extends StatefulWidget {
@@ -23,8 +24,8 @@ class _ContentBuilderState extends State<ContentBuilder> {
         future: _f,
         builder: (context, snap) {
           if (snap.hasData) return widget.builder(context, snap.data!);
-          if (snap.hasError) return ErrorState(title: "Couldn't load clips", body: 'Please restart Kizuki.', onRetry: () => setState(() => _f = Content.load()));
-          return MascotLoader(label: widget.loadingLabel);
+          if (snap.hasError) return ErrorState(title: tr("Couldn't load clips"), body: tr('Please restart Kizuki.'), onRetry: () => setState(() => _f = Content.load()));
+          return MascotLoader(label: tr(widget.loadingLabel));
         },
       );
 }
@@ -48,9 +49,9 @@ class ScreenError extends StatelessWidget {
                 child: Column(mainAxisSize: MainAxisSize.min, children: [
                   const Text('🦊', style: TextStyle(fontSize: 40, decoration: TextDecoration.none)),
                   const SizedBox(height: 12),
-                  Text('Something went wrong here', textAlign: TextAlign.center, style: _base.copyWith(fontSize: 18, fontWeight: FontWeight.w800, color: T.foreground)),
+                  Text(tr('Something went wrong here'), textAlign: TextAlign.center, style: _base.copyWith(fontSize: 18, fontWeight: FontWeight.w800, color: T.foreground)),
                   const SizedBox(height: 6),
-                  Text(message ?? 'Go back and try again. If it keeps happening, restart Kizuki.', textAlign: TextAlign.center, style: _base.copyWith(fontSize: 14, fontWeight: FontWeight.w400, color: T.muted)),
+                  Text(message ?? tr('Go back and try again. If it keeps happening, restart Kizuki.'), textAlign: TextAlign.center, style: _base.copyWith(fontSize: 14, fontWeight: FontWeight.w400, color: T.muted)),
                 ]),
               ),
             ),

@@ -17,6 +17,7 @@ import '../widgets/common.dart';
 import '../widgets/lively_mascot.dart';
 import '../widgets/onboarding_back.dart';
 import '../widgets/ui.dart';
+import '../i18n/i18n.dart';
 
 /// Onboarding questions — mirrors src/routes/onboarding.tsx (same 9 steps and copy).
 class OnboardingScreen extends StatefulWidget {
@@ -75,8 +76,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     switch (step) {
       case 'reasons':
         body = _MultiGrid(
-          title: 'Why do you want to learn Japanese?',
-          subtitle: "Pick all that apply — we'll find clips you'll love.",
+          title: tr('Why do you want to learn Japanese?'),
+          subtitle: tr("Pick all that apply — we'll find clips you'll love."),
           options: reasonOptions,
           value: p.reasons,
           onToggle: (id) => app.setProfile((x) => x.reasons = _toggle(x.reasons, id)),
@@ -92,8 +93,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         });
       case 'challenges':
         body = _MultiGrid(
-          title: "What's hardest for you right now?",
-          subtitle: 'Select all that apply.',
+          title: tr("What's hardest for you right now?"),
+          subtitle: tr('Select all that apply.'),
           options: challengeOptions,
           value: p.challenges,
           onToggle: (id) => app.setProfile((x) => x.challenges = _toggle(x.challenges, id)),
@@ -160,8 +161,8 @@ class _Title extends StatelessWidget {
         child: SizedBox(
           width: double.infinity,
           child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-            Text(title, style: txt(26, w: FontWeight.w900, h: 1.2)),
-            if (subtitle != null) Padding(padding: const EdgeInsets.only(top: 8), child: Text(subtitle!, style: txt(15, w: FontWeight.w400, c: T.muted))),
+            Text(tr(title), style: txt(26, w: FontWeight.w900, h: 1.2)),
+            if (subtitle != null) Padding(padding: const EdgeInsets.only(top: 8), child: Text(tr(subtitle!), style: txt(15, w: FontWeight.w400, c: T.muted))),
             ?extra,
           ]),
         ),
@@ -208,7 +209,7 @@ class _GridCard extends StatelessWidget {
                   child: Column(mainAxisSize: MainAxisSize.min, children: [
                     Pop(active: active, child: Text(emoji, style: const TextStyle(fontSize: 32))),
                     const SizedBox(height: 8),
-                    Text(label, textAlign: TextAlign.center, maxLines: 2, overflow: TextOverflow.ellipsis, style: txt(15, w: FontWeight.w800, h: 1.2)),
+                    Text(tr(label), textAlign: TextAlign.center, maxLines: 2, overflow: TextOverflow.ellipsis, style: txt(15, w: FontWeight.w800, h: 1.2)),
                   ]),
                 ),
               ),
@@ -255,8 +256,8 @@ class _ListOption extends StatelessWidget {
             const SizedBox(width: 16),
             Expanded(
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(label, style: txt(16, w: FontWeight.w800)),
-                if (hint != null) Text(hint!, style: txt(13, w: FontWeight.w400, c: T.muted)),
+                Text(tr(label), style: txt(16, w: FontWeight.w800)),
+                if (hint != null) Text(tr(hint!), style: txt(13, w: FontWeight.w400, c: T.muted)),
               ]),
             ),
           ]),
@@ -304,11 +305,11 @@ class _MultiGrid extends StatelessWidget {
                   : Row(key: ValueKey(value.last), crossAxisAlignment: CrossAxisAlignment.start, children: [
                       const Padding(padding: EdgeInsets.only(top: 2), child: Icon(LucideIcons.check, size: 16, color: T.success)),
                       const SizedBox(width: 8),
-                      Expanded(child: Text(challengeBenefit(value.last), style: txt(14, w: FontWeight.w700, c: T.success))),
+                      Expanded(child: Text(tr(challengeBenefit(value.last)), style: txt(14, w: FontWeight.w700, c: T.success))),
                     ]),
             ),
           ),
-        Button3D(label: 'Continue', onPressed: value.isEmpty ? null : onNext),
+        Button3D(label: tr('Continue'), onPressed: value.isEmpty ? null : onNext),
       ]),
     ]);
   }
@@ -339,7 +340,7 @@ class _LevelState extends State<_Level> {
   int? picked;
   @override
   Widget build(BuildContext context) => Column(children: [
-        const _Title('How much Japanese do you know?', subtitle: "We'll match clips to your level.", extra: Padding(padding: EdgeInsets.only(top: 12), child: Pill('You can change this anytime in settings'))),
+        _Title(tr('How much Japanese do you know?'), subtitle: tr("We'll match clips to your level."), extra: Padding(padding: EdgeInsets.only(top: 12), child: Pill(tr('You can change this anytime in settings')))),
         Expanded(
           child: ListView(padding: const EdgeInsets.fromLTRB(24, 20, 24, 8), children: [
             for (var idx = 0; idx < levelOptions.length; idx++)
@@ -367,13 +368,13 @@ class _Method extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Column(children: [
         _stepBody([
-          const _Title('Learn the way you learned your first language', subtitle: 'By listening to real people — not by memorising rules.'),
+          _Title(tr('Learn the way you learned your first language'), subtitle: tr('By listening to real people — not by memorising rules.')),
           Container(
             margin: const EdgeInsets.fromLTRB(24, 24, 24, 0),
             padding: const EdgeInsets.all(20),
             decoration: BoxDecoration(color: T.surface, borderRadius: BorderRadius.circular(28)),
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              caps('Real Japanese you hear in 10 minutes'),
+              caps(tr('Real Japanese you hear in 10 minutes')),
               const SizedBox(height: 20),
               // Chart labels stay at normal size and the chart scales down on narrow phones, so
               // large system text can't push the bars out of the card.
@@ -387,20 +388,20 @@ class _Method extends StatelessWidget {
                     alignment: Alignment.bottomCenter,
                     child: Row(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.end, children: [
                       Column(mainAxisAlignment: MainAxisAlignment.end, children: [
-                        Text('~10 lines', style: txt(14, w: FontWeight.w800, c: T.muted)),
+                        Text(tr('~10 lines'), style: txt(14, w: FontWeight.w800, c: T.muted)),
                         const SizedBox(height: 8),
                         _GrowBar(height: 36, color: T.surface3, delay: 200),
                         const SizedBox(height: 8),
-                        Text('Drill apps', style: txt(13, c: T.muted)),
+                        Text(tr('Drill apps'), style: txt(13, c: T.muted)),
                       ]),
                       const SizedBox(width: 32),
                       Column(mainAxisAlignment: MainAxisAlignment.end, children: [
-                        Text('100+ lines', style: txt(14, w: FontWeight.w800, c: T.primary)),
+                        Text(tr('100+ lines'), style: txt(14, w: FontWeight.w800, c: T.primary)),
                         // Rides up with the growing bar, then hops as it lands.
                         const LivelyMascot(MascotPose.cheer, size: 48, hopAfterMs: 1200),
                         _GrowBar(height: 130, color: T.primary, delay: 350),
                         const SizedBox(height: 8),
-                        Text('With Kizuki', style: txt(13)),
+                        Text(tr('With Kizuki'), style: txt(13)),
                       ]),
                     ]),
                   ),
@@ -411,7 +412,7 @@ class _Method extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.fromLTRB(24, 16, 24, 0),
             child: Column(children: [
-              for (final t in ['Hear real native speed from day one', 'Every word explained in its sentence', 'Remember words with the original audio'])
+              for (final t in [tr('Hear real native speed from day one'), tr('Every word explained in its sentence'), tr('Remember words with the original audio')])
                 Padding(
                   padding: const EdgeInsets.only(bottom: 10),
                   child: Row(children: [const Icon(LucideIcons.check, size: 16, color: T.success), const SizedBox(width: 8), Expanded(child: Text(t, style: txt(15)))]),
@@ -419,7 +420,7 @@ class _Method extends StatelessWidget {
             ]),
           ),
         ]),
-        _footer([Button3D(label: 'Continue', onPressed: onNext)]),
+        _footer([Button3D(label: tr('Continue'), onPressed: onNext)]),
       ]);
 }
 
@@ -448,7 +449,7 @@ class _SourceState extends State<_Source> {
   String? picked;
   @override
   Widget build(BuildContext context) => Column(children: [
-        const _Title('Where did you hear about Kizuki?', subtitle: 'Helps us reach more learners like you.'),
+        _Title(tr('Where did you hear about Kizuki?'), subtitle: tr('Helps us reach more learners like you.')),
         Expanded(
           child: ListView(padding: const EdgeInsets.fromLTRB(24, 20, 24, 16), children: [
             for (final o in sourceOptions)
@@ -523,16 +524,16 @@ class _Fluency extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Column(children: [
         _stepBody([
-          const _Title('When do you want to understand Japanese?', subtitle: "Set a goal. We'll keep it realistic."),
+          _Title(tr('When do you want to understand Japanese?'), subtitle: tr("Set a goal. We'll keep it realistic.")),
           const SizedBox(height: 16),
-          Pill('🇯🇵 Conversational by ${goalDateLabel(DateTime.now(), months)}', tone: PillTone.success),
+          Pill(tr('🇯🇵 Conversational by {date}', {'date': goalDateLabel(DateTime.now(), months)}), tone: PillTone.success),
           const SizedBox(height: 24),
-          Ring(value: months / 36, color: T.success, child: Column(mainAxisSize: MainAxisSize.min, children: [Text('$months', style: txt(52, w: FontWeight.w900, h: 1)), Text('months', style: txt(16, c: T.muted))])),
+          Ring(value: months / 36, color: T.success, child: Column(mainAxisSize: MainAxisSize.min, children: [Text('$months', style: txt(52, w: FontWeight.w900, h: 1)), Text(tr('months'), style: txt(16, c: T.muted))])),
           const SizedBox(height: 28),
           Padding(padding: const EdgeInsets.symmetric(horizontal: 20), child: _MimiSlider(value: months.toDouble(), min: 3, max: 36, divisions: 33, color: T.success, onChanged: (v) => onChange(v.round()))),
-          Padding(padding: const EdgeInsets.symmetric(horizontal: 32), child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [Text('3 months', style: txt(12, c: T.faint)), Text('3 years', style: txt(12, c: T.faint))])),
+          Padding(padding: const EdgeInsets.symmetric(horizontal: 32), child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [Text(tr('3 months'), style: txt(12, c: T.faint)), Text(tr('3 years'), style: txt(12, c: T.faint))])),
         ]),
-        _footer([Button3D(label: 'Continue', onPressed: onNext)]),
+        _footer([Button3D(label: tr('Continue'), onPressed: onNext)]),
       ]);
 }
 
@@ -546,20 +547,20 @@ class _Minutes extends StatelessWidget {
     final rec = recommendedMinutes(months);
     return Column(children: [
       _stepBody([
-        const _Title('How much time can you give each day?', subtitle: 'Consistency beats intensity. Even 5 minutes works.'),
+        _Title(tr('How much time can you give each day?'), subtitle: tr('Consistency beats intensity. Even 5 minutes works.')),
         const SizedBox(height: 16),
-        Pill('🧠 About ${wordsPerMonth(minutes)} new words a month', tone: PillTone.primary),
+        Pill(tr('🧠 About {wordsPerMonth} new words a month', {'wordsPerMonth': wordsPerMonth(minutes)}), tone: PillTone.primary),
         const SizedBox(height: 24),
-        Ring(value: minutes / 60, color: T.primary, child: Column(mainAxisSize: MainAxisSize.min, children: [Text('$minutes', style: txt(52, w: FontWeight.w900, h: 1)), Text('minutes', style: txt(16, c: T.muted))])),
+        Ring(value: minutes / 60, color: T.primary, child: Column(mainAxisSize: MainAxisSize.min, children: [Text('$minutes', style: txt(52, w: FontWeight.w900, h: 1)), Text(tr('minutes'), style: txt(16, c: T.muted))])),
         const SizedBox(height: 28),
         Padding(padding: const EdgeInsets.symmetric(horizontal: 20), child: _MimiSlider(value: minutes.toDouble(), min: 5, max: 60, divisions: 11, color: T.primary, onChanged: (v) => onChange(v.round()))),
         const SizedBox(height: 12),
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 24),
-          child: minutes >= rec ? Pill('✓ Enough to reach your $months-month goal', tone: PillTone.success) : Pill('$rec min/day recommended for $months months'),
+          child: minutes >= rec ? Pill(tr('✓ Enough to reach your {months}-month goal', {'months': months}), tone: PillTone.success) : Pill(tr('{rec} min/day recommended for {months} months', {'rec': rec, 'months': months})),
         ),
       ]),
-      _footer([Button3D(label: "I'm committed", onPressed: onNext)]),
+      _footer([Button3D(label: tr("I'm committed"), onPressed: onNext)]),
     ]);
   }
 }
@@ -579,7 +580,7 @@ class _WindowState extends State<_Window> {
   @override
   Widget build(BuildContext context) => Column(children: [
         _stepBody([
-          _Title('When can you spend ${widget.minutes} minutes?', subtitle: "We'll send one friendly reminder so you never break your streak."),
+          _Title(tr('When can you spend {minutes} minutes?', {'minutes': widget.minutes}), subtitle: tr("We'll send one friendly reminder so you never break your streak.")),
           Padding(
             padding: const EdgeInsets.fromLTRB(24, 20, 24, 0),
             child: Column(children: [
@@ -601,9 +602,9 @@ class _WindowState extends State<_Window> {
           ),
         ]),
         _footer([
-          Text('Learners with reminders on are far more likely to keep their streak.', textAlign: TextAlign.center, style: txt(13, w: FontWeight.w400, c: T.muted)),
+          Text(tr('Learners with reminders on are far more likely to keep their streak.'), textAlign: TextAlign.center, style: txt(13, w: FontWeight.w400, c: T.muted)),
           const SizedBox(height: 12),
-          Button3D(label: picked ? 'Remind me ${windowLabel(widget.value)}' : 'Pick a time', onPressed: picked ? widget.onNext : null),
+          Button3D(label: picked ? tr('Remind me {windowLabel}', {'windowLabel': windowLabel(widget.value)}) : tr('Pick a time'), onPressed: picked ? widget.onNext : null),
         ]),
       ]);
 }
@@ -617,19 +618,19 @@ class _Streak extends StatelessWidget {
   Widget build(BuildContext context) => Column(children: [
         _stepBody([
           Padding(padding: const EdgeInsets.only(top: 8), child: LivelyMascot(MascotPose.brave, size: 112, entrance: true, hopKey: value, tappable: true)),
-          const _Title('Make a promise to yourself', subtitle: 'Pick a streak goal. Kizuki will cheer you on.'),
+          _Title(tr('Make a promise to yourself'), subtitle: tr('Pick a streak goal. Kizuki will cheer you on.')),
           Padding(
             padding: const EdgeInsets.fromLTRB(24, 20, 24, 0),
             child: Column(children: [
               for (final o in streakOptions)
                 Padding(
                   padding: const EdgeInsets.only(bottom: 12),
-                  child: _ListOption(active: value == o.days, left: Text(o.emoji, style: const TextStyle(fontSize: 26)), label: '${o.days}-day streak', hint: o.label, onTap: () => onChange(o.days)),
+                  child: _ListOption(active: value == o.days, left: Text(o.emoji, style: const TextStyle(fontSize: 26)), label: tr('{days}-day streak', {'days': o.days}), hint: o.label, onTap: () => onChange(o.days)),
                 ),
             ]),
           ),
         ]),
-        _footer([Button3D(label: 'Commit to $value days', onPressed: onNext)]),
+        _footer([Button3D(label: tr('Commit to {value} days', {'value': value}), onPressed: onNext)]),
       ]);
 }
 

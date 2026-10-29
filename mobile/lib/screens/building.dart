@@ -16,6 +16,7 @@ import '../theme/mascot_motion.dart';
 import '../theme/tokens.dart';
 import '../widgets/lively_mascot.dart';
 import '../widgets/ui.dart';
+import '../i18n/i18n.dart';
 
 /// "Building your personal plan" — mirrors src/routes/building.tsx. The fox grooves to its
 /// headphones while the ring fills with soft ratchet ticks (buildingHaptic); on 100% it
@@ -72,8 +73,8 @@ class _BuildingScreenState extends State<BuildingScreen> with TickerProviderStat
   @override
   Widget build(BuildContext context) {
     final p = context.watch<AppState>().profile;
-    final steps = ['Matching clips to your interests…', 'Picking scenes at your level (${p.jlpt})…', 'Fitting it into ${p.dailyMinutes} minutes a day…', 'Setting up your reminders…'];
-    final step = done ? 'All set — opening your plan' : steps[((pct / 100) * steps.length).floor().clamp(0, steps.length - 1)];
+    final steps = [tr('Matching clips to your interests…'), tr('Picking scenes at your level ({jlpt})…', {'jlpt': p.jlpt}), tr('Fitting it into {minutes} minutes a day…', {'minutes': p.dailyMinutes}), tr('Setting up your reminders…')];
+    final step = done ? tr('All set — opening your plan') : steps[((pct / 100) * steps.length).floor().clamp(0, steps.length - 1)];
     final r = reviews[review];
     return Scaffold(
       body: SafeArea(
@@ -103,7 +104,7 @@ class _BuildingScreenState extends State<BuildingScreen> with TickerProviderStat
                 const SizedBox(height: 12),
                 Text('$pct%', style: txt(34, w: FontWeight.w900, c: T.primary, h: 1.1).copyWith(fontFeatures: const [FontFeature.tabularFigures()])),
                 const SizedBox(height: 8),
-                Text('Building your personal plan', textAlign: TextAlign.center, style: txt(26, w: FontWeight.w900, h: 1.2)),
+                Text(tr('Building your personal plan'), textAlign: TextAlign.center, style: txt(26, w: FontWeight.w900, h: 1.2)),
                 const SizedBox(height: 8),
                 SizedBox(
                   height: 44,
@@ -129,7 +130,7 @@ class _BuildingScreenState extends State<BuildingScreen> with TickerProviderStat
                     child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                       Row(children: [for (var i = 0; i < r.stars; i++) const Icon(LucideIcons.star, size: 16, color: T.gold)]),
                       const SizedBox(height: 8),
-                      Text('“${r.text}”', style: txt(15, h: 1.3)),
+                      Text('“${tr(r.text)}”', style: txt(15, h: 1.3)),
                       const SizedBox(height: 8),
                       Text('— ${r.name}', style: txt(13, c: T.muted)),
                     ]),

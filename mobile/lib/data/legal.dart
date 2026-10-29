@@ -17,7 +17,7 @@ class LegalDoc {
 const privacyDoc = LegalDoc(
   title: 'Privacy Policy',
   updated: 'October 26, 2026',
-  intro: 'This Privacy Policy explains how Kizuki (“Kizuki”, “we”, “us”) collects, uses and shares information when you use the Kizuki app for Android and iPhone and the website kiku-clip-word-garden.lovable.app (together, the “Service”). If anything here is unclear, message us and we will explain it.',
+  intro: 'This Privacy Policy explains how Kizuki (“Kizuki”, “we”, “us”), an app by Prana codes, collects, uses and shares information when you use the Kizuki app for Android and iPhone and the website https://pranacodes.in/kizuki (together, the “Service”). If anything here is unclear, message us and we will explain it.',
   sections: [
     LegalSection('1. The short version', [
       '• We collect only what Kizuki needs to work: your learning progress, your email if you create an account, and basic purchase and app-event data.',
@@ -83,7 +83,7 @@ const privacyDoc = LegalDoc(
     ]),
     LegalSection('9. Your choices and rights', [
       '• Delete your account: Settings → Delete account requests account deletion and clears local learner state after a successful response. This does not cancel an App Store or Google Play subscription. Purchase, security and legally required records, and provider backups, may be retained separately.',
-      '• Delete without the app: send a message at kiku-clip-word-garden.lovable.app/support with the topic “Account”, using the email you signed up with. You may also email pranacodes@gmail.com. We may need to verify ownership before acting; we aim to handle verified requests within 30 days, subject to legal requirements and permitted extensions. Submission does not automatically delete an account or generate an email reply.',
+      '• Delete without the app: follow the instructions at https://pranacodes.in/kizuki-delete-account, using the email you signed up with. You may also email pranacodes@gmail.com. We may need to verify ownership before acting; we aim to handle verified requests within 30 days, subject to legal requirements and permitted extensions. Submission does not automatically delete an account or generate an email reply.',
       '• Export: Settings → Export saved words (.csv) downloads your words as a spreadsheet. For a copy of all your data, send us a message.',
       '• Correct: change your plan, level and settings in the app at any time.',
       '• Withdraw consent: turn off tracking, notifications or reminders in your phone\'s settings or in Kizuki\'s Settings.',
@@ -103,7 +103,7 @@ const privacyDoc = LegalDoc(
       'When we change this policy we update the date at the top. For significant changes we will tell you in the app before they take effect.',
     ]),
     LegalSection('14. Contact us', [
-      'Questions or privacy requests: open Profile → Help & feedback in the app, visit kiku-clip-word-garden.lovable.app/support, or email pranacodes@gmail.com.',
+      'Questions or privacy requests: open Profile → Help & feedback in the app, visit https://pranacodes.in/kizuki-support, or email pranacodes@gmail.com.',
     ]),
   ],
 );
@@ -111,7 +111,7 @@ const privacyDoc = LegalDoc(
 const termsDoc = LegalDoc(
   title: 'Terms of Service',
   updated: 'October 26, 2026',
-  intro: 'These Terms apply to the Kizuki Android and iPhone apps and website, operated by the Kizuki team. By using the Service you agree to these Terms. If you do not agree, do not use the Service. Questions can be sent to pranacodes@gmail.com.',
+  intro: 'These Terms apply to the Kizuki Android and iPhone apps and website, operated by Prana codes. By using the Service you agree to these Terms. If you do not agree, do not use the Service. Questions can be sent to pranacodes@gmail.com.',
   sections: [
     LegalSection('1. The Service', [
       'Kizuki is a Japanese-learning service with contextual clips, word definitions, translations, vocabulary tools, spaced-repetition flashcards, progress tracking and an AI tutor. Features, content and availability may change. Learning outcomes or JLPT results are not guaranteed.',
@@ -151,7 +151,7 @@ const termsDoc = LegalDoc(
       'The AI tutor requires sign-in and a verified active Premium entitlement. Availability and operational limits may apply. Answers can be incorrect or incomplete and should not be treated as professional advice. We do not promise unlimited availability, a fixed free question allowance or error-free answers.',
     ]),
     LegalSection('10. Privacy and account deletion', [
-      'Our Privacy Policy explains collection, processing, providers and your choices: https://kiku-clip-word-garden.lovable.app/privacy. You may request account deletion from Settings or contact us. Deletion does not automatically remove legally retained store/provider records or cancel subscriptions.',
+      'Our Privacy Policy explains collection, processing, providers and your choices: https://pranacodes.in/kizuki-privacy. You may request account deletion from Settings or contact us. Deletion does not automatically remove legally retained store/provider records or cancel subscriptions.',
     ]),
     LegalSection('11. Availability and disclaimers', [
       'To the extent permitted by law, the Service is provided as available without a guarantee of uninterrupted availability, perfect accuracy or compatibility with every device. Internet access and third-party services are required for video playback, purchases, sync and AI answers. Your mandatory consumer rights are not excluded.',
@@ -167,7 +167,7 @@ const termsDoc = LegalDoc(
       'Applicable law and dispute rights depend on your jurisdiction and the applicable store license. These Terms do not require you to waive mandatory protections or bring claims in a foreign court.',
     ]),
     LegalSection('15. Contact', [
-      'For support, subscription-access problems or legal questions, open Profile → Help & feedback, visit https://kiku-clip-word-garden.lovable.app/support, or email pranacodes@gmail.com.',
+      'For support, subscription-access problems or legal questions, open Profile → Help & feedback, visit https://pranacodes.in/kizuki-support, or email pranacodes@gmail.com.',
     ]),
   ],
 );

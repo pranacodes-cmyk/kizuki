@@ -7,6 +7,7 @@ import { WordLevelSheet } from "./WordLevel";
 vi.mock("./ui", () => ({
   Sheet: ({ children }: { children: React.ReactNode }) => <div>{children}</div>,
   Button: ({ children, variant: _variant, ...props }: React.ButtonHTMLAttributes<HTMLButtonElement> & { variant?: string }) => <button {...props}>{children}</button>,
+  Hi: ({ text }: { text: string }) => <span>{text.replace(/[[\]]/g, "")}</span>,
 }));
 
 afterEach(cleanup);

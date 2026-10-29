@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import '../data/legal.dart';
 import '../theme/tokens.dart';
 import '../widgets/ui.dart';
+import '../i18n/i18n.dart';
 
 /// Legal page (Privacy / Terms) — mirrors LegalPage.tsx. Copy lives in data/legal.dart,
 /// generated word for word from src/lib/legal.ts. Lines starting with "• " are bullets.
@@ -20,7 +21,7 @@ class LegalScreen extends StatelessWidget {
           TopBar(title: doc.title, onBack: () => context.canPop() ? context.pop() : context.go('/settings')),
           Expanded(
             child: ListView(padding: const EdgeInsets.fromLTRB(20, 8, 20, 48), children: [
-              Text('Last updated: ${doc.updated}', style: txt(13, w: FontWeight.w700, c: T.faint)),
+              Text(tr('Last updated: {updated}', {'updated': doc.updated}), style: txt(13, w: FontWeight.w700, c: T.faint)),
               const SizedBox(height: 12),
               Text(doc.intro, style: body),
               for (final s in doc.sections)

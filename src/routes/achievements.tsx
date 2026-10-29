@@ -6,6 +6,7 @@ import { Screen, TopBar } from "@/components/mimi/ui";
 import { achievements, isUnlocked, metricValue } from "@/lib/logic";
 import { statsOf, useApp } from "@/lib/store";
 import { cn } from "@/lib/utils";
+import { tr } from "@/lib/i18n";
 
 export const Route = createFileRoute("/achievements")({
   head: () => ({
@@ -27,8 +28,8 @@ function Achievements() {
   const unlocked = achievements.filter((a) => isUnlocked(a, stats)).length;
   return (
     <Screen>
-      <TopBar title="Achievements" onBack={() => router.history.back()} />
-      <p className="px-5 pb-3 text-center text-[0.9375rem] font-bold text-muted-foreground">{unlocked} of {achievements.length} unlocked</p>
+      <TopBar title={tr("Achievements")} onBack={() => router.history.back()} />
+      <p className="px-5 pb-3 text-center text-[0.9375rem] font-bold text-muted-foreground">{tr("{unlocked} of {total} unlocked", { unlocked, total: achievements.length })}</p>
       <div className="grid grid-cols-2 gap-3 px-4 pb-10">
         {achievements.map((a) => {
           const done = isUnlocked(a, stats);
@@ -39,8 +40,8 @@ function Achievements() {
                 <span className={cn("text-[2rem]", !done && "opacity-50 grayscale")}>{a.icon}</span>
                 {!done && <Lock className="h-4 w-4 text-faint" />}
               </div>
-              <p className="mt-2 text-[0.9375rem] font-extrabold">{a.title}</p>
-              <p className="text-[0.75rem] text-muted-foreground">{a.desc}</p>
+              <p className="mt-2 text-[0.9375rem] font-extrabold">{tr(a.title)}</p>
+              <p className="text-[0.75rem] text-muted-foreground">{tr(a.desc)}</p>
               {!done && (
                 <div className="mt-2">
                   <div className="h-1.5 overflow-hidden rounded-full bg-surface-2"><div className="h-full rounded-full bg-primary" style={{ width: `${(v / a.goal) * 100}%` }} /></div>

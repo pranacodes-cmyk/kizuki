@@ -7,6 +7,7 @@ import '../logic/logic.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import 'ui.dart';
+import '../i18n/i18n.dart';
 
 /// Daily-goal bar + For You / Explore tabs (top of the Feed) — mirrors FeedHeader.tsx.
 class FeedHeader extends StatelessWidget {
@@ -39,15 +40,15 @@ class FeedHeader extends StatelessWidget {
             ),
           ),
           const SizedBox(width: 12),
-          Text(left == 0 ? 'Goal done!' : '$left min left', style: txt(13, w: FontWeight.w900, c: left == 0 ? T.gold : T.muted)),
+          Text(left == 0 ? tr('Goal done!') : tr('{left} min left', {'left': left}), style: txt(13, w: FontWeight.w900, c: left == 0 ? T.gold : T.muted)),
           const SizedBox(width: 4),
           Icon(LucideIcons.trophy, size: 16, color: left == 0 ? T.gold : T.faint),
         ]),
         const SizedBox(height: 8),
         Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-          _HeaderTab(label: 'For You', active: tab == 'foryou', onTap: () => context.go('/feed')),
+          _HeaderTab(label: tr('For You'), active: tab == 'foryou', onTap: () => context.go('/feed')),
           const SizedBox(width: 32),
-          _HeaderTab(label: 'Explore', active: tab == 'explore', onTap: () => context.go('/explore')),
+          _HeaderTab(label: tr('Explore'), active: tab == 'explore', onTap: () => context.go('/explore')),
         ]),
       ]),
     );
@@ -67,7 +68,7 @@ class _HeaderTab extends StatelessWidget {
           behavior: HitTestBehavior.opaque,
           onTap: onTap,
           child: Column(children: [
-            Text(label, style: txt(16, w: FontWeight.w900, c: active ? T.foreground : T.faint)),
+            Text(tr(label), style: txt(16, w: FontWeight.w900, c: active ? T.foreground : T.faint)),
             const SizedBox(height: 6),
             Container(height: 3, width: 48, decoration: BoxDecoration(color: active ? T.primary : Colors.transparent, borderRadius: BorderRadius.circular(99))),
           ]),

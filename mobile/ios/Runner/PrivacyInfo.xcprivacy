@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!-- Kizuki privacy manifest. Keep in sync with the App Store privacy answers and /privacy.
-     Tracking = Meta ads measurement (only after the learner allows it in Apple's prompt).
-     The Meta, RevenueCat and Flutter plugin SDKs ship their own manifests for their domains/APIs. -->
+     NSPrivacyTracking stays false here: Kizuki's own code contacts no tracking domains
+     (Apple rejects true with an empty domain list, ITMS-91064). The Meta, RevenueCat and Flutter plugin SDKs ship their own manifests for their domains/APIs. -->
 <plist version="1.0">
 <dict>
 	<key>NSPrivacyTracking</key>
-	<true/>
+	<false/>
 	<key>NSPrivacyTrackingDomains</key>
 	<array/>
 	<key>NSPrivacyCollectedDataTypes</key>

@@ -5,6 +5,7 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'config.dart';
+import '../i18n/i18n.dart';
 
 /// Native credentials are verified by the existing account backend; no custom sessions.
 class NativeAuth {
@@ -23,18 +24,18 @@ class NativeAuth {
         serverClientId: AppConfig.googleWebClientId,
       ).catchError((Object error) { _googleReady = null; throw error; });
       final ready = _googleReady;
-      if (ready == null) throw const AuthException('Google sign-in could not initialize.');
+      if (ready == null) throw AuthException(tr('Google sign-in could not initialize.'));
       await ready;
       const scopes = ['email', 'profile'];
       final account = await GoogleSignIn.instance.authenticate(scopeHint: scopes);
       final token = account.authentication.idToken;
-      if (token == null) throw const AuthException('Google did not return a sign-in token. Please try again.');
+      if (token == null) throw AuthException(tr('Google did not return a sign-in token. Please try again.'));
       final authorization = await account.authorizationClient.authorizationForScopes(scopes) ?? await account.authorizationClient.authorizeScopes(scopes);
       await auth.signInWithIdToken(provider: OAuthProvider.google, idToken: token, accessToken: authorization.accessToken);
       return;
     }
     if (provider != 'apple' || defaultTargetPlatform != TargetPlatform.iOS) {
-      throw const AuthException('This sign-in method is not available on this device.');
+      throw AuthException(tr('This sign-in method is not available on this device.'));
     }
     final nonce = auth.generateRawNonce();
     final credential = await SignInWithApple.getAppleIDCredential(
@@ -42,7 +43,7 @@ class NativeAuth {
       nonce: sha256.convert(utf8.encode(nonce)).toString(),
     );
     final token = credential.identityToken;
-    if (token == null) throw const AuthException('Apple did not return a sign-in token. Please try again.');
+    if (token == null) throw AuthException(tr('Apple did not return a sign-in token. Please try again.'));
     await auth.signInWithIdToken(provider: OAuthProvider.apple, idToken: token, nonce: nonce);
     final name = [credential.givenName, credential.familyName].whereType<String>().where((s) => s.isNotEmpty).join(' ');
     if (name.isNotEmpty) {

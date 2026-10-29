@@ -5,6 +5,7 @@ import 'package:timezone/data/latest_all.dart' as tzdata;
 import 'package:timezone/timezone.dart' as tz;
 
 import '../logic/logic.dart';
+import '../i18n/i18n.dart';
 
 /// Daily study reminder at the learner's window — the web prototype mirrors the flow in
 /// src/lib/reminders.ts. One repeating notification; rescheduled whenever settings change.
@@ -76,15 +77,15 @@ class NotificationService {
     final now = tz.TZDateTime.now(tz.local);
     var at = tz.TZDateTime(tz.local, now.year, now.month, now.day, windowHour(window));
     if (!at.isAfter(now)) at = at.add(const Duration(days: 1));
-    const details = NotificationDetails(
-      android: AndroidNotificationDetails('daily', 'Daily reminder', channelDescription: 'A friendly nudge to keep your streak', importance: Importance.defaultImportance),
+    final details = NotificationDetails(
+      android: AndroidNotificationDetails('daily', tr('Daily reminder'), channelDescription: 'A friendly nudge to keep your streak', importance: Importance.defaultImportance),
       iOS: _darwin,
     );
     try {
       await _plugin.zonedSchedule(
         id: _dailyId,
-        title: minimal ? 'Keep your streak alive 🔥' : 'Time for Japanese! 🦊',
-        body: minimal ? 'One short clip saves your streak today.' : '$minutes minutes of real Japanese — Kizuki picked new clips for you.',
+        title: minimal ? tr('Keep your streak alive 🔥') : tr('Time for Japanese! 🦊'),
+        body: minimal ? tr('One short clip saves your streak today.') : tr('{minutes} minutes of real Japanese — Kizuki picked new clips for you.', {'minutes': minutes}),
         scheduledDate: at,
         notificationDetails: details,
         androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
@@ -109,11 +110,11 @@ class NotificationService {
     try {
       await _plugin.zonedSchedule(
         id: _trialId,
-        title: 'Your free week ends in 2 days',
-        body: 'Keep Kizuki Premium, or cancel anytime in your store settings. No surprises.',
+        title: tr('Your free week ends in 2 days'),
+        body: tr('Keep Kizuki Premium, or cancel anytime in your store settings. No surprises.'),
         scheduledDate: at,
-        notificationDetails: const NotificationDetails(
-          android: AndroidNotificationDetails('trial', 'Trial reminder', channelDescription: 'Tells you before your free trial ends', importance: Importance.high),
+        notificationDetails: NotificationDetails(
+          android: AndroidNotificationDetails('trial', tr('Trial reminder'), channelDescription: 'Tells you before your free trial ends', importance: Importance.high),
           iOS: _darwin,
         ),
         androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,

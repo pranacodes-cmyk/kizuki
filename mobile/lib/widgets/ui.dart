@@ -7,6 +7,7 @@ import '../services/analytics.dart';
 import '../theme/mascot_motion.dart';
 import '../theme/tokens.dart';
 import 'lively_mascot.dart';
+import '../i18n/i18n.dart';
 
 /// Shared UI primitives — mirrored from src/components/mimi/ui.tsx.
 
@@ -95,7 +96,7 @@ class _Button3DState extends State<Button3D> {
     }
     final has3d = v == BtnVariant.primary || v == BtnVariant.surface || v == BtnVariant.success;
     final depth = has3d ? (_down ? 1.0 : 4.0) : 0.0;
-    final content = widget.child ?? Text(widget.label ?? '', style: txt(widget.height >= 56 ? 17 : 15, w: FontWeight.w800, c: fg));
+    final content = widget.child ?? Text(tr(widget.label ?? ''), style: txt(widget.height >= 56 ? 17 : 15, w: FontWeight.w800, c: fg));
     return GestureDetector(
       onTapDown: enabled ? (_) => setState(() => _down = true) : null,
       onTapCancel: () => setState(() => _down = false),
@@ -210,7 +211,7 @@ class TopBar extends StatelessWidget {
         child: Row(children: [
           const SizedBox(width: 4),
           if (onBack != null) IconButton(onPressed: onBack, icon: const Icon(LucideIcons.chevronLeft, size: 28)) else const SizedBox(width: 48),
-          Expanded(child: Text(title ?? '', textAlign: TextAlign.center, maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(17, w: FontWeight.w800))),
+          Expanded(child: Text(tr(title ?? ''), textAlign: TextAlign.center, maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(17, w: FontWeight.w800))),
           SizedBox(width: 48, child: right),
           const SizedBox(width: 4),
         ]),
@@ -277,7 +278,7 @@ class Pill extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       decoration: BoxDecoration(color: bg, borderRadius: BorderRadius.circular(99)),
-      child: Text(text, textAlign: TextAlign.center, style: txt(14, w: FontWeight.w700, c: fg)),
+      child: Text(tr(text), textAlign: TextAlign.center, style: txt(14, w: FontWeight.w700, c: fg)),
     );
   }
 }
@@ -289,7 +290,7 @@ class SectionTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Padding(
         padding: const EdgeInsets.fromLTRB(4, 24, 4, 8),
-        child: Row(children: [Expanded(child: Text(text, style: txt(17, w: FontWeight.w800))), ?right]),
+        child: Row(children: [Expanded(child: Text(tr(text), style: txt(17, w: FontWeight.w800))), ?right]),
       );
 }
 
@@ -354,13 +355,13 @@ Future<void> confirmAppExit(BuildContext context) async {
     (ctx) => Column(mainAxisSize: MainAxisSize.min, children: [
       const Mascot(MascotPose.wave, size: 88),
       const SizedBox(height: 12),
-      Text('Leaving already?', textAlign: TextAlign.center, style: txt(20, w: FontWeight.w900)),
+      Text(tr('Leaving already?'), textAlign: TextAlign.center, style: txt(20, w: FontWeight.w900)),
       const SizedBox(height: 6),
-      Text('Your words and streak are saved. Kizuki will be right here when you come back.', textAlign: TextAlign.center, style: txt(14, c: T.muted)),
+      Text(tr('Your words and streak are saved. Kizuki will be right here when you come back.'), textAlign: TextAlign.center, style: txt(14, c: T.muted)),
       const SizedBox(height: 22),
-      Button3D(label: 'Stay', onPressed: () => Navigator.of(ctx).pop(false)),
+      Button3D(label: tr('Stay'), onPressed: () => Navigator.of(ctx).pop(false)),
       const SizedBox(height: 8),
-      Button3D(label: 'Exit app', variant: BtnVariant.ghost, height: 48, onPressed: () => Navigator.of(ctx).pop(true)),
+      Button3D(label: tr('Exit app'), variant: BtnVariant.ghost, height: 48, onPressed: () => Navigator.of(ctx).pop(true)),
     ]),
   );
   if (leave == true) await SystemNavigator.pop();
@@ -391,7 +392,7 @@ class _MascotLoaderState extends State<MascotLoader> with SingleTickerProviderSt
             child: const Mascot(MascotPose.listen, size: 96),
           ),
           const SizedBox(height: 12),
-          Text(widget.label, style: txt(15, c: T.muted)),
+          Text(tr(widget.label), style: txt(15, c: T.muted)),
         ]),
       );
 }
@@ -408,9 +409,9 @@ class ErrorState extends StatelessWidget {
           child: Column(mainAxisSize: MainAxisSize.min, children: [
             const Mascot(MascotPose.think, size: 96),
             const SizedBox(height: 8),
-            Text(title, textAlign: TextAlign.center, style: txt(18, w: FontWeight.w900)),
-            if (body != null) Padding(padding: const EdgeInsets.only(top: 6), child: Text(body!, textAlign: TextAlign.center, style: txt(15, w: FontWeight.w400, c: T.muted))),
-            if (onRetry != null) Padding(padding: const EdgeInsets.only(top: 16), child: Button3D(label: 'Try again', onPressed: onRetry, variant: BtnVariant.surface, height: 48, expand: false)),
+            Text(tr(title), textAlign: TextAlign.center, style: txt(18, w: FontWeight.w900)),
+            if (body != null) Padding(padding: const EdgeInsets.only(top: 6), child: Text(tr(body!), textAlign: TextAlign.center, style: txt(15, w: FontWeight.w400, c: T.muted))),
+            if (onRetry != null) Padding(padding: const EdgeInsets.only(top: 16), child: Button3D(label: tr('Try again'), onPressed: onRetry, variant: BtnVariant.surface, height: 48, expand: false)),
           ]),
         ),
       );

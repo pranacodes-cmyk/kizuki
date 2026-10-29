@@ -5,6 +5,34 @@
 import 'dart:math' as math;
 
 import '../data/models.dart';
+import '../i18n/i18n.dart';
+
+// Offline widget contract. Never includes notes, identity, tokens or card mutations.
+const widgetSlotMs = 2 * 60 * 60 * 1000;
+class WidgetWord {
+  final String key, word, reading, meaning, clipId, example;
+  final int jlpt, due;
+  final String status;
+  const WidgetWord({required this.key, required this.word, required this.reading, required this.meaning, this.clipId = '', this.example = '', this.jlpt = 5, this.due = 0, this.status = 'public'});
+  Map<String, dynamic> toJson() => {'key': key, 'word': word, 'reading': reading, 'meaning': meaning, 'clipId': clipId, 'example': example};
+}
+List<WidgetWord> widgetWords(List<WidgetWord> publicWords, List<WidgetWord> saved, String level, bool shareSaved, int now) {
+  final n = int.tryParse(level.replaceFirst('N', '')) ?? 5;
+  final eligible = publicWords.where((w) => w.jlpt >= n && w.word.isNotEmpty && w.meaning.isNotEmpty).toList()..sort((a, b) => a.key.compareTo(b.key));
+  final personal = shareSaved ? (saved.where((w) => w.status == 'learning' && w.word.isNotEmpty && w.meaning.isNotEmpty).toList()..sort((a, b) => a.due != b.due ? a.due.compareTo(b.due) : a.key.compareTo(b.key))) : <WidgetWord>[];
+  final pool = personal.isNotEmpty ? personal : eligible;
+  if (pool.isEmpty) return [];
+  final start = personal.isNotEmpty && personal.first.due <= now ? 0 : (now ~/ widgetSlotMs) % pool.length;
+  return List.generate(math.min(12, pool.length), (i) => pool[(start + i) % pool.length]);
+}
+String? widgetDestination(String link) {
+  final uri = Uri.tryParse(link);
+  if (uri == null || uri.scheme != 'kizuki' || uri.host != 'widget') return null;
+  if (uri.path == '/review') return '/review?deck=words';
+  if (uri.path != '/word') return null;
+  final id = uri.queryParameters['clip'];
+  return id != null && RegExp(r'^[A-Za-z0-9_-]+$').hasMatch(id) ? '/clip/$id' : '/vocab';
+}
 
 // ---------------------------------------------------------------------------
 // Onboarding answers
@@ -90,7 +118,7 @@ const _monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Se
 String goalDateLabel(DateTime now, int months) {
   final total = now.month - 1 + months;
   final year = now.year + total ~/ 12;
-  return '${_monthNames[total % 12]} $year';
+  return tr('{month} {year}', {'month': tr(_monthNames[total % 12]), 'year': year});
 }
 
 /// Window → reminder hour (local time).
@@ -110,13 +138,13 @@ int windowHour(String window) {
 String windowLabel(String window) {
   switch (window) {
     case 'morning':
-      return 'in the morning';
+      return tr('in the morning');
     case 'afternoon':
-      return 'in the afternoon';
+      return tr('in the afternoon');
     case 'evening':
-      return 'in the evening';
+      return tr('in the evening');
     default:
-      return 'at night';
+      return tr('at night');
   }
 }
 
@@ -194,7 +222,7 @@ PlanItem _challengeItem(String challenge, int streakGoal, String window) {
     case 'start':
       return const PlanItem('🧭', 'A clear daily path', 'Watch → save words → review. That\'s it.');
     case 'motivation':
-      return PlanItem('🔥', 'A $streakGoal-day streak goal', 'Friendly reminders ${windowLabel(window)}');
+      return PlanItem('🔥', tr('A {n}-day streak goal', {'n': streakGoal}), tr('Friendly reminders {when}', {'when': windowLabel(window)}));
     case 'grammar':
       return const PlanItem('🧩', 'Grammar in context', 'Every word explained in the sentence you heard');
     case 'speaking':
@@ -215,12 +243,12 @@ List<PlanItem> planItems({
   required int clipCount,
 }) {
   final items = <PlanItem>[
-    PlanItem('⏰', '$dailyMinutes-minute daily sessions', 'Bite-sized clips ${windowLabel(window)}'),
+    PlanItem('⏰', tr('{n}-minute daily sessions', {'n': dailyMinutes}), tr('Bite-sized clips {when}', {'when': windowLabel(window)})),
   ];
   items.add(_reasonItem(reasonList.isEmpty ? 'fun' : reasonList.first));
   items.add(_challengeItem(challengeList.isEmpty ? 'listening' : challengeList.first, streakGoal, window));
-  items.add(PlanItem('📈', '${wordsPerMonth(dailyMinutes)} new words a month', 'At $dailyMinutes minutes a day'));
-  items.add(PlanItem('🎬', '$clipCount clips picked for you', 'Matched to your level ($jlpt) and interests'));
+  items.add(PlanItem('📈', tr('{n} new words a month', {'n': wordsPerMonth(dailyMinutes)}), tr('At {n} minutes a day', {'n': dailyMinutes})));
+  items.add(PlanItem('🎬', tr('{n} clips picked for you', {'n': clipCount}), tr('Matched to your level ({jlpt}) and interests', {'jlpt': jlpt})));
   return items;
 }
 
@@ -265,7 +293,7 @@ bool subscriptionAccess(bool active, int? expiresAt, int? trialEndsAt, int now) 
   final end = expiresAt ?? trialEndsAt;
   return active && (end == null || end > now);
 }
-bool learningPath(String path) => !['/account', '/settings', '/support', '/terms', '/privacy', '/trial', '/profile', '/achievements'].contains(path);
+bool learningPath(String path) => !['/account', '/settings', '/language', '/widgets', '/support', '/terms', '/privacy', '/trial', '/profile', '/achievements'].contains(path);
 bool onboardingPath(String path) => ['/', '/onboarding', '/building', '/plan', '/founder'].contains(path);
 bool accountNeedsOnboarding(bool fromWelcome, bool onboarded, bool premiumAccess) => fromWelcome && !onboarded && !premiumAccess;
 String subscriptionPhase(bool active, String? plan, int? trialEndsAt, int now) =>
@@ -435,19 +463,19 @@ String formatInterval(int ms) {
 /// Plain-English time until the next practice ("now", "in 10 minutes", "tomorrow", "in 3 days")
 /// for learner-facing text — mirrors formatWhen in logic.ts.
 String formatWhen(int ms) {
-  String n(int v, String unit) => 'in $v $unit${v == 1 ? '' : 's'}';
-  if (ms <= 0) return 'now';
-  if (ms < minuteMs) return 'in under a minute';
-  if (ms < 60 * minuteMs) return n((ms / minuteMs).round().clamp(1, 59), 'minute');
+  String n(int v, String one, String other) => tr(v == 1 ? one : other, {'n': v});
+  if (ms <= 0) return tr('now');
+  if (ms < minuteMs) return tr('in under a minute');
+  if (ms < 60 * minuteMs) return n((ms / minuteMs).round().clamp(1, 59), 'in {n} minute', 'in {n} minutes');
   if (ms < dayMs) {
     final h = (ms / (60 * minuteMs)).round();
-    return h >= 24 ? 'tomorrow' : n(h, 'hour');
+    return h >= 24 ? tr('tomorrow') : n(h, 'in {n} hour', 'in {n} hours');
   }
   final days = ms / dayMs;
-  if (days < 1.5) return 'tomorrow';
-  if (days < 30) return n(days.round(), 'day');
-  if (days < 365) return n((days / 30).round(), 'month');
-  return n((days / 365).round(), 'year');
+  if (days < 1.5) return tr('tomorrow');
+  if (days < 30) return n(days.round(), 'in {n} day', 'in {n} days');
+  if (days < 365) return n((days / 30).round(), 'in {n} month', 'in {n} months');
+  return n((days / 365).round(), 'in {n} year', 'in {n} years');
 }
 
 String nextIntervalLabel(Card c, String grade, int now) => grade == 'again' ? '1m' : formatInterval(answerCard(c, grade, now).due - now);
@@ -538,13 +566,22 @@ const tourWordPos = ['noun', 'verb', 'adj', 'i-adj', 'na-adj', 'adverb'];
   return null;
 }
 
+/// Meaning shown for a saved word. It was saved in the app language of that moment (older saves:
+/// English); after a language switch the dictionary's meaning in the current language replaces it,
+/// and without one the saved meaning stays.
+String savedGloss(String gloss, String? glossLang, String? dictGloss, String lang) {
+  if ((glossLang == null || glossLang.isEmpty ? 'en' : glossLang) == lang) return gloss;
+  return dictGloss != null && dictGloss.isNotEmpty ? dictGloss : gloss;
+}
+
 /// True when an in-clip meaning only repeats the dictionary's first sense ("every day" vs
 /// "every day; daily"), so a card shows the meaning once. Empty meanings count as repeats.
 bool repeatsSense(String gloss, String? sense) {
   String norm(String x) => x
       .toLowerCase()
       .replaceAll(RegExp(r'\([^)]*\)'), ' ')
-      .replaceAll(RegExp(r"[^a-z0-9' ]+"), ' ')
+      // Letters, marks and digits of every script count (Thai vowels are marks; Vietnamese tones stay).
+      .replaceAll(RegExp(r"[^\p{L}\p{M}\p{N}' ]+", unicode: true), ' ')
       .replaceAll(RegExp(r'\s+'), ' ')
       .trim();
   final g = norm(gloss);
@@ -1194,4 +1231,212 @@ String? contentNotesProblem(Object? shard) {
     }
   }
   return null;
+}
+
+// ---------------------------------------------------------------- learner languages
+// The app speaks the learner's language (interface + clip translations + explanations).
+// English is bundled and always the fallback; mirrors src/lib/logic.ts.
+
+class Language {
+  final String code, flag, native, english;
+  const Language(this.code, this.flag, this.native, this.english);
+}
+
+const languages = [
+  Language('en', '🇺🇸', 'English', 'English'),
+  Language('vi', '🇻🇳', 'Tiếng Việt', 'Vietnamese'),
+  Language('id', '🇮🇩', 'Bahasa Indonesia', 'Indonesian'),
+  Language('th', '🇹🇭', 'ภาษาไทย', 'Thai'),
+  Language('ko', '🇰🇷', '한국어', 'Korean'),
+  Language('pt', '🇧🇷', 'Português (Brasil)', 'Portuguese (Brazil)'),
+];
+
+bool isLangCode(Object? x) => x is String && languages.any((l) => l.code == x);
+
+/// Language suggested by the phone locale ("vi-VN", "in_ID", "pt-PT"…); English otherwise.
+String languageForLocale(String? tag) {
+  final base = (tag ?? '').toLowerCase().replaceAll('_', '-').split('-').first;
+  if (base == 'in') return 'id'; // older Android code for Indonesian
+  return isLangCode(base) ? base : 'en';
+}
+
+/// Fills `{name}` placeholders of a translated string; unknown names stay as written.
+String fillTemplate(String text, [Map<String, Object?>? vars]) {
+  if (vars == null) return text;
+  return text.replaceAllMapped(RegExp(r'\{(\w+)\}'), (m) => vars.containsKey(m[1]) ? '${vars[m[1]]}' : m[0]!);
+}
+
+/// Splits text on its [highlighted] part, so each language can place the highlight where its
+/// grammar puts it ("Try Kizuki [free] for 7 days"). Pairs are (text, highlighted).
+List<(String, bool)> highlightParts(String text) {
+  final out = <(String, bool)>[];
+  var i = 0;
+  for (final m in RegExp(r'\[([^\[\]]*)\]').allMatches(text)) {
+    if (m.start > i) out.add((text.substring(i, m.start), false));
+    if (m[1]!.isNotEmpty) out.add((m[1]!, true));
+    i = m.end;
+  }
+  if (i < text.length) out.add((text.substring(i), false));
+  return out;
+}
+
+/// Files that hold a language pack's explanation notes (clips spread by id).
+const localeNoteShards = 32;
+
+int localeNoteShard(String clipId) => fnv1a(clipId) % localeNoteShards;
+
+/// Fingerprint of a clip's Japanese text + word split. A translation made for other words
+/// (the clip was regenerated) never shows: the clip stays in English until re-translated.
+String clipLocaleSig(List<Line> lines) => fnv1a(lines.map((l) => '${l.ja}|${l.words.map((w) => w.s).join(' ')}').join('\n')).toRadixString(16).padLeft(8, '0');
+
+/// Whether to download a language pack now: a non-English language, learning access (trial or
+/// Premium — nobody downloads before deciding to learn) and a pack newer than the installed one.
+bool localePackDue(String lang, bool hasAccess, int installed, int? latest) => lang != 'en' && hasAccess && latest != null && latest > installed;
+
+/// Wait before the next download attempt after [failures] failed ones: 5 s doubling, max 30 min.
+int localeRetryDelayMs(int failures) {
+  final f = failures < 0 ? 0 : (failures > 20 ? 20 : failures);
+  final ms = 5000 * (1 << f);
+  return ms > 30 * 60000 ? 30 * 60000 : ms;
+}
+
+class LocalePackFile {
+  final String name, sha256;
+  final int bytes;
+  const LocalePackFile(this.name, this.sha256, this.bytes);
+  Map<String, Object> toJson() => {'name': name, 'sha256': sha256, 'bytes': bytes};
+}
+
+class LocalePackManifest {
+  final String lang;
+  final int version;
+  final List<LocalePackFile> files;
+  const LocalePackManifest(this.lang, this.version, this.files);
+  Map<String, Object> toJson() => {'lang': lang, 'version': version, 'files': [for (final f in files) f.toJson()]};
+}
+
+final _localeFile = RegExp(r'^(lines|dict|grammar|notes-\d{2})\.json$');
+final _sha256 = RegExp(r'^[0-9a-f]{64}$');
+
+/// The validated manifest of a language pack, or null: right language and version, every file
+/// named once with a sha-256 and size, all required files present.
+LocalePackManifest? localePackManifest(Object? raw, String lang, int version) {
+  if (raw is! Map || raw['lang'] != lang || raw['version'] != version || raw['files'] is! List) return null;
+  final files = <LocalePackFile>[];
+  final names = <String>{};
+  for (final f in raw['files'] as List) {
+    if (f is! Map || f['name'] is! String || !_localeFile.hasMatch(f['name'] as String) || names.contains(f['name'])) return null;
+    if (f['sha256'] is! String || !_sha256.hasMatch(f['sha256'] as String)) return null;
+    if (f['bytes'] is! int || (f['bytes'] as int) <= 0) return null;
+    names.add(f['name'] as String);
+    files.add(LocalePackFile(f['name'] as String, f['sha256'] as String, f['bytes'] as int));
+  }
+  for (final need in ['lines.json', 'dict.json', 'grammar.json']) {
+    if (!names.contains(need)) return null;
+  }
+  for (var i = 0; i < localeNoteShards; i++) {
+    if (!names.contains('notes-${i.toString().padLeft(2, '0')}.json')) return null;
+  }
+  return LocalePackManifest(lang, version, files);
+}
+
+/// Problem with a language pack file's parsed JSON, or null.
+String? localeFileProblem(String name, Object? j) {
+  if (j is! Map) return 'shape';
+  bool strs(Object? x) => x is List && x.every((e) => e is String);
+  if (name == 'lines.json') {
+    for (final v in j.values) {
+      if (v is! Map || v['s'] is! String || v['t'] is! String || !strs(v['l'])) return 'lines';
+    }
+    return j.isNotEmpty ? null : 'lines';
+  }
+  if (name == 'dict.json') {
+    for (final v in j.values) {
+      if (v is! Map || !strs(v['m']) || !strs(v['ex'])) return 'dict';
+    }
+    return j.isNotEmpty ? null : 'dict';
+  }
+  if (name == 'grammar.json') return j.values.every((v) => v is String) ? null : 'grammar';
+  for (final v in j.values) {
+    if (v is! Map || v['s'] is! String || v['w'] is! Map || v['l'] is! Map) return 'notes';
+    for (final x in (v['w'] as Map).values) {
+      if (x is! Map || x['m'] is! String || x['n'] is! String) return 'notes';
+    }
+    for (final x in (v['l'] as Map).values) {
+      if (x is! Map || x['lit'] is! String || x['tip'] is! String) return 'notes';
+    }
+  }
+  return null;
+}
+
+/// Where a language pack lives, from the public content_settings.locale_packs row:
+/// `{vi: {v: 3, urls: [primary manifest, mirror manifest]}}`. Null = no pack (English content).
+class LocalePackPointer {
+  final int version;
+  final List<String> urls;
+  const LocalePackPointer(this.version, this.urls);
+}
+
+LocalePackPointer? localePackPointer(Object? raw, String lang) {
+  if (lang == 'en' || raw is! Map) return null;
+  final e = raw[lang];
+  if (e is! Map || !_isWhole(e['v']) || (e['v'] as num) < 1 || e['urls'] is! List) return null;
+  final list = e['urls'] as List;
+  if (list.isEmpty || list.length > 3) return null;
+  final urls = [for (final u in list) founderVideoUrl(u)];
+  if (urls.any((u) => u == null)) return null;
+  return LocalePackPointer((e['v'] as num).toInt(), urls.cast<String>());
+}
+
+/// A clip in the learner's language: title + line translations only when the pack was made for
+/// exactly this clip (fingerprint and line count), grammar descriptions by their English text.
+/// Anything missing or empty stays English. Mirrors localizeClip in logic.ts.
+Clip localizeClip(Clip clip, Map? entry, Map? grammar) {
+  final g = grammar == null ? clip.grammar : [for (final x in clip.grammar) (grammar[x] is String && (grammar[x] as String).isNotEmpty) ? grammar[x] as String : x];
+  final l = entry?['l'];
+  final fits = entry != null && entry['s'] == clipLocaleSig(clip.lines) && entry['t'] is String && l is List && l.length == clip.lines.length && l.every((x) => x is String);
+  if (!fits && grammar == null) return clip;
+  String pick(Object? t, String en) => t is String && t.trim().isNotEmpty ? t.trim() : en;
+  return Clip(
+    id: clip.id, videoId: clip.videoId, level: clip.level, start: clip.start, end: clip.end, topics: clip.topics, quality: clip.quality, still: clip.still,
+    title: fits ? pick(entry['t'], clip.title) : clip.title,
+    grammar: g,
+    lines: !fits ? clip.lines : [
+      for (var i = 0; i < clip.lines.length; i++)
+        Line(start: clip.lines[i].start, end: clip.lines[i].end, en: pick(l[i], clip.lines[i].en), sp: clip.lines[i].sp, ja: clip.lines[i].ja, words: clip.lines[i].words),
+    ],
+  );
+}
+
+/// A dictionary entry in the learner's language when sense and example counts match.
+DictEntry localizeEntry(DictEntry e, Map? d) {
+  final m = d?['m'], ex = d?['ex'];
+  if (m is! List || ex is! List || m.length != e.m.length || ex.length != e.ex.length) return e;
+  String pick(Object? t, String en) => t is String && t.trim().isNotEmpty ? t.trim() : en;
+  return DictEntry(
+    w: e.w, r: e.r, j: e.j, c: e.c,
+    m: [for (var i = 0; i < e.m.length; i++) Sense(e.m[i].pos, pick(m[i], e.m[i].g))],
+    ex: [for (var i = 0; i < e.ex.length; i++) Example(e.ex[i].ja, pick(ex[i], e.ex[i].en))],
+  );
+}
+
+/// A clip's explanations in the learner's language, only for the clip they were made for.
+ClipNotes localizeNotes(ClipNotes notes, Map? n, String sig) {
+  if (n == null || n['s'] != sig || n['w'] is! Map || n['l'] is! Map) return notes;
+  final tw = n['w'] as Map, tl = n['l'] as Map;
+  String s(Object? x) => x is String ? x.trim() : '';
+  return ClipNotes({
+    for (final e in notes.words.entries)
+      e.key: (() {
+        final t = tw[e.key];
+        return t is Map && s(t['m']).isNotEmpty && s(t['n']).isNotEmpty ? WordNote(s(t['m']), s(t['n'])) : e.value;
+      })(),
+  }, {
+    for (final e in notes.lines.entries)
+      e.key: (() {
+        final t = tl[e.key];
+        if (t is! Map) return e.value;
+        return LineNote(e.value.lit.isEmpty || s(t['lit']).isEmpty ? e.value.lit : s(t['lit']), e.value.tip.isEmpty || s(t['tip']).isEmpty ? e.value.tip : s(t['tip']));
+      })(),
+  });
 }

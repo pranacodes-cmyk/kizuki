@@ -16,7 +16,8 @@ import { useTour } from "@/lib/tour-store";
 import { cn } from "@/lib/utils";
 
 import { Mascot } from "./Mascot";
-import { Button, Sheet } from "./ui";
+import { Button, Hi, Sheet } from "./ui";
+import { getLang, tr } from "@/lib/i18n";
 
 export function AskSheet({ open, onClose, context }: { open: boolean; onClose: () => void; context: AskContext }) {
   const touring = useTour((s) => s.index != null);
@@ -61,7 +62,7 @@ function AskChat({ context, onClose, tourExample }: { context: AskContext; onClo
           const token = data.session?.access_token;
           const turns = askHistory(messages.map((m) => ({ id: m.id, role: m.role === "user" ? ("user" as const) : ("assistant" as const), text: textOf(m) })));
           return {
-            body: { context, messages: turns.map((t) => ({ id: t.id, role: t.role, parts: [{ type: "text", text: t.text }] })) },
+            body: { context: { ...context, lang: getLang() }, messages: turns.map((t) => ({ id: t.id, role: t.role, parts: [{ type: "text", text: t.text }] })) },
             headers: token ? { Authorization: `Bearer ${token}` } : {},
           };
         },
@@ -114,9 +115,9 @@ function AskChat({ context, onClose, tourExample }: { context: AskContext; onClo
       <div className="flex items-center gap-3 px-5 pt-1.5">
         <Mascot pose="think" className="h-11 w-11 shrink-0" />
         <div className="min-w-0 flex-1">
-          <p className="text-[1.125rem] font-black">Ask Kizuki</p>
+          <p className="text-[1.125rem] font-black">{tr("Ask Kizuki")}</p>
           <p className="text-[0.8125rem] font-bold text-muted-foreground">
-            {context.word ? <>About <span className="font-jp text-foreground">{context.word.head}</span> in this line</> : "About this line"}
+            {context.word ? <Hi text={tr("About [{word}] in this line", { word: context.word.head })} className="font-jp text-foreground" /> : tr("About this line")}
           </p>
         </div>
       </div>
@@ -127,20 +128,19 @@ function AskChat({ context, onClose, tourExample }: { context: AskContext; onClo
 
       {tourExample ? (
         <div className="min-h-0 flex-1 overflow-y-auto px-5 pb-3 pt-3.5 no-scrollbar">
-          <p className="mb-2.5 text-[0.6875rem] font-extrabold text-muted-foreground">EXAMPLE · NO QUESTION SENT</p>
-          <UserBubble text="What does this word mean here?" />
+          <p className="mb-2.5 text-[0.6875rem] font-extrabold text-muted-foreground">{tr("EXAMPLE · NO QUESTION SENT")}</p>
+          <UserBubble text={tr("What does this word mean here?")} />
           <Bubble text={context.word?.gloss
-            ? `**${context.word.surface}** here means **${context.word.gloss}**.\nThe sentence above shows the context.`
-            : context.line.en ? `This line means: **${context.line.en}**` : "Ask about grammar, meaning or another example from this line."} />
+            ? tr("**{surface}** here means **{gloss}**.\nThe sentence above shows the context.", { surface: context.word.surface, gloss: context.word.gloss })
+            : context.line.en ? tr("This line means: **{en}**", { en: context.line.en }) : tr("Ask about grammar, meaning or another example from this line.")} />
         </div>
       ) : !signedIn ? (
         <div className="flex-1 overflow-y-auto px-6 pb-4 pt-5 text-center no-scrollbar">
           <Mascot pose="wave" className="mx-auto h-24 w-24" />
-          <p className="mt-3 text-[1.25rem] font-black">Ask Kizuki anything</p>
+          <p className="mt-3 text-[1.25rem] font-black">{tr("Ask Kizuki anything")}</p>
           <p className="mt-1.5 text-[0.9375rem] font-medium leading-snug text-muted-foreground">
-            Sign in with your Premium account to ask about this line. Your words and streak sync too.
-          </p>
-          <Button className="mt-4 h-[52px]" onClick={() => go("/account")}>Sign in</Button>
+            {tr("Sign in with your Premium account to ask about this line. Your words and streak sync too.")}</p>
+          <Button className="mt-4 h-[52px]" onClick={() => go("/account")}>{tr("Sign in")}</Button>
         </div>
       ) : (
         <>
@@ -159,16 +159,16 @@ function AskChat({ context, onClose, tourExample }: { context: AskContext; onClo
               <div className="mb-2.5 ml-10 flex items-center gap-2 rounded-2xl bg-danger-soft py-2.5 pl-3.5 pr-2">
                 <CircleAlert className="h-4 w-4 shrink-0 text-danger" />
                 <p className="min-w-0 flex-1 text-[0.875rem] font-semibold leading-snug">{errorText}</p>
-                <button onClick={retry} className="press px-2 py-1.5 text-[0.875rem] font-black text-primary">Try again</button>
+                <button onClick={retry} className="press px-2 py-1.5 text-[0.875rem] font-black text-primary">{tr("Try again")}</button>
               </div>
             )}
           </div>
 
           {left === 0 && !busy ? (
             <div className="mx-4 mb-2 mt-1 rounded-2xl bg-primary/10 px-4 py-3.5 text-center">
-              <p className="text-[0.9375rem] font-black">Premium is required to ask Kizuki</p>
-              <p className="mt-0.5 text-[0.8125rem] font-medium text-muted-foreground">Premium gives you unlimited answers from Kizuki.</p>
-              <Button className="mt-2.5 h-12" onClick={() => go("/trial")}>See plans</Button>
+              <p className="text-[0.9375rem] font-black">{tr("Premium is required to ask Kizuki")}</p>
+              <p className="mt-0.5 text-[0.8125rem] font-medium text-muted-foreground">{tr("Premium gives you unlimited answers from Kizuki.")}</p>
+              <Button className="mt-2.5 h-12" onClick={() => go("/trial")}>{tr("See plans")}</Button>
             </div>
           ) : (
             <form
@@ -182,16 +182,16 @@ function AskChat({ context, onClose, tourExample }: { context: AskContext; onClo
                 disabled={busy}
                 rows={1}
                 maxLength={ASK_MAX_CHARS}
-                aria-label="Your question"
-                placeholder={context.word ? "Ask about this word…" : "Ask about this line…"}
+                aria-label={tr("Your question")}
+                placeholder={context.word ? tr("Ask about this word…") : tr("Ask about this line…")}
                 className="max-h-28 min-h-[44px] flex-1 resize-none rounded-[22px] border-2 border-border bg-surface-2 px-4 py-2.5 text-[0.9375rem] font-medium outline-none placeholder:text-faint focus:border-primary disabled:opacity-70"
               />
               {busy ? (
-                <button type="button" aria-label="Stop answer" onClick={() => void stop()} className="press flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-surface-2">
+                <button type="button" aria-label={tr("Stop answer")} onClick={() => void stop()} className="press flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-surface-2">
                   <Square className="h-4 w-4" fill="currentColor" />
                 </button>
               ) : (
-                <button type="submit" aria-label="Send question" disabled={empty} className={cn("press flex h-11 w-11 shrink-0 items-center justify-center rounded-full", empty ? "bg-primary-dim text-primary-dim-foreground" : "bg-primary text-primary-foreground")}>
+                <button type="submit" aria-label={tr("Send question")} disabled={empty} className={cn("press flex h-11 w-11 shrink-0 items-center justify-center rounded-full", empty ? "bg-primary-dim text-primary-dim-foreground" : "bg-primary text-primary-foreground")}>
                   <ArrowUp className="h-5 w-5" strokeWidth={3} />
                 </button>
               )}
@@ -200,8 +200,7 @@ function AskChat({ context, onClose, tourExample }: { context: AskContext; onClo
           {/* There are no free questions any more: the Premium card explains access. */}
           {left === null && (
             <p className="px-5 pb-1.5 text-center text-[0.6875rem] font-semibold text-faint">
-              AI answers can be wrong — double-check anything important.
-            </p>
+              {tr("AI answers can be wrong — double-check anything important.")}</p>
           )}
         </>
       )}
@@ -236,8 +235,7 @@ function Bubble({ text = "", thinking = false }: { text?: string; thinking?: boo
             <span className="flex gap-1">
               {[0, 1, 2].map((i) => <span key={i} className="h-1.5 w-1.5 animate-pulse rounded-full bg-muted-foreground" style={{ animationDelay: `${i * 160}ms` }} />)}
             </span>
-            Kizuki is thinking…
-          </span>
+            {tr("Kizuki is thinking…")}</span>
         ) : (
           <AskText text={text} />
         )}

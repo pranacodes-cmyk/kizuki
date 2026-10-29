@@ -7,6 +7,7 @@ import '../theme/mascot_motion.dart';
 import '../theme/tokens.dart';
 import 'lively_mascot.dart';
 import 'ui.dart';
+import '../i18n/i18n.dart';
 
 /// Animated splash over the first screen on a cold start — mirrors Splash in AppFrame.tsx.
 /// It starts on exactly what the phone's own launch screen shows (the fox face, [splashFace]
@@ -100,7 +101,7 @@ class _SplashOverlayState extends State<SplashOverlay> with SingleTickerProvider
                       child: Transform.translate(
                         offset: Offset(0, f.taglineDy),
                         child: Text.rich(
-                          TextSpan(children: [TextSpan(text: '気づき', style: jp(14, c: T.primary)), const TextSpan(text: '  ·  the moment it clicks')]),
+                          TextSpan(children: [TextSpan(text: '気づき', style: jp(14, c: T.primary)), TextSpan(text: '  ·  ${tr('the moment it clicks')}')]),
                           style: txt(14, w: FontWeight.w700, c: T.muted),
                         ),
                       ),

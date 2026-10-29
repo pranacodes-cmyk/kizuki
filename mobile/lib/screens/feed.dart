@@ -14,6 +14,7 @@ import '../widgets/feed_header.dart';
 import '../widgets/feed_pager.dart';
 import '../widgets/tour.dart';
 import '../widgets/ui.dart';
+import '../i18n/i18n.dart';
 import 'plan.dart' show feedOrder;
 
 /// For You feed: vertical swipe through personal clips — mirrors src/routes/_app/feed.tsx.
@@ -98,13 +99,13 @@ class _LimitCard extends StatelessWidget {
         child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
           const Mascot(MascotPose.heart, size: 128),
           const SizedBox(height: 12),
-          Text('You watched your $freeDailyClips free clips today!', textAlign: TextAlign.center, style: txt(24, w: FontWeight.w900, h: 1.2)),
+          Text(tr('You watched your {n} free clips today!', {'n': freeDailyClips}), textAlign: TextAlign.center, style: txt(24, w: FontWeight.w900, h: 1.2)),
           const SizedBox(height: 8),
-          Text('Great work. Review your words now, or unlock unlimited clips with a free week of Premium.', textAlign: TextAlign.center, style: txt(15, w: FontWeight.w400, c: T.muted)),
+          Text(tr('Great work. Review your words now, or unlock unlimited clips with a free week of Premium.'), textAlign: TextAlign.center, style: txt(15, w: FontWeight.w400, c: T.muted)),
           const SizedBox(height: 24),
-          Button3D(label: 'Try Premium free', onPressed: () => context.push('/trial')),
+          Button3D(label: tr('Try Premium free'), onPressed: () => context.push('/trial')),
           const SizedBox(height: 12),
-          Button3D(label: 'Review my words', variant: BtnVariant.surface, onPressed: () => context.go('/vocab')),
+          Button3D(label: tr('Review my words'), variant: BtnVariant.surface, onPressed: () => context.go('/vocab')),
         ]),
       );
 }

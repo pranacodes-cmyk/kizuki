@@ -7,6 +7,7 @@ import '../theme/tokens.dart';
 import 'tour.dart';
 import 'ui.dart';
 import 'word_level.dart';
+import '../i18n/i18n.dart';
 
 /// Index of the line being spoken (last line whose start ≤ t), -1 before the first line.
 int activeLineIndex(m.Clip clip, double t) {
@@ -109,7 +110,7 @@ class Transcript extends StatelessWidget {
                       right: -32,
                       top: -2,
                       child: IconButton(
-                        tooltip: 'Line options',
+                        tooltip: tr('Line options'),
                         visualDensity: VisualDensity.compact,
                         onPressed: () => onLineMenu(li),
                         icon: const Icon(LucideIcons.ellipsisVertical, size: 16, color: T.faint),

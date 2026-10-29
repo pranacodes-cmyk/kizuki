@@ -6,6 +6,7 @@ import '../logic/logic.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import 'ui.dart';
+import '../i18n/i18n.dart';
 
 /// Word level colours (Kiku's colour legend): 1 bright orange fading to brown by 4,
 /// green when known, red when ignored — mirrors levelColor in WordLevel.tsx.
@@ -27,7 +28,7 @@ class LevelBadge extends StatelessWidget {
   Widget build(BuildContext context) {
     final fg = level >= 1 && level <= 2 ? T.primaryFg : (level == 5 || level == 0 ? T.stage : T.foreground);
     return Semantics(
-      label: 'Level: ${(level >= 1 && level <= 4 ? 'Learning' : wordLevelInfo(level).label)}',
+      label: tr('Level: {level}', {'level': (level >= 1 && level <= 4 ? tr('Learning') : tr(wordLevelInfo(level).label))}),
       child: Container(
         width: size,
         height: size,
@@ -59,7 +60,7 @@ class LevelPill extends StatelessWidget {
     final level = wordLevel(status: w.status, card: w.card);
     return Semantics(
       button: true,
-      label: 'Word level: ${(level >= 1 && level <= 4 ? 'Learning' : wordLevelInfo(level).label)}. Change',
+      label: tr('Word level: {level}. Change', {'level': (level >= 1 && level <= 4 ? tr('Learning') : tr(wordLevelInfo(level).label))}),
       child: Press(
         onTap: () async {
           final r = await showWordLevelSheet(context, wordKey: wordKey, word: word);
@@ -73,7 +74,7 @@ class LevelPill extends StatelessWidget {
           child: Row(mainAxisSize: MainAxisSize.min, children: [
             LevelBadge(level: level, size: 26),
             const SizedBox(width: 8),
-            Flexible(child: Text((level >= 1 && level <= 4 ? 'Learning' : wordLevelInfo(level).label), maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(15, w: FontWeight.w800, c: level == 0 ? T.muted : T.foreground))),
+            Flexible(child: Text((level >= 1 && level <= 4 ? tr('Learning') : wordLevelInfo(level).label), maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(15, w: FontWeight.w800, c: level == 0 ? T.muted : T.foreground))),
             const SizedBox(width: 4),
             const Icon(LucideIcons.chevronDown, size: 16, color: T.muted),
           ]),
@@ -100,12 +101,12 @@ class _WordLevelSheet extends StatelessWidget {
     if (w == null) return const SizedBox.shrink();
     final current = wordLevel(status: w.status, card: w.card);
     final now = DateTime.now().millisecondsSinceEpoch;
-    final review = current >= 1 && current <= 4 ? 'Next practice: ${formatWhen(w.card.due - now)}' : null;
+    final review = current >= 1 && current <= 4 ? tr('Next practice: {when}', {'when': formatWhen(w.card.due - now)}) : null;
     return SingleChildScrollView(
       padding: const EdgeInsets.fromLTRB(20, 8, 20, 12),
       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
         Text.rich(
-          TextSpan(children: [const TextSpan(text: 'How well do you know '), TextSpan(text: word, style: jp(20, w: FontWeight.w900)), const TextSpan(text: '?')]),
+          TextSpan(children: trSpans('How well do you know [{word}]?', jp(20, w: FontWeight.w900), {'word': word})),
           style: txt(20, w: FontWeight.w900),
         ),
         if (review != null) Padding(padding: const EdgeInsets.only(top: 4), child: Text(review, style: txt(14, w: FontWeight.w700, c: T.muted))),
@@ -116,7 +117,7 @@ class _WordLevelSheet extends StatelessWidget {
             child: Semantics(
               button: true,
               selected: (l.level == 1 ? current >= 1 && current <= 4 : l.level == current),
-              label: '${l.label}. ${l.hint}',
+              label: '${tr(l.label)}. ${tr(l.hint)}',
               child: Press(
                 onTap: () {
                   if (!(l.level == 1 && current >= 1 && current <= 4)) app.setWordLevel(wordKey, l.level);
@@ -134,8 +135,8 @@ class _WordLevelSheet extends StatelessWidget {
                     const SizedBox(width: 12),
                     Expanded(
                       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                        Text(l.level == 1 ? 'Learning' : l.label, style: txt(16, w: FontWeight.w800)),
-                        Text(l.level == 1 ? 'Keep this word in my reviews' : l.level == 5 ? 'I know this word' : 'Leave this word out', style: txt(13, w: FontWeight.w600, c: T.muted)),
+                        Text(l.level == 1 ? tr('Learning') : l.label, style: txt(16, w: FontWeight.w800)),
+                        Text(l.level == 1 ? tr('Keep this word in my reviews') : l.level == 5 ? tr('I know this word') : tr('Leave this word out'), style: txt(13, w: FontWeight.w600, c: T.muted)),
                       ]),
                     ),
                     if ((l.level == 1 ? current >= 1 && current <= 4 : l.level == current)) const Icon(LucideIcons.check, size: 20, color: T.primary),
@@ -147,7 +148,7 @@ class _WordLevelSheet extends StatelessWidget {
         const Divider(height: 20, color: T.border),
         Semantics(
           button: true,
-          label: 'Remove from Vocab',
+          label: tr('Remove from Vocab'),
           child: Press(
             onTap: () {
               app.removeWord(wordKey);
@@ -158,7 +159,7 @@ class _WordLevelSheet extends StatelessWidget {
               child: Row(children: [
                 const SizedBox(width: 30, child: Icon(LucideIcons.trash2, size: 20, color: T.danger)),
                 const SizedBox(width: 12),
-                Text('Remove from Vocab', style: txt(16, w: FontWeight.w800, c: T.danger)),
+                Text(tr('Remove from Vocab'), style: txt(16, w: FontWeight.w800, c: T.danger)),
               ]),
             ),
           ),

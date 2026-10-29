@@ -12,6 +12,7 @@ import { reviews } from "@/lib/onboarding";
 import { prefetchFounderVideo } from "@/lib/onboarding-settings";
 import { useApp } from "@/lib/store";
 import { cn } from "@/lib/utils";
+import { tr } from "@/lib/i18n";
 
 export const Route = createFileRoute("/building")({
   head: () => ({
@@ -47,7 +48,7 @@ function Building() {
   const [done, setDone] = useState(false);
   const [review, setReview] = useState(0);
   const last = useRef(0);
-  const steps = ["Matching clips to your interests…", `Picking scenes at your level (${jlpt})…`, `Fitting it into ${minutes} minutes a day…`, "Setting up your reminders…"];
+  const steps = [tr("Matching clips to your interests…"), tr("Picking scenes at your level ({jlpt})…", { jlpt }), tr("Fitting it into {minutes} minutes a day…", { minutes }), tr("Setting up your reminders…")];
 
   useEffect(() => {
     prefetchFounderVideo();
@@ -76,7 +77,7 @@ function Building() {
 
   const r = reviews[review] ?? reviews[0];
   if (!r) return null;
-  const step = done ? "All set — opening your plan" : steps[Math.min(steps.length - 1, Math.floor((pct / 100) * steps.length))];
+  const step = done ? tr("All set — opening your plan") : steps[Math.min(steps.length - 1, Math.floor((pct / 100) * steps.length))];
   const v = pct / 100;
   const head = { x: 116 + RING_R * Math.cos(2 * Math.PI * v), y: 116 + RING_R * Math.sin(2 * Math.PI * v) };
 
@@ -108,8 +109,8 @@ function Building() {
             <LivelyMascot pose={done ? "cheer" : "listen"} size={140} idle={done ? "breathe" : "groove"} hopKey={done} />
           </div>
         </div>
-        <p className="tabular mt-3 text-[2.125rem] font-black leading-none text-primary" role="progressbar" aria-valuenow={pct} aria-valuemin={0} aria-valuemax={100} aria-label="Plan progress">{pct}%</p>
-        <h1 className="mt-2 text-[1.625rem] font-black leading-tight">Building your personal plan</h1>
+        <p className="tabular mt-3 text-[2.125rem] font-black leading-none text-primary" role="progressbar" aria-valuenow={pct} aria-valuemin={0} aria-valuemax={100} aria-label={tr("Plan progress")}>{pct}%</p>
+        <h1 className="mt-2 text-[1.625rem] font-black leading-tight">{tr("Building your personal plan")}</h1>
         <div className="relative mt-2 h-11 w-full">
           <AnimatePresence initial={false}>
             <motion.p
@@ -129,7 +130,7 @@ function Building() {
         <AnimatePresence mode="wait">
           <motion.div key={review} initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -16 }} transition={{ duration: 0.35 }} className="absolute inset-0 rounded-3xl bg-surface p-5">
             <div className="flex gap-0.5">{Array.from({ length: r.stars }).map((_, i) => <Star key={i} className="h-4 w-4 fill-gold text-gold" />)}</div>
-            <p className="mt-2 text-[0.9375rem] font-bold leading-snug">“{r.text}”</p>
+            <p className="mt-2 text-[0.9375rem] font-bold leading-snug">“{tr(r.text)}”</p>
             <p className="mt-2 text-[0.8125rem] font-bold text-muted-foreground">— {r.name}</p>
           </motion.div>
         </AnimatePresence>

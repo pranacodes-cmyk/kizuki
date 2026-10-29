@@ -16,6 +16,7 @@ import { Route as AchievementsRouteImport } from './routes/achievements'
 import { Route as BuildingRouteImport } from './routes/building'
 import { Route as FounderRouteImport } from './routes/founder'
 import { Route as HistoryRouteImport } from './routes/history'
+import { Route as LanguageRouteImport } from './routes/language'
 import { Route as OnboardingRouteImport } from './routes/onboarding'
 import { Route as PlanRouteImport } from './routes/plan'
 import { Route as PrivacyRouteImport } from './routes/privacy'
@@ -25,6 +26,7 @@ import { Route as SettingsRouteImport } from './routes/settings'
 import { Route as SupportRouteImport } from './routes/support'
 import { Route as TermsRouteImport } from './routes/terms'
 import { Route as TrialRouteImport } from './routes/trial'
+import { Route as WidgetsRouteImport } from './routes/widgets'
 import { Route as AppExploreRouteImport } from './routes/_app/explore'
 import { Route as AppFeedRouteImport } from './routes/_app/feed'
 import { Route as AppProfileRouteImport } from './routes/_app/profile'
@@ -64,6 +66,11 @@ const FounderRoute = FounderRouteImport.update({
 const HistoryRoute = HistoryRouteImport.update({
   id: '/history',
   path: '/history',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LanguageRoute = LanguageRouteImport.update({
+  id: '/language',
+  path: '/language',
   getParentRoute: () => rootRouteImport,
 } as any)
 const OnboardingRoute = OnboardingRouteImport.update({
@@ -111,6 +118,11 @@ const TrialRoute = TrialRouteImport.update({
   path: '/trial',
   getParentRoute: () => rootRouteImport,
 } as any)
+const WidgetsRoute = WidgetsRouteImport.update({
+  id: '/widgets',
+  path: '/widgets',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AppExploreRoute = AppExploreRouteImport.update({
   id: '/explore',
   path: '/explore',
@@ -149,6 +161,7 @@ export interface FileRoutesByFullPath {
   '/building': typeof BuildingRoute
   '/founder': typeof FounderRoute
   '/history': typeof HistoryRoute
+  '/language': typeof LanguageRoute
   '/onboarding': typeof OnboardingRoute
   '/plan': typeof PlanRoute
   '/privacy': typeof PrivacyRoute
@@ -158,6 +171,7 @@ export interface FileRoutesByFullPath {
   '/support': typeof SupportRoute
   '/terms': typeof TermsRoute
   '/trial': typeof TrialRoute
+  '/widgets': typeof WidgetsRoute
   '/explore': typeof AppExploreRoute
   '/feed': typeof AppFeedRoute
   '/profile': typeof AppProfileRoute
@@ -172,6 +186,7 @@ export interface FileRoutesByTo {
   '/building': typeof BuildingRoute
   '/founder': typeof FounderRoute
   '/history': typeof HistoryRoute
+  '/language': typeof LanguageRoute
   '/onboarding': typeof OnboardingRoute
   '/plan': typeof PlanRoute
   '/privacy': typeof PrivacyRoute
@@ -181,6 +196,7 @@ export interface FileRoutesByTo {
   '/support': typeof SupportRoute
   '/terms': typeof TermsRoute
   '/trial': typeof TrialRoute
+  '/widgets': typeof WidgetsRoute
   '/explore': typeof AppExploreRoute
   '/feed': typeof AppFeedRoute
   '/profile': typeof AppProfileRoute
@@ -197,6 +213,7 @@ export interface FileRoutesById {
   '/building': typeof BuildingRoute
   '/founder': typeof FounderRoute
   '/history': typeof HistoryRoute
+  '/language': typeof LanguageRoute
   '/onboarding': typeof OnboardingRoute
   '/plan': typeof PlanRoute
   '/privacy': typeof PrivacyRoute
@@ -206,6 +223,7 @@ export interface FileRoutesById {
   '/support': typeof SupportRoute
   '/terms': typeof TermsRoute
   '/trial': typeof TrialRoute
+  '/widgets': typeof WidgetsRoute
   '/_app/explore': typeof AppExploreRoute
   '/_app/feed': typeof AppFeedRoute
   '/_app/profile': typeof AppProfileRoute
@@ -222,6 +240,7 @@ export interface FileRouteTypes {
     | '/building'
     | '/founder'
     | '/history'
+    | '/language'
     | '/onboarding'
     | '/plan'
     | '/privacy'
@@ -231,6 +250,7 @@ export interface FileRouteTypes {
     | '/support'
     | '/terms'
     | '/trial'
+    | '/widgets'
     | '/explore'
     | '/feed'
     | '/profile'
@@ -245,6 +265,7 @@ export interface FileRouteTypes {
     | '/building'
     | '/founder'
     | '/history'
+    | '/language'
     | '/onboarding'
     | '/plan'
     | '/privacy'
@@ -254,6 +275,7 @@ export interface FileRouteTypes {
     | '/support'
     | '/terms'
     | '/trial'
+    | '/widgets'
     | '/explore'
     | '/feed'
     | '/profile'
@@ -269,6 +291,7 @@ export interface FileRouteTypes {
     | '/building'
     | '/founder'
     | '/history'
+    | '/language'
     | '/onboarding'
     | '/plan'
     | '/privacy'
@@ -278,6 +301,7 @@ export interface FileRouteTypes {
     | '/support'
     | '/terms'
     | '/trial'
+    | '/widgets'
     | '/_app/explore'
     | '/_app/feed'
     | '/_app/profile'
@@ -294,6 +318,7 @@ export interface RootRouteChildren {
   BuildingRoute: typeof BuildingRoute
   FounderRoute: typeof FounderRoute
   HistoryRoute: typeof HistoryRoute
+  LanguageRoute: typeof LanguageRoute
   OnboardingRoute: typeof OnboardingRoute
   PlanRoute: typeof PlanRoute
   PrivacyRoute: typeof PrivacyRoute
@@ -303,6 +328,7 @@ export interface RootRouteChildren {
   SupportRoute: typeof SupportRoute
   TermsRoute: typeof TermsRoute
   TrialRoute: typeof TrialRoute
+  WidgetsRoute: typeof WidgetsRoute
   ClipClipIdRoute: typeof ClipClipIdRoute
   ApiPublicAskRoute: typeof ApiPublicAskRoute
 }
@@ -356,6 +382,13 @@ declare module '@tanstack/react-router' {
       path: '/history'
       fullPath: '/history'
       preLoaderRoute: typeof HistoryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/language': {
+      id: '/language'
+      path: '/language'
+      fullPath: '/language'
+      preLoaderRoute: typeof LanguageRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/onboarding': {
@@ -419,6 +452,13 @@ declare module '@tanstack/react-router' {
       path: '/trial'
       fullPath: '/trial'
       preLoaderRoute: typeof TrialRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/widgets': {
+      id: '/widgets'
+      path: '/widgets'
+      fullPath: '/widgets'
+      preLoaderRoute: typeof WidgetsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/_app/explore': {
@@ -490,6 +530,7 @@ const rootRouteChildren: RootRouteChildren = {
   BuildingRoute: BuildingRoute,
   FounderRoute: FounderRoute,
   HistoryRoute: HistoryRoute,
+  LanguageRoute: LanguageRoute,
   OnboardingRoute: OnboardingRoute,
   PlanRoute: PlanRoute,
   PrivacyRoute: PrivacyRoute,
@@ -499,6 +540,7 @@ const rootRouteChildren: RootRouteChildren = {
   SupportRoute: SupportRoute,
   TermsRoute: TermsRoute,
   TrialRoute: TrialRoute,
+  WidgetsRoute: WidgetsRoute,
   ClipClipIdRoute: ClipClipIdRoute,
   ApiPublicAskRoute: ApiPublicAskRoute,
 }

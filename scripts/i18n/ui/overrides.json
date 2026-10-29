@@ -1,0 +1,17 @@
+{
+ "vi": {
+  "{n} clip": "{n} clip"
+ },
+ "id": {
+  "Familiar": "Sudah akrab"
+ },
+ "pt": {
+  "Known": "Aprendida",
+  "Known {known}": "Aprendidas {known}"
+ },
+ "ko": {
+  "Recognized": "눈에 익은 단어",
+  "Familiar": "익숙한 단어",
+  "Almost known": "거의 아는 단어"
+ }
+}

@@ -1,0 +1,428 @@
+[
+ {
+  "key": "{learning} learning · {known} known",
+  "from": "{learning} dipelajari · {known} dikuasai",
+  "to": "{learning} sedang dipelajari · {known} dikuasai",
+  "why": "Inconsistent with the term sheet for 'Learning' ('Sedang dipelajari').",
+  "status": "applied"
+ },
+ {
+  "key": "{minutes} minutes of real Japanese — Kizuki picked new clips for you.",
+  "from": "Belajar bahasa Jepang langsung dari video selama {minutes} menit — Kizuki sudah memilih klip baru untuk kamu.",
+  "to": "{minutes} menit bahasa Jepang asli — Kizuki sudah memilih klip baru untuk kamu.",
+  "why": "The current translation is unnecessarily wordy and adds phrases not present in the original.",
+  "status": "applied"
+ },
+ {
+  "key": "A quick [hello] before you start",
+  "from": "[Sapaan] singkat sebelum kamu mulai",
+  "to": "[Halo] singkat sebelum kamu mulai",
+  "why": "Translating 'hello' to 'Halo' fits the context better than the formal 'Sapaan' (greeting).",
+  "status": "applied"
+ },
+ {
+  "key": "Aug",
+  "from": "Agu",
+  "to": "Agt",
+  "why": "The standard Indonesian abbreviation for Agustus is 'Agt'.",
+  "status": "applied"
+ },
+ {
+  "key": "Create a free account from Profile → Save your progress, then sign in with the same account on the new phone. Your words, reviews and streak sync automatically.",
+  "from": "Buat akun gratis lewat Profil → Simpan progresmu, lalu masuk dengan akun yang sama di ponsel baru. Kata, latihan, dan jumlah hari belajar beruntun kamu akan tersinkron otomatis.",
+  "to": "Buat akun gratis lewat Profil → Simpan progresmu, lalu masuk dengan akun yang sama di ponsel baru. Kata, pengulangan, dan hari berturut-turut kamu tersinkron otomatis.",
+  "why": "Inconsistent with the term sheet for 'Streak' (Hari berturut-turut).",
+  "status": "applied"
+ },
+ {
+  "key": "Go to the feed",
+  "from": "Buka feed",
+  "to": "Buka Beranda",
+  "why": "Term sheet defines 'Feed' as 'Beranda'.",
+  "status": "applied"
+ },
+ {
+  "key": "Keep your streak alive 🔥",
+  "from": "Jaga streak kamu tetap aktif 🔥",
+  "to": "Jaga hari berturut-turut kamu tetap aktif 🔥",
+  "why": "\"Streak\" must be translated as \"Hari berturut-turut\" according to the term sheet.",
+  "status": "applied"
+ },
+ {
+  "key": "Keep your words, streak and reviews safe on every device.",
+  "from": "Pastikan kata, streak, dan progres pengulangan kamu tetap aman di semua perangkat.",
+  "to": "Pastikan kata, hari berturut-turut, dan progres pengulangan kamu tetap aman di semua perangkat.",
+  "why": "The term \"streak\" must be consistent with the term sheet translation \"Hari berturut-turut\".",
+  "status": "applied"
+ },
+ {
+  "key": "Kizuki is busy right now — try again in a moment.",
+  "from": "Kizuki sedang sibuk — coba lagi sebentar, ya.",
+  "to": "Kizuki sedang sibuk — coba beberapa saat lagi.",
+  "why": "\"Coba lagi sebentar\" is unnatural in Indonesian; \"coba beberapa saat lagi\" is the correct idiomatic phrasing.",
+  "status": "applied"
+ },
+ {
+  "key": "Kizuki will show you around on the feed.",
+  "from": "Kizuki akan memandu kamu menjelajahi feed.",
+  "to": "Kizuki akan memandu kamu menjelajahi Beranda.",
+  "why": "The term \"feed\" must be translated as \"Beranda\" according to the term sheet.",
+  "status": "applied"
+ },
+ {
+  "key": "Learn Japanese from real clips.",
+  "from": "Belajar bahasa Jepang dari cuplikan video autentik.",
+  "to": "Belajar bahasa Jepang dari klip asli.",
+  "why": "'klip asli' is punchier and matches 'real clips' better for an app interface than 'cuplikan video autentik'.",
+  "status": "applied"
+ },
+ {
+  "key": "Learners with reminders on are far more likely to keep their streak.",
+  "from": "Pelajar yang mengaktifkan pengingat jauh lebih mungkin mempertahankan streak mereka.",
+  "to": "Pelajar yang mengaktifkan pengingat jauh lebih mungkin mempertahankan hari berturut-turut mereka.",
+  "why": "Term sheet defines 'Streak' as 'Hari berturut-turut'.",
+  "status": "applied"
+ },
+ {
+  "key": "Mark remaining {n} word as known",
+  "from": "Tandai {n} kata tersisa sebagai sudah tahu",
+  "to": "Tandai {n} kata tersisa sebagai dikuasai",
+  "why": "Term sheet defines 'Known' as 'Dikuasai'.",
+  "status": "applied"
+ },
+ {
+  "key": "Mark remaining {n} words as known",
+  "from": "Tandai {n} kata tersisa sebagai sudah tahu",
+  "to": "Tandai {n} kata tersisa sebagai dikuasai",
+  "why": "Term sheet defines 'Known' as 'Dikuasai'.",
+  "status": "applied"
+ },
+ {
+  "key": "No line · known word",
+  "from": "Tanpa garis bawah · kata yang sudah dikenal",
+  "to": "Tanpa garis bawah · kata dikuasai",
+  "why": "Term sheet defines 'Known' as 'Dikuasai'.",
+  "status": "applied"
+ },
+ {
+  "key": "One short clip saves your streak today.",
+  "from": "Cukup satu klip pendek untuk menjaga rentetan belajarmu hari ini.",
+  "to": "Cukup satu klip pendek untuk menjaga streak kamu hari ini.",
+  "why": "Maintains consistency by using 'streak' as in other strings, instead of 'rentetan belajarmu'.",
+  "status": "applied"
+ },
+ {
+  "key": "Open Kizuki → Profile → Settings → Delete account. This permanently deletes your account, saved words, reviews, streak and cloud progress.",
+  "from": "Buka Kizuki → Profil → Pengaturan → Hapus akun. Akun, kata tersimpan, riwayat ulasan, streak, dan progres kamu di cloud akan dihapus permanen.",
+  "to": "Buka Kizuki → Profil → Pengaturan → Hapus akun. Akun, kata tersimpan, latihan ulang, streak, dan progres kamu di cloud akan dihapus permanen.",
+  "why": "In Indonesian, 'ulasan' means app/product reviews; flashcard reviews are better translated as 'latihan ulang' or 'pengulangan'.",
+  "status": "applied"
+ },
+ {
+  "key": "Save words I tap",
+  "from": "Simpan kata yang saya ketuk",
+  "to": "Simpan kata yang aku ketuk",
+  "why": "The app uses a casual tone with 'kamu', so the first-person pronoun should be 'aku' rather than the formal 'saya'.",
+  "status": "applied"
+ },
+ {
+  "key": "Sign in with your Premium account to ask about this line. Your words and streak sync too.",
+  "from": "Masuk dengan akun Premium kamu untuk bertanya tentang kalimat ini. Kata tersimpan dan catatan hari belajar berturut-turut kamu juga akan disinkronkan.",
+  "to": "Masuk dengan akun Premium kamu untuk bertanya tentang kalimat ini. Kata dan hari berturut-turut kamu juga akan disinkronkan.",
+  "why": "Updated to strictly match the term sheet for 'Words' (Kata) and 'Streak' (Hari berturut-turut).",
+  "status": "applied"
+ },
+ {
+  "key": "Smart reviews with the original audio",
+  "from": "Ulasan pintar dengan audio asli",
+  "to": "Pengulangan pintar dengan audio asli",
+  "why": "Used 'Pengulangan' instead of 'Ulasan' for 'reviews' to match the spaced repetition context and 'Review my words' (Ulangi kosakataku).",
+  "status": "applied"
+ },
+ {
+  "key": "Smart reviews with the original clip audio",
+  "from": "Ulasan pintar dengan audio klip asli",
+  "to": "Pengulangan pintar dengan audio klip asli",
+  "why": "Changed 'Ulasan' to 'Pengulangan' to be consistent with the context of flashcard reviews.",
+  "status": "applied"
+ },
+ {
+  "key": "Streaks, goals and progress stats",
+  "from": "Hari belajar berturut-turut, target, dan statistik kemajuan",
+  "to": "Hari berturut-turut, target, dan statistik kemajuan",
+  "why": "Adjusted to exactly match the term sheet for 'Streak' (Hari berturut-turut).",
+  "status": "applied"
+ },
+ {
+  "key": "Ten minutes a day on the train and my listening is way better.",
+  "from": "Sepuluh menit sehari di kereta, kemampuan menyimak saya jadi jauh lebih baik.",
+  "to": "Sepuluh menit sehari di kereta, kemampuan menyimakku jadi jauh lebih baik.",
+  "why": "Use 'aku' or its clitic form '-ku' for the first person since the app uses the casual 'kamu' for the user; 'saya' is too formal.",
+  "status": "applied"
+ },
+ {
+  "key": "They'll show up here, ready to review.",
+  "from": "Kata-kata itu akan muncul di sini, siap untuk diulas.",
+  "to": "Kata-kata itu akan muncul di sini, siap untuk diulang.",
+  "why": "Align with the term sheet translation of 'Review' which uses 'ulang' instead of 'ulas'.",
+  "status": "applied"
+ },
+ {
+  "key": "To Review {due}",
+  "from": "Perlu diulas {due}",
+  "to": "Perlu diulang {due}",
+  "why": "Align with the term sheet which uses 'ulang' for 'review' rather than 'ulas'.",
+  "status": "applied"
+ },
+ {
+  "key": "Unlock every clip, word explanation and review.",
+  "from": "Buka akses ke semua klip, penjelasan kata, dan latihan ulang.",
+  "to": "Buka akses ke semua klip, penjelasan kata, dan pengulangan.",
+  "why": "Align with the translation of 'review' (ulang) used in the term sheet.",
+  "status": "applied"
+ },
+ {
+  "key": "You can close this page and return to the Kizuki app — your words, streak and reviews are syncing.",
+  "from": "Kamu bisa menutup halaman ini dan kembali ke aplikasi Kizuki — kata, catatan belajar beruntun, dan ulasan kartu belajarmu sedang disinkronkan.",
+  "to": "Kamu bisa menutup halaman ini dan kembali ke aplikasi Kizuki — kata, hari berturut-turut, dan ulasan kartu belajarmu sedang disinkronkan.",
+  "why": "The term sheet specifies 'Hari berturut-turut' for 'Streak'.",
+  "status": "applied"
+ },
+ {
+  "key": "Your subscription starts. Cancel anytime before.",
+  "from": "Langganan kamu dimulai. Kamu bisa membatalkannya kapan saja sebelum itu.",
+  "to": "Langganan kamu dimulai. Batalkan kapan saja sebelumnya.",
+  "why": "More concise and natural for a subscription timeline/paywall note.",
+  "status": "applied"
+ },
+ {
+  "key": "Your words",
+  "from": "Kata kamu",
+  "to": "Kosakata kamu",
+  "why": "In Indonesian, 'Kata kamu' idiomatically means 'According to you / You said', so 'Kosakata kamu' (Your vocabulary/words) is much clearer for a UI label.",
+  "status": "applied"
+ },
+ {
+  "key": "Your words and streak are saved. Kizuki will be right here when you come back.",
+  "from": "Kata yang kamu simpan dan hitungan hari belajar berturut-turut kamu tetap tersimpan. Kizuki siap menemani saat kamu kembali.",
+  "to": "Kata dan hari berturut-turut kamu tersimpan. Kizuki akan selalu di sini saat kamu kembali.",
+  "why": "Aligned strictly with the term sheet ('Kata', 'Hari berturut-turut') and shortened for a more natural app prompt.",
+  "status": "applied"
+ },
+ {
+  "key": "Anime",
+  "from": "Animasi Jepang",
+  "to": "Anime",
+  "why": "Indonesian fans say \"Anime\", and the item should match \"Anime\" in id 87.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Anime & manga",
+  "from": "Animasi & komik Jepang",
+  "to": "Anime & manga",
+  "why": "\"Anime\" and \"manga\" are the natural everyday terms; the paraphrase sounds stiff and is inconsistent with id 87.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "About [{word}] in this line",
+  "from": "Tentang [{word}] di baris ini",
+  "to": "Tentang [{word}] di kalimat ini",
+  "why": "Subtitle \"line\" is rendered as \"kalimat\" elsewhere in the tutor chat, so this should match.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "About this line",
+  "from": "Tentang baris ini",
+  "to": "Tentang kalimat ini",
+  "why": "Matches \"kalimat ini\" used for \"this line\" in the other chat strings.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Casual Japanese the way friends really talk",
+  "from": "Bahasa Jepang santai yang dipakai sehari-hari bersama teman",
+  "to": "Bahasa Jepang santai, persis seperti obrolan antarteman",
+  "why": "The current wording is long and clunky; this reads more naturally.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Come back tomorrow, or unlock every clip with a free week of Premium.",
+  "from": "Kembali besok, atau buka semua klip dengan Premium gratis selama seminggu.",
+  "to": "Kembali lagi besok, atau buka semua klip dengan Premium gratis selama seminggu.",
+  "why": "\"Kembali lagi besok\" sounds more natural and friendly.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Create a free account from Profile → Save your progress, then sign in with the same account on the new phone. Your words, reviews and streak sync automatically.",
+  "from": "Buat akun gratis lewat Profil → Simpan progresmu, lalu masuk dengan akun yang sama di ponsel baru. Kata, pengulangan, dan hari berturut-turut kamu tersinkron otomatis.",
+  "to": "Buat akun gratis lewat Profil → Simpan progresmu, lalu masuk dengan akun yang sama di ponsel baru. Kata, pengulangan, dan hari berturut-turut kamu akan tersinkronisasi otomatis.",
+  "why": "\"Tersinkron\" is nonstandard; the standard form is \"tersinkronisasi\".",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Drama",
+  "from": "Serial drama",
+  "to": "Drama",
+  "why": "A topic name should be short; \"Drama\" is the natural label.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "First Listen",
+  "from": "Pertama Menyimak",
+  "to": "Simakan Pertama",
+  "why": "\"Pertama Menyimak\" has unnatural word order for a badge name.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "For you",
+  "from": "Untuk kamu",
+  "to": "Untukmu",
+  "why": "\"Untukmu\" is the natural feed header and matches \"untukmu\" used elsewhere.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "For You",
+  "from": "Untuk Kamu",
+  "to": "Untukmu",
+  "why": "\"Untukmu\" is the natural feed header and matches \"untukmu\" used elsewhere.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Get help",
+  "from": "Dapatkan bantuan",
+  "to": "Minta bantuan",
+  "why": "\"Dapatkan bantuan\" is a literal calque; \"Minta bantuan\" is more natural.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "How well do you know [{word}]?",
+  "from": "Seberapa kamu menguasai kata [{word}]?",
+  "to": "Seberapa baik kamu menguasai kata [{word}]?",
+  "why": "\"Seberapa kamu menguasai\" is ungrammatical without \"baik\".",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Keep your streak alive 🔥",
+  "from": "Jaga hari berturut-turut kamu tetap aktif 🔥",
+  "to": "Pertahankan hari berturut-turutmu 🔥",
+  "why": "\"Jaga hari berturut-turut kamu tetap aktif\" is awkward and literal.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Nothing was charged. Please try again.",
+  "from": "Tidak ada biaya yang ditagihkan. Coba lagi.",
+  "to": "Tidak ada biaya yang ditagih. Coba lagi.",
+  "why": "\"Ditagih\" is the natural form here; \"ditagihkan\" sounds stiff and slightly off.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Nothing due right now",
+  "from": "Belum ada jadwal latihan ulang",
+  "to": "Belum ada yang perlu diulang sekarang",
+  "why": "The current text drops \"right now\" and reads like nothing is scheduled at all.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "That's what it means. It's saved for you, so you can practice it later.",
+  "from": "Itu artinya. Katanya sudah disimpan, jadi kamu bisa berlatih nanti.",
+  "to": "Itulah artinya. Kata ini sudah disimpan, jadi kamu bisa melatihnya nanti.",
+  "why": "\"Katanya\" reads as \"reportedly\", which is ambiguous and unnatural here.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Save words I tap",
+  "from": "Simpan kata yang aku ketuk",
+  "to": "Simpan kata yang diketuk",
+  "why": "A first-person \"aku\" sounds odd on a settings toggle; the passive form is the natural UI phrasing.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Sign in with your Premium account to ask about this line. Your words and streak sync too.",
+  "from": "Masuk dengan akun Premium kamu untuk bertanya tentang kalimat ini. Kata dan hari berturut-turut kamu juga akan disinkronkan.",
+  "to": "Masuk dengan akun Premium kamu untuk bertanya tentang kalimat ini. Kata tersimpan dan hari berturut-turutmu juga akan disinkronkan.",
+  "why": "\"Kata dan hari berturut-turut kamu\" is clunky and ambiguous; this version is clearer and more natural.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Signed out",
+  "from": "Sudah keluar",
+  "to": "Berhasil keluar",
+  "why": "\"Berhasil keluar\" is the standard sign-out confirmation in Indonesian apps; \"Sudah keluar\" sounds unpolished.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Watch → save words → review. That's it.",
+  "from": "Tonton → simpan kata → ulangi pelajaran. Itu saja.",
+  "to": "Tonton → simpan kata → ulangi. Itu saja.",
+  "why": "\"Ulangi pelajaran\" means reviewing lessons, but the step is reviewing saved words.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "You can close this page and return to the Kizuki app — your words, streak and reviews are syncing.",
+  "from": "Kamu bisa menutup halaman ini dan kembali ke aplikasi Kizuki — kata, hari berturut-turut, dan ulasan kartu belajarmu sedang disinkronkan.",
+  "to": "Kamu bisa menutup halaman ini dan kembali ke aplikasi Kizuki — kata, hari berturut-turut, dan pengulanganmu sedang disinkronkan.",
+  "why": "\"Ulasan\" means a critique or rating, not a flashcard review.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Your subscription starts. Cancel anytime before.",
+  "from": "Langganan kamu dimulai. Batalkan kapan saja sebelumnya.",
+  "to": "Langganan kamu dimulai. Batalkan kapan saja sebelum itu.",
+  "why": "\"Sebelumnya\" dangles unnaturally; \"sebelum itu\" reads naturally.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "We'll remind you before your trial ends",
+  "from": "Kami akan mengingatkanmu sebelum masa coba gratis berakhir",
+  "to": "Kami akan mengingatkanmu sebelum masa uji coba gratis berakhir",
+  "why": "Use the same trial term (\"uji coba\") as the other trial strings.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "We'll send you a reminder that your trial is ending.",
+  "from": "Kami akan mengirim pengingat bahwa masa coba gratis kamu akan segera berakhir.",
+  "to": "Kami akan mengirim pengingat bahwa masa uji coba gratis kamu akan segera berakhir.",
+  "why": "Use the same trial term (\"uji coba\") as the other trial strings.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Tour reset",
+  "from": "Panduan diatur ulang",
+  "to": "Tur diatur ulang",
+  "why": "The welcome tour is called \"Tur pengenalan\" elsewhere, so \"Panduan\" is inconsistent.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Your new word is waiting here. Let's practice it once.",
+  "from": "Kata baru kamu sudah menunggu di sini. Ayo latihan sekali.",
+  "to": "Kata baru kamu sudah menunggu di sini. Ayo latih sekali dulu.",
+  "why": "\"Latihan sekali\" can be misread as \"very much practice\"; this makes \"once\" clear.",
+  "status": "applied",
+  "stage": "proof"
+ }
+]

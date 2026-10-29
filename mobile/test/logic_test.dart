@@ -6,6 +6,42 @@ import 'package:mimi/logic/logic.dart';
 const now = 1800000000000;
 
 void main() {
+  group('native widget rules', () {
+    const beginner = WidgetWord(key: 'b', word: '猫', reading: 'ねこ', meaning: 'cat', jlpt: 5);
+    const advanced = WidgetWord(key: 'a', word: '議論', reading: 'ぎろん', meaning: 'discussion', jlpt: 2);
+    const saved = WidgetWord(key: 'saved', word: '犬', reading: 'いぬ', meaning: 'dog', status: 'learning', due: 1);
+    test('saved learning words are opt-in', () {
+      expect(widgetWords([beginner], [saved], 'N5', false, 0).map((w) => w.key), ['b']);
+      expect(widgetWords([beginner], [saved], 'N5', true, 0).map((w) => w.key), ['saved']);
+    });
+    test('beginner words never use advanced levels', () {
+      expect(widgetWords([beginner, advanced], [], 'N5', false, 0).map((w) => w.key), ['b']);
+      expect(widgetWords([beginner, advanced], [], 'N2', false, 0).map((w) => w.key), ['a', 'b']);
+    });
+    test('known ignored and removed words never enter personal rotation', () {
+      final excluded = [for (final status in ['known', 'ignored', 'removed']) WidgetWord(key: status, word: '犬', reading: 'いぬ', meaning: 'dog', status: status)];
+      expect(widgetWords([beginner], excluded, 'N5', true, 0).map((w) => w.key), ['b']);
+    });
+    test('due words come first without mutating review time', () {
+      const later = WidgetWord(key: 'later', word: '水', reading: 'みず', meaning: 'water', status: 'learning', due: 100);
+      expect(widgetWords([beginner], [later, saved], 'N5', true, 50).map((w) => w.key), ['saved', 'later']);
+      expect(saved.due, 1);
+    });
+    test('public rotation advances by two hours', () {
+      expect(widgetSlotMs, 7200000);
+      expect(widgetWords([beginner, advanced], [], 'N2', false, widgetSlotMs).first.key, 'b');
+    });
+    test('widget links never intercept auth or arbitrary destinations', () {
+      expect(widgetDestination('kizuki://widget/review'), '/review?deck=words');
+      expect(widgetDestination('kizuki://widget/word?clip=abc-1'), '/clip/abc-1');
+      expect(widgetDestination('kizuki://widget/word?clip=../account'), '/vocab');
+      expect(widgetDestination('kizuki://auth?session=private'), null);
+      expect(widgetDestination('https://evil.example/widget/review'), null);
+      expect(learningPath('/widgets'), false);
+      expect(learningPath('/language'), false);
+      expect(widgetWords([], [], 'N5', true, 0), isEmpty);
+    });
+  });
   test('remote off skips founder; on restores it', () {
     expect(onboardingAfterPlan(founderVideoEnabled(false)), '/trial');
     expect(onboardingAfterPlan(founderVideoEnabled(true)), '/founder');
@@ -304,6 +340,20 @@ void main() {
       expect(repeatsSense('', 'anything'), true);
       expect(repeatsSense('ate', 'to eat'), false);
       expect(repeatsSense('the samurai', null), false);
+    });
+    test('meanings in other scripts compare by their own letters', () {
+      expect(repeatsSense('사과', '사과; 능금'), true);
+      expect(repeatsSense('แอปเปิล', 'แอปเปิล; ผลแอปเปิล'), true);
+      expect(repeatsSense('cá', 'cà; cà tím'), false);
+      expect(repeatsSense('táo', 'Táo; quả táo'), true);
+    });
+    test("a saved word's meaning follows the app language", () {
+      expect(savedGloss('apple', null, 'táo', 'vi'), 'táo');
+      expect(savedGloss('apple', null, 'apple; apple tree', 'en'), 'apple');
+      expect(savedGloss('quả táo này', 'vi', 'táo', 'vi'), 'quả táo này');
+      expect(savedGloss('quả táo này', 'vi', '사과', 'ko'), '사과');
+      expect(savedGloss('apple', 'en', '', 'vi'), 'apple');
+      expect(savedGloss('apple', 'en', null, 'vi'), 'apple');
     });
     test('the tour asks you to tap a new content word, never a filler like ん', () {
       ({String p, String? d}) w(String p, [String? d = '1']) => (p: p, d: d);
@@ -654,6 +704,113 @@ void main() {
       expect(contentNotesProblem({'v1-0': <String, Object>{}}), null);
       expect(contentNotesProblem({'v1-0': {'w': {'0.0': {'m': 1}}}}), 'notes');
       expect(contentNotesProblem(<Object>[]), 'notes');
+    });
+  });
+
+  group('learner languages', () {
+    test('six languages, English first', () {
+      expect(languages.map((l) => l.code).toList(), ['en', 'vi', 'id', 'th', 'ko', 'pt']);
+      expect(isLangCode('vi'), true);
+      expect(isLangCode('ja'), false);
+    });
+    test('phone locale picks the language, English otherwise', () {
+      expect(['vi-VN', 'in_ID', 'id', 'pt-PT', 'pt-BR', 'ko', 'th-TH', 'en-GB', 'ja-JP', ''].map(languageForLocale).toList(), ['vi', 'id', 'id', 'pt', 'pt', 'ko', 'th', 'en', 'en', 'en']);
+      expect(languageForLocale(null), 'en');
+    });
+    test('templates fill named values only', () {
+      expect(fillTemplate('{n} days left, {name}', {'n': 3}), '3 days left, {name}');
+      expect(fillTemplate('Hello'), 'Hello');
+      expect(highlightParts('Try Kizuki [free] for 7 days'), [('Try Kizuki ', false), ('free', true), (' for 7 days', false)]);
+      expect(highlightParts('[ทดลองใช้ฟรี] 7 วัน'), [('ทดลองใช้ฟรี', true), (' 7 วัน', false)]);
+      expect(highlightParts('No highlight'), [('No highlight', false)]);
+    });
+    test('clips spread over 32 note files and carry a text fingerprint', () {
+      expect(localeNoteShard('3N0YLRunmEQ-48'), 18);
+      expect(localeNoteShard('1t12BjgS9D8-41'), 8);
+      Word w(String s) => Word(s: s, r: '', ro: '', b: '', p: 'noun', t0: 0, t1: 0);
+      expect(clipLocaleSig([Line(start: 0, end: 1, en: '', sp: '', ja: 'サメに気をつけて。', words: [w('サメ'), w('に')]), Line(start: 1, end: 2, en: '', sp: '', ja: 'うん！', words: [w('うん')])]), 'db366650');
+    });
+    test('packs download only for a chosen language with learning access', () {
+      expect(localePackDue('vi', true, 0, 3), true);
+      expect(localePackDue('vi', false, 0, 3), false);
+      expect(localePackDue('en', true, 0, 3), false);
+      expect(localePackDue('vi', true, 3, 3), false);
+      expect(localePackDue('vi', true, 0, null), false);
+    });
+    test('failed downloads back off from 5 s to 30 min', () {
+      expect([0, 1, 3, 10, 30].map(localeRetryDelayMs).toList(), [5000, 10000, 40000, 1800000, 1800000]);
+    });
+    test('pack manifests need every file once with checksums', () {
+      final sha = 'a' * 64;
+      final files = [for (final name in ['lines.json', 'dict.json', 'grammar.json', for (var i = 0; i < 32; i++) 'notes-${i.toString().padLeft(2, '0')}.json']) {'name': name, 'sha256': sha, 'bytes': 10}];
+      expect(localePackManifest({'lang': 'vi', 'version': 2, 'files': files}, 'vi', 2)?.files.length, 35);
+      expect(localePackManifest({'lang': 'vi', 'version': 2, 'files': files}, 'th', 2), null);
+      expect(localePackManifest({'lang': 'vi', 'version': 2, 'files': files}, 'vi', 3), null);
+      expect(localePackManifest({'lang': 'vi', 'version': 2, 'files': files.sublist(1)}, 'vi', 2), null);
+      expect(localePackManifest({'lang': 'vi', 'version': 2, 'files': [...files, files[0]]}, 'vi', 2), null);
+      expect(localePackManifest({'lang': 'vi', 'version': 2, 'files': [{...files[0], 'sha256': 'x'}, ...files.sublist(1)]}, 'vi', 2), null);
+      expect(localePackManifest({'lang': 'vi', 'version': 2, 'files': [{...files[0], 'bytes': 0}, ...files.sublist(1)]}, 'vi', 2), null);
+      expect(localePackManifest({'lang': 'vi', 'version': 2, 'files': [...files, {'name': '../x.json', 'sha256': sha, 'bytes': 1}]}, 'vi', 2), null);
+    });
+    test('pack file problems', () {
+      expect(localeFileProblem('lines.json', {'c1': {'s': 'db366650', 't': 'Tiêu đề', 'l': ['Xin chào']}}), null);
+      expect(localeFileProblem('lines.json', <String, Object>{}), 'lines');
+      expect(localeFileProblem('lines.json', {'c1': {'s': 'x', 't': 'a', 'l': [1]}}), 'lines');
+      expect(localeFileProblem('dict.json', {'1': {'m': ['mèo'], 'ex': <Object>[]}}), null);
+      expect(localeFileProblem('dict.json', {'1': {'m': 'mèo', 'ex': <Object>[]}}), 'dict');
+      expect(localeFileProblem('grammar.json', {'past tense': 'thì quá khứ'}), null);
+      expect(localeFileProblem('grammar.json', {'a': 1}), 'grammar');
+      expect(localeFileProblem('notes-00.json', {'c1': {'s': 'x', 'w': {'0.0': {'m': 'a', 'n': 'b'}}, 'l': {'0': {'lit': 'c', 'tip': 'd'}}}}), null);
+      expect(localeFileProblem('notes-00.json', {'c1': {'s': 'x', 'w': {'0.0': {'m': 1}}, 'l': <String, Object>{}}}), 'notes');
+      expect(localeFileProblem('notes-00.json', <Object>[]), 'shape');
+    });
+    Word sw(String s) => Word(s: s, r: '', ro: '', b: '', p: 'noun', t0: 0, t1: 0);
+    final shark = Clip(id: 'c1', videoId: 'v', title: 'Shark warning', level: 'N5', start: 0, end: 2, topics: const [], grammar: const ['〜て — request', 'plain'], quality: 1, lines: [
+      Line(start: 0, end: 1, en: 'Watch out for sharks.', sp: '', ja: 'サメに気をつけて。', words: [sw('サメ'), sw('に')]),
+      Line(start: 1, end: 2, en: 'Yeah!', sp: '', ja: 'うん！', words: [sw('うん')]),
+    ]);
+    test('pack pointer needs a version and https manifests', () {
+      final urls = ['https://pub-x.r2.dev/locale/vi/v2.json', 'https://b.supabase.co/storage/v1/object/public/content/locale/vi/v2.json'];
+      final p = localePackPointer({'vi': {'v': 2, 'urls': urls}}, 'vi');
+      expect(p?.version, 2);
+      expect(p?.urls, urls);
+      expect(localePackPointer({'vi': {'v': 2, 'urls': urls}}, 'th'), null);
+      expect(localePackPointer({'vi': {'v': 2, 'urls': urls}}, 'en'), null);
+      expect(localePackPointer({'vi': {'v': 0, 'urls': urls}}, 'vi'), null);
+      expect(localePackPointer({'vi': {'v': 2, 'urls': <String>[]}}, 'vi'), null);
+      expect(localePackPointer({'vi': {'v': 2, 'urls': ['http://x.dev/v2.json']}}, 'vi'), null);
+      expect(localePackPointer(<String, Object>{}, 'vi'), null);
+      expect(localePackPointer(null, 'vi'), null);
+    });
+    test('a clip shows its translation only when it was made for this exact clip', () {
+      final vi = localizeClip(shark, {'s': 'db366650', 't': 'Cảnh báo cá mập', 'l': ['Cẩn thận cá mập nhé.', '']}, {'〜て — request': '〜て — lời nhờ'});
+      expect(vi.title, 'Cảnh báo cá mập');
+      expect(vi.lines.map((l) => l.en).toList(), ['Cẩn thận cá mập nhé.', 'Yeah!']);
+      expect(vi.lines[0].ja, 'サメに気をつけて。');
+      expect(vi.grammar, ['〜て — lời nhờ', 'plain']);
+      final stale = localizeClip(shark, {'s': '00000000', 't': 'Cảnh báo', 'l': ['A', 'B']}, null);
+      expect(stale.title, 'Shark warning');
+      expect(stale.lines.map((l) => l.en).toList(), ['Watch out for sharks.', 'Yeah!']);
+      expect(localizeClip(shark, {'s': 'db366650', 't': 'x', 'l': ['only one']}, null).lines[0].en, 'Watch out for sharks.');
+      expect(identical(localizeClip(shark, null, null), shark), true);
+    });
+    test('dictionary entries change only when sense and example counts match', () {
+      const cat = DictEntry(w: '猫', r: 'ねこ', c: true, m: [Sense(['noun'], 'cat')], ex: [Example('猫がいる。', 'There is a cat.')]);
+      final vi = localizeEntry(cat, {'m': ['con mèo'], 'ex': ['Có một con mèo.']});
+      expect(vi.m[0].g, 'con mèo');
+      expect(vi.m[0].pos, ['noun']);
+      expect(vi.ex[0].ja, '猫がいる。');
+      expect(vi.ex[0].en, 'Có một con mèo.');
+      expect(identical(localizeEntry(cat, {'m': ['con mèo', 'mèo'], 'ex': ['Có một con mèo.']}), cat), true);
+      expect(localizeEntry(cat, {'m': [' '], 'ex': ['']}).m[0].g, 'cat');
+    });
+    test('explanations follow the same fingerprint and keep English where none is given', () {
+      const en = ClipNotes({'0.0': WordNote('shark', 'サメ means shark.'), '0.1': WordNote('to', 'に marks the target.')}, {'0': LineNote('Shark to careful.', '')});
+      final vi = localizeNotes(en, {'s': 'db366650', 'w': {'0.0': {'m': 'cá mập', 'n': 'サメ nghĩa là cá mập.'}}, 'l': {'0': {'lit': 'Cá mập thì cẩn thận.', 'tip': 'Mẹo'}}}, 'db366650');
+      expect([vi.words['0.0']!.m, vi.words['0.0']!.n], ['cá mập', 'サメ nghĩa là cá mập.']);
+      expect([vi.words['0.1']!.m, vi.words['0.1']!.n], ['to', 'に marks the target.']);
+      expect([vi.lines['0']!.lit, vi.lines['0']!.tip], ['Cá mập thì cẩn thận.', '']);
+      expect(identical(localizeNotes(en, {'s': 'ffffffff', 'w': <String, Object>{}, 'l': <String, Object>{}}, 'db366650'), en), true);
     });
   });
 }

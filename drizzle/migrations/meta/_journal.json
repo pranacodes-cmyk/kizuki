@@ -36,6 +36,13 @@
       "when": 1792867116854,
       "tag": "0004_native_sign_in_switches",
       "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1793298785000,
+      "tag": "0005_app_errors",
+      "breakpoints": true
     }
   ]
 }

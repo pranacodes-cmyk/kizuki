@@ -8,6 +8,7 @@ import '../services/sync_service.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import '../widgets/ui.dart';
+import '../i18n/i18n.dart';
 
 String fmtStudyTime(int sec) => sec < 3600 ? '${sec ~/ 60}m' : '${sec ~/ 3600}h ${(sec % 3600) ~/ 60}m';
 
@@ -35,13 +36,13 @@ class ProfileScreen extends StatelessWidget {
           SizedBox(
             height: 48,
             child: Row(mainAxisAlignment: MainAxisAlignment.end, children: [
-              IconButton(tooltip: 'Settings', onPressed: () => context.push('/settings'), icon: const Icon(LucideIcons.settings, size: 24, color: T.muted)),
+              IconButton(tooltip: tr('Settings'), onPressed: () => context.push('/settings'), icon: const Icon(LucideIcons.settings, size: 24, color: T.muted)),
               const SizedBox(width: 8),
             ]),
           ),
           Center(child: Container(width: 96, height: 96, decoration: const BoxDecoration(color: T.surface, shape: BoxShape.circle), alignment: Alignment.center, child: const Mascot(MascotPose.face, size: 80))),
           const SizedBox(height: 8),
-          Center(child: Text(app.profile.name.isEmpty ? 'Learner' : app.profile.name, style: txt(24, w: FontWeight.w900))),
+          Center(child: Text(app.profile.name.isEmpty ? tr('Learner') : app.profile.name, style: txt(24, w: FontWeight.w900))),
           if (email != null) Center(child: Text(email, style: txt(13, c: T.faint))),
           Container(
             margin: const EdgeInsets.fromLTRB(20, 16, 20, 0),
@@ -49,18 +50,18 @@ class ProfileScreen extends StatelessWidget {
             decoration: BoxDecoration(color: T.surface, borderRadius: BorderRadius.circular(16)),
             child: IntrinsicHeight(
               child: Row(children: [
-                Expanded(child: _Stat(icon: '🔥', value: '${stats.streak}', label: 'Streak')),
+                Expanded(child: _Stat(icon: '🔥', value: '${stats.streak}', label: tr('Streak'))),
                 const VerticalDivider(width: 1, color: T.border),
-                Expanded(child: _Stat(icon: '📚', value: '${stats.words}', label: 'Words')),
+                Expanded(child: _Stat(icon: '📚', value: '${stats.words}', label: tr('Words'))),
                 const VerticalDivider(width: 1, color: T.border),
-                Expanded(child: _Stat(icon: '⏰', value: fmtStudyTime(stats.seconds), label: 'Time')),
+                Expanded(child: _Stat(icon: '⏰', value: fmtStudyTime(stats.seconds), label: tr('Time'))),
               ]),
             ),
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              const SectionTitle('Activity'),
+              SectionTitle(tr('Activity')),
               Surface(
                 radius: 16,
                 padding: const EdgeInsets.all(12),
@@ -94,18 +95,18 @@ class ProfileScreen extends StatelessWidget {
                   ]),
                   const SizedBox(height: 8),
                   Row(mainAxisAlignment: MainAxisAlignment.end, children: [
-                    Text('Less', style: txt(11, c: T.faint)),
+                    Text(tr('Less'), style: txt(11, c: T.faint)),
                     for (final h in _heat) Container(margin: const EdgeInsets.only(left: 4), width: 10, height: 10, decoration: BoxDecoration(color: h, borderRadius: BorderRadius.circular(2))),
                     const SizedBox(width: 4),
-                    Text('More', style: txt(11, c: T.faint)),
+                    Text(tr('More'), style: txt(11, c: T.faint)),
                   ]),
                 ]),
               ),
               SectionTitle(
-                'Achievements',
+                tr('Achievements'),
                 right: GestureDetector(
                   onTap: () => context.push('/achievements'),
-                  child: Row(children: [Text('View all', style: txt(14, w: FontWeight.w800, c: T.muted)), const Icon(LucideIcons.chevronRight, size: 16, color: T.muted)]),
+                  child: Row(children: [Text(tr('View all'), style: txt(14, w: FontWeight.w800, c: T.muted)), const Icon(LucideIcons.chevronRight, size: 16, color: T.muted)]),
                 ),
               ),
             ]),
@@ -135,7 +136,7 @@ class ProfileScreen extends StatelessWidget {
                         Positioned(right: -2, bottom: -2, child: Container(width: 20, height: 20, decoration: const BoxDecoration(color: T.surface3, shape: BoxShape.circle), child: const Icon(LucideIcons.lock, size: 12))),
                     ]),
                     const SizedBox(height: 6),
-                    Text(a.title, maxLines: 2, textAlign: TextAlign.center, overflow: TextOverflow.ellipsis, style: txt(11, w: FontWeight.w800, h: 1.15)),
+                    Text(tr(a.title), maxLines: 2, textAlign: TextAlign.center, overflow: TextOverflow.ellipsis, style: txt(11, w: FontWeight.w800, h: 1.15)),
                     if (!done) Text('${metricValue(stats, a.metric).clamp(0, a.goal)}/${a.goal}', style: txt(10, c: T.faint)),
                   ]),
                 );
@@ -146,12 +147,13 @@ class ProfileScreen extends StatelessWidget {
             padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
             child: Column(children: [
               premium.active
-                  ? _Row(icon: const Icon(LucideIcons.crown, size: 20, color: T.gold), title: 'Kizuki Premium', sub: trialDays > 0 ? 'Free trial · $trialDays day${trialDays == 1 ? '' : 's'} left' : 'Active', onTap: () => context.push('/settings'))
-                  : _Row(icon: const Icon(LucideIcons.crown, size: 20, color: T.gold), title: 'Try Premium free', sub: 'Unlimited clips for 7 days', accent: true, onTap: () => context.push('/trial')),
-              if (sync.session == null) _Row(icon: const Text('☁️', style: TextStyle(fontSize: 22)), title: 'Save your progress', sub: 'Create a free account to sync devices', onTap: () => context.push('/account')),
-              _Row(icon: const Text('🔖', style: TextStyle(fontSize: 22)), title: 'Saved clips', sub: 'Clips you bookmarked', onTap: () => context.push('/saved')),
-              _Row(icon: const Text('⏱️', style: TextStyle(fontSize: 22)), title: 'Watch history', sub: "Everything you've watched", onTap: () => context.push('/history')),
-              _Row(icon: const Text('💬', style: TextStyle(fontSize: 22)), title: 'Help & feedback', sub: 'Questions, problems or ideas', onTap: () => context.push('/support')),
+                  ? _Row(icon: const Icon(LucideIcons.crown, size: 20, color: T.gold), title: tr('Kizuki Premium'), sub: trialDays > 0 ? trn(trialDays, 'Free trial · {n} day left', 'Free trial · {n} days left') : tr('Active'), onTap: () => context.push('/settings'))
+                  : _Row(icon: const Icon(LucideIcons.crown, size: 20, color: T.gold), title: tr('Try Premium free'), sub: tr('Unlimited clips for 7 days'), accent: true, onTap: () => context.push('/trial')),
+              if (sync.session == null) _Row(icon: const Text('☁️', style: TextStyle(fontSize: 22)), title: tr('Save your progress'), sub: tr('Create a free account to sync devices'), onTap: () => context.push('/account')),
+              _Row(icon: const Text('📱', style: TextStyle(fontSize: 22)), title: tr('Home & Lock Screen widgets'), sub: tr('A little Japanese.'), onTap: () => context.push('/widgets')),
+              _Row(icon: const Text('🔖', style: TextStyle(fontSize: 22)), title: tr('Saved clips'), sub: tr('Clips you bookmarked'), onTap: () => context.push('/saved')),
+              _Row(icon: const Text('⏱️', style: TextStyle(fontSize: 22)), title: tr('Watch history'), sub: tr("Everything you've watched"), onTap: () => context.push('/history')),
+              _Row(icon: const Text('💬', style: TextStyle(fontSize: 22)), title: tr('Help & feedback'), sub: tr('Questions, problems or ideas'), onTap: () => context.push('/support')),
             ]),
           ),
         ]),
@@ -166,7 +168,7 @@ class _Stat extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Column(children: [
         Text('$icon $value', style: txt(20, w: FontWeight.w900)),
-        Text(label, style: txt(12, w: FontWeight.w700, c: T.muted)),
+        Text(tr(label), style: txt(12, w: FontWeight.w700, c: T.muted)),
       ]);
 }
 
@@ -193,8 +195,8 @@ class _Row extends StatelessWidget {
               const SizedBox(width: 12),
               Expanded(
                 child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                  Text(title, style: txt(16, w: FontWeight.w800)),
-                  Text(sub, style: txt(13, w: FontWeight.w400, c: T.muted)),
+                  Text(tr(title), style: txt(16, w: FontWeight.w800)),
+                  Text(tr(sub), style: txt(13, w: FontWeight.w400, c: T.muted)),
                 ]),
               ),
               const Icon(LucideIcons.chevronRight, size: 20, color: T.faint),

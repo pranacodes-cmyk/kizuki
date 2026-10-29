@@ -9,6 +9,7 @@ import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import 'common.dart';
 import 'ui.dart';
+import '../i18n/i18n.dart';
 
 /// Thumbnail card linking to a single clip (Explore, Saved, History) — mirrors ClipCard.tsx.
 class ClipCard extends StatelessWidget {
@@ -35,7 +36,7 @@ class ClipCard extends StatelessWidget {
           Stack(children: [
             ClipThumb(clip.thumb),
             Positioned(right: 6, bottom: 6, child: badge('0:${dur.toString().padLeft(2, '0')}')),
-            Positioned(left: 6, top: 6, child: badge('JLPT ${clip.level}')),
+            Positioned(left: 6, top: 6, child: badge(tr('JLPT {level}', {'level': clip.level}))),
             if (seen)
               Positioned(
                 right: 6,

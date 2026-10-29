@@ -4,10 +4,11 @@ import { BookOpen, Headphones, Pause, Play, Repeat, RotateCcw, Volume2, VolumeX 
 import { useEffect, useRef, useState } from "react";
 
 import { Mascot } from "@/components/mimi/Mascot";
-import { Button, Screen } from "@/components/mimi/ui";
+import { Button, Hi, Screen } from "@/components/mimi/ui";
 import { FOUNDER_POSTER_URL, FOUNDER_SECONDS, FOUNDER_VIDEO_URL, FOUNDER_VIDEO_WEBM_URL, founderLines } from "@/lib/onboarding";
 import { cachedFounderVideoUrl, refreshOnboardingSettings } from '@/lib/onboarding-settings';
 import { preloadTrial } from '@/lib/trial-preload';
+import { tr } from "@/lib/i18n";
 
 export const Route = createFileRoute("/founder")({
   head: () => ({
@@ -96,10 +97,10 @@ function Founder() {
 
   return (
     <Screen scroll={false} className="px-6">
-      <h1 className="pt-4 text-center text-[1.5rem] font-black">A quick <span className="text-primary">hello</span> before you start</h1>
+      <h1 className="pt-4 text-center text-[1.5rem] font-black"><Hi text={tr("A quick [hello] before you start")} className="text-primary" /></h1>
       <div className="mt-5 flex min-h-0 flex-1 items-center justify-center">
       <div className="relative h-full max-h-80 w-[180px] overflow-hidden rounded-lg bg-stage">
-        <button className="absolute inset-0" onClick={toggle} aria-label={ended ? "Play again" : playing ? "Pause" : "Play"}>
+        <button className="absolute inset-0" onClick={toggle} aria-label={ended ? tr("Play again") : playing ? tr("Pause") : tr("Play")}>
           {!failed ? (
             <video
               ref={videoRef}
@@ -152,7 +153,7 @@ function Founder() {
           <img src={FOUNDER_POSTER_URL} alt="" aria-hidden className="pointer-events-none absolute inset-0 h-full w-full bg-stage object-contain" />
         )}
         {!failed && (
-          <button onClick={toggleMute} aria-label={muted ? "Turn sound on" : "Mute"} className="absolute left-4 top-4 flex h-10 items-center justify-center gap-1.5 rounded-full bg-stage/50 px-2.5">
+          <button onClick={toggleMute} aria-label={muted ? tr("Turn sound on") : tr("Mute")} className="absolute left-4 top-4 flex h-10 items-center justify-center gap-1.5 rounded-full bg-stage/50 px-2.5">
             {muted ? <VolumeX className="h-5 w-5" /> : <Volume2 className="h-5 w-5" />}
           </button>
         )}
@@ -165,9 +166,9 @@ function Founder() {
         </div>}
       </div>
       </div>
-      <h2 className="mt-4 text-center text-[1.0625rem] font-black">Ten minutes a day. Then it just clicks.</h2>
+      <h2 className="mt-4 text-center text-[1.0625rem] font-black">{tr("Ten minutes a day. Then it just clicks.")}</h2>
       <div className="mt-3 grid grid-cols-3 gap-2">
-        {[{ icon: Headphones, label: "Real voices" }, { icon: BookOpen, label: "Words in context" }, { icon: Repeat, label: "Lasting recall" }].map(({ icon: Icon, label }) => (
+        {[{ icon: Headphones, label: tr("Real voices") }, { icon: BookOpen, label: tr("Words in context") }, { icon: Repeat, label: tr("Lasting recall") }].map(({ icon: Icon, label }) => (
           <div key={label} className="flex flex-col items-center gap-1.5 text-center"><Icon className="h-5 w-5 text-primary" /><span className="text-xs text-foreground/70">{label}</span></div>
         ))}
       </div>
@@ -179,7 +180,7 @@ function Founder() {
           </svg>
           <span className="absolute inset-0 flex items-center justify-center text-[0.9375rem] font-black tabular">{left}</span>
         </div>
-        <Button onClick={next}>Continue</Button>
+        <Button onClick={next}>{tr("Continue")}</Button>
       </div>
     </Screen>
   );

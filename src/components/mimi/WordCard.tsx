@@ -14,8 +14,9 @@ import { cn } from "@/lib/utils";
 
 import { AskSheet } from "./AskSheet";
 import { Mascot } from "./Mascot";
-import { Button, Sheet } from "./ui";
+import { Button, Hi, Sheet } from "./ui";
 import { LevelPill } from "./WordLevel";
+import { tr } from "@/lib/i18n";
 
 const TABS = ["Meaning", "Explain", "Examples", "Notes"] as const;
 type Tab = (typeof TABS)[number];
@@ -91,14 +92,14 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
             <p className="font-jp text-[2.25rem] font-black leading-tight">{head}</p>
             <div className="mt-1 flex flex-wrap items-center gap-1.5">
               <span className="text-[0.9375rem] font-bold text-muted-foreground">{w.ro}</span>
-              {entry?.m[0]?.pos[0] && <span className="rounded-md bg-surface-2 px-2 py-0.5 text-[0.75rem] font-extrabold">{entry.m[0].pos[0]}</span>}
-              {!entry?.m[0]?.pos[0] && w.p !== "other" && <span className="rounded-md bg-surface-2 px-2 py-0.5 text-[0.75rem] font-extrabold">{POS_NAMES[w.p] ?? w.p}</span>}
+              {entry?.m[0]?.pos[0] && <span className="rounded-md bg-surface-2 px-2 py-0.5 text-[0.75rem] font-extrabold">{tr(entry.m[0].pos[0])}</span>}
+              {!entry?.m[0]?.pos[0] && w.p !== "other" && <span className="rounded-md bg-surface-2 px-2 py-0.5 text-[0.75rem] font-extrabold">{tr(POS_NAMES[w.p] ?? w.p)}</span>}
               {entry?.j && <span className="rounded-md bg-success-soft px-2 py-0.5 text-[0.75rem] font-extrabold text-success">N{entry.j}</span>}
-              {entry?.c && <span className="rounded-md bg-surface-2 px-2 py-0.5 text-[0.75rem] font-extrabold text-muted-foreground">common</span>}
-              {w.s !== head && <span className="text-[0.8125rem] font-bold text-faint">heard as <span className="font-jp text-muted-foreground">{w.s}</span></span>}
+              {entry?.c && <span className="rounded-md bg-surface-2 px-2 py-0.5 text-[0.75rem] font-extrabold text-muted-foreground">{tr("common")}</span>}
+              {w.s !== head && <span className="text-[0.8125rem] font-bold text-faint"><Hi text={tr("heard as [{word}]", { word: w.s })} className="font-jp text-muted-foreground" /></span>}
             </div>
           </div>
-          <button aria-label="Play pronunciation" onClick={() => speak(reading || head)} className="press mt-2 flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-surface-2">
+          <button aria-label={tr("Play pronunciation")} onClick={() => speak(reading || head)} className="press mt-2 flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-surface-2">
             <Volume2 className="h-5 w-5" />
           </button>
         </div>
@@ -107,17 +108,17 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
         <div className="mt-3 flex items-center gap-2 px-5">
           {!live ? (
             <>
-              <button onClick={() => saveWord(input())} className="btn-3d flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-[0.9375rem] font-extrabold text-primary-foreground"><Plus className="h-4 w-4" strokeWidth={3} /> Save word</button>
-              <button onClick={() => useApp.getState().markKnown([input()])} className="press flex h-11 shrink-0 items-center gap-1.5 rounded-xl bg-surface-2 px-3 text-[0.875rem] font-extrabold"><Check className="h-4 w-4 text-success" strokeWidth={3} /> I know it</button>
+              <button onClick={() => saveWord(input())} className="btn-3d flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-[0.9375rem] font-extrabold text-primary-foreground"><Plus className="h-4 w-4" strokeWidth={3} /> {" "}{tr("Save word")}</button>
+              <button onClick={() => useApp.getState().markKnown([input()])} className="press flex h-11 shrink-0 items-center gap-1.5 rounded-xl bg-surface-2 px-3 text-[0.875rem] font-extrabold"><Check className="h-4 w-4 text-success" strokeWidth={3} /> {" "}{tr("I know it")}</button>
             </>
           ) : (
             <>
               <LevelPill wordKey={key} word={head} />
               <span className="flex-1" />
               {level >= 1 && level <= 4 ? (
-                <button onClick={() => setWordLevel(key, 5)} className="press flex h-11 shrink-0 items-center gap-1.5 rounded-xl bg-surface-2 px-3 text-[0.875rem] font-extrabold"><Check className="h-4 w-4 text-success" strokeWidth={3} /> I know it</button>
+                <button onClick={() => setWordLevel(key, 5)} className="press flex h-11 shrink-0 items-center gap-1.5 rounded-xl bg-surface-2 px-3 text-[0.875rem] font-extrabold"><Check className="h-4 w-4 text-success" strokeWidth={3} /> {" "}{tr("I know it")}</button>
               ) : (
-                <button onClick={() => setWordLevel(key, 1)} className="press flex h-11 shrink-0 items-center gap-1.5 rounded-xl bg-surface-2 px-3 text-[0.875rem] font-extrabold"><RotateCcw className="h-4 w-4 text-primary" strokeWidth={3} /> Learn again</button>
+                <button onClick={() => setWordLevel(key, 1)} className="press flex h-11 shrink-0 items-center gap-1.5 rounded-xl bg-surface-2 px-3 text-[0.875rem] font-extrabold"><RotateCcw className="h-4 w-4 text-primary" strokeWidth={3} /> {" "}{tr("Learn again")}</button>
               )}
             </>
           )}
@@ -126,7 +127,7 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
         <div role="tablist" className="mt-4 flex gap-1 border-b border-border px-4">
           {TABS.map((t) => (
             <button key={t} role="tab" aria-selected={tab === t} data-tour={t === "Explain" ? "cardExplain" : undefined} onClick={() => { track('word_card_tab_selected', { tab: t }); setTab(t); if (t === "Explain") tourEmit("explain"); }} className={cn("relative flex-1 pb-2.5 pt-1 text-[0.875rem] font-extrabold", tab === t ? "text-foreground" : "text-faint")}>
-              {t}
+              {tr(t)}
               {tab === t && <span className="absolute inset-x-3 bottom-0 h-[3px] rounded-full bg-primary" />}
             </button>
           ))}
@@ -137,7 +138,7 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
             <div className="space-y-3">
               {note?.m && (
                 <div className="rounded-2xl bg-primary/10 px-4 py-3">
-                  <p className="text-[0.6875rem] font-black uppercase tracking-[0.12em] text-primary">In this clip</p>
+                  <p className="text-[0.6875rem] font-black uppercase tracking-[0.12em] text-primary">{tr("In this clip")}</p>
                   <p className="mt-0.5 text-[1.125rem] font-extrabold">{note.m}</p>
                 </div>
               )}
@@ -147,14 +148,14 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
                     <li key={i} className="flex gap-3">
                       <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-surface-2 text-[0.75rem] font-black">{i + 1}</span>
                       <span className="text-[0.9375rem] leading-snug">
-                        {m.pos[0] && <span className="mr-1.5 rounded bg-surface-2 px-1.5 py-0.5 text-[0.6875rem] font-extrabold text-muted-foreground">{m.pos[0]}</span>}
+                        {m.pos[0] && <span className="mr-1.5 rounded bg-surface-2 px-1.5 py-0.5 text-[0.6875rem] font-extrabold text-muted-foreground">{tr(m.pos[0])}</span>}
                         {m.g}
                       </span>
                     </li>
                   ))}
                 </ol>
               ) : (
-                !note?.m && <p className="text-[0.9375rem] text-muted-foreground">No dictionary entry for this word — check the Explain tab.</p>
+                !note?.m && <p className="text-[0.9375rem] text-muted-foreground">{tr("No dictionary entry for this word — check the Explain tab.")}</p>
               )}
             </div>
           )}
@@ -162,28 +163,27 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
           {tab === "Explain" && (
             <div className="space-y-3">
               <div data-tour="askButton"><Button variant="surface" size="md" className="w-full" onClick={() => { setAsking(true); tourEmit("askOpened"); }}>
-                <MessageCircleQuestion className="h-[18px] w-[18px] text-primary" /> Still curious? Ask Kizuki
-              </Button></div>
+                <MessageCircleQuestion className="h-[18px] w-[18px] text-primary" /> {" "}{tr("Still curious? Ask Kizuki")}</Button></div>
               <div className="flex gap-3">
                 <Mascot pose="think" className="h-12 w-12 shrink-0" />
                 <div className="rounded-2xl rounded-tl-sm bg-surface-2 px-4 py-3 text-[0.9375rem] leading-relaxed">
                   {note ? (
                     <>
-                      <p><b className="font-jp">{w.s}</b> here means <b>“{note.m}”</b>.</p>
+                      <p><Hi text={tr("[{word}] here means “[{meaning}]”.", { word: w.s, meaning: note.m })} className="font-bold" /></p>
                       <p className="mt-1.5">{note.n}</p>
                     </>
                   ) : notes ? (
-                    <p>This word is a small helper in the sentence — the full line meaning is below.</p>
+                    <p>{tr("This word is a small helper in the sentence — the full line meaning is below.")}</p>
                   ) : (
-                    <p className="text-muted-foreground">Loading explanation…</p>
+                    <p className="text-muted-foreground">{tr("Loading explanation…")}</p>
                   )}
                 </div>
               </div>
               {lineNote && (
                 <div className="rounded-2xl bg-surface-2/60 px-4 py-3">
-                  <p className="text-[0.6875rem] font-black uppercase tracking-[0.12em] text-muted-foreground">The whole line</p>
+                  <p className="text-[0.6875rem] font-black uppercase tracking-[0.12em] text-muted-foreground">{tr("The whole line")}</p>
                   <p className="mt-1 font-jp text-[1rem] font-bold">{clip.lines[line]?.ja}</p>
-                  <p className="mt-1 text-[0.875rem] text-muted-foreground">Literally: {lineNote.lit}</p>
+                  <p className="mt-1 text-[0.875rem] text-muted-foreground">{tr("Literally: {lit}", { lit: lineNote.lit })}</p>
                   {lineNote.tip && <p className="mt-1.5 text-[0.875rem]">💡 {lineNote.tip}</p>}
                 </div>
               )}
@@ -194,7 +194,7 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
             <div className="space-y-4">
               {others.length > 0 && (
                 <div>
-                  <p className="mb-2 text-[0.6875rem] font-black uppercase tracking-[0.12em] text-muted-foreground">Hear it in other clips</p>
+                  <p className="mb-2 text-[0.6875rem] font-black uppercase tracking-[0.12em] text-muted-foreground">{tr("Hear it in other clips")}</p>
                   <div className="flex gap-2 overflow-x-auto pb-1 no-scrollbar">
                     {others.map((id) => {
                       const c = content.byId[id];
@@ -211,7 +211,7 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
               )}
               {entry?.ex.length ? (
                 <div className="space-y-2.5">
-                  <p className="text-[0.6875rem] font-black uppercase tracking-[0.12em] text-muted-foreground">Example sentences</p>
+                  <p className="text-[0.6875rem] font-black uppercase tracking-[0.12em] text-muted-foreground">{tr("Example sentences")}</p>
                   {entry.ex.map((e, i) => (
                     <button key={i} onClick={() => speak(e.ja)} className="press flex w-full items-start gap-3 rounded-2xl bg-surface-2 px-4 py-3 text-left">
                       <span className="min-w-0 flex-1">
@@ -221,10 +221,10 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
                       <Volume2 className="mt-1 h-4 w-4 shrink-0 text-faint" />
                     </button>
                   ))}
-                  <p className="text-[0.6875rem] text-faint">Examples: Tatoeba (CC BY 2.0 FR) via JMdict.</p>
+                  <p className="text-[0.6875rem] text-faint">{tr("Examples: Tatoeba (CC BY 2.0 FR) via JMdict.")}</p>
                 </div>
               ) : (
-                others.length === 0 && <p className="text-[0.9375rem] text-muted-foreground">No other examples yet for this word.</p>
+                others.length === 0 && <p className="text-[0.9375rem] text-muted-foreground">{tr("No other examples yet for this word.")}</p>
               )}
             </div>
           )}
@@ -234,11 +234,11 @@ export function WordCard({ open, onClose, clip, line, idx, content, notes }: Pro
               <textarea
                 defaultValue={live.note}
                 onBlur={(e) => setWordNote(key, e.target.value.slice(0, 500))}
-                placeholder="Add a note — a memory trick, where you heard it…"
+                placeholder={tr("Add a note — a memory trick, where you heard it…")}
                 className="h-32 w-full resize-none rounded-2xl border-2 border-border bg-surface-2 p-3 text-[0.9375rem] outline-none placeholder:text-faint focus:border-primary"
               />
             ) : (
-              <p className="text-[0.9375rem] text-muted-foreground">Save this word to add your own notes.</p>
+              <p className="text-[0.9375rem] text-muted-foreground">{tr("Save this word to add your own notes.")}</p>
             )
           )}
         </div>

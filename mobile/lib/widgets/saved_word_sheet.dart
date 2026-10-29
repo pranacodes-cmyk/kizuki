@@ -11,6 +11,7 @@ import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import 'ui.dart';
 import 'word_level.dart';
+import '../i18n/i18n.dart';
 
 /// The source sentence with the saved word highlighted — mirrors HighlightedLine.
 class HighlightedLine extends StatelessWidget {
@@ -60,10 +61,11 @@ class _SavedWordSheetState extends State<SavedWordSheet> {
     final w = app.words[widget.wordKey] ?? widget.fallback;
     final content = widget.content;
     final entry = w.dictId != null ? content?.dict[w.dictId] : null;
+    final gloss = w.glossIn(content);
     final clip = content?.byId[w.clipId];
     final level = wordLevel(status: w.status, card: w.card);
     final now = DateTime.now().millisecondsSinceEpoch;
-    final review = level >= 1 && level <= 4 ? (w.card.due <= now ? 'Practice now' : 'Next practice ${formatWhen(w.card.due - now)}') : null;
+    final review = level >= 1 && level <= 4 ? (w.card.due <= now ? tr('Practice now') : tr('Next practice {when}', {'when': formatWhen(w.card.due - now)})) : null;
     void close() => Navigator.of(context).pop();
 
     return SingleChildScrollView(
@@ -90,7 +92,7 @@ class _SavedWordSheetState extends State<SavedWordSheet> {
             padding: const EdgeInsets.only(top: 8),
             child: Semantics(
               button: true,
-              label: 'Play pronunciation',
+              label: tr('Play pronunciation'),
               child: Press(onTap: () => Tts.speak(w.reading.isNotEmpty ? w.reading : w.word), child: Container(width: 44, height: 44, decoration: const BoxDecoration(color: T.surface2, shape: BoxShape.circle), child: const Icon(LucideIcons.volume2, size: 20))),
             ),
           ),
@@ -99,7 +101,7 @@ class _SavedWordSheetState extends State<SavedWordSheet> {
             padding: const EdgeInsets.only(top: 8),
             child: Semantics(
               button: true,
-              label: 'Remove from Vocab',
+              label: tr('Remove from Vocab'),
               child: Press(
                 onTap: () {
                   app.removeWord(w.key);
@@ -118,7 +120,7 @@ class _SavedWordSheetState extends State<SavedWordSheet> {
         ]),
         const SizedBox(height: 16),
         // The clip meaning, unless the dictionary's first sense already says the same thing.
-        if (w.gloss.isNotEmpty && (entry == null || entry.m.isEmpty || !repeatsSense(w.gloss, entry.m.first.g))) Text(w.gloss, style: txt(18, w: FontWeight.w800)),
+        if (gloss.isNotEmpty && (entry == null || entry.m.isEmpty || !repeatsSense(gloss, entry.m.first.g))) Text(gloss, style: txt(18, w: FontWeight.w800)),
         if (entry != null)
           Padding(
             padding: const EdgeInsets.only(top: 8),
@@ -136,7 +138,7 @@ class _SavedWordSheetState extends State<SavedWordSheet> {
           ),
         if (clip != null) ...[
           const SizedBox(height: 20),
-          caps('Where you found it'),
+          caps(tr('Where you found it')),
           const SizedBox(height: 8),
           HighlightedLine(clip: clip, line: w.line, idx: w.idx),
           if (w.line < clip.lines.length) Text(clip.lines[w.line].en, style: txt(14, w: FontWeight.w400, c: T.muted)),
@@ -149,7 +151,7 @@ class _SavedWordSheetState extends State<SavedWordSheet> {
             child: Container(
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
               decoration: BoxDecoration(color: T.surface2, borderRadius: BorderRadius.circular(12)),
-              child: Row(children: [Expanded(child: Text('Watch the whole clip', style: txt(14, w: FontWeight.w800))), const Icon(LucideIcons.chevronRight, size: 16)]),
+              child: Row(children: [Expanded(child: Text(tr('Watch the whole clip'), style: txt(14, w: FontWeight.w800))), const Icon(LucideIcons.chevronRight, size: 16)]),
             ),
           ),
         ],
@@ -166,7 +168,7 @@ class _SavedWordSheetState extends State<SavedWordSheet> {
           },
           decoration: InputDecoration(
             counterText: '',
-            hintText: 'Add a note…',
+            hintText: tr('Add a note…'),
             hintStyle: txt(15, w: FontWeight.w400, c: T.faint),
             filled: true,
             fillColor: T.surface2,

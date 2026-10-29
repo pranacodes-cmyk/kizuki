@@ -3,23 +3,56 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
+import '../i18n/i18n.dart';
 import '../logic/logic.dart';
 import '../services/content_pack.dart';
+import '../services/locale_pack.dart';
 import 'models.dart';
+
+/// Translations shown over the English library for one language: the starter translations
+/// bundled in the app plus, when downloaded and verified, the full language pack.
+class _Overlay {
+  final String lang;
+  final Map lines, dict, grammar, notes;
+  final LocalePack? pack;
+  final LocalePackStore? store;
+  _Overlay(this.lang, this.lines, this.dict, this.grammar, this.notes, this.pack, this.store);
+}
 
 /// Loads the clip library + dictionary: the bundled files (same as web public/data), or a
 /// newer server pack once it was downloaded and verified (services/content_pack.dart).
+///
+/// The library is written in English. For another app language the same library is shown
+/// through a translation overlay (services/locale_pack.dart): [clips], [byId] and [dict] then
+/// hold the translated view, and a clip, word or explanation without a translation made for
+/// exactly it stays in English. Mirrors src/lib/content.ts.
 class Content {
   final Map<String, Video> videos;
-  final List<Clip> clips;
-  final Map<String, Clip> byId;
-  final Map<String, DictEntry> dict;
+  final List<Clip> _baseClips;
+  final Map<String, Clip> _baseById;
+  final Map<String, DictEntry> _baseDict;
+  late List<Clip> clips;
+  late Map<String, Clip> byId;
+  late Map<String, DictEntry> dict;
+
+  /// Language [clips] and [dict] are shown in.
+  String lang = 'en';
+  _Overlay? _overlay;
+  final Map<String, ClipNotes> _localNotes = {};
+  final Map<String, Future<Map<String, dynamic>?>> _localeShards = {};
   /// Curated first clips for everyone, in order (scripts/content/pick_starter.py).
   final List<StarterClip> starter;
   final Map<String, ClipNotes> _notes = {};
   final Map<String, Future<Map<String, dynamic>?>> _shards = {};
 
-  Content._(this.videos, this.clips, this.dict, List<String> starterIds) : byId = {for (final c in clips) c.id: c}, starter = [] {
+  Content._(this.videos, List<Clip> clips, Map<String, DictEntry> dict, List<String> starterIds)
+      : _baseClips = clips,
+        _baseDict = dict,
+        _baseById = {for (final c in clips) c.id: c},
+        starter = [] {
+    this.clips = _baseClips;
+    byId = _baseById;
+    this.dict = _baseDict;
     for (final id in starterIds) {
       final c = byId[id];
       if (c != null) starter.add((id: id, level: c.level));
@@ -58,6 +91,7 @@ class Content {
           pack = active;
           _packStore = store;
           _instance = Content._(parsed.$1, parsed.$2, parsed.$3, parsed.$4);
+          await _instance!._useLanguage(I18n.lang.value);
           return _instance!;
         } catch (e) {
           // A pack that does not load is dropped for good; the bundle below takes over.
@@ -71,6 +105,7 @@ class Content {
       final parts = await Future.wait(_partNames(raw).map((p) => rootBundle.loadString('assets/data/$p', cache: false)));
       final parsed = await compute(_parse, [raw, dictRaw, ...parts]);
       _instance = Content._(parsed.$1, parsed.$2, parsed.$3, parsed.$4);
+      await _instance!._useLanguage(I18n.lang.value);
       return _instance!;
     } finally {
       _loading = null;
@@ -101,7 +136,110 @@ class Content {
     return (videos, clips, d, starter);
   }
 
+  /// Shows the library in [code] (after the app language changed). Screens holding this
+  /// Content see the translated view from their next build.
+  static Future<void> useLanguage(String code) async {
+    final c = _instance;
+    if (c != null) await c._useLanguage(code);
+  }
+
+  /// Language pack files the running app reads (never deleted underneath it).
+  static Set<String> get localeFilesInUse => {for (final f in _instance?._overlay?.pack?.manifest.files ?? const <LocalePackFile>[]) f.sha256};
+
+  Future<void> _useLanguage(String code) async {
+    if (code == lang && (code == 'en' || _overlay != null)) return;
+    final o = code == 'en' ? null : await _loadOverlay(code);
+    if (I18n.lang.value != code && code != 'en') return; // switched again meanwhile
+    applyOverlay(code, o?.lines, o?.dict, o?.grammar);
+    _overlay = o;
+    shown.value = code;
+  }
+
+  /// Language the library is shown in; screens holding explanations reload them when it changes.
+  static final shown = ValueNotifier<String>('en');
+
+  /// Test hook too: shows the library through translation maps (null = English).
+  @visibleForTesting
+  void applyOverlay(String code, Map? lines, Map? dictOverlay, Map? grammar) {
+    lang = code;
+    _overlay = null;
+    _localNotes.clear();
+    _localeShards.clear();
+    if (code == 'en' || lines == null) {
+      clips = _baseClips;
+      byId = _baseById;
+      dict = _baseDict;
+      return;
+    }
+    final g = grammar == null || grammar.isEmpty ? null : grammar;
+    clips = [for (final c in _baseClips) localizeClip(c, lines[c.id] is Map ? lines[c.id] as Map : null, g)];
+    byId = {for (final c in clips) c.id: c};
+    dict = {for (final e in _baseDict.entries) e.key: localizeEntry(e.value, dictOverlay?[e.key] is Map ? dictOverlay![e.key] as Map : null)};
+  }
+
+  static Future<_Overlay> _loadOverlay(String code) async {
+    Map<String, dynamic> bundled = const {};
+    try {
+      bundled = await compute(_decodeMap, await rootBundle.loadString('assets/data/locale/$code.json', cache: false));
+    } catch (_) {}
+    Map pick(Object? x) => x is Map ? x : const {};
+    final lines = {...pick(bundled['lines'])}, dict = {...pick(bundled['dict'])}, grammar = {...pick(bundled['grammar'])};
+    final notes = pick(bundled['notes']);
+    final s = await LocalePacks.store();
+    final p = await s?.active(code);
+    if (s != null && p != null) {
+      try {
+        final texts = await Future.wait(['lines.json', 'dict.json', 'grammar.json'].map((n) => s.readText(p, n)));
+        final parsed = await compute(_decodeMaps, texts);
+        // The pack is newer than the app; the bundled starter translations fill what it lacks.
+        lines.addAll(parsed[0]);
+        dict.addAll(parsed[1]);
+        grammar.addAll(parsed[2]);
+        return _Overlay(code, lines, dict, grammar, notes, p, s);
+      } catch (e) {
+        // A pack that does not load (cache cleared, file changed) is dropped; it downloads again.
+        debugPrint('KIZUKI_ERROR language pack $code: $e');
+        await s.deactivate(code);
+      }
+    }
+    return _Overlay(code, lines, dict, grammar, notes, null, null);
+  }
+
+  static List<Map<String, dynamic>> _decodeMaps(List<String> texts) => [for (final t in texts) jsonDecode(t) as Map<String, dynamic>];
+
+  /// A clip's explanations in the app language (English where no translation was made for it).
   Future<ClipNotes> notes(String clipId) async {
+    final o = _overlay;
+    if (o == null) return _baseNotes(clipId);
+    final hit = _localNotes[clipId];
+    if (hit != null) return hit;
+    final base = await _baseNotes(clipId);
+    final clip = _baseById[clipId];
+    if (clip == null) return base;
+    Object? n;
+    final p = o.pack, s = o.store;
+    if (p != null && s != null) n = (await _localeShard(s, p, clipId))?[clipId];
+    n ??= o.notes[clipId];
+    final out = localizeNotes(base, n is Map ? n : null, clipLocaleSig(clip.lines));
+    if (identical(o, _overlay)) _localNotes[clipId] = out;
+    return out;
+  }
+
+  /// A language pack's notes file, decoded off the UI thread; the two most recent stay in memory.
+  Future<Map<String, dynamic>?> _localeShard(LocalePackStore s, LocalePack p, String clipId) {
+    final name = 'notes-${localeNoteShard(clipId).toString().padLeft(2, '0')}.json';
+    final hit = _localeShards.remove(name);
+    if (hit != null) return _localeShards[name] = hit;
+    final f = s.readText(p, name).then((t) => compute(_decodeMap, t)).then<Map<String, dynamic>?>((m) => m, onError: (Object _) => null);
+    _localeShards[name] = f;
+    while (_localeShards.length > 2) {
+      _localeShards.remove(_localeShards.keys.first);
+    }
+    return f;
+  }
+
+  /// Explanations as built (English).
+  Future<ClipNotes> _baseNotes(String clipId) async {
     final cached = _notes[clipId];
     if (cached != null) return cached;
     final p = pack, s = _packStore;

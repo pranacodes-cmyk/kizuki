@@ -1,0 +1,406 @@
+[
+ {
+  "key": "{learning} learning · {known} known",
+  "from": "{learning} em estudo · {known} conhecidas",
+  "to": "{learning} aprendendo · {known} conhecidas",
+  "why": "Match the term sheet for 'Learning' ('Aprendendo').",
+  "status": "applied"
+ },
+ {
+  "key": "100+ lines",
+  "from": "100+ falas",
+  "to": "100+ linhas",
+  "why": "Use 'linhas' to be consistent with the translation of 'lines' in string 34.",
+  "status": "applied"
+ },
+ {
+  "key": "Bite-sized clips {when}",
+  "from": "Vídeos curtinhos {when}",
+  "to": "Clipes curtinhos {when}",
+  "why": "Consistency with the term sheet which translates 'clips' as 'clipes'.",
+  "status": "applied"
+ },
+ {
+  "key": "Clip not found",
+  "from": "Vídeo não encontrado",
+  "to": "Clipe não encontrado",
+  "why": "Consistency with the term sheet which translates 'clip' as 'clipe'.",
+  "status": "applied"
+ },
+ {
+  "key": "Clip saved",
+  "from": "Vídeo salvo",
+  "to": "Clipe salvo",
+  "why": "Consistency with the term sheet which translates 'clip' as 'clipe'.",
+  "status": "applied"
+ },
+ {
+  "key": "Clips that use a pattern",
+  "from": "Vídeos que usam uma estrutura",
+  "to": "Clipes que usam uma estrutura",
+  "why": "Consistency with the term sheet which translates 'clips' as 'clipes'.",
+  "status": "applied"
+ },
+ {
+  "key": "Clips you bookmarked",
+  "from": "Vídeos que você salvou",
+  "to": "Clipes que você salvou",
+  "why": "Consistency with the term sheet which translates 'clips' as 'clipes'.",
+  "status": "applied"
+ },
+ {
+  "key": "Clips you watch will show up here.",
+  "from": "Os vídeos que você assistir vão aparecer aqui.",
+  "to": "Os clipes que você assistir vão aparecer aqui.",
+  "why": "Consistency with the term sheet which translates 'clips' as 'clipes'.",
+  "status": "applied"
+ },
+ {
+  "key": "Come back tomorrow, or unlock every clip with a free week of Premium.",
+  "from": "Volte amanhã ou libere todos os vídeos com uma semana grátis de Premium.",
+  "to": "Volte amanhã ou libere todos os clipes com uma semana grátis de Premium.",
+  "why": "Consistency with the term sheet which translates 'clip' as 'clipe'.",
+  "status": "applied"
+ },
+ {
+  "key": "Couldn't load clips",
+  "from": "Não foi possível carregar os vídeos",
+  "to": "Não foi possível carregar os clipes",
+  "why": "Consistent with the term sheet translation of 'clips' as 'clipes' (e.g., 'Assistir a clipes').",
+  "status": "applied"
+ },
+ {
+  "key": "Couldn't load this clip",
+  "from": "Não foi possível carregar este vídeo",
+  "to": "Não foi possível carregar este clipe",
+  "why": "Consistent with the term sheet translation of 'clip' as 'clipe'.",
+  "status": "applied"
+ },
+ {
+  "key": "Every word you tap is saved in Vocab.",
+  "from": "Cada palavra em que você toca é salva em Vocabulário.",
+  "to": "Cada palavra em que você toca é salva em Palavras.",
+  "why": "The term sheet specifies 'Vocab' must be translated as 'Palavras'.",
+  "status": "applied"
+ },
+ {
+  "key": "Go to the feed",
+  "from": "Ir para o feed",
+  "to": "Ir para Vídeos",
+  "why": "The term sheet specifies that 'Feed' must be translated as 'Vídeos'.",
+  "status": "applied"
+ },
+ {
+  "key": "How well do you know [{word}]?",
+  "from": "Você conhece bem [{word}]?",
+  "to": "O quanto você conhece [{word}]?",
+  "why": "\"How well do you know\" asks for a degree, not a yes/no question.",
+  "status": "applied"
+ },
+ {
+  "key": "Is it casual or polite?",
+  "from": "É informal ou educado?",
+  "to": "É informal ou formal?",
+  "why": "In the context of language registers, \"polite\" is better translated as \"formal\" rather than \"educado\".",
+  "status": "applied"
+ },
+ {
+  "key": "Kizuki will show you around on the feed.",
+  "from": "O Kizuki vai mostrar como usar o feed.",
+  "to": "O Kizuki vai mostrar como usar os Vídeos.",
+  "why": "\"Feed\" must be translated as \"Vídeos\" according to the term sheet.",
+  "status": "applied"
+ },
+ {
+  "key": "Known {known}",
+  "from": "Conhecidas {known}",
+  "to": "Já sei {known}",
+  "why": "The term sheet specifies 'Known' as 'Já sei'.",
+  "status": "applied"
+ },
+ {
+  "key": "No dictionary entry for this word — check the Explain tab.",
+  "from": "Esta palavra não está no dicionário — confira a aba Explicar.",
+  "to": "Esta palavra não está no dicionário — confira a aba Explicação.",
+  "why": "The term sheet specifies 'Explain' as 'Explicação'.",
+  "status": "applied"
+ },
+ {
+  "key": "Now tap Explain",
+  "from": "Agora toque em Explicar",
+  "to": "Agora toque em Explicação",
+  "why": "Term sheet defines 'Explain' as 'Explicação'.",
+  "status": "applied"
+ },
+ {
+  "key": "Preview of your feed",
+  "from": "Prévia do seu feed",
+  "to": "Prévia dos seus vídeos",
+  "why": "Term sheet defines 'Feed' as 'Vídeos'.",
+  "status": "applied"
+ },
+ {
+  "key": "Real Japanese you hear in 10 minutes",
+  "from": "Ouça japonês de verdade em 10 minutos",
+  "to": "Japonês de verdade que você ouve em 10 minutos",
+  "why": "The original is a noun phrase, not an imperative command, fitting a list of benefits.",
+  "status": "applied"
+ },
+ {
+  "key": "Remove from Vocab",
+  "from": "Remover do vocabulário",
+  "to": "Remover de Palavras",
+  "why": "The term sheet specifies 'Vocab' should be translated as 'Palavras'.",
+  "status": "applied"
+ },
+ {
+  "key": "Settings & restore purchase",
+  "from": "Configurações e restauração de compra",
+  "to": "Configurações e restaurar compra",
+  "why": "Matches the term sheet for 'Restore purchase' ('Restaurar compra') exactly.",
+  "status": "applied"
+ },
+ {
+  "key": "Sign in with your Premium account to ask about this line. Your words and streak sync too.",
+  "from": "Entre com sua conta Premium para tirar dúvidas sobre esta fala. Suas palavras e sua sequência de dias também serão sincronizadas.",
+  "to": "Entre com sua conta Premium para tirar dúvidas sobre esta fala. Suas palavras e sequência também sincronizam.",
+  "why": "Term sheet specifies 'Sequência' for 'Streak'.",
+  "status": "applied"
+ },
+ {
+  "key": "Tap Ask Kizuki",
+  "from": "Toque em Perguntar ao Kizuki",
+  "to": "Toque em Pergunte ao Kizuki",
+  "why": "Term sheet specifies 'Pergunte ao Kizuki' for 'Ask Kizuki'.",
+  "status": "applied"
+ },
+ {
+  "key": "Tap Vocab",
+  "from": "Toque em Vocabulário",
+  "to": "Toque em Palavras",
+  "why": "Term sheet specifies 'Palavras' for 'Vocab'.",
+  "status": "applied"
+ },
+ {
+  "key": "You can close this page and return to the Kizuki app — your words, streak and reviews are syncing.",
+  "from": "Você pode fechar esta página e voltar ao app Kizuki — suas palavras, sua sequência de dias e suas revisões estão sendo sincronizadas.",
+  "to": "Você pode fechar esta página e voltar ao app Kizuki — suas palavras, sua sequência e suas revisões estão sendo sincronizadas.",
+  "why": "The term sheet specifies 'Streak' as 'Sequência', so 'sequência de dias' should just be 'sequência'.",
+  "status": "applied"
+ },
+ {
+  "key": "Your subscription starts. Cancel anytime before.",
+  "from": "Sua assinatura começa. Você pode cancelar a qualquer momento antes disso.",
+  "to": "Sua assinatura começa. Cancele a qualquer momento antes.",
+  "why": "Shorter and more direct, fitting UI constraints better than adding 'Você pode...'.",
+  "status": "applied"
+ },
+ {
+  "key": "{known} / {total} known",
+  "from": "{known} / {total} conhecidas",
+  "to": "{known} / {total} aprendidas",
+  "why": "\"Conhecida\" is the term for the Familiar level, so using it for known words is confusing.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "{learning} learning · {known} known",
+  "from": "{learning} aprendendo · {known} conhecidas",
+  "to": "{learning} aprendendo · {known} aprendidas",
+  "why": "\"Conhecidas\" clashes with the Familiar level name; \"aprendidas\" matches \"Quase aprendida\".",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "{n} word marked as known",
+  "from": "{n} palavra marcada como conhecida",
+  "to": "{n} palavra marcada como aprendida",
+  "why": "Avoids confusion with the Familiar level \"Conhecida\".",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "{n} words marked as known",
+  "from": "{n} palavras marcadas como conhecidas",
+  "to": "{n} palavras marcadas como aprendidas",
+  "why": "Avoids confusion with the Familiar level \"Conhecida\".",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "{minutes} minutes of real Japanese — Kizuki picked new clips for you.",
+  "from": "{minutes} minutos de japonês de verdade — Kizuki selecionou novos clipes para você.",
+  "to": "{minutes} minutos de japonês de verdade — o Kizuki selecionou novos clipes para você.",
+  "why": "The rest of the app refers to the character as \"o Kizuki\".",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "{unlocked} of {total} unlocked",
+  "from": "{unlocked} de {total} desbloqueados",
+  "to": "{unlocked} de {total} desbloqueadas",
+  "why": "\"Conquistas\" is feminine, so the participle must agree.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "A video won't play",
+  "from": "Um vídeo não está reproduzindo",
+  "to": "Um vídeo não reproduz",
+  "why": "\"Não está reproduzindo\" sounds unnatural in Brazilian Portuguese.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "About [{word}] in this line",
+  "from": "Sobre [{word}] nesta fala",
+  "to": "Sobre [{word}] nesta frase",
+  "why": "Other strings translate \"line\" as \"frase\", so this keeps the term consistent.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "About this line",
+  "from": "Sobre esta fala",
+  "to": "Sobre esta frase",
+  "why": "Other strings translate \"line\" as \"frase\", so this keeps the term consistent.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Commit to {value} days",
+  "from": "Comprometa-se por {value} dias",
+  "to": "Comprometa-se com {value} dias",
+  "why": "\"Comprometer-se por\" is unidiomatic; Brazilians say \"comprometer-se com\".",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Get help",
+  "from": "Obter ajuda",
+  "to": "Pedir ajuda",
+  "why": "\"Obter ajuda\" sounds machine-translated; \"Pedir ajuda\" is the natural button label.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Mark remaining {n} word as known",
+  "from": "Marcar {n} palavra restante como conhecida",
+  "to": "Marcar {n} palavra restante como “Já sei”",
+  "why": "“Conhecida” is the term for the Familiar level; Known is “Já sei” per the term sheet.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Mark remaining {n} words as known",
+  "from": "Marcar {n} palavras restantes como conhecidas",
+  "to": "Marcar {n} palavras restantes como “Já sei”",
+  "why": "“Conhecidas” is the term for the Familiar level; Known is “Já sei” per the term sheet.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "I know it",
+  "from": "Já conheço",
+  "to": "Já sei",
+  "why": "This button sets the Known level, so it should match the term-sheet label “Já sei” rather than suggest Familiar.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Learn Japanese from real clips.",
+  "from": "Aprenda japonês com trechos de vídeos reais.",
+  "to": "Aprenda japonês com clipes reais.",
+  "why": "The app calls them “clipes” everywhere else, and this is also shorter for the splash screen.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Hour of Power",
+  "from": "Hora de poder",
+  "to": "Hora do poder",
+  "why": "“Hora do poder” sounds like a natural, playful badge name; “Hora de poder” reads as a literal translation.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "No line · known word",
+  "from": "Sem sublinhado · palavra conhecida",
+  "to": "Sem sublinhado · palavra que você já sabe",
+  "why": "'Conhecida' is the term for the Familiar level, so it clashes with the Known level ('Já sei').",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Pick a streak goal. Kizuki will cheer you on.",
+  "from": "Escolha uma meta de dias seguidos. Kizuki vai torcer por você.",
+  "to": "Escolha uma meta de sequência. O Kizuki vai torcer por você.",
+  "why": "Uses the term-sheet word for streak and the article 'o Kizuki', as elsewhere in the app.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Open Kizuki → Profile → Settings → Delete account. This permanently deletes your account, saved words, reviews, streak and cloud progress.",
+  "from": "Abra Kizuki → Perfil → Configurações → Excluir conta. Isso exclui permanentemente sua conta, palavras salvas, revisões, sequência e progresso na nuvem.",
+  "to": "Abra o Kizuki → Perfil → Configurações → Excluir conta. Isso exclui permanentemente sua conta, palavras salvas, revisões, sequência e progresso na nuvem.",
+  "why": "Brazilian Portuguese needs the article ('o Kizuki'), matching the rest of the app.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Short scenes from anime, dramas, vlogs and street interviews — tap any word for its meaning, save it, and review it with the original audio. Interactive Android app prototype.",
+  "from": "Cenas curtas de animes, dramas, vlogs e entrevistas de rua — toque em qualquer palavra para ver o significado, salve e revise com o áudio original. Protótipo interativo de app para Android.",
+  "to": "Cenas curtas de animes, doramas, vlogs e entrevistas de rua — toque em qualquer palavra para ver o significado, salve e revise com o áudio original. Protótipo interativo de app para Android.",
+  "why": "Use 'doramas' consistently with the other strings.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Tell us what happened or what you would like…",
+  "from": "Conte o que aconteceu ou o que você gostaria…",
+  "to": "Conte o que aconteceu ou deixe sua sugestão…",
+  "why": "'o que você gostaria' is left grammatically incomplete in Portuguese.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Sign in with your Premium account to ask about this line. Your words and streak sync too.",
+  "from": "Entre com sua conta Premium para tirar dúvidas sobre esta fala. Suas palavras e sequência também sincronizam.",
+  "to": "Entre com sua conta Premium para tirar dúvidas sobre esta fala. Suas palavras e sua sequência também são sincronizadas.",
+  "why": "The original wording is unnatural; the passive voice reads better here.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Your subscription starts. Cancel anytime before.",
+  "from": "Sua assinatura começa. Cancele a qualquer momento antes.",
+  "to": "Sua assinatura começa. Cancele quando quiser antes disso.",
+  "why": "The current phrasing 'Cancele a qualquer momento antes' sounds like a literal translation; this reads naturally.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "We'll remind you before your trial ends",
+  "from": "Vamos avisar antes de seu teste grátis acabar",
+  "to": "Vamos avisar você antes do fim do teste grátis",
+  "why": "Smoother, more idiomatic Brazilian phrasing than 'antes de seu teste grátis acabar'.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Vlogs",
+  "from": "Diários em vídeo",
+  "to": "Vlogs",
+  "why": "Brazilian users say 'vlogs'; 'Diários em vídeo' sounds like a dictionary translation.",
+  "status": "applied",
+  "stage": "proof"
+ },
+ {
+  "key": "Vibration feedback",
+  "from": "Resposta por vibração",
+  "to": "Vibração",
+  "why": "'Resposta por vibração' is a machine-like calque; Brazilian apps label this setting simply 'Vibração'.",
+  "status": "applied",
+  "stage": "proof"
+ }
+]
