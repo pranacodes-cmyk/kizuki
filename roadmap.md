@@ -1,5 +1,9 @@
 # Migration: Lovable Cloud → External Supabase (gcoboyhfhadivheoilxp)
 
+## Requested Android + iOS release — 2026-10-30
+- [ ] Snapshot latest source and dispatch store checks/builds for Google Play internal and TestFlight.
+- [ ] Verify uploads and report exact build/status; preserve iOS App Group validation.
+
 ## Five learner languages (vi, id, th, ko, pt-BR) + R2 language packs — 2026-10-29
 - [x] R2 bucket `kizuki-packs` created (free tier), public r2.dev URL + CORS + API upload verified.
 - [x] Translation pipeline scripts/i18n/translate_content.py (deterministic checks + independent review); durable store scripts/i18n/store_content.py → scripts/i18n/content/<lang>/ (gz, restorable).

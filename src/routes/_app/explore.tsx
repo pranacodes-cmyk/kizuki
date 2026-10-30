@@ -1,6 +1,6 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { Search, X } from "lucide-react";
-import { useDeferredValue, useMemo, useState } from "react";
+import { useDeferredValue, useMemo, useRef, useState } from "react";
 import { z } from "zod";
 
 import { ClipCard } from "@/components/mimi/ClipCard";
@@ -48,6 +48,7 @@ function Explore() {
   const search = Route.useSearch();
   const navigate = useNavigate({ from: "/explore" });
   const [text, setText] = useState(search.q ?? "");
+  const searchInput = useRef<HTMLInputElement>(null);
   const q = useDeferredValue(text);
   const [panel, setPanel] = useState<"level" | "grammar" | "topic" | null>(null);
   const set = (patch: Partial<z.infer<typeof searchSchema>>) => void navigate({ search: (s) => ({ ...s, ...patch }), replace: true });
@@ -69,6 +70,7 @@ function Explore() {
         <label className="flex h-12 items-center gap-2 rounded-2xl border-2 border-border bg-surface px-3 focus-within:border-primary">
           <Search className="h-5 w-5 text-faint" />
           <input
+            ref={searchInput}
             value={text}
             onChange={(e) => { setText(e.target.value.slice(0, 60)); set({ q: e.target.value.slice(0, 60) || undefined }); }}
             placeholder={tr("English, Japanese or romaji")}
@@ -116,7 +118,7 @@ function Explore() {
             </div>
             <div className="mt-3 grid grid-cols-2 gap-3">
               {SECTIONS.map((s) => (
-                <button key={s.id} onClick={() => (s.id === "word" ? document.querySelector<HTMLInputElement>("input[aria-label='Search clips']")?.focus() : setPanel(s.id))} className="press rounded-2xl bg-surface p-4 text-left">
+                <button key={s.id} onClick={() => (s.id === "word" ? searchInput.current?.focus() : setPanel(s.id))} className="press rounded-2xl bg-surface p-4 text-left">
                   <span className="text-[1.75rem]">{s.icon}</span>
                   <p className="mt-2 text-[1rem] font-extrabold">{tr(s.title)}</p>
                   <p className="text-[0.8125rem] leading-snug text-muted-foreground">{tr(s.body)}</p>
