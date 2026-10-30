@@ -16,6 +16,10 @@ from common import asc
 GROUP = 'group.com.kizukijapan.app.widgets'
 TARGETS = [('com.kizukijapan.app', 'Kizuki App Store CI'), ('com.kizukijapan.app.widgets', 'Kizuki Widgets App Store CI')]
 
+def exact_bundle_ids(candidates, bundle):
+    # Apple's identifier filter can also return a prefixed extension identifier.
+    return [item for item in candidates if item.get('attributes', {}).get('identifier') == bundle]
+
 def profile_problem(profile, bundle):
     ent = profile.get('Entitlements', {})
     if GROUP not in ent.get('com.apple.security.application-groups', []):
@@ -37,7 +41,7 @@ def install_profiles(seed_path):
     if len(matching) != 1:
         raise RuntimeError('Cannot uniquely match the installed CI signing certificate. No profiles changed.')
     for bundle, name in TARGETS:
-        ids = asc('GET', '/v1/bundleIds', params={'filter[identifier]': bundle})['data']
+        ids = exact_bundle_ids(asc('GET', '/v1/bundleIds', params={'filter[identifier]': bundle})['data'], bundle)
         if len(ids) != 1:
             raise RuntimeError(f'Register the widget App ID {bundle} first.')
         bid = ids[0]['id']

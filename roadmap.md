@@ -1,5 +1,11 @@
 # Migration: Lovable Cloud → External Supabase (gcoboyhfhadivheoilxp)
 
+## Requested Android + iOS release — 2026-10-30
+- [x] Snapshot latest source on release/20261030-1793330003; dispatch both store targets and Android emulator checks.
+- [x] Android 1.2.0 (129) uploaded; Google Play internal read-back confirms versionCodes [129], status completed. Flutter checks pass.
+- [ ] iOS upload requested again: fresh distribution certificate and matching app/widget profiles verified with assigned App Group; encrypted GitHub signing secrets replaced. Exact bundle-ID filtering corrected; dispatch and Apple upload read-back pending.
+- [ ] Android emulator verification blocked: run 40996153758 times out waiting for welcome screen (same failure as previous build). App-flow test needs first-run language-picker investigation; build 129 is internal only, not production.
+
 ## Five learner languages (vi, id, th, ko, pt-BR) + R2 language packs — 2026-10-29
 - [x] R2 bucket `kizuki-packs` created (free tier), public r2.dev URL + CORS + API upload verified.
 - [x] Translation pipeline scripts/i18n/translate_content.py (deterministic checks + independent review); durable store scripts/i18n/store_content.py → scripts/i18n/content/<lang>/ (gz, restorable).
