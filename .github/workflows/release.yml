@@ -147,7 +147,7 @@ jobs:
           APPLE_ISSUER_ID: ${{ secrets.APPLE_ISSUER_ID }}
           APPLE_P8_PRIVATE_KEY: ${{ secrets.APPLE_P8_PRIVATE_KEY }}
         run: |
-          pip install --quiet pyjwt cryptography requests
+          python3 -m pip install --quiet pyjwt cryptography requests
           python3 ../scripts/stores/widget_profiles.py --seed-profile "$RUNNER_TEMP/kizuki.mobileprovision"
       - name: Build IPA
         run: flutter build ipa --release --build-name=${{ needs.checks.outputs.name }} --build-number=${{ needs.checks.outputs.build }} --export-options-plist=ios/ExportOptions.plist
