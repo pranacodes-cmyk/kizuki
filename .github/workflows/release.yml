@@ -147,8 +147,9 @@ jobs:
           APPLE_ISSUER_ID: ${{ secrets.APPLE_ISSUER_ID }}
           APPLE_P8_PRIVATE_KEY: ${{ secrets.APPLE_P8_PRIVATE_KEY }}
         run: |
-          python3 -m pip install --quiet pyjwt cryptography requests
-          python3 ../scripts/stores/widget_profiles.py --seed-profile "$RUNNER_TEMP/kizuki.mobileprovision"
+          python3 -m venv "$RUNNER_TEMP/signing-python"
+          "$RUNNER_TEMP/signing-python/bin/python" -m pip install --quiet pyjwt cryptography requests
+          "$RUNNER_TEMP/signing-python/bin/python" ../scripts/stores/widget_profiles.py --seed-profile "$RUNNER_TEMP/kizuki.mobileprovision"
       - name: Build IPA
         run: flutter build ipa --release --build-name=${{ needs.checks.outputs.name }} --build-number=${{ needs.checks.outputs.build }} --export-options-plist=ios/ExportOptions.plist
       - uses: actions/upload-artifact@v4
