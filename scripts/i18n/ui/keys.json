@@ -377,7 +377,9 @@
  {
   "key": "A little Japanese.",
   "files": [
-   "src/routes/widgets.tsx"
+   "src/routes/_app/profile.tsx",
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/profile.dart"
   ],
   "note": "Widget page headline, first line; second line is 'Every time you look.'"
  },
@@ -618,10 +620,10 @@
  {
   "key": "App language",
   "files": [
-   "src/routes/settings.tsx",
    "src/routes/language.tsx",
-   "mobile/lib/screens/settings.dart",
-   "mobile/lib/screens/language.dart"
+   "src/routes/settings.tsx",
+   "mobile/lib/screens/language.dart",
+   "mobile/lib/screens/settings.dart"
   ]
  },
  {
@@ -984,13 +986,13 @@
   "key": "Continue",
   "files": [
    "src/routes/founder.tsx",
+   "src/routes/language.tsx",
    "src/routes/onboarding.tsx",
    "src/routes/plan.tsx",
-   "src/routes/language.tsx",
    "mobile/lib/screens/founder.dart",
+   "mobile/lib/screens/language.dart",
    "mobile/lib/screens/onboarding.dart",
    "mobile/lib/screens/plan.dart",
-   "mobile/lib/screens/language.dart",
    "mobile/lib/widgets/tracking_explainer.dart"
   ]
  },
@@ -1039,6 +1041,12 @@
   "key": "Copy real rhythm and intonation, line by line",
   "files": [
    "src/lib/logic.ts"
+  ]
+ },
+ {
+  "key": "Could not change your lock screen. Please try again.",
+  "files": [
+   "mobile/lib/screens/home_widgets.dart"
   ]
  },
  {
@@ -1261,6 +1269,12 @@
   "files": [
    "src/routes/index.tsx",
    "mobile/lib/screens/welcome.dart"
+  ]
+ },
+ {
+  "key": "Done! Lock your phone to see today’s word.",
+  "files": [
+   "mobile/lib/screens/home_widgets.dart"
   ]
  },
  {
@@ -1944,8 +1958,8 @@
  {
   "key": "Home & Lock Screen widgets",
   "files": [
-   "src/routes/settings.tsx",
-   "mobile/lib/screens/settings.dart"
+   "src/routes/_app/profile.tsx",
+   "mobile/lib/screens/profile.dart"
   ]
  },
  {
@@ -2020,8 +2034,8 @@
   "files": [
    "src/routes/index.tsx",
    "src/routes/trial.tsx",
-   "mobile/lib/screens/welcome.dart",
-   "mobile/lib/screens/trial.dart"
+   "mobile/lib/screens/trial.dart",
+   "mobile/lib/screens/welcome.dart"
   ]
  },
  {
@@ -2462,8 +2476,8 @@
    "src/routes/settings.tsx",
    "src/routes/widgets.tsx",
    "src/components/mimi/ClipSheets.tsx",
-   "mobile/lib/screens/home_widgets.dart",
    "mobile/lib/screens/settings.dart",
+   "mobile/lib/screens/home_widgets.dart",
    "mobile/lib/widgets/clip_sheets.dart"
   ],
   "note": "Text size option / home-screen widget size."
@@ -2651,9 +2665,8 @@
   "note": "Lock-screen widget (short tab label)."
  },
  {
-  "key": "Lock-screen widgets are supported only on some Android versions and devices. Use your device’s widget picker if available.",
+  "key": "Lock screen word turned off.",
   "files": [
-   "src/routes/widgets.tsx",
    "mobile/lib/screens/home_widgets.dart"
   ]
  },
@@ -2809,12 +2822,6 @@
   "key": "Morning",
   "files": [
    "src/lib/onboarding.ts"
-  ]
- },
- {
-  "key": "Mount Fuji beside a Japanese lake",
-  "files": [
-   "src/routes/widgets.tsx"
   ]
  },
  {
@@ -3056,6 +3063,19 @@
    "src/lib/logic.ts"
   ],
   "note": "Playful achievement badge name (3-day streak). Short and fun."
+ },
+ {
+  "key": "On Android, tap Show on lock screen in the app — Kizuki sets a simple black lock screen with today’s word.",
+  "files": [
+   "src/routes/widgets.tsx"
+  ]
+ },
+ {
+  "key": "One new Japanese word on your lock screen every day. No setup — just tap the button.",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ]
  },
  {
   "key": "One quick question",
@@ -3950,6 +3970,13 @@
   ]
  },
  {
+  "key": "Show on lock screen",
+  "files": [
+   "src/routes/widgets.tsx",
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
   "key": "Show reading",
   "files": [
    "src/routes/widgets.tsx",
@@ -4072,8 +4099,8 @@
    "src/routes/settings.tsx",
    "src/routes/widgets.tsx",
    "src/components/mimi/ClipSheets.tsx",
-   "mobile/lib/screens/home_widgets.dart",
    "mobile/lib/screens/settings.dart",
+   "mobile/lib/screens/home_widgets.dart",
    "mobile/lib/widgets/clip_sheets.dart"
   ],
   "note": "Home-screen widget size."
@@ -4767,6 +4794,12 @@
   ]
  },
  {
+  "key": "Turn off lock screen word",
+  "files": [
+   "mobile/lib/screens/home_widgets.dart"
+  ]
+ },
+ {
   "key": "Turn sound on",
   "files": [
    "src/routes/founder.tsx",
@@ -4830,8 +4863,8 @@
  {
   "key": "Unstoppable",
   "files": [
-   "src/lib/onboarding.ts",
-   "src/lib/logic.ts"
+   "src/lib/logic.ts",
+   "src/lib/onboarding.ts"
   ],
   "note": "Playful achievement badge name (30-day streak). Short and fun."
  },

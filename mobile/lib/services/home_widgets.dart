@@ -97,6 +97,14 @@ class HomeWidgets {
     try { return await channel.invokeMethod<bool>('pin', wide) ?? false; } catch (_) { return false; }
   }
 
+  /// Android only: daily word drawn as the lock-screen wallpaper (phones have no third-party lock widgets).
+  static Future<bool> setLockWord(bool on) async {
+    try { return await channel.invokeMethod<bool>('lockWord', on) ?? false; } catch (_) { return false; }
+  }
+  static Future<bool> lockWordEnabled() async {
+    try { return await channel.invokeMethod<bool>('lockWordEnabled') ?? false; } catch (_) { return false; }
+  }
+
   static void dispose() {
     _app?.removeListener(refresh);
     _links?.cancel();

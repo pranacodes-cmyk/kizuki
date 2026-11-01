@@ -39,6 +39,8 @@ GoRouter buildRouter(AppState app) {
   return GoRouter(
     initialLocation: app.onboarded ? '/feed' : '/',
     refreshListenable: app,
+    // Unknown links (old widget taps, stray deep links) land on the main screen, never an error page.
+    onException: (context, state, router) => router.go(app.onboarded ? '/feed' : '/'),
     redirect: (context, state) {
       final p = state.uri.path;
       if (purchaseNeedsAccount(app.purchaseAccountPending, false) && !['/account', '/terms', '/privacy', '/support'].contains(p)) return '/account?mode=signin';

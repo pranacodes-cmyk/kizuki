@@ -18,6 +18,7 @@ class MainActivity : FlutterActivity() {
                     if (json == null) prefs.remove("snapshot") else prefs.putString("snapshot", json)
                     prefs.commit()
                     KizukiWidget.refreshAll(this)
+                    LockWord.apply(this)
                     result.success(null)
                 }
                 "pin" -> {
@@ -27,6 +28,8 @@ class MainActivity : FlutterActivity() {
                         result.success(manager.requestPinAppWidget(ComponentName(this, cls), null, null))
                     } else result.success(false)
                 }
+                "lockWord" -> result.success(LockWord.setEnabled(this, call.arguments == true))
+                "lockWordEnabled" -> result.success(LockWord.enabled(this))
                 else -> result.notImplemented()
             }
         }

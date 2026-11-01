@@ -9,6 +9,7 @@ import '../services/home_widgets.dart';
 import '../state/app_state.dart';
 import '../theme/tokens.dart';
 import '../widgets/ui.dart';
+import '../widgets/toast.dart';
 import '../i18n/i18n.dart';
 
 class HomeWidgetsScreen extends StatefulWidget {
@@ -21,6 +22,12 @@ class _HomeWidgetsScreenState extends State<HomeWidgetsScreen> {
   String family = 'medium';
   int index = 0;
   bool adding = false;
+  bool lockOn = false;
+  @override
+  void initState() {
+    super.initState();
+    if (Platform.isAndroid) HomeWidgets.lockWordEnabled().then((v) { if (mounted) setState(() => lockOn = v); });
+  }
   @override
   Widget build(BuildContext context) {
     final a = context.watch<AppState>();
@@ -52,16 +59,27 @@ class _HomeWidgetsScreenState extends State<HomeWidgetsScreen> {
         _toggle(tr('Show meaning'), a.settings.widgetMeaning, (v) => a.setSettings((s) => s.widgetMeaning = v)),
         Text(tr('Saved words and review progress will be visible to anyone looking at your screen.'), style: txt(12, c: T.muted)),
         const SizedBox(height: 24),
-        Button3D(label: adding ? tr('Opening…') : tr('Add widget'), onPressed: adding ? null : () async {
+        if (Platform.isAndroid && family == 'lock') ...[
+          Text(tr('One new Japanese word on your lock screen every day. No setup — just tap the button.'), style: txt(14, c: T.muted)),
+          const SizedBox(height: 16),
+          Button3D(label: adding ? tr('Opening…') : lockOn ? tr('Turn off lock screen word') : tr('Show on lock screen'), onPressed: adding ? null : () async {
+            setState(() => adding = true);
+            final want = !lockOn;
+            final ok = await HomeWidgets.setLockWord(want);
+            if (!mounted) return;
+            setState(() { adding = false; if (ok) lockOn = want; });
+            Toasts.I.show(ok ? (want ? tr('Done! Lock your phone to see today’s word.') : tr('Lock screen word turned off.')) : tr('Could not change your lock screen. Please try again.'));
+          }),
+        ] else Button3D(label: adding ? tr('Opening…') : tr('Add widget'), onPressed: adding ? null : () async {
           setState(() => adding = true);
-          final pinned = Platform.isAndroid && family != 'lock' && await HomeWidgets.requestPin(family != 'small');
+          final pinned = Platform.isAndroid && await HomeWidgets.requestPin(family != 'small');
           if (!mounted) return;
           setState(() => adding = false);
           if (pinned) return;
           if (!mounted) return;
           await showMimiModal<void>(this.context, (sheet) => Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
             Text(tr('Add Kizuki to your screen'), style: txt(20, w: FontWeight.w900)), const SizedBox(height: 12),
-            Text(Platform.isIOS ? (family == 'lock' ? tr('Touch and hold your Lock Screen → Customize → Lock Screen → Add Widgets → Kizuki.') : tr('Touch and hold your Home Screen → Edit → Add Widget → Kizuki. Choose a size, then tap Add Widget.')) : (family == 'lock' ? tr('Lock-screen widgets are supported only on some Android versions and devices. Use your device’s widget picker if available.') : tr('Touch and hold your Home Screen → Widgets → Kizuki. Drag a widget onto your screen.')), style: txt(15, c: T.muted)),
+            Text(Platform.isIOS ? (family == 'lock' ? tr('Touch and hold your Lock Screen → Customize → Lock Screen → Add Widgets → Kizuki.') : tr('Touch and hold your Home Screen → Edit → Add Widget → Kizuki. Choose a size, then tap Add Widget.')) : tr('Touch and hold your Home Screen → Widgets → Kizuki. Drag a widget onto your screen.'), style: txt(15, c: T.muted)),
             const SizedBox(height: 20), Button3D(label: tr('Got it'), onPressed: () => Navigator.of(context, rootNavigator: true).pop()),
           ]));
         }),
@@ -82,20 +100,17 @@ class WidgetPreview extends StatelessWidget {
     final w = word;
     final lock = family == 'lock', small = family == 'small';
     if (lock) {
-      return ClipRRect(borderRadius: BorderRadius.circular(24), child: SizedBox(height: 310, child: Stack(fit: StackFit.expand, children: [
-        Image.asset('assets/widgets/wallpaper.jpg', fit: BoxFit.cover),
-        Padding(padding: const EdgeInsets.all(20), child: Column(children: [
+      return Container(height: 360, decoration: BoxDecoration(color: T.background, border: Border.all(color: T.border), borderRadius: BorderRadius.circular(24)),
+        padding: const EdgeInsets.all(20), child: Column(children: [
           Text(DateFormat.MMMMEEEEd().format(DateTime.now()), style: txt(14, c: T.foreground)),
           Text('10:05', style: txt(56, w: FontWeight.w900, c: T.foreground)),
-          const SizedBox(height: 28),
-          Row(children: [Flexible(child: Text(w?.word ?? '気', maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(40, c: T.foreground, family: T.jp))), const SizedBox(width: 16),
-            Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              if (reading) Text(w?.reading ?? '', maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(13, c: T.foreground, family: T.jp)),
-              if (meaning) Text(w?.meaning ?? tr('Japanese'), maxLines: 2, overflow: TextOverflow.ellipsis, style: txt(16, c: T.foreground)),
-            ])),
-          ]),
-        ])),
-      ])));
+          const Spacer(),
+          if (reading) Text(w?.reading ?? '', maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(15, c: T.primary, family: T.jp)),
+          Text(w?.word ?? '気づき', maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(52, c: T.foreground, family: T.jp)),
+          if (meaning) Text(w?.meaning ?? tr('Japanese'), maxLines: 1, overflow: TextOverflow.ellipsis, style: txt(15, c: T.muted)),
+          const Spacer(),
+          Text('kizuki', style: txt(12, w: FontWeight.w900, c: T.primary)),
+        ]));
     }
     return Container(height: family == 'large' ? 320 : 180, padding: const EdgeInsets.all(18),
       decoration: BoxDecoration(color: T.surface2, border: Border.all(color: T.border), borderRadius: BorderRadius.circular(lock ? 16 : 24)),

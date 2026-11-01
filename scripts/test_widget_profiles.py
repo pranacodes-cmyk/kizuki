@@ -2,9 +2,14 @@ import datetime
 import sys
 import unittest
 sys.path.insert(0, 'scripts/stores')
-from widget_profiles import profile_problem, GROUP
+from widget_profiles import profile_problem, GROUP, exact_bundle_ids
 
 class WidgetProfileTest(unittest.TestCase):
+    def test_main_app_does_not_match_widget_extension(self):
+        candidates = [{'id': 'app', 'attributes': {'identifier': 'com.kizukijapan.app'}},
+                      {'id': 'widget', 'attributes': {'identifier': 'com.kizukijapan.app.widgets'}}]
+        self.assertEqual([item['id'] for item in exact_bundle_ids(candidates, 'com.kizukijapan.app')], ['app'])
+        self.assertEqual([item['id'] for item in exact_bundle_ids(candidates, 'com.kizukijapan.app.widgets')], ['widget'])
     def profile(self):
         return {'ExpirationDate': datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(days=30),
                 'Entitlements': {'application-identifier': 'TEAM.com.kizukijapan.app.widgets', 'com.apple.security.application-groups': [GROUP]}}

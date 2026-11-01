@@ -8,7 +8,6 @@ import { contentQuery } from '@/lib/feed';
 import { widgetPreviewWords } from '@/lib/home-widgets';
 import { useApp, dueKeysOf, streakOf } from '@/lib/store';
 import { cn } from '@/lib/utils';
-import wallpaper from '@/assets/widget-wallpaper.jpg';
 import { getLang, tr, useLang } from "@/lib/i18n";
 
 export const Route = createFileRoute('/widgets')({
@@ -47,11 +46,13 @@ function WidgetsPage() {
         {[['small', tr('Small')], ['medium', tr('Wide')], ['large', tr('Large')], ['lock', tr('Lock')]].map(([value, label]) => <Button key={value} size="sm" variant={family === value ? 'primary' : 'surface'} className="rounded-lg px-1" aria-pressed={family === value} onClick={() => setFamily(value ?? 'medium')}>{label}</Button>)}
       </div>
       <div className="mt-6 flex justify-center">
-        <div aria-label={tr("Widget preview")} className={cn('relative flex flex-col overflow-hidden border border-border bg-surface-2', small ? 'h-[180px] w-[170px] rounded-3xl p-[18px]' : lock ? 'h-[310px] w-full rounded-3xl p-5' : family === 'large' ? 'h-80 w-full rounded-3xl p-[18px]' : 'h-[180px] w-full rounded-3xl p-[18px]')}>
-          {lock && <><img src={wallpaper} width={1024} height={1792} loading="lazy" alt={tr("Mount Fuji beside a Japanese lake")} className="absolute inset-0 h-full w-full object-cover" /><div className="absolute inset-0 bg-background/25" /><div className="relative text-center"><p className="text-sm font-bold text-foreground">{new Date().toLocaleDateString(getLang(), { weekday: "long", day: "numeric", month: "long" })}</p><p className="text-[3.5rem] font-black leading-tight text-foreground">10:05</p></div></>}
-          {lock ? <div className="relative mt-2 flex h-20 items-center gap-4">
-            <span className="min-w-0 max-w-[45%] truncate font-jp text-[2.5rem]">{w?.word ?? '気'}</span>
-            <div className="min-w-0 flex-1">{reading && <p className="truncate font-jp text-[0.8125rem] text-muted-foreground">{w?.reading}</p>}{meaning && <p className="line-clamp-2 text-base font-bold">{w?.meaning ?? tr("Japanese")}</p>}</div>
+        <div aria-label={tr("Widget preview")} className={cn('relative flex flex-col overflow-hidden border border-border bg-surface-2', small ? 'h-[180px] w-[170px] rounded-3xl p-[18px]' : lock ? 'h-[360px] w-full rounded-3xl bg-background p-5 text-center' : family === 'large' ? 'h-80 w-full rounded-3xl p-[18px]' : 'h-[180px] w-full rounded-3xl p-[18px]')}>
+          {lock && <><p className="text-sm font-bold text-foreground">{new Date().toLocaleDateString(getLang(), { weekday: "long", day: "numeric", month: "long" })}</p><p className="text-[3.5rem] font-black leading-tight text-foreground">10:05</p></>}
+          {lock ? <div className="my-auto min-w-0">
+            {reading && <p className="truncate font-jp text-[0.9375rem] text-primary">{w?.reading}</p>}
+            <p className="truncate font-jp text-[3.25rem] leading-tight">{w?.word ?? '気づき'}</p>
+            {meaning && <p className="truncate text-[0.9375rem] text-muted-foreground">{w?.meaning ?? tr("Japanese")}</p>}
+            <p className="mt-6 text-xs font-black text-primary">kizuki</p>
           </div> : <>
             <div className="flex items-center gap-1.5"><Mascot pose="face" className="size-[22px]" /><span className="text-[0.8125rem] font-black text-primary">kizuki</span>{!small && <Sparkles className="ml-auto size-4 text-primary" />}</div>
             <div className={cn('my-auto', !small && 'flex items-center gap-5')}>
@@ -71,12 +72,13 @@ function WidgetsPage() {
         })}
       </div>
       <p className="mt-2 text-xs leading-relaxed text-muted-foreground">{tr("Saved words and review progress will be visible to anyone looking at your screen.")}</p>
-      <Button className="mt-6" onClick={() => setInstructions(true)}><Smartphone className="size-5" />{tr("Add widget")}</Button>
+      {lock && <p className="mt-5 text-sm text-muted-foreground">{tr("One new Japanese word on your lock screen every day. No setup — just tap the button.")}</p>}
+      <Button className="mt-6" onClick={() => setInstructions(true)}><Smartphone className="size-5" />{lock ? tr("Show on lock screen") : tr("Add widget")}</Button>
     </div>
     <Modal open={instructions} onClose={() => setInstructions(false)}>
       <h2 className="text-xl font-black">{tr("Add Kizuki to your screen")}</h2>
       <div className="mt-4 grid grid-cols-2 gap-2">{['ios', 'android'].map((p) => <Button key={p} size="sm" variant={platform === p ? 'primary' : 'surface'} onClick={() => setPlatform(p)}>{p === 'ios' ? tr("iPhone") : tr("Android")}</Button>)}</div>
-      <p className="mt-4 text-[0.9375rem] leading-relaxed text-muted-foreground">{platform === 'ios' ? lock ? tr("Touch and hold your Lock Screen → Customize → Lock Screen → Add Widgets → Kizuki.") : tr("Touch and hold your Home Screen → Edit → Add Widget → Kizuki. Choose a size, then tap Add Widget.") : lock ? tr("Lock-screen widgets are supported only on some Android versions and devices. Use your device’s widget picker if available.") : tr("Touch and hold your Home Screen → Widgets → Kizuki. Drag a widget onto your screen.")}</p>
+      <p className="mt-4 text-[0.9375rem] leading-relaxed text-muted-foreground">{platform === 'ios' ? lock ? tr("Touch and hold your Lock Screen → Customize → Lock Screen → Add Widgets → Kizuki.") : tr("Touch and hold your Home Screen → Edit → Add Widget → Kizuki. Choose a size, then tap Add Widget.") : lock ? tr("On Android, tap Show on lock screen in the app — Kizuki sets a simple black lock screen with today’s word.") : tr("Touch and hold your Home Screen → Widgets → Kizuki. Drag a widget onto your screen.")}</p>
       <p className="mt-3 text-xs text-muted-foreground"><LockKeyhole className="mr-1 inline size-3" />{tr("System widgets are added on your phone, not from this web preview.")}</p>
       <Button className="mt-5" onClick={() => setInstructions(false)}>{tr("Got it")}</Button>
     </Modal>
